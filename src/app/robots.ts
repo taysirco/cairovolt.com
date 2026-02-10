@@ -60,6 +60,5 @@ export default function robots(): MetadataRoute.Robots {
             'https://cairovolt.com/sitemap.xml',
             'https://cairovolt.com/image-sitemap.xml',
         ],
-        host: 'https://cairovolt.com',
     };
 }
