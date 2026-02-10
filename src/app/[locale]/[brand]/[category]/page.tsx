@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             languages: {
                 'ar': `https://cairovolt.com/${path}`,
                 'en': `https://cairovolt.com/en/${path}`,
+                'x-default': `https://cairovolt.com/${path}`,
             },
         },
         openGraph: meta.openGraph ? { ...meta.openGraph, locale: locale === 'ar' ? 'ar_EG' : 'en_US' } : undefined,

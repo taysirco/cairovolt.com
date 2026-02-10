@@ -318,40 +318,24 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
             name: isArabic ? 'منتجات كايرو فولت' : 'Cairo Volt Products',
             itemListElement: [
                 {
-                    '@type': 'Offer',
-                    itemOffered: {
-                        '@type': 'Product',
-                        name: isArabic ? 'باور بانك أنكر' : 'Anker Power Banks',
-                        offers: {
-                            '@type': 'AggregateOffer',
-                            priceCurrency: 'EGP',
-                            lowPrice: 450,
-                            highPrice: 2500,
-                            offerCount: 15,
-                        },
-                    },
-                    areaServed: {
-                        '@type': 'Country',
-                        name: 'Egypt',
-                    },
+                    '@type': 'OfferCatalog',
+                    name: isArabic ? 'باور بانك' : 'Power Banks',
+                    url: 'https://cairovolt.com/power-banks',
                 },
                 {
-                    '@type': 'Offer',
-                    itemOffered: {
-                        '@type': 'Product',
-                        name: isArabic ? 'سماعات جوي روم' : 'Joyroom Earbuds',
-                        offers: {
-                            '@type': 'AggregateOffer',
-                            priceCurrency: 'EGP',
-                            lowPrice: 280,
-                            highPrice: 850,
-                            offerCount: 8,
-                        },
-                    },
-                    areaServed: {
-                        '@type': 'Country',
-                        name: 'Egypt',
-                    },
+                    '@type': 'OfferCatalog',
+                    name: isArabic ? 'شواحن' : 'Chargers',
+                    url: 'https://cairovolt.com/chargers',
+                },
+                {
+                    '@type': 'OfferCatalog',
+                    name: isArabic ? 'سماعات' : 'Earbuds',
+                    url: 'https://cairovolt.com/earbuds',
+                },
+                {
+                    '@type': 'OfferCatalog',
+                    name: isArabic ? 'كابلات' : 'Cables',
+                    url: 'https://cairovolt.com/cables',
                 },
             ],
         },
@@ -391,9 +375,7 @@ interface ItemListProps {
 }
 
 // ItemList Schema for product listings in category pages
-export function ItemListSchema({ listName, items, locale }: ItemListProps) {
-    const isArabic = locale === 'ar';
-
+export function ItemListSchema({ listName, items }: ItemListProps) {
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
@@ -403,19 +385,8 @@ export function ItemListSchema({ listName, items, locale }: ItemListProps) {
         itemListElement: items.map((item) => ({
             '@type': 'ListItem',
             position: item.position,
-            item: {
-                '@type': 'Product',
-                name: item.name,
-                url: item.url,
-                image: item.image,
-                offers: {
-                    '@type': 'Offer',
-                    price: item.price,
-                    priceCurrency: 'EGP',
-                    availability: 'https://schema.org/InStock',
-                    itemCondition: 'https://schema.org/NewCondition',
-                },
-            },
+            name: item.name,
+            url: item.url,
         })),
     };
 
@@ -449,15 +420,6 @@ export function WebSiteSchema({ locale, baseUrl = 'https://cairovolt.com' }: Web
             : 'Original mobile accessories store in Egypt - Anker & Joyroom with official warranty',
         publisher: {
             '@id': `${baseUrl}/#organization`,
-        },
-        // SearchAction for Google Sitelinks Search Box
-        potentialAction: {
-            '@type': 'SearchAction',
-            target: {
-                '@type': 'EntryPoint',
-                urlTemplate: `${baseUrl}/${locale}/search?q={search_term_string}`,
-            },
-            'query-input': 'required name=search_term_string',
         },
         // Geographic targeting
         about: {

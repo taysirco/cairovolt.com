@@ -40,10 +40,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         // NoIndex - These pages cause duplicate content and don't generate traffic
         robots: {
             index: false,
-            follow: false,
+            follow: true,
             googleBot: {
                 index: false,
-                follow: false,
+                follow: true,
             },
         },
         alternates: {

@@ -110,6 +110,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             languages: {
                 'ar': `https://cairovolt.com/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
                 'en': `https://cairovolt.com/en/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
+                'x-default': `https://cairovolt.com/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
             }
         },
     };

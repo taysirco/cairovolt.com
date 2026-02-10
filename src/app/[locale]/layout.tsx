@@ -6,8 +6,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
 import { OrganizationSchema } from '@/components/schemas/ProductSchema';
 import { LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
 import { CartProvider } from '@/context/CartContext';
@@ -36,15 +34,7 @@ export const metadata: Metadata = {
       { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
-  alternates: {
-    // Each page sets its own canonical in generateMetadata
-    // Arabic is default locale - no /ar/ prefix
-    languages: {
-      'ar': 'https://cairovolt.com',
-      'en': 'https://cairovolt.com/en',
-      'x-default': 'https://cairovolt.com',
-    },
-  },
+  // alternates are set per-page via generateMetadata to avoid homepage-pointing hreflang on all pages
   openGraph: {
     type: 'website',
     locale: 'ar_EG',
@@ -89,11 +79,7 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
         <link rel="dns-prefetch" href="https://firestore.googleapis.com" />
-        {/* hreflang tags for better international SEO */}
-        {/* Arabic is default locale - no /ar/ prefix */}
-        <link rel="alternate" hrefLang="ar" href="https://cairovolt.com" />
-        <link rel="alternate" hrefLang="en" href="https://cairovolt.com/en" />
-        <link rel="alternate" hrefLang="x-default" href="https://cairovolt.com" />
+        {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
       </head>
       <body
         className={`${geistSans.variable} antialiased bg-gray-50 text-gray-900`}

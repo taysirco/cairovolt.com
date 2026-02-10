@@ -14,6 +14,7 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: [
                     '/api/',
                     '/checkout/',
+                    '/confirm/',
                     '/private/',
                     '/_next/',
                     '/admin/',

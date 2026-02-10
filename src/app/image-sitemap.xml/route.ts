@@ -67,36 +67,49 @@ export async function GET() {
 
         // Use proper brand casing (Anker, Joyroom)
         const properBrand = product.brand.charAt(0).toUpperCase() + product.brand.slice(1).toLowerCase();
-        const productUrl = `${baseUrl}/${properBrand}/${product.categorySlug}/${product.slug}`;
+        const productPath = `/${properBrand}/${product.categorySlug}/${product.slug}`;
 
+        // Arabic caption with geo
+        const captionAr = (img: ProductImage) => img.altAr
+            ? `${img.altAr} - توصيل سريع لجميع محافظات مصر`
+            : `${product.translations?.ar?.name || product.slug} اصلي في مصر`;
+
+        // English title with geo
+        const titleEn = (img: ProductImage) => img.alt
+            ? `${img.alt} - Egypt Original`
+            : `${product.translations?.en?.name || product.slug} Original Egypt`;
+
+        // Arabic URL entry (default locale)
         xml += `  <url>
-    <loc>${productUrl}</loc>
+    <loc>${baseUrl}${productPath}</loc>
 `;
-
         for (const image of product.images) {
-            const imageUrl = image.url.startsWith('http')
-                ? image.url
-                : `${baseUrl}${image.url}`;
-
-            // Arabic caption with geo
-            const captionAr = image.altAr
-                ? `${image.altAr} - توصيل سريع لجميع محافظات مصر`
-                : `${product.translations?.ar?.name || product.slug} اصلي في مصر`;
-
-            // English title with geo
-            const titleEn = image.alt
-                ? `${image.alt} - Egypt Original`
-                : `${product.translations?.en?.name || product.slug} Original Egypt`;
-
+            const imageUrl = image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`;
             xml += `    <image:image>
       <image:loc>${imageUrl}</image:loc>
-      <image:caption>${escapeXml(captionAr)}</image:caption>
+      <image:caption>${escapeXml(captionAr(image))}</image:caption>
       <image:geo_location>Cairo, Egypt</image:geo_location>
-      <image:title>${escapeXml(titleEn)}</image:title>
+      <image:title>${escapeXml(titleEn(image))}</image:title>
     </image:image>
 `;
         }
+        xml += `  </url>
+`;
 
+        // English URL entry
+        xml += `  <url>
+    <loc>${baseUrl}/en${productPath}</loc>
+`;
+        for (const image of product.images) {
+            const imageUrl = image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`;
+            xml += `    <image:image>
+      <image:loc>${imageUrl}</image:loc>
+      <image:caption>${escapeXml(titleEn(image))}</image:caption>
+      <image:geo_location>Cairo, Egypt</image:geo_location>
+      <image:title>${escapeXml(titleEn(image))}</image:title>
+    </image:image>
+`;
+        }
         xml += `  </url>
 `;
     }

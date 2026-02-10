@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             languages: {
                 'ar': 'https://cairovolt.com/blog',
                 'en': 'https://cairovolt.com/en/blog',
+                'x-default': 'https://cairovolt.com/blog',
             },
         },
         openGraph: {

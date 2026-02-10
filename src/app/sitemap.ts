@@ -6,13 +6,14 @@ import { staticProducts } from '@/lib/static-products';
 import { governorates } from '@/data/governorates';
 import { blogArticles } from '@/data/blog-articles';
 import { genericCategories } from '@/data/generic-categories';
+import { getFirestore } from '@/lib/firebase-admin';
 
 const baseUrl = 'https://cairovolt.com';
 
 // Helper to capitalize brand (anker → Anker, joyroom → Joyroom)
 const capitalizeBrand = (brand: string) => brand.charAt(0).toUpperCase() + brand.slice(1);
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const routes: MetadataRoute.Sitemap = [
         // Home
         { url: baseUrl, priority: 1.0, changeFrequency: 'weekly', lastModified: new Date() },
@@ -78,7 +79,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
     });
 
-    // Dynamic Product Pages - Use proper casing
+    // Dynamic Product Pages - Use proper casing (static + Firebase)
+    const staticSlugs = new Set(staticProducts.map(p => p.slug));
+
     staticProducts.forEach(product => {
         const properBrand = capitalizeBrand(product.brand.toLowerCase());
         routes.push({
@@ -94,6 +97,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: new Date(),
         });
     });
+
+    // Firebase-only products (not in static data)
+    try {
+        const db = await getFirestore();
+        if (db) {
+            const snapshot = await db.collection('products').get();
+            snapshot.docs.forEach(doc => {
+                const data = doc.data();
+                if (data.slug && data.brand && data.categorySlug && !staticSlugs.has(data.slug)) {
+                    const properBrand = capitalizeBrand(data.brand.toLowerCase());
+                    routes.push({
+                        url: `${baseUrl}/${properBrand}/${data.categorySlug}/${data.slug}`,
+                        priority: 0.9,
+                        changeFrequency: 'daily',
+                        lastModified: new Date(),
+                    });
+                    routes.push({
+                        url: `${baseUrl}/en/${properBrand}/${data.categorySlug}/${data.slug}`,
+                        priority: 0.9,
+                        changeFrequency: 'daily',
+                        lastModified: new Date(),
+                    });
+                }
+            });
+        }
+    } catch (error) {
+        console.warn('Firebase not available for sitemap, using static products only:', error);
+    }
 
     // Generic Category Pages (brand-agnostic landing pages)
     genericCategories.forEach(cat => {

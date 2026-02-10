@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             languages: {
                 'ar': 'https://cairovolt.com/terms',
                 'en': 'https://cairovolt.com/en/terms',
+                'x-default': 'https://cairovolt.com/terms',
             },
         },
         robots: {
