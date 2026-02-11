@@ -40,6 +40,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${baseUrl}/en/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
         { url: `${baseUrl}/terms`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
         { url: `${baseUrl}/en/terms`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
+        { url: `${baseUrl}/return-policy`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date() },
+        { url: `${baseUrl}/en/return-policy`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date() },
     ];
 
     // Dynamic Brand Pages - Use proper casing (Anker, Joyroom)

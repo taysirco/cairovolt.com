@@ -412,5 +412,57 @@
                 "content": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting. Continued use constitutes acceptance of modified terms."
             }
         }
+    },
+    "ReturnPolicy": {
+        "metaTitle": "Return & Refund Policy | Cairo Volt",
+        "metaDescription": "Return products within 14 days in original condition. Full refund processed in 5-7 business days. Hassle-free returns at Cairo Volt Egypt.",
+        "title": "Return & Refund Policy",
+        "lastUpdated": "Last updated: February 2026",
+        "window": {
+            "title": "Return Window",
+            "days": "Days Return Period",
+            "description": "From the date of delivery. Products must be in original, unused condition."
+        },
+        "eligible": {
+            "title": "Eligible for Return",
+            "unused": "Product is unused and in its original condition",
+            "originalPackaging": "Original packaging and box are intact and undamaged",
+            "accessories": "All included accessories, cables, and manuals are present",
+            "receipt": "Proof of purchase (order number or WhatsApp confirmation)"
+        },
+        "nonReturnable": {
+            "title": "Non-Returnable Items",
+            "opened": "Earbuds or audio products that have been opened or used (hygiene reasons)",
+            "damaged": "Products with physical damage (scratches, dents, cracks)",
+            "misuse": "Products damaged due to misuse, negligence, or unauthorized modification",
+            "noPackaging": "Products returned without original packaging or missing accessories"
+        },
+        "howToReturn": {
+            "title": "How to Return",
+            "step1": "Contact us via WhatsApp (01063374834) with your order number and reason for return",
+            "step2": "Our team will review your request and confirm eligibility within 24 hours",
+            "step3": "Ship the product back or we'll arrange a pickup (Cairo & Giza)",
+            "step4": "Refund is processed once the product is received and inspected"
+        },
+        "refund": {
+            "title": "Refund Details",
+            "processing": "Processing Time",
+            "businessDays": "business days after receiving the item",
+            "method": "Refund Method",
+            "methodDescription": "Refunds are issued via Vodafone Cash, InstaPay, or bank transfer — your choice.",
+            "shippingNote": "Note: Original shipping fees are non-refundable unless the return is due to a defective product or an error on our part."
+        },
+        "defective": {
+            "title": "Defective Products",
+            "description": "Received a defective or damaged product? We've got you covered:",
+            "freeReturn": "Free return shipping — we'll pick it up at no cost",
+            "fullRefund": "Full refund including original shipping fees, or replacement at your choice",
+            "warranty": "Defects after 14 days are covered under our warranty policy (up to 18 months)"
+        },
+        "contact": {
+            "title": "Need Help with a Return?",
+            "description": "Our team is available to assist you with any return or exchange questions.",
+            "whatsapp": "Chat on WhatsApp"
+        }
     }
 }
