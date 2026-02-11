@@ -19,6 +19,9 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://cairovolt.com'),
+  verification: {
+    google: '_OOytL9s0O8UkXhp8t8TsZw-hXGRTj12boqhQtgJLJw',
+  },
   title: {
     template: '%s | Cairo Volt',
     default: 'Cairo Volt - Premium Mobile Accessories in Egypt',
