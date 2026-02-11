@@ -179,7 +179,7 @@
         "goHome": "Go to Homepage"
     },
     "Shipping": {
-        "metaTitle": "Shipping & Delivery | Cairo Volt",
+        "metaTitle": "Shipping & Delivery",
         "metaDescription": "Free shipping on orders over 500 EGP. Fast delivery across Egypt in 1-5 days.",
         "title": "Shipping & Delivery",
         "deliveryAreas": {
@@ -209,7 +209,7 @@
         }
     },
     "Warranty": {
-        "metaTitle": "Warranty Policy | Cairo Volt",
+        "metaTitle": "Warranty Policy",
         "metaDescription": "Official warranty up to 24 months for Anker and Joyroom products. Learn about our warranty coverage.",
         "title": "Warranty Policy",
         "period": {
@@ -242,7 +242,7 @@
         }
     },
     "FAQ": {
-        "metaTitle": "Frequently Asked Questions | Cairo Volt",
+        "metaTitle": "Frequently Asked Questions",
         "metaDescription": "Find answers to common questions about ordering, shipping, warranty, and products.",
         "title": "Frequently Asked Questions",
         "subtitle": "Find quick answers to your questions",
@@ -298,7 +298,7 @@
         }
     },
     "About": {
-        "metaTitle": "About Us | Cairo Volt",
+        "metaTitle": "About Us",
         "metaDescription": "Cairo Volt is Egypt's trusted destination for Anker and Joyroom mobile accessories.",
         "title": "About Cairo Volt",
         "subtitle": "Your trusted destination for premium mobile accessories in Egypt",
@@ -338,7 +338,7 @@
         }
     },
     "Privacy": {
-        "metaTitle": "Privacy Policy | Cairo Volt",
+        "metaTitle": "Privacy Policy",
         "metaDescription": "Learn how Cairo Volt protects your personal information and privacy.",
         "title": "Privacy Policy",
         "lastUpdated": "Last updated: January 2026",
@@ -374,7 +374,7 @@
         }
     },
     "Terms": {
-        "metaTitle": "Terms & Conditions | Cairo Volt",
+        "metaTitle": "Terms & Conditions",
         "metaDescription": "Read the terms and conditions for shopping at Cairo Volt.",
         "title": "Terms & Conditions",
         "lastUpdated": "Last updated: January 2026",
@@ -414,7 +414,7 @@
         }
     },
     "ReturnPolicy": {
-        "metaTitle": "Return & Refund Policy | Cairo Volt",
+        "metaTitle": "Return & Refund Policy",
         "metaDescription": "Return products within 14 days in original condition. Full refund processed in 5-7 business days. Hassle-free returns at Cairo Volt Egypt.",
         "title": "Return & Refund Policy",
         "lastUpdated": "Last updated: February 2026",

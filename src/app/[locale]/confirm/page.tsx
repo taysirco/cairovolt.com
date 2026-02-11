@@ -297,7 +297,7 @@ export default function ConfirmPage() {
             <div className="mt-8 text-center">
                 <p className="text-gray-500 text-sm mb-2">هل لديك استفسار؟</p>
                 <a
-                    href={`https://wa.me/201000000000?text=استفسار عن الطلب رقم ${orderData.orderId}`}
+                    href={`https://wa.me/201063374834?text=استفسار عن الطلب رقم ${orderData.orderId}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 font-medium"
