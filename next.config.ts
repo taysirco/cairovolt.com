@@ -92,6 +92,10 @@ const nextConfig = {
             { source: '/Anker/anker-521-powerhouse', destination: '/Anker/power-banks/anker-521-powerhouse', permanent: true },
             { source: '/en/Anker/anker-521-powerhouse', destination: '/en/Anker/power-banks/anker-521-powerhouse', permanent: true },
 
+            // === Joyroom earbuds: Missing category in URL ===
+            { source: '/Joyroom/joyroom-t03s-pro-earbuds', destination: '/Joyroom/audio/joyroom-t03s-pro-earbuds', permanent: true },
+            { source: '/en/Joyroom/joyroom-t03s-pro-earbuds', destination: '/en/Joyroom/audio/joyroom-t03s-pro-earbuds', permanent: true },
+
             // === Non-existent Anker products → Category ===
             { source: '/Anker/anker-soundcore-life-p2i', destination: '/Anker/audio', permanent: true },
             { source: '/en/Anker/anker-soundcore-life-p2i', destination: '/en/Anker/audio', permanent: true },
