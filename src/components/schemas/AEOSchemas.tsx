@@ -149,6 +149,13 @@ export function HowToSchema({
 // ARTICLE SCHEMA - For SEO Content Sections
 // ============================================
 
+interface EntityReference {
+    name: string;
+    type: string;       // schema.org @type (Brand, Product, Thing, Country)
+    sameAs: string;     // Wikipedia URL
+    additionalSameAs?: string[]; // Wikidata, official sites
+}
+
 interface ArticleSection {
     heading: string;
     content: string;
@@ -164,11 +171,14 @@ interface ArticleProps {
     image?: string;
     locale: string;
     articleType?: 'Article' | 'BlogPosting' | 'NewsArticle' | 'TechArticle';
+    about?: EntityReference[];    // Primary entities this article is about
+    mentions?: EntityReference[]; // Entities mentioned in the article
 }
 
 /**
  * ArticleSchema for SEO content in brand/category pages
  * Helps establish E-E-A-T and enables rich snippets
+ * Enhanced with `about` and `mentions` for Knowledge Graph entity linking
  */
 export function ArticleSchema({
     headline,
@@ -179,7 +189,9 @@ export function ArticleSchema({
     url,
     image,
     locale,
-    articleType = 'Article'
+    articleType = 'Article',
+    about,
+    mentions,
 }: ArticleProps) {
     // Use stable dates - avoid new Date() which changes on every render
     // and causes Google to see constantly changing dates
@@ -190,7 +202,7 @@ export function ArticleSchema({
         ?.map(s => `${s.heading}\n${s.content}`)
         .join('\n\n') || description;
 
-    const schema = {
+    const schema: Record<string, unknown> = {
         '@context': 'https://schema.org',
         '@type': articleType,
         headline: headline,
@@ -218,13 +230,33 @@ export function ArticleSchema({
                 height: 60,
             },
         },
-        ...(image && {
-            image: {
-                '@type': 'ImageObject',
-                url: image,
-            },
-        }),
     };
+
+    // Image
+    if (image) {
+        schema.image = { '@type': 'ImageObject', url: image };
+    }
+
+    // Entity linking: about (primary topics)
+    if (about && about.length > 0) {
+        schema.about = about.map(entity => ({
+            '@type': entity.type,
+            name: entity.name,
+            sameAs: entity.sameAs,
+            ...(entity.additionalSameAs && entity.additionalSameAs.length > 0 && {
+                additionalType: entity.additionalSameAs[0],
+            }),
+        }));
+    }
+
+    // Entity linking: mentions (referenced entities)
+    if (mentions && mentions.length > 0) {
+        schema.mentions = mentions.map(entity => ({
+            '@type': entity.type,
+            name: entity.name,
+            sameAs: entity.sameAs,
+        }));
+    }
 
     return (
         <script
@@ -233,6 +265,9 @@ export function ArticleSchema({
         />
     );
 }
+
+// Re-export EntityReference for use in other components
+export type { EntityReference };
 
 // ============================================
 // LOCAL BUSINESS SCHEMA - GEO SEO for Egypt

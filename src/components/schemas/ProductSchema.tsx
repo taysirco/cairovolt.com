@@ -1,5 +1,6 @@
 // Server Component - Schemas must be SSR for Google to crawl them
 // DO NOT add 'use client' here!
+import { entityRegistry } from '@/data/entity-registry';
 
 interface ProductSchemaProps {
     product: {
@@ -92,6 +93,51 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
         image: product.images.map(img => `${baseUrl}${img.url}`),
         // Add subjectOf property for VideoObject
         ...(videoSchema && { "subjectOf": videoSchema }),
+        // Entity linking: about (what this product IS)
+        about: (() => {
+            const brandKey = product.brand.toLowerCase();
+            const brandEntity = entityRegistry[brandKey as keyof typeof entityRegistry];
+            const aboutEntities: Array<{ '@type': string; name: string; sameAs: string }> = [];
+            if (brandEntity) {
+                aboutEntities.push({
+                    '@type': brandEntity.type,
+                    name: isArabic ? brandEntity.nameAr : brandEntity.name,
+                    sameAs: brandEntity.sameAs,
+                });
+            }
+            // Add Egypt as area
+            const egypt = entityRegistry['egypt' as keyof typeof entityRegistry];
+            if (egypt) {
+                aboutEntities.push({
+                    '@type': egypt.type,
+                    name: isArabic ? egypt.nameAr : egypt.name,
+                    sameAs: egypt.sameAs,
+                });
+            }
+            return aboutEntities.length > 0 ? aboutEntities : undefined;
+        })(),
+        // Entity linking: mentions (related tech/concepts)
+        mentions: (() => {
+            const mentionEntities: Array<{ '@type': string; name: string; sameAs: string }> = [];
+            // USB-C is relevant for all modern products
+            const usbC = entityRegistry['usbC' as keyof typeof entityRegistry];
+            if (usbC) {
+                mentionEntities.push({
+                    '@type': usbC.type,
+                    name: isArabic ? usbC.nameAr : usbC.name,
+                    sameAs: usbC.sameAs,
+                });
+            }
+            const cairo = entityRegistry['cairo' as keyof typeof entityRegistry];
+            if (cairo) {
+                mentionEntities.push({
+                    '@type': cairo.type,
+                    name: isArabic ? cairo.nameAr : cairo.name,
+                    sameAs: cairo.sameAs,
+                });
+            }
+            return mentionEntities.length > 0 ? mentionEntities : undefined;
+        })(),
         // Product specifications as additionalProperty for rich results
         ...(specifications && Object.keys(specifications).length > 0 && {
             additionalProperty: Object.entries(specifications).map(([key, val]) => ({

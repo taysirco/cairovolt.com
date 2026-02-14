@@ -53,6 +53,10 @@ export interface BrandData {
         en: Array<{ question: string; answer: string }>;
         ar: Array<{ question: string; answer: string }>;
     };
+    sgeSummary?: {
+        en: string;
+        ar: string;
+    };
 }
 
 
@@ -182,6 +186,10 @@ export const brandData: Record<string, BrandData> = {
                 { question: 'Which is better: Anker or Joyroom?', answer: 'If you want "World Class Performance" and long-term durability, **Anker** is the G.O.A.T investment. If you want "Best Value for Money" and great features on a budget, **Joyroom** is the smart choice. Both are 100% original and guaranteed at Cairo Volt.' },
                 { question: 'Where is the authorized Anker Service Center in Egypt?', answer: 'No need to search for a repair center! Our policy is "Instant Replacement". If you face any issue within 18 months, contact us via WhatsApp and we will replace the unit securely.' }
             ]
+        },
+        sgeSummary: {
+            en: 'Anker is the world\'s #1 charging brand, available in Egypt via Cairo Volt with 18-month replacement warranty. Best sellers: PowerCore 20000mAh (EGP 1,054), 20W charger (EGP 379), Soundcore P40i earbuds (EGP 1,650). All products are 100% original with GaN technology.',
+            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن، متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,054 ج)، شاحن 20W (379 ج)، سماعات P40i (1,650 ج). كل المنتجات أصلية 100% بتقنية GaN.'
         }
     },
     joyroom: {
@@ -310,6 +318,10 @@ export const brandData: Record<string, BrandData> = {
                 { question: 'Which is better: Joyroom or Anker?', answer: 'Anker = Best performance, higher price (long-term investment). Joyroom = Best value for money (smart budget). If budget is not a concern, choose Anker. If you want savings with excellent specs, choose Joyroom. Both are genuine and warranted from Cairo Volt.' },
                 { question: 'What does Joyroom warranty cover?', answer: '12-month instant replacement warranty (not repair!) against manufacturing defects. Covers: sudden failure, audio/charging issues, battery problems. Does not cover: physical damage, water damage, misuse. Contact WhatsApp and we\'ll replace the product immediately.' }
             ]
+        },
+        sgeSummary: {
+            en: 'Joyroom is the #1 budget-friendly mobile accessories brand in Egypt. Best sellers: T03s earbuds (EGP 499), 10000mAh power bank (EGP 450), USB-C cable (EGP 149). All products verified with Golden Code authenticity. 12-month replacement warranty via Cairo Volt.',
+            ar: 'جوي روم هي الماركة الأولى للإكسسوارات الاقتصادية في مصر. الأكثر مبيعاً: سماعات T03s (499 ج)، باور بانك 10000mAh (450 ج)، كابل USB-C (149 ج). كل المنتجات موثقة بنظام Golden Code. ضمان 12 شهر استبدال من كايرو فولت.'
         }
     }
 };

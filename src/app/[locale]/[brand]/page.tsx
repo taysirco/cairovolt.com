@@ -6,6 +6,8 @@ import { ArticleSchema } from '@/components/schemas/AEOSchemas';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { BrandAEOBlock } from '@/components/seo/AEOSummaryBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { SgeBaitBox } from '@/components/ui/SgeBaitBox';
+import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/entity-registry';
 
 type Props = {
     params: Promise<{ locale: string; brand: string }>;
@@ -83,6 +85,8 @@ export default async function BrandHubPage({ params }: Props) {
                         heading: s.heading,
                         content: s.content
                     }))}
+                    about={entitiesToJsonLd(getEntitiesForBrand(brand).slice(0, 3), isRTL ? 'ar' : 'en')}
+                    mentions={entitiesToJsonLd(getEntitiesForBrand(brand).slice(3), isRTL ? 'ar' : 'en')}
                 />
             )}
 
@@ -119,10 +123,21 @@ export default async function BrandHubPage({ params }: Props) {
                     </h1>
 
                     {/* Description */}
-                    <p className={`text-lg md:text-2xl font-light mb-10 max-w-3xl mx-auto leading-relaxed ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
+                    <p className={`text-lg md:text-2xl font-light mb-6 max-w-3xl mx-auto leading-relaxed ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
                         }`}>
                         {isRTL ? data.hero.description.ar : data.hero.description.en}
                     </p>
+
+                    {/* SGE Bait Box - Concise answer for AI search engines */}
+                    {data.sgeSummary && (
+                        <div className="max-w-2xl mx-auto mb-10">
+                            <SgeBaitBox
+                                summary={isRTL ? data.sgeSummary.ar : data.sgeSummary.en}
+                                locale={locale}
+                                variant="subtle"
+                            />
+                        </div>
+                    )}
 
                     {/* Hero Product - Pulsing CTA */}
                     {data.hero.heroProduct && (

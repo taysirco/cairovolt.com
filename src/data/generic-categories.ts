@@ -426,7 +426,7 @@ export const genericCategories: GenericCategory[] = [
 </table>
 
 <h2 id="gan-technology">What is GaN Technology and Why Is It Better?</h2>
-<p><strong>GaN (Gallium Nitride)</strong> is the material that revolutionized the charger industry:</p>
+<p><strong>GaN (Gallium Nitride)</strong> is the material that transformed the charger industry:</p>
 <ul>
 <li><strong>50% smaller:</strong> A 65W GaN charger is smaller than Apple's original 20W charger!</li>
 <li><strong>Less heat:</strong> Higher energy conversion efficiency = less heat = more safety</li>

@@ -7,6 +7,8 @@ import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schema
 import { FAQSchema } from '@/components/schemas/ProductSchema';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { SgeBaitBox } from '@/components/ui/SgeBaitBox';
+import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry';
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
@@ -113,6 +115,8 @@ export default async function BlogArticlePage({ params }: Props) {
                 articleType="BlogPosting"
                 datePublished={article.publishDate}
                 dateModified={article.modifiedDate}
+                about={entitiesToJsonLd(getEntitiesForArticle(slug).about, isArabic ? 'ar' : 'en')}
+                mentions={entitiesToJsonLd(getEntitiesForArticle(slug).mentions, isArabic ? 'ar' : 'en')}
             />
             <SpeakableSchema
                 pageUrl={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
@@ -176,6 +180,11 @@ export default async function BlogArticlePage({ params }: Props) {
                     <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                         {trans.excerpt}
                     </p>
+
+                    {/* SGE Bait Box - Concise answer for AI search engines */}
+                    {trans.sgeSummary && (
+                        <SgeBaitBox summary={trans.sgeSummary} locale={locale} variant="highlighted" />
+                    )}
 
                     <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400 pb-8 border-b border-gray-100 dark:border-gray-700">
                         <span className="flex items-center gap-1.5">
