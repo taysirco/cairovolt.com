@@ -178,7 +178,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                     href={`${locale === 'ar' ? '' : '/en'}/Anker/${cat.slug}`}
                                     className="group p-6 bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-lg transition-all text-center"
                                 >
-                                    <span className="text-3xl mb-2 block">{cat.icon}</span>
+                                    <SvgIcon name={cat.icon} className="w-8 h-8 mb-2 mx-auto" />
                                     <span className="font-medium text-gray-900 dark:text-white group-hover:text-blue-600">
                                         {isArabic ? cat.translations.ar.name : cat.translations.en.name}
                                     </span>

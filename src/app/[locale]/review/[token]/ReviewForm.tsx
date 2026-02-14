@@ -86,7 +86,7 @@ export default function ReviewForm({ token, productName, customerName, locale }:
     if (isSuccess) {
         return (
             <div className="review-success">
-                <div className="review-success__icon">🎉</div>
+                <div className="review-success__icon">✓</div>
                 <h2 className="review-success__title">
                     {isArabic ? 'شكراً لك!' : 'Thank You!'}
                 </h2>
@@ -277,7 +277,7 @@ export default function ReviewForm({ token, productName, customerName, locale }:
             {/* Error */}
             {error && (
                 <div className="form-error">
-                    ⚠️ {error}
+                    ⚠ {error}
                 </div>
             )}
 

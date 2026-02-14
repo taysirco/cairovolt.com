@@ -135,7 +135,7 @@ export const genericCategories: GenericCategory[] = [
 <tr><td>Joyroom 10000mAh</td><td>10,000</td><td>22.5W</td><td>2</td><td>~450</td><td>الاستخدام اليومي</td></tr>
 <tr><td>Anker 10000mAh PD</td><td>10,000</td><td>PD 20W</td><td>2</td><td>~799</td><td>iPhone شحن سريع</td></tr>
 <tr><td>Joyroom 20000mAh</td><td>20,000</td><td>PD 20W</td><td>3</td><td>~750</td><td>أفضل قيمة</td></tr>
-<tr><td><strong>Anker 20000mAh ⭐</strong></td><td><strong>20,000</strong></td><td><strong>PD 20W</strong></td><td><strong>2</strong></td><td><strong>~1,299</strong></td><td><strong>الأكثر مبيعاً</strong></td></tr>
+<tr><td><strong>Anker 20000mAh </strong></td><td><strong>20,000</strong></td><td><strong>PD 20W</strong></td><td><strong>2</strong></td><td><strong>~1,299</strong></td><td><strong>الأكثر مبيعاً</strong></td></tr>
 <tr><td>Anker 24000mAh</td><td>24,000</td><td>PD 30W</td><td>3</td><td>~1,599</td><td>3 أجهزة معاً</td></tr>
 <tr><td>Anker Prime 27650mAh</td><td>27,650</td><td>PD 250W</td><td>3</td><td>~3,799</td><td>لابتوب + موبايل</td></tr>
 </tbody>
@@ -148,7 +148,7 @@ export const genericCategories: GenericCategory[] = [
 <tbody>
 <tr><td>5,000mAh</td><td>1 مرة</td><td>0.8 مرة</td><td>~120g</td><td>طوارئ فقط</td></tr>
 <tr><td>10,000mAh</td><td>2 مرة</td><td>1.7 مرة</td><td>~220g</td><td>يوم واحد</td></tr>
-<tr><td><strong>20,000mAh ⭐</strong></td><td><strong>4 مرات</strong></td><td><strong>3.5 مرة</strong></td><td><strong>~350g</strong></td><td><strong>سفر قصير</strong></td></tr>
+<tr><td><strong>20,000mAh </strong></td><td><strong>4 مرات</strong></td><td><strong>3.5 مرة</strong></td><td><strong>~350g</strong></td><td><strong>سفر قصير</strong></td></tr>
 <tr><td>30,000mAh</td><td>6 مرات</td><td>5 مرات</td><td>~500g</td><td>رحلات طويلة</td></tr>
 </tbody>
 </table>
@@ -206,7 +206,7 @@ export const genericCategories: GenericCategory[] = [
 <tr><td>Joyroom 10000mAh</td><td>10,000</td><td>22.5W</td><td>2</td><td>~450</td><td>Daily use</td></tr>
 <tr><td>Anker 10000mAh PD</td><td>10,000</td><td>PD 20W</td><td>2</td><td>~799</td><td>iPhone fast charge</td></tr>
 <tr><td>Joyroom 20000mAh</td><td>20,000</td><td>PD 20W</td><td>3</td><td>~750</td><td>Best value</td></tr>
-<tr><td><strong>Anker 20000mAh ⭐</strong></td><td><strong>20,000</strong></td><td><strong>PD 20W</strong></td><td><strong>2</strong></td><td><strong>~1,299</strong></td><td><strong>Best seller</strong></td></tr>
+<tr><td><strong>Anker 20000mAh </strong></td><td><strong>20,000</strong></td><td><strong>PD 20W</strong></td><td><strong>2</strong></td><td><strong>~1,299</strong></td><td><strong>Best seller</strong></td></tr>
 <tr><td>Anker 24000mAh</td><td>24,000</td><td>PD 30W</td><td>3</td><td>~1,599</td><td>3 devices</td></tr>
 <tr><td>Anker Prime 27650mAh</td><td>27,650</td><td>PD 250W</td><td>3</td><td>~3,799</td><td>Laptop + phone</td></tr>
 </tbody>
@@ -219,7 +219,7 @@ export const genericCategories: GenericCategory[] = [
 <tbody>
 <tr><td>5,000mAh</td><td>1 time</td><td>0.8 times</td><td>~120g</td><td>Emergency only</td></tr>
 <tr><td>10,000mAh</td><td>2 times</td><td>1.7 times</td><td>~220g</td><td>One day</td></tr>
-<tr><td><strong>20,000mAh ⭐</strong></td><td><strong>4 times</strong></td><td><strong>3.5 times</strong></td><td><strong>~350g</strong></td><td><strong>Short trips</strong></td></tr>
+<tr><td><strong>20,000mAh </strong></td><td><strong>4 times</strong></td><td><strong>3.5 times</strong></td><td><strong>~350g</strong></td><td><strong>Short trips</strong></td></tr>
 <tr><td>30,000mAh</td><td>6 times</td><td>5 times</td><td>~500g</td><td>Long trips</td></tr>
 </tbody>
 </table>
@@ -343,7 +343,7 @@ export const genericCategories: GenericCategory[] = [
 <tr><td>Joyroom 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (ميزانية)</td><td>~299</td></tr>
 <tr><td>Anker Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (سفر)</td><td>~399</td></tr>
 <tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~449</td></tr>
-<tr><td><strong>Anker 511 30W ⭐</strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (أقصى سرعة)</strong></td><td><strong>~549</strong></td></tr>
+<tr><td><strong>Anker 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (أقصى سرعة)</strong></td><td><strong>~549</strong></td></tr>
 <tr><td>Joyroom 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>جهازين معاً</td><td>~399</td></tr>
 <tr><td>Anker 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
 <tr><td>Anker 735 65W</td><td>65W</td><td>3</td><td>PD + GaN Prime</td><td>لابتوب + موبايل</td><td>~1,199</td></tr>
@@ -418,7 +418,7 @@ export const genericCategories: GenericCategory[] = [
 <tr><td>Joyroom 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (budget)</td><td>~299</td></tr>
 <tr><td>Anker Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (travel)</td><td>~399</td></tr>
 <tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~449</td></tr>
-<tr><td><strong>Anker 511 30W ⭐</strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (max speed)</strong></td><td><strong>~549</strong></td></tr>
+<tr><td><strong>Anker 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (max speed)</strong></td><td><strong>~549</strong></td></tr>
 <tr><td>Joyroom 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>Two devices</td><td>~399</td></tr>
 <tr><td>Anker 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
 <tr><td>Anker 735 65W</td><td>65W</td><td>3</td><td>PD + GaN Prime</td><td>Laptop + phone</td><td>~1,199</td></tr>
@@ -560,12 +560,12 @@ export const genericCategories: GenericCategory[] = [
 <table>
 <thead><tr><th>السماعة</th><th>ANC</th><th>البطارية</th><th>مقاومة الماء</th><th>البلوتوث</th><th>السعر (جنيه)</th></tr></thead>
 <tbody>
-<tr><td>Joyroom T03S</td><td>❌</td><td>6 ساعات</td><td>IPX4</td><td>5.3</td><td>~350</td></tr>
-<tr><td>Joyroom T03S Pro</td><td>✅ خفيف</td><td>7 ساعات</td><td>IPX4</td><td>5.3</td><td>~550</td></tr>
-<tr><td><strong>Soundcore R50i ⭐</strong></td><td><strong>❌</strong></td><td><strong>10 ساعات</strong></td><td><strong>IPX5</strong></td><td><strong>5.3</strong></td><td><strong>~599</strong></td></tr>
-<tr><td>Soundcore Sport X10</td><td>❌</td><td>8 ساعات</td><td>IPX7</td><td>5.2</td><td>~899</td></tr>
-<tr><td>Soundcore Space A40</td><td>✅ قوي</td><td>10 ساعات</td><td>IPX4</td><td>5.2</td><td>~1,299</td></tr>
-<tr><td>Soundcore Liberty 4 NC</td><td>✅ الأقوى</td><td>10 ساعات</td><td>IPX4</td><td>5.3</td><td>~1,499</td></tr>
+<tr><td>Joyroom T03S</td><td>✗</td><td>6 ساعات</td><td>IPX4</td><td>5.3</td><td>~350</td></tr>
+<tr><td>Joyroom T03S Pro</td><td>✓ خفيف</td><td>7 ساعات</td><td>IPX4</td><td>5.3</td><td>~550</td></tr>
+<tr><td><strong>Soundcore R50i </strong></td><td><strong>✗</strong></td><td><strong>10 ساعات</strong></td><td><strong>IPX5</strong></td><td><strong>5.3</strong></td><td><strong>~599</strong></td></tr>
+<tr><td>Soundcore Sport X10</td><td>✗</td><td>8 ساعات</td><td>IPX7</td><td>5.2</td><td>~899</td></tr>
+<tr><td>Soundcore Space A40</td><td>✓ قوي</td><td>10 ساعات</td><td>IPX4</td><td>5.2</td><td>~1,299</td></tr>
+<tr><td>Soundcore Liberty 4 NC</td><td>✓ الأقوى</td><td>10 ساعات</td><td>IPX4</td><td>5.3</td><td>~1,499</td></tr>
 </tbody>
 </table>
 
@@ -638,12 +638,12 @@ export const genericCategories: GenericCategory[] = [
 <table>
 <thead><tr><th>Earbuds</th><th>ANC</th><th>Battery</th><th>Water Resistance</th><th>Bluetooth</th><th>Price (EGP)</th></tr></thead>
 <tbody>
-<tr><td>Joyroom T03S</td><td>❌</td><td>6 hours</td><td>IPX4</td><td>5.3</td><td>~350</td></tr>
-<tr><td>Joyroom T03S Pro</td><td>✅ Light</td><td>7 hours</td><td>IPX4</td><td>5.3</td><td>~550</td></tr>
-<tr><td><strong>Soundcore R50i ⭐</strong></td><td><strong>❌</strong></td><td><strong>10 hours</strong></td><td><strong>IPX5</strong></td><td><strong>5.3</strong></td><td><strong>~599</strong></td></tr>
-<tr><td>Soundcore Sport X10</td><td>❌</td><td>8 hours</td><td>IPX7</td><td>5.2</td><td>~899</td></tr>
-<tr><td>Soundcore Space A40</td><td>✅ Strong</td><td>10 hours</td><td>IPX4</td><td>5.2</td><td>~1,299</td></tr>
-<tr><td>Soundcore Liberty 4 NC</td><td>✅ Strongest</td><td>10 hours</td><td>IPX4</td><td>5.3</td><td>~1,499</td></tr>
+<tr><td>Joyroom T03S</td><td>✗</td><td>6 hours</td><td>IPX4</td><td>5.3</td><td>~350</td></tr>
+<tr><td>Joyroom T03S Pro</td><td>✓ Light</td><td>7 hours</td><td>IPX4</td><td>5.3</td><td>~550</td></tr>
+<tr><td><strong>Soundcore R50i </strong></td><td><strong>✗</strong></td><td><strong>10 hours</strong></td><td><strong>IPX5</strong></td><td><strong>5.3</strong></td><td><strong>~599</strong></td></tr>
+<tr><td>Soundcore Sport X10</td><td>✗</td><td>8 hours</td><td>IPX7</td><td>5.2</td><td>~899</td></tr>
+<tr><td>Soundcore Space A40</td><td>✓ Strong</td><td>10 hours</td><td>IPX4</td><td>5.2</td><td>~1,299</td></tr>
+<tr><td>Soundcore Liberty 4 NC</td><td>✓ Strongest</td><td>10 hours</td><td>IPX4</td><td>5.3</td><td>~1,499</td></tr>
 </tbody>
 </table>
 
@@ -783,7 +783,7 @@ export const genericCategories: GenericCategory[] = [
 <tbody>
 <tr><td>Joyroom USB-C 1m</td><td>C to C</td><td>1m</td><td>60W</td><td>نايلون</td><td>~149</td></tr>
 <tr><td>Joyroom 3-in-1</td><td>متعدد</td><td>1.2m</td><td>30W</td><td>نايلون</td><td>~199</td></tr>
-<tr><td><strong>Anker PowerLine III 1m ⭐</strong></td><td><strong>C to C</strong></td><td><strong>1m</strong></td><td><strong>60W</strong></td><td><strong>25,000 ثنية</strong></td><td><strong>~249</strong></td></tr>
+<tr><td><strong>Anker PowerLine III 1m </strong></td><td><strong>C to C</strong></td><td><strong>1m</strong></td><td><strong>60W</strong></td><td><strong>25,000 ثنية</strong></td><td><strong>~249</strong></td></tr>
 <tr><td>Anker PowerLine III Lightning</td><td>C to L</td><td>1m</td><td>30W</td><td>25,000 ثنية</td><td>~299</td></tr>
 <tr><td>Anker Flow 1.8m</td><td>C to C</td><td>1.8m</td><td>60W</td><td>سيليكون</td><td>~399</td></tr>
 <tr><td>Anker 765 140W</td><td>C to C</td><td>1.8m</td><td>140W</td><td>نايلون</td><td>~549</td></tr>
@@ -862,7 +862,7 @@ export const genericCategories: GenericCategory[] = [
 <tbody>
 <tr><td>Joyroom USB-C 1m</td><td>C to C</td><td>1m</td><td>60W</td><td>Nylon</td><td>~149</td></tr>
 <tr><td>Joyroom 3-in-1</td><td>Multi</td><td>1.2m</td><td>30W</td><td>Nylon</td><td>~199</td></tr>
-<tr><td><strong>Anker PowerLine III 1m ⭐</strong></td><td><strong>C to C</strong></td><td><strong>1m</strong></td><td><strong>60W</strong></td><td><strong>25,000 bends</strong></td><td><strong>~249</strong></td></tr>
+<tr><td><strong>Anker PowerLine III 1m </strong></td><td><strong>C to C</strong></td><td><strong>1m</strong></td><td><strong>60W</strong></td><td><strong>25,000 bends</strong></td><td><strong>~249</strong></td></tr>
 <tr><td>Anker PowerLine III Lightning</td><td>C to L</td><td>1m</td><td>30W</td><td>25,000 bends</td><td>~299</td></tr>
 <tr><td>Anker Flow 1.8m</td><td>C to C</td><td>1.8m</td><td>60W</td><td>Silicone</td><td>~399</td></tr>
 <tr><td>Anker 765 140W</td><td>C to C</td><td>1.8m</td><td>140W</td><td>Nylon</td><td>~549</td></tr>

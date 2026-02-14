@@ -74,20 +74,20 @@ export const brandData: Record<string, BrandData> = {
             ]
         },
         categories: [
-            { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore 10000 & 20000mAh', ar: 'شحن ذكي و سعات ضخمة' }, href: '/Anker/power-banks', icon: '⚡', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'Nano 20W, 30W & 45W', ar: 'شواحن Nano وسرعات 45W' }, href: '/Anker/wall-chargers', icon: '🔌', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Soundcore Earbuds', ar: 'سماعات Soundcore' }, description: { en: 'Liberty 4, P40i, R50i', ar: 'عزل ضوضاء وصوت Hi-Res' }, href: '/Anker/audio', icon: '🎧', volume: { en: '3,600+ searches/mo', ar: '3,600+ بحث/شهر' } },
-            { title: { en: 'Soundcore Speakers', ar: 'مكبرات صوت (Speakers)' }, description: { en: 'Motion+, Flare 2, Boom 2', ar: 'صوت 360 درجة وحفلات' }, href: '/Anker/speakers', icon: '🔊', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: '🔥 Best Audio', ar: '🔥 صوت نقي' } },
-            { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/Anker/cables', icon: '🔗', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
-            { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/Anker/car-chargers', icon: '🚗', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
+            { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore 10000 & 20000mAh', ar: 'شحن ذكي و سعات ضخمة' }, href: '/Anker/power-banks', icon: 'bolt', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
+            { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'Nano 20W, 30W & 45W', ar: 'شواحن Nano وسرعات 45W' }, href: '/Anker/wall-chargers', icon: 'plug', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
+            { title: { en: 'Soundcore Earbuds', ar: 'سماعات Soundcore' }, description: { en: 'Liberty 4, P40i, R50i', ar: 'عزل ضوضاء وصوت Hi-Res' }, href: '/Anker/audio', icon: 'headphones', volume: { en: '3,600+ searches/mo', ar: '3,600+ بحث/شهر' } },
+            { title: { en: 'Soundcore Speakers', ar: 'مكبرات صوت (Speakers)' }, description: { en: 'Motion+, Flare 2, Boom 2', ar: 'صوت 360 درجة وحفلات' }, href: '/Anker/speakers', icon: 'speaker', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: 'Best Audio', ar: 'صوت نقي' } },
+            { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/Anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
+            { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/Anker/car-chargers', icon: 'car', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
         ],
         whySection: {
             title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا Anker هي الأفضل عالمياً؟' },
             items: [
-                { icon: '🌍', title: { en: '#1 Global Leader', ar: 'الأولى عالمياً بلا منازع' }, description: { en: 'Dominated the charging market since 2011', ar: 'تسيطر على سوق الشحن منذ 2011' } },
-                { icon: '🧠', title: { en: 'AI PowerIQ 4.0', ar: 'ذكاء اصطناعي PowerIQ 4.0' }, description: { en: 'Adapts power to your device\'s needs', ar: 'يتكيف مع احتياج هاتفك لحظياً' } },
-                { icon: '🛡️', title: { en: 'ActiveShield™ 2.0', ar: 'درع الحماية النشط 2.0' }, description: { en: 'Checks temperature 3m times/day', ar: 'يراقب الحرارة 3 مليون مرة يومياً' } },
-                { icon: '🤝', title: { en: 'Local Warranty', ar: 'ضمان محلي حقيقي' }, description: { en: '18 Months Instant Exchange', ar: 'استبدال فوري لمدة 18 شهر' } },
+                { icon: 'globe', title: { en: '#1 Global Leader', ar: 'الأولى عالمياً بلا منازع' }, description: { en: 'Dominated the charging market since 2011', ar: 'تسيطر على سوق الشحن منذ 2011' } },
+                { icon: 'brain', title: { en: 'AI PowerIQ 4.0', ar: 'ذكاء اصطناعي PowerIQ 4.0' }, description: { en: 'Adapts power to your device\'s needs', ar: 'يتكيف مع احتياج هاتفك لحظياً' } },
+                { icon: 'shield', title: { en: 'ActiveShield™ 2.0', ar: 'درع الحماية النشط 2.0' }, description: { en: 'Checks temperature 3m times/day', ar: 'يراقب الحرارة 3 مليون مرة يومياً' } },
+                { icon: 'handshake', title: { en: 'Local Warranty', ar: 'ضمان محلي حقيقي' }, description: { en: '18 Months Instant Exchange', ar: 'استبدال فوري لمدة 18 شهر' } },
             ]
         },
         // NEW: Comprehensive About Section for SEO
@@ -101,12 +101,12 @@ export const brandData: Record<string, BrandData> = {
                 ar: 'تأسست انكر عام 2011 على يد مهندس جوجل السابق ستيفن يانج في شنزن بالصين، وبدأت برسالة واضحة: جعل الشحن أذكى وأسرع وأكثر أماناً. ما بدأ كشركة صغيرة لبطاريات الاستبدال تحول بسرعة إلى العلامة التجارية الرائدة عالمياً في شحن الهواتف. اليوم، انكر تشحن أكثر من 200 مليون جهاز حول العالم وتعمل في أكثر من 100 دولة. التزام الشركة بالتميز البحثي أنتج تقنيات ثورية مثل GaNPrime™ و PowerIQ و ActiveShield™ التي أعادت تعريف صناعة الشحن.'
             },
             achievements: [
-                { icon: '🏆', stat: { en: '200M+', ar: '+200 مليون' }, label: { en: 'Devices Powered Globally', ar: 'جهاز يعمل بشحن انكر' } },
-                { icon: '🌍', stat: { en: '100+', ar: '+100' }, label: { en: 'Countries & Markets', ar: 'دولة وسوق عالمي' } },
-                { icon: '⭐', stat: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Customer Rating', ar: 'متوسط تقييم العملاء' } },
-                { icon: '🔬', stat: { en: '1000+', ar: '+1000' }, label: { en: 'Patents & Innovations', ar: 'براءة اختراع وابتكار' } },
-                { icon: '📅', stat: { en: '2011', ar: '2011' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } },
-                { icon: '🏅', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Amazon Charging Brand Since 2015', ar: 'ماركة الشحن الأولى على أمازون' } }
+                { icon: 'trophy', stat: { en: '200M+', ar: '+200 مليون' }, label: { en: 'Devices Powered Globally', ar: 'جهاز يعمل بشحن انكر' } },
+                { icon: 'globe', stat: { en: '100+', ar: '+100' }, label: { en: 'Countries & Markets', ar: 'دولة وسوق عالمي' } },
+                { icon: 'star', stat: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Customer Rating', ar: 'متوسط تقييم العملاء' } },
+                { icon: 'microscope', stat: { en: '1000+', ar: '+1000' }, label: { en: 'Patents & Innovations', ar: 'براءة اختراع وابتكار' } },
+                { icon: 'calendar', stat: { en: '2011', ar: '2011' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } },
+                { icon: 'medal', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Amazon Charging Brand Since 2015', ar: 'ماركة الشحن الأولى على أمازون' } }
             ],
             technologies: [
                 { name: 'GaNPrime™', description: { en: 'Gallium Nitride technology that makes chargers 50% smaller yet 3x more powerful. Charges laptops and phones simultaneously.', ar: 'تقنية نيتريد الجاليوم التي تجعل الشواحن أصغر بـ 50% مع قوة أكبر 3 مرات. تشحن اللابتوب والهاتف معاً.' } },
@@ -118,12 +118,12 @@ export const brandData: Record<string, BrandData> = {
         },
         // NEW: Trust Badges for Social Proof
         trustBadges: [
-            { icon: '✓', title: { en: '100% Original Products', ar: 'منتجات أصلية 100%' }, description: { en: 'Verified by Anker Egypt', ar: 'موثقة من انكر مصر' } },
-            { icon: '🛡️', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
-            { icon: '💰', title: { en: 'Best Price Guarantee', ar: 'ضمان أقل سعر' }, description: { en: 'vs Amazon & Noon', ar: 'مقارنة بأمازون ونون' } },
-            { icon: '🚚', title: { en: 'Fast Egypt Delivery', ar: 'توصيل سريع لمصر' }, description: { en: '24-48 hours', ar: '24-48 ساعة' } },
-            { icon: '⭐', title: { en: '5000+ Happy Customers', ar: '+5000 عميل سعيد' }, description: { en: 'Verified purchases', ar: 'مشتريات موثقة' } },
-            { icon: '📞', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 assistance', ar: 'مساعدة على مدار الساعة' } }
+            { icon: 'check-circle', title: { en: '100% Original Products', ar: 'منتجات أصلية 100%' }, description: { en: 'Verified by Anker Egypt', ar: 'موثقة من انكر مصر' } },
+            { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
+            { icon: 'coin', title: { en: 'Best Price Guarantee', ar: 'ضمان أقل سعر' }, description: { en: 'vs Amazon & Noon', ar: 'مقارنة بأمازون ونون' } },
+            { icon: 'truck', title: { en: 'Fast Egypt Delivery', ar: 'توصيل سريع لمصر' }, description: { en: '24-48 hours', ar: '24-48 ساعة' } },
+            { icon: 'star', title: { en: '5000+ Happy Customers', ar: '+5000 عميل سعيد' }, description: { en: 'Verified purchases', ar: 'مشتريات موثقة' } },
+            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 assistance', ar: 'مساعدة على مدار الساعة' } }
         ],
         metadata: {
             en: {
@@ -200,25 +200,25 @@ export const brandData: Record<string, BrandData> = {
                 { en: 'Best Value for Money', ar: 'أفضل قيمة مقابل سعر' }
             ],
             heroProduct: {
-                label: { en: '⭐ The Legend:', ar: '⭐ الأسطورة:' },
+                label: { en: 'The Legend:', ar: 'الأسطورة:' },
                 link: { href: '/Joyroom/audio', text: { en: 'Joyroom T03s - The AirPods Alternative', ar: 'Joyroom T03s - البديل الاستراتيجي للايربودز' } }
             }
         },
         categories: [
-            { title: { en: 'T03s Earbuds', ar: 'سماعات T03s' }, description: { en: 'The Market Legend', ar: 'أسطورة السوق المصري' }, href: '/Joyroom/audio', icon: '🎧', volume: { en: '15,000+ sold', ar: '15,000+ مباعة' }, badge: { en: '⭐ Legend', ar: '⭐ أسطورة' } },
-            { title: { en: 'Joyroom Power Banks', ar: 'باور بانك جوي روم' }, description: { en: 'Grade A+ Cells (Safe)', ar: 'خلايا Grade A+ (آمنة)' }, href: '/Joyroom/power-banks', icon: '⚡', volume: { en: 'High Demand', ar: 'طلب عالي' } },
-            { title: { en: 'Joyroom Chargers', ar: 'شواحن جوي روم' }, description: { en: 'Smart IC Protection', ar: 'حماية Smart IC' }, href: '/Joyroom/wall-chargers', icon: '🔌', volume: { en: 'Essential', ar: 'أساسي' } },
-            { title: { en: 'Joyroom Cables', ar: 'كابلات جوي روم' }, description: { en: 'Auto-Disconnect Tech', ar: 'تقنية الفصل التلقائي' }, href: '/Joyroom/cables', icon: '🔗', volume: { en: 'Durable', ar: 'معمر' } },
-            { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, description: { en: 'FT3 Pro & Fit-Life', ar: 'FT3 Pro و Fit-Life' }, href: '/Joyroom/smart-watches', icon: '⌚', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: '🔥 Hot', ar: '🔥 رائج' } },
-            { title: { en: 'Car Holders', ar: 'حوامل سيارة' }, description: { en: 'Strong Magnets', ar: 'مغناطيس قوي جداً' }, href: '/Joyroom/car-holders', icon: '🧭', volume: { en: 'New', ar: 'جديد' } },
+            { title: { en: 'T03s Earbuds', ar: 'سماعات T03s' }, description: { en: 'The Market Legend', ar: 'أسطورة السوق المصري' }, href: '/Joyroom/audio', icon: 'headphones', volume: { en: '15,000+ sold', ar: '15,000+ مباعة' }, badge: { en: 'Legend', ar: 'أسطورة' } },
+            { title: { en: 'Joyroom Power Banks', ar: 'باور بانك جوي روم' }, description: { en: 'Grade A+ Cells (Safe)', ar: 'خلايا Grade A+ (آمنة)' }, href: '/Joyroom/power-banks', icon: 'bolt', volume: { en: 'High Demand', ar: 'طلب عالي' } },
+            { title: { en: 'Joyroom Chargers', ar: 'شواحن جوي روم' }, description: { en: 'Smart IC Protection', ar: 'حماية Smart IC' }, href: '/Joyroom/wall-chargers', icon: 'plug', volume: { en: 'Essential', ar: 'أساسي' } },
+            { title: { en: 'Joyroom Cables', ar: 'كابلات جوي روم' }, description: { en: 'Auto-Disconnect Tech', ar: 'تقنية الفصل التلقائي' }, href: '/Joyroom/cables', icon: 'link', volume: { en: 'Durable', ar: 'معمر' } },
+            { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, description: { en: 'FT3 Pro & Fit-Life', ar: 'FT3 Pro و Fit-Life' }, href: '/Joyroom/smart-watches', icon: 'watch', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: 'Hot', ar: 'رائج' } },
+            { title: { en: 'Car Holders', ar: 'حوامل سيارة' }, description: { en: 'Strong Magnets', ar: 'مغناطيس قوي جداً' }, href: '/Joyroom/car-holders', icon: 'compass', volume: { en: 'New', ar: 'جديد' } },
         ],
         whySection: {
             title: { en: 'Why Choose Joyroom?', ar: 'لماذا تختار Joyroom؟' },
             items: [
-                { icon: '💰', title: { en: 'Budget King', ar: 'ملك التوفير' }, description: { en: 'Flagship features at 1/4 price', ar: 'مواصفات الفلاجشيب بربع الثمن' } },
-                { icon: '✨', title: { en: 'Premium Design', ar: 'تصميم بريميوم' }, description: { en: 'Looks and feels expensive', ar: 'شكل وملمس غالي' } },
-                { icon: '🛡️', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-Fake verification system', ar: 'نظام حماية من التقليد' } },
-                { icon: '🎧', title: { en: 'The T03s Legacy', ar: 'إرث T03s' }, description: { en: 'Most trusted earbuds in Egypt', ar: 'السماعة الأكثر ثقة في مصر' } },
+                { icon: 'coin', title: { en: 'Budget King', ar: 'ملك التوفير' }, description: { en: 'Flagship features at 1/4 price', ar: 'مواصفات الفلاجشيب بربع الثمن' } },
+                { icon: 'sparkles', title: { en: 'Premium Design', ar: 'تصميم بريميوم' }, description: { en: 'Looks and feels expensive', ar: 'شكل وملمس غالي' } },
+                { icon: 'shield', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-Fake verification system', ar: 'نظام حماية من التقليد' } },
+                { icon: 'headphones', title: { en: 'The T03s Legacy', ar: 'إرث T03s' }, description: { en: 'Most trusted earbuds in Egypt', ar: 'السماعة الأكثر ثقة في مصر' } },
             ]
         },
         // NEW: About Section for Joyroom SEO
@@ -232,12 +232,12 @@ export const brandData: Record<string, BrandData> = {
                 ar: 'تأسست جوي روم عام 2009 في شينزين بالصين، ونمت من مصنع إلكترونيات صغير لتصبح واحدة من أكثر العلامات التجارية موثوقية في العالم. مهمتها جعل التكنولوجيا الجيدة في متناول الجميع، فتصمم منتجات تقدم 90% من مواصفات الفلاجشيب بـ 25% من السعر. اليوم تُباع جوي روم في أكثر من 100 دولة، وأصبحت سماعات T03s الأسطورية البديل الأول للايربودز في مصر. من الباور بانك بخلايا Grade A+ للكابلات المجدولة بعمر 10,000+ ثنية، كل منتج يخضع لاختبارات صارمة.'
             },
             achievements: [
-                { icon: '🌍', stat: { en: '100+', ar: '+100' }, label: { en: 'Countries', ar: 'دولة' } },
-                { icon: '⭐', stat: { en: '4.7/5', ar: '4.7/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
-                { icon: '📦', stat: { en: '50M+', ar: '+50 مليون' }, label: { en: 'Units Sold', ar: 'وحدة مباعة' } },
-                { icon: '🎧', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Earbuds', ar: 'سماعات اقتصادية' } },
-                { icon: '🏭', stat: { en: '2009', ar: '2009' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } },
-                { icon: '🔋', stat: { en: 'Grade A+', ar: 'Grade A+' }, label: { en: 'Battery Cells', ar: 'خلايا بطارية' } }
+                { icon: 'globe', stat: { en: '100+', ar: '+100' }, label: { en: 'Countries', ar: 'دولة' } },
+                { icon: 'star', stat: { en: '4.7/5', ar: '4.7/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
+                { icon: 'package', stat: { en: '50M+', ar: '+50 مليون' }, label: { en: 'Units Sold', ar: 'وحدة مباعة' } },
+                { icon: 'headphones', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Earbuds', ar: 'سماعات اقتصادية' } },
+                { icon: 'factory', stat: { en: '2009', ar: '2009' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } },
+                { icon: 'battery', stat: { en: 'Grade A+', ar: 'Grade A+' }, label: { en: 'Battery Cells', ar: 'خلايا بطارية' } }
             ],
             technologies: [
                 { name: 'Golden Code Verification', description: { en: 'Every Joyroom product has a unique scratch-off QR code on the box. Scan it to verify authenticity instantly on the official website. No more worrying about fakes!', ar: 'كل منتج جوي روم له كود QR فريد على العلبة. امسحه للتحقق فوراً من الموقع الرسمي. لا مزيد من القلق بشأن المقلد!' } },
@@ -248,12 +248,12 @@ export const brandData: Record<string, BrandData> = {
         },
         // NEW: Trust Badges for Joyroom
         trustBadges: [
-            { icon: '🔐', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-fake verified', ar: 'ضد التقليد' } },
-            { icon: '🛡️', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Direct replacement', ar: 'استبدال مباشر' } },
-            { icon: '🔋', title: { en: 'Grade A+ Cells', ar: 'خلايا A+' }, description: { en: 'Safe batteries', ar: 'بطاريات آمنة' } },
-            { icon: '💰', title: { en: 'Best Value', ar: 'أفضل قيمة' }, description: { en: '90% features, 25% price', ar: '90% مواصفات، 25% سعر' } },
-            { icon: '📱', title: { en: 'Universal', ar: 'عالمي' }, description: { en: 'iOS + Android', ar: 'ايفون + اندرويد' } },
-            { icon: '📞', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 help', ar: 'مساعدة 24/7' } }
+            { icon: 'lock', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-fake verified', ar: 'ضد التقليد' } },
+            { icon: 'shield', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Direct replacement', ar: 'استبدال مباشر' } },
+            { icon: 'battery', title: { en: 'Grade A+ Cells', ar: 'خلايا A+' }, description: { en: 'Safe batteries', ar: 'بطاريات آمنة' } },
+            { icon: 'coin', title: { en: 'Best Value', ar: 'أفضل قيمة' }, description: { en: '90% features, 25% price', ar: '90% مواصفات، 25% سعر' } },
+            { icon: 'phone', title: { en: 'Universal', ar: 'عالمي' }, description: { en: 'iOS + Android', ar: 'ايفون + اندرويد' } },
+            { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 help', ar: 'مساعدة 24/7' } }
         ],
         metadata: {
             en: {

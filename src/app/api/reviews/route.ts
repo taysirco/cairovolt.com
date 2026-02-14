@@ -112,7 +112,7 @@ export async function POST(req: NextRequest) {
 
         return NextResponse.json({
             success: true,
-            message: 'شكراً لك! تم إرسال تقييمك بنجاح 🎉'
+            message: 'شكراً لك! تم إرسال تقييمك بنجاح'
         });
 
     } catch (error: any) {

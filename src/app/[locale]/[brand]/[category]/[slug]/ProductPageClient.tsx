@@ -404,8 +404,8 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 <a
                                     href={`https://wa.me/201063374834?text=${encodeURIComponent(
                                         isRTL
-                                            ? `مرحباً، أريد طلب:\n📦 ${productName}\n💰 السعر: ${product.price} جنيه\n🔢 الكمية: ${quantity}`
-                                            : `Hi, I want to order:\n📦 ${productName}\n💰 Price: ${product.price} EGP\n🔢 Quantity: ${quantity}`
+                                            ? `مرحباً، أريد طلب:\n${productName}\nالسعر: ${product.price} جنيه\nالكمية: ${quantity}`
+                                            : `Hi, I want to order:\n${productName}\nPrice: ${product.price} EGP\nQuantity: ${quantity}`
                                     )}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -459,7 +459,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 {relatedProducts.length > 0 && (
                                     <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-100 dark:border-blue-800">
                                         <p className="text-sm font-bold text-blue-700 dark:text-blue-300 mb-1">
-                                            {isRTL ? '👇 شاهد منتجات بديلة متوفرة أدناه' : '👇 See available alternatives below'}
+                                            {isRTL ? 'شاهد منتجات بديلة متوفرة أدناه' : 'See available alternatives below'}
                                         </p>
                                     </div>
                                 )}

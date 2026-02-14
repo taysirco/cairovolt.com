@@ -108,7 +108,7 @@ export async function GET(req: NextRequest) {
                 const whatsappLink = `https://wa.me/${customerPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
 
                 // Update the notes column to mark as processed
-                row.set('ملاحظات', `${notes}\n${REVIEW_SENT_MARKER}\n🔗 ${reviewUrl}`);
+                row.set('ملاحظات', `${notes}\n${REVIEW_SENT_MARKER}\n${reviewUrl}`);
                 await row.save();
 
                 // Log to Firestore

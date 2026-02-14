@@ -121,6 +121,24 @@ export function SvgIcon({ name, className = 'w-6 h-6 inline-block' }: SvgIconPro
             return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 7l-2 2" /><path d="M10.5 4.5L16 10" /><path d="M7.5 7.5L3 12" /><circle cx="12" cy="12" r="3" /><path d="M4.5 16.5C3 18 3 21 3 21s3 0 4.5-1.5" /><path d="M15 5l4-4" /></svg>;
         case 'call':
             return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" /></svg>;
+        case 'handshake':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M11 17a1 1 0 01-1 1H6l-4 4V5a2 2 0 012-2h8a2 2 0 012 2v6" /><path d="M15.5 13.5L13 16l2.5 2.5" /><path d="M20 7h-4a2 2 0 00-2 2v1" /><path d="M17 17l2-2-2-2" /></svg>;
+        case 'microscope':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 18h8" /><path d="M3 22h18" /><path d="M14 22a7 7 0 100-14h-1" /><path d="M9 14h2" /><path d="M9 12a2 2 0 01-2-2V6h6v4a2 2 0 01-2 2z" /><path d="M12 6V3a1 1 0 00-1-1H9a1 1 0 00-1 1v3" /></svg>;
+        case 'calendar':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" /></svg>;
+        case 'medal':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7.21 15L2.66 7.14a2 2 0 01.13-2.2L4.4 2.8A2 2 0 016 2h12a2 2 0 011.6.8l1.6 2.14a2 2 0 01.14 2.2L16.79 15" /><path d="M11 12L5.12 2.2M13 12l5.88-9.8" /><circle cx="12" cy="17" r="5" /><path d="M12 14v6M9.5 16.5l5 1M14.5 16.5l-5 1" /></svg>;
+        case 'lock':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="11" width="18" height="11" rx="2" /><path d="M7 11V7a5 5 0 0110 0v4" /><circle cx="12" cy="16" r="1" /></svg>;
+        case 'factory':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 20h20V8l-6 4V8l-6 4V4H2v16z" /><path d="M17 20v-4M13 20v-4M9 20v-4" /></svg>;
+        case 'watch':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="7" /><path d="M12 9v3l1.5 1.5" /><path d="M16.51 17.35l-.35 3.83a2 2 0 01-2 1.82H9.83a2 2 0 01-2-1.82l-.35-3.83M7.49 6.65l.35-3.83A2 2 0 019.83 1h4.35a2 2 0 012 1.82l.35 3.83" /></svg>;
+        case 'compass':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" /></svg>;
+        case 'coin':
+            return <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="8" /><path d="M12 6v12" /><path d="M15 9.5c0-1.38-1.34-2.5-3-2.5s-3 1.12-3 2.5 1.34 2.5 3 2.5 3 1.12 3 2.5-1.34 2.5-3 2.5" /></svg>;
 
         default:
             return <span className={className}>{name}</span>;
@@ -176,6 +194,16 @@ export const emojiToIconName: Record<string, string> = {
     '🔊': 'speaker',
     '📡': 'satellite',
     '📞': 'call',
+    '🤝': 'handshake',
+    '🔬': 'microscope',
+    '📅': 'calendar',
+    '🏅': 'medal',
+    '🔐': 'lock',
+    '🏭': 'factory',
+    '⌚': 'watch',
+    '🧭': 'compass',
+    '💰': 'coin',
+    '📲': 'phone',
 };
 
 export default SvgIcon;

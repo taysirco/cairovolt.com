@@ -196,7 +196,7 @@ export default function Home() {
                   </span>
                 )}
                 <div className={`text-2xl md:text-4xl mb-2 md:mb-3 w-12 h-12 md:w-16 md:h-16 mx-auto rounded-xl md:rounded-2xl bg-gradient-to-br ${cat.color} flex items-center justify-center`}>
-                  {cat.icon}
+                  <SvgIcon name={cat.icon} className="w-8 h-8" />
                 </div>
                 <h3 className="font-bold text-sm md:text-base mb-1">{cat.title}</h3>
                 <span className={`text-sm ${cat.brand === 'Anker' ? 'text-blue-600' : 'text-red-600'}`}>

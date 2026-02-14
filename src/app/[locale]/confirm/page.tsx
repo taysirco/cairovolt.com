@@ -97,7 +97,7 @@ export default function ConfirmPage() {
         return (
             <div className="container mx-auto px-4 py-16 text-center">
                 <div className="bg-yellow-50 p-8 rounded-2xl max-w-md mx-auto">
-                    <div className="text-5xl mb-4">⚠️</div>
+                    <div className="text-5xl mb-4">⚠</div>
                     <h1 className="text-2xl font-bold text-yellow-700 mb-2">لا يوجد طلب</h1>
                     <p className="text-gray-600">لم يتم العثور على بيانات الطلب.</p>
                     <Link
@@ -124,7 +124,7 @@ export default function ConfirmPage() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <h1 className="text-3xl font-bold text-green-700 mb-2">تم تأكيد طلبك بنجاح! 🎉</h1>
+                    <h1 className="text-3xl font-bold text-green-700 mb-2">تم تأكيد طلبك بنجاح! </h1>
                     <p className="text-gray-600">شكراً لك على ثقتك في كايرو فولت</p>
                 </div>
 

@@ -312,28 +312,28 @@ export function generateReviewRequestMessage(
         : `https://cairovolt.com/en/review/${token}`;
 
     if (locale === 'ar') {
-        return `🎉 أهلاً ${customerName}!
+        return `أهلاً ${customerName}!
 
 أتمنى إن ${productName} عجبك!
 
 لو عندك دقيقة، شاركنا رأيك الصادق:
-👇
+
 ${reviewUrl}
 
-رأيك يساعد عملاء تانيين يختاروا صح 💙
+رأيك يساعد عملاء تانيين يختاروا صح
 
 شكراً لثقتك في كايرو فولت!`;
     }
 
-    return `🎉 Hello ${customerName}!
+    return `Hello ${customerName}!
 
 Hope you're enjoying your ${productName}!
 
 If you have a minute, share your honest feedback:
-👇
+
 ${reviewUrl}
 
-Your review helps other customers make the right choice 💙
+Your review helps other customers make the right choice
 
 Thanks for trusting CairoVolt!`;
 }

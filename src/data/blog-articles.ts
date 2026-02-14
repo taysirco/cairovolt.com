@@ -59,10 +59,10 @@ export const blogArticles: BlogArticle[] = [
 <p><strong>السعر:</strong> 1,054 جنيه | <strong>السعة:</strong> 20,000mAh | <strong>الوزن:</strong> 350 جم</p>
 <p>الخيار الأول لأغلب المصريين. يشحن iPhone 17 Pro أربع مرات كاملة، ويدعم الشحن السريع PowerIQ. مصنوع من خلايا بطارية Grade-A (نفس المستخدمة في السيارات الكهربائية).</p>
 <ul>
-<li>✅ يشحن جهازين في نفس الوقت</li>
-<li>✅ ضمان 18 شهر من Cairo Volt</li>
-<li>✅ حماية MultiProtect بـ 11 نقطة أمان</li>
-<li>❌ لا يدعم شحن اللابتوب</li>
+<li>✓ يشحن جهازين في نفس الوقت</li>
+<li>✓ ضمان 18 شهر من Cairo Volt</li>
+<li>✓ حماية MultiProtect بـ 11 نقطة أمان</li>
+<li>✗ لا يدعم شحن اللابتوب</li>
 </ul>
 
 <h3>2. Anker Nano 10000mAh — الأصغر حجماً</h3>
@@ -85,11 +85,11 @@ export const blogArticles: BlogArticle[] = [
 <table>
 <thead><tr><th>المنتج</th><th>السعة</th><th>السعر</th><th>الشحن السريع</th><th>الضمان</th><th>الأفضل لـ</th></tr></thead>
 <tbody>
-<tr><td><strong>Anker 20000mAh</strong></td><td>20,000</td><td>1,054 ج</td><td>✅ PowerIQ</td><td>18 شهر</td><td>الاستخدام اليومي</td></tr>
-<tr><td><strong>Anker Nano 10000</strong></td><td>10,000</td><td>1,358 ج</td><td>✅ 30W</td><td>18 شهر</td><td>الجيب والتنقل</td></tr>
-<tr><td><strong>Anker Prime 27650</strong></td><td>27,650</td><td>3,799 ج</td><td>✅ 250W</td><td>18 شهر</td><td>اللابتوب والسفر</td></tr>
-<tr><td><strong>Joyroom 10000</strong></td><td>10,000</td><td>~450 ج</td><td>✅ 22.5W</td><td>12 شهر</td><td>الميزانية المحدودة</td></tr>
-<tr><td><strong>Joyroom 20000</strong></td><td>20,000</td><td>~650 ج</td><td>✅ 22.5W</td><td>12 شهر</td><td>سعة كبيرة اقتصادية</td></tr>
+<tr><td><strong>Anker 20000mAh</strong></td><td>20,000</td><td>1,054 ج</td><td>✓ PowerIQ</td><td>18 شهر</td><td>الاستخدام اليومي</td></tr>
+<tr><td><strong>Anker Nano 10000</strong></td><td>10,000</td><td>1,358 ج</td><td>✓ 30W</td><td>18 شهر</td><td>الجيب والتنقل</td></tr>
+<tr><td><strong>Anker Prime 27650</strong></td><td>27,650</td><td>3,799 ج</td><td>✓ 250W</td><td>18 شهر</td><td>اللابتوب والسفر</td></tr>
+<tr><td><strong>Joyroom 10000</strong></td><td>10,000</td><td>~450 ج</td><td>✓ 22.5W</td><td>12 شهر</td><td>الميزانية المحدودة</td></tr>
+<tr><td><strong>Joyroom 20000</strong></td><td>20,000</td><td>~650 ج</td><td>✓ 22.5W</td><td>12 شهر</td><td>سعة كبيرة اقتصادية</td></tr>
 </tbody>
 </table>
 
@@ -159,11 +159,11 @@ export const blogArticles: BlogArticle[] = [
 <table>
 <thead><tr><th>Product</th><th>Capacity</th><th>Price</th><th>Fast Charge</th><th>Warranty</th><th>Best For</th></tr></thead>
 <tbody>
-<tr><td><strong>Anker 20000mAh</strong></td><td>20,000</td><td>EGP 1,054</td><td>✅ PowerIQ</td><td>18 months</td><td>Daily use</td></tr>
-<tr><td><strong>Anker Nano 10000</strong></td><td>10,000</td><td>EGP 1,358</td><td>✅ 30W</td><td>18 months</td><td>Pocket carry</td></tr>
-<tr><td><strong>Anker Prime 27650</strong></td><td>27,650</td><td>EGP 3,799</td><td>✅ 250W</td><td>18 months</td><td>Laptop & travel</td></tr>
-<tr><td><strong>Joyroom 10000</strong></td><td>10,000</td><td>~EGP 450</td><td>✅ 22.5W</td><td>12 months</td><td>Budget</td></tr>
-<tr><td><strong>Joyroom 20000</strong></td><td>20,000</td><td>~EGP 650</td><td>✅ 22.5W</td><td>12 months</td><td>Budget high-cap</td></tr>
+<tr><td><strong>Anker 20000mAh</strong></td><td>20,000</td><td>EGP 1,054</td><td>✓ PowerIQ</td><td>18 months</td><td>Daily use</td></tr>
+<tr><td><strong>Anker Nano 10000</strong></td><td>10,000</td><td>EGP 1,358</td><td>✓ 30W</td><td>18 months</td><td>Pocket carry</td></tr>
+<tr><td><strong>Anker Prime 27650</strong></td><td>27,650</td><td>EGP 3,799</td><td>✓ 250W</td><td>18 months</td><td>Laptop & travel</td></tr>
+<tr><td><strong>Joyroom 10000</strong></td><td>10,000</td><td>~EGP 450</td><td>✓ 22.5W</td><td>12 months</td><td>Budget</td></tr>
+<tr><td><strong>Joyroom 20000</strong></td><td>20,000</td><td>~EGP 650</td><td>✓ 22.5W</td><td>12 months</td><td>Budget high-cap</td></tr>
 </tbody>
 </table>
 
@@ -371,7 +371,7 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>أفضل شواحن ايفون 17 في مصر</h2>
 
-<h3>1. Anker Nano 30W — الأفضل عموماً ⭐</h3>
+<h3>1. Anker Nano 30W — الأفضل عموماً </h3>
 <p><strong>السعر:</strong> 549 جنيه | <strong>القوة:</strong> 30W | <strong>التقنية:</strong> GaN III</p>
 <p>أصغر شاحن 30W في العالم. يعطي iPhone 17 أقصى سرعة شحن ممكنة (0 لـ 50% في 25 دقيقة). أصغر من شاحن Apple 20W الأصلي!</p>
 
@@ -389,7 +389,7 @@ export const blogArticles: BlogArticle[] = [
 <tbody>
 <tr><td>شاحن 5W (القديم)</td><td>90 دقيقة</td><td>3.5 ساعة</td><td>-</td></tr>
 <tr><td>شاحن 20W</td><td>30 دقيقة</td><td>1.5 ساعة</td><td>379 ج</td></tr>
-<tr><td><strong>شاحن 30W ⭐</strong></td><td><strong>25 دقيقة</strong></td><td><strong>1.2 ساعة</strong></td><td><strong>549 ج</strong></td></tr>
+<tr><td><strong>شاحن 30W </strong></td><td><strong>25 دقيقة</strong></td><td><strong>1.2 ساعة</strong></td><td><strong>549 ج</strong></td></tr>
 </tbody>
 </table>
 
@@ -415,7 +415,7 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>Best iPhone 17 Chargers in Egypt</h2>
 
-<h3>1. Anker Nano 30W — Best Overall ⭐</h3>
+<h3>1. Anker Nano 30W — Best Overall </h3>
 <p><strong>Price:</strong> EGP 549 | <strong>Power:</strong> 30W | <strong>Tech:</strong> GaN III</p>
 <p>World's smallest 30W charger. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple's 20W charger!</p>
 
@@ -433,16 +433,16 @@ export const blogArticles: BlogArticle[] = [
 <tbody>
 <tr><td>5W (old)</td><td>90 min</td><td>3.5 hours</td><td>-</td></tr>
 <tr><td>20W</td><td>30 min</td><td>1.5 hours</td><td>EGP 379</td></tr>
-<tr><td><strong>30W ⭐</strong></td><td><strong>25 min</strong></td><td><strong>1.2 hours</strong></td><td><strong>EGP 549</strong></td></tr>
+<tr><td><strong>30W </strong></td><td><strong>25 min</strong></td><td><strong>1.2 hours</strong></td><td><strong>EGP 549</strong></td></tr>
 </tbody>
 </table>
 
 <h2>Important: Choose the Right Cable</h2>
 <p>iPhone 17 uses <strong>USB-C</strong> (not Lightning). For maximum 30W speed, you need a USB-C to USB-C cable that supports Power Delivery. Anker PowerLine III is the recommended choice — bend-proof with 25,000 bend lifespan.</p>
 <ul>
-<li>✅ USB-C to USB-C with PD → full 30W speed</li>
-<li>❌ USB-A to USB-C → limited to 12W</li>
-<li>❌ Old Lightning cable → won't fit at all</li>
+<li>✓ USB-C to USB-C with PD → full 30W speed</li>
+<li>✗ USB-A to USB-C → limited to 12W</li>
+<li>✗ Old Lightning cable → won't fit at all</li>
 </ul>
 `,
                 faq: [
@@ -479,11 +479,11 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>5 طرق للتأكد من أن انكر أصلي</h2>
 
-<h3>1. كود التحقق QR على العلبة ✅</h3>
+<h3>1. كود التحقق QR على العلبة ✓</h3>
 <p><strong>الطريقة الأسهل والأضمن.</strong> كل منتج انكر أصلي يحتوي على كود QR على العلبة. امسحه بكاميرا موبايلك وسيفتح موقع <strong>anker.com/verify</strong>. لو ظهرت رسالة "Authentic" فهو أصلي 100%.</p>
 <p><strong>المقلد:</strong> إما لا يحتوي على كود QR، أو الكود لا يعمل، أو يؤدي لموقع مختلف.</p>
 
-<h3>2. الوزن والكثافة 🏋️</h3>
+<h3>2. الوزن والكثافة </h3>
 <p>منتجات انكر الأصلية تستخدم خلايا بطارية Grade-A عالية الكثافة. لذلك:</p>
 <ul>
 <li>باور بانك 10,000mAh أصلي يزن حوالي 190 جم</li>
@@ -491,13 +491,13 @@ export const blogArticles: BlogArticle[] = [
 </ul>
 <p><strong>المقلد:</strong> أخف بشكل ملحوظ (أحياناً 50% أقل) لأنه يستخدم خلايا رديئة.</p>
 
-<h3>3. جودة البلاستيك والطباعة 🔍</h3>
+<h3>3. جودة البلاستيك والطباعة </h3>
 <ul>
 <li><strong>الأصلي:</strong> بلاستيك مات ناعم، طباعة واضحة ومتساوية، لا فراغات</li>
 <li><strong>المقلد:</strong> بلاستيك لامع رخيص، طباعة باهتة أو مائلة، حروف غير متساوية</li>
 </ul>
 
-<h3>4. سرعة الشحن 🔋</h3>
+<h3>4. سرعة الشحن </h3>
 <p>منتجات انكر الأصلية تدعم تقنية <strong>PowerIQ</strong> للشحن الذكي. لو لاحظت:</p>
 <ul>
 <li>الشحن بطيء جداً مقارنة بالمواصفات المكتوبة</li>
@@ -541,16 +541,16 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>5 Ways to Verify Anker is Original</h2>
 
-<h3>1. QR Verification Code on Box ✅</h3>
+<h3>1. QR Verification Code on Box ✓</h3>
 <p>Every genuine Anker product has a QR code on the packaging. Scan it with your phone camera — it opens <strong>anker.com/verify</strong>. If it says "Authentic", it's 100% genuine.</p>
 
-<h3>2. Weight & Density 🏋️</h3>
+<h3>2. Weight & Density </h3>
 <p>Original Anker products use Grade-A high-density battery cells. A genuine 10,000mAh weighs ~190g, 20,000mAh weighs ~350g. Fakes are noticeably lighter.</p>
 
-<h3>3. Plastic Quality & Print 🔍</h3>
+<h3>3. Plastic Quality & Print </h3>
 <p>Original: smooth matte plastic, clear even printing. Fake: shiny cheap plastic, faded or uneven text.</p>
 
-<h3>4. Charging Speed 🔋</h3>
+<h3>4. Charging Speed </h3>
 <p>Genuine Anker supports PowerIQ smart charging. If charging is unusually slow or the device gets very hot, it's likely fake.</p>
 
 <h3>5. Buy from Authorized Dealer 🏪</h3>
@@ -558,11 +558,11 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>Signs You Can Trust the Seller</h2>
 <ul>
-<li>✅ Official invoice with warranty stamp</li>
-<li>✅ Products have QR verification codes</li>
-<li>✅ Serial number can be verified online</li>
-<li>✅ WhatsApp support 24/7</li>
-<li>✅ Instant replacement warranty (not repair)</li>
+<li>✓ Official invoice with warranty stamp</li>
+<li>✓ Products have QR verification codes</li>
+<li>✓ Serial number can be verified online</li>
+<li>✓ WhatsApp support 24/7</li>
+<li>✓ Instant replacement warranty (not repair)</li>
 </ul>
 
 <h2>What to Do If You Discover a Fake</h2>
@@ -607,7 +607,7 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>أفضل سماعات بلوتوث في مصر</h2>
 
-<h3>1. Soundcore Liberty 4 NC — الأفضل عموماً ⭐</h3>
+<h3>1. Soundcore Liberty 4 NC — الأفضل عموماً </h3>
 <p>إلغاء ضوضاء فعال (ANC)، صوت HiRes، بطارية تدوم 10 ساعات. بديل حقيقي لـ AirPods Pro بنصف السعر.</p>
 
 <h3>2. Soundcore R50i — أفضل قيمة</h3>
@@ -623,10 +623,10 @@ export const blogArticles: BlogArticle[] = [
 <table>
 <thead><tr><th>السماعة</th><th>ANC</th><th>البطارية</th><th>مقاومة الماء</th><th>السعر</th></tr></thead>
 <tbody>
-<tr><td><strong>Soundcore Liberty 4 NC</strong></td><td>✅ فعال</td><td>10 ساعات</td><td>IPX4</td><td>~2,500 ج</td></tr>
-<tr><td><strong>Soundcore R50i</strong></td><td>❌</td><td>10 ساعات</td><td>IPX5</td><td>~900 ج</td></tr>
-<tr><td><strong>Joyroom T03S Pro</strong></td><td>❌</td><td>6 ساعات</td><td>IPX4</td><td>~500 ج</td></tr>
-<tr><td><strong>Joyroom T03S</strong></td><td>❌</td><td>5 ساعات</td><td>IPX4</td><td>~350 ج</td></tr>
+<tr><td><strong>Soundcore Liberty 4 NC</strong></td><td>✓ فعال</td><td>10 ساعات</td><td>IPX4</td><td>~2,500 ج</td></tr>
+<tr><td><strong>Soundcore R50i</strong></td><td>✗</td><td>10 ساعات</td><td>IPX5</td><td>~900 ج</td></tr>
+<tr><td><strong>Joyroom T03S Pro</strong></td><td>✗</td><td>6 ساعات</td><td>IPX4</td><td>~500 ج</td></tr>
+<tr><td><strong>Joyroom T03S</strong></td><td>✗</td><td>5 ساعات</td><td>IPX4</td><td>~350 ج</td></tr>
 </tbody>
 </table>
 
@@ -655,7 +655,7 @@ export const blogArticles: BlogArticle[] = [
 <p>With original AirPods starting at EGP 7,000+, <strong>Soundcore (Anker)</strong> and <strong>Joyroom</strong> earbuds have become the smart alternative in Egypt. Excellent sound quality at reasonable prices with official warranty.</p>
 
 <h2>Best Bluetooth Earbuds in Egypt</h2>
-<h3>1. Soundcore Liberty 4 NC — Best Overall ⭐</h3>
+<h3>1. Soundcore Liberty 4 NC — Best Overall </h3>
 <p>Active Noise Cancellation, HiRes audio, 10-hour battery. A true AirPods Pro alternative at half the price.</p>
 
 <h3>2. Soundcore R50i — Best Value</h3>
@@ -671,10 +671,10 @@ export const blogArticles: BlogArticle[] = [
 <table>
 <thead><tr><th>Earbuds</th><th>ANC</th><th>Battery</th><th>Water Resist</th><th>Price</th></tr></thead>
 <tbody>
-<tr><td><strong>Soundcore Liberty 4 NC</strong></td><td>✅ Active</td><td>10 hours</td><td>IPX4</td><td>~EGP 2,500</td></tr>
-<tr><td><strong>Soundcore R50i</strong></td><td>❌</td><td>10 hours</td><td>IPX5</td><td>~EGP 900</td></tr>
-<tr><td><strong>Joyroom T03S Pro</strong></td><td>❌</td><td>6 hours</td><td>IPX4</td><td>~EGP 500</td></tr>
-<tr><td><strong>Joyroom T03S</strong></td><td>❌</td><td>5 hours</td><td>IPX4</td><td>~EGP 350</td></tr>
+<tr><td><strong>Soundcore Liberty 4 NC</strong></td><td>✓ Active</td><td>10 hours</td><td>IPX4</td><td>~EGP 2,500</td></tr>
+<tr><td><strong>Soundcore R50i</strong></td><td>✗</td><td>10 hours</td><td>IPX5</td><td>~EGP 900</td></tr>
+<tr><td><strong>Joyroom T03S Pro</strong></td><td>✗</td><td>6 hours</td><td>IPX4</td><td>~EGP 500</td></tr>
+<tr><td><strong>Joyroom T03S</strong></td><td>✗</td><td>5 hours</td><td>IPX4</td><td>~EGP 350</td></tr>
 </tbody>
 </table>
 
@@ -720,10 +720,10 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>7 نصائح ذهبية لشحن الباور بانك</h2>
 
-<h3>1. اشحنه قبل أول استخدام ✅</h3>
+<h3>1. اشحنه قبل أول استخدام ✓</h3>
 <p>عند شراء باور بانك جديد، اشحنه بالكامل قبل أول استخدام. هذا يساعد في معايرة خلايا البطارية ويعطيك قراءة دقيقة للسعة.</p>
 
-<h3>2. استخدم الشاحن المناسب ⚡</h3>
+<h3>2. استخدم الشاحن المناسب </h3>
 <p>استخدم شاحن بقوة مناسبة:</p>
 <ul>
 <li><strong>10,000mAh:</strong> شاحن 18-20W (يشحنه في ~3 ساعات)</li>
@@ -735,16 +735,16 @@ export const blogArticles: BlogArticle[] = [
 <h3>3. لا تتركه يفرغ تماماً 🔴</h3>
 <p>تجنب ترك الباور بانك يصل لـ 0%. حاول إعادة شحنه عند 20-30%. التفريغ الكامل المتكرر يضر خلايا الليثيوم.</p>
 
-<h3>4. لا تشحنه وتستخدمه في نفس الوقت ❌</h3>
+<h3>4. لا تشحنه وتستخدمه في نفس الوقت ✗</h3>
 <p>الـ Pass-through charging (شحن الباور بانك وشحن موبايلك منه في نفس الوقت) يسبب حرارة زائدة ويقلل عمر البطارية. اشحنه أولاً ثم استخدمه.</p>
 
-<h3>5. ابعده عن الحرارة 🌡️</h3>
+<h3>5. ابعده عن الحرارة </h3>
 <p>لا تتركه في السيارة تحت الشمس أو بجانب مصادر حرارة. درجة الحرارة المثالية للتخزين: 15-25 درجة مئوية.</p>
 
-<h3>6. اشحنه مرة كل 3 أشهر حتى لو مش بتستخدمه 📅</h3>
+<h3>6. اشحنه مرة كل 3 أشهر حتى لو مش بتستخدمه </h3>
 <p>لو مخزن الباور بانك لفترة طويلة، اشحنه لـ 50-80% كل 3 أشهر. ترك البطارية فارغة لفترة طويلة يتلف الخلايا.</p>
 
-<h3>7. استخدم كابل USB-C جيد 🔌</h3>
+<h3>7. استخدم كابل USB-C جيد </h3>
 <p>كابل رديء = شحن بطيء وحرارة زائدة. استخدم كابل انكر أصلي أو أي كابل يدعم Power Delivery.</p>
 
 <h2>كم يستغرق شحن باور بانك انكر؟</h2>
@@ -774,25 +774,25 @@ export const blogArticles: BlogArticle[] = [
 <p><strong>Yes!</strong> Wrong charging habits can reduce lifespan by 50% or more. Anker power banks are designed for 500+ charge cycles (~3-4 years), but bad habits can kill it in one year.</p>
 
 <h2>7 Golden Tips for Power Bank Charging</h2>
-<h3>1. Charge Before First Use ✅</h3>
+<h3>1. Charge Before First Use ✓</h3>
 <p>Fully charge your new power bank before first use to calibrate battery cells.</p>
 
-<h3>2. Use the Right Charger ⚡</h3>
+<h3>2. Use the Right Charger </h3>
 <p>Use an appropriate wattage charger. 18-20W for 10,000mAh, 20-25W for 20,000mAh.</p>
 
 <h3>3. Don't Let It Fully Drain 🔴</h3>
 <p>Recharge at 20-30%. Repeated full drains damage lithium cells.</p>
 
-<h3>4. Avoid Pass-Through Charging ❌</h3>
+<h3>4. Avoid Pass-Through Charging ✗</h3>
 <p>Don't charge your phone from the power bank while the bank is also charging. This causes excessive heat.</p>
 
-<h3>5. Keep Away from Heat 🌡️</h3>
+<h3>5. Keep Away from Heat </h3>
 <p>Don't leave it in a car under the sun. Ideal storage: 15-25°C.</p>
 
-<h3>6. Charge Every 3 Months Even When Not Using 📅</h3>
+<h3>6. Charge Every 3 Months Even When Not Using </h3>
 <p>Charge to 50-80% every 3 months during storage to prevent cell damage.</p>
 
-<h3>7. Use a Good USB-C Cable 🔌</h3>
+<h3>7. Use a Good USB-C Cable </h3>
 <p>Bad cable = slow charging + excessive heat. Use an Anker cable or any PD-capable cable.</p>
 
 <h2>How Long Does It Take to Charge an Anker Power Bank?</h2>
@@ -807,13 +807,13 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>Summary: Do's and Don'ts</h2>
 <ul>
-<li>✅ Charge before first use</li>
-<li>✅ Use 18W+ charger for fast charging</li>
-<li>✅ Recharge at 20-30% — don't let it fully drain</li>
-<li>✅ Store at 50-80% if not using for long periods</li>
-<li>❌ Don't use pass-through charging</li>
-<li>❌ Don't leave in hot car or direct sunlight</li>
-<li>❌ Don't use cheap unbranded cables</li>
+<li>✓ Charge before first use</li>
+<li>✓ Use 18W+ charger for fast charging</li>
+<li>✓ Recharge at 20-30% — don't let it fully drain</li>
+<li>✓ Store at 50-80% if not using for long periods</li>
+<li>✗ Don't use pass-through charging</li>
+<li>✗ Don't leave in hot car or direct sunlight</li>
+<li>✗ Don't use cheap unbranded cables</li>
 </ul>
 `,
                 faq: [
@@ -868,7 +868,7 @@ export const blogArticles: BlogArticle[] = [
 <tbody>
 <tr><td>15W عادي (بدون PPS)</td><td>-</td><td>55 دقيقة</td><td>-</td></tr>
 <tr><td>25W PPS</td><td>Super Fast</td><td>26 دقيقة</td><td>512 ج</td></tr>
-<tr><td><strong>45W PPS ⭐</strong></td><td><strong>Super Fast 2.0</strong></td><td><strong>20 دقيقة</strong></td><td><strong>759 ج</strong></td></tr>
+<tr><td><strong>45W PPS </strong></td><td><strong>Super Fast 2.0</strong></td><td><strong>20 دقيقة</strong></td><td><strong>759 ج</strong></td></tr>
 </tbody>
 </table>
 `,
@@ -907,7 +907,7 @@ export const blogArticles: BlogArticle[] = [
 <tbody>
 <tr><td>15W regular (no PPS)</td><td>-</td><td>55 min</td><td>-</td></tr>
 <tr><td>25W PPS</td><td>Super Fast</td><td>26 min</td><td>EGP 512</td></tr>
-<tr><td><strong>45W PPS ⭐</strong></td><td><strong>Super Fast 2.0</strong></td><td><strong>20 min</strong></td><td><strong>EGP 759</strong></td></tr>
+<tr><td><strong>45W PPS </strong></td><td><strong>Super Fast 2.0</strong></td><td><strong>20 min</strong></td><td><strong>EGP 759</strong></td></tr>
 </tbody>
 </table>
 
@@ -1093,9 +1093,9 @@ export const blogArticles: BlogArticle[] = [
 <table>
 <thead><tr><th>الحل</th><th>المدة</th><th>التكلفة</th><th>متعدد الاستخدام</th><th>سهولة التركيب</th></tr></thead>
 <tbody>
-<tr><td>باور بانك + كابل</td><td>6-8 ساعات</td><td>~800 جنيه</td><td>✅ نعم</td><td>⭐⭐⭐</td></tr>
-<tr><td>Mini UPS</td><td>4-8 ساعات</td><td>300-600 جنيه</td><td>❌ للراوتر فقط</td><td>⭐⭐⭐⭐⭐</td></tr>
-<tr><td><strong>محطة طاقة Anker</strong></td><td><strong>15-20 ساعة</strong></td><td>~5,999 جنيه</td><td><strong>✅ كل حاجة</strong></td><td>⭐⭐⭐⭐</td></tr>
+<tr><td>باور بانك + كابل</td><td>6-8 ساعات</td><td>~800 جنيه</td><td>✓ نعم</td><td></td></tr>
+<tr><td>Mini UPS</td><td>4-8 ساعات</td><td>300-600 جنيه</td><td>✗ للراوتر فقط</td><td></td></tr>
+<tr><td><strong>محطة طاقة Anker</strong></td><td><strong>15-20 ساعة</strong></td><td>~5,999 جنيه</td><td><strong>✓ كل حاجة</strong></td><td></td></tr>
 </tbody>
 </table>
 
@@ -1186,7 +1186,7 @@ export const blogArticles: BlogArticle[] = [
 <tr><td>Battery Health بعد سنة</td><td>92-95%</td><td>80-85%</td></tr>
 <tr><td>سخونة أثناء الشحن</td><td>معتدلة (30-35°C)</td><td>عالية (40-50°C)</td></tr>
 <tr><td>سرعة الشحن</td><td>0→50% في 30 دقيقة</td><td>0→50% في 60+ دقيقة</td></tr>
-<tr><td>حماية من الشحن الزائد</td><td>✅ نعم</td><td>❌ لا</td></tr>
+<tr><td>حماية من الشحن الزائد</td><td>✓ نعم</td><td>✗ لا</td></tr>
 <tr><td>عمر البطارية المتوقع</td><td>3-4 سنوات</td><td>1.5-2 سنة</td></tr>
 </tbody>
 </table>

@@ -4,7 +4,7 @@
 export const categories = [
     {
         slug: "power-banks",
-        icon: "🔋",
+        icon: "battery",
         order: 1,
         status: "active",
         productCount: 0,
@@ -16,7 +16,7 @@ export const categories = [
     },
     {
         slug: "wall-chargers",
-        icon: "🔌",
+        icon: "plug",
         order: 2,
         status: "active",
         productCount: 0,
@@ -28,7 +28,7 @@ export const categories = [
     },
     {
         slug: "cables",
-        icon: "🔗",
+        icon: "link",
         order: 3,
         status: "active",
         productCount: 0,
@@ -40,7 +40,7 @@ export const categories = [
     },
     {
         slug: "car-chargers",
-        icon: "🚗",
+        icon: "car",
         order: 4,
         status: "active",
         productCount: 0,
@@ -52,7 +52,7 @@ export const categories = [
     },
     {
         slug: "audio",
-        icon: "🎧",
+        icon: "headphones",
         order: 5,
         status: "active",
         productCount: 0,
@@ -64,7 +64,7 @@ export const categories = [
     },
     {
         slug: "smart-watches",
-        icon: "⌚",
+        icon: "watch",
         order: 6,
         status: "active",
         productCount: 0,
@@ -76,7 +76,7 @@ export const categories = [
     },
     {
         slug: "car-holders",
-        icon: "🧭",
+        icon: "compass",
         order: 7,
         status: "active",
         productCount: 0,
@@ -88,7 +88,7 @@ export const categories = [
     },
     {
         slug: "speakers",
-        icon: "🔊",
+        icon: "speaker",
         order: 8,
         status: "active",
         productCount: 0,
@@ -417,7 +417,7 @@ export const products = [
                     "18-Month Official Warranty → Full support and instant replacement in Egypt"
                 ],
                 metaTitle: "Anker 10000mAh Power Bank | Fast Charge iPhone 17 & S26 2026 | Best Price Egypt",
-                metaDesc: "Buy original Anker 10000mAh power bank. 2 full iPhone 17 charges. From EGP 1,358. ✅ 18-month warranty ✅ Next-day Cairo delivery ✅ Cash on delivery",
+                metaDesc: "Buy original Anker 10000mAh power bank. 2 full iPhone 17 charges. From EGP 1,358. ✓ 18-month warranty ✓ Next-day Cairo delivery ✓ Cash on delivery",
                 faqs: [
                     { question: "What is the price of Anker 10000mAh power bank in Egypt?", answer: "Anker 10000mAh power bank price is EGP 1,358 at Cairo Volt. Includes 18-month warranty from authorized dealer and fast Cairo/Giza delivery." },
                     { question: "Does Anker 10000 charge iPhone 17 Pro Max?", answer: "Yes, it charges iPhone 17 Pro Max 2 full times. With 22.5W fast charging, reaches 0% to 50% in just 30 minutes." },
@@ -447,7 +447,7 @@ export const products = [
                     "ضمان رسمي 18 شهر → دعم كامل واستبدال فوري في مصر"
                 ],
                 metaTitle: "باور بانك انكر 10000 | شحن سريع ايفون 17 و S26 2026 | أفضل سعر مصر",
-                metaDesc: "اشتري باور بانك انكر 10000 مللي أمبير الأصلي. يشحن ايفون 17 مرتين. سعر 1,358 جنيه. ✅ ضمان 18 شهر ✅ توصيل سريع ✅ دفع عند الاستلام",
+                metaDesc: "اشتري باور بانك انكر 10000 مللي أمبير الأصلي. يشحن ايفون 17 مرتين. سعر 1,358 جنيه. ✓ ضمان 18 شهر ✓ توصيل سريع ✓ دفع عند الاستلام",
                 faqs: [
                     { question: "كم سعر باور بانك انكر 10000 في مصر؟", answer: "سعر باور بانك انكر 10000 هو 1,358 جنيه في Cairo Volt. يشمل ضمان 18 شهر من الوكيل المعتمد وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل باور بانك انكر 10000 يشحن ايفون 17 برو ماكس؟", answer: "نعم، يشحن ايفون 17 برو ماكس شحنتين كاملتين. بالشحن السريع 22.5 واط، يصل من 0% لـ 50% في 30 دقيقة." },
@@ -661,7 +661,7 @@ export const products = [
                     "18-month warranty → Double the industry standard in Egypt"
                 ],
                 metaTitle: "Anker 20W USB-C Charger Egypt | EGP 379 | Fast iPhone 17 Charging 2026",
-                metaDesc: "Buy original Anker 20W charger in Egypt for EGP 379. Charges iPhone 17 from 0% to 50% in 30 min. ✅ 18-month warranty ✅ Next-day Cairo delivery ✅ Cash on delivery",
+                metaDesc: "Buy original Anker 20W charger in Egypt for EGP 379. Charges iPhone 17 from 0% to 50% in 30 min. ✓ 18-month warranty ✓ Next-day Cairo delivery ✓ Cash on delivery",
                 faqs: [
                     { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 379 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 20W fast charge iPhone 17?", answer: "Yes, it charges iPhone 17 from 0% to 50% in just 30 minutes—3x faster than the standard 5W charger." },
@@ -689,7 +689,7 @@ export const products = [
                     "ضمان 18 شهر → ضعف المعيار في مصر"
                 ],
                 metaTitle: "شاحن انكر 20 وات | سعر 379 جنيه مصر 2026 | توصيل سريع",
-                metaDesc: "اشتري شاحن انكر 20 وات الأصلي في مصر بسعر 379 جنيه. يشحن iPhone 17 من 0% لـ 50% في 30 دقيقة. ✅ ضمان 18 شهر ✅ توصيل القاهرة يوم واحد ✅ دفع عند الاستلام",
+                metaDesc: "اشتري شاحن انكر 20 وات الأصلي في مصر بسعر 379 جنيه. يشحن iPhone 17 من 0% لـ 50% في 30 دقيقة. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام",
                 faqs: [
                     { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "سعر شاحن انكر 20 وات في مصر هو 379 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل شاحن انكر 20 وات يشحن iPhone 17 بسرعة؟", answer: "نعم، يشحن iPhone 17 من 0% إلى 50% في 30 دقيقة فقط - أسرع 3 مرات من الشاحن العادي 5 وات." },
@@ -743,7 +743,7 @@ export const products = [
                     "18-month warranty → Longer than Samsung original (12 months)"
                 ],
                 metaTitle: "Anker 25W PPS Charger Egypt | EGP 512 | Samsung S26 Super Fast Charging 2026",
-                metaDesc: "Buy original Anker 25W PPS charger in Egypt for EGP 512. Charges Samsung S26 from 0% to 50% in 26 min. ✅ 18-month warranty ✅ Next-day Cairo delivery",
+                metaDesc: "Buy original Anker 25W PPS charger in Egypt for EGP 512. Charges Samsung S26 from 0% to 50% in 26 min. ✓ 18-month warranty ✓ Next-day Cairo delivery",
                 faqs: [
                     { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 512 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 25W support Samsung Super Fast Charging?", answer: "Yes! It supports PPS technology unlocking full Super Fast Charging for Samsung S26/S25. Charges 0% to 50% in 26 minutes." },
@@ -770,7 +770,7 @@ export const products = [
                     "ضمان 18 شهر → أطول من ضمان سامسونج الأصلي (12 شهر)"
                 ],
                 metaTitle: "شاحن انكر 25 واط | سعر 512 جنيه | شحن سامسونج S26 فائق السرعة 2026",
-                metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر. يشحن Samsung S26 من 0% لـ 50% في 26 دقيقة. ✅ ضمان 18 شهر ✅ توصيل القاهرة يوم واحد ✅ أفضل سعر 512 جنيه",
+                metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر. يشحن Samsung S26 من 0% لـ 50% في 26 دقيقة. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ أفضل سعر 512 جنيه",
                 faqs: [
                     { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 512 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل شاحن انكر 25 واط يدعم Samsung Super Fast Charging؟", answer: "نعم! يدعم تقنية PPS التي تفتح سرعة Super Fast Charging الكاملة لـ Samsung S26/S25. يشحن من 0% لـ 50% في 26 دقيقة." },
@@ -1061,7 +1061,7 @@ export const products = [
                     "12-month warranty → Full support in Egypt"
                 ],
                 metaTitle: "Joyroom 10000mAh Power Bank Egypt | EGP 1624 | 2x iPhone 17 Charges 2026",
-                metaDesc: "Buy original Joyroom 10000mAh power bank in Egypt. Charges iPhone 17 twice. ✅ 12-month warranty ✅ Next-day Cairo delivery ✅ 40% cheaper than Anker",
+                metaDesc: "Buy original Joyroom 10000mAh power bank in Egypt. Charges iPhone 17 twice. ✓ 12-month warranty ✓ Next-day Cairo delivery ✓ 40% cheaper than Anker",
                 faqs: [
                     { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at Cairo Volt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
                     { question: "How many times does Joyroom 10000 charge iPhone 17?", answer: "It charges iPhone 17 twice or Samsung S26 about 1.5 times. Perfect for a day trip or short travel." },
@@ -1089,7 +1089,7 @@ export const products = [
                     "ضمان 12 شهر → دعم كامل في مصر"
                 ],
                 metaTitle: "باور بانك جوي روم 10000 | سعر 1624 جنيه مصر 2026 | شحن سريع",
-                metaDesc: "اشتري باور بانك جوي روم 10000 مللي أمبير الأصلي في مصر. يشحن iPhone 17 مرتين. ✅ ضمان 12 شهر ✅ توصيل القاهرة يوم واحد ✅ أرخص من Anker بـ 40%",
+                metaDesc: "اشتري باور بانك جوي روم 10000 مللي أمبير الأصلي في مصر. يشحن iPhone 17 مرتين. ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد ✓ أرخص من Anker بـ 40%",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من Cairo Volt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "كم مرة يشحن جوي روم 10000 الايفون 17؟", answer: "يشحن iPhone 17 مرتين كاملتين، أو Samsung S26 حوالي 1.5 مرة. مثالي لرحلة يومية أو سفر قصير." },

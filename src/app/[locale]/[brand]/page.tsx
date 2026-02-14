@@ -156,7 +156,7 @@ export default async function BrandHubPage({ params }: Props) {
             {brand === 'joyroom' && (
                 <div className="bg-yellow-400 text-black py-3 overflow-hidden">
                     <div className="container mx-auto px-4 flex items-center justify-center gap-2 text-center font-bold text-sm md:text-base animate-pulse">
-                        ⚠️ {isRTL ? 'تنبيه: تأكد دائماً من وجود "الكود الذهبي" لضمان المنتج الأصلي.' : 'Alert: Always verify the "Golden Code" to ensure authenticity.'}
+                        {isRTL ? 'تنبيه: تأكد دائماً من وجود "الكود الذهبي" لضمان المنتج الأصلي.' : 'Alert: Always verify the "Golden Code" to ensure authenticity.'}
                     </div>
                 </div>
             )}
@@ -179,7 +179,7 @@ export default async function BrandHubPage({ params }: Props) {
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                             {data.trustBadges.map((badge, idx) => (
                                 <div key={idx} className="flex flex-col items-center text-center p-3 rounded-xl hover:bg-white/50 dark:hover:bg-gray-800/50 transition-colors">
-                                    <span className="text-2xl md:text-3xl mb-2">{badge.icon}</span>
+                                    <SvgIcon name={badge.icon} className="w-7 h-7 mb-2" />
                                     <span className="font-bold text-sm text-gray-900 dark:text-white">
                                         {isRTL ? badge.title.ar : badge.title.en}
                                     </span>
@@ -218,7 +218,7 @@ export default async function BrandHubPage({ params }: Props) {
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
                             {data.aboutSection.achievements.map((achievement, idx) => (
                                 <div key={idx} className="text-center p-6 bg-gray-50 dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
-                                    <span className="text-3xl mb-2 block">{achievement.icon}</span>
+                                    <SvgIcon name={achievement.icon} className="w-8 h-8 mb-2 mx-auto text-blue-500" />
                                     <span className="text-2xl md:text-3xl font-black text-blue-600 dark:text-blue-400 block mb-1">
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
@@ -270,7 +270,7 @@ export default async function BrandHubPage({ params }: Props) {
 
                             {/* Icon */}
                             <div className="text-4xl md:text-6xl mb-4 md:mb-6 transform group-hover:scale-110 transition-transform duration-300">
-                                {cat.icon}
+                                <SvgIcon name={cat.icon} className="w-10 h-10" />
                             </div>
 
                             {/* Text Content */}
@@ -310,7 +310,7 @@ export default async function BrandHubPage({ params }: Props) {
                         {data.whySection.items.map((item, idx) => (
                             <div key={idx} className="p-8 rounded-3xl bg-gray-50 dark:bg-gray-900 text-center hover:bg-white dark:hover:bg-gray-800 hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200 dark:hover:border-gray-700 group">
                                 <div className="text-5xl mb-6 transform group-hover:scale-110 transition-transform duration-300 filter drop-shadow-lg">
-                                    {item.icon}
+                                    <SvgIcon name={item.icon} className="w-12 h-12 mx-auto" />
                                 </div>
                                 <h4 className="text-xl font-bold mb-3 dark:text-white">
                                     {isRTL ? item.title.ar : item.title.en}

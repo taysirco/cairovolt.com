@@ -37,14 +37,14 @@ export async function POST(req: NextRequest) {
                         updatedAt: FieldValue.serverTimestamp(),
                     });
                     categoriesAdded++;
-                    console.log(`✅ Added category: ${category.translations?.ar?.name || category.slug}`);
+                    console.log(`[OK] Added category: ${category.translations?.ar?.name || category.slug}`);
                 } else {
-                    console.log(`⏭️ Skipped category: ${category.slug} (exists)`);
+                    console.log(`[SKIP] Skipped category: ${category.slug} (exists)`);
                 }
             } catch (err) {
                 const error = err as Error;
                 errors.push(`Category ${category.slug}: ${error.message}`);
-                console.error(`❌ Error adding category ${category.slug}:`, error.message);
+                console.error(`[ERR] Error adding category ${category.slug}:`, error.message);
             }
         }
 
@@ -71,14 +71,14 @@ export async function POST(req: NextRequest) {
                         updatedAt: FieldValue.serverTimestamp(),
                     });
                     productsAdded++;
-                    console.log(`✅ Added product: ${product.translations?.ar?.name || product.slug}`);
+                    console.log(`[OK] Added product: ${product.translations?.ar?.name || product.slug}`);
                 } else {
-                    console.log(`⏭️ Skipped product: ${product.slug} (exists)`);
+                    console.log(`[SKIP] Skipped product: ${product.slug} (exists)`);
                 }
             } catch (err) {
                 const error = err as Error;
                 errors.push(`Product ${product.slug}: ${error.message}`);
-                console.error(`❌ Error adding product ${product.slug}:`, error.message);
+                console.error(`[ERR] Error adding product ${product.slug}:`, error.message);
             }
         }
 

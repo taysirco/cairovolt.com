@@ -280,12 +280,12 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
             metadata: {
                 en: {
                     title: 'Anker Charger Egypt | From EGP 379 | iPhone 17 & Samsung S26 Fast Charging 2026',
-                    description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 379, 25W for Samsung S26, 45W GaN for laptops. ✅ 18-month warranty ✅ Next-day Cairo delivery',
+                    description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 379, 25W for Samsung S26, 45W GaN for laptops. ✓ 18-month warranty ✓ Next-day Cairo delivery',
                     keywords: 'anker charger egypt, anker wall charger, anker 20w charger, anker nano charger, anker 25w charger, anker 45w charger, best anker charger iphone 17, anker charger samsung s26, anker gan charger, anker ganprime',
                 },
                 ar: {
                     title: 'شاحن انكر | من 379 جنيه | شحن سريع ايفون 17 وسامسونج S26 مصر 2026',
-                    description: 'تسوق شاحن انكر الأصلي في مصر. 20W للايفون من 379 ج، 25W لسامسونج S26، 45W GaN للابتوب. ✅ ضمان 18 شهر ✅ توصيل القاهرة يوم واحد ✅ دفع عند الاستلام',
+                    description: 'تسوق شاحن انكر الأصلي في مصر. 20W للايفون من 379 ج، 25W لسامسونج S26، 45W GaN للابتوب. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام',
                     keywords: 'شاحن انكر, شواحن انكر, راس شاحن انكر, شاحن انكر ايفون, شاحن انكر 20 وات, شاحن انكر 25 واط, شاحن انكر تايب سي, شاحن انكر سريع, افضل شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن انكر نانو, شاحن انكر 45 واط, فيش شاحن انكر, ادابتر انكر',
                 }
             },
@@ -317,7 +317,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
 |---------|-------|----------|-----------|
 | **20W** | 379 ج | iPhone 15/16 (قديمة) | 0→50% في 30 دقيقة |
 | **25W PPS** | 512 ج | Samsung S26 Super Fast | 0→50% في 26 دقيقة |
-| **30W** | 549 ج | iPhone 17 ⭐ الأفضل | 0→50% في 25 دقيقة |
+| **30W** | 549 ج | iPhone 17  الأفضل | 0→50% في 25 دقيقة |
 | **45W** | 759 ج | S26 Ultra / iPad | 0→50% في 20 دقيقة |
 | **65W GaN** | 999 ج | MacBook Air + iPhone | شحن جهازين معاً |
 | **100W** | 1299 ج | MacBook Pro 16" | للمحترفين |
@@ -338,7 +338,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
                         {
                             title: 'للسرعة الكاملة: الكابل المناسب',
                             content: `
-**💡 نصيحة مهمة:** للحصول على أقصى سرعة، استخدم كابل USB-C to Lightning من انكر مع الشاحن.
+** نصيحة مهمة:** للحصول على أقصى سرعة، استخدم كابل USB-C to Lightning من انكر مع الشاحن.
 [تسوق كابل انكر USB-C](/Anker/cables) - **خصم 15% عند الشراء مع الشاحن!**
 `
                         }
@@ -358,7 +358,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
                     products: [
                         { name: 'شاحن انكر 20 واط', price: 379, badge: 'الأرخص' },
                         { name: 'شاحن انكر 25W PPS', price: 512, badge: 'Samsung S26' },
-                        { name: 'شاحن انكر نانو 30W', price: 549, badge: '⭐ iPhone 17' },
+                        { name: 'شاحن انكر نانو 30W', price: 549, badge: ' iPhone 17' },
                         { name: 'شاحن انكر 45W', price: 759, badge: 'S26 Ultra' },
                         { name: 'شاحن انكر GaN 65W', price: 999, badge: 'MacBook' },
                         { name: 'شاحن انكر 100W', price: 1299, badge: 'Pro Max' },
@@ -391,7 +391,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
 |---------|-------|----------|----------------|
 | **20W** | EGP 379 | iPhone 15/16 (older) | 0→50% in 30 min |
 | **25W PPS** | EGP 512 | Samsung S26 Super Fast | 0→50% in 26 min |
-| **30W** | EGP 549 | iPhone 17 ⭐ Best Choice | 0→50% in 25 min |
+| **30W** | EGP 549 | iPhone 17  Best Choice | 0→50% in 25 min |
 | **45W** | EGP 759 | S26 Ultra / iPad | 0→50% in 20 min |
 | **65W GaN** | EGP 999 | MacBook Air + iPhone | Charge 2 devices |
 | **100W** | EGP 1299 | MacBook Pro 16" | For Professionals |
@@ -412,7 +412,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                         {
                             title: 'For Full Speed: The Right Cable',
                             content: `
-**💡 Pro Tip:** For maximum speed, use an Anker USB-C to Lightning cable with your charger.
+** Pro Tip:** For maximum speed, use an Anker USB-C to Lightning cable with your charger.
 [Shop Anker Cables](/en/Anker/cables) — **15% off when bundled with charger!**
 `
                         }
@@ -432,7 +432,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                     products: [
                         { name: 'Anker 20W Charger', price: 379, badge: 'Budget' },
                         { name: 'Anker 25W PPS', price: 512, badge: 'Samsung S26' },
-                        { name: 'Anker Nano 30W', price: 549, badge: '⭐ iPhone 17' },
+                        { name: 'Anker Nano 30W', price: 549, badge: ' iPhone 17' },
                         { name: 'Anker 45W', price: 759, badge: 'S26 Ultra' },
                         { name: 'Anker GaN 65W', price: 999, badge: 'MacBook' },
                         { name: 'Anker 100W', price: 1299, badge: 'Pro Max' },
@@ -913,12 +913,12 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
             metadata: {
                 en: {
                     title: 'Joyroom Earbuds Egypt | From EGP 499 | Best AirPods Alternative 2026',
-                    description: 'Shop original Joyroom earbuds in Egypt. T03s Pro with ANC and Spatial Audio from EGP 699. ✅ Golden Code verified ✅ 12-month warranty ✅ Next-day Cairo delivery',
+                    description: 'Shop original Joyroom earbuds in Egypt. T03s Pro with ANC and Spatial Audio from EGP 699. ✓ Golden Code verified ✓ 12-month warranty ✓ Next-day Cairo delivery',
                     keywords: 'joyroom earbuds egypt, joyroom t03s pro egypt, joyroom wireless earbuds, joyroom bluetooth earbuds, best airpods alternative egypt 2026, cheap wireless earbuds egypt, joyroom vs airpods, joyroom anc earbuds, joyroom t03s pro max, joyroom golden code verification',
                 },
                 ar: {
                     title: 'سماعات جوي روم | أسعار من 499 جنيه | بديل الايربودز مصر 2026',
-                    description: 'تسوق سماعات جوي روم الأصلية في مصر. T03s Pro بـ ANC وSpatial Audio من 699 جنيه. ✅ الكود الذهبي ✅ ضمان 12 شهر ✅ توصيل القاهرة يوم واحد',
+                    description: 'تسوق سماعات جوي روم الأصلية في مصر. T03s Pro بـ ANC وSpatial Audio من 699 جنيه. ✓ الكود الذهبي ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد',
                     keywords: 'سماعات جوي روم, سماعة joyroom, سماعات joyroom الاصلية, سعر السماعة joyroom, جوي روم ايربودز, سعر ايربودز joyroom, سعر ايربودز جوي روم, سعر سماعة joyroom jr t03s, سماعات بلوتوث joyroom, أفضل سماعات joyroom, سماعات ايربودز joyroom, سماعات بلوتوث جوي روم, سماعات joyroom t03s pro, ايربودز جوي روم t03s, مميزات وعيوب سماعة joyroom jr t03s',
                 }
             },
@@ -930,10 +930,10 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
 سماعات جوي روم هي علامة صينية متخصصة في سماعات البلوتوث اللاسلكية بأسعار اقتصادية. سلسلة T03s هي الأكثر مبيعاً في مصر، توفر ميزات الايربودز (Pop-up pairing, ANC, Spatial Audio) بنصف السعر. تأتي بضمان الكود الذهبي وتوصيل سريع للقاهرة.
 
 **لماذا جوي روم بدلاً من الايربودز؟**
-- ✅ AirPods Pro 2 = 12,000+ جنيه | T03s Pro = **699 جنيه فقط**
-- ✅ نفس الميزات: ANC, Spatial Audio, Pop-up Pairing
-- ✅ ضمان الكود الذهبي: تأكد من الأصالة برسالة SMS
-- ✅ أكثر من 15,000 قطعة مباعة في مصر
+- ✓ AirPods Pro 2 = 12,000+ جنيه | T03s Pro = **699 جنيه فقط**
+- ✓ نفس الميزات: ANC, Spatial Audio, Pop-up Pairing
+- ✓ ضمان الكود الذهبي: تأكد من الأصالة برسالة SMS
+- ✓ أكثر من 15,000 قطعة مباعة في مصر
     `,
                     trustSignals: [
                         { type: 'originality', text: 'الكود الذهبي - تأكيد الأصالة بـ SMS' },
@@ -946,9 +946,9 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
                             content: `
 | الموديل | السعر | ANC | عمر البطارية | الأفضل لـ |
 |---------|-------|-----|-------------|-----------|
-| **T03s** | 499 ج | ❌ | 5h + 20h | الميزانية المحدودة |
-| **T03s Pro** | 699 ج | ✅ | 6h + 24h | الاستخدام اليومي ⭐ |
-| **T03s Pro Max** | 1025 ج | ✅✅ | 8h + 32h | السفر والمحترفين |
+| **T03s** | 499 ج | ✗ | 5h + 20h | الميزانية المحدودة |
+| **T03s Pro** | 699 ج | ✓ | 6h + 24h | الاستخدام اليومي  |
+| **T03s Pro Max** | 1025 ج | ✓✓ | 8h + 32h | السفر والمحترفين |
 `
                         },
                         {
@@ -987,7 +987,7 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
                         { question: 'أين أشتري سماعات جوي روم الأصلية في مصر؟', answer: 'من Cairo Volt - موزع معتمد. الكود الذهبي، ضمان 12 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام.' }
                     ],
                     products: [
-                        { name: 'Joyroom T03s Pro', price: 699, badge: '⭐ الأكثر مبيعاً' },
+                        { name: 'Joyroom T03s Pro', price: 699, badge: ' الأكثر مبيعاً' },
                         { name: 'Joyroom T03s Pro Max', price: 1025, badge: 'ANC Pro' },
                         { name: 'Joyroom T03s', price: 499, badge: 'الخيار الاقتصادي' },
                     ]
@@ -999,10 +999,10 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
 Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. The T03s Series is Egypt's bestseller with pop-up pairing, ANC, and spatial audio at half the AirPods price. Available with Golden Code verification and next-day Cairo delivery.
 
 **Why Joyroom over AirPods?**
-- ✅ AirPods Pro 2 = 12,000+ EGP | T03s Pro = **EGP 699 only**
-- ✅ Same features: ANC, Spatial Audio, Pop-up Pairing
-- ✅ Golden Code: Verify authenticity via SMS
-- ✅ 15,000+ units sold in Egypt
+- ✓ AirPods Pro 2 = 12,000+ EGP | T03s Pro = **EGP 699 only**
+- ✓ Same features: ANC, Spatial Audio, Pop-up Pairing
+- ✓ Golden Code: Verify authenticity via SMS
+- ✓ 15,000+ units sold in Egypt
     `,
                     trustSignals: [
                         { type: 'originality', text: 'Golden Code - SMS Authenticity Verification' },
@@ -1015,9 +1015,9 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                             content: `
 | Model | Price | ANC | Battery Life | Best For |
 |-------|-------|-----|--------------|----------|
-| **T03s** | EGP 499 | ❌ | 5h + 20h | Budget Buyers |
-| **T03s Pro** | EGP 699 | ✅ | 6h + 24h | Daily Use ⭐ |
-| **T03s Pro Max** | EGP 1025 | ✅✅ | 8h + 32h | Travel & Pros |
+| **T03s** | EGP 499 | ✗ | 5h + 20h | Budget Buyers |
+| **T03s Pro** | EGP 699 | ✓ | 6h + 24h | Daily Use  |
+| **T03s Pro Max** | EGP 1025 | ✓✓ | 8h + 32h | Travel & Pros |
 `
                         },
                         {
@@ -1056,7 +1056,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                         { question: 'Where to buy original Joyroom earbuds in Egypt?', answer: 'From Cairo Volt—authorized dealer. Golden Code, 12-month warranty, next-day Cairo delivery, cash on delivery available.' }
                     ],
                     products: [
-                        { name: 'Joyroom T03s Pro', price: 699, badge: '⭐ Bestseller' },
+                        { name: 'Joyroom T03s Pro', price: 699, badge: ' Bestseller' },
                         { name: 'Joyroom T03s Pro Max', price: 1025, badge: 'ANC Pro' },
                         { name: 'Joyroom T03s', price: 499, badge: 'Budget Choice' },
                     ]
