@@ -39,6 +39,8 @@ interface ProductSchemaProps {
         datePublished: string;
         location?: string;
     }>;
+    // Product specifications for additionalProperty schema markup
+    specifications?: Record<string, { en: string; ar: string }>;
 }
 
 // Stable price validity date - 3 months ahead, computed once at module level
@@ -48,7 +50,7 @@ const PRICE_VALID_UNTIL = (() => {
     return d.toISOString().split('T')[0];
 })();
 
-export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.com', aggregateRating, reviews }: ProductSchemaProps) {
+export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.com', aggregateRating, reviews, specifications }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
 
@@ -90,6 +92,14 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
         image: product.images.map(img => `${baseUrl}${img.url}`),
         // Add subjectOf property for VideoObject
         ...(videoSchema && { "subjectOf": videoSchema }),
+        // Product specifications as additionalProperty for rich results
+        ...(specifications && Object.keys(specifications).length > 0 && {
+            additionalProperty: Object.entries(specifications).map(([key, val]) => ({
+                '@type': 'PropertyValue',
+                name: key,
+                value: isArabic ? val.ar : val.en,
+            })),
+        }),
         // Geo SEO: Area Served
         areaServed: {
             '@type': 'Country',

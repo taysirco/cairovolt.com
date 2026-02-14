@@ -5,6 +5,7 @@ import { brandData } from '@/data/brand-data';
 import { ArticleSchema } from '@/components/schemas/AEOSchemas';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { BrandAEOBlock } from '@/components/seo/AEOSummaryBlock';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 type Props = {
     params: Promise<{ locale: string; brand: string }>;
@@ -35,6 +36,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             },
         },
         openGraph: meta.openGraph ? { ...meta.openGraph, locale: locale === 'ar' ? 'ar_EG' : 'en_US' } : undefined,
+        other: {
+            'geo.region': 'EG',
+            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
+            'geo.position': '30.0444;31.2357',
+            'ICBM': '30.0444, 31.2357',
+        },
     };
 }
 
@@ -124,7 +131,7 @@ export default async function BrandHubPage({ params }: Props) {
                                 href={getLocalizedHref(data.hero.heroProduct.link.href)}
                                 className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold shadow-2xl hover:scale-105 transition-transform duration-300 group"
                             >
-                                <span className={`text-xl ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`}>⭐</span>
+                                <span className={`text-xl ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`}><SvgIcon name="star" className="w-5 h-5" /></span>
                                 <span>{isRTL ? data.hero.heroProduct.link.text.ar : data.hero.heroProduct.link.text.en}</span>
                                 <span className={`${isRTL ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'} transition-transform`}>
                                     {isRTL ? '←' : '→'}

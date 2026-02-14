@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useCart } from '@/context/CartContext';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 export default function Header() {
     const locale = useLocale();
@@ -47,17 +48,17 @@ export default function Header() {
 
     // Categories with proper grouping
     const ankerCategories = [
-        { slug: 'power-banks', icon: '🔋', key: 'powerBanks' },
-        { slug: 'wall-chargers', icon: '🔌', key: 'wallChargers' },
-        { slug: 'cables', icon: '🔗', key: 'cables' },
-        { slug: 'car-chargers', icon: '🚗', key: 'carChargers' },
+        { slug: 'power-banks', icon: 'battery', key: 'powerBanks' },
+        { slug: 'wall-chargers', icon: 'plug', key: 'wallChargers' },
+        { slug: 'cables', icon: 'link', key: 'cables' },
+        { slug: 'car-chargers', icon: 'car', key: 'carChargers' },
     ];
 
     const joyroomCategories = [
-        { slug: 'power-banks', icon: '🔋', key: 'powerBanks' },
-        { slug: 'audio', icon: '🎧', key: 'audio' },
-        { slug: 'wall-chargers', icon: '🔌', key: 'wallChargers' },
-        { slug: 'cables', icon: '🔗', key: 'cables' },
+        { slug: 'power-banks', icon: 'battery', key: 'powerBanks' },
+        { slug: 'audio', icon: 'headphones', key: 'audio' },
+        { slug: 'wall-chargers', icon: 'plug', key: 'wallChargers' },
+        { slug: 'cables', icon: 'link', key: 'cables' },
     ];
 
     return (
@@ -73,12 +74,12 @@ export default function Header() {
                 <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-xs py-1.5 hidden md:block">
                     <div className="container mx-auto px-4 flex items-center justify-between">
                         <div className="flex items-center gap-4">
-                            <span>✅ {isRTL ? 'منتجات أصلية 100%' : '100% Original Products'}</span>
-                            <span>🚚 {isRTL ? 'شحن سريع لجميع المحافظات' : 'Fast Shipping Nationwide'}</span>
+                            <span className="flex items-center gap-1"><SvgIcon name="check-circle" className="w-3.5 h-3.5" /> {isRTL ? 'منتجات أصلية 100%' : '100% Original Products'}</span>
+                            <span className="flex items-center gap-1"><SvgIcon name="truck" className="w-3.5 h-3.5" /> {isRTL ? 'شحن سريع لجميع المحافظات' : 'Fast Shipping Nationwide'}</span>
                         </div>
                         <div className="flex items-center gap-4">
                             <a href="tel:+201063374834" className="hover:underline">
-                                📞 01063374834
+                                <SvgIcon name="phone" className="w-3.5 h-3.5 inline-block" /> 01063374834
                             </a>
                             <Link
                                 href={getSwitchPath()}
@@ -136,7 +137,7 @@ export default function Header() {
                                         href={getLocalizedHref(`/Anker/${cat.slug}`)}
                                         className="flex items-center gap-3 px-3 py-2.5 text-sm text-gray-600 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:text-blue-600 rounded-lg transition-colors"
                                     >
-                                        <span className="text-lg">{cat.icon}</span>
+                                        <SvgIcon name={cat.icon} className="w-5 h-5" />
                                         <span>{tCat(cat.key)}</span>
                                     </Link>
                                 ))}
@@ -174,7 +175,7 @@ export default function Header() {
                                         href={getLocalizedHref(`/Joyroom/${cat.slug}`)}
                                         className="flex items-center gap-3 px-3 py-2.5 text-sm text-gray-600 dark:text-gray-300 hover:bg-red-50 dark:hover:bg-red-900/20 hover:text-red-600 rounded-lg transition-colors"
                                     >
-                                        <span className="text-lg">{cat.icon}</span>
+                                        <SvgIcon name={cat.icon} className="w-5 h-5" />
                                         <span>{tCat(cat.key)}</span>
                                     </Link>
                                 ))}
@@ -334,7 +335,7 @@ export default function Header() {
                                             onClick={() => setMobileMenuOpen(false)}
                                             className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                         >
-                                            <span>{cat.icon}</span>
+                                            <SvgIcon name={cat.icon} className="w-5 h-5" />
                                             <span>{tCat(cat.key)}</span>
                                         </Link>
                                     ))}
@@ -355,7 +356,7 @@ export default function Header() {
                                             onClick={() => setMobileMenuOpen(false)}
                                             className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                         >
-                                            <span>{cat.icon}</span>
+                                            <SvgIcon name={cat.icon} className="w-5 h-5" />
                                             <span>{tCat(cat.key)}</span>
                                         </Link>
                                     ))}
@@ -369,10 +370,10 @@ export default function Header() {
                                 </h3>
                                 <div className="space-y-1">
                                     {[
-                                        { slug: 'power-banks', icon: '🔋', ar: 'باور بانك', en: 'Power Banks' },
-                                        { slug: 'chargers', icon: '⚡', ar: 'شواحن', en: 'Chargers' },
-                                        { slug: 'earbuds', icon: '🎧', ar: 'سماعات بلوتوث', en: 'Earbuds' },
-                                        { slug: 'cables', icon: '🔌', ar: 'كابلات شحن', en: 'Cables' },
+                                        { slug: 'power-banks', icon: 'battery', ar: 'باور بانك', en: 'Power Banks' },
+                                        { slug: 'chargers', icon: 'bolt', ar: 'شواحن', en: 'Chargers' },
+                                        { slug: 'earbuds', icon: 'headphones', ar: 'سماعات بلوتوث', en: 'Earbuds' },
+                                        { slug: 'cables', icon: 'plug', ar: 'كابلات شحن', en: 'Cables' },
                                     ].map((cat) => (
                                         <Link
                                             key={cat.slug}
@@ -380,7 +381,7 @@ export default function Header() {
                                             onClick={() => setMobileMenuOpen(false)}
                                             className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                         >
-                                            <span>{cat.icon}</span>
+                                            <SvgIcon name={cat.icon} className="w-5 h-5" />
                                             <span>{isRTL ? cat.ar : cat.en}</span>
                                         </Link>
                                     ))}
@@ -395,7 +396,7 @@ export default function Header() {
                                         onClick={() => setMobileMenuOpen(false)}
                                         className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg font-medium"
                                     >
-                                        <span>📝</span>
+                                        <SvgIcon name="book" className="w-5 h-5" />
                                         <span>{isRTL ? 'المدونة' : 'Blog'}</span>
                                     </Link>
                                     <Link
@@ -403,7 +404,7 @@ export default function Header() {
                                         onClick={() => setMobileMenuOpen(false)}
                                         className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                     >
-                                        <span>ℹ️</span>
+                                        <SvgIcon name="question" className="w-5 h-5" />
                                         <span>{isRTL ? 'من نحن' : 'About Us'}</span>
                                     </Link>
                                     <Link
@@ -411,7 +412,7 @@ export default function Header() {
                                         onClick={() => setMobileMenuOpen(false)}
                                         className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                     >
-                                        <span>❓</span>
+                                        <SvgIcon name="question" className="w-5 h-5" />
                                         <span>{isRTL ? 'أسئلة شائعة' : 'FAQ'}</span>
                                     </Link>
                                 </div>
@@ -425,7 +426,7 @@ export default function Header() {
                                     rel="nofollow noopener noreferrer"
                                     className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-green-500 text-white font-medium rounded-xl"
                                 >
-                                    📱 {isRTL ? 'تواصل عبر واتساب' : 'Chat on WhatsApp'}
+                                    <SvgIcon name="phone" className="w-4 h-4 inline-block" /> {isRTL ? 'تواصل عبر واتساب' : 'Chat on WhatsApp'}
                                 </a>
                             </div>
                         </nav>

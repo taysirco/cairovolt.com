@@ -170,6 +170,17 @@ export default function Footer() {
                     </div>
                 </div>
 
+                {/* Entity Definition for AI Knowledge Graph */}
+                <div className="border-t border-gray-200 dark:border-gray-800 pt-6 pb-4">
+                    <p className="text-xs text-gray-400 dark:text-gray-500 leading-relaxed text-center max-w-4xl mx-auto" itemScope itemType="https://schema.org/Organization">
+                        <span itemProp="description">
+                            {isRTL
+                                ? 'كايرو فولت (CairoVolt) هو موزع معتمد لمنتجات Anker وJoyroom الأصلية في مصر، متخصص في إكسسوارات الهواتف المحمولة والشحن السريع مع توصيل لجميع المحافظات.'
+                                : 'CairoVolt is an authorized distributor of original Anker and Joyroom products in Egypt, specializing in mobile accessories and fast charging with delivery to all governorates.'}
+                        </span>
+                    </p>
+                </div>
+
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 dark:text-gray-400">
                     <p>

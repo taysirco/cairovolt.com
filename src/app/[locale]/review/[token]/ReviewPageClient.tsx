@@ -1,6 +1,7 @@
 'use client';
 
 import ReviewForm from './ReviewForm';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface TokenData {
     productName: string;
@@ -23,7 +24,7 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
             <div className="review-page review-page--error" dir={isArabic ? 'rtl' : 'ltr'}>
                 <div className="review-container">
                     <div className="review-error">
-                        <div className="review-error__icon">❌</div>
+                        <div className="review-error__icon"><SvgIcon name="x-circle" className="w-16 h-16 text-red-500 mx-auto" /></div>
                         <h1 className="review-error__title">
                             {isArabic ? 'رابط غير صالح' : 'Invalid Link'}
                         </h1>
@@ -94,7 +95,7 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
                 {/* Header */}
                 <div className="review-header">
                     <div className="review-header__logo">
-                        <span className="review-header__logo-icon">⚡</span>
+                        <span className="review-header__logo-icon"><SvgIcon name="bolt" className="w-8 h-8 text-yellow-400" /></span>
                         <span className="review-header__logo-text">CairoVolt</span>
                     </div>
                     <h1 className="review-header__title">

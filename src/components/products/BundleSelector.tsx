@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useState, useMemo } from 'react';
 import { useCart } from '@/context/CartContext';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 // We need a shared interface for products passed from server
 interface Product {
@@ -170,7 +171,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                     {/* Summary Row */}
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-2">
-                            <span className="text-2xl">🛒</span>
+                            <SvgIcon name="cart" className="w-6 h-6" />
                             <span className="text-base font-semibold text-gray-700 dark:text-gray-300">
                                 {isArabic ? `${selectedProducts.length} منتجات` : `${selectedProducts.length} items`}
                             </span>
@@ -199,7 +200,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                         disabled={selectedProducts.length === 0}
                         className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500 hover:from-yellow-500 hover:via-yellow-600 hover:to-orange-600 text-black font-black py-4 rounded-xl shadow-xl shadow-yellow-500/30 transition-all active:scale-[0.98] text-base disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
-                        <span className="text-xl">🛍️</span>
+                        <SvgIcon name="cart" className="w-5 h-5" />
                         {isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart'}
                     </button>
                 </div>

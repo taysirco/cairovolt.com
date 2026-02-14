@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 export default function ContactPageClient() {
     const locale = useLocale();
@@ -43,7 +44,7 @@ export default function ContactPageClient() {
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-green-500 flex items-center justify-center text-white text-3xl">
-                            📱
+                            <SvgIcon name="phone" className="w-8 h-8" />
                         </div>
                         <h3 className="text-xl font-bold mb-2">
                             {isRTL ? 'واتساب' : 'WhatsApp'}
@@ -62,7 +63,7 @@ export default function ContactPageClient() {
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-blue-500 flex items-center justify-center text-white text-3xl">
-                            📞
+                            <SvgIcon name="phone" className="w-8 h-8" />
                         </div>
                         <h3 className="text-xl font-bold mb-2">
                             {isRTL ? 'اتصل بنا' : 'Call Us'}
@@ -81,7 +82,7 @@ export default function ContactPageClient() {
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-purple-500 flex items-center justify-center text-white text-3xl">
-                            ✉️
+                            <SvgIcon name="chat" className="w-8 h-8" />
                         </div>
                         <h3 className="text-xl font-bold mb-2">
                             {isRTL ? 'البريد الإلكتروني' : 'Email'}

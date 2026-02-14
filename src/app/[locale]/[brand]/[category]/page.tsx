@@ -36,6 +36,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             },
         },
         openGraph: meta.openGraph ? { ...meta.openGraph, locale: locale === 'ar' ? 'ar_EG' : 'en_US' } : undefined,
+        other: {
+            'geo.region': 'EG',
+            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
+            'geo.position': '30.0444;31.2357',
+            'ICBM': '30.0444, 31.2357',
+        },
     };
 }
 

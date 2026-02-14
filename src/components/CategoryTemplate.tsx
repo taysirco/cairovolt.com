@@ -10,6 +10,7 @@ import { BreadcrumbSchema } from './schemas/ProductSchema';
 import { HowToSchema, ItemListSchema } from './schemas/AEOSchemas';
 import RelatedLinks from './seo/RelatedLinks';
 import { CategoryAEOBlock } from './seo/AEOSummaryBlock';
+import { SvgIcon } from './ui/SvgIcon';
 
 const CategoryComparisonTable = dynamic(() => import('./seo/AIOverviewsOptimization').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
@@ -215,9 +216,15 @@ export default function CategoryTemplate({
                             {content.trustSignals.map((signal, idx) => (
                                 <div key={idx} className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
                                     <span className="text-yellow-300">
-                                        {signal.type === 'originality' && '🛡️'}
-                                        {signal.type === 'warranty' && '✨'}
-                                        {signal.type === 'expert_verified' && '👨\u200d💻'}
+                                        {signal.type === 'originality' && (
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                                        )}
+                                        {signal.type === 'warranty' && (
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+                                        )}
+                                        {signal.type === 'expert_verified' && (
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11l2 2 4-4" /></svg>
+                                        )}
                                     </span>
                                     <span className="text-xs md:text-sm font-medium text-white">{signal.text}</span>
                                 </div>
@@ -234,7 +241,7 @@ export default function CategoryTemplate({
                         {/* Section Title & Tagline */}
                         <div className="text-center mb-12">
                             <span className="inline-block px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full text-sm font-bold mb-4">
-                                🎧 {isRTL ? soundcoreData.tagline.ar : soundcoreData.tagline.en}
+                                <SvgIcon name="headphones" className="w-5 h-5 inline-block" /> {isRTL ? soundcoreData.tagline.ar : soundcoreData.tagline.en}
                             </span>
                             <h2 className="text-3xl md:text-4xl font-black mb-4 dark:text-white">
                                 {isRTL ? soundcoreData.title.ar : soundcoreData.title.en}
@@ -255,7 +262,7 @@ export default function CategoryTemplate({
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
                             {soundcoreData.achievements.map((achievement, idx) => (
                                 <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
-                                    <span className="text-3xl mb-2 block">{achievement.icon}</span>
+                                    <SvgIcon name={achievement.icon} className="w-8 h-8 mb-2 mx-auto text-purple-500" />
                                     <span className="text-2xl md:text-3xl font-black text-purple-600 dark:text-purple-400 block mb-1">
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
@@ -275,7 +282,7 @@ export default function CategoryTemplate({
                                 {soundcoreData.technologies.map((tech, idx) => (
                                     <div key={idx} className="p-5 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-700 hover:border-purple-200 dark:hover:border-purple-800 transition-colors shadow-sm">
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="text-2xl">{tech.icon}</span>
+                                            <SvgIcon name={tech.icon} className="w-6 h-6 text-purple-500" />
                                             <h4 className="font-bold text-lg text-purple-600 dark:text-purple-400">
                                                 {tech.name}
                                             </h4>
@@ -296,7 +303,7 @@ export default function CategoryTemplate({
                             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                                 {soundcoreData.useCases.map((useCase, idx) => (
                                     <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all">
-                                        <span className="text-4xl mb-3 block">{useCase.icon}</span>
+                                        <SvgIcon name={useCase.icon} className="w-10 h-10 mb-3 mx-auto text-purple-500" />
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
                                             {isRTL ? useCase.title.ar : useCase.title.en}
                                         </h4>
@@ -313,7 +320,7 @@ export default function CategoryTemplate({
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                                 {soundcoreData.trustBadges.map((badge, idx) => (
                                     <div key={idx} className="flex flex-col items-center text-center p-3">
-                                        <span className="text-2xl md:text-3xl mb-2">{badge.icon}</span>
+                                        <SvgIcon name={badge.icon} className="w-7 h-7 mb-2 text-purple-500" />
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
                                             {isRTL ? badge.title.ar : badge.title.en}
                                         </span>
@@ -355,7 +362,7 @@ export default function CategoryTemplate({
                         {/* Section Title & Tagline */}
                         <div className="text-center mb-12">
                             <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-bold mb-4">
-                                🔋 {isRTL ? powerBankData.tagline.ar : powerBankData.tagline.en}
+                                <SvgIcon name="battery" className="w-5 h-5 inline-block" /> {isRTL ? powerBankData.tagline.ar : powerBankData.tagline.en}
                             </span>
                             <h2 className="text-3xl md:text-4xl font-black mb-4 dark:text-white">
                                 {isRTL ? powerBankData.title.ar : powerBankData.title.en}
@@ -376,7 +383,7 @@ export default function CategoryTemplate({
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
                             {powerBankData.achievements.map((achievement, idx) => (
                                 <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
-                                    <span className="text-3xl mb-2 block">{achievement.icon}</span>
+                                    <SvgIcon name={achievement.icon} className="w-8 h-8 mb-2 mx-auto text-blue-500" />
                                     <span className="text-2xl md:text-3xl font-black text-blue-600 dark:text-blue-400 block mb-1">
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
@@ -396,7 +403,7 @@ export default function CategoryTemplate({
                                 {powerBankData.technologies.map((tech, idx) => (
                                     <div key={idx} className="p-5 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-800 transition-colors shadow-sm">
                                         <div className="flex items-center gap-3 mb-3">
-                                            <span className="text-2xl">{tech.icon}</span>
+                                            <SvgIcon name={tech.icon} className="w-6 h-6 text-blue-500" />
                                             <h4 className="font-bold text-lg text-blue-600 dark:text-blue-400">
                                                 {tech.name}
                                             </h4>
@@ -417,7 +424,7 @@ export default function CategoryTemplate({
                             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                                 {powerBankData.useCases.map((useCase, idx) => (
                                     <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all">
-                                        <span className="text-4xl mb-3 block">{useCase.icon}</span>
+                                        <SvgIcon name={useCase.icon} className="w-10 h-10 mb-3 mx-auto text-blue-500" />
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
                                             {isRTL ? useCase.title.ar : useCase.title.en}
                                         </h4>
@@ -434,7 +441,7 @@ export default function CategoryTemplate({
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                                 {powerBankData.trustBadges.map((badge, idx) => (
                                     <div key={idx} className="flex flex-col items-center text-center p-3">
-                                        <span className="text-2xl md:text-3xl mb-2">{badge.icon}</span>
+                                        <SvgIcon name={badge.icon} className="w-7 h-7 mb-2 text-blue-500" />
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
                                             {isRTL ? badge.title.ar : badge.title.en}
                                         </span>
@@ -513,7 +520,7 @@ export default function CategoryTemplate({
                         {content.buyingGuide && (
                             <div className="mb-12">
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                    <span className="text-2xl">📚</span>
+                                    <SvgIcon name="book" className="w-6 h-6" />
                                     {locale === 'ar' ? 'دليل الشراء الذكي' : 'Smart Buying Guide'}
                                 </h2>
                                 <div className="space-y-6">
@@ -549,7 +556,7 @@ export default function CategoryTemplate({
                         {content.faq && (
                             <div className="mt-12 mb-12">
                                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                    <span className="text-2xl">🤔</span>
+                                    <SvgIcon name="question" className="w-6 h-6" />
                                     {locale === 'ar' ? 'الأسئلة الشائعة' : 'Frequently Asked Questions'}
                                 </h2>
                                 <div className="space-y-4">
@@ -594,6 +601,7 @@ export default function CategoryTemplate({
                                                     src={product.image}
                                                     alt={product.name}
                                                     fill
+                                                    loading="lazy"
                                                     sizes="80px"
                                                     className="object-contain p-1 group-hover:scale-105 transition-transform"
                                                 />
@@ -634,7 +642,7 @@ export default function CategoryTemplate({
                             {/* Trust Box (Desktop) */}
                             <div className={`mt-8 p-6 rounded-2xl ${bgLightClass} border border-gray-100 dark:border-gray-800 hidden lg:block`}>
                                 <h3 className="font-bold mb-4 flex items-center gap-2">
-                                    <span>🛡️</span> {locale === 'ar' ? 'ضمان كايرو فولت' : 'CairoVolt Promise'}
+                                    <SvgIcon name="shield" className="w-5 h-5" /> {locale === 'ar' ? 'ضمان كايرو فولت' : 'CairoVolt Promise'}
                                 </h3>
                                 <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
                                     <li className="flex items-center gap-2">✓ {locale === 'ar' ? 'منتجات أصلية 100%' : '100% Original'}</li>

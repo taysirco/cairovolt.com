@@ -3,6 +3,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { WebSiteSchema, CollectionPageSchema, SpeakableSchema } from '@/components/schemas/AEOSchemas';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -34,6 +35,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: 'Original Anker & Joyroom accessories with official warranty.',
         locale: 'en_US',
       },
+      other: {
+        'geo.region': 'EG',
+        'geo.placename': 'Cairo, Egypt',
+        'geo.position': '30.0444;31.2357',
+        'ICBM': '30.0444, 31.2357',
+      },
     };
   }
 
@@ -41,12 +48,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     ...baseMetadata,
     title: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom - أفضل الأسعار',
-    description: 'متجر اكسسوارات موبايل في مصر. Anker Egypt، Joyroom أصلي. باور بانك، سماعات، شواحن، كابلات. أفضل أسعار وضمان رسمي. 💯 منتجات أصلية.',
+    description: 'متجر اكسسوارات موبايل في مصر. Anker Egypt، Joyroom أصلي. باور بانك، سماعات، شواحن، كابلات. أفضل أسعار وضمان رسمي. منتجات أصلية 100%.',
     keywords: 'اكسسوارات موبايل, انكر مصر, جوي روم, باور بانك, سماعات, شاحن انكر, شاحن ايفون اصلي, joyroom t03s',
     openGraph: {
       title: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom',
       description: 'أفضل اكسسوارات موبايل أصلية في مصر. Anker و Joyroom بضمان رسمي.',
       locale: 'ar_EG',
+    },
+    other: {
+      'geo.region': 'EG',
+      'geo.placename': 'القاهرة، مصر',
+      'geo.position': '30.0444;31.2357',
+      'ICBM': '30.0444, 31.2357',
     },
   };
 }
@@ -59,32 +72,32 @@ export default function Home() {
   // Use proper brand casing (Anker, Joyroom) in URLs
   const heroProducts = isRTL
     ? [
-      { name: 'Joyroom T03s', category: 'سماعات', badge: '⭐ الأكثر مبيعاً', href: '/Joyroom/audio' },
-      { name: 'Anker PowerCore 20000', category: 'باور بانك', badge: '🔥 الأعلى طلباً', href: '/Anker/power-banks' },
-      { name: 'Anker Nano 20W', category: 'شاحن', badge: '📱 iPhone', href: '/Anker/wall-chargers' },
+      { name: 'Joyroom T03s', category: 'سماعات', badgeIcon: 'star' as const, badgeText: 'الأكثر مبيعاً', href: '/Joyroom/audio' },
+      { name: 'Anker PowerCore 20000', category: 'باور بانك', badgeIcon: 'fire' as const, badgeText: 'الأعلى طلباً', href: '/Anker/power-banks' },
+      { name: 'Anker Nano 20W', category: 'شاحن', badgeIcon: 'phone' as const, badgeText: 'iPhone', href: '/Anker/wall-chargers' },
     ]
     : [
-      { name: 'Joyroom T03s', category: 'Earbuds', badge: '⭐ Best Seller', href: '/en/Joyroom/audio' },
-      { name: 'Anker PowerCore 20000', category: 'Power Bank', badge: '🔥 Top Seller', href: '/en/Anker/power-banks' },
-      { name: 'Anker Nano 20W', category: 'Charger', badge: '📱 iPhone', href: '/en/Anker/wall-chargers' },
+      { name: 'Joyroom T03s', category: 'Earbuds', badgeIcon: 'star' as const, badgeText: 'Best Seller', href: '/en/Joyroom/audio' },
+      { name: 'Anker PowerCore 20000', category: 'Power Bank', badgeIcon: 'fire' as const, badgeText: 'Top Seller', href: '/en/Anker/power-banks' },
+      { name: 'Anker Nano 20W', category: 'Charger', badgeIcon: 'phone' as const, badgeText: 'iPhone', href: '/en/Anker/wall-chargers' },
     ];
 
   const categories = isRTL
     ? [
-      { title: 'باور بانك', brand: 'Anker', href: '/Anker/power-banks', icon: '⚡', color: 'from-blue-600 to-blue-400' },
-      { title: 'سماعات T03s', brand: 'Joyroom', href: '/Joyroom/audio', icon: '🎧', color: 'from-red-600 to-red-400', badge: 'Hero' },
-      { title: 'شواحن', brand: 'Anker', href: '/Anker/wall-chargers', icon: '🔌', color: 'from-purple-600 to-purple-400' },
-      { title: 'كابلات', brand: 'Anker', href: '/Anker/cables', icon: '🔗', color: 'from-green-600 to-green-400' },
-      { title: 'Soundcore', brand: 'Anker', href: '/Anker/audio', icon: '🎵', color: 'from-indigo-600 to-indigo-400' },
-      { title: 'شاحن سيارة', brand: 'Anker', href: '/Anker/car-chargers', icon: '🚗', color: 'from-orange-600 to-orange-400' },
+      { title: 'باور بانك', brand: 'Anker', href: '/Anker/power-banks', icon: 'bolt', color: 'from-blue-600 to-blue-400' },
+      { title: 'سماعات T03s', brand: 'Joyroom', href: '/Joyroom/audio', icon: 'headphones', color: 'from-red-600 to-red-400', badge: 'Hero' },
+      { title: 'شواحن', brand: 'Anker', href: '/Anker/wall-chargers', icon: 'plug', color: 'from-purple-600 to-purple-400' },
+      { title: 'كابلات', brand: 'Anker', href: '/Anker/cables', icon: 'link', color: 'from-green-600 to-green-400' },
+      { title: 'Soundcore', brand: 'Anker', href: '/Anker/audio', icon: 'music', color: 'from-indigo-600 to-indigo-400' },
+      { title: 'شاحن سيارة', brand: 'Anker', href: '/Anker/car-chargers', icon: 'car', color: 'from-orange-600 to-orange-400' },
     ]
     : [
-      { title: 'Power Banks', brand: 'Anker', href: '/en/Anker/power-banks', icon: '⚡', color: 'from-blue-600 to-blue-400' },
-      { title: 'T03s Earbuds', brand: 'Joyroom', href: '/en/Joyroom/audio', icon: '🎧', color: 'from-red-600 to-red-400', badge: 'Hero' },
-      { title: 'Wall Chargers', brand: 'Anker', href: '/en/Anker/wall-chargers', icon: '🔌', color: 'from-purple-600 to-purple-400' },
-      { title: 'Cables', brand: 'Anker', href: '/en/Anker/cables', icon: '🔗', color: 'from-green-600 to-green-400' },
-      { title: 'Soundcore', brand: 'Anker', href: '/en/Anker/audio', icon: '🎵', color: 'from-indigo-600 to-indigo-400' },
-      { title: 'Car Chargers', brand: 'Anker', href: '/en/Anker/car-chargers', icon: '🚗', color: 'from-orange-600 to-orange-400' },
+      { title: 'Power Banks', brand: 'Anker', href: '/en/Anker/power-banks', icon: 'bolt', color: 'from-blue-600 to-blue-400' },
+      { title: 'T03s Earbuds', brand: 'Joyroom', href: '/en/Joyroom/audio', icon: 'headphones', color: 'from-red-600 to-red-400', badge: 'Hero' },
+      { title: 'Wall Chargers', brand: 'Anker', href: '/en/Anker/wall-chargers', icon: 'plug', color: 'from-purple-600 to-purple-400' },
+      { title: 'Cables', brand: 'Anker', href: '/en/Anker/cables', icon: 'link', color: 'from-green-600 to-green-400' },
+      { title: 'Soundcore', brand: 'Anker', href: '/en/Anker/audio', icon: 'music', color: 'from-indigo-600 to-indigo-400' },
+      { title: 'Car Chargers', brand: 'Anker', href: '/en/Anker/car-chargers', icon: 'car', color: 'from-orange-600 to-orange-400' },
     ];
 
   return (
@@ -144,7 +157,7 @@ export default function Home() {
                   href={product.href}
                   className="px-3 py-2 md:px-6 md:py-3 bg-white/80 backdrop-blur-sm rounded-full hover:bg-white transition-all flex items-center gap-1 md:gap-2 shadow-sm border border-gray-100 text-gray-800 text-xs md:text-base"
                 >
-                  <span className="text-xs bg-yellow-400 text-black px-2 py-0.5 rounded-full font-bold">{product.badge}</span>
+                  <span className="text-xs bg-yellow-400 text-black px-2 py-0.5 rounded-full font-bold flex items-center gap-1"><SvgIcon name={product.badgeIcon} className="w-3 h-3" />{product.badgeText}</span>
                   <span>{product.name}</span>
                 </Link>
               ))}
@@ -227,26 +240,60 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Trending Now Section */}
+        <section className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">
+              {isRTL ? <><SvgIcon name="fire" className="w-6 h-6 inline-block text-orange-500" /> الأكثر مبيعاً هذا الأسبوع</> : <><SvgIcon name="fire" className="w-6 h-6 inline-block text-orange-500" /> Trending This Week</>}
+            </h2>
+            <p className="text-gray-500">
+              {isRTL ? 'المنتجات اللي كل الناس بتشتريها دلوقتي' : 'The products everyone is buying right now'}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
+            {[
+              { slug: 'anker-powercore-10000', brand: 'Anker', category: 'power-banks', name: isRTL ? 'باور بانك انكر 10000' : 'Anker 10000mAh', price: '1,358', color: 'from-blue-500 to-blue-600' },
+              { slug: 'joyroom-t03s-pro-earbuds', brand: 'Joyroom', category: 'audio', name: isRTL ? 'سماعة جوي روم T03s' : 'Joyroom T03s Pro', price: '499', color: 'from-red-500 to-red-600' },
+              { slug: 'anker-powerport-20w', brand: 'Anker', category: 'wall-chargers', name: isRTL ? 'شاحن انكر 20W' : 'Anker 20W Charger', price: '449', color: 'from-blue-500 to-blue-600' },
+              { slug: 'joyroom-power-bank-20000', brand: 'Joyroom', category: 'power-banks', name: isRTL ? 'باور بانك جوي روم 20000' : 'Joyroom 20000mAh', price: '749', color: 'from-red-500 to-red-600' },
+              { slug: 'anker-521-powerhouse', brand: 'Anker', category: 'power-banks', name: isRTL ? 'محطة طاقة انكر' : 'Anker PowerHouse', price: '5,999', color: 'from-blue-500 to-blue-600' },
+              { slug: 'anker-powerline-usb-c-lightning', brand: 'Anker', category: 'cables', name: isRTL ? 'كابل انكر للايفون' : 'Anker iPhone Cable', price: '299', color: 'from-blue-500 to-blue-600' },
+            ].map((item) => (
+              <Link
+                key={item.slug}
+                href={`${isRTL ? '' : '/en'}/${item.brand}/${item.category}/${item.slug}`}
+                className="group p-3 md:p-4 rounded-xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-lg hover:border-gray-200 dark:hover:border-gray-700 transition-all"
+              >
+                <div className={`w-full aspect-square rounded-lg bg-gradient-to-br ${item.color} mb-2 md:mb-3 flex items-center justify-center`}>
+                  <span className="text-white text-xs font-bold px-2 py-1 bg-white/20 rounded-full">{item.brand}</span>
+                </div>
+                <h3 className="text-xs md:text-sm font-bold mb-1 line-clamp-2">{item.name}</h3>
+                <p className="text-sm md:text-base font-bold text-green-600">{item.price} {isRTL ? 'ج.م' : 'EGP'}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         {/* Trust Badges */}
         <section className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 text-center">
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
-              <div className="text-2xl md:text-3xl mb-1 md:mb-2">✅</div>
+              <div className="text-2xl md:text-3xl mb-1 md:mb-2 text-green-600"><SvgIcon name="check-circle" className="w-8 h-8 mx-auto" /></div>
               <h4 className="font-bold">{isRTL ? 'منتجات أصلية' : 'Original Products'}</h4>
               <p className="text-sm text-gray-500">{isRTL ? 'ضمان 100%' : '100% Guarantee'}</p>
             </div>
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
-              <div className="text-3xl mb-2">🚚</div>
+              <div className="text-3xl mb-2 text-blue-600"><SvgIcon name="truck" className="w-8 h-8 mx-auto" /></div>
               <h4 className="font-bold">{isRTL ? 'شحن سريع' : 'Fast Shipping'}</h4>
               <p className="text-sm text-gray-500">{isRTL ? 'لجميع المحافظات' : 'All Governorates'}</p>
             </div>
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
-              <div className="text-3xl mb-2">💵</div>
+              <div className="text-3xl mb-2 text-green-600"><SvgIcon name="money" className="w-8 h-8 mx-auto" /></div>
               <h4 className="font-bold">{isRTL ? 'الدفع عند الاستلام' : 'Cash on Delivery'}</h4>
               <p className="text-sm text-gray-500">{isRTL ? 'بدون مقدم' : 'No Prepayment'}</p>
             </div>
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
-              <div className="text-3xl mb-2">🛡️</div>
+              <div className="text-3xl mb-2 text-indigo-600"><SvgIcon name="shield" className="w-8 h-8 mx-auto" /></div>
               <h4 className="font-bold">{isRTL ? 'ضمان رسمي' : 'Official Warranty'}</h4>
               <p className="text-sm text-gray-500">{isRTL ? 'استبدال فوري' : 'Instant Replacement'}</p>
             </div>
@@ -331,7 +378,7 @@ export default function Home() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-4xl mb-4">🏆</div>
+                <div className="text-4xl mb-4 text-yellow-500"><SvgIcon name="trophy" className="w-10 h-10 mx-auto" /></div>
                 <h4 className="font-bold mb-2">{isRTL ? 'الوكيل المعتمد' : 'Authorized Dealer'}</h4>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   {isRTL
@@ -340,7 +387,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-4xl mb-4">📦</div>
+                <div className="text-4xl mb-4 text-blue-500"><SvgIcon name="package" className="w-10 h-10 mx-auto" /></div>
                 <h4 className="font-bold mb-2">{isRTL ? 'شحن لكل مصر' : 'Nationwide Shipping'}</h4>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   {isRTL
@@ -349,7 +396,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-4xl mb-4">💬</div>
+                <div className="text-4xl mb-4 text-green-500"><SvgIcon name="chat" className="w-10 h-10 mx-auto" /></div>
                 <h4 className="font-bold mb-2">{isRTL ? 'دعم واتساب' : 'WhatsApp Support'}</h4>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   {isRTL
@@ -368,17 +415,17 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { slug: 'power-banks', icon: '🔋', ar: 'باور بانك', en: 'Power Banks' },
-              { slug: 'chargers', icon: '⚡', ar: 'شواحن', en: 'Chargers' },
-              { slug: 'earbuds', icon: '🎧', ar: 'سماعات بلوتوث', en: 'Earbuds' },
-              { slug: 'cables', icon: '🔌', ar: 'كابلات شحن', en: 'Cables' },
+              { slug: 'power-banks', icon: 'battery', ar: 'باور بانك', en: 'Power Banks' },
+              { slug: 'chargers', icon: 'bolt', ar: 'شواحن', en: 'Chargers' },
+              { slug: 'earbuds', icon: 'headphones', ar: 'سماعات بلوتوث', en: 'Earbuds' },
+              { slug: 'cables', icon: 'plug', ar: 'كابلات شحن', en: 'Cables' },
             ].map(cat => (
               <Link
                 key={cat.slug}
                 href={isRTL ? `/${cat.slug}` : `/${locale}/${cat.slug}`}
                 className="group flex flex-col items-center gap-3 p-6 bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 hover:shadow-lg hover:-translate-y-1 transition-all"
               >
-                <span className="text-4xl group-hover:scale-110 transition-transform">{cat.icon}</span>
+                <span className="text-4xl group-hover:scale-110 transition-transform"><SvgIcon name={cat.icon} className="w-10 h-10" /></span>
                 <span className="font-bold text-sm text-gray-900 dark:text-white">{isRTL ? cat.ar : cat.en}</span>
                 <span className="text-xs text-gray-500">{isRTL ? 'Anker & Joyroom' : 'All Brands'}</span>
               </Link>
@@ -399,16 +446,16 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-3 gap-4 mb-8">
               {[
-                { slug: 'best-power-bank-egypt-2026', ar: 'أفضل باور بانك في مصر 2026', en: 'Best Power Bank Egypt 2026', icon: '🔋' },
-                { slug: 'anker-vs-joyroom-comparison', ar: 'انكر vs جوي روم: أيهما أفضل؟', en: 'Anker vs Joyroom: Which is Better?', icon: '⚖️' },
-                { slug: 'how-to-identify-original-anker', ar: 'كيف تعرف انكر الأصلي؟', en: 'How to Spot Fake Anker', icon: '🔍' },
+                { slug: 'best-power-bank-egypt-2026', ar: 'أفضل باور بانك في مصر 2026', en: 'Best Power Bank Egypt 2026', icon: 'battery' },
+                { slug: 'anker-vs-joyroom-comparison', ar: 'انكر vs جوي روم: أيهما أفضل؟', en: 'Anker vs Joyroom: Which is Better?', icon: 'scale' },
+                { slug: 'how-to-identify-original-anker', ar: 'كيف تعرف انكر الأصلي؟', en: 'How to Spot Fake Anker', icon: 'search' },
               ].map(article => (
                 <Link
                   key={article.slug}
                   href={isRTL ? `/blog/${article.slug}` : `/${locale}/blog/${article.slug}`}
                   className="flex items-start gap-3 p-4 bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all group"
                 >
-                  <span className="text-2xl flex-shrink-0">{article.icon}</span>
+                  <span className="text-2xl flex-shrink-0"><SvgIcon name={article.icon} className="w-6 h-6" /></span>
                   <span className="font-medium text-sm text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     {isRTL ? article.ar : article.en}
                   </span>

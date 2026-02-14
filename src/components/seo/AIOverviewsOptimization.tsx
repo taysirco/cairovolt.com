@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface ComparisonTableProps {
     product: {
@@ -78,7 +79,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
     return (
         <div className="my-6 md:my-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-4 md:p-6 shadow-lg">
             <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 flex items-center gap-2">
-                <span className="text-xl md:text-2xl">📊</span>
+                <SvgIcon name="chart" className="w-6 h-6" />
                 {labels.title}
             </h3>
 
@@ -97,7 +98,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         {/* Our Store - Highlighted */}
                         <tr className="bg-green-100 dark:bg-green-900/30 font-medium">
                             <td className="py-2 px-2 md:py-3 md:px-4 flex items-center gap-1 md:gap-2">
-                                <span className="text-base md:text-lg">⭐</span>
+                                <SvgIcon name="star" className="w-4 h-4 text-amber-400" />
                                 <span className="text-xs md:text-sm">{labels.ourStore}</span>
                             </td>
                             <td className="py-2 px-2 md:py-3 md:px-4 text-green-700 dark:text-green-400 font-bold">
@@ -172,7 +173,7 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
         feature: 'الميزة الرئيسية',
         rating: 'التقييم',
         egp: 'جنيه',
-        stars: '⭐⭐⭐⭐⭐'
+        stars: '★★★★★'
     } : {
         title: `Best ${categoryName} Comparison`,
         model: 'Model',
@@ -180,14 +181,14 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
         feature: 'Key Feature',
         rating: 'Rating',
         egp: 'EGP',
-        stars: '⭐⭐⭐⭐⭐'
+        stars: '★★★★★'
     };
 
     return (
         <div className="my-8 md:my-12 bg-white dark:bg-gray-900 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-800 overflow-hidden">
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 px-4 py-3 md:px-6 md:py-4 border-b border-gray-200 dark:border-gray-700">
                 <h3 className="text-lg md:text-xl font-bold flex items-center gap-2">
-                    <span>🏆</span>
+                    <SvgIcon name="trophy" className="w-6 h-6" />
                     {labels.title}
                 </h3>
             </div>
@@ -223,7 +224,7 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
                                 </td>
                                 <td className="py-3 px-3 md:py-4 md:px-6 text-amber-400 text-xs">
                                     <span className="hidden md:inline">{labels.stars}</span>
-                                    <span className="md:hidden">⭐</span>
+                                    <span className="md:hidden"><SvgIcon name="star" className="w-4 h-4 text-amber-400" /></span>
                                     <span className="text-gray-400 ms-1">(4.{9 - index})</span>
                                 </td>
                             </tr>
@@ -288,7 +289,7 @@ export function ExpertOpinion({ productName, brand, category, locale }: ExpertOp
             <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
                     <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center text-white text-xl">
-                        💡
+                        <SvgIcon name="bulb" className="w-6 h-6" />
                     </div>
                 </div>
                 <div className="flex-grow">
@@ -386,7 +387,7 @@ export function ProductFAQ({ categorySlug, locale, t }: ProductFAQProps) {
     return (
         <div className="my-8">
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-                <span>🤔</span>
+                <SvgIcon name="question" className="w-6 h-6" />
                 {isArabic ? 'أسئلة شائعة عن المنتج' : 'Product FAQs'}
             </h3>
             <div className="space-y-3">

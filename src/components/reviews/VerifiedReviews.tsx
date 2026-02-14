@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface Review {
     id: string;
@@ -76,10 +77,10 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
         return (
             <div className="verified-reviews verified-reviews--empty">
                 <h3 className="section-title">
-                    {isArabic ? '📝 تقييمات العملاء' : '📝 Customer Reviews'}
+                    {isArabic ? <><SvgIcon name="pencil" className="w-5 h-5 inline-block" /> تقييمات العملاء</> : <><SvgIcon name="pencil" className="w-5 h-5 inline-block" /> Customer Reviews</>}
                 </h3>
                 <div className="empty-state">
-                    <div className="empty-state__icon">💬</div>
+                    <div className="empty-state__icon"><SvgIcon name="chat" className="w-12 h-12 mx-auto" /></div>
                     <p className="empty-state__text">
                         {isArabic
                             ? 'لا توجد تقييمات بعد. اشترِ الآن وشاركنا رأيك!'
@@ -118,7 +119,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
     return (
         <div className="verified-reviews">
             <h3 className="section-title">
-                {isArabic ? '📝 تقييمات العملاء الموثقة' : '📝 Verified Customer Reviews'}
+                {isArabic ? <><SvgIcon name="pencil" className="w-5 h-5 inline-block" /> تقييمات العملاء الموثقة</> : <><SvgIcon name="pencil" className="w-5 h-5 inline-block" /> Verified Customer Reviews</>}
             </h3>
 
             {/* Aggregate Rating */}
@@ -169,7 +170,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                         <div className="review-pros-cons">
                             {review.pros && review.pros.length > 0 && (
                                 <div className="pros">
-                                    <span className="label">👍</span>
+                                    <span className="label"><SvgIcon name="check-circle" className="w-4 h-4 inline-block text-green-500" /></span>
                                     <ul>
                                         {review.pros.map((pro, i) => (
                                             <li key={i}>{pro}</li>
@@ -179,7 +180,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                             )}
                             {review.cons && review.cons.length > 0 && (
                                 <div className="cons">
-                                    <span className="label">👎</span>
+                                    <span className="label"><SvgIcon name="x-circle" className="w-4 h-4 inline-block text-red-500" /></span>
                                     <ul>
                                         {review.cons.map((con, i) => (
                                             <li key={i}>{con}</li>
@@ -190,7 +191,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                         </div>
 
                         <div className="review-location">
-                            📍 {review.governorate}
+                            <SvgIcon name="pin" className="w-4 h-4 inline-block" /> {review.governorate}
                         </div>
                     </div>
                 ))}

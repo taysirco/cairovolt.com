@@ -57,6 +57,10 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         robots: { index: true, follow: true },
         other: {
             'article:author': isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            'geo.region': 'EG',
+            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
+            'geo.position': '30.0444;31.2357',
+            'ICBM': '30.0444, 31.2357',
         },
     };
 }
@@ -153,11 +157,10 @@ export function GenericCategoryContent({
                             <Link
                                 key={bc.brand}
                                 href={getLocalizedHref(`/${bc.brandSlug}/${bc.categorySlug}`)}
-                                className={`px-5 py-2.5 rounded-full font-medium text-sm border transition-all hover:shadow-md ${
-                                    bc.brand === 'Anker'
-                                        ? 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100 dark:bg-blue-900/30 dark:text-blue-300 dark:border-blue-800'
-                                        : 'bg-red-50 text-red-700 border-red-200 hover:bg-red-100 dark:bg-red-900/30 dark:text-red-300 dark:border-red-800'
-                                }`}
+                                className={`px-5 py-2.5 rounded-full font-medium text-sm border transition-all hover:shadow-md ${bc.brand === 'Anker'
+                                    ? 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100 dark:bg-blue-900/30 dark:text-blue-300 dark:border-blue-800'
+                                    : 'bg-red-50 text-red-700 border-red-200 hover:bg-red-100 dark:bg-red-900/30 dark:text-red-300 dark:border-red-800'
+                                    }`}
                             >
                                 {isArabic ? `تسوق ${bc.brand}` : `Shop ${bc.brand}`}
                             </Link>
@@ -187,11 +190,10 @@ export function GenericCategoryContent({
                                                     -{discount}%
                                                 </span>
                                             )}
-                                            <span className={`absolute top-2 ${isArabic ? 'left-2' : 'right-2'} px-2 py-0.5 text-xs font-medium rounded-full z-10 ${
-                                                product.brandDisplay === 'Anker'
-                                                    ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300'
-                                                    : 'bg-red-100 text-red-700 dark:bg-red-900/50 dark:text-red-300'
-                                            }`}>
+                                            <span className={`absolute top-2 ${isArabic ? 'left-2' : 'right-2'} px-2 py-0.5 text-xs font-medium rounded-full z-10 ${product.brandDisplay === 'Anker'
+                                                ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300'
+                                                : 'bg-red-100 text-red-700 dark:bg-red-900/50 dark:text-red-300'
+                                                }`}>
                                                 {product.brandDisplay}
                                             </span>
                                             {primaryImage ? (
@@ -199,6 +201,7 @@ export function GenericCategoryContent({
                                                     src={primaryImage}
                                                     alt={t?.name || product.slug}
                                                     fill
+                                                    loading="lazy"
                                                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
                                                     className="object-contain p-2 group-hover:scale-105 transition-transform"
                                                 />

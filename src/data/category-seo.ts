@@ -88,33 +88,33 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
                     ar: 'تأسست انكر عام 2011 في كاليفورنيا على يد فريق من مهندسي جوجل السابقين بهدف جعل الشحن أذكى وأسرع. اليوم، انكر هي العلامة الأولى عالمياً في الشحن مع أكثر من 200 مليون مستخدم وحصة سوقية تتجاوز 40% في أمريكا وأوروبا. من سلسلة Nano الصغيرة إلى سلسلة Prime القوية التي تشحن اللابتوب، كل باور بانك انكر مصنوع من خلايا بطارية Grade-A (نفس المستخدمة في السيارات الكهربائية) ومدعوم بضمان 18 شهر الأسطوري.'
                 },
                 achievements: [
-                    { icon: '🔋', stat: { en: '200M+', ar: '+200 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
-                    { icon: '⭐', stat: { en: '4.9/5', ar: '4.9/5' }, label: { en: 'Amazon Rating', ar: 'تقييم أمازون' } },
-                    { icon: '🏆', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Charging Brand', ar: 'براند شحن' } },
-                    { icon: '🛡️', stat: { en: '18 mo', ar: '18 شهر' }, label: { en: 'Warranty', ar: 'ضمان' } },
-                    { icon: '⚡', stat: { en: '250W', ar: '250 واط' }, label: { en: 'Max Power', ar: 'أقصى قوة' } },
-                    { icon: '🌍', stat: { en: '2011', ar: '2011' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } }
+                    { icon: 'battery', stat: { en: '200M+', ar: '+200 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
+                    { icon: 'star', stat: { en: '4.9/5', ar: '4.9/5' }, label: { en: 'Amazon Rating', ar: 'تقييم أمازون' } },
+                    { icon: 'trophy', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Charging Brand', ar: 'براند شحن' } },
+                    { icon: 'shield', stat: { en: '18 mo', ar: '18 شهر' }, label: { en: 'Warranty', ar: 'ضمان' } },
+                    { icon: 'bolt', stat: { en: '250W', ar: '250 واط' }, label: { en: 'Max Power', ar: 'أقصى قوة' } },
+                    { icon: 'globe', stat: { en: '2011', ar: '2011' }, label: { en: 'Year Founded', ar: 'سنة التأسيس' } }
                 ],
                 technologies: [
-                    { name: 'PowerIQ 4.0', icon: '🧠', description: { en: 'Smart device recognition technology. PowerIQ automatically detects your device (iPhone, Samsung, laptop) and delivers the optimal charging speed safely. No more slow charging or compatibility issues.', ar: 'تقنية تعرف ذكية على الجهاز. PowerIQ يكتشف جهازك تلقائياً (ايفون، سامسونج، لابتوب) ويعطيه أقصى سرعة شحن بأمان. لا مزيد من الشحن البطيء أو مشاكل التوافق.' } },
-                    { name: 'GaN II (Gallium Nitride)', icon: '⚡', description: { en: 'Next-generation semiconductor technology. GaN chargers are 50% smaller than traditional chargers while delivering the same or higher power output. Cooler operation and higher efficiency.', ar: 'تقنية أشباه موصلات الجيل الجديد. شواحن GaN أصغر 50% من الشواحن التقليدية مع نفس القوة أو أعلى. تشغيل أبرد وكفاءة أعلى.' } },
-                    { name: 'MultiProtect', icon: '🛡️', description: { en: '11-point safety system protecting against: short circuit, over-current, over-voltage, over-temperature, over-charge, over-discharge, and more. Your devices are always safe.', ar: 'نظام أمان من 11 نقطة يحمي من: الماس الكهربائي، التيار الزائد، الفولت الزائد، الحرارة الزائدة، الشحن الزائد، التفريغ الزائد، والمزيد. أجهزتك دائماً آمنة.' } },
-                    { name: 'ActiveShield 2.0', icon: '🌡️', description: { en: 'Intelligent temperature monitoring system. Checks device temperature 3 million times daily and adjusts power delivery to prevent overheating. Safe even during intensive use.', ar: 'نظام مراقبة حرارة ذكي. يفحص حرارة الجهاز 3 مليون مرة يومياً ويعدل الطاقة لمنع السخونة الزائدة. آمن حتى أثناء الاستخدام المكثف.' } },
-                    { name: 'Grade-A Battery Cells', icon: '🔋', description: { en: 'The same premium lithium cells used in Tesla and other electric vehicles. 500+ charge cycles (2x the industry average) with minimal capacity degradation.', ar: 'نفس خلايا الليثيوم المميزة المستخدمة في تسلا والسيارات الكهربائية. 500+ دورة شحن (ضعف المتوسط) مع أدنى انخفاض في السعة.' } }
+                    { name: 'PowerIQ 4.0', icon: 'brain', description: { en: 'Smart device recognition technology. PowerIQ automatically detects your device (iPhone, Samsung, laptop) and delivers the optimal charging speed safely. No more slow charging or compatibility issues.', ar: 'تقنية تعرف ذكية على الجهاز. PowerIQ يكتشف جهازك تلقائياً (ايفون، سامسونج، لابتوب) ويعطيه أقصى سرعة شحن بأمان. لا مزيد من الشحن البطيء أو مشاكل التوافق.' } },
+                    { name: 'GaN II (Gallium Nitride)', icon: 'bolt', description: { en: 'Next-generation semiconductor technology. GaN chargers are 50% smaller than traditional chargers while delivering the same or higher power output. Cooler operation and higher efficiency.', ar: 'تقنية أشباه موصلات الجيل الجديد. شواحن GaN أصغر 50% من الشواحن التقليدية مع نفس القوة أو أعلى. تشغيل أبرد وكفاءة أعلى.' } },
+                    { name: 'MultiProtect', icon: 'shield', description: { en: '11-point safety system protecting against: short circuit, over-current, over-voltage, over-temperature, over-charge, over-discharge, and more. Your devices are always safe.', ar: 'نظام أمان من 11 نقطة يحمي من: الماس الكهربائي، التيار الزائد، الفولت الزائد، الحرارة الزائدة، الشحن الزائد، التفريغ الزائد، والمزيد. أجهزتك دائماً آمنة.' } },
+                    { name: 'ActiveShield 2.0', icon: 'thermometer', description: { en: 'Intelligent temperature monitoring system. Checks device temperature 3 million times daily and adjusts power delivery to prevent overheating. Safe even during intensive use.', ar: 'نظام مراقبة حرارة ذكي. يفحص حرارة الجهاز 3 مليون مرة يومياً ويعدل الطاقة لمنع السخونة الزائدة. آمن حتى أثناء الاستخدام المكثف.' } },
+                    { name: 'Grade-A Battery Cells', icon: 'battery', description: { en: 'The same premium lithium cells used in Tesla and other electric vehicles. 500+ charge cycles (2x the industry average) with minimal capacity degradation.', ar: 'نفس خلايا الليثيوم المميزة المستخدمة في تسلا والسيارات الكهربائية. 500+ دورة شحن (ضعف المتوسط) مع أدنى انخفاض في السعة.' } }
                 ],
                 useCases: [
-                    { icon: '🧳', title: { en: 'Travel & Flights', ar: 'سفر ورحلات' }, description: { en: 'Prime 27,650mAh charges your MacBook Pro + iPhone + iPad on long flights. Flight-approved capacity.', ar: 'Prime 27,650mAh يشحن ماك بوك + ايفون + ايباد في الرحلات الطويلة. سعة مصرح بها للطيران.' } },
-                    { icon: '💼', title: { en: 'Daily Work', ar: 'عمل يومي' }, description: { en: '10,000mAh pocket-sized power bank. Fits in your pocket, charges your phone 2-3 times. Perfect for busy professionals.', ar: 'باور بانك 10,000 بحجم الجيب. يدخل الجيب ويشحن موبايلك 2-3 مرات. مثالي للمحترفين المشغولين.' } },
-                    { icon: '🏕️', title: { en: 'Camping & Emergency', ar: 'تخييم وطوارئ' }, description: { en: '60,000mAh PowerCore Reserve for week-long trips or power outages. Can charge phones 10+ times.', ar: 'PowerCore Reserve 60,000 للرحلات الطويلة أو انقطاع الكهرباء. يشحن الموبايل 10+ مرات.' } },
-                    { icon: '📱', title: { en: 'Light Use & Backup', ar: 'استخدام خفيف' }, description: { en: 'Nano 5,000mAh ultra-compact with built-in connector. Emergency backup that\'s always with you.', ar: 'Nano 5,000 صغير جداً بموصل مدمج. شحن طوارئ دائماً معك.' } }
+                    { icon: 'suitcase', title: { en: 'Travel & Flights', ar: 'سفر ورحلات' }, description: { en: 'Prime 27,650mAh charges your MacBook Pro + iPhone + iPad on long flights. Flight-approved capacity.', ar: 'Prime 27,650mAh يشحن ماك بوك + ايفون + ايباد في الرحلات الطويلة. سعة مصرح بها للطيران.' } },
+                    { icon: 'briefcase', title: { en: 'Daily Work', ar: 'عمل يومي' }, description: { en: '10,000mAh pocket-sized power bank. Fits in your pocket, charges your phone 2-3 times. Perfect for busy professionals.', ar: 'باور بانك 10,000 بحجم الجيب. يدخل الجيب ويشحن موبايلك 2-3 مرات. مثالي للمحترفين المشغولين.' } },
+                    { icon: 'tent', title: { en: 'Camping & Emergency', ar: 'تخييم وطوارئ' }, description: { en: '60,000mAh PowerCore Reserve for week-long trips or power outages. Can charge phones 10+ times.', ar: 'PowerCore Reserve 60,000 للرحلات الطويلة أو انقطاع الكهرباء. يشحن الموبايل 10+ مرات.' } },
+                    { icon: 'phone', title: { en: 'Light Use & Backup', ar: 'استخدام خفيف' }, description: { en: 'Nano 5,000mAh ultra-compact with built-in connector. Emergency backup that\'s always with you.', ar: 'Nano 5,000 صغير جداً بموصل مدمج. شحن طوارئ دائماً معك.' } }
                 ],
                 trustBadges: [
-                    { icon: '✅', title: { en: 'Authorized Dealer', ar: 'وكيل معتمد' }, description: { en: 'Verifiable serial', ar: 'سيريال قابل للتحقق' } },
-                    { icon: '🛡️', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
-                    { icon: '🔋', title: { en: 'Grade-A Cells', ar: 'خلايا Grade-A' }, description: { en: 'EV-grade batteries', ar: 'بطاريات السيارات الكهربائية' } },
-                    { icon: '🛡️', title: { en: 'MultiProtect', ar: 'حماية متعددة' }, description: { en: '11 safety points', ar: '11 نقطة أمان' } },
-                    { icon: '⭐', title: { en: '5000+ Customers', ar: '+5000 عميل' }, description: { en: 'Happy in Egypt', ar: 'سعيد في مصر' } },
-                    { icon: '📞', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 assistance', ar: 'مساعدة 24/7' } }
+                    { icon: 'check-circle', title: { en: 'Authorized Dealer', ar: 'وكيل معتمد' }, description: { en: 'Verifiable serial', ar: 'سيريال قابل للتحقق' } },
+                    { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
+                    { icon: 'battery', title: { en: 'Grade-A Cells', ar: 'خلايا Grade-A' }, description: { en: 'EV-grade batteries', ar: 'بطاريات السيارات الكهربائية' } },
+                    { icon: 'shield', title: { en: 'MultiProtect', ar: 'حماية متعددة' }, description: { en: '11 safety points', ar: '11 نقطة أمان' } },
+                    { icon: 'star', title: { en: '5000+ Customers', ar: '+5000 عميل' }, description: { en: 'Happy in Egypt', ar: 'سعيد في مصر' } },
+                    { icon: 'call', title: { en: 'WhatsApp Support', ar: 'دعم واتساب' }, description: { en: '24/7 assistance', ar: 'مساعدة 24/7' } }
                 ],
                 faq: {
                     ar: [
@@ -459,33 +459,33 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                     ar: 'أُطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من انكر، حاملةً نفس الالتزام بالجودة والابتكار الذي جعل انكر الأولى في الشحن. اليوم، خدمت ساوند كور أكثر من 100 مليون مستخدم حول العالم بسماعات ومكبرات صوت حائزة على جوائز. فلسفة العلامة بسيطة: تقديم تجارب صوتية ممتازة بأسعار معقولة. من R50i الاقتصادية إلى Liberty 4 الرائدة، كل منتج ساوند كور مُصمم بدقة ومدعوم بضمان جودة انكر.'
                 },
                 achievements: [
-                    { icon: '🎧', stat: { en: '100M+', ar: '+100 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
-                    { icon: '⭐', stat: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
-                    { icon: '🏆', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Earbuds Brand', ar: 'ماركة سماعات اقتصادية' } },
-                    { icon: '📱', stat: { en: '10M+', ar: '+10 مليون' }, label: { en: 'App Downloads', ar: 'تحميل للتطبيق' } },
-                    { icon: '🎵', stat: { en: '2016', ar: '2016' }, label: { en: 'Year Launched', ar: 'سنة الإطلاق' } },
-                    { icon: '🌍', stat: { en: '50+', ar: '+50' }, label: { en: 'Countries', ar: 'دولة' } }
+                    { icon: 'headphones', stat: { en: '100M+', ar: '+100 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
+                    { icon: 'star', stat: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
+                    { icon: 'trophy', stat: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Earbuds Brand', ar: 'ماركة سماعات اقتصادية' } },
+                    { icon: 'phone', stat: { en: '10M+', ar: '+10 مليون' }, label: { en: 'App Downloads', ar: 'تحميل للتطبيق' } },
+                    { icon: 'music', stat: { en: '2016', ar: '2016' }, label: { en: 'Year Launched', ar: 'سنة الإطلاق' } },
+                    { icon: 'globe', stat: { en: '50+', ar: '+50' }, label: { en: 'Countries', ar: 'دولة' } }
                 ],
                 technologies: [
-                    { name: 'Hi-Res Audio', icon: '🎵', description: { en: 'LDAC & aptX HD support for lossless audio quality up to 990kbps. Certified by Japan Audio Society for true audiophile experience.', ar: 'دعم LDAC و aptX HD لجودة صوت بدون فقدان حتى 990kbps. معتمدة من جمعية الصوت اليابانية لتجربة صوتية حقيقية.' } },
-                    { name: 'ANC (Active Noise Cancelling)', icon: '🔇', description: { en: 'Advanced noise cancellation that blocks up to 98% of ambient noise. Perfect for commutes, flights, and focused work.', ar: 'عزل ضوضاء متقدم يحجب حتى 98% من الأصوات المحيطة. مثالي للمواصلات والسفر والتركيز.' } },
-                    { name: 'HearID', icon: '🧠', description: { en: 'AI-powered personalized audio profile. The Soundcore app analyzes your hearing and creates a custom EQ just for your ears.', ar: 'ملف صوتي شخصي بالذكاء الاصطناعي. تطبيق ساوند كور يحلل سمعك وينشئ EQ مخصص لأذنيك.' } },
-                    { name: '360° BassUp', icon: '🔊', description: { en: 'Proprietary bass enhancement technology for speakers. Delivers powerful, room-filling sound in all directions.', ar: 'تقنية تعزيز الباس الحصرية للسبيكرات. تقدم صوتاً قوياً يملأ الغرفة من كل الاتجاهات.' } },
-                    { name: 'LDAC Codec', icon: '📡', description: { en: 'Sony\'s premium wireless audio codec supported by Soundcore. Transmits 3x more data than standard Bluetooth for studio-quality sound.', ar: 'كودك الصوت اللاسلكي المتميز من سوني مدعوم في ساوند كور. ينقل 3 أضعاف البيانات لجودة صوت الاستوديو.' } }
+                    { name: 'Hi-Res Audio', icon: 'music', description: { en: 'LDAC & aptX HD support for lossless audio quality up to 990kbps. Certified by Japan Audio Society for true audiophile experience.', ar: 'دعم LDAC و aptX HD لجودة صوت بدون فقدان حتى 990kbps. معتمدة من جمعية الصوت اليابانية لتجربة صوتية حقيقية.' } },
+                    { name: 'ANC (Active Noise Cancelling)', icon: 'mute', description: { en: 'Advanced noise cancellation that blocks up to 98% of ambient noise. Perfect for commutes, flights, and focused work.', ar: 'عزل ضوضاء متقدم يحجب حتى 98% من الأصوات المحيطة. مثالي للمواصلات والسفر والتركيز.' } },
+                    { name: 'HearID', icon: 'brain', description: { en: 'AI-powered personalized audio profile. The Soundcore app analyzes your hearing and creates a custom EQ just for your ears.', ar: 'ملف صوتي شخصي بالذكاء الاصطناعي. تطبيق ساوند كور يحلل سمعك وينشئ EQ مخصص لأذنيك.' } },
+                    { name: '360° BassUp', icon: 'speaker', description: { en: 'Proprietary bass enhancement technology for speakers. Delivers powerful, room-filling sound in all directions.', ar: 'تقنية تعزيز الباس الحصرية للسبيكرات. تقدم صوتاً قوياً يملأ الغرفة من كل الاتجاهات.' } },
+                    { name: 'LDAC Codec', icon: 'satellite', description: { en: 'Sony\'s premium wireless audio codec supported by Soundcore. Transmits 3x more data than standard Bluetooth for studio-quality sound.', ar: 'كودك الصوت اللاسلكي المتميز من سوني مدعوم في ساوند كور. ينقل 3 أضعاف البيانات لجودة صوت الاستوديو.' } }
                 ],
                 useCases: [
-                    { icon: '🏃', title: { en: 'Sports & Fitness', ar: 'رياضة ولياقة' }, description: { en: 'Sweat-proof IPX5 earbuds with secure fit. Beat your workout with bass that moves you.', ar: 'سماعات مقاومة للعرق IPX5 بتثبيت آمن. تغلب على تمرينك بباس يحركك.' } },
-                    { icon: '✈️', title: { en: 'Commute & Travel', ar: 'مواصلات وسفر' }, description: { en: 'ANC earbuds that turn chaos into calm. Block out the world and enjoy your music.', ar: 'سماعات ANC تحول الفوضى لهدوء. احجب العالم واستمتع بموسيقاك.' } },
-                    { icon: '🏠', title: { en: 'Home & Living', ar: 'منزل ومعيشة' }, description: { en: 'Speakers that fill every corner. From Motion+ Hi-Res to Flare 2 party lights.', ar: 'سبيكرات تملأ كل ركن. من Motion+ عالي الدقة لـ Flare 2 بإضاءة الحفلات.' } },
-                    { icon: '🎉', title: { en: 'Outdoor & Party', ar: 'حفلات ورحلات' }, description: { en: 'Waterproof speakers with 360° sound. IPX7 rated for pool parties and beach days.', ar: 'سبيكرات مقاومة للماء بصوت 360 درجة. تصنيف IPX7 لحفلات المسبح والشاطئ.' } }
+                    { icon: 'running', title: { en: 'Sports & Fitness', ar: 'رياضة ولياقة' }, description: { en: 'Sweat-proof IPX5 earbuds with secure fit. Beat your workout with bass that moves you.', ar: 'سماعات مقاومة للعرق IPX5 بتثبيت آمن. تغلب على تمرينك بباس يحركك.' } },
+                    { icon: 'plane', title: { en: 'Commute & Travel', ar: 'مواصلات وسفر' }, description: { en: 'ANC earbuds that turn chaos into calm. Block out the world and enjoy your music.', ar: 'سماعات ANC تحول الفوضى لهدوء. احجب العالم واستمتع بموسيقاك.' } },
+                    { icon: 'home', title: { en: 'Home & Living', ar: 'منزل ومعيشة' }, description: { en: 'Speakers that fill every corner. From Motion+ Hi-Res to Flare 2 party lights.', ar: 'سبيكرات تملأ كل ركن. من Motion+ عالي الدقة لـ Flare 2 بإضاءة الحفلات.' } },
+                    { icon: 'party', title: { en: 'Outdoor & Party', ar: 'حفلات ورحلات' }, description: { en: 'Waterproof speakers with 360° sound. IPX7 rated for pool parties and beach days.', ar: 'سبيكرات مقاومة للماء بصوت 360 درجة. تصنيف IPX7 لحفلات المسبح والشاطئ.' } }
                 ],
                 trustBadges: [
-                    { icon: '🎵', title: { en: 'Hi-Res Certified', ar: 'صوت Hi-Res معتمد' }, description: { en: 'Japan Audio Society', ar: 'جمعية الصوت اليابانية' } },
-                    { icon: '🛡️', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
-                    { icon: '📱', title: { en: 'Soundcore App', ar: 'تطبيق Soundcore' }, description: { en: 'Free EQ & Updates', ar: 'EQ مجاني وتحديثات' } },
-                    { icon: '📲', title: { en: 'iOS/Android', ar: 'iOS/Android' }, description: { en: 'Full compatibility', ar: 'توافق كامل' } },
-                    { icon: '⭐', title: { en: '4.8/5 Rating', ar: 'تقييم 4.8/5' }, description: { en: 'Global average', ar: 'متوسط عالمي' } },
-                    { icon: '🌍', title: { en: 'World\'s Leading', ar: 'الأولى عالمياً' }, description: { en: 'Wireless audio brand', ar: 'في السماعات اللاسلكية' } }
+                    { icon: 'music', title: { en: 'Hi-Res Certified', ar: 'صوت Hi-Res معتمد' }, description: { en: 'Japan Audio Society', ar: 'جمعية الصوت اليابانية' } },
+                    { icon: 'shield', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
+                    { icon: 'phone', title: { en: 'Soundcore App', ar: 'تطبيق Soundcore' }, description: { en: 'Free EQ & Updates', ar: 'EQ مجاني وتحديثات' } },
+                    { icon: 'phone', title: { en: 'iOS/Android', ar: 'iOS/Android' }, description: { en: 'Full compatibility', ar: 'توافق كامل' } },
+                    { icon: 'star', title: { en: '4.8/5 Rating', ar: 'تقييم 4.8/5' }, description: { en: 'Global average', ar: 'متوسط عالمي' } },
+                    { icon: 'globe', title: { en: 'World\'s Leading', ar: 'الأولى عالمياً' }, description: { en: 'Wireless audio brand', ar: 'في السماعات اللاسلكية' } }
                 ],
                 faq: {
                     ar: [

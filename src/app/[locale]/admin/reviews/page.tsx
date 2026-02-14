@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface ReviewRequest {
     id: string;
@@ -73,7 +74,7 @@ export default function ReviewsDashboard() {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                         <div>
                             <h1 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
-                                <span>📊</span>
+                                <SvgIcon name="chart" className="w-6 h-6" />
                                 لوحة تحكم التقييمات
                             </h1>
                             <p className="text-gray-500 mt-1">
@@ -87,12 +88,12 @@ export default function ReviewsDashboard() {
                         >
                             {syncing ? (
                                 <>
-                                    <span className="animate-spin">⏳</span>
+                                    <SvgIcon name="arrows-rotate" className="w-5 h-5 animate-spin" />
                                     جاري المزامنة...
                                 </>
                             ) : (
                                 <>
-                                    <span>🔄</span>
+                                    <SvgIcon name="arrows-rotate" className="w-5 h-5" />
                                     مزامنة الطلبات الجديدة
                                 </>
                             )}
@@ -103,19 +104,19 @@ export default function ReviewsDashboard() {
                 {/* Error Message */}
                 {error && (
                     <div className="bg-red-100 border border-red-200 text-red-700 px-4 py-3 rounded-xl mb-6">
-                        ❌ {error}
+                        <SvgIcon name="x-circle" className="w-5 h-5 inline-block" /> {error}
                     </div>
                 )}
 
                 {/* Sync Results */}
                 {syncResults && (
                     <div className={`border px-4 py-3 rounded-xl mb-6 ${syncResults.success
-                            ? 'bg-green-100 border-green-200 text-green-700'
-                            : 'bg-yellow-100 border-yellow-200 text-yellow-700'
+                        ? 'bg-green-100 border-green-200 text-green-700'
+                        : 'bg-yellow-100 border-yellow-200 text-yellow-700'
                         }`}>
                         {syncResults.success ? (
                             <>
-                                ✅ تم معالجة {syncResults.processed} طلب جديد
+                                <SvgIcon name="check-circle" className="w-5 h-5 inline-block" /> تم معالجة {syncResults.processed} طلب جديد
                                 {syncResults.results?.map((r: any, i: number) => (
                                     <div key={i} className="mt-2 text-sm">
                                         صف {r.rowNumber}: {r.customerName} - {r.productName}
@@ -126,14 +127,14 @@ export default function ReviewsDashboard() {
                                                 rel="noopener noreferrer"
                                                 className="mr-2 text-green-600 underline"
                                             >
-                                                📱 إرسال عبر واتساب
+                                                <SvgIcon name="phone" className="w-4 h-4 inline-block" /> إرسال عبر واتساب
                                             </a>
                                         )}
                                     </div>
                                 ))}
                             </>
                         ) : (
-                            <>⚠️ {syncResults.error}</>
+                            <><SvgIcon name="shield" className="w-5 h-5 inline-block" /> {syncResults.error}</>
                         )}
                     </div>
                 )}
@@ -172,12 +173,12 @@ export default function ReviewsDashboard() {
 
                     {loading ? (
                         <div className="p-8 text-center text-gray-500">
-                            <span className="animate-spin inline-block text-2xl">⏳</span>
+                            <SvgIcon name="arrows-rotate" className="w-6 h-6 animate-spin mx-auto" />
                             <p className="mt-2">جاري التحميل...</p>
                         </div>
                     ) : requests.length === 0 ? (
                         <div className="p-8 text-center text-gray-500">
-                            <span className="text-4xl">📭</span>
+                            <SvgIcon name="mail" className="w-10 h-10 mx-auto" />
                             <p className="mt-2">لا توجد طلبات تقييم بعد</p>
                             <p className="text-sm">اضغط "مزامنة الطلبات الجديدة" لجلب الطلبات من Google Sheets</p>
                         </div>
@@ -209,8 +210,8 @@ export default function ReviewsDashboard() {
                                             </td>
                                             <td className="px-4 py-3">
                                                 <span className={`px-2 py-1 text-xs rounded-full ${request.status === 'completed'
-                                                        ? 'bg-green-100 text-green-700'
-                                                        : 'bg-yellow-100 text-yellow-700'
+                                                    ? 'bg-green-100 text-green-700'
+                                                    : 'bg-yellow-100 text-yellow-700'
                                                     }`}>
                                                     {request.status === 'completed' ? 'تم التقييم' : 'في الانتظار'}
                                                 </span>
@@ -228,13 +229,13 @@ export default function ReviewsDashboard() {
                                                         rel="noopener noreferrer"
                                                         className="px-3 py-1 bg-green-500 hover:bg-green-600 text-white text-sm rounded-lg transition-colors"
                                                     >
-                                                        📱 واتساب
+                                                        <SvgIcon name="phone" className="w-4 h-4 inline-block" /> واتساب
                                                     </a>
                                                     <button
                                                         onClick={() => navigator.clipboard.writeText(request.reviewUrl)}
                                                         className="px-3 py-1 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm rounded-lg transition-colors"
                                                     >
-                                                        📋 نسخ
+                                                        <SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> نسخ
                                                     </button>
                                                 </div>
                                             </td>
@@ -249,7 +250,7 @@ export default function ReviewsDashboard() {
                 {/* Instructions */}
                 <div className="mt-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
                     <h3 className="font-bold text-blue-800 dark:text-blue-300 mb-3">
-                        📖 كيفية الاستخدام
+                        <SvgIcon name="clipboard" className="w-5 h-5 inline-block" /> كيفية الاستخدام
                     </h3>
                     <ol className="list-decimal list-inside space-y-2 text-blue-700 dark:text-blue-400 text-sm">
                         <li>غيّر حالة الطلب في Google Sheets إلى <strong>"تم التوصيل"</strong></li>

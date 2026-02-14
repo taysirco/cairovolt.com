@@ -10,9 +10,11 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'ReturnPolicy' });
+    const title = t('metaTitle');
+    const description = t('metaDescription');
     return {
-        title: t('metaTitle'),
-        description: t('metaDescription'),
+        title,
+        description,
         alternates: {
             canonical: locale === 'ar'
                 ? 'https://cairovolt.com/return-policy'
@@ -26,6 +28,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         robots: {
             index: true,
             follow: true,
+        },
+        openGraph: {
+            title,
+            description,
+            locale: locale === 'ar' ? 'ar_EG' : 'en_US',
+            type: 'website',
+            siteName: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+        },
+        other: {
+            'geo.region': 'EG',
+            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
+            'geo.position': '30.0444;31.2357',
+            'ICBM': '30.0444, 31.2357',
         },
     };
 }
@@ -58,7 +73,9 @@ export default function ReturnPolicyPage() {
                             {/* Return Window */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-                                    <span className="text-3xl">📦</span>
+                                    <span className="text-3xl text-orange-500">
+                                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
+                                    </span>
                                     {t('window.title')}
                                 </h2>
                                 <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-xl p-6 text-center">
@@ -71,7 +88,9 @@ export default function ReturnPolicyPage() {
                             {/* Eligibility */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-                                    <span className="text-3xl">✅</span>
+                                    <span className="text-3xl text-green-500">
+                                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                    </span>
                                     {t('eligible.title')}
                                 </h2>
                                 <ul className="space-y-3">
@@ -87,7 +106,9 @@ export default function ReturnPolicyPage() {
                             {/* Non-Returnable */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-                                    <span className="text-3xl">🚫</span>
+                                    <span className="text-3xl text-red-500">
+                                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" /></svg>
+                                    </span>
                                     {t('nonReturnable.title')}
                                 </h2>
                                 <ul className="space-y-3">
@@ -103,7 +124,9 @@ export default function ReturnPolicyPage() {
                             {/* How to Return */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-                                    <span className="text-3xl">🔄</span>
+                                    <span className="text-3xl text-blue-500">
+                                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                                    </span>
                                     {t('howToReturn.title')}
                                 </h2>
                                 <ol className="space-y-4">
@@ -121,7 +144,9 @@ export default function ReturnPolicyPage() {
                             {/* Refund Info */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-                                    <span className="text-3xl">💰</span>
+                                    <span className="text-3xl text-green-500">
+                                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                                    </span>
                                     {t('refund.title')}
                                 </h2>
                                 <div className="grid md:grid-cols-2 gap-6">
@@ -141,7 +166,9 @@ export default function ReturnPolicyPage() {
                             {/* Defective Products */}
                             <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
                                 <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-                                    <span className="text-3xl">🛡️</span>
+                                    <span className="text-3xl text-blue-600">
+                                        <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                                    </span>
                                     {t('defective.title')}
                                 </h2>
                                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-6">

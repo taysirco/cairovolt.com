@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 // ============================================
 // AEO SUMMARY BLOCK - Answer Engine Optimization
@@ -84,7 +85,7 @@ export function AEOSummaryBlock({
                 <div className="flex-1">
                     {/* Quick Answer Label */}
                     <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide mb-1 block">
-                        {isArabic ? '✨ إجابة سريعة' : '✨ Quick Answer'}
+                        {isArabic ? <><SvgIcon name="sparkles" className="w-4 h-4 inline-block" /> إجابة سريعة</> : <><SvgIcon name="sparkles" className="w-4 h-4 inline-block" /> Quick Answer</>}
                     </span>
 
                     {/* Main Summary Content - 40-60 words */}
@@ -167,12 +168,12 @@ export function CategoryAEOBlock({
             <div className="flex items-start gap-4">
                 {/* Category Icon */}
                 <div className="flex-shrink-0 w-12 h-12 bg-blue-100 dark:bg-blue-800 rounded-xl flex items-center justify-center">
-                    <span className="text-2xl">📱</span>
+                    <SvgIcon name="phone" className="w-6 h-6" />
                 </div>
 
                 <div className="flex-1">
                     <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide mb-2 block">
-                        {isArabic ? '📋 ملخص القسم' : '📋 Category Overview'}
+                        {isArabic ? <><SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> ملخص القسم</> : <><SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> Category Overview</>}
                     </span>
 
                     <p className="text-gray-700 dark:text-gray-300 text-sm md:text-base leading-relaxed">
@@ -247,12 +248,12 @@ export function BrandAEOBlock({
         >
             <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center">
-                    <span className="text-2xl">🏆</span>
+                    <SvgIcon name="trophy" className="w-6 h-6" />
                 </div>
 
                 <div className="flex-1">
                     <span className="text-xs font-semibold text-blue-400 uppercase tracking-wide mb-2 block">
-                        {isArabic ? '🎯 الوكيل الرسمي' : '🎯 Official Dealer'}
+                        {isArabic ? <><SvgIcon name="target" className="w-4 h-4 inline-block" /> الوكيل الرسمي</> : <><SvgIcon name="target" className="w-4 h-4 inline-block" /> Official Dealer</>}
                     </span>
 
                     <p className="text-gray-200 text-sm md:text-base leading-relaxed">

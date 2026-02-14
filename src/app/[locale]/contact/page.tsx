@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import ContactPageClient from './ContactPageClient';
+import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -34,10 +35,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
         },
+        other: {
+            'geo.region': 'EG',
+            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
+            'geo.position': '30.0444;31.2357',
+            'ICBM': '30.0444, 31.2357',
+        },
     };
 }
 
-export default function ContactPage() {
-    return <ContactPageClient />;
+export default async function ContactPage({ params }: Props) {
+    const { locale } = await params;
+    const isArabic = locale === 'ar';
+    return (
+        <>
+            <BreadcrumbSchema
+                items={[
+                    { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
+                    { name: isArabic ? 'اتصل بنا' : 'Contact Us', url: `https://cairovolt.com${isArabic ? '' : '/en'}/contact` },
+                ]}
+                locale={locale}
+            />
+            <ContactPageClient />
+        </>
+    );
 }
 

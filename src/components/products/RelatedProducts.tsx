@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface Product {
     id: string;
@@ -41,7 +42,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
     return (
         <div className="py-8 border-t border-gray-100 dark:border-gray-800">
             <h3 className="text-xl md:text-2xl font-bold mb-6 flex items-center gap-2">
-                <span>✨</span>
+                <SvgIcon name="sparkles" className="w-6 h-6" />
                 {isArabic ? 'قد يعجبك أيضاً' : 'You May Also Like'}
             </h3>
 

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -38,15 +39,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
         },
+        other: {
+            'geo.region': 'EG',
+            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
+            'geo.position': '30.0444;31.2357',
+            'ICBM': '30.0444, 31.2357',
+        },
     };
 }
 
 const categoryLabels: Record<string, { ar: string; en: string; icon: string }> = {
-    'buying-guide': { ar: 'دليل شراء', en: 'Buying Guide', icon: '📚' },
-    'comparison': { ar: 'مقارنة', en: 'Comparison', icon: '⚖️' },
-    'how-to': { ar: 'شرح', en: 'How-To', icon: '🔧' },
-    'review': { ar: 'مراجعة', en: 'Review', icon: '⭐' },
-    'tips': { ar: 'نصائح', en: 'Tips', icon: '💡' },
+    'buying-guide': { ar: 'دليل شراء', en: 'Buying Guide', icon: 'book' },
+    'comparison': { ar: 'مقارنة', en: 'Comparison', icon: 'scale' },
+    'how-to': { ar: 'شرح', en: 'How-To', icon: 'wrench' },
+    'review': { ar: 'مراجعة', en: 'Review', icon: 'star' },
+    'tips': { ar: 'نصائح', en: 'Tips', icon: 'bulb' },
 };
 
 export default async function BlogPage({ params }: Props) {
@@ -102,7 +109,7 @@ export default async function BlogPage({ params }: Props) {
                                     {/* Category Badge */}
                                     <div className="p-6 pb-0">
                                         <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
-                                            {catLabel.icon} {isArabic ? catLabel.ar : catLabel.en}
+                                            <SvgIcon name={catLabel.icon} className="w-4 h-4" /> {isArabic ? catLabel.ar : catLabel.en}
                                         </span>
                                     </div>
 

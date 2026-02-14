@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 import { useTranslations } from 'next-intl';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 export default function CartDrawer({ locale }: { locale: string }) {
     const { items, isOpen, setIsOpen, updateQuantity, removeFromCart, totalAmount, clearCart } = useCart();
@@ -62,7 +63,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                     <div className="mb-2 text-sm text-center font-medium">
                         {isFreeShipping ? (
                             <span className="text-green-600 dark:text-green-400">
-                                🎉 {isRTL ? 'مبروك! لقد حصلت على شحن مجاني' : 'Congrats! You got Free Shipping'}
+                                <SvgIcon name="gift" className="w-5 h-5 inline-block text-green-500" /> {isRTL ? 'مبروك! لقد حصلت على شحن مجاني' : 'Congrats! You got Free Shipping'}
                             </span>
                         ) : (
                             <span className="text-gray-700 dark:text-gray-300">
@@ -84,7 +85,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                 <div className="flex-1 overflow-y-auto p-4 space-y-4">
                     {items.length === 0 ? (
                         <div className="h-full flex flex-col items-center justify-center text-center opacity-60">
-                            <span className="text-4xl mb-2">🛒</span>
+                            <SvgIcon name="cart" className="w-10 h-10 mx-auto mb-2" />
                             <p>{isRTL ? 'السلة فارغة' : 'Your cart is empty'}</p>
                             <button
                                 onClick={() => setIsOpen(false)}

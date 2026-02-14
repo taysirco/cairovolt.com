@@ -6,6 +6,7 @@ import { getGovernorateBySlug, governorates, Governorate } from '@/data/governor
 import { staticProducts, staticCategories } from '@/lib/static-products';
 import { LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface PageProps {
     params: Promise<{
@@ -109,7 +110,7 @@ export default async function GovernoratePage({ params }: PageProps) {
 
                             {/* Delivery Badge */}
                             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur rounded-full px-6 py-3">
-                                <span className="text-2xl">🚚</span>
+                                <SvgIcon name="truck" className="w-6 h-6" />
                                 <span className="font-semibold">
                                     {isArabic
                                         ? `التوصيل خلال ${gov.deliveryDays} ${gov.deliveryDays === 1 ? 'يوم' : 'أيام'}`
@@ -124,7 +125,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                 <section className="py-12 container mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
                         <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block">✅</span>
+                            <span className="text-4xl mb-3 block"><SvgIcon name="check-circle" className="w-10 h-10 mx-auto" /></span>
                             <h3 className="font-bold text-gray-900 dark:text-white">
                                 {isArabic ? 'منتجات أصلية' : 'Original Products'}
                             </h3>
@@ -133,7 +134,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                             </p>
                         </div>
                         <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block">🚚</span>
+                            <span className="text-4xl mb-3 block"><SvgIcon name="truck" className="w-10 h-10 mx-auto" /></span>
                             <h3 className="font-bold text-gray-900 dark:text-white">
                                 {isArabic ? 'توصيل سريع' : 'Fast Delivery'}
                             </h3>
@@ -142,7 +143,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                             </p>
                         </div>
                         <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block">🛡️</span>
+                            <span className="text-4xl mb-3 block"><SvgIcon name="shield" className="w-10 h-10 mx-auto" /></span>
                             <h3 className="font-bold text-gray-900 dark:text-white">
                                 {isArabic ? 'ضمان رسمي' : 'Official Warranty'}
                             </h3>
@@ -151,7 +152,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                             </p>
                         </div>
                         <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block">💵</span>
+                            <span className="text-4xl mb-3 block"><SvgIcon name="money" className="w-10 h-10 mx-auto" /></span>
                             <h3 className="font-bold text-gray-900 dark:text-white">
                                 {isArabic ? 'الدفع عند الاستلام' : 'Cash on Delivery'}
                             </h3>

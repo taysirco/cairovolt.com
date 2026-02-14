@@ -7,6 +7,7 @@ import { ProductSchema, BreadcrumbSchema, FAQSchema } from '@/components/schemas
 import { SpeakableSchema } from '@/components/schemas/AEOSchemas';
 import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
 import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
+import { getProductSEO } from '@/data/product-seo-enhancements';
 
 type Props = {
     params: Promise<{ locale: string; brand: string; category: string; slug: string }>;
@@ -72,12 +73,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const isArabic = locale === 'ar';
     const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en || {};
 
+    // Dynamic meta title template with keyword-rich fallback
+    const dynamicTitle = t.metaTitle || (isArabic
+        ? `${t.name} — اشتري ${product.brand} اصلي في مصر | سعر ${product.price?.toLocaleString()} جنيه | كايرو فولت`
+        : `${t.name} — Buy Original ${product.brand} in Egypt | ${product.price?.toLocaleString()} EGP | CairoVolt`);
+
     return {
-        title: t.metaTitle || t.name,
+        title: dynamicTitle,
         description: t.metaDesc || t.shortDescription || t.description?.substring(0, 160),
         keywords: product.seo?.keywords || '',
         openGraph: {
-            title: t.metaTitle || t.name,
+            title: dynamicTitle,
             description: t.metaDesc || t.shortDescription,
             siteName: isArabic ? 'كايرو فولت - مصر' : 'CairoVolt Egypt',
             images: product.images?.[0]?.url ? [{
@@ -201,6 +207,7 @@ export default async function ProductPage({ params }: Props) {
                     worstRating: String(aggregateRating.worstRating)
                 } : undefined}
                 reviews={schemaReviews}
+                specifications={getProductSEO(slug)?.specifications}
             />
 
             {/* BreadcrumbSchema for navigation */}
