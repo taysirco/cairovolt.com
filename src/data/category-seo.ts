@@ -948,7 +948,7 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
 |---------|-------|-----|-------------|-----------|
 | **T03s** | 499 ج | ✗ | 5h + 20h | الميزانية المحدودة |
 | **T03s Pro** | 699 ج | ✓ | 6h + 24h | الاستخدام اليومي  |
-| **T03s Pro Max** | 1025 ج | ✓✓ | 8h + 32h | السفر والمحترفين |
+| **T03s Pro Max** | 1025 ج | ✓ الأقوى | 8h + 32h | السفر والمحترفين |
 `
                         },
                         {
@@ -1017,7 +1017,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
 |-------|-------|-----|--------------|----------|
 | **T03s** | EGP 499 | ✗ | 5h + 20h | Budget Buyers |
 | **T03s Pro** | EGP 699 | ✓ | 6h + 24h | Daily Use  |
-| **T03s Pro Max** | EGP 1025 | ✓✓ | 8h + 32h | Travel & Pros |
+| **T03s Pro Max** | EGP 1025 | ✓ Strong | 8h + 32h | Travel & Pros |
 `
                         },
                         {

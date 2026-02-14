@@ -661,7 +661,7 @@ export const products = [
                     "18-month warranty → Double the industry standard in Egypt"
                 ],
                 metaTitle: "Anker 20W USB-C Charger Egypt | EGP 379 | Fast iPhone 17 Charging 2026",
-                metaDesc: "Buy original Anker 20W charger in Egypt for EGP 379. Charges iPhone 17 from 0% to 50% in 30 min. ✓ 18-month warranty ✓ Next-day Cairo delivery ✓ Cash on delivery",
+                metaDesc: "Buy Anker 20W charger in Egypt for EGP 379. Charges iPhone 17 from 0% to 50% in 30 min. ✓ 18-month warranty ✓ Next-day Cairo delivery ✓ COD",
                 faqs: [
                     { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 379 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 20W fast charge iPhone 17?", answer: "Yes, it charges iPhone 17 from 0% to 50% in just 30 minutes—3x faster than the standard 5W charger." },
