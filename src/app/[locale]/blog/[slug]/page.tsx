@@ -9,6 +9,7 @@ import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { SgeBaitBox } from '@/components/ui/SgeBaitBox';
 import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry';
+import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
@@ -222,6 +223,9 @@ export default async function BlogArticlePage({ params }: Props) {
                             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline"
                         dangerouslySetInnerHTML={{ __html: trans.content }}
                     />
+
+                    {/* Interactive Widgets (Calculators, Mermaid Diagrams) — Dwell Time optimization */}
+                    <BlogInteractiveWidgets slug={slug} locale={locale} />
 
                     {/* FAQ Section */}
                     {trans.faq && trans.faq.length > 0 && (
