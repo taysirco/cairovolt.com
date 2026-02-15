@@ -217,9 +217,10 @@ export default async function BlogArticlePage({ params }: Props) {
                             prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-p:leading-relaxed
                             prose-li:text-gray-600 dark:prose-li:text-gray-300
                             prose-strong:text-gray-900 dark:prose-strong:text-white
-                            prose-table:border-collapse prose-table:w-full prose-table:text-sm
-                            prose-th:bg-gray-50 dark:prose-th:bg-gray-800 prose-th:p-3 prose-th:text-start prose-th:font-bold prose-th:border prose-th:border-gray-200 dark:prose-th:border-gray-700
-                            prose-td:p-3 prose-td:border prose-td:border-gray-200 dark:prose-td:border-gray-700
+                            prose-table:border-collapse prose-table:w-full prose-table:text-sm prose-table:rounded-xl prose-table:overflow-hidden prose-table:shadow-sm prose-table:border prose-table:border-gray-200 dark:prose-table:border-gray-700
+                            prose-th:bg-gradient-to-r prose-th:from-blue-600 prose-th:to-blue-700 prose-th:text-white prose-th:p-3.5 prose-th:text-start prose-th:font-bold prose-th:border-b prose-th:border-blue-500 prose-th:text-xs prose-th:uppercase prose-th:tracking-wider
+                            prose-td:p-3.5 prose-td:border-b prose-td:border-gray-100 dark:prose-td:border-gray-700/50
+                            [&_tbody_tr]:transition-colors [&_tbody_tr:hover]:bg-blue-50/50 dark:[&_tbody_tr:hover]:bg-blue-900/10 [&_tbody_tr:nth-child(even)]:bg-gray-50/50 dark:[&_tbody_tr:nth-child(even)]:bg-gray-800/30
                             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline"
                         dangerouslySetInnerHTML={{ __html: trans.content }}
                     />
