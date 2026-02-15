@@ -170,7 +170,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
         ),
 
         // Samsung charger article
-        'best-samsung-charger-egypt': (
+        'best-samsung-s26-charger': (
             <ChargingSpeedCalculator locale={locale} />
         ),
     };

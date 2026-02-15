@@ -15,20 +15,90 @@ export async function GET(req: NextRequest) {
     const search = url.searchParams.get('search');
     const limit = parseInt(url.searchParams.get('limit') || '50');
     const page = parseInt(url.searchParams.get('page') || '1');
-    const useFirebase = url.searchParams.get('firebase') === 'true';
+    // const useFirebase = url.searchParams.get('firebase') === 'true'; // Deprecated flag, we now always try Firebase first
 
-    // Default to static data if not requested optionally, BUT we want Firebase as primary now?
-    // The previous logic was: "Only use Firebase when explicitly requested".
-    // I should preserve that logic unless the USER wants the site to run off Firebase.
-    // The issue "503 error preventing order processing" implies orders use Firebase.
-    // Products might be hybrid. Let's keep the existing logic:
-    // "Only use Firebase when explicitly requested with ?firebase=true"
-    // Wait, if I change `if (!useFirebase || !adminDb)` to `if (!useFirebase) return static`, 
-    // it simplifies things. But wait, `adminDb` check was there to fallback if not connected.
-    // Now `getFirestore()` throws.
+    try {
+        // 1. Try Firestore First
+        const db = await getFirestore();
+        let query: Query = db.collection('products');
 
-    // I will check useFirebase flag. If false, return static.
-    if (!useFirebase) {
+        // Apply filters
+        if (brand) {
+            query = query.where('brand', '==', brand);
+        }
+        if (category) {
+            query = query.where('categorySlug', '==', category);
+        }
+        if (status) {
+            query = query.where('status', '==', status);
+        }
+
+        // Order by creation date
+        query = query.orderBy('createdAt', 'desc');
+
+        // Execute query
+        const snapshot = await query.get();
+
+        // If Firestore connects but returns empty (and we aren't searching/filtering narrowly), 
+        // we might consider fallback, but usually empty means empty. 
+        // However, if the collection is empty because of a migration issue, fallback might be nice.
+        // For now, let's treat successful empty query as valid result, UNLESS we expect data.
+        // But simpler to just rely on "error -> fallback".
+
+        let products = snapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+
+        // Client-side search (Firestore doesn't support full-text search)
+        if (search) {
+            const searchLower = search.toLowerCase();
+            products = products.filter(p => {
+                const data = p as Record<string, unknown>;
+                const translations = data.translations as Record<string, Record<string, string>> | undefined;
+                const enName = translations?.en?.name?.toLowerCase() || '';
+                const arName = translations?.ar?.name || '';
+                const slug = (data.slug as string)?.toLowerCase() || '';
+
+                return enName.includes(searchLower) ||
+                    arName.includes(search) ||
+                    slug.includes(searchLower);
+            });
+        }
+
+        // Pagination
+        const total = products.length;
+        const totalPages = Math.ceil(total / limit);
+        const startIndex = (page - 1) * limit;
+        const paginatedProducts = products.slice(startIndex, startIndex + limit);
+
+        // If we found products, return them
+        // If we found NO products but didn't error, and we are NOT filtering (or filtering by main categories),
+        // it might be suspicious. But let's trust Firestore if it responds.
+        // Exception: If brand/category is provided and result is empty, check static fallback? 
+        // No, that might duplicate or be confusing. Let's stick to "Error = Fallback".
+
+        // Actually, if Firestore is empty (db reset?), fallback to static is safer for business.
+        if (products.length === 0 && (brand || category) && !search) {
+            console.warn('Firestore returned 0 products for query, attempting fallback to static data.');
+            throw new Error('Empty Firestore Result');
+        }
+
+        return NextResponse.json({
+            items: paginatedProducts,
+            pagination: {
+                page,
+                limit,
+                total,
+                totalPages,
+            },
+            source: 'firebase'
+        });
+
+    } catch (error) {
+        console.warn('Firestore fetch failed or returned empty, falling back to static data:', error);
+
+        // 2. Fallback to Static Data
         let products = [...staticProducts];
 
         // Apply filters
@@ -65,71 +135,8 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({
             items: productsWithIds,
             pagination: { page, limit, total, totalPages },
-            source: 'static'
+            source: 'static_fallback'
         });
-    }
-
-    // Firebase Path
-    try {
-        const db = await getFirestore();
-        let query: Query = db.collection('products');
-
-        // Apply filters
-        if (brand) {
-            query = query.where('brand', '==', brand);
-        }
-        if (category) {
-            query = query.where('categorySlug', '==', category);
-        }
-        if (status) {
-            query = query.where('status', '==', status);
-        }
-
-        // Order by creation date
-        query = query.orderBy('createdAt', 'desc');
-
-        // Execute query
-        const snapshot = await query.get();
-
-        let products = snapshot.docs.map(doc => ({
-            id: doc.id,
-            ...doc.data()
-        }));
-
-        // Client-side search (Firestore doesn't support full-text search)
-        if (search) {
-            const searchLower = search.toLowerCase();
-            products = products.filter(p => {
-                const data = p as Record<string, unknown>;
-                const translations = data.translations as Record<string, Record<string, string>> | undefined;
-                const enName = translations?.en?.name?.toLowerCase() || '';
-                const arName = translations?.ar?.name || '';
-                const slug = (data.slug as string)?.toLowerCase() || '';
-
-                return enName.includes(searchLower) ||
-                    arName.includes(search) ||
-                    slug.includes(searchLower);
-            });
-        }
-
-        // Pagination
-        const total = products.length;
-        const totalPages = Math.ceil(total / limit);
-        const startIndex = (page - 1) * limit;
-        const paginatedProducts = products.slice(startIndex, startIndex + limit);
-
-        return NextResponse.json({
-            items: paginatedProducts,
-            pagination: {
-                page,
-                limit,
-                total,
-                totalPages,
-            }
-        });
-    } catch (error) {
-        console.error('Error fetching products:', error);
-        return NextResponse.json({ error: 'Failed to fetch products' }, { status: 500 });
     }
 }
 

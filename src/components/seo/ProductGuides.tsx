@@ -308,7 +308,7 @@ export function ExpertOpinion({ productName, brand, category, locale }: ExpertOp
     );
 }
 
-// Quick Summary for AI Overviews
+// Quick Product Summary
 interface QuickSummaryProps {
     product: {
         brand: string;

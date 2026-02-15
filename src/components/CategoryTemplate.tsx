@@ -9,13 +9,13 @@ import { CategorySeoData, FAQItem, BuyingGuideSection, TrustSignal, SoundcoreDat
 import { BreadcrumbSchema } from './schemas/ProductSchema';
 import { HowToSchema, ItemListSchema } from './schemas/AEOSchemas';
 import RelatedLinks from './seo/RelatedLinks';
-import { CategoryAEOBlock } from './seo/AEOSummaryBlock';
+import { CollectionOverviewBlock } from './seo/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
 
-const CategoryComparisonTable = dynamic(() => import('./seo/AIOverviewsOptimization').then(mod => mod.CategoryComparisonTable), {
+const CategoryComparisonTable = dynamic(() => import('./seo/ProductGuides').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
 });
-const ExpertOpinion = dynamic(() => import('./seo/AIOverviewsOptimization').then(mod => mod.ExpertOpinion), {
+const ExpertOpinion = dynamic(() => import('./seo/ProductGuides').then(mod => mod.ExpertOpinion), {
     loading: () => <div className="animate-pulse h-48 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
 });
 
@@ -41,6 +41,7 @@ interface CategoryTemplateProps {
     seoContent: CategorySeoData['seoContent'];
     soundcoreData?: SoundcoreData;
     powerBankData?: PowerBankData;
+    initialProducts?: Product[];
 }
 
 // Category slug to translation key mapping
@@ -84,7 +85,8 @@ export default function CategoryTemplate({
     categorySlug,
     seoContent,
     soundcoreData,
-    powerBankData
+    powerBankData,
+    initialProducts = []
 }: CategoryTemplateProps) {
     const locale = useLocale();
     const tCat = useTranslations('Categories');
@@ -98,22 +100,32 @@ export default function CategoryTemplate({
     const translatedCategory = tCat(categoryKey);
     const translatedBrand = brand === 'Anker' ? tBrand('anker') : tBrand('joyroom');
 
-    const [dbProducts, setDbProducts] = useState<Product[]>([]);
-    const [loading, setLoading] = useState(true);
+    // Initialize with server-side products if available
+    const [dbProducts, setDbProducts] = useState<Product[]>(initialProducts);
+    const [loading, setLoading] = useState(initialProducts.length === 0);
 
     useEffect(() => {
+        // If we already have products from server, we can still fetch fresh data
+        // but we don't need to show loading state if we have initial data
         fetch(`/api/products?brand=${brand}&category=${categorySlug}`)
             .then(res => res.json())
             .then(data => {
                 // Handle both old array format and new paginated format
                 if (data.items && Array.isArray(data.items)) {
-                    setDbProducts(data.items);
+                    if (data.items.length > 0) {
+                        setDbProducts(data.items);
+                    }
                 } else if (Array.isArray(data)) {
-                    setDbProducts(data);
+                    if (data.length > 0) {
+                        setDbProducts(data);
+                    }
                 }
                 setLoading(false);
             })
-            .catch(() => setLoading(false));
+            .catch((err) => {
+                console.error('Failed to fetch products:', err);
+                setLoading(false);
+            });
     }, [brand, categorySlug]);
 
     const brandColorClass = brandColor === 'blue'
@@ -132,18 +144,19 @@ export default function CategoryTemplate({
         ? 'bg-blue-600 hover:bg-blue-700'
         : 'bg-red-600 hover:bg-red-700';
 
-    // Use database products if available, otherwise fall back to seoContent
-    const displayProducts = dbProducts.length > 0
-        ? dbProducts.map(p => ({
-            id: p.id,
-            slug: p.slug,
-            name: p.translations?.[locale as 'ar' | 'en']?.name || p.translations?.en?.name || 'Product',
-            price: p.price,
-            originalPrice: p.originalPrice,
-            image: p.images?.[0]?.url,
-            badge: undefined as string | undefined
-        }))
-        : content.products.map((p, idx) => ({ ...p, id: String(idx), slug: '', image: undefined as string | undefined, originalPrice: undefined as number | undefined }));
+    // Use database products if available, otherwise use initialProducts.
+    // We avoid falling back to 'content.products' which creates empty slugs.
+    const productsToShow = dbProducts.length > 0 ? dbProducts : [];
+
+    const displayProducts = productsToShow.map(p => ({
+        id: p.id,
+        slug: p.slug,
+        name: p.translations?.[locale as 'ar' | 'en']?.name || p.translations?.en?.name || 'Product',
+        price: p.price,
+        originalPrice: p.originalPrice,
+        image: p.images?.[0]?.url,
+        badge: undefined as string | undefined
+    }));
 
     // Breadcrumbs - Arabic default locale uses '/', English uses '/en/'
     // Use proper brand casing (Anker, Joyroom)
@@ -478,7 +491,7 @@ export default function CategoryTemplate({
 
             {/* Category AEO Block - Answer-First Content for AI/Voice Search */}
             <div className="container mx-auto px-4 py-4">
-                <CategoryAEOBlock
+                <CollectionOverviewBlock
                     categoryName={translatedCategory}
                     categoryNameAr={tCat(categoryKey)}
                     brand={translatedBrand}

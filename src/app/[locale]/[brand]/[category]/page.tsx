@@ -2,6 +2,7 @@ import CategoryTemplate from '@/components/CategoryTemplate';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { categoryData } from '@/data/category-seo';
+import { getProductsByBrandAndCategory } from '@/lib/static-products';
 
 type Props = {
     params: Promise<{ locale: string; brand: string; category: string }>;
@@ -56,6 +57,22 @@ export default async function DynamicCategoryPage({ params }: Props) {
         notFound();
     }
 
+    // Get static products server-side for immediate SEO availability
+    // This prevents "empty" pages if client-side fetching fails
+    const staticProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
+
+    // Map to the interface expected by CategoryTemplate
+    const initialProducts = staticProducts.map(p => ({
+        id: `static_${p.slug}`,
+        slug: p.slug,
+        brand: p.brand,
+        categorySlug: p.categorySlug,
+        price: p.price,
+        originalPrice: p.originalPrice,
+        images: p.images.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
+        translations: p.translations
+    }));
+
     return (
         <CategoryTemplate
             brand={data.brand}
@@ -65,6 +82,7 @@ export default async function DynamicCategoryPage({ params }: Props) {
             seoContent={data.seoContent}
             soundcoreData={data.soundcoreData}
             powerBankData={data.powerBankData}
+            initialProducts={initialProducts}
         />
     );
 }

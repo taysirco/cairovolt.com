@@ -4,14 +4,18 @@ import { notFound } from 'next/navigation';
 import { brandData } from '@/data/brand-data';
 import { ArticleSchema } from '@/components/schemas/AEOSchemas';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { BrandAEOBlock } from '@/components/seo/AEOSummaryBlock';
+import { BrandOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { SgeBaitBox } from '@/components/ui/SgeBaitBox';
+import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/entity-registry';
 
 type Props = {
     params: Promise<{ locale: string; brand: string }>;
 };
+// ... (omitting lines 16-130 as they don't change, start replacement from import or section)
+
+// Actually I'll target the import and the usage separately or use a larger block
+
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, brand } = await params;
@@ -128,11 +132,11 @@ export default async function BrandHubPage({ params }: Props) {
                         {isRTL ? data.hero.description.ar : data.hero.description.en}
                     </p>
 
-                    {/* SGE Bait Box - Concise answer for AI search engines */}
-                    {data.sgeSummary && (
+                    {/* Quick Answer Box - Concise answer for users and search engines */}
+                    {data.quickAnswer && (
                         <div className="max-w-2xl mx-auto mb-10">
-                            <SgeBaitBox
-                                summary={isRTL ? data.sgeSummary.ar : data.sgeSummary.en}
+                            <QuickAnswerBox
+                                answer={isRTL ? data.quickAnswer.ar : data.quickAnswer.en}
                                 locale={locale}
                                 variant="subtle"
                             />
@@ -176,13 +180,13 @@ export default async function BrandHubPage({ params }: Props) {
                 </div>
             )}
 
-            {/* Brand AEO Block - Answer-First Content for AI/Voice Search */}
+            {/* Brand Overview Block - SEO Context */}
             <div className="container mx-auto px-4 py-4 relative z-20">
-                <BrandAEOBlock
+                <BrandOverviewBlock
                     brandName={data.hero.title}
                     brandDescription={isRTL ? data.hero.description.ar : data.hero.description.en}
                     categoryCount={data.categories.length}
-                    totalProducts={data.categories.length * 10} // Estimated products per category
+                    totalProducts={50} // Approximate
                     locale={locale}
                 />
             </div>

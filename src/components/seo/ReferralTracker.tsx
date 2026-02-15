@@ -4,11 +4,11 @@ import { useEffect } from 'react';
 import { trackAIReferrer } from '@/lib/ai-traffic-tracking';
 
 /**
- * AITrafficTracker Component
- * Client component that tracks AI referral traffic on mount
- * Place this in your layout to track AI answer engine visitors
+ * ReferralTracker Component
+ * Client component that tracks referral traffic on mount
+ * Place this in your layout to track visitors from search engines and other sources
  */
-export function AITrafficTracker() {
+export function ReferralTracker() {
     useEffect(() => {
         // Track on initial page load
         trackAIReferrer();
@@ -18,4 +18,4 @@ export function AITrafficTracker() {
     return null;
 }
 
-export default AITrafficTracker;
+export default ReferralTracker;

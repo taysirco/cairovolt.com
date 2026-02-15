@@ -7,7 +7,7 @@ import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schema
 import { FAQSchema } from '@/components/schemas/ProductSchema';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { SgeBaitBox } from '@/components/ui/SgeBaitBox';
+import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry';
 import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
 
@@ -182,9 +182,9 @@ export default async function BlogArticlePage({ params }: Props) {
                         {trans.excerpt}
                     </p>
 
-                    {/* SGE Bait Box - Concise answer for AI search engines */}
-                    {trans.sgeSummary && (
-                        <SgeBaitBox summary={trans.sgeSummary} locale={locale} variant="highlighted" />
+                    {/* Quick Answer Box - Concise answer for users and search engines */}
+                    {trans.quickAnswer && (
+                        <QuickAnswerBox answer={trans.quickAnswer} locale={locale} variant="highlighted" />
                     )}
 
                     <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400 pb-8 border-b border-gray-100 dark:border-gray-700">

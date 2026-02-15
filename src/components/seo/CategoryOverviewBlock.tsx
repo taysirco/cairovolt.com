@@ -4,13 +4,12 @@ import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 // ============================================
-// AEO SUMMARY BLOCK - Answer Engine Optimization
+// CATEGORY OVERVIEW BLOCK
 // ============================================
-// This component provides "Answer-First" content blocks
-// that are optimized for AI Answer Engines (ChatGPT, Perplexity, Gemini)
-// Content is 40-60 words, directly answering user queries
+// This component provides helpful context blocks
+// that are optimized for quick user understanding
 
-interface AEOSummaryBlockProps {
+interface CategoryOverviewBlockProps {
     productName: string;
     brand: string;
     category: string;
@@ -21,11 +20,11 @@ interface AEOSummaryBlockProps {
 }
 
 /**
- * AEO Summary Block Component
- * Provides immediate, concise answers for AI crawlers and voice search
+ * Category Overview Block Component
+ * Provides immediate, concise answers for users
  * Position: Immediately after Hero section for maximum visibility
  */
-export function AEOSummaryBlock({
+export function CategoryOverviewBlock({
     productName,
     brand,
     category,
@@ -33,11 +32,11 @@ export function AEOSummaryBlock({
     locale,
     variant = 'product',
     shortDescription
-}: AEOSummaryBlockProps) {
+}: CategoryOverviewBlockProps) {
     const t = useTranslations('aeo');
     const isArabic = locale === 'ar';
 
-    // Generate AEO summary based on variant
+    // Generate summary based on variant
     const getSummary = () => {
         const formattedPrice = new Intl.NumberFormat(isArabic ? 'ar-EG' : 'en-EG', {
             style: 'currency',
@@ -71,10 +70,10 @@ export function AEOSummaryBlock({
 
     return (
         <section
-            className="speakable-content aeo-summary-block bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-xl p-4 md:p-6 my-4 md:my-6 border border-gray-200 dark:border-gray-700"
+            className="speakable-content category-overview-block bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-xl p-4 md:p-6 my-4 md:my-6 border border-gray-200 dark:border-gray-700"
             aria-label={isArabic ? 'ملخص سريع' : 'Quick Summary'}
         >
-            {/* AEO Icon Indicator */}
+            {/* Icon Indicator */}
             <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
                     <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -121,10 +120,10 @@ export function AEOSummaryBlock({
 }
 
 // ============================================
-// CATEGORY AEO BLOCK - For Category Pages
+// COLLECTION OVERVIEW BLOCK - For Category Pages
 // ============================================
 
-interface CategoryAEOBlockProps {
+interface CollectionOverviewBlockProps {
     categoryName: string;
     categoryNameAr: string;
     brand: string;
@@ -133,14 +132,14 @@ interface CategoryAEOBlockProps {
     locale: string;
 }
 
-export function CategoryAEOBlock({
+export function CollectionOverviewBlock({
     categoryName,
     categoryNameAr,
     brand,
     productCount,
     priceRange,
     locale
-}: CategoryAEOBlockProps) {
+}: CollectionOverviewBlockProps) {
     const isArabic = locale === 'ar';
 
     const formatPrice = (price: number) => {
@@ -162,7 +161,7 @@ export function CategoryAEOBlock({
 
     return (
         <section
-            className="speakable-content category-aeo-block bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-5 md:p-6 my-4 md:my-6 border border-blue-100 dark:border-blue-800"
+            className="speakable-content collection-overview-block bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-5 md:p-6 my-4 md:my-6 border border-blue-100 dark:border-blue-800"
             aria-label={isArabic ? 'نظرة عامة على القسم' : 'Category Overview'}
         >
             <div className="flex items-start gap-4">
@@ -214,10 +213,10 @@ export function CategoryAEOBlock({
 }
 
 // ============================================
-// BRAND AEO BLOCK - For Brand Hub Pages
+// BRAND OVERVIEW BLOCK - For Brand Hub Pages
 // ============================================
 
-interface BrandAEOBlockProps {
+interface BrandOverviewBlockProps {
     brandName: string;
     brandDescription: string;
     categoryCount: number;
@@ -225,13 +224,13 @@ interface BrandAEOBlockProps {
     locale: string;
 }
 
-export function BrandAEOBlock({
+export function BrandOverviewBlock({
     brandName,
     brandDescription,
     categoryCount,
     totalProducts,
     locale
-}: BrandAEOBlockProps) {
+}: BrandOverviewBlockProps) {
     const isArabic = locale === 'ar';
 
     const getSummary = () => {
@@ -243,7 +242,7 @@ export function BrandAEOBlock({
 
     return (
         <section
-            className="speakable-content brand-aeo-block bg-gradient-to-r from-gray-900 to-gray-800 text-white rounded-xl p-5 md:p-6 my-4 md:my-6"
+            className="speakable-content brand-overview-block bg-gradient-to-r from-gray-900 to-gray-800 text-white rounded-xl p-5 md:p-6 my-4 md:my-6"
             aria-label={isArabic ? 'نظرة عامة على العلامة التجارية' : 'Brand Overview'}
         >
             <div className="flex items-start gap-4">
@@ -265,4 +264,4 @@ export function BrandAEOBlock({
     );
 }
 
-export default AEOSummaryBlock;
+export default CategoryOverviewBlock;

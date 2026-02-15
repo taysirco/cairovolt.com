@@ -35,19 +35,19 @@ export default function robots(): MetadataRoute.Robots {
             {
                 // AI Crawlers - OpenAI
                 userAgent: ['GPTBot', 'ChatGPT-User'],
-                allow: ['/', '/llms.txt', '/ai.txt'],
+                allow: ['/'],
                 disallow: ['/api/', '/checkout/'],
             },
             {
                 // AI Crawlers - Anthropic
                 userAgent: ['ClaudeBot', 'Claude-Web', 'anthropic-ai'],
-                allow: ['/', '/llms.txt', '/ai.txt'],
+                allow: ['/'],
                 disallow: ['/api/', '/checkout/'],
             },
             {
                 // AI Crawlers - Others
                 userAgent: ['PerplexityBot', 'cohere-ai', 'meta-externalagent', 'YouBot'],
-                allow: ['/', '/llms.txt', '/ai.txt'],
+                allow: ['/'],
                 disallow: ['/api/', '/checkout/'],
             },
             {
