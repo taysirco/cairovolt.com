@@ -4,13 +4,30 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef } from 'react';
-import { QuickSummary, ProductComparisonTable, ExpertOpinion, ProductFAQ } from '@/components/seo/ProductGuides';
+import dynamic from 'next/dynamic';
+import { QuickSummary } from '@/components/seo/ProductGuides';
 import { CategoryOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
 import { useCart } from '@/context/CartContext';
-import BundleSelector from '@/components/products/BundleSelector';
-import RelatedProducts from '@/components/products/RelatedProducts';
+
+// Lazy Load Heavy Components
+const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
+    loading: () => <div className="h-96 bg-gray-50 rounded-2xl animate-pulse my-8" />,
+    ssr: false
+});
+
+const RelatedProducts = dynamic(() => import('@/components/products/RelatedProducts'), {
+    ssr: false
+});
+
+const BundleSelector = dynamic(() => import('@/components/products/BundleSelector'), {
+    loading: () => <div className="h-64 bg-gray-50 rounded-2xl animate-pulse my-8" />,
+    ssr: false
+});
+
+const ProductComparisonTable = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ProductComparisonTable));
+const ExpertOpinion = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ExpertOpinion));
+const ProductFAQ = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ProductFAQ));
 import RelatedLinks from '@/components/seo/RelatedLinks';
-import VerifiedReviews from '@/components/reviews/VerifiedReviews';
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
