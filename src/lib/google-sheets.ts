@@ -2,27 +2,26 @@ import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
 import { getSecret } from './get-secrets';
 
-// Sheet Config & Auth (Lazy Init)
-let serviceAccountAuth: JWT | null = null;
-
+// Sheet Config & Auth - rebuilt each call to avoid stale credentials
 async function getAuth() {
-    if (serviceAccountAuth) return serviceAccountAuth;
-
     const GOOGLE_CLIENT_EMAIL = await getSecret('google_service_account_email');
     const GOOGLE_PRIVATE_KEY = await getSecret('google_private_key');
 
     if (!GOOGLE_CLIENT_EMAIL || !GOOGLE_PRIVATE_KEY) {
-        console.error('Google Sheets secrets missing');
+        console.error('Google Sheets secrets missing. Email:', !!GOOGLE_CLIENT_EMAIL, 'Key:', !!GOOGLE_PRIVATE_KEY);
         return null;
     }
 
     try {
-        serviceAccountAuth = new JWT({
+        // Handle both escaped \n and actual newlines in the private key
+        const processedKey = GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n');
+        const auth = new JWT({
             email: GOOGLE_CLIENT_EMAIL,
-            key: GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'),
+            key: processedKey,
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
-        return serviceAccountAuth;
+        console.log('Google Sheets Auth initialized for:', GOOGLE_CLIENT_EMAIL);
+        return auth;
     } catch (error) {
         console.error('Google Auth Init Failed:', error);
         return null;
@@ -61,8 +60,8 @@ export async function appendOrderToSheet(orderData: any) {
         }));
 
         await sheet.addRows(rows);
-        console.log('Order added to Google Sheet');
-    } catch (error) {
-        console.error('Error appending to Google Sheet:', error);
+        console.log('Order added to Google Sheet successfully. Rows:', rows.length);
+    } catch (error: any) {
+        console.error('Error appending to Google Sheet:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
     }
 }
