@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -171,13 +171,14 @@ export default function CheckoutPage() {
             sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
-            router.push(`/${locale}/confirm`);
+            // Use next-intl router to handle locale prefix automatically
+            router.push('/confirm');
 
             // Clear cart after initiating redirect
+            // loading stays true so useEffect won't redirect to home
             setTimeout(() => clearCart(), 100);
         } catch (error) {
             alert(isArabic ? 'حدث خطأ أثناء إرسال الطلب. حاول مرة أخرى.' : 'An error occurred while placing your order. Please try again.');
-        } finally {
             setLoading(false);
         }
     }
