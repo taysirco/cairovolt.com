@@ -119,13 +119,16 @@ export default function CheckoutPage() {
 
         const shipping = totalAmount >= 500 ? 0 : 40;
         const finalTotal = totalAmount + shipping;
+        const city = formData.get('city') as string;
+        const cityLabel = governorates.find(g => g.value === city)?.label || city;
 
         const orderData = {
             customerName: formData.get('customerName'),
             phone: phone,
             whatsapp: whatsapp || phone,
             address: formData.get('address'),
-            city: formData.get('city'),
+            city: city,
+            cityLabel: cityLabel,
             items: cartItems,
             totalAmount: finalTotal, // Send final total including shipping
             subtotal: totalAmount, // Keep track of subtotal
@@ -143,7 +146,6 @@ export default function CheckoutPage() {
             const result = await res.json();
 
             // Prepare order data for confirmation page
-            const city = formData.get('city') as string;
             const confirmData = {
                 orderId: result.orderId || `CV-${Date.now().toString(36).toUpperCase()}`,
                 customerName: formData.get('customerName') as string,
@@ -151,7 +153,7 @@ export default function CheckoutPage() {
                 whatsapp: whatsapp || phone,
                 address: formData.get('address') as string,
                 city: city,
-                cityLabel: governorates.find(g => g.value === city)?.label || city,
+                cityLabel: cityLabel,
                 items: cartItems,
                 subtotal: totalAmount,
                 shipping: totalAmount >= 500 ? 0 : 40,
@@ -169,7 +171,7 @@ export default function CheckoutPage() {
             sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
-            router.push('/confirm');
+            router.push(`/${locale}/confirm`);
 
             // Clear cart after initiating redirect
             setTimeout(() => clearCart(), 100);
