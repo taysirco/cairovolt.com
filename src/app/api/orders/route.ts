@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { after } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { appendOrderToSheet } from '@/lib/google-sheets';
@@ -44,20 +45,23 @@ export async function POST(req: NextRequest) {
 
         const docRef = await db.collection('orders').add(orderData);
 
-        // Sync with Google Sheets (Fire and await to ensure completion in serverless)
-        try {
-            await appendOrderToSheet({
-                ...orderData,
-                id: docRef.id
-            });
-        } catch (sheetError) {
-            console.error('Failed to sync with Google Sheet:', sheetError);
-            // Continue execution, don't fail the order
-        }
+        // Defer Google Sheets sync to AFTER the response is sent.
+        // This eliminates ~2-3 seconds of blocking time for the user.
+        after(async () => {
+            try {
+                await appendOrderToSheet({
+                    ...orderData,
+                    id: docRef.id
+                });
+            } catch (sheetError) {
+                console.error('Failed to sync with Google Sheet (deferred):', sheetError);
+            }
+        });
 
+        // Response sent immediately after Firestore write — no waiting for Sheets
         return NextResponse.json({
             id: docRef.id,
-            orderId: orderId, // Return the readable ID
+            orderId: orderId,
             message: 'Order placed successfully'
         });
     } catch (error: any) {

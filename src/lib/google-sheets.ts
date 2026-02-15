@@ -2,10 +2,18 @@ import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
 import { getSecret } from './get-secrets';
 
-// Sheet Config & Auth - rebuilt each call to avoid stale credentials
+// Cache the JWT auth object to avoid rebuilding on every call
+let cachedAuth: JWT | null = null;
+
 async function getAuth() {
-    const GOOGLE_CLIENT_EMAIL = await getSecret('google_service_account_email');
-    const GOOGLE_PRIVATE_KEY = await getSecret('google_private_key');
+    // Return cached auth if available
+    if (cachedAuth) return cachedAuth;
+
+    // Fetch both secrets in parallel instead of sequentially
+    const [GOOGLE_CLIENT_EMAIL, GOOGLE_PRIVATE_KEY] = await Promise.all([
+        getSecret('google_service_account_email'),
+        getSecret('google_private_key'),
+    ]);
 
     if (!GOOGLE_CLIENT_EMAIL || !GOOGLE_PRIVATE_KEY) {
         console.error('Google Sheets secrets missing. Email:', !!GOOGLE_CLIENT_EMAIL, 'Key:', !!GOOGLE_PRIVATE_KEY);
@@ -20,6 +28,7 @@ async function getAuth() {
             key: processedKey,
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
+        cachedAuth = auth;
         console.log('Google Sheets Auth initialized for:', GOOGLE_CLIENT_EMAIL);
         return auth;
     } catch (error) {
@@ -63,5 +72,9 @@ export async function appendOrderToSheet(orderData: any) {
         console.log('Order added to Google Sheet successfully. Rows:', rows.length);
     } catch (error: any) {
         console.error('Error appending to Google Sheet:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
+        // Reset cached auth on auth errors so it's rebuilt next time
+        if (error?.code === 401 || error?.code === 403 || error?.message?.includes('invalid_grant')) {
+            cachedAuth = null;
+        }
     }
 }
