@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface OrderItem {
@@ -196,16 +197,28 @@ export default function ConfirmPage() {
                         {orderData.items.map((item, idx) => (
                             <div key={idx} className="flex items-center justify-between py-4">
                                 <div className="flex items-center gap-4">
-                                    <div className="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center">
-                                        <SvgIcon name="package" className="w-5 h-5" />
+                                    <div className="relative w-16 h-16 bg-gray-50 dark:bg-gray-800 rounded-lg flex-shrink-0 overflow-hidden border border-gray-100 dark:border-gray-700">
+                                        {item.image ? (
+                                            <Image
+                                                src={item.image}
+                                                alt={item.name}
+                                                fill
+                                                className="object-contain p-1"
+                                                sizes="64px"
+                                            />
+                                        ) : (
+                                            <div className="w-full h-full flex items-center justify-center">
+                                                <SvgIcon name="package" className="w-6 h-6 text-gray-400" />
+                                            </div>
+                                        )}
                                     </div>
                                     <div>
-                                        <p className="font-medium">{item.name}</p>
-                                        <p className="text-sm text-gray-500">الكمية: {item.quantity}</p>
+                                        <p className="font-medium text-sm sm:text-base line-clamp-2">{item.name}</p>
+                                        <p className="text-sm text-gray-500 mt-1">الكمية: {item.quantity}</p>
                                     </div>
                                 </div>
-                                <div className="text-left">
-                                    <p className="font-bold">{(item.price * item.quantity).toLocaleString()} جنيه</p>
+                                <div className="text-left flex-shrink-0 ms-2">
+                                    <p className="font-bold text-sm sm:text-base">{(item.price * item.quantity).toLocaleString()} جنيه</p>
                                     {item.quantity > 1 && (
                                         <p className="text-xs text-gray-500">{item.price.toLocaleString()} × {item.quantity}</p>
                                     )}
