@@ -148,15 +148,27 @@ export default function CategoryTemplate({
     // We avoid falling back to 'content.products' which creates empty slugs.
     const productsToShow = dbProducts.length > 0 ? dbProducts : [];
 
-    const displayProducts = productsToShow.map(p => ({
-        id: p.id,
-        slug: p.slug,
-        name: p.translations?.[locale as 'ar' | 'en']?.name || p.translations?.en?.name || 'Product',
-        price: p.price,
-        originalPrice: p.originalPrice,
-        image: p.images?.[0]?.url,
-        badge: undefined as string | undefined
-    }));
+    const displayProducts = productsToShow.map(p => {
+        // Fallback logic for images: if API product has no image, try to find it in static initialProducts
+        let imageUrl = p.images?.[0]?.url;
+
+        if (!imageUrl && initialProducts.length > 0) {
+            const staticProduct = initialProducts.find(sp => sp.slug === p.slug);
+            if (staticProduct?.images?.[0]?.url) {
+                imageUrl = staticProduct.images[0].url;
+            }
+        }
+
+        return {
+            id: p.id,
+            slug: p.slug,
+            name: p.translations?.[locale as 'ar' | 'en']?.name || p.translations?.en?.name || 'Product',
+            price: p.price,
+            originalPrice: p.originalPrice,
+            image: imageUrl,
+            badge: undefined as string | undefined
+        };
+    });
 
     // Breadcrumbs - Arabic default locale uses '/', English uses '/en/'
     // Use proper brand casing (Anker, Joyroom)
