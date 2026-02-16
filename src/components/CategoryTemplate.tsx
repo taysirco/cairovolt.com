@@ -149,10 +149,11 @@ export default function CategoryTemplate({
     const productsToShow = dbProducts.length > 0 ? dbProducts : [];
 
     const displayProducts = productsToShow.map(p => {
-        // Fallback logic for images: if API product has no image, try to find it in static initialProducts
+        // Fallback logic for images: PRIORITIZE static images if available
+        // This overrides potentially broken URLs from database with known-good static paths
         let imageUrl = p.images?.[0]?.url;
 
-        if (!imageUrl && initialProducts.length > 0) {
+        if (initialProducts.length > 0) {
             const staticProduct = initialProducts.find(sp => sp.slug === p.slug);
             if (staticProduct?.images?.[0]?.url) {
                 imageUrl = staticProduct.images[0].url;
