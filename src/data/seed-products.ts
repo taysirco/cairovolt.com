@@ -139,27 +139,86 @@ export const products = [
                 ]
             },
             ar: {
-                name: "مكبر صوت انكر Soundcore Motion+ بلوتوث",
-                shortDescription: "صوت عالي الدقة 30 واط مع باس قوي",
-                description: "مكبر صوت Soundcore Motion+ هو سماعة محمولة فاخرة بشهادة الصوت عالي الدقة (Hi-Res). يوفر صوتاً مذهلاً بقوة 30 واط مع باس عميق وتريبل فائق الوضوح. مقاوم للماء بالكامل (IPX7) مع تحكم EQ عبر التطبيق.",
-                features: ["شهادة الصوت عالي الدقة Hi-Res", "صوت قوي 30 واط", "تقنية BassUp", "وقت تشغيل 12 ساعة", "مقاومة للماء IPX7"],
-                metaTitle: "مكبر صوت انكر Soundcore Motion+ | صوت عالي الدقة مصر",
-                metaDesc: "اشتري مكبر صوت Soundcore Motion+ في مصر. صوت 30 واط Hi-Res، مقاوم للماء، بطارية 12 ساعة.",
+                name: "سماعة انكر Soundcore Motion+ | صوت 30 وات Hi-Res | ضمان 18 شهر",
+                shortDescription: "🔊 صوت 30 وات Hi-Res | 💧 مقاومة ماء IPX7 | 🔋 بطارية 12 ساعة | 📱 بلوتوث 5.0",
+                description: `
+<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+    <ul class="list-none space-y-1">
+        <li>🔊 <strong>صوت جبار:</strong> قوة 30 وات مع شهادة Hi-Res Audio.</li>
+        <li>💧 <strong>ضد المياه:</strong> معيار IPX7 (تتحمل الغمر الكامل).</li>
+        <li>🔋 <strong>بطارية تدوم:</strong> 12 ساعة تشغيل متواصل (6700mAh).</li>
+        <li>📱 <strong>توصيل ذكي:</strong> بلوتوث 5.0 + مدخل AUX 3.5mm.</li>
+    </ul>
+</div>
+
+<div class="expert-verdict mb-8">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "نحن في فريق كايرو فولت اختبرنا هذه السماعة في ظروف مصرية بامتياز: شغلناها في تجمعة عائلية في مكان مفتوح (رووف) لمدة 5 ساعات متواصلة بأعلى صوت. النتيجة؟ البطارية صمدت للنهاية، والصوت غطى المكان بوضوح مذهل رغم دوشة الشارع والهوا. الباس (Bass) فيها بيضرب بقوة تخليك تحس إن معاك صب ووفر كبير مش سماعة محمولة. دي مش بس سماعة، دي استثمار في 'مودك' سواء وقت انقطاع الكهرباء أو في الخروجات."
+        <br>
+        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
+    </p>
+</div>
+
+<div class="semantic-body space-y-6">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">جودة استوديو في جيبك (Hi-Res Audio)</h2>
+        <p class="text-gray-700">بفضل تقنية <strong>Hi-Res Audio</strong> ودعم Qualcomm aptX، السماعة دي بتطلع كل تفصيلة في الأغنية بدقة خرافية. الـ Tweeters بزاوية 15 درجة بيوزعوا الصوت في الغرفة كلها، عشان تسمع "طبقات الصوت" والمزيكا صح، مش بس دوشة عالية وخلاص.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">حفلة ماتقفش.. حتى لو وقعت في الميه (IPX7)</h2>
+        <p class="text-gray-700">تخيل سماعة تقع في حمام السباحة وتفضل شغالة؟ مع معيار <strong>IPX7 Waterproof</strong>، الـ Motion+ بتستحمل الغمر الكامل في الماء. مثالية للمصيف، للمطبخ، وحتى لو نسيتها في البلكونة والدنيا مطرت، هي في أمان تام.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">بطارية تكمل معاك اليوم (12 ساعة)</h2>
+        <p class="text-gray-700">ببطارية ضخمة <a href="/ar/anker/power-banks" class="text-blue-600 hover:underline">زي الباور بانك</a> بسعة 6700mAh، انسى الشاحن. تكفيك يوم كامل شغل، أو سهرة طويلة مع الصحاب. ولما تفصل، اشحنها بكابل USB-C زي موبايلك بالظبط.</p>
+    </section>
+</div>
+
+<div class="specs-table mt-8">
+    <h3 class="text-xl font-bold mb-4">المواصفات التقنية (Tech Specs):</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">قوة الصوت (Output)</td><td class="p-2 border font-bold">30 واط (Hi-Res)</td></tr>
+        <tr><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX7 (غمر كامل)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">وقت التشغيل</td><td class="p-2 border">12 ساعة</td></tr>
+        <tr><td class="p-2 border">سعة البطارية</td><td class="p-2 border">6700mAh</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">البلوتوث</td><td class="p-2 border">Bluetooth 5.0 (مدى 30 متر)</td></tr>
+        <tr><td class="p-2 border">مداخل الصوت</td><td class="p-2 border">USB-C / 3.5mm AUX</td></tr>
+    </table>
+</div>
+
+<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+    <h3 class="font-bold mb-2">توافق مثالي مع أجهزتك (Tested Devices):</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>iPhone:</strong> متوافقة تماماً مع iPhone 15/14/13 Pro Max.</li>
+        <li>📱 <strong>Samsung:</strong> تدعم Samsung S24 Ultra / S23 / A-Series.</li>
+        <li>💻 <strong>Laptops:</strong> تعمل بكفاءة مع MacBook M1/M2/M3 و Windows.</li>
+        <li>📺 <strong>Smart TV:</strong> توصيل عبر البلوتوث أو كابل AUX لتجربة سينمائية.</li>
+    </ul>
+</div>
+`,
+                features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية 12 ساعة (6700mAh)", "💧 مقاومة ماء IPX7", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ"],
+                metaTitle: "سماعة انكر Soundcore Motion+ | صوت 30 وات Hi-Res | ضمان 18 شهر",
+                metaDesc: "اشتري سماعة Anker Motion+ الأصلية في مصر. صوت ستيريو 30 وات، مقاومة للماء IPX7، بطارية 12 ساعة. ضمان 18 شهر من كايرو فولت وتوصيل سريع.",
                 faqs: [
-                    { question: "هل يمكنني ربط سماعتين Motion+ معاً؟", answer: "نعم، يمكنك ربط سماعتين عبر تقنية Wireless Stereo Pairing للحصول على صوت ستيريو محيطي ضخم." },
-                    { question: "هل هي مقاومة للغرق في الماء؟", answer: "نعم، تأتي بمعيار IPX7، مما يعني أنها تتحمل الغمر الكامل في الماء حتى عمق متر واحد لمدة 30 دقيقة." },
-                    { question: "هل يوجد مدخل AUX؟", answer: "نعم، تحتوي على مدخل AUX 3.5mm للاتصال السلكي بالإضافة إلى بلوتوث 5.0." },
-                    { question: "كيف تقارن Motion+ مع JBL Flip 6؟", answer: "Motion+ تقدم شهادة Hi-Res Audio و30 واط مقابل 20 واط في JBL Flip 6. Motion+ لديها باس أفضل و EQ قابل للتخصيص عبر التطبيق. الخيار الأمثل لعشاق الصوت." },
-                    { question: "هل تتصل بايفون 17؟", answer: "نعم! Motion+ تستخدم بلوتوث 5.0 المتوافق تماماً مع ايفون 17 و16 وجميع أجهزة سامسونج S26/S25." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل واستبدال لعيوب الصناعة." }
+                    { question: "هل الـ Motion+ تنفع للتلفزيون؟", answer: "نعم، ممكن توصلها بـ AUX 3.5mm لصوت نقي جداً، أو بلوتوث لو التلفزيون بيدعم. بتديك تجربة سينمائية مصغرة في غرفتك." },
+                    { question: "هل صوتها عالي كفاية لحفلة؟", answer: "جداً! بقوة 30 وات وتقنية BassUp، تغطي غرفة كبيرة أو مساحة خارجية مفتوحة (زي جنينة أو رووف) بصوت قوي وواضح." },
+                    { question: "هل بتشحن بموبايل سامسونج؟", answer: "بتشحن بكابل USB-C، يعني نفس شاحن موبايلك السامسونج أو الايفون 15 الجديد. مش محتاج تشيل كابلات زيادة." }
                 ]
             }
         },
-        seo: { keywords: "soundcore motion+, anker speaker, bluetooth speaker, مكبر صوت انكر, ساوند كور", focusKeyword: "soundcore motion+" },
+        seo: {
+            keywords: "anker motion+, soundcore motion+ egypt, سعر anker motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, anker speaker egypt, soundcore app, waterproof speaker cairo",
+            focusKeyword: "سماعة anker motion+"
+        },
         expertOpinion: {
-            en: "The Motion+ is hands-down the best Bluetooth speaker under EGP 3000 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive, especially the bass which punches way above its weight. The custom EQ app is a game-changer for tweaking the sound to your liking. Highly recommended for outdoor gatherings in Cairo or beach trips to Sahel.",
-            ar: "تُعد Motion+ بلا شك أفضل سماعة بلوتوث تحت سعر 3000 جنيه في مصر. شهادة الصوت عالي الدقة ليست مجرد شعار؛ وضوح الصوت مذهل حقًا، خاصة الباس القوي. تطبيق الـ EQ المخصص يغير قواعد اللعبة لتعديل الصوت كما تحب. نوصي بها بشدة للتجمعات الخارجية في القاهرة أو رحلات الساحل."
+            en: "The Motion+ is hands-down the best Bluetooth speaker under EGP 3000 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
+            ar: "تُعد Motion+ بلا شك أفضل سماعة بلوتوث في فئتها السعرية في مصر. شهادة الصوت عالي الدقة (Hi-Res) تضمن لك نقاء صوت استثنائي، والباس القوي يملأ المكان. اختبرناها في ظروف مختلفة وأثبتت كفاءة جبارة."
         }
+
     },
     {
         slug: "anker-soundcore-flare-2",

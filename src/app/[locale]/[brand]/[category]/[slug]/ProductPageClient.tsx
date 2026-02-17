@@ -633,9 +633,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 {tProduct('details')}
                             </h2>
                             <div className="prose prose-lg dark:prose-invert max-w-none">
-                                <p className="text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line">
-                                    {productDesc}
-                                </p>
+                                <div dangerouslySetInnerHTML={{ __html: productDesc }} />
                             </div>
                         </section>
                     )}
@@ -698,7 +696,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         {isRTL ? `لماذا تختار ${productName}؟` : `Why Choose ${productName}?`}
                     </h2>
                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
-                        {productDesc || productShortDesc}
+                        {productShortDesc}
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {product.seo?.keywords?.split(',').slice(0, 6).map((keyword, idx) => (
