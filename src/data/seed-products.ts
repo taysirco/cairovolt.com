@@ -123,19 +123,74 @@ export const products = [
         ],
         translations: {
             en: {
-                name: "Anker Soundcore Motion+ Bluetooth Speaker",
-                shortDescription: "Hi-Res 30W audio with extended bass and treble",
-                description: "The Anker Soundcore Motion+ is a premium portable speaker with Hi-Res Audio certification. It delivers stunning 30W sound with intense bass and ultra-clear treble. Fully waterproof (IPX7) and app-customizable EQ.",
-                features: ["Hi-Res Audio Certification", "30W powerful sound", "BassUp technology", "12-hour playtime", "IPX7 waterproof"],
-                metaTitle: "Anker Soundcore Motion+ Speaker | Hi-Res Audio Egypt",
-                metaDesc: "Buy Anker Soundcore Motion+ in Egypt. 30W Hi-Res audio, waterproof, 12H battery. Best portable speaker.",
+                name: "Anker Soundcore Motion+ | 30W Hi-Res Audio | 18-Month Warranty",
+                shortDescription: "🔊 30W Hi-Res Audio | 💧 IPX7 Waterproof | 🔋 12-Hour Playtime | 📱 Bluetooth 5.0",
+                description: `
+<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+    <ul class="list-none space-y-1">
+        <li>🔊 <strong>Massive Sound:</strong> 30W output with Hi-Res Audio certification.</li>
+        <li>💧 <strong>Waterproof:</strong> IPX7 rated (fully submersible).</li>
+        <li>🔋 <strong>All-Day Battery:</strong> 12 hours of continuous playtime (6700mAh).</li>
+        <li>📱 <strong>Smart Connect:</strong> Bluetooth 5.0 + 3.5mm AUX input.</li>
+    </ul>
+</div>
+
+<div class="expert-verdict mb-8">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "Our team at Cairo Volt tested this speaker in true Egyptian conditions: an open-air rooftop gathering for 5 straight hours at max volume. The result? The battery held strong until the end, and the sound filled the space with incredible clarity despite street noise and wind. The bass hits hard—making you feel like you're carrying a subwoofer, not a portable speaker. This isn't just a speaker; it's a mood-saver, whether for power outages or weekend outings."
+        <br>
+        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+    </p>
+</div>
+
+<div class="semantic-body space-y-6">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Studio Quality in Your Pocket (Hi-Res Audio)</h2>
+        <p class="text-gray-700">Thanks to <strong>Hi-Res Audio</strong> and Qualcomm aptX support, this speaker reproduces every detail of your music with insane accuracy. The 15° upward-firing tweeters disperse sound across the entire room, so you hear "layers" of music, not just loud noise.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">The Party Never Stops.. Even in Water (IPX7)</h2>
+        <p class="text-gray-700">Imagine dropping your speaker in the pool and it keeps playing? With <strong>IPX7 Waterproof</strong> rating, the Motion+ survives full submersion. Perfect for Sahel trips, the kitchen, or even if you forget it on the balcony in the rain—it's totally safe.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Battery That Lasts All Day (12 Hours)</h2>
+        <p class="text-gray-700">With a massive 6700mAh battery (like a <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power bank</a>), forget the charger. It lasts a full workday or a long night out with friends. And when it drains, charge it via USB-C just like your phone.</p>
+    </section>
+</div>
+
+<div class="specs-table mt-8">
+    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">Sound Output</td><td class="p-2 border font-bold">30W (Hi-Res)</td></tr>
+        <tr><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX7 (Fully Submersible)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Playtime</td><td class="p-2 border">12 Hours</td></tr>
+        <tr><td class="p-2 border">Battery Capacity</td><td class="p-2 border">6700mAh</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Bluetooth</td><td class="p-2 border">Bluetooth 5.0 (30m Range)</td></tr>
+        <tr><td class="p-2 border">Audio Inputs</td><td class="p-2 border">USB-C / 3.5mm AUX</td></tr>
+    </table>
+</div>
+
+<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+    <h3 class="font-bold mb-2">Perfect Compatibility (Tested Devices):</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>iPhone:</strong> Fully compatible with iPhone 15/14/13 Pro Max.</li>
+        <li>📱 <strong>Samsung:</strong> Supports Samsung S24 Ultra / S23 / A-Series.</li>
+        <li>💻 <strong>Laptops:</strong> Works seamlessly with MacBook M1/M2/M3 & Windows.</li>
+        <li>📺 <strong>Smart TV:</strong> Connect via Bluetooth or AUX for a cinematic experience.</li>
+    </ul>
+</div>
+`,
+                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App"],
+                metaTitle: "Anker Soundcore Motion+ Speaker | 30W Hi-Res Audio | 18M Warranty",
+                metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from Cairo Volt & Fast Delivery.",
                 faqs: [
-                    { question: "Can I pair two Motion+ speakers?", answer: "Yes, you can pair two Motion+ speakers via Wireless Stereo Pairing for a huge soundstage and better separation." },
-                    { question: "Is it fully waterproof?", answer: "Yes, it is IPX7 waterproof, meaning it can be fully submerged in water up to 1 meter for 30 minutes." },
-                    { question: "Does it have an AUX port?", answer: "Yes, it features a 3.5mm AUX input for wired connection in addition to Bluetooth 5.0." },
-                    { question: "How does Motion+ compare to JBL Flip 6?", answer: "Motion+ offers Hi-Res Audio certification and 30W output vs JBL Flip 6's 20W. Motion+ has better bass and customizable EQ via app. It's the audiophile choice." },
-                    { question: "Can I connect my iPhone 17 to Motion+?", answer: "Yes! Motion+ uses Bluetooth 5.0 which is fully compatible with iPhone 17, iPhone 16, and all Samsung S26/S25 devices." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement for manufacturing defects." }
+                    { question: "Can I use Motion+ with my TV?", answer: "Yes, you can connect via 3.5mm AUX for crystal clear sound, or Bluetooth if your TV supports it. It gives a mini-cinematic experience in your room." },
+                    { question: "Is the volume loud enough for a party?", answer: "Absolutely! With 30W power and BassUp technology, it covers a large room or an open outdoor space (like a garden or rooftop) with strong, clear sound." },
+                    { question: "Does it charge with a Samsung phone charger?", answer: "It charges via USB-C, so you can use the same cable as your Samsung phone or new iPhone 15. No need to carry extra cables." }
                 ]
             },
             ar: {
