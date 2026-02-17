@@ -14,12 +14,13 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
     const data = getGenericCategory(categorySlug);
     if (!data) return {};
 
+    const cleanSlug = categorySlug.toLowerCase();
     const isArabic = locale === 'ar';
     const meta = data.metadata[isArabic ? 'ar' : 'en'];
 
     const canonicalUrl = isArabic
-        ? `https://cairovolt.com/${categorySlug}`
-        : `https://cairovolt.com/en/${categorySlug}`;
+        ? `https://cairovolt.com/${cleanSlug}`
+        : `https://cairovolt.com/en/${cleanSlug}`;
 
     return {
         title: meta.title,
@@ -28,9 +29,9 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         alternates: {
             canonical: canonicalUrl,
             languages: {
-                'ar': `https://cairovolt.com/${categorySlug}`,
-                'en': `https://cairovolt.com/en/${categorySlug}`,
-                'x-default': `https://cairovolt.com/${categorySlug}`,
+                'ar': `https://cairovolt.com/${cleanSlug}`,
+                'en': `https://cairovolt.com/en/${cleanSlug}`,
+                'x-default': `https://cairovolt.com/${cleanSlug}`,
             },
         },
         openGraph: {
@@ -79,6 +80,8 @@ export function GenericCategoryContent({
     const data = getGenericCategory(categorySlug);
     if (!data) return null;
 
+    const cleanSlug = categorySlug.toLowerCase();
+
     const isArabic = locale === 'ar';
     const content = data.content[isArabic ? 'ar' : 'en'];
     const faq = data.faq[isArabic ? 'ar' : 'en'];
@@ -117,7 +120,7 @@ export function GenericCategoryContent({
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: content.title, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}` },
+                    { name: content.title, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${cleanSlug}` },
                 ]}
                 locale={locale}
             />

@@ -10,8 +10,8 @@ import { getFirestore } from '@/lib/firebase-admin';
 
 const baseUrl = 'https://cairovolt.com';
 
-// Helper to capitalize brand (anker → Anker, joyroom → Joyroom)
-const capitalizeBrand = (brand: string) => brand.charAt(0).toUpperCase() + brand.slice(1);
+// Helper to ensure lowercase brands/categories for URLs (Strict SEO requirement)
+const toLower = (str: string) => str.toLowerCase();
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const routes: MetadataRoute.Sitemap = [
@@ -31,49 +31,39 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${baseUrl}/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: new Date() },
         { url: `${baseUrl}/en/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: new Date() },
 
-        // Policy Pages - Important for E-E-A-T
-        { url: `${baseUrl}/shipping`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/en/shipping`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/warranty`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/en/warranty`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
-        { url: `${baseUrl}/en/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
-        { url: `${baseUrl}/terms`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
-        { url: `${baseUrl}/en/terms`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date() },
-        { url: `${baseUrl}/return-policy`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/en/return-policy`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date() },
     ];
 
-    // Dynamic Brand Pages - Use proper casing (Anker, Joyroom)
+    // Dynamic Brand Pages - Strict Lowercase
     Object.keys(brandData).forEach(brandId => {
-        const properBrand = capitalizeBrand(brandId);
+        const brandSlug = toLower(brandId);
         routes.push({
-            url: `${baseUrl}/${properBrand}`,
+            url: `${baseUrl}/${brandSlug}`,
             priority: 0.9,
             changeFrequency: 'weekly',
             lastModified: new Date(),
         });
         routes.push({
-            url: `${baseUrl}/en/${properBrand}`,
+            url: `${baseUrl}/en/${brandSlug}`,
             priority: 0.9,
             changeFrequency: 'weekly',
             lastModified: new Date(),
         });
     });
 
-    // Dynamic Category Pages - Use proper casing
+    // Dynamic Category Pages - Strict Lowercase
     Object.keys(categoryData).forEach(brandId => {
-        const properBrand = capitalizeBrand(brandId);
+        const brandSlug = toLower(brandId);
         const brandCategories = categoryData[brandId];
         Object.keys(brandCategories).forEach(catSlug => {
+            const categorySlug = toLower(catSlug);
             routes.push({
-                url: `${baseUrl}/${properBrand}/${catSlug}`,
+                url: `${baseUrl}/${brandSlug}/${categorySlug}`,
                 priority: 0.8,
                 changeFrequency: 'weekly',
                 lastModified: new Date(),
             });
             routes.push({
-                url: `${baseUrl}/en/${properBrand}/${catSlug}`,
+                url: `${baseUrl}/en/${brandSlug}/${categorySlug}`,
                 priority: 0.8,
                 changeFrequency: 'weekly',
                 lastModified: new Date(),
@@ -81,19 +71,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         });
     });
 
-    // Dynamic Product Pages - Use proper casing (static + Firebase)
+    // Dynamic Product Pages - Strict Lowercase (static + Firebase)
     const staticSlugs = new Set(staticProducts.map(p => p.slug));
 
     staticProducts.forEach(product => {
-        const properBrand = capitalizeBrand(product.brand.toLowerCase());
+        const brandSlug = toLower(product.brand);
+        const categorySlug = toLower(product.categorySlug);
         routes.push({
-            url: `${baseUrl}/${properBrand}/${product.categorySlug}/${product.slug}`,
+            url: `${baseUrl}/${brandSlug}/${categorySlug}/${product.slug}`,
             priority: 0.9,
             changeFrequency: 'daily',
             lastModified: new Date(),
         });
         routes.push({
-            url: `${baseUrl}/en/${properBrand}/${product.categorySlug}/${product.slug}`,
+            url: `${baseUrl}/en/${brandSlug}/${categorySlug}/${product.slug}`,
             priority: 0.9,
             changeFrequency: 'daily',
             lastModified: new Date(),
@@ -108,15 +99,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             snapshot.docs.forEach(doc => {
                 const data = doc.data();
                 if (data.slug && data.brand && data.categorySlug && !staticSlugs.has(data.slug)) {
-                    const properBrand = capitalizeBrand(data.brand.toLowerCase());
+                    const brandSlug = toLower(data.brand);
+                    const categorySlug = toLower(data.categorySlug);
                     routes.push({
-                        url: `${baseUrl}/${properBrand}/${data.categorySlug}/${data.slug}`,
+                        url: `${baseUrl}/${brandSlug}/${categorySlug}/${data.slug}`,
                         priority: 0.9,
                         changeFrequency: 'daily',
                         lastModified: new Date(),
                     });
                     routes.push({
-                        url: `${baseUrl}/en/${properBrand}/${data.categorySlug}/${data.slug}`,
+                        url: `${baseUrl}/en/${brandSlug}/${categorySlug}/${data.slug}`,
                         priority: 0.9,
                         changeFrequency: 'daily',
                         lastModified: new Date(),

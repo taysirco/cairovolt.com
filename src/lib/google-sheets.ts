@@ -29,7 +29,9 @@ async function getAuth() {
             scopes: ['https://www.googleapis.com/auth/spreadsheets'],
         });
         cachedAuth = auth;
-        console.log('Google Sheets Auth initialized for:', GOOGLE_CLIENT_EMAIL);
+        if (process.env.NODE_ENV === 'development') {
+            console.log('Google Sheets Auth initialized for:', GOOGLE_CLIENT_EMAIL);
+        }
         return auth;
     } catch (error) {
         console.error('Google Auth Init Failed:', error);
@@ -69,7 +71,9 @@ export async function appendOrderToSheet(orderData: any) {
         }));
 
         await sheet.addRows(rows);
-        console.log('Order added to Google Sheet successfully. Rows:', rows.length);
+        if (process.env.NODE_ENV === 'development') {
+            console.log('Order added to Google Sheet successfully. Rows:', rows.length);
+        }
     } catch (error: any) {
         console.error('Error appending to Google Sheet:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
         // Reset cached auth on auth errors so it's rebuilt next time

@@ -46,6 +46,10 @@ interface Product {
         en?: { name?: string; description?: string; shortDescription?: string; features?: string[]; metaTitle?: string; metaDesc?: string; faqs?: Array<{ question: string; answer: string }>; };
         ar?: { name?: string; description?: string; shortDescription?: string; features?: string[]; metaTitle?: string; metaDesc?: string; faqs?: Array<{ question: string; answer: string }>; };
     };
+    expertOpinion?: {
+        en?: string;
+        ar?: string;
+    };
     seo?: { keywords?: string; focusKeyword?: string };
 }
 
@@ -135,25 +139,33 @@ export default function ProductPageClient({ product, relatedProducts = [], local
     const isRTL = locale === 'ar';
     const isOutOfStock = (product.stock || 0) <= 0;
 
+    // Breadcrumb Data - Strict Lowercase URLs
+    const brandLower = product.brand.toLowerCase();
+    const categoryLower = product.categorySlug.toLowerCase();
+
+    // Display names (Capitalized)
+    const brandDisplay = product.brand.charAt(0).toUpperCase() + product.brand.slice(1);
+    // categorySlug is reliable for linking, category param might be mixed case
+
     return (
-        <div className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isRTL ? 'rtl' : 'ltr'}>
+        <div className={`min-h-screen pb-20 ${locale === 'ar' ? 'rtl' : 'ltr'}`}>
             {/* Breadcrumb */}
-            <div className="bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
-                <div className="container mx-auto px-4 py-2 md:py-3">
-                    <nav className="text-xs md:text-sm text-gray-500 flex flex-wrap items-center gap-1 overflow-hidden">
-                        <Link href={getLocalizedHref('/')} className="hover:text-blue-600 transition-colors">
-                            {tCommon('home')}
+            <div className="bg-gray-50 dark:bg-gray-900/50 border-b border-gray-200 dark:border-gray-800">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+                    <nav className="flex items-center text-sm text-gray-500 dark:text-gray-400 overflow-x-auto whitespace-nowrap">
+                        <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors">
+                            {locale === 'ar' ? 'الرئيسية' : 'Home'}
                         </Link>
-                        <span className="mx-1">/</span>
-                        <Link href={getLocalizedHref(`/${brand}`)} className="hover:text-blue-600 transition-colors">
-                            {translatedBrand}
+                        <span className="mx-2 text-gray-300">/</span>
+                        <Link href={getLocalizedHref(`/${brandLower}`)} className="hover:text-blue-600 transition-colors">
+                            {brandDisplay}
                         </Link>
-                        <span className="mx-1">/</span>
-                        <Link href={getLocalizedHref(`/${brand}/${category}`)} className="hover:text-blue-600 transition-colors">
+                        <span className="mx-2 text-gray-300">/</span>
+                        <Link href={getLocalizedHref(`/${brandLower}/${categoryLower}`)} className="hover:text-blue-600 transition-colors">
                             {translatedCategory}
                         </Link>
-                        <span className="mx-1">/</span>
-                        <span className="text-gray-900 dark:text-white font-medium truncate max-w-[120px] md:max-w-[200px]">
+                        <span className="mx-2 text-gray-300">/</span>
+                        <span className="text-gray-900 dark:text-white font-medium truncate">
                             {productName}
                         </span>
                     </nav>
@@ -313,9 +325,14 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 }`}>
                                 {translatedBrand}
                             </span>
+                            {/* Availability Badge - Dynamic Brand */}
                             {(product.stock || 0) > 0 ? (
-                                <span className="px-4 py-1.5 text-sm font-medium bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300 rounded-full">
-                                    ✓ {tProduct('inStock')}
+                                <span className={`px-4 py-1.5 text-sm font-medium rounded-full flex items-center gap-2 ${product.brand.toLowerCase() === 'anker'
+                                    ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
+                                    : 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300'
+                                    }`}>
+                                    <span className="w-2 h-2 rounded-full bg-current animate-pulse" />
+                                    {product.brand} — {tProduct('inStock')}
                                 </span>
                             ) : (
                                 <span className="px-4 py-1.5 text-sm font-medium bg-gray-100 text-gray-500 rounded-full">
@@ -556,6 +573,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             brand={translatedBrand}
                             category={category}
                             locale={locale}
+                            customOpinion={product.expertOpinion?.[locale as 'ar' | 'en']}
                         />
 
                         {/* Smart Product FAQs (Prioritize Specific Layout) */}

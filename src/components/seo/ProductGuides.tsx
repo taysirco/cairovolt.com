@@ -242,66 +242,64 @@ interface ExpertOpinionProps {
     brand: string;
     category: string;
     locale: string;
+    customOpinion?: string;
 }
 
-export function ExpertOpinion({ productName, brand, category, locale }: ExpertOpinionProps) {
+export function ExpertOpinion({ productName, brand, category, locale, customOpinion }: ExpertOpinionProps) {
     const isArabic = locale === 'ar';
-
-    // Generate contextual recommendation based on product type
-    const getRecommendation = () => {
-        if (isArabic) {
-            if (category.includes('power-bank')) {
-                return `ننصح بـ ${productName} للمستخدمين الذين يحتاجون شحن موثوق أثناء التنقل. منتجات ${brand} تتميز بتقنيات حماية متقدمة تحافظ على بطارية هاتفك.`;
-            }
-            if (category.includes('charger')) {
-                return `هذا الشاحن مثالي لمن يريد شحن سريع وآمن. تقنية ${brand} تضمن عدم ارتفاع حرارة الجهاز أثناء الشحن.`;
-            }
-            if (category.includes('audio') || category.includes('earbuds')) {
-                return `للباحثين عن جودة صوت ممتازة بسعر معقول، ${productName} خيار متميز مع عزل للضوضاء وبطارية طويلة.`;
-            }
-            return `منتج ${brand} هذا يوفر أداء ممتاز وضمان رسمي. ننصح به للمستخدمين الباحثين عن الجودة والموثوقية.`;
-        } else {
-            if (category.includes('power-bank')) {
-                return `We recommend the ${productName} for users who need reliable charging on the go. ${brand} products feature advanced protection technologies that preserve your phone's battery health.`;
-            }
-            if (category.includes('charger')) {
-                return `This charger is ideal for those who want fast and safe charging. ${brand} technology ensures your device won't overheat during charging.`;
-            }
-            if (category.includes('audio') || category.includes('earbuds')) {
-                return `For those seeking excellent sound quality at a reasonable price, ${productName} is an outstanding choice with noise isolation and long battery life.`;
-            }
-            return `This ${brand} product delivers excellent performance with official warranty. We recommend it for users seeking quality and reliability.`;
-        }
-    };
-
-    const labels = isArabic ? {
-        title: 'رأي الخبراء',
-        expertName: 'فريق كايرو فولت',
-        expertTitle: 'خبراء الإكسسوارات والإلكترونيات',
+    const t = isArabic ? {
+        title: "رأي الخبراء",
+        badge: "مراجعة تقنية",
+        verified: "تمت مراجعته بواسطة كايرو فولت"
     } : {
-        title: 'Expert Opinion',
-        expertName: 'Cairo Volt Team',
-        expertTitle: 'Electronics & Accessories Experts',
+        title: "Expert Opinion",
+        badge: "Tech Review",
+        verified: "Reviewed by Cairo Volt"
     };
+
+    // STRICT CHECK: If no custom opinion is provided, DO NOT render anything.
+    // This eliminates "programmatic duplicate content" penalties.
+    if (!customOpinion) {
+        return null;
+    }
+
+    // Determine brand colors
+    const isAnker = brand.toLowerCase() === 'anker';
+    const brandColor = isAnker ? 'text-blue-600 bg-blue-50 dark:bg-blue-900/20' : 'text-orange-600 bg-orange-50 dark:bg-orange-900/20';
+    const borderColor = isAnker ? 'border-blue-100 dark:border-blue-900/30' : 'border-orange-100 dark:border-orange-900/30';
 
     return (
-        <div className="my-4 md:my-6 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-2xl p-4 md:p-6 border border-amber-200 dark:border-amber-800">
-            <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-500 rounded-full flex items-center justify-center text-white text-xl">
-                        <SvgIcon name="bulb" className="w-6 h-6" />
+        <div className={`mt-8 rounded-2xl border ${borderColor} overflow-hidden bg-white dark:bg-gray-800 shadow-sm`}>
+            <div className="flex flex-col md:flex-row">
+                <div className={`p-6 md:w-1/3 flex flex-col justify-center items-center text-center border-b md:border-b-0 md:border-r ${isArabic ? 'md:border-l md:border-r-0' : ''} border-gray-100 dark:border-gray-700 ${isAnker ? 'bg-blue-50/50 dark:bg-blue-900/10' : 'bg-orange-50/50 dark:bg-orange-900/10'}`}>
+                    <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-3 ${isAnker ? 'bg-blue-100 text-blue-600' : 'bg-orange-100 text-orange-600'}`}>
+                        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
                     </div>
+                    <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-1">{t.title}</h3>
+                    <span className={`text-xs font-medium px-2.5 py-0.5 rounded-full ${brandColor}`}>
+                        {t.badge}
+                    </span>
                 </div>
-                <div className="flex-grow">
-                    <h4 className="font-bold text-lg text-amber-800 dark:text-amber-300 mb-1">
-                        {labels.title}
-                    </h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                        {labels.expertName} • {labels.expertTitle}
-                    </p>
-                    <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                        {getRecommendation()}
-                    </p>
+
+                <div className="p-6 md:w-2/3">
+                    <div className="flex items-center gap-2 mb-4">
+                        <div className="w-6 h-6 rounded-full bg-gray-200 dark:bg-gray-700 overflow-hidden">
+                            <svg className="w-full h-full text-gray-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+                            {t.verified}
+                        </span>
+                    </div>
+
+                    <div className="prose dark:prose-invert max-w-none">
+                        <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed italic">
+                            "{customOpinion}"
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

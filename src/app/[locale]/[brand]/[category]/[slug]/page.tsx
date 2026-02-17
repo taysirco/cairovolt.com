@@ -111,12 +111,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         alternates: {
             canonical: isArabic
-                ? `https://cairovolt.com/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`
-                : `https://cairovolt.com/en/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
+                ? `https://cairovolt.com/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`
+                : `https://cairovolt.com/en/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
             languages: {
-                'ar': `https://cairovolt.com/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
-                'en': `https://cairovolt.com/en/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
-                'x-default': `https://cairovolt.com/${brand.charAt(0).toUpperCase() + brand.slice(1).toLowerCase()}/${category}/${slug}`,
+                'ar': `https://cairovolt.com/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
+                'en': `https://cairovolt.com/en/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
+                'x-default': `https://cairovolt.com/${brand.toLowerCase()}/${category.toLowerCase()}/${slug}`,
             }
         },
     };
@@ -134,8 +134,11 @@ export default async function ProductPage({ params }: Props) {
     const staticProduct = getProductBySlug(slug);
 
     // Use smart algorithm to get related products (always returns products)
+    // STRICT FILTER: Only show related products from the SAME BRAND to prevent cross-contamination
     const relatedProducts = staticProduct
-        ? getSmartRelatedProducts(staticProduct, 8).map(p => ({ id: `static_${p.slug}`, ...p } as Product))
+        ? getSmartRelatedProducts(staticProduct, 8)
+            .filter(p => p.brand.toLowerCase() === product.brand.toLowerCase())
+            .map(p => ({ id: `static_${p.slug}`, ...p } as Product))
         : [];
 
     const productName = product.translations?.[locale as 'ar' | 'en']?.name || product.translations?.en?.name || '';
@@ -210,13 +213,16 @@ export default async function ProductPage({ params }: Props) {
                 specifications={getProductSEO(slug)?.specifications}
             />
 
-            {/* BreadcrumbSchema for navigation */}
+            {/* BreadcrumbSchema for navigation - STRICTLY using Product Data, not URL Params */}
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: brand.charAt(0).toUpperCase() + brand.slice(1), url: `https://cairovolt.com${isArabic ? '' : '/en'}/${brand}` },
-                    { name: category.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()), url: `https://cairovolt.com${isArabic ? '' : '/en'}/${brand}/${category}` },
-                    { name: productName, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${brand}/${category}/${slug}` },
+                    { name: product.brand, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}` },
+                    {
+                        name: product.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
+                        url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}`
+                    },
+                    { name: productName, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}` },
                 ]}
                 locale={locale}
             />

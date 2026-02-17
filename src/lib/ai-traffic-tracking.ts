@@ -126,7 +126,10 @@ export function trackAIReferrer(): AITrafficData | null {
     }
 
     // Log for debugging (remove in production)
-    console.log('[AI Traffic]', trackingData);
+    // Track logic here
+    if (process.env.NODE_ENV === 'development') {
+        console.log('[AI Traffic]', trackingData);
+    }
 
     return trackingData;
 }

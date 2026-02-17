@@ -33,12 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         keywords: meta.keywords,
         alternates: {
             canonical: locale === 'ar'
-                ? `https://cairovolt.com/${properBrandSlug}`
-                : `https://cairovolt.com/en/${properBrandSlug}`,
+                ? `https://cairovolt.com/${brand.toLowerCase()}`
+                : `https://cairovolt.com/en/${brand.toLowerCase()}`,
             languages: {
-                'ar': `https://cairovolt.com/${properBrandSlug}`,
-                'en': `https://cairovolt.com/en/${properBrandSlug}`,
-                'x-default': `https://cairovolt.com/${properBrandSlug}`,
+                'ar': `https://cairovolt.com/${brand.toLowerCase()}`,
+                'en': `https://cairovolt.com/en/${brand.toLowerCase()}`,
+                'x-default': `https://cairovolt.com/${brand.toLowerCase()}`,
             },
         },
         openGraph: meta.openGraph ? { ...meta.openGraph, locale: locale === 'ar' ? 'ar_EG' : 'en_US' } : undefined,

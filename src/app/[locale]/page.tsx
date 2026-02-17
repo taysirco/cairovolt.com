@@ -3,6 +3,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { WebSiteSchema, CollectionPageSchema, SpeakableSchema } from '@/components/schemas/AEOSchemas';
+import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 type Props = {
@@ -104,6 +105,7 @@ export default function Home() {
     <>
       {/* SEO Schema Markup */}
       <WebSiteSchema locale={locale} />
+      <OrganizationSchema locale={locale} />
       <CollectionPageSchema
         locale={locale}
         collections={categories.map(cat => ({

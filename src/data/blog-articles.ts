@@ -164,7 +164,7 @@ export const blogArticles: BlogArticle[] = [
 
 <h3>1. Anker PowerCore 20000mAh — Best Seller</h3>
 <p><strong>Price:</strong> EGP 1,054 | <strong>Capacity:</strong> 20,000mAh | <strong>Weight:</strong> 350g</p>
-<p>The #1 choice for most Egyptians. Charges iPhone 17 Pro four full times with PowerIQ fast charging. Built with Grade-A battery cells (same used in electric vehicles).</p>
+<p>The #1 choice for most Egyptians. Charges iPhone 17 Pro four full times with PowerIQ fast charging. Built with Grade-A battery cells (same used in electric vehicles). <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">View Product Details</a></p>
 
 <h3>2. Anker Nano 10000mAh — Most Compact</h3>
 <p><strong>Price:</strong> EGP 1,358 | <strong>Capacity:</strong> 10,000mAh | <strong>Weight:</strong> 190g</p>
@@ -176,11 +176,11 @@ export const blogArticles: BlogArticle[] = [
 
 <h3>4. Joyroom 10000mAh — Best Budget</h3>
 <p><strong>Price:</strong> ~EGP 450 | <strong>Capacity:</strong> 10,000mAh</p>
-<p>Excellent choice for those seeking good quality at a budget price. Sleek design with 22.5W fast charging. 12-month warranty.</p>
+<p>Excellent choice for those seeking good quality at a budget price. Sleek design with 22.5W fast charging. 12-month warranty. <a href="/joyroom/power-banks/joyroom-10000mah-slim" class="text-blue-600 hover:underline">Check Price</a></p>
 
 <h3>5. Joyroom 20000mAh — Budget & Powerful</h3>
 <p><strong>Price:</strong> ~EGP 650 | <strong>Capacity:</strong> 20,000mAh</p>
-<p>Big capacity at a competitive price. Charges your phone 4 times with fast charging support. Smart choice for students.</p>
+<p>Big capacity at a competitive price. Charges your phone 4 times with fast charging support. Smart choice for students. <a href="/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">View Deal</a></p>
 
 <h2>Comparison Table: Best Power Banks in Egypt</h2>
 <table>
@@ -350,8 +350,8 @@ export const blogArticles: BlogArticle[] = [
     <h2> Category - by - Category Comparison </h2>
 
     <h3> 1. Power Banks </h3>
-    <p> <strong>Anker: </strong> PowerCore 20000mAh at EGP 1,054 — Grade-A cells, PowerIQ fast charging, 18-month warranty.</p>
-    <p><strong>Joyroom: </strong> 20000mAh at ~EGP 650 — 22.5W charging, sleek design, 12-month warranty.</p>
+    <p><strong>Anker:</strong> <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">PowerCore 20000mAh</a> at EGP 1,054 — Grade-A cells, PowerIQ fast charging, 18-month warranty.</p>
+    <p><strong>Joyroom:</strong> <a href="/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">20000mAh</a> at ~EGP 650 — 22.5W charging, sleek design, 12-month warranty.</p>
     <p><strong>Verdict: </strong> Anker clearly wins on quality if budget allows. Joyroom is excellent value for money.</p>
 
     <h3>2. Wall Chargers </h3>
@@ -366,7 +366,7 @@ export const blogArticles: BlogArticle[] = [
 
     <h3>4. Bluetooth Earbuds </h3>
     <p> <strong>Anker(Soundcore): </strong> Liberty 4 NC with active noise cancellation. Excellent sound quality.</p>
-    <p><strong>Joyroom: </strong> T03S Pro — AirPods-like earbuds at a budget price.</p>
+    <p><strong>Joyroom:</strong> <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">T03S Pro</a> — AirPods-like earbuds at a budget price.</p>
     <p><strong>Verdict: </strong> Soundcore wins by a large margin in sound quality and noise cancellation.</p>
 
     <h2>When to Choose Anker ? </h2>
@@ -429,11 +429,11 @@ export const blogArticles: BlogArticle[] = [
 
     <h3> 1. Anker Nano 30W — الأفضل عموماً </h3>
     <p> <strong>السعر: </strong> 549 جنيه | <strong>القوة:</strong> 30W | <strong>التقنية: </strong> GaN III</p>
-    <p>أصغر شاحن 30W في العالم.يعطي iPhone 17 أقصى سرعة شحن ممكنة(0 لـ 50 % في 25 دقيقة).أصغر من شاحن Apple 20W الأصلي! </p>
+    <p>أصغر شاحن 30W في العالم.يعطي iPhone 17 أقصى سرعة شحن ممكنة(0 لـ 50 % في 25 دقيقة).أصغر من شاحن Apple 20W الأصلي! <a href="/anker/chargers" class="text-blue-600 hover:underline">See Anker Chargers</a></p>
 
     <h3> 2. Anker 20W — الأرخص للايفون </h3>
     <p> <strong>السعر: </strong> 379 جنيه | <strong>القوة:</strong> 20W </p>
-    <p> كافي لـ iPhone 17 العادي لكن لن يعطيك أقصى سرعة.مثالي لو عايز توفر ومش مستعجل.</p>
+    <p> كافي لـ iPhone 17 العادي لكن لن يعطيك أقصى سرعة.مثالي لو عايز توفر ومش مستعجل. <a href="/anker/chargers/anker-powerport-20w" class="text-blue-600 hover:underline">Get Anker 20W</a></p>
 
     <h3> 3. Anker 65W GaN — شاحن واحد لكل أجهزتك </h3>
     <p> <strong>السعر: </strong> 999 جنيه | <strong>القوة:</strong> 65W | <strong>المنافذ: </strong> 2 USB-C + 1 USB-A</p>
@@ -491,7 +491,7 @@ export const blogArticles: BlogArticle[] = [
 
                                     <h3> 2. Anker 20W — Budget iPhone Charger </h3>
                                         <p> <strong>Price: </strong> EGP 379 | <strong>Power:</strong> 20W </p>
-                                            <p> Sufficient for standard iPhone 17 but won't give maximum speed. Great if you want to save and aren't in a rush.</p>
+                                            <p> Sufficient for standard iPhone 17 but won't give maximum speed. Great if you want to save and aren't in a rush. <a href="/anker/chargers/anker-powerport-20w" class="text-blue-600 hover:underline">Get Anker 20W</a></p>
 
                                                 <h3> 3. Anker 65W GaN — One Charger for Everything </h3>
                                                     <p> <strong>Price: </strong> EGP 999 | <strong>Power:</strong> 65W | <strong>Ports: </strong> 2 USB-C + 1 USB-A</p>
@@ -609,20 +609,20 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                     </ul>
                                                                                                                                                                                                                                                                     </div>
 `,
-faq: [
-    { question: 'كيف أعرف انكر الأصلي؟', answer: 'الطريقة الأسهل: امسح كود QR على العلبة في موقع anker.com/verify. لو ظهرت "Authentic" فهو أصلي. أو اشترِ من وكيل معتمد مثل Cairo Volt.' },
-    { question: 'هل انكر من أمازون مصر أصلي؟', answer: 'ليس بالضرورة. أمازون يسمح لبائعين مختلفين بالبيع. تأكد أن البائع هو "Anker Direct" أو وكيل معتمد. الأضمن الشراء من الوكيل مباشرة.' },
-    { question: 'ما خطورة استخدام شاحن انكر مقلد؟', answer: 'المقلد لا يحتوي على أنظمة أمان MultiProtect. قد يسبب: سخونة زائدة، تلف بطارية الموبايل، أو في أسوأ الحالات حريق. لا تخاطر.' },
-]
+                faq: [
+                    { question: 'كيف أعرف انكر الأصلي؟', answer: 'الطريقة الأسهل: امسح كود QR على العلبة في موقع anker.com/verify. لو ظهرت "Authentic" فهو أصلي. أو اشترِ من وكيل معتمد مثل Cairo Volt.' },
+                    { question: 'هل انكر من أمازون مصر أصلي؟', answer: 'ليس بالضرورة. أمازون يسمح لبائعين مختلفين بالبيع. تأكد أن البائع هو "Anker Direct" أو وكيل معتمد. الأضمن الشراء من الوكيل مباشرة.' },
+                    { question: 'ما خطورة استخدام شاحن انكر مقلد؟', answer: 'المقلد لا يحتوي على أنظمة أمان MultiProtect. قد يسبب: سخونة زائدة، تلف بطارية الموبايل، أو في أسوأ الحالات حريق. لا تخاطر.' },
+                ]
             },
-en: {
-    title: 'How to Identify Original Anker Products: 5 Guaranteed Methods',
-        metaTitle: 'How to Spot Fake Anker Products | 5 Guaranteed Methods 2026',
-            metaDescription: 'Learn how to tell the difference between original and fake Anker products. 5 easy ways to verify Anker chargers and power banks. Tips from authorized dealer.',
+            en: {
+                title: 'How to Identify Original Anker Products: 5 Guaranteed Methods',
+                metaTitle: 'How to Spot Fake Anker Products | 5 Guaranteed Methods 2026',
+                metaDescription: 'Learn how to tell the difference between original and fake Anker products. 5 easy ways to verify Anker chargers and power banks. Tips from authorized dealer.',
                 keywords: 'original anker, fake anker, how to verify anker, anker authentic, anker verification',
-                    excerpt: '5 easy and guaranteed methods to tell original Anker products from fakes.',
-                        quickAnswer: 'To verify Anker products: (1) Scan barcode in the official Anker app (2) Heavier weight means original (3) Genuine products have engraved, not printed logos. Buying from authorized dealers like Cairo Volt guarantees authenticity.',
-                            content: `
+                excerpt: '5 easy and guaranteed methods to tell original Anker products from fakes.',
+                quickAnswer: 'To verify Anker products: (1) Scan barcode in the official Anker app (2) Heavier weight means original (3) Genuine products have engraved, not printed logos. Buying from authorized dealers like Cairo Volt guarantees authenticity.',
+                content: `
                     <h2> Why Fake Anker Products Exist in Egypt</h2>
                 <p>Due to Anker's massive popularity, many counterfeit products have appeared in Egyptian markets, especially on platforms like OLX and Facebook Marketplace. Fakes can damage your phone battery or even pose safety risks.</p>
 
@@ -664,36 +664,36 @@ en: {
                                                                                 <li> Purchase the genuine replacement from an authorized dealer </li>
                                                                                     </ol>
                                                                                         `,
-                                faq: [
-                                    { question: 'How do I verify my Anker is original?', answer: 'Scan the QR code on the box at anker.com/verify. If it shows "Authentic", it\'s genuine. Or buy from authorized dealers like Cairo Volt.' },
-                                    { question: 'Is Anker from Amazon Egypt original?', answer: 'Not always. Amazon allows different sellers. Make sure the seller is "Anker Direct" or an authorized dealer.' },
-                                    { question: 'Is it dangerous to use a fake Anker charger?', answer: 'Yes. Fakes lack MultiProtect safety systems. They can cause: overheating, phone battery damage, or in worst cases, fire. Don\'t risk it.' },
-                                ]
-}
+                faq: [
+                    { question: 'How do I verify my Anker is original?', answer: 'Scan the QR code on the box at anker.com/verify. If it shows "Authentic", it\'s genuine. Or buy from authorized dealers like Cairo Volt.' },
+                    { question: 'Is Anker from Amazon Egypt original?', answer: 'Not always. Amazon allows different sellers. Make sure the seller is "Anker Direct" or an authorized dealer.' },
+                    { question: 'Is it dangerous to use a fake Anker charger?', answer: 'Yes. Fakes lack MultiProtect safety systems. They can cause: overheating, phone battery damage, or in worst cases, fire. Don\'t risk it.' },
+                ]
+            }
         }
     },
 
-// ============================================
-// 5. BEST BLUETOOTH EARBUDS EGYPT
-// Target: "سماعات بلوتوث", "سماعات جوي روم", "سماعات انكر"
-// ============================================
-{
-    slug: 'best-bluetooth-earbuds-egypt-2026',
+    // ============================================
+    // 5. BEST BLUETOOTH EARBUDS EGYPT
+    // Target: "سماعات بلوتوث", "سماعات جوي روم", "سماعات انكر"
+    // ============================================
+    {
+        slug: 'best-bluetooth-earbuds-egypt-2026',
         category: 'buying-guide',
-            publishDate: '2026-01-05',
-                modifiedDate: '2026-02-01',
-                    readingTime: 10,
-                        relatedProducts: [],
-                            relatedCategories: ['Anker/audio', 'Joyroom/earbuds'],
-                                translations: {
-        ar: {
-            title: 'أفضل سماعات بلوتوث في مصر 2026: Soundcore vs Joyroom',
+        publishDate: '2026-01-05',
+        modifiedDate: '2026-02-01',
+        readingTime: 10,
+        relatedProducts: [],
+        relatedCategories: ['Anker/audio', 'Joyroom/earbuds'],
+        translations: {
+            ar: {
+                title: 'أفضل سماعات بلوتوث في مصر 2026: Soundcore vs Joyroom',
                 metaTitle: 'أفضل سماعات بلوتوث في مصر 2026 | Soundcore vs Joyroom | مقارنة شاملة',
-                    metaDescription: 'مقارنة أفضل سماعات بلوتوث في مصر 2026. سماعات Soundcore من انكر vs سماعات جوي روم. أسعار وجودة صوت وعمر بطارية.',
-                        keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, سماعات جوي روم, سماعات انكر, soundcore, ايربودز جوي روم, افضل سماعات بلوتوث, سماعة جيروم',
-                            excerpt: 'مقارنة شاملة بين أفضل سماعات البلوتوث المتاحة في مصر مع أسعار محدثة.',
-                                quickAnswer: 'أفضل سماعات بلوتوث في مصر 2026: Joyroom T03s بسعر 499 جنيه (أفضل قيمة)، Soundcore P40i بسعر 1,650 جنيه (أفضل ANC)، Soundcore Liberty 4 بسعر 2,850 جنيه (الأفضل بدون منازع).',
-                                    content: `
+                metaDescription: 'مقارنة أفضل سماعات بلوتوث في مصر 2026. سماعات Soundcore من انكر vs سماعات جوي روم. أسعار وجودة صوت وعمر بطارية.',
+                keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, سماعات جوي روم, سماعات انكر, soundcore, ايربودز جوي روم, افضل سماعات بلوتوث, سماعة جيروم',
+                excerpt: 'مقارنة شاملة بين أفضل سماعات البلوتوث المتاحة في مصر مع أسعار محدثة.',
+                quickAnswer: 'أفضل سماعات بلوتوث في مصر 2026: Joyroom T03s بسعر 499 جنيه (أفضل قيمة)، Soundcore P40i بسعر 1,650 جنيه (أفضل ANC)، Soundcore Liberty 4 بسعر 2,850 جنيه (الأفضل بدون منازع).',
+                content: `
                                                                                     <h2> سوق سماعات البلوتوث في مصر 2026 </h2>
                                                                                         <div class="quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع" >
                                                                                             <p><strong>باختصار: </strong> أفضل سماعات بلوتوث في مصر 2026: Joyroom T03s (499 ج.م — أفضل قيمة)، Soundcore R50i (900 ج.م — أفضل صوت اقتصادي)، Soundcore Liberty 4 NC (2,500 ج.م — الأفضل عموماً مع ANC). كلها بضمان رسمي.</p>
@@ -713,10 +713,10 @@ en: {
                                                                                                                             <p> صوت ممتاز بسعر اقتصادي.بطارية 10 ساعات، مقاومة للماء IPX5.الأفضل لمن يبحث عن الجودة بأقل سعر من Anker.</p>
 
                                                                                                                                 <h3> 3. Joyroom T03S Pro — شبيهة AirPods </h3>
-                                                                                                                                    <p> تصميم مطابق تقريباً لـ AirPods مع جودة صوت جيدة جداً.السماعة الأكثر مبيعاً في مصر في فئتها السعرية.</p>
+                                                                                                                                    <p> تصميم مطابق تقريباً لـ AirPods مع جودة صوت جيدة جداً.السماعة الأكثر مبيعاً في مصر في فئتها السعرية. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">شاهد المواصفات</a></p>
 
                                                                                                                                         <h3> 4. Joyroom T03S — الأرخص </h3>
-                                                                                                                                            <p> خيار اقتصادي ممتاز للاستخدام اليومي.صوت مقبول جداً بسعر لا يُصدق.</p>
+                                                                                                                                            <p> خيار اقتصادي ممتاز للاستخدام اليومي.صوت مقبول جداً بسعر لا يُصدق. <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" class="text-blue-600 hover:underline">شاهد السعر</a></p>
 
                                                                                                                                                 <h2> جدول المقارنة </h2>
                                                                                                                                                     < table >
@@ -746,20 +746,20 @@ en: {
                                                                                                                                                                                                                 </ul>
                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                     `,
-                                        faq: [
-                                            { question: 'ما أفضل سماعة بلوتوث في مصر 2026؟', answer: 'Soundcore Liberty 4 NC للجودة العالية مع إلغاء ضوضاء. Joyroom T03S Pro لأفضل سعر.' },
-                                            { question: 'هل سماعات جوي روم أصلية؟', answer: 'نعم، Joyroom شركة معروفة عالمياً ومنتجاتها أصلية. تأكد من الشراء من وكيل معتمد للحصول على الضمان.' },
-                                            { question: 'هل Soundcore أفضل من JBL؟', answer: 'Soundcore من انكر تقدم جودة صوت منافسة لـ JBL بسعر أقل عادةً. Liberty 4 NC يتفوق على JBL في نفس الفئة السعرية.' },
-                                        ]
-        },
-        en: {
-            title: 'Best Bluetooth Earbuds in Egypt 2026: Soundcore vs Joyroom',
+                faq: [
+                    { question: 'ما أفضل سماعة بلوتوث في مصر 2026؟', answer: 'Soundcore Liberty 4 NC للجودة العالية مع إلغاء ضوضاء. Joyroom T03S Pro لأفضل سعر.' },
+                    { question: 'هل سماعات جوي روم أصلية؟', answer: 'نعم، Joyroom شركة معروفة عالمياً ومنتجاتها أصلية. تأكد من الشراء من وكيل معتمد للحصول على الضمان.' },
+                    { question: 'هل Soundcore أفضل من JBL؟', answer: 'Soundcore من انكر تقدم جودة صوت منافسة لـ JBL بسعر أقل عادةً. Liberty 4 NC يتفوق على JBL في نفس الفئة السعرية.' },
+                ]
+            },
+            en: {
+                title: 'Best Bluetooth Earbuds in Egypt 2026: Soundcore vs Joyroom',
                 metaTitle: 'Best Bluetooth Earbuds Egypt 2026 | Soundcore vs Joyroom | Complete Guide',
-                    metaDescription: 'Compare the best Bluetooth earbuds in Egypt 2026. Soundcore by Anker vs Joyroom earbuds. Sound quality, battery life, and prices compared.',
-                        keywords: 'bluetooth earbuds egypt, soundcore earbuds, joyroom earbuds, best earbuds egypt 2026, anker earbuds',
-                            excerpt: 'Complete comparison of the best Bluetooth earbuds available in Egypt with updated prices.',
-                                quickAnswer: 'Best Bluetooth earbuds in Egypt 2026: Joyroom T03s at EGP 499 (best value), Soundcore P40i at EGP 1,650 (best ANC), Soundcore Liberty 4 at EGP 2,850 (overall best). All with official warranty.',
-                                    content: `
+                metaDescription: 'Compare the best Bluetooth earbuds in Egypt 2026. Soundcore by Anker vs Joyroom earbuds. Sound quality, battery life, and prices compared.',
+                keywords: 'bluetooth earbuds egypt, soundcore earbuds, joyroom earbuds, best earbuds egypt 2026, anker earbuds',
+                excerpt: 'Complete comparison of the best Bluetooth earbuds available in Egypt with updated prices.',
+                quickAnswer: 'Best Bluetooth earbuds in Egypt 2026: Joyroom T03s at EGP 499 (best value), Soundcore P40i at EGP 1,650 (best ANC), Soundcore Liberty 4 at EGP 2,850 (overall best). All with official warranty.',
+                content: `
                                                                                                                                                                                                                 <h2> Bluetooth Earbuds Market in Egypt 2026 </h2>
                                                                                                                                                                                                                     <div class="quick-answer-inline" style = "background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="Quick Summary" >
                                                                                                                                                                                                                         <p><strong>In short: </strong> Best Bluetooth earbuds in Egypt 2026: Joyroom T03s (EGP 499 — best value), Soundcore R50i (EGP 900 — best budget sound), Soundcore Liberty 4 NC (EGP 2,500 — best overall with ANC). All with official warranty.</p>
@@ -778,10 +778,10 @@ en: {
                                                                                                                                                                                                                                                         <p> Excellent sound at a budget price. 10 - hour battery, IPX5 water resistance.</p>
 
                                                                                                                                                                                                                                                             <h3> 3. Joyroom T03S Pro — AirPods Lookalike </h3>
-                                                                                                                                                                                                                                                                <p> Near - identical AirPods design with very good sound quality.Best - selling in its price range in Egypt.</p>
+                                                                                                                                                                                                                                                                <p> Near - identical AirPods design with very good sound quality.Best - selling in its price range in Egypt. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">Check Price</a></p>
 
                                                                                                                                                                                                                                                                     <h3> 4. Joyroom T03S — Most Affordable </h3>
-                                                                                                                                                                                                                                                                        <p> Excellent budget option for daily use.Acceptable sound quality at an unbeatable price.Perfect entry - level wireless earbuds.</p>
+                                                                                                                                                                                                                                                                        <p> Excellent budget option for daily use.Acceptable sound quality at an unbeatable price.Perfect entry - level wireless earbuds. <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" class="text-blue-600 hover:underline">View Deal</a></p>
 
                                                                                                                                                                                                                                                                             <h2> Comparison Table </h2>
                                                                                                                                                                                                                                                                                 < table >
@@ -811,36 +811,36 @@ en: {
                                                                                                                                                                                                                                                                                                                                             </ul>
                                                                                                                                                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                                                                                                                                                 `,
-                                        faq: [
-                                            { question: 'What are the best Bluetooth earbuds in Egypt?', answer: 'Soundcore Liberty 4 NC for high quality with ANC. Joyroom T03S Pro for best price.' },
-                                            { question: 'Are Joyroom earbuds original?', answer: 'Yes, Joyroom is a well-known global company with genuine products. Buy from authorized dealers to get the warranty.' },
-                                            { question: 'Is Soundcore better than JBL?', answer: 'Soundcore by Anker offers comparable sound quality to JBL at a lower price. Liberty 4 NC outperforms JBL in the same price range.' },
-                                        ]
+                faq: [
+                    { question: 'What are the best Bluetooth earbuds in Egypt?', answer: 'Soundcore Liberty 4 NC for high quality with ANC. Joyroom T03S Pro for best price.' },
+                    { question: 'Are Joyroom earbuds original?', answer: 'Yes, Joyroom is a well-known global company with genuine products. Buy from authorized dealers to get the warranty.' },
+                    { question: 'Is Soundcore better than JBL?', answer: 'Soundcore by Anker offers comparable sound quality to JBL at a lower price. Liberty 4 NC outperforms JBL in the same price range.' },
+                ]
+            }
         }
-    }
-},
+    },
 
-// ============================================
-// 6. HOW TO CHARGE POWER BANK CORRECTLY
-// Target: "طريقة شحن باور بانك", "كيفية شحن باور بانك انكر"
-// ============================================
-{
-    slug: 'how-to-charge-power-bank-correctly',
+    // ============================================
+    // 6. HOW TO CHARGE POWER BANK CORRECTLY
+    // Target: "طريقة شحن باور بانك", "كيفية شحن باور بانك انكر"
+    // ============================================
+    {
+        slug: 'how-to-charge-power-bank-correctly',
         category: 'how-to',
-            publishDate: '2025-11-20',
-                modifiedDate: '2026-01-10',
-                    readingTime: 5,
-                        relatedProducts: ['anker-powercore-20000'],
-                            relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
-                                translations: {
-        ar: {
-            title: 'طريقة شحن باور بانك انكر بشكل صحيح: 7 نصائح للحفاظ على البطارية',
+        publishDate: '2025-11-20',
+        modifiedDate: '2026-01-10',
+        readingTime: 5,
+        relatedProducts: ['anker-powercore-20000'],
+        relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+        translations: {
+            ar: {
+                title: 'طريقة شحن باور بانك انكر بشكل صحيح: 7 نصائح للحفاظ على البطارية',
                 metaTitle: 'طريقة شحن باور بانك بشكل صحيح | 7 نصائح للحفاظ على العمر الافتراضي',
-                    metaDescription: 'تعلم الطريقة الصحيحة لشحن الباور بانك والحفاظ على عمره الافتراضي. نصائح من خبراء انكر لشحن أسرع وبطارية أطول.',
-                        keywords: 'طريقة شحن باور بانك, كيفية شحن باور بانك انكر, شحن باور بانك, نصائح باور بانك, عمر باور بانك, طريقة تشغيل باور بانك انكر',
-                            excerpt: '7 نصائح مهمة لشحن الباور بانك بالطريقة الصحيحة والحفاظ على عمره الأطول.',
-                                quickAnswer: 'لإطالة عمر الباور بانك: (1) اشحنه بشاحن أصلي 5V/2A (2) لا تستخدمه أثناء الشحن (3) خزّنه بشحنة 50% بعيداً عن الحرارة. الباور بانك الجيد يعيش +500 دورة شحن.',
-                                    content: `
+                metaDescription: 'تعلم الطريقة الصحيحة لشحن الباور بانك والحفاظ على عمره الافتراضي. نصائح من خبراء انكر لشحن أسرع وبطارية أطول.',
+                keywords: 'طريقة شحن باور بانك, كيفية شحن باور بانك انكر, شحن باور بانك, نصائح باور بانك, عمر باور بانك, طريقة تشغيل باور بانك انكر',
+                excerpt: '7 نصائح مهمة لشحن الباور بانك بالطريقة الصحيحة والحفاظ على عمره الأطول.',
+                quickAnswer: 'لإطالة عمر الباور بانك: (1) اشحنه بشاحن أصلي 5V/2A (2) لا تستخدمه أثناء الشحن (3) خزّنه بشحنة 50% بعيداً عن الحرارة. الباور بانك الجيد يعيش +500 دورة شحن.',
+                content: `
                                                                                                                                                                                                                                                                                                                                             <h2> هل طريقة الشحن تؤثر على عمر الباور بانك؟</h2>
                                                                                                                                                                                                                                                                                                                                                 <div class="quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع" >
                                                                                                                                                                                                                                                                                                                                                     <p><strong>باختصار: </strong> نعم، الشحن الخاطئ يقلل عمر الباور بانك 50%. القواعد الذهبية: (1) استخدم شاحن 18-25W (2) لا تفرغه كلياً (3) ابعده عن الحرارة (4) اشحنه كل 3 شهور لو مخزن.</p>
@@ -898,20 +898,20 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         `,
-                                        faq: [
-                                            { question: 'كم يستغرق شحن باور بانك 20000؟', answer: 'مع شاحن 18W: حوالي 6 ساعات. مع شاحن 25W: حوالي 4.5 ساعة. مع شاحن 5W القديم: 15 ساعة (لا يُنصح).' },
-                                            { question: 'هل يجب شحن الباور بانك الجديد 24 ساعة؟', answer: 'لا! هذا خرافة من بطاريات النيكل القديمة. بطاريات الليثيوم الحديثة تحتاج فقط شحنة كاملة واحدة لمعايرة المؤشر.' },
-                                            { question: 'هل استخدام الباور بانك أثناء شحنه يضره؟', answer: 'نعم. الـ Pass-through يسبب حرارة مضاعفة تقلل عمر البطارية. اشحنه أولاً ثم استخدمه.' },
-                                        ]
-        },
-        en: {
-            title: 'How to Charge a Power Bank Correctly: 7 Tips for Longer Battery Life',
+                faq: [
+                    { question: 'كم يستغرق شحن باور بانك 20000؟', answer: 'مع شاحن 18W: حوالي 6 ساعات. مع شاحن 25W: حوالي 4.5 ساعة. مع شاحن 5W القديم: 15 ساعة (لا يُنصح).' },
+                    { question: 'هل يجب شحن الباور بانك الجديد 24 ساعة؟', answer: 'لا! هذا خرافة من بطاريات النيكل القديمة. بطاريات الليثيوم الحديثة تحتاج فقط شحنة كاملة واحدة لمعايرة المؤشر.' },
+                    { question: 'هل استخدام الباور بانك أثناء شحنه يضره؟', answer: 'نعم. الـ Pass-through يسبب حرارة مضاعفة تقلل عمر البطارية. اشحنه أولاً ثم استخدمه.' },
+                ]
+            },
+            en: {
+                title: 'How to Charge a Power Bank Correctly: 7 Tips for Longer Battery Life',
                 metaTitle: 'How to Charge Power Bank Correctly | 7 Tips for Longer Life',
-                    metaDescription: 'Learn the correct way to charge your power bank and maintain its lifespan. Expert tips from Anker for faster charging and longer battery life.',
-                        keywords: 'how to charge power bank, power bank charging tips, anker power bank charging, power bank battery life',
-                            excerpt: '7 important tips for charging your power bank the right way for maximum lifespan.',
-                                quickAnswer: 'To extend power bank lifespan: (1) Use an original 5V/2A charger (2) Avoid using while charging (3) Store at 50% charge away from heat. A quality power bank lasts 500+ charge cycles.',
-                                    content: `
+                metaDescription: 'Learn the correct way to charge your power bank and maintain its lifespan. Expert tips from Anker for faster charging and longer battery life.',
+                keywords: 'how to charge power bank, power bank charging tips, anker power bank charging, power bank battery life',
+                excerpt: '7 important tips for charging your power bank the right way for maximum lifespan.',
+                quickAnswer: 'To extend power bank lifespan: (1) Use an original 5V/2A charger (2) Avoid using while charging (3) Store at 50% charge away from heat. A quality power bank lasts 500+ charge cycles.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <h2> Does Charging Method Affect Power Bank Lifespan ? </h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p> <strong>Yes! </strong> Wrong charging habits can reduce lifespan by 50% or more. Anker power banks are designed for 500+ charge cycles (~3-4 years), but bad habits can kill it in one year.</p>
 
@@ -962,36 +962,36 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <li>✗ Don't use cheap unbranded cables</li>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     `,
-                                        faq: [
-                                            { question: 'How long does it take to charge a 20000mAh power bank?', answer: 'With 18W charger: ~6 hours. With 25W: ~4.5 hours. With old 5W: 15 hours (not recommended).' },
-                                            { question: 'Should I charge my new power bank for 24 hours?', answer: 'No! That\'s a myth from old nickel batteries. Modern lithium batteries just need one full charge to calibrate.' },
-                                            { question: 'Is using the power bank while charging it harmful?', answer: 'Yes. Pass-through charging causes double heat which reduces battery lifespan. Charge first, then use.' },
-                                        ]
+                faq: [
+                    { question: 'How long does it take to charge a 20000mAh power bank?', answer: 'With 18W charger: ~6 hours. With 25W: ~4.5 hours. With old 5W: 15 hours (not recommended).' },
+                    { question: 'Should I charge my new power bank for 24 hours?', answer: 'No! That\'s a myth from old nickel batteries. Modern lithium batteries just need one full charge to calibrate.' },
+                    { question: 'Is using the power bank while charging it harmful?', answer: 'Yes. Pass-through charging causes double heat which reduces battery lifespan. Charge first, then use.' },
+                ]
+            }
         }
-    }
-},
+    },
 
-// ============================================
-// 7. BEST SAMSUNG S26 CHARGER
-// Target: "شاحن سامسونج S26", "افضل شاحن سامسونج"
-// ============================================
-{
-    slug: 'best-samsung-s26-charger',
+    // ============================================
+    // 7. BEST SAMSUNG S26 CHARGER
+    // Target: "شاحن سامسونج S26", "افضل شاحن سامسونج"
+    // ============================================
+    {
+        slug: 'best-samsung-s26-charger',
         category: 'buying-guide',
-            publishDate: '2026-01-15',
-                modifiedDate: '2026-02-01',
-                    readingTime: 7,
-                        relatedProducts: [],
-                            relatedCategories: ['Anker/wall-chargers'],
-                                translations: {
-        ar: {
-            title: 'أفضل شاحن لسامسونج S26 في مصر 2026: شحن سريع 45W',
+        publishDate: '2026-01-15',
+        modifiedDate: '2026-02-01',
+        readingTime: 7,
+        relatedProducts: [],
+        relatedCategories: ['Anker/wall-chargers'],
+        translations: {
+            ar: {
+                title: 'أفضل شاحن لسامسونج S26 في مصر 2026: شحن سريع 45W',
                 metaTitle: 'أفضل شاحن سامسونج S26 في مصر 2026 | شحن سريع 45W | PPS',
-                    metaDescription: 'اكتشف أفضل شاحن سامسونج Galaxy S26 و S26 Ultra في مصر. لماذا تقنية PPS ضرورية وكيف تحصل على Super Fast Charging 2.0.',
-                        keywords: 'شاحن سامسونج S26, شاحن سامسونج, شاحن سريع سامسونج, شاحن 45 واط, شاحن انكر سامسونج, super fast charging',
-                            excerpt: 'دليل اختيار أفضل شاحن سريع لسامسونج Galaxy S26 مع شرح تقنية PPS.',
-                                quickAnswer: 'أفضل شاحن لسامسونج S26 هو Anker 25W PPS بسعر 512 جنيه — يدعم تقنية Super Fast Charging ويشحن من 0% لـ 50% في 26 دقيقة. لازم الشاحن يدعم PPS وليس فقط USB-PD.',
-                                    content: `
+                metaDescription: 'اكتشف أفضل شاحن سامسونج Galaxy S26 و S26 Ultra في مصر. لماذا تقنية PPS ضرورية وكيف تحصل على Super Fast Charging 2.0.',
+                keywords: 'شاحن سامسونج S26, شاحن سامسونج, شاحن سريع سامسونج, شاحن 45 واط, شاحن انكر سامسونج, super fast charging',
+                excerpt: 'دليل اختيار أفضل شاحن سريع لسامسونج Galaxy S26 مع شرح تقنية PPS.',
+                quickAnswer: 'أفضل شاحن لسامسونج S26 هو Anker 25W PPS بسعر 512 جنيه — يدعم تقنية Super Fast Charging ويشحن من 0% لـ 50% في 26 دقيقة. لازم الشاحن يدعم PPS وليس فقط USB-PD.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <h2> لماذا سامسونج لا تضع شاحن في العلبة؟</h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <div class="quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p><strong>باختصار: </strong> أفضل شاحن لسامسونج S26: Anker 25W PPS (512 ج.م) يفتح Super Fast Charging ويشحن 0→50% في 26 دقيقة. لـ S26 Ultra: Anker 45W PPS (759 ج.م) يفتح Super Fast Charging 2.0 — نصف سعر شاحن سامسونج الأصلي.</p>
@@ -1035,20 +1035,20 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         `,
-                                        faq: [
-                                            { question: 'ما أفضل شاحن لسامسونج S26 Ultra؟', answer: 'Anker 45W PPS بـ 759 جنيه. يفتح Super Fast Charging 2.0 ويشحن من 0→50% في 20 دقيقة. نصف سعر شاحن سامسونج الأصلي.' },
-                                            { question: 'ما هو PPS ولماذا مهم؟', answer: 'PPS = Programmable Power Supply. بدونه، لن يعمل Super Fast Charging على سامسونج حتى لو الشاحن قوي. تأكد أن شاحنك يدعم PPS.' },
-                                            { question: 'هل شاحن ايفون يعمل مع سامسونج؟', answer: 'نعم فيزيائياً (USB-C)، لكن لن تحصل على Super Fast Charging بدون دعم PPS. شاحن 20W عادي سيشحن سامسونج ببطء.' },
-                                        ]
-        },
-        en: {
-            title: 'Best Samsung S26 Charger in Egypt 2026: 45W Super Fast Charging',
+                faq: [
+                    { question: 'ما أفضل شاحن لسامسونج S26 Ultra؟', answer: 'Anker 45W PPS بـ 759 جنيه. يفتح Super Fast Charging 2.0 ويشحن من 0→50% في 20 دقيقة. نصف سعر شاحن سامسونج الأصلي.' },
+                    { question: 'ما هو PPS ولماذا مهم؟', answer: 'PPS = Programmable Power Supply. بدونه، لن يعمل Super Fast Charging على سامسونج حتى لو الشاحن قوي. تأكد أن شاحنك يدعم PPS.' },
+                    { question: 'هل شاحن ايفون يعمل مع سامسونج؟', answer: 'نعم فيزيائياً (USB-C)، لكن لن تحصل على Super Fast Charging بدون دعم PPS. شاحن 20W عادي سيشحن سامسونج ببطء.' },
+                ]
+            },
+            en: {
+                title: 'Best Samsung S26 Charger in Egypt 2026: 45W Super Fast Charging',
                 metaTitle: 'Best Samsung S26 Charger Egypt 2026 | 45W PPS Super Fast Charging',
-                    metaDescription: 'Find the best charger for Samsung Galaxy S26 and S26 Ultra in Egypt. Why PPS technology is essential and how to get Super Fast Charging 2.0.',
-                        keywords: 'samsung s26 charger, best samsung charger egypt, anker samsung charger, 45w pps charger, super fast charging',
-                            excerpt: 'Guide to choosing the best fast charger for Samsung Galaxy S26 with PPS technology explained.',
-                                quickAnswer: 'The best Samsung S26 charger is the Anker 25W PPS at EGP 512, supporting Super Fast Charging from 0% to 50% in 26 minutes. The charger must support PPS protocol, not just USB-PD.',
-                                    content: `
+                metaDescription: 'Find the best charger for Samsung Galaxy S26 and S26 Ultra in Egypt. Why PPS technology is essential and how to get Super Fast Charging 2.0.',
+                keywords: 'samsung s26 charger, best samsung charger egypt, anker samsung charger, 45w pps charger, super fast charging',
+                excerpt: 'Guide to choosing the best fast charger for Samsung Galaxy S26 with PPS technology explained.',
+                quickAnswer: 'The best Samsung S26 charger is the Anker 25W PPS at EGP 512, supporting Super Fast Charging from 0% to 50% in 26 minutes. The charger must support PPS protocol, not just USB-PD.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <h2> Why Samsung Doesn't Include a Charger</h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <div class="quick-answer-inline" style = "background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="Quick Summary" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p><strong>In short: </strong> Best Samsung S26 charger: Anker 25W PPS (EGP 512) unlocks Super Fast Charging, 0→50% in 26 min. For S26 Ultra: Anker 45W PPS (EGP 759) unlocks Super Fast Charging 2.0 — half the price of Samsung's official charger.</p>
@@ -1094,35 +1094,35 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     `,
-                                        faq: [
-                                            { question: 'What is the best charger for Samsung S26 Ultra?', answer: 'Anker 45W PPS at EGP 759. Unlocks Super Fast Charging 2.0 with 0→50% in 20 minutes. Half the price of Samsung official.' },
-                                            { question: 'What is PPS and why does it matter?', answer: 'PPS = Programmable Power Supply. Without it, Super Fast Charging won\'t activate on Samsung even if the charger is powerful enough. Always check for PPS support.' },
-                                            { question: 'Will an iPhone charger work with Samsung?', answer: 'Physically yes (USB-C), but you won\'t get Super Fast Charging without PPS support. A regular 20W charger will charge Samsung slowly.' },
-                                        ]
+                faq: [
+                    { question: 'What is the best charger for Samsung S26 Ultra?', answer: 'Anker 45W PPS at EGP 759. Unlocks Super Fast Charging 2.0 with 0→50% in 20 minutes. Half the price of Samsung official.' },
+                    { question: 'What is PPS and why does it matter?', answer: 'PPS = Programmable Power Supply. Without it, Super Fast Charging won\'t activate on Samsung even if the charger is powerful enough. Always check for PPS support.' },
+                    { question: 'Will an iPhone charger work with Samsung?', answer: 'Physically yes (USB-C), but you won\'t get Super Fast Charging without PPS support. A regular 20W charger will charge Samsung slowly.' },
+                ]
+            }
         }
-    }
-},
-// ============================================
-// 7. ORIGINAL VS FAKE APPLE CHARGERS EGYPT
-// Target: "شاحن ابل اصلي ولا تقليد", "how to spot fake apple charger"
-// ============================================
-{
-    slug: 'original-vs-fake-apple-charger-egypt',
+    },
+    // ============================================
+    // 7. ORIGINAL VS FAKE APPLE CHARGERS EGYPT
+    // Target: "شاحن ابل اصلي ولا تقليد", "how to spot fake apple charger"
+    // ============================================
+    {
+        slug: 'original-vs-fake-apple-charger-egypt',
         category: 'how-to',
-            publishDate: '2026-02-10',
-                modifiedDate: '2026-02-14',
-                    readingTime: 8,
-                        relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-20w-usb-c-charger'],
-                            relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
-                                translations: {
-        ar: {
-            title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر 2026؟',
+        publishDate: '2026-02-10',
+        modifiedDate: '2026-02-14',
+        readingTime: 8,
+        relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-20w-usb-c-charger'],
+        relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
+        translations: {
+            ar: {
+                title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر 2026؟',
                 metaTitle: 'شاحن ابل اصلي ولا تقليد | 7 طرق للتفريق | دليل مصر 2026',
-                    metaDescription: 'اعرف إزاي تفرق بين شاحن ابل الأصلي والتقليد في مصر. 7 علامات واضحة للتمييز + أماكن الشراء الموثوقة + بدائل أصلية بسعر أقل.',
-                        keywords: 'شاحن ابل اصلي, شاحن ابل تقليد, الفرق بين شاحن ابل الاصلي والتقليد, شاحن ايفون اصلي, شاحن ايفون تقليد, شاحن ابل مصر, كيف تعرف شاحن ابل الاصلي',
-                            excerpt: 'دليل عملي بالصور لمعرفة الفرق بين شاحن أبل الأصلي والتقليد في مصر مع بدائل موثوقة.',
-                                quickAnswer: 'شاحن أبل التقليد يتميز بـ: وزن أخف 30%، حواف خشنة، وكتابة "Designed by Apple" باهتة. البديل الآمن: شاحن Anker 20W معتمد MFi بسعر 379 جنيه بضمان 18 شهر من كايرو فولت.',
-                                    content: `
+                metaDescription: 'اعرف إزاي تفرق بين شاحن ابل الأصلي والتقليد في مصر. 7 علامات واضحة للتمييز + أماكن الشراء الموثوقة + بدائل أصلية بسعر أقل.',
+                keywords: 'شاحن ابل اصلي, شاحن ابل تقليد, الفرق بين شاحن ابل الاصلي والتقليد, شاحن ايفون اصلي, شاحن ايفون تقليد, شاحن ابل مصر, كيف تعرف شاحن ابل الاصلي',
+                excerpt: 'دليل عملي بالصور لمعرفة الفرق بين شاحن أبل الأصلي والتقليد في مصر مع بدائل موثوقة.',
+                quickAnswer: 'شاحن أبل التقليد يتميز بـ: وزن أخف 30%، حواف خشنة، وكتابة "Designed by Apple" باهتة. البديل الآمن: شاحن Anker 20W معتمد MFi بسعر 379 جنيه بضمان 18 شهر من كايرو فولت.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <h2> ليه لازم تشتري شاحن أصلي لايفونك؟</h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <div class="quick-answer-inline" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="تحذير" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p><strong>❗ باختصار: </strong> 80% من الشواحن في الشوارع تقليد. طرق التمييز: الوزن (التقليد أخف 30%)، نص "Designed by Apple" (باهت)، الحرارة (زيادة). البديل الآمن: Anker 20W MFi (379 ج.م) بضمان 18 شهر.</p>
@@ -1178,21 +1178,21 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             `,
-                                        faq: [
-                                            { question: 'إزاي أعرف شاحن أبل الأصلي؟', answer: 'اتحقق من: الوزن (الأصلي أتقل)، نص "Designed by Apple" (واضح ودقيق)، منفذ USB-C من الداخل (نظيف)، وسرعة الشحن (0-50% في 30 دقيقة).' },
-                                            { question: 'هل الشاحن التقليد بيبوظ بطارية الايفون؟', answer: 'نعم، الشواحن التقليد ممكن تسبب: تدهور سريع في صحة البطارية، سخونة زيادة، وفي حالات نادرة انتفاخ البطارية أو حريق.' },
-                                            { question: 'كام سعر شاحن ابل الاصلي في مصر 2026؟', answer: 'شاحن أبل 20W الأصلي سعره حوالي 600-800 جنيه في مصر. بديل أصلي بنفس الجودة زي Anker 20W بسعر أقل مع ضمان أطول.' },
-                                            { question: 'هل شاحن Anker آمن للايفون؟', answer: 'نعم 100%. Anker هي العلامة الأولى عالمياً في الشحن ومعتمدة من Apple MFi. تستخدم نفس معايير الأمان مع حماية MultiProtect بـ 10 طبقات.' },
-                                        ]
-        },
-        en: {
-            title: 'How to Tell Original vs Fake Apple Charger in Egypt 2026',
+                faq: [
+                    { question: 'إزاي أعرف شاحن أبل الأصلي؟', answer: 'اتحقق من: الوزن (الأصلي أتقل)، نص "Designed by Apple" (واضح ودقيق)، منفذ USB-C من الداخل (نظيف)، وسرعة الشحن (0-50% في 30 دقيقة).' },
+                    { question: 'هل الشاحن التقليد بيبوظ بطارية الايفون؟', answer: 'نعم، الشواحن التقليد ممكن تسبب: تدهور سريع في صحة البطارية، سخونة زيادة، وفي حالات نادرة انتفاخ البطارية أو حريق.' },
+                    { question: 'كام سعر شاحن ابل الاصلي في مصر 2026؟', answer: 'شاحن أبل 20W الأصلي سعره حوالي 600-800 جنيه في مصر. بديل أصلي بنفس الجودة زي Anker 20W بسعر أقل مع ضمان أطول.' },
+                    { question: 'هل شاحن Anker آمن للايفون؟', answer: 'نعم 100%. Anker هي العلامة الأولى عالمياً في الشحن ومعتمدة من Apple MFi. تستخدم نفس معايير الأمان مع حماية MultiProtect بـ 10 طبقات.' },
+                ]
+            },
+            en: {
+                title: 'How to Tell Original vs Fake Apple Charger in Egypt 2026',
                 metaTitle: 'Original vs Fake Apple Charger | 7 Ways to Tell | Egypt Guide 2026',
-                    metaDescription: 'Learn how to identify original vs fake Apple chargers in Egypt. 7 clear signs + trusted buying sources + cheaper original alternatives.',
-                        keywords: 'original apple charger, fake apple charger, how to spot fake charger, iphone charger original vs fake, apple charger egypt, anker vs apple charger',
-                            excerpt: 'A practical guide with photos to identify original vs fake Apple chargers in Egypt with trusted alternatives.',
-                                quickAnswer: 'Fake Apple chargers are 30% lighter, have rough edges, and faded "Designed by Apple" text. The safe alternative: Anker 20W MFi-certified charger at EGP 379 with 18-month warranty from Cairo Volt.',
-                                    content: `
+                metaDescription: 'Learn how to identify original vs fake Apple chargers in Egypt. 7 clear signs + trusted buying sources + cheaper original alternatives.',
+                keywords: 'original apple charger, fake apple charger, how to spot fake charger, iphone charger original vs fake, apple charger egypt, anker vs apple charger',
+                excerpt: 'A practical guide with photos to identify original vs fake Apple chargers in Egypt with trusted alternatives.',
+                quickAnswer: 'Fake Apple chargers are 30% lighter, have rough edges, and faded "Designed by Apple" text. The safe alternative: Anker 20W MFi-certified charger at EGP 379 with 18-month warranty from Cairo Volt.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <h2> Why You Must Use an Original Charger for Your iPhone </h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <div class= "quick-answer-inline" style = "background:#fef2f2;border-left:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="Warning" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <p><strong>❗ In short: </strong> 80% of chargers from street vendors are fake. How to tell: weight (fakes are 30% lighter), "Designed by Apple" text (faded), excessive heat. Safe alternative: Anker 20W MFi (EGP 379) with 18-month warranty.</p>
@@ -1242,36 +1242,36 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         `,
-                                        faq: [
-                                            { question: 'How to identify an original Apple charger?', answer: 'Check: weight (original is heavier), "Designed by Apple" text (clear and precise), USB-C port interior (clean), and charging speed (0-50% in 30 minutes).' },
-                                            { question: 'Can a fake charger damage iPhone battery?', answer: 'Yes, fake chargers can cause: rapid battery health degradation, overheating, and in rare cases battery swelling or fire.' },
-                                            { question: 'How much is an original Apple charger in Egypt 2026?', answer: 'Apple\'s 20W original charger costs about 600-800 EGP in Egypt. An original alternative like Anker 20W costs less with a longer warranty.' },
-                                            { question: 'Is Anker charger safe for iPhone?', answer: 'Yes, 100%. Anker is the world\'s #1 charging brand and Apple MFi certified. Uses the same safety standards with 10-layer MultiProtect protection.' },
-                                        ]
+                faq: [
+                    { question: 'How to identify an original Apple charger?', answer: 'Check: weight (original is heavier), "Designed by Apple" text (clear and precise), USB-C port interior (clean), and charging speed (0-50% in 30 minutes).' },
+                    { question: 'Can a fake charger damage iPhone battery?', answer: 'Yes, fake chargers can cause: rapid battery health degradation, overheating, and in rare cases battery swelling or fire.' },
+                    { question: 'How much is an original Apple charger in Egypt 2026?', answer: 'Apple\'s 20W original charger costs about 600-800 EGP in Egypt. An original alternative like Anker 20W costs less with a longer warranty.' },
+                    { question: 'Is Anker charger safe for iPhone?', answer: 'Yes, 100%. Anker is the world\'s #1 charging brand and Apple MFi certified. Uses the same safety standards with 10-layer MultiProtect protection.' },
+                ]
+            }
         }
-    }
-},
-// ============================================
-// 8. BEST POWER BANK FOR ROUTER DURING OUTAGES
-// Target: "باور بانك للراوتر", "power bank for router egypt"
-// ============================================
-{
-    slug: 'best-power-bank-router-power-outage-egypt',
+    },
+    // ============================================
+    // 8. BEST POWER BANK FOR ROUTER DURING OUTAGES
+    // Target: "باور بانك للراوتر", "power bank for router egypt"
+    // ============================================
+    {
+        slug: 'best-power-bank-router-power-outage-egypt',
         category: 'buying-guide',
-            publishDate: '2026-02-12',
-                modifiedDate: '2026-02-14',
-                    readingTime: 10,
-                        relatedProducts: ['anker-521-powerhouse', 'anker-737-powerbank', 'anker-powercore-20000', 'joyroom-power-bank-20000'],
-                            relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
-                                translations: {
-        ar: {
-            title: 'أفضل باور بانك وكابل لتشغيل الراوتر أثناء انقطاع الكهرباء (أسعار وأنواع)',
+        publishDate: '2026-02-12',
+        modifiedDate: '2026-02-14',
+        readingTime: 10,
+        relatedProducts: ['anker-521-powerhouse', 'anker-737-powerbank', 'anker-powercore-20000', 'joyroom-power-bank-20000'],
+        relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+        translations: {
+            ar: {
+                title: 'أفضل باور بانك وكابل لتشغيل الراوتر أثناء انقطاع الكهرباء (أسعار وأنواع)',
                 metaTitle: 'باور بانك للراوتر وقت انقطاع الكهرباء | أفضل الحلول في مصر 2026',
-                    metaDescription: 'دليل شامل لتشغيل الراوتر أثناء انقطاع الكهرباء في مصر. أفضل باور بانك، UPS صغير، ومحطة طاقة محمولة مع الأسعار والمقارنة.',
-                        keywords: 'باور بانك للراوتر, تشغيل الراوتر وقت انقطاع الكهرباء, باور بانك راوتر, UPS راوتر, محطة طاقة محمولة, انقطاع كهرباء مصر, باور بانك 12 فولت',
-                            excerpt: 'حلول عملية لتشغيل الراوتر أثناء انقطاع الكهرباء في مصر مع أسعار محدثة.',
-                                quickAnswer: 'لتشغيل الراوتر أثناء قطع الكهرباء: (1) باور بانك Anker 20000mAh يشغّل الراوتر 6-8 ساعات (2) استخدم كابل DC 12V/9V (3) الحل المثالي: Anker PowerHouse 521 يشغّل الراوتر 24+ ساعة.',
-                                    content: `
+                metaDescription: 'دليل شامل لتشغيل الراوتر أثناء انقطاع الكهرباء في مصر. أفضل باور بانك، UPS صغير، ومحطة طاقة محمولة مع الأسعار والمقارنة.',
+                keywords: 'باور بانك للراوتر, تشغيل الراوتر وقت انقطاع الكهرباء, باور بانك راوتر, UPS راوتر, محطة طاقة محمولة, انقطاع كهرباء مصر, باور بانك 12 فولت',
+                excerpt: 'حلول عملية لتشغيل الراوتر أثناء انقطاع الكهرباء في مصر مع أسعار محدثة.',
+                quickAnswer: 'لتشغيل الراوتر أثناء قطع الكهرباء: (1) باور بانك Anker 20000mAh يشغّل الراوتر 6-8 ساعات (2) استخدم كابل DC 12V/9V (3) الحل المثالي: Anker PowerHouse 521 يشغّل الراوتر 24+ ساعة.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <h2> مشكلة انقطاع الكهرباء والإنترنت في مصر </h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <div class="quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p><strong>باختصار: </strong> لتشغيل الراوتر أثناء قطع الكهرباء: باور بانك 20,000mAh + كابل 12V DC (يشغّل 6-8 ساعات بـ ~800 ج.م). الحل الشامل: Anker PowerHouse 521 (يشغّل 15-20 ساعة بـ 5,999 ج.م).</p>
@@ -1333,21 +1333,21 @@ en: {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </ul>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             `,
-                                        faq: [
-                                            { question: 'هل أي باور بانك يشغل الراوتر؟', answer: 'لا. محتاج باور بانك يدعم خرج 12 فولت أو تستخدم كابل USB to 12V DC خاص. الباور بانك العادي (5V) لوحده مش هيشغل الراوتر.' },
-                                            { question: 'كام ساعة باور بانك 20000 يشغل الراوتر؟', answer: 'باور بانك 20,000mAh يشغل الراوتر العادي (12V/1A) حوالي 6-8 ساعات. الرقم الفعلي بيعتمد على نوع الراوتر واستهلاكه.' },
-                                            { question: 'إيه أحسن باور بانك للراوتر في مصر؟', answer: 'Joyroom 20000mAh (أفضل قيمة بـ 750 جنيه) أو Anker PowerCore 20000 (أفضل جودة بـ 1,299 جنيه). الاتنين بيشغلوا الراوتر 6-8 ساعات مع كابل 12V.' },
-                                            { question: 'هل محطة الطاقة Anker بتشغل الراوتر كام ساعة؟', answer: 'Anker 521 PowerHouse بسعة 256Wh بتشغل الراوتر (12W) حوالي 15-20 ساعة متواصلة. كمان بتشحن الموبايلات وتشغل مروحة صغيرة.' },
-                                        ]
-        },
-        en: {
-            title: 'Best Power Bank & Cable to Run Router During Power Outages (Prices & Types)',
+                faq: [
+                    { question: 'هل أي باور بانك يشغل الراوتر؟', answer: 'لا. محتاج باور بانك يدعم خرج 12 فولت أو تستخدم كابل USB to 12V DC خاص. الباور بانك العادي (5V) لوحده مش هيشغل الراوتر.' },
+                    { question: 'كام ساعة باور بانك 20000 يشغل الراوتر؟', answer: 'باور بانك 20,000mAh يشغل الراوتر العادي (12V/1A) حوالي 6-8 ساعات. الرقم الفعلي بيعتمد على نوع الراوتر واستهلاكه.' },
+                    { question: 'إيه أحسن باور بانك للراوتر في مصر؟', answer: 'Joyroom 20000mAh (أفضل قيمة بـ 750 جنيه) أو Anker PowerCore 20000 (أفضل جودة بـ 1,299 جنيه). الاتنين بيشغلوا الراوتر 6-8 ساعات مع كابل 12V.' },
+                    { question: 'هل محطة الطاقة Anker بتشغل الراوتر كام ساعة؟', answer: 'Anker 521 PowerHouse بسعة 256Wh بتشغل الراوتر (12W) حوالي 15-20 ساعة متواصلة. كمان بتشحن الموبايلات وتشغل مروحة صغيرة.' },
+                ]
+            },
+            en: {
+                title: 'Best Power Bank & Cable to Run Router During Power Outages (Prices & Types)',
                 metaTitle: 'Power Bank for Router During Outages | Best Solutions Egypt 2026',
-                    metaDescription: 'Complete guide to running your router during power outages in Egypt. Best power banks, mini UPS, and portable power stations with prices and comparison.',
-                        keywords: 'power bank for router, router power outage, mini ups router, portable power station egypt, power bank 12v router, internet outage solution, power bank router egypt',
-                            excerpt: 'Practical solutions to keep your router running during Egyptian power outages with updated prices.',
-                                quickAnswer: 'To keep your router running during power cuts: (1) Anker 20000mAh power bank runs a router for 6-8 hours (2) Use a DC 12V/9V cable (3) Best solution: Anker PowerHouse 521 runs a router 24+ hours.',
-                                    content: `
+                metaDescription: 'Complete guide to running your router during power outages in Egypt. Best power banks, mini UPS, and portable power stations with prices and comparison.',
+                keywords: 'power bank for router, router power outage, mini ups router, portable power station egypt, power bank 12v router, internet outage solution, power bank router egypt',
+                excerpt: 'Practical solutions to keep your router running during Egyptian power outages with updated prices.',
+                quickAnswer: 'To keep your router running during power cuts: (1) Anker 20000mAh power bank runs a router for 6-8 hours (2) Use a DC 12V/9V cable (3) Best solution: Anker PowerHouse 521 runs a router 24+ hours.',
+                content: `
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <h2> The Power Outage & Internet Problem in Egypt </h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <div class="quick-answer-inline" style = "background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="Quick Summary" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <p><strong>In short: </strong> To keep your router running during power cuts: power bank 20,000mAh + 12V DC cable (runs 6-8 hours for ~EGP 800). Best overall: Anker PowerHouse 521 (runs 15-20 hours for EGP 5,999).</p>
@@ -1387,35 +1387,35 @@ en: {
                                             </ul>
                                             </div>
                                                 `,
-                                        faq: [
-                                            { question: 'Can any power bank run a router?', answer: 'No. You need a power bank that supports 12V output or a special USB to 12V DC cable. A regular 5V power bank alone won\'t power a router.' },
-                                            { question: 'How long will a 20000mAh power bank run a router?', answer: '20,000mAh powers a standard router (12V/1A) for about 6-8 hours. Actual duration depends on your router model and consumption.' },
-                                            { question: 'Best power bank for router in Egypt?', answer: 'Joyroom 20000mAh (best value at 750 EGP) or Anker PowerCore 20000 (best quality at 1,299 EGP). Both run a router for 6-8 hours with a 12V cable.' },
-                                        ]
+                faq: [
+                    { question: 'Can any power bank run a router?', answer: 'No. You need a power bank that supports 12V output or a special USB to 12V DC cable. A regular 5V power bank alone won\'t power a router.' },
+                    { question: 'How long will a 20000mAh power bank run a router?', answer: '20,000mAh powers a standard router (12V/1A) for about 6-8 hours. Actual duration depends on your router model and consumption.' },
+                    { question: 'Best power bank for router in Egypt?', answer: 'Joyroom 20000mAh (best value at 750 EGP) or Anker PowerCore 20000 (best quality at 1,299 EGP). Both run a router for 6-8 hours with a 12V cable.' },
+                ]
+            }
         }
-    }
-},
-// ============================================
-// 9. DO FAKE CHARGERS DAMAGE IPHONE BATTERY
-// Target: "هل الشواحن التقليد تضر بطارية الايفون", "fake charger iphone battery"
-// ============================================
-{
-    slug: 'do-fake-chargers-damage-iphone-battery',
+    },
+    // ============================================
+    // 9. DO FAKE CHARGERS DAMAGE IPHONE BATTERY
+    // Target: "هل الشواحن التقليد تضر بطارية الايفون", "fake charger iphone battery"
+    // ============================================
+    {
+        slug: 'do-fake-chargers-damage-iphone-battery',
         category: 'tips',
-            publishDate: '2026-02-13',
-                modifiedDate: '2026-02-14',
-                    readingTime: 7,
-                        relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-usb-c-lightning-cable', 'joyroom-20w-usb-c-charger'],
-                            relatedCategories: ['Anker/wall-chargers', 'Anker/cables'],
-                                translations: {
-        ar: {
-            title: 'هل الشواحن التقليد بتضر بطارية الايفون فعلاً؟ الإجابة العلمية',
+        publishDate: '2026-02-13',
+        modifiedDate: '2026-02-14',
+        readingTime: 7,
+        relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-usb-c-lightning-cable', 'joyroom-20w-usb-c-charger'],
+        relatedCategories: ['Anker/wall-chargers', 'Anker/cables'],
+        translations: {
+            ar: {
+                title: 'هل الشواحن التقليد بتضر بطارية الايفون فعلاً؟ الإجابة العلمية',
                 metaTitle: 'هل الشواحن التقليد تضر بطارية الايفون؟ | الحقيقة العلمية 2026',
-                    metaDescription: 'اعرف الحقيقة العلمية: هل الشواحن التقليد بتدمر بطارية الايفون؟ شرح مفصل لتأثير الشحن السيء على Battery Health وإزاي تحمي موبايلك.',
-                        keywords: 'هل الشواحن التقليد تضر البطارية, شاحن تقليد ايفون, تأثير الشاحن التقليد على البطارية, battery health ايفون, حماية بطارية الايفون, شاحن اصلي vs تقليد',
-                            excerpt: 'الحقيقة العلمية الكاملة عن تأثير الشواحن التقليد على بطارية الايفون وإزاي تحمي موبايلك.',
-                                quickAnswer: 'نعم، الشواحن التقليد تضر بطارية الايفون. التيار غير المنتظم يسبب سخونة زيادة تقلل عمر البطارية 30-50%. الحل: استخدم شاحن معتمد MFi مثل Anker 20W (379 جنيه) لحماية جهازك.',
-                                    content: `
+                metaDescription: 'اعرف الحقيقة العلمية: هل الشواحن التقليد بتدمر بطارية الايفون؟ شرح مفصل لتأثير الشحن السيء على Battery Health وإزاي تحمي موبايلك.',
+                keywords: 'هل الشواحن التقليد تضر البطارية, شاحن تقليد ايفون, تأثير الشاحن التقليد على البطارية, battery health ايفون, حماية بطارية الايفون, شاحن اصلي vs تقليد',
+                excerpt: 'الحقيقة العلمية الكاملة عن تأثير الشواحن التقليد على بطارية الايفون وإزاي تحمي موبايلك.',
+                quickAnswer: 'نعم، الشواحن التقليد تضر بطارية الايفون. التيار غير المنتظم يسبب سخونة زيادة تقلل عمر البطارية 30-50%. الحل: استخدم شاحن معتمد MFi مثل Anker 20W (379 جنيه) لحماية جهازك.',
+                content: `
                                             <h2> الإجابة المختصرة: نعم، الشواحن التقليد ممكن تدمر بطارية الايفون </h2>
                                                 <div class="quick-answer-inline" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="تحذير مهم" >
                                                     <p><strong>❗ باختصار: </strong> نعم، الشواحن التقليد بتضر بطارية الايفون فعلاً — Battery Health بتنزل أسرع 2-3× من الطبيعي. الحل: شاحن Anker 20W (379 ج.م) أو Joyroom 20W (أقل من 200 ج.م).</p>
@@ -1467,21 +1467,21 @@ en: {
                                                                                                                                                                             </ul>
                                                                                                                                                                             </div>
                                                                                                                                                                                 `,
-                                        faq: [
-                                            { question: 'هل الشاحن التقليد بيبوظ بطارية الايفون فعلاً؟', answer: 'نعم. الشواحن التقليد بتسبب: تيار غير منتظم يجهد خلايا البطارية، سخونة زائدة تدمر الخلايا، وغياب حماية من الشحن الزائد. النتيجة: Battery Health بتنزل أسرع 2-3 مرات.' },
-                                            { question: 'إيه أرخص شاحن أصلي للايفون في مصر؟', answer: 'شاحن Joyroom 20W PD بأقل من 200 جنيه — أصلي 100% مع شحن سريع وحماية كاملة. البديل الأفضل: Anker 20W بضمان 18 شهر.' },
-                                            { question: 'إزاي أعرف إن الشاحن بيضر البطارية؟', answer: 'علامات التحذير: الموبايل بيسخن كتير أثناء الشحن، Battery Health بتنزل أسرع من 1% شهرياً، الشحن بياخد وقت أطول من المعتاد، أو البطارية بتخلص بسرعة.' },
-                                            { question: 'هل كابل الشحن التقليد بيضر كمان؟', answer: 'نعم. الكابل التقليد ممكن يسبب: تيار غير مستقر، سخونة في منفذ Lightning، وتلف في شريحة الشحن. استخدم كابل MFi معتمد أو كابل Joyroom/Anker الأصلي.' },
-                                        ]
-        },
-        en: {
-            title: 'Do Fake Chargers Actually Damage iPhone Battery? The Scientific Answer',
+                faq: [
+                    { question: 'هل الشاحن التقليد بيبوظ بطارية الايفون فعلاً؟', answer: 'نعم. الشواحن التقليد بتسبب: تيار غير منتظم يجهد خلايا البطارية، سخونة زائدة تدمر الخلايا، وغياب حماية من الشحن الزائد. النتيجة: Battery Health بتنزل أسرع 2-3 مرات.' },
+                    { question: 'إيه أرخص شاحن أصلي للايفون في مصر؟', answer: 'شاحن Joyroom 20W PD بأقل من 200 جنيه — أصلي 100% مع شحن سريع وحماية كاملة. البديل الأفضل: Anker 20W بضمان 18 شهر.' },
+                    { question: 'إزاي أعرف إن الشاحن بيضر البطارية؟', answer: 'علامات التحذير: الموبايل بيسخن كتير أثناء الشحن، Battery Health بتنزل أسرع من 1% شهرياً، الشحن بياخد وقت أطول من المعتاد، أو البطارية بتخلص بسرعة.' },
+                    { question: 'هل كابل الشحن التقليد بيضر كمان؟', answer: 'نعم. الكابل التقليد ممكن يسبب: تيار غير مستقر، سخونة في منفذ Lightning، وتلف في شريحة الشحن. استخدم كابل MFi معتمد أو كابل Joyroom/Anker الأصلي.' },
+                ]
+            },
+            en: {
+                title: 'Do Fake Chargers Actually Damage iPhone Battery? The Scientific Answer',
                 metaTitle: 'Do Fake Chargers Damage iPhone Battery? | Scientific Truth 2026',
-                    metaDescription: 'Learn the scientific truth: do fake chargers destroy iPhone battery? Detailed explanation of how bad charging affects Battery Health and how to protect your phone.',
-                        keywords: 'fake charger iphone battery, do fake chargers damage battery, battery health iphone, counterfeit charger damage, protect iphone battery, original vs fake charger',
-                            excerpt: 'The complete scientific truth about how fake chargers affect iPhone battery and how to protect your phone.',
-                                quickAnswer: 'Yes, fake chargers damage iPhone batteries. Irregular current causes overheating, reducing battery lifespan by 30-50%. Solution: use an MFi-certified charger like Anker 20W (EGP 379) to protect your device.',
-                                    content: `
+                metaDescription: 'Learn the scientific truth: do fake chargers destroy iPhone battery? Detailed explanation of how bad charging affects Battery Health and how to protect your phone.',
+                keywords: 'fake charger iphone battery, do fake chargers damage battery, battery health iphone, counterfeit charger damage, protect iphone battery, original vs fake charger',
+                excerpt: 'The complete scientific truth about how fake chargers affect iPhone battery and how to protect your phone.',
+                quickAnswer: 'Yes, fake chargers damage iPhone batteries. Irregular current causes overheating, reducing battery lifespan by 30-50%. Solution: use an MFi-certified charger like Anker 20W (EGP 379) to protect your device.',
+                content: `
                                                                                                                                                                             <h2> Short Answer: Yes, Fake Chargers Can Destroy iPhone Battery </h2>
                                                                                                                                                                                 <div class="quick-answer-inline" style = "background:#fef2f2;border-left:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="Important Warning" >
                                                                                                                                                                                     <p><strong>❗ In short: </strong> Yes, fake chargers do harm iPhone batteries. Battery Health drops 2-3x faster than normal. Solution: Use an Anker 20W (EGP 379) or Joyroom 20W (under EGP 200) certified charger.</p>
@@ -1521,14 +1521,14 @@ en: {
                                                                                                                                                                                                                                                                                 </ul>
                                                                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                                                                                     `,
-                                        faq: [
-                                            { question: 'Do fake chargers actually damage iPhone battery?', answer: 'Yes. Fake chargers cause: irregular current stressing battery cells, overheating that permanently damages cells, and no protection from overcharging. Result: Battery Health drops 2-3× faster.' },
-                                            { question: 'What is the cheapest original iPhone charger in Egypt?', answer: 'Joyroom 20W PD charger at under 200 EGP — 100% original with fast charging and full protection. Better alternative: Anker 20W with 18-month warranty.' },
-                                            { question: 'Do fake charging cables also damage battery?', answer: 'Yes. Fake cables can cause: unstable current, overheating at Lightning port, and charging chip damage. Use MFi certified or Joyroom/Anker original cables.' },
-                                        ]
+                faq: [
+                    { question: 'Do fake chargers actually damage iPhone battery?', answer: 'Yes. Fake chargers cause: irregular current stressing battery cells, overheating that permanently damages cells, and no protection from overcharging. Result: Battery Health drops 2-3× faster.' },
+                    { question: 'What is the cheapest original iPhone charger in Egypt?', answer: 'Joyroom 20W PD charger at under 200 EGP — 100% original with fast charging and full protection. Better alternative: Anker 20W with 18-month warranty.' },
+                    { question: 'Do fake charging cables also damage battery?', answer: 'Yes. Fake cables can cause: unstable current, overheating at Lightning port, and charging chip damage. Use MFi certified or Joyroom/Anker original cables.' },
+                ]
+            }
         }
-    }
-},
+    },
 ];
 
 // Helper: get all article slugs for sitemap/static params
