@@ -11,6 +11,7 @@ import { HowToSchema, ItemListSchema } from './schemas/AEOSchemas';
 import RelatedLinks from './seo/RelatedLinks';
 import { CollectionOverviewBlock } from './seo/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
+import { MarkdownRenderer } from './ui/MarkdownRenderer';
 
 const CategoryComparisonTable = dynamic(() => import('./seo/ProductGuides').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
@@ -532,14 +533,7 @@ export default function CategoryTemplate({
                     <article className="lg:col-span-8">
                         {/* SEO Description */}
                         <div className="prose prose-lg dark:prose-invert max-w-none mb-12">
-                            <div
-                                className="text-gray-600 dark:text-gray-400 leading-relaxed whitespace-pre-line"
-                                dangerouslySetInnerHTML={{
-                                    __html: content.description
-                                        .replace(/\*\*(.*?)\*\*/g, '<strong class="text-gray-900 dark:text-white">$1</strong>')
-                                        .replace(/- /g, '• ')
-                                }}
-                            />
+                            <MarkdownRenderer content={content.description} />
                         </div>
 
                         {/* Buying Guide (New) */}
@@ -556,14 +550,7 @@ export default function CategoryTemplate({
                                                 {section.title}
                                             </h3>
                                             <div className="prose prose-sm dark:prose-invert max-w-none">
-                                                <div
-                                                    dangerouslySetInnerHTML={{
-                                                        __html: section.content
-                                                            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                                                            .replace(/- /g, '<br/>• ')
-                                                            .replace(/\n\d+\./g, '<br/>$&')
-                                                    }}
-                                                />
+                                                <MarkdownRenderer content={section.content} />
                                             </div>
                                         </div>
                                     ))}

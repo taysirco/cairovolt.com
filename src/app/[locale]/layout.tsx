@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Cairo, Outfit } from "next/font/google";
 import "../globals.css"; // Corrected path
 import Script from 'next/script';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { OrganizationSchema } from '@/components/schemas/ProductSchema';
+import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
 import { LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
@@ -14,7 +14,18 @@ import LazyClientComponents from '@/components/LazyClientComponents';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-  display: "swap",
+});
+
+const cairo = Cairo({
+  subsets: ['arabic'],
+  variable: '--font-cairo',
+  display: 'swap',
+});
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  variable: '--font-outfit',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -85,7 +96,7 @@ export default async function RootLayout({
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
       </head>
       <body
-        className={`${geistSans.variable} antialiased bg-gray-50 text-gray-900`}
+        className={`${geistSans.variable} ${cairo.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
       >
         <OrganizationSchema locale={locale} />
         <LocalBusinessSchema locale={locale} />

@@ -65,9 +65,14 @@ function getRelatedLinksFromTopicalMap(currentUrl: string): RelatedLink[] {
     }
 
     // Remove duplicates and current page
+    // STRICT: Filter by brand if we can determine the current brand context
+    const currentBrand = normalizedUrl.includes('/anker') ? 'anker' :
+        normalizedUrl.includes('/joyroom') ? 'joyroom' : undefined;
+
     return relatedLinks.filter((link, index, self) =>
         !normalizedUrl.includes(link.url) &&
-        index === self.findIndex(l => l.url === link.url)
+        index === self.findIndex(l => l.url === link.url) &&
+        (!currentBrand || link.brand === currentBrand) // Strict Brand Filter
     );
 }
 
@@ -99,8 +104,8 @@ export default function RelatedLinks({
                             key={link.url}
                             href={getLocalizedHref(link.url)}
                             className={`group p-6 rounded-xl border transition-all hover:shadow-lg text-center ${link.brand === 'anker'
-                                    ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-100 dark:border-blue-800 hover:border-blue-300'
-                                    : 'bg-red-50 dark:bg-red-900/20 border-red-100 dark:border-red-800 hover:border-red-300'
+                                ? 'bg-blue-50 dark:bg-blue-900/20 border-blue-100 dark:border-blue-800 hover:border-blue-300'
+                                : 'bg-red-50 dark:bg-red-900/20 border-red-100 dark:border-red-800 hover:border-red-300'
                                 }`}
                         >
                             <span className={`text-sm font-medium ${link.brand === 'anker' ? 'text-blue-600' : 'text-red-600'
@@ -130,8 +135,8 @@ export default function RelatedLinks({
                             key={link.url}
                             href={getLocalizedHref(link.url)}
                             className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${link.brand === 'anker'
-                                    ? 'bg-blue-100 text-blue-700 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-300'
-                                    : 'bg-red-100 text-red-700 hover:bg-red-200 dark:bg-red-900/30 dark:text-red-300'
+                                ? 'bg-blue-100 text-blue-700 hover:bg-blue-200 dark:bg-blue-900/30 dark:text-blue-300'
+                                : 'bg-red-100 text-red-700 hover:bg-red-200 dark:bg-red-900/30 dark:text-red-300'
                                 }`}
                         >
                             {isArabic ? link.topicAr : link.topic}

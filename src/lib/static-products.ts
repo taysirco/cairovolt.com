@@ -103,10 +103,8 @@ export function getTopicallyRelatedProducts(
             score += 40;
         }
 
-        // Same brand bonus (topical relevance)
-        if (pBrand === brandSlug) {
-            score += 25;
-        }
+        // STRICT: Only allow products from the same brand
+        if (pBrand !== brandSlug) continue;
 
         // Check if product matches related entities (semantic matching)
         const productKeywords = p.translations.en.name.toLowerCase() + ' ' +
@@ -247,10 +245,8 @@ function findComplementaryProducts(
 
         let score = 0;
 
-        // Same brand gets a bonus (products from same brand work well together)
-        if (p.brand.toLowerCase() === product.brand.toLowerCase()) {
-            score += 20;
-        }
+        // STRICT: Only allow products from the same brand
+        if (p.brand.toLowerCase() !== product.brand.toLowerCase()) continue;
 
         // Complementary category gets high score
         const categoryIndex = complementarySlugList.indexOf(p.categorySlug);

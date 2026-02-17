@@ -8,6 +8,7 @@ import { BrandOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/entity-registry';
+import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 
 type Props = {
     params: Promise<{ locale: string; brand: string }>;
@@ -358,7 +359,7 @@ export default async function BrandHubPage({ params }: Props) {
                                         {section.heading}
                                     </h3>
                                     <div className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg bg-gray-50 dark:bg-gray-900/50 p-6 rounded-2xl border border-gray-100 dark:border-gray-800">
-                                        <div dangerouslySetInnerHTML={{ __html: section.content.replace(/\*\*(.*?)\*\*/g, '<strong class="text-black dark:text-white">$1</strong>') }} />
+                                        <MarkdownRenderer content={section.content} />
                                     </div>
                                 </div>
                             ))}

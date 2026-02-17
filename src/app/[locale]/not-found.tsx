@@ -25,18 +25,18 @@ export default function NotFound() {
                 <div className="flex flex-col sm:flex-row gap-3 justify-center mb-10">
                     <Link
                         href={getLocalizedHref('/')}
-                        className="px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors"
+                        className="px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
                     >
                         {isRTL ? 'الصفحة الرئيسية' : 'Go Home'}
                     </Link>
                     <Link
-                        href={getLocalizedHref('/Anker')}
+                        href={getLocalizedHref('/anker')}
                         className="px-6 py-3 bg-gray-100 text-gray-800 font-medium rounded-full hover:bg-gray-200 transition-colors"
                     >
                         {isRTL ? 'تسوق Anker' : 'Shop Anker'}
                     </Link>
                     <Link
-                        href={getLocalizedHref('/Joyroom')}
+                        href={getLocalizedHref('/joyroom')}
                         className="px-6 py-3 bg-gray-100 text-gray-800 font-medium rounded-full hover:bg-gray-200 transition-colors"
                     >
                         {isRTL ? 'تسوق Joyroom' : 'Shop Joyroom'}
@@ -49,10 +49,10 @@ export default function NotFound() {
                     </p>
                     <div className="flex flex-wrap justify-center gap-2">
                         {[
-                            { href: '/Anker/power-banks', ar: 'باور بانك', en: 'Power Banks' },
-                            { href: '/Anker/wall-chargers', ar: 'شواحن', en: 'Chargers' },
-                            { href: '/Joyroom/audio', ar: 'سماعات', en: 'Earbuds' },
-                            { href: '/Anker/cables', ar: 'كابلات', en: 'Cables' },
+                            { href: '/anker/power-banks', ar: 'باور بانك', en: 'Power Banks' },
+                            { href: '/anker/wall-chargers', ar: 'شواحن', en: 'Chargers' },
+                            { href: '/joyroom/audio', ar: 'سماعات', en: 'Earbuds' },
+                            { href: '/anker/cables', ar: 'كابلات', en: 'Cables' },
                         ].map(cat => (
                             <Link
                                 key={cat.href}
