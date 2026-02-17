@@ -2393,12 +2393,73 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل انكر USB-C to USB-C بقوة 60 واط",
-                shortDescription: "كابل انكر USB-C للشحن السريع 60 واط للهواتف والتابلت",
-                description: "كابل انكر PowerLine III USB-C to USB-C يدعم الشحن السريع بقوة 60 واط ومثالي لـ Samsung S26 و iPad Pro M5 وجميع أجهزة USB-C.",
-                features: ["يدعم الشحن السريع 60 واط", "يدعم شحن سامسونج S26 بـ 45 واط", "يتحمل أكثر من 35,000 ثني", "متوفر بطول 1 متر / 2 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل انكر USB-C to USB-C بقوة 60 واط | شحن سريع مصر",
-                metaDesc: "اشتري كابل انكر USB-C to USB-C في مصر. شحن سريع 60 واط، متين، أفضل سعر لسامسونج وهواتف USB-C.",
+                name: "كابل انكر USB-C to USB-C | 60 واط | ايفون 17 وسامسونج S26 | ضمان 18 شهر",
+                shortDescription: "⚡ 60 واط Power Delivery | 📱 ايفون 17 بأقصى سرعة (30واط) | 📱 سامسونج S26 سوبر فاست (45واط) | 💪 35,000+ ثني",
+                description: `
+<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+    <ul class="list-none space-y-1">
+        <li>⚡ <strong>60 واط PD:</strong> يتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط) وماك بوك اير.</li>
+        <li>📱 <strong>USB-C شامل:</strong> الكابل الواحد لعصر USB-C — هواتف، تابلت، لابتوب.</li>
+        <li>💪 <strong>35,000+ ثني:</strong> أمتن 3.5× من الكابلات العادية.</li>
+        <li>📊 <strong>نقل بيانات:</strong> USB 2.0 بسرعة 480 ميجابت/ثانية.</li>
+    </ul>
+</div>
+
+<div class="expert-verdict mb-8">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "نحن في فريق كايرو فولت عندنا 3 منه: واحد على المكتب، واحد في العربية، واحد في شنطة السفر. ليه؟ لإن في 2026، USB-C هو كل حاجة حرفياً — ايفون 17، سامسونج S26، ايباد، ماك بوك اير، Nintendo Switch، حتى باور بانك انكر. بـ 60 واط، بيتعامل مع أي جهاز نرميه عليه. بنثنيه ونلفّه ونحشره في الشنط من 6 شهور — صفر علامات تلف. بالسعر ده مع جودة انكر، شراء أي حاجة تانية إهدار فلوس."
+        <br>
+        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
+    </p>
+</div>
+
+<div class="semantic-body space-y-6">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">الكابل الوحيد اللي محتاجه في 2026</h2>
+        <p class="text-gray-700">ايفون 17؟ USB-C. سامسونج S26؟ USB-C. ايباد؟ USB-C. ماك بوك؟ USB-C. بـ<strong>60 واط Power Delivery</strong>، كابل انكر الواحد ده بيشحنهم كلهم بأقصى سرعة مدعومة. ايفون 17 بياخد 30 واط الكاملة، سامسونج S26 بياخد 45 واط Super Fast Charging، ويقدر يشحن ماك بوك اير. كابل واحد بيغنيك عن كل كابلاتك.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">مصنوع إنه يعيش أكثر من أي كابل امتلكته</h2>
+        <p class="text-gray-700">مختبر على <strong>35,000+ ثني</strong> — 3.5× عمر الكابلات العادية. الموصلات المختبرة مش هتتخلخل أو تفقد الاتصال بعد شهور من الاستخدام اليومي. سواء ملفوف في شنطة <a href="/anker/power-banks" class="text-blue-600 hover:underline">الباور بانك</a> أو ممدود بين المنضدة والمقبس، الكابل ده مصمم للعالم الحقيقي.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">استخدمه مع أي شاحن انكر لأقصى سرعة</h2>
+        <p class="text-gray-700">الكابل ده بيفتح الإمكانية الكاملة لـ<a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شاحن انكر</a>. استخدمه مع <strong>20 واط</strong> للايفون، <strong>25 واط PPS</strong> لسامسونج، أو <strong>45 واط GaN</strong> للابتوب. تصنيف 60 واط يضمن إن الكابل مش هيكون العائق أبداً — دايماً بيوصّل اللي الشاحن بيطلعه.</p>
+    </section>
+</div>
+
+<div class="specs-table mt-8">
+    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">أقصى قوة</td><td class="p-2 border font-bold">60 واط Power Delivery</td></tr>
+        <tr><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">أقصى 30 واط</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">حتى 45 واط Super Fast</td></tr>
+        <tr><td class="p-2 border">المتانة</td><td class="p-2 border">35,000+ ثني</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">نقل البيانات</td><td class="p-2 border">USB 2.0 (480ميجابت/ثانية)</td></tr>
+        <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر / 2 متر</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (Cairo Volt)</td></tr>
+    </table>
+</div>
+
+<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+    <h3 class="font-bold mb-2">بيشتغل مع كل حاجة USB-C:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>ايفون 17/16/15:</strong> أقصى شحن 30 واط.</li>
+        <li>📱 <strong>سامسونج S26/S25 الترا:</strong> حتى 45 واط Super Fast.</li>
+        <li>💻 <strong>ماك بوك اير:</strong> شحن بالسرعة الكاملة (45واط+).</li>
+        <li>📱 <strong>ايباد برو M4 / ايباد اير:</strong> شحن USB-C PD كامل.</li>
+        <li>🎮 <strong>Nintendo Switch / Steam Deck:</strong> اشحن والعب.</li>
+        <li>🔋 <strong>باور بانك انكر:</strong> اشحنه بأقصى سرعة.</li>
+    </ul>
+</div>
+`,
+                features: ["⚡ 60 واط Power Delivery", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 45 واط", "💻 متوافق ماك بوك اير", "💪 35,000+ ثني", "🏆 ضمان 18 شهر"],
+                metaTitle: "كابل انكر USB-C 60 واط | ايفون 17 وسامسونج S26 | مصر",
+                metaDesc: "اشتري كابل انكر PowerLine III USB-C في مصر. 60 واط لايفون 17 وسامسونج S26 وماك بوك. 35 ألف ثني. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "نعم، يدعم 60 واط فيتعامل مع 25 واط و 45 واط. تأكد من كابل 5 أمبير للسرعة القصوى." },
                     { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "نعم، يدعم USB 2.0 (480 ميجابت/ثانية)، مناسب للصور والملفات." },
