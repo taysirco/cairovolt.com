@@ -1100,13 +1100,13 @@ export const products = [
             { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير 2026", order: 2, isPrimary: false },
             { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt 2026 - Quick Charge 3.0", order: 3, isPrimary: false },
             { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Slim Power Bank 10000 - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أرخص من انكر 40% - ضمان رسمي مصر", order: 5, isPrimary: false }
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أفضل قيمة مقابل سعر - ضمان رسمي مصر", order: 5, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom 10000mAh Slim Power Bank - 2x iPhone 17 Charges",
-                shortDescription: "Ultra-slim 10000mAh power bank with Quick Charge 3.0 | Dual USB output | LED display | 40% cheaper than Anker",
-                description: "The Joyroom 10000mAh power bank charges iPhone 17 twice with Quick Charge 3.0 support. Ultra-slim design with dual USB output and LED display. Available in Egypt for EGP 1,624 with 12-month warranty and next-day Cairo delivery.\n\nWhy choose Joyroom 10000? It's 40% cheaper than Anker with the same 10000mAh capacity. Features Quick Charge 3.0 for 4x faster charging, dual USB output to charge phone + earbuds simultaneously, and LED display showing exact battery percentage. Perfect for daily use and travel with its ultra-slim 14mm profile.",
+                shortDescription: "Ultra-slim 10000mAh power bank with Quick Charge 3.0 | Dual USB output | LED display | Best value power bank",
+                description: "The Joyroom 10000mAh power bank charges iPhone 17 twice with Quick Charge 3.0 support. Ultra-slim design with dual USB output and LED display. Available in Egypt for EGP 1,624 with 12-month warranty and next-day Cairo delivery.\n\nWhy choose Joyroom 10000? It offers premium features at an unbeatable price with the same 10000mAh capacity. Features Quick Charge 3.0 for 4x faster charging, dual USB output to charge phone + earbuds simultaneously, and LED display showing exact battery percentage. Perfect for daily use and travel with its ultra-slim 14mm profile.",
                 features: [
                     "10000mAh Capacity → 2x iPhone 17 charges or 1.5x Samsung S26",
                     "Quick Charge 3.0 → 4x faster than standard chargers",
@@ -1117,12 +1117,12 @@ export const products = [
                     "12-month warranty → Full support in Egypt"
                 ],
                 metaTitle: "Joyroom 10000mAh Power Bank Egypt | EGP 1624 | 2x iPhone 17 Charges 2026",
-                metaDesc: "Buy original Joyroom 10000mAh power bank in Egypt. Charges iPhone 17 twice. ✓ 12-month warranty ✓ Next-day Cairo delivery ✓ 40% cheaper than Anker",
+                metaDesc: "Buy original Joyroom 10000mAh power bank in Egypt. Charges iPhone 17 twice. ✓ 12-month warranty ✓ Next-day Cairo delivery ✓ Best Value Choice",
                 faqs: [
                     { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at Cairo Volt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
                     { question: "How many times does Joyroom 10000 charge iPhone 17?", answer: "It charges iPhone 17 twice or Samsung S26 about 1.5 times. Perfect for a day trip or short travel." },
                     { question: "Does Joyroom 10000 support fast charging?", answer: "Yes, it supports Quick Charge 3.0 via USB-A ports. Charges your phone 4x faster than standard chargers." },
-                    { question: "What is the difference between Joyroom and Anker 10000?", answer: "Joyroom is 40% cheaper with same capacity. Anker offers faster USB-C PD charging. Joyroom is the excellent budget choice." },
+                    { question: "What makes Joyroom 10000 special?", answer: "Joyroom offers premium features like LED display and slim design at an unbeatable price. It is the excellent budget choice." },
                     { question: "Is Joyroom power bank original?", answer: "Yes, Cairo Volt products are 100% original with Golden Code verification and 12-month official warranty." },
                     { question: "Is Joyroom 10000 allowed on airplanes?", answer: "Yes! At 37Wh, it's well under the 100Wh TSA/IATA limit. You can carry it safely in hand luggage." },
                     { question: "Does it come with a charging cable?", answer: "Yes, includes a short Micro-USB cable to recharge the power bank. We recommend USB-C cable for your phone." },
@@ -1134,7 +1134,7 @@ export const products = [
             ar: {
                 name: "باور بانك جوي روم 10000 مللي أمبير - شحنتين ايفون 17",
                 shortDescription: "باور بانك جوي روم نحيف 10000 مللي أمبير | Quick Charge 3.0 | مخرجين USB | أرخص من انكر 40%",
-                description: "باور بانك جوي روم 10000 هو شاحن متنقل يوفر شحنتين كاملتين لـ iPhone 17 بتقنية Quick Charge 3.0. يتميز بتصميم نحيف ومخرجين USB وشاشة LED لعرض نسبة البطارية. متوفر في مصر بسعر 1,624 جنيه مع ضمان 12 شهر وتوصيل سريع.\n\nلماذا تختار جوي روم 10000؟ أرخص من انكر بـ 40% مع نفس السعة 10000 مللي أمبير. يدعم Quick Charge 3.0 للشحن أسرع 4 مرات، ومخرجين USB لشحن الهاتف والسماعة معاً، وشاشة LED تعرض نسبة البطارية بدقة. مثالي للاستخدام اليومي والسفر بتصميمه النحيف 14 مم.",
+                description: "باور بانك جوي روم 10000 هو شاحن متنقل يوفر شحنتين كاملتين لـ iPhone 17 بتقنية Quick Charge 3.0. يتميز بتصميم نحيف ومخرجين USB وشاشة LED لعرض نسبة البطارية. متوفر في مصر بسعر 1,624 جنيه مع ضمان 12 شهر وتوصيل سريع.\n\nلماذا تختار جوي روم 10000؟ يقدم قيمة ممتازة مقابل السعر مع نفس السعة 10000 مللي أمبير. يدعم Quick Charge 3.0 للشحن أسرع 4 مرات، ومخرجين USB لشحن الهاتف والسماعة معاً، وشاشة LED تعرض نسبة البطارية بدقة. مثالي للاستخدام اليومي والسفر بتصميمه النحيف 14 مم.",
                 features: [
                     "سعة 10000 مللي أمبير → شحنتين للايفون 17 أو 1.5 مرة للسامسونج S26",
                     "Quick Charge 3.0 → شحن أسرع 4 مرات من الشواحن العادية",
@@ -1145,12 +1145,12 @@ export const products = [
                     "ضمان 12 شهر → دعم كامل في مصر"
                 ],
                 metaTitle: "باور بانك جوي روم 10000 | سعر 1624 جنيه مصر 2026 | شحن سريع",
-                metaDesc: "اشتري باور بانك جوي روم 10000 مللي أمبير الأصلي في مصر. يشحن iPhone 17 مرتين. ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد ✓ أرخص من Anker بـ 40%",
+                metaDesc: "اشتري باور بانك جوي روم 10000 مللي أمبير الأصلي في مصر. يشحن iPhone 17 مرتين. ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد ✓ أفضل قيمة مقابل سعر",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من Cairo Volt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "كم مرة يشحن جوي روم 10000 الايفون 17؟", answer: "يشحن iPhone 17 مرتين كاملتين، أو Samsung S26 حوالي 1.5 مرة. مثالي لرحلة يومية أو سفر قصير." },
                     { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "نعم، يدعم Quick Charge 3.0 عبر منافذ USB-A. يشحن هاتفك أسرع 4 مرات من الشواحن العادية." },
-                    { question: "ما الفرق بين جوي روم وانكر 10000؟", answer: "جوي روم أرخص بـ 40% مع نفس السعة. انكر يوفر شحن USB-C PD أسرع. جوي روم خيار اقتصادي ممتاز." },
+                    { question: "لماذا هذا الباور بانك قيمة ممتازة؟", answer: "جوي روم يقدم سعة 10000 مللي أمبير الحقيقية بتصميم نحيف وشاشة رقمية بسعر منافس جداً. هو الخيار الاقتصادي الأذكي." },
                     { question: "هل باور بانك جوي روم أصلي؟", answer: "نعم، منتجات Cairo Volt أصلية 100% مع كود التحقق الذهبي (Golden Code) وضمان 12 شهر رسمي." },
                     { question: "هل باور بانك جوي روم 10000 مسموح في الطائرة؟", answer: "نعم! سعته 37 واط/ساعة أقل بكثير من حد TSA/IATA (100Wh). يمكنك حمله بأمان في حقيبة اليد." },
                     { question: "هل يأتي مع كابل شحن؟", answer: "نعم، يشمل كابل Micro-USB قصير لشحن الباور بانك نفسه. ننصح بكابل USB-C لشحن هاتفك." },
@@ -1165,8 +1165,8 @@ export const products = [
             focusKeyword: "باور بانك جوي روم 10000"
         },
         expertOpinion: {
-            en: "Joyroom proves you don't need to spend a fortune for quality. This 10,000mAh bank is slimmer than its competitors and the digital percentage display is a feature usually reserved for premium models. It's not as fast as Anker's top tier, but for the price, it's an absolute steal for daily use.",
-            ar: "تثبت Joyroom أنك لست بحاجة لإنفاق ثروة للحصول على الجودة. باور بانك 10000 مللي أمبير هذا أنحف من منافسيه، وشاشة النسبة المئوية الرقمية ميزة عادة ما تكون للموديلات الفاخرة. ليس سريعاً مثل فئة Anker العليا، ولكن بالنسبة للسعر، فهو صفقة رابحة للاستخدام اليومي."
+            en: "Joyroom proves you don't need to spend a fortune for quality. This 10,000mAh bank is slimmer than most competitors and the digital percentage display is a feature usually reserved for premium models. For the price, it's an absolute steal for daily use.",
+            ar: "تثبت Joyroom أنك لست بحاجة لإنفاق ثروة للحصول على الجودة. باور بانك 10000 مللي أمبير هذا أنحف من المنافسين، وشاشة النسبة المئوية الرقمية ميزة عادة ما تكون للموديلات الفاخرة. بالنسبة للسعر، فهو صفقة رابحة للاستخدام اليومي."
         }
     },
     {
@@ -1195,7 +1195,7 @@ export const products = [
             en: {
                 name: "Joyroom 20000mAh Power Bank with PD",
                 shortDescription: "High capacity 20000mAh power bank with 22.5W fast charging",
-                description: "The Joyroom 20000mAh power bank supports 22.5W fast charging for iPhone 17, Samsung S26, and 3 devices simultaneously.",
+                description: "High-capacity 20000mAh power bank. Charges 3 devices simultaneously. Unbeatable value with 22.5W output and digital display. Perfect for long trips.",
                 features: ["20000mAh (4x iPhone 17)", "22.5W fast charging", "PD and QC 3.0 support", "Triple output ports", "Digital LED display"],
                 metaTitle: "Joyroom 20000mAh Power Bank 22.5W | Fast Charging Egypt",
                 metaDesc: "Buy Joyroom 20000mAh power bank with 22.5W fast charging in Egypt. PD support, triple output, LED display. Best price.",
@@ -1204,7 +1204,7 @@ export const products = [
                     { question: "Does it display exact battery percentage?", answer: "Yes, the digital LED display shows the exact remaining battery percentage, so you never guess." },
                     { question: "Can I charge 3 devices?", answer: "Yes, it has 3 output ports (2 USB-A and 1 USB-C), allowing simultaneous charging for three devices." },
                     { question: "Does it fast charge iPhone 17?", answer: "Yes! The USB-C PD port delivers 20W for iPhone 17, charging 0-50% in about 30 minutes." },
-                    { question: "How does Joyroom compare to Anker 20000mAh?", answer: "Joyroom offers similar capacity at a lower price. Great value choice. Anker has longer warranty and premium build." },
+                    { question: "Is Joyroom 20000mAh good value?", answer: "Yes, Joyroom offers high capacity at a lower price point than premium brands. Great value choice." },
                     { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
                 ]
             },
@@ -1395,9 +1395,9 @@ export const products = [
                 faqs: [
                     { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
                     { question: "Is it safe for iPhone battery?", answer: "Yes, it intelligently adjusts power output to match your device's needs, preserving battery health over time." },
-                    { question: "Does it support Samsung Super Fast Charging?", answer: "It supports standard fast charging (15W-18W) for Samsung, but for Super Fast Charging (25W), check our Anker 25W model." },
+                    { question: "Does it support Samsung Super Fast Charging?", answer: "It supports standard fast charging (15W-18W) for Samsung devices. For Super Fast Charging (25W+), a higher wattage charger is required." },
                     { question: "Does it fast charge iPhone 17?", answer: "Yes, it provides 20W PD charging for iPhone 17, charging 0-50% in about 30 minutes." },
-                    { question: "How does it compare to Anker 20W?", answer: "Joyroom is more affordable with similar performance. Anker has longer warranty and slightly sleeker design." },
+                    { question: "Is this charger good for travel?", answer: "Yes! Its ultra-compact design fits in any pocket or bag easily. Perfect for travel." },
                     { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
                 ]
             },
@@ -1526,7 +1526,7 @@ export const products = [
                     { question: "Can I use one earbud alone?", answer: "Yes, Life P2i supports Single Earbud Mode, allowing you to use either the left or right earbud independently." },
                     { question: "What is the difference between Bass and Podcast modes?", answer: "Bass Mode enhances low frequencies for music, while Podcast Mode amplifies vocals for clear speech." },
                     { question: "Does it work with iPhone 17?", answer: "Yes! Bluetooth 5.2 is fully compatible with iPhone 17, iPhone 16, and all Samsung S26/S25 devices." },
-                    { question: "How does it compare to Joyroom T03S Pro?", answer: "Life P2i has better AI call quality and longer battery. Joyroom T03S Pro offers ANC at a lower price. Both are great value." },
+                    { question: "How does it compare to other budget earbuds?", answer: "Life P2i stands out with AI-enhanced call quality and significantly longer battery life than most competitors in this price range." },
                     { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement." }
                 ]
             },
@@ -1542,7 +1542,7 @@ export const products = [
                     { question: "هل يمكن استخدام سماعة واحدة؟", answer: "نعم، تدعم وضع السماعة الفردية لاستخدام اليمنى أو اليسرى مستقلة." },
                     { question: "ما الفرق بين وضع Bass و Podcast؟", answer: "Bass يعزز الصوت المنخفض للموسيقى، Podcast يضخم الأصوات للكلام." },
                     { question: "هل تعمل مع ايفون 17؟", answer: "نعم! Bluetooth 5.2 متوافق مع ايفون 17/16 وسامسونج S26/S25." },
-                    { question: "كيف تقارن مع Joyroom T03S Pro؟", answer: "Life P2i مكالمات أفضل وبطارية أطول. T03S Pro عزل ضوضاء بسعر أقل. كلاهما قيمة ممتازة." },
+                    { question: "كيف تقارن مع السماعات الاقتصادية الأخرى؟", answer: "تتميز Life P2i بجودة مكالمات محسنة بالذكاء الاصطناعي وعمر بطارية أطول بكثير من معظم المنافسين في هذه الفئة السعرية." },
                     { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل." }
                 ]
             }
