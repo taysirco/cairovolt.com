@@ -2310,12 +2310,73 @@ export const products = [
         ],
         translations: {
             en: {
-                name: "Anker PowerLine III USB-C to USB-C Cable",
-                shortDescription: "60W fast charging USB-C cable for phones and tablets",
-                description: "The Anker PowerLine III USB-C to USB-C cable supports 60W fast charging and is ideal for Samsung S26, iPad Pro M5, and all USB-C devices.",
-                features: ["60W fast charging support", "Supports Samsung S26 45W charging", "35,000+ bend lifespan", "1m / 2m length options", "18-month warranty"],
-                metaTitle: "Anker USB-C to USB-C Cable 60W | Fast Charging Egypt",
-                metaDesc: "Buy Anker USB-C to USB-C cable in Egypt. 60W fast charging, durable, best price for Samsung and USB-C phones.",
+                name: "Anker PowerLine III USB-C to USB-C | 60W | iPhone 17 & Samsung S26 | 18-Month Warranty",
+                shortDescription: "⚡ 60W Power Delivery | 📱 iPhone 17 Max Speed (30W) | 📱 Samsung S26 Super Fast (45W) | 💪 35,000+ Bends | 💻 MacBook Air Compatible",
+                description: `
+<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+    <ul class="list-none space-y-1">
+        <li>⚡ <strong>60W PD:</strong> Handles iPhone 17 (30W), Samsung S26 (45W), and MacBook Air charging.</li>
+        <li>📱 <strong>Universal USB-C:</strong> The one cable for the USB-C era — phones, tablets, laptops.</li>
+        <li>💪 <strong>35,000+ Bends:</strong> 3.5x more durable than standard cables.</li>
+        <li>📊 <strong>USB 2.0 Data:</strong> 480Mbps for photos and file transfers.</li>
+    </ul>
+</div>
+
+<div class="expert-verdict mb-8">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "This is the cable we keep 3 of: one at the desk, one in the car, one in the travel bag. Why? Because in 2026, USB-C is literally everything — iPhone 17, Samsung S26, iPad, MacBook Air, Nintendo Switch, even our Anker power banks. At 60W, it handles any device we throw at it. We've been bending, coiling, and stuffing this cable into bags for 6 months — zero signs of wear at the connectors. At this price point with Anker's build quality, buying anything else is a waste of money."
+        <br>
+        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+    </p>
+</div>
+
+<div class="semantic-body space-y-6">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">The Only Cable You Need in 2026</h2>
+        <p class="text-gray-700">iPhone 17? USB-C. Samsung S26? USB-C. iPad? USB-C. MacBook? USB-C. With <strong>60W Power Delivery</strong>, this single Anker cable charges them all at their maximum supported speed. iPhone 17 gets its full 30W, Samsung S26 gets 45W Super Fast Charging, and it can even charge a MacBook Air. One cable replaces your entire collection.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built to Outlast Every Cable You've Owned</h2>
+        <p class="text-gray-700">Tested to <strong>35,000+ bends</strong> — 3.5x the lifespan of standard cables. The stress-tested connectors won't wobble or lose contact after months of daily use. Whether it lives coiled in your <a href="/anker/power-banks" class="text-blue-600 hover:underline">power bank bag</a> or stretched between your nightstand and outlet, this cable is engineered for the real world.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Pair with Any Anker Charger for Maximum Speed</h2>
+        <p class="text-gray-700">This cable unlocks the full potential of your <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker charger</a>. Pair with the <strong>20W</strong> for iPhone, <strong>25W PPS</strong> for Samsung, or <strong>45W GaN</strong> for laptops. The 60W rating ensures you'll never be the bottleneck — the cable always delivers what the charger puts out.</p>
+    </section>
+</div>
+
+<div class="specs-table mt-8">
+    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">Max Power</td><td class="p-2 border font-bold">60W Power Delivery</td></tr>
+        <tr><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">Max 30W</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">Up to 45W Super Fast</td></tr>
+        <tr><td class="p-2 border">Durability</td><td class="p-2 border">35,000+ bend lifespan</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Data Transfer</td><td class="p-2 border">USB 2.0 (480Mbps)</td></tr>
+        <tr><td class="p-2 border">Length</td><td class="p-2 border">1m (3ft) / 2m (6ft)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (Cairo Volt)</td></tr>
+    </table>
+</div>
+
+<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+    <h3 class="font-bold mb-2">Works With Everything USB-C:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>iPhone 17/16/15:</strong> Max 30W fast charging.</li>
+        <li>📱 <strong>Samsung S26/S25 Ultra:</strong> Up to 45W Super Fast Charging.</li>
+        <li>💻 <strong>MacBook Air:</strong> Full speed charging (45W+).</li>
+        <li>📱 <strong>iPad Pro M4 / iPad Air:</strong> Full USB-C PD speed.</li>
+        <li>🎮 <strong>Nintendo Switch / Steam Deck:</strong> Charge while playing.</li>
+        <li>🔋 <strong>Anker Power Banks:</strong> Recharge at maximum speed.</li>
+    </ul>
+</div>
+`,
+                features: ["⚡ 60W Power Delivery", "📱 iPhone 17 Max 30W", "📱 Samsung S26 Super Fast 45W", "💻 MacBook Air Compatible", "💪 35,000+ Bend Lifespan", "🏆 18-Month Warranty"],
+                metaTitle: "Anker USB-C to USB-C Cable 60W | iPhone 17 & Samsung S26 | Egypt",
+                metaDesc: "Buy Anker PowerLine III USB-C cable in Egypt. 60W PD for iPhone 17, Samsung S26, MacBook Air. 35K+ bends. 18-month warranty. Best price Cairo delivery.",
                 faqs: [
                     {
                         question: "Does it support 45W Samsung charging?",
