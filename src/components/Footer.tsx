@@ -86,32 +86,32 @@ export default function Footer() {
                         </h4>
                         <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
                             <li>
-                                <Link href={getLocalizedHref('/Anker')} className="hover:text-blue-600 transition-colors font-medium">
+                                <Link href={getLocalizedHref('/anker')} className="hover:text-blue-600 transition-colors font-medium">
                                     {isRTL ? 'جميع منتجات Anker' : 'All Anker Products'}
                                 </Link>
                             </li>
                             <li>
-                                <Link href={getLocalizedHref('/Anker/power-banks')} className="hover:text-blue-600 transition-colors">
+                                <Link href={getLocalizedHref('/anker/power-banks')} className="hover:text-blue-600 transition-colors">
                                     {isRTL ? 'باور بانك انكر' : 'Anker Power Banks'}
                                 </Link>
                             </li>
                             <li>
-                                <Link href={getLocalizedHref('/Anker/wall-chargers')} className="hover:text-blue-600 transition-colors">
+                                <Link href={getLocalizedHref('/anker/wall-chargers')} className="hover:text-blue-600 transition-colors">
                                     {isRTL ? 'شواحن انكر' : 'Anker Chargers'}
                                 </Link>
                             </li>
                             <li className="pt-2 border-t border-gray-200 dark:border-gray-700">
-                                <Link href={getLocalizedHref('/Joyroom')} className="hover:text-red-600 transition-colors font-medium">
+                                <Link href={getLocalizedHref('/joyroom')} className="hover:text-red-600 transition-colors font-medium">
                                     {isRTL ? 'جميع منتجات Joyroom' : 'All Joyroom Products'}
                                 </Link>
                             </li>
                             <li>
-                                <Link href={getLocalizedHref('/Joyroom/audio')} className="hover:text-red-600 transition-colors">
+                                <Link href={getLocalizedHref('/joyroom/audio')} className="hover:text-red-600 transition-colors">
                                     {isRTL ? 'سماعات جوي روم' : 'Joyroom Earbuds'}
                                 </Link>
                             </li>
                             <li>
-                                <Link href={getLocalizedHref('/Joyroom/power-banks')} className="hover:text-red-600 transition-colors">
+                                <Link href={getLocalizedHref('/joyroom/power-banks')} className="hover:text-red-600 transition-colors">
                                     {isRTL ? 'باور بانك جوي روم' : 'Joyroom Power Banks'}
                                 </Link>
                             </li>

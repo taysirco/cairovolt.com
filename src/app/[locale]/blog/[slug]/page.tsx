@@ -266,13 +266,13 @@ export default async function BlogArticlePage({ params }: Props) {
                         </p>
                         <div className="flex flex-wrap justify-center gap-3">
                             <Link
-                                href={getLocalizedHref('/Anker')}
+                                href={getLocalizedHref('/anker')}
                                 className="px-6 py-3 bg-white text-blue-700 font-bold rounded-full hover:bg-gray-100 transition-colors"
                             >
                                 {isArabic ? 'تسوق Anker' : 'Shop Anker'}
                             </Link>
                             <Link
-                                href={getLocalizedHref('/Joyroom')}
+                                href={getLocalizedHref('/joyroom')}
                                 className="px-6 py-3 bg-white/10 border border-white/30 text-white font-bold rounded-full hover:bg-white/20 transition-colors"
                             >
                                 {isArabic ? 'تسوق Joyroom' : 'Shop Joyroom'}

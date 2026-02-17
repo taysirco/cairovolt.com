@@ -229,7 +229,7 @@ export const products = [
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">بطارية تكمل معاك اليوم (12 ساعة)</h2>
-        <p class="text-gray-700">ببطارية ضخمة <a href="/ar/anker/power-banks" class="text-blue-600 hover:underline">زي الباور بانك</a> بسعة 6700mAh، انسى الشاحن. تكفيك يوم كامل شغل، أو سهرة طويلة مع الصحاب. ولما تفصل، اشحنها بكابل USB-C زي موبايلك بالظبط.</p>
+        <p class="text-gray-700">ببطارية ضخمة <a href="/anker/power-banks" class="text-blue-600 hover:underline">زي الباور بانك</a> بسعة 6700mAh، انسى الشاحن. تكفيك يوم كامل شغل، أو سهرة طويلة مع الصحاب. ولما تفصل، اشحنها بكابل USB-C زي موبايلك بالظبط.</p>
     </section>
 </div>
 

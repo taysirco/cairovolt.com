@@ -4,12 +4,6 @@ import { routing } from './i18n/routing';
 
 const intlMiddleware = createMiddleware(routing);
 
-// Brand case correction mapping
-const brandCaseMap: Record<string, string> = {
-    'anker': 'Anker',
-    'joyroom': 'Joyroom',
-};
-
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
 

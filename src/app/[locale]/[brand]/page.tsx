@@ -25,9 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!data) return {};
 
     const meta = locale === 'ar' ? data.metadata.ar : data.metadata.en;
-    // Use proper brand slug casing (Anker, Joyroom) for canonical URLs
-    const properBrandSlug = data.id.charAt(0).toUpperCase() + data.id.slice(1);
-
+    // Strict lowercase for canonical URLs (SEO requirement)
     return {
         title: meta.title,
         description: meta.description,
