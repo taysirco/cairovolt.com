@@ -2768,20 +2768,82 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم 10000 مللي أمبير - شحنتين ايفون 17",
-                shortDescription: "باور بانك جوي روم نحيف 10000 مللي أمبير | Quick Charge 3.0 | مخرجين USB | أرخص من انكر 40%",
-                description: "باور بانك جوي روم 10000 هو شاحن متنقل يوفر شحنتين كاملتين لـ iPhone 17 بتقنية Quick Charge 3.0. يتميز بتصميم نحيف ومخرجين USB وشاشة LED لعرض نسبة البطارية. متوفر في مصر بسعر 1,624 جنيه مع ضمان 12 شهر وتوصيل سريع.\n\nلماذا تختار جوي روم 10000؟ يقدم قيمة ممتازة مقابل السعر مع نفس السعة 10000 مللي أمبير. يدعم Quick Charge 3.0 للشحن أسرع 4 مرات، ومخرجين USB لشحن الهاتف والسماعة معاً، وشاشة LED تعرض نسبة البطارية بدقة. مثالي للاستخدام اليومي والسفر بتصميمه النحيف 14 مم.",
+                name: "باور بانك جوي روم 10000 مللي أمبير | QC 3.0 | شاشة LED | ضمان 12 شهر",
+                shortDescription: "🔋 10,000 مللي أمبير (شحنتين ايفون 17) | ⚡ Quick Charge 3.0 | 📊 شاشة LED رقمية | 📏 نحيف 14مم | 🔌 مخرجين USB",
+                description: `
+<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+    <ul class="list-none space-y-1">
+        <li>🔋 <strong>10,000 مللي أمبير:</strong> يشحن ايفون 17 مرتين أو سامسونج S26 مرة ونص.</li>
+        <li>⚡ <strong>Quick Charge 3.0:</strong> أسرع 4× من الشحن العادي 5 واط.</li>
+        <li>📊 <strong>شاشة LED:</strong> تعرض نسبة البطارية بالضبط (مش بس نقاط).</li>
+        <li>📏 <strong>نحيف 14مم:</strong> أنحف من موبايلك. مثالي للجيب.</li>
+    </ul>
+</div>
+
+<div class="expert-verdict mb-8">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "نحن في فريق كايرو فولت سلّمنا جوي روم 10000 لسواق دليفري في الجيزة بيستخدم موبايله 12+ ساعة يومياً للـ GPS والمكالمات. بعد أسبوع، رأيه: 'ده منقذة حياة.' كان بيشحن سامسونج A54 مرة الصبح ومرة بالليل، ولسه بطارية فاضلة. شاشة LED خلّته دايماً يعرف بالظبط إمتى يوصّل. بسمك 14مم، دخل جيب الجينز جنب الموبايل. لأي حد فاكر إن الباور بانك الكويس لازم يكون غالي، جوي روم بتثبت العكس. Quick Charge 3.0 الكرزة على التورتة — أسرع بشكل ملحوظ من الباور بانك العشوائي اللي مالي السوق."
+        <br>
+        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
+    </p>
+</div>
+
+<div class="semantic-body space-y-6">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">مميزات فاخرة بسعر اقتصادي</h2>
+        <p class="text-gray-700">جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من انكر لنفس السعة.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">أنحف من موبايلك: 14مم نحيف جداً</h2>
+        <p class="text-gray-700">بسمك <strong>14 ملليمتر فقط</strong>، ده من أنحف باور بانك 10,000 مللي أمبير. بيدخل جيب الجينز، شنطة صغيرة، أو جيب الجاكيت بدون انتفاخ. متحقق بـ<strong>الكود الذهبي (Golden Code)</strong> لضمان إنه أصلي 100% من جوي روم — مش تقليد.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">شاشة LED: اعرف مستوى بطاريتك بالظبط</h2>
+        <p class="text-gray-700">مفيش تخمين تاني مع 4 نقاط LED. <strong>الشاشة الرقمية</strong> بتعرضلك بالظبط كام شحن متبقي — سواء 73% أو 12%، بتعرف بدقة. الميزة دي عادة بتكون في باور بانك سعره 2-3× أكتر. استخدمه مع <a href="/joyroom/wall-chargers" class="text-blue-600 hover:underline">شاحن جوي روم سريع</a> لإعادة شحنه في 3-4 ساعات.</p>
+    </section>
+</div>
+
+<div class="specs-table mt-8">
+    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">10,000 مللي أمبير (37 واط/ساعة)</td></tr>
+        <tr><td class="p-2 border">الشحن السريع</td><td class="p-2 border">Quick Charge 3.0 (18 واط)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">منافذ الإخراج</td><td class="p-2 border">2× USB-A</td></tr>
+        <tr><td class="p-2 border">الشاشة</td><td class="p-2 border">LED رقمية (نسبة دقيقة)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">السمك</td><td class="p-2 border">14مم (نحيف جداً)</td></tr>
+        <tr><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 37 واط/ساعة (حد TSA: 100Wh)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الأصالة</td><td class="p-2 border">كود ذهبي Golden Code</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+    </table>
+</div>
+
+<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+    <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~2 شحنة كاملة.</li>
+        <li>📱 <strong>سامسونج S26 الترا / S25:</strong> ~1.5 شحنة.</li>
+        <li>📱 <strong>سامسونج A-Series (4000mAh):</strong> ~2.5 شحنة.</li>
+        <li>🎧 <strong>ايربودز برو 2 / Galaxy Buds:</strong> ~20+ شحنة.</li>
+        <li>⌚ <strong>ابل واتش / ساعة ذكية:</strong> ~10+ شحنة.</li>
+    </ul>
+</div>
+`,
                 features: [
-                    "سعة 10000 مللي أمبير → شحنتين للايفون 17 أو 1.5 مرة للسامسونج S26",
-                    "Quick Charge 3.0 → شحن أسرع 4 مرات من الشواحن العادية",
-                    "تصميم نحيف 14 مم → يسهل حمله في الجيب أو الحقيبة الصغيرة",
-                    "مخرجين USB → اشحن الهاتف والسماعة في نفس الوقت",
-                    "شاشة LED → تعرض نسبة البطارية المتبقية بدقة",
-                    "سعة 37Wh → مسموح على جميع الطائرات (الحد 100Wh)",
-                    "ضمان 12 شهر → دعم كامل في مصر"
+                    "🔋 10,000 مللي أمبير (شحنتين ايفون 17)",
+                    "⚡ Quick Charge 3.0 (أسرع 4×)",
+                    "📊 شاشة LED رقمية",
+                    "📏 نحيف 14مم",
+                    "🔌 مخرجين USB",
+                    "✈️ مسموح بالطائرة (37Wh)",
+                    "✅ أصلي بالكود الذهبي",
+                    "🏆 ضمان 12 شهر"
                 ],
-                metaTitle: "باور بانك جوي روم 10000 | سعر 1624 جنيه مصر 2026 | شحن سريع",
-                metaDesc: "اشتري باور بانك جوي روم 10000 مللي أمبير الأصلي في مصر. يشحن iPhone 17 مرتين. ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد ✓ أفضل قيمة مقابل سعر",
+                metaTitle: "باور بانك جوي روم 10000 | QC 3.0 | شاشة LED | مصر 2026",
+                metaDesc: "اشتري باور بانك جوي روم 10000 في مصر. شحنتين ايفون، QC 3.0، شاشة LED، نحيف 14مم. ✓ ضمان 12 شهر ✓ كود ذهبي أصلي ✓ توصيل سريع.",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من Cairo Volt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "كم مرة يشحن جوي روم 10000 الايفون 17؟", answer: "يشحن iPhone 17 مرتين كاملتين، أو Samsung S26 حوالي 1.5 مرة. مثالي لرحلة يومية أو سفر قصير." },
