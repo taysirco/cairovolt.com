@@ -230,7 +230,7 @@ export const blogArticles: BlogArticle[] = [
         publishDate: '2025-12-20',
         modifiedDate: '2026-02-01',
         readingTime: 10,
-        relatedProducts: [],
+        relatedProducts: ['anker-powercore-20000', 'joyroom-power-bank-20000', 'anker-powerport-20w', 'joyroom-20w-usb-c-charger'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks', 'Anker/wall-chargers', 'Joyroom/wall-chargers'],
         translations: {
             ar: {
@@ -404,7 +404,7 @@ export const blogArticles: BlogArticle[] = [
         publishDate: '2026-01-10',
         modifiedDate: '2026-02-01',
         readingTime: 8,
-        relatedProducts: [],
+        relatedProducts: ['anker-powerport-20w', 'anker-nano-45w', 'joyroom-20w-usb-c-charger', 'anker-powerline-usb-c-lightning'],
         relatedCategories: ['Anker/wall-chargers', 'Anker/cables'],
         translations: {
             ar: {
@@ -534,7 +534,7 @@ export const blogArticles: BlogArticle[] = [
         publishDate: '2025-12-01',
         modifiedDate: '2026-01-15',
         readingTime: 6,
-        relatedProducts: [],
+        relatedProducts: ['anker-powercore-10000', 'anker-soundcore-motion-plus', 'anker-737-powerbank'],
         relatedCategories: ['Anker/power-banks', 'Anker/wall-chargers', 'Anker/cables'],
         translations: {
             ar: {
@@ -683,7 +683,7 @@ export const blogArticles: BlogArticle[] = [
         publishDate: '2026-01-05',
         modifiedDate: '2026-02-01',
         readingTime: 10,
-        relatedProducts: [],
+        relatedProducts: ['joyroom-t03s-pro-earbuds', 'joyroom-jr-t03-wireless-earbuds', 'anker-soundcore-life-p2i'],
         relatedCategories: ['Anker/audio', 'Joyroom/earbuds'],
         translations: {
             ar: {
@@ -981,7 +981,7 @@ export const blogArticles: BlogArticle[] = [
         publishDate: '2026-01-15',
         modifiedDate: '2026-02-01',
         readingTime: 7,
-        relatedProducts: [],
+        relatedProducts: ['anker-powerport-25w', 'joyroom-25w-fast-charger', 'joyroom-30w-fast-charger'],
         relatedCategories: ['Anker/wall-chargers'],
         translations: {
             ar: {
