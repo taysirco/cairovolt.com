@@ -58,6 +58,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
             publishedTime: article.publishDate,
             modifiedTime: article.modifiedDate,
+            // Blog articles don't have dedicated cover images but this
+            // explicit images:[] prevents inheriting the 200x60 layout logo
+            images: [],
+        },
+        // Explicit twitter block prevents falling back to layout logo.png
+        // Use 'summary' (not large image) since we have no cover photo
+        twitter: {
+            card: 'summary',
+            title: trans.metaTitle,
+            description: trans.metaDescription,
         },
         robots: {
             index: true,

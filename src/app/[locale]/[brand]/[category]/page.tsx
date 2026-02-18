@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { categoryData } from '@/data/category-seo';
 import { getProductsByBrandAndCategory } from '@/lib/static-products';
+import { staticProducts } from '@/lib/static-products';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -20,9 +21,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!data) return {};
 
+    const isArabic = locale === 'ar';
     const meta = locale === 'ar' ? data.metadata.ar : data.metadata.en;
     // Strict lowercase for canonical URLs (SEO requirement)
     const path = `${brandKey}/${categoryKey}`;
+
+    // Use first product image from this category as social share image
+    const categoryProducts = staticProducts.filter(
+        p => p.brand.toLowerCase() === brandKey && p.categorySlug.toLowerCase() === categoryKey && p.images?.[0]?.url
+    );
+    const socialImageUrl = categoryProducts[0]?.images[0]?.url
+        ? `https://cairovolt.com${categoryProducts[0].images[0].url}`
+        : undefined;
+    const socialImageAlt = categoryProducts[0]?.images[0]?.alt
+        || (isArabic ? `${data.categoryName} - كايرو فولت مصر` : `${data.categoryName} - CairoVolt Egypt`);
 
     return {
         title: meta.title,
@@ -38,7 +50,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 'x-default': `https://cairovolt.com/${path}`,
             },
         },
-        openGraph: meta.openGraph ? { ...meta.openGraph, locale: locale === 'ar' ? 'ar_EG' : 'en_US' } : undefined,
+        openGraph: {
+            ...(meta.openGraph || {}),
+            locale: isArabic ? 'ar_EG' : 'en_US',
+            type: 'website',
+            ...(socialImageUrl && {
+                images: [{ url: socialImageUrl, alt: socialImageAlt, width: 800, height: 800 }]
+            }),
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: meta.title,
+            description: meta.description,
+            images: socialImageUrl ? [socialImageUrl] : undefined,
+        },
         other: {
             'geo.region': 'EG',
             'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',

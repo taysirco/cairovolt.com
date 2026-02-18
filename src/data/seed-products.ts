@@ -116,13 +116,13 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-1.webp", alt: "anker soundcore motion plus Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-2.webp", alt: "anker soundcore motion plus اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-3.webp", alt: "anker soundcore motion plus - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-4.webp", alt: "anker soundcore motion plus اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-5.webp", alt: "anker soundcore motion plus - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-6.webp", alt: "anker soundcore motion plus اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-7.webp", alt: "anker soundcore motion plus - 2 Year Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-1.webp", alt: "Anker Soundcore Motion Plus portable Bluetooth speaker front view - 30W Hi-Res Audio Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-2.webp", alt: "سماعة انكر Soundcore Motion Plus من الخلف تُظهر منفذ USB-C وشبكة الباس - كايرو فولت مصر", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-3.webp", alt: "Anker Soundcore Motion Plus size comparison held in hand - compact 30W waterproof speaker", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-4.webp", alt: "Anker Soundcore Motion Plus retail box packaging - 18 month warranty Egypt", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-5.webp", alt: "Anker Soundcore Motion Plus spec label showing IPX7 waterproof and Hi-Res certification", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-6.webp", alt: "Anker Soundcore Motion Plus outdoor use at rooftop gathering - Cairo Egypt", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-7.webp", alt: "Anker Soundcore Motion Plus side view showing tweeters and passive radiator - 6700mAh battery", order: 6, isPrimary: false }
         ],
         translations: {
             en: {
@@ -470,14 +470,14 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-1.webp", alt: "anker 737 powerbank Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-2.webp", alt: "anker 737 powerbank اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-3.webp", alt: "anker 737 powerbank - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-4.webp", alt: "anker 737 powerbank اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-5.webp", alt: "anker 737 powerbank - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-6.webp", alt: "anker 737 powerbank اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-7.webp", alt: "anker 737 powerbank - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-8.webp", alt: "anker 737 powerbank اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-1.webp", alt: "Anker 737 PowerCore 24K power bank front view showing smart digital display - 140W Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-2.webp", alt: "باور بانك انكر 737 يُظهر شاشة الـ LED الرقمية والوات الحالية - كايرو فولت مصر", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-3.webp", alt: "Anker 737 PowerCore 24K USB-C ports showing 2x USB-C + 1x USB-A connections - 140W output", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-4.webp", alt: "Anker 737 PowerCore 24K size comparison next to MacBook Pro - 630g portable charger Egypt", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-5.webp", alt: "Anker 737 PowerCore 24K retail box packaging showing 140W and 24000mAh specs - Egypt", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-6.webp", alt: "Anker 737 charging MacBook Pro and iPhone simultaneously - dual USB-C fast charge Egypt", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-7.webp", alt: "Anker 737 PowerCore 24K spec label showing ActiveShield 3.0 safety certification", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-8.webp", alt: "باور بانك انكر 737 أثناء شحن اللابتوب خلال انقطاع كهرباء - مصر كايرو فولت", order: 7, isPrimary: false }
         ],
         relatedProducts: ["anker-312-charger-25w", "anker-765-cable-usb-c"],
         translations: {

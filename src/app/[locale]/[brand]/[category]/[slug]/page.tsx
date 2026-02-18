@@ -128,16 +128,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: dynamicTitle,
             description: t.metaDesc || t.shortDescription,
             siteName: isArabic ? 'كايرو فولت - مصر' : 'CairoVolt Egypt',
+            type: 'website',
             images: product.images?.[0]?.url ? [{
-                url: product.images[0].url,
-                alt: isArabic
-                    ? `${t.name} اصلي في مصر - توصيل سريع القاهرة والجيزة`
-                    : `${t.name} Original Egypt - Fast Cairo Delivery`,
+                url: product.images[0].url.startsWith('http')
+                    ? product.images[0].url
+                    : `https://cairovolt.com${product.images[0].url}`,
+                // Use the real descriptive alt from the product data, not a generic fallback
+                alt: product.images[0].alt ||
+                    (isArabic
+                        ? `${t.name} - كايرو فولت مصر`
+                        : `${t.name} - CairoVolt Egypt`),
                 width: 1200,
                 height: 630,
             }] : [],
             locale: isArabic ? 'ar_EG' : 'en_US',
             countryName: 'Egypt',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: dynamicTitle,
+            description: t.metaDesc || t.shortDescription,
+            // Use product image — not the logo (logo gives zero visual context for the product)
+            images: product.images?.[0]?.url ? [
+                product.images[0].url.startsWith('http')
+                    ? product.images[0].url
+                    : `https://cairovolt.com${product.images[0].url}`
+            ] : ['https://cairovolt.com/logo.png'],
+            creator: '@cairovolt',
+            site: '@cairovolt',
         },
         // Product-specific OG meta tags for e-commerce
         other: {

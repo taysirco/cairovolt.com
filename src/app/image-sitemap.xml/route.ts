@@ -7,7 +7,8 @@ const baseUrl = 'https://cairovolt.com';
 interface ProductImage {
     url: string;
     alt?: string;
-    altAr?: string;
+    order?: number;
+    isPrimary?: boolean;
 }
 
 interface Product {
@@ -53,7 +54,6 @@ export async function GET() {
         }
     } catch (error) {
         console.warn('Firebase not available for image sitemap, using static only:', error);
-        // Continue with static products only
     }
 
     // Build XML
@@ -65,19 +65,13 @@ export async function GET() {
     for (const product of products) {
         if (!product.images || product.images.length === 0) continue;
 
-        // Use proper brand casing (Anker, Joyroom)
-        const properBrand = product.brand.charAt(0).toUpperCase() + product.brand.slice(1).toLowerCase();
-        const productPath = `/${properBrand}/${product.categorySlug}/${product.slug}`;
+        // IMPORTANT: Keep brand fully lowercase to match actual Next.js routes
+        const brandSlug = product.brand.toLowerCase();
+        const categorySlug = product.categorySlug.toLowerCase();
+        const productPath = `/${brandSlug}/${categorySlug}/${product.slug}`;
 
-        // Arabic caption with geo
-        const captionAr = (img: ProductImage) => img.altAr
-            ? `${img.altAr} - توصيل سريع لجميع محافظات مصر`
-            : `${product.translations?.ar?.name || product.slug} اصلي في مصر`;
-
-        // English title with geo
-        const titleEn = (img: ProductImage) => img.alt
-            ? `${img.alt} - Egypt Original`
-            : `${product.translations?.en?.name || product.slug} Original Egypt`;
+        const productNameEn = product.translations?.en?.name || product.slug;
+        const productNameAr = product.translations?.ar?.name || product.slug;
 
         // Arabic URL entry (default locale)
         xml += `  <url>
@@ -85,11 +79,21 @@ export async function GET() {
 `;
         for (const image of product.images) {
             const imageUrl = image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`;
+            // Use the real per-image alt text — falls back to product name + angle label
+            const imgIndex = (image.order ?? 0) + 1;
+            const captionAr = image.alt
+                ? escapeXml(image.alt)
+                : escapeXml(`${productNameAr} - صورة ${imgIndex} - كايرو فولت مصر`);
+            const titleEn = image.alt
+                ? escapeXml(image.alt)
+                : escapeXml(`${productNameEn} - Image ${imgIndex} - CairoVolt Egypt`);
+
             xml += `    <image:image>
       <image:loc>${imageUrl}</image:loc>
-      <image:caption>${escapeXml(captionAr(image))}</image:caption>
+      <image:caption>${captionAr}</image:caption>
+      <image:title>${titleEn}</image:title>
       <image:geo_location>Cairo, Egypt</image:geo_location>
-      <image:title>${escapeXml(titleEn(image))}</image:title>
+      <image:license>${baseUrl}/en/return-policy</image:license>
     </image:image>
 `;
         }
@@ -102,11 +106,17 @@ export async function GET() {
 `;
         for (const image of product.images) {
             const imageUrl = image.url.startsWith('http') ? image.url : `${baseUrl}${image.url}`;
+            const imgIndex = (image.order ?? 0) + 1;
+            const titleEn = image.alt
+                ? escapeXml(image.alt)
+                : escapeXml(`${productNameEn} - Image ${imgIndex} - CairoVolt Egypt`);
+
             xml += `    <image:image>
       <image:loc>${imageUrl}</image:loc>
-      <image:caption>${escapeXml(titleEn(image))}</image:caption>
+      <image:caption>${titleEn}</image:caption>
+      <image:title>${titleEn}</image:title>
       <image:geo_location>Cairo, Egypt</image:geo_location>
-      <image:title>${escapeXml(titleEn(image))}</image:title>
+      <image:license>${baseUrl}/en/return-policy</image:license>
     </image:image>
 `;
         }
@@ -120,6 +130,7 @@ export async function GET() {
         headers: {
             'Content-Type': 'application/xml',
             'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+            'X-Robots-Tag': 'noindex', // sitemaps themselves should not be indexed
         },
     });
 }

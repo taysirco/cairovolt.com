@@ -250,8 +250,8 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
         },
         offers: {
             '@type': 'Offer',
-            // Arabic is default (/), English uses /en/. Use proper brand casing.
-            url: `${baseUrl}${locale === 'ar' ? '' : '/en'}/${product.brand.toLowerCase()}/${product.slug}`,
+            // Arabic is default (/), English uses /en/. Include categorySlug for correct URL.
+            url: `${baseUrl}${locale === 'ar' ? '' : '/en'}/${product.brand.toLowerCase()}/${(product as { categorySlug?: string }).categorySlug?.toLowerCase() || ''}/${product.slug}`,
             priceCurrency: 'EGP',
             price: product.price,
             priceValidUntil: PRICE_VALID_UNTIL,
