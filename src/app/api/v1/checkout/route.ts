@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { after } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
+import { appendOrderToSheet } from '@/lib/google-sheets';
 
 /**
  * M2M Checkout API — Simplified endpoint for AI agents & programmatic commerce
@@ -297,6 +299,18 @@ export async function POST(req: NextRequest) {
         };
 
         const docRef = await db.collection('orders').add(orderData);
+
+        // Defer Google Sheets sync to AFTER the response is sent
+        after(async () => {
+            try {
+                await appendOrderToSheet({
+                    ...orderData,
+                    id: docRef.id,
+                });
+            } catch (sheetError) {
+                console.error('M2M Checkout: Failed to sync with Google Sheet:', sheetError);
+            }
+        });
 
         return NextResponse.json({
             success: true,
