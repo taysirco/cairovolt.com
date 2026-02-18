@@ -20,3 +20,5 @@ secrets:
     secret: google_service_account_email
   - variable: GOOGLE_PRIVATE_KEY
     secret: google_private_key
+  - variable: CAIROVOLT_API_KEY
+    secret: cairovolt_api_key
