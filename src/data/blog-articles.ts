@@ -162,11 +162,11 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>Top 5 Power Banks in Egypt 2026</h2>
 
-<h3>1. Anker PowerCore 20000mAh — Best Seller</h3>
+<h3>1. <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000mAh</a> — Best Seller</h3>
 <p><strong>Price:</strong> EGP 1,054 | <strong>Capacity:</strong> 20,000mAh | <strong>Weight:</strong> 350g</p>
 <p>The #1 choice for most Egyptians. Charges iPhone 17 Pro four full times with PowerIQ fast charging. Built with Grade-A battery cells (same used in electric vehicles). <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">View Product Details</a></p>
 
-<h3>2. Anker Nano 10000mAh — Most Compact</h3>
+<h3>2. <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker Nano 10000mAh</a> — Most Compact</h3>
 <p><strong>Price:</strong> EGP 1,358 | <strong>Capacity:</strong> 10,000mAh | <strong>Weight:</strong> 190g</p>
 <p>Credit card sized. Perfect for light daily use, fits any pocket. Supports 30W USB-C fast charging.</p>
 
@@ -174,11 +174,11 @@ export const blogArticles: BlogArticle[] = [
 <p><strong>Price:</strong> EGP 3,799 | <strong>Capacity:</strong> 27,650mAh | <strong>Power:</strong> 250W</p>
 <p>The real beast. Charges MacBook Pro 16" from 0 to 50% in 30 minutes. Smart digital display with Bluetooth app control.</p>
 
-<h3>4. Joyroom 10000mAh — Best Budget</h3>
+<h3>4. <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000mAh</a> — Best Budget</h3>
 <p><strong>Price:</strong> ~EGP 450 | <strong>Capacity:</strong> 10,000mAh</p>
 <p>Excellent choice for those seeking good quality at a budget price. Sleek design with 22.5W fast charging. 12-month warranty. <a href="/joyroom/power-banks/joyroom-10000mah-slim" class="text-blue-600 hover:underline">Check Price</a></p>
 
-<h3>5. Joyroom 20000mAh — Budget & Powerful</h3>
+<h3>5. <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000mAh</a> — Budget & Powerful</h3>
 <p><strong>Price:</strong> ~EGP 650 | <strong>Capacity:</strong> 20,000mAh</p>
 <p>Big capacity at a competitive price. Charges your phone 4 times with fast charging support. Smart choice for students. <a href="/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">View Deal</a></p>
 
@@ -427,11 +427,11 @@ export const blogArticles: BlogArticle[] = [
 
     <h2> أفضل شواحن ايفون 17 في مصر </h2>
 
-    <h3> 1. Anker Nano 30W — الأفضل عموماً </h3>
+    <h3> 1. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 30W</a> — الأفضل عموماً </h3>
     <p> <strong>السعر: </strong> 549 جنيه | <strong>القوة:</strong> 30W | <strong>التقنية: </strong> GaN III</p>
     <p>أصغر شاحن 30W في العالم.يعطي iPhone 17 أقصى سرعة شحن ممكنة(0 لـ 50 % في 25 دقيقة).أصغر من شاحن Apple 20W الأصلي! <a href="/anker/chargers" class="text-blue-600 hover:underline">See Anker Chargers</a></p>
 
-    <h3> 2. Anker 20W — الأرخص للايفون </h3>
+    <h3> 2. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> — الأرخص للايفون </h3>
     <p> <strong>السعر: </strong> 379 جنيه | <strong>القوة:</strong> 20W </p>
     <p> كافي لـ iPhone 17 العادي لكن لن يعطيك أقصى سرعة.مثالي لو عايز توفر ومش مستعجل. <a href="/anker/chargers/anker-powerport-20w" class="text-blue-600 hover:underline">Get Anker 20W</a></p>
 
@@ -485,11 +485,11 @@ export const blogArticles: BlogArticle[] = [
 
                     <h2> Best iPhone 17 Chargers in Egypt </h2>
 
-                        <h3> 1. Anker Nano 30W — Best Overall </h3>
+                        <h3> 1. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 30W</a> — Best Overall </h3>
                             <p> <strong>Price: </strong> EGP 549 | <strong>Power:</strong> 30W | <strong>Tech: </strong> GaN III</p>
                                 <p>World's smallest 30W charger. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple's 20W charger! </p>
 
-                                    <h3> 2. Anker 20W — Budget iPhone Charger </h3>
+                                    <h3> 2. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> — Budget iPhone Charger </h3>
                                         <p> <strong>Price: </strong> EGP 379 | <strong>Power:</strong> 20W </p>
                                             <p> Sufficient for standard iPhone 17 but won't give maximum speed. Great if you want to save and aren't in a rush. <a href="/anker/chargers/anker-powerport-20w" class="text-blue-600 hover:underline">Get Anker 20W</a></p>
 
@@ -712,7 +712,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                         <h3> 2. Soundcore R50i — أفضل قيمة </h3>
                                                                                                                             <p> صوت ممتاز بسعر اقتصادي.بطارية 10 ساعات، مقاومة للماء IPX5.الأفضل لمن يبحث عن الجودة بأقل سعر من Anker.</p>
 
-                                                                                                                                <h3> 3. Joyroom T03S Pro — شبيهة AirPods </h3>
+                                                                                                                                <h3> 3. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">Joyroom T03S Pro</a> — شبيهة AirPods </h3>
                                                                                                                                     <p> تصميم مطابق تقريباً لـ AirPods مع جودة صوت جيدة جداً.السماعة الأكثر مبيعاً في مصر في فئتها السعرية. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">شاهد المواصفات</a></p>
 
                                                                                                                                         <h3> 4. Joyroom T03S — الأرخص </h3>
