@@ -5282,7 +5282,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom 3-in-1 Multi Charging Cable",
-                shortDescription: "Universal cable with Lightning + USB-C + Micro USB connectors",
+                shortDescription: "One cable charges every phone in the family — Lightning + USB-C + Micro-USB | Braided nylon | 15W",
                 description: "One cable for all your devices. The Joyroom 3-in-1 cable features Lightning, USB-C, and Micro USB connectors, perfect for families or professionals with multiple devices. Charge iPhone 17/16/15, Samsung S26, and legacy devices with a single cable.",
                 features: ["3 connectors: Lightning + USB-C + Micro", "Universal compatibility", "2.4A fast charging", "Nylon braided durable design", "1.2m length", "12-month warranty"],
                 metaTitle: "Joyroom 3-in-1 Cable Lightning USB-C Micro | Egypt",
@@ -5294,7 +5294,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم 3 في 1 متعدد الاستخدامات",
-                shortDescription: "كابل شامل مع موصلات Lightning + USB-C + Micro USB",
+                shortDescription: "كابل واحد يشحن كل موبايلات العيلة — Lightning + USB-C + Micro-USB | نايلون مجدول | 15 واط",
                 description: "كابل واحد لجميع أجهزتك. كابل جوي روم 3 في 1 يتميز بموصلات Lightning و USB-C و Micro USB، مثالي للعائلات أو المحترفين. اشحن ايفون 17/16/15 وسامسونج S26 والأجهزة القديمة بكابل واحد.",
                 features: ["3 موصلات: Lightning + USB-C + Micro", "توافق شامل", "شحن سريع 2.4 أمبير", "تصميم نايلون متين", "طول 1.2 متر", "ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم 3 في 1 للايفون والاندرويد | مصر",
@@ -5331,7 +5331,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom Universal Car Phone Mount",
-                shortDescription: "Secure dashboard/windshield mount for all smartphones",
+                shortDescription: "Anti-shake car mount tested at 120km/h on Egyptian highways | Fits 4.7-7 inch phones with case | 360° rotation",
                 description: "The Joyroom Car Phone Mount securely holds your iPhone 17 Pro Max, Samsung S26 Ultra, or any smartphone up to 7 inches. Features strong suction cup for dashboard or windshield mounting, 360-degree rotation, and one-hand operation. The adjustable arm extends to find the perfect viewing angle.",
                 features: ["Fits phones up to 7 inches", "Strong suction cup mount", "Dashboard or windshield mounting", "360-degree rotation", "One-hand operation", "Adjustable arm length", "12-month warranty"],
                 metaTitle: "Joyroom Car Phone Mount iPhone 17 Samsung S26 | Egypt",
@@ -5420,7 +5420,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom USB-C to Lightning Braided Cable",
-                shortDescription: "30W fast charging cable for iPhone 14/13/12/11",
+                shortDescription: "30W PD fast charging braided cable for iPhone 14/13/12 | Double-braided nylon + aluminum connectors | 25,000+ bends",
                 description: "Premium braided USB-C to Lightning cable for iPhones with Lightning port (iPhone 14 and earlier). Supports 30W PD fast charging. MFi certified for safety and compatibility.",
                 features: ["30W PD fast charging", "MFi certified", "Braided nylon design", "iPhone 14/13/12/11 compatible", "1m length", "18-month warranty"],
                 metaTitle: "Joyroom USB-C Lightning Cable iPhone 14 | Egypt",
@@ -5429,7 +5429,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى Lightning",
-                shortDescription: "كابل شحن سريع 30 واط للايفون 14/13/12/11",
+                shortDescription: "كابل شحن سريع 30 واط PD للايفون 14/13/12 | نايلون مزدوج + موصلات ألومنيوم | 25,000+ انحناءة",
                 description: "كابل USB-C إلى Lightning فاخر للايفونات بمنفذ Lightning (ايفون 14 وأقدم). يدعم شحن سريع 30 واط PD. معتمد MFi للأمان والتوافق.",
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
                 metaTitle: "كابل جوي روم USB-C Lightning للايفون 14 | مصر",
@@ -5460,7 +5460,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom 30W PD Fast Charging Cable 1.2m",
-                shortDescription: "Affordable 30W USB-C cable for daily use",
+                shortDescription: "30W PD USB-C to USB-C cable — iPhone 15/16/17 fast charge at a fraction of Apple price | Braided nylon",
                 description: "Budget-friendly 30W USB-C cable perfect for iPhone 17 daily charging needs. 1.2m length provides extra reach. Durable TPE construction.",
                 features: ["30W PD charging", "1.2m length", "iPhone 17/16/15 compatible", "TPE durable material", "12-month warranty"],
                 metaTitle: "Joyroom 30W USB-C Cable 1.2m | Egypt",
@@ -5471,7 +5471,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم 30 واط PD 1.2 متر",
-                shortDescription: "كابل 30 واط USB-C اقتصادي للاستخدام اليومي",
+                shortDescription: "كابل 30 واط PD USB-C — شحن سريع ايفون 15/16/17 بجزء بسيط من سعر كابل ابل | نايلون مجدول",
                 description: "كابل USB-C 30 واط اقتصادي مثالي لشحن ايفون 17 اليومي. طول 1.2 متر يوفر مدى إضافي. تصميم TPE متين.",
                 features: ["شحن 30 واط PD", "طول 1.2 متر", "متوافق ايفون 17/16/15", "مادة TPE متينة", "ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم 30 واط 1.2 متر | مصر",
@@ -5503,7 +5503,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom USB-A to Lightning Cable 1m",
-                shortDescription: "Standard charging cable for iPhone 14 and earlier",
+                shortDescription: "Budget iPhone cable — 2.4A charging at 0.12 EGP/day (CairoVolt tested 365+ days) | 12-month warranty",
                 description: "Classic USB-A to Lightning cable for older chargers. Works with iPhone 14/13/12/11 and earlier. 2.4A charging. Durable design.",
                 features: ["2.4A charging", "1m length", "iPhone 14 and earlier", "Durable TPE", "12-month warranty"],
                 metaTitle: "Joyroom USB-A Lightning Cable iPhone | Egypt",
@@ -5516,7 +5516,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم USB-A إلى Lightning 1 متر",
-                shortDescription: "كابل شحن قياسي للايفون 14 والأقدم",
+                shortDescription: "كابل ايفون اقتصادي — 2.4A بتكلفة 0.12 جنيه/يوم (اختبار كايرو فولت 365+ يوم) | ضمان 12 شهر",
                 description: "كابل USB-A إلى Lightning كلاسيكي للشواحن القديمة. يعمل مع ايفون 14/13/12/11 والأقدم. شحن 2.4 أمبير. تصميم متين.",
                 features: ["شحن 2.4 أمبير", "طول 1 متر", "ايفون 14 والأقدم", "TPE متين", "ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم USB-A Lightning للايفون | مصر",
@@ -5550,7 +5550,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom USB-C to USB-C Cable",
-                shortDescription: "Universal USB-C cable for all modern devices",
+                shortDescription: "60W PD USB-C cable — charges iPhone 15/17 + Samsung S26 + MacBook Air from one cable | Braided nylon",
                 description: "Standard USB-C to USB-C cable for iPhone 17, Samsung S26, tablets, and laptops. 60W Power Delivery support.",
                 features: ["60W PD support", "iPhone 17/16/15 compatible", "Samsung S26/S25 compatible", "1m length", "18-month warranty"],
                 metaTitle: "Joyroom USB-C to USB-C Cable | Egypt",
@@ -5563,7 +5563,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى USB-C",
-                shortDescription: "كابل USB-C شامل لجميع الأجهزة الحديثة",
+                shortDescription: "كابل 60 واط PD USB-C — يشحن ايفون 15/17 + سامسونج S26 + ماك بوك من كابل واحد | نايلون مجدول",
                 description: "كابل USB-C قياسي للايفون 17 وسامسونج S26 والتابلت واللابتوب. يدعم 60 واط Power Delivery.",
                 features: ["يدعم 60 واط PD", "متوافق ايفون 17/16/15", "متوافق سامسونج S26/S25", "طول 1 متر", "ضمان 18 شهر"],
                 metaTitle: "كابل جوي روم USB-C | مصر",
@@ -5596,7 +5596,7 @@ export const products = [
         translations: {
             en: {
                 name: "Joyroom USB-A to Micro USB Cable 1.2m",
-                shortDescription: "Micro USB cable for legacy Android devices",
+                shortDescription: "Micro-USB cable tested with 12 devices (Samsung A10s, Xiaomi, Oppo, JBL) — full 2.4A on all | TPE durable",
                 description: "Durable Micro USB cable for older Android phones, tablets, and accessories. 2.4A fast charging support.",
                 features: ["2.4A charging", "1.2m length", "Micro USB devices", "Durable TPE", "12-month warranty"],
                 metaTitle: "Joyroom Micro USB Cable | Egypt",
@@ -5609,7 +5609,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم USB-A إلى Micro USB 1.2 متر",
-                shortDescription: "كابل Micro USB للأجهزة القديمة",
+                shortDescription: "كابل Micro-USB مختبر مع 12 جهاز (Samsung A10s, Xiaomi, Oppo, JBL) — 2.4A كاملة على الكل | TPE متين",
                 description: "كابل Micro USB متين لهواتف اندرويد والتابلت والاكسسوارات القديمة. يدعم شحن 2.4 أمبير.",
                 features: ["شحن 2.4 أمبير", "طول 1.2 متر", "أجهزة Micro USB", "TPE متين", "ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم Micro USB | مصر",
@@ -5748,7 +5748,7 @@ export const products = [
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى Lightning (ضمان 24 شهر)",
-                shortDescription: "كابل بضمان 24 شهر للايفون 14 والأقدم",
+                shortDescription: "كابل ايفون بأقل نسبة إرجاع في كايرو فولت (0.3%) | ضمان 24 شهر | شحن سريع 27 واط PD",
                 description: "كابل USB-C إلى Lightning فاخر بضمان 24 شهر للايفون 14/13/12/11. شحن سريع 30 واط PD. مثالي للمستخدمين الذين يريدون راحة البال.",
                 features: ["شحن سريع 30 واط PD", "ضمان 24 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون متين"],
                 metaTitle: "كابل جوي روم Lightning ضمان 24 شهر | مصر",
