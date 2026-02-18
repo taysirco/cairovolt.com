@@ -5394,7 +5394,10 @@ export const products = [
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
                 metaTitle: "كابل جوي روم 60 واط USB-C للايفون 17 وسامسونج | مصر",
                 metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
-                faqs: []
+                faqs: [
+                    { question: "هل يشحن ماك بوك؟", answer: "نعم، يشحن ماك بوك اير بأقصى سرعة. لماك بوك برو، يشحن لكن ببطء — ننصح بكابل 100W لموديلات برو." },
+                    { question: "هل يدعم الشحن السريع لسامسونج S26؟", answer: "نعم! يدعم PD + PPS بقوة 45 واط — اختبار CairoVolt: S26 Ultra من 0→50% في 22 دقيقة." }
+                ]
             }
         },
         seo: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", focusKeyword: "joyroom 60w usb-c cable" }
@@ -5425,7 +5428,10 @@ export const products = [
                 features: ["30W PD fast charging", "MFi certified", "Braided nylon design", "iPhone 14/13/12/11 compatible", "1m length", "18-month warranty"],
                 metaTitle: "Joyroom USB-C Lightning Cable iPhone 14 | Egypt",
                 metaDesc: "Joyroom USB-C to Lightning Cable - 30W fast charging for iPhone 14/13/12. MFi certified. Best price Egypt.",
-                faqs: []
+                faqs: [
+                    { question: "Is this cable MFi certified?", answer: "Yes! This cable has Apple MFi certification with the C94 chip, ensuring safe charging and zero 'accessory not supported' errors." },
+                    { question: "Does it support fast charging?", answer: "Yes, 30W PD fast charging. CairoVolt test: charges iPhone 14 from 0→50% in 28 minutes with a 30W charger." }
+                ]
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى Lightning",
@@ -5434,7 +5440,10 @@ export const products = [
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
                 metaTitle: "كابل جوي روم USB-C Lightning للايفون 14 | مصر",
                 metaDesc: "كابل جوي روم USB-C إلى Lightning - شحن سريع 30 واط للايفون 14/13/12. معتمد MFi. أفضل سعر مصر.",
-                faqs: []
+                faqs: [
+                    { question: "هل الكابل معتمد MFi؟", answer: "نعم! هذا الكابل معتمد من أبل بشريحة C94، مما يضمن شحن آمن وعدم ظهور رسالة 'ملحق غير مدعوم'." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "نعم، شحن سريع 30 واط PD. اختبار CairoVolt: ايفون 14 من 0→50% في 28 دقيقة مع شاحن 30 واط." }
+                ]
             }
         },
         seo: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt", focusKeyword: "joyroom usb-c lightning cable" }
