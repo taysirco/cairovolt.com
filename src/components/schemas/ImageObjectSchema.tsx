@@ -1,80 +1,132 @@
 // Server Component - Schemas must be SSR for Google to crawl them
 // DO NOT add 'use client' here!
 
+interface ProductImageInfo {
+    url: string;
+    alt?: string;
+    width?: number;
+    height?: number;
+    isPrimary?: boolean;
+}
+
 interface ImageObjectSchemaProps {
-    imageUrl: string;
+    images: ProductImageInfo[];
     productName: string;
     productSlug: string;
+    productBrand: string;
+    productPrice: number;
+    productCategory: string;
     locale: string;
     baseUrl?: string;
 }
 
 /**
- * ImageObjectSchema for product images — injects structured data
- * with GPS coordinates, creator info, licensing, and content location
- * to boost Google Lens and Image Search visibility.
+ * Google Lens–optimised ImageObject schemas.
+ *
+ * Emits one <script type="application/ld+json"> per product image (max 8).
+ * Key signals for Google Lens:
+ *   • subjectOf → Product (name, price, brand, url) — triggers "Buy" card in Lens
+ *   • representativeOfPage = true on primary image
+ *   • digitalSourceType = digitalCapture (not AI-generated)
+ *   • contentLocation with GPS coordinates (Cairo)
+ *   • width / height for dimension signals
+ *   • thumbnail for quick visual matching
  */
 export function ImageObjectSchema({
-    imageUrl,
+    images,
     productName,
     productSlug,
+    productBrand,
+    productPrice,
+    productCategory,
     locale,
     baseUrl = 'https://cairovolt.com',
 }: ImageObjectSchemaProps) {
     const isArabic = locale === 'ar';
+    const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${productBrand.toLowerCase()}/${productCategory.toLowerCase()}/${productSlug}`;
+    const year = new Date().getFullYear();
 
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'ImageObject',
-        contentUrl: imageUrl.startsWith('http') ? imageUrl : `${baseUrl}${imageUrl}`,
+    const productSubject = {
+        '@type': 'Product',
         name: productName,
-        description: isArabic
-            ? `صورة أصلية لمنتج ${productName} من داخل مخازن كايرو فولت مصر`
-            : `Original product photo of ${productName} from CairoVolt warehouse in Egypt`,
-        creditText: 'Cairo Volt Fulfillment Hub',
-        copyrightNotice: `© ${new Date().getFullYear()} CairoVolt LLC (CR: 8446)`,
-        creator: {
-            '@type': 'Organization',
-            name: 'Cairo Volt Labs',
-            url: baseUrl,
+        url: productUrl,
+        brand: { '@type': 'Brand', name: productBrand },
+        offers: {
+            '@type': 'Offer',
+            price: productPrice,
+            priceCurrency: 'EGP',
+            availability: 'https://schema.org/InStock',
+            url: productUrl,
+            seller: { '@type': 'Organization', name: isArabic ? 'كايرو فولت' : 'CairoVolt', url: baseUrl },
         },
-        contentLocation: {
-            '@type': 'Place',
-            name: isArabic ? 'مستودع كايرو فولت، القاهرة الجديدة' : 'CairoVolt Warehouse, New Cairo',
-            geo: {
-                '@type': 'GeoCoordinates',
-                latitude: 30.6997469,
-                longitude: 31.2088556,
-            },
-        },
-        license: `${baseUrl}/en/return-policy`,
-        acquireLicensePage: `${baseUrl}/en/products/${productSlug}`,
-        digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
-        encodingFormat: 'image/webp',
-        isFamilyFriendly: true,
-        exifData: [
-            {
-                '@type': 'PropertyValue',
-                name: 'DigitalSourceType',
-                value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
-            },
-            {
-                '@type': 'PropertyValue',
-                name: 'Creator',
-                value: 'CairoVolt',
-            },
-            {
-                '@type': 'PropertyValue',
-                name: 'Country',
-                value: 'Egypt',
-            },
-        ],
     };
 
+    const schemas = images.slice(0, 8).map((img, idx) => {
+        const absUrl = img.url.startsWith('http') ? img.url : `${baseUrl}${img.url}`;
+        const isPrimary = img.isPrimary || idx === 0;
+
+        return {
+            '@context': 'https://schema.org',
+            '@type': 'ImageObject',
+            '@id': `${absUrl}#imageobject`,
+            contentUrl: absUrl,
+            url: absUrl,
+            name: img.alt || (isArabic
+                ? `${productName} — صورة ${idx + 1} — كايرو فولت مصر`
+                : `${productName} — Image ${idx + 1} — CairoVolt Egypt`),
+            description: isArabic
+                ? `صورة أصلية رقم ${idx + 1} لمنتج ${productName} من مخازن كايرو فولت، مصر. التقطت بكاميرا حقيقية.`
+                : `Original product photo ${idx + 1} of ${productName} from CairoVolt warehouse, Egypt. Captured with a real camera.`,
+            ...(isPrimary && { representativeOfPage: true }),
+            ...(img.width && { width: img.width }),
+            ...(img.height && { height: img.height }),
+            thumbnail: { '@type': 'ImageObject', contentUrl: absUrl },
+            encodingFormat: 'image/webp',
+            digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
+            isFamilyFriendly: true,
+            creditText: 'CairoVolt',
+            copyrightNotice: `© ${year} CairoVolt - cairovolt.com`,
+            creator: {
+                '@type': 'Organization',
+                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
+                url: baseUrl,
+                sameAs: 'https://cairovolt.com',
+            },
+            contentLocation: {
+                '@type': 'Place',
+                name: isArabic ? 'مستودع كايرو فولت، القاهرة الجديدة' : 'CairoVolt Warehouse, New Cairo, Egypt',
+                address: {
+                    '@type': 'PostalAddress',
+                    addressCountry: 'EG',
+                    addressLocality: isArabic ? 'القاهرة الجديدة' : 'New Cairo',
+                },
+                geo: {
+                    '@type': 'GeoCoordinates',
+                    latitude: 30.6997469,
+                    longitude: 31.2088556,
+                },
+            },
+            license: `${baseUrl}/en/return-policy`,
+            acquireLicensePage: productUrl,
+            subjectOf: productSubject,
+            exifData: [
+                { '@type': 'PropertyValue', name: 'DigitalSourceType', value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture' },
+                { '@type': 'PropertyValue', name: 'Creator', value: 'CairoVolt' },
+                { '@type': 'PropertyValue', name: 'Country', value: 'Egypt' },
+                { '@type': 'PropertyValue', name: 'City', value: 'Cairo' },
+            ],
+        };
+    });
+
     return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
+        <>
+            {schemas.map((schema, idx) => (
+                <script
+                    key={idx}
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+                />
+            ))}
+        </>
     );
 }

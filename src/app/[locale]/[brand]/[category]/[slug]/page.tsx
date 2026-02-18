@@ -290,12 +290,19 @@ export default async function ProductPage({ params }: Props) {
                 })()}
             />
 
-            {/* ImageObject Schema for primary product image */}
-            {product.images?.[0]?.url && (
+            {/* ImageObject Schemas — one per product image (max 8) for Google Lens */}
+            {product.images && product.images.length > 0 && (
                 <ImageObjectSchema
-                    imageUrl={product.images[0].url}
+                    images={product.images.map((img, i) => ({
+                        url: img.url,
+                        alt: img.alt || '',
+                        isPrimary: img.isPrimary || i === 0,
+                    }))}
                     productName={productName}
                     productSlug={slug}
+                    productBrand={product.brand}
+                    productPrice={product.price || 0}
+                    productCategory={category}
                     locale={locale}
                 />
             )}
