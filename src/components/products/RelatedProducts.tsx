@@ -91,6 +91,14 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                             -{discount}%
                                         </span>
                                     )}
+
+                                    {/* Content Credentials verified indicator */}
+                                    <span
+                                        className="absolute bottom-1 right-1 bg-emerald-500 text-white rounded-full p-0.5 z-10"
+                                        title={isArabic ? 'صورة موثّقة — C2PA' : 'Verified image — C2PA'}
+                                    >
+                                        <SvgIcon name="shield" className="w-2.5 h-2.5" />
+                                    </span>
                                 </div>
 
                                 {/* Product Info */}
