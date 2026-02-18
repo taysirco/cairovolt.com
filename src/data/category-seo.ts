@@ -193,7 +193,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
                             answer: 'نعم، وبشكل مطلق. منتجات انكر 2026 تدعم تقنية ActiveShield™ 2.0 و 3.0 التي تراقب درجة حرارة البطارية أكثر من 3 مليون مرة يومياً. بالإضافة لذلك، هي تدعم بروتوكول الشحن المقتصد (Trickle Charging) وسحب الطاقة الذكي الذي يمنع الشحن الزائد، مما يحافظ على صحة البطارية (Health) عند 100% لفترة أطول.'
                         },
                         {
-                            question: 'كم مرة يشحن باور بانك 10000 الموبايل؟',
+                            question: 'كم شحنة يعطي باور بانك 10000 مللي أمبير للموبايلات المختلفة؟',
                             answer: 'يعتمد على حجم بطارية هاتفك، ولكن في المتوسط يشحن الايفون العادي (مثل iPhone 16/17) حوالي مرتين، ويشحن هواتف البرو ماكس والألترا مرة ونصف.'
                         },
                         {
@@ -1122,7 +1122,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                             answer: 'لا، لأن جوي روم تستخدم شريحة Smart IC التي تتعرف على الجهاز وتعطيه الفولت المناسب تماماً (مثل الشاحن الأصلي) وتفصل الشحن عند الامتلاء.'
                         },
                         {
-                            question: 'هل مسموح به في الطائرة؟',
+                            question: 'هل الباور بانك مسموح على الطائرة؟ وما الحد الأقصى للسعة؟',
                             answer: 'نعم، جميع موديلات جوي روم (حتى 20,000) مسموح بها في حقيبة اليد (Handbag) في الطائرات لأنها أقل من 100Wh.'
                         }
                     ],
@@ -1277,8 +1277,8 @@ Fake Joyroom banks are common (often filled with sand!).
                             answer: 'Slight warmth is normal during fast charging. However, Joyroom\'s thermal sensors cut off power instantly if limits are exceeded.'
                         },
                         {
-                            question: 'Does it support Samsung Super Fast Charging?',
-                            answer: 'Yes, models with PPS support (check specs) fully activate Samsung\'s Super Fast Charging mode.'
+                            question: 'Which Joyroom chargers support Samsung Super Fast Charging?',
+                            answer: 'Models with PPS support (25W+ with PPS in specs) fully activate Samsung\'s Super Fast Charging mode. The Joyroom 25W and 30W chargers both support it.'
                         }
                     ],
                     products: [
