@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { validateApiKey } from '@/lib/api-auth';
 import { buildManifest, signManifest } from '@/lib/content-credentials';
+import { getSecret } from '@/lib/get-secrets';
 
 /**
  * Admin: Batch sign Content Credentials for all Firestore products
@@ -102,7 +103,11 @@ export async function GET(req: NextRequest) {
     const authError = validateApiKey(req);
     if (authError) return authError;
 
-    const keysConfigured = !!(process.env.CAIROVOLT_PRIVATE_KEY && process.env.CAIROVOLT_PUBLIC_KEY);
+    const [privKey, pubKey] = await Promise.all([
+        getSecret('cairovolt_private_key'),
+        getSecret('cairovolt_public_key'),
+    ]);
+    const keysConfigured = !!(privKey && pubKey);
 
     try {
         const db = await getFirestore();
