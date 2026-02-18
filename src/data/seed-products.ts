@@ -2736,7 +2736,7 @@ export const products = [
 <div class="semantic-body space-y-6">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Premium Features at a Budget Price</h2>
-        <p class="text-gray-700">The Joyroom 10000mAh delivers what budget power banks don't: <strong>Quick Charge 3.0</strong> (4x faster than standard), a <strong>digital LED display</strong> showing exact battery percentage, and <strong>dual USB output</strong> to charge your phone and earbuds simultaneously. All at a price point that's significantly lower than Anker for the same 10,000mAh capacity.</p>
+        <p class="text-gray-700">The Joyroom 10000mAh delivers what budget power banks don't: <strong>Quick Charge 3.0</strong> (4x faster than standard), a <strong>digital LED display</strong> showing exact battery percentage, and <strong>dual USB output</strong> to charge your phone and earbuds simultaneously. All at a price point that's significantly lower than premium brands for the same 10,000mAh capacity.</p>
     </section>
 
     <section>
@@ -2826,7 +2826,7 @@ export const products = [
 <div class="semantic-body space-y-6">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مميزات فاخرة بسعر اقتصادي</h2>
-        <p class="text-gray-700">جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من انكر لنفس السعة.</p>
+        <p class="text-gray-700">جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من الماركات الفاخرة لنفس السعة.</p>
     </section>
 
     <section>
