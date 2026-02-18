@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { products as staticProducts } from '@/data/seed-products';
+import { getFirestore } from '@/lib/firebase-admin';
 
 /**
  * Merchant Center XML Product Feed
@@ -24,7 +25,47 @@ interface FeedProduct {
     shippingPrice: number;
 }
 
-function getProducts(): FeedProduct[] {
+async function getProducts(): Promise<FeedProduct[]> {
+    // Try Firestore first
+    try {
+        const db = await getFirestore();
+        const snapshot = await db.collection('products')
+            .where('status', '==', 'active')
+            .get();
+
+        if (!snapshot.empty) {
+            const firestoreDocs = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() } as Record<string, unknown>));
+            return firestoreDocs
+                .filter(p => (Number(p.stock) ?? 0) > 0)
+                .map(p => {
+                    const translations = p.translations as Record<string, Record<string, string>> | undefined;
+                    const images = p.images as Array<{ url: string; isPrimary?: boolean }> | undefined;
+                    const arName = translations?.ar?.name || (p.slug as string || '').replace(/-/g, ' ');
+                    const arDesc = (translations?.ar?.shortDescription || translations?.ar?.description || '').substring(0, 5000);
+                    const brand = ((p.brand as string) || '').toLowerCase();
+                    const primaryImage = images?.find(img => img.isPrimary)?.url || images?.[0]?.url || '';
+                    const price = Number(p.price) || 0;
+
+                    return {
+                        id: (p.sku as string) || (p.slug as string),
+                        title: arName,
+                        description: arDesc,
+                        link: `https://cairovolt.com/${brand}/${p.categorySlug}/${p.slug}`,
+                        imageLink: primaryImage.startsWith('http') ? primaryImage : `https://cairovolt.com${primaryImage}`,
+                        price: price,
+                        availability: 'in stock' as const,
+                        brand: (p.brand as string) || '',
+                        gtin: p.gtin as string | undefined,
+                        condition: 'new',
+                        shippingPrice: price >= 500 ? 0 : 40,
+                    };
+                });
+        }
+    } catch {
+        // Firestore unavailable — fallback to static
+    }
+
+    // Fallback to static data
     return staticProducts
         .filter((p) => (p.stock ?? 0) > 0)
         .map((p) => {
@@ -52,7 +93,7 @@ function getProducts(): FeedProduct[] {
 }
 
 export async function GET() {
-    const products = getProducts();
+    const products = await getProducts();
 
     // QDF (Query Deserves Freshness) signal: price valid until tomorrow forces Google to re-crawl daily
     const priceValidUntil = new Date(Date.now() + 86400000).toISOString().split('T')[0];

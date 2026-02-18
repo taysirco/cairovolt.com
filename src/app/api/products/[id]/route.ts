@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
+import { validateApiKey } from '@/lib/api-auth';
 
 // ============================================
 // GET - Get single product by ID
@@ -39,6 +40,9 @@ export async function PUT(
     req: NextRequest,
     { params }: { params: Promise<{ id: string }> }
 ) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {
@@ -176,6 +180,9 @@ export async function DELETE(
     req: NextRequest,
     { params }: { params: Promise<{ id: string }> }
 ) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {

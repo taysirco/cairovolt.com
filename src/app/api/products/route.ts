@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue, Query } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
+import { validateApiKey } from '@/lib/api-auth';
 
 // ============================================
 // GET - List all products with pagination & filtering
@@ -13,6 +14,7 @@ export async function GET(req: NextRequest) {
     const category = url.searchParams.get('category');
     const status = url.searchParams.get('status');
     const search = url.searchParams.get('search');
+    const slug = url.searchParams.get('slug');
     const limit = parseInt(url.searchParams.get('limit') || '50');
     const page = parseInt(url.searchParams.get('page') || '1');
     // const useFirebase = url.searchParams.get('firebase') === 'true'; // Deprecated flag, we now always try Firebase first
@@ -31,6 +33,9 @@ export async function GET(req: NextRequest) {
         }
         if (status) {
             query = query.where('status', '==', status);
+        }
+        if (slug) {
+            query = query.where('slug', '==', slug);
         }
 
         // Order by creation date
@@ -111,6 +116,9 @@ export async function GET(req: NextRequest) {
         if (status) {
             products = products.filter(p => p.status === status);
         }
+        if (slug) {
+            products = products.filter(p => p.slug === slug);
+        }
         if (search) {
             const searchLower = search.toLowerCase();
             products = products.filter(p =>
@@ -145,6 +153,9 @@ export async function GET(req: NextRequest) {
 // ============================================
 
 export async function POST(req: NextRequest) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {
@@ -260,6 +271,9 @@ export async function POST(req: NextRequest) {
 // ============================================
 
 export async function DELETE(req: NextRequest) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {

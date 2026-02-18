@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticCategories, staticProducts } from '@/lib/static-products';
+import { validateApiKey } from '@/lib/api-auth';
 
 // ============================================
 // GET - List all categories
@@ -33,6 +34,9 @@ export async function GET() {
 // ============================================
 
 export async function POST(req: NextRequest) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {
@@ -107,6 +111,9 @@ export async function POST(req: NextRequest) {
 // ============================================
 
 export async function DELETE(req: NextRequest) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
+import { checkRateLimit } from './lib/rate-limit';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -26,14 +27,55 @@ export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     const userAgent = request.headers.get('user-agent') || '';
 
-    // Skip API routes, static files, Firebase internals
+    // Skip static files and Firebase internals
     if (
-        pathname.startsWith('/api') ||
         pathname.startsWith('/_next') ||
         pathname.startsWith('/__firebase') ||
         /\.[a-zA-Z][a-zA-Z0-9]{1,5}$/.test(pathname)
     ) {
         return NextResponse.next();
+    }
+
+    // ── API Rate Limiting + CORS ──
+    if (pathname.startsWith('/api')) {
+        const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+            request.headers.get('x-real-ip') ||
+            'unknown';
+        const isWrite = request.method !== 'GET' && request.method !== 'HEAD' && request.method !== 'OPTIONS';
+        const rateResult = checkRateLimit(ip, isWrite);
+
+        // Handle CORS preflight
+        if (request.method === 'OPTIONS') {
+            return new NextResponse(null, {
+                status: 204,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, X-API-Key',
+                    'Access-Control-Max-Age': '86400',
+                },
+            });
+        }
+
+        if (!rateResult.allowed) {
+            return NextResponse.json(
+                { error: 'Rate limit exceeded', retryAfter: Math.ceil((rateResult.resetAt - Date.now()) / 1000) },
+                {
+                    status: 429,
+                    headers: {
+                        'Retry-After': String(Math.ceil((rateResult.resetAt - Date.now()) / 1000)),
+                        'X-RateLimit-Limit': String(rateResult.limit),
+                        'X-RateLimit-Remaining': '0',
+                    },
+                },
+            );
+        }
+
+        const response = NextResponse.next();
+        response.headers.set('Access-Control-Allow-Origin', '*');
+        response.headers.set('X-RateLimit-Limit', String(rateResult.limit));
+        response.headers.set('X-RateLimit-Remaining', String(rateResult.remaining));
+        return response;
     }
 
     // ── Block competitor spy bots (403) ──
@@ -97,12 +139,12 @@ export default function middleware(request: NextRequest) {
         response.headers.set('X-Cache-Status', 'DYNAMIC');
         if (AI_CRAWLER_PATTERN.test(userAgent)) {
             response.headers.set('X-AI-Crawler', 'detected');
-            response.headers.set('Link', '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions"');
+            response.headers.set('Link', '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/ai-plugin.json>; rel="ai-plugin", <https://cairovolt.com/api/openapi.json>; rel="openapi"');
         }
     }
     return response;
 }
 
 export const config = {
-    matcher: ['/((?!api|_next|__firebase|.*\\..*).*)']
+    matcher: ['/((?!_next|__firebase|.*\\..*).*)']
 };

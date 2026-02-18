@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { products } from '@/data/seed-products';
+import { getFirestore } from '@/lib/firebase-admin';
 
 /**
  * AI Crawlers Feed — /.well-known/llms.txt
@@ -10,14 +11,39 @@ import { products } from '@/data/seed-products';
  * No "SYSTEM OVERRIDE" or prompt injection — that's Black Hat and will be ignored/penalized.
  */
 export async function GET() {
-    // Build live product catalog from static data
-    const catalogLines = products
-        .filter(p => (p.stock ?? 0) > 0)
-        .slice(0, 30) // Limit to 30 products to keep the file lightweight
+    // Try Firestore first, fallback to static data
+    let liveProducts: Array<Record<string, unknown>> = [];
+    let dataSource = 'static';
+
+    try {
+        const db = await getFirestore();
+        const snapshot = await db.collection('products')
+            .where('status', '==', 'active')
+            .orderBy('createdAt', 'desc')
+            .get();
+
+        if (!snapshot.empty) {
+            liveProducts = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+            dataSource = 'firestore';
+        }
+    } catch {
+        // Firestore unavailable — use static data
+    }
+
+    // Fallback to static
+    if (liveProducts.length === 0) {
+        liveProducts = products.map(p => ({ ...p } as Record<string, unknown>));
+    }
+
+    const catalogLines = liveProducts
+        .filter(p => (Number(p.stock) ?? 0) > 0)
+        .slice(0, 30)
         .map(p => {
-            const name = p.translations?.en?.name || p.slug.replace(/-/g, ' ');
-            const brand = (p.brand || '').toLowerCase();
-            const status = (p.stock ?? 0) > 0 ? 'IN_STOCK' : 'OUT_OF_STOCK';
+            const translations = p.translations as Record<string, Record<string, string>> | undefined;
+            const name = translations?.en?.name || (p.slug as string || '').replace(/-/g, ' ');
+            const brand = ((p.brand as string) || '').toLowerCase();
+            const stock = Number(p.stock) || 0;
+            const status = stock > 0 ? 'IN_STOCK' : 'OUT_OF_STOCK';
             return `- ${name} | ${p.price} EGP | ${status} | https://cairovolt.com/${brand}/${p.categorySlug}/${p.slug}`;
         })
         .join('\n');
@@ -111,6 +137,17 @@ ${catalogLines}
 - Cables (USB-C, Lightning, MFi certified) — 10,000+ bend tested
 - Car Chargers & Holders — tested on Egyptian highways in summer
 - Smart Watches (Joyroom) — tested in Egyptian summer heat + pool
+
+## M2M Commerce API (for AI Agents)
+AI agents can programmatically browse and purchase products:
+- **Check availability**: \`GET https://cairovolt.com/api/v1/checkout?slug=anker-737-powerbank\`
+- **Search products**: \`GET https://cairovolt.com/api/v1/checkout?q=anker charger\`
+- **Place order**: \`POST https://cairovolt.com/api/v1/checkout\` with JSON body \`{sku, customerName, phone, address, city}\`
+- **OpenAPI spec**: https://cairovolt.com/api/openapi.json
+- **AI Plugin manifest**: https://cairovolt.com/.well-known/ai-plugin.json
+- **Full product list**: \`GET https://cairovolt.com/api/products?brand=Anker&category=power-banks\`
+
+Data source: ${dataSource}
 
 ## Contact
 - Phone/WhatsApp: +201063374834

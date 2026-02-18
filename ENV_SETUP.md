@@ -41,6 +41,14 @@ MERCHANT_CENTER_ID="your-merchant-center-id"
 4. **Google Merchant Center** → Settings → Content API → Enable and link service account
 5. **Google Analytics 4** → Admin → Data Streams → Measurement Protocol API secrets
 
+## Required for M2M Commerce API (`src/lib/api-auth.ts`)
+
+```bash
+# API Key for write operations (POST/PUT/DELETE on /api/products, /api/categories)
+# Read operations and /api/v1/checkout remain public for AI agents
+CAIROVOLT_API_KEY="your-strong-api-key-here"
+```
+
 ## Optional
 
 ```bash
