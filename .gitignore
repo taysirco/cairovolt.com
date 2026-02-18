@@ -52,3 +52,4 @@ functions/.secret.*
 *-key.json
 *-keys.json
 cairovolt-*.json
+keyword_analysis_report.md
