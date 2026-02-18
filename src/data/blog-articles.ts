@@ -65,7 +65,7 @@ export const blogArticles: BlogArticle[] = [
 
 <h2>أفضل 5 باور بانك في مصر 2026</h2>
 
-<h3>1. Anker PowerCore 20000mAh — الأكثر مبيعاً</h3>
+<h3>1. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;text-decoration:underline">Anker PowerCore 20000mAh</a> — الأكثر مبيعاً</h3>
 <p><strong>السعر:</strong> 1,054 جنيه | <strong>السعة:</strong> 20,000mAh | <strong>الوزن:</strong> 350 جم</p>
 <p>الخيار الأول لأغلب المصريين. يشحن iPhone 17 Pro أربع مرات كاملة، ويدعم الشحن السريع PowerIQ. مصنوع من خلايا بطارية Grade-A (نفس المستخدمة في السيارات الكهربائية).</p>
 <ul>
@@ -75,7 +75,7 @@ export const blogArticles: BlogArticle[] = [
 <li>✗ لا يدعم شحن اللابتوب</li>
 </ul>
 
-<h3>2. Anker Nano 10000mAh — الأصغر حجماً</h3>
+<h3>2. <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;text-decoration:underline">Anker Nano 10000mAh</a> — الأصغر حجماً</h3>
 <p><strong>السعر:</strong> 1,358 جنيه | <strong>السعة:</strong> 10,000mAh | <strong>الوزن:</strong> 190 جم</p>
 <p>بحجم بطاقة الائتمان تقريباً. مثالي للاستخدام اليومي الخفيف ويدخل في أي جيب. يدعم USB-C بقوة 30 واط للشحن السريع.</p>
 
@@ -83,11 +83,11 @@ export const blogArticles: BlogArticle[] = [
 <p><strong>السعر:</strong> 3,799 جنيه | <strong>السعة:</strong> 27,650mAh | <strong>القوة:</strong> 250W</p>
 <p>الوحش الحقيقي. يشحن MacBook Pro 16" من 0 لـ 50% في 30 دقيقة. شاشة رقمية ذكية وتطبيق بلوتوث للتحكم. الخيار الأفضل للمسافرين والمحترفين.</p>
 
-<h3>4. Joyroom Power Bank 10000mAh — الأفضل اقتصادياً</h3>
+<h3>4. <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;text-decoration:underline">Joyroom Power Bank 10000mAh</a> — الأفضل اقتصادياً</h3>
 <p><strong>السعر:</strong> ~450 جنيه | <strong>السعة:</strong> 10,000mAh</p>
 <p>خيار ممتاز لمن يبحث عن جودة جيدة بسعر اقتصادي. تصميم أنيق وشحن سريع يصل لـ 22.5 واط. ضمان 12 شهر.</p>
 
-<h3>5. Joyroom Power Bank 20000mAh — اقتصادي وقوي</h3>
+<h3>5. <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;text-decoration:underline">Joyroom Power Bank 20000mAh</a> — اقتصادي وقوي</h3>
 <p><strong>السعر:</strong> ~650 جنيه | <strong>السعة:</strong> 20,000mAh</p>
 <p>سعة كبيرة بسعر منافس. يشحن الموبايل 4 مرات ويدعم الشحن السريع. خيار ذكي للطلاب.</p>
 
