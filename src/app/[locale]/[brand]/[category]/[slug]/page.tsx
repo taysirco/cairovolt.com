@@ -14,6 +14,7 @@ import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import TabTakeover from '@/components/UX/TabTakeover';
 import { getLabData } from '@/data/cairovolt-labs';
 import LabTestBlock from '@/components/seo/LabTestBlock';
+import { buildManifest, signManifest } from '@/lib/content-credentials';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -38,6 +39,7 @@ interface Product {
         ar?: { name?: string; description?: string; shortDescription?: string; features?: string[]; metaTitle?: string; metaDesc?: string; faqs?: Array<{ question: string; answer: string }> };
     };
     seo?: { keywords?: string; focusKeyword?: string; canonical?: string };
+    contentCredentials?: Record<string, unknown> | null;
 }
 
 // Fetch current Cairo temperature for dynamic thermal advice (Information Gain)
@@ -54,13 +56,24 @@ async function getCairoTemperature(): Promise<number> {
     }
 }
 
+function trySignProduct(name: string): Record<string, unknown> | null {
+    try {
+        const manifest = buildManifest({ title: name, format: 'image/jpeg', captureMethod: 'c2pa.captured' });
+        return signManifest(manifest) as unknown as Record<string, unknown>;
+    } catch {
+        return null;
+    }
+}
+
 async function getProduct(slug: string): Promise<Product | null> {
     // First try static data
     const staticProduct = getProductBySlug(slug);
     if (staticProduct) {
+        const name = staticProduct.translations?.en?.name || slug;
         return {
             id: `static_${staticProduct.slug}`,
-            ...staticProduct
+            ...staticProduct,
+            contentCredentials: trySignProduct(name),
         } as Product;
     }
 
@@ -76,7 +89,13 @@ async function getProduct(slug: string): Promise<Product | null> {
 
         if (snapshot.empty) return null;
 
-        return { id: snapshot.docs[0].id, ...snapshot.docs[0].data() } as Product;
+        const docData = snapshot.docs[0].data();
+        // If Firestore product has no credentials yet, sign on-the-fly
+        if (!docData.contentCredentials) {
+            const name = (docData.translations?.en?.name as string | undefined) || slug;
+            docData.contentCredentials = trySignProduct(name);
+        }
+        return { id: snapshot.docs[0].id, ...docData } as Product;
     } catch (error) {
         console.warn(`Failed to fetch product ${slug} from Firebase`, error);
         return null;

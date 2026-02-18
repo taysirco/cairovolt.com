@@ -22,3 +22,7 @@ secrets:
     secret: google_private_key
   - variable: CAIROVOLT_API_KEY
     secret: cairovolt_api_key
+  - variable: CAIROVOLT_PRIVATE_KEY
+    secret: cairovolt_private_key
+  - variable: CAIROVOLT_PUBLIC_KEY
+    secret: cairovolt_public_key

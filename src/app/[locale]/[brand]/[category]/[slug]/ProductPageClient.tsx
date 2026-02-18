@@ -34,6 +34,7 @@ const RouterSurvivalCalculator = dynamic(() => import('@/components/UX/RouterSur
 import RelatedLinks from '@/components/seo/RelatedLinks';
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
 
 interface Product {
     id: string; // Add id
@@ -55,6 +56,7 @@ interface Product {
         ar?: string;
     };
     seo?: { keywords?: string; focusKeyword?: string };
+    contentCredentials?: Record<string, unknown> | null;
 }
 
 interface ProductPageClientProps {
@@ -295,6 +297,17 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         />
                                     </button>
                                 ))}
+                            </div>
+                        )}
+
+                        {/* Content Credentials Badge */}
+                        {product.contentCredentials && (
+                            <div className="flex justify-end">
+                                <ContentCredentialsBadge
+                                    credentials={product.contentCredentials as Parameters<typeof ContentCredentialsBadge>[0]['credentials']}
+                                    productSlug={product.slug}
+                                    locale={locale}
+                                />
                             </div>
                         )}
                     </div>

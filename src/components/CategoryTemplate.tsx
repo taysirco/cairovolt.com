@@ -625,6 +625,13 @@ export default function CategoryTemplate({
                                                     </span>
                                                 </div>
                                             )}
+                                            {/* Content Credentials: verified image indicator */}
+                                            <span
+                                                className="absolute bottom-0.5 right-0.5 bg-emerald-500 text-white rounded-full p-0.5"
+                                                title={locale === 'ar' ? 'صورة موثّقة — C2PA' : 'Verified image — C2PA'}
+                                            >
+                                                <SvgIcon name="shield" className="w-2.5 h-2.5" />
+                                            </span>
                                         </div>
 
                                         {/* Product Info */}

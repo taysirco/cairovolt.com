@@ -49,6 +49,52 @@ MERCHANT_CENTER_ID="your-merchant-center-id"
 CAIROVOLT_API_KEY="your-strong-api-key-here"
 ```
 
+## Content Credentials — C2PA Digital Signing (`src/lib/content-credentials.ts`)
+
+Cryptographic proof that product images are real (not AI-generated).  
+Uses ES384 (ECDSA P-384 + SHA-384). Keys are generated once and stored securely.
+
+### Step 1 — Generate key pair (run once)
+
+```bash
+node scripts/generate-signing-keys.mjs
+```
+
+### Step 2 — Add to `.env.local`
+
+```bash
+# Base64-encoded PKCS8 PEM (keep SECRET — never commit)
+CAIROVOLT_PRIVATE_KEY="LS0tLS1CRUdJTi..."
+
+# Base64-encoded SPKI PEM (public — safe to expose)
+CAIROVOLT_PUBLIC_KEY="LS0tLS1CRUdJTi..."
+```
+
+### Step 3 — Add to Google Secret Manager (production)
+
+```bash
+echo -n "$CAIROVOLT_PRIVATE_KEY" | gcloud secrets create CAIROVOLT_PRIVATE_KEY --data-file=-
+echo -n "$CAIROVOLT_PUBLIC_KEY"  | gcloud secrets create CAIROVOLT_PUBLIC_KEY  --data-file=-
+```
+
+### Step 4 — Sign existing products (run once after key setup)
+
+```bash
+node scripts/sign-existing-products.mjs --dry-run   # preview
+node scripts/sign-existing-products.mjs             # apply
+```
+
+### Verification endpoints (public, no auth required)
+
+| Endpoint | Description |
+|---|---|
+| `GET /.well-known/did.json` | DID Document (`did:web:cairovolt.com`) |
+| `GET /.well-known/jwks.json` | Public key (JWKS format) |
+| `GET /api/v1/verify-content?slug=<slug>` | Verify a product by slug |
+| `POST /api/v1/verify-content` | Verify a raw SignedCredential object |
+
+---
+
 ## Optional
 
 ```bash

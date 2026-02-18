@@ -3,6 +3,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue, Query } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { validateApiKey } from '@/lib/api-auth';
+import { buildManifest, signManifest } from '@/lib/content-credentials';
 
 // ============================================
 // GET - List all products with pagination & filtering
@@ -135,7 +136,7 @@ export async function GET(req: NextRequest) {
         const paginatedProducts = products.slice(startIndex, startIndex + limit);
 
         // Add fake IDs for compatibility
-        const productsWithIds = paginatedProducts.map((p, i) => ({
+        const productsWithIds = paginatedProducts.map((p) => ({
             id: `static_${p.slug}`,
             ...p
         }));
@@ -253,12 +254,29 @@ export async function POST(req: NextRequest) {
             updatedAt: FieldValue.serverTimestamp(),
         };
 
-        const docRef = await db.collection('products').add(productData);
+        // Sign a Content Credential manifest for this product
+        let contentCredentials = null;
+        try {
+            const manifest = buildManifest({
+                title: data.enName,
+                format: 'image/jpeg',
+                captureMethod: 'c2pa.captured',
+            });
+            contentCredentials = signManifest(manifest);
+        } catch (signingErr) {
+            console.warn('Content credentials signing skipped (keys not configured):', signingErr);
+        }
+
+        const docRef = await db.collection('products').add({
+            ...productData,
+            ...(contentCredentials ? { contentCredentials } : {}),
+        });
 
         return NextResponse.json({
             success: true,
             id: docRef.id,
-            ...productData
+            contentCredentialsSigned: contentCredentials !== null,
+            ...productData,
         });
     } catch (error) {
         console.error('Error creating product:', error);
