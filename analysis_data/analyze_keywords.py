@@ -50,7 +50,8 @@ def categorize_keyword(keyword):
     return brand, category
 
 def main():
-    files = glob.glob("/Users/ahmedsalem/Desktop/all my projects/mobile_accessories/Keyword Stats *.csv")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    files = glob.glob(os.path.join(script_dir, "Keyword Stats *.csv"))
     
     keywords_data = {} # (brand, category) -> list of dicts
     
