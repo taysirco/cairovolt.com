@@ -7,6 +7,7 @@ interface ProductSchemaProps {
         slug: string;
         sku: string;
         brand: string;
+        categorySlug?: string;
         price: number;
         originalPrice?: number;
         stock: number;
@@ -159,34 +160,13 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                 return [brandKey, 'cairovolt', 'egypt'].includes(key);
             }
         })(),
-        // Product specifications as additionalProperty + Wikipedia Semantic Triplets
+        // Product specifications as additionalProperty — only real specs, no hardcoded tech claims
         ...(specifications && Object.keys(specifications).length > 0 && {
-            additionalProperty: [
-                ...Object.entries(specifications).map(([key, val]) => ({
-                    '@type': 'PropertyValue',
-                    name: key,
-                    value: isArabic ? val.ar : val.en,
-                })),
-                // Semantic Triplets — Wikipedia entity links for Knowledge Graph depth
-                {
-                    '@type': 'PropertyValue',
-                    name: 'Core Technology',
-                    value: 'Gallium Nitride (GaN)',
-                    valueReference: { '@id': 'https://en.wikipedia.org/wiki/Gallium_nitride' },
-                },
-                {
-                    '@type': 'PropertyValue',
-                    name: 'Battery Chemistry',
-                    value: 'Lithium-ion',
-                    valueReference: { '@id': 'https://en.wikipedia.org/wiki/Lithium-ion_battery' },
-                },
-                {
-                    '@type': 'PropertyValue',
-                    name: 'Connector Standard',
-                    value: 'USB-C',
-                    valueReference: { '@id': 'https://en.wikipedia.org/wiki/USB-C' },
-                },
-            ],
+            additionalProperty: Object.entries(specifications).map(([key, val]) => ({
+                '@type': 'PropertyValue',
+                name: key,
+                value: isArabic ? val.ar : val.en,
+            })),
         }),
         // isAccessoryOrSparePartFor - links product to devices it powers
         ...(isAccessoryOrSparePartFor && isAccessoryOrSparePartFor.length > 0 && {
@@ -195,12 +175,46 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                 name: item.name,
             })),
         }),
-        // Audience with geographic targeting
+        // Audience with geographic targeting — category-aware description
         audience: {
             '@type': 'Audience',
-            audienceType: isArabic
-                ? 'المستخدمون في مصر الذين يحتاجون طاقة بديلة لأجهزة الإنترنت أثناء انقطاع الكهرباء'
-                : 'Users in Egypt who need backup power for internet devices during power outages',
+            audienceType: (() => {
+                const cat = (product as { categorySlug?: string }).categorySlug || '';
+                const audienceMap: Record<string, { en: string; ar: string }> = {
+                    'power-banks': {
+                        en: 'Users in Egypt who need portable backup power for phones and devices during power outages and travel',
+                        ar: 'المستخدمون في مصر الذين يحتاجون طاقة محمولة للهواتف والأجهزة أثناء انقطاع الكهرباء والسفر',
+                    },
+                    'wall-chargers': {
+                        en: 'Users in Egypt who need fast, safe wall chargers for phones, tablets, and laptops',
+                        ar: 'المستخدمون في مصر الذين يحتاجون شواحن حائط سريعة وآمنة للهواتف والتابلت واللابتوب',
+                    },
+                    'cables': {
+                        en: 'Users in Egypt who need durable, fast-charging cables for daily device connectivity',
+                        ar: 'المستخدمون في مصر الذين يحتاجون كابلات متينة وسريعة الشحن للاستخدام اليومي',
+                    },
+                    'audio': {
+                        en: 'Users in Egypt looking for quality wireless earbuds for music, calls, and commuting',
+                        ar: 'المستخدمون في مصر الذين يبحثون عن سماعات لاسلكية للموسيقى والمكالمات والمواصلات',
+                    },
+                    'car-chargers': {
+                        en: 'Drivers in Egypt who need reliable in-car fast charging for phones and devices',
+                        ar: 'السائقون في مصر الذين يحتاجون شحن سريع موثوق للهواتف أثناء القيادة',
+                    },
+                    'car-holders': {
+                        en: 'Drivers in Egypt who need secure phone mounting for navigation and hands-free use',
+                        ar: 'السائقون في مصر الذين يحتاجون تثبيت آمن للهاتف للملاحة واستخدام بدون يدين',
+                    },
+                    'smart-watches': {
+                        en: 'Active users in Egypt looking for affordable fitness tracking and smart notifications',
+                        ar: 'المستخدمون النشطون في مصر الذين يبحثون عن تتبع لياقة وإشعارات ذكية بسعر مناسب',
+                    },
+                };
+                const audience = audienceMap[cat];
+                return audience ? (isArabic ? audience.ar : audience.en) : (isArabic
+                    ? 'المستخدمون في مصر الذين يبحثون عن إكسسوارات إلكترونية أصلية بأفضل سعر'
+                    : 'Users in Egypt looking for original electronic accessories at the best price');
+            })(),
             geographicArea: {
                 '@type': 'Country',
                 name: 'Egypt',

@@ -339,7 +339,8 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'Store',
-        '@id': 'https://cairovolt.com/#organization',
+        '@id': 'https://cairovolt.com/#local-business',
+        parentOrganization: { '@id': 'https://cairovolt.com/#organization' },
         name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
         alternateName: isArabic ? 'Cairo Volt' : 'كايرو فولت',
         description: isArabic

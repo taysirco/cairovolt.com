@@ -265,15 +265,9 @@ export default async function ProductPage({ params }: Props) {
                             body: isArabic ? seoData.labVerified.result.ar : seoData.labVerified.result.en,
                         };
                     }
-                    // Priority 3: Generic fallback
-                    return {
-                        name: 'Eng. Ahmed Mahmoud',
-                        linkedIn: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
-                        title: isArabic ? 'رئيس قسم الفحص التقني وحلول الطاقة' : 'Head of Technical Testing & Power Solutions',
-                        body: isArabic
-                            ? 'تم اختباره في مختبر كايرو فولت وفحصه تقنياً قبل الطرح في السوق المصري.'
-                            : 'Tested at CairoVolt Labs and technically verified before sale to the Egyptian market.',
-                    };
+                    // No generic fallback — only inject expert review when real lab data exists
+                    // Generic identical reviews across pages = Schema Spam risk
+                    return undefined;
                 })()}
             />
 
