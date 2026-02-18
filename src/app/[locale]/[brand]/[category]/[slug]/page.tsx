@@ -353,24 +353,26 @@ export default async function ProductPage({ params }: Props) {
                 ) : null;
             })()}
 
-            {/* Dynamic thermal advice based on real-time Cairo weather (Information Gain) */}
-            <div className="bg-yellow-50/80 border-r-4 border-yellow-500 p-5 my-4 rounded-l-lg">
-                <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xl">🌡️</span>
-                    <h4 className="font-bold text-yellow-900">
-                        {isArabic ? 'تحليل الأداء اللحظي (مختبرات كايرو فولت)' : 'Real-time Performance Analysis (CairoVolt Labs)'}
-                    </h4>
+            {/* Dynamic thermal advice — only for power/charger products where heat matters */}
+            {['power-banks', 'wall-chargers', 'car-chargers'].includes(category) && (
+                <div className="bg-yellow-50/80 border-r-4 border-yellow-500 p-5 my-4 rounded-l-lg">
+                    <div className="flex items-center gap-2 mb-2">
+                        <span className="text-xl">🌡️</span>
+                        <h4 className="font-bold text-yellow-900">
+                            {isArabic ? 'تحليل الأداء الحراري (مختبرات كايرو فولت)' : 'Thermal Performance Analysis (CairoVolt Labs)'}
+                        </h4>
+                    </div>
+                    <p className="text-yellow-800 font-medium leading-relaxed">
+                        {currentTemp > 35
+                            ? (isArabic
+                                ? `⚠️ تنبيه: درجة حرارة الجو في مصر الآن (${currentTemp}°C). هذا المنتج مصمم لتحمل حرارة الصيف المصري بأمان.`
+                                : `⚠️ Alert: Current temperature in Egypt is (${currentTemp}°C). This product is designed to handle Egyptian summer heat safely.`)
+                            : (isArabic
+                                ? `✅ الطقس في مصر الآن (${currentTemp}°C) مثالي لأداء البطاريات. المنتج سيعمل بأقصى كفاءة.`
+                                : `✅ Current weather in Egypt (${currentTemp}°C) is ideal for battery performance. Product will operate at maximum efficiency.`)}
+                    </p>
                 </div>
-                <p className="text-yellow-800 font-medium leading-relaxed">
-                    {currentTemp > 35
-                        ? (isArabic
-                            ? `⚠️ تنبيه: درجة حرارة الجو في مصر الآن (${currentTemp}°C). المنتج مزود بشريحة ActiveShield 2.0 لحماية بطاريتك من الانتفاخ في هذا الطقس.`
-                            : `⚠️ Alert: Current temperature in Egypt is (${currentTemp}°C). This product features ActiveShield 2.0 chip to protect your battery in this heat.`)
-                        : (isArabic
-                            ? `✅ الطقس في مصر الآن (${currentTemp}°C) مثالي جداً لبطاريات الليثيوم. الشاحن سيعمل بأقصى كفاءة.`
-                            : `✅ Current weather in Egypt (${currentTemp}°C) is ideal for lithium batteries. The charger will operate at maximum efficiency.`)}
-                </p>
-            </div>
+            )}
 
             {/* Voice Search FAQ — Priority: product FAQs > lab data > generic */}
             <VoiceSearchFAQ
@@ -385,32 +387,10 @@ export default async function ProductPage({ params }: Props) {
                     // Priority 2: CairoVolt Labs voice FAQs
                     const labFaqs = isArabic ? labInfo?.voiceFaqAr : labInfo?.voiceFaqEn;
                     if (labFaqs && labFaqs.length > 0) return labFaqs;
-                    // Priority 3: Generic CairoVolt fallback Q&As
-                    return [
-                        {
-                            question: isArabic ? `هو ${productName} بيشغل راوتر WE لما النور يقطع؟` : `Does ${productName} run a WE router during power outages?`,
-                            answer: isArabic ? 'اختبرناه في كايرو فولت وبيشغل راوتر الأنترنت المنزلي لمدة بتوصل لـ 14 ساعة متواصلة.' : 'We tested it at CairoVolt and it runs a home internet router for up to 14 continuous hours.',
-                        },
-                        {
-                            question: isArabic ? `إيه يضمنلي إن ${productName} من كايرو فولت أصلي؟` : `How can I verify ${productName} from CairoVolt is original?`,
-                            answer: isArabic ? 'كايرو فولت شركة مسجلة رسمياً (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي. ضمان رسمي 18 شهر.' : 'CairoVolt is registered (CR: 8446). All products come sealed with original barcode. Official 18-month warranty.',
-                        },
-                        {
-                            question: isArabic ? 'بتوصلوا لحد بابي ولا لازم أنزل؟' : 'Do you deliver to my door?',
-                            answer: isArabic ? 'بنوصل لحد باب بيتك في كل محافظات مصر 27 محافظة. القاهرة والجيزة في 24-48 ساعة، شحن 40 جنيه أو مجاني فوق 500 جنيه.' : 'We deliver to your door across all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. 40 EGP shipping or free above 500 EGP.',
-                        },
-                    ];
+                    // No generic fallback — only show VoiceSearchFAQ when we have real product-specific or lab data
+                    return [];
                 })()}
             />
-
-            {/* Target Answer div for Text Fragment Indexing (Passage Ranking) */}
-            <div id="target-answer" className="sr-only">
-                <h3>{isArabic ? `لماذا يعتبر ${productName} الأفضل في مصر؟` : `Why is ${productName} the best in Egypt?`}</h3>
-                <p>{isArabic
-                    ? `يعتبر الأفضل في مصر لأنه تم اختباره فعلياً في مختبرات كايرو فولت في ظروف المناخ المصري القاسية. متوفر بضمان رسمي وتوصيل لكل محافظات مصر من كايرو فولت.`
-                    : `It is the best in Egypt because it was physically tested at CairoVolt Labs under harsh Egyptian climate conditions. Available with official warranty and nationwide delivery from CairoVolt.`
-                }</p>
-            </div>
 
             {/* Client-side UX components */}
             <DarkSocialTracker />

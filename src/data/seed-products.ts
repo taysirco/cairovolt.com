@@ -370,9 +370,8 @@ export const products = [
                     { question: "Can I turn off the lights?", answer: "Yes, you can control, customize, or turn off the LED light rings completely via the Soundcore app." },
                     { question: "Is the bass improved over the original Flare?", answer: "Yes, Flare 2 uses BassUp technology and dual drivers for significantly richer bass compared to the first generation." },
                     { question: "Does Flare 2 work with iPhone 17?", answer: "Yes! Flare 2 uses Bluetooth 5.0 and works perfectly with iPhone 17, iPhone 16, and all Samsung S26/S25 devices." },
-                    { question: "How does Flare 2 compare to JBL Pulse 5?", answer: "Flare 2 offers similar 360° sound and lights at a lower price. It has PartyCast for linking 100+ speakers vs JBL's PartyBoost. Great value choice." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement for manufacturing defects." }
-                ]
+                    { question: "How does Flare 2 compare to JBL Pulse 5?", answer: "Flare 2 offers similar 360° sound and lights at a lower price. It has PartyCast for linking 100+ speakers vs JBL's PartyBoost. Great value choice." }
+                    ]
             },
             ar: {
                 name: "مكبر صوت انكر Soundcore Flare 2 | صوت 360° وإضاءة LED | ضمان 18 شهر",
@@ -445,10 +444,8 @@ export const products = [
                     { question: "كم سماعة يمكنني ربطها معاً؟", answer: "بفضل تقنية PartyCast، يمكنك ربط أكثر من 100 سماعة Flare 2 لمزامنة الصوت والإضاءة." },
                     { question: "هل يمكنني إطفاء الأنوار؟", answer: "نعم، يمكنك التحكم في حلقات الإضاءة LED وإيقاف تشغيلها تماماً عبر تطبيق Soundcore." },
                     { question: "هل الباس أقوى من الإصدار الأول؟", answer: "نعم، Flare 2 يستخدم تقنية BassUp ومحركات مزدوجة لباس أعمق وأغنى." },
-                    { question: "هل يعمل مع ايفون 17؟", answer: "نعم! Flare 2 يستخدم بلوتوث 5.0 ويعمل تماماً مع ايفون 17 و16 وسامسونج S26/S25." },
-                    { question: "كيف يقارن Flare 2 مع JBL Pulse 5؟", answer: "Flare 2 يقدم صوت وإضاءة 360 درجة بسعر أقل. لديه PartyCast لربط 100+ سماعة. اختيار قيمة ممتازة." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل واستبدال لعيوب الصناعة." }
-                ]
+                    { question: "كيف يقارن Flare 2 مع JBL Pulse 5؟", answer: "Flare 2 يقدم صوت وإضاءة 360 درجة بسعر أقل. لديه PartyCast لربط 100+ سماعة. اختيار قيمة ممتازة." }
+                    ]
             }
         },
         seo: { keywords: "soundcore flare 2, party speaker, anker flare, سماعة مضيئة", focusKeyword: "soundcore flare 2" },
@@ -558,9 +555,8 @@ export const products = [
                     { question: "Is it safe to take on a plane?", answer: "Yes, at 86.4Wh, it is under the 100Wh TSA limit, so you can safely carry it in your hand luggage." },
                     { question: "How long does it take to recharge?", answer: "With a 140W charger, it recharges from 0 to 100% in less than 1 hour." },
                     { question: "Can it charge iPhone 17 at full speed?", answer: "Absolutely! It delivers the maximum 30W that iPhone 17 supports, charging from 0-50% in about 20 minutes." },
-                    { question: "How does 737 compare to Samsung 25W power bank?", answer: "737 offers 140W vs Samsung's 25W - that's 5.6x more power. It can charge laptops while Samsung's can only charge phones. Premium choice for power users." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement for manufacturing defects." }
-                ]
+                    { question: "How does 737 compare to Samsung 25W power bank?", answer: "737 offers 140W vs Samsung's 25W - that's 5.6x more power. It can charge laptops while Samsung's can only charge phones. Premium choice for power users." }
+                    ]
             },
             ar: {
                 name: "باور بانك انكر 737 (PowerCore 24K) | 140 واط | ضمان 18 شهر",
@@ -637,7 +633,6 @@ export const products = [
                     { question: "كم يستغرق إعادة شحنه؟", answer: "بشاحن 140 واط، يشحن من 0 إلى 100% في أقل من ساعة." },
                     { question: "هل يشحن ايفون 17 بأقصى سرعة؟", answer: "بالطبع! يوفر 30 واط الأقصى لايفون 17، شحن من 0-50% في حوالي 20 دقيقة." },
                     { question: "كيف يقارن 737 مع باور بانك سامسونج 25 واط؟", answer: "737 يقدم 140 واط مقابل 25 واط - 5.6ضعف القوة. يشحن اللابتوب بينما سامسونج للهواتف فقط. الخيار الفاخر للمحترفين." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل واستبدال لعيوب الصناعة." },
                     { question: "كايرو فولت اختبرته في انقطاع الكهرباء؟", answer: "نعم! شغّل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت في حرارة 37 درجة في مخازن التجمع الثالث." },
                     { question: "هل يدعم Zero-Transfer Time للراوتر؟", answer: "نعم! عند عودة الكهرباء، تحوّل فوري بدون ريستارت. شريحة ActiveShield 2.0 تحمي بطارية اللابتوب من تذبذب 190-240 فولت." },
                     { question: "هل يتحمل الحرارة في مصر الصيف؟", answer: "نعم! اختبرناه في حرارة 37-39 درجة. شريحة ActiveShield 2.0 حافظت الحرارة دون 41 درجة. مصمم خصيصاً للصيف المصري." }
@@ -742,10 +737,8 @@ export const products = [
                     { question: "Does it work with non-MagSafe cases?", answer: "No, it requires a magnetic MagSafe case or a bare iPhone (15/16/17 series) to attach securely." },
                     { question: "How fast is the wireless charging?", answer: "It provides 7.5W max wireless charging for iPhones, which is the standard for 3rd party magnetic battery packs." },
                     { question: "Can I charge the battery while using it?", answer: "Yes, it supports pass-through charging, so you can charge the power bank and your phone simultaneously." },
-                    { question: "Does it work with iPhone 17?", answer: "Yes! iPhone 17 has MagSafe support, so the 622 MagGo attaches perfectly and charges wirelessly at 7.5W." },
-                    { question: "How does MagGo compare to Apple's MagSafe Battery?", answer: "MagGo costs less and has a built-in kickstand that Apple's doesn't. Same 7.5W wireless charging, better value." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement for manufacturing defects." }
-                ]
+                    { question: "How does MagGo compare to Apple's MagSafe Battery?", answer: "MagGo costs less and has a built-in kickstand that Apple's doesn't. Same 7.5W wireless charging, better value." }
+                    ]
             },
             ar: {
                 name: "بطارية انكر 622 MagGo مغناطيسية | حامل مدمج | ضمان 18 شهر",
@@ -816,10 +809,8 @@ export const products = [
                     { question: "هل يعمل مع الجرابات العادية؟", answer: "لا، يتطلب جراب MagSafe مغناطيسي أو ايفون بدون جراب (سلسلة 15/16/17) لضمان الالتصاق." },
                     { question: "ما سرعة الشحن اللاسلكي؟", answer: "يوفر 7.5 واط كحد أقصى للايفون، وهو المعدل القياسي للبطاريات المغناطيسية." },
                     { question: "هل يمكنني شحن البطارية أثناء استخدامها؟", answer: "نعم، تدعم الشحن التمريري، يمكنك شحن البطارية والهاتف في نفس الوقت." },
-                    { question: "هل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يدعم MagSafe، فـ 622 MagGo يلتصق تماماً ويشحن لاسلكياً بـ 7.5 واط." },
-                    { question: "كيف يقارن MagGo مع بطارية أبل MagSafe؟", answer: "MagGo أرخص وله حامل مدمج غير موجود في أبل. نفس شحن 7.5 واط، قيمة أفضل." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل واستبدال لعيوب الصناعة." }
-                ]
+                    { question: "كيف يقارن MagGo مع بطارية أبل MagSafe؟", answer: "MagGo أرخص وله حامل مدمج غير موجود في أبل. نفس شحن 7.5 واط، قيمة أفضل." }
+                    ]
             }
         },
         seo: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف", focusKeyword: "anker maggo" },
@@ -929,9 +920,8 @@ export const products = [
                     { question: "Can I use it while it's charging (UPS)?", answer: "No, the Anker 521 does not support UPS function. It supports pass-through charging but extended use as a UPS is not recommended." },
                     { question: "What is the lifespan of the battery?", answer: "It uses LiFePO4 batteries which are rated for 3,000 cycles, meaning it will last for over 10 years of daily use." },
                     { question: "Can it charge a MacBook M5?", answer: "Yes, the 200W AC outlet can power MacBook Pro M5 and the USB-C PD port provides direct charging, though slower than the dedicated 90W charger." },
-                    { question: "Is it allowed on airplanes?", answer: "No, at 256Wh it exceeds the 100Wh TSA limit for carry-on. Check with your airline for specific regulations on checked baggage." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides an industry-leading 5-year warranty for the 521 PowerHouse in Egypt." }
-                ]
+                    { question: "Is it allowed on airplanes?", answer: "No, at 256Wh it exceeds the 100Wh TSA limit for carry-on. Check with your airline for specific regulations on checked baggage." }
+                    ]
             },
             ar: {
                 name: "محطة طاقة انكر 521 PowerHouse 256Wh | 200 واط | ضمان 5 سنوات",
@@ -1008,7 +998,6 @@ export const products = [
                     { question: "ما العمر الافتراضي للبطارية؟", answer: "يستخدم بطاريات LiFePO4 المصنفة لـ 3000 دورة شحن، تدوم أكثر من 10 سنوات بالاستخدام اليومي." },
                     { question: "هل يشحن ماك بوك M5؟", answer: "نعم، منفذ AC 200 واط يشغل ماك بوك برو M5 ومنفذ USB-C PD يشحن مباشرة وإن كان أبطأ." },
                     { question: "هل مسموح به في الطائرات؟", answer: "لا، سعته 256 واط/ساعة تتجاوز حد 100 واط/ساعة المسموح. راجع شركة الطيران." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 5 سنوات لـ 521 PowerHouse في مصر - الأفضل في السوق." },
                     { question: "كايرو فولت اختبرت الۿ 521 في انقطاع الكهرباء؟", answer: "نعم! اختبرناه في مخازن بوسطة في حرارة 39 درجة. شغّل راوتر WE VDSL + مروحة مكتبية 40 واط معاً لمدة 18 ساعة و 15 دقيقة. LiFePO4 ما تأثرتش بالحرارة خالص." },
                     { question: "هل يتحمل تذبذب الجهد في مصر (190-240V)؟", answer: "نعم! شريحة BMS محمية ضد الجهد الزائد. بيتحمل 190-240 فولت بكفاءة مع محول تحويل داخلي آمن." },
                     { question: "كم ساعة يشغل الراوتر بس بدون أجهزة تانية؟", answer: "في اختبار كايرو فولت: راوتر WE VDSL اشتغل 18-22 ساعة وحده. بمروحة مكتبية وراوتر معاً: 18 ساعة 15 دقيقة." }
@@ -1524,7 +1513,6 @@ export const products = [
                     { question: "هل يدعم USB-C؟", answer: "لا، هذا الموديل منافذ USB-A ومدخل Micro-USB. لـ USB-C شاهد Anker 737." },
                     { question: "كم مرة يشحن ايفون 17؟", answer: "يشحن ايفون 17 حوالي 5 مرات كاملة، أو سامسونج S26 حوالي 4 مرات." },
                     { question: "لماذا أختار 26800 بدل 20000؟", answer: "26800 للسفر الطويل و 3 منافذ لشحن العائلة. 20000 أصغر وأخف للحمل اليومي." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 24 شهر لـ PowerCore 26800 في مصر." },
                     { question: "كايرو فولت اختبرته عملياً في رحلة عائلية؟", answer: "نعم! رحلة ذهاباً وإياباً للغردقة (10 ساعات قيادة). شحن 5 أجهزة (ايفونين + سامسونجين + ايباد) من 10-15% لـ 90%+. كف العيلة كلها براحة." },
                     { question: "هل يتحمل حرارة طريق الساحل في أغسطس؟", answer: "نعم! اختبرناه عند 41 درجة في السيارة بدون سخونة أو تباطؤ حراري. صمم للحر المصري." },
                     { question: "هل يمكن استخدامه لانقطاع الكهرباء؟", answer: "نعم، لكن للهواتف فقط. لتشغيل الراوتر واللابتوب والمروحة، اختار Anker 521 PowerHouse بدله." }
@@ -2054,9 +2042,8 @@ export const products = [
                     { question: "Is it Samsung Super Fast Charging 2.0 compatible?", answer: "Yes, 45W supports Samsung S26/S25 Super Fast Charging 2.0. Ensure your cable is also 5A rated for maximum speed." },
                     { question: "Is it easy to carry around?", answer: "Absolutely, specialized GaN technology makes it much smaller than standard laptop chargers." },
                     { question: "Can it charge iPhone 17 at maximum speed?", answer: "Yes! 45W exceeds iPhone 17's 27W max input, so you get the fastest possible charging speed." },
-                    { question: "Should I get 45W or 65W charger?", answer: "45W is perfect for MacBook Air and phones. Get 65W only if you have MacBook Pro 14+ or need faster laptop charging." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 24-month warranty for the Nano 45W in Egypt." }
-                ]
+                    { question: "Should I get 45W or 65W charger?", answer: "45W is perfect for MacBook Air and phones. Get 65W only if you have MacBook Pro 14+ or need faster laptop charging." }
+                    ]
             },
             ar: {
                 name: "شاحن انكر نانو 45 واط GaN | ماك بوك + ايفون 17 | ضمان 24 شهر",
@@ -2132,16 +2119,15 @@ export const products = [
                     { question: "هل يدعم شحن سامسونج فائق السرعة 2.0؟", answer: "نعم، 45 واط يدعم شحن S26/S25 فائق السرعة 2.0. تأكد أن الكابل 5 أمبير." },
                     { question: "هل هو سهل الحمل؟", answer: "بالتأكيد، تقنية GaN تجعله أصغر بكثير من شواحن اللابتوب القياسية." },
                     { question: "هل يشحن ايفون 17 بأقصى سرعة؟", answer: "نعم! 45 واط يتجاوز 27 واط الأقصى لايفون 17، فتحصل على أسرع شحن." },
-                    { question: "هل أختار 45 واط أم 65 واط؟", answer: "45 واط مثالي لـ MacBook Air والهواتف. 65 واط لـ MacBook Pro 14+ أو شحن لابتوب أسرع." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 24 شهر لـ Nano 45W في مصر." }
-                ]
+                    { question: "هل أختار 45 واط أم 65 واط؟", answer: "45 واط مثالي لـ MacBook Air والهواتف. 65 واط لـ MacBook Pro 14+ أو شحن لابتوب أسرع." }
+                    ]
             }
         },
         seo: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, anker 45w charger", focusKeyword: "شاحن انكر 45 واط" },
         expertOpinion: {
             en: "The versatility of this charger is unmatched. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
-        },
+        }
     },
 
     // ========== ANKER CABLES ==========
@@ -2241,9 +2227,8 @@ export const products = [
                     { question: "Does it support iPhone 17 fast charging?", answer: "Yes! It supports up to 30W Power Delivery, giving iPhone 17 its maximum charging speed when paired with a 30W+ charger." },
                     { question: "How does it compare to Apple's cable?", answer: "Same MFi certification at a lower price. Anker cables last longer with 35,000+ bend lifespan vs Apple's ~10,000." },
                     { question: "What lengths are available?", answer: "1m (3ft) for portable use and 2m (6ft) for bedside charging. Both have the same durable construction." }
-                ],
-
-            },
+                ]
+    },
             ar: {
                 name: "كابل انكر USB-C to Lightning | معتمد MFi | 30 واط | ضمان 18 شهر",
                 shortDescription: "✅ معتمد MFi من أبل | ⚡ شحن سريع 30 واط | 💪 يتحمل 35,000+ ثني | 🚗 متوافق CarPlay",
@@ -2324,15 +2309,14 @@ export const products = [
                         question: "هل يعمل مع Apple CarPlay؟",
                         answer: "نعم، بفضل شهادة MFi، يعمل بشكل مثالي مع نظام Apple CarPlay في السيارات المدعومة."
                     }
-                ],
-
-            }
+                ]
+    }
         },
         seo: { keywords: "كابل انكر ايفون, وصلة انكر للايفون, كابل انكر تايب سي, anker lightning cable", focusKeyword: "كابل انكر ايفون" },
         expertOpinion: {
             en: "Cables are usually the first thing to break, but not this one. The build quality is exceptional – it feels robust and can withstand serious abuse. MFi certification means no 'accessory not supported' errors. It's a simple product, but one that solves a daily frustration perfectly.",
             ar: "عادة ما تكون الكابلات أول شيء يتلف، لكن ليس هذا. جودة التصنيع استثنائية – ملمسه قوي ويمكنه تحمل الاستخدام الشاق. شهادة MFi تعني عدم وجود أخطاء 'الملحق غير مدعوم'. منتج بسيط، لكنه يحل مشكلة يومية بشكل مثالي."
-        },
+        }
     },
     {
         slug: "anker-powerline-usb-c-usb-c",
@@ -2512,17 +2496,15 @@ export const products = [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "نعم، يدعم 60 واط فيتعامل مع 25 واط و 45 واط. تأكد من كابل 5 أمبير للسرعة القصوى." },
                     { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "نعم، يدعم USB 2.0 (480 ميجابت/ثانية)، مناسب للصور والملفات." },
                     { question: "هل هو متين؟", answer: "للغاية. مختبر لتحمل 35,000+ انحناء، من أمتن الكابلات." },
-                    { question: "هل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C، فهذا الكابل يشحنه بأقصى سرعة 27 واط." },
-                    { question: "كيف يقارن مع كابلات سامسونج؟", answer: "نفس الأداء بسعر أقل. انكر يتحمل 35,000 انحناء مقابل ~10,000 لسامسونج." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل واستبدال." }
-                ]
+                    { question: "كيف يقارن مع كابلات سامسونج؟", answer: "نفس الأداء بسعر أقل. انكر يتحمل 35,000 انحناء مقابل ~10,000 لسامسونج." }
+                    ]
             }
         },
         seo: { keywords: "كابل انكر تايب سي, وصلة انكر تايب سي, كابل USB-C انكر", focusKeyword: "كابل انكر تايب سي" },
         expertOpinion: {
             en: "A solid, no-nonsense cable for all your USB-C devices. Whether it's a Samsung phone, an iPad, or a laptop, this cable handles up to 60W flawlessly. The flexibility is great, and the connectors are reinforced. Definitely a step up from the flimsy cables that come in the box.",
             ar: "كابل قوي ومباشر لجميع أجهزة USB-C الخاصة بك. سواء كان هاتف سامسونج، آيباد، أو لابتوب، يتعامل هذا الكابل مع ما يصل إلى 60 واط بلا عيوب. المرونة رائعة، والموصلات مدعمة. بالتأكيد ترقية عن الكابلات الضعيفة التي تأتي في العلية."
-        },
+        }
     },
 
     // ========== ANKER CAR CHARGER ==========
@@ -2620,9 +2602,8 @@ export const products = [
                     { question: "Does it drain car battery when not in use?", answer: "No, it consumes negligible power when no device is connected, so it's safe to leave plugged in." },
                     { question: "Can I charge two iPads?", answer: "It can charge two tablets, but charging speed might be distributed (Total 24W) compared to charging a single device." },
                     { question: "Does it charge iPhone 17 fast?", answer: "Yes, each USB port delivers up to 12W via PowerIQ, which is good standard charging for iPhone 17." },
-                    { question: "Will it fit my car's 12V socket?", answer: "Yes, the compact design fits virtually all car sockets without blocking other ports or controls." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement for manufacturing defects." }
-                ]
+                    { question: "Will it fit my car's 12V socket?", answer: "Yes, the compact design fits virtually all car sockets without blocking other ports or controls." }
+                    ]
             },
             ar: {
                 name: "شاحن سيارة انكر PowerDrive 2 | 24 واط منفذين USB | ضمان 18 شهر",
@@ -2695,17 +2676,15 @@ export const products = [
                     { question: "هل يعمل في جميع السيارات؟", answer: "نعم، يعمل مع أي مقبس ولاعة 12/24 فولت قياسي." },
                     { question: "هل يستنزف بطارية السيارة؟", answer: "لا، يستهلك طاقة لا تذكر بدون جهاز. آمن للترك متصلاً." },
                     { question: "هل يشحن جهازين تابلت؟", answer: "يشحن جهازين، لكن السرعة تتوزع (24 واط إجمالي) مقابل جهاز واحد." },
-                    { question: "هل يشحن ايفون 17 بسرعة؟", answer: "نعم، كل منفذ USB يوفر 12 واط عبر PowerIQ، شحن قياسي جيد لايفون 17." },
-                    { question: "هل يناسب مقبس سيارتي؟", answer: "نعم، التصميم الصغير يناسب جميع المقابس بدون إعاقة أزرار أخرى." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل واستبدال." }
-                ]
+                    { question: "هل يناسب مقبس سيارتي؟", answer: "نعم، التصميم الصغير يناسب جميع المقابس بدون إعاقة أزرار أخرى." }
+                    ]
             }
         },
         seo: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, anker car charger", focusKeyword: "شاحن سيارة انكر" },
         expertOpinion: {
             en: "This charger has saved me countless times on Cairo's ring road. It sits flush in the console and charges two phones at respectable speeds. It doesn't have the super-fast PD charging of newer models, but for reliability and keeping two devices alive during a commute with GPS running, it's unbeatable.",
             ar: "لقد أنقذني هذا الشاحن مرات لا تحصى على الطريق الدائري بالقاهرة. يستقر بشكل مسطح في الكونسول ويشحن هاتفين بسرعات محترمة. ليس لديه شحن PD فائق السرعة مثل الموديلات الأحدث، ولكن للموثوقية والحفاظ على جهازين قيد التشغيل أثناء التنقل مع تشغيل GPS، لا يمكن التغلب عليه."
-        },
+        }
     },
 
     // ========== JOYROOM POWER BANKS ==========
@@ -3018,10 +2997,8 @@ export const products = [
                     { question: "What is 22.5W fast charging?", answer: "It is a high-speed charging protocol supported by Huawei (SCP) and some other Android devices for rapid top-ups." },
                     { question: "Does it display exact battery percentage?", answer: "Yes, the digital LED display shows the exact remaining battery percentage, so you never guess." },
                     { question: "Can I charge 3 devices?", answer: "Yes, it has 3 output ports (2 USB-A and 1 USB-C), allowing simultaneous charging for three devices." },
-                    { question: "Does it fast charge iPhone 17?", answer: "Yes! The USB-C PD port delivers 20W for iPhone 17, charging 0-50% in about 30 minutes." },
-                    { question: "Is Joyroom 20000mAh good value?", answer: "Yes, Joyroom offers high capacity at a lower price point than premium brands. Great value choice." },
-                    { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "Is Joyroom 20000mAh good value?", answer: "Yes, Joyroom offers high capacity at a lower price point than premium brands. Great value choice." }
+                    ]
             },
             ar: {
                 name: "باور بانك جوي روم 20000 مللي أمبير | 22.5 واط PD+QC | 3 مخارج | ضمان 12 شهر",
@@ -3213,9 +3190,8 @@ export const products = [
                     { question: "Is it good for gaming?", answer: "It has excellent Bluetooth 5.3 connectivity with low latency, making it suitable for casual gaming and video streaming." },
                     { question: "Does it work with iPhone?", answer: "Yes, fully compatible with iPhone 17/16/15 and supports iOS pop-up animation." },
                     { question: "How does it compare to AirPods Pro?", answer: "T03S Pro offers similar ANC at a fraction of the price. AirPods Pro has better Apple integration. Great budget ANC option." },
-                    { question: "Can I use one earbud alone?", answer: "Yes, each earbud works independently. You can use either left or right for calls while keeping the other in the case." },
-                    { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "Can I use one earbud alone?", answer: "Yes, each earbud works independently. You can use either left or right for calls while keeping the other in the case." }
+                    ]
             },
             ar: {
                 name: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | 30 ساعة | ضمان 12 شهر",
@@ -3290,9 +3266,8 @@ export const products = [
                     { question: "هل هي جيدة للألعاب؟", answer: "Bluetooth 5.3 ممتاز مع تأخير منخفض، مناسبة للألعاب والفيديو." },
                     { question: "هل تعمل مع الايفون؟", answer: "نعم، متوافقة مع ايفون 17/16/15 وتدعم Pop-up على iOS." },
                     { question: "كيف تقارن مع AirPods Pro؟", answer: "T03S Pro عزل مماثل بسعر أقل بكثير. AirPods Pro تكامل أفضل مع أبل. خيار ممتاز بالميزانية." },
-                    { question: "هل يمكن استخدام سماعة واحدة؟", answer: "نعم، كل سماعة تعمل مستقلة. يمكنك استخدام واحدة للمكالمات." },
-                    { question: "ما الضمان؟", answer: "جوي روم توفر ضمان 12 شهر في مصر مع دعم كامل." }
-                ]
+                    { question: "هل يمكن استخدام سماعة واحدة؟", answer: "نعم، كل سماعة تعمل مستقلة. يمكنك استخدام واحدة للمكالمات." }
+                    ]
             }
         },
         seo: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة joyroom t03s pro, joyroom earbuds", focusKeyword: "سماعات جوي روم" },
@@ -3397,10 +3372,8 @@ export const products = [
                     { question: "Is this the original Joyroom?", answer: "Yes, we only sell 100% original Joyroom products with official warranty." },
                     { question: "Does it have a microphone?", answer: "Yes, it features a built-in microphone for calls, but T03S Pro is recommended for better call quality." },
                     { question: "How long does the battery last?", answer: "The earbuds last about 3-4 hours on a single charge, and the case provides 4 additional charges." },
-                    { question: "Does it work with iPhone 17?", answer: "Yes! It's Bluetooth 5.0 compatible with iPhone 17, iPhone 16, and all Samsung S26/S25 devices." },
-                    { question: "How does it compare to T03S Pro?", answer: "T03 is more affordable but lacks ANC. T03S Pro has noise cancellation and better sound. T03 is great for budget users." },
-                    { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "How does it compare to T03S Pro?", answer: "T03 is more affordable but lacks ANC. T03S Pro has noise cancellation and better sound. T03 is great for budget users." }
+                    ]
             },
             ar: {
                 name: "سماعة جوي روم JR-T03 | 20 ساعة | Bluetooth 5.0 | ضمان 12 شهر",
@@ -3472,10 +3445,8 @@ export const products = [
                     { question: "هل هذه جوي روم أصلية؟", answer: "نعم، نبيع فقط منتجات جوي روم أصلية 100% مع ضمان رسمي." },
                     { question: "هل تحتوي على ميكروفون؟", answer: "نعم، ميكروفون مدمج للمكالمات. T03S Pro أفضل لجودة مكالمات." },
                     { question: "كم تدوم البطارية؟", answer: "3-4 ساعات للسماعات، العلبة توفر 4 شحنات إضافية." },
-                    { question: "هل تعمل مع ايفون 17؟", answer: "نعم! Bluetooth 5.0 متوافق مع ايفون 17/16 وسامسونج S26/S25." },
-                    { question: "كيف تقارن مع T03S Pro؟", answer: "T03 أرخص لكن بدون ANC. T03S Pro عزل ضوضاء وصوت أفضل. T03 ممتاز للميزانية." },
-                    { question: "ما الضمان؟", answer: "جوي روم توفر ضمان 12 شهر في مصر مع دعم كامل." }
-                ]
+                    { question: "كيف تقارن مع T03S Pro؟", answer: "T03 أرخص لكن بدون ANC. T03S Pro عزل ضوضاء وصوت أفضل. T03 ممتاز للميزانية." }
+                    ]
             }
         },
         seo: { keywords: "سماعة joyroom, ايربودز joyroom", focusKeyword: "سماعة joyroom" },
@@ -3581,10 +3552,8 @@ export const products = [
                     { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
                     { question: "Is it safe for iPhone battery?", answer: "Yes, it intelligently adjusts power output to match your device's needs, preserving battery health over time." },
                     { question: "Does it support Samsung Super Fast Charging?", answer: "It supports standard fast charging (15W-18W) for Samsung devices. For Super Fast Charging (25W+), a higher wattage charger is required." },
-                    { question: "Does it fast charge iPhone 17?", answer: "Yes, it provides 20W PD charging for iPhone 17, charging 0-50% in about 30 minutes." },
-                    { question: "Is this charger good for travel?", answer: "Yes! Its ultra-compact design fits in any pocket or bag easily. Perfect for travel." },
-                    { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "Is this charger good for travel?", answer: "Yes! Its ultra-compact design fits in any pocket or bag easily. Perfect for travel." }
+                    ]
             },
             ar: {
                 name: "شاحن جوي روم 20 واط USB-C PD | شحن سريع ايفون 17 | ضمان 12 شهر",
@@ -3658,10 +3627,8 @@ export const products = [
                     { question: "هل يسخن الشاحن؟", answer: "يستخدم شرائح تحكم ذكية للحفاظ على برودة الشاحن حتى أثناء الشحن السريع." },
                     { question: "هل هو آمن على البطارية؟", answer: "نعم، يضبط الطاقة بذكاء لتناسب جهازك، مما يحافظ على صحة البطارية." },
                     { question: "هل يدعم سامسونج فائق السرعة؟", answer: "يدعم الشحن السريع القياسي (15-18 واط). للشحن الفائق (25 واط)، شاهد انكر 25 واط." },
-                    { question: "هل يشحن ايفون 17 بسرعة؟", answer: "نعم، يوفر 20 واط PD لايفون 17، يشحن 0-50% في 30 دقيقة." },
-                    { question: "كيف يقارن مع انكر 20 واط؟", answer: "جوي روم أرخص بأداء مماثل. انكر ضمان أطول وتصميم أنيق." },
-                    { question: "ما الضمان؟", answer: "جوي روم توفر ضمان 12 شهر في مصر مع دعم كامل." }
-                ]
+                    { question: "كيف يقارن مع انكر 20 واط؟", answer: "جوي روم أرخص بأداء مماثل. انكر ضمان أطول وتصميم أنيق." }
+                    ]
             }
         },
         seo: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger", focusKeyword: "شاحن جوي روم" },
@@ -3848,10 +3815,8 @@ export const products = [
                     { question: "هل هو متين؟", answer: "نعم، نايلون مضفر يقاوم التآكل ويتحمل 10,000+ انحناء." },
                     { question: "هل يدعم نقل البيانات؟", answer: "نعم، 480 ميجابت/ثانية لمزامنة الصور والموسيقى." },
                     { question: "هل يشحن الآيباد؟", answer: "يعمل مع آيباد Lightning. لآيباد USB-C، تحتاج كابل USB-C to USB-C." },
-                    { question: "هل يشحن ايفون 17 بسرعة؟", answer: "نعم! يدعم 20 واط لشحن سريع لايفون 17، 0-50% في 30 دقيقة." },
-                    { question: "كيف يقارن مع كابل انكر؟", answer: "جوي روم أرخص بأداء مماثل. انكر ضمان أطول ومتانة أعلى." },
-                    { question: "ما الضمان؟", answer: "جوي روم توفر ضمان 12 شهر في مصر مع دعم كامل." }
-                ]
+                    { question: "كيف يقارن مع كابل انكر؟", answer: "جوي روم أرخص بأداء مماثل. انكر ضمان أطول ومتانة أعلى." }
+                    ]
             }
         },
         seo: { keywords: "كابل جوي روم, cable joyroom", focusKeyword: "كابل جوي روم" },
@@ -3955,10 +3920,8 @@ export const products = [
                     { question: "Are they good for calls?", answer: "Yes, they feature AI-enhanced microphones that isolate your voice from background noise for clear calls." },
                     { question: "Can I use one earbud alone?", answer: "Yes, Life P2i supports Single Earbud Mode, allowing you to use either the left or right earbud independently." },
                     { question: "What is the difference between Bass and Podcast modes?", answer: "Bass Mode enhances low frequencies for music, while Podcast Mode amplifies vocals for clear speech." },
-                    { question: "Does it work with iPhone 17?", answer: "Yes! Bluetooth 5.2 is fully compatible with iPhone 17, iPhone 16, and all Samsung S26/S25 devices." },
-                    { question: "How does it compare to other budget earbuds?", answer: "Life P2i stands out with AI-enhanced call quality and significantly longer battery life than most competitors in this price range." },
-                    { question: "What's the warranty in Egypt?", answer: "Anker provides 18-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "How does it compare to other budget earbuds?", answer: "Life P2i stands out with AI-enhanced call quality and significantly longer battery life than most competitors in this price range." }
+                    ]
             },
             ar: {
                 name: "سماعات انكر Soundcore Life P2i | 28 ساعة | مكالمات AI | ضمان 18 شهر",
@@ -4031,9 +3994,7 @@ export const products = [
                     { question: "هل هي جيدة للمكالمات؟", answer: "نعم، ميكروفونات ذكية تعزل صوتك عن الضوضاء لمكالمات واضحة." },
                     { question: "هل يمكن استخدام سماعة واحدة؟", answer: "نعم، تدعم وضع السماعة الفردية لاستخدام اليمنى أو اليسرى مستقلة." },
                     { question: "ما الفرق بين وضع Bass و Podcast؟", answer: "Bass يعزز الصوت المنخفض للموسيقى، Podcast يضخم الأصوات للكلام." },
-                    { question: "هل تعمل مع ايفون 17؟", answer: "نعم! Bluetooth 5.2 متوافق مع ايفون 17/16 وسامسونج S26/S25." },
                     { question: "كيف تقارن مع السماعات الاقتصادية الأخرى؟", answer: "تتميز Life P2i بجودة مكالمات محسنة بالذكاء الاصطناعي وعمر بطارية أطول بكثير من معظم المنافسين في هذه الفئة السعرية." },
-                    { question: "ما الضمان في مصر؟", answer: "انكر توفر ضمان 18 شهر في مصر مع دعم كامل." },
                     { question: "كايرو فولت اختبرتها في الجيم ومترو القاهرة؟", answer: "نعم! 3 أسابيع جيم يومي (38°C) + مترو القاهرة كل يوم. IPX5 صمد تماماً بدون تدهور في الصوت أو انقطاعات." },
                     { question: "هل IPX5 تتحمل عرق التمارين الشديد؟", answer: "نعم! اختبرناها في جيم مدينة نصر بحرارة 38°C خارجية. IPX5 حمت السماعات تماماً من العرق دون انقطاع واحد." }
                 ]
@@ -4140,10 +4101,8 @@ export const products = [
                     { question: "Does it support Arabic?", answer: "Yes, the watch interface and notifications fully support the Arabic language." },
                     { question: "Can I make calls from the watch?", answer: "No, this model supports call notifications (reject/mute) but does not have a microphone for Bluetooth calling." },
                     { question: "Can I swim with it?", answer: "It is IP68 rated, which means it can withstand immersion in water, but it is not recommended for deep swimming or hot showers." },
-                    { question: "Does it work with iPhone 17?", answer: "Yes! It works with iPhone 17, iPhone 16, and all Samsung S26/S25 devices via the companion app." },
-                    { question: "How does it compare to Apple Watch?", answer: "FT3 offers basic fitness tracking at a fraction of the price. Apple Watch has deeper iOS integration. FT3 is great for value-focused users." },
-                    { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "How does it compare to Apple Watch?", answer: "FT3 offers basic fitness tracking at a fraction of the price. Apple Watch has deeper iOS integration. FT3 is great for value-focused users." }
+                    ]
             },
             ar: {
                 name: "ساعة جوي روم FT3 الذكية | IP68 مقاومة للماء | 20 وضع رياضي | ضمان 12 شهر",
@@ -4215,10 +4174,8 @@ export const products = [
                     { question: "هل تدعم العربية؟", answer: "نعم، الواجهة والإشعارات تدعم العربية بالكامل." },
                     { question: "هل يمكن إجراء مكالمات؟", answer: "لا، تدعم إشعارات المكالمات (رفض/كتم) لكن بدون ميكروفون للمكالمات." },
                     { question: "هل يمكن السباحة بها؟", answer: "IP68 تتحمل الغمر، لكن لا ينصح للسباحة العميقة أو الماء الساخن." },
-                    { question: "هل تعمل مع ايفون 17؟", answer: "نعم! تعمل مع ايفون 17/16 وسامسونج S26/S25 عبر التطبيق." },
-                    { question: "كيف تقارن مع Apple Watch؟", answer: "FT3 تتبع لياقة أساسي بسعر أقل بكثير. Apple Watch تكامل أعمق مع iOS. FT3 للميزانية." },
-                    { question: "ما الضمان؟", answer: "جوي روم توفر ضمان 12 شهر في مصر مع دعم كامل." }
-                ]
+                    { question: "كيف تقارن مع Apple Watch؟", answer: "FT3 تتبع لياقة أساسي بسعر أقل بكثير. Apple Watch تكامل أعمق مع iOS. FT3 للميزانية." }
+                    ]
             }
         },
         seo: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية", focusKeyword: "joyroom ft3" },
@@ -4324,9 +4281,8 @@ export const products = [
                     { question: "Does it block airflow?", answer: "Its compact design attaches to the vent blades but allows sufficient airflow around the mount." },
                     { question: "Do I need to stick a metal plate?", answer: "For non-MagSafe phones, yes (plate included). For iPhone 15/16/17 series with MagSafe, it attaches directly without a plate." },
                     { question: "Does it work with phone cases?", answer: "Yes, it works with thin cases up to 3mm. Thicker cases may reduce magnetic strength." },
-                    { question: "Will it damage credit cards?", answer: "Keep cards away from the magnet. The magnetic field is focused toward the phone but can affect cards if placed directly on it." },
-                    { question: "What's the warranty?", answer: "Joyroom provides 12-month warranty in Egypt with full support and replacement." }
-                ]
+                    { question: "Will it damage credit cards?", answer: "Keep cards away from the magnet. The magnetic field is focused toward the phone but can affect cards if placed directly on it." }
+                    ]
             },
             ar: {
                 name: "حامل جوال مغناطيسي جوي روم ZS290 | مغناطيس N52 | MagSafe | 360° | ضمان 12 شهر",
@@ -4584,7 +4540,6 @@ export const products = [
                 metaTitle: "شاحن جوي روم 25 واط PD | ايفون 17 + سامسونج S26 | مصر 2026",
                 metaDesc: "اشتري شاحن جوي روم 25 واط PD في مصر. ايفون 17 من 0→50% في 25 دقيقة، سامسونج سوبر فاست، حماية متعددة. ضمان 36 شهر. أفضل سعر.",
                 faqs: [
-                    { question: "هل يشحن ايفون 17 بسرعة؟", answer: "نعم! شاحن جوي روم 25 واط يوفر شحن سريع مثالي للايفون 17، يشحن من 0 إلى 50% في حوالي 25 دقيقة. الايفون 17 يدعم حتى 30 واط، لذا 25 واط توفر سرعة قريبة من الحد الأقصى." },
                     { question: "هل يدعم شحن سامسونج S26 السريع؟", answer: "نعم، يدعم بروتوكول Super Fast Charging من سامسونج. رغم أن S26 يقبل حتى 45 واط، إلا أن 25 واط توفر سرعات شحن ممتازة، تصل إلى 50% في حوالي 30 دقيقة." },
                     { question: "هل آمن للشحن طوال الليل؟", answer: "بالتأكيد. الشاحن يتميز بحماية متعددة تشمل الحماية من الجهد الزائد والتيار الزائد والحرارة الزائدة والقصر. معتمد للشحن لفترات طويلة." },
                     { question: "ما الكابل المطلوب للايفون 17؟", answer: "تحتاج كابل USB-C إلى USB-C للايفون 17 (أو USB-C إلى Lightning للايفون 14 وما قبله). الكابل غير مشمول - ننصح باستخدام كابلات جوي روم المعتمدة." }
@@ -4766,7 +4721,6 @@ export const products = [
                 faqs: [
                     { question: "هل 30 واط هي السرعة القصوى للايفون 17؟", answer: "نعم! ايفون 17 من ابل يدعم حد أقصى 30 واط للشحن السلكي. شاحن جوي روم 30 واط يوفر السرعة القصوى الكاملة، يشحن 0-50% في 20 دقيقة فقط." },
                     { question: "ما الفرق بين PD و QC؟", answer: "PD (Power Delivery) يستخدمه ابل وسامسونج الحديث. QC (Quick Charge) هو بروتوكول كوالكوم لهواتف اندرويد. هذا الشاحن يدعم الاثنين، فيشحن أي هاتف بسرعة." },
-                    { question: "هل يشحن ماك بوك؟", answer: "يمكنه شحن MacBook Air ببطء، لكن للشحن الأمثل للماك ننصح بشواحن 45 واط أو أعلى. 30 واط مثالي للهواتف والتابلت." },
                     { question: "هل يأتي مع كابل؟", answer: "لا، الكابل يباع منفصلاً. للايفون 17 استخدم كابل USB-C إلى USB-C. للايفون القديم استخدم USB-C إلى Lightning." }
                 ]
             }
@@ -4868,7 +4822,6 @@ export const products = [
                 metaTitle: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless | Egypt",
                 metaDesc: "Buy Joyroom MagSafe power bank in Egypt. 10000mAh, 15W wireless + 20W wired, N52 magnets, kickstand. iPhone 17/16/15. 18-month warranty. Best price.",
                 faqs: [
-                    { question: "Does it work with iPhone 17?", answer: "Yes! It's fully compatible with iPhone 17, 16, 15, 14, 13, and 12 series. The strong N52 magnets align perfectly with all MagSafe iPhones for optimal wireless charging." },
                     { question: "How many times can it charge iPhone 17?", answer: "The 10000mAh capacity can fully charge iPhone 17 approximately 2 times, or provide over 2.5 charges for iPhone 17 Pro. Actual results vary based on usage during charging." },
                     { question: "Can I use it while attached to my phone?", answer: "Absolutely! The magnetic attachment is strong enough for everyday use - scrolling, gaming, taking photos. The built-in kickstand is perfect for video calls or watching content while charging." },
                     { question: "Does it charge through phone cases?", answer: "It works with MagSafe-compatible cases and most thin cases. Thick cases or cases with metal components may reduce charging efficiency or magnetic attachment." }
@@ -4942,7 +4895,6 @@ export const products = [
                 metaTitle: "باور بانك جوي روم MagSafe 10000 | 15 واط لاسلكي | مصر",
                 metaDesc: "اشتري باور بانك جوي روم MagSafe في مصر. 10000 مللي، 15 واط لاسلكي + 20 واط سلكي، مغناطيس N52، حامل مدمج. ايفون 17/16/15. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
-                    { question: "هل يعمل مع ايفون 17؟", answer: "نعم! متوافق تماماً مع ايفون 17 و16 و15 و14 و13 و12. مغناطيسات N52 القوية تتوافق بشكل مثالي مع جميع أجهزة MagSafe للشحن اللاسلكي الأمثل." },
                     { question: "كم مرة يشحن ايفون 17؟", answer: "سعة 10000 مللي أمبير تشحن الايفون 17 بالكامل حوالي مرتين، أو أكثر من 2.5 شحنة لايفون 17 برو. النتائج تختلف حسب الاستخدام أثناء الشحن." },
                     { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "بالتأكيد! الالتصاق المغناطيسي قوي بما يكفي للاستخدام اليومي - التصفح، الألعاب، التصوير. الحامل المدمج مثالي لمكالمات الفيديو أو مشاهدة المحتوى أثناء الشحن." },
                     { question: "هل يشحن من خلال الجراب؟", answer: "يعمل مع جرابات متوافقة مع MagSafe والجرابات الرفيعة. الجرابات السميكة أو التي تحتوي معدن قد تقلل كفاءة الشحن أو الالتصاق." }
@@ -5353,11 +5305,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt", focusKeyword: "joyroom 3-in-1 cable" },
-        expertOpinion: {
-            en: "The ultimate backup cable. Keep one in your car or bag and you'll never be stuck unable to charge a friend's device. It's not for high-speed PD data, but for convenience and compatibility, it's a lifesaver.",
-            ar: "كابل النسخ الاحتياطي النهائي. احتفظ بواحد في سيارتك أو حقيبتك ولن تكون عالقاً أبداً غير قادر على شحن جهاز صديق. ليس لبيانات PD عالية السرعة، ولكن للراحة والتوافق، فهو منقذ للحياة."
-        }
+        seo: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt", focusKeyword: "joyroom 3-in-1 cable" }
     },
     {
         slug: "joyroom-car-phone-mount",
@@ -5406,11 +5354,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة", focusKeyword: "joyroom car phone mount" },
-        expertOpinion: {
-            en: "A rock-solid mount for larger phones. If you have an iPhone Pro Max or Samsung Ultra, this is the one you need. The suction cup is incredibly strong and sticks well to both glass and dashboards. The adjustable arm is great for bringing the phone closer for navigation.",
-            ar: "حامل صلب للهواتف الكبيرة. إذا كان لديك iPhone Pro Max أو Samsung Ultra، فهذا هو ما تحتاجه. كوب الشفط قوي بشكل لا يصدق ويلتصق جيداً بالزجاج والتابلوه. الذراع القابل للتعديل رائع لتقريب الهاتف للملاحة."
-        }
+        seo: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة", focusKeyword: "joyroom car phone mount" }
     },
     {
         slug: "joyroom-usb-c-cable-60w",
@@ -5440,7 +5384,6 @@ export const products = [
                 metaTitle: "Joyroom 60W USB-C Cable iPhone 17 Samsung S26 | Egypt",
                 metaDesc: "Joyroom 60W USB-C to USB-C Cable - max speed for iPhone 17 & Samsung S26. Braided 35K bends. Best price Egypt. Fast Cairo delivery.",
                 faqs: [
-                    { question: "Does it work with iPhone 17?", answer: "Yes! iPhone 17 uses USB-C. This 60W cable delivers the full 30W maximum charging speed that iPhone 17 supports." },
                     { question: "Can I use it with my MacBook?", answer: "Yes, it can charge MacBook Air at full speed. For MacBook Pro, it will charge but at a slower rate - we recommend 100W cables for Pro models." }
                 ]
             },
@@ -5451,17 +5394,10 @@ export const products = [
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
                 metaTitle: "كابل جوي روم 60 واط USB-C للايفون 17 وسامسونج | مصر",
                 metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
-                faqs: [
-                    { question: "هل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C. هذا الكابل 60 واط يوفر سرعة 30 واط القصوى التي يدعمها ايفون 17." },
-                    { question: "هل يشحن ماك بوك؟", answer: "نعم، يشحن ماك بوك اير بالسرعة الكاملة. لماك بوك برو سيشحن لكن أبطأ - ننصح بكابلات 100 واط للبرو." }
-                ]
+                faqs: []
             }
         },
-        seo: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", focusKeyword: "joyroom 60w usb-c cable" },
-        expertOpinion: {
-            en: "This is the cable to get for the future. 60W means it handles phones, tablets, and even some laptops effortlessly. The braiding is dense and durable. At this price point, there's no reason to buy a flimsy plastic cable ever again.",
-            ar: "هذا هو الكابل الذي يجب الحصول عليه للمستقبل. 60 واط تعني أنه يتعامل مع الهواتف والتابلت وحتى بعض اللابتوبات بسهولة. التجديل كثيف ومتين. عند هذا السعر، لا يوجد سبب لشراء كابل بلاستيكي ضعيف مرة أخرى."
-        }
+        seo: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", focusKeyword: "joyroom 60w usb-c cable" }
     },
     {
         slug: "joyroom-type-c-lightning-braided",
@@ -5489,9 +5425,7 @@ export const products = [
                 features: ["30W PD fast charging", "MFi certified", "Braided nylon design", "iPhone 14/13/12/11 compatible", "1m length", "18-month warranty"],
                 metaTitle: "Joyroom USB-C Lightning Cable iPhone 14 | Egypt",
                 metaDesc: "Joyroom USB-C to Lightning Cable - 30W fast charging for iPhone 14/13/12. MFi certified. Best price Egypt.",
-                faqs: [
-                    { question: "Does it work with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is for iPhone 14 and earlier models." }
-                ]
+                faqs: []
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى Lightning",
@@ -5500,16 +5434,10 @@ export const products = [
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
                 metaTitle: "كابل جوي روم USB-C Lightning للايفون 14 | مصر",
                 metaDesc: "كابل جوي روم USB-C إلى Lightning - شحن سريع 30 واط للايفون 14/13/12. معتمد MFi. أفضل سعر مصر.",
-                faqs: [
-                    { question: "هل يعمل مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل Lightning للايفون 14 والأقدم." }
-                ]
+                faqs: []
             }
         },
-        seo: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt", focusKeyword: "joyroom usb-c lightning cable" },
-        expertOpinion: {
-            en: "Perfect for iPhone 14 users who want a premium feel. The braiding feels much nicer than standard cables and resists tangling in your bag. It charges reliably at full speed. A solid upgrade from the white cable box.",
-            ar: "مثالي لمستخدمي iPhone 14 الذين يريدون ملمساً فاخراً. التجديل ملمسه أجمل بكثير من الكابلات القياسية ويقاوم التشابك في حقيبتك. يشحن بموثوقية بالسرعة الكاملة. ترقية قوية عن كابل العلبة الأبيض."
-        }
+        seo: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt", focusKeyword: "joyroom usb-c lightning cable" }
     },
     {
         slug: "joyroom-30w-pd-cable",
@@ -5553,11 +5481,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي", focusKeyword: "joyroom 30w pd cable" },
-        expertOpinion: {
-            en: "The straightforward choice for daily charging. It does exactly what it says on the box: 30W fast charging. The materials are durable enough for everyday carry. Great value if you just need a reliable spare cable.",
-            ar: "الخيار المباشر للشحن اليومي. يفعل بالضبط ما هو مكتوب على العلبة: شحن سريع 30 واط. المواد متينة بما يكفي للحمل اليومي. قيمة رائعة إذا كنت تحتاج فقط إلى كابل احتياطي موثوق."
-        }
+        seo: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي", focusKeyword: "joyroom 30w pd cable" }
     },
     {
         slug: "joyroom-usb-a-lightning-cable",
@@ -5604,11 +5528,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون", focusKeyword: "joyroom usb-a lightning" },
-        expertOpinion: {
-            en: "Don't throw away your old chargers yet. This cable breathes new life into your trusted USB-A bricks. It's simple, durable, and works perfectly with older iPhones or for overnight charging where speed isn't critical.",
-            ar: "لا ترمِ شواحنك القديمة بعد. هذا الكابل يبعث حياة جديدة في شواحن USB-A الموثوقة لديك. إنه بسيط ومتين ويعمل بشكل مثالي مع أجهزة iPhone القديمة أو للشحن طوال الليل حيث السرعة ليست حرجة."
-        }
+        seo: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون", focusKeyword: "joyroom usb-a lightning" }
     },
     {
         slug: "joyroom-type-c-to-type-c-cable",
@@ -5650,16 +5570,11 @@ export const products = [
                 metaDesc: "كابل جوي روم USB-C للايفون 17 وسامسونج S26. 60 واط PD. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C. هذا الكابل يوفر 60 واط شحن سريع، ويعطي ايفون 17 أقصى سرعة 30 واط." },
-                    { question: "هل يشحن ماك بوك؟", answer: "نعم، هذا الكابل 60 واط يشحن ماك بوك اير بالسرعة الكاملة. لماك بوك برو، ننصح بكابلات 100 واط." },
                     { question: "ما الفرق بين 60 واط و 30 واط؟", answer: "كابلات 60 واط مستقبلية - تعمل مع كل الأجهزة وتشحن اللابتوب. كابلات 30 واط كافية للهواتف فقط." }
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17", focusKeyword: "joyroom usb-c cable" },
-        expertOpinion: {
-            en: "A versatile essential for the USB-C era. Works with everything from the new iPhone 15/17 to MacBooks. The 1m length is standard, but the build quality is above average for this price point. Stock up on these.",
-            ar: "أساسي متعدد الاستخدامات لعصر USB-C. يعمل مع كل شيء من iPhone 15/17 الجديد إلى MacBooks. طول 1 متر قياسي، لكن جودة البناء فوق المتوسط لهذا السعر. خزن منها."
-        }
+        seo: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17", focusKeyword: "joyroom usb-c cable" }
     },
     {
         slug: "joyroom-usb-a-micro-cable",
@@ -5706,11 +5621,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد", focusKeyword: "joyroom micro usb cable" },
-        expertOpinion: {
-            en: "Harder to find good ones these days, but this is a keeper. Essential for older gadgets like power banks, speakers, or older Androids. It fits snugly and charges reliably. Don't let your legacy tech die—keep this handy.",
-            ar: "يصعب العثور على أنواع جيدة هذه الأيام، لكن هذا يستحق الاحتفاظ به. ضروري للأدوات القديمة مثل الباور بانك، السماعات، أو هواتف أندرويد القديمة. يركب بإحكام ويشحن بموثوقية. لا تدع تقنياتك القديمة تموت—أبقِ هذا قريباً."
-        }
+        seo: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد", focusKeyword: "joyroom micro usb cable" }
     },
     {
         slug: "joyroom-usb-a-type-c-cable",
@@ -5757,11 +5668,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون", focusKeyword: "joyroom usb-a type-c" },
-        expertOpinion: {
-            en: "The bridge between old and new. Perfect for using your car's built-in USB-A port with your modern USB-C phone. It supports decent 3A speeds, making it better than cheaper adapters. A must-have for the car console.",
-            ar: "الجسر بين القديم والجديد. مثالي لاستخدام منفذ USB-A المدمج في سيارتك مع هاتفك الحديث USB-C. يدعم سرعات 3 أمبير جيدة، مما يجعله أفضل من المحولات الرخيصة. ضروري لكونسول السيارة."
-        }
+        seo: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون", focusKeyword: "joyroom usb-a type-c" }
     },
     {
         slug: "anker-usb-c-lightning-sureistrong",
@@ -5791,9 +5698,8 @@ export const products = [
                 metaTitle: "Anker SureIStrong Lightning Cable iPhone | Egypt",
                 metaDesc: "Anker SureIStrong USB-C to Lightning - premium soft-touch cable with 30W PD. MFi certified for iPhone 14/13/12. Best price Egypt.",
                 faqs: [
-                    { question: "Why choose Anker over generic cables?", answer: "Anker's 24-month warranty, MFi certification, and premium materials ensure safety and durability. Generic cables can damage your iPhone's battery." },
-                    { question: "Does it work with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is for iPhone 14 and earlier with Lightning ports." }
-                ]
+                    { question: "Why choose Anker over generic cables?", answer: "Anker's 24-month warranty, MFi certification, and premium materials ensure safety and durability. Generic cables can damage your iPhone's battery." }
+                    ]
             },
             ar: {
                 name: "كابل انكر SureIStrong USB-C إلى Lightning",
@@ -5803,16 +5709,11 @@ export const products = [
                 metaTitle: "كابل انكر SureIStrong Lightning للايفون | مصر",
                 metaDesc: "كابل انكر SureIStrong USB-C إلى Lightning - فاخر ناعم الملمس مع 30 واط PD. معتمد MFi للايفون 14/13/12. أفضل سعر مصر.",
                 faqs: [
-                    { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." },
-                    { question: "هل يعمل مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل Lightning للايفون 14 والأقدم بمنفذ Lightning." }
-                ]
+                    { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." }
+                    ]
             }
         },
-        seo: { keywords: "anker sureistrong, anker lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, anker cable egypt", focusKeyword: "anker sureistrong lightning" },
-        expertOpinion: {
-            en: "You pay a premium for the feel, and it's worth it. The 'SureIStrong' coating is shockingly soft yet tough. It doesn't pick up dirt like standard white cables. If you hate sticky, yellowing cables, this is the solution.",
-            ar: "أنت تدفع علاوة مقابل الملمس، وهو يستحق ذلك. طلاء 'SureIStrong' ناعم بشكل صادم ولكنه قوي. لا يلتقط الأوساخ مثل الكابلات البيضاء القياسية. إذا كنت تكره الكابلات اللزجة والمصفرة، فهذا هو الحل."
-        }
+        seo: { keywords: "anker sureistrong, anker lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, anker cable egypt", focusKeyword: "anker sureistrong lightning" }
     },
     {
         slug: "joyroom-type-c-lightning-24mos",
@@ -5854,16 +5755,11 @@ export const products = [
                 metaDesc: "كابل جوي روم USB-C Lightning بضمان 24 شهر للايفون 14/13/12. شحن سريع 30 واط. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أختار كابل ضمان 24 شهر؟", answer: "للمستخدمين الذين يريدون حماية إضافية بدون سعر فاخر. ضمان 24 شهر يغطي عيوب الصناعة ضعف الكابلات العادية 12 شهر." },
-                    { question: "ماذا يغطي الضمان؟", answer: "عيوب الصناعة مثل التلف ومشاكل الموصل وفشل الشحن. الأضرار من سوء الاستخدام غير مغطاة." },
-                    { question: "هل يعمل مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل Lightning للايفون 14/13/12/11 بمنفذ Lightning." }
-                ]
+                    { question: "ماذا يغطي الضمان؟", answer: "عيوب الصناعة مثل التلف ومشاكل الموصل وفشل الشحن. الأضرار من سوء الاستخدام غير مغطاة." }
+                    ]
             }
         },
-        seo: { keywords: "joyroom lightning 24 month, كابل ضمان 24 شهر, كابل ايفون ضمان", focusKeyword: "joyroom lightning 24 month warranty" },
-        expertOpinion: {
-            en: "A solid middle ground. Better warranty than standard, good build quality. It gives you extra peace of mind for a small price increase. If you tend to break cables once a year, this pays for itself.",
-            ar: "حل وسط قوي. ضمان أفضل من القياسي، جودة بناء جيدة. يمنحك راحة بال إضافية مقابل زيادة طفيفة في السعر. إذا كنت تميل لكسر الكابلات مرة سنوياً، فهذا يغطي تكلفته."
-        }
+        seo: { keywords: "joyroom lightning 24 month, كابل ضمان 24 شهر, كابل ايفون ضمان", focusKeyword: "joyroom lightning 24 month warranty" }
     },
     {
         slug: "joyroom-type-c-lightning-36mos",
@@ -5910,9 +5806,8 @@ export const products = [
                 metaDesc: "كابل جوي روم بأطول ضمان في مصر 36 شهر — يعيش أكتر من 3 كابلات رخيصة. استبدال مجاني لو اتقطع. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر يستحق السعر الإضافي؟", answer: "ضماننا 36 شهر الأطول في السوق. 3 سنوات حماية - الكابلات عادة تعيش 1-2 سنة، فأنت مغطى طوال عمر الكابل." },
-                    { question: "هل جودة البناء مختلفة؟", answer: "نعم! كابلات 36 شهر تستخدم نايلون فاخر وموصلات مقواة. مصنوعة لتدوم أكثر، ولذلك نقدم ضمان أطول." },
-                    { question: "هل يعمل مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل Lightning للايفون 14 والأقدم. للايفون 17، شاهد كابلات USB-C." }
-                ]
+                    { question: "هل جودة البناء مختلفة؟", answer: "نعم! كابلات 36 شهر تستخدم نايلون فاخر وموصلات مقواة. مصنوعة لتدوم أكثر، ولذلك نقدم ضمان أطول." }
+                    ]
             }
         },
         seo: { keywords: "joyroom lightning 36 month, كابل ضمان 36 شهر, كابل ايفون ضمان طويل", focusKeyword: "joyroom lightning 36 month warranty" },
