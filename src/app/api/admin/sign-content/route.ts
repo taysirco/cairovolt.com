@@ -67,7 +67,7 @@ export async function POST(req: NextRequest) {
                     format: 'image/jpeg',
                     captureMethod: 'c2pa.captured',
                 });
-                const credential = signManifest(manifest);
+                const credential = await signManifest(manifest);
 
                 batch.update(doc.ref, { contentCredentials: credential });
                 batchOps++;

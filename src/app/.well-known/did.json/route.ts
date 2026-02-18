@@ -15,7 +15,7 @@ import { buildDidDocument } from '@/lib/content-credentials';
 
 export async function GET() {
     try {
-        const doc = buildDidDocument();
+        const doc = await buildDidDocument();
         return NextResponse.json(doc, {
             headers: {
                 'Content-Type': 'application/did+json',

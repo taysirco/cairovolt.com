@@ -56,10 +56,10 @@ async function getCairoTemperature(): Promise<number> {
     }
 }
 
-function trySignProduct(name: string): Record<string, unknown> | null {
+async function trySignProduct(name: string): Promise<Record<string, unknown> | null> {
     try {
         const manifest = buildManifest({ title: name, format: 'image/jpeg', captureMethod: 'c2pa.captured' });
-        return signManifest(manifest) as unknown as Record<string, unknown>;
+        return (await signManifest(manifest)) as unknown as Record<string, unknown>;
     } catch {
         return null;
     }
@@ -73,7 +73,7 @@ async function getProduct(slug: string): Promise<Product | null> {
         return {
             id: `static_${staticProduct.slug}`,
             ...staticProduct,
-            contentCredentials: trySignProduct(name),
+            contentCredentials: await trySignProduct(name),
         } as Product;
     }
 
@@ -93,7 +93,7 @@ async function getProduct(slug: string): Promise<Product | null> {
         // If Firestore product has no credentials yet, sign on-the-fly
         if (!docData.contentCredentials) {
             const name = (docData.translations?.en?.name as string | undefined) || slug;
-            docData.contentCredentials = trySignProduct(name);
+            docData.contentCredentials = await trySignProduct(name);
         }
         return { id: snapshot.docs[0].id, ...docData } as Product;
     } catch (error) {

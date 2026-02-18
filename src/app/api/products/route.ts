@@ -262,7 +262,7 @@ export async function POST(req: NextRequest) {
                 format: 'image/jpeg',
                 captureMethod: 'c2pa.captured',
             });
-            contentCredentials = signManifest(manifest);
+            contentCredentials = await signManifest(manifest);
         } catch (signingErr) {
             console.warn('Content credentials signing skipped (keys not configured):', signingErr);
         }

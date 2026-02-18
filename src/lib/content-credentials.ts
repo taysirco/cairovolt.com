@@ -11,6 +11,7 @@
  */
 
 import { createSign, createVerify, createPublicKey, createHash, KeyObject } from 'crypto';
+import { getSecret } from '@/lib/get-secrets';
 
 // ─────────────────────────────────────────────────────────
 // Constants
@@ -82,23 +83,23 @@ export interface VerificationResult {
 }
 
 // ─────────────────────────────────────────────────────────
-// Key Helpers
+// ─── Key Helpers
 // ─────────────────────────────────────────────────────────
 
-function getPrivateKeyPem(): string {
-    const b64 = process.env.CAIROVOLT_PRIVATE_KEY;
-    if (!b64) throw new Error('CAIROVOLT_PRIVATE_KEY env variable not set');
+async function getPrivateKeyPem(): Promise<string> {
+    const b64 = await getSecret('cairovolt_private_key');
+    if (!b64) throw new Error('CAIROVOLT_PRIVATE_KEY / cairovolt_private_key secret not found');
     return Buffer.from(b64, 'base64').toString('utf-8');
 }
 
-function getPublicKeyPem(): string {
-    const b64 = process.env.CAIROVOLT_PUBLIC_KEY;
-    if (!b64) throw new Error('CAIROVOLT_PUBLIC_KEY env variable not set');
+async function getPublicKeyPem(): Promise<string> {
+    const b64 = await getSecret('cairovolt_public_key');
+    if (!b64) throw new Error('CAIROVOLT_PUBLIC_KEY / cairovolt_public_key secret not found');
     return Buffer.from(b64, 'base64').toString('utf-8');
 }
 
-export function getPublicKeyJwk(): Record<string, unknown> {
-    const pem = getPublicKeyPem();
+export async function getPublicKeyJwk(): Promise<Record<string, unknown>> {
+    const pem = await getPublicKeyPem();
     const key: KeyObject = createPublicKey(pem);
     return key.export({ format: 'jwk' }) as Record<string, unknown>;
 }
@@ -191,8 +192,8 @@ export function buildManifest(opts: {
 // Signing
 // ─────────────────────────────────────────────────────────
 
-export function signManifest(manifest: C2PAManifest): SignedCredential {
-    const privateKeyPem = getPrivateKeyPem();
+export async function signManifest(manifest: C2PAManifest): Promise<SignedCredential> {
+    const privateKeyPem = await getPrivateKeyPem();
     const payload = JSON.stringify(manifest);
     const signer = createSign('SHA384');
     signer.update(payload);
@@ -212,12 +213,12 @@ export function signManifest(manifest: C2PAManifest): SignedCredential {
 // Verification
 // ─────────────────────────────────────────────────────────
 
-export function verifyCredential(
+export async function verifyCredential(
     signed: SignedCredential,
     publicKeyPemOverride?: string,
-): VerificationResult {
+): Promise<VerificationResult> {
     try {
-        const publicKeyPem = publicKeyPemOverride || getPublicKeyPem();
+        const publicKeyPem = publicKeyPemOverride || await getPublicKeyPem();
         const payload = JSON.stringify(signed.manifest);
         const verifier = createVerify('SHA384');
         verifier.update(payload);
@@ -269,8 +270,8 @@ export function verifyCredential(
 // JWKS Builder (for /.well-known/jwks.json)
 // ─────────────────────────────────────────────────────────
 
-export function buildJwks() {
-    const jwk = getPublicKeyJwk();
+export async function buildJwks() {
+    const jwk = await getPublicKeyJwk();
     return {
         keys: [
             {
@@ -287,8 +288,8 @@ export function buildJwks() {
 // DID Document Builder (for /.well-known/did.json)
 // ─────────────────────────────────────────────────────────
 
-export function buildDidDocument() {
-    const jwk = getPublicKeyJwk();
+export async function buildDidDocument() {
+    const jwk = await getPublicKeyJwk();
     return {
         '@context': [
             'https://www.w3.org/ns/did/v1',

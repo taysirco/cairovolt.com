@@ -68,7 +68,7 @@ export async function GET(req: NextRequest) {
                 format: 'image/jpeg',
                 captureMethod: 'c2pa.captured',
             });
-            credential = signManifest(manifest);
+            credential = await signManifest(manifest);
         } catch {
             return NextResponse.json({
                 verified: false,
@@ -88,7 +88,7 @@ export async function GET(req: NextRequest) {
         }, { status: 200 });
     }
 
-    const result = verifyCredential(credential);
+    const result = await verifyCredential(credential);
 
     return NextResponse.json({
         verified: result.valid,
@@ -128,7 +128,7 @@ export async function POST(req: NextRequest) {
         }
 
         const credential = body.credential as SignedCredential;
-        const result = verifyCredential(credential);
+        const result = await verifyCredential(credential);
 
         return NextResponse.json({
             verified: result.valid,

@@ -13,7 +13,7 @@ import { buildJwks } from '@/lib/content-credentials';
 
 export async function GET() {
     try {
-        const jwks = buildJwks();
+        const jwks = await buildJwks();
         return NextResponse.json(jwks, {
             headers: {
                 'Content-Type': 'application/json',
