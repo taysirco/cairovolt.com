@@ -20,6 +20,109 @@ import { appendOrderToSheet } from '@/lib/google-sheets';
  */
 
 // ============================================
+// Smart Search Helpers
+// ============================================
+
+/**
+ * Normalise a query: lowercase, strip diacritics, map Arabic synonyms,
+ * normalise Arabic numerals, expand common abbreviations.
+ */
+function normaliseQuery(raw: string): string {
+    return raw
+        .toLowerCase()
+        .trim()
+        // Arabic-Indic digits → Western
+        .replace(/[٠١٢٣٤٥٦٧٨٩]/g, d => String('٠١٢٣٤٥٦٧٨٩'.indexOf(d)))
+        // Arabic synonyms
+        .replace(/مل\s*امبير|مللي\s*امبير|mah/gi, 'mah')
+        .replace(/باور\s*بانك|بطارية\s*متنقلة/gi, 'power bank')
+        .replace(/شاحن\s*حائط|شاحن\s*مسافر/gi, 'wall charger')
+        .replace(/شاحن\s*سيارة/gi, 'car charger')
+        .replace(/سماعات|سماعة/gi, 'earbuds')
+        .replace(/كابل|وصلة/gi, 'cable')
+        .replace(/انكر/gi, 'anker')
+        .replace(/جوي\s*روم/gi, 'joyroom')
+        .replace(/سوندكور/gi, 'soundcore');
+}
+
+/**
+ * Score a product against a search query.
+ * Returns a number — higher = better match. 0 = no match.
+ */
+function scoreProduct(
+    fields: { enName: string; arName: string; slug: string; sku: string; features: string },
+    rawQuery: string
+): number {
+    const query = normaliseQuery(rawQuery);
+    const tokens = query.split(/\s+/).filter(t => t.length > 0);
+
+    const corpus = [
+        fields.enName.toLowerCase(),
+        normaliseQuery(fields.arName),
+        fields.slug.toLowerCase().replace(/-/g, ' '),
+        fields.sku.toLowerCase(),
+        fields.features.toLowerCase(),
+    ].join(' ');
+
+    let score = 0;
+
+    // Full phrase match (highest priority)
+    if (corpus.includes(query)) score += 100;
+
+    // Every token must appear somewhere (AND logic)
+    const allMatch = tokens.every(t => corpus.includes(t));
+    if (allMatch) score += 60;
+
+    // Partial: count how many tokens match
+    const matchCount = tokens.filter(t => corpus.includes(t)).length;
+    score += matchCount * 20;
+
+    // Bonus: token in product name (not just corpus)
+    const nameCorpus = fields.enName.toLowerCase() + ' ' + normaliseQuery(fields.arName);
+    tokens.forEach(t => {
+        if (nameCorpus.includes(t)) score += 15;
+    });
+
+    return score;
+}
+
+/**
+ * Fetch all active products from Firestore and return the best match.
+ */
+async function smartSearch(
+    query: string,
+    db: FirebaseFirestore.Firestore
+): Promise<Record<string, unknown> | null> {
+    const snapshot = await db.collection('products')
+        .where('status', '==', 'active')
+        .get();
+
+    let best: Record<string, unknown> | null = null;
+    let bestScore = 0;
+
+    for (const doc of snapshot.docs) {
+        const data = doc.data();
+        const translations = data.translations as Record<string, Record<string, string>> | undefined;
+        const features = (translations?.en?.features as string[] | undefined)?.join(' ') || '';
+
+        const s = scoreProduct({
+            enName: translations?.en?.name || '',
+            arName: translations?.ar?.name || '',
+            slug: (data.slug as string) || '',
+            sku: (data.sku as string) || '',
+            features,
+        }, query);
+
+        if (s > bestScore) {
+            bestScore = s;
+            best = { id: doc.id, ...data };
+        }
+    }
+
+    return bestScore > 0 ? best : null;
+}
+
+// ============================================
 // GET — Price & Availability Check (Public)
 // ============================================
 
@@ -62,21 +165,7 @@ export async function GET(req: NextRequest) {
                 product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
             }
         } else if (search) {
-            // Search across all products — client-side filter (Firestore has no full-text search)
-            const snapshot = await db.collection('products').get();
-            const searchLower = search.toLowerCase();
-            for (const doc of snapshot.docs) {
-                const data = doc.data();
-                const translations = data.translations as Record<string, Record<string, string>> | undefined;
-                const enName = translations?.en?.name?.toLowerCase() || '';
-                const arName = translations?.ar?.name || '';
-                const productSlug = (data.slug as string)?.toLowerCase() || '';
-
-                if (enName.includes(searchLower) || arName.includes(search) || productSlug.includes(searchLower)) {
-                    product = { id: doc.id, ...data };
-                    break;
-                }
-            }
+            product = await smartSearch(search, db);
         }
 
         // Fallback to static data
@@ -85,10 +174,13 @@ export async function GET(req: NextRequest) {
                 if (sku) return p.sku === sku;
                 if (slug) return p.slug === slug;
                 if (search) {
-                    const s = search.toLowerCase();
-                    return p.translations.en.name.toLowerCase().includes(s) ||
-                        p.translations.ar.name.includes(search) ||
-                        p.slug.toLowerCase().includes(s);
+                    return scoreProduct({
+                        enName: p.translations.en.name,
+                        arName: p.translations.ar.name,
+                        slug: p.slug,
+                        sku: p.sku || '',
+                        features: p.translations.en.features?.join(' ') || '',
+                    }, search) > 0;
                 }
                 return false;
             });
