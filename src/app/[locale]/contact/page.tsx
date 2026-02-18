@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import ContactPageClient from './ContactPageClient';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 
+export const revalidate = 2592000;
+
 type Props = {
     params: Promise<{ locale: string }>;
 };

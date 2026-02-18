@@ -27,6 +27,10 @@ const BundleSelector = dynamic(() => import('@/components/products/BundleSelecto
 const ProductComparisonTable = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ProductComparisonTable));
 const ExpertOpinion = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ExpertOpinion));
 const ProductFAQ = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ProductFAQ));
+
+const RouterSurvivalCalculator = dynamic(() => import('@/components/UX/RouterSurvivalCalculator'), {
+    ssr: false
+});
 import RelatedLinks from '@/components/seo/RelatedLinks';
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -575,6 +579,13 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             locale={locale}
                             customOpinion={product.expertOpinion?.[locale as 'ar' | 'en']}
                         />
+
+                        {/* RouterSurvivalCalculator — only for power bank products (Search Termination Signal) */}
+                        {category === 'power-banks' && (
+                            <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
+                                <RouterSurvivalCalculator locale={locale} />
+                            </div>
+                        )}
 
                         {/* Smart Product FAQs (Prioritize Specific Layout) */}
                         <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">

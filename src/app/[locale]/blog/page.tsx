@@ -4,6 +4,8 @@ import { blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
+export const revalidate = 86400;
+
 type Props = {
     params: Promise<{ locale: string }>;
 };

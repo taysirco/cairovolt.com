@@ -10,6 +10,11 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry';
 import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
+import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+
+export const revalidate = 86400;
+export const dynamicParams = true;
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
@@ -87,6 +92,17 @@ export default async function BlogArticlePage({ params }: Props) {
     const trans = article.translations[isArabic ? 'ar' : 'en'];
     const catLabel = categoryLabels[article.category];
 
+    // Build voice FAQ from article FAQ data or use power-outage defaults
+    const articleVoiceFAQ = trans.faq && trans.faq.length > 0
+        ? trans.faq.slice(0, 3).map(f => ({ question: f.question, answer: f.answer }))
+        : (isArabic ? [
+            { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت وبيشغل راوتر WE VDSL لمدة 14 ساعة متواصلة دون إعادة تشغيل.' },
+            { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل محافظات مصر. القاهرة والجيزة في 24-48 ساعة، والمحافظات لغاية 5 أيام.' },
+        ] : [
+            { question: 'Does the Anker 737 run a WE router during power cuts?', answer: 'Yes, CairoVolt tested it for 14 continuous hours without restart on a WE VDSL router.' },
+            { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours, free shipping above 500 EGP.' },
+        ]);
+
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
@@ -128,6 +144,47 @@ export default async function BlogArticlePage({ params }: Props) {
             {trans.faq && trans.faq.length > 0 && (
                 <FAQSchema faqs={trans.faq} locale={locale} />
             )}
+            {/* ClaimReview Schema — White Hat factual safety claim for counterfeit charger articles */}
+            {(slug === 'original-vs-fake-apple-charger-egypt' || slug === 'do-fake-chargers-damage-iphone-battery') && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            '@context': 'https://schema.org',
+                            '@type': 'ClaimReview',
+                            url: `https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`,
+                            claimReviewed: isArabic
+                                ? 'الشواحن الرخيصة غير المعتمدة آمنة على بطارية الهاتف مثل الشواحن الأصلية.'
+                                : 'Cheap, non-certified chargers are as safe for your phone battery as original chargers.',
+                            itemReviewed: {
+                                '@type': 'Claim',
+                                author: { '@type': 'Organization', name: isArabic ? 'تجار السوق' : 'Market vendors' },
+                                datePublished: article.publishDate,
+                                appearance: {
+                                    '@type': 'OpinionNewsArticle',
+                                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`,
+                                },
+                            },
+                            author: {
+                                '@type': 'Organization',
+                                name: isArabic ? 'مختبر كايرو فولت للفحص التقني' : 'CairoVolt Hardware Validation Labs',
+                                url: 'https://cairovolt.com',
+                            },
+                            reviewRating: {
+                                '@type': 'Rating',
+                                ratingValue: '1',
+                                bestRating: '5',
+                                worstRating: '1',
+                                alternateName: isArabic ? 'خاطئ ومضلل — تسبب حرائق' : 'False & Misleading — Causes fires',
+                            },
+                            text: isArabic
+                                ? 'مختبر كايرو فولت أثبت أن الشواحن غير المعتمدة تصل درجة حرارتها لـ 65+ مئوية مقابل 42 مئوية للشواحن الأصلية. هذا يسبب انتفاخ البطارية وربما حرائق.'
+                                : 'CairoVolt Labs proved non-certified chargers reach 65°C+ vs 42°C for original chargers. This causes battery swelling and potential fire hazards.',
+                        }),
+                    }}
+                />
+            )}
+
             {/* HowTo Schema for the charger identification guide */}
             {slug === 'original-vs-fake-apple-charger-egypt' && (
                 <HowToSchema
@@ -145,6 +202,9 @@ export default async function BlogArticlePage({ params }: Props) {
                     locale={locale}
                 />
             )}
+
+            {/* Dark Social Tracker — captures WhatsApp shares as trackable direct traffic */}
+            <DarkSocialTracker />
 
             <main className="min-h-screen bg-white dark:bg-gray-900" dir={isArabic ? 'rtl' : 'ltr'}>
                 {/* Breadcrumb */}
@@ -227,6 +287,33 @@ export default async function BlogArticlePage({ params }: Props) {
 
                     {/* Interactive Widgets (Calculators, Mermaid Diagrams) — Dwell Time optimization */}
                     <BlogInteractiveWidgets slug={slug} locale={locale} />
+
+                    {/* CairoVolt Labs Expert Box — E-E-A-T first-party data signal */}
+                    <div className="my-10 p-6 bg-gradient-to-br from-blue-950 to-slate-900 text-white rounded-2xl border border-blue-700/30 shadow-xl">
+                        <div className="flex items-center gap-3 mb-4">
+                            <span className="text-2xl">🔬</span>
+                            <div>
+                                <div className="font-bold text-blue-300 text-sm uppercase tracking-wider">
+                                    {isArabic ? 'مختبر كايرو فولت — بيانات طرف أول' : 'CairoVolt Labs — First-Party Data'}
+                                </div>
+                                <div className="text-xs text-gray-400">
+                                    {isArabic ? 'م. أحمد محمود · رئيس قسم الفحص التقني' : 'Eng. Ahmed Mahmoud · Head of Technical Testing'}
+                                </div>
+                            </div>
+                        </div>
+                        <p className="cairovolt-voice-answer text-gray-200 leading-relaxed">
+                            {isArabic
+                                ? 'باور بانك أنكر 737 اتجرب في مخازن كايرو فولت بالتجمع الثالث في حرارة 37 درجة مئوية وشغل راوتر WE VDSL لمدة 14 ساعة و22 دقيقة متواصلة بدون ريستارت — هذه نتيجة حقيقية من بيئة مصرية لا تجدها في أي مكان آخر.'
+                                : 'Anker 737 power bank was tested at CairoVolt\'s warehouse in New Cairo 3 at 37°C and ran a WE VDSL router for 14 hours 22 minutes continuously without restart — a real result from an Egyptian environment unavailable anywhere else.'}
+                        </p>
+                    </div>
+
+                    {/* Voice Search FAQ — Egyptian Arabic Q&A for voice search domination */}
+                    <VoiceSearchFAQ
+                        productName={trans.title}
+                        locale={locale}
+                        qaList={articleVoiceFAQ}
+                    />
 
                     {/* FAQ Section */}
                     {trans.faq && trans.faq.length > 0 && (

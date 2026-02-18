@@ -36,6 +36,17 @@ const brands: Record<string, EntityRef> = {
         nameAr: 'جوي روم',
         type: 'Brand',
         sameAs: 'https://www.joyroom.com',
+        additionalSameAs: ['https://www.linkedin.com/company/joyroom-official'],
+    },
+    cairovolt: {
+        name: 'Cairo Volt',
+        nameAr: 'كايرو فولت',
+        type: 'Organization',
+        sameAs: 'https://cairovolt.com',
+        additionalSameAs: [
+            'https://www.facebook.com/cairovolt',
+            'https://www.instagram.com/cairovolt',
+        ],
     },
     apple: {
         name: 'Apple',
@@ -63,6 +74,21 @@ const productCategories: Record<string, EntityRef> = {
         nameAr: 'باور بانك',
         type: 'Product',
         sameAs: 'https://en.wikipedia.org/wiki/Battery_charger#Portable',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q2015955'],
+    },
+    upsDevice: {
+        name: 'Uninterruptible power supply',
+        nameAr: 'جهاز UPS',
+        type: 'Product',
+        sameAs: 'https://en.wikipedia.org/wiki/Uninterruptible_power_supply',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q190170'],
+    },
+    loadShedding: {
+        name: 'Electricity load shedding',
+        nameAr: 'تخفيف أحمال الكهرباء',
+        type: 'Thing',
+        sameAs: 'https://en.wikipedia.org/wiki/Rolling_blackout',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q1069792'],
     },
     charger: {
         name: 'Battery charger',
@@ -100,7 +126,14 @@ const technologies: Record<string, EntityRef> = {
         nameAr: 'USB-C',
         type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/USB-C',
-        additionalSameAs: ['https://www.wikidata.org/wiki/Q20722126'],
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q20722126', 'https://en.wikipedia.org/wiki/USB#USB_Type-C'],
+    },
+    vdslRouter: {
+        name: 'VDSL',
+        nameAr: 'راوتر VDSL',
+        type: 'Thing',
+        sameAs: 'https://en.wikipedia.org/wiki/VDSL',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q7906'],
     },
     usbPD: {
         name: 'USB Power Delivery',
@@ -145,12 +178,21 @@ const technologies: Record<string, EntityRef> = {
         nameAr: 'Qualcomm Quick Charge',
         type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Quick_Charge',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q17022071'],
     },
     magsafe: {
         name: 'MagSafe',
         nameAr: 'ماج سيف',
         type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/MagSafe_(iPhone)',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q110456798'],
+    },
+    qi2: {
+        name: 'Qi2',
+        nameAr: 'Qi2',
+        type: 'Thing',
+        sameAs: 'https://en.wikipedia.org/wiki/Qi_(standard)',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q62074762'],
     },
 };
 
@@ -172,6 +214,20 @@ const geographic: Record<string, EntityRef> = {
         type: 'City',
         sameAs: 'https://en.wikipedia.org/wiki/Cairo',
         additionalSameAs: ['https://www.wikidata.org/wiki/Q85'],
+    },
+    newCairo: {
+        name: 'New Cairo',
+        nameAr: 'القاهرة الجديدة',
+        type: 'City',
+        sameAs: 'https://en.wikipedia.org/wiki/New_Cairo',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q1031427'],
+    },
+    damietta: {
+        name: 'New Damietta City',
+        nameAr: 'مدينة دمياط الجديدة',
+        type: 'City',
+        sameAs: 'https://en.wikipedia.org/wiki/New_Damietta',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q6001891'],
     },
 };
 
@@ -212,12 +268,12 @@ export function getEntitiesForCategory(category: string): string[] {
     const base = ['egypt', 'cairo'];
 
     const categoryMap: Record<string, string[]> = {
-        'power-banks': ['anker', 'joyroom', 'powerBank', 'lithiumIon', 'usbC', 'usbPD'],
-        'wall-chargers': ['anker', 'joyroom', 'charger', 'usbC', 'usbPD', 'gan', 'quickCharge'],
-        'audio': ['anker', 'soundcore', 'joyroom', 'earbuds', 'anc', 'bluetooth'],
-        'speakers': ['anker', 'soundcore', 'speaker', 'bluetooth'],
-        'cables': ['anker', 'joyroom', 'cable', 'usbC'],
-        'car-chargers': ['anker', 'joyroom', 'charger', 'usbC', 'quickCharge'],
+        'power-banks': ['anker', 'joyroom', 'cairovolt', 'powerBank', 'upsDevice', 'loadShedding', 'vdslRouter', 'lithiumIon', 'lifepo4', 'usbC', 'usbPD', 'magsafe', 'qi2', 'newCairo'],
+        'wall-chargers': ['anker', 'joyroom', 'cairovolt', 'charger', 'usbC', 'usbPD', 'gan', 'quickCharge', 'qi2'],
+        'audio': ['anker', 'soundcore', 'joyroom', 'cairovolt', 'earbuds', 'anc', 'bluetooth'],
+        'speakers': ['anker', 'soundcore', 'cairovolt', 'speaker', 'bluetooth'],
+        'cables': ['anker', 'joyroom', 'cable', 'usbC', 'usbPD'],
+        'car-chargers': ['anker', 'joyroom', 'cairovolt', 'charger', 'usbC', 'quickCharge', 'usbPD'],
         'smart-watches': ['joyroom', 'bluetooth'],
         'car-holders': ['joyroom'],
     };
@@ -233,10 +289,10 @@ export function getEntitiesForBrand(brand: string): string[] {
     const brandLower = brand.toLowerCase();
 
     if (brandLower === 'anker') {
-        return [...base, 'anker', 'soundcore', 'usbC', 'usbPD', 'gan', 'lithiumIon'];
+        return [...base, 'anker', 'soundcore', 'cairovolt', 'usbC', 'usbPD', 'gan', 'lithiumIon', 'newCairo', 'damietta'];
     }
     if (brandLower === 'joyroom') {
-        return [...base, 'joyroom', 'usbC', 'bluetooth'];
+        return [...base, 'joyroom', 'cairovolt', 'usbC', 'bluetooth'];
     }
     return base;
 }
@@ -247,12 +303,12 @@ export function getEntitiesForBrand(brand: string): string[] {
 export function getEntitiesForArticle(slug: string): { about: string[]; mentions: string[] } {
     const articleEntityMap: Record<string, { about: string[]; mentions: string[] }> = {
         'best-power-bank-egypt-2026': {
-            about: ['powerBank', 'egypt'],
-            mentions: ['anker', 'joyroom', 'lithiumIon', 'usbC', 'usbPD', 'cairo'],
+            about: ['powerBank', 'loadShedding', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'vdslRouter', 'upsDevice', 'lithiumIon', 'usbC', 'usbPD', 'newCairo', 'cairo'],
         },
         'anker-vs-joyroom-comparison': {
             about: ['anker', 'joyroom', 'egypt'],
-            mentions: ['powerBank', 'charger', 'earbuds', 'cable', 'usbC', 'gan', 'cairo'],
+            mentions: ['powerBank', 'charger', 'earbuds', 'cable', 'usbC', 'gan', 'cairovolt', 'cairo', 'damietta'],
         },
         'best-iphone-17-charger-egypt': {
             about: ['charger', 'apple', 'egypt'],
@@ -260,31 +316,31 @@ export function getEntitiesForArticle(slug: string): { about: string[]; mentions
         },
         'how-to-identify-original-anker': {
             about: ['anker', 'egypt'],
-            mentions: ['powerBank', 'charger', 'cairo'],
+            mentions: ['powerBank', 'charger', 'cairovolt', 'cairo', 'damietta'],
         },
         'best-bluetooth-earbuds-egypt-2026': {
             about: ['earbuds', 'egypt'],
-            mentions: ['anker', 'soundcore', 'joyroom', 'anc', 'bluetooth', 'apple', 'cairo'],
+            mentions: ['anker', 'soundcore', 'joyroom', 'cairovolt', 'anc', 'bluetooth', 'apple', 'cairo', 'newCairo'],
         },
         'how-to-charge-power-bank-correctly': {
             about: ['powerBank', 'lithiumIon'],
-            mentions: ['anker', 'joyroom', 'usbC', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'lifepo4', 'egypt', 'cairo'],
         },
         'best-samsung-s26-charger': {
             about: ['charger', 'samsung', 'egypt'],
-            mentions: ['anker', 'usbC', 'usbPD', 'quickCharge', 'cairo'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'quickCharge', 'gan', 'cairo', 'newCairo'],
         },
         'original-vs-fake-apple-charger-egypt': {
             about: ['charger', 'apple', 'egypt'],
-            mentions: ['anker', 'usbC', 'cairo'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'cairo', 'damietta'],
         },
         'best-power-bank-router-power-outage-egypt': {
-            about: ['powerBank', 'egypt'],
-            mentions: ['anker', 'lithiumIon', 'lifepo4', 'usbC', 'cairo'],
+            about: ['powerBank', 'loadShedding', 'egypt'],
+            mentions: ['anker', 'cairovolt', 'vdslRouter', 'upsDevice', 'lithiumIon', 'lifepo4', 'usbC', 'newCairo', 'cairo'],
         },
         'do-fake-chargers-damage-iphone-battery': {
             about: ['charger', 'apple', 'lithiumIon'],
-            mentions: ['anker', 'usbC', 'egypt', 'cairo'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'egypt', 'cairo'],
         },
     };
 

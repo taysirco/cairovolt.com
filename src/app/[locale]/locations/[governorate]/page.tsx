@@ -2,11 +2,14 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getGovernorateBySlug, governorates, Governorate } from '@/data/governorates';
+import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { staticProducts, staticCategories } from '@/lib/static-products';
-import { LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+
+export const revalidate = 2592000;
 
 interface PageProps {
     params: Promise<{
@@ -81,8 +84,7 @@ export default async function GovernoratePage({ params }: PageProps) {
 
     return (
         <>
-            {/* LocalBusiness Schema for this governorate */}
-            <LocalBusinessSchema locale={locale} />
+            {/* LocalBusiness Schema already injected by layout.tsx — no duplicate needed */}
 
             {/* Breadcrumb Schema */}
             <BreadcrumbSchema
@@ -294,6 +296,40 @@ export default async function GovernoratePage({ params }: PageProps) {
                         </div>
                     </div>
                 </section>
+
+                {/* Voice Search FAQ — Egyptian Arabic Q&A for voice/AI search */}
+                <section className="container mx-auto px-4 py-8 max-w-4xl">
+                    <VoiceSearchFAQ
+                        productName={isArabic ? `إكسسوارات موبايل ${govName}` : `Mobile Accessories in ${govName}`}
+                        locale={locale}
+                        qaList={isArabic ? [
+                            {
+                                question: `بتوصلوا لـ ${govName} ولا لازم أنزل لمحافظة القاهرة؟`,
+                                answer: `بنوصل لحد باب بيتك في ${govName} خلال ${gov.deliveryDays} أيام. تكلفة الشحن 40 جنيه أو مجاني لو طلبك فوق 500 جنيه.`,
+                            },
+                            {
+                                question: `هو بيشغل باور بانك أنكر راوتر WE لما النور يقطع في ${govName}؟`,
+                                answer: `أيوة، اختبرناه في كايرو فولت وبيشغل راوتر WE VDSL لمدة 14 ساعة متواصلة بدون ريستارت. منتجات أنكر متاحة بضمان رسمي.`,
+                            },
+                            {
+                                question: `إيه يضمنلي إن منتجات كايرو فولت اللي بتوصلها في ${govName} أصلية؟`,
+                                answer: `كايرو فولت شركة مسجلة (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي. ضمان رسمي 18 شهر وتدفع كاش لما يوصلك.`,
+                            },
+                        ] : [
+                            {
+                                question: `Do you deliver to ${govName}?`,
+                                answer: `Yes! We deliver to ${govName} in ${gov.deliveryDays} days. Shipping is 40 EGP or free for orders above 500 EGP.`,
+                            },
+                            {
+                                question: `Does the Anker 737 run a WE router during power outages in ${govName}?`,
+                                answer: 'Yes, we tested it at CairoVolt and it runs a WE VDSL router for 14 continuous hours without restart. Available with official warranty.',
+                            },
+                        ]}
+                    />
+                </section>
+
+                {/* Dark Social Tracker */}
+                <DarkSocialTracker />
 
                 {/* Other Governorates */}
                 <section className="py-12 bg-gray-50 dark:bg-gray-900">

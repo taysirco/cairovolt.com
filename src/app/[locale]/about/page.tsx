@@ -4,6 +4,8 @@ import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema } from '@/components/schemas/AEOSchemas';
 
+export const revalidate = 2592000;
+
 type Props = {
     params: Promise<{ locale: string }>;
 };

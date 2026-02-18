@@ -9,6 +9,10 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/entity-registry';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
+import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+
+export const revalidate = 3600;
 
 type Props = {
     params: Promise<{ locale: string; brand: string }>;
@@ -391,6 +395,23 @@ export default async function BrandHubPage({ params }: Props) {
                     </div>
                 </section>
             )}
+
+            {/* Voice Search FAQ — Egyptian Arabic Q&A for voice/AI search domination */}
+            {data.faq && (
+                <div className="container mx-auto px-4 max-w-3xl pb-12">
+                    <VoiceSearchFAQ
+                        productName={data.hero.title}
+                        locale={locale}
+                        qaList={(isRTL ? data.faq.ar : data.faq.en).slice(0, 3).map(item => ({
+                            question: item.question,
+                            answer: item.answer,
+                        }))}
+                    />
+                </div>
+            )}
+
+            {/* Dark Social Tracker — captures WhatsApp shares */}
+            <DarkSocialTracker />
 
         </div>
     );

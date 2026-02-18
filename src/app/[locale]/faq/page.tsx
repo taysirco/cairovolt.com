@@ -2,6 +2,10 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+
+export const revalidate = 86400;
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -121,6 +125,26 @@ export default async function FAQPage({ params }: Props) {
                                 </section>
                             ))}
                         </div>
+
+                        {/* Voice Search FAQ — Egyptian Arabic Q&A for voice/AI search */}
+                        <div className="mt-8">
+                            <VoiceSearchFAQ
+                                productName={locale === 'ar' ? 'أسئلة شائعة — كايرو فولت' : 'FAQ — Cairo Volt'}
+                                locale={locale}
+                                qaList={locale === 'ar' ? [
+                                    { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت وبيشغل راوتر WE VDSL لمدة 14 ساعة متواصلة دون إعادة تشغيل.' },
+                                    { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل محافظات مصر. القاهرة والجيزة في 24-48 ساعة، والشحن 40 جنيه أو مجاني فوق 500 جنيه.' },
+                                    { question: 'إيه يضمنلي إن المنتج أصلي؟', answer: 'كايرو فولت شركة مسجلة (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
+                                ] : [
+                                    { question: 'Does the Anker 737 power bank run a WE router during power cuts?', answer: 'Yes, we tested it at CairoVolt and it runs a WE VDSL router for 14 continuous hours without restart.' },
+                                    { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours, 40 EGP shipping or free above 500 EGP.' },
+                                    { question: 'How do I verify products are original?', answer: 'CairoVolt is registered (CR: 8446). All products come sealed with original barcode verifiable on Anker\'s site. 18-month warranty.' },
+                                ]}
+                            />
+                        </div>
+
+                        {/* Dark Social Tracker */}
+                        <DarkSocialTracker />
 
                         {/* Contact CTA */}
                         <div className="mt-12 text-center bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-white">

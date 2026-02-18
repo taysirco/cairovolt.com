@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { generateCategoryMetadata, GenericCategoryContent } from '@/lib/generic-category-helpers';
 
+export const revalidate = 3600;
+
 const SLUG = 'earbuds';
 
 type Props = { params: Promise<{ locale: string }> };

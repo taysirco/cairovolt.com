@@ -4,6 +4,9 @@ import { notFound } from 'next/navigation';
 import { categoryData } from '@/data/category-seo';
 import { getProductsByBrandAndCategory } from '@/lib/static-products';
 
+export const revalidate = 3600;
+export const dynamicParams = true;
+
 type Props = {
     params: Promise<{ locale: string; brand: string; category: string }>;
 };

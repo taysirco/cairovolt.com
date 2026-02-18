@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from '@/i18n/routing';
+import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -84,20 +85,45 @@ export default function CheckoutPage() {
     const locale = useLocale();
     const isArabic = locale === 'ar';
     const router = useRouter();
-    const { items: cartItems, totalAmount, clearCart } = useCart();
+    const { items: cartItems, totalAmount, clearCart, addToCart } = useCart();
+    const searchParams = useSearchParams();
     const [loading, setLoading] = useState(false);
     const [phone, setPhone] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
+    const [directBuyProcessed, setDirectBuyProcessed] = useState(false);
 
     const governorates = isArabic ? GOVERNORATES.ar : GOVERNORATES.en;
     const currency = isArabic ? 'جنيه' : 'EGP';
 
+    // Direct Buy URL support: ?add_sku=XXX (for BuyAction schema / M2M Commerce)
+    useEffect(() => {
+        const addSku = searchParams.get('add_sku');
+        if (addSku && !directBuyProcessed) {
+            setDirectBuyProcessed(true);
+            // Fetch product by SKU and add to cart
+            fetch(`/api/products?sku=${encodeURIComponent(addSku)}`)
+                .then(res => res.ok ? res.json() : null)
+                .then(product => {
+                    if (product) {
+                        addToCart({
+                            productId: product.productId || product.id || addSku,
+                            name: product.name || addSku,
+                            price: product.price || 0,
+                            image: product.image || '',
+                            quantity: 1,
+                        });
+                    }
+                })
+                .catch(() => { /* silently fail for invalid SKU */ });
+        }
+    }, [searchParams, directBuyProcessed, addToCart]);
+
     // Redirect if cart is empty
     useEffect(() => {
-        if (!loading && cartItems.length === 0) {
+        if (!loading && cartItems.length === 0 && !searchParams.get('add_sku')) {
             router.push('/');
         }
-    }, [cartItems, loading, router]);
+    }, [cartItems, loading, router, searchParams]);
 
     // Handle phone input - convert Arabic to English
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -219,6 +245,7 @@ export default function CheckoutPage() {
                             <input
                                 name="customerName"
                                 required
+                                autoComplete="name"
                                 className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
                                 placeholder={isArabic ? 'أحمد محمد' : 'Ahmed Mohamed'}
                             />
@@ -230,6 +257,7 @@ export default function CheckoutPage() {
                                 name="phone"
                                 type="tel"
                                 required
+                                autoComplete="tel"
                                 value={phone}
                                 onChange={handlePhoneChange}
                                 className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
@@ -268,6 +296,7 @@ export default function CheckoutPage() {
                             <textarea
                                 name="address"
                                 required
+                                autoComplete="street-address"
                                 className="w-full border rounded-lg p-3 h-24 dark:bg-gray-800 dark:border-gray-700"
                                 placeholder={isArabic ? 'الشارع، المبنى، الطابق، علامة مميزة' : 'Street, Building, Floor, Landmark'}
                             />

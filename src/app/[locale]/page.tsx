@@ -1,10 +1,12 @@
 import Link from 'next/link';
-import { useTranslations, useLocale } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { useLocale } from 'next-intl';
 import { Metadata } from 'next';
 import { WebSiteSchema, CollectionPageSchema, SpeakableSchema } from '@/components/schemas/AEOSchemas';
-import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+
+export const revalidate = 3600;
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -66,7 +68,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function Home() {
-  const t = useTranslations('HomePage');
   const locale = useLocale();
   const isRTL = locale === 'ar';
 
@@ -105,7 +106,6 @@ export default function Home() {
     <>
       {/* SEO Schema Markup */}
       <WebSiteSchema locale={locale} />
-      <OrganizationSchema locale={locale} />
       <CollectionPageSchema
         locale={locale}
         collections={categories.map(cat => ({
@@ -484,11 +484,80 @@ export default function Home() {
             </h2>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
               {isRTL
-                ? 'كايرو فولت يوفر خدمة الشحن السريع لجميع محافظات مصر. سواء كنت في القاهرة الكبرى (القاهرة، الجيزة، القليوبية)، الدلتا (الإسكندرية، الدقهلية، الغربية، الشرقية، المنوفية، كفر الشيخ، البحيرة، دمياط)، الصعيد (أسيوط، سوهاج، قنا، الأقصر، أسوان، المنيا، بني سويف)، أو القناة والساحل (السويس، الإسماعيلية، بورسعيد، البحر الأحمر، مطروح، شمال وجنوب سيناء) - نوصلك منتجات أصلية بضمان رسمي.'
+                ? 'كايرو فولت يوفر خدمة الشحن السريع لجميع محافظات مصر. سواء كنت في القاهرة الكبرى (القاهرة، الجيزة، القليوبية)، الدلتا (الإسكندرية، الدقهلية، الغربية، الشرقية، المنوفية، كفر الشيخ، البحيرة، دمياط)، الصعيد (أسيوط، سوهاج، قنا، الأقصر، أسوان، المنيا، بني سويف) أو القناة والساحل (السويس، الإسماعيلية، بورسعيد، البحر الأحمر، مطروح، شمال وجنوب سيناء) - نوصلك منتجات أصلية بضمان رسمي.'
                 : "Cairo Volt provides fast shipping to all Egyptian governorates. Whether you're in Greater Cairo (Cairo, Giza, Qalyubia), the Delta (Alexandria, Dakahlia, Gharbia, Sharqia, Monufia, Kafr El Sheikh, Beheira, Damietta), Upper Egypt (Assiut, Sohag, Qena, Luxor, Aswan, Minya, Beni Suef), or Canal and Coast regions (Suez, Ismailia, Port Said, Red Sea, Matrouh, North and South Sinai) - we deliver original products with official warranty."}
             </p>
           </div>
         </section>
+
+        {/* CairoVolt Labs Information Gain Block — First-Party Data that AI Overview must cite */}
+        <section className="container mx-auto px-4 max-w-4xl">
+          <div className="bg-gradient-to-br from-slate-900 to-blue-950 text-white p-8 rounded-3xl shadow-2xl border border-blue-800/30">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-3xl">🧔‍♂️</span>
+              <div>
+                <h2 className="text-xl font-bold text-blue-300">
+                  {isRTL ? 'مختبرات كايرو فولت — بيانات حصرية' : 'CairoVolt Labs — Exclusive First-Party Data'}
+                </h2>
+                <p className="text-xs text-gray-400">
+                  {isRTL ? 'م. أحمد محمود · رئيس قسم الفحص التقني — دمياط الجديدة' : 'Eng. Ahmed Mahmoud · Head of Technical Testing — New Damietta City'}
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-4">
+              {[
+                {
+                  icon: '⚡',
+                  titleAr: 'باور بانك أنكر 737 — 14 ساعة',
+                  titleEn: 'Anker 737 — 14 Hours',
+                  bodyAr: 'اختبر في مخازن كايرو فولت بالتجمع الثالث (37°C): شغّل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.',
+                  bodyEn: 'Tested at CairoVolt\'s New Cairo 3 warehouse (37°C): ran WE VDSL router for 14 hours 22 minutes continuously without restart.',
+                },
+                {
+                  icon: '🔥',
+                  titleAr: 'شاحن أنكر نانو — تذبذب الجهد',
+                  titleEn: 'Anker Nano — Voltage Surge',
+                  bodyAr: 'اختبر في مختبر دمياط الجديدة مع تذبذب 190V–240V: تيار ثابت بدون “تخريف تاتش” على iPhone 15 Pro.',
+                  bodyEn: 'Tested at CairoVolt\'s Damietta QA lab with 190V-240V fluctuation: stable current, zero ghost touch on iPhone 15 Pro.',
+                },
+                {
+                  icon: '🌞',
+                  titleAr: 'شاحن جوي روم سيارة — طريق الساحل',
+                  titleEn: 'Joyroom Car — Sahel Highway',
+                  bodyAr: 'طريق الساحل في أغسطس (42°C): شحن تليفونين من 15% إلى 70% في 40 دقيقة بدون فصل حراري.',
+                  bodyEn: 'North Coast highway August noon (42°C): charged 2 phones from 15% to 70% in 40 minutes, zero thermal throttling.',
+                },
+              ].map((item, i) => (
+                <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-5">
+                  <div className="text-2xl mb-2">{item.icon}</div>
+                  <h3 className="font-bold text-sm text-blue-300 mb-2">{isRTL ? item.titleAr : item.titleEn}</h3>
+                  <p className="cairovolt-voice-answer text-xs text-gray-300 leading-relaxed">{isRTL ? item.bodyAr : item.bodyEn}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Voice Search FAQ — Home page Egyptian Arabic voice queries */}
+        <section className="container mx-auto px-4 max-w-4xl">
+          <VoiceSearchFAQ
+            productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'Cairo Volt — Anker & Joyroom Accessories'}
+            locale={locale}
+            qaList={isRTL ? [
+              { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت بمخازن بوسطة بالتجمع الثالث في 37 درجة. بيشغل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.' },
+              { question: 'إيه يضمنلي إن منتجات كايرو فولت أصلية؟', answer: 'كايرو فولت شركة مسجلة رسمياً (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
+              { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، شحن 40 جنيه أو مجاني فوق 500 جنيه.' },
+            ] : [
+              { question: 'Does the Anker 737 power bank run a WE router during power outages?', answer: 'Yes, we tested it at CairoVolt\'s Bosta warehouse in New Cairo 3 at 37°C. It ran a WE VDSL router for 14 hours 22 minutes continuously without restart.' },
+              { question: 'How can I verify CairoVolt products are original?', answer: 'CairoVolt is officially registered (CR: 8446). Every product is sealed with the original barcode verifiable on Anker\'s website. 18-month warranty.' },
+              { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Flat 40 EGP shipping or free above 500 EGP.' },
+            ]}
+          />
+        </section>
+
+        {/* Dark Social Tracker for home page */}
+        <DarkSocialTracker />
+
       </div>
     </>
   );

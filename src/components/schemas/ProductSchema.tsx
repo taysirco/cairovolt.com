@@ -1,6 +1,6 @@
 // Server Component - Schemas must be SSR for Google to crawl them
 // DO NOT add 'use client' here!
-import { entityRegistry } from '@/data/entity-registry';
+import { entityRegistry, getEntitiesForCategory } from '@/data/entity-registry';
 
 interface ProductSchemaProps {
     product: {
@@ -42,6 +42,15 @@ interface ProductSchemaProps {
     }>;
     // Product specifications for additionalProperty schema markup
     specifications?: Record<string, { en: string; ar: string }>;
+    // Products this item is an accessory for (e.g., routers, laptops)
+    isAccessoryOrSparePartFor?: Array<{ name: string }>;
+    // Expert review from CairoVolt Labs
+    expertReview?: {
+        name: string;
+        linkedIn: string;
+        title: string;
+        body: string;
+    };
 }
 
 // Stable price validity date - 3 months ahead, computed once at module level
@@ -51,7 +60,7 @@ const PRICE_VALID_UNTIL = (() => {
     return d.toISOString().split('T')[0];
 })();
 
-export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.com', aggregateRating, reviews, specifications }: ProductSchemaProps) {
+export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.com', aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, expertReview }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
 
@@ -93,7 +102,7 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
         image: product.images.map(img => `${baseUrl}${img.url}`),
         // Add subjectOf property for VideoObject
         ...(videoSchema && { "subjectOf": videoSchema }),
-        // Entity linking: about (what this product IS)
+        // Entity linking: about (what this product IS) — uses category-aware entity mapping
         about: (() => {
             const brandKey = product.brand.toLowerCase();
             const brandEntity = entityRegistry[brandKey as keyof typeof entityRegistry];
@@ -105,7 +114,16 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                     sameAs: brandEntity.sameAs,
                 });
             }
-            // Add Egypt as area
+            // Add CairoVolt entity for E-E-A-T — we are the seller + lab tester
+            const cairovolt = entityRegistry['cairovolt' as keyof typeof entityRegistry];
+            if (cairovolt) {
+                aboutEntities.push({
+                    '@type': cairovolt.type,
+                    name: isArabic ? cairovolt.nameAr : cairovolt.name,
+                    sameAs: cairovolt.sameAs,
+                });
+            }
+            // Add Egypt as geographic area
             const egypt = entityRegistry['egypt' as keyof typeof entityRegistry];
             if (egypt) {
                 aboutEntities.push({
@@ -116,36 +134,89 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
             }
             return aboutEntities.length > 0 ? aboutEntities : undefined;
         })(),
-        // Entity linking: mentions (related tech/concepts)
+        // Entity linking: mentions — uses category-specific entity keys for richer KG linking
         mentions: (() => {
+            const categorySlug = (product as { categorySlug?: string }).categorySlug;
+            const categoryEntityKeys = categorySlug ? getEntitiesForCategory(categorySlug) : ['egypt', 'cairo', 'usbC'];
             const mentionEntities: Array<{ '@type': string; name: string; sameAs: string }> = [];
-            // USB-C is relevant for all modern products
-            const usbC = entityRegistry['usbC' as keyof typeof entityRegistry];
-            if (usbC) {
-                mentionEntities.push({
-                    '@type': usbC.type,
-                    name: isArabic ? usbC.nameAr : usbC.name,
-                    sameAs: usbC.sameAs,
-                });
-            }
-            const cairo = entityRegistry['cairo' as keyof typeof entityRegistry];
-            if (cairo) {
-                mentionEntities.push({
-                    '@type': cairo.type,
-                    name: isArabic ? cairo.nameAr : cairo.name,
-                    sameAs: cairo.sameAs,
-                });
+            // Add USB-C (always relevant) + category-specific entities
+            const priorityKeys = ['usbC', 'cairo', 'newCairo'];
+            const allKeys = [...new Set([...priorityKeys, ...categoryEntityKeys])];
+            for (const key of allKeys.slice(0, 8)) { // Limit to 8 mentions to avoid over-saturation
+                const entity = entityRegistry[key as keyof typeof entityRegistry];
+                if (entity && !aboutContains(key)) {
+                    mentionEntities.push({
+                        '@type': entity.type,
+                        name: isArabic ? entity.nameAr : entity.name,
+                        sameAs: entity.sameAs,
+                    });
+                }
             }
             return mentionEntities.length > 0 ? mentionEntities : undefined;
+
+            function aboutContains(key: string) {
+                const brandKey = product.brand.toLowerCase();
+                return [brandKey, 'cairovolt', 'egypt'].includes(key);
+            }
         })(),
-        // Product specifications as additionalProperty for rich results
+        // Product specifications as additionalProperty + Wikipedia Semantic Triplets
         ...(specifications && Object.keys(specifications).length > 0 && {
-            additionalProperty: Object.entries(specifications).map(([key, val]) => ({
-                '@type': 'PropertyValue',
-                name: key,
-                value: isArabic ? val.ar : val.en,
+            additionalProperty: [
+                ...Object.entries(specifications).map(([key, val]) => ({
+                    '@type': 'PropertyValue',
+                    name: key,
+                    value: isArabic ? val.ar : val.en,
+                })),
+                // Semantic Triplets — Wikipedia entity links for Knowledge Graph depth
+                {
+                    '@type': 'PropertyValue',
+                    name: 'Core Technology',
+                    value: 'Gallium Nitride (GaN)',
+                    valueReference: { '@id': 'https://en.wikipedia.org/wiki/Gallium_nitride' },
+                },
+                {
+                    '@type': 'PropertyValue',
+                    name: 'Battery Chemistry',
+                    value: 'Lithium-ion',
+                    valueReference: { '@id': 'https://en.wikipedia.org/wiki/Lithium-ion_battery' },
+                },
+                {
+                    '@type': 'PropertyValue',
+                    name: 'Connector Standard',
+                    value: 'USB-C',
+                    valueReference: { '@id': 'https://en.wikipedia.org/wiki/USB-C' },
+                },
+            ],
+        }),
+        // isAccessoryOrSparePartFor - links product to devices it powers
+        ...(isAccessoryOrSparePartFor && isAccessoryOrSparePartFor.length > 0 && {
+            isAccessoryOrSparePartFor: isAccessoryOrSparePartFor.map(item => ({
+                '@type': 'Product',
+                name: item.name,
             })),
         }),
+        // Audience with geographic targeting
+        audience: {
+            '@type': 'Audience',
+            audienceType: isArabic
+                ? 'المستخدمون في مصر الذين يحتاجون طاقة بديلة لأجهزة الإنترنت أثناء انقطاع الكهرباء'
+                : 'Users in Egypt who need backup power for internet devices during power outages',
+            geographicArea: {
+                '@type': 'Country',
+                name: 'Egypt',
+                sameAs: 'https://en.wikipedia.org/wiki/Egypt',
+            },
+        },
+        // Reviewed by CairoVolt Labs as expert organization
+        reviewedBy: {
+            '@type': 'Organization',
+            name: 'CairoVolt Hardware Validation Labs',
+            url: `${baseUrl}`,
+            knowsAbout: [
+                { '@type': 'Thing', name: 'Electric power distribution', sameAs: 'https://en.wikipedia.org/wiki/Electric_power_distribution' },
+                { '@type': 'Thing', name: 'Consumer electronics safety' },
+            ],
+        },
         // Geo SEO: Area Served
         areaServed: {
             '@type': 'Country',
@@ -174,6 +245,17 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                 ? 'https://schema.org/InStock'
                 : 'https://schema.org/OutOfStock',
             itemCondition: 'https://schema.org/NewCondition',
+            // UnitPriceSpecification for precise Google Shopping parsing
+            priceSpecification: {
+                '@type': 'UnitPriceSpecification',
+                price: product.price,
+                priceCurrency: 'EGP',
+                valueAddedTaxIncluded: true,
+                ...(product.originalPrice && product.originalPrice > product.price && {
+                    priceType: 'https://schema.org/SalePrice',
+                    referenceQuantity: { '@type': 'QuantitativeValue', value: 1 },
+                }),
+            },
             // Geo SEO: Eligible Region
             eligibleRegion: {
                 '@type': 'Country',
@@ -212,6 +294,11 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                     },
                 },
             },
+            // Accepted Payment Method - COD explicit for Egypt
+            acceptedPaymentMethod: {
+                '@type': 'PaymentMethod',
+                name: 'Cash on Delivery',
+            },
             // Return Policy - Shows "14-day returns" badge in Google
             hasMerchantReturnPolicy: {
                 '@type': 'MerchantReturnPolicy',
@@ -220,8 +307,85 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                 merchantReturnDays: 14,
                 returnMethod: 'https://schema.org/ReturnByMail',
                 returnFees: 'https://schema.org/FreeReturn',
+                url: `${baseUrl}/${locale}/return-policy`,
             },
         },
+        // BuyAction - enables direct purchase from search results (M2M Commerce)
+        potentialAction: {
+            '@type': 'BuyAction',
+            target: {
+                '@type': 'EntryPoint',
+                urlTemplate: `${baseUrl}/${locale}/checkout?add_sku=${product.sku}`,
+                actionPlatform: [
+                    'https://schema.org/DesktopWebPlatform',
+                    'https://schema.org/MobileWebPlatform',
+                ],
+            },
+            deliveryMethod: 'https://schema.org/OnSitePickup',
+        },
+        // Expert Review from CairoVolt Labs with LinkedIn verification
+        ...(expertReview && {
+            review: [{
+                '@type': 'Review',
+                author: {
+                    '@type': 'Person',
+                    name: expertReview.name,
+                    jobTitle: expertReview.title,
+                    sameAs: expertReview.linkedIn,
+                },
+                publisher: {
+                    '@type': 'Organization',
+                    name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                },
+                reviewBody: expertReview.body,
+                reviewRating: {
+                    '@type': 'Rating',
+                    ratingValue: '5',
+                    bestRating: '5',
+                    worstRating: '1',
+                },
+            },
+            // Append existing user reviews if any
+            ...(reviews || []).map(r => ({
+                '@type': 'Review',
+                author: { '@type': 'Person', name: r.author },
+                datePublished: r.datePublished,
+                reviewRating: {
+                    '@type': 'Rating',
+                    ratingValue: r.rating.toString(),
+                    bestRating: '5',
+                    worstRating: '1',
+                },
+                reviewBody: r.reviewBody,
+                ...(r.pros && r.pros.length > 0 && {
+                    positiveNotes: {
+                        '@type': 'ItemList',
+                        itemListElement: r.pros.map((p, i) => ({
+                            '@type': 'ListItem',
+                            position: i + 1,
+                            name: p,
+                        })),
+                    },
+                }),
+                ...(r.cons && r.cons.length > 0 && {
+                    negativeNotes: {
+                        '@type': 'ItemList',
+                        itemListElement: r.cons.map((c, i) => ({
+                            '@type': 'ListItem',
+                            position: i + 1,
+                            name: c,
+                        })),
+                    },
+                }),
+                ...(r.location && {
+                    contentLocation: {
+                        '@type': 'Place',
+                        name: r.location,
+                        address: { '@type': 'PostalAddress', addressCountry: 'EG' },
+                    },
+                }),
+            }))],
+        }),
         // Dynamic Aggregate Rating - ONLY included if real reviews exist
         // This prevents Schema Spam penalties from Google
         ...(aggregateRating && {
@@ -233,8 +397,9 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
                 worstRating: aggregateRating.worstRating,
             },
         }),
-        // Individual reviews with pros/cons for rich snippets
-        ...(reviews && reviews.length > 0 && {
+        // Fallback: Individual reviews only when expertReview is NOT provided
+        // (When expertReview IS provided, the review array is built above with both expert + user reviews)
+        ...(!expertReview && reviews && reviews.length > 0 && {
             review: reviews.map(r => ({
                 '@type': 'Review',
                 author: { '@type': 'Person', name: r.author },
@@ -298,46 +463,8 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
     );
 }
 
-// Organization Schema for the whole site
-export function OrganizationSchema({ locale }: { locale: string }) {
-    const isArabic = locale === 'ar';
-
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
-        alternateName: isArabic ? 'Cairo Volt' : 'كايرو فولت',
-        url: 'https://cairovolt.com',
-        logo: 'https://cairovolt.com/logo.png',
-        description: isArabic
-            ? 'الموزع المعتمد لمنتجات أنكر وجوي روم في مصر'
-            : 'Authorized dealer for Anker and Joyroom products in Egypt',
-        address: {
-            '@type': 'PostalAddress',
-            addressCountry: 'EG',
-            addressLocality: isArabic ? 'القاهرة' : 'Cairo',
-        },
-        contactPoint: {
-            '@type': 'ContactPoint',
-            contactType: 'customer service',
-            availableLanguage: ['ar', 'en'],
-        },
-        sameAs: [
-            'https://facebook.com/cairovolt',
-            'https://instagram.com/cairovolt',
-        ],
-    };
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
-}
-
 // FAQ Schema for FAQ page
-export function FAQSchema({ faqs, locale }: { faqs: Array<{ question: string; answer: string }>; locale: string }) {
+export function FAQSchema({ faqs, locale: _locale }: { faqs: Array<{ question: string; answer: string }>; locale: string }) {
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -360,7 +487,7 @@ export function FAQSchema({ faqs, locale }: { faqs: Array<{ question: string; an
 }
 
 // Breadcrumb Schema
-export function BreadcrumbSchema({ items, locale }: {
+export function BreadcrumbSchema({ items, locale: _locale }: {
     items: Array<{ name: string; url: string }>;
     locale: string;
 }) {

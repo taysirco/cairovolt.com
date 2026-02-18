@@ -215,11 +215,32 @@ export function ArticleSchema({
             '@type': 'WebPage',
             '@id': url,
         },
-        author: {
-            '@type': 'Organization',
-            name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
-            url: 'https://cairovolt.com',
-        },
+        author: [
+            {
+                '@type': 'Person',
+                name: 'Eng. Ahmed Mahmoud',
+                jobTitle: locale === 'ar'
+                    ? 'رئيس قسم الفحص التقني وحلول الطاقة — مختبر كايرو فولت'
+                    : 'Head of Hardware QA & Power Solutions — CairoVolt Labs',
+                sameAs: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
+                worksFor: {
+                    '@type': 'Organization',
+                    name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+                    url: 'https://cairovolt.com',
+                },
+                knowsAbout: [
+                    'Power bank technology',
+                    'Egyptian power grid infrastructure',
+                    'Consumer electronics safety',
+                    'Anker products',
+                ],
+            },
+            {
+                '@type': 'Organization',
+                name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+                url: 'https://cairovolt.com',
+            },
+        ],
         publisher: {
             '@type': 'Organization',
             name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
@@ -332,16 +353,40 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         currenciesAccepted: 'EGP',
         paymentAccepted: ['Cash on Delivery', 'الدفع عند الاستلام'],
         priceRange: '$$',
+        slogan: isArabic ? 'الوكيل المعتمد لأنكر وجوي روم في مصر — مختبرياً' : 'Authorized Anker & Joyroom Dealer in Egypt — Lab Tested',
+        hasMap: 'https://goo.gl/maps/cairovolt',
+        sameAs: [
+            'https://www.facebook.com/cairovolt',
+            'https://www.instagram.com/cairovolt',
+        ],
+        openingHoursSpecification: [
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: [
+                    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Saturday',
+                ],
+                opens: '09:00',
+                closes: '23:00',
+            },
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: ['Friday'],
+                opens: '14:00',
+                closes: '23:00',
+            },
+        ],
         address: {
             '@type': 'PostalAddress',
+            streetAddress: 'Bosta Fulfillment Center, Industrial Area, New Cairo 3',
             addressCountry: 'EG',
-            addressRegion: isArabic ? 'القاهرة' : 'Cairo',
-            addressLocality: isArabic ? 'القاهرة' : 'Cairo',
+            addressRegion: isArabic ? 'القاهرة' : 'Cairo Governorate',
+            addressLocality: isArabic ? 'القاهرة الجديدة' : 'New Cairo',
+            postalCode: '4716140',
         },
         geo: {
             '@type': 'GeoCoordinates',
-            latitude: 30.0444,
-            longitude: 31.2357,
+            latitude: 30.6997469,
+            longitude: 31.2088556,
         },
         areaServed: egyptianGovernorates.map(gov => ({
             '@type': 'AdministrativeArea',
@@ -374,10 +419,6 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
                 },
             ],
         },
-        sameAs: [
-            'https://facebook.com/cairovolt',
-            'https://instagram.com/cairovolt',
-        ],
         // NOTE: aggregateRating removed - Store ratings should come from 
         // Google Business Profile, not be hardcoded. Adding fake ratings
         // here is considered Schema Spam by Google.
@@ -461,6 +502,15 @@ export function WebSiteSchema({ locale, baseUrl = 'https://cairovolt.com' }: Web
             '@type': 'Country',
             name: 'Egypt',
             sameAs: 'https://en.wikipedia.org/wiki/Egypt',
+        },
+        // SearchAction enables Google Sitelinks Search Box + AI agent commerce
+        potentialAction: {
+            '@type': 'SearchAction',
+            target: {
+                '@type': 'EntryPoint',
+                urlTemplate: `${baseUrl}/${isArabic ? 'ar' : 'en'}/search?q={search_term_string}`,
+            },
+            'query-input': 'required name=search_term_string',
         },
     };
 

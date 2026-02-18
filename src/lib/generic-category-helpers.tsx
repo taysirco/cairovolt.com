@@ -5,6 +5,8 @@ import { getGenericCategory } from '@/data/generic-categories';
 import { getBlogArticle } from '@/data/blog-articles';
 import { staticProducts } from '@/lib/static-products';
 import { BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
+import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 
 /**
  * Generate metadata for a generic category page
@@ -349,6 +351,23 @@ export function GenericCategoryContent({
                         </div>
                     </section>
                 )}
+
+                {/* Voice Search FAQ — Egyptian Arabic Q&A for voice/AI search domination */}
+                {faq.length > 0 && (
+                    <section className="container mx-auto px-4 py-8 max-w-4xl">
+                        <VoiceSearchFAQ
+                            productName={content.title}
+                            locale={locale}
+                            qaList={faq.slice(0, 4).map(f => ({
+                                question: f.question,
+                                answer: f.answer,
+                            }))}
+                        />
+                    </section>
+                )}
+
+                {/* Dark Social Tracker for category pages */}
+                <DarkSocialTracker />
 
                 {/* HowTo Schema for buying tips — AEO */}
                 <script

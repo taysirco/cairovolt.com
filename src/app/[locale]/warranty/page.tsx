@@ -3,6 +3,8 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 
+export const revalidate = 2592000;
+
 type Props = {
     params: Promise<{ locale: string }>;
 };

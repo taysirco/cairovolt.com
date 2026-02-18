@@ -3,10 +3,11 @@ import { MetadataRoute } from 'next';
 import { brandData } from '@/data/brand-data';
 import { categoryData } from '@/data/category-seo';
 import { staticProducts } from '@/lib/static-products';
-import { governorates } from '@/data/governorates';
 import { blogArticles } from '@/data/blog-articles';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
+import { labData } from '@/data/cairovolt-labs';
+import { getProductSEO } from '@/data/product-seo-enhancements';
 
 const baseUrl = 'https://cairovolt.com';
 
@@ -22,14 +23,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Checkout - REMOVED (noindexed transactional page)
 
         // Static Pages - About & Contact
-        { url: `${baseUrl}/about`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/en/about`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/contact`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date() },
-        { url: `${baseUrl}/en/contact`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date() },
+        { url: `${baseUrl}/about`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date('2025-12-01') },
+        { url: `${baseUrl}/en/about`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date('2025-12-01') },
+        { url: `${baseUrl}/contact`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date('2025-12-01') },
+        { url: `${baseUrl}/en/contact`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date('2025-12-01') },
 
         // FAQ Pages - High priority for AEO/Voice Search
         { url: `${baseUrl}/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: new Date() },
         { url: `${baseUrl}/en/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: new Date() },
+
+        // Legal & Policy Pages
+        { url: `${baseUrl}/return-policy`, priority: 0.4, changeFrequency: 'yearly', lastModified: new Date('2025-10-01') },
+        { url: `${baseUrl}/en/return-policy`, priority: 0.4, changeFrequency: 'yearly', lastModified: new Date('2025-10-01') },
+        { url: `${baseUrl}/warranty`, priority: 0.4, changeFrequency: 'yearly', lastModified: new Date('2025-10-01') },
+        { url: `${baseUrl}/en/warranty`, priority: 0.4, changeFrequency: 'yearly', lastModified: new Date('2025-10-01') },
+        { url: `${baseUrl}/shipping`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date('2025-12-15') },
+        { url: `${baseUrl}/en/shipping`, priority: 0.5, changeFrequency: 'monthly', lastModified: new Date('2025-12-15') },
+        { url: `${baseUrl}/terms`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date('2025-08-01') },
+        { url: `${baseUrl}/en/terms`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date('2025-08-01') },
+        { url: `${baseUrl}/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date('2025-08-01') },
+        { url: `${baseUrl}/en/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date('2025-08-01') },
 
     ];
 
@@ -77,15 +90,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     staticProducts.forEach(product => {
         const brandSlug = toLower(product.brand);
         const categorySlug = toLower(product.categorySlug);
+        const hasLabData = !!(labData[product.slug] || getProductSEO(product.slug)?.labVerified);
+        const productPriority = hasLabData ? 1.0 : 0.9;
         routes.push({
             url: `${baseUrl}/${brandSlug}/${categorySlug}/${product.slug}`,
-            priority: 0.9,
+            priority: productPriority,
             changeFrequency: 'daily',
             lastModified: new Date(),
         });
         routes.push({
             url: `${baseUrl}/en/${brandSlug}/${categorySlug}/${product.slug}`,
-            priority: 0.9,
+            priority: productPriority,
             changeFrequency: 'daily',
             lastModified: new Date(),
         });
