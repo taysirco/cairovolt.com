@@ -49,6 +49,26 @@ export function ImageObjectSchema({
         },
         license: `${baseUrl}/en/return-policy`,
         acquireLicensePage: `${baseUrl}/en/products/${productSlug}`,
+        digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
+        encodingFormat: 'image/webp',
+        isFamilyFriendly: true,
+        exifData: [
+            {
+                '@type': 'PropertyValue',
+                name: 'DigitalSourceType',
+                value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
+            },
+            {
+                '@type': 'PropertyValue',
+                name: 'Creator',
+                value: 'CairoVolt',
+            },
+            {
+                '@type': 'PropertyValue',
+                name: 'Country',
+                value: 'Egypt',
+            },
+        ],
     };
 
     return (
