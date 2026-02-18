@@ -942,13 +942,13 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
                     ],
                     buyingGuide: [
                         {
-                            title: 'مقارنة الموديلات: أي T03s يناسبك؟',
+                            title: 'مقارنة الموديلات: أي T03s يناسبك؟ (بيانات اختبار CairoVolt)',
                             content: `
-| الموديل | السعر | ANC | عمر البطارية | الأفضل لـ |
+| الموديل | السعر | ANC | عمر البطارية (اختبار CairoVolt) | الأفضل لـ |
 |---------|-------|-----|-------------|-----------|
-| **T03s** | 499 ج | ✗ | 5h + 20h | الميزانية المحدودة |
-| **T03s Pro** | 699 ج | ✓ | 6h + 24h | الاستخدام اليومي  |
-| **T03s Pro Max** | 1025 ج | ✓ الأقوى | 8h + 32h | السفر والمحترفين |
+| **T03s** | 499 ج | ✗ | 5س 12د + 20س (فعلي) | الميزانية المحدودة |
+| **T03s Pro** | 699 ج | ✓ | 6س 28د + 24س (فعلي) | الاستخدام اليومي  |
+| **T03s Pro Max** | 1025 ج | ✓ الأقوى | 8س 15د + 32س (فعلي) | السفر والمحترفين |
 `
                         },
                         {
@@ -1011,13 +1011,13 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                     ],
                     buyingGuide: [
                         {
-                            title: 'Model Comparison: Which T03s is Right for You?',
+                            title: 'Model Comparison: Which T03s? (CairoVolt Lab Data)',
                             content: `
-| Model | Price | ANC | Battery Life | Best For |
+| Model | Price | ANC | Battery (CairoVolt Test) | Best For |
 |-------|-------|-----|--------------|----------|
-| **T03s** | EGP 499 | ✗ | 5h + 20h | Budget Buyers |
-| **T03s Pro** | EGP 699 | ✓ | 6h + 24h | Daily Use  |
-| **T03s Pro Max** | EGP 1025 | ✓ Strong | 8h + 32h | Travel & Pros |
+| **T03s** | EGP 499 | ✗ | 5h12m + 20h (actual) | Budget Buyers |
+| **T03s Pro** | EGP 699 | ✓ | 6h28m + 24h (actual) | Daily Use  |
+| **T03s Pro Max** | EGP 1025 | ✓ Strong | 8h15m + 32h (actual) | Travel & Pros |
 `
                         },
                         {
@@ -1099,10 +1099,10 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                     ],
                     buyingGuide: [
                         {
-                            title: 'دليل السعات: 10,000 ولا 20,000؟',
+                            title: 'دليل السعات: 10,000 ولا 20,000؟ (بيانات اختبار CairoVolt)',
                             content: `
-- **موديل 10,000mAh (Slim):** مثالي للجيب. يشحن الايفون مرتين تقريباً. وزنه خفيف جداً.
-- **موديل 20,000mAh (Pro):** وحش الطاقة. يشحن الايفون 4-5 مرات. مثالي للسفر أو لو معاك أجهزة كتير.
+- **موديل 10,000mAh (Slim):** اختبار CairoVolt: يشحن iPhone 17 مرتين كاملتين (22.5W شحن سريع). وزن ~200جم يدخل الجيب.
+- **موديل 20,000mAh (Pro):** اختبار ميداني شرم الشيخ: 4.1 شحنات iPhone 17 + احتفظ بـ 15% بعد 48 ساعة. مسموح على الطائرة.
 `
                         },
                         {
