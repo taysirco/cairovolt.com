@@ -9,7 +9,7 @@ import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
 import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
-import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import TabTakeover from '@/components/UX/TabTakeover';
 import { getLabData } from '@/data/cairovolt-labs';
@@ -368,23 +368,7 @@ export default async function ProductPage({ params }: Props) {
                 </div>
             )}
 
-            {/* Voice Search FAQ — Priority: product FAQs > lab data > generic */}
-            <VoiceSearchFAQ
-                productName={productName}
-                locale={locale}
-                qaList={(() => {
-                    // Priority 1: product-specific FAQs from seed-products translations
-                    const productFaqs = product.translations?.[isArabic ? 'ar' : 'en']?.faqs;
-                    if (productFaqs && productFaqs.length > 0) {
-                        return productFaqs.slice(0, 3).map(f => ({ question: f.question, answer: f.answer }));
-                    }
-                    // Priority 2: CairoVolt Labs voice FAQs
-                    const labFaqs = isArabic ? labInfo?.voiceFaqAr : labInfo?.voiceFaqEn;
-                    if (labFaqs && labFaqs.length > 0) return labFaqs;
-                    // No generic fallback — only show VoiceSearchFAQ when we have real product-specific or lab data
-                    return [];
-                })()}
-            />
+            {/* VoiceSearchFAQ removed — was duplicating the same product FAQ questions visible in the accordion above */}
 
             {/* Client-side UX components */}
             <DarkSocialTracker />

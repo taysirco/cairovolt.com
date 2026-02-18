@@ -126,19 +126,19 @@ export default async function FAQPage({ params }: Props) {
                             ))}
                         </div>
 
-                        {/* Voice Search FAQ — Egyptian Arabic Q&A for voice/AI search */}
+                        {/* Voice Search FAQ — unique QAs different from homepage voice queries */}
                         <div className="mt-8">
                             <VoiceSearchFAQ
                                 productName={locale === 'ar' ? 'أسئلة شائعة — كايرو فولت' : 'FAQ — Cairo Volt'}
                                 locale={locale}
                                 qaList={locale === 'ar' ? [
-                                    { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت وبيشغل راوتر WE VDSL لمدة 14 ساعة متواصلة دون إعادة تشغيل.' },
-                                    { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل محافظات مصر. القاهرة والجيزة في 24-48 ساعة، والشحن 40 جنيه أو مجاني فوق 500 جنيه.' },
-                                    { question: 'إيه يضمنلي إن المنتج أصلي؟', answer: 'كايرو فولت شركة مسجلة (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
+                                    { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01063374834 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
+                                    { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). المندوب بيوصلك المنتج وبتدفع لما تستلم وتتأكد.' },
+                                    { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'ضمان 18 شهر لمنتجات أنكر و 12 شهر لجوي روم. بيغطي عيوب الصناعة. لو الكابل اتقطع أو الباور بانك مشحنش — بنستبدله مجاناً.' },
                                 ] : [
-                                    { question: 'Does the Anker 737 power bank run a WE router during power cuts?', answer: 'Yes, we tested it at CairoVolt and it runs a WE VDSL router for 14 continuous hours without restart.' },
-                                    { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours, 40 EGP shipping or free above 500 EGP.' },
-                                    { question: 'How do I verify products are original?', answer: 'CairoVolt is registered (CR: 8446). All products come sealed with original barcode verifiable on Anker\'s site. 18-month warranty.' },
+                                    { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp 01063374834 within 14 days. We replace it immediately or refund you. Free replacement in Cairo & Giza.' },
+                                    { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. The courier delivers and you pay when you receive and verify the product.' },
+                                    { question: 'What exactly does your warranty cover?', answer: '18 months for Anker, 12 months for Joyroom. Covers manufacturing defects. If a cable frays or power bank won\'t charge — free replacement.' },
                                 ]}
                             />
                         </div>

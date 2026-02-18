@@ -10,7 +10,7 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry';
 import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
-import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
+
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 
 export const revalidate = 86400;
@@ -92,16 +92,7 @@ export default async function BlogArticlePage({ params }: Props) {
     const trans = article.translations[isArabic ? 'ar' : 'en'];
     const catLabel = categoryLabels[article.category];
 
-    // Build voice FAQ from article FAQ data or use power-outage defaults
-    const articleVoiceFAQ = trans.faq && trans.faq.length > 0
-        ? trans.faq.slice(0, 3).map(f => ({ question: f.question, answer: f.answer }))
-        : (isArabic ? [
-            { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت وبيشغل راوتر WE VDSL لمدة 14 ساعة متواصلة دون إعادة تشغيل.' },
-            { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل محافظات مصر. القاهرة والجيزة في 24-48 ساعة، والمحافظات لغاية 5 أيام.' },
-        ] : [
-            { question: 'Does the Anker 737 run a WE router during power cuts?', answer: 'Yes, CairoVolt tested it for 14 continuous hours without restart on a WE VDSL router.' },
-            { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours, free shipping above 500 EGP.' },
-        ]);
+    // articleVoiceFAQ removed — was duplicating FAQ section content on the same page
 
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
@@ -308,12 +299,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         </p>
                     </div>
 
-                    {/* Voice Search FAQ — Egyptian Arabic Q&A for voice search domination */}
-                    <VoiceSearchFAQ
-                        productName={trans.title}
-                        locale={locale}
-                        qaList={articleVoiceFAQ}
-                    />
+                    {/* VoiceSearchFAQ removed — was duplicating the FAQ accordion below */}
 
                     {/* FAQ Section */}
                     {trans.faq && trans.faq.length > 0 && (
