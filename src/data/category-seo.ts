@@ -1388,8 +1388,8 @@ Fake Joyroom banks are common (often filled with sand!).
                             answer: 'The LED indicator on the connector will turn off specifically when the battery is full and power is cut.'
                         },
                         {
-                            question: 'Does it support Data Transfer?',
-                            answer: 'Yes, all cables support 480Mbps data transfer, perfect for backing up iPhones to your PC/Mac.'
+                            question: 'Do Joyroom cables support data sync with PC/Mac?',
+                            answer: 'Yes, all Joyroom cables support 480Mbps USB 2.0 data transfer — fast enough for backing up iPhones, syncing photos, and transferring music.'
                         }
                     ],
                     products: [

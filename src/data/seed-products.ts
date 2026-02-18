@@ -2222,7 +2222,7 @@ export const products = [
                 metaDesc: "Buy Anker PowerLine III USB-C to Lightning in Egypt. MFi certified, 30W fast charging, 35K+ bend lifespan. 3.5x more durable than Apple. 18-month warranty.",
                 faqs: [
                     { question: "Is this MFi Certified?", answer: "Yes, this cable is Apple MFi certified, guaranteeing strict quality testing and full compatibility with iOS devices." },
-                    { question: "How long is the warranty?", answer: "It comes with an 18-month warranty covering any manufacturing defects or durability issues." },
+                    { question: "How long is the Anker Lightning cable warranty?", answer: "It comes with an 18-month warranty covering any manufacturing defects or durability issues — longer than Apple's own cable warranty." },
                     { question: "Does it work with CarPlay?", answer: "Yes, due to MFi certification, it works flawlessly with Apple CarPlay in supported vehicles." },
                     { question: "Does it support iPhone 17 fast charging?", answer: "Yes! It supports up to 30W Power Delivery, giving iPhone 17 its maximum charging speed when paired with a 30W+ charger." },
                     { question: "How does it compare to Apple's cable?", answer: "Same MFi certification at a lower price. Anker cables last longer with 35,000+ bend lifespan vs Apple's ~10,000." },
@@ -2302,8 +2302,8 @@ export const products = [
                         answer: "نعم، هذا الكابل معتمد رسمياً من أبل (MFi)، مما يضمن اختبارات جودة صارمة وتوافق كامل مع أجهزة iOS."
                     },
                     {
-                        question: "كم مدة الضمان؟",
-                        answer: "يأتي بضمان لمدة 18 شهراً يغطي أي عيوب في التصنيع أو مشاكل في المتانة."
+                        question: "كم ضمان كابل انكر Lightning هذا؟",
+                        answer: "18 شهر ضمان استبدال فوري من كايرو فولت — أطول من ضمان كابل أبل الأصلي. يغطي عيوب التصنيع ومشاكل المتانة."
                     },
                     {
                         question: "هل يعمل مع Apple CarPlay؟",

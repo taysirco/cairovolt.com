@@ -81,7 +81,7 @@ export const genericCategories: GenericCategory[] = [
         },
         faq: {
             ar: [
-                { question: 'ما أفضل باور بانك في مصر 2026؟', answer: 'باور بانك 20000mAh بشحن سريع PD هو الأكثر مبيعاً بفضل السعة الكبيرة والجودة. للميزانية المحدودة: باور بانك 10000mAh بسعر يبدأ من 450 جنيه.' },
+                { question: 'إزاي أختار سعة الباور بانك المناسبة ليا؟', answer: '20000mAh لو بتسافر كتير أو عندك أجهزة كتير (4-5 شحنات ايفون). 10000mAh لو عايز حاجة خفيفة للجيب (شحنتين ايفون). الاتنين بيدعموا شحن سريع PD.' },
                 { question: 'كم سعر باور بانك 20000 في مصر؟', answer: 'سعر باور بانك 20000 في مصر يتراوح بين 750 و 1,500 جنيه حسب العلامة والموديل. الموديلات بشحن سريع PD تعتبر الأفضل قيمة.' },
                 { question: 'ما الفرق بين 10000 و 20000 مللي أمبير؟', answer: '10,000mAh يشحن الموبايل مرتين تقريباً وحجمه أصغر ووزنه أخف (مناسب للجيب). 20,000mAh يشحن 4 مرات لكنه أكبر وأثقل (مناسب للشنطة والسفر).' },
                 { question: 'هل الشحن من الباور بانك يضر البطارية؟', answer: 'لا، الشحن من باور بانك أصلي آمن تماماً. شواحن Anker و Joyroom تحتوي على أنظمة حماية ذكية (PowerIQ / MultiProtect) تمنع الشحن الزائد وارتفاع الحرارة.' },
@@ -91,7 +91,7 @@ export const genericCategories: GenericCategory[] = [
                 { question: 'كيف تعرف الباور بانك الأصلي من التقليد؟', answer: 'تحقق من: 1) ملصق الهولوجرام على العلبة 2) رقم السيريال على موقع الشركة الرسمي 3) الشراء من وكيل معتمد مثل كايرو فولت 4) وزن المنتج وجودة التشطيب.' },
             ],
             en: [
-                { question: 'What is the best power bank in Egypt 2026?', answer: 'A 20000mAh power bank with PD fast charging is the best seller thanks to large capacity and quality. For budget: 10000mAh starting from EGP 450.' },
+                { question: 'How do I choose the right power bank capacity for my needs?', answer: '20000mAh if you travel often or have multiple devices (4-5 iPhone charges). 10000mAh for pocket-friendly daily use (2 iPhone charges). Both support PD fast charging.' },
                 { question: 'How much does a 20000mAh power bank cost in Egypt?', answer: '20000mAh power bank prices in Egypt range from EGP 750 to 1,500 depending on the brand and model. Models with PD fast charging offer the best value.' },
                 { question: 'What is the difference between 10000 and 20000mAh?', answer: '10,000mAh charges your phone about twice and is smaller/lighter (pocket-friendly). 20,000mAh charges 4 times but is bigger and heavier (better for bags and travel).' },
                 { question: 'Does charging from a power bank damage the battery?', answer: 'No, charging from an original power bank is completely safe. Anker and Joyroom chargers have smart protection systems (PowerIQ / MultiProtect) preventing overcharging and overheating.' },
