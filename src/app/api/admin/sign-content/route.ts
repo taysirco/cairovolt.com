@@ -21,14 +21,6 @@ export async function POST(req: NextRequest) {
     const authError = validateApiKey(req);
     if (authError) return authError;
 
-    // Verify signing keys are configured
-    if (!process.env.CAIROVOLT_PRIVATE_KEY || !process.env.CAIROVOLT_PUBLIC_KEY) {
-        return NextResponse.json({
-            error: 'Signing keys not configured. Set CAIROVOLT_PRIVATE_KEY and CAIROVOLT_PUBLIC_KEY.',
-            setup: 'Run: node scripts/generate-signing-keys.mjs',
-        }, { status: 503 });
-    }
-
     let body: { slug?: string; force?: boolean } = {};
     try {
         body = await req.json().catch(() => ({}));
