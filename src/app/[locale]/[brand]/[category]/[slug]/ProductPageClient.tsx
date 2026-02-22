@@ -83,7 +83,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
     // Get translations for the current product
-    const tProduct = useTranslations('ProductPage');
+    const tProduct = useTranslations('Product');
     const tCat = useTranslations('Categories');
     const tBrand = useTranslations('Brands');
 
