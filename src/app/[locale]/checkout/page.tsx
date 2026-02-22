@@ -120,6 +120,11 @@ export default function CheckoutPage() {
 
     // Redirect if cart is empty
     useEffect(() => {
+        // Mark this session as a real checkout — disarms synthetic analytics events
+        if (typeof window !== 'undefined') {
+            sessionStorage.setItem('cv_real_checkout', '1');
+        }
+
         if (!loading && cartItems.length === 0 && !searchParams.get('add_sku')) {
             router.push('/');
         }
