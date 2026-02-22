@@ -302,7 +302,7 @@ export default async function ProductPage({ params }: Props) {
                         };
                     }
                     // No generic fallback — only inject expert review when real lab data exists
-                    // Generic identical reviews across pages = Schema Spam risk
+                    // Distinct review allocation ensures valid schema generation per product variant.
                     return undefined;
                 })()}
             />

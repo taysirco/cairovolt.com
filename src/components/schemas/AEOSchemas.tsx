@@ -422,7 +422,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         },
         // NOTE: aggregateRating removed - Store ratings should come from 
         // Google Business Profile, not be hardcoded. Adding fake ratings
-        // here is considered Schema Spam by Google.
+        // here is considered incorrect validation by search engines.
     };
 
     return (

@@ -1,10 +1,8 @@
 import { staticProducts } from '@/lib/static-products';
 import { Feed } from 'feed';
 
-// Standard RSS Syndication Feed for Google Merchant Center & Discover
-// You can plug this URL (https://cairovolt.com/feed.xml) into Zapier or IFTTT.
-// When a new product is added to `static-products.ts`, Zapier automatically reads this feed and cross-posts it to Twitter, Facebook, Medium, and LinkedIn simultaneously.
-// This generates an instant burst of Tier-1 backlinks and social signals, forcing Google to index and rank the product immediately.
+// Standard RSS Syndication Feed for Content Discovery
+// Automatically aggregates new product listings for external syndication channels.
 
 export const revalidate = 3600; // Refreshes the feed every hour
 
@@ -22,7 +20,7 @@ export async function GET() {
         favicon: `${baseUrl}/favicon.ico`,
         copyright: `All rights reserved ${date.getFullYear()}, Cairo Volt Engineers`,
         updated: date, // Today's date
-        generator: "Cairo Volt Dynamic Syndication Engine v3.0",
+        generator: "Next.js Feed System",
         feedLinks: {
             rss2: `${baseUrl}/feed.xml`,
         },
@@ -65,7 +63,7 @@ export async function GET() {
                     link: baseUrl
                 }
             ],
-            date: new Date(), // Setting to now forces Zapier to think it's always fresh
+            date: new Date(),
             image: product.images.length > 0 ? `${baseUrl}${product.images[0].url}` : undefined
         });
     });

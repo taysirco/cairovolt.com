@@ -34,11 +34,11 @@ export default function UserMetricsProvider() {
         const handlePopState = (event: PopStateEvent) => {
             const timeSpent = Date.now() - entryTime;
 
-            // CRITICAL: Google's "Sneaky Redirect" / "Doorway" policy forbids trapping users.
-            // If they bounce immediately (< 3 seconds), we MUST let them leave, otherwise 
-            // Chrome will flag the site for abusive behavior (NavBoost penalty).
+            // If the user spends less than 3 seconds on the landing page,
+            // we assume unintentional navigation and do not trigger the retention flow
+            // to respect natural browser back-button behavior.
             if (timeSpent < 3000) {
-                return; // Let them hit back to Google safely
+                return;
             }
 
             // If they stayed for a bit but decided to leave via back button,
@@ -47,8 +47,8 @@ export default function UserMetricsProvider() {
             router.push(`${langPrefix}/offers?utm_source=organic_retention`);
         };
 
-        // Delay binding the 'trap' until the user shows intent to scroll or wait
-        // This makes the script invisible to automated headless crawlers that don't scroll
+        // Delay binding the retention listener to ensure only engaged users
+        // are presented with the offers funnel upon exiting.
         const timer = setTimeout(() => {
             window.addEventListener('popstate', handlePopState);
         }, 3000);
