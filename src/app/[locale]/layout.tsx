@@ -12,6 +12,7 @@ import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
 import SpeculationRules from '@/components/seo/SpeculationRules';
 import UserMetricsProvider from '@/components/seo/UserMetricsProvider';
+import EnhancedAnalyticsProvider from '@/components/seo/EnhancedAnalyticsProvider';
 import GlobalBusinessSchema from '@/components/seo/GlobalBusinessSchema';
 
 const geistSans = Geist({
@@ -111,6 +112,8 @@ export default async function RootLayout({
           <CartProvider>
             {/* Standard funnel retention and organic metrics */}
             <UserMetricsProvider />
+            {/* Enhanced eCommerce engagement analytics */}
+            <EnhancedAnalyticsProvider />
             {/* Global business graph and tech stack metadata */}
             <GlobalBusinessSchema locale={locale} />
 
