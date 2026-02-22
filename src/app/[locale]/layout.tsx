@@ -7,14 +7,17 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
-import { LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
+
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
+import SpeculationRules from '@/components/seo/SpeculationRules';
+import UserMetricsProvider from '@/components/seo/UserMetricsProvider';
+import GlobalBusinessSchema from '@/components/seo/GlobalBusinessSchema';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
   subsets: ["latin"],
+  variable: "--font-geist-sans",
+  display: 'swap',
 });
 
 const cairo = Cairo({
@@ -82,10 +85,6 @@ export default async function RootLayout({
 }) {
   const { locale } = await params;
   const headersList = await headers();
-  // Performance Cloaking: hide heavy marketing scripts from Googlebot
-  // Googlebot gets a feather-light page → 100/100 Core Web Vitals
-  const isBot = headersList.get('X-Bot-Detected') === 'true';
-
   const messages = await getMessages();
 
   return (
@@ -94,27 +93,27 @@ export default async function RootLayout({
         {/* Preconnect to critical external origins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://firestore.googleapis.com" />
+        <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
-        <link rel="dns-prefetch" href="https://firestore.googleapis.com" />
         {/* PWA Manifest — enables WebAPK and App Indexing for mobile search boost */}
         <link rel="manifest" href="/manifest.json" />
         {/* OpenSearch — registers CairoVolt as a search engine in Chrome/Safari omnibox */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
-        {/* Speculation Rules API — prerender product pages on hover (humans only, not bots) */}
-        {!isBot && (
-          <script type="speculationrules" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-            prerender: [{ source: "document", where: { and: [{ href_matches: "/*products/*" }] }, eagerness: "moderate" }]
-          }) }} />
-        )}
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
       </head>
       <body
         className={`${geistSans.variable} ${cairo.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
       >
-        <OrganizationSchema locale={locale} />
-        <LocalBusinessSchema locale={locale} />
+
         <NextIntlClientProvider messages={messages}>
           <CartProvider>
+            {/* Standard funnel retention and organic metrics */}
+            <UserMetricsProvider />
+            {/* Global business graph and tech stack metadata */}
+            <GlobalBusinessSchema locale={locale} />
+
             <div className="flex flex-col min-h-screen w-full max-w-full overflow-x-hidden">
               <Header />
               <main className="flex-grow w-full max-w-full overflow-x-hidden">
@@ -125,41 +124,35 @@ export default async function RootLayout({
             </div>
           </CartProvider>
         </NextIntlClientProvider>
-        {/* Performance Cloaking: marketing/analytics scripts hidden from Googlebot
-            Googlebot sees a feather-light page → 100/100 Core Web Vitals
-            Real users get full analytics. Zero Google penalty (content is identical). */}
-        {!isBot && (
-          <>
-            {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
-            <Script
-              id="statcounter-config"
-              strategy="lazyOnload"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  var sc_project=13202580; 
-                  var sc_invisible=1; 
-                  var sc_security="83195b7d"; 
-                `
-              }}
-            />
-            <Script
-              src="https://www.statcounter.com/counter/counter.js"
-              strategy="lazyOnload"
-            />
-            <noscript>
-              <div className="statcounter">
-                <a title="real time web analytics" href="https://statcounter.com/" target="_blank">
-                  <img
-                    className="statcounter"
-                    src="https://c.statcounter.com/13202580/0/83195b7d/1/"
-                    alt="real time web analytics"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  />
-                </a>
-              </div>
-            </noscript>
-          </>
-        )}
+        {process.env.NODE_ENV === 'production' && <SpeculationRules />}
+        {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
+        <Script
+          id="statcounter-config"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var sc_project=13202580; 
+              var sc_invisible=1; 
+              var sc_security="83195b7d"; 
+            `
+          }}
+        />
+        <Script
+          src="https://www.statcounter.com/counter/counter.js"
+          strategy="lazyOnload"
+        />
+        <noscript>
+          <div className="statcounter">
+            <a title="real time web analytics" href="https://statcounter.com/" target="_blank">
+              <img
+                className="statcounter"
+                src="https://c.statcounter.com/13202580/0/83195b7d/1/"
+                alt="real time web analytics"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </a>
+          </div>
+        </noscript>
       </body>
     </html>
   );

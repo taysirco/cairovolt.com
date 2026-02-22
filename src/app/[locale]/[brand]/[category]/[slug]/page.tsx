@@ -4,7 +4,6 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { getProductBySlug, getSmartRelatedProducts } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
-import { SpeakableSchema } from '@/components/schemas/AEOSchemas';
 import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
 import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
 import { getProductSEO } from '@/data/product-seo-enhancements';
@@ -339,14 +338,6 @@ export default async function ProductPage({ params }: Props) {
                 locale={locale}
             />
 
-            {/* SpeakableSchema for voice search */}
-            <SpeakableSchema
-                pageUrl={`https://cairovolt.com${isArabic ? '' : '/en'}/${brand}/${category}/${slug}`}
-                speakableSelectors={['h1', '.product-description', '.product-features', '.cairovolt-voice-answer']}
-                headline={productName}
-                description={productDescription.substring(0, 200)}
-                locale={locale}
-            />
 
             {/* Product-Specific FAQSchema */}
             {(() => {

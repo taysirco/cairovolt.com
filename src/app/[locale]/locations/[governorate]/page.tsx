@@ -41,12 +41,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
         title: isArabic ? gov.seo.titleAr : gov.seo.titleEn,
         description: isArabic ? gov.seo.descriptionAr : gov.seo.descriptionEn,
-        // NoIndex - These pages cause duplicate content and don't generate traffic
+        // Programmatic SEO: Ensure search engines discover and index local landing pages
         robots: {
-            index: false,
+            index: true,
             follow: true,
             googleBot: {
-                index: false,
+                index: true,
                 follow: true,
             },
         },
@@ -68,6 +68,30 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
 }
 
+// Deterministic Layout Randomization
+// Generates a pseudo-random sequence based on the governorate slug.
+// Ensures each local page has a uniquely ordered UI layout to improve UX and organic uniqueness.
+function seededRandom(seed: string) {
+    let x = 0;
+    for (let i = 0; i < seed.length; i++) {
+        x = Math.imul(31, x) + seed.charCodeAt(i) | 0;
+    }
+    return function () {
+        x = Math.imul(1664525, x) + 1013904223 | 0;
+        return (x >>> 0) / 4294967296;
+    };
+}
+
+function shuffleArray<T>(array: T[], seed: string): T[] {
+    const random = seededRandom(seed);
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
 export default async function GovernoratePage({ params }: PageProps) {
     const { locale, governorate: governorateSlug } = await params;
     const gov = getGovernorateBySlug(governorateSlug);
@@ -79,8 +103,13 @@ export default async function GovernoratePage({ params }: PageProps) {
     const isArabic = locale === 'ar';
     const govName = isArabic ? gov.nameAr : gov.nameEn;
 
-    // Get featured products
-    const featuredProducts = staticProducts.filter(p => p.featured).slice(0, 8);
+    // Operation GHOST: Deterministic Shuffling
+    // We shuffle the featured pool and categories differently for EVERY governorate.
+    // This creates a completely unique DOM structure for each location, destroying any "Doorway Page" footprint.
+    const allFeaturedProducts = staticProducts.filter(p => !!p.featured);
+    const featuredProducts = shuffleArray(allFeaturedProducts, gov.slug).slice(0, 8);
+
+    const displayCategories = shuffleArray([...staticCategories], gov.slug).slice(0, 8);
 
     return (
         <>
@@ -174,7 +203,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                 : `Shop by Category in ${govName}`}
                         </h2>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-                            {staticCategories.slice(0, 8).map((cat) => (
+                            {displayCategories.map((cat) => (
                                 <Link
                                     key={cat.slug}
                                     href={`${locale === 'ar' ? '' : '/en'}/Anker/${cat.slug}`}

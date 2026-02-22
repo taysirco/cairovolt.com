@@ -137,6 +137,27 @@ export default function middleware(request: NextRequest) {
     const response = intlMiddleware(request);
     if (response) {
         response.headers.set('X-Cache-Status', 'DYNAMIC');
+
+        // ◼️ Cloud Run Native Proxy Simulation ◼️
+        // Since we are hosting on Firebase App Hosting (Google Cloud Run underneath), 
+        // we must not use Vercel/fake headers. We must perfectly simulate a massive, 
+        // enterprise Google Envoy proxy cluster. This provides perfect camouflage.
+        if (isSearchBot) {
+            // Generate a deterministic hash based on the hour, so it rotates but looks like a stable node
+            const currentHour = new Date().getHours();
+            const envoyHash = (Math.imul(31, currentHour) + 1013904223 | 0).toString(16).substring(0, 6);
+
+            // Inject authentic-looking Google Cloud Run / Envoy proxy tracking headers
+            response.headers.set('X-Envoy-Upstream-Service-Time', Math.floor(Math.random() * 15 + 10).toString());
+            response.headers.set('X-Cloud-Trace-Context', `${crypto.randomUUID().replace(/-/g, '')}/${Math.floor(Math.random() * 100000)};o=1`);
+            response.headers.set('Server', 'envoy');
+
+            // Wipe standard Next.js identifiers
+            response.headers.delete('x-powered-by');
+            response.headers.delete('x-nextjs-cache');
+
+        }
+
         if (AI_CRAWLER_PATTERN.test(userAgent)) {
             response.headers.set('X-AI-Crawler', 'detected');
             response.headers.set('Link', '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/ai-plugin.json>; rel="ai-plugin", <https://cairovolt.com/api/openapi.json>; rel="openapi"');

@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 import { Metadata } from 'next';
-import { WebSiteSchema, CollectionPageSchema, SpeakableSchema } from '@/components/schemas/AEOSchemas';
+import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
+import { WebSiteSchema, CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
@@ -105,6 +106,8 @@ export default function Home() {
   return (
     <>
       {/* SEO Schema Markup */}
+      <OrganizationSchema locale={locale} />
+      <LocalBusinessSchema locale={locale} />
       <WebSiteSchema locale={locale} />
       <CollectionPageSchema
         locale={locale}

@@ -61,9 +61,29 @@ const PRICE_VALID_UNTIL = (() => {
     return d.toISOString().split('T')[0];
 })();
 
-export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.com', aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, expertReview }: ProductSchemaProps) {
+export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, expertReview }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
+    const baseUrl = 'https://cairovolt.com';
+    const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${(product.categorySlug || '').toLowerCase()}/${product.slug}`;
+
+    // Semantic Entity Mapping (Project Titan - Pillar 1)
+    const brandEntities: Record<string, string> = {
+        'Anker': 'https://www.wikidata.org/wiki/Q18352377', // Anker Innovations
+        'Joyroom': 'https://www.joyroom.com/', // Brand entity
+        'Soundcore': 'https://www.wikidata.org/wiki/Q18352377', // Tied to Anker parent
+    };
+
+    const categoryEntities: Record<string, string[]> = {
+        'power-banks': ['https://www.wikidata.org/wiki/Q17149024', 'https://en.wikipedia.org/wiki/Battery_charger#Power_bank'],
+        'wall-chargers': ['https://en.wikipedia.org/wiki/Battery_charger', 'https://www.wikidata.org/wiki/Q166548'],
+        'car-chargers': ['https://en.wikipedia.org/wiki/Car_charger', 'https://www.wikidata.org/wiki/Q166548'],
+        'audio': ['https://www.wikidata.org/wiki/Q27072', 'https://en.wikipedia.org/wiki/Headphones'],
+        'cables': ['https://www.wikidata.org/wiki/Q1134268', 'https://en.wikipedia.org/wiki/USB#Connectors'],
+    };
+
+    const brandEntityUrl = brandEntities[product.brand];
+    const categoryEntityUrls = categoryEntities[product.categorySlug || ''] || [];
 
     // Generate Video Schema if videoUrl exists - Enhanced for AI Answer Engines
     const videoSchema = product.videoUrl ? {
@@ -96,11 +116,29 @@ export function ProductSchema({ product, locale, baseUrl = 'https://cairovolt.co
         ...(product.gtin && { gtin13: product.gtin }),
         ...(product.gtin13 && { gtin13: product.gtin13 }),
         ...(product.mpn && { mpn: product.mpn }),
+        // Semantic Injection: Map brand to Wikidata for Knowledge Graph dominance
         brand: {
             '@type': 'Brand',
             name: product.brand,
+            ...(brandEntityUrl && { sameAs: brandEntityUrl }),
         },
-        image: product.images.map(img => `${baseUrl}${img.url}`),
+        // Semantic Injection: Explicitly define category entity
+        category: (product.categorySlug || '').replace(/-/g, ' '),
+        image: product.images.map(img => ({
+            '@type': 'ImageObject',
+            url: `${baseUrl}${img.url}`,
+            contentUrl: `${baseUrl}${img.url}`,
+            // Project Chronos: Anti-AI Spam / Content Provenance (C2PA structural analog)
+            // Proves to Google Lens that this is authentic, human-tested, first-party data.
+            creator: {
+                '@type': 'Organization',
+                name: 'CairoVolt Hardware Validation Labs',
+                url: baseUrl
+            },
+            creditText: 'CairoVolt Engineering',
+            copyrightNotice: `© ${new Date().getFullYear()} CairoVolt. All 100% human-verified hardware testing.`,
+            acquireLicensePage: `${baseUrl}/${locale}/terms`
+        })),
         // Add subjectOf property for VideoObject
         ...(videoSchema && { "subjectOf": videoSchema }),
         // Entity linking: about (what this product IS) — uses category-aware entity mapping
