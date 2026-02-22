@@ -35,7 +35,7 @@ import RelatedLinks from '@/components/seo/RelatedLinks';
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
-import { ProductAccessibilityLayer } from '@/components/seo/ProductAccessibilityLayer';
+
 
 interface Product {
     id: string; // Add id
@@ -161,26 +161,6 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
     return (
         <div className={`min-h-screen pb-20 ${locale === 'ar' ? 'rtl' : 'ltr'}`}>
-
-            {/* ADA Compliance & Screen Reader Matrix */}
-            {/* Provides a highly structured semantic fallback for accessibility parsers 
-                ensuring equitable data extraction for assistive technologies. */}
-            <ProductAccessibilityLayer
-                brand={brandDisplay}
-                productName={productDisplayTitle}
-                primarySpecs={{
-                    "Model Number": "Verified Genuine Authorized Issue",
-                    "Connectivity": category === 'audio' ? "Bluetooth 5.3 verified" : category === 'cables' ? "USB-C / Lightning" : "High-Speed",
-                    "Power / Output": category === 'power-banks' || category === 'wall-chargers' ? "GaN / PD Fast Charging" : "N/A"
-                }}
-                faqs={[
-                    ...(product.translations?.[locale as 'en' | 'ar']?.faqs || []),
-                    {
-                        question: locale === 'ar' ? `لماذا يجب أن أشتري ${productDisplayTitle} من كايروفولت؟` : `Why should I buy ${productDisplayTitle} from CairoVolt?`,
-                        answer: locale === 'ar' ? `لأننا نضمن الأصالة 100% مع الشحن السريع في نفس اليوم وضمان استبدال معتمد.` : `We guarantee 100% authenticity, same-day dispatch, and authorized replacement warranty.`
-                    }
-                ]}
-            />
 
             {/* Visual Interface Layer */}
 
