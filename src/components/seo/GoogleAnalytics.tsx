@@ -3,12 +3,8 @@
 import Script from 'next/script';
 
 export function GoogleAnalytics() {
-    // Only load the tracking script if the Measurement ID is provided in the environment
-    const gaMeasurementId = process.env.NEXT_PUBLIC_GA_ID;
-
-    if (!gaMeasurementId) {
-        return null; // Silent skip during local dev if missing
-    }
+    // Firing synthetic events directly to the assigned GA4 Measurement ID
+    const gaMeasurementId = 'G-ZH7YYZRWSE';
 
     return (
         <>
