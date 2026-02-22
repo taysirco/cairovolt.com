@@ -10,6 +10,7 @@ import { getMessages } from 'next-intl/server';
 
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
+import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
 import SpeculationRules from '@/components/seo/SpeculationRules';
 import UserMetricsProvider from '@/components/seo/UserMetricsProvider';
 import EnhancedAnalyticsProvider from '@/components/seo/EnhancedAnalyticsProvider';
@@ -108,12 +109,15 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${cairo.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
       >
 
+
         <NextIntlClientProvider messages={messages}>
           <CartProvider>
             {/* Standard funnel retention and organic metrics */}
             <UserMetricsProvider />
             {/* Enhanced eCommerce engagement analytics */}
             <EnhancedAnalyticsProvider />
+            {/* Standard GA4 Analytics */}
+            <GoogleAnalytics />
             {/* Global business graph and tech stack metadata */}
             <GlobalBusinessSchema locale={locale} />
 
