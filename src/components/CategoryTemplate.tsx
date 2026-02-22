@@ -520,7 +520,7 @@ export default function CategoryTemplate({
 
             {/* Content Section */}
             <section className="container mx-auto px-4 py-12">
-                {/* AI Overviews: Expert Opinion */}
+                {/* Structured Data: Expert Opinion */}
                 <ExpertOpinion
                     productName={translatedCategory}
                     brand={translatedBrand}
@@ -558,7 +558,7 @@ export default function CategoryTemplate({
                             </div>
                         )}
 
-                        {/* AI Overviews: Comparison Table */}
+                        {/* Structured Data: Comparison Table */}
                         <CategoryComparisonTable
                             products={content.products}
                             categoryName={translatedCategory}

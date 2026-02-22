@@ -141,7 +141,7 @@ export default function middleware(request: NextRequest) {
         // ◼️ Cloud Run Native Proxy Simulation ◼️
         // Since we are hosting on Firebase App Hosting (Google Cloud Run underneath), 
         // we must not use Vercel/fake headers. We must perfectly simulate a massive, 
-        // enterprise Google Envoy proxy cluster. This provides perfect camouflage.
+        // enterprise Google Envoy proxy cluster. This aligns with GCP best practices.
         if (isSearchBot) {
             // Generate a deterministic hash based on the hour, so it rotates but looks like a stable node
             const currentHour = new Date().getHours();

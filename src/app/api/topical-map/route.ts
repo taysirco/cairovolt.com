@@ -1,7 +1,7 @@
 import { staticProducts } from '@/lib/static-products';
 import { entityRegistry } from '@/data/entity-registry';
 
-// Pillar 3: Topological Authority Graph (Project Chronos)
+// Semantic Site Graph (Entity Mapping)
 // Secret endpoint for Googlebot to ingest the entire semantic Map of our engineering expertise.
 export const revalidate = 86400; // Refreshes daily
 

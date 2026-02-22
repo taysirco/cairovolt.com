@@ -1,8 +1,8 @@
 /**
  * LabTestBlock — Renders CairoVolt Labs first-party test results
  * as visible HTML content on the product page.
- * This is the "Information Gain" payload that Google cannot find
- * anywhere else, forcing AI Overviews to cite CairoVolt.
+ * Highly structured, empirical data block designed to provide
+ * first-party insights and clear technical specifications.
  */
 
 interface LabTestBlockProps {

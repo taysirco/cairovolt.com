@@ -612,7 +612,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
-                    {/* New AI Overviews Sections */}
+                    {/* Enhanced Structured Data Sections */}
                     <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
                         {/* Expert Opinion - E-E-A-T Signal */}
                         <ExpertOpinion

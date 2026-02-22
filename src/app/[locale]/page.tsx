@@ -493,7 +493,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CairoVolt Labs Information Gain Block — First-Party Data that AI Overview must cite */}
+        {/* CairoVolt Labs Insights Block — First-Party Empirical Data Hub */}
         <section className="container mx-auto px-4 max-w-4xl">
           <div className="bg-gradient-to-br from-slate-900 to-blue-950 text-white p-8 rounded-3xl shadow-2xl border border-blue-800/30">
             <div className="flex items-center gap-3 mb-6">

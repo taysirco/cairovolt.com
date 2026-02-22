@@ -10,8 +10,8 @@ export default function robots(): MetadataRoute.Robots {
                     '/',
                     '/api/feed',           // Merchant Center feed
                     '/api/discover-feed',  // Google Discover RSS
-                    '/api/topical-map',    // Project Chronos: Authority Graph
-                    '/api/llms/catalog',   // Project Chronos: M2M Catalog
+                    '/api/topical-map',    // Semantic Graph API
+                    '/api/llms/catalog',   // M2M Catalog API
                 ],
                 disallow: [
                     '/checkout',

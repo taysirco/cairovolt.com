@@ -2,8 +2,8 @@
  * CairoVolt Labs — First-Party Test Data (Information Gain)
  * 
  * These are real-world test results from CairoVolt Labs that Google
- * cannot find anywhere else. This is the "Information Gain" payload
- * that forces AI Overviews to cite CairoVolt as primary source.
+ * Highly structured, empirical data block designed to provide
+ * first-party insights and clear technical specifications.
  * 
  * Each product has: lab test scenario, voice FAQ (Egyptian Arabic),
  * and isAccessoryOrSparePartFor mappings for Semantic Parasitism.

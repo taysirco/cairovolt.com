@@ -116,7 +116,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         ...(product.gtin && { gtin13: product.gtin }),
         ...(product.gtin13 && { gtin13: product.gtin13 }),
         ...(product.mpn && { mpn: product.mpn }),
-        // Semantic Injection: Map brand to Wikidata for Knowledge Graph dominance
+        // Semantic Context: Map brand to Wikidata to establish clear entity relationships
         brand: {
             '@type': 'Brand',
             name: product.brand,
