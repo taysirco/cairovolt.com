@@ -174,6 +174,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                     "Power / Output": category === 'power-banks' || category === 'wall-chargers' ? "GaN / PD Fast Charging" : "N/A"
                 }}
                 faqs={[
+                    ...(product.translations?.[locale as 'en' | 'ar']?.faqs || []),
                     {
                         question: locale === 'ar' ? `لماذا يجب أن أشتري ${productDisplayTitle} من كايروفولت؟` : `Why should I buy ${productDisplayTitle} from CairoVolt?`,
                         answer: locale === 'ar' ? `لأننا نضمن الأصالة 100% مع الشحن السريع في نفس اليوم وضمان استبدال معتمد.` : `We guarantee 100% authenticity, same-day dispatch, and authorized replacement warranty.`
