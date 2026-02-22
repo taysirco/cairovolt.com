@@ -31,7 +31,7 @@ export function ProductAccessibilityLayer({ brand, productName, primarySpecs, fa
     };
 
     return (
-        <article style={a11yStyle} aria-hidden="false">
+        <article style={a11yStyle} className="sr-only">
             {/* Semantic Structural Data Matrix */}
             <section id="a11y-technical-specifications">
                 <h2>{productName} Technical Specifications and Logistics Matrix</h2>
