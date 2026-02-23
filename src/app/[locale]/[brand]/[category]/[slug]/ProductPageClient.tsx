@@ -704,20 +704,6 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 <div
                                     className={`prose prose-lg dark:prose-invert max-w-none transition-all duration-500 overflow-hidden ${isDescriptionExpanded ? 'max-h-none' : 'max-h-72'}`}
                                 >
-                                    {/* 💡 Information Gain Hack: Localized Experiential Narrative */}
-                                    <div className="mb-6 p-5 bg-blue-50/80 dark:bg-blue-900/10 border-l-4 border-blue-500 rounded-r-lg text-gray-800 dark:text-gray-200 text-lg md:text-xl font-medium leading-relaxed italic">
-                                        {isRTL ? (
-                                            <>
-                                                "قمنا بتجربة <strong>{productName}</strong> هنا في مختبرات كايرو فولت. هذا الجهاز ليس مجرد إكسسوار عادي؛ إنه استثمار حقيقي مصمم لتحمل تقلبات الكهرباء في مصر. إذا كان عملك يعتمد كلياً على البقاء متصلاً، فهذا المنتج هو درعك التقني الأول."
-                                            </>
-                                        ) : (
-                                            <>
-                                                "We rigorously tested the <strong>{productName}</strong> at CairoVolt labs. This isn't just another accessory; it's a solid investment designed to handle Egypt's grid fluctuations. If your work relies on staying connected, consider this your frontline technical shield."
-                                            </>
-                                        )}
-                                    </div>
-
-                                    {/* Original Manufacturer Description */}
                                     <div dangerouslySetInnerHTML={{ __html: productDesc }} />
                                 </div>
 
