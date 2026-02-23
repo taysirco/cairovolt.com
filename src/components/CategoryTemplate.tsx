@@ -261,7 +261,89 @@ export default function CategoryTemplate({
                 </div>
             </section>
 
-            {/* NEW: Soundcore Section for "ankersoundcore" SEO - Only renders for audio category */}
+            {/* ═══════════════════════════════════════════════════════ */}
+            {/* PRODUCT GRID — FIRST THING AFTER H1 + BREADCRUMB      */}
+            {/* Buyer sees products/prices immediately                  */}
+            {/* ═══════════════════════════════════════════════════════ */}
+            <section className="container mx-auto px-4 py-8">
+                <h2 className="text-xl font-bold mb-6">
+                    {locale === 'ar' ? 'المنتجات' : 'Products'}
+                    {loading && <span className="text-sm font-normal text-gray-500 ml-2">...</span>}
+                </h2>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    {displayProducts.map((product, idx) => (
+                        <Link
+                            key={product.id || idx}
+                            href={product.slug
+                                ? `${localePrefix}/${brand}/${categorySlug}/${product.slug}`
+                                : '#'
+                            }
+                            className="group bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 overflow-hidden hover:shadow-lg hover:border-gray-200 transition-all duration-300"
+                        >
+                            {/* Product Image */}
+                            <div className="w-full aspect-square bg-gray-50 dark:bg-gray-800 relative overflow-hidden">
+                                {product.image ? (
+                                    <Image
+                                        src={product.image}
+                                        alt={product.name}
+                                        fill
+                                        loading={idx < 4 ? 'eager' : 'lazy'}
+                                        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                                        className="object-contain p-2 group-hover:scale-105 transition-transform"
+                                    />
+                                ) : (
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <span className={`text-3xl font-bold bg-gradient-to-r ${brandColorClass} bg-clip-text text-transparent`}>
+                                            {brand.charAt(0)}
+                                        </span>
+                                    </div>
+                                )}
+                                {/* C2PA verified badge */}
+                                <span
+                                    className="absolute bottom-1 right-1 bg-emerald-500 text-white rounded-full p-0.5"
+                                    title={locale === 'ar' ? 'صورة موثّقة — C2PA' : 'Verified image — C2PA'}
+                                >
+                                    <SvgIcon name="shield" className="w-2.5 h-2.5" />
+                                </span>
+                            </div>
+
+                            {/* Product Info */}
+                            <div className="p-3">
+                                {product.badge && (
+                                    <span className={`inline-block text-[10px] font-bold px-2 py-0.5 rounded-full mb-1 ${badgeColorClass}`}>
+                                        {product.badge}
+                                    </span>
+                                )}
+                                <h3 className="text-sm font-bold text-gray-900 dark:text-white line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-2">
+                                    {product.name}
+                                </h3>
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <span className="text-base font-bold text-gray-900 dark:text-white">
+                                            {product.price}
+                                        </span>
+                                        <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
+                                        {product.originalPrice && product.originalPrice > product.price && (
+                                            <span className="text-xs text-gray-400 line-through ml-2">{product.originalPrice}</span>
+                                        )}
+                                    </div>
+                                    <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm text-xs`}>
+                                        →
+                                    </span>
+                                </div>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </section>
+
+            {/* ═══════════════════════════════════════════════════════ */}
+            {/* TACTICAL BURIAL: SEO content below products             */}
+            {/* Googlebot crawls for topical authority; buyers see      */}
+            {/* prices above without scrolling                          */}
+            {/* ═══════════════════════════════════════════════════════ */}
+
+            {/* Soundcore Section for "ankersoundcore" SEO - Only renders for audio category */}
             {soundcoreData && (
                 <section className="py-16 bg-gradient-to-b from-purple-50 to-blue-50 dark:from-gray-900 dark:to-gray-950">
                     <div className="container mx-auto px-4">
@@ -589,105 +671,33 @@ export default function CategoryTemplate({
                         )}
                     </article>
 
-                    {/* Sidebar / Products Column */}
-                    <aside className="lg:col-span-4">
-                        <div className="sticky top-24">
-                            <h2 className="text-xl font-bold mb-6">
-                                {locale === 'ar' ? 'أفضل المنتجات' : 'Top Products'}
-                                {loading && <span className="text-sm font-normal text-gray-500 ml-2">...</span>}
-                            </h2>
-
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
-                                {displayProducts.map((product, idx) => (
-                                    <Link
-                                        key={product.id || idx}
-                                        href={product.slug
-                                            ? `${localePrefix}/${brand}/${categorySlug}/${product.slug}`
-                                            : '#'
-                                        }
-                                        className="flex gap-4 group bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 p-3 hover:shadow-lg hover:border-gray-200 transition-all duration-300"
-                                    >
-                                        {/* Product Image */}
-                                        <div className="w-20 h-20 bg-gray-50 dark:bg-gray-800 rounded-lg relative overflow-hidden flex-shrink-0">
-                                            {product.image ? (
-                                                <Image
-                                                    src={product.image}
-                                                    alt={product.name}
-                                                    fill
-                                                    loading="lazy"
-                                                    sizes="80px"
-                                                    className="object-contain p-1 group-hover:scale-105 transition-transform"
-                                                />
-                                            ) : (
-                                                <div className="absolute inset-0 flex items-center justify-center">
-                                                    <span className={`text-xl font-bold bg-gradient-to-r ${brandColorClass} bg-clip-text text-transparent`}>
-                                                        {brand.charAt(0)}
-                                                    </span>
-                                                </div>
-                                            )}
-                                            {/* Content Credentials: verified image indicator */}
-                                            <span
-                                                className="absolute bottom-0.5 right-0.5 bg-emerald-500 text-white rounded-full p-0.5"
-                                                title={locale === 'ar' ? 'صورة موثّقة — C2PA' : 'Verified image — C2PA'}
-                                            >
-                                                <SvgIcon name="shield" className="w-2.5 h-2.5" />
-                                            </span>
-                                        </div>
-
-                                        {/* Product Info */}
-                                        <div className="flex-1 flex flex-col justify-between py-1">
-                                            <div>
-                                                {product.badge && (
-                                                    <span className={`inline-block text-[10px] font-bold px-2 py-0.5 rounded-full mb-1 ${badgeColorClass}`}>
-                                                        {product.badge}
-                                                    </span>
-                                                )}
-                                                <h3 className="text-sm font-bold text-gray-900 dark:text-white line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors">
-                                                    {product.name}
-                                                </h3>
-                                            </div>
-                                            <div className="flex items-center justify-between mt-2">
-                                                <div className="text-sm font-bold text-gray-900 dark:text-white">
-                                                    {product.price} <span className="text-[10px] text-gray-500 font-normal">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
-                                                </div>
-                                                <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm`}>
-                                                    →
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                ))}
-                            </div>
-
-                            {/* Trust Box (Desktop) */}
-                            <div className={`mt-8 p-6 rounded-2xl ${bgLightClass} border border-gray-100 dark:border-gray-800 hidden lg:block`}>
-                                <h3 className="font-bold mb-4 flex items-center gap-2">
-                                    <SvgIcon name="shield" className="w-5 h-5" /> {locale === 'ar' ? 'ضمان كايرو فولت' : 'CairoVolt Promise'}
-                                </h3>
-                                {(() => {
-                                    const categoryHash = typeof categorySlug === 'string' ? categorySlug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
-                                    const arTrustBoxSets = [
-                                        ['منتجات أصلية 100%', 'ضمان الوكيل الرسمي', 'استرجاع خلال 14 يوم'],
-                                        ['باركود أصلي قابل للفحص', 'كفالة استبدال فوري', 'دفع عند الاستلام'],
-                                        ['مختوم بختم الشركة', 'حماية لمدة 18 شهر', 'توصيل لجميع المحافظات'],
-                                    ];
-                                    const enTrustBoxSets = [
-                                        ['100% Original', 'Official Warranty', '14 Days Return'],
-                                        ['Scan-Verifiable Barcode', 'Instant Replacement', 'Cash on Delivery'],
-                                        ['Company Stamped', '18-Month Protection', 'Nationwide Delivery'],
-                                    ];
-                                    const trustBoxSet = locale === 'ar' ? arTrustBoxSets[categoryHash % arTrustBoxSets.length] : enTrustBoxSets[categoryHash % enTrustBoxSets.length];
-                                    return (
-                                        <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-                                            {trustBoxSet.map((text, i) => (
-                                                <li key={i} className="flex items-center gap-2">✓ {text}</li>
-                                            ))}
-                                        </ul>
-                                    );
-                                })()}
-                            </div>
-                        </div>
-                    </aside>
+                    {/* Trust Box (Desktop) */}
+                    <div className={`mt-8 p-6 rounded-2xl ${bgLightClass} border border-gray-100 dark:border-gray-800 hidden lg:block`}>
+                        <h3 className="font-bold mb-4 flex items-center gap-2">
+                            <SvgIcon name="shield" className="w-5 h-5" /> {locale === 'ar' ? 'ضمان كايرو فولت' : 'CairoVolt Promise'}
+                        </h3>
+                        {(() => {
+                            const categoryHash = typeof categorySlug === 'string' ? categorySlug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+                            const arTrustBoxSets = [
+                                ['منتجات أصلية 100%', 'ضمان الوكيل الرسمي', 'استرجاع خلال 14 يوم'],
+                                ['باركود أصلي قابل للفحص', 'كفالة استبدال فوري', 'دفع عند الاستلام'],
+                                ['مختوم بختم الشركة', 'حماية لمدة 18 شهر', 'توصيل لجميع المحافظات'],
+                            ];
+                            const enTrustBoxSets = [
+                                ['100% Original', 'Official Warranty', '14 Days Return'],
+                                ['Scan-Verifiable Barcode', 'Instant Replacement', 'Cash on Delivery'],
+                                ['Company Stamped', '18-Month Protection', 'Nationwide Delivery'],
+                            ];
+                            const trustBoxSet = locale === 'ar' ? arTrustBoxSets[categoryHash % arTrustBoxSets.length] : enTrustBoxSets[categoryHash % enTrustBoxSets.length];
+                            return (
+                                <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+                                    {trustBoxSet.map((text, i) => (
+                                        <li key={i} className="flex items-center gap-2">✓ {text}</li>
+                                    ))}
+                                </ul>
+                            );
+                        })()}
+                    </div>
                 </div>
 
                 {/* Related Categories - Internal Linking */}
