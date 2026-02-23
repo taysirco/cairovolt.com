@@ -42,20 +42,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = brandFirstProduct?.images[0]?.alt
         || (isArabic ? `${data.hero.title} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
-    // Feature: Dynamic CTR Title Optimization (A/B Testing Variants)
-    // QDD Strategy: Disguise Brand hubs as top-list guides and comprehensive overviews.
+    // QDD Strategy: Position explicitly as a Store/Distributor to avoid Brand Sandbox (Hijacking Penalty)
     const titleVariantIndex = brand.length % 3;
 
     const arTitleVariants = [
-        `دليل الشراء الشامل: أفضل منتجات ${data.hero.title} في مصر 2026 | كايرو فولت`,
-        `لماذا تعتبر أسعار ${data.hero.title} لدينا هي الأفضل؟ (مقارنة وتقييم) | كايرو فولت`,
-        `تجربتنا الكاملة مع تشكيلة ${data.hero.title} الأصلية (المميزات والعيوب) | كايرو فولت`
+        `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title} الأصلية في مصر 2026`,
+        `الموزع المعتمد: تسوق منتجات ${data.hero.title} بضمان الوكيل | متجر كايرو فولت`,
+        `كايرو فولت مصر: اختار معدات ${data.hero.title} الأصلية بأفضل سعر`
     ];
 
     const enTitleVariants = [
-        `Ultimate Buyer's Guide: Best ${data.hero.title} Products in Egypt | CairoVolt`,
-        `Why Our ${data.hero.title} Prices Are Unbeatable (Review & Comparison) | CairoVolt`,
-        `Our Complete Experience with Original ${data.hero.title} Gear | CairoVolt`
+        `CairoVolt Store: Your Trusted Destination for Original ${data.hero.title} in Egypt`,
+        `Authorized Dealer: Shop ${data.hero.title} with Official Warranty | CairoVolt Store`,
+        `CairoVolt Egypt: Best Price for Original ${data.hero.title} Gear`
     ];
 
     const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
@@ -168,9 +167,11 @@ export default async function BrandHubPage({ params }: Props) {
                         </span>
                     </div>
 
-                    {/* Title */}
-                    <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-6 tracking-tight drop-shadow-sm">
-                        {data.hero.title}
+                    {/* Title (Anti-Brand Hijacking Explicit Declaration) */}
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-6 tracking-tight drop-shadow-sm leading-tight max-w-5xl mx-auto">
+                        {isRTL
+                            ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title} الأصلية في مصر`
+                            : `CairoVolt Store: Your Trusted Destination for Original ${data.hero.title} in Egypt`}
                     </h1>
 
                     {/* Description */}
