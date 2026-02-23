@@ -59,7 +59,21 @@ export const OrganizationSchema = ({ locale }: Props) => {
                 ],
                 email: 'support@cairovolt.com',
                 taxID: '777-471-566',
+                vatID: '777-471-566',
                 iso6523Code: '0188:8446',
+                // Trust & Legal Signals: Explicitly defining Corporate Identifiers
+                identifier: [
+                    {
+                        '@type': 'PropertyValue',
+                        name: isArabic ? 'رقم التسجيل الضريبي' : 'Tax Registration Number',
+                        value: '777-471-566'
+                    },
+                    {
+                        '@type': 'PropertyValue',
+                        name: isArabic ? 'رقم السجل التجاري' : 'Commercial Registration Number',
+                        value: '123456' // يمكنك تغييره للرقم الحقيقي
+                    }
+                ],
                 address: {
                     '@type': 'PostalAddress',
                     addressLocality: isArabic ? 'القاهرة' : 'Cairo',
