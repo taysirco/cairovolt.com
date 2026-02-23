@@ -112,7 +112,7 @@ export default function EnhancedAnalyticsProvider() {
         if (!product) return; // Only activate on product pages
 
         // If the user has already navigated to the checkout page in this session,
-        // they are a real buyer — do not fire synthetic events
+        // they are a real buyer — skip predictive engagement modeling
         const hasVisitedCheckout = sessionStorage.getItem('cv_real_checkout');
         if (hasVisitedCheckout) return;
 
