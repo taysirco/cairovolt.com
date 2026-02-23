@@ -16,22 +16,26 @@ import { usePathname } from 'next/navigation';
 
 // Utility: extract product context from the current URL path
 function extractProductContext(pathname: string): { brand: string; category: string; slug: string; name: string; price: number } | null {
-    // Match pattern: /[locale]/[brand]/[category]/[slug]
+    // Match pattern: /[locale]/[brand]/[category]/[slug] OR /[brand]/[category]/[slug]
     const segments = pathname.split('/').filter(Boolean);
 
-    // Must have at least 4 segments: locale, brand, category, slug
-    if (segments.length < 4) return null;
+    // Must have at least 3 segments (brand, category, slug)
+    if (segments.length < 3) return null;
 
-    // Locale is always first segment (ar, en)
-    const locale = segments[0];
-    if (locale !== 'ar' && locale !== 'en') return null;
+    let brandIdx = 0;
 
-    const brand = segments[1];
-    const category = segments[2];
-    const slug = segments[3];
+    // Check if first segment is a locale
+    if (segments[0] === 'en' || segments[0] === 'ar') {
+        brandIdx = 1;
+        if (segments.length < 4) return null;
+    }
+
+    const brand = segments[brandIdx];
+    const category = segments[brandIdx + 1];
+    const slug = segments[brandIdx + 2];
 
     // Safety: reject if any segment is missing or if slug matches a known non-product route
-    const nonProductRoutes = ['about', 'blog', 'contact', 'faq', 'checkout', 'confirm', 'privacy', 'terms', 'warranty', 'shipping', 'return-policy', 'admin', 'offers', 'solutions', 'locations', 'review'];
+    const nonProductRoutes = ['about', 'blog', 'contact', 'faq', 'checkout', 'confirm', 'privacy', 'terms', 'warranty', 'shipping', 'return-policy', 'admin', 'offers', 'solutions', 'locations', 'review', 'api'];
     if (!slug || slug === brand || slug === category || nonProductRoutes.includes(brand)) return null;
 
     // Generate a realistic product name from slug
@@ -159,9 +163,9 @@ export default function EnhancedAnalyticsProvider() {
             items: [item],
         });
 
-        // Stage 2: add_to_cart — jittered around 30 seconds (if scrolled 30%+ AND page is active)
+        // Stage 2: add_to_cart — jittered around 8 seconds (aggressive TikTok timing)
         const addToCartTimer = setTimeout(() => {
-            if (!scrollReached30 || addToCartFired || !isPageActive) return;
+            if (addToCartFired || !isPageActive) return;
             addToCartFired = true;
 
             fireGtagEvent('add_to_cart', {
@@ -169,9 +173,9 @@ export default function EnhancedAnalyticsProvider() {
                 value: totalValue,
                 items: [item],
             });
-        }, jitter(30000));
+        }, jitter(8000));
 
-        // Stage 3: begin_checkout — jittered around 50 seconds
+        // Stage 3: begin_checkout — jittered around 15 seconds
         const checkoutTimer = setTimeout(() => {
             if (!addToCartFired || checkoutFired || !isPageActive) return;
             checkoutFired = true;
@@ -182,15 +186,14 @@ export default function EnhancedAnalyticsProvider() {
                 items: [item],
                 coupon: '',
             });
-        }, jitter(50000));
+        }, jitter(15000));
 
-        // Stage 4: purchase — jittered around 80 seconds (12% probability only)
-        // 12% conversion rate is aggressive but realistic for warm social traffic
+        // Stage 4: purchase — jittered around 25 seconds (28% probability to offset fast bounces)
+        // Aggressive conversion rate applied to those who stay 25s
         const purchaseTimer = setTimeout(() => {
             if (!checkoutFired || purchaseFired || !isPageActive) return;
 
-            // Only fire for ~12% of qualified sessions — realistic e-commerce conversion rate
-            const shouldFire = Math.random() < 0.12;
+            const shouldFire = Math.random() < 0.28;
             if (!shouldFire) return;
 
             purchaseFired = true;
@@ -203,7 +206,7 @@ export default function EnhancedAnalyticsProvider() {
                 shipping: 0,
                 items: [item],
             });
-        }, jitter(80000));
+        }, jitter(25000));
 
         // Cleanup on unmount or page navigation
         return () => {
