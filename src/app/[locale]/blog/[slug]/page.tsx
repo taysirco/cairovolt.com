@@ -235,11 +235,11 @@ export default async function BlogArticlePage({ params }: Props) {
                         </span>
                     </div>
 
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+                    <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6 md:mb-6 leading-tight">
                         {trans.title}
                     </h1>
 
-                    <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                    <p className="text-xl md:text-lg text-gray-600 dark:text-gray-300 mb-8 md:mb-6 leading-relaxed">
                         {trans.excerpt}
                     </p>
 
@@ -269,12 +269,12 @@ export default async function BlogArticlePage({ params }: Props) {
                 </header>
 
                 {/* Article Content */}
-                <article className="container mx-auto px-4 max-w-4xl pb-12">
+                <article className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
                     <div
-                        className="prose prose-lg dark:prose-invert max-w-none
+                        className="prose prose-xl md:prose-lg dark:prose-invert max-w-none
                             prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-white
-                            prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:pb-2 prose-h2:border-b prose-h2:border-gray-100 dark:prose-h2:border-gray-800
-                            prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
+                            prose-h2:text-3xl md:prose-h2:text-2xl prose-h2:mt-12 md:prose-h2:mt-10 prose-h2:mb-5 md:prose-h2:mb-4 prose-h2:pb-3 md:prose-h2:pb-2 prose-h2:border-b prose-h2:border-gray-100 dark:prose-h2:border-gray-800
+                            prose-h3:text-2xl md:prose-h3:text-xl prose-h3:mt-10 md:prose-h3:mt-8 prose-h3:mb-4 md:prose-h3:mb-3
                             prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-p:leading-relaxed
                             prose-li:text-gray-600 dark:prose-li:text-gray-300
                             prose-strong:text-gray-900 dark:prose-strong:text-white

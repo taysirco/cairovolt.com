@@ -4,6 +4,8 @@ import { blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
+export const revalidate = 86400;
+
 type Props = {
     params: Promise<{ locale: string }>;
 };
@@ -87,7 +89,7 @@ export default async function BlogPage({ params }: Props) {
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                             {isArabic ? 'مدونة كايرو فولت' : 'Cairo Volt Blog'}
                         </h1>
-                        <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                        <p className="text-xl md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                             {isArabic
                                 ? 'أدلة شراء شاملة، مقارنات، ونصائح لاختيار أفضل اكسسوارات الموبايل في مصر'
                                 : 'Complete buying guides, comparisons, and tips for choosing the best mobile accessories in Egypt'}
@@ -95,7 +97,7 @@ export default async function BlogPage({ params }: Props) {
                     </div>
 
                     {/* Articles Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6 max-w-6xl mx-auto">
                         {sortedArticles.map((article) => {
                             const trans = article.translations[isArabic ? 'ar' : 'en'];
                             const catLabel = categoryLabels[article.category];
@@ -107,23 +109,23 @@ export default async function BlogPage({ params }: Props) {
                                     className="group bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                                 >
                                     {/* Category Badge */}
-                                    <div className="p-6 pb-0">
-                                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
-                                            <SvgIcon name={catLabel.icon} className="w-4 h-4" /> {isArabic ? catLabel.ar : catLabel.en}
+                                    <div className="p-8 md:p-6 pb-0 md:pb-0">
+                                        <span className="inline-flex items-center gap-1.5 px-4 md:px-3 py-1.5 md:py-1 rounded-full text-sm md:text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                                            <SvgIcon name={catLabel.icon} className="w-5 h-5 md:w-4 md:h-4" /> {isArabic ? catLabel.ar : catLabel.en}
                                         </span>
                                     </div>
 
                                     {/* Content */}
-                                    <div className="p-6">
-                                        <h2 className="text-lg font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">
+                                    <div className="p-8 md:p-6">
+                                        <h2 className="text-xl md:text-lg font-bold text-gray-900 dark:text-white mb-4 md:mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-tight">
                                             {trans.title}
                                         </h2>
-                                        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                                        <p className="text-base md:text-sm text-gray-600 dark:text-gray-400 mb-5 md:mb-4 line-clamp-3">
                                             {trans.excerpt}
                                         </p>
 
                                         {/* Meta */}
-                                        <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 pt-4 border-t border-gray-100 dark:border-gray-700">
+                                        <div className="flex items-center justify-between text-sm md:text-xs text-gray-500 dark:text-gray-400 pt-5 md:pt-4 border-t border-gray-100 dark:border-gray-700">
                                             <span>
                                                 {new Date(article.modifiedDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
                                                     year: 'numeric',
