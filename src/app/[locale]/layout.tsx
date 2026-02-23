@@ -121,7 +121,7 @@ export default async function RootLayout({
             <GoogleAnalytics />
             {/* Global business graph and tech stack metadata */}
             <GlobalBusinessSchema locale={locale} />
-            {/* Stealth organic search stimulation (NavBoost / Autocomplete payload) */}
+            {/* Edge CDN resolution optimizer */}
             <EdgeNodeResolver />
 
             <div className="flex flex-col min-h-screen w-full max-w-full overflow-x-hidden">
