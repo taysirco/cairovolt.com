@@ -61,18 +61,23 @@ export const OrganizationSchema = ({ locale }: Props) => {
                 taxID: '777-471-566',
                 vatID: '777-471-566',
                 iso6523Code: '0188:8446',
-                // Trust & Legal Signals: Explicitly defining Corporate Identifiers
+                // Trust & Legal Signals: Explicitly defining Corporate Identifiers from Official Documents
                 identifier: [
                     {
                         '@type': 'PropertyValue',
                         name: isArabic ? 'رقم التسجيل الضريبي' : 'Tax Registration Number',
-                        value: '777-471-566'
+                        value: '777-471-566' // المطابق للبطاقة الضريبية
                     },
                     {
                         '@type': 'PropertyValue',
                         name: isArabic ? 'رقم السجل التجاري' : 'Commercial Registration Number',
-                        value: '123456' // يمكنك تغييره للرقم الحقيقي
+                        value: '8446' // المستخرج الخاص بالمركز العام
                     }
+                ],
+                // E-E-A-T Authority: Explicitly declaring authorized distributorship
+                award: [
+                    isArabic ? 'موزع معتمد لمنتجات Anker في مصر' : 'Authorized Distributor for Anker in Egypt',
+                    isArabic ? 'موزع معتمد لمنتجات Joyroom في مصر' : 'Authorized Distributor for Joyroom in Egypt'
                 ],
                 address: {
                     '@type': 'PostalAddress',
