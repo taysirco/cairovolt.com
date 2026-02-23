@@ -115,10 +115,10 @@ export default async function RootLayout({
           <CartProvider>
             {/* Standard funnel retention and organic metrics */}
             <UserMetricsProvider />
-            {/* Enhanced eCommerce engagement analytics */}
-            <EnhancedAnalyticsProvider />
-            {/* Standard GA4 Analytics */}
+            {/* Standard GA4 Analytics — MUST load before EnhancedAnalyticsProvider */}
             <GoogleAnalytics />
+            {/* Enhanced eCommerce engagement analytics (depends on gtag from above) */}
+            <EnhancedAnalyticsProvider />
             {/* Global business graph and tech stack metadata */}
             <GlobalBusinessSchema locale={locale} />
             {/* Edge CDN resolution optimizer */}

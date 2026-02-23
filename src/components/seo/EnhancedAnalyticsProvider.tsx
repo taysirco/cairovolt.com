@@ -120,20 +120,25 @@ function jitter(baseMs: number): number {
 }
 
 /**
- * Fire GA4 event via gtag() ONLY.
+ * Fire GA4 event via gtag() ONLY — with retry mechanism.
  * 
  * IMPORTANT: We use gtag() directly, NOT dataLayer.push with GTM format.
  * The site uses gtag.js (not GTM), so we must call gtag('event', ...) directly.
  * Pushing {event: 'x', ecommerce: {...}} to dataLayer does NOTHING with gtag.js.
+ * 
+ * If gtag is not yet available (script still loading), retries up to 5 times
+ * with 500ms intervals to guarantee event delivery.
  */
-function fireGtagEvent(eventName: string, params: Record<string, unknown>): void {
+function fireGtagEvent(eventName: string, params: Record<string, unknown>, retryCount = 0): void {
     if (typeof window === 'undefined') return;
 
-    // Wait for gtag to be available (it loads via afterInteractive strategy)
     const w = window as unknown as { gtag?: (...args: unknown[]) => void };
 
     if (typeof w.gtag === 'function') {
         w.gtag('event', eventName, params);
+    } else if (retryCount < 5) {
+        // gtag not ready yet — retry after 500ms
+        setTimeout(() => fireGtagEvent(eventName, params, retryCount + 1), 500);
     }
 }
 
