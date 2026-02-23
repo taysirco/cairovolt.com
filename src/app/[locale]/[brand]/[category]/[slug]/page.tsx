@@ -114,10 +114,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const isArabic = locale === 'ar';
     const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en || {};
 
-    // Dynamic meta title template with keyword-rich fallback
-    const dynamicTitle = t.metaTitle || (isArabic
-        ? `${t.name} — اشتري ${product.brand} اصلي في مصر | سعر ${product.price?.toLocaleString()} جنيه | كايرو فولت`
-        : `${t.name} — Buy Original ${product.brand} in Egypt | ${product.price?.toLocaleString()} EGP | CairoVolt`);
+    // QDD (Query Deserves Diversity) Strategy: 
+    // Disguise product pages as informational/review pages to bypass e-commerce monopolies (Amazon, Noon) 
+    // and rank in the "mandatory informational slots" on page 1 of Google.
+
+    // Create a deterministic index based on product ID to keep titles stable
+    const hashStr = product.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    const qddIndex = hashStr % 4;
+
+    const arQddTitles = [
+        `تجربتنا لـ ${t.name} الأصلي (المميزات والعيوب) | كايرو فولت`,
+        `مراجعة شاملة: هل يستحق ${t.name} الشراء فعلاً؟ | كايرو فولت`,
+        `كل ما تود معرفته عن ${t.name} قبل الشراء | تقييم كايرو فولت`,
+        `تقييم ${t.name} الأصلي من ${product.brand} (رأي الخبراء) | كايرو فولت`
+    ];
+
+    const enQddTitles = [
+        `Our Experience with the Original ${t.name} (Pros & Cons) | CairoVolt`,
+        `Comprehensive Review: Is ${t.name} Worth Buying? | CairoVolt`,
+        `Everything You Need to Know About ${t.name} Before Buying | CairoVolt`,
+        `Expert Review: Original ${t.name} by ${product.brand} | CairoVolt`
+    ];
+
+    const dynamicTitle = t.metaTitle || (isArabic ? arQddTitles[qddIndex] : enQddTitles[qddIndex]);
 
     return {
         title: dynamicTitle,
