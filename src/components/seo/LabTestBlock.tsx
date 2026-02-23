@@ -27,6 +27,46 @@ export default function LabTestBlock({
     const isArabic = locale === 'ar';
     const stars = '★'.repeat(rating) + '☆'.repeat(5 - rating);
 
+    // Hash to ensure consistency per-product but variety across the site
+    const hash = typeof testScenario === 'string' ? testScenario.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+
+    const arTitles = [
+        'الفحص التقني (مختبرات كايرو فولت)',
+        'نتائج حصرية من معمل كايرو فولت',
+        'اختبار الأداء الفعلي (كايرو فولت)',
+        'الخلاصة الهندسية من خبرائنا',
+        'تحليل الأداء الشامل (CairoVolt Labs)',
+        'كشف التجربة العملية (مختبراتنا)',
+        'رأينا التقني بصراحة (حصري)'
+    ];
+    const enTitles = [
+        'Technical Audit (CairoVolt Labs)',
+        'Exclusive Lab Results',
+        'Real-World Performance Test',
+        'Engineering Verdict',
+        'Comprehensive Performance Analysis',
+        'Hands-on Lab Experience',
+        'Expert Technical Review'
+    ];
+
+    const arScenarios = ['سيناريو الاختبار القاسي', 'ظروف التجربة الفعلية', 'طريقة فحص المنتج', 'اختبار الضغط العالي'];
+    const enScenarios = ['Stress Test Scenario', 'Real-World Conditions', 'Testing Methodology', 'High-Load Testing'];
+
+    const arResults = ['النتيجة الموثقة', 'الخلاصة النهائية', 'ما لاحظناه فعلياً', 'قرائات الاختبار'];
+    const enResults = ['Verified Result', 'Final Verdict', 'Actual Observations', 'Test Readings'];
+
+    const arReviewers = ['المراجع الفني', 'مهندس الفحص', 'خبير كايرو فولت', 'المشرف التقني'];
+    const enReviewers = ['Technical Reviewer', 'Testing Engineer', 'CairoVolt Expert', 'Technical Lead'];
+
+    const selectedArTitle = arTitles[hash % arTitles.length];
+    const selectedEnTitle = enTitles[hash % enTitles.length];
+    const selectedArScenario = arScenarios[hash % arScenarios.length];
+    const selectedEnScenario = enScenarios[hash % enScenarios.length];
+    const selectedArResult = arResults[hash % arResults.length];
+    const selectedEnResult = enResults[hash % enResults.length];
+    const selectedArReviewer = arReviewers[hash % arReviewers.length];
+    const selectedEnReviewer = enReviewers[hash % enReviewers.length];
+
     return (
         <div
             className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-slate-900 to-black text-white p-6 md:p-8 rounded-2xl my-8 shadow-2xl border border-blue-900/50 group"
@@ -43,7 +83,7 @@ export default function LabTestBlock({
                     <div className="flex-1 border-b border-slate-800 pb-4 sm:border-none sm:pb-0">
                         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                             <h3 className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                                {isArabic ? 'مختبرات كايرو فولت (نتائج حصرية)' : 'CairoVolt Labs (Exclusive Data)'}
+                                {isArabic ? selectedArTitle : selectedEnTitle}
                             </h3>
                             <span className="flex items-center gap-1 text-yellow-400 text-sm bg-yellow-400/10 px-2 py-1 rounded-md border border-yellow-400/20 w-fit" aria-label={`${rating} out of 5 stars`}>
                                 {stars}
@@ -67,7 +107,7 @@ export default function LabTestBlock({
                         <div className="flex items-center gap-2 mb-2">
                             <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
                             <p className="text-xs text-gray-400 font-bold uppercase tracking-widest">
-                                {isArabic ? 'سيناريو الاختبار القاسي' : 'Stress Test Scenario'}
+                                {isArabic ? selectedArScenario : selectedEnScenario}
                             </p>
                         </div>
                         <p className="text-gray-200 font-medium leading-relaxed">{testScenario}</p>
@@ -82,7 +122,7 @@ export default function LabTestBlock({
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                             </span>
                             <p className="text-xs text-emerald-400 font-bold uppercase tracking-widest">
-                                {isArabic ? 'النتيجة الموثقة' : 'Verified Result'}
+                                {isArabic ? selectedArResult : selectedEnResult}
                             </p>
                         </div>
                         <p className="cairovolt-voice-answer text-emerald-100 font-bold leading-relaxed text-sm md:text-base pl-2">
@@ -98,7 +138,7 @@ export default function LabTestBlock({
                         </div>
                         <div className="flex items-center gap-3">
                             <div className="text-right">
-                                <p className="text-xs text-gray-500 mb-0.5">{isArabic ? 'المراجع الفني' : 'Technical Reviewer'}</p>
+                                <p className="text-xs text-gray-500 mb-0.5">{isArabic ? selectedArReviewer : selectedEnReviewer}</p>
                                 {expertLinkedIn ? (
                                     <a
                                         href={expertLinkedIn}

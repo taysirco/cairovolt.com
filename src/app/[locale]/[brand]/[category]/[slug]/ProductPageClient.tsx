@@ -159,6 +159,15 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
     const productDisplayTitle = product.translations?.[locale as 'en' | 'ar']?.name || product.slug;
 
+    // Dynamic Headings for AI Summary
+    const hash = typeof product.slug === 'string' ? product.slug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+
+    const arAiHeadings = ['ملخص سريع', 'الخلاصة المختصرة', 'عشان وقتك', 'في السريع كده', 'إجابتك المختصرة', 'ع الماشي'];
+    const enAiHeadings = ['Quick Summary', 'TL;DR', 'Fast Facts', 'In a Nutshell', 'For Your Time', 'Bottom Line'];
+
+    const selectedArAiHeading = arAiHeadings[hash % arAiHeadings.length];
+    const selectedEnAiHeading = enAiHeadings[hash % enAiHeadings.length];
+
     return (
         <div className={`min-h-screen pb-20 ${locale === 'ar' ? 'rtl' : 'ltr'}`}>
 
@@ -385,7 +394,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             <div className={`p-4 rounded-xl border-2 ${brand === 'anker' ? 'border-blue-200 bg-blue-50/50 dark:border-blue-800 dark:bg-blue-950/30' : 'border-red-200 bg-red-50/50 dark:border-red-800 dark:bg-red-950/30'}`}>
                                 <h2 className="text-sm font-bold mb-2 flex items-center gap-1.5 text-gray-800 dark:text-gray-200">
                                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                                    {isRTL ? 'ملخص سريع' : 'Quick Summary'}
+                                    {isRTL ? selectedArAiHeading : selectedEnAiHeading}
                                 </h2>
                                 <ul className="space-y-1">
                                     {(isRTL ? seoData.aiTldr.ar : seoData.aiTldr.en).map((point, idx) => (
@@ -528,42 +537,42 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                         {/* Trust Badges — SVG Icons */}
                         <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4 md:pt-6 max-w-full overflow-hidden">
-                            <div className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
-                                <svg className="w-6 h-6 md:w-8 md:h-8 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                </svg>
-                                <div>
-                                    <div className="font-bold text-xs md:text-sm">{isRTL ? 'منتج أصلي' : 'Original Product'}</div>
-                                    <div className="text-[10px] md:text-xs text-gray-500">{isRTL ? 'ضمان 100%' : '100% Guaranteed'}</div>
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
-                                <svg className="w-6 h-6 md:w-8 md:h-8 text-blue-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-                                </svg>
-                                <div>
-                                    <div className="font-bold text-xs md:text-sm">{isRTL ? 'ضمان رسمي' : 'Official Warranty'}</div>
-                                    <div className="text-[10px] md:text-xs text-gray-500">{isRTL ? '18 شهر' : '18 Months'}</div>
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
-                                <svg className="w-6 h-6 md:w-8 md:h-8 text-indigo-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
-                                </svg>
-                                <div>
-                                    <div className="font-bold text-xs md:text-sm">{isRTL ? 'شحن سريع' : 'Fast Shipping'}</div>
-                                    <div className="text-[10px] md:text-xs text-gray-500">{isRTL ? '2-3 أيام' : '2-3 Days'}</div>
-                                </div>
-                            </div>
-                            <div className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
-                                <svg className="w-6 h-6 md:w-8 md:h-8 text-emerald-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
-                                </svg>
-                                <div>
-                                    <div className="font-bold text-xs md:text-sm">{isRTL ? 'الدفع عند الاستلام' : 'Cash on Delivery'}</div>
-                                    <div className="text-[10px] md:text-xs text-gray-500">{isRTL ? 'بدون مقدم' : 'No Prepayment'}</div>
-                                </div>
-                            </div>
+                            {(() => {
+                                const trustHash = hash; // reuse existing hash from slug
+                                const trustItems = [
+                                    { // Original
+                                        ar: [{ title: 'منتج أصلي', sub: 'ضمان 100%' }, { title: 'ضمان رسمي', sub: '18 شهر' }, { title: 'شحن سريع', sub: '2-3 أيام' }, { title: 'الدفع عند الاستلام', sub: 'بدون مقدم' }],
+                                        en: [{ title: 'Original Product', sub: '100% Guaranteed' }, { title: 'Official Warranty', sub: '18 Months' }, { title: 'Fast Shipping', sub: '2-3 Days' }, { title: 'Cash on Delivery', sub: 'No Prepayment' }]
+                                    },
+                                    { // Variant 1
+                                        ar: [{ title: 'باركود أصلي', sub: 'قابل للفحص' }, { title: 'كفالة الوكيل', sub: 'استبدال فوري' }, { title: 'توصيل سريع', sub: 'كل المحافظات' }, { title: 'ادفع كاش', sub: 'عند الاستلام' }],
+                                        en: [{ title: 'Verified Barcode', sub: 'Scan to Confirm' }, { title: 'Dealer Guarantee', sub: 'Instant Replace' }, { title: 'Quick Delivery', sub: 'All Governorates' }, { title: 'Pay Cash', sub: 'On Receipt' }]
+                                    },
+                                    { // Variant 2
+                                        ar: [{ title: 'مختوم بختم الشركة', sub: 'معتمد من الموزع' }, { title: 'حماية 18 شهر', sub: 'ضد عيوب الصناعة' }, { title: 'شحن مصر', sub: '1-3 أيام عمل' }, { title: 'دفع مرن', sub: 'كاش أو فودافون كاش' }],
+                                        en: [{ title: 'Company Sealed', sub: 'Distributor Certified' }, { title: '18-Month Shield', sub: 'Manufacturing Defects' }, { title: 'Egypt Shipping', sub: '1-3 Business Days' }, { title: 'Flexible Pay', sub: 'Cash or VodaCash' }]
+                                    },
+                                ];
+                                const selectedSet = isRTL ? trustItems[trustHash % trustItems.length].ar : trustItems[trustHash % trustItems.length].en;
+                                const icons = ['green', 'blue', 'indigo', 'emerald'];
+                                const iconPaths = [
+                                    'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
+                                    'M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z',
+                                    'M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0',
+                                    'M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z',
+                                ];
+                                return selectedSet.map((item, i) => (
+                                    <div key={i} className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
+                                        <svg className={`w-6 h-6 md:w-8 md:h-8 text-${icons[i]}-600 flex-shrink-0`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d={iconPaths[i]} />
+                                        </svg>
+                                        <div>
+                                            <div className="font-bold text-xs md:text-sm">{item.title}</div>
+                                            <div className="text-[10px] md:text-xs text-gray-500">{item.sub}</div>
+                                        </div>
+                                    </div>
+                                ));
+                            })()}
                         </div>
                     </div>
                 </article>

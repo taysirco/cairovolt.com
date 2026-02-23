@@ -36,6 +36,20 @@ export function CategoryOverviewBlock({
     const t = useTranslations('aeo');
     const isArabic = locale === 'ar';
 
+    // Hash to rotate content naturally based on the product/brand
+    const hash = typeof productName === 'string' ? productName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+
+    const arAriaTypes = ['ملخص سريع', 'إجابتك هنا', 'نظرة سريعة', 'الخلاصة المختصرة'];
+    const enAriaTypes = ['Quick Summary', 'TL;DR', 'At a Glance', 'Fast Facts'];
+
+    const arHeadings = ['إجابة سريعة', 'الخلاصة من الآخر', 'في السريع كده', 'عشان وقتك يهمنا', 'ع الماشي'];
+    const enHeadings = ['Quick Answer', 'The Bottom Line', 'In a Nutshell', 'For Your Time', 'Quick Facts'];
+
+    const selectedArAria = arAriaTypes[hash % arAriaTypes.length];
+    const selectedEnAria = enAriaTypes[hash % enAriaTypes.length];
+    const selectedArHeading = arHeadings[hash % arHeadings.length];
+    const selectedEnHeading = enHeadings[hash % enHeadings.length];
+
     // Generate summary based on variant
     const getSummary = () => {
         const formattedPrice = new Intl.NumberFormat(isArabic ? 'ar-EG' : 'en-EG', {
@@ -45,17 +59,33 @@ export function CategoryOverviewBlock({
         }).format(price);
 
         if (variant === 'product') {
-            if (isArabic) {
-                return `${productName} الأصلي من ${brand} متوفر الآن في مصر بسعر ${formattedPrice}. يتميز بضمان الوكيل الرسمي مع توصيل سريع لجميع المحافظات. ${shortDescription || 'منتج أصلي 100% مع استبدال فوري.'}`;
-            }
-            return `The original ${productName} from ${brand} is now available in Egypt for ${formattedPrice}. Features official warranty with fast delivery nationwide. ${shortDescription || '100% authentic with instant replacement guarantee.'}`;
+            const arProductTemplates = [
+                `${productName} الأصلي من ${brand} متوفر الآن في مصر بسعر ${formattedPrice}. يتميز بضمان الوكيل الرسمي مع توصيل سريع لجميع المحافظات. ${shortDescription || 'منتج أصلي 100% مع استبدال فوري.'}`,
+                `${productName} من ${brand} — السعر في مصر ${formattedPrice}. ضمان استبدال فوري من الوكيل + شحن مجاني للقاهرة والجيزة. ${shortDescription || 'أصلي ومختوم بباركود الشركة.'}`,
+                `احصل على ${productName} الأصلي بسعر ${formattedPrice}. معتمد من ${brand} مع كفالة رسمية وتوصيل لكل المحافظات. ${shortDescription || 'مختبر في معاملنا قبل ما يوصلك.'}`,
+                `${productName} — ${brand} مصر بسعر ${formattedPrice}. مضمون بختم الوكيل ومتاح بالدفع عند الاستلام. ${shortDescription || 'جودة أصلية مع ضمان استبدال كامل.'}`,
+            ];
+            const enProductTemplates = [
+                `The original ${productName} from ${brand} is now available in Egypt for ${formattedPrice}. Features official warranty with fast delivery nationwide. ${shortDescription || '100% authentic with instant replacement guarantee.'}`,
+                `${productName} by ${brand} — ${formattedPrice} in Egypt. Instant replacement warranty + free Cairo & Giza delivery. ${shortDescription || 'Factory-sealed with barcode verification.'}`,
+                `Get the genuine ${productName} for ${formattedPrice}. Certified by ${brand} with full coverage nationwide. ${shortDescription || 'Lab-tested before shipping to you.'}`,
+                `${productName} — ${brand} Egypt at ${formattedPrice}. Dealer-stamped guarantee, cash on delivery available. ${shortDescription || 'Original quality with full replacement warranty.'}`,
+            ];
+            return isArabic ? arProductTemplates[hash % arProductTemplates.length] : enProductTemplates[hash % enProductTemplates.length];
         }
 
         if (variant === 'category') {
-            if (isArabic) {
-                return `تسوق مجموعة ${category} من ${brand} الأصلية في مصر. أسعار تبدأ من ${formattedPrice} مع ضمان رسمي وتوصيل سريع. منتجات أصلية 100% معتمدة من الوكيل.`;
-            }
-            return `Shop authentic ${brand} ${category} collection in Egypt. Prices starting from ${formattedPrice} with official warranty and fast delivery. 100% original dealer-certified products.`;
+            const arCatTemplates = [
+                `تسوق مجموعة ${category} من ${brand} الأصلية في مصر. أسعار تبدأ من ${formattedPrice} مع ضمان رسمي وتوصيل سريع. منتجات أصلية 100% معتمدة من الوكيل.`,
+                `${category} ${brand} الأصلية — أسعار من ${formattedPrice}. كل قطعة مختومة بباركود الشركة وعليها كفالة رسمية.`,
+                `تشكيلة ${category} من ${brand} بأسعار تبدأ من ${formattedPrice}. متوفرة بالدفع عند الاستلام مع استبدال فوري.`,
+            ];
+            const enCatTemplates = [
+                `Shop authentic ${brand} ${category} collection in Egypt. Prices starting from ${formattedPrice} with official warranty and fast delivery. 100% original dealer-certified products.`,
+                `${brand} ${category} — prices from ${formattedPrice}. Each unit factory-sealed with barcode verification and official coverage.`,
+                `${category} by ${brand} starting at ${formattedPrice}. Cash on delivery available with instant replacement guarantee.`,
+            ];
+            return isArabic ? arCatTemplates[hash % arCatTemplates.length] : enCatTemplates[hash % enCatTemplates.length];
         }
 
         if (variant === 'brand') {
@@ -71,7 +101,7 @@ export function CategoryOverviewBlock({
     return (
         <section
             className="speakable-content category-overview-block bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 rounded-xl p-4 md:p-6 my-4 md:my-6 border border-gray-200 dark:border-gray-700"
-            aria-label={isArabic ? 'ملخص سريع' : 'Quick Summary'}
+            aria-label={isArabic ? selectedArAria : selectedEnAria}
         >
             {/* Icon Indicator */}
             <div className="flex items-start gap-3">
@@ -84,7 +114,7 @@ export function CategoryOverviewBlock({
                 <div className="flex-1">
                     {/* Quick Answer Label */}
                     <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide mb-1 block">
-                        {isArabic ? <><SvgIcon name="sparkles" className="w-4 h-4 inline-block" /> إجابة سريعة</> : <><SvgIcon name="sparkles" className="w-4 h-4 inline-block" /> Quick Answer</>}
+                        {isArabic ? <><SvgIcon name="sparkles" className="w-4 h-4 inline-block" /> {selectedArHeading}</> : <><SvgIcon name="sparkles" className="w-4 h-4 inline-block" /> {selectedEnHeading}</>}
                     </span>
 
                     {/* Main Summary Content - 40-60 words */}
@@ -94,26 +124,31 @@ export function CategoryOverviewBlock({
                 </div>
             </div>
 
-            {/* Trust Indicators */}
+            {/* Trust Indicators — Dynamically Rotated */}
             <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700 flex flex-wrap gap-3 text-xs text-gray-500 dark:text-gray-400">
-                <span className="flex items-center gap-1">
-                    <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    {isArabic ? 'أصلي 100%' : '100% Original'}
-                </span>
-                <span className="flex items-center gap-1">
-                    <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    {isArabic ? 'ضمان رسمي' : 'Official Warranty'}
-                </span>
-                <span className="flex items-center gap-1">
-                    <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    {isArabic ? 'توصيل سريع' : 'Fast Delivery'}
-                </span>
+                {(() => {
+                    const arTrustSets = [
+                        ['أصلي 100%', 'ضمان رسمي', 'توصيل سريع'],
+                        ['مختوم بباركود الشركة', 'كفالة الوكيل المعتمد', 'دفع عند الاستلام'],
+                        ['معتمد من الموزع', 'ضمان استبدال فوري', 'شحن لكل المحافظات'],
+                        ['أصلي بختم الوكيل', 'ضمان 18 شهر', 'توصيل مجاني القاهرة'],
+                    ];
+                    const enTrustSets = [
+                        ['100% Genuine', 'Dealer Warranty', 'Nationwide Shipping'],
+                        ['Barcode Verified', 'Authorized Coverage', 'Cash on Delivery'],
+                        ['Distributor Certified', 'Instant Replacement', 'All Governorates'],
+                        ['Factory Sealed', '18-Month Guarantee', 'Free Cairo Delivery'],
+                    ];
+                    const trustSet = isArabic ? arTrustSets[hash % arTrustSets.length] : enTrustSets[hash % enTrustSets.length];
+                    return trustSet.map((text, i) => (
+                        <span key={i} className="flex items-center gap-1">
+                            <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                            </svg>
+                            {text}
+                        </span>
+                    ));
+                })()}
             </div>
         </section>
     );
@@ -141,6 +176,18 @@ export function CollectionOverviewBlock({
     locale
 }: CollectionOverviewBlockProps) {
     const isArabic = locale === 'ar';
+    const hash = typeof categoryName === 'string' ? categoryName.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+
+    const arCategoryAria = ['نظرة عامة على القسم', 'اكتشف القسم', 'محتويات القسم سريعا'];
+    const enCategoryAria = ['Category Overview', 'Discover Category', 'Category at a glance'];
+
+    const arCategoryHeading = ['ملخص القسم', 'جولة في القسم', 'دليلك للقسم'];
+    const enCategoryHeading = ['Category Overview', 'Category Tour', 'Category Guide'];
+
+    const selectedArAria = arCategoryAria[hash % arCategoryAria.length];
+    const selectedEnAria = enCategoryAria[hash % enCategoryAria.length];
+    const selectedArHeading = arCategoryHeading[hash % arCategoryHeading.length];
+    const selectedEnHeading = enCategoryHeading[hash % enCategoryHeading.length];
 
     const formatPrice = (price: number) => {
         return new Intl.NumberFormat(isArabic ? 'ar-EG' : 'en-EG', {
@@ -162,7 +209,7 @@ export function CollectionOverviewBlock({
     return (
         <section
             className="speakable-content collection-overview-block bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl p-5 md:p-6 my-4 md:my-6 border border-blue-100 dark:border-blue-800"
-            aria-label={isArabic ? 'نظرة عامة على القسم' : 'Category Overview'}
+            aria-label={isArabic ? selectedArAria : selectedEnAria}
         >
             <div className="flex items-start gap-4">
                 {/* Category Icon */}
@@ -172,7 +219,7 @@ export function CollectionOverviewBlock({
 
                 <div className="flex-1">
                     <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide mb-2 block">
-                        {isArabic ? <><SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> ملخص القسم</> : <><SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> Category Overview</>}
+                        {isArabic ? <><SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> {selectedArHeading}</> : <><SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> {selectedEnHeading}</>}
                     </span>
 
                     <p className="text-gray-700 dark:text-gray-300 text-sm md:text-base leading-relaxed">

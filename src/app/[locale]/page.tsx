@@ -150,8 +150,8 @@ export default function Home() {
 
             <p className="text-base md:text-xl lg:text-2xl text-gray-600 mb-6 md:mb-8 max-w-2xl mx-auto">
               {isRTL
-                ? 'منتجات أصلية 100% بضمان رسمي. باور بانك، سماعات، شواحن وكابلات.'
-                : '100% Original products with official warranty. Power banks, earbuds, chargers & cables.'}
+                ? 'الوكيل المعتمد في مصر. باور بانك، سماعات، شواحن وكابلات بضمان 18 شهر.'
+                : 'Authorized dealer in Egypt. Power banks, earbuds, chargers & cables with 18-month warranty.'}
             </p>
 
             {/* Hero Products */}
@@ -284,23 +284,23 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 text-center">
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
               <div className="text-2xl md:text-3xl mb-1 md:mb-2 text-green-600"><SvgIcon name="check-circle" className="w-8 h-8 mx-auto" /></div>
-              <h4 className="font-bold">{isRTL ? 'منتجات أصلية' : 'Original Products'}</h4>
-              <p className="text-sm text-gray-500">{isRTL ? 'ضمان 100%' : '100% Guarantee'}</p>
+              <h4 className="font-bold">{isRTL ? 'باركود أصلي' : 'Barcode Verified'}</h4>
+              <p className="text-sm text-gray-500">{isRTL ? 'قابل للتحقق من الشركة' : 'Company Verifiable'}</p>
             </div>
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
               <div className="text-3xl mb-2 text-blue-600"><SvgIcon name="truck" className="w-8 h-8 mx-auto" /></div>
-              <h4 className="font-bold">{isRTL ? 'شحن سريع' : 'Fast Shipping'}</h4>
-              <p className="text-sm text-gray-500">{isRTL ? 'لجميع المحافظات' : 'All Governorates'}</p>
+              <h4 className="font-bold">{isRTL ? 'نوصل كل مصر' : 'All 27 Governorates'}</h4>
+              <p className="text-sm text-gray-500">{isRTL ? '1-5 أيام عمل' : '1-5 Business Days'}</p>
             </div>
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
               <div className="text-3xl mb-2 text-green-600"><SvgIcon name="money" className="w-8 h-8 mx-auto" /></div>
-              <h4 className="font-bold">{isRTL ? 'الدفع عند الاستلام' : 'Cash on Delivery'}</h4>
-              <p className="text-sm text-gray-500">{isRTL ? 'بدون مقدم' : 'No Prepayment'}</p>
+              <h4 className="font-bold">{isRTL ? 'ادفع كاش' : 'Pay on Arrival'}</h4>
+              <p className="text-sm text-gray-500">{isRTL ? 'لباب بيتك بدون مقدم' : 'Door-to-Door, No Deposit'}</p>
             </div>
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
               <div className="text-3xl mb-2 text-indigo-600"><SvgIcon name="shield" className="w-8 h-8 mx-auto" /></div>
-              <h4 className="font-bold">{isRTL ? 'ضمان رسمي' : 'Official Warranty'}</h4>
-              <p className="text-sm text-gray-500">{isRTL ? 'استبدال فوري' : 'Instant Replacement'}</p>
+              <h4 className="font-bold">{isRTL ? 'كفالة 18 شهر' : '18-Month Guarantee'}</h4>
+              <p className="text-sm text-gray-500">{isRTL ? 'استبدال فوري عند العيب' : 'Instant Swap on Defect'}</p>
             </div>
           </div>
         </section>

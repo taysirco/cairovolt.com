@@ -17,7 +17,16 @@ interface QuickAnswerBoxProps {
 
 export function QuickAnswerBox({ answer, locale, variant = 'subtle' }: QuickAnswerBoxProps) {
     const isArabic = locale === 'ar';
-    const prefix = isArabic ? 'باختصار:' : 'In short:';
+    const hash = typeof answer === 'string' ? answer.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+
+    const arPrefixes = ['باختصار:', 'الخلاصة:', 'مباشرة من المعمل:', 'في الجون:', 'ع السريع:'];
+    const enPrefixes = ['In short:', 'Bottom Line:', 'Straight from the Lab:', 'TL;DR:', 'Quick Take:'];
+
+    const arLabels = ['ملخص سريع', 'إجابتك المختصرة', 'نظرة سريعة'];
+    const enLabels = ['Quick summary', 'Short answer', 'Brief overview'];
+
+    const prefix = isArabic ? arPrefixes[hash % arPrefixes.length] : enPrefixes[hash % enPrefixes.length];
+    const ariaLabel = isArabic ? arLabels[hash % arLabels.length] : enLabels[hash % enLabels.length];
 
     const baseClasses = 'quick-answer-box rounded-xl px-5 py-4 mb-6 text-sm leading-relaxed';
     const variantClasses = variant === 'highlighted'
@@ -29,7 +38,7 @@ export function QuickAnswerBox({ answer, locale, variant = 'subtle' }: QuickAnsw
             className={`${baseClasses} ${variantClasses}`}
             dir={isArabic ? 'rtl' : 'ltr'}
             role="complementary"
-            aria-label={isArabic ? 'ملخص سريع' : 'Quick summary'}
+            aria-label={ariaLabel}
         >
             <p>
                 <strong className="text-gray-900 dark:text-white">{prefix}</strong>{' '}

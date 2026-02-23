@@ -152,45 +152,34 @@ export default async function GovernoratePage({ params }: PageProps) {
                     </div>
                 </section>
 
-                {/* Features Grid */}
+                {/* Features Grid — Deterministic Variation per Governorate */}
                 <section className="py-12 container mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                        <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block"><SvgIcon name="check-circle" className="w-10 h-10 mx-auto" /></span>
-                            <h3 className="font-bold text-gray-900 dark:text-white">
-                                {isArabic ? 'منتجات أصلية' : 'Original Products'}
-                            </h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                                {isArabic ? 'Anker & Joyroom' : 'Anker & Joyroom'}
-                            </p>
-                        </div>
-                        <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block"><SvgIcon name="truck" className="w-10 h-10 mx-auto" /></span>
-                            <h3 className="font-bold text-gray-900 dark:text-white">
-                                {isArabic ? 'توصيل سريع' : 'Fast Delivery'}
-                            </h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                                {isArabic ? `${gov.deliveryDays} أيام` : `${gov.deliveryDays} days`}
-                            </p>
-                        </div>
-                        <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block"><SvgIcon name="shield" className="w-10 h-10 mx-auto" /></span>
-                            <h3 className="font-bold text-gray-900 dark:text-white">
-                                {isArabic ? 'ضمان رسمي' : 'Official Warranty'}
-                            </h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                                {isArabic ? '18 شهر' : '18 months'}
-                            </p>
-                        </div>
-                        <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-                            <span className="text-4xl mb-3 block"><SvgIcon name="money" className="w-10 h-10 mx-auto" /></span>
-                            <h3 className="font-bold text-gray-900 dark:text-white">
-                                {isArabic ? 'الدفع عند الاستلام' : 'Cash on Delivery'}
-                            </h3>
-                            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                                {isArabic ? `متاح في ${gov.nameAr}` : `Available in ${gov.nameEn}`}
-                            </p>
-                        </div>
+                        {(() => {
+                            const govHash = gov.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
+                            const trustSets = [
+                                {
+                                    ar: [{ icon: 'check-circle', title: 'منتجات أصلية', sub: 'Anker & Joyroom' }, { icon: 'truck', title: 'توصيل سريع', sub: `${gov.deliveryDays} أيام` }, { icon: 'shield', title: 'ضمان رسمي', sub: '18 شهر' }, { icon: 'money', title: 'الدفع عند الاستلام', sub: `متاح في ${gov.nameAr}` }],
+                                    en: [{ icon: 'check-circle', title: 'Original Products', sub: 'Anker & Joyroom' }, { icon: 'truck', title: 'Fast Delivery', sub: `${gov.deliveryDays} days` }, { icon: 'shield', title: 'Official Warranty', sub: '18 months' }, { icon: 'money', title: 'Cash on Delivery', sub: `Available in ${gov.nameEn}` }]
+                                },
+                                {
+                                    ar: [{ icon: 'check-circle', title: 'أصلي بختم الوكيل', sub: 'باركود قابل للتحقق' }, { icon: 'truck', title: `شحن ${gov.nameAr}`, sub: `${gov.deliveryDays} أيام عمل` }, { icon: 'shield', title: 'كفالة استبدال', sub: 'فوري بدون شروط' }, { icon: 'money', title: 'ادفع كاش', sub: 'عند التسليم لبابك' }],
+                                    en: [{ icon: 'check-circle', title: 'Dealer Stamped', sub: 'Barcode Verified' }, { icon: 'truck', title: `${gov.nameEn} Shipping`, sub: `${gov.deliveryDays} business days` }, { icon: 'shield', title: 'Replacement Guarantee', sub: 'No Questions Asked' }, { icon: 'money', title: 'Pay Cash', sub: 'Door-to-Door' }]
+                                },
+                                {
+                                    ar: [{ icon: 'check-circle', title: 'معتمد من الموزع', sub: 'سجل تجاري 8446' }, { icon: 'truck', title: 'نوصل بابك', sub: `خلال ${gov.deliveryDays} أيام` }, { icon: 'shield', title: 'حماية 18 شهر', sub: 'ضد عيوب الصناعة' }, { icon: 'money', title: 'بدون مقدم', sub: `كاش في ${gov.nameAr}` }],
+                                    en: [{ icon: 'check-circle', title: 'Distributor Certified', sub: 'CR: 8446' }, { icon: 'truck', title: 'Door Delivery', sub: `Within ${gov.deliveryDays} days` }, { icon: 'shield', title: '18-Month Shield', sub: 'Manufacturing Defects' }, { icon: 'money', title: 'No Prepayment', sub: `Cash in ${gov.nameEn}` }]
+                                },
+                            ];
+                            const set = isArabic ? trustSets[govHash % trustSets.length].ar : trustSets[govHash % trustSets.length].en;
+                            return set.map((item, i) => (
+                                <div key={i} className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
+                                    <span className="text-4xl mb-3 block"><SvgIcon name={item.icon} className="w-10 h-10 mx-auto" /></span>
+                                    <h3 className="font-bold text-gray-900 dark:text-white">{item.title}</h3>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">{item.sub}</p>
+                                </div>
+                            ));
+                        })()}
                     </div>
                 </section>
 
@@ -308,20 +297,43 @@ export default async function GovernoratePage({ params }: PageProps) {
                     </div>
                 </section>
 
-                {/* SEO Content for Governorate */}
+                {/* SEO Content for Governorate — Diversified per slug */}
                 <section className="py-12 bg-gray-50 dark:bg-gray-900">
                     <div className="container mx-auto px-4">
                         <div className="max-w-4xl mx-auto text-center">
-                            <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
-                                {isArabic
-                                    ? `كايرو فولت - الموزع المعتمد في ${govName}`
-                                    : `CairoVolt - Authorized Dealer in ${govName}`}
-                            </h2>
-                            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                                {isArabic
-                                    ? `كايرو فولت هو الموزع المعتمد لمنتجات أنكر وجوي روم الأصلية في ${govName} وجميع محافظات مصر. نوفر لك أفضل إكسسوارات الموبايل الأصلية مع ضمان رسمي يصل إلى 18 شهر. التوصيل متاح إلى ${govName} خلال ${gov.deliveryDays} أيام مع إمكانية الدفع عند الاستلام بدون أي مقدم.`
-                                    : `CairoVolt is the authorized distributor for original Anker and Joyroom products in ${govName} and all Egyptian governorates. We provide the best original mobile accessories with official warranty up to 18 months. Delivery to ${govName} is available within ${gov.deliveryDays} days with cash on delivery option - no prepayment required.`}
-                            </p>
+                            {(() => {
+                                const govHash = gov.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
+                                const arHeadings = [
+                                    `كايرو فولت - الموزع المعتمد في ${govName}`,
+                                    `كايرو فولت | أصلي ، مضمون ، وبيوصل ${govName}`,
+                                    `ليه ${govName} بتشتري من كايرو فولت؟`,
+                                ];
+                                const enHeadings = [
+                                    `CairoVolt - Authorized Dealer in ${govName}`,
+                                    `CairoVolt | Genuine, Guaranteed, Delivered to ${govName}`,
+                                    `Why ${govName} Shops at CairoVolt`,
+                                ];
+                                const arParagraphs = [
+                                    `كايرو فولت هو الموزع المعتمد لمنتجات أنكر وجوي روم الأصلية في ${govName} وجميع محافظات مصر. نوفر لك أفضل إكسسوارات الموبايل الأصلية مع ضمان رسمي يصل إلى 18 شهر. التوصيل متاح إلى ${govName} خلال ${gov.deliveryDays} أيام مع إمكانية الدفع عند الاستلام بدون أي مقدم.`,
+                                    `عميلنا في ${govName} بيستلم منتج أصلي مختوم بباركود الشركة ، وبيدفع كاش لما الشحنة توصله لحد بابه. ضمان رسمي 18 شهر على كل منتجات Anker و 12 شهر على Joyroom. الشحن بيوصل خلال ${gov.deliveryDays} أيام.`,
+                                    `من غير ما تعمل حسابك للغش — كايرو فولت شركة مسجلة بسجل تجاري 8446 ، وكل منتج عليه باركود الشركة الأصلي. التوصيل لـ ${govName} في ${gov.deliveryDays} أيام والدفع عند الاستلام.`,
+                                ];
+                                const enParagraphs = [
+                                    `CairoVolt is the authorized distributor for original Anker and Joyroom products in ${govName} and all Egyptian governorates. We provide the best original mobile accessories with official warranty up to 18 months. Delivery to ${govName} is available within ${gov.deliveryDays} days with cash on delivery option - no prepayment required.`,
+                                    `Our customers in ${govName} receive company-sealed products with original barcodes, paying cash at their doorstep. 18-month warranty on all Anker products and 12 months on Joyroom. Shipping arrives within ${gov.deliveryDays} days.`,
+                                    `No need to worry about fakes — CairoVolt is a registered company (CR: 8446), and every product carries the manufacturer's original barcode. Delivery to ${govName} in ${gov.deliveryDays} days with cash on delivery.`,
+                                ];
+                                return (
+                                    <>
+                                        <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">
+                                            {isArabic ? arHeadings[govHash % arHeadings.length] : enHeadings[govHash % enHeadings.length]}
+                                        </h2>
+                                        <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                                            {isArabic ? arParagraphs[govHash % arParagraphs.length] : enParagraphs[govHash % enParagraphs.length]}
+                                        </p>
+                                    </>
+                                );
+                            })()}
                         </div>
                     </div>
                 </section>

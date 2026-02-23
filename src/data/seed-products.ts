@@ -9,8 +9,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Power Banks", description: "Portable chargers for iPhone 17, Samsung S26 & Laptops" },
-            ar: { name: "باور بانك", description: "شواحن متنقلة للايفون 17 وسامسونج S26 واللابتوب" }
+            en: { name: "Power Banks", description: "Essential backup power for outages — keeps your router and phone running." },
+            ar: { name: "باور بانك", description: "المنقذ الحقيقي وقت تخفيف الأحمال وقطع الكهرباء.. هيشحن موبايلك والراوتر في الطوارئ." }
         },
         seo: { keywords: "باور بانك, شاحن متنقل, بطارية متنقلة, power bank" }
     },
@@ -21,8 +21,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Wall Chargers", description: "GaNPrime™ chargers for iPhone 17 & MacBook M5" },
-            ar: { name: "شواحن حائط", description: "شواحن GaN للايفون 17 وماك بوك M5" }
+            en: { name: "Wall Chargers", description: "Stable current chargers protecting your devices from grid voltage fluctuations." },
+            ar: { name: "شواحن حائط", description: "شواحن بتيار ثابت تحمي بطارية موبايلك من تذبذب الكهربا وتخريف التاتش." }
         },
         seo: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger" }
     },
@@ -33,8 +33,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Charging Cables", description: "High quality USB-C, Lightning and Micro USB cables" },
-            ar: { name: "كابلات شحن", description: "كابلات شحن عالية الجودة USB-C و Lightning و Micro USB" }
+            en: { name: "Charging Cables", description: "Ultra-durable certified cables — never risk a counterfeit destroying your phone battery." },
+            ar: { name: "كابلات شحن", description: "كابلات بتعيش بالسنين.. بلاش تسترخص وتدمر بطاريتك بكابلات مضروبة من العتبة." }
         },
         seo: { keywords: "كابل, سلك شحن, وصلة ايفون, cable" }
     },
@@ -45,8 +45,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Car Chargers", description: "Fast car chargers for your phone while driving" },
-            ar: { name: "شواحن سيارة", description: "شواحن سيارة سريعة لشحن هاتفك أثناء القيادة" }
+            en: { name: "Car Chargers", description: "Cool-running fast chargers surviving extreme heat and summer traffic." },
+            ar: { name: "شواحن سيارة", description: "شحن سريع مبيسخنش تحت شمس الأسفلت وفي زحمة الدائري أثناء تشغيل الـ GPS." }
         },
         seo: { keywords: "شاحن سيارة, car charger" }
     },
@@ -57,8 +57,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Audio & Earbuds", description: "Wireless earbuds and Bluetooth headphones" },
-            ar: { name: "سماعات وايربودز", description: "سماعات لاسلكية وايربودز بلوتوث" }
+            en: { name: "Audio & Earbuds", description: "True ANC earbuds sealing out street noise, metro sounds, and traffic." },
+            ar: { name: "سماعات وايربودز", description: "عزل ضوضاء حقيقي يفصلك تماماً عن دوشة الشارع والمترو والميكروباصات." }
         },
         seo: { keywords: "سماعات, ايربودز, earbuds" }
     },
@@ -69,8 +69,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Smart Watches", description: "Smart watches and fitness trackers" },
-            ar: { name: "ساعات ذكية", description: "ساعات ذكية وأجهزة تتبع اللياقة البدنية" }
+            en: { name: "Smart Watches", description: "Durable smart watches surviving summer sweat and daily commutes." },
+            ar: { name: "ساعات ذكية", description: "ساعات ذكية متينة بتستحمل عرق الصيف وزحمة مشاويرك اليومية." }
         },
         seo: { keywords: "ساعة ذكية, smart watch" }
     },
@@ -81,8 +81,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Car Holders", description: "Secure car mounts and holders for safe driving" },
-            ar: { name: "حوامل سيارة", description: "حوامل سيارة لتثبيت الهاتف بأمان أثناء القيادة" }
+            en: { name: "Car Holders", description: "Dashboard mounts that actually stick despite extreme sun and speed bumps." },
+            ar: { name: "حوامل سيارة", description: "حوامل بتثبت فعلاً ومبتقعش فوق مطبات شوارعنا ولا بتسيح في حر الصيف." }
         },
         seo: { keywords: "حامل جوال للسيارة, car mount, car holder" }
     },
@@ -93,8 +93,8 @@ export const categories = [
         status: "active",
         productCount: 0,
         translations: {
-            en: { name: "Bluetooth Speakers", description: "Portable wireless speakers with premium sound" },
-            ar: { name: "مكبرات صوت بلوتوث", description: "مكبرات صوت لاسلكية محمولة بصوت نقي وقوي" }
+            en: { name: "Bluetooth Speakers", description: "Massive sound and endless battery perfectly suited for summer beach weekends." },
+            ar: { name: "مكبرات صوت بلوتوث", description: "سماعات بصوت جبار وبطارية مبتفصلش عشان خروجات الساحل وتجمعات الرووف." }
         },
         seo: { keywords: "speaker, bluetooth speaker, soundcore, مكبر صوت, سماعة بلوتوث" }
     }
@@ -129,8 +129,8 @@ export const products = [
                 name: "Anker Soundcore Motion+ | 30W Hi-Res Audio | 18-Month Warranty",
                 shortDescription: "30W Hi-Res certified speaker tested 12h 8min at CairoVolt Labs | IPX7 waterproof (Ain Sokhna pool test) | BassUp + custom EQ via app",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>🔊 <strong>Massive Sound:</strong> 30W output with Hi-Res Audio certification.</li>
         <li>💧 <strong>Waterproof:</strong> IPX7 rated (fully submersible).</li>
@@ -139,8 +139,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "Our team at Cairo Volt tested this speaker in true Egyptian conditions: an open-air rooftop gathering for 5 straight hours at max volume. The result? The battery held strong until the end, and the sound filled the space with incredible clarity despite street noise and wind. The bass hits hard—making you feel like you're carrying a subwoofer, not a portable speaker. This isn't just a speaker; it's a mood-saver, whether for power outages or weekend outings."
         <br>
@@ -148,7 +148,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Studio Quality in Your Pocket (Hi-Res Audio)</h2>
         <p class="text-gray-700">Thanks to <strong>Hi-Res Audio</strong> and Qualcomm aptX support, this speaker reproduces every detail of your music with insane accuracy. The 15° upward-firing tweeters disperse sound across the entire room, so you hear "layers" of music, not just loud noise.</p>
@@ -165,8 +165,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Sound Output</td><td class="p-2 border font-bold">30W (Hi-Res)</td></tr>
         <tr><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX7 (Fully Submersible)</td></tr>
@@ -177,8 +177,8 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
-    <h3 class="font-bold mb-2">Perfect Compatibility (Tested Devices):</h3>
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">Works Perfectly With:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone:</strong> Fully compatible with iPhone 15/14/13 Pro Max.</li>
         <li>📱 <strong>Samsung:</strong> Supports Samsung S24 Ultra / S23 / A-Series.</li>
@@ -197,11 +197,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "سماعة انكر Soundcore Motion+ | صوت 30 وات Hi-Res | ضمان 18 شهر",
-                shortDescription: "🔊 صوت 30 وات Hi-Res | 💧 مقاومة ماء IPX7 | 🔋 بطارية 12 ساعة | 📱 بلوتوث 5.0",
+                name: "سماعة انكر Soundcore Motion+ | سماعة تجمعات الرووف والساحل اللي مبتفصلش | ضمان 18 شهر",
+                shortDescription: "صوت جبار 30 وات بيملا رووف كامل 🔊 | 💧 IPX7 بتنزل حمام سباحة عادي | 🔋 12 ساعة بطارية هتكفيك سهرة كاملة | 🎚️ حرر الصوت بتطبيق EQ",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🔊 <strong>صوت جبار:</strong> قوة 30 وات مع شهادة Hi-Res Audio.</li>
         <li>💧 <strong>ضد المياه:</strong> معيار IPX7 (تتحمل الغمر الكامل).</li>
@@ -210,8 +210,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت اختبرنا هذه السماعة في ظروف مصرية بامتياز: شغلناها في تجمعة عائلية في مكان مفتوح (رووف) لمدة 5 ساعات متواصلة بأعلى صوت. النتيجة؟ البطارية صمدت للنهاية، والصوت غطى المكان بوضوح مذهل رغم دوشة الشارع والهوا. الباس (Bass) فيها بيضرب بقوة تخليك تحس إن معاك صب ووفر كبير مش سماعة محمولة. دي مش بس سماعة، دي استثمار في 'مودك' سواء وقت انقطاع الكهرباء أو في الخروجات."
         <br>
@@ -219,7 +219,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">جودة استوديو في جيبك (Hi-Res Audio)</h2>
         <p class="text-gray-700">بفضل تقنية <strong>Hi-Res Audio</strong> ودعم Qualcomm aptX، السماعة دي بتطلع كل تفصيلة في الأغنية بدقة خرافية. الـ Tweeters بزاوية 15 درجة بيوزعوا الصوت في الغرفة كلها، عشان تسمع "طبقات الصوت" والمزيكا صح، مش بس دوشة عالية وخلاص.</p>
@@ -236,8 +236,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية (Tech Specs):</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">تفاصيل تقنية ومواصفات:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">قوة الصوت (Output)</td><td class="p-2 border font-bold">30 واط (Hi-Res)</td></tr>
         <tr><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX7 (غمر كامل)</td></tr>
@@ -248,8 +248,8 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
-    <h3 class="font-bold mb-2">توافق مثالي مع أجهزتك (Tested Devices):</h3>
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">اشتغل معانا على إيه؟</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone:</strong> متوافقة تماماً مع iPhone 15/14/13 Pro Max.</li>
         <li>📱 <strong>Samsung:</strong> تدعم Samsung S24 Ultra / S23 / A-Series.</li>
@@ -292,18 +292,18 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-1.webp", alt: "anker soundcore flare 2 Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-2.webp", alt: "anker soundcore flare 2 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-3.webp", alt: "anker soundcore flare 2 - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-4.webp", alt: "anker soundcore flare 2 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-1.webp", alt: "anker soundcore flare 2 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-2.webp", alt: "anker soundcore flare 2 - أصلي بباركود الشركة | كايرو فولت مصر", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-3.webp", alt: "anker soundcore flare 2 - Best Deal in Egypt 2026", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-soundcore-flare-2/anker-anker-soundcore-flare-2-egypt-cairo-4.webp", alt: "anker soundcore flare 2 - منتج أصلي معتمد | شحن مصر كلها", order: 3, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker Soundcore Flare 2 | 360° Sound & LED Light Show | 18-Month Warranty",
                 shortDescription: "360° party speaker with LED light show | CairoVolt PartyCast test: 3 speakers synced in 1.2s across 500m² | IPX7 waterproof",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>🔊 <strong>360° Sound:</strong> 20W (10W×2) dual drivers with BassUp technology.</li>
         <li>💡 <strong>Light Show:</strong> Beat-driven dual LED rings that sync with your music.</li>
@@ -312,8 +312,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We put the Flare 2 through a real Egyptian party test: a Friday night birthday gathering on a Maadi terrace with 25 guests. The 360° sound meant everyone heard the music evenly — no dead spots. The LED light show replaced the need for extra party lights entirely. When someone accidentally knocked it into the kiddie pool? We fished it out and it kept playing without missing a beat (IPX7 is no joke). The BassUp feature delivered deep, punchy bass that outperformed speakers twice the price."
         <br>
@@ -321,7 +321,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">360° Sound That Fills Every Corner</h2>
         <p class="text-gray-700">With dual 10W drivers (20W total) firing in all directions, the Soundcore Flare 2 eliminates the "sweet spot" problem. Sit anywhere around it — front, back, or side — and the <strong>BassUp technology</strong> delivers rich, balanced audio. Perfect for gatherings where everyone sits in different directions.</p>
@@ -338,8 +338,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Sound Output</td><td class="p-2 border font-bold">20W (10W × 2 Dual Drivers)</td></tr>
         <tr><td class="p-2 border">Sound Technology</td><td class="p-2 border">BassUp™ + 360° Audio</td></tr>
@@ -351,8 +351,8 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
-    <h3 class="font-bold mb-2">Perfect Compatibility (Tested Devices):</h3>
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">Compatibility Guide:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone:</strong> iPhone 17/16/15/14 Pro Max via Bluetooth 5.0.</li>
         <li>📱 <strong>Samsung:</strong> Samsung S26 Ultra / S25 / A-Series.</li>
@@ -374,11 +374,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "مكبر صوت انكر Soundcore Flare 2 | صوت 360° وإضاءة LED | ضمان 18 شهر",
-                shortDescription: "🔊 صوت 20 وات 360° | 💡 إضاءة LED متفاعلة | 💧 ضد الماء IPX7 | 🔗 ربط 100+ سماعة",
+                name: "مكبر صوت انكر Soundcore Flare 2 | سماعة السهرة بإضاءة LED بتتفاعل مع الموسيقى | ضمان 18 شهر",
+                shortDescription: "بتحول أي سهرة لحفلة 🌈 إضاءة RGB بتتفاعل مع الموسيقى | 🔊 صوت 360° بيتوزع في كل الاتجاهات | 💧 IPX7 خليها على حمام السباحة | 🔋 12 ساعة",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🔊 <strong>صوت 360 درجة:</strong> قوة 20 وات (10×2) مع تقنية BassUp.</li>
         <li>💡 <strong>عرض ضوئي:</strong> حلقات LED مزدوجة تتفاعل مع إيقاع الموسيقى.</li>
@@ -387,8 +387,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت اختبرنا Flare 2 في حفلة عيد ميلاد حقيقية على تيراس في المعادي مع 25 شخص. الصوت المحيطي 360 درجة خلّى كل الموجودين يسمعوا المزيكا بنفس الوضوح — مفيش مكان ميت. عرض الإضاءة LED غنّانا عن أي لمبات إضافية للحفلة. ولما حد بالغلط وقّعها في حمام سباحة الأطفال؟ طلعناها وكملت شغل من غير ما حتى تقطع (IPX7 مش كلام). تقنية BassUp وفرت باس عميق وقوي يتفوق على سماعات بضعف سعرها."
         <br>
@@ -396,7 +396,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">صوت 360 درجة يملأ كل ركن</h2>
         <p class="text-gray-700">بمحركين صوت 10 وات (إجمالي 20 وات) يبثان في كل الاتجاهات، سماعة <strong>Soundcore Flare 2</strong> بتلغي مشكلة "المكان المثالي للسماع". اقعد في أي مكان حواليها — قدام، ورا، أو جنب — وتقنية <strong>BassUp</strong> بتوصلك صوت غني ومتوازن. مثالية للتجمعات اللي مش كل الناس فيها قاعدة في نفس الاتجاه.</p>
@@ -413,7 +413,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">قوة الصوت</td><td class="p-2 border font-bold">20 وات (10×2 محركين مزدوجين)</td></tr>
@@ -426,7 +426,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مثالي مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone:</strong> ايفون 17/16/15/14 برو ماكس — بلوتوث 5.0.</li>
@@ -485,8 +485,8 @@ export const products = [
                 name: "Anker 737 Power Bank (PowerCore 24K) | 140W | 24,000mAh | 18-Month Warranty",
                 shortDescription: "⚡ 140W Two-Way Fast Charging | 🔋 24,000mAh | 💻 Charges MacBook Pro 50% in 30 Min | 📊 Smart Digital Display",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>140W Output:</strong> Charges MacBook Pro 16" (M5/M4) to 50% in 30 minutes.</li>
         <li>🔋 <strong>24,000mAh:</strong> Charges iPhone 17 Pro Max 5+ times or MacBook Air 1.5 times.</li>
@@ -495,8 +495,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We tested the Anker 737 during a 4-hour power outage in Nasr City — the kind of blackout that destroys your workday. We kept a MacBook Pro M4 running for 3 hours of continuous video editing (charged from 15% to 80%), then topped up an iPhone 17 Pro Max and an iPad Air. The digital display was a lifesaver — we could see exactly how many minutes of power remained and plan accordingly. At 140W, this isn't just a power bank; it's a portable workstation backup. Yes, it's heavy at 630g, but when the lights go out, you'll thank yourself for owning this beast."
         <br>
@@ -504,7 +504,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">140W: The Power Bank That Charges Laptops (Not Just Phones)</h2>
         <p class="text-gray-700">Most power banks top out at 20-30W — enough for phones, but useless for laptops. The Anker 737 delivers <strong>140W via USB-C PD 3.1</strong>, making it one of the few portable chargers that can genuinely fast-charge a MacBook Pro 16". Charge your laptop to 50% in 30 minutes, or power it during a flight. For remote workers and digital nomads in Egypt, this changes everything during <a href="/anker/power-banks" class="text-blue-600 hover:underline">power outages</a>.</p>
@@ -521,8 +521,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">24,000mAh (86.4Wh)</td></tr>
         <tr><td class="p-2 border">Max Output</td><td class="p-2 border">140W USB-C PD 3.1</td></tr>
@@ -535,7 +535,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>💻 <strong>MacBook Pro 16" M5/M4:</strong> 140W fast charge — 0-50% in 30 minutes.</li>
@@ -548,8 +548,8 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 140W USB-C PD 3.1 Output", "🔋 24,000mAh (86.4Wh)", "📊 Smart Digital Display", "💻 MacBook Pro 50% in 30 Min", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (86.4Wh)", "🔌 3 Ports (2×USB-C + USB-A)"],
-                metaTitle: "Anker 737 Power Bank 140W 24K | MacBook & iPhone | Egypt",
-                metaDesc: "Buy Anker 737 (PowerCore 24K) in Egypt. 140W charges MacBook Pro to 50% in 30 min. 24,000mAh, smart display. ✓ 18-month warranty ✓ Fast Cairo delivery.",
+                metaTitle: "Anker 737 Power Bank 140W 24K | MacBook & iPhone | Egypt 2026",
+                metaDesc: "Buy Anker 737 (PowerCore 24K) in Egypt. 140W charges MacBook Pro to 50% in 30 min. 24,000mAh, smart display. ✓ Factory Sealed ✓ Nationwide Delivery ✓ Best Customer Support in Cairo..",
                 faqs: [
                     { question: "Does it charge MacBook Pro 16-inch M5?", answer: "Yes, the 140W output via USB-C allows it to charge the latest MacBook Pro 16\" M5/M4 to 50% in just 30 minutes." },
                     { question: "Is it safe to take on a plane?", answer: "Yes, at 86.4Wh, it is under the 100Wh TSA limit, so you can safely carry it in your hand luggage." },
@@ -559,11 +559,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك انكر 737 (PowerCore 24K) | 140 واط | ضمان 18 شهر",
-                shortDescription: "⚡ شحن 140 واط فائق | 🔋 24,000 مللي أمبير | 💻 يشحن ماك بوك برو 50% في 30 دقيقة | 📊 شاشة ذكية",
+                name: "باور بانك انكر 737 (140 واط) | منقذ اللابتوب المعتمد وقت قطع الكهربا | ضمان 18 شهر",
+                shortDescription: "الوحش اللي بيشغل لابتوبك في فترة تخفيف الأحمال ⚡ 140 واط | 🔋 24,000 مللي أمبير | 📊 شاشة ذكية بتعرفك فاضل كام دقيقة بالظبط",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>140 واط:</strong> يشحن MacBook Pro 16" (M5/M4) حتى 50% في 30 دقيقة.</li>
         <li>🔋 <strong>24,000 مللي أمبير:</strong> يشحن ايفون 17 برو ماكس 5+ مرات أو ماك بوك اير 1.5 مرة.</li>
@@ -572,8 +572,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت اختبرنا انكر 737 في أسوأ سيناريو: انقطاع كهرباء 4 ساعات في مدينة نصر — النوع اللي بيدمر يوم شغلك. خلّينا ماك بوك برو M4 شغال 3 ساعات مونتاج فيديو متواصل (شحن من 15% لـ 80%)، وبعدين شحنّا ايفون 17 برو ماكس وايباد اير. الشاشة الرقمية كانت منقذة — شفنا بالضبط كام دقيقة متبقية وخططنا على أساسها. بقوة 140 واط، ده مش بس باور بانك؛ ده محطة عمل محمولة. أيوه، ثقيل (630 جرام)، بس لما الكهربا تقطع، هتشكر نفسك إنك اشتريت الوحش ده."
         <br>
@@ -581,7 +581,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">140 واط: باور بانك يشحن اللابتوب (مش بس الموبايل)</h2>
         <p class="text-gray-700">معظم الباور بانك بيوصل لـ 20-30 واط — كافي للموبايل، بس فاشل للابتوب. انكر 737 بيوفر <strong>140 واط عبر USB-C PD 3.1</strong>، مما يخليه من القلائل اللي بتشحن ماك بوك برو 16" بسرعة. اشحن لابتوبك 50% في 30 دقيقة، أو شغّله أثناء رحلة طيران. للعمل عن بعد في مصر وقت <a href="/anker/power-banks" class="text-blue-600 hover:underline">انقطاع الكهرباء</a>، ده بيغير كل حاجة.</p>
@@ -598,7 +598,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">24,000 مللي أمبير (86.4 واط/ساعة)</td></tr>
@@ -612,7 +612,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>💻 <strong>ماك بوك برو 16" M5/M4:</strong> شحن 140 واط — 0-50% في 30 دقيقة.</li>
@@ -659,21 +659,21 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-1.webp", alt: "anker 622 maggo Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-2.webp", alt: "anker 622 maggo اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-3.webp", alt: "anker 622 maggo - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-4.webp", alt: "anker 622 maggo اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-5.webp", alt: "anker 622 maggo - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-6.webp", alt: "anker 622 maggo اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-7.webp", alt: "anker 622 maggo - 2 Year Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-1.webp", alt: "anker 622 maggo - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-2.webp", alt: "anker 622 maggo - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-3.webp", alt: "anker 622 maggo - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-4.webp", alt: "anker 622 maggo الأصلي في مصر | توصيل لأي محافظة", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-5.webp", alt: "anker 622 maggo - Authorized Egypt Dealer", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-6.webp", alt: "anker 622 maggo - مختوم بختم الشركة | كايرو فولت", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-7.webp", alt: "anker 622 maggo - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker 622 Magnetic Battery (MagGo) | MagSafe | Foldable Stand | 18-Month Warranty",
                 shortDescription: "🧲 MagSafe Wireless Charging | 📱 Built-in Foldable Kickstand | 🪨 Ultra-Slim Design | 🔌 USB-C Two-Way Charging",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
         <li>🧲 <strong>MagSafe Wireless:</strong> 7.5W magnetic wireless charging for iPhone 17/16/15/14/13/12.</li>
         <li>📱 <strong>Foldable Stand:</strong> Built-in kickstand for hands-free video calls and streaming.</li>
@@ -682,8 +682,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We used the MagGo 622 for a full week as our daily carry. The game-changer? The foldable kickstand. During a 45-minute FaceTime call at a Zamalek café, we propped the iPhone 17 up on the table and it charged wirelessly the entire time — no cable clutter, no holding the phone. The magnetic grip is strong enough to stay attached during a bumpy Uber ride. At 7.5W, it's not blazing fast, but that's the point: it's designed to keep your battery topped up throughout the day, not race to 100%. It slips into a back pocket and you forget it's there."
         <br>
@@ -691,7 +691,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Snap On, Charge Wirelessly, Keep Using Your Phone</h2>
         <p class="text-gray-700">The Anker 622 MagGo snaps onto the back of your iPhone using <strong>powerful magnets</strong> that align perfectly with MagSafe. No plugging in cables — just snap and go. The magnetic hold is strong enough for normal use: scrolling, texting, even taking photos. It charges at <strong>7.5W</strong>, the standard for third-party MagSafe accessories, keeping your battery topped up without overheating.</p>
@@ -708,8 +708,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Wireless Output</td><td class="p-2 border font-bold">7.5W MagSafe</td></tr>
         <tr><td class="p-2 border">Wired Port</td><td class="p-2 border">USB-C (Two-Way)</td></tr>
@@ -720,7 +720,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17 / 17 Pro / 17 Pro Max:</strong> Full MagSafe magnetic alignment.</li>
@@ -732,7 +732,7 @@ export const products = [
 `,
                 features: ["🧲 7.5W MagSafe Wireless Charging", "📱 Built-in Foldable Kickstand", "🪨 Ultra-Slim (13mm)", "🔌 USB-C Two-Way Charging", "🔄 Pass-Through Charging", "🛡️ 18-Month Anker Warranty"],
                 metaTitle: "Anker 622 MagGo Magnetic Battery | MagSafe iPhone 17 Egypt",
-                metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ 18-month warranty ✓ Fast Cairo delivery.",
+                metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ Immediate Replacement Warranty ✓ Inspect before you pay ✓ 24-48H Shipping..",
                 faqs: [
                     { question: "Does it work with non-MagSafe cases?", answer: "No, it requires a magnetic MagSafe case or a bare iPhone (15/16/17 series) to attach securely." },
                     { question: "How fast is the wireless charging?", answer: "It provides 7.5W max wireless charging for iPhones, which is the standard for 3rd party magnetic battery packs." },
@@ -741,11 +741,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "بطارية انكر 622 MagGo مغناطيسية | حامل مدمج | ضمان 18 شهر",
-                shortDescription: "🧲 شحن لاسلكي MagSafe | 📱 حامل مدمج قابل للطي | 🪨 نحيف جداً 13مم | 🔌 USB-C في الاتجاهين",
+                name: "باور بانك انكر 622 MagGo ايفون 17 وايرلس | بستاند للمكالمات | ضمان 18 شهر",
+                shortDescription: "لزقة في ضهر ايفونك مبتطحركش 🧲 شحن وايرلس MagSafe | 📱 ستاند مدمج لمكالمات الفيديو في الكافيهات | 🪨 رفيع جداً (13مم) مش هتحس بيه",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🧲 <strong>شحن MagSafe لاسلكي:</strong> 7.5 واط لايفون 17/16/15/14/13/12.</li>
         <li>📱 <strong>حامل مدمج:</strong> قابل للطي لمكالمات الفيديو ومشاهدة المحتوى.</li>
@@ -754,8 +754,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت استخدمنا MagGo 622 لمدة أسبوع كامل كشاحن يومي. اللي غيّر اللعبة؟ الحامل القابل للطي. في مكالمة FaceTime لمدة 45 دقيقة في كافيه في الزمالك، حطّينا ايفون 17 على الترابيزة واتشحن لاسلكي طول الوقت — من غير كابلات ولا مسك الموبايل. المغناطيس قوي كفاية إنه يفضل ملتصق حتى في رحلة أوبر على طريق مطبات. بـ 7.5 واط، مش سريع جداً، بس ده الهدف: يخلّي بطاريتك مشحونة طول اليوم، مش يسابق لـ 100%. بيدخل جيبك الخلفي وبتنسى إنه موجود."
         <br>
@@ -763,7 +763,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">ثبّته على ايفونك، اشحن لاسلكي، وكمّل استخدامك</h2>
         <p class="text-gray-700">بطارية انكر 622 MagGo بتلتصق على ظهر ايفونك بـ<strong>مغناطيسات قوية</strong> بتتماشى مع MagSafe. من غير كابلات — بس ثبّت وامشي. الالتصاق المغناطيسي قوي كفاية للاستخدام العادي: تصفح، رسائل، حتى تصوير. بيشحن بقوة <strong>7.5 واط</strong>، المعيار لإكسسوارات MagSafe، وبيخلّي بطاريتك مشحونة من غير سخونية.</p>
@@ -780,7 +780,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">الشحن اللاسلكي</td><td class="p-2 border font-bold">7.5 واط MagSafe</td></tr>
@@ -792,7 +792,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17 / 17 برو / 17 برو ماكس:</strong> توافق MagSafe كامل.</li>
@@ -833,16 +833,16 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-1.webp", alt: "anker 521 powerhouse Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-10.webp", alt: "anker 521 powerhouse اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-2.webp", alt: "anker 521 powerhouse - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-3.webp", alt: "anker 521 powerhouse اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-4.webp", alt: "anker 521 powerhouse - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-5.webp", alt: "anker 521 powerhouse اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-6.webp", alt: "anker 521 powerhouse - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-7.webp", alt: "anker 521 powerhouse اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-8.webp", alt: "anker 521 powerhouse - Original Product Cairo Delivery", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-9.webp", alt: "anker 521 powerhouse اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 9, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-1.webp", alt: "anker 521 powerhouse - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-10.webp", alt: "anker 521 powerhouse - أوريجينال مصر | مع كفالة استبدال", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-2.webp", alt: "anker 521 powerhouse - Competitive Pricing Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-3.webp", alt: "anker 521 powerhouse - أصلي بباركود الشركة | كايرو فولت مصر", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-4.webp", alt: "anker 521 powerhouse - CairoVolt Verified Original", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-5.webp", alt: "anker 521 powerhouse - منتج أصلي معتمد | شحن مصر كلها", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-6.webp", alt: "anker 521 powerhouse - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-7.webp", alt: "anker 521 powerhouse - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 7, isPrimary: false },
+            { id: "img_9", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-8.webp", alt: "anker 521 powerhouse - Genuine Product All Egypt", order: 8, isPrimary: false },
+            { id: "img_10", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-9.webp", alt: "anker 521 powerhouse الأصلي في مصر | توصيل لأي محافظة", order: 9, isPrimary: false }
         ],
         relatedProducts: ["anker-soundcore-motion-plus", "anker-765-cable-usb-c"],
         translations: {
@@ -850,8 +850,8 @@ export const products = [
                 name: "Anker 521 PowerHouse 256Wh | 200W AC Outlet | LiFePO4 | 5-Year Warranty",
                 shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ 3,000+ Charge Cycles (10+ Years) | 💡 Built-in LED Light",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>256Wh Capacity:</strong> LiFePO4 batteries rated for 3,000+ cycles (10+ years daily use).</li>
         <li>🔌 <strong>200W AC Outlet:</strong> Powers routers, CPAP machines, fans, and small appliances.</li>
@@ -860,8 +860,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We deployed the Anker 521 during a scheduled 6-hour power cut in Heliopolis. Here's exactly what we ran: Wi-Fi router (12W) for 6 hours straight, charged 2 phones from 20% to 100%, powered a desk fan for 3 hours, and used the built-in LED as room lighting. At the end? Still had 18% battery left. The LiFePO4 chemistry means it won't degrade like regular lithium batteries — after 3,000 cycles, it still retains 80% capacity. For Egyptian homes dealing with regular outages, this isn't a luxury; it's infrastructure."
         <br>
@@ -869,7 +869,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Your Home's Backup Power During Blackouts</h2>
         <p class="text-gray-700">The 521 PowerHouse isn't a gadget — it's a home essential. With a <strong>200W AC outlet (220V)</strong>, it powers your Wi-Fi router, phone chargers, laptop, desk fan, and even a CPAP machine during power outages. Unlike a noisy diesel generator, it's completely silent, produces zero fumes, and works safely indoors. For Egyptian families dealing with summer load-shedding, this is peace of mind in a box.</p>
@@ -886,8 +886,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">256Wh (LiFePO4)</td></tr>
         <tr><td class="p-2 border">AC Output</td><td class="p-2 border">200W Pure Sine Wave (220V)</td></tr>
@@ -900,7 +900,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">What Can It Power? (Real-World Tested):</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>🌐 <strong>Wi-Fi Router:</strong> 15-20 hours continuous (12W router).</li>
@@ -924,11 +924,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "محطة طاقة انكر 521 PowerHouse 256Wh | 200 واط | ضمان 5 سنوات",
-                shortDescription: "🔋 256 واط/ساعة LiFePO4 | 🔌 منفذ 220 فولت (200 واط) | ♻️ 3,000+ دورة (10+ سنوات) | 💡 إضاءة LED مدمجة",
+                name: "محطة طاقة انكر 521 للبيت (256Wh) | بتشغل الراوتر والمروحة في قطع الكهربا | ضمان 5 سنين",
+                shortDescription: "البديل الآمن والهادي للمولد وقت تخفيف الأحمال 🔋 256 واط | 🔌 فيشة 220 فولت كاملة | ♻️ بطارية بتعيش 10 سنين",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>سعة 256 واط/ساعة:</strong> بطاريات LiFePO4 تدوم 3,000+ دورة (10+ سنوات استخدام يومي).</li>
         <li>🔌 <strong>منفذ 220 فولت (200 واط):</strong> يشغّل الراوتر، المروحة، جهاز CPAP، والأجهزة الصغيرة.</li>
@@ -937,8 +937,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت استخدمنا انكر 521 في انقطاع كهربا مخطط 6 ساعات في مصر الجديدة. إيه اللي شغّلناه بالظبط: راوتر واي فاي (12 واط) 6 ساعات متواصلة، شحنّا موبايلين من 20% لـ 100%، شغّلنا مروحة مكتب 3 ساعات، واستخدمنا إضاءة LED المدمجة كإضاءة غرفة. في النهاية؟ لسه 18% بطارية متبقية. بطاريات LiFePO4 مش بتتدهور زي الليثيوم العادي — بعد 3,000 دورة لسه بتحافظ على 80% من سعتها. للبيوت المصرية اللي بتعاني من انقطاع الكهربا المتكرر، ده مش رفاهية؛ ده بنية تحتية."
         <br>
@@ -946,7 +946,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">الطاقة الاحتياطية لبيتك وقت انقطاع الكهربا</h2>
         <p class="text-gray-700">521 PowerHouse مش جادجت — ده ضرورة بيتية. بـ<strong>منفذ 220 فولت (200 واط)</strong>، يشغّل راوتر الواي فاي، شواحن الموبايل، اللابتوب، مروحة مكتب، وحتى جهاز CPAP وقت انقطاع الكهربا. عكس المولد البنزين المزعج، صامت تماماً، بدون عوادم، وبيشتغل جوه البيت بأمان. للعائلات المصرية اللي بتعاني من تخفيف الأحمال في الصيف، ده راحة بال في علبة.</p>
@@ -963,7 +963,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">256 واط/ساعة (LiFePO4)</td></tr>
@@ -977,7 +977,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">إيه اللي يقدر يشغّله؟ (اختبار حقيقي):</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>🌐 <strong>راوتر واي فاي:</strong> 15-20 ساعة متواصلة (راوتر 12 واط).</li>
@@ -1047,8 +1047,8 @@ export const products = [
                     "MultiProtect 10-Layer Safety → Complete protection for your devices",
                     "18-Month Official Warranty → Full support and instant replacement in Egypt"
                 ],
-                metaTitle: "Anker 10000mAh Power Bank | Fast Charge iPhone 17 & S26 2026 | Best Price Egypt",
-                metaDesc: "Buy original Anker 10000mAh power bank. 2 full iPhone 17 charges. From EGP 1,358. ✓ 18-month warranty ✓ Next-day Cairo delivery ✓ Cash on delivery",
+                metaTitle: "Anker 10000mAh Power Bank | Fast Charge iPhone 17 & S26 2026 | Cash on Delivery",
+                metaDesc: "Buy original Anker 10000mAh power bank. 2 full iPhone 17 charges. From EGP 1,358. ✓ 100% Original Sealed Product ✓ 14-Day Free Returns ✓ Shipping across Egypt.",
                 faqs: [
                     { question: "What is the price of Anker 10000mAh power bank in Egypt?", answer: "Anker 10000mAh power bank price is EGP 1,358 at Cairo Volt. Includes 18-month warranty from authorized dealer and fast Cairo/Giza delivery." },
                     { question: "Does Anker 10000 charge iPhone 17 Pro Max?", answer: "Yes, it charges iPhone 17 Pro Max 2 full times. With 22.5W fast charging, reaches 0% to 50% in just 30 minutes." },
@@ -1064,8 +1064,8 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك انكر 10000 مللي أمبير | Anker PowerCore",
-                shortDescription: "باور بانك انكر صغير الحجم - شحنتين كاملتين لايفون 17 | شحن سريع 22.5 واط | وزن 180 جرام فقط",
+                name: "باور بانك انكر 10000 مللي أمبير | أصغر شاحن متنقل لجيبك | ضمان 18 شهر",
+                shortDescription: "شحنتين لايفونك من غير ما تحس بوزنه في جيبك ⚡ شحن سريع 22.5 واط | ⚖️ وزن 180 جرام (أخف من الموبايل)",
                 description: "باور بانك انكر 10000 مللي أمبير هو شاحن متنقل يوفر شحنتين كاملتين لهواتف iPhone 17 Pro Max أو Samsung S26 Ultra. يدعم الشحن السريع 22.5 واط عبر USB-C، ويشحن هاتفك من 0% لـ 50% في 30 دقيقة فقط. متوفر في مصر بسعر يبدأ من 1,358 جنيه مع ضمان 18 شهر وتوصيل سريع.\n\nلماذا تختار Anker PowerCore 10000؟ هو أحد أصغر وأخف شواحن الطاقة المحمولة بسعة 10000 مللي أمبير في العالم. تقنية PowerIQ 4.0 تضمن شحن أجهزتك بأقصى سرعة، والتصميم المدمج (أصغر من كف يدك) يتيح حمله بسهولة في جيبك أو حقيبتك. مثالي للاستخدام اليومي والسفر والطوارئ.",
                 features: [
                     "22.5 واط USB-C شحن سريع → ايفون 17 من 0% لـ 50% في 30 دقيقة",
@@ -1077,7 +1077,7 @@ export const products = [
                     "حماية MultiProtect 10 طبقات → حماية كاملة لأجهزتك",
                     "ضمان رسمي 18 شهر → دعم كامل واستبدال فوري في مصر"
                 ],
-                metaTitle: "باور بانك انكر 10000 | شحن سريع ايفون 17 و S26 2026 | أفضل سعر مصر",
+                metaTitle: "باور بانك انكر 10000 | شحن سريع ايفون 17 و S26 2026 | شحن سريع",
                 metaDesc: "اشتري باور بانك انكر 10000 مللي أمبير الأصلي. يشحن ايفون 17 مرتين. سعر 1,358 جنيه. ✓ ضمان 18 شهر ✓ توصيل سريع ✓ دفع عند الاستلام",
                 faqs: [
                     { question: "كم سعر باور بانك انكر 10000 في مصر؟", answer: "سعر باور بانك انكر 10000 هو 1,358 جنيه في Cairo Volt. يشمل ضمان 18 شهر من الوكيل المعتمد وتوصيل سريع للقاهرة والجيزة." },
@@ -1119,30 +1119,30 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-1.webp", alt: "anker powercore 20000 Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-10.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-11.webp", alt: "anker powercore 20000 - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-12.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-13.webp", alt: "anker powercore 20000 - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-14.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-15.webp", alt: "anker powercore 20000 - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-16.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-2.webp", alt: "anker powercore 20000 - Original Product Cairo Delivery", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-3.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 9, isPrimary: false },
-            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-4.webp", alt: "anker powercore 20000 - Best Price in Egypt", order: 10, isPrimary: false },
-            { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-5.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 11, isPrimary: false },
-            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-6.webp", alt: "anker powercore 20000 - Official Distributor Cairo", order: 12, isPrimary: false },
-            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-7.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 13, isPrimary: false },
-            { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-8.webp", alt: "anker powercore 20000 - 2 Year Warranty Egypt", order: 14, isPrimary: false },
-            { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-9.webp", alt: "anker powercore 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 15, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-1.webp", alt: "anker powercore 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-10.webp", alt: "anker powercore 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-11.webp", alt: "anker powercore 20000 - Best Deal in Egypt 2026", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-12.webp", alt: "anker powercore 20000 - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-13.webp", alt: "anker powercore 20000 - Certified by Distributor", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-14.webp", alt: "anker powercore 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-15.webp", alt: "anker powercore 20000 - Protected by CairoVolt Guarantee", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-16.webp", alt: "anker powercore 20000 - منتج أصلي معتمد | شحن مصر كلها", order: 7, isPrimary: false },
+            { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-2.webp", alt: "anker powercore 20000 - Factory Original CairoVolt", order: 8, isPrimary: false },
+            { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-3.webp", alt: "anker powercore 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 9, isPrimary: false },
+            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-4.webp", alt: "anker powercore 20000 - Lowest Price Guarantee Egypt", order: 10, isPrimary: false },
+            { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-5.webp", alt: "anker powercore 20000 الأصلي في مصر | توصيل لأي محافظة", order: 11, isPrimary: false },
+            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-6.webp", alt: "anker powercore 20000 - Authorized Egypt Dealer", order: 12, isPrimary: false },
+            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-7.webp", alt: "anker powercore 20000 - مختوم بختم الشركة | كايرو فولت", order: 13, isPrimary: false },
+            { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-8.webp", alt: "anker powercore 20000 - 18 Month Dealer Warranty Egypt", order: 14, isPrimary: false },
+            { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-9.webp", alt: "anker powercore 20000 - أوريجينال مصر | مع كفالة استبدال", order: 15, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker PowerCore 20000mAh | Charges iPhone 4x | 24-Month Warranty",
                 shortDescription: "🔋 20,000mAh (72Wh) | 📱 4x iPhone 17 Charges | 🔌 Dual USB-A Ports | ✈️ Airline Approved | 🛡️ 24-Month Warranty",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>20,000mAh:</strong> Charges iPhone 17 about 4 times, Samsung S26 about 3 times.</li>
         <li>🔌 <strong>Dual USB-A:</strong> Charge 2 devices simultaneously with PowerIQ optimization.</li>
@@ -1151,8 +1151,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We handed the PowerCore 20000 to a university student in Ain Shams for a full week of testing. Her daily routine: 8am to 10pm between lectures, study sessions, and commuting. She charged her iPhone 16 twice daily and her AirPods once. By 10pm, the power bank still had 25% left. On a weekend trip to Dahab, she charged 2 phones and a Bluetooth speaker over 2 days without needing a wall outlet. At 356g it's not pocket-sized like the 10000, but it fits perfectly in a university bag. For students and travelers in Egypt, this is the sweet spot between capacity and portability."
         <br>
@@ -1160,7 +1160,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4 Full iPhone Charges: A Weekend Without a Wall Outlet</h2>
         <p class="text-gray-700">The <strong>20,000mAh capacity</strong> isn't just a number — it means 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. For students, travelers, or anyone who spends long days away from an outlet, this means complete freedom from battery anxiety. At EGP 1,054, you get double the capacity of the 10000mAh model for a minimal price increase.</p>
@@ -1177,8 +1177,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">20,000mAh (72Wh)</td></tr>
         <tr><td class="p-2 border">Output Ports</td><td class="p-2 border">2× USB-A (2.4A each)</td></tr>
@@ -1191,7 +1191,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> ~4 full charges.</li>
@@ -1213,7 +1213,7 @@ export const products = [
                     "📊 LED Power Indicator",
                     "🏆 24-Month Warranty (2x Industry Standard)"
                 ],
-                metaTitle: "Anker 20000mAh Power Bank | 4x iPhone Charge | Egypt 2026",
+                metaTitle: "Anker 20000mAh Power Bank | 4x iPhone Charge | Buy Original",
                 metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,054. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
                 faqs: [
                     { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,054 at Cairo Volt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
@@ -1229,11 +1229,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك انكر 20000 مللي أمبير | يشحن الايفون 4 مرات | ضمان 24 شهر",
-                shortDescription: "🔋 20,000 مللي أمبير (72Wh) | 📱 4 شحنات ايفون 17 | 🔌 منفذين USB-A | ✈️ مسموح بالطائرة | 🛡️ ضمان 24 شهر",
+                name: "باور بانك انكر 20000 مللي أمبير | بيكفيك ويكند كامل برا البيت | ضمان 24 شهر",
+                shortDescription: "لو مشوارك طويل أو مسافر ده المنقذ 🔋 4 شحنات كاملة للايفون | 🔌 منفذين عشان تشحن إنت وصاحبك | ✈️ مسموح في الطيارة",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>20,000 مللي أمبير:</strong> يشحن ايفون 17 حوالي 4 مرات، سامسونج S26 حوالي 3 مرات.</li>
         <li>🔌 <strong>منفذين USB-A:</strong> اشحن جهازين في نفس الوقت مع تقنية PowerIQ.</li>
@@ -1242,8 +1242,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">اختباراتنا للمنتج في الشارع المصري 🇪🇬</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت سلّمنا PowerCore 20000 لطالبة جامعية في عين شمس لأسبوع كامل. يومها: من 8 الصبح لـ 10 بالليل بين محاضرات ومذاكرة ومواصلات. كانت بتشحن ايفون 16 مرتين في اليوم والايربودز مرة. بحلول 10 بالليل، لسه 25% بطارية متبقية. وفي رحلة ويكند لدهب، شحنت موبايلين وسماعة بلوتوث على مدار يومين من غير ما تحتاج برايز حائط. بوزن 356 جرام مش حجم الجيب زي الـ 10000، بس بيدخل شنطة الجامعة تمام. للطلاب والمسافرين في مصر، ده التوازن المثالي بين السعة وسهولة الحمل."
         <br>
@@ -1251,7 +1251,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4 شحنات ايفون كاملة: ويكند من غير برايز</h2>
         <p class="text-gray-700"><strong>سعة 20,000 مللي أمبير</strong> مش مجرد رقم — يعني 4 شحنات ايفون 17 كاملة، 3 شحنات سامسونج S26، أو 2.5 شحنة ايباد ميني. للطلاب والمسافرين وأي حد يومه طويل بعيد عن البرايز، ده يعني حرية كاملة من قلق البطارية. بسعر 1,054 جنيه، بتاخد ضعف سعة موديل الـ 10000 بزيادة سعر بسيطة.</p>
@@ -1268,7 +1268,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">20,000 مللي أمبير (72 واط/ساعة)</td></tr>
@@ -1282,7 +1282,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~4 شحنات كاملة.</li>
@@ -1304,7 +1304,7 @@ export const products = [
                     "📊 مؤشر LED للبطارية",
                     "🏆 ضمان 24 شهر (ضعف المعيار)"
                 ],
-                metaTitle: "باور بانك انكر 20000 | 4 شحنات ايفون | أفضل سعر مصر 2026",
+                metaTitle: "باور بانك انكر 20000 | 4 شحنات ايفون | أرخص سعر",
                 metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,054 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,054 جنيه مصري من Cairo Volt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },
@@ -1344,22 +1344,22 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-1.webp", alt: "anker powercore 26800 Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-2.webp", alt: "anker powercore 26800 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-3.webp", alt: "anker powercore 26800 - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-4.webp", alt: "anker powercore 26800 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-5.webp", alt: "anker powercore 26800 - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-6.webp", alt: "anker powercore 26800 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-7.webp", alt: "anker powercore 26800 - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-8.webp", alt: "anker powercore 26800 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-1.webp", alt: "anker powercore 26800 - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-2.webp", alt: "anker powercore 26800 - أصلي بباركود الشركة | كايرو فولت مصر", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-3.webp", alt: "anker powercore 26800 - Competitive Pricing Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-4.webp", alt: "anker powercore 26800 - منتج أصلي معتمد | شحن مصر كلها", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-5.webp", alt: "anker powercore 26800 - CairoVolt Verified Original", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-6.webp", alt: "anker powercore 26800 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-7.webp", alt: "anker powercore 26800 - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-8.webp", alt: "anker powercore 26800 الأصلي في مصر | توصيل لأي محافظة", order: 7, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker PowerCore 26800mAh | 3 USB Ports | Max Airline Capacity | 24-Month Warranty",
                 shortDescription: "🔋 26,800mAh (96.48Wh) | 📱 5x iPhone 17 Charges | 🔌 3 USB Ports | ✈️ Max Airline-Legal Capacity | 🔄 Dual-Input Fast Recharge",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>26,800mAh:</strong> Charges iPhone 17 ~5 times, Samsung S26 ~4 times, iPad Pro ~2 times.</li>
         <li>🔌 <strong>3 USB-A Ports:</strong> Charge 3 devices simultaneously with PowerIQ 2.0.</li>
@@ -1368,8 +1368,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We took the PowerCore 26800 on a 5-day camping trip to Siwa Oasis with a family of 4. No electricity for 5 days. Results: we charged 3 iPhones daily (morning and evening), powered a Bluetooth speaker for 4 nights, and charged an iPad twice for the kids' entertainment during the drive. By day 5, it still had ~10% left. The 3 USB ports were essential — everyone charged at the same time every night. It's heavy at ~500g, but for travel and emergencies, nothing in Egypt beats 26,800mAh at this price. This is the one you pack when you know you won't see an outlet for days."
         <br>
@@ -1377,7 +1377,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">The Maximum Airline-Legal Capacity: 26,800mAh</h2>
         <p class="text-gray-700">At <strong>96.48Wh</strong>, the PowerCore 26800 is the largest battery you can legally take on any flight (TSA/IATA limit is 100Wh). That means 5 full iPhone 17 charges, 4 Samsung S26 charges, or 2 full iPad Pro charges. For Egyptian families traveling to Hurghada, Sharm, or abroad, this is the absolute maximum portable power you can carry.</p>
@@ -1394,8 +1394,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">26,800mAh (96.48Wh)</td></tr>
         <tr><td class="p-2 border">Output Ports</td><td class="p-2 border">3× USB-A (PowerIQ 2.0)</td></tr>
@@ -1408,7 +1408,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> ~5 full charges.</li>
@@ -1439,11 +1439,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك انكر 26800 مللي أمبير | 3 منافذ | أكبر سعة للطائرة | ضمان 24 شهر",
-                shortDescription: "🔋 26,800 مللي أمبير (96.48Wh) | 📱 5 شحنات ايفون 17 | 🔌 3 منافذ USB | ✈️ أكبر سعة مسموحة | 🔄 شحن مزدوج",
+                name: "باور بانك انكر 26800 مللي أمبير | وحش السفر والرحلات (3 منافذ) | ضمان 24 شهر",
+                shortDescription: "أكبر سعة مسموحة تاخدها معاك الطيارة قانونياً 🔋 5 شحنات ايفون | 🔌 3 منافذ بيشحنوا موبايلات العيلة كلها وقت الطوارئ",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>26,800 مللي أمبير:</strong> يشحن ايفون 17 ~5 مرات، سامسونج S26 ~4 مرات، ايباد برو ~مرتين.</li>
         <li>🔌 <strong>3 منافذ USB-A:</strong> اشحن 3 أجهزة في نفس الوقت مع PowerIQ 2.0.</li>
@@ -1452,8 +1452,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت أخدنا PowerCore 26800 في رحلة تخييم 5 أيام في واحة سيوة مع عيلة من 4 أفراد. بدون كهربا 5 أيام. النتيجة: شحنّا 3 ايفونات يومياً (صبح ومساء)، شغّلنا سماعة بلوتوث 4 ليالي، وشحنّا ايباد مرتين لترفيه الأطفال في العربية. في اليوم الخامس، لسه ~10% متبقية. الـ 3 منافذ USB كانت ضرورية — كل العيلة بتشحن في نفس الوقت كل ليلة. ثقيل شوية (~500 جرام)، بس للسفر والطوارئ، مفيش في مصر يغلب 26,800 مللي أمبير بالسعر ده. ده اللي تحطّه في شنطتك لما تعرف إنك مش هتشوف برايز لأيام."
         <br>
@@ -1461,7 +1461,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">أكبر سعة مسموحة في الطائرة: 26,800 مللي أمبير</h2>
         <p class="text-gray-700">بسعة <strong>96.48 واط/ساعة</strong>، PowerCore 26800 هو أكبر باور بانك تقدر تاخده على أي طائرة قانونياً (حد TSA/IATA: 100Wh). ده يعني 5 شحنات ايفون 17 كاملة، 4 شحنات سامسونج S26، أو شحنتين ايباد برو. للعائلات المصرية اللي بتسافر الغردقة أو شرم أو برّا، ده أقصى طاقة محمولة ممكن تشيلها.</p>
@@ -1478,7 +1478,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">26,800 مللي أمبير (96.48 واط/ساعة)</td></tr>
@@ -1492,7 +1492,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~5 شحنات كاملة.</li>
@@ -1554,8 +1554,8 @@ export const products = [
                 name: "Anker 20W USB-C Charger | iPhone 17 Fast Charge | 18-Month Warranty",
                 shortDescription: "⚡ 20W USB-C PD 3.0 | 📱 iPhone 17: 0-50% in 30 Min | 📏 Ultra-Compact 4cm | 🛡️ MultiProtect 10-Layer | 🇸🇦 UK-Style Plug",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>20W USB-C PD:</strong> iPhone 17 from 0% to 50% in just 30 minutes (3x faster than 5W).</li>
         <li>📏 <strong>Ultra-Compact:</strong> Only 4cm — smaller than a matchbox. Perfect for travel.</li>
@@ -1564,8 +1564,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We replaced the 5W charger that came with an iPhone 14 with this Anker 20W and the difference was jaw-dropping. Morning routine test: plugged in at 7:00am with 15% battery, by 7:30am it was at 68%. That's the difference between leaving the house with anxiety and leaving with confidence. We tested it on a power strip with 4 other devices in a Dokki apartment — zero heat issues. At 4cm, it takes up less space on the outlet than the old Apple 5W brick. For EGP 379, this is the single best upgrade any iPhone owner in Egypt can make."
         <br>
@@ -1573,7 +1573,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3x Faster Than the Charger in Your Box</h2>
         <p class="text-gray-700">If you're still using a 5W charger, you're wasting an hour every morning. The Anker 20W delivers <strong>Power Delivery 3.0</strong>, charging your iPhone 17 from 0% to 50% in just <strong>30 minutes</strong>. That's breakfast-to-full-battery speed. It works with every USB-C device: iPhone 17/16/15, Samsung S26/S25, iPad, AirPods Pro, and more.</p>
@@ -1590,8 +1590,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border font-bold">20W USB-C PD 3.0</td></tr>
         <tr><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">0-50% in 30 minutes</td></tr>
@@ -1603,7 +1603,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15:</strong> Full 20W fast charging speed.</li>
@@ -1624,7 +1624,7 @@ export const products = [
                     "🏆 18-Month Warranty"
                 ],
                 metaTitle: "Anker 20W Charger iPhone 17 | EGP 379 | Fast Charge Egypt 2026",
-                metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 379. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ 18-month warranty ✓ Next-day Cairo delivery ✓ COD.",
+                metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 379. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Immediate Replacement Warranty ✓ Inspect before you pay ✓ 24-48H Shipping..",
                 faqs: [
                     { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 379 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 20W fast charge iPhone 17?", answer: "Yes, it charges iPhone 17 from 0% to 50% in just 30 minutes—3x faster than the standard 5W charger." },
@@ -1640,11 +1640,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن انكر 20 وات USB-C | شحن سريع ايفون 17 | ضمان 18 شهر",
-                shortDescription: "⚡ 20 وات USB-C PD 3.0 | 📱 ايفون 17: 0-50% في 30 دقيقة | 📏 صغير جداً 4سم | 🛡️ حماية 10 طبقات | 🇸🇦 قابس مصري",
+                name: "شاحن انكر 20 وات للايفون | يلحقك قبل ما النور يقطع | ضمان 18 شهر",
+                shortDescription: "ربع ساعة شحن بتفرق معاك ⚡ ايفون 17 لـ 50% في 30 دقيقة | 🛡️ حماية من تذبذب الكهربا | 📏 أصغر من علبة الكبريت",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>20 وات USB-C PD:</strong> ايفون 17 من 0% لـ 50% في 30 دقيقة (أسرع 3× من 5 وات).</li>
         <li>📏 <strong>صغير جداً:</strong> 4 سم فقط — أصغر من علبة الكبريت. مثالي للسفر.</li>
@@ -1653,8 +1653,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت استبدلنا شاحن 5 وات اللي جاي مع ايفون 14 بشاحن انكر 20 وات والفرق كان صادم. اختبار روتين الصبح: وصّلناه الساعة 7:00 الصبح والبطارية 15%، بحلول 7:30 كانت 68%. ده الفرق بين إنك تطلع من البيت قلقان وإنك تطلع مطمن. جربناه على مشترك كهربا مع 4 أجهزة تانية في شقة في الدقي — صفر مشاكل حرارة. بـ 4 سم، بياخد مساحة أقل على المشترك من شاحن أبل 5 وات القديم. بـ 379 جنيه، ده أفضل ترقية يقدر يعملها أي مالك ايفون في مصر."
         <br>
@@ -1662,7 +1662,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">أسرع 3 مرات من الشاحن اللي في العلبة</h2>
         <p class="text-gray-700">لو لسه بتستخدم شاحن 5 وات، بتضيّع ساعة كل صبح. شاحن انكر 20 وات بيوفر <strong>Power Delivery 3.0</strong>، يشحن ايفون 17 من 0% لـ 50% في <strong>30 دقيقة فقط</strong>. يعني من الفطار لبطارية ممتلئة. بيشتغل مع كل أجهزة USB-C: ايفون 17/16/15، سامسونج S26/S25، ايباد، ايربودز برو، وأكثر.</p>
@@ -1679,7 +1679,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border font-bold">20 وات USB-C PD 3.0</td></tr>
@@ -1692,7 +1692,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15:</strong> شحن سريع 20 وات بالسرعة الكاملة.</li>
@@ -1757,7 +1757,7 @@ export const products = [
             { id: "img_2", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-2.webp", alt: "راس شاحن انكر 25 واط PPS - توصيل القاهرة - ضمان 18 شهر", order: 1, isPrimary: false },
             { id: "img_3", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-3.webp", alt: "شاحن انكر USB-C ٢٥ وات - أفضل سعر في مصر فبراير 2026", order: 2, isPrimary: false },
             { id: "img_4", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-4.webp", alt: "Anker 25W PPS Charger Original Egypt 2026 - Samsung S26 Compatible", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-5.webp", alt: "Anker 25W Super Fast Charger - Official Distributor Cairo", order: 4, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-5.webp", alt: "Anker 25W Super Fast Charger - Certified by Distributor", order: 4, isPrimary: false },
             { id: "img_6", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-6.webp", alt: "شاحن انكر 25 واط PPS - ضمان 18 شهر رسمي مصر", order: 5, isPrimary: false }
         ],
         translations: {
@@ -1765,8 +1765,8 @@ export const products = [
                 name: "Anker 25W PPS Charger | Samsung Super Fast Charging | 18-Month Warranty",
                 shortDescription: "⚡ 25W PPS Samsung Super Fast | 📱 S26: 0-50% in 26 Min | 📱 iPhone 17 Compatible | 🛡️ ActiveShield 2.0 | 🇸🇦 UK Plug",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>25W PPS:</strong> Samsung S26 Super Fast Charging — 0% to 50% in just 26 minutes.</li>
         <li>📱 <strong>iPhone Compatible:</strong> Also fast charges iPhone 17 (0-50% in 28 min).</li>
@@ -1775,8 +1775,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We ran a side-by-side test in our Heliopolis office: Anker 25W vs Samsung original 25W charger, both charging a Galaxy S26 Ultra from 0%. At the 26-minute mark, both hit 50% — identical speed. But here's where Anker wins: it's noticeably smaller (4.5cm vs Samsung's 6cm), runs cooler thanks to ActiveShield 2.0, and costs less with a longer warranty (18 months vs Samsung's 12). For the mixed household with both Samsung and iPhone users, this is the one charger that does both well. We've been recommending it to every Samsung owner who walks into our shop."
         <br>
@@ -1784,7 +1784,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Why Samsung Users Need 25W (Not 20W)</h2>
         <p class="text-gray-700">A 20W charger charges Samsung S26 at regular speed. But the <strong>25W with PPS (Programmable Power Supply)</strong> unlocks Samsung's <strong>Super Fast Charging</strong> protocol — that's 0% to 50% in <strong>26 minutes</strong> instead of 35. That 9-minute difference adds up every single morning. PPS dynamically adjusts voltage and current for the most efficient, heat-free charging possible.</p>
@@ -1801,8 +1801,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border font-bold">25W USB-C PD 3.0 + PPS</td></tr>
         <tr><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">0-50% in 26 minutes (Super Fast)</td></tr>
@@ -1814,7 +1814,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Optimized For:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>Samsung S26/S25/S24 Ultra:</strong> Full Super Fast Charging via PPS.</li>
@@ -1834,7 +1834,7 @@ export const products = [
                     "🏆 18-Month Warranty (vs Samsung's 12)"
                 ],
                 metaTitle: "Anker 25W PPS Charger | Samsung S26 Super Fast | EGP 512 Egypt",
-                metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 512. Samsung S26 Super Fast Charging 0-50% in 26 min. Also charges iPhone 17. ✓ 18-month warranty ✓ Fast delivery.",
+                metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 512. Samsung S26 Super Fast Charging 0-50% in 26 min. Also charges iPhone 17. ✓ Immediate Replacement Warranty ✓ Inspect before you pay ✓ 24-48H Shipping..",
                 faqs: [
                     { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 512 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 25W support Samsung Super Fast Charging?", answer: "Yes! It supports PPS technology unlocking full Super Fast Charging for Samsung S26/S25. Charges 0% to 50% in 26 minutes." },
@@ -1849,11 +1849,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن انكر 25 واط PPS | شحن سامسونج فائق السرعة | ضمان 18 شهر",
-                shortDescription: "⚡ 25 واط PPS سامسونج سوبر فاست | 📱 S26: 0-50% في 26 دقيقة | 📱 متوافق ايفون 17 | 🛡️ ActiveShield 2.0",
+                name: "شاحن انكر 25 واط PPS لسامسونج | شحن سوبر فاست بدون سخونة | ضمان 18 شهر",
+                shortDescription: "بيشحن الـ S26 لـ 50% في 26 دقيقة بالظبط ⚡ 25 واط PPS | ❄️ تبريد عالي مبيسخنش في حر الصيف | 📱 بيشحن ايفون كمان",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>25 واط PPS:</strong> سامسونج S26 Super Fast Charging — 0% لـ 50% في 26 دقيقة.</li>
         <li>📱 <strong>متوافق ايفون:</strong> يشحن ايفون 17 بسرعة (0-50% في 28 دقيقة).</li>
@@ -1862,8 +1862,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت عملنا اختبار مقارنة في مكتبنا في مصر الجديدة: انكر 25 واط ضد شاحن سامسونج الأصلي 25 واط، الاثنين يشحنوا Galaxy S26 الترا من 0%. عند الدقيقة 26، الاثنين وصلوا 50% — سرعة متطابقة. بس الفرق: انكر أصغر (4.5سم ضد 6سم لسامسونج)، بيفضل بارد بفضل ActiveShield 2.0، وأرخص بضمان أطول (18 شهر ضد 12). للبيوت اللي فيها سامسونج وايفون، ده الشاحن الواحد اللي بيعمل الاثنين كويس. بنرشحه لكل مالك سامسونج يدخل محلنا."
         <br>
@@ -1871,7 +1871,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">ليه مستخدمي سامسونج محتاجين 25 واط (مش 20)</h2>
         <p class="text-gray-700">شاحن 20 واط بيشحن سامسونج S26 بسرعة عادية. بس <strong>25 واط مع PPS</strong> بيفتح بروتوكول <strong>Super Fast Charging</strong> من سامسونج — يعني 0% لـ 50% في <strong>26 دقيقة</strong> بدل 35. فرق 9 دقايق بيتراكم كل صبح. PPS بيظبط الجهد والتيار ديناميكياً لأكفأ شحن بدون حرارة.</p>
@@ -1888,7 +1888,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border font-bold">25 واط USB-C PD 3.0 + PPS</td></tr>
@@ -1901,7 +1901,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">محسّن لـ:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>سامسونج S26/S25/S24 الترا:</strong> Super Fast Charging كامل عبر PPS.</li>
@@ -1959,21 +1959,21 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-1.webp", alt: "anker nano 45w Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-2.webp", alt: "anker nano 45w اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-3.webp", alt: "anker nano 45w - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-4.webp", alt: "anker nano 45w اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-5.webp", alt: "anker nano 45w - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-6.webp", alt: "anker nano 45w اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-7.webp", alt: "anker nano 45w - 2 Year Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-1.webp", alt: "anker nano 45w - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-2.webp", alt: "anker nano 45w - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-3.webp", alt: "anker nano 45w - Best Deal in Egypt 2026", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-4.webp", alt: "anker nano 45w - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-5.webp", alt: "anker nano 45w - Authorized Egypt Dealer", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-6.webp", alt: "anker nano 45w - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-7.webp", alt: "anker nano 45w - Protected by CairoVolt Guarantee", order: 6, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker Nano 45W GaN USB-C Charger | MacBook Air + iPhone 17 | 24-Month Warranty",
                 shortDescription: "⚡ 45W GaN III Technology | 💻 MacBook Air Full Speed | 📱 iPhone 17 Max Speed | 📱 Samsung S26 Super Fast 2.0 | 📏 Ultra-Compact",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>45W GaN III:</strong> One charger for MacBook Air, iPhone 17, Samsung S26, and iPad Pro.</li>
         <li>💻 <strong>MacBook Air:</strong> Full native charging speed — no need for Apple's bulky adapter.</li>
@@ -1982,8 +1982,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We replaced a MacBook Air charger, an iPhone charger, and a Samsung charger with this single Anker 45W Nano — and they haven't come out of the drawer since. During a work trip to Alexandria, we charged a MacBook Air M3 from 20% to full in under 2 hours, then switched the cable to an iPhone 17 for a 30-minute top-up. GaN III technology means it stays cool even at full 45W output. The size difference compared to Apple's 30W adapter is dramatic — the Anker is noticeably smaller. If you own a MacBook Air and any modern phone, this single brick replaces 2-3 chargers."
         <br>
@@ -1991,7 +1991,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">One Charger for Your Laptop AND Phone</h2>
         <p class="text-gray-700">The Anker Nano 45W charges your <strong>MacBook Air at full native speed</strong> (no compromises), then you unplug and charge your iPhone 17 at its <strong>maximum 30W</strong>. It even delivers Samsung's maximum <strong>45W Super Fast Charging 2.0</strong>. One USB-C charger, every device. Stop carrying 3 chargers when one does the job of all three.</p>
@@ -2008,8 +2008,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border font-bold">45W USB-C PD 3.0 + PPS</td></tr>
         <tr><td class="p-2 border">Technology</td><td class="p-2 border">GaN III (Gallium Nitride)</td></tr>
@@ -2022,7 +2022,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">What It Charges at Full Speed:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>💻 <strong>MacBook Air M3/M4/M5:</strong> Full native charging speed.</li>
@@ -2035,7 +2035,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty"],
-                metaTitle: "Anker 45W GaN Charger | MacBook Air + iPhone 17 | Egypt 2026",
+                metaTitle: "Anker 45W GaN Charger | MacBook Air + iPhone 17 | Official Warranty",
                 metaDesc: "Buy Anker Nano 45W GaN charger in Egypt. Charges MacBook Air + iPhone 17 + Samsung S26 at full speed. 60% smaller. 24-month warranty. Fast Cairo delivery.",
                 faqs: [
                     { question: "Can this charge my MacBook Air?", answer: "Yes, 45W is perfect for charging a MacBook Air at full speed and can also charge MacBook Pro models." },
@@ -2046,11 +2046,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن انكر نانو 45 واط GaN | ماك بوك + ايفون 17 | ضمان 24 شهر",
-                shortDescription: "⚡ 45 واط GaN III | 💻 ماك بوك اير بالسرعة الكاملة | 📱 ايفون 17 بأقصى سرعة | 📱 سامسونج S26 سوبر فاست 2.0",
+                name: "شاحن انكر نانو 45 واط | شاحن واحد للابتوب والموبايل (وداعاً للزحمة) | ضمان 24 شهر",
+                shortDescription: "شاحن واحد يغنيك عن 3 شواحن 💻 شحن ماك بوك بالسرعة الأصلية | 📱 شحن سوبر فاست لسامسونج وايفون | 🔌 ممتاز للسفر",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>45 واط GaN III:</strong> شاحن واحد لماك بوك اير وايفون 17 وسامسونج S26 وايباد برو.</li>
         <li>💻 <strong>ماك بوك اير:</strong> شحن بالسرعة الأصلية الكاملة — بديل لشاحن أبل الضخم.</li>
@@ -2059,8 +2059,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">اختباراتنا للمنتج في الشارع المصري 🇪🇬</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت استبدلنا شاحن ماك بوك اير وشاحن ايفون وشاحن سامسونج بشاحن انكر 45 واط الواحد ده — والتلاتة ماطلعوش من الدرج تاني. في رحلة شغل لإسكندرية، شحنّا ماك بوك اير M3 من 20% لـ 100% في أقل من ساعتين، وبعدين غيّرنا الكابل لايفون 17 لشحنة 30 دقيقة. تقنية GaN III يعني بيفضل بارد حتى بـ 45 واط كاملة. فرق الحجم مقارنة بشاحن أبل 30 واط دراماتيكي — انكر أصغر بوضوح. لو عندك ماك بوك اير وأي موبايل حديث، الشاحن الواحد ده بيغنيك عن 2-3 شواحن."
         <br>
@@ -2068,7 +2068,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">شاحن واحد للابتوب والموبايل</h2>
         <p class="text-gray-700">انكر نانو 45 واط بيشحن <strong>ماك بوك اير بالسرعة الأصلية الكاملة</strong>، وبعدين تغيّر الكابل وتشحن ايفون 17 بـ<strong>أقصى سرعة 30 واط</strong>. حتى يوفر أقصى <strong>45 واط Super Fast Charging 2.0</strong> لسامسونج. شاحن USB-C واحد، كل أجهزتك. بطّل تشيل 3 شواحن لما واحد بيعمل شغل التلاتة.</p>
@@ -2085,7 +2085,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border font-bold">45 واط USB-C PD 3.0 + PPS</td></tr>
@@ -2099,7 +2099,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">إيه اللي بيشحنه بالسرعة الكاملة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>💻 <strong>ماك بوك اير M3/M4/M5:</strong> شحن بالسرعة الأصلية.</li>
@@ -2112,7 +2112,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 45 واط GaN III", "💻 ماك بوك اير بالسرعة الكاملة", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 2.0", "📏 أصغر 60% من التقليدي", "🏆 ضمان 24 شهر"],
-                metaTitle: "شاحن انكر 45 واط GaN | ماك بوك + ايفون 17 | مصر 2026",
+                metaTitle: "شاحن انكر 45 واط GaN | ماك بوك + ايفون 17 | الدفع عند الاستلام",
                 metaDesc: "اشتري شاحن انكر نانو 45 واط GaN في مصر. يشحن ماك بوك اير + ايفون 17 + سامسونج S26 بأقصى سرعة. أصغر 60%. ضمان 24 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يمكنه شحن ماك بوك آير؟", answer: "نعم، 45 واط مثالي لشحن MacBook Air بالسرعة القصوى ويشحن MacBook Pro أيضاً." },
@@ -2145,20 +2145,20 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-1.webp", alt: "anker powerline usb c lightning Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-2.webp", alt: "anker powerline usb c lightning اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-3.webp", alt: "anker powerline usb c lightning - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-4.webp", alt: "anker powerline usb c lightning اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-5.webp", alt: "anker powerline usb c lightning - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-6.webp", alt: "anker powerline usb c lightning اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-1.webp", alt: "anker powerline usb c lightning - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-2.webp", alt: "anker powerline usb c lightning - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-3.webp", alt: "anker powerline usb c lightning - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-4.webp", alt: "anker powerline usb c lightning - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-5.webp", alt: "anker powerline usb c lightning - CairoVolt Verified Original", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-6.webp", alt: "anker powerline usb c lightning الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker PowerLine III USB-C to Lightning | MFi Certified | 30W | 18-Month Warranty",
                 shortDescription: "✅ Apple MFi Certified | ⚡ 30W Fast Charging iPhone 14/13/12 | 💪 35,000+ Bend Lifespan | 📱 CarPlay Compatible",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>✅ <strong>MFi Certified:</strong> Apple-approved — zero "accessory not supported" errors.</li>
         <li>⚡ <strong>30W Fast Charging:</strong> iPhone 14 from 0-50% in 30 min with 20W+ charger.</li>
@@ -2167,8 +2167,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We've been using the PowerLine III as our daily driver for 8 months straight. The result? Zero fraying, zero 'accessory not supported' popups, and zero bending damage — even though it lives permanently folded in a laptop bag. We tested it side-by-side with Apple's cable: same 30W charging speed, but Anker's 35,000-bend rating means it'll outlive Apple's cable 3x over. The biggest test was a week of daily CarPlay in a bumpy Cairo commute — flawless connection every time. For iPhone 14 and earlier owners, this is the last Lightning cable you'll ever need to buy."
         <br>
@@ -2176,7 +2176,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">MFi Certified: No More "Accessory Not Supported"</h2>
         <p class="text-gray-700">Cheap cables trigger iOS errors and can damage your iPhone's battery. The PowerLine III is <strong>Apple MFi certified</strong>, meaning it passed Apple's strict testing. Full compatibility with iOS updates, no error popups, and safe charging. It's the same certification as Apple's own cable, at a fraction of the price.</p>
@@ -2193,8 +2193,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Certification</td><td class="p-2 border font-bold">Apple MFi Certified</td></tr>
         <tr><td class="p-2 border">Max Power</td><td class="p-2 border">30W Power Delivery</td></tr>
@@ -2206,7 +2206,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 14/13/12/11:</strong> 30W fast charging with 20W+ charger.</li>
@@ -2230,11 +2230,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل انكر USB-C to Lightning | معتمد MFi | 30 واط | ضمان 18 شهر",
-                shortDescription: "✅ معتمد MFi من أبل | ⚡ شحن سريع 30 واط | 💪 يتحمل 35,000+ ثني | 🚗 متوافق CarPlay",
+                name: "كابل انكر ايفون الأصلي (معتمد MFi) | أحمي بطاريتك من الكابلات المضروبة | ضمان 18 شهر",
+                shortDescription: "الكابل الوحيد اللي مش هيبوظ بطارية ايفونك الغالي ✅ معتمد MFi من أبل | 💪 أمتن 3 مرات من الأصلي مش هيتقطع | 🚗 شغال CarPlay من غير تقطيع",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
         <li>✅ <strong>معتمد MFi:</strong> معتمد من أبل — صفر أخطاء "الملحق غير مدعوم".</li>
         <li>⚡ <strong>شحن 30 واط:</strong> ايفون 14 من 0-50% في 30 دقيقة مع شاحن 20 واط+.</li>
@@ -2243,8 +2243,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">اختباراتنا للمنتج في الشارع المصري 🇪🇬</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت بنستخدم PowerLine III ككابل يومي من 8 شهور. النتيجة؟ صفر تهتك، صفر رسائل 'الملحق غير مدعوم'، وصفر تلف من الثني — رغم إنه عايش مطوي في شنطة لابتوب. جربناه جنب كابل أبل: نفس سرعة 30 واط، بس انكر بيتحمل 35,000 ثني يعني هيعيش 3× أكثر. أكبر اختبار كان أسبوع CarPlay يومي في زحمة القاهرة — اتصال مثالي كل مرة. لمالكي ايفون 14 وأقدم، ده آخر كابل Lightning هتحتاج تشتريه."
         <br>
@@ -2252,7 +2252,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">معتمد MFi: مفيش تاني "الملحق غير مدعوم"</h2>
         <p class="text-gray-700">الكابلات الرخيصة بتطلّع أخطاء iOS وممكن تضر بطارية ايفونك. PowerLine III <strong>معتمد MFi من أبل</strong>، يعني عدّى اختبارات أبل الصارمة. توافق كامل مع تحديثات iOS، بدون رسائل خطأ، وشحن آمن. نفس شهادة كابل أبل، بجزء من السعر.</p>
@@ -2269,7 +2269,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">الشهادة</td><td class="p-2 border font-bold">Apple MFi معتمد</td></tr>
@@ -2282,7 +2282,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 14/13/12/11:</strong> شحن سريع 30 واط مع شاحن 20 واط+.</li>
@@ -2294,7 +2294,7 @@ export const products = [
 </div>
 `,
                 features: ["✅ معتمد MFi من أبل", "⚡ شحن سريع 30 واط", "💪 يتحمل 35,000+ ثني", "📱 ايفون 14/13/12/11", "🚗 متوافق CarPlay", "🏆 ضمان 18 شهر"],
-                metaTitle: "كابل انكر USB-C Lightning | معتمد MFi 30 واط | ايفون مصر",
+                metaTitle: "كابل انكر USB-C Lightning | معتمد MFi 30 واط | ضمان كايرو فولت",
                 metaDesc: "اشتري كابل انكر PowerLine III USB-C to Lightning في مصر. معتمد MFi، شحن 30 واط، 35 ألف ثني. أمتن 3.5× من أبل. ضمان 18 شهر.",
                 faqs: [
                     {
@@ -2332,21 +2332,21 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-1.webp", alt: "anker powerline usb c usb c Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-2.webp", alt: "anker powerline usb c usb c اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-3.webp", alt: "anker powerline usb c usb c - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-4.webp", alt: "anker powerline usb c usb c اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-5.webp", alt: "anker powerline usb c usb c - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-6.webp", alt: "anker powerline usb c usb c اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-7.webp", alt: "anker powerline usb c usb c - 2 Year Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-1.webp", alt: "anker powerline usb c usb c - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-2.webp", alt: "anker powerline usb c usb c - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-3.webp", alt: "anker powerline usb c usb c - Competitive Pricing Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-4.webp", alt: "anker powerline usb c usb c - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-5.webp", alt: "anker powerline usb c usb c - Certified by Distributor", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-6.webp", alt: "anker powerline usb c usb c - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-7.webp", alt: "anker powerline usb c usb c - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker PowerLine III USB-C to USB-C | 60W | iPhone 17 & Samsung S26 | 18-Month Warranty",
                 shortDescription: "⚡ 60W Power Delivery | 📱 iPhone 17 Max Speed (30W) | 📱 Samsung S26 Super Fast (45W) | 💪 35,000+ Bends | 💻 MacBook Air Compatible",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>60W PD:</strong> Handles iPhone 17 (30W), Samsung S26 (45W), and MacBook Air charging.</li>
         <li>📱 <strong>Universal USB-C:</strong> The one cable for the USB-C era — phones, tablets, laptops.</li>
@@ -2355,8 +2355,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "This is the cable we keep 3 of: one at the desk, one in the car, one in the travel bag. Why? Because in 2026, USB-C is literally everything — iPhone 17, Samsung S26, iPad, MacBook Air, Nintendo Switch, even our Anker power banks. At 60W, it handles any device we throw at it. We've been bending, coiling, and stuffing this cable into bags for 6 months — zero signs of wear at the connectors. At this price point with Anker's build quality, buying anything else is a waste of money."
         <br>
@@ -2364,7 +2364,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">The Only Cable You Need in 2026</h2>
         <p class="text-gray-700">iPhone 17? USB-C. Samsung S26? USB-C. iPad? USB-C. MacBook? USB-C. With <strong>60W Power Delivery</strong>, this single Anker cable charges them all at their maximum supported speed. iPhone 17 gets its full 30W, Samsung S26 gets 45W Super Fast Charging, and it can even charge a MacBook Air. One cable replaces your entire collection.</p>
@@ -2381,8 +2381,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Max Power</td><td class="p-2 border font-bold">60W Power Delivery</td></tr>
         <tr><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">Max 30W</td></tr>
@@ -2394,7 +2394,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Works With Everything USB-C:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15:</strong> Max 30W fast charging.</li>
@@ -2407,7 +2407,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 60W Power Delivery", "📱 iPhone 17 Max 30W", "📱 Samsung S26 Super Fast 45W", "💻 MacBook Air Compatible", "💪 35,000+ Bend Lifespan", "🏆 18-Month Warranty"],
-                metaTitle: "Anker USB-C to USB-C Cable 60W | iPhone 17 & Samsung S26 | Egypt",
+                metaTitle: "Anker USB-C to USB-C Cable 60W | iPhone 17 & Samsung S26 | Best Price",
                 metaDesc: "Buy Anker PowerLine III USB-C cable in Egypt. 60W PD for iPhone 17, Samsung S26, MacBook Air. 35K+ bends. 18-month warranty. Best price Cairo delivery.",
                 faqs: [
                     {
@@ -2425,11 +2425,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل انكر USB-C to USB-C | 60 واط | ايفون 17 وسامسونج S26 | ضمان 18 شهر",
-                shortDescription: "⚡ 60 واط Power Delivery | 📱 ايفون 17 بأقصى سرعة (30واط) | 📱 سامسونج S26 سوبر فاست (45واط) | 💪 35,000+ ثني",
+                name: "كابل انكر تايب سي 60 واط | استثمارك المضمون (انسى تقليد العتبة) | ضمان 18 شهر",
+                shortDescription: "كابل يعيش معاك سنين من غير ما يتهري ⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع)",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>60 واط PD:</strong> يتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط) وماك بوك اير.</li>
         <li>📱 <strong>USB-C شامل:</strong> الكابل الواحد لعصر USB-C — هواتف، تابلت، لابتوب.</li>
@@ -2438,8 +2438,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت عندنا 3 منه: واحد على المكتب، واحد في العربية، واحد في شنطة السفر. ليه؟ لإن في 2026، USB-C هو كل حاجة حرفياً — ايفون 17، سامسونج S26، ايباد، ماك بوك اير، Nintendo Switch، حتى باور بانك انكر. بـ 60 واط، بيتعامل مع أي جهاز نرميه عليه. بنثنيه ونلفّه ونحشره في الشنط من 6 شهور — صفر علامات تلف. بالسعر ده مع جودة انكر، شراء أي حاجة تانية إهدار فلوس."
         <br>
@@ -2447,7 +2447,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">الكابل الوحيد اللي محتاجه في 2026</h2>
         <p class="text-gray-700">ايفون 17؟ USB-C. سامسونج S26؟ USB-C. ايباد؟ USB-C. ماك بوك؟ USB-C. بـ<strong>60 واط Power Delivery</strong>، كابل انكر الواحد ده بيشحنهم كلهم بأقصى سرعة مدعومة. ايفون 17 بياخد 30 واط الكاملة، سامسونج S26 بياخد 45 واط Super Fast Charging، ويقدر يشحن ماك بوك اير. كابل واحد بيغنيك عن كل كابلاتك.</p>
@@ -2464,7 +2464,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">أقصى قوة</td><td class="p-2 border font-bold">60 واط Power Delivery</td></tr>
@@ -2477,7 +2477,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">بيشتغل مع كل حاجة USB-C:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15:</strong> أقصى شحن 30 واط.</li>
@@ -2490,7 +2490,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 60 واط Power Delivery", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 45 واط", "💻 متوافق ماك بوك اير", "💪 35,000+ ثني", "🏆 ضمان 18 شهر"],
-                metaTitle: "كابل انكر USB-C 60 واط | ايفون 17 وسامسونج S26 | مصر",
+                metaTitle: "كابل انكر USB-C 60 واط | ايفون 17 وسامسونج S26 | توصيل لكل مصر",
                 metaDesc: "اشتري كابل انكر PowerLine III USB-C في مصر. 60 واط لايفون 17 وسامسونج S26 وماك بوك. 35 ألف ثني. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "نعم، يدعم 60 واط فيتعامل مع 25 واط و 45 واط. تأكد من كابل 5 أمبير للسرعة القصوى." },
@@ -2522,20 +2522,20 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-1.webp", alt: "anker car charger dual usb Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-2.webp", alt: "anker car charger dual usb اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-3.webp", alt: "anker car charger dual usb - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-4.webp", alt: "anker car charger dual usb اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-5.webp", alt: "anker car charger dual usb - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-6.webp", alt: "anker car charger dual usb اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-1.webp", alt: "anker car charger dual usb - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-2.webp", alt: "anker car charger dual usb - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-3.webp", alt: "anker car charger dual usb - Best Deal in Egypt 2026", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-4.webp", alt: "anker car charger dual usb - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-5.webp", alt: "anker car charger dual usb - Authorized Egypt Dealer", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-6.webp", alt: "anker car charger dual usb الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker PowerDrive 2 Car Charger | 24W Dual USB | PowerIQ | 18-Month Warranty",
                 shortDescription: "🚗 24W Dual USB (12W×2) | ⚡ PowerIQ Smart Charging | 📱 Charge 2 Devices Simultaneously | 💡 LED Indicator | 🔌 12V/24V Compatible",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
         <li>🚗 <strong>24W Total:</strong> 2× USB-A ports (12W each) with PowerIQ optimization.</li>
         <li>⚡ <strong>PowerIQ:</strong> Detects each device and delivers optimal charging speed.</li>
@@ -2544,8 +2544,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We've had the PowerDrive 2 permanently plugged into a test car for 5 months of daily Cairo commuting — Ring Road traffic, 6th of October bridge, the whole gauntlet. It charges two phones simultaneously while running Google Maps on one and playing Spotify on the other. The LED is subtle enough not to distract at night. It sits completely flush in the console — no wobble, no blocking of other controls. For drivers who need reliable, dual-device charging without overthinking it, this is the set-and-forget solution."
         <br>
@@ -2553,7 +2553,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Charge 2 Phones While Stuck in Cairo Traffic</h2>
         <p class="text-gray-700">With <strong>2× USB-A ports</strong> delivering 12W each (24W total), charge your phone and your passenger's phone simultaneously. <strong>PowerIQ technology</strong> automatically detects each device and delivers the fastest safe charging speed. Perfect for couples or families on long drives where both phones run GPS and music.</p>
@@ -2570,8 +2570,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Total Output</td><td class="p-2 border font-bold">24W (12W × 2 ports)</td></tr>
         <tr><td class="p-2 border">Ports</td><td class="p-2 border">2× USB-A</td></tr>
@@ -2583,7 +2583,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14:</strong> Standard 12W charging via USB-A.</li>
@@ -2595,7 +2595,7 @@ export const products = [
 </div>
 `,
                 features: ["🚗 24W Dual USB (12W×2)", "⚡ PowerIQ Smart Charging", "📱 Charge 2 Devices Simultaneously", "🔌 12V/24V All Cars", "💡 Blue LED Indicator", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Car Charger 24W Dual USB | PowerIQ | Egypt 2026",
+                metaTitle: "Anker Car Charger 24W Dual USB | PowerIQ | Best Price",
                 metaDesc: "Buy Anker PowerDrive 2 car charger in Egypt. 24W dual USB, PowerIQ, charge 2 devices. Fits all cars. 18-month warranty. Fast Cairo delivery.",
                 faqs: [
                     { question: "Does it work in all cars?", answer: "Yes, it works with any standard 12V/24V car cigarette lighter socket." },
@@ -2606,11 +2606,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن سيارة انكر PowerDrive 2 | 24 واط منفذين USB | ضمان 18 شهر",
-                shortDescription: "🚗 24 واط منفذين USB (12واط×2) | ⚡ شحن ذكي PowerIQ | 📱 اشحن جهازين في نفس الوقت | 🔌 كل السيارات 12/24فولت",
+                name: "شاحن سيارة انكر (منفذين) | بيشحن موبايلين وانت عالق في زحمة الدائري | ضمان 18 شهر",
+                shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🚗 <strong>24 واط إجمالي:</strong> منفذين USB-A (12 واط لكل منفذ) مع PowerIQ.</li>
         <li>⚡ <strong>PowerIQ:</strong> يتعرف على كل جهاز ويوصله أقصى سرعة شحن آمنة.</li>
@@ -2619,8 +2619,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت سيبنا PowerDrive 2 موصول في عربية اختبار 5 شهور من زحمة القاهرة اليومية — الدائري، كوبري 6 أكتوبر، المسار كله. بيشحن موبايلين في نفس الوقت واحد عليه Google Maps والتاني Spotify. الـ LED هادي كفاية مش بيشتت بالليل. بيركب بشكل مسطح تمام في الكونسول — مفيش اهتزاز ولا إعاقة لأزرار تانية. للسواقين اللي محتاجين شحن موثوق لجهازين من غير تفكير زيادة، ده الحل اللي بتركّبه وتنساه."
         <br>
@@ -2628,7 +2628,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">اشحن موبايلين وانت عالق في زحمة القاهرة</h2>
         <p class="text-gray-700">بـ<strong>منفذين USB-A</strong> كل واحد 12 واط (24 واط إجمالي)، اشحن موبايلك وموبايل الراكب في نفس الوقت. <strong>تقنية PowerIQ</strong> بتتعرف على كل جهاز وتوصله أقصى سرعة شحن آمنة. مثالي للأزواج والعائلات في الرحلات الطويلة لما الموبايلين شغالين GPS ومزيكا.</p>
@@ -2645,7 +2645,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">الإخراج الإجمالي</td><td class="p-2 border font-bold">24 واط (12 واط × 2 منفذ)</td></tr>
@@ -2658,7 +2658,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14:</strong> شحن 12 واط قياسي عبر USB-A.</li>
@@ -2670,7 +2670,7 @@ export const products = [
 </div>
 `,
                 features: ["🚗 24 واط منفذين USB (12واط×2)", "⚡ شحن ذكي PowerIQ", "📱 اشحن جهازين", "🔌 12/24فولت كل السيارات", "💡 مؤشر LED هادي", "🏆 ضمان 18 شهر"],
-                metaTitle: "شاحن سيارة انكر 24 واط منفذين | PowerIQ | مصر 2026",
+                metaTitle: "شاحن سيارة انكر 24 واط منفذين | PowerIQ | من كايرو فولت",
                 metaDesc: "اشتري شاحن سيارة انكر PowerDrive 2 في مصر. 24 واط منفذين USB، PowerIQ، اشحن جهازين. يناسب كل السيارات. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يعمل في جميع السيارات؟", answer: "نعم، يعمل مع أي مقبس ولاعة 12/24 فولت قياسي." },
@@ -2706,7 +2706,7 @@ export const products = [
             { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - ضمان 12 شهر", order: 1, isPrimary: false },
             { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير 2026", order: 2, isPrimary: false },
             { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt 2026 - Quick Charge 3.0", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Slim Power Bank 10000 - Official Distributor Cairo", order: 4, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Slim Power Bank 10000 - CairoVolt Verified Original", order: 4, isPrimary: false },
             { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أفضل قيمة مقابل سعر - ضمان رسمي مصر", order: 5, isPrimary: false }
         ],
         translations: {
@@ -2714,8 +2714,8 @@ export const products = [
                 name: "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display | 12-Month Warranty",
                 shortDescription: "🔋 10,000mAh (2x iPhone 17) | ⚡ Quick Charge 3.0 | 📊 LED Battery Display | 📏 Ultra-Slim 14mm | 🔌 Dual USB Output",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>10,000mAh:</strong> Charges iPhone 17 twice or Samsung S26 1.5 times.</li>
         <li>⚡ <strong>Quick Charge 3.0:</strong> 4x faster than standard 5W charging.</li>
@@ -2724,8 +2724,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We gave the Joyroom 10000 to a delivery driver in Giza who uses his phone 12+ hours daily for GPS and calls. After a week, his verdict: 'It's a lifesaver.' He charged his Samsung A54 once in the morning and once in the evening, with battery to spare. The LED display meant he always knew exactly when to plug in. At 14mm slim, it slid into his jeans pocket alongside his phone. For anyone who thinks quality power banks have to cost a fortune, Joyroom proves otherwise. The Quick Charge 3.0 is the cherry on top — noticeably faster than the generic power banks flooding the market."
         <br>
@@ -2733,7 +2733,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Premium Features at a Budget Price</h2>
         <p class="text-gray-700">The Joyroom 10000mAh delivers what budget power banks don't: <strong>Quick Charge 3.0</strong> (4x faster than standard), a <strong>digital LED display</strong> showing exact battery percentage, and <strong>dual USB output</strong> to charge your phone and earbuds simultaneously. All at a price point that's significantly lower than premium brands for the same 10,000mAh capacity.</p>
@@ -2750,8 +2750,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">10,000mAh (37Wh)</td></tr>
         <tr><td class="p-2 border">Fast Charging</td><td class="p-2 border">Quick Charge 3.0 (18W)</td></tr>
@@ -2764,7 +2764,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> ~2 full charges.</li>
@@ -2785,8 +2785,8 @@ export const products = [
                     "✅ Golden Code Verified Original",
                     "🏆 12-Month Warranty"
                 ],
-                metaTitle: "Joyroom 10000mAh Power Bank | QC 3.0 | LED Display | Egypt 2026",
-                metaDesc: "Buy Joyroom 10000mAh power bank in Egypt. 2x iPhone charges, QC 3.0, LED display, ultra-slim 14mm. ✓ 12-month warranty ✓ Golden Code verified ✓ Fast delivery.",
+                metaTitle: "Joyroom 10000mAh Power Bank | QC 3.0 | LED Display | Best Price",
+                metaDesc: "Buy Joyroom 10000mAh power bank in Egypt. 2x iPhone charges, QC 3.0, LED display, ultra-slim 14mm. ✓ 100% Original Sealed Product ✓ 14-Day Free Returns ✓ Shipping across Egypt..",
                 faqs: [
                     { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at Cairo Volt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
                     { question: "How many times does Joyroom 10000 charge iPhone 17?", answer: "It charges iPhone 17 twice or Samsung S26 about 1.5 times. Perfect for a day trip or short travel." },
@@ -2801,11 +2801,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم 10000 مللي أمبير | QC 3.0 | شاشة LED | ضمان 12 شهر",
-                shortDescription: "🔋 10,000 مللي أمبير (شحنتين ايفون 17) | ⚡ Quick Charge 3.0 | 📊 شاشة LED رقمية | 📏 نحيف 14مم | 🔌 مخرجين USB",
+                name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة) | ضمان 12 شهر",
+                shortDescription: "أرخص باور بانك أصلي في مصر 🔋 10,000 مللي (شحنتين ايفون 17) | ⚡ أسرع 4 مرات من الشاحن العادي | 📊 شاشة ديجيتال للنسبة",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>10,000 مللي أمبير:</strong> يشحن ايفون 17 مرتين أو سامسونج S26 مرة ونص.</li>
         <li>⚡ <strong>Quick Charge 3.0:</strong> أسرع 4× من الشحن العادي 5 واط.</li>
@@ -2814,8 +2814,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت سلّمنا جوي روم 10000 لسواق دليفري في الجيزة بيستخدم موبايله 12+ ساعة يومياً للـ GPS والمكالمات. بعد أسبوع، رأيه: 'ده منقذة حياة.' كان بيشحن سامسونج A54 مرة الصبح ومرة بالليل، ولسه بطارية فاضلة. شاشة LED خلّته دايماً يعرف بالظبط إمتى يوصّل. بسمك 14مم، دخل جيب الجينز جنب الموبايل. لأي حد فاكر إن الباور بانك الكويس لازم يكون غالي، جوي روم بتثبت العكس. Quick Charge 3.0 الكرزة على التورتة — أسرع بشكل ملحوظ من الباور بانك العشوائي اللي مالي السوق."
         <br>
@@ -2823,7 +2823,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مميزات فاخرة بسعر اقتصادي</h2>
         <p class="text-gray-700">جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من الماركات الفاخرة لنفس السعة.</p>
@@ -2840,7 +2840,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">10,000 مللي أمبير (37 واط/ساعة)</td></tr>
@@ -2854,7 +2854,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~2 شحنة كاملة.</li>
@@ -2875,7 +2875,7 @@ export const products = [
                     "✅ أصلي بالكود الذهبي",
                     "🏆 ضمان 12 شهر"
                 ],
-                metaTitle: "باور بانك جوي روم 10000 | QC 3.0 | شاشة LED | مصر 2026",
+                metaTitle: "باور بانك جوي روم 10000 | QC 3.0 | شاشة LED | ضمان الوكيل",
                 metaDesc: "اشتري باور بانك جوي روم 10000 في مصر. شحنتين ايفون، QC 3.0، شاشة LED، نحيف 14مم. ✓ ضمان 12 شهر ✓ كود ذهبي أصلي ✓ توصيل سريع.",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من Cairo Volt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
@@ -2914,24 +2914,24 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "joyroom power bank 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Original Product Cairo Delivery", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 9, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "joyroom power bank 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 - منتج أصلي معتمد | شحن مصر كلها", order: 7, isPrimary: false },
+            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Barcode Verified Egypt", order: 8, isPrimary: false },
+            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 9, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | Triple Output | 12-Month Warranty",
                 shortDescription: "🔋 20,000mAh (4x iPhone 17) | ⚡ 22.5W PD + QC 3.0 | 🔌 3 Output Ports | 📊 LED Digital Display | 💰 Best Value",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>20,000mAh:</strong> Charges iPhone 17 ~4 times, Samsung S26 ~3 times.</li>
         <li>⚡ <strong>22.5W Output:</strong> PD 20W for iPhone + QC 3.0 for Android + SCP for Huawei.</li>
@@ -2940,8 +2940,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We took the Joyroom 20000 on a family road trip from Cairo to Hurghada — 6 hours in the car with 3 phones and a tablet. Results: we charged 2 iPhones from dead to full, a Samsung A54 once, and kept an iPad mini alive for the kids' movies. Arrived with 22% battery left in the power bank. The 22.5W fast charging was noticeably faster than generic 10W banks. Three output ports meant no arguments about who charges first. At under EGP 1,000, this is the most power per pound you can get in Egypt."
         <br>
@@ -2949,7 +2949,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4x iPhone Charges for Under 1,000 EGP</h2>
         <p class="text-gray-700">At <strong>20,000mAh</strong>, this Joyroom delivers 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. That's a full weekend of power. And at EGP 997, it's the most affordable 20,000mAh power bank with fast charging in Egypt. Compare that to premium brands charging 2-3x more for the same capacity.</p>
@@ -2966,8 +2966,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">20,000mAh (72Wh)</td></tr>
         <tr><td class="p-2 border">Max Output</td><td class="p-2 border">22.5W (SCP) / 20W (PD) / 18W (QC 3.0)</td></tr>
@@ -2979,7 +2979,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17 / 17 Pro Max:</strong> ~4 full charges.</li>
@@ -2991,7 +2991,7 @@ export const products = [
 </div>
 `,
                 features: ["🔋 20,000mAh (4x iPhone 17)", "⚡ 22.5W PD + QC 3.0 + SCP", "🔌 3 Output Ports (Charge 3 Devices)", "📊 LED Digital Display", "✈️ Airline Approved (72Wh)", "✅ Golden Code Verified", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | 3 Ports | Egypt",
+                metaTitle: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | 3 Ports | from Cairo Volt",
                 metaDesc: "Buy Joyroom 20000mAh power bank in Egypt for EGP 997. 22.5W fast charging, 3 output ports, LED display. 4x iPhone charges. Best value. 12-month warranty.",
                 faqs: [
                     { question: "What is 22.5W fast charging?", answer: "It is a high-speed charging protocol supported by Huawei (SCP) and some other Android devices for rapid top-ups." },
@@ -3001,11 +3001,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم 20000 مللي أمبير | 22.5 واط PD+QC | 3 مخارج | ضمان 12 شهر",
-                shortDescription: "🔋 20,000 مللي أمبير (4× ايفون 17) | ⚡ 22.5 واط PD + QC 3.0 | 🔌 3 مخارج | 📊 شاشة LED | 💰 أفضل قيمة",
+                name: "باور بانك جوي روم 20000 | أرخص باور بانك للسفر (بيشحن 3 أجهزة) | ضمان 12 شهر",
+                shortDescription: "أعلى قيمة مقابل سعر في مصر 🔋 4 شحنات ايفون 17 | ⚡ שحن سريع 22.5 واط | 🔌 شغال معاك في مواصلات الساحل الطويلة",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>20,000 مللي أمبير:</strong> يشحن ايفون 17 ~4 مرات، سامسونج S26 ~3 مرات.</li>
         <li>⚡ <strong>22.5 واط:</strong> PD 20 واط للايفون + QC 3.0 للاندرويد + SCP لهواوي.</li>
@@ -3014,8 +3014,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت أخدنا جوي روم 20000 في رحلة عائلية بالعربية من القاهرة للغردقة — 6 ساعات مع 3 موبايلات وتابلت. النتيجة: شحنّا ايفونين من الصفر للكامل، وسامسونج A54 مرة، وخلّينا ايباد ميني شغال لأفلام الأطفال. وصلنا ولسه 22% بطارية. الشحن السريع 22.5 واط كان أسرع بشكل ملحوظ من الباور بانك العشوائي 10 واط. 3 مخارج يعني مفيش خناقات على مين يشحن الأول. بأقل من 1,000 جنيه، ده أكتر طاقة مقابل كل جنيه في مصر."
         <br>
@@ -3023,7 +3023,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4 شحنات ايفون بأقل من 1,000 جنيه</h2>
         <p class="text-gray-700">بسعة <strong>20,000 مللي أمبير</strong>، جوي روم بيوفر 4 شحنات ايفون 17 كاملة، 3 شحنات سامسونج S26، أو 2.5 شحنة ايباد ميني. يعني ويكند كامل من الطاقة. وبسعر 997 جنيه، ده أرخص باور بانك 20,000 مللي أمبير بشحن سريع في مصر.</p>
@@ -3040,7 +3040,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">20,000 مللي أمبير (72 واط/ساعة)</td></tr>
@@ -3053,7 +3053,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17 / 17 برو ماكس:</strong> ~4 شحنات كاملة.</li>
@@ -3065,7 +3065,7 @@ export const products = [
 </div>
 `,
                 features: ["🔋 20,000 مللي أمبير (4× ايفون 17)", "⚡ 22.5 واط PD + QC 3.0 + SCP", "🔌 3 مخارج (اشحن 3 أجهزة)", "📊 شاشة LED رقمية", "✈️ مسموح بالطائرة (72Wh)", "✅ أصلي بالكود الذهبي", "🏆 ضمان 12 شهر"],
-                metaTitle: "باور بانك جوي روم 20000 | 22.5 واط PD+QC | 3 مخارج | مصر",
+                metaTitle: "باور بانك جوي روم 20000 | 22.5 واط PD+QC | 3 مخارج | ضمان الوكيل",
                 metaDesc: "اشتري باور بانك جوي روم 20000 في مصر بـ 997 جنيه. شحن 22.5 واط، 3 مخارج، شاشة LED. 4 شحنات ايفون. أفضل قيمة. ضمان 12 شهر.",
                 faqs: [
                     {
@@ -3106,23 +3106,23 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "joyroom t03s pro earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "joyroom t03s pro earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Original Product Cairo Delivery", order: 8, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "joyroom t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - Protected by CairoVolt Guarantee", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "joyroom t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false },
+            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt", order: 8, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3 | 12-Month Warranty",
                 shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 30H Total Playtime | 📱 Bluetooth 5.3 Low Latency | 💧 IPX5 Water Resistant | 👆 Touch Controls",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>ANC:</strong> Active Noise Cancellation reduces ambient noise by up to 25dB.</li>
         <li>🔋 <strong>30H Battery:</strong> 6 hours per charge + 24 hours from charging case.</li>
@@ -3131,8 +3131,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We tested the T03S Pro during a 45-minute Metro commute from Shubra to Maadi — arguably the noisiest environment in Cairo. With ANC on, the train noise dropped from 'deafening' to 'background hum'. We could clearly hear podcasts without maxing out the volume. The AirPods-like design fits comfortably and the iOS pop-up animation makes pairing feel premium. For calls, the ENC (Environmental Noise Cancellation) kept our voice clear even standing on the platform. At EGP 664, these deliver 80% of the AirPods Pro experience at 15% of the price. The best-selling earbuds in our store for a reason."
         <br>
@@ -3140,7 +3140,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Real ANC That Actually Works Against Cairo Noise</h2>
         <p class="text-gray-700">This isn't marketing fluff. The T03S Pro's <strong>Active Noise Cancellation</strong> reduces ambient noise by up to <strong>25dB</strong> — enough to turn Cairo street traffic into a faint murmur. Transparency mode lets you hear announcements without removing the earbuds. Perfect for Metro commuters, open-plan offices, and anyone who needs focus in a noisy environment.</p>
@@ -3157,8 +3157,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Noise Cancellation</td><td class="p-2 border font-bold">ANC (up to 25dB reduction)</td></tr>
         <tr><td class="p-2 border">Total Playtime</td><td class="p-2 border">30 hours (6H + 24H case)</td></tr>
@@ -3171,7 +3171,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14:</strong> Full support with iOS pop-up animation.</li>
@@ -3183,7 +3183,7 @@ export const products = [
 </div>
 `,
                 features: ["🎧 ANC (25dB Noise Reduction)", "🔋 30H Total Playtime", "📱 Bluetooth 5.3 Low Latency", "💧 IPX5 Water Resistant", "👆 Touch Controls", "📱 iOS Pop-up Animation", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Egypt 2026",
+                metaTitle: "Joyroom T03S Pro ANC Earbuds | 30H Battery | 100% Authentic",
                 metaDesc: "Buy Joyroom T03S Pro earbuds in Egypt. Real ANC, 30H battery, Bluetooth 5.3, IPX5 waterproof. AirPods alternative at EGP 664. 12-month warranty.",
                 faqs: [
                     { question: "Is the noise cancellation real?", answer: "Yes, T03S Pro features active noise cancellation (ANC) that effectively reduces ambient noise by up to 25dB." },
@@ -3194,11 +3194,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | 30 ساعة | ضمان 12 شهر",
-                shortDescription: "🎧 إلغاء ضوضاء نشط ANC | 🔋 30 ساعة بطارية | 📱 Bluetooth 5.3 | 💧 مقاومة ماء IPX5 | 👆 تحكم باللمس",
+                name: "سماعة جوي روم T03S Pro | اعزل نفسك عن دوشة المترو والشارع | ضمان 12 شهر",
+                shortDescription: "أقوى عزل ضوضاء في الفئة الاقتصادية 🎧 إلغاء ضوضاء حقيقي ANC مبيهزرش | 🔋 30 ساعة بطارية | 📱 نفس تصميم الايربودز بسعر معقول",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>ANC:</strong> إلغاء ضوضاء نشط يقلل الضوضاء حتى 25 ديسيبل.</li>
         <li>🔋 <strong>30 ساعة:</strong> 6 ساعات لكل شحنة + 24 ساعة من علبة الشحن.</li>
@@ -3207,8 +3207,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت اختبرنا T03S Pro في رحلة مترو 45 دقيقة من شبرا للمعادي — أكثر بيئة ضوضاء في القاهرة غالباً. مع ANC مفتوح، صوت القطر نزل من 'مصم' لـ 'همهمة خلفية'. سمعنا البودكاست بوضوح من غير ما نعلّي الصوت للآخر. التصميم شبه AirPods مريح وإشعار iOS بيخلّي التوصيل يحس فاخر. للمكالمات، ENC خلّى صوتنا واضح حتى واقفين على الرصيف. بـ 664 جنيه، دول بيوفروا 80% من تجربة AirPods Pro بـ 15% من السعر. السماعة الأكثر مبيعاً في محلنا لسبب."
         <br>
@@ -3216,7 +3216,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">إلغاء ضوضاء حقيقي بيشتغل ضد دوشة القاهرة</h2>
         <p class="text-gray-700">ده مش كلام تسويق. <strong>إلغاء الضوضاء النشط</strong> في T03S Pro بيقلل الضوضاء حتى <strong>25 ديسيبل</strong> — كفاية يخلّي دوشة الشارع همهمة خفيفة. وضع الشفافية بيخلّيك تسمع الإعلانات من غير ما تشيل السماعة. مثالية لركاب المترو، المكاتب المفتوحة، وأي حد محتاج تركيز في بيئة صاخبة.</p>
@@ -3233,7 +3233,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">إلغاء الضوضاء</td><td class="p-2 border font-bold">ANC (تقليل حتى 25 ديسيبل)</td></tr>
@@ -3247,7 +3247,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم كامل مع إشعار iOS المنبثق.</li>
@@ -3259,7 +3259,7 @@ export const products = [
 </div>
 `,
                 features: ["🎧 إلغاء ضوضاء ANC (25 ديسيبل)", "🔋 30 ساعة بطارية", "📱 Bluetooth 5.3 تأخير منخفض", "💧 مقاومة ماء IPX5", "👆 تحكم باللمس", "📱 إشعار iOS Pop-up", "🏆 ضمان 12 شهر"],
-                metaTitle: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | 30 ساعة | مصر",
+                metaTitle: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | 30 ساعة | الدفع عند الاستلام",
                 metaDesc: "اشتري سماعة جوي روم T03S Pro في مصر. إلغاء ضوضاء حقيقي، 30 ساعة، Bluetooth 5.3، IPX5. بديل AirPods بـ 664 جنيه. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل العزل حقيقي؟", answer: "نعم، T03S Pro بإلغاء ضوضاء نشط (ANC) يقلل الضوضاء حتى 25 ديسيبل." },
@@ -3290,24 +3290,24 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-1.webp", alt: "joyroom jr t03 wireless earbuds Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-10.webp", alt: "joyroom jr t03 wireless earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-2.webp", alt: "joyroom jr t03 wireless earbuds - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-3.webp", alt: "joyroom jr t03 wireless earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-4.webp", alt: "joyroom jr t03 wireless earbuds - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-5.webp", alt: "joyroom jr t03 wireless earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-6.webp", alt: "joyroom jr t03 wireless earbuds - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-7.webp", alt: "joyroom jr t03 wireless earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-8.webp", alt: "joyroom jr t03 wireless earbuds - Original Product Cairo Delivery", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-9.webp", alt: "joyroom jr t03 wireless earbuds اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 9, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-1.webp", alt: "joyroom jr t03 wireless earbuds - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-10.webp", alt: "joyroom jr t03 wireless earbuds - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-2.webp", alt: "joyroom jr t03 wireless earbuds - Best Deal in Egypt 2026", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-3.webp", alt: "joyroom jr t03 wireless earbuds - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-4.webp", alt: "joyroom jr t03 wireless earbuds - CairoVolt Verified Original", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-5.webp", alt: "joyroom jr t03 wireless earbuds الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-6.webp", alt: "joyroom jr t03 wireless earbuds - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-7.webp", alt: "joyroom jr t03 wireless earbuds - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false },
+            { id: "img_9", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-8.webp", alt: "joyroom jr t03 wireless earbuds - Factory Original CairoVolt", order: 8, isPrimary: false },
+            { id: "img_10", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-9.webp", alt: "joyroom jr t03 wireless earbuds - أوريجينال مصر | مع كفالة استبدال", order: 9, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom JR-T03 Wireless Earbuds | 20H Battery | Bluetooth 5.0 | 12-Month Warranty",
                 shortDescription: "🎧 20H Total Playtime | 👆 Touch Controls | 📱 Bluetooth 5.0 | 🎤 Built-in Mic for Calls | 💰 Best Budget TWS",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>20H Battery:</strong> 3-4 hours per charge + 4 additional charges from case.</li>
         <li>👆 <strong>Touch Controls:</strong> Play/pause, skip, volume, and call answer on earbuds.</li>
@@ -3316,8 +3316,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We gave the JR-T03 to a college student who wanted wireless earbuds under 800 EGP. After 2 weeks of daily use — lectures, commuting, gym, and Netflix before bed — her review: 'They just work.' The sound is surprisingly clear for the price, the touch controls are responsive, and the compact case fits in a coin pocket. No ANC (that's what the T03S Pro is for), but for podcasts, music, and calls, these punch well above their price. The built-in mic handled a 20-minute phone call while walking on a busy Mohandessin street without complaints from the other end."
         <br>
@@ -3325,7 +3325,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Wireless Freedom at Egypt's Best Price</h2>
         <p class="text-gray-700">The JR-T03 proves you don't need to spend thousands on wireless earbuds. <strong>Bluetooth 5.0</strong> delivers stable, lag-free connection. <strong>Touch controls</strong> let you manage music and calls without reaching for your phone. Stereo sound with decent bass makes music enjoyable. For students, commuters, and anyone who wants to cut the cord affordably.</p>
@@ -3342,8 +3342,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Total Playtime</td><td class="p-2 border font-bold">20 hours (4H + 16H case)</td></tr>
         <tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.0</td></tr>
@@ -3355,7 +3355,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14:</strong> Full Bluetooth 5.0 support.</li>
@@ -3376,11 +3376,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "سماعة جوي روم JR-T03 | 20 ساعة | Bluetooth 5.0 | ضمان 12 شهر",
-                shortDescription: "🎧 20 ساعة بطارية | 👆 تحكم باللمس | 📱 Bluetooth 5.0 | 🎤 ميكروفون مدمج | 💰 أفضل سعر",
+                name: "سماعة جوي روم JR-T03 | أرخص سماعة بلوتوث أصلية للطلبة | ضمان 12 شهر",
+                shortDescription: "سماعة الغلابة اللي بتعيش 🎧 صوت ممتاز للمحاضرات والأغاني | 🔋 20 ساعة بطارية | 🎤 ميكروفون مكالمات شغال لو انت في مكان هادي",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>20 ساعة بطارية:</strong> 3-4 ساعات لكل شحنة + 4 شحنات إضافية من العلبة.</li>
         <li>👆 <strong>تحكم باللمس:</strong> تشغيل/إيقاف، تخطي، صوت، ورد مكالمات.</li>
@@ -3389,8 +3389,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نحن في فريق كايرو فولت سلّمنا JR-T03 لطالبة جامعية عايزة سماعات لاسلكية تحت 800 جنيه. بعد أسبوعين استخدام يومي — محاضرات، مواصلات، جيم، وNetflix قبل النوم — رأيها: 'بتشتغل وخلاص.' الصوت واضح بشكل مفاجئ للسعر، التحكم باللمس مستجيب، والعلبة الصغيرة بتدخل جيب العملة. مفيش ANC (ده لـ T03S Pro)، بس للبودكاست والمزيكا والمكالمات، دول بيضربوا فوق سعرهم بكتير. الميكروفون المدمج تعامل مع مكالمة 20 دقيقة واحنا ماشيين في شارع مزحوم في المهندسين من غير شكوى من الطرف التاني."
         <br>
@@ -3398,7 +3398,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">حرية لاسلكية بأفضل سعر في مصر</h2>
         <p class="text-gray-700">JR-T03 بتثبت إنك مش محتاج تصرف آلاف على سماعات لاسلكية. <strong>Bluetooth 5.0</strong> بيوفر اتصال مستقر بدون تأخير. <strong>تحكم باللمس</strong> بيخلّيك تتحكم في المزيكا والمكالمات من غير ما تطلّع موبايلك. صوت ستيريو ببيس كويس بيخلّي المزيكا ممتعة. للطلاب والركاب وأي حد عايز يتخلص من السلك بسعر اقتصادي.</p>
@@ -3415,7 +3415,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">وقت التشغيل</td><td class="p-2 border font-bold">20 ساعة (4ساعات + 16ساعة علبة)</td></tr>
@@ -3428,7 +3428,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم Bluetooth 5.0 كامل.</li>
@@ -3471,21 +3471,21 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "joyroom 20w usb c charger Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "joyroom 20w usb c charger اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "joyroom 20w usb c charger - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "joyroom 20w usb c charger اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "joyroom 20w usb c charger - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "joyroom 20w usb c charger اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "joyroom 20w usb c charger - 2 Year Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "joyroom 20w usb c charger - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "joyroom 20w usb c charger - أصلي بباركود الشركة | كايرو فولت مصر", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "joyroom 20w usb c charger - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "joyroom 20w usb c charger - منتج أصلي معتمد | شحن مصر كلها", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "joyroom 20w usb c charger - Certified by Distributor", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "joyroom 20w usb c charger - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "joyroom 20w usb c charger - Full Warranty Coverage Egypt", order: 6, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom 20W USB-C PD Charger | iPhone 17 Fast Charge | 12-Month Warranty",
                 shortDescription: "⚡ 20W PD Fast Charging | 📱 iPhone 17/16/15 0→50% in 30 Min | 🛡️ MultiProtect Safety | 🔌 Ultra-Compact | 💰 Best Price Egypt",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>20W PD:</strong> iPhone 17 from 0→50% in ~30 minutes.</li>
         <li>🛡️ <strong>MultiProtect:</strong> Over-voltage, over-current, over-temperature, short-circuit protection.</li>
@@ -3494,8 +3494,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I kept one at home and one at the office for 4 months. Both still look brand new. The 20W PD charges my iPhone 15 Pro from dead to 50% in exactly 28 minutes — I timed it. It barely gets warm, even in summer with Cairo's heat. For under 250 EGP, you're getting real PD fast charging, not the fake '20W' chargers flooding the market. Pair it with the <a href='/joyroom/cables' class='text-blue-600 hover:underline'>Joyroom USB-C to Lightning cable</a> and you have the cheapest legitimate fast-charging setup in Egypt."
         <br>
@@ -3503,7 +3503,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Real 20W PD — Not Fake Fast Charging</h2>
         <p class="text-gray-700">Egypt's market is flooded with chargers claiming "20W" that actually deliver 10W. The Joyroom 20W uses genuine <strong>Power Delivery (PD) protocol</strong>, the same standard used by Apple and Samsung. Your iPhone negotiates the maximum safe wattage automatically. Result: <strong>0→50% in ~30 minutes</strong> for iPhone 17/16/15. That's 3x faster than the old 5W charger Apple used to include.</p>
@@ -3520,8 +3520,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">20W PD (Power Delivery)</td></tr>
         <tr><td class="p-2 border">Port</td><td class="p-2 border">USB-C</td></tr>
@@ -3534,7 +3534,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14:</strong> 20W PD fast charging.</li>
@@ -3546,7 +3546,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 20W PD Fast Charging", "📱 iPhone 0→50% in 30 Min", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Design", "🌍 AC 100-240V Universal", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom 20W USB-C PD Charger | iPhone Fast Charge | Egypt",
+                metaTitle: "Joyroom 20W USB-C PD Charger | iPhone Fast Charge | 100% Authentic",
                 metaDesc: "Buy Joyroom 20W USB-C PD charger in Egypt. iPhone 17 0→50% in 30 min, MultiProtect safety, ultra-compact. Best price with 12-month warranty.",
                 faqs: [
                     { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
@@ -3556,11 +3556,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن جوي روم 20 واط USB-C PD | شحن سريع ايفون 17 | ضمان 12 شهر",
-                shortDescription: "⚡ شحن سريع 20 واط PD | 📱 ايفون 17 من 0→50% في 30 دقيقة | 🛡️ حماية 5 طبقات | 🔌 تصميم صغير جداً | 💰 أفضل سعر",
+                name: "شاحن جوي روم 20 واط PD | أرخص شاحن سريع أصلي يحمي بطاريتك | ضمان 12 شهر",
+                shortDescription: "بلاش تبوظ بطاريتك بشواحن الشارع الرخيصة ⚡ 20 واط PD أصلي بحماية 5 طبقات | 📱 ايفون 17 من 0→50% في 30 دقيقة | 🔌 صغير مبياخدش مكان في الشنطة",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>20 واط PD:</strong> ايفون 17 من 0→50% في ~30 دقيقة.</li>
         <li>🛡️ <strong>حماية متعددة:</strong> حماية من زيادة الفولت والتيار والحرارة والقصر.</li>
@@ -3569,8 +3569,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "خلّيت واحد في البيت وواحد في المكتب لمدة 4 شهور. الاتنين لسه شكلهم جديد. الـ 20 واط PD شحن ايفون 15 برو بتاعي من صفر لـ 50% في 28 دقيقة بالظبط — وقّتها. بالعافية بيسخن، حتى في حرّ القاهرة في الصيف. بأقل من 250 جنيه، بتاخد شحن PD حقيقي، مش شواحن '20 واط' المزيفة اللي مالية السوق. وصّله بـ <a href='/joyroom/cables' class='text-blue-600 hover:underline'>كابل جوي روم USB-C to Lightning</a> وعندك أرخص سيستم شحن سريع شرعي في مصر."
         <br>
@@ -3578,7 +3578,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">20 واط PD حقيقي — مش شحن سريع مزيف</h2>
         <p class="text-gray-700">السوق المصري مليان شواحن بتقول "20 واط" وفي الحقيقة بتدّي 10 واط. شاحن جوي روم 20 واط بيستخدم بروتوكول <strong>Power Delivery (PD)</strong> الحقيقي، نفس المعيار اللي بتستخدمه Apple وSamsung. الايفون بتاعك بيتفاوض على أقصى واط آمن أوتوماتيك. النتيجة: <strong>0→50% في ~30 دقيقة</strong> لايفون 17/16/15. ده 3 أضعاف سرعة شاحن 5 واط القديم.</p>
@@ -3595,7 +3595,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">20 واط PD (Power Delivery)</td></tr>
@@ -3609,7 +3609,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14:</strong> شحن سريع 20 واط PD.</li>
@@ -3621,7 +3621,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ شحن سريع 20 واط PD", "📱 ايفون 0→50% في 30 دقيقة", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير جداً", "🌍 AC 100-240V عالمي", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر"],
-                metaTitle: "شاحن جوي روم 20 واط USB-C PD | شحن سريع ايفون | مصر",
+                metaTitle: "شاحن جوي روم 20 واط USB-C PD | شحن سريع ايفون | ضمان كايرو فولت",
                 metaDesc: "اشتري شاحن جوي روم 20 واط USB-C PD في مصر. ايفون 17 من 0→50% في 30 دقيقة، حماية 5 طبقات، تصميم صغير. أفضل سعر مع ضمان 12 شهر.",
                 faqs: [
                     { question: "هل يسخن الشاحن؟", answer: "يستخدم شرائح تحكم ذكية للحفاظ على برودة الشاحن حتى أثناء الشحن السريع." },
@@ -3654,22 +3654,22 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-1.webp", alt: "joyroom usb c lightning cable Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-2.webp", alt: "joyroom usb c lightning cable اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-3.webp", alt: "joyroom usb c lightning cable - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-4.webp", alt: "joyroom usb c lightning cable اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-5.webp", alt: "joyroom usb c lightning cable - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-6.webp", alt: "joyroom usb c lightning cable اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-7.webp", alt: "joyroom usb c lightning cable - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8.webp", alt: "joyroom usb c lightning cable اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-1.webp", alt: "joyroom usb c lightning cable - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-2.webp", alt: "joyroom usb c lightning cable الأصلي في مصر | توصيل لأي محافظة", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-3.webp", alt: "joyroom usb c lightning cable - Competitive Pricing Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-4.webp", alt: "joyroom usb c lightning cable - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-5.webp", alt: "joyroom usb c lightning cable - Authorized Egypt Dealer", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-6.webp", alt: "joyroom usb c lightning cable - أوريجينال مصر | مع كفالة استبدال", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-7.webp", alt: "joyroom usb c lightning cable - Protected by CairoVolt Guarantee", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8.webp", alt: "joyroom usb c lightning cable - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom USB-C to Lightning Cable | 20W PD | Nylon Braided | 12-Month Warranty",
                 shortDescription: "⚡ 20W PD Fast Charging | 🔗 Nylon Braided 10,000+ Bends | 📱 iPhone 17/16/15 | 💾 480Mbps Data Transfer | 💰 Best Price Egypt",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>20W PD:</strong> Unlocks full fast charging with any PD charger.</li>
         <li>🔗 <strong>Nylon Braided:</strong> 10,000+ bend lifespan — outlasts rubber cables 5x.</li>
@@ -3678,8 +3678,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I've tested dozens of Lightning cables in our Cairo lab. Most cheap cables break at the connector neck within 2 months. This Joyroom cable has survived 6 months of daily abuse — plugging/unplugging from my iPhone, tossed in bags, bent at sharp angles. The nylon braid still looks fresh. The reinforced aluminum connectors show zero wobble. And it actually delivers 20W PD — I verified with a USB power meter. Pair it with the <a href='/joyroom/wall-chargers' class='text-blue-600 hover:underline'>Joyroom 20W charger</a> for the cheapest real fast-charging kit in Egypt. At 118 EGP, I bought 3 — one for home, one for the office, one for the car."
         <br>
@@ -3687,7 +3687,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Why Cheap Cables Kill Your Battery</h2>
         <p class="text-gray-700">Thin copper wires in cheap cables create resistance. Resistance = heat. Heat = slow charging and battery degradation. This Joyroom cable uses <strong>thicker copper cores</strong> to deliver the full <strong>20W PD</strong> your charger outputs. No wasted watts. No excess heat. Your iPhone gets exactly the power it negotiates with the charger.</p>
@@ -3704,8 +3704,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Charging Speed</td><td class="p-2 border font-bold">20W PD Fast Charging</td></tr>
         <tr><td class="p-2 border">Data Transfer</td><td class="p-2 border">480Mbps (USB 2.0)</td></tr>
@@ -3717,7 +3717,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14/13/SE:</strong> 20W PD fast charging + data.</li>
@@ -3728,7 +3728,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 20W PD Fast Charging", "🔗 Nylon Braided 10K+ Bends", "💾 480Mbps Data Transfer", "📱 iPhone 17/16/15 Compatible", "🔩 Aluminum Reinforced Connectors", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom USB-C to Lightning Cable | 20W PD | Nylon Braided | Egypt",
+                metaTitle: "Joyroom USB-C to Lightning Cable | 20W PD | Nylon Braided | Next Day Delivery",
                 metaDesc: "Buy Joyroom USB-C to Lightning cable in Egypt. 20W PD fast charging, nylon braided 10K+ bends, 480Mbps data. Best price iPhone cable. 12-month warranty.",
                 faqs: [
                     {
@@ -3746,11 +3746,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-C to Lightning | 20 واط PD | نايلون | ضمان 12 شهر",
-                shortDescription: "⚡ شحن سريع 20 واط PD | 🔗 نايلون مضفر 10,000+ انحناء | 📱 ايفون 17/16/15 | 💾 480Mbps | 💰 أفضل سعر",
+                name: "كابل جوي روم USB-C to Lightning | كابل ايفون أصلي مبيهنجش التاتش ومبيتقطعش | ضمان 12 شهر",
+                shortDescription: "كابل أصلي لو بطاريتك غالية عليك 🛡️ تيار مستقر مبيضربش البطارية | 💪 نايلون 10,000+ انحناء مش هيتقطع | ⚡ 20 واط PD شحن سريع | 💰 بسعر الكابلات العادية",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>20 واط PD:</strong> بيفتح الشحن السريع الكامل مع أي شاحن PD.</li>
         <li>🔗 <strong>نايلون مضفر:</strong> عمر 10,000+ انحناء — بيعيش 5 أضعاف الكابلات المطاطية.</li>
@@ -3759,8 +3759,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "جربت عشرات الكابلات Lightning في معملنا في القاهرة. معظم الكابلات الرخيصة بتنكسر عند رقبة الموصل خلال شهرين. كابل جوي روم ده استحمل 6 شهور استخدام يومي — توصيل وفصل من الايفون، اترمي في شنط، انحني بزوايا حادة. النايلون لسه شكله جديد. الموصلات الألومنيوم مفيش فيها أي خلخلة. وفعلاً بيدّي 20 واط PD — أكدت بجهاز قياس طاقة USB. وصّله بـ <a href='/joyroom/wall-chargers' class='text-blue-600 hover:underline'>شاحن جوي روم 20 واط</a> وعندك أرخص كيت شحن سريع حقيقي في مصر. بـ 118 جنيه، اشتريت 3 — واحد للبيت، واحد للمكتب، واحد للعربية."
         <br>
@@ -3768,7 +3768,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">ليه الكابلات الرخيصة بتقتل بطاريتك</h2>
         <p class="text-gray-700">الأسلاك النحاسية الرفيعة في الكابلات الرخيصة بتعمل مقاومة. مقاومة = حرارة. حرارة = شحن بطيء وتدهور البطارية. كابل جوي روم بيستخدم <strong>أسلاك نحاس أسمك</strong> عشان يوصّل كامل <strong>20 واط PD</strong> اللي شاحنك بيطلعها. مفيش وات ضايع. مفيش حرارة زيادة. ايفونك بياخد بالظبط الطاقة اللي بيتفاوض عليها مع الشاحن.</p>
@@ -3785,7 +3785,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">سرعة الشحن</td><td class="p-2 border font-bold">شحن سريع 20 واط PD</td></tr>
@@ -3798,7 +3798,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14/13/SE:</strong> شحن سريع 20 واط PD + بيانات.</li>
@@ -3809,7 +3809,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ شحن سريع 20 واط PD", "🔗 نايلون مضفر 10K+ انحناء", "💾 480Mbps نقل بيانات", "📱 متوافق ايفون 17/16/15", "🔩 موصلات ألومنيوم", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم USB-C to Lightning | 20 واط PD | نايلون | مصر",
+                metaTitle: "كابل جوي روم USB-C to Lightning | 20 واط PD | نايلون | الدفع عند الاستلام",
                 metaDesc: "اشتري كابل جوي روم USB-C to Lightning في مصر. شحن سريع 20 واط PD، نايلون 10K+ انحناء، 480Mbps. أفضل سعر كابل ايفون. ضمان 12 شهر.",
                 faqs: [
                     { question: "ما متانة كابل جوي روم Lightning هذا؟", answer: "نايلون مضفر يقاوم التآكل ويتحمل 10,000+ انحناء." },
@@ -3841,20 +3841,20 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-1.webp", alt: "anker soundcore life p2i Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-2.webp", alt: "anker soundcore life p2i اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-3.webp", alt: "anker soundcore life p2i - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-4.webp", alt: "anker soundcore life p2i اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-5.webp", alt: "anker soundcore life p2i - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-6.webp", alt: "anker soundcore life p2i اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-1.webp", alt: "anker soundcore life p2i - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-2.webp", alt: "anker soundcore life p2i - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-3.webp", alt: "anker soundcore life p2i - Best Deal in Egypt 2026", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-4.webp", alt: "anker soundcore life p2i - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-5.webp", alt: "anker soundcore life p2i - CairoVolt Verified Original", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-6.webp", alt: "anker soundcore life p2i الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Anker Soundcore Life P2i | 28H Battery | AI Calls | Bluetooth 5.2 | 18-Month Warranty",
                 shortDescription: "🎧 28H Total Playtime | 🤖 AI-Enhanced 2-Mic Calls | 🎵 Dual EQ (Bass/Podcast) | ⚡ 10 Min = 1H Charge | 📱 Bluetooth 5.2",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>28H Battery:</strong> 7H earbuds + 21H case — lasts a full week of commuting.</li>
         <li>🤖 <strong>AI Calls:</strong> Dual-mic AI algorithm isolates your voice from street noise.</li>
@@ -3863,8 +3863,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I tested the Life P2i specifically for call quality — that's its killer feature. I took a 15-minute work call while walking through Talaat Harb Square during rush hour. My colleague on the other end said: 'It sounds like you're in a quiet room.' The AI dual-mic system genuinely isolates your voice. The Bass EQ mode delivers punchy low-end that beats earbuds costing twice as much. And 28 hours total? I charged the case on Sunday night and didn't need to charge again until Friday. At under 900 EGP with Anker's 18-month warranty, this is the best value TWS in Egypt for anyone who takes calls."
         <br>
@@ -3872,7 +3872,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">AI-Enhanced Calls: Your Voice, Not the Street</h2>
         <p class="text-gray-700">Two microphones per earbud feed an <strong>AI noise-isolation algorithm</strong> that separates your voice from background noise in real-time. Cairo traffic, café chatter, metro announcements — the algorithm suppresses them all. Your caller hears you clearly, not your environment. This is the P2i's standout feature vs. every other budget earbud.</p>
@@ -3889,8 +3889,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Total Playtime</td><td class="p-2 border font-bold">28 hours (7H + 21H case)</td></tr>
         <tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.2</td></tr>
@@ -3903,7 +3903,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14:</strong> Full Bluetooth 5.2 + AI calls.</li>
@@ -3914,7 +3914,7 @@ export const products = [
 </div>
 `,
                 features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 18-Month Anker Warranty"],
-                metaTitle: "Anker Soundcore Life P2i | 28H | AI Calls | Best Price Egypt",
+                metaTitle: "Anker Soundcore Life P2i | 28H | AI Calls | Egypt 2026",
                 metaDesc: "Buy Anker Soundcore Life P2i in Egypt. 28H battery, AI dual-mic calls, dual EQ, 10-min fast charge. Best value TWS. 18-month Anker warranty.",
                 faqs: [
                     { question: "Are they good for calls?", answer: "Yes, they feature AI-enhanced microphones that isolate your voice from background noise for clear calls." },
@@ -3924,11 +3924,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "سماعات انكر Soundcore Life P2i | 28 ساعة | مكالمات AI | ضمان 18 شهر",
-                shortDescription: "🎧 28 ساعة بطارية | 🤖 مكالمات AI بميكروفونين | 🎵 EQ مزدوج (Bass/Podcast) | ⚡ 10 دقائق = ساعة | 📱 Bluetooth 5.2",
+                name: "سماعات انكر سوندكور Life P2i | صوتك واضح وسط زحمة طلعت حرب | ضمان 18 شهر",
+                shortDescription: "مكالماتك واضحة في عز الدوشة 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
         <li>🎧 <strong>28 ساعة بطارية:</strong> 7 ساعات سماعات + 21 ساعة علبة — أسبوع كامل من التنقلات.</li>
         <li>🤖 <strong>مكالمات AI:</strong> خوارزمية ذكاء اصطناعي بميكروفونين بتعزل صوتك عن ضوضاء الشارع.</li>
@@ -3937,8 +3937,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "جربت Life P2i تحديداً لجودة المكالمات — دي ميزتها القاتلة. عملت مكالمة شغل 15 دقيقة وأنا ماشي في ميدان طلعت حرب وقت الذروة. زميلي على الطرف التاني قال: 'صوتك كإنك في أوضة هادية.' نظام AI بميكروفونين فعلاً بيعزل صوتك. وضع Bass بيدّي بيس قوي بيغلب سماعات بضعف السعر. و 28 ساعة إجمالي؟ شحنت العلبة يوم الحد بالليل وماحتجتش أشحن تاني غير يوم الجمعة. بأقل من 900 جنيه مع ضمان انكر 18 شهر، دي أفضل سماعات لاسلكية في مصر لأي حد بيعمل مكالمات كتير."
         <br>
@@ -3946,7 +3946,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مكالمات AI: صوتك أنت، مش الشارع</h2>
         <p class="text-gray-700">ميكروفونين في كل سماعة بيغذّوا <strong>خوارزمية عزل ضوضاء بالذكاء الاصطناعي</strong> بتفصل صوتك عن الضوضاء في الوقت الحقيقي. زحمة القاهرة، كلام الكافيه، إعلانات المترو — الخوارزمية بتكتمهم كلهم. اللي بيكلّمك بيسمعك بوضوح، مش البيئة حواليك. دي الميزة الأقوى لـ P2i مقارنة بكل سماعات الميزانية.</p>
@@ -3963,7 +3963,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">وقت التشغيل</td><td class="p-2 border font-bold">28 ساعة (7ساعات + 21ساعة علبة)</td></tr>
@@ -3977,7 +3977,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم كامل Bluetooth 5.2 + مكالمات AI.</li>
@@ -3988,7 +3988,7 @@ export const products = [
 </div>
 `,
                 features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 ضمان انكر 18 شهر"],
-                metaTitle: "سماعات انكر Life P2i | 28 ساعة | مكالمات AI | أفضل سعر مصر",
+                metaTitle: "سماعات انكر Life P2i | 28 ساعة | مكالمات AI | أرخص سعر",
                 metaDesc: "اشتري سماعات انكر Life P2i في مصر. 28 ساعة، مكالمات AI بميكروفونين، EQ مزدوج، شحن سريع 10 دقائق. ضمان انكر 18 شهر.",
                 faqs: [
                     { question: "هل هي جيدة للمكالمات؟", answer: "نعم، ميكروفونات ذكية تعزل صوتك عن الضوضاء لمكالمات واضحة." },
@@ -4022,21 +4022,21 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "joyroom ft3 smartwatch اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "joyroom ft3 smartwatch - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "joyroom ft3 smartwatch اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "joyroom ft3 smartwatch - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "joyroom ft3 smartwatch اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "joyroom ft3 smartwatch - 2 Year Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "joyroom ft3 smartwatch - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "joyroom ft3 smartwatch - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "joyroom ft3 smartwatch - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "joyroom ft3 smartwatch - Certified by Distributor", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "joyroom ft3 smartwatch - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "joyroom ft3 smartwatch - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom FT3 Smart Watch | IP68 Waterproof | 20 Sports Modes | Heart Rate | 12-Month Warranty",
                 shortDescription: "⌚ IP68 Waterproof | 🏃 20 Sports Modes | ❤️ Heart Rate Monitor | 📱 iPhone 17 & Samsung S26 | 🔋 7-Day Battery",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
         <li>⌚ <strong>IP68 Waterproof:</strong> Survives rain, sweat, and hand washing.</li>
         <li>🏃 <strong>20 Sports Modes:</strong> Walking, running, cycling, swimming, and 16 more.</li>
@@ -4045,8 +4045,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I wore the FT3 for 3 weeks straight — gym sessions at Gold's Gym Maadi, morning walks along the Nile Corniche, and daily commuting. The step counter matched my iPhone's Health app within 5% accuracy. Heart rate readings during workouts were consistent. The screen is bright enough to read in direct Cairo sunlight. WhatsApp notifications show Arabic text perfectly. Battery lasted 6 full days with always-on notifications. It won't replace an Apple Watch for iOS power users, but it covers 80% of smartwatch needs at 10% of the price. For anyone who wants fitness tracking + notifications without spending 15,000+ EGP, the FT3 is the answer."
         <br>
@@ -4054,7 +4054,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">20 Sports Modes: From Gym to Nile Corniche</h2>
         <p class="text-gray-700">Track <strong>walking, running, cycling, swimming</strong>, and 16 more activities. Each mode logs duration, calories, heart rate zones, and distance (GPS via phone). The data syncs to the companion app on your <strong>iPhone 17 or Samsung S26</strong> for detailed charts and weekly progress tracking.</p>
@@ -4071,8 +4071,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Water Resistance</td><td class="p-2 border font-bold">IP68</td></tr>
         <tr><td class="p-2 border">Sports Modes</td><td class="p-2 border">20 modes</td></tr>
@@ -4085,7 +4085,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14:</strong> Full app support + notifications.</li>
@@ -4095,7 +4095,7 @@ export const products = [
 </div>
 `,
                 features: ["⌚ IP68 Waterproof", "🏃 20 Sports Modes", "❤️ 24/7 Heart Rate", "🔋 7-Day Battery", "📱 iPhone 17 & Samsung S26", "💬 Arabic Notifications", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom FT3 Smart Watch | IP68 | 20 Sports | Heart Rate | Egypt",
+                metaTitle: "Joyroom FT3 Smart Watch | IP68 | 20 Sports | Heart Rate | 100% Authentic",
                 metaDesc: "Buy Joyroom FT3 Smart Watch in Egypt. IP68 waterproof, 20 sports modes, heart rate, 7-day battery. Works with iPhone 17 & Samsung. 12-month warranty.",
                 faqs: [
                     { question: "Does it support Arabic?", answer: "Yes, the watch interface and notifications fully support the Arabic language." },
@@ -4105,11 +4105,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "ساعة جوي روم FT3 الذكية | IP68 مقاومة للماء | 20 وضع رياضي | ضمان 12 شهر",
-                shortDescription: "⌚ IP68 مقاومة للماء | 🏃 20 وضع رياضي | ❤️ مراقبة نبض القلب | 📱 ايفون 17 وسامسونج S26 | 🔋 7 أيام بطارية",
+                name: "ساعة جوي روم FT3 الذكية | بديل اقتصادي يعيش معاك الجيم والمشاوير | ضمان 12 شهر",
+                shortDescription: "أشيك وأقوى ساعة في فئتها ⌚ IP68 غسيل إيدين وعرق الجيم | 🏃 20 وضع رياضي | 💬 إشعارات عربي مظبوطة | 🔋 7 أيام بطارية",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⌚ <strong>IP68 مقاومة للماء:</strong> بتستحمل المطر والعرق وغسل الإيدين.</li>
         <li>🏃 <strong>20 وضع رياضي:</strong> مشي، جري، دراجات، سباحة، و 16 أكتر.</li>
@@ -4118,8 +4118,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "لبست FT3 لمدة 3 أسابيع متواصلة — تمارين في Gold's Gym المعادي، مشي الصبح على كورنيش النيل، وتنقلات يومية. عدّاد الخطوات طابق تطبيق الصحة بتاع الايفون بدقة 5%. قراءات النبض أثناء التمارين كانت متسقة. الشاشة واضحة كفاية للقراءة تحت شمس القاهرة المباشرة. إشعارات الواتساب بتعرض النص العربي بشكل مثالي. البطارية استحملت 6 أيام كاملة مع الإشعارات شغالة طول الوقت. مش هتحل محل Apple Watch لمستخدمي iOS المحترفين، بس بتغطّي 80% من احتياجات الساعة الذكية بـ 10% من السعر. لأي حد عايز تتبع لياقة + إشعارات من غير ما يصرف 15,000+ جنيه، FT3 هي الإجابة."
         <br>
@@ -4127,7 +4127,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">20 وضع رياضي: من الجيم لكورنيش النيل</h2>
         <p class="text-gray-700">تتبّع <strong>المشي والجري والدراجات والسباحة</strong> و 16 نشاط تاني. كل وضع بيسجّل المدة والسعرات ومناطق النبض والمسافة (GPS عبر الموبايل). البيانات بتتزامن مع تطبيق الموبايل على <strong>ايفون 17 أو سامسونج S26</strong> لرسوم بيانية مفصلة وتتبع أسبوعي.</p>
@@ -4144,7 +4144,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">مقاومة الماء</td><td class="p-2 border font-bold">IP68</td></tr>
@@ -4158,7 +4158,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم كامل للتطبيق + إشعارات.</li>
@@ -4168,7 +4168,7 @@ export const products = [
 </div>
 `,
                 features: ["⌚ IP68 مقاومة للماء", "🏃 20 وضع رياضي", "❤️ مراقبة النبض 24/7", "🔋 7 أيام بطارية", "📱 ايفون 17 وسامسونج S26", "💬 إشعارات عربية", "🏆 ضمان 12 شهر"],
-                metaTitle: "ساعة جوي روم FT3 | IP68 | 20 وضع رياضي | مراقبة النبض | مصر",
+                metaTitle: "ساعة جوي روم FT3 | IP68 | 20 وضع رياضي | مراقبة النبض | الدفع عند الاستلام",
                 metaDesc: "اشتري ساعة جوي روم FT3 في مصر. IP68 مقاومة للماء، 20 وضع رياضي، مراقبة النبض، 7 أيام بطارية. متوافقة مع ايفون 17 وسامسونج. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل تدعم العربية؟", answer: "نعم، الواجهة والإشعارات تدعم العربية بالكامل." },
@@ -4200,22 +4200,22 @@ export const products = [
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "joyroom car mount zs290 Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "joyroom car mount zs290 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "joyroom car mount zs290 - Best Price in Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "joyroom car mount zs290 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "joyroom car mount zs290 - Official Distributor Cairo", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "joyroom car mount zs290 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "joyroom car mount zs290 - 2 Year Warranty Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "joyroom car mount zs290 اصلي في مصر - توصيل سريع القاهرة والجيزة", order: 7, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "joyroom car mount zs290 - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "joyroom car mount zs290 - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "joyroom car mount zs290 - Competitive Pricing Egypt", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "joyroom car mount zs290 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "joyroom car mount zs290 - Authorized Egypt Dealer", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "joyroom car mount zs290 الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "joyroom car mount zs290 - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
+            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "joyroom car mount zs290 - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false }
         ],
         translations: {
             en: {
                 name: "Joyroom Magnetic Car Mount ZS290 | N52 Magnets | MagSafe | 360° | 12-Month Warranty",
                 shortDescription: "🧲 N52 Strong Magnets | 📱 MagSafe iPhone 17/16/15 | 🔄 360° Rotation | ❄️ Air Vent Clip | 🖐️ One-Hand Operation",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>🧲 <strong>N52 Magnets:</strong> Strongest grade — holds iPhone 17 Pro Max on speed bumps.</li>
         <li>📱 <strong>MagSafe Direct:</strong> iPhone 15/16/17 attach without metal plate.</li>
@@ -4224,8 +4224,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I drove Cairo-Alexandria highway and back with iPhone 15 Pro Max on this mount. Not a single wobble — even when I hit a pothole near the Ain Sokhna exit. The N52 magnets are genuinely strong. MagSafe iPhones snap on instantly without any metal plate. The air vent clip doesn't rattle, even with the AC on full blast in August heat. At this price, it's the easiest car accessory decision you'll make. I now keep one in each car."
         <br>
@@ -4233,7 +4233,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">N52 Magnets: The Strongest Grade Available</h2>
         <p class="text-gray-700">Cheap car mounts use N35 or N40 magnets that can't hold heavy phones. The ZS290 uses <strong>N52 neodymium magnets</strong> — the strongest commercially available grade. Your <strong>iPhone 17 Pro Max</strong> (the heaviest iPhone ever) stays locked in place over speed bumps, sharp turns, and rough Cairo roads. No bounce, no slide.</p>
@@ -4250,8 +4250,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Magnet Grade</td><td class="p-2 border font-bold">N52 Neodymium</td></tr>
         <tr><td class="p-2 border">MagSafe</td><td class="p-2 border">Direct attach (iPhone 15/16/17)</td></tr>
@@ -4263,7 +4263,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15 (MagSafe):</strong> Direct magnetic attach.</li>
@@ -4274,7 +4274,7 @@ export const products = [
 </div>
 `,
                 features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom Magnetic Car Mount ZS290 | N52 MagSafe | Egypt",
+                metaTitle: "Joyroom Magnetic Car Mount ZS290 | N52 MagSafe | Buy Original",
                 metaDesc: "Buy Joyroom magnetic car mount in Egypt. N52 magnets, MagSafe iPhone direct attach, 360° rotation, air vent clip. Holds iPhone 17 Pro Max. 12-month warranty.",
                 faqs: [
                     { question: "Are N52 magnets strong enough for iPhone 17 Pro Max?", answer: "Yes, the powerful N52 magnets are strong enough to securely hold heavy phones like the iPhone 17 Pro Max, even on bumpy roads." },
@@ -4285,11 +4285,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "حامل جوال مغناطيسي جوي روم ZS290 | مغناطيس N52 | MagSafe | 360° | ضمان 12 شهر",
-                shortDescription: "🧲 مغناطيس N52 الأقوى | 📱 MagSafe ايفون 17/16/15 | 🔄 دوران 360° | ❄️ تثبيت في التكييف | 🖐️ بيد واحدة",
+                name: "حامل جوال مغناطيسي جوي روم ZS290 | موبايلك مش هيقع في مطبات القاهرة | ضمان 12 شهر",
+                shortDescription: "أقوى مغناطيس للسيارة في مصر 🧲 N52 بيمسك ايفون برو ماكس كأنه ملزوق | ❄️ بيركب في التكييف من غير ما يكسر الريش | 🖐️ بتركبه وتفكه بإيد واحدة",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
         <li>🧲 <strong>مغناطيس N52:</strong> أقوى درجة — بيمسك ايفون 17 برو ماكس على المطبات.</li>
         <li>📱 <strong>MagSafe مباشر:</strong> ايفون 15/16/17 بيتثبت من غير قطعة معدنية.</li>
@@ -4298,8 +4298,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "سقت طريق القاهرة-الإسكندرية رايح جاي وايفون 15 برو ماكس على الحامل ده. ولا اهتزازة واحدة — حتى لما ضربت حفرة قرب مخرج العين السخنة. مغناطيسات N52 قوية فعلاً. ايفون MagSafe بيتثبت فوراً من غير أي قطعة معدنية. مشبك التكييف مش بيطقطق، حتى مع التكييف على الآخر في حر أغسطس. بالسعر ده، أسهل قرار إكسسوار سيارة هتاخده. دلوقتي عندي واحد في كل عربية."
         <br>
@@ -4307,7 +4307,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مغناطيس N52: أقوى درجة متاحة</h2>
         <p class="text-gray-700">حوامل السيارة الرخيصة بتستخدم مغناطيس N35 أو N40 مش بيقدروا يمسكوا الهواتف التقيلة. ZS290 بيستخدم <strong>مغناطيسات نيوديميوم N52</strong> — أقوى درجة متاحة تجارياً. <strong>ايفون 17 برو ماكس</strong> (أتقل ايفون على الإطلاق) بيفضل ثابت فوق المطبات واللفات الحادة وطرق القاهرة الوعرة. لا اهتزاز ولا انزلاق.</p>
@@ -4324,7 +4324,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">درجة المغناطيس</td><td class="p-2 border font-bold">N52 نيوديميوم</td></tr>
@@ -4337,7 +4337,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15 (MagSafe):</strong> تثبيت مغناطيسي مباشر.</li>
@@ -4348,7 +4348,7 @@ export const products = [
 </div>
 `,
                 features: ["🧲 مغناطيس N52 الأقوى", "📱 MagSafe تثبيت مباشر", "🔄 360° مفصل كروي", "❄️ مشبك التكييف", "🖐️ بيد واحدة", "📦 قطعة معدنية مشمولة", "🏆 ضمان 12 شهر"],
-                metaTitle: "حامل جوال مغناطيسي جوي روم ZS290 | N52 MagSafe | مصر",
+                metaTitle: "حامل جوال مغناطيسي جوي روم ZS290 | N52 MagSafe | في مصر 2026",
                 metaDesc: "اشتري حامل جوال مغناطيسي جوي روم في مصر. مغناطيس N52، تثبيت MagSafe مباشر، دوران 360°، مشبك التكييف. يمسك ايفون 17 برو ماكس. ضمان 12 شهر.",
                 faqs: [
                     {
@@ -4388,7 +4388,7 @@ export const products = [
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger Original Egypt - Fast Cairo Delivery", order: 0, isPrimary: true },
+            { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
             { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم 25 واط اصلي في مصر - توصيل سريع القاهرة", order: 1, isPrimary: false },
             { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Best Price Egypt", order: 2, isPrimary: false },
             { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26", order: 3, isPrimary: false },
@@ -4400,8 +4400,8 @@ export const products = [
                 name: "Joyroom 25W PD Charger | iPhone 17 0→50% in 25 Min | Samsung Super Fast | 36-Month Warranty",
                 shortDescription: "⚡ 25W PD 3.0 | 📱 iPhone 17 0→50% in 25 Min | 📱 Samsung S26 Super Fast | 🛡️ MultiProtect | 🔌 Ultra-Compact | 🏆 36-Month Warranty",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>25W PD 3.0:</strong> iPhone 17 from 0→50% in just 25 minutes.</li>
         <li>📱 <strong>Samsung Super Fast:</strong> S26/S25 Super Fast Charging support.</li>
@@ -4410,8 +4410,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "The 25W sweet spot — this charger bridges the gap between iPhone and Samsung perfectly. I tested it with both an iPhone 17 and a Samsung S26 Ultra. iPhone 17 hit 50% in 24 minutes. Samsung S26 Ultra reached 50% in 28 minutes with Super Fast Charging. In a household with mixed Apple/Samsung users (which describes most Egyptian families), this single charger handles everyone. The 36-month warranty is 3x what most brands offer. And the compact design? Smaller than a matchbox. I've been recommending this as the 'family charger' to every customer."
         <br>
@@ -4419,7 +4419,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">The Universal Fast Charger: iPhone + Samsung</h2>
         <p class="text-gray-700">iPhone 17 supports up to 30W. Samsung S26 supports up to 45W. This <strong>25W PD 3.0 charger</strong> delivers near-maximum speed for iPhone (83% of max) and excellent speed for Samsung with <strong>Super Fast Charging protocol</strong>. One charger for the whole family — no more hunting for the 'right' charger.</p>
@@ -4436,8 +4436,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">25W PD 3.0</td></tr>
         <tr><td class="p-2 border">Port</td><td class="p-2 border">USB-C</td></tr>
@@ -4450,7 +4450,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15:</strong> 25W PD fast charging (near-max speed).</li>
@@ -4462,7 +4462,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 25W PD 3.0 Fast Charging", "📱 iPhone 17: 0→50% in 25 Min", "📱 Samsung Super Fast Charging", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Travel Design", "🌍 AC 100-240V Universal", "🏆 36-Month Warranty"],
-                metaTitle: "Joyroom 25W PD Charger | iPhone 17 + Samsung S26 | Egypt 2026",
+                metaTitle: "Joyroom 25W PD Charger | iPhone 17 + Samsung S26 | Official Warranty",
                 metaDesc: "Buy Joyroom 25W PD charger in Egypt. iPhone 17 0→50% in 25 min, Samsung Super Fast, MultiProtect safety. 36-month warranty. Best price.",
                 faqs: [
                     { question: "Can this charger fast charge iPhone 17?", answer: "Yes! The Joyroom 25W charger provides optimal fast charging for iPhone 17, charging from 0-50% in approximately 25 minutes. iPhone 17 supports up to 30W, so this 25W charger delivers near-maximum speeds." },
@@ -4472,11 +4472,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن جوي روم 25 واط PD | ايفون 17 من 0→50% في 25 دقيقة | سامسونج سوبر فاست | ضمان 36 شهر",
-                shortDescription: "⚡ 25 واط PD 3.0 | 📱 ايفون 17 من 0→50% في 25 دقيقة | 📱 سامسونج S26 سوبر فاست | 🛡️ حماية متعددة | 🏆 ضمان 36 شهر",
+                name: "شاحن جوي روم 25 واط PD | الشاحن الوحيد اللي هتحتاجه للبيت كله | ضمان 36 شهر",
+                shortDescription: "شاحن واحد بيخلص مشاكل البيت ⚡ 25 واط بيشحن ايفون وسامسونج بسرعة جبارة | 🛡️ مبيهنجش التاتش زي الشواحن المضروبة | 🏆 ضمان 3 سنين كاملين",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>25 واط PD 3.0:</strong> ايفون 17 من 0→50% في 25 دقيقة بس.</li>
         <li>📱 <strong>سامسونج سوبر فاست:</strong> دعم S26/S25 Super Fast Charging.</li>
@@ -4485,8 +4485,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "نقطة التوازن المثالية بـ 25 واط — الشاحن ده بيسد الفجوة بين ايفون وسامسونج بشكل مثالي. جربته مع ايفون 17 وسامسونج S26 ألترا. ايفون 17 وصل 50% في 24 دقيقة. سامسونج S26 ألترا وصل 50% في 28 دقيقة بسوبر فاست. في بيت فيه خليط Apple/Samsung (وده بيوصف معظم البيوت المصرية)، شاحن واحد بيخدم الكل. ضمان 36 شهر يعني 3 أضعاف معظم الماركات. والتصميم الصغير؟ أصغر من علبة كبريت. بنصح بيه كـ 'شاحن العيلة' لكل عميل."
         <br>
@@ -4494,7 +4494,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">الشاحن العالمي: ايفون + سامسونج</h2>
         <p class="text-gray-700">ايفون 17 بيدعم لحد 30 واط. سامسونج S26 بيدعم لحد 45 واط. <strong>شاحن 25 واط PD 3.0</strong> بيدّي سرعة قريبة من القصوى للايفون (83% من الحد الأقصى) وسرعة ممتازة لسامسونج ببروتوكول <strong>Super Fast Charging</strong>. شاحن واحد للعيلة كلها — مفيش دور على الشاحن 'الصح'.</p>
@@ -4511,7 +4511,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">25 واط PD 3.0</td></tr>
@@ -4525,7 +4525,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15:</strong> شحن سريع 25 واط PD (قريب من الأقصى).</li>
@@ -4537,7 +4537,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ شحن سريع 25 واط PD 3.0", "📱 ايفون 17: 0→50% في 25 دقيقة", "📱 سامسونج سوبر فاست", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير للسفر", "🌍 AC 100-240V عالمي", "🏆 ضمان 36 شهر"],
-                metaTitle: "شاحن جوي روم 25 واط PD | ايفون 17 + سامسونج S26 | مصر 2026",
+                metaTitle: "شاحن جوي روم 25 واط PD | ايفون 17 + سامسونج S26 | أصلي 100%",
                 metaDesc: "اشتري شاحن جوي روم 25 واط PD في مصر. ايفون 17 من 0→50% في 25 دقيقة، سامسونج سوبر فاست، حماية متعددة. ضمان 36 شهر. أفضل سعر.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج S26 السريع؟", answer: "نعم، يدعم بروتوكول Super Fast Charging من سامسونج. رغم أن S26 يقبل حتى 45 واط، إلا أن 25 واط توفر سرعات شحن ممتازة، تصل إلى 50% في حوالي 30 دقيقة." },
@@ -4579,8 +4579,8 @@ export const products = [
                 name: "Joyroom 30W PD+QC Charger | iPhone 17 MAX Speed | 0→50% in 20 Min | 36-Month Warranty",
                 shortDescription: "⚡ 30W MAX iPhone 17 Speed | 📱 0→50% in 20 Min | 🔄 Dual PD 3.0 + QC 3.0 | 📱 Samsung S26 Super Fast | ✅ CE/FCC Certified | 🏆 36-Month Warranty",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>30W MAX:</strong> iPhone 17's absolute maximum charging speed.</li>
         <li>📱 <strong>20 Minutes:</strong> iPhone 17 from 0→50% in just 20 minutes.</li>
@@ -4589,8 +4589,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "This is THE charger for iPhone 17 owners. Apple caps iPhone 17 at 30W — this charger delivers exactly that. I measured 0→50% in 19 minutes and 42 seconds with a USB-C power meter. That's the fastest possible iPhone charge. But what makes this special is the dual PD+QC protocol — it also fast-charges Samsung, Xiaomi, OnePlus, and Pixel at full speed. In our office, one charger serves 6 different phone brands. The intelligent protocol detection switches automatically. At 280 EGP with a 36-month warranty, this is the last charger you'll need to buy for 3 years."
         <br>
@@ -4598,7 +4598,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">30W: iPhone 17's Absolute Maximum</h2>
         <p class="text-gray-700">Apple designed iPhone 17 to accept a maximum of <strong>30W wired charging</strong>. A 20W charger leaves 33% speed on the table. A 25W charger leaves 17%. This <strong>30W charger delivers 100% of iPhone 17's maximum speed</strong>. Result: <strong>0→50% in 20 minutes</strong>. That's the fastest you can possibly charge an iPhone 17 with any charger at any price.</p>
@@ -4615,8 +4615,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">30W (iPhone 17 MAX)</td></tr>
         <tr><td class="p-2 border">Protocols</td><td class="p-2 border">PD 3.0 + QC 3.0 (Dual)</td></tr>
@@ -4629,7 +4629,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15:</strong> 30W PD MAX speed.</li>
@@ -4651,11 +4651,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن جوي روم 30 واط PD+QC | سرعة ايفون 17 القصوى | 0→50% في 20 دقيقة | ضمان 36 شهر",
-                shortDescription: "⚡ 30 واط سرعة ايفون 17 القصوى | 📱 0→50% في 20 دقيقة | 🔄 PD 3.0 + QC 3.0 مزدوج | 📱 سامسونج سوبر فاست | 🏆 ضمان 36 شهر",
+                name: "شاحن جوي روم 30 واط PD+QC | شاحن واحد هيشحن كل الموبايلات بأقصى سرعة | ضمان 36 شهر",
+                shortDescription: "سرعة ايفون 17 القصوى ⚡ 0→50% في 20 دقيقة | 🔄 بيشحن Apple وسامسونج و Xiaomi | 🏆 ضمان 3 سنين",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>30 واط MAX:</strong> أقصى سرعة شحن لايفون 17 على الإطلاق.</li>
         <li>📱 <strong>20 دقيقة:</strong> ايفون 17 من 0→50% في 20 دقيقة بس.</li>
@@ -4664,8 +4664,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "ده الشاحن لأصحاب ايفون 17. Apple حدّت ايفون 17 بـ 30 واط — الشاحن ده بيدّي بالظبط كده. قست 0→50% في 19 دقيقة و 42 ثانية بجهاز قياس طاقة USB. ده أسرع شحن ممكن للايفون. بس اللي بيميّزه هو البروتوكول المزدوج PD+QC — كمان بيشحن سامسونج وXiaomi وOnePlus وPixel بأقصى سرعة. في مكتبنا، شاحن واحد بيخدم 6 ماركات موبايل مختلفة. الكشف الذكي بيغيّر البروتوكول أوتوماتيك. بـ 280 جنيه مع ضمان 36 شهر، ده آخر شاحن هتحتاج تشتريه لـ 3 سنين."
         <br>
@@ -4673,7 +4673,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">30 واط: أقصى سرعة لايفون 17 على الإطلاق</h2>
         <p class="text-gray-700">Apple صممت ايفون 17 يقبل أقصى <strong>30 واط شحن سلكي</strong>. شاحن 20 واط بيسيب 33% سرعة على الطاولة. شاحن 25 واط بيسيب 17%. <strong>شاحن 30 واط بيدّي 100% من سرعة ايفون 17 القصوى</strong>. النتيجة: <strong>0→50% في 20 دقيقة</strong>. ده أسرع ما يمكن شحن ايفون 17 بأي شاحن بأي سعر.</p>
@@ -4690,7 +4690,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">30 واط (ايفون 17 MAX)</td></tr>
@@ -4704,7 +4704,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15:</strong> 30 واط PD سرعة قصوى.</li>
@@ -4716,7 +4716,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 30 واط سرعة ايفون 17 القصوى", "📱 0→50% في 20 دقيقة", "🔄 PD 3.0 + QC 3.0 مزدوج", "📱 سامسونج سوبر فاست", "✅ معتمد CE/FCC/RoHS", "🧠 كشف ذكي للبروتوكول", "🏆 ضمان 36 شهر"],
-                metaTitle: "شاحن جوي روم 30 واط PD+QC | سرعة ايفون 17 القصوى | مصر 2026",
+                metaTitle: "شاحن جوي روم 30 واط PD+QC | سرعة ايفون 17 القصوى | أصلي 100%",
                 metaDesc: "اشتري شاحن جوي روم 30 واط في مصر. سرعة ايفون 17 القصوى 30 واط، 0→50% في 20 دقيقة، PD+QC مزدوج، CE/FCC. ضمان 36 شهر. أفضل سعر.",
                 faqs: [
                     { question: "هل 30 واط هي السرعة القصوى للايفون 17؟", answer: "نعم! ايفون 17 من ابل يدعم حد أقصى 30 واط للشحن السلكي. شاحن جوي روم 30 واط يوفر السرعة القصوى الكاملة، يشحن 0-50% في 20 دقيقة فقط." },
@@ -4758,8 +4758,8 @@ export const products = [
                 name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand | 18-Month Warranty",
                 shortDescription: "🔋 10000mAh (2x iPhone 17) | 🧲 MagSafe N52 Snap | ⚡ 15W Wireless + 20W USB-C | 📐 Built-in Kickstand | 📱 Charge 2 Devices | 🏆 18-Month Warranty",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>10000mAh:</strong> Charges iPhone 17 fully 2+ times.</li>
         <li>🧲 <strong>MagSafe N52:</strong> Snaps onto iPhone — no cable needed.</li>
@@ -4768,8 +4768,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I took this on a Cairo-Sharm el-Sheikh trip — 6 hours on the bus with no wall outlet. Snapped it on my iPhone 15 Pro and forgot about it. By the time we arrived, my phone was at 100% and the power bank still had 45% left. The kickstand is genius for plane tray tables or hotel nightstands. The magnetic snap is strong enough that I could hold the phone by the power bank without it falling. At home, I charge my iPhone wirelessly AND my wife's Samsung via USB-C cable simultaneously. It's basically a portable MagSafe charger + power bank + phone stand in one. At 850 EGP, it's a no-brainer for any iPhone 15/16/17 owner."
         <br>
@@ -4777,7 +4777,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">MagSafe Snap: Just Stick It On</h2>
         <p class="text-gray-700"><strong>N52 neodymium magnets</strong> align perfectly with iPhone 17/16/15/14/13/12 MagSafe rings. No cable, no fumbling — just snap it on the back of your phone and charging starts instantly. The magnetic grip is strong enough to hold while you walk, text, or even take photos. <strong>Works through MagSafe-compatible cases.</strong></p>
@@ -4794,8 +4794,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">10000mAh</td></tr>
         <tr><td class="p-2 border">Wireless Output</td><td class="p-2 border">15W MagSafe</td></tr>
@@ -4808,7 +4808,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14/13/12 (MagSafe):</strong> 15W wireless snap-on.</li>
@@ -4819,7 +4819,7 @@ export const products = [
 </div>
 `,
                 features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless | Egypt",
+                metaTitle: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless | Next Day Delivery",
                 metaDesc: "Buy Joyroom MagSafe power bank in Egypt. 10000mAh, 15W wireless + 20W wired, N52 magnets, kickstand. iPhone 17/16/15. 18-month warranty. Best price.",
                 faqs: [
                     { question: "How many times can it charge iPhone 17?", answer: "The 10000mAh capacity can fully charge iPhone 17 approximately 2 times, or provide over 2.5 charges for iPhone 17 Pro. Actual results vary based on usage during charging." },
@@ -4828,11 +4828,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "باور بانك جوي روم MagSafe 10000 مللي | 15 واط لاسلكي + 20 واط سلكي | حامل مدمج | ضمان 18 شهر",
-                shortDescription: "🔋 10000 مللي (مرتين ايفون 17) | 🧲 MagSafe N52 | ⚡ 15 واط لاسلكي + 20 واط USB-C | 📐 حامل مدمج | 📱 شحن جهازين | 🏆 ضمان 18 شهر",
+                name: "باور بانك جوي روم MagSafe 10000 | ألزقه في ظهر الايفون وكمل تصوير | ضمان 18 شهر",
+                shortDescription: "منقذ بطارية الايفون في رحلات الساحل 🧲 MagSafe N52 قوي مش هيقع | ⚡ 15 واط لاسلكي + 20 واط سلكي | 📐 حامل مدمج للفيديوهات",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>🔋 <strong>10000 مللي أمبير:</strong> بيشحن ايفون 17 بالكامل مرتين+.</li>
         <li>🧲 <strong>MagSafe N52:</strong> بيتثبت على الايفون — مفيش كابل.</li>
@@ -4841,8 +4841,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "أخدته في رحلة القاهرة-شرم الشيخ — 6 ساعات في الباص من غير بريزة. ثبّته على ايفون 15 برو ونسيته. لما وصلنا، الموبايل كان 100% والباور بانك لسه فيه 45%. الحامل المدمج عبقري لطاولة الطيارة أو الكومودينو في الفندق. المغناطيس قوي كفاية إني أمسك الموبايل من الباور بانك ومش بيقع. في البيت، بشحن ايفوني لاسلكي وسامسونج مراتي بكابل USB-C في نفس الوقت. هو أساساً شاحن MagSafe متنقل + باور بانك + حامل موبايل في واحد. بـ 850 جنيه، قرار واضح لأي حد عنده ايفون 15/16/17."
         <br>
@@ -4850,7 +4850,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">MagSafe: بس ثبّته</h2>
         <p class="text-gray-700"><strong>مغناطيسات نيوديميوم N52</strong> بتتوافق بشكل مثالي مع حلقات MagSafe في ايفون 17/16/15/14/13/12. مفيش كابل، مفيش عناء — بس ثبّته على ظهر موبايلك والشحن بيبدأ فوراً. المغناطيس قوي كفاية تمسك وانت بتمشي، بتكتب، أو حتى بتصوّر. <strong>بيشتغل من خلال كفرات MagSafe.</strong></p>
@@ -4867,7 +4867,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">10000 مللي أمبير</td></tr>
@@ -4881,7 +4881,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14/13/12 (MagSafe):</strong> 15 واط لاسلكي.</li>
@@ -4892,7 +4892,7 @@ export const products = [
 </div>
 `,
                 features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر"],
-                metaTitle: "باور بانك جوي روم MagSafe 10000 | 15 واط لاسلكي | مصر",
+                metaTitle: "باور بانك جوي روم MagSafe 10000 | 15 واط لاسلكي | ضمان الوكيل",
                 metaDesc: "اشتري باور بانك جوي روم MagSafe في مصر. 10000 مللي، 15 واط لاسلكي + 20 واط سلكي، مغناطيس N52، حامل مدمج. ايفون 17/16/15. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
                     { question: "كم شحنة يعطي MagSafe 10000 لايفون 17؟", answer: "سعة 10000 مللي أمبير تشحن الايفون 17 بالكامل حوالي مرتين، أو أكثر من 2.5 شحنة لايفون 17 برو. النتائج تختلف حسب الاستخدام أثناء الشحن." },
@@ -4932,8 +4932,8 @@ export const products = [
                 name: "Joyroom 60W Car Charger | 3-in-1 Retractable Cables | 30W+30W Dual | iPhone 17 MAX | 18-Month Warranty",
                 shortDescription: "⚡ 60W Total (30W+30W) | 🔌 Built-in Retractable USB-C | 📱 iPhone 17 MAX 30W | 📱 Samsung S26 Super Fast | 🚗 Fits All Cars | 🏆 18-Month Warranty",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>60W Total:</strong> 30W + 30W — two phones at full speed simultaneously.</li>
         <li>🔌 <strong>Retractable Cables:</strong> Built-in USB-C cables, no cable mess.</li>
@@ -4942,8 +4942,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "Tested this on a family road trip to Ain Sokhna — 4 people, 4 phones, and zero cable clutter. The retractable cables are a game-changer. Pull them out when you need them, retract when you don't. No more tangled cables in the center console. Each port delivers a real 30W — I verified with a USB meter. My iPhone 17 hit 50% in 20 minutes while my son's Samsung S25 charged at the same speed on the other cable. The 1-meter retractable reach easily gets to backseat passengers. After 3 months of daily Cairo commuting, the retractable mechanism still works perfectly. This replaced a charger + 2 loose cables in my car."
         <br>
@@ -4951,7 +4951,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">60W = Two Phones at MAX Speed</h2>
         <p class="text-gray-700">Most car chargers split power when charging two devices. This one delivers <strong>true 30W + 30W</strong>. iPhone 17 gets its absolute maximum 30W speed on one port. Samsung S26 gets 30W Super Fast Charging on the other. Both simultaneously. <strong>No power sharing, no speed reduction.</strong></p>
@@ -4968,8 +4968,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">Total Power</td><td class="p-2 border font-bold">60W (30W + 30W)</td></tr>
         <tr><td class="p-2 border">Cables</td><td class="p-2 border">Built-in Retractable USB-C</td></tr>
@@ -4982,7 +4982,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15:</strong> 30W MAX speed (USB-C).</li>
@@ -4993,7 +4993,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 60W Total (30W+30W)", "🔌 Retractable USB-C Cables", "📱 iPhone 17 MAX 30W", "📱 Samsung S26 Super Fast", "🚗 Universal 12V Fit", "📰 1m Reach to Backseat", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom 60W Car Charger | Retractable 3-in-1 | iPhone 17 MAX | Egypt",
+                metaTitle: "Joyroom 60W Car Charger | Retractable 3-in-1 | iPhone 17 MAX | Egypt 2026",
                 metaDesc: "Buy Joyroom 60W car charger in Egypt. 30W+30W dual, retractable USB-C cables, iPhone 17 MAX speed, Samsung Super Fast. Fits all cars. 18-month warranty.",
                 faqs: [
                     { question: "Can it charge two phones at full speed?", answer: "Yes! The 60W total output splits to 30W + 30W when charging two devices. iPhone 17 gets its full 30W maximum speed, and Samsung S26 gets excellent 30W fast charging." },
@@ -5003,11 +5003,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "شاحن سيارة جوي روم 60 واط | 3 في 1 كابلات قابلة للسحب | 30+30 واط | ايفون 17 MAX | ضمان 18 شهر",
-                shortDescription: "⚡ 60 واط (30+30) | 🔌 كابلات USB-C مدمجة قابلة للسحب | 📱 ايفون 17 MAX 30 واط | 📱 سامسونج S26 سوبر فاست | 🚗 كل السيارات | 🏆 ضمان 18 شهر",
+                name: "شاحن سيارة جوي روم 60 واط 3 في 1 | مش هتتخانقوا على الشاحن في زحمة الدائري | ضمان 18 شهر",
+                shortDescription: "كابلات بتتسحب وتختفي من غير كركبة في العربية ⚡ 30+30 واط فعلية بتشحن جهازين سوبر فاست في نفس الوقت",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
         <li>⚡ <strong>60 واط إجمالي:</strong> 30+30 واط — تليفونين بأقصى سرعة في نفس الوقت.</li>
         <li>🔌 <strong>كابلات قابلة للسحب:</strong> USB-C مدمج، مفيش فوضى كابلات.</li>
@@ -5016,8 +5016,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "جربته في رحلة عائلية للعين السخنة — 4 أشخاص، 4 موبايلات، وصفر فوضى كابلات. الكابلات القابلة للسحب غيّرت اللعبة. اسحبهم لما تحتاج، ارجّعهم لما تخلّص. مفيش كابلات متلخبطة في الكونسول. كل منفذ بيدّي 30 واط حقيقي — قستهم بجهاز USB. ايفون 17 وصل 50% في 20 دقيقة وسامسونج ابني S25 اتشحن بنفس السرعة على الكابل التاني. الكابل القابل للسحب بيوصل 1 متر للمقعد الخلفي براحة. بعد 3 شهور تنقلات يومية في القاهرة، آلية السحب لسه بتشتغل زي الفل. استبدل شاحن + 2 كابل في عربيتي."
         <br>
@@ -5025,7 +5025,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">60 واط = تليفونين بأقصى سرعة</h2>
         <p class="text-gray-700">معظم شواحن السيارة بتقسم الطاقة لما تشحن جهازين. ده بيدّي <strong>30+30 واط حقيقي</strong>. ايفون 17 بياخد سرعته القصوى 30 واط على منفذ. سامسونج S26 بياخد 30 واط سوبر فاست على التاني. الاتنين في نفس الوقت. <strong>مفيش تقسيم طاقة، مفيش تقليل سرعة.</strong></p>
@@ -5042,7 +5042,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">القوة الإجمالية</td><td class="p-2 border font-bold">60 واط (30+30 واط)</td></tr>
@@ -5056,7 +5056,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15:</strong> 30 واط سرعة قصوى (USB-C).</li>
@@ -5067,7 +5067,7 @@ export const products = [
 </div>
 `,
                 features: ["⚡ 60 واط (30+30)", "🔌 كابلات USB-C قابلة للسحب", "📱 ايفون 17 MAX 30 واط", "📱 سامسونج S26 سوبر فاست", "🚗 12 فولت عالمي", "📰 1 متر للخلفي", "🏆 ضمان 18 شهر"],
-                metaTitle: "شاحن سيارة جوي روم 60 واط | 3 في 1 كابلات قابلة للسحب | مصر",
+                metaTitle: "شاحن سيارة جوي روم 60 واط | 3 في 1 كابلات قابلة للسحب | أرخص سعر",
                 metaDesc: "اشتري شاحن سيارة جوي روم 60 واط في مصر. 30+30 واط، كابلات USB-C قابلة للسحب، ايفون 17 MAX، سامسونج سوبر فاست. كل السيارات. ضمان 18 شهر.",
                 faqs: [
                     { question: "هل يشحن هاتفين بسرعة كاملة؟", answer: "نعم! القوة الإجمالية 60 واط تنقسم إلى 30+30 واط عند شحن جهازين. ايفون 17 يحصل على سرعته القصوى 30 واط، وسامسونج S26 يحصل على شحن سريع 30 واط ممتاز." },
@@ -5109,8 +5109,8 @@ export const products = [
                 name: "Joyroom 3-in-1 MagSafe Station | iPhone 17 + Apple Watch + AirPods | 15W | Aluminum | 18-Month Warranty",
                 shortDescription: "📱 iPhone 17 15W MagSafe | ⌚ Apple Watch Fast Charge | 🎧 AirPods Pro 2 | 🔄 3 Devices Simultaneously | 🏛️ Premium Aluminum | 🏆 18-Month Warranty",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">Quick Specs Summary:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
         <li>📱 <strong>iPhone 17:</strong> 15W MagSafe wireless charging.</li>
         <li>⌚ <strong>Apple Watch:</strong> Ultra 2, Series 10, all models fast charge.</li>
@@ -5119,8 +5119,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">Cairo Volt Expert Verdict 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "This replaced 3 chargers and 3 cables on my nightstand. Now it's one elegant aluminum station with one cable. I place my iPhone 15 Pro on the MagSafe pad, click my Apple Watch Ultra on the charging puck, and drop my AirPods Pro 2 on the bottom pad. Everything charges overnight, and in the morning I grab all three devices fully charged. The adjustable angle is perfect for using the iPhone as a bedside clock with StandBy mode. The aluminum build feels premium — it doesn't feel like a budget accessory at all. For anyone with the Apple trifecta (iPhone + Watch + AirPods), this is the cleanest charging solution under 1,500 EGP."
         <br>
@@ -5128,7 +5128,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3 Devices, 1 Station, 1 Cable</h2>
         <p class="text-gray-700">Stop juggling 3 chargers. Place your <strong>iPhone 17 on MagSafe</strong> (15W), click your <strong>Apple Watch on the puck</strong>, and drop <strong>AirPods Pro 2 on the pad</strong>. All three charge simultaneously from a single USB-C cable. Your nightstand or desk goes from cable spaghetti to clean minimalism.</p>
@@ -5145,8 +5145,8 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
-    <h3 class="text-xl font-bold mb-4">Technical Specifications:</h3>
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">iPhone Charging</td><td class="p-2 border font-bold">15W MagSafe</td></tr>
         <tr><td class="p-2 border">Apple Watch</td><td class="p-2 border">Fast Charging (All Models)</td></tr>
@@ -5159,7 +5159,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone 17/16/15/14/13/12:</strong> 15W MagSafe wireless.</li>
@@ -5169,7 +5169,7 @@ export const products = [
 </div>
 `,
                 features: ["📱 15W MagSafe iPhone", "⌚ Apple Watch Fast Charge", "🎧 AirPods Pro 2 Wireless", "🔄 3 Devices Simultaneously", "🏛️ Premium Aluminum", "📐 Adjustable StandBy Angle", "🔌 Single Cable Setup", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom 3-in-1 MagSafe Station | iPhone + Watch + AirPods | Egypt",
+                metaTitle: "Joyroom 3-in-1 MagSafe Station | iPhone + Watch + AirPods | Best Price",
                 metaDesc: "Buy Joyroom 3-in-1 MagSafe station in Egypt. iPhone 17 15W + Apple Watch fast charge + AirPods Pro 2. Premium aluminum. 18-month warranty. Best price.",
                 faqs: [
                     { question: "Does it support Apple Watch Ultra 2?", answer: "Yes! The Watch charging spot supports all Apple Watch models including Ultra 2, Series 10, and older. It provides fast charging for compatible Watch models." },
@@ -5179,11 +5179,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "محطة شحن جوي روم 3 في 1 | ايفون 17 + ابل واتش + ايربودز | 15 واط | ألومنيوم | ضمان 18 شهر",
-                shortDescription: "📱 ايفون 17 MagSafe 15 واط | ⌚ ابل واتش شحن سريع | 🎧 ايربودز برو 2 | 🔄 3 أجهزة معاً | 🏛️ ألومنيوم فاخر | 🏆 ضمان 18 شهر",
+                name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك | ضمان 18 شهر",
+                shortDescription: "شاحن واحد للايفون والساعة والايربودز 📱 MagSafe 15 واط | ⌚ شحن ابل واتش سريع | 🏛️ تصميم ألومنيوم فخم",
                 description: `
-<div class="ai-summary-box mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-    <h3 class="font-bold mb-2">ملخص المواصفات السريع:</h3>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
         <li>📱 <strong>ايفون 17:</strong> شحن MagSafe لاسلكي 15 واط.</li>
         <li>⌚ <strong>ابل واتش:</strong> الترا 2، سيريس 10، كل الموديلات شحن سريع.</li>
@@ -5192,8 +5192,8 @@ export const products = [
     </ul>
 </div>
 
-<div class="expert-verdict mb-8">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">تقييم خبراء كايرو فولت 🔍</h2>
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "استبدلت 3 شواحن و 3 كابلات على الكومودينو. دلوقتي محطة ألومنيوم أنيقة بكابل واحد. بحط ايفون 15 برو على MagSafe، بثبّت ابل واتش ألترا على الشاحن، وبحط ايربودز برو 2 على القاعدة. كل حاجة بتتشحن بالليل، والصبح باخد التلات أجهزة مشحونة بالكامل. الزاوية القابلة للتعديل مثالية لوضع StandBy كساعة جنب السرير. الألومنيوم حاسسك بفخامة — مش حاسسك إنه إكسسوار رخيص خالص. لأي حد عنده ثلاثي Apple (ايفون + واتش + ايربودز)، ده أنظف حل شحن تحت 1,500 جنيه."
         <br>
@@ -5201,7 +5201,7 @@ export const products = [
     </p>
 </div>
 
-<div class="semantic-body space-y-6">
+<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3 أجهزة، محطة واحدة، كابل واحد</h2>
         <p class="text-gray-700">بطّل تلعب بـ 3 شواحن. حط <strong>ايفون 17 على MagSafe</strong> (15 واط)، ثبّت <strong>ابل واتش على الشاحن</strong>، وحط <strong>ايربودز برو 2 على القاعدة</strong>. التلاتة بيتشحنوا في نفس الوقت من كابل USB-C واحد. الكومودينو بيتحول من فوضى كابلات لنظافة مثالية.</p>
@@ -5218,7 +5218,7 @@ export const products = [
     </section>
 </div>
 
-<div class="specs-table mt-8">
+<div class="technical-specs">
     <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
     <table class="w-full text-sm border-collapse border border-gray-300">
         <tr class="bg-gray-100"><td class="p-2 border">شحن ايفون</td><td class="p-2 border font-bold">15 واط MagSafe</td></tr>
@@ -5232,7 +5232,7 @@ export const products = [
     </table>
 </div>
 
-<div class="compatibility-list mt-8 bg-blue-50 p-4 rounded-lg">
+<div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>ايفون 17/16/15/14/13/12:</strong> 15 واط MagSafe لاسلكي.</li>
@@ -5242,7 +5242,7 @@ export const products = [
 </div>
 `,
                 features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر"],
-                metaTitle: "محطة شحن جوي روم 3 في 1 | ايفون + واتش + ايربودز | مصر",
+                metaTitle: "محطة شحن جوي روم 3 في 1 | ايفون + واتش + ايربودز | في مصر 2026",
                 metaDesc: "اشتري محطة شحن جوي روم 3 في 1 في مصر. ايفون 17 MagSafe 15 واط + ابل واتش شحن سريع + ايربودز برو 2. ألومنيوم فاخر. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
                     { question: "هل تدعم ابل واتش الترا 2؟", answer: "نعم! مكان شحن الساعة يدعم جميع موديلات ابل واتش بما فيها الترا 2 وسيريس 10 والأقدم. يوفر شحن سريع للموديلات المتوافقة." },
@@ -5285,7 +5285,7 @@ export const products = [
                 shortDescription: "One cable charges every phone in the family — Lightning + USB-C + Micro-USB | Braided nylon | 15W",
                 description: "One cable for all your devices. The Joyroom 3-in-1 cable features Lightning, USB-C, and Micro USB connectors, perfect for families or professionals with multiple devices. Charge iPhone 17/16/15, Samsung S26, and legacy devices with a single cable.",
                 features: ["3 connectors: Lightning + USB-C + Micro", "Universal compatibility", "2.4A fast charging", "Nylon braided durable design", "1.2m length", "12-month warranty"],
-                metaTitle: "Joyroom 3-in-1 Cable Lightning USB-C Micro | Egypt",
+                metaTitle: "Joyroom 3-in-1 Cable Lightning USB-C Micro | Egypt 2026",
                 metaDesc: "Joyroom 3-in-1 Multi Cable - Lightning + USB-C + Micro USB. One cable for iPhone, Samsung, all devices. Best price Egypt.",
                 faqs: [
                     { question: "Can all 3 connectors charge simultaneously?", answer: "No, only one connector can be used at a time. The 3-in-1 design is for convenience - one cable that works with any device." },
@@ -5293,11 +5293,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم 3 في 1 متعدد الاستخدامات",
-                shortDescription: "كابل واحد يشحن كل موبايلات العيلة — Lightning + USB-C + Micro-USB | نايلون مجدول | 15 واط",
+                name: "كابل جوي روم 3 في 1 | كابل واحد لكل أجهزة البيت (ايفون + سامسونج + سماعات)",
+                shortDescription: "انهي مشاكل كابلات البيت بكابل واحد 🏠 Lightning + USB-C + Micro في واحد | 💪 نايلون متين مش هيتقطع | ⚡ شحن سريع 2.4A",
                 description: "كابل واحد لجميع أجهزتك. كابل جوي روم 3 في 1 يتميز بموصلات Lightning و USB-C و Micro USB، مثالي للعائلات أو المحترفين. اشحن ايفون 17/16/15 وسامسونج S26 والأجهزة القديمة بكابل واحد.",
                 features: ["3 موصلات: Lightning + USB-C + Micro", "توافق شامل", "شحن سريع 2.4 أمبير", "تصميم نايلون متين", "طول 1.2 متر", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم 3 في 1 للايفون والاندرويد | مصر",
+                metaTitle: "كابل جوي روم 3 في 1 للايفون والاندرويد | أصلي 100%",
                 metaDesc: "كابل جوي روم 3 في 1 - Lightning + USB-C + Micro USB. كابل واحد للايفون والسامسونج. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "لا، موصل واحد فقط يعمل في كل مرة. تصميم 3 في 1 للراحة - كابل واحد يعمل مع أي جهاز." },
@@ -5334,7 +5334,7 @@ export const products = [
                 shortDescription: "Anti-shake car mount tested at 120km/h on Egyptian highways | Fits 4.7-7 inch phones with case | 360° rotation",
                 description: "The Joyroom Car Phone Mount securely holds your iPhone 17 Pro Max, Samsung S26 Ultra, or any smartphone up to 7 inches. Features strong suction cup for dashboard or windshield mounting, 360-degree rotation, and one-hand operation. The adjustable arm extends to find the perfect viewing angle.",
                 features: ["Fits phones up to 7 inches", "Strong suction cup mount", "Dashboard or windshield mounting", "360-degree rotation", "One-hand operation", "Adjustable arm length", "12-month warranty"],
-                metaTitle: "Joyroom Car Phone Mount iPhone 17 Samsung S26 | Egypt",
+                metaTitle: "Joyroom Car Phone Mount iPhone 17 Samsung S26 | 100% Authentic",
                 metaDesc: "Joyroom Car Phone Mount - holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360 rotation. Best price Egypt.",
                 faqs: [
                     { question: "Does the suction mount fit iPhone 17 Pro Max?", answer: "Yes! It's designed for phones up to 7 inches, so it easily holds iPhone 17 Pro Max (6.9 inches) and Samsung S26 Ultra securely." },
@@ -5342,11 +5342,10 @@ export const products = [
                 ]
             },
             ar: {
-                name: "حامل جوال للسيارة جوي روم",
-                shortDescription: "حامل سيارة مختبر 120كم/س على الطريق السريع | تابلوه أو زجاج | دوران 360° | يناسب ايفون 17 برو ماكس وسامسونج S26 الترا",
-                description: "حامل جوي روم للسيارة يثبت ايفون 17 برو ماكس وسامسونج S26 الترا أو أي هاتف حتى 7 بوصة بأمان. يتميز بكوب شفط قوي للتابلوه أو الزجاج، دوران 360 درجة، وتشغيل بيد واحدة.",
+                name: "حامل موبايل للسيارة جوي روم | مبتهزش في مطبات الدائري | دوران 360° | يناسب كل الموبايلات",
+                shortDescription: "منقذك من غرامات المرور 🚓 كوب شفط قوي مش هيقع من شمس الصيف | 📱 يناسب ايفون 17 برو ماكس وسامسونج الترا | 👋 بتركبه وتفكه بإيد واحدة",
                 features: ["يناسب هواتف حتى 7 بوصة", "كوب شفط قوي", "تثبيت على التابلوه أو الزجاج", "دوران 360 درجة", "تشغيل بيد واحدة", "ذراع قابل للتعديل", "ضمان 12 شهر"],
-                metaTitle: "حامل جوال سيارة جوي روم للايفون 17 وسامسونج | مصر",
+                metaTitle: "حامل جوال سيارة جوي روم للايفون 17 وسامسونج | ضمان كايرو فولت",
                 metaDesc: "حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل يثبت ايفون 17 برو ماكس؟", answer: "نعم! مصمم لهواتف حتى 7 بوصة، فيثبت ايفون 17 برو ماكس (6.9 بوصة) وسامسونج S26 الترا بسهولة." },
@@ -5381,18 +5380,17 @@ export const products = [
                 shortDescription: "60W PD braided cable — CairoVolt test: iPhone 17 0→50% in 25min | Samsung S26 45W verified | 35,000+ bend lifespan nylon",
                 description: "The Joyroom 60W USB-C cable delivers maximum fast charging for iPhone 17 (30W), Samsung S26 (45W), and can even charge MacBook Air. Premium braided nylon construction ensures durability with 35,000+ bend lifespan. Perfect for the USB-C era.",
                 features: ["60W Power Delivery", "iPhone 17 max 30W charging", "Samsung S26/S25 Super Fast", "MacBook Air compatible", "35,000+ bend lifespan", "1m length", "24-month warranty"],
-                metaTitle: "Joyroom 60W USB-C Cable iPhone 17 Samsung S26 | Egypt",
+                metaTitle: "Joyroom 60W USB-C Cable iPhone 17 Samsung S26 | Official Warranty",
                 metaDesc: "Joyroom 60W USB-C to USB-C Cable - max speed for iPhone 17 & Samsung S26. Braided 35K bends. Best price Egypt. Fast Cairo delivery.",
                 faqs: [
                     { question: "Can I use it with my MacBook?", answer: "Yes, it can charge MacBook Air at full speed. For MacBook Pro, it will charge but at a slower rate - we recommend 100W cables for Pro models." }
                 ]
             },
             ar: {
-                name: "كابل جوي روم 60 واط USB-C سريع",
-                shortDescription: "كابل 60 واط PD نايلون — اختبار CairoVolt: ايفون 17 من 0→50% في 25د | سامسونج S26 بـ 45واط | 35,000+ ثنية",
-                description: "كابل جوي روم 60 واط USB-C يوفر أقصى سرعة شحن للايفون 17 (30 واط) وسامسونج S26 (45 واط) ويمكنه شحن ماك بوك اير. تصميم نايلون متين يتحمل 35,000+ ثني. مثالي لعصر USB-C.",
+                name: "كابل جوي روم 60 واط USB-C | انسى كابلات العتبة اللي بتتقطع بعد أسبوع | نايلون متين",
+                shortDescription: "35,000+ ثنية ومبيهزرش 💪 60 واط PD بيشحن لابتوب وايفون وسامسونج | ⚡ ايفون 17 من 0→50% في 25د | 🏆 ضمان سنتين كاملين",
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
-                metaTitle: "كابل جوي روم 60 واط USB-C للايفون 17 وسامسونج | مصر",
+                metaTitle: "كابل جوي روم 60 واط USB-C للايفون 17 وسامسونج | أرخص سعر",
                 metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
                 faqs: [
                     { question: "هل يشحن ماك بوك؟", answer: "نعم، يشحن ماك بوك اير بأقصى سرعة. لماك بوك برو، يشحن لكن ببطء — ننصح بكابل 100W لموديلات برو." },
@@ -5426,7 +5424,7 @@ export const products = [
                 shortDescription: "30W PD fast charging braided cable for iPhone 14/13/12 | Double-braided nylon + aluminum connectors | 25,000+ bends",
                 description: "Premium braided USB-C to Lightning cable for iPhones with Lightning port (iPhone 14 and earlier). Supports 30W PD fast charging. MFi certified for safety and compatibility.",
                 features: ["30W PD fast charging", "MFi certified", "Braided nylon design", "iPhone 14/13/12/11 compatible", "1m length", "18-month warranty"],
-                metaTitle: "Joyroom USB-C Lightning Cable iPhone 14 | Egypt",
+                metaTitle: "Joyroom USB-C Lightning Cable iPhone 14 | Official Warranty",
                 metaDesc: "Joyroom USB-C to Lightning Cable - 30W fast charging for iPhone 14/13/12. MFi certified. Best price Egypt.",
                 faqs: [
                     { question: "Is this cable MFi certified?", answer: "Yes! This cable has Apple MFi certification with the C94 chip, ensuring safe charging and zero 'accessory not supported' errors." },
@@ -5434,11 +5432,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-C إلى Lightning",
-                shortDescription: "كابل شحن سريع 30 واط PD للايفون 14/13/12 | نايلون مزدوج + موصلات ألومنيوم | 25,000+ انحناءة",
+                name: "كابل جوي روم USB-C إلى Lightning | كابل ايفون نايلون مضاد للقطع | ضمان 18 شهر",
+                shortDescription: "مبيتقطعش من عند الراس زي الكابلات العادية 💪 25,000+ انحناءة | ⚡ 30 واط PD شحن سريع | 🛡️ موصلات ألومنيوم بتعيش بالسنين",
                 description: "كابل USB-C إلى Lightning فاخر للايفونات بمنفذ Lightning (ايفون 14 وأقدم). يدعم شحن سريع 30 واط PD. معتمد MFi للأمان والتوافق.",
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-C Lightning للايفون 14 | مصر",
+                metaTitle: "كابل جوي روم USB-C Lightning للايفون 14 | الدفع عند الاستلام",
                 metaDesc: "كابل جوي روم USB-C إلى Lightning - شحن سريع 30 واط للايفون 14/13/12. معتمد MFi. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل الكابل معتمد MFi؟", answer: "نعم! هذا الكابل معتمد من أبل بشريحة C94، مما يضمن شحن آمن وعدم ظهور رسالة 'ملحق غير مدعوم'." },
@@ -5472,18 +5470,18 @@ export const products = [
                 shortDescription: "30W PD USB-C to USB-C cable — iPhone 15/16/17 fast charge at a fraction of Apple price | Braided nylon",
                 description: "Budget-friendly 30W USB-C cable perfect for iPhone 17 daily charging needs. 1.2m length provides extra reach. Durable TPE construction.",
                 features: ["30W PD charging", "1.2m length", "iPhone 17/16/15 compatible", "TPE durable material", "12-month warranty"],
-                metaTitle: "Joyroom 30W USB-C Cable 1.2m | Egypt",
+                metaTitle: "Joyroom 30W USB-C Cable 1.2m | Official Warranty",
                 metaDesc: "Joyroom 30W PD Cable 1.2m - affordable fast charging for iPhone 17. Best price Egypt.",
                 faqs: [
                     { question: "What's the difference vs 60W cable?", answer: "30W is sufficient for iPhone 17 (max 30W). 60W is better if you also charge laptops or want future-proofing." }
                 ]
             },
             ar: {
-                name: "كابل جوي روم 30 واط PD 1.2 متر",
-                shortDescription: "كابل 30 واط PD USB-C — شحن سريع ايفون 15/16/17 بجزء بسيط من سعر كابل ابل | نايلون مجدول",
+                name: "كابل جوي روم 30 واط PD 1.2 متر | شحن سريع بسعر كابل العتبة لكن أصلي ومضمون",
+                shortDescription: "ليه تدفع ثمن كابل ابل وده بنفس السرعة؟ ⚡ 30 واط PD شحن كامل للايفون 17 | 📏 1.2 متر يوصل من البريزة للسرير | 💰 أرخص كابل أصلي في مصر",
                 description: "كابل USB-C 30 واط اقتصادي مثالي لشحن ايفون 17 اليومي. طول 1.2 متر يوفر مدى إضافي. تصميم TPE متين.",
                 features: ["شحن 30 واط PD", "طول 1.2 متر", "متوافق ايفون 17/16/15", "مادة TPE متينة", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم 30 واط 1.2 متر | مصر",
+                metaTitle: "كابل جوي روم 30 واط 1.2 متر | ضمان كايرو فولت",
                 metaDesc: "كابل جوي روم 30 واط PD 1.2 متر - شحن سريع اقتصادي للايفون 17. أفضل سعر مصر.",
                 faqs: [
                     { question: "ما الفرق عن كابل 60 واط؟", answer: "30 واط كافي للايفون 17 (أقصى 30 واط). 60 واط أفضل لو تشحن لابتوب أو للمستقبل." }
@@ -5515,7 +5513,7 @@ export const products = [
                 shortDescription: "Budget iPhone cable — 2.4A charging at 0.12 EGP/day (CairoVolt tested 365+ days) | 12-month warranty",
                 description: "Classic USB-A to Lightning cable for older chargers. Works with iPhone 14/13/12/11 and earlier. 2.4A charging. Durable design.",
                 features: ["2.4A charging", "1m length", "iPhone 14 and earlier", "Durable TPE", "12-month warranty"],
-                metaTitle: "Joyroom USB-A Lightning Cable iPhone | Egypt",
+                metaTitle: "Joyroom USB-A Lightning Cable iPhone | 100% Authentic",
                 metaDesc: "Joyroom USB-A to Lightning Cable - standard charging for iPhone 14 and earlier. Best price Egypt.",
                 faqs: [
                     { question: "Is this cable compatible with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This USB-A to Lightning cable is designed for iPhone 14/13/12/11 and earlier models that have the Lightning port." },
@@ -5524,11 +5522,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-A إلى Lightning 1 متر",
-                shortDescription: "كابل ايفون اقتصادي — 2.4A بتكلفة 0.12 جنيه/يوم (اختبار كايرو فولت 365+ يوم) | ضمان 12 شهر",
+                name: "كابل جوي روم USB-A إلى Lightning 1 متر | أرخص كابل أصلي للايفون في مصر",
+                shortDescription: "بـ 43 جنيه بس (أرخص من قهوة) ☕ تكلفة يومية 0.12 جنيه | ✅ أصلي مش هيطلعلك رسالة 'ملحق غير مدعوم' | 💪 اتجرب 365+ يوم في كايرو فولت",
                 description: "كابل USB-A إلى Lightning كلاسيكي للشواحن القديمة. يعمل مع ايفون 14/13/12/11 والأقدم. شحن 2.4 أمبير. تصميم متين.",
                 features: ["شحن 2.4 أمبير", "طول 1 متر", "ايفون 14 والأقدم", "TPE متين", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم USB-A Lightning للايفون | مصر",
+                metaTitle: "كابل جوي روم USB-A Lightning للايفون | ضمان الوكيل",
                 metaDesc: "كابل جوي روم USB-A إلى Lightning - شحن قياسي للايفون 14 والأقدم. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل متوافق مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل USB-A إلى Lightning مصمم للايفون 14/13/12/11 والأقدم التي بها منفذ Lightning." },
@@ -5562,7 +5560,7 @@ export const products = [
                 shortDescription: "60W PD USB-C cable — charges iPhone 15/17 + Samsung S26 + MacBook Air from one cable | Braided nylon",
                 description: "Standard USB-C to USB-C cable for iPhone 17, Samsung S26, tablets, and laptops. 60W Power Delivery support.",
                 features: ["60W PD support", "iPhone 17/16/15 compatible", "Samsung S26/S25 compatible", "1m length", "18-month warranty"],
-                metaTitle: "Joyroom USB-C to USB-C Cable | Egypt",
+                metaTitle: "Joyroom USB-C to USB-C Cable | Official Warranty",
                 metaDesc: "Joyroom USB-C Cable for iPhone 17 & Samsung S26. 60W PD. Best price Egypt.",
                 faqs: [
                     { question: "Does this cable work with iPhone 17?", answer: "Yes! iPhone 17 uses USB-C. This cable delivers 60W fast charging, providing the maximum 30W speed that iPhone 17 supports." },
@@ -5571,11 +5569,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-C إلى USB-C",
-                shortDescription: "كابل 60 واط PD USB-C — يشحن ايفون 15/17 + سامسونج S26 + ماك بوك من كابل واحد | نايلون مجدول",
+                name: "كابل جوي روم USB-C إلى USB-C | كابل المستقبل لكل أجهزتك (ايفون + سامسونج + لابتوب)",
+                shortDescription: "كابل واحد بيشحن ايفون وسامسونج ولابتوب 🔌 60 واط PD | 📱 يعطي ايفون 17 أقصى سرعة 30 واط | 🏆 ضمان 18 شهر",
                 description: "كابل USB-C قياسي للايفون 17 وسامسونج S26 والتابلت واللابتوب. يدعم 60 واط Power Delivery.",
                 features: ["يدعم 60 واط PD", "متوافق ايفون 17/16/15", "متوافق سامسونج S26/S25", "طول 1 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-C | مصر",
+                metaTitle: "كابل جوي روم USB-C | في مصر 2026",
                 metaDesc: "كابل جوي روم USB-C للايفون 17 وسامسونج S26. 60 واط PD. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C. هذا الكابل يوفر 60 واط شحن سريع، ويعطي ايفون 17 أقصى سرعة 30 واط." },
@@ -5608,7 +5606,7 @@ export const products = [
                 shortDescription: "Micro-USB cable tested with 12 devices (Samsung A10s, Xiaomi, Oppo, JBL) — full 2.4A on all | TPE durable",
                 description: "Durable Micro USB cable for older Android phones, tablets, and accessories. 2.4A fast charging support.",
                 features: ["2.4A charging", "1.2m length", "Micro USB devices", "Durable TPE", "12-month warranty"],
-                metaTitle: "Joyroom Micro USB Cable | Egypt",
+                metaTitle: "Joyroom Micro USB Cable | Cairo Delivery",
                 metaDesc: "Joyroom Micro USB Cable for Android devices. 2.4A charging. Best price Egypt.",
                 faqs: [
                     { question: "Which devices use Micro USB in 2026?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
@@ -5617,11 +5615,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-A إلى Micro USB 1.2 متر",
-                shortDescription: "كابل Micro-USB مختبر مع 12 جهاز (Samsung A10s, Xiaomi, Oppo, JBL) — 2.4A كاملة على الكل | TPE متين",
+                name: "كابل جوي روم USB-A إلى Micro USB 1.2 متر | كابل السماعات والباور بانك القديم",
+                shortDescription: "لسه عندك أجهزة Micro USB؟ 🔌 اتجرب مع 12 جهاز (Samsung A10s, Xiaomi, JBL) | ⚡ 2.4A كاملة | 💪 TPE متين مش هيتقطع",
                 description: "كابل Micro USB متين لهواتف اندرويد والتابلت والاكسسوارات القديمة. يدعم شحن 2.4 أمبير.",
                 features: ["شحن 2.4 أمبير", "طول 1.2 متر", "أجهزة Micro USB", "TPE متين", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم Micro USB | مصر",
+                metaTitle: "كابل جوي روم Micro USB | شحن سريع",
                 metaDesc: "كابل جوي روم Micro USB للاندرويد. شحن 2.4 أمبير. أفضل سعر مصر.",
                 faqs: [
                     { question: "أي أجهزة تستخدم Micro USB في 2026؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
@@ -5655,7 +5653,7 @@ export const products = [
                 shortDescription: "Bridge your old USB-A charger to iPhone 17/Samsung S26 | 3A fast charging | CairoVolt 365-day durability test passed",
                 description: "Connect your Samsung S26 or iPhone 17 to older USB-A chargers. 3A fast charging. Use your existing chargers with new USB-C phones.",
                 features: ["3A fast charging", "1m length", "Samsung S26 compatible", "iPhone 17 compatible", "18-month warranty"],
-                metaTitle: "Joyroom USB-A to Type-C Cable | Egypt",
+                metaTitle: "Joyroom USB-A to Type-C Cable | Egypt 2026",
                 metaDesc: "Joyroom USB-A to Type-C Cable for Samsung S26 & iPhone 17 with old chargers. Best price Egypt.",
                 faqs: [
                     { question: "Why would I use USB-A to Type-C?", answer: "If you have an older charger with USB-A port but a new phone with USB-C (like iPhone 17 or Samsung S26), this cable bridges the gap. No need to buy a new charger!" },
@@ -5664,11 +5662,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-A إلى Type-C 1 متر",
-                shortDescription: "وصّل شاحنك القديم USB-A بايفون 17 وسامسونج S26 | 3 أمبير | اختبار متانة CairoVolt 365 يوم",
+                name: "كابل جوي روم USB-A إلى Type-C 1 متر | وصل شاحنك القديم بموبايلك الجديد",
+                shortDescription: "مش لازم تشتري شاحن جديد! 🔌 وصل شاحن USB-A القديم بايفون 17 أو سامسونج S26 | ⚡ 3A شحن سريع | 💪 اتجرب 365 يوم",
                 description: "وصّل سامسونج S26 أو ايفون 17 بشواحن USB-A القديمة. شحن سريع 3 أمبير. استخدم شواحنك الحالية مع هواتف USB-C الجديدة.",
                 features: ["شحن سريع 3 أمبير", "طول 1 متر", "متوافق سامسونج S26", "متوافق ايفون 17", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-A إلى Type-C | مصر",
+                metaTitle: "كابل جوي روم USB-A إلى Type-C | أرخص سعر",
                 metaDesc: "كابل جوي روم USB-A إلى Type-C لسامسونج S26 وايفون 17 مع شواحن قديمة. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أستخدم USB-A إلى Type-C؟", answer: "لو عندك شاحن قديم USB-A لكن هاتفك جديد USB-C (مثل ايفون 17 أو سامسونج S26)، هذا الكابل يربط بينهما. لا تحتاج شراء شاحن جديد!" },
@@ -5704,18 +5702,18 @@ export const products = [
                 shortDescription: "Anker premium soft-touch anti-tangle cable | 30W PD for iPhone 14/13/12 | Stain-resistant coating | 24-month Anker warranty",
                 description: "The Anker SureIStrong cable combines premium build quality with a surprisingly soft, tangle-free design. MFi certified with 30W PD fast charging for iPhone 14 and earlier. The special coating resists stains and is incredibly comfortable to handle.",
                 features: ["30W PD fast charging", "MFi certified", "Soft-touch anti-tangle design", "Stain-resistant coating", "iPhone 14/13/12/11 compatible", "1.8m length", "24-month Anker warranty"],
-                metaTitle: "Anker SureIStrong Lightning Cable iPhone | Egypt",
+                metaTitle: "Anker SureIStrong Lightning Cable iPhone | Buy Original",
                 metaDesc: "Anker SureIStrong USB-C to Lightning - premium soft-touch cable with 30W PD. MFi certified for iPhone 14/13/12. Best price Egypt.",
                 faqs: [
                     { question: "Why choose Anker over generic cables?", answer: "Anker's 24-month warranty, MFi certification, and premium materials ensure safety and durability. Generic cables can damage your iPhone's battery." }
                 ]
             },
             ar: {
-                name: "كابل انكر SureIStrong USB-C إلى Lightning",
-                shortDescription: "كابل انكر فاخر ناعم مقاوم للتشابك | 30 واط PD للايفون 14/13/12 | طلاء مقاوم للبقع | ضمان انكر 24 شهر",
+                name: "كابل انكر SureIStrong USB-C إلى Lightning | كابل ايفون الفاخر اللي مبيتشابكش ومبيتبقعش | ضمان 24 شهر",
+                shortDescription: "كابل انكر الفاخر اللي حسسك إنك بتمسك حاجة غالية 🌟 مقاوم للبقع والتشابك | ⚡ 30 واط PD شحن سريع | 🛡️ معتمد MFi | 🏆 ضمان سنتين",
                 description: "كابل انكر SureIStrong يجمع بين الجودة الفاخرة والتصميم الناعم المقاوم للتشابك. معتمد MFi مع شحن سريع 30 واط PD للايفون 14 والأقدم. الطلاء الخاص مقاوم للبقع ومريح جداً.",
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم ناعم مقاوم للتشابك", "طلاء مقاوم للبقع", "متوافق ايفون 14/13/12/11", "طول 1.8 متر", "ضمان انكر 24 شهر"],
-                metaTitle: "كابل انكر SureIStrong Lightning للايفون | مصر",
+                metaTitle: "كابل انكر SureIStrong Lightning للايفون | شحن سريع",
                 metaDesc: "كابل انكر SureIStrong USB-C إلى Lightning - فاخر ناعم الملمس مع 30 واط PD. معتمد MFi للايفون 14/13/12. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." }
@@ -5747,7 +5745,7 @@ export const products = [
                 shortDescription: "24-month warranty Lightning cable for iPhone 14/13/12 | 30W PD fast charging | CairoVolt: 0.4% return rate over 1,200 units sold",
                 description: "Premium USB-C to Lightning cable with extended 24-month warranty for iPhone 14/13/12/11. 30W PD fast charging. Perfect for users who want extra peace of mind.",
                 features: ["30W PD fast charging", "24-month extended warranty", "iPhone 14 and earlier", "1m length", "Durable nylon braided"],
-                metaTitle: "Joyroom Lightning Cable 24 Month Warranty | Egypt",
+                metaTitle: "Joyroom Lightning Cable 24 Month Warranty | Egypt 2026",
                 metaDesc: "Joyroom USB-C Lightning Cable with 24-month warranty for iPhone 14/13/12. 30W fast charging. Best price Egypt.",
                 faqs: [
                     { question: "Why choose 24-month warranty cable?", answer: "For users who want extra protection without premium pricing. 24-month warranty covers manufacturing defects twice as long as standard 12-month cables." },
@@ -5756,11 +5754,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-C إلى Lightning (ضمان 24 شهر)",
-                shortDescription: "كابل ايفون بأقل نسبة إرجاع في كايرو فولت (0.3%) | ضمان 24 شهر | شحن سريع 27 واط PD",
+                name: "كابل جوي روم USB-C إلى Lightning (ضمان 24 شهر) | كابل ايفون بضمان سنتين كاملين",
+                shortDescription: "مللت من شراء كابل كل 3 شهور؟ 🛡️ ضمان سنتين بأقل نسبة إرجاع 0.3% في كايرو فولت | ⚡ 30 واط PD شحن سريع | 🧵 نايلون فاخر",
                 description: "كابل ايفون 14/13/12 بأقل نسبة إرجاع في كايرو فولت (0.3% فقط). ضمان 24 شهر بتكلفة أقل من 0.30 جنيه/يوم. شحن سريع 30 واط PD — الخيار الأذكى للي عايز حماية إضافية بدون دفع سعر فاخر.",
                 features: ["شحن سريع 30 واط PD", "ضمان 24 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون متين"],
-                metaTitle: "كابل جوي روم Lightning ضمان 24 شهر | مصر",
+                metaTitle: "كابل جوي روم Lightning ضمان 24 شهر | أرخص سعر",
                 metaDesc: "كابل جوي روم USB-C Lightning بضمان 24 شهر للايفون 14/13/12. شحن سريع 30 واط. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أختار كابل ضمان 24 شهر؟", answer: "للمستخدمين الذين يريدون حماية إضافية بدون سعر فاخر. ضمان 24 شهر يغطي عيوب الصناعة ضعف الكابلات العادية 12 شهر." },
@@ -5798,7 +5796,7 @@ export const products = [
                 shortDescription: "Industry-leading 36-month warranty Lightning cable | 30W PD | Premium nylon — outlasts 3 cheap cables (CairoVolt tracked data)",
                 description: "Premium USB-C to Lightning cable with industry-leading 36-month warranty for iPhone 14/13/12/11. 30W PD fast charging. Our best warranty coverage for complete protection.",
                 features: ["30W PD fast charging", "36-month premium warranty", "iPhone 14 and earlier", "1m length", "Premium nylon braided"],
-                metaTitle: "Joyroom Lightning Cable 36 Month Warranty | Egypt",
+                metaTitle: "Joyroom Lightning Cable 36 Month Warranty | 100% Authentic",
                 metaDesc: "Joyroom 36-month warranty Lightning cable — the longest cable guarantee in Egypt. Outlasts 3 cheap cables. Free replacement if it breaks. iPhone 14/13/12.",
                 faqs: [
                     { question: "Why is 36-month warranty worth the extra cost?", answer: "Our 36-month warranty is the longest in the industry. That's 3 years of protection - cables typically last 1-2 years with daily use, so you're covered for the entire lifespan." },
@@ -5807,11 +5805,10 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-C إلى Lightning (ضمان 36 شهر)",
-                shortDescription: "أطول ضمان كابل في مصر 36 شهر | 30 واط PD | نايلون فاخر يعيش أكثر من 3 كابلات رخيصة (بيانات CairoVolt)",
-                description: "أطول ضمان كابل في السوق المصري — 36 شهر يعني 3 سنوات حماية كاملة. نايلون فاخر بموصلات مقواة يعيش أكثر من 3 كابلات رخيصة. شحن سريع 30 واط PD للايفون 14/13/12. استبدال مجاني لو اتقطع.",
+                name: "كابل جوي روم USB-C إلى Lightning (ضمان 36 شهر) | ريح دماغك من تغيير الكابلات 3 سنين قدام",
+                shortDescription: "استثمارك المضمون للايفون 🛡️ أطول ضمان في مصر 3 سنين (استبدال فورى) | ⚡ 30 واط PD شحن سريع | 🧵 نايلون فاخر يعيش معاك سنين",
                 features: ["شحن سريع 30 واط PD", "ضمان 36 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون فاخر"],
-                metaTitle: "كابل جوي روم Lightning ضمان 36 شهر | مصر",
+                metaTitle: "كابل جوي روم Lightning ضمان 36 شهر | الدفع عند الاستلام",
                 metaDesc: "كابل جوي روم بأطول ضمان في مصر 36 شهر — يعيش أكتر من 3 كابلات رخيصة. استبدال مجاني لو اتقطع. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر يستحق السعر الإضافي؟", answer: "ضماننا 36 شهر الأطول في السوق. 3 سنوات حماية - الكابلات عادة تعيش 1-2 سنة، فأنت مغطى طوال عمر الكابل." },
@@ -5848,7 +5845,7 @@ export const products = [
                 shortDescription: "1.2m extra-reach USB-A to Type-C | Samsung S26 18W verified | Fits all Egyptian car console positions tested by CairoVolt",
                 description: "Extra-long 1.2m USB-A to Type-C cable for comfortable charging. Connect your iPhone 17 or Samsung S26 to older USB-A chargers. 3A fast charging support.",
                 features: ["3A fast charging", "1.2m extended length", "iPhone 17 compatible", "Samsung S26 compatible", "18-month warranty"],
-                metaTitle: "Joyroom USB-A Type-C 1.2m Cable | Egypt",
+                metaTitle: "Joyroom USB-A Type-C 1.2m Cable | 100% Authentic",
                 metaDesc: "Joyroom 1.2m USB-A Type-C — 20cm extra reach for car console and bedside. Samsung S26 18W verified. Fits all Egyptian car models tested.",
                 faqs: [
                     { question: "Why choose 1.2m over 1m cable?", answer: "1.2m (4ft) gives you extra reach - perfect for bedside charging, using your phone while plugged in, or when outlets are far. Only 10 EGP more for much better convenience." },
@@ -5857,11 +5854,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-A إلى Type-C 1.2 متر",
-                shortDescription: "1.2م مدى إضافي USB-A إلى Type-C | سامسونج S26 بـ 18واط مؤكد | يناسب كل كونسولات السيارات المصرية (اختبار CairoVolt)",
+                name: "كابل جوي روم USB-A إلى Type-C 1.2 متر | 20 سم زيادة توصلك السرير والكونسول",
+                shortDescription: "20 سم الإضافية دي بتفرق معاك 📏 يوصل من بريزة العربية للمقعد الخلفي | ⚡ 3A شحن سريع | 📱 ايفون 17 + سامسونج S26",
                 description: "كابل USB-A إلى Type-C طويل 1.2 متر للشحن المريح. وصّل ايفون 17 أو سامسونج S26 بشواحن USB-A القديمة. يدعم شحن سريع 3 أمبير.",
                 features: ["شحن سريع 3 أمبير", "طول 1.2 متر", "متوافق ايفون 17", "متوافق سامسونج S26", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-A Type-C 1.2 متر | مصر",
+                metaTitle: "كابل جوي روم USB-A Type-C 1.2 متر | ضمان الوكيل",
                 metaDesc: "كابل جوي روم 1.2 متر USB-A Type-C — 20 سم إضافية للسيارة والسرير. سامسونج S26 بـ 18 واط مؤكد. يناسب كل السيارات المصرية.",
                 faqs: [
                     { question: "لماذا أختار 1.2 متر بدل 1 متر؟", answer: "1.2 متر يعطيك مدى إضافي - مثالي للشحن بجانب السرير، استخدام الهاتف أثناء الشحن، أو لو المقبس بعيد. 10 جنيه زيادة فقط لراحة أكبر." },
@@ -5904,7 +5901,7 @@ export const products = [
                 shortDescription: "1.2m Lightning cable for iPhone 14/13/12 | Reaches Egyptian wall outlet to bed | 36-month warranty | 2.4A durable nylon",
                 description: "Extra-long 1.2m USB-A to Lightning cable for iPhone 14/13/12/11. Perfect for bedside charging with older chargers. 2.4A charging. Durable 36-month warranty construction.",
                 features: ["2.4A charging", "1.2m extended length", "iPhone 14 and earlier", "36-month warranty", "Durable design"],
-                metaTitle: "Joyroom USB-A Lightning 1.2m Cable | Egypt",
+                metaTitle: "Joyroom USB-A Lightning 1.2m Cable | Best Price",
                 metaDesc: "Joyroom 1.2m Lightning cable — reaches from Egyptian wall outlet to bed easily. 36-month warranty. Tested in 4 Egyptian car models. iPhone 14/13/12.",
                 faqs: [
                     { question: "Why does this have 36-month warranty?", answer: "This extended 1.2m cable uses premium materials. The 36-month warranty reflects our confidence in its durability - perfect for heavy daily use." },
@@ -5913,11 +5910,11 @@ export const products = [
                 ]
             },
             ar: {
-                name: "كابل جوي روم USB-A إلى Lightning 1.2 متر",
-                shortDescription: "1.2م كابل Lightning للايفون 14/13/12 | يوصل من البريزة المصرية للسرير | ضمان 36 شهر | 2.4A نايلون متين",
+                name: "كابل جوي روم USB-A إلى Lightning 1.2 متر | يوصل من البريزة المصرية للسرير براحة | ضمان 36 شهر",
+                shortDescription: "اشحن وانت نايم براحة 🛏️ 1.2 متر الطول المثالي للكومودينو | 🛡️ ضمان 3 سنين (أطول ضمان كابل في مصر) | ⚡ 2.4A متين",
                 description: "كابل USB-A إلى Lightning طويل 1.2 متر للايفون 14/13/12/11. مثالي للشحن بجانب السرير مع شواحن قديمة. شحن 2.4 أمبير. ضمان 36 شهر.",
                 features: ["شحن 2.4 أمبير", "طول 1.2 متر", "ايفون 14 والأقدم", "ضمان 36 شهر", "تصميم متين"],
-                metaTitle: "كابل جوي روم USB-A Lightning 1.2 متر | مصر",
+                metaTitle: "كابل جوي روم USB-A Lightning 1.2 متر | الدفع عند الاستلام",
                 metaDesc: "كابل جوي روم 1.2 متر Lightning — يوصل من البريزة للسرير بسهولة. ضمان 36 شهر. مجرب في 4 موديلات سيارات مصرية. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر؟", answer: "هذا الكابل 1.2 متر يستخدم مواد فاخرة. ضمان 36 شهر يعكس ثقتنا في متانته - مثالي للاستخدام اليومي المكثف." },

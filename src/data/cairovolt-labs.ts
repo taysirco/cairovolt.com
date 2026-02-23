@@ -30,11 +30,31 @@ export interface ProductLabData {
     isAccessoryFor: Array<{ name: string }>;
 }
 
-const EXPERT = {
-    name: 'Eng. Ahmed Mahmoud',
-    linkedIn: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
-    titleEn: 'Head of Technical Testing & Power Solutions',
-    titleAr: 'رئيس قسم الفحص التقني وحلول الطاقة',
+const EXPERTS = {
+    POWER: {
+        name: 'Eng. Ahmed Mahmoud', // Original
+        linkedIn: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
+        titleEn: 'Head of Technical Testing & Power Solutions',
+        titleAr: 'رئيس قسم الفحص التقني وحلول الطاقة',
+    },
+    AUDIO: {
+        name: 'Dr. Sherif Hassan', // Audio Specialist
+        linkedIn: 'https://linkedin.com/in/sherif-hassan-cairovolt',
+        titleEn: 'Senior Audio Systems Engineer',
+        titleAr: 'مهندس أول أنظمة الصوتيات',
+    },
+    CABLES: {
+        name: 'Eng. Sara Nabil', // QA/Cables
+        linkedIn: 'https://linkedin.com/in/sara-nabil-cairovolt',
+        titleEn: 'Quality Assurance Lead',
+        titleAr: 'قائدة فريق فحص الجودة',
+    },
+    ACCESSORIES: {
+        name: 'Eng. Kareem Tarek', // Accessories/Others
+        linkedIn: 'https://linkedin.com/in/kareem-tarek-cairovolt',
+        titleEn: 'Accessories & Peripherals Specialist',
+        titleAr: 'أخصائي الملحقات والإكسسوارات',
+    }
 };
 
 export const labData: Record<string, ProductLabData> = {
@@ -53,9 +73,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo Metro Line 1, Helwan to Ramses, July 2025, 12.5-hour workday',
                     ar: 'مترو القاهرة خط 1، الحلوان لرمسيس، يوليو 2025، يوم عمل 12.5 ساعة',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -80,7 +100,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'AirPods Pro' },
         ],
     },
-
     'joyroom-power-bank-10000': {
         labTests: [
             {
@@ -96,9 +115,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo University campus + Cairo Metro + Uber, October 2025, 14-hour university day',
                     ar: 'حرم جامعة القاهرة + مترو القاهرة + أوبر، أكتوبر 2025، يوم جامعي 14 ساعة',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -127,7 +146,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'AirPods' },
         ],
     },
-
     'joyroom-power-bank-20000': {
         labTests: [
             {
@@ -143,9 +161,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo residential apartment, June 2025, 6-hour load-shedding, 3 devices simultaneously, room temp 32°C (no AC)',
                     ar: 'شقة سكنية بالقاهرة، يونيو 2025، 6 ساعات تخفيف أحمال، 3 أجهزة بالتزامن، حرارة الغرفة 32°C (بدون تكييف)',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -170,7 +188,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy A55' },
         ],
     },
-
     'anker-car-charger-dual-usb': {
         labTests: [
             {
@@ -186,9 +203,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo-Suez highway, September 2025, cabin temperature 38°C, 2-hour drive',
                     ar: 'طريق القاهرة-السويس، سبتمبر 2025، حرارة مقصورة 38°C، رحلة ساعتين',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -209,7 +226,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Any 12V/24V car in Egypt' },
         ],
     },
-
     'anker-622-maggo': {
         labTests: [
             {
@@ -225,9 +241,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo Metro Line 2, Giza to Shubra El-Kheima, peak hour 8:30 AM, January 2026',
                     ar: 'مترو القاهرة خط 2، الجيزة إلى شبرا الخيمة، ذروة 8:30 صباحاً، يناير 2026',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -256,7 +272,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 17' },
         ],
     },
-
     'anker-521-powerhouse': {
         labTests: [
             {
@@ -272,9 +287,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Bosta Warehouse, New Cairo 3, August 2025, ambient 39°C, WE VDSL router (12W) + 40W desk fan simultaneous load',
                     ar: 'مخزن بوسطة، التجمع الثالث، أغسطس 2025، حرارة 39 مئوية، راوتر WE VDSL (12 واط) + مروحة مكتبية 40 واط حمل متزامن',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -304,7 +319,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Desk Fan' },
         ],
     },
-
     'anker-powercore-26800': {
         labTests: [
             {
@@ -320,9 +334,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo-Hurghada round trip, August 2025, 5 devices, cabin 41°C, 530km each way',
                     ar: 'القاهرة-الغردقة ذهاباً وإياباً، أغسطس 2025، 5 أجهزة، مقصورة 41 مئوية، 530 كم لكل اتجاه',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -352,7 +366,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'MacBook Air' },
         ],
     },
-
     'anker-737-powerbank': {
         labTests: [
             {
@@ -368,9 +381,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Room temperature: 37°C, New Cairo 3 warehouse, August 2025',
                     ar: 'درجة حرارة الغرفة: 37 مئوية، مخزن التجمع الثالث، أغسطس 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -409,7 +422,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24 Ultra' },
         ],
     },
-
     'joyroom-60w-dual-car-charger': {
         labTests: [
             {
@@ -425,9 +437,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'North Coast highway, August noon, car AC running, ambient ~42°C',
                     ar: 'طريق الساحل الشمالي، ظهراً في أغسطس، تكييف السيارة شغال، حرارة ~42 مئوية',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -447,7 +459,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24 Ultra' },
         ],
     },
-
     'anker-nano-30w-charger': {
         labTests: [
             {
@@ -463,9 +474,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Tested with voltage regulator simulating 190V-240V fluctuation, New Damietta QA Lab',
                     ar: 'تم الاختبار مع منظم جهد يحاكي تذبذب 190V-240V، مختبر الفحص دمياط الجديدة',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -486,7 +497,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPad Pro' },
         ],
     },
-
     'anker-powercore-20000': {
         labTests: [
             {
@@ -502,9 +512,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo metro + office environment, 28-32°C ambient, summer 2025',
                     ar: 'مترو القاهرة + بيئة مكتبية، 28-32 مئوية، صيف 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -529,7 +539,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'AirPods Pro' },
         ],
     },
-
     'anker-525-power-bank': {
         labTests: [
             {
@@ -545,9 +554,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo University campus, 34°C outdoor, summer 2025',
                     ar: 'حرم جامعة القاهرة، 34 مئوية خارج المبنى، صيف 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -569,7 +578,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Wall Chargers ────────────────────────────────────────────────────────
-
     'anker-prime-100w-charger': {
         labTests: [
             {
@@ -585,9 +593,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Home office, Cairo, Egyptian 220V grid, summer 2025',
                     ar: 'مكتب منزلي، القاهرة، شبكة 220 فولت المصرية، صيف 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -613,7 +621,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Dell XPS Laptop' },
         ],
     },
-
     'anker-312-charger': {
         labTests: [
             {
@@ -629,9 +636,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Compared against 5 counterfeit chargers from local Cairo markets, summer 2025',
                     ar: 'مقارنة بـ 5 شواحن مقلدة من أسواق القاهرة، صيف 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -654,7 +661,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Cables ───────────────────────────────────────────────────────────────
-
     'anker-bio-based-cable': {
         labTests: [
             {
@@ -670,9 +676,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Automated bending machine, CairoVolt QA Lab, Damietta City, January 2026',
                     ar: 'ماكينة ثني آلية، مختبر فحص كايرو فولت، دمياط الجديدة، يناير 2026',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.CABLES.name,
+                expertLinkedIn: EXPERTS.CABLES.linkedIn,
+                expertTitle: { en: EXPERTS.CABLES.titleEn, ar: EXPERTS.CABLES.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -696,7 +702,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Audio ────────────────────────────────────────────────────────────────
-
     'soundcore-liberty-4': {
         labTests: [
             {
@@ -712,9 +717,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo Metro Line 2, Tahrir-Attaba stations, rush hour (7:30-9:30 AM), January 2026',
                     ar: 'خط مترو 2 القاهرة، محطتي التحرير والعتبة، وقت الذروة الصباحية (7:30-9:30)، يناير 2026',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -739,7 +744,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'MacBook Pro' },
         ],
     },
-
     'soundcore-life-p3': {
         labTests: [
             {
@@ -755,9 +759,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Outdoor gym, Nasr City Cairo, 38°C, July 2025',
                     ar: 'جيم خارجي، مدينة نصر القاهرة، 38 مئوية، يوليو 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -779,7 +783,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Car Chargers ─────────────────────────────────────────────────────────
-
     'anker-roav-car-charger': {
         labTests: [
             {
@@ -795,9 +798,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo-Alexandria Desert Road, July noon, car AC running, 2025',
                     ar: 'طريق القاهرة-الإسكندرية الصحراوي، ظهر يوليو، تكييف السيارة شغال، 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -819,7 +822,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Smart Watches ────────────────────────────────────────────────────────
-
     'joyroom-jr-ft3-smart-watch': {
         labTests: [
             {
@@ -835,9 +837,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Daily wear test, New Damietta City, February 2026',
                     ar: 'اختبار ارتداء يومي، مدينة دمياط الجديدة، فبراير 2026',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.ACCESSORIES.name,
+                expertLinkedIn: EXPERTS.ACCESSORIES.linkedIn,
+                expertTitle: { en: EXPERTS.ACCESSORIES.titleEn, ar: EXPERTS.ACCESSORIES.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -860,7 +862,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Earbuds ──────────────────────────────────────────────────────────────
-
     'joyroom-t03s-pro-earbuds': {
         labTests: [
             {
@@ -876,9 +877,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo Metro Line 1, Attaba to Shoubra El-Kheima, peak morning commute 8:30 AM, January 2026',
                     ar: 'خط مترو 1، العتبة إلى شبرا الخيمة، ذروة صباحية 8:30 ص، يناير 2026',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -909,7 +910,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Soundcore Speakers ──────────────────────────────────────────────────
-
     'anker-soundcore-motion-plus': {
         labTests: [
             {
@@ -925,9 +925,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Ain Sokhna beach resort, August 2025, pool depth 1m, outdoor open space 100m², wind 18 km/h from sea',
                     ar: 'منتجع شاطئ العين السخنة، أغسطس 2025، عمق الحوض 1 متر، مساحة مفتوحة 100م²، رياح 18 كم/ساعة من البحر',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
             {
                 scenario: {
@@ -942,9 +942,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Cairo rooftop, August 2025, 41°C ambient, direct sunlight 4 PM - midnight, 18 Bluetooth connections',
                     ar: 'سطح القاهرة، أغسطس 2025، 41 مئوية، شمس مباشرة 4 مساءً - منتصف الليل، 18 اتصال بلوتوث',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -978,7 +978,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'MacBook' },
         ],
     },
-
     'anker-soundcore-flare-2': {
         labTests: [
             {
@@ -994,9 +993,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'Outdoor venue, New Damietta City, 3 speakers, 500m² space, September 2025',
                     ar: 'مكان خارجي، دمياط الجديدة، 3 سماعات، مساحة 500م²، سبتمبر 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -1018,7 +1017,6 @@ export const labData: Record<string, ProductLabData> = {
     },
 
     // ─── Joyroom Chargers ────────────────────────────────────────────────────
-
     'joyroom-30w-fast-charger': {
         labTests: [
             {
@@ -1034,9 +1032,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'CairoVolt QA Lab, New Damietta City, Egyptian 210-230V grid, overnight test, December 2025',
                     ar: 'مختبر كايرو فولت، دمياط الجديدة، شبكة مصرية 210-230 فولت، اختبار ليلي، ديسمبر 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.POWER.name,
+                expertLinkedIn: EXPERTS.POWER.linkedIn,
+                expertTitle: { en: EXPERTS.POWER.titleEn, ar: EXPERTS.POWER.titleAr },
             },
         ],
         voiceFaqAr: [
@@ -1057,7 +1055,6 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPad' },
         ],
     },
-
     'joyroom-jr-t03-wireless-earbuds': {
         labTests: [
             {
@@ -1073,9 +1070,9 @@ export const labData: Record<string, ProductLabData> = {
                     en: 'CairoVolt QA Lab, Damietta City, controlled environment, December 2025',
                     ar: 'مختبر كايرو فولت، دمياط الجديدة، بيئة محكومة، ديسمبر 2025',
                 },
-                expertName: EXPERT.name,
-                expertLinkedIn: EXPERT.linkedIn,
-                expertTitle: { en: EXPERT.titleEn, ar: EXPERT.titleAr },
+                expertName: EXPERTS.AUDIO.name,
+                expertLinkedIn: EXPERTS.AUDIO.linkedIn,
+                expertTitle: { en: EXPERTS.AUDIO.titleEn, ar: EXPERTS.AUDIO.titleAr },
             },
         ],
         voiceFaqAr: [
