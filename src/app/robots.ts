@@ -22,6 +22,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/review/',
                     '/api/',
                     '/wishlist',
+                    '/*?*',                // Block all parameterized URLs to save Crawl Budget
                 ],
             },
             {
@@ -46,6 +47,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/shipping',
                     '/return-policy',
                     '/warranty',
+                    '/*?*',                // Block all parameterized URLs
                 ],
             },
         ],
