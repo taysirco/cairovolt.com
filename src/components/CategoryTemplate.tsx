@@ -338,9 +338,8 @@ export default function CategoryTemplate({
             </section>
 
             {/* ═══════════════════════════════════════════════════════ */}
-            {/* TACTICAL BURIAL: SEO content below products             */}
-            {/* Googlebot crawls for topical authority; buyers see      */}
-            {/* prices above without scrolling                          */}
+            {/* Extended Content Section                              */}
+            {/* Additional product information and structured data    */}
             {/* ═══════════════════════════════════════════════════════ */}
 
             {/* Soundcore Section for "ankersoundcore" SEO - Only renders for audio category */}

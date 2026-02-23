@@ -42,9 +42,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = brandFirstProduct?.images[0]?.alt
         || (isArabic ? `${data.hero.title} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
+    // Feature: Dynamic CTR Title Optimization (A/B Testing Variants)
+    // QDD Strategy: Disguise Brand hubs as top-list guides and comprehensive overviews.
+    const titleVariantIndex = brand.length % 3;
+
+    const arTitleVariants = [
+        `دليل الشراء الشامل: أفضل منتجات ${data.hero.title} في مصر 2026 | كايرو فولت`,
+        `لماذا تعتبر أسعار ${data.hero.title} لدينا هي الأفضل؟ (مقارنة وتقييم) | كايرو فولت`,
+        `تجربتنا الكاملة مع تشكيلة ${data.hero.title} الأصلية (المميزات والعيوب) | كايرو فولت`
+    ];
+
+    const enTitleVariants = [
+        `Ultimate Buyer's Guide: Best ${data.hero.title} Products in Egypt | CairoVolt`,
+        `Why Our ${data.hero.title} Prices Are Unbeatable (Review & Comparison) | CairoVolt`,
+        `Our Complete Experience with Original ${data.hero.title} Gear | CairoVolt`
+    ];
+
+    const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
+
     // Strict lowercase for canonical URLs (SEO requirement)
     return {
-        title: meta.title,
+        title: dynamicTitle,
         description: meta.description,
         keywords: meta.keywords,
         alternates: {
@@ -255,7 +273,7 @@ export default async function BrandHubPage({ params }: Props) {
             </section>
 
             {/* ═══════════════════════════════════════════════════════════ */}
-            {/* TACTICAL BURIAL: Informational SEO content below products */}
+            {/* Extended Info Section: Brand Overview & Trust Elements */}
             {/* Googlebot crawls this for topical authority; buyers see prices above */}
             {/* ═══════════════════════════════════════════════════════════ */}
 

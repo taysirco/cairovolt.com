@@ -38,8 +38,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     const isArabic = locale === 'ar';
 
+    // Feature: Dynamic Local CTR Optimization (A/B Testing Variants)
+    // QDD Strategy: Disguise location pages as local buying guides for tech accessories.
+    const titleVariantIndex = governorateSlug.length % 3;
+
+    const arTitleVariants = [
+        `أماكن بيع ملحقات الموبايل الأصلية في ${gov.seo.titleAr} (دليل ${new Date().getFullYear()}) | كايرو فولت`,
+        `تجربتنا لمنصات الشحن الموثوقة للتوصيل إلى ${gov.seo.titleAr} | كايرو فولت`,
+        `كيف تشتري إكسسوارات الموبايل الأصلية وأنت في ${gov.seo.titleAr}؟ | تقييم كايرو فولت`
+    ];
+
+    const enTitleVariants = [
+        `Where to Buy Original Mobile Accessories in ${gov.seo.titleEn} (${new Date().getFullYear()} Guide) | CairoVolt`,
+        `Our Experience with Reliable Delivery to ${gov.seo.titleEn} | CairoVolt`,
+        `How to Find Authentic Tech Accessories in ${gov.seo.titleEn} | CairoVolt Review`
+    ];
+
+    const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
+
     return {
-        title: isArabic ? gov.seo.titleAr : gov.seo.titleEn,
+        title: dynamicTitle,
         description: isArabic ? gov.seo.descriptionAr : gov.seo.descriptionEn,
         // Programmatic SEO: Ensure search engines discover and index local landing pages
         robots: {

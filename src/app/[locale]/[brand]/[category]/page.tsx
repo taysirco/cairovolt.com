@@ -36,8 +36,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = categoryProducts[0]?.images[0]?.alt
         || (isArabic ? `${data.categoryName} - كايرو فولت مصر` : `${data.categoryName} - CairoVolt Egypt`);
 
+    // Feature: Dynamic CTR Title Optimization (A/B Testing Variants)
+    // QDD Strategy: Disguise Category pages as buying guides and "Best of" lists.
+    const titleVariantIndex = categoryKey.length % 3;
+
+    const arTitleVariants = [
+        `أفضل 5 ${data.categoryName} من ${data.brand} في السوق (دليل شراء 2026) | كايرو فولت`,
+        `مقارنة وتقييم شامل: أي ${data.categoryName} من ${data.brand} يناسبك؟ | كايرو فولت`,
+        `تجربتنا العملية لأحدث إمكانيات ${data.categoryName} من ${data.brand} | كايرو فولت`
+    ];
+
+    const enTitleVariants = [
+        `Top 5 Best ${data.brand} ${data.categoryName} (2026 Buyer's Guide) | CairoVolt`,
+        `Comprehensive Review & Comparison: Which ${data.brand} ${data.categoryName} is for You? | CairoVolt`,
+        `Hands-on Experience with the Latest ${data.brand} ${data.categoryName} | CairoVolt`
+    ];
+
+    const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
+
     return {
-        title: meta.title,
+        title: dynamicTitle,
         description: meta.description,
         keywords: meta.keywords,
         alternates: {
