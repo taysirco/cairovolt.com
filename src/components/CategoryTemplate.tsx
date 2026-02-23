@@ -672,32 +672,34 @@ export default function CategoryTemplate({
                     </article>
 
                     {/* Trust Box (Desktop) */}
-                    <div className={`mt-8 p-6 rounded-2xl ${bgLightClass} border border-gray-100 dark:border-gray-800 hidden lg:block`}>
-                        <h3 className="font-bold mb-4 flex items-center gap-2">
-                            <SvgIcon name="shield" className="w-5 h-5" /> {locale === 'ar' ? 'ضمان كايرو فولت' : 'CairoVolt Promise'}
-                        </h3>
-                        {(() => {
-                            const categoryHash = typeof categorySlug === 'string' ? categorySlug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
-                            const arTrustBoxSets = [
-                                ['منتجات أصلية 100%', 'ضمان الوكيل الرسمي', 'استرجاع خلال 14 يوم'],
-                                ['باركود أصلي قابل للفحص', 'كفالة استبدال فوري', 'دفع عند الاستلام'],
-                                ['مختوم بختم الشركة', 'حماية لمدة 18 شهر', 'توصيل لجميع المحافظات'],
-                            ];
-                            const enTrustBoxSets = [
-                                ['100% Original', 'Official Warranty', '14 Days Return'],
-                                ['Scan-Verifiable Barcode', 'Instant Replacement', 'Cash on Delivery'],
-                                ['Company Stamped', '18-Month Protection', 'Nationwide Delivery'],
-                            ];
-                            const trustBoxSet = locale === 'ar' ? arTrustBoxSets[categoryHash % arTrustBoxSets.length] : enTrustBoxSets[categoryHash % enTrustBoxSets.length];
-                            return (
-                                <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-                                    {trustBoxSet.map((text, i) => (
-                                        <li key={i} className="flex items-center gap-2">✓ {text}</li>
-                                    ))}
-                                </ul>
-                            );
-                        })()}
-                    </div>
+                    <aside className="lg:col-span-4 hidden lg:block">
+                        <div className={`sticky top-24 p-6 rounded-2xl ${bgLightClass} border border-gray-100 dark:border-gray-800`}>
+                            <h3 className="font-bold mb-4 flex items-center gap-2">
+                                <SvgIcon name="shield" className="w-5 h-5" /> {locale === 'ar' ? 'ضمان كايرو فولت' : 'CairoVolt Promise'}
+                            </h3>
+                            {(() => {
+                                const categoryHash = typeof categorySlug === 'string' ? categorySlug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
+                                const arTrustBoxSets = [
+                                    ['منتجات أصلية 100%', 'ضمان الوكيل الرسمي', 'استرجاع خلال 14 يوم'],
+                                    ['باركود أصلي قابل للفحص', 'كفالة استبدال فوري', 'دفع عند الاستلام'],
+                                    ['مختوم بختم الشركة', 'حماية لمدة 18 شهر', 'توصيل لجميع المحافظات'],
+                                ];
+                                const enTrustBoxSets = [
+                                    ['100% Original', 'Official Warranty', '14 Days Return'],
+                                    ['Scan-Verifiable Barcode', 'Instant Replacement', 'Cash on Delivery'],
+                                    ['Company Stamped', '18-Month Protection', 'Nationwide Delivery'],
+                                ];
+                                const trustBoxSet = locale === 'ar' ? arTrustBoxSets[categoryHash % arTrustBoxSets.length] : enTrustBoxSets[categoryHash % enTrustBoxSets.length];
+                                return (
+                                    <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
+                                        {trustBoxSet.map((text, i) => (
+                                            <li key={i} className="flex items-center gap-2">✓ {text}</li>
+                                        ))}
+                                    </ul>
+                                );
+                            })()}
+                        </div>
+                    </aside>
                 </div>
 
                 {/* Related Categories - Internal Linking */}
