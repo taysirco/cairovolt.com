@@ -147,7 +147,7 @@ export default function CategoryTemplate({
 
     // Use database products if available, otherwise use initialProducts.
     // We avoid falling back to 'content.products' which creates empty slugs.
-    const productsToShow = dbProducts.length > 0 ? dbProducts : [];
+    const productsToShow = dbProducts.length > 0 ? dbProducts : initialProducts;
 
     const displayProducts = productsToShow.map(p => {
         // Fallback logic for images: PRIORITIZE static images if available
