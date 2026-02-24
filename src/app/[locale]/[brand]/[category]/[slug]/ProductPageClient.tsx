@@ -618,7 +618,27 @@ export default function ProductPageClient({ product, relatedProducts = [], local
             {/* Product Details */}
             <div className="container mx-auto px-4 py-12">
                 <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden shadow-lg">
-                    {/* CairoVolt Labs Test Results — First, before Features for Search Intent Priority */}
+                    {/* 1. Features Section — "Why should I buy this?" */}
+                    {productFeatures.length > 0 && (
+                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800" aria-label={isRTL ? 'مميزات المنتج' : 'Product Features'}>
+                            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+                                <SvgIcon name="bolt" className="w-6 h-6" />
+                                {tProduct('features')}
+                            </h2>
+                            <ul className="grid md:grid-cols-2 gap-4">
+                                {productFeatures.map((feature, idx) => (
+                                    <li key={idx} className="flex items-start gap-3">
+                                        <span className={`flex-shrink-0 w-6 h-6 bg-${brandColor}-100 dark:bg-${brandColor}-900/30 text-${brandColor}-600 rounded-full flex items-center justify-center text-sm font-bold`}>
+                                            ✓
+                                        </span>
+                                        <span className="text-gray-700 dark:text-gray-300">{feature}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+                    )}
+
+                    {/* 2. CairoVolt Labs Test Results — Proof after claim */}
                     {labTestData && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
                             <LabTestBlock
@@ -632,7 +652,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
-                    {/* Dynamic Thermal Advice — Only for power/charger products */}
+                    {/* 3. Dynamic Thermal Advice — Supporting evidence */}
                     {thermalAdvice && ['power-banks', 'wall-chargers', 'car-chargers'].includes(thermalAdvice.category) && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
                             <div className="bg-yellow-50/80 border-r-4 border-yellow-500 p-5 rounded-l-lg">
@@ -655,27 +675,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
-                    {/* Features Section */}
-                    {productFeatures.length > 0 && (
-                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800" aria-label={isRTL ? 'مميزات المنتج' : 'Product Features'}>
-                            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <SvgIcon name="bolt" className="w-6 h-6" />
-                                {tProduct('features')}
-                            </h2>
-                            <ul className="grid md:grid-cols-2 gap-4">
-                                {productFeatures.map((feature, idx) => (
-                                    <li key={idx} className="flex items-start gap-3">
-                                        <span className={`flex-shrink-0 w-6 h-6 bg-${brandColor}-100 dark:bg-${brandColor}-900/30 text-${brandColor}-600 rounded-full flex items-center justify-center text-sm font-bold`}>
-                                            ✓
-                                        </span>
-                                        <span className="text-gray-700 dark:text-gray-300">{feature}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
-                    )}
-
-                    {/* Enhanced Structured Data Sections */}
+                    {/* 4. Enhanced Structured Data Sections — Expert Opinion + FAQs + Comparison */}
                     <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
                         {/* Expert Opinion - E-E-A-T Signal */}
                         <ExpertOpinion
