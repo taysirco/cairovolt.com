@@ -74,18 +74,19 @@ function generateSessionProfile(): { willAddToCart: boolean; willCheckout: boole
     const isMorningDead = hour >= 1 && hour <= 6;
 
     // Base probabilities adjusted by time of day
-    let addToCartProb = 0.42;    // ~42% will add to cart
-    let checkoutProb = 0.33;     // ~33% of those will begin checkout
-    let purchaseProb = 0.08;     // ~8% of those will purchase
+    // Target effective purchase rate: ~3.5% (Very strong NavBoost signal, but realistic)
+    let addToCartProb = 0.55;    // ~55% will add to cart
+    let checkoutProb = 0.45;     // ~45% of those will begin checkout (24% overall)
+    let purchaseProb = 0.14;     // ~14% of those will purchase (3.4% overall)
 
     if (isEveningPeak) {
-        addToCartProb = 0.50;    // Higher intent during peak hours
-        checkoutProb = 0.38;
-        purchaseProb = 0.12;
+        addToCartProb = 0.65;    // Higher intent during peak (65%)
+        checkoutProb = 0.50;     // (32% overall)
+        purchaseProb = 0.16;     // (5.2% overall - excellent for ads)
     } else if (isMorningDead) {
-        addToCartProb = 0.25;    // Lower intent during dead hours
-        checkoutProb = 0.20;
-        purchaseProb = 0.04;
+        addToCartProb = 0.35;    // Lower intent during dead hours (35%)
+        checkoutProb = 0.35;     // (12% overall)
+        purchaseProb = 0.15;     // (1.8% overall)
     }
 
     // Roll dice once per session — this creates a natural funnel
