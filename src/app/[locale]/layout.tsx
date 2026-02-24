@@ -11,7 +11,6 @@ import { getMessages } from 'next-intl/server';
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
 import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
-import EdgeNodeResolver from '@/components/seo/EdgeNodeResolver';
 import SpeculationRules from '@/components/seo/SpeculationRules';
 import UserMetricsProvider from '@/components/seo/UserMetricsProvider';
 import EnhancedAnalyticsProvider from '@/components/seo/EnhancedAnalyticsProvider';
@@ -121,8 +120,7 @@ export default async function RootLayout({
             <EnhancedAnalyticsProvider />
             {/* Global business graph and tech stack metadata */}
             <GlobalBusinessSchema locale={locale} />
-            {/* Edge CDN resolution optimizer */}
-            <EdgeNodeResolver />
+
 
             <div className="flex flex-col min-h-screen w-full max-w-full overflow-x-hidden">
               <Header />
