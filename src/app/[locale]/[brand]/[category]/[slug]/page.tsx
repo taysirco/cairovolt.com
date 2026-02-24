@@ -12,7 +12,7 @@ import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import TabTakeover from '@/components/UX/TabTakeover';
 import { getLabData } from '@/data/cairovolt-labs';
-import LabTestBlock from '@/components/seo/LabTestBlock';
+
 import { buildManifest, signManifest } from '@/lib/content-credentials';
 
 export const revalidate = 3600;
@@ -369,61 +369,6 @@ export default async function ProductPage({ params }: Props) {
                 ) : null;
             })()}
 
-            {/* CairoVolt Labs Test Results — First-Party Data (Information Gain) */}
-            {/* Priority 1: cairovolt-labs.ts full test data */}
-            {labInfo?.labTests?.[0] ? (
-                <LabTestBlock
-                    testScenario={isArabic ? labInfo.labTests[0].scenario.ar : labInfo.labTests[0].scenario.en}
-                    testResult={isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en}
-                    testConditions={isArabic ? labInfo.labTests[0].conditions.ar : labInfo.labTests[0].conditions.en}
-                    expertName={labInfo.labTests[0].expertName}
-                    expertProfileUrl={labInfo.labTests[0].expertProfileUrl}
-                    locale={locale}
-                />
-            ) : (() => {
-                // Priority 2: product-seo-enhancements labVerified data
-                const seoEnhancement = getProductSEO(slug);
-                return seoEnhancement?.labVerified ? (
-                    <LabTestBlock
-                        testScenario={isArabic
-                            ? seoEnhancement.localPainPoint.ar
-                            : seoEnhancement.localPainPoint.en}
-                        testResult={isArabic
-                            ? seoEnhancement.labVerified.result.ar
-                            : seoEnhancement.labVerified.result.en}
-                        testConditions={isArabic
-                            ? seoEnhancement.labVerified.conditions.ar
-                            : seoEnhancement.labVerified.conditions.en}
-                        expertName={seoEnhancement.labVerified.expertName}
-                        expertProfileUrl={seoEnhancement.labVerified.expertName.includes('Yahia')
-                            ? 'https://www.youtube.com/c/YehiaRadwan'
-                            : 'https://www.youtube.com/@Ahmed.Medhat'}
-                        locale={locale}
-                    />
-                ) : null;
-            })()}
-
-            {/* Dynamic thermal advice — only for power/charger products where heat matters */}
-            {['power-banks', 'wall-chargers', 'car-chargers'].includes(category) && (
-                <div className="bg-yellow-50/80 border-r-4 border-yellow-500 p-5 my-4 rounded-l-lg">
-                    <div className="flex items-center gap-2 mb-2">
-                        <span className="text-xl">🌡️</span>
-                        <h4 className="font-bold text-yellow-900">
-                            {isArabic ? 'تحليل الأداء الحراري (مختبرات كايرو فولت)' : 'Thermal Performance Analysis (CairoVolt Labs)'}
-                        </h4>
-                    </div>
-                    <p className="text-yellow-800 font-medium leading-relaxed">
-                        {currentTemp > 35
-                            ? (isArabic
-                                ? `⚠️ تنبيه: درجة حرارة الجو في مصر الآن (${currentTemp}°C). هذا المنتج مصمم لتحمل حرارة الصيف المصري بأمان.`
-                                : `⚠️ Alert: Current temperature in Egypt is (${currentTemp}°C). This product is designed to handle Egyptian summer heat safely.`)
-                            : (isArabic
-                                ? `✅ الطقس في مصر الآن (${currentTemp}°C) مثالي لأداء البطاريات. المنتج سيعمل بأقصى كفاءة.`
-                                : `✅ Current weather in Egypt (${currentTemp}°C) is ideal for battery performance. Product will operate at maximum efficiency.`)}
-                    </p>
-                </div>
-            )}
-
             {/* VoiceSearchFAQ removed — was duplicating the same product FAQ questions visible in the accordion above */}
 
             {/* Client-side UX components */}
@@ -436,6 +381,33 @@ export default async function ProductPage({ params }: Props) {
                 locale={locale}
                 brand={brand}
                 category={category}
+                labTestData={(() => {
+                    // Priority 1: cairovolt-labs.ts full test data
+                    if (labInfo?.labTests?.[0]) {
+                        return {
+                            testScenario: isArabic ? labInfo.labTests[0].scenario.ar : labInfo.labTests[0].scenario.en,
+                            testResult: isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en,
+                            testConditions: isArabic ? labInfo.labTests[0].conditions.ar : labInfo.labTests[0].conditions.en,
+                            expertName: labInfo.labTests[0].expertName,
+                            expertProfileUrl: labInfo.labTests[0].expertProfileUrl,
+                        };
+                    }
+                    // Priority 2: product-seo-enhancements labVerified data
+                    const seoEnhancement = getProductSEO(slug);
+                    if (seoEnhancement?.labVerified) {
+                        return {
+                            testScenario: isArabic ? seoEnhancement.localPainPoint.ar : seoEnhancement.localPainPoint.en,
+                            testResult: isArabic ? seoEnhancement.labVerified.result.ar : seoEnhancement.labVerified.result.en,
+                            testConditions: isArabic ? seoEnhancement.labVerified.conditions.ar : seoEnhancement.labVerified.conditions.en,
+                            expertName: seoEnhancement.labVerified.expertName,
+                            expertProfileUrl: seoEnhancement.labVerified.expertName.includes('Yahia')
+                                ? 'https://www.youtube.com/c/YehiaRadwan'
+                                : 'https://www.youtube.com/@Ahmed.Medhat',
+                        };
+                    }
+                    return undefined;
+                })()}
+                thermalAdvice={{ currentTemp, category }}
             />
         </>
     );

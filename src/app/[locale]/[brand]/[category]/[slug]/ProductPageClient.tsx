@@ -8,6 +8,7 @@ import dynamic from 'next/dynamic';
 import { QuickSummary } from '@/components/seo/ProductGuides';
 import { CategoryOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
 import { useCart } from '@/context/CartContext';
+import LabTestBlock from '@/components/seo/LabTestBlock';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
@@ -66,6 +67,17 @@ interface ProductPageClientProps {
     locale: string;
     brand: string;
     category: string;
+    labTestData?: {
+        testScenario: string;
+        testResult: string;
+        testConditions: string;
+        expertName: string;
+        expertProfileUrl: string;
+    };
+    thermalAdvice?: {
+        currentTemp: number;
+        category: string;
+    };
 }
 
 // Category mapping for breadcrumb
@@ -78,7 +90,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], locale, brand, category }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], locale, brand, category, labTestData, thermalAdvice }: ProductPageClientProps) {
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
@@ -721,6 +733,43 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         : (isRTL ? 'اقرأ جميع المواصفات الهندسية' : 'Read Full Engineering Specs')
                                     }
                                 </button>
+                            </div>
+                        </section>
+                    )}
+
+                    {/* CairoVolt Labs Test Results — Above Specs for Search Intent Priority */}
+                    {labTestData && (
+                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
+                            <LabTestBlock
+                                testScenario={labTestData.testScenario}
+                                testResult={labTestData.testResult}
+                                testConditions={labTestData.testConditions}
+                                expertName={labTestData.expertName}
+                                expertProfileUrl={labTestData.expertProfileUrl}
+                                locale={locale}
+                            />
+                        </section>
+                    )}
+
+                    {/* Dynamic Thermal Advice — Only for power/charger products */}
+                    {thermalAdvice && ['power-banks', 'wall-chargers', 'car-chargers'].includes(thermalAdvice.category) && (
+                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
+                            <div className="bg-yellow-50/80 border-r-4 border-yellow-500 p-5 rounded-l-lg">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <span className="text-xl">🌡️</span>
+                                    <h4 className="font-bold text-yellow-900">
+                                        {isRTL ? 'تحليل الأداء الحراري (مختبرات كايرو فولت)' : 'Thermal Performance Analysis (CairoVolt Labs)'}
+                                    </h4>
+                                </div>
+                                <p className="text-yellow-800 font-medium leading-relaxed">
+                                    {thermalAdvice.currentTemp > 35
+                                        ? (isRTL
+                                            ? `⚠️ تنبيه: درجة حرارة الجو في مصر الآن (${thermalAdvice.currentTemp}°C). هذا المنتج مصمم لتحمل حرارة الصيف المصري بأمان.`
+                                            : `⚠️ Alert: Current temperature in Egypt is (${thermalAdvice.currentTemp}°C). This product is designed to handle Egyptian summer heat safely.`)
+                                        : (isRTL
+                                            ? `✅ الطقس في مصر الآن (${thermalAdvice.currentTemp}°C) مثالي لأداء البطاريات. المنتج سيعمل بأقصى كفاءة.`
+                                            : `✅ Current weather in Egypt (${thermalAdvice.currentTemp}°C) is ideal for battery performance. Product will operate at maximum efficiency.`)}
+                                </p>
                             </div>
                         </section>
                     )}
