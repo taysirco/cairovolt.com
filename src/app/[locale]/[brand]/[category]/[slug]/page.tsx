@@ -303,7 +303,7 @@ export default async function ProductPage({ params }: Props) {
                     if (labInfo?.labTests?.[0]) {
                         return {
                             name: labInfo.labTests[0].expertName,
-                            linkedIn: labInfo.labTests[0].expertLinkedIn,
+                            profileUrl: labInfo.labTests[0].expertProfileUrl,
                             title: isArabic ? labInfo.labTests[0].expertTitle.ar : labInfo.labTests[0].expertTitle.en,
                             body: isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en,
                         };
@@ -313,7 +313,9 @@ export default async function ProductPage({ params }: Props) {
                     if (seoData?.labVerified) {
                         return {
                             name: seoData.labVerified.expertName,
-                            linkedIn: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
+                            profileUrl: seoData.labVerified.expertName.includes('Yahia')
+                                ? 'https://www.youtube.com/c/YehiaRadwan'
+                                : 'https://www.youtube.com/@Ahmed.Medhat',
                             title: isArabic ? 'رئيس قسم الفحص التقني وحلول الطاقة' : 'Head of Technical Testing & Power Solutions',
                             body: isArabic ? seoData.labVerified.result.ar : seoData.labVerified.result.en,
                         };
@@ -375,7 +377,7 @@ export default async function ProductPage({ params }: Props) {
                     testResult={isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en}
                     testConditions={isArabic ? labInfo.labTests[0].conditions.ar : labInfo.labTests[0].conditions.en}
                     expertName={labInfo.labTests[0].expertName}
-                    expertLinkedIn={labInfo.labTests[0].expertLinkedIn}
+                    expertProfileUrl={labInfo.labTests[0].expertProfileUrl}
                     locale={locale}
                 />
             ) : (() => {
@@ -393,7 +395,9 @@ export default async function ProductPage({ params }: Props) {
                             ? seoEnhancement.labVerified.conditions.ar
                             : seoEnhancement.labVerified.conditions.en}
                         expertName={seoEnhancement.labVerified.expertName}
-                        expertLinkedIn="https://linkedin.com/in/ahmed-mahmoud-cairovolt"
+                        expertProfileUrl={seoEnhancement.labVerified.expertName.includes('Yahia')
+                            ? 'https://www.youtube.com/c/YehiaRadwan'
+                            : 'https://www.youtube.com/@Ahmed.Medhat'}
                         locale={locale}
                     />
                 ) : null;

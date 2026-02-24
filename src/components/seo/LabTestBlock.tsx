@@ -10,7 +10,7 @@ interface LabTestBlockProps {
     testResult: string;
     testConditions: string;
     expertName: string;
-    expertLinkedIn?: string;
+    expertProfileUrl?: string;
     locale: string;
     rating?: number;
 }
@@ -20,7 +20,7 @@ export default function LabTestBlock({
     testResult,
     testConditions,
     expertName,
-    expertLinkedIn,
+    expertProfileUrl,
     locale,
     rating = 5,
 }: LabTestBlockProps) {
@@ -139,15 +139,15 @@ export default function LabTestBlock({
                         <div className="flex items-center gap-3">
                             <div className="text-right">
                                 <p className="text-xs text-gray-500 mb-0.5">{isArabic ? selectedArReviewer : selectedEnReviewer}</p>
-                                {expertLinkedIn ? (
+                                {expertProfileUrl ? (
                                     <a
-                                        href={expertLinkedIn}
+                                        href={expertProfileUrl}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-400 font-bold text-sm hover:text-blue-300 transition-colors flex items-center gap-1"
                                     >
                                         {expertName}
-                                        <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
+                                        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg>
                                     </a>
                                 ) : (
                                     <span className="text-blue-400 font-bold text-sm">{expertName}</span>

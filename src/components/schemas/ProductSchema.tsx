@@ -48,7 +48,7 @@ interface ProductSchemaProps {
     // Expert review from CairoVolt Labs
     expertReview?: {
         name: string;
-        linkedIn: string;
+        profileUrl: string;
         title: string;
         body: string;
     };
@@ -375,7 +375,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
             deliveryMethod: 'https://schema.org/OnSitePickup',
         },
-        // Expert Review from CairoVolt Labs with LinkedIn verification
+        // Expert Review from CairoVolt Labs with profile verification
         ...(expertReview && {
             review: [{
                 '@type': 'Review',
@@ -383,7 +383,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     '@type': 'Person',
                     name: expertReview.name,
                     jobTitle: expertReview.title,
-                    sameAs: expertReview.linkedIn,
+                    sameAs: expertReview.profileUrl,
                 },
                 publisher: {
                     '@type': 'Organization',
