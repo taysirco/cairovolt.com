@@ -55,8 +55,8 @@ export default function LabTestBlock({
     const arResults = ['النتيجة الموثقة', 'الخلاصة النهائية', 'ما لاحظناه فعلياً', 'قرائات الاختبار'];
     const enResults = ['Verified Result', 'Final Verdict', 'Actual Observations', 'Test Readings'];
 
-    const arReviewers = ['المراجع الفني', 'مهندس الفحص', 'خبير كايرو فولت', 'المشرف التقني'];
-    const enReviewers = ['Technical Reviewer', 'Testing Engineer', 'CairoVolt Expert', 'Technical Lead'];
+    const arReviewers = ['المراجع الفني', 'مهندس الفحص', 'خبير كايرو فولت', 'المشرف التقني', 'مهندس الاختبارات'];
+    const enReviewers = ['Technical Reviewer', 'Quality Engineer', 'CairoVolt Expert', 'Technical Lead', 'Testing Specialist'];
 
     const selectedArTitle = arTitles[hash % arTitles.length];
     const selectedEnTitle = enTitles[hash % enTitles.length];

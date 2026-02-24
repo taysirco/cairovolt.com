@@ -76,7 +76,9 @@ export default function VoiceSearchFAQ({ productName, qaList, locale }: VoiceSea
                         </summary>
                         <div className="cairovolt-voice-answer mt-4 pt-4 border-t border-gray-200 text-gray-700 font-medium">
                             <strong className="text-blue-700">
-                                {isArabic ? 'رد الخبير م.أحمد محمود:' : 'Expert Eng. Ahmed Mahmoud:'}
+                                {isArabic
+                                    ? (index % 2 === 0 ? 'رد الخبير م.أحمد مدحت:' : 'رد الخبير م.يحيى رضوان:')
+                                    : (index % 2 === 0 ? 'Expert Eng. Ahmed Medhat:' : 'Expert Eng. Yahia Radwan:')}
                             </strong>{' '}
                             {qa.answer}
                         </div>

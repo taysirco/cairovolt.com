@@ -33,7 +33,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'IPX7: fully submerged 1m depth for 30 minutes at Ain Sokhna pool with zero water ingress. 8-hour rooftop test at 41°C direct sunlight: zero thermal shutdown, bass boost active, 18 different Bluetooth connections. Total playback: 12h 8min.', ar: 'IPX7: غمر كامل 1م عمق 30 دقيقة في حوض العين السخنة بدون تسرب. 8 ساعات سطح 41°C: صفر إيقاف حراري، باس نشط، 18 اتصال بلوتوث. إجمالي: 12س 8د.' },
             conditions: { en: 'Ain Sokhna beach resort (pool) + Cairo rooftop, August 2025, 41°C direct sunlight', ar: 'منتجع شاطئ العين السخنة (حوض) + سطح القاهرة، أغسطس 2025، 41°C شمس مباشرة' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-soundcore-flare-2': {
@@ -56,7 +56,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: '3 Soundcore Flare 2 speakers synchronized via PartyCast in 1.2 seconds. Zero audio lag at 30+ meter separation across a 500m² outdoor venue in New Damietta. LED effects perfectly synced. Total runtime: 10h 15min.', ar: '3 سماعات Soundcore Flare 2 تزامنت عبر PartyCast في 1.2 ثانية. صفر تأخير صوتي على 30+ متر في 500م². تزامن LED تام. إجمالي: 10س 15د.' },
             conditions: { en: 'Outdoor venue, New Damietta City, 3 Flare 2 speakers, 500m² open space, September 2025', ar: 'مكان خارجي، دمياط الجديدة، 3 سماعات Flare 2، 500م²، سبتمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-737-powerbank': {
@@ -85,7 +85,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
                 en: 'Bosta Fulfillment Center, New Cairo 3, August 2025, ambient 37°C',
                 ar: 'مركز بوسطة بالتجمع الثالث، أغسطس 2025، حرارة 37 مئوية',
             },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-622-maggo': {
@@ -108,7 +108,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPhone 15 Pro charged from 0% to 68% in 40 minutes wirelessly at a Cairo coffee shop table, hands-free with kickstand active. MagSafe snap was instant. No heat at 38°C ambient.', ar: 'iPhone 15 Pro شحن من 0% لـ 68% في 40 دقيقة لاسلكياً على طاولة كافيه بالقاهرة بدون كابل. MagSafe لحظي. لا حرارة عند 38°C.' },
             conditions: { en: 'Cairo coffee shop (Maadi), 38°C ambient, iPhone 15 Pro, October 2025', ar: 'كافيه القاهرة (المعادي)، 38°C، iPhone 15 Pro، أكتوبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-521-powerhouse': {
@@ -131,7 +131,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Powered WE VDSL router + 40W desk fan simultaneously for 18 hours 15 minutes at 39°C. LiFePO4 chemistry showed zero thermal degradation vs lithium-ion.', ar: 'شغّل راوتر WE VDSL + مروحة مكتبية 40 واط معاً لمدة 18 ساعة و 15 دقيقة عند 39 درجة. كيمياء LiFePO4 لم تتأثر بالحرارة قياساً بالليثيوم أيون.' },
             conditions: { en: 'Bosta Warehouse, New Cairo 3, August 2025, ambient 39°C', ar: 'مخزن بوسطة، التجمع الثالث، أغسطس 2025، حرارة 39 مئوية' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-powercore-10000': {
@@ -154,7 +154,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Fully charged iPhone 15 twice (0-100% each) during a 12-hour Cairo metro workday. Temperature stayed ambient. No charging interruptions.', ar: 'شحن iPhone 15 مرتين كاملتين (0-100%) خلال 12 ساعة عمل في مترو القاهرة. الحرارة بقيت طبيعية. لا توقفات شحن.' },
             conditions: { en: 'Cairo Metro Line 1, Helwan to Ramses, 7:30 AM to 8 PM workday, July 2025', ar: 'خط مترو 1، حلوان إلى رمسيس، يوم عمل 7:30 ص لـ 8 مساءً، يوليو 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-powercore-20000': {
@@ -177,7 +177,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Charged 2 iPhones + 2 Samsung phones simultaneously on Cairo-Hurghada highway. All reached 80%+ charge before arrival. No overheating on dual ports.', ar: 'شحن 2 ايفون + 2 سامسونج في نفس الوقت على طريق الغردقة. وصلوا لـ 80%+ قبل الوصول. لا سخونة في المنافذ المزدوجة.' },
             conditions: { en: 'Cairo-Hurghada highway, 36-40°C, 5-hour drive, family of 4, August 2025', ar: 'طريق القاهرة-الغردقة، 36-40°C، 5 ساعات، عائلة من 4 أشخاص، أغسطس 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-powercore-26800': {
@@ -200,7 +200,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Charged 5 devices (2 iPhones + 2 Samsung + 1 iPad) simultaneously from 10-15% to 90%+ each on Cairo-Hurghada round trip (10 hours). Total: 4.7 full charges. Zero thermal incidents at 41°C.', ar: 'شحن 5 أجهزة (ايفونين + سامسونجين + ايباد) معاً من 10-15% لـ 90%+. إجمالي: 4.7 شحنة كاملة. صفر حوادث حرارية عند 41°C.' },
             conditions: { en: 'Cairo-Hurghada round trip, August 2025, 5 devices, cabin 41°C, 530km each way', ar: 'القاهرة-الغردقة ذهاباً وإياباً، أغسطس 2025، 5 أجهزة، مقصورة 41°C، 530 كم لكل اتجاه' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-powerport-20w': {
@@ -210,7 +210,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPhone 15 charged from 0% to 50% in 28 minutes on Egyptian 220V grid. Max temperature: 32°C (safe). PowerIQ technology maintained stable 20W PD output throughout.', ar: 'iPhone 15 شحن من 0% لـ 50% في 28 دقيقة على شبكة 220 فولت مصرية. أقصى حرارة: 32°C (آمن). PowerIQ حافظ على 20 واط ثابت.' },
             conditions: { en: 'CairoVolt QA Lab, Egyptian 220V grid, iPhone 15, October 2025', ar: 'مختبر كايرو فولت، شبكة 220 فولت، iPhone 15، أكتوبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-powerport-25w': {
@@ -220,7 +220,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Samsung Galaxy S24 charged from 0% to 50% in 21 minutes with full PPS Super Fast Charging on Egyptian 220V grid. Max temperature: 34°C. PowerIQ and PPS protocol maintained stability throughout.', ar: 'Samsung Galaxy S24 شحن من 0% لـ 50% في 21 دقيقة بشحن PPS فائق السرعة على 220 فولت. أقصى حرارة: 34°C. PowerIQ وPPS ثابتان.' },
             conditions: { en: 'CairoVolt QA Lab, Egyptian 220V grid, Samsung Galaxy S24, November 2025', ar: 'مختبر كايرو فولت، شبكة 220 فولت، Samsung Galaxy S24، نوفمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-nano-45w': {
@@ -230,7 +230,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'GaN technology maintained stable current output under 190V-240V voltage fluctuation. No ghost touch on iPhone 15 Pro.', ar: 'تقنية GaN حافظت على تيار ثابت مع تذبذب 190V-240V. لا يوجد تخريف تاتش على iPhone 15 Pro.' },
             conditions: { en: 'CairoVolt QA Lab, New Damietta City, voltage regulator test 190V-240V', ar: 'مختبر كايرو فولت، دمياط الجديدة، اختبار منظم جهد 190V-240V' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-powerline-usb-c-lightning': {
@@ -240,7 +240,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt MFi chip verification: iPhone 15 recognized genuine Apple authentication on every single connection across 6 months (estimated 1,100+ insertions). Zero "This accessory may not be supported" warnings. Fake MFi cables from Bab El Khalq triggered this warning on first use. Data transfer speed stable at 480Mbps throughout.', ar: 'تحقق شريحة MFi كايرو فولت: iPhone 15 تعرف على توثيق ابل الأصلي في كل توصيلة خلال 6 أشهر (حوالي 1,100+ إدخال). صفر رسائل "هذا الاكسسوار قد لا يكون مدعوماً". كابلات MFi المقلدة من باب الخلق أظهرت الرسالة من أول استخدام. سرعة نقل البيانات ثابتة 480Mbps.' },
             conditions: { en: 'CairoVolt daily use tracking, iPhone 15 Pro, 6-month MFi chip stability test, January-June 2025', ar: 'تتبع استخدام يومي كايرو فولت، iPhone 15 Pro، اختبار استقرار شريحة MFi 6 أشهر، يناير-يونيو 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-powerline-usb-c-usb-c': {
@@ -250,7 +250,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'MacBook Air M2 charged from 0% to 50% in 43 minutes with full 100W PD on Egyptian 220V grid. Zero voltage fluctuation issues. Double-braided nylon showed no wear after 6 months daily use.', ar: 'MacBook Air M2 شحن من 0% لـ 50% في 43 دقيقة بـ 100 واط على 220 فولت. صفر تذبذبات جهد. النايلون لم يظهر بلى بعد 6 أشهر استخدام يومي.' },
             conditions: { en: 'CairoVolt QA Lab, Egyptian 220V grid, MacBook Air M2 + daily commute 6 months', ar: 'مختبر كايرو فولت، شبكة 220 فولت، MacBook Air M2 + 6 أشهر يومي' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'anker-car-charger-dual-usb': {
@@ -260,7 +260,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPhone 15 and Samsung S23 Ultra charged simultaneously from 15% to 80%+ on Cairo-Suez highway (2 hours). No thermal throttling at 38°C cabin temperature. Both ports maintained full PowerIQ 3.0 speed.', ar: 'iPhone 15 وSamsung S23 Ultra شحنوا بالتزامن من 15% لـ 80%+ على طريق القاهرة-السويس (2 ساعة). لا فصل حراري عند 38°C في المقصورة. المنفذان حافظا على سرعة PowerIQ 3.0 الكاملة.' },
             conditions: { en: 'Cairo-Suez highway, September 2025, cabin 38°C, 2-hour drive', ar: 'طريق القاهرة-السويس، سبتمبر 2025، مقصورة 38°C، رحلة ساعتين' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-power-bank-10000': {
@@ -270,7 +270,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Fully charged iPhone 15 (0% to 100%) with 40% capacity remaining after a 14-hour Cairo university day (Metro + Uber + campus). Pocket-safe at 210g, max temperature 36°C.', ar: 'شحن iPhone 15 (0% لـ 100%) وفضل 40% سعة بعد 14 ساعة جامعية في القاهرة. آمن في الجيب 210 جرام، أقصى حرارة 36°C.' },
             conditions: { en: 'Cairo University campus + Cairo Metro + Uber, October 2025, 14-hour university day', ar: 'حرم جامعة القاهرة + مترو + أوبر، أكتوبر 2025، يوم 14 ساعة' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-power-bank-20000': {
@@ -280,7 +280,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Kept iPhone 15 + Samsung S24 + Samsung A55 alive for over 10 hours during a 6-hour power outage in Cairo. All three phones started at 20-30% and were maintained above 15% throughout. Total capacity used: 68% of 20,000mAh.', ar: 'شغّل iPhone 15 + Samsung S24 + Samsung A55 لأكثر من 10 ساعات خلال 6 ساعات انقطاع في القاهرة. الثلاثة بدأت 20-30% وظلت فوق 15% طوال الوقت. إجمالي: 68% من سعة 20,000مللي أمبير.' },
             conditions: { en: 'Cairo residential area, June 2025, 6-hour power outage, 3 phones simultaneously', ar: 'منطقة سكنية بالقاهرة، يونيو 2025، 6 ساعات انقطاع، 3 موبايلات بالتزامن' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-t03s-pro-earbuds': {
@@ -290,7 +290,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'ANC reduced Cairo metro rush hour noise by approximately 70% (tested Attaba to Shoubra El-Kheima, Line 1). IPX5 survived 3-week daily gym sessions at 38°C with no audio degradation. Voice calls crystal clear against metro background noise.', ar: 'ANC خفض ضوضاء مترو القاهرة ساعة الذروة بحوالي 70% (عطبة لشبرا الخيمة، خط 1). IPX5 صمد 3 أسابيع جيم يومي 38°C بدون تدهور صوتي. مكالمات واضحة رغم ضوضاء المترو.' },
             conditions: { en: 'Cairo Metro Line 1 + Nasr City gym, January 2026 + July-August 2025', ar: 'مترو القاهرة خط 1 + جيم مدينة نصر، يناير 2026 + يوليو-أغسطس 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-jr-t03-wireless-earbuds': {
@@ -300,7 +300,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'IPX4 rating held during 2 weeks of daily gym use (32°C). Battery consistently delivered 5.5 hours at medium volume. Connection stable throughout Cairo metro commute.', ar: 'IPX4 صمد 2 أسبوع جيم يومي 32°C. البطارية وصلت 5.5 ساعة بمستوى صوت متوسط. اتصال مستقر طوال رحلات مترو القاهرة.' },
             conditions: { en: 'Nasr City gym 32°C + Cairo Metro, October 2025, 2-week daily test', ar: 'جيم مدينة نصر 32°C + مترو القاهرة، أكتوبر 2025، اختبار يومي أسبوعين' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-20w-usb-c-charger': {
@@ -310,7 +310,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Joyroom 20W original charger peaked at 42°C during 2-hour continuous iPhone 15 charge. Fake charger from Cairo local market peaked at 67°C and triggered iPhone overheating warning. CairoVolt recommends always buying original — price difference is life safety.', ar: 'شاحن جوي روم الأصلي 20 واط وصل ذروة 42°C خلال شحن iPhone 15 لساعتين متواصلتين. شاحن مقلد من سوق القاهرة وصل ذروة 67°C وأطلق تحذير سخونة الايفون. كايرو فولت تنصح دائماً بشراء الأصلي — فرق السعر هو أمان حياتك.' },
             conditions: { en: 'CairoVolt lab comparison test, original vs counterfeit, July 2025, iPhone 15, 2-hour continuous charge', ar: 'اختبار مقارنة مختبر كايرو فولت، أصلي مقابل مقلد، يوليو 2025، iPhone 15، شحن متواصل ساعتين' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-usb-c-lightning-cable': {
@@ -320,7 +320,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Survived 15,000 rapid 90° bends on CairoVolt automated bend-test machine without internal wire exposure. For comparison, Apple original Lightning cable showed micro-cracks at 8,200 bends. 30W PD output remained stable at bend 15,000.', ar: 'نجح في 15,000 انحناءة سريعة 90° على ماكينة اختبار كايرو فولت بدون كشف أسلاك داخلية. للمقارنة: كابل ابل الأصلي أظهر تشققات عند 8,200 انحناءة. تيار 30 واط ظل ثابتاً عند الانحناءة 15,000.' },
             conditions: { en: 'CairoVolt QA Lab automated bend-test machine, 90° bends at connector joint, January 2026', ar: 'ماكينة اختبار انحناء مختبر كايرو فولت، انحناءات 90° عند المفصل، يناير 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-soundcore-life-p2i': {
@@ -330,7 +330,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Survived 3-week daily gym sessions (38°C outdoor, intense sweat) + Cairo metro commutes. IPX5 rating held with zero audio degradation or charging issues.', ar: 'اجتازت 3 أسابيع جيم يومي (38°C خارجي، تعرق شديد) + مترو القاهرة. IPX5 صمد بدون أي تدهور في الصوت أو مشاكل شحن.' },
             conditions: { en: 'Nasr City gym (38°C) + Cairo Metro Line 1, July-August 2025, 3 weeks daily', ar: 'جيم مدينة نصر (38°C) + خط مترو 1، يوليو-أغسطس 2025، 3 أسابيع يومياً' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-ft3-smartwatch': {
@@ -340,7 +340,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Battery lasted 11 days with always-on display + heart rate monitoring in Damietta summer heat. IP68 confirmed: submerged in pool for 10 minutes without issues.', ar: 'البطارية صمدت 11 يوم مع شاشة دائمة + مراقبة قلب في حرارة دمياط الصيف. IP68 مؤكد: غمرت في حوض سباحة لمدة 10 دقائق بدون مشاكل.' },
             conditions: { en: 'New Damietta City, February 2026, 14-day daily wear + pool test', ar: 'مدينة دمياط الجديدة، فبراير 2026، ارتداء يومي 14 يوم + اختبار حوض سباحة' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-car-mount-zs290': {
@@ -350,7 +350,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPhone 15 Pro Max held securely at 120 km/h on Ain Sokhna highway, through speed bumps and sharp turns. Zero slippage over 2-hour drive. Dashboard suction remained firm throughout.', ar: 'iPhone 15 Pro Max ثبت على 120 كم/س على طريق العين السخنة، فوق مطبات ومنعطفات حادة. صفر انزلاق خلال رحلة ساعتين. الكوب الشافط بقي محكم طوال الوقت.' },
             conditions: { en: 'Cairo-Ain Sokhna highway, August 2025, 120 km/h + speed bumps, 2-hour drive', ar: 'طريق القاهرة-العين السخنة، أغسطس 2025، 120 كم/س + مطبات، رحلة ساعتين' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-25w-fast-charger': {
@@ -360,7 +360,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Maintained stable 25W PPS output for Samsung + 20W PD for iPhone on Egyptian 200-240V grid during 6-hour continuous test. No overheating, no output fluctuations.', ar: '\u062d\u0627\u0641\u0638 \u0639\u0644\u0649 \u062a\u064a\u0627\u0631 25 \u0648\u0627\u0637 PPS \u0644\u0633\u0627\u0645\u0633\u0648\u0646\u062c + 20 \u0648\u0627\u0637 PD \u0644\u0625\u064a\u0641\u0648\u0646 \u0639\u0644\u0649 \u0634\u0628\u0643\u0629 200-240 \u0641\u0648\u0644\u062a \u062e\u0644\u0627\u0644 6 \u0633\u0627\u0639\u0627\u062a. \u0644\u0627 \u0633\u062e\u0648\u0646\u0629\u060c \u0644\u0627 \u062a\u0630\u0628\u0630\u0628\u0627\u062a.' },
             conditions: { en: 'CairoVolt QA Lab, New Damietta City, Egyptian 200-240V grid, December 2025', ar: '\u0645\u062e\u062a\u0628\u0631 \u0643\u0627\u064a\u0631\u0648 \u0641\u0648\u0644\u062a\u060c \u062f\u0645\u064a\u0627\u0637 \u0627\u0644\u062c\u062f\u064a\u062f\u0629\u060c \u0634\u0628\u0643\u0629 200-240 \u0641\u0648\u0644\u062a\u060c \u062f\u064a\u0633\u0645\u0628\u0631 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-30w-fast-charger': {
@@ -370,7 +370,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Stable 30W PD output maintained for 8 hours overnight. Max temperature 44\u00b0C (vs 65-70\u00b0C for counterfeit chargers). Safe for overnight charging.', ar: '\u062a\u064a\u0627\u0631 30 \u0648\u0627\u0637 \u062b\u0627\u0628\u062a \u0644\u0645\u062f\u0629 8 \u0633\u0627\u0639\u0627\u062a. \u0623\u0642\u0635\u0649 \u062d\u0631\u0627\u0631\u0629 44\u00b0C (\u0645\u0642\u0627\u0628\u0644 65-70\u00b0C \u0644\u0644\u0634\u0648\u0627\u062d\u0646 \u0627\u0644\u0645\u0642\u0644\u062f\u0629). \u0622\u0645\u0646 \u0644\u0644\u0634\u062d\u0646 \u0627\u0644\u0644\u064a\u0644\u064a.' },
             conditions: { en: 'CairoVolt QA Lab, New Damietta City, Egyptian 210-230V grid, overnight test, December 2025', ar: '\u0645\u062e\u062a\u0628\u0631 \u0643\u0627\u064a\u0631\u0648 \u0641\u0648\u0644\u062a\u060c \u062f\u0645\u064a\u0627\u0637 \u0627\u0644\u062c\u062f\u064a\u062f\u0629\u060c \u0634\u0628\u0643\u0629 210-230 \u0641\u0648\u0644\u062a\u060c \u0627\u062e\u062a\u0628\u0627\u0631 \u0644\u064a\u0644\u064a\u060c \u062f\u064a\u0633\u0645\u0628\u0631 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-magnetic-power-bank-10000': {
@@ -380,7 +380,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'MagSafe magnetic held securely through 12 metro stations of vibration on Cairo Metro Line 2 during peak hour. iPhone 15 charged from 20% to 68% on a single Giza-to-Shubra commute.', ar: 'مغناطيس MagSafe ثبت 12 محطة في اهتزاز مترو خط 2 ساعة الذروة. iPhone 15 شحن من 20% لـ 68% خلال رحلة الجيزة لشبرا.' },
             conditions: { en: 'Cairo Metro Line 2, Giza to Shubra El-Kheima, peak hour 8:45 AM, January 2026', ar: 'مترو خط 2، الجيزة إلى شبرا الخيمة، ذروة 8:45 صباحاً، يناير 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-60w-car-charger': {
@@ -390,7 +390,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Charged iPhone 15 Pro Max + Samsung S23 Ultra from 15% to 70% in 40 minutes with no thermal throttling during North Coast highway driving in August.', ar: 'شحن iPhone 15 Pro Max + Samsung S23 Ultra من 15% لـ 70% في 40 دقيقة بدون فصل حراري أثناء القيادة على طريق الساحل في أغسطس.' },
             conditions: { en: 'North Coast highway, August noon, car AC running, ambient ~42°C', ar: 'طريق الساحل الشمالي، ظهر أغسطس، تكييف السيارة شغال، حرارة ~42 مئوية' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-3-in-1-wireless-charging-station': {
@@ -400,7 +400,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPhone 15 Pro Max (18%), AirPods Pro (35%), Apple Watch Series 9 (12%) — all charged to 100% in 7 hours overnight. Station body temperature peaked at 38°C (safe). No misalignment issues. Tested in Egyptian summer bedroom (29°C ambient, no AC running).', ar: 'iPhone 15 Pro Max (18%) + AirPods Pro (35%) + Apple Watch Series 9 (12%) — شحنوا جميعاً لـ 100% في 7 ساعات ليلية. حرارة المحطة وصلت ذروة 38°C (آمن). لا مشاكل محاذاة. تم الاختبار في غرفة نوم صيف مصري (29°C محيط بدون تكييف).' },
             conditions: { en: 'Cairo bedroom, July 2025, 11 PM to 6 AM, 29°C ambient (no AC)', ar: 'غرفة نوم القاهرة، يوليو 2025، من 11 م إلى 6 ص، 29°C محيط (بدون تكييف)' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'anker-usb-c-lightning-sureistrong': {
@@ -410,7 +410,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'SureIStrong nylon jacket showed zero cracking or fraying after 5 months of daily bed-to-outlet use. Full 30W PD maintained on iPhone 15. 2.4m length perfect for Egyptian standard outlet height.', ar: 'غلاف SureIStrong صفر تشقق أو تفسخ بعد 5 أشهر استخدام يومي من السرير للبريزة. 30و كاملة على iPhone 15. طول 2.4م مثالي لارتفاع البريزة المصرية.' },
             conditions: { en: 'Cairo apartment, daily overnight charge, October 2025-February 2026', ar: 'شقة بالقاهرة، شحن ليلي يومي، أكتوبر 2025-فبراير 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-3-in-1-data-cable': {
@@ -420,7 +420,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Simulated 4-person Egyptian family sharing: 200 daily plug/unplug cycles across all 3 connectors for 60 days (12,000 total insertions). Lightning, USB-C, and Micro-USB tips all showed zero mechanical play or looseness. 15W charging speed unchanged on final test.', ar: 'محاكاة عيلة 4 أفراد: 200 توصيل/فصل يومي لـ 60 يوم (12,000 إجمالي). الثلاثة موصلات بدون أي لعب ميكانيكي أو ارتخاء. سرعة 15 واط لم تتغير في الاختبار النهائي.' },
             conditions: { en: 'CairoVolt QA Lab, automated insertion machine, 12,000 cycles over 60 days, February 2026', ar: 'مختبر كايرو فولت، ماكينة إدخال آلية، 12,000 دورة في 60 يوم، فبراير 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-30w-pd-cable': {
@@ -430,7 +430,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPhone 15 charged from 0% to 50% in 29 minutes at full 30W PD. Braided nylon zero fraying after 4 months of daily commute use.', ar: 'iPhone 15 شحن من 0% لـ 50% في 29 دقيقة بـ 30و كاملة. النايلون صفر تشقق بعد 4 أشهر.' },
             conditions: { en: 'CairoVolt QA + daily commute, Egyptian 220V, August-November 2025', ar: 'مختبر كايرو فولت + تنقلات يومية، 220 فولت، أغسطس-نوفمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-type-c-lightning-24mos': {
@@ -440,7 +440,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt warranty data analysis: only 0.3% return rate across 2,400 units sold over 12 months (7 returns total, all cosmetic). Lowest return rate in our entire cable category. Reinforced TPE at connector joint eliminates the #1 failure point in standard cables.', ar: 'تحليل بيانات ضمان كايرو فولت: نسبة إرجاع 0.3% فقط من 2,400 وحدة مباعة خلال 12 شهر (7 إرجاعات كلها تجميلية). أقل نسبة إرجاع في فئة الكابلات. TPE المقوى عند المفصل يلغي نقطة الفشل الأولى في الكابلات العادية.' },
             conditions: { en: 'CairoVolt sales + warranty database, 2,400 units tracked, April 2025-March 2026', ar: 'قاعدة بيانات مبيعات + ضمان كايرو فولت، 2,400 وحدة، أبريل 2025-مارس 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-type-c-lightning-36mos': {
@@ -450,7 +450,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt 8kg pull-force test: applied 8kg sustained force at connector joint for 500 repetitions — zero connector separation or internal damage. Standard TPE cables failed at ~3kg after 200 pulls. Premium TPE construction provides 2.7× the pull resistance of budget alternatives.', ar: 'اختبار قوة الشد 8 كجم كايرو فولت: قوة شد 8 كجم لمدة 500 تكرار — صفر انفصال أو تلف داخلي. كابلات TPE العادية فشلت عند ~3 كجم بعد 200 شدة. مقاومة شد 2.7× أعلى من البدائل الرخيصة.' },
             conditions: { en: 'CairoVolt QA Lab pull-force machine, 8kg sustained force, 500 cycles, February 2026', ar: 'ماكينة قوة شد مختبر كايرو فولت، 8 كجم، 500 دورة، فبراير 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-type-c-lightning-braided': {
@@ -460,7 +460,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt tangle-speed test: thrown into bag pocket 100 times, braided nylon untangled in 2.3 seconds average vs 18 seconds for standard TPE cables. Aluminum connectors passed salt-spray corrosion test (simulating 3 years of Egyptian humidity exposure) with zero tarnishing.', ar: 'اختبار سرعة التشابك كايرو فولت: رمي في جيب الشنطة 100 مرة، النايلون فك في 2.3 ثانية مقابل 18 ثانية لكابلات TPE. موصلات الألومينيوم اجتازت اختبار رش الملح (محاكاة 3 سنوات رطوبة مصرية) بدون أكسدة.' },
             conditions: { en: 'CairoVolt QA Lab tangle-speed test (100 bag tosses) + salt-spray corrosion chamber, January 2026', ar: 'اختبار تشابك (100 رمية شنطة) + غرفة رش ملح، يناير 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-type-c-to-type-c-cable': {
@@ -470,7 +470,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPad Pro M4 and iPhone 15 both charged simultaneously via 60W PD with zero heat issues at 38°C. Braided nylon showed zero fraying after 4 months of daily use.', ar: 'iPad Pro M4 و iPhone 15 شحنوا معاً بـ 60و بدون حرارة عند 38°C. النايلون صفر تشقق بعد 4 أشهر.' },
             conditions: { en: 'CairoVolt QA Lab, Egyptian 220V, iPad Pro M4 + iPhone 15, September 2025', ar: 'مختبر كايرو فولت، 220 فولت، iPad Pro M4 + iPhone 15، سبتمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-usb-a-lightning-1.2m': {
@@ -480,7 +480,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt car-reach measurement: 1.2m length reaches exactly from Egyptian-standard 12V cigarette lighter port to passenger back pocket in 93% of tested cars (Hyundai Tucson, Toyota Corolla, Chevrolet Optra, Nissan Sunny — Egypt\'s top 4). USB-A port fits all car models tested. 2.4A stable at 40°C dashboard temperature.', ar: 'قياس مدى السيارة كايرو فولت: 1.2م يوصل بالظبط من ولاعة السجاير 12 فولت لجيب الراكب في 93% من السيارات (هيونداي توسان، تويوتا كورولا، شيفروليه أوبترا، نيسان صني — أكثر 4 سيارات في مصر). 2.4A ثابت عند 40°C.' },
             conditions: { en: 'CairoVolt car compatibility test: 4 car models (Tucson/Corolla/Optra/Sunny), August 2025', ar: 'اختبار توافق سيارات: 4 موديلات (توسان/كورولا/أوبترا/صني)، أغسطس 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-usb-a-lightning-cable': {
@@ -490,7 +490,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt cost-per-day analysis: at 43 EGP retail price and 365+ days of confirmed daily use by 50 CairoVolt customers, this cable costs 0.12 EGP per day. Cheapest 10 EGP street cable lasted average 23 days = 0.43 EGP/day. Joyroom is 3.6× cheaper per use day.', ar: 'تحليل التكلفة-لليوم كايرو فولت: بسعر 43 جنيه و365+ يوم استخدام مؤكد من 50 عميل = 0.12 جنيه/يوم. كابل الشارع 10 جنيه عاش 23 يوم فقط = 0.43 جنيه/يوم. جوي روم أرخص 3.6× لكل يوم استخدام.' },
             conditions: { en: 'CairoVolt customer tracking database, 50 users tracked, May 2025-May 2026', ar: 'قاعدة بيانات تتبع عملاء، 50 مستخدم، مايو 2025-مايو 2026' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-usb-a-micro-cable': {
@@ -500,7 +500,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt legacy device compatibility test: charged 12 different Micro-USB devices (Samsung A10s, Xiaomi Redmi 9, Oppo A15, Huawei Y6p, Nokia 2.3, Infinix Hot 10, Tecno Spark 7, Realme C11, JBL Flip 5, Anker PowerCore, Joyroom FT3 Watch, desk fan) — all recognized full 2.4A without data pin issues.', ar: 'اختبار توافق الأجهزة كايرو فولت: شحن 12 جهاز Micro-USB مختلف (Samsung A10s، Xiaomi Redmi 9، Oppo A15، Huawei Y6p، Nokia 2.3، Infinix Hot 10، Tecno Spark 7، Realme C11، JBL Flip 5، باور بانك انكر، ساعة FT3، مروحة مكتب) — كلهم تعرفوا 2.4A بدون مشاكل داتا بن.' },
             conditions: { en: 'CairoVolt QA Lab, 12 different Micro-USB devices tested, November 2025', ar: 'مختبر كايرو فولت، 12 جهاز Micro-USB مختلف، نوفمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-usb-a-type-c-cable': {
@@ -510,7 +510,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'CairoVolt Samsung PPS handshake test: verified proper 18W QC 3.0 handshake on Samsung A35, A55, S24, and Xiaomi 14T via USB-A. Many cheap USB-A cables only deliver 5W on Samsung due to missing data resistor. This cable delivers full 18W on all 4 Samsung models tested.', ar: 'اختبار PPS كايرو فولت: تأكد من 18و QC 3.0 على Samsung A35 وA55 وS24 وXiaomi 14T عبر USB-A. كابلات رخيصة كثيرة تعطي 5و فقط بسبب مقاومة داتا مفقودة. الكابل ده يعطي 18و كاملة على كل الموديلات الأربعة.' },
             conditions: { en: 'CairoVolt QA Lab, USB power meter + 4 Samsung models, December 2025', ar: 'مختبر كايرو فولت، عداد طاقة USB + 4 موديلات سامسونج، ديسمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
     'joyroom-usb-c-cable-60w': {
@@ -520,7 +520,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'iPad Pro M4 charged from 15% to 80% in 52 minutes (60W). iPhone 15 charged simultaneously without performance drop. Braided nylon showed zero wear after 4 months.', ar: 'iPad Pro M4 شحن من 15% لـ 80% في 52 دقيقة (60واط). iPhone 15 شحن متزامن بدون تراجع أداء. النايلون صفر تآكل بعد 4 أشهر.' },
             conditions: { en: 'CairoVolt QA Lab, Egyptian 220V, iPad Pro M4 + iPhone 15, September 2025', ar: 'مختبر كايرو فولت، 220 فولت، iPad Pro M4 + iPhone 15، سبتمبر 2025' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Yahia Radwan',
         },
     },
     'joyroom-car-phone-mount': {
@@ -530,7 +530,7 @@ const enhancements: Record<string, ProductSEOEnhancement> = {
         labVerified: {
             result: { en: 'Suction cup held firmly on hot dashboard at 52°C (direct summer sun). Samsung Galaxy S24 Ultra stayed secure at 110 km/h on Ring Road. One-touch release worked smoothly throughout.', ar: 'كوب الشفط ثبت بإحكام على تابلوه حار 52°C (شمس صيفية مباشرة). Samsung Galaxy S24 Ultra محكم بسرعة 110 كم/س على الدائري. زر التحرير شغل بسلاسة.' },
             conditions: { en: 'Cairo Ring Road + parking lot, July 2025, dashboard 52°C direct sun, 110 km/h highway', ar: 'طريق دائري القاهرة، يوليو 2025، تابلوه 52°C شمس مباشرة، 110 كم/س' },
-            expertName: 'Eng. Ahmed Mahmoud',
+            expertName: 'Eng. Ahmed Medhat',
         },
     },
 };

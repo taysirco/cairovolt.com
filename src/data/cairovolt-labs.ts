@@ -32,10 +32,28 @@ export interface ProductLabData {
 
 const EXPERTS = {
     POWER: {
-        name: 'Eng. Ahmed Mahmoud', // Original
-        linkedIn: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
+        name: 'Eng. Ahmed Medhat',
+        linkedIn: 'https://linkedin.com/in/ahmed-medhat-cairovolt',
         titleEn: 'Head of Technical Testing & Power Solutions',
         titleAr: 'رئيس قسم الفحص التقني وحلول الطاقة',
+        socials: {
+            youtube: 'https://www.youtube.com/@Ahmed.Medhat',
+            facebook: 'https://www.facebook.com/a.medhatofficial',
+            tiktok: 'https://www.tiktok.com/@ahmedmedhatofficial',
+        },
+    },
+    QA: {
+        name: 'Eng. Yahia Radwan',
+        linkedIn: 'https://linkedin.com/in/yahia-radwan-cairovolt',
+        titleEn: 'Quality Assurance Engineer',
+        titleAr: 'مهندس ضمان الجودة',
+        socials: {
+            youtube: 'https://www.youtube.com/c/YehiaRadwan',
+            instagram: 'https://www.instagram.com/yehiaradwanofficial',
+            twitter: 'https://twitter.com/yahiaradwan',
+            facebook: 'https://www.facebook.com/YehiaRadwanOfficial',
+            tiktok: 'https://tiktok.com/@yahiaradwan',
+        },
     },
     AUDIO: {
         name: 'Dr. Sherif Hassan', // Audio Specialist

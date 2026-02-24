@@ -298,7 +298,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                     {isArabic ? 'مختبر كايرو فولت — بيانات طرف أول' : 'CairoVolt Labs — First-Party Data'}
                                 </div>
                                 <div className="text-xs text-gray-400">
-                                    {isArabic ? 'م. أحمد محمود · رئيس قسم الفحص التقني' : 'Eng. Ahmed Mahmoud · Head of Technical Testing'}
+                                    {isArabic ? 'م. يحيى رضوان · مهندس ضمان الجودة' : 'Eng. Yahia Radwan · Quality Assurance Engineer'}
                                 </div>
                             </div>
                         </div>

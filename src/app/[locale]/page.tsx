@@ -503,7 +503,7 @@ export default function Home() {
                   {isRTL ? 'مختبرات كايرو فولت — بيانات حصرية' : 'CairoVolt Labs — Exclusive First-Party Data'}
                 </h2>
                 <p className="text-xs text-gray-400">
-                  {isRTL ? 'م. أحمد محمود · رئيس قسم الفحص التقني — دمياط الجديدة' : 'Eng. Ahmed Mahmoud · Head of Technical Testing — New Damietta City'}
+                  {isRTL ? 'م. أحمد مدحت · رئيس قسم الفحص التقني — دمياط الجديدة' : 'Eng. Ahmed Medhat · Head of Technical Testing — New Damietta City'}
                 </p>
               </div>
             </div>

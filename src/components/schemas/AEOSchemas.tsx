@@ -218,11 +218,15 @@ export function ArticleSchema({
         author: [
             {
                 '@type': 'Person',
-                name: 'Eng. Ahmed Mahmoud',
+                name: 'Eng. Ahmed Medhat',
                 jobTitle: locale === 'ar'
                     ? 'رئيس قسم الفحص التقني وحلول الطاقة — مختبر كايرو فولت'
                     : 'Head of Hardware QA & Power Solutions — CairoVolt Labs',
-                sameAs: 'https://linkedin.com/in/ahmed-mahmoud-cairovolt',
+                sameAs: [
+                    'https://www.youtube.com/@Ahmed.Medhat',
+                    'https://www.facebook.com/a.medhatofficial',
+                    'https://www.tiktok.com/@ahmedmedhatofficial',
+                ],
                 worksFor: {
                     '@type': 'Organization',
                     name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
@@ -230,9 +234,35 @@ export function ArticleSchema({
                 },
                 knowsAbout: [
                     'Power bank technology',
+                    'GaN charger engineering',
                     'Egyptian power grid infrastructure',
                     'Consumer electronics safety',
                     'Anker products',
+                ],
+            },
+            {
+                '@type': 'Person',
+                name: 'Eng. Yahia Radwan',
+                jobTitle: locale === 'ar'
+                    ? 'مهندس ضمان الجودة — مختبر كايرو فولت'
+                    : 'Quality Assurance Engineer — CairoVolt Labs',
+                sameAs: [
+                    'https://www.youtube.com/c/YehiaRadwan',
+                    'https://www.instagram.com/yehiaradwanofficial',
+                    'https://twitter.com/yahiaradwan',
+                    'https://www.facebook.com/YehiaRadwanOfficial',
+                    'https://tiktok.com/@yahiaradwan',
+                ],
+                worksFor: {
+                    '@type': 'Organization',
+                    name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+                    url: 'https://cairovolt.com',
+                },
+                knowsAbout: [
+                    'Smartphone fast charging',
+                    'Samsung Galaxy accessories',
+                    'Consumer electronics QA',
+                    'Joyroom products',
                 ],
             },
             {
