@@ -32,6 +32,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 "url": "https://cairovolt.com",
                 "logo": {
                     "@type": "ImageObject",
+                    "name": "Cairo Volt Logo",
                     "url": "https://cairovolt.com/logo.png"
                 },
                 // Industry affiliations and core technology stacks supported
@@ -57,6 +58,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 ],
                 "contactPoint": {
                     "@type": "ContactPoint",
+                    "name": "Cairo Volt Engineering Support",
                     "telephone": "+20-100-000-0000",
                     "contactType": "engineering support",
                     "areaServed": "EG",

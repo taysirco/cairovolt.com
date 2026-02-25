@@ -379,6 +379,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         ...(expertReview && {
             review: [{
                 '@type': 'Review',
+                name: isArabic ? `مراجعة خبراء كايرو فولت لـ ${t.name}` : `CairoVolt Expert Review of ${t.name}`,
                 author: {
                     '@type': 'Person',
                     name: expertReview.name,
@@ -400,6 +401,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             // Append existing user reviews if any
             ...(reviews || []).map(r => ({
                 '@type': 'Review',
+                name: isArabic ? `مراجعة ${r.author} لـ ${t.name}` : `${r.author}'s Review of ${t.name}`,
                 author: { '@type': 'Person', name: r.author },
                 datePublished: r.datePublished,
                 reviewRating: {
@@ -454,6 +456,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         ...(!expertReview && reviews && reviews.length > 0 && {
             review: reviews.map(r => ({
                 '@type': 'Review',
+                name: isArabic ? `مراجعة ${r.author} لـ ${t.name}` : `${r.author}'s Review of ${t.name}`,
                 author: { '@type': 'Person', name: r.author },
                 datePublished: r.datePublished,
                 reviewRating: {
