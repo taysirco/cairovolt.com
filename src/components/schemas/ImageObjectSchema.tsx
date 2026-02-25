@@ -46,10 +46,18 @@ export function ImageObjectSchema({
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${productBrand.toLowerCase()}/${productCategory.toLowerCase()}/${productSlug}`;
     const year = new Date().getFullYear();
 
+    // Build primary image URL for the nested Product (Google requires `image` on every Product entity)
+    const primaryImage = images[0];
+    const primaryImageUrl = primaryImage
+        ? (primaryImage.url.startsWith('http') ? primaryImage.url : `${baseUrl}${primaryImage.url}`)
+        : `${baseUrl}/logo.png`;
+
     const productSubject = {
         '@type': 'Product',
         name: productName,
+        description: `${productName} — ${isArabic ? 'متوفر الآن في كايرو فولت مصر' : 'Available now at CairoVolt Egypt'}`,
         url: productUrl,
+        image: primaryImageUrl,
         brand: { '@type': 'Brand', name: productBrand },
         offers: {
             '@type': 'Offer',
