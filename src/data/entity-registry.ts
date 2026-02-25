@@ -72,14 +72,14 @@ const productCategories: Record<string, EntityRef> = {
     powerBank: {
         name: 'Power bank',
         nameAr: 'باور بانك',
-        type: 'Product',
+        type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Battery_charger#Portable',
         additionalSameAs: ['https://www.wikidata.org/wiki/Q2015955'],
     },
     upsDevice: {
         name: 'Uninterruptible power supply',
         nameAr: 'جهاز UPS',
-        type: 'Product',
+        type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Uninterruptible_power_supply',
         additionalSameAs: ['https://www.wikidata.org/wiki/Q190170'],
     },
@@ -93,25 +93,25 @@ const productCategories: Record<string, EntityRef> = {
     charger: {
         name: 'Battery charger',
         nameAr: 'شاحن',
-        type: 'Product',
+        type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Battery_charger',
     },
     earbuds: {
         name: 'Earbuds',
         nameAr: 'سماعات لاسلكية',
-        type: 'Product',
+        type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Earbuds',
     },
     speaker: {
         name: 'Portable speaker',
         nameAr: 'مكبر صوت',
-        type: 'Product',
+        type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Portable_speaker',
     },
     cable: {
         name: 'USB cable',
         nameAr: 'كابل USB',
-        type: 'Product',
+        type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/USB',
     },
 };
