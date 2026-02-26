@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
-import Link from 'next/link';
+import { useEffect, useState, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
@@ -59,8 +59,7 @@ const GOVERNORATE_LABELS: Record<string, string> = {
     'new-valley': 'الوادي الجديد',
 };
 
-export default function ConfirmPage() {
-    const router = useRouter();
+function ConfirmContent() {
     const searchParams = useSearchParams();
     const [orderData, setOrderData] = useState<OrderData | null>(null);
     const [loading, setLoading] = useState(true);
@@ -74,13 +73,17 @@ export default function ConfirmPage() {
                 const decoded = JSON.parse(decodeURIComponent(orderParam));
                 setOrderData(decoded);
             } catch (e) {
-                console.error('Failed to parse order data');
+                console.error('Failed to parse order data from URL');
             }
         } else {
             // Try sessionStorage
-            const stored = sessionStorage.getItem('lastOrder');
-            if (stored) {
-                setOrderData(JSON.parse(stored));
+            try {
+                const stored = sessionStorage.getItem('lastOrder');
+                if (stored) {
+                    setOrderData(JSON.parse(stored));
+                }
+            } catch (e) {
+                console.error('Failed to read order data from sessionStorage');
             }
         }
         setLoading(false);
@@ -325,5 +328,17 @@ export default function ConfirmPage() {
                 </div>
             </div>
         </>
+    );
+}
+
+export default function ConfirmPage() {
+    return (
+        <Suspense fallback={
+            <div className="container mx-auto px-4 py-16 text-center">
+                <div className="animate-pulse">جاري التحميل...</div>
+            </div>
+        }>
+            <ConfirmContent />
+        </Suspense>
     );
 }
