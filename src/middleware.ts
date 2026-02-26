@@ -112,11 +112,9 @@ export default function middleware(request: NextRequest) {
     }
 
     // ── Inject X-Robots-Tag: noindex for admin/transactional pages ──
-    if (NOINDEX_PATHS.some(p => pathname.startsWith(p) || pathname.includes(p))) {
-        const response = NextResponse.next();
-        response.headers.set('X-Robots-Tag', 'noindex, nofollow');
-        return response;
-    }
+    // NOTE: We must NOT return early here — intlMiddleware must run to resolve [locale].
+    // The noindex header is applied after intlMiddleware runs, below.
+    const isNoindexPath = NOINDEX_PATHS.some(p => pathname.startsWith(p) || pathname.includes(p));
 
     // ── Broken / malformed URLs → home ──
     if (pathname === '/$' || pathname === '/&') {
@@ -136,6 +134,11 @@ export default function middleware(request: NextRequest) {
     // ── X-Cache-Status + performance headers for all responses ──
     const response = intlMiddleware(request);
     if (response) {
+        // Apply noindex for transactional pages (confirm, admin, etc.)
+        if (isNoindexPath) {
+            response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+        }
+
         response.headers.set('X-Cache-Status', 'DYNAMIC');
 
         // ◼️ Cloud Run Native Proxy Simulation ◼️
