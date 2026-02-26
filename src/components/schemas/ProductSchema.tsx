@@ -124,8 +124,9 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         },
         // Semantic Injection: Explicitly define category entity
         category: (product.categorySlug || '').replace(/-/g, ' '),
-        image: product.images.map(img => ({
+        image: product.images.map((img, idx) => ({
             '@type': 'ImageObject',
+            name: img.alt || `${t.name} — ${isArabic ? `صورة ${idx + 1}` : `Image ${idx + 1}`}`,
             url: `${baseUrl}${img.url}`,
             contentUrl: `${baseUrl}${img.url}`,
             // Implements Content Provenance validation framework (C2PA protocol)
@@ -207,9 +208,10 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             })),
         }),
         // isAccessoryOrSparePartFor - links product to devices it powers
+        // Use @type 'Thing' to avoid Google requiring full Product fields (image, offers, etc.)
         ...(isAccessoryOrSparePartFor && isAccessoryOrSparePartFor.length > 0 && {
             isAccessoryOrSparePartFor: isAccessoryOrSparePartFor.map(item => ({
-                '@type': 'Product',
+                '@type': 'Thing',
                 name: item.name,
             })),
         }),
