@@ -88,7 +88,7 @@ export function ImageObjectSchema({
             ...(isPrimary && { representativeOfPage: true }),
             ...(img.width && { width: img.width }),
             ...(img.height && { height: img.height }),
-            thumbnail: { '@type': 'ImageObject', contentUrl: absUrl },
+            thumbnail: { '@type': 'ImageObject', name: `${productName} thumbnail`, contentUrl: absUrl },
             encodingFormat: 'image/webp',
             digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
             isFamilyFriendly: true,
