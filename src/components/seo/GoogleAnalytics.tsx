@@ -3,7 +3,7 @@
 import Script from 'next/script';
 
 export function GoogleAnalytics() {
-    // Firing synthetic events directly to the assigned GA4 Measurement ID
+    // GA4 Measurement ID
     const gaMeasurementId = 'G-ZH7YYZRWSE';
 
     return (
