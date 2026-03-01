@@ -19,12 +19,12 @@
 
 @variant dark (&:where(.dark, .dark *));
 
-/* Forced Light Mode for system preference overrides */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff;
-    --foreground: #0f172a;
-  }
+/* Dark mode variables when .dark class is active */
+.dark {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --brand-anker: #00a4e4;
+  --brand-joyroom: #e60012;
 }
 
 body {

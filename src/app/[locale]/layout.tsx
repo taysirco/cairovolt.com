@@ -14,6 +14,7 @@ import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
 import SpeculationRules from '@/components/seo/SpeculationRules';
 
 import GlobalBusinessSchema from '@/components/seo/GlobalBusinessSchema';
+import ThemeWatcher from '@/components/ThemeWatcher';
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -103,6 +104,23 @@ export default async function RootLayout({
         {/* OpenSearch — registers CairoVolt as a search engine in Chrome/Safari omnibox */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var currentHour = new Date().getHours();
+                  var isNight = currentHour >= 18 || currentHour < 6;
+                  if (isNight) {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${cairo.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
@@ -111,6 +129,7 @@ export default async function RootLayout({
 
         <NextIntlClientProvider messages={messages}>
           <CartProvider>
+            <ThemeWatcher />
             {/* Standard GA4 Analytics */}
             <GoogleAnalytics />
             {/* Global business graph and tech stack metadata */}
