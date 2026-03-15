@@ -12,11 +12,23 @@ export default function SpeculationRules() {
     const rulesJson = {
         prerender: [
             {
-                // Aggressively prerender product pages when hovered
+                // 🔥 EAGER prerender product pages — zero-latency navigation
+                // Chrome prerenders in background IMMEDIATELY when link is visible
                 source: "document",
                 where: {
                     and: [
-                        { href_matches: "/*/*/*/*" }, // Matches /locale/brand/category/slug
+                        { href_matches: "/*/*/*/*" }, // /locale/brand/category/slug
+                        { not: { href_matches: "/*/admin/*" } }
+                    ]
+                },
+                eagerness: "eager" // Prerender immediately, not just on hover
+            },
+            {
+                // Governorate location pages — prerender on hover
+                source: "document",
+                where: {
+                    and: [
+                        { href_matches: "/*/locations/*" },
                         { not: { href_matches: "/*/admin/*" } }
                     ]
                 },
@@ -25,15 +37,16 @@ export default function SpeculationRules() {
         ],
         prefetch: [
             {
-                // Prefetch category and brand hubs just by being on the screen
+                // Category and brand hubs — prefetch on hover (upgraded from conservative)
                 source: "document",
                 where: {
                     and: [
-                        { href_matches: "/*/*" }, // Matches /locale/brand or /locale/brand/category
-                        { not: { href_matches: "/*/admin/*" } }
+                        { href_matches: "/*/*" }, // /locale/brand or /locale/brand/category
+                        { not: { href_matches: "/*/admin/*" } },
+                        { not: { href_matches: "/*/*/*/*" } } // Don't duplicate product rules
                     ]
                 },
-                eagerness: "conservative" // Prefetch on pointer hover
+                eagerness: "moderate" // Prefetch on hover instead of click intent
             }
         ]
     };

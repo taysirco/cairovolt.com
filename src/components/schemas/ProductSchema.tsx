@@ -364,18 +364,63 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 url: `${baseUrl}/${locale}/return-policy`,
             },
         },
-        // BuyAction - enables direct purchase from search results (M2M Commerce)
+        // BuyAction — Zero-Click SERP Checkout (UCP-Ready)
+        // Enables direct purchase from Google SERP, AI Mode, SGE, and AI agents
+        // urlTemplate uses RFC 6570 variables that Google/AI agents can fill programmatically
         potentialAction: {
             '@type': 'BuyAction',
             target: {
                 '@type': 'EntryPoint',
-                urlTemplate: `${baseUrl}/${locale}/checkout?add_sku=${product.sku}`,
+                urlTemplate: `${baseUrl}/api/v1/quick-cod?sku={sku}&phone={phone_number}`,
+                inLanguage: isArabic ? 'ar-EG' : 'en-US',
                 actionPlatform: [
                     'https://schema.org/DesktopWebPlatform',
                     'https://schema.org/MobileWebPlatform',
+                    'https://schema.org/IOSPlatform',
+                    'https://schema.org/AndroidPlatform',
                 ],
+                contentType: 'application/json',
+                httpMethod: 'POST',
             },
-            deliveryMethod: 'https://schema.org/OnSitePickup',
+            seller: {
+                '@type': 'Organization',
+                name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                url: baseUrl,
+            },
+            deliveryMethod: 'https://schema.org/ParcelService',
+            expectsAcceptanceOf: {
+                '@type': 'Offer',
+                price: product.price,
+                priceCurrency: 'EGP',
+                availability: product.stock > 0
+                    ? 'https://schema.org/InStock'
+                    : 'https://schema.org/OutOfStock',
+                shippingDetails: {
+                    '@type': 'OfferShippingDetails',
+                    shippingRate: {
+                        '@type': 'MonetaryAmount',
+                        value: product.price >= 500 ? 0 : 40,
+                        currency: 'EGP',
+                    },
+                    shippingDestination: {
+                        '@type': 'DefinedRegion',
+                        addressCountry: 'EG',
+                    },
+                    deliveryTime: {
+                        '@type': 'ShippingDeliveryTime',
+                        transitTime: {
+                            '@type': 'QuantitativeValue',
+                            minValue: 1,
+                            maxValue: 5,
+                            unitCode: 'd',
+                        },
+                    },
+                },
+                acceptedPaymentMethod: {
+                    '@type': 'PaymentMethod',
+                    name: 'Cash on Delivery',
+                },
+            },
         },
         // Expert Review from CairoVolt Labs with profile verification
         ...(expertReview && {

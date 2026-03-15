@@ -472,6 +472,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     <button
                                         ref={addToCartButtonRef}
                                         onClick={handleAddToCart}
+                                        data-add-to-cart
                                         className={`w-full sm:w-auto sm:flex-1 sm:min-w-[200px] px-6 py-3 font-bold text-base sm:text-lg rounded-xl transition-all transform hover:scale-[1.02] shadow-lg ${brand === 'anker'
                                             ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/30'
                                             : 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/30'
@@ -862,6 +863,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             </div>
                             <button
                                 onClick={handleAddToCart}
+                                data-add-to-cart
                                 className={`flex-1 px-4 py-2 font-bold text-white rounded-lg shadow-lg ${brand === 'anker'
                                     ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/20'
                                     : 'bg-red-600 hover:bg-red-700 shadow-red-600/20'

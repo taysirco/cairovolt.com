@@ -1,6 +1,7 @@
 
 import { MetadataRoute } from 'next';
 import { brandData } from '@/data/brand-data';
+import { governorates } from '@/data/governorates';
 import { categoryData } from '@/data/category-seo';
 import { staticProducts } from '@/lib/static-products';
 import { blogArticles } from '@/data/blog-articles';
@@ -171,8 +172,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         });
     });
 
-    // Governorate Location Pages - REMOVED from sitemap (noindexed - duplicate content)
-    // These pages don't generate traffic and cause content duplication
+    // Governorate Location Pages — Load-Shedding Emergency Centers (re-indexed)
+    governorates.forEach(gov => {
+        routes.push({
+            url: `${baseUrl}/locations/${gov.slug}`,
+            priority: 0.8,
+            changeFrequency: 'weekly',
+            lastModified: new Date(),
+        });
+        routes.push({
+            url: `${baseUrl}/en/locations/${gov.slug}`,
+            priority: 0.8,
+            changeFrequency: 'weekly',
+            lastModified: new Date(),
+        });
+    });
 
     return routes;
 }

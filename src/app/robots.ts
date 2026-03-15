@@ -12,6 +12,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/api/discover-feed',  // Google Discover RSS
                     '/api/topical-map',    // Semantic Graph API
                     '/api/llms/catalog',   // M2M Catalog API
+                    '/.well-known/llms.txt', // AI Authority Feed
                 ],
                 disallow: [
                     '/checkout',
@@ -32,6 +33,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/',
                     '/api/topical-map',
                     '/api/llms/catalog',
+                    '/.well-known/llms.txt', // AI Authority Feed
                 ],
                 disallow: [
                     '/checkout',

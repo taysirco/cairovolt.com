@@ -198,6 +198,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                     <button
                         onClick={handleAddBundle}
                         disabled={selectedProducts.length === 0}
+                        data-add-to-cart
                         className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500 hover:from-yellow-500 hover:via-yellow-600 hover:to-orange-600 text-black font-black py-4 rounded-xl shadow-xl shadow-yellow-500/30 transition-all active:scale-[0.98] text-base disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
                         <SvgIcon name="cart" className="w-5 h-5" />
@@ -312,6 +313,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                             <button
                                 onClick={handleAddBundle}
                                 disabled={selectedProducts.length === 0}
+                                data-add-to-cart
                                 className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold py-3 px-4 rounded-xl shadow-lg transition-all transform hover:scale-[1.02] active:scale-95 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                             >
                                 {isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart'}
