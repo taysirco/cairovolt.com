@@ -364,8 +364,8 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 url: `${baseUrl}/${locale}/return-policy`,
             },
         },
-        // BuyAction — Zero-Click SERP Checkout (UCP-Ready)
-        // Enables direct purchase from Google SERP, AI Mode, SGE, and AI agents
+        // BuyAction — Direct Purchase Intent
+        // Enables direct purchase from search results and AI assistants
         // urlTemplate uses RFC 6570 variables that Google/AI agents can fill programmatically
         potentialAction: {
             '@type': 'BuyAction',

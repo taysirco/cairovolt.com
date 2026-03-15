@@ -2,7 +2,7 @@
  * Load-Shedding Emergency Data Module
  * 
  * Per-governorate power grid intelligence and CairoVolt Labs empirical data
- * for the Load-Shedding HCU Exploit. Each region gets unique content:
+ * for regional load-shedding content. Each region gets unique content:
  * 
  * - Cairo: Commuter-focused (metro, traffic, GPS drain)
  * - Delta: Agriculture + internet connectivity focus
@@ -391,7 +391,7 @@ function generateVoiceFaqsEn(
 }
 
 /**
- * Get all load-shedding product slugs (for sitemap priority boost)
+ * Get all load-shedding product slugs (for sitemap generation)
  */
 export function getLoadSheddingProductSlugs(): string[] {
     return Object.values(PRODUCTS).map(p => p.slug);

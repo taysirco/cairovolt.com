@@ -12,7 +12,7 @@ import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
 import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
 import SpeculationRules from '@/components/seo/SpeculationRules';
-import NavboostReactor from '@/components/UX/NavboostReactor';
+import InteractiveEffects from '@/components/UX/InteractiveEffects';
 
 import GlobalBusinessSchema from '@/components/seo/GlobalBusinessSchema';
 import ThemeWatcher from '@/components/ThemeWatcher';
@@ -148,7 +148,7 @@ export default async function RootLayout({
           </CartProvider>
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <SpeculationRules />}
-        <NavboostReactor />
+        <InteractiveEffects />
         {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
         <Script
           id="statcounter-config"

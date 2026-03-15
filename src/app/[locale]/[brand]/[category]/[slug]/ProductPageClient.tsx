@@ -483,7 +483,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 </div>
 
 
-                                {/* 💚 Dwell Time Hack: Philanthropic Injection */}
+                                {/* Community impact section */}
                                 <div className="mt-4 p-4 rounded-xl border border-emerald-200 bg-emerald-50 dark:border-emerald-900/50 dark:bg-emerald-900/10 flex items-start gap-3 transition-transform hover:-translate-y-1 duration-300 shadow-sm">
                                     <div className="flex-shrink-0 mt-0.5">
                                         <span className="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-100 dark:bg-emerald-800 text-emerald-600 dark:text-emerald-300 text-lg">

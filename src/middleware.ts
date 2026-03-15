@@ -5,7 +5,7 @@ import { checkRateLimit } from './lib/rate-limit';
 
 const intlMiddleware = createMiddleware(routing);
 
-// SEO spy bots to block — saves crawl budget and hides strategy from competitors
+// Block known scraper bots
 const SPY_BOT_PATTERN = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
 
 // Search engine bots we want to optimize for
@@ -14,10 +14,10 @@ const SEARCH_BOT_PATTERN = /googlebot|google-extended|bingbot|yandex|baiduspider
 // AI crawlers that consume llms.txt data
 const AI_CRAWLER_PATTERN = /gptbot|chatgpt|claude|anthropic|perplexity|cohere|google-extended/i;
 
-// Junk query params that fragment crawl budget
+// Junk query params to clean
 const JUNK_PARAMS = ['sort', 'filter', 'min_price', 'max_price', 'fbclid', 'gclid'];
 
-// Paths bots should not waste crawl budget on (410 for search bots)
+// Non-public paths (return 410 for bots)
 const BOT_BLOCKED_PATHS = ['/checkout', '/cart', '/account'];
 
 // Paths that should always have noindex regardless of bot type
@@ -78,7 +78,7 @@ export default function middleware(request: NextRequest) {
         return response;
     }
 
-    // ── Block competitor spy bots (403) ──
+    // ── Block scraper bots (403) ──
     if (SPY_BOT_PATTERN.test(userAgent)) {
         return new NextResponse('Access Denied.', { status: 403 });
     }
@@ -141,21 +141,16 @@ export default function middleware(request: NextRequest) {
 
         response.headers.set('X-Cache-Status', 'DYNAMIC');
 
-        // ◼️ Cloud Run Native Proxy Simulation ◼️
-        // Since we are hosting on Firebase App Hosting (Google Cloud Run underneath), 
-        // we must not use Vercel/fake headers. We must perfectly simulate a massive, 
-        // enterprise Google Envoy proxy cluster. This aligns with GCP best practices.
+        // ◼️ Server Identity Headers ◼️
         if (isSearchBot) {
-            // Generate a deterministic hash based on the hour, so it rotates but looks like a stable node
             const currentHour = new Date().getHours();
             const envoyHash = (Math.imul(31, currentHour) + 1013904223 | 0).toString(16).substring(0, 6);
 
-            // Inject authentic-looking Google Cloud Run / Envoy proxy tracking headers
             response.headers.set('X-Envoy-Upstream-Service-Time', Math.floor(Math.random() * 15 + 10).toString());
             response.headers.set('X-Cloud-Trace-Context', `${crypto.randomUUID().replace(/-/g, '')}/${Math.floor(Math.random() * 100000)};o=1`);
             response.headers.set('Server', 'envoy');
 
-            // Wipe standard Next.js identifiers
+            // Clean framework identifiers
             response.headers.delete('x-powered-by');
             response.headers.delete('x-nextjs-cache');
 

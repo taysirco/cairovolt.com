@@ -10,11 +10,11 @@ import { checkRateLimit } from '@/lib/rate-limit';
 
 /**
  * ═══════════════════════════════════════════════════════════
- *  Quick-COD API — Zero-Click SERP Purchase Endpoint
+ *  Quick-COD API — Direct Purchase Endpoint
  * ═══════════════════════════════════════════════════════════
  *
  *  Designed as the fastest purchase endpoint for CairoVolt:
- *    - BuyAction Schema in Google SERP/SGE/AI Mode
+ *    - BuyAction Schema for Google Shopping
  *    - AI agents (Gemini, ChatGPT, Siri, Google Assistant)
  *    - iOS/Android shortcuts & deep links
  *    - M2M commerce (IoT, smart speakers)
@@ -127,7 +127,7 @@ async function isDuplicateOrder(
 }
 
 // ═══════════ CORS + Response Helper ═══════════
-// Every response must include CORS headers for cross-origin SERP/AI agent access
+// Every response must include CORS headers for cross-origin API access
 
 const CORS_HEADERS: Record<string, string> = {
     'Access-Control-Allow-Origin': '*',

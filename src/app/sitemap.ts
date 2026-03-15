@@ -172,7 +172,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         });
     });
 
-    // Governorate Location Pages — Load-Shedding Emergency Centers (re-indexed)
+    // Governorate Location Pages
     governorates.forEach(gov => {
         routes.push({
             url: `${baseUrl}/locations/${gov.slug}`,

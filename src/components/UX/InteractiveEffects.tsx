@@ -3,7 +3,7 @@
 import { useEffect, useCallback, useRef } from 'react';
 
 /**
- * NavboostReactor — Legitimate Navboost Signal Amplifier
+ * InteractiveEffects — UX Micro-Interaction Layer
  *
  * Improves REAL Chrome CrUX metrics through genuine micro-interactions:
  *
@@ -15,7 +15,7 @@ import { useEffect, useCallback, useRef } from 'react';
  * 2. Scroll Depth Engagement
  *    - Tracks 25/50/75/100% scroll milestones
  *    - At 75% depth: triggers content reveal (related products zone)
- *    - Genuine engagement signal that Navboost detects
+ *    - Scroll-depth triggered content reveal
  *
  * 3. Exit Intent Value Delivery
  *    - Detects mouse leaving viewport (desktop) or rapid scroll-up (mobile)
@@ -29,7 +29,7 @@ import { useEffect, useCallback, useRef } from 'react';
  * NOTE: Does NOT fake interactions. Scroll/mousemove are NOT measured by INP.
  *       This component creates REAL visual responses to REAL user actions.
  */
-export default function NavboostReactor() {
+export default function InteractiveEffects() {
     const scrollMilestonesRef = useRef<Set<number>>(new Set());
     const exitIntentShownRef = useRef(false);
     const rafIdRef = useRef<number>(0);
@@ -42,7 +42,7 @@ export default function NavboostReactor() {
         // Find the clickable parent (button, link, or interactive element)
         const interactive = target.closest('a, button, [role="button"], [data-interactive]');
         if (!interactive) return;
-        if (interactive.classList.contains('navboost-no-ripple')) return;
+        if (interactive.classList.contains('cv-no-ripple')) return;
 
         const el = interactive as HTMLElement;
         const rect = el.getBoundingClientRect();
@@ -52,7 +52,7 @@ export default function NavboostReactor() {
 
         // Create ripple — fires on next frame (< 16ms) = excellent INP
         const ripple = document.createElement('span');
-        ripple.className = 'navboost-ripple';
+        ripple.className = 'cv-ripple';
         ripple.style.cssText = `
             position: absolute;
             left: ${x - maxDim}px;
@@ -64,7 +64,7 @@ export default function NavboostReactor() {
             opacity: 0.12;
             transform: scale(0);
             pointer-events: none;
-            animation: navboost-ripple-expand 400ms ease-out forwards;
+            animation: cv-ripple-expand 400ms ease-out forwards;
         `;
 
         // Ensure parent has relative positioning for the ripple
@@ -113,7 +113,7 @@ export default function NavboostReactor() {
                     if (ms >= 75) {
                         const engagementZone = document.querySelector('[data-engagement-reveal]');
                         if (engagementZone) {
-                            engagementZone.classList.add('navboost-revealed');
+                            engagementZone.classList.add('cv-revealed');
                         }
                     }
                 }
@@ -129,20 +129,20 @@ export default function NavboostReactor() {
         exitIntentShownRef.current = true;
 
         // Inject a subtle, non-intrusive exit CTA
-        const existingCta = document.getElementById('navboost-exit-cta');
+        const existingCta = document.getElementById('cv-exit-cta');
         if (existingCta) return;
 
         const isArabic = document.documentElement.dir === 'rtl' ||
             document.documentElement.lang?.startsWith('ar');
 
         const cta = document.createElement('div');
-        cta.id = 'navboost-exit-cta';
+        cta.id = 'cv-exit-cta';
         cta.setAttribute('role', 'complementary');
         cta.setAttribute('aria-label', isArabic ? 'عرض خاص' : 'Special offer');
         cta.innerHTML = `
-            <div class="navboost-exit-inner">
-                <button class="navboost-exit-close" aria-label="${isArabic ? 'إغلاق' : 'Close'}">&times;</button>
-                <p class="navboost-exit-text">
+            <div class="cv-exit-inner">
+                <button class="cv-exit-close" aria-label="${isArabic ? 'إغلاق' : 'Close'}">&times;</button>
+                <p class="cv-exit-text">
                     ${isArabic
                 ? '🔋 لسه بتدور؟ كلّمنا على واتساب — هنساعدك تختار الأنسب!'
                 : '🔋 Still browsing? Chat with us on WhatsApp — we\'ll help you choose!'}
@@ -150,7 +150,7 @@ export default function NavboostReactor() {
                 <a href="https://wa.me/201063374834"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="navboost-exit-btn">
+                   class="cv-exit-btn">
                     ${isArabic ? '💬 واتساب' : '💬 WhatsApp'}
                 </a>
             </div>
@@ -160,20 +160,20 @@ export default function NavboostReactor() {
 
         // Animate in
         requestAnimationFrame(() => {
-            cta.classList.add('navboost-exit-visible');
+            cta.classList.add('cv-exit-visible');
         });
 
         // Close handler
-        const closeBtn = cta.querySelector('.navboost-exit-close');
+        const closeBtn = cta.querySelector('.cv-exit-close');
         closeBtn?.addEventListener('click', () => {
-            cta.classList.remove('navboost-exit-visible');
+            cta.classList.remove('cv-exit-visible');
             setTimeout(() => cta.remove(), 300);
         }, { once: true });
 
         // Auto-dismiss after 8 seconds
         setTimeout(() => {
             if (cta.parentNode) {
-                cta.classList.remove('navboost-exit-visible');
+                cta.classList.remove('cv-exit-visible');
                 setTimeout(() => cta.remove(), 300);
             }
         }, 8000);
@@ -187,10 +187,10 @@ export default function NavboostReactor() {
 
         // Instant visual feedback on pointerdown (before click fires)
         // This makes the INP measurement start from pointerdown → visual = ultra fast
-        cartBtn.classList.add('navboost-pressing');
+        cartBtn.classList.add('cv-pressing');
 
         const cleanup = () => {
-            cartBtn.classList.remove('navboost-pressing');
+            cartBtn.classList.remove('cv-pressing');
             window.removeEventListener('pointerup', cleanup);
             window.removeEventListener('pointercancel', cleanup);
         };
@@ -202,11 +202,11 @@ export default function NavboostReactor() {
     // ─── Mount all listeners ───
     useEffect(() => {
         // Inject ripple animation keyframes (once)
-        if (!document.getElementById('navboost-styles')) {
+        if (!document.getElementById('cv-fx-styles')) {
             const style = document.createElement('style');
-            style.id = 'navboost-styles';
+            style.id = 'cv-fx-styles';
             style.textContent = `
-                @keyframes navboost-ripple-expand {
+                @keyframes cv-ripple-expand {
                     to {
                         transform: scale(1);
                         opacity: 0;
@@ -214,7 +214,7 @@ export default function NavboostReactor() {
                 }
 
                 /* Exit Intent CTA — uses CSS logical properties for RTL safety */
-                #navboost-exit-cta {
+                #cv-exit-cta {
                     position: fixed;
                     bottom: 24px;
                     inset-inline-start: 24px;
@@ -224,12 +224,12 @@ export default function NavboostReactor() {
                     transition: opacity 0.3s ease, transform 0.3s ease;
                     pointer-events: none;
                 }
-                #navboost-exit-cta.navboost-exit-visible {
+                #cv-exit-cta.cv-exit-visible {
                     opacity: 1;
                     transform: translateY(0);
                     pointer-events: auto;
                 }
-                .navboost-exit-inner {
+                .cv-exit-inner {
                     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
                     color: white;
                     padding: 20px 24px;
@@ -239,7 +239,7 @@ export default function NavboostReactor() {
                     position: relative;
                     border: 1px solid rgba(255,255,255,0.1);
                 }
-                .navboost-exit-close {
+                .cv-exit-close {
                     position: absolute;
                     top: 8px;
                     inset-inline-end: 12px;
@@ -251,13 +251,13 @@ export default function NavboostReactor() {
                     padding: 4px 8px;
                     line-height: 1;
                 }
-                .navboost-exit-close:hover { color: white; }
-                .navboost-exit-text {
+                .cv-exit-close:hover { color: white; }
+                .cv-exit-text {
                     margin: 0 0 12px;
                     font-size: 14px;
                     line-height: 1.6;
                 }
-                .navboost-exit-btn {
+                .cv-exit-btn {
                     display: inline-block;
                     background: #25d366;
                     color: white;
@@ -268,19 +268,19 @@ export default function NavboostReactor() {
                     font-size: 14px;
                     transition: background 0.2s;
                 }
-                .navboost-exit-btn:hover { background: #1ebb57; }
+                .cv-exit-btn:hover { background: #1ebb57; }
 
                 /* Optimistic cart press */
-                .navboost-pressing {
+                .cv-pressing {
                     transform: scale(0.97) !important;
                     transition: transform 0.1s ease !important;
                 }
 
                 /* Scroll depth reveal animation */
-                .navboost-revealed {
-                    animation: navboost-reveal 0.6s ease-out forwards;
+                .cv-revealed {
+                    animation: cv-reveal 0.6s ease-out forwards;
                 }
-                @keyframes navboost-reveal {
+                @keyframes cv-reveal {
                     from { opacity: 0; transform: translateY(24px); }
                     to   { opacity: 1; transform: translateY(0); }
                 }

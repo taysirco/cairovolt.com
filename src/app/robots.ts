@@ -4,7 +4,7 @@ export default function robots(): MetadataRoute.Robots {
     return {
         rules: [
             {
-                // Googlebot gets the full crawl budget — only block non-indexable pages
+                // Allow full access — only block non-indexable pages
                 userAgent: 'Googlebot',
                 allow: [
                     '/',
@@ -12,7 +12,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/api/discover-feed',  // Google Discover RSS
                     '/api/topical-map',    // Semantic Graph API
                     '/api/llms/catalog',   // M2M Catalog API
-                    '/.well-known/llms.txt', // AI Authority Feed
+                    '/.well-known/llms.txt',
                 ],
                 disallow: [
                     '/checkout',
@@ -23,7 +23,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/review/',
                     '/api/',
                     '/wishlist',
-                    '/*?*',                // Block all parameterized URLs to save Crawl Budget
+                    '/*?*',                // Block parameterized URLs
                 ],
             },
             {
@@ -33,7 +33,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/',
                     '/api/topical-map',
                     '/api/llms/catalog',
-                    '/.well-known/llms.txt', // AI Authority Feed
+                    '/.well-known/llms.txt',
                 ],
                 disallow: [
                     '/checkout',
