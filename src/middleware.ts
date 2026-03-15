@@ -6,7 +6,7 @@ import { checkRateLimit } from './lib/rate-limit';
 const intlMiddleware = createMiddleware(routing);
 
 // Block known scraper bots
-const SPY_BOT_PATTERN = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
+const BLOCKED_BOT_PATTERN = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
 
 // Search engine bots we want to optimize for
 const SEARCH_BOT_PATTERN = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
@@ -79,7 +79,7 @@ export default function middleware(request: NextRequest) {
     }
 
     // ── Block scraper bots (403) ──
-    if (SPY_BOT_PATTERN.test(userAgent)) {
+    if (BLOCKED_BOT_PATTERN.test(userAgent)) {
         return new NextResponse('Access Denied.', { status: 403 });
     }
 

@@ -671,7 +671,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             customOpinion={product.expertOpinion?.[locale as 'ar' | 'en']}
                         />
 
-                        {/* RouterSurvivalCalculator — only for power bank products (Search Termination Signal) */}
+                        {/* RouterSurvivalCalculator — only for power bank products */}
                         {category === 'power-banks' && (
                             <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
                                 <RouterSurvivalCalculator locale={locale} />

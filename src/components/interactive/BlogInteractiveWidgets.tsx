@@ -9,7 +9,7 @@ const ChargingSpeedCalculator = dynamic(() => import('./ChargingSpeedCalculator'
 
 /**
  * Renders interactive widgets (Mermaid diagrams, calculators) for specific blog articles.
- * These widgets increase Dwell Time significantly — Google rewards pages with high engagement.
+
  */
 export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale: string }) {
     const isArabic = locale === 'ar';

@@ -286,7 +286,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         dangerouslySetInnerHTML={{ __html: trans.content }}
                     />
 
-                    {/* Interactive Widgets (Calculators, Mermaid Diagrams) — Dwell Time optimization */}
+                    {/* Interactive Widgets (Calculators, Mermaid Diagrams) */}
                     <BlogInteractiveWidgets slug={slug} locale={locale} />
 
                     {/* CairoVolt Labs Expert Box — E-E-A-T first-party data signal */}

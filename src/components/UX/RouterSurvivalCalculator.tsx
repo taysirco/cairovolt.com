@@ -8,7 +8,7 @@ interface RouterSurvivalCalculatorProps {
 /**
  * RouterSurvivalCalculator — Interactive tool that calculates how long
  * a power bank can run a router/laptop/phone during power outages.
- * Creates high dwell time and "Search Termination" signals for Google.
+ * 
  */
 export default function RouterSurvivalCalculator({ locale }: RouterSurvivalCalculatorProps) {
     const [hours, setHours] = useState<number>(2);

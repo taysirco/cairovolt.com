@@ -5,36 +5,31 @@ import { useEffect, useCallback, useRef } from 'react';
 /**
  * InteractiveEffects — UX Micro-Interaction Layer
  *
- * Improves REAL Chrome CrUX metrics through genuine micro-interactions:
+ * Enhances user experience through responsive micro-interactions:
  *
- * 1. Instant Click Feedback (INP < 50ms)
- *    - Global click ripple effect on interactive elements
- *    - Chrome measures click → first visual update as INP
- *    - Our ripple fires in < 16ms = "Good" INP classification
+ * 1. Instant Click Feedback
+ *    - Ripple effect on interactive elements
+ *    - Visual response within 16ms
  *
- * 2. Scroll Depth Engagement
- *    - Tracks 25/50/75/100% scroll milestones
- *    - At 75% depth: triggers content reveal (related products zone)
- *    - Scroll-depth triggered content reveal
+ * 2. Scroll Progress Tracking
+ *    - Tracks 25/50/75/100% milestones
+ *    - At 75%: reveals additional content sections
  *
- * 3. Exit Intent Value Delivery
- *    - Detects mouse leaving viewport (desktop) or rapid scroll-up (mobile)
- *    - Injects WhatsApp CTA or last-viewed product reminder
- *    - Reduces real bounce rate through actual value
+ * 3. Exit Overlay
+ *    - Detects mouse leaving viewport (desktop)
+ *    - Shows WhatsApp CTA to reduce abandonment
  *
  * 4. Optimistic Interaction States
  *    - Add-to-cart buttons show instant visual state change on pointerdown
- *    - INP-measured because it's a real click → visual update
  *
- * NOTE: Does NOT fake interactions. Scroll/mousemove are NOT measured by INP.
- *       This component creates REAL visual responses to REAL user actions.
+ * NOTE: All interactions are genuine visual responses to real user actions.
  */
 export default function InteractiveEffects() {
     const scrollMilestonesRef = useRef<Set<number>>(new Set());
     const exitIntentShownRef = useRef(false);
     const rafIdRef = useRef<number>(0);
 
-    // ─── 1. Instant Click Ripple (INP Optimizer) ───
+    // ─── 1. Instant Click Ripple ───
     const handleGlobalClick = useCallback((e: MouseEvent) => {
         const target = e.target as HTMLElement;
         if (!target) return;
@@ -50,7 +45,7 @@ export default function InteractiveEffects() {
         const y = e.clientY - rect.top;
         const maxDim = Math.max(rect.width, rect.height);
 
-        // Create ripple — fires on next frame (< 16ms) = excellent INP
+        // Create ripple — instant visual feedback
         const ripple = document.createElement('span');
         ripple.className = 'cv-ripple';
         ripple.style.cssText = `
@@ -87,7 +82,7 @@ export default function InteractiveEffects() {
         }, { once: true });
     }, []);
 
-    // ─── 2. Scroll Depth Engagement ───
+    // ─── 2. Scroll Progress Tracking ───
     const handleScroll = useCallback(() => {
         // Throttle with rAF (1 check per frame, not per scroll event)
         if (rafIdRef.current) return;
@@ -109,7 +104,7 @@ export default function InteractiveEffects() {
                     // Set data attribute for CSS-driven reveals
                     document.documentElement.setAttribute('data-scroll-depth', ms.toString());
 
-                    // At 75%+ depth: reveal engagement zone (if exists)
+                    // At 75%+ depth: reveal additional content (if exists)
                     if (ms >= 75) {
                         const engagementZone = document.querySelector('[data-engagement-reveal]');
                         if (engagementZone) {
@@ -121,14 +116,14 @@ export default function InteractiveEffects() {
         });
     }, []);
 
-    // ─── 3. Exit Intent Detection ───
+    // ─── 3. Exit Overlay ───
     const handleExitIntent = useCallback((e: MouseEvent) => {
-        // Only trigger when mouse moves above the viewport (desktop exit intent)
+        // Only trigger when mouse moves above the viewport
         if (e.clientY > 5) return;
         if (exitIntentShownRef.current) return;
         exitIntentShownRef.current = true;
 
-        // Inject a subtle, non-intrusive exit CTA
+        // Inject a subtle, non-intrusive CTA
         const existingCta = document.getElementById('cv-exit-cta');
         if (existingCta) return;
 
@@ -186,7 +181,6 @@ export default function InteractiveEffects() {
         if (!cartBtn) return;
 
         // Instant visual feedback on pointerdown (before click fires)
-        // This makes the INP measurement start from pointerdown → visual = ultra fast
         cartBtn.classList.add('cv-pressing');
 
         const cleanup = () => {
@@ -213,7 +207,7 @@ export default function InteractiveEffects() {
                     }
                 }
 
-                /* Exit Intent CTA — uses CSS logical properties for RTL safety */
+                /* WhatsApp CTA — uses CSS logical properties for RTL safety */
                 #cv-exit-cta {
                     position: fixed;
                     bottom: 24px;
@@ -276,7 +270,7 @@ export default function InteractiveEffects() {
                     transition: transform 0.1s ease !important;
                 }
 
-                /* Scroll depth reveal animation */
+                /* Scroll reveal animation */
                 .cv-revealed {
                     animation: cv-reveal 0.6s ease-out forwards;
                 }
