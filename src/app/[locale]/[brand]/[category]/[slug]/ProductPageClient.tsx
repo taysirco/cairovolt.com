@@ -1,4 +1,5 @@
 'use client';
+import { flushSync } from 'react-dom';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -9,10 +10,13 @@ import { QuickSummary } from '@/components/seo/ProductGuides';
 import { CategoryOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
 import { useCart } from '@/context/CartContext';
 import LabTestBlock from '@/components/seo/LabTestBlock';
+import TrustMatrix from '@/components/products/TrustMatrix';
+import type { RegionalStats } from '@/lib/bosta';
+import type { LabMetrics } from '@/data/cairovolt-labs';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
-    loading: () => <div className="h-96 bg-gray-50 rounded-2xl animate-pulse my-8" />,
+    loading: () => <div className="h-96 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
     ssr: false
 });
 
@@ -21,7 +25,7 @@ const RelatedProducts = dynamic(() => import('@/components/products/RelatedProdu
 });
 
 const BundleSelector = dynamic(() => import('@/components/products/BundleSelector'), {
-    loading: () => <div className="h-64 bg-gray-50 rounded-2xl animate-pulse my-8" />,
+    loading: () => <div className="h-64 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
     ssr: false
 });
 
@@ -78,6 +82,9 @@ interface ProductPageClientProps {
         currentTemp: number;
         category: string;
     };
+    deliveryIntelligence: RegionalStats;
+    labMetrics: LabMetrics | null;
+    userGovernorate: string;
 }
 
 // Category mapping for breadcrumb
@@ -90,7 +97,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], locale, brand, category, labTestData, thermalAdvice }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate }: ProductPageClientProps) {
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
@@ -104,6 +111,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
     const [quantity, setQuantity] = useState(1);
     const [selectedImage, setSelectedImage] = useState(0);
+    const [showAddedFeedback, setShowAddedFeedback] = useState(false);
 
     // Sticky Buy Bar Logic
     const [showStickyBar, setShowStickyBar] = useState(false);
@@ -138,6 +146,13 @@ export default function ProductPageClient({ product, relatedProducts = [], local
     const seoData = getProductSEO(product.slug);
 
     const handleAddToCart = () => {
+        // flushSync forces React to paint the green feedback BEFORE startTransition batches the cart update
+        flushSync(() => {
+            setShowAddedFeedback(true);
+        });
+        setTimeout(() => setShowAddedFeedback(false), 1500);
+
+        // Cart update happens in background via useTransition in CartContext
         addToCart({
             productId: product.id,
             name: productName,
@@ -192,15 +207,15 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors">
                             {locale === 'ar' ? 'الرئيسية' : 'Home'}
                         </Link>
-                        <span className="mx-2 text-gray-300">/</span>
+                        <span className="mx-2 text-gray-300 dark:text-gray-600">/</span>
                         <Link href={getLocalizedHref(`/${brandLower}`)} className="hover:text-blue-600 transition-colors">
                             {brandDisplay}
                         </Link>
-                        <span className="mx-2 text-gray-300">/</span>
+                        <span className="mx-2 text-gray-300 dark:text-gray-600">/</span>
                         <Link href={getLocalizedHref(`/${brandLower}/${categoryLower}`)} className="hover:text-blue-600 transition-colors">
                             {translatedCategory}
                         </Link>
-                        <span className="mx-2 text-gray-300">/</span>
+                        <span className="mx-2 text-gray-300 dark:text-gray-600">/</span>
                         <span className="text-gray-900 dark:text-white font-medium truncate">
                             {productName}
                         </span>
@@ -227,7 +242,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                     <div className="space-y-4">
                         {/* Main Image */}
                         <div
-                            className="relative aspect-square bg-white dark:bg-gray-900 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-800 shadow-lg"
+                            className="relative aspect-square bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
                             onTouchStart={(e) => {
                                 const touch = e.touches[0];
                                 (e.currentTarget as HTMLDivElement).dataset.touchStartX = touch.clientX.toString();
@@ -313,9 +328,9 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     <button
                                         key={idx}
                                         onClick={() => setSelectedImage(idx)}
-                                        className={`relative w-full aspect-square rounded-xl border-2 overflow-hidden transition-all ${selectedImage === idx
+                                        className={`relative w-full aspect-square rounded-xl border-2 overflow-hidden transition-all bg-white ${selectedImage === idx
                                             ? `border-${brandColor}-600 shadow-lg ring-2 ring-${brandColor}-600/20`
-                                            : 'border-gray-200 dark:border-gray-700 hover:border-gray-300'
+                                            : 'border-gray-200 hover:border-gray-300'
                                             }`}
                                     >
                                         <Image
@@ -383,7 +398,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     {product.brand} — {tProduct('inStock')}
                                 </span>
                             ) : (
-                                <span className="px-4 py-1.5 text-sm font-medium bg-gray-100 text-gray-500 rounded-full">
+                                <span className="px-4 py-1.5 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-full">
                                     {tProduct('outOfStock')}
                                 </span>
                             )}
@@ -473,12 +488,16 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         ref={addToCartButtonRef}
                                         onClick={handleAddToCart}
                                         data-add-to-cart
-                                        className={`w-full sm:w-auto sm:flex-1 sm:min-w-[200px] px-6 py-3 font-bold text-base sm:text-lg rounded-xl transition-all transform hover:scale-[1.02] shadow-lg ${brand === 'anker'
-                                            ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/30'
-                                            : 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/30'
+                                        className={`w-full sm:w-auto sm:flex-1 sm:min-w-[200px] px-6 py-3 font-bold text-base sm:text-lg rounded-xl transition-all duration-200 transform shadow-lg ${showAddedFeedback
+                                            ? 'bg-green-600 scale-95 text-white shadow-green-600/30'
+                                            : brand === 'anker'
+                                                ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/30 hover:scale-[1.02]'
+                                                : 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/30 hover:scale-[1.02]'
                                             }`}
                                     >
-                                        <SvgIcon name="cart" className="w-5 h-5 inline-block" /> {tProduct('addToCart')}
+                                        {showAddedFeedback
+                                            ? <><SvgIcon name="cart" className="w-5 h-5 inline-block" /> ✓ {isRTL ? 'تم الإضافة' : 'Added!'}</>
+                                            : <><SvgIcon name="cart" className="w-5 h-5 inline-block" /> {tProduct('addToCart')}</>}
                                     </button>
                                 </div>
 
@@ -590,7 +609,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         </svg>
                                         <div>
                                             <div className="font-bold text-xs md:text-sm">{item.title}</div>
-                                            <div className="text-[10px] md:text-xs text-gray-500">{item.sub}</div>
+                                            <div className="text-[10px] md:text-xs text-gray-500 dark:text-gray-400">{item.sub}</div>
                                         </div>
                                     </div>
                                 ));
@@ -637,17 +656,28 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
+                    {/* Trust Matrix — Exclusive Logistics + Lab Metrics */}
+                    <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
+                        <TrustMatrix
+                            sku={product.slug}
+                            userGovernorate={userGovernorate}
+                            locale={locale}
+                            deliveryStats={deliveryIntelligence}
+                            labMetrics={labMetrics}
+                        />
+                    </section>
+
                     {/* 3. Dynamic Thermal Advice — Supporting evidence */}
                     {thermalAdvice && ['power-banks', 'wall-chargers', 'car-chargers'].includes(thermalAdvice.category) && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                            <div className="bg-yellow-50/80 border-r-4 border-yellow-500 p-5 rounded-l-lg">
+                            <div className="bg-yellow-50/80 dark:bg-yellow-900/20 border-r-4 border-yellow-500 p-5 rounded-l-lg">
                                 <div className="flex items-center gap-2 mb-2">
                                     <span className="text-xl">🌡️</span>
-                                    <h4 className="font-bold text-yellow-900">
+                                    <h4 className="font-bold text-yellow-900 dark:text-yellow-200">
                                         {isRTL ? 'تحليل الأداء الحراري (مختبرات كايرو فولت)' : 'Thermal Performance Analysis (CairoVolt Labs)'}
                                     </h4>
                                 </div>
-                                <p className="text-yellow-800 font-medium leading-relaxed">
+                                <p className="text-yellow-800 dark:text-yellow-200 font-medium leading-relaxed">
                                     {thermalAdvice.currentTemp > 35
                                         ? (isRTL
                                             ? `⚠️ تنبيه: درجة حرارة الجو في مصر الآن (${thermalAdvice.currentTemp}°C). هذا المنتج مصمم لتحمل حرارة الصيف المصري بأمان.`
@@ -774,25 +804,25 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             </thead>
                             <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
                                 <tr>
-                                    <td className="py-4 text-gray-500">{tProduct('brand')}</td>
-                                    <td className="py-4 font-bold text-end" itemProp="brand">{product.brand}</td>
+                                    <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('brand')}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white" itemProp="brand">{product.brand}</td>
                                 </tr>
                                 {product.sku && (
                                     <tr>
-                                        <td className="py-4 text-gray-500">{tProduct('sku')}</td>
-                                        <td className="py-4 font-bold font-mono text-end" itemProp="sku">{product.sku}</td>
+                                        <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('sku')}</td>
+                                        <td className="py-4 font-bold font-mono text-end text-gray-900 dark:text-white" itemProp="sku">{product.sku}</td>
                                     </tr>
                                 )}
                                 <tr>
-                                    <td className="py-4 text-gray-500">{tProduct('category')}</td>
-                                    <td className="py-4 font-bold text-end" itemProp="category">{translatedCategory}</td>
+                                    <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('category')}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white" itemProp="category">{translatedCategory}</td>
                                 </tr>
                                 <tr>
-                                    <td className="py-4 text-gray-500">{tProduct('warranty')}</td>
-                                    <td className="py-4 font-bold text-end">{isRTL ? '18 شهر' : '18 Months'}</td>
+                                    <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('warranty')}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? '18 شهر' : '18 Months'}</td>
                                 </tr>
                                 <tr>
-                                    <td className="py-4 text-gray-500">{isRTL ? 'المخزون' : 'Stock'}</td>
+                                    <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>
                                     <td className={`py-4 font-bold text-end ${(product.stock || 0) > 0 ? 'text-green-600' : 'text-red-600'}`}>
                                         {(product.stock || 0) > 0 ? (isRTL ? 'متوفر' : 'Available') : (isRTL ? 'غير متوفر' : 'Out of Stock')}
                                     </td>
@@ -800,8 +830,8 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 {/* Product-specific specifications */}
                                 {seoData?.specifications && Object.entries(seoData.specifications).map(([key, val]) => (
                                     <tr key={key}>
-                                        <td className="py-4 text-gray-500">{isRTL ? key : key}</td>
-                                        <td className="py-4 font-bold text-end">{isRTL ? val.ar : val.en}</td>
+                                        <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? key : key}</td>
+                                        <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? val.ar : val.en}</td>
                                     </tr>
                                 ))}
                             </tbody>
@@ -855,7 +885,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                     >
                         <div className="flex gap-3 max-w-full">
                             <div className="flex-1">
-                                <span className="block text-xs text-gray-500">{tProduct('price')}</span>
+                                <span className="block text-xs text-gray-500 dark:text-gray-400">{tProduct('price')}</span>
                                 <div className="flex items-center gap-1">
                                     <span className="text-xl font-bold">{product.price.toLocaleString()}</span>
                                     <span className="text-xs">{tCommon('egp')}</span>
@@ -864,12 +894,14 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             <button
                                 onClick={handleAddToCart}
                                 data-add-to-cart
-                                className={`flex-1 px-4 py-2 font-bold text-white rounded-lg shadow-lg ${brand === 'anker'
-                                    ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/20'
-                                    : 'bg-red-600 hover:bg-red-700 shadow-red-600/20'
+                                className={`flex-1 px-4 py-2 font-bold text-white rounded-lg shadow-lg transition-all duration-200 ${showAddedFeedback
+                                    ? 'bg-green-600 scale-95 shadow-green-600/20'
+                                    : brand === 'anker'
+                                        ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/20'
+                                        : 'bg-red-600 hover:bg-red-700 shadow-red-600/20'
                                     }`}
                             >
-                                {tProduct('addToCart')}
+                                {showAddedFeedback ? (isRTL ? '✓ تم' : '✓ Added') : tProduct('addToCart')}
                             </button>
 
                         </div>

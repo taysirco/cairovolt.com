@@ -7,6 +7,7 @@ const nextConfig = {
     poweredByHeader: false,
     compress: true,
     reactCompiler: true,
+    ppr: 'incremental',
     images: {
         formats: ['image/avif', 'image/webp'] as any,
         minimumCacheTTL: 31536000,

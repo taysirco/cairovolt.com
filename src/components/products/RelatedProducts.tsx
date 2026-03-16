@@ -67,10 +67,10 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                             <Link
                                 key={product.id}
                                 href={productUrl}
-                                className="flex-shrink-0 w-[160px] md:w-[200px] lg:w-auto bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 p-3 transition-all hover:shadow-lg hover:border-blue-200 dark:hover:border-blue-800 group snap-center"
+                                className="flex-shrink-0 w-[160px] md:w-[200px] lg:w-auto bg-white rounded-2xl border border-gray-200 p-3 transition-all hover:shadow-lg hover:border-blue-200 group snap-center"
                             >
                                 {/* Image Area */}
-                                <div className="relative aspect-square mb-3 bg-gray-50 dark:bg-gray-800/50 rounded-xl overflow-hidden">
+                                <div className="relative aspect-square mb-3 bg-gray-50 rounded-xl overflow-hidden">
                                     {product.images?.[0]?.url ? (
                                         <Image
                                             src={product.images[0].url}
@@ -107,12 +107,12 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                         {product.brand}
                                     </div>
 
-                                    <h4 className="font-semibold text-gray-900 dark:text-white text-sm leading-tight h-10 line-clamp-2 group-hover:text-blue-600 transition-colors" title={t?.name}>
+                                    <h4 className="font-semibold text-gray-900 text-sm leading-tight h-10 line-clamp-2 group-hover:text-blue-600 transition-colors" title={t?.name}>
                                         {t?.name}
                                     </h4>
 
                                     <div className="pt-2 flex items-baseline gap-2">
-                                        <span className="font-bold text-blue-600 dark:text-blue-400 text-base">
+                                        <span className="font-bold text-blue-600 text-base">
                                             {product.price.toLocaleString()} <span className="text-xs">{isArabic ? 'ج.م' : 'EGP'}</span>
                                         </span>
                                         {product.originalPrice && (

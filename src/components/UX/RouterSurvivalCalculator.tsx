@@ -58,11 +58,11 @@ export default function RouterSurvivalCalculator({ locale }: RouterSurvivalCalcu
     const result = getResult();
 
     return (
-        <div className="bg-slate-900 text-white p-6 rounded-xl my-8 shadow-2xl border border-slate-700">
-            <h3 className="text-xl font-bold mb-2 text-blue-400">
+        <div className="bg-white dark:bg-slate-900 text-gray-900 dark:text-white p-6 rounded-xl my-8 shadow-2xl border border-gray-200 dark:border-slate-700">
+            <h3 className="text-xl font-bold mb-2 text-blue-600 dark:text-blue-400">
                 {isArabic ? '⚡ حاسبة مختبر كايرو فولت لأزمة الكهرباء' : '⚡ CairoVolt Power Outage Calculator'}
             </h3>
-            <p className="text-sm text-gray-400 mb-6">
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
                 {isArabic
                     ? 'احسب بدقة كم ساعة سيصمد جهازك على هذا الباور بانك (Anker 737) قبل الشراء.'
                     : 'Calculate exactly how long your device will last on the Anker 737 power bank before buying.'}
@@ -74,7 +74,7 @@ export default function RouterSurvivalCalculator({ locale }: RouterSurvivalCalcu
                         {isArabic ? 'الجهاز المراد تشغيله:' : 'Device to power:'}
                     </label>
                     <select
-                        className="w-full bg-slate-800 border border-slate-600 rounded p-2 text-white"
+                        className="w-full bg-gray-50 dark:bg-slate-800 border border-gray-300 dark:border-slate-600 rounded p-2 text-gray-900 dark:text-white"
                         value={device}
                         onChange={(e) => setDevice(e.target.value)}
                     >
@@ -98,12 +98,12 @@ export default function RouterSurvivalCalculator({ locale }: RouterSurvivalCalcu
                         onChange={(e) => setHours(parseInt(e.target.value))}
                         className="w-full accent-blue-500"
                     />
-                    <div className="text-center font-bold text-lg text-blue-300">
+                    <div className="text-center font-bold text-lg text-blue-600 dark:text-blue-300">
                         {hours} {isArabic ? 'ساعات' : 'hours'}
                     </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-blue-900/30 border border-blue-500/50 rounded-lg text-center">
+                <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-500/50 rounded-lg text-center">
                     <p className={`font-bold ${result.ok ? 'text-green-400' : 'text-yellow-400'}`}>
                         {result.text}
                     </p>

@@ -186,18 +186,18 @@ export function GenericCategoryContent({
                                     <Link
                                         key={product.slug}
                                         href={getLocalizedHref(`/${product.brandSlug}/${product.catSlug}/${product.slug}`)}
-                                        className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1"
+                                        className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1"
                                     >
                                         {/* Image */}
-                                        <div className="relative aspect-square bg-gray-50 dark:bg-gray-800 p-4" itemProp="image">
+                                        <div className="relative aspect-square bg-white p-4" itemProp="image">
                                             {discount > 0 && (
                                                 <span className={`absolute top-2 ${isArabic ? 'right-2' : 'left-2'} px-2 py-1 bg-red-500 text-white text-xs font-bold rounded-full z-10`}>
                                                     -{discount}%
                                                 </span>
                                             )}
                                             <span className={`absolute top-2 ${isArabic ? 'left-2' : 'right-2'} px-2 py-0.5 text-xs font-medium rounded-full z-10 ${product.brandDisplay === 'Anker'
-                                                ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300'
-                                                : 'bg-red-100 text-red-700 dark:bg-red-900/50 dark:text-red-300'
+                                                ? 'bg-blue-100 text-blue-700'
+                                                : 'bg-red-100 text-red-700'
                                                 }`}>
                                                 {product.brandDisplay}
                                             </span>
@@ -219,13 +219,13 @@ export function GenericCategoryContent({
 
                                         {/* Info */}
                                         <div className="p-3 md:p-4">
-                                            <h3 className="font-medium text-sm text-gray-900 dark:text-white line-clamp-2 mb-2 group-hover:text-blue-600 transition-colors" itemProp="name">
+                                            <h3 className="font-medium text-sm text-gray-900 line-clamp-2 mb-2 group-hover:text-blue-600 transition-colors" itemProp="name">
                                                 {t?.name || product.slug}
                                             </h3>
                                             <div className="flex items-end gap-2" itemProp="offers" itemScope itemType="https://schema.org/Offer">
                                                 <meta itemProp="priceCurrency" content="EGP" />
                                                 <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'} />
-                                                <span className="text-lg font-bold text-gray-900 dark:text-white" itemProp="price" content={String(product.price)}>
+                                                <span className="text-lg font-bold text-gray-900" itemProp="price" content={String(product.price)}>
                                                     {product.price.toLocaleString()}
                                                 </span>
                                                 <span className="text-xs text-gray-500">{isArabic ? 'ج.م' : 'EGP'}</span>

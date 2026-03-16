@@ -23,11 +23,25 @@ export interface VoiceFAQ {
     answer: string;
 }
 
+export interface LabMetrics {
+    actualCapacity_mAh?: number;
+    routerRuntimeHours?: number;
+    maxTemp_C?: number;
+    chargeCycles?: number;
+    realEfficiency?: number;
+    bendCycles?: number;
+    noiseReduction_dB?: number;
+    batteryLife_hours?: number;
+    chargingSpeed_W?: number;
+    devicesCharged?: number;
+}
+
 export interface ProductLabData {
     labTests: LabTest[];
     voiceFaqAr: VoiceFAQ[];
     voiceFaqEn: VoiceFAQ[];
     isAccessoryFor: Array<{ name: string }>;
+    labMetrics?: LabMetrics;
 }
 
 const EXPERTS = {
@@ -117,6 +131,12 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24' },
             { name: 'AirPods Pro' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 9800,
+            maxTemp_C: 34,
+            realEfficiency: 74,
+            devicesCharged: 2,
+        },
     },
     'joyroom-power-bank-10000': {
         labTests: [
@@ -163,6 +183,12 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy A55' },
             { name: 'AirPods' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 9600,
+            maxTemp_C: 36,
+            realEfficiency: 71,
+            devicesCharged: 1.4,
+        },
     },
     'joyroom-power-bank-20000': {
         labTests: [
@@ -205,6 +231,12 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24' },
             { name: 'Samsung Galaxy A55' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 19200,
+            maxTemp_C: 32,
+            realEfficiency: 68,
+            devicesCharged: 3,
+        },
     },
     'anker-car-charger-dual-usb': {
         labTests: [
@@ -243,6 +275,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24 Ultra' },
             { name: 'Any 12V/24V car in Egypt' },
         ],
+        labMetrics: {
+            maxTemp_C: 42,
+            chargingSpeed_W: 48,
+            devicesCharged: 2,
+        },
     },
     'anker-622-maggo': {
         labTests: [
@@ -289,6 +326,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 16' },
             { name: 'iPhone 17' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 5000,
+            maxTemp_C: 34,
+            chargingSpeed_W: 7.5,
+        },
     },
     'anker-521-powerhouse': {
         labTests: [
@@ -336,6 +378,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'MacBook Pro' },
             { name: 'Desk Fan' },
         ],
+        labMetrics: {
+            routerRuntimeHours: 18.25,
+            maxTemp_C: 39,
+            chargeCycles: 3000,
+        },
     },
     'anker-powercore-26800': {
         labTests: [
@@ -383,6 +430,12 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPad Pro' },
             { name: 'MacBook Air' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 25600,
+            maxTemp_C: 41,
+            realEfficiency: 70,
+            devicesCharged: 4.7,
+        },
     },
     'anker-737-powerbank': {
         labTests: [
@@ -439,6 +492,13 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Dell XPS Laptop' },
             { name: 'Samsung Galaxy S24 Ultra' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 24000,
+            routerRuntimeHours: 14.37,
+            maxTemp_C: 41,
+            chargingSpeed_W: 140,
+            devicesCharged: 5,
+        },
     },
     'joyroom-60w-dual-car-charger': {
         labTests: [
@@ -476,6 +536,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 15 Pro Max' },
             { name: 'Samsung Galaxy S24 Ultra' },
         ],
+        labMetrics: {
+            maxTemp_C: 42,
+            chargingSpeed_W: 60,
+            devicesCharged: 2,
+        },
     },
     'anker-nano-30w-charger': {
         labTests: [
@@ -514,6 +579,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 16 Pro Max' },
             { name: 'iPad Pro' },
         ],
+        labMetrics: {
+            maxTemp_C: 38,
+            chargingSpeed_W: 30,
+        },
     },
     'anker-powercore-20000': {
         labTests: [
@@ -556,6 +625,12 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24' },
             { name: 'AirPods Pro' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 19200,
+            maxTemp_C: 32,
+            realEfficiency: 72,
+            devicesCharged: 4,
+        },
     },
     'anker-525-power-bank': {
         labTests: [
@@ -593,6 +668,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy A55' },
             { name: 'iPhone 15' },
         ],
+        labMetrics: {
+            actualCapacity_mAh: 9800,
+            maxTemp_C: 34,
+            devicesCharged: 2,
+        },
     },
 
     // ─── Wall Chargers ────────────────────────────────────────────────────────
@@ -638,6 +718,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPad Pro' },
             { name: 'Dell XPS Laptop' },
         ],
+        labMetrics: {
+            maxTemp_C: 40,
+            chargingSpeed_W: 100,
+            devicesCharged: 3,
+        },
     },
     'anker-312-charger': {
         labTests: [
@@ -676,6 +761,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy A55' },
             { name: 'Android Smartphones' },
         ],
+        labMetrics: {
+            maxTemp_C: 42,
+            chargingSpeed_W: 12,
+        },
     },
 
     // ─── Cables ───────────────────────────────────────────────────────────────
@@ -717,6 +806,9 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'MacBook Pro' },
             { name: 'Samsung Galaxy S24' },
         ],
+        labMetrics: {
+            bendCycles: 10000,
+        },
     },
 
     // ─── Audio ────────────────────────────────────────────────────────────────
@@ -761,6 +853,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24 Ultra' },
             { name: 'MacBook Pro' },
         ],
+        labMetrics: {
+            noiseReduction_dB: 54,
+            batteryLife_hours: 6,
+        },
     },
     'soundcore-life-p3': {
         labTests: [
@@ -798,6 +894,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 15' },
             { name: 'Samsung Galaxy A55' },
         ],
+        labMetrics: {
+            maxTemp_C: 38,
+            batteryLife_hours: 7,
+        },
     },
 
     // ─── Car Chargers ─────────────────────────────────────────────────────────
@@ -837,6 +937,11 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 15 Pro Max' },
             { name: 'Samsung Galaxy S24 Ultra' },
         ],
+        labMetrics: {
+            maxTemp_C: 39,
+            chargingSpeed_W: 48,
+            devicesCharged: 3,
+        },
     },
 
     // ─── Smart Watches ────────────────────────────────────────────────────────
@@ -877,6 +982,9 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy A55' },
             { name: 'Android Smartphones' },
         ],
+        labMetrics: {
+            batteryLife_hours: 264,
+        },
     },
 
     // ─── Earbuds ──────────────────────────────────────────────────────────────
@@ -925,6 +1033,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24 Ultra' },
             { name: 'MacBook Pro' },
         ],
+        labMetrics: {
+            noiseReduction_dB: 70,
+            batteryLife_hours: 7,
+        },
     },
 
     // ─── Soundcore Speakers ──────────────────────────────────────────────────
@@ -995,6 +1107,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPad' },
             { name: 'MacBook' },
         ],
+        labMetrics: {
+            maxTemp_C: 48,
+            batteryLife_hours: 12,
+        },
     },
     'anker-soundcore-flare-2': {
         labTests: [
@@ -1032,6 +1148,9 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 15' },
             { name: 'Samsung Galaxy S24' },
         ],
+        labMetrics: {
+            batteryLife_hours: 10,
+        },
     },
 
     // ─── Joyroom Chargers ────────────────────────────────────────────────────
@@ -1072,6 +1191,10 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'Samsung Galaxy S24' },
             { name: 'iPad' },
         ],
+        labMetrics: {
+            maxTemp_C: 44,
+            chargingSpeed_W: 30,
+        },
     },
     'joyroom-jr-t03-wireless-earbuds': {
         labTests: [
@@ -1109,6 +1232,9 @@ export const labData: Record<string, ProductLabData> = {
             { name: 'iPhone 15' },
             { name: 'Samsung Galaxy A55' },
         ],
+        labMetrics: {
+            batteryLife_hours: 6.75,
+        },
     },
 }; // end labData
 
@@ -1127,4 +1253,12 @@ export function getLabData(slug: string): ProductLabData | null {
     }
 
     return null;
+}
+
+/**
+ * Get lab metrics for a product — numeric test measurements
+ */
+export function getLabMetrics(slug: string): LabMetrics | null {
+    const data = getLabData(slug);
+    return data?.labMetrics ?? null;
 }

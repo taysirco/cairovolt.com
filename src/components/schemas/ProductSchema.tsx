@@ -54,10 +54,11 @@ interface ProductSchemaProps {
     };
 }
 
-// Stable price validity date - 3 months ahead, computed once at module level
+// Short-horizon price validity — encourages crawler re-visits for fresh data
+// LiveLogisticsPulse provides a per-request Offer overlay with even shorter TTL
 const PRICE_VALID_UNTIL = (() => {
     const d = new Date();
-    d.setMonth(d.getMonth() + 3);
+    d.setDate(d.getDate() + 7);
     return d.toISOString().split('T')[0];
 })();
 
@@ -69,17 +70,24 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
 
     // Semantic Entity Mapping (Project Titan - Pillar 1)
     const brandEntities: Record<string, string> = {
-        'Anker': 'https://www.wikidata.org/wiki/Q18352377', // Anker Innovations
+        'Anker': 'https://www.wikidata.org/wiki/Q28452620', // Anker Innovations (official Wikidata)
         'Joyroom': 'https://www.joyroom.com/', // Brand entity
-        'Soundcore': 'https://www.wikidata.org/wiki/Q18352377', // Tied to Anker parent
+        'Soundcore': 'https://www.wikidata.org/wiki/Q28452620', // Tied to Anker parent
+    };
+
+    // Manufacturer mapping — links product to parent company entity
+    const manufacturerMap: Record<string, { name: string; sameAs?: string }> = {
+        'Anker': { name: 'Anker Innovations', sameAs: 'https://www.wikidata.org/wiki/Q28452620' },
+        'Soundcore': { name: 'Anker Innovations', sameAs: 'https://www.wikidata.org/wiki/Q28452620' },
+        'Joyroom': { name: 'Joyroom Electronic & Technology Co., Ltd' },
     };
 
     const categoryEntities: Record<string, string[]> = {
-        'power-banks': ['https://www.wikidata.org/wiki/Q17149024', 'https://en.wikipedia.org/wiki/Battery_charger#Power_bank'],
-        'wall-chargers': ['https://en.wikipedia.org/wiki/Battery_charger', 'https://www.wikidata.org/wiki/Q166548'],
-        'car-chargers': ['https://en.wikipedia.org/wiki/Car_charger', 'https://www.wikidata.org/wiki/Q166548'],
-        'audio': ['https://www.wikidata.org/wiki/Q27072', 'https://en.wikipedia.org/wiki/Headphones'],
-        'cables': ['https://www.wikidata.org/wiki/Q1134268', 'https://en.wikipedia.org/wiki/USB#Connectors'],
+        'power-banks': ['https://www.wikidata.org/wiki/Q2208745', 'https://en.wikipedia.org/wiki/Battery_charger#Power_bank'],
+        'wall-chargers': ['https://en.wikipedia.org/wiki/Battery_charger', 'https://www.wikidata.org/wiki/Q352917'],
+        'car-chargers': ['https://en.wikipedia.org/wiki/Car_charger', 'https://www.wikidata.org/wiki/Q352917'],
+        'audio': ['https://www.wikidata.org/wiki/Q186819', 'https://en.wikipedia.org/wiki/Headphones'],
+        'cables': ['https://www.wikidata.org/wiki/Q42378', 'https://en.wikipedia.org/wiki/USB#Connectors'],
     };
 
     const brandEntityUrl = brandEntities[product.brand];
@@ -122,6 +130,14 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             name: product.brand,
             ...(brandEntityUrl && { sameAs: brandEntityUrl }),
         },
+        // Manufacturer entity — links to parent company's Knowledge Graph node
+        ...(manufacturerMap[product.brand] && {
+            manufacturer: {
+                '@type': 'Organization',
+                name: manufacturerMap[product.brand].name,
+                ...(manufacturerMap[product.brand].sameAs && { sameAs: manufacturerMap[product.brand].sameAs }),
+            },
+        }),
         // Semantic Injection: Explicitly define category entity
         category: (product.categorySlug || '').replace(/-/g, ' '),
         image: product.images.map((img, idx) => ({
@@ -140,8 +156,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             copyrightNotice: `© ${new Date().getFullYear()} CairoVolt. All 100% human-verified hardware testing.`,
             acquireLicensePage: `${baseUrl}/${locale}/terms`
         })),
-        // Add subjectOf property for VideoObject
-        ...(videoSchema && { "subjectOf": videoSchema }),
+        // subjectOf: C2PA content verification + optional VideoObject
+        subjectOf: videoSchema
+            ? [
+                videoSchema,
+                { '@type': 'WebPage', name: 'CairoVolt Content Verification', url: `${baseUrl}/api/v1/verify-content?sku=${product.sku}` },
+              ]
+            : { '@type': 'WebPage', name: 'CairoVolt Content Verification', url: `${baseUrl}/api/v1/verify-content?sku=${product.sku}` },
         // Entity linking: about (what this product IS) — uses category-aware entity mapping
         about: (() => {
             const brandKey = product.brand.toLowerCase();
@@ -318,7 +339,18 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
             seller: {
                 '@type': 'Organization',
+                '@id': 'https://cairovolt.com/#organization',
                 name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                url: baseUrl,
+                identifier: [
+                    { '@type': 'PropertyValue', propertyID: 'CommercialRegistry', value: '8446' },
+                    { '@type': 'PropertyValue', propertyID: 'TaxID', value: '777-471-566' },
+                ],
+                location: {
+                    '@type': 'Place',
+                    name: 'New Damietta City',
+                    sameAs: 'https://www.wikidata.org/wiki/Q12211943',
+                },
             },
             // Shipping Details - Shows "Free Shipping" badge in Google
             shippingDetails: {
@@ -384,6 +416,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
             seller: {
                 '@type': 'Organization',
+                '@id': 'https://cairovolt.com/#organization',
                 name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
                 url: baseUrl,
             },

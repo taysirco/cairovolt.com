@@ -65,7 +65,7 @@ export function ImageObjectSchema({
             priceCurrency: 'EGP',
             availability: 'https://schema.org/InStock',
             url: productUrl,
-            seller: { '@type': 'Organization', name: isArabic ? 'كايرو فولت' : 'CairoVolt', url: baseUrl },
+            seller: { '@type': 'Organization', '@id': 'https://cairovolt.com/#organization', name: isArabic ? 'كايرو فولت' : 'CairoVolt', url: baseUrl },
         },
     };
 

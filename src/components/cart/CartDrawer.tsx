@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useTransition } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
@@ -12,21 +12,40 @@ export default function CartDrawer({ locale }: { locale: string }) {
     const t = useTranslations('Checkout'); // Reusing Checkout translations or Common
     const isRTL = locale === 'ar';
     const drawerRef = useRef<HTMLDivElement>(null);
+    const [isTransitioning, startTransition] = useTransition();
+    const scrollYRef = useRef(0);
 
-    // Close on click outside
+    // Close on click/touch outside — handles both mouse AND touch (Safari mobile)
     useEffect(() => {
-        function handleClickOutside(event: MouseEvent) {
-            if (drawerRef.current && !drawerRef.current.contains(event.target as Node)) {
+        function handleOutsideInteraction(event: MouseEvent | TouchEvent) {
+            const target = event.target as Node;
+            if (drawerRef.current && !drawerRef.current.contains(target)) {
                 setIsOpen(false);
             }
         }
         if (isOpen) {
-            document.addEventListener("mousedown", handleClickOutside);
-            document.body.style.overflow = 'hidden'; // Lock scroll
+            document.addEventListener('mousedown', handleOutsideInteraction);
+            document.addEventListener('touchstart', handleOutsideInteraction, { passive: true });
+
+            // iOS Safari scroll lock: position:fixed + saved scroll prevents rubber-band bounce
+            scrollYRef.current = window.scrollY;
+            document.body.style.position = 'fixed';
+            document.body.style.top = `-${scrollYRef.current}px`;
+            document.body.style.left = '0';
+            document.body.style.right = '0';
+            document.body.style.overflow = 'hidden';
         }
         return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-            document.body.style.overflow = 'unset';
+            document.removeEventListener('mousedown', handleOutsideInteraction);
+            document.removeEventListener('touchstart', handleOutsideInteraction);
+
+            // Restore scroll position on close
+            document.body.style.position = '';
+            document.body.style.top = '';
+            document.body.style.left = '';
+            document.body.style.right = '';
+            document.body.style.overflow = '';
+            window.scrollTo(0, scrollYRef.current);
         };
     }, [isOpen, setIsOpen]);
 
@@ -81,8 +100,8 @@ export default function CartDrawer({ locale }: { locale: string }) {
                     </div>
                 </div>
 
-                {/* Items List */}
-                <div className="flex-1 overflow-y-auto p-4 space-y-4">
+                {/* Items List — momentum scrolling for iOS Safari */}
+                <div className="flex-1 overflow-y-auto p-4 space-y-4" style={{ WebkitOverflowScrolling: 'touch' }}>
                     {items.length === 0 ? (
                         <div className="h-full flex flex-col items-center justify-center text-center opacity-60">
                             <SvgIcon name="cart" className="w-10 h-10 mx-auto mb-2" />
@@ -125,15 +144,15 @@ export default function CartDrawer({ locale }: { locale: string }) {
                                         {/* Quantity Controls */}
                                         <div className="flex items-center gap-2 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 px-2 py-1">
                                             <button
-                                                onClick={() => updateQuantity(item.productId, item.quantity - 1)}
-                                                className="w-5 h-5 flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800 rounded"
+                                                onClick={() => startTransition(() => updateQuantity(item.productId, item.quantity - 1))}
+                                                className="w-5 h-5 flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800 rounded transition-opacity"
                                             >
                                                 -
                                             </button>
                                             <span className="text-sm font-medium min-w-[1rem] text-center">{item.quantity}</span>
                                             <button
-                                                onClick={() => updateQuantity(item.productId, item.quantity + 1)}
-                                                className="w-5 h-5 flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800 rounded"
+                                                onClick={() => startTransition(() => updateQuantity(item.productId, item.quantity + 1))}
+                                                className="w-5 h-5 flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800 rounded transition-opacity"
                                             >
                                                 +
                                             </button>
@@ -143,7 +162,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
 
                                 {/* Remove Button */}
                                 <button
-                                    onClick={() => removeFromCart(item.productId)}
+                                    onClick={() => startTransition(() => removeFromCart(item.productId))}
                                     className="text-gray-400 hover:text-red-500 transition-colors self-start"
                                 >
                                     ✕

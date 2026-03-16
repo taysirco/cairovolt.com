@@ -2,7 +2,7 @@ import { staticProducts } from '@/lib/static-products';
 import { entityRegistry } from '@/data/entity-registry';
 
 // Semantic Site Graph (Entity Mapping)
-// Secret endpoint for Googlebot to ingest the entire semantic Map of our engineering expertise.
+// Structured data endpoint providing the site's knowledge graph as JSON-LD.
 export const revalidate = 86400; // Refreshes daily
 
 export async function GET() {

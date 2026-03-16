@@ -125,7 +125,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                     name: 'Electricity load shedding',
                                     sameAs: [
                                         'https://en.wikipedia.org/wiki/Rolling_blackout',
-                                        'https://www.wikidata.org/wiki/Q1069792',
+                                        'https://www.wikidata.org/wiki/Q1438438',
                                     ],
                                 },
                                 mentions: [

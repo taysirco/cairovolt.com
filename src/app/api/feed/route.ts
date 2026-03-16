@@ -95,7 +95,7 @@ async function getProducts(): Promise<FeedProduct[]> {
 export async function GET() {
     const products = await getProducts();
 
-    // QDF (Query Deserves Freshness) signal: price valid until tomorrow forces Google to re-crawl daily
+    // Price validity window — indicates offer is current (expires tomorrow)
     const priceValidUntil = new Date(Date.now() + 86400000).toISOString().split('T')[0];
 
     const items = products.map(p => `

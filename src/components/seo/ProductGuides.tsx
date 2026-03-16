@@ -78,7 +78,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
 
     return (
         <div className="my-6 md:my-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-4 md:p-6 shadow-lg">
-            <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 flex items-center gap-2">
+            <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 flex items-center gap-2 text-gray-900 dark:text-white">
                 <SvgIcon name="chart" className="w-6 h-6" />
                 {labels.title}
             </h3>
@@ -87,11 +87,11 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                 <table className="w-full text-sm">
                     <thead>
                         <tr className="border-b-2 border-blue-200 dark:border-gray-700">
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold">{labels.store}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold">{labels.price}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold">{labels.warranty}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold">{labels.delivery}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold">{labels.original}</th>
+                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.store}</th>
+                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.price}</th>
+                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.warranty}</th>
+                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.delivery}</th>
+                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.original}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -99,7 +99,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         <tr className="bg-green-100 dark:bg-green-900/30 font-medium">
                             <td className="py-2 px-2 md:py-3 md:px-4 flex items-center gap-1 md:gap-2">
                                 <SvgIcon name="star" className="w-4 h-4 text-amber-400" />
-                                <span className="text-xs md:text-sm">{labels.ourStore}</span>
+                                <span className="text-xs md:text-sm text-gray-900 dark:text-white">{labels.ourStore}</span>
                             </td>
                             <td className="py-2 px-2 md:py-3 md:px-4 text-green-700 dark:text-green-400 font-bold">
                                 {product.price} <span className="text-xs">{labels.egp}</span>
@@ -109,7 +109,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                                     {warrantyMonths} {labels.months} ✓
                                 </span>
                             </td>
-                            <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm">
+                            <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm text-gray-900 dark:text-white">
                                 1-3 {labels.days}
                                 {product.price >= 500 && (
                                     <span className="ms-1 text-green-600 text-[10px] md:text-xs block md:inline">({labels.free})</span>
@@ -123,17 +123,17 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         {/* Competitors */}
                         {comps.map((comp, index) => (
                             <tr key={index} className="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800/50">
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm">{comp.name}</td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-400 text-xs md:text-sm">
+                                <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm text-gray-800 dark:text-gray-200">{comp.name}</td>
+                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-300 text-xs md:text-sm">
                                     {typeof comp.price === 'number' ? `${comp.price} ${labels.egp}` : comp.price}
                                 </td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-400 text-xs md:text-sm">{comp.warranty}</td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-400 text-xs md:text-sm">{comp.delivery}</td>
+                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-300 text-xs md:text-sm">{comp.warranty}</td>
+                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-300 text-xs md:text-sm">{comp.delivery}</td>
                                 <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm">
                                     {comp.original ? (
-                                        <span className="text-green-600">{labels.yes}</span>
+                                        <span className="text-green-600 dark:text-green-400">{labels.yes}</span>
                                     ) : (
-                                        <span className="text-orange-500">{labels.no}</span>
+                                        <span className="text-orange-600 dark:text-orange-400">{labels.no}</span>
                                     )}
                                 </td>
                             </tr>

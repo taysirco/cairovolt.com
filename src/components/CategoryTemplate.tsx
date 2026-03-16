@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState, useTransition } from 'react';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { CategorySeoData, FAQItem, BuyingGuideSection, TrustSignal, SoundcoreData, PowerBankData } from '@/data/category-seo';
@@ -105,6 +105,10 @@ export default function CategoryTemplate({
     const [dbProducts, setDbProducts] = useState<Product[]>(initialProducts);
     const [loading, setLoading] = useState(initialProducts.length === 0);
 
+    // INP-optimized sort: startTransition ensures sort never blocks the main thread
+    const [sortBy, setSortBy] = useState<'default' | 'price-asc' | 'price-desc'>('default');
+    const [isSorting, startSortTransition] = useTransition();
+
     useEffect(() => {
         // If we already have products from server, we can still fetch fresh data
         // but we don't need to show loading state if we have initial data
@@ -171,6 +175,17 @@ export default function CategoryTemplate({
             badge: undefined as string | undefined
         };
     });
+
+    // Memoized sorted products — re-computes only when sortBy or displayProducts change
+    const sortedProducts = useMemo(() => {
+        if (sortBy === 'price-asc') return [...displayProducts].sort((a, b) => a.price - b.price);
+        if (sortBy === 'price-desc') return [...displayProducts].sort((a, b) => b.price - a.price);
+        return displayProducts;
+    }, [displayProducts, sortBy]);
+
+    const handleSort = (newSort: typeof sortBy) => {
+        startSortTransition(() => setSortBy(newSort));
+    };
 
     // Breadcrumbs - Arabic default locale uses '/', English uses '/en/'
     // Use proper brand casing (Anker, Joyroom)
@@ -265,23 +280,48 @@ export default function CategoryTemplate({
             {/* PRODUCT GRID — FIRST THING AFTER H1 + BREADCRUMB      */}
             {/* Buyer sees products/prices immediately                  */}
             {/* ═══════════════════════════════════════════════════════ */}
-            <section className="container mx-auto px-4 py-8">
-                <h2 className="text-xl font-bold mb-6">
-                    {locale === 'ar' ? 'المنتجات' : 'Products'}
-                    {loading && <span className="text-sm font-normal text-gray-500 ml-2">...</span>}
-                </h2>
+            <section className="container mx-auto px-4 py-8" data-testid="product-grid-section">
+                <div className="flex items-center justify-between mb-6 flex-wrap gap-3" data-testid="sort-bar-container">
+                    <h2 className="text-xl font-bold">
+                        {locale === 'ar' ? 'المنتجات' : 'Products'}
+                        {loading && <span className="text-sm font-normal text-gray-500 ml-2">...</span>}
+                    </h2>
+
+                    {/* Sort Bar — INP optimized with startTransition */}
+                    <div className={`flex items-center gap-2 text-sm ${isSorting ? 'opacity-70' : ''} transition-opacity`}>
+                        <span className="text-gray-500 hidden sm:inline">{isRTL ? 'ترتيب:' : 'Sort:'}</span>
+                        <button
+                            onClick={() => handleSort('default')}
+                            className={`px-3 py-1.5 rounded-lg transition-colors ${sortBy === 'default' ? `text-white ${buttonColorClass}` : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700'}`}
+                        >
+                            {isRTL ? 'الافتراضي' : 'Default'}
+                        </button>
+                        <button
+                            onClick={() => handleSort('price-asc')}
+                            className={`px-3 py-1.5 rounded-lg transition-colors ${sortBy === 'price-asc' ? `text-white ${buttonColorClass}` : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700'}`}
+                        >
+                            {isRTL ? 'الأقل سعراً' : 'Price ↑'}
+                        </button>
+                        <button
+                            onClick={() => handleSort('price-desc')}
+                            className={`px-3 py-1.5 rounded-lg transition-colors ${sortBy === 'price-desc' ? `text-white ${buttonColorClass}` : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700'}`}
+                        >
+                            {isRTL ? 'الأعلى سعراً' : 'Price ↓'}
+                        </button>
+                    </div>
+                </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    {displayProducts.map((product, idx) => (
+                    {sortedProducts.map((product, idx) => (
                         <Link
                             key={product.id || idx}
                             href={product.slug
                                 ? `${localePrefix}/${brand}/${categorySlug}/${product.slug}`
                                 : '#'
                             }
-                            className="group bg-white dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 overflow-hidden hover:shadow-lg hover:border-gray-200 transition-all duration-300"
+                            className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-300"
                         >
                             {/* Product Image */}
-                            <div className="w-full aspect-square bg-gray-50 dark:bg-gray-800 relative overflow-hidden">
+                            <div className="w-full aspect-square bg-white relative overflow-hidden">
                                 {product.image ? (
                                     <Image
                                         src={product.image}
@@ -314,12 +354,12 @@ export default function CategoryTemplate({
                                         {product.badge}
                                     </span>
                                 )}
-                                <h3 className="text-sm font-bold text-gray-900 dark:text-white line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-2">
+                                <h3 className="text-sm font-bold text-gray-900 line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-2">
                                     {product.name}
                                 </h3>
                                 <div className="flex items-center justify-between">
                                     <div>
-                                        <span className="text-base font-bold text-gray-900 dark:text-white">
+                                        <span className="text-base font-bold text-gray-900">
                                             {product.price}
                                         </span>
                                         <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>

@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getFirestore } from '@/lib/firebase-admin';
@@ -8,10 +9,13 @@ import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
 import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
+import { LiveLogisticsPulse, LivePulseSkeleton } from '@/components/products/LiveLogisticsPulse';
 
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import TabTakeover from '@/components/UX/TabTakeover';
-import { getLabData } from '@/data/cairovolt-labs';
+import { getLabData, getLabMetrics } from '@/data/cairovolt-labs';
+import { BostaTracker } from '@/lib/bosta';
+import { headers } from 'next/headers';
 
 import { buildManifest, signManifest } from '@/lib/content-credentials';
 
@@ -62,6 +66,35 @@ async function trySignProduct(name: string): Promise<Record<string, unknown> | n
     } catch {
         return null;
     }
+}
+
+// City-to-governorate slug mapping for location detection
+const CITY_TO_GOVERNORATE: Record<string, string> = {
+    'cairo': 'cairo', 'giza': 'giza', 'alexandria': 'alexandria',
+    'القاهرة': 'cairo', 'الجيزة': 'giza', 'الإسكندرية': 'alexandria',
+    'tanta': 'gharbia', 'mansoura': 'dakahlia', 'zagazig': 'sharqia',
+    'ismailia': 'ismailia', 'suez': 'suez', 'port said': 'port-said',
+    'damietta': 'damietta', 'fayoum': 'fayoum', 'minya': 'minya',
+    'asyut': 'asyut', 'sohag': 'sohag', 'luxor': 'luxor', 'aswan': 'aswan',
+    'hurghada': 'red-sea', 'sharm el sheikh': 'south-sinai',
+    'new cairo': 'cairo', 'nasr city': 'cairo', '6th of october': 'giza',
+    'maadi': 'cairo', 'heliopolis': 'cairo', 'dokki': 'giza',
+};
+
+async function detectUserGovernorate(): Promise<{ slug: string; display: string }> {
+    const headersList = await headers();
+    const city = (
+        headersList.get('x-vercel-ip-city') ||
+        headersList.get('x-appengine-city') ||
+        headersList.get('x-forwarded-city') ||
+        'cairo'
+    ).toLowerCase();
+
+    const slug = CITY_TO_GOVERNORATE[city] || 'cairo';
+    // Capitalize display name
+    const display = city.charAt(0).toUpperCase() + city.slice(1);
+
+    return { slug, display };
 }
 
 async function getProduct(slug: string): Promise<Product | null> {
@@ -200,14 +233,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ProductPage({ params }: Props) {
     const { locale, brand, category, slug } = await params;
-    const [product, currentTemp] = await Promise.all([
+    const [product, currentTemp, userGov] = await Promise.all([
         getProduct(slug),
         getCairoTemperature(),
+        detectUserGovernorate(),
     ]);
 
     if (!product) {
         notFound();
     }
+
+    // Get delivery intelligence from BostaTracker
+    const deliveryStats = BostaTracker.getRegionalStats(userGov.slug, locale);
+
+    // Get lab metrics for Trust Matrix
+    const labMetrics = getLabMetrics(slug);
 
     // Get static product for smart related products
     const staticProduct = getProductBySlug(slug);
@@ -408,7 +448,19 @@ export default async function ProductPage({ params }: Props) {
                     return undefined;
                 })()}
                 thermalAdvice={{ currentTemp, category }}
+                deliveryIntelligence={deliveryStats}
+                labMetrics={labMetrics}
+                userGovernorate={userGov.display}
             />
+
+            {/* Live delivery tracking — streamed dynamically via Suspense */}
+            <Suspense fallback={<LivePulseSkeleton />}>
+                <LiveLogisticsPulse
+                    sku={product.sku || product.id}
+                    locale={locale}
+                    brandColor={product.brand.toLowerCase() === 'joyroom' ? 'red' : 'blue'}
+                />
+            </Suspense>
         </>
     );
 }

@@ -25,7 +25,7 @@ export async function POST(req: Request) {
             return NextResponse.json({ error: 'Invalid payload. Required: url, type (URL_UPDATED|URL_DELETED)' }, { status: 400 });
         }
 
-        // 1. Bust the ISR cache so Googlebot sees the fresh price/stock
+        // 1. Invalidate the ISR cache so the updated price/stock is reflected immediately
         if (slug) {
             revalidatePath(`/[locale]/[brand]/[category]/${slug}`, 'page');
         }

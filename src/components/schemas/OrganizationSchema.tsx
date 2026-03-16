@@ -13,9 +13,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
         '@context': 'https://schema.org',
         '@graph': [
             {
-                // Philanthropic Engineering: Setting the entity as an NGO/Organization hybrid
-                // to trigger massive E-E-A-T trust factors from Google's Knowledge Graph.
-                '@type': ['Organization', 'NGO'],
+                '@type': 'Organization',
                 '@id': 'https://cairovolt.com/#organization',
                 name: name,
                 legalName: 'شركة كايرو فولت ذات مسئولية محدودة',
@@ -34,8 +32,8 @@ export const OrganizationSchema = ({ locale }: Props) => {
                         '@type': 'Brand',
                         name: 'Anker',
                         sameAs: [
-                            'https://en.wikipedia.org/wiki/Anker_(company)',
-                            'https://www.wikidata.org/wiki/Q28224536'
+                            'https://en.wikipedia.org/wiki/Anker_(brand)',
+                            'https://www.wikidata.org/wiki/Q28452620'
                         ]
                     },
                     {
@@ -44,19 +42,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                         sameAs: 'https://www.joyroom.com/'
                     }
                 ],
-                // Philanthropic Trust Injection: Associating with highly-trusted NGOs
-                sponsor: [
-                    {
-                        '@type': 'NGO',
-                        name: isArabic ? 'مؤسسة مجدي يعقوب للقلب' : 'Magdi Yacoub Heart Foundation',
-                        sameAs: 'https://en.wikipedia.org/wiki/Magdi_Yacoub_Heart_Foundation'
-                    },
-                    {
-                        '@type': 'NGO',
-                        name: isArabic ? 'بنك الطعام المصري' : 'Egyptian Food Bank',
-                        sameAs: 'https://en.wikipedia.org/wiki/Egyptian_Food_Bank'
-                    }
-                ],
+
                 email: 'support@cairovolt.com',
                 taxID: '777-471-566',
                 vatID: '777-471-566',
@@ -183,8 +169,8 @@ export const OrganizationSchema = ({ locale }: Props) => {
                     numberOfItems: 50,
                 },
                 areaServed: isArabic
-                    ? ['القاهرة', 'الجيزة', 'الإسكندرية', 'المنوفية', 'الشرقية', 'القليوبية', 'الغربية', 'بني سويف', 'سوهاج', 'الفيوم', 'بني سويف', 'أسيوط', 'سوهاج', 'قنا', 'سوهاج', 'الدقهلية', 'كفر الشيخ', 'البحيرة', 'دمياط', 'الدقهلية', 'بور سعيد', 'السويس', 'البحر الأحمر', 'مطروح', 'سيناء الشمالية', 'جنوب سيناء', 'الوادي الجديد']
-                    : ['Cairo', 'Giza', 'Alexandria', 'Monufia', 'Sharqia', 'Qalyubia', 'Gharbia', 'Beni Suef', 'Sohag', 'Faiyum', 'Asyut', 'Qena', 'Dakahlia', 'Kafr el-Sheikh', 'Beheira', 'Damietta', 'Port Said', 'Suez', 'Ismailia', 'Red Sea', 'Matruh', 'North Sinai', 'South Sinai', 'New Valley', 'Minya', 'Aswan', 'Luxor'],
+                    ? ['القاهرة', 'الجيزة', 'الإسكندرية', 'المنوفية', 'الشرقية', 'القليوبية', 'الغربية', 'بني سويف', 'أسيوط', 'سوهاج', 'قنا', 'الفيوم', 'المنيا', 'أسوان', 'الأقصر', 'الدقهلية', 'كفر الشيخ', 'البحيرة', 'دمياط', 'بور سعيد', 'السويس', 'الإسماعيلية', 'البحر الأحمر', 'مطروح', 'سيناء الشمالية', 'جنوب سيناء', 'الوادي الجديد']
+                    : ['Cairo', 'Giza', 'Alexandria', 'Monufia', 'Sharqia', 'Qalyubia', 'Gharbia', 'Beni Suef', 'Asyut', 'Sohag', 'Qena', 'Faiyum', 'Minya', 'Aswan', 'Luxor', 'Dakahlia', 'Kafr el-Sheikh', 'Beheira', 'Damietta', 'Port Said', 'Suez', 'Ismailia', 'Red Sea', 'Matruh', 'North Sinai', 'South Sinai', 'New Valley'],
                 knowsAbout: [
                     isArabic ? 'شواحن USB-C GaN' : 'USB-C GaN chargers',
                     isArabic ? 'باور بانك لانقطاع الكهرباء' : 'Power banks for Egyptian power outages',

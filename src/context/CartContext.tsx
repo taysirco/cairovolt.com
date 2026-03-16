@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { createContext, useContext, useEffect, useState, useTransition, useCallback, ReactNode } from 'react';
 
 export interface CartItem {
     productId: string;
@@ -21,6 +21,7 @@ interface CartContextType {
     totalItems: number;
     isOpen: boolean;
     setIsOpen: (isOpen: boolean) => void;
+    isPending: boolean;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -29,6 +30,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
     const [items, setItems] = useState<CartItem[]>([]);
     const [isOpen, setIsOpen] = useState(false);
     const [isLoaded, setIsLoaded] = useState(false);
+    const [isPending, startCartTransition] = useTransition();
 
     // Load from localStorage on mount
     useEffect(() => {
@@ -44,49 +46,83 @@ export function CartProvider({ children }: { children: ReactNode }) {
         }
     }, []);
 
-    // Save to localStorage on change
+    // Deferred localStorage write — never blocks the main thread
+    // Safari private browsing: localStorage.setItem throws QuotaExceededError
     useEffect(() => {
-        if (isLoaded) {
-            localStorage.setItem('cairovolt_cart', JSON.stringify(items));
+        if (!isLoaded) return;
+
+        let idleId: number | undefined;
+        const saveCart = () => {
+            try {
+                localStorage.setItem('cairovolt_cart', JSON.stringify(items));
+            } catch {
+                // Safari private browsing or storage full — silently ignore
+            }
+        };
+
+        if (typeof window !== 'undefined' && 'requestIdleCallback' in window) {
+            idleId = requestIdleCallback(saveCart);
+        } else {
+            const timeoutId = setTimeout(saveCart, 0);
+            idleId = timeoutId as unknown as number;
         }
+
+        return () => {
+            if (idleId !== undefined) {
+                if ('cancelIdleCallback' in window) {
+                    cancelIdleCallback(idleId);
+                } else {
+                    clearTimeout(idleId);
+                }
+            }
+        };
     }, [items, isLoaded]);
 
-    const addToCart = (newItem: CartItem) => {
-        setItems(currentItems => {
-            const existingItem = currentItems.find(item => item.productId === newItem.productId);
-            if (existingItem) {
-                return currentItems.map(item =>
-                    item.productId === newItem.productId
-                        ? { ...item, quantity: item.quantity + newItem.quantity }
-                        : item
-                );
-            }
-            return [...currentItems, newItem];
+    const addToCart = useCallback((newItem: CartItem) => {
+        startCartTransition(() => {
+            setItems(currentItems => {
+                const existingItem = currentItems.find(item => item.productId === newItem.productId);
+                if (existingItem) {
+                    return currentItems.map(item =>
+                        item.productId === newItem.productId
+                            ? { ...item, quantity: item.quantity + newItem.quantity }
+                            : item
+                    );
+                }
+                return [...currentItems, newItem];
+            });
         });
-        setIsOpen(true); // Open cart when adding item
-    };
+        // Delay drawer open so "✓ Added" button feedback is visible first
+        setTimeout(() => setIsOpen(true), 600);
+    }, [startCartTransition]);
 
-    const removeFromCart = (productId: string) => {
-        setItems(currentItems => currentItems.filter(item => item.productId !== productId));
-    };
+    const removeFromCart = useCallback((productId: string) => {
+        startCartTransition(() => {
+            setItems(currentItems => currentItems.filter(item => item.productId !== productId));
+        });
+    }, [startCartTransition]);
 
-    const updateQuantity = (productId: string, quantity: number) => {
+    const updateQuantity = useCallback((productId: string, quantity: number) => {
         if (quantity < 1) {
             removeFromCart(productId);
             return;
         }
-        setItems(currentItems =>
-            currentItems.map(item =>
-                item.productId === productId
-                    ? { ...item, quantity }
-                    : item
-            )
-        );
-    };
+        startCartTransition(() => {
+            setItems(currentItems =>
+                currentItems.map(item =>
+                    item.productId === productId
+                        ? { ...item, quantity }
+                        : item
+                )
+            );
+        });
+    }, [removeFromCart, startCartTransition]);
 
-    const clearCart = () => {
-        setItems([]);
-    };
+    const clearCart = useCallback(() => {
+        startCartTransition(() => {
+            setItems([]);
+        });
+    }, [startCartTransition]);
 
     const totalAmount = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
@@ -101,7 +137,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
             totalAmount,
             totalItems,
             isOpen,
-            setIsOpen
+            setIsOpen,
+            isPending
         }}>
             {children}
         </CartContext.Provider>
