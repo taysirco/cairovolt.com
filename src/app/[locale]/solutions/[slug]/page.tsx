@@ -1,12 +1,16 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getPainPointBySlug } from '@/data/pain-points';
+import { getPainPointBySlug, painPointsDB } from '@/data/pain-points';
 import { getProductBySlug } from '@/lib/static-products';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
+
+export async function generateStaticParams() {
+    return painPointsDB.map(p => ({ slug: p.slug }));
+}
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
@@ -26,8 +30,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${title} | CairoVolt Engineering Solutions`,
         description: desc,
         alternates: {
-            canonical: `https://cairovolt.com/${isArabic ? '' : 'en/'}solutions/${slug}`,
-        }
+            canonical: isArabic
+                ? `https://cairovolt.com/solutions/${slug}`
+                : `https://cairovolt.com/en/solutions/${slug}`,
+            languages: {
+                'ar': `https://cairovolt.com/solutions/${slug}`,
+                'en': `https://cairovolt.com/en/solutions/${slug}`,
+                'x-default': `https://cairovolt.com/solutions/${slug}`,
+            },
+        },
     };
 }
 
@@ -93,7 +104,7 @@ export default async function SolutionPage({ params }: Props) {
                             return (
                                 <Link
                                     key={product.slug}
-                                    href={`/${isArabic ? '' : 'en/'}${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`}
+                                    href={`/${isArabic ? '' : 'en/'}${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`}
                                     className="flex gap-4 bg-white dark:bg-gray-900 p-4 rounded-2xl border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-lg transition-all group"
                                 >
                                     <div className="w-24 h-24 bg-gray-50 dark:bg-gray-800 rounded-xl relative overflow-hidden flex-shrink-0">

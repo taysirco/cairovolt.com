@@ -95,6 +95,7 @@ export default function CategoryTemplate({
     const tCommon = useTranslations('Common');
     const content = locale === 'ar' ? seoContent.ar : seoContent.en;
     const isRTL = locale === 'ar';
+    const brandSlug = brand.toLowerCase();
 
     // Get translated category name
     const categoryKey = categoryKeyMap[categorySlug] || 'other';
@@ -192,8 +193,8 @@ export default function CategoryTemplate({
     const localePrefix = locale === 'ar' ? '' : '/en';
     const breadcrumbs = [
         { name: tCommon('home'), url: `https://cairovolt.com${localePrefix}` },
-        { name: translatedBrand, url: `https://cairovolt.com${localePrefix}/${brand}` },
-        { name: translatedCategory, url: `https://cairovolt.com${localePrefix}/${brand}/${categorySlug}` }
+        { name: translatedBrand, url: `https://cairovolt.com${localePrefix}/${brandSlug}` },
+        { name: translatedCategory, url: `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}` }
     ];
 
     return (
@@ -223,8 +224,8 @@ export default function CategoryTemplate({
                     items={displayProducts.map((p, idx) => ({
                         name: p.name,
                         url: p.slug
-                            ? `https://cairovolt.com${localePrefix}/${brand}/${categorySlug}/${p.slug}`
-                            : `https://cairovolt.com${localePrefix}/${brand}/${categorySlug}`,
+                            ? `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}/${p.slug}`
+                            : `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}`,
                         image: p.image || '/placeholder.png',
                         price: p.price,
                         position: idx + 1,
@@ -242,7 +243,7 @@ export default function CategoryTemplate({
                             {tCommon('home')}
                         </Link>
                         <span className="mx-2">/</span>
-                        <Link href={`${localePrefix}/${brand}`} className="hover:text-white">
+                        <Link href={`${localePrefix}/${brandSlug}`} className="hover:text-white">
                             {translatedBrand}
                         </Link>
                         <span className="mx-2">/</span>
@@ -315,7 +316,7 @@ export default function CategoryTemplate({
                         <Link
                             key={product.id || idx}
                             href={product.slug
-                                ? `${localePrefix}/${brand}/${categorySlug}/${product.slug}`
+                                ? `${localePrefix}/${brandSlug}/${categorySlug}/${product.slug}`
                                 : '#'
                             }
                             className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-300"
@@ -746,7 +747,7 @@ export default function CategoryTemplate({
 
                 {/* Related Categories - Internal Linking */}
                 <RelatedLinks
-                    currentUrl={`/${brand}/${categorySlug}`}
+                    currentUrl={`/${brandSlug}/${categorySlug}`}
                     locale={locale}
                     variant="card"
                     maxLinks={4}

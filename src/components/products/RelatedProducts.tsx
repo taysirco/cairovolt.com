@@ -58,7 +58,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                 >
                     {displayProducts.map((product) => {
                         const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en;
-                        const productUrl = getLocalizedHref(`/${product.brand}/${product.categorySlug}/${product.slug}`);
+                        const productUrl = getLocalizedHref(`/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`);
                         const discount = product.originalPrice
                             ? Math.round((1 - product.price / product.originalPrice) * 100)
                             : 0;

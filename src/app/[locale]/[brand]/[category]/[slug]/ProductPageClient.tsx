@@ -895,7 +895,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                 {/* Related Categories - Internal Linking */}
                 <RelatedLinks
-                    currentUrl={`/${brand}/${category}`}
+                    currentUrl={`/${brandLower}/${categoryLower}`}
                     locale={locale}
                     variant="pill"
                     maxLinks={4}

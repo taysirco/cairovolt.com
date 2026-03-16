@@ -188,6 +188,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         });
     });
 
+    // Solution Pages (Pain Point micro-intent pages)
+    try {
+        const { painPointsDB } = await import('@/data/pain-points');
+        painPointsDB.forEach(solution => {
+            routes.push({
+                url: `${baseUrl}/solutions/${solution.slug}`,
+                priority: 0.7,
+                changeFrequency: 'monthly',
+                lastModified: new Date('2026-03-15'),
+            });
+            routes.push({
+                url: `${baseUrl}/en/solutions/${solution.slug}`,
+                priority: 0.7,
+                changeFrequency: 'monthly',
+                lastModified: new Date('2026-03-15'),
+            });
+        });
+    } catch {
+        // Pain points data not available
+    }
+
     return routes;
 }
 

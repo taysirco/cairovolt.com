@@ -132,7 +132,7 @@ export default async function BrandHubPage({ params }: Props) {
                 <ArticleSchema
                     headline={isRTL ? data.seoArticle.ar.title : data.seoArticle.en.title}
                     description={isRTL ? data.metadata.ar.description : data.metadata.en.description}
-                    url={`https://cairovolt.com${isRTL ? '' : '/en'}/${brand}`}
+                    url={`https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}`}
                     locale={locale}
                     articleType="Article"
                     sections={(isRTL ? data.seoArticle.ar.sections : data.seoArticle.en.sections).map((s: { heading: string; content: string }) => ({
