@@ -262,9 +262,10 @@ export default async function ProductPage({ params }: Props) {
     const productDescription = product.translations?.[locale as 'ar' | 'en']?.description || product.translations?.en?.description || '';
     const isArabic = locale === 'ar';
 
-    // C2PA content credential for Google Lens trust signals
-    const contentCredential = await trySignProduct(productName);
-    const c2paHash = contentCredential?.signature ? String(contentCredential.signature).slice(0, 32) : undefined;
+    // Reuse C2PA credential already generated during product data fetch (lines 108/126)
+    const c2paHash = product.contentCredentials?.signature
+        ? String(product.contentCredentials.signature).slice(0, 32)
+        : undefined;
 
     // CairoVolt Labs first-party test data (Information Gain)
     const labInfo = getLabData(slug);

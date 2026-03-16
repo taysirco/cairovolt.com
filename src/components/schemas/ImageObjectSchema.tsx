@@ -30,7 +30,7 @@ interface ImageObjectSchemaProps {
  *   • subjectOf → Product (name, price, brand, url) — triggers "Buy" card in Lens
  *   • representativeOfPage = true on primary image
  *   • digitalSourceType = digitalCapture (not AI-generated)
- *   • contentLocation with GPS coordinates (Cairo)
+ *   • contentLocation with GPS coordinates (New Damietta lab)
  *   • width / height for dimension signals
  *   • thumbnail for quick visual matching
  */

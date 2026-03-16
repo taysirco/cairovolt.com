@@ -3,6 +3,7 @@ import { flushSync } from 'react-dom';
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { VerifiedVisionImage } from '@/components/ui/VerifiedVisionImage';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
@@ -322,14 +323,18 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                             <div className="w-full h-full flex items-center justify-center p-8 relative">
                                 {primaryImage ? (
-                                    <Image
+                                    <VerifiedVisionImage
                                         src={primaryImage}
                                         alt={productName}
+                                        slug={product.slug}
+                                        brand={product.brand}
+                                        c2paHash={product.contentCredentials?.signature ? String(product.contentCredentials.signature).slice(0, 32) : undefined}
                                         fill
                                         priority
-                                        fetchPriority="high"
                                         sizes="(max-width: 768px) 100vw, 50vw"
-                                        className="object-contain p-8 transition-transform hover:scale-105"
+                                        imageClassName="object-contain p-8 transition-transform hover:scale-105"
+                                        isPrimary
+                                        locale={locale}
                                     />
                                 ) : (
                                     <div className={`text-8xl font-bold bg-gradient-to-br ${brand === 'anker' ? 'from-blue-400 to-blue-600' : 'from-red-400 to-red-600'} bg-clip-text text-transparent`}>
