@@ -82,17 +82,18 @@ export function VerifiedVisionImage({
         ? { src, alt, fill: true as const, sizes, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
         : { src, alt, width, height, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
 
-    // When fill=true, the figure must:
-    //   1. Fill its parent container (w-full h-full) — parent provides dimensions via aspect-square
-    //   2. Be position:relative — so next/image fill can position:absolute inside it
-    // DO NOT use 'absolute inset-0' — it removes the figure from flow and causes dimension issues.
-    const positionClass = fill ? 'relative w-full h-full' : 'relative';
+    // When fill=true, the figure must fill the parent and be position:relative for next/image fill.
+    // Uses inline style to guarantee correct layout — immune to Turbopack class caching issues.
+    const figureStyle = fill
+        ? { position: 'relative' as const, width: '100%', height: '100%', overflow: 'hidden' as const }
+        : { position: 'relative' as const, overflow: 'hidden' as const };
 
     // In lightweight mode (product cards), emit minimal microdata
     if (lightweight) {
         return (
             <figure
-                className={`${positionClass} overflow-hidden ${className}`}
+                style={figureStyle}
+                className={className}
                 itemScope
                 itemType="https://schema.org/ImageObject"
             >
@@ -110,7 +111,8 @@ export function VerifiedVisionImage({
     // Full mode — product page hero/gallery images
     return (
         <figure
-            className={`${positionClass} group overflow-hidden ${className}`}
+            style={figureStyle}
+            className={`group ${className}`}
             itemScope
             itemType="https://schema.org/ImageObject"
         >

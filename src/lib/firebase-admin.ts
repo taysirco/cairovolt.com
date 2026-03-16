@@ -23,13 +23,18 @@ export async function getFirestore(): Promise<Firestore> {
 
         const privateKey = privateKeyRaw.replace(/\\n/g, '\n');
 
-        adminApp = initializeApp({
-            credential: cert({
-                projectId,
-                clientEmail,
-                privateKey,
-            }),
-        });
+        try {
+            adminApp = initializeApp({
+                credential: cert({
+                    projectId,
+                    clientEmail,
+                    privateKey,
+                }),
+            });
+        } catch {
+            // Race condition in dev hot-reload: app was created between getApps() check and initializeApp()
+            adminApp = getApps()[0];
+        }
     } else {
         adminApp = getApps()[0];
     }
