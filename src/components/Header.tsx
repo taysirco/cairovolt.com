@@ -305,7 +305,7 @@ export default function Header() {
                                         alt="Cairo Volt"
                                         width={120}
                                         height={67}
-                                        className="h-[50px] w-auto object-contain dark:[filter:brightness(0)_invert(1)]"
+                                        className="h-[60px] w-auto object-contain dark:[filter:brightness(0)_invert(1)]"
                                     />
                                 </div>
                                 <span className="text-lg font-bold">
