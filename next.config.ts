@@ -7,7 +7,7 @@ const nextConfig = {
     poweredByHeader: false,
     compress: true,
     reactCompiler: true,
-    ppr: 'incremental',
+    serverExternalPackages: ['firebase-admin', '@google-cloud/secret-manager'],
     images: {
         formats: ['image/avif', 'image/webp'] as any,
         minimumCacheTTL: 31536000,
@@ -17,6 +17,12 @@ const nextConfig = {
                 hostname: '**',
             },
         ] as any,
+    },
+    experimental: {
+        staleTimes: {
+            dynamic: 60,
+            static: 300,
+        },
     },
     async headers() {
         return [

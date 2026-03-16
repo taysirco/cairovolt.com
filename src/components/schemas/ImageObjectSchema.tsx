@@ -86,8 +86,8 @@ export function ImageObjectSchema({
                 ? `${productName} — صورة ${idx + 1} — كايرو فولت مصر`
                 : `${productName} — Image ${idx + 1} — CairoVolt Egypt`),
             description: isArabic
-                ? `صورة أصلية رقم ${idx + 1} لمنتج ${productName} من مخازن كايرو فولت، مصر. التقطت بكاميرا حقيقية.`
-                : `Original product photo ${idx + 1} of ${productName} from CairoVolt warehouse, Egypt. Captured with a real camera.`,
+                ? `صورة أصلية رقم ${idx + 1} لمنتج ${productName} من مختبر كايرو فولت، دمياط الجديدة، مصر. التقطت بكاميرا حقيقية.`
+                : `Original product photo ${idx + 1} of ${productName} from CairoVolt Lab, New Damietta, Egypt. Captured with a real camera.`,
             ...(isPrimary && { representativeOfPage: true }),
             ...(img.width && { width: img.width }),
             ...(img.height && { height: img.height }),

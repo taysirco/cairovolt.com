@@ -82,11 +82,14 @@ export function VerifiedVisionImage({
         ? { src, alt, fill: true as const, sizes, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
         : { src, alt, width, height, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
 
+    // When fill=true, figure must fill its positioned parent via absolute positioning
+    const fillClasses = fill ? 'absolute inset-0' : '';
+
     // In lightweight mode (product cards), emit minimal microdata
     if (lightweight) {
         return (
             <figure
-                className={`relative overflow-hidden ${className}`}
+                className={`relative overflow-hidden ${fillClasses} ${className}`}
                 itemScope
                 itemType="https://schema.org/ImageObject"
             >
@@ -104,7 +107,7 @@ export function VerifiedVisionImage({
     // Full mode — product page hero/gallery images
     return (
         <figure
-            className={`relative group overflow-hidden ${className}`}
+            className={`relative group overflow-hidden ${fillClasses} ${className}`}
             itemScope
             itemType="https://schema.org/ImageObject"
         >
