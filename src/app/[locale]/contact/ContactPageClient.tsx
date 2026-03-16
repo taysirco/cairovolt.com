@@ -78,7 +78,7 @@ export default function ContactPageClient() {
 
                     {/* Email */}
                     <a
-                        href="mailto:support@mobilestore.eg"
+                        href="mailto:support@cairovolt.com"
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-purple-500 flex items-center justify-center text-white text-3xl">

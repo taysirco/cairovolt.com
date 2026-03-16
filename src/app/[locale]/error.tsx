@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 export default function Error({
     error,
@@ -12,11 +12,46 @@ export default function Error({
 }) {
     const locale = useLocale();
     const isRTL = locale === 'ar';
+    const retryCount = useRef(0);
 
     useEffect(() => {
-        // Log the error to an error reporting service
+        // Browser extensions (e.g., phone number detectors, Skype, Google Voice)
+        // modify the DOM between SSR and hydration, causing React to throw
+        // "Failed to execute 'removeChild' on 'Node'" errors. These are
+        // not real application errors — auto-retry to let React re-render
+        // cleanly after the extension has finished modifying the DOM.
+        const isHydrationError =
+            error?.message?.includes('removeChild') ||
+            error?.message?.includes('insertBefore') ||
+            error?.message?.includes('appendChild') ||
+            error?.message?.includes('Hydration') ||
+            error?.message?.includes('hydrating');
+
+        if (isHydrationError && retryCount.current < 3) {
+            retryCount.current += 1;
+            // Small delay to let any browser extension finish mutating the DOM
+            const timer = setTimeout(() => {
+                reset();
+            }, 100);
+            return () => clearTimeout(timer);
+        }
+
+        // Log non-hydration errors to console for debugging
         console.error(error);
-    }, [error]);
+    }, [error, reset]);
+
+    // While auto-retrying hydration errors, don't flash the error UI
+    const isHydrationError =
+        error?.message?.includes('removeChild') ||
+        error?.message?.includes('insertBefore') ||
+        error?.message?.includes('appendChild') ||
+        error?.message?.includes('Hydration') ||
+        error?.message?.includes('hydrating');
+
+    if (isHydrationError && retryCount.current < 3) {
+        // Show nothing while retrying — prevents flash of error UI
+        return null;
+    }
 
     return (
         <div className="min-h-[60vh] flex items-center justify-center px-4" dir={isRTL ? 'rtl' : 'ltr'}>

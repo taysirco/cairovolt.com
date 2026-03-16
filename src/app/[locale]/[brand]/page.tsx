@@ -17,10 +17,14 @@ export const revalidate = 3600;
 type Props = {
     params: Promise<{ locale: string; brand: string }>;
 };
-// ... (omitting lines 16-130 as they don't change, start replacement from import or section)
 
-// Actually I'll target the import and the usage separately or use a larger block
-
+export async function generateStaticParams() {
+    const brands = Object.keys(brandData);
+    const locales = ['ar', 'en'];
+    return locales.flatMap(locale =>
+        brands.map(brand => ({ locale, brand }))
+    );
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, brand } = await params;

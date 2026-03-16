@@ -12,10 +12,18 @@ import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry'
 import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
 
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
 // Defense-in-depth: sanitize HTML content even from static sources
 function sanitizeHtml(html: string): string {
     return html
+        // Fix malformed tags with internal spaces (e.g. `< table >` → `<table>`)
+        // These cause browser DOM auto-correction that breaks React hydration
+        .replace(/<\s+(\w)/g, '<$1')
+        .replace(/(\w)\s+>/g, '$1>')
+        .replace(/<\s+\//g, '</')
+        .replace(/\s+>/g, '>')
+        // Security: strip dangerous elements
         .replace(/<script[\s\S]*?<\/script>/gi, '')
         .replace(/<style[\s\S]*?<\/style>/gi, '')
         .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
@@ -130,7 +138,7 @@ export default async function BlogArticlePage({ params }: Props) {
         .slice(0, 3);
 
     return (
-        <>
+        <div suppressHydrationWarning>
             {/* Schema Markup */}
             <BreadcrumbSchema
                 items={[
@@ -285,7 +293,8 @@ export default async function BlogArticlePage({ params }: Props) {
 
                 {/* Article Content */}
                 <article className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
-                    <div
+                    <BlogContentRenderer
+                        html={sanitizeHtml(trans.content)}
                         className="prose prose-xl md:prose-lg dark:prose-invert max-w-none
                             prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-white
                             prose-h2:text-3xl md:prose-h2:text-2xl prose-h2:mt-12 md:prose-h2:mt-10 prose-h2:mb-5 md:prose-h2:mb-4 prose-h2:pb-3 md:prose-h2:pb-2 prose-h2:border-b prose-h2:border-gray-100 dark:prose-h2:border-gray-800
@@ -298,7 +307,6 @@ export default async function BlogArticlePage({ params }: Props) {
                             prose-td:p-3.5 prose-td:border-b prose-td:border-gray-100 dark:prose-td:border-gray-700/50
                             [&_tbody_tr]:transition-colors [&_tbody_tr:hover]:bg-blue-50/50 dark:[&_tbody_tr:hover]:bg-blue-900/10 [&_tbody_tr:nth-child(even)]:bg-gray-50/50 dark:[&_tbody_tr:nth-child(even)]:bg-gray-800/30
                             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline"
-                        dangerouslySetInnerHTML={{ __html: sanitizeHtml(trans.content) }}
                     />
 
                     {/* Interactive Widgets (Calculators, Mermaid Diagrams) */}
@@ -450,7 +458,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                     return (
                                         <Link
                                             key={slug}
-                                            href={getLocalizedHref(`/${prod.brand}/${prod.categorySlug}/${slug}`)}
+                                            href={getLocalizedHref(`/${prod.brand.toLowerCase()}/${prod.categorySlug.toLowerCase()}/${slug}`)}
                                             className={`group p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg transition-all ${isAnkerBrand ? 'hover:border-blue-200' : 'hover:border-red-200'}`}
                                         >
                                             <div className={`text-xs font-bold mb-1 ${isAnkerBrand ? 'text-blue-600' : 'text-red-600'}`}>{prod.brand}</div>
@@ -508,6 +516,6 @@ export default async function BlogArticlePage({ params }: Props) {
                     )}
                 </article>
             </main>
-        </>
+        </div>
     );
 }

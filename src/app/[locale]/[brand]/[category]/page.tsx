@@ -12,6 +12,19 @@ type Props = {
     params: Promise<{ locale: string; brand: string; category: string }>;
 };
 
+export async function generateStaticParams() {
+    const locales = ['ar', 'en'];
+    const params: { locale: string; brand: string; category: string }[] = [];
+    Object.keys(categoryData).forEach(brand => {
+        Object.keys(categoryData[brand]).forEach(category => {
+            locales.forEach(locale => {
+                params.push({ locale, brand, category });
+            });
+        });
+    });
+    return params;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, brand, category } = await params;
     const brandKey = brand.toLowerCase();

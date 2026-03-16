@@ -91,6 +91,8 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <head>
+        {/* Prevent browsers/extensions from auto-detecting phone numbers — causes hydration mismatches */}
+        <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
         {/* Preconnect to critical external origins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -122,6 +124,31 @@ export default async function RootLayout({
                   }
                 } catch (e) {}
               })();
+
+              // Patch DOM methods to handle browser extensions (phone number detectors,
+              // Grammarly, etc.) that modify the DOM between SSR and hydration.
+              // When they wrap/move nodes, React's removeChild fails because
+              // the target node is no longer in its expected parent.
+              if (typeof window !== 'undefined') {
+                var origRemoveChild = Node.prototype.removeChild;
+                Node.prototype.removeChild = function(child) {
+                  if (child.parentNode !== this) {
+                    try { child.parentNode.removeChild(child); } catch(e) { 
+                      try { child.remove(); } catch(e2) {} 
+                    }
+                    return child;
+                  }
+                  return origRemoveChild.apply(this, arguments);
+                };
+
+                var origInsertBefore = Node.prototype.insertBefore;
+                Node.prototype.insertBefore = function(newNode, refNode) {
+                  if (refNode && refNode.parentNode !== this) {
+                    return origInsertBefore.call(this, newNode, null);
+                  }
+                  return origInsertBefore.apply(this, arguments);
+                };
+              }
             `,
           }}
         />

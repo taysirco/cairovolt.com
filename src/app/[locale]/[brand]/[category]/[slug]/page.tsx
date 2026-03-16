@@ -27,6 +27,19 @@ type Props = {
     params: Promise<{ locale: string; brand: string; category: string; slug: string }>;
 };
 
+export async function generateStaticParams() {
+    const { staticProducts } = await import('@/lib/static-products');
+    const locales = ['ar', 'en'];
+    return locales.flatMap(locale =>
+        staticProducts.map(p => ({
+            locale,
+            brand: p.brand.toLowerCase(),
+            category: p.categorySlug.toLowerCase(),
+            slug: p.slug,
+        }))
+    );
+}
+
 interface Product {
     id: string;
     slug: string;
@@ -176,7 +189,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: dynamicTitle,
             description: t.metaDesc || t.shortDescription,
             siteName: isArabic ? 'كايرو فولت - مصر' : 'CairoVolt Egypt',
-            type: 'website',
+            type: 'article',
             images: product.images?.[0]?.url ? [{
                 url: product.images[0].url.startsWith('http')
                     ? product.images[0].url
