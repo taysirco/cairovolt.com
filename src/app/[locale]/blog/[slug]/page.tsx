@@ -13,6 +13,21 @@ import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidg
 
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 
+// Defense-in-depth: sanitize HTML content even from static sources
+function sanitizeHtml(html: string): string {
+    return html
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<object[\s\S]*?<\/object>/gi, '')
+        .replace(/<embed[^>]*>/gi, '')
+        .replace(/<form[\s\S]*?<\/form>/gi, '')
+        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
+        .replace(/\son\w+\s*=\s*\S+/gi, '')
+        .replace(/javascript\s*:/gi, 'blocked:')
+        .replace(/data\s*:/gi, 'blocked:');
+}
+
 export const revalidate = 86400;
 export const dynamicParams = true;
 
@@ -283,7 +298,7 @@ export default async function BlogArticlePage({ params }: Props) {
                             prose-td:p-3.5 prose-td:border-b prose-td:border-gray-100 dark:prose-td:border-gray-700/50
                             [&_tbody_tr]:transition-colors [&_tbody_tr:hover]:bg-blue-50/50 dark:[&_tbody_tr:hover]:bg-blue-900/10 [&_tbody_tr:nth-child(even)]:bg-gray-50/50 dark:[&_tbody_tr:nth-child(even)]:bg-gray-800/30
                             prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline"
-                        dangerouslySetInnerHTML={{ __html: trans.content }}
+                        dangerouslySetInnerHTML={{ __html: sanitizeHtml(trans.content) }}
                     />
 
                     {/* Interactive Widgets (Calculators, Mermaid Diagrams) */}
@@ -431,20 +446,20 @@ export default async function BlogArticlePage({ params }: Props) {
                                     const prod = getProductBySlug(slug);
                                     if (!prod) return null;
                                     const pTrans = prod.translations[isArabic ? 'ar' : 'en'];
-                                    const brandColor = prod.brand.toLowerCase() === 'anker' ? 'blue' : 'red';
+                                    const isAnkerBrand = prod.brand.toLowerCase() === 'anker';
                                     return (
                                         <Link
                                             key={slug}
                                             href={getLocalizedHref(`/${prod.brand}/${prod.categorySlug}/${slug}`)}
-                                            className={`group p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg hover:border-${brandColor}-200 transition-all`}
+                                            className={`group p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg transition-all ${isAnkerBrand ? 'hover:border-blue-200' : 'hover:border-red-200'}`}
                                         >
-                                            <div className={`text-xs font-bold text-${brandColor}-600 mb-1`}>{prod.brand}</div>
+                                            <div className={`text-xs font-bold mb-1 ${isAnkerBrand ? 'text-blue-600' : 'text-red-600'}`}>{prod.brand}</div>
                                             <h3 className="font-bold text-sm text-gray-900 dark:text-white mb-2 line-clamp-2">{pTrans.name}</h3>
                                             <div className="flex items-center justify-between">
                                                 <span className="text-lg font-bold text-green-600">
                                                     {prod.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
                                                 </span>
-                                                <span className={`text-xs px-2 py-1 rounded-full bg-${brandColor}-50 dark:bg-${brandColor}-900/30 text-${brandColor}-700 dark:text-${brandColor}-300 group-hover:bg-${brandColor}-100 transition-colors`}>
+                                                <span className={`text-xs px-2 py-1 rounded-full ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-100' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-100'} transition-colors`}>
                                                     {isArabic ? 'تسوق' : 'Shop'} →
                                                 </span>
                                             </div>

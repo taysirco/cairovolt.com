@@ -103,11 +103,7 @@ export default function middleware(request: NextRequest) {
 
         // Block crawling of cart/checkout/account pages → 410 Gone
         if (BOT_BLOCKED_PATHS.some(path => pathname.startsWith(path) || pathname.includes(path))) {
-            const response = new NextResponse(null, { status: 410 });
-            response.headers.set('X-Bot-Detected', 'search');
-            response.headers.set('X-Cache-Status', 'MISS');
-            response.headers.set('Connection', 'keep-alive');
-            return response;
+            return new NextResponse(null, { status: 410 });
         }
     }
 
@@ -139,22 +135,8 @@ export default function middleware(request: NextRequest) {
             response.headers.set('X-Robots-Tag', 'noindex, nofollow');
         }
 
-        response.headers.set('X-Cache-Status', 'DYNAMIC');
-
-        // ◼️ Server Identity Headers ◼️
-        if (isSearchBot) {
-            const currentHour = new Date().getHours();
-            const envoyHash = (Math.imul(31, currentHour) + 1013904223 | 0).toString(16).substring(0, 6);
-
-            response.headers.set('X-Envoy-Upstream-Service-Time', Math.floor(Math.random() * 15 + 10).toString());
-            response.headers.set('X-Cloud-Trace-Context', `${crypto.randomUUID().replace(/-/g, '')}/${Math.floor(Math.random() * 100000)};o=1`);
-            response.headers.set('Server', 'envoy');
-
-            // Clean framework identifiers
-            response.headers.delete('x-powered-by');
-            response.headers.delete('x-nextjs-cache');
-
-        }
+        // Clean framework identifiers for all responses
+        response.headers.delete('x-powered-by');
 
         if (AI_CRAWLER_PATTERN.test(userAgent)) {
             response.headers.set('X-AI-Crawler', 'detected');

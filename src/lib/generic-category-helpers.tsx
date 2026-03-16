@@ -5,8 +5,22 @@ import { getGenericCategory } from '@/data/generic-categories';
 import { getBlogArticle } from '@/data/blog-articles';
 import { staticProducts } from '@/lib/static-products';
 import { BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
-import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+
+// Defense-in-depth: sanitize HTML content even from static sources
+function sanitizeHtml(html: string): string {
+    return html
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<object[\s\S]*?<\/object>/gi, '')
+        .replace(/<embed[^>]*>/gi, '')
+        .replace(/<form[\s\S]*?<\/form>/gi, '')
+        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
+        .replace(/\son\w+\s*=\s*\S+/gi, '')
+        .replace(/javascript\s*:/gi, 'blocked:')
+        .replace(/data\s*:/gi, 'blocked:');
+}
 
 /**
  * Generate metadata for a generic category page
@@ -302,7 +316,7 @@ export function GenericCategoryContent({
                         <div className="container mx-auto px-4 max-w-4xl">
                             <div
                                 className="prose prose-lg dark:prose-invert max-w-none prose-headings:scroll-mt-20 prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-gray-900 dark:prose-h2:text-white prose-table:text-sm prose-th:bg-gray-100 dark:prose-th:bg-gray-800 prose-th:p-3 prose-td:p-3 prose-table:border prose-table:border-gray-200 dark:prose-table:border-gray-700 prose-tr:border-b prose-tr:border-gray-200 dark:prose-tr:border-gray-700 prose-strong:text-gray-900 dark:prose-strong:text-white prose-a:text-blue-600 prose-li:my-1"
-                                dangerouslySetInnerHTML={{ __html: richContent }}
+                                dangerouslySetInnerHTML={{ __html: sanitizeHtml(richContent) }}
                                 itemProp="articleBody"
                             />
                         </div>
@@ -352,19 +366,6 @@ export function GenericCategoryContent({
                     </section>
                 )}
 
-                {/* Voice Search FAQ — Egyptian Arabic Q&A for voice/AI search domination */}
-                {faq.length > 0 && (
-                    <section className="container mx-auto px-4 py-8 max-w-4xl">
-                        <VoiceSearchFAQ
-                            productName={content.title}
-                            locale={locale}
-                            qaList={faq.slice(0, 4).map(f => ({
-                                question: f.question,
-                                answer: f.answer,
-                            }))}
-                        />
-                    </section>
-                )}
 
                 {/* Dark Social Tracker for category pages */}
                 <DarkSocialTracker />

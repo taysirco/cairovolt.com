@@ -144,7 +144,7 @@ export default function InteractiveEffects() {
                 </p>
                 <a href="https://wa.me/201063374834"
                    target="_blank"
-                   rel="noopener noreferrer"
+                   rel="nofollow noopener noreferrer"
                    class="cv-exit-btn">
                     ${isArabic ? '💬 واتساب' : '💬 WhatsApp'}
                 </a>

@@ -41,6 +41,24 @@ import { getProductSEO } from '@/data/product-seo-enhancements';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
 
+// Lightweight HTML sanitizer — strips dangerous tags while preserving formatting
+function sanitizeHtml(html: string): string {
+    // Remove script, style, iframe, object, embed, form, and event handlers
+    return html
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<object[\s\S]*?<\/object>/gi, '')
+        .replace(/<embed[^>]*>/gi, '')
+        .replace(/<form[\s\S]*?<\/form>/gi, '')
+        .replace(/<input[^>]*>/gi, '')
+        .replace(/<textarea[\s\S]*?<\/textarea>/gi, '')
+        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '') // on* event handlers
+        .replace(/\son\w+\s*=\s*\S+/gi, '') // unquoted on* handlers
+        .replace(/javascript\s*:/gi, 'blocked:') // javascript: URIs
+        .replace(/data\s*:/gi, 'blocked:'); // data: URIs
+}
+
 
 interface Product {
     id: string; // Add id
@@ -314,7 +332,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         className="object-contain p-8 transition-transform hover:scale-105"
                                     />
                                 ) : (
-                                    <div className={`text-8xl font-bold bg-gradient-to-br from-${brandColor}-400 to-${brandColor}-600 bg-clip-text text-transparent`}>
+                                    <div className={`text-8xl font-bold bg-gradient-to-br ${brand === 'anker' ? 'from-blue-400 to-blue-600' : 'from-red-400 to-red-600'} bg-clip-text text-transparent`}>
                                         {brand.charAt(0).toUpperCase()}
                                     </div>
                                 )}
@@ -329,7 +347,9 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         key={idx}
                                         onClick={() => setSelectedImage(idx)}
                                         className={`relative w-full aspect-square rounded-xl border-2 overflow-hidden transition-all bg-white ${selectedImage === idx
-                                            ? `border-${brandColor}-600 shadow-lg ring-2 ring-${brandColor}-600/20`
+                                            ? brand === 'anker'
+                                                ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
+                                                : 'border-red-600 shadow-lg ring-2 ring-red-600/20'
                                             : 'border-gray-200 hover:border-gray-300'
                                             }`}
                                     >
@@ -596,6 +616,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 ];
                                 const selectedSet = isRTL ? trustItems[trustHash % trustItems.length].ar : trustItems[trustHash % trustItems.length].en;
                                 const icons = ['green', 'blue', 'indigo', 'emerald'];
+                                const iconColors = ['text-green-600', 'text-blue-600', 'text-indigo-600', 'text-emerald-600'];
                                 const iconPaths = [
                                     'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
                                     'M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z',
@@ -604,7 +625,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 ];
                                 return selectedSet.map((item, i) => (
                                     <div key={i} className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
-                                        <svg className={`w-6 h-6 md:w-8 md:h-8 text-${icons[i]}-600 flex-shrink-0`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                                        <svg className={`w-6 h-6 md:w-8 md:h-8 ${iconColors[i]} flex-shrink-0`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
                                             <path strokeLinecap="round" strokeLinejoin="round" d={iconPaths[i]} />
                                         </svg>
                                         <div>
@@ -632,7 +653,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             <ul className="grid md:grid-cols-2 gap-4">
                                 {productFeatures.map((feature, idx) => (
                                     <li key={idx} className="flex items-start gap-3">
-                                        <span className={`flex-shrink-0 w-6 h-6 bg-${brandColor}-100 dark:bg-${brandColor}-900/30 text-${brandColor}-600 rounded-full flex items-center justify-center text-sm font-bold`}>
+                                        <span className={`flex-shrink-0 w-6 h-6 ${brand === 'anker' ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600' : 'bg-red-100 dark:bg-red-900/30 text-red-600'} rounded-full flex items-center justify-center text-sm font-bold`}>
                                             ✓
                                         </span>
                                         <span className="text-gray-700 dark:text-gray-300">{feature}</span>
@@ -768,7 +789,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 <div
                                     className={`prose prose-lg dark:prose-invert max-w-none transition-all duration-500 overflow-hidden ${isDescriptionExpanded ? 'max-h-none' : 'max-h-72'}`}
                                 >
-                                    <div dangerouslySetInnerHTML={{ __html: productDesc }} />
+                                    <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(productDesc) }} />
                                 </div>
 
                                 {!isDescriptionExpanded && (
@@ -819,7 +840,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 </tr>
                                 <tr>
                                     <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('warranty')}</td>
-                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? '18 شهر' : '18 Months'}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? (brand === 'joyroom' ? '12 شهر' : '18 شهر') : (brand === 'joyroom' ? '12 Months' : '18 Months')}</td>
                                 </tr>
                                 <tr>
                                     <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>

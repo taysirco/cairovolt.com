@@ -21,16 +21,21 @@ const READ_LIMIT = 120;   // requests per window
 const WRITE_LIMIT = 20;   // requests per window
 const WINDOW_MS = 60_000; // 1 minute
 
-// Cleanup stale entries every 5 minutes
-setInterval(() => {
+// Lazy cleanup — runs inline instead of setInterval to avoid serverless memory leaks
+let lastCleanup = Date.now();
+const CLEANUP_INTERVAL = 5 * 60_000; // 5 minutes
+
+function cleanupIfNeeded() {
     const now = Date.now();
+    if (now - lastCleanup < CLEANUP_INTERVAL) return;
+    lastCleanup = now;
     for (const [key, entry] of readStore) {
         if (now > entry.resetAt) readStore.delete(key);
     }
     for (const [key, entry] of writeStore) {
         if (now > entry.resetAt) writeStore.delete(key);
     }
-}, 5 * 60_000);
+}
 
 export interface RateLimitResult {
     allowed: boolean;
@@ -40,6 +45,7 @@ export interface RateLimitResult {
 }
 
 export function checkRateLimit(ip: string, isWrite: boolean): RateLimitResult {
+    cleanupIfNeeded();
     const store = isWrite ? writeStore : readStore;
     const limit = isWrite ? WRITE_LIMIT : READ_LIMIT;
     const now = Date.now();

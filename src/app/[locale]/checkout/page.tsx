@@ -6,6 +6,11 @@ import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import type { Metadata } from 'next';
+
+// Metadata must be exported from a server layout/page — this is handled by the
+// checkout layout.tsx or the admin-level noindex. As a fallback, the middleware
+// already blocks bots from /checkout via 410 Gone.
 
 // All Egyptian Governorates (bilingual)
 const GOVERNORATES = {
@@ -131,6 +136,9 @@ export default function CheckoutPage() {
         setPhone(converted.replace(/[^0-9]/g, ''));
     };
 
+    // Validate Egyptian phone number format
+    const isPhoneValid = (number: string) => /^01[0125][0-9]{8}$/.test(number);
+
     // Handle WhatsApp input - convert Arabic to English
     const handleWhatsappChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const converted = convertArabicToEnglish(e.target.value);
@@ -139,6 +147,12 @@ export default function CheckoutPage() {
 
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
+
+        if (!isPhoneValid(phone)) {
+            alert(isArabic ? 'رقم الهاتف غير صحيح. يجب أن يبدأ بـ 01 ويتكون من 11 رقم.' : 'Invalid phone number. Must start with 01 and be 11 digits.');
+            return;
+        }
+
         setLoading(true);
 
         const formData = new FormData(event.currentTarget);
@@ -200,9 +214,9 @@ export default function CheckoutPage() {
             // Use next-intl router to handle locale prefix automatically
             router.push('/confirm');
 
-            // Clear cart after initiating redirect
+            // Clear cart after navigation settles using a longer delay
             // loading stays true so useEffect won't redirect to home
-            setTimeout(() => clearCart(), 100);
+            setTimeout(() => clearCart(), 1500);
         } catch (error) {
             alert(isArabic ? 'حدث خطأ أثناء إرسال الطلب. حاول مرة أخرى.' : 'An error occurred while placing your order. Please try again.');
             setLoading(false);
@@ -211,9 +225,6 @@ export default function CheckoutPage() {
 
     return (
         <>
-            <head>
-                <meta name="robots" content="noindex,nofollow" />
-            </head>
             <div className="container mx-auto px-4 py-12" dir={isArabic ? 'rtl' : 'ltr'}>
                 <h1 className="text-3xl font-bold mb-8 text-center">{t('checkout')}</h1>
 

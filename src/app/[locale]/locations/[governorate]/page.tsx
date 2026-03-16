@@ -52,6 +52,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             languages: {
                 'ar': `https://cairovolt.com/locations/${gov.slug}`,
                 'en': `https://cairovolt.com/en/locations/${gov.slug}`,
+                'x-default': `https://cairovolt.com/locations/${gov.slug}`,
             },
         },
         openGraph: {

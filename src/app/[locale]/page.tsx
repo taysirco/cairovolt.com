@@ -266,7 +266,7 @@ export default function Home() {
             ].map((item) => (
               <Link
                 key={item.slug}
-                href={`${isRTL ? '' : '/en'}/${item.brand}/${item.category}/${item.slug}`}
+                href={`${isRTL ? '' : '/en'}/${item.brand.toLowerCase()}/${item.category}/${item.slug}`}
                 className="group p-3 md:p-4 rounded-xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-lg hover:border-gray-200 dark:hover:border-gray-700 transition-all"
               >
                 <div className={`w-full aspect-square rounded-lg bg-gradient-to-br ${item.color} mb-2 md:mb-3 flex items-center justify-center`}>

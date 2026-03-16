@@ -146,8 +146,7 @@ export default function Header() {
                                         href={getLocalizedHref('/anker')}
                                         className="flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg transition-colors"
                                     >
-                                        {isRTL ? 'عرض الكل' : 'View All'}
-                                        <span>→</span>
+                                    {isRTL ? '← عرض الكل' : 'View All →'}
                                     </Link>
                                 </div>
                             </div>
@@ -184,8 +183,7 @@ export default function Header() {
                                         href={getLocalizedHref('/joyroom')}
                                         className="flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-lg transition-colors"
                                     >
-                                        {isRTL ? 'عرض الكل' : 'View All'}
-                                        <span>→</span>
+                                    {isRTL ? '← عرض الكل' : 'View All →'}
                                     </Link>
                                 </div>
                             </div>
@@ -214,13 +212,6 @@ export default function Header() {
 
                     {/* Actions */}
                     <div className="flex items-center gap-1 sm:gap-3">
-                        {/* Search Button */}
-                        <button className="p-2 sm:p-2.5 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-colors touch-target">
-                            <svg className="w-5 h-5 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </button>
-
                         {/* Cart Button */}
                         <button
                             onClick={() => setIsOpen(true)}
@@ -262,6 +253,8 @@ export default function Header() {
                         <button
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             className="lg:hidden p-2 sm:p-2.5 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-colors touch-target"
+                            aria-expanded={mobileMenuOpen}
+                            aria-label={isRTL ? 'القائمة' : 'Menu'}
                         >
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 {mobileMenuOpen ? (

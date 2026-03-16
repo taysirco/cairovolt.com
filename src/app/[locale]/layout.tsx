@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Cairo, Outfit } from "next/font/google";
 import "../globals.css"; // Corrected path
 import Script from 'next/script';
-import { headers } from 'next/headers';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider } from 'next-intl';
@@ -87,7 +86,6 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const headersList = await headers();
   const messages = await getMessages();
 
   return (
@@ -110,12 +108,17 @@ export default async function RootLayout({
             __html: `
               (function() {
                 try {
-                  var currentHour = new Date().getHours();
-                  var isNight = currentHour >= 18 || currentHour < 6;
-                  if (isNight) {
+                  var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+                  if (mq && mq.matches) {
                     document.documentElement.classList.add('dark');
                   } else {
-                    document.documentElement.classList.remove('dark');
+                    var currentHour = new Date().getHours();
+                    var isNight = currentHour >= 18 || currentHour < 6;
+                    if (isNight) {
+                      document.documentElement.classList.add('dark');
+                    } else {
+                      document.documentElement.classList.remove('dark');
+                    }
                   }
                 } catch (e) {}
               })();
@@ -144,11 +147,11 @@ export default async function RootLayout({
               </main>
               <Footer />
               <LazyClientComponents locale={locale} />
+              <InteractiveEffects />
             </div>
           </CartProvider>
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <SpeculationRules />}
-        <InteractiveEffects />
         {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
         <Script
           id="statcounter-config"

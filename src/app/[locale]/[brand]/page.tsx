@@ -118,7 +118,7 @@ export default async function BrandHubPage({ params }: Props) {
             <BreadcrumbSchema
                 items={[
                     { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isRTL ? '' : '/en'}` },
-                    { name: data.hero.title, url: `https://cairovolt.com${isRTL ? '' : '/en'}/${brand}` },
+                    { name: data.hero.title, url: `https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}` },
                 ]}
                 locale={locale}
             />

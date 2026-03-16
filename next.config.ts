@@ -148,6 +148,7 @@ const nextConfig = {
 
             // === Non-existent Joyroom cables → Cables category ===
             { source: '/Joyroom/joyroom-usb-a-lightning-cable', destination: '/joyroom/cables', permanent: true },
+            { source: '/en/Joyroom/joyroom-usb-a-lightning-cable', destination: '/en/joyroom/cables', permanent: true },
             { source: '/Joyroom/joyroom-type-c-lightning-24mos', destination: '/joyroom/cables', permanent: true },
             { source: '/Joyroom/joyroom-usb-a-type-c-1.2m', destination: '/joyroom/cables', permanent: true },
             { source: '/Joyroom/joyroom-usb-a-lightning-1.2m', destination: '/joyroom/cables', permanent: true },

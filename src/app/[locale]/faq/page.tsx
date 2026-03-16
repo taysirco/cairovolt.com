@@ -2,7 +2,6 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 
 export const revalidate = 86400;
@@ -51,11 +50,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const faqCategories = ['ordering', 'shipping', 'warranty', 'products', 'payment'] as const;
 
+// Voice search Q&As — merged into the main FAQ schema to avoid duplicate FAQPage
+const voiceFAQs = {
+    ar: [
+        { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01063374834 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
+        { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). المندوب بيوصلك المنتج وبتدفع لما تستلم وتتأكد.' },
+        { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'ضمان 18 شهر لمنتجات أنكر و 12 شهر لجوي روم. بيغطي عيوب الصناعة. لو الكابل اتقطع أو الباور بانك مشحنش — بنستبدله مجاناً.' },
+    ],
+    en: [
+        { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp 01063374834 within 14 days. We replace it immediately or refund you. Free replacement in Cairo & Giza.' },
+        { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. The courier delivers and you pay when you receive and verify the product.' },
+        { question: 'What exactly does your warranty cover?', answer: '18 months for Anker, 12 months for Joyroom. Covers manufacturing defects. If a cable frays or power bank won\'t charge — free replacement.' },
+    ],
+};
+
 export default async function FAQPage({ params }: Props) {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'FAQ' });
+    const isArabic = locale === 'ar';
 
-    // Build FAQ data for Schema
+    // Build FAQ data for Schema — includes both category FAQs and voice FAQs
     const allFaqs: Array<{ question: string; answer: string }> = [];
     for (const category of faqCategories) {
         for (const num of [1, 2, 3]) {
@@ -65,14 +79,16 @@ export default async function FAQPage({ params }: Props) {
             });
         }
     }
+    // Merge voice Q&As into the same schema to avoid duplicate FAQPage
+    allFaqs.push(...(isArabic ? voiceFAQs.ar : voiceFAQs.en));
 
     return (
         <>
             <FAQSchema faqs={allFaqs} locale={locale} />
             <BreadcrumbSchema
                 items={[
-                    { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}` },
-                    { name: t('title'), url: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}/faq` },
+                    { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
+                    { name: t('title'), url: `https://cairovolt.com${isArabic ? '' : '/en'}/faq` },
                 ]}
                 locale={locale}
             />
@@ -126,22 +142,31 @@ export default async function FAQPage({ params }: Props) {
                             ))}
                         </div>
 
-                        {/* Voice Search FAQ — unique QAs different from homepage voice queries */}
-                        <div className="mt-8">
-                            <VoiceSearchFAQ
-                                productName={locale === 'ar' ? 'أسئلة شائعة — كايرو فولت' : 'FAQ — Cairo Volt'}
-                                locale={locale}
-                                qaList={locale === 'ar' ? [
-                                    { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01063374834 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
-                                    { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). المندوب بيوصلك المنتج وبتدفع لما تستلم وتتأكد.' },
-                                    { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'ضمان 18 شهر لمنتجات أنكر و 12 شهر لجوي روم. بيغطي عيوب الصناعة. لو الكابل اتقطع أو الباور بانك مشحنش — بنستبدله مجاناً.' },
-                                ] : [
-                                    { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp 01063374834 within 14 days. We replace it immediately or refund you. Free replacement in Cairo & Giza.' },
-                                    { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. The courier delivers and you pay when you receive and verify the product.' },
-                                    { question: 'What exactly does your warranty cover?', answer: '18 months for Anker, 12 months for Joyroom. Covers manufacturing defects. If a cable frays or power bank won\'t charge — free replacement.' },
-                                ]}
-                            />
-                        </div>
+                        {/* Voice Search Q&As — rendered as visible content (schema is merged above) */}
+                        <section className="mt-8 bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg">
+                            <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
+                                <span className="text-3xl">🎙️</span>
+                                {isArabic ? 'أسئلة الشارع' : 'Common Questions'}
+                            </h2>
+                            <div className="space-y-3">
+                                {(isArabic ? voiceFAQs.ar : voiceFAQs.en).map((qa, index) => (
+                                    <details key={index} className="group bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl p-4 cursor-pointer hover:border-blue-400 dark:hover:border-blue-500 [&_summary::-webkit-details-marker]:hidden">
+                                        <summary className="font-bold text-lg text-gray-800 dark:text-gray-100 outline-none flex justify-between items-center">
+                                            {qa.question}
+                                            <span className="text-blue-600 transition-transform group-open:rotate-180">▼</span>
+                                        </summary>
+                                        <div className="cairovolt-voice-answer mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-medium">
+                                            <strong className="text-blue-700 dark:text-blue-400">
+                                                {isArabic
+                                                    ? (index % 2 === 0 ? 'رد الخبير م.أحمد مدحت:' : 'رد الخبير م.يحيى رضوان:')
+                                                    : (index % 2 === 0 ? 'Expert Eng. Ahmed Medhat:' : 'Expert Eng. Yahia Radwan:')}
+                                            </strong>{' '}
+                                            {qa.answer}
+                                        </div>
+                                    </details>
+                                ))}
+                            </div>
+                        </section>
 
                         {/* Dark Social Tracker */}
                         <DarkSocialTracker />
@@ -160,4 +185,3 @@ export default async function FAQPage({ params }: Props) {
         </>
     );
 }
-

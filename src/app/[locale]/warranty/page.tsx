@@ -1,4 +1,3 @@
-import { useTranslations, useLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
@@ -47,9 +46,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-export default function WarrantyPage() {
-    const t = useTranslations('Warranty');
-    const locale = useLocale();
+export default async function WarrantyPage({ params }: Props) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'Warranty' });
     const isArabic = locale === 'ar';
 
     return (
