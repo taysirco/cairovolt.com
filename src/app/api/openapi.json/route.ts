@@ -267,7 +267,7 @@ export async function GET() {
                         slug: { type: 'string', description: 'Product URL slug (one of sku/slug required)' },
                         quantity: { type: 'integer', default: 1, minimum: 1 },
                         customerName: { type: 'string', description: 'Customer full name' },
-                        phone: { type: 'string', description: 'Phone number (e.g., +201063374834)' },
+                        phone: { type: 'string', description: 'Phone number (e.g., +201558245974)' },
                         whatsapp: { type: 'string', description: 'WhatsApp number (defaults to phone)' },
                         address: { type: 'string', description: 'Full delivery address' },
                         city: { type: 'string', description: 'City or governorate code' },

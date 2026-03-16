@@ -37,16 +37,13 @@ export async function GET(req: NextRequest) {
 
     let credential: SignedCredential | null = null;
 
-    // 1. Try Firestore first
+    // 1. Try Firestore first (direct doc lookup — O(1))
     try {
         const db = await getFirestore();
-        const snapshot = await db.collection('products')
-            .where('slug', '==', slug)
-            .limit(1)
-            .get();
+        const doc = await db.collection('products').doc(slug).get();
 
-        if (!snapshot.empty) {
-            const data = snapshot.docs[0].data();
+        if (doc.exists) {
+            const data = doc.data()!;
             credential = (data.contentCredentials as SignedCredential) || null;
         }
     } catch {

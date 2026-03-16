@@ -23,6 +23,20 @@ export async function GET(req: NextRequest) {
     try {
         // 1. Try Firestore First
         const db = await getFirestore();
+
+        // Fast path: single product by slug uses direct doc lookup (O(1) vs query)
+        if (slug && !brand && !category && !status && !search) {
+            const doc = await db.collection('products').doc(slug).get();
+            if (doc.exists) {
+                return NextResponse.json({
+                    items: [{ id: doc.id, ...doc.data() }],
+                    pagination: { page: 1, limit: 1, total: 1, totalPages: 1 },
+                    source: 'firebase'
+                });
+            }
+            // Doc not found by slug-ID — fall through to query or static fallback
+        }
+
         let query: Query = db.collection('products');
 
         // Apply filters
@@ -39,17 +53,8 @@ export async function GET(req: NextRequest) {
             query = query.where('slug', '==', slug);
         }
 
-        // Order by creation date
-        query = query.orderBy('createdAt', 'desc');
-
-        // Execute query
+        // Execute query (no orderBy to avoid requiring composite indexes on seeded data)
         const snapshot = await query.get();
-
-        // If Firestore connects but returns empty (and we aren't searching/filtering narrowly), 
-        // we might consider fallback, but usually empty means empty. 
-        // However, if the collection is empty because of a migration issue, fallback might be nice.
-        // For now, let's treat successful empty query as valid result, UNLESS we expect data.
-        // But simpler to just rely on "error -> fallback".
 
         let products = snapshot.docs.map(doc => ({
             id: doc.id,
@@ -167,12 +172,10 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
         }
 
-        // Check slug uniqueness
-        const existingSlug = await db.collection('products')
-            .where('slug', '==', data.slug)
-            .get();
+        // Check slug uniqueness via direct doc lookup (slug = doc ID)
+        const existingDoc = await db.collection('products').doc(data.slug).get();
 
-        if (!existingSlug.empty) {
+        if (existingDoc.exists) {
             return NextResponse.json({ error: 'Slug already exists' }, { status: 400 });
         }
 
@@ -267,14 +270,16 @@ export async function POST(req: NextRequest) {
             console.warn('Content credentials signing skipped (keys not configured):', signingErr);
         }
 
-        const docRef = await db.collection('products').add({
+        // Use slug as doc ID for consistency with seeding script
+        const docRef = db.collection('products').doc(data.slug);
+        await docRef.set({
             ...productData,
             ...(contentCredentials ? { contentCredentials } : {}),
         });
 
         return NextResponse.json({
             success: true,
-            id: docRef.id,
+            id: data.slug,
             contentCredentialsSigned: contentCredentials !== null,
             ...productData,
         });

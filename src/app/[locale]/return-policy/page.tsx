@@ -191,7 +191,7 @@ export default function ReturnPolicyPage() {
                                 <h2 className="text-2xl font-bold mb-3">{t('contact.title')}</h2>
                                 <p className="mb-5 opacity-90">{t('contact.description')}</p>
                                 <a
-                                    href="https://wa.me/201063374834"
+                                    href="https://wa.me/201558245974"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 bg-white text-orange-600 font-bold px-8 py-3 rounded-full hover:bg-orange-50 transition-colors shadow-md"

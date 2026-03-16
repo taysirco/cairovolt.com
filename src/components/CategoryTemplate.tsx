@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useMemo, useState, useTransition } from 'react';
-import Image from 'next/image';
+import { VerifiedVisionImage } from '@/components/ui/VerifiedVisionImage';
 import dynamic from 'next/dynamic';
 import { CategorySeoData, FAQItem, BuyingGuideSection, TrustSignal, SoundcoreData, PowerBankData } from '@/data/category-seo';
 import { BreadcrumbSchema } from './schemas/ProductSchema';
@@ -323,13 +323,16 @@ export default function CategoryTemplate({
                             {/* Product Image */}
                             <div className="w-full aspect-square bg-white relative overflow-hidden">
                                 {product.image ? (
-                                    <Image
+                                    <VerifiedVisionImage
                                         src={product.image}
                                         alt={product.name}
+                                        slug={product.slug}
                                         fill
                                         loading={idx < 4 ? 'eager' : 'lazy'}
                                         sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                                        className="object-contain p-2 group-hover:scale-105 transition-transform"
+                                        imageClassName="object-contain p-2 group-hover:scale-105 transition-transform"
+                                        locale={locale}
+                                        lightweight
                                     />
                                 ) : (
                                     <div className="absolute inset-0 flex items-center justify-center">
@@ -760,7 +763,7 @@ export default function CategoryTemplate({
                             : 'Contact us on WhatsApp for the best deals'}
                     </p>
                     <a
-                        href="https://wa.me/201063374834"
+                        href="https://wa.me/201558245974"
                         className="inline-block px-8 py-3 bg-white text-gray-900 font-bold rounded-full hover:bg-gray-100 transition-colors"
                     >
                         {locale === 'ar' ? 'تواصل معنا' : 'Contact Us'}

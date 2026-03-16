@@ -18,6 +18,8 @@ interface ImageObjectSchemaProps {
     productCategory: string;
     locale: string;
     baseUrl?: string;
+    /** C2PA credential hash for content provenance */
+    c2paHash?: string;
 }
 
 /**
@@ -41,6 +43,7 @@ export function ImageObjectSchema({
     productCategory,
     locale,
     baseUrl = 'https://cairovolt.com',
+    c2paHash,
 }: ImageObjectSchemaProps) {
     const isArabic = locale === 'ar';
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${productBrand.toLowerCase()}/${productCategory.toLowerCase()}/${productSlug}`;
@@ -92,8 +95,10 @@ export function ImageObjectSchema({
             encodingFormat: 'image/webp',
             digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
             isFamilyFriendly: true,
-            creditText: 'CairoVolt',
-            copyrightNotice: `© ${year} CairoVolt - cairovolt.com`,
+            creditText: isArabic ? 'صورة أصلية موثقة — مختبر كايرو فولت، دمياط الجديدة' : 'Verified authentic photo — CairoVolt Lab, New Damietta',
+            copyrightNotice: c2paHash
+                ? `© ${year} CairoVolt — C2PA: ${c2paHash.slice(0, 16)}`
+                : `© ${year} CairoVolt - cairovolt.com`,
             creator: {
                 '@type': 'Organization',
                 name: isArabic ? 'كايرو فولت' : 'CairoVolt',
@@ -102,27 +107,38 @@ export function ImageObjectSchema({
             },
             contentLocation: {
                 '@type': 'Place',
-                name: isArabic ? 'مستودع كايرو فولت، القاهرة الجديدة' : 'CairoVolt Warehouse, New Cairo, Egypt',
+                name: isArabic ? 'مختبر كايرو فولت، دمياط الجديدة' : 'CairoVolt Lab, New Damietta, Egypt',
                 address: {
                     '@type': 'PostalAddress',
                     addressCountry: 'EG',
-                    addressLocality: isArabic ? 'القاهرة الجديدة' : 'New Cairo',
+                    addressLocality: isArabic ? 'دمياط الجديدة' : 'New Damietta',
                 },
                 geo: {
                     '@type': 'GeoCoordinates',
-                    latitude: 30.6997469,
-                    longitude: 31.2088556,
+                    latitude: 31.4346,
+                    longitude: 31.6741,
                 },
             },
             license: `${baseUrl}/en/return-policy`,
-            acquireLicensePage: productUrl,
+            acquireLicensePage: `${baseUrl}/api/v1/verify-content?slug=${productSlug}`,
             subjectOf: productSubject,
             exifData: [
                 { '@type': 'PropertyValue', name: 'DigitalSourceType', value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture' },
-                { '@type': 'PropertyValue', name: 'Creator', value: 'CairoVolt' },
+                { '@type': 'PropertyValue', name: 'Creator', value: 'CairoVolt Labs' },
                 { '@type': 'PropertyValue', name: 'Country', value: 'Egypt' },
-                { '@type': 'PropertyValue', name: 'City', value: 'Cairo' },
+                { '@type': 'PropertyValue', name: 'City', value: 'New Damietta' },
+                { '@type': 'PropertyValue', name: 'GPSLatitude', value: '31.4346° N' },
+                { '@type': 'PropertyValue', name: 'GPSLongitude', value: '31.6741° E' },
             ],
+            ...(c2paHash && {
+                contentCredential: {
+                    '@type': 'PropertyValue',
+                    name: 'C2PA Content Credential',
+                    value: c2paHash,
+                    description: 'Cryptographic content provenance hash (C2PA v1 compatible)',
+                    url: `${baseUrl}/api/v1/verify-content?slug=${productSlug}`,
+                },
+            }),
         };
     });
 

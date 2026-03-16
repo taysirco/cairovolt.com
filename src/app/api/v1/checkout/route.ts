@@ -157,12 +157,10 @@ export async function GET(req: NextRequest) {
                 product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
             }
         } else if (slug) {
-            const snapshot = await db.collection('products')
-                .where('slug', '==', slug)
-                .limit(1)
-                .get();
-            if (!snapshot.empty) {
-                product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
+            // Direct doc lookup — O(1) since slug = doc ID
+            const doc = await db.collection('products').doc(slug).get();
+            if (doc.exists) {
+                product = { id: doc.id, ...doc.data() };
             }
         } else if (search) {
             product = await smartSearch(search, db);
@@ -313,23 +311,25 @@ export async function POST(req: NextRequest) {
         const identifier = data.sku || data.slug;
 
         // Try by SKU first
-        let snapshot = await db.collection('products')
+        const snapshot = await db.collection('products')
             .where('sku', '==', identifier)
             .limit(1)
             .get();
 
-        if (snapshot.empty) {
-            // Try by slug
-            snapshot = await db.collection('products')
-                .where('slug', '==', identifier)
-                .limit(1)
-                .get();
-        }
-
         if (!snapshot.empty) {
             product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
-        } else {
-            // Fallback: static data
+        }
+
+        // Try by slug — direct doc lookup (O(1))
+        if (!product) {
+            const doc = await db.collection('products').doc(identifier).get();
+            if (doc.exists) {
+                product = { id: doc.id, ...doc.data() };
+            }
+        }
+
+        // Fallback: static data
+        if (!product) {
             const staticMatch = staticProducts.find(p => p.sku === identifier || p.slug === identifier);
             if (staticMatch) {
                 product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
@@ -434,8 +434,8 @@ export async function POST(req: NextRequest) {
                 },
             },
             tracking: {
-                whatsapp: 'https://wa.me/201063374834',
-                phone: '+201063374834',
+                whatsapp: 'https://wa.me/201558245974',
+                phone: '+201558245974',
             },
         });
 

@@ -31,19 +31,25 @@ export async function POST(req: NextRequest) {
 
     try {
         const db = await getFirestore();
-        let query = db.collection('products') as FirebaseFirestore.Query;
-        if (slugFilter) query = query.where('slug', '==', slugFilter);
 
-        const snapshot = await query.get();
+        // Single product: direct doc lookup (O(1))
+        let docs: FirebaseFirestore.QueryDocumentSnapshot[];
+        if (slugFilter) {
+            const doc = await db.collection('products').doc(slugFilter).get();
+            docs = doc.exists ? [doc as unknown as FirebaseFirestore.QueryDocumentSnapshot] : [];
+        } else {
+            const snapshot = await db.collection('products').get();
+            docs = snapshot.docs;
+        }
 
         let signed = 0;
         let skipped = 0;
         const errors: string[] = [];
 
-        const batch = db.batch();
+        let batch = db.batch();
         let batchOps = 0;
 
-        for (const doc of snapshot.docs) {
+        for (const doc of docs) {
             const data = doc.data();
 
             if (data.contentCredentials && !force) {
@@ -66,9 +72,10 @@ export async function POST(req: NextRequest) {
                 batchOps++;
                 signed++;
 
-                // Firestore batch limit is 500
-                if (batchOps === 490) {
+                // Firestore batch limit is 500 — commit and create a NEW batch
+                if (batchOps >= 490) {
                     await batch.commit();
+                    batch = db.batch(); // ← critical: must create new batch after commit
                     batchOps = 0;
                 }
             } catch (err) {
@@ -82,7 +89,7 @@ export async function POST(req: NextRequest) {
 
         return NextResponse.json({
             success: true,
-            total: snapshot.size,
+            total: docs.length,
             signed,
             skipped,
             errors: errors.length > 0 ? errors : undefined,

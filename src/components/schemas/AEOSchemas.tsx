@@ -379,7 +379,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         url: 'https://cairovolt.com',
         logo: 'https://cairovolt.com/logo.png',
         image: 'https://cairovolt.com/cairovolt_logo.png',
-        telephone: '+201063374834',
+        telephone: '+201558245974',
         email: 'support@cairovolt.com',
         currenciesAccepted: 'EGP',
         paymentAccepted: ['Cash on Delivery', 'الدفع عند الاستلام'],

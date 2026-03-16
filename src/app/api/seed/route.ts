@@ -14,30 +14,21 @@ export async function POST(req: NextRequest) {
         let productsAdded = 0;
         const errors: string[] = [];
 
-        // Seed Categories first
+        // Seed Categories first (using slug as doc ID for consistency)
         console.log('Seeding categories...');
         for (const category of categories) {
             try {
-                // Check if category already exists
-                const existing = await db.collection('categories')
-                    .where('slug', '==', category.slug)
-                    .limit(1)
-                    .get();
+                const docRef = db.collection('categories').doc(category.slug);
+                const existing = await docRef.get();
 
-                if (existing.empty || force) {
-                    if (!existing.empty && force) {
-                        // Delete existing
-                        const docId = existing.docs[0].id;
-                        await db.collection('categories').doc(docId).delete();
-                    }
-
-                    await db.collection('categories').add({
+                if (!existing.exists || force) {
+                    await docRef.set({
                         ...category,
-                        createdAt: FieldValue.serverTimestamp(),
+                        createdAt: existing.exists ? existing.data()?.createdAt : FieldValue.serverTimestamp(),
                         updatedAt: FieldValue.serverTimestamp(),
-                    });
+                    }, { merge: true });
                     categoriesAdded++;
-                    console.log(`[OK] Added category: ${category.translations?.ar?.name || category.slug}`);
+                    console.log(`[OK] ${existing.exists ? 'Updated' : 'Added'} category: ${category.translations?.ar?.name || category.slug}`);
                 } else {
                     console.log(`[SKIP] Skipped category: ${category.slug} (exists)`);
                 }
@@ -48,30 +39,21 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // Seed Products
+        // Seed Products (using slug as doc ID for consistency)
         console.log('Seeding products...');
         for (const product of products) {
             try {
-                // Check if product already exists
-                const existing = await db.collection('products')
-                    .where('slug', '==', product.slug)
-                    .limit(1)
-                    .get();
+                const docRef = db.collection('products').doc(product.slug);
+                const existing = await docRef.get();
 
-                if (existing.empty || force) {
-                    if (!existing.empty && force) {
-                        // Delete existing
-                        const docId = existing.docs[0].id;
-                        await db.collection('products').doc(docId).delete();
-                    }
-
-                    await db.collection('products').add({
+                if (!existing.exists || force) {
+                    await docRef.set({
                         ...product,
-                        createdAt: FieldValue.serverTimestamp(),
+                        createdAt: existing.exists ? existing.data()?.createdAt : FieldValue.serverTimestamp(),
                         updatedAt: FieldValue.serverTimestamp(),
-                    });
+                    }, { merge: true });
                     productsAdded++;
-                    console.log(`[OK] Added product: ${product.translations?.ar?.name || product.slug}`);
+                    console.log(`[OK] ${existing.exists ? 'Updated' : 'Added'} product: ${product.translations?.ar?.name || product.slug}`);
                 } else {
                     console.log(`[SKIP] Skipped product: ${product.slug} (exists)`);
                 }
@@ -82,18 +64,15 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // Update category product counts
+        // Update category product counts (direct doc reference, no query needed)
         console.log('Updating category product counts...');
         const categorySlugs = [...new Set(products.map(p => p.categorySlug))];
         for (const slug of categorySlugs) {
             const count = products.filter(p => p.categorySlug === slug).length;
-            const catQuery = await db.collection('categories')
-                .where('slug', '==', slug)
-                .limit(1)
-                .get();
-
-            if (!catQuery.empty) {
-                await catQuery.docs[0].ref.update({ productCount: count });
+            const catRef = db.collection('categories').doc(slug);
+            const catDoc = await catRef.get();
+            if (catDoc.exists) {
+                await catRef.update({ productCount: count });
             }
         }
 

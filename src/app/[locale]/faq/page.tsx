@@ -53,12 +53,12 @@ const faqCategories = ['ordering', 'shipping', 'warranty', 'products', 'payment'
 // Voice search Q&As — merged into the main FAQ schema to avoid duplicate FAQPage
 const voiceFAQs = {
     ar: [
-        { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01063374834 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
+        { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01558245974 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
         { question: 'هل بتقبلوا الدفع فودافون كاش أو إنستاباي؟', answer: 'حالياً الدفع عند الاستلام كاش فقط (COD). المندوب بيوصلك المنتج وبتدفع لما تستلم وتتأكد.' },
         { question: 'الضمان بتاعكم بيغطي إيه بالظبط؟', answer: 'ضمان 18 شهر لمنتجات أنكر و 12 شهر لجوي روم. بيغطي عيوب الصناعة. لو الكابل اتقطع أو الباور بانك مشحنش — بنستبدله مجاناً.' },
     ],
     en: [
-        { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp 01063374834 within 14 days. We replace it immediately or refund you. Free replacement in Cairo & Giza.' },
+        { question: 'What if my product arrives damaged?', answer: 'Contact us on WhatsApp 01558245974 within 14 days. We replace it immediately or refund you. Free replacement in Cairo & Giza.' },
         { question: 'Do you accept Vodafone Cash or InstaPay?', answer: 'Currently we accept Cash on Delivery (COD) only. The courier delivers and you pay when you receive and verify the product.' },
         { question: 'What exactly does your warranty cover?', answer: '18 months for Anker, 12 months for Joyroom. Covers manufacturing defects. If a cable frays or power bank won\'t charge — free replacement.' },
     ],

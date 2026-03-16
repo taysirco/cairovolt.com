@@ -12,14 +12,15 @@ export async function GET() {
     const db = await getFirestore();
 
     try {
-        const snapshot = await db.collection('categories')
-            .orderBy('order', 'asc')
-            .get();
+        // Fetch all categories (no orderBy to avoid excluding seeded docs without 'order' field)
+        const snapshot = await db.collection('categories').get();
 
-        const categories = snapshot.docs.map(doc => ({
-            id: doc.id,
-            ...doc.data()
-        }));
+        const categories = snapshot.docs
+            .map(doc => ({
+                id: doc.id,
+                ...doc.data()
+            }))
+            .sort((a: any, b: any) => (a.order ?? 999) - (b.order ?? 999));
 
         return NextResponse.json(categories);
     } catch (error) {
@@ -46,12 +47,10 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
         }
 
-        // Check slug uniqueness
-        const existingSlug = await db.collection('categories')
-            .where('slug', '==', data.slug)
-            .get();
+        // Check slug uniqueness via direct doc lookup (slug = doc ID)
+        const existingDoc = await db.collection('categories').doc(data.slug).get();
 
-        if (!existingSlug.empty) {
+        if (existingDoc.exists) {
             return NextResponse.json({ error: 'Slug already exists' }, { status: 400 });
         }
 
@@ -93,11 +92,12 @@ export async function POST(req: NextRequest) {
             updatedAt: FieldValue.serverTimestamp(),
         };
 
-        const docRef = await db.collection('categories').add(categoryData);
+        // Use slug as doc ID for consistency with seeding script
+        await db.collection('categories').doc(data.slug).set(categoryData);
 
         return NextResponse.json({
             success: true,
-            id: docRef.id,
+            id: data.slug,
             ...categoryData
         });
     } catch (error) {

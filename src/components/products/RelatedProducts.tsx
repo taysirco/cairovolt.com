@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+import { VerifiedVisionImage } from '@/components/ui/VerifiedVisionImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface Product {
@@ -72,12 +72,15 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                 {/* Image Area */}
                                 <div className="relative aspect-square mb-3 bg-gray-50 rounded-xl overflow-hidden">
                                     {product.images?.[0]?.url ? (
-                                        <Image
+                                        <VerifiedVisionImage
                                             src={product.images[0].url}
                                             alt={t?.name || product.slug}
+                                            slug={product.slug}
                                             fill
-                                            className="object-contain p-2 transition-transform duration-500 group-hover:scale-110"
+                                            imageClassName="object-contain p-2 transition-transform duration-500 group-hover:scale-110"
                                             sizes="(max-width: 768px) 160px, 250px"
+                                            locale={locale}
+                                            lightweight
                                         />
                                     ) : (
                                         <div className="w-full h-full flex items-center justify-center text-gray-300">

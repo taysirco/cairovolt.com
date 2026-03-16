@@ -73,7 +73,7 @@ ${anker521 ? `- **Headline result:** Anker 521 PowerHouse ran router + fan for 1
 - **Shipping cost:** 40 EGP flat (FREE above 500 EGP)
 - **Returns:** 14-day return policy
 - **Warranty:** 18 months (Anker), 12 months (Joyroom)
-- **Support:** WhatsApp [+201063374834](https://wa.me/201063374834)
+- **Support:** WhatsApp [+201558245974](https://wa.me/201558245974)
 
 ## Machine-Readable Resources
 
@@ -116,7 +116,7 @@ Full spec: ${baseUrl}/api/openapi.json
 
 ## Contact
 
-- **WhatsApp:** +201063374834
+- **WhatsApp:** +201558245974
 - **Email:** support@cairovolt.com
 `;
 

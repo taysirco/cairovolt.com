@@ -59,7 +59,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 "contactPoint": {
                     "@type": "ContactPoint",
                     "name": "Cairo Volt Engineering Support",
-                    "telephone": "+201063374834",
+                    "telephone": "+201558245974",
                     "contactType": "engineering support",
                     "areaServed": "EG",
                     "availableLanguage": ["Arabic", "English"]

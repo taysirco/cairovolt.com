@@ -51,14 +51,10 @@ export async function PUT(
             return NextResponse.json({ error: 'Category not found' }, { status: 404 });
         }
 
-        // Check slug uniqueness if changed
-        if (data.slug) {
-            const existingSlug = await db.collection('categories')
-                .where('slug', '==', data.slug)
-                .get();
-
-            const otherWithSlug = existingSlug.docs.find(d => d.id !== id);
-            if (otherWithSlug) {
+        // Check slug uniqueness if changed (slug = doc ID, so check if target doc exists)
+        if (data.slug && data.slug !== id) {
+            const existingDoc = await db.collection('categories').doc(data.slug).get();
+            if (existingDoc.exists) {
                 return NextResponse.json({ error: 'Slug already exists' }, { status: 400 });
             }
         }

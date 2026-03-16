@@ -12,7 +12,7 @@ export interface ProductSEOEnhancement {
     };
 }
 
-const enhancements: Record<string, ProductSEOEnhancement> = {
+export const enhancements: Record<string, ProductSEOEnhancement> = {
     'anker-soundcore-motion-plus': {
         aiTldr: {
             en: ['30W Hi-Res certified sound with deep bass', 'IPX7 fully waterproof — pool & shower safe', '12-hour battery life on single charge', 'Customizable EQ via Soundcore app', '✅ CairoVolt: Ain Sokhna beach test — IPX7 1m/30min + 8h rooftop at 41°C with zero shutdown'],

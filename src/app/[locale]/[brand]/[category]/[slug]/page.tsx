@@ -109,25 +109,23 @@ async function getProduct(slug: string): Promise<Product | null> {
         } as Product;
     }
 
-    // Then try Firebase
+    // Then try Firebase (direct doc lookup using slug as doc ID — O(1))
     try {
         const db = await getFirestore();
         if (!db) return null;
 
-        const snapshot = await db.collection('products')
-            .where('slug', '==', slug)
-            .limit(1)
-            .get();
+        const docRef = db.collection('products').doc(slug);
+        const doc = await docRef.get();
 
-        if (snapshot.empty) return null;
+        if (!doc.exists) return null;
 
-        const docData = snapshot.docs[0].data();
+        const docData = doc.data()!;
         // If Firestore product has no credentials yet, sign on-the-fly
         if (!docData.contentCredentials) {
             const name = (docData.translations?.en?.name as string | undefined) || slug;
             docData.contentCredentials = await trySignProduct(name);
         }
-        return { id: snapshot.docs[0].id, ...docData } as Product;
+        return { id: doc.id, ...docData } as Product;
     } catch (error) {
         console.warn(`Failed to fetch product ${slug} from Firebase`, error);
         return null;
@@ -264,6 +262,10 @@ export default async function ProductPage({ params }: Props) {
     const productDescription = product.translations?.[locale as 'ar' | 'en']?.description || product.translations?.en?.description || '';
     const isArabic = locale === 'ar';
 
+    // C2PA content credential for Google Lens trust signals
+    const contentCredential = await trySignProduct(productName);
+    const c2paHash = contentCredential?.signature ? String(contentCredential.signature).slice(0, 32) : undefined;
+
     // CairoVolt Labs first-party test data (Information Gain)
     const labInfo = getLabData(slug);
 
@@ -380,6 +382,7 @@ export default async function ProductPage({ params }: Props) {
                     productPrice={product.price || 0}
                     productCategory={category}
                     locale={locale}
+                    c2paHash={c2paHash}
                 />
             )}
 

@@ -142,7 +142,7 @@ export default function InteractiveEffects() {
                 ? '🔋 لسه بتدور؟ كلّمنا على واتساب — هنساعدك تختار الأنسب!'
                 : '🔋 Still browsing? Chat with us on WhatsApp — we\'ll help you choose!'}
                 </p>
-                <a href="https://wa.me/201063374834"
+                <a href="https://wa.me/201558245974"
                    target="_blank"
                    rel="nofollow noopener noreferrer"
                    class="cv-exit-btn">

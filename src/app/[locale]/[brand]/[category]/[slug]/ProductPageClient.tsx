@@ -570,7 +570,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         {isRTL ? 'تواصل معنا عبر واتساب لمعرفة موعد التوفر' : 'Contact us via WhatsApp to know when it\'s back'}
                                     </p>
                                     <a
-                                        href={`https://wa.me/201063374834?text=${encodeURIComponent(
+                                        href={`https://wa.me/201558245974?text=${encodeURIComponent(
                                             isRTL
                                                 ? `مرحباً، أريد أن أعرف متى سيتوفر: ${productName}`
                                                 : `Hi, I want to know when this will be available: ${productName}`

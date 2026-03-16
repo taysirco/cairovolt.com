@@ -78,8 +78,8 @@ export default function Header() {
                             <span className="flex items-center gap-1"><SvgIcon name="truck" className="w-3.5 h-3.5" /> {isRTL ? 'شحن سريع لجميع المحافظات' : 'Fast Shipping Nationwide'}</span>
                         </div>
                         <div className="flex items-center gap-4">
-                            <a href="tel:+201063374834" className="hover:underline">
-                                <SvgIcon name="phone" className="w-3.5 h-3.5 inline-block" /> 01063374834
+                            <a href="tel:+201558245974" className="hover:underline">
+                                <SvgIcon name="phone" className="w-3.5 h-3.5 inline-block" /> 01558245974
                             </a>
                             <Link
                                 href={getSwitchPath()}
@@ -238,7 +238,7 @@ export default function Header() {
 
                         {/* WhatsApp Button */}
                         <a
-                            href="https://wa.me/201063374834"
+                            href="https://wa.me/201558245974"
                             target="_blank"
                             rel="nofollow noopener noreferrer"
                             className="hidden md:flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium rounded-xl transition-colors"
@@ -414,7 +414,7 @@ export default function Header() {
                             {/* Contact */}
                             <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
                                 <a
-                                    href="https://wa.me/201063374834"
+                                    href="https://wa.me/201558245974"
                                     target="_blank"
                                     rel="nofollow noopener noreferrer"
                                     className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-green-500 text-white font-medium rounded-xl"

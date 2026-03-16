@@ -92,7 +92,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                 ],
                 contactPoint: {
                     '@type': 'ContactPoint',
-                    telephone: '+201063374834',
+                    telephone: '+201558245974',
                     contactType: 'customer service',
                     areaServed: 'EG',
                     availableLanguage: ['en', 'ar'],

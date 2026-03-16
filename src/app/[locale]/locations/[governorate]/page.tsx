@@ -516,7 +516,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                             {governorates.map((g) => (
                                 <Link
                                     key={g.slug}
-                                    href={`/${locale}/locations/${g.slug}`}
+                                    href={`${locale === 'ar' ? '' : '/en'}/locations/${g.slug}`}
                                     className={`px-3 py-1.5 rounded-full text-xs transition-all ${g.slug === gov.slug
                                         ? 'bg-blue-600 text-white font-bold'
                                         : 'bg-white dark:bg-gray-800/60 text-gray-600 dark:text-gray-400 hover:bg-blue-50 dark:hover:bg-gray-700/60 hover:text-blue-600 dark:hover:text-white border border-gray-200 dark:border-gray-700/30'

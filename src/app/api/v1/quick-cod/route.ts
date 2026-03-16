@@ -71,15 +71,13 @@ async function findProductBySKU(
         return { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
     }
 
-    // 2. Firestore — by slug (fallback for flexible AI agent input)
-    const slugSnap = await db.collection('products')
-        .where('slug', '==', sku)
-        .where('status', '==', 'active')
-        .limit(1)
-        .get();
-
-    if (!slugSnap.empty) {
-        return { id: slugSnap.docs[0].id, ...slugSnap.docs[0].data() };
+    // 2. Firestore — by slug direct lookup (fallback for flexible AI agent input)
+    const slugDoc = await db.collection('products').doc(sku).get();
+    if (slugDoc.exists) {
+        const data = slugDoc.data()!;
+        if (data.status === 'active') {
+            return { id: slugDoc.id, ...data };
+        }
     }
 
     // 3. Static catalog fallback (filter by active status to match Firestore behavior)
@@ -249,7 +247,7 @@ export async function POST(req: NextRequest) {
                 name: productName,
                 sku: product.sku,
             },
-            notify_url: `https://wa.me/201063374834?text=${encodeURIComponent(
+            notify_url: `https://wa.me/201558245974?text=${encodeURIComponent(
                 `أريد أن أعرف متى يتوفر: ${productName}`
             )}`,
         }, { status: 409 });
@@ -269,7 +267,7 @@ export async function POST(req: NextRequest) {
             error: 'Duplicate order detected within 24 hours',
             error_ar: 'يوجد طلب مسبق لنفس المنتج بنفس الرقم خلال آخر 24 ساعة',
             support: {
-                whatsapp: 'https://wa.me/201063374834',
+                whatsapp: 'https://wa.me/201558245974',
                 message_ar: 'تواصل معنا لمتابعة طلبك السابق',
             },
         }, { status: 409 });
@@ -392,8 +390,8 @@ export async function POST(req: NextRequest) {
             },
         },
         tracking: {
-            whatsapp: 'https://wa.me/201063374834',
-            phone: '+201063374834',
+            whatsapp: 'https://wa.me/201558245974',
+            phone: '+201558245974',
         },
     });
 }
