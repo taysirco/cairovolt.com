@@ -13,6 +13,7 @@ import { LiveLogisticsPulse, LivePulseSkeleton } from '@/components/products/Liv
 
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import TabTakeover from '@/components/UX/TabTakeover';
+import AuthenticityGuard from '@/components/UX/AuthenticityGuard';
 import { getLabData, getLabMetrics } from '@/data/cairovolt-labs';
 import { BostaTracker } from '@/lib/bosta';
 import { headers } from 'next/headers';
@@ -418,6 +419,7 @@ export default async function ProductPage({ params }: Props) {
             {/* Client-side UX components */}
             <DarkSocialTracker />
             <TabTakeover productName={productName} />
+            <AuthenticityGuard brand={brand} locale={locale} />
 
             <ProductPageClient
                 product={product}

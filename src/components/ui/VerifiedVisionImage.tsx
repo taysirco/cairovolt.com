@@ -82,14 +82,17 @@ export function VerifiedVisionImage({
         ? { src, alt, fill: true as const, sizes, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
         : { src, alt, width, height, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
 
-    // When fill=true, figure must fill its positioned parent via absolute positioning
-    const fillClasses = fill ? 'absolute inset-0' : '';
+    // When fill=true, the figure must:
+    //   1. Fill its parent container (w-full h-full) — parent provides dimensions via aspect-square
+    //   2. Be position:relative — so next/image fill can position:absolute inside it
+    // DO NOT use 'absolute inset-0' — it removes the figure from flow and causes dimension issues.
+    const positionClass = fill ? 'relative w-full h-full' : 'relative';
 
     // In lightweight mode (product cards), emit minimal microdata
     if (lightweight) {
         return (
             <figure
-                className={`relative overflow-hidden ${fillClasses} ${className}`}
+                className={`${positionClass} overflow-hidden ${className}`}
                 itemScope
                 itemType="https://schema.org/ImageObject"
             >
@@ -107,7 +110,7 @@ export function VerifiedVisionImage({
     // Full mode — product page hero/gallery images
     return (
         <figure
-            className={`relative group overflow-hidden ${fillClasses} ${className}`}
+            className={`${positionClass} group overflow-hidden ${className}`}
             itemScope
             itemType="https://schema.org/ImageObject"
         >

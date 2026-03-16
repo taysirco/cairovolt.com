@@ -91,3 +91,24 @@ html {
     gap: 0.5rem;
   }
 }
+
+/* Authenticity guard overlay animations */
+@keyframes cv-guard-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes cv-guard-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
