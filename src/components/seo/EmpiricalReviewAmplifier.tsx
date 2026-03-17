@@ -373,55 +373,9 @@ export default function EmpiricalReviewAmplifier({
                     {isArabic ? 'نتائج القياس الكمي (Quantitative Analysis)' : 'Quantitative Measurement Results'}
                 </h3>
 
-                {/* ─── Schema.org Review with proper positiveNotes/negativeNotes ItemList ── */}
-                <div
-                    className="grid sm:grid-cols-2 gap-3"
-                    itemProp="review"
-                    itemScope
-                    itemType="https://schema.org/Review"
-                >
-                    {/* FIX #4: datePublished — required by Google for valid Review */}
-                    <meta className="hidden" itemProp="datePublished" content={reviewDate} />
-
-                    {/* Review author: CairoVolt Engineering Team (Organization) */}
-                    <span className="sr-only" itemProp="author" itemScope itemType="https://schema.org/Organization">
-                        <meta itemProp="name" content="CairoVolt Engineering Team" />
-                        <meta itemProp="url" content="https://cairovolt.com" />
-                    </span>
-                    <span className="sr-only" itemProp="publisher" itemScope itemType="https://schema.org/Organization">
-                        <meta itemProp="name" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
-                    </span>
-
-                    {/* Review name & body */}
-                    <meta className="hidden" itemProp="name" content={`${isArabic ? 'اختبار معملي:' : 'Lab Test:'} ${productName}`} />
-                    <meta className="hidden" itemProp="reviewBody" content={nlpSchemaText} />
-
-                    {/* Review rating */}
-                    <span className="sr-only" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                        <meta itemProp="ratingValue" content="5" />
-                        <meta itemProp="bestRating" content="5" />
-                        <meta itemProp="worstRating" content="1" />
-                    </span>
-
-                    {/* FIX #3: positiveNotes as ItemList (Google-compliant structured positive findings) */}
-                    <span className="sr-only" itemProp="positiveNotes" itemScope itemType="https://schema.org/ItemList">
-                        {metricsDisplay.map((metric, idx) => (
-                            <span key={idx} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                                <meta itemProp="position" content={String(idx + 1)} />
-                                <meta itemProp="name" content={metric.schemaNote} />
-                            </span>
-                        ))}
-                    </span>
-
-                    {/* FIX #2: negativeNotes as ItemList (Google-compliant strategic flaw) */}
-                    <span className="sr-only" itemProp="negativeNotes" itemScope itemType="https://schema.org/ItemList">
-                        <span itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-                            <meta itemProp="position" content="1" />
-                            <meta itemProp="name" content={flawSchemaText} />
-                        </span>
-                    </span>
-
-                    {/* ─── Visual Metric Cards ──────────────────────────────────────────── */}
+                {/* ─── Visual Metric Cards ── */}
+                <div className="grid sm:grid-cols-2 gap-3">
+                    {/* Note: Review structured data is in JSON-LD via ProductSchema.tsx */}
                     {metricsDisplay.map((metric, idx) => (
                         <div
                             key={idx}

@@ -257,7 +257,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
             {/* Product Section */}
             <div className="container mx-auto px-4 py-4 md:py-8 max-w-full">
-                <article className="grid lg:grid-cols-2 gap-6 lg:gap-12 max-w-full overflow-hidden" itemScope itemType="https://schema.org/Product">
+                <article className="grid lg:grid-cols-2 gap-6 lg:gap-12 max-w-full overflow-hidden">
                     {/* Product Images */}
                     <div className="space-y-4">
                         {/* Main Image */}
