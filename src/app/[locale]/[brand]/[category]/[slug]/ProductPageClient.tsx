@@ -11,6 +11,7 @@ import { QuickSummary } from '@/components/seo/ProductGuides';
 import { CategoryOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
 import { useCart } from '@/context/CartContext';
 import LabTestBlock from '@/components/seo/LabTestBlock';
+import EmpiricalReviewAmplifier from '@/components/seo/EmpiricalReviewAmplifier';
 import TrustMatrix from '@/components/products/TrustMatrix';
 import type { RegionalStats } from '@/lib/bosta';
 import type { LabMetrics } from '@/data/cairovolt-labs';
@@ -682,6 +683,18 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
+                    {/* Empirical Review Amplifier — NLP-optimized quantitative metrics for Product Reviews Update */}
+                    {labMetrics && (
+                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
+                            <EmpiricalReviewAmplifier
+                                sku={product.slug}
+                                locale={locale}
+                                labMetrics={labMetrics}
+                                productName={productName}
+                            />
+                        </section>
+                    )}
+
                     {/* Trust Matrix — Exclusive Logistics + Lab Metrics */}
                     <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
                         <TrustMatrix
@@ -821,7 +834,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             <span>📊</span>
                             {tProduct('specifications')}
                         </h2>
-                        <table className="w-full text-sm md:text-base" itemScope itemType="https://schema.org/Product">
+                        <table className="w-full text-sm md:text-base">
                             <thead className="sr-only">
                                 <tr>
                                     <th>{isRTL ? 'المواصفة' : 'Specification'}</th>
@@ -831,17 +844,17 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
                                 <tr>
                                     <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('brand')}</td>
-                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white" itemProp="brand">{product.brand}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{product.brand}</td>
                                 </tr>
                                 {product.sku && (
                                     <tr>
                                         <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('sku')}</td>
-                                        <td className="py-4 font-bold font-mono text-end text-gray-900 dark:text-white" itemProp="sku">{product.sku}</td>
+                                        <td className="py-4 font-bold font-mono text-end text-gray-900 dark:text-white">{product.sku}</td>
                                     </tr>
                                 )}
                                 <tr>
                                     <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('category')}</td>
-                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white" itemProp="category">{translatedCategory}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{translatedCategory}</td>
                                 </tr>
                                 <tr>
                                     <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('warranty')}</td>

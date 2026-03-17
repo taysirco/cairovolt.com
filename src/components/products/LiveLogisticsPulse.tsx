@@ -65,13 +65,10 @@ export async function LiveLogisticsPulse({ sku, locale, brandColor = 'blue' }: L
 
             <div
                 className={`bg-gray-50 dark:bg-gray-950/80 border ${borderColor} p-4 mt-6 rounded-xl text-sm`}
-                itemProp="offers" itemScope itemType="https://schema.org/Offer"
                 role="status"
                 aria-label={isArabic ? 'حالة التوصيل المباشرة' : 'Live delivery status'}
             >
-                {/* Dynamic Offer microdata — refreshes every crawler visit */}
-                <meta itemProp="priceValidUntil" content={priceValidUntil} />
-                <meta itemProp="availabilityStarts" content={mutationTime} />
+
 
                 {/* Animated pulse indicator + main message */}
                 <div className="flex items-start gap-3" dir={isArabic ? 'rtl' : 'ltr'}>
