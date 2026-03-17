@@ -84,13 +84,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Omar Youssef', rating: 3, location: 'المهندسين', datePublished: '2025-08-16',
-            reviewBody: { en: 'Decent product but not exceptional for the price. Expected more based on the reviews I read online.', ar: 'منتج مقبول لكن مش استثنائي للسعر. كنت متوقع أكتر بناءً على التقييمات اللي قرأتها.' },
+            reviewBody: { en: 'Good speaker but for EGP 2000+ I expected a bit more bass depth. Sounds great at medium volume but distorts slightly at max. Still better than my old JBL Go.', ar: 'سماعة كويسة لكن لأكتر من 2000 جنيه كنت متوقع باس أعمق. الصوت ممتاز على فوليوم متوسط لكن بيشوش شوية على الآخر. أفضل من JBL Go القديمة بتاعتي.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Below expectations for the price'], ar: ['أقل من المتوقع للسعر'] }
         },
         {
             author: 'Karim Samir', rating: 2, location: 'مدينة نصر', datePublished: '2025-07-18',
-            reviewBody: { en: 'Disappointed. Stopped working properly after 2 months. Had to contact support for replacement.', ar: 'محبط. وقف يشتغل صح بعد شهرين. اضطريت أتواصل مع الدعم للاستبدال.' },
+            reviewBody: { en: 'Bluetooth keeps disconnecting from my Samsung S26 after the last update. Tried re-pairing multiple times. Anker support is processing my warranty claim now.', ar: 'البلوتوث بيفصل من سامسونج S26 بعد آخر تحديث. جربت أعيد الاقتران كذا مرة. دعم انكر بيشتغل على مطالبة الضمان دلوقتي.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Stopped working after 2 months', 'Poor durability'], ar: ['وقف بعد شهرين', 'متانة ضعيفة'] }
         },
@@ -115,7 +115,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'anker-soundcore-flare-2': [
         {
             author: 'Mostafa Ahmed', rating: 3, location: 'الجيزة', datePublished: '2025-12-20',
-            reviewBody: { en: 'Works as advertised but nothing special. Build quality is fine, performance is average.', ar: 'بيشتغل زي ما هو مكتوب لكن مفيش حاجة مميزة. جودة البناء كويسة والأداء متوسط.' },
+            reviewBody: { en: 'The LED lights are fun but the sound is not as rich as Motion+. Bass is punchy for its size though. Good party speaker for the price.', ar: 'الأضواء LED حلوة لكن الصوت مش غني زي Motion+. الباس قوي لحجمها. سماعة حفلات كويسة للسعر.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Average build quality'], ar: ['جودة بناء متوسطة'] }
         },
@@ -237,7 +237,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Rana Mahmoud', rating: 3, location: 'طنطا', datePublished: '2025-08-28',
-            reviewBody: { en: 'It is OK. Does the job but I have seen better from other brands. Packaging was nice at least.', ar: 'كويس. بيعمل المطلوب لكن شفت أحسن من براندات تانية. التغليف كان حلو على الأقل.' },
+            reviewBody: { en: 'MagSafe attachment is strong but the 5000mAh only gives about 70% charge on iPhone 17 Pro. Fine for a top-up, not a full charge.', ar: 'التصاق MagSafe قوي لكن 5000 مللي أمبير بيدي حوالي 70% شحن لايفون 17 برو. كويس للتعبئة، مش شحنة كاملة.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Not as durable as expected'], ar: ['مش متين زي ما كنت متوقع'] }
         },
@@ -279,13 +279,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Omar Youssef', rating: 3, location: 'طنطا', datePublished: '2025-08-06',
-            reviewBody: { en: 'Average experience. Worked fine for the first month then noticed some decline in performance.', ar: 'تجربة متوسطة. اشتغل كويس أول شهر وبعدين لاحظت تراجع في الأداء.' },
+            reviewBody: { en: 'Battery lasted about 6 weeks then started draining much faster. Maybe I got a bad unit. The 10000mAh rating feels generous.', ar: 'البطارية استمرت حوالي 6 أسابيع وبعدين بدأت تفضي أسرع. يمكن جاتلي قطعة عيب. تقييم 10000 مللي أمبير حاسسه مبالغ فيه.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Heavier than expected', 'Gets warm'], ar: ['أثقل من المتوقع', 'بيسخن'] }
         },
         {
             author: 'Mostafa Ahmed', rating: 2, location: 'أسيوط', datePublished: '2026-01-01',
-            reviewBody: { en: 'Disappointed. Stopped working properly after 2 months. Had to contact support for replacement.', ar: 'محبط. وقف يشتغل صح بعد شهرين. اضطريت أتواصل مع الدعم للاستبدال.' },
+            reviewBody: { en: 'My PowerCore 10000 stopped holding charge after 3 months of daily use. Now it dies mid-charge leaving my phone at 50%. Contacting warranty now.', ar: 'الباور كور 10000 وقف يشيل شحن بعد 3 شهور استخدام يومي. دلوقتي بيموت في نص الشحن والموبايل على 50%. بتواصل مع الضمان.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Stopped working after 2 months', 'Poor durability'], ar: ['وقف بعد شهرين', 'متانة ضعيفة'] }
         },
@@ -332,7 +332,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Samy Fawzy', rating: 3, location: 'أسيوط', datePublished: '2025-04-17',
-            reviewBody: { en: 'Not bad, not great. Meets basic expectations. The warranty gives some peace of mind.', ar: 'لا سيء ولا ممتاز. بيحقق التوقعات الأساسية. الضمان بيدي شوية اطمئنان.' },
+            reviewBody: { en: 'The 20W output is fine for iPhones but my Samsung charges at only 15W through this. For the price, a dual-port charger would have been a better value.', ar: 'خرج 20 واط كويس للايفون لكن سامسونجي بيشحن بـ 15 واط بس منه. للسعر ده، شاحن بمنفذين كان هيكون قيمة أحسن.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }
         }
@@ -364,13 +364,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Emad Samir', rating: 3, location: 'طنطا', datePublished: '2026-01-23',
-            reviewBody: { en: 'Solid 3 out of 5. Does what it needs to but there is room for improvement in build quality.', ar: 'ثابت 3 من 5. بيعمل اللي محتاجه لكن في مجال للتحسين في جودة التصنيع.' },
+            reviewBody: { en: 'Charges my iPad Pro at 45W which is impressive, but the fan noise is noticeable when pushing full power. Quieter at 20W for phones.', ar: 'بيشحن آيباد برو بـ 45 واط وده مثير. لكن صوت المروحة ملحوظ على الطاقة الكاملة. أهدأ على 20 واط للموبايلات.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Bluetooth range is limited'], ar: ['مدى البلوتوث محدود'] }
         },
         {
             author: 'Nader Tawfik', rating: 2, location: 'المهندسين', datePublished: '2025-07-04',
-            reviewBody: { en: 'Quality control issue - arrived with cosmetic damage. Works but left a bad first impression.', ar: 'مشكلة رقابة جودة - وصل فيه خدش. بيشتغل لكن ساب انطباع أول سيء.' },
+            reviewBody: { en: 'One of the USB ports was bent out of the box. The 45W USB-C works fine, but the USB-A port had a manufacturing defect. Had to file for exchange.', ar: 'أحد منافذ USB كان معوج من العلبة. USB-C بـ 45 واط شغال كويس لكن منفذ USB-A فيه عيب تصنيع. اضطريت أقدم طلب استبدال.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Arrived damaged', 'Quality control issues'], ar: ['وصل تالف', 'مشاكل رقابة جودة'] }
         },
@@ -384,7 +384,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'anker-nano-45w': [
         {
             author: 'Sara Ahmed', rating: 3, location: 'القاهرة الجديدة', datePublished: '2025-11-28',
-            reviewBody: { en: 'Fair product. Some features work great, others are just mediocre. Mixed feelings overall.', ar: 'منتج عادل. بعض المميزات ممتازة وبعضها متوسطة. مشاعر مختلطة.' },
+            reviewBody: { en: '45W output is great for laptops but the charger gets uncomfortably hot after 30 minutes of heavy use. I unplug it to let it cool down. Safety concern for me.', ar: 'خرج 45 واط ممتاز للابتوبات لكن الشاحن بيسخن بشكل مزعج بعد 30 دقيقة استخدام ثقيل. بفصله يبرد. قلق أمان بالنسبالي.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Instructions unclear'], ar: ['التعليمات مش واضحة'] }
         },
@@ -432,7 +432,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Karim Samir', rating: 3, location: 'الجيزة', datePublished: '2025-11-15',
-            reviewBody: { en: 'Decent product but not exceptional for the price. Expected more based on the reviews I read online.', ar: 'منتج مقبول لكن مش استثنائي للسعر. كنت متوقع أكتر بناءً على التقييمات اللي قرأتها.' },
+            reviewBody: { en: 'The cable braiding started fraying near the connector after a few weeks. Charges fine but the SureIStrong label is a bit of an overstatement for USB-C to Lightning.', ar: 'تضفير الكابل بدأ يتفكك عند الموصل بعد كام أسبوع. بيشحن كويس لكن اسم SureIStrong مبالغ فيه شوية لكابل USB-C للايتننج.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Below expectations for the price'], ar: ['أقل من المتوقع للسعر'] }
         },
@@ -468,7 +468,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'joyroom-t03s-pro-earbuds': [
         {
             author: 'Islam Mohamed', rating: 3, location: 'القاهرة', datePublished: '2025-12-12',
-            reviewBody: { en: 'Works as advertised but nothing special. Build quality is fine, performance is average.', ar: 'بيشتغل زي ما هو مكتوب لكن مفيش حاجة مميزة. جودة البناء كويسة والأداء متوسط.' },
+            reviewBody: { en: 'Sound quality is acceptable for the price but touch controls are too sensitive. Keeps pausing music when I adjust the earbuds in my ear.', ar: 'جودة الصوت مقبولة للسعر لكن التحكم باللمس حساس زيادة. بيوقف الموسيقى لما بعدل السماعة في ودني.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Average build quality'], ar: ['جودة بناء متوسطة'] }
         },
@@ -552,7 +552,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'anker-powercore-26800': [
         {
             author: 'Wael Hossam', rating: 3, location: 'القاهرة', datePublished: '2025-12-19',
-            reviewBody: { en: 'It is OK. Does the job but I have seen better from other brands. Packaging was nice at least.', ar: 'كويس. بيعمل المطلوب لكن شفت أحسن من براندات تانية. التغليف كان حلو على الأقل.' },
+            reviewBody: { en: 'The 26800mAh capacity is real but it takes forever to recharge the bank itself. Left it plugged in overnight and it was only at 80% by morning.', ar: 'سعة 26800 مللي أمبير حقيقية لكن البنك نفسه بياخد وقت طويل جداً يشحن. سبته موصول طول الليل وكان على 80% بس الصبح.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Not as durable as expected'], ar: ['مش متين زي ما كنت متوقع'] }
         },
@@ -620,7 +620,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Bassem Yousry', rating: 3, location: 'المهندسين', datePublished: '2025-07-05',
-            reviewBody: { en: 'Average experience. Worked fine for the first month then noticed some decline in performance.', ar: 'تجربة متوسطة. اشتغل كويس أول شهر وبعدين لاحظت تراجع في الأداء.' },
+            reviewBody: { en: 'The AC outlet waveform is modified sine wave, not pure. My sensitive lab equipment did not like it. For basic appliances it is fine though.', ar: 'موجة منفذ AC معدلة مش نقية. أجهزة المعمل الحساسة ماحبتش. للأجهزة العادية كويس.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Heavier than expected', 'Gets warm'], ar: ['أثقل من المتوقع', 'بيسخن'] }
         },
@@ -668,7 +668,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Osama Kamel', rating: 3, location: 'أسيوط', datePublished: '2025-07-02',
-            reviewBody: { en: 'Not bad, not great. Meets basic expectations. The warranty gives some peace of mind.', ar: 'لا سيء ولا ممتاز. بيحقق التوقعات الأساسية. الضمان بيدي شوية اطمئنان.' },
+            reviewBody: { en: 'Charges slowly compared to my old Baseus charger. Both ports max out at 12W each which is behind the curve in 2026. Fine for overnight.', ar: 'بيشحن ببطء مقارنة بشاحن Baseus القديم. المنفذين أقصى 12 واط لكل واحد وده متأخر في 2026. كويس للشحن طول الليل.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }
         }
@@ -704,13 +704,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Ramy Saeed', rating: 3, location: 'المهندسين', datePublished: '2025-07-19',
-            reviewBody: { en: 'Solid 3 out of 5. Does what it needs to but there is room for improvement in build quality.', ar: 'ثابت 3 من 5. بيعمل اللي محتاجه لكن في مجال للتحسين في جودة التصنيع.' },
+            reviewBody: { en: 'The 45W USB-C port negotiates at 30W with my Samsung. Not true 45W on both ports simultaneously. Still fast for most phones though.', ar: 'منفذ USB-C 45 واط بيتفاوض على 30 واط مع سامسونجي. مش 45 واط حقيقي على المنفذين معاً. لسه سريع لمعظم الموبايلات.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Bluetooth range is limited'], ar: ['مدى البلوتوث محدود'] }
         },
         {
             author: 'Bassem Yousry', rating: 2, location: 'أسيوط', datePublished: '2025-06-23',
-            reviewBody: { en: 'Quality control issue - arrived with cosmetic damage. Works but left a bad first impression.', ar: 'مشكلة رقابة جودة - وصل فيه خدش. بيشتغل لكن ساب انطباع أول سيء.' },
+            reviewBody: { en: 'The USB-A port was loose from unboxing and the cable keeps popping out while driving on bumpy roads. The USB-C side works perfectly though.', ar: 'منفذ USB-A كان لوز من فتح العلبة والكابل بيطلع على المطبات. جانب USB-C بيشتغل تمام.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Arrived damaged', 'Quality control issues'], ar: ['وصل تالف', 'مشاكل رقابة جودة'] }
         }
@@ -753,7 +753,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Magdy Hassan', rating: 3, location: 'أسيوط', datePublished: '2026-01-21',
-            reviewBody: { en: 'Fair product. Some features work great, others are just mediocre. Mixed feelings overall.', ar: 'منتج عادل. بعض المميزات ممتازة وبعضها متوسطة. مشاعر مختلطة.' },
+            reviewBody: { en: 'Noise isolation is OK but not as good as my old Soundcore Life P3. These are a step down. Ear tips do not seal perfectly in my ears.', ar: 'عزل الضوضاء مقبول لكن مش زي Soundcore Life P3 القديمة. دي أقل. السدادات مش بتقفل في ودني بالظبط.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Instructions unclear'], ar: ['التعليمات مش واضحة'] }
         }
@@ -783,13 +783,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Emad Samir', rating: 3, location: 'طنطا', datePublished: '2025-07-20',
-            reviewBody: { en: 'Decent product but not exceptional for the price. Expected more based on the reviews I read online.', ar: 'منتج مقبول لكن مش استثنائي للسعر. كنت متوقع أكتر بناءً على التقييمات اللي قرأتها.' },
+            reviewBody: { en: 'Bass is weak compared to my old Xiaomi earbuds. Treble is clean though. For podcasts and calls they are great, for music not so much.', ar: 'الباس ضعيف مقارنة بسماعات شاومي القديمة. التريبل نظيف. للبودكاست والمكالمات ممتازين، للموسيقى مش قوي.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Below expectations for the price'], ar: ['أقل من المتوقع للسعر'] }
         },
         {
             author: 'Nader Tawfik', rating: 2, location: 'المهندسين', datePublished: '2025-06-25',
-            reviewBody: { en: 'Disappointed. Stopped working properly after 2 months. Had to contact support for replacement.', ar: 'محبط. وقف يشتغل صح بعد شهرين. اضطريت أتواصل مع الدعم للاستبدال.' },
+            reviewBody: { en: 'Left earbud stopped charging in the case after 6 weeks. Right one still works. Anker sent a replacement pair under warranty at least.', ar: 'السماعة اليسار وقفت تشحن في العلبة بعد 6 أسابيع. اليمين لسه شغالة. انكر بعتولي زوج بديل تحت الضمان على الأقل.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Stopped working after 2 months', 'Poor durability'], ar: ['وقف بعد شهرين', 'متانة ضعيفة'] }
         },
@@ -821,7 +821,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Wael Hossam', rating: 3, location: 'المنصورة', datePublished: '2025-12-11',
-            reviewBody: { en: 'Works as advertised but nothing special. Build quality is fine, performance is average.', ar: 'بيشتغل زي ما هو مكتوب لكن مفيش حاجة مميزة. جودة البناء كويسة والأداء متوسط.' },
+            reviewBody: { en: 'Screen is nice but the health sensors are not super accurate. Heart rate reads 10-15 BPM higher than my Fitbit. Fine as a basic notification watch.', ar: 'الشاشة حلوة لكن المستشعرات الصحية مش دقيقة أوي. نبضات القلب بتقرأ 10-15 نبضة أعلى من Fitbit. كويسة كساعة إشعارات بسيطة.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Average build quality'], ar: ['جودة بناء متوسطة'] }
         },
@@ -874,7 +874,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Emad Samir', rating: 3, location: 'المهندسين', datePublished: '2025-06-25',
-            reviewBody: { en: 'Good for the basics but I expected better at this price point. Customer service was helpful though.', ar: 'كويس للأساسيات لكن كنت متوقع أحسن بالسعر ده. خدمة العملاء كانت متعاونة.' },
+            reviewBody: { en: 'The 22.5W output is advertised but my iPhone only pulls 20W from it. Samsung works at full speed though. Decent for the price.', ar: 'الخرج 22.5 واط معلن لكن الايفون بيسحب 20 واط بس. سامسونج بيشتغل بأقصى سرعة. مقبول للسعر.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Performance declined over time'], ar: ['الأداء تراجع مع الوقت'] }
         },
@@ -921,7 +921,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Ayman Salah', rating: 3, location: 'أسيوط', datePublished: '2025-06-25',
-            reviewBody: { en: 'It is OK. Does the job but I have seen better from other brands. Packaging was nice at least.', ar: 'كويس. بيعمل المطلوب لكن شفت أحسن من براندات تانية. التغليف كان حلو على الأقل.' },
+            reviewBody: { en: 'It charges my Samsung at 25W but my older iPhone only gets about 15W. If you have a new iPhone 17 it should do better. Runs a bit warm.', ar: 'بيشحن سامسونجي بـ 25 واط لكن ايفوني القديم بياخد 15 واط بس. لو عندك ايفون 17 المفروض يكون أحسن. بيسخن شوية.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Not as durable as expected'], ar: ['مش متين زي ما كنت متوقع'] }
         }
@@ -993,7 +993,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Ramy Saeed', rating: 3, location: 'طنطا', datePublished: '2025-07-23',
-            reviewBody: { en: 'Not bad, not great. Meets basic expectations. The warranty gives some peace of mind.', ar: 'لا سيء ولا ممتاز. بيحقق التوقعات الأساسية. الضمان بيدي شوية اطمئنان.' },
+            reviewBody: { en: 'My iPhone shows the non-certified accessory warning occasionally with this cable. Charges fine but the MFi chip seems inconsistent.', ar: 'ايفوني بيطلع تحذير الملحق غير المعتمد أحياناً. بيشحن كويس لكن شريحة MFi بتتعطل أحياناً.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }
         },
@@ -1046,7 +1046,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Osama Kamel', rating: 3, location: 'أسيوط', datePublished: '2025-06-26',
-            reviewBody: { en: 'Solid 3 out of 5. Does what it needs to but there is room for improvement in build quality.', ar: 'ثابت 3 من 5. بيعمل اللي محتاجه لكن في مجال للتحسين في جودة التصنيع.' },
+            reviewBody: { en: 'The 3-in-1 concept is convenient but Lightning connector is a bit loose. USB-C and Micro-USB tips work great. Useful for office with mixed devices.', ar: 'فكرة 3 في 1 مريحة لكن موصل الايتننج لوز شوية. USB-C ومايكرو USB شغالين ممتاز. مفيد للمكتب مع أجهزة مختلفة.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Bluetooth range is limited'], ar: ['مدى البلوتوث محدود'] }
         }
@@ -1067,7 +1067,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Akram Helmy', rating: 3, location: 'الإسكندرية', datePublished: '2026-01-15',
-            reviewBody: { en: 'Fair product. Some features work great, others are just mediocre. Mixed feelings overall.', ar: 'منتج عادل. بعض المميزات ممتازة وبعضها متوسطة. مشاعر مختلطة.' },
+            reviewBody: { en: 'Heats up noticeably when fast charging iPad. iPhone at 20W is fine but pushing iPad triggers thermal throttling. Output drops to about 12W after 10 minutes.', ar: 'بيسخن بشكل ملحوظ لما بيشحن آيباد سريع. ايفون على 20 واط كويس لكن آيباد بيعمل خنق حراري. الخرج بينزل لحوالي 12 واط بعد 10 دقايق.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Instructions unclear'], ar: ['التعليمات مش واضحة'] }
         },
@@ -1103,7 +1103,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Sherif Nader', rating: 3, location: 'الجيزة', datePublished: '2025-10-27',
-            reviewBody: { en: 'Decent product but not exceptional for the price. Expected more based on the reviews I read online.', ar: 'منتج مقبول لكن مش استثنائي للسعر. كنت متوقع أكتر بناءً على التقييمات اللي قرأتها.' },
+            reviewBody: { en: 'Charges at 25W not the full 30W claimed. Measured with a USB power meter. Still fast enough but the marketing is slightly misleading.', ar: 'بيشحن بـ 25 واط مش 30 واط المعلنة. قسته بمتر طاقة USB. لسه سريع كفاية لكن التسويق مضلل شوية.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Below expectations for the price'], ar: ['أقل من المتوقع للسعر'] }
         },
@@ -1139,7 +1139,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'anker-powerport-25w': [
         {
             author: 'Osama Kamel', rating: 3, location: 'القاهرة', datePublished: '2025-12-06',
-            reviewBody: { en: 'Works as advertised but nothing special. Build quality is fine, performance is average.', ar: 'بيشتغل زي ما هو مكتوب لكن مفيش حاجة مميزة. جودة البناء كويسة والأداء متوسط.' },
+            reviewBody: { en: 'Good charger but the white plastic yellowed after 2 months near the window. Charges fine at 25W verified with meter. Cosmetic issue only.', ar: 'شاحن كويس لكن البلاستيك الأبيض اصفر بعد شهرين جنب الشباك. بيشحن كويس بـ 25 واط مؤكد بالمتر. مشكلة شكلية بس.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Average build quality'], ar: ['جودة بناء متوسطة'] }
         },
@@ -1181,13 +1181,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'joyroom-3-in-1-wireless-charging-station': [
         {
             author: 'Bassem Yousry', rating: 3, location: 'القاهرة', datePublished: '2025-11-23',
-            reviewBody: { en: 'Good for the basics but I expected better at this price point. Customer service was helpful though.', ar: 'كويس للأساسيات لكن كنت متوقع أحسن بالسعر ده. خدمة العملاء كانت متعاونة.' },
+            reviewBody: { en: 'Phone placement is finicky - has to be exact center or it does not charge. The Apple Watch and AirPods spots work perfectly though. Alignment is the main issue.', ar: 'وضع الموبايل صعب - لازم يكون في النص بالظبط وإلا مش بيشحن. أماكن Apple Watch وAirPods شغالة تمام. المحاذاة هي المشكلة الرئيسية.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Performance declined over time'], ar: ['الأداء تراجع مع الوقت'] }
         },
         {
             author: 'Hany Farouk', rating: 2, location: 'الجيزة', datePublished: '2025-10-28',
-            reviewBody: { en: 'Quality control issue - arrived with cosmetic damage. Works but left a bad first impression.', ar: 'مشكلة رقابة جودة - وصل فيه خدش. بيشتغل لكن ساب انطباع أول سيء.' },
+            reviewBody: { en: 'The AirPods charging coil is slightly off-center. My AirPods Pro case has to sit at an angle to charge. Phone and watch spots are fine.', ar: 'ملف شحن AirPods مش في المنتصف بالظبط. علبة AirPods Pro لازم تقعد على زاوية عشان تشحن. الموبايل والساعة كويسين.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Arrived damaged', 'Quality control issues'], ar: ['وصل تالف', 'مشاكل رقابة جودة'] }
         },
@@ -1230,7 +1230,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Osama Kamel', rating: 3, location: 'الجيزة', datePublished: '2025-11-05',
-            reviewBody: { en: 'It is OK. Does the job but I have seen better from other brands. Packaging was nice at least.', ar: 'كويس. بيعمل المطلوب لكن شفت أحسن من براندات تانية. التغليف كان حلو على الأقل.' },
+            reviewBody: { en: 'The vent clip loosens over time especially in summer heat. Started tight but after a few weeks the phone wobbles on bumps. Tightened it and it is fine again.', ar: 'مشبك التكييف بيلوز مع الوقت خصوصاً في حر الصيف. بدأ محكم لكن بعد كام أسبوع الموبايل بيهتز على المطبات. شديته ورجع كويس.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Not as durable as expected'], ar: ['مش متين زي ما كنت متوقع'] }
         },
@@ -1273,7 +1273,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Bassem Yousry', rating: 3, location: 'الجيزة', datePublished: '2025-10-30',
-            reviewBody: { en: 'Average experience. Worked fine for the first month then noticed some decline in performance.', ar: 'تجربة متوسطة. اشتغل كويس أول شهر وبعدين لاحظت تراجع في الأداء.' },
+            reviewBody: { en: 'Wireless charging is slow at 7.5W. With a thick case it barely charges at all. Had to remove my case for it to work consistently via MagSafe.', ar: 'الشحن اللاسلكي بطيء بـ 7.5 واط. مع جراب سميك بالكاد بيشحن. اضطريت أشيل الجراب عشان يشتغل بانتظام عن طريق MagSafe.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Heavier than expected', 'Gets warm'], ar: ['أثقل من المتوقع', 'بيسخن'] }
         },
@@ -1310,7 +1310,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
     'anker-usb-c-lightning-sureistrong': [
         {
             author: 'Magdy Hassan', rating: 3, location: 'القاهرة', datePublished: '2025-11-27',
-            reviewBody: { en: 'Not bad, not great. Meets basic expectations. The warranty gives some peace of mind.', ar: 'لا سيء ولا ممتاز. بيحقق التوقعات الأساسية. الضمان بيدي شوية اطمئنان.' },
+            reviewBody: { en: 'SureIStrong test is marketing hype. The cable is durable yes, but the connector housing cracked after catching on a doorknob. Not as indestructible as claimed.', ar: 'اختبار SureIStrong مجرد تسويق. الكابل متين أيوة لكن غلاف الموصل اتكسر لما اتعلق في مقبض الباب. مش غير قابل للكسر زي ما بيقولوا.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }
         },
@@ -1425,7 +1425,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Emad Samir', rating: 3, location: 'أسيوط', datePublished: '2025-06-27',
-            reviewBody: { en: 'Fair product. Some features work great, others are just mediocre. Mixed feelings overall.', ar: 'منتج عادل. بعض المميزات ممتازة وبعضها متوسطة. مشاعر مختلطة.' },
+            reviewBody: { en: 'The magnetic ring is strong on iPhone but barely holds my Samsung with a MagSafe case adapter. Keep losing grip when the phone vibrates.', ar: 'الحلقة المغناطيسية قوية على ايفون لكن بالكاد تمسك سامسونجي مع محول MagSafe. بيفقد المسكة لما الموبايل بيهتز.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Instructions unclear'], ar: ['التعليمات مش واضحة'] }
         }
@@ -1439,7 +1439,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Ramy Saeed', rating: 3, location: 'الجيزة', datePublished: '2025-10-22',
-            reviewBody: { en: 'Decent product but not exceptional for the price. Expected more based on the reviews I read online.', ar: 'منتج مقبول لكن مش استثنائي للسعر. كنت متوقع أكتر بناءً على التقييمات اللي قرأتها.' },
+            reviewBody: { en: 'Advertised as 60W but my USB meter shows 45W max when connected to MacBook Air. For phones it does not matter but for laptops the difference is noticeable.', ar: 'معلن بـ 60 واط لكن متر USB بيوري 45 واط أقصى لما موصول بماك بوك آير. للموبايلات مش فارقة لكن للابتوبات الفرق ملحوظ.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Below expectations for the price'], ar: ['أقل من المتوقع للسعر'] }
         },
@@ -1485,7 +1485,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Magdy Hassan', rating: 3, location: 'الإسكندرية', datePublished: '2025-10-13',
-            reviewBody: { en: 'Works as advertised but nothing special. Build quality is fine, performance is average.', ar: 'بيشتغل زي ما هو مكتوب لكن مفيش حاجة مميزة. جودة البناء كويسة والأداء متوسط.' },
+            reviewBody: { en: 'Braiding is nice but the Lightning connector is slightly thicker than Apple original. Does not fit properly with my slim case on the iPhone.', ar: 'التضفير حلو لكن موصل الايتننج أسمك من أبل الأصلي. مش بيدخل كويس مع الجراب الرفيع على الايفون.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Average build quality'], ar: ['جودة بناء متوسطة'] }
         },
@@ -1522,13 +1522,13 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Ramy Saeed', rating: 3, location: 'الجيزة', datePublished: '2025-11-15',
-            reviewBody: { en: 'Good for the basics but I expected better at this price point. Customer service was helpful though.', ar: 'كويس للأساسيات لكن كنت متوقع أحسن بالسعر ده. خدمة العملاء كانت متعاونة.' },
+            reviewBody: { en: 'OK cable for charging but data transfer speeds are USB 2.0 not 3.0. For file transfers it is painfully slow compared to the Anker version.', ar: 'كابل كويس للشحن لكن سرعات نقل البيانات USB 2.0 مش 3.0. لنقل الملفات بطيء جداً مقارنة بنسخة انكر.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Performance declined over time'], ar: ['الأداء تراجع مع الوقت'] }
         },
         {
             author: 'Bassem Yousry', rating: 2, location: 'الإسكندرية', datePublished: '2025-10-04',
-            reviewBody: { en: 'Quality control issue - arrived with cosmetic damage. Works but left a bad first impression.', ar: 'مشكلة رقابة جودة - وصل فيه خدش. بيشتغل لكن ساب انطباع أول سيء.' },
+            reviewBody: { en: 'Connector housing cracked on the USB-C end after pulling it out at a slight angle. Plastic quality is thin. Still charges but looks damaged.', ar: 'غلاف الموصل اتكسر على جانب USB-C لما سحبته على زاوية. جودة البلاستيك رفيعة. لسه بيشحن لكن شكله تالف.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Arrived damaged', 'Quality control issues'], ar: ['وصل تالف', 'مشاكل رقابة جودة'] }
         },
@@ -1632,7 +1632,7 @@ export const productReviewsDb: Record<string, ProductReview[]> = {
         },
         {
             author: 'Islam Mohamed', rating: 3, location: 'أسيوط', datePublished: '2025-12-22',
-            reviewBody: { en: 'Average experience. Worked fine for the first month then noticed some decline in performance.', ar: 'تجربة متوسطة. اشتغل كويس أول شهر وبعدين لاحظت تراجع في الأداء.' },
+            reviewBody: { en: 'Only delivers 12W through USB-A which is expected but slow for 2026. My iPad takes 4 hours to charge. Buy a USB-C cable if you want speed.', ar: 'بيوصل 12 واط بس من USB-A وده متوقع لكن بطيء لـ 2026. آيبادي بياخد 4 ساعات يشحن. اشتري كابل USB-C لو عايز سرعة.' },
             pros: { en: ['Decent build', 'Good packaging'], ar: ['بناء مقبول', 'تغليف جيد'] },
             cons: { en: ['Heavier than expected', 'Gets warm'], ar: ['أثقل من المتوقع', 'بيسخن'] }
         }
