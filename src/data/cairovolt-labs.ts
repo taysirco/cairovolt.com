@@ -34,6 +34,7 @@ export interface LabMetrics {
     batteryLife_hours?: number;
     chargingSpeed_W?: number;
     devicesCharged?: number;
+    actualWeight_g?: number;
 }
 
 export interface ProductLabData {
@@ -136,6 +137,7 @@ export const labData: Record<string, ProductLabData> = {
             maxTemp_C: 34,
             realEfficiency: 74,
             devicesCharged: 2,
+            actualWeight_g: 180,
         },
     },
     'joyroom-power-bank-10000': {
@@ -188,6 +190,7 @@ export const labData: Record<string, ProductLabData> = {
             maxTemp_C: 36,
             realEfficiency: 71,
             devicesCharged: 1.4,
+            actualWeight_g: 210,
         },
     },
     'joyroom-power-bank-20000': {
@@ -236,6 +239,7 @@ export const labData: Record<string, ProductLabData> = {
             maxTemp_C: 32,
             realEfficiency: 68,
             devicesCharged: 3,
+            actualWeight_g: 420,
         },
     },
     'anker-car-charger-dual-usb': {
@@ -435,6 +439,7 @@ export const labData: Record<string, ProductLabData> = {
             maxTemp_C: 41,
             realEfficiency: 70,
             devicesCharged: 4.7,
+            actualWeight_g: 500,
         },
     },
     'anker-737-powerbank': {
@@ -498,6 +503,7 @@ export const labData: Record<string, ProductLabData> = {
             maxTemp_C: 41,
             chargingSpeed_W: 140,
             devicesCharged: 5,
+            actualWeight_g: 468,
         },
     },
     'joyroom-60w-dual-car-charger': {
@@ -630,6 +636,7 @@ export const labData: Record<string, ProductLabData> = {
             maxTemp_C: 32,
             realEfficiency: 72,
             devicesCharged: 4,
+            actualWeight_g: 340,
         },
     },
     'anker-525-power-bank': {
