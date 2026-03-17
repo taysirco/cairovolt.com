@@ -10,7 +10,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, cla
 
     // Split content by table blocks vs non-table blocks
     // This is complex. Let's process line by line or use a stronger regex.
-    // Given the constraints and the simple structure in category-seo.ts (tables are distinct blocks),
+    // Given the constraints and the simple structure in category-content.ts (tables are distinct blocks),
     // we can use a simpler approach:
     // 1. Double newlines splitting into paragraphs.
     // 2. Identify if a paragraph starts with '|'. If so, treat as table.

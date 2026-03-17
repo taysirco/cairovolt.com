@@ -1,8 +1,8 @@
-// Server Component - Schemas must be SSR for Google to crawl them
+// Server Component — structured data
 // DO NOT add 'use client' here!
 
 // ============================================
-// SPEAKABLE SCHEMA - Voice Search Optimization
+// SPEAKABLE SCHEMA - Voice Assistant Support
 // ============================================
 
 interface SpeakableProps {
@@ -14,7 +14,7 @@ interface SpeakableProps {
 }
 
 /**
- * SpeakableSchema enables voice search optimization for Google Assistant/Alexa
+ * SpeakableSchema enables voice assistant support for Google Assistant/Alexa
  * Use on pages with content that should be read aloud by voice assistants
  */
 export function SpeakableSchema({
@@ -78,7 +78,7 @@ interface HowToProps {
 
 /**
  * HowToSchema for buying guides and tutorials
- * Enables rich snippets with step-by-step instructions
+ * Enables enhanced results with step-by-step instructions
  */
 export function HowToSchema({
     title,
@@ -146,7 +146,7 @@ export function HowToSchema({
 }
 
 // ============================================
-// ARTICLE SCHEMA - For SEO Content Sections
+// ARTICLE SCHEMA - For Content Sections
 // ============================================
 
 interface EntityReference {
@@ -176,9 +176,9 @@ interface ArticleProps {
 }
 
 /**
- * ArticleSchema for SEO content in brand/category pages
- * Helps establish E-E-A-T and enables rich snippets
- * Enhanced with `about` and `mentions` for Knowledge Graph entity linking
+ * ArticleSchema for content in brand/category pages
+ * Helps establish Trust & Quality and enables enhanced results
+ * Enhanced with `about` and `mentions` for structured entity references
  */
 export function ArticleSchema({
     headline,
@@ -193,8 +193,8 @@ export function ArticleSchema({
     about,
     mentions,
 }: ArticleProps) {
-    // Use stable dates - avoid new Date() which changes on every render
-    // and causes Google to see constantly changing dates
+    // Use stable dates — avoid new Date() which changes on every render
+    // and causes structured data validators to flag constantly changing dates
     const stableDate = '2025-12-01T00:00:00.000Z';
 
     // Combine sections into article body for structured content
@@ -288,7 +288,7 @@ export function ArticleSchema({
         schema.image = { '@type': 'ImageObject', url: image };
     }
 
-    // Entity linking: about (primary topics)
+    // Related entities: about (primary topics)
     if (about && about.length > 0) {
         schema.about = about.map(entity => ({
             '@type': entity.type,
@@ -300,7 +300,7 @@ export function ArticleSchema({
         }));
     }
 
-    // Entity linking: mentions (referenced entities)
+    // Related entities: mentions (referenced entities)
     if (mentions && mentions.length > 0) {
         schema.mentions = mentions.map(entity => ({
             '@type': entity.type,
@@ -321,7 +321,7 @@ export function ArticleSchema({
 export type { EntityReference };
 
 // ============================================
-// LOCAL BUSINESS SCHEMA - GEO SEO for Egypt
+// LOCAL BUSINESS SCHEMA - Regional Targeting for Egypt
 // ============================================
 
 interface LocalBusinessProps {
@@ -329,7 +329,7 @@ interface LocalBusinessProps {
 }
 
 /**
- * LocalBusinessSchema for Egypt-targeted GEO SEO
+ * LocalBusinessSchema for Egypt-targeted Regional Targeting
  * Includes all major Egyptian governorates in service area
  */
 export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
@@ -450,9 +450,9 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
                 },
             ],
         },
-        // NOTE: aggregateRating removed - Store ratings should come from 
-        // Google Business Profile, not be hardcoded. Adding fake ratings
-        // here is considered incorrect validation by search engines.
+        // NOTE: aggregateRating removed — Store ratings should come from 
+        // verified review platforms, not be hardcoded. Adding unverified ratings
+        // here is considered invalid structured data.
     };
 
     return (
@@ -505,7 +505,7 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
     );
 }
 
-// WebSite Schema for homepage - enables Google Sitelinks Search Box
+// WebSite Schema for homepage — enables site-level search functionality
 interface WebSiteSchemaProps {
     locale: string;
     baseUrl?: string;
@@ -534,7 +534,7 @@ export function WebSiteSchema({ locale, baseUrl = 'https://cairovolt.com' }: Web
             name: 'Egypt',
             sameAs: 'https://en.wikipedia.org/wiki/Egypt',
         },
-        // SearchAction enables Google Sitelinks Search Box + AI agent commerce
+        // SearchAction — site search functionality
         potentialAction: {
             '@type': 'SearchAction',
             target: {

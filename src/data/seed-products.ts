@@ -12,7 +12,7 @@ export const categories = [
             en: { name: "Power Banks", description: "Essential backup power for outages — keeps your router and phone running." },
             ar: { name: "باور بانك", description: "المنقذ الحقيقي وقت تخفيف الأحمال وقطع الكهرباء.. هيشحن موبايلك والراوتر في الطوارئ." }
         },
-        seo: { keywords: "باور بانك, شاحن متنقل, بطارية متنقلة, power bank" }
+        meta: { keywords: "باور بانك, شاحن متنقل, بطارية متنقلة, power bank" }
     },
     {
         slug: "wall-chargers",
@@ -24,7 +24,7 @@ export const categories = [
             en: { name: "Wall Chargers", description: "Stable current chargers protecting your devices from grid voltage fluctuations." },
             ar: { name: "شواحن حائط", description: "شواحن بتيار ثابت تحمي بطارية موبايلك من تذبذب الكهربا وتخريف التاتش." }
         },
-        seo: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger" }
+        meta: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger" }
     },
     {
         slug: "cables",
@@ -36,7 +36,7 @@ export const categories = [
             en: { name: "Charging Cables", description: "Ultra-durable certified cables — never risk a counterfeit destroying your phone battery." },
             ar: { name: "كابلات شحن", description: "كابلات بتعيش بالسنين.. بلاش تسترخص وتدمر بطاريتك بكابلات مضروبة من العتبة." }
         },
-        seo: { keywords: "كابل, سلك شحن, وصلة ايفون, cable" }
+        meta: { keywords: "كابل, سلك شحن, وصلة ايفون, cable" }
     },
     {
         slug: "car-chargers",
@@ -48,7 +48,7 @@ export const categories = [
             en: { name: "Car Chargers", description: "Cool-running fast chargers surviving extreme heat and summer traffic." },
             ar: { name: "شواحن سيارة", description: "شحن سريع مبيسخنش تحت شمس الأسفلت وفي زحمة الدائري أثناء تشغيل الـ GPS." }
         },
-        seo: { keywords: "شاحن سيارة, car charger" }
+        meta: { keywords: "شاحن سيارة, car charger" }
     },
     {
         slug: "audio",
@@ -60,7 +60,7 @@ export const categories = [
             en: { name: "Audio & Earbuds", description: "True ANC earbuds sealing out street noise, metro sounds, and traffic." },
             ar: { name: "سماعات وايربودز", description: "عزل ضوضاء حقيقي يفصلك تماماً عن دوشة الشارع والمترو والميكروباصات." }
         },
-        seo: { keywords: "سماعات, ايربودز, earbuds" }
+        meta: { keywords: "سماعات, ايربودز, earbuds" }
     },
     {
         slug: "smart-watches",
@@ -72,7 +72,7 @@ export const categories = [
             en: { name: "Smart Watches", description: "Durable smart watches surviving summer sweat and daily commutes." },
             ar: { name: "ساعات ذكية", description: "ساعات ذكية متينة بتستحمل عرق الصيف وزحمة مشاويرك اليومية." }
         },
-        seo: { keywords: "ساعة ذكية, smart watch" }
+        meta: { keywords: "ساعة ذكية, smart watch" }
     },
     {
         slug: "car-holders",
@@ -84,7 +84,7 @@ export const categories = [
             en: { name: "Car Holders", description: "Dashboard mounts that actually stick despite extreme sun and speed bumps." },
             ar: { name: "حوامل سيارة", description: "حوامل بتثبت فعلاً ومبتقعش فوق مطبات شوارعنا ولا بتسيح في حر الصيف." }
         },
-        seo: { keywords: "حامل جوال للسيارة, car mount, car holder" }
+        meta: { keywords: "حامل جوال للسيارة, car mount, car holder" }
     },
     {
         slug: "speakers",
@@ -96,7 +96,7 @@ export const categories = [
             en: { name: "Bluetooth Speakers", description: "Massive sound and endless battery perfectly suited for summer beach weekends." },
             ar: { name: "مكبرات صوت بلوتوث", description: "سماعات بصوت جبار وبطارية مبتفصلش عشان خروجات الساحل وتجمعات الرووف." }
         },
-        seo: { keywords: "speaker, bluetooth speaker, soundcore, مكبر صوت, سماعة بلوتوث" }
+        meta: { keywords: "speaker, bluetooth speaker, soundcore, مكبر صوت, سماعة بلوتوث" }
     }
 ];
 
@@ -268,9 +268,9 @@ export const products = [
                 ]
             }
         },
-        seo: {
+        meta: {
             keywords: "anker motion+, soundcore motion+ egypt, سعر anker motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, anker speaker egypt, soundcore app, waterproof speaker cairo",
-            focusKeyword: "سماعة anker motion+"
+            mainTerm: "سماعة anker motion+"
         },
         expertOpinion: {
             en: "The Motion+ is hands-down the best Bluetooth speaker under EGP 3000 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
@@ -448,7 +448,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "soundcore flare 2, party speaker, anker flare, سماعة مضيئة", focusKeyword: "soundcore flare 2" },
+        meta: { keywords: "soundcore flare 2, party speaker, anker flare, سماعة مضيئة", mainTerm: "soundcore flare 2" },
         expertOpinion: {
             en: "If you love hosting parties, the Flare 2 is your best friend. The 360-degree sound fills the room evenly, and the beat-driven light show adds a fantastic vibe. It's fully waterproof, so pool parties are worry-free. While the bass isn't as deep as the Motion+, the overall experience and PartyCast feature make it a winner for social events.",
             ar: "إذا كنت تحب إقامة الحفلات، فإن Flare 2 هي صديقك المفضل. الصوت المحيطي 360 درجة يملأ الغرفة بالتساوي، وعرض الضوء المتفاعل مع الإيقاع يضيف جواً رائعاً. مقاومة للماء بالكامل، لذا حفلات حمام السباحة خالية من القلق. على الرغم من أن الباس ليس بعمق Motion+، إلا أن التجربة الكلية وميزة PartyCast تجعلها فائزة للمناسبات الاجتماعية."
@@ -639,7 +639,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "anker 737, anker 140w, باور بانك انكر 737, انكر 24000", focusKeyword: "anker 737" },
+        meta: { keywords: "anker 737, anker 140w, باور بانك انكر 737, انكر 24000", mainTerm: "anker 737" },
         expertOpinion: {
             en: "This is the 'beast' of power banks. The 140W output is insane – it can charge a MacBook Pro fast, which is rare for a portable battery. The digital display is incredibly useful, showing exactly how much time is left. It's heavy, yes, but for power users or digital nomads in Egypt who need reliable backup for laptops and phones, it's absolutely worth the investment.",
             ar: "هذا هو 'وحش' الباور بانك. قوة 140 واط جنونية – يمكنها شحن ماك بوك برو بسرعة، وهو أمر نادر لبطارية محمولة. الشاشة الرقمية مفيدة بشكل لا يصدق، حيث تعرض بالضبط الوقت المتبقي. إنه ثقيل، نعم، لكن للمستخدمين المحترفين في مصر الذين يحتاجون إلى نسخ احتياطي موثوق للابتوب والهواتف، فهو يستحق الاستثمار تماماً."
@@ -813,7 +813,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف", focusKeyword: "anker maggo" },
+        meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف", mainTerm: "anker maggo" },
         expertOpinion: {
             en: "The MagGo 622 fixes the biggest annoyance of wireless chargers: usability while charging. The foldable kickstand is brilliant for watching videos or FaceTime calls. It's slim enough to not feel bulky. Just remember, it's 7.5W charging, so it's not for a quick 0-50% sprint, but perfect for keeping your battery topped up throughout a busy day in Cairo.",
             ar: "يحل MagGo 622 أكبر إزعاج للشواحن اللاسلكية: سهولة الاستخدام أثناء الشحن. الحامل القابل للطي رائع لمشاهدة الفيديوهات أو مكالمات الفيديو. إنه نحيف بما يكفي لعدم الشعور بالضخامة. فقط تذكر، الشحن بقوة 7.5 واط، لذا فهو ليس للشحن السريع من 0-50%، ولكنه مثالي للحفاظ على بطاريتك مشحونة طوال وعم حافل في القاهرة."
@@ -1004,7 +1004,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "anker powerhouse, anker 521, portable power station, مولد كهرباء انكر", focusKeyword: "anker 521" },
+        meta: { keywords: "anker powerhouse, anker 521, portable power station, مولد كهرباء انكر", mainTerm: "anker 521" },
         expertOpinion: {
             en: "For frequent power outages or camping trips, the Anker 521 is a lifesaver. It's built like a tank with batteries designed to last 10 years. The 200W AC outlet is a huge plus for running small appliances. It won't power a fridge, but for keeping laptops, phones, and lights running during a blackout, it's reliable and safe.",
             ar: "لانقطاع الكهرباء المتكرر أو رحلات التخييم، تعتبر Anker 521 منقذة للحياة. صممت ببطاريات تدوم 10 سنوات. منفذ التيار المتردد 200 واط ميزة كبيرة لتشغيل الأجهزة الصغيرة. لن تشغل ثلاجة، لكن للحفاظ على عمل اللابتوب والهواتف والأضواء أثناء انقطاع التيار، فهي موثوقة وآمنة."
@@ -1094,9 +1094,9 @@ export const products = [
                 ]
             }
         },
-        seo: {
+        meta: {
             keywords: "باور بانك انكر 10000, سعر باور بانك انكر 10000, باور بنك انكر 10000, انكر 10000 مللي امبير, anker power bank 10000mah, anker powercore 10000, باور بانك 10000, شاحن متنقل انكر, anker 10000 egypt price, باور بانك انكر مصر",
-            focusKeyword: "باور بانك انكر 10000"
+            mainTerm: "باور بانك انكر 10000"
         },
         expertOpinion: {
             en: "This is the classic, reliable power bank everyone should own. It's incredibly small for its 10,000mAh capacity – truly pocket-sized. No fancy bells and whistles, just solid, fast charging for your phone. Perfect for carrying daily in your pocket or purse without weighing you down.",
@@ -1320,9 +1320,9 @@ export const products = [
                 ]
             }
         },
-        seo: {
+        meta: {
             keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, anker power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, anker 20000 egypt, باور بانك انكر مصر, anker powercore 20000 price egypt",
-            focusKeyword: "باور بانك انكر 20000"
+            mainTerm: "باور بانك انكر 20000"
         },
         expertOpinion: {
             en: "If the 10,000mAh version is for the day, this 20,000mAh beast is for the weekend. It gives you roughly double the power, great for trips or if you carry multiple devices. It's heavier, naturally, but having that extra juice is peace of mind. The dual USB ports are clutch for sharing power with a friend.",
@@ -1519,7 +1519,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "باور بانك انكر 26800, انكر 26800", focusKeyword: "باور بانك انكر 26800" },
+        meta: { keywords: "باور بانك انكر 26800, انكر 26800", mainTerm: "باور بانك انكر 26800" },
         expertOpinion: {
             en: "This is the ultimate travel companion. The 26,800mAh capacity is massive – enough to keep your phone running for a week. The three USB ports are a godsend for families or groups. It takes a while to recharge (use two cables!), but once it's full, you're set for days. A huge favorite for long trips to Dahab or Siwa.",
             ar: "هذا هو الرفيق المثالي للسفر. سعة 26,800 مللي أمبير هائلة – تكفي لتشغيل هاتفك لمدة أسبوع. منافذ USB الثلاثة نعمة للعائلات أو المجموعات. يستغرق وقتاً طويلاً لإعادة الشحن (استخدم كابلين!)، لكن بمجرد امتلاءه، فأنت جاهز لأيام. مفضل جداً للرحلات الطويلة إلى دهب أو سيوة."
@@ -1729,9 +1729,9 @@ export const products = [
                 ]
             }
         },
-        seo: {
+        meta: {
             keywords: "شاحن انكر 20 وات, شاحن انكر ٢٠ وات, شاحن انكر 20 واط, راس شاحن انكر, شاحن انكر ايفون, سعر شاحن انكر, شاحن انكر الاصلي, وصلة شاحن انكر, شاحن ايفون انكر, سعر شاحن انكر الاصلي, شاحن انكر تايب سي, انكر شاحن, سعر شاحن انكر للايفون, شاحن ايفون انكر اصلي, فيش شاحن انكر, أدابتر انكر, anker 20w charger egypt, anker charger 20w price, anker powerport 20w, anker usb-c charger, anker fast charger egypt, anker 20w iphone 17",
-            focusKeyword: "شاحن انكر 20 وات"
+            mainTerm: "شاحن انكر 20 وات"
         },
         expertOpinion: {
             en: "Don't let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
@@ -1936,9 +1936,9 @@ export const products = [
                 ]
             }
         },
-        seo: {
+        meta: {
             keywords: "شاحن انكر 25 واط, شاحن انكر ٢٥ وات, شاحن انكر سامسونج, راس شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن سريع انكر, شاحن انكر تايب سي, شاحن انكر PPS, شاحن سامسونج سوبر فاست, شاحن انكر ايفون, أفضل شاحن سامسونج S26 مصر, anker 25w charger egypt, anker pps charger, anker super fast charger",
-            focusKeyword: "شاحن انكر 25 واط"
+            mainTerm: "شاحن انكر 25 واط"
         },
         expertOpinion: {
             en: "Samsung users, this one is for you. It supports PPS (Programmable Power Supply), which means it's fully compatible with Samsung's Super Fast Charging. It's a small upgrade in price from the 20W, but for a Galaxy S24 or S25 user, the speed difference is noticeable and worth every penny.",
@@ -2123,7 +2123,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, anker 45w charger", focusKeyword: "شاحن انكر 45 واط" },
+        meta: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, anker 45w charger", mainTerm: "شاحن انكر 45 واط" },
         expertOpinion: {
             en: "The versatility of this charger is unmatched. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
@@ -2312,7 +2312,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "كابل انكر ايفون, وصلة انكر للايفون, كابل انكر تايب سي, anker lightning cable", focusKeyword: "كابل انكر ايفون" },
+        meta: { keywords: "كابل انكر ايفون, وصلة انكر للايفون, كابل انكر تايب سي, anker lightning cable", mainTerm: "كابل انكر ايفون" },
         expertOpinion: {
             en: "Cables are usually the first thing to break, but not this one. The build quality is exceptional – it feels robust and can withstand serious abuse. MFi certification means no 'accessory not supported' errors. It's a simple product, but one that solves a daily frustration perfectly.",
             ar: "عادة ما تكون الكابلات أول شيء يتلف، لكن ليس هذا. جودة التصنيع استثنائية – ملمسه قوي ويمكنه تحمل الاستخدام الشاق. شهادة MFi تعني عدم وجود أخطاء 'الملحق غير مدعوم'. منتج بسيط، لكنه يحل مشكلة يومية بشكل مثالي."
@@ -2500,7 +2500,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "كابل انكر تايب سي, وصلة انكر تايب سي, كابل USB-C انكر", focusKeyword: "كابل انكر تايب سي" },
+        meta: { keywords: "كابل انكر تايب سي, وصلة انكر تايب سي, كابل USB-C انكر", mainTerm: "كابل انكر تايب سي" },
         expertOpinion: {
             en: "A solid, no-nonsense cable for all your USB-C devices. Whether it's a Samsung phone, an iPad, or a laptop, this cable handles up to 60W flawlessly. The flexibility is great, and the connectors are reinforced. Definitely a step up from the flimsy cables that come in the box.",
             ar: "كابل قوي ومباشر لجميع أجهزة USB-C الخاصة بك. سواء كان هاتف سامسونج، آيباد، أو لابتوب، يتعامل هذا الكابل مع ما يصل إلى 60 واط بلا عيوب. المرونة رائعة، والموصلات مدعمة. بالتأكيد ترقية عن الكابلات الضعيفة التي تأتي في العلية."
@@ -2680,7 +2680,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, anker car charger", focusKeyword: "شاحن سيارة انكر" },
+        meta: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, anker car charger", mainTerm: "شاحن سيارة انكر" },
         expertOpinion: {
             en: "This charger has saved me countless times on Cairo's ring road. It sits flush in the console and charges two phones at respectable speeds. It doesn't have the super-fast PD charging of newer models, but for reliability and keeping two devices alive during a commute with GPS running, it's unbeatable.",
             ar: "لقد أنقذني هذا الشاحن مرات لا تحصى على الطريق الدائري بالقاهرة. يستقر بشكل مسطح في الكونسول ويشحن هاتفين بسرعات محترمة. ليس لديه شحن PD فائق السرعة مثل الموديلات الأحدث، ولكن للموثوقية والحفاظ على جهازين قيد التشغيل أثناء التنقل مع تشغيل GPS، لا يمكن التغلب عليه."
@@ -2891,9 +2891,9 @@ export const products = [
                 ]
             }
         },
-        seo: {
+        meta: {
             keywords: "باور بانك جوي روم 10000, باور بانك جوي روم, joyroom power bank, سعر باور بانك joyroom 10000, باور بانك joyroom 10000, باور بانك joyroom, power bank joyroom 10000, joyroom باور بانك, سعر باور بانك جوي روم ١٠٠٠٠, شاحن متنقل جوي روم, باور بانك جوي روم الأصلي, أفضل باور بانك رخيص مصر, باور بانك 10000 شحن سريع, joyroom 10000mah egypt, joyroom power bank price egypt",
-            focusKeyword: "باور بانك جوي روم 10000"
+            mainTerm: "باور بانك جوي روم 10000"
         },
         expertOpinion: {
             en: "Joyroom proves you don't need to spend a fortune for quality. This 10,000mAh bank is slimmer than most competitors and the digital percentage display is a feature usually reserved for premium models. For the price, it's an absolute steal for daily use.",
@@ -3083,7 +3083,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "باور بانك جوي روم 20000, joyroom power bank 20000", focusKeyword: "باور بانك جوي روم 20000" },
+        meta: { keywords: "باور بانك جوي روم 20000, joyroom power bank 20000", mainTerm: "باور بانك جوي روم 20000" },
         relatedProducts: ["joyroom-20w-usb-c-charger", "joyroom-usb-c-lightning-cable"],
         expertOpinion: {
             en: "Double the capacity of the 10,000mAh model, this is the heavy lifter. It supports 22.5W fast charging, which is surprisingly quick for a budget-friendly power bank. It's a bit bulky, but if you need to keep multiple devices charged for a long weekend, this is the most cost-effective solution.",
@@ -3270,7 +3270,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة joyroom t03s pro, joyroom earbuds", focusKeyword: "سماعات جوي روم" },
+        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة joyroom t03s pro, joyroom earbuds", mainTerm: "سماعات جوي روم" },
         expertOpinion: {
             en: "The T03S Pro is the budget king of ANC earbuds. The noise cancellation is genuinely effective against Cairo traffic noise. The transparency mode works well too. They fit similarly to Apple's design, so they're very comfortable. For the price, the sound quality and features are unbeatable.",
             ar: "تعد T03S Pro ملكة سماعات ANC الاقتصادية. إلغاء الضوضاء فعال حقاً ضد ضوضاء مرور القاهرة. وضع الشفافية يعمل بشكل جيد أيضاً. تناسب الأذن بشكل مشابه لتصميم أبل، لذا فهي مريحة جداً. مقابل السعر، جودة الصوت والميزات لا تضاهى."
@@ -3449,7 +3449,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "سماعة joyroom, ايربودز joyroom", focusKeyword: "سماعة joyroom" },
+        meta: { keywords: "سماعة joyroom, ايربودز joyroom", mainTerm: "سماعة joyroom" },
         expertOpinion: {
             en: "These are the reliable workhorse earbuds. No fancy ANC, just good, clear sound and reliable battery life. They are perfect for podcasts and calls. If you want a simple pair of wireless earbuds that just work without breaking the bank, these are it.",
             ar: "هذه هي سماعات الاعتمادية. لا يوجد ANC معقد، فقط صوت جيد وواضح وعمر بطارية موثوق. مثالية للبودكاست والمكالمات. إذا كنت تريد زوجاً بسيطاً من السماعات اللاسلكية يعمل فقط دون كسر الميزانية، فهذه هي."
@@ -3631,7 +3631,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger", focusKeyword: "شاحن جوي روم" },
+        meta: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger", mainTerm: "شاحن جوي روم" },
         relatedProducts: ["joyroom-usb-c-lightning-cable", "joyroom-power-bank-10000"],
         expertOpinion: {
             en: "A fantastic alternative to more expensive brands. It delivers the same 20W PD charging speed for iPhones as the big names. It runs cool and feels solid. I've used this personally for months with zero issues. Great for a secondary charger at the office.",
@@ -3819,7 +3819,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "كابل جوي روم, cable joyroom", focusKeyword: "كابل جوي روم" },
+        meta: { keywords: "كابل جوي روم, cable joyroom", mainTerm: "كابل جوي روم" },
         expertOpinion: {
             en: "This cable surprises with its build quality. The nylon braiding is tight and resists tangling. It handles 20W fast charging perfectly. It performs flawlessly for daily charging and is a fraction of the price of official cables.",
             ar: "هذا الكابل يفاجئ بجودة تصنيعه. تجديل النايلون محكم ويقاوم التشابك. يتعامل مع الشحن السريع 20 واط بشكل مثالي. يؤدي عمله بلا عيوب للشحن اليومي وبجزء بسيط من سعر الكابلات الرسمية."
@@ -4000,7 +4000,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "anker soundcore life p2i, soundcore earbuds, سماعات انكر, ساوند كور", focusKeyword: "anker soundcore life p2i" },
+        meta: { keywords: "anker soundcore life p2i, soundcore earbuds, سماعات انكر, ساوند كور", mainTerm: "anker soundcore life p2i" },
         expertOpinion: {
             en: "These focus purely on call quality and battery life. The AI-enhanced mics really do make a difference in noisy environments. The sound is punchy with the Bass mode. If you spend a lot of time on calls and want Anker reliability, pick these over the generic budget options.",
             ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية Anker، اختر هذه بدلاً من الخيارات الاقتصادية العامة."
@@ -4178,7 +4178,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية", focusKeyword: "joyroom ft3" },
+        meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية", mainTerm: "joyroom ft3" },
         expertOpinion: {
             en: "A stylish smartwatch that doesn't cost a fortune. The screen is bright and responsive. It tracks steps and heart rate accurately for casual fitness. It handles notifications well, supporting Arabic perfectly. It won't replace an Apple Watch, but it covers 80% of the needs for 10% of the price.",
             ar: "ساعة ذكية أنيقة لا تكلف ثروة. الشاشة ساطعة وسريعة الاستجابة. تتبع الخطوات ومعدل ضربات القلب بدقة للياقة البدنية العادية. تتعامل مع الإشعارات بشكل جيد، وتدعم العربية تماماً. لن تحل محل Apple Watch، لكنها تغطي 80% من الاحتياجات بـ 10% من السعر."
@@ -4366,7 +4366,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي", focusKeyword: "joyroom car mount" },
+        meta: { keywords: "joyroom car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي", mainTerm: "joyroom car mount" },
         expertOpinion: {
             en: "Simple, strong, and effective. The magnet is surprisingly powerful – my phone didn't budge even on speed bumps. It clips securely to the air vent and doesn't rattle. If you want a minimalist mount that just holds your phone securely, this is the one.",
             ar: "بسيط، قوي، وفعال. المغناطيس قوي بشكل مدهش – لم يتحرك هاتفي حتى على المطبات. يشبك بإحكام في فتحة التكييف ولا يهتز. إذا كنت تريد حاملاً بسيطاً يمسك هاتفك بإحكام فقط، فهذا هو."
@@ -4546,7 +4546,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر", focusKeyword: "joyroom 25w charger" },
+        meta: { keywords: "joyroom 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر", mainTerm: "joyroom 25w charger" },
         expertOpinion: {
             en: "Designed for the modern era. It bridges the gap between iPhone (20W) and Samsung (25W). Compact and powerful, it's the versatile choice if you have a mix of devices in your household. A great all-rounder.",
             ar: "صمم للعصر الحديث. يسد الفجوة بين ايفون (20 واط) وسامسونج (25 واط). صغير وقوي، إنه الخيار المتعدد الاستخدامات إذا كان لديك خليط من الأجهزة في منزلك. شامل رائع."
@@ -4725,7 +4725,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 30w charger, شاحن 30 واط, شاحن ايفون 17 سريع, iphone 17 max speed charger, شاحن PD QC مصر", focusKeyword: "joyroom 30w charger" },
+        meta: { keywords: "joyroom 30w charger, شاحن 30 واط, شاحن ايفون 17 سريع, iphone 17 max speed charger, شاحن PD QC مصر", mainTerm: "joyroom 30w charger" },
         expertOpinion: {
             en: "Future-proof your charging. With 30W, it maxes out the iPhone 17's charging speed and handles tablets easily. Supporting both PD and QC ensures it charges almost anything fast. It's the one brick to carry for all your mobile gear.",
             ar: "امن شحنك للمستقبل. مع 30 واط، يستغل أقصى سرعة شحن لايفون 17 ويتعامل مع التابلت بسهولة. دعم كل من PD و QC يضمن شحن أي شيء تقريباً بسرعة. إنه الشاحن الوحيد لحمله لجميع معداتك المحمولة."
@@ -4901,7 +4901,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر", focusKeyword: "joyroom magnetic power bank" },
+        meta: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر", mainTerm: "joyroom magnetic power bank" },
         expertOpinion: {
             en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
             ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."
@@ -5077,7 +5077,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج", focusKeyword: "joyroom 60w car charger" },
+        meta: { keywords: "joyroom car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج", mainTerm: "joyroom 60w car charger" },
         expertOpinion: {
             en: "The Swiss Army knife of car chargers. The retractable cables mean no more tangled mess in your console. 60W is enough to charge a laptop or fast, charge two phones at once. It keeps your car interior neat while delivering serious power.",
             ar: "سكين الجيش السويسري لشواحن السيارات. الكابلات القابلة للسحب تعني لا مزيد من الفوضى المتشابكة في الكونسول. 60 واط كافية لشحن لابتوب أو شحن هاتفين بسرعة في وقت واحد. تحافظ على نظافة سيارتك من الداخل مع توفير طاقة جدية."
@@ -5252,7 +5252,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر", focusKeyword: "joyroom 3-in-1 wireless charger" },
+        meta: { keywords: "joyroom 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر", mainTerm: "joyroom 3-in-1 wireless charger" },
         expertOpinion: {
             en: "Clean up your nightstand instanty. One cable for phone, watch, and pods. The build quality feels premium with the metal accents. It charges the watch surprisingly fast for a 3-in-1. Essential for anyone deep in the Apple ecosystem.",
             ar: "نظف منضدتك فوراً. كابل واحد للهاتف والساعة والسماعات. جودة التصنيع تشعرك بالفخامة مع اللمسات المعدنية. يشحن الساعة بسرعة مدهشة لكونه 3 في 1. ضروري لأي شخص منغمس في نظام أبل."
@@ -5305,7 +5305,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt", focusKeyword: "joyroom 3-in-1 cable" }
+        meta: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt", mainTerm: "joyroom 3-in-1 cable" }
     },
     {
         slug: "joyroom-car-phone-mount",
@@ -5400,7 +5400,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة", focusKeyword: "joyroom car phone mount" }
+        meta: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة", mainTerm: "joyroom car phone mount" }
     },
     {
         slug: "joyroom-usb-c-cable-60w",
@@ -5445,7 +5445,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", focusKeyword: "joyroom 60w usb-c cable" }
+        meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", mainTerm: "joyroom 60w usb-c cable" }
     },
     {
         slug: "joyroom-type-c-lightning-braided",
@@ -5491,7 +5491,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt", focusKeyword: "joyroom usb-c lightning cable" }
+        meta: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt", mainTerm: "joyroom usb-c lightning cable" }
     },
     {
         slug: "joyroom-30w-pd-cable",
@@ -5535,7 +5535,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي", focusKeyword: "joyroom 30w pd cable" }
+        meta: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي", mainTerm: "joyroom 30w pd cable" }
     },
     {
         slug: "joyroom-usb-a-lightning-cable",
@@ -5582,7 +5582,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون", focusKeyword: "joyroom usb-a lightning" }
+        meta: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون", mainTerm: "joyroom usb-a lightning" }
     },
     {
         slug: "joyroom-type-c-to-type-c-cable",
@@ -5628,7 +5628,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17", focusKeyword: "joyroom usb-c cable" }
+        meta: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17", mainTerm: "joyroom usb-c cable" }
     },
     {
         slug: "joyroom-usb-a-micro-cable",
@@ -5675,7 +5675,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد", focusKeyword: "joyroom micro usb cable" }
+        meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد", mainTerm: "joyroom micro usb cable" }
     },
     {
         slug: "joyroom-usb-a-type-c-cable",
@@ -5722,7 +5722,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون", focusKeyword: "joyroom usb-a type-c" }
+        meta: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون", mainTerm: "joyroom usb-a type-c" }
     },
     {
         slug: "anker-usb-c-lightning-sureistrong",
@@ -5767,7 +5767,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "anker sureistrong, anker lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, anker cable egypt", focusKeyword: "anker sureistrong lightning" }
+        meta: { keywords: "anker sureistrong, anker lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, anker cable egypt", mainTerm: "anker sureistrong lightning" }
     },
     {
         slug: "joyroom-type-c-lightning-24mos",
@@ -5813,7 +5813,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom lightning 24 month, كابل ضمان 24 شهر, كابل ايفون ضمان", focusKeyword: "joyroom lightning 24 month warranty" }
+        meta: { keywords: "joyroom lightning 24 month, كابل ضمان 24 شهر, كابل ايفون ضمان", mainTerm: "joyroom lightning 24 month warranty" }
     },
     {
         slug: "joyroom-type-c-lightning-36mos",
@@ -5863,7 +5863,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom lightning 36 month, كابل ضمان 36 شهر, كابل ايفون ضمان طويل", focusKeyword: "joyroom lightning 36 month warranty" },
+        meta: { keywords: "joyroom lightning 36 month, كابل ضمان 36 شهر, كابل ايفون ضمان طويل", mainTerm: "joyroom lightning 36 month warranty" },
         expertOpinion: {
             en: "The 'buy it for life' option of cables. 3 years is an eternity in tech accessories. The build is armored to match the warranty. If you're tired of replacing cables constantly, this is your final stop.",
             ar: "خيار 'اشتريه للعمر' من الكابلات. 3 سنوات تعتبر دهراً في اكسسوارات التقنية. البناء مدرع ليتناسب مع الضمان. إذا تعبت من استبدال الكابلات باستمرار، فهذه محطتك الأخيرة."
@@ -5914,7 +5914,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom usb-a type-c 1.2m, كابل type-c طويل, كابل ايفون 17 طويل", focusKeyword: "joyroom usb-a type-c 1.2m" },
+        meta: { keywords: "joyroom usb-a type-c 1.2m, كابل type-c طويل, كابل ايفون 17 طويل", mainTerm: "joyroom usb-a type-c 1.2m" },
         expertOpinion: {
             en: "That extra 20cm makes a huge difference. It's the perfect length for the car or desk where 1m is just slightly too short. Combining legacy USB-A compatibility with the extra reach makes it a very practical choice.",
             ar: "تلك الـ 20 سم الإضافية تحدث فرقاً كبيراً. إنه الطول المثالي للسيارة أو المكتب حيث 1 متر قصير قليلاً. الجمع بين توافق USB-A القديم والمدى الإضافي يجعله خياراً عملياً جداً."
@@ -5970,7 +5970,7 @@ export const products = [
                 ]
             }
         },
-        seo: { keywords: "joyroom lightning 1.2m, كابل لايتنينج طويل, كابل ايفون 14 طويل", focusKeyword: "joyroom usb-a lightning 1.2m" },
+        meta: { keywords: "joyroom lightning 1.2m, كابل لايتنينج طويل, كابل ايفون 14 طويل", mainTerm: "joyroom usb-a lightning 1.2m" },
         expertOpinion: {
             en: "Similar to its Type-C sibling, the extra length is the key feature here. Great for iPhone users sticking with legacy chargers. The 36-month warranty on this specific model makes it an absolute stealth bargain.",
             ar: "مشابه لشقيقه Type-C، الطول الإضافي هو الميزة الأساسية هنا. رائع لمستخدمي iPhone المتمسكين بالشواحن القديمة. ضمان 36 شهراً على هذا الموديل بالتحديد يجعله صفقة خفية مطلقة."

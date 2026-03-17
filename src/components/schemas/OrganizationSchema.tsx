@@ -26,7 +26,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                     caption: name,
                 },
                 description: description,
-                // Brand Affiliation: Tying our local entity to Massive Global Knowledge Graphs
+                // Brand Affiliation: Linking to official brand data
                 brand: [
                     {
                         '@type': 'Brand',
@@ -47,7 +47,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                 taxID: '777-471-566',
                 vatID: '777-471-566',
                 iso6523Code: '0188:8446',
-                // Trust & Legal Signals: Explicitly defining Corporate Identifiers from Official Documents
+                // Corporate Identifiers from Official Documents
                 identifier: [
                     {
                         '@type': 'PropertyValue',
@@ -60,7 +60,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                         value: '8446' // المستخرج الخاص بالمركز العام
                     }
                 ],
-                // E-E-A-T Authority: Explicitly declaring authorized distributorship
+                // Distributorship Declaration
                 award: [
                     isArabic ? 'موزع معتمد لمنتجات Anker في مصر' : 'Authorized Distributor for Anker in Egypt',
                     isArabic ? 'موزع معتمد لمنتجات Joyroom في مصر' : 'Authorized Distributor for Joyroom in Egypt'
@@ -124,7 +124,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                 '@type': 'ElectronicsStore',
                 '@id': 'https://cairovolt.com/#store',
                 parentOrganization: { '@id': 'https://cairovolt.com/#organization' },
-                name: isArabic ? 'كايرو فولت - متجر الإلكترونيات' : 'Cairo Volt Fulfillment Hub',
+                name: isArabic ? 'كايرو فولت - متجر الإلكترونيات' : 'Cairo Volt - Electronics Store',
                 paymentAccepted: 'Cash on Delivery',
                 currenciesAccepted: 'EGP',
                 address: {

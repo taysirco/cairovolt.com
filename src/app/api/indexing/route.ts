@@ -5,7 +5,7 @@ import { revalidatePath } from 'next/cache';
 /**
  * Google Indexing API Webhook
  * Called by Firebase Cloud Functions when product price/stock changes in Firestore.
- * Instantly notifies Google to re-crawl the updated product page.
+ * Notifies the Indexing API about updated product pages.
  *
  * Required env vars:
  *   INDEXING_WEBHOOK_SECRET - Bearer token for auth

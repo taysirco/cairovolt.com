@@ -6,7 +6,7 @@
  * cache-friendly and SSR-safe. Numbers are realistic based on actual Bosta delivery
  * performance data from governorates.ts.
  * 
- * This creates 100% unique data per governorate page — impossible for Amazon to replicate.
+ * This creates region-specific data for each governorate page.
  */
 
 import { getGovernorateBySlug, type Governorate } from '@/data/governorates';

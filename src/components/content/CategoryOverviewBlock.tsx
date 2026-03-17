@@ -1,6 +1,5 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 // ============================================
@@ -33,7 +32,6 @@ export function CategoryOverviewBlock({
     variant = 'product',
     shortDescription
 }: CategoryOverviewBlockProps) {
-    const t = useTranslations('aeo');
     const isArabic = locale === 'ar';
 
     // Hash to rotate content naturally based on the product/brand
@@ -124,7 +122,7 @@ export function CategoryOverviewBlock({
                 </div>
             </div>
 
-            {/* Trust Indicators — Dynamically Rotated */}
+            {/* Quality Indicators — Dynamically Rotated */}
             <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700 flex flex-wrap gap-3 text-xs text-gray-500 dark:text-gray-400">
                 {(() => {
                     const arTrustSets = [

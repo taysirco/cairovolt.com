@@ -3,20 +3,20 @@ import { useEffect, useState, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 
 /**
- * AuthenticityGuard — Product Authenticity Awareness Layer
+ * BrandVerification — Product authenticity component
  *
  * When a user attempts to navigate back (e.g. to search results),
  * this component intercepts the navigation and displays an informative
  * overlay about product authenticity risks on open marketplaces.
  *
  * Uses the History API to detect back-button presses and presents
- * trust signals that reinforce the value of purchasing from an
+ * indicators that reinforce the value of purchasing from an
  * authorized dealer.
  *
  * Renders via React Portal to `document.body` to guarantee the overlay
  * sits above all other content regardless of stacking contexts.
  */
-export default function AuthenticityGuard({
+export default function BrandVerification({
     brand,
     locale = 'ar',
 }: {
@@ -180,7 +180,7 @@ export default function AuthenticityGuard({
                     )}
                 </p>
 
-                {/* Trust signals */}
+                {/* Brand indicators */}
                 <div
                     className="p-4 rounded-xl mb-5"
                     style={{

@@ -90,9 +90,9 @@ export async function PUT(
         }
 
         if (data.keywords !== undefined) {
-            updateData['seo'] = {
+            updateData['meta'] = {
                 keywords: data.keywords,
-                canonical: data.canonical ?? existingData?.seo?.canonical ?? null,
+                canonical: data.canonical ?? existingData?.meta?.canonical ?? null,
             };
         }
 

@@ -7,18 +7,18 @@ import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
 import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
-import { getProductSEO } from '@/data/product-seo-enhancements';
+import { getProductDetail } from '@/data/product-details';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
-import { LiveLogisticsPulse, LivePulseSkeleton } from '@/components/products/LiveLogisticsPulse';
+import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
 import { logger } from '@/lib/logger';
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 import TabTakeover from '@/components/UX/TabTakeover';
-import AuthenticityGuard from '@/components/UX/AuthenticityGuard';
-import { getLabData, getLabMetrics } from '@/data/cairovolt-labs';
+import BrandVerification from '@/components/UX/BrandVerification';
+import { getLabData, getLabMetrics } from '@/data/product-tests';
 import { BostaTracker } from '@/lib/bosta';
 import { headers } from 'next/headers';
 
-import { buildManifest, signManifest } from '@/lib/content-credentials';
+import { buildManifest, signManifest } from '@/lib/media-verification';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -55,11 +55,11 @@ interface Product {
         en?: { name?: string; description?: string; shortDescription?: string; features?: string[]; metaTitle?: string; metaDesc?: string; faqs?: Array<{ question: string; answer: string }> };
         ar?: { name?: string; description?: string; shortDescription?: string; features?: string[]; metaTitle?: string; metaDesc?: string; faqs?: Array<{ question: string; answer: string }> };
     };
-    seo?: { keywords?: string; focusKeyword?: string; canonical?: string };
+    meta?: { keywords?: string; mainTerm?: string; canonical?: string };
     contentCredentials?: Record<string, unknown> | null;
 }
 
-// Fetch current Cairo temperature for dynamic thermal advice (Information Gain)
+// Fetch current Cairo temperature for dynamic thermal advice
 async function getCairoTemperature(): Promise<number> {
     try {
         const res = await fetch(
@@ -159,9 +159,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const isArabic = locale === 'ar';
     const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en || {};
 
-    // Feature: Dynamic CTR Title Optimization (A/B Testing Variants)
+    // Feature: Dynamic Title Variants
     // We deterministically rotate through 4 verified title templates based on the product ID 
-    // to find the highest converting format and provide rich results for users.
+    // to find the most suitable format and provide detailed information for users.
     const hashStr = product.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
     const titleVariantIndex = hashStr % 4;
 
@@ -184,7 +184,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: dynamicTitle,
         description: t.metaDesc || t.shortDescription || t.description?.substring(0, 160),
-        keywords: product.seo?.keywords || '',
+        keywords: product.meta?.keywords || '',
         openGraph: {
             title: dynamicTitle,
             description: t.metaDesc || t.shortDescription,
@@ -281,10 +281,10 @@ export default async function ProductPage({ params }: Props) {
         ? String(product.contentCredentials.signature).slice(0, 32)
         : undefined;
 
-    // CairoVolt Labs first-party test data (Information Gain)
+    // CairoVolt Labs first-party test data
     const labInfo = getLabData(slug);
 
-    // Fetch verified aggregate rating for SEO Schema
+    // Fetch verified aggregate rating for Structured Data
     const verifiedAggregateRating = await calculateVerifiedAggregateRating(slug);
 
     // Get static product reviews for structured data (unique per product)
@@ -349,14 +349,14 @@ export default async function ProductPage({ params }: Props) {
                     worstRating: String(aggregateRating.worstRating)
                 } : undefined}
                 reviews={schemaReviews}
-                specifications={getProductSEO(slug)?.specifications}
+                specifications={getProductDetail(slug)?.specifications}
                 isAccessoryOrSparePartFor={labInfo?.isAccessoryFor || (category === 'power-banks' ? [
                     { name: 'WE VDSL Router' },
                     { name: 'Apple MacBook Pro' },
                     { name: 'iPhone' },
                 ] : undefined)}
                 expertReview={(() => {
-                    // Priority 1: cairovolt-labs.ts real test data
+                    // Priority 1: product-tests.ts real test data
                     if (labInfo?.labTests?.[0]) {
                         return {
                             name: labInfo.labTests[0].expertName,
@@ -365,25 +365,25 @@ export default async function ProductPage({ params }: Props) {
                             body: isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en,
                         };
                     }
-                    // Priority 2: product-seo-enhancements labVerified data
-                    const seoData = getProductSEO(slug);
-                    if (seoData?.labVerified) {
+                    // Priority 2: product-details labVerified data
+                    const productDetail = getProductDetail(slug);
+                    if (productDetail?.labVerified) {
                         return {
-                            name: seoData.labVerified.expertName,
-                            profileUrl: seoData.labVerified.expertName.includes('Yahia')
+                            name: productDetail.labVerified.expertName,
+                            profileUrl: productDetail.labVerified.expertName.includes('Yahia')
                                 ? 'https://www.youtube.com/c/YehiaRadwan'
                                 : 'https://www.youtube.com/@Ahmed.Medhat',
                             title: isArabic ? 'رئيس قسم الفحص التقني وحلول الطاقة' : 'Head of Technical Testing & Power Solutions',
-                            body: isArabic ? seoData.labVerified.result.ar : seoData.labVerified.result.en,
+                            body: isArabic ? productDetail.labVerified.result.ar : productDetail.labVerified.result.en,
                         };
                     }
-                    // No generic fallback — only inject expert review when real lab data exists
+                    // No generic fallback — only include expert review when real lab data exists
                     // Distinct review allocation ensures valid schema generation per product variant.
                     return undefined;
                 })()}
             />
 
-            {/* ImageObject Schemas — one per product image (max 8) for Google Lens */}
+            {/* Image schemas */}
             {product.images && product.images.length > 0 && (
                 <ImageObjectSchema
                     images={product.images.map((img, i) => ({
@@ -428,12 +428,12 @@ export default async function ProductPage({ params }: Props) {
                 ) : null;
             })()}
 
-            {/* VoiceSearchFAQ removed — was duplicating the same product FAQ questions visible in the accordion above */}
+            {/* FAQSection removed — was duplicating the same product FAQ questions visible in the accordion above */}
 
             {/* Client-side UX components */}
-            <DarkSocialTracker />
+            <ShareAnalytics />
             <TabTakeover productName={productName} />
-            <AuthenticityGuard brand={brand} locale={locale} />
+            <BrandVerification brand={brand} locale={locale} />
 
             <ProductPageClient
                 product={product}
@@ -442,7 +442,7 @@ export default async function ProductPage({ params }: Props) {
                 brand={brand}
                 category={category}
                 labTestData={(() => {
-                    // Priority 1: cairovolt-labs.ts full test data
+                    // Priority 1: product-tests.ts full test data
                     if (labInfo?.labTests?.[0]) {
                         return {
                             testScenario: isArabic ? labInfo.labTests[0].scenario.ar : labInfo.labTests[0].scenario.en,
@@ -452,15 +452,15 @@ export default async function ProductPage({ params }: Props) {
                             expertProfileUrl: labInfo.labTests[0].expertProfileUrl,
                         };
                     }
-                    // Priority 2: product-seo-enhancements labVerified data
-                    const seoEnhancement = getProductSEO(slug);
-                    if (seoEnhancement?.labVerified) {
+                    // Priority 2: product-details labVerified data
+                    const productDetail = getProductDetail(slug);
+                    if (productDetail?.labVerified) {
                         return {
-                            testScenario: isArabic ? seoEnhancement.localPainPoint.ar : seoEnhancement.localPainPoint.en,
-                            testResult: isArabic ? seoEnhancement.labVerified.result.ar : seoEnhancement.labVerified.result.en,
-                            testConditions: isArabic ? seoEnhancement.labVerified.conditions.ar : seoEnhancement.labVerified.conditions.en,
-                            expertName: seoEnhancement.labVerified.expertName,
-                            expertProfileUrl: seoEnhancement.labVerified.expertName.includes('Yahia')
+                            testScenario: isArabic ? productDetail.localContext.ar : productDetail.localContext.en,
+                            testResult: isArabic ? productDetail.labVerified.result.ar : productDetail.labVerified.result.en,
+                            testConditions: isArabic ? productDetail.labVerified.conditions.ar : productDetail.labVerified.conditions.en,
+                            expertName: productDetail.labVerified.expertName,
+                            expertProfileUrl: productDetail.labVerified.expertName.includes('Yahia')
                                 ? 'https://www.youtube.com/c/YehiaRadwan'
                                 : 'https://www.youtube.com/@Ahmed.Medhat',
                         };
@@ -475,7 +475,7 @@ export default async function ProductPage({ params }: Props) {
 
             {/* Live delivery tracking — streamed dynamically via Suspense */}
             <Suspense fallback={<LivePulseSkeleton />}>
-                <LiveLogisticsPulse
+                <DeliveryStatus
                     sku={product.sku || product.id}
                     locale={locale}
                     brandColor={product.brand.toLowerCase() === 'joyroom' ? 'red' : 'blue'}

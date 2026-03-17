@@ -48,7 +48,7 @@ const QuickCODSchema = z.object({
         ),
     // Optional enrichment fields
     name: z.string().max(100).optional(),
-    source: z.enum(['serp', 'ai_agent', 'shortcut', 'direct']).default('serp'),
+    source: z.enum(['search', 'ai_agent', 'shortcut', 'direct']).default('search'),
     locale: z.enum(['ar', 'en']).default('ar'),
 });
 

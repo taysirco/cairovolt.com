@@ -1,7 +1,7 @@
-export interface PainPointSolution {
+export interface UserSolution {
     id: string;
     slug: string;
-    targetKeyword: {
+    searchQuery: {
         en: string;
         ar: string;
     };
@@ -14,16 +14,16 @@ export interface PainPointSolution {
         ar: string;
     };
     recommendedProductSlugs: string[];
-    relatedPainPoints: string[];
+    relatedSolutions: string[];
 }
 
-// Pillar 3: Micro-Intent Routing (Project Titan)
-// Captures hyperspecific long-tail searches and maps them to technical solutions.
-export const painPointsDB: PainPointSolution[] = [
+// Solution Routing 
+// Captures specific user questions and maps them to technical solutions.
+export const solutionsDB: UserSolution[] = [
     {
         id: 'iphone-15-overheating-car',
         slug: 'iphone-15-pro-max-car-overheating-solution',
-        targetKeyword: {
+        searchQuery: {
             en: 'Why does my iPhone 15 Pro Max overheat in the car charger',
             ar: 'حل مشكلة سخونة الايفون 15 برو ماكس في شاحن السيارة'
         },
@@ -39,12 +39,12 @@ export const painPointsDB: PainPointSolution[] = [
             'joyroom-60w-car-charger',
             'joyroom-72w-car-charger'
         ],
-        relatedPainPoints: ['slow-charging-maps-navigation']
+        relatedSolutions: ['slow-charging-maps-navigation']
     },
     {
         id: 'slow-charging-maps-navigation',
         slug: 'battery-drains-while-plugged-in-using-google-maps',
-        targetKeyword: {
+        searchQuery: {
             en: 'Battery drains while charging when using Google Maps',
             ar: 'البطارية بتنقص والموبايل في الشاحن اثناء تشغيل الخرائط'
         },
@@ -60,10 +60,10 @@ export const painPointsDB: PainPointSolution[] = [
             'joyroom-72w-car-charger',
             'joyroom-15w-magsafe-car-mount'
         ],
-        relatedPainPoints: ['iphone-15-overheating-car']
+        relatedSolutions: ['iphone-15-overheating-car']
     }
 ];
 
-export function getPainPointBySlug(slug: string): PainPointSolution | undefined {
-    return painPointsDB.find(p => p.slug === slug);
+export function getSolutionBySlug(slug: string): UserSolution | undefined {
+    return solutionsDB.find(p => p.slug === slug);
 }

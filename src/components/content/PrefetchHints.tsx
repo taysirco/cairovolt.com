@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 
-export default function SpeculationRules() {
+export default function PrefetchHints() {
     const pathname = usePathname();
 
     // Speculation Rules API - Supported natively in Chrome 109+

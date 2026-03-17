@@ -28,13 +28,13 @@ import { getFirestore, Firestore, WriteBatch } from 'firebase-admin/firestore';
 import { categories, products } from '../src/data/seed-products';
 import { blogArticles } from '../src/data/blog-articles';
 import { productReviewsDb } from '../src/data/product-reviews';
-import { categoryData } from '../src/data/category-seo';
+import { categoryContent as categoryData } from '../src/data/category-content';
 import { genericCategories } from '../src/data/generic-categories';
 import { brandData } from '../src/data/brand-data';
-import { enhancements as seoEnhancements } from '../src/data/product-seo-enhancements';
-import { labData as cairovoltLabData } from '../src/data/cairovolt-labs';
+import { enhancements as productEnhancements } from '../src/data/product-details';
+import { labData as cairovoltLabData } from '../src/data/product-tests';
 import { governorates } from '../src/data/governorates';
-import { painPointsDB } from '../src/data/pain-points';
+import { solutionsDB as painPointsDB } from '../src/data/solutions-data';
 
 // ── CLI Args ──
 const args = process.argv.slice(2);
@@ -240,20 +240,20 @@ async function seedProductReviews(db: Firestore): Promise<SeederResult> {
     }
 }
 
-// 5. Category SEO
-async function seedCategorySeo(db: Firestore): Promise<SeederResult> {
-    const collName = 'category_seo';
+// 5. Category Content
+async function seedCategoryContent(db: Firestore): Promise<SeederResult> {
+    const collName = 'category_content';
     try {
-        // categoryData is Record<brand, Record<categoryName, CategorySeoData>>
+        // categoryData is Record<brand, Record<categoryName, CategoryContentData>>
         // Flatten to docs with id = "brand--categorySlug"
         const docs: Array<{ id: string; data: Record<string, any> }> = [];
         for (const [brand, cats] of Object.entries(categoryData)) {
-            for (const [catName, seoData] of Object.entries(cats)) {
+            for (const [catName, categoryData] of Object.entries(cats)) {
                 const id = `${brand.toLowerCase()}--${catName}`;
                 if (validateDocId(id, collName)) {
                     docs.push({
                         id,
-                        data: withMeta(sanitize({ ...seoData, _brand: brand, _categorySlug: catName })),
+                        data: withMeta(sanitize({ ...categoryData, _brand: brand, _categorySlug: catName })),
                     });
                 }
             }
@@ -265,12 +265,12 @@ async function seedCategorySeo(db: Firestore): Promise<SeederResult> {
     }
 }
 
-// 6. SEO Enhancements
-async function seedSeoEnhancements(db: Firestore): Promise<SeederResult> {
-    const collName = 'seo_enhancements';
+// 6. Product Details
+async function seedProductDetails(db: Firestore): Promise<SeederResult> {
+    const collName = 'product_details';
     try {
-        // seoEnhancements is Record<slug, ProductSEOEnhancement>
-        const docs = Object.entries(seoEnhancements)
+        // productEnhancements is Record<slug, ProductDetailEnhancement>
+        const docs = Object.entries(productEnhancements)
             .map(([slug, enhancement]) => ({
                 id: slug,
                 data: withMeta(sanitize({ productSlug: slug, ...(enhancement as any) })),
@@ -344,9 +344,9 @@ async function seedGovernorates(db: Firestore): Promise<SeederResult> {
     }
 }
 
-// 11. Pain Points (NEW)
-async function seedPainPoints(db: Firestore): Promise<SeederResult> {
-    const collName = 'pain_points';
+// 11. Solutions Data (NEW)
+async function seedSolutionsData(db: Firestore): Promise<SeederResult> {
+    const collName = 'solutions_data';
     try {
         const docs = painPointsDB.map(pp => ({
             id: pp.slug,
@@ -378,13 +378,13 @@ const ALL_SEEDERS: Record<string, (db: Firestore) => Promise<SeederResult>> = {
     products: seedProducts,
     blog_articles: seedBlogArticles,
     product_reviews: seedProductReviews,
-    category_seo: seedCategorySeo,
-    seo_enhancements: seedSeoEnhancements,
+    category_content: seedCategoryContent,
+    product_details: seedProductDetails,
     generic_categories: seedGenericCategories,
     brand_data: seedBrandData,
     cairovolt_labs: seedCairovoltLabs,
     governorates: seedGovernorates,
-    pain_points: seedPainPoints,
+    solutions_data: seedSolutionsData,
 };
 
 // Expected counts for verification
@@ -393,13 +393,13 @@ const EXPECTED_COUNTS: Record<string, number> = {
     products: products.length,
     blog_articles: blogArticles.length,
     product_reviews: Object.keys(productReviewsDb).length,
-    category_seo: Object.values(categoryData).reduce((sum, cats) => sum + Object.keys(cats).length, 0),
-    seo_enhancements: Object.keys(seoEnhancements).length,
+    category_content: Object.values(categoryData).reduce((sum, cats) => sum + Object.keys(cats).length, 0),
+    product_details: Object.keys(productEnhancements).length,
     generic_categories: genericCategories.length,
     brand_data: Object.keys(brandData).length,
     cairovolt_labs: Object.keys(cairovoltLabData).length,
     governorates: governorates.length,
-    pain_points: painPointsDB.length,
+    solutions_data: painPointsDB.length,
 };
 
 async function main() {

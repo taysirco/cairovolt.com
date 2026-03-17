@@ -23,7 +23,7 @@ interface ComparisonTableProps {
     locale: string;
 }
 
-// Default competitors for Anker products
+// Default comparison brands for Anker products
 const defaultAnkerCompetitors = {
     en: [
         { name: 'Amazon Egypt', price: 'Higher', warranty: '12 months (international)', delivery: '5-7 days', original: true },
@@ -142,7 +142,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                 </table>
             </div>
 
-            {/* Trust Signal */}
+            {/* Quality indicator */}
             {(() => {
                 const seedStr = product.slug || '';
                 const catHash = seedStr.split('').reduce((acc: number, char: string) => acc + char.charCodeAt(0), 0);
@@ -249,7 +249,7 @@ export function CategoryComparisonTable({ products, categoryName, locale }: Cate
     );
 }
 
-// Expert Opinion Component (E-E-A-T Signal)
+// Expert Opinion Component
 interface ExpertOpinionProps {
     productName: string;
     brand: string;
@@ -282,7 +282,7 @@ export function ExpertOpinion({ productName, brand, category, locale, customOpin
     };
 
     // STRICT CHECK: If no custom opinion is provided, DO NOT render anything.
-    // This eliminates "programmatic duplicate content" penalties.
+    // This ensures unique content for each device comparison.
     if (!customOpinion) {
         return null;
     }

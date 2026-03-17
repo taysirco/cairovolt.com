@@ -2,18 +2,18 @@
 import { MetadataRoute } from 'next';
 import { brandData } from '@/data/brand-data';
 import { governorates } from '@/data/governorates';
-import { categoryData } from '@/data/category-seo';
+import { categoryContent } from '@/data/category-content';
 import { staticProducts } from '@/lib/static-products';
 import { logger } from '@/lib/logger';
 import { blogArticles } from '@/data/blog-articles';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
-import { labData } from '@/data/cairovolt-labs';
-import { getProductSEO } from '@/data/product-seo-enhancements';
+import { labData } from '@/data/product-tests';
+import { getProductDetail } from '@/data/product-details';
 
 const baseUrl = 'https://cairovolt.com';
 
-// Helper to ensure lowercase brands/categories for URLs (Strict SEO requirement)
+// Helper to ensure lowercase brands/categories for URLs (Strict URL best practice)
 const toLower = (str: string) => str.toLowerCase();
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -30,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${baseUrl}/contact`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date('2025-12-01') },
         { url: `${baseUrl}/en/contact`, priority: 0.6, changeFrequency: 'monthly', lastModified: new Date('2025-12-01') },
 
-        // FAQ Pages - High priority for AEO/Voice Search
+        // FAQ Pages - High priority for structured data/Voice Search
         { url: `${baseUrl}/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: new Date('2026-03-15') },
         { url: `${baseUrl}/en/faq`, priority: 0.7, changeFrequency: 'weekly', lastModified: new Date('2026-03-15') },
 
@@ -66,9 +66,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     // Dynamic Category Pages - Strict Lowercase
-    Object.keys(categoryData).forEach(brandId => {
+    Object.keys(categoryContent).forEach(brandId => {
         const brandSlug = toLower(brandId);
-        const brandCategories = categoryData[brandId];
+        const brandCategories = categoryContent[brandId];
         Object.keys(brandCategories).forEach(catSlug => {
             const categorySlug = toLower(catSlug);
             routes.push({
@@ -92,7 +92,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     staticProducts.forEach(product => {
         const brandSlug = toLower(product.brand);
         const categorySlug = toLower(product.categorySlug);
-        const hasLabData = !!(labData[product.slug] || getProductSEO(product.slug)?.labVerified);
+        const hasLabData = !!(labData[product.slug] || getProductDetail(product.slug)?.labVerified);
         const productPriority = hasLabData ? 1.0 : 0.9;
         routes.push({
             url: `${baseUrl}/${brandSlug}/${categorySlug}/${product.slug}`,
@@ -189,10 +189,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         });
     });
 
-    // Solution Pages (Pain Point micro-intent pages)
+    // Solution Pages (Solution pages)
     try {
-        const { painPointsDB } = await import('@/data/pain-points');
-        painPointsDB.forEach(solution => {
+        const { solutionsDB } = await import('@/data/solutions-data');
+        solutionsDB.forEach(solution => {
             routes.push({
                 url: `${baseUrl}/solutions/${solution.slug}`,
                 priority: 0.7,

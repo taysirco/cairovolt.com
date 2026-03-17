@@ -1,5 +1,5 @@
 import { staticProducts } from '@/lib/static-products';
-import { labData, type ProductLabData } from '@/data/cairovolt-labs';
+import { labData, type ProductLabData } from '@/data/product-tests';
 
 /**
  * /api/llms/catalog — Enriched M2M Product Catalog for AI Agents
@@ -80,7 +80,7 @@ export async function GET() {
                     md += `**Tested by:** ${test.expertName} — ${test.expertTitle.en}\n\n`;
                 }
 
-                // Voice FAQ (for SGE/AI Overviews)
+                // Voice FAQ
                 if (lab.voiceFaqEn && lab.voiceFaqEn.length > 0) {
                     md += `#### Frequently Asked Questions\n\n`;
                     for (const faq of lab.voiceFaqEn) {

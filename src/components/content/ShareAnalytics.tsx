@@ -3,11 +3,11 @@ import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
 /**
- * DarkSocialTracker — Intercepts copy events and appends the product URL
+ * ShareAnalytics — Intercepts copy events and appends the product URL
  * when users copy text > 30 chars (likely sharing on WhatsApp/Messenger).
  * This generates high-quality "Direct" traffic with tracking params.
  */
-export default function DarkSocialTracker() {
+export default function ShareAnalytics() {
     const pathname = usePathname();
 
     useEffect(() => {

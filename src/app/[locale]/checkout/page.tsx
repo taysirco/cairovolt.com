@@ -324,7 +324,7 @@ export default function CheckoutPage() {
                         </button>
                     </form>
 
-                    {/* Trust Badges */}
+                    {/* Quality Badges */}
                     <div className="bg-gradient-to-r from-green-50 to-blue-50 dark:from-gray-800 dark:to-gray-800 p-6 rounded-2xl">
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                             <div className="p-4">

@@ -34,7 +34,7 @@ export default function AdminIndexingPage() {
 
         try {
             // Ping AR version
-            const res = await fetch('/api/google-index', {
+            const res = await fetch('/api/indexing', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ url, type: actionType, slug: slug.trim() }),
@@ -42,7 +42,7 @@ export default function AdminIndexingPage() {
             const data = await res.json();
 
             // Ping EN version
-            const resEn = await fetch('/api/google-index', {
+            const resEn = await fetch('/api/indexing', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ url: urlEn, type: actionType, slug: slug.trim() }),
@@ -76,7 +76,7 @@ export default function AdminIndexingPage() {
 
             const newResults: IndexResult[] = [];
             for (const productUrl of productUrls) {
-                const res = await fetch('/api/google-index', {
+                const res = await fetch('/api/indexing', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ url: productUrl, type: 'URL_UPDATED' }),

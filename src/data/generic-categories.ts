@@ -9,7 +9,7 @@ export interface GenericCategory {
         ar: { title: string; description: string; keywords: string };
         en: { title: string; description: string; keywords: string };
     };
-    content: {
+    pageContent: {
         ar: {
             title: string;
             subtitle: string;
@@ -53,7 +53,7 @@ export const genericCategories: GenericCategory[] = [
                 keywords: 'power bank egypt, best power bank, power bank 20000, power bank 10000, portable charger egypt, fast charging power bank, power bank price egypt, power bank pd, best power bank 2026, power bank for travel, power bank comparison, cheap power bank egypt',
             },
         },
-        content: {
+        pageContent: {
             ar: {
                 title: 'باور بانك في مصر',
                 subtitle: 'أفضل الشواحن المتنقلة بأسعار 2026',
@@ -265,7 +265,7 @@ export const genericCategories: GenericCategory[] = [
                 keywords: 'fast charger egypt, iphone charger, samsung charger, phone charger, usb c charger, 20w charger, 30w charger, 45w charger, gan charger, best fast charger, pd charger, pps charger, iphone 17 charger, samsung s26 charger, wall charger egypt',
             },
         },
-        content: {
+        pageContent: {
             ar: {
                 title: 'شواحن موبايل في مصر',
                 subtitle: 'شحن سريع لكل الأجهزة — ايفون، سامسونج، والمزيد',
@@ -481,7 +481,7 @@ export const genericCategories: GenericCategory[] = [
                 keywords: 'bluetooth earbuds egypt, wireless earbuds, airpods alternative, best bluetooth earbuds, earbuds with anc, cheap earbuds egypt, wireless earbuds egypt, noise cancelling earbuds, sport earbuds, bluetooth earbuds price, earbuds 2026, tws earbuds egypt',
             },
         },
-        content: {
+        pageContent: {
             ar: {
                 title: 'سماعات بلوتوث في مصر',
                 subtitle: 'بديل AirPods بجودة عالية وسعر معقول',
@@ -705,7 +705,7 @@ export const genericCategories: GenericCategory[] = [
                 keywords: 'charging cable egypt, usb c cable, iphone cable, fast charging cable, usb c to usb c, lightning cable, nylon braided cable, pd cable, best charging cable, iphone 17 cable, samsung cable, usb c cable fast charge, charging cable price egypt',
             },
         },
-        content: {
+        pageContent: {
             ar: {
                 title: 'كابلات شحن في مصر',
                 subtitle: 'كابلات مضادة للكسر — USB-C و Lightning',

@@ -3,15 +3,15 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getBlogArticle, getAllBlogSlugs, blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/AEOSchemas';
+import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { FAQSchema } from '@/components/schemas/ProductSchema';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
-import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/entity-registry';
+import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/brand-entities';
 import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
 
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
 // Defense-in-depth: sanitize HTML content even from static sources
@@ -139,7 +139,7 @@ export default async function BlogArticlePage({ params }: Props) {
 
     return (
         <div suppressHydrationWarning>
-            {/* Schema Markup */}
+            {/* Structured Data */}
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
@@ -168,7 +168,7 @@ export default async function BlogArticlePage({ params }: Props) {
             {trans.faq && trans.faq.length > 0 && (
                 <FAQSchema faqs={trans.faq} locale={locale} />
             )}
-            {/* ClaimReview Schema — White Hat factual safety claim for counterfeit charger articles */}
+            {/* ClaimReview Schema — ClaimReview schema for counterfeit charger articles */}
             {(slug === 'original-vs-fake-apple-charger-egypt' || slug === 'do-fake-chargers-damage-iphone-battery') && (
                 <script
                     type="application/ld+json"
@@ -227,8 +227,8 @@ export default async function BlogArticlePage({ params }: Props) {
                 />
             )}
 
-            {/* Dark Social Tracker — captures WhatsApp shares as trackable direct traffic */}
-            <DarkSocialTracker />
+            {/* Share Analytics — captures WhatsApp shares as trackable direct traffic */}
+            <ShareAnalytics />
 
             <main className="min-h-screen bg-white dark:bg-gray-900" dir={isArabic ? 'rtl' : 'ltr'}>
                 {/* Breadcrumb */}
@@ -266,7 +266,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         {trans.excerpt}
                     </p>
 
-                    {/* Quick Answer Box - Concise answer for users and search engines */}
+                    {/* Quick Answer Box */}
                     {trans.quickAnswer && (
                         <QuickAnswerBox answer={trans.quickAnswer} locale={locale} variant="highlighted" />
                     )}
@@ -312,7 +312,7 @@ export default async function BlogArticlePage({ params }: Props) {
                     {/* Interactive Widgets (Calculators, Mermaid Diagrams) */}
                     <BlogInteractiveWidgets slug={slug} locale={locale} />
 
-                    {/* CairoVolt Labs Expert Box — E-E-A-T first-party data signal */}
+                    {/* CairoVolt Labs Expert Box — Expert data section */}
                     <div className="my-10 p-6 bg-gradient-to-br from-blue-950 to-slate-900 text-white rounded-2xl border border-blue-700/30 shadow-xl">
                         <div className="flex items-center gap-3 mb-4">
                             <span className="text-2xl">🔬</span>
@@ -332,9 +332,9 @@ export default async function BlogArticlePage({ params }: Props) {
                         </p>
                     </div>
 
-                    {/* VoiceSearchFAQ removed — was duplicating the FAQ accordion below */}
+                    {/* FAQSection removed — was duplicating the FAQ accordion below */}
 
-                    {/* Author Profile Bio - E-E-A-T Signal */}
+                    {/* Author Profile Bio */}
                     {article.author && (
                         <div className="my-12 p-6 md:p-8 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50 flex flex-col md:flex-row items-center md:items-start gap-6">
                             <img

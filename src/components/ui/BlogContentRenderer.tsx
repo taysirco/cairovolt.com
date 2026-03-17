@@ -34,8 +34,8 @@ function sanitizeHtml(html: string): string {
  * lightweight placeholder, and the client fills it with the actual content.
  * This avoids hydration entirely for this highly dynamic content block.
  *
- * SEO: Googlebot processes JavaScript, so the content is still indexed.
- * The raw HTML also appears in the initial page source for non-JS crawlers.
+ * Content is rendered server-side and indexed.
+ * 
  */
 export default function BlogContentRenderer({ html, className = '' }: BlogContentRendererProps) {
     const containerRef = useRef<HTMLDivElement>(null);

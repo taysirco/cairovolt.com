@@ -1,7 +1,7 @@
 import CategoryTemplate from '@/components/CategoryTemplate';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { categoryData } from '@/data/category-seo';
+import { categoryContent } from '@/data/category-content';
 import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
 
@@ -15,8 +15,8 @@ type Props = {
 export async function generateStaticParams() {
     const locales = ['ar', 'en'];
     const params: { locale: string; brand: string; category: string }[] = [];
-    Object.keys(categoryData).forEach(brand => {
-        Object.keys(categoryData[brand]).forEach(category => {
+    Object.keys(categoryContent).forEach(brand => {
+        Object.keys(categoryContent[brand]).forEach(category => {
             locales.forEach(locale => {
                 params.push({ locale, brand, category });
             });
@@ -30,13 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const brandKey = brand.toLowerCase();
     const categoryKey = category.toLowerCase();
 
-    const data = categoryData[brandKey]?.[categoryKey];
+    const data = categoryContent[brandKey]?.[categoryKey];
 
     if (!data) return {};
 
     const isArabic = locale === 'ar';
     const meta = locale === 'ar' ? data.metadata.ar : data.metadata.en;
-    // Strict lowercase for canonical URLs (SEO requirement)
+    // Strict lowercase for canonical URLs (URL best practice)
     const path = `${brandKey}/${categoryKey}`;
 
     // Use first product image from this category as social share image
@@ -49,8 +49,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = categoryProducts[0]?.images[0]?.alt
         || (isArabic ? `${data.categoryName} - كايرو فولت مصر` : `${data.categoryName} - CairoVolt Egypt`);
 
-    // Feature: Dynamic CTR Title Optimization (A/B Testing Variants)
-    // QDD Strategy: Disguise Category pages as buying guides and "Best of" lists.
+    // Feature: Dynamic Title Variants
+    // Category page metadata setup
     const titleVariantIndex = categoryKey.length % 3;
 
     const arTitleVariants = [
@@ -109,13 +109,13 @@ export default async function DynamicCategoryPage({ params }: Props) {
     const brandKey = brand.toLowerCase();
     const categoryKey = category.toLowerCase();
 
-    const data = categoryData[brandKey]?.[categoryKey];
+    const data = categoryContent[brandKey]?.[categoryKey];
 
     if (!data) {
         notFound();
     }
 
-    // Get static products server-side for immediate SEO availability
+    // Get static products server-side for immediate availability
     // This prevents "empty" pages if client-side fetching fails
     const staticProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
 
@@ -137,7 +137,7 @@ export default async function DynamicCategoryPage({ params }: Props) {
             brandColor={data.brandColor}
             category={data.categoryName}
             categorySlug={categoryKey}
-            seoContent={data.seoContent}
+            categoryInfo={data.pageContent}
             soundcoreData={data.soundcoreData}
             powerBankData={data.powerBankData}
             initialProducts={initialProducts}

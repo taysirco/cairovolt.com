@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 /**
  * TabTakeover — Changes the browser tab title when the user switches away
- * to create urgency (FOMO) and encourage return. Restores original title on focus.
+ * to encourage return to the tab. Restores original title on focus.
  */
 export default function TabTakeover({ productName }: { productName: string }) {
     useEffect(() => {

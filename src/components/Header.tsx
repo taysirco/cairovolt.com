@@ -190,7 +190,7 @@ export default function Header() {
                             </div>
                         </div>
 
-                        {/* Generic Category Links — clean URLs for SEO */}
+                        {/* Generic Category Links — clean URLs */}
                         <Link
                             href={getLocalizedHref('/power-banks')}
                             className="px-4 py-2 text-sm font-medium hover:text-blue-600 transition-colors rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -241,7 +241,7 @@ export default function Header() {
                         <a
                             href="https://wa.me/201558245974"
                             target="_blank"
-                            rel="nofollow noopener noreferrer"
+                            rel="noopener noreferrer"
                             className="hidden md:flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium rounded-xl transition-colors"
                             suppressHydrationWarning
                         >
@@ -418,7 +418,7 @@ export default function Header() {
                                 <a
                                     href="https://wa.me/201558245974"
                                     target="_blank"
-                                    rel="nofollow noopener noreferrer"
+                                    rel="noopener noreferrer"
                                     className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-green-500 text-white font-medium rounded-xl"
                                     suppressHydrationWarning
                                 >

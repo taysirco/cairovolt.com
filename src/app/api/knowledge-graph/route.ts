@@ -1,8 +1,8 @@
 import { staticProducts } from '@/lib/static-products';
-import { entityRegistry } from '@/data/entity-registry';
+import { brandEntities } from '@/data/brand-entities';
 
-// Semantic Site Graph (Entity Mapping)
-// Structured data endpoint providing the site's knowledge graph as JSON-LD.
+// Entity Data Endpoint
+// Structured data endpoint providing entity relationships as JSON-LD.
 export const revalidate = 86400; // Refreshes daily
 
 export async function GET() {
@@ -13,7 +13,7 @@ export async function GET() {
         "@graph": Array<Record<string, unknown>>;
     }
 
-    // Build the master Knowledge Graph (JSON-LD)
+    // Build JSON-LD entity graph
     const graph: GraphSchema = {
         "@context": "https://schema.org",
         "@graph": []
@@ -29,16 +29,16 @@ export async function GET() {
             "https://www.linkedin.com/company/cairovolt"
         ],
         "description": "Egypt's premier electronic accessories engineering and validation laboratory.",
-        "knowsAbout": Object.values(entityRegistry).map(entity => ({
+        "knowsAbout": Object.values(brandEntities).map(entity => ({
             "@type": "Thing",
             "name": entity.name,
             "sameAs": entity.sameAs
         }))
     });
 
-    // 2. The Semantic Entities (Brands & Technologies)
+    // 2. Brand & Technology Entities
     const nodeIds: string[] = [];
-    for (const [key, entity] of Object.entries(entityRegistry)) {
+    for (const [key, entity] of Object.entries(brandEntities)) {
         if (key === 'cairovolt') continue; // Handled above
 
         const entityId = `${baseUrl}/#entity-${key}`;
@@ -63,7 +63,7 @@ export async function GET() {
             "@id": `${baseUrl}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}/#product`,
             "name": product.translations.en.name,
             "url": `${baseUrl}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`,
-            // Explicit semantic link back to the parent brand node
+            // Link product to its brand
             "brand": { "@id": brandId }
         });
     }

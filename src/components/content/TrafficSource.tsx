@@ -1,21 +1,21 @@
 'use client';
 
 import { useEffect } from 'react';
-import { trackAIReferrer } from '@/lib/ai-traffic-tracking';
+import { trackReferrer } from '@/lib/analytics-tracking';
 
 /**
- * ReferralTracker Component
+ * TrafficSource Component
  * Client component that tracks referral traffic on mount
  * Place this in your layout to track visitors from search engines and other sources
  */
-export function ReferralTracker() {
+export function TrafficSource() {
     useEffect(() => {
         // Track on initial page load
-        trackAIReferrer();
+        trackReferrer();
     }, []);
 
     // This component doesn't render any UI
     return null;
 }
 
-export default ReferralTracker;
+export default TrafficSource;

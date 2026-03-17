@@ -2,14 +2,14 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { brandData } from '@/data/brand-data';
-import { ArticleSchema } from '@/components/schemas/AEOSchemas';
+import { ArticleSchema } from '@/components/schemas/StructuredDataSchemas';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { BrandOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
+import { BrandOverviewBlock } from '@/components/content/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
-import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/entity-registry';
+import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/brand-entities';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { staticProducts } from '@/lib/static-products';
 
 export const revalidate = 3600;
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = brandFirstProduct?.images[0]?.alt
         || (isArabic ? `${data.hero.title} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
-    // QDD Strategy: Position explicitly as a Store/Distributor to avoid Brand Sandbox (Hijacking Penalty)
+    // Page metadata setup
     const titleVariantIndex = brand.length % 3;
 
     const arTitleVariants = [
@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
 
-    // Strict lowercase for canonical URLs (SEO requirement)
+    // Strict lowercase for canonical URLs (URL best practice)
     return {
         title: dynamicTitle,
         description: meta.description,
@@ -119,7 +119,7 @@ export default async function BrandHubPage({ params }: Props) {
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-black" dir={isRTL ? 'rtl' : 'ltr'}>
-            {/* Structured Data Schema Components - placed first for crawler priority */}
+            {/* Structured data */}
             <BreadcrumbSchema
                 items={[
                     { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isRTL ? '' : '/en'}` },
@@ -128,15 +128,15 @@ export default async function BrandHubPage({ params }: Props) {
                 locale={locale}
             />
 
-            {/* Article Schema for SEO Content */}
-            {data.seoArticle && (
+            {/* Article Schema for Content */}
+            {data.article && (
                 <ArticleSchema
-                    headline={isRTL ? data.seoArticle.ar.title : data.seoArticle.en.title}
+                    headline={isRTL ? data.article.ar.title : data.article.en.title}
                     description={isRTL ? data.metadata.ar.description : data.metadata.en.description}
                     url={`https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}`}
                     locale={locale}
                     articleType="Article"
-                    sections={(isRTL ? data.seoArticle.ar.sections : data.seoArticle.en.sections).map((s: { heading: string; content: string }) => ({
+                    sections={(isRTL ? data.article.ar.sections : data.article.en.sections).map((s: { heading: string; content: string }) => ({
                         heading: s.heading,
                         content: s.content
                     }))}
@@ -145,7 +145,7 @@ export default async function BrandHubPage({ params }: Props) {
                 />
             )}
 
-            {/* FAQ Schema for Rich Snippets */}
+            {/* FAQ Schema */}
             {data.faq && (
                 <FAQSchema
                     faqs={(isRTL ? data.faq.ar : data.faq.en).map(item => ({
@@ -172,7 +172,7 @@ export default async function BrandHubPage({ params }: Props) {
                         </span>
                     </div>
 
-                    {/* Title (Anti-Brand Hijacking Explicit Declaration) */}
+                    {/* Title (Brand Declaration) */}
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-6 tracking-tight drop-shadow-sm leading-tight max-w-5xl mx-auto">
                         {isRTL
                             ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title} الأصلية في مصر`
@@ -185,7 +185,7 @@ export default async function BrandHubPage({ params }: Props) {
                         {isRTL ? data.hero.description.ar : data.hero.description.en}
                     </p>
 
-                    {/* Quick Answer Box - Concise answer for users and search engines */}
+                    {/* Quick Answer Box */}
                     {data.quickAnswer && (
                         <div className="max-w-2xl mx-auto mb-10">
                             <QuickAnswerBox
@@ -280,10 +280,10 @@ export default async function BrandHubPage({ params }: Props) {
 
             {/* ═══════════════════════════════════════════════════════════ */}
             {/* Extended Info Section: Brand Overview & Trust Elements */}
-            {/* Googlebot crawls this for topical authority; buyers see prices above */}
+            {/* Brand content section */}
             {/* ═══════════════════════════════════════════════════════════ */}
 
-            {/* Brand Overview Block - SEO Context */}
+            {/* Brand Overview Block - Content Context */}
             <div className="container mx-auto px-4 py-4 relative z-20">
                 <BrandOverviewBlock
                     brandName={data.hero.title}
@@ -294,7 +294,7 @@ export default async function BrandHubPage({ params }: Props) {
                 />
             </div>
 
-            {/* Trust Badges Banner */}
+            {/* Quality Badges Banner */}
             {data.trustBadges && (
                 <section className="bg-gradient-to-r from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 py-6 border-y border-gray-100 dark:border-gray-700">
                     <div className="container mx-auto px-4">
@@ -394,15 +394,15 @@ export default async function BrandHubPage({ params }: Props) {
                 </div>
             </section>
 
-            {/* SEO Article Section (The Meat) */}
-            {data.seoArticle && (
+            {/* Content Article Section (The Meat) */}
+            {data.article && (
                 <section className="py-20 bg-white dark:bg-black border-t border-gray-100 dark:border-gray-900">
                     <div className="container mx-auto px-4 max-w-4xl">
                         <article className="prose prose-lg dark:prose-invert mx-auto">
                             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-400">
-                                {isRTL ? data.seoArticle.ar.title : data.seoArticle.en.title}
+                                {isRTL ? data.article.ar.title : data.article.en.title}
                             </h2>
-                            {(isRTL ? data.seoArticle.ar.sections : data.seoArticle.en.sections).map((section, idx) => (
+                            {(isRTL ? data.article.ar.sections : data.article.en.sections).map((section, idx) => (
                                 <div key={idx} className="mb-10">
                                     <h3 className="text-2xl font-bold mb-4 flex items-center gap-2">
                                         <span className={`w-1 h-8 rounded-full ${brand === 'joyroom' ? 'bg-red-500' : 'bg-blue-500'}`}></span>
@@ -444,10 +444,10 @@ export default async function BrandHubPage({ params }: Props) {
                 </section>
             )}
 
-            {/* VoiceSearchFAQ removed — was duplicating the same FAQ questions shown above */}
+            {/* FAQSection removed — was duplicating the same FAQ questions shown above */}
 
-            {/* Dark Social Tracker — captures WhatsApp shares */}
-            <DarkSocialTracker />
+            {/* Share Analytics — captures WhatsApp shares */}
+            <ShareAnalytics />
 
         </div>
     );

@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { buildDidDocument } from '@/lib/content-credentials';
+import { buildDidDocument } from '@/lib/media-verification';
 
 /**
  * DID Document — /.well-known/did.json

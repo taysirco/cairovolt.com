@@ -1,16 +1,16 @@
 'use client';
 import { useState } from 'react';
 
-interface RouterSurvivalCalculatorProps {
+interface BackupTimeCalculatorProps {
     locale: string;
 }
 
 /**
- * RouterSurvivalCalculator — Interactive tool that calculates how long
+ * BackupTimeCalculator — Interactive calculator for how long
  * a power bank can run a router/laptop/phone during power outages.
  * 
  */
-export default function RouterSurvivalCalculator({ locale }: RouterSurvivalCalculatorProps) {
+export default function BackupTimeCalculator({ locale }: BackupTimeCalculatorProps) {
     const [hours, setHours] = useState<number>(2);
     const [device, setDevice] = useState<string>('WE VDSL Router');
 

@@ -1,8 +1,8 @@
 /**
- * Load-Shedding Emergency Data Module
+ * Power Outage Data Module
  * 
  * Per-governorate power grid intelligence and CairoVolt Labs empirical data
- * for regional load-shedding content. Each region gets unique content:
+ * for regional power outage content. Each region gets unique content:
  * 
  * - Cairo: Commuter-focused (metro, traffic, GPS drain)
  * - Delta: Agriculture + internet connectivity focus
@@ -11,16 +11,16 @@
  * - Coastal: Tourist season + vacation home backup
  * - Desert: Remote area survival + off-grid readiness
  * 
- * All lab data references are from cairovolt-labs.ts (C2PA-verified).
- * Entity link: Load Shedding → Wikidata Q1069792
+ * All lab data references are from product-tests.ts (C2PA-verified).
+ * Entity link: Power Outage → Wikidata Q1069792
  * 
- * NLP: Egyptian colloquial Arabic (عامية مصرية) — varied n-grams per region
+ * Phrasing: Egyptian colloquial Arabic (عامية مصرية) — varied phrasing per region
  * to prevent cross-page cannibalization. Each FAQ/tip uses unique phrasing.
  */
 
 import type { Governorate } from '@/data/governorates';
 
-export interface LoadSheddingProduct {
+export interface OutageProduct {
     slug: string;
     nameAr: string;
     nameEn: string;
@@ -36,7 +36,7 @@ export interface LoadSheddingProduct {
     badgeEn: string;
 }
 
-export interface GovernorateLoadSheddingData {
+export interface GovernorateOutageData {
     /** Average daily outage hours (varies by region) */
     outageFrequencyHours: number;
     /** Outage severity description */
@@ -59,13 +59,13 @@ export interface GovernorateLoadSheddingData {
     problemStatementAr: string;
     problemStatementEn: string;
     /** Recommended products for this region (ordered by priority) */
-    recommendedProducts: LoadSheddingProduct[];
+    recommendedProducts: OutageProduct[];
     /** Egyptian Arabic voice FAQs specific to this governorate */
     voiceFaqsAr: Array<{ question: string; answer: string }>;
     voiceFaqsEn: Array<{ question: string; answer: string }>;
 }
 
-// Lab-verified constants from cairovolt-labs.ts
+// Lab-verified constants from product-tests.ts
 const LAB_CONSTANTS = {
     ANKER_737_ROUTER_HOURS: 14,
     ANKER_737_ROUTER_MINUTES: 22,
@@ -78,7 +78,7 @@ const LAB_CONSTANTS = {
 };
 
 // Product catalog for recommendations
-const PRODUCTS: Record<string, LoadSheddingProduct> = {
+const PRODUCTS: Record<string, OutageProduct> = {
     anker737: {
         slug: 'anker-737-powerbank',
         nameAr: 'Anker 737 PowerCore 24K',
@@ -136,7 +136,7 @@ const PRODUCTS: Record<string, LoadSheddingProduct> = {
     },
 };
 
-// Region-specific outage data — each region has unique NLP phrasing
+// Region-specific outage data — each region has unique local phrasing
 const REGION_OUTAGE_DATA: Record<Governorate['region'], {
     outageHours: number;
     severityAr: string;
@@ -212,13 +212,13 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
 /**
  * Get load-shedding data for a specific governorate
  */
-export function getGovernorateLoadSheddingData(
+export function getGovernorateOutageData(
     governorateSlug: string,
     region: Governorate['region'],
     govNameAr: string,
     govNameEn: string,
     deliveryDays: number
-): GovernorateLoadSheddingData {
+): GovernorateOutageData {
     const regionData = REGION_OUTAGE_DATA[region];
 
     return {
@@ -242,7 +242,7 @@ export function getGovernorateLoadSheddingData(
 }
 
 /**
- * Egyptian Arabic voice FAQs — unique n-gram patterns per region
+ * Egyptian Arabic voice FAQs — unique phrasing patterns per region
  * Each region uses different sentence structures, colloquial expressions,
  * and question framing to avoid cross-page duplication.
  */
@@ -253,7 +253,7 @@ function generateVoiceFaqsAr(
     deliveryDays: number
 ): Array<{ question: string; answer: string }> {
 
-    // Region-specific FAQ sets with unique n-grams and colloquial phrasing
+    // Region-specific FAQ sets with unique colloquial phrasing
     const regionFaqs: Record<Governorate['region'], Array<{ question: string; answer: string }>> = {
         cairo: [
             {
@@ -393,6 +393,6 @@ function generateVoiceFaqsEn(
 /**
  * Get all load-shedding product slugs (for sitemap generation)
  */
-export function getLoadSheddingProductSlugs(): string[] {
+export function getOutageProductSlugs(): string[] {
     return Object.values(PRODUCTS).map(p => p.slug);
 }

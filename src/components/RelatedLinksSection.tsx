@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { getInternalLinksForPage, getSupportingContent } from '@/data/topical-map';
+import { getInternalLinksForPage, getSupportingContent } from '@/data/content-graph';
 
 interface RelatedLinksSectionProps {
     brandSlug: string;
@@ -13,7 +13,7 @@ export function RelatedLinksSection({ brandSlug, categorySlug, locale }: Related
     const isArabic = locale === 'ar';
     const pageUrl = `/${brandSlug}/${categorySlug}`;
 
-    // Get internal links from topical map
+    // Get internal links from content graph
     const internalLinks = getInternalLinksForPage(pageUrl);
 
     // Get supporting content for additional context

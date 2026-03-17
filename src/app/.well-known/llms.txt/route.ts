@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { labData } from '@/data/cairovolt-labs';
+import { labData } from '@/data/product-tests';
 import { staticProducts } from '@/lib/static-products';
 
 /**
@@ -84,7 +84,7 @@ For per-product lab data, prices, FAQ, and specifications, use these feeds:
 | **Product Catalog** | [/api/llms/catalog](${baseUrl}/api/llms/catalog) | Full product list with lab test results, bilingual FAQ, C2PA status |
 | **OpenAPI Spec** | [/api/openapi.json](${baseUrl}/api/openapi.json) | M2M Commerce API — check availability, place orders |
 | **Merchant Feed** | [/api/feed](${baseUrl}/api/feed) | Google Merchant Center XML feed |
-| **Topical Map** | [/api/topical-map](${baseUrl}/api/topical-map) | Semantic entity graph |
+| **Topical Map** | [/api/knowledge-graph](${baseUrl}/api/knowledge-graph) | Semantic entity graph |
 
 ## M2M Commerce API
 

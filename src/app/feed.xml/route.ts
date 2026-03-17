@@ -40,7 +40,7 @@ export async function GET() {
             id: url,
             link: url,
             description: product.translations.en.shortDescription || product.translations.en.description,
-            // Add a snippet of the Arabic description so international bots also pick up local relevance
+            // Add a snippet of the Arabic description so feeds include Arabic content
             content: `
                 <h3>${product.translations.en.name}</h3>
                 <p><strong>Brand:</strong> ${product.brand}</p>

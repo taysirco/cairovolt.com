@@ -1,4 +1,4 @@
-// Server Component - Schemas must be SSR for Google to crawl them
+// Server Component — structured data
 // DO NOT add 'use client' here!
 import Script from 'next/script';
 
@@ -7,18 +7,18 @@ interface QA {
     answer: string;
 }
 
-interface VoiceSearchFAQProps {
+interface FAQSectionProps {
     productName: string;
     qaList: QA[];
     locale: string;
 }
 
 /**
- * VoiceSearchFAQ — Product-specific FAQ with FAQPage schema + SpeakableSpecification
+ * FAQSection — Product-specific FAQ with FAQPage schema + SpeakableSpecification
  * Targets Egyptian Arabic voice queries (Google Assistant / Siri)
  * The .cairovolt-voice-answer CSS selector is what Google reads aloud.
  */
-export default function VoiceSearchFAQ({ productName, qaList, locale }: VoiceSearchFAQProps) {
+export default function FAQSection({ productName, qaList, locale }: FAQSectionProps) {
     if (!qaList || qaList.length === 0) return null;
 
     const isArabic = locale === 'ar';

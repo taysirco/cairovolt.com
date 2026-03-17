@@ -273,12 +273,12 @@ export async function getProductReviewCount(productSlug: string): Promise<number
 
 /**
  * Calculate aggregate rating for a product
- * Only returns data if there are 3+ reviews (Google guideline)
+ * Only returns data if there are 3+ reviews (minimum for meaningful aggregate)
  */
 export async function calculateVerifiedAggregateRating(productSlug: string): Promise<AggregateRating | null> {
     const reviews = await getProductReviews(productSlug, 100);
 
-    // Google recommends at least 3 reviews for aggregateRating
+    // Require at least 3 reviews for a meaningful aggregate rating
     if (reviews.length < 3) {
         return null;
     }

@@ -1,10 +1,10 @@
 /**
- * AI Traffic Tracking Utility for GA4
- * Tracks referral traffic from AI Answer Engines (ChatGPT, Perplexity, Claude, Gemini)
- * Use this to monitor AEO (Answer Engine Optimization) effectiveness
+ * Analytics Tracking Utility for GA4
+ * Tracks referral traffic from AI Assistants (ChatGPT, Perplexity, Claude, Gemini)
+ * Monitor analytics effectiveness
  */
 
-// List of known AI Answer Engine referrers
+// List of known AI Assistant referrers
 export const AI_REFERRERS = [
     // OpenAI / ChatGPT
     'chat.openai.com',
@@ -40,7 +40,7 @@ export const AI_REFERRERS = [
 
 export type AIReferrer = typeof AI_REFERRERS[number];
 
-interface AITrafficData {
+interface AnalyticsData {
     referrer: string;
     source: string;
     landingPage: string;
@@ -49,7 +49,7 @@ interface AITrafficData {
 }
 
 /**
- * Check if the current page referrer is from an AI Answer Engine
+ * Check if the current page referrer is from an AI Assistant
  */
 export function isAIReferrer(referrer: string): boolean {
     if (!referrer) return false;
@@ -93,9 +93,9 @@ export function getAISourceName(referrer: string): string | null {
 
 /**
  * Track AI referral in GA4
- * Call this function on page load to track AI answer engine traffic
+ * Call this function on page load to track AI assistant traffic
  */
-export function trackAIReferrer(): AITrafficData | null {
+export function trackReferrer(): AnalyticsData | null {
     // Only run in browser
     if (typeof window === 'undefined') return null;
 
@@ -105,7 +105,7 @@ export function trackAIReferrer(): AITrafficData | null {
 
     const sourceName = getAISourceName(referrer);
 
-    const trackingData: AITrafficData = {
+    const trackingData: AnalyticsData = {
         referrer: referrer,
         source: sourceName || 'Unknown AI',
         landingPage: window.location.pathname,
@@ -117,7 +117,7 @@ export function trackAIReferrer(): AITrafficData | null {
     if (typeof window !== 'undefined' && 'gtag' in window) {
         const gtag = (window as unknown as { gtag: (...args: unknown[]) => void }).gtag;
         gtag('event', 'ai_referral_traffic', {
-            event_category: 'AEO',
+            event_category: "analytics",
             event_label: sourceName,
             ai_source: sourceName,
             landing_page: trackingData.landingPage,
@@ -128,28 +128,28 @@ export function trackAIReferrer(): AITrafficData | null {
     // Log for debugging (remove in production)
     // Track logic here
     if (process.env.NODE_ENV === 'development') {
-        console.log('[AI Traffic]', trackingData);
+        console.log('[Analytics]', trackingData);
     }
 
     return trackingData;
 }
 
 /**
- * React hook for tracking AI traffic on component mount
- * Usage: useAITrafficTracking() in your layout or page component
+ * React hook for tracking traffic source on component mount
+ * Usage: useTrafficTracking() in layout
  */
-export function useAITrafficTracking(): void {
+export function useTrafficTracking(): void {
     if (typeof window !== 'undefined') {
         // Track on initial load
-        trackAIReferrer();
+        trackReferrer();
     }
 }
 
 /**
- * GA4 Configuration for AI Traffic Reporting
+ * GA4 Configuration for Traffic Reporting
  * Add these custom dimensions to your GA4 property:
  * 
- * 1. ai_source (Text) - The AI answer engine name
+ * 1. ai_source (Text) - The AI assistant name
  * 2. landing_page (Text) - The page URL the user landed on
  * 3. full_referrer (Text) - Complete referrer URL for analysis
  * 
@@ -159,7 +159,7 @@ export function useAITrafficTracking(): void {
  * - Filter: Event name = ai_referral_traffic
  */
 export const GA4_SETUP_INSTRUCTIONS = `
-To track AI traffic in GA4:
+To track traffic in GA4:
 
 1. Go to GA4 Admin > Data Display > Custom Definitions
 2. Create custom dimensions:
@@ -168,7 +168,7 @@ To track AI traffic in GA4:
    - full_referrer (event-scoped)
 
 3. Create a custom report:
-   - Name: "AI Answer Engine Traffic"
+   - Name: "AI Assistant Traffic"
    - Dimensions: ai_source, landing_page
    - Metrics: Sessions, Users, Engagement Rate
    - Filter: Event name contains "ai_referral"
@@ -178,4 +178,4 @@ To track AI traffic in GA4:
    - Condition: Event ai_referral_traffic occurred
 `;
 
-export default trackAIReferrer;
+export default trackReferrer;

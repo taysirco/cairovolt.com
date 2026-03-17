@@ -41,7 +41,7 @@ export default function Footer() {
                             <a
                                 href="https://wa.me/201558245974"
                                 target="_blank"
-                                rel="nofollow noopener noreferrer"
+                                rel="noopener noreferrer"
                                 className="flex items-center gap-1.5 text-green-600 hover:text-green-700 transition-colors font-medium"
                                 suppressHydrationWarning
                             >
@@ -51,7 +51,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    {/* Shop by Category — clean generic URLs for SEO */}
+                    {/* Shop by Category — clean generic URLs */}
                     <div>
                         <h4 className="font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'تسوق حسب الفئة' : 'Shop by Category'}
@@ -171,7 +171,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Entity Definition for AI Knowledge Graph */}
+                {/* About Us Summary */}
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-6 pb-4">
                     <p className="text-xs text-gray-400 dark:text-gray-500 leading-relaxed text-center max-w-4xl mx-auto">
                         <span>

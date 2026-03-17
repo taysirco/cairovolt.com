@@ -28,14 +28,14 @@ export interface BrandData {
             description: { en: string; ar: string };
         }>;
     };
-    // NEW: About Section for SEO
+    // About section
     aboutSection?: {
         title: { en: string; ar: string };
         history: { en: string; ar: string };
         achievements: Array<{ icon: string; stat: { en: string; ar: string }; label: { en: string; ar: string } }>;
         technologies: Array<{ name: string; description: { en: string; ar: string } }>;
     };
-    // NEW: Trust Badges for Social Proof
+    // NEW: Quality Badges for Trust Indicators
     trustBadges?: Array<{
         icon: string;
         title: { en: string; ar: string };
@@ -45,7 +45,7 @@ export interface BrandData {
         en: { title: string; description: string; keywords: string; openGraph?: any };
         ar: { title: string; description: string; keywords: string; openGraph?: any };
     };
-    seoArticle?: {
+    article?: {
         en: { title: string; sections: Array<{ heading: string; content: string }> };
         ar: { title: string; sections: Array<{ heading: string; content: string }> };
     };
@@ -94,7 +94,7 @@ export const brandData: Record<string, BrandData> = {
                 { icon: 'handshake', title: { en: 'Local Warranty', ar: 'ضمان محلي حقيقي' }, description: { en: '18 Months Instant Exchange', ar: 'استبدال فوري لمدة 18 شهر' } },
             ]
         },
-        // NEW: Comprehensive About Section for SEO
+        // About section
         aboutSection: {
             title: {
                 en: 'About Anker: The World\'s #1 Mobile Charging Brand',
@@ -120,7 +120,7 @@ export const brandData: Record<string, BrandData> = {
                 { name: 'MagSafe Compatible', description: { en: 'Full ecosystem of magnetic wireless chargers and power banks for iPhone 12-17 series.', ar: 'منظومة كاملة من الشواحن اللاسلكية المغناطيسية وباور بانك لسلسلة آيفون 12-17.' } }
             ]
         },
-        // NEW: Trust Badges for Social Proof
+        // NEW: Quality Badges for Trust Indicators
         trustBadges: [
             { icon: 'check-circle', title: { en: '100% Original Products', ar: 'منتجات أصلية 100%' }, description: { en: 'Verified by Anker Egypt', ar: 'موثقة من انكر مصر' } },
             { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
@@ -141,7 +141,7 @@ export const brandData: Record<string, BrandData> = {
                 keywords: 'انكر مصر, توكيل انكر, صيانة انكر, باور بانك انكر 2026, سماعات ساوند كور, شاحن ايفون 17, شاحن سامسونج سريع',
             }
         },
-        seoArticle: {
+        article: {
             ar: {
                 title: 'أنكر مصر: عندما تجتمع القوة مع الذكاء الاصطناعي',
                 sections: [
@@ -229,7 +229,7 @@ export const brandData: Record<string, BrandData> = {
                 { icon: 'headphones', title: { en: 'The T03s Legacy', ar: 'إرث T03s' }, description: { en: 'Most trusted earbuds in Egypt', ar: 'السماعة الأكثر ثقة في مصر' } },
             ]
         },
-        // NEW: About Section for Joyroom SEO
+        // About section
         aboutSection: {
             title: {
                 en: 'Joyroom: Smart Technology at Smart Prices Since 2009',
@@ -254,7 +254,7 @@ export const brandData: Record<string, BrandData> = {
                 { name: 'Braided Durability Tech', description: { en: 'Cables feature double-braided nylon shielding and reinforced stress points. Tested to withstand 10,000+ bends without breaking. Outlasts regular cables 5x.', ar: 'الكابلات مغطاة بنايلون مجدول مزدوج ونقاط توتر معززة. مختبرة لتحمل 10,000+ ثنية بدون كسر. تعيش 5 أضعاف الكابل العادي.' } }
             ]
         },
-        // NEW: Trust Badges for Joyroom
+        // NEW: Quality Badges for Joyroom
         trustBadges: [
             { icon: 'lock', title: { en: 'Golden Code', ar: 'الكود الذهبي' }, description: { en: 'Anti-fake verified', ar: 'ضد التقليد' } },
             { icon: 'shield', title: { en: '12-Month Warranty', ar: 'ضمان 12 شهر' }, description: { en: 'Direct replacement', ar: 'استبدال مباشر' } },
@@ -275,7 +275,7 @@ export const brandData: Record<string, BrandData> = {
                 keywords: 'جوي روم الاصلي, سماعة t03s, سعر t03s في مصر, كيفية معرفة جوي روم الاصلي, باور بانك رخيص وامن, اكسسوارات موبايل 2026',
             }
         },
-        seoArticle: {
+        article: {
             ar: {
                 title: 'جوي روم مصر: معادلة الجودة والسعر المستحيلة',
                 sections: [

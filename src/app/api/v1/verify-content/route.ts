@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { verifyCredential, buildManifest, signManifest, SignedCredential } from '@/lib/content-credentials';
+import { verifyCredential, buildManifest, signManifest, SignedCredential } from '@/lib/media-verification';
 import { getFirestore } from '@/lib/firebase-admin';
 import { getProductBySlug } from '@/lib/static-products';
 

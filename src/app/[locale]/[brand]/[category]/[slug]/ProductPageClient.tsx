@@ -3,18 +3,18 @@ import { flushSync } from 'react-dom';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { VerifiedVisionImage } from '@/components/ui/VerifiedVisionImage';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef } from 'react';
 import dynamic from 'next/dynamic';
-import { QuickSummary } from '@/components/seo/ProductGuides';
-import { CategoryOverviewBlock } from '@/components/seo/CategoryOverviewBlock';
+import { QuickSummary } from '@/components/content/ProductGuides';
+import { CategoryOverviewBlock } from '@/components/content/CategoryOverviewBlock';
 import { useCart } from '@/context/CartContext';
-import LabTestBlock from '@/components/seo/LabTestBlock';
-import EmpiricalReviewAmplifier from '@/components/seo/EmpiricalReviewAmplifier';
-import TrustMatrix from '@/components/products/TrustMatrix';
+import TestResultsBlock from '@/components/content/TestResultsBlock';
+import ProductTestResults from '@/components/content/ProductTestResults';
+import ProductGuarantees from '@/components/products/ProductGuarantees';
 import type { RegionalStats } from '@/lib/bosta';
-import type { LabMetrics } from '@/data/cairovolt-labs';
+import type { LabMetrics } from '@/data/product-tests';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
@@ -31,15 +31,15 @@ const BundleSelector = dynamic(() => import('@/components/products/BundleSelecto
     ssr: false
 });
 
-const ProductComparisonTable = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ProductComparisonTable));
-const ExpertOpinion = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ExpertOpinion));
-const ProductFAQ = dynamic(() => import('@/components/seo/ProductGuides').then(mod => mod.ProductFAQ));
+const ProductComparisonTable = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductComparisonTable));
+const ExpertOpinion = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ExpertOpinion));
+const ProductFAQ = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductFAQ));
 
-const RouterSurvivalCalculator = dynamic(() => import('@/components/UX/RouterSurvivalCalculator'), {
+const BackupTimeCalculator = dynamic(() => import('@/components/UX/BackupTimeCalculator'), {
     ssr: false
 });
-import RelatedLinks from '@/components/seo/RelatedLinks';
-import { getProductSEO } from '@/data/product-seo-enhancements';
+import RelatedLinks from '@/components/content/RelatedLinks';
+import { getProductDetail } from '@/data/product-details';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
 
@@ -81,7 +81,7 @@ interface Product {
         en?: string;
         ar?: string;
     };
-    seo?: { keywords?: string; focusKeyword?: string };
+    meta?: { keywords?: string; mainTerm?: string };
     contentCredentials?: Record<string, unknown> | null;
 }
 
@@ -163,7 +163,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
     const productDesc = currentTranslation?.description || '';
     const productShortDesc = currentTranslation?.shortDescription || '';
     const productFeatures = currentTranslation?.features || [];
-    const seoData = getProductSEO(product.slug);
+    const productDetail = getProductDetail(product.slug);
 
     const handleAddToCart = () => {
         // flushSync forces React to paint the green feedback BEFORE startTransition batches the cart update
@@ -243,7 +243,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                 </div>
             </div>
 
-            {/* AEO Summary Block - Answer-First Content for AI/Voice Search */}
+            {/* Product summary */}
             <div className="container mx-auto px-4 pt-4">
                 <CategoryOverviewBlock
                     productName={productName}
@@ -324,7 +324,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                             <div className="w-full h-full flex items-center justify-center p-8 relative">
                                 {primaryImage ? (
-                                    <VerifiedVisionImage
+                                    <ProductImage
                                         src={primaryImage}
                                         alt={productName}
                                         slug={product.slug}
@@ -372,7 +372,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             </div>
                         )}
 
-                        {/* Content Credentials Badge */}
+                        {/* Verification badge */}
                         {product.contentCredentials && (
                             <div className="flex justify-end">
                                 <ContentCredentialsBadge
@@ -443,14 +443,14 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         )}
 
                         {/* AI TL;DR */}
-                        {seoData?.aiTldr && (
+                        {productDetail?.aiTldr && (
                             <div className={`p-4 rounded-xl border-2 ${brand === 'anker' ? 'border-blue-200 bg-blue-50/50 dark:border-blue-800 dark:bg-blue-950/30' : 'border-red-200 bg-red-50/50 dark:border-red-800 dark:bg-red-950/30'}`}>
                                 <h2 className="text-sm font-bold mb-2 flex items-center gap-1.5 text-gray-800 dark:text-gray-200">
                                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                                     {isRTL ? selectedArAiHeading : selectedEnAiHeading}
                                 </h2>
                                 <ul className="space-y-1">
-                                    {(isRTL ? seoData.aiTldr.ar : seoData.aiTldr.en).map((point, idx) => (
+                                    {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point, idx) => (
                                         <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
                                             <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${brand === 'anker' ? 'bg-blue-500' : 'bg-red-500'}`} />
                                             {point}
@@ -461,11 +461,11 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         )}
 
                         {/* Local Pain Point */}
-                        {seoData?.localPainPoint && (
+                        {productDetail?.localContext && (
                             <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800">
                                 <p className="text-sm text-amber-900 dark:text-amber-200 flex items-start gap-2">
                                     <svg className="w-4 h-4 mt-0.5 flex-shrink-0 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                                    {isRTL ? seoData.localPainPoint.ar : seoData.localPainPoint.en}
+                                    {isRTL ? productDetail.localContext.ar : productDetail.localContext.en}
                                 </p>
                             </div>
                         )}
@@ -602,7 +602,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             </div>
                         )}
 
-                        {/* Trust Badges — SVG Icons */}
+                        {/* Quality Badges — SVG Icons */}
                         <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4 md:pt-6 max-w-full overflow-hidden">
                             {(() => {
                                 const trustHash = hash; // reuse existing hash from slug
@@ -672,7 +672,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                     {/* 2. CairoVolt Labs Test Results — Proof after claim */}
                     {labTestData && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                            <LabTestBlock
+                            <TestResultsBlock
                                 testScenario={labTestData.testScenario}
                                 testResult={labTestData.testResult}
                                 testConditions={labTestData.testConditions}
@@ -683,10 +683,10 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
-                    {/* Empirical Review Amplifier — NLP-optimized quantitative metrics for Product Reviews Update */}
+                    {/* Product Test Results — product test metrics */}
                     {labMetrics && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                            <EmpiricalReviewAmplifier
+                            <ProductTestResults
                                 sku={product.slug}
                                 locale={locale}
                                 labMetrics={labMetrics}
@@ -697,7 +697,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                     {/* Trust Matrix — Exclusive Logistics + Lab Metrics */}
                     <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                        <TrustMatrix
+                        <ProductGuarantees
                             sku={product.slug}
                             userGovernorate={userGovernorate}
                             locale={locale}
@@ -731,7 +731,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                     {/* 4. Enhanced Structured Data Sections — Expert Opinion + FAQs + Comparison */}
                     <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                        {/* Expert Opinion - E-E-A-T Signal */}
+                        {/* Expert Opinion */}
                         <ExpertOpinion
                             productName={productName}
                             brand={translatedBrand}
@@ -740,10 +740,10 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             customOpinion={product.expertOpinion?.[locale as 'ar' | 'en']}
                         />
 
-                        {/* RouterSurvivalCalculator — only for power bank products */}
+                        {/* BackupTimeCalculator — only for power bank products */}
                         {category === 'power-banks' && (
                             <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
-                                <RouterSurvivalCalculator locale={locale} />
+                                <BackupTimeCalculator locale={locale} />
                             </div>
                         )}
 
@@ -781,7 +781,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                             )}
                         </div>
 
-                        {/* Product Comparison Table - For Google Extraction */}
+                        {/* Product Comparison Table */}
                         <ProductComparisonTable
                             product={{
                                 slug: product.slug,
@@ -828,7 +828,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         </section>
                     )}
 
-                    {/* Specifications — Semantic Table for AI Crawlers */}
+                    {/* Product specifications */}
                     <section className="p-6 md:p-8" aria-label={isRTL ? 'مواصفات المنتج' : 'Product Specifications'}>
                         <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
                             <span>📊</span>
@@ -867,7 +867,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     </td>
                                 </tr>
                                 {/* Product-specific specifications */}
-                                {seoData?.specifications && Object.entries(seoData.specifications).map(([key, val]) => (
+                                {productDetail?.specifications && Object.entries(productDetail.specifications).map(([key, val]) => (
                                     <tr key={key}>
                                         <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? key : key}</td>
                                         <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? val.ar : val.en}</td>
@@ -879,7 +879,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                 </div>
             </div>
 
-            {/* SEO Content Section */}
+            {/* Content Section */}
             <div className="container mx-auto px-4 py-12">
                 <div className="bg-gradient-to-br from-gray-100 to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12">
                     <h2 className="text-2xl font-bold mb-4">
@@ -889,7 +889,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                         {productShortDesc}
                     </p>
                     <div className="flex flex-wrap gap-2">
-                        {product.seo?.keywords?.split(',').slice(0, 6).map((keyword, idx) => (
+                        {product.meta?.keywords?.split(',').slice(0, 6).map((keyword, idx) => (
                             <span key={idx} className="px-3 py-1 bg-white dark:bg-gray-800 rounded-full text-sm text-gray-600 dark:text-gray-400 border border-gray-200 dark:border-gray-700">
                                 {keyword.trim()}
                             </span>
@@ -906,7 +906,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
             <div className="container mx-auto px-4 pb-8">
                 <RelatedProducts products={relatedProducts} locale={locale} />
 
-                {/* Related Categories - Internal Linking */}
+                {/* Related Categories */}
                 <RelatedLinks
                     currentUrl={`/${brandLower}/${categoryLower}`}
                     locale={locale}

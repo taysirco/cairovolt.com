@@ -6,7 +6,7 @@ const CartDrawer = dynamic(() => import('@/components/cart/CartDrawer'), {
     ssr: false,
 });
 
-const ReferralTracker = dynamic(() => import('@/components/seo/ReferralTracker'), {
+const TrafficSource = dynamic(() => import('@/components/content/TrafficSource'), {
     ssr: false
 });
 
@@ -17,7 +17,7 @@ interface LazyClientComponentsProps {
 export default function LazyClientComponents({ locale }: LazyClientComponentsProps) {
     return (
         <>
-            <ReferralTracker />
+            <TrafficSource />
             <CartDrawer locale={locale} />
         </>
     );

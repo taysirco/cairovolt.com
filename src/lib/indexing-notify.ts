@@ -1,10 +1,10 @@
 /**
- * Helper function to ping Google Indexing API via the Next.js webhook.
+ * Helper to notify the Indexing API when pages update.
  * Use this from any backend code (admin panels, API routes, etc.)
  * when you need to notify Google of a URL update or deletion.
  */
 import { logger } from '@/lib/logger';
-export async function pingGoogleIndexing(
+export async function notifyIndexing(
     productSlug: string,
     options: {
         isDeleted?: boolean;
@@ -16,7 +16,7 @@ export async function pingGoogleIndexing(
     const secret = process.env.INDEXING_WEBHOOK_SECRET;
 
     if (!secret) {
-        logger.warn('[pingGoogleIndexing] INDEXING_WEBHOOK_SECRET not set');
+        logger.warn('[indexing] webhook secret not set');
         return { success: false, error: 'INDEXING_WEBHOOK_SECRET not configured' };
     }
 
@@ -30,7 +30,7 @@ export async function pingGoogleIndexing(
     const actionType = options.isDeleted ? 'URL_DELETED' : 'URL_UPDATED';
 
     try {
-        const response = await fetch(`${baseUrl}/api/google-index`, {
+        const response = await fetch(`${baseUrl}/api/indexing`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -46,15 +46,15 @@ export async function pingGoogleIndexing(
         const result = await response.json();
 
         if (result.success) {
-            logger.info(`[SEO] ✅ Google Index pinged: ${targetUrl}`);
+            logger.info(`[Indexing] ✅ Google Index pinged: ${targetUrl}`);
             return { success: true };
         } else {
-            console.error(`[SEO] ❌ Ping failed:`, result.error);
+            console.error(`[Indexing] ❌ Ping failed:`, result.error);
             return { success: false, error: result.error };
         }
     } catch (error) {
         const message = error instanceof Error ? error.message : 'Unknown error';
-        console.error(`[SEO] ❌ Network error:`, message);
+        console.error(`[Indexing] ❌ Network error:`, message);
         return { success: false, error: message };
     }
 }

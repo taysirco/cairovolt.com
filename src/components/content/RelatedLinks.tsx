@@ -1,11 +1,11 @@
 /**
  * RelatedLinks Component
- * Uses the topical map to display semantically related internal links
- * for SEO internal linking strategy
+ * Uses the content graph to display related internal links
+ * for internal linking
  */
 
 import Link from 'next/link';
-import { topicalMap } from '@/data/topical-map';
+import { contentGraph } from '@/data/content-graph';
 
 interface RelatedLinksProps {
     currentUrl: string; // e.g., '/anker/power-banks'
@@ -22,21 +22,21 @@ interface RelatedLink {
 }
 
 /**
- * Get related links from the topical map based on current page URL
+ * Get related links from the content graph based on current page URL
  */
-function getRelatedLinksFromTopicalMap(currentUrl: string): RelatedLink[] {
+function getRelatedLinksFromContentMap(currentUrl: string): RelatedLink[] {
     const relatedLinks: RelatedLink[] = [];
     const normalizedUrl = currentUrl.replace(/^\/[a-z]{2}\//, '/'); // Remove locale prefix
 
-    // Search through all brands and clusters
-    for (const [brandSlug, brandMap] of Object.entries(topicalMap)) {
-        for (const cluster of brandMap.clusters) {
+    // Search through all brands and categories
+    for (const [brandSlug, brandMap] of Object.entries(contentGraph)) {
+        for (const cluster of brandMap.categories) {
             // If this is the current page, get its internal links
             if (normalizedUrl.includes(cluster.url)) {
                 for (const link of cluster.internalLinks || []) {
                     // Find the cluster info for this link
-                    for (const [linkBrand, linkBrandMap] of Object.entries(topicalMap)) {
-                        const linkedCluster = linkBrandMap.clusters.find(c => c.url === link);
+                    for (const [linkBrand, linkBrandMap] of Object.entries(contentGraph)) {
+                        const linkedCluster = linkBrandMap.categories.find(c => c.url === link);
                         if (linkedCluster) {
                             relatedLinks.push({
                                 url: link,
@@ -83,7 +83,7 @@ export default function RelatedLinks({
     variant = 'card'
 }: RelatedLinksProps) {
     const isArabic = locale === 'ar';
-    const relatedLinks = getRelatedLinksFromTopicalMap(currentUrl).slice(0, maxLinks);
+    const relatedLinks = getRelatedLinksFromContentMap(currentUrl).slice(0, maxLinks);
 
     if (relatedLinks.length === 0) return null;
 
@@ -170,4 +170,4 @@ export default function RelatedLinks({
 }
 
 // Export helper for use in other components
-export { getRelatedLinksFromTopicalMap };
+export { getRelatedLinksFromContentMap };

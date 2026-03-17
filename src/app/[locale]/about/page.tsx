@@ -2,7 +2,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { ArticleSchema } from '@/components/schemas/AEOSchemas';
+import { ArticleSchema } from '@/components/schemas/StructuredDataSchemas';
 
 export const revalidate = 2592000;
 
@@ -153,7 +153,7 @@ export default function AboutPage() {
                             </div>
                         </section>
 
-                        {/* E-E-A-T: Authorization & Credentials */}
+                        {/* Trust & Quality: Authorization & Credentials */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8 mt-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-green-600">
@@ -210,7 +210,7 @@ export default function AboutPage() {
                             </div>
                         </section>
 
-                        {/* E-E-A-T: Team Expertise */}
+                        {/* Trust & Quality: Team Expertise */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-purple-500">
@@ -254,7 +254,7 @@ export default function AboutPage() {
                             </div>
                         </section>
 
-                        {/* E-E-A-T: Editorial Policy */}
+                        {/* Trust & Quality: Editorial Policy */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8">
                             <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
                                 <span className="text-3xl text-blue-500">
@@ -297,7 +297,7 @@ export default function AboutPage() {
                             </div>
                         </section>
 
-                        {/* E-E-A-T: Contact & Location */}
+                        {/* Trust & Quality: Contact & Location */}
                         <section className="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg mb-8">
                             <h2 className="text-2xl font-semibold mb-6 flex items-center gap-3">
                                 <span className="text-3xl text-red-500">

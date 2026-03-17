@@ -7,10 +7,10 @@ import { blogArticles } from '@/data/blog-articles';
  * URL: https://cairovolt.com/api/discover-feed
  *
  * After deploying, ping https://pubsubhubbub.appspot.com/ with this URL
- * to notify Google Discover of new content for mobile feed placement.
+ * to notify feed subscribers of new content.
  *
  * Uses media:content for rich image thumbnails (1200x675 recommended).
- * Images should be at least 1200x675 px for Google Discover eligibility.
+ * Images should be at least 1200x675 px for optimal display.
  */
 export async function GET() {
     const now = new Date();
@@ -98,7 +98,7 @@ export async function GET() {
         };
     });
 
-    // Extra lab-tested product items for richer Discover feed depth
+    // Extra lab-tested product items for the feed
     const extraLabItems = [
         {
             title: '🎵 كايرو فولت تختبر Soundcore Motion Plus: 12 ساعة على شاطئ العين السخنة + IPX7 في الحوض',

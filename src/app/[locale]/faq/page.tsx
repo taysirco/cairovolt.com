@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const revalidate = 86400;
 
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const faqCategories = ['ordering', 'shipping', 'warranty', 'products', 'payment'] as const;
 
-// Voice search Q&As — merged into the main FAQ schema to avoid duplicate FAQPage
+// Additional Q&As — merged into the main FAQ data
 const voiceFAQs = {
     ar: [
         { question: 'لو المنتج وصلني فيه مشكلة أعمل إيه؟', answer: 'تواصل معانا على واتساب 01558245974 خلال 14 يوم. بنستبدله فوراً أو نرجعلك فلوسك. الاستبدال مجاني في القاهرة والجيزة.' },
@@ -168,8 +168,8 @@ export default async function FAQPage({ params }: Props) {
                             </div>
                         </section>
 
-                        {/* Dark Social Tracker */}
-                        <DarkSocialTracker />
+                        {/* Share Analytics */}
+                        <ShareAnalytics />
 
                         {/* Contact CTA */}
                         <div className="mt-12 text-center bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-white">

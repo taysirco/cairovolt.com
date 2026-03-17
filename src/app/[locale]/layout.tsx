@@ -9,11 +9,11 @@ import { getMessages } from 'next-intl/server';
 
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
-import { GoogleAnalytics } from '@/components/seo/GoogleAnalytics';
-import SpeculationRules from '@/components/seo/SpeculationRules';
+import { GoogleAnalytics } from '@/components/content/GoogleAnalytics';
+import PrefetchHints from '@/components/content/PrefetchHints';
 import InteractiveEffects from '@/components/UX/InteractiveEffects';
 
-import GlobalBusinessSchema from '@/components/seo/GlobalBusinessSchema';
+import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 import ThemeWatcher from '@/components/ThemeWatcher';
 
 const geistSans = Geist({
@@ -178,7 +178,7 @@ export default async function RootLayout({
             </div>
           </CartProvider>
         </NextIntlClientProvider>
-        {process.env.NODE_ENV === 'production' && <SpeculationRules />}
+        {process.env.NODE_ENV === 'production' && <PrefetchHints />}
         {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
         <Script
           id="statcounter-config"

@@ -1,7 +1,7 @@
 /**
- * Entity Registry — Central repository of entities with Knowledge Graph links
- * Used by ArticleSchema and ProductSchema to inject `about` and `mentions`
- * for maximum entity-linking signals to Google's Knowledge Graph.
+ * Brand Entities — Central repository of brand and product entities
+ * Used by ArticleSchema and ProductSchema to populate `about` and `mentions`
+ * for structured entity context.
  */
 
 export interface EntityRef {
@@ -254,7 +254,7 @@ const geographic: Record<string, EntityRef> = {
 // FULL REGISTRY
 // ============================================
 
-export const entityRegistry = {
+export const brandEntities = {
     ...brands,
     ...productCategories,
     ...technologies,
@@ -270,7 +270,7 @@ export const entityRegistry = {
  */
 export function entitiesToJsonLd(entityKeys: string[], locale: 'ar' | 'en' = 'en') {
     return entityKeys
-        .map(key => entityRegistry[key])
+        .map(key => brandEntities[key])
         .filter(Boolean)
         .map(entity => ({
             type: entity.type,

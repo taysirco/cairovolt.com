@@ -9,13 +9,13 @@ export interface BuyingGuideSection {
     content: string; // Markdown supported
 }
 
-export interface TrustSignal {
+export interface QualityBadge {
     type: 'originality' | 'warranty' | 'expert_verified';
     text: string;
     icon?: string;
 }
 
-// NEW: Soundcore-specific data for audio category SEO targeting "ankersoundcore" keyword
+// NEW: Soundcore-specific data for audio category targeting "ankersoundcore" keyword
 export interface SoundcoreData {
     title: { en: string; ar: string };
     tagline: { en: string; ar: string };
@@ -30,10 +30,10 @@ export interface SoundcoreData {
     };
 }
 
-// NEW: PowerBank-specific data for power-banks category SEO targeting "باور بانك انكر" keyword
+// NEW: PowerBank-specific data for power-banks category targeting "باور بانك انكر" keyword
 export type PowerBankData = SoundcoreData; // Same structure, different content
 
-export interface CategorySeoData {
+export interface CategoryContent {
     brand: 'Anker' | 'Joyroom';
     brandColor: 'blue' | 'red';
     categoryName: string;
@@ -45,14 +45,14 @@ export interface CategorySeoData {
         en: { title: string; description: string; keywords: string; openGraph?: any };
         ar: { title: string; description: string; keywords: string; openGraph?: any };
     };
-    seoContent: {
+    pageContent: {
         ar: {
             title: string;
             subtitle: string;
             description: string;
             buyingGuide?: BuyingGuideSection[];
             faq?: FAQItem[];
-            trustSignals?: TrustSignal[];
+            qualityBadges?: QualityBadge[];
             products: Array<{ name: string; price: number; badge?: string }>;
         };
         en: {
@@ -61,19 +61,19 @@ export interface CategorySeoData {
             description: string;
             buyingGuide?: BuyingGuideSection[];
             faq?: FAQItem[];
-            trustSignals?: TrustSignal[];
+            qualityBadges?: QualityBadge[];
             products: Array<{ name: string; price: number; badge?: string }>;
         };
     };
 }
 
-export const categoryData: Record<string, Record<string, CategorySeoData>> = {
+export const categoryContent: Record<string, Record<string, CategoryContent>> = {
     anker: {
         'power-banks': {
             brand: 'Anker',
             brandColor: 'blue',
             categoryName: 'Power Banks',
-            // NEW: PowerBank data for "باور بانك انكر" keyword SEO
+            // PowerBank content data
             powerBankData: {
                 title: {
                     en: 'Anker PowerCore: The World\'s #1 Charging Brand Since 2011',
@@ -145,7 +145,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
                     keywords: 'باور بانك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك, افضل باور بانك',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'باور بانك انكر الأصلي في مصر',
                     subtitle: 'Anker Power Bank - الأعلى جودة والأكثر مبيعاً',
@@ -157,7 +157,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
       2. **أطول عمر افتراضي:** بطاريات داخلية ممتازة تضمن لك أكثر من 500 دورة شحن بكفاءة عالية.
       3. **حماية أجهزتك:** نظام حماية شامل بـ 11 نقطة أمان يحمي تليفونك من الماس الكهربائي، السخونة، والشحن الزائد.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'منتجات أصلية 100% (يمكن التحقق من السيريال)' },
                         { type: 'warranty', text: 'ضمان استبدال فوري لمدة 18 شهر' },
                         { type: 'expert_verified', text: 'تم اختباره بواسطة فريقنا الفني' }
@@ -219,7 +219,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
       **Why Choose Anker Power Bank?**
       Anker is the global leader in charging technology, offering solutions that combine speed and safety. With technologies like PowerIQ and GaNPrime, Anker ensures safe charging that preserves your phone's battery life.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: '100% Original (Verify via Serial)' },
                         { type: 'warranty', text: '18-Month Immediate Replacement Warranty' },
                         { type: 'expert_verified', text: 'Tested by our Technical Team' }
@@ -291,7 +291,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
                     keywords: 'شاحن انكر, شواحن انكر, راس شاحن انكر, شاحن انكر ايفون, شاحن انكر 20 وات, شاحن انكر 25 واط, شاحن انكر تايب سي, شاحن انكر سريع, افضل شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن انكر نانو, شاحن انكر 45 واط, فيش شاحن انكر, ادابتر انكر',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'شاحن انكر - من 379 جنيه',
                     subtitle: 'شحن سريع ايفون 17 وسامسونج S26 | ضمان 18 شهر',
@@ -306,7 +306,7 @@ export const categoryData: Record<string, Record<string, CategorySeoData>> = {
 | **Samsung S26 Ultra** | Anker 45W PPS | 759 ج |
 | **MacBook Air** | Anker 65W GaN | 999 ج |
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'الموزع المعتمد لـ Anker في مصر' },
                         { type: 'warranty', text: 'ضمان 18 شهر استبدال فوري - أطول من ضمان أبل' },
                         { type: 'expert_verified', text: 'تقنية GaN + ActiveShield 3.0 للحماية' }
@@ -380,7 +380,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
 | **Samsung S26 Ultra** | Anker 45W PPS | EGP 759 |
 | **MacBook Air** | Anker 65W GaN | EGP 999 |
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Official Anker Distributor in Egypt' },
                         { type: 'warranty', text: '18-Month Replacement Warranty — longer than Apple' },
                         { type: 'expert_verified', text: 'GaN + ActiveShield 3.0 Protection' }
@@ -446,7 +446,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
             brand: 'Anker',
             brandColor: 'blue',
             categoryName: 'Audio & Earbuds',
-            // NEW: Soundcore data for "ankersoundcore" keyword SEO
+            // Soundcore content data
             soundcoreData: {
                 title: {
                     en: 'Soundcore by Anker: World\'s Leading Wireless Audio Brand',
@@ -518,7 +518,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                     keywords: 'anker soundcore, سماعة انكر, سماعات انكر, anker r50i, soundcore r50i, anker p20i, سماعة انكر بلوتوث',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'سماعات انكر Soundcore',
                     subtitle: 'Anker Soundcore - جودة صوت استثنائية',
@@ -531,7 +531,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
       - **بطارية جبارة:** استمع بدون انقطاع، مع بطاريات تدوم حتى 50 ساعة مع العلبة في موديلات مختارة.
       - **أفضل قيمة مقابل سعر:** جودة تضاهي أعلى السماعات الفلاج شيب بأسعار اقتصادية ومعقولة جداً.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'وكيل معتمد (سيريال أصلي)' },
                         { type: 'warranty', text: 'ضمان 18 شهر استبدال' },
                         { type: 'expert_verified', text: 'جودة صوت Hi-Res' }
@@ -582,7 +582,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
       - **LDAC Hi-Res Audio:** Transmits 3x more data than standard Bluetooth for studio-quality details.
       - **Long Listing Battery:** Up to 50 hours of playtime with the case on select models.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Authorized Dealer (Original Serial)' },
                         { type: 'warranty', text: '18-Month Exchange Warranty' },
                         { type: 'expert_verified', text: 'Hi-Res Audio Certified' }
@@ -638,7 +638,7 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                     keywords: 'وصلة انكر للايفون, وصلة شاحن انكر, كابل شاحن انكر, anker type c cable, كابل انكر ايفون, وصلة شاحن, وصلة ايفون',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'كابلات انكر (الأكثر متانة في العالم)',
                     subtitle: 'Anker PowerLine - كابل العمر الطويل',
@@ -651,7 +651,7 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
       - **معتمد من أبل (MFi):** يحتوي على شريحة C94 الأصلية من أبل، مما يضمن توافق تام وعدم ظهور رسالة "ملحق غير مدعوم".
       - **ضمان حقيقي:** ضمان استبدال فوري لمدة 18 شهر من الوكيل.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'شريحة Apple C94 أصلية' },
                         { type: 'warranty', text: 'ضمان 18 شهر' },
                         { type: 'expert_verified', text: 'يتحمل 80 كجم شد' }
@@ -696,7 +696,7 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
       - **MFi Certified:** Contains Apple's original C94 chip, ensuring 100% compatibility and zero error messages.
       - **Real Warranty:** 18-month immediate replacement warranty.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Original Apple C94 Chip' },
                         { type: 'warranty', text: '18-Month Warranty' },
                         { type: 'expert_verified', text: 'Withstands 80kg Pull' }
@@ -747,7 +747,7 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
                     keywords: 'شاحن سيارة انكر, شاحن سيارة سريع, anker car charger, شاحن سيارة',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'شاحن سيارة انكر (شحن سريع وآمن)',
                     subtitle: 'Anker Car Charger - حول سيارتك لمحطة شحن',
@@ -760,7 +760,7 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
       - **شحن جهازين معاً:** اشحن هاتفك وهاتف الراكب بجانبك بنفس السرعة القصوى.
       - **حماية من السخونة:** نظام MultiProtect يفصل الشحن فوراً عند ارتفاع الحرارة بشكل خطر.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'جسم معدني لتشتيت الحرارة' },
                         { type: 'warranty', text: 'ضمان 18 شهر استبدال' },
                         { type: 'expert_verified', text: 'شحن سريع 48W' }
@@ -804,7 +804,7 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
       - **Dual Fast Charging:** Charge pilot and co-pilot devices at full speed simultaneously.
       - **Heat Protection:** MultiProtect system cuts power instantly if dangerous temperatures are detected.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Alloy Heat Dissipation' },
                         { type: 'warranty', text: '18-Month Warranty' },
                         { type: 'expert_verified', text: '48W Fast Charging' }
@@ -854,7 +854,7 @@ No. Anker chargers draw negligible power when the car is off, ensuring your car 
                     keywords: 'سماعة انكر, مكبر صوت انكر, soundcore motion plus, soundcore flare 2, سماعة بلوتوث, مكبر صوت بلوتوث',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'مكبرات صوت انكر Soundcore',
                     subtitle: 'Anker Soundcore Speakers - صوت Hi-Res عالي الدقة',
@@ -923,7 +923,7 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
                     keywords: 'سماعات جوي روم, سماعة joyroom, سماعات joyroom الاصلية, سعر السماعة joyroom, جوي روم ايربودز, سعر ايربودز joyroom, سعر ايربودز جوي روم, سعر سماعة joyroom jr t03s, سماعات بلوتوث joyroom, أفضل سماعات joyroom, سماعات ايربودز joyroom, سماعات بلوتوث جوي روم, سماعات joyroom t03s pro, ايربودز جوي روم t03s, مميزات وعيوب سماعة joyroom jr t03s',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'سماعات جوي روم - بديل الايربودز الأذكى',
                     subtitle: 'من 499 جنيه | ANC + Spatial Audio | الكود الذهبي',
@@ -936,7 +936,7 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
 - ✓ ضمان الكود الذهبي: تأكد من الأصالة برسالة SMS
 - ✓ أكثر من 15,000 قطعة مباعة في مصر
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'الكود الذهبي - تأكيد الأصالة بـ SMS' },
                         { type: 'warranty', text: 'ضمان استبدال فوري 12 شهر (ليس إصلاح!)' },
                         { type: 'expert_verified', text: '15,000+ قطعة مباعة في مصر' }
@@ -1005,7 +1005,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
 - ✓ Golden Code: Verify authenticity via SMS
 - ✓ 15,000+ units sold in Egypt
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Golden Code - SMS Authenticity Verification' },
                         { type: 'warranty', text: '12-Month Replacement Warranty (Not Repair!)' },
                         { type: 'expert_verified', text: '15,000+ Units Sold in Egypt' }
@@ -1080,7 +1080,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                     keywords: 'باور بانك جوي روم 10000, باور بانك جوي روم 20000, باور بانك جيروم, سعر باور بانك joyroom, joyroom power bank',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'باور بانك جوي روم (The Budget BEAST)',
                     subtitle: 'Joyroom Power Bank - تكنولوجيا الحماية الفائقة',
@@ -1093,7 +1093,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
       - **حماية 9 نقاط:** حماية من الماس الكهربائي، السخونة الزائدة، والتفريغ المفاجئ.
       - **شاشة رقمية (في بعض الموديلات):** لتعرف النسبة بالضبط وليس مجرد لمبات.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'منتج أصلي 100% (باركود)' },
                         { type: 'warranty', text: 'ضمان استبدال فوري' },
                         { type: 'expert_verified', text: 'خلايا بطارية Grade A+' }
@@ -1145,7 +1145,7 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
       - **9-Point Justice Protection:** Shields against short-circuit, overheating, and over-voltage.
       - **Digital Display:** Know your exact battery percentage (on select models).
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: '100% Original (QR Code)' },
                         { type: 'warranty', text: 'Direct Replacement Warranty' },
                         { type: 'expert_verified', text: 'Grade A+ Battery Cells' }
@@ -1203,7 +1203,7 @@ Fake Joyroom banks are common (often filled with sand!).
                     keywords: 'شاحن joyroom, شاحن جوي روم, شاحن جيروم, joyroom charger, شاحن سريع',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'شواحن جوي روم (The Safe Choice)',
                     subtitle: 'Joyroom Chargers - تكنولوجيا تبريد ذكية',
@@ -1216,7 +1216,7 @@ Fake Joyroom banks are common (often filled with sand!).
       - **خامات مضادة للحريق:** مصنوع من مادة PC V0 التي تمنع الاشتعال حتى في درجات الحرارة العالية.
       - **متعدد المنافذ:** اشحن اللابتوب والموبايل في نفس الوقت.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'ضمان الوكيل الرسمي' },
                         { type: 'warranty', text: 'آمن على صحة البطارية' },
                         { type: 'expert_verified', text: 'مواد مقاومة للحريق' }
@@ -1258,7 +1258,7 @@ Fake Joyroom banks are common (often filled with sand!).
       - **Fire-Retardant:** Made from PC V0 materials that resist combustion.
       - **Multi-Port Power:** Charge your MacBook and iPhone simultaneously.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Official Agent Warranty' },
                         { type: 'warranty', text: 'Battery Health Safe' },
                         { type: 'expert_verified', text: 'Fire-Proof Material' }
@@ -1306,7 +1306,7 @@ Fake Joyroom banks are common (often filled with sand!).
                     keywords: 'كابل جوي روم, وصلة جيروم, وصلة شاحن, كابل شحن',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'كابلات جوي روم (تكنولوجيا الفصل التلقائي)',
                     subtitle: 'Joyroom Cables - الكابل الوحيد اللي بيخاف على بطاريتك',
@@ -1319,7 +1319,7 @@ Fake Joyroom banks are common (often filled with sand!).
       **المتانة:**
       تصميم **مضفر (Braided)** يتحمل أكثر من 10,000 ثنية، ورؤوس مدعمة بالمعدن لمنع الكسر من المنطقة الحساسة.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'يفصل الشحن تلقائياً' },
                         { type: 'warranty', text: 'ضمان سنة كاملة' },
                         { type: 'expert_verified', text: 'نقل بيانات سريع' }
@@ -1368,7 +1368,7 @@ Fake Joyroom banks are common (often filled with sand!).
       **Durability:**
       Heavy-duty **Braided Nylon** tested for 10,000+ bends, with reinforced metal heads to prevent fraying.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Auto-Stop Charging' },
                         { type: 'warranty', text: '1 Year Warranty' },
                         { type: 'expert_verified', text: '480Mbps Data Sync' }
@@ -1417,7 +1417,7 @@ Fake Joyroom banks are common (often filled with sand!).
                     keywords: 'شاحن سيارة joyroom, joyroom car holder, اكسسوارات سيارة, حامل موبايل سيارة',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'اكسسوارات سيارة جوي روم',
                     subtitle: 'Joyroom Car Accessories - كل ما تحتاجه للسيارة',
@@ -1468,7 +1468,7 @@ Fake Joyroom banks are common (often filled with sand!).
                     keywords: 'حامل جوال سيارة, حامل موبايل للسيارة, حامل جوي روم, حامل مغناطيسي, joyroom car holder, car phone mount',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'حوامل جوال للسيارة جوي روم (مغناطيس N52)',
                     subtitle: 'Joyroom Car Holders - ثبات لا يهتز مع المطبات',
@@ -1481,7 +1481,7 @@ Fake Joyroom banks are common (often filled with sand!).
 - **لا يترك أثر:** اللاصق 3M الأصلي يثبت بقوة ولا يترك أي بقايا صمغ على تابلوه سيارتك عند إزالته.
 - **دوران 360 درجة:** تحكم كامل في زاوية الرؤية (بالطول أو بالعرض) لسهولة متابعة الـ GPS.
 `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'مغناطيس N52 أصلي' },
                         { type: 'warranty', text: 'ضمان استبدال فوري' },
                         { type: 'expert_verified', text: 'ثبات "طرق مصر"' }
@@ -1529,7 +1529,7 @@ We use industrial-grade **Neodymium N52 Magnets**, ensuring your phone stays loc
 - **Damage-Free 3M Adhesive:** Strong grip on your dashboard that peels off clean without leaving sticky residue.
 - **360° Freedom:** Rotate your phone to portrait or landscape instantly for the perfect GPS view.
 `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Genuine N52 Magnets' },
                         { type: 'warranty', text: 'Instant Replacement Warranty' },
                         { type: 'expert_verified', text: 'Rough Road Tested' }
@@ -1583,7 +1583,7 @@ Absolutely not. The N52 magnetic field is closed and shielded, specifically desi
                     keywords: 'ساعة جوي روم, ساعة ذكية, joyroom smart watch, fitness tracker',
                 }
             },
-            seoContent: {
+            pageContent: {
                 ar: {
                     title: 'ساعات جوي روم الذكية (ساعات الاتصال)',
                     subtitle: 'Joyroom Smart Watch - ذكاء وأناقة في معصمك',
@@ -1596,7 +1596,7 @@ Absolutely not. The N52 magnetic field is closed and shielded, specifically desi
       - **بطارية تدوم أيام:** انسى الشحن اليومي. بطارياتنا تدوم من 5 لـ 10 أيام استخدام متواصل.
       - **مقاومة الماء IP68:** آمنة للوضوء، غسل اليدين، والتعرق أثناء الرياضة.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'نسخة جلوبال (Global Version)' },
                         { type: 'warranty', text: 'ضمان سنة ضد عيوب الصناعة' },
                         { type: 'expert_verified', text: 'تدعم العربية 100%' }
@@ -1644,7 +1644,7 @@ Absolutely not. The N52 magnetic field is closed and shielded, specifically desi
       - **Long Battery Life:** Say goodbye to daily charging. Enjoy 5-10 days of battery life on a single charge.
       - **IP68 Water Resistance:** Splash-proof design safe for hand washing and workouts.
     `,
-                    trustSignals: [
+                    qualityBadges: [
                         { type: 'originality', text: 'Global Version' },
                         { type: 'warranty', text: '1 Year Warranty' },
                         { type: 'expert_verified', text: 'Full Arabic Support' }

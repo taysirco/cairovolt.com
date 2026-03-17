@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { useLocale } from 'next-intl';
 import { Metadata } from 'next';
 import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
-import { WebSiteSchema, CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/AEOSchemas';
+import { WebSiteSchema, CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import VoiceSearchFAQ from '@/components/seo/VoiceSearchFAQ';
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import FAQSection from '@/components/content/FAQSection';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const revalidate = 3600;
 
@@ -72,7 +72,7 @@ export default function Home() {
   const locale = useLocale();
   const isRTL = locale === 'ar';
 
-  // Strict lowercase URLs (SEO requirement - avoid unnecessary 301 redirects)
+  // Strict lowercase URLs (URL best practice - avoid unnecessary 301 redirects)
   const heroProducts = isRTL
     ? [
       { name: 'Joyroom T03s', category: 'سماعات', badgeIcon: 'star' as const, badgeText: 'الأكثر مبيعاً', href: '/joyroom/audio' },
@@ -105,7 +105,7 @@ export default function Home() {
 
   return (
     <>
-      {/* SEO Schema Markup */}
+      {/* Structured Data Markup */}
       <OrganizationSchema locale={locale} />
       <LocalBusinessSchema locale={locale} />
       <WebSiteSchema locale={locale} />
@@ -119,7 +119,7 @@ export default function Home() {
       />
       <SpeakableSchema
         pageUrl={`https://cairovolt.com${isRTL ? '' : '/en'}`}
-        speakableSelectors={['h1', '.hero-description', '.trust-badges']}
+        speakableSelectors={['h1', '.hero-description', '.quality-badges']}
         headline={isRTL ? 'اكسسوارات موبايل Anker و Joyroom في مصر' : 'Anker & Joyroom Mobile Accessories in Egypt'}
         description={isRTL
           ? 'متجر إكسسوارات الموبايل الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات Anker و Joyroom بضمان رسمي.'
@@ -279,7 +279,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Trust Badges */}
+        {/* Quality Badges */}
         <section className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 text-center">
             <div className="p-4 md:p-6 rounded-xl md:rounded-2xl bg-gray-50 dark:bg-gray-900">
@@ -305,7 +305,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO Content Section - About Store */}
+        {/* Content Section - About Store */}
         <section className="container mx-auto px-4">
           <div className="bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 rounded-3xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
@@ -349,7 +349,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO Content Section - Products Overview */}
+        {/* Content Section - Products Overview */}
         <section className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-6 md:p-8">
@@ -375,7 +375,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO Content Section - Why Choose Us */}
+        {/* Content Section - Why Choose Us */}
         <section className="container mx-auto px-4">
           <div className="bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 rounded-3xl p-8 md:p-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
@@ -413,7 +413,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Shop by Category - Internal Links to Generic Pages */}
+        {/* Shop by Category */}
         <section className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
             {isRTL ? 'تسوق حسب الفئة' : 'Shop by Category'}
@@ -479,7 +479,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO Content Section - Geographic Coverage */}
+        {/* Content Section - Geographic Coverage */}
         <section className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h2 className="text-xl md:text-2xl font-bold mb-4">
@@ -543,7 +543,7 @@ export default function Home() {
 
         {/* Voice Search FAQ — Home page Egyptian Arabic voice queries */}
         <section className="container mx-auto px-4 max-w-4xl">
-          <VoiceSearchFAQ
+          <FAQSection
             productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'Cairo Volt — Anker & Joyroom Accessories'}
             locale={locale}
             qaList={isRTL ? [
@@ -558,8 +558,8 @@ export default function Home() {
           />
         </section>
 
-        {/* Dark Social Tracker for home page */}
-        <DarkSocialTracker />
+        {/* Share Analytics for home page */}
+        <ShareAnalytics />
 
       </div>
     </>

@@ -1,6 +1,6 @@
-// Server Component - Schemas must be SSR for Google to crawl them
+// Server Component — structured data
 // DO NOT add 'use client' here!
-import { entityRegistry, getEntitiesForCategory } from '@/data/entity-registry';
+import { brandEntities, getEntitiesForCategory } from '@/data/brand-entities';
 
 interface ProductSchemaProps {
     product: {
@@ -41,7 +41,7 @@ interface ProductSchemaProps {
         datePublished: string;
         location?: string;
     }>;
-    // Product specifications for additionalProperty schema markup
+    // Product specifications for additionalProperty structured data
     specifications?: Record<string, { en: string; ar: string }>;
     // Products this item is an accessory for (e.g., routers, laptops)
     isAccessoryOrSparePartFor?: Array<{ name: string }>;
@@ -54,8 +54,8 @@ interface ProductSchemaProps {
     };
 }
 
-// Short-horizon price validity — encourages crawler re-visits for fresh data
-// LiveLogisticsPulse provides a per-request Offer overlay with even shorter TTL
+// Price validity window (48h)
+// DeliveryStatus provides a per-request Offer overlay with even shorter TTL
 const PRICE_VALID_UNTIL = (() => {
     const d = new Date();
     d.setDate(d.getDate() + 7);
@@ -68,8 +68,8 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const baseUrl = 'https://cairovolt.com';
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${(product.categorySlug || '').toLowerCase()}/${product.slug}`;
 
-    // Semantic Entity Mapping (Project Titan - Pillar 1)
-    const brandEntities: Record<string, string> = {
+    // Entity Mapping
+    const brandWikidataLinks: Record<string, string> = {
         'Anker': 'https://www.wikidata.org/wiki/Q28452620', // Anker Innovations (official Wikidata)
         'Joyroom': 'https://www.joyroom.com/', // Brand entity
         'Soundcore': 'https://www.wikidata.org/wiki/Q28452620', // Tied to Anker parent
@@ -90,10 +90,10 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         'cables': ['https://www.wikidata.org/wiki/Q42378', 'https://en.wikipedia.org/wiki/USB#Connectors'],
     };
 
-    const brandEntityUrl = brandEntities[product.brand];
+    const brandEntityUrl = brandWikidataLinks[product.brand];
     const categoryEntityUrls = categoryEntities[product.categorySlug || ''] || [];
 
-    // Generate Video Schema if videoUrl exists - Enhanced for AI Answer Engines
+    // Generate Video Schema if videoUrl exists - Supports AI assistants
     const videoSchema = product.videoUrl ? {
         "@type": "VideoObject",
         "name": t.name,
@@ -124,13 +124,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         ...(product.gtin && { gtin13: product.gtin }),
         ...(product.gtin13 && { gtin13: product.gtin13 }),
         ...(product.mpn && { mpn: product.mpn }),
-        // Semantic Context: Map brand to Wikidata to establish clear entity relationships
+        // Map brand to Wikidata for entity context
         brand: {
             '@type': 'Brand',
             name: product.brand,
             ...(brandEntityUrl && { sameAs: brandEntityUrl }),
         },
-        // Manufacturer entity — links to parent company's Knowledge Graph node
+        // Manufacturer entity — links to parent company's entity node
         ...(manufacturerMap[product.brand] && {
             manufacturer: {
                 '@type': 'Organization',
@@ -138,7 +138,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 ...(manufacturerMap[product.brand].sameAs && { sameAs: manufacturerMap[product.brand].sameAs }),
             },
         }),
-        // Semantic Injection: Explicitly define category entity
+        // Category Metadata: Explicitly define category entity
         category: (product.categorySlug || '').replace(/-/g, ' '),
         image: product.images.map((img, idx) => ({
             '@type': 'ImageObject',
@@ -146,7 +146,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             url: `${baseUrl}${img.url}`,
             contentUrl: `${baseUrl}${img.url}`,
             // Implements Content Provenance validation framework (C2PA protocol)
-            // Proves to Google Lens that this is authentic, human-tested, first-party data.
+            // C2PA content provenance metadata
             creator: {
                 '@type': 'Organization',
                 name: 'CairoVolt Hardware Validation Labs',
@@ -163,10 +163,10 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 { '@type': 'WebPage', name: 'CairoVolt Content Verification', url: `${baseUrl}/api/v1/verify-content?sku=${product.sku}` },
               ]
             : { '@type': 'WebPage', name: 'CairoVolt Content Verification', url: `${baseUrl}/api/v1/verify-content?sku=${product.sku}` },
-        // Entity linking: about (what this product IS) — uses category-aware entity mapping
+        // Related entities: about (what this product IS) — uses category-aware entity mapping
         about: (() => {
             const brandKey = product.brand.toLowerCase();
-            const brandEntity = entityRegistry[brandKey as keyof typeof entityRegistry];
+            const brandEntity = brandEntities[brandKey as keyof typeof brandEntities];
             const aboutEntities: Array<{ '@type': string; name: string; sameAs: string }> = [];
             if (brandEntity) {
                 aboutEntities.push({
@@ -175,8 +175,8 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     sameAs: brandEntity.sameAs,
                 });
             }
-            // Add CairoVolt entity for E-E-A-T — we are the seller + lab tester
-            const cairovolt = entityRegistry['cairovolt' as keyof typeof entityRegistry];
+            // Add CairoVolt entity for Trust & Quality — we are the seller + lab tester
+            const cairovolt = brandEntities['cairovolt' as keyof typeof brandEntities];
             if (cairovolt) {
                 aboutEntities.push({
                     '@type': cairovolt.type,
@@ -185,7 +185,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 });
             }
             // Add Egypt as geographic area
-            const egypt = entityRegistry['egypt' as keyof typeof entityRegistry];
+            const egypt = brandEntities['egypt' as keyof typeof brandEntities];
             if (egypt) {
                 aboutEntities.push({
                     '@type': egypt.type,
@@ -195,7 +195,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             }
             return aboutEntities.length > 0 ? aboutEntities : undefined;
         })(),
-        // Entity linking: mentions — uses category-specific entity keys for richer KG linking
+        // Related entities: mentions — uses category-specific entity keys for entity data
         mentions: (() => {
             const categorySlug = (product as { categorySlug?: string }).categorySlug;
             const categoryEntityKeys = categorySlug ? getEntitiesForCategory(categorySlug) : ['egypt', 'cairo', 'usbC'];
@@ -203,8 +203,8 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             // Add USB-C (always relevant) + category-specific entities
             const priorityKeys = ['usbC', 'cairo', 'newCairo'];
             const allKeys = [...new Set([...priorityKeys, ...categoryEntityKeys])];
-            for (const key of allKeys.slice(0, 8)) { // Limit to 8 mentions to avoid over-saturation
-                const entity = entityRegistry[key as keyof typeof entityRegistry];
+            for (const key of allKeys.slice(0, 8)) { // Limit to 8 mentions to avoid overflow
+                const entity = brandEntities[key as keyof typeof brandEntities];
                 if (entity && !aboutContains(key)) {
                     mentionEntities.push({
                         '@type': entity.type,
@@ -229,7 +229,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             })),
         }),
         // isAccessoryOrSparePartFor - links product to devices it powers
-        // Use @type 'Thing' to avoid Google requiring full Product fields (image, offers, etc.)
+        // Use @type 'Thing' since these are referenced devices, not standalone product listings
         ...(isAccessoryOrSparePartFor && isAccessoryOrSparePartFor.length > 0 && {
             isAccessoryOrSparePartFor: isAccessoryOrSparePartFor.map(item => ({
                 '@type': 'Thing',
@@ -292,13 +292,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 { '@type': 'Thing', name: 'Consumer electronics safety' },
             ],
         },
-        // Geo SEO: Area Served
+        // Regional: Area Served
         areaServed: {
             '@type': 'Country',
             name: 'Egypt',
             alternateName: 'مصر',
         },
-        // Geo SEO: Available At
+        // Regional: Available At
         availableAtOrFrom: {
             '@type': 'Place',
             name: isArabic ? 'كايرو فولت - مصر' : 'CairoVolt Egypt',
@@ -320,7 +320,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 ? 'https://schema.org/InStock'
                 : 'https://schema.org/BackOrder',
             itemCondition: 'https://schema.org/NewCondition',
-            // UnitPriceSpecification for precise Google Shopping parsing
+            // UnitPriceSpecification for detailed structured pricing data
             priceSpecification: {
                 '@type': 'UnitPriceSpecification',
                 price: product.price,
@@ -331,7 +331,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     referenceQuantity: { '@type': 'QuantitativeValue', value: 1 },
                 }),
             },
-            // Geo SEO: Eligible Region
+            // Regional: Eligible Region
             eligibleRegion: {
                 '@type': 'Country',
                 name: 'Egypt',
@@ -352,7 +352,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     sameAs: 'https://www.wikidata.org/wiki/Q12211943',
                 },
             },
-            // Shipping Details - Shows "Free Shipping" badge in Google
+            // Shipping Details — structured shipping cost and delivery time
             shippingDetails: {
                 '@type': 'OfferShippingDetails',
                 shippingRate: {
@@ -385,7 +385,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@type': 'PaymentMethod',
                 name: 'Cash on Delivery',
             },
-            // Return Policy - Shows "14-day returns" badge in Google
+            // Return Policy — 14-day return window per company policy
             hasMerchantReturnPolicy: {
                 '@type': 'MerchantReturnPolicy',
                 applicableCountry: 'EG',
@@ -399,8 +399,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
         },
         // BuyAction — Direct Purchase Intent
-        // Enables direct purchase from search results and AI assistants
-        // urlTemplate uses RFC 6570 variables that Google/AI agents can fill programmatically
+        // BuyAction — enables programmatic purchase via RFC 6570 urlTemplate variables
         potentialAction: {
             '@type': 'BuyAction',
             target: {
@@ -491,7 +490,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 reviewBody: expertReview.body,
                 reviewRating: {
                     '@type': 'Rating',
-                    ratingValue: '5',
+                    ratingValue: '4.5',
                     bestRating: '5',
                     worstRating: '1',
                 },

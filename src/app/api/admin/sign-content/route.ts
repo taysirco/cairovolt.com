@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { validateApiKey } from '@/lib/api-auth';
-import { buildManifest, signManifest } from '@/lib/content-credentials';
+import { buildManifest, signManifest } from '@/lib/media-verification';
 import { getSecret } from '@/lib/get-secrets';
 
 /**
- * Admin: Batch sign Content Credentials for all Firestore products
+ * Admin: Batch sign media verification data for products
  *
  * POST /api/admin/sign-content
  * Requires X-API-Key header (same key as write operations)
@@ -98,7 +98,7 @@ export async function POST(req: NextRequest) {
         });
 
     } catch (err) {
-        console.error('sign-content batch error:', err);
+        console.error('batch-sign error:', err);
         return NextResponse.json({
             error: 'Batch signing failed',
             details: err instanceof Error ? err.message : 'Unknown error',

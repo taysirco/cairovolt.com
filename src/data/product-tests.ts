@@ -1,12 +1,12 @@
 /**
- * CairoVolt Labs — First-Party Test Data (Information Gain)
+ * CairoVolt Labs — First-Party Test Data
  * 
- * These are real-world test results from CairoVolt Labs that Google
- * Highly structured, empirical data block designed to provide
- * first-party insights and clear technical specifications.
+ * Real-world test results from CairoVolt Labs.
+ * Structured, empirical data block providing
+ * lab-tested insights and clear technical specifications.
  * 
  * Each product has: lab test scenario, voice FAQ (Egyptian Arabic),
- * and isAccessoryOrSparePartFor mappings for Semantic Parasitism.
+ * and isAccessoryOrSparePartFor mappings for product compatibility mapping.
  */
 
 export interface LabTest {

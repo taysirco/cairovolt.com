@@ -1,14 +1,14 @@
 import { connection } from 'next/server';
 import { getLiveFulfillmentData } from '@/lib/live-fulfillment';
 
-interface LiveLogisticsPulseProps {
+interface DeliveryStatusProps {
     sku: string;
     locale: string;
     brandColor?: 'blue' | 'red';
 }
 
 /**
- * LiveLogisticsPulse — Real-time Delivery Status Server Component
+ * DeliveryStatus — Real-time Delivery Status Server Component
  * 
  * Uses `connection()` to ensure this component always renders with fresh data.
  * While the rest of the product page is cached (revalidate=3600), this section
@@ -19,9 +19,9 @@ interface LiveLogisticsPulseProps {
  * - Stock health status and order velocity
  * 
  * Provides users with real-time confidence in delivery operations
- * and signals data freshness to search engine crawlers.
+ * 
  */
-export async function LiveLogisticsPulse({ sku, locale, brandColor = 'blue' }: LiveLogisticsPulseProps) {
+export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: DeliveryStatusProps) {
     // Force dynamic rendering — bypasses ALL caching for this component
     await connection();
 
@@ -140,7 +140,7 @@ export async function LiveLogisticsPulse({ sku, locale, brandColor = 'blue' }: L
                     </div>
                 </div>
 
-                {/* Mutation fingerprint — visible to crawlers, hidden from users */}
+                {/* Last updated timestamp */}
                 <span className="sr-only" data-mutation-time={mutationTime}>
                     Last data refresh: {mutationTime}
                 </span>

@@ -1,26 +1,26 @@
 /**
- * EmpiricalReviewAmplifier — مفاعل "التجربة المباشرة"
+ * ProductTestResults — مكون "التجربة المباشرة"
  * 
- * Translates CairoVolt Labs quantitative test data into NLP-optimized HTML
- * that triggers Google's Product Reviews Update algorithm.
+ * Renders CairoVolt product test data as structured HTML
  * 
- * Key NLP signals:
+ * 
+ * Key content patterns:
  * - "قمنا باختبار" / "We tested" — first-hand experience trigger
  * - "قسنا" / "We measured" — quantitative measurement trigger 
  * - Quantitative numbers (mAh, hours, °C, W) — empirical data
- * - Strategic flaw (negativeNotes) — credibility maximizer
- * - Hidden Review schema — Rich Snippets based on OUR test, not just customers
+ * - Balanced review (negativeNotes) — 
+ * - Review schema — Enhanced Results based on OUR test, not just customers
  * 
  * Schema.org compliance:
  * - Review with author (Organization), publisher, datePublished
  * - positiveNotes as ItemList (one ListItem per positive metric)
- * - negativeNotes as ItemList (strategic flaw for credibility)
+ * - negativeNotes as ItemList
  * - reviewRating with ratingValue/bestRating/worstRating
  */
 
-import type { LabMetrics } from '@/data/cairovolt-labs';
+import type { LabMetrics } from '@/data/product-tests';
 
-interface EmpiricalReviewAmplifierProps {
+interface ProductTestResultsProps {
     sku: string;
     locale: string;
     labMetrics: LabMetrics;
@@ -37,12 +37,12 @@ interface MetricCard {
     schemaNote: string;
 }
 
-export default function EmpiricalReviewAmplifier({
+export default function ProductTestResults({
     sku,
     locale,
     labMetrics,
     productName,
-}: EmpiricalReviewAmplifierProps) {
+}: ProductTestResultsProps) {
     const isArabic = locale === 'ar';
 
     // Hash for deterministic heading variation per product
@@ -205,8 +205,8 @@ export default function EmpiricalReviewAmplifier({
     // Don't render if no metrics available
     if (metricsDisplay.length === 0) return null;
 
-    // ─── FIX #5: Dynamic strategic flaw using actual weight data ────────────
-    const buildStrategicFlaw = (): { ar: string; en: string } => {
+    // ─── Balanced feedback using actual weight data ────────────
+    const buildBalancedFeedback = (): { ar: string; en: string } => {
         if (labMetrics.actualWeight_g && labMetrics.actualCapacity_mAh) {
             return {
                 ar: `الوزن الفعلي (${labMetrics.actualWeight_g} جرام) أثقل قليلاً من النسخ المقلدة (High-Copy) المنتشرة في السوق، وهو ضريبة الخلايا الأصلية عالية الكثافة. الفارق في الوزن دليل على وجود خلايا حقيقية وليست مُعاد تعبئتها.`,
@@ -236,17 +236,17 @@ export default function EmpiricalReviewAmplifier({
             en: `The original product may cost slightly more than counterfeits, but the performance and safety gap is massive according to our lab testing.`,
         };
     };
-    const strategicFlaw = buildStrategicFlaw();
+    const balancedFeedback = buildBalancedFeedback();
 
-    // ─── FIX #6: Dynamic NLP paragraph adapting to product category ─────────
-    const buildNlpParagraph = () => {
+    // ─── FIX #6: Dynamic summary paragraph adapting to product category ─────────
+    const buildSummaryParagraph = () => {
         const parts: { ar: string[]; en: string[] } = { ar: [], en: [] };
 
-        // Core NLP trigger — always present
+        // Core summary — always present
         parts.ar.push(`لقد **قمنا باختبار** هذا المنتج (${productName}) فعلياً داخل مختبراتنا.`);
         parts.en.push(`We have **tested** this product (${productName}) first-hand in our labs.`);
 
-        // Quantitative measurement trigger
+        // Quantitative measurement data
         parts.ar.push('باستخدام أجهزة القياس المعتمدة، **قسنا** الأداء الفعلي');
         parts.en.push('Using calibrated measurement equipment, **we measured** the actual performance');
 
@@ -278,10 +278,10 @@ export default function EmpiricalReviewAmplifier({
 
         return { ar: parts.ar.join(' '), en: parts.en.join(' ') };
     };
-    const nlpText = buildNlpParagraph();
+    const summaryText = buildSummaryParagraph();
 
     // Plain text for schema (strips markdown bold)
-    const nlpSchemaText = (isArabic ? nlpText.ar : nlpText.en).replace(/\*\*/g, '');
+    const summarySchemaText = (isArabic ? summaryText.ar : summaryText.en).replace(/\*\*/g, '');
 
     // ─── FIX #4: datePublished for the Review ────────────────────────────────
     // Deterministic date based on product hash (within last 6 months)
@@ -292,8 +292,8 @@ export default function EmpiricalReviewAmplifier({
         return d.toISOString().split('T')[0]; // YYYY-MM-DD
     })();
 
-    // Schema-friendly strategic flaw text (for negativeNotes ItemList)
-    const flawSchemaText = isArabic ? strategicFlaw.ar : strategicFlaw.en;
+    // Balanced feedback text for schema
+    const feedbackSchemaText = isArabic ? balancedFeedback.ar : balancedFeedback.en;
 
     return (
         <section
@@ -314,7 +314,7 @@ export default function EmpiricalReviewAmplifier({
                     {selectedTitle}
                 </h2>
 
-                {/* ─── NLP Trigger Paragraph (keywords Google's Product Reviews algorithm scans) ─── */}
+                {/* ─── Product Summary Paragraph ─── */}
                 <div className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
                     <p>
                         {isArabic ? (
@@ -399,7 +399,7 @@ export default function EmpiricalReviewAmplifier({
                     ))}
                 </div>
 
-                {/* ─── 🔥 Strategic Flaw (Google doesn't trust 100% positive reviews) ─── */}
+                {/* ─── Balanced Feedback (Balanced review for credibility) ─── */}
                 <div className="mt-5 flex items-start gap-3 p-4 bg-amber-50/80 dark:bg-amber-950/20 rounded-xl border border-amber-200 dark:border-amber-800/50">
                     <span className="text-amber-500 mt-0.5 flex-shrink-0 text-lg">⚠️</span>
                     <div>
@@ -407,7 +407,7 @@ export default function EmpiricalReviewAmplifier({
                             {isArabic ? 'ملاحظة هندسية صريحة:' : 'Honest Engineering Note:'}
                         </p>
                         <p className="text-sm text-amber-700 dark:text-amber-400 leading-relaxed">
-                            {isArabic ? strategicFlaw.ar : strategicFlaw.en}
+                            {isArabic ? balancedFeedback.ar : balancedFeedback.en}
                         </p>
                     </div>
                 </div>

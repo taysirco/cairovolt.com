@@ -1,9 +1,9 @@
 'use client';
 
 import type { RegionalStats } from '@/lib/bosta';
-import type { LabMetrics } from '@/data/cairovolt-labs';
+import type { LabMetrics } from '@/data/product-tests';
 
-interface TrustMatrixProps {
+interface ProductGuaranteesProps {
     sku: string;
     userGovernorate: string;
     locale: string;
@@ -11,13 +11,13 @@ interface TrustMatrixProps {
     labMetrics: LabMetrics | null;
 }
 
-export default function TrustMatrix({
+export default function ProductGuarantees({
     sku,
     userGovernorate,
     locale,
     deliveryStats,
     labMetrics,
-}: TrustMatrixProps) {
+}: ProductGuaranteesProps) {
     const isRTL = locale === 'ar';
 
     // Dynamic heading rotation per product
@@ -281,7 +281,7 @@ export default function TrustMatrix({
                     )}
                 </div>
 
-                {/* SGE Hidden Content — visible to crawlers, invisible to users */}
+                {/* Supplementary product details */}
                 <div className="sr-only" itemProp="description">
                     {isRTL
                         ? `تم التحقق من هذا المنتج (${sku}) عبر مختبرات CairoVolt. ${labMetrics?.actualCapacity_mAh ? `السعة الفعلية المقاسة ${labMetrics.actualCapacity_mAh} مللي أمبير.` : ''} ${labMetrics?.maxTemp_C ? `أقصى حرارة شحن ${labMetrics.maxTemp_C} درجة مئوية.` : ''} ${labMetrics?.routerRuntimeHours ? `يشغل الراوتر لمدة ${labMetrics.routerRuntimeHours} ساعة متواصلة أثناء انقطاع الكهرباء.` : ''} متوفر للشحن الفوري إلى ${governorateDisplay} عبر الدفع عند الاستلام. متوسط زمن التوصيل ${deliveryStats.avg_delivery_hours} ساعة.`

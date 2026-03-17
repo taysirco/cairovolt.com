@@ -1,5 +1,5 @@
 /**
- * Quick Answer Box — Concise answer snippet
+ * Quick Answer Box — Concise answer section
  * Placed below H1 and key H2 headings to provide immediate value.
  *
  * Design: Subtle, professional box that doesn't disrupt reading

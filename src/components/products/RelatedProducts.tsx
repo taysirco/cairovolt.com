@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { VerifiedVisionImage } from '@/components/ui/VerifiedVisionImage';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface Product {
@@ -72,7 +72,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                 {/* Image Area */}
                                 <div className="relative aspect-square mb-3 bg-gray-50 rounded-xl overflow-hidden">
                                     {product.images?.[0]?.url ? (
-                                        <VerifiedVisionImage
+                                        <ProductImage
                                             src={product.images[0].url}
                                             alt={t?.name || product.slug}
                                             slug={product.slug}
@@ -95,7 +95,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                         </span>
                                     )}
 
-                                    {/* Content Credentials verified indicator */}
+                                    {/* Verified indicator */}
                                     <span
                                         className="absolute bottom-1 right-1 bg-emerald-500 text-white rounded-full p-0.5 z-10"
                                         title={isArabic ? 'صورة موثّقة — C2PA' : 'Verified image — C2PA'}

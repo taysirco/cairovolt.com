@@ -3,7 +3,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue, Query } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { validateApiKey } from '@/lib/api-auth';
-import { buildManifest, signManifest } from '@/lib/content-credentials';
+import { buildManifest, signManifest } from '@/lib/media-verification';
 import { logger } from '@/lib/logger';
 
 // ============================================
@@ -245,9 +245,9 @@ export async function POST(req: NextRequest) {
                         : [],
                 },
             },
-            seo: {
+            meta: {
                 keywords: data.keywords || '',
-                focusKeyword: data.focusKeyword || '',
+                mainTerm: data.mainTerm || '',
                 canonical: data.canonical || null,
                 schemaType: 'Product',
             },

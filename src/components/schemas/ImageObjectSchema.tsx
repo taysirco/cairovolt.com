@@ -1,4 +1,4 @@
-// Server Component - Schemas must be SSR for Google to crawl them
+// Server Component — structured data
 // DO NOT add 'use client' here!
 
 interface ProductImageInfo {
@@ -25,11 +25,11 @@ interface ImageObjectSchemaProps {
 }
 
 /**
- * Google Lens–optimised ImageObject schemas.
+ * ImageObject schemas for product images.
  *
  * Emits one <script type="application/ld+json"> per product image (max 8).
- * Key signals for Google Lens:
- *   • subjectOf → Product (name, price, brand, url) — triggers "Buy" card in Lens
+ * Key structured data signals:
+ *   • subjectOf → Product (name, price, brand, url) — links image to product context
  *   • representativeOfPage = true on primary image
  *   • digitalSourceType = digitalCapture (not AI-generated)
  *   • contentLocation with GPS coordinates (New Damietta lab)
@@ -52,7 +52,7 @@ export function ImageObjectSchema({
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${productBrand.toLowerCase()}/${productCategory.toLowerCase()}/${productSlug}`;
     const year = new Date().getFullYear();
 
-    // Build primary image URL for the nested Product (Google requires `image` on every Product entity)
+    // Build primary image URL for the nested Product (schema spec requires `image` on standalone Product entities)
     const primaryImage = images[0];
     const primaryImageUrl = primaryImage
         ? (primaryImage.url.startsWith('http') ? primaryImage.url : `${baseUrl}${primaryImage.url}`)

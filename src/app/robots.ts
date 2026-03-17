@@ -10,7 +10,7 @@ export default function robots(): MetadataRoute.Robots {
                     '/',
                     '/api/feed',           // Merchant Center feed
                     '/api/discover-feed',  // Google Discover RSS
-                    '/api/topical-map',    // Semantic Graph API
+                    '/api/knowledge-graph',    // Entity Data API
                     '/api/llms/catalog',   // M2M Catalog API
                     '/.well-known/llms.txt',
                 ],
@@ -37,7 +37,7 @@ export default function robots(): MetadataRoute.Robots {
                 userAgent: '*',
                 allow: [
                     '/',
-                    '/api/topical-map',
+                    '/api/knowledge-graph',
                     '/api/llms/catalog',
                     '/.well-known/llms.txt',
                 ],

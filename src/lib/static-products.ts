@@ -2,7 +2,7 @@
 // This can be used as fallback or for development
 
 import { products, categories } from '@/data/seed-products';
-import { topicalMap, getInternalLinksForPage, getRelatedEntities } from '@/data/topical-map';
+import { contentGraph, getInternalLinksForPage, getRelatedEntities } from '@/data/content-graph';
 
 export interface StaticProduct {
     slug: string;
@@ -14,7 +14,7 @@ export interface StaticProduct {
     stock: number;
     featured: boolean;
     status: string;
-    // GS1 Web Vocabulary fields for AI/E-Commerce optimization
+    // GS1 Web Vocabulary fields for data interchange
     gtin?: string;      // Global Trade Item Number (EAN-13 barcode)
     mpn?: string;       // Manufacturer Part Number
     gtin13?: string;    // Alias for GTIN (EAN-13 format)
@@ -47,9 +47,9 @@ export interface StaticProduct {
             faqs?: Array<{ question: string; answer: string }>;
         };
     };
-    seo: {
+    meta: {
         keywords: string;
-        focusKeyword: string;
+        mainTerm: string;
     };
     relatedProducts?: string[]; // Array of product slugs
 }
@@ -64,7 +64,7 @@ export interface StaticCategory {
         en: { name: string; description: string };
         ar: { name: string; description: string };
     };
-    seo: { keywords: string };
+    meta: { keywords: string };
 }
 
 // Export typed products and categories
@@ -72,10 +72,10 @@ export const staticProducts = products as StaticProduct[];
 export const staticCategories = categories as StaticCategory[];
 
 /**
- * Get products based on topical map semantic relationships
- * Uses internal links and related entities from the topical map
+ * Get products based on content map relationships
+ * Uses internal links and related entities from the content graph
  */
-export function getTopicallyRelatedProducts(
+export function getRelatedProducts(
     product: StaticProduct,
     maxProducts: number = 4
 ): StaticProduct[] {
@@ -83,10 +83,10 @@ export function getTopicallyRelatedProducts(
     const categorySlug = product.categorySlug;
     const pageUrl = `/${brandSlug}/${categorySlug}`;
 
-    // Get internal links from topical map (semantically related categories)
+    // Get internal links from content graph (related categories)
     const internalLinks = getInternalLinksForPage(pageUrl);
 
-    // Get related entities for semantic matching
+    // Get related entities for entity matching
     const relatedEntities = getRelatedEntities(brandSlug, categorySlug);
 
     const scoredProducts: Array<{ product: StaticProduct; score: number }> = [];
@@ -98,7 +98,7 @@ export function getTopicallyRelatedProducts(
         const pBrand = p.brand.toLowerCase();
         const pUrl = `/${pBrand}/${p.categorySlug}`;
 
-        // High score if category is in topical map's internal links
+        // High score if category is in content graph's internal links
         if (internalLinks.some(link => link.includes(p.categorySlug))) {
             score += 40;
         }
@@ -106,18 +106,18 @@ export function getTopicallyRelatedProducts(
         // STRICT: Only allow products from the same brand
         if (pBrand !== brandSlug) continue;
 
-        // Check if product matches related entities (semantic matching)
+        // Check if product matches related entities
         const productKeywords = p.translations.en.name.toLowerCase() + ' ' +
             p.translations.en.description.toLowerCase() +
             (p.translations.en.features?.join(' ') || '');
 
         for (const entity of relatedEntities) {
             if (productKeywords.includes(entity.toLowerCase())) {
-                score += 15; // Semantic entity match
+                score += 15; // Entity match
             }
         }
 
-        // Cross-brand related products from topical map
+        // Cross-brand related products from content graph
         if (internalLinks.includes(pUrl)) {
             score += 35;
         }

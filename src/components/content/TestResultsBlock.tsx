@@ -1,11 +1,11 @@
 /**
- * LabTestBlock — Renders CairoVolt Labs first-party test results
+ * TestResultsBlock — Renders CairoVolt Labs first-party test results
  * as visible HTML content on the product page.
  * Highly structured, empirical data block designed to provide
  * first-party insights and clear technical specifications.
  */
 
-interface LabTestBlockProps {
+interface TestResultsBlockProps {
     testScenario: string;
     testResult: string;
     testConditions: string;
@@ -15,7 +15,7 @@ interface LabTestBlockProps {
     rating?: number;
 }
 
-export default function LabTestBlock({
+export default function TestResultsBlock({
     testScenario,
     testResult,
     testConditions,
@@ -23,7 +23,7 @@ export default function LabTestBlock({
     expertProfileUrl,
     locale,
     rating = 5,
-}: LabTestBlockProps) {
+}: TestResultsBlockProps) {
     const isArabic = locale === 'ar';
     const stars = '★'.repeat(rating) + '☆'.repeat(5 - rating);
 
@@ -95,7 +95,7 @@ export default function LabTestBlock({
                                 {isArabic ? 'فحص هندسي معتمد' : 'Verified Engineering Test'}
                             </span>
                             <span className="text-[11px] text-gray-500 dark:text-gray-400 font-medium bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-full border border-gray-200 dark:border-white/10">
-                                {isArabic ? 'بيانات أصلية 100% (Information Gain)' : '100% First-Party Data (Information Gain)'}
+                                {isArabic ? 'بيانات أصلية 100% — مختبرياً' : '100% Lab-Verified Data'}
                             </span>
                         </div>
                     </div>

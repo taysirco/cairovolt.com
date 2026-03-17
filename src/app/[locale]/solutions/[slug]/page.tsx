@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getPainPointBySlug, painPointsDB } from '@/data/pain-points';
+import { getSolutionBySlug, solutionsDB } from '@/data/solutions-data';
 import { getProductBySlug } from '@/lib/static-products';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -10,7 +10,7 @@ export const revalidate = 3600;
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-    return painPointsDB.map(p => ({ slug: p.slug }));
+    return solutionsDB.map(p => ({ slug: p.slug }));
 }
 
 type Props = {
@@ -19,12 +19,12 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, slug } = await params;
-    const solution = getPainPointBySlug(slug);
+    const solution = getSolutionBySlug(slug);
 
     if (!solution) return {};
 
     const isArabic = locale === 'ar';
-    const title = isArabic ? solution.targetKeyword.ar : solution.targetKeyword.en;
+    const title = isArabic ? solution.searchQuery.ar : solution.searchQuery.en;
     const desc = isArabic ? solution.problemStatement.ar : solution.problemStatement.en;
 
     return {
@@ -45,14 +45,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function SolutionPage({ params }: Props) {
     const { locale, slug } = await params;
-    const solution = getPainPointBySlug(slug);
+    const solution = getSolutionBySlug(slug);
 
     if (!solution) {
         notFound();
     }
 
     const isArabic = locale === 'ar';
-    const title = isArabic ? solution.targetKeyword.ar : solution.targetKeyword.en;
+    const title = isArabic ? solution.searchQuery.ar : solution.searchQuery.en;
     const problem = isArabic ? solution.problemStatement.ar : solution.problemStatement.en;
     const answer = isArabic ? solution.engineeringExplanation.ar : solution.engineeringExplanation.en;
 
@@ -65,7 +65,7 @@ export default async function SolutionPage({ params }: Props) {
         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12" dir={isArabic ? 'rtl' : 'ltr'}>
             <div className="container mx-auto px-4 max-w-4xl">
 
-                {/* Micro-Intent Header */}
+                {/* Solution Header */}
                 <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 dark:border-gray-800 mb-8">
                     <span className="inline-block px-3 py-1 bg-red-100 text-red-600 dark:bg-red-900/30 dark:text-red-400 text-sm font-bold rounded-full mb-6">
                         {isArabic ? 'تحليل المشكلة' : 'Problem Analysis'}
@@ -78,7 +78,7 @@ export default async function SolutionPage({ params }: Props) {
                     </p>
                 </div>
 
-                {/* The Engineering Solution (The Answer that Google wants to snippet) */}
+                {/* The Engineering Solution */}
                 <div className="bg-gradient-to-br from-blue-900 to-indigo-900 rounded-3xl p-8 md:p-12 text-white shadow-xl mb-12 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl"></div>
                     <div className="relative z-10">

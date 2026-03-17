@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { staticProducts } from '@/lib/static-products';
 import { BostaTracker } from '@/lib/bosta';
-import { getGovernorateLoadSheddingData } from '@/data/load-shedding-data';
+import { getGovernorateOutageData } from '@/data/load-shedding-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const dynamic = 'force-dynamic'; // BostaTracker uses new Date() — must be dynamic
 export const revalidate = 3600; // ISR: revalidate every hour after initial render
@@ -83,7 +83,7 @@ export default async function GovernoratePage({ params }: PageProps) {
     const logistics = BostaTracker.getRegionalStats(gov.slug, locale);
 
     // 2. Load-shedding data — region-specific content + lab data
-    const lsData = getGovernorateLoadSheddingData(
+    const lsData = getGovernorateOutageData(
         gov.slug, gov.region, gov.nameAr, gov.nameEn, gov.deliveryDays
     );
 
@@ -105,7 +105,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                 locale={locale}
             />
 
-            {/* FAQPage + Load Shedding Entity Schema */}
+            {/* FAQ + Load Shedding Structured Data */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -507,7 +507,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                     </div>
                 </section>
 
-                {/* ═══════════ OTHER GOVERNORATES (Internal Linking) ═══════════ */}
+                {/* ═══════════ OTHER GOVERNORATES ═══════════ */}
                 <section className="py-10 bg-gray-100 dark:bg-gray-800/30">
                     <div className="container mx-auto px-4">
                         <h2 className="text-xl font-bold text-center mb-6 text-gray-900 dark:text-white">
@@ -530,8 +530,8 @@ export default async function GovernoratePage({ params }: PageProps) {
                     </div>
                 </section>
 
-                {/* Dark Social Tracker */}
-                <DarkSocialTracker />
+                {/* Share Analytics */}
+                <ShareAnalytics />
             </main>
         </>
     );

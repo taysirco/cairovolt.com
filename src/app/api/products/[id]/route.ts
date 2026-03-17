@@ -134,13 +134,13 @@ export async function PUT(
             };
         }
 
-        // SEO
-        if (data.keywords !== undefined || data.focusKeyword !== undefined || data.canonical !== undefined) {
+        // Meta
+        if (data.keywords !== undefined || data.mainTerm !== undefined || data.canonical !== undefined) {
             const existingData = doc.data();
-            updateData.seo = {
-                keywords: data.keywords ?? existingData?.seo?.keywords ?? '',
-                focusKeyword: data.focusKeyword ?? existingData?.seo?.focusKeyword ?? '',
-                canonical: data.canonical ?? existingData?.seo?.canonical ?? null,
+            updateData.meta = {
+                keywords: data.keywords ?? existingData?.meta?.keywords ?? '',
+                mainTerm: data.mainTerm ?? existingData?.meta?.mainTerm ?? '',
+                canonical: data.canonical ?? existingData?.meta?.canonical ?? null,
                 schemaType: 'Product',
             };
         }

@@ -62,7 +62,7 @@ export async function POST(req: NextRequest) {
 
         const maxOrder = maxOrderSnapshot.empty ? 0 : (maxOrderSnapshot.docs[0].data().order || 0);
 
-        const categoryData = {
+        const categoryContent = {
             slug: data.slug,
             icon: data.icon || null,
             image: data.image || null,
@@ -83,7 +83,7 @@ export async function POST(req: NextRequest) {
                     metaDesc: data.arMetaDesc || '',
                 },
             },
-            seo: {
+            meta: {
                 keywords: data.keywords || '',
                 canonical: data.canonical || null,
             },
@@ -93,12 +93,12 @@ export async function POST(req: NextRequest) {
         };
 
         // Use slug as doc ID for consistency with seeding script
-        await db.collection('categories').doc(data.slug).set(categoryData);
+        await db.collection('categories').doc(data.slug).set(categoryContent);
 
         return NextResponse.json({
             success: true,
             id: data.slug,
-            ...categoryData
+            ...categoryContent
         });
     } catch (error) {
         console.error('Error creating category:', error);

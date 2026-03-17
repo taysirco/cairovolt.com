@@ -15,7 +15,7 @@ import { useEffect, useCallback, useRef } from 'react';
  *    - Tracks 25/50/75/100% milestones
  *    - At 75%: reveals additional content sections
  *
- * 3. Exit Overlay
+ * 3. Page Leave Overlay
  *    - Detects mouse leaving viewport (desktop)
  *    - Shows WhatsApp CTA to reduce abandonment
  *
@@ -26,7 +26,7 @@ import { useEffect, useCallback, useRef } from 'react';
  */
 export default function InteractiveEffects() {
     const scrollMilestonesRef = useRef<Set<number>>(new Set());
-    const exitIntentShownRef = useRef(false);
+    const pageLeaveShownRef = useRef(false);
     const rafIdRef = useRef<number>(0);
 
     // ─── 1. Instant Click Ripple ───
@@ -106,9 +106,9 @@ export default function InteractiveEffects() {
 
                     // At 75%+ depth: reveal additional content (if exists)
                     if (ms >= 75) {
-                        const engagementZone = document.querySelector('[data-engagement-reveal]');
-                        if (engagementZone) {
-                            engagementZone.classList.add('cv-revealed');
+                        const revealSection = document.querySelector('[data-scroll-reveal]');
+                        if (revealSection) {
+                            revealSection.classList.add('cv-revealed');
                         }
                     }
                 }
@@ -116,14 +116,14 @@ export default function InteractiveEffects() {
         });
     }, []);
 
-    // ─── 3. Exit Overlay ───
-    const handleExitIntent = useCallback((e: MouseEvent) => {
+    // ─── 3. Page Leave Overlay ───
+    const handlePageLeave = useCallback((e: MouseEvent) => {
         // Only trigger when mouse moves above the viewport
         if (e.clientY > 5) return;
-        if (exitIntentShownRef.current) return;
-        exitIntentShownRef.current = true;
+        if (pageLeaveShownRef.current) return;
+        pageLeaveShownRef.current = true;
 
-        // Inject a subtle, non-intrusive CTA
+        // Show WhatsApp helper banner
         const existingCta = document.getElementById('cv-exit-cta');
         if (existingCta) return;
 
@@ -144,7 +144,7 @@ export default function InteractiveEffects() {
                 </p>
                 <a href="https://wa.me/201558245974"
                    target="_blank"
-                   rel="nofollow noopener noreferrer"
+                   rel="noopener noreferrer"
                    class="cv-exit-btn">
                     ${isArabic ? '💬 واتساب' : '💬 WhatsApp'}
                 </a>
@@ -285,13 +285,13 @@ export default function InteractiveEffects() {
         // Attach all listeners
         document.addEventListener('click', handleGlobalClick, { passive: true });
         window.addEventListener('scroll', handleScroll, { passive: true });
-        document.addEventListener('mouseout', handleExitIntent as EventListener, { passive: true });
+        document.addEventListener('mouseout', handlePageLeave as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
         return () => {
             document.removeEventListener('click', handleGlobalClick);
             window.removeEventListener('scroll', handleScroll);
-            document.removeEventListener('mouseout', handleExitIntent as EventListener);
+            document.removeEventListener('mouseout', handlePageLeave as EventListener);
             document.removeEventListener('pointerdown', handlePointerDown as EventListener);
 
             // Cleanup rAF
@@ -299,7 +299,7 @@ export default function InteractiveEffects() {
                 cancelAnimationFrame(rafIdRef.current);
             }
         };
-    }, [handleGlobalClick, handleScroll, handleExitIntent, handlePointerDown]);
+    }, [handleGlobalClick, handleScroll, handlePageLeave, handlePointerDown]);
 
     // Silent component — all work is done via event listeners
     return null;

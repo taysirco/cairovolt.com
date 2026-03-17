@@ -5,7 +5,7 @@ import { getGenericCategory } from '@/data/generic-categories';
 import { getBlogArticle } from '@/data/blog-articles';
 import { staticProducts } from '@/lib/static-products';
 import { BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
-import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
+import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 // Defense-in-depth: sanitize HTML content even from static sources
 function sanitizeHtml(html: string): string {
@@ -99,7 +99,7 @@ export function GenericCategoryContent({
     const cleanSlug = categorySlug.toLowerCase();
 
     const isArabic = locale === 'ar';
-    const content = data.content[isArabic ? 'ar' : 'en'];
+    const content = data.pageContent[isArabic ? 'ar' : 'en'];
     const faq = data.faq[isArabic ? 'ar' : 'en'];
     const richContent = data.richContent[isArabic ? 'ar' : 'en'];
     const relatedArticles = data.relatedBlogSlugs
@@ -305,7 +305,7 @@ export function GenericCategoryContent({
                     </section>
                 )}
 
-                {/* Rich Content (SEO guide) */}
+                {/* Rich Content */}
                 {richContent && (
                     <article className="bg-white dark:bg-gray-900 py-12 border-t border-gray-100 dark:border-gray-800" itemScope itemType="https://schema.org/Article">
                         <meta itemProp="headline" content={content.title} />
@@ -367,10 +367,10 @@ export function GenericCategoryContent({
                 )}
 
 
-                {/* Dark Social Tracker for category pages */}
-                <DarkSocialTracker />
+                {/* Share Analytics for category pages */}
+                <ShareAnalytics />
 
-                {/* HowTo Schema for buying tips — AEO */}
+                {/* Buying tips schema */}
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
@@ -388,7 +388,7 @@ export function GenericCategoryContent({
                     }}
                 />
 
-                {/* Speakable Schema — AEO (voice search) */}
+                {/* Speakable schema */}
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{

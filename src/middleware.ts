@@ -8,10 +8,10 @@ const intlMiddleware = createMiddleware(routing);
 // Block known scraper bots
 const BLOCKED_BOT_PATTERN = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
 
-// Search engine bots we want to optimize for
+// Known search engine crawlers
 const SEARCH_BOT_PATTERN = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
 
-// AI crawlers that consume llms.txt data
+// AI crawlers
 const AI_CRAWLER_PATTERN = /gptbot|chatgpt|claude|anthropic|perplexity|cohere|google-extended/i;
 
 // Junk query params to clean
@@ -83,7 +83,7 @@ export default function middleware(request: NextRequest) {
         return new NextResponse('Access Denied.', { status: 403 });
     }
 
-    // ── Search bot optimizations ──
+    // ── Search bot handling ──
     const isSearchBot = SEARCH_BOT_PATTERN.test(userAgent);
 
     if (isSearchBot) {
@@ -101,7 +101,7 @@ export default function middleware(request: NextRequest) {
             return NextResponse.redirect(url, 301);
         }
 
-        // Block crawling of cart/checkout/account pages → 410 Gone
+        // Block cart/checkout/account pages → 410 Gone
         if (BOT_BLOCKED_PATHS.some(path => pathname.startsWith(path) || pathname.includes(path))) {
             return new NextResponse(null, { status: 410 });
         }
@@ -120,7 +120,7 @@ export default function middleware(request: NextRequest) {
         return NextResponse.redirect(url, { status: 301 });
     }
 
-    // 1. Strict Lowercase Enforcement (SEO Requirement)
+    // 1. Strict Lowercase Enforcement (URL Best Practice)
     if (pathname !== pathname.toLowerCase()) {
         const url = request.nextUrl.clone();
         url.pathname = pathname.toLowerCase();
@@ -132,14 +132,14 @@ export default function middleware(request: NextRequest) {
     if (response) {
         // Apply noindex for transactional pages (confirm, admin, etc.)
         if (isNoindexPath) {
-            response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+            response.headers.set('X-Robots-Tag', 'noindex');
         }
 
         // Clean framework identifiers for all responses
         response.headers.delete('x-powered-by');
 
         if (AI_CRAWLER_PATTERN.test(userAgent)) {
-            response.headers.set('X-AI-Crawler', 'detected');
+            response.headers.set('X-Bot-Type', 'detected');
             response.headers.set('Link', '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/ai-plugin.json>; rel="ai-plugin", <https://cairovolt.com/api/openapi.json>; rel="openapi"');
         }
     }

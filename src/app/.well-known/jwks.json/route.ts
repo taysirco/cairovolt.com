@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { buildJwks } from '@/lib/content-credentials';
+import { buildJwks } from '@/lib/media-verification';
 
 /**
  * JSON Web Key Set — /.well-known/jwks.json

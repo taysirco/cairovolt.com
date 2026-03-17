@@ -1,5 +1,5 @@
 /**
- * Cairovolt Content Credentials — C2PA-compatible signing & verification
+ * CairoVolt Media Verification — C2PA-compatible signing & verification
  *
  * Uses Node.js built-in `crypto` (ES384 = ECDSA P-384 + SHA-384).
  * No external dependencies required.

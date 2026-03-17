@@ -3,20 +3,20 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useMemo, useState, useTransition } from 'react';
-import { VerifiedVisionImage } from '@/components/ui/VerifiedVisionImage';
+import { ProductImage } from '@/components/ui/ProductImage';
 import dynamic from 'next/dynamic';
-import { CategorySeoData, FAQItem, BuyingGuideSection, TrustSignal, SoundcoreData, PowerBankData } from '@/data/category-seo';
+import { CategoryContent, FAQItem, BuyingGuideSection, QualityBadge, SoundcoreData, PowerBankData } from '@/data/category-content';
 import { BreadcrumbSchema } from './schemas/ProductSchema';
-import { HowToSchema, ItemListSchema } from './schemas/AEOSchemas';
-import RelatedLinks from './seo/RelatedLinks';
-import { CollectionOverviewBlock } from './seo/CategoryOverviewBlock';
+import { HowToSchema, ItemListSchema } from './schemas/StructuredDataSchemas';
+import RelatedLinks from './content/RelatedLinks';
+import { CollectionOverviewBlock } from './content/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
 import { MarkdownRenderer } from './ui/MarkdownRenderer';
 
-const CategoryComparisonTable = dynamic(() => import('./seo/ProductGuides').then(mod => mod.CategoryComparisonTable), {
+const CategoryComparisonTable = dynamic(() => import('./content/ProductGuides').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
 });
-const ExpertOpinion = dynamic(() => import('./seo/ProductGuides').then(mod => mod.ExpertOpinion), {
+const ExpertOpinion = dynamic(() => import('./content/ProductGuides').then(mod => mod.ExpertOpinion), {
     loading: () => <div className="animate-pulse h-48 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
 });
 
@@ -39,7 +39,7 @@ interface CategoryTemplateProps {
     brandColor: 'blue' | 'red';
     category: string;
     categorySlug: string;
-    seoContent: CategorySeoData['seoContent'];
+    categoryInfo: CategoryContent['pageContent'];
     soundcoreData?: SoundcoreData;
     powerBankData?: PowerBankData;
     initialProducts?: Product[];
@@ -84,7 +84,7 @@ export default function CategoryTemplate({
     brandColor,
     category,
     categorySlug,
-    seoContent,
+    categoryInfo,
     soundcoreData,
     powerBankData,
     initialProducts = []
@@ -93,7 +93,7 @@ export default function CategoryTemplate({
     const tCat = useTranslations('Categories');
     const tBrand = useTranslations('Brands');
     const tCommon = useTranslations('Common');
-    const content = locale === 'ar' ? seoContent.ar : seoContent.en;
+    const content = locale === 'ar' ? categoryInfo.ar : categoryInfo.en;
     const isRTL = locale === 'ar';
     const brandSlug = brand.toLowerCase();
 
@@ -106,7 +106,7 @@ export default function CategoryTemplate({
     const [dbProducts, setDbProducts] = useState<Product[]>(initialProducts);
     const [loading, setLoading] = useState(initialProducts.length === 0);
 
-    // INP-optimized sort: startTransition ensures sort never blocks the main thread
+    // Optimized sort: startTransition ensures sort never blocks the main thread
     const [sortBy, setSortBy] = useState<'default' | 'price-asc' | 'price-desc'>('default');
     const [isSorting, startSortTransition] = useTransition();
 
@@ -202,7 +202,7 @@ export default function CategoryTemplate({
             {content.faq && <FAQSchema faqs={content.faq} />}
             <BreadcrumbSchema items={breadcrumbs} locale={locale} />
 
-            {/* HowTo Schema for Buying Guide - AEO Optimization */}
+            {/* Buying guide schema */}
             {content.buyingGuide && (
                 <HowToSchema
                     title={locale === 'ar'
@@ -253,10 +253,10 @@ export default function CategoryTemplate({
                     <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-3 md:mb-4">{content.title}</h1>
                     <p className="text-base md:text-xl text-white/90 mb-4 md:mb-6">{content.subtitle}</p>
 
-                    {/* Trust Signals (Hero) */}
-                    {content.trustSignals && (
+                    {/* Quality badges */}
+                    {content.qualityBadges && (
                         <div className="flex flex-wrap items-center gap-2 md:gap-4 mt-6">
-                            {content.trustSignals.map((signal, idx) => (
+                            {content.qualityBadges.map((signal, idx) => (
                                 <div key={idx} className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
                                     <span className="text-yellow-300">
                                         {signal.type === 'originality' && (
@@ -288,7 +288,7 @@ export default function CategoryTemplate({
                         {loading && <span className="text-sm font-normal text-gray-500 ml-2">...</span>}
                     </h2>
 
-                    {/* Sort Bar — INP optimized with startTransition */}
+                    {/* Sort Bar — Performance optimized with startTransition */}
                     <div className={`flex items-center gap-2 text-sm ${isSorting ? 'opacity-70' : ''} transition-opacity`}>
                         <span className="text-gray-500 hidden sm:inline">{isRTL ? 'ترتيب:' : 'Sort:'}</span>
                         <button
@@ -324,7 +324,7 @@ export default function CategoryTemplate({
                             {/* Product Image */}
                             <div className="w-full aspect-square bg-white relative overflow-hidden">
                                 {product.image ? (
-                                    <VerifiedVisionImage
+                                    <ProductImage
                                         src={product.image}
                                         alt={product.name}
                                         slug={product.slug}
@@ -386,7 +386,7 @@ export default function CategoryTemplate({
             {/* Additional product information and structured data    */}
             {/* ═══════════════════════════════════════════════════════ */}
 
-            {/* Soundcore Section for "ankersoundcore" SEO - Only renders for audio category */}
+            {/* Soundcore Section for "ankersoundcore" targeting - Only renders for audio category */}
             {soundcoreData && (
                 <section className="py-16 bg-gradient-to-b from-purple-50 to-blue-50 dark:from-gray-900 dark:to-gray-950">
                     <div className="container mx-auto px-4">
@@ -467,7 +467,7 @@ export default function CategoryTemplate({
                             </div>
                         </div>
 
-                        {/* Soundcore Trust Badges */}
+                        {/* Soundcore Quality Badges */}
                         <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 border border-gray-100 dark:border-gray-800 mb-12">
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                                 {soundcoreData.trustBadges.map((badge, idx) => (
@@ -507,7 +507,7 @@ export default function CategoryTemplate({
                 </section>
             )}
 
-            {/* NEW: PowerBank Section for "باور بانك انكر" SEO - Only renders for power-banks category */}
+            {/* NEW: PowerBank Section for "باور بانك انكر" targeting - Only renders for power-banks category */}
             {powerBankData && (
                 <section className="py-16 bg-gradient-to-b from-blue-50 to-cyan-50 dark:from-gray-900 dark:to-gray-950">
                     <div className="container mx-auto px-4">
@@ -588,7 +588,7 @@ export default function CategoryTemplate({
                             </div>
                         </div>
 
-                        {/* PowerBank Trust Badges */}
+                        {/* PowerBank Quality Badges */}
                         <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 border border-gray-100 dark:border-gray-800 mb-12">
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                                 {powerBankData.trustBadges.map((badge, idx) => (
@@ -628,7 +628,7 @@ export default function CategoryTemplate({
                 </section>
             )}
 
-            {/* Category AEO Block - Answer-First Content for AI/Voice Search */}
+            {/* Category overview section */}
             <div className="container mx-auto px-4 py-4">
                 <CollectionOverviewBlock
                     categoryName={translatedCategory}
@@ -656,7 +656,7 @@ export default function CategoryTemplate({
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
                     {/* Main Content Column */}
                     <article className="lg:col-span-8">
-                        {/* SEO Description */}
+                        {/* Description */}
                         <div className="prose prose-lg dark:prose-invert max-w-none mb-12">
                             <MarkdownRenderer content={content.description} />
                         </div>
@@ -745,7 +745,7 @@ export default function CategoryTemplate({
                     </aside>
                 </div>
 
-                {/* Related Categories - Internal Linking */}
+                {/* Related Categories */}
                 <RelatedLinks
                     currentUrl={`/${brandSlug}/${categorySlug}`}
                     locale={locale}

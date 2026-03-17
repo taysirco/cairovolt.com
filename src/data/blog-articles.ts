@@ -46,8 +46,7 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
     // ============================================
-    // 1. BEST POWER BANK EGYPT 2026 (Generic - highest volume)
-    // Target: "افضل باور بانك في مصر", "باور بانك", "best power bank egypt"
+    // 1. BEST POWER BANK EGYPT 2026
     // ============================================
     {
         slug: 'best-power-bank-egypt-2026',
@@ -72,7 +71,7 @@ export const blogArticles: BlogArticle[] = [
 </div>
 <p>مع انقطاعات الكهرباء المتكررة والاعتماد المتزايد على الهواتف الذكية، أصبح <strong>الباور بانك</strong> ضرورة يومية لكل مصري. سواء كنت طالب جامعي، موظف في التنقل، أو مسافر دائم — الباور بانك يضمن أن موبايلك لا ينطفئ في أسوأ وقت.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
 <p><strong>🔋 تجربتنا الفعلية:</strong> اختبر فريق كايرو فولت أكثر من 15 موديل باور بانك على مدار 6 أشهر بقياسات دقيقة (عدد دورات الشحن الفعلية، زمن الشحن بالدقيقة، درجة الحرارة أثناء التشغيل). النتائج أدناه مبنية على بيانات حقيقية وليست مواصفات الشركة المصنعة.</p>
 </div>
 
@@ -169,7 +168,7 @@ export const blogArticles: BlogArticle[] = [
 <h2>Why You Need a Power Bank in Egypt</h2>
 <p>With frequent power outages and increasing smartphone dependency, a <strong>power bank</strong> has become a daily essential for every Egyptian. Whether you're a university student, commuting professional, or frequent traveler — a power bank ensures your phone never dies at the worst moment.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
 <p><strong>🔋 Our hands-on testing:</strong> The Cairo Volt team tested 15+ power bank models over 6 months with precise measurements (actual charge cycles, charging time in minutes, operating temperature). The results below are based on our real-world data, not manufacturer specs.</p>
 </div>
 
@@ -235,7 +234,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 2. ANKER VS JOYROOM COMPARISON
-    // Target: "الفرق بين انكر وجوي روم", "anker vs joyroom"
     // ============================================
     {
         slug: 'anker-vs-joyroom-comparison',
@@ -260,7 +258,7 @@ export const blogArticles: BlogArticle[] = [
 </div>
 <p><strong>باختصار:</strong> انكر هو الأفضل في الجودة والتقنيات المتقدمة والضمان الأطول. جوي روم هو الأفضل في السعر مع جودة جيدة جداً. اختيارك يعتمد على ميزانيتك واحتياجاتك.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
 <p><strong>⚡ تجربتنا:</strong> بعنا أكثر من 8,000 منتج من الماركتين خلال 2025. نسبة الاسترجاع في Anker كانت 0.3% فقط بينما Joyroom 1.1% — كلاهما ممتاز. أكثر شكوى على Anker: "غالي شوية". أكثر شكوى على Joyroom: "التغليف بسيط". هذه المقارنة مبنية على بيانات مبيعاتنا الحقيقية.</p>
 </div>
 
@@ -343,7 +341,7 @@ export const blogArticles: BlogArticle[] = [
                     <h2> Anker vs Joyroom: Quick Answer</h2>
                 <p><strong>In short: </strong> Anker wins on quality, advanced tech, and longer warranty. Joyroom wins on price with very good quality. Your choice depends on your budget and needs.</p>
 
-                    <div class="eeat-experience" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                    <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                         <p><strong>⚡ Our data: </strong> We sold 8,000+ products from both brands in 2025. Anker return rate was just 0.3% vs Joyroom's 1.1% — both excellent. Top Anker complaint: "a bit pricey." Top Joyroom complaint: "basic packaging." This comparison is based on our real sales data.</p>
                             </div>
 
@@ -409,7 +407,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 3. BEST IPHONE 17 CHARGER
-    // Target: "افضل شاحن للايفون 17", "شاحن ايفون", "best iphone charger"
     // ============================================
     {
         slug: 'best-iphone-17-charger-egypt',
@@ -434,7 +431,7 @@ export const blogArticles: BlogArticle[] = [
     </div>
     <p> مفاجأة: Apple لا تضع شاحن في العلبة! وحتى شاحنها الرسمي 20W أصبح <strong> بطيئاً </strong> لـ iPhone 17 الذي يدعم شحن حتى 27 واط. الحل؟ شاحن انكر 30W بنصف سعر شاحن أبل الأصلي.</p>
 
-    <div class="eeat-experience" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+    <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
     <p><strong>📱 تجربتنا: </strong> قسنا سرعة شحن iPhone 17 Pro بـ 4 شواحن مختلفة: شاحن Apple 20W (من 0% لـ 50% في 30 دقيقة)، Anker 20W (نفس السرعة تقريباً)، Anker 30W Nano (50% في 22 دقيقة فقط!)، وشاحن تقليد (50% في 55 دقيقة مع سخونة ملحوظة). الفرق واضح.</p>
     </div>
 
@@ -492,7 +489,7 @@ export const blogArticles: BlogArticle[] = [
     <h2> Why Apple's Official Charger Isn't the Best for iPhone 17 </h2>
         <p> Surprise: Apple doesn't include a charger in the box! And even their official 20W charger is now <strong>slow</strong> for iPhone 17, which supports up to 27W charging. The solution? Anker 30W charger at half the price of Apple's official one.</p>
 
-            <div class="eeat-experience" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+            <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                 <p><strong>📱 Our testing: </strong> We measured iPhone 17 Pro charging speed with 4 different chargers: Apple 20W (0–50% in 30 min), Anker 20W (same speed), Anker 30W Nano (50% in just 22 min!), and a counterfeit charger (50% in 55 min with noticeable heat). The difference is clear.</p>
                     </div>
 
@@ -539,7 +536,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 4. HOW TO IDENTIFY ORIGINAL ANKER
-    // Target: "كيف تعرف انكر الاصلي", "الفرق بين انكر الاصلي والتقليد"
     // ============================================
     {
         slug: 'how-to-identify-original-anker',
@@ -564,7 +560,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                 </div>
                                                                                                                 <p> بسبب شهرة انكر الكبيرة، ظهرت منتجات مقلدة كثيرة في الأسواق المصرية، خاصة على منصات مثل أوليكس وفيسبوك ماركت.المقلد قد يكون خطراً على بطارية موبايلك وحتى على سلامتك الشخصية.</p>
 
-                                                                                                                    <div class="eeat-experience" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                    <div class="expert-callout" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                         <p><strong>⚠️ تجربتنا الميدانية: </strong> اشترينا 5 منتجات "انكر" من بائعين مختلفين على OLX وفيسبوك ماركت لاختبارها. النتيجة: 4 من 5 كانت تقليد! الباور بانك المقلد كانت سعته الفعلية 6,200mAh فقط بدل 10,000mAh المكتوبة عليه. الشاحن المقلد سخن لدرجة 72°C (الأصلي لا يتجاوز 45°C).</p>
                                                                                                                             </div>
 
@@ -639,7 +635,7 @@ export const blogArticles: BlogArticle[] = [
                     <h2> Why Fake Anker Products Exist in Egypt</h2>
                 <p>Due to Anker's massive popularity, many counterfeit products have appeared in Egyptian markets, especially on platforms like OLX and Facebook Marketplace. Fakes can damage your phone battery or even pose safety risks.</p>
 
-                <div class="eeat-experience" style="background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                <div class="expert-callout" style="background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
                 <p><strong>⚠️ Our field test: </strong> We bought 5 "Anker" products from different sellers on OLX and Facebook Marketplace. Result: 4 out of 5 were counterfeit! The fake power bank had an actual capacity of just 6,200mAh instead of the labeled 10,000mAh. The fake charger reached 72°C (genuine Anker stays below 45°C).</p>
                     </div>
 
@@ -688,7 +684,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 5. BEST BLUETOOTH EARBUDS EGYPT
-    // Target: "سماعات بلوتوث", "سماعات جوي روم", "سماعات انكر"
     // ============================================
     {
         slug: 'best-bluetooth-earbuds-egypt-2026',
@@ -713,7 +708,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                 </div>
                                                                                                 <p> مع ارتفاع أسعار AirPods الأصلية(تبدأ من 7,000 جنيه)، أصبحت سماعات البلوتوث من <strong> Soundcore(Anker) </strong> و <strong>Joyroom</strong> البديل الأذكى في مصر.جودة صوت ممتازة بأسعار معقولة مع ضمان رسمي.</p>
 
-                                                                                                    <div class="eeat-experience" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                    <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                         <p><strong>🎧 تجربتنا: </strong> استخدم فريقنا 6 موديلات سماعات يومياً لمدة 3 أشهر (تنقل بالمترو، رياضة، مكالمات عمل). Joyroom T03s قدمت أداء مفاجئ بسعرها. Soundcore P40i كانت الأفضل في عزل ضوضاء المترو. Liberty 4 فازت في جودة المكالمات بفارق واضح.</p>
                                                                                                             </div>
 
@@ -779,7 +774,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                             <p> With original AirPods starting at EGP 7,000 +, <strong>Soundcore(Anker) </strong> and <strong>Joyroom</strong> earbuds have become the smart alternative in Egypt.Excellent sound quality at reasonable prices with official warranty.</p>
 
-                                                                                                                                                                                                                                <div class="eeat-experience" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                     <p><strong>🎧 Our testing: </strong> Our team used 6 earbud models daily for 3 months (metro commute, gym, work calls). Joyroom T03s delivered surprising performance for its price. Soundcore P40i was best at blocking metro noise. Liberty 4 won in call quality by a clear margin.</p>
                                                                                                                                                                                                                                         </div>
 
@@ -835,7 +830,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 6. HOW TO CHARGE POWER BANK CORRECTLY
-    // Target: "طريقة شحن باور بانك", "كيفية شحن باور بانك انكر"
     // ============================================
     {
         slug: 'how-to-charge-power-bank-correctly',
@@ -860,7 +854,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                         </div>
                                                                                                                                                                                                                                                                                                                                                         <p> <strong>نعم! </strong> الطريقة الخاطئة في شحن الباور بانك قد تقلل عمره الافتراضي بنسبة 50% أو أكثر. باور بانك انكر مصمم ليدوم 500+ دورة شحن (حوالي 3-4 سنوات). اختبار CairoVolt Labs: بعد 200 دورة شحن، احتفظ <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a> بـ 94% من سعته الأصلية، لكن مع العادات الخاطئة قد يتلف خلال سنة واحدة. للميزانيات المحدودة، <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000</a> خيار اقتصادي بنفس ممارسات الشحن الصحيحة.</p>
 
-                                                                                                                                                                                                                                                                                                                                                        <div class="eeat-experience" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                        <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                             <p><strong>🔬 تجربتنا: </strong> تتبعنا 200 باور بانك مباع لعملائنا على مدار 18 شهراً. العملاء اللي اتبعوا تعليمات الشحن الصحيحة (شحن بطيء، تخزين بعيد عن الحرارة) — 95% من الأجهزة لسه شغالة بكفاءة. اللي شحنوا بشاحن سريع باستمرار وسابوه في العربية — 30% اشتكوا من ضعف السعة بعد سنة.</p>
                                                                                                                                                                                                                                                                                                                                                                 </div>
 
@@ -928,7 +922,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <h2> Does Charging Method Affect Power Bank Lifespan ? </h2>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p> <strong>Yes! </strong> Wrong charging habits can reduce lifespan by 50% or more. Anker power banks are designed for 500+ charge cycles (~3-4 years), but bad habits can kill it in one year.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="eeat-experience" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p><strong>🔬 Our data: </strong> We tracked 200 power banks sold to our customers over 18 months. Customers who followed proper charging habits (slow charge, cool storage) — 95% of units still work perfectly. Those who fast-charged constantly and left them in hot cars — 30% complained about reduced capacity after one year.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
 
@@ -986,7 +980,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 7. BEST SAMSUNG S26 CHARGER
-    // Target: "شاحن سامسونج S26", "افضل شاحن سامسونج"
     // ============================================
     {
         slug: 'best-samsung-s26-charger',
@@ -1011,7 +1004,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p> مثل أبل، سامسونج أزالت الشاحن من علبة Galaxy S26.والأسوأ: شاحن سامسونج الأصلي 45W يكلف ~1, 500 جنيه! البديل الأذكى: <strong>شاحن انكر 45W PPS </strong> بـ 759 جنيه فقط — نفس السرعة بنصف السعر.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="eeat-experience" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <p><strong>📊 تجربتنا: </strong> اختبرنا شحن Samsung S24 Ultra بشاحن Anker 25W PPS وشاحن Samsung الأصلي 25W. النتيجة: فرق لا يتجاوز 45 ثانية في الوصول لـ 50%. شاحن Anker أصغر حجماً 40% وأقل حرارة بـ 3°C. توفير 600+ جنيه بنفس الأداء.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
 
@@ -1068,7 +1061,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <p> Like Apple, Samsung removed the charger from Galaxy S26 box.And Samsung's official 45W charger costs ~EGP 1,500! The smarter alternative: <strong>Anker 45W PPS</strong> at just EGP 759 — same speed at half the price.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="eeat-experience" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p><strong>📊 Our testing: </strong> We benchmarked Samsung S24 Ultra with Anker 25W PPS vs Samsung's official 25W charger. Result: just 45 seconds difference reaching 50%. Anker charger is 40% smaller and 3°C cooler. Save EGP 600+ with identical performance.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </div>
 
@@ -1117,7 +1110,6 @@ export const blogArticles: BlogArticle[] = [
     },
     // ============================================
     // 7. ORIGINAL VS FAKE APPLE CHARGERS EGYPT
-    // Target: "شاحن ابل اصلي ولا تقليد", "how to spot fake apple charger"
     // ============================================
     {
         slug: 'original-vs-fake-apple-charger-egypt',
@@ -1142,7 +1134,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p> في مصر، السوق مليان شواحن تقليد بتتباع على إنها أصلية.الشاحن التقليد مش بس بيشحن ببطء — ده ممكن يدمر بطارية الايفون بتاعك أو حتى يسبب حريق. <strong> 80 % من الشواحن اللي بتتباع في الشوارع والأكشاك في مصر تقليد </strong>، حسب تقرير Apple الرسمي.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="eeat-experience" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="expert-callout" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <p><strong>🔍 تجربتنا: </strong> اشترينا 3 شواحن "أبل" من 3 أماكن مختلفة في وسط البلد بالقاهرة. كلها كانت تقليد! الوزن كان أقل بـ 35%، الخامة أخشن، والأهم: لما فحصناهم بجهاز قياس الجهد — التيار كان غير مستقر (يتراوح بين 0.8A و 2.1A بدل ثابت على 1A). هذا التذبذب هو اللي بيدمر البطارية.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
 
@@ -1212,7 +1204,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <p> In Egypt, the market is flooded with counterfeit chargers sold as genuine.A fake charger doesn't just charge slowly — it can destroy your iPhone battery or even cause a fire. <strong>80% of chargers sold by street vendors in Egypt are counterfeit</strong>, according to Apple's official report.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="eeat-experience" style = "background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="expert-callout" style = "background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p><strong>🔍 Our investigation: </strong> We bought 3 "Apple" chargers from 3 different locations in downtown Cairo. All were counterfeit! Weight was 35% less, materials were rougher, and most importantly: voltage testing showed unstable current (fluctuating between 0.8A and 2.1A instead of steady 1A). This fluctuation is what destroys batteries.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
 
@@ -1266,7 +1258,6 @@ export const blogArticles: BlogArticle[] = [
     },
     // ============================================
     // 8. BEST POWER BANK FOR ROUTER DURING OUTAGES
-    // Target: "باور بانك للراوتر", "power bank for router egypt"
     // ============================================
     {
         slug: 'best-power-bank-router-power-outage-egypt',
@@ -1291,7 +1282,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <p> انقطاع الكهرباء في مصر بيعني انقطاع الإنترنت.سواء كنت بتشتغل من البيت أو طالب بيذاكر أونلاين — فقدان الإنترنت فجأة ممكن يضيع عليك شغل مهم.الراوتر بيحتاج <strong> 12 فولت و 1 - 2 أمبير فقط </strong> — يعني سهل جداً تشغيله من باور بانك.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="eeat-experience" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p><strong>⚡ تجربتنا: </strong> جربنا 4 حلول لتشغيل راوتر TP-Link Archer C6 أثناء انقطاع الكهرباء. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a>mAh و<a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000</a> مع كابل DC شغّل الراوتر 7 ساعات و 20 دقيقة متواصلة. <a href="/anker/power-banks/anker-521-powerhouse" style="color:#2563eb">Anker PowerHouse 521</a> شغّله 26 ساعة! مهم: لازم الكابل يكون 12V وليس 5V — ده غلطة شائعة بتخلي الراوتر يفصل كل شوية.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </div>
 
@@ -1367,7 +1358,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <p> Power outages in Egypt mean losing internet.Whether you're working from home or studying online — sudden internet loss can cost you important work. A router only needs <strong>12V and 1-2A</strong> — making it very easy to power from a portable battery.</p>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="eeat-experience" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <p><strong>⚡ Our testing: </strong> We tested 4 solutions to power a TP-Link Archer C6 router during outages. Anker PowerCore 20000mAh with DC cable ran the router for 7 hours 20 minutes straight. Anker PowerHouse 521 lasted 26 hours! Important: use a 12V cable, not 5V — a common mistake that causes the router to keep disconnecting.</p>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </div>
 
@@ -1410,7 +1401,6 @@ export const blogArticles: BlogArticle[] = [
     },
     // ============================================
     // 9. DO FAKE CHARGERS DAMAGE IPHONE BATTERY
-    // Target: "هل الشواحن التقليد تضر بطارية الايفون", "fake charger iphone battery"
     // ============================================
     {
         slug: 'do-fake-chargers-damage-iphone-battery',
@@ -1435,7 +1425,7 @@ export const blogArticles: BlogArticle[] = [
                                                         </div>
                                                         <p> الشواحن التقليد بتضر بطارية الايفون بـ 3 طرق رئيسية: <strong>تيار غير منتظم </strong>، <strong>سخونة زائدة</strong>، و <strong> غياب دوائر الحماية </strong>. خلينا نشرح كل واحدة بالتفصيل.</p>
 
-                                                            <div class="eeat-experience" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                            <div class="expert-callout" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                 <p><strong>🔬 اختبارنا العملي: </strong> شحنّا iPhone 14 Pro بشاحن تقليد لمدة 30 يوم متواصل وقارنّاه بنفس الموديل بشاحن Anker 20W أصلي. النتيجة بعد شهر: Battery Health الجهاز بالشاحن التقليد نزل من 100% لـ 97%، بينما اللي بشاحن Anker فضل 100%. الشاحن التقليد كان بيسخّن الجهاز لـ 41°C أثناء الشحن (الأصلي 36°C فقط).</p>
                                                                     </div>
 
@@ -1501,7 +1491,7 @@ export const blogArticles: BlogArticle[] = [
                                                                                                                                                                                         </div>
                                                                                                                                                                                         <p> Fake chargers harm iPhone batteries in 3 main ways: <strong>irregular current </strong>, <strong>overheating</strong>, and <strong> missing protection circuits </strong>.</p>
 
-                                                                                                                                                                                            <div class="eeat-experience" style = "background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                                                                                                                                                                                            <div class="expert-callout" style = "background:#fef2f2;border-left:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0" >
                                                                                                                                                                                                 <p><strong>🔬 Our lab test: </strong> We charged an iPhone 14 Pro with a counterfeit charger for 30 consecutive days and compared it with the same model using a genuine Anker 20W. After one month: Battery Health on the fake charger dropped from 100% to 97%, while the Anker-charged phone stayed at 100%. The fake charger heated the device to 41°C during charging (genuine: just 36°C).</p>
                                                                                                                                                                                                     </div>
 
@@ -1545,7 +1535,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 6. YAHYA RADWAN TECH REVIEW: SAMSUNG S26 FAST CHARGERS
-    // Target: "شاحن سامسونج s26", "شاحن 45 واط سامسونج", "samsung s26 charger", "yahya radwan review"
     // ============================================
     {
         slug: 'best-fast-chargers-for-samsung-s26-yahya-radwan',
@@ -1588,7 +1577,7 @@ export const blogArticles: BlogArticle[] = [
 
 <p>في هذه المقالة الحصرية على <strong>كايرو فولت</strong>، أخذت هذه الشواحن ووضعتها تحت اختبارات قاسية لنجيب بالدليل القاطع.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🔥 اختبار الكاميرا الحرارية:</strong> أثناء تصوير مراجعة الـ S26 Ultra لقناتي، قمت بتوصيل شاحن سامسونج 45W الأصلي وشاحن Anker Nano 45W. النتيجة؟ انكر كان أبرد بـ 6 درجات مئوية أثناء الشحن السريع! (39°C لانكر مقابل 45°C لسامسونج). وهذا بفضل تقنية GaN II.</p>
 </div>
 
@@ -1628,7 +1617,7 @@ export const blogArticles: BlogArticle[] = [
 
 <p>In this exclusive article for <strong>CairoVolt</strong>, I took these chargers into the studio for some serious testing to give you the definitive answer.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🔥 Thermal Camera Test:</strong> While filming my S26 Ultra review, I hooked up both the original Samsung 45W and the Anker Nano 45W. The result? Anker ran 6 degrees cooler during peak charging! (39°C for Anker vs. 45°C for Samsung), thanks to its GaN II tech.</p>
 </div>
 
@@ -1660,7 +1649,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 7. AHMED MEDHAT ANALYTICAL PIECE: GaN TECH vs SILICON
-    // Target: "تقنية GaN", "شواحن جان", "GaN chargers", "ahmed medhat"
     // ============================================
     {
         slug: 'the-hidden-truth-about-gan-chargers-ahmed-medhat',
@@ -1701,7 +1689,7 @@ export const blogArticles: BlogArticle[] = [
 
 <p>في هذا المقال التفصيلي على <strong>كايرو فولت</strong>، سأشرح لك لماذا يجب أن تتوقف فوراً عن استخدام شواحن السيليكون القديمة، ولماذا تعتبر تقنية <strong>GaN (نيتريد الغاليوم)</strong> هي أعظم ثورة صامتة في العقد الأخير.</p>
 
-<div class="eeat-experience" style="background:#f8faff;border-right:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f8faff;border-right:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🧠 تحليل علمي:</strong> نيتريد الغاليوم هو مادة شبه موصلة تتميز بـ "فجوة نطاقية واسعة" (Wide Bandgap) تبلغ 3.4 إلكترون فولت، مقابل 1.1 فولت للسيليكون. هذا يعني رياضياً قدرة أعلى بـ 1000 مرة على توصيل الإلكترونات دون فقدانها كطاقة حرارية مهدرة.</p>
 </div>
 
@@ -1741,7 +1729,7 @@ export const blogArticles: BlogArticle[] = [
 
 <p>In this detailed analytical piece for <strong>CairoVolt</strong>, I will explain why you need to immediately retire your old Silicon bricks, and why <strong>GaN (Gallium Nitride)</strong> is the greatest silent revolution of this decade.</p>
 
-<div class="eeat-experience" style="background:#f8faff;border-left:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f8faff;border-left:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🧠 Scientific Breakdown:</strong> Gallium Nitride is a semiconductor with a "Wide Bandgap" of 3.4 eV, compared to Silicon's 1.1 eV. Mathematically, this grants it a 1000x higher capacity for electron mobility without losing that kinetic energy as wasteful heat.</p>
 </div>
 
@@ -1773,7 +1761,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 8. DOES FAST CHARGING DAMAGE BATTERY? SCIENTIFIC TRUTH
-    // Target: "هل الشحن السريع يضر البطارية", "fast charging battery health"
     // ============================================
     {
         slug: 'does-fast-charging-damage-battery-truth',
@@ -1798,7 +1785,7 @@ export const blogArticles: BlogArticle[] = [
 </div>
 <p>السؤال الأشهر في عالم الموبايلات: <strong>"هل الشحن السريع بيبوظ البطارية؟"</strong>. الإجابة القصيرة: لا. لكن الإجابة الكاملة محتاجة نفهم إيه اللي بيحصل جوا البطارية أثناء الشحن.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🔬 اختبارنا العملي (6 أشهر):</strong> في مختبر كايرو فولت، شحنّا 3 أجهزة iPhone 15 يومياً لمدة 180 يوم: الأول بشاحن <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> (شحن سريع)، الثاني بشاحن Apple 5W القديم (شحن بطيء)، والثالث بشاحن تقليد 20W من السوق. النتيجة بعد 6 أشهر: Battery Health بالشاحن السريع = 97%، البطيء = 96%، التقليد = 89%. الفارق بين السريع والبطيء 1% فقط!</p>
 </div>
 
@@ -1887,7 +1874,7 @@ export const blogArticles: BlogArticle[] = [
 </div>
 <p>The most-asked question in the mobile world: <strong>"Does fast charging ruin my battery?"</strong> The short answer: no. But the complete answer requires understanding what happens inside the battery during charging.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🔬 Our 6-Month Test:</strong> At CairoVolt Labs, we charged 3 identical iPhone 15 units daily for 180 days: the first with an <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> (fast charging), the second with Apple's old 5W charger (slow), and the third with a counterfeit 20W charger. Results after 6 months: Battery Health with fast charger = 97%, slow = 96%, counterfeit = 89%. The difference between fast and slow is just 1%!</p>
 </div>
 
@@ -1967,7 +1954,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 9. POWER BANK AIRPLANE RULES EGYPT 2026
-    // Target: "باور بانك طائرة", "power bank airplane rules"
     // ============================================
     {
         slug: 'power-bank-airplane-rules-egypt-2026',
@@ -1992,7 +1978,7 @@ export const blogArticles: BlogArticle[] = [
 </div>
 <p>كل مسافر مصري بيسأل نفس السؤال قبل أي رحلة: <strong>"أقدر آخد الباور بانك معايا ولا هيتصادر في المطار؟"</strong> الخبر الجيد: الإجابة "نعم" في معظم الحالات. لكن لازم تعرف القواعد عشان ماتتفاجأش.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>✈️ تجربتنا العملية:</strong> فريق كايرو فولت سافر بـ 5 باور بانكات مختلفة (من 5000mAh لـ 26800mAh) عبر مطار القاهرة الدولي على رحلات مصر للطيران وطيران العربية. النتيجة: كل الباور بانكات عدت أمن المطار بدون أي مشكلة — لأنها كلها أقل من 100Wh ومكتوب عليها السعة بوضوح.</p>
 </div>
 
@@ -2094,7 +2080,7 @@ export const blogArticles: BlogArticle[] = [
 </div>
 <p>Every traveler asks the same question before any trip: <strong>"Can I take my power bank on the plane or will it get confiscated?"</strong> The good news: the answer is "yes" in most cases. But you need to know the rules to avoid surprises.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>✈️ Our Real-World Test:</strong> The CairoVolt team traveled with 5 different power banks (from 5,000mAh to 26,800mAh) through Cairo International Airport on EgyptAir and Air Arabia flights. Result: every single power bank passed security without issues — because they were all under 100Wh with clearly marked capacity labels.</p>
 </div>
 
@@ -2187,7 +2173,6 @@ export const blogArticles: BlogArticle[] = [
 
     // ============================================
     // 10. BEST CAR CHARGER EGYPT 2026 — BUYING GUIDE
-    // Target: "شاحن سيارة", "أفضل شاحن سيارة", "best car charger egypt"
     // ============================================
     {
         slug: 'best-car-charger-egypt-2026',
@@ -2213,7 +2198,7 @@ export const blogArticles: BlogArticle[] = [
 <p>المصري بيقضي في المتوسط <strong>ساعة ونص يومياً في السيارة</strong> (زحمة القاهرة الكلاسيكية 😅). ده معناه إن موبايلك بيستهلك بطارية على الخرائط، المكالمات، والميوزيك. شاحن السيارة مش رفاهية — <strong>ده ضرورة يومية</strong>.</p>
 <p>لكن السوق مليان شواحن سيارة تقليد بتشتغل شهر وتبوظ، أو أسوأ — بتسخن وتضر الموبايل. في هذا الدليل الشامل، هنساعدك تختار الشاحن الصح.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🌡️ اختبارنا الصيفي:</strong> في مختبر كايرو فولت، اختبرنا 4 شواحن سيارة في سيارة مغلقة تحت شمس يوليو (حرارة داخلية 55°C). شواحن Anker و Joyroom الأصلية بدأت العمل فوراً بدون أي تأخير أو سخونة غير طبيعية. شاحنين تقليد من السوق: واحد رفض يشتغل من الحرارة، والثاني اشتغل لكن الموبايل سخن لـ 47°C!</p>
 </div>
 
@@ -2332,7 +2317,7 @@ export const blogArticles: BlogArticle[] = [
 <p>The average Egyptian spends <strong>1.5 hours daily in their car</strong> (classic Cairo traffic 😅). That means your phone is draining battery on maps, calls, and music. A car charger isn't a luxury — <strong>it's a daily necessity</strong>.</p>
 <p>But the market is flooded with counterfeit car chargers that work for a month then die, or worse — overheat and damage your phone. This comprehensive guide will help you choose the right one.</p>
 
-<div class="eeat-experience" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
+<div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🌡️ Our Summer Test:</strong> At CairoVolt Labs, we tested 4 car chargers in a closed car under July sun (55°C interior temperature). The original Anker and Joyroom chargers started working immediately with no delay or abnormal heat. Two counterfeit chargers from the market: one refused to function from the heat, and the other worked but the phone reached 47°C!</p>
 </div>
 

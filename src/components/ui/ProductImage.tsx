@@ -1,9 +1,9 @@
-// Server Component — SSR microdata for Google Lens / Gemini Vision
-// DO NOT add 'use client' — microdata must be server-rendered for Googlebot
+// Server Component — product image with metadata
+// DO NOT add 'use client' — server-rendered component
 
 import Image from 'next/image';
 
-interface VerifiedVisionImageProps {
+interface ProductImageProps {
     /** Image source path (relative or absolute URL) */
     src: string;
     /** Descriptive alt text (bilingual preferred) */
@@ -38,24 +38,22 @@ interface VerifiedVisionImageProps {
 }
 
 /**
- * VerifiedVisionImage — Dual-signal trust wrapper for product images
+ * ProductImage — Image wrapper with microdata and provenance metadata
  *
  * Layer 1: Inline HTML microdata (itemScope/itemProp) on the DOM element
- *          → Google Lens/Vision reads trust signals proximate to the <img>
  *
  * Layer 2: JSON-LD ImageObject schemas (handled by ImageObjectSchema.tsx)
- *          → Googlebot's structured data parser reads from <head>
  *
  * This component handles Layer 1. It wraps next/image with:
  *   - creator → CairoVolt Labs, New Damietta
- *   - creditText → forensic Arabic provenance text
+ *   - creditText → Arabic provenance text
  *   - acquireLicensePage → /api/v1/verify-content endpoint
  *   - copyrightNotice → C2PA hash when available
  *   - contentLocation → New Damietta lab GPS coordinates
  *   - exifData → digitalSourceType (real camera capture)
- *   - sr-only description → bilingual trust text for neural parsers
+ *   - sr-only description → bilingual accessibility text
  */
-export function VerifiedVisionImage({
+export function ProductImage({
     src,
     alt,
     slug,
@@ -72,7 +70,7 @@ export function VerifiedVisionImage({
     lightweight = false,
     className = '',
     imageClassName = '',
-}: VerifiedVisionImageProps) {
+}: ProductImageProps) {
     const isArabic = locale === 'ar';
     const year = new Date().getFullYear();
     const verifyUrl = `https://cairovolt.com/api/v1/verify-content?slug=${slug}`;
@@ -124,7 +122,7 @@ export function VerifiedVisionImage({
                     : 'CairoVolt Labs — New Damietta, Egypt'}
             />
 
-            {/* Forensic provenance text */}
+            {/* Provenance credit text */}
             <meta
                 itemProp="creditText"
                 content={isArabic
@@ -132,7 +130,7 @@ export function VerifiedVisionImage({
                     : 'Verified authentic product photo — CairoVolt Lab, New Damietta'}
             />
 
-            {/* Verification endpoint — tells Google where to validate this image */}
+            {/* Verification endpoint */}
             <meta
                 itemProp="acquireLicensePage"
                 content={verifyUrl}
@@ -146,13 +144,13 @@ export function VerifiedVisionImage({
                     : `© ${year} CairoVolt — cairovolt.com`}
             />
 
-            {/* Digital source type — tells Lens this is a real camera capture */}
+            {/* Digital source type */}
             <meta
                 itemProp="digitalSourceType"
                 content="http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"
             />
 
-            {/* Primary image flag for Lens ranking */}
+            {/* Primary image flag */}
             {isPrimary && (
                 <meta itemProp="representativeOfPage" content="true" />
             )}
@@ -223,7 +221,7 @@ export function VerifiedVisionImage({
                 <meta itemProp="value" content="31.6741° E" />
             </div>
 
-            {/* Bilingual trust description for neural model parsing */}
+            {/* Bilingual product description */}
             <span className="sr-only" itemProp="description">
                 {isArabic
                     ? `${alt} — تم تصوير هذا المنتج الأصلي من ${brand} بكاميرات مختبر كايرو فولت في دمياط الجديدة، مصر. صورة موثقة بتقنية C2PA — غير قابلة للتزوير.`
