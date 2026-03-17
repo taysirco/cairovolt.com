@@ -96,6 +96,12 @@ const productCategories: Record<string, EntityRef> = {
         type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Battery_charger',
     },
+    carCharger: {
+        name: 'Car charger',
+        nameAr: 'شاحن سيارة',
+        type: 'Thing',
+        sameAs: 'https://en.wikipedia.org/wiki/Battery_charger#Vehicle-mounted',
+    },
     earbuds: {
         name: 'Earbuds',
         nameAr: 'سماعات لاسلكية',
@@ -193,6 +199,19 @@ const technologies: Record<string, EntityRef> = {
         type: 'Thing',
         sameAs: 'https://en.wikipedia.org/wiki/Qi_(standard)',
         additionalSameAs: ['https://www.wikidata.org/wiki/Q1357469'],
+    },
+    fastCharging: {
+        name: 'Fast charging',
+        nameAr: 'الشحن السريع',
+        type: 'Thing',
+        sameAs: 'https://en.wikipedia.org/wiki/Quick_Charge',
+    },
+    thermalRunaway: {
+        name: 'Thermal runaway',
+        nameAr: 'الانفلات الحراري',
+        type: 'Thing',
+        sameAs: 'https://en.wikipedia.org/wiki/Thermal_runaway',
+        additionalSameAs: ['https://www.wikidata.org/wiki/Q1972262'],
     },
 };
 
@@ -341,6 +360,18 @@ export function getEntitiesForArticle(slug: string): { about: string[]; mentions
         'do-fake-chargers-damage-iphone-battery': {
             about: ['charger', 'apple', 'lithiumIon'],
             mentions: ['anker', 'cairovolt', 'usbC', 'egypt', 'cairo'],
+        },
+        'does-fast-charging-damage-battery-truth': {
+            about: ['fastCharging', 'lithiumIon', 'charger'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'gan', 'usbPD', 'usbC', 'quickCharge', 'thermalRunaway', 'egypt', 'cairo'],
+        },
+        'power-bank-airplane-rules-egypt-2026': {
+            about: ['powerBank', 'lithiumIon', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'thermalRunaway', 'cairo'],
+        },
+        'best-car-charger-egypt-2026': {
+            about: ['carCharger', 'charger', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'quickCharge', 'cable', 'cairo'],
         },
     };
 
