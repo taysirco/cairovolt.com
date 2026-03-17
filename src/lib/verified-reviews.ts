@@ -6,6 +6,7 @@
 import { getFirestore } from './firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import crypto from 'crypto';
+import { logger } from './logger';
 
 // ============================================
 // INTERFACES
@@ -246,7 +247,7 @@ export async function getProductReviews(productSlug: string, limit: number = 20)
             } as VerifiedReview;
         });
     } catch (error) {
-        console.warn('Failed to fetch reviews:', error);
+        logger.warn('Failed to fetch reviews:', error);
         return [];
     }
 }
@@ -265,7 +266,7 @@ export async function getProductReviewCount(productSlug: string): Promise<number
 
         return snapshot.data().count;
     } catch (error) {
-        console.warn('Failed to get review count:', error);
+        logger.warn('Failed to get review count:', error);
         return 0;
     }
 }

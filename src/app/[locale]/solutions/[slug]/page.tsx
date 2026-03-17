@@ -5,6 +5,7 @@ import { getProductBySlug } from '@/lib/static-products';
 import Link from 'next/link';
 import Image from 'next/image';
 
+export const dynamic = 'force-dynamic'; // Must be dynamic to avoid DYNAMIC_SERVER_USAGE at runtime
 export const revalidate = 3600;
 export const dynamicParams = true;
 

@@ -20,6 +20,20 @@ import { appendOrderToSheet } from '@/lib/google-sheets';
  */
 
 // ============================================
+// Input Sanitization
+// ============================================
+
+function sanitizeInput(input: unknown, maxLength = 500): string {
+    if (typeof input !== 'string') return '';
+    return input
+        .replace(/<[^>]*>/g, '')
+        .replace(/[<>"'&]/g, '')
+        .replace(/javascript\s*:/gi, '')
+        .trim()
+        .slice(0, maxLength);
+}
+
+// ============================================
 // Smart Search Helpers
 // ============================================
 
@@ -369,11 +383,11 @@ export async function POST(req: NextRequest) {
         const orderData = {
             orderId,
             source: 'm2m_checkout',
-            customerName: data.customerName,
-            phone: data.phone,
-            whatsapp: data.whatsapp || data.phone,
-            address: data.address,
-            city: data.city,
+            customerName: sanitizeInput(data.customerName, 100),
+            phone: String(data.phone).replace(/[^0-9+]/g, '').slice(0, 20),
+            whatsapp: String(data.whatsapp || data.phone).replace(/[^0-9+]/g, '').slice(0, 20),
+            address: sanitizeInput(data.address, 300),
+            city: sanitizeInput(data.city, 50),
             items: [{
                 productId: product.id,
                 sku: product.sku || product.slug,

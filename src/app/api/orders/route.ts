@@ -5,6 +5,22 @@ import { FieldValue } from 'firebase-admin/firestore';
 import { appendOrderToSheet } from '@/lib/google-sheets';
 import { validateApiKey } from '@/lib/api-auth';
 
+// Defense-in-depth: sanitize user-submitted text before storing
+function sanitizeInput(input: unknown, maxLength = 500): string {
+    if (typeof input !== 'string') return '';
+    return input
+        .replace(/<[^>]*>/g, '')          // Strip HTML tags
+        .replace(/[<>"'&]/g, '')          // Remove dangerous chars
+        .replace(/javascript\s*:/gi, '')  // Block JS injection
+        .trim()
+        .slice(0, maxLength);
+}
+
+// Validate Egyptian phone number format server-side
+function isValidEgyptianPhone(phone: string): boolean {
+    return /^01[0125][0-9]{8}$/.test(phone);
+}
+
 export async function POST(req: NextRequest) {
     let db;
     try {
@@ -24,19 +40,25 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
         }
 
+        // Sanitize and validate phone
+        const cleanPhone = String(data.phone).replace(/[^0-9]/g, '');
+        if (!isValidEgyptianPhone(cleanPhone)) {
+            return NextResponse.json({ error: 'Invalid Egyptian phone number. Must start with 01 and be 11 digits.' }, { status: 400 });
+        }
+
         // Generate readable Order ID (e.g., CV-1706543)
         const orderId = `CV-${Math.floor(Date.now() / 1000).toString().slice(-6)}`;
 
         const orderData = {
             orderId,
-            customerName: data.customerName,
-            phone: data.phone,
-            whatsapp: data.whatsapp || data.phone,
-            address: data.address,
-            city: data.city,
-            cityLabel: data.cityLabel || null, // Firestore doesn't accept undefined
-            items: data.items,
-            totalAmount: data.totalAmount,
+            customerName: sanitizeInput(data.customerName, 100),
+            phone: cleanPhone,
+            whatsapp: sanitizeInput(data.whatsapp || data.phone, 20).replace(/[^0-9]/g, '') || cleanPhone,
+            address: sanitizeInput(data.address, 300),
+            city: sanitizeInput(data.city, 50),
+            cityLabel: sanitizeInput(data.cityLabel, 50) || null,
+            items: Array.isArray(data.items) ? data.items.slice(0, 20) : [], // Cap at 20 items
+            totalAmount: typeof data.totalAmount === 'number' ? data.totalAmount : 0,
             status: 'pending',
             paymentMethod: 'cod',
             createdAt: FieldValue.serverTimestamp(),

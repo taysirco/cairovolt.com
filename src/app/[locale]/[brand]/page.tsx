@@ -13,6 +13,7 @@ import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import { staticProducts } from '@/lib/static-products';
 
 export const revalidate = 3600;
+export const dynamicParams = false; // Unknown slugs → automatic 404 (prevents soft 404)
 
 type Props = {
     params: Promise<{ locale: string; brand: string }>;

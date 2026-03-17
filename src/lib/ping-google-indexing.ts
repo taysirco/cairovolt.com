@@ -3,6 +3,7 @@
  * Use this from any backend code (admin panels, API routes, etc.)
  * when you need to notify Google of a URL update or deletion.
  */
+import { logger } from '@/lib/logger';
 export async function pingGoogleIndexing(
     productSlug: string,
     options: {
@@ -15,7 +16,7 @@ export async function pingGoogleIndexing(
     const secret = process.env.INDEXING_WEBHOOK_SECRET;
 
     if (!secret) {
-        console.warn('[pingGoogleIndexing] INDEXING_WEBHOOK_SECRET not set');
+        logger.warn('[pingGoogleIndexing] INDEXING_WEBHOOK_SECRET not set');
         return { success: false, error: 'INDEXING_WEBHOOK_SECRET not configured' };
     }
 
@@ -45,7 +46,7 @@ export async function pingGoogleIndexing(
         const result = await response.json();
 
         if (result.success) {
-            console.log(`[SEO] ✅ Google Index pinged: ${targetUrl}`);
+            logger.info(`[SEO] ✅ Google Index pinged: ${targetUrl}`);
             return { success: true };
         } else {
             console.error(`[SEO] ❌ Ping failed:`, result.error);

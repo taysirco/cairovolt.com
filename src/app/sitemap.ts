@@ -4,6 +4,7 @@ import { brandData } from '@/data/brand-data';
 import { governorates } from '@/data/governorates';
 import { categoryData } from '@/data/category-seo';
 import { staticProducts } from '@/lib/static-products';
+import { logger } from '@/lib/logger';
 import { blogArticles } from '@/data/blog-articles';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
@@ -133,7 +134,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             });
         }
     } catch (error) {
-        console.warn('Firebase not available for sitemap, using static products only:', error);
+        logger.warn('Firebase not available for sitemap, using static products only:', error);
     }
 
     // Generic Category Pages (brand-agnostic landing pages)

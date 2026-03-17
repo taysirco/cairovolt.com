@@ -15,6 +15,7 @@
  */
 
 import { getSecret } from './get-secrets';
+import { logger } from './logger';
 
 // ═══════════ Types ═══════════
 
@@ -157,7 +158,7 @@ export async function createBostaShipment(
 
         const result = await response.json();
 
-        console.log(
+        logger.info(
             `[Bosta Fulfillment] Shipment created — Order: ${input.orderId}, Tracking: ${result.trackingNumber || result._id}`
         );
 

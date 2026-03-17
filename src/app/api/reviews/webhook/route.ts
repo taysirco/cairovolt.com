@@ -7,6 +7,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createReviewToken, generateReviewRequestMessage } from '@/lib/verified-reviews';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
+import { logger } from '@/lib/logger';
 
 // Webhook secret for security (should match the one in Google Apps Script)
 const WEBHOOK_SECRET = process.env.REVIEW_WEBHOOK_SECRET;
@@ -76,7 +77,7 @@ export async function POST(req: NextRequest) {
                 createdAt: FieldValue.serverTimestamp()
             });
         } catch (logError) {
-            console.warn('Failed to log review request:', logError);
+            logger.warn('Failed to log review request:', logError);
             // Continue anyway, this is just for tracking
         }
 

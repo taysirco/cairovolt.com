@@ -7,6 +7,21 @@ interface BlogContentRendererProps {
     className?: string;
 }
 
+// Defense-in-depth: sanitize HTML even from admin-controlled sources
+function sanitizeHtml(html: string): string {
+    return html
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<style[\s\S]*?<\/style>/gi, '')
+        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<object[\s\S]*?<\/object>/gi, '')
+        .replace(/<embed[^>]*>/gi, '')
+        .replace(/<form[\s\S]*?<\/form>/gi, '')
+        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
+        .replace(/\son\w+\s*=\s*\S+/gi, '')
+        .replace(/javascript\s*:/gi, 'blocked:')
+        .replace(/data\s*:/gi, 'blocked:');
+}
+
 /**
  * BlogContentRenderer — Client-side-only HTML renderer for blog articles.
  *
@@ -49,7 +64,7 @@ export default function BlogContentRenderer({ html, className = '' }: BlogConten
         <div
             ref={containerRef}
             className={className}
-            dangerouslySetInnerHTML={{ __html: html }}
+            dangerouslySetInnerHTML={{ __html: sanitizeHtml(html) }}
         />
     );
 }

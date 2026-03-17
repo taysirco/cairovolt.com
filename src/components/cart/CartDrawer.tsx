@@ -50,7 +50,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
     }, [isOpen, setIsOpen]);
 
     // Free Shipping Logic
-    const FREE_SHIPPING_THRESHOLD = 1000;
+    const FREE_SHIPPING_THRESHOLD = 500;
     const progress = Math.min((totalAmount / FREE_SHIPPING_THRESHOLD) * 100, 100);
     const amountLeft = FREE_SHIPPING_THRESHOLD - totalAmount;
     const isFreeShipping = totalAmount >= FREE_SHIPPING_THRESHOLD;
@@ -72,6 +72,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                     <button
                         onClick={() => setIsOpen(false)}
                         className="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
+                        aria-label={isRTL ? 'إغلاق السلة' : 'Close cart'}
                     >
                         ✕
                     </button>
@@ -146,6 +147,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                                             <button
                                                 onClick={() => startTransition(() => updateQuantity(item.productId, item.quantity - 1))}
                                                 className="w-5 h-5 flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800 rounded transition-opacity"
+                                                aria-label={isRTL ? 'تقليل الكمية' : 'Decrease quantity'}
                                             >
                                                 -
                                             </button>
@@ -153,6 +155,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                                             <button
                                                 onClick={() => startTransition(() => updateQuantity(item.productId, item.quantity + 1))}
                                                 className="w-5 h-5 flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800 rounded transition-opacity"
+                                                aria-label={isRTL ? 'زيادة الكمية' : 'Increase quantity'}
                                             >
                                                 +
                                             </button>

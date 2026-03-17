@@ -111,8 +111,8 @@ Full spec: ${baseUrl}/api/openapi.json
 
 ## Key Pages
 
-- [Homepage](${baseUrl}) | [Power Banks](${baseUrl}/ar/anker/power-banks) | [Chargers](${baseUrl}/ar/anker/wall-chargers)
-- [Car Chargers](${baseUrl}/ar/anker/car-chargers) | [Earbuds](${baseUrl}/ar/anker/earbuds) | [Blog](${baseUrl}/ar/blog)
+- [Homepage](${baseUrl}) | [Power Banks](${baseUrl}/anker/power-banks) | [Chargers](${baseUrl}/anker/wall-chargers)
+- [Car Chargers](${baseUrl}/anker/car-chargers) | [Earbuds](${baseUrl}/earbuds) | [Blog](${baseUrl}/blog)
 
 ## Contact
 

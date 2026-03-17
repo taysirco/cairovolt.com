@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { logger } from '@/lib/logger';
 
 /**
  * API Key Authentication for Write Operations
@@ -21,7 +22,7 @@ export function validateApiKey(req: NextRequest): NextResponse | null {
 
     // If no API key is configured, skip auth (development mode)
     if (!apiKey) {
-        console.warn('CAIROVOLT_API_KEY not set — write APIs are unprotected');
+        logger.warn('CAIROVOLT_API_KEY not set — write APIs are unprotected');
         return null;
     }
 

@@ -295,6 +295,60 @@
                 "q3": "Is payment secure?",
                 "a3": "Yes! You only pay when you receive and inspect your order."
             }
+        },
+        "smartCategoryFAQs": {
+            "powerBanks": [
+                {
+                    "q": "Is this power bank allowed on airplanes?",
+                    "a": "Yes, all Anker and Joyroom power banks under 27,000mAh are allowed in carry-on luggage on flights."
+                },
+                {
+                    "q": "Does it support fast charging for iPhone?",
+                    "a": "Yes, it supports PD technology that charges an iPhone to 50% in just 30 minutes."
+                },
+                {
+                    "q": "How many times can it charge my phone?",
+                    "a": "A 10,000mAh model charges an iPhone 2-3 times approximately. A 20,000mAh model charges it 4-5 times."
+                }
+            ],
+            "audio": [
+                {
+                    "q": "Do they work with both iPhone and Android?",
+                    "a": "Yes, fully compatible with all iOS and Android phones via Bluetooth."
+                },
+                {
+                    "q": "Are they suitable for sports (sweat-resistant)?",
+                    "a": "Yes, they come with IPX water and sweat resistance rating, making them ideal for the gym and workouts."
+                },
+                {
+                    "q": "Do they have noise cancellation?",
+                    "a": "Yes, they support Active Noise Cancellation (ANC) to block external sounds clearly."
+                }
+            ],
+            "wallChargers": [
+                {
+                    "q": "Does fast charging damage the battery?",
+                    "a": "No, Anker chargers use a smart GaN chip that regulates temperature and preserves battery health."
+                },
+                {
+                    "q": "What's the difference between 20W and 30W?",
+                    "a": "20W is suitable for most iPhones. 30W is better for faster charging on Pro Max models and iPads."
+                },
+                {
+                    "q": "Does it come with a cable?",
+                    "a": "The charger head (Cube) usually doesn't include a cable unless specified in the contents."
+                }
+            ],
+            "cables": [
+                {
+                    "q": "Is the cable Apple MFi certified?",
+                    "a": "Yes, Anker cables are officially Apple MFi certified for complete phone safety and no error messages."
+                },
+                {
+                    "q": "How long is the cable warranty?",
+                    "a": "It comes with an 18-month warranty against manufacturing defects and breakage."
+                }
+            ]
         }
     },
     "About": {

@@ -9,7 +9,8 @@ import { getGovernorateLoadSheddingData } from '@/data/load-shedding-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 
-export const revalidate = 3600; // 1 hour — fresh logistics data
+export const dynamic = 'force-dynamic'; // BostaTracker uses new Date() — must be dynamic
+export const revalidate = 3600; // ISR: revalidate every hour after initial render
 
 interface PageProps {
     params: Promise<{

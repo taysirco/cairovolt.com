@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { products, categories } from '@/data/seed-products';
+import { logger } from '@/lib/logger';
 
 export async function POST(req: NextRequest) {
     const db = await getFirestore();
@@ -15,7 +16,7 @@ export async function POST(req: NextRequest) {
         const errors: string[] = [];
 
         // Seed Categories first (using slug as doc ID for consistency)
-        console.log('Seeding categories...');
+        logger.info('Seeding categories...');
         for (const category of categories) {
             try {
                 const docRef = db.collection('categories').doc(category.slug);
@@ -28,9 +29,9 @@ export async function POST(req: NextRequest) {
                         updatedAt: FieldValue.serverTimestamp(),
                     }, { merge: true });
                     categoriesAdded++;
-                    console.log(`[OK] ${existing.exists ? 'Updated' : 'Added'} category: ${category.translations?.ar?.name || category.slug}`);
+                    logger.info(`[OK] ${existing.exists ? 'Updated' : 'Added'} category: ${category.translations?.ar?.name || category.slug}`);
                 } else {
-                    console.log(`[SKIP] Skipped category: ${category.slug} (exists)`);
+                    logger.info(`[SKIP] Skipped category: ${category.slug} (exists)`);
                 }
             } catch (err) {
                 const error = err as Error;
@@ -40,7 +41,7 @@ export async function POST(req: NextRequest) {
         }
 
         // Seed Products (using slug as doc ID for consistency)
-        console.log('Seeding products...');
+        logger.info('Seeding products...');
         for (const product of products) {
             try {
                 const docRef = db.collection('products').doc(product.slug);
@@ -53,9 +54,9 @@ export async function POST(req: NextRequest) {
                         updatedAt: FieldValue.serverTimestamp(),
                     }, { merge: true });
                     productsAdded++;
-                    console.log(`[OK] ${existing.exists ? 'Updated' : 'Added'} product: ${product.translations?.ar?.name || product.slug}`);
+                    logger.info(`[OK] ${existing.exists ? 'Updated' : 'Added'} product: ${product.translations?.ar?.name || product.slug}`);
                 } else {
-                    console.log(`[SKIP] Skipped product: ${product.slug} (exists)`);
+                    logger.info(`[SKIP] Skipped product: ${product.slug} (exists)`);
                 }
             } catch (err) {
                 const error = err as Error;
@@ -65,7 +66,7 @@ export async function POST(req: NextRequest) {
         }
 
         // Update category product counts (direct doc reference, no query needed)
-        console.log('Updating category product counts...');
+        logger.info('Updating category product counts...');
         const categorySlugs = [...new Set(products.map(p => p.categorySlug))];
         for (const slug of categorySlugs) {
             const count = products.filter(p => p.categorySlug === slug).length;

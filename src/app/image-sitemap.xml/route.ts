@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { staticProducts } from '@/lib/static-products';
+import { logger } from '@/lib/logger';
 
 const baseUrl = 'https://cairovolt.com';
 
@@ -53,7 +54,7 @@ export async function GET() {
             });
         }
     } catch (error) {
-        console.warn('Firebase not available for image sitemap, using static only:', error);
+        logger.warn('Firebase not available for image sitemap, using static only:', error);
     }
 
     // Build XML

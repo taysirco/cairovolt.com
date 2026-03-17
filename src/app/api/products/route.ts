@@ -4,6 +4,7 @@ import { FieldValue, Query } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { validateApiKey } from '@/lib/api-auth';
 import { buildManifest, signManifest } from '@/lib/content-credentials';
+import { logger } from '@/lib/logger';
 
 // ============================================
 // GET - List all products with pagination & filtering
@@ -91,7 +92,7 @@ export async function GET(req: NextRequest) {
 
         // Actually, if Firestore is empty (db reset?), fallback to static is safer for business.
         if (products.length === 0 && (brand || category) && !search) {
-            console.warn('Firestore returned 0 products for query, attempting fallback to static data.');
+            logger.warn('Firestore returned 0 products for query, attempting fallback to static data.');
             throw new Error('Empty Firestore Result');
         }
 
@@ -107,7 +108,7 @@ export async function GET(req: NextRequest) {
         });
 
     } catch (error) {
-        console.warn('Firestore fetch failed or returned empty, falling back to static data:', error);
+        logger.warn('Firestore fetch failed or returned empty, falling back to static data:', error);
 
         // 2. Fallback to Static Data
         let products = [...staticProducts];
@@ -267,7 +268,7 @@ export async function POST(req: NextRequest) {
             });
             contentCredentials = await signManifest(manifest);
         } catch (signingErr) {
-            console.warn('Content credentials signing skipped (keys not configured):', signingErr);
+            logger.warn('Content credentials signing skipped (keys not configured):', signingErr);
         }
 
         // Use slug as doc ID for consistency with seeding script
