@@ -2,11 +2,16 @@
   "name": "CairoVolt Store - Mobile Accessories Egypt",
   "short_name": "CairoVolt",
   "description": "الموزع المعتمد لمنتجات Anker و Joyroom في مصر - باور بانك، شواحن، سماعات بضمان رسمي",
+  "id": "/?source=pwa_app",
   "start_url": "/?source=pwa_app",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0f172a",
   "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/favicon.png",
@@ -19,16 +24,23 @@
       "type": "image/png"
     },
     {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
       "src": "/apple-icon.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/icon.png",
-      "sizes": "192x192",
+      "src": "/icon-512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "categories": ["shopping", "electronics"]
+  "categories": ["shopping", "electronics"],
+  "screenshots": [],
+  "related_applications": []
 }

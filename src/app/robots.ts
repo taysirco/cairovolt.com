@@ -50,11 +50,6 @@ export default function robots(): MetadataRoute.Robots {
                     '/review/',
                     '/api/',
                     '/wishlist',
-                    '/privacy',
-                    '/terms',
-                    '/shipping',
-                    '/return-policy',
-                    '/warranty',
                     '/*?*',                // Block all parameterized URLs
                 ],
             },

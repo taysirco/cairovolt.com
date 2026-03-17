@@ -18,6 +18,8 @@ interface ImageObjectSchemaProps {
     productCategory: string;
     locale: string;
     baseUrl?: string;
+    /** Product stock count — used for availability in nested Offer */
+    productStock?: number;
     /** C2PA credential hash for content provenance */
     c2paHash?: string;
 }
@@ -43,6 +45,7 @@ export function ImageObjectSchema({
     productCategory,
     locale,
     baseUrl = 'https://cairovolt.com',
+    productStock,
     c2paHash,
 }: ImageObjectSchemaProps) {
     const isArabic = locale === 'ar';
@@ -66,7 +69,7 @@ export function ImageObjectSchema({
             '@type': 'Offer',
             price: productPrice,
             priceCurrency: 'EGP',
-            availability: 'https://schema.org/InStock',
+            availability: (productStock ?? 1) > 0 ? 'https://schema.org/InStock' : 'https://schema.org/BackOrder',
             url: productUrl,
             seller: { '@type': 'Organization', '@id': 'https://cairovolt.com/#organization', name: isArabic ? 'كايرو فولت' : 'CairoVolt', url: baseUrl },
         },

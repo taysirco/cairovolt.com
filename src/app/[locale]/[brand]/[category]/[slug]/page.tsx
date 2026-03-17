@@ -10,7 +10,7 @@ import { getProductReviews as getStaticProductReviews, calculateAggregateRating 
 import { getProductSEO } from '@/data/product-seo-enhancements';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { LiveLogisticsPulse, LivePulseSkeleton } from '@/components/products/LiveLogisticsPulse';
-
+import { logger } from '@/lib/logger';
 import DarkSocialTracker from '@/components/seo/DarkSocialTracker';
 import TabTakeover from '@/components/UX/TabTakeover';
 import AuthenticityGuard from '@/components/UX/AuthenticityGuard';
@@ -141,7 +141,7 @@ async function getProduct(slug: string): Promise<Product | null> {
         }
         return { id: doc.id, ...docData } as Product;
     } catch (error) {
-        console.warn(`Failed to fetch product ${slug} from Firebase`, error);
+        logger.warn(`Failed to fetch product ${slug} from Firebase`, error);
         return null;
     }
 }
@@ -226,7 +226,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             'ICBM': '30.0444, 31.2357',
             'product:price:amount': String(product.price),
             'product:price:currency': 'EGP',
-            'product:availability': (product.stock ?? 0) > 0 ? 'in stock' : 'out of stock',
+            'product:availability': (product.stock ?? 0) > 0 ? 'in stock' : 'available for order',
             'product:condition': 'new',
             'product:brand': product.brand,
         },
@@ -397,6 +397,7 @@ export default async function ProductPage({ params }: Props) {
                     productPrice={product.price || 0}
                     productCategory={category}
                     locale={locale}
+                    productStock={product.stock || 0}
                     c2paHash={c2paHash}
                 />
             )}

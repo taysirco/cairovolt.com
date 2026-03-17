@@ -238,7 +238,7 @@ export function GenericCategoryContent({
                                             </h3>
                                             <div className="flex items-end gap-2" itemProp="offers" itemScope itemType="https://schema.org/Offer">
                                                 <meta itemProp="priceCurrency" content="EGP" />
-                                                <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'} />
+                                                <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/BackOrder'} />
                                                 <span className="text-lg font-bold text-gray-900" itemProp="price" content={String(product.price)}>
                                                     {product.price.toLocaleString()}
                                                 </span>

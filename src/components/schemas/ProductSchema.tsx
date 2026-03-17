@@ -318,7 +318,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             priceValidUntil: PRICE_VALID_UNTIL,
             availability: product.stock > 0
                 ? 'https://schema.org/InStock'
-                : 'https://schema.org/OutOfStock',
+                : 'https://schema.org/BackOrder',
             itemCondition: 'https://schema.org/NewCondition',
             // UnitPriceSpecification for precise Google Shopping parsing
             priceSpecification: {
@@ -357,7 +357,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@type': 'OfferShippingDetails',
                 shippingRate: {
                     '@type': 'MonetaryAmount',
-                    value: product.price >= 500 ? 0 : 40,
+                    value: product.price >= 500 ? "0.00" : "40.00",
                     currency: 'EGP',
                 },
                 shippingDestination: {
@@ -375,7 +375,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     transitTime: {
                         '@type': 'QuantitativeValue',
                         minValue: 1,
-                        maxValue: 5,
+                        maxValue: 2,
                         unitCode: 'd',
                     },
                 },
@@ -389,10 +389,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             hasMerchantReturnPolicy: {
                 '@type': 'MerchantReturnPolicy',
                 applicableCountry: 'EG',
+                returnPolicyCountry: 'EG',
                 returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
                 merchantReturnDays: 14,
                 returnMethod: 'https://schema.org/ReturnByMail',
                 returnFees: 'https://schema.org/FreeReturn',
+                refundType: 'https://schema.org/FullRefund',
                 url: `${baseUrl}/${locale}/return-policy`,
             },
         },
@@ -427,12 +429,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 priceCurrency: 'EGP',
                 availability: product.stock > 0
                     ? 'https://schema.org/InStock'
-                    : 'https://schema.org/OutOfStock',
+                    : 'https://schema.org/BackOrder',
                 shippingDetails: {
                     '@type': 'OfferShippingDetails',
                     shippingRate: {
                         '@type': 'MonetaryAmount',
-                        value: product.price >= 500 ? 0 : 40,
+                        value: product.price >= 500 ? "0.00" : "40.00",
                         currency: 'EGP',
                     },
                     shippingDestination: {
@@ -441,13 +443,29 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     },
                     deliveryTime: {
                         '@type': 'ShippingDeliveryTime',
+                        handlingTime: {
+                            '@type': 'QuantitativeValue',
+                            minValue: 0,
+                            maxValue: 1,
+                            unitCode: 'd',
+                        },
                         transitTime: {
                             '@type': 'QuantitativeValue',
                             minValue: 1,
-                            maxValue: 5,
+                            maxValue: 2,
                             unitCode: 'd',
                         },
                     },
+                },
+                hasMerchantReturnPolicy: {
+                    '@type': 'MerchantReturnPolicy',
+                    applicableCountry: 'EG',
+                    returnPolicyCountry: 'EG',
+                    returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+                    merchantReturnDays: 14,
+                    returnMethod: 'https://schema.org/ReturnByMail',
+                    returnFees: 'https://schema.org/FreeReturn',
+                    refundType: 'https://schema.org/FullRefund',
                 },
                 acceptedPaymentMethod: {
                     '@type': 'PaymentMethod',
