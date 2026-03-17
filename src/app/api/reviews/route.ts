@@ -53,11 +53,10 @@ export async function GET(req: NextRequest) {
             aggregateRating,
             total: reviews.length
         });
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error('Error fetching reviews:', error);
         return NextResponse.json({
             error: 'Failed to fetch reviews',
-            details: error.message
         }, { status: 500 });
     }
 }
@@ -115,12 +114,11 @@ export async function POST(req: NextRequest) {
             message: 'شكراً لك! تم إرسال تقييمك بنجاح'
         });
 
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error('Error submitting review:', error);
         return NextResponse.json({
             success: false,
             error: 'حدث خطأ أثناء إرسال التقييم. يرجى المحاولة مرة أخرى.',
-            details: error.message
         }, { status: 500 });
     }
 }

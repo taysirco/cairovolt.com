@@ -116,10 +116,6 @@ function ConfirmContent() {
     }
 
     return (
-        <>
-            <head>
-                <meta name="robots" content="noindex,nofollow" />
-            </head>
             <div className="container mx-auto px-4 py-8 max-w-3xl" dir="rtl">
                 {/* Success Header */}
                 <div className="text-center mb-8">
@@ -327,7 +323,6 @@ function ConfirmContent() {
                     </a>
                 </div>
             </div>
-        </>
     );
 }
 

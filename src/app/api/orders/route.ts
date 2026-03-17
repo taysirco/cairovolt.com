@@ -3,16 +3,16 @@ import { after } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { appendOrderToSheet } from '@/lib/google-sheets';
+import { validateApiKey } from '@/lib/api-auth';
 
 export async function POST(req: NextRequest) {
     let db;
     try {
         db = await getFirestore();
-    } catch (initError: any) {
+    } catch (initError: unknown) {
         console.error('Firestore init failed in orders route:', initError);
         return NextResponse.json({
             error: 'Service Unavailable: Database initialization failed',
-            details: initError.message
         }, { status: 503 });
     }
 
@@ -64,17 +64,18 @@ export async function POST(req: NextRequest) {
             orderId: orderId,
             message: 'Order placed successfully'
         });
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error('Error creating order:', error);
         return NextResponse.json({
             error: 'Failed to create order',
-            details: error.message,
-            code: error.code
         }, { status: 500 });
     }
 }
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+    const authError = validateApiKey(req);
+    if (authError) return authError;
+
     const db = await getFirestore();
 
     try {

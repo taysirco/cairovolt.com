@@ -9,14 +9,19 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 
 // Webhook secret for security (should match the one in Google Apps Script)
-const WEBHOOK_SECRET = process.env.REVIEW_WEBHOOK_SECRET || 'cairovolt-reviews-2026';
+const WEBHOOK_SECRET = process.env.REVIEW_WEBHOOK_SECRET;
+
+// Fail early if secret is not configured
+if (!WEBHOOK_SECRET) {
+    console.error('REVIEW_WEBHOOK_SECRET is not configured');
+}
 
 export async function POST(req: NextRequest) {
     try {
         const data = await req.json();
 
-        // Verify webhook secret
-        if (data.secret !== WEBHOOK_SECRET) {
+        // Verify webhook secret — reject if not configured or mismatch
+        if (!WEBHOOK_SECRET || data.secret !== WEBHOOK_SECRET) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
         }
 
@@ -84,12 +89,11 @@ export async function POST(req: NextRequest) {
             whatsappLink: `https://wa.me/${customerPhone.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`
         });
 
-    } catch (error: any) {
+    } catch (error: unknown) {
         console.error('Review webhook error:', error);
         return NextResponse.json({
             success: false,
             error: 'Failed to process review request',
-            details: error.message
         }, { status: 500 });
     }
 }
