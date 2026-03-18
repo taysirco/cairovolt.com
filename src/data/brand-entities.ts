@@ -373,6 +373,14 @@ export function getEntitiesForArticle(slug: string): { about: string[]; mentions
             about: ['carCharger', 'charger', 'egypt'],
             mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'quickCharge', 'cable', 'cairo'],
         },
+        'why-phone-charging-slowly-causes-solutions': {
+            about: ['fastCharging', 'cable', 'charger'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'lithiumIon', 'apple', 'samsung', 'egypt', 'cairo'],
+        },
+        'usb-c-cable-guide-egypt-2026': {
+            about: ['cable', 'usbC', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbPD', 'apple', 'samsung', 'fastCharging', 'cairo'],
+        },
     };
 
     return articleEntityMap[slug] || { about: ['egypt'], mentions: ['cairo'] };
