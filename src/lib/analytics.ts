@@ -178,9 +178,9 @@ export function trackPurchase(
 // USER ENGAGEMENT EVENTS
 // ═════════════════════════════════════════════════════════════════════════════
 
-/** Tracks clipboard copy actions for UX analytics. */
+/** Tracks clipboard copy actions. */
 export function trackCopyContent(contentType: 'price' | 'phone' | 'address' | 'product_name' | 'text', copiedText: string): void {
-    dispatchEvent('copy_content', {
+    dispatchEvent('select_content', {
         event_category: 'engagement',
         content_type: contentType,
         content_value: copiedText.slice(0, 100),
@@ -213,7 +213,7 @@ export function trackFaqToggle(question: string): void {
 // ═════════════════════════════════════════════════════════════════════════════
 
 /** Tracks WhatsApp link clicks. */
-export function trackWhatsappClick(context: 'header' | 'contact' | 'product' | 'exit_intent' | 'confirm' | 'category'): void {
+export function trackWhatsappClick(context: 'header' | 'contact' | 'product' | 'promo' | 'confirm' | 'category'): void {
     dispatchEvent('generate_lead', {
         event_category: 'contact',
         event_label: `whatsapp_${context}`,
@@ -273,11 +273,11 @@ export function trackPrintInvoice(orderId: string): void {
     });
 }
 
-/** Tracks exit-intent overlay interactions. */
-export function trackExitIntent(action: 'shown' | 'clicked' | 'dismissed'): void {
+/** Tracks promotional overlay interactions. */
+export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed'): void {
     dispatchEvent('select_content', {
-        event_category: 'retention',
-        content_type: 'exit_overlay',
+        event_category: 'ux',
+        content_type: 'promo_banner',
         event_label: action,
     });
 }
@@ -289,9 +289,9 @@ export function trackExitIntent(action: 'shown' | 'clicked' | 'dismissed'): void
 
 /**
  * Listens for clipboard copy events and classifies copied content.
- * Returns a cleanup function to remove the listener.
+ * Returns a cleanup function.
  */
-export function attachCopyListener(): (() => void) | null {
+export function initCopyTracking(): (() => void) | null {
     if (typeof document === 'undefined') return null;
 
     const handler = () => {
@@ -323,10 +323,10 @@ export function attachCopyListener(): (() => void) | null {
 }
 
 /**
- * Listens for <details> toggle events to track FAQ engagement.
- * Returns a cleanup function to remove the listener.
+ * Listens for <details> toggle events to track section expansion.
+ * Returns a cleanup function.
  */
-export function attachFaqToggleListener(): (() => void) | null {
+export function initFaqTracking(): (() => void) | null {
     if (typeof document === 'undefined') return null;
 
     const handler = (e: Event) => {

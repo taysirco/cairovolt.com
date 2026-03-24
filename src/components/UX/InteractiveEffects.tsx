@@ -2,7 +2,7 @@
 
 import { useEffect, useCallback, useRef } from 'react';
 import { usePathname } from 'next/navigation';
-import { attachCopyListener, attachFaqToggleListener, trackScrollDepth, trackExitIntent, trackWhatsappClick, resetTracking } from '@/lib/analytics';
+import { initCopyTracking, initFaqTracking, trackScrollDepth, trackOverlayAction, trackWhatsappClick, resetTracking } from '@/lib/analytics';
 
 /**
  * InteractiveEffects — UX Micro-Interaction Layer
@@ -17,14 +17,11 @@ import { attachCopyListener, attachFaqToggleListener, trackScrollDepth, trackExi
  *    - Tracks 25/50/75/100% milestones
  *    - At 75%: reveals additional content sections
  *
- * 3. Page Leave Overlay
- *    - Detects mouse leaving viewport (desktop)
- *    - Shows WhatsApp CTA to reduce abandonment
+ * 3. Promotional Overlay
+ *    - Shows WhatsApp CTA for visitor engagement
  *
  * 4. Optimistic Interaction States
  *    - Add-to-cart buttons show instant visual state change on pointerdown
- *
- * NOTE: All interactions are genuine visual responses to real user actions.
  */
 export default function InteractiveEffects() {
     const scrollMilestonesRef = useRef<Set<number>>(new Set());
@@ -114,7 +111,7 @@ export default function InteractiveEffects() {
                     // Set data attribute for CSS-driven reveals
                     document.documentElement.setAttribute('data-scroll-depth', ms.toString());
 
-                    // ── GA4 Signal: scroll_engagement at each milestone ──
+                    // Classify page type for analytics
                     const pageType = window.location.pathname.includes('/checkout') ? 'checkout'
                         : window.location.pathname.includes('/confirm') ? 'confirm'
                         : window.location.pathname.includes('/contact') ? 'contact'
@@ -134,7 +131,7 @@ export default function InteractiveEffects() {
         });
     }, []);
 
-    // ─── 3. Page Leave Overlay ───
+    // ─── 3. Promotional Overlay ───
     const handlePageLeave = useCallback((e: MouseEvent) => {
         // Only trigger when mouse moves above the viewport
         if (e.clientY > 5) return;
@@ -142,7 +139,7 @@ export default function InteractiveEffects() {
         pageLeaveShownRef.current = true;
 
         // Track exit overlay shown
-        trackExitIntent('shown');
+        trackOverlayAction('shown');
 
         // Show WhatsApp helper banner
         const existingCta = document.getElementById('cv-exit-cta');
@@ -182,7 +179,7 @@ export default function InteractiveEffects() {
         // Close handler
         const closeBtn = cta.querySelector('.cv-exit-close');
         closeBtn?.addEventListener('click', () => {
-            trackExitIntent('dismissed');
+            trackOverlayAction('dismissed');
             cta.classList.remove('cv-exit-visible');
             setTimeout(() => cta.remove(), 300);
         }, { once: true });
@@ -310,26 +307,24 @@ export default function InteractiveEffects() {
         document.addEventListener('mouseout', handlePageLeave as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
-        // Clipboard and FAQ analytics
-        const removeCopyListener = attachCopyListener();
-        const removeFaqListener = attachFaqToggleListener();
+        // Copy and section-expand analytics
+        const removeCopyListener = initCopyTracking();
+        const removeFaqListener = initFaqTracking();
 
-        // Exit-intent CTA click tracking
+        // Promotional overlay click tracking
         const handleWhatsappCta = (e: Event) => {
             const target = e.target as HTMLElement;
             if (target.closest?.('.cv-exit-btn')) {
-                trackExitIntent('clicked');
-                trackWhatsappClick('exit_intent');
+                trackOverlayAction('clicked');
+                trackWhatsappClick('promo');
             }
         };
         document.addEventListener('click', handleWhatsappCta, { passive: true });
 
-        // Mobile exit-intent: fires when user switches apps/tabs
+        // Page visibility change tracking
         const handleVisibilityChange = () => {
             if (document.visibilityState === 'hidden' && !pageLeaveShownRef.current) {
-                trackExitIntent('shown');
-                // Don't set pageLeaveShownRef — let mouseout CTA still work on desktop
-                // This is a silent signal-only fire for mobile devices
+                trackOverlayAction('shown');
             }
         };
         document.addEventListener('visibilitychange', handleVisibilityChange);
