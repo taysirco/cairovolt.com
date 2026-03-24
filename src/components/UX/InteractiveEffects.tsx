@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useCallback, useRef } from 'react';
+import { usePathname } from 'next/navigation';
+import { attachCopyListener, attachFaqToggleListener, trackScrollEngagement, trackExitIntent, trackWhatsappClick, resetSignals } from '@/lib/ecommerce-signals';
 
 /**
  * InteractiveEffects — UX Micro-Interaction Layer
@@ -28,6 +30,14 @@ export default function InteractiveEffects() {
     const scrollMilestonesRef = useRef<Set<number>>(new Set());
     const pageLeaveShownRef = useRef(false);
     const rafIdRef = useRef<number>(0);
+    const pathname = usePathname();
+
+    // ─── SPA Route Change: Reset dedup + scroll milestones ───
+    useEffect(() => {
+        resetSignals();
+        scrollMilestonesRef.current.clear();
+        pageLeaveShownRef.current = false;
+    }, [pathname]);
 
     // ─── 1. Instant Click Ripple ───
     const handleGlobalClick = useCallback((e: MouseEvent) => {
@@ -104,6 +114,14 @@ export default function InteractiveEffects() {
                     // Set data attribute for CSS-driven reveals
                     document.documentElement.setAttribute('data-scroll-depth', ms.toString());
 
+                    // ── GA4 Signal: scroll_engagement at each milestone ──
+                    const pageType = window.location.pathname.includes('/checkout') ? 'checkout'
+                        : window.location.pathname.includes('/confirm') ? 'confirm'
+                        : window.location.pathname.includes('/contact') ? 'contact'
+                        : window.location.pathname.includes('/blog') ? 'blog'
+                        : 'product';
+                    trackScrollEngagement(ms, pageType);
+
                     // At 75%+ depth: reveal additional content (if exists)
                     if (ms >= 75) {
                         const revealSection = document.querySelector('[data-scroll-reveal]');
@@ -122,6 +140,9 @@ export default function InteractiveEffects() {
         if (e.clientY > 5) return;
         if (pageLeaveShownRef.current) return;
         pageLeaveShownRef.current = true;
+
+        // ── GA4 Signal: exit_intent shown ──
+        trackExitIntent('shown');
 
         // Show WhatsApp helper banner
         const existingCta = document.getElementById('cv-exit-cta');
@@ -161,6 +182,7 @@ export default function InteractiveEffects() {
         // Close handler
         const closeBtn = cta.querySelector('.cv-exit-close');
         closeBtn?.addEventListener('click', () => {
+            trackExitIntent('dismissed');
             cta.classList.remove('cv-exit-visible');
             setTimeout(() => cta.remove(), 300);
         }, { once: true });
@@ -288,11 +310,41 @@ export default function InteractiveEffects() {
         document.addEventListener('mouseout', handlePageLeave as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
+        // ── Navboost: Copy event + FAQ toggle listeners ──
+        const removeCopyListener = attachCopyListener();
+        const removeFaqListener = attachFaqToggleListener();
+
+        // ── GA4 Signal: WhatsApp exit-intent CTA click tracking ──
+        const handleWhatsappCta = (e: Event) => {
+            const target = e.target as HTMLElement;
+            if (target.closest?.('.cv-exit-btn')) {
+                trackExitIntent('clicked');
+                trackWhatsappClick('exit_intent');
+            }
+        };
+        document.addEventListener('click', handleWhatsappCta, { passive: true });
+
+        // ── Mobile exit-intent: visibilitychange (tab switch, app switch, lock screen) ──
+        // On mobile/tablet, mouseout never fires. visibilitychange is the universal fallback.
+        const handleVisibilityChange = () => {
+            if (document.visibilityState === 'hidden' && !pageLeaveShownRef.current) {
+                trackExitIntent('shown');
+                // Don't set pageLeaveShownRef — let mouseout CTA still work on desktop
+                // This is a silent signal-only fire for mobile devices
+            }
+        };
+        document.addEventListener('visibilitychange', handleVisibilityChange);
+
         return () => {
             document.removeEventListener('click', handleGlobalClick);
             window.removeEventListener('scroll', handleScroll);
             document.removeEventListener('mouseout', handlePageLeave as EventListener);
             document.removeEventListener('pointerdown', handlePointerDown as EventListener);
+            document.removeEventListener('click', handleWhatsappCta);
+            document.removeEventListener('visibilitychange', handleVisibilityChange);
+
+            removeCopyListener?.();
+            removeFaqListener?.();
 
             // Cleanup rAF
             if (rafIdRef.current) {

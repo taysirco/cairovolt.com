@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { trackWhatsappClick, trackPhoneClick } from '@/lib/ecommerce-signals';
 
 export default function Header() {
     const locale = useLocale();
@@ -78,7 +79,7 @@ export default function Header() {
                             <span className="flex items-center gap-1"><SvgIcon name="truck" className="w-3.5 h-3.5" /> {isRTL ? 'شحن سريع لجميع المحافظات' : 'Fast Shipping Nationwide'}</span>
                         </div>
                         <div className="flex items-center gap-4">
-                            <a href="tel:+201558245974" className="hover:underline" suppressHydrationWarning>
+                            <a href="tel:+201558245974" className="hover:underline" onClick={() => trackPhoneClick()} suppressHydrationWarning>
                                 <SvgIcon name="phone" className="w-3.5 h-3.5 inline-block" />{' '}
                                 <span suppressHydrationWarning>01558245974</span>
                             </a>
@@ -242,6 +243,7 @@ export default function Header() {
                             href="https://wa.me/201558245974"
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={() => trackWhatsappClick('header')}
                             className="hidden md:flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium rounded-xl transition-colors"
                             suppressHydrationWarning
                         >
@@ -419,6 +421,7 @@ export default function Header() {
                                     href="https://wa.me/201558245974"
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    onClick={() => trackWhatsappClick('header')}
                                     className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-green-500 text-white font-medium rounded-xl"
                                     suppressHydrationWarning
                                 >

@@ -12,6 +12,7 @@ import RelatedLinks from './content/RelatedLinks';
 import { CollectionOverviewBlock } from './content/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
 import { MarkdownRenderer } from './ui/MarkdownRenderer';
+import { trackWhatsappClick } from '@/lib/ecommerce-signals';
 
 const CategoryComparisonTable = dynamic(() => import('./content/ProductGuides').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
@@ -765,6 +766,7 @@ export default function CategoryTemplate({
                     </p>
                     <a
                         href="https://wa.me/201558245974"
+                        onClick={() => trackWhatsappClick('category')}
                         className="inline-block px-8 py-3 bg-white text-gray-900 font-bold rounded-full hover:bg-gray-100 transition-colors"
                     >
                         {locale === 'ar' ? 'تواصل معنا' : 'Contact Us'}

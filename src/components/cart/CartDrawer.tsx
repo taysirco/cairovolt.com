@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useTransition } from 'react';
+import { trackViewCart, trackRemoveFromCart } from '@/lib/ecommerce-signals';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
@@ -54,6 +55,22 @@ export default function CartDrawer({ locale }: { locale: string }) {
     const progress = Math.min((totalAmount / FREE_SHIPPING_THRESHOLD) * 100, 100);
     const amountLeft = FREE_SHIPPING_THRESHOLD - totalAmount;
     const isFreeShipping = totalAmount >= FREE_SHIPPING_THRESHOLD;
+
+    // ── GA4 Signal: view_cart when drawer opens ──
+    useEffect(() => {
+        if (isOpen && items.length > 0) {
+            trackViewCart(
+                items.map(item => ({
+                    item_id: item.productId,
+                    item_name: item.name,
+                    item_brand: item.brand,
+                    price: item.price,
+                    quantity: item.quantity,
+                })),
+                totalAmount
+            );
+        }
+    }, [isOpen]); // eslint-disable-line react-hooks/exhaustive-deps
 
     if (!isOpen) return null;
 
@@ -165,7 +182,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
 
                                 {/* Remove Button */}
                                 <button
-                                    onClick={() => startTransition(() => removeFromCart(item.productId))}
+                                    onClick={() => { trackRemoveFromCart({ item_id: item.productId, item_name: item.name, item_brand: item.brand, price: item.price, quantity: item.quantity }); startTransition(() => removeFromCart(item.productId)); }}
                                     className="text-gray-400 hover:text-red-500 transition-colors self-start"
                                 >
                                     ✕

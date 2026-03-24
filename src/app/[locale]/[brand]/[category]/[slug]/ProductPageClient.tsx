@@ -1,5 +1,6 @@
 'use client';
 import { flushSync } from 'react-dom';
+import { trackViewItem, trackAddToCart, trackImageGallerySwipe, trackQuantityChange, trackWhatsappClick, type SignalItem } from '@/lib/ecommerce-signals';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -153,6 +154,18 @@ export default function ProductPageClient({ product, relatedProducts = [], local
         return () => observer.disconnect();
     }, []);
 
+    // ── GA4 Signal: view_item ──
+    useEffect(() => {
+        trackViewItem({
+            item_id: product.id,
+            item_name: product.translations?.[locale as 'ar' | 'en']?.name || product.slug,
+            item_brand: product.brand,
+            item_category: product.categorySlug,
+            price: product.price,
+            quantity: 1,
+        });
+    }, [product.id, product.slug, product.brand, product.categorySlug, product.price, product.translations, locale]);
+
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
@@ -171,6 +184,16 @@ export default function ProductPageClient({ product, relatedProducts = [], local
             setShowAddedFeedback(true);
         });
         setTimeout(() => setShowAddedFeedback(false), 1500);
+
+        // ── GA4 Signal: add_to_cart ──
+        trackAddToCart({
+            item_id: product.id,
+            item_name: productName,
+            item_brand: product.brand,
+            item_category: product.categorySlug,
+            price: product.price,
+            quantity: quantity,
+        });
 
         // Cart update happens in background via useTransition in CartContext
         addToCart({
@@ -351,7 +374,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 {images.map((img, idx) => (
                                     <button
                                         key={idx}
-                                        onClick={() => setSelectedImage(idx)}
+                                        onClick={() => { setSelectedImage(idx); trackImageGallerySwipe(product.id, idx); }}
                                         className={`relative w-full aspect-square rounded-xl border-2 overflow-hidden transition-all bg-white ${selectedImage === idx
                                             ? brand === 'anker'
                                                 ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
@@ -497,14 +520,14 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 <div className="flex flex-col sm:flex-row flex-wrap gap-3">
                                     <div className="flex items-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-gray-900">
                                         <button
-                                            onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                                            onClick={() => { const nq = Math.max(1, quantity - 1); setQuantity(nq); trackQuantityChange(product.id, nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
                                         >
                                             −
                                         </button>
                                         <span className="px-6 py-3 font-bold text-lg min-w-[3rem] text-center">{quantity}</span>
                                         <button
-                                            onClick={() => setQuantity(quantity + 1)}
+                                            onClick={() => { const nq = quantity + 1; setQuantity(nq); trackQuantityChange(product.id, nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
                                         >
                                             +
@@ -583,6 +606,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         )}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        onClick={() => trackWhatsappClick('product')}
                                         className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-bold rounded-xl transition-all shadow-lg shadow-green-500/30"
                                     >
                                         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

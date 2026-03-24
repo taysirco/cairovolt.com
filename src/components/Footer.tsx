@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
+import { trackWhatsappClick } from '@/lib/ecommerce-signals';
 
 export default function Footer() {
     const locale = useLocale();
@@ -42,6 +43,7 @@ export default function Footer() {
                                 href="https://wa.me/201558245974"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                onClick={() => trackWhatsappClick('contact')}
                                 className="flex items-center gap-1.5 text-green-600 hover:text-green-700 transition-colors font-medium"
                                 suppressHydrationWarning
                             >

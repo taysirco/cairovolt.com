@@ -6,6 +6,7 @@ import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { trackBeginCheckout, trackPurchase } from '@/lib/ecommerce-signals';
 import type { Metadata } from 'next';
 
 // Metadata must be exported from a server layout/page — this is handled by the
@@ -130,6 +131,22 @@ export default function CheckoutPage() {
         }
     }, [cartItems, loading, router, searchParams]);
 
+    // ── GA4 Signal: begin_checkout ──
+    useEffect(() => {
+        if (cartItems.length > 0) {
+            trackBeginCheckout(
+                cartItems.map(item => ({
+                    item_id: item.productId,
+                    item_name: item.name,
+                    item_brand: item.brand,
+                    price: item.price,
+                    quantity: item.quantity,
+                })),
+                totalAmount
+            );
+        }
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
     // Handle phone input - convert Arabic to English
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const converted = convertArabicToEnglish(e.target.value);
@@ -209,6 +226,20 @@ export default function CheckoutPage() {
 
             // Store in sessionStorage for confirm page
             sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
+
+            // ── GA4 Signal: purchase (MOST CRITICAL SIGNAL) ──
+            trackPurchase(
+                confirmData.orderId,
+                cartItems.map(item => ({
+                    item_id: item.productId,
+                    item_name: item.name,
+                    item_brand: item.brand,
+                    price: item.price,
+                    quantity: item.quantity,
+                })),
+                confirmData.total,
+                confirmData.shipping
+            );
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
             // Use next-intl router to handle locale prefix automatically

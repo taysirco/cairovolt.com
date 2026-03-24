@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/ecommerce-signals';
 
 interface OrderItem {
     name: string;
@@ -88,6 +89,23 @@ function ConfirmContent() {
         }
         setLoading(false);
     }, [searchParams]);
+
+    // ── GA4 Signal: purchase confirmation (backup — ensures signal fires even if checkout redirect was fast) ──
+    useEffect(() => {
+        if (orderData) {
+            trackPurchase(
+                orderData.orderId,
+                orderData.items.map(item => ({
+                    item_id: item.name, // fallback since confirm page doesn't have productId
+                    item_name: item.name,
+                    price: item.price,
+                    quantity: item.quantity,
+                })),
+                orderData.total,
+                orderData.shipping
+            );
+        }
+    }, [orderData]);
 
     if (loading) {
         return (
@@ -303,7 +321,7 @@ function ConfirmContent() {
                         متابعة التسوق
                     </Link>
                     <button
-                        onClick={() => window.print()}
+                        onClick={() => { trackPrintInvoice(orderData.orderId); window.print(); }}
                         className="px-8 py-3 bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 font-bold rounded-xl transition-colors"
                     >
                         <SvgIcon name="printer" className="w-5 h-5 inline-block" /> طباعة الفاتورة
@@ -317,6 +335,7 @@ function ConfirmContent() {
                         href={`https://wa.me/201558245974?text=استفسار عن الطلب رقم ${orderData.orderId}`}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackWhatsappClick('confirm')}
                         className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 font-medium"
                     >
                         <SvgIcon name="chat" className="w-5 h-5 inline-block" /> تواصل معنا عبر واتساب

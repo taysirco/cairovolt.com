@@ -3,6 +3,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { trackWhatsappClick, trackPhoneClick, trackEmailClick } from '@/lib/ecommerce-signals';
 
 export default function ContactPageClient() {
     const locale = useLocale();
@@ -41,6 +42,7 @@ export default function ContactPageClient() {
                         href="https://wa.me/201558245974"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackWhatsappClick('contact')}
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-green-500 flex items-center justify-center text-white text-3xl">
@@ -60,6 +62,7 @@ export default function ContactPageClient() {
                     {/* Phone */}
                     <a
                         href="tel:+201558245974"
+                        onClick={() => trackPhoneClick()}
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-blue-500 flex items-center justify-center text-white text-3xl">
@@ -79,6 +82,7 @@ export default function ContactPageClient() {
                     {/* Email */}
                     <a
                         href="mailto:support@cairovolt.com"
+                        onClick={() => trackEmailClick()}
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
                         <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-purple-500 flex items-center justify-center text-white text-3xl">
@@ -145,6 +149,7 @@ export default function ContactPageClient() {
                         href="https://wa.me/201558245974"
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackWhatsappClick('contact')}
                         className="inline-block px-8 py-3 bg-white text-green-600 font-bold rounded-full hover:bg-gray-100 transition-colors"
                     >
                         {isRTL ? 'تواصل عبر واتساب' : 'Chat on WhatsApp'}
