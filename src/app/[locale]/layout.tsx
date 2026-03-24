@@ -100,7 +100,7 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
-        {/* PWA Manifest — enables WebAPK and App Indexing for mobile search boost */}
+        {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
         {/* OpenSearch — registers CairoVolt as a search engine in Chrome/Safari omnibox */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />

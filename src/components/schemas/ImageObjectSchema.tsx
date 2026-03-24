@@ -28,13 +28,13 @@ interface ImageObjectSchemaProps {
  * ImageObject schemas for product images.
  *
  * Emits one <script type="application/ld+json"> per product image (max 8).
- * Key structured data signals:
+ * Structured data properties:
  *   • subjectOf → Product (name, price, brand, url) — links image to product context
  *   • representativeOfPage = true on primary image
  *   • digitalSourceType = digitalCapture (not AI-generated)
  *   • contentLocation with GPS coordinates (New Damietta lab)
- *   • width / height for dimension signals
- *   • thumbnail for quick visual matching
+ *   • width / height for accurate dimensions
+ *   • thumbnail for visual matching
  */
 export function ImageObjectSchema({
     images,
