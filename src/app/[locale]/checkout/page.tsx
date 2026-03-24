@@ -131,7 +131,7 @@ export default function CheckoutPage() {
         }
     }, [cartItems, loading, router, searchParams]);
 
-    // ── GA4 Signal: begin_checkout ──
+    // Analytics: log checkout start
     useEffect(() => {
         if (cartItems.length > 0) {
             trackBeginCheckout(
@@ -227,7 +227,7 @@ export default function CheckoutPage() {
             // Store in sessionStorage for confirm page
             sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
 
-            // ── GA4 Signal: purchase (MOST CRITICAL SIGNAL) ──
+            // Analytics: log completed purchase
             trackPurchase(
                 confirmData.orderId,
                 cartItems.map(item => ({

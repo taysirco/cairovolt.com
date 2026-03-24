@@ -90,7 +90,7 @@ function ConfirmContent() {
         setLoading(false);
     }, [searchParams]);
 
-    // ── GA4 Signal: purchase confirmation (backup — ensures signal fires even if checkout redirect was fast) ──
+    // Analytics: log order on confirmation page
     useEffect(() => {
         if (orderData) {
             trackPurchase(

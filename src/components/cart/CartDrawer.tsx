@@ -56,7 +56,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
     const amountLeft = FREE_SHIPPING_THRESHOLD - totalAmount;
     const isFreeShipping = totalAmount >= FREE_SHIPPING_THRESHOLD;
 
-    // ── GA4 Signal: view_cart when drawer opens ──
+    // Log cart view for analytics
     useEffect(() => {
         if (isOpen && items.length > 0) {
             trackViewCart(

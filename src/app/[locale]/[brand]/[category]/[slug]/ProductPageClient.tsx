@@ -154,7 +154,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
         return () => observer.disconnect();
     }, []);
 
-    // ── GA4 Signal: view_item ──
+    // Analytics: log product view
     useEffect(() => {
         trackViewItem({
             item_id: product.id,
@@ -185,7 +185,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
         });
         setTimeout(() => setShowAddedFeedback(false), 1500);
 
-        // ── GA4 Signal: add_to_cart ──
+        // Analytics: log add to cart
         trackAddToCart({
             item_id: product.id,
             item_name: productName,
