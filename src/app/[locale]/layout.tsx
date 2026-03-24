@@ -102,7 +102,7 @@ export default async function RootLayout({
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
-        {/* OpenSearch — registers CairoVolt as a search engine in Chrome/Safari omnibox */}
+        {/* OpenSearch */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
         <script

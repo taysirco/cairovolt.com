@@ -9,20 +9,12 @@ interface DeliveryStatusProps {
 
 /**
  * DeliveryStatus — Real-time Delivery Status Server Component
- * 
- * Uses `connection()` to ensure this component always renders with fresh data.
- * While the rest of the product page is cached (revalidate=3600), this section
- * shows up-to-date delivery information:
- * - Current `dateModified` timestamp
- * - Live city names and logistics data
- * - Updated `priceValidUntil` for structured data
- * - Stock health status and order velocity
- * 
- * Provides users with real-time confidence in delivery operations
- * 
+ *
+ * Uses `connection()` to opt out of caching so delivery info stays current.
+ * Shows live city names, stock status, and order data.
  */
 export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: DeliveryStatusProps) {
-    // Force dynamic rendering — bypasses ALL caching for this component
+    // Dynamic rendering for real-time data
     await connection();
 
     const pulse = getLiveFulfillmentData(sku, locale);
@@ -33,15 +25,15 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
     const pingColor = brandColor === 'blue' ? 'bg-blue-400' : 'bg-red-400';
     const borderColor = brandColor === 'blue' ? 'border-blue-200 dark:border-blue-900/30' : 'border-red-200 dark:border-red-900/30';
 
-    // Dynamic timestamps — refresh every request
-    const mutationTime = pulse.timestamp;
+    // Timestamps
+    const lastUpdated = pulse.timestamp;
     const priceValidUntil = new Date(Date.now() + 86400000).toISOString();
 
-    // Structured data supplement — WebPage dateModified for accurate timestamps
+    // WebPage schema
     const webPageSchema = {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        dateModified: mutationTime,
+        dateModified: lastUpdated,
         speakable: {
             '@type': 'SpeakableSpecification',
             cssSelector: ['.logistics-pulse-text'],
@@ -57,7 +49,7 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
 
     return (
         <>
-            {/* Structured data — WebPage dateModified */}
+            {/* WebPage schema */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
@@ -141,8 +133,8 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
                 </div>
 
                 {/* Last updated timestamp */}
-                <span className="sr-only" data-mutation-time={mutationTime}>
-                    Last data refresh: {mutationTime}
+                <span className="sr-only" data-updated-at={lastUpdated}>
+                    Last data refresh: {lastUpdated}
                 </span>
             </div>
         </>

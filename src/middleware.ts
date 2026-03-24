@@ -8,10 +8,10 @@ const intlMiddleware = createMiddleware(routing);
 // Block known scraper bots
 const BLOCKED_BOT_PATTERN = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
 
-// Known search engine crawlers
+// Search engine bots
 const SEARCH_BOT_PATTERN = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
 
-// AI crawlers
+// AI bots
 const AI_CRAWLER_PATTERN = /gptbot|chatgpt|claude|anthropic|perplexity|cohere|google-extended/i;
 
 // Junk query params to clean
@@ -83,7 +83,7 @@ export default function middleware(request: NextRequest) {
         return new NextResponse('Access Denied.', { status: 403 });
     }
 
-    // ── Search bot handling ──
+    // ── Bot routing ──
     const isSearchBot = SEARCH_BOT_PATTERN.test(userAgent);
 
     if (isSearchBot) {
