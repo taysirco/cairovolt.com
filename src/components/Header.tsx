@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { trackWhatsappClick, trackPhoneClick } from '@/lib/ecommerce-signals';
+import { trackWhatsappClick, trackPhoneClick } from '@/lib/analytics';
 
 export default function Header() {
     const locale = useLocale();

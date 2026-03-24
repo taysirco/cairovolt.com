@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useTransition } from 'react';
-import { trackViewCart, trackRemoveFromCart } from '@/lib/ecommerce-signals';
+import { trackViewCart, trackRemoveFromCart } from '@/lib/analytics';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';

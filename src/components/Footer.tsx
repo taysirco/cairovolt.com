@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
-import { trackWhatsappClick } from '@/lib/ecommerce-signals';
+import { trackWhatsappClick } from '@/lib/analytics';
 
 export default function Footer() {
     const locale = useLocale();

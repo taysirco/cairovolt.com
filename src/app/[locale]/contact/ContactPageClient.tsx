@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { trackWhatsappClick, trackPhoneClick, trackEmailClick } from '@/lib/ecommerce-signals';
+import { trackWhatsappClick, trackPhoneClick, trackEmailClick } from '@/lib/analytics';
 
 export default function ContactPageClient() {
     const locale = useLocale();

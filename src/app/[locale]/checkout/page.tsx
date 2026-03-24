@@ -6,7 +6,7 @@ import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { trackBeginCheckout, trackPurchase } from '@/lib/ecommerce-signals';
+import { trackBeginCheckout, trackPurchase } from '@/lib/analytics';
 import type { Metadata } from 'next';
 
 // Metadata must be exported from a server layout/page — this is handled by the

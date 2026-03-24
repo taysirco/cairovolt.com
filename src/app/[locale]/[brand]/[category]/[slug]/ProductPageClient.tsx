@@ -1,6 +1,6 @@
 'use client';
 import { flushSync } from 'react-dom';
-import { trackViewItem, trackAddToCart, trackImageGallerySwipe, trackQuantityChange, trackWhatsappClick, type SignalItem } from '@/lib/ecommerce-signals';
+import { trackViewItem, trackAddToCart, trackImageGallerySwipe, trackQuantityChange, trackWhatsappClick, type AnalyticsItem } from '@/lib/analytics';
 
 import Link from 'next/link';
 import Image from 'next/image';

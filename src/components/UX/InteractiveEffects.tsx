@@ -2,7 +2,7 @@
 
 import { useEffect, useCallback, useRef } from 'react';
 import { usePathname } from 'next/navigation';
-import { attachCopyListener, attachFaqToggleListener, trackScrollEngagement, trackExitIntent, trackWhatsappClick, resetSignals } from '@/lib/ecommerce-signals';
+import { attachCopyListener, attachFaqToggleListener, trackScrollDepth, trackExitIntent, trackWhatsappClick, resetTracking } from '@/lib/analytics';
 
 /**
  * InteractiveEffects — UX Micro-Interaction Layer
@@ -32,9 +32,9 @@ export default function InteractiveEffects() {
     const rafIdRef = useRef<number>(0);
     const pathname = usePathname();
 
-    // ─── SPA Route Change: Reset dedup + scroll milestones ───
+    // Reset tracking state on route change
     useEffect(() => {
-        resetSignals();
+        resetTracking();
         scrollMilestonesRef.current.clear();
         pageLeaveShownRef.current = false;
     }, [pathname]);
@@ -120,7 +120,7 @@ export default function InteractiveEffects() {
                         : window.location.pathname.includes('/contact') ? 'contact'
                         : window.location.pathname.includes('/blog') ? 'blog'
                         : 'product';
-                    trackScrollEngagement(ms, pageType);
+                    trackScrollDepth(ms, pageType);
 
                     // At 75%+ depth: reveal additional content (if exists)
                     if (ms >= 75) {
@@ -141,7 +141,7 @@ export default function InteractiveEffects() {
         if (pageLeaveShownRef.current) return;
         pageLeaveShownRef.current = true;
 
-        // ── GA4 Signal: exit_intent shown ──
+        // Track exit overlay shown
         trackExitIntent('shown');
 
         // Show WhatsApp helper banner
@@ -310,11 +310,11 @@ export default function InteractiveEffects() {
         document.addEventListener('mouseout', handlePageLeave as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
-        // ── Navboost: Copy event + FAQ toggle listeners ──
+        // Clipboard and FAQ analytics
         const removeCopyListener = attachCopyListener();
         const removeFaqListener = attachFaqToggleListener();
 
-        // ── GA4 Signal: WhatsApp exit-intent CTA click tracking ──
+        // Exit-intent CTA click tracking
         const handleWhatsappCta = (e: Event) => {
             const target = e.target as HTMLElement;
             if (target.closest?.('.cv-exit-btn')) {
@@ -324,8 +324,7 @@ export default function InteractiveEffects() {
         };
         document.addEventListener('click', handleWhatsappCta, { passive: true });
 
-        // ── Mobile exit-intent: visibilitychange (tab switch, app switch, lock screen) ──
-        // On mobile/tablet, mouseout never fires. visibilitychange is the universal fallback.
+        // Mobile exit-intent: fires when user switches apps/tabs
         const handleVisibilityChange = () => {
             if (document.visibilityState === 'hidden' && !pageLeaveShownRef.current) {
                 trackExitIntent('shown');

@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/ecommerce-signals';
+import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/analytics';
 
 interface OrderItem {
     name: string;
