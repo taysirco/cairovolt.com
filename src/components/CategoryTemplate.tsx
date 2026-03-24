@@ -257,20 +257,20 @@ export default function CategoryTemplate({
                     {/* Quality badges */}
                     {content.qualityBadges && (
                         <div className="flex flex-wrap items-center gap-2 md:gap-4 mt-6">
-                            {content.qualityBadges.map((signal, idx) => (
+                            {content.qualityBadges.map((badge, idx) => (
                                 <div key={idx} className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
                                     <span className="text-yellow-300">
-                                        {signal.type === 'originality' && (
+                                        {badge.type === 'originality' && (
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                                         )}
-                                        {signal.type === 'warranty' && (
+                                        {badge.type === 'warranty' && (
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
                                         )}
-                                        {signal.type === 'expert_verified' && (
+                                        {badge.type === 'expert_verified' && (
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11l2 2 4-4" /></svg>
                                         )}
                                     </span>
-                                    <span className="text-xs md:text-sm font-medium text-white">{signal.text}</span>
+                                    <span className="text-xs md:text-sm font-medium text-white">{badge.text}</span>
                                 </div>
                             ))}
                         </div>

@@ -13,9 +13,8 @@ import { initCopyTracking, initFaqTracking, trackScrollDepth, trackOverlayAction
  *    - Ripple effect on interactive elements
  *    - Visual response within 16ms
  *
- * 2. Scroll Progress Tracking
- *    - Tracks 25/50/75/100% milestones
- *    - At 75%: reveals additional content sections
+ * 2. Scroll Progress
+ *    - Tracks milestones and reveals additional content
  *
  * 3. Promotional Overlay
  *    - Shows WhatsApp CTA for visitor engagement
@@ -25,15 +24,15 @@ import { initCopyTracking, initFaqTracking, trackScrollDepth, trackOverlayAction
  */
 export default function InteractiveEffects() {
     const scrollMilestonesRef = useRef<Set<number>>(new Set());
-    const pageLeaveShownRef = useRef(false);
+    const promoShownRef = useRef(false);
     const rafIdRef = useRef<number>(0);
     const pathname = usePathname();
 
-    // Reset tracking state on route change
+    // Reset state on route change
     useEffect(() => {
         resetTracking();
         scrollMilestonesRef.current.clear();
-        pageLeaveShownRef.current = false;
+        promoShownRef.current = false;
     }, [pathname]);
 
     // ─── 1. Instant Click Ripple ───
@@ -89,7 +88,7 @@ export default function InteractiveEffects() {
         }, { once: true });
     }, []);
 
-    // ─── 2. Scroll Progress Tracking ───
+    // ─── 2. Scroll Progress ───
     const handleScroll = useCallback(() => {
         // Throttle with rAF (1 check per frame, not per scroll event)
         if (rafIdRef.current) return;
@@ -132,30 +131,29 @@ export default function InteractiveEffects() {
     }, []);
 
     // ─── 3. Promotional Overlay ───
-    const handlePageLeave = useCallback((e: MouseEvent) => {
+    const handlePromoOverlay = useCallback((e: MouseEvent) => {
         // Only trigger when mouse moves above the viewport
         if (e.clientY > 5) return;
-        if (pageLeaveShownRef.current) return;
-        pageLeaveShownRef.current = true;
+        if (promoShownRef.current) return;
+        promoShownRef.current = true;
 
-        // Track exit overlay shown
         trackOverlayAction('shown');
 
         // Show WhatsApp helper banner
-        const existingCta = document.getElementById('cv-exit-cta');
+        const existingCta = document.getElementById('cv-promo-cta');
         if (existingCta) return;
 
         const isArabic = document.documentElement.dir === 'rtl' ||
             document.documentElement.lang?.startsWith('ar');
 
         const cta = document.createElement('div');
-        cta.id = 'cv-exit-cta';
+        cta.id = 'cv-promo-cta';
         cta.setAttribute('role', 'complementary');
         cta.setAttribute('aria-label', isArabic ? 'عرض خاص' : 'Special offer');
         cta.innerHTML = `
-            <div class="cv-exit-inner">
-                <button class="cv-exit-close" aria-label="${isArabic ? 'إغلاق' : 'Close'}">&times;</button>
-                <p class="cv-exit-text">
+            <div class="cv-promo-inner">
+                <button class="cv-promo-close" aria-label="${isArabic ? 'إغلاق' : 'Close'}">&times;</button>
+                <p class="cv-promo-text">
                     ${isArabic
                 ? '🔋 لسه بتدور؟ كلّمنا على واتساب — هنساعدك تختار الأنسب!'
                 : '🔋 Still browsing? Chat with us on WhatsApp — we\'ll help you choose!'}
@@ -163,7 +161,7 @@ export default function InteractiveEffects() {
                 <a href="https://wa.me/201558245974"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="cv-exit-btn">
+                   class="cv-promo-btn">
                     ${isArabic ? '💬 واتساب' : '💬 WhatsApp'}
                 </a>
             </div>
@@ -173,21 +171,21 @@ export default function InteractiveEffects() {
 
         // Animate in
         requestAnimationFrame(() => {
-            cta.classList.add('cv-exit-visible');
+            cta.classList.add('cv-promo-visible');
         });
 
         // Close handler
-        const closeBtn = cta.querySelector('.cv-exit-close');
+        const closeBtn = cta.querySelector('.cv-promo-close');
         closeBtn?.addEventListener('click', () => {
             trackOverlayAction('dismissed');
-            cta.classList.remove('cv-exit-visible');
+            cta.classList.remove('cv-promo-visible');
             setTimeout(() => cta.remove(), 300);
         }, { once: true });
 
         // Auto-dismiss after 8 seconds
         setTimeout(() => {
             if (cta.parentNode) {
-                cta.classList.remove('cv-exit-visible');
+                cta.classList.remove('cv-promo-visible');
                 setTimeout(() => cta.remove(), 300);
             }
         }, 8000);
@@ -226,8 +224,8 @@ export default function InteractiveEffects() {
                     }
                 }
 
-                /* WhatsApp CTA — uses CSS logical properties for RTL safety */
-                #cv-exit-cta {
+                /* WhatsApp promo banner */
+                #cv-promo-cta {
                     position: fixed;
                     bottom: 24px;
                     inset-inline-start: 24px;
@@ -237,12 +235,12 @@ export default function InteractiveEffects() {
                     transition: opacity 0.3s ease, transform 0.3s ease;
                     pointer-events: none;
                 }
-                #cv-exit-cta.cv-exit-visible {
+                #cv-promo-cta.cv-promo-visible {
                     opacity: 1;
                     transform: translateY(0);
                     pointer-events: auto;
                 }
-                .cv-exit-inner {
+                .cv-promo-inner {
                     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
                     color: white;
                     padding: 20px 24px;
@@ -252,7 +250,7 @@ export default function InteractiveEffects() {
                     position: relative;
                     border: 1px solid rgba(255,255,255,0.1);
                 }
-                .cv-exit-close {
+                .cv-promo-close {
                     position: absolute;
                     top: 8px;
                     inset-inline-end: 12px;
@@ -264,13 +262,13 @@ export default function InteractiveEffects() {
                     padding: 4px 8px;
                     line-height: 1;
                 }
-                .cv-exit-close:hover { color: white; }
-                .cv-exit-text {
+                .cv-promo-close:hover { color: white; }
+                .cv-promo-text {
                     margin: 0 0 12px;
                     font-size: 14px;
                     line-height: 1.6;
                 }
-                .cv-exit-btn {
+                .cv-promo-btn {
                     display: inline-block;
                     background: #25d366;
                     color: white;
@@ -281,7 +279,7 @@ export default function InteractiveEffects() {
                     font-size: 14px;
                     transition: background 0.2s;
                 }
-                .cv-exit-btn:hover { background: #1ebb57; }
+                .cv-promo-btn:hover { background: #1ebb57; }
 
                 /* Optimistic cart press */
                 .cv-pressing {
@@ -304,17 +302,17 @@ export default function InteractiveEffects() {
         // Attach all listeners
         document.addEventListener('click', handleGlobalClick, { passive: true });
         window.addEventListener('scroll', handleScroll, { passive: true });
-        document.addEventListener('mouseout', handlePageLeave as EventListener, { passive: true });
+        document.addEventListener('mouseout', handlePromoOverlay as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
         // Copy and section-expand analytics
         const removeCopyListener = initCopyTracking();
         const removeFaqListener = initFaqTracking();
 
-        // Promotional overlay click tracking
+        // Promo overlay click
         const handleWhatsappCta = (e: Event) => {
             const target = e.target as HTMLElement;
-            if (target.closest?.('.cv-exit-btn')) {
+            if (target.closest?.('.cv-promo-btn')) {
                 trackOverlayAction('clicked');
                 trackWhatsappClick('promo');
             }
@@ -323,7 +321,7 @@ export default function InteractiveEffects() {
 
         // Page visibility change tracking
         const handleVisibilityChange = () => {
-            if (document.visibilityState === 'hidden' && !pageLeaveShownRef.current) {
+            if (document.visibilityState === 'hidden' && !promoShownRef.current) {
                 trackOverlayAction('shown');
             }
         };
@@ -332,7 +330,7 @@ export default function InteractiveEffects() {
         return () => {
             document.removeEventListener('click', handleGlobalClick);
             window.removeEventListener('scroll', handleScroll);
-            document.removeEventListener('mouseout', handlePageLeave as EventListener);
+            document.removeEventListener('mouseout', handlePromoOverlay as EventListener);
             document.removeEventListener('pointerdown', handlePointerDown as EventListener);
             document.removeEventListener('click', handleWhatsappCta);
             document.removeEventListener('visibilitychange', handleVisibilityChange);
@@ -340,12 +338,11 @@ export default function InteractiveEffects() {
             removeCopyListener?.();
             removeFaqListener?.();
 
-            // Cleanup rAF
             if (rafIdRef.current) {
                 cancelAnimationFrame(rafIdRef.current);
             }
         };
-    }, [handleGlobalClick, handleScroll, handlePageLeave, handlePointerDown]);
+    }, [handleGlobalClick, handleScroll, handlePromoOverlay, handlePointerDown]);
 
     // Silent component — all work is done via event listeners
     return null;
