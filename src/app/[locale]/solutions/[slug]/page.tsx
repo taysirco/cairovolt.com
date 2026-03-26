@@ -39,9 +39,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'article',
             images: [{
-                url: '/logo.png',
-                width: 200,
-                height: 60,
+                url: '/og-cover.png',
+                width: 1200,
+                height: 630,
                 alt: isArabic ? 'كايرو فولت - حلول الشحن والطاقة' : 'CairoVolt - Charging & Power Solutions',
             }],
         },

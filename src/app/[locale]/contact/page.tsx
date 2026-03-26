@@ -40,9 +40,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
             images: [{
-                url: '/logo.png',
-                width: 200,
-                height: 60,
+                url: '/og-cover.png',
+                width: 1200,
+                height: 630,
                 alt: isArabic ? 'كايرو فولت - اتصل بنا' : 'CairoVolt - Contact Us',
             }],
         },

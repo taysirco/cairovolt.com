@@ -13,25 +13,32 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
     const t = await getTranslations({ locale, namespace: 'About' });
+    const canonicalUrl = locale === 'ar'
+        ? 'https://cairovolt.com/about'
+        : 'https://cairovolt.com/en/about';
     return {
-        title: t('metaTitle'),
+        title: { absolute: t('metaTitle') },
         description: t('metaDescription'),
         alternates: {
-            canonical: locale === 'ar'
-                ? 'https://cairovolt.com/about'
-                : 'https://cairovolt.com/en/about',
+            canonical: canonicalUrl,
             languages: {
                 'ar': 'https://cairovolt.com/about',
                 'en': 'https://cairovolt.com/en/about',
                 'x-default': 'https://cairovolt.com/about',
             },
         },
+        robots: {
+            index: true,
+            follow: true,
+        },
         openGraph: {
             title: t('metaTitle'),
             description: t('metaDescription'),
+            url: canonicalUrl,
             locale: locale === 'ar' ? 'ar_EG' : 'en_US',
             type: 'website',
             siteName: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'Cairo Volt - Mobile Accessories' }],
         },
         other: {
             'geo.region': 'EG',

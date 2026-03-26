@@ -62,10 +62,10 @@ export const metadata: Metadata = {
     siteName: 'Cairo Volt',
     images: [
       {
-        url: '/logo.png',
-        width: 200,
-        height: 60,
-        alt: 'Cairo Volt - Mobile Accessories Egypt',
+        url: '/og-cover.png',
+        width: 1200,
+        height: 630,
+        alt: 'Cairo Volt - Premium Mobile Accessories in Egypt',
       },
     ],
   },
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Cairo Volt - Premium Mobile Accessories in Egypt',
     description: 'Shop original Anker & Joyroom accessories with official warranty. Power banks, chargers, earbuds, cables.',
-    images: ['/logo.png'],
+    images: ['/og-cover.png'],
   },
 };
 

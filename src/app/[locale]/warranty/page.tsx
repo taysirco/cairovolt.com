@@ -13,6 +13,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const t = await getTranslations({ locale, namespace: 'Warranty' });
     const title = t('metaTitle');
     const description = t('metaDescription');
+    const canonicalUrl = locale === 'ar'
+        ? 'https://cairovolt.com/warranty'
+        : 'https://cairovolt.com/en/warranty';
     return {
         title: { absolute: title },
         description,
@@ -33,9 +36,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         openGraph: {
             title,
             description,
+            url: canonicalUrl,
             locale: locale === 'ar' ? 'ar_EG' : 'en_US',
             type: 'website',
             siteName: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'Cairo Volt - Mobile Accessories' }],
         },
         other: {
             'geo.region': 'EG',

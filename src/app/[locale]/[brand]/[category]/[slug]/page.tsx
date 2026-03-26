@@ -214,7 +214,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 product.images[0].url.startsWith('http')
                     ? product.images[0].url
                     : `https://cairovolt.com${product.images[0].url}`
-            ] : ['https://cairovolt.com/logo.png'],
+            ] : ['https://cairovolt.com/og-cover.png'],
             creator: '@cairovolt',
             site: '@cairovolt',
         },
