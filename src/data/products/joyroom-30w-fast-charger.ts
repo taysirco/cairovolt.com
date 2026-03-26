@@ -1,0 +1,181 @@
+// Product: joyroom-30w-fast-charger
+
+export const joyroom_30w_fast_charger = {
+        slug: "joyroom-30w-fast-charger",
+        sku: "JR-TC30W",
+        brand: "Joyroom",
+        categorySlug: "wall-chargers",
+        gtin: "6956116750053",
+        gtin13: "6956116750053",
+        mpn: "JR-TCF30",
+        price: 280,
+        originalPrice: 420,
+        stock: 80,
+        featured: true,
+        status: "active",
+        images: [
+            { id: "img_1", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-1.webp", alt: "Joyroom 30W PD+QC Fast Charger Egypt", order: 0, isPrimary: true },
+            { id: "img_2", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 30 واط اصلي مصر", order: 1, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 30W Charger iPhone 17 Samsung S26", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-4.webp", alt: "شاحن 30 واط PD QC 3.0 - توصيل القاهرة", order: 3, isPrimary: false },
+            { id: "img_5", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 30W USB-C Wall Charger", order: 4, isPrimary: false },
+            { id: "img_6", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم سريع للايفون والاندرويد", order: 5, isPrimary: false },
+            { id: "img_7", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 30W Charger Best Price Egypt 2026", order: 6, isPrimary: false }
+        ],
+        translations: {
+            en: {
+                name: "Joyroom 30W PD+QC Charger | iPhone 17 MAX Speed | 0→50% in 20 Min | 36-Month Warranty",
+                shortDescription: "⚡ 30W MAX iPhone 17 Speed | 📱 0→50% in 20 Min | 🔄 Dual PD 3.0 + QC 3.0 | 📱 Samsung S26 Super Fast | ✅ CE/FCC Certified | 🏆 36-Month Warranty",
+                description: `
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
+    <ul class="list-none space-y-1">
+        <li>⚡ <strong>30W MAX:</strong> iPhone 17's absolute maximum charging speed.</li>
+        <li>📱 <strong>20 Minutes:</strong> iPhone 17 from 0→50% in just 20 minutes.</li>
+        <li>🔄 <strong>Dual Protocol:</strong> PD 3.0 (Apple) + QC 3.0 (Qualcomm) = charges everything.</li>
+        <li>🏆 <strong>36-Month Warranty:</strong> 3 full years of coverage.</li>
+    </ul>
+</div>
+
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "This is THE charger for iPhone 17 owners. Apple caps iPhone 17 at 30W — this charger delivers exactly that. I measured 0→50% in 19 minutes and 42 seconds with a USB-C power meter. That's the fastest possible iPhone charge. But what makes this special is the dual PD+QC protocol — it also fast-charges Samsung, Xiaomi, OnePlus, and Pixel at full speed. In our office, one charger serves 6 different phone brands. The intelligent protocol detection switches automatically. At 280 EGP with a 36-month warranty, this is the last charger you'll need to buy for 3 years."
+        <br>
+        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+    </p>
+</div>
+
+<div class="product-details">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">30W: iPhone 17's Absolute Maximum</h2>
+        <p class="text-gray-700">Apple designed iPhone 17 to accept a maximum of <strong>30W wired charging</strong>. A 20W charger leaves 33% speed on the table. A 25W charger leaves 17%. This <strong>30W charger delivers 100% of iPhone 17's maximum speed</strong>. Result: <strong>0→50% in 20 minutes</strong>. That's the fastest you can possibly charge an iPhone 17 with any charger at any price.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual Protocol: PD + QC = Everything</h2>
+        <p class="text-gray-700"><strong>Power Delivery 3.0</strong> charges Apple and modern Samsung. <strong>Quick Charge 3.0</strong> charges Qualcomm-based Android phones (Xiaomi, OnePlus, older Samsung). Most chargers support only one protocol. This supports both. The <strong>intelligent chip detects your device</strong> and selects the optimal protocol automatically. One charger for every phone in the house.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">CE/FCC Certified: Internationally Tested Safety</h2>
+        <p class="text-gray-700">Not just MultiProtect — this charger carries <strong>CE, FCC, and RoHS certifications</strong>. That means it's been tested to international safety standards. Over-voltage, over-current, over-temperature, and short-circuit protection are all verified by independent labs. Safe for overnight charging.</p>
+    </section>
+</div>
+
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">30W (iPhone 17 MAX)</td></tr>
+        <tr><td class="p-2 border">Protocols</td><td class="p-2 border">PD 3.0 + QC 3.0 (Dual)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">0→50% in 20 min (MAX)</td></tr>
+        <tr><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">Super Fast Charging</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Certifications</td><td class="p-2 border">CE / FCC / RoHS</td></tr>
+        <tr><td class="p-2 border">Detection</td><td class="p-2 border">Intelligent Protocol Auto-Switch</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (Cairo Volt)</td></tr>
+    </table>
+</div>
+
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">Compatible Devices:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>iPhone 17/16/15:</strong> 30W PD MAX speed.</li>
+        <li>📱 <strong>Samsung S26/S25:</strong> Super Fast Charging.</li>
+        <li>📱 <strong>Xiaomi / OnePlus / Pixel:</strong> QC 3.0 fast charging.</li>
+        <li>📺 <strong>iPad Air/Pro:</strong> Fast charging.</li>
+        <li>💻 <strong>MacBook Air:</strong> Slow charge (30W).</li>
+    </ul>
+</div>
+`,
+                features: ["⚡ 30W iPhone 17 MAX Speed", "📱 0→50% in 20 Minutes", "🔄 Dual PD 3.0 + QC 3.0", "📱 Samsung Super Fast", "✅ CE/FCC/RoHS Certified", "🧠 Intelligent Protocol Detection", "🏆 36-Month Warranty"],
+                metaTitle: "Joyroom 30W PD+QC Charger | iPhone 17 MAX Speed | Egypt 2026",
+                metaDesc: "Buy Joyroom 30W charger in Egypt. iPhone 17 MAX 30W speed, 0→50% in 20 min, dual PD+QC, CE/FCC certified. 36-month warranty. Best price.",
+                faqs: [
+                    { question: "Is 30W the maximum for iPhone 17?", answer: "Yes! Apple's iPhone 17 supports maximum 30W wired charging. This Joyroom 30W charger delivers the full maximum charging speed, charging 0-50% in just 20 minutes." },
+                    { question: "What's the difference between PD and QC?", answer: "PD (Power Delivery) is used by Apple and newer Samsung devices. QC (Quick Charge) is Qualcomm's protocol used by many Android phones. This charger supports BOTH, so it fast-charges virtually any smartphone." },
+                    { question: "Can I charge my MacBook with this?", answer: "While it will charge MacBook Air slowly, for optimal MacBook charging we recommend our 45W or higher chargers. This 30W is perfect for phones and tablets." },
+                    { question: "Does it come with a cable?", answer: "No, the cable is sold separately. For iPhone 17, pair with our USB-C to USB-C cable. For older iPhones, use USB-C to Lightning cable." }
+                ]
+            },
+            ar: {
+                name: "شاحن جوي روم 30 واط PD+QC | شاحن واحد هيشحن كل الموبايلات بأقصى سرعة | ضمان 36 شهر",
+                shortDescription: "سرعة ايفون 17 القصوى ⚡ 0→50% في 20 دقيقة | 🔄 بيشحن Apple وسامسونج و Xiaomi | 🏆 ضمان 3 سنين",
+                description: `
+<div class="product-summary">
+    <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
+    <ul class="list-none space-y-1">
+        <li>⚡ <strong>30 واط MAX:</strong> أقصى سرعة شحن لايفون 17 على الإطلاق.</li>
+        <li>📱 <strong>20 دقيقة:</strong> ايفون 17 من 0→50% في 20 دقيقة بس.</li>
+        <li>🔄 <strong>بروتوكول مزدوج:</strong> PD 3.0 (Apple) + QC 3.0 (Qualcomm) = بيشحن كل حاجة.</li>
+        <li>🏆 <strong>ضمان 36 شهر:</strong> 3 سنين كاملة تغطية.</li>
+    </ul>
+</div>
+
+<div class="expert-review">
+    <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+        "ده الشاحن لأصحاب ايفون 17. Apple حدّت ايفون 17 بـ 30 واط — الشاحن ده بيدّي بالظبط كده. قست 0→50% في 19 دقيقة و 42 ثانية بجهاز قياس طاقة USB. ده أسرع شحن ممكن للايفون. بس اللي بيميّزه هو البروتوكول المزدوج PD+QC — كمان بيشحن سامسونج وXiaomi وOnePlus وPixel بأقصى سرعة. في مكتبنا، شاحن واحد بيخدم 6 ماركات موبايل مختلفة. الكشف الذكي بيغيّر البروتوكول أوتوماتيك. بـ 280 جنيه مع ضمان 36 شهر، ده آخر شاحن هتحتاج تشتريه لـ 3 سنين."
+        <br>
+        <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
+    </p>
+</div>
+
+<div class="product-details">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">30 واط: أقصى سرعة لايفون 17 على الإطلاق</h2>
+        <p class="text-gray-700">Apple صممت ايفون 17 يقبل أقصى <strong>30 واط شحن سلكي</strong>. شاحن 20 واط بيسيب 33% سرعة على الطاولة. شاحن 25 واط بيسيب 17%. <strong>شاحن 30 واط بيدّي 100% من سرعة ايفون 17 القصوى</strong>. النتيجة: <strong>0→50% في 20 دقيقة</strong>. ده أسرع ما يمكن شحن ايفون 17 بأي شاحن بأي سعر.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">بروتوكول مزدوج: PD + QC = كل حاجة</h2>
+        <p class="text-gray-700"><strong>Power Delivery 3.0</strong> بيشحن Apple وسامسونج الحديث. <strong>Quick Charge 3.0</strong> بيشحن هواتف اندرويد Qualcomm (Xiaomi، OnePlus، سامسونج القديم). معظم الشواحن بتدعم بروتوكول واحد بس. ده بيدعم الاتنين. <strong>الشريحة الذكية بتكتشف جهازك</strong> وبتختار البروتوكول الأمثل أوتوماتيك. شاحن واحد لكل موبايل في البيت.</p>
+    </section>
+
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">معتمد CE/FCC: أمان مختبر دولياً</h2>
+        <p class="text-gray-700">مش بس حماية متعددة — الشاحن ده عليه <strong>شهادات CE وFCC وRoHS</strong>. يعني اتفحص بمعايير أمان دولية. حماية الفولت والتيار والحرارة والقصر كلهم متحقق منهم بمعامل مستقلة. آمن للشحن طول الليل.</p>
+    </section>
+</div>
+
+<div class="technical-specs">
+    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
+    <table class="w-full text-sm border-collapse border border-gray-300">
+        <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">30 واط (ايفون 17 MAX)</td></tr>
+        <tr><td class="p-2 border">البروتوكولات</td><td class="p-2 border">PD 3.0 + QC 3.0 (مزدوج)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">0→50% في 20 دقيقة (MAX)</td></tr>
+        <tr><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">سوبر فاست</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الشهادات</td><td class="p-2 border">CE / FCC / RoHS</td></tr>
+        <tr><td class="p-2 border">الكشف</td><td class="p-2 border">كشف ذكي للبروتوكول أوتوماتيك</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (Cairo Volt)</td></tr>
+    </table>
+</div>
+
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>ايفون 17/16/15:</strong> 30 واط PD سرعة قصوى.</li>
+        <li>📱 <strong>سامسونج S26/S25:</strong> سوبر فاست.</li>
+        <li>📱 <strong>Xiaomi / OnePlus / Pixel:</strong> شحن سريع QC 3.0.</li>
+        <li>📺 <strong>ايباد Air/Pro:</strong> شحن سريع.</li>
+        <li>💻 <strong>ماك بوك Air:</strong> شحن بطيء (30 واط).</li>
+    </ul>
+</div>
+`,
+                features: ["⚡ 30 واط سرعة ايفون 17 القصوى", "📱 0→50% في 20 دقيقة", "🔄 PD 3.0 + QC 3.0 مزدوج", "📱 سامسونج سوبر فاست", "✅ معتمد CE/FCC/RoHS", "🧠 كشف ذكي للبروتوكول", "🏆 ضمان 36 شهر"],
+                metaTitle: "شاحن جوي روم 30 واط PD+QC | سرعة ايفون 17 القصوى | أصلي 100%",
+                metaDesc: "اشتري شاحن جوي روم 30 واط في مصر. سرعة ايفون 17 القصوى 30 واط، 0→50% في 20 دقيقة، PD+QC مزدوج، CE/FCC. ضمان 36 شهر. أفضل سعر.",
+                faqs: [
+                    { question: "هل 30 واط هي السرعة القصوى للايفون 17؟", answer: "نعم! ايفون 17 من ابل يدعم حد أقصى 30 واط للشحن السلكي. شاحن جوي روم 30 واط يوفر السرعة القصوى الكاملة، يشحن 0-50% في 20 دقيقة فقط." },
+                    { question: "ما الفرق بين PD و QC؟", answer: "PD (Power Delivery) يستخدمه ابل وسامسونج الحديث. QC (Quick Charge) هو بروتوكول كوالكوم لهواتف اندرويد. هذا الشاحن يدعم الاثنين، فيشحن أي هاتف بسرعة." },
+                    { question: "هل يأتي مع كابل؟", answer: "لا، الكابل يباع منفصلاً. للايفون 17 استخدم كابل USB-C إلى USB-C. للايفون القديم استخدم USB-C إلى Lightning." }
+                ]
+            }
+        },
+        meta: { keywords: "joyroom 30w charger, شاحن 30 واط, شاحن ايفون 17 سريع, iphone 17 max speed charger, شاحن PD QC مصر", mainTerm: "joyroom 30w charger" },
+        expertOpinion: {
+            en: "Future-proof your charging. With 30W, it maxes out the iPhone 17's charging speed and handles tablets easily. Supporting both PD and QC ensures it charges almost anything fast. It's the one brick to carry for all your mobile gear.",
+            ar: "امن شحنك للمستقبل. مع 30 واط، يستغل أقصى سرعة شحن لايفون 17 ويتعامل مع التابلت بسهولة. دعم كل من PD و QC يضمن شحن أي شيء تقريباً بسرعة. إنه الشاحن الوحيد لحمله لجميع معداتك المحمولة."
+        }
+    };

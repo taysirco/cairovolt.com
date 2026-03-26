@@ -55,8 +55,8 @@ products.forEach(product => {
     }
 
     // Check for Duplicate Expert Opinions (English)
-    if (product.expertOpinion?.en) {
-        const opinionEn = product.expertOpinion.en.trim();
+    if ((product as any).expertOpinion?.en) {
+        const opinionEn = (product as any).expertOpinion.en.trim();
         if (seenExpertOpinions.has(opinionEn)) {
             console.error(`❌ DUPLICATE Expert Opinion found: ${product.slug} matches ${seenExpertOpinions.get(opinionEn)}`);
             errorCount++;

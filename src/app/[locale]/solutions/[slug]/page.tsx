@@ -28,8 +28,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const desc = isArabic ? solution.problemStatement.ar : solution.problemStatement.en;
 
     return {
-        title: `${title} | CairoVolt Engineering Solutions`,
+        title: { absolute: `${title} | CairoVolt` },
         description: desc,
+        openGraph: {
+            title: `${title} | CairoVolt`,
+            description: desc,
+            url: isArabic
+                ? `https://cairovolt.com/solutions/${slug}`
+                : `https://cairovolt.com/en/solutions/${slug}`,
+            locale: isArabic ? 'ar_EG' : 'en_US',
+            type: 'article',
+            images: [{
+                url: '/logo.png',
+                width: 200,
+                height: 60,
+                alt: isArabic ? 'كايرو فولت - حلول الشحن والطاقة' : 'CairoVolt - Charging & Power Solutions',
+            }],
+        },
         alternates: {
             canonical: isArabic
                 ? `https://cairovolt.com/solutions/${slug}`
@@ -63,6 +78,41 @@ export default async function SolutionPage({ params }: Props) {
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12" dir={isArabic ? 'rtl' : 'ltr'}>
+            {/* JSON-LD HowTo Schema for rich snippets */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'HowTo',
+                        name: title,
+                        description: problem,
+                        step: [
+                            {
+                                '@type': 'HowToStep',
+                                position: 1,
+                                name: isArabic ? 'فهم المشكلة' : 'Understand the Problem',
+                                text: problem,
+                            },
+                            {
+                                '@type': 'HowToStep',
+                                position: 2,
+                                name: isArabic ? 'الحل الهندسي' : 'The Engineering Solution',
+                                text: answer,
+                            },
+                            ...recommendedProducts.map((p, i) => ({
+                                '@type': 'HowToStep',
+                                position: i + 3,
+                                name: isArabic
+                                    ? `استخدم ${p.translations?.ar?.name || p.slug}`
+                                    : `Use ${p.translations?.en?.name || p.slug}`,
+                                url: `https://cairovolt.com${isArabic ? '' : '/en'}/${p.brand.toLowerCase()}/${p.categorySlug.toLowerCase()}/${p.slug}`,
+                            })),
+                        ],
+                        totalTime: 'PT5M',
+                    }),
+                }}
+            />
             <div className="container mx-auto px-4 max-w-4xl">
 
                 {/* Solution Header */}

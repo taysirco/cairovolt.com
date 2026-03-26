@@ -16,13 +16,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const title = isArabic
         ? 'مدونة كايرو فولت | أدلة شراء ومراجعات اكسسوارات الموبايل'
-        : 'Cairo Volt Blog | Mobile Accessories Buying Guides & Reviews';
+        : 'Cairo Volt Blog | Mobile Accessories Guides & Reviews';
     const description = isArabic
         ? 'أدلة شراء شاملة ومقارنات ومراجعات لأفضل اكسسوارات الموبايل في مصر. باور بانك، شواحن، سماعات من Anker و Joyroom.'
         : 'Complete buying guides, comparisons, and reviews for the best mobile accessories in Egypt. Power banks, chargers, earbuds from Anker & Joyroom.';
 
     return {
-        title,
+        title: { absolute: title },
         description,
         alternates: {
             canonical: isArabic

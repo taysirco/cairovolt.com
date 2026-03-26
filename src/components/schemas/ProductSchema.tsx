@@ -395,7 +395,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 returnMethod: 'https://schema.org/ReturnByMail',
                 returnFees: 'https://schema.org/FreeReturn',
                 refundType: 'https://schema.org/FullRefund',
-                url: `${baseUrl}/${locale}/return-policy`,
+                url: `${baseUrl}${locale === 'ar' ? '' : '/en'}/return-policy`,
             },
         },
         // BuyAction — Direct Purchase Intent

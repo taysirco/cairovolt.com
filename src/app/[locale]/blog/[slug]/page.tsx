@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const trans = article.translations[isArabic ? 'ar' : 'en'];
 
     return {
-        title: trans.metaTitle,
+        title: { absolute: trans.metaTitle },
         description: trans.metaDescription,
         keywords: trans.keywords,
         alternates: {
@@ -399,7 +399,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                 {isArabic ? 'الأسئلة الشائعة' : 'Frequently Asked Questions'}
                             </h2>
                             <div className="space-y-3">
-                                {trans.faq.map((item, idx) => (
+                                {trans.faq.map((item: { question: string; answer: string }, idx: number) => (
                                     <details
                                         key={idx}
                                         className="group bg-gray-50 dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden"
@@ -450,7 +450,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                 {isArabic ? <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> المنتجات المذكورة في المقال</> : <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> Products Mentioned in This Article</>}
                             </h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                                {article.relatedProducts.map((slug) => {
+                                {article.relatedProducts.map((slug: string) => {
                                     const prod = getProductBySlug(slug);
                                     if (!prod) return null;
                                     const pTrans = prod.translations[isArabic ? 'ar' : 'en'];

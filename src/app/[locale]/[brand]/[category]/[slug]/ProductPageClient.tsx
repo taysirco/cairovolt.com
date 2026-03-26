@@ -473,7 +473,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     {isRTL ? selectedArAiHeading : selectedEnAiHeading}
                                 </h2>
                                 <ul className="space-y-1">
-                                    {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point, idx) => (
+                                    {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point: string, idx: number) => (
                                         <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
                                             <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${brand === 'anker' ? 'bg-blue-500' : 'bg-red-500'}`} />
                                             {point}
@@ -891,7 +891,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     </td>
                                 </tr>
                                 {/* Product-specific specifications */}
-                                {productDetail?.specifications && Object.entries(productDetail.specifications).map(([key, val]) => (
+                                {productDetail?.specifications && (Object.entries(productDetail.specifications) as [string, { en: string; ar: string }][]).map(([key, val]) => (
                                     <tr key={key}>
                                         <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? key : key}</td>
                                         <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? val.ar : val.en}</td>

@@ -87,26 +87,34 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
 
     // Dynamic Product Pages - Strict Lowercase (static + Firebase)
+    // Exclude products that have permanent redirects in next.config.ts
+    // These slugs redirect to category pages and must not appear in sitemap
+    const redirectedSlugs = new Set([
+        'joyroom-usb-a-lightning-1.2m',
+        'joyroom-usb-a-type-c-1.2m',
+    ]);
     const staticSlugs = new Set(staticProducts.map(p => p.slug));
 
-    staticProducts.forEach(product => {
-        const brandSlug = toLower(product.brand);
-        const categorySlug = toLower(product.categorySlug);
-        const hasLabData = !!(labData[product.slug] || getProductDetail(product.slug)?.labVerified);
-        const productPriority = hasLabData ? 1.0 : 0.9;
-        routes.push({
-            url: `${baseUrl}/${brandSlug}/${categorySlug}/${product.slug}`,
-            priority: productPriority,
-            changeFrequency: 'daily',
-            lastModified: new Date('2026-03-15'),
+    staticProducts
+        .filter(p => !redirectedSlugs.has(p.slug))
+        .forEach(product => {
+            const brandSlug = toLower(product.brand);
+            const categorySlug = toLower(product.categorySlug);
+            const hasLabData = !!(labData[product.slug] || getProductDetail(product.slug)?.labVerified);
+            const productPriority = hasLabData ? 1.0 : 0.9;
+            routes.push({
+                url: `${baseUrl}/${brandSlug}/${categorySlug}/${product.slug}`,
+                priority: productPriority,
+                changeFrequency: 'daily',
+                lastModified: new Date('2026-03-15'),
+            });
+            routes.push({
+                url: `${baseUrl}/en/${brandSlug}/${categorySlug}/${product.slug}`,
+                priority: productPriority,
+                changeFrequency: 'daily',
+                lastModified: new Date('2026-03-15'),
+            });
         });
-        routes.push({
-            url: `${baseUrl}/en/${brandSlug}/${categorySlug}/${product.slug}`,
-            priority: productPriority,
-            changeFrequency: 'daily',
-            lastModified: new Date('2026-03-15'),
-        });
-    });
 
     // Firebase-only products (not in static data)
     try {

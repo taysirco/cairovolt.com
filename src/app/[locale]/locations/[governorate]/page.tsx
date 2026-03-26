@@ -36,14 +36,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const isArabic = locale === 'ar';
     const year = new Date().getFullYear();
 
-    const titleAr = `حلول انقطاع الكهرباء في ${gov.nameAr} ${year} | باور بانك وUPS مختبر معملياً | كايرو فولت`;
-    const titleEn = `Power Outage Solutions in ${gov.nameEn} ${year} | Lab-Tested Power Banks & UPS | CairoVolt`;
+    const titleAr = `حلول انقطاع الكهرباء في ${gov.nameAr} ${year} | باور بانك وUPS`;
+    const titleEn = `Power Outage Solutions ${gov.nameEn} ${year} | Power Banks & UPS`;
 
     const descriptionAr = `مركز طوارئ كايرو فولت في ${gov.nameAr}: باور بانك أنكر يشغل الراوتر 14 ساعة متواصلة. UPS منزلي 18 ساعة. بيانات مختبرية C2PA. توصيل ${gov.deliveryDays} أيام. الدفع عند الاستلام.`;
     const descriptionEn = `CairoVolt emergency center for ${gov.nameEn}: Anker power bank runs router 14 hours straight. Home UPS 18 hours. C2PA lab data. ${gov.deliveryDays}-day delivery. Cash on delivery.`;
 
     return {
-        title: isArabic ? titleAr : titleEn,
+        title: { absolute: isArabic ? titleAr : titleEn },
         description: isArabic ? descriptionAr : descriptionEn,
         robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
         alternates: {
@@ -59,8 +59,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         openGraph: {
             title: isArabic ? titleAr : titleEn,
             description: isArabic ? descriptionAr : descriptionEn,
+            url: isArabic
+                ? `https://cairovolt.com/locations/${gov.slug}`
+                : `https://cairovolt.com/en/locations/${gov.slug}`,
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
+            images: [{
+                url: '/logo.png',
+                width: 200,
+                height: 60,
+                alt: isArabic ? `كايرو فولت - ${gov.nameAr}` : `CairoVolt - ${gov.nameEn}`,
+            }],
         },
         other: {
             'geo.region': 'EG',

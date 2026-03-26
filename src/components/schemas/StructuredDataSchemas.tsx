@@ -389,6 +389,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         sameAs: [
             'https://www.facebook.com/cairovolt',
             'https://www.instagram.com/cairovolt',
+            'https://www.tiktok.com/@cairovolt',
         ],
         openingHoursSpecification: [
             {
@@ -539,7 +540,7 @@ export function WebSiteSchema({ locale, baseUrl = 'https://cairovolt.com' }: Web
             '@type': 'SearchAction',
             target: {
                 '@type': 'EntryPoint',
-                urlTemplate: `${baseUrl}/${isArabic ? 'ar' : 'en'}/search?q={search_term_string}`,
+                urlTemplate: `${baseUrl}${isArabic ? '' : '/en'}/search?q={search_term_string}`,
             },
             'query-input': 'required name=search_term_string',
         },
@@ -570,12 +571,12 @@ export function CollectionPageSchema({ locale, collections }: CollectionPageSche
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
-        '@id': `${baseUrl}/${locale}/#collectionpage`,
+        '@id': `${baseUrl}${isArabic ? '' : '/en'}/#collectionpage`,
         name: isArabic ? 'إكسسوارات الموبايل - Anker و Joyroom مصر' : 'Mobile Accessories - Anker & Joyroom Egypt',
         description: isArabic
             ? 'تسوق أفضل إكسسوارات الموبايل الأصلية في مصر. باور بانك، شواحن، سماعات، كابلات من Anker و Joyroom.'
             : 'Shop the best original mobile accessories in Egypt. Power banks, chargers, earbuds, cables from Anker & Joyroom.',
-        url: `${baseUrl}/${locale}`,
+        url: `${baseUrl}${isArabic ? '' : '/en'}`,
         inLanguage: isArabic ? 'ar-EG' : 'en-US',
         isPartOf: {
             '@id': `${baseUrl}/#website`,

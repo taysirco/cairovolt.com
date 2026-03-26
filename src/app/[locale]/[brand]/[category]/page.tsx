@@ -54,21 +54,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const titleVariantIndex = categoryKey.length % 3;
 
     const arTitleVariants = [
-        `أفضل 5 ${data.categoryName} من ${data.brand} في السوق (دليل شراء 2026) | كايرو فولت`,
-        `مقارنة وتقييم شامل: أي ${data.categoryName} من ${data.brand} يناسبك؟ | كايرو فولت`,
-        `تجربتنا العملية لأحدث إمكانيات ${data.categoryName} من ${data.brand} | كايرو فولت`
+        `أفضل 5 ${data.categoryName} من ${data.brand} (دليل شراء 2026)`,
+        `مقارنة وتقييم شامل: أي ${data.categoryName} من ${data.brand} يناسبك؟`,
+        `تجربتنا العملية لأحدث ${data.categoryName} من ${data.brand}`
     ];
 
     const enTitleVariants = [
-        `Top 5 Best ${data.brand} ${data.categoryName} (2026 Buyer's Guide) | CairoVolt`,
-        `Comprehensive Review & Comparison: Which ${data.brand} ${data.categoryName} is for You? | CairoVolt`,
-        `Hands-on Experience with the Latest ${data.brand} ${data.categoryName} | CairoVolt`
+        `Top 5 Best ${data.brand} ${data.categoryName} (2026 Guide)`,
+        `${data.brand} ${data.categoryName} Review & Comparison`,
+        `Hands-on with the Latest ${data.brand} ${data.categoryName}`
     ];
 
     const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
 
     return {
-        title: dynamicTitle,
+        title: { absolute: dynamicTitle },
         description: meta.description,
         keywords: meta.keywords,
         alternates: {

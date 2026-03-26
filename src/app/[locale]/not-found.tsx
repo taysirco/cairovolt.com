@@ -1,5 +1,11 @@
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: { absolute: 'Page Not Found | 404' },
+    robots: { index: false, follow: false },
+};
 
 export default function NotFound() {
     const locale = useLocale();

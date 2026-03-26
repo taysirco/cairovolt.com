@@ -33,7 +33,20 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 "logo": {
                     "@type": "ImageObject",
                     "name": "Cairo Volt Logo",
-                    "url": "https://cairovolt.com/logo.png"
+                    "url": "https://cairovolt.com/logo.png",
+                    "width": 200,
+                    "height": 60
+                },
+                "sameAs": [
+                    "https://www.facebook.com/cairovolt",
+                    "https://www.instagram.com/cairovolt",
+                    "https://www.tiktok.com/@cairovolt"
+                ],
+                "foundingDate": "2024",
+                "foundingLocation": {
+                    "@type": "Place",
+                    "name": "New Damietta City, Egypt",
+                    "sameAs": "https://www.wikidata.org/wiki/Q12211943"
                 },
                 // Industry affiliations and core technology stacks supported
                 "knowsAbout": [

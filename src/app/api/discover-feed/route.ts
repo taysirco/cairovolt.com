@@ -62,7 +62,7 @@ export async function GET() {
         .slice(0, 3)
         .map(p => {
             const arName = p.translations?.ar?.name || p.slug;
-            const arDesc = p.translations?.ar?.shortDescription || p.translations?.ar?.description?.substring(0, 200) || '';
+            const arDesc = p.translations?.ar?.shortDescription || '';
             const brand = (p.brand || '').toLowerCase();
             const primaryImage = p.images?.find(i => i.isPrimary)?.url || p.images?.[0]?.url || '';
             const imageUrl = primaryImage.startsWith('http') ? primaryImage : `https://cairovolt.com${primaryImage}`;

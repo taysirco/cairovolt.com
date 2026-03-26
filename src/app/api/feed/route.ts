@@ -41,7 +41,7 @@ async function getProducts(): Promise<FeedProduct[]> {
                     const translations = p.translations as Record<string, Record<string, string>> | undefined;
                     const images = p.images as Array<{ url: string; isPrimary?: boolean }> | undefined;
                     const arName = translations?.ar?.name || (p.slug as string || '').replace(/-/g, ' ');
-                    const arDesc = (translations?.ar?.shortDescription || translations?.ar?.description || '').substring(0, 5000);
+                    const arDesc = (translations?.ar?.shortDescription || '').substring(0, 5000);
                     const brand = ((p.brand as string) || '').toLowerCase();
                     const primaryImage = images?.find(img => img.isPrimary)?.url || images?.[0]?.url || '';
                     const price = Number(p.price) || 0;
@@ -70,7 +70,7 @@ async function getProducts(): Promise<FeedProduct[]> {
         .filter((p) => (p.stock ?? 0) > 0)
         .map((p) => {
             const arName = p.translations?.ar?.name || p.slug.replace(/-/g, ' ');
-            const arDesc = p.translations?.ar?.shortDescription || p.translations?.ar?.description || '';
+            const arDesc = p.translations?.ar?.shortDescription || '';
             const brand = (p.brand || '').toLowerCase();
             const primaryImage = p.images?.find((img) => img.isPrimary)?.url || p.images?.[0]?.url || '';
 

@@ -31,13 +31,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (locale === 'en') {
     return {
       ...baseMetadata,
-      title: 'Mobile Accessories Egypt | Anker & Joyroom - Best Prices 2026',
+      title: { absolute: 'Mobile Accessories Egypt | Anker & Joyroom - Best Prices 2026' },
       description: 'Shop original mobile accessories in Egypt. Anker power banks, chargers, cables. Joyroom T03s earbuds. 100% authentic with official warranty. Fast shipping.',
       keywords: 'mobile accessories, anker egypt, joyroom, power bank, earbuds, anker charger, joyroom t03s',
       openGraph: {
         title: 'Mobile Accessories Egypt | Anker & Joyroom',
         description: 'Original Anker & Joyroom accessories with official warranty.',
+        url: 'https://cairovolt.com/en',
         locale: 'en_US',
+        type: 'website',
+        siteName: 'Cairo Volt',
+        images: [{
+          url: '/logo.png',
+          width: 200,
+          height: 60,
+          alt: 'CairoVolt - Mobile Accessories Egypt',
+        }],
       },
       other: {
         'geo.region': 'EG',
@@ -51,13 +60,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Arabic (default)
   return {
     ...baseMetadata,
-    title: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom - أفضل الأسعار',
+    title: { absolute: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom - أفضل الأسعار' },
     description: 'متجر اكسسوارات موبايل في مصر. Anker Egypt، Joyroom أصلي. باور بانك، سماعات، شواحن، كابلات. أفضل أسعار وضمان رسمي. منتجات أصلية 100%.',
     keywords: 'اكسسوارات موبايل, انكر مصر, جوي روم, باور بانك, سماعات, شاحن انكر, شاحن ايفون اصلي, joyroom t03s',
     openGraph: {
       title: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom',
       description: 'أفضل اكسسوارات موبايل أصلية في مصر. Anker و Joyroom بضمان رسمي.',
+      url: 'https://cairovolt.com',
       locale: 'ar_EG',
+      type: 'website',
+      siteName: 'كايرو فولت',
+      images: [{
+        url: '/logo.png',
+        width: 200,
+        height: 60,
+        alt: 'كايرو فولت - اكسسوارات موبايل مصر',
+      }],
     },
     other: {
       'geo.region': 'EG',

@@ -166,23 +166,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const titleVariantIndex = hashStr % 4;
 
     const arTitleVariants = [
-        `تجربتنا لـ ${t.name} الأصلي (المميزات والعيوب) | كايرو فولت`,
-        `مراجعة شاملة: هل يستحق ${t.name} الشراء فعلاً؟ | كايرو فولت`,
-        `كل ما تود معرفته عن ${t.name} قبل الشراء | تقييم كايرو فولت`,
-        `تقييم ${t.name} الأصلي من ${product.brand} (رأي الخبراء) | كايرو فولت`
+        `تجربتنا لـ ${t.name} الأصلي (المميزات والعيوب)`,
+        `مراجعة شاملة: هل يستحق ${t.name} الشراء فعلاً؟`,
+        `كل ما تود معرفته عن ${t.name} قبل الشراء`,
+        `تقييم ${t.name} الأصلي من ${product.brand} (رأي الخبراء)`
     ];
 
     const enTitleVariants = [
-        `Our Experience with the Original ${t.name} (Pros & Cons) | CairoVolt`,
-        `Comprehensive Review: Is ${t.name} Worth Buying? | CairoVolt`,
-        `Everything You Need to Know About ${t.name} Before Buying | CairoVolt`,
-        `Expert Review: Original ${t.name} by ${product.brand} | CairoVolt`
+        `Our Experience with the Original ${t.name} (Pros & Cons)`,
+        `Comprehensive Review: Is ${t.name} Worth Buying?`,
+        `Everything You Need to Know About ${t.name} Before Buying`,
+        `Expert Review: Original ${t.name} by ${product.brand}`
     ];
 
     const dynamicTitle = t.metaTitle || (isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex]);
 
     return {
-        title: dynamicTitle,
+        title: { absolute: dynamicTitle },
         description: t.metaDesc || t.shortDescription || t.description?.substring(0, 160),
         keywords: product.meta?.keywords || '',
         openGraph: {

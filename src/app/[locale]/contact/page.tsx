@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : 'Contact us via WhatsApp or phone. We are here to help you choose the best mobile accessories from Anker and Joyroom in Egypt.';
 
     return {
-        title,
+        title: { absolute: title },
         description,
         alternates: {
             canonical: isArabic
@@ -33,9 +33,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         openGraph: {
             title,
             description,
+            url: isArabic
+                ? 'https://cairovolt.com/contact'
+                : 'https://cairovolt.com/en/contact',
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            images: [{
+                url: '/logo.png',
+                width: 200,
+                height: 60,
+                alt: isArabic ? 'كايرو فولت - اتصل بنا' : 'CairoVolt - Contact Us',
+            }],
         },
         other: {
             'geo.region': 'EG',

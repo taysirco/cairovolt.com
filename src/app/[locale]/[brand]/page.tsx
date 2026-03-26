@@ -51,22 +51,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const titleVariantIndex = brand.length % 3;
 
     const arTitleVariants = [
-        `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title} الأصلية في مصر 2026`,
-        `الموزع المعتمد: تسوق منتجات ${data.hero.title} بضمان الوكيل | متجر كايرو فولت`,
-        `كايرو فولت مصر: اختار معدات ${data.hero.title} الأصلية بأفضل سعر`
+        `منتجات ${data.hero.title} الأصلية في مصر 2026`,
+        `تسوق ${data.hero.title} بضمان الوكيل الرسمي`,
+        `${data.hero.title} الأصلية بأفضل سعر في مصر`
     ];
 
     const enTitleVariants = [
-        `CairoVolt Store: Your Trusted Destination for Original ${data.hero.title} in Egypt`,
-        `Authorized Dealer: Shop ${data.hero.title} with Official Warranty | CairoVolt Store`,
-        `CairoVolt Egypt: Best Price for Original ${data.hero.title} Gear`
+        `Original ${data.hero.title} Products in Egypt 2026`,
+        `Shop ${data.hero.title} with Official Warranty`,
+        `Best Price for Original ${data.hero.title} Gear`
     ];
 
     const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
 
     // Strict lowercase for canonical URLs (URL best practice)
     return {
-        title: dynamicTitle,
+        title: { absolute: dynamicTitle },
         description: meta.description,
         keywords: meta.keywords,
         alternates: {

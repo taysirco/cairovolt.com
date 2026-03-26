@@ -39,7 +39,7 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
         : `https://cairovolt.com/en/${cleanSlug}`;
 
     return {
-        title: meta.title,
+        title: { absolute: meta.title },
         description: meta.description,
         keywords: meta.keywords,
         alternates: {

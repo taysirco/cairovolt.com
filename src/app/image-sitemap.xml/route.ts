@@ -26,16 +26,24 @@ interface Product {
 export async function GET() {
     const products: Product[] = [];
 
-    // Get static products
-    staticProducts.forEach(product => {
-        products.push({
-            slug: product.slug,
-            brand: product.brand,
-            categorySlug: product.categorySlug,
-            images: product.images,
-            translations: product.translations,
+    // Exclude products that have permanent redirects in next.config.ts
+    const redirectedSlugs = new Set([
+        'joyroom-usb-a-lightning-1.2m',
+        'joyroom-usb-a-type-c-1.2m',
+    ]);
+
+    // Get static products (excluding redirected)
+    staticProducts
+        .filter(p => !redirectedSlugs.has(p.slug))
+        .forEach(product => {
+            products.push({
+                slug: product.slug,
+                brand: product.brand,
+                categorySlug: product.categorySlug,
+                images: product.images,
+                translations: product.translations,
+            });
         });
-    });
 
     // Get Firebase products
     try {

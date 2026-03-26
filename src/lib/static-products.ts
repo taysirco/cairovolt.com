@@ -51,6 +51,10 @@ export interface StaticProduct {
         keywords: string;
         mainTerm: string;
     };
+    expertOpinion?: {
+        en: string;
+        ar: string;
+    };
     relatedProducts?: string[]; // Array of product slugs
 }
 
