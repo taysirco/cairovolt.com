@@ -17,8 +17,8 @@ const PHONES = [
 ];
 
 const POWER_BANKS = [
-    { name: 'Anker Nano 10000mAh', capacity: 10000, price: 1358, brand: 'Anker' },
-    { name: 'Anker PowerCore 20000mAh', capacity: 20000, price: 1054, brand: 'Anker' },
+    { name: 'Anker Nano 10000mAh', capacity: 10000, price: 1300, brand: 'Anker' },
+    { name: 'Anker PowerCore 20000mAh', capacity: 20000, price: 1550, brand: 'Anker' },
     { name: 'Anker Prime 27650mAh', capacity: 27650, price: 3799, brand: 'Anker' },
     { name: 'Joyroom 10000mAh', capacity: 10000, price: 450, brand: 'Joyroom' },
     { name: 'Joyroom 20000mAh', capacity: 20000, price: 650, brand: 'Joyroom' },

@@ -8,8 +8,8 @@ export const anker_powercore_20000 = {
         gtin: "0848061016860",
         gtin13: "0848061016860",
         mpn: "A1260011",
-        price: 1054,
-        originalPrice: 1499,
+        price: 1550,
+        originalPrice: 1750,
         stock: 35,
         featured: true,
         status: "active",
@@ -42,7 +42,7 @@ export const anker_powercore_20000 = {
         <li>🔋 <strong>20,000mAh:</strong> Charges iPhone 17 about 4 times, Samsung S26 about 3 times.</li>
         <li>🔌 <strong>Dual USB-A:</strong> Charge 2 devices simultaneously with PowerIQ optimization.</li>
         <li>✈️ <strong>Airline Approved:</strong> 72Wh — well under the 100Wh TSA limit.</li>
-        <li>🛡️ <strong>24-Month Warranty:</strong> Double the industry standard. EGP 1,054 in Egypt.</li>
+        <li>🛡️ <strong>24-Month Warranty:</strong> Double the industry standard. EGP 1,550 in Egypt.</li>
     </ul>
 </div>
 
@@ -58,7 +58,7 @@ export const anker_powercore_20000 = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4 Full iPhone Charges: A Weekend Without a Wall Outlet</h2>
-        <p class="text-gray-700">The <strong>20,000mAh capacity</strong> isn't just a number — it means 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. For students, travelers, or anyone who spends long days away from an outlet, this means complete freedom from battery anxiety. At EGP 1,054, you get double the capacity of the 10000mAh model for a minimal price increase.</p>
+        <p class="text-gray-700">The <strong>20,000mAh capacity</strong> isn't just a number — it means 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. For students, travelers, or anyone who spends long days away from an outlet, this means complete freedom from battery anxiety. At EGP 1,550, you get double the capacity of the 10000mAh model for a minimal price increase.</p>
     </section>
 
     <section>
@@ -109,9 +109,9 @@ export const anker_powercore_20000 = {
                     "🏆 24-Month Warranty (2x Industry Standard)"
                 ],
                 metaTitle: "Anker 20000mAh Power Bank | 4x iPhone Charge | Buy Original",
-                metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,054. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
+                metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,550. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
                 faqs: [
-                    { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,054 at Cairo Volt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
+                    { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,550 at Cairo Volt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
                     { question: "How many times does Anker 20000mAh charge iPhone?", answer: "Anker 20000mAh charges iPhone 17/16/15 approximately 4 full times from 0% to 100%. For Samsung Galaxy S26/S25, it provides about 3 full charges. iPad mini gets about 2.5 charges." },
                     { question: "Can I charge 2 devices at once with Anker 20000?", answer: "Yes, the Anker PowerCore 20000 has 2 USB-A ports allowing simultaneous charging of two devices. PowerIQ technology intelligently distributes power to optimize charging speed for each device." },
                     { question: "How long does it take to recharge Anker 20000mAh?", answer: "It takes about 10 hours to fully recharge using a 2A wall charger. With a standard 1A charger, it takes approximately 20 hours. For faster recharging, use an Anker PowerPort 20W or higher." },
@@ -133,7 +133,7 @@ export const anker_powercore_20000 = {
         <li>🔋 <strong>20,000 مللي أمبير:</strong> يشحن ايفون 17 حوالي 4 مرات، سامسونج S26 حوالي 3 مرات.</li>
         <li>🔌 <strong>منفذين USB-A:</strong> اشحن جهازين في نفس الوقت مع تقنية PowerIQ.</li>
         <li>✈️ <strong>مسموح بالطائرة:</strong> 72 واط/ساعة — أقل بكثير من حد TSA (100Wh).</li>
-        <li>🛡️ <strong>ضمان 24 شهر:</strong> ضعف المعيار. سعر 1,054 جنيه في مصر.</li>
+        <li>🛡️ <strong>ضمان 24 شهر:</strong> ضعف المعيار. سعر 1,550 جنيه في مصر.</li>
     </ul>
 </div>
 
@@ -149,7 +149,7 @@ export const anker_powercore_20000 = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4 شحنات ايفون كاملة: ويكند من غير برايز</h2>
-        <p class="text-gray-700"><strong>سعة 20,000 مللي أمبير</strong> مش مجرد رقم — يعني 4 شحنات ايفون 17 كاملة، 3 شحنات سامسونج S26، أو 2.5 شحنة ايباد ميني. للطلاب والمسافرين وأي حد يومه طويل بعيد عن البرايز، ده يعني حرية كاملة من قلق البطارية. بسعر 1,054 جنيه، بتاخد ضعف سعة موديل الـ 10000 بزيادة سعر بسيطة.</p>
+        <p class="text-gray-700"><strong>سعة 20,000 مللي أمبير</strong> مش مجرد رقم — يعني 4 شحنات ايفون 17 كاملة، 3 شحنات سامسونج S26، أو 2.5 شحنة ايباد ميني. للطلاب والمسافرين وأي حد يومه طويل بعيد عن البرايز، ده يعني حرية كاملة من قلق البطارية. بسعر 1,550 جنيه، بتاخد ضعف سعة موديل الـ 10000 بزيادة سعر بسيطة.</p>
     </section>
 
     <section>
@@ -200,9 +200,9 @@ export const anker_powercore_20000 = {
                     "🏆 ضمان 24 شهر (ضعف المعيار)"
                 ],
                 metaTitle: "باور بانك انكر 20000 | 4 شحنات ايفون | أرخص سعر",
-                metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,054 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
+                metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,550 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
                 faqs: [
-                    { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,054 جنيه مصري من Cairo Volt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },
+                    { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,550 جنيه مصري من Cairo Volt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },
                     { question: "كم مرة يشحن باور بانك انكر 20000 الايفون؟", answer: "باور بانك انكر 20000 يشحن ايفون 17/16/15 حوالي 4 مرات كاملة من 0% إلى 100%. بالنسبة لسامسونج S26/S25، يشحنه حوالي 3 مرات. ايباد ميني يشحن حوالي 2.5 مرة." },
                     { question: "هل يمكنني شحن جهازين معاً بباور بانك انكر 20000؟", answer: "نعم، باور بانك انكر 20000 لديه منفذين USB-A لشحن جهازين في نفس الوقت. تقنية PowerIQ توزع الطاقة بذكاء لتحسين سرعة الشحن لكل جهاز." },
                     { question: "كم يستغرق شحن باور بانك انكر 20000؟", answer: "يستغرق شحن باور بانك انكر 20000 حوالي 10 ساعات بشاحن 2 أمبير. مع شاحن 1 أمبير العادي، يستغرق حوالي 20 ساعة. للشحن الأسرع، استخدم شاحن انكر 20 واط أو أعلى." },

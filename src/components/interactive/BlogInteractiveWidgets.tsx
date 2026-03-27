@@ -29,8 +29,8 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     B -->|No| D{"Need to charge laptop?"}
     D -->|Yes| E["Anker Prime 27650mAh\\n3,799 EGP"]
     D -->|No| F{"Want smallest size?"}
-    F -->|Yes| G["Anker Nano 10000mAh\\n1,358 EGP"]
-    F -->|No| H["Anker PowerCore 20000mAh\\n1,054 EGP"]
+    F -->|Yes| G["Anker Nano 10000mAh\\n1,300 EGP"]
+    F -->|No| H["Anker PowerCore 20000mAh\\n1,550 EGP"]
     
     style A fill:#3b82f6,color:#fff,stroke:#2563eb
     style C fill:#ef4444,color:#fff,stroke:#dc2626
@@ -52,7 +52,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     A["What devices do you charge?"] --> B{"iPhone only?"}
     B -->|Yes| C{"Want fastest speed?"}
     C -->|Yes| D["Anker 30W GaN Nano\\n549 EGP"]
-    C -->|No| E["Anker 20W\\n379 EGP"]
+    C -->|No| E["Anker 20W\\n400 EGP"]
     B -->|No| F{"iPhone + MacBook?"}
     F -->|Yes| G["Anker 65W GaN\\n999 EGP"]
     F -->|No| H["Anker 30W GaN Nano\\n549 EGP"]

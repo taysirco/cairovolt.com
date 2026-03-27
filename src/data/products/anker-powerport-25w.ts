@@ -8,8 +8,8 @@ export const anker_powerport_25w = {
         gtin: "0194644063566",
         gtin13: "0194644063566",
         mpn: "A2322K11",
-        price: 512,
-        originalPrice: 549,
+        price: 550,
+        originalPrice: 650,
         stock: 80,
         featured: true,
         status: "active",
@@ -32,7 +32,7 @@ export const anker_powerport_25w = {
         <li>⚡ <strong>25W PPS:</strong> Samsung S26 Super Fast Charging — 0% to 50% in just 26 minutes.</li>
         <li>📱 <strong>iPhone Compatible:</strong> Also fast charges iPhone 17 (0-50% in 28 min).</li>
         <li>🛡️ <strong>ActiveShield 2.0:</strong> Monitors temperature 3 million times/day.</li>
-        <li>📏 <strong>4.5cm Compact:</strong> Smaller than Samsung's original charger. EGP 512.</li>
+        <li>📏 <strong>4.5cm Compact:</strong> Smaller than Samsung's original charger. EGP 550.</li>
     </ul>
 </div>
 
@@ -94,10 +94,10 @@ export const anker_powerport_25w = {
                     "📏 Compact 4.5cm Design",
                     "🏆 18-Month Warranty (vs Samsung's 12)"
                 ],
-                metaTitle: "Anker 25W PPS Charger | Samsung S26 Super Fast | EGP 512 Egypt",
-                metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 512. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
+                metaTitle: "Anker 25W PPS Charger | Samsung S26 Super Fast | EGP 550 Egypt",
+                metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [
-                    { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 512 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
+                    { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 550 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 25W support Samsung Super Fast Charging?", answer: "Yes! It supports PPS technology unlocking full Super Fast Charging for Samsung S26/S25. Charges 0% to 50% in 26 minutes." },
                     { question: "What's the difference between Anker 20W and 25W?", answer: "20W is ideal for iPhone. 25W has PPS for Samsung Super Fast Charging. 9-minute difference when charging S26." },
                     { question: "Does Anker 25W fast charge iPhone 17?", answer: "Yes, charges iPhone 17 from 0% to 50% in 28 minutes. But 20W is sufficient for iPhone; 25W is best for Samsung." },
@@ -106,7 +106,7 @@ export const anker_powerport_25w = {
                     { question: "Does Anker 25W come with a cable?", answer: "No, charger only. Use a quality USB-C to USB-C cable for full 25W speed." },
                     { question: "Does Anker 25W get hot during charging?", answer: "No, efficient thermal design with ActiveShield keeps it cool even at full 25W output." },
                     { question: "What is the warranty for Anker 25W in Egypt?", answer: "18-month warranty from Cairo Volt—longer than Samsung original. Covers defects with instant replacement." },
-                    { question: "Where to buy original Anker 25W in Egypt?", answer: "Buy from Cairo Volt—authorized distributor. EGP 512, 18-month warranty, next-day Cairo delivery." }
+                    { question: "Where to buy original Anker 25W in Egypt?", answer: "Buy from Cairo Volt—authorized distributor. EGP 550, 18-month warranty, next-day Cairo delivery." }
                 ]
             },
             ar: {
@@ -119,7 +119,7 @@ export const anker_powerport_25w = {
         <li>⚡ <strong>25 واط PPS:</strong> سامسونج S26 Super Fast Charging — 0% لـ 50% في 26 دقيقة.</li>
         <li>📱 <strong>متوافق ايفون:</strong> يشحن ايفون 17 بسرعة (0-50% في 28 دقيقة).</li>
         <li>🛡️ <strong>ActiveShield 2.0:</strong> يراقب الحرارة 3 مليون مرة/يوم.</li>
-        <li>📏 <strong>صغير 4.5 سم:</strong> أصغر من شاحن سامسونج الأصلي. سعر 512 جنيه.</li>
+        <li>📏 <strong>صغير 4.5 سم:</strong> أصغر من شاحن سامسونج الأصلي. سعر 550 جنيه.</li>
     </ul>
 </div>
 
@@ -181,10 +181,10 @@ export const anker_powerport_25w = {
                     "📏 صغير 4.5 سم",
                     "🏆 ضمان 18 شهر (ضد 12 من سامسونج)"
                 ],
-                metaTitle: "شاحن انكر 25 واط PPS | سامسونج S26 سوبر فاست | 512 جنيه مصر",
-                metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بـ 512 جنيه. سامسونج S26 سوبر فاست 0-50% في 26 دقيقة. متوافق ايفون 17. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+                metaTitle: "شاحن انكر 25 واط PPS | سامسونج S26 سوبر فاست | 550 جنيه مصر",
+                metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بـ 550 جنيه. سامسونج S26 سوبر فاست 0-50% في 26 دقيقة. متوافق ايفون 17. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
-                    { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 512 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
+                    { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 550 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل شاحن انكر 25 واط يدعم Samsung Super Fast Charging؟", answer: "نعم! يدعم تقنية PPS التي تفتح سرعة Super Fast Charging الكاملة لـ Samsung S26/S25. يشحن من 0% لـ 50% في 26 دقيقة." },
                     { question: "ما الفرق بين شاحن انكر 20 واط و 25 واط؟", answer: "20 واط مثالي لـ iPhone. 25 واط يدعم PPS لشحن Samsung S26 بأقصى سرعة. الفرق 9 دقائق في شحن S26." },
                     { question: "هل شاحن انكر 25 واط يشحن iPhone 17 بسرعة؟", answer: "نعم، يشحن iPhone 17 من 0% لـ 50% في 28 دقيقة. لكن 20 واط كافٍ لـ iPhone، 25 واط أفضل لـ Samsung." },
@@ -193,7 +193,7 @@ export const anker_powerport_25w = {
                     { question: "هل شاحن انكر 25 واط يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. استخدم كابل USB-C to USB-C عالي الجودة للحصول على السرعة الكاملة." },
                     { question: "هل شاحن انكر 25 واط يسخن؟", answer: "لا، تصميم فعال للحرارة مع ActiveShield يضمن بقاء الشاحن بارداً حتى عند 25 واط كاملة." },
                     { question: "ما ضمان شاحن انكر 25 واط في مصر؟", answer: "ضمان 18 شهر من Cairo Volt - أطول من ضمان سامسونج الأصلي. يغطي عيوب الصناعة مع استبدال فوري." },
-                    { question: "أين أشتري شاحن انكر 25 واط الأصلي في مصر؟", answer: "اشتري من Cairo Volt - الموزع المعتمد. سعر 512 جنيه، ضمان 18 شهر، توصيل القاهرة يوم واحد." }
+                    { question: "أين أشتري شاحن انكر 25 واط الأصلي في مصر؟", answer: "اشتري من Cairo Volt - الموزع المعتمد. سعر 550 جنيه، ضمان 18 شهر، توصيل القاهرة يوم واحد." }
                 ]
             }
         },

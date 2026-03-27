@@ -245,9 +245,9 @@ export async function GET(req: NextRequest) {
                 url: `https://cairovolt.com/${(product.brand as string || '').toLowerCase()}/${product.categorySlug}/${product.slug}`,
             },
             shipping: {
-                fee: price >= 500 ? 0 : 40,
+                fee: price >= 1350 ? 0 : 40,
                 currency: 'EGP',
-                freeAbove: 500,
+                freeAbove: 1350,
                 estimatedDays: { min: 1, max: 5 },
             },
             payment: {
@@ -372,7 +372,7 @@ export async function POST(req: NextRequest) {
         const quantity = Math.max(1, Number(data.quantity) || 1);
         const price = Number(product.price) || 0;
         const totalProducts = price * quantity;
-        const shippingFee = totalProducts >= 500 ? 0 : 40;
+        const shippingFee = totalProducts >= 1350 ? 0 : 40;
         const totalAmount = totalProducts + shippingFee;
 
         const translations = product.translations as Record<string, Record<string, string>> | undefined;

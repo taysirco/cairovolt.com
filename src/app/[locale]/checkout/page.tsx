@@ -174,7 +174,7 @@ export default function CheckoutPage() {
 
         const formData = new FormData(event.currentTarget);
 
-        const shipping = totalAmount >= 500 ? 0 : 40;
+        const shipping = totalAmount >= 1350 ? 0 : 40;
         const finalTotal = totalAmount + shipping;
         const city = formData.get('city') as string;
         const cityLabel = governorates.find(g => g.value === city)?.label || city;
@@ -213,8 +213,8 @@ export default function CheckoutPage() {
                 cityLabel: cityLabel,
                 items: cartItems,
                 subtotal: totalAmount,
-                shipping: totalAmount >= 500 ? 0 : 40,
-                total: totalAmount >= 500 ? totalAmount : totalAmount + 40,
+                shipping: totalAmount >= 1350 ? 0 : 40,
+                total: totalAmount >= 1350 ? totalAmount : totalAmount + 40,
                 orderDate: new Date().toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
                     year: 'numeric',
                     month: 'long',

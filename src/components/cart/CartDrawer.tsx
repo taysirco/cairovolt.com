@@ -51,7 +51,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
     }, [isOpen, setIsOpen]);
 
     // Free Shipping Logic
-    const FREE_SHIPPING_THRESHOLD = 500;
+    const FREE_SHIPPING_THRESHOLD = 1350;
     const progress = Math.min((totalAmount / FREE_SHIPPING_THRESHOLD) * 100, 100);
     const amountLeft = FREE_SHIPPING_THRESHOLD - totalAmount;
     const isFreeShipping = totalAmount >= FREE_SHIPPING_THRESHOLD;

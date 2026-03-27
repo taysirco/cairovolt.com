@@ -37,8 +37,8 @@ export const anker_speakers_content: CategoryContent = {
 - **Soundcore Flare 2** - سماعة الحفلات مع إضاءة LED متفاعلة
     `,
                     products: [
-                        { name: 'Soundcore Motion+', price: 2849, badge: 'صوت Hi-Res' },
-                        { name: 'Soundcore Flare 2', price: 3419, badge: 'إضاءة LED' },
+                        { name: 'Soundcore Motion+', price: 3600, badge: 'صوت Hi-Res' },
+                        { name: 'Soundcore Flare 2', price: 2999, badge: 'إضاءة LED' },
                     ]
                 },
                 en: {
@@ -61,8 +61,8 @@ Discover the original **Anker Soundcore Speakers** in Egypt - exceptional audio 
 - **Soundcore Flare 2** - Party speaker with reactive LED lights
     `,
                     products: [
-                        { name: 'Soundcore Motion+', price: 2849, badge: 'Hi-Res Audio' },
-                        { name: 'Soundcore Flare 2', price: 3419, badge: 'LED Lights' },
+                        { name: 'Soundcore Motion+', price: 3600, badge: 'Hi-Res Audio' },
+                        { name: 'Soundcore Flare 2', price: 2999, badge: 'LED Lights' },
                     ]
                 }
             }

@@ -57,7 +57,7 @@ async function getProducts(): Promise<FeedProduct[]> {
                         brand: (p.brand as string) || '',
                         gtin: p.gtin as string | undefined,
                         condition: 'new',
-                        shippingPrice: price >= 500 ? 0 : 40,
+                        shippingPrice: price >= 1350 ? 0 : 40,
                     };
                 });
         }
@@ -87,7 +87,7 @@ async function getProducts(): Promise<FeedProduct[]> {
                 brand: p.brand,
                 gtin: (p as Record<string, unknown>).gtin as string | undefined,
                 condition: 'new',
-                shippingPrice: p.price >= 500 ? 0 : 40,
+                shippingPrice: p.price >= 1350 ? 0 : 40,
             };
         });
 }

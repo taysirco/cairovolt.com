@@ -111,7 +111,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                             </td>
                             <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm text-gray-900 dark:text-white">
                                 1-3 {labels.days}
-                                {product.price >= 500 && (
+                                {product.price >= 1350 && (
                                     <span className="ms-1 text-green-600 text-[10px] md:text-xs block md:inline">({labels.free})</span>
                                 )}
                             </td>

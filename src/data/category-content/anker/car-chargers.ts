@@ -56,9 +56,9 @@ export const anker_car_chargers_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Anker PowerDrive Speed+ 2', price: 656, badge: 'PD سريع' },
-                        { name: 'Anker 323 Car Charger (52W)', price: 656, badge: 'الأقوى' },
-                        { name: 'Anker Mini Alloys', price: 656, badge: 'معدني' },
+                        { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD سريع' },
+                        { name: 'Anker 323 Car Charger (52W)', price: 950, badge: 'الأقوى' },
+                        { name: 'Anker Mini Alloys', price: 950, badge: 'معدني' },
                     ]
                 },
                 en: {
@@ -100,9 +100,9 @@ No. Anker chargers draw negligible power when the car is off, ensuring your car 
                         }
                     ],
                     products: [
-                        { name: 'Anker PowerDrive Speed+ 2', price: 656, badge: 'PD Fast' },
-                        { name: 'Anker 323 Car Charger (52W)', price: 656, badge: 'Powerful' },
-                        { name: 'Anker Mini Alloys', price: 656, badge: 'Metallic' },
+                        { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD Fast' },
+                        { name: 'Anker 323 Car Charger (52W)', price: 950, badge: 'Powerful' },
+                        { name: 'Anker Mini Alloys', price: 950, badge: 'Metallic' },
                     ]
                 }
             }

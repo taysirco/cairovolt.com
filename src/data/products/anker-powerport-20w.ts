@@ -8,8 +8,8 @@ export const anker_powerport_20w = {
         gtin: "0194644031274",
         gtin13: "0194644031274",
         mpn: "A2347K11",
-        price: 379,
-        originalPrice: 449,
+        price: 400,
+        originalPrice: 450,
         stock: 100,
         featured: true,
         status: "active",
@@ -32,14 +32,14 @@ export const anker_powerport_20w = {
         <li>⚡ <strong>20W USB-C PD:</strong> iPhone 17 from 0% to 50% in just 30 minutes (3x faster than 5W).</li>
         <li>📏 <strong>Ultra-Compact:</strong> Only 4cm — smaller than a matchbox. Perfect for travel.</li>
         <li>🛡️ <strong>MultiProtect:</strong> 10-layer safety against overheating, short circuits, overcharging.</li>
-        <li>💰 <strong>EGP 379:</strong> 18-month warranty. Next-day Cairo delivery. Cash on delivery.</li>
+        <li>💰 <strong>EGP 400:</strong> 18-month warranty. Next-day Cairo delivery. Cash on delivery.</li>
     </ul>
 </div>
 
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "We replaced the 5W charger that came with an iPhone 14 with this Anker 20W and the difference was jaw-dropping. Morning routine test: plugged in at 7:00am with 15% battery, by 7:30am it was at 68%. That's the difference between leaving the house with anxiety and leaving with confidence. We tested it on a power strip with 4 other devices in a Dokki apartment — zero heat issues. At 4cm, it takes up less space on the outlet than the old Apple 5W brick. For EGP 379, this is the single best upgrade any iPhone owner in Egypt can make."
+        "We replaced the 5W charger that came with an iPhone 14 with this Anker 20W and the difference was jaw-dropping. Morning routine test: plugged in at 7:00am with 15% battery, by 7:30am it was at 68%. That's the difference between leaving the house with anxiety and leaving with confidence. We tested it on a power strip with 4 other devices in a Dokki apartment — zero heat issues. At 4cm, it takes up less space on the outlet than the old Apple 5W brick. For EGP 400, this is the single best upgrade any iPhone owner in Egypt can make."
         <br>
         <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
     </p>
@@ -95,10 +95,10 @@ export const anker_powerport_20w = {
                     "🇸🇦 UK-Style Plug (Egypt Compatible)",
                     "🏆 18-Month Warranty"
                 ],
-                metaTitle: "Anker 20W Charger iPhone 17 | EGP 379 | Fast Charge Egypt 2026",
-                metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 379. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Replacement Warranty ✓ 24-48H Shipping.",
+                metaTitle: "Anker 20W Charger iPhone 17 | EGP 400 | Fast Charge Egypt 2026",
+                metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 400. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Replacement Warranty ✓ 24-48H Shipping.",
                 faqs: [
-                    { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 379 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
+                    { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 400 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 20W fast charge iPhone 17?", answer: "Yes, it charges iPhone 17 from 0% to 50% in just 30 minutes—3x faster than the standard 5W charger." },
                     { question: "Does Anker 20W work with Samsung S26?", answer: "Yes, 100% compatible. Provides 20W charging for S26. For maximum speed (25W), choose Anker 25W charger." },
                     { question: "What is the difference between Anker 20W and 25W?", answer: "20W is ideal for iPhone (max speed). 25W is better for Samsung S26 to utilize Super Fast Charging." },
@@ -121,14 +121,14 @@ export const anker_powerport_20w = {
         <li>⚡ <strong>20 وات USB-C PD:</strong> ايفون 17 من 0% لـ 50% في 30 دقيقة (أسرع 3× من 5 وات).</li>
         <li>📏 <strong>صغير جداً:</strong> 4 سم فقط — أصغر من علبة الكبريت. مثالي للسفر.</li>
         <li>🛡️ <strong>حماية MultiProtect:</strong> 10 طبقات ضد الحرارة والقصر والشحن الزائد.</li>
-        <li>💰 <strong>379 جنيه:</strong> ضمان 18 شهر. توصيل القاهرة يوم واحد. دفع عند الاستلام.</li>
+        <li>💰 <strong>400 جنيه:</strong> ضمان 18 شهر. توصيل القاهرة يوم واحد. دفع عند الاستلام.</li>
     </ul>
 </div>
 
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت استبدلنا شاحن 5 وات اللي جاي مع ايفون 14 بشاحن انكر 20 وات والفرق كان صادم. اختبار روتين الصبح: وصّلناه الساعة 7:00 الصبح والبطارية 15%، بحلول 7:30 كانت 68%. ده الفرق بين إنك تطلع من البيت قلقان وإنك تطلع مطمن. جربناه على مشترك كهربا مع 4 أجهزة تانية في شقة في الدقي — صفر مشاكل حرارة. بـ 4 سم، بياخد مساحة أقل على المشترك من شاحن أبل 5 وات القديم. بـ 379 جنيه، ده أفضل ترقية يقدر يعملها أي مالك ايفون في مصر."
+        "نحن في فريق كايرو فولت استبدلنا شاحن 5 وات اللي جاي مع ايفون 14 بشاحن انكر 20 وات والفرق كان صادم. اختبار روتين الصبح: وصّلناه الساعة 7:00 الصبح والبطارية 15%، بحلول 7:30 كانت 68%. ده الفرق بين إنك تطلع من البيت قلقان وإنك تطلع مطمن. جربناه على مشترك كهربا مع 4 أجهزة تانية في شقة في الدقي — صفر مشاكل حرارة. بـ 4 سم، بياخد مساحة أقل على المشترك من شاحن أبل 5 وات القديم. بـ 400 جنيه، ده أفضل ترقية يقدر يعملها أي مالك ايفون في مصر."
         <br>
         <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
     </p>
@@ -184,10 +184,10 @@ export const anker_powerport_20w = {
                     "🇸🇦 قابس UK-Style (متوافق مصر)",
                     "🏆 ضمان 18 شهر"
                 ],
-                metaTitle: "شاحن انكر 20 وات | 379 جنيه | شحن سريع ايفون 17 مصر 2026",
-                metaDesc: "اشتري شاحن انكر 20 وات الأصلي في مصر بـ 379 جنيه. ايفون 17 من 0-50% في 30 دقيقة. صغير 4سم. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام.",
+                metaTitle: "شاحن انكر 20 وات | 400 جنيه | شحن سريع ايفون 17 مصر 2026",
+                metaDesc: "اشتري شاحن انكر 20 وات الأصلي في مصر بـ 400 جنيه. ايفون 17 من 0-50% في 30 دقيقة. صغير 4سم. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام.",
                 faqs: [
-                    { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "سعر شاحن انكر 20 وات في مصر هو 379 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
+                    { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "سعر شاحن انكر 20 وات في مصر هو 400 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل شاحن انكر 20 وات يشحن iPhone 17 بسرعة؟", answer: "نعم، يشحن iPhone 17 من 0% إلى 50% في 30 دقيقة فقط - أسرع 3 مرات من الشاحن العادي 5 وات." },
                     { question: "هل شاحن انكر 20 وات يعمل مع Samsung S26؟", answer: "نعم، متوافق 100%. يوفر شحن 20 واط لـ S26. للسرعة القصوى (25W)، اختر شاحن انكر 25 واط." },
                     { question: "ما الفرق بين شاحن انكر 20 وات و 25 وات؟", answer: "20 واط مثالي لـ iPhone (أقصى سرعة). 25 واط أفضل لـ Samsung S26 للاستفادة من Super Fast Charging." },

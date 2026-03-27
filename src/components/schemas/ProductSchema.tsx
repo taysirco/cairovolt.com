@@ -357,7 +357,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@type': 'OfferShippingDetails',
                 shippingRate: {
                     '@type': 'MonetaryAmount',
-                    value: product.price >= 500 ? "0.00" : "40.00",
+                    value: product.price >= 1350 ? "0.00" : "40.00",
                     currency: 'EGP',
                 },
                 shippingDestination: {
@@ -433,7 +433,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     '@type': 'OfferShippingDetails',
                     shippingRate: {
                         '@type': 'MonetaryAmount',
-                        value: product.price >= 500 ? "0.00" : "40.00",
+                        value: product.price >= 1350 ? "0.00" : "40.00",
                         currency: 'EGP',
                     },
                     shippingDestination: {

@@ -160,7 +160,7 @@
         "officialDealer": "Official Dealer"
     },
     "Promo": {
-        "freeShipping": "Free shipping for orders over 500 EGP",
+        "freeShipping": "Free shipping for orders over 1,350 EGP",
         "fastDelivery": "Fast delivery 2-3 days",
         "originalProducts": "100% Original Products",
         "officialWarranty": "Official Warranty",
@@ -180,7 +180,7 @@
     },
     "Shipping": {
         "metaTitle": "Shipping & Delivery",
-        "metaDescription": "Free shipping on orders over 500 EGP. Fast delivery across Egypt in 1-5 days.",
+        "metaDescription": "Free shipping on orders over 1,350 EGP. Fast delivery across Egypt in 1-5 days.",
         "title": "Shipping & Delivery",
         "deliveryAreas": {
             "title": "Delivery Areas",
@@ -200,8 +200,8 @@
         },
         "shippingCost": {
             "title": "Shipping Cost",
-            "freeShipping": "🎉 Free shipping for orders over 500 EGP!",
-            "belowMinimum": "Orders under 500 EGP: 40 EGP flat rate"
+            "freeShipping": "🎉 Free shipping for orders over 1,350 EGP!",
+            "belowMinimum": "Orders under 1,350 EGP: 40 EGP flat rate"
         },
         "cod": {
             "title": "Cash on Delivery",
@@ -257,7 +257,7 @@
                 "q2": "Can I modify my order after placing it?",
                 "a2": "Contact us within 1 hour of placing your order and we can make changes.",
                 "q3": "Is there a minimum order amount?",
-                "a3": "No minimum order. However, orders under 500 EGP have a 40 EGP shipping fee."
+                "a3": "No minimum order. However, orders under 1,350 EGP have a 40 EGP shipping fee."
             },
             "shipping": {
                 "title": "Shipping",
@@ -447,7 +447,7 @@
             },
             "shipping": {
                 "title": "Shipping & Delivery",
-                "content": "• Delivery times are estimates, not guarantees\n• Free shipping for orders over 500 EGP\n• Cash on Delivery is available\n• Risk of loss transfers upon delivery"
+                "content": "• Delivery times are estimates, not guarantees\n• Free shipping for orders over 1,350 EGP\n• Cash on Delivery is available\n• Risk of loss transfers upon delivery"
             },
             "returns": {
                 "title": "Returns & Exchanges",

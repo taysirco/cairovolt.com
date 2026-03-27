@@ -275,7 +275,7 @@ export async function POST(req: NextRequest) {
 
     // ── 7. Create Order in Firestore ──
     const price = Number(product.price) || 0;
-    const shippingFee = price >= 500 ? 0 : 40;
+    const shippingFee = price >= 1350 ? 0 : 40;
     const totalAmount = price + shippingFee;
     const translations = product.translations as
         Record<string, Record<string, string>> | undefined;
@@ -375,7 +375,7 @@ export async function POST(req: NextRequest) {
                 shipping: shippingFee,
                 total: totalAmount,
                 currency: 'EGP',
-                ...(price >= 500 && {
+                ...(price >= 1350 && {
                     freeShippingNote: input.locale === 'ar'
                         ? 'شحن مجاني ✅'
                         : 'Free shipping ✅',
@@ -464,9 +464,9 @@ export async function GET(req: NextRequest) {
                 image: primaryImage ? `https://cairovolt.com${primaryImage}` : null,
             },
             shipping: {
-                fee: price >= 500 ? 0 : 40,
+                fee: price >= 1350 ? 0 : 40,
                 currency: 'EGP',
-                freeAbove: 500,
+                freeAbove: 1350,
                 estimatedDays: { min: 1, max: 5 },
             },
             quick_buy: {

@@ -23,7 +23,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
     <p><strong>باختصار:</strong> كابل USB-C رخيص ممكن يقلل سرعة شحنك 70%. الكابل الغلط مش بس بطيء — ده ممكن يضر موبايلك. أفضل خيار: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine 60W</a>. أفضل خيار اقتصادي: <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a>.</p>
 </div>
 
-<p>اسألك سؤال: لو اشتريت شاحن 45 واط بـ 759 جنيه — هتوصلّه بإيه؟</p>
+<p>اسألك سؤال: لو اشتريت شاحن 45 واط بـ 770 جنيه — هتوصلّه بإيه؟</p>
 <p>أغلب الناس بتجاوب: "أي كابل". وهنا بالظبط المشكلة.</p>
 <p>تخيل إنك اشتريت مضخة مياه قوية وربطتها بخرطوم رفيع مقطوع. المضخة تمام، الخرطوم هو اللي خرّب كل حاجة. <strong>الكابل هو نفس الدور بالظبط</strong> — هو القناة اللي بيعدي منها التيار من الشاحن للموبايل. كابل رفيع أو تقليد = تيار ضعيف = شحن بطيء = سخونة = ضرر.</p>
 
@@ -107,7 +107,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 </tbody>
 </table>
 
-<p><strong>لاحظ:</strong> الكابل التقليد شحن بـ 11.6 واط فقط من شاحن 45 واط! ده معناه إنك دافع 759 جنيه في شاحن وبتستفيد بربع قوته بس. ونقل 1GB من الملفات أخد <strong>9 دقائق بدل 12 ثانية</strong> — أبطأ 45 مرة!</p>
+<p><strong>لاحظ:</strong> الكابل التقليد شحن بـ 11.6 واط فقط من شاحن 45 واط! ده معناه إنك دافع 770 جنيه في شاحن وبتستفيد بربع قوته بس. ونقل 1GB من الملفات أخد <strong>9 دقائق بدل 12 ثانية</strong> — أبطأ 45 مرة!</p>
 
 <h2>لكن يا جماعة… ليه كابل بـ 35 جنيه خطر؟</h2>
 <p>مش بس بطيء — ده ممكن يضر:</p>
@@ -192,7 +192,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
     <p><strong>In short:</strong> A cheap USB-C cable can cut your charging speed by 70%. The wrong cable isn't just slow — it can harm your phone. Best pick: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine 60W</a>. Best budget pick: <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a>.</p>
 </div>
 
-<p>Let me ask you something: if you bought a 45-watt charger for EGP 759 — what would you plug into it?</p>
+<p>Let me ask you something: if you bought a 45-watt charger for EGP 770 — what would you plug into it?</p>
 <p>Most people answer: "any cable." And that's exactly where the problem starts.</p>
 <p>Imagine buying a powerful water pump and connecting it with a thin, torn hose. The pump is fine — the hose ruined everything. <strong>The cable plays exactly the same role</strong> — it's the channel through which current flows from charger to phone. A thin or counterfeit cable = weak current = slow charging = heat = damage.</p>
 
@@ -276,7 +276,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 </tbody>
 </table>
 
-<p><strong>Notice:</strong> The counterfeit cable only delivered 11.6W from a 45W charger! That means you paid EGP 759 for a charger and you're only using a quarter of its power. And transferring 1GB of files took <strong>9 minutes instead of 12 seconds</strong> — 45x slower!</p>
+<p><strong>Notice:</strong> The counterfeit cable only delivered 11.6W from a 45W charger! That means you paid EGP 770 for a charger and you're only using a quarter of its power. And transferring 1GB of files took <strong>9 minutes instead of 12 seconds</strong> — 45x slower!</p>
 
 <h2>Why Is a Cable for EGP 35 Dangerous?</h2>
 <p>It's not just slow — it can cause harm:</p>

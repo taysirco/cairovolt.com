@@ -275,11 +275,11 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
             {[
-              { slug: 'anker-powercore-10000', brand: 'Anker', category: 'power-banks', name: isRTL ? 'باور بانك انكر 10000' : 'Anker 10000mAh', price: '1,358', color: 'from-blue-500 to-blue-600' },
+              { slug: 'anker-powercore-10000', brand: 'Anker', category: 'power-banks', name: isRTL ? 'باور بانك انكر 10000' : 'Anker 10000mAh', price: '1,300', color: 'from-blue-500 to-blue-600' },
               { slug: 'joyroom-t03s-pro-earbuds', brand: 'Joyroom', category: 'audio', name: isRTL ? 'سماعة جوي روم T03s' : 'Joyroom T03s Pro', price: '499', color: 'from-red-500 to-red-600' },
-              { slug: 'anker-powerport-20w', brand: 'Anker', category: 'wall-chargers', name: isRTL ? 'شاحن انكر 20W' : 'Anker 20W Charger', price: '449', color: 'from-blue-500 to-blue-600' },
+              { slug: 'anker-powerport-20w', brand: 'Anker', category: 'wall-chargers', name: isRTL ? 'شاحن انكر 20W' : 'Anker 20W Charger', price: '400', color: 'from-blue-500 to-blue-600' },
               { slug: 'joyroom-power-bank-20000', brand: 'Joyroom', category: 'power-banks', name: isRTL ? 'باور بانك جوي روم 20000' : 'Joyroom 20000mAh', price: '749', color: 'from-red-500 to-red-600' },
-              { slug: 'anker-521-powerhouse', brand: 'Anker', category: 'power-banks', name: isRTL ? 'محطة طاقة انكر' : 'Anker PowerHouse', price: '5,999', color: 'from-blue-500 to-blue-600' },
+              { slug: 'anker-521-powerhouse', brand: 'Anker', category: 'power-banks', name: isRTL ? 'محطة طاقة انكر' : 'Anker PowerHouse', price: '11,000', color: 'from-blue-500 to-blue-600' },
               { slug: 'anker-powerline-usb-c-lightning', brand: 'Anker', category: 'cables', name: isRTL ? 'كابل انكر للايفون' : 'Anker iPhone Cable', price: '299', color: 'from-blue-500 to-blue-600' },
             ].map((item) => (
               <Link
@@ -567,11 +567,11 @@ export default function Home() {
             qaList={isRTL ? [
               { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت بمخازن بوسطة بالتجمع الثالث في 37 درجة. بيشغل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.' },
               { question: 'إيه يضمنلي إن منتجات كايرو فولت أصلية؟', answer: 'كايرو فولت شركة مسجلة رسمياً (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
-              { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، شحن 40 جنيه أو مجاني فوق 500 جنيه.' },
+              { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، شحن 40 جنيه أو مجاني فوق 1,350 جنيه.' },
             ] : [
               { question: 'Does the Anker 737 power bank run a WE router during power outages?', answer: 'Yes, we tested it at CairoVolt\'s Bosta warehouse in New Cairo 3 at 37°C. It ran a WE VDSL router for 14 hours 22 minutes continuously without restart.' },
               { question: 'How can I verify CairoVolt products are original?', answer: 'CairoVolt is officially registered (CR: 8446). Every product is sealed with the original barcode verifiable on Anker\'s website. 18-month warranty.' },
-              { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Flat 40 EGP shipping or free above 500 EGP.' },
+              { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Flat 40 EGP shipping or free above 1,350 EGP.' },
             ]}
           />
         </section>

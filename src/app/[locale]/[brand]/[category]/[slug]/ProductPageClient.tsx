@@ -345,7 +345,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                 </div>
                             )}
 
-                            <div className="w-full h-full flex items-center justify-center p-8 relative">
+                            <div className="w-full h-full relative">
                                 {primaryImage ? (
                                     <ProductImage
                                         src={primaryImage}
@@ -356,7 +356,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                         fill
                                         priority
                                         sizes="(max-width: 768px) 100vw, 50vw"
-                                        imageClassName="object-contain p-8 transition-transform hover:scale-105"
+                                        imageClassName="object-cover transition-transform hover:scale-105"
                                         isPrimary
                                         locale={locale}
                                     />

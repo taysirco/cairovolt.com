@@ -9,8 +9,8 @@ interface ChargingSpeedCalculatorProps {
 const CHARGERS = [
     { name: '5W (القديم)', nameEn: '5W (Old)', watt: 5, to50: 90, to100: 210 },
     { name: '10W', nameEn: '10W', watt: 10, to50: 55, to100: 150 },
-    { name: '20W (Anker)', nameEn: '20W (Anker)', watt: 20, to50: 30, to100: 90, price: 379 },
-    { name: '25W PPS (Anker)', nameEn: '25W PPS (Anker)', watt: 25, to50: 27, to100: 80, price: 449 },
+    { name: '20W (Anker)', nameEn: '20W (Anker)', watt: 20, to50: 30, to100: 90, price: 400 },
+    { name: '25W PPS (Anker)', nameEn: '25W PPS (Anker)', watt: 25, to50: 27, to100: 80, price: 550 },
     { name: '30W GaN (Anker Nano)', nameEn: '30W GaN (Anker Nano)', watt: 30, to50: 22, to100: 72, price: 549 },
     { name: '65W GaN (Anker)', nameEn: '65W GaN (Anker)', watt: 65, to50: 22, to100: 70, price: 999 },
 ];

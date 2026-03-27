@@ -135,10 +135,10 @@ export const anker_power_banks_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1054, badge: 'الأكثر طلباً' },
-                        { name: 'Anker Nano 10000mAh', price: 1358, badge: 'حجم صغير' },
-                        { name: 'Anker Prime 27650mAh (250W)', price: 3799, badge: 'لأجهزة M5' },
-                        { name: 'Anker 737 Power Bank', price: 4274, badge: 'Premium' },
+                        { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'الأكثر طلباً' },
+                        { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
+                        { name: 'Anker Prime 27650mAh (250W)', price: 2300, badge: 'لأجهزة M5' },
+                        { name: 'Anker 737 Power Bank', price: 4999, badge: 'Premium' },
                     ]
                 },
                 en: {
@@ -198,10 +198,10 @@ export const anker_power_banks_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1054, badge: 'Best Seller' },
-                        { name: 'Anker Nano 10000mAh', price: 1358, badge: 'Compact' },
-                        { name: 'Anker Prime 27650mAh (250W)', price: 3799, badge: 'For M5 Chips' },
-                        { name: 'Anker 737 Power Bank', price: 4274, badge: 'Flagship' },
+                        { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1550, badge: 'Best Seller' },
+                        { name: 'Anker Nano 10000mAh', price: 1300, badge: 'Compact' },
+                        { name: 'Anker Prime 27650mAh (250W)', price: 2300, badge: 'For M5 Chips' },
+                        { name: 'Anker 737 Power Bank', price: 4999, badge: 'Flagship' },
                     ]
                 }
             }

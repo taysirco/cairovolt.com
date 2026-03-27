@@ -86,7 +86,7 @@ export const chargers_generic: GenericCategory = {
 <h2 id="best-samsung-charger">أفضل شاحن سامسونج S26 في مصر (25-45 واط)</h2>
 <p><strong>شاحن سامسونج S26</strong> يحتاج دعم <strong>PPS</strong> (وليس PD فقط) لتشغيل Super Fast Charging. بدون PPS لن تحصل على أقصى سرعة:</p>
 <ul>
-<li><strong>شاحن 25W PPS:</strong> يشغّل Super Fast Charging لأغلب أجهزة Samsung — ~449 جنيه</li>
+<li><strong>شاحن 25W PPS:</strong> يشغّل Super Fast Charging لأغلب أجهزة Samsung — ~550 جنيه</li>
 <li><strong>شاحن 33W PD+QC (منفذين):</strong> يشحن iPhone و Samsung معاً من نفس الشاحن — ~399 جنيه</li>
 <li><strong>شاحن 40-45W (منفذين):</strong> شحن فائق السرعة لـ S26 Ultra + جهاز ثاني — ~699 جنيه</li>
 <li><strong>شاحن 65W (لابتوب + موبايل):</strong> شاحن واحد يكفي كل أجهزتك — لابتوب + موبايل + تابلت — ~1,199 جنيه</li>
@@ -98,7 +98,7 @@ export const chargers_generic: GenericCategory = {
 <tbody>
 <tr><td>Joyroom 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (ميزانية)</td><td>~299</td></tr>
 <tr><td>Anker Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (سفر)</td><td>~399</td></tr>
-<tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~449</td></tr>
+<tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~550</td></tr>
 <tr><td><strong>Anker 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (أقصى سرعة)</strong></td><td><strong>~549</strong></td></tr>
 <tr><td>Joyroom 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>جهازين معاً</td><td>~399</td></tr>
 <tr><td>Anker 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
@@ -161,7 +161,7 @@ export const chargers_generic: GenericCategory = {
 <h2 id="best-samsung-charger">Best Samsung S26 Charger in Egypt (25-45W)</h2>
 <p>A <strong>Samsung S26 charger</strong> needs <strong>PPS</strong> support (not just PD) for Super Fast Charging. Without PPS you won't get maximum speed:</p>
 <ul>
-<li><strong>25W PPS:</strong> Activates Super Fast Charging for most Samsung devices — ~EGP 449</li>
+<li><strong>25W PPS:</strong> Activates Super Fast Charging for most Samsung devices — ~EGP 550</li>
 <li><strong>33W PD+QC (dual port):</strong> Charges iPhone and Samsung together from one charger — ~EGP 399</li>
 <li><strong>40-45W (dual port):</strong> Ultra-fast charging for S26 Ultra + a second device — ~EGP 699</li>
 <li><strong>65W (laptop + phone):</strong> One charger for all your devices — laptop + phone + tablet — ~EGP 1,199</li>
@@ -173,7 +173,7 @@ export const chargers_generic: GenericCategory = {
 <tbody>
 <tr><td>Joyroom 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (budget)</td><td>~299</td></tr>
 <tr><td>Anker Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (travel)</td><td>~399</td></tr>
-<tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~449</td></tr>
+<tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~550</td></tr>
 <tr><td><strong>Anker 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (max speed)</strong></td><td><strong>~549</strong></td></tr>
 <tr><td>Joyroom 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>Two devices</td><td>~399</td></tr>
 <tr><td>Anker 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>

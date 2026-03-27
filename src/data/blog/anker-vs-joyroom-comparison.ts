@@ -37,7 +37,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 <tr><td><strong>الشحن السريع</strong></td><td>PowerIQ 4.0 + GaN</td><td>22.5W QC</td><td>🔵 Anker</td></tr>
 <tr><td><strong>الأمان</strong></td><td>MultiProtect 11 نقطة</td><td>حماية قياسية</td><td>🔵 Anker</td></tr>
 <tr><td><strong>الضمان في مصر</strong></td><td>18 شهر</td><td>12 شهر</td><td>🔵 Anker</td></tr>
-<tr><td><strong>السعر</strong></td><td>أعلى (1,054+ ج)</td><td>أقل (~450+ ج)</td><td>🔴 Joyroom</td></tr>
+<tr><td><strong>السعر</strong></td><td>أعلى (1,550+ ج)</td><td>أقل (~450+ ج)</td><td>🔴 Joyroom</td></tr>
 <tr><td><strong>تنوع المنتجات</strong></td><td>واسع جداً</td><td>متوسط</td><td>🔵 Anker</td></tr>
 <tr><td><strong>سماعات بلوتوث</strong></td><td>Soundcore (ممتازة)</td><td>جيدة (t03s)</td><td>🔵 Anker</td></tr>
 <tr><td><strong>التقييم العالمي</strong></td><td>4.9/5 أمازون</td><td>4.5/5</td><td>🔵 Anker</td></tr>
@@ -47,12 +47,12 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 <h2>المقارنة حسب الفئة</h2>
 
 <h3>1. باور بانك</h3>
-<p><strong>Anker:</strong> PowerCore 20000mAh بـ 1,054 ج — خلايا Grade-A، شحن سريع PowerIQ، ضمان 18 شهر.</p>
+<p><strong>Anker:</strong> PowerCore 20000mAh بـ 1,550 ج — خلايا Grade-A، شحن سريع PowerIQ، ضمان 18 شهر.</p>
 <p><strong>Joyroom:</strong> 20000mAh بـ ~650 ج — شحن 22.5W، تصميم أنيق، ضمان 12 شهر.</p>
 <p><strong>الحكم:</strong> لو ميزانيتك تسمح، انكر أفضل بفارق واضح في الجودة. لو محدود الميزانية، جوي روم ممتاز بالسعر.</p>
 
 <h3>2. شواحن حائط</h3>
-<p><strong>Anker:</strong> تقنية GaN (أصغر 50%) + ActiveShield للحماية. من 379 ج (20W) لـ 1,299 ج (100W).</p>
+<p><strong>Anker:</strong> تقنية GaN (أصغر 50%) + ActiveShield للحماية. من 400 ج (20W) لـ 1,299 ج (100W).</p>
 <p><strong>Joyroom:</strong> شواحن عملية بأسعار أقل. شاحن 20W بحوالي 200 ج.</p>
 <p><strong>الحكم:</strong> انكر يتفوق بتقنية GaN التي تجعل الشاحن أصغر وأكفأ. لكن جوي روم كافي للاستخدام العادي.</p>
 
@@ -120,19 +120,19 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
     <tr><td><strong>Fast Charging </strong></td > <td>PowerIQ 4.0 + GaN </td><td>22.5W QC</td > <td>🔵 Anker </td></tr >
     <tr><td><strong>Safety </strong></td > <td>MultiProtect 11 - point </td><td>Standard</td > <td>🔵 Anker </td></tr >
     <tr><td><strong>Egypt Warranty </strong></td > <td>18 months </td><td>12 months</td > <td>🔵 Anker </td></tr >
-    <tr><td><strong>Price </strong></td > <td>Higher(EGP 1,054 +) </td><td>Lower (~EGP 450+)</td > <td>🔴 Joyroom </td></tr >
+    <tr><td><strong>Price </strong></td > <td>Higher(EGP 1,550 +) </td><td>Lower (~EGP 450+)</td > <td>🔴 Joyroom </td></tr >
     </tbody>
     </table>
 
     <h2> Category - by - Category Comparison </h2>
 
     <h3> 1. Power Banks </h3>
-    <p><strong>Anker:</strong> <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">PowerCore 20000mAh</a> at EGP 1,054 — Grade-A cells, PowerIQ fast charging, 18-month warranty.</p>
+    <p><strong>Anker:</strong> <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">PowerCore 20000mAh</a> at EGP 1,550 — Grade-A cells, PowerIQ fast charging, 18-month warranty.</p>
     <p><strong>Joyroom:</strong> <a href="/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">20000mAh</a> at ~EGP 650 — 22.5W charging, sleek design, 12-month warranty.</p>
     <p><strong>Verdict: </strong> Anker clearly wins on quality if budget allows. Joyroom is excellent value for money.</p>
 
     <h3>2. Wall Chargers </h3>
-    <p> <strong>Anker: </strong> GaN technology (50% smaller) + ActiveShield protection. From EGP 379 (20W) to EGP 1,299 (100W).</p>
+    <p> <strong>Anker: </strong> GaN technology (50% smaller) + ActiveShield protection. From EGP 400 (20W) to EGP 1,299 (100W).</p>
     <p><strong>Joyroom: </strong> Practical chargers at lower prices. 20W charger at ~EGP 200.</p>
     <p><strong>Verdict: </strong> Anker wins with GaN tech making chargers smaller and more efficient. But Joyroom is sufficient for basic use.</p>
 

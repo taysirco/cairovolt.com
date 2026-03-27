@@ -270,7 +270,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `كايرو فولت بتوصلوا لـ ${govName} ولا لازم أنزل أشتري؟`,
-                answer: `بنوصلك لحد عتبة بابك في ${govName} خلال ${deliveryDays} يوم عن طريق شركة بوسطة. الشحن بـ 40 جنيه ومجاني لو الطلب فوق 500 جنيه. وطبعاً كاش عند الاستلام — مش محتاج تدفع حاجة قبل ما الأوردر يوصلك.`,
+                answer: `بنوصلك لحد عتبة بابك في ${govName} خلال ${deliveryDays} يوم عن طريق شركة بوسطة. الشحن بـ 40 جنيه ومجاني لو الطلب فوق 1,350 جنيه. وطبعاً كاش عند الاستلام — مش محتاج تدفع حاجة قبل ما الأوردر يوصلك.`,
             },
         ],
         delta: [
@@ -288,7 +288,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `هل ممكن توصلوا لـ ${govName}؟`,
-                answer: `أكيد! بنوصل لكل محافظات الدلتا عن طريق بوسطة. ${govName} خلال ${deliveryDays} أيام. الشحن 40 جنيه بس — ومجاني فوق 500 جنيه. والأهم: الدفع عند الاستلام يعني مش هتدفع قرش قبل ما تتطمن.`,
+                answer: `أكيد! بنوصل لكل محافظات الدلتا عن طريق بوسطة. ${govName} خلال ${deliveryDays} أيام. الشحن 40 جنيه بس — ومجاني فوق 1,350 جنيه. والأهم: الدفع عند الاستلام يعني مش هتدفع قرش قبل ما تتطمن.`,
             },
         ],
         upper: [
@@ -306,7 +306,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `بتوصلوا لحد ${govName} في الصعيد؟`,
-                answer: `طبعاً! بنوصل لكل محافظات الصعيد من أسيوط لأسوان عبر شركة بوسطة. التوصيل لـ ${govName} خلال ${deliveryDays} أيام. الشحن 40 جنيه ومجاني فوق 500 جنيه. الدفع وقت الاستلام — مفيش مخاطرة عليك.`,
+                answer: `طبعاً! بنوصل لكل محافظات الصعيد من أسيوط لأسوان عبر شركة بوسطة. التوصيل لـ ${govName} خلال ${deliveryDays} أيام. الشحن 40 جنيه ومجاني فوق 1,350 جنيه. الدفع وقت الاستلام — مفيش مخاطرة عليك.`,
             },
         ],
         canal: [
@@ -324,7 +324,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `كايرو فولت بتوصلوا منطقة القناة؟`,
-                answer: `أكيد! ${govName} من المناطق اللي بنغطيها. التوصيل خلال ${deliveryDays} أيام عبر بوسطة. 40 جنيه شحن — مجاني فوق 500 جنيه. ادفع كاش لما الأوردر يوصل.`,
+                answer: `أكيد! ${govName} من المناطق اللي بنغطيها. التوصيل خلال ${deliveryDays} أيام عبر بوسطة. 40 جنيه شحن — مجاني فوق 1,350 جنيه. ادفع كاش لما الأوردر يوصل.`,
             },
         ],
         coastal: [
@@ -342,7 +342,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `بتوصلوا ${govName} على الساحل؟`,
-                answer: `أيوة! كل المناطق الساحلية من اسكندرية لمطروح بنغطيها. ${govName} التوصيل خلال ${deliveryDays} أيام. الشحن بـ 40 جنيه — مجاني فوق 500 جنيه. كاش عند الاستلام.`,
+                answer: `أيوة! كل المناطق الساحلية من اسكندرية لمطروح بنغطيها. ${govName} التوصيل خلال ${deliveryDays} أيام. الشحن بـ 40 جنيه — مجاني فوق 1,350 جنيه. كاش عند الاستلام.`,
             },
         ],
         desert: [
@@ -360,7 +360,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `بتوصلوا ${govName}؟`,
-                answer: `أيوة بنوصل حتى المناطق الحدودية والصحراوية. ${govName} خلال ${deliveryDays} أيام عبر بوسطة. الشحن 40 جنيه — مجاني فوق 500 جنيه. ادفع كاش وقت الاستلام.`,
+                answer: `أيوة بنوصل حتى المناطق الحدودية والصحراوية. ${govName} خلال ${deliveryDays} أيام عبر بوسطة. الشحن 40 جنيه — مجاني فوق 1,350 جنيه. ادفع كاش وقت الاستلام.`,
             },
         ],
     };
@@ -385,7 +385,7 @@ function generateVoiceFaqsEn(
         },
         {
             question: `Does CairoVolt deliver to ${govName}?`,
-            answer: `Yes! Door-to-door delivery to ${govName} in ${deliveryDays} days via Bosta. Shipping is 40 EGP or free above 500 EGP. Cash on delivery available.`,
+            answer: `Yes! Door-to-door delivery to ${govName} in ${deliveryDays} days via Bosta. Shipping is 40 EGP or free above 1,350 EGP. Cash on delivery available.`,
         },
     ];
 }
