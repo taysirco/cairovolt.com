@@ -158,47 +158,41 @@ export async function GET(req: NextRequest) {
     }
 
     try {
-        // Try Firestore first
-        const db = await getFirestore();
+        // Use static data first for accurate pricing (source of truth)
         let product: Record<string, unknown> | null = null;
 
-        if (sku) {
-            const snapshot = await db.collection('products')
-                .where('sku', '==', sku)
-                .limit(1)
-                .get();
-            if (!snapshot.empty) {
-                product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
-            }
-        } else if (slug) {
-            // Direct doc lookup — O(1) since slug = doc ID
-            const doc = await db.collection('products').doc(slug).get();
-            if (doc.exists) {
-                product = { id: doc.id, ...doc.data() };
-            }
-        } else if (search) {
-            product = await smartSearch(search, db);
+        const staticMatch = staticProducts.find(p => {
+            if (sku) return p.sku === sku;
+            if (slug) return p.slug === slug;
+            return false;
+        });
+
+        if (staticMatch) {
+            product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
         }
 
-        // Fallback to static data
+        // For search queries or if not found in static data, try Firestore
         if (!product) {
-            const staticMatch = staticProducts.find(p => {
-                if (sku) return p.sku === sku;
-                if (slug) return p.slug === slug;
+            try {
+                const db = await getFirestore();
                 if (search) {
-                    return scoreProduct({
-                        enName: p.translations.en.name,
-                        arName: p.translations.ar.name,
-                        slug: p.slug,
-                        sku: p.sku || '',
-                        features: p.translations.en.features?.join(' ') || '',
-                    }, search) > 0;
+                    product = await smartSearch(search, db);
+                } else if (sku) {
+                    const snapshot = await db.collection('products')
+                        .where('sku', '==', sku)
+                        .limit(1)
+                        .get();
+                    if (!snapshot.empty) {
+                        product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
+                    }
+                } else if (slug) {
+                    const doc = await db.collection('products').doc(slug).get();
+                    if (doc.exists) {
+                        product = { id: doc.id, ...doc.data() };
+                    }
                 }
-                return false;
-            });
-
-            if (staticMatch) {
-                product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
+            } catch {
+                // Firestore unavailable — continue with what we have
             }
         }
 
@@ -320,33 +314,36 @@ export async function POST(req: NextRequest) {
             }, { status: 400 });
         }
 
-        // Find product
+        // Find product — static data first for accurate pricing
         let product: Record<string, unknown> | null = null;
         const identifier = data.sku || data.slug;
 
-        // Try by SKU first
-        const snapshot = await db.collection('products')
-            .where('sku', '==', identifier)
-            .limit(1)
-            .get();
-
-        if (!snapshot.empty) {
-            product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
+        // Static catalog is the price source of truth
+        const staticMatch = staticProducts.find(p => p.sku === identifier || p.slug === identifier);
+        if (staticMatch) {
+            product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
         }
 
-        // Try by slug — direct doc lookup (O(1))
+        // Fallback: try Firestore if not found in static data
         if (!product) {
-            const doc = await db.collection('products').doc(identifier).get();
-            if (doc.exists) {
-                product = { id: doc.id, ...doc.data() };
-            }
-        }
+            try {
+                const snapshot = await db.collection('products')
+                    .where('sku', '==', identifier)
+                    .limit(1)
+                    .get();
 
-        // Fallback: static data
-        if (!product) {
-            const staticMatch = staticProducts.find(p => p.sku === identifier || p.slug === identifier);
-            if (staticMatch) {
-                product = { id: `static_${staticMatch.slug}`, ...staticMatch } as unknown as Record<string, unknown>;
+                if (!snapshot.empty) {
+                    product = { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
+                }
+
+                if (!product) {
+                    const doc = await db.collection('products').doc(identifier).get();
+                    if (doc.exists) {
+                        product = { id: doc.id, ...doc.data() };
+                    }
+                }
+            } catch {
+                // Firestore unavailable — continue with what we have
             }
         }
 

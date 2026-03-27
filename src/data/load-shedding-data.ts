@@ -77,7 +77,15 @@ const LAB_CONSTANTS = {
     JOYROOM_20K_DEVICES_SIMULTANEOUS: 3,
 };
 
-// Product catalog for recommendations
+import { staticProducts } from '@/lib/static-products';
+
+// Dynamically resolves the current price from the static catalog (source of truth).
+// Falls back to 0 if something is wrong — this should never happen in practice.
+function catalogPrice(slug: string): number {
+    return staticProducts.find(p => p.slug === slug)?.price ?? 0;
+}
+
+// Product catalog for recommendations — prices are ALWAYS from static catalog
 const PRODUCTS: Record<string, OutageProduct> = {
     anker737: {
         slug: 'anker-737-powerbank',
@@ -85,7 +93,7 @@ const PRODUCTS: Record<string, OutageProduct> = {
         nameEn: 'Anker 737 PowerCore 24K',
         labHighlightAr: `يشغل الراوتر ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة`,
         labHighlightEn: `Runs router for ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS}h ${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES}min`,
-        price: 4499,
+        price: catalogPrice('anker-737-powerbank'),
         href: '/anker/power-banks/anker-737-powerbank',
         badgeAr: '⚡ الأكثر مبيعاً وقت الانقطاع',
         badgeEn: '⚡ #1 Outage Bestseller',
@@ -96,7 +104,7 @@ const PRODUCTS: Record<string, OutageProduct> = {
         nameEn: 'Anker 521 PowerHouse',
         labHighlightAr: `يشغل راوتر + مروحة ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة و${LAB_CONSTANTS.ANKER_521_UPS_MINUTES} دقيقة`,
         labHighlightEn: `Router + fan for ${LAB_CONSTANTS.ANKER_521_UPS_HOURS}h ${LAB_CONSTANTS.ANKER_521_UPS_MINUTES}min`,
-        price: 8999,
+        price: catalogPrice('anker-521-powerhouse'),
         href: '/anker/power-stations/anker-521-powerhouse',
         badgeAr: '🏠 UPS منزلي كامل',
         badgeEn: '🏠 Full Home UPS',
@@ -107,7 +115,7 @@ const PRODUCTS: Record<string, OutageProduct> = {
         nameEn: 'Joyroom 20000mAh',
         labHighlightAr: `يشحن 3 موبايلات ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات بالتزامن`,
         labHighlightEn: `3 phones for ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS}h simultaneously`,
-        price: 899,
+        price: catalogPrice('joyroom-power-bank-20000'),
         href: '/joyroom/power-banks/joyroom-power-bank-20000',
         badgeAr: '👨‍👩‍👧‍👦 حل العائلة الاقتصادي',
         badgeEn: '👨‍👩‍👧‍👦 Budget Family Solution',
@@ -118,19 +126,19 @@ const PRODUCTS: Record<string, OutageProduct> = {
         nameEn: 'Anker PowerCore 20000',
         labHighlightAr: `يشحن الأيفون ${LAB_CONSTANTS.ANKER_20K_PHONE_CHARGES} مرات كاملة`,
         labHighlightEn: `${LAB_CONSTANTS.ANKER_20K_PHONE_CHARGES} full iPhone charges`,
-        price: 1799,
+        price: catalogPrice('anker-powercore-20000'),
         href: '/anker/power-banks/anker-powercore-20000',
         badgeAr: '📱 الأفضل للموظفين',
         badgeEn: '📱 Best for Commuters',
     },
     nano30w: {
-        slug: 'anker-nano-30w-charger',
-        nameAr: 'Anker Nano 30W GaN',
-        nameEn: 'Anker Nano 30W GaN',
+        slug: 'anker-nano-45w',
+        nameAr: 'Anker Nano 45W GaN',
+        nameEn: 'Anker Nano 45W GaN',
         labHighlightAr: `آمن مع تذبذب ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE}`,
         labHighlightEn: `Safe at ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} fluctuation`,
-        price: 649,
-        href: '/anker/wall-chargers/anker-nano-30w-charger',
+        price: catalogPrice('anker-nano-45w'),
+        href: '/anker/wall-chargers/anker-nano-45w',
         badgeAr: '🔌 ضد تذبذب الكهرباء',
         badgeEn: '🔌 Voltage-Safe',
     },

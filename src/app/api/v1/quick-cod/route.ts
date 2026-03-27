@@ -60,27 +60,7 @@ async function findProductBySKU(
     sku: string,
     db: FirebaseFirestore.Firestore
 ): Promise<Record<string, unknown> | null> {
-    // 1. Firestore — by SKU
-    const snapshot = await db.collection('products')
-        .where('sku', '==', sku)
-        .where('status', '==', 'active')
-        .limit(1)
-        .get();
-
-    if (!snapshot.empty) {
-        return { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
-    }
-
-    // 2. Firestore — by slug direct lookup (fallback for flexible AI agent input)
-    const slugDoc = await db.collection('products').doc(sku).get();
-    if (slugDoc.exists) {
-        const data = slugDoc.data()!;
-        if (data.status === 'active') {
-            return { id: slugDoc.id, ...data };
-        }
-    }
-
-    // 3. Static catalog fallback (filter by active status to match Firestore behavior)
+    // 1. Static catalog first — source of truth for pricing
     const staticMatch = staticProducts.find(
         p => (p.sku === sku || p.slug === sku) && p.status === 'active'
     );
@@ -89,6 +69,29 @@ async function findProductBySKU(
             id: `static_${staticMatch.slug}`,
             ...staticMatch,
         } as unknown as Record<string, unknown>;
+    }
+
+    // 2. Firestore fallback — for products not in static catalog
+    try {
+        const snapshot = await db.collection('products')
+            .where('sku', '==', sku)
+            .where('status', '==', 'active')
+            .limit(1)
+            .get();
+
+        if (!snapshot.empty) {
+            return { id: snapshot.docs[0].id, ...snapshot.docs[0].data() };
+        }
+
+        const slugDoc = await db.collection('products').doc(sku).get();
+        if (slugDoc.exists) {
+            const data = slugDoc.data()!;
+            if (data.status === 'active') {
+                return { id: slugDoc.id, ...data };
+            }
+        }
+    } catch {
+        // Firestore unavailable — continue with null
     }
 
     return null;
