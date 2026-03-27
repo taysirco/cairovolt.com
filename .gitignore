@@ -53,3 +53,4 @@ functions/.secret.*
 *-keys.json
 cairovolt-*.json
 keyword_analysis_report.md
+tsconfig.tsbuildinfo
