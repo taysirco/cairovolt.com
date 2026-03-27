@@ -3,13 +3,11 @@
  * 
  * Renders CairoVolt product test data as structured HTML
  * 
- * 
- * Key content patterns:
- * - "قمنا باختبار" / "We tested" — first-hand experience trigger
- * - "قسنا" / "We measured" — quantitative measurement trigger 
- * - Quantitative numbers (mAh, hours, °C, W) — empirical data
- * - Balanced review (negativeNotes) — 
- * - Review schema — Enhanced Results based on OUR test, not just customers
+ *
+ * Key content:
+ * - First-hand testing narrative with quantitative data
+ * - Balanced review with positiveNotes and negativeNotes
+ * - Review schema with author, publisher, datePublished
  * 
  * Schema.org compliance:
  * - Review with author (Organization), publisher, datePublished
@@ -55,7 +53,7 @@ export default function ProductTestResults({
         'التحليل الكمي من مختبراتنا (أرقام حقيقية)',
     ];
     const enTitles = [
-        'CairoVolt First-Hand Lab Test (Real Empirical Data)',
+        'CairoVolt First-Hand Lab Test (Real Test Data)',
         'Our Actual Test Results (Exclusive Data)',
         'What We Actually Found in the Lab (Quantitative)',
         'Quantitative Analysis from Our Labs (Real Numbers)',
@@ -297,7 +295,7 @@ export default function ProductTestResults({
 
     return (
         <section
-            id="expert-empirical-testing"
+            id="product-lab-results"
             className="relative overflow-hidden bg-white dark:bg-gradient-to-br dark:from-gray-950 dark:via-slate-900 dark:to-gray-950 rounded-2xl border border-gray-200 dark:border-blue-900/40 shadow-xl"
         >
             {/* Top accent bar */}

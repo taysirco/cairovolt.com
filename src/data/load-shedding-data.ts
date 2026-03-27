@@ -65,7 +65,7 @@ export interface GovernorateOutageData {
     voiceFaqsEn: Array<{ question: string; answer: string }>;
 }
 
-// Lab-verified constants from product-tests.ts
+// Product specification constants
 const LAB_CONSTANTS = {
     ANKER_737_ROUTER_HOURS: 14,
     ANKER_737_ROUTER_MINUTES: 22,

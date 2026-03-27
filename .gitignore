@@ -54,3 +54,8 @@ functions/.secret.*
 cairovolt-*.json
 keyword_analysis_report.md
 tsconfig.tsbuildinfo
+
+# Internal strategy & analysis (never commit)
+analysis_data/
+update-products-pages
+product-page-new
