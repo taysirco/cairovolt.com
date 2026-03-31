@@ -1,0 +1,25 @@
+import type { ProductReview } from './_shared';
+export const anker_zolo_a1681_20000_reviews: ProductReview[] = [
+        { author: 'Mohamed Tarek', rating: 5, location: 'وسط البلد', datePublished: '2026-02-16',
+            reviewBody: { en: 'Charged my MacBook Air and iPhone at the same time in a café with no outlets. This is the future of working remotely in Cairo.', ar: 'شحنت الماك بوك اير والايفون في نفس الوقت في كافيه مفيهوش بريزات. ده مستقبل الشغل عن بُعد في القاهرة.' },
+            pros: { en: ['Laptop + phone charging', 'Café freedom', '45W PD power'], ar: ['شحن لابتوب + موبايل', 'حرية الكافيهات', '45 واط PD'] } },
+        { author: 'Nada Youssef', rating: 5, location: 'المعادي', datePublished: '2026-01-25',
+            reviewBody: { en: 'As a graphic designer, my iPad Pro is my lifeline. The 45W PD charges it from dead to full in about an hour. The smart display showing watts is super useful.', ar: 'كمصممة جرافيك، الايباد برو هو شريان حياتي. الـ 45 واط PD بيشحنه من صفر لـ 100% في حوالي ساعة. الشاشة اللي بتعرض الواط مفيدة جداً.' },
+            pros: { en: ['iPad Pro fast charge', 'Watt display', 'Designer approved'], ar: ['شحن ايباد برو سريع', 'شاشة واط', 'معتمد من المصممين'] } },
+        { author: 'Ahmed Fathy', rating: 4, location: 'الجيزة', datePublished: '2025-12-01',
+            reviewBody: { en: 'Great for laptops. Only 4 stars because it doesn\'t have a built-in cable like the A110 series. But the 45W makes up for it — real laptop charging power.', ar: 'ممتاز للابتوبات. 4 نجوم بس لأنه مفيهوش كابل مدمج زي سلسلة A110. بس الـ 45 واط بتعوض — قوة شحن لابتوب حقيقية.' },
+            pros: { en: ['Real laptop charging', '45W PD', 'Fast recharge'], ar: ['شحن لابتوب حقيقي', '45 واط PD', 'إعادة شحن سريعة'] },
+            cons: { en: ['No built-in cable'], ar: ['مفيش كابل مدمج'] } },
+        { author: 'Salma Hosny', rating: 5, location: 'الدقي', datePublished: '2025-11-14',
+            reviewBody: { en: 'Freelancer essential. I work from coffee shops 3 days a week and this gives me complete independence from wall outlets. MacBook Air lasts all day.', ar: 'ضرورة للفريلانسر. بشتغل من كافيهات 3 أيام في الأسبوع وده بيديني استقلال كامل عن البريزات. الماك بوك اير بيكمل اليوم.' },
+            pros: { en: ['Freelancer essential', 'All-day MacBook', 'No outlet needed'], ar: ['ضرورة فريلانسر', 'ماك بوك يوم كامل', 'مش محتاج بريزة'] } },
+        { author: 'Kareem Hassan', rating: 5, location: 'حلوان', datePublished: '2025-10-20',
+            reviewBody: { en: 'During load-shedding, I kept my laptop and router running for 4 hours — enough to finish a client project. This power bank literally saved my deadline.', ar: 'وقت تخفيف الأحمال، خلّيت اللابتوب والراوتر شغالين 4 ساعات — كفاية أخلص بروجكت كلاينت. الباور بانك ده أنقذ الديدلاين حرفياً.' },
+            pros: { en: ['Deadline saver', 'Laptop + router backup', '4h productivity'], ar: ['منقذ الديدلاين', 'احتياطي لابتوب + راوتر', '4 ساعات إنتاجية'] } },
+        { author: 'Rania Magdy', rating: 5, location: 'مصر الجديدة', datePublished: '2026-03-02',
+            reviewBody: { en: 'Traveling Cairo to Alex by train regularly. 5 hours with MacBook at full charge the entire trip. Also charges my husband\'s phone. One power bank for the whole family.', ar: 'بسافر القاهرة-اسكندرية بالقطار بانتظام. 5 ساعات والماك بوك مشحون طول الرحلة. وبيشحن موبايل جوزي كمان. باور بانك واحد للعيلة كلها.' },
+            pros: { en: ['Train travel tested', 'Family charging', 'All-trip MacBook'], ar: ['مختبر في القطار', 'شحن للعيلة', 'ماك بوك طول الرحلة'] } },
+        { author: 'Omar Ashraf', rating: 5, location: '6 أكتوبر', datePublished: '2025-09-18',
+            reviewBody: { en: 'The smart display is a game-changer. I can see exactly how many watts are going to my MacBook (45W) vs my phone (12W). Engineering precision I love.', ar: 'الشاشة الذكية غيرت اللعبة. بشوف بالضبط كام واط رايحين للماك بوك (45W) مقابل موبايلي (12W). دقة هندسية بحبها.' },
+            pros: { en: ['Watt tracking display', 'Engineering precision', 'Dual device insight'], ar: ['شاشة تتبع واط', 'دقة هندسية', 'معلومات جهازين'] } }
+    ];

@@ -24,8 +24,8 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                     title={isArabic ? '🗺️ خريطة اختيار الباور بانك المناسب' : '🗺️ Power Bank Selection Flowchart'}
                     locale={locale}
                     chart={`flowchart TD
-    A["What's your budget?"] --> B{"Less than 500 EGP?"}
-    B -->|Yes| C["Joyroom 10000mAh\\n~450 EGP"]
+    A["What's your budget?"] --> B{"Less than 1,000 EGP?"}
+    B -->|Yes| C["Joyroom 20000mAh\\n997 EGP"]
     B -->|No| D{"Need to charge laptop?"}
     D -->|Yes| E["Anker Prime 27650mAh\\n3,799 EGP"]
     D -->|No| F{"Want smallest size?"}
@@ -51,11 +51,11 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                     chart={`flowchart TD
     A["What devices do you charge?"] --> B{"iPhone only?"}
     B -->|Yes| C{"Want fastest speed?"}
-    C -->|Yes| D["Anker 30W GaN Nano\\n549 EGP"]
+    C -->|Yes| D["Anker Nano 45W GaN\\n770 EGP"]
     C -->|No| E["Anker 20W\\n400 EGP"]
     B -->|No| F{"iPhone + MacBook?"}
     F -->|Yes| G["Anker 65W GaN\\n999 EGP"]
-    F -->|No| H["Anker 30W GaN Nano\\n549 EGP"]
+    F -->|No| H["Anker Nano 45W GaN\\n770 EGP"]
     
     style A fill:#f59e0b,color:#fff,stroke:#d97706
     style D fill:#22c55e,color:#fff,stroke:#16a34a
@@ -128,9 +128,9 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     A["What's your priority?"] --> B{"Noise Cancellation?"}
     B -->|Yes| C["Soundcore Liberty 4 NC\\n~2,500 EGP"]
     B -->|No| D{"Budget under 500 EGP?"}
-    D -->|Yes| E["Joyroom T03S\\n~350 EGP"]
+    D -->|Yes| E["Joyroom T03S\\n774 EGP"]
     D -->|No| F{"Want AirPods look?"}
-    F -->|Yes| G["Joyroom T03S Pro\\n~500 EGP"]
+    F -->|Yes| G["Joyroom T03S Pro\\n664 EGP"]
     F -->|No| H["Soundcore R50i\\n~900 EGP"]
     
     style A fill:#8b5cf6,color:#fff,stroke:#7c3aed

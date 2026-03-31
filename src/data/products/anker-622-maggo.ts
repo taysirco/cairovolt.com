@@ -14,19 +14,27 @@ export const anker_622_maggo = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-1.webp", alt: "anker 622 maggo - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-2.webp", alt: "anker 622 maggo - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-3.webp", alt: "anker 622 maggo - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-4.webp", alt: "anker 622 maggo الأصلي في مصر | توصيل لأي محافظة", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-5.webp", alt: "anker 622 maggo - Authorized Egypt Dealer", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-6.webp", alt: "anker 622 maggo - مختوم بختم الشركة | كايرو فولت", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-622-maggo/anker-anker-622-maggo-egypt-cairo-7.webp", alt: "anker 622 maggo - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - كايرو فولت", order: 0, isPrimary: true, width: 530, height: 722 },
+            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetic attachment snapping onto iPhone wireless charging test", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-foldable-kickstand-phone-stand-viewing.webp", alt: "حامل قابل للطي لباور بانك انكر 622 ماج جو - زاوية مشاهدة بدون يدين", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-622-maggo/anker-622-maggo-usb-c-port-input-output-detail.webp", alt: "Anker 622 MagGo USB-C input output port detail for charging and power delivery", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 7mm لباور بانك انكر 622 ماج جو - ملف عرض جانبي", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-charging-iphone-magnetic-alignment-test.webp", alt: "Anker 622 MagGo charging iPhone magnetic alignment test - CairoVolt Lab Egypt", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-622-maggo/anker-622-maggo-package-box-contents-cable-egypt.webp", alt: "محتويات علبة انكر 622 ماج جو الأصلية مع كابل USB-C - كايرو فولت مصر", order: 6, isPrimary: false, width: 676, height: 811 }
         ],
+        relatedProducts: ["anker-powercore-10000", "anker-powercore-20000", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-a8052-usb-c-lightning-cable"],
         translations: {
             en: {
                 name: "Anker 622 Magnetic Battery (MagGo) | MagSafe | Foldable Stand | 18-Month Warranty",
                 shortDescription: "🧲 MagSafe Wireless Charging | 📱 Built-in Foldable Kickstand | 🪨 Ultra-Slim Design | 🔌 USB-C Two-Way Charging",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 622 MagGo (A1610)</strong> is a MagSafe-compatible wireless battery pack for iPhone 17/16/15/14/13/12. It snaps magnetically to the back of your iPhone and charges at 7.5W while you use it. Built-in foldable kickstand for hands-free video calls. 13mm thin, USB-C pass-through charging. EGP 2,800, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Knock-off magnetic batteries from Shein/Temu use weak magnets that detach during use and lack proper Qi certification — risking phone damage from improper charging. Anker 622 uses N52-grade magnets and is Qi-certified. Check for the Anker holographic seal on the box.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -99,6 +107,13 @@ export const anker_622_maggo = {
                 name: "باور بانك انكر 622 MagGo ايفون 17 وايرلس | بستاند للمكالمات | ضمان 18 شهر",
                 shortDescription: "لزقة في ضهر ايفونك مبتطحركش 🧲 شحن وايرلس MagSafe | 📱 ستاند مدمج لمكالمات الفيديو في الكافيهات | 🪨 رفيع جداً (13مم) مش هتحس بيه",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>أنكر 622 MagGo (A1610)</strong> بطارية لاسلكية متوافقة مع MagSafe لايفون 17/16/15/14/13/12. بتلتصق مغناطيسي على ظهر ايفونك وبتشحن 7.5 واط وإنت بتستخدمه. حامل مدمج قابل للطي لمكالمات الفيديو بدون ما تمسك. سمك 13مم، شحن USB-C تمريري. سعر 2,800 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">البطاريات المغناطيسية المضروبة من Shein/Temu بتستخدم مغناطيسات ضعيفة بتفصل وقت الاستخدام ومفيهاش شهادة Qi — بتضر الموبايل من شحن غير سليم. أنكر 622 بيستخدم مغناطيسات N52 ومعتمد Qi. دور على ختم أنكر الهولوجرافي على العلبة.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">

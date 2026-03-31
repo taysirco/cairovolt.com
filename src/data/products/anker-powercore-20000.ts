@@ -14,28 +14,35 @@ export const anker_powercore_20000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-1.webp", alt: "anker powercore 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-10.webp", alt: "anker powercore 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-11.webp", alt: "anker powercore 20000 - Best Deal in Egypt 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-12.webp", alt: "anker powercore 20000 - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-13.webp", alt: "anker powercore 20000 - Certified by Distributor", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-14.webp", alt: "anker powercore 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-15.webp", alt: "anker powercore 20000 - Protected by CairoVolt Guarantee", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-16.webp", alt: "anker powercore 20000 - منتج أصلي معتمد | شحن مصر كلها", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-2.webp", alt: "anker powercore 20000 - Factory Original CairoVolt", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-3.webp", alt: "anker powercore 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 9, isPrimary: false },
-            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-4.webp", alt: "anker powercore 20000 - Lowest Price Guarantee Egypt", order: 10, isPrimary: false },
-            { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-5.webp", alt: "anker powercore 20000 الأصلي في مصر | توصيل لأي محافظة", order: 11, isPrimary: false },
-            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-6.webp", alt: "anker powercore 20000 - Authorized Egypt Dealer", order: 12, isPrimary: false },
-            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-7.webp", alt: "anker powercore 20000 - شحن سريع 20 واط | كايرو فولت", order: 13, isPrimary: false },
-            { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-8.webp", alt: "anker powercore 20000 - 18 Month Dealer Warranty Egypt", order: 14, isPrimary: false },
-            { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-anker-powercore-20000-egypt-cairo-9.webp", alt: "anker powercore 20000 - باور بانك أصلي مصر | توصيل فوري", order: 15, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powercore-20000/anker-powercore-20000mah-high-capacity-power-bank-cairovolt.webp", alt: "باور بانك انكر 20000 مللي أمبير عالي السعة - منظر أمامي كامل كايرو فولت مصر", order: 0, isPrimary: true, width: 432, height: 500 },
+            { id: "img_2", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-matte-texture-anti-slip-surface.webp", alt: "Anker PowerCore 20000 dual USB-A output ports for simultaneous dual device charging", order: 1, isPrimary: false, width: 500, height: 465 },
+            { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-tablet-ipad-speed-test.webp", alt: "منفذ مايكرو USB لشحن باور بانك انكر 20000 - تفاصيل منفذ الإدخال", order: 2, isPrimary: false, width: 1000, height: 1000 },
+            { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-multisafety-protection-certification.webp", alt: "Anker PowerCore 20000 charging two devices simultaneously - dual output test CairoVolt", order: 3, isPrimary: false, width: 1007, height: 1010 },
+            { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-travel-friendly-airline-approved.webp", alt: "حجم ووزن باور بانك انكر 20000 مقارنة - تصميم محمول خفيف الوزن", order: 4, isPrimary: false, width: 1124, height: 803 },
+            { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-samsung-galaxy-compatible.webp", alt: "Anker PowerCore 20000 LED 4-light battery indicator showing remaining charge level", order: 5, isPrimary: false, width: 1200, height: 1258 },
+            { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-capacity-test-watt-meter-lab.webp", alt: "تقنية PowerIQ و VoltageBoost في باور بانك انكر 20000 - شحن ذكي محسن", order: 6, isPrimary: false, width: 1200, height: 1494 },
+            { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-full-view-all-angles-360.webp", alt: "Anker PowerCore 20000 package box contents with cables and accessories - Egypt", order: 7, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-dual-usb-a-output-ports-detail.webp", alt: "ملف جانبي لباور بانك انكر 20000 يعرض السمك الرفيع والتصميم الأنيق", order: 8, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-micro-usb-input-charging-port.webp", alt: "Anker PowerCore 20000 matte anti-slip surface texture - premium build quality", order: 9, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-two-devices-simultaneously.webp", alt: "اختبار شحن تابلت ايباد من باور بانك انكر 20000 - سرعة الشحن الفعلية", order: 10, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-size-weight-comparison-portable.webp", alt: "Anker PowerCore 20000 MultiSafety protection system certification badge", order: 11, isPrimary: false, width: 960, height: 1104 },
+            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-led-battery-indicator-4-lights.webp", alt: "باور بانك انكر 20000 متوافق مع السفر والطيران - معتمد من الخطوط الجوية", order: 12, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-poweriq-voltage-boost-technology.webp", alt: "Anker PowerCore 20000 charging Samsung Galaxy smartphone compatibility test", order: 13, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-package-box-contents-cables-egypt.webp", alt: "اختبار سعة باور بانك انكر 20000 بجهاز قياس واط في مختبر كايرو فولت", order: 14, isPrimary: false, width: 1008, height: 1072 },
+            { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-side-profile-thickness-design.webp", alt: "Anker PowerCore 20000 full 360-degree view showing all angles and design details", order: 15, isPrimary: false, width: 500, height: 433 }
         ],
         translations: {
             en: {
                 name: "Anker PowerCore 20000mAh | Charges iPhone 4x | 24-Month Warranty",
                 shortDescription: "🔋 20,000mAh (72Wh) | 📱 4x iPhone 17 Charges | 🔌 Dual USB-A Ports | ✈️ Airline Approved | 🛡️ 24-Month Warranty",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerCore 20000 (A1260)</strong> stores 72Wh of energy — enough for 4 full iPhone 17 charges or 3 Samsung S26 charges. Dual USB-A ports with PowerIQ let you charge two devices simultaneously. At 356g and airline-approved (under TSA's 100Wh limit), it's built for Egyptian students, travelers, and power-outage survivors. 24-month warranty, EGP 1,550.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Fake 20,000mAh power banks in Egypt often contain 6,000–8,000mAh cells relabeled. They weigh noticeably less than 356g and fail after weeks. Genuine Anker units have a QR verification code on the box — scan it at <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a> before first use.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -127,6 +134,13 @@ export const anker_powercore_20000 = {
                 name: "باور بانك انكر 20000 مللي أمبير | بيكفيك ويكند كامل برا البيت | ضمان 24 شهر",
                 shortDescription: "لو مشوارك طويل أو مسافر ده المنقذ 🔋 4 شحنات كاملة للايفون | 🔌 منفذين عشان تشحن إنت وصاحبك | ✈️ مسموح في الطيارة",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>أنكر PowerCore 20000 (A1260)</strong> بيخزن 72 واط/ساعة — يكفي 4 شحنات ايفون 17 كاملة أو 3 شحنات سامسونج S26. منفذين USB-A مع PowerIQ بيشحنوا جهازين في نفس الوقت. بوزن 356 جرام ومسموح في الطيارة (أقل من حد TSA 100Wh)، ده مصمم للطلاب والمسافرين واللي عايشين مع انقطاع الكهربا. ضمان 24 شهر، سعر 1,550 جنيه.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">الباور بانك المضروب 20,000 في مصر غالباً بيحتوي على خلايا 6,000–8,000 مللي أمبير بس ومكتوب عليه 20,000. وزنه أخف بشكل ملحوظ من 356 جرام وبيبوظ بعد أسابيع. أنكر الأصلي عليه كود QR على العلبة — اعمله سكان على <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a> قبل أول استخدام.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
@@ -223,5 +237,5 @@ export const anker_powercore_20000 = {
             en: "If the 10,000mAh version is for the day, this 20,000mAh beast is for the weekend. It gives you roughly double the power, great for trips or if you carry multiple devices. It's heavier, naturally, but having that extra juice is peace of mind. The dual USB ports are clutch for sharing power with a friend.",
             ar: "إذا كان إصدار 10,000 مللي أمبير لليوم، فإن هذا الوحش بسعة 20,000 مللي أمبير لعطلة نهاية الأسبوع. يمنحك ضعف الطاقة تقريباً، رائع للرحلات أو إذا كنت تحمل أجهزة متعددة. إنه أثقل وزناً بالطبع، لكن الحصول على تلك الطاقة الإضافية راحة بال. منفذا USB مفيدان جداً لمشاركة الطاقة مع صديق."
         },
-        relatedProducts: ["anker-powerport-20w", "anker-powerline-usb-c-usb-c"]
+        relatedProducts: ["anker-powercore-10000", "anker-powercore-26800", "anker-zolo-a110e-20000", "anker-powerport-20w", "anker-a8050-usb-c-cable"]
     };

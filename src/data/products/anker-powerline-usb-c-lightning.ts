@@ -14,18 +14,25 @@ export const anker_powerline_usb_c_lightning = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-1.webp", alt: "anker powerline usb c lightning - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-2.webp", alt: "anker powerline usb c lightning - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-3.webp", alt: "anker powerline usb c lightning - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-4.webp", alt: "anker powerline usb c lightning - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-5.webp", alt: "anker powerline usb c lightning - CairoVolt Verified Original", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-lightning/anker-anker-powerline-usb-c-lightning-egypt-cairo-6.webp", alt: "anker powerline usb c lightning الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-to-lightning-mfi-cable-cairovolt-egypt.webp", alt: "كابل انكر USB-C إلى لايتنينج MFi معتمد نايلون مضفر - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-connector-detail-mfi-certified.webp", alt: "Anker PowerLine USB-C Lightning connector detail MFi certified quality close-up", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-braided-nylon-durable.webp", alt: "نسيج نايلون مضفر لكابل انكر باور لاين - متانة وجودة عالية", order: 2, isPrimary: false, width: 1200, height: 1310 },
+            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-charging-iphone-fast-pd.webp", alt: "Anker USB-C Lightning cable fast charging iPhone with PD Power Delivery test", order: 3, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-bend-test-12000-lifespan.webp", alt: "اختبار ثني كابل انكر باور لاين 12000 مرة - شهادة العمر الافتراضي", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-package-box-contents.webp", alt: "Anker PowerLine USB-C Lightning package box contents - CairoVolt Egypt", order: 5, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
             en: {
                 name: "Anker PowerLine III USB-C to Lightning | MFi Certified | 30W | 18-Month Warranty",
                 shortDescription: "✅ Apple MFi Certified | ⚡ 30W Fast Charging iPhone 14/13/12 | 💪 35,000+ Bend Lifespan | 📱 CarPlay Compatible",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine III USB-C to Lightning (A8612)</strong> is an MFi-certified cable for iPhone 14/13/12/11 and Lightning iPads. 30W PD fast charging, 35,000+ bend lifespan (3.5x Apple's cable), CarPlay compatible. For iPhone 17/16/15 owners, you need a USB-C to USB-C cable instead. EGP 508, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Non-MFi Lightning cables are the #1 cause of the “Accessory Not Supported” error on iPhone. Worse, they can deliver unstable current that degrades battery health over time. Some fake cables also fail during iOS updates, bricking charging ability. The PowerLine III has Apple's MFi chip — look for the MFi logo on the packaging.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -102,6 +109,13 @@ export const anker_powerline_usb_c_lightning = {
                 name: "كابل انكر ايفون الأصلي (معتمد MFi) | أحمي بطاريتك من الكابلات المضروبة | ضمان 18 شهر",
                 shortDescription: "الكابل الوحيد اللي مش هيبوظ بطارية ايفونك الغالي ✅ معتمد MFi من أبل | 💪 أمتن 3 مرات من الأصلي مش هيتقطع | 🚗 شغال CarPlay من غير تقطيع",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>كابل أنكر PowerLine III USB-C to Lightning (A8612)</strong> كابل معتمد MFi لايفون 14/13/12/11 وايباد Lightning. شحن سريع 30 واط PD، بيتحمل 35,000+ ثني (3.5× الأصلي)، متوافق CarPlay. لو عندك ايفون 17/16/15 محتاج كابل USB-C to USB-C. سعر 508 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">كابلات Lightning غير المعتمدة MFi هي السبب الأول لرسالة “الملحق غير مدعوم” على الايفون. الأسوأ، بتوصل تيار غير مستقر بيضر صحة البطارية. بعض الكابلات المضروبة بتفشل وقت تحديثات iOS. PowerLine III فيه شريحة MFi من أبل — دور على شعار MFi على العلبة.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
@@ -185,5 +199,6 @@ export const anker_powerline_usb_c_lightning = {
         expertOpinion: {
             en: "Cables are usually the first thing to break, but not this one. The build quality is exceptional – it feels robust and can withstand serious abuse. MFi certification means no 'accessory not supported' errors. It's a simple product, but one that solves a daily frustration perfectly.",
             ar: "عادة ما تكون الكابلات أول شيء يتلف، لكن ليس هذا. جودة التصنيع استثنائية – ملمسه قوي ويمكنه تحمل الاستخدام الشاق. شهادة MFi تعني عدم وجود أخطاء 'الملحق غير مدعوم'. منتج بسيط، لكنه يحل مشكلة يومية بشكل مثالي."
-        }
+        },
+        relatedProducts: ["anker-powerport-20w", "anker-powercore-10000", "anker-a8052-usb-c-lightning-cable", "anker-usb-c-lightning-sureistrong", "anker-powercore-20000"]
     };

@@ -14,20 +14,27 @@ export const anker_powercore_26800 = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-1.webp", alt: "anker powercore 26800 - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-2.webp", alt: "anker powercore 26800 - أصلي بباركود الشركة | كايرو فولت مصر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-3.webp", alt: "anker powercore 26800 - Competitive Pricing Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-4.webp", alt: "anker powercore 26800 - منتج أصلي معتمد | شحن مصر كلها", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-5.webp", alt: "anker powercore 26800 - CairoVolt Verified Original", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-6.webp", alt: "anker powercore 26800 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-7.webp", alt: "anker powercore 26800 - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-powercore-26800/anker-anker-powercore-26800-egypt-cairo-8.webp", alt: "anker powercore 26800 الأصلي في مصر | توصيل لأي محافظة", order: 7, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powercore-26800/anker-powercore-26800mah-ultra-capacity-power-bank-cairovolt.webp", alt: "باور بانك انكر 26800 مللي أمبير سعة فائقة ثلاث منافذ USB-A - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-triple-usb-a-output-ports-detail.webp", alt: "Anker PowerCore 26800 triple USB-A output ports detail for multi-device charging", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-dual-input-micro-usb-charging.webp", alt: "منفذ مايكرو USB مزدوج لشحن باور بانك انكر 26800 بسرعة مضاعفة", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_4", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-charging-laptop-tablet-phone-multi.webp", alt: "Anker PowerCore 26800 charging laptop tablet and phone simultaneously - CairoVolt test", order: 3, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-size-comparison-weight-349g.webp", alt: "حجم باور بانك انكر 26800 مقارنة - وزن 349 جرام تصميم محمول", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-led-battery-indicator-status.webp", alt: "Anker PowerCore 26800 LED battery indicator showing charging status level", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-capacity-endurance-test-lab-egypt.webp", alt: "اختبار سعة وتحمل باور بانك انكر 26800 في مختبر كايرو فولت مصر", order: 6, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_8", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-package-box-cables-accessories.webp", alt: "Anker PowerCore 26800 package box with cables and all accessories included", order: 7, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
             en: {
                 name: "Anker PowerCore 26800mAh | 3 USB Ports | Max Airline Capacity | 24-Month Warranty",
                 shortDescription: "🔋 26,800mAh (96.48Wh) | 📱 5x iPhone 17 Charges | 🔌 3 USB Ports | ✈️ Max Airline-Legal Capacity | 🔄 Dual-Input Fast Recharge",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerCore 26800 (A1277)</strong> packs 96.48Wh — the maximum capacity legally allowed on any airline. That’s 5 full iPhone 17 charges, 4 Samsung S26 charges, or a full family’s worth of power for a 5-day Siwa camping trip. 3 USB-A ports with PowerIQ 2.0 charge 3 devices simultaneously. Dual Micro-USB inputs slash recharge time to 6 hours instead of 20. EGP 2,300, 24-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">High-capacity power banks are the most counterfeited category in Egypt. Fakes labeled “26,800mAh” typically contain 8,000–10,000mAh cells. Test: weigh it — genuine Anker 26800 weighs ~500g. Anything under 400g is fake. Verify at <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a>.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -112,6 +119,13 @@ export const anker_powercore_26800 = {
                 name: "باور بانك انكر 26800 مللي أمبير | وحش السفر والرحلات (3 منافذ) | ضمان 24 شهر",
                 shortDescription: "أكبر سعة مسموحة تاخدها معاك الطيارة قانونياً 🔋 5 شحنات ايفون | 🔌 3 منافذ بيشحنوا موبايلات العيلة كلها وقت الطوارئ",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>أنكر PowerCore 26800 (A1277)</strong> بخزن 96.48 واط/ساعة — أكبر سعة مسموحة قانونياً على أي طيارة. يعني 5 شحنات ايفون 17 كاملة، 4 شحنات سامسونج S26، أو طاقة عيلة كاملة لـ 5 أيام تخييم في سيوة. 3 منافذ USB-A مع PowerIQ 2.0 بيشحنوا 3 أجهزة في نفس الوقت. مدخلين Micro-USB بيشحنوه في 6 ساعات بدل 20. سعر 2,300 جنيه، ضمان 24 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">الباور بانك السعة الكبيرة هي أكثر فئة مضروبة في مصر. المضروب المكتوب عليه “26,800” بيبقى فيه خلايا 8,000–10,000 بس. الاختبار: وزنه — أنكر 26800 الأصلي وزنه ~500 جرام. لو أقل من 400 جرام يبقى مضروب. تأكد على <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a>.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -194,5 +208,5 @@ export const anker_powercore_26800 = {
             en: "This is the ultimate travel companion. The 26,800mAh capacity is massive – enough to keep your phone running for a week. The three USB ports are a godsend for families or groups. It takes a while to recharge (use two cables!), but once it's full, you're set for days. A huge favorite for long trips to Dahab or Siwa.",
             ar: "هذا هو الرفيق المثالي للسفر. سعة 26,800 مللي أمبير هائلة – تكفي لتشغيل هاتفك لمدة أسبوع. منافذ USB الثلاثة نعمة للعائلات أو المجموعات. يستغرق وقتاً طويلاً لإعادة الشحن (استخدم كابلين!)، لكن بمجرد امتلاءه، فأنت جاهز لأيام. مفضل جداً للرحلات الطويلة إلى دهب أو سيوة."
         },
-        relatedProducts: ["anker-nano-45w", "anker-powerline-usb-c-usb-c"]
+        relatedProducts: ["anker-powercore-20000", "anker-737-powerbank", "anker-zolo-a110e-20000", "anker-nano-45w", "anker-a8050-usb-c-cable"]
     };

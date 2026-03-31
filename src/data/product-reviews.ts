@@ -47,6 +47,16 @@ import { joyroom_type_c_lightning_36mos_reviews } from './reviews/joyroom-type-c
 import { joyroom_usb_a_lightning_1_2m_reviews } from './reviews/joyroom-usb-a-lightning-1-2m';
 import { joyroom_usb_a_micro_cable_reviews } from './reviews/joyroom-usb-a-micro-cable';
 import { joyroom_usb_a_type_c_1_2m_reviews } from './reviews/joyroom-usb-a-type-c-1-2m';
+import { anker_zolo_a110d_10000_reviews } from './reviews/anker-zolo-a110d-10000';
+import { anker_zolo_a110e_20000_reviews } from './reviews/anker-zolo-a110e-20000';
+import { anker_zolo_a1681_20000_reviews } from './reviews/anker-zolo-a1681-20000';
+import { anker_prime_a1695_25000_reviews } from './reviews/anker-prime-a1695-25000';
+import { anker_a2732_charger_35w_reviews } from './reviews/anker-a2732-charger-35w';
+import { anker_a2741_charger_30w_reviews } from './reviews/anker-a2741-charger-30w';
+import { anker_a8050_usb_c_cable_reviews } from './reviews/anker-a8050-usb-c-cable';
+import { anker_soundcore_k20i_reviews } from './reviews/anker-soundcore-k20i';
+import { anker_soundcore_r50i_nc_reviews } from './reviews/anker-soundcore-r50i-nc';
+import { anker_soundcore_r50i_reviews } from './reviews/anker-soundcore-r50i';
 
 export const productReviewsDb: Record<string, import('./reviews/_shared').ProductReview[]> = {
     'anker-soundcore-motion-plus': anker_soundcore_motion_plus_reviews,
@@ -91,6 +101,16 @@ export const productReviewsDb: Record<string, import('./reviews/_shared').Produc
     'joyroom-usb-a-lightning-1.2m': joyroom_usb_a_lightning_1_2m_reviews,
     'joyroom-usb-a-micro-cable': joyroom_usb_a_micro_cable_reviews,
     'joyroom-usb-a-type-c-1.2m': joyroom_usb_a_type_c_1_2m_reviews,
+    'anker-zolo-a110d-10000': anker_zolo_a110d_10000_reviews,
+    'anker-zolo-a110e-20000': anker_zolo_a110e_20000_reviews,
+    'anker-zolo-a1681-20000': anker_zolo_a1681_20000_reviews,
+    'anker-prime-a1695-25000': anker_prime_a1695_25000_reviews,
+    'anker-a2732-charger-35w': anker_a2732_charger_35w_reviews,
+    'anker-a2741-charger-30w': anker_a2741_charger_30w_reviews,
+    'anker-a8050-usb-c-cable': anker_a8050_usb_c_cable_reviews,
+    'anker-soundcore-k20i': anker_soundcore_k20i_reviews,
+    'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_reviews,
+    'anker-soundcore-r50i': anker_soundcore_r50i_reviews,
 };
 
 // ============= FALLBACK GENERATOR =============

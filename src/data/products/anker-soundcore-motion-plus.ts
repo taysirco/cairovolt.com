@@ -14,19 +14,26 @@ export const anker_soundcore_motion_plus = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-1.webp", alt: "Anker Soundcore Motion Plus portable Bluetooth speaker front view - 30W Hi-Res Audio Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-2.webp", alt: "سماعة انكر Soundcore Motion Plus من الخلف تُظهر منفذ USB-C وشبكة الباس - كايرو فولت مصر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-3.webp", alt: "Anker Soundcore Motion Plus size comparison held in hand - compact 30W waterproof speaker", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-4.webp", alt: "Anker Soundcore Motion Plus retail box packaging - 18 month warranty Egypt", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-5.webp", alt: "Anker Soundcore Motion Plus spec label showing IPX7 waterproof and Hi-Res certification", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-6.webp", alt: "Anker Soundcore Motion Plus outdoor use at rooftop gathering - Cairo Egypt", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-7.webp", alt: "Anker Soundcore Motion Plus side view showing tweeters and passive radiator - 6700mAh battery", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bluetooth-speaker-30w-cairovolt.webp", alt: "سماعة انكر ساوندكور موشن بلس بلوتوث 30 واط صوت عالي الجودة - كايرو فولت", order: 0, isPrimary: true, width: 600, height: 450 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-dual-driver-detail-close-up.webp", alt: "Anker Soundcore Motion Plus dual driver detail close-up showing speaker quality", order: 1, isPrimary: false, width: 1200, height: 791 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-ipx7-waterproof-splash-test.webp", alt: "اختبار مقاومة الماء IPX7 لسماعة انكر موشن بلس - رش واختبار غمر", order: 2, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-usb-c-aux-port-detail.webp", alt: "Anker Motion Plus USB-C and AUX 3.5mm port detail for charging and audio input", order: 3, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bass-radiator-passive-driver.webp", alt: "درايفر باس سلبي لسماعة انكر موشن بلس - تعزيز الترددات المنخفضة", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-outdoor-portable-lifestyle.webp", alt: "Anker Soundcore Motion Plus outdoor portable lifestyle photo - waterproof speaker", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-package-box-contents-cable.webp", alt: "محتويات علبة سماعة انكر موشن بلس مع كابل وملحقات - كايرو فولت مصر", order: 6, isPrimary: false, width: 1000, height: 1000 }
         ],
         translations: {
             en: {
                 name: "Anker Soundcore Motion+ | 30W Hi-Res Audio | 18-Month Warranty",
                 shortDescription: "30W Hi-Res certified speaker tested 12h 8min at CairoVolt Labs | IPX7 waterproof (Ain Sokhna pool test) | BassUp + custom EQ via app",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Motion+ (A3116)</strong> is a 30W Hi-Res Audio certified Bluetooth speaker with Qualcomm aptX. IPX7 waterproof, 12H battery (6700mAh), BassUp™, custom EQ via Soundcore app, Bluetooth 5.0 + AUX. Dual tweeters with 15° upward tilt for room-filling sound. EGP 3,600, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Counterfeit “Motion+” speakers are widespread on Egyptian marketplaces. They use single 5W drivers marketed as 30W and have 2-3H real battery life. The genuine Motion+ has Hi-Res certification visible on the body and pairs with the Soundcore app for custom EQ. If the app can’t detect the speaker, it’s fake. Buy only from authorized dealers.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -98,6 +105,13 @@ export const anker_soundcore_motion_plus = {
                 name: "سماعة انكر Soundcore Motion+ | سماعة تجمعات الرووف والساحل اللي مبتفصلش | ضمان 18 شهر",
                 shortDescription: "صوت جبار 30 وات بيملا رووف كامل 🔊 | 💧 IPX7 بتنزل حمام سباحة عادي | 🔋 12 ساعة بطارية هتكفيك سهرة كاملة | 🎚️ حرر الصوت بتطبيق EQ",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>سماعة أنكر Soundcore Motion+ (A3116)</strong> سماعة 30 واط بشهادة Hi-Res Audio وQualcomm aptX. مقاومة ماء IPX7، بطارية 12 ساعة (6700mAh)، BassUp™، تحكم EQ من تطبيق Soundcore، بلوتوث 5.0 + AUX. التويترز بزاوية 15° بتوزع الصوت في الغرفة كلها. سعر 3,600 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">سماعات “Motion+” المضروبة منتشرة في السوق المصري. بتستخدم محرك 5 واط واحد بيقولوا 30واط وبطاريتها الحقيقية 2-3 ساعات. الأصلية عليها شهادة Hi-Res ظاهرة على الجسم وبتتوصل بتطبيق Soundcore لتخصيص EQ. لو التطبيق مش شايف السماعة، يبقى مضروبة. اشتري من موزعين معتمدين بس.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -173,6 +187,6 @@ export const anker_soundcore_motion_plus = {
         expertOpinion: {
             en: "The Motion+ is hands-down the best Bluetooth speaker around EGP 2850 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
             ar: "تُعد Motion+ بلا شك أفضل سماعة بلوتوث في فئتها السعرية في مصر. شهادة الصوت عالي الدقة (Hi-Res) تضمن لك نقاء صوت استثنائي، والباس القوي يملأ المكان. اختبرناها في ظروف مختلفة وأثبتت كفاءة جبارة."
-        }
-
+        },
+        relatedProducts: ["anker-soundcore-flare-2", "anker-soundcore-life-p2i", "anker-soundcore-r50i", "anker-powercore-10000", "anker-powerline-usb-c-usb-c"]
     };

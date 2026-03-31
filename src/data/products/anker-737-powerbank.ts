@@ -14,21 +14,28 @@ export const anker_737_powerbank = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-1.webp", alt: "Anker 737 PowerCore 24K power bank front view showing smart digital display - 140W Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-2.webp", alt: "باور بانك انكر 737 يُظهر شاشة الـ LED الرقمية والوات الحالية - كايرو فولت مصر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-3.webp", alt: "Anker 737 PowerCore 24K USB-C ports showing 2x USB-C + 1x USB-A connections - 140W output", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-4.webp", alt: "Anker 737 PowerCore 24K size comparison next to MacBook Pro - 630g portable charger Egypt", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-5.webp", alt: "Anker 737 PowerCore 24K retail box packaging showing 140W and 24000mAh specs - Egypt", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-6.webp", alt: "Anker 737 charging MacBook Pro and iPhone simultaneously - dual USB-C fast charge Egypt", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-7.webp", alt: "Anker 737 PowerCore 24K spec label showing ActiveShield 3.0 safety certification", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-8.webp", alt: "باور بانك انكر 737 أثناء شحن اللابتوب خلال انقطاع كهرباء - مصر كايرو فولت", order: 7, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-737-powercore-24000mah-140w-premium-power-bank-cairovolt.webp", alt: "باور بانك انكر 737 بقوة 140 واط 24000 مللي أمبير بريميوم - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-737-usb-c-140w-output-port-detail-pd3.1.webp", alt: "Anker 737 USB-C 140W output port with PD3.1 protocol support detail", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-737-smart-digital-display-wattage-voltage-reading.webp", alt: "شاشة ديجيتال ذكية لباور بانك انكر 737 تعرض الواط والفولت في الوقت الحقيقي", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-737-powerbank/anker-737-charging-macbook-pro-140w-laptop-fast-charge.webp", alt: "Anker 737 charging MacBook Pro at 140W speed - laptop fast charge test CairoVolt", order: 3, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_5", url: "/products/anker/anker-737-powerbank/anker-737-triple-port-usb-c-usb-a-configuration.webp", alt: "تكوين المنافذ الثلاثية لباور بانك انكر 737 - USB-C و USB-A", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-737-powerbank/anker-737-premium-aluminum-body-design-build-quality.webp", alt: "Anker 737 premium aluminum body design and build quality close-up", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-737-powerbank/anker-737-size-comparison-compact-24000mah-portable.webp", alt: "حجم باور بانك انكر 737 المدمج مع سعة 24000 مللي أمبير - تصميم محمول", order: 6, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-737-package-contents-cable-pouch-accessories.webp", alt: "Anker 737 package contents including cable pouch and all accessories", order: 7, isPrimary: false, width: 1024, height: 1024 }
         ],
-        relatedProducts: ["anker-powerport-25w", "anker-powerline-usb-c-usb-c"],
+        relatedProducts: ["anker-prime-a1695-25000", "anker-powercore-26800", "anker-nano-45w", "anker-a8050-usb-c-cable", "anker-powerline-usb-c-usb-c"],
         translations: {
             en: {
                 name: "Anker 737 Power Bank (PowerCore 24K) | 140W | 24,000mAh | 18-Month Warranty",
                 shortDescription: "⚡ 140W Two-Way Fast Charging | 🔋 24,000mAh | 💻 Charges MacBook Pro 50% in 30 Min | 📊 Smart Digital Display",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 737 PowerCore (A1289)</strong> delivers 140W USB-C PD output — enough to fast-charge a MacBook Pro 16" to 50% in 30 minutes. 24,000mAh capacity provides 5+ iPhone 17 charges. Smart display shows live wattage and remaining time. At 86.4Wh, it's airline-approved. This is a professional-grade power bank for creatives and remote workers. EGP 4,400, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">The Anker 737 is a premium product — fakes exist at lower price points. A genuine unit supports 140W PD negotiation; counterfeits max at 15-18W despite claiming 140W. If the price is below EGP 3,500 in Egypt, it's almost certainly fake. Verify at <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a>.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -106,6 +113,13 @@ export const anker_737_powerbank = {
                 name: "باور بانك انكر 737 (140 واط) | منقذ اللابتوب المعتمد وقت قطع الكهربا | ضمان 18 شهر",
                 shortDescription: "الوحش اللي بيشغل لابتوبك في فترة تخفيف الأحمال ⚡ 140 واط | 🔋 24,000 مللي أمبير | 📊 شاشة ذكية بتعرفك فاضل كام دقيقة بالظبط",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>أنكر 737 PowerCore (A1289)</strong> بيطلع 140 واط USB-C PD — بيشحن ماك بوك برو 16" حتى 50% في 30 دقيقة. سعة 24,000 مللي أمبير بتشحن ايفون 17 أكثر من 5 مرات. شاشة ذكية بتعرض الوات الحي والوقت المتبقي. بسعة 86.4 واط/ساعة مسموح في الطيارة. ده باور بانك مستوى احترافي للمصممين واللي بيشتغلوا عن بعد. سعر 4,400 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">أنكر 737 منتج بريميوم — فيه مضروب بأسعار أقل. الأصلي بيدعم 140 واط PD حقيقي، المضروب بيطلع 15-18 واط بس رغم إن مكتوب عليه 140واط. لو السعر أقل من 3,500 جنيه في مصر يبقى مضروب. تأكد على <a href='https://www.anker.com/verify' class='text-blue-600 hover:underline'>anker.com/verify</a>.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">

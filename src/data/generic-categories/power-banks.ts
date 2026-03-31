@@ -82,7 +82,7 @@ export const power_banks_generic: GenericCategory = {
 <h2 id="best-10000">أفضل باور بانك 10000 مللي أمبير في مصر</h2>
 <p>سعة <strong>10,000mAh</strong> هي الأكثر طلباً — توفر توازن مثالي بين الحجم الصغير والسعة الكافية ليوم كامل. تشحن موبايلك مرتين وتدخل الجيب بسهولة:</p>
 <ul>
-<li><strong>الأفضل للميزانية المحدودة:</strong> باور بانك 10000 بشحن سريع 22.5W وحجم مدمج — أسعار تبدأ من ~450 جنيه</li>
+<li><strong>الأفضل للميزانية المحدودة:</strong> باور بانك 10000 بشحن سريع 22.5W وحجم مدمج — أسعار تبدأ من 1,624 جنيه</li>
 <li><strong>الأفضل للشحن السريع:</strong> باور بانك 10000 مع USB-C PD 20W — يشحن iPhone 17 من 0 لـ 50% في 30 دقيقة — ~799 جنيه</li>
 <li><strong>مناسب لـ:</strong> الاستخدام اليومي، الخروج، الجامعة، العمل</li>
 </ul>
@@ -100,7 +100,7 @@ export const power_banks_generic: GenericCategory = {
 <table>
 <thead><tr><th>المنتج</th><th>السعة</th><th>الشحن السريع</th><th>المنافذ</th><th>السعر (جنيه)</th><th>الأفضل لـ</th></tr></thead>
 <tbody>
-<tr><td>Joyroom 10000mAh</td><td>10,000</td><td>22.5W</td><td>2</td><td>~450</td><td>الاستخدام اليومي</td></tr>
+<tr><td>Joyroom 10000mAh</td><td>10,000</td><td>22.5W</td><td>2</td><td>1,624</td><td>الاستخدام اليومي</td></tr>
 <tr><td>Anker 10000mAh PD</td><td>10,000</td><td>PD 20W</td><td>2</td><td>~799</td><td>iPhone شحن سريع</td></tr>
 <tr><td>Joyroom 20000mAh</td><td>20,000</td><td>PD 20W</td><td>3</td><td>~750</td><td>أفضل قيمة</td></tr>
 <tr><td><strong>Anker 20000mAh </strong></td><td><strong>20,000</strong></td><td><strong>PD 20W</strong></td><td><strong>2</strong></td><td><strong>~1,299</strong></td><td><strong>الأكثر مبيعاً</strong></td></tr>
@@ -153,7 +153,7 @@ export const power_banks_generic: GenericCategory = {
 <h2 id="best-10000">Best 10000mAh Power Banks in Egypt</h2>
 <p><strong>10,000mAh</strong> is the most popular capacity — offering a perfect balance between compact size and enough juice for a full day. Charges your phone twice and fits in your pocket:</p>
 <ul>
-<li><strong>Best budget option:</strong> 10000mAh power bank with 22.5W fast charging, compact size — prices from ~EGP 450</li>
+<li><strong>Best budget option:</strong> 10000mAh power bank with 22.5W fast charging, compact size — prices from EGP 1,624</li>
 <li><strong>Best for fast charging:</strong> 10000mAh with USB-C PD 20W — charges iPhone 17 from 0 to 50% in 30 minutes — ~EGP 799</li>
 <li><strong>Best for:</strong> Daily use, commuting, university, work</li>
 </ul>
@@ -171,7 +171,7 @@ export const power_banks_generic: GenericCategory = {
 <table>
 <thead><tr><th>Product</th><th>Capacity</th><th>Fast Charge</th><th>Ports</th><th>Price (EGP)</th><th>Best For</th></tr></thead>
 <tbody>
-<tr><td>Joyroom 10000mAh</td><td>10,000</td><td>22.5W</td><td>2</td><td>~450</td><td>Daily use</td></tr>
+<tr><td>Joyroom 10000mAh</td><td>10,000</td><td>22.5W</td><td>2</td><td>1,624</td><td>Daily use</td></tr>
 <tr><td>Anker 10000mAh PD</td><td>10,000</td><td>PD 20W</td><td>2</td><td>~799</td><td>iPhone fast charge</td></tr>
 <tr><td>Joyroom 20000mAh</td><td>20,000</td><td>PD 20W</td><td>3</td><td>~750</td><td>Best value</td></tr>
 <tr><td><strong>Anker 20000mAh </strong></td><td><strong>20,000</strong></td><td><strong>PD 20W</strong></td><td><strong>2</strong></td><td><strong>~1,299</strong></td><td><strong>Best seller</strong></td></tr>

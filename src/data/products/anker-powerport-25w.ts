@@ -14,18 +14,25 @@ export const anker_powerport_25w = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-1.webp", alt: "شاحن انكر 25 واط الأصلي مصر 2026 - Samsung Super Fast Charging S26", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-2.webp", alt: "راس شاحن انكر 25 واط PPS - توصيل القاهرة - ضمان 18 شهر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-3.webp", alt: "شاحن انكر USB-C ٢٥ وات - أفضل سعر في مصر فبراير 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-4.webp", alt: "Anker 25W PPS Charger Original Egypt 2026 - Samsung S26 Compatible", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-5.webp", alt: "Anker 25W Super Fast Charger - Certified by Distributor", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powerport-25w/anker-anker-powerport-25w-egypt-cairo-6.webp", alt: "شاحن انكر 25 واط PPS - ضمان 18 شهر رسمي مصر", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-samsung-super-fast-charger-cairovolt.webp", alt: "شاحن انكر 25 واط USB-C سوبر فاست تشارج لسامسونج - كايرو فولت مصر", order: 0, isPrimary: true, width: 679, height: 444 },
+            { id: "img_2", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-port-detail-pps-protocol.webp", alt: "Anker 25W USB-C port with PPS protocol for Samsung Super Fast Charging detail", order: 1, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_3", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-compact-design-wall-outlet-plugged.webp", alt: "شاحن انكر 25 واط مدمج في مقبس الحائط - تصميم صغير وأنيق", order: 2, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_4", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-charging-samsung-galaxy-25w-fast.webp", alt: "Anker 25W charging Samsung Galaxy at full speed - Super Fast Charge test CairoVolt", order: 3, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-foldable-plug-portable-travel.webp", alt: "قابس قابل للطي لشاحن انكر 25 واط - محمول ومناسب للسفر", order: 4, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_6", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-package-box-contents-specifications.webp", alt: "Anker 25W package box contents with specifications - CairoVolt Egypt", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
                 name: "Anker 25W PPS Charger | Samsung Super Fast Charging | 18-Month Warranty",
                 shortDescription: "⚡ 25W PPS Samsung Super Fast | 📱 S26: 0-50% in 26 Min | 📱 iPhone 17 Compatible | 🛡️ ActiveShield 2.0 | 🇸🇦 UK Plug",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 25W PPS Charger (A2322)</strong> unlocks Samsung Super Fast Charging — 0% to 50% on Galaxy S26 in 26 minutes. PPS (Programmable Power Supply) dynamically adjusts voltage for heat-free, efficient charging. Also fast charges iPhone 17 (28 min to 50%). ActiveShield 2.0 monitors temperature 3 million times daily. Compact 4.5cm, UK plug. EGP 550, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Most cheap “25W” chargers in Egypt lack PPS protocol — meaning your Samsung shows “Charging” instead of “Super Fast Charging.” Without PPS, you're getting 15W, not 25W. The Anker 25W is USB-IF certified with proper PPS negotiation. Check for the “Super Fast Charging” notification on your Samsung screen to verify.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -113,6 +120,13 @@ export const anker_powerport_25w = {
                 name: "شاحن انكر 25 واط PPS لسامسونج | شحن سوبر فاست بدون سخونة | ضمان 18 شهر",
                 shortDescription: "بيشحن الـ S26 لـ 50% في 26 دقيقة بالظبط ⚡ 25 واط PPS | ❄️ تبريد عالي مبيسخنش في حر الصيف | 📱 بيشحن ايفون كمان",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن أنكر 25 واط PPS (A2322)</strong> بيفتح Samsung Super Fast Charging — من 0% لـ 50% على Galaxy S26 في 26 دقيقة. PPS بيظبط الجهد ديناميكياً لشحن كفء بدون حرارة. بيشحن ايفون 17 كمان (28 دقيقة لـ 50%). ActiveShield 2.0 بيراقب الحرارة 3 مليون مرة يومياً. صغير 4.5سم، قابس UK. سعر 550 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">معظم شواحن “25واط” الرخيصة في مصر مفيهاش بروتوكول PPS — يعني سامسونجك بيعرض “جاري الشحن” بدل “Super Fast Charging.” بدون PPS انت بتاخد 15 واط مش 25. أنكر 25واط معتمد USB-IF بـ PPS سليم. شوف إشعار “Super Fast Charging” على شاشة سامسونجك للتأكد.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
@@ -204,5 +218,6 @@ export const anker_powerport_25w = {
         expertOpinion: {
             en: "Samsung users, this one is for you. It supports PPS (Programmable Power Supply), which means it's fully compatible with Samsung's Super Fast Charging. It's a small upgrade in price from the 20W, but for a Galaxy S24 or S25 user, the speed difference is noticeable and worth every penny.",
             ar: "مستخدمو سامسونج، هذا لكم. يدعم PPS (مصدر الطاقة القابل للبرمجة)، مما يعني أنه متوافق تماماً مع الشحن السريع جداً من سامسونج. إنه ترقية بسيطة في السعر عن 20 واط، ولكن لمستخدم Galaxy S24 أو S25، فرق السرعة ملحوظ ويستحق كل قرش."
-        }
+        },
+        relatedProducts: ["anker-powerport-20w", "anker-a8050-usb-c-cable", "anker-powercore-10000", "anker-nano-45w", "anker-powerline-usb-c-usb-c"]
     };

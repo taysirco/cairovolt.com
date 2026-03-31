@@ -14,23 +14,30 @@ export const anker_521_powerhouse = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-1.webp", alt: "anker 521 powerhouse - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-10.webp", alt: "anker 521 powerhouse - أوريجينال مصر | مع كفالة استبدال", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-2.webp", alt: "anker 521 powerhouse - Competitive Pricing Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-3.webp", alt: "anker 521 powerhouse - أصلي بباركود الشركة | كايرو فولت مصر", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-4.webp", alt: "anker 521 powerhouse - CairoVolt Verified Original", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-5.webp", alt: "anker 521 powerhouse - منتج أصلي معتمد | شحن مصر كلها", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-6.webp", alt: "anker 521 powerhouse - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-7.webp", alt: "anker 521 powerhouse - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-8.webp", alt: "anker 521 powerhouse - Genuine Product All Egypt", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/anker/anker-521-powerhouse/anker-anker-521-powerhouse-egypt-cairo-9.webp", alt: "anker 521 powerhouse الأصلي في مصر | توصيل لأي محافظة", order: 9, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-256wh-portable-power-station-cairovolt.webp", alt: "محطة طاقة انكر 521 باور هاوس 256 واط ساعة متنقلة - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 628 },
+            { id: "img_2", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-package-box-cables-accessories.webp", alt: "Anker 521 Powerhouse AC outlet 200W pure sine wave output - home appliance ready", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-ac-outlet-200w-pure-sine-wave.webp", alt: "منفذ USB-C بقوة 60 واط لمحطة انكر 521 باور هاوس - شحن سريع PD", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_4", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-usb-c-60w-pd-output-port-detail.webp", alt: "Anker 521 Powerhouse LCD display showing battery percentage and wattage", order: 3, isPrimary: false, width: 1200, height: 1038 },
+            { id: "img_5", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-lcd-display-battery-wattage-status.webp", alt: "شحن أجهزة متعددة من محطة انكر 521 في الهواء الطلق - استخدام تخييم", order: 4, isPrimary: false, width: 1200, height: 1031 },
+            { id: "img_6", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-charging-multiple-devices-camping.webp", alt: "Anker 521 Powerhouse solar panel input for outdoor charging capability", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-solar-panel-input-charging-outdoor.webp", alt: "كشاف LED مدمج في محطة انكر 521 باور هاوس - إضاءة طوارئ", order: 6, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_8", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-led-flashlight-emergency-lighting.webp", alt: "Anker 521 Powerhouse ergonomic handle for portable carry design", order: 7, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_9", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-handle-portable-carry-design.webp", alt: "نظرة شاملة على كل منافذ محطة انكر 521 باور هاوس - تكوين كامل", order: 8, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_10", url: "/products/anker/anker-521-powerhouse/anker-521-powerhouse-all-ports-overview-configuration.webp", alt: "Anker 521 Powerhouse package box with cables and all accessories included", order: 9, isPrimary: false, width: 1024, height: 1024 }
         ],
-        relatedProducts: ["anker-soundcore-motion-plus", "anker-powerline-usb-c-usb-c"],
+        relatedProducts: ["anker-737-powerbank", "anker-powercore-26800", "anker-nano-45w", "anker-a8050-usb-c-cable", "anker-powercore-20000"],
         translations: {
             en: {
                 name: "Anker 521 PowerHouse 256Wh | 200W AC Outlet | LiFePO4 | 5-Year Warranty",
                 shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ 3,000+ Charge Cycles (10+ Years) | 💡 Built-in LED Light",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1710)</strong> is a 256Wh portable power station with LiFePO4 batteries rated for 3,000+ charge cycles (10+ years). It outputs 200W via a 220V AC outlet — enough to run your router, fan, CPAP, and charge multiple phones during an Egyptian blackout. 6 output ports, built-in LED, 5-year warranty. EGP 11,000.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Cheap “portable power stations” on Amazon.eg and AliExpress use standard lithium-ion cells that degrade after 300 cycles and lack pure sine wave output — damaging sensitive electronics like CPAP machines. The Anker 521 uses lab-certified LiFePO4 with pure sine wave AC. Only buy from authorized dealers.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -108,6 +115,13 @@ export const anker_521_powerhouse = {
                 name: "محطة طاقة انكر 521 للبيت (256Wh) | بتشغل الراوتر والمروحة في قطع الكهربا | ضمان 5 سنين",
                 shortDescription: "البديل الآمن والهادي للمولد وقت تخفيف الأحمال 🔋 256 واط | 🔌 فيشة 220 فولت كاملة | ♻️ بطارية بتعيش 10 سنين",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة أنكر 521 (A1710)</strong> بسعة 256 واط/ساعة ببطاريات LiFePO4 بتستحمل 3,000+ دورة شحن (10+ سنوات). بتطلع 200 واط من فيشة 220 فولت — تكفي تشغل الراوتر والمروحة وجهاز CPAP وتشحن موبايلات كتير وقت انقطاع الكهربا. 6 منافذ، إضاءة LED مدمجة، ضمان 5 سنوات. سعر 11,000 جنيه.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">محطات الطاقة الرخيصة على أمازون وAliExpress بتستخدم خلايا ليثيوم عادية بتتدهور بعد 300 دورة ومفيهاش pure sine wave — بتضر الأجهزة الحساسة زي CPAP. أنكر 521 بيستخدم LiFePO4 معتمد معملياً مع pure sine wave AC. اشتري من موزع معتمد بس.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">

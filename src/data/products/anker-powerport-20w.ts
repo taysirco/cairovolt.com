@@ -14,18 +14,25 @@ export const anker_powerport_20w = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerport-20w/anker-anker-powerport-20w-egypt-cairo-1.webp", alt: "شاحن انكر 20 وات الأصلي مصر 2026 - USB-C شحن سريع iPhone 17", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powerport-20w/anker-anker-powerport-20w-egypt-cairo-2.webp", alt: "راس شاحن انكر 20 واط - توصيل القاهرة والجيزة - ضمان 18 شهر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powerport-20w/anker-anker-powerport-20w-egypt-cairo-3.webp", alt: "شاحن انكر USB-C ٢٠ وات - أفضل سعر في مصر فبراير 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powerport-20w/anker-anker-powerport-20w-egypt-cairo-4.webp", alt: "Anker 20W USB-C Charger Original Egypt 2026 - iPhone 17 Fast Charging", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerport-20w/anker-anker-powerport-20w-egypt-cairo-5.webp", alt: "Anker PowerPort 20W - Official Distributor Cairo - 18 Month Warranty", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powerport-20w/anker-anker-powerport-20w-egypt-cairo-6.webp", alt: "شاحن انكر ايفون 20 وات - ضمان رسمي - توصيل سريع مصر", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-pd-wall-charger-cairovolt-egypt.webp", alt: "شاحن انكر 20 واط USB-C PD حائطي صغير الحجم - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1499 },
+            { id: "img_2", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-port-detail-power-delivery.webp", alt: "Anker PowerPort 20W USB-C Power Delivery port detail close-up", order: 1, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_3", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-compact-size-comparison-coin-plug.webp", alt: "حجم شاحن انكر 20 واط مقارنة بعملة معدنية - تصميم فائق الصغر", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_4", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-charging-iphone-fast-charge-pd.webp", alt: "Anker 20W fast charging iPhone with Power Delivery PD protocol speed test", order: 3, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_5", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-foldable-plug-prongs-travel-friendly.webp", alt: "شاحن انكر 20 واط بقابس قابل للطي - تصميم مناسب للسفر", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-package-box-contents-specifications.webp", alt: "Anker PowerPort 20W package box contents and specifications - CairoVolt Egypt", order: 5, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
             en: {
                 name: "Anker 20W USB-C Charger | iPhone 17 Fast Charge | 18-Month Warranty",
                 shortDescription: "⚡ 20W USB-C PD 3.0 | 📱 iPhone 17: 0-50% in 30 Min | 📏 Ultra-Compact 4cm | 🛡️ MultiProtect 10-Layer | 🇸🇦 UK-Style Plug",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 20W USB-C Charger (A2347)</strong> is the most cost-effective iPhone upgrade in Egypt. It charges iPhone 17 from 0% to 50% in 30 minutes — 3x faster than the 5W charger Apple stopped including. Ultra-compact 4cm body, UK-style plug (Egyptian compatible), MultiProtect 10-layer safety. EGP 400, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Fake 20W chargers are the #1 counterfeit accessory in Egypt. They claim 20W but deliver 5-8W, and lack surge protection — risking battery damage during Egypt's voltage fluctuations. Genuine Anker has a CE/UL mark, measures exactly 4cm, and feels dense and premium. If it's under EGP 200, it's fake.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -115,6 +122,13 @@ export const anker_powerport_20w = {
                 name: "شاحن انكر 20 وات للايفون | يلحقك قبل ما النور يقطع | ضمان 18 شهر",
                 shortDescription: "ربع ساعة شحن بتفرق معاك ⚡ ايفون 17 لـ 50% في 30 دقيقة | 🛡️ حماية من تذبذب الكهربا | 📏 أصغر من علبة الكبريت",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن أنكر 20 واط USB-C (A2347)</strong> أفضل ترقية لأي مالك ايفون في مصر. بيشحن ايفون 17 من 0% لـ 50% في 30 دقيقة — أسرع 3 مرات من شاحن 5 واط اللي أبل بطلت تحطه في العلبة. حجم 4 سم، قابس UK-Style (متوافق مع مصر)، حماية MultiProtect 10 طبقات. سعر 400 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">شواحن الـ 20 واط المضروبة هي الإكسسوار الأكثر تقليداً في مصر. بيدعي 20 واط بس بيطلع 5-8 واط، ومفيهوش حماية من تذبذب الجهد — بيضر البطارية وقت تقلبات الكهربا في مصر. أنكر الأصلي عليه علامة CE/UL، طوله بالظبط 4 سم، وبيحس ثقيل وبريميوم. لو أقل من 200 جنيه يبقى مضروب.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -209,5 +223,5 @@ export const anker_powerport_20w = {
             en: "Don't let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
             ar: "لا تدع الحجم يخدعك؛ هذا المكعب الصغير ضروري لأي مالك آيفون. يفتح إمكانيات الشحن السريع لهاتفك، ويوصله من 0 إلى 50% في 30 دقيقة فقط. سعره معقول، موثوق، وصغير بما يكفي ليناسب أي مشترك كهرباء مزدحم أو حقيبة."
         },
-        relatedProducts: ["anker-powerline-usb-c-lightning", "anker-powercore-10000"]
+        relatedProducts: ["anker-a8050-usb-c-cable", "anker-a8052-usb-c-lightning-cable", "anker-powercore-10000", "anker-powerport-25w", "anker-powerline-usb-c-usb-c"]
     };

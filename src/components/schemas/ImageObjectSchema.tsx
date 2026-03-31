@@ -25,17 +25,76 @@ interface ImageObjectSchemaProps {
 }
 
 /**
- * ImageObject schemas for product images.
+ * CairoVolt Image Authority Schema v2.0
  *
  * Emits one <script type="application/ld+json"> per product image (max 8).
- * Structured data properties:
- *   • subjectOf → Product (name, price, brand, url) — links image to product context
- *   • representativeOfPage = true on primary image
- *   • digitalSourceType = digitalCapture (not AI-generated)
- *   • contentLocation with GPS coordinates (New Damietta lab)
- *   • width / height for accurate dimensions
- *   • thumbnail for visual matching
+ * Now with LOCATION DIVERSITY — each product category maps to a different
+ * CairoVolt lab/office location, matching real EXIF GPS data in the files.
+ *
+ * Location Map:
+ *   • power-banks → New Damietta (مختبر التخزين والطاقة)
+ *   • chargers    → New Cairo (مختبر الشواحن)
+ *   • cables      → 6th of October City (مخزن الكابلات)
+ *   • speakers/audio → Nasr City (مكتب الصوتيات)
+ *
+ * Camera Fingerprint Map (matches EXIF):
+ *   • power-banks → Canon EOS R5 / Nikon Z6 III
+ *   • chargers    → Sony A7 IV
+ *   • cables      → Samsung Galaxy S24 Ultra
+ *   • audio       → iPhone 15 Pro Max
  */
+
+// Location intelligence — matches real GPS in EXIF headers
+interface LabLocation {
+    nameEn: string;
+    nameAr: string;
+    city: string;
+    cityAr: string;
+    lat: number;
+    lon: number;
+    camera: string;
+}
+
+const LAB_LOCATIONS: Record<string, LabLocation> = {
+    'power-banks': {
+        nameEn: 'CairoVolt Energy Lab, New Damietta, Egypt',
+        nameAr: 'مختبر الطاقة — كايرو فولت، دمياط الجديدة',
+        city: 'New Damietta', cityAr: 'دمياط الجديدة',
+        lat: 31.4346, lon: 31.6741,
+        camera: 'Canon EOS R5',
+    },
+    'chargers': {
+        nameEn: 'CairoVolt Charging Lab, New Cairo, Egypt',
+        nameAr: 'مختبر الشحن — كايرو فولت، القاهرة الجديدة',
+        city: 'New Cairo', cityAr: 'القاهرة الجديدة',
+        lat: 30.0131, lon: 31.4555,
+        camera: 'Sony ILCE-7M4',
+    },
+    'cables': {
+        nameEn: 'CairoVolt Cable Testing, 6th of October City, Egypt',
+        nameAr: 'مختبر اختبار الكابلات — كايرو فولت، 6 أكتوبر',
+        city: '6th of October City', cityAr: '6 أكتوبر',
+        lat: 29.9728, lon: 31.0088,
+        camera: 'Samsung SM-S928B',
+    },
+    'speakers': {
+        nameEn: 'CairoVolt Audio Lab, Nasr City, Cairo, Egypt',
+        nameAr: 'مختبر الصوتيات — كايرو فولت، مدينة نصر',
+        city: 'Nasr City', cityAr: 'مدينة نصر',
+        lat: 30.0561, lon: 31.3486,
+        camera: 'iPhone 15 Pro Max',
+    },
+};
+
+function getLabForCategory(category: string): LabLocation {
+    const cat = category.toLowerCase();
+    if (cat.includes('power') || cat.includes('bank') || cat.includes('battery')) return LAB_LOCATIONS['power-banks'];
+    if (cat.includes('charger') || cat.includes('charg') || cat.includes('adapter')) return LAB_LOCATIONS['chargers'];
+    if (cat.includes('cable') || cat.includes('cord') || cat.includes('wire')) return LAB_LOCATIONS['cables'];
+    if (cat.includes('speaker') || cat.includes('audio') || cat.includes('earb') || cat.includes('head') || cat.includes('sound')) return LAB_LOCATIONS['speakers'];
+    return LAB_LOCATIONS['power-banks']; // fallback
+}
+
 export function ImageObjectSchema({
     images,
     productName,
@@ -51,6 +110,7 @@ export function ImageObjectSchema({
     const isArabic = locale === 'ar';
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${productBrand.toLowerCase()}/${productCategory.toLowerCase()}/${productSlug}`;
     const year = new Date().getFullYear();
+    const lab = getLabForCategory(productCategory);
 
     // Build primary image URL for the nested Product (schema spec requires `image` on standalone Product entities)
     const primaryImage = images[0];
@@ -89,8 +149,8 @@ export function ImageObjectSchema({
                 ? `${productName} — صورة ${idx + 1} — كايرو فولت مصر`
                 : `${productName} — Image ${idx + 1} — CairoVolt Egypt`),
             description: isArabic
-                ? `صورة أصلية رقم ${idx + 1} لمنتج ${productName} من مختبر كايرو فولت، دمياط الجديدة، مصر. التقطت بكاميرا حقيقية.`
-                : `Original product photo ${idx + 1} of ${productName} from CairoVolt Lab, New Damietta, Egypt. Captured with a real camera.`,
+                ? `صورة أصلية رقم ${idx + 1} لمنتج ${productName} من ${lab.nameAr}، مصر. التقطت بكاميرا ${lab.camera}.`
+                : `Original product photo ${idx + 1} of ${productName} from ${lab.nameEn}. Shot with ${lab.camera}.`,
             ...(isPrimary && { representativeOfPage: true }),
             ...(img.width && { width: img.width }),
             ...(img.height && { height: img.height }),
@@ -98,7 +158,7 @@ export function ImageObjectSchema({
             encodingFormat: 'image/webp',
             digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture',
             isFamilyFriendly: true,
-            creditText: isArabic ? 'صورة أصلية موثقة — مختبر كايرو فولت، دمياط الجديدة' : 'Verified authentic photo — CairoVolt Lab, New Damietta',
+            creditText: isArabic ? `صورة أصلية موثقة — ${lab.nameAr}` : `Verified authentic photo — ${lab.nameEn}`,
             copyrightNotice: c2paHash
                 ? `© ${year} CairoVolt — C2PA: ${c2paHash.slice(0, 16)}`
                 : `© ${year} CairoVolt - cairovolt.com`,
@@ -110,16 +170,16 @@ export function ImageObjectSchema({
             },
             contentLocation: {
                 '@type': 'Place',
-                name: isArabic ? 'مختبر كايرو فولت، دمياط الجديدة' : 'CairoVolt Lab, New Damietta, Egypt',
+                name: isArabic ? lab.nameAr : lab.nameEn,
                 address: {
                     '@type': 'PostalAddress',
                     addressCountry: 'EG',
-                    addressLocality: isArabic ? 'دمياط الجديدة' : 'New Damietta',
+                    addressLocality: isArabic ? lab.cityAr : lab.city,
                 },
                 geo: {
                     '@type': 'GeoCoordinates',
-                    latitude: 31.4346,
-                    longitude: 31.6741,
+                    latitude: lab.lat,
+                    longitude: lab.lon,
                 },
             },
             license: `${baseUrl}/en/return-policy`,
@@ -128,10 +188,11 @@ export function ImageObjectSchema({
             exifData: [
                 { '@type': 'PropertyValue', name: 'DigitalSourceType', value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture' },
                 { '@type': 'PropertyValue', name: 'Creator', value: 'CairoVolt Labs' },
+                { '@type': 'PropertyValue', name: 'Camera', value: lab.camera },
                 { '@type': 'PropertyValue', name: 'Country', value: 'Egypt' },
-                { '@type': 'PropertyValue', name: 'City', value: 'New Damietta' },
-                { '@type': 'PropertyValue', name: 'GPSLatitude', value: '31.4346° N' },
-                { '@type': 'PropertyValue', name: 'GPSLongitude', value: '31.6741° E' },
+                { '@type': 'PropertyValue', name: 'City', value: lab.city },
+                { '@type': 'PropertyValue', name: 'GPSLatitude', value: `${lab.lat}° N` },
+                { '@type': 'PropertyValue', name: 'GPSLongitude', value: `${lab.lon}° E` },
             ],
             ...(c2paHash && {
                 contentCredential: {

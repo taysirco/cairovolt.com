@@ -14,18 +14,25 @@ export const anker_soundcore_life_p2i = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-1.webp", alt: "anker soundcore life p2i - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-2.webp", alt: "anker soundcore life p2i - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-3.webp", alt: "anker soundcore life p2i - Best Deal in Egypt 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-4.webp", alt: "anker soundcore life p2i - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-5.webp", alt: "anker soundcore life p2i - CairoVolt Verified Original", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-soundcore-life-p2i/anker-anker-soundcore-life-p2i-egypt-cairo-6.webp", alt: "anker soundcore life p2i الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wireless-earbuds-10mm-cairovolt.webp", alt: "سماعات انكر ساوندكور لايف P2i لاسلكية درايفر 10mm - كايرو فولت مصر", order: 0, isPrimary: true, width: 737, height: 1142 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-earbud-driver-detail-design.webp", alt: "Anker Life P2i earbud driver design detail showing 10mm speaker quality", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-charging-case-open-led-status.webp", alt: "علبة شحن انكر لايف P2i مفتوحة مع مؤشرات LED لحالة البطارية", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wearing-comfort-in-ear-fit.webp", alt: "Anker Soundcore Life P2i wearing comfort and in-ear fit lifestyle photo", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-usb-c-charging-port-case.webp", alt: "منفذ USB-C لشحن علبة سماعات انكر لايف P2i - تفاصيل المنفذ", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-package-box-contents-eartips.webp", alt: "Anker Life P2i package box with multiple ear tip sizes and accessories - Egypt", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
                 name: "Anker Soundcore Life P2i | 28H Battery | AI Calls | Bluetooth 5.2 | 18-Month Warranty",
                 shortDescription: "🎧 28H Total Playtime | 🤖 AI-Enhanced 2-Mic Calls | 🎵 Dual EQ (Bass/Podcast) | ⚡ 10 Min = 1H Charge | 📱 Bluetooth 5.2",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 999, 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Fake TWS earbuds under EGP 500 use Bluetooth 4.2 chips that cause audio lag during videos/games and disconnect frequently. Their batteries degrade to 30min within months. The Life P2i uses genuine Bluetooth 5.2 with stable low-latency connection. If the Soundcore app can’t detect your earbuds, they’re counterfeit.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -100,6 +107,13 @@ export const anker_soundcore_life_p2i = {
                 name: "سماعات انكر سوندكور Life P2i | صوتك واضح وسط زحمة طلعت حرب | ضمان 18 شهر",
                 shortDescription: "مكالماتك واضحة في عز الدوشة 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>سماعات أنكر Soundcore Life P2i (A3991)</strong> سماعات TWS اقتصادية ببطارية 28 ساعة (7 سماعات + 21 علبة). ميكروفونات مزدوجة بذكاء اصطناعي لمكالمات واضحة في الدوشة، بلوتوث 5.2، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر 999 جنيه، ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">سماعات TWS المضروبة تحت 500 جنيه بتستخدم شرايح بلوتوث 4.2 بتعمل تأخير صوت في الفيديو/الألعاب وبتفصل كتير. بطاريتها بتنزل لـ 30 دقيقة خلال شهور. Life P2i بتستخدم بلوتوث 5.2 أصلي باتصال مستقر. لو تطبيق Soundcore مش شايف السماعات، يبقى مضروبة.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
@@ -177,5 +191,6 @@ export const anker_soundcore_life_p2i = {
         expertOpinion: {
             en: "These focus purely on call quality and battery life. The AI-enhanced mics really do make a difference in noisy environments. The sound is punchy with the Bass mode. If you spend a lot of time on calls and want Anker reliability, pick these over the generic budget options.",
             ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية Anker، اختر هذه بدلاً من الخيارات الاقتصادية العامة."
-        }
+        },
+        relatedProducts: ["anker-soundcore-r50i", "anker-soundcore-flare-2", "anker-powercore-10000", "anker-powerport-20w", "anker-a8050-usb-c-cable"]
     };

@@ -14,19 +14,26 @@ export const anker_nano_45w = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-1.webp", alt: "anker nano 45w - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-2.webp", alt: "anker nano 45w - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-3.webp", alt: "anker nano 45w - Best Deal in Egypt 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-4.webp", alt: "anker nano 45w - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-5.webp", alt: "anker nano 45w - Authorized Egypt Dealer", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-6.webp", alt: "anker nano 45w - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-7.webp", alt: "anker nano 45w - Protected by CairoVolt Guarantee", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو 45 واط USB-C GaN فائق الكفاءة صغير الحجم - كايرو فولت", order: 0, isPrimary: true, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "حجم شاحن انكر نانو 45 واط مقارنة بشاحن ابل - أصغر بنسبة 60%", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano 45W charging MacBook Air laptop at full speed with PD fast charge", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-foldable-plug-ultra-slim-design.webp", alt: "قابس قابل للطي فائق الرفع لشاحن انكر نانو 45 واط - تصميم سفر", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip temperature and efficiency performance test", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp", alt: "محتويات علبة شاحن انكر نانو 45 واط مع المواصفات - كايرو فولت مصر", order: 6, isPrimary: false, width: 1200, height: 1200 }
         ],
         translations: {
             en: {
                 name: "Anker Nano 45W GaN USB-C Charger | MacBook Air + iPhone 17 | 24-Month Warranty",
                 shortDescription: "⚡ 45W GaN III Technology | 💻 MacBook Air Full Speed | 📱 iPhone 17 Max Speed | 📱 Samsung S26 Super Fast 2.0 | 📏 Ultra-Compact",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Nano 45W GaN III (A2039)</strong> replaces your laptop charger, phone charger, and tablet charger with a single compact cube. 45W USB-C PD charges MacBook Air at full speed, iPhone 17 at max speed, and Samsung S26 with Super Fast 2.0. GaN III technology keeps it cool and small. UK-style plug, 24-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Generic GaN chargers from unknown brands often lack proper PPS support, meaning Samsung Super Fast 2.0 won't activate. Worse, they can output unstable voltage under load, damaging laptop batteries. The Anker Nano 45W is USB-IF certified with GaN III — verify the holographic Anker seal on the box.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -104,6 +111,13 @@ export const anker_nano_45w = {
                 name: "شاحن انكر نانو 45 واط | شاحن واحد للابتوب والموبايل (وداعاً للزحمة) | ضمان 24 شهر",
                 shortDescription: "شاحن واحد يغنيك عن 3 شواحن 💻 شحن ماك بوك بالسرعة الأصلية | 📱 شحن سوبر فاست لسامسونج وايفون | 🔌 ممتاز للسفر",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن أنكر نانو 45 واط GaN III (A2039)</strong> بيستبدل شاحن اللابتوب وشاحن الموبايل وشاحن التابلت بمكعب صغير واحد. 45 واط USB-C PD بيشحن ماك بوك اير بسرعة كاملة، ايفون 17 بأقصى سرعة، وسامسونج S26 مع Super Fast 2.0. تقنية GaN III بتخليه بارد وصغير. قابس UK-Style، ضمان 24 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">شواحن GaN من ماركات مجهولة غالباً مفيهاش PPS سليم، يعني سامسونج Super Fast 2.0 مش هيشتغل. والأسوأ، بتطلع جهد غير مستقر تحت الحمل بيضر بطاريات اللابتوب. أنكر نانو 45واط معتمد USB-IF بتقنية GaN III — تأكد من ختم أنكر الهولوجرافي على العلبة.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -182,5 +196,6 @@ export const anker_nano_45w = {
         expertOpinion: {
             en: "The versatility of this charger is unmatched. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
-        }
+        },
+        relatedProducts: ["anker-powerport-20w", "anker-a8050-usb-c-cable", "anker-737-powerbank", "anker-powerline-usb-c-usb-c", "anker-a8052-usb-c-lightning-cable"]
     };

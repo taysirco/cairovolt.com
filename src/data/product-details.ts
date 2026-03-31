@@ -45,6 +45,16 @@ import { joyroom_usb_a_type_c_cable_detail } from './details/joyroom-usb-a-type-
 import { joyroom_usb_c_cable_60w_detail } from './details/joyroom-usb-c-cable-60w';
 import { joyroom_car_phone_mount_detail } from './details/joyroom-car-phone-mount';
 import { joyroom_usb_a_type_c_1_2m_detail } from './details/joyroom-usb-a-type-c-1-2m';
+import { anker_zolo_a110d_10000_detail } from './details/anker-zolo-a110d-10000';
+import { anker_zolo_a110e_20000_detail } from './details/anker-zolo-a110e-20000';
+import { anker_zolo_a1681_20000_detail } from './details/anker-zolo-a1681-20000';
+import { anker_prime_a1695_25000_detail } from './details/anker-prime-a1695-25000';
+import { anker_a2732_charger_35w_detail } from './details/anker-a2732-charger-35w';
+import { anker_a2741_charger_30w_detail } from './details/anker-a2741-charger-30w';
+import { anker_a8050_usb_c_cable_detail } from './details/anker-a8050-usb-c-cable';
+import { anker_soundcore_k20i_detail } from './details/anker-soundcore-k20i';
+import { anker_soundcore_r50i_nc_detail } from './details/anker-soundcore-r50i-nc';
+import { anker_soundcore_r50i_detail } from './details/anker-soundcore-r50i';
 
 export const enhancements: Record<string, import('./details/_types').ProductDetail> = {
     'anker-soundcore-motion-plus': anker_soundcore_motion_plus_detail,
@@ -89,6 +99,16 @@ export const enhancements: Record<string, import('./details/_types').ProductDeta
     'joyroom-usb-c-cable-60w': joyroom_usb_c_cable_60w_detail,
     'joyroom-car-phone-mount': joyroom_car_phone_mount_detail,
     'joyroom-usb-a-type-c-1.2m': joyroom_usb_a_type_c_1_2m_detail,
+    'anker-zolo-a110d-10000': anker_zolo_a110d_10000_detail,
+    'anker-zolo-a110e-20000': anker_zolo_a110e_20000_detail,
+    'anker-zolo-a1681-20000': anker_zolo_a1681_20000_detail,
+    'anker-prime-a1695-25000': anker_prime_a1695_25000_detail,
+    'anker-a2732-charger-35w': anker_a2732_charger_35w_detail,
+    'anker-a2741-charger-30w': anker_a2741_charger_30w_detail,
+    'anker-a8050-usb-c-cable': anker_a8050_usb_c_cable_detail,
+    'anker-soundcore-k20i': anker_soundcore_k20i_detail,
+    'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_detail,
+    'anker-soundcore-r50i': anker_soundcore_r50i_detail,
 };
 
 export function getProductDetail(slug: string): ProductDetail | undefined {

@@ -270,7 +270,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `أنا عندي عيال بيذاكروا أونلاين في ${govName} — إيه الحل الاقتصادي؟`,
-                answer: `Joyroom 20000 بيشحن 3 تليفونات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — ده يكفّي الأولاد يخلّصوا المذاكرة وانت مطمن. سعره 899 جنيه بس ومتاح بالدفع عند الاستلام في ${govName}. ولو عايز الراوتر كمان يفضل شغال، ابقى خد Anker 737.`,
+                answer: `Joyroom 20000 بيشحن 3 تليفونات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — ده يكفّي الأولاد يخلّصوا المذاكرة وانت مطمن. سعره ${PRODUCTS.joyroom20k.price} جنيه بس ومتاح بالدفع عند الاستلام في ${govName}. ولو عايز الراوتر كمان يفضل شغال، ابقى خد Anker 737.`,
             },
             {
                 question: `الشاحن بتاعي باظ بعد ما الكهرباء رجعت فجأة — ده طبيعي؟`,
@@ -306,7 +306,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `محتاج حاجة تشحن موبايلات العيلة كلها في ${govName} وقت القطع`,
-                answer: `Joyroom 20000 بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. يعني أبوك وأمك وانت — الكل يقدر يتصل ويستخدم الموبايل عادي. سعره 899 جنيه ومتاح في ${govName} بالتوصيل والدفع لما يوصلك.`,
+                answer: `Joyroom 20000 بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. يعني أبوك وأمك وانت — الكل يقدر يتصل ويستخدم الموبايل عادي. سعره ${PRODUCTS.joyroom20k.price} جنيه ومتاح في ${govName} بالتوصيل والدفع لما يوصلك.`,
             },
             {
                 question: `باور بانك يشغل الراوتر في ${govName} من غير ما يقطع؟`,
@@ -324,7 +324,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `إيه أرخص حل لعيلتي في ${govName} وقت الانقطاع؟`,
-                answer: `Joyroom 20000 سعره 899 جنيه وبيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. ده أحسن حل اقتصادي للعيلة — الكل يقدر يشحن تليفونه. والشحن لحد بيتك في ${govName}.`,
+                answer: `Joyroom 20000 سعره ${PRODUCTS.joyroom20k.price} جنيه وبيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. ده أحسن حل اقتصادي للعيلة — الكل يقدر يشحن تليفونه. والشحن لحد بيتك في ${govName}.`,
             },
             {
                 question: `الشواحن بتبوظ الموبايل لما الكهرباء بتتذبذب في ${govName}؟`,
@@ -338,7 +338,7 @@ function generateVoiceFaqsAr(
         coastal: [
             {
                 question: `رايح الساحل و${govName} فيها قطع كهرباء — أعمل إيه؟`,
-                answer: `Joyroom 20000 هو الحل العملي للساحل. بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — يكفّي العيلة كلها على البحر. سعره 899 جنيه بس وبيوصل ${govName} خلال ${deliveryDays} أيام.`,
+                answer: `Joyroom 20000 هو الحل العملي للساحل. بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — يكفّي العيلة كلها على البحر. سعره ${PRODUCTS.joyroom20k.price} جنيه بس وبيوصل ${govName} خلال ${deliveryDays} أيام.`,
             },
             {
                 question: `عندي شاليه في ${govName} ومحتاج الراوتر يفضل شغال`,
@@ -346,7 +346,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `أحسن شاحن آمن للساحل ما يبوظش الموبايل؟`,
-                answer: `Anker Nano 30W بتقنية GaN — اختبرناه مع تذبذب كهرباء ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} واشتغل زي الفل. سعره 649 جنيه ومعاه ضمان 18 شهر. أحسن من إنك تجيب شاحن من على الكورنيش ويبوظلك الموبايل.`,
+                answer: `Anker Nano 45W بتقنية GaN — اختبرناه مع تذبذب كهرباء ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} واشتغل زي الفل. سعره ${PRODUCTS.nano30w.price} جنيه ومعاه ضمان 18 شهر. أحسن من إنك تجيب شاحن من على الكورنيش ويبوظلك الموبايل.`,
             },
             {
                 question: `بتوصلوا ${govName} على الساحل؟`,
@@ -360,7 +360,7 @@ function generateVoiceFaqsAr(
             },
             {
                 question: `محتاج أشحن موبايلات في ${govName} والكهرباء بتيجي وتروح`,
-                answer: `Joyroom 20000 هو أحسن حل عملي — بيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. سعره 899 جنيه وبيكفّي أي عيلة. ولو محتاج حاجة أقوى، Anker PowerCore 20000 بيشحن الأيفون ${LAB_CONSTANTS.ANKER_20K_PHONE_CHARGES} مرات كاملة.`,
+                answer: `Joyroom 20000 هو أحسن حل عملي — بيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. سعره ${PRODUCTS.joyroom20k.price} جنيه وبيكفّي أي عيلة. ولو محتاج حاجة أقوى، Anker PowerCore 20000 بيشحن الأيفون ${LAB_CONSTANTS.ANKER_20K_PHONE_CHARGES} مرات كاملة.`,
             },
             {
                 question: `باور بانك يشغل الراوتر في ${govName}؟`,

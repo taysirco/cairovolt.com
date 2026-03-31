@@ -45,6 +45,16 @@ import { joyroom_type_c_lightning_24mos } from './products/joyroom-type-c-lightn
 import { joyroom_type_c_lightning_36mos } from './products/joyroom-type-c-lightning-36mos';
 import { joyroom_usb_a_type_c_1_2m } from './products/joyroom-usb-a-type-c-1.2m';
 import { joyroom_usb_a_lightning_1_2m } from './products/joyroom-usb-a-lightning-1.2m';
+import { anker_zolo_a110d_10000 } from './products/anker-zolo-a110d-10000';
+import { anker_zolo_a110e_20000 } from './products/anker-zolo-a110e-20000';
+import { anker_zolo_a1681_20000 } from './products/anker-zolo-a1681-20000';
+import { anker_prime_a1695_25000 } from './products/anker-prime-a1695-25000';
+import { anker_a2732_charger_35w } from './products/anker-a2732-charger-35w';
+import { anker_a2741_charger_30w } from './products/anker-a2741-charger-30w';
+import { anker_a8050_usb_c_cable } from './products/anker-a8050-usb-c-cable';
+import { anker_soundcore_k20i } from './products/anker-soundcore-k20i';
+import { anker_soundcore_r50i_nc } from './products/anker-soundcore-r50i-nc';
+import { anker_soundcore_r50i } from './products/anker-soundcore-r50i';
 
 export const products = [
     anker_soundcore_motion_plus,
@@ -89,4 +99,14 @@ export const products = [
     joyroom_type_c_lightning_36mos,
     joyroom_usb_a_type_c_1_2m,
     joyroom_usb_a_lightning_1_2m,
+    anker_zolo_a110d_10000,
+    anker_zolo_a110e_20000,
+    anker_zolo_a1681_20000,
+    anker_prime_a1695_25000,
+    anker_a2732_charger_35w,
+    anker_a2741_charger_30w,
+    anker_a8050_usb_c_cable,
+    anker_soundcore_k20i,
+    anker_soundcore_r50i_nc,
+    anker_soundcore_r50i,
 ];

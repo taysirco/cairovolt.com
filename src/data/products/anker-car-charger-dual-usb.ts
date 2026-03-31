@@ -14,18 +14,25 @@ export const anker_car_charger_dual_usb = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-1.webp", alt: "anker car charger dual usb - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-2.webp", alt: "anker car charger dual usb - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-3.webp", alt: "anker car charger dual usb - Best Deal in Egypt 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-4.webp", alt: "anker car charger dual usb - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-5.webp", alt: "anker car charger dual usb - Authorized Egypt Dealer", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-anker-car-charger-dual-usb-egypt-cairo-6.webp", alt: "anker car charger dual usb الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - كايرو فولت مصر", order: 0, isPrimary: true, width: 1024, height: 1024 },
+            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker car charger charging phone and tablet simultaneously dual device test", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-compact-size-led-indicator-blue.webp", alt: "شاحن سيارة انكر بحجم صغير مع مؤشر LED أزرق للطاقة", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-package-box-contents-egypt.webp", alt: "Anker dual USB car charger package box and contents - CairoVolt Egypt", order: 5, isPrimary: false, width: 1200, height: 1500 }
         ],
         translations: {
             en: {
                 name: "Anker PowerDrive 2 Car Charger | 24W Dual USB | PowerIQ | 18-Month Warranty",
                 shortDescription: "🚗 24W Dual USB (12W×2) | ⚡ PowerIQ Smart Charging | 📱 Charge 2 Devices Simultaneously | 💡 LED Indicator | 🔌 12V/24V Compatible",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerDrive 2 (A2310)</strong> is a dual USB-A car charger with 24W total output (12W per port). PowerIQ detects connected devices and delivers optimal speed. Compact flush-fit design, soft blue LED, 12V/24V universal compatibility. Perfect for charging two phones during Cairo traffic. 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Cheap car chargers without proper voltage regulation can damage your phone's charging circuit during car electrical spikes (engine start, AC). Some create radio interference with CarPlay/Bluetooth. The Anker PowerDrive 2 has MultiProtect surge protection rated for automotive electrical systems. Look for the Anker logo embossed on the body — fakes print it on.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -101,6 +108,13 @@ export const anker_car_charger_dual_usb = {
                 name: "شاحن سيارة انكر (منفذين) | بيشحن موبايلين وانت عالق في زحمة الدائري | ضمان 18 شهر",
                 shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">شواحن السيارات الرخيصة بدون تنظيم جهد سليم ممكن تضر دائرة الشحن في موبايلك وقت طفرات كهربا العربية (التشغيل، التكييف). بعضها بيعمل تشويش راديو على CarPlay/Bluetooth. أنكر PowerDrive 2 فيه حماية MultiProtect مصممة لكهربا السيارات. دور على شعار أنكر المنقوش على الجسم — المضروب بيطبعه.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -176,5 +190,6 @@ export const anker_car_charger_dual_usb = {
         expertOpinion: {
             en: "This charger has saved me countless times on Cairo's ring road. It sits flush in the console and charges two phones at respectable speeds. It doesn't have the super-fast PD charging of newer models, but for reliability and keeping two devices alive during a commute with GPS running, it's unbeatable.",
             ar: "لقد أنقذني هذا الشاحن مرات لا تحصى على الطريق الدائري بالقاهرة. يستقر بشكل مسطح في الكونسول ويشحن هاتفين بسرعات محترمة. ليس لديه شحن PD فائق السرعة مثل الموديلات الأحدث، ولكن للموثوقية والحفاظ على جهازين قيد التشغيل أثناء التنقل مع تشغيل GPS، لا يمكن التغلب عليه."
-        }
+        },
+        relatedProducts: ["anker-powercore-10000", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-powerline-usb-c-usb-c", "anker-powercore-20000"]
     };

@@ -27,6 +27,17 @@ import { anker_soundcore_motion_plus_lab } from './tests/anker-soundcore-motion-
 import { anker_soundcore_flare_2_lab } from './tests/anker-soundcore-flare-2';
 import { joyroom_30w_fast_charger_lab } from './tests/joyroom-30w-fast-charger';
 import { joyroom_jr_t03_wireless_earbuds_lab } from './tests/joyroom-jr-t03-wireless-earbuds';
+// New 10 Anker products
+import { anker_zolo_a110d_10000_lab } from './tests/anker-zolo-a110d-10000';
+import { anker_zolo_a110e_20000_lab } from './tests/anker-zolo-a110e-20000';
+import { anker_zolo_a1681_20000_lab } from './tests/anker-zolo-a1681-20000';
+import { anker_prime_a1695_25000_lab } from './tests/anker-prime-a1695-25000';
+import { anker_a2732_charger_35w_lab } from './tests/anker-a2732-charger-35w';
+import { anker_a2741_charger_30w_lab } from './tests/anker-a2741-charger-30w';
+import { anker_a8050_usb_c_cable_lab } from './tests/anker-a8050-usb-c-cable';
+import { anker_soundcore_k20i_lab } from './tests/anker-soundcore-k20i';
+import { anker_soundcore_r50i_nc_lab } from './tests/anker-soundcore-r50i-nc';
+import { anker_soundcore_r50i_lab } from './tests/anker-soundcore-r50i';
 
 export const labData: Record<string, import('./tests/_shared').ProductLabData> = {
     'anker-powercore-10000': anker_powercore_10000_lab,
@@ -53,6 +64,17 @@ export const labData: Record<string, import('./tests/_shared').ProductLabData> =
     'anker-soundcore-flare-2': anker_soundcore_flare_2_lab,
     'joyroom-30w-fast-charger': joyroom_30w_fast_charger_lab,
     'joyroom-jr-t03-wireless-earbuds': joyroom_jr_t03_wireless_earbuds_lab,
+    // New 10 Anker products
+    'anker-zolo-a110d-10000': anker_zolo_a110d_10000_lab,
+    'anker-zolo-a110e-20000': anker_zolo_a110e_20000_lab,
+    'anker-zolo-a1681-20000': anker_zolo_a1681_20000_lab,
+    'anker-prime-a1695-25000': anker_prime_a1695_25000_lab,
+    'anker-a2732-charger-35w': anker_a2732_charger_35w_lab,
+    'anker-a2741-charger-30w': anker_a2741_charger_30w_lab,
+    'anker-a8050-usb-c-cable': anker_a8050_usb_c_cable_lab,
+    'anker-soundcore-k20i': anker_soundcore_k20i_lab,
+    'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_lab,
+    'anker-soundcore-r50i': anker_soundcore_r50i_lab,
 };
 
 /**

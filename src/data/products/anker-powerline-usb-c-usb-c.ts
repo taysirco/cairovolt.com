@@ -14,19 +14,26 @@ export const anker_powerline_usb_c_usb_c = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-1.webp", alt: "anker powerline usb c usb c - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-2.webp", alt: "anker powerline usb c usb c - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-3.webp", alt: "anker powerline usb c usb c - Competitive Pricing Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-4.webp", alt: "anker powerline usb c usb c - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-5.webp", alt: "anker powerline usb c usb c - Certified by Distributor", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-6.webp", alt: "anker powerline usb c usb c - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-anker-powerline-usb-c-usb-c-egypt-cairo-7.webp", alt: "anker powerline usb c usb c - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-to-usb-c-100w-cable-cairovolt-egypt.webp", alt: "كابل انكر USB-C إلى USB-C 100 واط نايلون مضفر متين - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
+            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-connector-detail-reinforced-joint.webp", alt: "Anker PowerLine USB-C connector detail with reinforced joint stress relief", order: 1, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-braided-nylon-texture-durability.webp", alt: "نسيج نايلون مضفر لكابل انكر USB-C - جودة بناء متميزة ومتانة", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-100w-charging-laptop-macbook.webp", alt: "Anker USB-C 100W cable charging MacBook laptop with PD fast charging test", order: 3, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-cable-flexibility-bend-resistance.webp", alt: "مرونة كابل انكر USB-C ومقاومة الثني - اختبار المتانة", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-data-transfer-speed-10gbps.webp", alt: "Anker USB-C cable 10Gbps data transfer speed test and specification", order: 5, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_7", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-package-box-cable-accessories.webp", alt: "محتويات علبة كابل انكر USB-C إلى USB-C مع الملحقات - كايرو فولت", order: 6, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
             en: {
                 name: "Anker PowerLine III USB-C to USB-C | 60W | iPhone 17 & Samsung S26 | 18-Month Warranty",
                 shortDescription: "⚡ 60W Power Delivery | 📱 iPhone 17 Max Speed (30W) | 📱 Samsung S26 Super Fast (45W) | 💪 35,000+ Bends | 💻 MacBook Air Compatible",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for 2026. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
+    <p class="text-gray-700">Cheap USB-C cables from Ataba/online marketplaces often can't handle high wattage. They advertise 60W but use thin 28AWG wires that overheat at 30W+ and trickle-charge your laptop. Anker uses 20AWG power wires rated for sustained 60W. If your cable gets hot during charging, replace it immediately.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -110,6 +117,13 @@ export const anker_powerline_usb_c_usb_c = {
                 name: "كابل انكر تايب سي 60 واط | استثمارك المضمون (انسى تقليد العتبة) | ضمان 18 شهر",
                 shortDescription: "كابل يعيش معاك سنين من غير ما يتهري ⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع)",
                 description: `
+<div class="quick-answer">
+    <p class="text-gray-800 leading-relaxed"><strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ 2026. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر.</p>
+</div>
+<div class="buyer-warning">
+    <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
+    <p class="text-gray-700">كابلات USB-C الرخيصة من العتبة/المتاجر الالكترونية غالباً مبتشيلش واط عالي. بتدعي 60واط بس بتستخدم أسلاك 28AWG رفيعة بتسخن عند 30واط+ وبتشحن اللابتوب ببطء. أنكر بيستخدم أسلاك 20AWG مصممة لـ 60واط مستمر. لو الكابل بيسخن وقت الشحن، غيره فوراً.</p>
+</div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -186,5 +200,6 @@ export const anker_powerline_usb_c_usb_c = {
         expertOpinion: {
             en: "A solid, no-nonsense cable for all your USB-C devices. Whether it's a Samsung phone, an iPad, or a laptop, this cable handles up to 60W flawlessly. The flexibility is great, and the connectors are reinforced. Definitely a step up from the flimsy cables that come in the box.",
             ar: "كابل قوي ومباشر لجميع أجهزة USB-C الخاصة بك. سواء كان هاتف سامسونج، آيباد، أو لابتوب، يتعامل هذا الكابل مع ما يصل إلى 60 واط بلا عيوب. المرونة رائعة، والموصلات مدعمة. بالتأكيد ترقية عن الكابلات الضعيفة التي تأتي في العلية."
-        }
+        },
+        relatedProducts: ["anker-powerport-20w", "anker-powerport-25w", "anker-nano-45w", "anker-powercore-10000", "anker-a8050-usb-c-cable"]
     };

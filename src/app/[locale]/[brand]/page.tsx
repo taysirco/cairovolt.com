@@ -11,6 +11,7 @@ import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/brand-entities';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { staticProducts } from '@/lib/static-products';
+import BestSellingProducts from '@/components/products/BestSellingProducts';
 
 export const revalidate = 3600;
 export const dynamicParams = false; // Unknown slugs → automatic 404 (prevents soft 404)
@@ -233,7 +234,18 @@ export default async function BrandHubPage({ params }: Props) {
                 </div>
             )}
 
-            {/* Categories Grid (App Style) — PRODUCTS FIRST: Buyer sees categories/prices immediately */}
+            {/* ═══════════════════════════════════════════════════════════ */}
+            {/* Best-Selling Products — Top 15 with images & prices        */}
+            {/* Drives engagement: customers see top products first        */}
+            {/* ═══════════════════════════════════════════════════════════ */}
+            <BestSellingProducts
+                brandSlug={brand}
+                brandDisplayName={data.hero.title}
+                locale={locale}
+                maxProducts={15}
+            />
+
+            {/* Categories Grid (App Style) — Browse by category */}
             <section className="container mx-auto px-4 py-20 -mt-10 relative z-20">
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                     {data.categories.map((cat, idx) => (
