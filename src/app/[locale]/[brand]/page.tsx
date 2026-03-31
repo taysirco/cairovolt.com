@@ -235,14 +235,14 @@ export default async function BrandHubPage({ params }: Props) {
             )}
 
             {/* ═══════════════════════════════════════════════════════════ */}
-            {/* Best-Selling Products — Top 15 with images & prices        */}
+            {/* Best-Selling Products — Top 20 with images & prices        */}
             {/* Drives engagement: customers see top products first        */}
             {/* ═══════════════════════════════════════════════════════════ */}
             <BestSellingProducts
                 brandSlug={brand}
                 brandDisplayName={data.hero.title}
                 locale={locale}
-                maxProducts={15}
+                maxProducts={20}
             />
 
             {/* Categories Grid (App Style) — Browse by category */}
