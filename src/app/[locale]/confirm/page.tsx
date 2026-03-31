@@ -7,7 +7,7 @@ import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/analytics';
-import { ttqCompletePayment } from '@/lib/tiktokPixel';
+import { ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
 
 interface OrderItem {
     name: string;
@@ -120,6 +120,12 @@ function ConfirmContent() {
                     const contentIds = orderData.items.map(i => i.name).join(',');
                     const contentNames = orderData.items.map(i => i.name).join(', ');
                     const totalQty = orderData.items.reduce((s, i) => s + i.quantity, 0);
+                    ttqPlaceAnOrder({
+                        content_id: contentIds,
+                        content_name: contentNames,
+                        value: orderData.total,
+                        quantity: totalQty,
+                    });
                     ttqCompletePayment({
                         content_id: contentIds,
                         content_name: contentNames,

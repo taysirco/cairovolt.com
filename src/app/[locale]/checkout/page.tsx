@@ -6,8 +6,8 @@ import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { trackBeginCheckout, trackPurchase } from '@/lib/analytics';
-import { ttqInitiateCheckout, ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
+import { trackBeginCheckout } from '@/lib/analytics';
+import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
 import type { Metadata } from 'next';
 
 // Metadata must be exported from a server layout/page — this is handled by the
@@ -230,36 +230,8 @@ export default function CheckoutPage() {
             // Store in sessionStorage for confirm page
             sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
 
-            // Analytics: log completed purchase
-            trackPurchase(
-                confirmData.orderId,
-                cartItems.map(item => ({
-                    item_id: item.productId,
-                    item_name: item.name,
-                    item_brand: item.brand,
-                    price: item.price,
-                    quantity: item.quantity,
-                })),
-                confirmData.total,
-                confirmData.shipping
-            );
-
-            // TikTok Pixel: PlaceAnOrder + CompletePayment
-            const ttqContentIds = cartItems.map(i => i.productId).join(',');
-            const ttqContentNames = cartItems.map(i => i.name).join(', ');
-            const ttqTotalQty = cartItems.reduce((s, i) => s + i.quantity, 0);
-            ttqPlaceAnOrder({
-                content_id: ttqContentIds,
-                content_name: ttqContentNames,
-                value: confirmData.total,
-                quantity: ttqTotalQty,
-            });
-            ttqCompletePayment({
-                content_id: ttqContentIds,
-                content_name: ttqContentNames,
-                value: confirmData.total,
-                quantity: ttqTotalQty,
-            });
+            // Analytics: purchase + TikTok events fire on /confirm page only
+            // (after the user sees the confirmation — the true conversion point)
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
             // Use next-intl router to handle locale prefix automatically
