@@ -1,6 +1,7 @@
 'use client';
 import { flushSync } from 'react-dom';
 import { trackViewItem, trackAddToCart, trackImageGallerySwipe, trackQuantityChange, trackWhatsappClick, type AnalyticsItem } from '@/lib/analytics';
+import { ttqViewContent } from '@/lib/tiktokPixel';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -163,6 +164,13 @@ export default function ProductPageClient({ product, relatedProducts = [], local
             item_category: product.categorySlug,
             price: product.price,
             quantity: 1,
+        });
+        // TikTok Pixel: ViewContent
+        ttqViewContent({
+            content_id: product.id,
+            content_name: product.translations?.[locale as 'ar' | 'en']?.name || product.slug,
+            content_type: 'product',
+            value: product.price,
         });
     }, [product.id, product.slug, product.brand, product.categorySlug, product.price, product.translations, locale]);
 

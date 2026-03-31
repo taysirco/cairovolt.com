@@ -7,6 +7,7 @@ import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/analytics';
+import { ttqCompletePayment } from '@/lib/tiktokPixel';
 
 interface OrderItem {
     name: string;
@@ -109,6 +110,26 @@ function ConfirmContent() {
                 orderData.total,
                 orderData.shipping
             );
+
+            // TikTok Pixel: CompletePayment — fires on the actual confirmation page
+            // Dedup: only fire once per order to avoid double-counting with checkout
+            const ttqKey = `ttq_complete_${orderData.orderId}`;
+            try {
+                if (!sessionStorage.getItem(ttqKey)) {
+                    sessionStorage.setItem(ttqKey, '1');
+                    const contentIds = orderData.items.map(i => i.name).join(',');
+                    const contentNames = orderData.items.map(i => i.name).join(', ');
+                    const totalQty = orderData.items.reduce((s, i) => s + i.quantity, 0);
+                    ttqCompletePayment({
+                        content_id: contentIds,
+                        content_name: contentNames,
+                        value: orderData.total,
+                        quantity: totalQty,
+                    });
+                }
+            } catch {
+                // sessionStorage may be unavailable in private browsing
+            }
         }
     }, [orderData]);
 

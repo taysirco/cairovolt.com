@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext, useEffect, useState, useTransition, useCallback, ReactNode } from 'react';
+import { ttqAddToCart } from '@/lib/tiktokPixel';
 
 export interface CartItem {
     productId: string;
@@ -91,6 +92,13 @@ export function CartProvider({ children }: { children: ReactNode }) {
                 }
                 return [...currentItems, newItem];
             });
+        });
+        // TikTok Pixel: AddToCart event
+        ttqAddToCart({
+            content_id: newItem.productId,
+            content_name: newItem.name,
+            value: newItem.price * newItem.quantity,
+            quantity: newItem.quantity,
         });
         // Delay drawer open so "✓ Added" button feedback is visible first
         setTimeout(() => setIsOpen(true), 600);

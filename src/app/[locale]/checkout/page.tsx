@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout, trackPurchase } from '@/lib/analytics';
+import { ttqInitiateCheckout, ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
 import type { Metadata } from 'next';
 
 // Metadata must be exported from a server layout/page — this is handled by the
@@ -144,6 +145,8 @@ export default function CheckoutPage() {
                 })),
                 totalAmount
             );
+            // TikTok Pixel: InitiateCheckout
+            ttqInitiateCheckout({ value: totalAmount });
         }
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -240,6 +243,23 @@ export default function CheckoutPage() {
                 confirmData.total,
                 confirmData.shipping
             );
+
+            // TikTok Pixel: PlaceAnOrder + CompletePayment
+            const ttqContentIds = cartItems.map(i => i.productId).join(',');
+            const ttqContentNames = cartItems.map(i => i.name).join(', ');
+            const ttqTotalQty = cartItems.reduce((s, i) => s + i.quantity, 0);
+            ttqPlaceAnOrder({
+                content_id: ttqContentIds,
+                content_name: ttqContentNames,
+                value: confirmData.total,
+                quantity: ttqTotalQty,
+            });
+            ttqCompletePayment({
+                content_id: ttqContentIds,
+                content_name: ttqContentNames,
+                value: confirmData.total,
+                quantity: ttqTotalQty,
+            });
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
             // Use next-intl router to handle locale prefix automatically
