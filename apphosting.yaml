@@ -28,3 +28,5 @@ secrets:
     secret: cairovolt_private_key
   - variable: CAIROVOLT_PUBLIC_KEY
     secret: cairovolt_public_key
+  - variable: TIKTOK_ACCESS_TOKEN
+    secret: tiktok_access_token

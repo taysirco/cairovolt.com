@@ -4,6 +4,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { appendOrderToSheet } from '@/lib/google-sheets';
 import { validateApiKey } from '@/lib/api-auth';
+import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 
 // Defense-in-depth: sanitize user-submitted text before storing
 function sanitizeInput(input: unknown, maxLength = 500): string {
@@ -67,8 +68,11 @@ export async function POST(req: NextRequest) {
 
         const docRef = await db.collection('orders').add(orderData);
 
-        // Defer Google Sheets sync to AFTER the response is sent.
+        // Defer Google Sheets sync + TikTok S2S to AFTER the response is sent.
         // This eliminates ~2-3 seconds of blocking time for the user.
+        const clientIp = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || '';
+        const clientUA = req.headers.get('user-agent') || '';
+
         after(async () => {
             try {
                 await appendOrderToSheet({
@@ -77,6 +81,20 @@ export async function POST(req: NextRequest) {
                 });
             } catch (sheetError) {
                 console.error('Failed to sync with Google Sheet (deferred):', sheetError);
+            }
+
+            // TikTok Events API: Server-side PlaceAnOrder event
+            try {
+                await sendTtqOrderEvent(
+                    orderId,
+                    Array.isArray(data.items) ? data.items.slice(0, 20) : [],
+                    typeof data.totalAmount === 'number' ? data.totalAmount : 0,
+                    cleanPhone,
+                    clientIp,
+                    clientUA,
+                );
+            } catch (ttqError) {
+                console.error('TikTok S2S event failed (deferred):', ttqError);
             }
         });
 
