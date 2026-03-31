@@ -3,9 +3,9 @@ export const anker_a8050_usb_c_cable = {
         slug: "anker-a8050-usb-c-cable", sku: "ANK-CB-A8050", brand: "Anker", categorySlug: "cables",
         gtin: "", gtin13: "", mpn: "A8050", price: 220, originalPrice: 270, stock: 50, featured: false, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-to-usb-c-cable-braided-nylon-cairovolt.webp", alt: "Anker A8050 USB-C to USB-C cable braided nylon - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-connector-detail-gold-plated-durable.webp", alt: "كابل انكر USB-C بتصميم نايلون مضفر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability.webp", alt: "Anker A8050 USB-C connector detail reinforced stress point", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability.webp", alt: "Anker A8050 USB-C connector detail reinforced stress point", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-to-usb-c-cable-braided-nylon-cairovolt.webp", alt: "Anker A8050 USB-C to USB-C cable braided nylon - Egypt", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-connector-detail-gold-plated-durable.webp", alt: "كابل انكر USB-C بتصميم نايلون مضفر - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-cable-connected-to-laptop-charging.webp", alt: "Anker A8050 cable connected to iPhone 17 and charger", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-cable-flexibility-bend-test-reinforced-stress.webp", alt: "Anker A8050 bend test 35000 cycles certified", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-cable-length-comparison-measurement.webp", alt: "Anker A8050 retail packaging", order: 5, isPrimary: false, width: 1080, height: 1080 },

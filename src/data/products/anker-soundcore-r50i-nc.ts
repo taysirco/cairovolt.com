@@ -3,8 +3,8 @@ export const anker_soundcore_r50i_nc = {
         slug: "anker-soundcore-r50i-nc", sku: "ANK-EP-R50INC", brand: "Anker", categorySlug: "audio",
         gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1270, originalPrice: 1550, stock: 15, featured: true, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp", alt: "Anker Soundcore R50i NC ANC earbuds with case - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup.webp", alt: "سماعة انكر ساوندكور R50i NC مع إلغاء ضوضاء - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup.webp", alt: "سماعة انكر ساوندكور R50i NC مع إلغاء ضوضاء - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp", alt: "Anker Soundcore R50i NC ANC earbuds with case - Egypt", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-wearing-noise-cancelling-commute.webp", alt: "Anker R50i NC earbuds in-ear detail with silicone tips", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-charging-case-compact-led-status.webp", alt: "Anker R50i NC charging case with integrated phone stand", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-transparency-mode-ambient-sound.webp", alt: "Anker R50i NC worn showing comfortable in-ear fit", order: 4, isPrimary: false, width: 1080, height: 1080 },

@@ -14,9 +14,9 @@ export const anker_zolo_a1681_20000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp", alt: "Anker ZOLO A1681 power bank 20000mAh 45W front view - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-usb-c-45w-pd-fast-charging-laptop-compatible.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير 45 واط - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 USB-C PD 45W port and USB-A detail", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 USB-C PD 45W port and USB-A detail", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp", alt: "Anker ZOLO A1681 power bank 20000mAh 45W front view - Egypt", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-usb-c-45w-pd-fast-charging-laptop-compatible.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير 45 واط - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 charging MacBook Air alongside iPhone", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: ["anker-zolo-a110e-20000", "anker-prime-a1695-25000", "anker-a8050-usb-c-cable", "anker-a2732-charger-35w", "anker-soundcore-r50i-nc"],

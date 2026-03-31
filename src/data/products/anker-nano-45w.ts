@@ -14,13 +14,13 @@ export const anker_nano_45w = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو 45 واط USB-C GaN فائق الكفاءة صغير الحجم - كايرو فولت", order: 0, isPrimary: true, width: 1200, height: 1500 },
-            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "حجم شاحن انكر نانو 45 واط مقارنة بشاحن ابل - أصغر بنسبة 60%", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano 45W charging MacBook Air laptop at full speed with PD fast charge", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-foldable-plug-ultra-slim-design.webp", alt: "قابس قابل للطي فائق الرفع لشاحن انكر نانو 45 واط - تصميم سفر", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip temperature and efficiency performance test", order: 5, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp", alt: "محتويات علبة شاحن انكر نانو 45 واط مع المواصفات - كايرو فولت مصر", order: 6, isPrimary: false, width: 1200, height: 1200 }
+            { id: "img_1", url: "/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp", alt: "محتويات علبة شاحن انكر نانو 45 واط مع المواصفات - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
+            { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو 45 واط USB-C GaN فائق الكفاءة صغير الحجم - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "حجم شاحن انكر نانو 45 واط مقارنة بشاحن ابل - أصغر بنسبة 60%", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano 45W charging MacBook Air laptop at full speed with PD fast charge", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-nano-45w-foldable-plug-ultra-slim-design.webp", alt: "قابس قابل للطي فائق الرفع لشاحن انكر نانو 45 واط - تصميم سفر", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip temperature and efficiency performance test", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {

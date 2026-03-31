@@ -14,12 +14,12 @@ export const anker_car_charger_dual_usb = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - كايرو فولت مصر", order: 0, isPrimary: true, width: 1024, height: 1024 },
-            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker car charger charging phone and tablet simultaneously dual device test", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-compact-size-led-indicator-blue.webp", alt: "شاحن سيارة انكر بحجم صغير مع مؤشر LED أزرق للطاقة", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-package-box-contents-egypt.webp", alt: "Anker dual USB car charger package box and contents - CairoVolt Egypt", order: 5, isPrimary: false, width: 1200, height: 1500 }
+            { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-package-box-contents-egypt.webp", alt: "Anker dual USB car charger package box and contents - CairoVolt Egypt", order: 0, isPrimary: true, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - كايرو فولت مصر", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker car charger charging phone and tablet simultaneously dual device test", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-compact-size-led-indicator-blue.webp", alt: "شاحن سيارة انكر بحجم صغير مع مؤشر LED أزرق للطاقة", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {

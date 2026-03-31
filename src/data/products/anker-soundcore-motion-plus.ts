@@ -14,13 +14,13 @@ export const anker_soundcore_motion_plus = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bluetooth-speaker-30w-cairovolt.webp", alt: "سماعة انكر ساوندكور موشن بلس بلوتوث 30 واط صوت عالي الجودة - كايرو فولت", order: 0, isPrimary: true, width: 600, height: 450 },
-            { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-dual-driver-detail-close-up.webp", alt: "Anker Soundcore Motion Plus dual driver detail close-up showing speaker quality", order: 1, isPrimary: false, width: 1200, height: 791 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-ipx7-waterproof-splash-test.webp", alt: "اختبار مقاومة الماء IPX7 لسماعة انكر موشن بلس - رش واختبار غمر", order: 2, isPrimary: false, width: 1200, height: 1200 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-usb-c-aux-port-detail.webp", alt: "Anker Motion Plus USB-C and AUX 3.5mm port detail for charging and audio input", order: 3, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bass-radiator-passive-driver.webp", alt: "درايفر باس سلبي لسماعة انكر موشن بلس - تعزيز الترددات المنخفضة", order: 4, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-outdoor-portable-lifestyle.webp", alt: "Anker Soundcore Motion Plus outdoor portable lifestyle photo - waterproof speaker", order: 5, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-package-box-contents-cable.webp", alt: "محتويات علبة سماعة انكر موشن بلس مع كابل وملحقات - كايرو فولت مصر", order: 6, isPrimary: false, width: 1000, height: 1000 }
+            { id: "img_1", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-package-box-contents-cable.webp", alt: "محتويات علبة سماعة انكر موشن بلس مع كابل وملحقات - كايرو فولت مصر", order: 0, isPrimary: true, width: 1000, height: 1000 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bluetooth-speaker-30w-cairovolt.webp", alt: "سماعة انكر ساوندكور موشن بلس بلوتوث 30 واط صوت عالي الجودة - كايرو فولت", order: 1, isPrimary: false, width: 600, height: 450 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-dual-driver-detail-close-up.webp", alt: "Anker Soundcore Motion Plus dual driver detail close-up showing speaker quality", order: 2, isPrimary: false, width: 1200, height: 791 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-ipx7-waterproof-splash-test.webp", alt: "اختبار مقاومة الماء IPX7 لسماعة انكر موشن بلس - رش واختبار غمر", order: 3, isPrimary: false, width: 1200, height: 1200 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-usb-c-aux-port-detail.webp", alt: "Anker Motion Plus USB-C and AUX 3.5mm port detail for charging and audio input", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bass-radiator-passive-driver.webp", alt: "درايفر باس سلبي لسماعة انكر موشن بلس - تعزيز الترددات المنخفضة", order: 5, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_7", url: "/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-outdoor-portable-lifestyle.webp", alt: "Anker Soundcore Motion Plus outdoor portable lifestyle photo - waterproof speaker", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
