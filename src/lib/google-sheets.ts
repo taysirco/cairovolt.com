@@ -54,7 +54,7 @@ export async function appendOrderToSheet(orderData: any) {
 
         const sheet = doc.sheetsByIndex[0]; // Assume first sheet
 
-        const rows = orderData.items.map((item: any) => ({
+        const rows = orderData.items.map((item: any, idx: number) => ({
             'تاريخ الطلب': new Date().toLocaleDateString('ar-EG'),
             'الاسم': orderData.customerName,
             'رقم الهاتف': orderData.phone,
@@ -62,12 +62,13 @@ export async function appendOrderToSheet(orderData: any) {
             'المحافظة': orderData.cityLabel || orderData.city,
             'المنطقة': '', // Not collected explicitly
             'العنوان': orderData.address,
-            'تفاصيل الطلب': `${item.name} (x${item.quantity})`,
-            'الكمية': item.quantity,
-            'توتال السعر شامل الشحن': orderData.totalAmount, // Total order price
             'اسم المنتج': item.name,
+            'الكمية': item.quantity,
+            'سعر المنتج': item.price || 0,
+            'تفاصيل الطلب': `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`,
+            'توتال السعر شامل الشحن': idx === 0 ? orderData.totalAmount : '',
             'الحالة': 'جديد',
-            'ملاحظات': 'طلب من الموقع',
+            'ملاحظات': idx === 0 ? `طلب من الموقع - ${orderData.items.length} منتج` : '',
         }));
 
         await sheet.addRows(rows);
