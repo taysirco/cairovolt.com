@@ -69,7 +69,7 @@ export default function BestSellingProducts({
     brandSlug,
     brandDisplayName,
     locale,
-    maxProducts = 15,
+    maxProducts = 20,
 }: BestSellingProductsProps) {
     const isRTL = locale === 'ar';
     const isAnker = brandSlug === 'anker';
@@ -229,33 +229,7 @@ export default function BestSellingProducts({
                     })}
                 </div>
 
-                {/* Browse All CTA */}
-                <div className="text-center mt-10">
-                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                        {isRTL
-                            ? `اكتشف جميع منتجات ${brandDisplayName} الأصلية المتوفرة حالياً`
-                            : `Discover all original ${brandDisplayName} products available now`}
-                    </p>
-                    <div className="flex flex-wrap items-center justify-center gap-3">
-                        {['power-banks', 'wall-chargers', 'cables', 'audio', 'car-chargers'].map((cat) => {
-                            const label = categoryLabels[cat] || categoryLabels['other'];
-                            return (
-                                <Link
-                                    key={cat}
-                                    href={getLocalizedHref(`/${brandSlug}/${cat}`)}
-                                    className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold border transition-all duration-200 hover:shadow-md hover:-translate-y-0.5 ${
-                                        isAnker
-                                            ? 'border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 hover:bg-blue-50 dark:hover:bg-blue-900/30'
-                                            : 'border-red-200 dark:border-red-800 text-red-700 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-900/30'
-                                    }`}
-                                >
-                                    {isRTL ? label.ar : label.en}
-                                    <span className="text-xs opacity-60">{isRTL ? '←' : '→'}</span>
-                                </Link>
-                            );
-                        })}
-                    </div>
-                </div>
+
             </div>
         </section>
     );
