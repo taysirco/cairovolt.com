@@ -55,20 +55,20 @@ export async function appendOrderToSheet(orderData: any) {
         const sheet = doc.sheetsByIndex[0]; // Assume first sheet
 
         const rows = orderData.items.map((item: any, idx: number) => ({
-            'تاريخ الطلب': new Date().toLocaleDateString('ar-EG'),
-            'الاسم': orderData.customerName,
-            'رقم الهاتف': orderData.phone,
-            'رقم الواتس': orderData.whatsapp || orderData.phone,
-            'المحافظة': orderData.cityLabel || orderData.city,
-            'المنطقة': '', // Not collected explicitly
-            'العنوان': orderData.address,
-            'اسم المنتج': item.name,
-            'الكمية': item.quantity,
-            'سعر المنتج': item.price || 0,
-            'تفاصيل الطلب': `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`,
-            'توتال السعر شامل الشحن': idx === 0 ? orderData.totalAmount : '',
-            'الحالة': 'جديد',
-            'ملاحظات': idx === 0 ? `طلب من الموقع - ${orderData.items.length} منتج` : '',
+            'تاريخ الطلب': new Date().toLocaleDateString('ar-EG'),                        // A
+            'الاسم': orderData.customerName,                                               // B
+            'رقم الهاتف': orderData.phone,                                                 // C
+            'رقم الواتس': orderData.whatsapp || orderData.phone,                           // D
+            'المحافظة': orderData.cityLabel || orderData.city,                              // E
+            'المنطقة': '',                                                                 // F
+            'العنوان': orderData.address,                                                  // G
+            'تفاصيل الطلب': `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`, // H
+            'الكمية': item.quantity,                                                       // I
+            'توتال السعر شامل الشحن': idx === 0 ? orderData.totalAmount : '',              // J
+            'اسم المنتج': item.name,                                                      // K
+            'سعر المنتج': item.price || 0,                                                 // L
+            'الحالة': 'جديد',                                                              // M
+            'ملاحظات': idx === 0 ? `طلب من الموقع - ${orderData.items.length} منتج` : '', // N
         }));
 
         await sheet.addRows(rows);

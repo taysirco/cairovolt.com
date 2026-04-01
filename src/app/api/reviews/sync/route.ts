@@ -11,7 +11,7 @@ import { createReviewToken, generateReviewRequestMessage } from '@/lib/verified-
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 
-// Column indices (0-based)
+// Column indices (0-based) — must match actual Google Sheet header order
 const COLUMNS = {
     ORDER_DATE: 0,      // A - تاريخ الطلب
     CUSTOMER_NAME: 1,   // B - الاسم
@@ -22,10 +22,11 @@ const COLUMNS = {
     ADDRESS: 6,         // G - العنوان
     ORDER_DETAILS: 7,   // H - تفاصيل الطلب
     QUANTITY: 8,        // I - الكمية
-    TOTAL_PRICE: 9,     // J - توتال السعر
+    TOTAL_PRICE: 9,     // J - توتال السعر شامل الشحن
     PRODUCT_NAME: 10,   // K - اسم المنتج
-    STATUS: 11,         // L - الحالة
-    NOTES: 12,          // M - ملاحظات
+    PRODUCT_PRICE: 11,  // L - سعر المنتج
+    STATUS: 12,         // M - الحالة
+    NOTES: 13,          // N - ملاحظات
 };
 
 const DELIVERED_STATUS = 'تم التوصيل';
