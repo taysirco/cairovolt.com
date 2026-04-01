@@ -389,14 +389,14 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                         {/* Thumbnail Images */}
                         {images.length > 1 && (
-                            <div className="grid grid-cols-6 gap-2 sm:flex sm:gap-3 sm:overflow-x-auto pb-4 lg:pb-2">
+                            <div className="flex gap-2 sm:gap-3 overflow-x-auto pb-4 lg:pb-2 scrollbar-none snap-x">
                                 {images.map((img, idx) => (
                                     <button
                                         key={idx}
                                         aria-label={`View image ${idx + 1}`}
                                         title={`View image ${idx + 1}`}
                                         onClick={() => { setSelectedImage(idx); trackImageGallerySwipe(product.id, idx); }}
-                                        className={`relative w-full sm:w-20 sm:flex-shrink-0 aspect-square rounded-xl border-2 overflow-hidden transition-all bg-white ${selectedImage === idx
+                                        className={`relative flex-none w-16 sm:w-20 aspect-square rounded-xl border-2 overflow-hidden transition-all snap-start bg-white ${selectedImage === idx
                                             ? brand === 'anker'
                                                 ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
                                                 : 'border-red-600 shadow-lg ring-2 ring-red-600/20'
