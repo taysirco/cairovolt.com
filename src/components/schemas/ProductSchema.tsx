@@ -62,11 +62,28 @@ const PRICE_VALID_UNTIL = (() => {
     return d.toISOString().split('T')[0];
 })();
 
+// Strip HTML tags and truncate for JSON-LD description (Google max: 5000 chars)
+function getPlainTextDescription(html: string, maxLength: number = 4990): string {
+    // Strip HTML tags
+    let text = html.replace(/<[^>]*>/g, ' ');
+    // Decode common HTML entities
+    text = text.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ');
+    // Collapse whitespace
+    text = text.replace(/\s+/g, ' ').trim();
+    // Truncate if over limit
+    if (text.length > maxLength) {
+        text = text.substring(0, maxLength - 3) + '...';
+    }
+    return text;
+}
+
 export function ProductSchema({ product, locale, aggregateRating, reviews, specifications, isAccessoryOrSparePartFor, expertReview }: ProductSchemaProps) {
     const t = product.translations[locale as 'en' | 'ar'] || product.translations.en;
     const isArabic = locale === 'ar';
     const baseUrl = 'https://cairovolt.com';
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${(product.categorySlug || '').toLowerCase()}/${product.slug}`;
+    // Use plain text description for JSON-LD (Google requires 50-5000 chars for Product description)
+    const plainDescription = getPlainTextDescription(t.description);
 
     // Entity Mapping
     const brandWikidataLinks: Record<string, string> = {
@@ -118,7 +135,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         '@context': 'https://schema.org',
         '@type': 'Product',
         name: t.name,
-        description: t.description,
+        description: plainDescription,
         sku: product.sku,
         // GS1 Web Vocabulary - Global Product Identification
         ...(product.gtin && { gtin13: product.gtin }),
