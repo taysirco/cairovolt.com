@@ -364,7 +364,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 </div>
                             )}
 
-                            <div className="w-full h-full relative">
+                            <div className="w-full h-full relative flex items-center justify-center">
                                 {primaryImage ? (
                                     <ProductImage
                                         src={primaryImage}
@@ -375,7 +375,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         fill
                                         priority
                                         sizes="(max-width: 768px) 100vw, 50vw"
-                                        imageClassName="object-cover transition-transform hover:scale-105"
+                                        imageClassName="object-contain transition-transform hover:scale-105"
                                         isPrimary
                                         locale={locale}
                                     />
@@ -389,7 +389,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                         {/* Thumbnail Images */}
                         {images.length > 1 && (
-                            <div className="flex gap-2 sm:gap-3 overflow-x-auto pb-4 lg:pb-2 scrollbar-none snap-x">
+                            <div className="flex flex-nowrap gap-2 sm:gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory">
                                 {images.map((img, idx) => (
                                     <button
                                         key={idx}
