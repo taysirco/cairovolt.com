@@ -90,6 +90,17 @@ interface Product {
 interface ProductPageClientProps {
     product: Product;
     relatedProducts?: Product[];
+    bundleData?: {
+        bundleProducts: Array<{
+            product: Product;
+            slot: 'essential' | 'accessory';
+            reason: { ar: string; en: string };
+        }>;
+        bundleDiscount: number;
+        fullBundlePrice: number;
+        dailyCost: number;
+        totalSavings: number;
+    };
     locale: string;
     brand: string;
     category: string;
@@ -119,7 +130,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate }: ProductPageClientProps) {
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
@@ -378,12 +389,14 @@ export default function ProductPageClient({ product, relatedProducts = [], local
 
                         {/* Thumbnail Images */}
                         {images.length > 1 && (
-                            <div className="grid grid-cols-4 gap-2 sm:flex sm:gap-3 sm:overflow-x-auto pb-4 lg:pb-2">
+                            <div className="grid grid-cols-6 gap-2 sm:flex sm:gap-3 sm:overflow-x-auto pb-4 lg:pb-2">
                                 {images.map((img, idx) => (
                                     <button
                                         key={idx}
+                                        aria-label={`View image ${idx + 1}`}
+                                        title={`View image ${idx + 1}`}
                                         onClick={() => { setSelectedImage(idx); trackImageGallerySwipe(product.id, idx); }}
-                                        className={`relative w-full aspect-square rounded-xl border-2 overflow-hidden transition-all bg-white ${selectedImage === idx
+                                        className={`relative w-full sm:w-20 sm:flex-shrink-0 aspect-square rounded-xl border-2 overflow-hidden transition-all bg-white ${selectedImage === idx
                                             ? brand === 'anker'
                                                 ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
                                                 : 'border-red-600 shadow-lg ring-2 ring-red-600/20'
@@ -589,6 +602,7 @@ export default function ProductPageClient({ product, relatedProducts = [], local
                                     <BundleSelector
                                         mainProduct={product}
                                         relatedProducts={relatedProducts}
+                                        bundleData={bundleData}
                                         locale={locale}
                                     />
                                 </div>

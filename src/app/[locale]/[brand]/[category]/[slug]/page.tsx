@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getFirestore } from '@/lib/firebase-admin';
-import { getProductBySlug, getSmartRelatedProducts } from '@/lib/static-products';
+import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
@@ -272,6 +272,24 @@ export default async function ProductPage({ params }: Props) {
             .map(p => ({ id: `static_${p.slug}`, ...p } as Product))
         : [];
 
+    // Smart bundle data with reasons, discount, and daily cost
+    const bundleData = staticProduct
+        ? (() => {
+            const result = getSmartBundleProducts(staticProduct);
+            return {
+                bundleProducts: result.bundleProducts.map(bp => ({
+                    product: { id: `static_${bp.product.slug}`, ...bp.product } as Product,
+                    slot: bp.slot,
+                    reason: bp.reason,
+                })),
+                bundleDiscount: result.bundleDiscount,
+                fullBundlePrice: result.fullBundlePrice,
+                dailyCost: result.dailyCost,
+                totalSavings: result.totalSavings,
+            };
+        })()
+        : undefined;
+
     const productName = product.translations?.[locale as 'ar' | 'en']?.name || product.translations?.en?.name || '';
     const productDescription = product.translations?.[locale as 'ar' | 'en']?.description || product.translations?.en?.description || '';
     const isArabic = locale === 'ar';
@@ -438,6 +456,7 @@ export default async function ProductPage({ params }: Props) {
             <ProductPageClient
                 product={product}
                 relatedProducts={relatedProducts}
+                bundleData={bundleData}
                 locale={locale}
                 brand={brand}
                 category={category}

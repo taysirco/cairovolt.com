@@ -20,35 +20,80 @@ interface Product {
     };
 }
 
+interface BundleProductData {
+    product: Product;
+    slot: 'essential' | 'accessory';
+    reason: { ar: string; en: string };
+}
+
+interface BundleData {
+    bundleProducts: BundleProductData[];
+    bundleDiscount: number;
+    fullBundlePrice: number;
+    dailyCost: number;
+    totalSavings: number;
+}
+
 interface BundleSelectorProps {
     mainProduct: Product;
     relatedProducts: Product[];
+    bundleData?: BundleData;
     locale: string;
 }
 
-export default function BundleSelector({ mainProduct, relatedProducts, locale }: BundleSelectorProps) {
+export default function BundleSelector({ mainProduct, relatedProducts, bundleData, locale }: BundleSelectorProps) {
     const { addToCart } = useCart();
     const isArabic = locale === 'ar';
 
-    // Limit to 2 related products for cleaner bundle (main + 2 = 3 total)
-    const limitedRelatedProducts = relatedProducts.slice(0, 2);
+    // Use smart bundle data if available, otherwise fall back to relatedProducts
+    const smartBundleItems: BundleProductData[] = useMemo(() => {
+        if (bundleData && bundleData.bundleProducts.length > 0) {
+            return bundleData.bundleProducts;
+        }
+        // Fallback: wrap relatedProducts without reasons
+        return relatedProducts.slice(0, 2).map(p => ({
+            product: p,
+            slot: 'accessory' as const,
+            reason: { ar: '', en: '' },
+        }));
+    }, [bundleData, relatedProducts]);
 
     // State to track selected products in the bundle (initially all selected)
     const [selectedIds, setSelectedIds] = useState<string[]>([
         mainProduct.id,
-        ...limitedRelatedProducts.map(p => p.id)
+        ...smartBundleItems.map(bp => bp.product.id)
     ]);
 
-    // Derived state for selected products objects
-    const selectedProducts = useMemo(() => {
-        const all = [mainProduct, ...limitedRelatedProducts];
-        return all.filter(p => selectedIds.includes(p.id));
-    }, [mainProduct, limitedRelatedProducts, selectedIds]);
+    // All products in order: main first, then smart bundle items
+    const allProducts = useMemo(() => {
+        return [
+            { product: mainProduct, slot: 'main' as const, reason: { ar: '', en: '' } },
+            ...smartBundleItems,
+        ];
+    }, [mainProduct, smartBundleItems]);
 
-    // Calculate totals
-    const totalBundlePrice = selectedProducts.reduce((sum, p) => sum + p.price, 0);
-    const totalOriginalPrice = selectedProducts.reduce((sum, p) => sum + (p.originalPrice || p.price), 0);
-    const savings = totalOriginalPrice - totalBundlePrice;
+    // Derived state for selected products
+    const selectedProducts = useMemo(() => {
+        return allProducts.filter(item => selectedIds.includes(item.product.id));
+    }, [allProducts, selectedIds]);
+
+    // Calculate totals with bundle discount
+    const pricing = useMemo(() => {
+        const selectedPrices = selectedProducts.map(item => item.product);
+        const totalPrice = selectedPrices.reduce((sum, p) => sum + p.price, 0);
+        const totalOriginal = selectedPrices.reduce((sum, p) => sum + (p.originalPrice || p.price), 0);
+
+        // Only apply bundle discount if all items selected (complete combo)
+        const isFullBundle = selectedProducts.length === allProducts.length && allProducts.length > 1;
+        const bundleDiscount = isFullBundle && bundleData ? bundleData.bundleDiscount : 0;
+        const finalPrice = totalPrice - bundleDiscount;
+        const totalSavings = (totalOriginal - totalPrice) + bundleDiscount;
+
+        // Daily cost (psychological pricing)
+        const dailyCost = isFullBundle && bundleData ? bundleData.dailyCost : Math.round((finalPrice / 365) * 10) / 10;
+
+        return { totalPrice, totalOriginal, bundleDiscount, finalPrice, totalSavings, dailyCost, isFullBundle };
+    }, [selectedProducts, allProducts, bundleData]);
 
     // Handlers
     const toggleProduct = (id: string) => {
@@ -59,50 +104,67 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
     };
 
     const handleAddBundle = () => {
-        selectedProducts.forEach(product => {
-            const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en;
+        selectedProducts.forEach(item => {
+            const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
             addToCart({
-                productId: product.id,
-                name: t?.name || product.slug,
-                price: product.price,
+                productId: item.product.id,
+                name: t?.name || item.product.slug,
+                price: item.product.price,
                 quantity: 1,
-                image: product.images?.[0]?.url,
-                brand: product.brand
+                image: item.product.images?.[0]?.url,
+                brand: item.product.brand
             });
         });
     };
 
-    if (relatedProducts.length === 0) return null;
+    if (smartBundleItems.length === 0) return null;
 
-    const allProducts = [mainProduct, ...limitedRelatedProducts];
+    // Slot label helper
+    const getSlotBadge = (slot: string) => {
+        if (slot === 'main') return null;
+        if (slot === 'essential') {
+            return {
+                text: isArabic ? 'مطلوب معاه' : 'Essential',
+                className: 'bg-blue-500 text-white',
+            };
+        }
+        return {
+            text: isArabic ? 'إكسسوار مفيد' : 'Great Add-on',
+            className: 'bg-purple-500 text-white',
+        };
+    };
 
     return (
-        <div className="border border-gray-200 dark:border-gray-700 rounded-2xl p-4 my-8 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 shadow-lg relative z-10 w-full" style={{ maxWidth: '100%', overflow: 'hidden', boxSizing: 'border-box' }}>
+        <div className="border border-gray-200 dark:border-gray-700 rounded-2xl p-4 my-8 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 shadow-lg relative z-10 w-full max-w-full overflow-hidden box-border">
             {/* Header */}
-            <h3 className="text-base font-bold mb-4 text-gray-900 dark:text-white text-center">
-                {isArabic ? 'غالباً ما يتم شراؤها معاً' : 'Frequently Bought Together'}
+            <h3 className="text-base font-bold mb-1 text-gray-900 dark:text-white text-center">
+                {isArabic ? '🏆 الكومبو الذهبي — كمّل تجربتك' : '🏆 Golden Combo — Complete Your Setup'}
             </h3>
+            {bundleData && bundleData.bundleDiscount > 0 && (
+                <p className="text-center text-sm text-green-600 dark:text-green-400 font-semibold mb-4">
+                    {isArabic
+                        ? `خصم ${bundleData.bundleDiscount.toLocaleString()} ج.م لما تاخدهم مع بعض`
+                        : `Save ${bundleData.bundleDiscount.toLocaleString()} EGP when bought together`}
+                </p>
+            )}
 
             {/* Mobile Layout: Horizontal Scroll Cards */}
             <div className="block lg:hidden w-full overflow-hidden">
                 {/* Scrollable Product Cards */}
                 <div
                     className="flex overflow-x-auto gap-3 pb-4 snap-x snap-mandatory scrollbar-hide -mx-2 px-2"
-                    style={{
-                        scrollbarWidth: 'none',
-                        msOverflowStyle: 'none',
-                        WebkitOverflowScrolling: 'touch'
-                    }}
+                    style={{ WebkitOverflowScrolling: 'touch' }}
                 >
-                    {allProducts.map((product, idx) => {
-                        const isSelected = selectedIds.includes(product.id);
-                        const isMain = product.id === mainProduct.id;
-                        const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en;
+                    {allProducts.map((item) => {
+                        const isSelected = selectedIds.includes(item.product.id);
+                        const isMain = item.product.id === mainProduct.id;
+                        const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
+                        const badge = getSlotBadge(item.slot);
 
                         return (
                             <button
-                                key={product.id}
-                                onClick={() => toggleProduct(product.id)}
+                                key={item.product.id}
+                                onClick={() => toggleProduct(item.product.id)}
                                 disabled={isMain}
                                 className={`relative flex-shrink-0 w-[160px] rounded-2xl border-2 p-3 bg-white dark:bg-gray-800 transition-all duration-300 snap-center
                                     ${isSelected
@@ -121,19 +183,23 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                                     {isSelected ? '✓' : ''}
                                 </div>
 
-                                {/* Main Product Badge */}
-                                {isMain && (
+                                {/* Slot Badge */}
+                                {isMain ? (
                                     <div className={`absolute top-2 ${isArabic ? 'right-2' : 'left-2'} px-2 py-0.5 bg-blue-500 text-white text-[10px] font-bold rounded-full z-10`}>
                                         {isArabic ? 'رئيسي' : 'Main'}
                                     </div>
+                                ) : badge && (
+                                    <div className={`absolute top-2 ${isArabic ? 'right-2' : 'left-2'} px-2 py-0.5 ${badge.className} text-[10px] font-bold rounded-full z-10`}>
+                                        {badge.text}
+                                    </div>
                                 )}
 
-                                {/* Product Image - Larger */}
+                                {/* Product Image */}
                                 <div className="relative w-full aspect-square mb-3 bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden">
-                                    {product.images?.[0]?.url && (
+                                    {item.product.images?.[0]?.url && (
                                         <Image
-                                            src={product.images[0].url}
-                                            alt={t?.name || product.slug}
+                                            src={item.product.images[0].url}
+                                            alt={t?.name || item.product.slug}
                                             fill
                                             sizes="(max-width: 768px) 160px, 200px"
                                             className="object-contain p-2"
@@ -141,14 +207,21 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                                     )}
                                 </div>
 
-                                {/* Product Name - 2 lines */}
-                                <p className={`text-sm font-medium leading-tight mb-2 line-clamp-2 h-10 text-start ${isSelected ? 'text-gray-800 dark:text-gray-200' : 'text-gray-400 line-through'}`}>
+                                {/* Product Name */}
+                                <p className={`text-sm font-medium leading-tight mb-1 line-clamp-2 h-10 text-start ${isSelected ? 'text-gray-800 dark:text-gray-200' : 'text-gray-400 line-through'}`}>
                                     {t?.name}
                                 </p>
 
-                                {/* Price - Larger */}
+                                {/* Reason Text */}
+                                {!isMain && item.reason[isArabic ? 'ar' : 'en'] && (
+                                    <p className="text-[10px] text-orange-600 dark:text-orange-400 font-medium mb-1 line-clamp-1 text-start">
+                                        💡 {item.reason[isArabic ? 'ar' : 'en']}
+                                    </p>
+                                )}
+
+                                {/* Price */}
                                 <div className={`text-start ${isSelected ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400'}`}>
-                                    <span className="text-lg font-bold">{product.price.toLocaleString()}</span>
+                                    <span className="text-lg font-bold">{item.product.price.toLocaleString()}</span>
                                     <span className="text-xs ms-1">{isArabic ? 'ج.م' : 'EGP'}</span>
                                 </div>
                             </button>
@@ -169,32 +242,57 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                 {/* Total & CTA - More Prominent */}
                 <div className="bg-gradient-to-r from-yellow-50 to-orange-50 dark:from-yellow-900/30 dark:to-orange-900/30 rounded-2xl p-5 border-2 border-yellow-300 dark:border-yellow-700 shadow-lg">
                     {/* Summary Row */}
-                    <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center justify-between mb-3">
                         <div className="flex items-center gap-2">
                             <SvgIcon name="cart" className="w-6 h-6" />
                             <span className="text-base font-semibold text-gray-700 dark:text-gray-300">
                                 {isArabic ? `${selectedProducts.length} منتجات` : `${selectedProducts.length} items`}
                             </span>
                         </div>
-                        {savings > 0 && (
+                        {pricing.totalSavings > 0 && (
                             <span className="text-sm font-bold text-green-600 bg-green-100 dark:bg-green-900/50 px-3 py-1.5 rounded-full animate-pulse">
-                                {isArabic ? `وفر ${savings.toLocaleString()} ج.م` : `Save ${savings.toLocaleString()} EGP`}
+                                {isArabic ? `وفر ${pricing.totalSavings.toLocaleString()} ج.م` : `Save ${pricing.totalSavings.toLocaleString()} EGP`}
                             </span>
                         )}
                     </div>
 
-                    {/* Total Price - Much Larger */}
-                    <div className="text-center mb-4 py-3 bg-white/50 dark:bg-gray-800/50 rounded-xl">
+                    {/* Bundle Discount Badge */}
+                    {pricing.isFullBundle && pricing.bundleDiscount > 0 && (
+                        <div className="text-center mb-3 py-2 bg-green-50 dark:bg-green-900/30 rounded-xl border border-green-200 dark:border-green-800">
+                            <span className="text-sm font-bold text-green-700 dark:text-green-300">
+                                🎁 {isArabic
+                                    ? `خصم الكومبو: ${pricing.bundleDiscount.toLocaleString()} ج.م`
+                                    : `Combo Discount: ${pricing.bundleDiscount.toLocaleString()} EGP`}
+                            </span>
+                        </div>
+                    )}
+
+                    {/* Total Price */}
+                    <div className="text-center mb-2 py-3 bg-white/50 dark:bg-gray-800/50 rounded-xl">
                         <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">
                             {isArabic ? 'الإجمالي' : 'Total'}
                         </div>
+                        {pricing.bundleDiscount > 0 && (
+                            <span className="text-lg text-gray-400 line-through me-2">
+                                {pricing.totalPrice.toLocaleString()}
+                            </span>
+                        )}
                         <span className="text-4xl font-black text-gray-900 dark:text-white">
-                            {totalBundlePrice.toLocaleString()}
+                            {pricing.finalPrice.toLocaleString()}
                         </span>
                         <span className="text-lg text-gray-500 ms-2">{isArabic ? 'ج.م' : 'EGP'}</span>
                     </div>
 
-                    {/* CTA Button - Full Width & Larger */}
+                    {/* Daily Cost — Psychological Pricing */}
+                    {pricing.isFullBundle && pricing.dailyCost > 0 && (
+                        <p className="text-center text-xs text-gray-500 dark:text-gray-400 mb-4">
+                            {isArabic
+                                ? `💡 يعني بس ${pricing.dailyCost} ج.م في اليوم لمدة سنة`
+                                : `💡 That's only ${pricing.dailyCost} EGP/day for a full year`}
+                        </p>
+                    )}
+
+                    {/* CTA Button */}
                     <button
                         onClick={handleAddBundle}
                         disabled={selectedProducts.length === 0}
@@ -202,25 +300,31 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                         className="w-full bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-500 hover:from-yellow-500 hover:via-yellow-600 hover:to-orange-600 text-black font-black py-4 rounded-xl shadow-xl shadow-yellow-500/30 transition-all active:scale-[0.98] text-base disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
                         <SvgIcon name="cart" className="w-5 h-5" />
-                        {isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart'}
+                        {pricing.totalSavings > 0
+                            ? (isArabic
+                                ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م`
+                                : `Add Combo & Save ${pricing.totalSavings.toLocaleString()} EGP`)
+                            : (isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart')
+                        }
                     </button>
                 </div>
             </div>
 
             {/* Desktop Layout - Professional Grid */}
             <div className="hidden lg:block">
-                {/* Products Row with Plus Signs - now scrollable if needed */}
+                {/* Products Row with Plus Signs */}
                 <div className="flex items-stretch justify-start gap-4 mb-8 overflow-x-auto pb-2">
-                    {allProducts.map((product, idx) => {
-                        const isSelected = selectedIds.includes(product.id);
-                        const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en;
-                        const isMain = product.id === mainProduct.id;
+                    {allProducts.map((item, idx) => {
+                        const isSelected = selectedIds.includes(item.product.id);
+                        const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
+                        const isMain = item.product.id === mainProduct.id;
+                        const badge = getSlotBadge(item.slot);
 
                         return (
-                            <div key={product.id} className="flex items-center">
+                            <div key={item.product.id} className="flex items-center">
                                 {/* Product Card */}
                                 <button
-                                    onClick={() => toggleProduct(product.id)}
+                                    onClick={() => toggleProduct(item.product.id)}
                                     disabled={isMain}
                                     className={`relative group transition-all duration-300 
                                         ${!isSelected ? 'opacity-50 grayscale' : ''} 
@@ -232,12 +336,19 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                                             : 'border-gray-200 dark:border-gray-700'
                                         }`}
                                     >
+                                        {/* Slot Badge (top-left / top-right based on locale) */}
+                                        {!isMain && badge && (
+                                            <div className={`absolute top-3 ${isArabic ? 'right-3' : 'left-3'} px-2 py-0.5 ${badge.className} text-[10px] font-bold rounded-full z-10`}>
+                                                {badge.text}
+                                            </div>
+                                        )}
+
                                         {/* Image */}
                                         <div className="relative w-full aspect-square mb-4">
-                                            {product.images?.[0]?.url && (
+                                            {item.product.images?.[0]?.url && (
                                                 <Image
-                                                    src={product.images[0].url}
-                                                    alt={t?.name || product.slug}
+                                                    src={item.product.images[0].url}
+                                                    alt={t?.name || item.product.slug}
                                                     fill
                                                     sizes="(max-width: 768px) 160px, 200px"
                                                     className="object-contain p-2"
@@ -247,20 +358,28 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
 
                                         {/* Product Info */}
                                         <div className="text-center">
-                                            <p className={`text-sm font-medium mb-2 line-clamp-2 h-10 ${!isSelected ? 'text-gray-400 line-through' : 'text-gray-800 dark:text-gray-200'}`}>
+                                            <p className={`text-sm font-medium mb-1 line-clamp-2 h-10 ${!isSelected ? 'text-gray-400 line-through' : 'text-gray-800 dark:text-gray-200'}`}>
                                                 {t?.name}
                                             </p>
+
+                                            {/* Reason Text */}
+                                            {!isMain && item.reason[isArabic ? 'ar' : 'en'] && (
+                                                <p className="text-[11px] text-orange-600 dark:text-orange-400 font-medium mb-2 line-clamp-1">
+                                                    💡 {item.reason[isArabic ? 'ar' : 'en']}
+                                                </p>
+                                            )}
+
                                             <div className="flex items-center justify-center gap-2 flex-wrap">
                                                 <span className={`font-bold text-lg ${isSelected ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400'}`}>
-                                                    {product.price.toLocaleString()}
+                                                    {item.product.price.toLocaleString()}
                                                 </span>
                                                 <span className="text-sm text-gray-500">
                                                     {isArabic ? 'ج.م' : 'EGP'}
                                                 </span>
                                             </div>
-                                            {product.originalPrice && product.originalPrice > product.price && (
+                                            {item.product.originalPrice && item.product.originalPrice > item.product.price && (
                                                 <span className="text-gray-400 text-xs line-through">
-                                                    {product.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                                    {item.product.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
                                                 </span>
                                             )}
                                         </div>
@@ -299,14 +418,40 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                                 <p className="text-sm text-gray-600 dark:text-gray-400 mb-1">
                                     {isArabic ? `إجمالي ${selectedProducts.length} منتجات` : `Total for ${selectedProducts.length} items`}
                                 </p>
+
+                                {/* Strikethrough original if discount */}
+                                {pricing.bundleDiscount > 0 && (
+                                    <span className="text-lg text-gray-400 line-through block">
+                                        {pricing.totalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                    </span>
+                                )}
+
                                 <div className="text-3xl font-bold text-gray-900 dark:text-white">
-                                    {totalBundlePrice.toLocaleString()}
+                                    {pricing.finalPrice.toLocaleString()}
                                     <span className="text-base font-medium text-gray-500 ms-1">{isArabic ? 'ج.م' : 'EGP'}</span>
                                 </div>
-                                {savings > 0 && (
+
+                                {/* Savings badge */}
+                                {pricing.totalSavings > 0 && (
                                     <span className="inline-block mt-2 text-sm font-semibold text-green-600 bg-green-100 dark:bg-green-900/40 px-3 py-1 rounded-full">
-                                        {isArabic ? `وفرت ${savings.toLocaleString()} ج.م` : `Save ${savings.toLocaleString()} EGP`}
+                                        {isArabic ? `وفرت ${pricing.totalSavings.toLocaleString()} ج.م` : `Save ${pricing.totalSavings.toLocaleString()} EGP`}
                                     </span>
+                                )}
+
+                                {/* Bundle Discount Label */}
+                                {pricing.isFullBundle && pricing.bundleDiscount > 0 && (
+                                    <p className="text-xs text-green-600 dark:text-green-400 mt-1 font-medium">
+                                        🎁 {isArabic ? 'خصم الكومبو' : 'Combo Discount'}
+                                    </p>
+                                )}
+
+                                {/* Daily Cost */}
+                                {pricing.isFullBundle && pricing.dailyCost > 0 && (
+                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                                        💡 {isArabic
+                                            ? `${pricing.dailyCost} ج.م/يوم لمدة سنة`
+                                            : `${pricing.dailyCost} EGP/day for a year`}
+                                    </p>
                                 )}
                             </div>
 
@@ -316,7 +461,12 @@ export default function BundleSelector({ mainProduct, relatedProducts, locale }:
                                 data-add-to-cart
                                 className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-black font-bold py-3 px-4 rounded-xl shadow-lg transition-all transform hover:scale-[1.02] active:scale-95 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                             >
-                                {isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart'}
+                                {pricing.totalSavings > 0
+                                    ? (isArabic
+                                        ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م`
+                                        : `Add & Save ${pricing.totalSavings.toLocaleString()} EGP`)
+                                    : (isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart')
+                                }
                             </button>
                         </div>
                     </div>
