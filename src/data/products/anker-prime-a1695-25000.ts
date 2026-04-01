@@ -8,7 +8,7 @@ export const anker_prime_a1695_25000 = {
         gtin: "194644209476",
         gtin13: "0194644209476",
         mpn: "A1695",
-        price: 3900,
+        price: 3950,
         originalPrice: 4200,
         stock: 8,
         featured: true,

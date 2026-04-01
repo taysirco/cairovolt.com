@@ -1,7 +1,7 @@
 // Product: anker-soundcore-r50i
 export const anker_soundcore_r50i = {
         slug: "anker-soundcore-r50i", sku: "ANK-EP-R50I", brand: "Anker", categorySlug: "audio",
-        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 800, originalPrice: 1300, stock: 25, featured: false, status: "active",
+        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 950, originalPrice: 1300, stock: 25, featured: false, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Anker Soundcore R50i true wireless earbuds in-ear - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة انكر ساوندكور R50i لاسلكية داخلية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
@@ -31,10 +31,10 @@ export const anker_soundcore_r50i = {
 <li>💧 <strong>IPX5:</strong> Sweat-proof and rain-proof.</li>
 </ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The R50i is Anker's entry point — and what an entry point it is. At 800 EGP, you get 10mm drivers, BassUp technology, 30-hour battery, AI ENC for calls, and the full Soundcore app experience. The in-ear design with silicone tips provides passive noise isolation that's surprisingly effective on the Metro. No, it doesn't have ANC like the <a href='/anker/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>, but the silicone seal blocks a lot of ambient noise naturally. The sound quality punches above budget expectations. If you want maximum value, this is where you start. If you want ANC, step up to the R50i NC. If you want maximum comfort, choose the <a href='/anker/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ Cairo Volt Tech Team</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"The R50i is Anker's entry point — and what an entry point it is. At 950 EGP, you get 10mm drivers, BassUp technology, 30-hour battery, AI ENC for calls, and the full Soundcore app experience. The in-ear design with silicone tips provides passive noise isolation that's surprisingly effective on the Metro. No, it doesn't have ANC like the <a href='/anker/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>, but the silicone seal blocks a lot of ambient noise naturally. The sound quality punches above budget expectations. If you want maximum value, this is where you start. If you want ANC, step up to the R50i NC. If you want maximum comfort, choose the <a href='/anker/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ Cairo Volt Tech Team</span></p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">The Value Champion</h2>
-<p class="text-gray-700">At 800 EGP, the R50i delivers what many earbuds at twice the price can't: reliable sound, reliable battery, and reliable calls. The <strong>10mm BassUp drivers</strong> provide solid bass and clear mids. The Soundcore app unlocks 22 EQ presets and an 8-band custom equalizer. For everyday commuting, music, podcasts, and calls — the R50i does everything competently.</p></section>
+<p class="text-gray-700">At 950 EGP, the R50i delivers what many earbuds at twice the price can't: reliable sound, reliable battery, and reliable calls. The <strong>10mm BassUp drivers</strong> provide solid bass and clear mids. The Soundcore app unlocks 22 EQ presets and an 8-band custom equalizer. For everyday commuting, music, podcasts, and calls — the R50i does everything competently.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">30 Hours: Weekly Charging</h2>
 <p class="text-gray-700">8 hours per earbud charge, 30 hours total with the compact case. At 2 hours of daily commute use, that's over 2 weeks between charges. <strong>USB-C fast charging</strong> gives you 1 hour of emergency playback from just 10 minutes. The case fits in any pocket or purse.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">In-Ear Passive Isolation</h2>
@@ -71,8 +71,8 @@ export const anker_soundcore_r50i = {
                 metaDesc: "Buy Anker R50i in Egypt. 10mm BassUp drivers, 30h battery, AI ENC calls. Best-value wireless earbuds. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Does it have ANC (noise cancellation)?", answer: "No — the R50i uses passive noise isolation via silicone tips. For active ANC, choose the R50i NC (42dB ANC). The R50i offers great value without ANC." },
-                    { question: "R50i vs R50i NC — what's the difference?", answer: "R50i: no ANC, 30h battery, 800 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1270 EGP. If budget allows, R50i NC is the significant upgrade." },
-                    { question: "R50i vs K20i — which is better?", answer: "R50i = in-ear (passive isolation, smaller 10mm drivers, 30h). K20i = semi-in-ear (more comfortable, bigger 13mm drivers, 36h). K20i costs 699 EGP vs R50i's 800 EGP." },
+                    { question: "R50i vs R50i NC — what's the difference?", answer: "R50i: no ANC, 30h battery, 950 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1299 EGP. If budget allows, R50i NC is the significant upgrade." },
+                    { question: "R50i vs K20i — which is better?", answer: "R50i = in-ear (passive isolation, smaller 10mm drivers, 30h). K20i = semi-in-ear (more comfortable, bigger 13mm drivers, 36h). K20i costs 750 EGP vs R50i's 950 EGP." },
                     { question: "How do I maximize battery life?", answer: "Keep case charged via USB-C. Avoid draining earbuds to 0%. Store in case when not in use. The 10-minute fast charge gives 2 emergency hours." },
                     { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. Contact NaqraStore for free replacement if they fail under normal use." }
                 ]
@@ -93,10 +93,10 @@ export const anker_soundcore_r50i = {
 <li>⚡ <strong>شحن سريع:</strong> 10 دقايق = ساعة.</li>
 </ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i نقطة بداية أنكر — ويا نعم البداية. بـ 800 جنيه، بتاخد 10mm درايفرات و BassUp و 30 ساعة بطارية و AI ENC للمكالمات وتطبيق Soundcore الكامل. التصميم الداخلي بأطراف السيليكون بيعزل الضوضاء بشكل سلبي فعّال بشكل مفاجئ في المترو. لأ، مفيهاش ANC زي <a href='/anker/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>، بس السيل بتاع السيليكون بيمنع ضوضاء كتير طبيعياً. لو عايز أقصى قيمة، ابدأ من هنا. لو عايز ANC، ارقي لـ R50i NC. لو عايز أقصى راحة، اختار <a href='/anker/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i نقطة بداية أنكر — ويا نعم البداية. بـ 950 جنيه، بتاخد 10mm درايفرات و BassUp و 30 ساعة بطارية و AI ENC للمكالمات وتطبيق Soundcore الكامل. التصميم الداخلي بأطراف السيليكون بيعزل الضوضاء بشكل سلبي فعّال بشكل مفاجئ في المترو. لأ، مفيهاش ANC زي <a href='/anker/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>، بس السيل بتاع السيليكون بيمنع ضوضاء كتير طبيعياً. لو عايز أقصى قيمة، ابدأ من هنا. لو عايز ANC، ارقي لـ R50i NC. لو عايز أقصى راحة، اختار <a href='/anker/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span></p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">بطل القيمة</h2>
-<p class="text-gray-700">بـ 800 جنيه، الـ R50i بتوفر اللي سماعات بضعف السعر ما بتوفروش: صوت موثوق، بطارية موثوقة، ومكالمات موثوقة. <strong>درايفرات 10mm BassUp</strong> بتوفر باس صلب ووسط واضح. تطبيق Soundcore بيفتح 22 إعداد EQ و 8 نطاقات.</p></section>
+<p class="text-gray-700">بـ 950 جنيه، الـ R50i بتوفر اللي سماعات بضعف السعر ما بتوفروش: صوت موثوق، بطارية موثوقة، ومكالمات موثوقة. <strong>درايفرات 10mm BassUp</strong> بتوفر باس صلب ووسط واضح. تطبيق Soundcore بيفتح 22 إعداد EQ و 8 نطاقات.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">30 ساعة: شحن أسبوعي</h2>
 <p class="text-gray-700">8 ساعات لكل شحنة، 30 ساعة إجمالي. بساعتين استخدام يومي، ده أكتر من أسبوعين بين الشحنات. <strong>شحن USB-C سريع</strong> بيدي ساعة تشغيل من 10 دقايق.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">عزل سلبي داخلي</h2>
@@ -132,13 +132,13 @@ export const anker_soundcore_r50i = {
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },
-                    { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 800 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1270 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
-                    { question: "R50i ولا K20i — أنهي أحسن؟", answer: "R50i = داخلية (عزل سلبي، 10mm، 30 ساعة). K20i = نصف داخلية (أريح، 13mm، 36 ساعة). K20i بـ 699 جنيه مقابل 800 للـ R50i." },
+                    { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 950 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1299 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
+                    { question: "R50i ولا K20i — أنهي أحسن؟", answer: "R50i = داخلية (عزل سلبي، 10mm، 30 ساعة). K20i = نصف داخلية (أريح، 13mm، 36 ساعة). K20i بـ 750 جنيه مقابل 950 للـ R50i." },
                     { question: "إزاي أحافظ على البطارية أطول فترة؟", answer: "خلّي العلبة مشحونة بـ USB-C. متفرغش السماعات لـ 0%. حطها في العلبة لما مش بتستخدمها. شحن 10 دقايق بيدي ساعتين طوارئ." },
                     { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم NaqraStore للاستبدال مجاناً لو باظت في الاستخدام العادي." }
                 ]
             }
         },
         meta: { keywords: "anker r50i, anker soundcore r50i, سماعة انكر r50i, سماعة لاسلكية رخيصة, anker budget earbuds", mainTerm: "anker soundcore r50i earbuds" },
-        expertOpinion: { en: "Best-value wireless earbuds in Egypt. 10mm BassUp, 30h battery, AI ENC, Soundcore app — all at 800 EGP. Passive isolation works well on the Metro. Start here if budget-conscious.", ar: "أفضل قيمة سماعة لاسلكية في مصر. 10mm BassUp، 30 ساعة، AI ENC، تطبيق Soundcore — كل ده بـ 800 جنيه. العزل السلبي بيشتغل كويس في المترو." }
+        expertOpinion: { en: "Best-value wireless earbuds in Egypt. 10mm BassUp, 30h battery, AI ENC, Soundcore app — all at 950 EGP. Passive isolation works well on the Metro. Start here if budget-conscious.", ar: "أفضل قيمة سماعة لاسلكية في مصر. 10mm BassUp، 30 ساعة، AI ENC، تطبيق Soundcore — كل ده بـ 950 جنيه. العزل السلبي بيشتغل كويس في المترو." }
     };

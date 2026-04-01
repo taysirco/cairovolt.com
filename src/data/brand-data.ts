@@ -188,8 +188,8 @@ export const brandData: Record<string, BrandData> = {
             ]
         },
         quickAnswer: {
-            en: 'Anker is the world\'s #1 charging brand, available in Egypt via Cairo Volt with 18-month replacement warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 400), Soundcore P40i earbuds (EGP 1,650). All products are 100% original with GaN technology.',
-            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن، متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (400 ج)، سماعات P40i (1,650 ج). كل المنتجات أصلية 100% بتقنية GaN.'
+            en: 'Anker is the world\'s #1 charging brand, available in Egypt via Cairo Volt with 18-month replacement warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 375), Soundcore P40i earbuds (EGP 1,650). All products are 100% original with GaN technology.',
+            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن، متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، سماعات P40i (1,650 ج). كل المنتجات أصلية 100% بتقنية GaN.'
         }
     },
     joyroom: {

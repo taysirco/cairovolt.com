@@ -49,14 +49,14 @@ export const anker_audio_content: CategoryContent = {
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين سماعات Soundcore R50i و P20i و Liberty 4؟', answer: 'R50i (820 ج.م): الخيار الاقتصادي مع جودة صوت ممتازة وبطارية 10 ساعات. P20i (820 ج.م): نفس السعر لكن بتصميم مختلف وألوان أكثر. Liberty 4 (الأعلى): تأتي بـ ANC، Hi-Res Audio، وHearID للصوت الشخصي. اختر R50i للميزانية، Liberty 4 للتجربة الكاملة.' },
+                        { question: 'ما الفرق بين سماعات Soundcore R50i و P20i و Liberty 4؟', answer: 'R50i (950 ج.م): الخيار الاقتصادي مع جودة صوت ممتازة وبطارية 10 ساعات. P20i (820 ج.م): نفس السعر لكن بتصميم مختلف وألوان أكثر. Liberty 4 (الأعلى): تأتي بـ ANC، Hi-Res Audio، وHearID للصوت الشخصي. اختر R50i للميزانية، Liberty 4 للتجربة الكاملة.' },
                         { question: 'هل سماعات Soundcore تدعم عزل الضوضاء ANC؟', answer: 'ليس كل الموديلات! R50i و P20i لا تحتوي ANC (لكن تعزل الضوضاء بشكل سلبي). أما Liberty 4 و P40i فتأتي بـ ANC نشط يحجب 98% من الضوضاء. إذا كنت تستخدم المواصلات كثيراً، ANC يستحق الفرق.' },
                         { question: 'كيف أعرف أن سماعة Soundcore أصلية وليست تقليد؟', answer: 'الطريقة الأضمن: حمّل تطبيق Soundcore من App Store أو Google Play وحاول ربط السماعة. إذا لم يتعرف التطبيق عليها = مقلدة 100%. المنتجات الأصلية تظهر فوراً وتتيح لك تحديث firmware وتخصيص EQ.' },
                         { question: 'أيهما أفضل: سماعات Soundcore أم AirPods؟', answer: 'يعتمد على احتياجك! AirPods ممتازة لمستخدمي آيفون وتكامل مع Apple. Soundcore تقدم نفس الجودة (أحياناً أفضل في الباس) بنصف السعر أو أقل، مع Hi-Res Audio وتطبيق تخصيص قوي. للميزانية الذكية، Soundcore هي الخيار.' },
                         { question: 'هل تطبيق Soundcore متاح بالعربي؟', answer: 'التطبيق حالياً بالإنجليزية فقط، لكنه سهل الاستخدام جداً. يتيح لك: تخصيص EQ (الصوت)، تفعيل HearID (ملف صوتي شخصي)، تحديث firmware السماعة، وتتبع السماعة إذا ضاعت. متاح مجاناً على iOS و Android.' }
                     ],
                     en: [
-                        { question: 'What is the difference between Soundcore R50i, P20i, and Liberty 4?', answer: 'R50i (EGP 820): Budget-friendly with excellent sound and 10-hour battery. P20i (EGP 820): Same price, different design with more colors. Liberty 4 (Flagship): Features ANC, Hi-Res Audio, and personalized HearID. Choose R50i for budget, Liberty 4 for the full experience.' },
+                        { question: 'What is the difference between Soundcore R50i, P20i, and Liberty 4?', answer: 'R50i (EGP 950): Budget-friendly with excellent sound and 10-hour battery. P20i (EGP 820): Same price, different design with more colors. Liberty 4 (Flagship): Features ANC, Hi-Res Audio, and personalized HearID. Choose R50i for budget, Liberty 4 for the full experience.' },
                         { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Not all models! R50i & P20i don\'t have ANC (but provide passive isolation). Liberty 4 & P40i come with active ANC that blocks 98% of noise. If you commute frequently, ANC is worth the upgrade.' },
                         { question: 'How can I verify if my Soundcore earbuds are genuine?', answer: 'The safest method: Download the Soundcore App from App Store or Google Play and try to pair your earbuds. If the app doesn\'t recognize them = 100% fake. Genuine products appear instantly and allow firmware updates and EQ customization.' },
                         { question: 'Which is better: Soundcore or AirPods?', answer: 'Depends on your needs! AirPods are excellent for iPhone users and Apple ecosystem. Soundcore offers the same quality (sometimes better bass) at half the price or less, with Hi-Res Audio and a powerful customization app. For smart budgets, Soundcore wins.' },
@@ -122,7 +122,7 @@ export const anker_audio_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Anker Soundcore R50i', price: 820, badge: 'اقتصادي ناجح' },
+                        { name: 'Anker Soundcore R50i', price: 950, badge: 'اقتصادي ناجح' },
                         { name: 'Anker Soundcore P20i', price: 820, badge: 'Best Value' },
                         { name: 'Anker Liberty 4', price: 820, badge: 'Premium ANC' },
                     ]
@@ -173,7 +173,7 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                         }
                     ],
                     products: [
-                        { name: 'Anker Soundcore R50i', price: 820, badge: 'Budget King' },
+                        { name: 'Anker Soundcore R50i', price: 950, badge: 'Budget King' },
                         { name: 'Anker Soundcore P20i', price: 820, badge: 'Best Value' },
                         { name: 'Anker Liberty 4', price: 820, badge: 'Premium ANC' },
                     ]

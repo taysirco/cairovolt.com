@@ -1,7 +1,7 @@
 // Product: anker-a2741-charger-30w (CAR CHARGER — 30W USB-C PD + USB-A)
 export const anker_a2741_charger_30w = {
         slug: "anker-a2741-charger-30w", sku: "ANK-CC-A2741", brand: "Anker", categorySlug: "car-chargers",
-        gtin: "194644185183", gtin13: "0194644185183", mpn: "A2741", price: 480, originalPrice: 570, stock: 35, featured: false, status: "active",
+        gtin: "194644185183", gtin13: "0194644185183", mpn: "A2741", price: 530, originalPrice: 570, stock: 35, featured: false, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-30w-dual-port-charger-usb-c-usb-a-cairovolt.webp", alt: "Anker A2741 car charger 30W USB-C PD and USB-A in car cigarette lighter socket", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-usb-c-usb-a-dual-port-detail-30w-output.webp", alt: "شاحن سيارة انكر A2741 منفذين USB-C و USB-A - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
@@ -148,5 +148,5 @@ export const anker_a2741_charger_30w = {
             }
         },
         meta: { keywords: "شاحن سيارة انكر ميني, anker mini car charger, anker a2741, شاحن سيارة صغير, anker car charger pps, شاحن عربية انكر", mainTerm: "شاحن سيارة انكر ميني 30 واط" },
-        expertOpinion: { en: "The A2741 is the smallest serious car charger we've tested. At 15g with 30W output including PPS for Samsung, it's ideal for drivers who want invisible charging. USB-A PowerIQ 3.0 at 22.5W outperforms most car charger USB-A ports. Best miniature car charger under 500 EGP.", ar: "الـ A2741 أصغر شاحن سيارة جاد جربناه. بـ 15 جرام و 30 واط مع PPS لسامسونج، مثالي للسواقين اللي عايزين شحن غير مرئي. USB-A PowerIQ 3.0 بـ 22.5 واط أسرع من معظم منافذ USB-A في شواحن السيارات. أفضل شاحن سيارة مدمج تحت 500 جنيه." }
+        expertOpinion: { en: "The A2741 is the smallest serious car charger we've tested. At 15g with 30W output including PPS for Samsung, it's ideal for drivers who want invisible charging. USB-A PowerIQ 3.0 at 22.5W outperforms most car charger USB-A ports. Best miniature car charger under 600 EGP.", ar: "الـ A2741 أصغر شاحن سيارة جاد جربناه. بـ 15 جرام و 30 واط مع PPS لسامسونج، مثالي للسواقين اللي عايزين شحن غير مرئي. USB-A PowerIQ 3.0 بـ 22.5 واط أسرع من معظم منافذ USB-A في شواحن السيارات. أفضل شاحن سيارة مدمج تحت 600 جنيه." }
     };

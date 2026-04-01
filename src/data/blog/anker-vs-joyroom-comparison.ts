@@ -52,7 +52,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 <p><strong>الحكم:</strong> لو ميزانيتك تسمح، انكر أفضل بفارق واضح في الجودة. لو محدود الميزانية، جوي روم ممتاز بالسعر.</p>
 
 <h3>2. شواحن حائط</h3>
-<p><strong>Anker:</strong> تقنية GaN (أصغر 50%) + ActiveShield للحماية. من 400 ج (20W) لـ 1,299 ج (100W).</p>
+<p><strong>Anker:</strong> تقنية GaN (أصغر 50%) + ActiveShield للحماية. من 375 ج (20W) لـ 1,299 ج (100W).</p>
 <p><strong>Joyroom:</strong> شواحن عملية بأسعار أقل. شاحن 20W بحوالي 200 ج.</p>
 <p><strong>الحكم:</strong> انكر يتفوق بتقنية GaN التي تجعل الشاحن أصغر وأكفأ. لكن جوي روم كافي للاستخدام العادي.</p>
 
@@ -132,7 +132,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
     <p><strong>Verdict: </strong> Anker clearly wins on quality if budget allows. Joyroom is excellent value for money.</p>
 
     <h3>2. Wall Chargers </h3>
-    <p> <strong>Anker: </strong> GaN technology (50% smaller) + ActiveShield protection. From EGP 400 (20W) to EGP 1,299 (100W).</p>
+    <p> <strong>Anker: </strong> GaN technology (50% smaller) + ActiveShield protection. From EGP 375 (20W) to EGP 1,299 (100W).</p>
     <p><strong>Joyroom: </strong> Practical chargers at lower prices. 20W charger at ~EGP 200.</p>
     <p><strong>Verdict: </strong> Anker wins with GaN tech making chargers smaller and more efficient. But Joyroom is sufficient for basic use.</p>
 
