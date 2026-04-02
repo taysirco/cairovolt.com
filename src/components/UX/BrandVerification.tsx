@@ -51,18 +51,38 @@ export default function BrandVerification({
         }
 
         // Push a sentinel state into history
+        // This creates an extra history entry the user must "back through"
         window.history.pushState({ guardTrap: true }, '');
 
+        // Track that we pushed, so we can detect "back" via popstate
+        let guardActive = true;
+
         const handlePopState = (e: PopStateEvent) => {
-            if (e.state && e.state.guardTrap) {
-                setIsVisible(true);
-                // Re-push state to prevent actual navigation
+            if (!guardActive) return;
+
+            // On most browsers: e.state?.guardTrap is truthy when popping our sentinel
+            // On iOS Safari swipe-back: e.state CAN be null — so we also check guardActive flag
+            const isOurSentinel = (e.state && e.state.guardTrap) || guardActive;
+
+            if (isOurSentinel) {
+                // Small delay for iOS Safari — lets swipe animation settle first
+                setTimeout(() => {
+                    setIsVisible(true);
+                }, 100);
+
+                // Re-push to prevent actual navigation
                 window.history.pushState({ guardTrap: true }, '');
+
+                // Only show once
+                guardActive = false;
             }
         };
 
         window.addEventListener('popstate', handlePopState);
-        return () => window.removeEventListener('popstate', handlePopState);
+        return () => {
+            guardActive = false;
+            window.removeEventListener('popstate', handlePopState);
+        };
     }, []);
 
     if (!isVisible || !mounted) return null;
@@ -100,7 +120,7 @@ export default function BrandVerification({
                 {/* Close button */}
                 <button
                     onClick={handleDismiss}
-                    className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-800 transition-colors"
+                    className="absolute top-2 right-2 w-11 h-11 flex items-center justify-center rounded-full hover:bg-gray-800 transition-colors"
                     style={{ color: '#6b7280' }}
                     aria-label={isRTL ? 'إغلاق' : 'Close'}
                 >

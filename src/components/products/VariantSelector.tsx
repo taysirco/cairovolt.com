@@ -63,6 +63,7 @@ export default function VariantSelector({
             <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory -mx-1 px-1">
                 {variants.map((variant, idx) => {
                     const isSelected = variant.id === selectedVariantId;
+                    const isOutOfStock = variant.stock <= 0;
                     const discount = variant.originalPrice
                         ? Math.round((1 - variant.price / variant.originalPrice) * 100)
                         : 0;
@@ -70,32 +71,45 @@ export default function VariantSelector({
                     return (
                         <button
                             key={variant.id}
-                            onClick={() => onSelect(variant)}
+                            onClick={() => !isOutOfStock && onSelect(variant)}
                             aria-pressed={isSelected}
-                            aria-label={`${variant.model} — ${variant.capacity} / ${variant.acOutput}`}
+                            aria-disabled={isOutOfStock}
+                            aria-label={`${variant.model} — ${variant.capacity} / ${variant.acOutput}${isOutOfStock ? ' (out of stock)' : ''}`}
                             className={`
                                 relative flex-none w-[160px] sm:w-[190px] snap-start
                                 rounded-xl border-2 p-3 sm:p-4
                                 transition-all duration-200 ease-out
-                                text-start cursor-pointer
-                                ${isSelected
-                                    ? `${colors.border} ${colors.bg} ${colors.ring} ring-2 shadow-lg ${colors.glow} scale-[1.02]`
-                                    : 'border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md'
+                                text-start
+                                ${isOutOfStock
+                                    ? 'border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-950 cursor-not-allowed'
+                                    : isSelected
+                                        ? `${colors.border} ${colors.bg} ${colors.ring} ring-2 shadow-lg ${colors.glow} scale-[1.02] cursor-pointer`
+                                        : 'border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 hover:border-gray-300 dark:hover:border-gray-600 hover:shadow-md cursor-pointer'
                                 }
                             `}
+                            style={isOutOfStock ? { opacity: 0.5, filter: 'grayscale(80%)' } : undefined}
                         >
-                            {/* Selection indicator */}
-                            <div className={`absolute top-2 ${isRTL ? 'left-2' : 'right-2'} w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${isSelected
-                                ? `${colors.border} ${colors.bg}`
-                                : 'border-gray-300 dark:border-gray-600'
-                            }`}>
-                                {isSelected && (
-                                    <div className={`w-2.5 h-2.5 rounded-full ${colors.dot} animate-pulse`} />
-                                )}
-                            </div>
+                            {/* Out of Stock overlay badge */}
+                            {isOutOfStock && (
+                                <div className={`absolute top-2 ${isRTL ? 'left-2' : 'right-2'} px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-900/40 text-red-600 dark:text-red-400 text-[10px] font-bold`}>
+                                    {isRTL ? 'غير متاح' : 'Sold Out'}
+                                </div>
+                            )}
+
+                            {/* Selection indicator — hidden when out of stock */}
+                            {!isOutOfStock && (
+                                <div className={`absolute top-2 ${isRTL ? 'left-2' : 'right-2'} w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all ${isSelected
+                                    ? `${colors.border} ${colors.bg}`
+                                    : 'border-gray-300 dark:border-gray-600'
+                                }`}>
+                                    {isSelected && (
+                                        <div className={`w-2.5 h-2.5 rounded-full ${colors.dot} animate-pulse`} />
+                                    )}
+                                </div>
+                            )}
 
                             {/* Size badge */}
-                            <span className={`inline-block text-[10px] font-bold px-2 py-0.5 rounded-full mb-2 ${isSelected
+                            <span className={`inline-block text-[10px] font-bold px-2 py-0.5 rounded-full mb-2 ${isSelected && !isOutOfStock
                                 ? colors.badge
                                 : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400'
                             }`}>
@@ -103,7 +117,7 @@ export default function VariantSelector({
                             </span>
 
                             {/* Model name */}
-                            <div className="font-bold text-sm text-gray-900 dark:text-white mb-1 leading-tight">
+                            <div className={`font-bold text-sm mb-1 leading-tight ${isOutOfStock ? 'text-gray-400 dark:text-gray-600' : 'text-gray-900 dark:text-white'}`}>
                                 {variant.model}
                             </div>
 
@@ -132,14 +146,14 @@ export default function VariantSelector({
                             {/* Price */}
                             <div className="border-t border-gray-100 dark:border-gray-800 pt-2">
                                 <div className="flex items-baseline gap-1 flex-wrap">
-                                    <span className={`text-lg font-bold ${isSelected ? colors.text : 'text-gray-900 dark:text-white'}`}>
+                                    <span className={`text-lg font-bold ${isOutOfStock ? 'text-gray-400 line-through' : isSelected ? colors.text : 'text-gray-900 dark:text-white'}`}>
                                         {variant.price.toLocaleString()}
                                     </span>
                                     <span className="text-[10px] text-gray-500">
                                         {isRTL ? 'ج.م' : 'EGP'}
                                     </span>
                                 </div>
-                                {discount > 0 && (
+                                {discount > 0 && !isOutOfStock && (
                                     <div className="flex items-center gap-1 mt-0.5">
                                         <span className="text-[10px] line-through text-gray-400">
                                             {variant.originalPrice.toLocaleString()}
@@ -152,7 +166,14 @@ export default function VariantSelector({
                             </div>
 
                             {/* Stock indicator */}
-                            {variant.stock <= 3 && variant.stock > 0 && (
+                            {isOutOfStock ? (
+                                <div className="mt-1.5 text-[10px] font-medium text-red-500 dark:text-red-400 flex items-center gap-1">
+                                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                                    </svg>
+                                    {isRTL ? 'نفد من المخزون' : 'Out of stock'}
+                                </div>
+                            ) : variant.stock <= 3 && (
                                 <div className="mt-1.5 text-[10px] font-medium text-amber-600 dark:text-amber-400 flex items-center gap-1">
                                     <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                                     {isRTL

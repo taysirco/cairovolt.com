@@ -274,7 +274,7 @@ export function trackPrintInvoice(orderId: string): void {
 }
 
 /** Tracks promotional overlay interactions. */
-export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed'): void {
+export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed' | 'exit_attempt_mobile'): void {
     dispatchEvent('select_content', {
         event_category: 'ux',
         content_type: 'promo_banner',

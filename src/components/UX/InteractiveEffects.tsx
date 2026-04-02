@@ -130,16 +130,17 @@ export default function InteractiveEffects() {
         });
     }, []);
 
-    // ─── 3. Promotional Overlay ───
-    const handlePromoOverlay = useCallback((e: MouseEvent) => {
-        // Only trigger when mouse moves above the viewport
-        if (e.clientY > 5) return;
+    // ─── 3. Promotional Overlay (Show WhatsApp CTA) ───
+    const showPromoOverlay = useCallback(() => {
         if (promoShownRef.current) return;
         promoShownRef.current = true;
 
+        // Persist across page navigations within same session
+        try { sessionStorage.setItem('cv-promo-shown', '1'); } catch { /* noop */ }
+
         trackOverlayAction('shown');
 
-        // Show WhatsApp helper banner
+        // Prevent duplicate DOM nodes
         const existingCta = document.getElementById('cv-promo-cta');
         if (existingCta) return;
 
@@ -182,14 +183,20 @@ export default function InteractiveEffects() {
             setTimeout(() => cta.remove(), 300);
         }, { once: true });
 
-        // Auto-dismiss after 8 seconds
+        // Auto-dismiss after 10 seconds
         setTimeout(() => {
             if (cta.parentNode) {
                 cta.classList.remove('cv-promo-visible');
                 setTimeout(() => cta.remove(), 300);
             }
-        }, 8000);
+        }, 10000);
     }, []);
+
+    // ─── 3a. Desktop exit intent: mouse leaves viewport top ───
+    const handleDesktopExitIntent = useCallback((e: MouseEvent) => {
+        if (e.clientY > 5) return;
+        showPromoOverlay();
+    }, [showPromoOverlay]);
 
     // ─── 4. Optimistic Add-to-Cart Feedback ───
     const handlePointerDown = useCallback((e: PointerEvent) => {
@@ -212,6 +219,13 @@ export default function InteractiveEffects() {
 
     // ─── Mount all listeners ───
     useEffect(() => {
+        // Check if already shown this session (survives SPA navigations)
+        try {
+            if (sessionStorage.getItem('cv-promo-shown') === '1') {
+                promoShownRef.current = true;
+            }
+        } catch { /* sessionStorage unavailable */ }
+
         // Inject ripple animation keyframes (once)
         if (!document.getElementById('cv-fx-styles')) {
             const style = document.createElement('style');
@@ -224,16 +238,26 @@ export default function InteractiveEffects() {
                     }
                 }
 
-                /* WhatsApp promo banner */
+                /* WhatsApp promo banner — mobile-first positioning */
                 #cv-promo-cta {
                     position: fixed;
-                    bottom: 24px;
-                    inset-inline-start: 24px;
+                    bottom: 16px;
+                    left: 16px;
+                    right: 16px;
                     z-index: 9990;
                     opacity: 0;
                     transform: translateY(20px);
                     transition: opacity 0.3s ease, transform 0.3s ease;
                     pointer-events: none;
+                }
+                @media (min-width: 640px) {
+                    #cv-promo-cta {
+                        left: auto;
+                        right: auto;
+                        inset-inline-start: 24px;
+                        bottom: 24px;
+                        max-width: 360px;
+                    }
                 }
                 #cv-promo-cta.cv-promo-visible {
                     opacity: 1;
@@ -246,7 +270,6 @@ export default function InteractiveEffects() {
                     padding: 20px 24px;
                     border-radius: 16px;
                     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-                    max-width: 320px;
                     position: relative;
                     border: 1px solid rgba(255,255,255,0.1);
                 }
@@ -257,29 +280,41 @@ export default function InteractiveEffects() {
                     background: none;
                     border: none;
                     color: rgba(255,255,255,0.5);
-                    font-size: 20px;
+                    font-size: 24px;
                     cursor: pointer;
                     padding: 4px 8px;
                     line-height: 1;
+                    -webkit-tap-highlight-color: transparent;
+                    touch-action: manipulation;
+                    min-width: 44px;
+                    min-height: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
                 .cv-promo-close:hover { color: white; }
                 .cv-promo-text {
                     margin: 0 0 12px;
                     font-size: 14px;
                     line-height: 1.6;
+                    padding-inline-end: 24px;
                 }
                 .cv-promo-btn {
                     display: inline-block;
                     background: #25d366;
                     color: white;
-                    padding: 10px 20px;
+                    padding: 12px 24px;
                     border-radius: 10px;
                     text-decoration: none;
                     font-weight: 600;
-                    font-size: 14px;
+                    font-size: 15px;
                     transition: background 0.2s;
+                    -webkit-tap-highlight-color: transparent;
+                    touch-action: manipulation;
+                    min-height: 44px;
                 }
                 .cv-promo-btn:hover { background: #1ebb57; }
+                .cv-promo-btn:active { background: #19a84d; }
 
                 /* Optimistic cart press */
                 .cv-pressing {
@@ -299,17 +334,17 @@ export default function InteractiveEffects() {
             document.head.appendChild(style);
         }
 
-        // Attach all listeners
+        // ─── Core listeners ───
         document.addEventListener('click', handleGlobalClick, { passive: true });
         window.addEventListener('scroll', handleScroll, { passive: true });
-        document.addEventListener('mouseout', handlePromoOverlay as EventListener, { passive: true });
+        document.addEventListener('mouseout', handleDesktopExitIntent as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
         // Copy and section-expand analytics
         const removeCopyListener = initCopyTracking();
         const removeFaqListener = initFaqTracking();
 
-        // Promo overlay click
+        // Promo overlay click tracking
         const handleWhatsappCta = (e: Event) => {
             const target = e.target as HTMLElement;
             if (target.closest?.('.cv-promo-btn')) {
@@ -319,21 +354,108 @@ export default function InteractiveEffects() {
         };
         document.addEventListener('click', handleWhatsappCta, { passive: true });
 
-        // Page visibility change tracking
+        // ─── Mobile Exit-Intent: visibilitychange ───
+        // When the user switches tabs, presses back, swipe-back on iOS,
+        // or switches apps — show the overlay WHEN they return.
+        let wasHidden = false;
         const handleVisibilityChange = () => {
-            if (document.visibilityState === 'hidden' && !promoShownRef.current) {
-                trackOverlayAction('shown');
+            if (document.visibilityState === 'hidden') {
+                wasHidden = true;
+                // Track that user attempted to leave
+                if (!promoShownRef.current) {
+                    trackOverlayAction('exit_attempt_mobile');
+                }
+            } else if (document.visibilityState === 'visible' && wasHidden) {
+                wasHidden = false;
+                // User has RETURNED — show promo to re-engage them
+                // Small delay so the page is fully visible first
+                setTimeout(() => {
+                    showPromoOverlay();
+                }, 500);
             }
         };
         document.addEventListener('visibilitychange', handleVisibilityChange);
 
+        // ─── Mobile Exit-Intent: Rapid scroll-up detection ───
+        // On mobile, a fast upward scroll usually means the user is reaching
+        // for the address bar or back button. Detect this gesture.
+        let lastScrollY = window.scrollY;
+        let lastScrollTime = Date.now();
+        let mobileScrollCheckRAF = 0;
+
+        const handleMobileScrollExit = () => {
+            if (mobileScrollCheckRAF) return;
+            mobileScrollCheckRAF = requestAnimationFrame(() => {
+                mobileScrollCheckRAF = 0;
+                const currentY = window.scrollY;
+                const currentTime = Date.now();
+                const deltaY = lastScrollY - currentY; // positive = scrolling UP
+                const deltaTime = currentTime - lastScrollTime;
+
+                // Detect rapid upward scroll: >300px up in <300ms
+                // and user is near top of page (within first 25%)
+                const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+                const scrollPercent = docHeight > 0 ? (currentY / docHeight) * 100 : 0;
+
+                if (deltaY > 300 && deltaTime < 300 && scrollPercent < 25) {
+                    showPromoOverlay();
+                }
+
+                lastScrollY = currentY;
+                lastScrollTime = currentTime;
+            });
+        };
+
+        // Only attach mobile scroll detection on touch devices
+        const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+        if (isTouchDevice) {
+            window.addEventListener('scroll', handleMobileScrollExit, { passive: true });
+        }
+
+        // ─── Mobile Exit-Intent: Idle timeout ───
+        // After 45 seconds of no interaction on a product page,
+        // gently show the overlay (user is stuck/undecided)
+        let idleTimer: ReturnType<typeof setTimeout> | null = null;
+        const IDLE_TIMEOUT = 45000; // 45 seconds
+        const isProductPage = window.location.pathname.split('/').length >= 4;
+
+        const resetIdleTimer = () => {
+            if (idleTimer) clearTimeout(idleTimer);
+            if (promoShownRef.current || !isProductPage) return;
+            idleTimer = setTimeout(() => {
+                showPromoOverlay();
+            }, IDLE_TIMEOUT);
+        };
+
+        if (isProductPage && !promoShownRef.current) {
+            resetIdleTimer();
+            // Reset on any interaction
+            const idleEvents = ['touchstart', 'scroll', 'click', 'keydown'] as const;
+            idleEvents.forEach(evt => {
+                window.addEventListener(evt, resetIdleTimer, { passive: true });
+            });
+        }
+
+        // ─── Cleanup ───
         return () => {
             document.removeEventListener('click', handleGlobalClick);
             window.removeEventListener('scroll', handleScroll);
-            document.removeEventListener('mouseout', handlePromoOverlay as EventListener);
+            document.removeEventListener('mouseout', handleDesktopExitIntent as EventListener);
             document.removeEventListener('pointerdown', handlePointerDown as EventListener);
             document.removeEventListener('click', handleWhatsappCta);
             document.removeEventListener('visibilitychange', handleVisibilityChange);
+
+            if (isTouchDevice) {
+                window.removeEventListener('scroll', handleMobileScrollExit);
+            }
+
+            if (idleTimer) clearTimeout(idleTimer);
+            if (isProductPage) {
+                const idleEvents = ['touchstart', 'scroll', 'click', 'keydown'] as const;
+                idleEvents.forEach(evt => {
+                    window.removeEventListener(evt, resetIdleTimer);
+                });
+            }
 
             removeCopyListener?.();
             removeFaqListener?.();
@@ -341,8 +463,11 @@ export default function InteractiveEffects() {
             if (rafIdRef.current) {
                 cancelAnimationFrame(rafIdRef.current);
             }
+            if (mobileScrollCheckRAF) {
+                cancelAnimationFrame(mobileScrollCheckRAF);
+            }
         };
-    }, [handleGlobalClick, handleScroll, handlePromoOverlay, handlePointerDown]);
+    }, [handleGlobalClick, handleScroll, handleDesktopExitIntent, handlePointerDown, showPromoOverlay]);
 
     // Silent component — all work is done via event listeners
     return null;

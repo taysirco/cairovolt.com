@@ -10,7 +10,7 @@ export const anker_521_powerhouse = {
         mpn: "A1710Z21",
         price: 11000,
         originalPrice: 13000,
-        stock: 5,
+        stock: 3,
         featured: false,
         status: "active",
         variants: [
@@ -23,13 +23,13 @@ export const anker_521_powerhouse = {
                 gtin: '0194644081034',
                 price: 11000,
                 originalPrice: 13000,
-                stock: 5,
+                stock: 0,
                 capacity: '256Wh',
                 acOutput: '200W',
                 weight: { en: '3.7 kg', ar: '3.7 كجم' },
                 ports: { en: 'AC×1 + USB-C 60W + USB-A×2 + Car 12V', ar: 'AC×1 + USB-C 60W + USB-A×2 + سيارة 12V' },
                 cycles: '3,000+',
-                isDefault: true,
+                isDefault: false,
             },
             {
                 id: 'anker-522',
@@ -46,6 +46,7 @@ export const anker_521_powerhouse = {
                 weight: { en: '3.9 kg', ar: '3.9 كجم' },
                 ports: { en: 'AC×2 + USB-C 60W + USB-C 20W + USB-A + Car 12V', ar: 'AC×2 + USB-C 60W + USB-C 20W + USB-A + سيارة 12V' },
                 cycles: '3,000+',
+                isDefault: true,
             },
             {
                 id: 'anker-535',
