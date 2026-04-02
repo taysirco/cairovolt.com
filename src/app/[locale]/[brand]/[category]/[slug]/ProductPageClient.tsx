@@ -164,6 +164,32 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const activeSku = selectedVariant?.sku ?? product.sku;
     const activeStock = selectedVariant?.stock ?? (product.stock || 0);
 
+    // Variant-aware product for BundleSelector — overrides price/name with selected variant
+    const variantAwareMainProduct = useMemo(() => {
+        if (!selectedVariant) return product;
+        const variantName = selectedVariant.model;
+        return {
+            ...product,
+            price: selectedVariant.price,
+            originalPrice: selectedVariant.originalPrice,
+            translations: {
+                ...product.translations,
+                en: {
+                    ...product.translations?.en,
+                    name: product.translations?.en?.name
+                        ? `${product.translations.en.name} (${variantName})`
+                        : variantName,
+                },
+                ar: {
+                    ...product.translations?.ar,
+                    name: product.translations?.ar?.name
+                        ? `${product.translations.ar.name} (${variantName})`
+                        : variantName,
+                },
+            },
+        };
+    }, [product, selectedVariant]);
+
     // Sticky Buy Bar Logic
     const [showStickyBar, setShowStickyBar] = useState(false);
     const addToCartButtonRef = useRef<HTMLButtonElement>(null);
@@ -387,7 +413,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 </div>
                             )}
 
-                            <div className="w-full h-full relative flex items-center justify-center">
+                            <div className="w-full h-full relative flex items-center justify-center p-3 sm:p-4">
                                 {primaryImage ? (
                                     <ProductImage
                                         src={primaryImage}
@@ -398,7 +424,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         fill
                                         priority
                                         sizes="(max-width: 768px) 100vw, 50vw"
-                                        imageClassName="object-contain transition-transform hover:scale-105"
+                                        imageClassName="object-contain p-2 transition-transform hover:scale-105"
                                         isPrimary
                                         locale={locale}
                                     />
@@ -412,7 +438,10 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                         {/* Thumbnail Images */}
                         {images.length > 1 && (
-                            <div className="flex flex-nowrap gap-2 sm:gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory">
+                            <div
+                                className="flex flex-nowrap gap-2 sm:gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory -mx-1 px-1"
+                                style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x' }}
+                            >
                                 {images.map((img, idx) => (
                                     <button
                                         key={idx}
@@ -634,7 +663,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 {/* Bundle Selector Component */}
                                 <div className="mt-8">
                                     <BundleSelector
-                                        mainProduct={product}
+                                        key={selectedVariant?.id || 'default'}
+                                        mainProduct={variantAwareMainProduct}
                                         relatedProducts={relatedProducts}
                                         bundleData={bundleData}
                                         locale={locale}
