@@ -60,7 +60,10 @@ export default function VariantSelector({
             </div>
 
             {/* Variant Cards — horizontal scroll on mobile */}
-            <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory -mx-1 px-1">
+            <div
+                className="flex gap-3 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory -mx-1 px-1"
+                style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x' }}
+            >
                 {variants.map((variant, idx) => {
                     const isSelected = variant.id === selectedVariantId;
                     const isOutOfStock = variant.stock <= 0;
@@ -76,7 +79,7 @@ export default function VariantSelector({
                             aria-disabled={isOutOfStock}
                             aria-label={`${variant.model} — ${variant.capacity} / ${variant.acOutput}${isOutOfStock ? ' (out of stock)' : ''}`}
                             className={`
-                                relative flex-none w-[160px] sm:w-[190px] snap-start
+                                relative flex-1 min-w-0 sm:flex-none sm:w-[170px] md:w-[190px] snap-start
                                 rounded-xl border-2 p-3 sm:p-4
                                 transition-all duration-200 ease-out
                                 text-start

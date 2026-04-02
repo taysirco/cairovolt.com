@@ -307,7 +307,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const selectedEnAiHeading = enAiHeadings[hash % enAiHeadings.length];
 
     return (
-        <div className={`min-h-screen pb-20 ${locale === 'ar' ? 'rtl' : 'ltr'}`}>
+        <div className={`min-h-screen pb-20 overflow-x-hidden ${locale === 'ar' ? 'rtl' : 'ltr'}`}>
 
             {/* Visual Interface Layer */}
 
@@ -348,7 +348,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
             {/* Product Section */}
             <div className="container mx-auto px-4 py-4 md:py-8 max-w-full">
-                <article className="grid lg:grid-cols-2 gap-6 lg:gap-12 max-w-full overflow-hidden">
+                <article className="grid lg:grid-cols-2 gap-6 lg:gap-12 max-w-full">
                     {/* Product Images */}
                     <div className="space-y-4">
                         {/* Main Image */}
@@ -481,7 +481,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     </div>
 
                     {/* Product Info */}
-                    <div className="space-y-6 max-w-full overflow-hidden">
+                    <div className="space-y-6 max-w-full min-w-0">
 
                         {/* AI Quick Summary - New Addition */}
                         <QuickSummary
