@@ -38,6 +38,7 @@ import { anker_a8050_usb_c_cable_lab } from './tests/anker-a8050-usb-c-cable';
 import { anker_soundcore_k20i_lab } from './tests/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc_lab } from './tests/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i_lab } from './tests/anker-soundcore-r50i';
+import { anker_a2147_gan_charger_30w_lab } from './tests/anker-a2147-gan-charger-30w';
 
 export const labData: Record<string, import('./tests/_shared').ProductLabData> = {
     'anker-powercore-10000': anker_powercore_10000_lab,
@@ -75,6 +76,7 @@ export const labData: Record<string, import('./tests/_shared').ProductLabData> =
     'anker-soundcore-k20i': anker_soundcore_k20i_lab,
     'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_lab,
     'anker-soundcore-r50i': anker_soundcore_r50i_lab,
+    'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_lab,
 };
 
 /**

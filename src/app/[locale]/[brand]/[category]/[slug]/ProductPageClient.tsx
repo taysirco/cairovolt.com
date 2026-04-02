@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { useTranslations } from 'next-intl';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { QuickSummary } from '@/components/content/ProductGuides';
 import { CategoryOverviewBlock } from '@/components/content/CategoryOverviewBlock';
@@ -16,6 +16,7 @@ import TestResultsBlock from '@/components/content/TestResultsBlock';
 import ProductTestResults from '@/components/content/ProductTestResults';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
 import type { RegionalStats } from '@/lib/bosta';
+import type { ProductVariant } from '@/lib/static-products';
 import type { LabMetrics } from '@/data/product-tests';
 
 // Lazy Load Heavy Components
@@ -38,6 +39,9 @@ const ExpertOpinion = dynamic(() => import('@/components/content/ProductGuides')
 const ProductFAQ = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductFAQ));
 
 const BackupTimeCalculator = dynamic(() => import('@/components/UX/BackupTimeCalculator'), {
+    ssr: false
+});
+const VariantSelector = dynamic(() => import('@/components/products/VariantSelector'), {
     ssr: false
 });
 import RelatedLinks from '@/components/content/RelatedLinks';
@@ -85,6 +89,7 @@ interface Product {
     };
     meta?: { keywords?: string; mainTerm?: string };
     contentCredentials?: Record<string, unknown> | null;
+    variants?: ProductVariant[];
 }
 
 interface ProductPageClientProps {
@@ -146,6 +151,19 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const [selectedImage, setSelectedImage] = useState(0);
     const [showAddedFeedback, setShowAddedFeedback] = useState(false);
 
+    // ═══ Variant State ═══
+    const defaultVariant = useMemo(() =>
+        product.variants?.find(v => v.isDefault) || product.variants?.[0],
+        [product.variants]
+    );
+    const [selectedVariant, setSelectedVariant] = useState<ProductVariant | undefined>(defaultVariant);
+
+    // Active pricing — variant overrides product-level values
+    const activePrice = selectedVariant?.price ?? product.price;
+    const activeOriginalPrice = selectedVariant?.originalPrice ?? product.originalPrice;
+    const activeSku = selectedVariant?.sku ?? product.sku;
+    const activeStock = selectedVariant?.stock ?? (product.stock || 0);
+
     // Sticky Buy Bar Logic
     const [showStickyBar, setShowStickyBar] = useState(false);
     const addToCartButtonRef = useRef<HTMLButtonElement>(null);
@@ -173,7 +191,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             item_name: product.translations?.[locale as 'ar' | 'en']?.name || product.slug,
             item_brand: product.brand,
             item_category: product.categorySlug,
-            price: product.price,
+            price: activePrice,
             quantity: 1,
         });
         // TikTok Pixel: ViewContent
@@ -181,9 +199,9 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             content_id: product.id,
             content_name: product.translations?.[locale as 'ar' | 'en']?.name || product.slug,
             content_type: 'product',
-            value: product.price,
+            value: activePrice,
         });
-    }, [product.id, product.slug, product.brand, product.categorySlug, product.price, product.translations, locale]);
+    }, [product.id, product.slug, product.brand, product.categorySlug, activePrice, product.translations, locale]);
 
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
@@ -204,21 +222,26 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         });
         setTimeout(() => setShowAddedFeedback(false), 1500);
 
-        // Analytics: log add to cart
+        // Build the cart item name: include variant model if applicable
+        const cartItemName = selectedVariant
+            ? `${productName} — ${selectedVariant.model} (${selectedVariant.capacity})`
+            : productName;
+
+        // Analytics: log add to cart (use active variant pricing)
         trackAddToCart({
             item_id: product.id,
-            item_name: productName,
+            item_name: cartItemName,
             item_brand: product.brand,
             item_category: product.categorySlug,
-            price: product.price,
+            price: activePrice,
             quantity: quantity,
         });
 
         // Cart update happens in background via useTransition in CartContext
         addToCart({
-            productId: product.id,
-            name: productName,
-            price: product.price,
+            productId: selectedVariant ? `${product.id}_${selectedVariant.id}` : product.id,
+            name: cartItemName,
+            price: activePrice,
             quantity: quantity,
             image: product.images?.[0]?.url,
             brand: product.brand
@@ -227,8 +250,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
     const images = product.images || [];
     const primaryImage = images[selectedImage]?.url || '';
-    const discount = product.originalPrice
-        ? Math.round((1 - product.price / product.originalPrice) * 100)
+    const discount = activeOriginalPrice
+        ? Math.round((1 - activePrice / activeOriginalPrice) * 100)
         : 0;
 
     const translatedCategory = tCat(categoryKeyMap[category] || 'other');
@@ -236,7 +259,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const brandColor = brand === 'anker' ? 'blue' : 'red';
 
     const isRTL = locale === 'ar';
-    const isOutOfStock = (product.stock || 0) <= 0;
+    const isOutOfStock = activeStock <= 0;
 
     // Breadcrumb Data - Strict Lowercase URLs
     const brandLower = product.brand.toLowerCase();
@@ -291,7 +314,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     productName={productName}
                     brand={product.brand}
                     category={translatedCategory}
-                    price={product.price}
+                    price={activePrice}
                     locale={locale}
                     shortDescription={productShortDesc}
                 />
@@ -435,7 +458,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         <QuickSummary
                             product={{
                                 brand: product.brand,
-                                price: product.price,
+                                price: activePrice,
                                 translations: {
                                     en: {
                                         name: product.translations?.en?.name || product.slug,
@@ -514,21 +537,32 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             </div>
                         )}
 
+                        {/* ═══ Product Variant Selector ═══ */}
+                        {product.variants && product.variants.length > 1 && (
+                            <VariantSelector
+                                variants={product.variants}
+                                selectedVariantId={selectedVariant?.id || product.variants[0].id}
+                                onSelect={setSelectedVariant}
+                                locale={locale}
+                                brandColor={brand === 'anker' ? 'blue' : 'red'}
+                            />
+                        )}
+
                         {/* Price */}
                         <div className="flex flex-wrap items-end gap-2 md:gap-3 py-3 md:py-4 border-y border-gray-100 dark:border-gray-800">
-                            <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white">
-                                {product.price.toLocaleString()}
+                            <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white transition-all duration-300">
+                                {activePrice.toLocaleString()}
                             </span>
                             <span className="text-base md:text-xl text-gray-500 mb-0.5 md:mb-1">
                                 {tCommon('egp')}
                             </span>
-                            {product.originalPrice && (
+                            {activeOriginalPrice && (
                                 <>
                                     <span className="text-base md:text-xl text-gray-400 line-through mb-0.5 md:mb-1">
-                                        {product.originalPrice.toLocaleString()}
+                                        {activeOriginalPrice.toLocaleString()}
                                     </span>
                                     <span className="px-2 py-0.5 bg-green-100 text-green-700 text-sm font-bold rounded">
-                                        {isRTL ? `وفر ${(product.originalPrice - product.price).toLocaleString()}` : `Save ${(product.originalPrice - product.price).toLocaleString()}`}
+                                        {isRTL ? `وفر ${(activeOriginalPrice - activePrice).toLocaleString()}` : `Save ${(activeOriginalPrice - activePrice).toLocaleString()}`}
                                     </span>
                                 </>
                             )}
@@ -586,11 +620,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         <p className="text-sm text-emerald-700 dark:text-emerald-400 leading-relaxed">
                                             {isRTL ? (
                                                 <>
-                                                    بشرائك هذا المنتج، أنت تساهم مباشرًة بـ <strong className="font-bold underline decoration-emerald-300 underline-offset-2">{Math.max(10, Math.floor(product.price * 0.02))} جنيه</strong> لدعم <span className="font-semibold text-emerald-800 dark:text-emerald-200">مؤسسة مجدي يعقوب للقلب</span> أو <span className="font-semibold text-emerald-800 dark:text-emerald-200">بنك الطعام المصري</span>. شكراً لثقتك ودعمك.
+                                                    بشرائك هذا المنتج، أنت تساهم مباشرًة بـ <strong className="font-bold underline decoration-emerald-300 underline-offset-2">{Math.max(10, Math.floor(activePrice * 0.02))} جنيه</strong> لدعم <span className="font-semibold text-emerald-800 dark:text-emerald-200">مؤسسة مجدي يعقوب للقلب</span> أو <span className="font-semibold text-emerald-800 dark:text-emerald-200">بنك الطعام المصري</span>. شكراً لثقتك ودعمك.
                                                 </>
                                             ) : (
                                                 <>
-                                                    By purchasing this, you directly contribute <strong className="font-bold underline decoration-emerald-300 underline-offset-2">{Math.max(10, Math.floor(product.price * 0.02))} EGP</strong> to support the <span className="font-semibold text-emerald-800 dark:text-emerald-200">Magdi Yacoub Heart Foundation</span>. Thank you for making a difference.
+                                                    By purchasing this, you directly contribute <strong className="font-bold underline decoration-emerald-300 underline-offset-2">{Math.max(10, Math.floor(activePrice * 0.02))} EGP</strong> to support the <span className="font-semibold text-emerald-800 dark:text-emerald-200">Magdi Yacoub Heart Foundation</span>. Thank you for making a difference.
                                                 </>
                                             )}
                                         </p>
@@ -832,7 +866,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             product={{
                                 slug: product.slug,
                                 brand: product.brand,
-                                price: product.price,
+                                price: activePrice,
                                 translations: {
                                     en: { name: product.translations?.en?.name || product.slug },
                                     ar: { name: product.translations?.ar?.name || product.slug }
@@ -972,7 +1006,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <div className="flex-1">
                                 <span className="block text-xs text-gray-500 dark:text-gray-400">{tProduct('price')}</span>
                                 <div className="flex items-center gap-1">
-                                    <span className="text-xl font-bold">{product.price.toLocaleString()}</span>
+                                    <span className="text-xl font-bold">{activePrice.toLocaleString()}</span>
                                     <span className="text-xs">{tCommon('egp')}</span>
                                 </div>
                             </div>

@@ -79,7 +79,7 @@ export const brandData: Record<string, BrandData> = {
         },
         categories: [
             { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore 10000 & 20000mAh', ar: 'شحن ذكي و سعات ضخمة' }, href: '/anker/power-banks', icon: 'bolt', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'Nano 20W, 30W & 45W', ar: 'شواحن Nano وسرعات 45W' }, href: '/anker/wall-chargers', icon: 'plug', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
+            { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'GaN Nano 3, 20W, 30W & 45W', ar: 'شواحن GaN Nano وسرعات 45W' }, href: '/anker/wall-chargers', icon: 'plug', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
             { title: { en: 'Soundcore Earbuds', ar: 'سماعات Soundcore' }, description: { en: 'Liberty 4, P40i, R50i', ar: 'عزل ضوضاء وصوت Hi-Res' }, href: '/anker/audio', icon: 'headphones', volume: { en: '3,600+ searches/mo', ar: '3,600+ بحث/شهر' } },
             { title: { en: 'Soundcore Speakers', ar: 'مكبرات صوت (Speakers)' }, description: { en: 'Motion+, Flare 2, Boom 2', ar: 'صوت 360 درجة وحفلات' }, href: '/anker/speakers', icon: 'speaker', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: 'Best Audio', ar: 'صوت نقي' } },
             { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },

@@ -12,7 +12,7 @@ export const anker_a8050_usb_c_cable = {
             { id: "img_7", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-package-box-contents-cable-accessories-egypt.webp", alt: "انكر A8050 مقارنة حجم مع كابل أبل", order: 6, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_8", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-data-transfer-speed-test-lab-benchmark.webp", alt: "Anker A8050 USB-C cable data transfer and charging specs", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-a2732-charger-35w", "anker-a2741-charger-30w", "anker-zolo-a110d-10000", "anker-zolo-a1681-20000", "anker-prime-a1695-25000"],
+        relatedProducts: ["anker-a2147-gan-charger-30w", "anker-a2732-charger-35w", "anker-a2741-charger-30w", "anker-zolo-a110d-10000", "anker-zolo-a1681-20000", "anker-prime-a1695-25000"],
         translations: {
             en: {
                 name: "Anker USB-C to USB-C Cable (A8050) | 100W PD | Braided Nylon | 18-Month Warranty",

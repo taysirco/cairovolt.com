@@ -55,6 +55,7 @@ import { anker_a8050_usb_c_cable } from './products/anker-a8050-usb-c-cable';
 import { anker_soundcore_k20i } from './products/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc } from './products/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i } from './products/anker-soundcore-r50i';
+import { anker_a2147_gan_charger_30w } from './products/anker-a2147-gan-charger-30w';
 
 export const products = [
     anker_soundcore_motion_plus,
@@ -109,4 +110,5 @@ export const products = [
     anker_soundcore_k20i,
     anker_soundcore_r50i_nc,
     anker_soundcore_r50i,
+    anker_a2147_gan_charger_30w,
 ];

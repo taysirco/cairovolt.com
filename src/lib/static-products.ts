@@ -4,6 +4,26 @@
 import { products, categories } from '@/data/seed-products';
 import { contentGraph, getInternalLinksForPage, getRelatedEntities } from '@/data/content-graph';
 
+/** A single variant configuration (e.g. different capacity/wattage tiers) */
+export interface ProductVariant {
+    id: string;
+    label: { en: string; ar: string };
+    model: string;
+    sku: string;
+    mpn?: string;
+    gtin?: string;
+    price: number;
+    originalPrice: number;
+    stock: number;
+    capacity: string;
+    acOutput: string;
+    weight: { en: string; ar: string };
+    ports: { en: string; ar: string };
+    cycles: string;
+    surgeWatts?: string;
+    isDefault?: boolean;
+}
+
 export interface StaticProduct {
     slug: string;
     sku: string;
@@ -20,6 +40,8 @@ export interface StaticProduct {
     gtin13?: string;    // Alias for GTIN (EAN-13 format)
     // Video support
     videoUrl?: string;  // Product video URL for VideoObject schema
+    // Product variants (Amazon-style: same page, different configs)
+    variants?: ProductVariant[];
     images: Array<{
         id: string;
         url: string;

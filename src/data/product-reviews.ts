@@ -57,6 +57,7 @@ import { anker_a8050_usb_c_cable_reviews } from './reviews/anker-a8050-usb-c-cab
 import { anker_soundcore_k20i_reviews } from './reviews/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc_reviews } from './reviews/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i_reviews } from './reviews/anker-soundcore-r50i';
+import { anker_a2147_gan_charger_30w_reviews } from './reviews/anker-a2147-gan-charger-30w';
 
 export const productReviewsDb: Record<string, import('./reviews/_shared').ProductReview[]> = {
     'anker-soundcore-motion-plus': anker_soundcore_motion_plus_reviews,
@@ -111,6 +112,7 @@ export const productReviewsDb: Record<string, import('./reviews/_shared').Produc
     'anker-soundcore-k20i': anker_soundcore_k20i_reviews,
     'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_reviews,
     'anker-soundcore-r50i': anker_soundcore_r50i_reviews,
+    'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_reviews,
 };
 
 // ============= FALLBACK GENERATOR =============

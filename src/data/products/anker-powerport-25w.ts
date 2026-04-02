@@ -219,5 +219,5 @@ export const anker_powerport_25w = {
             en: "Samsung users, this one is for you. It supports PPS (Programmable Power Supply), which means it's fully compatible with Samsung's Super Fast Charging. It's a small upgrade in price from the 20W, but for a Galaxy S24 or S25 user, the speed difference is noticeable and worth every penny.",
             ar: "مستخدمو سامسونج، هذا لكم. يدعم PPS (مصدر الطاقة القابل للبرمجة)، مما يعني أنه متوافق تماماً مع الشحن السريع جداً من سامسونج. إنه ترقية بسيطة في السعر عن 20 واط، ولكن لمستخدم Galaxy S24 أو S25، فرق السرعة ملحوظ ويستحق كل قرش."
         },
-        relatedProducts: ["anker-powerport-20w", "anker-a8050-usb-c-cable", "anker-powercore-10000", "anker-nano-45w", "anker-powerline-usb-c-usb-c"]
+        relatedProducts: ["anker-powerport-20w", "anker-a2147-gan-charger-30w", "anker-a8050-usb-c-cable", "anker-powercore-10000", "anker-nano-45w", "anker-powerline-usb-c-usb-c"]
     };

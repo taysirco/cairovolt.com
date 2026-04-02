@@ -55,6 +55,7 @@ import { anker_a8050_usb_c_cable_detail } from './details/anker-a8050-usb-c-cabl
 import { anker_soundcore_k20i_detail } from './details/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc_detail } from './details/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i_detail } from './details/anker-soundcore-r50i';
+import { anker_a2147_gan_charger_30w_detail } from './details/anker-a2147-gan-charger-30w';
 
 export const enhancements: Record<string, import('./details/_types').ProductDetail> = {
     'anker-soundcore-motion-plus': anker_soundcore_motion_plus_detail,
@@ -109,6 +110,7 @@ export const enhancements: Record<string, import('./details/_types').ProductDeta
     'anker-soundcore-k20i': anker_soundcore_k20i_detail,
     'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_detail,
     'anker-soundcore-r50i': anker_soundcore_r50i_detail,
+    'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_detail,
 };
 
 export function getProductDetail(slug: string): ProductDetail | undefined {

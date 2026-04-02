@@ -10,7 +10,7 @@ export const anker_a2732_charger_35w = {
             { id: "img_5", url: "/products/anker/anker-a2732-charger-35w/anker-a2732-foldable-plug-prong-detail-travel-friendly.webp", alt: "Anker A2732 retail packaging showing 35W car charger specifications", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/anker-a2732-charger-35w/anker-a2732-35w-package-box-contents-specifications-egypt.webp", alt: "Anker A2732 car charger LED ring illuminated in car socket", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-car-charger-dual-usb", "anker-a2741-charger-30w", "anker-a8050-usb-c-cable", "anker-zolo-a110d-10000", "anker-zolo-a110e-20000"],
+        relatedProducts: ["anker-a2147-gan-charger-30w", "anker-car-charger-dual-usb", "anker-a2741-charger-30w", "anker-a8050-usb-c-cable", "anker-zolo-a110d-10000", "anker-zolo-a110e-20000"],
         translations: {
             en: {
                 name: "Anker PowerDrive PD+ 2 Car Charger 35W (A2732) | USB-C PD + USB-A | 18-Month Warranty",
