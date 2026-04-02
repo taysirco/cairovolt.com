@@ -134,6 +134,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'Product',
+        '@id': `${productUrl}#product`,
         name: t.name,
         description: plainDescription,
         sku: product.sku,

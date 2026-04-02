@@ -112,27 +112,12 @@ export function ImageObjectSchema({
     const year = new Date().getFullYear();
     const lab = getLabForCategory(productCategory);
 
-    // Build primary image URL for the nested Product (schema spec requires `image` on standalone Product entities)
-    const primaryImage = images[0];
-    const primaryImageUrl = primaryImage
-        ? (primaryImage.url.startsWith('http') ? primaryImage.url : `${baseUrl}${primaryImage.url}`)
-        : `${baseUrl}/logo.png`;
-
-    const productSubject = {
+    // Reference the main ProductSchema via @id — avoids duplicate Product nodes
+    // that Google interprets as unnamed invalid items
+    const productRef = {
         '@type': 'Product',
+        '@id': `${productUrl}#product`,
         name: productName,
-        description: `${productName} — ${isArabic ? 'متوفر الآن في كايرو فولت مصر' : 'Available now at CairoVolt Egypt'}`,
-        url: productUrl,
-        image: primaryImageUrl,
-        brand: { '@type': 'Brand', name: productBrand },
-        offers: {
-            '@type': 'Offer',
-            price: productPrice,
-            priceCurrency: 'EGP',
-            availability: (productStock ?? 1) > 0 ? 'https://schema.org/InStock' : 'https://schema.org/BackOrder',
-            url: productUrl,
-            seller: { '@type': 'Organization', '@id': 'https://cairovolt.com/#organization', name: isArabic ? 'كايرو فولت' : 'CairoVolt', url: baseUrl },
-        },
     };
 
     const schemas = images.slice(0, 8).map((img, idx) => {
@@ -184,7 +169,7 @@ export function ImageObjectSchema({
             },
             license: `${baseUrl}/en/return-policy`,
             acquireLicensePage: `${baseUrl}/api/v1/verify-content?slug=${productSlug}`,
-            subjectOf: productSubject,
+            subjectOf: productRef,
             exifData: [
                 { '@type': 'PropertyValue', name: 'DigitalSourceType', value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture' },
                 { '@type': 'PropertyValue', name: 'Creator', value: 'CairoVolt Labs' },
