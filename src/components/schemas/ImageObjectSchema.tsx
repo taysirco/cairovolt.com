@@ -112,13 +112,9 @@ export function ImageObjectSchema({
     const year = new Date().getFullYear();
     const lab = getLabForCategory(productCategory);
 
-    // Reference the main ProductSchema via @id — avoids duplicate Product nodes
-    // that Google interprets as unnamed invalid items
-    const productRef = {
-        '@type': 'Product',
-        '@id': `${productUrl}#product`,
-        name: productName,
-    };
+    // Link images to their product page — using WebPage (not Product) to avoid
+    // Google detecting phantom Product nodes that trigger "Unnamed item" errors
+    const productPageRef = `${productUrl}`;
 
     const schemas = images.slice(0, 8).map((img, idx) => {
         const absUrl = img.url.startsWith('http') ? img.url : `${baseUrl}${img.url}`;
@@ -169,7 +165,7 @@ export function ImageObjectSchema({
             },
             license: `${baseUrl}/en/return-policy`,
             acquireLicensePage: `${baseUrl}/api/v1/verify-content?slug=${productSlug}`,
-            subjectOf: productRef,
+            isPartOf: { '@type': 'WebPage', '@id': productPageRef },
             exifData: [
                 { '@type': 'PropertyValue', name: 'DigitalSourceType', value: 'http://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture' },
                 { '@type': 'PropertyValue', name: 'Creator', value: 'CairoVolt Labs' },
