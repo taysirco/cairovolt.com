@@ -347,8 +347,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             </div>
 
             {/* Product Section */}
-            <div className="container mx-auto px-4 py-4 md:py-8 max-w-full">
-                <article className="grid lg:grid-cols-2 gap-6 lg:gap-12 max-w-full">
+            <div className="container mx-auto px-3 sm:px-4 py-4 md:py-8 max-w-full">
+                <article className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 max-w-full min-w-0">
                     {/* Product Images */}
                     <div className="space-y-4">
                         {/* Main Image */}
@@ -713,7 +713,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         )}
 
                         {/* Quality Badges — SVG Icons */}
-                        <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4 md:pt-6 max-w-full overflow-hidden">
+                        <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4 md:pt-6 max-w-full">
                             {(() => {
                                 const trustHash = hash; // reuse existing hash from slug
                                 const trustItems = [
@@ -757,8 +757,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             </div>
 
             {/* Product Details */}
-            <div className="container mx-auto px-4 py-12">
-                <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden shadow-lg">
+            <div className="container mx-auto px-3 sm:px-4 py-8 md:py-12">
+                <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-lg max-w-full">
                     {/* 1. Features Section — "Why should I buy this?" */}
                     {productFeatures.length > 0 && (
                         <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800" aria-label={isRTL ? 'مميزات المنتج' : 'Product Features'}>
@@ -944,7 +944,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <span>📊</span>
                             {tProduct('specifications')}
                         </h2>
-                        <table className="w-full text-sm md:text-base">
+                        <table className="w-full text-sm md:text-base table-fixed">
+                            <colgroup>
+                                <col className="w-[40%]" />
+                                <col className="w-[60%]" />
+                            </colgroup>
                             <thead className="sr-only">
                                 <tr>
                                     <th>{isRTL ? 'المواصفة' : 'Specification'}</th>
@@ -990,8 +994,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             </div>
 
             {/* Content Section */}
-            <div className="container mx-auto px-4 py-12">
-                <div className="bg-gradient-to-br from-gray-100 to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-8 md:p-12">
+            <div className="container mx-auto px-3 sm:px-4 py-8 md:py-12">
+                <div className="bg-gradient-to-br from-gray-100 to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-5 sm:p-8 md:p-12">
                     <h2 className="text-2xl font-bold mb-4">
                         {isRTL ? `لماذا تختار ${productName}؟` : `Why Choose ${productName}?`}
                     </h2>
@@ -1059,6 +1063,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             }
 
             {/* Spacer for sticky bar - only show when bar is visible and in stock */}
+            {!isOutOfStock && <div className="lg:hidden h-24" />}
         </div>
     );
 }

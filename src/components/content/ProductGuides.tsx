@@ -77,45 +77,105 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
     const warrantyMonths = product.brand === 'Anker' ? 18 : 12;
 
     return (
-        <div className="my-6 md:my-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-4 md:p-6 shadow-lg">
-            <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 flex items-center gap-2 text-gray-900 dark:text-white">
-                <SvgIcon name="chart" className="w-6 h-6" />
+        <div className="my-6 md:my-8 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-3 sm:p-4 md:p-6 shadow-lg">
+            <h3 className="text-base sm:text-lg md:text-xl font-bold mb-3 md:mb-4 flex items-center gap-2 text-gray-900 dark:text-white">
+                <SvgIcon name="chart" className="w-5 h-5 sm:w-6 sm:h-6" />
                 {labels.title}
             </h3>
 
-            <div className="overflow-x-auto">
+            {/* Mobile Card Layout */}
+            <div className="block md:hidden space-y-3">
+                {/* Our Store Card — Highlighted */}
+                <div className="bg-green-100 dark:bg-green-900/30 rounded-xl p-3 border-2 border-green-300 dark:border-green-700">
+                    <div className="flex items-center gap-2 mb-2">
+                        <SvgIcon name="star" className="w-4 h-4 text-amber-400" />
+                        <span className="text-sm font-bold text-gray-900 dark:text-white">{labels.ourStore}</span>
+                    </div>
+                    <div className="grid grid-cols-2 gap-2 text-xs">
+                        <div>
+                            <span className="text-gray-500 dark:text-gray-400">{labels.price}: </span>
+                            <span className="font-bold text-green-700 dark:text-green-400">{product.price} {labels.egp}</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-500 dark:text-gray-400">{labels.warranty}: </span>
+                            <span className="font-semibold bg-green-200 dark:bg-green-800 px-1.5 py-0.5 rounded text-[10px]">{warrantyMonths} {labels.months} ✓</span>
+                        </div>
+                        <div>
+                            <span className="text-gray-500 dark:text-gray-400">{labels.delivery}: </span>
+                            <span className="font-medium">1-3 {labels.days}</span>
+                            {product.price >= 1350 && <span className="text-green-600 text-[10px] ms-1">({labels.free})</span>}
+                        </div>
+                        <div>
+                            <span className="text-gray-500 dark:text-gray-400">{labels.original}: </span>
+                            <span className="font-bold text-green-600 dark:text-green-400">{labels.yes}</span>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Competitor Cards */}
+                {comps.map((comp, index) => (
+                    <div key={index} className="bg-white dark:bg-gray-800/50 rounded-xl p-3 border border-gray-200 dark:border-gray-700">
+                        <span className="text-sm font-medium text-gray-800 dark:text-gray-200 block mb-2">{comp.name}</span>
+                        <div className="grid grid-cols-2 gap-2 text-xs">
+                            <div>
+                                <span className="text-gray-500 dark:text-gray-400">{labels.price}: </span>
+                                <span className="text-gray-700 dark:text-gray-300">{typeof comp.price === 'number' ? `${comp.price} ${labels.egp}` : comp.price}</span>
+                            </div>
+                            <div>
+                                <span className="text-gray-500 dark:text-gray-400">{labels.warranty}: </span>
+                                <span className="text-gray-700 dark:text-gray-300">{comp.warranty}</span>
+                            </div>
+                            <div>
+                                <span className="text-gray-500 dark:text-gray-400">{labels.delivery}: </span>
+                                <span className="text-gray-700 dark:text-gray-300">{comp.delivery}</span>
+                            </div>
+                            <div>
+                                <span className="text-gray-500 dark:text-gray-400">{labels.original}: </span>
+                                {comp.original ? (
+                                    <span className="text-green-600 dark:text-green-400 font-medium">{labels.yes}</span>
+                                ) : (
+                                    <span className="text-orange-600 dark:text-orange-400 font-medium">{labels.no}</span>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            {/* Desktop Table Layout */}
+            <div className="hidden md:block overflow-x-auto">
                 <table className="w-full text-sm">
                     <thead>
                         <tr className="border-b-2 border-blue-200 dark:border-gray-700">
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.store}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.price}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.warranty}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.delivery}</th>
-                            <th className="py-2 px-2 md:py-3 md:px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.original}</th>
+                            <th className="py-3 px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.store}</th>
+                            <th className="py-3 px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.price}</th>
+                            <th className="py-3 px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.warranty}</th>
+                            <th className="py-3 px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.delivery}</th>
+                            <th className="py-3 px-4 text-start font-semibold text-gray-700 dark:text-gray-200">{labels.original}</th>
                         </tr>
                     </thead>
                     <tbody>
                         {/* Our Store - Highlighted */}
                         <tr className="bg-green-100 dark:bg-green-900/30 font-medium">
-                            <td className="py-2 px-2 md:py-3 md:px-4 flex items-center gap-1 md:gap-2">
+                            <td className="py-3 px-4 flex items-center gap-2">
                                 <SvgIcon name="star" className="w-4 h-4 text-amber-400" />
-                                <span className="text-xs md:text-sm text-gray-900 dark:text-white">{labels.ourStore}</span>
+                                <span className="text-sm text-gray-900 dark:text-white">{labels.ourStore}</span>
                             </td>
-                            <td className="py-2 px-2 md:py-3 md:px-4 text-green-700 dark:text-green-400 font-bold">
+                            <td className="py-3 px-4 text-green-700 dark:text-green-400 font-bold">
                                 {product.price} <span className="text-xs">{labels.egp}</span>
                             </td>
-                            <td className="py-2 px-2 md:py-3 md:px-4">
-                                <span className="bg-green-200 dark:bg-green-800 px-1.5 py-0.5 md:px-2 md:py-1 rounded text-[10px] md:text-xs font-semibold whitespace-nowrap">
+                            <td className="py-3 px-4">
+                                <span className="bg-green-200 dark:bg-green-800 px-2 py-1 rounded text-xs font-semibold whitespace-nowrap">
                                     {warrantyMonths} {labels.months} ✓
                                 </span>
                             </td>
-                            <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm text-gray-900 dark:text-white">
+                            <td className="py-3 px-4 text-sm text-gray-900 dark:text-white">
                                 1-3 {labels.days}
                                 {product.price >= 1350 && (
-                                    <span className="ms-1 text-green-600 text-[10px] md:text-xs block md:inline">({labels.free})</span>
+                                    <span className="ms-1 text-green-600 text-xs">({labels.free})</span>
                                 )}
                             </td>
-                            <td className="py-2 px-2 md:py-3 md:px-4 text-green-600 dark:text-green-400 font-bold text-xs md:text-sm">
+                            <td className="py-3 px-4 text-green-600 dark:text-green-400 font-bold text-sm">
                                 {labels.yes}
                             </td>
                         </tr>
@@ -123,13 +183,13 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         {/* Competitors */}
                         {comps.map((comp, index) => (
                             <tr key={index} className="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800/50">
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm text-gray-800 dark:text-gray-200">{comp.name}</td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-300 text-xs md:text-sm">
+                                <td className="py-3 px-4 text-sm text-gray-800 dark:text-gray-200">{comp.name}</td>
+                                <td className="py-3 px-4 text-gray-600 dark:text-gray-300 text-sm">
                                     {typeof comp.price === 'number' ? `${comp.price} ${labels.egp}` : comp.price}
                                 </td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-300 text-xs md:text-sm">{comp.warranty}</td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-gray-600 dark:text-gray-300 text-xs md:text-sm">{comp.delivery}</td>
-                                <td className="py-2 px-2 md:py-3 md:px-4 text-xs md:text-sm">
+                                <td className="py-3 px-4 text-gray-600 dark:text-gray-300 text-sm">{comp.warranty}</td>
+                                <td className="py-3 px-4 text-gray-600 dark:text-gray-300 text-sm">{comp.delivery}</td>
+                                <td className="py-3 px-4 text-sm">
                                     {comp.original ? (
                                         <span className="text-green-600 dark:text-green-400">{labels.yes}</span>
                                     ) : (

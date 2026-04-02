@@ -135,7 +135,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
     };
 
     return (
-        <div className="border border-gray-200 dark:border-gray-700 rounded-2xl p-4 my-8 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 shadow-lg relative z-10 w-full max-w-full overflow-hidden box-border">
+        <div className="border border-gray-200 dark:border-gray-700 rounded-2xl p-3 sm:p-4 my-8 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 shadow-lg relative z-10 w-full max-w-full box-border">
             {/* Header */}
             <h3 className="text-base font-bold mb-1 text-gray-900 dark:text-white text-center">
                 {isArabic ? '🏆 الكومبو الذهبي — كمّل تجربتك' : '🏆 Golden Combo — Complete Your Setup'}
@@ -149,11 +149,11 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
             )}
 
             {/* Mobile Layout: Horizontal Scroll Cards */}
-            <div className="block lg:hidden w-full overflow-hidden">
+            <div className="block lg:hidden w-full">
                 {/* Scrollable Product Cards */}
                 <div
-                    className="flex overflow-x-auto gap-3 pb-4 snap-x snap-mandatory scrollbar-hide -mx-2 px-2"
-                    style={{ WebkitOverflowScrolling: 'touch' }}
+                    className="flex overflow-x-auto gap-2 sm:gap-3 pb-4 snap-x snap-mandatory scrollbar-hide -mx-1 px-1"
+                    style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x' }}
                 >
                     {allProducts.map((item) => {
                         const isSelected = selectedIds.includes(item.product.id);
@@ -166,7 +166,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 key={item.product.id}
                                 onClick={() => toggleProduct(item.product.id)}
                                 disabled={isMain}
-                                className={`relative flex-shrink-0 w-[160px] rounded-2xl border-2 p-3 bg-white dark:bg-gray-800 transition-all duration-300 snap-center
+                                className={`relative flex-shrink-0 w-[calc(50%-8px)] min-w-[130px] max-w-[180px] sm:w-[160px] rounded-2xl border-2 p-2.5 sm:p-3 bg-white dark:bg-gray-800 transition-all duration-300 snap-center
                                     ${isSelected
                                         ? 'border-green-500 shadow-lg shadow-green-500/20'
                                         : 'border-gray-200 dark:border-gray-700 opacity-60'
