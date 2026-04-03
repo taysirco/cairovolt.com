@@ -314,22 +314,23 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {/* Breadcrumb */}
             <div className="bg-gray-50 dark:bg-gray-900/50 border-b border-gray-200 dark:border-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-                    <nav className="flex items-center text-sm text-gray-500 dark:text-gray-400 overflow-x-auto whitespace-nowrap">
-                        <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors">
-                            {locale === 'ar' ? 'الرئيسية' : 'Home'}
-                        </Link>
-                        <span className="mx-2 text-gray-300 dark:text-gray-600">/</span>
-                        <Link href={getLocalizedHref(`/${brandLower}`)} className="hover:text-blue-600 transition-colors">
-                            {brandDisplay}
-                        </Link>
-                        <span className="mx-2 text-gray-300 dark:text-gray-600">/</span>
-                        <Link href={getLocalizedHref(`/${brandLower}/${categoryLower}`)} className="hover:text-blue-600 transition-colors">
-                            {translatedCategory}
-                        </Link>
-                        <span className="mx-2 text-gray-300 dark:text-gray-600">/</span>
-                        <span className="text-gray-900 dark:text-white font-medium truncate">
+                    <nav className="text-sm text-gray-500 dark:text-gray-400">
+                        <div className="flex flex-wrap items-center gap-y-1">
+                            <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors flex-shrink-0">
+                                {locale === 'ar' ? 'الرئيسية' : 'Home'}
+                            </Link>
+                            <span className="mx-2 text-gray-300 dark:text-gray-600 flex-shrink-0">/</span>
+                            <Link href={getLocalizedHref(`/${brandLower}`)} className="hover:text-blue-600 transition-colors flex-shrink-0">
+                                {brandDisplay}
+                            </Link>
+                            <span className="mx-2 text-gray-300 dark:text-gray-600 flex-shrink-0">/</span>
+                            <Link href={getLocalizedHref(`/${brandLower}/${categoryLower}`)} className="hover:text-blue-600 transition-colors flex-shrink-0">
+                                {translatedCategory}
+                            </Link>
+                        </div>
+                        <p className="text-gray-900 dark:text-white font-medium mt-1 leading-snug" style={{ overflowWrap: 'anywhere', wordBreak: 'break-word' }}>
                             {productName}
-                        </span>
+                        </p>
                     </nav>
                 </div>
             </div>
@@ -350,10 +351,10 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             <div className="container mx-auto px-3 sm:px-4 py-4 md:py-8 max-w-full">
                 <article className="grid lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-12 max-w-full min-w-0">
                     {/* Product Images */}
-                    <div className="space-y-4">
+                    <div className="space-y-4 max-w-full min-w-0">
                         {/* Main Image */}
                         <div
-                            className="relative aspect-square bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
+                            className="relative aspect-square max-h-[50vh] sm:max-h-[60vh] md:max-h-none mx-auto w-full bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
                             onTouchStart={(e) => {
                                 const touch = e.touches[0];
                                 (e.currentTarget as HTMLDivElement).dataset.touchStartX = touch.clientX.toString();
@@ -408,8 +409,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                             {/* Image Counter */}
                             {images.length > 1 && (
-                                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 px-3 py-1 bg-black/60 text-white text-sm rounded-full">
-                                    {selectedImage + 1} / {images.length}
+                                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 px-3 py-1 bg-black/60 text-white text-sm rounded-full" style={{ direction: 'ltr', unicodeBidi: 'bidi-override' }}>
+                                    {`${selectedImage + 1} / ${images.length}`}
                                 </div>
                             )}
 
@@ -602,7 +603,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <>
                                 {/* Quantity & Add to Cart */}
                                 <div className="flex flex-col sm:flex-row flex-wrap gap-3">
-                                    <div className="flex items-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-gray-900">
+                                    <div className="flex items-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-gray-800">
                                         <button
                                             onClick={() => { const nq = Math.max(1, quantity - 1); setQuantity(nq); trackQuantityChange(product.id, nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
@@ -1033,30 +1034,32 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {
                 !isOutOfStock && (
                     <div
-                        className={`lg:hidden fixed bottom-0 left-0 right-0 p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] z-40 transition-transform duration-300 ${showStickyBar ? 'translate-y-0' : 'translate-y-full'
-                            }`}
+                        className={`lg:hidden fixed bottom-0 left-0 right-0 z-40 transition-transform duration-300 ${showStickyBar ? 'translate-y-0' : 'translate-y-full'}`}
                     >
-                        <div className="flex gap-3 max-w-full">
-                            <div className="flex-1">
-                                <span className="block text-xs text-gray-500 dark:text-gray-400">{tProduct('price')}</span>
-                                <div className="flex items-center gap-1">
-                                    <span className="text-xl font-bold">{activePrice.toLocaleString()}</span>
-                                    <span className="text-xs">{tCommon('egp')}</span>
+                        <div className="sticky-footer-bar bg-zinc-900 border-t-2 border-zinc-700 shadow-[0_-8px_25px_rgba(0,0,0,0.3)] px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]" style={{ backgroundColor: '#18181b' }}>
+                            <div className="flex items-center gap-3">
+                                {/* Price Section — forced white text on dark bg for guaranteed visibility */}
+                                <div className="flex-shrink-0 min-w-[90px]">
+                                    <span className="sticky-label block text-[11px] font-medium mb-0.5 text-zinc-400" style={{ color: '#a1a1aa' }}>{tProduct('price')}</span>
+                                    <div className="flex items-baseline gap-1">
+                                        <span className="sticky-price text-xl font-black text-white" style={{ color: '#ffffff' }}>{activePrice.toLocaleString()}</span>
+                                        <span className="sticky-label text-xs font-medium text-zinc-400" style={{ color: '#a1a1aa' }}>{tCommon('egp')}</span>
+                                    </div>
                                 </div>
+                                {/* CTA Button */}
+                                <button
+                                    onClick={handleAddToCart}
+                                    data-add-to-cart
+                                    className={`flex-1 px-4 py-3.5 font-bold text-white rounded-xl shadow-lg transition-all duration-200 text-base ${showAddedFeedback
+                                        ? 'bg-green-600 scale-95 shadow-green-600/30'
+                                        : brand === 'anker'
+                                            ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'
+                                            : 'bg-red-600 hover:bg-red-700 shadow-red-600/30'
+                                        }`}
+                                >
+                                    {showAddedFeedback ? (isRTL ? '✓ تم' : '✓ Added') : tProduct('addToCart')}
+                                </button>
                             </div>
-                            <button
-                                onClick={handleAddToCart}
-                                data-add-to-cart
-                                className={`flex-1 px-4 py-2 font-bold text-white rounded-lg shadow-lg transition-all duration-200 ${showAddedFeedback
-                                    ? 'bg-green-600 scale-95 shadow-green-600/20'
-                                    : brand === 'anker'
-                                        ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/20'
-                                        : 'bg-red-600 hover:bg-red-700 shadow-red-600/20'
-                                    }`}
-                            >
-                                {showAddedFeedback ? (isRTL ? '✓ تم' : '✓ Added') : tProduct('addToCart')}
-                            </button>
-
                         </div>
                     </div>
                 )

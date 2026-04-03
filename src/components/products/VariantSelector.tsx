@@ -68,11 +68,9 @@ export default function VariantSelector({
             <div
                 className={
                     useGrid
-                        ? `grid gap-2 ${
-                            cardCount === 2
-                                ? 'grid-cols-2'
-                                : 'grid-cols-3'
-                          } sm:flex sm:gap-3`
+                        ? 'flex gap-2.5 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory sm:grid sm:overflow-visible sm:pb-0 ' +
+                          (cardCount === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-3') +
+                          ' sm:gap-3'
                         : 'flex gap-3 overflow-x-auto pb-3 scrollbar-hide snap-x snap-mandatory'
                 }
             >
@@ -92,10 +90,9 @@ export default function VariantSelector({
                             aria-label={`${variant.model} — ${variant.capacity} / ${variant.acOutput}${isOutOfStock ? ' (out of stock)' : ''}`}
                             className={`
                                 relative text-start
-                                ${useGrid
-                                    ? 'min-w-0 sm:flex-none sm:w-[170px] md:w-[190px]'
-                                    : 'flex-shrink-0 w-[160px] sm:w-[170px] md:w-[190px] snap-start'
-                                }
+                                flex-shrink-0 w-[140px] sm:w-auto sm:flex-shrink
+                                ${useGrid ? 'sm:min-w-0' : 'snap-start'}
+                                ${!useGrid ? 'sm:w-[170px] md:w-[190px]' : ''}
                                 rounded-xl border-2 p-2.5 sm:p-3 md:p-4
                                 transition-all duration-200 ease-out
                                 ${isOutOfStock

@@ -112,3 +112,21 @@ html {
     transform: scale(1.08);
   }
 }
+
+/* ================================================
+   Sticky Footer — MAXIMUM SPECIFICITY OVERRIDES
+   Placed at end-of-file, outside @layer, with !important
+   to guarantee visibility regardless of dark/light mode
+   ================================================ */
+.sticky-footer-bar {
+  background-color: #18181b !important;
+  color: #ffffff !important;
+}
+
+.sticky-footer-bar .sticky-price {
+  color: #ffffff !important;
+}
+
+.sticky-footer-bar .sticky-label {
+  color: #a1a1aa !important;
+}
