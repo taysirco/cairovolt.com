@@ -60,3 +60,4 @@ analysis_data/
 update-products-pages
 product-page-new
 firebase-debug.log
+.firebase/

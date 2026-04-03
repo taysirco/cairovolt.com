@@ -1,4 +1,12 @@
 {
+    "hosting": {
+        "source": ".",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    },
     "firestore": {
         "database": "gadgets",
         "indexes": "firestore.indexes.json"
