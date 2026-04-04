@@ -68,7 +68,7 @@ export const anker_a8050_usb_c_cable = {
                     { question: "How long does it last?", answer: "Tested to 35,000+ bend cycles. That's 200 daily bends for over 5 years. The braided nylon resists heat and dust." },
                     { question: "Does it transfer data?", answer: "Yes — 480Mbps USB 2.0 data transfer for syncing photos, videos, and files between devices." },
                     { question: "Is it compatible with iPhone 17?", answer: "Yes — iPhone 17 uses USB-C. The A8050 charges it at 27W PD max speed. Also works with Samsung S26, Pixel 9, iPad Pro, MacBook Air, and all USB-C devices." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers fraying, connector failure, and charging defects. If the cable fails under normal use, contact NaqraStore for free replacement." }
+                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers fraying, connector failure, and charging defects. If the cable fails under normal use, contact CairoVolt for free replacement." }
                 ]
             },
             ar: {
@@ -123,7 +123,7 @@ export const anker_a8050_usb_c_cable = {
                     { question: "بيعيش قد إيه؟", answer: "متحمل 35,000+ دورة ثني. يعني 200 ثنية يومياً لأكتر من 5 سنين. النايلون المضفر بيقاوم الحرارة والتراب." },
                     { question: "بينقل بيانات؟", answer: "أيوه — 480Mbps USB 2.0 لنقل صور وفيديوهات وملفات بين الأجهزة." },
                     { question: "متوافق مع ايفون 17؟", answer: "أيوه — ايفون 17 بيستخدم USB-C. الـ A8050 بيشحنه بـ 27 واط PD بأقصى سرعة. كمان بيشتغل مع سامسونج S26، بيكسل 9، ايباد برو، ماك بوك اير، وكل أجهزة USB-C." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي التهري وعطل الموصل وعيوب الشحن. لو الكابل باظ في الاستخدام العادي، كلّم NaqraStore للاستبدال مجاناً." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي التهري وعطل الموصل وعيوب الشحن. لو الكابل باظ في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
                 ]
             }
         },

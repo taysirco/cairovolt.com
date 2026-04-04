@@ -1,6 +1,6 @@
 "use client";
 
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { useState, useMemo } from 'react';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -197,12 +197,17 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 {/* Product Image */}
                                 <div className="relative w-full aspect-square mb-3 bg-gray-50 dark:bg-gray-900 rounded-xl overflow-hidden">
                                     {item.product.images?.[0]?.url && (
-                                        <Image
+                                        <ProductImage
                                             src={item.product.images[0].url}
                                             alt={t?.name || item.product.slug}
+                                            slug={item.product.slug}
+                                            brand={item.product.brand}
+                                            category={item.product.categorySlug}
                                             fill
                                             sizes="(max-width: 768px) 160px, 200px"
-                                            className="object-contain p-2"
+                                            imageClassName="object-contain p-2"
+                                            locale={locale}
+                                            lightweight
                                         />
                                     )}
                                 </div>
@@ -346,12 +351,17 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                         {/* Image */}
                                         <div className="relative w-full aspect-square mb-4">
                                             {item.product.images?.[0]?.url && (
-                                                <Image
+                                                <ProductImage
                                                     src={item.product.images[0].url}
                                                     alt={t?.name || item.product.slug}
+                                                    slug={item.product.slug}
+                                                    brand={item.product.brand}
+                                                    category={item.product.categorySlug}
                                                     fill
                                                     sizes="(max-width: 768px) 160px, 200px"
-                                                    className="object-contain p-2"
+                                                    imageClassName="object-contain p-2"
+                                                    locale={locale}
+                                                    lightweight
                                                 />
                                             )}
                                         </div>

@@ -165,6 +165,8 @@ export default function BestSellingProducts({
                                             src={product.images[0].url}
                                             alt={product.images[0].alt || t.name}
                                             slug={product.slug}
+                                            brand={product.brand}
+                                            category={product.categorySlug}
                                             fill
                                             loading={idx < 5 ? 'eager' : 'lazy'}
                                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"

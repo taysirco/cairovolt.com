@@ -78,7 +78,7 @@ export const anker_soundcore_k20i = {
                     { question: "How good is the bass compared to AirPods?", answer: "The 13mm BassUp drivers deliver significantly deeper bass than AirPods. The oversized diaphragm moves more air = more bass. Plus you can customize EQ via the Soundcore app." },
                     { question: "Does AI ENC work for calls in noisy places?", answer: "Yes — tested on Cairo's Metro Line 3 during rush hour. Colleagues couldn't tell we were in the subway. AI neural network separates voice from noise." },
                     { question: "What's the difference between K20i and R50i?", answer: "K20i = semi-in-ear (no tips, maximum comfort, no ANC). R50i = in-ear (silicone tips, passive isolation, basic ENC). K20i has bigger 13mm drivers vs R50i's 10mm." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. If they fail under normal use, contact NaqraStore for free replacement." }
+                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. If they fail under normal use, contact CairoVolt for free replacement." }
                 ]
             },
             ar: {
@@ -141,7 +141,7 @@ export const anker_soundcore_k20i = {
                     { question: "الباس أحسن من ايربودز؟", answer: "درايفرات 13mm BassUp بتوفر باس أعمق بكتير من ايربودز. الدرايفر الكبير بيحرك هوا أكتر = باس أكتر." },
                     { question: "AI ENC بتشتغل كويس في الأماكن الزحمة؟", answer: "أيوه — اختبرناها في مترو القاهرة خط 3 وقت الزحمة. الزملاء ما عرفوش إننا في المترو. شبكة AI العصبية بتفصل الصوت عن الضوضاء." },
                     { question: "إيه الفرق بين K20i و R50i؟", answer: "K20i = نصف داخلية (بدون أطراف، راحة قصوى، بدون ANC). R50i = داخلية (أطراف سيليكون، عزل سلبي). K20i عندها 13mm مقابل 10mm في R50i." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. لو باظت في الاستخدام العادي، كلّم NaqraStore للاستبدال مجاناً." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. لو باظت في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
                 ]
             }
         },

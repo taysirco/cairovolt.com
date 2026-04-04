@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { getGenericCategory } from '@/data/generic-categories';
 import { getBlogArticle } from '@/data/blog-articles';
 import { staticProducts } from '@/lib/static-products';
@@ -216,13 +216,18 @@ export function GenericCategoryContent({
                                                 {product.brandDisplay}
                                             </span>
                                             {primaryImage ? (
-                                                <Image
+                                                <ProductImage
                                                     src={primaryImage}
                                                     alt={t?.name || product.slug}
+                                                    slug={product.slug}
+                                                    brand={product.brandDisplay}
+                                                    category={product.catSlug}
                                                     fill
                                                     loading="lazy"
                                                     sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
-                                                    className="object-contain p-2 group-hover:scale-105 transition-transform"
+                                                    imageClassName="object-contain p-2 group-hover:scale-105 transition-transform"
+                                                    locale={locale}
+                                                    lightweight
                                                 />
                                             ) : (
                                                 <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-gray-300">

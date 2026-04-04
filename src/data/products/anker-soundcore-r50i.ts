@@ -74,7 +74,7 @@ export const anker_soundcore_r50i = {
                     { question: "R50i vs R50i NC — what's the difference?", answer: "R50i: no ANC, 30h battery, 950 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1299 EGP. If budget allows, R50i NC is the significant upgrade." },
                     { question: "R50i vs K20i — which is better?", answer: "R50i = in-ear (passive isolation, smaller 10mm drivers, 30h). K20i = semi-in-ear (more comfortable, bigger 13mm drivers, 36h). K20i costs 750 EGP vs R50i's 950 EGP." },
                     { question: "How do I maximize battery life?", answer: "Keep case charged via USB-C. Avoid draining earbuds to 0%. Store in case when not in use. The 10-minute fast charge gives 2 emergency hours." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. Contact NaqraStore for free replacement if they fail under normal use." }
+                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers driver failure, battery degradation, and Bluetooth issues. Contact CairoVolt for free replacement if they fail under normal use." }
                 ]
             },
             ar: {
@@ -135,7 +135,7 @@ export const anker_soundcore_r50i = {
                     { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 950 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1299 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
                     { question: "R50i ولا K20i — أنهي أحسن؟", answer: "R50i = داخلية (عزل سلبي، 10mm، 30 ساعة). K20i = نصف داخلية (أريح، 13mm، 36 ساعة). K20i بـ 750 جنيه مقابل 950 للـ R50i." },
                     { question: "إزاي أحافظ على البطارية أطول فترة؟", answer: "خلّي العلبة مشحونة بـ USB-C. متفرغش السماعات لـ 0%. حطها في العلبة لما مش بتستخدمها. شحن 10 دقايق بيدي ساعتين طوارئ." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم NaqraStore للاستبدال مجاناً لو باظت في الاستخدام العادي." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }
                 ]
             }
         },

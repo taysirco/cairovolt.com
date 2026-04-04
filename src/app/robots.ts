@@ -12,7 +12,8 @@ export default function robots(): MetadataRoute.Robots {
                     '/api/discover-feed',  // Google Discover RSS
                     '/api/knowledge-graph',    // Entity Data API
                     '/api/llms/catalog',   // M2M Catalog API
-                    '/.well-known/llms.txt',
+                    '/api/v1/verify-content',  // C2PA Content Verification
+                    '/.well-known/',       // DID + JWKS + llms.txt
                 ],
                 disallow: [
                     '/checkout',
@@ -39,7 +40,8 @@ export default function robots(): MetadataRoute.Robots {
                     '/',
                     '/api/knowledge-graph',
                     '/api/llms/catalog',
-                    '/.well-known/llms.txt',
+                    '/api/v1/verify-content',  // C2PA Content Verification
+                    '/.well-known/',       // DID + JWKS + llms.txt
                 ],
                 disallow: [
                     '/checkout',

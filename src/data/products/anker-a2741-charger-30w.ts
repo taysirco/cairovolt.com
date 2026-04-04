@@ -76,7 +76,7 @@ export const anker_a2741_charger_30w = {
                     { question: "Does PPS make a difference for Samsung phones?", answer: "Yes! PPS (Programmable Power Supply) allows the A2741 to deliver the exact voltage Samsung Galaxy S26/S25 needs for Super Fast Charging. Regular PD car chargers give Samsung phones a slower charge." },
                     { question: "It's only 15g — is it durable enough?", answer: "Yes. The miniature size uses dense engineering, not cheap materials. The A2741 is built to automotive standards with heat-resistant internals and MultiProtect safety. Anker backs it with an 18-month warranty." },
                     { question: "What happens when both ports charge simultaneously?", answer: "When both ports are active, power is shared — approximately 12W per port. For single-device fast charging, use one port at a time. This is standard for dual-port car chargers at this wattage." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. Contact NaqraStore for free replacement. Keep your receipt and original box." }
+                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. Contact CairoVolt for free replacement. Keep your receipt and original box." }
                 ]
             },
             ar: {
@@ -143,7 +143,7 @@ export const anker_a2741_charger_30w = {
                     { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "أيوه بيفرق! PPS بيخلي الـ A2741 يوفر بالضبط الفولتية اللي سامسونج جالكسي S26/S25 محتاجها للـ Super Fast Charging. شواحن السيارة العادية اللي بتدعم PD بس بتشحن سامسونج أبطأ." },
                     { question: "15 جرام بس — ده متين كفاية؟", answer: "أيوه. الحجم الصغير مبني بهندسة مدمجة مش مواد رخيصة. الـ A2741 مصمم لمعايير السيارات بمكونات مقاومة للحرارة وحماية MultiProtect. أنكر بتديله ضمان 18 شهر." },
                     { question: "لما المنفذين بيشحنوا في نفس الوقت بيحصل إيه؟", answer: "لما المنفذين شغالين، القوة بتتقسم — حوالي 12 واط لكل منفذ. للشحن السريع، استخدم منفذ واحد في كل مرة. ده طبيعي في شواحن السيارة المزدوجة بالقوة دي." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم NaqraStore للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }
         },

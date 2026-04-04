@@ -80,7 +80,7 @@ export const anker_a2147_gan_charger_30w = {
                     { question: "Can this charge my MacBook?", answer: "Yes, but slowly. The 30W output can charge MacBook Air (M3/M4) — it's useful as an emergency or overnight charger. For daily MacBook charging, consider the Anker Nano 45W or a higher wattage charger." },
                     { question: "How is this different from the Anker PowerPort 20W?", answer: "The A2147 delivers 30W (vs 20W) in roughly the same compact size, thanks to GaN technology. It charges iPhone 50% faster and can also charge iPads and even MacBooks. It's also Series 5 with IQ3 — a significant upgrade in speed and intelligence." },
                     { question: "Is 30W safe for my iPhone battery?", answer: "Absolutely. Anker's ActiveShield 2.0 monitors temperature millions of times per day. The A2147 only delivers what your iPhone requests — iPhones cap at ~27W anyway. The GaN design also runs cooler than silicon chargers, further protecting battery health." },
-                    { question: "What does the 24-month warranty cover?", answer: "Anker's 24-month warranty covers manufacturing defects, port failure, overheating, and charging inconsistencies. Contact NaqraStore for free replacement. Keep your receipt and original box." }
+                    { question: "What does the 24-month warranty cover?", answer: "Anker's 24-month warranty covers manufacturing defects, port failure, overheating, and charging inconsistencies. Contact CairoVolt for free replacement. Keep your receipt and original box." }
                 ]
             },
             ar: {
@@ -151,7 +151,7 @@ export const anker_a2147_gan_charger_30w = {
                     { question: "ينفع يشحن ماك بوك؟", answer: "أيوه، بس ببطء. الـ 30 واط ينفع يشحن ماك بوك اير (M3/M4) — مفيد كشاحن طوارئ أو بالليل. للشحن اليومي للماك بوك، خد بالك من شاحن Anker Nano بقوة 45 واط أو أعلى." },
                     { question: "إيه الفرق بينه وبين شاحن انكر 20 واط؟", answer: "الـ A2147 بيوفر 30 واط (مقابل 20 واط) في نفس الحجم المدمج تقريباً بفضل تقنية GaN. بيشحن ايفون أسرع بـ 50% وكمان يقدر يشحن ايباد وحتى ماك بوك. كمان من Series 5 مع IQ3 — ترقية كبيرة في السرعة والذكاء." },
                     { question: "30 واط مش هيضر بطارية ايفوني؟", answer: "لا خالص. ActiveShield 2.0 من أنكر بيراقب الحرارة ملايين المرات يومياً. الـ A2147 بيوفر بس اللي ايفونك بيطلبه — الايفون بيحدد أقصى شحن عند ~27 واط أصلاً. كمان تصميم GaN بيشتغل أبرد من شواحن السيليكون، فده بيحمي صحة البطارية أكتر." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 24 شهر بيغطي عيوب التصنيع وعطل المنفذ والسخونة وعدم ثبات الشحن. كلّم NaqraStore للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 24 شهر بيغطي عيوب التصنيع وعطل المنفذ والسخونة وعدم ثبات الشحن. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }
         },

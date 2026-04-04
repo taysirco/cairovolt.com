@@ -29,7 +29,7 @@ export const anker_wall_chargers_content: CategoryContent = {
 | **iPhone 17/17 Pro** | Anker Nano 3 GaN 30W (A2147) | 430 ج |
 | **iPhone 17/16** | Anker 30W (A2741) | 549 ج |
 | **Samsung S26** | Anker 25W PPS | 550 ج |
-| **Samsung S26 Ultra** | Anker 45W PPS | 430 ج |
+| **Samsung S26 Ultra** | Anker 45W PPS | 790 ج |
 | **MacBook Air** | Anker 65W GaN | 999 ج |
     `,
                     qualityBadges: [
@@ -47,7 +47,7 @@ export const anker_wall_chargers_content: CategoryContent = {
 | **25W PPS** | 550 ج | Samsung S26 Super Fast | 0→50% في 22د (اختبار CairoVolt) |
 | **30W GaN (A2147)** | 430 ج | ⭐ iPhone 17 الأفضل — أصغر 70% | 0→50% في 21د (اختبار CairoVolt) |
 | **30W (A2741)** | 549 ج | شحن سيارة USB-C+A | 0→50% في 25د (اختبار فعلي) |
-| **45W** | 430 ج | S26 Ultra / iPad | 0→50% في 18د (اختبار CairoVolt) |
+| **45W** | 790 ج | S26 Ultra / iPad | 0→50% في 18د (اختبار CairoVolt) |
 | **65W GaN** | 999 ج | MacBook Air + iPhone | جهازين معاً بدون انخفاض (مختبر) |
 | **100W** | 1299 ج | MacBook Pro 16" | 0→50% في 35د (اختبار CairoVolt) |
 `
@@ -89,7 +89,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { name: 'شاحن انكر 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
                         { name: 'شاحن انكر 30W سيارة (A2741)', price: 549, badge: 'شاحن سيارة' },
-                        { name: 'شاحن انكر 45W', price: 430, badge: 'S26 Ultra' },
+                        { name: 'شاحن انكر 45W', price: 790, badge: 'S26 Ultra' },
                         { name: 'شاحن انكر GaN 65W', price: 999, badge: 'MacBook' },
                         { name: 'شاحن انكر 100W', price: 1299, badge: 'Pro Max' },
                     ]
@@ -106,7 +106,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
 | **iPhone 17/17 Pro** | Anker Nano 3 GaN 30W (A2147) | EGP 430 |
 | **iPhone 17/16** | Anker 30W (A2741) | EGP 549 |
 | **Samsung S26** | Anker 25W PPS | EGP 550 |
-| **Samsung S26 Ultra** | Anker 45W PPS | EGP 430 |
+| **Samsung S26 Ultra** | Anker 45W PPS | EGP 790 |
 | **MacBook Air** | Anker 65W GaN | EGP 999 |
     `,
                     qualityBadges: [
@@ -124,7 +124,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
 | **25W PPS** | EGP 550 | Samsung S26 Super Fast | 0→50% in 22min (CairoVolt test) |
 | **30W GaN (A2147)** | EGP 430 | ⭐ iPhone 17 Best — 70% smaller | 0→50% in 21min (CairoVolt test) |
 | **30W (A2741)** | EGP 549 | Car charger USB-C+A | 0→50% in 25min (lab tested) |
-| **45W** | EGP 430 | S26 Ultra / iPad | 0→50% in 18min (CairoVolt test) |
+| **45W** | EGP 790 | S26 Ultra / iPad | 0→50% in 18min (CairoVolt test) |
 | **65W GaN** | EGP 999 | MacBook Air + iPhone | 2 devices, no speed drop (lab) |
 | **100W** | EGP 1299 | MacBook Pro 16" | 0→50% in 35min (CairoVolt test) |
 `
@@ -166,7 +166,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                         { name: 'Anker 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'Anker Nano 3 GaN 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
                         { name: 'Anker 30W Car (A2741)', price: 549, badge: 'Car Charger' },
-                        { name: 'Anker 45W', price: 430, badge: 'S26 Ultra' },
+                        { name: 'Anker 45W', price: 790, badge: 'S26 Ultra' },
                         { name: 'Anker GaN 65W', price: 999, badge: 'MacBook' },
                         { name: 'Anker 100W', price: 1299, badge: 'Pro Max' },
                     ]

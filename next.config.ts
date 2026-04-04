@@ -36,6 +36,24 @@ const nextConfig = {
     async headers() {
         return [
             {
+                // .well-known files (DID, JWKS) — accessible for C2PA verification
+                source: '/.well-known/:path*',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, max-age=86400, s-maxage=86400',
+                    },
+                    {
+                        key: 'Access-Control-Allow-Origin',
+                        value: '*',
+                    },
+                    {
+                        key: 'Content-Type',
+                        value: 'application/json',
+                    },
+                ],
+            },
+            {
                 source: '/:all*(svg|jpg|jpeg|png|webp|avif|ico|woff|woff2)',
                 headers: [
                     {

@@ -74,7 +74,7 @@ export const anker_soundcore_r50i_nc = {
                     { question: "What's the phone stand case?", answer: "The charging case has a hidden built-in stand. Prop up your phone for video calls or watching content. Free hands-free viewing anywhere." },
                     { question: "R50i NC vs K20i — which should I buy?", answer: "Need ANC + call quality → R50i NC. Need all-day comfort + bigger bass → K20i. R50i NC has 42dB ANC and 4 mics. K20i has semi-in-ear comfort and 13mm drivers." },
                     { question: "How long does the battery last with ANC on?", answer: "7h per charge with ANC on, 10h with ANC off. Total with case: up to 45 hours. Fast charge: 10min = 2h." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers ANC module failure, driver defects, battery degradation, and Bluetooth issues. Contact NaqraStore for free replacement if they fail under normal use." }
+                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers ANC module failure, driver defects, battery degradation, and Bluetooth issues. Contact CairoVolt for free replacement if they fail under normal use." }
                 ]
             },
             ar: {
@@ -136,7 +136,7 @@ export const anker_soundcore_r50i_nc = {
                     { question: "إيه حكاية حامل الموبايل في العلبة؟", answer: "علبة الشحن فيها حامل مخفي. سند موبايلك لفيديو كول أو مشاهدة محتوى. مشاهدة حرة الايدين في أي مكان." },
                     { question: "R50i NC ولا K20i — أشتري أنهي؟", answer: "محتاج ANC + جودة مكالمات → R50i NC. محتاج راحة طول اليوم + باس أكبر → K20i. R50i NC عندها 42dB ANC و 4 مايك. K20i عندها راحة نصف داخلية و 13mm." },
                     { question: "البطارية بتعيش قد إيه مع ANC؟", answer: "7 ساعات بالشحنة مع ANC شغال، 10 ساعات بدون ANC. الإجمالي مع العلبة: 45 ساعة. شحن سريع: 10 دقايق = ساعتين." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل موديول ANC، عيوب الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم NaqraStore للاستبدال مجاناً لو باظت في الاستخدام العادي." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل موديول ANC، عيوب الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }
                 ]
             }
         },

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { staticProducts } from '@/lib/static-products';
 import { BostaTracker } from '@/lib/bosta';
@@ -406,12 +406,17 @@ export default async function GovernoratePage({ params }: PageProps) {
                                             {/* Image */}
                                             {primaryImage && (
                                                 <div className="aspect-square bg-gray-100 dark:bg-gray-900 relative overflow-hidden">
-                                                    <Image
+                                                    <ProductImage
                                                         src={primaryImage.url}
                                                         alt={primaryImage.alt || ''}
+                                                        slug={product.slug}
+                                                        brand={catalogProduct?.brand}
+                                                        category={catalogProduct?.categorySlug}
                                                         fill
                                                         sizes="(max-width: 768px) 100vw, 33vw"
-                                                        className="object-cover group-hover:scale-105 transition-transform"
+                                                        imageClassName="object-cover group-hover:scale-105 transition-transform"
+                                                        locale={locale}
+                                                        lightweight
                                                     />
                                                 </div>
                                             )}

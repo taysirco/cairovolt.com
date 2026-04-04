@@ -5,6 +5,16 @@ import { logger } from '@/lib/logger';
 
 const baseUrl = 'https://cairovolt.com';
 
+// Category-aware geo_location — synced with ProductImage.tsx & ImageObjectSchema.tsx
+function getGeoForCategory(cat: string): string {
+    const c = cat.toLowerCase();
+    if (c.includes('power') || c.includes('bank') || c.includes('battery')) return 'New Damietta, Egypt';
+    if (c.includes('charger') || c.includes('charg') || c.includes('adapter') || c.includes('wall')) return 'New Cairo, Egypt';
+    if (c.includes('cable') || c.includes('cord') || c.includes('wire') || c.includes('holder') || c.includes('car-') || c.includes('mount')) return '6th of October City, Egypt';
+    if (c.includes('speaker') || c.includes('audio') || c.includes('earb') || c.includes('head') || c.includes('sound') || c.includes('watch')) return 'Nasr City, Cairo, Egypt';
+    return 'Cairo, Egypt';
+}
+
 interface ProductImage {
     url: string;
     alt?: string;
@@ -101,7 +111,7 @@ export async function GET() {
       <image:loc>${imageUrl}</image:loc>
       <image:caption>${captionAr}</image:caption>
       <image:title>${titleEn}</image:title>
-      <image:geo_location>Cairo, Egypt</image:geo_location>
+      <image:geo_location>${escapeXml(getGeoForCategory(product.categorySlug))}</image:geo_location>
       <image:license>${baseUrl}/en/return-policy</image:license>
     </image:image>
 `;
@@ -124,7 +134,7 @@ export async function GET() {
       <image:loc>${imageUrl}</image:loc>
       <image:caption>${titleEn}</image:caption>
       <image:title>${titleEn}</image:title>
-      <image:geo_location>Cairo, Egypt</image:geo_location>
+      <image:geo_location>${escapeXml(getGeoForCategory(product.categorySlug))}</image:geo_location>
       <image:license>${baseUrl}/en/return-policy</image:license>
     </image:image>
 `;

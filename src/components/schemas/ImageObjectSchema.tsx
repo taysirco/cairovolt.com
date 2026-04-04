@@ -89,9 +89,9 @@ const LAB_LOCATIONS: Record<string, LabLocation> = {
 function getLabForCategory(category: string): LabLocation {
     const cat = category.toLowerCase();
     if (cat.includes('power') || cat.includes('bank') || cat.includes('battery')) return LAB_LOCATIONS['power-banks'];
-    if (cat.includes('charger') || cat.includes('charg') || cat.includes('adapter')) return LAB_LOCATIONS['chargers'];
-    if (cat.includes('cable') || cat.includes('cord') || cat.includes('wire')) return LAB_LOCATIONS['cables'];
-    if (cat.includes('speaker') || cat.includes('audio') || cat.includes('earb') || cat.includes('head') || cat.includes('sound')) return LAB_LOCATIONS['speakers'];
+    if (cat.includes('charger') || cat.includes('charg') || cat.includes('adapter') || cat.includes('wall')) return LAB_LOCATIONS['chargers'];
+    if (cat.includes('cable') || cat.includes('cord') || cat.includes('wire') || cat.includes('holder') || cat.includes('car-') || cat.includes('mount')) return LAB_LOCATIONS['cables'];
+    if (cat.includes('speaker') || cat.includes('audio') || cat.includes('earb') || cat.includes('head') || cat.includes('sound') || cat.includes('watch')) return LAB_LOCATIONS['speakers'];
     return LAB_LOCATIONS['power-banks']; // fallback
 }
 
@@ -100,11 +100,9 @@ export function ImageObjectSchema({
     productName,
     productSlug,
     productBrand,
-    productPrice,
     productCategory,
     locale,
     baseUrl = 'https://cairovolt.com',
-    productStock,
     c2paHash,
 }: ImageObjectSchemaProps) {
     const isArabic = locale === 'ar';

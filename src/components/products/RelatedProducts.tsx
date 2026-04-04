@@ -76,6 +76,8 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                             src={product.images[0].url}
                                             alt={t?.name || product.slug}
                                             slug={product.slug}
+                                            brand={product.brand}
+                                            category={product.categorySlug}
                                             fill
                                             imageClassName="object-contain p-2 transition-transform duration-500 group-hover:scale-110"
                                             sizes="(max-width: 768px) 160px, 250px"

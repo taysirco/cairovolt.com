@@ -75,7 +75,7 @@ export const anker_a2732_charger_35w = {
                     { question: "Will it fast-charge my iPhone while using Google Maps?", answer: "Yes! The 20W USB-C PD port fast-charges iPhone even while running GPS — you'll gain battery, not just maintain it. GPS typically uses 5-8W, so you'll still net positive charging." },
                     { question: "Does it work in trucks and microbuses?", answer: "Yes — the A2732 accepts 12V and 24V input, so it works in all vehicles: sedans, SUVs, trucks, microbuses, and vans." },
                     { question: "Will it overheat inside a parked car in summer?", answer: "The A2732 has built-in temperature monitoring via MultiProtect. It's designed for automotive use with heat-resistant internals. However, like all electronics, don't leave it in direct sunlight in a 60°C+ parked car for extended periods." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. If you have issues, contact NaqraStore for free replacement. Keep your receipt and original box." }
+                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. If you have issues, contact CairoVolt for free replacement. Keep your receipt and original box." }
                 ]
             },
             ar: {
@@ -141,7 +141,7 @@ export const anker_a2732_charger_35w = {
                     { question: "بيشحن ايفون بسرعة وأنا مشغل الـ GPS؟", answer: "أيوه! منفذ USB-C PD بـ 20 واط بيشحن الايفون حتى وانت مشغل خرايط — هتكسب شحن مش بس هتحافظ عليه. الـ GPS بيستهلك 5-8 واط فهتفضل تكسب." },
                     { question: "بيشتغل في التريلات والميكروباصات؟", answer: "أيوه — الـ A2732 بيقبل دخل 12V و 24V فبيشتغل في كل المركبات: ملاكي وSUV وتريلات وميكروباصات وفانات." },
                     { question: "هيسخن في العربية المركونة في الشمس؟", answer: "الـ A2732 فيه مراقبة حرارة ضمن MultiProtect ومصمم للاستخدام داخل السيارة. بس زي أي إلكترونيات، ما تسيبهوش في الشمس المباشرة في عربية حرارتها 60°C+ لفترات طويلة." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم NaqraStore للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }
         },

@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getSolutionBySlug, solutionsDB } from '@/data/solutions-data';
 import { getProductBySlug } from '@/lib/static-products';
 import Link from 'next/link';
-import Image from 'next/image';
+import { ProductImage } from '@/components/ui/ProductImage';
 
 export const dynamic = 'force-dynamic'; // Must be dynamic to avoid DYNAMIC_SERVER_USAGE at runtime
 export const revalidate = 3600;
@@ -160,11 +160,16 @@ export default async function SolutionPage({ params }: Props) {
                                 >
                                     <div className="w-24 h-24 bg-gray-50 dark:bg-gray-800 rounded-xl relative overflow-hidden flex-shrink-0">
                                         {product.images?.[0]?.url && (
-                                            <Image
+                                            <ProductImage
                                                 src={product.images[0].url}
                                                 alt={pName || 'Product'}
+                                                slug={product.slug}
+                                                brand={product.brand}
+                                                category={product.categorySlug}
                                                 fill
-                                                className="object-contain p-2 group-hover:scale-110 transition-transform"
+                                                imageClassName="object-contain p-2 group-hover:scale-110 transition-transform"
+                                                locale={isArabic ? 'ar' : 'en'}
+                                                lightweight
                                             />
                                         )}
                                     </div>

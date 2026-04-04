@@ -329,6 +329,8 @@ export default function CategoryTemplate({
                                         src={product.image}
                                         alt={product.name}
                                         slug={product.slug}
+                                        brand={brand}
+                                        category={categorySlug}
                                         fill
                                         loading={idx < 4 ? 'eager' : 'lazy'}
                                         sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"

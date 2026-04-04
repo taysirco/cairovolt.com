@@ -4,7 +4,6 @@ import { trackViewItem, trackAddToCart, trackImageGallerySwipe, trackQuantityCha
 import { ttqViewContent } from '@/lib/tiktokPixel';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef, useMemo } from 'react';
@@ -421,6 +420,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         alt={productName}
                                         slug={product.slug}
                                         brand={product.brand}
+                                        category={product.categorySlug || category}
                                         c2paHash={product.contentCredentials?.signature ? String(product.contentCredentials.signature).slice(0, 32) : undefined}
                                         fill
                                         priority
@@ -456,13 +456,18 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                             : 'border-gray-200 hover:border-gray-300'
                                             }`}
                                     >
-                                        <Image
+                                        <ProductImage
                                             src={img.url}
                                             alt={img.alt || productName}
+                                            slug={product.slug}
+                                            brand={product.brand}
+                                            category={product.categorySlug || category}
                                             fill
                                             loading="lazy"
                                             sizes="80px"
-                                            className="object-cover"
+                                            imageClassName="object-cover"
+                                            locale={locale}
+                                            lightweight
                                         />
                                     </button>
                                 ))}
