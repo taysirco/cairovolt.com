@@ -21,7 +21,7 @@ const JUNK_PARAMS = ['sort', 'filter', 'min_price', 'max_price', 'fbclid', 'gcli
 const BOT_BLOCKED_PATHS = ['/checkout', '/cart', '/account'];
 
 // Paths that should always have noindex regardless of bot type
-const NOINDEX_PATHS = ['/admin', '/confirm', '/review/'];
+const NOINDEX_PATHS = ['/admin', '/confirm', '/review/', '/verify'];
 
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
@@ -34,6 +34,20 @@ export default function middleware(request: NextRequest) {
         /\.[a-zA-Z][a-zA-Z0-9]{1,5}$/.test(pathname)
     ) {
         return NextResponse.next();
+    }
+
+    // ── /verify bypass — standalone route, no i18n needed ──
+    if (pathname.startsWith('/verify')) {
+        const response = NextResponse.next();
+        response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+        return response;
+    }
+
+    // ── /admin bypass — internal staff pages, no i18n needed ──
+    if (pathname.startsWith('/admin')) {
+        const response = NextResponse.next();
+        response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+        return response;
     }
 
     // ── API Rate Limiting + CORS ──

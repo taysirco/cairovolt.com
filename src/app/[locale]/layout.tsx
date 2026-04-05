@@ -15,6 +15,7 @@ import InteractiveEffects from '@/components/UX/InteractiveEffects';
 
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 import ThemeWatcher from '@/components/ThemeWatcher';
+import PromoBanner from '@/components/content/PromoBanner';
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -183,6 +184,7 @@ export default async function RootLayout({
 
 
             <div className="flex flex-col min-h-screen w-full max-w-full overflow-x-hidden">
+              <PromoBanner />
               <Header />
               <main className="flex-grow w-full max-w-full overflow-x-hidden">
                 {children}
