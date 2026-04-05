@@ -412,12 +412,12 @@ function VerifyContent() {
 
                     <button
                         onClick={handleVerify}
-                        disabled={serial.length < 14 || isSubmitting}
                         style={{
                             ...styles.button,
                             ...styles.primaryBtn,
-                            opacity: serial.length < 14 ? 0.4 : 1,
-                            cursor: serial.length < 14 ? 'not-allowed' : 'pointer',
+                            opacity: serial.length < 14 || isSubmitting ? 0.4 : 1,
+                            cursor: serial.length < 14 || isSubmitting ? 'not-allowed' : 'pointer',
+                            pointerEvents: 'auto',
                         }}
                         id="verify-submit-btn"
                     >
