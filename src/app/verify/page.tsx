@@ -233,7 +233,7 @@ function VerifyContent() {
 
     // Submit verification
     const handleVerify = useCallback(async () => {
-        if (serial.length < 14 || isSubmitting) return;
+        if (serial.length < 13 || isSubmitting) return;
 
         setIsSubmitting(true);
         setError('');
@@ -383,7 +383,7 @@ function VerifyContent() {
                     <div style={{ marginBottom: 'clamp(10px, 2vw, 16px)' }}>
                         <input
                             type="text"
-                            maxLength={14}
+                            maxLength={13}
                             placeholder="CV-1XXXXXm313"
                             value={serial}
                             onChange={(e) => {
@@ -393,7 +393,7 @@ function VerifyContent() {
                             onFocus={() => gtagEvent('verify_input_focus')}
                             style={{
                                 ...styles.input,
-                                borderColor: error ? '#ef4444' : serial.length >= 14 ? '#10b981' : '#3f3f46',
+                                borderColor: error ? '#ef4444' : serial.length >= 13 ? '#10b981' : '#3f3f46',
                             }}
                             autoComplete="off"
                             autoFocus={!serialFromQR}
@@ -415,8 +415,8 @@ function VerifyContent() {
                         style={{
                             ...styles.button,
                             ...styles.primaryBtn,
-                            opacity: serial.length < 14 || isSubmitting ? 0.4 : 1,
-                            cursor: serial.length < 14 || isSubmitting ? 'not-allowed' : 'pointer',
+                            opacity: serial.length < 13 || isSubmitting ? 0.4 : 1,
+                            cursor: serial.length < 13 || isSubmitting ? 'not-allowed' : 'pointer',
                             pointerEvents: 'auto',
                         }}
                         id="verify-submit-btn"

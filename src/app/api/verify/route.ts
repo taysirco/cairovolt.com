@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
         // Normalize: any case combination → canonical CV-1XXXXXm313
         // Accepts: cv-1xxxxxm313, CV-1XXXXXM313, cV-1XxXxXM313, etc.
         const normalizeSerial = (s: string): string => {
-            if (s.length !== 14) return s;
+            if (s.length !== 13) return s;
             const variable = s.substring(4, 9).toUpperCase(); // 5 random chars → UPPERCASE
             return `CV-1${variable}m313`;
         };

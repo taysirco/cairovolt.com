@@ -24,7 +24,7 @@
 const SERIAL_PREFIX = 'CV-1';         // Fixed start fingerprint
 const SERIAL_SUFFIX = 'm313';         // Fixed end fingerprint  
 const RANDOM_LENGTH = 5;              // Variable portion length
-const FULL_SERIAL_LENGTH = SERIAL_PREFIX.length + RANDOM_LENGTH + SERIAL_SUFFIX.length; // 14
+const FULL_SERIAL_LENGTH = SERIAL_PREFIX.length + RANDOM_LENGTH + SERIAL_SUFFIX.length; // 13
 
 // Safe alphabet: 29 chars — no O/0/I/1/L to avoid visual confusion on printed cards
 const SAFE_ALPHABET = '23456789ABCDEFGHJKMNPQRSTUVWXYZ';
