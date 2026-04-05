@@ -2,9 +2,20 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-    title: 'CairoVolt — التحقق من أصالة المنتج',
-    description: 'نظام فحص الأصالة الجنائي من CairoVolt. تحقق من أن جهازك أصلي 100%.',
-    robots: { index: false, follow: false },
+    title: 'CairoVolt — نظام التحقق من أصالة المنتج | C2PA Authentication',
+    description: 'نظام الفحص الجنائي C2PA من CairoVolt. تحقق من أن جهازك أصلي 100% عبر مطابقة البصمة الجنائية مع قواعد بيانات CairoVolt العالمية. تفعيل الضمان الذهبي 14 يوماً.',
+    robots: { index: true, follow: true },
+    alternates: {
+        canonical: 'https://cairovolt.com/verify',
+    },
+    openGraph: {
+        title: 'CairoVolt — نظام التحقق من أصالة المنتج',
+        description: 'تحقق من أصالة جهازك وفعّل الضمان الذهبي عبر نظام الفحص الجنائي C2PA من CairoVolt.',
+        url: 'https://cairovolt.com/verify',
+        siteName: 'CairoVolt',
+        type: 'website',
+        locale: 'ar_EG',
+    },
     other: {
         'format-detection': 'telephone=no',
         'theme-color': '#09090b',

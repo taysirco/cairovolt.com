@@ -46,6 +46,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${baseUrl}/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date('2025-08-01') },
         { url: `${baseUrl}/en/privacy`, priority: 0.3, changeFrequency: 'yearly', lastModified: new Date('2025-08-01') },
 
+        // C2PA Product Verification System
+        { url: `${baseUrl}/verify`, priority: 0.8, changeFrequency: 'monthly', lastModified: new Date('2026-04-05') },
+
     ];
 
     // Dynamic Brand Pages - Strict Lowercase

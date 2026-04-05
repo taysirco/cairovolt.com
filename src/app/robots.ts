@@ -22,7 +22,6 @@ export default function robots(): MetadataRoute.Robots {
                     '/admin',
                     '/confirm',
                     '/review/',
-                    '/verify',
                     '/api/products',
                     '/api/categories',
                     '/api/orders',
@@ -53,7 +52,6 @@ export default function robots(): MetadataRoute.Robots {
                     '/admin',
                     '/confirm',
                     '/review/',
-                    '/verify',
                     '/api/',
                     '/wishlist',
                     '/*?*',                // Block all parameterized URLs
