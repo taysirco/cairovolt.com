@@ -5,15 +5,70 @@ import { useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 
 /* ──────────────────────────────────────────────────
-   GA4 Helper — fires events to the same property
+   Analytics Helpers — GA4 + TikTok Pixel
+   Robust: queues events if scripts haven't loaded yet
    ────────────────────────────────────────────────── */
-function gtagEvent(eventName: string, params: Record<string, string | number> = {}) {
-    if (typeof window !== 'undefined') {
-        const w = window as Window & { gtag?: (...args: unknown[]) => void };
-        if (typeof w.gtag === 'function') {
-            w.gtag('event', eventName, params);
-        }
+type WinWithAnalytics = Window & {
+    gtag?: (...args: unknown[]) => void;
+    dataLayer?: unknown[];
+    ttq?: { track: (event: string, params?: Record<string, unknown>) => void; page: () => void };
+};
+
+// Queue for events fired before gtag loads
+const _pendingEvents: Array<{ name: string; params: Record<string, string | number> }> = [];
+let _gtagReady = false;
+
+function _flushPendingEvents(w: WinWithAnalytics) {
+    while (_pendingEvents.length > 0) {
+        const ev = _pendingEvents.shift()!;
+        w.gtag!('event', ev.name, ev.params);
     }
+    _gtagReady = true;
+}
+
+function gtagEvent(eventName: string, params: Record<string, string | number> = {}) {
+    if (typeof window === 'undefined') return;
+    const w = window as WinWithAnalytics;
+
+    // ── GA4 ──
+    if (typeof w.gtag === 'function') {
+        if (!_gtagReady) _flushPendingEvents(w);
+        w.gtag('event', eventName, params);
+    } else {
+        // gtag hasn't loaded yet — queue it
+        _pendingEvents.push({ name: eventName, params });
+        // Also push to dataLayer directly (GTM picks this up even before gtag loads)
+        w.dataLayer = w.dataLayer || [];
+        w.dataLayer.push({ event: eventName, ...params });
+    }
+
+    // ── TikTok Pixel ──
+    if (w.ttq && typeof w.ttq.track === 'function') {
+        // Map our events to TikTok standard/custom events
+        const ttMap: Record<string, string> = {
+            verify_page_load: 'ViewContent',
+            verify_scan_start: 'Search',
+            verify_success: 'CompleteRegistration',
+            verify_whatsapp_share: 'Contact',
+            verify_gift_click: 'AddToCart',
+            verify_search_redirect: 'ClickButton',
+        };
+        const ttEvent = ttMap[eventName] || eventName;
+        w.ttq.track(ttEvent, { description: eventName, ...params });
+    }
+}
+
+// Retry flush when gtag becomes available (covers slow networks)
+if (typeof window !== 'undefined') {
+    const checkGtag = setInterval(() => {
+        const w = window as WinWithAnalytics;
+        if (typeof w.gtag === 'function' && !_gtagReady) {
+            _flushPendingEvents(w);
+            clearInterval(checkGtag);
+        }
+    }, 500);
+    // Stop checking after 10 seconds
+    setTimeout(() => clearInterval(checkGtag), 10000);
 }
 
 /* ──────────────────────────────────────────────────
@@ -223,6 +278,11 @@ function VerifyContent() {
                     } else {
                         setError(result.message || 'رقم السيريال غير صحيح.');
                         setStep(0);
+                        gtagEvent('verify_failed', {
+                            serial: serial,
+                            reason: result.message || 'invalid_serial',
+                            dwell_time: Math.round((Date.now() - startTimeRef.current) / 1000),
+                        });
                     }
                 }
             }
