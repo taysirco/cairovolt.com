@@ -353,7 +353,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     <div className="space-y-4 max-w-full min-w-0">
                         {/* Main Image */}
                         <div
-                            className="relative aspect-square max-h-[50vh] sm:max-h-[60vh] md:max-h-none mx-auto w-full bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
+                            className="relative aspect-square mx-auto w-full bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg"
                             onTouchStart={(e) => {
                                 const touch = e.touches[0];
                                 (e.currentTarget as HTMLDivElement).dataset.touchStartX = touch.clientX.toString();
@@ -413,7 +413,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 </div>
                             )}
 
-                            <div className="w-full h-full relative flex items-center justify-center p-3 sm:p-4">
+                            {/* Product Image — full-bleed, fills container edge-to-edge */}
+                            <div className="w-full h-full relative">
                                 {primaryImage ? (
                                     <ProductImage
                                         src={primaryImage}
@@ -425,12 +426,12 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         fill
                                         priority
                                         sizes="(max-width: 768px) 100vw, 50vw"
-                                        imageClassName="object-contain p-2 transition-transform hover:scale-105"
+                                        imageClassName="object-cover transition-transform hover:scale-105"
                                         isPrimary
                                         locale={locale}
                                     />
                                 ) : (
-                                    <div className={`text-8xl font-bold bg-gradient-to-br ${brand === 'anker' ? 'from-blue-400 to-blue-600' : 'from-red-400 to-red-600'} bg-clip-text text-transparent`}>
+                                    <div className={`w-full h-full flex items-center justify-center text-8xl font-bold bg-gradient-to-br ${brand === 'anker' ? 'from-blue-400 to-blue-600' : 'from-red-400 to-red-600'} bg-clip-text text-transparent`}>
                                         {brand.charAt(0).toUpperCase()}
                                     </div>
                                 )}
