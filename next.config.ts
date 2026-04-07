@@ -12,6 +12,10 @@ const nextConfig = {
     images: {
         formats: ['image/avif', 'image/webp'] as any,
         minimumCacheTTL: 31536000,
+        // Optimized breakpoints — match actual device widths to avoid oversized images
+        deviceSizes: [360, 414, 640, 750, 828, 1080, 1200, 1920],
+        // Thumbnail sizes for gallery thumbnails and listing cards
+        imageSizes: [64, 80, 96, 128, 256, 384],
         remotePatterns: [
             {
                 protocol: 'https',
