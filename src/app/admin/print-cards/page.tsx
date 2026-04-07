@@ -4,12 +4,23 @@ import { useState, useCallback, useRef } from 'react';
 
 const API_KEY = 'cv-serials-dev-key-2026';
 
+/* ── Auth Credentials (simple client-side gate) ── */
+const ADMIN_USER = 'admin123';
+const ADMIN_PASS = 'ABMabm2122@@';
+
 interface GeneratedSerial {
     code: string;
     url: string;
 }
 
 export default function PrintCardsPage() {
+    /* ── Auth State ── */
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [authUser, setAuthUser] = useState('');
+    const [authPass, setAuthPass] = useState('');
+    const [authError, setAuthError] = useState('');
+
+    /* ── Main page hooks (must be before any return) ── */
     const [count, setCount] = useState(10);
     const [isGenerating, setIsGenerating] = useState(false);
     const [generatedSerials, setGeneratedSerials] = useState<GeneratedSerial[]>([]);
@@ -52,6 +63,163 @@ export default function PrintCardsPage() {
         setShowPrint(true);
         setTimeout(() => window.print(), 600);
     }, []);
+
+    const handleLogin = () => {
+        if (authUser === ADMIN_USER && authPass === ADMIN_PASS) {
+            setIsAuthenticated(true);
+            setAuthError('');
+        } else {
+            setAuthError('اسم المستخدم أو كلمة المرور غير صحيحة');
+        }
+    };
+
+    /* ── If not authenticated, show login ── */
+    if (!isAuthenticated) {
+        return (
+            <div style={{
+                minHeight: '100vh',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                background: '#09090b',
+                padding: '20px',
+            }}>
+                <div style={{
+                    background: '#18181b',
+                    borderRadius: '16px',
+                    padding: 'clamp(24px, 5vw, 40px)',
+                    width: '100%',
+                    maxWidth: '400px',
+                    border: '1px solid #27272a',
+                    boxShadow: '0 25px 50px rgba(0,0,0,0.5)',
+                }}>
+                    <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+                        <div style={{
+                            fontSize: '40px',
+                            marginBottom: '8px',
+                        }}>🔐</div>
+                        <h1 style={{
+                            fontSize: '20px',
+                            fontWeight: 800,
+                            color: '#fafafa',
+                            margin: '0 0 4px',
+                        }}>
+                            CairoVolt Admin
+                        </h1>
+                        <p style={{
+                            fontSize: '13px',
+                            color: '#71717a',
+                            margin: 0,
+                        }}>
+                            سجّل الدخول للوصول إلى لوحة إعداد الشحنات
+                        </p>
+                    </div>
+
+                    <div style={{ marginBottom: '14px' }}>
+                        <label style={{ fontSize: '12px', color: '#a1a1aa', display: 'block', marginBottom: '6px' }}>
+                            اسم المستخدم
+                        </label>
+                        <input
+                            type="text"
+                            value={authUser}
+                            onChange={(e) => { setAuthUser(e.target.value); setAuthError(''); }}
+                            onKeyDown={(e) => e.key === 'Enter' && handleLogin()}
+                            placeholder="Username"
+                            autoComplete="username"
+                            autoFocus
+                            style={{
+                                width: '100%',
+                                padding: '12px 14px',
+                                background: '#09090b',
+                                border: '1px solid #3f3f46',
+                                borderRadius: '10px',
+                                color: '#fafafa',
+                                fontSize: '15px',
+                                fontFamily: "'Outfit', monospace",
+                                outline: 'none',
+                                boxSizing: 'border-box',
+                                transition: 'border-color 0.2s',
+                            }}
+                        />
+                    </div>
+
+                    <div style={{ marginBottom: '20px' }}>
+                        <label style={{ fontSize: '12px', color: '#a1a1aa', display: 'block', marginBottom: '6px' }}>
+                            كلمة المرور
+                        </label>
+                        <input
+                            type="password"
+                            value={authPass}
+                            onChange={(e) => { setAuthPass(e.target.value); setAuthError(''); }}
+                            onKeyDown={(e) => e.key === 'Enter' && handleLogin()}
+                            placeholder="Password"
+                            autoComplete="current-password"
+                            style={{
+                                width: '100%',
+                                padding: '12px 14px',
+                                background: '#09090b',
+                                border: '1px solid #3f3f46',
+                                borderRadius: '10px',
+                                color: '#fafafa',
+                                fontSize: '15px',
+                                fontFamily: "'Outfit', monospace",
+                                outline: 'none',
+                                boxSizing: 'border-box',
+                                transition: 'border-color 0.2s',
+                            }}
+                        />
+                    </div>
+
+                    {authError && (
+                        <p style={{
+                            fontSize: '13px',
+                            color: '#fca5a5',
+                            margin: '0 0 14px',
+                            textAlign: 'center',
+                        }}>
+                            ❌ {authError}
+                        </p>
+                    )}
+
+                    <button
+                        onClick={handleLogin}
+                        style={{
+                            width: '100%',
+                            padding: '14px',
+                            background: 'linear-gradient(135deg, #059669, #10b981)',
+                            color: '#fff',
+                            fontSize: '15px',
+                            fontWeight: 700,
+                            border: 'none',
+                            borderRadius: '10px',
+                            cursor: 'pointer',
+                            fontFamily: "'Cairo', sans-serif",
+                            transition: 'opacity 0.2s',
+                        }}
+                    >
+                        🔓 دخول
+                    </button>
+
+                    <p style={{
+                        fontSize: '10px',
+                        color: '#3f3f46',
+                        textAlign: 'center',
+                        margin: '16px 0 0',
+                    }}>
+                        ⚡ CAIROVOLT INTERNAL SYSTEM
+                    </p>
+                </div>
+
+                <style>{`
+                    input:focus { border-color: #10b981 !important; box-shadow: 0 0 0 3px rgba(16,185,129,0.15); }
+                    button:hover { opacity: 0.9; }
+                    button:active { transform: scale(0.98); }
+                `}</style>
+            </div>
+        );
+    }
+
+    /* ── Main page content (after auth) ── */
 
     const qrUrl = (url: string) =>
         `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(url)}&color=000000&bgcolor=ffffff&margin=1`;
