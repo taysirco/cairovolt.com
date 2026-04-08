@@ -649,7 +649,7 @@ function VerifyContent() {
                             style={{ ...styles.button, ...styles.giftBtn }}
                             id="verify-gift-btn"
                         >
-                            🎁 هدية التوثيق — خصم 15% على طلبك الأول
+                            🎁 هدية التوثيق — خصم 10% على طلبك الأول
                         </button>
 
                         <button
@@ -685,7 +685,7 @@ function VerifyContent() {
                         fontSize: 'clamp(18px, 5vw, 22px)', fontWeight: 800, color: '#fafafa',
                         margin: '0 0 6px',
                     }}>
-                        كود خصم 15% على طلبك الأول
+                        كود خصم 10% على طلبك الأول
                     </h2>
 
                     <p style={{

@@ -88,7 +88,7 @@ function convertArabicToEnglish(str: string): string {
 
 // ═══════════ Coupon System ═══════════
 const VALID_COUPONS: Record<string, { discount: number; label: string; labelEn: string }> = {
-    'ORIGINAL25': { discount: 0.15, label: 'خصم 15% — هدية التوثيق', labelEn: '15% Off — Verification Gift' },
+    'ORIGINAL25': { discount: 0.10, label: 'خصم 10% — هدية التوثيق', labelEn: '10% Off — Verification Gift' },
 };
 
 export default function CheckoutPage() {
@@ -260,7 +260,7 @@ export default function CheckoutPage() {
             // Coupon data
             couponCode: couponCode || null,
             couponDiscount: discountAmount, // Absolute discount value in EGP
-            couponPercent: couponDiscount, // Discount rate (0.15 = 15%)
+            couponPercent: couponDiscount, // Discount rate (0.10 = 10%)
         };
 
         try {

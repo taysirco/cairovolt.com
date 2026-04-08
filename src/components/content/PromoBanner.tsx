@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
  * ONLY when the visitor has completed the C2PA verification
  * (detected via localStorage flag or utm_campaign=c2pa).
  * 
- * The ORIGINAL25 code gives 15% discount — validated in checkout page + server-side in orders API.
+ * The ORIGINAL25 code gives 10% discount — validated in checkout page + server-side in orders API.
  */
 export default function PromoBanner() {
     const [visible, setVisible] = useState(false);
@@ -103,7 +103,7 @@ export default function PromoBanner() {
                 >
                     ORIGINAL25
                 </span>
-                <span>— خصم 15% على طلبك الأول</span>
+                <span>— خصم 10% على طلبك الأول</span>
                 {countdown && (
                     <span className="text-xs bg-black/20 text-white px-2 py-0.5 rounded-full">
                         ⏰ ينتهي خلال {countdown}

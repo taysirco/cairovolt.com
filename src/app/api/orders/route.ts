@@ -8,7 +8,7 @@ import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 
 // ═══════════ Server-side Coupon Validation ═══════════
 const SERVER_VALID_COUPONS: Record<string, number> = {
-    'ORIGINAL25': 0.15, // 15% discount
+    'ORIGINAL25': 0.10, // 10% discount
 };
 
 // Defense-in-depth: sanitize user-submitted text before storing
