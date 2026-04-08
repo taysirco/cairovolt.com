@@ -88,7 +88,7 @@ function convertArabicToEnglish(str: string): string {
 
 // ═══════════ Coupon System ═══════════
 const VALID_COUPONS: Record<string, { discount: number; label: string; labelEn: string }> = {
-    'ORIGINAL25': { discount: 0.10, label: 'خصم 10% — هدية التوثيق', labelEn: '10% Off — Verification Gift' },
+    'ORIGINAL10': { discount: 0.10, label: 'خصم 10% — هدية التوثيق', labelEn: '10% Off — Verification Gift' },
 };
 
 export default function CheckoutPage() {
@@ -120,7 +120,7 @@ export default function CheckoutPage() {
             const fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
             if (fromVerify && !couponCode) {
                 // Auto-apply the coupon silently
-                const code = 'ORIGINAL25';
+                const code = 'ORIGINAL10';
                 const coupon = VALID_COUPONS[code];
                 if (coupon) {
                     setCouponInput(code);

@@ -3,13 +3,13 @@
 import { useState, useEffect } from 'react';
 
 /**
- * PromoBanner — ORIGINAL25 Display Banner
+ * PromoBanner — ORIGINAL10 Display Banner
  * 
  * Shows a gold promo banner at the top of the main site
  * ONLY when the visitor has completed the C2PA verification
  * (detected via localStorage flag or utm_campaign=c2pa).
  * 
- * The ORIGINAL25 code gives 10% discount — validated in checkout page + server-side in orders API.
+ * The ORIGINAL10 code gives 10% discount — validated in checkout page + server-side in orders API.
  */
 export default function PromoBanner() {
     const [visible, setVisible] = useState(false);
@@ -37,7 +37,7 @@ export default function PromoBanner() {
             if (typeof (window as any).gtag === 'function') {
                 (window as any).gtag('event', 'promo_banner_shown', {
                     source: isFromC2PA ? 'utm_c2pa' : 'localStorage',
-                    promo_code: 'ORIGINAL25',
+                    promo_code: 'ORIGINAL10',
                 });
             }
         }
@@ -101,7 +101,7 @@ export default function PromoBanner() {
                     className="inline-block px-3 py-0.5 bg-black text-yellow-400 rounded-md font-mono text-base tracking-wider"
                     style={{ fontFamily: "'Outfit', monospace" }}
                 >
-                    ORIGINAL25
+                    ORIGINAL10
                 </span>
                 <span>— خصم 10% على طلبك الأول</span>
                 {countdown && (
