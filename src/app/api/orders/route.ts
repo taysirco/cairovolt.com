@@ -65,32 +65,48 @@ export async function POST(req: NextRequest) {
             cityLabel: sanitizeInput(data.cityLabel, 50) || null,
             items: Array.isArray(data.items) ? data.items.slice(0, 20) : [], // Cap at 20 items
             totalAmount: typeof data.totalAmount === 'number' ? data.totalAmount : 0,
-            // ═══ Coupon: Server-side re-validation (defense-in-depth) ═══
             couponCode: null as string | null,
             couponDiscount: 0,
-            subtotalBeforeDiscount: typeof data.subtotal === 'number' ? data.subtotal : 0,
+            subtotalBeforeDiscount: 0,
             status: 'pending',
             paymentMethod: 'cod',
             createdAt: FieldValue.serverTimestamp(),
             updatedAt: FieldValue.serverTimestamp(),
         };
 
+        // ═══ Server-side price calculation — NEVER trust client values ═══
+        // Calculate true subtotal from items (source of truth)
+        const serverSubtotal = Array.isArray(data.items)
+            ? data.items.slice(0, 20).reduce((sum: number, item: any) => {
+                const price = typeof item.price === 'number' ? item.price : 0;
+                const qty = typeof item.quantity === 'number' ? item.quantity : 1;
+                return sum + (price * qty);
+            }, 0)
+            : 0;
+
+        orderData.subtotalBeforeDiscount = serverSubtotal;
+
         // Server-side coupon verification — never trust client-side calculations
         if (data.couponCode && typeof data.couponCode === 'string') {
             const code = data.couponCode.trim().toUpperCase();
             const serverRate = SERVER_VALID_COUPONS[code];
             if (serverRate) {
-                const subtotal = typeof data.subtotal === 'number' ? data.subtotal : 0;
-                const serverDiscount = Math.round(subtotal * serverRate);
-                const subtotalAfterDiscount = subtotal - serverDiscount;
+                const serverDiscount = Math.round(serverSubtotal * serverRate);
+                const subtotalAfterDiscount = serverSubtotal - serverDiscount;
                 const shipping = subtotalAfterDiscount >= 1350 ? 0 : 40;
-                const recalculatedTotal = subtotalAfterDiscount + shipping;
 
                 orderData.couponCode = code;
                 orderData.couponDiscount = serverDiscount;
-                orderData.totalAmount = recalculatedTotal;
+                orderData.totalAmount = subtotalAfterDiscount + shipping;
+            } else {
+                // Invalid coupon code — recalculate total without discount
+                const shipping = serverSubtotal >= 1350 ? 0 : 40;
+                orderData.totalAmount = serverSubtotal + shipping;
             }
-            // If invalid coupon, silently ignore — orderData keeps totalAmount from client
+        } else {
+            // No coupon — recalculate total from server subtotal
+            const shipping = serverSubtotal >= 1350 ? 0 : 40;
+            orderData.totalAmount = serverSubtotal + shipping;
         }
 
         const docRef = await db.collection('orders').add(orderData);
@@ -115,7 +131,7 @@ export async function POST(req: NextRequest) {
                 await sendTtqOrderEvent(
                     orderId,
                     Array.isArray(data.items) ? data.items.slice(0, 20) : [],
-                    typeof data.totalAmount === 'number' ? orderData.totalAmount : 0,
+                    orderData.totalAmount,
                     cleanPhone,
                     clientIp,
                     clientUA,
