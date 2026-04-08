@@ -407,14 +407,14 @@ export default function CheckoutPage() {
                         <div className="flex justify-between pt-2 text-sm text-gray-600 dark:text-gray-400">
                             <span>{isArabic ? 'الشحن' : 'Shipping'}</span>
                             <span className={shipping === 0 ? 'text-green-600 font-medium' : ''}>
-                                {(subtotalAfterDiscount >= 1350 ? 0 : 40) === 0 ? (isArabic ? 'مجاني ✅' : 'Free ✅') : `40 ${currency}`}
+                                {shipping === 0 ? (isArabic ? 'مجاني ✅' : 'Free ✅') : `40 ${currency}`}
                             </span>
                         </div>
 
                         {/* Final total */}
                         <div className="flex justify-between pt-4 mt-2 border-t-2 border-gray-300 dark:border-gray-600 text-lg font-bold">
                             <span>{isArabic ? 'الإجمالي' : 'Total'}</span>
-                            <span className="text-green-600">{(subtotalAfterDiscount + (subtotalAfterDiscount >= 1350 ? 0 : 40)).toLocaleString()} {currency}</span>
+                            <span className="text-green-600">{(subtotalAfterDiscount + shipping).toLocaleString()} {currency}</span>
                         </div>
 
                         <p className="text-sm text-gray-500 mt-2"><SvgIcon name="money" className="w-4 h-4 inline-block" /> {t('cashOnDelivery')}</p>

@@ -115,7 +115,7 @@ export async function POST(req: NextRequest) {
                 await sendTtqOrderEvent(
                     orderId,
                     Array.isArray(data.items) ? data.items.slice(0, 20) : [],
-                    typeof data.totalAmount === 'number' ? data.totalAmount : 0,
+                    typeof data.totalAmount === 'number' ? orderData.totalAmount : 0,
                     cleanPhone,
                     clientIp,
                     clientUA,
