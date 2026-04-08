@@ -9,8 +9,7 @@ import { useState, useEffect } from 'react';
  * ONLY when the visitor has completed the C2PA verification
  * (detected via localStorage flag or utm_campaign=c2pa).
  * 
- * This is display-only — the code doesn't connect to any discount system.
- * Its purpose is to confirm the visitor's return from Google Search (Return Visit signal).
+ * The ORIGINAL25 code gives 15% discount — validated in checkout page + server-side in orders API.
  */
 export default function PromoBanner() {
     const [visible, setVisible] = useState(false);
@@ -104,7 +103,7 @@ export default function PromoBanner() {
                 >
                     ORIGINAL25
                 </span>
-                <span>— خصم 25% على الكابل الأصلي</span>
+                <span>— خصم 15% على طلبك الأول</span>
                 {countdown && (
                     <span className="text-xs bg-black/20 text-white px-2 py-0.5 rounded-full">
                         ⏰ ينتهي خلال {countdown}

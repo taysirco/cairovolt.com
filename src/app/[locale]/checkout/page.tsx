@@ -86,6 +86,11 @@ function convertArabicToEnglish(str: string): string {
     return result;
 }
 
+// ═══════════ Coupon System ═══════════
+const VALID_COUPONS: Record<string, { discount: number; label: string; labelEn: string }> = {
+    'ORIGINAL25': { discount: 0.15, label: 'خصم 15% — هدية التوثيق', labelEn: '15% Off — Verification Gift' },
+};
+
 export default function CheckoutPage() {
     const t = useTranslations('Checkout');
     const tCommon = useTranslations('Common');
@@ -99,8 +104,69 @@ export default function CheckoutPage() {
     const [whatsapp, setWhatsapp] = useState('');
     const [directBuyProcessed, setDirectBuyProcessed] = useState(false);
 
+    // Coupon state
+    const [couponInput, setCouponInput] = useState('');
+    const [couponCode, setCouponCode] = useState<string | null>(null);
+    const [couponDiscount, setCouponDiscount] = useState(0);
+    const [couponLabel, setCouponLabel] = useState('');
+    const [couponError, setCouponError] = useState('');
+
     const governorates = isArabic ? GOVERNORATES.ar : GOVERNORATES.en;
     const currency = isArabic ? 'جنيه' : 'EGP';
+
+    // Auto-fill coupon from verify flow (localStorage)
+    useEffect(() => {
+        try {
+            const fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
+            if (fromVerify && !couponCode) {
+                // Auto-apply the coupon silently
+                const code = 'ORIGINAL25';
+                const coupon = VALID_COUPONS[code];
+                if (coupon) {
+                    setCouponInput(code);
+                    setCouponCode(code);
+                    setCouponDiscount(coupon.discount);
+                    setCouponLabel(isArabic ? coupon.label : coupon.labelEn);
+                }
+            }
+        } catch { /* private browsing */ }
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+    // Coupon handlers
+    const handleApplyCoupon = () => {
+        setCouponError('');
+        const code = couponInput.trim().toUpperCase();
+        if (!code) return;
+        const coupon = VALID_COUPONS[code];
+        if (coupon) {
+            setCouponCode(code);
+            setCouponDiscount(coupon.discount);
+            setCouponLabel(isArabic ? coupon.label : coupon.labelEn);
+            setCouponError('');
+            // GA4 event
+            if (typeof (window as any).gtag === 'function') {
+                (window as any).gtag('event', 'coupon_applied', { coupon_code: code, discount: coupon.discount });
+            }
+        } else {
+            setCouponCode(null);
+            setCouponDiscount(0);
+            setCouponLabel('');
+            setCouponError(isArabic ? 'كود الخصم غير صالح' : 'Invalid coupon code');
+        }
+    };
+
+    const handleRemoveCoupon = () => {
+        setCouponCode(null);
+        setCouponDiscount(0);
+        setCouponLabel('');
+        setCouponInput('');
+        setCouponError('');
+    };
+
+    // Calculated amounts
+    const discountAmount = couponCode ? Math.round(totalAmount * couponDiscount) : 0;
+    const subtotalAfterDiscount = totalAmount - discountAmount;
+    const shipping = subtotalAfterDiscount >= 1350 ? 0 : 40;
 
     // Direct Buy URL support: ?add_sku=XXX (for BuyAction schema / M2M Commerce)
     useEffect(() => {
@@ -177,8 +243,7 @@ export default function CheckoutPage() {
 
         const formData = new FormData(event.currentTarget);
 
-        const shipping = totalAmount >= 1350 ? 0 : 40;
-        const finalTotal = totalAmount + shipping;
+        const finalTotal = subtotalAfterDiscount + shipping;
         const city = formData.get('city') as string;
         const cityLabel = governorates.find(g => g.value === city)?.label || city;
 
@@ -191,7 +256,11 @@ export default function CheckoutPage() {
             cityLabel: cityLabel,
             items: cartItems,
             totalAmount: finalTotal, // Send final total including shipping
-            subtotal: totalAmount, // Keep track of subtotal
+            subtotal: totalAmount, // Original subtotal before discount
+            // Coupon data
+            couponCode: couponCode || null,
+            couponDiscount: discountAmount, // Absolute discount value in EGP
+            couponPercent: couponDiscount, // Discount rate (0.15 = 15%)
         };
 
         try {
@@ -216,8 +285,11 @@ export default function CheckoutPage() {
                 cityLabel: cityLabel,
                 items: cartItems,
                 subtotal: totalAmount,
-                shipping: totalAmount >= 1350 ? 0 : 40,
-                total: totalAmount >= 1350 ? totalAmount : totalAmount + 40,
+                couponCode: couponCode || null,
+                couponDiscount: discountAmount,
+                subtotalAfterDiscount: subtotalAfterDiscount,
+                shipping: shipping,
+                total: finalTotal,
                 orderDate: new Date().toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
                     year: 'numeric',
                     month: 'long',
@@ -261,10 +333,90 @@ export default function CheckoutPage() {
                                 <span className="font-bold">{item.price * item.quantity} {currency}</span>
                             </div>
                         ))}
-                        <div className="flex justify-between pt-4 text-lg font-bold">
-                            <span>{tCommon('items')}</span>
-                            <span className="text-green-600">{totalAmount} {currency}</span>
+
+                        {/* Subtotal */}
+                        <div className="flex justify-between pt-4 text-sm text-gray-600 dark:text-gray-400">
+                            <span>{isArabic ? 'المجموع الفرعي' : 'Subtotal'}</span>
+                            <span>{totalAmount.toLocaleString()} {currency}</span>
                         </div>
+
+                        {/* ═══ Coupon Input Section ═══ */}
+                        <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                            {!couponCode ? (
+                                <div>
+                                    <label className="block text-sm font-medium mb-2">
+                                        🏷️ {isArabic ? 'كود الخصم' : 'Coupon Code'}
+                                    </label>
+                                    <div className="flex gap-2">
+                                        <input
+                                            type="text"
+                                            value={couponInput}
+                                            onChange={(e) => { setCouponInput(e.target.value.toUpperCase()); setCouponError(''); }}
+                                            onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), handleApplyCoupon())}
+                                            placeholder={isArabic ? 'أدخل كود الخصم' : 'Enter coupon code'}
+                                            className="flex-1 border rounded-lg p-2.5 text-sm dark:bg-gray-700 dark:border-gray-600 font-mono tracking-wider text-center"
+                                            dir="ltr"
+                                            id="coupon-input"
+                                            autoComplete="off"
+                                        />
+                                        <button
+                                            type="button"
+                                            onClick={handleApplyCoupon}
+                                            className="px-5 py-2.5 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg transition-colors text-sm whitespace-nowrap"
+                                            id="coupon-apply-btn"
+                                        >
+                                            {isArabic ? 'تطبيق' : 'Apply'}
+                                        </button>
+                                    </div>
+                                    {couponError && (
+                                        <p className="text-red-500 text-xs mt-2 animate-pulse">
+                                            ❌ {couponError}
+                                        </p>
+                                    )}
+                                </div>
+                            ) : (
+                                <div className="flex items-center justify-between bg-green-50 dark:bg-green-900/20 p-3 rounded-lg border border-green-200 dark:border-green-800">
+                                    <div className="flex items-center gap-2">
+                                        <span className="text-green-600 text-lg">✅</span>
+                                        <div>
+                                            <p className="text-sm font-bold text-green-700 dark:text-green-400 font-mono">{couponCode}</p>
+                                            <p className="text-xs text-green-600 dark:text-green-500">{couponLabel}</p>
+                                        </div>
+                                    </div>
+                                    <button
+                                        type="button"
+                                        onClick={handleRemoveCoupon}
+                                        className="text-red-400 hover:text-red-600 text-xs font-medium transition-colors"
+                                        id="coupon-remove-btn"
+                                    >
+                                        {isArabic ? 'إزالة' : 'Remove'}
+                                    </button>
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Discount line */}
+                        {couponCode && discountAmount > 0 && (
+                            <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
+                                <span>🎁 {isArabic ? `خصم ${Math.round(couponDiscount * 100)}%` : `${Math.round(couponDiscount * 100)}% Discount`}</span>
+                                <span>- {discountAmount.toLocaleString()} {currency}</span>
+                            </div>
+                        )}
+
+                        {/* Shipping line */}
+                        <div className="flex justify-between pt-2 text-sm text-gray-600 dark:text-gray-400">
+                            <span>{isArabic ? 'الشحن' : 'Shipping'}</span>
+                            <span className={shipping === 0 ? 'text-green-600 font-medium' : ''}>
+                                {(subtotalAfterDiscount >= 1350 ? 0 : 40) === 0 ? (isArabic ? 'مجاني ✅' : 'Free ✅') : `40 ${currency}`}
+                            </span>
+                        </div>
+
+                        {/* Final total */}
+                        <div className="flex justify-between pt-4 mt-2 border-t-2 border-gray-300 dark:border-gray-600 text-lg font-bold">
+                            <span>{isArabic ? 'الإجمالي' : 'Total'}</span>
+                            <span className="text-green-600">{(subtotalAfterDiscount + (subtotalAfterDiscount >= 1350 ? 0 : 40)).toLocaleString()} {currency}</span>
+                        </div>
+
                         <p className="text-sm text-gray-500 mt-2"><SvgIcon name="money" className="w-4 h-4 inline-block" /> {t('cashOnDelivery')}</p>
                     </div>
 

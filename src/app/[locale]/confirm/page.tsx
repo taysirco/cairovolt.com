@@ -26,6 +26,9 @@ interface OrderData {
     cityLabel: string;
     items: OrderItem[];
     subtotal: number;
+    couponCode?: string | null;
+    couponDiscount?: number;
+    subtotalAfterDiscount?: number;
     shipping: number;
     total: number;
     orderDate: string;
@@ -297,6 +300,15 @@ function ConfirmContent() {
                             <span>{isArabic ? 'المجموع الفرعي' : 'Subtotal'}</span>
                             <span>{orderData.subtotal.toLocaleString()} {currency}</span>
                         </div>
+                        {/* Coupon discount line */}
+                        {orderData.couponCode && orderData.couponDiscount && orderData.couponDiscount > 0 && (
+                            <div className="flex justify-between text-green-600 font-medium">
+                                <span className="flex items-center gap-1">
+                                    🎁 {isArabic ? `كوبون ${orderData.couponCode}` : `Coupon ${orderData.couponCode}`}
+                                </span>
+                                <span>- {orderData.couponDiscount.toLocaleString()} {currency}</span>
+                            </div>
+                        )}
                         <div className="flex justify-between text-gray-600">
                             <span>{isArabic ? 'الشحن' : 'Shipping'}</span>
                             <span className={orderData.shipping === 0 ? 'text-green-600 font-medium' : ''}>

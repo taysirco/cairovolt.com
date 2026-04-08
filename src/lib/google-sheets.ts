@@ -39,6 +39,18 @@ async function getAuth() {
     }
 }
 
+// Build notes field with coupon info for Google Sheets
+function buildNotesField(orderData: any): string {
+    const parts: string[] = [`طلب من الموقع - ${orderData.items.length} منتج`];
+    if (orderData.couponCode) {
+        parts.push(`كوبون: ${orderData.couponCode} | خصم: ${orderData.couponDiscount} جنيه`);
+    }
+    if (orderData.source) {
+        parts.push(`المصدر: ${orderData.source}`);
+    }
+    return parts.join(' | ');
+}
+
 export async function appendOrderToSheet(orderData: any) {
     const SHEET_ID = process.env.GOOGLE_SHEET_ID;
     const auth = await getAuth();
@@ -68,7 +80,8 @@ export async function appendOrderToSheet(orderData: any) {
             'اسم المنتج': item.name,                                                      // K
             'سعر المنتج': item.price || 0,                                                 // L
             'الحالة': 'جديد',                                                              // M
-            'ملاحظات': idx === 0 ? `طلب من الموقع - ${orderData.items.length} منتج` : '', // N
+            'ملاحظات': idx === 0 ? buildNotesField(orderData) : '',                        // N
+            'كود الخصم': idx === 0 ? (orderData.couponCode || '') : '',                    // O
         }));
 
         await sheet.addRows(rows);

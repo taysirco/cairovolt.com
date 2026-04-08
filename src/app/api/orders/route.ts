@@ -6,6 +6,11 @@ import { appendOrderToSheet } from '@/lib/google-sheets';
 import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 
+// ═══════════ Server-side Coupon Validation ═══════════
+const SERVER_VALID_COUPONS: Record<string, number> = {
+    'ORIGINAL25': 0.15, // 15% discount
+};
+
 // Defense-in-depth: sanitize user-submitted text before storing
 function sanitizeInput(input: unknown, maxLength = 500): string {
     if (typeof input !== 'string') return '';
@@ -60,11 +65,33 @@ export async function POST(req: NextRequest) {
             cityLabel: sanitizeInput(data.cityLabel, 50) || null,
             items: Array.isArray(data.items) ? data.items.slice(0, 20) : [], // Cap at 20 items
             totalAmount: typeof data.totalAmount === 'number' ? data.totalAmount : 0,
+            // ═══ Coupon: Server-side re-validation (defense-in-depth) ═══
+            couponCode: null as string | null,
+            couponDiscount: 0,
+            subtotalBeforeDiscount: typeof data.subtotal === 'number' ? data.subtotal : 0,
             status: 'pending',
             paymentMethod: 'cod',
             createdAt: FieldValue.serverTimestamp(),
             updatedAt: FieldValue.serverTimestamp(),
         };
+
+        // Server-side coupon verification — never trust client-side calculations
+        if (data.couponCode && typeof data.couponCode === 'string') {
+            const code = data.couponCode.trim().toUpperCase();
+            const serverRate = SERVER_VALID_COUPONS[code];
+            if (serverRate) {
+                const subtotal = typeof data.subtotal === 'number' ? data.subtotal : 0;
+                const serverDiscount = Math.round(subtotal * serverRate);
+                const subtotalAfterDiscount = subtotal - serverDiscount;
+                const shipping = subtotalAfterDiscount >= 1350 ? 0 : 40;
+                const recalculatedTotal = subtotalAfterDiscount + shipping;
+
+                orderData.couponCode = code;
+                orderData.couponDiscount = serverDiscount;
+                orderData.totalAmount = recalculatedTotal;
+            }
+            // If invalid coupon, silently ignore — orderData keeps totalAmount from client
+        }
 
         const docRef = await db.collection('orders').add(orderData);
 
