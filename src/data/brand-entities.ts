@@ -381,6 +381,10 @@ export function getEntitiesForArticle(slug: string): { about: string[]; mentions
             about: ['cable', 'usbC', 'egypt'],
             mentions: ['anker', 'joyroom', 'cairovolt', 'usbPD', 'apple', 'samsung', 'fastCharging', 'cairo'],
         },
+        'protect-phone-from-heat-summer-egypt': {
+            about: ['lithiumIon', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'gan', 'usbC', 'usbPD', 'charger', 'powerBank', 'cable', 'apple', 'samsung', 'fastCharging', 'thermalRunaway', 'cairo', 'newCairo'],
+        },
     };
 
     return articleEntityMap[slug] || { about: ['egypt'], mentions: ['cairo'] };
