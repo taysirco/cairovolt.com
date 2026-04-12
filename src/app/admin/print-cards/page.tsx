@@ -224,21 +224,30 @@ export default function PrintCardsPage() {
     const qrUrl = (url: string) =>
         `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(url)}&color=000000&bgcolor=ffffff&margin=1`;
 
-    // Group cards into pages of 10
+    // Group cards into pages of 8
     const pages: GeneratedSerial[][] = [];
-    for (let i = 0; i < generatedSerials.length; i += 10) {
-        pages.push(generatedSerials.slice(i, i + 10));
+    for (let i = 0; i < generatedSerials.length; i += 8) {
+        pages.push(generatedSerials.slice(i, i + 8));
     }
 
     return (
         <>
             {/* ═══ Print Styles ═══ */}
             <style>{`
-                @page { size: A4 portrait; margin: 8mm; }
+                @page { 
+                    size: A4 portrait; 
+                    margin: 0; 
+                }
                 @media print {
                     .no-print { display: none !important; }
-                    .print-only { display: flex !important; }
-                    body { background: #fff !important; margin: 0; padding: 0; }
+                    .print-only { display: block !important; }
+                    body { 
+                        background: #fff !important; 
+                        margin: 0; 
+                        padding: 0; 
+                        -webkit-print-color-adjust: exact;
+                        print-color-adjust: exact;
+                    }
                 }
 
                 @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
@@ -471,8 +480,9 @@ export default function PrintCardsPage() {
                                     cursor: 'pointer',
                                     display: 'flex', alignItems: 'center', gap: '6px',
                                 }}
+                                title="اختر 'حفظ بتنسيق PDF' من نافذة الطباعة"
                             >
-                                🖨️ طباعة الكروت
+                                📄 تصدير PDF / طباعة
                             </button>
                         </div>
 
@@ -559,8 +569,11 @@ export default function PrintCardsPage() {
                                     cursor: 'pointer',
                                 }}
                             >
-                                🖨️ طباعة {generatedSerials.length} كارت — جاهزة للإرسال مع الشحنة
+                                📄 تصدير {generatedSerials.length} كارت كملف PDF
                             </button>
+                            <p style={{ fontSize: '12px', color: '#71717a', marginTop: '10px' }}>
+                                تلميح: في نافذة الطباعة، قم باختيار <strong>&quot;Save as PDF (حفظ بتنسيق PDF)&quot;</strong>
+                            </p>
                         </div>
                     </div>
                 )}
@@ -605,14 +618,17 @@ export default function PrintCardsPage() {
                         key={pageIdx}
                         style={{
                             width: '210mm',
-                            minHeight: '297mm',
-                            padding: '12mm 16mm',
-                            display: 'flex',
-                            flexWrap: 'wrap',
-                            gap: '4mm',
+                            height: '297mm', // Strict A4 height
+                            padding: '24mm 14mm', // Vertical and horizontal centering
+                            display: 'grid',
+                            gridTemplateColumns: '85.6mm 85.6mm',
+                            gridTemplateRows: 'repeat(4, 53.98mm)',
+                            gap: '10mm',
                             justifyContent: 'center',
-                            alignContent: 'flex-start',
+                            alignContent: 'center',
                             pageBreakAfter: 'always',
+                            pageBreakInside: 'avoid',
+                            boxSizing: 'border-box',
                             margin: '0 auto',
                         }}
                     >
@@ -732,7 +748,7 @@ export default function PrintCardsPage() {
                                     fontSize: '4pt', color: '#71717a',
                                     textAlign: 'center', direction: 'ltr',
                                 }}>
-                                    cairovolt.com | الضمان الذهبي
+                                    cairovolt.com
                                 </div>
                             </div>
                         ))}
