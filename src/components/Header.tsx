@@ -274,19 +274,19 @@ export default function Header() {
 
             {/* Mobile Menu */}
             <div
-                className={`fixed inset-0 z-40 lg:hidden transition-all duration-300 ${mobileMenuOpen ? 'visible' : 'invisible'
+                className={`fixed inset-0 z-40 lg:hidden ${mobileMenuOpen ? 'pointer-events-auto' : 'pointer-events-none'
                     }`}
             >
                 {/* Backdrop */}
                 <div
-                    className={`absolute inset-0 bg-black/50 transition-opacity ${mobileMenuOpen ? 'opacity-100' : 'opacity-0'
+                    className={`absolute inset-0 bg-black/50 transition-opacity duration-200 ${mobileMenuOpen ? 'opacity-100' : 'opacity-0'
                         }`}
                     onClick={() => setMobileMenuOpen(false)}
                 />
 
                 {/* Menu Panel */}
                 <div
-                    className={`absolute top-0 ${isRTL ? 'right-0' : 'left-0'} w-80 h-full bg-white dark:bg-gray-900 shadow-2xl transform transition-transform ${mobileMenuOpen
+                    className={`absolute top-0 ${isRTL ? 'right-0' : 'left-0'} w-80 h-full bg-white dark:bg-gray-900 shadow-2xl transition-transform duration-200 ease-out will-change-transform ${mobileMenuOpen
                         ? 'translate-x-0'
                         : isRTL ? 'translate-x-full' : '-translate-x-full'
                         }`}
