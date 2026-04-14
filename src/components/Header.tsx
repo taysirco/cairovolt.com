@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { InstantLink as Link } from '@/components/ui/InstantLink';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';

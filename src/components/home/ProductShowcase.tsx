@@ -2,7 +2,7 @@
 
 import React, { useState, useCallback } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { useCart } from '@/context/CartContext';
 import { productReviewsDb, calculateAggregateRating } from '@/data/product-reviews';

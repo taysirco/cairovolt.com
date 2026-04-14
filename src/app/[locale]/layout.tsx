@@ -12,6 +12,8 @@ import LazyClientComponents from '@/components/LazyClientComponents';
 import { GoogleAnalytics } from '@/components/content/GoogleAnalytics';
 import PrefetchHints from '@/components/content/PrefetchHints';
 import InteractiveEffects from '@/components/UX/InteractiveEffects';
+import ViewportPrefetch from '@/components/UX/ViewportPrefetch';
+import RouteIntelligence from '@/components/UX/RouteIntelligence';
 
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 import ThemeWatcher from '@/components/ThemeWatcher';
@@ -192,6 +194,8 @@ export default async function RootLayout({
               <Footer />
               <LazyClientComponents locale={locale} />
               <InteractiveEffects />
+              <ViewportPrefetch />
+              <RouteIntelligence />
             </div>
           </CartProvider>
         </NextIntlClientProvider>

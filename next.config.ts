@@ -33,8 +33,8 @@ const nextConfig = {
     },
     experimental: {
         staleTimes: {
-            dynamic: 60,
-            static: 300,
+            dynamic: 180,   // 3 min — RSC payloads stay cached longer in client router
+            static: 600,    // 10 min — static pages (about, faq, blog) cached longer
         },
     },
     async headers() {

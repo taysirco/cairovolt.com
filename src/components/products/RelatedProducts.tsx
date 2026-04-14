@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { useTranslations } from 'next-intl';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';

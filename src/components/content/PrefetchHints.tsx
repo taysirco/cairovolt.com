@@ -12,16 +12,20 @@ export default function PrefetchHints() {
     const rulesJson = {
         prerender: [
             {
-                // 🔥 EAGER prerender product pages — zero-latency navigation
-                // Chrome prerenders in background IMMEDIATELY when link is visible
+                // Product pages — prerender on hover/pointerdown (moderate)
+                // Previously "eager" which wasted bandwidth by prerending ALL visible product links.
+                // "moderate" activates on hover intent — still gives 0ms navigation for intentional clicks.
                 source: "document",
                 where: {
                     and: [
                         { href_matches: "/*/*/*/*" }, // /locale/brand/category/slug
-                        { not: { href_matches: "/*/admin/*" } }
+                        { not: { href_matches: "/*/admin/*" } },
+                        { not: { href_matches: "/*/checkout*" } },
+                        { not: { href_matches: "/*/confirm*" } },
+                        { not: { href_matches: "/*/verify*" } }
                     ]
                 },
-                eagerness: "eager" // Prerender immediately, not just on hover
+                eagerness: "moderate" // Prerender on hover — saves ~2-5MB bandwidth vs eager
             },
             {
                 // Governorate location pages — prerender on hover
@@ -37,16 +41,19 @@ export default function PrefetchHints() {
         ],
         prefetch: [
             {
-                // Category and brand hubs — prefetch on hover (upgraded from conservative)
+                // Category and brand hubs — prefetch eagerly (lightweight RSC payloads)
+                // These pages are small and frequently accessed from any product page.
                 source: "document",
                 where: {
                     and: [
                         { href_matches: "/*/*" }, // /locale/brand or /locale/brand/category
                         { not: { href_matches: "/*/admin/*" } },
+                        { not: { href_matches: "/*/checkout*" } },
+                        { not: { href_matches: "/*/confirm*" } },
                         { not: { href_matches: "/*/*/*/*" } } // Don't duplicate product rules
                     ]
                 },
-                eagerness: "moderate" // Prefetch on hover instead of click intent
+                eagerness: "eager" // Prefetch immediately — category pages are small
             }
         ]
     };

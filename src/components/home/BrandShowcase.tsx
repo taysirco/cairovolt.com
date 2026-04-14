@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
+import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 interface BrandShowcaseProps {
