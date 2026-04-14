@@ -20,16 +20,16 @@ interface HeroProduct {
 
 const heroProducts: HeroProduct[] = [
   {
-    slug: 'anker-zolo-a110e-20000',
-    name: { en: 'Anker ZOLO 20,000mAh', ar: 'أنكر زولو 20,000' },
-    tagline: { en: '22.5W Fast Charge · Built-in Cable · 4x iPhone', ar: '22.5 واط شحن سريع · كابل مدمج · 4 شحنات ايفون' },
-    image: '/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt.webp',
-    price: 1730,
-    originalPrice: 1950,
+    slug: 'anker-zolo-a110d-10000',
+    name: { en: 'Anker ZOLO 10,000mAh', ar: 'أنكر زولو 10,000' },
+    tagline: { en: '22.5W Fast Charge · Built-in Cable · Ultra-Slim 229g', ar: '22.5 واط شحن سريع · كابل مدمج · خفيف 229 جرام' },
+    image: '/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-power-bank-builtin-usb-c-cable-led-display-cairovolt.webp',
+    price: 1270,
+    originalPrice: 1390,
     brand: 'Anker',
     badge: { en: 'Best Seller', ar: 'الأكثر مبيعاً' },
-    href: '/anker/power-banks/anker-zolo-a110e-20000',
-    highlight: { en: '4x iPhone charges', ar: '4 شحنات ايفون' },
+    href: '/anker/power-banks/anker-zolo-a110d-10000',
+    highlight: { en: '2x iPhone charges', ar: 'شحنتين ايفون' },
   },
   {
     slug: 'anker-soundcore-r50i-nc',

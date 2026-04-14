@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "CairoVolt Authenticator - فاحص C2PA",
+    "description": "اسم الإضافة المعروض في متجر Chrome"
+  },
+  "extensionDescription": {
+    "message": "تحقق من أصالة منتجات Anker و Joyroom فوراً عبر قاعدة بيانات كايرو فولت C2PA. فعّل ضمانك مع الموزع المعتمد الأول في مصر.",
+    "description": "وصف الإضافة المعروض في متجر Chrome"
+  }
+}

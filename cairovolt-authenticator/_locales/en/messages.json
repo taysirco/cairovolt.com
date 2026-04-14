@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "CairoVolt Authenticator - C2PA Verifier",
+    "description": "The name of the extension displayed in Chrome Web Store"
+  },
+  "extensionDescription": {
+    "message": "Verify Anker & Joyroom products via CairoVolt's C2PA database. Activate warranty instantly with Egypt's authorized distributor.",
+    "description": "The description of the extension displayed in Chrome Web Store"
+  }
+}
