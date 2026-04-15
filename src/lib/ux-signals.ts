@@ -90,7 +90,7 @@ let dwellAccumulated = 0;
 let dwellIsActive = true;
 let dwellMilestones = new Set<number>();
 
-function startDwellTimer(): void {
+function startDwellTimer(): () => void {
     dwellStartTime = Date.now();
     dwellAccumulated = 0;
     dwellIsActive = true;
@@ -148,13 +148,19 @@ function startDwellTimer(): void {
                 non_interaction: true,
             });
         }
-
-        clearInterval(intervalId);
     };
 
     // Use both events for maximum compatibility across browsers
     window.addEventListener('pagehide', handleUnload);
     window.addEventListener('beforeunload', handleUnload);
+
+    // Return cleanup function to prevent memory leaks on SPA navigation
+    return () => {
+        clearInterval(intervalId);
+        document.removeEventListener('visibilitychange', handleVisibility);
+        window.removeEventListener('pagehide', handleUnload);
+        window.removeEventListener('beforeunload', handleUnload);
+    };
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -549,7 +555,7 @@ export function initUXSignals(): () => void {
     firedEvents.clear();
 
     // Start all trackers
-    startDwellTimer();
+    const cleanupDwell = startDwellTimer();
     trackWebVitals();
     trackSessionQuality();
     const cleanupScroll = trackEnhancedScrollDepth();
@@ -569,6 +575,7 @@ export function initUXSignals(): () => void {
     });
 
     return () => {
+        cleanupDwell();
         cleanupScroll();
         cleanupClicks();
         cleanupContent();
