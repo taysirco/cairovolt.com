@@ -175,7 +175,7 @@ export function trackPurchase(
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// NavBoost handles: Copy Events, Scroll Depth, FAQ Toggles, and general engagement.
+// UX Metrics handles: Copy Events, Scroll Depth, FAQ Toggles, and general engagement.
 
 // ═════════════════════════════════════════════════════════════════════════════
 // CONTACT & CONVERSION EVENTS
@@ -213,7 +213,7 @@ export function trackEmailClick(): void {
 // UX INTERACTION EVENTS
 // ═════════════════════════════════════════════════════════════════════════════
 
-// Image tracking and variant tracking is handled automatically via NavBoostEngine.
+// Image tracking and variant tracking is handled automatically via UXMetricsEngine.
 
 /** Tracks invoice print actions after purchase. */
 export function trackPrintInvoice(orderId: string): void {
@@ -233,4 +233,4 @@ export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed' | '
     });
 }
 
-// Note: Global event listeners for Copy and FAQ are now handled by NavBoostEngine.
+// Note: Global event listeners for Copy and FAQ are now handled by UXMetricsEngine.

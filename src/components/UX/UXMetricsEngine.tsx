@@ -2,10 +2,10 @@
 
 import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
-import { initNavBoostSignals } from '@/lib/navboost-signals';
+import { initUXSignals } from '@/lib/ux-signals';
 
 /**
- * NavBoostEngine — Client Component for Google NavBoost Signal Amplification
+ * UXMetricsEngine — Client Component for Engagement Tracking
  * 
  * Renders null (zero DOM impact). All work is done via event listeners
  * and PerformanceObserver APIs.
@@ -20,7 +20,7 @@ import { initNavBoostSignals } from '@/lib/navboost-signals';
  * ✓ SSR (guarded with typeof window checks)
  * ✓ React Strict Mode (cleanup function prevents double-fire)
  */
-export default function NavBoostEngine() {
+export default function UXMetricsEngine() {
     const pathname = usePathname();
     const cleanupRef = useRef<(() => void) | null>(null);
 
@@ -30,7 +30,7 @@ export default function NavBoostEngine() {
 
         // Delay init slightly to let the page render first
         const timerId = setTimeout(() => {
-            cleanupRef.current = initNavBoostSignals();
+            cleanupRef.current = initUXSignals();
         }, 100);
 
         return () => {

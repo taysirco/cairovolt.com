@@ -14,7 +14,7 @@ import PrefetchHints from '@/components/content/PrefetchHints';
 import InteractiveEffects from '@/components/UX/InteractiveEffects';
 import ViewportPrefetch from '@/components/UX/ViewportPrefetch';
 import RouteIntelligence from '@/components/UX/RouteIntelligence';
-import NavBoostEngine from '@/components/UX/NavBoostEngine';
+import UXMetricsEngine from '@/components/UX/UXMetricsEngine';
 
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 import ThemeWatcher from '@/components/ThemeWatcher';
@@ -199,7 +199,7 @@ export default async function RootLayout({
               <InteractiveEffects />
               <ViewportPrefetch />
               <RouteIntelligence />
-              <NavBoostEngine />
+              <UXMetricsEngine />
             </div>
           </CartProvider>
         </NextIntlClientProvider>

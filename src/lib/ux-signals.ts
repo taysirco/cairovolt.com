@@ -1,25 +1,18 @@
 /**
- * NavBoost Signal Engine — Behavioral Analytics for Google Ranking
+ * UX Signal Engine — Deep Engagement Analytics
  * 
- * Google's NavBoost algorithm uses Chrome User Experience data to rank pages.
- * This module captures every meaningful user interaction and sends it to GA4,
- * which feeds into Google's behavioral ranking signals.
- * 
+ * This module captures every meaningful user interaction and sends it to GA4.
  * CRITICAL: All events use the standard GA4 gtag() API which works on ALL browsers
- * (Chrome, Safari, Firefox, Edge, Samsung Internet). Google correlates this data
- * with its own Chrome telemetry to build engagement profiles.
+ * (Chrome, Safari, Firefox, Edge, Samsung Internet).
  * 
  * Signals tracked:
- * 1. Dwell Time — cumulative active time on page (not just open-tab time)
+ * 1. Dwell Time — cumulative active time on page
  * 2. Scroll Depth — progressive 10/25/50/75/90/100% milestones
- * 3. Click Satisfaction — product card clicks, CTA engagement, no pogo-sticking
- * 4. Content Interaction — FAQ toggles, image gallery, tab switches
- * 5. Copy Events — clipboard copies of prices/phones/addresses (highest NavBoost weight)
- * 6. Web Vitals — LCP, INP, CLS sent to GA4 for cross-browser CrUX data
- * 7. Session Quality — pages per session, return visits, engagement rate
- * 8. Navigation Patterns — internal link clicks, category browsing depth
- * 
- * @see NavBoost patent: US Patent 8,661,029 (User behavior signals)
+ * 3. Click Satisfaction — product card clicks, CTA engagement
+ * 4. Content Interaction — image gallery, tab switches
+ * 5. Copy Events — clipboard copies of specific data
+ * 6. Web Vitals — LCP, INP, CLS
+ * 7. Session Quality — return visits, engagement rate
  */
 
 // ── gtag wrapper (reuses same pattern as analytics.ts) ──────────────────────
@@ -89,8 +82,7 @@ function once(key: string): boolean {
 
 // ═════════════════════════════════════════════════════════════════════════════
 // 1. DWELL TIME TRACKER
-// Measures ACTIVE time (not background tab time) — critical NavBoost signal.
-// Google distinguishes "long clicks" (satisfied) from "short clicks" (pogo-stick).
+// Measures ACTIVE time (not background tab time).
 // ═════════════════════════════════════════════════════════════════════════════
 
 let dwellStartTime = 0;
@@ -126,13 +118,13 @@ function startDwellTimer(): void {
         const total = dwellAccumulated + (Date.now() - dwellStartTime);
         const seconds = Math.floor(total / 1000);
 
-        // NavBoost milestones: 10s, 30s, 60s, 120s, 300s
+        // Engagement milestones: 10s, 30s, 60s, 120s, 300s
         const milestones = [10, 30, 60, 120, 300];
         for (const ms of milestones) {
             if (seconds >= ms && !dwellMilestones.has(ms)) {
                 dwellMilestones.add(ms);
                 idleDispatch('user_engagement', {
-                    event_category: 'navboost',
+                    event_category: 'ux_metrics',
                     engagement_type: 'dwell_time',
                     dwell_seconds: ms,
                     page_type: getPageType(),
@@ -149,7 +141,7 @@ function startDwellTimer(): void {
 
         if (seconds >= 2) { // Only send if user stayed > 2 seconds
             beaconDispatch('page_dwell_complete', {
-                event_category: 'navboost',
+                event_category: 'ux_metrics',
                 dwell_seconds: seconds,
                 page_type: getPageType(),
                 scroll_depth_final: getCurrentScrollDepth(),
@@ -186,7 +178,7 @@ function trackEnhancedScrollDepth(): () => void {
                 if (depth >= ms && !scrollMilestones.has(ms)) {
                     scrollMilestones.add(ms);
                     idleDispatch('scroll', {
-                        event_category: 'navboost',
+                        event_category: 'ux_metrics',
                         percent_scrolled: ms,
                         page_type: getPageType(),
                     });
@@ -218,7 +210,7 @@ function trackClickSatisfaction(): () => void {
         if (productLink) {
             const href = productLink.getAttribute('href') || '';
             idleDispatch('select_content', {
-                event_category: 'navboost',
+                event_category: 'ux_metrics',
                 content_type: 'product_card',
                 content_id: href.split('/').pop() || '',
                 page_type: getPageType(),
@@ -235,7 +227,7 @@ function trackClickSatisfaction(): () => void {
                         (ctaBtn as HTMLAnchorElement).href?.includes('checkout') ? 'checkout' : 'cta';
 
             idleDispatch('select_content', {
-                event_category: 'navboost',
+                event_category: 'ux_metrics',
                 content_type: 'cta_click',
                 cta_type: ctaType,
                 page_type: getPageType(),
@@ -250,7 +242,7 @@ function trackClickSatisfaction(): () => void {
             // Skip external links
             if (href.startsWith('/') || href.startsWith('#')) {
                 idleDispatch('select_content', {
-                    event_category: 'navboost',
+                    event_category: 'ux_metrics',
                     content_type: 'navigation',
                     event_label: href,
                 });
@@ -387,7 +379,7 @@ function trackSessionQuality(): void {
         for (const ms of depthMilestones) {
             if (current === ms) {
                 idleDispatch('session_quality', {
-                    event_category: 'navboost',
+                    event_category: 'ux_metrics',
                     pages_viewed: ms,
                     session_depth: ms >= 5 ? 'deep' : 'moderate',
                     non_interaction: true,
@@ -402,7 +394,7 @@ function trackSessionQuality(): void {
             localStorage.setItem(returnKey, String(visits + 1));
             if (visits > 0 && once('return_visitor')) {
                 idleDispatch('user_engagement', {
-                    event_category: 'navboost',
+                    event_category: 'ux_metrics',
                     engagement_type: 'return_visit',
                     visit_number: visits + 1,
                     non_interaction: true,
@@ -426,7 +418,7 @@ function trackContentInteractions(): () => void {
         const gallery = target.closest('[data-gallery], .product-gallery, figure[itemscope]');
         if (gallery && once(`img_interact_${window.location.pathname}`)) {
             idleDispatch('select_content', {
-                event_category: 'navboost',
+                event_category: 'ux_metrics',
                 content_type: 'image_interaction',
                 page_type: getPageType(),
             });
@@ -439,7 +431,7 @@ function trackContentInteractions(): () => void {
         const variant = target.closest('[data-variant], [role="tab"], [data-color]');
         if (variant) {
             idleDispatch('select_content', {
-                event_category: 'navboost',
+                event_category: 'ux_metrics',
                 content_type: 'variant_selection',
                 event_label: variant.textContent?.trim().slice(0, 50) || '',
             });
@@ -484,10 +476,10 @@ function getPageType(): string {
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// MAIN INIT — Called once from the NavBoost component
+// MAIN INIT — Called once from the UX Metrics component
 // ═════════════════════════════════════════════════════════════════════════════
 
-export function initNavBoostSignals(): () => void {
+export function initUXSignals(): () => void {
     // Reset per-page state
     scrollMilestones.clear();
     firedEvents.clear();

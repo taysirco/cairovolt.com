@@ -110,7 +110,7 @@ export default function InteractiveEffects() {
                     // Set data attribute for CSS-driven reveals
                     document.documentElement.setAttribute('data-scroll-depth', ms.toString());
 
-                    // Navigation signals tracker (NavBoost) now handles scroll depth metrics.
+                    // Navigation signals tracker (UX Metrics) now handles scroll depth metrics.
                     // We just keep the DOM layout adjustments here.
 
                     // At 75%+ depth: reveal additional content (if exists)
@@ -335,7 +335,7 @@ export default function InteractiveEffects() {
         document.addEventListener('mouseout', handleDesktopExitIntent as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
-        // NOTE: Copy and FAQ tracking are now handled by the dedicated NavBoostEngine
+        // NOTE: Copy and FAQ tracking are now handled by the dedicated UXMetricsEngine
 
         // Promo overlay click tracking
         const handleWhatsappCta = (e: Event) => {
@@ -450,7 +450,7 @@ export default function InteractiveEffects() {
                 });
             }
 
-            // Handled by NavBoost Engine now
+            // Handled by UX Metrics Engine now
 
             if (rafIdRef.current) {
                 cancelAnimationFrame(rafIdRef.current);
