@@ -138,6 +138,7 @@ html {
 
 .animate-social-ticker {
   animation: social-ticker 40s linear infinite;
+  will-change: transform; /* GPU-composited layer — prevents repaints */
 }
 
 .animate-social-ticker:hover {
@@ -158,6 +159,19 @@ html {
   background: linear-gradient(90deg, transparent 25%, rgba(255,255,255,0.05) 50%, transparent 75%);
   background-size: 200% 100%;
   animation: shimmer 2s ease-in-out infinite;
+}
+
+/* Accessibility: respect reduce-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .animate-social-ticker {
+    animation: none;
+  }
+  .animate-hero-float {
+    animation: none;
+  }
+  .animate-trust-pulse {
+    animation: none;
+  }
 }
 
 /* Authenticity guard overlay animations */

@@ -212,6 +212,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                   fill
                   className="object-cover"
                   priority
+                  fetchPriority="high"
                   sizes="(max-width: 640px) 90vw, (max-width: 1024px) 380px, 420px"
                 />
               </div>

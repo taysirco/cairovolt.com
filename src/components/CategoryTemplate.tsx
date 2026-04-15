@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useMemo, useState, useTransition } from 'react';
 import { ProductImage } from '@/components/ui/ProductImage';

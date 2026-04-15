@@ -113,6 +113,12 @@ const nextConfig = {
                         key: 'X-DNS-Prefetch-Control',
                         value: 'on',
                     },
+                    {
+                        // Early preconnect via header — browser starts TLS handshake
+                        // before parsing HTML. Saves ~100-200ms on first image load.
+                        key: 'Link',
+                        value: '<https://firebasestorage.googleapis.com>; rel=preconnect, <https://fonts.gstatic.com>; rel=preconnect; crossorigin',
+                    },
                 ],
             },
         ];

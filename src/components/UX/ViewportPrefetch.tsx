@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useCallback } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { canPrefetch, isPrefetchableUrl, markPrefetched, getPrefetchBudget } from '@/lib/prefetch-shared';
 
 /**
@@ -22,6 +22,7 @@ import { canPrefetch, isPrefetchableUrl, markPrefetched, getPrefetchBudget } fro
  */
 export default function ViewportPrefetch() {
     const router = useRouter();
+    const pathname = usePathname();
     const observerRef = useRef<IntersectionObserver | null>(null);
     const mutationObserverRef = useRef<MutationObserver | null>(null);
     const prefetchCountRef = useRef(0);
@@ -51,7 +52,8 @@ export default function ViewportPrefetch() {
     }, []);
 
     useEffect(() => {
-        // Set budget based on device
+        // Reset budget on each new page — ensures fresh prefetches after navigation
+        prefetchCountRef.current = 0;
         budgetRef.current = getPrefetchBudget();
         if (budgetRef.current === 0) return;
 
@@ -111,7 +113,7 @@ export default function ViewportPrefetch() {
             observerRef.current = null;
             mutationObserverRef.current = null;
         };
-    }, [observeLink, prefetchUrl]);
+    }, [observeLink, prefetchUrl, pathname]); // pathname dep → restarts observers on route change
 
     // Silent component — all work is done via observers
     return null;

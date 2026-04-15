@@ -96,13 +96,15 @@ export default async function RootLayout({
       <head>
         {/* Prevent browsers/extensions from auto-detecting phone numbers — causes hydration mismatches */}
         <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
-        {/* Preconnect to critical external origins */}
+        {/* Preconnect to CRITICAL external origins (needed during initial render) */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://firestore.googleapis.com" />
         <link rel="preconnect" href="https://firebasestorage.googleapis.com" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="preconnect" href="https://analytics.tiktok.com" />
+        {/* DNS-prefetch for NON-CRITICAL origins (used after hydration, not initial render) */}
+        <link rel="dns-prefetch" href="https://firestore.googleapis.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
