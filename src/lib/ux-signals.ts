@@ -448,6 +448,70 @@ function trackContentInteractions(): () => void {
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
+// 7. COPY EVENT TRACKING
+// Clipboard copies of prices, phone numbers, and addresses indicate high intent.
+// ═════════════════════════════════════════════════════════════════════════════
+
+function trackCopyEvents(): () => void {
+    const handler = () => {
+        const selection = document.getSelection()?.toString().trim() || '';
+        if (selection.length < 3 || selection.length > 200) return;
+
+        // Classify what was copied
+        let copyType = 'text';
+        if (/[\d٠-٩]{4,}/.test(selection)) copyType = 'phone_or_number';
+        else if (/\d/.test(selection) && /[جنيه|EGP|ج\.م]/i.test(selection)) copyType = 'price';
+
+        if (once(`copy_${copyType}_${window.location.pathname}`)) {
+            idleDispatch('select_content', {
+                event_category: 'ux_metrics',
+                content_type: 'copy_event',
+                copy_type: copyType,
+                page_type: getPageType(),
+            });
+        }
+    };
+
+    document.addEventListener('copy', handler, { passive: true });
+    return () => document.removeEventListener('copy', handler);
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// 8. FAQ TOGGLE TRACKING
+// Expanding FAQ items signals deep research intent.
+// ═════════════════════════════════════════════════════════════════════════════
+
+function trackFaqToggles(): () => void {
+    const handler = (e: Event) => {
+        const target = e.target as HTMLElement;
+        // Match <details> toggles and accordion buttons
+        const faqItem = target.closest('details, [data-faq], [role="button"][aria-expanded]');
+        if (!faqItem) return;
+
+        // Only track opening, not closing
+        if (faqItem instanceof HTMLDetailsElement && !faqItem.open) return;
+
+        const label = faqItem.querySelector('summary, [data-faq-question]')?.textContent?.trim().slice(0, 60) || '';
+
+        if (once(`faq_${label}`)) {
+            idleDispatch('select_content', {
+                event_category: 'ux_metrics',
+                content_type: 'faq_toggle',
+                event_label: label,
+                page_type: getPageType(),
+            });
+        }
+    };
+
+    document.addEventListener('toggle', handler, true); // 'toggle' needs capture phase for <details>
+    document.addEventListener('click', handler, { passive: true }); // fallback for custom accordions
+    return () => {
+        document.removeEventListener('toggle', handler, true);
+        document.removeEventListener('click', handler);
+    };
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
 // UTILITY FUNCTIONS
 // ═════════════════════════════════════════════════════════════════════════════
 
@@ -491,6 +555,8 @@ export function initUXSignals(): () => void {
     const cleanupScroll = trackEnhancedScrollDepth();
     const cleanupClicks = trackClickSatisfaction();
     const cleanupContent = trackContentInteractions();
+    const cleanupCopy = trackCopyEvents();
+    const cleanupFaq = trackFaqToggles();
 
     // Enhanced page_view with engagement parameters
     idleDispatch('page_view', {
@@ -506,5 +572,7 @@ export function initUXSignals(): () => void {
         cleanupScroll();
         cleanupClicks();
         cleanupContent();
+        cleanupCopy();
+        cleanupFaq();
     };
 }
