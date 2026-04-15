@@ -57,6 +57,27 @@ export default function robots(): MetadataRoute.Robots {
                     '/*?*',                // Block all parameterized URLs
                 ],
             },
+            {
+                // Aggressively block AI Scrapers & Data Miners to protect server capacity
+                // and preserve crawl budget for Googlebot.
+                userAgent: [
+                    'GPTBot',
+                    'ChatGPT-User',
+                    'ClaudeBot',
+                    'Claude-Web',
+                    'CCBot',
+                    'Bytespider',
+                    'Applebot-Extended',
+                    'anthropic-ai',
+                    'OmigiliBot',
+                    'Omigili',
+                    'FacebookBot',
+                    'Diffbot',
+                    'Amazonbot',
+                    'PerplexityBot',
+                ],
+                disallow: ['/'],
+            },
         ],
         sitemap: [
             'https://cairovolt.com/sitemap.xml',
