@@ -1,6 +1,6 @@
 'use client';
 import { flushSync } from 'react-dom';
-import { trackViewItem, trackAddToCart, trackImageGallerySwipe, trackQuantityChange, trackWhatsappClick, type AnalyticsItem } from '@/lib/analytics';
+import { trackViewItem, trackAddToCart, trackWhatsappClick, type AnalyticsItem } from '@/lib/analytics';
 import { ttqViewContent } from '@/lib/tiktokPixel';
 
 import Link from 'next/link';
@@ -449,7 +449,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         key={idx}
                                         aria-label={`View image ${idx + 1}`}
                                         title={`View image ${idx + 1}`}
-                                        onClick={() => { setSelectedImage(idx); trackImageGallerySwipe(product.id, idx); }}
+                                        onClick={() => { setSelectedImage(idx); }}
                                         className={`relative flex-none w-16 sm:w-20 aspect-square rounded-xl border-2 overflow-hidden transition-all snap-start bg-white ${selectedImage === idx
                                             ? brand === 'anker'
                                                 ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
@@ -611,14 +611,14 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <div className="flex flex-col sm:flex-row flex-wrap gap-3">
                                     <div className="flex items-center border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden bg-white dark:bg-gray-800">
                                         <button
-                                            onClick={() => { const nq = Math.max(1, quantity - 1); setQuantity(nq); trackQuantityChange(product.id, nq); }}
+                                            onClick={() => { const nq = Math.max(1, quantity - 1); setQuantity(nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
                                         >
                                             −
                                         </button>
                                         <span className="px-6 py-3 font-bold text-lg min-w-[3rem] text-center">{quantity}</span>
                                         <button
-                                            onClick={() => { const nq = quantity + 1; setQuantity(nq); trackQuantityChange(product.id, nq); }}
+                                            onClick={() => { const nq = quantity + 1; setQuantity(nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
                                         >
                                             +

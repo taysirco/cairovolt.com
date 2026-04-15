@@ -175,38 +175,7 @@ export function trackPurchase(
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
-// USER ENGAGEMENT EVENTS
-// ═════════════════════════════════════════════════════════════════════════════
-
-/** Tracks clipboard copy actions. */
-export function trackCopyContent(contentType: 'price' | 'phone' | 'address' | 'product_name' | 'text', copiedText: string): void {
-    dispatchEvent('select_content', {
-        event_category: 'engagement',
-        content_type: contentType,
-        content_value: copiedText.slice(0, 100),
-    });
-}
-
-/** Tracks scroll depth at key milestones (25%, 50%, 75%, 100%). */
-export function trackScrollDepth(depthPercent: number, pageType: string): void {
-    const key = `scroll_${pageType}_${depthPercent}`;
-    if (!isNewEvent(key)) return;
-
-    dispatchEvent('scroll', {
-        event_category: 'engagement',
-        percent_scrolled: depthPercent,
-        page_type: pageType,
-    });
-}
-
-/** Tracks when a user expands an FAQ item. */
-export function trackFaqToggle(question: string): void {
-    dispatchEvent('select_content', {
-        event_category: 'engagement',
-        content_type: 'faq',
-        event_label: question.slice(0, 100),
-    });
-}
+// NavBoost handles: Copy Events, Scroll Depth, FAQ Toggles, and general engagement.
 
 // ═════════════════════════════════════════════════════════════════════════════
 // CONTACT & CONVERSION EVENTS
@@ -244,25 +213,7 @@ export function trackEmailClick(): void {
 // UX INTERACTION EVENTS
 // ═════════════════════════════════════════════════════════════════════════════
 
-/** Tracks product image gallery navigation. */
-export function trackImageGallerySwipe(productId: string, imageIndex: number): void {
-    dispatchEvent('select_content', {
-        event_category: 'product_interaction',
-        content_type: 'product_image',
-        item_id: productId,
-        image_index: imageIndex,
-    });
-}
-
-/** Tracks quantity selector changes on product pages. */
-export function trackQuantityChange(productId: string, quantity: number): void {
-    dispatchEvent('select_content', {
-        event_category: 'product_interaction',
-        content_type: 'quantity_selector',
-        item_id: productId,
-        quantity: quantity,
-    });
-}
+// Image tracking and variant tracking is handled automatically via NavBoostEngine.
 
 /** Tracks invoice print actions after purchase. */
 export function trackPrintInvoice(orderId: string): void {
@@ -282,70 +233,4 @@ export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed' | '
     });
 }
 
-// ═════════════════════════════════════════════════════════════════════════════
-// GLOBAL EVENT LISTENERS
-// Attached once in the layout for site-wide tracking.
-// ═════════════════════════════════════════════════════════════════════════════
-
-/**
- * Listens for clipboard copy events and classifies copied content.
- * Returns a cleanup function.
- */
-export function initCopyTracking(): (() => void) | null {
-    if (typeof document === 'undefined') return null;
-
-    const handler = () => {
-        try {
-            const sel = typeof window.getSelection === 'function' ? window.getSelection() : null;
-            const selection = sel?.toString()?.trim();
-            if (!selection || selection.length < 2 || selection.length > 200) return;
-
-            let contentType: 'price' | 'phone' | 'address' | 'product_name' | 'text' = 'text';
-
-            if (/^\d[\d,.\s]+$/.test(selection) && selection.length <= 10) {
-                contentType = 'price';
-            } else if (/^[+\d][\d\s-]{7,15}$/.test(selection)) {
-                contentType = 'phone';
-            } else if (/شارع|street|بناء|building|ش\./i.test(selection)) {
-                contentType = 'address';
-            } else if (selection.length > 5 && selection.length <= 80) {
-                contentType = 'product_name';
-            }
-
-            trackCopyContent(contentType, selection);
-        } catch {
-            // Silent failure — analytics should never break the page
-        }
-    };
-
-    document.addEventListener('copy', handler, { passive: true });
-    return () => document.removeEventListener('copy', handler);
-}
-
-/**
- * Listens for <details> toggle events to track section expansion.
- * Returns a cleanup function.
- */
-export function initFaqTracking(): (() => void) | null {
-    if (typeof document === 'undefined') return null;
-
-    const handler = (e: Event) => {
-        try {
-            const target = e.target as HTMLElement;
-            const details = target?.closest ? target.closest('details') : null;
-            if (!details) return;
-
-            if (!(details as HTMLDetailsElement).open) return;
-
-            const summary = details.querySelector('summary');
-            if (summary) {
-                trackFaqToggle(summary.textContent || '');
-            }
-        } catch {
-            // Silent failure
-        }
-    };
-
-    document.addEventListener('toggle', handler, { capture: true });
-    return () => document.removeEventListener('toggle', handler, { capture: true });
-}
+// Note: Global event listeners for Copy and FAQ are now handled by NavBoostEngine.

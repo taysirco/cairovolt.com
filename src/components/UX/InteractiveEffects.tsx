@@ -2,7 +2,7 @@
 
 import { useEffect, useCallback, useRef } from 'react';
 import { usePathname } from 'next/navigation';
-import { initCopyTracking, initFaqTracking, trackScrollDepth, trackOverlayAction, trackWhatsappClick, resetTracking } from '@/lib/analytics';
+import { trackOverlayAction, trackWhatsappClick, resetTracking } from '@/lib/analytics';
 
 /**
  * InteractiveEffects — UX Micro-Interaction Layer
@@ -110,13 +110,8 @@ export default function InteractiveEffects() {
                     // Set data attribute for CSS-driven reveals
                     document.documentElement.setAttribute('data-scroll-depth', ms.toString());
 
-                    // Classify page type for analytics
-                    const pageType = window.location.pathname.includes('/checkout') ? 'checkout'
-                        : window.location.pathname.includes('/confirm') ? 'confirm'
-                        : window.location.pathname.includes('/contact') ? 'contact'
-                        : window.location.pathname.includes('/blog') ? 'blog'
-                        : 'product';
-                    trackScrollDepth(ms, pageType);
+                    // Navigation signals tracker (NavBoost) now handles scroll depth metrics.
+                    // We just keep the DOM layout adjustments here.
 
                     // At 75%+ depth: reveal additional content (if exists)
                     if (ms >= 75) {
@@ -340,9 +335,7 @@ export default function InteractiveEffects() {
         document.addEventListener('mouseout', handleDesktopExitIntent as EventListener, { passive: true });
         document.addEventListener('pointerdown', handlePointerDown as EventListener, { passive: true });
 
-        // Copy and section-expand analytics
-        const removeCopyListener = initCopyTracking();
-        const removeFaqListener = initFaqTracking();
+        // NOTE: Copy and FAQ tracking are now handled by the dedicated NavBoostEngine
 
         // Promo overlay click tracking
         const handleWhatsappCta = (e: Event) => {
@@ -457,8 +450,7 @@ export default function InteractiveEffects() {
                 });
             }
 
-            removeCopyListener?.();
-            removeFaqListener?.();
+            // Handled by NavBoost Engine now
 
             if (rafIdRef.current) {
                 cancelAnimationFrame(rafIdRef.current);
