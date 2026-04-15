@@ -267,7 +267,10 @@ function trackClickSatisfaction(): () => void {
 // Uses the web-vitals library pattern but implemented inline for zero deps.
 // ═════════════════════════════════════════════════════════════════════════════
 
-function trackWebVitals(): void {
+function trackWebVitals(): () => void {
+    const observers: PerformanceObserver[] = [];
+    let clsHandler: (() => void) | null = null;
+
     // LCP (Largest Contentful Paint) — critical for search ranking
     if ('PerformanceObserver' in window) {
         try {
@@ -287,6 +290,7 @@ function trackWebVitals(): void {
                 }
             });
             lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
+            observers.push(lcpObserver);
 
             // CLS (Cumulative Layout Shift)
             let clsValue = 0;
@@ -298,10 +302,11 @@ function trackWebVitals(): void {
                 }
             });
             clsObserver.observe({ type: 'layout-shift', buffered: true });
+            observers.push(clsObserver);
 
             // Send CLS on page hide
             const sendCLS = () => {
-                if (once('cwv_cls')) {
+                if (document.visibilityState === 'hidden' && once('cwv_cls')) {
                     const rounded = Math.round(clsValue * 1000) / 1000;
                     beaconDispatch('web_vitals', {
                         event_category: 'web_vitals',
@@ -312,9 +317,8 @@ function trackWebVitals(): void {
                     });
                 }
             };
-            document.addEventListener('visibilitychange', () => {
-                if (document.visibilityState === 'hidden') sendCLS();
-            });
+            document.addEventListener('visibilitychange', sendCLS);
+            clsHandler = sendCLS;
 
             // INP (Interaction to Next Paint) — replaced FID in March 2024
             const inpObserver = new PerformanceObserver((list) => {
@@ -333,6 +337,7 @@ function trackWebVitals(): void {
                 }
             });
             inpObserver.observe({ type: 'event', buffered: true, durationThreshold: 16 } as any);
+            observers.push(inpObserver);
 
             // FCP (First Contentful Paint) — secondary but valuable
             const fcpObserver = new PerformanceObserver((list) => {
@@ -349,6 +354,7 @@ function trackWebVitals(): void {
                 }
             });
             fcpObserver.observe({ type: 'paint', buffered: true });
+            observers.push(fcpObserver);
 
             // TTFB (Time to First Byte) — server performance indicator
             const navEntries = performance.getEntriesByType('navigation') as PerformanceNavigationTiming[];
@@ -366,6 +372,13 @@ function trackWebVitals(): void {
             // PerformanceObserver not fully supported — graceful degradation
         }
     }
+
+    return () => {
+        observers.forEach(obs => obs.disconnect());
+        if (clsHandler) {
+            document.removeEventListener('visibilitychange', clsHandler);
+        }
+    };
 }
 
 // ═════════════════════════════════════════════════════════════════════════════
@@ -556,7 +569,7 @@ export function initUXSignals(): () => void {
 
     // Start all trackers
     const cleanupDwell = startDwellTimer();
-    trackWebVitals();
+    const cleanupVitals = trackWebVitals();
     trackSessionQuality();
     const cleanupScroll = trackEnhancedScrollDepth();
     const cleanupClicks = trackClickSatisfaction();
@@ -576,6 +589,7 @@ export function initUXSignals(): () => void {
 
     return () => {
         cleanupDwell();
+        cleanupVitals();
         cleanupScroll();
         cleanupClicks();
         cleanupContent();
