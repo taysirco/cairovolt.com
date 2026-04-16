@@ -254,52 +254,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 name: item.name,
             })),
         }),
-        // Audience with geographic targeting — category-aware description
-        audience: {
-            '@type': 'Audience',
-            audienceType: (() => {
-                const cat = (product as { categorySlug?: string }).categorySlug || '';
-                const audienceMap: Record<string, { en: string; ar: string }> = {
-                    'power-banks': {
-                        en: 'Users in Egypt who need portable backup power for phones and devices during power outages and travel',
-                        ar: 'المستخدمون في مصر الذين يحتاجون طاقة محمولة للهواتف والأجهزة أثناء انقطاع الكهرباء والسفر',
-                    },
-                    'wall-chargers': {
-                        en: 'Users in Egypt who need fast, safe wall chargers for phones, tablets, and laptops',
-                        ar: 'المستخدمون في مصر الذين يحتاجون شواحن حائط سريعة وآمنة للهواتف والتابلت واللابتوب',
-                    },
-                    'cables': {
-                        en: 'Users in Egypt who need durable, fast-charging cables for daily device connectivity',
-                        ar: 'المستخدمون في مصر الذين يحتاجون كابلات متينة وسريعة الشحن للاستخدام اليومي',
-                    },
-                    'audio': {
-                        en: 'Users in Egypt looking for quality wireless earbuds for music, calls, and commuting',
-                        ar: 'المستخدمون في مصر الذين يبحثون عن سماعات لاسلكية للموسيقى والمكالمات والمواصلات',
-                    },
-                    'car-chargers': {
-                        en: 'Drivers in Egypt who need reliable in-car fast charging for phones and devices',
-                        ar: 'السائقون في مصر الذين يحتاجون شحن سريع موثوق للهواتف أثناء القيادة',
-                    },
-                    'car-holders': {
-                        en: 'Drivers in Egypt who need secure phone mounting for navigation and hands-free use',
-                        ar: 'السائقون في مصر الذين يحتاجون تثبيت آمن للهاتف للملاحة واستخدام بدون يدين',
-                    },
-                    'smart-watches': {
-                        en: 'Active users in Egypt looking for affordable fitness tracking and smart notifications',
-                        ar: 'المستخدمون النشطون في مصر الذين يبحثون عن تتبع لياقة وإشعارات ذكية بسعر مناسب',
-                    },
-                };
-                const audience = audienceMap[cat];
-                return audience ? (isArabic ? audience.ar : audience.en) : (isArabic
-                    ? 'المستخدمون في مصر الذين يبحثون عن إكسسوارات إلكترونية أصلية بأفضل سعر'
-                    : 'Users in Egypt looking for original electronic accessories at the best price');
-            })(),
-            geographicArea: {
-                '@type': 'Country',
-                name: 'Egypt',
-                sameAs: 'https://en.wikipedia.org/wiki/Egypt',
-            },
-        },
+        // Geographic targeting is handled by areaServed, eligibleRegion, and shippingDestination fields.
         // Reviewed by CairoVolt Labs as expert organization
         reviewedBy: {
             '@type': 'Organization',
