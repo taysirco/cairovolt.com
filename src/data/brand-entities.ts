@@ -385,6 +385,10 @@ export function getEntitiesForArticle(slug: string): { about: string[]; mentions
             about: ['lithiumIon', 'egypt'],
             mentions: ['anker', 'joyroom', 'cairovolt', 'gan', 'usbC', 'usbPD', 'charger', 'powerBank', 'cable', 'apple', 'samsung', 'fastCharging', 'thermalRunaway', 'cairo', 'newCairo'],
         },
+        'power-bank-10000mah-real-capacity-myth': {
+            about: ['powerBank', 'lithiumIon', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'cable', 'fastCharging', 'cairo', 'newCairo'],
+        },
     };
 
     return articleEntityMap[slug] || { about: ['egypt'], mentions: ['cairo'] };
