@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>كتالوج أنكر للبيع بالجملة | CairoVolt - الموزع المعتمد</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #f0f2f5;
+            color: #1a1a2e;
+            -webkit-print-color-adjust: exact !important;
+            print-color-adjust: exact !important;
+        }
+
+        @media print {
+            @page { size: A4 portrait; margin: 8mm; }
+            body { background: white !important; }
+            .no-print { display: none !important; }
+            .page-break { page-break-before: always; }
+            .catalog-container { box-shadow: none !important; margin: 0 !important; max-width: 100% !important; }
+            .product-row:hover { transform: none !important; }
+        }
+
+        .catalog-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.12);
+        }
+
+        /* ─── HEADER ─── */
+        .catalog-header {
+            background: linear-gradient(135deg, #0066FF 0%, #0044CC 50%, #002299 100%);
+            padding: 30px 35px 25px;
+            position: relative;
+            overflow: hidden;
+        }
+        .catalog-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .catalog-header::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        .header-brand h1 {
+            font-size: 32px;
+            font-weight: 900;
+            color: white;
+            letter-spacing: -0.5px;
+            margin-bottom: 2px;
+        }
+        .header-brand .subtitle {
+            color: rgba(255,255,255,0.8);
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .header-meta {
+            text-align: left;
+            color: white;
+        }
+        .header-meta .badge {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 6px;
+        }
+        .header-meta .date {
+            font-size: 11px;
+            color: rgba(255,255,255,0.7);
+            font-weight: 500;
+        }
+
+        /* ─── SUBHEADER ─── */
+        .sub-header {
+            background: linear-gradient(90deg, #001a66 0%, #0033aa 100%);
+            padding: 12px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .sub-header-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: rgba(255,255,255,0.9);
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .sub-header-item .icon {
+            width: 20px;
+            height: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+        }
+
+        /* ─── CATEGORY SECTION ─── */
+        .category-header {
+            background: linear-gradient(90deg, #f8f9ff 0%, #eef1ff 100%);
+            padding: 12px 35px;
+            border-bottom: 2px solid #0055ff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .category-header .cat-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #0055ff, #0033cc);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: white;
+        }
+        .category-header h2 {
+            font-size: 16px;
+            font-weight: 800;
+            color: #0033cc;
+        }
+        .category-header .cat-count {
+            background: #0055ff;
+            color: white;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2px 10px;
+            border-radius: 10px;
+            margin-right: auto;
+        }
+
+        /* ─── TABLE ─── */
+        .products-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .products-table thead th {
+            background: #f4f6fa;
+            padding: 10px 12px;
+            font-size: 10px;
+            font-weight: 800;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #e8ecf4;
+            text-align: center;
+            white-space: nowrap;
+        }
+        .products-table thead th:first-child {
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        .product-row {
+            border-bottom: 1px solid #f0f2f5;
+            transition: all 0.2s ease;
+        }
+        .product-row:hover {
+            background: #fafbff;
+            transform: scale(1.002);
+        }
+        .product-row td {
+            padding: 10px 12px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .product-row td:first-child {
+            text-align: right;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .product-thumb {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            object-fit: contain;
+            background: #f8f9ff;
+            border: 1px solid #e8ecf4;
+            padding: 3px;
+            flex-shrink: 0;
+        }
+        .product-details .product-name {
+            font-size: 11px;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.3;
+            margin-bottom: 1px;
+        }
+        .product-details .product-desc {
+            font-size: 9px;
+            color: #888;
+            font-weight: 500;
+        }
+
+        .sku-cell {
+            font-size: 10px;
+            font-weight: 700;
+            color: #0055ff;
+            font-family: 'Courier New', monospace;
+            direction: ltr;
+            letter-spacing: 0.5px;
+        }
+
+        .warranty-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+            color: #2e7d32;
+            font-size: 9px;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 10px;
+            white-space: nowrap;
+        }
+
+        .price-before {
+            font-size: 10px;
+            color: #999;
+            text-decoration: line-through;
+            display: block;
+            font-weight: 500;
+        }
+        .price-after {
+            font-size: 13px;
+            font-weight: 900;
+            color: #0055ff;
+            display: block;
+        }
+        .price-save {
+            font-size: 8px;
+            color: #e53935;
+            font-weight: 700;
+            display: block;
+        }
+
+        /* ─── FOOTER SECTIONS ─── */
+        .warranty-section {
+            padding: 25px 35px;
+            background: linear-gradient(135deg, #f0fdf4 0%, #e8f5e9 100%);
+            border-top: 3px solid #4caf50;
+        }
+        .warranty-section h3 {
+            font-size: 16px;
+            font-weight: 800;
+            color: #2e7d32;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .warranty-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+        .warranty-card {
+            background: white;
+            border-radius: 10px;
+            padding: 14px;
+            text-align: center;
+            border: 1px solid #c8e6c9;
+            box-shadow: 0 2px 8px rgba(76,175,80,0.08);
+        }
+        .warranty-card .w-icon {
+            font-size: 24px;
+            margin-bottom: 6px;
+        }
+        .warranty-card h4 {
+            font-size: 12px;
+            font-weight: 800;
+            color: #2e7d32;
+            margin-bottom: 3px;
+        }
+        .warranty-card p {
+            font-size: 9px;
+            color: #666;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* ─── TERMS ─── */
+        .terms-section {
+            padding: 20px 35px;
+            background: #fafbff;
+            border-top: 1px solid #e8ecf4;
+        }
+        .terms-section h3 {
+            font-size: 14px;
+            font-weight: 800;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .terms-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+        }
+        .term-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+            font-size: 10px;
+            color: #555;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+        .term-item .bullet {
+            color: #0055ff;
+            font-weight: 900;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+
+        /* ─── CONTACT FOOTER ─── */
+        .contact-footer {
+            background: linear-gradient(135deg, #0066FF 0%, #002299 100%);
+            padding: 25px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(255,255,255,0.9);
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .contact-item .c-icon {
+            width: 28px;
+            height: 28px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .confidential-strip {
+            background: #1a1a2e;
+            text-align: center;
+            padding: 8px;
+            font-size: 9px;
+            color: rgba(255,255,255,0.5);
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+
+        /* Print button */
+        .print-btn-container {
+            text-align: center;
+            padding: 30px;
+        }
+        .print-btn {
+            background: linear-gradient(135deg, #0066FF, #0044CC);
+            color: white;
+            border: none;
+            padding: 14px 40px;
+            border-radius: 50px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(0,102,255,0.3);
+            transition: all 0.3s ease;
+        }
+        .print-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(0,102,255,0.4);
+        }
+
+        /* Row alternating */
+        .product-row:nth-child(even) {
+            background: #fafbff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="catalog-container">
+
+    <!-- ═══════════════ HEADER ═══════════════ -->
+    <div class="catalog-header">
+        <div class="header-content">
+            <div class="header-brand">
+                <h1>CairoVolt</h1>
+                <div class="subtitle">الموزع المعتمد لمنتجات Anker الأصلية في مصر</div>
+            </div>
+            <div class="header-meta">
+                <div class="badge">📋 كتالوج أسعار الجملة</div>
+                <div class="date">تاريخ الإصدار: أبريل 2026 — الإصدار V1</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════ SUB HEADER ═══════════════ -->
+    <div class="sub-header">
+        <div class="sub-header-item"><span class="icon">✅</span> منتجات أصلية 100%</div>
+        <div class="sub-header-item"><span class="icon">🛡️</span> ضمان الوكيل الرسمي</div>
+        <div class="sub-header-item"><span class="icon">📦</span> شحن لجميع المحافظات</div>
+        <div class="sub-header-item"><span class="icon">💳</span> كارت ضمان مع كل منتج</div>
+        <div class="sub-header-item"><span class="icon">🔗</span> رابط تفعيل الضمان أونلاين</div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 1. باور بانك ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header">
+        <div class="cat-icon">🔋</div>
+        <h2>باور بانك أنكر (Power Banks)</h2>
+        <span class="cat-count">8 منتجات</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powercore-10000/anker-powercore-10000mah-slim-portable-power-bank-cairovolt-egypt.webp" alt="Anker PowerCore 10000" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker PowerCore 10,000mAh</div>
+                            <div class="product-desc">شحن سريع 22.5W — 180 جرام فقط</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-10K</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,650 ج.م</span></td>
+                <td>
+                    <span class="price-after">1,300 ج.م</span>
+                    <span class="price-save">وفّر 350 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-charging-speed-test-watt-meter-lab.webp" alt="Anker Zolo A110D" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker Zolo A110D 10,000mAh</div>
+                            <div class="product-desc">موديل Zolo — شحن سريع 30W PD</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-A110D</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,390 ج.م</span></td>
+                <td>
+                    <span class="price-after">1,270 ج.م</span>
+                    <span class="price-save">وفّر 120 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powercore-20000/anker-powercore-20000-capacity-test-watt-meter-lab.webp" alt="Anker PowerCore 20000" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker PowerCore 20,000mAh</div>
+                            <div class="product-desc">سعة كبيرة — منفذين USB — يشحن الايفون 5 مرات</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-20K</td>
+                <td><span class="warranty-badge">24 شهر</span></td>
+                <td><span class="price-before">1,750 ج.م</span></td>
+                <td>
+                    <span class="price-after">1,550 ج.م</span>
+                    <span class="price-save">وفّر 200 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt.webp" alt="Anker Zolo A110E" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker Zolo A110E 20,000mAh</div>
+                            <div class="product-desc">موديل Zolo — شحن سريع PD + QC</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-A110E</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,950 ج.م</span></td>
+                <td>
+                    <span class="price-after">1,730 ج.م</span>
+                    <span class="price-save">وفّر 220 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp" alt="Anker Zolo A1681" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker Zolo A1681 20,000mAh</div>
+                            <div class="product-desc">شاشة LED + شحن سريع 22.5W</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-A1681</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">2,500 ج.م</span></td>
+                <td>
+                    <span class="price-after">2,200 ج.م</span>
+                    <span class="price-save">وفّر 300 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powercore-26800/anker-powercore-26800-capacity-endurance-test-lab-egypt.webp" alt="Anker PowerCore 26800" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker PowerCore 26,800mAh</div>
+                            <div class="product-desc">سعة ضخمة — 3 منافذ USB — للسفر</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-26K</td>
+                <td><span class="warranty-badge">24 شهر</span></td>
+                <td><span class="price-before">3,500 ج.م</span></td>
+                <td>
+                    <span class="price-after">2,300 ج.م</span>
+                    <span class="price-save">وفّر 1,200 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt.webp" alt="Anker Prime A1695" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker Prime A1695 25,000mAh</div>
+                            <div class="product-desc">الفئة الأعلى — 140W PD — يشحن لابتوب</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-A1695</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">4,200 ج.م</span></td>
+                <td>
+                    <span class="price-after">3,950 ج.م</span>
+                    <span class="price-save">وفّر 250 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-737-powerbank/anker-737-charging-macbook-pro-140w-laptop-fast-charge.webp" alt="Anker 737" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker 737 PowerCore 24K</div>
+                            <div class="product-desc">140W — الأقوى — شحن اللابتوب الكامل</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-737</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">5,500 ج.م</span></td>
+                <td>
+                    <span class="price-after">4,999 ج.م</span>
+                    <span class="price-save">وفّر 501 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 2. شواحن حائط ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header page-break">
+        <div class="cat-icon">🔌</div>
+        <h2>شواحن حائط أنكر (Wall Chargers)</h2>
+        <span class="cat-count">4 منتجات</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powerport-20w/anker-powerport-20w-charging-iphone-fast-charge-pd.webp" alt="Anker 20W" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن أنكر 20W USB-C</div>
+                            <div class="product-desc">للايفون — PD شحن سريع — صغير الحجم</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-WC-20W</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">420 ج.م</span></td>
+                <td>
+                    <span class="price-after">375 ج.م</span>
+                    <span class="price-save">وفّر 45 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powerport-25w/anker-powerport-25w-charging-samsung-galaxy-25w-fast.webp" alt="Anker 25W" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن أنكر 25W فائق السرعة</div>
+                            <div class="product-desc">PPS لسامسونج — PD 3.0 — صغير</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-WC-25W</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">650 ج.م</span></td>
+                <td>
+                    <span class="price-after">550 ج.م</span>
+                    <span class="price-save">وفّر 100 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charger-with-devices-iphone-ipad-airpods.webp" alt="Anker GaN 30W" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن أنكر Nano 3 GaN 30W</div>
+                            <div class="product-desc">تقنية GaN — أصغر 70% — للايفون 17</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-WC-A2147</td>
+                <td><span class="warranty-badge">24 شهر</span></td>
+                <td><span class="price-before">470 ج.م</span></td>
+                <td>
+                    <span class="price-after">430 ج.م</span>
+                    <span class="price-save">وفّر 40 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp" alt="Anker 45W GaN" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن أنكر Nano 45W GaN</div>
+                            <div class="product-desc">يشحن اللابتوب + الموبايل — تقنية GaN</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-WC-45W</td>
+                <td><span class="warranty-badge">24 شهر</span></td>
+                <td><span class="price-before">1,100 ج.م</span></td>
+                <td>
+                    <span class="price-after">790 ج.م</span>
+                    <span class="price-save">وفّر 310 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 3. كابلات ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header">
+        <div class="cat-icon">🔗</div>
+        <h2>كابلات أنكر (Cables)</h2>
+        <span class="cat-count">4 منتجات</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability.webp" alt="Anker A8050" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">كابل أنكر A8050 USB-C to USB-C</div>
+                            <div class="product-desc">60W شحن سريع — 1 متر</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-CB-A8050</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">270 ج.م</span></td>
+                <td>
+                    <span class="price-after">240 ج.م</span>
+                    <span class="price-save">وفّر 30 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-bend-test-12000-lifespan.webp" alt="Anker Lightning" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">كابل أنكر USB-C to Lightning</div>
+                            <div class="product-desc">معتمد MFi — شحن سريع للايفون</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-CB-CL</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">508 ج.م</span></td>
+                <td>
+                    <span class="price-after">508 ج.م</span>
+                    <span class="price-save">—</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-100w-charging-laptop-macbook.webp" alt="Anker USB-C Cable" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">كابل أنكر USB-C to USB-C 60W</div>
+                            <div class="product-desc">PowerLine III — 35,000 ثني — متين</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-CB-CC</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">650 ج.م</span></td>
+                <td>
+                    <span class="price-after">590 ج.م</span>
+                    <span class="price-save">وفّر 60 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-240w-braided-cable-cairovolt.webp" alt="Anker SureiStrong" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">كابل أنكر SureiStrong Lightning</div>
+                            <div class="product-desc">ضمان مدى الحياة — الأقوى من أنكر</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-A8652</td>
+                <td><span class="warranty-badge" style="background:linear-gradient(135deg,#fff3e0,#ffe0b2);color:#e65100;">مدى الحياة</span></td>
+                <td><span class="price-before">750 ج.م</span></td>
+                <td>
+                    <span class="price-after">599 ج.م</span>
+                    <span class="price-save">وفّر 151 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 4. شواحن سيارة ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header page-break">
+        <div class="cat-icon">🚗</div>
+        <h2>شواحن سيارة أنكر (Car Chargers)</h2>
+        <span class="cat-count">3 منتجات</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-a2741-charger-30w/anker-a2741-30w-dual-port-charger-usb-c-usb-a-cairovolt.webp" alt="Anker Car 30W" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن سيارة أنكر A2741 — 30W</div>
+                            <div class="product-desc">USB-C PD — شحن سريع في الطريق</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-CC-A2741</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">570 ج.م</span></td>
+                <td>
+                    <span class="price-after">530 ج.م</span>
+                    <span class="price-save">وفّر 40 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-a2732-charger-35w/anker-a2732-35w-dual-usb-c-charger-pd-compact-design-cairovolt.webp" alt="Anker Car 35W" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن سيارة أنكر A2732 — 35W</div>
+                            <div class="product-desc">منفذين USB-C — شحن جهازين معاً</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-CC-A2732</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">575 ج.م</span></td>
+                <td>
+                    <span class="price-after">550 ج.م</span>
+                    <span class="price-save">وفّر 25 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp" alt="Anker Car Dual" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">شاحن سيارة أنكر Dual USB 24W</div>
+                            <div class="product-desc">PowerDrive 2 — منفذين — PowerIQ</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-CC-DUAL</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,300 ج.م</span></td>
+                <td>
+                    <span class="price-after">950 ج.م</span>
+                    <span class="price-save">وفّر 350 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 5. سماعات وايربودز ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header">
+        <div class="cat-icon">🎧</div>
+        <h2>سماعات Soundcore بواسطة أنكر (Audio)</h2>
+        <span class="cat-count">5 منتجات</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-battery-life-playtime-test-lab-egypt.webp" alt="Soundcore K20i" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Soundcore K20i ايربودز</div>
+                            <div class="product-desc">Bluetooth 5.3 — صوت نقي — علبة صغيرة</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-EP-K20I</td>
+                <td><span class="warranty-badge">12 شهر</span></td>
+                <td><span class="price-before">830 ج.م</span></td>
+                <td>
+                    <span class="price-after">750 ج.م</span>
+                    <span class="price-save">وفّر 80 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-charging-case-open-led-status.webp" alt="Soundcore Life P2i" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Soundcore Life P2i ايربودز</div>
+                            <div class="product-desc">10mm Drivers — Bass Up — 28H بطارية</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-EP-P2I</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,100 ج.م</span></td>
+                <td>
+                    <span class="price-after">820 ج.م</span>
+                    <span class="price-save">وفّر 280 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-bluetooth-5.3-connection-range-test.webp" alt="Soundcore R50i" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Soundcore R50i ايربودز</div>
+                            <div class="product-desc">Hi-Res — 10mm LCP — 30H بطارية</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-EP-R50I</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,300 ج.م</span></td>
+                <td>
+                    <span class="price-after">950 ج.م</span>
+                    <span class="price-save">وفّر 350 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp" alt="Soundcore R50i NC" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Soundcore R50i NC — عزل ضوضاء</div>
+                            <div class="product-desc">Hybrid ANC 42dB — Hi-Res — بريميوم</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-EP-R50INC</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">1,550 ج.م</span></td>
+                <td>
+                    <span class="price-after">1,299 ج.م</span>
+                    <span class="price-save">وفّر 251 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp" alt="Anker MagGo" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker 622 MagGo — باور بانك MagSafe</div>
+                            <div class="product-desc">شحن لاسلكي مغناطيسي — 5000mAh — حامل</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PB-622</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">3,000 ج.م</span></td>
+                <td>
+                    <span class="price-after">2,800 ج.م</span>
+                    <span class="price-save">وفّر 200 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 6. مكبرات صوت ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header page-break">
+        <div class="cat-icon">🔊</div>
+        <h2>مكبرات صوت Soundcore (Speakers)</h2>
+        <span class="cat-count">2 منتج</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-bluetooth-speaker-360-led-cairovolt.webp" alt="Soundcore Flare 2" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Soundcore Flare 2 Speaker</div>
+                            <div class="product-desc">إضاءة 360° — IPX7 مقاوم للماء — 12H</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-SP-FLARE2</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">3,400 ج.م</span></td>
+                <td>
+                    <span class="price-after">2,999 ج.م</span>
+                    <span class="price-save">وفّر 401 ج.م</span>
+                </td>
+            </tr>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-soundcore-motion-plus/anker-soundcore-motion-plus-bass-radiator-passive-driver.webp" alt="Soundcore Motion+" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Soundcore Motion+ Speaker</div>
+                            <div class="product-desc">Hi-Res 30W — AptX — IPX7 — الأقوى</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-SP-MOTION</td>
+                <td><span class="warranty-badge">18 شهر</span></td>
+                <td><span class="price-before">4,200 ج.م</span></td>
+                <td>
+                    <span class="price-after">3,600 ج.م</span>
+                    <span class="price-save">وفّر 600 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ 7. محطات طاقة ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="category-header">
+        <div class="cat-icon">⚡</div>
+        <h2>محطة طاقة متنقلة (Power Station)</h2>
+        <span class="cat-count">1 منتج</span>
+    </div>
+
+    <table class="products-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">المنتج</th>
+                <th>الكود</th>
+                <th>الضمان</th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#999;">قبل الخصم</small></th>
+                <th>سعر الجملة<br><small style="font-size:8px;color:#e53935;">بعد الخصم ✨</small></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-row">
+                <td>
+                    <div class="product-info">
+                        <img src="public/products/anker/anker-521-powerhouse/anker-521-powerhouse-256wh-portable-power-station-cairovolt.webp" alt="Anker 521 PowerHouse" class="product-thumb">
+                        <div class="product-details">
+                            <div class="product-name">Anker 521 PowerHouse</div>
+                            <div class="product-desc">محطة طاقة 256Wh — للرحلات والطوارئ</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="sku-cell">ANK-PH-521</td>
+                <td><span class="warranty-badge" style="background:linear-gradient(135deg,#e3f2fd,#bbdefb);color:#1565c0;">5 سنوات</span></td>
+                <td><span class="price-before">13,000 ج.م</span></td>
+                <td>
+                    <span class="price-after">11,000 ج.م</span>
+                    <span class="price-save">وفّر 2,000 ج.م</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ WARRANTY SECTION ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="warranty-section">
+        <h3>🛡️ سياسة الضمان والخدمة</h3>
+        <div class="warranty-grid">
+            <div class="warranty-card">
+                <div class="w-icon">📋</div>
+                <h4>كارت ضمان رسمي</h4>
+                <p>كل منتج يأتي مع كارت ضمان مختوم ومكتوب عليه تاريخ الشراء ومدة الضمان وبيانات الموزع</p>
+            </div>
+            <div class="warranty-card">
+                <div class="w-icon">🔗</div>
+                <h4>تفعيل الضمان أونلاين</h4>
+                <p>رابط تفعيل الضمان:<br><strong style="color:#0055ff;direction:ltr;display:inline-block;">anker.com/verify</strong><br>امسح كود QR على العلبة</p>
+            </div>
+            <div class="warranty-card">
+                <div class="w-icon">🔄</div>
+                <h4>استبدال فوري</h4>
+                <p>سياسة استبدال فوري — ليس صيانة! في حالة عيب صنع يتم استبدال المنتج بجديد خلال 48 ساعة</p>
+            </div>
+            <div class="warranty-card">
+                <div class="w-icon">📱</div>
+                <h4>دعم واتساب 24/7</h4>
+                <p>تواصل معنا في أي وقت:<br><strong style="color:#25d366;direction:ltr;display:inline-block;">+20 155 824 5974</strong></p>
+            </div>
+            <div class="warranty-card">
+                <div class="w-icon">✅</div>
+                <h4>منتجات أصلية 100%</h4>
+                <p>كل منتج يمكن التحقق من أصالته عبر كود QR على العلبة + موقع Anker الرسمي</p>
+            </div>
+            <div class="warranty-card">
+                <div class="w-icon">📦</div>
+                <h4>توصيل لجميع المحافظات</h4>
+                <p>شحن سريع — القاهرة 24 ساعة — باقي المحافظات 48-72 ساعة — الدفع عند الاستلام متاح</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ TERMS ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="terms-section">
+        <h3>📌 شروط وأحكام البيع بالجملة</h3>
+        <div class="terms-grid">
+            <div class="term-item">
+                <span class="bullet">●</span>
+                <span>الأسعار المذكورة هي أسعار جملة خاصة لتجار التجزئة والموزعين فقط</span>
+            </div>
+            <div class="term-item">
+                <span class="bullet">●</span>
+                <span>الحد الأدنى للطلب: 10 قطع لكل منتج أو طلب إجمالي بقيمة 10,000 ج.م</span>
+            </div>
+            <div class="term-item">
+                <span class="bullet">●</span>
+                <span>الأسعار قابلة للتغيير حسب سعر الدولار وتوفر المنتج</span>
+            </div>
+            <div class="term-item">
+                <span class="bullet">●</span>
+                <span>خصومات إضافية للكميات الكبيرة (50+ قطعة) — تواصل للتفاوض</span>
+            </div>
+            <div class="term-item">
+                <span class="bullet">●</span>
+                <span>الدفع مقدم عبر تحويل بنكي أو إنستا باي — لا يوجد آجل</span>
+            </div>
+            <div class="term-item">
+                <span class="bullet">●</span>
+                <span>كارت ضمان ورابط تفعيل أونلاين يُرفق مع كل وحدة</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════ -->
+    <!-- ═══════════ CONTACT FOOTER ═══════════ -->
+    <!-- ═══════════════════════════════════════════════ -->
+    <div class="contact-footer">
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="c-icon">📞</span>
+                <span style="direction:ltr;display:inline-block;">+20 155 824 5974</span>
+            </div>
+            <div class="contact-item">
+                <span class="c-icon">💬</span>
+                <span>واتساب: <span style="direction:ltr;display:inline-block;">wa.me/201558245974</span></span>
+            </div>
+            <div class="contact-item">
+                <span class="c-icon">🌐</span>
+                <span style="direction:ltr;display:inline-block;">www.cairovolt.com</span>
+            </div>
+            <div class="contact-item">
+                <span class="c-icon">📧</span>
+                <span style="direction:ltr;display:inline-block;">contact@cairovolt.com</span>
+            </div>
+        </div>
+        <div style="text-align:center;">
+            <div style="color:white;font-size:26px;font-weight:900;letter-spacing:-0.5px;">CairoVolt</div>
+            <div style="color:rgba(255,255,255,0.7);font-size:10px;font-weight:600;">الموزع المعتمد لمنتجات Anker الأصلية في مصر</div>
+            <div style="color:rgba(255,255,255,0.5);font-size:9px;font-weight:500;margin-top:4px;">رابط تفعيل الضمان: anker.com/verify</div>
+        </div>
+    </div>
+
+    <div class="confidential-strip">
+        ⚠️ هذا الكتالوج سري ومخصص لعملاء الجملة فقط — يُمنع نشره أو تداوله — CairoVolt © 2026
+    </div>
+</div>
+
+<!-- Print Button -->
+<div class="print-btn-container no-print">
+    <button class="print-btn" onclick="window.print()">
+        🖨️ طباعة / حفظ كـ PDF
+    </button>
+</div>
+
+</body>
+</html>

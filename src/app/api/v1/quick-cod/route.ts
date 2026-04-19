@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { after } from 'next/server';
 import { z } from 'zod';
 import crypto from 'crypto';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
-import { appendOrderToSheet } from '@/lib/google-sheets';
+import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { checkRateLimit } from '@/lib/rate-limit';
 
 /**
@@ -327,31 +326,12 @@ export async function POST(req: NextRequest) {
         }, { status: 500 });
     }
 
-    // ── 8. Deferred Side Effects (after response) ──
-    after(async () => {
-        // A. Google Sheets sync
-        try {
-            await appendOrderToSheet({
-                ...orderData,
-                id: docRef.id,
-            });
-        } catch (sheetError) {
-            console.error('[Quick-COD] Sheet sync failed:', sheetError);
-        }
-
-        // B. Bosta shipment creation (Phase 2 — uncomment when ready)
-        // try {
-        //     const { createBostaShipment } = await import('@/lib/bosta-fulfillment');
-        //     await createBostaShipment({
-        //         orderId,
-        //         phone: input.phone,
-        //         sku: input.sku,
-        //         productName: translations?.ar?.name || '',
-        //         totalAmount,
-        //     });
-        // } catch (bostaError) {
-        //     console.error('[Quick-COD] Bosta fulfillment failed:', bostaError);
-        // }
+    // ═══ 8. Google Sheets sync — BEFORE response (critical business data) ═══
+    // Moved from after() because Firebase App Hosting (Cloud Run) may kill
+    // the container before deferred callbacks complete, causing silent data loss.
+    await safeAppendOrderToSheet({
+        ...orderData,
+        id: docRef.id,
     });
 
     // ── 9. Success Response ──

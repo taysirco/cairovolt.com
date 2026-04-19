@@ -56,7 +56,7 @@ export async function appendOrderToSheet(orderData: any) {
     const auth = await getAuth();
 
     if (!SHEET_ID || !auth) {
-        console.error('Google Sheets credentials missing or invalid');
+        console.error('[Sheets] ❌ credentials missing or invalid');
         return;
     }
 
@@ -85,14 +85,48 @@ export async function appendOrderToSheet(orderData: any) {
         }));
 
         await sheet.addRows(rows);
-        if (process.env.NODE_ENV === 'development') {
-            console.log('Order added to Google Sheet successfully. Rows:', rows.length);
-        }
+        console.log(`[Sheets] ✅ Order synced: ${orderData.orderId || 'N/A'} | Phone: ${orderData.phone} | Rows: ${rows.length}`);
     } catch (error: any) {
-        console.error('Error appending to Google Sheet:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
+        console.error('[Sheets] ❌ Error:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
         // Reset cached auth on auth errors so it's rebuilt next time
         if (error?.code === 401 || error?.code === 403 || error?.message?.includes('invalid_grant')) {
             cachedAuth = null;
         }
+        // Re-throw so callers (safeAppendOrderToSheet) can retry
+        throw error;
     }
+}
+
+/**
+ * Safe wrapper around appendOrderToSheet with:
+ *  - 5-second timeout to avoid blocking the response indefinitely
+ *  - 1 automatic retry on failure
+ *  - Never throws — always resolves (errors are logged)
+ * 
+ * This replaces the unreliable after() pattern on Firebase App Hosting (Cloud Run),
+ * where the container may terminate before deferred callbacks complete.
+ */
+export async function safeAppendOrderToSheet(orderData: any): Promise<boolean> {
+    const TIMEOUT_MS = 5000;
+
+    for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+            await Promise.race([
+                appendOrderToSheet(orderData),
+                new Promise((_, reject) =>
+                    setTimeout(() => reject(new Error(`Sheet sync timeout after ${TIMEOUT_MS}ms`)), TIMEOUT_MS)
+                ),
+            ]);
+            return true; // Success
+        } catch (error: any) {
+            console.error(`[Sheets] ⚠️ Attempt ${attempt}/2 failed for order ${orderData.orderId || 'N/A'}:`, error?.message || error);
+            if (attempt < 2) {
+                // Brief pause before retry
+                await new Promise(r => setTimeout(r, 500));
+            }
+        }
+    }
+
+    console.error(`[Sheets] 🚨 CRITICAL: Order ${orderData.orderId || 'N/A'} (Phone: ${orderData.phone}) failed to sync after 2 attempts. Order exists in Firestore but NOT in Google Sheets.`);
+    return false; // All attempts failed — order is in Firestore but not Sheets
 }
