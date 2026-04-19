@@ -69,6 +69,7 @@ export async function POST(req: NextRequest) {
             couponCode: null as string | null,
             couponDiscount: 0,
             subtotalBeforeDiscount: 0,
+            shippingFee: 0,
             status: 'pending',
             paymentMethod: 'cod',
             createdAt: FieldValue.serverTimestamp(),
@@ -98,15 +99,18 @@ export async function POST(req: NextRequest) {
 
                 orderData.couponCode = code;
                 orderData.couponDiscount = serverDiscount;
+                orderData.shippingFee = shipping;
                 orderData.totalAmount = subtotalAfterDiscount + shipping;
             } else {
                 // Invalid coupon code — recalculate total without discount
                 const shipping = getShippingFee(data.city, serverSubtotal);
+                orderData.shippingFee = shipping;
                 orderData.totalAmount = serverSubtotal + shipping;
             }
         } else {
             // No coupon — recalculate total from server subtotal
             const shipping = getShippingFee(data.city, serverSubtotal);
+            orderData.shippingFee = shipping;
             orderData.totalAmount = serverSubtotal + shipping;
         }
 

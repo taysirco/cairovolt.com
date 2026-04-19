@@ -408,7 +408,12 @@ export default function CheckoutPage() {
                         {/* Final total */}
                         <div className="flex justify-between pt-4 mt-2 border-t-2 border-gray-300 dark:border-gray-600 text-lg font-bold">
                             <span>{isArabic ? 'الإجمالي' : 'Total'}</span>
-                            <span className="text-green-600">{(subtotalAfterDiscount + shipping).toLocaleString()} {currency}</span>
+                            <span className={(!city && shipping !== 0) ? "text-amber-500 text-sm" : "text-green-600"}>
+                                {(!city && shipping !== 0) 
+                                    ? (isArabic ? 'حدد المحافظة أولاً' : 'Select Gov First')
+                                    : `${(subtotalAfterDiscount + shipping).toLocaleString()} ${currency}`
+                                }
+                            </span>
                         </div>
 
                         <p className="text-sm text-gray-500 mt-2"><SvgIcon name="money" className="w-4 h-4 inline-block" /> {t('cashOnDelivery')}</p>
