@@ -103,7 +103,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         <div>
                             <span className="text-gray-500 dark:text-gray-400">{labels.delivery}: </span>
                             <span className="font-medium">1-3 {labels.days}</span>
-                            {product.price >= 1350 && <span className="text-green-600 text-[10px] ms-1">({labels.free})</span>}
+                            {product.price >= 1499 && <span className="text-green-600 text-[10px] ms-1">({labels.free})</span>}
                         </div>
                         <div>
                             <span className="text-gray-500 dark:text-gray-400">{labels.original}: </span>
@@ -171,7 +171,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                             </td>
                             <td className="py-3 px-4 text-sm text-gray-900 dark:text-white">
                                 1-3 {labels.days}
-                                {product.price >= 1350 && (
+                                {product.price >= 1499 && (
                                     <span className="ms-1 text-green-600 text-xs">({labels.free})</span>
                                 )}
                             </td>

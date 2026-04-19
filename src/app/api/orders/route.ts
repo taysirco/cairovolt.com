@@ -5,6 +5,7 @@ import { FieldValue } from 'firebase-admin/firestore';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
+import { getShippingFee } from '@/lib/shipping';
 
 // ═══════════ Server-side Coupon Validation ═══════════
 const SERVER_VALID_COUPONS: Record<string, number> = {
@@ -93,19 +94,19 @@ export async function POST(req: NextRequest) {
             if (serverRate) {
                 const serverDiscount = Math.round(serverSubtotal * serverRate);
                 const subtotalAfterDiscount = serverSubtotal - serverDiscount;
-                const shipping = subtotalAfterDiscount >= 1350 ? 0 : 40;
+                const shipping = getShippingFee(data.city, subtotalAfterDiscount);
 
                 orderData.couponCode = code;
                 orderData.couponDiscount = serverDiscount;
                 orderData.totalAmount = subtotalAfterDiscount + shipping;
             } else {
                 // Invalid coupon code — recalculate total without discount
-                const shipping = serverSubtotal >= 1350 ? 0 : 40;
+                const shipping = getShippingFee(data.city, serverSubtotal);
                 orderData.totalAmount = serverSubtotal + shipping;
             }
         } else {
             // No coupon — recalculate total from server subtotal
-            const shipping = serverSubtotal >= 1350 ? 0 : 40;
+            const shipping = getShippingFee(data.city, serverSubtotal);
             orderData.totalAmount = serverSubtotal + shipping;
         }
 

@@ -6,6 +6,7 @@ import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
 import { checkRateLimit } from '@/lib/rate-limit';
+import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 /**
  * ═══════════════════════════════════════════════════════════
@@ -277,7 +278,7 @@ export async function POST(req: NextRequest) {
 
     // ── 7. Create Order in Firestore ──
     const price = Number(product.price) || 0;
-    const shippingFee = price >= 1350 ? 0 : 40;
+    const shippingFee = getShippingFee('', price); 
     const totalAmount = price + shippingFee;
     const translations = product.translations as
         Record<string, Record<string, string>> | undefined;

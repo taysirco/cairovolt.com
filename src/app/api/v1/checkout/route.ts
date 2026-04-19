@@ -3,6 +3,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
+import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 /**
  * M2M Checkout API — Simplified endpoint for AI agents & programmatic commerce
@@ -238,9 +239,9 @@ export async function GET(req: NextRequest) {
                 url: `https://cairovolt.com/${(product.brand as string || '').toLowerCase()}/${product.categorySlug}/${product.slug}`,
             },
             shipping: {
-                fee: price >= 1350 ? 0 : 40,
+                fee: price >= FREE_SHIPPING_THRESHOLD ? 0 : 60, // Minimum / Default shipping
                 currency: 'EGP',
-                freeAbove: 1350,
+                freeAbove: FREE_SHIPPING_THRESHOLD,
                 estimatedDays: { min: 1, max: 5 },
             },
             payment: {
@@ -368,7 +369,7 @@ export async function POST(req: NextRequest) {
         const quantity = Math.max(1, Number(data.quantity) || 1);
         const price = Number(product.price) || 0;
         const totalProducts = price * quantity;
-        const shippingFee = totalProducts >= 1350 ? 0 : 40;
+        const shippingFee = getShippingFee(data.city as string || '', totalProducts);
         const totalAmount = totalProducts + shippingFee;
 
         const translations = product.translations as Record<string, Record<string, string>> | undefined;

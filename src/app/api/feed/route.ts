@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { products as staticProducts } from '@/data/seed-products';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 /**
  * Merchant Center XML Product Feed
@@ -48,7 +49,7 @@ function getProducts(): FeedProduct[] {
                 brand: p.brand,
                 gtin: (p as Record<string, unknown>).gtin as string | undefined,
                 condition: 'new',
-                shippingPrice: p.price >= 1350 ? 0 : 40,
+                shippingPrice: p.price >= FREE_SHIPPING_THRESHOLD ? 0 : 60,
             };
         });
 }

@@ -8,6 +8,7 @@ import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
 import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
+import { getShippingFee } from '@/lib/shipping';
 import type { Metadata } from 'next';
 
 // Metadata must be exported from a server layout/page — this is handled by the
@@ -102,6 +103,7 @@ export default function CheckoutPage() {
     const [loading, setLoading] = useState(false);
     const [phone, setPhone] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
+    const [city, setCity] = useState('');
     const [directBuyProcessed, setDirectBuyProcessed] = useState(false);
 
     // Coupon state
@@ -166,7 +168,7 @@ export default function CheckoutPage() {
     // Calculated amounts
     const discountAmount = couponCode ? Math.round(totalAmount * couponDiscount) : 0;
     const subtotalAfterDiscount = totalAmount - discountAmount;
-    const shipping = subtotalAfterDiscount >= 1350 ? 0 : 40;
+    const shipping = getShippingFee(city, subtotalAfterDiscount);
 
     // Direct Buy URL support: ?add_sku=XXX (for BuyAction schema / M2M Commerce)
     useEffect(() => {
@@ -396,7 +398,10 @@ export default function CheckoutPage() {
                         <div className="flex justify-between pt-2 text-sm text-gray-600 dark:text-gray-400">
                             <span>{isArabic ? 'الشحن' : 'Shipping'}</span>
                             <span className={shipping === 0 ? 'text-green-600 font-medium' : ''}>
-                                {shipping === 0 ? (isArabic ? 'مجاني ✅' : 'Free ✅') : `40 ${currency}`}
+                                {shipping === 0 
+                                    ? (isArabic ? 'مجاني ✅' : 'Free ✅') 
+                                    : (!city ? (isArabic ? 'حدد المحافظة' : 'Select Governorate') : `${shipping} ${currency}`)
+                                }
                             </span>
                         </div>
 
@@ -458,8 +463,14 @@ export default function CheckoutPage() {
 
                         <div>
                             <label className="block text-sm font-medium mb-1">{t('governorate')}</label>
-                            <select name="city" required className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700">
-                                <option value="">{isArabic ? 'اختر المحافظة' : 'Select Governorate'}</option>
+                            <select 
+                                name="city" 
+                                required 
+                                value={city}
+                                onChange={(e) => setCity(e.target.value)}
+                                className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
+                            >
+                                <option value="" disabled>{isArabic ? 'اختر المحافظة لمعرفة الشحن' : 'Select Governorate for shipping'}</option>
                                 {governorates.map((gov) => (
                                     <option key={gov.value} value={gov.value}>{gov.label}</option>
                                 ))}
