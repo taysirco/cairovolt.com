@@ -7,6 +7,7 @@ export interface CartItem {
     productId: string;
     name: string;
     price: number;
+    originalPrice?: number;
     quantity: number;
     image?: string;
     brand?: string;
@@ -19,6 +20,7 @@ interface CartContextType {
     updateQuantity: (productId: string, quantity: number) => void;
     clearCart: () => void;
     totalAmount: number;
+    totalOriginalAmount: number;
     totalItems: number;
     isOpen: boolean;
     setIsOpen: (isOpen: boolean) => void;
@@ -134,6 +136,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
     }, [startCartTransition]);
 
     const totalAmount = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    const totalOriginalAmount = items.reduce((sum, item) => sum + ((item.originalPrice || item.price) * item.quantity), 0);
     const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
 
     return (
@@ -144,6 +147,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
             updateQuantity,
             clearCart,
             totalAmount,
+            totalOriginalAmount,
             totalItems,
             isOpen,
             setIsOpen,

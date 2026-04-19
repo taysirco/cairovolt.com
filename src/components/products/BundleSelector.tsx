@@ -110,6 +110,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                 productId: item.product.id,
                 name: t?.name || item.product.slug,
                 price: item.product.price,
+                originalPrice: item.product.originalPrice,
                 quantity: 1,
                 image: item.product.images?.[0]?.url,
                 brand: item.product.brand

@@ -98,7 +98,7 @@ export default function CheckoutPage() {
     const locale = useLocale();
     const isArabic = locale === 'ar';
     const router = useRouter();
-    const { items: cartItems, totalAmount, clearCart, addToCart, isLoaded } = useCart();
+    const { items: cartItems, totalAmount, totalOriginalAmount, clearCart, addToCart, isLoaded } = useCart();
     const searchParams = useSearchParams();
     const [loading, setLoading] = useState(false);
     const [phone, setPhone] = useState('');
@@ -169,6 +169,7 @@ export default function CheckoutPage() {
     const discountAmount = couponCode ? Math.round(totalAmount * couponDiscount) : 0;
     const subtotalAfterDiscount = totalAmount - discountAmount;
     const shipping = getShippingFee(city, subtotalAfterDiscount);
+    const productSavings = Math.max(0, (totalOriginalAmount || totalAmount) - totalAmount);
 
     // Direct Buy URL support: ?add_sku=XXX (for BuyAction schema / M2M Commerce)
     useEffect(() => {
@@ -385,6 +386,14 @@ export default function CheckoutPage() {
                                 <p className="text-red-500 text-[10px] mt-1 animate-pulse">❌ {couponError}</p>
                             )}
                         </div>
+
+                        {/* Product Savings line */}
+                        {productSavings > 0 && (
+                            <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
+                                <span>🏷️ {isArabic ? 'خصم على المنتجات' : 'Products Discount'}</span>
+                                <span>- {productSavings.toLocaleString()} {currency}</span>
+                            </div>
+                        )}
 
                         {/* Discount line */}
                         {couponCode && discountAmount > 0 && (

@@ -267,6 +267,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             productId: selectedVariant ? `${product.id}_${selectedVariant.id}` : product.id,
             name: cartItemName,
             price: activePrice,
+            originalPrice: activeOriginalPrice,
             quantity: quantity,
             image: product.images?.[0]?.url,
             brand: product.brand

@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 export default function CartDrawer({ locale }: { locale: string }) {
-    const { items, isOpen, setIsOpen, updateQuantity, removeFromCart, totalAmount, clearCart } = useCart();
+    const { items, isOpen, setIsOpen, updateQuantity, removeFromCart, totalAmount, totalOriginalAmount, clearCart } = useCart();
     const t = useTranslations('Checkout'); // Reusing Checkout translations or Common
     const isRTL = locale === 'ar';
     const drawerRef = useRef<HTMLDivElement>(null);
@@ -197,7 +197,14 @@ export default function CartDrawer({ locale }: { locale: string }) {
                     <div className="p-4 border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900">
                         <div className="flex justify-between items-center mb-4">
                             <span className="text-gray-500">{isRTL ? 'المجموع الفرعي' : 'Subtotal'}</span>
-                            <span className="text-xl font-bold">{totalAmount.toLocaleString()} {isRTL ? 'ج.م' : 'EGP'}</span>
+                            <div className="text-end">
+                                {totalOriginalAmount > totalAmount && (
+                                    <span className="text-sm font-semibold text-green-600 block mb-1">
+                                        {isRTL ? `وفرت ${(totalOriginalAmount - totalAmount).toLocaleString()} ج.م` : `Saved ${(totalOriginalAmount - totalAmount).toLocaleString()} EGP`}
+                                    </span>
+                                )}
+                                <span className="text-xl font-bold">{totalAmount.toLocaleString()} {isRTL ? 'ج.م' : 'EGP'}</span>
+                            </div>
                         </div>
 
                         <Link

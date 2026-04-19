@@ -122,6 +122,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
       productId: product.slug,
       name: isAr ? product.name.ar : product.name.en,
       price: product.price,
+      originalPrice: product.originalPrice,
       quantity: 1,
       image: product.image,
       brand: product.brand,
