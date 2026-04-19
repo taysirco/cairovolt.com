@@ -340,7 +340,49 @@ export default function CheckoutPage() {
                             <span>{totalAmount.toLocaleString()} {currency}</span>
                         </div>
 
-
+                        {/* Coupon — compact inline */}
+                        <div className="pt-3 pb-1">
+                            {!couponCode ? (
+                                <div className="flex gap-1.5 items-center">
+                                    <input
+                                        type="text"
+                                        value={couponInput}
+                                        onChange={(e) => { setCouponInput(e.target.value.toUpperCase()); setCouponError(''); }}
+                                        onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), handleApplyCoupon())}
+                                        placeholder={isArabic ? 'كود خصم' : 'Coupon'}
+                                        className="flex-1 border border-gray-300 dark:border-gray-600 rounded-lg px-3 py-1.5 text-xs dark:bg-gray-700 font-mono tracking-wider text-center focus:ring-1 focus:ring-amber-400 focus:border-amber-400 outline-none transition-all"
+                                        dir="ltr"
+                                        id="summary-coupon-input"
+                                        autoComplete="off"
+                                    />
+                                    <button
+                                        type="button"
+                                        onClick={handleApplyCoupon}
+                                        className="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg text-xs transition-colors whitespace-nowrap"
+                                        id="summary-coupon-btn"
+                                    >
+                                        {isArabic ? 'تطبيق' : 'Apply'}
+                                    </button>
+                                </div>
+                            ) : (
+                                <div className="flex items-center justify-between bg-green-50 dark:bg-green-900/20 px-3 py-1.5 rounded-lg border border-green-200 dark:border-green-800">
+                                    <span className="text-xs font-bold text-green-700 dark:text-green-400 font-mono flex items-center gap-1">
+                                        ✅ {couponCode}
+                                    </span>
+                                    <button
+                                        type="button"
+                                        onClick={handleRemoveCoupon}
+                                        className="text-red-400 hover:text-red-600 text-[10px] font-medium transition-colors"
+                                        id="summary-coupon-remove"
+                                    >
+                                        ✕
+                                    </button>
+                                </div>
+                            )}
+                            {couponError && (
+                                <p className="text-red-500 text-[10px] mt-1 animate-pulse">❌ {couponError}</p>
+                            )}
+                        </div>
 
                         {/* Discount line */}
                         {couponCode && discountAmount > 0 && (
