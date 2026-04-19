@@ -23,6 +23,7 @@ interface CartContextType {
     isOpen: boolean;
     setIsOpen: (isOpen: boolean) => void;
     isPending: boolean;
+    isLoaded: boolean;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -146,7 +147,8 @@ export function CartProvider({ children }: { children: ReactNode }) {
             totalItems,
             isOpen,
             setIsOpen,
-            isPending
+            isPending,
+            isLoaded
         }}>
             {children}
         </CartContext.Provider>

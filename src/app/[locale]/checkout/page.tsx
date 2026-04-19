@@ -97,7 +97,7 @@ export default function CheckoutPage() {
     const locale = useLocale();
     const isArabic = locale === 'ar';
     const router = useRouter();
-    const { items: cartItems, totalAmount, clearCart, addToCart } = useCart();
+    const { items: cartItems, totalAmount, clearCart, addToCart, isLoaded } = useCart();
     const searchParams = useSearchParams();
     const [loading, setLoading] = useState(false);
     const [phone, setPhone] = useState('');
@@ -191,12 +191,12 @@ export default function CheckoutPage() {
         }
     }, [searchParams, directBuyProcessed, addToCart]);
 
-    // Redirect if cart is empty
+    // Redirect if cart is empty (only after localStorage has been loaded)
     useEffect(() => {
-        if (!loading && cartItems.length === 0 && !searchParams.get('add_sku')) {
+        if (isLoaded && !loading && cartItems.length === 0 && !searchParams.get('add_sku')) {
             router.push('/');
         }
-    }, [cartItems, loading, router, searchParams]);
+    }, [cartItems, loading, router, searchParams, isLoaded]);
 
     // Analytics: log checkout start
     useEffect(() => {
