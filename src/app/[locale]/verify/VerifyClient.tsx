@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { Suspense } from 'react';
 
 /* ──────────────────────────────────────────────────
    Analytics Helpers — GA4 + TikTok Pixel
@@ -216,7 +215,7 @@ const TOTAL_PROCESSING_TIME = PROCESSING_PHASES.reduce((s, p) => s + p.duration,
 /* ──────────────────────────────────────────────────
    Main Component
    ────────────────────────────────────────────────── */
-function VerifyContent() {
+export default function VerifyClient() {
     const searchParams = useSearchParams();
     const serialFromQR = searchParams.get('s') || '';
     const productFromQR = searchParams.get('p') || '';
@@ -668,7 +667,7 @@ function VerifyContent() {
             )}
 
             {/* ═══════════════════════════════════════
-                STEP 3: Search Injection — Branded Search
+                STEP 3: Gift — Coupon + Internal Shop Link
                 ═══════════════════════════════════════ */}
             {step === 3 && (
                 <div style={{ ...styles.card, ...styles.cardSuccess, animation: 'cvFadeIn 0.5s' }}>
@@ -685,118 +684,69 @@ function VerifyContent() {
                         fontSize: 'clamp(18px, 5vw, 22px)', fontWeight: 800, color: '#fafafa',
                         margin: '0 0 6px',
                     }}>
-                        كود خصم 10% على طلبك الأول
+                        خصم 10% على طلبك القادم
                     </h2>
 
-                    <p style={{
-                        fontSize: '14px', color: '#a1a1aa', margin: '0 0 24px',
+                    {/* Coupon Code Display */}
+                    <div style={{
+                        background: 'linear-gradient(135deg, #78350f 0%, #92400e 100%)',
+                        borderRadius: '12px',
+                        padding: 'clamp(16px, 3vw, 24px)',
+                        margin: '16px 0',
+                        border: '2px dashed rgba(253, 230, 138, 0.4)',
                     }}>
-                        للحصول على الكود، اتبع الخطوات التالية:
+                        <p style={{ fontSize: '11px', color: '#fde68a', margin: '0 0 8px' }}>كود الخصم الخاص بك</p>
+                        <p style={{
+                            fontSize: 'clamp(24px, 7vw, 32px)', fontWeight: 800, color: '#fefce8',
+                            fontFamily: "'Outfit', monospace", letterSpacing: '0.15em',
+                            margin: '0 0 8px', direction: 'ltr',
+                        }}>
+                            VERIFY10
+                        </p>
+                        <p style={{ fontSize: '11px', color: '#fcd34d', margin: 0 }}>
+                            صالح لمدة 7 أيام — استخدمه في صفحة الدفع
+                        </p>
+                    </div>
+
+                    <p style={{
+                        fontSize: '13px', color: '#a1a1aa', margin: '0 0 16px', lineHeight: 1.7,
+                    }}>
+                        استخدم الكود عند الشراء من أي قسم في المتجر واحصل على الخصم فوراً ✨
                     </p>
 
-                    {/* Steps */}
-                    <div style={{
-                        textAlign: 'right', marginBottom: 'clamp(14px, 3vw, 24px)',
-                    }}>
-                        {[
-                            { icon: '📱', text: 'افتح بحث جوجل على تليفونك' },
-                            { icon: '⌨️', text: 'اكتب: كايرو فولت شواحن انكر', highlight: true },
-                            { icon: '👆', text: 'اضغط على النتيجة الأولى (cairovolt.com)' },
-                            { icon: '🏷️', text: 'الكود موجود في البانر الذهبي أعلى الموقع' },
-                        ].map((s, i) => (
-                            <div key={i} style={{
-                                display: 'flex', alignItems: 'center', gap: '10px',
-                                padding: 'clamp(8px, 2vw, 12px) clamp(10px, 2.5vw, 14px)', marginBottom: '6px',
-                                background: s.highlight ? 'rgba(245, 158, 11, 0.1)' : 'rgba(39, 39, 42, 0.5)',
-                                borderRadius: '12px',
-                                border: s.highlight ? '1px solid rgba(245, 158, 11, 0.3)' : '1px solid transparent',
-                            }}>
-                                <span style={{
-                                    fontSize: 'clamp(18px, 5vw, 24px)', width: 'clamp(28px, 8vw, 36px)',
-                                    textAlign: 'center', flexShrink: 0,
-                                }}>
-                                    {s.icon}
-                                </span>
-                                <div>
-                                    <span style={{
-                                        fontSize: '10px', color: '#71717a',
-                                        display: 'block', marginBottom: '2px',
-                                    }}>
-                                        الخطوة {i + 1}
-                                    </span>
-                                    <span className="cv-step-text" style={{
-                                        fontSize: '14px',
-                                        color: s.highlight ? '#fde68a' : '#d4d4d8',
-                                        fontWeight: s.highlight ? 700 : 400,
-                                    }}>
-                                        {s.text}
-                                    </span>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-
-                    {/* Google Search Mockup */}
-                    <div style={{
-                        background: '#1a1a2e',
-                        borderRadius: '12px',
-                        padding: 'clamp(10px, 2.5vw, 16px)',
-                        marginBottom: 'clamp(14px, 3vw, 20px)',
-                        border: '1px solid #27272a',
-                    }}>
-                        <div style={{
-                            display: 'flex', alignItems: 'center', gap: '8px',
-                            background: '#27272a', borderRadius: '24px',
-                            padding: '10px 16px', marginBottom: '14px',
-                        }}>
-                            <div style={{ width: '16px', height: '16px', color: '#71717a', flexShrink: 0 }}>
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                    <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
-                                </svg>
-                            </div>
-                            <span style={{
-                                fontSize: '13px', color: '#d4d4d8',
-                                fontFamily: "'Cairo', sans-serif",
-                            }}>
-                                كايرو فولت شواحن انكر
-                            </span>
-                        </div>
-                        {/* Search result mockup */}
-                        <div style={{
-                            textAlign: 'right', padding: '8px 4px',
-                        }}>
-                            <p style={{
-                                fontSize: '11px', color: '#71717a',
-                                margin: '0 0 2px', direction: 'ltr', textAlign: 'left',
-                            }}>
-                                cairovolt.com
-                            </p>
-                            <p style={{
-                                fontSize: '15px', color: '#60a5fa',
-                                margin: '0 0 4px', fontWeight: 600,
-                            }}>
-                                كايرو فولت | شواحن أنكر الأصلية في مصر
-                            </p>
-                            <p style={{
-                                fontSize: '12px', color: '#a1a1aa',
-                                margin: 0, lineHeight: 1.5,
-                            }}>
-                                الوكيل المعتمد لشواحن Anker في مصر. ضمان 18 شهر. شحن لكل المحافظات...
-                            </p>
-                        </div>
-                    </div>
-
-                    <button
-                        onClick={handleSearchRedirect}
-                        style={{ ...styles.button, ...styles.giftBtn, marginBottom: '10px' }}
-                        id="verify-search-btn"
+                    {/* Primary: Shop Now (internal link — keeps session) */}
+                    <a
+                        href="/anker/wall-chargers"
+                        onClick={() => {
+                            handleSearchRedirect();
+                            gtagEvent('verify_shop_now', {
+                                product_id: result?.productId || '',
+                                total_dwell_time: Math.round((Date.now() - startTimeRef.current) / 1000),
+                            });
+                        }}
+                        style={{
+                            ...styles.button,
+                            ...styles.giftBtn,
+                            display: 'block',
+                            textDecoration: 'none',
+                            textAlign: 'center',
+                            marginBottom: '10px',
+                        }}
+                        id="verify-shop-btn"
                     >
-                        ✅ فهمت — هفتح جوجل دلوقتي
-                    </button>
+                        🛒 تسوق الآن واستخدم الكود
+                    </a>
+
+                    {/* Secondary: branded search nudge (text only) */}
+                    <p style={{
+                        fontSize: '11px', color: '#71717a', margin: '8px 0 0', lineHeight: 1.6,
+                    }}>
+                        💡 أو ابحث في جوجل عن: <strong style={{ color: '#a1a1aa' }}>كايرو فولت شواحن انكر</strong>
+                    </p>
 
                     <button
                         onClick={() => setStep(2)}
-                        style={{ ...styles.button, ...styles.outlineBtn }}
+                        style={{ ...styles.button, ...styles.outlineBtn, marginTop: '10px' }}
                     >
                         ← رجوع لشهادة الضمان
                     </button>
@@ -948,30 +898,3 @@ function VerifyContent() {
     );
 }
 
-/* ──────────────────────────────────────────────────
-   Default Export with Suspense boundary for useSearchParams
-   ────────────────────────────────────────────────── */
-export default function C2PAVerification() {
-    return (
-        <Suspense fallback={
-            <div style={{
-                minHeight: '100vh',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                background: '#09090b',
-            }}>
-                <div style={{
-                    width: '40px', height: '40px',
-                    border: '3px solid #27272a',
-                    borderTop: '3px solid #10b981',
-                    borderRadius: '50%',
-                    animation: 'cvSpin 1s linear infinite',
-                }} />
-                <style>{`@keyframes cvSpin { to { transform: rotate(360deg); } }`}</style>
-            </div>
-        }>
-            <VerifyContent />
-        </Suspense>
-    );
-}

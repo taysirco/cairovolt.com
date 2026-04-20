@@ -81,6 +81,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // ── Legal & Policy ──
     addBilingual(routes, '/return-policy', 0.4, 'yearly', new Date('2025-10-01'));
     addBilingual(routes, '/warranty', 0.4, 'yearly', new Date('2025-10-01'));
+    addBilingual(routes, '/verify', 0.8, 'monthly', new Date('2026-04-20'));
     addBilingual(routes, '/shipping', 0.5, 'monthly', new Date('2025-12-15'));
     addBilingual(routes, '/terms', 0.3, 'yearly', new Date('2025-08-01'));
     addBilingual(routes, '/privacy', 0.3, 'yearly', new Date('2025-08-01'));
