@@ -74,16 +74,15 @@ function getShortName(item: any): string {
     return raw.length > 40 ? raw.slice(0, 37) + '...' : raw;
 }
 
-/** Build a short product link: cairovolt.com/{brand}/{category}/{slug} */
+/** Build a short product link using internal /go/ shortener */
 function getShortLink(item: any): string {
     const product = findProduct(item);
     if (product) {
-        const brand = product.brand.toLowerCase();
-        return `cairovolt.com/${brand}/${product.categorySlug}/${product.slug}`;
+        return `cairovolt.com/go/${product.slug}`;
     }
     // Fallback: use slug/productId if available
     const slug = item.slug || item.productId || '';
-    return slug ? `cairovolt.com/ar/${slug}` : '';
+    return slug ? `cairovolt.com/go/${slug}` : '';
 }
 
 // Determine order source label + product link for the المصدر column
