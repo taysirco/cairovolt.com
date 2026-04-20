@@ -246,34 +246,34 @@ export default async function VerifyPage({
                 Server-Rendered SEO Content (Googlebot reads this)
                 ═══════════════════════════════════════ */}
             <section
-                className="bg-gray-50 dark:bg-gray-950 py-12 border-t border-gray-200 dark:border-gray-800"
+                style={{ background: '#0a0a0b', borderTop: '1px solid #27272a', padding: '48px 0' }}
                 dir={isArabic ? 'rtl' : 'ltr'}
             >
-                <div className="container mx-auto px-4 max-w-3xl">
-                    <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
+                <div style={{ maxWidth: '48rem', margin: '0 auto', padding: '0 16px' }}>
+                    <h1 style={{ fontSize: 'clamp(1.5rem, 4vw, 1.875rem)', fontWeight: 700, textAlign: 'center', color: '#fafafa', marginBottom: '32px' }}>
                         {isArabic
                             ? 'نظام التحقق من أصالة المنتج — C2PA'
                             : 'Product Authentication System — C2PA'}
                     </h1>
 
-                    <p className="text-gray-600 dark:text-gray-400 text-center mb-10 leading-relaxed">
+                    <p style={{ color: '#a1a1aa', textAlign: 'center', marginBottom: '40px', lineHeight: 1.7 }}>
                         {isArabic
                             ? 'كايرو فولت تستخدم بروتوكول C2PA العالمي للتحقق من أصالة كل منتج. أدخل رقم السيريال المطبوع على كرت الضمان للتأكد من أن منتجك أصلي 100% وتفعيل الضمان الذهبي 14 يوماً.'
                             : 'CairoVolt uses the global C2PA protocol to verify the authenticity of every product. Enter the serial number printed on your warranty card to confirm your product is 100% authentic and activate your 14-day golden warranty.'}
                     </p>
 
                     {/* FAQ Section — Server-Rendered */}
-                    <div className="space-y-4">
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                         {faqs.map((faq, idx) => (
                             <details
                                 key={idx}
-                                className="group bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden"
+                                style={{ background: '#18181b', borderRadius: '12px', border: '1px solid #27272a', overflow: 'hidden' }}
                             >
-                                <summary className="flex items-center justify-between p-5 cursor-pointer font-medium text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
-                                    <span className={isArabic ? 'pl-4' : 'pr-4'}>{faq.question}</span>
-                                    <span className="transform group-open:rotate-180 transition-transform text-gray-400 flex-shrink-0">▼</span>
+                                <summary style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px', cursor: 'pointer', fontWeight: 500, color: '#fafafa' }}>
+                                    <span style={isArabic ? { paddingLeft: '16px' } : { paddingRight: '16px' }}>{faq.question}</span>
+                                    <span style={{ color: '#71717a', flexShrink: 0, fontSize: '12px' }}>▼</span>
                                 </summary>
-                                <div className="px-5 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
+                                <div style={{ padding: '0 20px 20px', color: '#a1a1aa', lineHeight: 1.7, borderTop: '1px solid #27272a', paddingTop: '16px' }}>
                                     {faq.answer}
                                 </div>
                             </details>
@@ -281,16 +281,16 @@ export default async function VerifyPage({
                     </div>
 
                     {/* Trust Signals */}
-                    <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div style={{ marginTop: '40px', display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', textAlign: 'center' }}>
                         {[
                             { icon: '🛡️', label: isArabic ? 'ضمان 14 يوم' : '14-Day Warranty' },
                             { icon: '🔬', label: isArabic ? 'فحص جنائي C2PA' : 'C2PA Forensic' },
                             { icon: '📱', label: isArabic ? 'QR Code فوري' : 'Instant QR' },
                             { icon: '🇪🇬', label: isArabic ? 'مصر فقط' : 'Egypt Only' },
                         ].map((item, i) => (
-                            <div key={i} className="p-3 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700">
-                                <span className="text-2xl block mb-1">{item.icon}</span>
-                                <span className="text-xs text-gray-600 dark:text-gray-400 font-medium">{item.label}</span>
+                            <div key={i} style={{ padding: '12px', background: '#18181b', borderRadius: '12px', border: '1px solid #27272a' }}>
+                                <span style={{ fontSize: '1.5rem', display: 'block', marginBottom: '4px' }}>{item.icon}</span>
+                                <span style={{ fontSize: '0.75rem', color: '#a1a1aa', fontWeight: 500 }}>{item.label}</span>
                             </div>
                         ))}
                     </div>

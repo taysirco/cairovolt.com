@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 
 /**
  * Root layout — This is the ONLY layout that renders <html> and <body>.
- * Routes in [locale]/, /verify/, and /admin/ are nested layouts
+ * Routes in [locale]/ and /admin/ are nested layouts
  * that render their own content INSIDE this shell.
  *
  * For [locale] routes: [locale]/layout.tsx adds i18n, header, footer, etc.
- * For /verify routes: verify/layout.tsx adds the standalone dark UI shell.
+ *   (includes /verify, which was moved into [locale] for SEO)
  * For /admin routes: admin/layout.tsx adds the admin shell.
  */
 export default function RootLayout({
