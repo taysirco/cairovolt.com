@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // Arabic is default locale - no /ar/ prefix
       canonical: locale === 'ar' ? 'https://cairovolt.com' : 'https://cairovolt.com/en',
       languages: {
-        'ar': 'https://cairovolt.com',
-        'en': 'https://cairovolt.com/en',
+        'ar-EG': 'https://cairovolt.com',
+        'en-EG': 'https://cairovolt.com/en',
         'x-default': 'https://cairovolt.com',
       },
     },

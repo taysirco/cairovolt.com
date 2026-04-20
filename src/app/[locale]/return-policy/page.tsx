@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 ? 'https://cairovolt.com/return-policy'
                 : 'https://cairovolt.com/en/return-policy',
             languages: {
-                'ar': 'https://cairovolt.com/return-policy',
-                'en': 'https://cairovolt.com/en/return-policy',
+                'ar-EG': 'https://cairovolt.com/return-policy',
+                'en-EG': 'https://cairovolt.com/en/return-policy',
                 'x-default': 'https://cairovolt.com/return-policy',
             },
         },

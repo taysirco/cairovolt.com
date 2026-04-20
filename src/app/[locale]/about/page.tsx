@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         alternates: {
             canonical: canonicalUrl,
             languages: {
-                'ar': 'https://cairovolt.com/about',
-                'en': 'https://cairovolt.com/en/about',
+                'ar-EG': 'https://cairovolt.com/about',
+                'en-EG': 'https://cairovolt.com/en/about',
                 'x-default': 'https://cairovolt.com/about',
             },
         },
