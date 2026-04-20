@@ -9,7 +9,7 @@ env:
   - variable: FIREBASE_PROJECT_ID
     value: gadgets-b0bdb
   - variable: GOOGLE_SHEET_ID
-    value: 1XMwbuCIsCTTAEp0b3MVj5uTKjov_Y9AGmFcchKOBx1I
+    value: 1laNmzAhUHJpkm-DTqzn0fsZxZNZ7S-Du2-_m7WFDYc8
   - variable: FIREBASE_DATABASE_ID
     value: gadgets
 

@@ -45,10 +45,14 @@ function buildNotesField(orderData: any): string {
     if (orderData.couponCode) {
         parts.push(`كوبون: ${orderData.couponCode} | خصم: ${orderData.couponDiscount} جنيه`);
     }
-    if (orderData.source) {
-        parts.push(`المصدر: ${orderData.source}`);
-    }
     return parts.join(' | ');
+}
+
+// Determine order source label for the المصدر column
+function getSourceLabel(orderData: any): string {
+    if (orderData.source === 'quick-cod') return 'Quick COD';
+    if (orderData.source === 'm2m-checkout') return 'M2M Checkout';
+    return orderData.source || 'الموقع';
 }
 
 export async function appendOrderToSheet(orderData: any) {
@@ -64,10 +68,10 @@ export async function appendOrderToSheet(orderData: any) {
         const doc = new GoogleSpreadsheet(SHEET_ID, auth);
         await doc.loadInfo();
 
-        const sheet = doc.sheetsByIndex[0]; // Assume first sheet
+        const sheet = doc.sheetsByIndex[0]; // First sheet
 
         const rows = orderData.items.map((item: any, idx: number) => ({
-            'تاريخ الطلب': new Date().toLocaleDateString('ar-EG'),                        // A
+            'التاريخ': new Date().toLocaleDateString('ar-EG'),                              // A
             'الاسم': orderData.customerName,                                               // B
             'رقم الهاتف': orderData.phone,                                                 // C
             'رقم الواتس': orderData.whatsapp || orderData.phone,                           // D
@@ -78,10 +82,9 @@ export async function appendOrderToSheet(orderData: any) {
             'الكمية': item.quantity,                                                       // I
             'توتال السعر شامل الشحن': idx === 0 ? orderData.totalAmount : '',              // J
             'اسم المنتج': item.name,                                                      // K
-            'سعر المنتج': item.price || 0,                                                 // L
-            'الحالة': 'جديد',                                                              // M
-            'ملاحظات': idx === 0 ? buildNotesField(orderData) : '',                        // N
-            'كود الخصم': idx === 0 ? (orderData.couponCode || '') : '',                    // O
+            'الحالة': 'جديد',                                                              // L
+            'ملاحظات': idx === 0 ? buildNotesField(orderData) : '',                        // M
+            'المصدر': idx === 0 ? getSourceLabel(orderData) : '',                          // N
         }));
 
         await sheet.addRows(rows);

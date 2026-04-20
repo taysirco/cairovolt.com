@@ -20,7 +20,7 @@ const { JWT } = require('google-auth-library');
 const { SecretManagerServiceClient } = require('@google-cloud/secret-manager');
 
 const PROJECT_ID = 'gadgets-b0bdb';
-const SHEET_ID = '1XMwbuCIsCTTAEp0b3MVj5uTKjov_Y9AGmFcchKOBx1I';
+const SHEET_ID = '1laNmzAhUHJpkm-DTqzn0fsZxZNZ7S-Du2-_m7WFDYc8';
 const DRY_RUN = process.argv.includes('--dry-run');
 
 const secretClient = new SecretManagerServiceClient();
@@ -87,7 +87,7 @@ async function main() {
         const details = (row.get('تفاصيل الطلب') || '').toString().trim();
         const total = (row.get('توتال السعر شامل الشحن') || '').toString().trim();
         const name = (row.get('الاسم') || '').toString().trim();
-        const date = (row.get('تاريخ الطلب') || '').toString().trim();
+        const date = (row.get('التاريخ') || '').toString().trim();
 
         // Build composite key
         const key = `${phone}||${details}||${total}||${name}||${date}`;

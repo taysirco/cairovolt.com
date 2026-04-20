@@ -13,7 +13,7 @@ import { FieldValue } from 'firebase-admin/firestore';
 
 // Column indices (0-based) — must match actual Google Sheet header order
 const COLUMNS = {
-    ORDER_DATE: 0,      // A - تاريخ الطلب
+    ORDER_DATE: 0,      // A - التاريخ
     CUSTOMER_NAME: 1,   // B - الاسم
     PHONE: 2,           // C - رقم الهاتف
     WHATSAPP: 3,        // D - رقم الواتس
@@ -24,9 +24,9 @@ const COLUMNS = {
     QUANTITY: 8,        // I - الكمية
     TOTAL_PRICE: 9,     // J - توتال السعر شامل الشحن
     PRODUCT_NAME: 10,   // K - اسم المنتج
-    PRODUCT_PRICE: 11,  // L - سعر المنتج
-    STATUS: 12,         // M - الحالة
-    NOTES: 13,          // N - ملاحظات
+    STATUS: 11,         // L - الحالة
+    NOTES: 12,          // M - ملاحظات
+    SOURCE: 13,         // N - المصدر
 };
 
 const DELIVERED_STATUS = 'تم التوصيل';

@@ -25,7 +25,7 @@ const { SecretManagerServiceClient } = require('@google-cloud/secret-manager');
 // ── Config ──
 const PROJECT_ID = 'gadgets-b0bdb';
 const DATABASE_ID = 'gadgets';
-const SHEET_ID = '1XMwbuCIsCTTAEp0b3MVj5uTKjov_Y9AGmFcchKOBx1I';
+const SHEET_ID = '1laNmzAhUHJpkm-DTqzn0fsZxZNZ7S-Du2-_m7WFDYc8';
 const DRY_RUN = process.argv.includes('--dry-run');
 
 // ── Secret Manager ──
@@ -251,7 +251,7 @@ async function main() {
         const allRows = [];
         for (const order of batch) {
             const orderRows = (order.items || []).map((item, idx) => ({
-                'تاريخ الطلب': formatDate(order.createdAt),
+                'التاريخ': formatDate(order.createdAt),
                 'الاسم': order.customerName || '',
                 'رقم الهاتف': order.phone || '',
                 'رقم الواتس': order.whatsapp || order.phone || '',
@@ -262,10 +262,9 @@ async function main() {
                 'الكمية': item.quantity || 1,
                 'توتال السعر شامل الشحن': idx === 0 ? (order.totalAmount || 0) : '',
                 'اسم المنتج': item.name || '',
-                'سعر المنتج': item.price || 0,
                 'الحالة': order.status === 'pending' ? 'جديد' : (order.status || 'جديد'),
                 'ملاحظات': idx === 0 ? buildNotesField(order) : '',
-                'كود الخصم': idx === 0 ? (order.couponCode || '') : '',
+                'المصدر': idx === 0 ? (order.source || 'Firestore Sync') : '',
             }));
             allRows.push(...orderRows);
         }
