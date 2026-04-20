@@ -169,6 +169,11 @@ export default function Footer() {
                                     {t('warrantyInfo')}
                                 </Link>
                             </li>
+                            <li>
+                                <Link href={getLocalizedHref('/verify')} className="hover:text-emerald-600 transition-colors">
+                                    {isRTL ? '🔍 تحقق من أصالة المنتج' : '🔍 Verify Product'}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, usePathname } from 'next/navigation';
 
 /* ──────────────────────────────────────────────────
    Analytics Helpers — GA4 + TikTok Pixel
@@ -217,6 +217,8 @@ const TOTAL_PROCESSING_TIME = PROCESSING_PHASES.reduce((s, p) => s + p.duration,
    ────────────────────────────────────────────────── */
 export default function VerifyClient() {
     const searchParams = useSearchParams();
+    const pathname = usePathname();
+    const localePrefix = pathname.startsWith('/en') ? '/en' : '';
     const serialFromQR = searchParams.get('s') || '';
     const productFromQR = searchParams.get('p') || '';
 
@@ -716,7 +718,7 @@ export default function VerifyClient() {
 
                     {/* Primary: Shop Now (internal link — keeps session) */}
                     <a
-                        href={typeof window !== 'undefined' && window.location.pathname.startsWith('/en') ? '/en/anker/wall-chargers' : '/anker/wall-chargers'}
+                        href={`${localePrefix}/anker/wall-chargers`}
                         onClick={() => {
                             handleSearchRedirect();
                             gtagEvent('verify_shop_now', {
