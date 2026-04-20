@@ -234,8 +234,9 @@ export default async function VerifyPage({
                         border: '3px solid #27272a',
                         borderTop: '3px solid #10b981',
                         borderRadius: '50%',
-                        animation: 'spin 1s linear infinite',
+                        animation: 'cvFallbackSpin 1s linear infinite',
                     }} />
+                    <style>{`@keyframes cvFallbackSpin { to { transform: rotate(360deg); } }`}</style>
                 </div>
             }>
                 <VerifyClient />

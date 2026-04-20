@@ -342,7 +342,7 @@ export default function VerifyClient() {
             `📋 رقم الضمان: ${result.warrantyCode}\n` +
             `🛡️ ${result.productName}\n\n` +
             `تحقق من جهازك أنت كمان:\n` +
-            `https://cairovolt.com`
+            `https://cairovolt.com/verify`
         );
         window.open(`https://wa.me/?text=${text}`, '_blank');
     }, [result]);
@@ -716,7 +716,7 @@ export default function VerifyClient() {
 
                     {/* Primary: Shop Now (internal link — keeps session) */}
                     <a
-                        href="/anker/wall-chargers"
+                        href={typeof window !== 'undefined' && window.location.pathname.startsWith('/en') ? '/en/anker/wall-chargers' : '/anker/wall-chargers'}
                         onClick={() => {
                             handleSearchRedirect();
                             gtagEvent('verify_shop_now', {
