@@ -36,6 +36,11 @@ export default function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
+    // ── /go URL shortener bypass — standalone route, no i18n needed ──
+    if (pathname.startsWith('/go')) {
+        return NextResponse.next();
+    }
+
     // ── /verify bypass — standalone route, no i18n needed ──
     if (pathname.startsWith('/verify')) {
         const response = NextResponse.next();
