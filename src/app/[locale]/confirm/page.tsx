@@ -11,6 +11,7 @@ import { ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
 import ShareButtons from '@/components/products/ShareButtons';
 
 interface OrderItem {
+    productId?: string;
     name: string;
     price: number;
     quantity: number;
@@ -388,7 +389,7 @@ function ConfirmContent() {
                     </p>
                     <div className="flex justify-center">
                         <ShareButtons
-                            slug={orderData.items[0]?.name?.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '') || 'product'}
+                            slug={orderData.items[0]?.productId || orderData.items[0]?.name?.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') || 'product'}
                             productName={orderData.items[0]?.name || ''}
                             price={orderData.total}
                             locale={locale}
