@@ -54,9 +54,6 @@ function buildNotesField(orderData) {
     if (orderData.couponCode) {
         parts.push(`كوبون: ${orderData.couponCode} | خصم: ${orderData.couponDiscount} جنيه`);
     }
-    if (orderData.source) {
-        parts.push(`المصدر: ${orderData.source}`);
-    }
     return parts.join(' | ');
 }
 
@@ -280,7 +277,7 @@ async function main() {
             for (const order of batch) {
                 try {
                     const singleRows = (order.items || []).map((item, idx) => ({
-                        'تاريخ الطلب': formatDate(order.createdAt),
+                        'التاريخ': formatDate(order.createdAt),
                         'الاسم': order.customerName || '',
                         'رقم الهاتف': order.phone || '',
                         'رقم الواتس': order.whatsapp || order.phone || '',
@@ -291,10 +288,9 @@ async function main() {
                         'الكمية': item.quantity || 1,
                         'توتال السعر شامل الشحن': idx === 0 ? (order.totalAmount || 0) : '',
                         'اسم المنتج': item.name || '',
-                        'سعر المنتج': item.price || 0,
                         'الحالة': order.status === 'pending' ? 'جديد' : (order.status || 'جديد'),
                         'ملاحظات': idx === 0 ? buildNotesField(order) : '',
-                        'كود الخصم': idx === 0 ? (order.couponCode || '') : '',
+                        'المصدر': idx === 0 ? (order.source || 'Firestore Sync') : '',
                     }));
                     await sheet.addRows(singleRows);
                     successCount++;

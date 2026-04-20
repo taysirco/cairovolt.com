@@ -50,8 +50,9 @@ function buildNotesField(orderData: any): string {
 
 // Determine order source label for the المصدر column
 function getSourceLabel(orderData: any): string {
-    if (orderData.source === 'quick-cod') return 'Quick COD';
-    if (orderData.source === 'm2m-checkout') return 'M2M Checkout';
+    if (orderData.source === 'quick_cod') return 'Quick COD';
+    if (orderData.source === 'm2m_checkout') return 'M2M Checkout';
+    if (orderData.source === 'website') return 'الموقع';
     return orderData.source || 'الموقع';
 }
 

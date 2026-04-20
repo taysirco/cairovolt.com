@@ -58,6 +58,7 @@ export async function POST(req: NextRequest) {
 
         const orderData = {
             orderId,
+            source: 'website',
             customerName: sanitizeInput(data.customerName, 100),
             phone: cleanPhone,
             whatsapp: sanitizeInput(data.whatsapp || data.phone, 20).replace(/[^0-9]/g, '') || cleanPhone,
