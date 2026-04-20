@@ -25,9 +25,32 @@ export async function POST(req: Request) {
             return NextResponse.json({ error: 'Invalid payload. Required: url, type (URL_UPDATED|URL_DELETED)' }, { status: 400 });
         }
 
-        // 1. Invalidate the ISR cache so the updated price/stock is reflected immediately
+        // 1. Invalidate ISR cache — purge ALL pages that show this product's price/stock
         if (slug) {
+            // Product page (both locales)
             revalidatePath(`/[locale]/[brand]/[category]/${slug}`, 'page');
+
+            // Extract brand/category from URL for parent page invalidation
+            try {
+                const urlObj = new URL(url);
+                const parts = urlObj.pathname.split('/').filter(Boolean);
+                // URL format: /ar/brand/category/slug or /en/brand/category/slug
+                const brand = parts[1];
+                const category = parts[2];
+                if (brand && category) {
+                    // Category listing page
+                    revalidatePath(`/[locale]/${brand}/${category}`, 'page');
+                    // Brand hub page
+                    revalidatePath(`/[locale]/${brand}`, 'page');
+                }
+            } catch { /* URL parsing failed — skip parent pages */ }
+
+            // Home page (shows featured products with prices)
+            revalidatePath('/[locale]', 'page');
+            // RSS feed (includes prices)
+            revalidatePath('/feed.xml', 'layout');
+
+            console.log(`[ISR] 🔄 Purged cache for: ${slug} + parent pages`);
         }
 
         // 2. Authenticate with Google Indexing API via service account

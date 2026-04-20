@@ -13,7 +13,7 @@ import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { staticProducts } from '@/lib/static-products';
 import BestSellingProducts from '@/components/products/BestSellingProducts';
 
-export const revalidate = 3600;
+// ISR: On-demand revalidation only (via /api/indexing webhook)
 export const dynamicParams = false; // Unknown slugs → automatic 404 (prevents soft 404)
 
 type Props = {

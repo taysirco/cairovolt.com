@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { generateCategoryMetadata, GenericCategoryContent } from '@/lib/generic-category-helpers';
 
-export const revalidate = 3600;
+// ISR: On-demand revalidation only (via /api/indexing webhook)
 
 const SLUG = 'power-banks';
 

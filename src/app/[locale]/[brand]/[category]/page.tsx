@@ -5,7 +5,7 @@ import { categoryContent } from '@/data/category-content';
 import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
 
-export const revalidate = 3600;
+// ISR: On-demand revalidation only (via /api/indexing webhook)
 export const dynamicParams = true;
 
 type Props = {

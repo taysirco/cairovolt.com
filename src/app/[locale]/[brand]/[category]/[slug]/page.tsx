@@ -20,7 +20,8 @@ import { headers } from 'next/headers';
 
 import { buildManifest, signManifest } from '@/lib/media-verification';
 
-export const revalidate = 3600;
+// ISR: On-demand revalidation only (via /api/indexing webhook)
+// No time-based revalidation — Google Shopping demands 100% price/stock accuracy
 export const dynamicParams = true;
 
 type Props = {

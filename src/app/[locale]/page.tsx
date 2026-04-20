@@ -12,7 +12,7 @@ import ProductShowcase from '@/components/home/ProductShowcase';
 import SocialProofStrip from '@/components/home/SocialProofStrip';
 import BrandShowcase from '@/components/home/BrandShowcase';
 
-export const revalidate = 3600;
+// ISR: On-demand revalidation only (via /api/indexing webhook)
 
 type Props = {
   params: Promise<{ locale: string }>;
