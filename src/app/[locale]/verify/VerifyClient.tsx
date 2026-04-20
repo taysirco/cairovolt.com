@@ -805,7 +805,7 @@ export default function VerifyClient() {
                         <button
                             onClick={() => {
                                 gtagEvent('verify_support_click');
-                                window.open('https://wa.me/201030448aborr?text=' + encodeURIComponent(
+                                window.open('https://wa.me/201558245974?text=' + encodeURIComponent(
                                     `مرحبا، عندي استفسار عن الضمان.\nرقم الضمان: ${result.warrantyCode}\nالمنتج: ${result.productName}`
                                 ), '_blank');
                             }}
