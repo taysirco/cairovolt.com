@@ -51,8 +51,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
                 ? `https://cairovolt.com/locations/${gov.slug}`
                 : `https://cairovolt.com/en/locations/${gov.slug}`,
             languages: {
-                'ar': `https://cairovolt.com/locations/${gov.slug}`,
-                'en': `https://cairovolt.com/en/locations/${gov.slug}`,
+                'ar-EG': `https://cairovolt.com/locations/${gov.slug}`,
+                'en-EG': `https://cairovolt.com/en/locations/${gov.slug}`,
                 'x-default': `https://cairovolt.com/locations/${gov.slug}`,
             },
         },

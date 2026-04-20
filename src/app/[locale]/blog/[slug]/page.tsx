@@ -68,8 +68,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 ? `https://cairovolt.com/blog/${slug}`
                 : `https://cairovolt.com/en/blog/${slug}`,
             languages: {
-                'ar': `https://cairovolt.com/blog/${slug}`,
-                'en': `https://cairovolt.com/en/blog/${slug}`,
+                'ar-EG': `https://cairovolt.com/blog/${slug}`,
+                'en-EG': `https://cairovolt.com/en/blog/${slug}`,
                 'x-default': `https://cairovolt.com/blog/${slug}`,
             },
         },
