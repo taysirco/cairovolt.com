@@ -234,3 +234,25 @@ export function trackOverlayAction(action: 'shown' | 'clicked' | 'dismissed' | '
 }
 
 // Note: Global event listeners for Copy and FAQ are now handled by UXMetricsEngine.
+
+// ═════════════════════════════════════════════════════════════════════════════
+// SOCIAL SHARING EVENTS
+// ═════════════════════════════════════════════════════════════════════════════
+
+/** Tracks social share actions — uses GA4 recommended 'share' event. */
+export function trackShare(
+    method: 'whatsapp' | 'facebook' | 'twitter' | 'copy_link' | 'native',
+    itemId: string,
+    itemName: string,
+): void {
+    const key = `share_${method}_${itemId}`;
+    if (!isNewEvent(key)) return;
+
+    dispatchEvent('share', {
+        method: method,
+        content_type: 'product',
+        item_id: itemId,
+        content_id: itemId,
+        item_name: itemName,
+    });
+}

@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/analytics';
 import { ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
+import ShareButtons from '@/components/products/ShareButtons';
 
 interface OrderItem {
     name: string;
@@ -374,6 +375,25 @@ function ConfirmContent() {
                                 <p className="text-sm text-gray-500">{isArabic ? 'الدفع عند الاستلام نقداً للمندوب' : 'Pay cash to the courier upon delivery'}</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                {/* Share with Friends */}
+                <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl border shadow-sm mb-6 text-center">
+                    <h2 className="font-bold text-lg mb-3">
+                        {isArabic ? '📤 شارك المنتج مع أصدقائك!' : '📤 Share with your friends!'}
+                    </h2>
+                    <p className="text-sm text-gray-500 mb-4">
+                        {isArabic ? 'ارسل الرابط لأصحابك عشان يستفيدوا بنفس العرض' : 'Send the link to your friends so they can get the same deal'}
+                    </p>
+                    <div className="flex justify-center">
+                        <ShareButtons
+                            slug={orderData.items[0]?.name?.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '') || 'product'}
+                            productName={orderData.items[0]?.name || ''}
+                            price={orderData.total}
+                            locale={locale}
+                            compact={false}
+                        />
                     </div>
                 </div>
 

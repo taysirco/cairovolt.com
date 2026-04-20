@@ -44,6 +44,7 @@ const VariantSelector = dynamic(() => import('@/components/products/VariantSelec
     ssr: false
 });
 import RelatedLinks from '@/components/content/RelatedLinks';
+import ShareButtons from '@/components/products/ShareButtons';
 import { getProductDetail } from '@/data/product-details';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
@@ -642,6 +643,16 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     </button>
                                 </div>
 
+
+                                {/* Share Buttons */}
+                                <div className="mt-3">
+                                    <ShareButtons
+                                        slug={product.slug}
+                                        productName={productName}
+                                        price={activePrice}
+                                        locale={locale}
+                                    />
+                                </div>
 
                                 {/* Community impact section */}
                                 <div className="mt-4 p-4 rounded-xl border border-emerald-200 bg-emerald-50 dark:border-emerald-900/50 dark:bg-emerald-900/10 flex items-start gap-3 transition-transform hover:-translate-y-1 duration-300 shadow-sm">
