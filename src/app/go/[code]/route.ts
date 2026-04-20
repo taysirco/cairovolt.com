@@ -35,6 +35,8 @@ for (const p of staticProducts) {
     }
 }
 
+const PRODUCTION_DOMAIN = 'https://cairovolt.com';
+
 export async function GET(
     req: NextRequest,
     { params }: { params: Promise<{ code: string }> }
@@ -42,21 +44,25 @@ export async function GET(
     const { code } = await params;
     const product = slugMap.get(code) || slugMap.get(code.toLowerCase());
 
+    // Resolve the real origin (Firebase App Hosting uses 0.0.0.0 internally)
+    const host = req.headers.get('x-forwarded-host') || req.headers.get('host') || '';
+    const proto = req.headers.get('x-forwarded-proto') || 'https';
+    const origin = host && !host.startsWith('0.0.0.0')
+        ? `${proto}://${host}`
+        : PRODUCTION_DOMAIN;
+
     if (!product) {
         // Unknown code → redirect to homepage
-        return NextResponse.redirect(new URL('/ar', req.url), 302);
+        return NextResponse.redirect(`${origin}/ar`, { status: 302 });
     }
 
-    const fullUrl = new URL(
-        `/ar/${product.brand}/${product.category}/${product.slug}`,
-        req.url
-    );
+    const fullUrl = `${origin}/ar/${product.brand}/${product.category}/${product.slug}`;
 
     // Track click asynchronously (fire-and-forget, never blocks redirect)
     trackClick(code, req).catch(() => {});
 
     // 301 permanent redirect — browsers & search engines cache this
-    return NextResponse.redirect(fullUrl, 301);
+    return NextResponse.redirect(fullUrl, { status: 301 });
 }
 
 /** Non-blocking click tracker — logs to console, optionally to Firestore */
