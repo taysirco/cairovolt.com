@@ -1,6 +1,7 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
 import { getSecret } from './get-secrets';
+import { staticProducts } from './static-products';
 
 // Cache the JWT auth object to avoid rebuilding on every call
 let cachedAuth: JWT | null = null;
@@ -48,12 +49,54 @@ function buildNotesField(orderData: any): string {
     return parts.join(' | ');
 }
 
-// Determine order source label for the المصدر column
-function getSourceLabel(orderData: any): string {
-    if (orderData.source === 'quick_cod') return 'Quick COD';
-    if (orderData.source === 'm2m_checkout') return 'M2M Checkout';
-    if (orderData.source === 'website') return 'الموقع';
-    return orderData.source || 'الموقع';
+// ── Product Lookup Helpers (zero-latency: in-memory static data) ──
+
+/** Look up a product by its slug/productId from the static catalog */
+function findProduct(item: any) {
+    const id = item.slug || item.productId || '';
+    return staticProducts.find(p => p.slug === id);
+}
+
+/** Get a short, clean product name (strip brand prefix + trim) */
+function getShortName(item: any): string {
+    const product = findProduct(item);
+    if (product) {
+        // Use Arabic short name: e.g. "زولو A110E 20000" instead of full name"
+        const arName = product.translations?.ar?.name || '';
+        const enName = product.translations?.en?.name || '';
+        // Prefer Arabic, fallback to English, fallback to slug
+        const name = arName || enName || product.slug;
+        // Truncate to 40 chars max for clean sheet display
+        return name.length > 40 ? name.slice(0, 37) + '...' : name;
+    }
+    // Fallback: truncate raw name
+    const raw = item.name || '';
+    return raw.length > 40 ? raw.slice(0, 37) + '...' : raw;
+}
+
+/** Build a short product link: cairovolt.com/{brand}/{category}/{slug} */
+function getShortLink(item: any): string {
+    const product = findProduct(item);
+    if (product) {
+        const brand = product.brand.toLowerCase();
+        return `cairovolt.com/${brand}/${product.categorySlug}/${product.slug}`;
+    }
+    // Fallback: use slug/productId if available
+    const slug = item.slug || item.productId || '';
+    return slug ? `cairovolt.com/ar/${slug}` : '';
+}
+
+// Determine order source label + product link for the المصدر column
+function getSourceField(orderData: any): string {
+    let source = 'الموقع';
+    if (orderData.source === 'quick_cod') source = 'Quick COD';
+    else if (orderData.source === 'm2m_checkout') source = 'M2M';
+    else if (orderData.source === 'website') source = 'الموقع';
+
+    // Add short link for the first item
+    const firstItem = orderData.items?.[0];
+    const link = firstItem ? getShortLink(firstItem) : '';
+    return link ? `${source} | ${link}` : source;
 }
 
 export async function appendOrderToSheet(orderData: any) {
@@ -82,10 +125,10 @@ export async function appendOrderToSheet(orderData: any) {
             'تفاصيل الطلب': `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`, // H
             'الكمية': item.quantity,                                                       // I
             'توتال السعر شامل الشحن': idx === 0 ? orderData.totalAmount : '',              // J
-            'اسم المنتج': item.name,                                                      // K
+            'اسم المنتج': getShortName(item),                                              // K
             'الحالة': 'جديد',                                                              // L
             'ملاحظات': idx === 0 ? buildNotesField(orderData) : '',                        // M
-            'المصدر': idx === 0 ? getSourceLabel(orderData) : '',                          // N
+            'المصدر': idx === 0 ? getSourceField(orderData) : '',                          // N
         }));
 
         await sheet.addRows(rows);
