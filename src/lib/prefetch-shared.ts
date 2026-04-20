@@ -48,7 +48,7 @@ export function isPrefetchableUrl(url: string): boolean {
 
     // Skip transactional/internal routes
     if (url.includes('/admin') || url.includes('/checkout') || url.includes('/confirm')) return false;
-    if (url.includes('/api/') || url.includes('/verify')) return false;
+    if (url.includes('/api/')) return false;
 
     // Skip already prefetched URLs
     if (prefetchedUrls.has(url)) return false;

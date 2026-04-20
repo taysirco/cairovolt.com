@@ -86,13 +86,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     addBilingual(routes, '/terms', 0.3, 'yearly', new Date('2025-08-01'));
     addBilingual(routes, '/privacy', 0.3, 'yearly', new Date('2025-08-01'));
 
-    // ── C2PA Verification ──
-    routes.push({
-        url: `${baseUrl}/verify`,
-        priority: 0.8,
-        changeFrequency: 'monthly',
-        lastModified: new Date('2026-04-05'),
-    });
 
     // ── Brand Pages ──
     Object.keys(brandData).forEach(brandId => {

@@ -701,7 +701,7 @@ export default function VerifyClient() {
                             fontFamily: "'Outfit', monospace", letterSpacing: '0.15em',
                             margin: '0 0 8px', direction: 'ltr',
                         }}>
-                            VERIFY10
+                            ORIGINAL10
                         </p>
                         <p style={{ fontSize: '11px', color: '#fcd34d', margin: 0 }}>
                             صالح لمدة 7 أيام — استخدمه في صفحة الدفع
