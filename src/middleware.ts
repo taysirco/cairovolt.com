@@ -41,11 +41,7 @@ export default function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
-    // ── /verify bypass — standalone route, no i18n needed ──
-    if (pathname.startsWith('/verify')) {
-        const response = NextResponse.next();
-        return response;
-    }
+    // /verify is now inside [locale] — let intlMiddleware handle routing
 
     // ── /admin bypass — internal staff pages, no i18n needed ──
     if (pathname.startsWith('/admin')) {
