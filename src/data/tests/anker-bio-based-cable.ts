@@ -14,8 +14,8 @@ export const anker_bio_based_cable_lab: ProductLabData = {
                     ar: 'اجتاز 10,000 دورة ثني بدون أي تدهور في الإشارة أو ضرر مادي. مقارنة بالكابلات الرخيصة التي تتعطل عند 500-800 دورة في المتوسط.',
                 },
                 conditions: {
-                    en: 'Automated bending machine, CairoVolt QA Lab, Damietta City, January 2026',
-                    ar: 'ماكينة ثني آلية، مختبر فحص كايرو فولت، دمياط الجديدة، يناير 2026',
+                    en: 'Automated bending machine, CairoVolt QA Lab, Damietta City, January',
+                    ar: 'ماكينة ثني آلية، مختبر فحص كايرو فولت، دمياط الجديدة، يناير',
                 },
                 expertName: EXPERTS.CABLES.name,
                 expertProfileUrl: EXPERTS.CABLES.profileUrl,

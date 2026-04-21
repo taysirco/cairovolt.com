@@ -9,14 +9,14 @@ export const earbuds_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل سماعات بلوتوث في مصر 2026 | ايربودز | سماعات لاسلكية',
-                description: 'دليل شامل لأفضل سماعات بلوتوث في مصر 2026. سماعات لاسلكية مع إلغاء ضوضاء ANC، بديل AirPods، أسعار تبدأ من 350 جنيه. مقارنة ونصائح شراء.',
+                title: 'أفضل سماعات بلوتوث في مصر | ايربودز | سماعات لاسلكية',
+                description: 'دليل شامل لأفضل سماعات بلوتوث في مصر. سماعات لاسلكية مع إلغاء ضوضاء ANC، بديل AirPods، أسعار تبدأ من 350 جنيه. مقارنة ونصائح شراء.',
                 keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, ايربودز, سماعات لاسلكية, افضل سماعات بلوتوث, بديل ايربودز, سماعات ANC, سماعات بلوتوث رخيصة, سماعات بلوتوث رياضية, سعر سماعات بلوتوث, سماعات الغاء ضوضاء, ايربودز في مصر, سماعة بلوتوث',
             },
             en: {
-                title: 'Best Bluetooth Earbuds in Egypt 2026 | AirPods Alternative | Wireless',
-                description: 'Complete guide to the best Bluetooth earbuds in Egypt 2026. Wireless earbuds with ANC, AirPods alternative, prices from EGP 350. Comparison and buying tips.',
-                keywords: 'bluetooth earbuds egypt, wireless earbuds, airpods alternative, best bluetooth earbuds, earbuds with anc, cheap earbuds egypt, wireless earbuds egypt, noise cancelling earbuds, sport earbuds, bluetooth earbuds price, earbuds 2026, tws earbuds egypt',
+                title: 'Best Bluetooth Earbuds in Egypt | AirPods Alternative | Wireless',
+                description: 'Complete guide to the best Bluetooth earbuds in Egypt. Wireless earbuds with ANC, AirPods alternative, prices from EGP 350. Comparison and buying tips.',
+                keywords: 'bluetooth earbuds egypt, wireless earbuds, airpods alternative, best bluetooth earbuds, earbuds with anc, cheap earbuds egypt, wireless earbuds egypt, noise cancelling earbuds, sport earbuds, bluetooth earbuds price, earbuds, tws earbuds egypt',
             },
         },
         pageContent: {
@@ -45,7 +45,7 @@ export const earbuds_generic: GenericCategory = {
         },
         faq: {
             ar: [
-                { question: 'ما أفضل سماعات بلوتوث في مصر 2026؟', answer: 'لأفضل جودة مع إلغاء ضوضاء (ANC): سماعات ~1,499 جنيه. لأفضل سعر: سماعات تبدأ من 350 جنيه. لأفضل قيمة: سماعات ~599 جنيه ببطارية 10 ساعات.' },
+                { question: 'ما أفضل سماعات بلوتوث في مصر؟', answer: 'لأفضل جودة مع إلغاء ضوضاء (ANC): سماعات ~1,499 جنيه. لأفضل سعر: سماعات تبدأ من 350 جنيه. لأفضل قيمة: سماعات ~599 جنيه ببطارية 10 ساعات.' },
                 { question: 'كيف تتأكد من أصالة سماعات البلوتوث؟', answer: 'تأكد من: 1) التغليف عالي الجودة مع رقم سيريال 2) صوت نقي بدون تشويش 3) بطارية تدوم 6+ ساعات 4) بلوتوث مستقر 5) الشراء من وكيل معتمد مثل كايرو فولت.' },
                 { question: 'كم سعر سماعات بلوتوث في مصر؟', answer: 'أسعار سماعات البلوتوث تبدأ من 350 جنيه للميزانية المحدودة، 599 جنيه لأفضل قيمة، وتصل لـ 1,499 جنيه للسماعات الاحترافية مع ANC.' },
                 { question: 'ما الفرق بين السماعات الأصلية والتقليد؟', answer: 'الأصلية: 1) تغليف عالي الجودة مع رقم سيريال 2) صوت نقي بدون تشويش 3) بطارية تدوم 6+ ساعات 4) بلوتوث مستقر بدون انقطاع 5) الشراء من وكيل معتمد. التقليد: صوت رديء وبطارية ضعيفة.' },
@@ -55,7 +55,7 @@ export const earbuds_generic: GenericCategory = {
                 { question: 'أفضل سماعات بلوتوث رياضية مقاومة للماء؟', answer: 'اختر سماعات بتصنيف IPX5 أو أعلى للرياضة. IPX7 يعني مقاومة كاملة للماء والعرق (~899 جنيه). IPX4 يكفي لمقاومة العرق فقط (~350 جنيه).' },
             ],
             en: [
-                { question: 'Best Bluetooth earbuds in Egypt 2026?', answer: 'For best quality with ANC: earbuds around EGP 1,499. For best price: earbuds from EGP 350. For best value: earbuds around EGP 599 with 10-hour battery.' },
+                { question: 'Best Bluetooth earbuds in Egypt?', answer: 'For best quality with ANC: earbuds around EGP 1,499. For best price: earbuds from EGP 350. For best value: earbuds around EGP 599 with 10-hour battery.' },
                 { question: 'How to verify Bluetooth earbuds are original?', answer: 'Check: 1) High-quality packaging with serial number 2) Clear sound without distortion 3) 6+ hours battery 4) Stable Bluetooth 5) Buy from authorized dealers like CairoVolt.' },
                 { question: 'How much do Bluetooth earbuds cost in Egypt?', answer: 'Bluetooth earbuds start from EGP 350 for budget options, EGP 599 for best value, and up to EGP 1,499 for professional earbuds with ANC.' },
                 { question: 'How to tell original earbuds from fake?', answer: 'Original: 1) High-quality packaging with serial number 2) Clear sound without distortion 3) 6+ hours battery life 4) Stable Bluetooth without drops 5) Buy from authorized dealer. Fake: poor sound and weak battery.' },

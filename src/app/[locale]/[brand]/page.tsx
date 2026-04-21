@@ -48,22 +48,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = brandFirstProduct?.images[0]?.alt
         || (isArabic ? `${data.hero.title} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
-    // Page metadata setup
-    const titleVariantIndex = brand.length % 3;
+    // CTR-optimized brand page title
+    const brandProductCount = staticProducts.filter(p => p.brand.toLowerCase() === brand.toLowerCase()).length;
+    const arTitle = `${data.hero.title} الأصلية ⚡ ${brandProductCount} منتج | ضمان رسمي + توصيل لكل مصر`;
+    const enTitle = `Original ${data.hero.title} ⚡ ${brandProductCount} Products | Warranty + COD Egypt`;
 
-    const arTitleVariants = [
-        `منتجات ${data.hero.title} الأصلية في مصر 2026`,
-        `تسوق ${data.hero.title} بضمان الوكيل الرسمي`,
-        `${data.hero.title} الأصلية بأفضل سعر في مصر`
-    ];
-
-    const enTitleVariants = [
-        `Original ${data.hero.title} Products in Egypt 2026`,
-        `Shop ${data.hero.title} with Official Warranty`,
-        `Best Price for Original ${data.hero.title} Gear`
-    ];
-
-    const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
+    const dynamicTitle = isArabic ? arTitle : enTitle;
 
     // Strict lowercase for canonical URLs (URL best practice)
     return {

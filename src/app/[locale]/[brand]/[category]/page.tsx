@@ -49,23 +49,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageAlt = categoryProducts[0]?.images[0]?.alt
         || (isArabic ? `${data.categoryName} - كايرو فولت مصر` : `${data.categoryName} - CairoVolt Egypt`);
 
-    // Feature: Dynamic Title Variants
-    // Category page metadata setup
-    const titleVariantIndex = categoryKey.length % 3;
+    // Get product count for this category
+    const catProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
+    const productCount = catProducts.length;
 
-    const arTitleVariants = [
-        `أفضل 5 ${data.categoryName} من ${data.brand} (دليل شراء 2026)`,
-        `مقارنة وتقييم شامل: أي ${data.categoryName} من ${data.brand} يناسبك؟`,
-        `تجربتنا العملية لأحدث ${data.categoryName} من ${data.brand}`
-    ];
+    const arTitle = `أفضل ${data.categoryName} من ${data.brand} ⚡ ${productCount} منتج | أسعار وتوصيل لكل مصر`;
+    const enTitle = `Best ${data.brand} ${data.categoryName} ⚡ ${productCount} Products | Prices + COD Egypt`;
 
-    const enTitleVariants = [
-        `Top 5 Best ${data.brand} ${data.categoryName} (2026 Guide)`,
-        `${data.brand} ${data.categoryName} Review & Comparison`,
-        `Hands-on with the Latest ${data.brand} ${data.categoryName}`
-    ];
-
-    const dynamicTitle = isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex];
+    const dynamicTitle = isArabic ? arTitle : enTitle;
 
     return {
         title: { absolute: dynamicTitle },

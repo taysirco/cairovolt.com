@@ -14,8 +14,8 @@ export const joyroom_jr_ft3_smart_watch_lab: ProductLabData = {
                     ar: 'البطارية صمدت 11 يوم مع الشاشة الدائمة ومراقبة القلب (مقابل 14 يوم في المواصفات). مع الشاشة العادية: 14 يوم مؤكدة. مقاومة للماء: تم الاختبار في حوض سباحة وحمام بدون مشاكل.',
                 },
                 conditions: {
-                    en: 'Daily wear test, New Damietta City, February 2026',
-                    ar: 'اختبار ارتداء يومي، مدينة دمياط الجديدة، فبراير 2026',
+                    en: 'Daily wear test, New Damietta City, February',
+                    ar: 'اختبار ارتداء يومي، مدينة دمياط الجديدة، فبراير',
                 },
                 expertName: EXPERTS.ACCESSORIES.name,
                 expertProfileUrl: EXPERTS.ACCESSORIES.profileUrl,

@@ -26,7 +26,7 @@ export const joyroom_usb_a_micro_cable = {
                 metaTitle: "Joyroom Micro USB Cable ⚡ 56% OFF | Fast Charge Android | COD Egypt",
                 metaDesc: "Joyroom Micro USB Cable for Android devices. 2.4A charging. Best price Egypt.",
                 faqs: [
-                    { question: "Which devices use Micro USB in 2026?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
+                    { question: "Which devices use Micro USB today?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
                     { question: "Can I charge my new Samsung with this cable?", answer: "No, Samsung S26/S25 use USB-C. This Micro USB cable is for older devices like budget phones, speakers, and accessories." },
                     { question: "Is 2.4A charging fast?", answer: "2.4A is standard charging speed. For fast charging, you need USB-C cables with PD (Power Delivery) support." }
                 ]
@@ -39,7 +39,7 @@ export const joyroom_usb_a_micro_cable = {
                 metaTitle: "كابل جوي روم Micro USB ⚡ خصم 56% | شحن سريع أندرويد | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم Micro USB للاندرويد. شحن 2.4 أمبير. أفضل سعر مصر.",
                 faqs: [
-                    { question: "أي أجهزة تستخدم Micro USB في 2026؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
+                    { question: "أي أجهزة تستخدم Micro USB الحالي؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
                     { question: "هل يشحن سامسونج الجديد؟", answer: "لا، سامسونج S26/S25 يستخدم USB-C. هذا الكابل Micro USB للأجهزة القديمة مثل هواتف اقتصادية وسماعات." },
                     { question: "هل 2.4 أمبير سريع؟", answer: "2.4 أمبير سرعة شحن قياسية. للشحن السريع، تحتاج كابلات USB-C مع PD (Power Delivery)." }
                 ]

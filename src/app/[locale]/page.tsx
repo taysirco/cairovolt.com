@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (locale === 'en') {
     return {
       ...baseMetadata,
-      title: { absolute: 'Mobile Accessories Egypt | Anker & Joyroom - Best Prices 2026' },
+      title: { absolute: 'Mobile Accessories Egypt | Anker & Joyroom ⚡ Best Prices + COD' },
       description: 'Shop original mobile accessories in Egypt. Anker power banks, chargers, cables. Joyroom T03s earbuds. 100% authentic with official warranty. Fast shipping.',
       keywords: 'mobile accessories, anker egypt, joyroom, power bank, earbuds, anker charger, joyroom t03s',
       openGraph: {
@@ -224,7 +224,7 @@ export default function Home() {
               </div>
               <div className="grid md:grid-cols-3 gap-4 mb-8">
                 {[
-                  { slug: 'best-power-bank-egypt-2026', ar: 'أفضل باور بانك في مصر 2026', en: 'Best Power Bank Egypt 2026', icon: 'battery' },
+                  { slug: 'best-power-bank-egypt-2026', ar: 'أفضل باور بانك في مصر', en: 'Best Power Bank Egypt', icon: 'battery' },
                   { slug: 'anker-vs-joyroom-comparison', ar: 'انكر vs جوي روم: أيهما أفضل؟', en: 'Anker vs Joyroom: Which is Better?', icon: 'scale' },
                   { slug: 'how-to-identify-original-anker', ar: 'كيف تعرف انكر الأصلي؟', en: 'How to Spot Fake Anker', icon: 'search' },
                 ].map(article => (

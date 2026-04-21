@@ -20,7 +20,7 @@ export const joyroom_30w_fast_charger = {
             { id: "img_4", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-4.webp", alt: "شاحن 30 واط PD QC 3.0 - توصيل القاهرة", order: 3, isPrimary: false },
             { id: "img_5", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 30W USB-C Wall Charger", order: 4, isPrimary: false },
             { id: "img_6", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم سريع للايفون والاندرويد", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 30W Charger Best Price Egypt 2026", order: 6, isPrimary: false }
+            { id: "img_7", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 30W Charger Best Price Egypt", order: 6, isPrimary: false }
         ],
         translations: {
             en: {

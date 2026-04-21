@@ -65,8 +65,8 @@ export const contentGraph: ContentMap = {
                 pageType: 'commercial',
                 supportingContent: [
                     {
-                        topic: 'Best Power Bank for iPhone 2026',
-                        topicAr: 'أفضل باور بانك للأيفون 2026',
+                        topic: 'Best Power Bank for iPhone',
+                        topicAr: 'أفضل باور بانك للأيفون',
                         type: 'buying_guide',
                         alternateNames: ['best power bank iphone', 'power bank fast charging iphone'],
                         alternateNamesAr: ['افضل باور بانك للايفون', 'باور بانك شحن سريع'],
@@ -203,8 +203,8 @@ export const contentGraph: ContentMap = {
                 pageType: 'commercial',
                 supportingContent: [
                     {
-                        topic: 'Best Budget Power Bank Egypt 2026',
-                        topicAr: 'أفضل باور بانك اقتصادي في مصر 2026',
+                        topic: 'Best Budget Power Bank Egypt',
+                        topicAr: 'أفضل باور بانك اقتصادي في مصر',
                         type: 'buying_guide',
                         alternateNames: ['cheap power bank egypt', 'budget power bank'],
                         alternateNamesAr: ['باور بانك رخيص مصر', 'ارخص باور بانك'],

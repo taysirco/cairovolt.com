@@ -14,8 +14,8 @@ export const joyroom_t03s_pro_earbuds_lab: ProductLabData = {
                     ar: 'الصوت كان واضح ومفهوم من الطرفين طوال رحلة 20 دقيقة. تقليل الضوضاء المحيطة (الإعلانات، محرك القطار) بحوالي 70%. الشخص على الطرف الآخر قال إنه سمعنا بوضوح بدون ضجيج خلفية.',
                 },
                 conditions: {
-                    en: 'Cairo Metro Line 1, Attaba to Shoubra El-Kheima, peak morning commute 8:30 AM, January 2026',
-                    ar: 'خط مترو 1، العتبة إلى شبرا الخيمة، ذروة صباحية 8:30 ص، يناير 2026',
+                    en: 'Cairo Metro Line 1, Attaba to Shoubra El-Kheima, peak morning commute 8:30 AM, January',
+                    ar: 'خط مترو 1، العتبة إلى شبرا الخيمة، ذروة صباحية 8:30 ص، يناير',
                 },
                 expertName: EXPERTS.AUDIO.name,
                 expertProfileUrl: EXPERTS.AUDIO.profileUrl,

@@ -14,10 +14,10 @@ export const joyroom_power_bank_10000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 الأصلي مصر 2026 - شحن سريع iPhone 17", order: 0, isPrimary: true },
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 الأصلي مصر - شحن سريع iPhone 17", order: 0, isPrimary: true },
             { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - ضمان 12 شهر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير 2026", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt 2026 - Quick Charge 3.0", order: 3, isPrimary: false },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير", order: 2, isPrimary: false },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt - Quick Charge 3.0", order: 3, isPrimary: false },
             { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Slim Power Bank 10000 - CairoVolt Verified Original", order: 4, isPrimary: false },
             { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أفضل قيمة مقابل سعر - ضمان رسمي مصر", order: 5, isPrimary: false }
         ],

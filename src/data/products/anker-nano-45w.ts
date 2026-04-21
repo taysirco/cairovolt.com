@@ -65,7 +65,7 @@ export const anker_nano_45w = {
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Future-Proof: Ready for 2026 and Beyond</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Future-Proof: Ready now and Beyond</h2>
         <p class="text-gray-700">At 45W, this charger exceeds the needs of every current phone (iPhone 17 max: 30W, Samsung S26 max: 45W) and handles MacBook Air charging effortlessly. As devices get more power-hungry, 45W keeps you covered. <strong>24-month warranty</strong> from Anker means you're protected long-term. Ideal for <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">replacing multiple chargers</a> with one versatile brick.</p>
     </section>
 </div>
@@ -149,7 +149,7 @@ export const anker_nano_45w = {
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">مستقبلي: جاهز لـ 2026 وما بعدها</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">مستقبلي: جاهز الحالي وما بعدها</h2>
         <p class="text-gray-700">بـ 45 واط، الشاحن ده بيتجاوز احتياجات كل الهواتف الحالية (ايفون 17: 30 واط، سامسونج S26: 45 واط) وبيتعامل مع شحن ماك بوك اير بسهولة. كل ما الأجهزة تحتاج طاقة أكثر، 45 واط هتفضل مغطيك. <strong>ضمان 24 شهر</strong> من انكر يعني حماية طويلة المدى. مثالي <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">لاستبدال شواحن متعددة</a> بشاحن واحد متعدد الاستخدامات.</p>
     </section>
 </div>

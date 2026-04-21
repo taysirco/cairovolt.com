@@ -9,13 +9,13 @@ export const cables_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل كابل شحن في مصر 2026 | USB-C | كابل شحن سريع',
-                description: 'دليل شامل لأفضل كابلات الشحن في مصر 2026. كابل ايفون، كابل تايب سي، كابل شحن سريع PD. كابلات نايلون مضادة للكسر. مقارنة أسعار ونصائح شراء.',
+                title: 'أفضل كابل شحن في مصر | USB-C | كابل شحن سريع',
+                description: 'دليل شامل لأفضل كابلات الشحن في مصر. كابل ايفون، كابل تايب سي، كابل شحن سريع PD. كابلات نايلون مضادة للكسر. مقارنة أسعار ونصائح شراء.',
                 keywords: 'كابل شحن, كابل شحن سريع, كابل ايفون, كابل تايب سي, كابل usb c, كابل شحن ايفون, كيبل ايفون اصلي, سلك ايفون اصلي, كابل شحن سامسونج, كابل usb, كابل PD, كابل نايلون, افضل كابل شحن, كيبل شحن سريع, سلك شحن سريع',
             },
             en: {
-                title: 'Best Charging Cables in Egypt 2026 | USB-C | Fast Charging Cable',
-                description: 'Complete guide to the best charging cables in Egypt 2026. iPhone cable, USB-C cable, PD fast charging cable. Braided nylon bend-proof cables. Price comparison and buying tips.',
+                title: 'Best Charging Cables in Egypt | USB-C | Fast Charging Cable',
+                description: 'Complete guide to the best charging cables in Egypt. iPhone cable, USB-C cable, PD fast charging cable. Braided nylon bend-proof cables. Price comparison and buying tips.',
                 keywords: 'charging cable egypt, usb c cable, iphone cable, fast charging cable, usb c to usb c, lightning cable, nylon braided cable, pd cable, best charging cable, iphone 17 cable, samsung cable, usb c cable fast charge, charging cable price egypt',
             },
         },

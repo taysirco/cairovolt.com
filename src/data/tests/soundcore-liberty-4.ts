@@ -14,8 +14,8 @@ export const soundcore_liberty_4_lab: ProductLabData = {
                     ar: 'خفض ضوضاء المترو من 82dB لـ 28dB (تقليل 54dB). مكالمات صوتية واضحة جداً في محطات التحرير والعتبة. البطارية استمرت 6 ساعات مع ANC + موسيقى.',
                 },
                 conditions: {
-                    en: 'Cairo Metro Line 2, Tahrir-Attaba stations, rush hour (7:30-9:30 AM), January 2026',
-                    ar: 'خط مترو 2 القاهرة، محطتي التحرير والعتبة، وقت الذروة الصباحية (7:30-9:30)، يناير 2026',
+                    en: 'Cairo Metro Line 2, Tahrir-Attaba stations, rush hour (7:30-9:30 AM), January',
+                    ar: 'خط مترو 2 القاهرة، محطتي التحرير والعتبة، وقت الذروة الصباحية (7:30-9:30)، يناير',
                 },
                 expertName: EXPERTS.AUDIO.name,
                 expertProfileUrl: EXPERTS.AUDIO.profileUrl,

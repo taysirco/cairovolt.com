@@ -9,20 +9,20 @@ export const power_banks_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل باور بانك في مصر 2026 | شحن سريع | أسعار ومقارنة شاملة',
-                description: 'دليل شامل لأفضل باور بانك في مصر 2026. مقارنة بين سعات 10000 و 20000 و 30000 مللي أمبير. باور بانك شحن سريع PD، أسعار محدثة، جداول مقارنة، ونصائح شراء.',
-                keywords: 'باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, باور بنك 20000, سعر باور بانك, باور بانك للسفر, باور بانك PD, افضل باور بانك في مصر 2026, شاحن محمول, باور بانك رخيص',
+                title: 'أفضل باور بانك في مصر | شحن سريع | أسعار ومقارنة شاملة',
+                description: 'دليل شامل لأفضل باور بانك في مصر. مقارنة بين سعات 10000 و 20000 و 30000 مللي أمبير. باور بانك شحن سريع PD، أسعار محدثة، جداول مقارنة، ونصائح شراء.',
+                keywords: 'باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, باور بنك 20000, سعر باور بانك, باور بانك للسفر, باور بانك PD, افضل باور بانك في مصر, شاحن محمول, باور بانك رخيص',
             },
             en: {
-                title: 'Best Power Banks in Egypt 2026 | Fast Charging | Prices & Comparison',
-                description: 'Complete guide to the best power banks in Egypt 2026. Compare 10000 vs 20000 vs 30000mAh capacities. PD fast charging, updated prices, comparison tables, and buying tips.',
-                keywords: 'power bank egypt, best power bank, power bank 20000, power bank 10000, portable charger egypt, fast charging power bank, power bank price egypt, power bank pd, best power bank 2026, power bank for travel, power bank comparison, cheap power bank egypt',
+                title: 'Best Power Banks in Egypt | Fast Charging | Prices & Comparison',
+                description: 'Complete guide to the best power banks in Egypt. Compare 10000 vs 20000 vs 30000mAh capacities. PD fast charging, updated prices, comparison tables, and buying tips.',
+                keywords: 'power bank egypt, best power bank, power bank 20000, power bank 10000, portable charger egypt, fast charging power bank, power bank price egypt, power bank pd, best power bank, power bank for travel, power bank comparison, cheap power bank egypt',
             },
         },
         pageContent: {
             ar: {
                 title: 'باور بانك في مصر',
-                subtitle: 'أفضل الشواحن المتنقلة بأسعار 2026',
+                subtitle: 'أفضل الشواحن المتنقلة بأسعار',
                 intro: 'اكتشف مجموعة كاملة من أفضل الباور بانك المتاحة في مصر من Anker و Joyroom. سواء كنت تبحث عن باور بانك صغير للجيب أو باور بانك قوي يشحن اللابتوب — ستجد الخيار المناسب هنا مع ضمان رسمي وتوصيل لباب البيت.',
                 buyingTips: [
                     'للاستخدام اليومي: اختر 10,000mAh — اختبار CairoVolt Labs: يشحن iPhone 17 مرتين كاملتين (السعة الفعلية 70% بعد التحويل)',
@@ -34,7 +34,7 @@ export const power_banks_generic: GenericCategory = {
             },
             en: {
                 title: 'Power Banks in Egypt',
-                subtitle: 'Best Portable Chargers at 2026 Prices',
+                subtitle: 'Best Portable Chargers at Prices',
                 intro: 'Discover the complete range of the best power banks available in Egypt from Anker and Joyroom. Whether you need a pocket-sized power bank or a powerful one that charges laptops — find the right choice here with official warranty and home delivery.',
                 buyingTips: [
                     'For daily use: Choose 10,000mAh — CairoVolt Labs test: charges iPhone 17 twice (70% real capacity after conversion)',

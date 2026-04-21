@@ -14,8 +14,8 @@ export const anker_622_maggo_lab: ProductLabData = {
                     ar: 'المحاذاة المغناطيسية MagSafe ثبتت تماماً خلال 12 محطة من الاهتزاز. الحامل ظل مستقراً بزاوية 45 درجة. iPhone 15 شحن من 22% لـ 34% خلال 18 دقيقة (7.5 واط ثابت). لا انقطاعات بلوتوث. صفر حوادث انفصال.',
                 },
                 conditions: {
-                    en: 'Cairo Metro Line 2, Giza to Shubra El-Kheima, peak hour 8:30 AM, January 2026',
-                    ar: 'مترو القاهرة خط 2، الجيزة إلى شبرا الخيمة، ذروة 8:30 صباحاً، يناير 2026',
+                    en: 'Cairo Metro Line 2, Giza to Shubra El-Kheima, peak hour 8:30 AM, January',
+                    ar: 'مترو القاهرة خط 2، الجيزة إلى شبرا الخيمة، ذروة 8:30 صباحاً، يناير',
                 },
                 expertName: EXPERTS.POWER.name,
                 expertProfileUrl: EXPERTS.POWER.profileUrl,

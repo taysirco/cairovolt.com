@@ -9,13 +9,13 @@ export const chargers_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل شاحن سريع في مصر 2026 | شاحن ايفون وسامسونج | GaN',
-                description: 'دليل شامل لأفضل شواحن الموبايل في مصر 2026. شاحن ايفون 17، شاحن سامسونج S26، شاحن GaN، شحن سريع PD و PPS. مقارنة أسعار ونصائح شراء.',
+                title: 'أفضل شاحن سريع في مصر | شاحن ايفون وسامسونج | GaN',
+                description: 'دليل شامل لأفضل شواحن الموبايل في مصر. شاحن ايفون 17، شاحن سامسونج S26، شاحن GaN، شحن سريع PD و PPS. مقارنة أسعار ونصائح شراء.',
                 keywords: 'شاحن سريع, شاحن ايفون, شاحن سامسونج, شاحن موبايل, شاحن تايب سي, شاحن 20 واط, شاحن 30 واط, شاحن 45 واط, شاحن GaN, راس شاحن, افضل شاحن سريع, شاحن PD, شاحن PPS, شاحن ايفون 17, شاحن سامسونج S26',
             },
             en: {
-                title: 'Best Fast Chargers in Egypt 2026 | iPhone & Samsung | GaN Chargers',
-                description: 'Complete guide to the best phone chargers in Egypt 2026. iPhone 17 charger, Samsung S26 charger, GaN technology, PD & PPS fast charging. Price comparison and buying tips.',
+                title: 'Best Fast Chargers in Egypt | iPhone & Samsung | GaN Chargers',
+                description: 'Complete guide to the best phone chargers in Egypt. iPhone 17 charger, Samsung S26 charger, GaN technology, PD & PPS fast charging. Price comparison and buying tips.',
                 keywords: 'fast charger egypt, iphone charger, samsung charger, phone charger, usb c charger, 20w charger, 30w charger, 45w charger, gan charger, best fast charger, pd charger, pps charger, iphone 17 charger, samsung s26 charger, wall charger egypt',
             },
         },

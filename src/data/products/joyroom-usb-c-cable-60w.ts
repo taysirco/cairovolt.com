@@ -44,8 +44,8 @@ export const joyroom_usb_c_cable_60w = {
             }
         },
         expertOpinion: {
-            en: "60W in a cable means laptop-grade charging. Connect to any 60W+ charger and watch your iPhone 17 or Samsung S26 hit 50% in 20 minutes. This is the speed standard for 2026.",
-            ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لـ 2026."
+            en: "60W in a cable means laptop-grade charging. Connect to any 60W+ charger and watch your iPhone 17 or Samsung S26 hit 50% in 20 minutes. This is the speed standard for.",
+            ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لـ."
         },
         meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", mainTerm: "joyroom 60w usb-c cable" }
     };

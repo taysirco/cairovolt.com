@@ -28,7 +28,7 @@ export const anker_powerline_usb_c_usb_c = {
                 shortDescription: "⚡ 60W Power Delivery | 📱 iPhone 17 Max Speed (30W) | 📱 Samsung S26 Super Fast (45W) | 💪 35,000+ Bends | 💻 MacBook Air Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for 2026. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -47,7 +47,7 @@ export const anker_powerline_usb_c_usb_c = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "This is the cable we keep 3 of: one at the desk, one in the car, one in the travel bag. Why? Because in 2026, USB-C is literally everything — iPhone 17, Samsung S26, iPad, MacBook Air, Nintendo Switch, even our Anker power banks. At 60W, it handles any device we throw at it. We've been bending, coiling, and stuffing this cable into bags for 6 months — zero signs of wear at the connectors. At this price point with Anker's build quality, buying anything else is a waste of money."
+        "This is the cable we keep 3 of: one at the desk, one in the car, one in the travel bag. Why? Because today, USB-C is literally everything — iPhone 17, Samsung S26, iPad, MacBook Air, Nintendo Switch, even our Anker power banks. At 60W, it handles any device we throw at it. We've been bending, coiling, and stuffing this cable into bags for 6 months — zero signs of wear at the connectors. At this price point with Anker's build quality, buying anything else is a waste of money."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
@@ -55,7 +55,7 @@ export const anker_powerline_usb_c_usb_c = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">The Only Cable You Need in 2026</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">The Only Cable You Need today</h2>
         <p class="text-gray-700">iPhone 17? USB-C. Samsung S26? USB-C. iPad? USB-C. MacBook? USB-C. With <strong>60W Power Delivery</strong>, this single Anker cable charges them all at their maximum supported speed. iPhone 17 gets its full 30W, Samsung S26 gets 45W Super Fast Charging, and it can even charge a MacBook Air. One cable replaces your entire collection.</p>
     </section>
 
@@ -118,7 +118,7 @@ export const anker_powerline_usb_c_usb_c = {
                 shortDescription: "كابل يعيش معاك سنين من غير ما يتهري ⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع)",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ 2026. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
@@ -137,7 +137,7 @@ export const anker_powerline_usb_c_usb_c = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">كلام من الآخر عن المنتج ده..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت عندنا 3 منه: واحد على المكتب، واحد في العربية، واحد في شنطة السفر. ليه؟ لإن في 2026، USB-C هو كل حاجة حرفياً — ايفون 17، سامسونج S26، ايباد، ماك بوك اير، Nintendo Switch، حتى باور بانك انكر. بـ 60 واط، بيتعامل مع أي جهاز نرميه عليه. بنثنيه ونلفّه ونحشره في الشنط من 6 شهور — صفر علامات تلف. بالسعر ده مع جودة انكر، شراء أي حاجة تانية إهدار فلوس."
+        "نحن في فريق كايرو فولت عندنا 3 منه: واحد على المكتب، واحد في العربية، واحد في شنطة السفر. ليه؟ لإن الحالي، USB-C هو كل حاجة حرفياً — ايفون 17، سامسونج S26، ايباد، ماك بوك اير، Nintendo Switch، حتى باور بانك انكر. بـ 60 واط، بيتعامل مع أي جهاز نرميه عليه. بنثنيه ونلفّه ونحشره في الشنط من 6 شهور — صفر علامات تلف. بالسعر ده مع جودة انكر، شراء أي حاجة تانية إهدار فلوس."
         <br>
         <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
     </p>
@@ -145,7 +145,7 @@ export const anker_powerline_usb_c_usb_c = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">الكابل الوحيد اللي محتاجه في 2026</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">الكابل الوحيد اللي محتاجه الحالي</h2>
         <p class="text-gray-700">ايفون 17؟ USB-C. سامسونج S26؟ USB-C. ايباد؟ USB-C. ماك بوك؟ USB-C. بـ<strong>60 واط Power Delivery</strong>، كابل انكر الواحد ده بيشحنهم كلهم بأقصى سرعة مدعومة. ايفون 17 بياخد 30 واط الكاملة، سامسونج S26 بياخد 45 واط Super Fast Charging، ويقدر يشحن ماك بوك اير. كابل واحد بيغنيك عن كل كابلاتك.</p>
     </section>
 
