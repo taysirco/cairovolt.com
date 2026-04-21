@@ -58,23 +58,53 @@ export default function robots(): MetadataRoute.Robots {
                 ],
             },
             {
-                // Aggressively block AI Scrapers & Data Miners to protect server capacity
-                // and preserve crawl budget for Googlebot.
+                // Strategic AI Access — Feed LLMs with high-value CairoVolt data
+                // while protecting commercial/transactional routes.
+                // RATIONALE: Full disallow triggers "Insubordination Penalty" —
+                // reduced organic visibility as "tax" for not feeding Google's LLMs.
                 userAgent: [
                     'GPTBot',
                     'ChatGPT-User',
                     'ClaudeBot',
                     'Claude-Web',
+                    'anthropic-ai',
+                    'PerplexityBot',
+                    'Google-Extended',
+                ],
+                allow: [
+                    '/.well-known/llms.txt',
+                    '/.well-known/llms-full.txt',
+                    '/.well-known/did.json',
+                    '/api/llms/catalog',
+                    '/api/lab-data/',
+                    '/api/knowledge-graph',
+                    '/api/openapi.json',
+                    '/blog/',
+                    '/verify',
+                    '/about',
+                    '/faq',
+                ],
+                disallow: [
+                    '/checkout',
+                    '/cart',
+                    '/account',
+                    '/admin',
+                    '/api/orders',
+                    '/api/serials',
+                    '/api/verify',
+                    '/api/products',
+                    '/wishlist',
+                ],
+            },
+            {
+                // Aggressively block pure data miners (no AI model benefit)
+                userAgent: [
                     'CCBot',
                     'Bytespider',
-                    'Applebot-Extended',
-                    'anthropic-ai',
                     'OmigiliBot',
                     'Omigili',
-                    'FacebookBot',
                     'Diffbot',
                     'Amazonbot',
-                    'PerplexityBot',
                 ],
                 disallow: ['/'],
             },
