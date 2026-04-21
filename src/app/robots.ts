@@ -32,7 +32,8 @@ export default function robots(): MetadataRoute.Robots {
                     '/api/admin',
                     '/api/verify',
                     '/api/serials',
-                    '/api/v1',
+                    '/api/v1/checkout',     // Protect checkout API
+                    '/api/v1/orders',       // Protect orders API
                     '/wishlist',
                     '/*?*',                // Block parameterized URLs
                 ],
