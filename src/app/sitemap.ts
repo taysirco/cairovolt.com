@@ -158,6 +158,39 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Solutions data not available
     }
 
+    // ── AI & Machine-Readable Endpoints ──
+    // Critical for Google Dataset Search indexing + AI model discovery
+    routes.push({
+        url: `${baseUrl}/.well-known/llms.txt`,
+        priority: 0.6,
+        changeFrequency: 'weekly',
+        lastModified: new Date(),
+    });
+    routes.push({
+        url: `${baseUrl}/.well-known/llms-full.txt`,
+        priority: 0.5,
+        changeFrequency: 'weekly',
+        lastModified: new Date(),
+    });
+    routes.push({
+        url: `${baseUrl}/api/lab-data/json`,
+        priority: 0.6,
+        changeFrequency: 'monthly',
+        lastModified: new Date(),
+    });
+    routes.push({
+        url: `${baseUrl}/api/knowledge-graph`,
+        priority: 0.5,
+        changeFrequency: 'monthly',
+        lastModified: new Date(),
+    });
+    routes.push({
+        url: `${baseUrl}/api/openapi.json`,
+        priority: 0.4,
+        changeFrequency: 'monthly',
+        lastModified: new Date('2026-01-15'),
+    });
+
     return routes;
 }
 

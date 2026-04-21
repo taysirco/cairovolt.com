@@ -45,7 +45,7 @@ export async function GET() {
 
 ## Expert
 
-- **Name:** Eng. Ahmed Mahmoud
+- **Name:** Eng. Ahmed Medhat
 - **Role:** Head of Hardware QA & Power Solutions — CairoVolt Labs
 - **Expertise:** Power bank technology, Egyptian power grid, consumer electronics safety
 
