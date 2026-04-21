@@ -111,6 +111,11 @@ export default async function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         {/* OpenSearch */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
+        {/* AI Discovery — machine-readable endpoints for LLMs */}
+        <link rel="ai-instructions" href="https://cairovolt.com/.well-known/llms.txt" />
+        <link rel="ai-instructions-full" href="https://cairovolt.com/.well-known/llms-full.txt" />
+        <link rel="openapi" href="https://cairovolt.com/api/openapi.json" />
+        <link rel="dataset" href="https://cairovolt.com/api/lab-data/json" type="application/ld+json" />
         {/* TikTok Pixel Base Code */}
         <script
           dangerouslySetInnerHTML={{
