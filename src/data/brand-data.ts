@@ -69,7 +69,7 @@ export const brandData: Record<string, BrandData> = {
             title: 'Anker Egypt',
             description: {
                 en: 'Experience the future of charging with Anker GaNPrime™ and PowerIQ 4.0. The only brand fully optimized for iPhone 17 & Samsung S26 AI features. Official Warranty.',
-                ar: 'اختبر مستقبل الشحن مع تقنيات Anker GaNPrime™ و PowerIQ 4.0. العلامة التجارية الوحيدة المجهزة بالكامل لذكاء هواتف 2026. ضمان الوكيل الرسمي.'
+                ar: 'اختبر مستقبل الشحن مع تقنيات Anker GaNPrime™ و PowerIQ 4.0. العلامة التجارية الوحيدة المجهزة بالكامل لذكاء هواتف. ضمان الوكيل الرسمي.'
             },
             features: [
                 { en: 'Official Agent Warranty (18 Months)', ar: 'ضمان الوكيل (18 شهر استبدال)' },
@@ -133,12 +133,12 @@ export const brandData: Record<string, BrandData> = {
             en: {
                 title: 'Anker Egypt Official | #1 Charging Brand | Power Banks & Soundcore',
                 description: 'The Official Anker Egypt Destination. Shop Anker GaNPrime Chargers, Prime Power Banks, and Soundcore Liberty 4. 100% Original with 18-Month Warranty.',
-                keywords: 'anker egypt, anker power bank, anker ganprime, soundcore liberty 4, anker iphone 17 charger, anker samsung s26 charger, best power bank 2026',
+                keywords: 'anker egypt, anker power bank, anker ganprime, soundcore liberty 4, anker iphone 17 charger, anker samsung s26 charger, best power bank',
             },
             ar: {
                 title: 'Anker Egypt | انكر مصر - الوكيل الرسمي (باور بانك & Soundcore)',
                 description: 'موقع انكر مصر الرسمي. تسوق منتجات Anker الأصلية: باور بانك Prime، شواحن Nano، وسماعات Soundcore. ضمان الوكيل 18 شهر استبدال فوري.',
-                keywords: 'انكر مصر, توكيل انكر, صيانة انكر, باور بانك انكر 2026, سماعات ساوند كور, شاحن ايفون 17, شاحن سامسونج سريع',
+                keywords: 'انكر مصر, توكيل انكر, صيانة انكر, باور بانك انكر, سماعات ساوند كور, شاحن ايفون 17, شاحن سامسونج سريع',
             }
         },
         article: {
@@ -196,7 +196,7 @@ export const brandData: Record<string, BrandData> = {
         id: 'joyroom',
         hero: {
             bgGradient: 'from-red-600 via-red-700 to-red-900',
-            badge: { en: 'Joyroom: The Budget King 2026', ar: 'جوي روم: ملك التوفير 2026' },
+            badge: { en: 'Joyroom: The Budget King', ar: 'جوي روم: ملك التوفير' },
             title: 'Joyroom Egypt',
             description: {
                 en: 'Smart Tech at Student Prices. Home of the Legendary T03s and Safe-Charging Power Banks. 100% Original with Golden Code Verification.',
@@ -267,12 +267,12 @@ export const brandData: Record<string, BrandData> = {
             en: {
                 title: 'Joyroom Egypt | The Budget King | T03s & Power Banks',
                 description: 'The Official Joyroom Egypt Collection. Home of the Legendary T03s Earbuds and Safe Power Banks. 100% Original with Golden Code verification.',
-                keywords: 'joyroom egypt, joyroom t03s original, buy joyroom t03s, joyroom power bank grade a, best budget earbuds 2026, cheap iphone charger',
+                keywords: 'joyroom egypt, joyroom t03s original, buy joyroom t03s, joyroom power bank grade a, best budget earbuds, cheap iphone charger',
             },
             ar: {
                 title: 'Joyroom Egypt | جوي روم مصر - ملك التوفير (T03s الأصلية)',
                 description: 'متجر جوي روم مصر المعتمد. احصل على سماعات T03s الأسطورية، وباور بانك آمن ببطاريات Grade A+. تأكد من أصالة المنتج بالكود الذهبي.',
-                keywords: 'جوي روم الاصلي, سماعة t03s, سعر t03s في مصر, كيفية معرفة جوي روم الاصلي, باور بانك رخيص وامن, اكسسوارات موبايل 2026',
+                keywords: 'جوي روم الاصلي, سماعة t03s, سعر t03s في مصر, كيفية معرفة جوي روم الاصلي, باور بانك رخيص وامن, اكسسوارات موبايل',
             }
         },
         article: {

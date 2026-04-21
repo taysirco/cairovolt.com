@@ -11,12 +11,12 @@ export const best_car_charger_egypt_2026: BlogArticle = {
         relatedCategories: ['Anker/car-chargers', 'Joyroom/car-chargers'],
         translations: {
             ar: {
-                title: 'أفضل شاحن سيارة في مصر 2026: دليل الشراء الشامل',
-                metaTitle: 'أفضل شاحن سيارة في مصر 2026 | مقارنة وأسعار',
-                metaDescription: 'دليل شامل لأفضل شاحن سيارة في مصر 2026: مقارنة Anker و Joyroom، اختبار حرارة صيفية 45°C، أسعار محدثة، ونصائح اختيار الكابل الصح.',
+                title: 'أفضل شاحن سيارة في مصر: دليل الشراء الشامل',
+                metaTitle: 'أفضل شاحن سيارة في مصر | مقارنة وأسعار',
+                metaDescription: 'دليل شامل لأفضل شاحن سيارة في مصر: مقارنة Anker و Joyroom، اختبار حرارة صيفية 45°C، أسعار محدثة، ونصائح اختيار الكابل الصح.',
                 keywords: 'شاحن سيارة, أفضل شاحن سيارة, شاحن سيارة سريع, شاحن سيارة ايفون, شاحن سيارة سامسونج, شاحن سيارة مصر, شاحن ولاعة السيارة',
-                excerpt: 'دليلك الشامل لاختيار أفضل شاحن سيارة في مصر 2026 مع مقارنة المنتجات واختبار حرارة الصيف.',
-                quickAnswer: 'أفضل شاحن سيارة في مصر 2026: للميزانية المحدودة Joyroom 60W Car Charger (منفذين USB-C + USB-A بسعر أقل من 550 ج.م). للأداء الأعلى Anker Car Charger Dual USB (شحن سريع 24W + حماية MultiProtect). كلاهما اختبرناهما في حرارة 45°C الصيفية وأثبتا كفاءة وأمان تام.',
+                excerpt: 'دليلك الشامل لاختيار أفضل شاحن سيارة في مصر مع مقارنة المنتجات واختبار حرارة الصيف.',
+                quickAnswer: 'أفضل شاحن سيارة في مصر: للميزانية المحدودة Joyroom 60W Car Charger (منفذين USB-C + USB-A بسعر أقل من 550 ج.م). للأداء الأعلى Anker Car Charger Dual USB (شحن سريع 24W + حماية MultiProtect). كلاهما اختبرناهما في حرارة 45°C الصيفية وأثبتا كفاءة وأمان تام.',
                 content: `
 <h2>لماذا تحتاج شاحن سيارة أصلي في مصر؟</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
@@ -49,7 +49,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <h3>3. الحماية من السخونة</h3>
 <p>السيارة المصرية في الصيف بتوصل <strong>55°C+</strong> من جوا. شاحن تقليد بدون حماية حرارية = <strong>خطر على الموبايل وعلى السيارة</strong>. شواحن Anker (MultiProtect) و Joyroom (Smart Protection) فيهم دوائر حماية من الحرارة الزائدة، التيار العالي، والقصر الكهربائي.</p>
 
-<h2>أفضل 3 شواحن سيارة في مصر 2026</h2>
+<h2>أفضل 3 شواحن سيارة في مصر</h2>
 
 <h3>🥇 Anker Car Charger Dual USB — الأفضل للأمان والضمان</h3>
 <ul>
@@ -123,19 +123,19 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 </div>
 `,
                 faq: [
-                    { question: 'إيه أفضل شاحن سيارة في مصر 2026؟', answer: 'للميزانية: Joyroom 60W (USB-C + USB-A، أقل من 550 ج.م). للأمان: Anker Dual USB (MultiProtect + ضمان 18 شهر). كلاهما اجتاز اختبار الحرارة الصيفية.' },
+                    { question: 'إيه أفضل شاحن سيارة في مصر؟', answer: 'للميزانية: Joyroom 60W (USB-C + USB-A، أقل من 550 ج.م). للأمان: Anker Dual USB (MultiProtect + ضمان 18 شهر). كلاهما اجتاز اختبار الحرارة الصيفية.' },
                     { question: 'هل شاحن السيارة بيضر بطارية الموبايل؟', answer: 'لا — لو شاحن أصلي فيه حماية حرارية. الضرر بييجي من الشواحن التقليد اللي مفيهاش دوائر حماية وبتسخن في حرارة الصيف.' },
                     { question: 'هل أقدر أشحن لابتوب من شاحن السيارة؟', answer: 'نعم، لو الشاحن يدعم USB-C PD بقدرة 45W أو أكتر. Joyroom 60W يقدر يشحن لابتوبات صغيرة مثل MacBook Air.' },
                     { question: 'إيه الفرق بين USB-A و USB-C في شاحن السيارة؟', answer: 'USB-C (PD) هو المعيار الحديث — أسرع بكتير (حتى 60W). USB-A (QC) هو الكلاسيكي — أبطأ لكن متوافق مع كل الأجهزة القديمة.' },
                 ]
             },
             en: {
-                title: 'Best Car Charger in Egypt 2026: The Complete Buying Guide',
-                metaTitle: 'Best Car Charger Egypt 2026 | Comparison & Prices',
-                metaDescription: 'Complete guide to the best car charger in Egypt 2026: Anker vs Joyroom comparison, summer heat testing at 45°C, updated prices, and cable pairing advice.',
-                keywords: 'best car charger egypt, car charger fast charging, car charger iphone, car charger USB-C, car charger PD, dual port car charger, car charger egypt 2026',
-                excerpt: 'Your complete guide to choosing the best car charger in Egypt 2026 with product comparisons and summer heat testing.',
-                quickAnswer: 'Best car charger in Egypt 2026: Best budget — Joyroom 60W Car Charger (dual USB-C + USB-A ports, under 550 EGP). Best performance — Anker Car Charger Dual USB (24W fast charging + MultiProtect safety). Both tested at 45°C summer heat with complete safety.',
+                title: 'Best Car Charger in Egypt: The Complete Buying Guide',
+                metaTitle: 'Best Car Charger Egypt | Comparison & Prices',
+                metaDescription: 'Complete guide to the best car charger in Egypt: Anker vs Joyroom comparison, summer heat testing at 45°C, updated prices, and cable pairing advice.',
+                keywords: 'best car charger egypt, car charger fast charging, car charger iphone, car charger USB-C, car charger PD, dual port car charger, car charger egypt',
+                excerpt: 'Your complete guide to choosing the best car charger in Egypt with product comparisons and summer heat testing.',
+                quickAnswer: 'Best car charger in Egypt: Best budget — Joyroom 60W Car Charger (dual USB-C + USB-A ports, under 550 EGP). Best performance — Anker Car Charger Dual USB (24W fast charging + MultiProtect safety). Both tested at 45°C summer heat with complete safety.',
                 content: `
 <h2>Why You Need a Legitimate Car Charger in Egypt</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="Quick Summary">
@@ -168,7 +168,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <h3>3. Heat Protection</h3>
 <p>Egyptian cars in summer reach <strong>55°C+</strong> inside. A counterfeit charger without thermal protection = <strong>danger to phone and car</strong>. Anker's MultiProtect and Joyroom's Smart Protection include circuits against overheating, overcurrent, and short circuits.</p>
 
-<h2>Top 3 Car Chargers in Egypt 2026</h2>
+<h2>Top 3 Car Chargers in Egypt</h2>
 
 <h3>🥇 Anker Car Charger Dual USB — Best for Safety & Warranty</h3>
 <ul>
@@ -242,7 +242,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 </div>
 `,
                 faq: [
-                    { question: 'What\'s the best car charger in Egypt 2026?', answer: 'Budget: Joyroom 60W (USB-C + USB-A, under 550 EGP). Safety: Anker Dual USB (MultiProtect + 18-month warranty). Both passed our summer heat test.' },
+                    { question: 'What\'s the best car charger in Egypt?', answer: 'Budget: Joyroom 60W (USB-C + USB-A, under 550 EGP). Safety: Anker Dual USB (MultiProtect + 18-month warranty). Both passed our summer heat test.' },
                     { question: 'Can a car charger damage my phone battery?', answer: 'No — if it\'s a legitimate charger with thermal protection. Damage comes from counterfeit chargers lacking protection circuits that overheat in summer temperatures.' },
                     { question: 'Can I charge a laptop from a car charger?', answer: 'Yes, if the charger supports USB-C PD at 45W or higher. The Joyroom 60W can charge small laptops like MacBook Air.' },
                     { question: 'What\'s the difference between USB-A and USB-C in car chargers?', answer: 'USB-C (PD) is the modern standard — much faster (up to 60W). USB-A (QC) is the classic port — slower but compatible with all older devices.' },

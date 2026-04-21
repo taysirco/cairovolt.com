@@ -11,9 +11,9 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks', 'Anker/wall-chargers', 'Joyroom/wall-chargers'],
         translations: {
             ar: {
-                title: 'انكر vs جوي روم: مقارنة شاملة 2026 — أيهما أفضل؟',
-                metaTitle: 'انكر vs جوي روم 2026 | مقارنة شاملة | أيهما أفضل في مصر؟',
-                metaDescription: 'مقارنة شاملة بين انكر Anker وجوي روم Joyroom في مصر 2026. من حيث الجودة والسعر والضمان والشحن السريع. اكتشف أيهما يناسبك.',
+                title: 'انكر vs جوي روم: مقارنة شاملة — أيهما أفضل؟',
+                metaTitle: 'انكر vs جوي روم | مقارنة شاملة | أيهما أفضل في مصر؟',
+                metaDescription: 'مقارنة شاملة بين انكر Anker وجوي روم Joyroom في مصر. من حيث الجودة والسعر والضمان والشحن السريع. اكتشف أيهما يناسبك.',
                 keywords: 'انكر vs جوي روم, الفرق بين انكر وجوي روم, مقارنة انكر وجوي روم, anker vs joyroom, افضل ماركة شواحن, انكر ام جوي روم',
                 excerpt: 'مقارنة تفصيلية بين Anker و Joyroom في كل الفئات: باور بانك، شواحن، كابلات، وسماعات.',
                 quickAnswer: 'Anker أغلى لكن يقدم تقنيات متقدمة (GaN, PowerIQ 3.0) وضمان 18 شهر. Joyroom أرخص 40% بجودة ممتازة وضمان 12 شهر. للميزانية المحدودة اختر Joyroom، للاستخدام الاحترافي اختر Anker.',
@@ -97,9 +97,9 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
                 ]
             },
             en: {
-                title: 'Anker vs Joyroom: Complete Comparison 2026 — Which is Better?',
-                metaTitle: 'Anker vs Joyroom 2026 | Complete Comparison | Which is Better in Egypt?',
-                metaDescription: 'Complete comparison between Anker and Joyroom in Egypt 2026. Quality, price, warranty, and fast charging compared. Find which brand suits you best.',
+                title: 'Anker vs Joyroom: Complete Comparison — Which is Better?',
+                metaTitle: 'Anker vs Joyroom | Complete Comparison | Which is Better in Egypt?',
+                metaDescription: 'Complete comparison between Anker and Joyroom in Egypt. Quality, price, warranty, and fast charging compared. Find which brand suits you best.',
                 keywords: 'anker vs joyroom, anker or joyroom, compare anker joyroom, best brand mobile accessories egypt',
                 excerpt: 'Detailed comparison between Anker and Joyroom across all categories: power banks, chargers, cables, and earbuds.',
                 quickAnswer: 'Anker costs more but offers advanced tech (GaN, PowerIQ 3.0) with 18-month warranty. Joyroom is 40% cheaper with excellent quality and 12-month warranty. Choose Joyroom for budget, Anker for professional use.',

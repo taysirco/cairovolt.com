@@ -30,9 +30,9 @@ export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
         },
         translations: {
             ar: {
-                title: 'مراجعة وتقييم: أفضل شواحن لـ Samsung S26 لعام 2026 - حصرياً مع يحيى رضوان',
-                metaTitle: 'أفضل شواحن سامسونج S26 | مراجعة يحيى رضوان 2026 الحصرية',
-                metaDescription: 'يحيى رضوان يقيم أفضل شواحن سامسونج S26 في السوق المصري 2026. اختبرنا Anker 45W سرعة وحرارة. دليلك الشامل للشحن السريع.',
+                title: 'مراجعة وتقييم: أفضل شواحن لـ Samsung S26 لعام - حصرياً مع يحيى رضوان',
+                metaTitle: 'أفضل شواحن سامسونج S26 | مراجعة يحيى رضوان الحصرية',
+                metaDescription: 'يحيى رضوان يقيم أفضل شواحن سامسونج S26 في السوق المصري. اختبرنا Anker 45W سرعة وحرارة. دليلك الشامل للشحن السريع.',
                 keywords: 'يحيى رضوان, شاحن سامسونج s26, شاحن 45 واط, شاحن انكر, مراجعة شاحن سامسونج, Yahya Radwan, S26 Ultra charger',
                 excerpt: 'في هذه المراجعة الحصرية لكايرو فولت، أضع شواحن Anker لـ 45 واط تحت الاختبار الصارم مع وحش سامسونج الجديد S26.',
                 quickAnswer: 'يحيى رضوان: "الأفضل لسلسلة S26 بلا شك هو Anker Nano 45W. يعطي الـ Super Fast Charging 2.0 بكفاءة تامة، وبحجم أصغر من شاحن سامسونج الرسمي وبدون أي سخونة تذكر."',
@@ -70,9 +70,9 @@ export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
                 ]
             },
             en: {
-                title: 'Review: Best Chargers for Samsung S26 in 2026 - Exclusive by Yahya Radwan',
-                metaTitle: 'Best Samsung S26 Chargers | Exclusive Yahya Radwan Review 2026',
-                metaDescription: 'Yahya Radwan reviews the top Samsung S26 chargers in Egypt 2026. We tested the Anker 45W for speed and heat. Your ultimate fast-charging guide.',
+                title: 'Review: Best Chargers for Samsung S26 in - Exclusive by Yahya Radwan',
+                metaTitle: 'Best Samsung S26 Chargers | Exclusive Yahya Radwan Review',
+                metaDescription: 'Yahya Radwan reviews the top Samsung S26 chargers in Egypt. We tested the Anker 45W for speed and heat. Your ultimate fast-charging guide.',
                 keywords: 'Yahya Radwan, Samsung S26 charger, 45W charger, Anker 45W review, S26 Ultra charger',
                 excerpt: 'In this exclusive CairoVolt review, I put Anker\'s 45W chargers to the absolute test against Samsung\'s new S26 beast.',
                 quickAnswer: 'Yahya Radwan says: "The absolute best for the S26 series is the Anker Nano 45W. It triggers Super Fast Charging 2.0 perfectly, is noticeably smaller than Samsung\'s brick, and runs impressively cool."',

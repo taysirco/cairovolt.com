@@ -11,8 +11,8 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
     relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks', 'Joyroom/wall-chargers', 'Anker/cables'],
     translations: {
         ar: {
-            title: 'موبايلك في خطر: الدليل الكامل لحماية هاتفك من حرارة صيف مصر 2026',
-            metaTitle: 'حماية الموبايل من الحرارة في صيف مصر | 12 خطوة عملية | دليل كايرو فولت 2026',
+            title: 'موبايلك في خطر: الدليل الكامل لحماية هاتفك من حرارة صيف مصر',
+            metaTitle: 'حماية الموبايل من الحرارة في صيف مصر | 12 خطوة عملية | دليل كايرو فولت',
             metaDescription: 'دليل عملي مبني على اختبارات حقيقية لحماية موبايلك من حرارة صيف مصر. كيف تمنع تلف البطارية والشاشة؟ 12 نصيحة ذهبية + أخطاء شائعة + نتائج قياس حقيقية.',
             keywords: 'حماية الموبايل من الحرارة, الموبايل بيسخن, سخونة الموبايل, حماية بطارية الموبايل صيف, الموبايل يقفل لوحده من الحرارة, ارتفاع حرارة الهاتف, حل مشكلة سخونة الموبايل, حماية الايفون من الحرارة, عمر بطارية الموبايل, نصائح صيف مصر',
             excerpt: 'دليل عملي مبني على اختبارات حقيقية في حرارة 47 درجة مئوية: كيف تحمي موبايلك — البطارية والشاشة والمعالج — من الحرارة القاتلة في صيف مصر.',
@@ -235,8 +235,8 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
             ]
         },
         en: {
-            title: 'Your Phone Is at Risk: The Complete Guide to Protecting Your Phone from Egyptian Summer Heat 2026',
-            metaTitle: 'Protect Phone from Heat in Egyptian Summer | 12 Practical Steps | CairoVolt Guide 2026',
+            title: 'Your Phone Is at Risk: The Complete Guide to Protecting Your Phone from Egyptian Summer Heat',
+            metaTitle: 'Protect Phone from Heat in Egyptian Summer | 12 Practical Steps | CairoVolt Guide',
             metaDescription: 'Practical guide based on real tests to protect your phone from Egyptian summer heat. How to prevent battery and screen damage? 12 golden tips + common mistakes + real measurement results.',
             keywords: 'protect phone from heat, phone overheating, phone battery heat damage, phone shuts down heat, phone thermal throttling, summer phone protection, battery health heat, protect iphone from heat, protect samsung from heat, egypt summer phone tips',
             excerpt: 'A practical guide based on real tests at 47°C: how to protect your phone — battery, screen, and processor — from the deadly heat of Egyptian summer.',

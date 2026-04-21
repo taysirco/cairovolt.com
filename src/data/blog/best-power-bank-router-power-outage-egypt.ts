@@ -12,7 +12,7 @@ export const best_power_bank_router_power_outage_egypt: BlogArticle = {
         translations: {
             ar: {
                 title: 'أفضل باور بانك وكابل لتشغيل الراوتر أثناء انقطاع الكهرباء (أسعار وأنواع)',
-                metaTitle: 'باور بانك للراوتر وقت انقطاع الكهرباء | أفضل الحلول في مصر 2026',
+                metaTitle: 'باور بانك للراوتر وقت انقطاع الكهرباء | أفضل الحلول في مصر',
                 metaDescription: 'دليل شامل لتشغيل الراوتر أثناء انقطاع الكهرباء في مصر. أفضل باور بانك، UPS صغير، ومحطة طاقة محمولة مع الأسعار والمقارنة.',
                 keywords: 'باور بانك للراوتر, تشغيل الراوتر وقت انقطاع الكهرباء, باور بانك راوتر, UPS راوتر, محطة طاقة محمولة, انقطاع كهرباء مصر, باور بانك 12 فولت',
                 excerpt: 'حلول عملية لتشغيل الراوتر أثناء انقطاع الكهرباء في مصر مع أسعار محدثة.',
@@ -88,7 +88,7 @@ export const best_power_bank_router_power_outage_egypt: BlogArticle = {
             },
             en: {
                 title: 'Best Power Bank & Cable to Run Router During Power Outages (Prices & Types)',
-                metaTitle: 'Power Bank for Router During Outages | Best Solutions Egypt 2026',
+                metaTitle: 'Power Bank for Router During Outages | Best Solutions Egypt',
                 metaDescription: 'Complete guide to running your router during power outages in Egypt. Best power banks, mini UPS, and portable power stations with prices and comparison.',
                 keywords: 'power bank for router, router power outage, mini ups router, portable power station egypt, power bank 12v router, internet outage solution, power bank router egypt',
                 excerpt: 'Practical solutions to keep your router running during Egyptian power outages with updated prices.',

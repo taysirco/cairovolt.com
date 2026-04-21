@@ -11,8 +11,8 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
         relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
         translations: {
             ar: {
-                title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر 2026؟',
-                metaTitle: 'شاحن ابل اصلي ولا تقليد | 7 طرق للتفريق | دليل مصر 2026',
+                title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر؟',
+                metaTitle: 'شاحن ابل اصلي ولا تقليد | 7 طرق للتفريق | دليل مصر',
                 metaDescription: 'اعرف إزاي تفرق بين شاحن ابل الأصلي والتقليد في مصر. 7 علامات واضحة للتمييز + أماكن الشراء الموثوقة + بدائل أصلية بسعر أقل.',
                 keywords: 'شاحن ابل اصلي, شاحن ابل تقليد, الفرق بين شاحن ابل الاصلي والتقليد, شاحن ايفون اصلي, شاحن ايفون تقليد, شاحن ابل مصر, كيف تعرف شاحن ابل الاصلي',
                 excerpt: 'دليل عملي بالصور لمعرفة الفرق بين شاحن أبل الأصلي والتقليد في مصر مع بدائل موثوقة.',
@@ -76,13 +76,13 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
                 faq: [
                     { question: 'إزاي أعرف شاحن أبل الأصلي؟', answer: 'اتحقق من: الوزن (الأصلي أتقل)، نص "Designed by Apple" (واضح ودقيق)، منفذ USB-C من الداخل (نظيف)، وسرعة الشحن (0-50% في 30 دقيقة).' },
                     { question: 'هل الشاحن التقليد بيبوظ بطارية الايفون؟', answer: 'نعم، الشواحن التقليد ممكن تسبب: تدهور سريع في صحة البطارية، سخونة زيادة، وفي حالات نادرة انتفاخ البطارية أو حريق.' },
-                    { question: 'كام سعر شاحن ابل الاصلي في مصر 2026؟', answer: 'شاحن أبل 20W الأصلي سعره حوالي 600-800 جنيه في مصر. بديل أصلي بنفس الجودة زي Anker 20W بسعر أقل مع ضمان أطول.' },
+                    { question: 'كام سعر شاحن ابل الاصلي في مصر؟', answer: 'شاحن أبل 20W الأصلي سعره حوالي 600-800 جنيه في مصر. بديل أصلي بنفس الجودة زي Anker 20W بسعر أقل مع ضمان أطول.' },
                     { question: 'هل شاحن Anker آمن للايفون؟', answer: 'نعم 100%. Anker هي العلامة الأولى عالمياً في الشحن ومعتمدة من Apple MFi. تستخدم نفس معايير الأمان مع حماية MultiProtect بـ 10 طبقات.' },
                 ]
             },
             en: {
-                title: 'How to Tell Original vs Fake Apple Charger in Egypt 2026',
-                metaTitle: 'Original vs Fake Apple Charger | 7 Ways to Tell | Egypt Guide 2026',
+                title: 'How to Tell Original vs Fake Apple Charger in Egypt',
+                metaTitle: 'Original vs Fake Apple Charger | 7 Ways to Tell | Egypt Guide',
                 metaDescription: 'Learn how to identify original vs fake Apple chargers in Egypt. 7 clear signs + trusted buying sources + cheaper original alternatives.',
                 keywords: 'original apple charger, fake apple charger, how to spot fake charger, iphone charger original vs fake, apple charger egypt, anker vs apple charger',
                 excerpt: 'A practical guide with photos to identify original vs fake Apple chargers in Egypt with trusted alternatives.',
@@ -140,7 +140,7 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
                 faq: [
                     { question: 'How to identify an original Apple charger?', answer: 'Check: weight (original is heavier), "Designed by Apple" text (clear and precise), USB-C port interior (clean), and charging speed (0-50% in 30 minutes).' },
                     { question: 'Can a fake charger damage iPhone battery?', answer: 'Yes, fake chargers can cause: rapid battery health degradation, overheating, and in rare cases battery swelling or fire.' },
-                    { question: 'How much is an original Apple charger in Egypt 2026?', answer: 'Apple\'s 20W original charger costs about 600-800 EGP in Egypt. An original alternative like Anker 20W costs less with a longer warranty.' },
+                    { question: 'How much is an original Apple charger in Egypt?', answer: 'Apple\'s 20W original charger costs about 600-800 EGP in Egypt. An original alternative like Anker 20W costs less with a longer warranty.' },
                     { question: 'Is Anker charger safe for iPhone?', answer: 'Yes, 100%. Anker is the world\'s #1 charging brand and Apple MFi certified. Uses the same safety standards with 10-layer MultiProtect protection.' },
                 ]
             }

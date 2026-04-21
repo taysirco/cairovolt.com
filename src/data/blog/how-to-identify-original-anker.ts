@@ -12,7 +12,7 @@ export const how_to_identify_original_anker: BlogArticle = {
         translations: {
             ar: {
                 title: 'كيف تعرف انكر الأصلي من المقلد؟ 5 طرق مضمونة',
-                metaTitle: 'كيف تعرف انكر الاصلي من التقليد | 5 طرق مضمونة 2026',
+                metaTitle: 'كيف تعرف انكر الاصلي من التقليد | 5 طرق مضمونة',
                 metaDescription: 'تعلم كيف تفرق بين منتجات انكر الأصلية والمقلدة. 5 طرق سهلة للتحقق من أصالة شاحن انكر وباور بانك انكر. نصائح من الوكيل المعتمد.',
                 keywords: 'انكر اصلي, الفرق بين انكر الاصلي والتقليد, كيف اعرف انكر الاصلي, شاحن انكر اصلي, التاكد من انكر الاصلي, موقع انكر لمعرفة الشاحن الاصلي',
                 excerpt: '5 طرق سهلة ومضمونة للتفريق بين منتجات انكر الأصلية والمقلدة.',
@@ -90,7 +90,7 @@ export const how_to_identify_original_anker: BlogArticle = {
             },
             en: {
                 title: 'How to Identify Original Anker Products: 5 Guaranteed Methods',
-                metaTitle: 'How to Spot Fake Anker Products | 5 Guaranteed Methods 2026',
+                metaTitle: 'How to Spot Fake Anker Products | 5 Guaranteed Methods',
                 metaDescription: 'Learn how to tell the difference between original and fake Anker products. 5 easy ways to verify Anker chargers and power banks. Tips from authorized dealer.',
                 keywords: 'original anker, fake anker, how to verify anker, anker authentic, anker verification',
                 excerpt: '5 easy and guaranteed methods to tell original Anker products from fakes.',

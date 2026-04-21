@@ -11,8 +11,8 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
         relatedCategories: ['Anker/wall-chargers', 'Anker/cables'],
         translations: {
             ar: {
-                title: 'أفضل شاحن للايفون 17 في مصر 2026: دليل السرعة الكاملة',
-                metaTitle: 'أفضل شاحن ايفون 17 في مصر 2026 | شحن سريع 30W | أسعار محدثة',
+                title: 'أفضل شاحن للايفون 17 في مصر: دليل السرعة الكاملة',
+                metaTitle: 'أفضل شاحن ايفون 17 في مصر | شحن سريع 30W | أسعار محدثة',
                 metaDescription: 'اكتشف أفضل شاحن للايفون 17 و 17 Pro في مصر. شحن سريع 30 واط من انكر. كيف تحصل على أقصى سرعة شحن مع الكابل المناسب.',
                 keywords: 'شاحن ايفون 17, شاحن ايفون, افضل شاحن ايفون, شاحن انكر ايفون, شاحن سريع ايفون, شاحن 30 واط, شاحن ايفون اصلي',
                 excerpt: 'دليل اختيار أفضل شاحن سريع للايفون 17 مع مقارنة الواطية والسرعة.',
@@ -72,8 +72,8 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
                 ]
             },
             en: {
-                title: 'Best iPhone 17 Charger in Egypt 2026: Full Speed Guide',
-                metaTitle: 'Best iPhone 17 Charger Egypt 2026 | 30W Fast Charging | Updated Prices',
+                title: 'Best iPhone 17 Charger in Egypt: Full Speed Guide',
+                metaTitle: 'Best iPhone 17 Charger Egypt | 30W Fast Charging | Updated Prices',
                 metaDescription: 'Find the best charger for iPhone 17 and 17 Pro in Egypt. 30W fast charging from Anker. How to get maximum charging speed with the right cable.',
                 keywords: 'iphone 17 charger, best iphone charger egypt, anker iphone charger, fast charger iphone, 30w charger iphone',
                 excerpt: 'Guide to choosing the best fast charger for iPhone 17 with wattage and speed comparison.',

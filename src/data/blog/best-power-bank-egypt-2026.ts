@@ -11,12 +11,12 @@ export const best_power_bank_egypt_2026: BlogArticle = {
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
         translations: {
             ar: {
-                title: 'أفضل باور بانك في مصر 2026: دليل الشراء الشامل',
-                metaTitle: 'أفضل باور بانك في مصر 2026 | مقارنة Anker vs Joyroom | دليل شامل',
-                metaDescription: 'اكتشف أفضل باور بانك في مصر 2026. مقارنة شاملة بين انكر وجوي روم من حيث السعة والسعر والجودة. دليل الشراء مع أسعار محدثة وضمان رسمي.',
-                keywords: 'افضل باور بانك, باور بانك, باور بانك في مصر, افضل باور بانك 2026, باور بانك انكر, باور بانك جوي روم, مقارنة باور بانك',
-                excerpt: 'دليل شامل لاختيار أفضل باور بانك في مصر 2026 مع مقارنة بين Anker و Joyroom وأسعار محدثة.',
-                quickAnswer: 'أفضل باور بانك في مصر 2026 هو Anker PowerCore 20000mAh بسعر 1,550 جنيه (أفضل قيمة) أو Joyroom 10000mAh بسعر 1,624 جنيه (أقل ميزانية). كلاهما بضمان رسمي وتوصيل لكل المحافظات.',
+                title: 'أفضل باور بانك في مصر: دليل الشراء الشامل',
+                metaTitle: 'أفضل باور بانك في مصر | مقارنة Anker vs Joyroom | دليل شامل',
+                metaDescription: 'اكتشف أفضل باور بانك في مصر. مقارنة شاملة بين انكر وجوي روم من حيث السعة والسعر والجودة. دليل الشراء مع أسعار محدثة وضمان رسمي.',
+                keywords: 'افضل باور بانك, باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك انكر, باور بانك جوي روم, مقارنة باور بانك',
+                excerpt: 'دليل شامل لاختيار أفضل باور بانك في مصر مع مقارنة بين Anker و Joyroom وأسعار محدثة.',
+                quickAnswer: 'أفضل باور بانك في مصر هو Anker PowerCore 20000mAh بسعر 1,550 جنيه (أفضل قيمة) أو Joyroom 10000mAh بسعر 1,624 جنيه (أقل ميزانية). كلاهما بضمان رسمي وتوصيل لكل المحافظات.',
                 content: `
 <h2>لماذا تحتاج باور بانك في مصر؟</h2>
 <div class="quick-answer-inline" style="background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
@@ -28,7 +28,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <p><strong>🔋 تجربتنا الفعلية:</strong> اختبر فريق كايرو فولت أكثر من 15 موديل باور بانك على مدار 6 أشهر بقياسات دقيقة (عدد دورات الشحن الفعلية، زمن الشحن بالدقيقة، درجة الحرارة أثناء التشغيل). النتائج أدناه مبنية على بيانات حقيقية وليست مواصفات الشركة المصنعة.</p>
 </div>
 
-<h2>أفضل 5 باور بانك في مصر 2026</h2>
+<h2>أفضل 5 باور بانك في مصر</h2>
 
 <h3>1. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;text-decoration:underline">Anker PowerCore 20000mAh</a> — الأكثر مبيعاً</h3>
 <p><strong>السعر:</strong> 1,550 جنيه | <strong>السعة:</strong> 20,000mAh | <strong>الوزن:</strong> 350 جم</p>
@@ -104,19 +104,19 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 </div>
 `,
                 faq: [
-                    { question: 'ما أفضل باور بانك في مصر 2026؟', answer: 'Anker PowerCore 20000mAh هو الأكثر مبيعاً بفضل السعة الكبيرة والسعر المناسب (1,550 جنيه) مع ضمان 18 شهر. للميزانية المحدودة، Joyroom 10000mAh بـ 1,624 جنيه.' },
-                    { question: 'كم سعر باور بانك انكر في مصر؟', answer: 'تبدأ أسعار باور بانك انكر من 1,550 جنيه لـ 20,000mAh وتصل لـ 3,799 جنيه لـ Prime 27,650mAh. الأسعار محدثة فبراير 2026.' },
+                    { question: 'ما أفضل باور بانك في مصر؟', answer: 'Anker PowerCore 20000mAh هو الأكثر مبيعاً بفضل السعة الكبيرة والسعر المناسب (1,550 جنيه) مع ضمان 18 شهر. للميزانية المحدودة، Joyroom 10000mAh بـ 1,624 جنيه.' },
+                    { question: 'كم سعر باور بانك انكر في مصر؟', answer: 'تبدأ أسعار باور بانك انكر من 1,550 جنيه لـ 20,000mAh وتصل لـ 3,799 جنيه لـ Prime 27,650mAh. الأسعار محدثة فبراير.' },
                     { question: 'هل الباور بانك الصيني آمن؟', answer: 'الباور بانك من ماركات معروفة مثل Anker و Joyroom آمن تماماً مع شهادات أمان دولية. تجنب الماركات المجهولة بدون ضمان.' },
                     { question: 'كم مرة يشحن باور بانك 20000 الموبايل؟', answer: 'باور بانك 20,000mAh يشحن iPhone 17 Pro حوالي 4 مرات، وسامسونج S26 حوالي 3.5 مرة. مع خصم ~15% فقدان أثناء التحويل.' },
                 ]
             },
             en: {
-                title: 'Best Power Bank in Egypt 2026: Complete Buying Guide',
-                metaTitle: 'Best Power Bank in Egypt 2026 | Anker vs Joyroom Comparison | Buying Guide',
-                metaDescription: 'Discover the best power bank in Egypt 2026. Complete comparison between Anker and Joyroom by capacity, price, and quality. Updated prices with official warranty.',
-                keywords: 'best power bank egypt, power bank egypt 2026, anker power bank, joyroom power bank, power bank comparison, buy power bank egypt',
-                excerpt: 'Complete guide to choosing the best power bank in Egypt 2026 with Anker vs Joyroom comparison and updated prices.',
-                quickAnswer: 'The best power bank in Egypt 2026 is the Anker PowerCore 20000mAh at EGP 1,550 (best value) or Joyroom 10000mAh at EGP 1,624 (budget pick). Both come with official warranty and nationwide delivery.',
+                title: 'Best Power Bank in Egypt: Complete Buying Guide',
+                metaTitle: 'Best Power Bank in Egypt | Anker vs Joyroom Comparison | Buying Guide',
+                metaDescription: 'Discover the best power bank in Egypt. Complete comparison between Anker and Joyroom by capacity, price, and quality. Updated prices with official warranty.',
+                keywords: 'best power bank egypt, power bank egypt, anker power bank, joyroom power bank, power bank comparison, buy power bank egypt',
+                excerpt: 'Complete guide to choosing the best power bank in Egypt with Anker vs Joyroom comparison and updated prices.',
+                quickAnswer: 'The best power bank in Egypt is the Anker PowerCore 20000mAh at EGP 1,550 (best value) or Joyroom 10000mAh at EGP 1,624 (budget pick). Both come with official warranty and nationwide delivery.',
                 content: `
 <h2>Why You Need a Power Bank in Egypt</h2>
 <p>With frequent power outages and increasing smartphone dependency, a <strong>power bank</strong> has become a daily essential for every Egyptian. Whether you're a university student, commuting professional, or frequent traveler — a power bank ensures your phone never dies at the worst moment.</p>
@@ -125,7 +125,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <p><strong>🔋 Our hands-on testing:</strong> The CairoVolt team tested 15+ power bank models over 6 months with precise measurements (actual charge cycles, charging time in minutes, operating temperature). The results below are based on our real-world data, not manufacturer specs.</p>
 </div>
 
-<h2>Top 5 Power Banks in Egypt 2026</h2>
+<h2>Top 5 Power Banks in Egypt</h2>
 
 <h3>1. <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000mAh</a> — Best Seller</h3>
 <p><strong>Price:</strong> EGP 1,550 | <strong>Capacity:</strong> 20,000mAh | <strong>Weight:</strong> 350g</p>
@@ -176,8 +176,8 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 </ol>
 `,
                 faq: [
-                    { question: 'What is the best power bank in Egypt 2026?', answer: 'Anker PowerCore 20000mAh is the best seller thanks to its large capacity and fair price (EGP 1,550) with 18-month warranty. For budget buyers, Joyroom 10000mAh at EGP 1,624.' },
-                    { question: 'How much does an Anker power bank cost in Egypt?', answer: 'Anker power bank prices start from EGP 1,550 for 20,000mAh up to EGP 3,799 for Prime 27,650mAh. Prices updated February 2026.' },
+                    { question: 'What is the best power bank in Egypt?', answer: 'Anker PowerCore 20000mAh is the best seller thanks to its large capacity and fair price (EGP 1,550) with 18-month warranty. For budget buyers, Joyroom 10000mAh at EGP 1,624.' },
+                    { question: 'How much does an Anker power bank cost in Egypt?', answer: 'Anker power bank prices start from EGP 1,550 for 20,000mAh up to EGP 3,799 for Prime 27,650mAh. Prices updated February.' },
                     { question: 'How many times does a 20000mAh power bank charge a phone?', answer: 'A 20,000mAh power bank charges iPhone 17 Pro about 4 times, Samsung S26 about 3.5 times. With ~15% conversion loss factored in.' },
                     { question: 'Are cheap Chinese power banks safe?', answer: 'Power banks from reputable brands like Anker and Joyroom are completely safe with international safety certifications. Avoid unknown brands without warranty.' },
                 ]

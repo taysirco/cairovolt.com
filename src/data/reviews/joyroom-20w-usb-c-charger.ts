@@ -32,7 +32,7 @@ export const joyroom_20w_usb_c_charger_reviews: ProductReview[] = [
         },
         {
             author: 'Ramy Saeed', rating: 5, location: 'المهندسين', datePublished: '2025-06-26',
-            reviewBody: { en: 'Best gift under 200 EGP. Everyone needs fast charging in 2026.', ar: 'أفضل هدية تحت 200 جنيه. الكل يحتاج شحن سريع في 2026.' },
+            reviewBody: { en: 'Best gift under 200 EGP. Everyone needs fast charging in.', ar: 'أفضل هدية تحت 200 جنيه. الكل يحتاج شحن سريع في.' },
             pros: { en: ['Under 200 EGP', 'Great gift', 'Essential item'], ar: ['تحت 200 جنيه', 'هدية رائعة', 'منتج أساسي'] },
             cons: { en: ['Slightly bulky design'], ar: ['التصميم كبير شوية'] }
         },

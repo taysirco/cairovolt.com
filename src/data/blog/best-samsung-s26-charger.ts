@@ -11,8 +11,8 @@ export const best_samsung_s26_charger: BlogArticle = {
         relatedCategories: ['Anker/wall-chargers'],
         translations: {
             ar: {
-                title: 'أفضل شاحن لسامسونج S26 في مصر 2026: شحن سريع 45W',
-                metaTitle: 'أفضل شاحن سامسونج S26 في مصر 2026 | شحن سريع 45W | PPS',
+                title: 'أفضل شاحن لسامسونج S26 في مصر: شحن سريع 45W',
+                metaTitle: 'أفضل شاحن سامسونج S26 في مصر | شحن سريع 45W | PPS',
                 metaDescription: 'اكتشف أفضل شاحن سامسونج Galaxy S26 و S26 Ultra في مصر. لماذا تقنية PPS ضرورية وكيف تحصل على Super Fast Charging 2.0.',
                 keywords: 'شاحن سامسونج S26, شاحن سامسونج, شاحن سريع سامسونج, شاحن 45 واط, شاحن انكر سامسونج, super fast charging',
                 excerpt: 'دليل اختيار أفضل شاحن سريع لسامسونج Galaxy S26 مع شرح تقنية PPS.',
@@ -68,8 +68,8 @@ export const best_samsung_s26_charger: BlogArticle = {
                 ]
             },
             en: {
-                title: 'Best Samsung S26 Charger in Egypt 2026: 45W Super Fast Charging',
-                metaTitle: 'Best Samsung S26 Charger Egypt 2026 | 45W PPS Super Fast Charging',
+                title: 'Best Samsung S26 Charger in Egypt: 45W Super Fast Charging',
+                metaTitle: 'Best Samsung S26 Charger Egypt | 45W PPS Super Fast Charging',
                 metaDescription: 'Find the best charger for Samsung Galaxy S26 and S26 Ultra in Egypt. Why PPS technology is essential and how to get Super Fast Charging 2.0.',
                 keywords: 'samsung s26 charger, best samsung charger egypt, anker samsung charger, 45w pps charger, super fast charging',
                 excerpt: 'Guide to choosing the best fast charger for Samsung Galaxy S26 with PPS technology explained.',

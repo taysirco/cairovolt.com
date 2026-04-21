@@ -12,7 +12,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
     translations: {
         ar: {
             title: 'وهم الـ 10,000mAh: لماذا لا يشحن الباور بانك موبايلك مرتين؟ (الفيزياء الكاملة)',
-            metaTitle: 'ليه الباور بانك مش بيشحن مرتين؟ | سعة الباور بانك الحقيقية | كايرو فولت 2026',
+            metaTitle: 'ليه الباور بانك مش بيشحن مرتين؟ | سعة الباور بانك الحقيقية | كايرو فولت',
             metaDescription: 'باور بانك 10000 بيشحن كام مرة فعلاً؟ اكتشف الحقيقة العلمية وراء سعة الباور بانك الحقيقية. اختبار معملي على 6 باور بانكات + معادلة حساب الشحنات الفعلية.',
             keywords: 'باور بانك 10000 بيشحن كام مرة, سعة الباور بانك الحقيقية, ليه الباور بانك مش بيشحن مرتين, وهم السعة, كفاءة الباور بانك, rated capacity power bank, باور بانك 20000 كام شحنة, power bank efficiency, الفرق بين mAh و Wh',
             excerpt: 'الحقيقة اللي محدش بيقولها: باور بانك 10,000mAh مش بيشحن موبايل 5,000mAh مرتين. اعرف ليه — بالفيزياء والاختبار المعملي الحقيقي.',
@@ -210,7 +210,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
         },
         en: {
             title: 'The 10,000mAh Myth: Why Your Power Bank Doesn\'t Charge Your Phone Twice (The Complete Physics)',
-            metaTitle: 'Why Power Bank Doesn\'t Charge Twice? | Real Power Bank Capacity | CairoVolt 2026',
+            metaTitle: 'Why Power Bank Doesn\'t Charge Twice? | Real Power Bank Capacity | CairoVolt',
             metaDescription: 'How many times does a 10000mAh power bank actually charge your phone? Discover the physics behind real power bank capacity. Lab test on 6 power banks + the golden formula for calculating actual charges.',
             keywords: 'power bank 10000mah how many charges, real power bank capacity, why power bank doesn\'t charge twice, power bank efficiency, rated capacity vs actual, mAh vs Wh power bank, power bank capacity myth, how many times 20000mah charge phone',
             excerpt: 'The truth nobody tells you: a 10,000mAh power bank can\'t charge a 5,000mAh phone twice. Learn why — with real physics and lab testing.',

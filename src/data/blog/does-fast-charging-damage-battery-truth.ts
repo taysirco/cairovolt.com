@@ -12,7 +12,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
         translations: {
             ar: {
                 title: 'هل الشحن السريع يضر بطارية الموبايل فعلاً؟ الحقيقة العلمية الكاملة',
-                metaTitle: 'هل الشحن السريع يضر البطارية؟ | الحقيقة العلمية 2026',
+                metaTitle: 'هل الشحن السريع يضر البطارية؟ | الحقيقة العلمية',
                 metaDescription: 'اعرف الحقيقة العلمية الكاملة: هل الشحن السريع بيدمر بطارية الموبايل؟ اختبار 6 أشهر على 3 هواتف + نصائح حماية Battery Health.',
                 keywords: 'هل الشحن السريع يضر البطارية, الشحن السريع وصحة البطارية, تأثير الشحن السريع, fast charging بطارية, حماية بطارية الموبايل, battery health شحن سريع',
                 excerpt: 'الحقيقة العلمية الكاملة عن تأثير الشحن السريع على بطارية موبايلك مع نتائج اختبار 6 أشهر من مختبر كايرو فولت.',
@@ -101,7 +101,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
             },
             en: {
                 title: 'Does Fast Charging Actually Damage Your Phone Battery? The Complete Scientific Truth',
-                metaTitle: 'Does Fast Charging Damage Battery? | Scientific Truth 2026',
+                metaTitle: 'Does Fast Charging Damage Battery? | Scientific Truth',
                 metaDescription: 'Learn the complete scientific truth: does fast charging destroy your phone battery? 6-month test on 3 phones + Battery Health protection tips.',
                 keywords: 'does fast charging damage battery, fast charging battery health, is fast charging safe, PD charging battery life, USB PD battery degradation, protect phone battery',
                 excerpt: 'The complete scientific truth about fast charging\'s effect on your phone battery with 6-month test results from CairoVolt Labs.',

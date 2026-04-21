@@ -36,8 +36,8 @@ export const joyroom_usb_a_lightning_cable_reviews: ProductReview[] = [
         },
         {
             author: 'Islam Mohamed', rating: 3, location: 'أسيوط', datePublished: '2025-12-22',
-            reviewBody: { en: 'Only delivers 12W through USB-A which is expected but slow for 2026. My iPad takes 4 hours to charge. Buy a USB-C cable if you want speed.', ar: 'بيوصل 12 واط بس من USB-A وده متوقع لكن بطيء لـ 2026. آيبادي بياخد 4 ساعات يشحن. اشتري كابل USB-C لو عايز سرعة.' },
+            reviewBody: { en: 'Only delivers 12W through USB-A which is expected but slow for. My iPad takes 4 hours to charge. Buy a USB-C cable if you want speed.', ar: 'بيوصل 12 واط بس من USB-A وده متوقع لكن بطيء لـ. آيبادي بياخد 4 ساعات يشحن. اشتري كابل USB-C لو عايز سرعة.' },
             pros: { en: ['Works as expected', 'Reliable charging'], ar: ['شغال زي المتوقع', 'شحن مستقر'] },
-            cons: { en: ['Only 12W via USB-A', 'Slow for 2026'], ar: ['12 واط بس من USB-A', 'بطيء لـ 2026'] }
+            cons: { en: ['Only 12W via USB-A', 'Slow for'], ar: ['12 واط بس من USB-A', 'بطيء لـ'] }
         }
     ];

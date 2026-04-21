@@ -11,11 +11,11 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
         translations: {
             ar: {
-                title: 'هل الباور بانك مسموح في الطائرة؟ قوانين المطارات المصرية والدولية 2026',
-                metaTitle: 'قوانين الباور بانك في الطائرة | دليل المطارات المصرية 2026',
-                metaDescription: 'دليلك الشامل لقوانين الباور بانك في الطائرة 2026: حدود mAh والـ Wh، قواعد مصر للطيران، وإيه الباور بانك اللي يعدي الأمن بدون مشاكل.',
+                title: 'هل الباور بانك مسموح في الطائرة؟ قوانين المطارات المصرية والدولية',
+                metaTitle: 'قوانين الباور بانك في الطائرة | دليل المطارات المصرية',
+                metaDescription: 'دليلك الشامل لقوانين الباور بانك في الطائرة: حدود mAh والـ Wh، قواعد مصر للطيران، وإيه الباور بانك اللي يعدي الأمن بدون مشاكل.',
                 keywords: 'باور بانك طائرة, باور بانك مطار, هل الباور بانك مسموح في الطائرة, قوانين الباور بانك في المطار, باور بانك مصر للطيران, حد الباور بانك في الطائرة',
-                excerpt: 'دليلك الشامل لقوانين الباور بانك في الطائرات 2026: الحدود المسموحة، حسابة الـ Wh، وقواعد مصر للطيران والشركات الدولية.',
+                excerpt: 'دليلك الشامل لقوانين الباور بانك في الطائرات: الحدود المسموحة، حسابة الـ Wh، وقواعد مصر للطيران والشركات الدولية.',
                 quickAnswer: 'نعم، الباور بانك مسموح في حقيبة اليد فقط (carry-on) وليس في الشحن. الحد الأقصى العالمي: 100Wh بدون إذن (≈ 27,000mAh). الباور بانك من 100-160Wh يحتاج إذن مسبق. أكثر من 160Wh ممنوع تماماً. كل باور بانكات Anker و Joyroom من كايرو فولت أقل من 100Wh ومسموح بها في أي طائرة.',
                 content: `
 <h2>الإجابة السريعة: نعم — بشروط بسيطة</h2>
@@ -52,7 +52,7 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
     </tbody>
 </table>
 
-<h2>قوانين شركات الطيران —  مقارنة 2026</h2>
+<h2>قوانين شركات الطيران —  مقارنة</h2>
 <table>
     <thead><tr><th>شركة الطيران</th><th>الحد الأقصى</th><th>عدد الباور بانكات</th><th>حقيبة اليد فقط؟</th></tr></thead>
     <tbody>
@@ -113,11 +113,11 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
                 ]
             },
             en: {
-                title: 'Can You Take a Power Bank on a Plane? Egyptian & International Airport Rules 2026',
-                metaTitle: 'Power Bank Airplane Rules | Egyptian Airport Guide 2026',
-                metaDescription: 'Complete guide to power bank airplane rules 2026: mAh and Wh limits, EgyptAir regulations, and which power banks pass airport security without issues.',
+                title: 'Can You Take a Power Bank on a Plane? Egyptian & International Airport Rules',
+                metaTitle: 'Power Bank Airplane Rules | Egyptian Airport Guide',
+                metaDescription: 'Complete guide to power bank airplane rules: mAh and Wh limits, EgyptAir regulations, and which power banks pass airport security without issues.',
                 keywords: 'power bank airplane rules, can you take power bank on plane, power bank flight rules egypt, airline power bank limit, power bank carry on, egyptair power bank',
-                excerpt: 'Your complete guide to power bank rules on airplanes 2026: allowed limits, Wh calculations, and EgyptAir and international airline regulations.',
+                excerpt: 'Your complete guide to power bank rules on airplanes: allowed limits, Wh calculations, and EgyptAir and international airline regulations.',
                 quickAnswer: 'Yes, power banks are allowed in carry-on luggage only (NOT checked baggage). The global limit: under 100Wh without approval (≈ 27,000mAh). 100-160Wh requires airline pre-approval. Over 160Wh is completely banned. All Anker and Joyroom power banks from CairoVolt are under 100Wh and allowed on any flight.',
                 content: `
 <h2>Quick Answer: Yes — With Simple Rules</h2>
@@ -154,7 +154,7 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
     </tbody>
 </table>
 
-<h2>Airline Comparison — 2026 Rules</h2>
+<h2>Airline Comparison — Rules</h2>
 <table>
     <thead><tr><th>Airline</th><th>Max Allowed</th><th>Power Bank Count</th><th>Carry-on Only?</th></tr></thead>
     <tbody>

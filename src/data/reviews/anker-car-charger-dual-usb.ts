@@ -37,7 +37,7 @@ export const anker_car_charger_dual_usb_reviews: ProductReview[] = [
         },
         {
             author: 'Osama Kamel', rating: 3, location: 'أسيوط', datePublished: '2025-07-02',
-            reviewBody: { en: 'Charges slowly compared to my old Baseus charger. Both ports max out at 12W each which is behind the curve in 2026. Fine for overnight.', ar: 'بيشحن ببطء مقارنة بشاحن Baseus القديم. المنفذين أقصى 12 واط لكل واحد وده متأخر في 2026. كويس للشحن طول الليل.' },
+            reviewBody: { en: 'Charges slowly compared to my old Baseus charger. Both ports max out at 12W each which is behind the curve in. Fine for overnight.', ar: 'بيشحن ببطء مقارنة بشاحن Baseus القديم. المنفذين أقصى 12 واط لكل واحد وده متأخر في. كويس للشحن طول الليل.' },
             pros: { en: ['Dual USB ports', 'Fine for slow charging'], ar: ['منفذين USB', 'كويس للشحن البطيء'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }
         }

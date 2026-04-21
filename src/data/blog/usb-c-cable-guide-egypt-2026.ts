@@ -11,8 +11,8 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
         relatedCategories: ['Anker/cables', 'Joyroom/cables'],
         translations: {
             ar: {
-                title: 'دليلك الكامل لكابلات USB-C في مصر 2026: مش كل الكابلات زي بعض',
-                metaTitle: 'دليل كابلات USB-C في مصر 2026 | أيه الفرق؟',
+                title: 'دليلك الكامل لكابلات USB-C في مصر: مش كل الكابلات زي بعض',
+                metaTitle: 'دليل كابلات USB-C في مصر | أيه الفرق؟',
                 metaDescription: 'مش كل كابلات USB-C زي بعض! اكتشف الفرق الخطير بين الكابلات الرخيصة والأصلية. اختبار عملي بالميزان والمالتيمتر على 5 كابلات مختلفة من مختبر كايرو فولت.',
                 keywords: 'كابل USB-C, كابل شحن سريع, افضل كابل USB-C, كابل انكر, كابل جوي روم, الفرق بين كابلات الشحن, كابل شحن ايفون, كابل شحن سامسونج',
                 excerpt: 'مش كل كابلات USB-C زي بعض! اختبار عملي بالميزان والمالتيمتر على 5 كابلات مختلفة.',
@@ -41,7 +41,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>كتير من الناس فاكرين إن أي كابل USB-C هو نفس الحاجة. الحقيقة إن فيه فروقات ضخمة:</p>
 
 <h3>1. USB-C to USB-C (الأفضل والأحدث)</h3>
-<p>ده الكابل اللي محتاجه في 2026. الطرفين USB-C. بيدعم:</p>
+<p>ده الكابل اللي محتاجه في. الطرفين USB-C. بيدعم:</p>
 <ul>
     <li>شحن سريع حتى <strong>100 واط</strong> (USB PD)</li>
     <li>نقل بيانات حتى <strong>10 Gbps</strong> (USB 3.2)</li>
@@ -145,7 +145,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
     <li>ضمان الشركة — Anker بيدي ضمان 18 شهر على كابلاته</li>
 </ul>
 
-<h2>أفضل 3 كابلات USB-C نرشحها في مصر 2026</h2>
+<h2>أفضل 3 كابلات USB-C نرشحها في مصر</h2>
 
 <h3>🥇 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III USB-C (60W)</a> — الأفضل</h3>
 <p>نايلون مضفر، 60 واط، USB 3.2 (نقل بيانات سريع)، ضمان 18 شهر. يشحن iPhone وSamsung بأقصى سرعة ممكنة. <strong>الكابل اللي بنستخدمه في كل اختباراتنا.</strong></p>
@@ -180,8 +180,8 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
                 ]
             },
             en: {
-                title: 'Complete USB-C Cable Guide for Egypt 2026: Not All Cables Are Created Equal',
-                metaTitle: 'USB-C Cable Guide Egypt 2026 | What\'s the Difference?',
+                title: 'Complete USB-C Cable Guide for Egypt: Not All Cables Are Created Equal',
+                metaTitle: 'USB-C Cable Guide Egypt | What\'s the Difference?',
                 metaDescription: 'Not all USB-C cables are the same! Discover the dangerous difference between cheap and genuine cables. Lab test with scale & multimeter on 5 different cables from CairoVolt Labs.',
                 keywords: 'USB-C cable, fast charging cable, best USB-C cable, anker cable, joyroom cable, charging cable difference, iphone cable, samsung cable',
                 excerpt: 'Not all USB-C cables are the same! Lab test with scale & multimeter on 5 different cables.',
@@ -210,7 +210,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>Many people think any USB-C cable is the same thing. The truth is there are massive differences:</p>
 
 <h3>1. USB-C to USB-C (Best and Newest)</h3>
-<p>This is the cable you need in 2026. Both ends are USB-C. It supports:</p>
+<p>This is the cable you need in. Both ends are USB-C. It supports:</p>
 <ul>
     <li>Fast charging up to <strong>100 watts</strong> (USB PD)</li>
     <li>Data transfer up to <strong>10 Gbps</strong> (USB 3.2)</li>
@@ -314,7 +314,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
     <li>Manufacturer warranty — Anker offers 18 months warranty on their cables</li>
 </ul>
 
-<h2>Top 3 USB-C Cables We Recommend in Egypt 2026</h2>
+<h2>Top 3 USB-C Cables We Recommend in Egypt</h2>
 
 <h3>🥇 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III USB-C (60W)</a> — The Best</h3>
 <p>Nylon braided, 60W, USB 3.2 (fast data transfer), 18-month warranty. Charges iPhone and Samsung at maximum possible speed. <strong>The cable we use in all our tests.</strong></p>

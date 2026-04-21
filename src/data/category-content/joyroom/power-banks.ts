@@ -11,7 +11,7 @@ export const joyroom_power_banks_content: CategoryContent = {
                     keywords: 'joyroom power bank, joyroom power bank 10000, joyroom power bank 20000, power bank egypt',
                 },
                 ar: {
-                    title: 'باور بانك جوي روم | Joyroom Power Bank Egypt - أسعار 2026',
+                    title: 'باور بانك جوي روم | Joyroom Power Bank Egypt - أسعار',
                     description: 'تسوق باور بانك جوي روم الأصلي في مصر. باور بانك جوي روم 20000 و 10000 مللي أمبير بأفضل الأسعار. باور بانك جيروم.',
                     keywords: 'باور بانك جوي روم 10000, باور بانك جوي روم 20000, باور بانك جيروم, سعر باور بانك joyroom, joyroom power bank',
                 }

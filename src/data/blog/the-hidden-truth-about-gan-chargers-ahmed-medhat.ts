@@ -29,7 +29,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
         translations: {
             ar: {
                 title: 'وهم الشواحن القديمة: لماذا تعتبر تقنية GaN التطور الأهم في العقد الأخير؟ - أحمد مدحت',
-                metaTitle: 'ما هي شواحن GaN؟ | تحليل شامل لتقنية شحن المستقبل 2026',
+                metaTitle: 'ما هي شواحن GaN؟ | تحليل شامل لتقنية شحن المستقبل',
                 metaDescription: 'أحمد مدحت يحلل تقنية نيتريد الغاليوم (GaN) وكيف تتفوق على شواحن السيليكون القديمة في السرعة، الحجم، وحماية البطارية بشكل جذري.',
                 keywords: 'أحمد مدحت, شواحن GaN, تقنية نيتريد الغاليوم, شاحن سريع, GaN charger, Anker GaN II, حماية بطارية الهاتف',
                 excerpt: 'وراء كل شاحن تستخدمه اليوم قصة فيزيائية معقدة. لماذا قررت الشركات التخلي عن السيليكون لصالح مادة الـ GaN؟ هذا هو التحليل العلمي الذي يخفونه عنك.',
@@ -69,7 +69,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
             },
             en: {
                 title: 'The Silicon Illusion: Why GaN Technology is the Decade\'s Most Vital Evolution - Ahmed Medhat',
-                metaTitle: 'What is a GaN Charger? | Deep Technical Analysis 2026',
+                metaTitle: 'What is a GaN Charger? | Deep Technical Analysis',
                 metaDescription: 'Tech Researcher Ahmed Medhat breaks down the physics behind Gallium Nitride (GaN) chargers and why they mathematically outperform old Silicon bricks.',
                 keywords: 'Ahmed Medhat, GaN charger explained, Gallium Nitride vs Silicon, Anker GaN II, phone battery protection, tech analysis',
                 excerpt: 'Behind every charger you use is a complex battle of physics. Why did engineers abandon Silicon for GaN? Here is the deep technical truth they rarely explain.',
