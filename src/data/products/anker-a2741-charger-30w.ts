@@ -69,7 +69,7 @@ export const anker_a2741_charger_30w = {
 </div>
 `,
                 features: ["🚗 30W Car Charger", "⚡ USB-C 27W PD/PPS", "🔌 USB-A 22.5W PowerIQ 3.0", "📐 Miniature 15g Design", "📱 Samsung PPS Fast Charge", "🛡️ MultiProtect Safety", "🔋 12V/24V All Cars", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Mini Car Charger 30W PD A2741 | USB-C + USB-A | Egypt 2026",
+                metaTitle: "Anker Mini 30W Car Charger ⚡ 7% OFF | Ultra Compact | COD Egypt",
                 metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 27W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "How is the A2741 different from the A2732?", answer: "Both are Anker car chargers, but the A2741 is much smaller (15g vs 32g) and supports PPS protocol for Samsung Super Fast Charging. The A2732 has stronger per-port output but is physically larger. Choose A2741 for minimum size, A2732 for maximum single-port speed." },
@@ -136,7 +136,7 @@ export const anker_a2741_charger_30w = {
 </div>
 `,
                 features: ["🚗 شاحن سيارة 30 واط", "📐 فائق الصغر 15 جرام", "⚡ USB-C بقوة 27 واط PD/PPS", "🔌 USB-A بقوة 22.5 واط", "📱 شحن PPS لسامسونج", "🛡️ حماية MultiProtect", "🔋 12/24 فولت كل السيارات", "🏆 ضمان 18 شهر"],
-                metaTitle: "شاحن سيارة انكر 30 واط ميني A2741 | USB-C PD/PPS + USB-A | مصر 2026",
+                metaTitle: "شاحن سيارة انكر ميني 30 واط ⚡ خصم 7% | أصغر شاحن سيارة | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن سيارة انكر A2741 ميني في مصر. 30 واط: USB-C بقوة 27 واط PD/PPS + USB-A بقوة 22.5 واط. وزنه 15 جرام بس! شحن سامسونج السريع. ✓ ضمان 18 شهر.",
                 faqs: [
                     { question: "إيه الفرق بينه وبين الـ A2732؟", answer: "الاتنين شواحن سيارة أنكر. الـ A2741 أصغر بكتير (15 جرام مقابل 32 جرام) وبيدعم PPS لشحن سامسونج السريع. الـ A2732 أقوى في المنفذ الواحد بس أكبر حجماً. اختار A2741 لأصغر حجم، A2732 لأقصى سرعة منفذ واحد." },

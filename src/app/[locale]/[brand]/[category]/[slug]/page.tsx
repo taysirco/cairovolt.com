@@ -160,27 +160,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const isArabic = locale === 'ar';
     const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en || {};
 
-    // Feature: Dynamic Title Variants
-    // We deterministically rotate through 4 verified title templates based on the product ID 
-    // to find the most suitable format and provide detailed information for users.
-    const hashStr = product.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    const titleVariantIndex = hashStr % 4;
+    // CTR-optimized title with dynamic discount calculation
+    const origPrice = product.originalPrice ?? product.price;
+    const discountPct = origPrice > product.price
+        ? Math.round((1 - product.price / origPrice) * 100)
+        : 0;
+    const hasDiscount = discountPct >= 5;
 
-    const arTitleVariants = [
-        `تجربتنا لـ ${t.name} الأصلي (المميزات والعيوب)`,
-        `مراجعة شاملة: هل يستحق ${t.name} الشراء فعلاً؟`,
-        `كل ما تود معرفته عن ${t.name} قبل الشراء`,
-        `تقييم ${t.name} الأصلي من ${product.brand} (رأي الخبراء)`
-    ];
+    const arFallbackTitle = hasDiscount
+        ? `${t.name} الأصلي ⚡ خصم ${discountPct}% | ضمان رسمي | ادفع عند الاستلام`
+        : `${t.name} الأصلي ⚡ ضمان رسمي | ادفع عند الاستلام`;
 
-    const enTitleVariants = [
-        `Our Experience with the Original ${t.name} (Pros & Cons)`,
-        `Comprehensive Review: Is ${t.name} Worth Buying?`,
-        `Everything You Need to Know About ${t.name} Before Buying`,
-        `Expert Review: Original ${t.name} by ${product.brand}`
-    ];
+    const enFallbackTitle = hasDiscount
+        ? `${t.name} ⚡ ${discountPct}% OFF | Official Warranty | COD Egypt`
+        : `${t.name} ⚡ Official Warranty | COD Egypt`;
 
-    const dynamicTitle = t.metaTitle || (isArabic ? arTitleVariants[titleVariantIndex] : enTitleVariants[titleVariantIndex]);
+    const dynamicTitle = t.metaTitle || (isArabic ? arFallbackTitle : enFallbackTitle);
 
     return {
         title: { absolute: dynamicTitle },

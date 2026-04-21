@@ -87,7 +87,7 @@ export const joyroom_ft3_smartwatch = {
 </div>
 `,
                 features: ["⌚ IP68 Waterproof", "🏃 20 Sports Modes", "❤️ 24/7 Heart Rate", "🔋 7-Day Battery", "📱 iPhone 17 & Samsung S26", "💬 Arabic Notifications", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom FT3 Smart Watch | IP68 | 20 Sports | Heart Rate | 100% Authentic",
+                metaTitle: "Joyroom FT3 Smartwatch ⚡ 56% OFF | IP68 Waterproof | COD Egypt",
                 metaDesc: "Buy Joyroom FT3 Smart Watch in Egypt. IP68 waterproof, 20 sports modes, heart rate, 7-day battery. Works with iPhone 17 & Samsung. 12-month warranty.",
                 faqs: [
                     { question: "Does it support Arabic?", answer: "Yes, the watch interface and notifications fully support the Arabic language." },
@@ -160,7 +160,7 @@ export const joyroom_ft3_smartwatch = {
 </div>
 `,
                 features: ["⌚ IP68 مقاومة للماء", "🏃 20 وضع رياضي", "❤️ مراقبة النبض 24/7", "🔋 7 أيام بطارية", "📱 ايفون 17 وسامسونج S26", "💬 إشعارات عربية", "🏆 ضمان 12 شهر"],
-                metaTitle: "ساعة جوي روم FT3 | IP68 | 20 وضع رياضي | مراقبة النبض | الدفع عند الاستلام",
+                metaTitle: "ساعة جوي روم FT3 الذكية ⚡ خصم 56% | IP68 ضد المياه | ادفع عند الاستلام",
                 metaDesc: "اشتري ساعة جوي روم FT3 في مصر. IP68 مقاومة للماء، 20 وضع رياضي، مراقبة النبض، 7 أيام بطارية. متوافقة مع ايفون 17 وسامسونج. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل تدعم العربية؟", answer: "نعم، الواجهة والإشعارات تدعم العربية بالكامل." },

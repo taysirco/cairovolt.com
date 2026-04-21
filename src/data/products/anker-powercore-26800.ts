@@ -98,7 +98,7 @@ export const anker_powercore_26800 = {
 </div>
 `,
                 features: ["🔋 26,800mAh (96.48Wh) — 5x iPhone Charges", "🔌 3 USB-A Ports (PowerIQ 2.0)", "✈️ Max Airline-Legal Capacity", "🔄 Dual-Input 6hr Recharge", "🛡️ MultiProtect 10-Layer Safety", "🏆 24-Month Warranty"],
-                metaTitle: "Anker 26800mAh Power Bank | 5x iPhone | Max Airline Capacity Egypt",
+                metaTitle: "Anker 26800mAh Power Bank ⚡ 34% OFF | Max Airline Capacity | COD Egypt",
                 metaDesc: "Buy Anker PowerCore 26800mAh in Egypt. Max airline-legal capacity, 3 USB ports, 5x iPhone charges. 24-month warranty. Fast Cairo delivery.",
                 faqs: [
                     {
@@ -189,7 +189,7 @@ export const anker_powercore_26800 = {
 </div>
 `,
                 features: ["🔋 26,800 مللي أمبير (96.48Wh) — 5 شحنات ايفون", "🔌 3 منافذ USB-A (PowerIQ 2.0)", "✈️ أكبر سعة مسموحة للطائرة", "🔄 شحن مزدوج 6 ساعات", "🛡️ حماية MultiProtect 10 طبقات", "🏆 ضمان 24 شهر"],
-                metaTitle: "باور بانك انكر 26800 | أكبر سعة للطائرة | 5 شحنات ايفون مصر",
+                metaTitle: "باور بانك انكر 26800 الأصلي ⚡ خصم 34% | أكبر سعة للطائرة | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك انكر 26800 في مصر. أكبر سعة مسموحة للطائرة، 3 منافذ USB، 5 شحنات ايفون. ضمان 24 شهر. توصيل سريع القاهرة.",
                 faqs: [
                     { question: "هل هذا أكبر حجم مسموح في الطائرة؟", answer: "نعم! 26,800 مللي أمبير ضمن حد TSA 100 واط/ساعة، أكبر سعة للسفر قانونياً. مسموح في طيران مصر وفلاين وإيميراتس." },

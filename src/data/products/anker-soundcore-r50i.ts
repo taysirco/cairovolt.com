@@ -67,7 +67,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value"],
-                metaTitle: "Anker Soundcore R50i Earbuds | 10mm | 30h Battery | Egypt 2026",
+                metaTitle: "Anker Soundcore R50i ⚡ 27% OFF | 30h Battery Life | COD Egypt",
                 metaDesc: "Buy Anker R50i in Egypt. 10mm BassUp drivers, 30h battery, AI ENC calls. Best-value wireless earbuds. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Does it have ANC (noise cancellation)?", answer: "No — the R50i uses passive noise isolation via silicone tips. For active ANC, choose the R50i NC (42dB ANC). The R50i offers great value without ANC." },
@@ -128,7 +128,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق Soundcore", "💰 أفضل قيمة"],
-                metaTitle: "سماعة انكر R50i | 10mm | 30 ساعة | مصر 2026",
+                metaTitle: "سماعة انكر R50i ⚡ خصم 27% | 30 ساعة تشغيل | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },

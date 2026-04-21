@@ -23,7 +23,7 @@ export const joyroom_type_c_lightning_24mos = {
                 shortDescription: "24-month warranty Lightning cable for iPhone 14/13/12 | 30W PD fast charging | CairoVolt: 0.4% return rate over 1,200 units sold",
                 description: "Premium USB-C to Lightning cable with extended 24-month warranty for iPhone 14/13/12/11. 30W PD fast charging. Perfect for users who want extra peace of mind.",
                 features: ["30W PD fast charging", "24-month extended warranty", "iPhone 14 and earlier", "1m length", "Durable nylon braided"],
-                metaTitle: "Joyroom Lightning Cable 24 Month Warranty | Egypt 2026",
+                metaTitle: "Joyroom Lightning Cable ⚡ 49% OFF | 2-Year Warranty | COD Egypt",
                 metaDesc: "Joyroom USB-C Lightning Cable with 24-month warranty for iPhone 14/13/12. 30W fast charging. Best price Egypt.",
                 faqs: [
                     { question: "Why choose 24-month warranty cable?", answer: "For users who want extra protection without premium pricing. 24-month warranty covers manufacturing defects twice as long as standard 12-month cables." },
@@ -36,7 +36,7 @@ export const joyroom_type_c_lightning_24mos = {
                 shortDescription: "مللت من شراء كابل كل 3 شهور؟ 🛡️ ضمان سنتين بأقل نسبة إرجاع 0.3% في كايرو فولت | ⚡ 30 واط PD شحن سريع | 🧵 نايلون فاخر",
                 description: "كابل ايفون 14/13/12 بأقل نسبة إرجاع في كايرو فولت (0.3% فقط). ضمان 24 شهر بتكلفة أقل من 0.30 جنيه/يوم. شحن سريع 30 واط PD — الخيار الأذكى للي عايز حماية إضافية بدون دفع سعر فاخر.",
                 features: ["شحن سريع 30 واط PD", "ضمان 24 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون متين"],
-                metaTitle: "كابل جوي روم Lightning ضمان 24 شهر | أرخص سعر",
+                metaTitle: "كابل جوي روم ايفون ⚡ خصم 49% | ضمان سنتين | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم USB-C Lightning بضمان 24 شهر للايفون 14/13/12. شحن سريع 30 واط. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أختار كابل ضمان 24 شهر؟", answer: "للمستخدمين الذين يريدون حماية إضافية بدون سعر فاخر. ضمان 24 شهر يغطي عيوب الصناعة ضعف الكابلات العادية 12 شهر." },

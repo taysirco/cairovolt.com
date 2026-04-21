@@ -94,7 +94,7 @@ export const anker_car_charger_dual_usb = {
 </div>
 `,
                 features: ["🚗 24W Dual USB (12W×2)", "⚡ PowerIQ Smart Charging", "📱 Charge 2 Devices Simultaneously", "🔌 12V/24V All Cars", "💡 Blue LED Indicator", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Car Charger 24W Dual USB | PowerIQ | Best Price",
+                metaTitle: "Anker Car Charger Dual USB ⚡ 27% OFF | Dual Fast Charge | COD Egypt",
                 metaDesc: "Buy Anker PowerDrive 2 car charger in Egypt. 24W dual USB, PowerIQ, charge 2 devices. Fits all cars. 18-month warranty. Fast Cairo delivery.",
                 faqs: [
                     { question: "Does it work in all cars?", answer: "Yes, it works with any standard 12V/24V car cigarette lighter socket." },
@@ -176,7 +176,7 @@ export const anker_car_charger_dual_usb = {
 </div>
 `,
                 features: ["🚗 24 واط منفذين USB (12واط×2)", "⚡ شحن ذكي PowerIQ", "📱 اشحن جهازين", "🔌 12/24فولت كل السيارات", "💡 مؤشر LED هادي", "🏆 ضمان 18 شهر"],
-                metaTitle: "شاحن سيارة انكر 24 واط منفذين | PowerIQ | من كايرو فولت",
+                metaTitle: "شاحن سيارة انكر الأصلي ⚡ خصم 27% | منفذين شحن سريع | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن سيارة انكر PowerDrive 2 في مصر. 24 واط منفذين USB، PowerIQ، اشحن جهازين. يناسب كل السيارات. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يعمل في جميع السيارات؟", answer: "نعم، يعمل مع أي مقبس ولاعة 12/24 فولت قياسي." },

@@ -88,7 +88,7 @@ export const joyroom_car_mount_zs290 = {
 </div>
 `,
                 features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom Magnetic Car Mount ZS290 | N52 MagSafe | Buy Original",
+                metaTitle: "Joyroom Magnetic Car Mount ⚡ N52 MagSafe | COD Egypt",
                 metaDesc: "Buy Joyroom magnetic car mount in Egypt. N52 magnets, MagSafe iPhone direct attach, 360° rotation, air vent clip. Holds iPhone 17 Pro Max. 12-month warranty.",
                 faqs: [
                     { question: "Are N52 magnets strong enough for iPhone 17 Pro Max?", answer: "Yes, the powerful N52 magnets are strong enough to securely hold heavy phones like the iPhone 17 Pro Max, even on bumpy roads." },
@@ -162,7 +162,7 @@ export const joyroom_car_mount_zs290 = {
 </div>
 `,
                 features: ["🧲 مغناطيس N52 الأقوى", "📱 MagSafe تثبيت مباشر", "🔄 360° مفصل كروي", "❄️ مشبك التكييف", "🖐️ بيد واحدة", "📦 قطعة معدنية مشمولة", "🏆 ضمان 12 شهر"],
-                metaTitle: "حامل جوال مغناطيسي جوي روم ZS290 | N52 MagSafe | في مصر 2026",
+                metaTitle: "حامل جوال مغناطيسي جوي روم ⚡ N52 MagSafe | ادفع عند الاستلام",
                 metaDesc: "اشتري حامل جوال مغناطيسي جوي روم في مصر. مغناطيس N52، تثبيت MagSafe مباشر، دوران 360°، مشبك التكييف. يمسك ايفون 17 برو ماكس. ضمان 12 شهر.",
                 faqs: [
                     {

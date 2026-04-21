@@ -28,7 +28,7 @@ export const joyroom_usb_a_lightning_1_2m = {
                 shortDescription: "1.2m Lightning cable for iPhone 14/13/12 | Reaches Egyptian wall outlet to bed | 36-month warranty | 2.4A durable nylon",
                 description: "Extra-long 1.2m USB-A to Lightning cable for iPhone 14/13/12/11. Perfect for bedside charging with older chargers. 2.4A charging. Durable 36-month warranty construction.",
                 features: ["2.4A charging", "1.2m extended length", "iPhone 14 and earlier", "36-month warranty", "Durable design"],
-                metaTitle: "Joyroom USB-A Lightning 1.2m Cable | Best Price",
+                metaTitle: "Joyroom Lightning 1.2m ⚡ 24% OFF | Official Warranty | COD Egypt",
                 metaDesc: "Joyroom 1.2m Lightning cable — reaches from Egyptian wall outlet to bed easily. 36-month warranty. Tested in 4 Egyptian car models. iPhone 14/13/12.",
                 faqs: [
                     { question: "Why does this have 36-month warranty?", answer: "This extended 1.2m cable uses premium materials. The 36-month warranty reflects our confidence in its durability - perfect for heavy daily use." },
@@ -41,7 +41,7 @@ export const joyroom_usb_a_lightning_1_2m = {
                 shortDescription: "اشحن وانت نايم براحة 🛏️ 1.2 متر الطول المثالي للكومودينو | 🛡️ ضمان 3 سنين (أطول ضمان كابل في مصر) | ⚡ 2.4A متين",
                 description: "كابل USB-A إلى Lightning طويل 1.2 متر للايفون 14/13/12/11. مثالي للشحن بجانب السرير مع شواحن قديمة. شحن 2.4 أمبير. ضمان 36 شهر.",
                 features: ["شحن 2.4 أمبير", "طول 1.2 متر", "ايفون 14 والأقدم", "ضمان 36 شهر", "تصميم متين"],
-                metaTitle: "كابل جوي روم USB-A Lightning 1.2 متر | الدفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون 1.2 متر ⚡ خصم 24% | ضمان الوكيل | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم 1.2 متر Lightning — يوصل من البريزة للسرير بسهولة. ضمان 36 شهر. مجرب في 4 موديلات سيارات مصرية. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر؟", answer: "هذا الكابل 1.2 متر يستخدم مواد فاخرة. ضمان 36 شهر يعكس ثقتنا في متانته - مثالي للاستخدام اليومي المكثف." },

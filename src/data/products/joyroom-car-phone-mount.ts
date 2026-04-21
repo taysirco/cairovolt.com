@@ -50,7 +50,7 @@ export const joyroom_car_phone_mount = {
     </section>
 </div>`,
                 features: ["Fits phones up to 7 inches", "Strong suction cup mount", "Dashboard or windshield mounting", "360-degree rotation", "One-hand operation", "Adjustable arm length", "12-month warranty"],
-                metaTitle: "Joyroom Car Phone Mount iPhone 17 Samsung S26 | 100% Authentic",
+                metaTitle: "Joyroom Car Phone Mount ⚡ 58% OFF | Anti-Vibration | COD Egypt",
                 metaDesc: "Joyroom Car Phone Mount - holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360 rotation. Best price Egypt.",
                 faqs: [
                     { question: "Does the suction mount fit iPhone 17 Pro Max?", answer: "Yes! It's designed for phones up to 7 inches, so it easily holds iPhone 17 Pro Max (6.9 inches) and Samsung S26 Ultra securely." },
@@ -85,7 +85,7 @@ export const joyroom_car_phone_mount = {
     </section>
 </div>`,
                 features: ["يناسب هواتف حتى 7 بوصة", "كوب شفط قوي", "تثبيت على التابلوه أو الزجاج", "دوران 360 درجة", "تشغيل بيد واحدة", "ذراع قابل للتعديل", "ضمان 12 شهر"],
-                metaTitle: "حامل جوال سيارة جوي روم للايفون 17 وسامسونج | ضمان كايرو فولت",
+                metaTitle: "حامل موبايل سيارة جوي روم ⚡ خصم 58% | ثبات ضد الاهتزاز | ادفع عند الاستلام",
                 metaDesc: "حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل يثبت ايفون 17 برو ماكس؟", answer: "نعم! مصمم لهواتف حتى 7 بوصة، فيثبت ايفون 17 برو ماكس (6.9 بوصة) وسامسونج S26 الترا بسهولة." },

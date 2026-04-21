@@ -97,7 +97,7 @@ export const anker_nano_45w = {
 </div>
 `,
                 features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty"],
-                metaTitle: "Anker 45W GaN Charger | MacBook Air + iPhone 17 | Official Warranty",
+                metaTitle: "Anker 45W GaN Charger ⚡ 28% OFF | Laptop + iPhone | COD Egypt",
                 metaDesc: "Buy Anker Nano 45W GaN charger in Egypt. Charges MacBook Air + iPhone 17 + Samsung S26 at full speed. 60% smaller. 24-month warranty. Fast Cairo delivery.",
                 faqs: [
                     { question: "Can this charge my MacBook Air?", answer: "Yes, 45W is perfect for charging a MacBook Air at full speed and can also charge MacBook Pro models." },
@@ -181,7 +181,7 @@ export const anker_nano_45w = {
 </div>
 `,
                 features: ["⚡ 45 واط GaN III", "💻 ماك بوك اير بالسرعة الكاملة", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 2.0", "📏 أصغر 60% من التقليدي", "🏆 ضمان 24 شهر"],
-                metaTitle: "شاحن انكر 45 واط GaN | ماك بوك + ايفون 17 | الدفع عند الاستلام",
+                metaTitle: "شاحن انكر 45 واط GaN ⚡ خصم 28% | لابتوب + ايفون معاً | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن انكر نانو 45 واط GaN في مصر. يشحن ماك بوك اير + ايفون 17 + سامسونج S26 بأقصى سرعة. أصغر 60%. ضمان 24 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يمكنه شحن ماك بوك آير؟", answer: "نعم، 45 واط مثالي لشحن MacBook Air بالسرعة القصوى ويشحن MacBook Pro أيضاً." },

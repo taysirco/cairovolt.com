@@ -47,7 +47,7 @@ export const anker_usb_c_lightning_sureistrong = {
 </div>
 `,
                 features: ["30W PD fast charging", "MFi certified", "Soft-touch anti-tangle design", "Stain-resistant coating", "iPhone 14/13/12/11 compatible", "1.8m length", "24-month Anker warranty"],
-                metaTitle: "Anker SureIStrong Lightning Cable iPhone | Buy Original",
+                metaTitle: "Anker SureIStrong Lightning ⚡ 20% OFF | 30W Fast Charge | COD Egypt",
                 metaDesc: "Anker SureIStrong USB-C to Lightning - premium soft-touch cable with 30W PD. MFi certified for iPhone 14/13/12. Best price Egypt.",
                 faqs: [
                     { question: "Why choose Anker over generic cables?", answer: "Anker's 24-month warranty, MFi certification, and premium materials ensure safety and durability. Generic cables can damage your iPhone's battery." }
@@ -79,7 +79,7 @@ export const anker_usb_c_lightning_sureistrong = {
 </div>
 `,
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم ناعم مقاوم للتشابك", "طلاء مقاوم للبقع", "متوافق ايفون 14/13/12/11", "طول 1.8 متر", "ضمان انكر 24 شهر"],
-                metaTitle: "كابل انكر SureIStrong Lightning للايفون | شحن سريع",
+                metaTitle: "كابل انكر ايفون SureIStrong ⚡ خصم 20% | شحن سريع 30 واط | ادفع عند الاستلام",
                 metaDesc: "كابل انكر SureIStrong USB-C إلى Lightning - فاخر ناعم الملمس مع 30 واط PD. معتمد MFi للايفون 14/13/12. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." }

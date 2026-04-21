@@ -89,7 +89,7 @@ export const joyroom_30w_fast_charger = {
 </div>
 `,
                 features: ["⚡ 30W iPhone 17 MAX Speed", "📱 0→50% in 20 Minutes", "🔄 Dual PD 3.0 + QC 3.0", "📱 Samsung Super Fast", "✅ CE/FCC/RoHS Certified", "🧠 Intelligent Protocol Detection", "🏆 36-Month Warranty"],
-                metaTitle: "Joyroom 30W PD+QC Charger | iPhone 17 MAX Speed | Egypt 2026",
+                metaTitle: "Joyroom 30W PD+QC Charger ⚡ 33% OFF | iPhone + Samsung | COD Egypt",
                 metaDesc: "Buy Joyroom 30W charger in Egypt. iPhone 17 MAX 30W speed, 0→50% in 20 min, dual PD+QC, CE/FCC certified. 36-month warranty. Best price.",
                 faqs: [
                     { question: "Is 30W the maximum for iPhone 17?", answer: "Yes! Apple's iPhone 17 supports maximum 30W wired charging. This Joyroom 30W charger delivers the full maximum charging speed, charging 0-50% in just 20 minutes." },
@@ -164,7 +164,7 @@ export const joyroom_30w_fast_charger = {
 </div>
 `,
                 features: ["⚡ 30 واط سرعة ايفون 17 القصوى", "📱 0→50% في 20 دقيقة", "🔄 PD 3.0 + QC 3.0 مزدوج", "📱 سامسونج سوبر فاست", "✅ معتمد CE/FCC/RoHS", "🧠 كشف ذكي للبروتوكول", "🏆 ضمان 36 شهر"],
-                metaTitle: "شاحن جوي روم 30 واط PD+QC | سرعة ايفون 17 القصوى | أصلي 100%",
+                metaTitle: "شاحن جوي روم 30 واط ⚡ خصم 33% | PD+QC ايفون وسامسونج | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن جوي روم 30 واط في مصر. سرعة ايفون 17 القصوى 30 واط، 0→50% في 20 دقيقة، PD+QC مزدوج، CE/FCC. ضمان 36 شهر. أفضل سعر.",
                 faqs: [
                     { question: "هل 30 واط هي السرعة القصوى للايفون 17؟", answer: "نعم! ايفون 17 من ابل يدعم حد أقصى 30 واط للشحن السلكي. شاحن جوي روم 30 واط يوفر السرعة القصوى الكاملة، يشحن 0-50% في 20 دقيقة فقط." },

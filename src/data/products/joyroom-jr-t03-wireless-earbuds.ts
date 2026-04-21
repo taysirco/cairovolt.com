@@ -90,7 +90,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 </div>
 `,
                 features: ["🎧 20H Total Playtime", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Mic", "🎵 Stereo Sound", "💰 Best Budget Price", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom JR-T03 Wireless Earbuds | 20H Battery | Budget Egypt",
+                metaTitle: "Joyroom JR-T03 Earbuds ⚡ Budget Bluetooth | Official | COD Egypt",
                 metaDesc: "Buy Joyroom JR-T03 wireless earbuds in Egypt. 20H battery, touch controls, Bluetooth 5.0, built-in mic. Best budget TWS. 12-month warranty.",
                 faqs: [
                     { question: "Is this the original Joyroom?", answer: "Yes, we only sell 100% original Joyroom products with official warranty." },
@@ -163,7 +163,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 </div>
 `,
                 features: ["🎧 20 ساعة بطارية", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💰 أفضل سعر", "🏆 ضمان 12 شهر"],
-                metaTitle: "سماعة جوي روم JR-T03 | 20 ساعة | اقتصادية مصر",
+                metaTitle: "سماعة جوي روم JR-T03 ⚡ أرخص سماعة بلوتوث أصلية | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة جوي روم JR-T03 في مصر. 20 ساعة، تحكم باللمس، Bluetooth 5.0، ميكروفون مدمج. أفضل سماعات اقتصادية. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل هذه جوي روم أصلية؟", answer: "نعم، نبيع فقط منتجات جوي روم أصلية 100% مع ضمان رسمي." },

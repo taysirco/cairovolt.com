@@ -92,7 +92,7 @@ export const anker_soundcore_flare_2 = {
 </div>
 `,
                 features: ["🔊 20W 360° Sound (10W×2)", "💡 Beat-Synced LED Light Show", "💧 IPX7 Waterproof", "🔗 PartyCast (Link 100+)", "🎚️ Soundcore App EQ", "📱 Bluetooth 5.0"],
-                metaTitle: "Anker Soundcore Flare 2 | 360° Sound & LED Party Speaker Egypt",
+                metaTitle: "Anker Soundcore Flare 2 ⚡ 12% OFF | 360° Sound + LED | COD Egypt",
                 metaDesc: "Buy Anker Soundcore Flare 2 in Egypt. 20W 360° sound, beat-synced LED lights, IPX7 waterproof. Link 100+ speakers. 18-Month Warranty & fast delivery.",
                 faqs: [
                     { question: "How many speakers can I link?", answer: "With PartyCast technology, you can link over 100 Flare 2 (or compatible) speakers to sync sound and light." },
@@ -174,7 +174,7 @@ export const anker_soundcore_flare_2 = {
 </div>
 `,
                 features: ["🔊 صوت 20 وات 360° (10×2)", "💡 إضاءة LED متزامنة مع الإيقاع", "💧 مقاومة ماء IPX7", "🔗 PartyCast (ربط 100+ سماعة)", "🎚️ تطبيق Soundcore للتحكم", "📱 بلوتوث 5.0"],
-                metaTitle: "مكبر صوت انكر Flare 2 | صوت 360° وإضاءة LED في مصر",
+                metaTitle: "مكبر صوت انكر Flare 2 ⚡ خصم 12% | صوت 360° + LED | ادفع عند الاستلام",
                 metaDesc: "اشتري مكبر صوت Soundcore Flare 2 في مصر. صوت 20 وات 360°، إضاءة LED متفاعلة، IPX7 ضد الماء. ربط 100+ سماعة. ضمان 18 شهر وتوصيل سريع.",
                 faqs: [
                     { question: "كم سماعة يمكنني ربطها معاً؟", answer: "بفضل تقنية PartyCast، يمكنك ربط أكثر من 100 سماعة Flare 2 لمزامنة الصوت والإضاءة." },

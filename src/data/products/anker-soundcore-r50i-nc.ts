@@ -67,7 +67,7 @@ export const anker_soundcore_r50i_nc = {
 </div>
 `,
                 features: ["🔇 42dB Hybrid ANC", "🔋 45h Total Battery", "🎙️ 4-Mic AI Beamforming", "📱 Phone Stand Case", "🎵 10mm BassUp™ HiFi", "💧 IP54 Dust/Water", "⚡ 10min Fast Charge", "🔊 Transparency Mode"],
-                metaTitle: "Anker Soundcore R50i NC | 42dB ANC | 45h Battery | Egypt 2026",
+                metaTitle: "Anker Soundcore R50i NC ⚡ 16% OFF | 42dB ANC | COD Egypt",
                 metaDesc: "Buy Anker R50i NC ANC earbuds in Egypt. 42dB noise cancellation, 45h battery, 4-mic AI calls, phone stand case. ✓ 18-Month Warranty.",
                 faqs: [
                     { question: "How good is the 42dB ANC?", answer: "It blocks plane engines, Metro trains, café noise, and AC hum. Tested on EgyptAir flights and Cairo Metro. Rivals AirPods Pro 2 at half the price." },
@@ -129,7 +129,7 @@ export const anker_soundcore_r50i_nc = {
 </div>
 `,
                 features: ["🔇 42dB ANC هجين", "🔋 45 ساعة إجمالي", "🎙️ 4 مايك AI", "📱 علبة حامل موبايل", "🎵 10mm BassUp™", "💧 IP54", "⚡ شحن 10 دقايق", "🔊 وضع شفافية"],
-                metaTitle: "سماعة انكر R50i NC | 42dB إلغاء ضوضاء | 45 ساعة | مصر 2026",
+                metaTitle: "سماعة انكر R50i NC ⚡ خصم 16% | إلغاء ضوضاء 42dB | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة انكر R50i NC في مصر. 42dB إلغاء ضوضاء، 45 ساعة بطارية، 4 مايك AI، حامل موبايل. ✓ ضمان 18 شهر.",
                 faqs: [
                     { question: "الـ 42dB ANC كويس قد إيه؟", answer: "بيمنع محركات الطائرة وقطارات المترو وضوضاء الكافيهات. اتاختبر في رحلات مصر للطيران ومترو القاهرة. بينافس ايربودز برو 2 بنص السعر." },

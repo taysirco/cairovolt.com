@@ -23,7 +23,7 @@ export const joyroom_usb_a_lightning_cable = {
                 shortDescription: "Budget iPhone cable — 2.4A charging at 0.12 EGP/day (CairoVolt tested 365+ days) | 12-month warranty",
                 description: "Classic USB-A to Lightning cable for older chargers. Works with iPhone 14/13/12/11 and earlier. 2.4A charging. Durable design.",
                 features: ["2.4A charging", "1m length", "iPhone 14 and earlier", "Durable TPE", "12-month warranty"],
-                metaTitle: "Joyroom USB-A Lightning Cable iPhone | 100% Authentic",
+                metaTitle: "Joyroom USB-A Lightning ⚡ 69% OFF | Official Warranty | COD Egypt",
                 metaDesc: "Joyroom USB-A to Lightning Cable - standard charging for iPhone 14 and earlier. Best price Egypt.",
                 faqs: [
                     { question: "Is this cable compatible with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This USB-A to Lightning cable is designed for iPhone 14/13/12/11 and earlier models that have the Lightning port." },
@@ -36,7 +36,7 @@ export const joyroom_usb_a_lightning_cable = {
                 shortDescription: "بـ 43 جنيه بس (أرخص من قهوة) ☕ تكلفة يومية 0.12 جنيه | ✅ أصلي مش هيطلعلك رسالة 'ملحق غير مدعوم' | 💪 اتجرب 365+ يوم في كايرو فولت",
                 description: "كابل USB-A إلى Lightning كلاسيكي للشواحن القديمة. يعمل مع ايفون 14/13/12/11 والأقدم. شحن 2.4 أمبير. تصميم متين.",
                 features: ["شحن 2.4 أمبير", "طول 1 متر", "ايفون 14 والأقدم", "TPE متين", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم USB-A Lightning للايفون | ضمان الوكيل",
+                metaTitle: "كابل جوي روم ايفون ⚡ خصم 69% | ضمان الوكيل الرسمي | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم USB-A إلى Lightning - شحن قياسي للايفون 14 والأقدم. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل متوافق مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل USB-A إلى Lightning مصمم للايفون 14/13/12/11 والأقدم التي بها منفذ Lightning." },

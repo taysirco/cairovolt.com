@@ -25,7 +25,7 @@ export const joyroom_usb_c_cable_60w = {
                 shortDescription: "60W PD braided cable — CairoVolt test: iPhone 17 0→50% in 25min | Samsung S26 45W verified | 35,000+ bend lifespan nylon",
                 description: "The Joyroom 60W USB-C cable delivers maximum fast charging for iPhone 17 (30W), Samsung S26 (45W), and can even charge MacBook Air. Premium braided nylon construction ensures durability with 35,000+ bend lifespan. Perfect for the USB-C era.",
                 features: ["60W Power Delivery", "iPhone 17 max 30W charging", "Samsung S26/S25 Super Fast", "MacBook Air compatible", "35,000+ bend lifespan", "1m length", "24-month warranty"],
-                metaTitle: "Joyroom 60W USB-C Cable iPhone 17 Samsung S26 | Official Warranty",
+                metaTitle: "Joyroom USB-C 60W Cable ⚡ 44% OFF | iPhone + Samsung | COD Egypt",
                 metaDesc: "Joyroom 60W USB-C to USB-C Cable - max speed for iPhone 17 & Samsung S26. Braided 35K bends. Best price Egypt. Fast Cairo delivery.",
                 faqs: [
                     { question: "Can I use it with my MacBook?", answer: "Yes, it can charge MacBook Air at full speed. For MacBook Pro, it will charge but at a slower rate - we recommend 100W cables for Pro models." }
@@ -35,7 +35,7 @@ export const joyroom_usb_c_cable_60w = {
                 name: "كابل جوي روم 60 واط USB-C | انسى كابلات العتبة اللي بتتقطع بعد أسبوع | نايلون متين",
                 shortDescription: "35,000+ ثنية ومبيهزرش 💪 60 واط PD بيشحن لابتوب وايفون وسامسونج | ⚡ ايفون 17 من 0→50% في 25د | 🏆 ضمان سنتين كاملين",
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
-                metaTitle: "كابل جوي روم 60 واط USB-C للايفون 17 وسامسونج | أرخص سعر",
+                metaTitle: "كابل جوي روم 60 واط ⚡ خصم 44% | ايفون وسامسونج | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
                 faqs: [
                     { question: "هل يشحن ماك بوك؟", answer: "نعم، يشحن ماك بوك اير بأقصى سرعة. لماك بوك برو، يشحن لكن ببطء — ننصح بكابل 100W لموديلات برو." },

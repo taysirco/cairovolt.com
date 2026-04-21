@@ -88,7 +88,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 </div>
 `,
                 features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless | Next Day Delivery",
+                metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD Egypt",
                 metaDesc: "Buy Joyroom MagSafe power bank in Egypt. 10000mAh, 15W wireless + 20W wired, N52 magnets, kickstand. iPhone 17/16/15. 18-month warranty. Best price.",
                 faqs: [
                     { question: "How many times can it charge iPhone 17?", answer: "The 10000mAh capacity can fully charge iPhone 17 approximately 2 times, or provide over 2.5 charges for iPhone 17 Pro. Actual results vary based on usage during charging." },
@@ -161,7 +161,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 </div>
 `,
                 features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر"],
-                metaTitle: "باور بانك جوي روم MagSafe 10000 | 15 واط لاسلكي | ضمان الوكيل",
+                metaTitle: "باور بانك جوي روم MagSafe 10000 ⚡ خصم 6% | شحن لاسلكي | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك جوي روم MagSafe في مصر. 10000 مللي، 15 واط لاسلكي + 20 واط سلكي، مغناطيس N52، حامل مدمج. ايفون 17/16/15. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
                     { question: "كم شحنة يعطي MagSafe 10000 لايفون 17؟", answer: "سعة 10000 مللي أمبير تشحن الايفون 17 بالكامل حوالي مرتين، أو أكثر من 2.5 شحنة لايفون 17 برو. النتائج تختلف حسب الاستخدام أثناء الشحن." },

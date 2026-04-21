@@ -97,7 +97,7 @@ export const joyroom_power_bank_10000 = {
                     "✅ Golden Code Verified Original",
                     "🏆 12-Month Warranty"
                 ],
-                metaTitle: "Joyroom 10000mAh Power Bank | QC 3.0 | LED Display | Best Price",
+                metaTitle: "Joyroom 10000mAh Power Bank ⚡ QC 3.0 + LED Display | COD Egypt",
                 metaDesc: "Buy Joyroom 10000mAh power bank in Egypt. 2x iPhone charges, QC 3.0, LED display, ultra-slim 14mm. ✓ Original Sealed ✓ 14-Day Returns.",
                 faqs: [
                     { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at CairoVolt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
@@ -187,7 +187,7 @@ export const joyroom_power_bank_10000 = {
                     "✅ أصلي بالكود الذهبي",
                     "🏆 ضمان 12 شهر"
                 ],
-                metaTitle: "باور بانك جوي روم 10000 | QC 3.0 | شاشة LED | ضمان الوكيل",
+                metaTitle: "باور بانك جوي روم 10000 الأصلي ⚡ QC 3.0 + شاشة LED | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك جوي روم 10000 في مصر. شحنتين ايفون، QC 3.0، شاشة LED، نحيف 14مم. ✓ ضمان 12 شهر ✓ كود ذهبي أصلي ✓ توصيل سريع.",
                 faqs: [
                     { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من CairoVolt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },

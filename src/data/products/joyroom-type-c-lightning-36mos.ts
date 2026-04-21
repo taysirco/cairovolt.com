@@ -28,7 +28,7 @@ export const joyroom_type_c_lightning_36mos = {
                 shortDescription: "Industry-leading 36-month warranty Lightning cable | 30W PD | Premium nylon — outlasts 3 cheap cables (CairoVolt tracked data)",
                 description: "Premium USB-C to Lightning cable with industry-leading 36-month warranty for iPhone 14/13/12/11. 30W PD fast charging. Our best warranty coverage for complete protection.",
                 features: ["30W PD fast charging", "36-month premium warranty", "iPhone 14 and earlier", "1m length", "Premium nylon braided"],
-                metaTitle: "Joyroom Lightning Cable 36 Month Warranty | 100% Authentic",
+                metaTitle: "Joyroom Lightning Cable ⚡ 56% OFF | 3-Year Warranty | COD Egypt",
                 metaDesc: "Joyroom 36-month warranty Lightning cable — the longest cable guarantee in Egypt. Outlasts 3 cheap cables. Free replacement if it breaks. iPhone 14/13/12.",
                 faqs: [
                     { question: "Why is 36-month warranty worth the extra cost?", answer: "Our 36-month warranty is the longest in the industry. That's 3 years of protection - cables typically last 1-2 years with daily use, so you're covered for the entire lifespan." },
@@ -40,7 +40,7 @@ export const joyroom_type_c_lightning_36mos = {
                 name: "كابل جوي روم USB-C إلى Lightning (ضمان 36 شهر) | ريح دماغك من تغيير الكابلات 3 سنين قدام",
                 shortDescription: "استثمارك المضمون للايفون 🛡️ أطول ضمان في مصر 3 سنين (استبدال فورى) | ⚡ 30 واط PD شحن سريع | 🧵 نايلون فاخر يعيش معاك سنين",
                 features: ["شحن سريع 30 واط PD", "ضمان 36 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون فاخر"],
-                metaTitle: "كابل جوي روم Lightning ضمان 36 شهر | الدفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون ⚡ خصم 56% | ضمان 3 سنوات | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم بأطول ضمان في مصر 36 شهر — يعيش أكتر من 3 كابلات رخيصة. استبدال مجاني لو اتقطع. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر يستحق السعر الإضافي؟", answer: "ضماننا 36 شهر الأطول في السوق. 3 سنوات حماية - الكابلات عادة تعيش 1-2 سنة، فأنت مغطى طوال عمر الكابل." },

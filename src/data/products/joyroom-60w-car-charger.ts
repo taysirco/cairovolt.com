@@ -86,7 +86,7 @@ export const joyroom_60w_car_charger = {
 </div>
 `,
                 features: ["⚡ 60W Total (30W+30W)", "🔌 Retractable USB-C Cables", "📱 iPhone 17 MAX 30W", "📱 Samsung S26 Super Fast", "🚗 Universal 12V Fit", "📰 1m Reach to Backseat", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom 60W Car Charger | Retractable 3-in-1 | iPhone 17 MAX | Egypt 2026",
+                metaTitle: "Joyroom 60W Car Charger ⚡ 21% OFF | 3-in-1 Cables | COD Egypt",
                 metaDesc: "Buy Joyroom 60W car charger in Egypt. 30W+30W dual, retractable USB-C cables, iPhone 17 MAX speed, Samsung Super Fast. Fits all cars. 18-month warranty.",
                 faqs: [
                     { question: "Can it charge two phones at full speed?", answer: "Yes! The 60W total output splits to 30W + 30W when charging two devices. iPhone 17 gets its full 30W maximum speed, and Samsung S26 gets excellent 30W fast charging." },
@@ -160,7 +160,7 @@ export const joyroom_60w_car_charger = {
 </div>
 `,
                 features: ["⚡ 60 واط (30+30)", "🔌 كابلات USB-C قابلة للسحب", "📱 ايفون 17 MAX 30 واط", "📱 سامسونج S26 سوبر فاست", "🚗 12 فولت عالمي", "📰 1 متر للخلفي", "🏆 ضمان 18 شهر"],
-                metaTitle: "شاحن سيارة جوي روم 60 واط | 3 في 1 كابلات قابلة للسحب | أرخص سعر",
+                metaTitle: "شاحن سيارة جوي روم 60 واط ⚡ خصم 21% | 3 كابلات مدمجة | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن سيارة جوي روم 60 واط في مصر. 30+30 واط، كابلات USB-C قابلة للسحب، ايفون 17 MAX، سامسونج سوبر فاست. كل السيارات. ضمان 18 شهر.",
                 faqs: [
                     { question: "هل يشحن هاتفين بسرعة كاملة؟", answer: "نعم! القوة الإجمالية 60 واط تنقسم إلى 30+30 واط عند شحن جهازين. ايفون 17 يحصل على سرعته القصوى 30 واط، وسامسونج S26 يحصل على شحن سريع 30 واط ممتاز." },

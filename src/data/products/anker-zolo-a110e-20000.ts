@@ -103,7 +103,7 @@ export const anker_zolo_a110e_20000 = {
 </div>
 `,
                 features: ["⚡ 22.5W Fast Charging", "🔋 20,000mAh (74Wh)", "🔌 Built-in USB-C Cable", "📊 Digital LED Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (74Wh)", "🔌 3-Device Simultaneous", "💡 Trickle-Charge Mode"],
-                metaTitle: "Anker ZOLO 20000mAh Power Bank 22.5W | Built-in Cable | Egypt 2026",
+                metaTitle: "Anker ZOLO 20000mAh ⚡ 11% OFF | Built-in Cable | COD Egypt",
                 metaDesc: "Buy Anker ZOLO A110E 20000mAh in Egypt. 22.5W fast charge with built-in USB-C cable. 4x iPhone charges. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "How many times does it charge iPhone 17 Pro Max?", answer: "Approximately 4 full charges from a single fill. The 20,000mAh capacity is massive — more than enough for a 48-hour weekend trip." },
@@ -193,7 +193,7 @@ export const anker_zolo_a110e_20000 = {
 </div>
 `,
                 features: ["⚡ شحن سريع 22.5 واط", "🔋 20,000 مللي أمبير (74Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (74Wh)", "🔌 شحن 3 أجهزة", "💡 وضع الشحن الدقيق"],
-                metaTitle: "باور بانك انكر زولو 20000 مللي أمبير | كابل مدمج | مصر 2026",
+                metaTitle: "باور بانك انكر زولو 20000 ⚡ خصم 11% | كابل مدمج | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك انكر زولو A110E 20000 في مصر. 22.5 واط شحن سريع مع كابل مدمج. 4 شحنات ايفون كاملة. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "كام مرة بيشحن ايفون 17 برو ماكس؟", answer: "تقريباً 4 شحنات كاملة من ملية واحدة. سعة 20,000 مللي أمبير ضخمة — أكتر من كافية لرحلة ويك إند 48 ساعة." },

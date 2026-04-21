@@ -115,7 +115,7 @@ export const anker_powercore_20000 = {
                     "📊 LED Power Indicator",
                     "🏆 24-Month Warranty (2x Industry Standard)"
                 ],
-                metaTitle: "Anker 20000mAh Power Bank | 4x iPhone Charge | Buy Original",
+                metaTitle: "Anker 20000mAh Power Bank ⚡ 11% OFF | 4x iPhone Charge | COD Egypt",
                 metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,550. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
                 faqs: [
                     { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,550 at CairoVolt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
@@ -213,7 +213,7 @@ export const anker_powercore_20000 = {
                     "📊 مؤشر LED للبطارية",
                     "🏆 ضمان 24 شهر (ضعف المعيار)"
                 ],
-                metaTitle: "باور بانك انكر 20000 | 4 شحنات ايفون | أرخص سعر",
+                metaTitle: "باور بانك انكر 20000 الأصلي ⚡ خصم 11% | 4 شحنات ايفون | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,550 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,550 جنيه مصري من CairoVolt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },

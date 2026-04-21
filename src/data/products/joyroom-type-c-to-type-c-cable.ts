@@ -23,7 +23,7 @@ export const joyroom_type_c_to_type_c_cable = {
                 shortDescription: "60W PD USB-C cable — charges iPhone 15/17 + Samsung S26 + MacBook Air from one cable | Braided nylon",
                 description: "Standard USB-C to USB-C cable for iPhone 17, Samsung S26, tablets, and laptops. 60W Power Delivery support.",
                 features: ["60W PD support", "iPhone 17/16/15 compatible", "Samsung S26/S25 compatible", "1m length", "18-month warranty"],
-                metaTitle: "Joyroom USB-C to USB-C Cable | Official Warranty",
+                metaTitle: "Joyroom USB-C to USB-C ⚡ 35% OFF | 60W Fast Charge | COD Egypt",
                 metaDesc: "Joyroom USB-C Cable for iPhone 17 & Samsung S26. 60W PD. Best price Egypt.",
                 faqs: [
                     { question: "Does this cable work with iPhone 17?", answer: "Yes! iPhone 17 uses USB-C. This cable delivers 60W fast charging, providing the maximum 30W speed that iPhone 17 supports." },
@@ -36,7 +36,7 @@ export const joyroom_type_c_to_type_c_cable = {
                 shortDescription: "كابل واحد بيشحن ايفون وسامسونج ولابتوب 🔌 60 واط PD | 📱 يعطي ايفون 17 أقصى سرعة 30 واط | 🏆 ضمان 18 شهر",
                 description: "كابل USB-C قياسي للايفون 17 وسامسونج S26 والتابلت واللابتوب. يدعم 60 واط Power Delivery.",
                 features: ["يدعم 60 واط PD", "متوافق ايفون 17/16/15", "متوافق سامسونج S26/S25", "طول 1 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-C | في مصر 2026",
+                metaTitle: "كابل جوي روم تايب سي ⚡ خصم 35% | 60 واط شحن سريع | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم USB-C للايفون 17 وسامسونج S26. 60 واط PD. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C. هذا الكابل يوفر 60 واط شحن سريع، ويعطي ايفون 17 أقصى سرعة 30 واط." },

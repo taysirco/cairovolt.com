@@ -68,7 +68,7 @@ export const anker_a2732_charger_35w = {
 </div>
 `,
                 features: ["🚗 35W Car Charger", "⚡ USB-C 20W PD Fast Charge", "🔌 USB-A 15W PowerIQ 2.0", "📱 Charge 2 Devices", "💡 Blue LED Ring", "🛡️ MultiProtect Safety", "🔋 12V/24V All Cars", "🏆 18-Month Warranty"],
-                metaTitle: "Anker Car Charger 35W PD A2732 | USB-C + USB-A | Egypt 2026",
+                metaTitle: "Anker 35W Car Charger ⚡ USB-C + USB-A | COD Egypt",
                 metaDesc: "Buy Anker PowerDrive PD+ 2 A2732 car charger in Egypt. 35W: USB-C 20W PD + USB-A 15W. Fast charge iPhone in your car. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "How is this different from the basic Anker PowerDrive 2 (A2224)?", answer: "The A2224 has 2× USB-A (12W each, 24W total) — no PD fast charging. The A2732 adds a USB-C PD port (20W) for fast charging modern phones, plus USB-A PowerIQ 2.0 (15W). Total: 35W vs 24W." },
@@ -134,7 +134,7 @@ export const anker_a2732_charger_35w = {
 </div>
 `,
                 features: ["🚗 شاحن سيارة 35 واط", "⚡ USB-C بقوة 20 واط PD", "🔌 USB-A بقوة 15 واط PowerIQ", "📱 اشحن جهازين", "💡 حلقة LED", "🛡️ حماية MultiProtect", "🔋 12/24 فولت كل السيارات", "🏆 ضمان 18 شهر"],
-                metaTitle: "شاحن سيارة انكر 35 واط PD A2732 | USB-C + USB-A | مصر 2026",
+                metaTitle: "شاحن سيارة انكر 35 واط ⚡ USB-C + USB-A | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن سيارة انكر A2732 في مصر. 35 واط: USB-C بقوة 20 واط PD + USB-A بقوة 15 واط. اشحن ايفونك بسرعة في العربية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "إيه الفرق بينه وبين شاحن السيارة العادي PowerDrive 2 (A2224)؟", answer: "الـ A2224 عنده منفذين USB-A (12 واط لكل واحد، 24 واط إجمالي) — مفيش شحن PD سريع. الـ A2732 عنده منفذ USB-C PD (20 واط) للشحن السريع + USB-A PowerIQ (15 واط). إجمالي 35 واط مقابل 24 واط." },

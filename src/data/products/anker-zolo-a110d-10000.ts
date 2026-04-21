@@ -105,7 +105,7 @@ export const anker_zolo_a110d_10000 = {
 </div>
 `,
                 features: ["⚡ 22.5W Fast Charging", "🔋 10,000mAh (37Wh)", "🔌 Built-in USB-C Cable", "📊 Digital LED Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved", "🔌 3-Device Simultaneous Charging", "💡 Trickle-Charge Mode"],
-                metaTitle: "Anker ZOLO 10000mAh Power Bank 22.5W | Built-in Cable | Egypt 2026",
+                metaTitle: "Anker ZOLO 10000mAh ⚡ 9% OFF | Built-in Cable | COD Egypt",
                 metaDesc: "Buy Anker ZOLO A110D 10000mAh in Egypt. 22.5W fast charge with built-in USB-C cable. Digital display, 229g ultra-slim. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Does the built-in cable charge iPhones?", answer: "Yes! The built-in USB-C cable charges all USB-C iPhones (iPhone 15, 16, 17 series) at up to 22.5W fast speed. No need for a separate cable." },
@@ -195,7 +195,7 @@ export const anker_zolo_a110d_10000 = {
 </div>
 `,
                 features: ["⚡ شحن سريع 22.5 واط", "🔋 10,000 مللي أمبير (37Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 شحن 3 أجهزة في وقت واحد", "💡 وضع الشحن الدقيق"],
-                metaTitle: "باور بانك انكر زولو 10000 مللي أمبير | كابل مدمج | مصر 2026",
+                metaTitle: "باور بانك انكر زولو 10000 ⚡ خصم 9% | كابل مدمج | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك انكر زولو A110D في مصر. 22.5 واط شحن سريع مع كابل USB-C مدمج. شاشة رقمية، 229 جرام. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "هل الكابل المدمج بيشحن ايفون؟", answer: "أيوه! الكابل USB-C المدمج بيشحن كل ايفونات USB-C (ايفون 15، 16، 17) بسرعة لحد 22.5 واط. مش محتاج كابل منفصل." },

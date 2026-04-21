@@ -23,7 +23,7 @@ export const joyroom_usb_a_type_c_1_2m = {
                 shortDescription: "1.2m extra-reach USB-A to Type-C | Samsung S26 18W verified | Fits all Egyptian car console positions tested by CairoVolt",
                 description: "Extra-long 1.2m USB-A to Type-C cable for comfortable charging. Connect your iPhone 17 or Samsung S26 to older USB-A chargers. 3A fast charging support.",
                 features: ["3A fast charging", "1.2m extended length", "iPhone 17 compatible", "Samsung S26 compatible", "18-month warranty"],
-                metaTitle: "Joyroom USB-A Type-C 1.2m Cable | 100% Authentic",
+                metaTitle: "Joyroom USB-A Type-C 1.2m ⚡ Official Warranty | COD Egypt",
                 metaDesc: "Joyroom 1.2m USB-A Type-C — 20cm extra reach for car console and bedside. Samsung S26 18W verified. Fits all Egyptian car models tested.",
                 faqs: [
                     { question: "Why choose 1.2m over 1m cable?", answer: "1.2m (4ft) gives you extra reach - perfect for bedside charging, using your phone while plugged in, or when outlets are far. Only 10 EGP more for much better convenience." },
@@ -36,7 +36,7 @@ export const joyroom_usb_a_type_c_1_2m = {
                 shortDescription: "20 سم الإضافية دي بتفرق معاك 📏 يوصل من بريزة العربية للمقعد الخلفي | ⚡ 3A شحن سريع | 📱 ايفون 17 + سامسونج S26",
                 description: "كابل USB-A إلى Type-C طويل 1.2 متر للشحن المريح. وصّل ايفون 17 أو سامسونج S26 بشواحن USB-A القديمة. يدعم شحن سريع 3 أمبير.",
                 features: ["شحن سريع 3 أمبير", "طول 1.2 متر", "متوافق ايفون 17", "متوافق سامسونج S26", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-A Type-C 1.2 متر | ضمان الوكيل",
+                metaTitle: "كابل جوي روم تايب سي 1.2 متر ⚡ ضمان الوكيل الرسمي | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم 1.2 متر USB-A Type-C — 20 سم إضافية للسيارة والسرير. سامسونج S26 بـ 18 واط مؤكد. يناسب كل السيارات المصرية.",
                 faqs: [
                     { question: "لماذا أختار 1.2 متر بدل 1 متر؟", answer: "1.2 متر يعطيك مدى إضافي - مثالي للشحن بجانب السرير، استخدام الهاتف أثناء الشحن، أو لو المقبس بعيد. 10 جنيه زيادة فقط لراحة أكبر." },

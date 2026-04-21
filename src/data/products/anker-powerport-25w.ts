@@ -101,7 +101,7 @@ export const anker_powerport_25w = {
                     "📏 Compact 4.5cm Design",
                     "🏆 18-Month Warranty (vs Samsung's 12)"
                 ],
-                metaTitle: "Anker 25W PPS Charger | Samsung S26 Super Fast | EGP 550 Egypt",
+                metaTitle: "Anker 25W PPS Charger ⚡ 15% OFF | Super Fast Samsung | COD Egypt",
                 metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [
                     { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 550 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
@@ -195,7 +195,7 @@ export const anker_powerport_25w = {
                     "📏 صغير 4.5 سم",
                     "🏆 ضمان 18 شهر (ضد 12 من سامسونج)"
                 ],
-                metaTitle: "شاحن انكر 25 واط PPS | سامسونج S26 سوبر فاست | 550 جنيه مصر",
+                metaTitle: "شاحن انكر 25 واط الأصلي ⚡ خصم 15% | سوبر فاست سامسونج | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بـ 550 جنيه. سامسونج S26 سوبر فاست 0-50% في 26 دقيقة. متوافق ايفون 17. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 550 جنيه من CairoVolt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },

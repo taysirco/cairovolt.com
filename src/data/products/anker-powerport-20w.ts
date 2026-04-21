@@ -102,7 +102,7 @@ export const anker_powerport_20w = {
                     "🇸🇦 UK-Style Plug (Egypt Compatible)",
                     "🏆 18-Month Warranty"
                 ],
-                metaTitle: "Anker 20W Charger iPhone 17 | EGP 375 | Fast Charge Egypt 2026",
+                metaTitle: "Anker 20W USB-C Charger ⚡ 11% OFF | Fast Charge iPhone | COD Egypt",
                 metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 375. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Replacement Warranty ✓ 24-48H Shipping.",
                 faqs: [
                     { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 375 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
@@ -198,7 +198,7 @@ export const anker_powerport_20w = {
                     "🇸🇦 قابس UK-Style (متوافق مصر)",
                     "🏆 ضمان 18 شهر"
                 ],
-                metaTitle: "شاحن انكر 20 وات | 375 جنيه | شحن سريع ايفون 17 مصر 2026",
+                metaTitle: "شاحن انكر 20 واط الأصلي ⚡ خصم 11% | شحن سريع ايفون | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن انكر 20 وات الأصلي في مصر بـ 375 جنيه. ايفون 17 من 0-50% في 30 دقيقة. صغير 4سم. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام.",
                 faqs: [
                     { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "سعر شاحن انكر 20 وات في مصر هو 375 جنيه من CairoVolt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },

@@ -24,7 +24,7 @@ export const joyroom_type_c_lightning_braided = {
                 shortDescription: "30W PD fast charging braided cable for iPhone 14/13/12 | Double-braided nylon + aluminum connectors | 25,000+ bends",
                 description: "Premium braided USB-C to Lightning cable for iPhones with Lightning port (iPhone 14 and earlier). Supports 30W PD fast charging. MFi certified for safety and compatibility.",
                 features: ["30W PD fast charging", "MFi certified", "Braided nylon design", "iPhone 14/13/12/11 compatible", "1m length", "18-month warranty"],
-                metaTitle: "Joyroom USB-C Lightning Cable iPhone 14 | Official Warranty",
+                metaTitle: "Joyroom Lightning Braided ⚡ 24% OFF | Fast Charge iPhone | COD Egypt",
                 metaDesc: "Joyroom USB-C to Lightning Cable - 30W fast charging for iPhone 14/13/12. MFi certified. Best price Egypt.",
                 faqs: [
                     { question: "Is this cable MFi certified?", answer: "Yes! This cable has Apple MFi certification with the C94 chip, ensuring safe charging and zero 'accessory not supported' errors." },
@@ -36,7 +36,7 @@ export const joyroom_type_c_lightning_braided = {
                 shortDescription: "مبيتقطعش من عند الراس زي الكابلات العادية 💪 25,000+ انحناءة | ⚡ 30 واط PD شحن سريع | 🛡️ موصلات ألومنيوم بتعيش بالسنين",
                 description: "كابل USB-C إلى Lightning فاخر للايفونات بمنفذ Lightning (ايفون 14 وأقدم). يدعم شحن سريع 30 واط PD. معتمد MFi للأمان والتوافق.",
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-C Lightning للايفون 14 | الدفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون نايلون ⚡ خصم 24% | شحن سريع | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم USB-C إلى Lightning - شحن سريع 30 واط للايفون 14/13/12. معتمد MFi. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل الكابل معتمد MFi؟", answer: "نعم! هذا الكابل معتمد من أبل بشريحة C94، مما يضمن شحن آمن وعدم ظهور رسالة 'ملحق غير مدعوم'." },

@@ -23,7 +23,7 @@ export const joyroom_usb_a_type_c_cable = {
                 shortDescription: "Bridge your old USB-A charger to iPhone 17/Samsung S26 | 3A fast charging | CairoVolt 365-day durability test passed",
                 description: "Connect your Samsung S26 or iPhone 17 to older USB-A chargers. 3A fast charging. Use your existing chargers with new USB-C phones.",
                 features: ["3A fast charging", "1m length", "Samsung S26 compatible", "iPhone 17 compatible", "18-month warranty"],
-                metaTitle: "Joyroom USB-A to Type-C Cable | Egypt 2026",
+                metaTitle: "Joyroom USB-A to Type-C ⚡ 43% OFF | Best Price Egypt | COD Egypt",
                 metaDesc: "Joyroom USB-A to Type-C Cable for Samsung S26 & iPhone 17 with old chargers. Best price Egypt.",
                 faqs: [
                     { question: "Why would I use USB-A to Type-C?", answer: "If you have an older charger with USB-A port but a new phone with USB-C (like iPhone 17 or Samsung S26), this cable bridges the gap. No need to buy a new charger!" },
@@ -36,7 +36,7 @@ export const joyroom_usb_a_type_c_cable = {
                 shortDescription: "مش لازم تشتري شاحن جديد! 🔌 وصل شاحن USB-A القديم بايفون 17 أو سامسونج S26 | ⚡ 3A شحن سريع | 💪 اتجرب 365 يوم",
                 description: "وصّل سامسونج S26 أو ايفون 17 بشواحن USB-A القديمة. شحن سريع 3 أمبير. استخدم شواحنك الحالية مع هواتف USB-C الجديدة.",
                 features: ["شحن سريع 3 أمبير", "طول 1 متر", "متوافق سامسونج S26", "متوافق ايفون 17", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم USB-A إلى Type-C | أرخص سعر",
+                metaTitle: "كابل جوي روم تايب سي ⚡ خصم 43% | أرخص سعر في مصر | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم USB-A إلى Type-C لسامسونج S26 وايفون 17 مع شواحن قديمة. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أستخدم USB-A إلى Type-C؟", answer: "لو عندك شاحن قديم USB-A لكن هاتفك جديد USB-C (مثل ايفون 17 أو سامسونج S26)، هذا الكابل يربط بينهما. لا تحتاج شراء شاحن جديد!" },

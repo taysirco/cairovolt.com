@@ -94,7 +94,7 @@ export const anker_powerline_usb_c_lightning = {
 </div>
 `,
                 features: ["✅ Apple MFi Certified", "⚡ 30W Fast Charging", "💪 35,000+ Bend Lifespan", "📱 iPhone 14/13/12/11", "🚗 CarPlay Compatible", "🏆 18-Month Warranty"],
-                metaTitle: "Anker USB-C Lightning Cable | MFi Certified 30W | iPhone Egypt",
+                metaTitle: "Anker USB-C Lightning Cable ⚡ MFi Certified 30W | COD Egypt",
                 metaDesc: "Buy Anker PowerLine III USB-C to Lightning in Egypt. MFi certified, 30W fast charging, 35K+ bend lifespan. 3.5x more durable than Apple. 18-month warranty.",
                 faqs: [
                     { question: "Is this MFi Certified?", answer: "Yes, this cable is Apple MFi certified, guaranteeing strict quality testing and full compatibility with iOS devices." },
@@ -177,7 +177,7 @@ export const anker_powerline_usb_c_lightning = {
 </div>
 `,
                 features: ["✅ معتمد MFi من أبل", "⚡ شحن سريع 30 واط", "💪 يتحمل 35,000+ ثني", "📱 ايفون 14/13/12/11", "🚗 متوافق CarPlay", "🏆 ضمان 18 شهر"],
-                metaTitle: "كابل انكر USB-C Lightning | معتمد MFi 30 واط | ضمان كايرو فولت",
+                metaTitle: "كابل انكر ايفون MFi الأصلي ⚡ 30 واط شحن سريع | ادفع عند الاستلام",
                 metaDesc: "اشتري كابل انكر PowerLine III USB-C to Lightning في مصر. معتمد MFi، شحن 30 واط، 35 ألف ثني. أمتن 3.5× من أبل. ضمان 18 شهر.",
                 faqs: [
                     {

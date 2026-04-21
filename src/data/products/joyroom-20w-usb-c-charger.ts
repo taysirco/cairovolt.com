@@ -89,7 +89,7 @@ export const joyroom_20w_usb_c_charger = {
 </div>
 `,
                 features: ["⚡ 20W PD Fast Charging", "📱 iPhone 0→50% in 30 Min", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Design", "🌍 AC 100-240V Universal", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom 20W USB-C PD Charger | iPhone Fast Charge | 100% Authentic",
+                metaTitle: "Joyroom 20W USB-C Charger ⚡ 15% OFF | Fast Charge iPhone | COD Egypt",
                 metaDesc: "Buy Joyroom 20W USB-C PD charger in Egypt. iPhone 17 0→50% in 30 min, MultiProtect safety, ultra-compact. Best price with 12-month warranty.",
                 faqs: [
                     { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
@@ -164,7 +164,7 @@ export const joyroom_20w_usb_c_charger = {
 </div>
 `,
                 features: ["⚡ شحن سريع 20 واط PD", "📱 ايفون 0→50% في 30 دقيقة", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير جداً", "🌍 AC 100-240V عالمي", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر"],
-                metaTitle: "شاحن جوي روم 20 واط USB-C PD | شحن سريع ايفون | ضمان كايرو فولت",
+                metaTitle: "شاحن جوي روم 20 واط ⚡ خصم 15% | شحن سريع ايفون | ادفع عند الاستلام",
                 metaDesc: "اشتري شاحن جوي روم 20 واط USB-C PD في مصر. ايفون 17 من 0→50% في 30 دقيقة، حماية 5 طبقات، تصميم صغير. أفضل سعر مع ضمان 12 شهر.",
                 faqs: [
                     { question: "هل يسخن الشاحن؟", answer: "يستخدم شرائح تحكم ذكية للحفاظ على برودة الشاحن حتى أثناء الشحن السريع." },

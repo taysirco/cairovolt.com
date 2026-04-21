@@ -91,7 +91,7 @@ export const joyroom_t03s_pro_earbuds = {
 </div>
 `,
                 features: ["🎧 ANC (25dB Noise Reduction)", "🔋 30H Total Playtime", "📱 Bluetooth 5.3 Low Latency", "💧 IPX5 Water Resistant", "👆 Touch Controls", "📱 iOS Pop-up Animation", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom T03S Pro ANC Earbuds | 30H Battery | 100% Authentic",
+                metaTitle: "Joyroom T03S Pro Earbuds ⚡ 17% OFF | ANC Noise Cancel | COD Egypt",
                 metaDesc: "Buy Joyroom T03S Pro earbuds in Egypt. Real ANC, 30H battery, Bluetooth 5.3, IPX5 waterproof. AirPods alternative at EGP 664. 12-month warranty.",
                 faqs: [
                     { question: "Is the noise cancellation real?", answer: "Yes, T03S Pro features active noise cancellation (ANC) that effectively reduces ambient noise by up to 25dB." },
@@ -167,7 +167,7 @@ export const joyroom_t03s_pro_earbuds = {
 </div>
 `,
                 features: ["🎧 إلغاء ضوضاء ANC (25 ديسيبل)", "🔋 30 ساعة بطارية", "📱 Bluetooth 5.3 تأخير منخفض", "💧 مقاومة ماء IPX5", "👆 تحكم باللمس", "📱 إشعار iOS Pop-up", "🏆 ضمان 12 شهر"],
-                metaTitle: "سماعة جوي روم T03S Pro | إلغاء ضوضاء ANC | 30 ساعة | الدفع عند الاستلام",
+                metaTitle: "سماعة جوي روم T03S Pro ⚡ خصم 17% | إلغاء ضوضاء ANC | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة جوي روم T03S Pro في مصر. إلغاء ضوضاء حقيقي، 30 ساعة، Bluetooth 5.3، IPX5. بديل AirPods بـ 664 جنيه. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل العزل حقيقي؟", answer: "نعم، T03S Pro بإلغاء ضوضاء نشط (ANC) يقلل الضوضاء حتى 25 ديسيبل." },

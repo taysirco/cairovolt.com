@@ -101,7 +101,7 @@ export const anker_zolo_a1681_20000 = {
 </div>
 `,
                 features: ["⚡ 45W PD — Charges Laptops", "🔋 20,000mAh (72Wh)", "💻 MacBook Air Compatible", "📊 Smart Digital Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (72Wh)", "🔌 Dual Port Output", "💡 Trickle-Charge Mode"],
-                metaTitle: "Anker ZOLO 20000mAh 45W PD Power Bank | Laptop Charging | Egypt 2026",
+                metaTitle: "Anker ZOLO 20000mAh 45W ⚡ 12% OFF | Laptop Charge | COD Egypt",
                 metaDesc: "Buy Anker ZOLO A1681 45W PD in Egypt. Charges MacBook Air + iPhone simultaneously. 20000mAh, digital display. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Can it charge a MacBook Air?", answer: "Yes! The 45W USB-C PD output charges MacBook Air M1/M2/M3 at full speed. You can charge laptop + phone simultaneously." },
@@ -191,7 +191,7 @@ export const anker_zolo_a1681_20000 = {
 </div>
 `,
                 features: ["⚡ 45 واط PD — يشحن لابتوبات", "🔋 20,000 مللي أمبير (72Wh)", "💻 متوافق مع ماك بوك اير", "📊 شاشة ذكية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (72Wh)", "🔌 منفذين", "💡 وضع الشحن الدقيق"],
-                metaTitle: "باور بانك انكر زولو 20000 مللي أمبير 45 واط PD | شحن لابتوب | مصر 2026",
+                metaTitle: "باور بانك انكر زولو 20000 الأصلي ⚡ خصم 12% | 45 واط لابتوب | ادفع عند الاستلام",
                 metaDesc: "اشتري انكر زولو A1681 بقوة 45 واط PD في مصر. يشحن ماك بوك اير + ايفون في نفس الوقت. 20000 مللي أمبير. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "بيشحن ماك بوك اير؟", answer: "أيوه! 45 واط USB-C PD بيشحن ماك بوك اير M1/M2/M3 بالسرعة الكاملة. وتقدر تشحن لابتوب + موبايل في نفس الوقت." },

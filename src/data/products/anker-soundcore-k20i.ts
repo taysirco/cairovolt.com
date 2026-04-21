@@ -71,7 +71,7 @@ export const anker_soundcore_k20i = {
 </div>
 `,
                 features: ["🎵 13mm BassUp™ Drivers", "🔋 36h Total Battery", "👂 Semi-In-Ear Comfort", "🎙️ AI ENC Dual Mic", "⚡ 10min Fast Charge", "💧 IPX5 Waterproof", "📱 Soundcore App EQ", "🎮 Low-Latency Mode"],
-                metaTitle: "Anker Soundcore K20i Earbuds | 13mm Drivers | 36h | Egypt 2026",
+                metaTitle: "Anker Soundcore K20i ⚡ 10% OFF | 36h Battery Life | COD Egypt",
                 metaDesc: "Buy Anker Soundcore K20i in Egypt. 13mm BassUp drivers, 36h battery, semi-in-ear comfort, AI ENC calls. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Are semi-in-ear earbuds comfortable for all-day wear?", answer: "Yes! Semi-in-ear means no silicone tips pressing into your ear canal. At 3.3g per earbud, you forget you're wearing them. Perfect for 6+ hour sessions." },
@@ -134,7 +134,7 @@ export const anker_soundcore_k20i = {
 </div>
 `,
                 features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق Soundcore", "🎮 وضع تأخير منخفض"],
-                metaTitle: "سماعة انكر ساوندكور K20i | 13mm | 36 ساعة | مصر 2026",
+                metaTitle: "سماعة انكر K20i ⚡ خصم 10% | 36 ساعة تشغيل | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة انكر K20i في مصر. 13mm BassUp، 36 ساعة بطارية، نصف داخلية مريحة. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "السماعات النصف داخلية مريحة طول اليوم؟", answer: "أيوه! بدون أطراف سيليكون = بدون ضغط. بـ 3.3 جرام بس، بتنسى إنك لابسها. مثالية لجلسات 6+ ساعات." },

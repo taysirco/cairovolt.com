@@ -91,7 +91,7 @@ export const joyroom_power_bank_20000 = {
 </div>
 `,
                 features: ["🔋 20,000mAh (4x iPhone 17)", "⚡ 22.5W PD + QC 3.0 + SCP", "🔌 3 Output Ports (Charge 3 Devices)", "📊 LED Digital Display", "✈️ Airline Approved (72Wh)", "✅ Golden Code Verified", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | 3 Ports | from CairoVolt",
+                metaTitle: "Joyroom 20000mAh Power Bank ⚡ Best Price | 22.5W PD+QC | COD Egypt",
                 metaDesc: "Buy Joyroom 20000mAh power bank in Egypt for EGP 997. 22.5W fast charging, 3 output ports, LED display. 4x iPhone charges. Best value. 12-month warranty.",
                 faqs: [
                     { question: "What is 22.5W fast charging?", answer: "It is a high-speed charging protocol supported by Huawei (SCP) and some other Android devices for rapid top-ups." },
@@ -165,7 +165,7 @@ export const joyroom_power_bank_20000 = {
 </div>
 `,
                 features: ["🔋 20,000 مللي أمبير (4× ايفون 17)", "⚡ 22.5 واط PD + QC 3.0 + SCP", "🔌 3 مخارج (اشحن 3 أجهزة)", "📊 شاشة LED رقمية", "✈️ مسموح بالطائرة (72Wh)", "✅ أصلي بالكود الذهبي", "🏆 ضمان 12 شهر"],
-                metaTitle: "باور بانك جوي روم 20000 | 22.5 واط PD+QC | 3 مخارج | ضمان الوكيل",
+                metaTitle: "باور بانك جوي روم 20000 ⚡ أرخص سعر | 22.5 واط PD+QC | ادفع عند الاستلام",
                 metaDesc: "اشتري باور بانك جوي روم 20000 في مصر بـ 997 جنيه. شحن 22.5 واط، 3 مخارج، شاشة LED. 4 شحنات ايفون. أفضل قيمة. ضمان 12 شهر.",
                 faqs: [
                     {

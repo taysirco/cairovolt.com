@@ -109,7 +109,7 @@ export const anker_prime_a1695_25000 = {
 </div>
 `,
                 features: ["⚡ 165W Combined Output", "💻 140W MacBook Pro Charging", "🔋 25,000mAh (92.7Wh)", "🌡️ Active Cooling Fan", "⏱️ 30-min 80% Recharge", "📊 Smart Display (watts/temp/%)", "✈️ Max Flight-Legal Capacity", "🛡️ 24-Month Warranty"],
-                metaTitle: "Anker Prime 25000mAh 165W Power Bank | MacBook Pro | Egypt 2026",
+                metaTitle: "Anker Prime 25000mAh 165W ⚡ 6% OFF | MacBook Pro | COD Egypt",
                 metaDesc: "Buy Anker Prime A1695 165W in Egypt. Charges MacBook Pro at 140W. 25000mAh, active cooling, smart display. ✓ 24-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Can it charge a MacBook Pro 16-inch?", answer: "Yes! The USB-C 1 port delivers up to 140W PD 3.1 — enough to charge MacBook Pro 16\" at near-adapter speed. It's the only portable power bank that can do this." },
@@ -201,7 +201,7 @@ export const anker_prime_a1695_25000 = {
 </div>
 `,
                 features: ["⚡ 165 واط إخراج مشترك", "💻 140 واط شحن ماك بوك برو", "🔋 25,000 مللي أمبير (92.7Wh)", "🌡️ مروحة تبريد نشطة", "⏱️ 30 دقيقة 80% إعادة شحن", "📊 شاشة ذكية", "✈️ أقصى سعة للطائرة", "🛡️ ضمان 24 شهر"],
-                metaTitle: "انكر برايم 25000 مللي أمبير 165 واط | شحن ماك بوك برو | مصر 2026",
+                metaTitle: "انكر برايم 25000 الأصلي ⚡ خصم 6% | 165 واط ماك بوك | ادفع عند الاستلام",
                 metaDesc: "اشتري انكر برايم A1695 بقوة 165 واط في مصر. يشحن ماك بوك برو بـ 140 واط. 25000 مللي أمبير، تبريد نشط. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "بيشحن ماك بوك برو 16 بوصة؟", answer: "أيوه! منفذ USB-C 1 بيوفر لحد 140 واط PD 3.1 — كفاية يشحن ماك بوك برو 16\" بسرعة قريبة من الأدابتر. الباور بانك الوحيد المحمول اللي بيعمل كده." },

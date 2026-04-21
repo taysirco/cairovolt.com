@@ -25,7 +25,7 @@ export const joyroom_3_in_1_data_cable = {
                 shortDescription: "One cable charges every phone in the family — Lightning + USB-C + Micro-USB | Braided nylon | 15W",
                 description: "One cable for all your devices. The Joyroom 3-in-1 cable features Lightning, USB-C, and Micro USB connectors, perfect for families or professionals with multiple devices. Charge iPhone 17/16/15, Samsung S26, and legacy devices with a single cable.",
                 features: ["3 connectors: Lightning + USB-C + Micro", "Universal compatibility", "2.4A fast charging", "Nylon braided durable design", "1.2m length", "12-month warranty"],
-                metaTitle: "Joyroom 3-in-1 Cable Lightning USB-C Micro | Egypt 2026",
+                metaTitle: "Joyroom 3-in-1 Cable ⚡ 15% OFF | All Devices in One | COD Egypt",
                 metaDesc: "Joyroom 3-in-1 Multi Cable - Lightning + USB-C + Micro USB. One cable for iPhone, Samsung, all devices. Best price Egypt.",
                 faqs: [
                     { question: "Can all 3 connectors charge simultaneously?", answer: "No, only one connector can be used at a time. The 3-in-1 design is for convenience - one cable that works with any device." },
@@ -37,7 +37,7 @@ export const joyroom_3_in_1_data_cable = {
                 shortDescription: "انهي مشاكل كابلات البيت بكابل واحد 🏠 Lightning + USB-C + Micro في واحد | 💪 نايلون متين مش هيتقطع | ⚡ شحن سريع 2.4A",
                 description: "كابل واحد لجميع أجهزتك. كابل جوي روم 3 في 1 يتميز بموصلات Lightning و USB-C و Micro USB، مثالي للعائلات أو المحترفين. اشحن ايفون 17/16/15 وسامسونج S26 والأجهزة القديمة بكابل واحد.",
                 features: ["3 موصلات: Lightning + USB-C + Micro", "توافق شامل", "شحن سريع 2.4 أمبير", "تصميم نايلون متين", "طول 1.2 متر", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم 3 في 1 للايفون والاندرويد | أصلي 100%",
+                metaTitle: "كابل جوي روم 3 في 1 ⚡ خصم 15% | كابل واحد لكل الأجهزة | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم 3 في 1 - Lightning + USB-C + Micro USB. كابل واحد للايفون والسامسونج. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "لا، موصل واحد فقط يعمل في كل مرة. تصميم 3 في 1 للراحة - كابل واحد يعمل مع أي جهاز." },

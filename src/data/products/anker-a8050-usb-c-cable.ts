@@ -61,7 +61,7 @@ export const anker_a8050_usb_c_cable = {
 </div>
 `,
                 features: ["🔌 100W PD 3.0", "🧬 35,000 Bend Cycles", "📏 1.8m Braided Nylon", "📊 480Mbps Data", "🛡️ Reinforced Connectors"],
-                metaTitle: "Anker USB-C Cable A8050 | 100W PD | Braided Nylon | Egypt 2026",
+                metaTitle: "Anker USB-C Cable 100W ⚡ 11% OFF | Braided Nylon | COD Egypt",
                 metaDesc: "Buy Anker A8050 USB-C cable in Egypt. 100W PD, braided nylon, 35,000 bends. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Does it support 100W laptop charging?", answer: "Yes — up to 100W PD 3.0. Charges MacBook Air, iPad Pro, and all USB-C laptops at maximum speed." },
@@ -116,7 +116,7 @@ export const anker_a8050_usb_c_cable = {
 </div>
 `,
                 features: ["🔌 100 واط PD 3.0", "🧬 35,000 دورة ثني", "📏 1.8 متر نايلون مضفر", "📊 480Mbps بيانات", "🛡️ موصلات مقواة"],
-                metaTitle: "كابل انكر USB-C A8050 | 100 واط PD | نايلون مضفر | مصر 2026",
+                metaTitle: "كابل انكر USB-C 100 واط ⚡ خصم 11% | نايلون مضفر | ادفع عند الاستلام",
                 metaDesc: "اشتري كابل انكر A8050 USB-C في مصر. 100 واط PD، نايلون مضفر، 35,000 ثنية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "بيدعم 100 واط شحن لابتوب؟", answer: "أيوه — لحد 100 واط PD 3.0. بيشحن ماك بوك اير وايباد برو وكل لابتوبات USB-C بأقصى سرعة." },

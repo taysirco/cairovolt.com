@@ -23,7 +23,7 @@ export const joyroom_usb_a_micro_cable = {
                 shortDescription: "Micro-USB cable tested with 12 devices (Samsung A10s, Xiaomi, Oppo, JBL) — full 2.4A on all | TPE durable",
                 description: "Durable Micro USB cable for older Android phones, tablets, and accessories. 2.4A fast charging support.",
                 features: ["2.4A charging", "1.2m length", "Micro USB devices", "Durable TPE", "12-month warranty"],
-                metaTitle: "Joyroom Micro USB Cable | Cairo Delivery",
+                metaTitle: "Joyroom Micro USB Cable ⚡ 56% OFF | Fast Charge Android | COD Egypt",
                 metaDesc: "Joyroom Micro USB Cable for Android devices. 2.4A charging. Best price Egypt.",
                 faqs: [
                     { question: "Which devices use Micro USB in 2026?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
@@ -36,7 +36,7 @@ export const joyroom_usb_a_micro_cable = {
                 shortDescription: "لسه عندك أجهزة Micro USB؟ 🔌 اتجرب مع 12 جهاز (Samsung A10s, Xiaomi, JBL) | ⚡ 2.4A كاملة | 💪 TPE متين مش هيتقطع",
                 description: "كابل Micro USB متين لهواتف اندرويد والتابلت والاكسسوارات القديمة. يدعم شحن 2.4 أمبير.",
                 features: ["شحن 2.4 أمبير", "طول 1.2 متر", "أجهزة Micro USB", "TPE متين", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم Micro USB | شحن سريع",
+                metaTitle: "كابل جوي روم Micro USB ⚡ خصم 56% | شحن سريع أندرويد | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم Micro USB للاندرويد. شحن 2.4 أمبير. أفضل سعر مصر.",
                 faqs: [
                     { question: "أي أجهزة تستخدم Micro USB في 2026؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
