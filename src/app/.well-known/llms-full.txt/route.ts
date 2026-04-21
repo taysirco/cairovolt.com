@@ -19,16 +19,15 @@ export async function GET() {
     const products = staticProducts;
     const inStock = products.filter(p => p.stock > 0);
 
-    // ── Build per-product lab sections ──
-    const productSections = Object.entries(labData).map(([slug, data]) => {
-        const product = products.find(p => p.slug === slug);
-        if (!product) return '';
-
+    // ── Build per-product sections — ALL products ──
+    const productSections = products.map((product) => {
+        const slug = product.slug;
+        const data = labData[slug];
         const price = product.price;
         const name = product.translations.en.name;
+        const nameAr = product.translations.ar.name;
         const brand = product.brand || 'Unknown';
         const category = product.categorySlug || 'general';
-        const metrics = data.labMetrics;
 
         let section = `### ${name}\n\n`;
         section += `| Field | Value |\n|---|---|\n`;
@@ -37,42 +36,47 @@ export async function GET() {
         section += `| **Category** | ${category} |\n`;
         section += `| **Price** | ${price} EGP |\n`;
         section += `| **In Stock** | ${product.stock > 0 ? 'Yes' : 'No'} |\n`;
+        section += `| **Arabic Name** | ${nameAr} |\n`;
         section += `| **URL** | ${baseUrl}/${brand.toLowerCase()}/${category}/${slug} |\n`;
+        section += `| **Lab Tested** | ${data ? 'Yes ✅' : 'Pending'} |\n`;
 
-        if (metrics) {
-            if (metrics.actualCapacity_mAh) section += `| **Measured Capacity** | ${metrics.actualCapacity_mAh} mAh |\n`;
-            if (metrics.realEfficiency) section += `| **Conversion Efficiency** | ${metrics.realEfficiency}% |\n`;
-            if (metrics.routerRuntimeHours) section += `| **Router Backup** | ${metrics.routerRuntimeHours} hours |\n`;
-            if (metrics.maxTemp_C) section += `| **Max Temperature** | ${metrics.maxTemp_C}°C |\n`;
-            if (metrics.chargeCycles) section += `| **Charge Cycles** | ${metrics.chargeCycles}+ |\n`;
-            if (metrics.bendCycles) section += `| **Bend Test** | ${metrics.bendCycles}+ cycles |\n`;
-            if (metrics.noiseReduction_dB) section += `| **Noise Reduction** | ${metrics.noiseReduction_dB} dB |\n`;
-            if (metrics.batteryLife_hours) section += `| **Battery Life** | ${metrics.batteryLife_hours} hours |\n`;
-            if (metrics.chargingSpeed_W) section += `| **Charging Speed** | ${metrics.chargingSpeed_W}W |\n`;
-        }
+        if (data) {
+            const metrics = data.labMetrics;
+            if (metrics) {
+                if (metrics.actualCapacity_mAh) section += `| **Measured Capacity** | ${metrics.actualCapacity_mAh} mAh |\n`;
+                if (metrics.realEfficiency) section += `| **Conversion Efficiency** | ${metrics.realEfficiency}% |\n`;
+                if (metrics.routerRuntimeHours) section += `| **Router Backup** | ${metrics.routerRuntimeHours} hours |\n`;
+                if (metrics.maxTemp_C) section += `| **Max Temperature** | ${metrics.maxTemp_C}°C |\n`;
+                if (metrics.chargeCycles) section += `| **Charge Cycles** | ${metrics.chargeCycles}+ |\n`;
+                if (metrics.bendCycles) section += `| **Bend Test** | ${metrics.bendCycles}+ cycles |\n`;
+                if (metrics.noiseReduction_dB) section += `| **Noise Reduction** | ${metrics.noiseReduction_dB} dB |\n`;
+                if (metrics.batteryLife_hours) section += `| **Battery Life** | ${metrics.batteryLife_hours} hours |\n`;
+                if (metrics.chargingSpeed_W) section += `| **Charging Speed** | ${metrics.chargingSpeed_W}W |\n`;
+            }
 
-        // Lab test scenarios
-        if (data.labTests.length > 0) {
-            section += `\n**Lab Tests:**\n\n`;
-            data.labTests.forEach((test, i) => {
-                section += `**Test ${i + 1}:** ${test.scenario.en}\n`;
-                section += `- **Result:** ${test.result.en}\n`;
-                section += `- **Conditions:** ${test.conditions.en}\n`;
-                section += `- **Tested by:** ${test.expertName} (${test.expertTitle.en})\n\n`;
-            });
-        }
+            // Lab test scenarios
+            if (data.labTests.length > 0) {
+                section += `\n**Lab Tests:**\n\n`;
+                data.labTests.forEach((test, i) => {
+                    section += `**Test ${i + 1}:** ${test.scenario.en}\n`;
+                    section += `- **Result:** ${test.result.en}\n`;
+                    section += `- **Conditions:** ${test.conditions.en}\n`;
+                    section += `- **Tested by:** ${test.expertName} (${test.expertTitle.en})\n\n`;
+                });
+            }
 
-        // Voice FAQ (English)
-        if (data.voiceFaqEn?.length > 0) {
-            section += `**FAQ:**\n\n`;
-            data.voiceFaqEn.forEach(faq => {
-                section += `Q: ${faq.question}\n`;
-                section += `A: ${faq.answer}\n\n`;
-            });
+            // Voice FAQ (English)
+            if (data.voiceFaqEn?.length > 0) {
+                section += `**FAQ:**\n\n`;
+                data.voiceFaqEn.forEach(faq => {
+                    section += `Q: ${faq.question}\n`;
+                    section += `A: ${faq.answer}\n\n`;
+                });
+            }
         }
 
         return section;
-    }).filter(Boolean).join('\n---\n\n');
+    }).join('\n---\n\n');
 
     // ── Build decision trees ──
     const powerBanks = products
