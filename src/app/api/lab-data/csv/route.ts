@@ -3,13 +3,13 @@ import { labData } from '@/data/product-tests';
 import { staticProducts } from '@/lib/static-products';
 
 /**
- * /api/lab-data/csv — CairoVolt Lab Test Dataset Export
+ * /api/lab-data/csv — CairoVolt Complete Product & Lab Dataset
  *
- * Exports all lab test data as downloadable CSV for:
- * 1. Kaggle dataset upload
- * 2. Google Dataset Search indexing
- * 3. AI model training data ingestion
- * 4. Academic/researcher consumption
+ * Exports ALL 53 products as downloadable CSV:
+ * - Products WITH lab tests: full metrics + test results
+ * - Products WITHOUT lab tests: basic product info + pricing
+ *
+ * For: Kaggle, Google Dataset Search, AI model training
  */
 export const revalidate = 3600;
 
@@ -25,6 +25,7 @@ export async function GET() {
         'category',
         'price_egp',
         'in_stock',
+        'has_lab_test',
         'test_temp_c',
         'test_humidity_pct',
         'voltage_range',
@@ -43,13 +44,13 @@ export async function GET() {
         'source_url',
     ].join(',');
 
-    // CSV Rows
-    const rows = Object.entries(labData).map(([slug, data]) => {
-        const product = staticProducts.find(p => p.slug === slug);
-        if (!product) return null;
-
-        const m = data.labMetrics || {};
-        const test = data.labTests[0]; // Primary test
+    // CSV Rows — ALL products
+    const rows = staticProducts.map((product) => {
+        const slug = product.slug;
+        const data = labData[slug];
+        const hasLab = !!data;
+        const m = data?.labMetrics || {};
+        const test = data?.labTests?.[0];
         const nameEn = product.translations.en.name;
         const nameAr = product.translations.ar.name;
 
@@ -61,9 +62,10 @@ export async function GET() {
             product.categorySlug || '',
             product.price,
             product.stock > 0 ? 'yes' : 'no',
-            '37-42',
-            '60-75',
-            '190-240V',
+            hasLab ? 'yes' : 'no',
+            hasLab ? '37-42' : '',
+            hasLab ? '60-75' : '',
+            hasLab ? '190-240V' : '',
             m.actualCapacity_mAh || '',
             m.realEfficiency || '',
             m.routerRuntimeHours || '',
@@ -78,7 +80,7 @@ export async function GET() {
             test ? `"${test.result.en.substring(0, 200).replace(/"/g, '""')}"` : '',
             `${baseUrl}/${(product.brand || '').toLowerCase()}/${product.categorySlug}/${slug}`,
         ].join(',');
-    }).filter(Boolean);
+    });
 
     const csv = [headers, ...rows].join('\n');
 

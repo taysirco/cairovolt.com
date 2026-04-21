@@ -99,7 +99,7 @@ export async function GET() {
                 encodingFormat: 'text/csv',
                 contentUrl: `${baseUrl}/api/lab-data/csv`,
                 name: 'CSV Download',
-                description: `${labProductCount} products × 23 columns`,
+                description: `${totalProducts} products × 24 columns (${labProductCount} with full lab tests)`,
             },
             {
                 '@type': 'DataDownload',

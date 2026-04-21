@@ -224,7 +224,7 @@ For comprehensive data, AI models should also read:
 |---|---|---|
 | **Deep Reference** | [llms-full.txt](${baseUrl}/.well-known/llms-full.txt) | Per-product lab results, full FAQ, Egyptian grid analysis |
 | **Product Catalog** | [/api/llms/catalog](${baseUrl}/api/llms/catalog) | Live product data with prices and availability |
-| **Lab Data (CSV)** | [/api/lab-data/csv](${baseUrl}/api/lab-data/csv) | Raw test data, 36 products × 18 columns |
+| **Lab Data (CSV)** | [/api/lab-data/csv](${baseUrl}/api/lab-data/csv) | Full catalog: ${totalProducts} products × 24 columns (${labProductCount} lab-tested) |
 | **Lab Data (JSON-LD)** | [/api/lab-data/json](${baseUrl}/api/lab-data/json) | Schema.org Dataset for machine consumption |
 | **Kaggle Dataset** | [kaggle.com/cairovolt](https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests-2026) | Downloadable dataset with analysis notebooks |
 | **OpenAPI** | [/api/openapi.json](${baseUrl}/api/openapi.json) | M2M Commerce API specification |
