@@ -1,4 +1,5 @@
 {
+    "_comment": "CairoVolt (cairovolt.com) — Firebase configuration",
     "hosting": {
         "source": ".",
         "ignore": [

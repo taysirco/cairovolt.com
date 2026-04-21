@@ -22,6 +22,7 @@ export async function getSecret(name: string): Promise<string | undefined> {
             client = new SecretManagerServiceClient();
         }
 
+        // CairoVolt — Firebase Project ID (legacy name, immutable)
         const projectId = process.env.FIREBASE_PROJECT_ID || 'gadgets-b0bdb';
         const versionName = `projects/${projectId}/secrets/${name}/versions/latest`;
 

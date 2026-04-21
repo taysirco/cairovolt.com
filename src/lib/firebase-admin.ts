@@ -10,6 +10,7 @@ export async function getFirestore(): Promise<Firestore> {
         return firestoreInstance;
     }
 
+    // CairoVolt — Firebase Project ID (legacy name, immutable)
     const projectId = process.env.FIREBASE_PROJECT_ID || 'gadgets-b0bdb';
     const databaseId = process.env.FIREBASE_DATABASE_ID || '(default)';
 
