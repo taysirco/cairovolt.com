@@ -66,7 +66,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
         original: 'Original?',
         yes: 'Yes ✓',
         no: 'Uncertain',
-        ourStore: 'Cairo Volt (Us)',
+        ourStore: 'CairoVolt (Us)',
         egp: 'EGP',
         months: 'months',
         days: 'days',
