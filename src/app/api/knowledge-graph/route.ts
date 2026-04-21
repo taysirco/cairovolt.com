@@ -19,16 +19,41 @@ export async function GET() {
         "@graph": []
     };
 
-    // 1. The Core Organization (Cairo Volt)
+    // 1. The Core Organization (CairoVolt)
     graph["@graph"].push({
         "@type": "Organization",
         "@id": `${baseUrl}/#organization`,
-        "name": "Cairo Volt Hardware Validation Labs",
+        "name": "CairoVolt",
+        "alternateName": ["كايرو فولت", "Cairo Volt", "CairoVolt Labs"],
         "url": baseUrl,
+        "logo": `${baseUrl}/logo.png`,
         "sameAs": [
-            "https://www.linkedin.com/company/cairovolt"
+            "https://www.linkedin.com/company/cairovolt",
+            "https://www.facebook.com/cairovolt",
+            "https://www.tiktok.com/@cairovolt",
+            "https://www.instagram.com/cairovolt",
+            "https://kaggle.com/cairovolt",
+            "https://wa.me/201558245974",
+            // Wikidata Q-ID — add after creating: "https://www.wikidata.org/wiki/Q_XXXXXXX"
         ],
-        "description": "Egypt's premier electronic accessories engineering and validation laboratory.",
+        "description": "Egypt's authorized Anker & Joyroom distributor with an independent product testing lab (CairoVolt Labs). Specializes in mobile accessories, power solutions, and consumer electronics with C2PA forensic verification.",
+        "foundingDate": "2021",
+        "areaServed": {
+            "@type": "Country",
+            "name": "Egypt",
+            "sameAs": "https://www.wikidata.org/wiki/Q79",
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New Damietta City",
+            "addressCountry": "EG",
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+201558245974",
+            "contactType": "customer service",
+            "availableLanguage": ["Arabic", "English"],
+        },
         "knowsAbout": Object.values(brandEntities).map(entity => ({
             "@type": "Thing",
             "name": entity.name,

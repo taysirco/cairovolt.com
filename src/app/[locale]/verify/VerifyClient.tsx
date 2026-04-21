@@ -343,6 +343,7 @@ export default function VerifyClient() {
             `✅ جهازي أصلي 100% ومعتمد من كايرو فولت!\n` +
             `📋 رقم الضمان: ${result.warrantyCode}\n` +
             `🛡️ ${result.productName}\n\n` +
+            `🔥 كوبون خصم 10%: ORIGINAL10\n\n` +
             `تحقق من جهازك أنت كمان:\n` +
             `https://cairovolt.com/verify`
         );

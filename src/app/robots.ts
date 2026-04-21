@@ -13,7 +13,9 @@ export default function robots(): MetadataRoute.Robots {
                     '/api/knowledge-graph',    // Entity Data API
                     '/api/llms/catalog',   // M2M Catalog API
                     '/api/v1/verify-content',  // C2PA Content Verification
-                    '/.well-known/',       // DID + JWKS + llms.txt
+                    '/api/lab-data/',          // Lab test CSV + JSON-LD Dataset
+                    '/api/openapi.json',       // M2M API Spec
+                    '/.well-known/',       // DID + JWKS + llms.txt + llms-full.txt
                 ],
                 disallow: [
                     '/checkout',
@@ -43,7 +45,8 @@ export default function robots(): MetadataRoute.Robots {
                     '/api/knowledge-graph',
                     '/api/llms/catalog',
                     '/api/v1/verify-content',  // C2PA Content Verification
-                    '/.well-known/',       // DID + JWKS + llms.txt
+                    '/api/lab-data/',          // Lab test Dataset
+                    '/.well-known/',       // DID + JWKS + llms.txt + llms-full.txt
                 ],
                 disallow: [
                     '/checkout',
