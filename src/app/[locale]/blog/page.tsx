@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const title = isArabic
         ? 'مدونة كايرو فولت | أدلة شراء ومراجعات اكسسوارات الموبايل'
-        : 'Cairo Volt Blog | Mobile Accessories Guides & Reviews';
+        : 'CairoVolt Blog | Mobile Accessories Guides & Reviews';
     const description = isArabic
         ? 'أدلة شراء شاملة ومقارنات ومراجعات لأفضل اكسسوارات الموبايل في مصر. باور بانك، شواحن، سماعات من Anker و Joyroom.'
         : 'Complete buying guides, comparisons, and reviews for the best mobile accessories in Egypt. Power banks, chargers, earbuds from Anker & Joyroom.';
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description,
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
-            siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
         },
         other: {
             'geo.region': 'EG',
@@ -87,7 +87,7 @@ export default async function BlogPage({ params }: Props) {
                     {/* Hero */}
                     <div className="text-center mb-12">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                            {isArabic ? 'مدونة كايرو فولت' : 'Cairo Volt Blog'}
+                            {isArabic ? 'مدونة كايرو فولت' : 'CairoVolt Blog'}
                         </h1>
                         <p className="text-xl md:text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
                             {isArabic

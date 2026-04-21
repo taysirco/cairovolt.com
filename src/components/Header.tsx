@@ -103,7 +103,7 @@ export default function Header() {
                         <div className="flex items-center">
                             <Image
                                 src="/cairovolt_logo.png"
-                                alt="Cairo Volt"
+                                alt="CairoVolt"
                                 width={160}
                                 height={89}
                                 priority
@@ -299,7 +299,7 @@ export default function Header() {
                                 <div className="flex items-center">
                                     <Image
                                         src="/cairovolt_logo.png"
-                                        alt="Cairo Volt"
+                                        alt="CairoVolt"
                                         width={120}
                                         height={67}
                                         className="h-[60px] w-auto object-contain dark:[filter:brightness(0)_invert(1)]"

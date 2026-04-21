@@ -37,7 +37,7 @@ export function SpeakableSchema({
         },
         isPartOf: {
             '@type': 'WebSite',
-            name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+            name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             url: 'https://cairovolt.com',
         },
     };
@@ -229,7 +229,7 @@ export function ArticleSchema({
                 ],
                 worksFor: {
                     '@type': 'Organization',
-                    name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+                    name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
                     url: 'https://cairovolt.com',
                 },
                 knowsAbout: [
@@ -255,7 +255,7 @@ export function ArticleSchema({
                 ],
                 worksFor: {
                     '@type': 'Organization',
-                    name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+                    name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
                     url: 'https://cairovolt.com',
                 },
                 knowsAbout: [
@@ -267,13 +267,13 @@ export function ArticleSchema({
             },
             {
                 '@type': 'Organization',
-                name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+                name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
                 url: 'https://cairovolt.com',
             },
         ],
         publisher: {
             '@type': 'Organization',
-            name: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
+            name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             logo: {
                 '@type': 'ImageObject',
                 url: 'https://cairovolt.com/logo.png',
@@ -371,8 +371,8 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         '@type': 'Store',
         '@id': 'https://cairovolt.com/#local-business',
         parentOrganization: { '@id': 'https://cairovolt.com/#organization' },
-        name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
-        alternateName: isArabic ? 'Cairo Volt' : 'كايرو فولت',
+        name: isArabic ? 'كايرو فولت' : 'CairoVolt',
+        alternateName: isArabic ? 'CairoVolt' : 'كايرو فولت',
         description: isArabic
             ? 'الموزع المعتمد لمنتجات أنكر وجوي روم في مصر. باور بانك، شواحن، سماعات، كابلات بأفضل الأسعار مع ضمان رسمي.'
             : 'Authorized dealer for Anker and Joyroom products in Egypt. Power banks, chargers, earbuds, cables at best prices with official warranty.',
@@ -390,6 +390,9 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
             'https://www.facebook.com/cairovolt',
             'https://www.instagram.com/cairovolt',
             'https://www.tiktok.com/@cairovolt',
+            'https://www.linkedin.com/company/cairovolt',
+            'https://kaggle.com/cairovolt',
+            'https://wa.me/201558245974',
         ],
         openingHoursSpecification: [
             {
@@ -427,7 +430,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         // Shipping availability across Egypt
         hasOfferCatalog: {
             '@type': 'OfferCatalog',
-            name: isArabic ? 'منتجات كايرو فولت' : 'Cairo Volt Products',
+            name: isArabic ? 'منتجات كايرو فولت' : 'CairoVolt Products',
             itemListElement: [
                 {
                     '@type': 'OfferCatalog',

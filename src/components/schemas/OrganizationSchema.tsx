@@ -7,7 +7,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
     const name = isArabic ? 'كايرو فولت' : 'Cairo Volt';
     const description = isArabic
         ? 'كايرو فولت هو الوكيل المعتمد لمنتجات Anker و Joyroom في مصر. نبيع إكسسوارات الموبايل الأصلية مثل الباور بانك، السماعات، والكابلات بضمان رسمي.'
-        : 'Cairo Volt is the authorized distributor for Anker & Joyroom in Egypt. We sell original mobile accessories like power banks, earbuds, and cables with official warranty.';
+        : 'CairoVolt is the authorized distributor for Anker & Joyroom in Egypt. We sell original mobile accessories like power banks, earbuds, and cables with official warranty.';
 
     const schema = {
         '@context': 'https://schema.org',

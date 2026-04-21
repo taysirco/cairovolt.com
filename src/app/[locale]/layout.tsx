@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     google: '_OOytL9s0O8UkXhp8t8TsZw-hXGRTj12boqhQtgJLJw',
   },
   title: {
-    template: '%s | Cairo Volt',
-    default: 'Cairo Volt - Premium Mobile Accessories in Egypt',
+    template: '%s | CairoVolt',
+    default: 'CairoVolt - Premium Mobile Accessories in Egypt',
   },
   description: 'Shop the best mobile accessories from Anker and Joyroom in Egypt. Power banks, chargers, earbuds, cables at the best prices with official warranty.',
   icons: {
@@ -63,19 +63,19 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ar_EG',
     alternateLocale: 'en_US',
-    siteName: 'Cairo Volt',
+    siteName: 'CairoVolt',
     images: [
       {
         url: '/og-cover.png',
         width: 1200,
         height: 630,
-        alt: 'Cairo Volt - Premium Mobile Accessories in Egypt',
+        alt: 'CairoVolt - Premium Mobile Accessories in Egypt',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cairo Volt - Premium Mobile Accessories in Egypt',
+    title: 'CairoVolt - Premium Mobile Accessories in Egypt',
     description: 'Shop original Anker & Joyroom accessories with official warranty. Power banks, chargers, earbuds, cables.',
     images: ['/og-cover.png'],
   },

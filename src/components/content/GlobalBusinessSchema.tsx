@@ -16,7 +16,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 "@type": "WebSite",
                 "@id": "https://cairovolt.com/#website",
                 "url": "https://cairovolt.com/",
-                "name": "Cairo Volt | Engineering Grade Accessories",
+                "name": "CairoVolt | Engineering Grade Accessories",
                 "description": isArabic
                     ? "المنصة الهندسية الأولى لإكسسوارات الهواتف من أنكر وآبل وجوي روم."
                     : "The premium engineering platform for Anker, Apple, and Joyroom mobile accessories.",
@@ -28,11 +28,11 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
             {
                 "@type": "Organization",
                 "@id": "https://cairovolt.com/#organization",
-                "name": "Cairo Volt Engineering",
+                "name": "CairoVolt",
                 "url": "https://cairovolt.com",
                 "logo": {
                     "@type": "ImageObject",
-                    "name": "Cairo Volt Logo",
+                    "name": "CairoVolt Logo",
                     "url": "https://cairovolt.com/logo.png",
                     "width": 200,
                     "height": 60
@@ -40,9 +40,12 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 "sameAs": [
                     "https://www.facebook.com/cairovolt",
                     "https://www.instagram.com/cairovolt",
-                    "https://www.tiktok.com/@cairovolt"
+                    "https://www.tiktok.com/@cairovolt",
+                    "https://www.linkedin.com/company/cairovolt",
+                    "https://kaggle.com/cairovolt",
+                    "https://wa.me/201558245974"
                 ],
-                "foundingDate": "2024",
+                "foundingDate": "2021",
                 "foundingLocation": {
                     "@type": "Place",
                     "name": "New Damietta City, Egypt",
@@ -71,7 +74,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 ],
                 "contactPoint": {
                     "@type": "ContactPoint",
-                    "name": "Cairo Volt Engineering Support",
+                    "name": "CairoVolt Support",
                     "telephone": "+201558245974",
                     "contactType": "engineering support",
                     "areaServed": "EG",

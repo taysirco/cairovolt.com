@@ -39,13 +39,17 @@ const brands: Record<string, EntityRef> = {
         additionalSameAs: ['https://www.linkedin.com/company/joyroom-official'],
     },
     cairovolt: {
-        name: 'Cairo Volt',
+        name: 'CairoVolt',
         nameAr: 'كايرو فولت',
         type: 'Organization',
         sameAs: 'https://cairovolt.com',
         additionalSameAs: [
             'https://www.facebook.com/cairovolt',
             'https://www.instagram.com/cairovolt',
+            'https://www.tiktok.com/@cairovolt',
+            'https://www.linkedin.com/company/cairovolt',
+            'https://kaggle.com/cairovolt',
+            'https://wa.me/201558245974',
         ],
     },
     apple: {

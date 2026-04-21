@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         url: 'https://cairovolt.com/en',
         locale: 'en_US',
         type: 'website',
-        siteName: 'Cairo Volt',
+        siteName: 'CairoVolt',
         images: [{
           url: '/og-cover.png',
           width: 1200,
@@ -258,7 +258,7 @@ export default function Home() {
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="text-center mb-8">
               <h2 className="text-2xl lg:text-3xl font-bold text-white font-outfit mb-4">
-                {isRTL ? 'كايرو فولت - متجر إكسسوارات الموبايل الأصلية في مصر' : 'Cairo Volt - Original Mobile Accessories Store in Egypt'}
+                {isRTL ? 'كايرو فولت - متجر إكسسوارات الموبايل الأصلية في مصر' : 'CairoVolt - Original Mobile Accessories Store in Egypt'}
               </h2>
               <div className="prose prose-sm dark:prose-invert max-w-3xl mx-auto text-slate-400">
                 {isRTL ? (
@@ -270,7 +270,7 @@ export default function Home() {
                   </p>
                 ) : (
                   <p>
-                    Welcome to <strong className="text-slate-200">Cairo Volt</strong>, the authorized distributor for <strong className="text-blue-400">Anker</strong> and <strong className="text-red-400">Joyroom</strong> in Egypt.
+                    Welcome to <strong className="text-slate-200">CairoVolt</strong>, the authorized distributor for <strong className="text-blue-400">Anker</strong> and <strong className="text-red-400">Joyroom</strong> in Egypt.
                     We offer <strong className="text-slate-200">Anker power banks</strong> from 5,000 to 26,800 mAh, <strong className="text-slate-200">fast chargers</strong> with GaN, PD, and QC3.0,
                     <strong className="text-slate-200"> MFi-certified cables</strong> for iPhone, and <strong className="text-slate-200">Joyroom T03s earbuds</strong> — Egypt&apos;s best-seller.
                     All products are 100% authentic with <strong className="text-slate-200">18-month warranty</strong>. Nationwide delivery with cash on delivery option.
@@ -285,7 +285,7 @@ export default function Home() {
         <section className="py-16 lg:py-20" style={{ background: '#0d1222' }}>
           <div className="container mx-auto px-4 max-w-4xl">
             <FAQSection
-              productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'Cairo Volt — Anker & Joyroom Accessories'}
+              productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'CairoVolt — Anker & Joyroom Accessories'}
               locale={locale}
               qaList={isRTL ? [
                 { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت بمخازن بوسطة بالتجمع الثالث في 37 درجة. بيشغل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.' },
