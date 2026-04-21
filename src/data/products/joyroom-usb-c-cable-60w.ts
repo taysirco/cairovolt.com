@@ -34,6 +34,7 @@ export const joyroom_usb_c_cable_60w = {
             ar: {
                 name: "كابل جوي روم 60 واط USB-C | انسى كابلات العتبة اللي بتتقطع بعد أسبوع | نايلون متين",
                 shortDescription: "35,000+ ثنية ومبيهزرش 💪 60 واط PD بيشحن لابتوب وايفون وسامسونج | ⚡ ايفون 17 من 0→50% في 25د | 🏆 ضمان سنتين كاملين",
+                description: "كابل جوي روم 60 واط USB-C بيوفرلك أقصى سرعة شحن ممكنة للايفون 17 (30 واط)، سامسونج S26 (45 واط)، وحتى ماك بوك اير. مصنوع من النايلون المجدول المتين اللي بيتحمل 35,000 ثنية — يعني مش هيبوظ بسهولة زي كابلات العتبة. الطول 1 متر مظبوط للشحن من الشاحن أو الباور بانك. بضمان سنتين كاملين من CairoVolt.",
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
                 metaTitle: "كابل جوي روم 60 واط ⚡ خصم 44% | ايفون وسامسونج | ادفع عند الاستلام",
                 metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
@@ -44,8 +45,8 @@ export const joyroom_usb_c_cable_60w = {
             }
         },
         expertOpinion: {
-            en: "60W in a cable means laptop-grade charging. Connect to any 60W+ charger and watch your iPhone 17 or Samsung S26 hit 50% in 20 minutes. This is the speed standard for.",
-            ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لـ."
+            en: "60W in a cable means laptop-grade charging. Connect to any 60W+ charger and watch your iPhone 17 or Samsung S26 hit 50% in 20 minutes. This is the speed standard for the USB-C era.",
+            ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لعصر الـ USB-C."
         },
         meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", mainTerm: "joyroom 60w usb-c cable" }
     };
