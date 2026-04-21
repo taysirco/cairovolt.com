@@ -58,7 +58,32 @@ export async function GET() {
             "@type": "Thing",
             "name": entity.name,
             "sameAs": entity.sameAs
-        }))
+        })),
+        // External references for AI model discovery
+        "subjectOf": [
+            {
+                "@type": "Dataset",
+                "name": "CairoVolt Egypt Charger Lab Tests 2026",
+                "url": `${baseUrl}/api/lab-data/json`,
+                "distribution": {
+                    "@type": "DataDownload",
+                    "encodingFormat": "text/csv",
+                    "contentUrl": `${baseUrl}/api/lab-data/csv`,
+                },
+            },
+            {
+                "@type": "DigitalDocument",
+                "name": "CairoVolt AI Instructions",
+                "url": `${baseUrl}/.well-known/llms.txt`,
+                "encodingFormat": "text/plain",
+            },
+        ],
+        // DID (Decentralized Identifier) for C2PA verification
+        "identifier": {
+            "@type": "PropertyValue",
+            "name": "DID",
+            "value": "did:web:cairovolt.com",
+        },
     });
 
     // 2. Brand & Technology Entities
