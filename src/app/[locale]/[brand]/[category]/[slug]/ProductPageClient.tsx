@@ -229,6 +229,35 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         });
     }, [product.id, product.slug, product.brand, product.categorySlug, activePrice, product.translations, locale]);
 
+    // Clipboard copy tracking — NavBoost behavioral signal
+    useEffect(() => {
+        const handleCopy = () => {
+            const selection = window.getSelection()?.toString() || '';
+            if (!selection || selection.length < 3) return;
+
+            // Classify what was copied
+            let copyType = 'text';
+            if (/\+?\d{10,}/.test(selection)) copyType = 'phone';
+            else if (/ORIGINAL10|original10/i.test(selection)) copyType = 'coupon';
+            else if (selection.length > 10 && selection.length < 100) copyType = 'product_name';
+
+            // Fire GA4 event
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const w = window as any;
+            if (typeof w.gtag === 'function') {
+                w.gtag('event', 'content_copy', {
+                    copied_text: selection.substring(0, 50),
+                    copy_type: copyType,
+                    page_path: window.location.pathname,
+                    product_slug: product.slug,
+                });
+            }
+        };
+
+        document.addEventListener('copy', handleCopy);
+        return () => document.removeEventListener('copy', handleCopy);
+    }, [product.slug]);
+
     const getLocalizedHref = (path: string) => {
         const cleanPath = path.startsWith('/') ? path : `/${path}`;
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;

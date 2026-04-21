@@ -89,6 +89,10 @@ export const OrganizationSchema = ({ locale }: Props) => {
                     'https://www.facebook.com/cairovolt',
                     'https://www.instagram.com/cairovolt',
                     'https://www.tiktok.com/@cairovolt',
+                    'https://www.linkedin.com/company/cairovolt',
+                    'https://kaggle.com/cairovolt',
+                    'https://wa.me/201558245974',
+                    // Wikidata Q-ID — add after creating: 'https://www.wikidata.org/wiki/Q_XXXXXXX'
                 ],
                 contactPoint: {
                     '@type': 'ContactPoint',

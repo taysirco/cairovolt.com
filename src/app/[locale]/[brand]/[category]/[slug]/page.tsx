@@ -449,6 +449,40 @@ export default async function ProductPage({ params }: Props) {
 
             {/* FAQSection removed — was duplicating the same product FAQ questions visible in the accordion above */}
 
+            {/* Dataset schema — for products with lab test data (Google Dataset Search + AI training) */}
+            {labInfo?.labTests?.[0] && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify({
+                            '@context': 'https://schema.org',
+                            '@type': 'Dataset',
+                            name: `Lab Test: ${product.translations?.en?.name || slug}`,
+                            description: `Independent performance test of ${product.translations?.en?.name || slug} under Egyptian conditions (37-42°C, 190-240V). Tested by ${labInfo.labTests[0].expertName} at CairoVolt Labs.`,
+                            url: `https://cairovolt.com/${brand}/${category}/${slug}`,
+                            license: 'https://creativecommons.org/licenses/by/4.0/',
+                            creator: {
+                                '@type': 'Organization',
+                                '@id': 'https://cairovolt.com/#organization',
+                                name: 'CairoVolt Labs',
+                            },
+                            measurementTechnique: 'CairoVolt Labs Protocol v2 — real-device testing under Egyptian environmental conditions',
+                            variableMeasured: [
+                                ...(labMetrics?.actualCapacity_mAh ? [{ '@type': 'PropertyValue', name: 'Measured Capacity', value: labMetrics.actualCapacity_mAh, unitCode: 'MAH' }] : []),
+                                ...(labMetrics?.realEfficiency ? [{ '@type': 'PropertyValue', name: 'Conversion Efficiency', value: labMetrics.realEfficiency, unitCode: 'P1' }] : []),
+                                ...(labMetrics?.routerRuntimeHours ? [{ '@type': 'PropertyValue', name: 'Router Backup Duration', value: labMetrics.routerRuntimeHours, unitCode: 'HUR' }] : []),
+                                ...(labMetrics?.maxTemp_C ? [{ '@type': 'PropertyValue', name: 'Max Surface Temperature', value: labMetrics.maxTemp_C, unitCode: 'CEL' }] : []),
+                            ],
+                            isPartOf: {
+                                '@type': 'Dataset',
+                                name: 'CairoVolt Egypt Charger Lab Tests 2026',
+                                url: 'https://cairovolt.com/api/lab-data/json',
+                            },
+                        })
+                    }}
+                />
+            )}
+
             {/* Client-side UX components */}
             <ShareAnalytics />
             <TabTakeover productName={productName} />
