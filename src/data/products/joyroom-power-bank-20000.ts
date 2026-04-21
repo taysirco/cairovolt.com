@@ -45,7 +45,7 @@ export const joyroom_power_bank_20000 = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We took the Joyroom 20000 on a family road trip from Cairo to Hurghada — 6 hours in the car with 3 phones and a tablet. Results: we charged 2 iPhones from dead to full, a Samsung A54 once, and kept an iPad mini alive for the kids' movies. Arrived with 22% battery left in the power bank. The 22.5W fast charging was noticeably faster than generic 10W banks. Three output ports meant no arguments about who charges first. At under EGP 1,000, this is the most power per pound you can get in Egypt."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -75,7 +75,7 @@ export const joyroom_power_bank_20000 = {
         <tr><td class="p-2 border">Display</td><td class="p-2 border">LED Digital (Exact %)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 72Wh (TSA limit: 100Wh)</td></tr>
         <tr><td class="p-2 border">Authenticity</td><td class="p-2 border">Golden Code Verification</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -91,7 +91,7 @@ export const joyroom_power_bank_20000 = {
 </div>
 `,
                 features: ["🔋 20,000mAh (4x iPhone 17)", "⚡ 22.5W PD + QC 3.0 + SCP", "🔌 3 Output Ports (Charge 3 Devices)", "📊 LED Digital Display", "✈️ Airline Approved (72Wh)", "✅ Golden Code Verified", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | 3 Ports | from Cairo Volt",
+                metaTitle: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | 3 Ports | from CairoVolt",
                 metaDesc: "Buy Joyroom 20000mAh power bank in Egypt for EGP 997. 22.5W fast charging, 3 output ports, LED display. 4x iPhone charges. Best value. 12-month warranty.",
                 faqs: [
                     { question: "What is 22.5W fast charging?", answer: "It is a high-speed charging protocol supported by Huawei (SCP) and some other Android devices for rapid top-ups." },
@@ -149,7 +149,7 @@ export const joyroom_power_bank_20000 = {
         <tr><td class="p-2 border">الشاشة</td><td class="p-2 border">LED رقمية (نسبة دقيقة)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 72 واط/ساعة (حد TSA: 100Wh)</td></tr>
         <tr><td class="p-2 border">الأصالة</td><td class="p-2 border">كود ذهبي Golden Code</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

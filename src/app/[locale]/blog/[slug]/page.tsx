@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description: trans.metaDescription,
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'article',
-            siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
             publishedTime: article.publishDate,
             modifiedTime: article.modifiedDate,
             // Blog articles don't have dedicated cover images but this

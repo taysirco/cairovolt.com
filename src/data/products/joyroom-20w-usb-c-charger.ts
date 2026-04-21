@@ -42,7 +42,7 @@ export const joyroom_20w_usb_c_charger = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "I kept one at home and one at the office for 4 months. Both still look brand new. The 20W PD charges my iPhone 15 Pro from dead to 50% in exactly 28 minutes — I timed it. It barely gets warm, even in summer with Cairo's heat. For under 250 EGP, you're getting real PD fast charging, not the fake '20W' chargers flooding the market. Pair it with the <a href='/joyroom/cables' class='text-blue-600 hover:underline'>Joyroom USB-C to Lightning cable</a> and you have the cheapest legitimate fast-charging setup in Egypt."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -73,7 +73,7 @@ export const joyroom_20w_usb_c_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect (5 layers)</td></tr>
         <tr><td class="p-2 border">Size</td><td class="p-2 border">Ultra-Compact (smaller than AirPods)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -148,7 +148,7 @@ export const joyroom_20w_usb_c_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">حماية متعددة (5 طبقات)</td></tr>
         <tr><td class="p-2 border">الحجم</td><td class="p-2 border">صغير جداً (أصغر من AirPods)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

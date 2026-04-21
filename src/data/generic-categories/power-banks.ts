@@ -64,7 +64,7 @@ export const power_banks_generic: GenericCategory = {
                 { question: 'What is the difference between PD and QC fast charging?', answer: 'PD (Power Delivery) is a universal USB standard that works with iPhone, Samsung, and MacBook. QC (Quick Charge) by Qualcomm primarily works with Android devices. The ideal power bank supports both.' },
                 { question: 'Best power bank for travel?', answer: 'A 20000mAh power bank is ideal for travel — charges your phone 4 times and is airline-approved (under 100Wh). For longer trips: choose 27000-30000mAh.' },
                 { question: 'How to choose between a cheap and expensive power bank?', answer: 'More expensive power banks have: higher cell quality (longer lifespan), multi-layer protection systems, and longer warranty (18 months vs 6 months). Budget options are great for daily use, but premium ones are a long-term investment.' },
-                { question: 'How to identify an original power bank from fake?', answer: 'Check: 1) Hologram sticker on box 2) Serial number on manufacturer\'s official website 3) Buy from authorized dealer like Cairo Volt 4) Product weight and finish quality.' },
+                { question: 'How to identify an original power bank from fake?', answer: 'Check: 1) Hologram sticker on box 2) Serial number on manufacturer\'s official website 3) Buy from authorized dealer like CairoVolt 4) Product weight and finish quality.' },
             ],
         },
         richContent: {
@@ -199,7 +199,7 @@ export const power_banks_generic: GenericCategory = {
 <li><strong>With PD 20W:</strong> Charging iPhone 17 from 0 to 50% in just 30 minutes!</li>
 <li><strong>With PD 60W+:</strong> You can charge MacBook Air while using it</li>
 </ul>
-<p>All <strong>Anker</strong> and <strong>Joyroom power banks</strong> available at Cairo Volt support PD or QC fast charging or both.</p>
+<p>All <strong>Anker</strong> and <strong>Joyroom power banks</strong> available at CairoVolt support PD or QC fast charging or both.</p>
 
 <h2 id="maintenance-tips">Tips to Extend Your Power Bank's Lifespan</h2>
 <ul>

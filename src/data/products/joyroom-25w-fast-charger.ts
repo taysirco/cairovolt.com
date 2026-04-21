@@ -41,7 +41,7 @@ export const joyroom_25w_fast_charger = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "The 25W sweet spot — this charger bridges the gap between iPhone and Samsung perfectly. I tested it with both an iPhone 17 and a Samsung S26 Ultra. iPhone 17 hit 50% in 24 minutes. Samsung S26 Ultra reached 50% in 28 minutes with Super Fast Charging. In a household with mixed Apple/Samsung users (which describes most Egyptian families), this single charger handles everyone. The 36-month warranty is 3x what most brands offer. And the compact design? Smaller than a matchbox. I've been recommending this as the 'family charger' to every customer."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -58,7 +58,7 @@ export const joyroom_25w_fast_charger = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">36-Month Warranty: 3x the Industry Standard</h2>
-        <p class="text-gray-700">Most chargers come with 12-month warranties. This Joyroom charger comes with <strong>36 months</strong> — that's 3 full years of coverage. If anything goes wrong, Cairo Volt handles the replacement directly. <strong>MultiProtect 5-layer safety</strong> means your phone's battery stays healthy long-term.</p>
+        <p class="text-gray-700">Most chargers come with 12-month warranties. This Joyroom charger comes with <strong>36 months</strong> — that's 3 full years of coverage. If anything goes wrong, CairoVolt handles the replacement directly. <strong>MultiProtect 5-layer safety</strong> means your phone's battery stays healthy long-term.</p>
     </section>
 </div>
 
@@ -72,7 +72,7 @@ export const joyroom_25w_fast_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect (5 layers)</td></tr>
         <tr><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Size</td><td class="p-2 border">Ultra-Compact</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -147,7 +147,7 @@ export const joyroom_25w_fast_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">حماية متعددة (5 طبقات)</td></tr>
         <tr><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الحجم</td><td class="p-2 border">صغير جداً</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

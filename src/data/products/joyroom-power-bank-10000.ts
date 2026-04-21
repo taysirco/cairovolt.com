@@ -37,11 +37,11 @@ export const joyroom_power_bank_10000 = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We gave the Joyroom 10000 to a delivery driver in Giza who uses his phone 12+ hours daily for GPS and calls. After a week, his verdict: 'It's a lifesaver.' He charged his Samsung A54 once in the morning and once in the evening, with battery to spare. The LED display meant he always knew exactly when to plug in. At 14mm slim, it slid into his jeans pocket alongside his phone. For anyone who thinks quality power banks have to cost a fortune, Joyroom proves otherwise. The Quick Charge 3.0 is the cherry on top — noticeably faster than the generic power banks flooding the market."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -72,7 +72,7 @@ export const joyroom_power_bank_10000 = {
         <tr class="bg-gray-100"><td class="p-2 border">Thickness</td><td class="p-2 border">14mm (Ultra-Slim)</td></tr>
         <tr><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 37Wh (TSA limit: 100Wh)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Authenticity</td><td class="p-2 border">Golden Code Verification</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -100,16 +100,16 @@ export const joyroom_power_bank_10000 = {
                 metaTitle: "Joyroom 10000mAh Power Bank | QC 3.0 | LED Display | Best Price",
                 metaDesc: "Buy Joyroom 10000mAh power bank in Egypt. 2x iPhone charges, QC 3.0, LED display, ultra-slim 14mm. ✓ Original Sealed ✓ 14-Day Returns.",
                 faqs: [
-                    { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at Cairo Volt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
+                    { question: "What is the price of Joyroom 10000mAh in Egypt?", answer: "Joyroom 10000mAh power bank price is EGP 1,624 at CairoVolt. Includes 12-month warranty and fast delivery to Cairo and Giza." },
                     { question: "How many times does Joyroom 10000 charge iPhone 17?", answer: "It charges iPhone 17 twice or Samsung S26 about 1.5 times. Perfect for a day trip or short travel." },
                     { question: "Does Joyroom 10000 support fast charging?", answer: "Yes, it supports Quick Charge 3.0 via USB-A ports. Charges your phone 4x faster than standard chargers." },
                     { question: "What makes Joyroom 10000 special?", answer: "Joyroom offers premium features like LED display and slim design at an unbeatable price. It is the excellent budget choice." },
-                    { question: "Is Joyroom power bank original?", answer: "Yes, Cairo Volt products are 100% original with Golden Code verification and 12-month official warranty." },
+                    { question: "Is Joyroom power bank original?", answer: "Yes, CairoVolt products are 100% original with Golden Code verification and 12-month official warranty." },
                     { question: "Is Joyroom 10000 allowed on airplanes?", answer: "Yes! At 37Wh, it's well under the 100Wh TSA/IATA limit. You can carry it safely in hand luggage." },
                     { question: "Does it come with a charging cable?", answer: "Yes, includes a short Micro-USB cable to recharge the power bank. We recommend USB-C cable for your phone." },
                     { question: "How long to recharge Joyroom 10000?", answer: "With 18W charger: 3-4 hours. With standard 5W: 6-8 hours. Fast charger recommended." },
-                    { question: "What is the warranty for Joyroom in Egypt?", answer: "12-month warranty from Cairo Volt covering manufacturing defects with instant replacement." },
-                    { question: "Where to buy original Joyroom 10000 in Egypt?", answer: "Buy from Cairo Volt—authorized distributor. Fast Cairo delivery, 12-month warranty, cash on delivery." }
+                    { question: "What is the warranty for Joyroom in Egypt?", answer: "12-month warranty from CairoVolt covering manufacturing defects with instant replacement." },
+                    { question: "Where to buy original Joyroom 10000 in Egypt?", answer: "Buy from CairoVolt—authorized distributor. Fast Cairo delivery, 12-month warranty, cash on delivery." }
                 ]
             },
             ar: {
@@ -162,7 +162,7 @@ export const joyroom_power_bank_10000 = {
         <tr class="bg-gray-100"><td class="p-2 border">السمك</td><td class="p-2 border">14مم (نحيف جداً)</td></tr>
         <tr><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 37 واط/ساعة (حد TSA: 100Wh)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الأصالة</td><td class="p-2 border">كود ذهبي Golden Code</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -190,16 +190,16 @@ export const joyroom_power_bank_10000 = {
                 metaTitle: "باور بانك جوي روم 10000 | QC 3.0 | شاشة LED | ضمان الوكيل",
                 metaDesc: "اشتري باور بانك جوي روم 10000 في مصر. شحنتين ايفون، QC 3.0، شاشة LED، نحيف 14مم. ✓ ضمان 12 شهر ✓ كود ذهبي أصلي ✓ توصيل سريع.",
                 faqs: [
-                    { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من Cairo Volt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
+                    { question: "كم سعر باور بانك جوي روم 10000 في مصر؟", answer: "سعر باور بانك جوي روم 10000 في مصر هو 1,624 جنيه من CairoVolt. يشمل ضمان 12 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "كم مرة يشحن جوي روم 10000 الايفون 17؟", answer: "يشحن iPhone 17 مرتين كاملتين، أو Samsung S26 حوالي 1.5 مرة. مثالي لرحلة يومية أو سفر قصير." },
                     { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "نعم، يدعم Quick Charge 3.0 عبر منافذ USB-A. يشحن هاتفك أسرع 4 مرات من الشواحن العادية." },
                     { question: "لماذا هذا الباور بانك قيمة ممتازة؟", answer: "جوي روم يقدم سعة 10000 مللي أمبير الحقيقية بتصميم نحيف وشاشة رقمية بسعر منافس جداً. هو الخيار الاقتصادي الأذكي." },
-                    { question: "هل باور بانك جوي روم أصلي؟", answer: "نعم، منتجات Cairo Volt أصلية 100% مع كود التحقق الذهبي (Golden Code) وضمان 12 شهر رسمي." },
+                    { question: "هل باور بانك جوي روم أصلي؟", answer: "نعم، منتجات CairoVolt أصلية 100% مع كود التحقق الذهبي (Golden Code) وضمان 12 شهر رسمي." },
                     { question: "هل باور بانك جوي روم 10000 مسموح في الطائرة؟", answer: "نعم! سعته 37 واط/ساعة أقل بكثير من حد TSA/IATA (100Wh). يمكنك حمله بأمان في حقيبة اليد." },
                     { question: "هل يأتي مع كابل شحن؟", answer: "نعم، يشمل كابل Micro-USB قصير لشحن الباور بانك نفسه. ننصح بكابل USB-C لشحن هاتفك." },
                     { question: "كم وقت شحن باور بانك جوي روم 10000؟", answer: "بشاحن 18 واط: 3-4 ساعات. بشاحن 5 واط عادي: 6-8 ساعات. ننصح بشاحن سريع لتوفير الوقت." },
-                    { question: "ما ضمان باور بانك جوي روم في مصر؟", answer: "ضمان 12 شهر من Cairo Volt يغطي عيوب الصناعة مع استبدال فوري." },
-                    { question: "أين أشتري باور بانك جوي روم 10000 الأصلي؟", answer: "اشتري من Cairo Volt - موزع معتمد. توصيل سريع للقاهرة، ضمان 12 شهر، دفع عند الاستلام." }
+                    { question: "ما ضمان باور بانك جوي روم في مصر؟", answer: "ضمان 12 شهر من CairoVolt يغطي عيوب الصناعة مع استبدال فوري." },
+                    { question: "أين أشتري باور بانك جوي روم 10000 الأصلي؟", answer: "اشتري من CairoVolt - موزع معتمد. توصيل سريع للقاهرة، ضمان 12 شهر، دفع عند الاستلام." }
                 ]
             }
         },

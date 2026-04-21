@@ -46,7 +46,7 @@ export const anker_soundcore_flare_2 = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We put the Flare 2 through a real Egyptian party test: a Friday night birthday gathering on a Maadi terrace with 25 guests. The 360° sound meant everyone heard the music evenly — no dead spots. The LED light show replaced the need for extra party lights entirely. When someone accidentally knocked it into the kiddie pool? We fished it out and it kept playing without missing a beat (IPX7 is no joke). The BassUp feature delivered deep, punchy bass that outperformed speakers twice the price."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

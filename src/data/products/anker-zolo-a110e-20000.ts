@@ -43,11 +43,11 @@ export const anker_zolo_a110e_20000 = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We stress-tested the Anker ZOLO A110E during a 48-hour power outage in Heliopolis — the kind that turns your apartment into a dark cave. We kept two phones and a router running for over 36 hours. The 20,000mAh capacity is genuinely massive: we charged an iPhone 17 Pro four times, a Samsung S25 twice, and still had 12% left. The built-in cable means you grab one thing and you're covered. At 392g, it's heavier than the 10K version, but double the capacity more than justifies the weight. For Egyptian conditions where power outages are a reality, this is the 'insurance policy' power bank. It's also <a href='/anker/power-banks' class='text-blue-600 hover:underline'>flight-approved at 74Wh</a> — perfect for Alexandria and Hurghada trips."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

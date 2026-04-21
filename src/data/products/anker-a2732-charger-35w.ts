@@ -28,8 +28,8 @@ export const anker_a2732_charger_35w = {
     <li>🛡️ <strong>MultiProtect Safety:</strong> Surge protection, temperature control, short-circuit prevention.</li>
 </ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2732 is the upgrade path from the basic PowerDrive 2. Where the A2224 gives you 2× USB-A at 12W each, the A2732 adds a USB-C PD port that actually fast-charges your iPhone at 20W — that's iPhone 0→50% during a typical Nasr City to 6th October commute. The USB-A port with PowerIQ 2.0 still handles your passenger's older phone or earbuds. We've had one in our test car for 4 months through summer — the LED ring is perfect for finding ports when it's dark, and the compact design doesn't stick out of the console. For anyone who wants PD fast charging in their car without paying for a premium charger, this is the sweet spot."<br><span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span></p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
+<p class="text-gray-700 leading-relaxed text-lg">"The A2732 is the upgrade path from the basic PowerDrive 2. Where the A2224 gives you 2× USB-A at 12W each, the A2732 adds a USB-C PD port that actually fast-charges your iPhone at 20W — that's iPhone 0→50% during a typical Nasr City to 6th October commute. The USB-A port with PowerIQ 2.0 still handles your passenger's older phone or earbuds. We've had one in our test car for 4 months through summer — the LED ring is perfect for finding ports when it's dark, and the compact design doesn't stick out of the console. For anyone who wants PD fast charging in their car without paying for a premium charger, this is the sweet spot."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">USB-C PD: Actually Fast-Charge in Your Car</h2>

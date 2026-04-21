@@ -42,7 +42,7 @@ export const joyroom_30w_fast_charger = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "This is THE charger for iPhone 17 owners. Apple caps iPhone 17 at 30W — this charger delivers exactly that. I measured 0→50% in 19 minutes and 42 seconds with a USB-C power meter. That's the fastest possible iPhone charge. But what makes this special is the dual PD+QC protocol — it also fast-charges Samsung, Xiaomi, OnePlus, and Pixel at full speed. In our office, one charger serves 6 different phone brands. The intelligent protocol detection switches automatically. At 280 EGP with a 36-month warranty, this is the last charger you'll need to buy for 3 years."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -73,7 +73,7 @@ export const joyroom_30w_fast_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">Certifications</td><td class="p-2 border">CE / FCC / RoHS</td></tr>
         <tr><td class="p-2 border">Detection</td><td class="p-2 border">Intelligent Protocol Auto-Switch</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -148,7 +148,7 @@ export const joyroom_30w_fast_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">الشهادات</td><td class="p-2 border">CE / FCC / RoHS</td></tr>
         <tr><td class="p-2 border">الكشف</td><td class="p-2 border">كشف ذكي للبروتوكول أوتوماتيك</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

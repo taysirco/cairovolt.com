@@ -58,7 +58,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                                                                                                                 <p> فغالباً المنتج مقلد.</p>
 
                                                                                                                                                                                                     <h3> 5. الشراء من وكيل معتمد 🏪</h3>
-                                                                                                                                                                                                        <p> الطريقة الأضمن لتجنب المقلد هي الشراء من <strong> وكيل معتمد </strong>. Cairo Volt هو موزع معتمد لمنتجات Anker في مصر ويقدم:</p>
+                                                                                                                                                                                                        <p> الطريقة الأضمن لتجنب المقلد هي الشراء من <strong> وكيل معتمد </strong>. CairoVolt هو موزع معتمد لمنتجات Anker في مصر ويقدم:</p>
                                                                                                                                                                                                             <ul>
                                                                                                                                                                                                             <li>ضمان 18 شهر مع استبدال فوري </li>
                                                                                                                                                                                                                 <li> فاتورة رسمية </li>
@@ -83,7 +83,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                                                                                                                                                                                     </div>
 `,
                 faq: [
-                    { question: 'كيف أعرف انكر الأصلي؟', answer: 'الطريقة الأسهل: امسح كود QR على العلبة في موقع anker.com/verify. لو ظهرت "Authentic" فهو أصلي. أو اشترِ من وكيل معتمد مثل Cairo Volt.' },
+                    { question: 'كيف أعرف انكر الأصلي؟', answer: 'الطريقة الأسهل: امسح كود QR على العلبة في موقع anker.com/verify. لو ظهرت "Authentic" فهو أصلي. أو اشترِ من وكيل معتمد مثل CairoVolt.' },
                     { question: 'هل انكر من أمازون مصر أصلي؟', answer: 'ليس بالضرورة. أمازون يسمح لبائعين مختلفين بالبيع. تأكد أن البائع هو "Anker Direct" أو وكيل معتمد. الأضمن الشراء من الوكيل مباشرة.' },
                     { question: 'ما خطورة استخدام شاحن انكر مقلد؟', answer: 'المقلد لا يحتوي على أنظمة أمان MultiProtect. قد يسبب: سخونة زائدة، تلف بطارية الموبايل، أو في أسوأ الحالات حريق. لا تخاطر.' },
                 ]
@@ -94,7 +94,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                 metaDescription: 'Learn how to tell the difference between original and fake Anker products. 5 easy ways to verify Anker chargers and power banks. Tips from authorized dealer.',
                 keywords: 'original anker, fake anker, how to verify anker, anker authentic, anker verification',
                 excerpt: '5 easy and guaranteed methods to tell original Anker products from fakes.',
-                quickAnswer: 'To verify Anker products: (1) Scan barcode in the official Anker app (2) Heavier weight means original (3) Genuine products have engraved, not printed logos. Buying from authorized dealers like Cairo Volt guarantees authenticity.',
+                quickAnswer: 'To verify Anker products: (1) Scan barcode in the official Anker app (2) Heavier weight means original (3) Genuine products have engraved, not printed logos. Buying from authorized dealers like CairoVolt guarantees authenticity.',
                 content: `
                     <h2> Why Fake Anker Products Exist in Egypt</h2>
                 <p>Due to Anker's massive popularity, many counterfeit products have appeared in Egyptian markets, especially on platforms like OLX and Facebook Marketplace. Fakes can damage your phone battery or even pose safety risks.</p>
@@ -118,7 +118,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                             <p> Genuine Anker supports PowerIQ smart charging.If charging is unusually slow or the device gets very hot, it's likely fake.</p>
 
                                 <h3> 5. Buy from Authorized Dealer 🏪</h3>
-                                    <p> The safest way is buying from an authorized dealer.Cairo Volt is an authorized Anker distributor in Egypt with 18 - month warranty.</p>
+                                    <p> The safest way is buying from an authorized dealer.CairoVolt is an authorized Anker distributor in Egypt with 18 - month warranty.</p>
 
                                         <p>Our best-selling verified products: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a>, <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a>, and <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W MFi Charger</a> — all with working QR authentication.</p><h2> Signs You Can Trust the Seller </h2>
                                             <ul>
@@ -138,7 +138,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                     </ol>
                                                                                         `,
                 faq: [
-                    { question: 'How do I verify my Anker is original?', answer: 'Scan the QR code on the box at anker.com/verify. If it shows "Authentic", it\'s genuine. Or buy from authorized dealers like Cairo Volt.' },
+                    { question: 'How do I verify my Anker is original?', answer: 'Scan the QR code on the box at anker.com/verify. If it shows "Authentic", it\'s genuine. Or buy from authorized dealers like CairoVolt.' },
                     { question: 'Is Anker from Amazon Egypt original?', answer: 'Not always. Amazon allows different sellers. Make sure the seller is "Anker Direct" or an authorized dealer.' },
                     { question: 'Is it dangerous to use a fake Anker charger?', answer: 'Yes. Fakes lack MultiProtect safety systems. They can cause: overheating, phone battery damage, or in worst cases, fire. Don\'t risk it.' },
                 ]

@@ -48,7 +48,7 @@ export const anker_powerline_usb_c_lightning = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We've been using the PowerLine III as our daily driver for 8 months straight. The result? Zero fraying, zero 'accessory not supported' popups, and zero bending damage — even though it lives permanently folded in a laptop bag. We tested it side-by-side with Apple's cable: same 30W charging speed, but Anker's 35,000-bend rating means it'll outlive Apple's cable 3x over. The biggest test was a week of daily CarPlay in a bumpy Cairo commute — flawless connection every time. For iPhone 14 and earlier owners, this is the last Lightning cable you'll ever need to buy."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -78,7 +78,7 @@ export const anker_powerline_usb_c_lightning = {
         <tr><td class="p-2 border">Length</td><td class="p-2 border">1m (3ft) / 2m (6ft)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Connectors</td><td class="p-2 border">USB-C to Lightning</td></tr>
         <tr><td class="p-2 border">CarPlay</td><td class="p-2 border">✅ Fully compatible</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -161,7 +161,7 @@ export const anker_powerline_usb_c_lightning = {
         <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر / 2 متر</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الموصلات</td><td class="p-2 border">USB-C إلى Lightning</td></tr>
         <tr><td class="p-2 border">CarPlay</td><td class="p-2 border">✅ متوافق بالكامل</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

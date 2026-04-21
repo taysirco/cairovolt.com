@@ -47,11 +47,11 @@ export const anker_737_powerbank = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We tested the Anker 737 during a 4-hour power outage in Nasr City — the kind of blackout that destroys your workday. We kept a MacBook Pro M4 running for 3 hours of continuous video editing (charged from 15% to 80%), then topped up an iPhone 17 Pro Max and an iPad Air. The digital display was a lifesaver — we could see exactly how many minutes of power remained and plan accordingly. At 140W, this isn't just a power bank; it's a portable workstation backup. Yes, it's heavy at 630g, but when the lights go out, you'll thank yourself for owning this beast."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

@@ -35,7 +35,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <p>الخيار الأول لأغلب المصريين. يشحن iPhone 17 Pro أربع مرات كاملة، ويدعم الشحن السريع PowerIQ. مصنوع من خلايا بطارية Grade-A (نفس المستخدمة في السيارات الكهربائية).</p>
 <ul>
 <li>✓ يشحن جهازين في نفس الوقت</li>
-<li>✓ ضمان 18 شهر من Cairo Volt</li>
+<li>✓ ضمان 18 شهر من CairoVolt</li>
 <li>✓ حماية MultiProtect بـ 11 نقطة أمان</li>
 <li>✗ لا يدعم شحن اللابتوب</li>
 </ul>
@@ -90,7 +90,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <ol>
 <li><strong>تأكد من الأصالة:</strong> اشترِ من وكيل معتمد وتحقق من كود QR على العلبة</li>
 <li><strong>لا تنخدع بالسعة الوهمية:</strong> بعض الماركات المجهولة تكتب 50,000mAh بسعر 200 جنيه — هذا مستحيل فيزيائياً</li>
-<li><strong>الضمان مهم:</strong> Cairo Volt يوفر ضمان 18 شهر على Anker و 12 شهر على Joyroom مع استبدال فوري</li>
+<li><strong>الضمان مهم:</strong> CairoVolt يوفر ضمان 18 شهر على Anker و 12 شهر على Joyroom مع استبدال فوري</li>
 <li><strong>اختر الشحن السريع:</strong> تأكد من دعم USB-C PD أو PowerIQ للشحن السريع</li>
 </ol>
 
@@ -122,7 +122,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <p>With frequent power outages and increasing smartphone dependency, a <strong>power bank</strong> has become a daily essential for every Egyptian. Whether you're a university student, commuting professional, or frequent traveler — a power bank ensures your phone never dies at the worst moment.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-<p><strong>🔋 Our hands-on testing:</strong> The Cairo Volt team tested 15+ power bank models over 6 months with precise measurements (actual charge cycles, charging time in minutes, operating temperature). The results below are based on our real-world data, not manufacturer specs.</p>
+<p><strong>🔋 Our hands-on testing:</strong> The CairoVolt team tested 15+ power bank models over 6 months with precise measurements (actual charge cycles, charging time in minutes, operating temperature). The results below are based on our real-world data, not manufacturer specs.</p>
 </div>
 
 <h2>Top 5 Power Banks in Egypt 2026</h2>
@@ -171,7 +171,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <ol>
 <li><strong>Verify authenticity:</strong> Buy from authorized dealers and check QR code on the box</li>
 <li><strong>Don't fall for fake capacity:</strong> Unknown brands advertising 50,000mAh for EGP 200 — physically impossible</li>
-<li><strong>Warranty matters:</strong> Cairo Volt offers 18-month warranty on Anker, 12 months on Joyroom</li>
+<li><strong>Warranty matters:</strong> CairoVolt offers 18-month warranty on Anker, 12 months on Joyroom</li>
 <li><strong>Choose fast charging:</strong> Make sure it supports USB-C PD or PowerIQ</li>
 </ol>
 `,

@@ -209,7 +209,7 @@ export const cables_generic: GenericCategory = {
 <li><strong>Appearance:</strong> Nylon cable stays looking new much longer</li>
 <li><strong>Lifespan:</strong> Nylon cable lasts 3-5 years. Plastic cable: 6-12 months</li>
 </ul>
-<p>All <strong>Anker PowerLine</strong> and <strong>Joyroom</strong> cables available at Cairo Volt are braided nylon.</p>
+<p>All <strong>Anker PowerLine</strong> and <strong>Joyroom</strong> cables available at CairoVolt are braided nylon.</p>
 
 <h2 id="original-vs-fake">How to Identify Original vs Fake Charging Cable</h2>
 <p>Fake cables are dangerous — they can slow charging, damage your battery, or even cause fire:</p>
@@ -219,7 +219,7 @@ export const cables_generic: GenericCategory = {
 <li><strong>Heat:</strong> Original doesn't heat up. Fake gets noticeably hot (dangerous!)</li>
 <li><strong>Nylon:</strong> Original nylon is tight and durable. Fake unravels quickly</li>
 <li><strong>Branding:</strong> Brand name clearly printed on cable and connector</li>
-<li><strong>Source:</strong> From authorized dealer like <strong>Cairo Volt</strong> = guaranteed authenticity + official warranty</li>
+<li><strong>Source:</strong> From authorized dealer like <strong>CairoVolt</strong> = guaranteed authenticity + official warranty</li>
 </ul>
 `,
         },

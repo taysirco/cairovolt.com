@@ -29,8 +29,8 @@ export const anker_a2147_gan_charger_30w = {
     <li>🛡️ <strong>ActiveShield 2.0:</strong> Monitors temperature continuously — critical for Egypt's unstable grid voltage.</li>
 </ul></div>
 
-<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2147 Nano 3 is the charger Apple should have included in the box. At 30W from a body smaller than AirPods case, it's genuinely impressive engineering. We tested it through Cairo's summer voltage fluctuations — ActiveShield 2.0 kept temperatures at 42°C max even during sustained 30W output. The foldable plug is a real convenience for anyone who carries a charger in their bag daily. Compared to the Anker PowerPort 20W, you get 50% more power in roughly the same size. GaN is the future of charging, and this is one of the most affordable ways to experience it. At 430 EGP with a 24-month warranty, it's a no-brainer upgrade from any 20W charger."<br><span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span></p></div>
+<div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
+<p class="text-gray-700 leading-relaxed text-lg">"The A2147 Nano 3 is the charger Apple should have included in the box. At 30W from a body smaller than AirPods case, it's genuinely impressive engineering. We tested it through Cairo's summer voltage fluctuations — ActiveShield 2.0 kept temperatures at 42°C max even during sustained 30W output. The foldable plug is a real convenience for anyone who carries a charger in their bag daily. Compared to the Anker PowerPort 20W, you get 50% more power in roughly the same size. GaN is the future of charging, and this is one of the most affordable ways to experience it. At 430 EGP with a 24-month warranty, it's a no-brainer upgrade from any 20W charger."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">GaN Technology: Science Behind the Size</h2>

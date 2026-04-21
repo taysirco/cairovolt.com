@@ -214,7 +214,7 @@ export default function BrandVerification({
                             <span style={{ color: '#4ade80', marginTop: 2, flexShrink: 0 }}>✓</span>
                             <span>
                                 <strong style={{ color: '#4ade80' }}>
-                                    Cairo Volt:
+                                    CairoVolt:
                                 </strong>{' '}
                                 {isRTL
                                     ? 'وكيل معتمد موثق بالضريبة والجنائية (C2PA).'

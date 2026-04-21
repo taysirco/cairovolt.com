@@ -47,11 +47,11 @@ export const anker_prime_a1695_25000 = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "This is not a power bank. This is a portable power station disguised as a power bank. At 165W combined output, the Anker Prime A1695 charges MacBook Pro 16-inch at near-wall-socket speeds. We tested it during a critical 8-hour power outage in Maadi during July heat — it kept a MacBook Pro, an iPad, and two iPhones alive for the entire duration. The active cooling fan is genuinely necessary at these watts — and it's whisper-quiet. The build quality is absurdly premium: aerospace-grade aluminum, smart display showing real-time watts and temperature, and a heft that screams 'I mean business.' With a 100W+ USB-C charger, it refills from 0% to 80% in about 35 minutes — faster than any power bank this size. At 92.7Wh, it's the maximum capacity you can legally carry on a plane. This is for the creator, the executive, the traveler who refuses to be powerless. Expensive? Yes. Worth every pound? Absolutely."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

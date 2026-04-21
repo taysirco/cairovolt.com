@@ -40,8 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: canonicalUrl,
             locale: locale === 'ar' ? 'ar_EG' : 'en_US',
             type: 'website',
-            siteName: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
-            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'Cairo Volt - Mobile Accessories' }],
+            siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
+            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
         other: {
             'geo.region': 'EG',

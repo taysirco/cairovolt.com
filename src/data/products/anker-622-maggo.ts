@@ -50,7 +50,7 @@ export const anker_622_maggo = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We used the MagGo 622 for a full week as our daily carry. The game-changer? The foldable kickstand. During a 45-minute FaceTime call at a Zamalek café, we propped the iPhone 17 up on the table and it charged wirelessly the entire time — no cable clutter, no holding the phone. The magnetic grip is strong enough to stay attached during a bumpy Uber ride. At 7.5W, it's not blazing fast, but that's the point: it's designed to keep your battery topped up throughout the day, not race to 100%. It slips into a back pocket and you forget it's there."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

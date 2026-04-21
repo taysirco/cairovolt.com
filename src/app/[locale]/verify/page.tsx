@@ -41,7 +41,7 @@ export async function generateMetadata({
             locale: isArabic ? 'ar_EG' : 'en_US',
             alternateLocale: isArabic ? 'en_US' : 'ar_EG',
             type: 'website',
-            siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
             images: [{
                 url: 'https://cairovolt.com/og-cover.png',
                 width: 1200,

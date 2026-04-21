@@ -40,7 +40,7 @@ export const joyroom_car_phone_mount = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We tested the JR-ZS295 on the Ring Road with a heavy Samsung S26 Ultra. The nano-silica suction cup didn't budge even when parked in the 45-degree August sun. Unlike cheap mounts whose plastic melts or gears jam, the release mechanism here is smooth and reliable. If you don't want a vent mount, this is the most secure dashboard/windshield option we've validated."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 <div class="product-details">

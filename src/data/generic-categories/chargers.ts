@@ -59,7 +59,7 @@ export const chargers_generic: GenericCategory = {
                 { question: 'How many watts does iPhone 17 need for fast charging?', answer: 'iPhone 17 supports fast charging up to 30W via USB-C PD. A 20W charger will charge fast but 30W gives you maximum speed.' },
                 { question: 'What is the difference between PD and PPS?', answer: 'PD (Power Delivery) is the universal fast charging standard working with all devices. PPS (Programmable Power Supply) is a PD extension required for Samsung Super Fast Charging (25W/45W).' },
                 { question: 'Is a 20W charger enough?', answer: '20W is enough for iPhone (charges 0→50% in 30 minutes). But for Samsung or faster charging, choose 30W or higher. For laptops: you need at least 65W.' },
-                { question: 'How to identify an original charger from fake?', answer: 'Check: 1) Engraved brand logo (not printed) 2) Serial number on manufacturer website 3) Charger weight (original is heavier) 4) USB-C port quality 5) Buy from authorized dealer like Cairo Volt.' },
+                { question: 'How to identify an original charger from fake?', answer: 'Check: 1) Engraved brand logo (not printed) 2) Serial number on manufacturer website 3) Charger weight (original is heavier) 4) USB-C port quality 5) Buy from authorized dealer like CairoVolt.' },
                 { question: 'Best charger for laptop and phone together?', answer: 'A 65W GaN charger with 3 ports — charges MacBook Air + iPhone + iPad simultaneously. 50% smaller than Apple\'s original charger, around EGP 1,199.' },
             ],
         },
@@ -211,7 +211,7 @@ export const chargers_generic: GenericCategory = {
 <li><strong>Weight:</strong> Original is heavier because it contains real high-quality components</li>
 <li><strong>USB-C port:</strong> Original port is tight and precise; fake is loose</li>
 <li><strong>Packaging:</strong> Original box has hologram sticker and high-quality printing</li>
-<li><strong>Warranty:</strong> Buy from authorized dealer like <strong>Cairo Volt</strong> for authenticity guarantee + official warranty</li>
+<li><strong>Warranty:</strong> Buy from authorized dealer like <strong>CairoVolt</strong> for authenticity guarantee + official warranty</li>
 </ul>
 `,
         },

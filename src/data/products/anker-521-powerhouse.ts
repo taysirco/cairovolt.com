@@ -101,11 +101,11 @@ export const anker_521_powerhouse = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We deployed the Anker 521 during a scheduled 6-hour power cut in Heliopolis. Here's exactly what we ran: Wi-Fi router (12W) for 6 hours straight, charged 2 phones from 20% to 100%, powered a desk fan for 3 hours, and used the built-in LED as room lighting. At the end? Still had 18% battery left. The LiFePO4 chemistry means it won't degrade like regular lithium batteries — after 3,000 cycles, it still retains 80% capacity. For Egyptian homes dealing with regular outages, this isn't a luxury; it's infrastructure."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

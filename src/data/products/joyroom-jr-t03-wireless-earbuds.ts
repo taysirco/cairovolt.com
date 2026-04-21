@@ -41,11 +41,11 @@ export const joyroom_jr_t03_wireless_earbuds = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We gave the JR-T03 to a college student who wanted wireless earbuds under 800 EGP. After 2 weeks of daily use — lectures, commuting, gym, and Netflix before bed — her review: 'They just work.' The sound is surprisingly clear for the price, the touch controls are responsive, and the compact case fits in a coin pocket. No ANC (that's what the T03S Pro is for), but for podcasts, music, and calls, these punch well above their price. The built-in mic handled a 20-minute phone call while walking on a busy Mohandessin street without complaints from the other end."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -75,7 +75,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <tr><td class="p-2 border">Microphone</td><td class="p-2 border">Built-in (Calls)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Sound</td><td class="p-2 border">Stereo with Bass</td></tr>
         <tr><td class="p-2 border">Case</td><td class="p-2 border">Compact USB-C Charging</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -148,7 +148,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <tr><td class="p-2 border">الميكروفون</td><td class="p-2 border">مدمج (مكالمات)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الصوت</td><td class="p-2 border">ستيريو مع بيس</td></tr>
         <tr><td class="p-2 border">العلبة</td><td class="p-2 border">صغيرة شحن USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

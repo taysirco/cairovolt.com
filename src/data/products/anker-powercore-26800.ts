@@ -50,7 +50,7 @@ export const anker_powercore_26800 = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We took the PowerCore 26800 on a 5-day camping trip to Siwa Oasis with a family of 4. No electricity for 5 days. Results: we charged 3 iPhones daily (morning and evening), powered a Bluetooth speaker for 4 nights, and charged an iPad twice for the kids' entertainment during the drive. By day 5, it still had ~10% left. The 3 USB ports were essential — everyone charged at the same time every night. It's heavy at ~500g, but for travel and emergencies, nothing in Egypt beats 26,800mAh at this price. This is the one you pack when you know you won't see an outlet for days."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -81,7 +81,7 @@ export const anker_powercore_26800 = {
         <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect 10-Layer</td></tr>
         <tr><td class="p-2 border">Weight</td><td class="p-2 border">~500g</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 96.48Wh (Max legal: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -172,7 +172,7 @@ export const anker_powercore_26800 = {
         <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect 10 طبقات</td></tr>
         <tr><td class="p-2 border">الوزن</td><td class="p-2 border">~500 جرام</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 96.48 واط/ساعة (الحد: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

@@ -45,11 +45,11 @@ export const anker_nano_45w = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We replaced a MacBook Air charger, an iPhone charger, and a Samsung charger with this single Anker 45W Nano — and they haven't come out of the drawer since. During a work trip to Alexandria, we charged a MacBook Air M3 from 20% to full in under 2 hours, then switched the cable to an iPhone 17 for a 30-minute top-up. GaN III technology means it stays cool even at full 45W output. The size difference compared to Apple's 30W adapter is dramatic — the Anker is noticeably smaller. If you own a MacBook Air and any modern phone, this single brick replaces 2-3 chargers."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -80,7 +80,7 @@ export const anker_nano_45w = {
         <tr class="bg-gray-100"><td class="p-2 border">Samsung S26</td><td class="p-2 border">45W Super Fast Charging 2.0</td></tr>
         <tr><td class="p-2 border">Size</td><td class="p-2 border">60% smaller than traditional 45W</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Plug</td><td class="p-2 border">UK-Style (Egyptian compatible)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -164,7 +164,7 @@ export const anker_nano_45w = {
         <tr class="bg-gray-100"><td class="p-2 border">سامسونج S26</td><td class="p-2 border">45 واط Super Fast Charging 2.0</td></tr>
         <tr><td class="p-2 border">الحجم</td><td class="p-2 border">أصغر 60% من التقليدي</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">القابس</td><td class="p-2 border">UK-Style (متوافق مع مصر)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

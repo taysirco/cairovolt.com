@@ -329,7 +329,7 @@ export function ExpertOpinion({ productName, brand, category, locale, customOpin
     const enBadges = ['Tech Review', 'Verified Audit', 'Performance Test', 'Quality Cert', 'In-depth Rating'];
 
     const arVerified = ['تمت مراجعته بواسطة كايرو فولت', 'تم الفحص في معمل كايرو فولت', 'معتمد من مهندسي كايرو فولت', 'بيانات حصرية - مختبرات كايرو فولت'];
-    const enVerified = ['Reviewed by Cairo Volt', 'Tested in CairoVolt Labs', 'Certified by CairoVolt Engineers', 'Exclusive Data - CairoVolt Labs'];
+    const enVerified = ['Reviewed by CairoVolt', 'Tested in CairoVolt Labs', 'Certified by CairoVolt Engineers', 'Exclusive Data - CairoVolt Labs'];
 
     const t = isArabic ? {
         title: arTitles[hash % arTitles.length],

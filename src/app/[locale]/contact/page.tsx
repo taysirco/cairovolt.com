@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 : 'https://cairovolt.com/en/contact',
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
-            siteName: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+            siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
             images: [{
                 url: '/og-cover.png',
                 width: 1200,

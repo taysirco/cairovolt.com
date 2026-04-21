@@ -33,7 +33,7 @@ export const anker_usb_c_lightning_sureistrong = {
 </div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
-    <p class="text-gray-700 leading-relaxed text-lg">"SureIStrong is the cable we personally use. The soft-touch coating is unlike any cable we've tested — it genuinely feels premium, doesn't tangle, and the stain-resistant surface stays white even after months in a laptop bag. The 1.8m length is perfect for bedside charging. MFi certified means zero 'accessory not supported' errors."<br><span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span></p>
+    <p class="text-gray-700 leading-relaxed text-lg">"SureIStrong is the cable we personally use. The soft-touch coating is unlike any cable we've tested — it genuinely feels premium, doesn't tangle, and the stain-resistant surface stays white even after months in a laptop bag. The 1.8m length is perfect for bedside charging. MFi certified means zero 'accessory not supported' errors."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>

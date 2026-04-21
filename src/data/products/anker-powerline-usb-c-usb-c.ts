@@ -49,7 +49,7 @@ export const anker_powerline_usb_c_usb_c = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "This is the cable we keep 3 of: one at the desk, one in the car, one in the travel bag. Why? Because in 2026, USB-C is literally everything — iPhone 17, Samsung S26, iPad, MacBook Air, Nintendo Switch, even our Anker power banks. At 60W, it handles any device we throw at it. We've been bending, coiling, and stuffing this cable into bags for 6 months — zero signs of wear at the connectors. At this price point with Anker's build quality, buying anything else is a waste of money."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -79,7 +79,7 @@ export const anker_powerline_usb_c_usb_c = {
         <tr><td class="p-2 border">Durability</td><td class="p-2 border">35,000+ bend lifespan</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Data Transfer</td><td class="p-2 border">USB 2.0 (480Mbps)</td></tr>
         <tr><td class="p-2 border">Length</td><td class="p-2 border">1m (3ft) / 2m (6ft)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -169,7 +169,7 @@ export const anker_powerline_usb_c_usb_c = {
         <tr><td class="p-2 border">المتانة</td><td class="p-2 border">35,000+ ثني</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">نقل البيانات</td><td class="p-2 border">USB 2.0 (480ميجابت/ثانية)</td></tr>
         <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر / 2 متر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

@@ -58,7 +58,7 @@ export const anker_powercore_20000 = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We handed the PowerCore 20000 to a university student in Ain Shams for a full week of testing. Her daily routine: 8am to 10pm between lectures, study sessions, and commuting. She charged her iPhone 16 twice daily and her AirPods once. By 10pm, the power bank still had 25% left. On a weekend trip to Dahab, she charged 2 phones and a Bluetooth speaker over 2 days without needing a wall outlet. At 356g it's not pocket-sized like the 10000, but it fits perfectly in a university bag. For students and travelers in Egypt, this is the sweet spot between capacity and portability."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -75,7 +75,7 @@ export const anker_powercore_20000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Travel-Ready: Airline Safe at 72Wh</h2>
-        <p class="text-gray-700">At <strong>72Wh</strong>, the PowerCore 20000 is well under the TSA/IATA 100Wh limit for carry-on luggage. Weighing only <strong>356g</strong>, it's lighter than a can of soda. The <strong>MultiProtect 10-layer safety</strong> system protects against overcharging, overheating, and short circuits. And with a <strong>24-month warranty</strong> (double industry standard), Cairo Volt guarantees every unit is 100% original.</p>
+        <p class="text-gray-700">At <strong>72Wh</strong>, the PowerCore 20000 is well under the TSA/IATA 100Wh limit for carry-on luggage. Weighing only <strong>356g</strong>, it's lighter than a can of soda. The <strong>MultiProtect 10-layer safety</strong> system protects against overcharging, overheating, and short circuits. And with a <strong>24-month warranty</strong> (double industry standard), CairoVolt guarantees every unit is 100% original.</p>
     </section>
 </div>
 
@@ -89,7 +89,7 @@ export const anker_powercore_20000 = {
         <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect 10-Layer</td></tr>
         <tr><td class="p-2 border">Weight</td><td class="p-2 border">356g</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 72Wh (TSA limit: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -118,16 +118,16 @@ export const anker_powercore_20000 = {
                 metaTitle: "Anker 20000mAh Power Bank | 4x iPhone Charge | Buy Original",
                 metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,550. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
                 faqs: [
-                    { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,550 at Cairo Volt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
+                    { question: "What is the price of Anker 20000mAh power bank in Egypt?", answer: "The Anker PowerCore 20000mAh price in Egypt is EGP 1,550 at CairoVolt. This includes 24-month warranty and free delivery to Cairo and Giza. It's the best price for an original Anker power bank in Egypt." },
                     { question: "How many times does Anker 20000mAh charge iPhone?", answer: "Anker 20000mAh charges iPhone 17/16/15 approximately 4 full times from 0% to 100%. For Samsung Galaxy S26/S25, it provides about 3 full charges. iPad mini gets about 2.5 charges." },
                     { question: "Can I charge 2 devices at once with Anker 20000?", answer: "Yes, the Anker PowerCore 20000 has 2 USB-A ports allowing simultaneous charging of two devices. PowerIQ technology intelligently distributes power to optimize charging speed for each device." },
                     { question: "How long does it take to recharge Anker 20000mAh?", answer: "It takes about 10 hours to fully recharge using a 2A wall charger. With a standard 1A charger, it takes approximately 20 hours. For faster recharging, use an Anker PowerPort 20W or higher." },
                     { question: "Is Anker 20000mAh allowed on airplanes?", answer: "Yes! The Anker 20000mAh (72Wh) is TSA/IATA approved for air travel. It's well below the 100Wh limit. You must carry it in hand luggage, not checked baggage." },
                     { question: "Should I buy 10000mAh or 20000mAh Anker power bank?", answer: "Choose 10000mAh for daily pocket carry (lighter at 180g, 2 iPhone charges). Choose 20000mAh for travel, heavy usage, or multiple devices (4 iPhone charges, 356g). The price difference is minimal for double the capacity." },
-                    { question: "What is the warranty for Anker 20000 in Egypt?", answer: "Cairo Volt provides 24-month warranty for Anker PowerCore 20000 in Egypt - double the industry standard! Warranty covers manufacturing defects and battery issues. We offer instant replacement." },
+                    { question: "What is the warranty for Anker 20000 in Egypt?", answer: "CairoVolt provides 24-month warranty for Anker PowerCore 20000 in Egypt - double the industry standard! Warranty covers manufacturing defects and battery issues. We offer instant replacement." },
                     { question: "Does Anker 20000mAh support fast charging?", answer: "The PowerCore 20000 supports PowerIQ and VoltageBoost for optimized charging up to 2.4A per port. For USB-C PD fast charging, consider Anker 737 (140W) or Anker Prime (200W) models." },
-                    { question: "How to identify original Anker 20000 vs fake?", answer: "Original Anker comes with: 1) QR verification code on box, 2) 24-month warranty card, 3) High-quality Anker logo embossing, 4) Proper weight (356g). Cairo Volt guarantees 100% authentic products." },
-                    { question: "Where to buy original Anker 20000mAh in Egypt?", answer: "Buy original Anker 20000mAh from Cairo Volt - authorized distributor in Egypt. We offer free delivery to Cairo & Giza, cash on delivery, and 24-month warranty. All products are 100% genuine with verification." }
+                    { question: "How to identify original Anker 20000 vs fake?", answer: "Original Anker comes with: 1) QR verification code on box, 2) 24-month warranty card, 3) High-quality Anker logo embossing, 4) Proper weight (356g). CairoVolt guarantees 100% authentic products." },
+                    { question: "Where to buy original Anker 20000mAh in Egypt?", answer: "Buy original Anker 20000mAh from CairoVolt - authorized distributor in Egypt. We offer free delivery to Cairo & Giza, cash on delivery, and 24-month warranty. All products are 100% genuine with verification." }
                 ]
             },
             ar: {
@@ -173,7 +173,7 @@ export const anker_powercore_20000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">جاهز للسفر: آمن للطائرة بسعة 72 واط/ساعة</h2>
-        <p class="text-gray-700">بسعة <strong>72 واط/ساعة</strong>، PowerCore 20000 أقل بكثير من حد TSA/IATA (100 واط/ساعة) لحقيبة اليد. بوزن <strong>356 جرام فقط</strong>، أخف من علبة كولا. نظام حماية <strong>MultiProtect بـ 10 طبقات</strong> يحمي من الشحن الزائد والسخونة والقصر. ومع <strong>ضمان 24 شهر</strong> (ضعف المعيار)، Cairo Volt تضمن إن كل قطعة أصلية 100%.</p>
+        <p class="text-gray-700">بسعة <strong>72 واط/ساعة</strong>، PowerCore 20000 أقل بكثير من حد TSA/IATA (100 واط/ساعة) لحقيبة اليد. بوزن <strong>356 جرام فقط</strong>، أخف من علبة كولا. نظام حماية <strong>MultiProtect بـ 10 طبقات</strong> يحمي من الشحن الزائد والسخونة والقصر. ومع <strong>ضمان 24 شهر</strong> (ضعف المعيار)، CairoVolt تضمن إن كل قطعة أصلية 100%.</p>
     </section>
 </div>
 
@@ -187,7 +187,7 @@ export const anker_powercore_20000 = {
         <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect 10 طبقات</td></tr>
         <tr><td class="p-2 border">الوزن</td><td class="p-2 border">356 جرام</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 72 واط/ساعة (حد TSA: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -216,16 +216,16 @@ export const anker_powercore_20000 = {
                 metaTitle: "باور بانك انكر 20000 | 4 شحنات ايفون | أرخص سعر",
                 metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,550 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
                 faqs: [
-                    { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,550 جنيه مصري من Cairo Volt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },
+                    { question: "كم سعر باور بانك انكر 20000 في مصر؟", answer: "سعر باور بانك انكر 20000 مللي أمبير في مصر هو 1,550 جنيه مصري من CairoVolt. السعر يشمل ضمان 24 شهر وتوصيل مجاني للقاهرة والجيزة. هذا أفضل سعر للمنتج الأصلي في مصر." },
                     { question: "كم مرة يشحن باور بانك انكر 20000 الايفون؟", answer: "باور بانك انكر 20000 يشحن ايفون 17/16/15 حوالي 4 مرات كاملة من 0% إلى 100%. بالنسبة لسامسونج S26/S25، يشحنه حوالي 3 مرات. ايباد ميني يشحن حوالي 2.5 مرة." },
                     { question: "هل يمكنني شحن جهازين معاً بباور بانك انكر 20000؟", answer: "نعم، باور بانك انكر 20000 لديه منفذين USB-A لشحن جهازين في نفس الوقت. تقنية PowerIQ توزع الطاقة بذكاء لتحسين سرعة الشحن لكل جهاز." },
                     { question: "كم يستغرق شحن باور بانك انكر 20000؟", answer: "يستغرق شحن باور بانك انكر 20000 حوالي 10 ساعات بشاحن 2 أمبير. مع شاحن 1 أمبير العادي، يستغرق حوالي 20 ساعة. للشحن الأسرع، استخدم شاحن انكر 20 واط أو أعلى." },
                     { question: "هل باور بانك انكر 20000 مسموح في الطائرة؟", answer: "نعم! باور بانك انكر 20000 (72 واط/ساعة) معتمد للسفر بالطائرة حسب قوانين TSA/IATA. السعة أقل من حد 100 واط/ساعة المسموح. يجب حمله في حقيبة اليد وليس الأمتعة المسجلة." },
                     { question: "هل أختار 10000 أم 20000 مللي أمبير؟", answer: "اختر 10000 للحمل اليومي في الجيب (أخف بوزن 180 جرام، شحنتين للايفون). اختر 20000 للسفر والاستخدام المكثف (4 شحنات للايفون، 356 جرام). فرق السعر بسيط مقابل ضعف السعة." },
-                    { question: "ما ضمان باور بانك انكر 20000 في مصر؟", answer: "Cairo Volt توفر ضمان 24 شهر لباور بانك انكر 20000 في مصر - ضعف المعيار! الضمان يغطي عيوب الصناعة ومشاكل البطارية. نوفر استبدال فوري." },
+                    { question: "ما ضمان باور بانك انكر 20000 في مصر؟", answer: "CairoVolt توفر ضمان 24 شهر لباور بانك انكر 20000 في مصر - ضعف المعيار! الضمان يغطي عيوب الصناعة ومشاكل البطارية. نوفر استبدال فوري." },
                     { question: "هل باور بانك انكر 20000 يدعم الشحن السريع؟", answer: "باور بانك انكر 20000 يدعم PowerIQ و VoltageBoost للشحن المحسن حتى 2.4 أمبير لكل منفذ. للشحن السريع USB-C PD، راجع موديل انكر 737 (140 واط) أو انكر Prime (200 واط)." },
-                    { question: "كيف أفرق بين انكر 20000 الأصلي والتقليد؟", answer: "انكر الأصلي يأتي مع: 1) كود QR للتحقق على العلبة، 2) كارت ضمان 24 شهر، 3) شعار انكر مطبوع بجودة عالية، 4) وزن صحيح (356 جرام). Cairo Volt تضمن منتجات أصلية 100%." },
-                    { question: "أين أشتري باور بانك انكر 20000 الأصلي في مصر؟", answer: "اشتري باور بانك انكر 20000 الأصلي من Cairo Volt - الموزع المعتمد في مصر. نوفر توصيل مجاني للقاهرة والجيزة، دفع عند الاستلام، وضمان 24 شهر. جميع المنتجات أصلية 100% مع كود تحقق." }
+                    { question: "كيف أفرق بين انكر 20000 الأصلي والتقليد؟", answer: "انكر الأصلي يأتي مع: 1) كود QR للتحقق على العلبة، 2) كارت ضمان 24 شهر، 3) شعار انكر مطبوع بجودة عالية، 4) وزن صحيح (356 جرام). CairoVolt تضمن منتجات أصلية 100%." },
+                    { question: "أين أشتري باور بانك انكر 20000 الأصلي في مصر؟", answer: "اشتري باور بانك انكر 20000 الأصلي من CairoVolt - الموزع المعتمد في مصر. نوفر توصيل مجاني للقاهرة والجيزة، دفع عند الاستلام، وضمان 24 شهر. جميع المنتجات أصلية 100% مع كود تحقق." }
                 ]
             }
         },

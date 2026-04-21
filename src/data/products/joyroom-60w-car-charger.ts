@@ -40,7 +40,7 @@ export const joyroom_60w_car_charger = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "Tested this on a family road trip to Ain Sokhna — 4 people, 4 phones, and zero cable clutter. The retractable cables are a game-changer. Pull them out when you need them, retract when you don't. No more tangled cables in the center console. Each port delivers a real 30W — I verified with a USB meter. My iPhone 17 hit 50% in 20 minutes while my son's Samsung S25 charged at the same speed on the other cable. The 1-meter retractable reach easily gets to backseat passengers. After 3 months of daily Cairo commuting, the retractable mechanism still works perfectly. This replaced a charger + 2 loose cables in my car."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -71,7 +71,7 @@ export const joyroom_60w_car_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">30W Super Fast</td></tr>
         <tr><td class="p-2 border">Car Socket</td><td class="p-2 border">12V Universal</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Indicator</td><td class="p-2 border">LED Power Status</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -145,7 +145,7 @@ export const joyroom_60w_car_charger = {
         <tr class="bg-gray-100"><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">30 واط سوبر فاست</td></tr>
         <tr><td class="p-2 border">مقبس السيارة</td><td class="p-2 border">12 فولت عالمي</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">المؤشر</td><td class="p-2 border">مؤشر LED لحالة الشحن</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

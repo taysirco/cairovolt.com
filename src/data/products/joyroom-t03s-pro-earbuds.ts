@@ -44,7 +44,7 @@ export const joyroom_t03s_pro_earbuds = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We tested the T03S Pro during a 45-minute Metro commute from Shubra to Maadi — arguably the noisiest environment in Cairo. With ANC on, the train noise dropped from 'deafening' to 'background hum'. We could clearly hear podcasts without maxing out the volume. The AirPods-like design fits comfortably and the iOS pop-up animation makes pairing feel premium. For calls, the ENC (Environmental Noise Cancellation) kept our voice clear even standing on the platform. At EGP 664, these deliver 80% of the AirPods Pro experience at 15% of the price. The best-selling earbuds in our store for a reason."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -75,7 +75,7 @@ export const joyroom_t03s_pro_earbuds = {
         <tr class="bg-gray-100"><td class="p-2 border">Controls</td><td class="p-2 border">Touch (Play/Pause/Skip/ANC)</td></tr>
         <tr><td class="p-2 border">Call Quality</td><td class="p-2 border">ENC (Environmental Noise Cancellation)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">iOS Support</td><td class="p-2 border">Pop-up animation on iPhone</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -151,7 +151,7 @@ export const joyroom_t03s_pro_earbuds = {
         <tr class="bg-gray-100"><td class="p-2 border">التحكم</td><td class="p-2 border">لمس (تشغيل/إيقاف/تخطي/ANC)</td></tr>
         <tr><td class="p-2 border">جودة المكالمات</td><td class="p-2 border">ENC (إلغاء ضوضاء بيئي)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">دعم iOS</td><td class="p-2 border">إشعار Pop-up على ايفون</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

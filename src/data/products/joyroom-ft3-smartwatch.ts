@@ -42,7 +42,7 @@ export const joyroom_ft3_smartwatch = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "I wore the FT3 for 3 weeks straight — gym sessions at Gold's Gym Maadi, morning walks along the Nile Corniche, and daily commuting. The step counter matched my iPhone's Health app within 5% accuracy. Heart rate readings during workouts were consistent. The screen is bright enough to read in direct Cairo sunlight. WhatsApp notifications show Arabic text perfectly. Battery lasted 6 full days with always-on notifications. It won't replace an Apple Watch for iOS power users, but it covers 80% of smartwatch needs at 10% of the price. For anyone who wants fitness tracking + notifications without spending 15,000+ EGP, the FT3 is the answer."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -73,7 +73,7 @@ export const joyroom_ft3_smartwatch = {
         <tr class="bg-gray-100"><td class="p-2 border">Display</td><td class="p-2 border">HD Color Touchscreen</td></tr>
         <tr><td class="p-2 border">Notifications</td><td class="p-2 border">WhatsApp, SMS, Calls (Arabic)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Connectivity</td><td class="p-2 border">Bluetooth (iPhone + Android)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -146,7 +146,7 @@ export const joyroom_ft3_smartwatch = {
         <tr class="bg-gray-100"><td class="p-2 border">الشاشة</td><td class="p-2 border">HD تاتش سكرين ملونة</td></tr>
         <tr><td class="p-2 border">الإشعارات</td><td class="p-2 border">واتساب، رسائل، مكالمات (عربي)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الاتصال</td><td class="p-2 border">بلوتوث (ايفون + اندرويد)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

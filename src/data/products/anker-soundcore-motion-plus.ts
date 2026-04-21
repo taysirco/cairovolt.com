@@ -47,9 +47,9 @@ export const anker_soundcore_motion_plus = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "Our team at Cairo Volt tested this speaker in true Egyptian conditions: an open-air rooftop gathering for 5 straight hours at max volume. The result? The battery held strong until the end, and the sound filled the space with incredible clarity despite street noise and wind. The bass hits hard—making you feel like you're carrying a subwoofer, not a portable speaker. This isn't just a speaker; it's a mood-saver, whether for power outages or weekend outings."
+        "Our team at CairoVolt tested this speaker in true Egyptian conditions: an open-air rooftop gathering for 5 straight hours at max volume. The result? The battery held strong until the end, and the sound filled the space with incredible clarity despite street noise and wind. The bass hits hard—making you feel like you're carrying a subwoofer, not a portable speaker. This isn't just a speaker; it's a mood-saver, whether for power outages or weekend outings."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -94,7 +94,7 @@ export const anker_soundcore_motion_plus = {
 `,
                 features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App"],
                 metaTitle: "Anker Soundcore Motion+ Speaker | 30W Hi-Res Audio | 18M Warranty",
-                metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from Cairo Volt & Fast Delivery.",
+                metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from CairoVolt & Fast Delivery.",
                 faqs: [
                     { question: "Can I use Motion+ with my TV?", answer: "Yes, you can connect via 3.5mm AUX for crystal clear sound, or Bluetooth if your TV supports it. It gives a mini-cinematic experience in your room." },
                     { question: "Is the volume loud enough for a party?", answer: "Absolutely! With 30W power and BassUp technology, it covers a large room or an open outdoor space (like a garden or rooftop) with strong, clear sound." },

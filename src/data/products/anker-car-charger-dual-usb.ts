@@ -48,7 +48,7 @@ export const anker_car_charger_dual_usb = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We've had the PowerDrive 2 permanently plugged into a test car for 5 months of daily Cairo commuting — Ring Road traffic, 6th of October bridge, the whole gauntlet. It charges two phones simultaneously while running Google Maps on one and playing Spotify on the other. The LED is subtle enough not to distract at night. It sits completely flush in the console — no wobble, no blocking of other controls. For drivers who need reliable, dual-device charging without overthinking it, this is the set-and-forget solution."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -78,7 +78,7 @@ export const anker_car_charger_dual_usb = {
         <tr><td class="p-2 border">Input Voltage</td><td class="p-2 border">12V / 24V (All cars)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">LED Indicator</td><td class="p-2 border">Blue (Low-Glare)</td></tr>
         <tr><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect System</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -160,7 +160,7 @@ export const anker_car_charger_dual_usb = {
         <tr><td class="p-2 border">جهد الدخول</td><td class="p-2 border">12فولت / 24فولت (كل السيارات)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">مؤشر LED</td><td class="p-2 border">أزرق (هادي)</td></tr>
         <tr><td class="p-2 border">الأمان</td><td class="p-2 border">نظام MultiProtect</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

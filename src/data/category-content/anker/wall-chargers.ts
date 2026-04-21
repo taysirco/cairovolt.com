@@ -80,9 +80,9 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { question: 'هل شاحن انكر آمن على البطارية؟', answer: 'نعم! تقنية ActiveShield 3.0 تراقب الحرارة 3 مليون مرة/يوم. نظام MultiProtect بـ 11 نقطة أمان يحمي من الشحن الزائد.' },
                         { question: 'ما هي تقنية GaN في شاحن انكر؟', answer: 'GaN (Gallium Nitride) = نيتريد الجاليوم — شاحن أصغر 70% من الأصلي مع نفس القوة. أنكر نانو 3 (A2147) مثال حي: 30 واط في جسم 38 جرام بسعر 430 جنيه. كفاءة 95% وحرارة أقل بكتير.' },
                         { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'نعم! 65W GaN للـ MacBook Air، 100W للـ MacBook Pro 16". يمكن شحن لابتوب + موبايل من نفس الشاحن.' },
-                        { question: 'كيف أتأكد أن شاحن انكر أصلي؟', answer: 'امسح كود QR على العلبة في موقع anker.com/verify. أو اشترِ من موزع معتمد مثل Cairo Volt بضمان 18 شهر.' },
-                        { question: 'ما ضمان شاحن انكر في مصر؟', answer: 'ضمان 18 شهر من Cairo Volt - أطول من ضمان أبل وسامسونج الأصلي. استبدال فوري لعيوب الصناعة.' },
-                        { question: 'أين أشتري شاحن انكر أصلي في مصر؟', answer: 'من Cairo Volt - الموزع المعتمد. ضمان 18 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام، كود QR للتحقق.' }
+                        { question: 'كيف أتأكد أن شاحن انكر أصلي؟', answer: 'امسح كود QR على العلبة في موقع anker.com/verify. أو اشترِ من موزع معتمد مثل CairoVolt بضمان 18 شهر.' },
+                        { question: 'ما ضمان شاحن انكر في مصر؟', answer: 'ضمان 18 شهر من CairoVolt - أطول من ضمان أبل وسامسونج الأصلي. استبدال فوري لعيوب الصناعة.' },
+                        { question: 'أين أشتري شاحن انكر أصلي في مصر؟', answer: 'من CairoVolt - الموزع المعتمد. ضمان 18 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام، كود QR للتحقق.' }
                     ],
                     products: [
                         { name: 'شاحن انكر 20 واط', price: 375, badge: 'الأرخص' },
@@ -157,9 +157,9 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                         { question: 'Is Anker charger safe for battery health?', answer: 'Yes! ActiveShield 3.0 monitors heat 3M times/day. MultiProtect with 11 safety features prevents overcharging.' },
                         { question: 'What is GaN technology in Anker chargers?', answer: 'GaN (Gallium Nitride) = 70% smaller than silicon with same or higher power. Anker Nano 3 (A2147) is a prime example: 30W in a 38g body for EGP 430. 95% efficiency and much less heat.' },
                         { question: 'Can Anker charger charge MacBook?', answer: 'Yes! 65W GaN for MacBook Air, 100W for MacBook Pro 16". Can charge laptop + phone from same charger.' },
-                        { question: 'How to verify Anker charger is original?', answer: 'Scan QR code on box at anker.com/verify. Or buy from authorized dealer like Cairo Volt with 18-month warranty.' },
-                        { question: 'What is the warranty for Anker charger in Egypt?', answer: '18-month warranty from Cairo Volt — longer than Apple and Samsung official warranty. Instant replacement for defects.' },
-                        { question: 'Where to buy original Anker charger in Egypt?', answer: 'From Cairo Volt — authorized dealer. 18-month warranty, next-day Cairo delivery, cash on delivery, QR verification.' }
+                        { question: 'How to verify Anker charger is original?', answer: 'Scan QR code on box at anker.com/verify. Or buy from authorized dealer like CairoVolt with 18-month warranty.' },
+                        { question: 'What is the warranty for Anker charger in Egypt?', answer: '18-month warranty from CairoVolt — longer than Apple and Samsung official warranty. Instant replacement for defects.' },
+                        { question: 'Where to buy original Anker charger in Egypt?', answer: 'From CairoVolt — authorized dealer. 18-month warranty, next-day Cairo delivery, cash on delivery, QR verification.' }
                     ],
                     products: [
                         { name: 'Anker 20W Charger', price: 375, badge: 'Budget' },

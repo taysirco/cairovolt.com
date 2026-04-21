@@ -48,7 +48,7 @@ export const anker_powerport_20w = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We replaced the 5W charger that came with an iPhone 14 with this Anker 20W and the difference was jaw-dropping. Morning routine test: plugged in at 7:00am with 15% battery, by 7:30am it was at 68%. That's the difference between leaving the house with anxiety and leaving with confidence. We tested it on a power strip with 4 other devices in a Dokki apartment — zero heat issues. At 4cm, it takes up less space on the outlet than the old Apple 5W brick. For EGP 375, this is the single best upgrade any iPhone owner in Egypt can make."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -78,7 +78,7 @@ export const anker_powerport_20w = {
         <tr><td class="p-2 border">Plug Type</td><td class="p-2 border">UK-Style (Egyptian compatible)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect 10-Layer</td></tr>
         <tr><td class="p-2 border">Compatibility</td><td class="p-2 border">All USB-C devices</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -105,17 +105,17 @@ export const anker_powerport_20w = {
                 metaTitle: "Anker 20W Charger iPhone 17 | EGP 375 | Fast Charge Egypt 2026",
                 metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 375. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Replacement Warranty ✓ 24-48H Shipping.",
                 faqs: [
-                    { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 375 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
+                    { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 375 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 20W fast charge iPhone 17?", answer: "Yes, it charges iPhone 17 from 0% to 50% in just 30 minutes—3x faster than the standard 5W charger." },
                     { question: "Does Anker 20W work with Samsung S26?", answer: "Yes, 100% compatible. Provides 20W charging for S26. For maximum speed (25W), choose Anker 25W charger." },
                     { question: "What is the difference between Anker 20W and 25W?", answer: "20W is ideal for iPhone (max speed). 25W is better for Samsung S26 to utilize Super Fast Charging." },
                     { question: "Is Anker 20W safe for battery?", answer: "Yes, MultiProtect system provides 10-layer protection: from overheating, short circuit, and overcharging." },
                     { question: "Does Anker 20W come with cable?", answer: "No, charger only without cable. We recommend Anker USB-C to Lightning cable for full speed." },
-                    { question: "How to identify original vs fake Anker charger?", answer: "Original comes with: QR verification code, precise Anker logo, 18-month warranty card. Cairo Volt is authorized distributor." },
-                    { question: "What is the warranty for Anker 20W in Egypt?", answer: "18-month warranty from Cairo Volt—double the standard. Covers manufacturing defects with instant replacement." },
+                    { question: "How to identify original vs fake Anker charger?", answer: "Original comes with: QR verification code, precise Anker logo, 18-month warranty card. CairoVolt is authorized distributor." },
+                    { question: "What is the warranty for Anker 20W in Egypt?", answer: "18-month warranty from CairoVolt—double the standard. Covers manufacturing defects with instant replacement." },
                     { question: "Does Anker 20W support iPad?", answer: "Yes, charges iPad mini and iPad Air. For faster iPad Pro charging, we recommend 30W or higher." },
                     { question: "How long is delivery for Anker charger in Egypt?", answer: "Cairo & Giza: 1 day. Alexandria: 2-3 days. Other governorates: 3-5 days. Cash on delivery available." },
-                    { question: "Where to buy original Anker 20W charger in Egypt?", answer: "Buy from Cairo Volt—authorized distributor. Free Cairo delivery, 18-month warranty, cash on delivery." }
+                    { question: "Where to buy original Anker 20W charger in Egypt?", answer: "Buy from CairoVolt—authorized distributor. Free Cairo delivery, 18-month warranty, cash on delivery." }
                 ]
             },
             ar: {
@@ -174,7 +174,7 @@ export const anker_powerport_20w = {
         <tr><td class="p-2 border">نوع القابس</td><td class="p-2 border">UK-Style (متوافق مع مصر)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect 10 طبقات</td></tr>
         <tr><td class="p-2 border">التوافق</td><td class="p-2 border">كل أجهزة USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -201,17 +201,17 @@ export const anker_powerport_20w = {
                 metaTitle: "شاحن انكر 20 وات | 375 جنيه | شحن سريع ايفون 17 مصر 2026",
                 metaDesc: "اشتري شاحن انكر 20 وات الأصلي في مصر بـ 375 جنيه. ايفون 17 من 0-50% في 30 دقيقة. صغير 4سم. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام.",
                 faqs: [
-                    { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "سعر شاحن انكر 20 وات في مصر هو 375 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
+                    { question: "كم سعر شاحن انكر 20 وات في مصر؟", answer: "سعر شاحن انكر 20 وات في مصر هو 375 جنيه من CairoVolt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل شاحن انكر 20 وات يشحن iPhone 17 بسرعة؟", answer: "نعم، يشحن iPhone 17 من 0% إلى 50% في 30 دقيقة فقط - أسرع 3 مرات من الشاحن العادي 5 وات." },
                     { question: "هل شاحن انكر 20 وات يعمل مع Samsung S26؟", answer: "نعم، متوافق 100%. يوفر شحن 20 واط لـ S26. للسرعة القصوى (25W)، اختر شاحن انكر 25 واط." },
                     { question: "ما الفرق بين شاحن انكر 20 وات و 25 وات؟", answer: "20 واط مثالي لـ iPhone (أقصى سرعة). 25 واط أفضل لـ Samsung S26 للاستفادة من Super Fast Charging." },
                     { question: "هل شاحن انكر 20 وات آمن على البطارية؟", answer: "نعم، نظام MultiProtect يوفر 10 طبقات حماية: من الحرارة الزائدة، التيار القصير، والشحن الزائد." },
                     { question: "هل شاحن انكر 20 وات يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. ننصح بكابل Anker USB-C to Lightning للحصول على السرعة الكاملة." },
-                    { question: "كيف أعرف شاحن انكر الأصلي من التقليد؟", answer: "الأصلي يأتي مع: كود QR للتحقق، شعار Anker مطبوع بدقة، كارت ضمان 18 شهر. Cairo Volt موزع معتمد." },
-                    { question: "ما ضمان شاحن انكر 20 وات في مصر؟", answer: "ضمان 18 شهر من Cairo Volt - ضعف المعيار. يغطي عيوب الصناعة مع استبدال فوري." },
+                    { question: "كيف أعرف شاحن انكر الأصلي من التقليد؟", answer: "الأصلي يأتي مع: كود QR للتحقق، شعار Anker مطبوع بدقة، كارت ضمان 18 شهر. CairoVolt موزع معتمد." },
+                    { question: "ما ضمان شاحن انكر 20 وات في مصر؟", answer: "ضمان 18 شهر من CairoVolt - ضعف المعيار. يغطي عيوب الصناعة مع استبدال فوري." },
                     { question: "هل شاحن انكر 20 وات يدعم iPad؟", answer: "نعم، يشحن iPad mini و iPad Air. للشحن الأسرع لـ iPad Pro، ننصح بشاحن 30 واط أو أعلى." },
                     { question: "كم مدة توصيل شاحن انكر في مصر؟", answer: "القاهرة والجيزة: يوم واحد. الإسكندرية: 2-3 أيام. المحافظات: 3-5 أيام. دفع عند الاستلام متاح." },
-                    { question: "أين أشتري شاحن انكر 20 وات الأصلي في مصر؟", answer: "اشتري من Cairo Volt - الموزع المعتمد. توصيل مجاني للقاهرة، ضمان 18 شهر، دفع عند الاستلام." }
+                    { question: "أين أشتري شاحن انكر 20 وات الأصلي في مصر؟", answer: "اشتري من CairoVolt - الموزع المعتمد. توصيل مجاني للقاهرة، ضمان 18 شهر، دفع عند الاستلام." }
                 ]
             }
         },

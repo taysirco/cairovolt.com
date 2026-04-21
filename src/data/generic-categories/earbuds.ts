@@ -56,7 +56,7 @@ export const earbuds_generic: GenericCategory = {
             ],
             en: [
                 { question: 'Best Bluetooth earbuds in Egypt 2026?', answer: 'For best quality with ANC: earbuds around EGP 1,499. For best price: earbuds from EGP 350. For best value: earbuds around EGP 599 with 10-hour battery.' },
-                { question: 'How to verify Bluetooth earbuds are original?', answer: 'Check: 1) High-quality packaging with serial number 2) Clear sound without distortion 3) 6+ hours battery 4) Stable Bluetooth 5) Buy from authorized dealers like Cairo Volt.' },
+                { question: 'How to verify Bluetooth earbuds are original?', answer: 'Check: 1) High-quality packaging with serial number 2) Clear sound without distortion 3) 6+ hours battery 4) Stable Bluetooth 5) Buy from authorized dealers like CairoVolt.' },
                 { question: 'How much do Bluetooth earbuds cost in Egypt?', answer: 'Bluetooth earbuds start from EGP 350 for budget options, EGP 599 for best value, and up to EGP 1,499 for professional earbuds with ANC.' },
                 { question: 'How to tell original earbuds from fake?', answer: 'Original: 1) High-quality packaging with serial number 2) Clear sound without distortion 3) 6+ hours battery life 4) Stable Bluetooth without drops 5) Buy from authorized dealer. Fake: poor sound and weak battery.' },
                 { question: 'How to pair Bluetooth earbuds for the first time?', answer: '1) Open the charging case — earbuds enter pairing mode automatically 2) Open Bluetooth on your phone 3) Select the earbuds name from the list 4) Next times: earbuds connect automatically when you open the case.' },
@@ -209,7 +209,7 @@ export const earbuds_generic: GenericCategory = {
 <li><strong>Battery:</strong> Original lasts 6+ hours. Fake lasts only 2-3 hours</li>
 <li><strong>Bluetooth:</strong> Original has stable connection. Fake keeps disconnecting</li>
 <li><strong>Touch:</strong> Original plastic is smooth and premium. Fake feels rough and cheap</li>
-<li><strong>Source:</strong> Buy from <strong>authorized dealer like Cairo Volt</strong> — official warranty + 100% original</li>
+<li><strong>Source:</strong> Buy from <strong>authorized dealer like CairoVolt</strong> — official warranty + 100% original</li>
 </ul>
 
 <h2 id="how-to-use">How to Set Up and Use Bluetooth Earbuds</h2>

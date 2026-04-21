@@ -39,11 +39,11 @@ export const joyroom_usb_c_lightning_cable = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I've tested dozens of Lightning cables in our Cairo lab. Most cheap cables break at the connector neck within 2 months. This Joyroom cable has survived 6 months of daily abuse — plugging/unplugging from my iPhone, tossed in bags, bent at sharp angles. The nylon braid still looks fresh. The reinforced aluminum connectors show zero wobble. And it actually delivers 20W PD — I verified with a USB power meter. Pair it with the <a href='/joyroom/wall-chargers' class='text-blue-600 hover:underline'>Joyroom 20W charger</a> for the cheapest real fast-charging kit in Egypt. At 118 EGP, I bought 3 — one for home, one for the office, one for the car."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -73,7 +73,7 @@ export const joyroom_usb_c_lightning_cable = {
         <tr><td class="p-2 border">Material</td><td class="p-2 border">Nylon Braided + Aluminum Connectors</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Bend Lifespan</td><td class="p-2 border">10,000+ bends</td></tr>
         <tr><td class="p-2 border">Length</td><td class="p-2 border">1 meter</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -154,7 +154,7 @@ export const joyroom_usb_c_lightning_cable = {
         <tr><td class="p-2 border">الخامة</td><td class="p-2 border">نايلون مضفر + موصلات ألومنيوم</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">عمر الانحناء</td><td class="p-2 border">10,000+ انحناء</td></tr>
         <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

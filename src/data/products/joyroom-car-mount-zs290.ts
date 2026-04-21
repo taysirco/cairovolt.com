@@ -39,11 +39,11 @@ export const joyroom_car_mount_zs290 = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I drove Cairo-Alexandria highway and back with iPhone 15 Pro Max on this mount. Not a single wobble — even when I hit a pothole near the Ain Sokhna exit. The N52 magnets are genuinely strong. MagSafe iPhones snap on instantly without any metal plate. The air vent clip doesn't rattle, even with the AC on full blast in August heat. At this price, it's the easiest car accessory decision you'll make. I now keep one in each car."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -73,7 +73,7 @@ export const joyroom_car_mount_zs290 = {
         <tr><td class="p-2 border">Mount Type</td><td class="p-2 border">Air Vent Clip</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Case Compatibility</td><td class="p-2 border">Up to 3mm thick</td></tr>
         <tr><td class="p-2 border">Metal Plate</td><td class="p-2 border">Included (for non-MagSafe)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -147,7 +147,7 @@ export const joyroom_car_mount_zs290 = {
         <tr><td class="p-2 border">نوع التثبيت</td><td class="p-2 border">مشبك فتحة التكييف</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">توافق الكفر</td><td class="p-2 border">لحد 3 مم سُمك</td></tr>
         <tr><td class="p-2 border">القطعة المعدنية</td><td class="p-2 border">مشمولة (لغير MagSafe)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (Cairo Volt)</td></tr>
+        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

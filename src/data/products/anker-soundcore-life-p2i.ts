@@ -44,11 +44,11 @@ export const anker_soundcore_life_p2i = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I tested the Life P2i specifically for call quality — that's its killer feature. I took a 15-minute work call while walking through Talaat Harb Square during rush hour. My colleague on the other end said: 'It sounds like you're in a quiet room.' The AI dual-mic system genuinely isolates your voice. The Bass EQ mode delivers punchy low-end that beats earbuds costing twice as much. And 28 hours total? I charged the case on Sunday night and didn't need to charge again until Friday. At under 900 EGP with Anker's 18-month warranty, this is the best value TWS in Egypt for anyone who takes calls."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

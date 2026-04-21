@@ -45,11 +45,11 @@ export const anker_zolo_a110d_10000 = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "We tested the Anker ZOLO A110D during a typical Cairo day: morning commute on Metro Line 3, a full workday with constant WhatsApp and GPS usage, and an evening at a café with no outlets. The built-in USB-C cable is the biggest practical upgrade here — no more digging through your bag for a cable. We charged an iPhone 17 Pro from 12% to 68% in just 30 minutes during the metro ride. The digital display showing exact percentage is infinitely better than vague LED dots. At 229g, it's barely noticeable in your pocket. For the price point, this is the smartest 10K power bank you can buy in Egypt right now. The only trade-off? No laptop charging — but that's what the <a href='/anker/power-banks/anker-737-powerbank' class='text-blue-600 hover:underline'>Anker 737</a> is for."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 

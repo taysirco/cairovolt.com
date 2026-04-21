@@ -37,11 +37,11 @@ export const joyroom_3_in_1_wireless_charging_station = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "This replaced 3 chargers and 3 cables on my nightstand. Now it's one elegant aluminum station with one cable. I place my iPhone 15 Pro on the MagSafe pad, click my Apple Watch Ultra on the charging puck, and drop my AirPods Pro 2 on the bottom pad. Everything charges overnight, and in the morning I grab all three devices fully charged. The adjustable angle is perfect for using the iPhone as a bedside clock with StandBy mode. The aluminum build feels premium — it doesn't feel like a budget accessory at all. For anyone with the Apple trifecta (iPhone + Watch + AirPods), this is the cleanest charging solution under 1,500 EGP."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -72,7 +72,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <tr class="bg-gray-100"><td class="p-2 border">Material</td><td class="p-2 border">Premium Aluminum Alloy</td></tr>
         <tr><td class="p-2 border">Angle</td><td class="p-2 border">Adjustable (StandBy mode)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Power Input</td><td class="p-2 border">USB-C (30W+ adapter recommended)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -145,7 +145,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <tr class="bg-gray-100"><td class="p-2 border">الخامة</td><td class="p-2 border">ألومنيوم فاخر</td></tr>
         <tr><td class="p-2 border">الزاوية</td><td class="p-2 border">قابلة للتعديل (وضع StandBy)</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">USB-C (ينصح بشاحن 30+ واط)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

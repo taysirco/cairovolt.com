@@ -38,11 +38,11 @@ export const joyroom_magnetic_power_bank_10000 = {
 </div>
 
 <div class="expert-review">
-    <h2 class="text-xl font-bold mb-3 text-blue-800">The Cairo Volt Verdict 💡</h2>
+    <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
         "I took this on a Cairo-Sharm el-Sheikh trip — 6 hours on the bus with no wall outlet. Snapped it on my iPhone 15 Pro and forgot about it. By the time we arrived, my phone was at 100% and the power bank still had 45% left. The kickstand is genius for plane tray tables or hotel nightstands. The magnetic snap is strong enough that I could hold the phone by the power bank without it falling. At home, I charge my iPhone wirelessly AND my wife's Samsung via USB-C cable simultaneously. It's basically a portable MagSafe charger + power bank + phone stand in one. At 850 EGP, it's a no-brainer for any iPhone 15/16/17 owner."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -73,7 +73,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <tr class="bg-gray-100"><td class="p-2 border">iPhone 17 Charges</td><td class="p-2 border">~2 full charges</td></tr>
         <tr><td class="p-2 border">Kickstand</td><td class="p-2 border">Built-in Foldable</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">Simultaneous</td><td class="p-2 border">2 devices (wireless + wired)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (CairoVolt)</td></tr>
     </table>
 </div>
 
@@ -146,7 +146,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <tr class="bg-gray-100"><td class="p-2 border">شحنات ايفون 17</td><td class="p-2 border">~مرتين كاملتين</td></tr>
         <tr><td class="p-2 border">الحامل</td><td class="p-2 border">مدمج قابل للطي</td></tr>
         <tr class="bg-gray-100"><td class="p-2 border">شحن متزامن</td><td class="p-2 border">جهازين (لاسلكي + سلكي)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (Cairo Volt)</td></tr>
+        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (CairoVolt)</td></tr>
     </table>
 </div>
 

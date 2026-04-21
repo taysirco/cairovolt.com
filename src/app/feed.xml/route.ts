@@ -11,14 +11,14 @@ export async function GET() {
     const date = new Date();
 
     const feed = new Feed({
-        title: "Cairo Volt - Premium Electrical Engineering Accessories",
+        title: "CairoVolt - Premium Electrical Engineering Accessories",
         description: "Egypt's premier source for authentic Anker and Joyroom mobile accessories. Verified, tested, and guaranteed.",
         id: baseUrl,
         link: baseUrl,
         language: "en, ar",
         image: `${baseUrl}/logo.png`,
         favicon: `${baseUrl}/favicon.ico`,
-        copyright: `All rights reserved ${date.getFullYear()}, Cairo Volt Engineers`,
+        copyright: `All rights reserved ${date.getFullYear()}, CairoVolt Engineers`,
         updated: date, // Today's date
         generator: "Next.js Feed System",
         feedLinks: {
@@ -52,7 +52,7 @@ export async function GET() {
             `,
             author: [
                 {
-                    name: "Cairo Volt Validation Labs",
+                    name: "CairoVolt Validation Labs",
                     email: "labs@cairovolt.com",
                     link: `${baseUrl}/about`
                 }

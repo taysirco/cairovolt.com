@@ -182,7 +182,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
             en: {
                 title: 'Complete USB-C Cable Guide for Egypt 2026: Not All Cables Are Created Equal',
                 metaTitle: 'USB-C Cable Guide Egypt 2026 | What\'s the Difference?',
-                metaDescription: 'Not all USB-C cables are the same! Discover the dangerous difference between cheap and genuine cables. Lab test with scale & multimeter on 5 different cables from Cairo Volt Labs.',
+                metaDescription: 'Not all USB-C cables are the same! Discover the dangerous difference between cheap and genuine cables. Lab test with scale & multimeter on 5 different cables from CairoVolt Labs.',
                 keywords: 'USB-C cable, fast charging cable, best USB-C cable, anker cable, joyroom cable, charging cable difference, iphone cable, samsung cable',
                 excerpt: 'Not all USB-C cables are the same! Lab test with scale & multimeter on 5 different cables.',
                 quickAnswer: 'A cheap cable can reduce charging speed by 70% and slow data transfer 50x. Anker PowerLine USB-C (60W) is the best for durability and speed. Joyroom USB-C 60W is an excellent budget alternative at half the price.',
@@ -197,7 +197,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>Imagine buying a powerful water pump and connecting it with a thin, torn hose. The pump is fine — the hose ruined everything. <strong>The cable plays exactly the same role</strong> — it's the channel through which current flows from charger to phone. A thin or counterfeit cable = weak current = slow charging = heat = damage.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>⚖️ Our Scale & Multimeter Test:</strong> At Cairo Volt Labs, we did something unusual: we weighed 5 different USB-C cables on a precision scale (0.1g sensitivity) and cut open a counterfeit cable to see what's inside. Results:</p>
+    <p><strong>⚖️ Our Scale & Multimeter Test:</strong> At CairoVolt Labs, we did something unusual: we weighed 5 different USB-C cables on a precision scale (0.1g sensitivity) and cut open a counterfeit cable to see what's inside. Results:</p>
     <ul style="margin:8px 0 0;padding-left:20px">
         <li>Anker PowerLine (1m): <strong>32.4 grams</strong> — thick 28AWG copper + nylon braiding</li>
         <li>Joyroom 60W (1m): <strong>28.7 grams</strong> — good 30AWG copper + reinforced sheath</li>

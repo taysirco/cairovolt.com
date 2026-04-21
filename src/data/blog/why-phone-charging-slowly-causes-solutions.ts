@@ -144,10 +144,10 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
             en: {
                 title: 'Why Is Your Phone Charging Slowly? 8 Hidden Causes & Instant Fixes',
                 metaTitle: 'Why Is Your Phone Charging Slowly? 8 Causes & Fixes',
-                metaDescription: 'Phone charging slowly? Discover 8 hidden causes (most aren\'t the charger!) with proven instant fixes from Cairo Volt support team. Data from 500+ support tickets.',
+                metaDescription: 'Phone charging slowly? Discover 8 hidden causes (most aren\'t the charger!) with proven instant fixes from CairoVolt support team. Data from 500+ support tickets.',
                 keywords: 'phone charging slowly, slow charging fix, why is my phone charging slow, iphone charging slow, samsung charging slow, charging problems',
                 excerpt: 'Phone charging slowly? 8 hidden causes and instant fixes — data from 500+ support tickets.',
-                quickAnswer: 'The #1 cause of slow charging is a bad cable, not the charger. From analyzing 500+ Cairo Volt support tickets: 42% were cable issues, 23% phone settings, 18% the charger. Try a different cable first before buying a new charger.',
+                quickAnswer: 'The #1 cause of slow charging is a bad cable, not the charger. From analyzing 500+ CairoVolt support tickets: 42% were cable issues, 23% phone settings, 18% the charger. Try a different cable first before buying a new charger.',
                 content: `
 <h2>The Problem We've All Experienced</h2>
 <div class="quick-answer-inline" style="background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="Quick answer">
@@ -155,7 +155,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 </div>
 
 <p>It's 7 AM. Your alarm is ringing. You reach for your phone on the charger and find it at 43% — even though it's been plugged in <strong>all night</strong>.</p>
-<p>If this sounds familiar, you're not alone. It's the most common question we hear at Cairo Volt:</p>
+<p>If this sounds familiar, you're not alone. It's the most common question we hear at CairoVolt:</p>
 <blockquote style="border-left:3px solid #9ca3af;padding:10px 16px;margin:16px 0;color:#6b7280;font-style:italic">"I bought this charger from you a week ago and it's charging slowly — it must be defective!"</blockquote>
 
 <div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">

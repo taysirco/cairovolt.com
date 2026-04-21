@@ -37,8 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: canonicalUrl,
             locale: locale === 'ar' ? 'ar_EG' : 'en_US',
             type: 'website',
-            siteName: locale === 'ar' ? 'كايرو فولت' : 'Cairo Volt',
-            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'Cairo Volt - Mobile Accessories' }],
+            siteName: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
+            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: locale === 'ar' ? 'كايرو فولت - اكسسوارات الموبايل' : 'CairoVolt - Mobile Accessories' }],
         },
         other: {
             'geo.region': 'EG',
@@ -228,7 +228,7 @@ export default function AboutPage() {
                             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
                                 {isArabic
                                     ? 'فريق كايرو فولت يضم متخصصين في تقنيات الشحن والإلكترونيات الاستهلاكية. نختبر كل منتج شخصياً قبل إضافته لمتجرنا، ونكتب مراجعات وأدلة شراء مبنية على خبرة فعلية — وليست منسوخة من الإنترنت.'
-                                    : 'The Cairo Volt team includes specialists in charging technology and consumer electronics. We personally test every product before adding it to our store, and write reviews and buying guides based on hands-on experience — not copied from the internet.'}
+                                    : 'The CairoVolt team includes specialists in charging technology and consumer electronics. We personally test every product before adding it to our store, and write reviews and buying guides based on hands-on experience — not copied from the internet.'}
                             </p>
                             <div className="grid md:grid-cols-3 gap-4">
                                 <div className="text-center p-5 bg-gray-50 dark:bg-gray-700/50 rounded-xl">
@@ -273,7 +273,7 @@ export default function AboutPage() {
                                 <p>
                                     {isArabic
                                         ? 'في كايرو فولت، نلتزم بالشفافية الكاملة في محتوانا التحريري:'
-                                        : 'At Cairo Volt, we are committed to full transparency in our editorial content:'}
+                                        : 'At CairoVolt, we are committed to full transparency in our editorial content:'}
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start gap-2">

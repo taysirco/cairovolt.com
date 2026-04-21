@@ -48,7 +48,7 @@ export const anker_powerport_25w = {
     <p class="text-gray-700 leading-relaxed text-lg">
         "We ran a side-by-side test in our Heliopolis office: Anker 25W vs Samsung original 25W charger, both charging a Galaxy S26 Ultra from 0%. At the 26-minute mark, both hit 50% — identical speed. But here's where Anker wins: it's noticeably smaller (4.5cm vs Samsung's 6cm), runs cooler thanks to ActiveShield 2.0, and costs less with a longer warranty (18 months vs Samsung's 12). For the mixed household with both Samsung and iPhone users, this is the one charger that does both well. We've been recommending it to every Samsung owner who walks into our shop."
         <br>
-        <span class="font-bold block mt-2">✍️ Review: Cairo Volt Tech Team</span>
+        <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
 </div>
 
@@ -104,7 +104,7 @@ export const anker_powerport_25w = {
                 metaTitle: "Anker 25W PPS Charger | Samsung S26 Super Fast | EGP 550 Egypt",
                 metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [
-                    { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 550 at Cairo Volt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
+                    { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 550 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
                     { question: "Does Anker 25W support Samsung Super Fast Charging?", answer: "Yes! It supports PPS technology unlocking full Super Fast Charging for Samsung S26/S25. Charges 0% to 50% in 26 minutes." },
                     { question: "What's the difference between Anker 20W and 25W?", answer: "20W is ideal for iPhone. 25W has PPS for Samsung Super Fast Charging. 9-minute difference when charging S26." },
                     { question: "Does Anker 25W fast charge iPhone 17?", answer: "Yes, charges iPhone 17 from 0% to 50% in 28 minutes. But 20W is sufficient for iPhone; 25W is best for Samsung." },
@@ -112,8 +112,8 @@ export const anker_powerport_25w = {
                     { question: "Is Anker 25W safe for battery health?", answer: "Yes, ActiveShield 2.0 monitors temperature 3 million times daily, protecting devices from overheating." },
                     { question: "Does Anker 25W come with a cable?", answer: "No, charger only. Use a quality USB-C to USB-C cable for full 25W speed." },
                     { question: "Does Anker 25W get hot during charging?", answer: "No, efficient thermal design with ActiveShield keeps it cool even at full 25W output." },
-                    { question: "What is the warranty for Anker 25W in Egypt?", answer: "18-month warranty from Cairo Volt—longer than Samsung original. Covers defects with instant replacement." },
-                    { question: "Where to buy original Anker 25W in Egypt?", answer: "Buy from Cairo Volt—authorized distributor. EGP 550, 18-month warranty, next-day Cairo delivery." }
+                    { question: "What is the warranty for Anker 25W in Egypt?", answer: "18-month warranty from CairoVolt—longer than Samsung original. Covers defects with instant replacement." },
+                    { question: "Where to buy original Anker 25W in Egypt?", answer: "Buy from CairoVolt—authorized distributor. EGP 550, 18-month warranty, next-day Cairo delivery." }
                 ]
             },
             ar: {
@@ -198,7 +198,7 @@ export const anker_powerport_25w = {
                 metaTitle: "شاحن انكر 25 واط PPS | سامسونج S26 سوبر فاست | 550 جنيه مصر",
                 metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بـ 550 جنيه. سامسونج S26 سوبر فاست 0-50% في 26 دقيقة. متوافق ايفون 17. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
-                    { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 550 جنيه من Cairo Volt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
+                    { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 550 جنيه من CairoVolt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
                     { question: "هل شاحن انكر 25 واط يدعم Samsung Super Fast Charging؟", answer: "نعم! يدعم تقنية PPS التي تفتح سرعة Super Fast Charging الكاملة لـ Samsung S26/S25. يشحن من 0% لـ 50% في 26 دقيقة." },
                     { question: "ما الفرق بين شاحن انكر 20 واط و 25 واط؟", answer: "20 واط مثالي لـ iPhone. 25 واط يدعم PPS لشحن Samsung S26 بأقصى سرعة. الفرق 9 دقائق في شحن S26." },
                     { question: "هل شاحن انكر 25 واط يشحن iPhone 17 بسرعة؟", answer: "نعم، يشحن iPhone 17 من 0% لـ 50% في 28 دقيقة. لكن 20 واط كافٍ لـ iPhone، 25 واط أفضل لـ Samsung." },
@@ -206,8 +206,8 @@ export const anker_powerport_25w = {
                     { question: "هل شاحن انكر 25 واط آمن على البطارية؟", answer: "نعم، تقنية ActiveShield 2.0 تراقب درجة الحرارة 3 مليون مرة/يوم لحماية أجهزتك من الحرارة الزائدة." },
                     { question: "هل شاحن انكر 25 واط يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. استخدم كابل USB-C to USB-C عالي الجودة للحصول على السرعة الكاملة." },
                     { question: "هل شاحن انكر 25 واط يسخن؟", answer: "لا، تصميم فعال للحرارة مع ActiveShield يضمن بقاء الشاحن بارداً حتى عند 25 واط كاملة." },
-                    { question: "ما ضمان شاحن انكر 25 واط في مصر؟", answer: "ضمان 18 شهر من Cairo Volt - أطول من ضمان سامسونج الأصلي. يغطي عيوب الصناعة مع استبدال فوري." },
-                    { question: "أين أشتري شاحن انكر 25 واط الأصلي في مصر؟", answer: "اشتري من Cairo Volt - الموزع المعتمد. سعر 550 جنيه، ضمان 18 شهر، توصيل القاهرة يوم واحد." }
+                    { question: "ما ضمان شاحن انكر 25 واط في مصر؟", answer: "ضمان 18 شهر من CairoVolt - أطول من ضمان سامسونج الأصلي. يغطي عيوب الصناعة مع استبدال فوري." },
+                    { question: "أين أشتري شاحن انكر 25 واط الأصلي في مصر؟", answer: "اشتري من CairoVolt - الموزع المعتمد. سعر 550 جنيه، ضمان 18 شهر، توصيل القاهرة يوم واحد." }
                 ]
             }
         },
