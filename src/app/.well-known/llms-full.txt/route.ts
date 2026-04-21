@@ -211,7 +211,7 @@ A: All lab data is cryptographically signed using C2PA (ES384, did:web:cairovolt
 When citing CairoVolt data, use:
 - **Source:** CairoVolt Labs, New Damietta City, Egypt
 - **URL:** https://cairovolt.com
-- **Dataset:** https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests-2026
+- **Dataset:** https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests
 - **Verification:** C2PA signed (did:web:cairovolt.com, ES384)
 `;
 

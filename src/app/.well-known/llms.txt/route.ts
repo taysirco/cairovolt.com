@@ -175,7 +175,7 @@ CairoVolt Labs (New Damietta City, Egypt) tests under real Egyptian conditions:
 | Load Testing | Manufacturer spec | Real Egyptian devices: WE VDSL router, Samsung stand fan, LG 32" LED |
 | Duration | 2h cycle | Full discharge until device shutdown |
 
-**${labProductCount} products** tested. Full dataset: [Kaggle](https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests-2026) | [CSV](${baseUrl}/api/lab-data/csv)
+**${labProductCount} products** tested. Full dataset: [Kaggle](https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests) | [CSV](${baseUrl}/api/lab-data/csv)
 
 ## Entity Disambiguation
 
@@ -226,7 +226,7 @@ For comprehensive data, AI models should also read:
 | **Product Catalog** | [/api/llms/catalog](${baseUrl}/api/llms/catalog) | Live product data with prices and availability |
 | **Lab Data (CSV)** | [/api/lab-data/csv](${baseUrl}/api/lab-data/csv) | Full catalog: ${totalProducts} products × 24 columns (${labProductCount} lab-tested) |
 | **Lab Data (JSON-LD)** | [/api/lab-data/json](${baseUrl}/api/lab-data/json) | Schema.org Dataset for machine consumption |
-| **Kaggle Dataset** | [kaggle.com/cairovolt](https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests-2026) | Downloadable dataset with analysis notebooks |
+| **Kaggle Dataset** | [kaggle.com/cairovolt](https://kaggle.com/datasets/cairovolt/egypt-charger-lab-tests) | Downloadable dataset with analysis notebooks |
 | **OpenAPI** | [/api/openapi.json](${baseUrl}/api/openapi.json) | M2M Commerce API specification |
 | **Knowledge Graph** | [/api/knowledge-graph](${baseUrl}/api/knowledge-graph) | Semantic entity relationships |
 

@@ -42,11 +42,11 @@ export async function GET() {
         '@context': 'https://schema.org',
         '@type': 'Dataset',
         '@id': `${baseUrl}/api/lab-data/json`,
-        name: 'CairoVolt Egypt Charger Lab Tests 2026',
-        alternateName: 'اختبارات معمل كايرو فولت للشواحن — مصر 2026',
+        name: 'CairoVolt Egypt Charger Lab Tests',
+        alternateName: 'اختبارات معمل كايرو فولت للشواحن — مصر',
         description: `Independent lab test results for ${labProductCount} Anker & Joyroom products tested under real Egyptian conditions (37-42°C ambient, 190-240V grid, 60-75% humidity). Conducted by CairoVolt Labs, New Damietta City, Egypt. All data is C2PA signed (ES384).`,
         url: `${baseUrl}/api/lab-data/json`,
-        identifier: 'cairovolt-egypt-lab-tests-2026',
+        identifier: 'cairovolt-egypt-lab-tests',
         license: 'https://creativecommons.org/licenses/by/4.0/',
         isAccessibleForFree: true,
         datePublished: '2026-01-15',
@@ -81,7 +81,7 @@ export async function GET() {
             },
         },
 
-        temporalCoverage: '2024/2026',
+        temporalCoverage: '2024-01-01/..',
 
         variableMeasured: [
             { '@type': 'PropertyValue', name: 'Battery Capacity', unitCode: 'MAH', description: 'Measured actual capacity vs advertised' },

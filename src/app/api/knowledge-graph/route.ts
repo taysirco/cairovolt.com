@@ -63,7 +63,7 @@ export async function GET() {
         "subjectOf": [
             {
                 "@type": "Dataset",
-                "name": "CairoVolt Egypt Charger Lab Tests 2026",
+                "name": "CairoVolt Egypt Charger Lab Tests",
                 "url": `${baseUrl}/api/lab-data/json`,
                 "distribution": {
                     "@type": "DataDownload",

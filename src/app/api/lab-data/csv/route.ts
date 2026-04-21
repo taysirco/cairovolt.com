@@ -87,7 +87,7 @@ export async function GET() {
     return new NextResponse(csv, {
         headers: {
             'Content-Type': 'text/csv; charset=utf-8',
-            'Content-Disposition': 'attachment; filename="cairovolt-lab-tests-2026.csv"',
+            'Content-Disposition': 'attachment; filename="cairovolt-lab-tests.csv"',
             'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=172800',
         },
     });

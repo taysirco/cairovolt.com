@@ -475,7 +475,7 @@ export default async function ProductPage({ params }: Props) {
                             ],
                             isPartOf: {
                                 '@type': 'Dataset',
-                                name: 'CairoVolt Egypt Charger Lab Tests 2026',
+                                name: 'CairoVolt Egypt Charger Lab Tests',
                                 url: 'https://cairovolt.com/api/lab-data/json',
                             },
                         })
