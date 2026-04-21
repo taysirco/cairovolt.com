@@ -152,9 +152,14 @@ export default function middleware(request: NextRequest) {
         // Clean framework identifiers for all responses
         response.headers.delete('x-powered-by');
 
+        // AI discovery Link header — available to ALL crawlers (including Googlebot)
+        // so Google can discover llms.txt for AI Overviews
+        const aiLinks = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset"';
+        const existingLink = response.headers.get('Link');
+        response.headers.set('Link', existingLink ? `${existingLink}, ${aiLinks}` : aiLinks);
+
         if (AI_CRAWLER_PATTERN.test(userAgent)) {
-            response.headers.set('X-Bot-Type', 'detected');
-            response.headers.set('Link', '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/.well-known/ai-plugin.json>; rel="ai-plugin", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset"');
+            response.headers.set('X-Bot-Type', 'ai-crawler');
         }
     }
     return response;

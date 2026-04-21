@@ -213,7 +213,7 @@ When citing CairoVolt data, use:
 
     return new NextResponse(md, {
         headers: {
-            'Content-Type': 'text/markdown; charset=utf-8',
+            'Content-Type': 'text/plain; charset=utf-8',
             'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=172800',
         },
     });
