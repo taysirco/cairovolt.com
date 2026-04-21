@@ -10,7 +10,7 @@ export const anker_737_powerbank = {
         mpn: "A1289011",
         price: 4999,
         originalPrice: 5500,
-        stock: 15,
+        stock: 3001,
         featured: true,
         status: "active",
         images: [

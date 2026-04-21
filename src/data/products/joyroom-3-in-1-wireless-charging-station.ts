@@ -10,7 +10,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         mpn: "JR-WQN01",
         price: 1206,
         originalPrice: 1206,
-        stock: 30,
+        stock: 3208,
         featured: true,
         status: "active",
         images: [

@@ -10,7 +10,7 @@ export const joyroom_3_in_1_data_cable = {
         mpn: "JR-S-1830G",
         price: 237,
         originalPrice: 280,
-        stock: 120,
+        stock: 3180,
         featured: false,
         status: "active",
         images: [

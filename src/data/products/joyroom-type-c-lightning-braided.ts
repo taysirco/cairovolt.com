@@ -10,7 +10,7 @@ export const joyroom_type_c_lightning_braided = {
         mpn: "JR-S-CL30B",
         price: 214,
         originalPrice: 280,
-        stock: 100,
+        stock: 3175,
         featured: false,
         status: "active",
         images: [

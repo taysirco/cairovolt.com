@@ -10,7 +10,7 @@ export const anker_powerline_usb_c_lightning = {
         mpn: "A8612H11",
         price: 508,
         originalPrice: 508,
-        stock: 150,
+        stock: 3246,
         featured: true,
         status: "active",
         images: [

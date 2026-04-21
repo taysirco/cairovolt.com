@@ -10,7 +10,7 @@ export const joyroom_power_bank_10000 = {
         mpn: "JR-T012",
         price: 1624,
         originalPrice: 1624,
-        stock: 80,
+        stock: 3287,
         featured: true,
         status: "active",
         images: [

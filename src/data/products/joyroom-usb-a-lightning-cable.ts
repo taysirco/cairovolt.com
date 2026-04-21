@@ -10,7 +10,7 @@ export const joyroom_usb_a_lightning_cable = {
         mpn: "JR-S-AL24",
         price: 43,
         originalPrice: 140,
-        stock: 200,
+        stock: 3175,
         featured: false,
         status: "active",
         images: [

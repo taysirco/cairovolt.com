@@ -10,7 +10,7 @@ export const anker_powercore_20000 = {
         mpn: "A1260011",
         price: 1550,
         originalPrice: 1750,
-        stock: 35,
+        stock: 3085,
         featured: true,
         status: "active",
         images: [

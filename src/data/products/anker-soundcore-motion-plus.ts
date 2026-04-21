@@ -10,7 +10,7 @@ export const anker_soundcore_motion_plus = {
         mpn: "A3116011",
         price: 3600,
         originalPrice: 4300,
-        stock: 20,
+        stock: 2747,
         featured: true,
         status: "active",
         images: [

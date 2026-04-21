@@ -10,7 +10,7 @@ export const anker_powerport_25w = {
         mpn: "A2322K11",
         price: 550,
         originalPrice: 650,
-        stock: 80,
+        stock: 2939,
         featured: true,
         status: "active",
         images: [

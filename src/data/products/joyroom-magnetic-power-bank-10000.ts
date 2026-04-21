@@ -10,7 +10,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         mpn: "JR-W030",
         price: 850,
         originalPrice: 900,
-        stock: 50,
+        stock: 3313,
         featured: true,
         status: "active",
         images: [

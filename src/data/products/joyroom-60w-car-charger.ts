@@ -10,7 +10,7 @@ export const joyroom_60w_car_charger = {
         mpn: "JR-CL26",
         price: 513,
         originalPrice: 650,
-        stock: 40,
+        stock: 3074,
         featured: true,
         status: "active",
         images: [

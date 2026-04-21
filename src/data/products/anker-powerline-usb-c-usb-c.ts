@@ -10,7 +10,7 @@ export const anker_powerline_usb_c_usb_c = {
         mpn: "A8652H11",
         price: 590,
         originalPrice: 650,
-        stock: 120,
+        stock: 3086,
         featured: false,
         status: "active",
         images: [

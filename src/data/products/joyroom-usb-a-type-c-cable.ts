@@ -10,7 +10,7 @@ export const joyroom_usb_a_type_c_cable = {
         mpn: "JR-S-AC30",
         price: 86,
         originalPrice: 150,
-        stock: 180,
+        stock: 3251,
         featured: false,
         status: "active",
         images: [

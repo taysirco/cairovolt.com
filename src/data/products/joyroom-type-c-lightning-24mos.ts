@@ -10,7 +10,7 @@ export const joyroom_type_c_lightning_24mos = {
         mpn: "JR-S-CL24M",
         price: 123,
         originalPrice: 240,
-        stock: 100,
+        stock: 3265,
         featured: false,
         status: "active",
         images: [

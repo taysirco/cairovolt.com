@@ -10,7 +10,7 @@ export const anker_usb_c_lightning_sureistrong = {
         mpn: "A8652H21",
         price: 599,
         originalPrice: 750,
-        stock: 40,
+        stock: 3090,
         featured: true,
         status: "active",
         images: [

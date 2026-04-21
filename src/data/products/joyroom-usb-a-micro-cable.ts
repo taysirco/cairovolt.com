@@ -10,7 +10,7 @@ export const joyroom_usb_a_micro_cable = {
         mpn: "JR-S-AM24",
         price: 44,
         originalPrice: 100,
-        stock: 200,
+        stock: 3303,
         featured: false,
         status: "active",
         images: [

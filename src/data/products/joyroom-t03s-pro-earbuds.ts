@@ -10,7 +10,7 @@ export const joyroom_t03s_pro_earbuds = {
         mpn: "JR-T03S-PRO",
         price: 664,
         originalPrice: 799,
-        stock: 100,
+        stock: 2807,
         featured: true,
         status: "active",
         images: [

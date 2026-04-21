@@ -10,7 +10,7 @@ export const anker_zolo_a1681_20000 = {
         mpn: "A1681",
         price: 2200,
         originalPrice: 2500,
-        stock: 15,
+        stock: 3151,
         featured: true,
         status: "active",
         images: [

@@ -1,7 +1,7 @@
 // Product: anker-a2147-gan-charger-30w (WALL CHARGER — Anker 511 Nano 3, 30W GaN USB-C)
 export const anker_a2147_gan_charger_30w = {
         slug: "anker-a2147-gan-charger-30w", sku: "ANK-WC-A2147", brand: "Anker", categorySlug: "wall-chargers",
-        gtin: "194644126940", gtin13: "0194644126940", mpn: "A2147", price: 430, originalPrice: 470, stock: 40, featured: true, status: "active",
+        gtin: "194644126940", gtin13: "0194644126940", mpn: "A2147", price: 430, originalPrice: 470, stock: 3042, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-30w-gan-charger-usb-c-front-cairovolt.webp", alt: "Anker A2147 Nano 3 GaN 30W USB-C wall charger with foldable plug and IQ3 technology", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charger-with-devices-iphone-ipad-airpods.webp", alt: "شاحن انكر A2147 بقوة 30 واط مع ايفون وايباد وايربودز وابل واتش - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },

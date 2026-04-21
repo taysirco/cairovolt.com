@@ -10,7 +10,7 @@ export const anker_car_charger_dual_usb = {
         mpn: "A2224011",
         price: 950,
         originalPrice: 1300,
-        stock: 60,
+        stock: 2935,
         featured: true,
         status: "active",
         images: [

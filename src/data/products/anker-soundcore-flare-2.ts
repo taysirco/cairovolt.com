@@ -10,7 +10,7 @@ export const anker_soundcore_flare_2 = {
         mpn: "A3165011",
         price: 2999,
         originalPrice: 3400,
-        stock: 25,
+        stock: 2645,
         featured: false,
         status: "active",
         images: [

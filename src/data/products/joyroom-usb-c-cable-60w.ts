@@ -10,7 +10,7 @@ export const joyroom_usb_c_cable_60w = {
         mpn: "JR-S-CC60",
         price: 123,
         originalPrice: 220,
-        stock: 150,
+        stock: 3313,
         featured: true,
         status: "active",
         images: [

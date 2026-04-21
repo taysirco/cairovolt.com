@@ -10,7 +10,7 @@ export const anker_soundcore_life_p2i = {
         mpn: "A3991H11",
         price: 820,
         originalPrice: 1100,
-        stock: 30,
+        stock: 2623,
         featured: false,
         status: "active",
         images: [

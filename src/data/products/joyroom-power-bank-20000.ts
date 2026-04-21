@@ -10,7 +10,7 @@ export const joyroom_power_bank_20000 = {
         mpn: "JR-T020",
         price: 997,
         originalPrice: 997,
-        stock: 50,
+        stock: 3313,
         featured: true,
         status: "active",
         images: [

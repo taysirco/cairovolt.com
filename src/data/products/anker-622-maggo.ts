@@ -10,7 +10,7 @@ export const anker_622_maggo = {
         mpn: "A1610011",
         price: 2800,
         originalPrice: 3000,
-        stock: 40,
+        stock: 3136,
         featured: true,
         status: "active",
         images: [

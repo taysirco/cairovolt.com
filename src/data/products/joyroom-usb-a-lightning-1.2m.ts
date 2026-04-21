@@ -10,7 +10,7 @@ export const joyroom_usb_a_lightning_1_2m = {
         mpn: "JR-S-AL12",
         price: 114,
         originalPrice: 150,
-        stock: 180,
+        stock: 3313,
         featured: false,
         status: "active",
         images: [

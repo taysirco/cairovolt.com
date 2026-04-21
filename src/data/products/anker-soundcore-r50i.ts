@@ -1,7 +1,7 @@
 // Product: anker-soundcore-r50i
 export const anker_soundcore_r50i = {
         slug: "anker-soundcore-r50i", sku: "ANK-EP-R50I", brand: "Anker", categorySlug: "audio",
-        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 950, originalPrice: 1300, stock: 25, featured: false, status: "active",
+        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 950, originalPrice: 1300, stock: 2713, featured: false, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Anker Soundcore R50i true wireless earbuds in-ear - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة انكر ساوندكور R50i لاسلكية داخلية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },

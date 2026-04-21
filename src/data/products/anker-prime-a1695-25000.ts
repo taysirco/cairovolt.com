@@ -10,7 +10,7 @@ export const anker_prime_a1695_25000 = {
         mpn: "A1695",
         price: 3950,
         originalPrice: 4200,
-        stock: 8,
+        stock: 3148,
         featured: true,
         status: "active",
         images: [

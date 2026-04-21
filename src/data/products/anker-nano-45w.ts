@@ -10,7 +10,7 @@ export const anker_nano_45w = {
         mpn: "A2664K11",
         price: 790,
         originalPrice: 1100,
-        stock: 40,
+        stock: 2953,
         featured: false,
         status: "active",
         images: [

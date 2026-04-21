@@ -10,7 +10,7 @@ export const anker_powercore_26800 = {
         mpn: "A1277011",
         price: 2300,
         originalPrice: 3500,
-        stock: 20,
+        stock: 3005,
         featured: false,
         status: "active",
         images: [

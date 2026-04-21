@@ -10,7 +10,7 @@ export const joyroom_30w_pd_cable = {
         mpn: "JR-S-CL30",
         price: 94,
         originalPrice: 180,
-        stock: 200,
+        stock: 3259,
         featured: false,
         status: "active",
         images: [

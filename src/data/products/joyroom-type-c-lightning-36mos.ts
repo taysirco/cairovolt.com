@@ -10,7 +10,7 @@ export const joyroom_type_c_lightning_36mos = {
         mpn: "JR-S-CL36M",
         price: 131,
         originalPrice: 300,
-        stock: 80,
+        stock: 3304,
         featured: true,
         status: "active",
         images: [

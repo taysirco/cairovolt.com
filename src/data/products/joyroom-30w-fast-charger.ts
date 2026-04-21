@@ -10,7 +10,7 @@ export const joyroom_30w_fast_charger = {
         mpn: "JR-TCF30",
         price: 280,
         originalPrice: 420,
-        stock: 80,
+        stock: 3151,
         featured: true,
         status: "active",
         images: [

@@ -10,7 +10,7 @@ export const joyroom_20w_usb_c_charger = {
         mpn: "JR-TCF20",
         price: 236,
         originalPrice: 279,
-        stock: 100,
+        stock: 2972,
         featured: false,
         status: "active",
         images: [

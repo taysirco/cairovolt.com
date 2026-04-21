@@ -10,7 +10,7 @@ export const joyroom_car_phone_mount = {
         mpn: "JR-ZS295",
         price: 169,
         originalPrice: 400,
-        stock: 70,
+        stock: 3028,
         featured: true,
         status: "active",
         images: [

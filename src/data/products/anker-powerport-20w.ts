@@ -10,7 +10,7 @@ export const anker_powerport_20w = {
         mpn: "A2347K11",
         price: 375,
         originalPrice: 420,
-        stock: 100,
+        stock: 2984,
         featured: true,
         status: "active",
         images: [

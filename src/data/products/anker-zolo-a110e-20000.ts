@@ -10,7 +10,7 @@ export const anker_zolo_a110e_20000 = {
         mpn: "A110E-P11",
         price: 1730,
         originalPrice: 1950,
-        stock: 20,
+        stock: 3158,
         featured: true,
         status: "active",
         images: [

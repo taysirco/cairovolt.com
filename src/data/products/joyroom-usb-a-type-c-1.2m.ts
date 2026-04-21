@@ -10,7 +10,7 @@ export const joyroom_usb_a_type_c_1_2m = {
         mpn: "JR-S-AC12",
         price: 214,
         originalPrice: 214,
-        stock: 150,
+        stock: 3212,
         featured: false,
         status: "active",
         images: [

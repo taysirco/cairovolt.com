@@ -10,7 +10,7 @@ export const anker_521_powerhouse = {
         mpn: "A1710Z21",
         price: 11000,
         originalPrice: 13000,
-        stock: 3,
+        stock: 3074,
         featured: false,
         status: "active",
         variants: [

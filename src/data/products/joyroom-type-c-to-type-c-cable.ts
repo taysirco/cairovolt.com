@@ -10,7 +10,7 @@ export const joyroom_type_c_to_type_c_cable = {
         mpn: "JR-S-CC100",
         price: 130,
         originalPrice: 200,
-        stock: 150,
+        stock: 3299,
         featured: false,
         status: "active",
         images: [

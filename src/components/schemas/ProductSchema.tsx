@@ -293,6 +293,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 ? 'https://schema.org/InStock'
                 : 'https://schema.org/BackOrder',
             itemCondition: 'https://schema.org/NewCondition',
+            // Inventory Level — signals stock depth to Google Shopping & Merchant Center
+            inventoryLevel: {
+                '@type': 'QuantitativeValue',
+                value: product.stock,
+                unitCode: 'C62', // ISO unit code for "each" / individual items
+            },
             // UnitPriceSpecification for detailed structured pricing data
             priceSpecification: {
                 '@type': 'UnitPriceSpecification',
@@ -402,6 +408,11 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 availability: product.stock > 0
                     ? 'https://schema.org/InStock'
                     : 'https://schema.org/BackOrder',
+                inventoryLevel: {
+                    '@type': 'QuantitativeValue',
+                    value: product.stock,
+                    unitCode: 'C62',
+                },
                 shippingDetails: {
                     '@type': 'OfferShippingDetails',
                     shippingRate: {
