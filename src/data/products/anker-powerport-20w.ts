@@ -223,5 +223,5 @@ export const anker_powerport_20w = {
             en: "Don't let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
             ar: "لا تدع الحجم يخدعك؛ هذا المكعب الصغير ضروري لأي مالك آيفون. يفتح إمكانيات الشحن السريع لهاتفك، ويوصله من 0 إلى 50% في 30 دقيقة فقط. سعره معقول، موثوق، وصغير بما يكفي ليناسب أي مشترك كهرباء مزدحم أو حقيبة."
         },
-        relatedProducts: ["anker-a2147-gan-charger-30w", "anker-a8050-usb-c-cable", "anker-a8052-usb-c-lightning-cable", "anker-powercore-10000", "anker-powerport-25w", "anker-powerline-usb-c-usb-c"]
+        relatedProducts: ["anker-a2147-gan-charger-30w", "anker-a8050-usb-c-cable", "anker-powerline-usb-c-lightning", "anker-powercore-10000", "anker-powerport-25w", "anker-powerline-usb-c-usb-c"]
     };

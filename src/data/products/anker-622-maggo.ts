@@ -22,7 +22,7 @@ export const anker_622_maggo = {
             { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 7mm لباور بانك انكر 622 ماج جو - ملف عرض جانبي", order: 5, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_7", url: "/products/anker/anker-622-maggo/anker-622-maggo-charging-iphone-magnetic-alignment-test.webp", alt: "Anker 622 MagGo charging iPhone magnetic alignment test - CairoVolt Lab Egypt", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
-        relatedProducts: ["anker-powercore-10000", "anker-powercore-20000", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-a8052-usb-c-lightning-cable"],
+        relatedProducts: ["anker-powercore-10000", "anker-powercore-20000", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-powerline-usb-c-lightning"],
         translations: {
             en: {
                 name: "Anker 622 Magnetic Battery (MagGo) | MagSafe | Foldable Stand | 18-Month Warranty",
