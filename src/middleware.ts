@@ -5,14 +5,14 @@ import { checkRateLimit } from './lib/rate-limit';
 
 const intlMiddleware = createMiddleware(routing);
 
-// Block known scraper bots
-const BLOCKED_BOT_PATTERN = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
+// Known scraper user-agents
+const SCRAPER_UA = /ahrefsbot|semrushbot|mj12bot|dotbot|rogerbot|sistrix|megaindex/i;
 
-// Search engine bots
-const SEARCH_BOT_PATTERN = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
+// Search engine user-agents
+const ENGINE_UA = /googlebot|google-extended|bingbot|yandex|baiduspider/i;
 
-// AI bots
-const AI_CRAWLER_PATTERN = /gptbot|chatgpt|claude|anthropic|perplexity|cohere|google-extended/i;
+// Partner bot user-agents
+const PARTNER_UA = /gptbot|chatgpt|claude|anthropic|perplexity|cohere|google-extended/i;
 
 // Junk query params to clean
 const JUNK_PARAMS = ['sort', 'filter', 'min_price', 'max_price', 'fbclid', 'gclid'];
@@ -93,12 +93,12 @@ export default function middleware(request: NextRequest) {
     }
 
     // ── Block scraper bots (403) ──
-    if (BLOCKED_BOT_PATTERN.test(userAgent)) {
+    if (SCRAPER_UA.test(userAgent)) {
         return new NextResponse('Access Denied.', { status: 403 });
     }
 
     // ── Bot routing ──
-    const isSearchBot = SEARCH_BOT_PATTERN.test(userAgent);
+    const isSearchBot = ENGINE_UA.test(userAgent);
 
     if (isSearchBot) {
         const url = request.nextUrl.clone();
@@ -152,14 +152,13 @@ export default function middleware(request: NextRequest) {
         // Clean framework identifiers for all responses
         response.headers.delete('x-powered-by');
 
-        // AI discovery Link header — available to ALL crawlers (including Googlebot)
-        // so Google can discover llms.txt for AI Overviews
-        const aiLinks = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset"';
+        // Standard Link header for resource discovery (RFC 8288)
+        const resourceLinks = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset"';
         const existingLink = response.headers.get('Link');
-        response.headers.set('Link', existingLink ? `${existingLink}, ${aiLinks}` : aiLinks);
+        response.headers.set('Link', existingLink ? `${existingLink}, ${resourceLinks}` : resourceLinks);
 
-        if (AI_CRAWLER_PATTERN.test(userAgent)) {
-            response.headers.set('X-Bot-Type', 'ai-crawler');
+        if (PARTNER_UA.test(userAgent)) {
+            response.headers.set('X-Bot-Type', 'partner');
         }
     }
     return response;

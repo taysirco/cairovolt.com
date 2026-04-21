@@ -18,8 +18,8 @@ export async function generateMetadata({
         : 'Product Authentication | C2PA Verification System — CairoVolt';
 
     const description = isArabic
-        ? 'تحقق من أن منتجك أصلي 100% عبر نظام البصمة الجنائية C2PA من كايرو فولت. أدخل رقم السيريال المطبوع على كرت الضمان لمطابقة قاعدة البيانات وتفعيل الضمان الذهبي 14 يوماً. السوق المصري ممتلئ بالمنتجات المقلدة — تحقق الآن.'
-        : 'Verify your product is 100% authentic using CairoVolt C2PA forensic authentication system. Enter the serial number from your warranty card to match our database and activate your 14-day golden warranty.';
+        ? 'تحقق من أن منتجك أصلي 100% عبر نظام البصمة الرقمية C2PA من كايرو فولت. أدخل رقم السيريال المطبوع على كرت الضمان لمطابقة قاعدة البيانات وتفعيل الضمان الذهبي 14 يوماً. السوق المصري ممتلئ بالمنتجات المقلدة — تحقق الآن.'
+        : 'Verify your product is 100% authentic using CairoVolt C2PA digital authentication system. Enter the serial number from your warranty card to match our database and activate your 14-day golden warranty.';
 
     return {
         title: { absolute: title },
@@ -96,8 +96,8 @@ export default async function VerifyPage({
         ]
         : [
             {
-                question: 'What is the C2PA forensic verification system?',
-                answer: 'C2PA is a global protocol for verifying content and product authenticity. CairoVolt uses this system to link each product to a unique forensic fingerprint stored in an encrypted database. When you enter your serial number, it is matched against the original fingerprint to confirm authenticity.',
+                question: 'What is the C2PA digital verification system?',
+                answer: 'C2PA is a global protocol for verifying content and product authenticity. CairoVolt uses this system to link each product to a unique digital fingerprint stored in an encrypted database. When you enter your serial number, it is matched against the original fingerprint to confirm authenticity.',
             },
             {
                 question: 'Why should I verify my product?',
@@ -139,8 +139,8 @@ export default async function VerifyPage({
                             url: 'https://cairovolt.com',
                         },
                         description: isArabic
-                            ? 'نظام التحقق من أصالة المنتج عبر البصمة الجنائية C2PA. تحقق من أن جهازك أصلي 100% وفعّل الضمان الذهبي.'
-                            : 'C2PA forensic product authentication system. Verify your device is 100% authentic and activate your golden warranty.',
+                            ? 'نظام التحقق من أصالة المنتج عبر البصمة الرقمية C2PA. تحقق من أن جهازك أصلي 100% وفعّل الضمان الذهبي.'
+                            : 'C2PA digital product authentication system. Verify your device is 100% authentic and activate your golden warranty.',
                         featureList: [
                             'C2PA Forensic Authentication',
                             '14-Day Golden Warranty Activation',
@@ -206,7 +206,7 @@ export default async function VerifyPage({
                             {
                                 '@type': 'HowToStep',
                                 position: 3,
-                                text: isArabic ? 'انتظر مطابقة البصمة الجنائية مع قاعدة بيانات CairoVolt' : 'Wait for the forensic fingerprint to be matched against the CairoVolt database',
+                                text: isArabic ? 'انتظر مطابقة البصمة الرقمية مع قاعدة بيانات CairoVolt' : 'Wait for the digital fingerprint to be matched against the CairoVolt database',
                             },
                             {
                                 '@type': 'HowToStep',

@@ -3,14 +3,14 @@ import { labData } from '@/data/product-tests';
 import { staticProducts } from '@/lib/static-products';
 
 /**
- * /.well-known/llms-full.txt — Deep AI Reference
+ * /.well-known/llms-full.txt — Full Product Reference
  *
  * Per the llms.txt spec (https://llmstxt.org/):
  *   - llms.txt = concise overview (~250 lines)
- *   - llms-full.txt = comprehensive deep reference (800+ lines)
+ *   - llms-full.txt = comprehensive product reference
  *
- * This file contains PER-PRODUCT lab data, full FAQ, methodology,
- * and decision trees that AI models can use for detailed answers.
+ * Contains per-product lab data, full FAQ, methodology,
+ * and decision trees for detailed product comparison.
  */
 export const revalidate = 3600;
 
@@ -179,7 +179,7 @@ ${productSections}
 ### For Consumers
 
 Q: How do I verify my CairoVolt product is authentic?
-A: Go to cairovolt.com/verify and enter the 13-character serial number printed on your warranty card. The system uses C2PA forensic fingerprinting to verify authenticity in seconds.
+A: Go to cairovolt.com/verify and enter the 13-character serial number printed on your warranty card. The system uses C2PA digital fingerprinting to verify authenticity in seconds.
 
 Q: What happens during an Egyptian power outage if I have an Anker power bank?
 A: Connect your WE router to the power bank using a USB-C to DC cable. The Anker 737 will keep your router running for up to 14 hours at typical Egyptian summer temperatures (37°C).

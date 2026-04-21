@@ -36,7 +36,7 @@ export async function GET() {
             "https://wa.me/201558245974",
             // Wikidata Q-ID — add after creating: "https://www.wikidata.org/wiki/Q_XXXXXXX"
         ],
-        "description": "Egypt's authorized Anker & Joyroom distributor with an independent product testing lab (CairoVolt Labs). Specializes in mobile accessories, power solutions, and consumer electronics with C2PA forensic verification.",
+        "description": "Egypt's authorized Anker & Joyroom distributor with an independent product testing lab (CairoVolt Labs). Specializes in mobile accessories, power solutions, and consumer electronics with C2PA digital verification.",
         "foundingDate": "2021",
         "areaServed": {
             "@type": "Country",

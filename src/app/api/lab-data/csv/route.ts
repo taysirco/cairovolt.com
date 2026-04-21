@@ -9,7 +9,7 @@ import { staticProducts } from '@/lib/static-products';
  * - Products WITH lab tests: full metrics + test results
  * - Products WITHOUT lab tests: basic product info + pricing
  *
- * For: Kaggle, Google Dataset Search, AI model training
+ * For: Kaggle, Google Dataset Search, research
  */
 export const revalidate = 3600;
 

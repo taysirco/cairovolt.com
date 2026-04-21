@@ -218,7 +218,7 @@ export default function BrandVerification({
                                 </strong>{' '}
                                 {isRTL
                                     ? 'وكيل معتمد موثق بالضريبة والجنائية (C2PA).'
-                                    : 'Certified dealer with tax & forensic verification (C2PA).'}
+                                    : 'Certified dealer with tax & digital verification (C2PA).'}
                             </span>
                         </li>
                         <li className="flex gap-2 items-start">

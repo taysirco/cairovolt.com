@@ -449,7 +449,7 @@ export default async function ProductPage({ params }: Props) {
 
             {/* FAQSection removed — was duplicating the same product FAQ questions visible in the accordion above */}
 
-            {/* Dataset schema — for products with lab test data (Google Dataset Search + AI training) */}
+            {/* Dataset schema for products with lab test data */}
             {labInfo?.labTests?.[0] && (
                 <script
                     type="application/ld+json"
