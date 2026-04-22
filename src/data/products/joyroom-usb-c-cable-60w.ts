@@ -14,10 +14,10 @@ export const joyroom_usb_c_cable_60w = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-1.webp", alt: "Joyroom 60W USB-C Cable iPhone 17 Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-2.webp", alt: "كابل جوي روم 60 واط USB-C مصر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-3.webp", alt: "Joyroom USB-C to USB-C Fast Charging", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-4.webp", alt: "كابل ايفون 17 سريع", order: 3, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-1.webp", alt: "Joyroom 60W USB-C Cable iPhone 17 Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-2.webp", alt: "كابل جوي روم 60 واط USB-C مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-3.webp", alt: "Joyroom USB-C to USB-C Fast Charging", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-usb-c-cable-60w/joyroom-joyroom-usb-c-cable-60w-egypt-cairo-4.webp", alt: "كابل ايفون 17 سريع", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

@@ -14,10 +14,10 @@ export const joyroom_3_in_1_data_cable = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-1.webp", alt: "Joyroom 3-in-1 Cable Lightning Type-C Micro Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 3 في 1 مصر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-3.webp", alt: "Joyroom Multi Cable Best Price", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-4.webp", alt: "كابل 3 في 1 للايفون والاندرويد", order: 3, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-1.webp", alt: "Joyroom 3-in-1 Cable Lightning Type-C Micro Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 3 في 1 مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-3.webp", alt: "Joyroom Multi Cable Best Price", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-data-cable/joyroom-joyroom-3-in-1-data-cable-egypt-cairo-4.webp", alt: "كابل 3 في 1 للايفون والاندرويد", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

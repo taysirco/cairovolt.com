@@ -14,16 +14,16 @@ export const joyroom_power_bank_20000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "joyroom power bank 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - Full Warranty Coverage Egypt", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 - منتج أصلي معتمد | شحن مصر كلها", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Barcode Verified Egypt", order: 8, isPrimary: false },
-            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 9, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "joyroom power bank 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - Full Warranty Coverage Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 - منتج أصلي معتمد | شحن مصر كلها", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Barcode Verified Egypt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

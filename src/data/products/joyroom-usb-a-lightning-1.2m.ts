@@ -14,13 +14,13 @@ export const joyroom_usb_a_lightning_1_2m = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning 1.2m Cable Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-3.webp", alt: "كابل جوي روم USB-A Lightning 1.2 متر مصر", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-4.webp", alt: "Joyroom Lightning Cable 36mos Warranty", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-5.webp", alt: "كابل ايفون طويل 1.2 متر", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-6.webp", alt: "Joyroom 4ft Lightning Cable", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-7.webp", alt: "كابل جوي روم متين", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-8.webp", alt: "Joyroom USB-A Lightning Premium", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning 1.2m Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-3.webp", alt: "كابل جوي روم USB-A Lightning 1.2 متر مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-4.webp", alt: "Joyroom Lightning Cable 36mos Warranty", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-5.webp", alt: "كابل ايفون طويل 1.2 متر", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-6.webp", alt: "Joyroom 4ft Lightning Cable", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-7.webp", alt: "كابل جوي روم متين", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-8.webp", alt: "Joyroom USB-A Lightning Premium", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

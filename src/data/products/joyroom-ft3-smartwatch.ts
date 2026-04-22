@@ -14,13 +14,13 @@ export const joyroom_ft3_smartwatch = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "joyroom ft3 smartwatch - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "joyroom ft3 smartwatch - Lowest Price Guarantee Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "joyroom ft3 smartwatch - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "joyroom ft3 smartwatch - Certified by Distributor", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "joyroom ft3 smartwatch - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "joyroom ft3 smartwatch - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "joyroom ft3 smartwatch - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "joyroom ft3 smartwatch - Lowest Price Guarantee Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "joyroom ft3 smartwatch - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "joyroom ft3 smartwatch - Certified by Distributor", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "joyroom ft3 smartwatch - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "joyroom ft3 smartwatch - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

@@ -14,8 +14,8 @@ export const joyroom_usb_a_micro_cable = {
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Micro Cable Egypt", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Micro USB مصر", order: 1, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Micro Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Micro USB مصر", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

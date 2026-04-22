@@ -14,12 +14,12 @@ export const joyroom_25w_fast_charger = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم 25 واط اصلي في مصر - توصيل سريع القاهرة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Best Price Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 25W USB-C Charger iPhone 17 Compatible", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-8.webp", alt: "شاحن جوي روم سريع 25 واط - ضمان سنتين مصر", order: 5, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم 25 واط اصلي في مصر - توصيل سريع القاهرة", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Best Price Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 25W USB-C Charger iPhone 17 Compatible", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-8.webp", alt: "شاحن جوي روم سريع 25 واط - ضمان سنتين مصر", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

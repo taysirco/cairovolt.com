@@ -14,15 +14,15 @@ export const joyroom_t03s_pro_earbuds = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true },
-            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة", order: 1, isPrimary: false },
-            { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt", order: 2, isPrimary: false },
-            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "joyroom t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false },
-            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer", order: 4, isPrimary: false },
-            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال", order: 5, isPrimary: false },
-            { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - Protected by CairoVolt Guarantee", order: 6, isPrimary: false },
-            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "joyroom t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false },
-            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt", order: 8, isPrimary: false }
+            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "joyroom t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - Protected by CairoVolt Guarantee", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "joyroom t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
