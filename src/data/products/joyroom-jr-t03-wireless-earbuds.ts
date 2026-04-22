@@ -9,7 +9,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         gtin13: "6956116714055",
         mpn: "JR-T03",
         price: 774,
-        originalPrice: 774,
+        originalPrice: 899,
         stock: 2751,
         featured: false,
         status: "active",

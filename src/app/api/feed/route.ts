@@ -75,7 +75,7 @@ export async function GET() {
       <g:product_type>Electronics > Mobile Accessories > ${p.brand}</g:product_type>
       <g:custom_label_0>CairoVolt Lab Verified</g:custom_label_0>
       <g:custom_label_1>Cash on Delivery Egypt</g:custom_label_1>
-      ${p.gtin ? `<g:gtin>${p.gtin}</g:gtin>` : ''}
+      ${p.gtin ? `<g:gtin>${p.gtin}</g:gtin>` : '<g:identifier_exists>false</g:identifier_exists>'}
       <g:shipping>
         <g:country>EG</g:country>
         <g:price>${p.shippingPrice}.00 EGP</g:price>
