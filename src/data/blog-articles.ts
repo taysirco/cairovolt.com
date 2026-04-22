@@ -23,6 +23,8 @@ import { why_phone_charging_slowly_causes_solutions } from './blog/why-phone-cha
 import { usb_c_cable_guide_egypt_2026 } from './blog/usb-c-cable-guide-egypt-2026';
 import { protect_phone_from_heat_summer_egypt } from './blog/protect-phone-from-heat-summer-egypt';
 import { power_bank_10000mah_real_capacity_myth } from './blog/power-bank-10000mah-real-capacity-myth';
+import { how_to_spot_fake_chargers_7_tests } from './blog/how-to-spot-fake-chargers-7-tests';
+import { gan_charger_technology_guide_egypt } from './blog/gan-charger-technology-guide-egypt';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -44,6 +46,8 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     usb_c_cable_guide_egypt_2026,
     protect_phone_from_heat_summer_egypt,
     power_bank_10000mah_real_capacity_myth,
+    how_to_spot_fake_chargers_7_tests,
+    gan_charger_technology_guide_egypt,
 ];
 
 
