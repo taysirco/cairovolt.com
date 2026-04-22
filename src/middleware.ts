@@ -37,9 +37,13 @@ export default function middleware(request: NextRequest) {
     }
 
     // ── .well-known bypass — standalone API routes, no i18n needed ──
-    // These serve JSON/text for agent discovery (MCP, API Catalog, Agent Skills, etc.)
+    // CRITICAL: Simple NextResponse.next() fails because Next.js resolves
+    // /.well-known/xyz as [locale]='.well-known'. We must actively REWRITE
+    // to force the router to use the actual route handler at src/app/.well-known/.
     if (pathname.startsWith('/.well-known')) {
-        return NextResponse.next();
+        const url = request.nextUrl.clone();
+        url.pathname = pathname; // Keep the same path
+        return NextResponse.rewrite(url);
     }
 
     // ── /go URL shortener bypass — standalone route, no i18n needed ──
@@ -183,5 +187,14 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-    matcher: ['/((?!_next|__firebase|.*\\..*).*)']
+    // Match all paths EXCEPT static files and framework internals.
+    // IMPORTANT: .well-known paths must reach middleware for the rewrite bypass,
+    // even though they contain a dot. We use two patterns:
+    // 1. /.well-known/* — always included
+    // 2. Everything else except paths with dots, _next, __firebase
+    matcher: [
+        '/.well-known/:path*',
+        '/robots.txt',
+        '/((?!_next|__firebase|.*\\..*).*)',
+    ]
 };
