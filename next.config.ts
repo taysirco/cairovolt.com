@@ -40,7 +40,8 @@ const nextConfig = {
     async headers() {
         return [
             {
-                // .well-known files (DID, JWKS) — accessible for C2PA verification
+                // .well-known files — accessible for agent discovery, C2PA, MCP, etc.
+                // NOTE: Each route handler sets its own Content-Type (JSON, markdown, text)
                 source: '/.well-known/:path*',
                 headers: [
                     {
@@ -52,8 +53,13 @@ const nextConfig = {
                         value: '*',
                     },
                     {
-                        key: 'Content-Type',
-                        value: 'application/json',
+                        key: 'Access-Control-Allow-Methods',
+                        value: 'GET, HEAD, OPTIONS',
+                    },
+                    {
+                        // RFC 9727 — Link to API Catalog for discoverability
+                        key: 'Link',
+                        value: '<https://cairovolt.com/.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"',
                     },
                 ],
             },

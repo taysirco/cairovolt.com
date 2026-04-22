@@ -36,9 +36,24 @@ export default function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
+    // ── .well-known bypass — standalone API routes, no i18n needed ──
+    // These serve JSON/text for agent discovery (MCP, API Catalog, Agent Skills, etc.)
+    if (pathname.startsWith('/.well-known')) {
+        return NextResponse.next();
+    }
+
     // ── /go URL shortener bypass — standalone route, no i18n needed ──
     if (pathname.startsWith('/go')) {
         return NextResponse.next();
+    }
+
+    // ── Markdown Content Negotiation (Accept: text/markdown) ──
+    // When AI agents request markdown, rewrite to the markdown negotiation handler
+    const acceptHeader = request.headers.get('accept') || '';
+    if (acceptHeader.includes('text/markdown') && !pathname.startsWith('/api')) {
+        const url = request.nextUrl.clone();
+        url.pathname = `/api/markdown-negotiate${pathname === '/' ? '/index' : pathname}`;
+        return NextResponse.rewrite(url);
     }
 
     // /verify is now inside [locale] — let intlMiddleware handle routing
@@ -152,10 +167,13 @@ export default function middleware(request: NextRequest) {
         // Clean framework identifiers for all responses
         response.headers.delete('x-powered-by');
 
-        // Standard Link header for resource discovery (RFC 8288)
-        const resourceLinks = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset"';
+        // Standard Link header for resource discovery (RFC 8288 + RFC 9727)
+        const resourceLinks = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset", <https://cairovolt.com/.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"';
         const existingLink = response.headers.get('Link');
         response.headers.set('Link', existingLink ? `${existingLink}, ${resourceLinks}` : resourceLinks);
+
+        // Vary: Accept — critical for content negotiation caching (HTML vs markdown)
+        response.headers.set('Vary', 'Accept');
 
         if (PARTNER_UA.test(userAgent)) {
             response.headers.set('X-Bot-Type', 'partner');

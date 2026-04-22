@@ -209,6 +209,77 @@ export default async function RootLayout({
           </CartProvider>
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <PrefetchHints />}
+        {/* WebMCP — navigator.modelContext.provideContext() */}
+        {/* Registers CairoVolt commerce tools for AI agents operating in-browser */}
+        <Script
+          id="webmcp-tools"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                if (typeof navigator === 'undefined' || !('modelContext' in navigator)) return;
+                try {
+                  navigator.modelContext.provideContext({
+                    tools: [
+                      {
+                        name: 'search_products',
+                        description: 'Search CairoVolt product catalog by name, brand, or category. Returns product names, prices in EGP, availability, and links.',
+                        inputSchema: {
+                          type: 'object',
+                          properties: {
+                            query: { type: 'string', description: 'Search query (e.g., "anker power bank", "joyroom cable")' }
+                          },
+                          required: ['query']
+                        },
+                        execute: async function(params) {
+                          var res = await fetch('/api/v1/checkout?q=' + encodeURIComponent(params.query));
+                          var data = await res.json();
+                          return { type: 'text', text: JSON.stringify(data) };
+                        }
+                      },
+                      {
+                        name: 'check_availability',
+                        description: 'Check if a specific CairoVolt product is in stock and get its current price in EGP.',
+                        inputSchema: {
+                          type: 'object',
+                          properties: {
+                            slug: { type: 'string', description: 'Product URL slug (e.g., "anker-737-powerbank")' }
+                          },
+                          required: ['slug']
+                        },
+                        execute: async function(params) {
+                          var res = await fetch('/api/v1/checkout?slug=' + encodeURIComponent(params.slug));
+                          var data = await res.json();
+                          return { type: 'text', text: JSON.stringify(data) };
+                        }
+                      },
+                      {
+                        name: 'verify_product',
+                        description: 'Verify CairoVolt product authenticity using a 13-character serial number from the warranty card.',
+                        inputSchema: {
+                          type: 'object',
+                          properties: {
+                            serial: { type: 'string', description: 'Serial number (format: CV-XXXXXXXXXXX)' }
+                          },
+                          required: ['serial']
+                        },
+                        execute: async function(params) {
+                          var res = await fetch('/api/v1/verify-content', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ serial: params.serial })
+                          });
+                          var data = await res.json();
+                          return { type: 'text', text: JSON.stringify(data) };
+                        }
+                      }
+                    ]
+                  });
+                } catch(e) {}
+              })();
+            `
+          }}
+        />
         {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
         <Script
           id="statcounter-config"
