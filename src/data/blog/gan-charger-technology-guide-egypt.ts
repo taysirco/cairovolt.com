@@ -7,7 +7,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
     publishDate: '2026-04-23',
     modifiedDate: '2026-04-23',
     readingTime: 11,
-    coverImage: '/images/blog/posts/IMG_0589.JPG',
+    coverImage: '/images/blog/posts/anker-powerport-20w-cube-charger.webp',
     relatedProducts: [
         'anker-a2147-gan-charger-30w',
         'anker-nano-45w',

@@ -7,7 +7,7 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
     publishDate: '2026-04-23',
     modifiedDate: '2026-04-23',
     readingTime: 14,
-    coverImage: '/images/blog/posts/IMG_0587 2.JPG',
+    coverImage: '/images/blog/posts/cairovolt-c2pa-authentication-card.webp',
     relatedProducts: [
         'anker-powerport-20w',
         'anker-powerport-25w',
