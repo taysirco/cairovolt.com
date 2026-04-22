@@ -29,9 +29,8 @@ export async function GET(
     // Homepage → serve llms.txt (our comprehensive markdown representation)
     if (path === 'index' || path === '') {
         try {
-            // Use the request's origin to avoid external self-fetch loops
-            const origin = request.nextUrl.origin;
-            const llmsResponse = await fetch(`${origin}/.well-known/llms.txt`, {
+            // Use production URL — request.nextUrl.origin is unreliable during ISR/SSR
+            const llmsResponse = await fetch(`${baseUrl}/.well-known/llms.txt`, {
                 headers: { 'Accept': 'text/plain' },
                 next: { revalidate: 3600 },
             });
@@ -56,8 +55,7 @@ export async function GET(
     if (path.includes('product/')) {
         const productSlug = path.split('product/').pop() || '';
         try {
-            const origin = request.nextUrl.origin;
-            const catalogResponse = await fetch(`${origin}/api/v1/checkout?slug=${productSlug}`, {
+            const catalogResponse = await fetch(`${baseUrl}/api/v1/checkout?slug=${productSlug}`, {
                 next: { revalidate: 3600 },
             });
 
