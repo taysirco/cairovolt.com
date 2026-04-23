@@ -3,27 +3,27 @@ import { NextResponse } from 'next/server';
 /**
  * API v1 Index — /api/v1
  * 
- * x402 Protocol Gateway
- * https://x402.org | https://github.com/coinbase/x402
+ * x402 Protocol V2 Gateway
+ * https://x402.org | https://docs.x402.org/core-concepts/http-402
  * 
- * Returns HTTP 402 Payment Required with x402 payment requirements.
- * This is the entry point that AI agents probe to discover if the
- * site supports agent-native HTTP payments.
+ * Returns HTTP 402 Payment Required with:
+ *   - JSON body: x402Version + accepts array
+ *   - PAYMENT-REQUIRED header: Base64-encoded payment requirements (V2)
  * 
- * When accessed without a valid x-402-receipt header, returns payment
- * requirements. Agents can fulfill the payment and retry with a receipt.
+ * AI agents detect the 402 + PAYMENT-REQUIRED header, prepare a payment,
+ * and retry with a PAYMENT-SIGNATURE header containing the payment proof.
  */
 
 export const dynamic = 'force-dynamic';
 
 export function GET(request: Request) {
-    const receipt = request.headers.get('x-402-receipt');
+    const paymentSignature = request.headers.get('payment-signature') || request.headers.get('x-402-receipt');
 
-    if (!receipt) {
-        // x402 payment requirements
+    if (!paymentSignature) {
+        // x402 V2 payment requirements
         const paymentRequirements = {
-            'x402Version': 1,
-            'accepts': [
+            x402Version: 2,
+            accepts: [
                 {
                     scheme: 'exact',
                     network: 'base-sepolia',
@@ -42,14 +42,18 @@ export function GET(request: Request) {
             ],
         };
 
+        // Base64-encode the payment requirements for the PAYMENT-REQUIRED header (x402 V2)
+        const paymentRequiredHeader = Buffer.from(JSON.stringify(paymentRequirements)).toString('base64');
+
         return NextResponse.json(paymentRequirements, {
             status: 402,
             headers: {
                 'Content-Type': 'application/json',
+                'PAYMENT-REQUIRED': paymentRequiredHeader,
                 'Access-Control-Allow-Origin': '*',
                 'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
-                'Access-Control-Allow-Headers': 'X-402-Receipt, Content-Type',
-                'Access-Control-Expose-Headers': 'X-402-Receipt',
+                'Access-Control-Allow-Headers': 'PAYMENT-SIGNATURE, X-402-Receipt, Content-Type',
+                'Access-Control-Expose-Headers': 'PAYMENT-REQUIRED, PAYMENT-RESPONSE',
                 'X-Content-Type-Options': 'nosniff',
             },
         });
@@ -81,8 +85,10 @@ export function OPTIONS() {
         headers: {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
-            'Access-Control-Allow-Headers': 'X-402-Receipt, Content-Type',
+            'Access-Control-Allow-Headers': 'PAYMENT-SIGNATURE, X-402-Receipt, Content-Type',
+            'Access-Control-Expose-Headers': 'PAYMENT-REQUIRED, PAYMENT-RESPONSE',
             'Access-Control-Max-Age': '86400',
         },
     });
 }
+
