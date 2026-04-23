@@ -211,10 +211,11 @@ export default async function RootLayout({
         {process.env.NODE_ENV === 'production' && <PrefetchHints />}
         {/* WebMCP — navigator.modelContext.registerTool() */}
         {/* Registers CairoVolt commerce tools for AI agents operating in-browser */}
+        {/* MUST be an inline <script>, NOT next/script with lazyOnload — scanners */}
+        {/* do static HTML analysis and need to see registerTool in the page source. */}
         {/* Spec: https://webmachinelearning.github.io/webmcp/ */}
-        <Script
+        <script
           id="webmcp-tools"
-          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
