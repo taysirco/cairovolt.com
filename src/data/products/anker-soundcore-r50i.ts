@@ -128,7 +128,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق Soundcore", "💰 أفضل قيمة"],
-                metaTitle: "سماعة انكر R50i ⚡ خصم 27% | 30 ساعة تشغيل | ادفع عند الاستلام",
+                metaTitle: "سعر سماعة انكر Soundcore R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },
@@ -139,6 +139,6 @@ export const anker_soundcore_r50i = {
                 ]
             }
         },
-        meta: { keywords: "anker r50i, anker soundcore r50i, سماعة انكر r50i, سماعة لاسلكية رخيصة, anker budget earbuds", mainTerm: "anker soundcore r50i earbuds" },
+        meta: { keywords: "anker r50i, soundcore r50i, anker soundcore r50i, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوند كور r50i, سماعة soundcore r50i, سعر soundcore r50i, r50i anker, power bank anker", mainTerm: "anker soundcore r50i earbuds" },
         expertOpinion: { en: "Best-value wireless earbuds in Egypt. 10mm BassUp, 30h battery, AI ENC, Soundcore app — all at 950 EGP. Passive isolation works well on the Metro. Start here if budget-conscious.", ar: "أفضل قيمة سماعة لاسلكية في مصر. 10mm BassUp، 30 ساعة، AI ENC، تطبيق Soundcore — كل ده بـ 950 جنيه. العزل السلبي بيشتغل كويس في المترو." }
     };

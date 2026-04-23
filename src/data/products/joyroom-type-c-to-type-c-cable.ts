@@ -48,5 +48,5 @@ export const joyroom_type_c_to_type_c_cable = {
             en: "USB-C to USB-C is the future — iPhone 17, Samsung S26, and every modern laptop use it. This cable at 60W PD handles laptops and phones alike. One cable for everything is the ultimate simplification.",
             ar: "USB-C إلى USB-C هو المستقبل — ايفون 17، سامسونج S26، وكل لاب توب حديث بيستخدمه. الكابل ده بـ 60 واط PD يشحن لاب توبات وموبايلات. كابل واحد لكل حاجة هو قمة البساطة."
         },
-        meta: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17", mainTerm: "joyroom usb-c cable" }
+        meta: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17, كابل جوي روم, جوي روم type c, وصلة جوي روم", mainTerm: "joyroom usb-c cable" }
     };

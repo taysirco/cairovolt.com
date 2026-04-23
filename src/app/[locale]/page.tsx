@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ...baseMetadata,
     title: { absolute: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom - أفضل الأسعار' },
     description: 'متجر اكسسوارات موبايل في مصر. Anker Egypt، Joyroom أصلي. باور بانك، سماعات، شواحن، كابلات. أفضل أسعار وضمان رسمي. منتجات أصلية 100%.',
-    keywords: 'اكسسوارات موبايل, انكر مصر, جوي روم, باور بانك, سماعات, شاحن انكر, شاحن ايفون اصلي, joyroom t03s',
+    keywords: 'اكسسوارات موبايل, انكر مصر, أنكر, جوي روم, باور بانك, سماعات, شاحن انكر, شاحن انكر الاصلي, soundcore, سماعة انكر, ايربودز انكر, باور بانك انكر',
     openGraph: {
       title: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom',
       description: 'أفضل اكسسوارات موبايل أصلية في مصر. Anker و Joyroom بضمان رسمي.',
@@ -132,6 +132,49 @@ export default function Home() {
           ? 'متجر إكسسوارات الموبايل الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات Anker و Joyroom بضمان رسمي.'
           : 'Original mobile accessories store in Egypt. Power banks, earbuds, chargers & cables from Anker & Joyroom with official warranty.'}
         locale={locale}
+      />
+      {/* FAQPage Schema — Rich Snippets for high-volume queries */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': isRTL ? [
+              {
+                '@type': 'Question',
+                'name': 'فين فروع وتوكيل انكر في مصر؟',
+                'acceptedAnswer': { '@type': 'Answer', 'text': 'كايرو فولت هو الموزع المعتمد لمنتجات انكر في مصر. نوصل لكل المحافظات عبر شركة بوسطة (Active). مقرنا في التجمع الثالث، القاهرة الجديدة.' }
+              },
+              {
+                '@type': 'Question',
+                'name': 'إزاي أتأكد إن شاحن انكر الأصلي مش تقليد؟',
+                'acceptedAnswer': { '@type': 'Answer', 'text': 'كل منتج انكر أصلي عليه كود QR على العلبة. امسحه على anker.com/verify وهيأكدلك الأصالة فوراً. لو اشتريت من كايرو فولت، كل المنتجات أصلية 100% مع ضمان 18 شهر.' }
+              },
+              {
+                '@type': 'Question',
+                'name': 'كم سعر باور بانك انكر 10000 في مصر؟',
+                'acceptedAnswer': { '@type': 'Answer', 'text': 'سعر باور بانك انكر 10000 هو 1,300 جنيه في كايرو فولت. يشمل ضمان 18 شهر وتوصيل سريع لكل مصر مع إمكانية الدفع عند الاستلام.' }
+              },
+              {
+                '@type': 'Question',
+                'name': 'كم سعر سماعة انكر Soundcore R50i في مصر؟',
+                'acceptedAnswer': { '@type': 'Answer', 'text': 'سعر سماعة Soundcore R50i هو 950 جنيه في كايرو فولت. بطارية 30 ساعة، BassUp، IPX5. ضمان 18 شهر وتوصيل لكل المحافظات.' }
+              },
+            ] : [
+              {
+                '@type': 'Question',
+                'name': 'Where are Anker authorized dealers in Egypt?',
+                'acceptedAnswer': { '@type': 'Answer', 'text': 'CairoVolt is the authorized Anker distributor in Egypt, delivering to all 27 governorates via Active (Bosta) courier. Based in New Cairo 3rd Settlement.' }
+              },
+              {
+                '@type': 'Question',
+                'name': 'How to verify an original Anker charger?',
+                'acceptedAnswer': { '@type': 'Answer', 'text': 'Every original Anker product has a QR code on the box. Scan it at anker.com/verify for instant authenticity confirmation. CairoVolt products are 100% original with 18-month warranty.' }
+              },
+            ]
+          })
+        }}
       />
 
       <div className="flex flex-col" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -266,7 +309,8 @@ export default function Home() {
                     مرحباً بك في <strong className="text-slate-200">كايرو فولت</strong>، الوكيل المعتمد لـ <strong className="text-blue-400">Anker</strong> و <strong className="text-red-400">Joyroom</strong> في مصر.
                     نقدم <strong className="text-slate-200">باور بانك أنكر</strong> بسعات من 5000 إلى 26800 mAh، <strong className="text-slate-200">شواحن سريعة</strong> GaN و PD و QC3.0،
                     <strong className="text-slate-200"> كابلات شحن</strong> MFi للايفون، و<strong className="text-slate-200">سماعات Joyroom T03s</strong> الأكثر مبيعاً.
-                    جميع المنتجات أصلية 100% مع <strong className="text-slate-200">ضمان 18 شهر</strong>. نوصل لكل محافظات مصر مع إمكانية الدفع عند الاستلام.
+                    كما نوفر <strong className="text-slate-200">سماعات انكر Soundcore</strong> الأصلية — من <strong className="text-slate-200">ايربودز انكر</strong> R50i الاقتصادية وحتى سماعات ساوند كور بتقنية إلغاء الضوضاء.
+                    جميع المنتجات أصلية 100% مع <strong className="text-slate-200">ضمان 18 شهر</strong>. موقع انكر مصر الرسمي والموزع المعتمد — نوصل لكل محافظات مصر مع إمكانية الدفع عند الاستلام.
                   </p>
                 ) : (
                   <p>
@@ -291,6 +335,8 @@ export default function Home() {
                 { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت بمخازن بوسطة بالتجمع الثالث في 37 درجة. بيشغل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.' },
                 { question: 'إيه يضمنلي إن منتجات كايرو فولت أصلية؟', answer: 'كايرو فولت شركة مسجلة رسمياً (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
                 { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، شحن 40 جنيه أو مجاني فوق 1,350 جنيه.' },
+                { question: 'فين فروع وتوكيل انكر في مصر؟', answer: 'كايرو فولت هو الموزع المعتمد لمنتجات انكر في مصر. نوصل لكل المحافظات عبر شركة بوسطة (Active). مقرنا في التجمع الثالث، القاهرة الجديدة. تواصل معنا واتساب لأي استفسار.' },
+                { question: 'إزاي أتأكد إن شاحن انكر الأصلي مش تقليد؟', answer: 'كل منتج انكر أصلي عليه كود QR على العلبة. امسحه على anker.com/verify وهيأكدلك الأصالة فوراً. لو اشتريت من كايرو فولت، كل المنتجات أصلية 100% مع ضمان 18 شهر استبدال فوري.' },
               ] : [
                 { question: 'Does the Anker 737 power bank run a WE router during power outages?', answer: 'Yes, we tested it at CairoVolt\'s Bosta warehouse in New Cairo 3 at 37°C. It ran a WE VDSL router for 14 hours 22 minutes continuously without restart.' },
                 { question: 'How can I verify CairoVolt products are original?', answer: 'CairoVolt is officially registered (CR: 8446). Every product is sealed with the original barcode verifiable on Anker\'s website. 18-month warranty.' },

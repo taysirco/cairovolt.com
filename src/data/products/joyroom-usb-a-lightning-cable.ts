@@ -49,5 +49,5 @@ export const joyroom_usb_a_lightning_cable = {
             en: "The bridge cable for iPhone users who haven't upgraded their chargers yet. Reliable 2.4A charging with the most common port on existing Egyptian chargers and car sockets.",
             ar: "كابل الجسر لمستخدمي ايفون اللي لسه مغيروش شواحنهم. شحن موثوق 2.4 أمبير مع أكثر منفذ منتشر في الشواحن المصرية وبرايز العربيات."
         },
-        meta: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون", mainTerm: "joyroom usb-a lightning" }
+        meta: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون, كابل جوي روم, وصلة جوي روم ايفون", mainTerm: "joyroom usb-a lightning" }
     };

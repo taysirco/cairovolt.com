@@ -14,7 +14,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                 title: 'أفضل سماعات بلوتوث في مصر: Soundcore vs Joyroom',
                 metaTitle: 'أفضل سماعات بلوتوث في مصر | Soundcore vs Joyroom | مقارنة شاملة',
                 metaDescription: 'مقارنة أفضل سماعات بلوتوث في مصر. سماعات Soundcore من انكر vs سماعات جوي روم. أسعار وجودة صوت وعمر بطارية.',
-                keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, سماعات جوي روم, سماعات انكر, soundcore, ايربودز جوي روم, افضل سماعات بلوتوث, سماعة جيروم',
+                keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, سماعات جوي روم, سماعات انكر, soundcore, ايربودز جوي روم, افضل سماعات بلوتوث, soundcore p30i, soundcore q11i, soundcore a30i, soundcore q20i, soundcore v20i, soundcore q30, soundcore q45, soundcore a20i, soundcore r100, soundcore h30i, soundcore c40i, soundcore c30i, soundcore p25i, soundcore p41i, انكر p30i, اير بودز انكر',
                 excerpt: 'مقارنة شاملة بين أفضل سماعات البلوتوث المتاحة في مصر مع أسعار محدثة.',
                 quickAnswer: 'أفضل سماعات بلوتوث في مصر: Joyroom T03s بسعر 774 جنيه (أفضل قيمة)، Soundcore P40i بسعر 1,650 جنيه (أفضل ANC)، Soundcore Liberty 4 بسعر 2,850 جنيه (الأفضل بدون منازع).',
                 content: `
@@ -42,7 +42,32 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                                                                                                                                         <h3> 4. Joyroom T03S — الأرخص </h3>
                                                                                                                                             <p> خيار اقتصادي ممتاز للاستخدام اليومي.صوت مقبول جداً بسعر لا يُصدق. <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" class="text-blue-600 hover:underline">شاهد السعر</a></p>
 
-                                                                                                                                                <h2> جدول المقارنة </h2>
+                                                                                                                                                
+                                                                                                         <h2>كل موديلات Soundcore المتوفرة في مصر 2026</h2>
+                                                                                                         <p>إليك المقارنة الشاملة لكل سماعات Soundcore من انكر المتوفرة وغير المتوفرة حالياً في مصر:</p>
+
+                                                                                                         <h3>✅ متوفرة الآن من كايرو فولت:</h3>
+                                                                                                         <ul>
+                                                                                                         <li><strong>Soundcore K20i</strong> — 750 ج.م | نصف داخلية | 36 ساعة | BassUp 13mm</li>
+                                                                                                         <li><strong>Soundcore R50i</strong> — 950 ج.م | داخلية | 30 ساعة | BassUp 10mm</li>
+                                                                                                         <li><strong>Soundcore R50i NC</strong> — 1,299 ج.م | ANC 42dB | 45 ساعة | 4 مايك AI</li>
+                                                                                                         <li><strong>Soundcore Life P2i</strong> — 820 ج.م | ألوان متعددة | عزل سلبي</li>
+                                                                                                         </ul>
+
+                                                                                                         <h3>📦 موديلات Soundcore الدولية (مواصفات للمقارنة):</h3>
+                                                                                                         <ul>
+                                                                                                         <li><strong>Soundcore P30i</strong> — 28h بطارية، ANC 40dB، IP55</li>
+                                                                                                         <li><strong>Soundcore P25i</strong> — 28h، أسلوب رياضي خفيف</li>
+                                                                                                         <li><strong>Soundcore P41i</strong> — 28h بطارية، تصميم مضغوط</li>
+                                                                                                         <li><strong>Soundcore A30i / A20i</strong> — سماعات مفتوحة بتصميم مريح</li>
+                                                                                                         <li><strong>Soundcore V20i</strong> — تصميم هجين مفتوح/مغلق</li>
+                                                                                                         <li><strong>Soundcore Q11i / Q20i / Q30 / Q45</strong> — سماعات Over-Ear بضبط صوت متقدم</li>
+                                                                                                         <li><strong>Soundcore H30i</strong> — On-ear خفيف وعصري</li>
+                                                                                                         <li><strong>Soundcore R100</strong> — سماعة earbud اقتصادية</li>
+                                                                                                         <li><strong>Soundcore C30i / C40i</strong> — سماعات مكتبية بأذرع مايك</li>
+                                                                                                         </ul>
+                                                                                                         <p>💡 <em>للاستفسار عن توفر موديل معين، تواصل مع كايرو فولت عبر واتساب.</em></p>
+<h2> جدول المقارنة </h2>
                                                                                                                                                     < table >
                                                                                                                                                     <thead><tr><th>السماعة </th><th>ANC</th > <th>البطارية </th><th>مقاومة الماء</th > <th>السعر </th></tr > </thead>
                                                                                                                                                     < tbody >
@@ -74,13 +99,15 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                     { question: 'ما أفضل سماعة بلوتوث في مصر؟', answer: 'Soundcore Liberty 4 NC للجودة العالية مع إلغاء ضوضاء. Joyroom T03S Pro لأفضل سعر.' },
                     { question: 'هل سماعات جوي روم أصلية؟', answer: 'نعم، Joyroom شركة معروفة عالمياً ومنتجاتها أصلية. تأكد من الشراء من وكيل معتمد للحصول على الضمان.' },
                     { question: 'هل Soundcore أفضل من JBL؟', answer: 'Soundcore من انكر تقدم جودة صوت منافسة لـ JBL بسعر أقل عادةً. Liberty 4 NC يتفوق على JBL في نفس الفئة السعرية.' },
+                    { question: 'ما مواصفات Soundcore P30i؟', answer: 'Soundcore P30i: بطارية 28 ساعة، ANC 40dB، IP55 مقاومة الماء والغبار، شحن سريع 10 دقايق. غير متوفر حالياً في مصر — البديل الأقرب هو R50i NC المتوفر من كايرو فولت بـ 1,299 جنيه.' },
+                    { question: 'إيه هو الفرق بين Soundcore Q11i و Q20i و Q30؟', answer: 'Soundcore Q11i: Over-ear اقتصادية بدون ANC. Q20i: ANC أساسي + EQ محسّن. Q30: ANC متطور + Hi-Res Audio. كلها غير متوفرة حالياً في مصر — سماعات Soundcore المتوفرة من كايرو فولت هي K20i, R50i, R50i NC.' },
                 ]
             },
             en: {
                 title: 'Best Bluetooth Earbuds in Egypt: Soundcore vs Joyroom',
                 metaTitle: 'Best Bluetooth Earbuds Egypt | Soundcore vs Joyroom | Complete Guide',
                 metaDescription: 'Compare the best Bluetooth earbuds in Egypt. Soundcore by Anker vs Joyroom earbuds. Sound quality, battery life, and prices compared.',
-                keywords: 'bluetooth earbuds egypt, soundcore earbuds, joyroom earbuds, best earbuds egypt, anker earbuds',
+                keywords: 'bluetooth earbuds egypt, soundcore earbuds, joyroom earbuds, best earbuds egypt, anker earbuds, soundcore p30i, soundcore q11i, anker p30i, soundcore a30i, anker a30i, soundcore v20i, anker v20i, soundcore q20i, anker q20i, soundcore q30, soundcore q45, soundcore c40i, soundcore h30i, soundcore p25i, anker p25i, soundcore a20i, soundcore r100, anker lightening, p30i soundcore',
                 excerpt: 'Complete comparison of the best Bluetooth earbuds available in Egypt with updated prices.',
                 quickAnswer: 'Best Bluetooth earbuds in Egypt: Joyroom T03s at EGP 774 (best value), Soundcore P40i at EGP 1,650 (best ANC), Soundcore Liberty 4 at EGP 2,850 (overall best). All with official warranty.',
                 content: `
@@ -107,7 +134,27 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                                                                                                                                                                                                                                                                     <h3> 4. Joyroom T03S — Most Affordable </h3>
                                                                                                                                                                                                                                                                         <p> Excellent budget option for daily use.Acceptable sound quality at an unbeatable price.Perfect entry - level wireless earbuds. <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" class="text-blue-600 hover:underline">View Deal</a></p>
 
-                                                                                                                                                                                                                                                                            <h2> Comparison Table </h2>
+                                                                                                                                                                                                                                                                            
+                                                                                                         <h2>Complete Soundcore Models Guide for Egypt 2026</h2>
+                                                                                                         <p>Full comparison of all Soundcore earbuds — available and international models:</p>
+                                                                                                         <h3>✅ Available Now at CairoVolt:</h3>
+                                                                                                         <ul>
+                                                                                                         <li><strong>Soundcore K20i</strong> — EGP 750 | Semi-in-ear | 36h | 13mm BassUp</li>
+                                                                                                         <li><strong>Soundcore R50i</strong> — EGP 950 | In-ear | 30h | 10mm BassUp</li>
+                                                                                                         <li><strong>Soundcore R50i NC</strong> — EGP 1,299 | ANC 42dB | 45h | 4-mic AI</li>
+                                                                                                         <li><strong>Soundcore Life P2i</strong> — EGP 820 | Multiple colors | Passive isolation</li>
+                                                                                                         </ul>
+                                                                                                         <h3>📦 International Soundcore Models (specs for reference):</h3>
+                                                                                                         <ul>
+                                                                                                         <li><strong>Soundcore P30i</strong> — 28h battery, ANC 40dB, IP55</li>
+                                                                                                         <li><strong>Soundcore Q11i / Q20i / Q30 / Q45</strong> — Over-ear with advanced EQ</li>
+                                                                                                         <li><strong>Soundcore A30i / A20i</strong> — Open-ear comfortable design</li>
+                                                                                                         <li><strong>Soundcore V20i</strong> — Hybrid open/closed design</li>
+                                                                                                         <li><strong>Soundcore H30i</strong> — Lightweight on-ear</li>
+                                                                                                         <li><strong>Soundcore R100</strong> — Budget earbud</li>
+                                                                                                         <li><strong>Soundcore C30i / C40i</strong> — Desktop mic earbuds</li>
+                                                                                                         </ul>
+<h2> Comparison Table </h2>
                                                                                                                                                                                                                                                                                 < table >
                                                                                                                                                                                                                                                                                 <thead><tr><th>Earbuds </th><th>ANC</th > <th>Battery </th><th>Water Resist</th > <th>Price </th></tr > </thead>
                                                                                                                                                                                                                                                                                 < tbody >

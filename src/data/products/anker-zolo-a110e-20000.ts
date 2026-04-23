@@ -204,7 +204,7 @@ export const anker_zolo_a110e_20000 = {
                 ]
             }
         },
-        meta: { keywords: "anker zolo 20000, anker a110e, انكر زولو 20000, باور بانك 20000 بكابل مدمج, anker 20k power bank", mainTerm: "anker zolo 20000mah" },
+        meta: { keywords: "anker zolo 20000, anker a110e, انكر زولو 20000, باور بانك 20000 بكابل مدمج, anker 20k power bank, power bank anker", mainTerm: "anker zolo 20000mah" },
         expertOpinion: {
             en: "The A110E is the 'blackout insurance' power bank. With 20,000mAh, it survived our 48-hour power outage test — charging two phones for 36+ hours. The built-in cable and digital display carry over from the A110D, but with double the capacity. At 392g it's pocketable (barely), but the peace of mind during Egyptian power outages is priceless. Best 20K power bank under 2000 EGP.",
             ar: "الـ A110E هو 'بوليصة التأمين' ضد قطع الكهربا. بسعة 20,000 مللي أمبير، عدّى اختبار انقطاع كهربا 48 ساعة — شحن موبايلين لأكتر من 36 ساعة. الكابل المدمج والشاشة الرقمية نفس الـ A110D، بس بضعف السعة. بوزن 392 جرام يدخل الجيب (بصعوبة)، بس راحة البال وقت تخفيف الأحمال لا تقدر بثمن. أفضل باور بانك 20 ألف تحت 2000 جنيه."

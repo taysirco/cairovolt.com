@@ -195,7 +195,7 @@ export const anker_powerline_usb_c_lightning = {
                 ]
             }
         },
-        meta: { keywords: "كابل انكر ايفون, وصلة انكر للايفون, كابل انكر تايب سي, anker lightning cable", mainTerm: "كابل انكر ايفون" },
+        meta: { keywords: "كابل انكر ايفون, وصلة انكر للايفون, وصله انكر, وصلة انكر ايفون, كابل انكر تايب سي, anker lightning cable, anker lightning, iphone charger anker", mainTerm: "كابل انكر ايفون" },
         expertOpinion: {
             en: "Cables are usually the first thing to break, but not this one. The build quality is exceptional – it feels robust and can withstand serious abuse. MFi certification means no 'accessory not supported' errors. It's a simple product, but one that solves a daily frustration perfectly.",
             ar: "عادة ما تكون الكابلات أول شيء يتلف، لكن ليس هذا. جودة التصنيع استثنائية – ملمسه قوي ويمكنه تحمل الاستخدام الشاق. شهادة MFi تعني عدم وجود أخطاء 'الملحق غير مدعوم'. منتج بسيط، لكنه يحل مشكلة يومية بشكل مثالي."

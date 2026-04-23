@@ -25,6 +25,7 @@ import { protect_phone_from_heat_summer_egypt } from './blog/protect-phone-from-
 import { power_bank_10000mah_real_capacity_myth } from './blog/power-bank-10000mah-real-capacity-myth';
 import { how_to_spot_fake_chargers_7_tests } from './blog/how-to-spot-fake-chargers-7-tests';
 import { gan_charger_technology_guide_egypt } from './blog/gan-charger-technology-guide-egypt';
+import { soundcore_models_guide_egypt_2026 } from './blog/soundcore-models-guide-egypt-2026';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -48,6 +49,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     power_bank_10000mah_real_capacity_myth,
     how_to_spot_fake_chargers_7_tests,
     gan_charger_technology_guide_egypt,
+    soundcore_models_guide_egypt_2026,
 ];
 
 

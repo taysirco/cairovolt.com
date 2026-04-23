@@ -48,5 +48,5 @@ export const joyroom_type_c_lightning_braided = {
             en: "The braided exterior isn't just aesthetic — it provides 3x the bending resistance of smooth TPE cables. For users who wind their cable tightly, this is the durability upgrade that matters.",
             ar: "الغلاف المجدول مش بس شكل — بيوفر 3 أضعاف مقاومة الانحناء مقارنة بكابلات TPE الناعمة. للي بيلف الكابل بإحكام، دي ترقية المتانة اللي بتفرق فعلاً."
         },
-        meta: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt", mainTerm: "joyroom usb-c lightning cable" }
+        meta: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt, كابل جوي روم نايلون, وصلة جوي روم ايفون", mainTerm: "joyroom usb-c lightning cable" }
     };

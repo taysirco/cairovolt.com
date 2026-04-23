@@ -134,7 +134,7 @@ export const anker_soundcore_k20i = {
 </div>
 `,
                 features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق Soundcore", "🎮 وضع تأخير منخفض"],
-                metaTitle: "سماعة انكر K20i ⚡ خصم 10% | 36 ساعة تشغيل | ادفع عند الاستلام",
+                metaTitle: "سعر سماعة انكر K20i في مصر ⚡ خصم 10% | ايربودز انكر 36 ساعة | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة انكر K20i في مصر. 13mm BassUp، 36 ساعة بطارية، نصف داخلية مريحة. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "السماعات النصف داخلية مريحة طول اليوم؟", answer: "أيوه! بدون أطراف سيليكون = بدون ضغط. بـ 3.3 جرام بس، بتنسى إنك لابسها. مثالية لجلسات 6+ ساعات." },
@@ -145,6 +145,6 @@ export const anker_soundcore_k20i = {
                 ]
             }
         },
-        meta: { keywords: "anker k20i, anker soundcore k20i, سماعة انكر k20i, سماعة نصف داخلية, anker semi in ear", mainTerm: "anker soundcore k20i earbuds" },
+        meta: { keywords: "anker k20i, anker soundcore k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, soundcore airpods, اير بودز انكر", mainTerm: "anker soundcore k20i earbuds" },
         expertOpinion: { en: "The K20i is the comfort king. 13mm BassUp drivers outperform the price, 36h battery eliminates charging anxiety, and semi-in-ear design means zero ear fatigue. AI ENC passed our Cairo Metro test. Best-value semi-in-ear in Egypt.", ar: "الـ K20i ملك الراحة. درايفرات 13mm BassUp أداؤها أحسن من سعرها، بطارية 36 ساعة بتخلّص على قلق الشحن، والتصميم النصف داخلي يعني صفر إرهاق أذن. AI ENC نجحت في اختبار مترو القاهرة. أفضل قيمة سماعة نصف داخلية في مصر." }
     };

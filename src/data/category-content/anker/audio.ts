@@ -16,7 +16,7 @@ export const anker_audio_content: CategoryContent = {
                 },
                 history: {
                     en: 'Soundcore was launched in 2016 as Anker\'s dedicated audio brand, bringing the same commitment to quality and innovation that made Anker #1 in charging. Today, Soundcore has served over 100 million users worldwide with award-winning earbuds and speakers. The brand\'s philosophy is simple: deliver premium audio experiences at accessible prices. From the budget-friendly R50i to the flagship Liberty 4, every Soundcore product is engineered with precision and backed by the Anker quality guarantee.',
-                    ar: 'أُطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من انكر، حاملةً نفس الالتزام بالجودة والابتكار الذي جعل انكر الأولى في الشحن. اليوم، خدمت ساوند كور أكثر من 100 مليون مستخدم حول العالم بسماعات ومكبرات صوت حائزة على جوائز. فلسفة العلامة بسيطة: تقديم تجارب صوتية ممتازة بأسعار معقولة. من R50i الاقتصادية إلى Liberty 4 الرائدة، كل منتج ساوند كور مُصمم بدقة ومدعوم بضمان جودة انكر.'
+                    ar: 'أُطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من انكر، حاملةً نفس الالتزام بالجودة والابتكار الذي جعل انكر الأولى في الشحن. اليوم، خدمت ساوند كور أكثر من 100 مليون مستخدم حول العالم بسماعات ومكبرات صوت حائزة على جوائز. فلسفة العلامة بسيطة: تقديم تجارب صوتية ممتازة بأسعار معقولة. من R50i الاقتصادية إلى Liberty 4 الرائدة — سواء كنت تبحث عن ايربودز انكر اقتصادية أو سماعة بلوتوث بإلغاء ضوضاء احترافي، انكر ساوند كور عندها الحل المناسب لميزانيتك.'
                 },
                 achievements: [
                     { icon: 'headphones', stat: { en: '100M+', ar: '+100 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
@@ -53,7 +53,9 @@ export const anker_audio_content: CategoryContent = {
                         { question: 'هل سماعات Soundcore تدعم عزل الضوضاء ANC؟', answer: 'ليس كل الموديلات! R50i و P20i لا تحتوي ANC (لكن تعزل الضوضاء بشكل سلبي). أما Liberty 4 و P40i فتأتي بـ ANC نشط يحجب 98% من الضوضاء. إذا كنت تستخدم المواصلات كثيراً، ANC يستحق الفرق.' },
                         { question: 'كيف أعرف أن سماعة Soundcore أصلية وليست تقليد؟', answer: 'الطريقة الأضمن: حمّل تطبيق Soundcore من App Store أو Google Play وحاول ربط السماعة. إذا لم يتعرف التطبيق عليها = مقلدة 100%. المنتجات الأصلية تظهر فوراً وتتيح لك تحديث firmware وتخصيص EQ.' },
                         { question: 'أيهما أفضل: سماعات Soundcore أم AirPods؟', answer: 'يعتمد على احتياجك! AirPods ممتازة لمستخدمي آيفون وتكامل مع Apple. Soundcore تقدم نفس الجودة (أحياناً أفضل في الباس) بنصف السعر أو أقل، مع Hi-Res Audio وتطبيق تخصيص قوي. للميزانية الذكية، Soundcore هي الخيار.' },
-                        { question: 'هل تطبيق Soundcore متاح بالعربي؟', answer: 'التطبيق حالياً بالإنجليزية فقط، لكنه سهل الاستخدام جداً. يتيح لك: تخصيص EQ (الصوت)، تفعيل HearID (ملف صوتي شخصي)، تحديث firmware السماعة، وتتبع السماعة إذا ضاعت. متاح مجاناً على iOS و Android.' }
+                        { question: 'هل تطبيق Soundcore متاح بالعربي؟', answer: 'التطبيق حالياً بالإنجليزية فقط، لكنه سهل الاستخدام جداً. يتيح لك: تخصيص EQ (الصوت)، تفعيل HearID (ملف صوتي شخصي)، تحديث firmware السماعة، وتتبع السماعة إذا ضاعت. متاح مجاناً على iOS و Android.' },
+                         { question: 'كم سعر سماعة Soundcore في مصر؟', answer: 'أسعار سماعات Soundcore في مصر 2026: K20i من 750 جنيه، R50i من 950 جنيه، R50i NC من 1,299 جنيه. كل الأسعار تشمل ضمان 18 شهر من كايرو فولت — الموزع المعتمد لانكر مصر.' },
+                         { question: 'إيه أفضل سماعة بلوتوث انكر Soundcore في مصر؟', answer: 'يعتمد على ميزانيتك: K20i (750 ج) لأقصى راحة بدون ضغط على الأذن، R50i (950 ج) لأفضل قيمة مع باس قوي، R50i NC (1,299 ج) لإلغاء الضوضاء. كلها ايربودز ساوند كور أصلية بضمان 18 شهر من كايرو فولت.' }
                     ],
                     en: [
                         { question: 'What is the difference between Soundcore R50i, P20i, and Liberty 4?', answer: 'R50i (EGP 950): Budget-friendly with excellent sound and 10-hour battery. P20i (EGP 820): Same price, different design with more colors. Liberty 4 (Flagship): Features ANC, Hi-Res Audio, and personalized HearID. Choose R50i for budget, Liberty 4 for the full experience.' },
@@ -68,12 +70,12 @@ export const anker_audio_content: CategoryContent = {
                 en: {
                     title: 'Anker Soundcore Earbuds Egypt | R50i, P20i, Liberty',
                     description: 'Shop Anker Soundcore earbuds in Egypt. Anker R50i, P20i, Liberty. Premium audio quality with official warranty. Best prices.',
-                    keywords: 'anker soundcore, anker earbuds, anker r50i, soundcore r50i, anker p20i, anker liberty',
+                    keywords: 'anker soundcore, anker earbuds, anker headphones, soundcore r50i, soundcore egypt, anker airpods, airpods anker, soundcore headphones, soundcore earbuds',
                 },
                 ar: {
                     title: 'سماعات انكر Soundcore | Anker Earbuds Egypt - R50i, P20i',
                     description: 'تسوق سماعات انكر Soundcore الأصلية في مصر. anker soundcore, سماعة انكر, anker r50i, soundcore r50i, anker p20i. سماعة انكر بلوتوث بأفضل سعر.',
-                    keywords: 'anker soundcore, سماعة انكر, سماعات انكر, anker r50i, soundcore r50i, anker p20i, سماعة انكر بلوتوث',
+                    keywords: 'سماعة انكر, سماعات انكر, سماعه انكر, ايربودز انكر, سماعة بلوتوث انكر, سماعة soundcore, انكر ساوند كور, سماعات انكر ساوند كور بلوتوث, anker soundcore',
                 }
             },
             pageContent: {

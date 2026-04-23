@@ -13,7 +13,7 @@ export const anker_car_chargers_content: CategoryContent = {
                 ar: {
                     title: 'شاحن سيارة انكر | Anker Car Charger Egypt - شحن سريع',
                     description: 'تسوق شاحن سيارة انكر الأصلي في مصر. شاحن سيارة انكر سريع، Anker Car Charger بأفضل سعر. شاحن سيارة سريع.',
-                    keywords: 'شاحن سيارة انكر, شاحن سيارة سريع, anker car charger, شاحن سيارة',
+                    keywords: 'شاحن سيارة انكر, شاحن سيارة سريع, شاحن السيارة انكر, anker car charger, شاحن سيارة, anker powerdrive, car charger anker',
                 }
             },
             pageContent: {

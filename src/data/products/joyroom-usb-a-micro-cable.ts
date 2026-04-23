@@ -49,5 +49,5 @@ export const joyroom_usb_a_micro_cable = {
             en: "Micro-USB isn't dead — your power bank, Bluetooth speaker, shaver, and kids' tablets still need it. This is the utility cable every Egyptian household still requires.",
             ar: "Micro-USB مش ميت — الباور بانك والسماعة البلوتوث وماكينة الحلاقة وتابلت الأولاد لسه محتاجينه. ده كابل الخدمة اللي كل بيت مصري لسه محتاجه."
         },
-        meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد", mainTerm: "joyroom micro usb cable" }
+        meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد, كابل جوي روم, جوي روم micro usb", mainTerm: "joyroom micro usb cable" }
     };

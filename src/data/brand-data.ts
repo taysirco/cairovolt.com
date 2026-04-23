@@ -133,12 +133,12 @@ export const brandData: Record<string, BrandData> = {
             en: {
                 title: 'Anker Egypt Official | #1 Charging Brand | Power Banks & Soundcore',
                 description: 'The Official Anker Egypt Destination. Shop Anker GaNPrime Chargers, Prime Power Banks, and Soundcore Liberty 4. 100% Original with 18-Month Warranty.',
-                keywords: 'anker egypt, anker power bank, anker ganprime, soundcore liberty 4, anker iphone 17 charger, anker samsung s26 charger, best power bank',
+                keywords: 'anker egypt, anker power bank, anker soundcore, anker charger, anker earbuds, soundcore r50i, anker r50i nc, soundcore egypt, anker verify, anker cable, soundcore liberty 4 pro, anker liberty 4 nc, anker p40i, soundcore space one',
             },
             ar: {
                 title: 'Anker Egypt | انكر مصر - الوكيل الرسمي (باور بانك & Soundcore)',
                 description: 'موقع انكر مصر الرسمي. تسوق منتجات Anker الأصلية: باور بانك Prime، شواحن Nano، وسماعات Soundcore. ضمان الوكيل 18 شهر استبدال فوري.',
-                keywords: 'انكر مصر, توكيل انكر, صيانة انكر, باور بانك انكر, سماعات ساوند كور, شاحن ايفون 17, شاحن سامسونج سريع',
+                keywords: 'انكر مصر, أنكر, توكيل انكر, موقع انكر, باور بانك انكر, سماعة انكر, ايربودز انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر',
             }
         },
         article: {
@@ -267,12 +267,12 @@ export const brandData: Record<string, BrandData> = {
             en: {
                 title: 'Joyroom Egypt | The Budget King | T03s & Power Banks',
                 description: 'The Official Joyroom Egypt Collection. Home of the Legendary T03s Earbuds and Safe Power Banks. 100% Original with Golden Code verification.',
-                keywords: 'joyroom egypt, joyroom t03s original, buy joyroom t03s, joyroom power bank grade a, best budget earbuds, cheap iphone charger',
+                keywords: 'joyroom egypt, joyroom t03s, joyroom t03s pro, joyroom power bank, joyroom charger, joyroom cable, joyroom egypt original, best budget earbuds egypt',
             },
             ar: {
                 title: 'Joyroom Egypt | جوي روم مصر - ملك التوفير (T03s الأصلية)',
                 description: 'متجر جوي روم مصر المعتمد. احصل على سماعات T03s الأسطورية، وباور بانك آمن ببطاريات Grade A+. تأكد من أصالة المنتج بالكود الذهبي.',
-                keywords: 'جوي روم الاصلي, سماعة t03s, سعر t03s في مصر, كيفية معرفة جوي روم الاصلي, باور بانك رخيص وامن, اكسسوارات موبايل',
+                keywords: 'جوي روم, جوي روم الاصلي, سماعة جوي روم, سعر t03s في مصر, سعر سماعة جوي روم, جوي روم t03s, سعر جوي روم t03s, جويروم, باور بانك جوي روم, شاحن جوي روم',
             }
         },
         article: {

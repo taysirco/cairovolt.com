@@ -13,7 +13,7 @@ export const anker_cables_content: CategoryContent = {
                 ar: {
                     title: 'كابل انكر | Anker Cable Egypt - وصلة انكر للايفون',
                     description: 'تسوق كابل انكر الأصلي في مصر. وصلة انكر للايفون, كابل شاحن انكر, anker type c cable, وصلة شاحن انكر بأفضل سعر.',
-                    keywords: 'وصلة انكر للايفون, وصلة شاحن انكر, كابل شاحن انكر, anker type c cable, كابل انكر ايفون, وصلة شاحن, وصلة ايفون',
+                    keywords: 'وصلة انكر للايفون, وصله انكر, وصلة شاحن انكر, كابل شاحن انكر, كابل انكر ايفون, وصلة ايفون, anker type c cable, anker cable type c, anker usb type c, anker lightning',
                 }
             },
             pageContent: {
@@ -54,6 +54,14 @@ export const anker_cables_content: CategoryContent = {
                         {
                             question: 'لماذا سعر كابل انكر أغلى من الكابلات العادية؟',
                             answer: 'لأنك تشتري كابل يعيش 5 أضعاف عمر الكابل العادي، ومعتمد رسمياً من أبل (MFi) ليحمي دائرة شحن هاتفك من التلف.'
+                        },
+                        {
+                            question: 'ما الفرق بين وصلة انكر للايفون ووصله انكر العادية؟',
+                            answer: 'وصلة انكر للايفون (Lightning أو USB-C to Lightning) معتمدة MFi — تعمل مع iOS بدون رسائل خطأ. كابل انكر ايفون الأصلي متوفر من كايرو فولت بضمان 18 شهر.'
+                        },
+                        {
+                            question: 'هل كابل انكر تايب سي يناسب سامسونج؟',
+                            answer: 'أيوه! كابل انكر USB-C يشحن سامسونج سوبر فاست (25W+)، ويتحمل 35,000 ثنية. وصله انكر تايب سي من كايرو فولت مع ضمان 18 شهر.'
                         }
                     ],
                     products: [

@@ -203,7 +203,7 @@ export const anker_powercore_26800 = {
                 ]
             }
         },
-        meta: { keywords: "باور بانك انكر 26800, انكر 26800", mainTerm: "باور بانك انكر 26800" },
+        meta: { keywords: "باور بانك انكر 26800, انكر 26800, anker power bank 26800, anker powercore 26800, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك", mainTerm: "باور بانك انكر 26800" },
         expertOpinion: {
             en: "This is the ultimate travel companion. The 26,800mAh capacity is massive – enough to keep your phone running for a week. The three USB ports are a godsend for families or groups. It takes a while to recharge (use two cables!), but once it's full, you're set for days. A huge favorite for long trips to Dahab or Siwa.",
             ar: "هذا هو الرفيق المثالي للسفر. سعة 26,800 مللي أمبير هائلة – تكفي لتشغيل هاتفك لمدة أسبوع. منافذ USB الثلاثة نعمة للعائلات أو المجموعات. يستغرق وقتاً طويلاً لإعادة الشحن (استخدم كابلين!)، لكن بمجرد امتلاءه، فأنت جاهز لأيام. مفضل جداً للرحلات الطويلة إلى دهب أو سيوة."

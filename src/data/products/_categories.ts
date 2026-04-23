@@ -11,7 +11,7 @@ export const categories = [
             en: { name: "Power Banks", description: "Essential backup power for outages — keeps your router and phone running." },
             ar: { name: "باور بانك", description: "المنقذ الحقيقي وقت تخفيف الأحمال وقطع الكهرباء.. هيشحن موبايلك والراوتر في الطوارئ." }
         },
-        meta: { keywords: "باور بانك, شاحن متنقل, بطارية متنقلة, power bank" }
+        meta: { keywords: "باور بانك, باور بنك, شاحن متنقل, بطارية متنقلة, power bank, anker power bank, انكر باور بانك, anker powerbank" }
     },
     {
         slug: "wall-chargers",
@@ -23,7 +23,7 @@ export const categories = [
             en: { name: "Wall Chargers", description: "Stable current chargers protecting your devices from grid voltage fluctuations." },
             ar: { name: "شواحن حائط", description: "شواحن بتيار ثابت تحمي بطارية موبايلك من تذبذب الكهربا وتخريف التاتش." }
         },
-        meta: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger" }
+        meta: { keywords: "شاحن, شاحن حائط, شاحن سريع, wall charger, شاحن انكر, راس شاحن انكر, شاحن type c, anker charger, شاحن ايفون انكر" }
     },
     {
         slug: "cables",
@@ -35,7 +35,7 @@ export const categories = [
             en: { name: "Charging Cables", description: "Ultra-durable certified cables — never risk a counterfeit destroying your phone battery." },
             ar: { name: "كابلات شحن", description: "كابلات بتعيش بالسنين.. بلاش تسترخص وتدمر بطاريتك بكابلات مضروبة من العتبة." }
         },
-        meta: { keywords: "كابل, سلك شحن, وصلة ايفون, cable" }
+        meta: { keywords: "كابل, سلك شحن, وصلة ايفون, cable, وصلة انكر, وصله انكر, anker cable type c, anker lightning" }
     },
     {
         slug: "car-chargers",
@@ -47,7 +47,7 @@ export const categories = [
             en: { name: "Car Chargers", description: "Cool-running fast chargers surviving extreme heat and summer traffic." },
             ar: { name: "شواحن سيارة", description: "شحن سريع مبيسخنش تحت شمس الأسفلت وفي زحمة الدائري أثناء تشغيل الـ GPS." }
         },
-        meta: { keywords: "شاحن سيارة, car charger" }
+        meta: { keywords: "شاحن سيارة, car charger, anker car charger, car charger anker, شاحن سيارة انكر" }
     },
     {
         slug: "audio",
@@ -59,7 +59,7 @@ export const categories = [
             en: { name: "Audio & Earbuds", description: "True ANC earbuds sealing out street noise, metro sounds, and traffic." },
             ar: { name: "سماعات وايربودز", description: "عزل ضوضاء حقيقي يفصلك تماماً عن دوشة الشارع والمترو والميكروباصات." }
         },
-        meta: { keywords: "سماعات, ايربودز, earbuds" }
+        meta: { keywords: "سماعات, ايربودز, earbuds, ايربودز انكر, سماعه انكر, سماعة بلوتوث انكر, anker earbuds, soundcore earbuds, anker headphones" }
     },
     {
         slug: "smart-watches",
@@ -95,6 +95,6 @@ export const categories = [
             en: { name: "Bluetooth Speakers", description: "Massive sound and endless battery perfectly suited for summer beach weekends." },
             ar: { name: "مكبرات صوت بلوتوث", description: "سماعات بصوت جبار وبطارية مبتفصلش عشان خروجات الساحل وتجمعات الرووف." }
         },
-        meta: { keywords: "speaker, bluetooth speaker, soundcore, مكبر صوت, سماعة بلوتوث" }
+        meta: { keywords: "speaker, bluetooth speaker, soundcore, مكبر صوت, سماعة بلوتوث, soundcore speaker, سماعة soundcore" }
     }
 ];

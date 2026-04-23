@@ -129,7 +129,7 @@ export const anker_soundcore_r50i_nc = {
 </div>
 `,
                 features: ["🔇 42dB ANC هجين", "🔋 45 ساعة إجمالي", "🎙️ 4 مايك AI", "📱 علبة حامل موبايل", "🎵 10mm BassUp™", "💧 IP54", "⚡ شحن 10 دقايق", "🔊 وضع شفافية"],
-                metaTitle: "سماعة انكر R50i NC ⚡ خصم 16% | إلغاء ضوضاء 42dB | ادفع عند الاستلام",
+                metaTitle: "سعر سماعة انكر R50i NC في مصر ⚡ خصم 16% | إلغاء ضوضاء 42dB | ادفع عند الاستلام",
                 metaDesc: "اشتري سماعة انكر R50i NC في مصر. 42dB إلغاء ضوضاء، 45 ساعة بطارية، 4 مايك AI، حامل موبايل. ✓ ضمان 18 شهر.",
                 faqs: [
                     { question: "الـ 42dB ANC كويس قد إيه؟", answer: "بيمنع محركات الطائرة وقطارات المترو وضوضاء الكافيهات. اتاختبر في رحلات مصر للطيران ومترو القاهرة. بينافس ايربودز برو 2 بنص السعر." },
@@ -140,6 +140,6 @@ export const anker_soundcore_r50i_nc = {
                 ]
             }
         },
-        meta: { keywords: "anker r50i nc, anker soundcore r50i nc, سماعة انكر r50i, سماعة anc انكر, anker noise cancelling earbuds", mainTerm: "anker soundcore r50i nc anc earbuds" },
+        meta: { keywords: "anker r50i nc, anker soundcore r50i nc, سماعة انكر r50i nc, سماعه انكر r50i nc, ايربودز انكر r50i nc, سعر انكر r50i nc, انكر r50i nc, سعر سماعة انكر r50i, soundcore r50i nc سعر, anker r50i nc سعر", mainTerm: "anker soundcore r50i nc anc earbuds" },
         expertOpinion: { en: "The R50i NC delivers AirPods Pro 2-level ANC at half the price. 42dB blocks Cairo's noise. 4-mic AI calls are professional-grade. Phone stand case is genius. 45h battery = 10-day endurance. Best ANC value in Egypt.", ar: "الـ R50i NC بتوفر ANC بمستوى ايربودز برو 2 بنص السعر. 42dB بتمنع ضوضاء القاهرة. 4 مايك AI للمكالمات درجة احترافية. علبة حامل الموبايل عبقرية. 45 ساعة = 10 أيام." }
     };
