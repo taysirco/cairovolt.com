@@ -6,8 +6,12 @@ import { NextResponse } from 'next/server';
  * Spec: https://agenticcommerce.dev
  * RFC:  https://github.com/agentic-commerce-protocol/agentic-commerce-protocol/blob/main/rfcs/rfc.discovery.md
  * 
- * Discovery document for AI agents to find CairoVolt's ACP
- * implementation, supported transports, and available services.
+ * DiscoveryResponse document per the ACP RFC conformance checklist:
+ *  - protocol.name = "acp"
+ *  - protocol.version = YYYY-MM-DD format
+ *  - protocol.supported_versions = non-empty array, chronological
+ *  - transports includes "rest"
+ *  - capabilities.services = string[] (closed enum: checkout, orders, carts, delegate_payment)
  */
 
 export const revalidate = 86400; // 24h ISR
@@ -15,78 +19,34 @@ export const revalidate = 86400; // 24h ISR
 export function GET() {
     const baseUrl = 'https://cairovolt.com';
 
-    const acp = {
+    // Strict ACP DiscoveryResponse per RFC
+    const discovery = {
         protocol: {
             name: 'acp',
-            version: '1.0.0',
+            version: '2025-09-29',
+            supported_versions: ['2025-09-29'],
+            documentation_url: 'https://agenticcommerce.dev',
         },
         api_base_url: `${baseUrl}/api/v1`,
-        provider: {
-            name: 'CairoVolt',
-            description: "Egypt's authorized Anker & Joyroom distributor — mobile accessories with official warranty.",
-            url: baseUrl,
-            contact: 'support@cairovolt.com',
-        },
-        transports: [
-            'https',
-            'json-rpc',
-        ],
+        transports: ['rest', 'mcp'],
         capabilities: {
-            services: [
+            // services is a string[] of closed-enum values per RFC
+            services: ['checkout', 'orders', 'carts'],
+            extensions: [
                 {
-                    name: 'product_catalog',
-                    description: 'Browse and search Anker & Joyroom products with real-time pricing and availability in EGP.',
-                    endpoint: '/api/products',
-                    methods: ['GET'],
-                },
-                {
-                    name: 'checkout',
-                    description: 'Place Cash on Delivery orders to all 27 Egyptian governorates. Free shipping above 500 EGP.',
-                    endpoint: '/api/v1/checkout',
-                    methods: ['POST'],
-                },
-                {
-                    name: 'quick_order',
-                    description: 'Simplified single-product COD order for agent-driven quick purchases.',
-                    endpoint: '/api/v1/quick-cod',
-                    methods: ['POST'],
-                },
-                {
-                    name: 'product_verification',
-                    description: 'Verify product authenticity using C2PA digital fingerprinting with 13-character serial numbers.',
-                    endpoint: '/api/v1/verify-content',
-                    methods: ['POST'],
-                },
-                {
-                    name: 'lab_data',
-                    description: 'Independent lab test results for products tested under Egyptian conditions (37-42°C ambient).',
-                    endpoint: '/api/lab-data/json',
-                    methods: ['GET'],
+                    name: 'fulfillment',
+                    spec: 'https://agenticcommerce.dev/specs/fulfillment',
                 },
             ],
-            payments: {
-                methods: ['cod'],
-                currencies: ['EGP'],
-            },
-            shipping: {
-                regions: ['EG'],
-                governorates: 27,
-                free_threshold: { amount: 500, currency: 'EGP' },
-            },
-            languages: ['ar', 'en'],
-        },
-        documentation: {
-            openapi: `${baseUrl}/openapi.json`,
-            llms: `${baseUrl}/.well-known/llms.txt`,
-            mcp: `${baseUrl}/.well-known/mcp/server-card.json`,
-            a2a: `${baseUrl}/.well-known/agent-card.json`,
+            supported_currencies: ['EGP'],
+            supported_locales: ['ar-EG', 'en-US'],
         },
     };
 
-    return NextResponse.json(acp, {
+    return NextResponse.json(discovery, {
         headers: {
             'Content-Type': 'application/json',
-            'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+            'Cache-Control': 'public, max-age=3600, s-maxage=86400',
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
             'X-Content-Type-Options': 'nosniff',
