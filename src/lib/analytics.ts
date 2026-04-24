@@ -164,6 +164,7 @@ export function trackPurchase(
     const key = `purchase_${transactionId}`;
     if (!isNewEvent(key)) return;
 
+    // GA4: standard purchase event
     dispatchEvent('purchase', {
         transaction_id: transactionId,
         currency: 'EGP',
@@ -172,7 +173,37 @@ export function trackPurchase(
         tax: 0,
         items: items.map(formatItem),
     });
+
+    // Google Ads: conversion event — fires on /confirm page (true purchase point)
+    const fireGoogleAdsConversion = () => {
+        try {
+            const gtag = getGtag();
+            if (!gtag) return;
+            gtag('event', 'ads_conversion_Purchase_1', {
+                send_to: 'AW-18109404098',
+                transaction_id: transactionId,
+                value: totalValue,
+                currency: 'EGP',
+                items: items.map(item => ({
+                    id: item.item_id,
+                    name: item.item_name,
+                    quantity: item.quantity || 1,
+                    price: item.price || 0,
+                })),
+            });
+        } catch {
+            // Graceful degradation
+        }
+    };
+
+    if (typeof window === 'undefined') return;
+    if ('requestIdleCallback' in window) {
+        (window as unknown as { requestIdleCallback: (cb: () => void) => void }).requestIdleCallback(fireGoogleAdsConversion);
+    } else {
+        setTimeout(fireGoogleAdsConversion, 0);
+    }
 }
+
 
 // ═════════════════════════════════════════════════════════════════════════════
 // UX Metrics handles: Copy Events, Scroll Depth, FAQ Toggles, and general engagement.
