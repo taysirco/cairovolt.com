@@ -131,6 +131,23 @@ export default async function RootLayout({
             `,
           }}
         />
+        {/* Google tag (gtag.js) — inline in <head> so Google's checker detects it in static HTML */}
+        {/* GA4: G-ZH7YYZRWSE | Google Ads: AW-18109404098 */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18109404098"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-ZH7YYZRWSE', { page_path: window.location.pathname });
+              gtag('config', 'AW-18109404098');
+            `,
+          }}
+        />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
         <script
           dangerouslySetInnerHTML={{
