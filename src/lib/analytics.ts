@@ -174,25 +174,20 @@ export function trackPurchase(
         items: items.map(formatItem),
     });
 
-    // Google Ads: conversion event — fires on /confirm page (true purchase point)
+    // Google Ads: official conversion event — label provided by Google Ads
+    // send_to format: AW-{account_id}/{conversion_label}
     const fireGoogleAdsConversion = () => {
         try {
             const gtag = getGtag();
             if (!gtag) return;
-            gtag('event', 'ads_conversion_Purchase_1', {
-                send_to: 'AW-18109404098',
+            gtag('event', 'conversion', {
+                send_to: 'AW-18109404098/dvZmCOrC2aIcEMKnnrtD',
                 transaction_id: transactionId,
                 value: totalValue,
                 currency: 'EGP',
-                items: items.map(item => ({
-                    id: item.item_id,
-                    name: item.item_name,
-                    quantity: item.quantity || 1,
-                    price: item.price || 0,
-                })),
             });
         } catch {
-            // Graceful degradation
+            // Graceful degradation — ad blockers, private browsing
         }
     };
 
