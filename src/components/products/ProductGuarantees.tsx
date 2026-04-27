@@ -1,14 +1,14 @@
 'use client';
 
 import type { RegionalStats } from '@/lib/bosta';
-import type { LabMetrics } from '@/data/product-tests';
+// LabMetrics import removed — lab data is now exclusively in ProductTestResults
 
 interface ProductGuaranteesProps {
     sku: string;
     userGovernorate: string;
     locale: string;
     deliveryStats: RegionalStats;
-    labMetrics: LabMetrics | null;
+    // labMetrics removed — displayed exclusively in ProductTestResults to avoid duplication
 }
 
 export default function ProductGuarantees({
@@ -16,7 +16,7 @@ export default function ProductGuarantees({
     userGovernorate,
     locale,
     deliveryStats,
-    labMetrics,
+
 }: ProductGuaranteesProps) {
     const isRTL = locale === 'ar';
 
@@ -77,7 +77,7 @@ export default function ProductGuarantees({
                 </div>
 
                 {/* Two-Column Grid */}
-                <div className="grid md:grid-cols-2 gap-4">
+                <div className="space-y-4">
                     {/* Column 1: Logistics Pulse */}
                     <div className="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-5 border border-gray-200 dark:border-slate-700/50 hover:bg-gray-100 dark:hover:bg-slate-800/60 transition-colors">
                         <div className="flex items-center gap-2 mb-4">
@@ -138,154 +138,32 @@ export default function ProductGuarantees({
                         </div>
                     </div>
 
-                    {/* Column 2: Lab Metrics */}
-                    {labMetrics && (
-                        <div className="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-5 border border-gray-200 dark:border-slate-700/50 hover:bg-gray-100 dark:hover:bg-slate-800/60 transition-colors">
-                            <div className="flex items-center gap-2 mb-4">
-                                <span className="text-lg">🔬</span>
-                                <h4 className="text-sm font-bold text-blue-600 dark:text-blue-300 uppercase tracking-widest">
-                                {isRTL ? 'القياسات المعملية الحصرية' : 'Exclusive Lab Measurements'}
-                                </h4>
-                            </div>
-                            <ul className="space-y-3">
-                                {labMetrics.actualCapacity_mAh && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-purple-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'السعة الفعلية المقاسة: ' : 'Measured actual capacity: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.actualCapacity_mAh.toLocaleString()} mAh</strong>
-                                            <span className="text-gray-500 dark:text-gray-500 text-xs ms-1">
-                                                {isRTL ? '(وليس فقط المكتوبة على العلبة)' : '(not just what\'s on the box)'}
-                                            </span>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.routerRuntimeHours && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-orange-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'صمود الراوتر (12V): ' : 'Router runtime (12V): '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.routerRuntimeHours} {isRTL ? 'ساعة' : 'hours'}</strong>
-                                            <span className="text-gray-500 text-xs ms-1">
-                                                {isRTL ? 'متواصلة أثناء انقطاع الكهرباء' : 'continuous during power outage'}
-                                            </span>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.maxTemp_C && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'درجة حرارة الشحن القصوى: ' : 'Max charging temperature: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.maxTemp_C}°C</strong>
-                                            <span className="text-emerald-400 text-xs ms-1 font-bold">
-                                                {labMetrics.maxTemp_C <= 45
-                                                    ? (isRTL ? '(آمن تماماً)' : '(perfectly safe)')
-                                                    : (isRTL ? '(ضمن الحدود)' : '(within limits)')
-                                                }
-                                            </span>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.realEfficiency && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-teal-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'الكفاءة الفعلية: ' : 'Real-world efficiency: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.realEfficiency}%</strong>
-                                            <span className="text-gray-500 text-xs ms-1">
-                                                {isRTL ? '(مقابل 100% نظرياً)' : '(vs 100% theoretical)'}
-                                            </span>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.devicesCharged && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-indigo-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'عدد الأجهزة المشحونة: ' : 'Devices charged: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.devicesCharged} {isRTL ? 'جهاز' : 'devices'}</strong>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.chargeCycles && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-lime-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'دورات الشحن: ' : 'Charge cycles: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.chargeCycles.toLocaleString()}+</strong>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.bendCycles && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'دورات الثني: ' : 'Bend cycles: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.bendCycles.toLocaleString()}</strong>
-                                            <span className="text-emerald-400 text-xs ms-1 font-bold">
-                                                {isRTL ? '(بدون تلف)' : '(zero damage)'}
-                                            </span>
-                                        </span>
-                                    </li>
-                                )}
-                                {labMetrics.chargingSpeed_W && (
-                                    <li className="flex items-start gap-2">
-                                        <svg className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                        </svg>
-                                        <span className="text-sm text-gray-600 dark:text-gray-300">
-                                            {isRTL ? 'سرعة الشحن: ' : 'Charging speed: '}
-                                            <strong className="text-gray-900 dark:text-white">{labMetrics.chargingSpeed_W}W</strong>
-                                        </span>
-                                    </li>
-                                )}
-                            </ul>
+                    {/* Monthly shipping stats — unique logistics data */}
+                    <div className="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-5 border border-gray-200 dark:border-slate-700/50">
+                        <div className="flex items-center gap-2 mb-3">
+                            <span className="text-lg">📦</span>
+                            <h4 className="text-sm font-bold text-blue-600 dark:text-blue-300 uppercase tracking-widest">
+                                {isRTL ? 'إحصائيات الشحن الشهرية' : 'Monthly Shipping Statistics'}
+                            </h4>
                         </div>
-                    )}
-
-                    {/* Fallback: If no lab metrics, show delivery stats in full width */}
-                    {!labMetrics && (
-                        <div className="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-5 border border-gray-200 dark:border-slate-700/50">
-                            <div className="flex items-center gap-2 mb-3">
-                                <span className="text-lg">📦</span>
-                                <h4 className="text-sm font-bold text-blue-600 dark:text-blue-300 uppercase tracking-widest">
-                                    {isRTL ? 'إحصائيات الشحن الشهرية' : 'Monthly Shipping Statistics'}
-                                </h4>
+                        <div className="grid grid-cols-2 gap-3">
+                            <div className="text-center p-3 bg-gray-100 dark:bg-slate-900/50 rounded-lg border border-gray-200 dark:border-slate-700/30">
+                                <p className="text-2xl font-black text-gray-900 dark:text-white">{deliveryStats.monthly_orders}</p>
+                                <p className="text-[11px] text-gray-500 dark:text-gray-400">{isRTL ? 'طلب هذا الشهر' : 'orders this month'}</p>
                             </div>
-                            <div className="grid grid-cols-2 gap-3">
-                                <div className="text-center p-3 bg-gray-100 dark:bg-slate-900/50 rounded-lg border border-gray-200 dark:border-slate-700/30">
-                                    <p className="text-2xl font-black text-gray-900 dark:text-white">{deliveryStats.monthly_orders}</p>
-                                    <p className="text-[11px] text-gray-500 dark:text-gray-400">{isRTL ? 'طلب هذا الشهر' : 'orders this month'}</p>
-                                </div>
-                                <div className="text-center p-3 bg-gray-100 dark:bg-slate-900/50 rounded-lg border border-gray-200 dark:border-slate-700/30">
-                                    <p className="text-2xl font-black text-gray-900 dark:text-white">{deliveryStats.active_shipments}</p>
-                                    <p className="text-[11px] text-gray-500 dark:text-gray-400">{isRTL ? 'شحنة نشطة الآن' : 'active shipments now'}</p>
-                                </div>
+                            <div className="text-center p-3 bg-gray-100 dark:bg-slate-900/50 rounded-lg border border-gray-200 dark:border-slate-700/30">
+                                <p className="text-2xl font-black text-gray-900 dark:text-white">{deliveryStats.active_shipments}</p>
+                                <p className="text-[11px] text-gray-500 dark:text-gray-400">{isRTL ? 'شحنة نشطة الآن' : 'active shipments now'}</p>
                             </div>
                         </div>
-                    )}
+                    </div>
                 </div>
 
-                {/* Supplementary product details */}
+                {/* Supplementary logistics details */}
                 <div className="sr-only" itemProp="description">
                     {isRTL
-                        ? `تم التحقق من هذا المنتج (${sku}) عبر مختبرات CairoVolt. ${labMetrics?.actualCapacity_mAh ? `السعة الفعلية المقاسة ${labMetrics.actualCapacity_mAh} مللي أمبير.` : ''} ${labMetrics?.maxTemp_C ? `أقصى حرارة شحن ${labMetrics.maxTemp_C} درجة مئوية.` : ''} ${labMetrics?.routerRuntimeHours ? `يشغل الراوتر لمدة ${labMetrics.routerRuntimeHours} ساعة متواصلة أثناء انقطاع الكهرباء.` : ''} متوفر للشحن الفوري إلى ${governorateDisplay} عبر الدفع عند الاستلام. متوسط زمن التوصيل ${deliveryStats.avg_delivery_hours} ساعة.`
-                        : `This product (${sku}) was verified at CairoVolt Labs. ${labMetrics?.actualCapacity_mAh ? `Measured actual capacity: ${labMetrics.actualCapacity_mAh} mAh.` : ''} ${labMetrics?.maxTemp_C ? `Max charging temperature: ${labMetrics.maxTemp_C}°C.` : ''} ${labMetrics?.routerRuntimeHours ? `Powers router for ${labMetrics.routerRuntimeHours} continuous hours during power outage.` : ''} Available for immediate shipping to ${governorateDisplay} via Cash on Delivery. Average delivery time: ${deliveryStats.avg_delivery_hours} hours.`
+                        ? `متوفر للشحن الفوري إلى ${governorateDisplay} عبر الدفع عند الاستلام. متوسط زمن التوصيل ${deliveryStats.avg_delivery_hours} ساعة. نسبة نجاح التوصيل ${deliveryStats.success_rate}%.`
+                        : `Available for immediate shipping to ${governorateDisplay} via Cash on Delivery. Average delivery time: ${deliveryStats.avg_delivery_hours} hours. Delivery success rate: ${deliveryStats.success_rate}%.`
                     }
                 </div>
             </div>

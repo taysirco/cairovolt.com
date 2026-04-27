@@ -559,12 +559,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             {productName}
                         </h1>
 
-                        {/* Short Description */}
-                        {productShortDesc && (
-                            <p className="text-sm md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                                {productShortDesc}
-                            </p>
-                        )}
+                        {/* Short Description removed — already displayed inside QuickSummary above */}
 
                         {/* AI TL;DR */}
                         {productDetail?.aiTldr && (
@@ -799,7 +794,6 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             userGovernorate={userGovernorate}
                             locale={locale}
                             deliveryStats={deliveryIntelligence}
-                            labMetrics={labMetrics}
                         />
                     </section>
 
