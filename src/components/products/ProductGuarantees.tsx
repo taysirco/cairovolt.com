@@ -67,7 +67,7 @@ export default function ProductGuarantees({
                                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                 </svg>
-                            {isRTL ? 'بيانات مباشرة من المستودع والمختبر' : 'Live Warehouse & Lab Data'}
+                            {isRTL ? 'بيانات التوصيل المباشرة' : 'Live Delivery Data'}
                             </span>
                             <span className="text-[11px] text-gray-500 dark:text-gray-400 font-medium bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-full border border-gray-200 dark:border-white/10">
                                 {isRTL ? `مخصص لمنطقتك: ${governorateDisplay}` : `Customized for: ${governorateDisplay}`}
@@ -106,15 +106,7 @@ export default function ProductGuarantees({
                                     <strong className="text-gray-900 dark:text-white">{deliveryStats.success_rate}%</strong>
                                 </span>
                             </li>
-                            <li className="flex items-start gap-2">
-                                <svg className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                                </svg>
-                                <span className="text-sm text-gray-600 dark:text-gray-300">
-                                    {isRTL ? 'حالة المخزون (دمياط الجديدة): ' : 'Warehouse status (New Damietta): '}
-                                    <span className="text-green-600 dark:text-green-400 font-bold">{isRTL ? 'مُجهز للشحن الفوري' : 'Ready for immediate shipping'}</span>
-                                </span>
-                            </li>
+
                             <li className="flex items-start gap-2">
                                 <svg className="w-4 h-4 text-yellow-400 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />

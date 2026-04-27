@@ -511,24 +511,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     {/* Product Info */}
                     <div className="space-y-6 max-w-full min-w-0">
 
-                        {/* AI Quick Summary - New Addition */}
-                        <QuickSummary
-                            product={{
-                                brand: product.brand,
-                                price: activePrice,
-                                translations: {
-                                    en: {
-                                        name: product.translations?.en?.name || product.slug,
-                                        shortDescription: product.translations?.en?.shortDescription || ''
-                                    },
-                                    ar: {
-                                        name: product.translations?.ar?.name || product.slug,
-                                        shortDescription: product.translations?.ar?.shortDescription || ''
-                                    }
-                                }
-                            }}
-                            locale={locale}
-                        />
+                        {/* QuickSummary removed — duplicated H1 + Brand Badge + Price Block */}
 
                         {/* Brand & Stock */}
                         <div className="flex flex-wrap items-center gap-2">
@@ -753,25 +736,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {/* Product Details */}
             <div className="container mx-auto px-3 sm:px-4 py-8 md:py-12">
                 <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-lg max-w-full">
-                    {/* 1. Features Section — "Why should I buy this?" */}
-                    {productFeatures.length > 0 && (
-                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800" aria-label={isRTL ? 'مميزات المنتج' : 'Product Features'}>
-                            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <SvgIcon name="bolt" className="w-6 h-6" />
-                                {tProduct('features')}
-                            </h2>
-                            <ul className="grid md:grid-cols-2 gap-4">
-                                {productFeatures.map((feature, idx) => (
-                                    <li key={idx} className="flex items-start gap-3">
-                                        <span className={`flex-shrink-0 w-6 h-6 ${brand === 'anker' ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600' : 'bg-red-100 dark:bg-red-900/30 text-red-600'} rounded-full flex items-center justify-center text-sm font-bold`}>
-                                            ✓
-                                        </span>
-                                        <span className="text-gray-700 dark:text-gray-300">{feature}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
-                    )}
+                    {/* Features section removed — same data already in Description (narrative) + Specifications (table) */}
 
                     {/* TestResultsBlock removed — lab data already shown via ProductTestResults metrics below */}
 

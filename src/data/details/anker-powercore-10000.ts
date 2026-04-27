@@ -16,7 +16,6 @@ export const anker_powercore_10000_detail: ProductDetail = {
             'Ports': { en: '1× USB-C + 1× USB-A', ar: '1× USB-C + 1× USB-A' },
             'Recharge Time': { en: '3-4 hours (20W)', ar: '3-4 ساعات (20 واط)' },
             'Weight': { en: '180g', ar: '180 جرام' },
-            'CairoVolt Lab Result': { en: '2 full charges in 12h Cairo commute, zero heat', ar: '2 شحنتين كاملتين خلال 12 ساعة مترو — بدون حرارة' },
         },
         labVerified: {
             result: { en: 'Fully charged iPhone 15 twice (0-100% each) during a 12-hour Cairo metro workday. Temperature stayed ambient. No charging interruptions.', ar: 'شحن iPhone 15 مرتين كاملتين (0-100%) خلال 12 ساعة عمل في مترو القاهرة. الحرارة بقيت طبيعية. لا توقفات شحن.' },

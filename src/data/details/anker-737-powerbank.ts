@@ -16,7 +16,6 @@ export const anker_737_powerbank_detail: ProductDetail = {
             'Ports': { en: '2× USB-C + 1× USB-A', ar: '2× USB-C + 1× USB-A' },
             'Recharge Time': { en: '<1 hour (140W)', ar: 'أقل من ساعة (140W)' },
             'Weight': { en: '645g', ar: '645 جرام' },
-            'CairoVolt Lab Result': { en: '14h 22min WE VDSL router @ 37°C (Zero-Transfer Time)', ar: '14 ساعة و 22 دقيقة راوتر WE VDSL (37°C) — Zero-Transfer Time' },
         },
         labVerified: {
             result: {
