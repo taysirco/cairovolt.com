@@ -153,7 +153,7 @@ export const joyroom_30w_fast_charger = {
         expertOpinion: {
             en: "Future-proof your charging. With 30W, it maxes out the iPhone 17's charging speed and handles tablets easily. Supporting both PD and QC ensures it charges almost anything fast. It's the one brick to carry for all your mobile gear.",
             ar: "امن شحنك للمستقبل. مع 30 واط، يستغل أقصى سرعة شحن لايفون 17 ويتعامل مع التابلت بسهولة. دعم كل من PD و QC يضمن شحن أي شيء تقريباً بسرعة. إنه الشاحن الوحيد لحمله لجميع معداتك المحمولة."
-        }
+        },
         relatedProducts: ["joyroom-20w-usb-c-charger", "joyroom-25w-fast-charger", "joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-magnetic-power-bank-10000"],
 
     };

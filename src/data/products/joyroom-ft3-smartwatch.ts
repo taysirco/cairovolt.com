@@ -148,7 +148,7 @@ export const joyroom_ft3_smartwatch = {
         expertOpinion: {
             en: "The Joyroom FT3 Smart Watch proved IP68-worthy in our pool submersion test. Battery lasted within 10% of rated during 30-day daily wear with all sensors active.'t cost a fortune. The screen is bright and responsive. It tracks steps and heart rate accurately for casual fitness. It handles notifications well, supporting Arabic perfectly. It won't replace an Apple Watch, but it covers 80% of the needs for 10% of the price.",
             ar: "ساعة ذكية أنيقة لا تكلف ثروة. الشاشة ساطعة وسريعة الاستجابة. تتبع الخطوات ومعدل ضربات القلب بدقة للياقة البدنية العادية. تتعامل مع الإشعارات بشكل جيد، وتدعم العربية تماماً. لن تحل محل Apple Watch، لكنها تغطي 80% من الاحتياجات بـ 10% من السعر."
-        }
+        },
         relatedProducts: [
         "joyroom-3-in-1-data-cable",
         "joyroom-magnetic-power-bank-10000",

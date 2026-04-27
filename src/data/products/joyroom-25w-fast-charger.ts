@@ -152,7 +152,7 @@ export const joyroom_25w_fast_charger = {
         expertOpinion: {
             en: "Designed for the modern era. It bridges the gap between iPhone (20W) and Samsung (25W). Compact and powerful, it's the versatile choice if you have a mix of devices in your household. A great all-rounder.",
             ar: "صمم للعصر الحديث. يسد الفجوة بين ايفون (20 واط) وسامسونج (25 واط). صغير وقوي، إنه الخيار المتعدد الاستخدامات إذا كان لديك خليط من الأجهزة في منزلك. شامل رائع."
-        }
+        },
         relatedProducts: [
         "joyroom-20w-usb-c-charger",
         "joyroom-3-in-1-wireless-charging-station",

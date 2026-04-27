@@ -63,7 +63,7 @@ export const joyroom_usb_a_micro_cable = {
             en: "This Joyroom USB-A to Micro USB Cable 1.2m delivers certified charging speeds with durability that outlasts street-market alternatives by 10x. Our 6-month daily-carry test confirmed zero degradation.'t dead — your power bank, Bluetooth speaker, shaver, and kids' tablets still need it. This is the utility cable every Egyptian household still requires.",
             ar: "Micro-USB مش ميت — الباور بانك والسماعة البلوتوث وماكينة الحلاقة وتابلت الأولاد لسه محتاجينه. ده كابل الخدمة اللي كل بيت مصري لسه محتاجه."
         },
-        meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد, كابل جوي روم, جوي روم micro usb, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom micro usb cable" }
+        meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد, كابل جوي روم, جوي روم micro usb, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom micro usb cable" },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };

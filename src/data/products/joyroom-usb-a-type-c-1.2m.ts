@@ -63,7 +63,7 @@ export const joyroom_usb_a_type_c_1_2m = {
         expertOpinion: {
             en: "That extra 20cm makes a huge difference. It's the perfect length for the car or desk where 1m is just slightly too short. Combining legacy USB-A compatibility with the extra reach makes it a very practical choice.",
             ar: "تلك الـ 20 سم الإضافية تحدث فرقاً كبيراً. إنه الطول المثالي للسيارة أو المكتب حيث 1 متر قصير قليلاً. الجمع بين توافق USB-A القديم والمدى الإضافي يجعله خياراً عملياً جداً."
-        }
+        },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };

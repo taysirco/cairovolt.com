@@ -147,7 +147,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         expertOpinion: {
             en: "Clean up your nightstand instanty. One cable for phone, watch, and pods. The build quality feels premium with the metal accents. It charges the watch surprisingly fast for a 3-in-1. Essential for anyone deep in the Apple ecosystem.",
             ar: "نظف منضدتك فوراً. كابل واحد للهاتف والساعة والسماعات. جودة التصنيع تشعرك بالفخامة مع اللمسات المعدنية. يشحن الساعة بسرعة مدهشة لكونه 3 في 1. ضروري لأي شخص منغمس في نظام أبل."
-        }
+        },
         relatedProducts: ["joyroom-20w-usb-c-charger", "joyroom-25w-fast-charger", "joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-magnetic-power-bank-10000"],
 
     };

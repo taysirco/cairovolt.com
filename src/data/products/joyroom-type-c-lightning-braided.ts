@@ -64,7 +64,7 @@ export const joyroom_type_c_lightning_braided = {
             en: "This Joyroom USB-C to Lightning Braided Cable delivers certified charging speeds with durability that outlasts street-market alternatives by 10x. Our 6-month daily-carry test confirmed zero degradation.'t just aesthetic — it provides 3x the bending resistance of smooth TPE cables. For users who wind their cable tightly, this is the durability upgrade that matters.",
             ar: "الغلاف المجدول مش بس شكل — بيوفر 3 أضعاف مقاومة الانحناء مقارنة بكابلات TPE الناعمة. للي بيلف الكابل بإحكام، دي ترقية المتانة اللي بتفرق فعلاً."
         },
-        meta: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt, كابل جوي روم نايلون, وصلة جوي روم ايفون, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom usb-c lightning cable" }
+        meta: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt, كابل جوي روم نايلون, وصلة جوي روم ايفون, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom usb-c lightning cable" },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };

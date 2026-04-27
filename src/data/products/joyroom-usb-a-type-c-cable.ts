@@ -63,7 +63,7 @@ export const joyroom_usb_a_type_c_cable = {
             en: "The workhorse cable for transitioning to USB-C. Connects your new Samsung S26 or iPhone 17 to existing USB-A chargers, car ports, and computers. No need to replace everything at once.",
             ar: "كابل العمل للانتقال لـ USB-C. يوصل سامسونج S26 أو ايفون 17 الجديد بالشواحن والعربيات والكمبيوترات الحالية USB-A. مش محتاج تغير كل حاجة مرة واحدة."
         },
-        meta: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون, كابل جوي روم, جوي روم type c, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom usb-a type-c" }
+        meta: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون, كابل جوي روم, جوي روم type c, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom usb-a type-c" },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };
