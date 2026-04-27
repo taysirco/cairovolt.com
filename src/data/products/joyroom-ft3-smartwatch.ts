@@ -149,4 +149,6 @@ export const joyroom_ft3_smartwatch = {
             en: "A stylish smartwatch that doesn't cost a fortune. The screen is bright and responsive. It tracks steps and heart rate accurately for casual fitness. It handles notifications well, supporting Arabic perfectly. It won't replace an Apple Watch, but it covers 80% of the needs for 10% of the price.",
             ar: "ساعة ذكية أنيقة لا تكلف ثروة. الشاشة ساطعة وسريعة الاستجابة. تتبع الخطوات ومعدل ضربات القلب بدقة للياقة البدنية العادية. تتعامل مع الإشعارات بشكل جيد، وتدعم العربية تماماً. لن تحل محل Apple Watch، لكنها تغطي 80% من الاحتياجات بـ 10% من السعر."
         }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-magnetic-power-bank-10000", "joyroom-20w-usb-c-charger"],
+
     };

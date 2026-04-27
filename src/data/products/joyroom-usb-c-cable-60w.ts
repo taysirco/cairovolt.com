@@ -59,4 +59,6 @@ export const joyroom_usb_c_cable_60w = {
             ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لعصر الـ USB-C."
         },
         meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt", mainTerm: "joyroom 60w usb-c cable" }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

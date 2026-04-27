@@ -149,4 +149,6 @@ export const joyroom_60w_car_charger = {
             en: "The Swiss Army knife of car chargers. The retractable cables mean no more tangled mess in your console. 60W is enough to charge a laptop or fast, charge two phones at once. It keeps your car interior neat while delivering serious power.",
             ar: "سكين الجيش السويسري لشواحن السيارات. الكابلات القابلة للسحب تعني لا مزيد من الفوضى المتشابكة في الكونسول. 60 واط كافية لشحن لابتوب أو شحن هاتفين بسرعة في وقت واحد. تحافظ على نظافة سيارتك من الداخل مع توفير طاقة جدية."
         }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-car-mount-zs290", "joyroom-magnetic-power-bank-10000"],
+
     };

@@ -57,4 +57,6 @@ export const joyroom_30w_pd_cable = {
             ar: "بقوة 30 واط PD، الكابل ده يطابق أقصى سرعة شحن لايفون 17 بجزء بسيط من أسعار الكابلات الفاخرة. النقطة المثالية بين السرعة والقيمة للمستخدمين المصريين اللي بيترقوا لـ USB-C."
         },
         meta: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي, كابل جوي روم, جوي روم type c", mainTerm: "joyroom 30w pd cable" }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-type-c-lightning-24mos", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

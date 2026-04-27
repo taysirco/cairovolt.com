@@ -64,4 +64,6 @@ export const joyroom_type_c_lightning_36mos = {
             en: "The 'buy it for life' option of cables. 3 years is an eternity in tech accessories. The build is armored to match the warranty. If you're tired of replacing cables constantly, this is your final stop.",
             ar: "خيار 'اشتريه للعمر' من الكابلات. 3 سنوات تعتبر دهراً في اكسسوارات التقنية. البناء مدرع ليتناسب مع الضمان. إذا تعبت من استبدال الكابلات باستمرار، فهذه محطتك الأخيرة."
         }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

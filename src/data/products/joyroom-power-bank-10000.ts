@@ -185,4 +185,6 @@ export const joyroom_power_bank_10000 = {
             en: "Joyroom proves you don't need to spend a fortune for quality. This 10,000mAh bank is slimmer than most competitors and the digital percentage display is a feature usually reserved for premium models. For the price, it's an absolute steal for daily use.",
             ar: "تثبت Joyroom أنك لست بحاجة لإنفاق ثروة للحصول على الجودة. باور بانك 10000 مللي أمبير هذا أنحف من المنافسين، وشاشة النسبة المئوية الرقمية ميزة عادة ما تكون للموديلات الفاخرة. بالنسبة للسعر، فهو صفقة رابحة للاستخدام اليومي."
         }
+        relatedProducts: ["joyroom-magnetic-power-bank-10000", "joyroom-power-bank-20000", "joyroom-3-in-1-data-cable", "joyroom-20w-usb-c-charger", "joyroom-60w-car-charger"],
+
     };

@@ -65,4 +65,6 @@ export const joyroom_usb_a_lightning_1_2m = {
             en: "Similar to its Type-C sibling, the extra length is the key feature here. Great for iPhone users sticking with legacy chargers. The 36-month warranty on this specific model makes it an absolute stealth bargain.",
             ar: "مشابه لشقيقه Type-C، الطول الإضافي هو الميزة الأساسية هنا. رائع لمستخدمي iPhone المتمسكين بالشواحن القديمة. ضمان 36 شهراً على هذا الموديل بالتحديد يجعله صفقة خفية مطلقة."
         }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

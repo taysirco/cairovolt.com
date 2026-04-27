@@ -60,4 +60,6 @@ export const joyroom_usb_a_type_c_cable = {
             ar: "كابل العمل للانتقال لـ USB-C. يوصل سامسونج S26 أو ايفون 17 الجديد بالشواحن والعربيات والكمبيوترات الحالية USB-A. مش محتاج تغير كل حاجة مرة واحدة."
         },
         meta: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون, كابل جوي روم, جوي روم type c", mainTerm: "joyroom usb-a type-c" }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

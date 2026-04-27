@@ -154,4 +154,6 @@ export const joyroom_jr_t03_wireless_earbuds = {
             en: "These are the reliable workhorse earbuds. No fancy ANC, just good, clear sound and reliable battery life. They are perfect for podcasts and calls. If you want a simple pair of wireless earbuds that just work without breaking the bank, these are it.",
             ar: "هذه هي سماعات الاعتمادية. لا يوجد ANC معقد، فقط صوت جيد وواضح وعمر بطارية موثوق. مثالية للبودكاست والمكالمات. إذا كنت تريد زوجاً بسيطاً من السماعات اللاسلكية يعمل فقط دون كسر الميزانية، فهذه هي."
         }
+        relatedProducts: ["joyroom-t03s-pro-earbuds", "joyroom-3-in-1-data-cable", "joyroom-magnetic-power-bank-10000"],
+
     };

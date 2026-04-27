@@ -161,4 +161,6 @@ export const joyroom_car_mount_zs290 = {
             en: "Simple, strong, and effective. The magnet is surprisingly powerful – my phone didn't budge even on speed bumps. It clips securely to the air vent and doesn't rattle. If you want a minimalist mount that just holds your phone securely, this is the one.",
             ar: "بسيط، قوي، وفعال. المغناطيس قوي بشكل مدهش – لم يتحرك هاتفي حتى على المطبات. يشبك بإحكام في فتحة التكييف ولا يهتز. إذا كنت تريد حاملاً بسيطاً يمسك هاتفك بإحكام فقط، فهذا هو."
         }
+        relatedProducts: ["joyroom-car-phone-mount", "joyroom-60w-car-charger", "joyroom-3-in-1-data-cable"],
+
     };

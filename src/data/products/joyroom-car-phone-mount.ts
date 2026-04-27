@@ -122,4 +122,6 @@ export const joyroom_car_phone_mount = {
             ar: "مجرب في 4 من أشهر موديلات السيارات في مصر. كاسة الشفط تتحمل 45°C على التابلوه — عامل حاسم الحوامل الرخيصة بتفشل فيه في صيف مصر."
         },
         meta: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة", mainTerm: "joyroom car phone mount" }
+        relatedProducts: ["joyroom-car-mount-zs290", "joyroom-60w-car-charger", "joyroom-3-in-1-data-cable"],
+
     };

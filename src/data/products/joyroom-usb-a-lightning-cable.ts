@@ -60,4 +60,6 @@ export const joyroom_usb_a_lightning_cable = {
             ar: "كابل الجسر لمستخدمي ايفون اللي لسه مغيروش شواحنهم. شحن موثوق 2.4 أمبير مع أكثر منفذ منتشر في الشواحن المصرية وبرايز العربيات."
         },
         meta: { keywords: "joyroom usb-a lightning, كابل لايتنينج, كابل ايفون, كابل جوي روم, وصلة جوي روم ايفون", mainTerm: "joyroom usb-a lightning" }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

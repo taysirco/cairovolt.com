@@ -160,4 +160,6 @@ export const joyroom_usb_c_lightning_cable = {
             en: "This cable surprises with its build quality. The nylon braiding is tight and resists tangling. It handles 20W fast charging perfectly. It performs flawlessly for daily charging and is a fraction of the price of official cables.",
             ar: "هذا الكابل يفاجئ بجودة تصنيعه. تجديل النايلون محكم ويقاوم التشابك. يتعامل مع الشحن السريع 20 واط بشكل مثالي. يؤدي عمله بلا عيوب للشحن اليومي وبجزء بسيط من سعر الكابلات الرسمية."
         }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

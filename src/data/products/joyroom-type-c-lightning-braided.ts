@@ -59,4 +59,6 @@ export const joyroom_type_c_lightning_braided = {
             ar: "الغلاف المجدول مش بس شكل — بيوفر 3 أضعاف مقاومة الانحناء مقارنة بكابلات TPE الناعمة. للي بيلف الكابل بإحكام، دي ترقية المتانة اللي بتفرق فعلاً."
         },
         meta: { keywords: "joyroom lightning cable, كابل لايتنينج, كابل ايفون 14, usb-c lightning egypt, كابل جوي روم نايلون, وصلة جوي روم ايفون", mainTerm: "joyroom usb-c lightning cable" }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };

@@ -60,4 +60,6 @@ export const joyroom_usb_a_micro_cable = {
             ar: "Micro-USB مش ميت — الباور بانك والسماعة البلوتوث وماكينة الحلاقة وتابلت الأولاد لسه محتاجينه. ده كابل الخدمة اللي كل بيت مصري لسه محتاجه."
         },
         meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد, كابل جوي روم, جوي روم micro usb", mainTerm: "joyroom micro usb cable" }
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+
     };
