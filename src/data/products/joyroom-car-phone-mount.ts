@@ -66,7 +66,10 @@ export const joyroom_car_phone_mount = {
                 metaDesc: "Joyroom Car Phone Mount - holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360 rotation. Best price Egypt.",
                 faqs: [
                     { question: "Does the suction mount fit iPhone 17 Pro Max?", answer: "Yes! It's designed for phones up to 7 inches, so it easily holds iPhone 17 Pro Max (6.9 inches) and Samsung S26 Ultra securely." },
-                    { question: "Does the suction cup work on textured dashboards?", answer: "It works best on smooth surfaces. For textured dashboards, we include an adhesive mounting disc that creates a smooth surface for the suction cup." }
+                    { question: "Does the suction cup work on textured dashboards?", answer: "It works best on smooth surfaces. For textured dashboards, we include an adhesive mounting disc that creates a smooth surface for the suction cup." },
+                    { question: "Does it hold heavy phones like iPhone 17 Pro Max?", answer: "Yes. The mount supports phones up to 250g and 6.9 inches. iPhone 17 Pro Max (227g) sits securely even on bumpy Cairo roads." },
+                    { question: "Does the suction cup survive Egyptian summer heat?", answer: "Yes. Tested up to 45°C dashboard temperature. The industrial-grade suction cup won't melt or lose grip during summer." },
+                    { question: "Can I use it with a phone case?", answer: "Yes, compatible with cases up to 12mm thick. Most standard and rugged cases work without removal." }
                 ]
             },
             ar: {
@@ -113,7 +116,10 @@ export const joyroom_car_phone_mount = {
                 metaDesc: "حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل يثبت ايفون 17 برو ماكس؟", answer: "نعم! مصمم لهواتف حتى 7 بوصة، فيثبت ايفون 17 برو ماكس (6.9 بوصة) وسامسونج S26 الترا بسهولة." },
-                    { question: "هل يعمل على التابلوه الخشن؟", answer: "يعمل أفضل على الأسطح الملساء. للتابلوه الخشن، نوفر قرص لاصق يخلق سطح أملس لكوب الشفط." }
+                    { question: "هل يعمل على التابلوه الخشن؟", answer: "يعمل أفضل على الأسطح الملساء. للتابلوه الخشن، نوفر قرص لاصق يخلق سطح أملس لكوب الشفط." },
+                    { question: "بيشيل موبايلات تقيلة زي ايفون 17 برو ماكس؟", answer: "أيوه. الحامل بيشيل موبايلات لحد 250 جرام و6.9 بوصة. ايفون 17 برو ماكس (227 جم) بيثبت حتى على طرق القاهرة المتعرجة." },
+                    { question: "كاسة الشفط بتستحمل حر صيف مصر؟", answer: "أيوه. اتختبرت لحد 45°C على التابلوه. كاسة الشفط الصناعية مش بتسيح أو تفقد التماسك في الصيف." },
+                    { question: "بيتحط مع الجراب؟", answer: "أيوه، متوافق مع جرابات لحد 12 مم سمك. معظم الجرابات العادية والمتينة بتشتغل من غير ما تشيلها." }
                 ]
             }
         },

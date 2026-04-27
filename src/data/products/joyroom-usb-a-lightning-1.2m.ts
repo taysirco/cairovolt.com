@@ -38,7 +38,9 @@ export const joyroom_usb_a_lightning_1_2m = {
                 faqs: [
                     { question: "Why does this have 36-month warranty?", answer: "This extended 1.2m cable uses premium materials. The 36-month warranty reflects our confidence in its durability - perfect for heavy daily use." },
                     { question: "Is 1.2m good for bedside charging?", answer: "Yes! 1.2m is the ideal length for bedside - you can charge and still use your phone comfortably in bed without stretching the cable." },
-                    { question: "Which iPhones is this for?", answer: "iPhone 14/13/12/11 and earlier with Lightning ports. iPhone 17 uses USB-C, so check our USB-C cables for that." }
+                    { question: "Which iPhones is this for?", answer: "iPhone 14/13/12/11 and earlier with Lightning ports. iPhone 17 uses USB-C, so check our USB-C cables for that." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -56,7 +58,9 @@ export const joyroom_usb_a_lightning_1_2m = {
                 faqs: [
                     { question: "لماذا ضمان 36 شهر؟", answer: "هذا الكابل 1.2 متر يستخدم مواد فاخرة. ضمان 36 شهر يعكس ثقتنا في متانته - مثالي للاستخدام اليومي المكثف." },
                     { question: "هل 1.2 متر مناسب للشحن بجانب السرير؟", answer: "نعم! 1.2 متر الطول المثالي للسرير - تشحن وتستخدم هاتفك براحة بدون شد الكابل." },
-                    { question: "لأي ايفونات هذا الكابل؟", answer: "ايفون 14/13/12/11 والأقدم بمنفذ Lightning. ايفون 17 يستخدم USB-C، شاهد كابلات USB-C لذلك." }
+                    { question: "لأي ايفونات هذا الكابل؟", answer: "ايفون 14/13/12/11 والأقدم بمنفذ Lightning. ايفون 17 يستخدم USB-C، شاهد كابلات USB-C لذلك." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
                 ]
             }
         },

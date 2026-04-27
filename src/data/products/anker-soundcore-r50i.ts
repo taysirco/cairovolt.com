@@ -105,7 +105,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق Soundcore", "💰 أفضل قيمة"],
-                metaTitle: "سعر سماعة انكر Soundcore R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
+                metaTitle: "سماعة انكر Soundcore R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },

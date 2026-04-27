@@ -33,7 +33,10 @@ export const joyroom_type_c_lightning_braided = {
                 metaDesc: "Joyroom USB-C to Lightning Cable - 30W fast charging for iPhone 14/13/12. MFi certified. Best price Egypt.",
                 faqs: [
                     { question: "Is this cable MFi certified?", answer: "Yes! This cable has Apple MFi certification with the C94 chip, ensuring safe charging and zero 'accessory not supported' errors." },
-                    { question: "How fast does the braided Lightning cable charge?", answer: "30W PD fast charging. CairoVolt test: charges iPhone 14 from 0→50% in 28 minutes with a 30W charger. Noticeably faster than Apple's included cable." }
+                    { question: "How fast does the braided Lightning cable charge?", answer: "30W PD fast charging. CairoVolt test: charges iPhone 14 from 0→50% in 28 minutes with a 30W charger. Noticeably faster than Apple's included cable." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." },
+                    { question: "How long does this cable last?", answer: "Lab tested for 25,000+ bend cycles. In real terms, that's 3-5 years of daily use. The reinforced connectors resist fraying at the stress points." }
                 ]
             },
             ar: {
@@ -42,7 +45,7 @@ export const joyroom_type_c_lightning_braided = {
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">كابل <strong>جوي روم نايلون مجدول Lightning</strong> بيجمع <strong>شهادة MFi + 30 واط PD + نايلون مجدول مزدوج</strong> في كابل واحد. اختبار انحناء CairoVolt: <strong>25,000+ دورة</strong> من غير عطل. صفر رسائل "ملحق غير مدعوم" على 3,000+ وحدة مباعة.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>🛡️ <strong>معتمد MFi:</strong> شريحة C94 من ابل. صفر رسائل خطأ.</li><li>⚡ <strong>30 واط PD:</strong> 0→50% في 28 دقيقة (اختبار CairoVolt).</li><li>💪 <strong>25,000+ انحناءة:</strong> نايلون مزدوج + موصلات ألومنيوم.</li><li>🎨 <strong>شكل فاخر:</strong> شكله وملمسه زي كابل بـ 500+ جنيه.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"ده الكابل اللي تشتريه لما تتعب من الكابلات الرخيصة اللي بتنكسر من عند الرقبة. النايلون المجدول المزدوج نجح في اختبار 25,000 انحناءة — أغلب كابلات TPE بتفشل عند 5,000. شهادة MFi يعني شريحة ابل نفسها بتتحقق من كل اتصال. بـ 214 جنيه، فاخر لكن مبرر — هتشتريه مرة واحدة."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>
-<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">MFi: ليه مهم</h2><p class="text-gray-700"><strong>شريحة مصادقة C94 من ابل</strong> يعني ايفونك بيثق في الكابل ده تماماً. مفيش رسائل خطأ. مفيش انقطاع شحن. مفيش خطر تلف بطارية من تيار غير منظم.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">مجدول مزدوج = ضعف العمر</h2><p class="text-gray-700">كابلات المجدول الأحادي لسه بتتلف في النهاية. <strong>النايلون المجدول المزدوج</strong> مع <strong>موصلات ألومنيوم</strong> بيعمل درع بيستحمل اللف المحكم والرمي في الشنط والسحب من زوايا كل يوم.</p></section></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">MFi: ليه مهم</h2><p class="text-gray-700"><strong>شريحة مصادقة C94 من ابل</strong> يعني ايفونك بيثق في الكابل ده تماماً. مفيش رسائل خطأ. مفيش انقطاع شحن. مفيش خطر تلف بطارية من تيار غير منظم.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">مجدول مزدوج = ضعف العمر</h2><p class="text-gray-700">كابلات المجدول الأحادي لسه بتتلف في النهاية. <strong>النايلون المجدول المزدوج</strong> مع <strong>موصلات ألومنيوم</strong> بيعمل درع بيستحمل اللف المحكم والرمي في الشنط والسحب من زوايا كل يوم. في حرارة صيف مصر اللي بتوصل 45°م، الموصلات الرخيصة بتنصهر — الألومنيوم هنا بيستحمل.</p></section></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 14/13/12/11/SE:</strong> 30 واط PD شحن سريع.</li><li>📱 <strong>ايباد (Lightning):</strong> شحن سريع + نقل بيانات.</li><li>🎧 <strong>AirPods Pro/3:</strong> شحن.</li><li>❌ <strong>ايفون 17/16/15:</strong> غير متوافق (USB-C).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابل Lightning بس — مش بيشتغل مع ايفون 17/16/15 (USB-C). لو عايز نفس جودة النايلون لـ USB-C، شوف كابلات جوي روم USB-C بتاعتنا.</p></div>`,
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
@@ -50,7 +53,10 @@ export const joyroom_type_c_lightning_braided = {
                 metaDesc: "كابل جوي روم USB-C إلى Lightning - شحن سريع 30 واط للايفون 14/13/12. معتمد MFi. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل الكابل معتمد MFi؟", answer: "نعم! هذا الكابل معتمد من أبل بشريحة C94، مما يضمن شحن آمن وعدم ظهور رسالة 'ملحق غير مدعوم'." },
-                    { question: "كم سرعة شحن كابل Lightning المجدول؟", answer: "30 واط PD شحن سريع. اختبار CairoVolt: ايفون 14 من 0→50% في 28 دقيقة مع شاحن 30 واط. أسرع بشكل ملحوظ من كابل أبل المرفق." }
+                    { question: "كم سرعة شحن كابل Lightning المجدول؟", answer: "30 واط PD شحن سريع. اختبار CairoVolt: ايفون 14 من 0→50% في 28 دقيقة مع شاحن 30 واط. أسرع بشكل ملحوظ من كابل أبل المرفق." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." },
+                    { question: "الكابل هيعيش قد إيه؟", answer: "اتختبر لـ 25,000+ دورة ثني. يعني 3-5 سنين استخدام يومي. الموصلات المقواة بتقاوم التآكل عند نقاط الضغط." }
                 ]
             }
         },

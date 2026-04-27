@@ -90,7 +90,9 @@ export const joyroom_usb_c_lightning_cable = {
                     {
                         question: "Will it charge ipad?",
                         answer: "It works for iPads with Lightning ports, but for USB-C iPads, you will need a USB-C to USB-C cable."
-                    }
+                    },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {

@@ -33,7 +33,9 @@ export const joyroom_type_c_to_type_c_cable = {
                 faqs: [
                     { question: "Does this cable work with iPhone 17?", answer: "Yes! iPhone 17 uses USB-C. This cable delivers 60W fast charging, providing the maximum 30W speed that iPhone 17 supports." },
                     { question: "Can I use this to charge my MacBook?", answer: "Yes, this 60W cable can charge MacBook Air at full speed. For MacBook Pro, we recommend our 100W cables for faster charging." },
-                    { question: "What's the difference between 60W and 30W cables?", answer: "60W cables are future-proof - they work with all devices and can charge laptops. 30W cables are sufficient for phones only." }
+                    { question: "What's the difference between 60W and 30W cables?", answer: "60W cables are future-proof - they work with all devices and can charge laptops. 30W cables are sufficient for phones only." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -50,7 +52,10 @@ export const joyroom_type_c_to_type_c_cable = {
                 metaDesc: "كابل جوي روم USB-C للايفون 17 وسامسونج S26. 60 واط PD. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C. هذا الكابل يوفر 60 واط شحن سريع، ويعطي ايفون 17 أقصى سرعة 30 واط." },
-                    { question: "ما الفرق بين 60 واط و 30 واط؟", answer: "كابلات 60 واط مستقبلية - تعمل مع كل الأجهزة وتشحن اللابتوب. كابلات 30 واط كافية للهواتف فقط." }
+                    { question: "ما الفرق بين 60 واط و 30 واط؟", answer: "كابلات 60 واط مستقبلية - تعمل مع كل الأجهزة وتشحن اللابتوب. كابلات 30 واط كافية للهواتف فقط." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." },
+                    { question: "الكابل هيعيش قد إيه؟", answer: "اتختبر لـ 25,000+ دورة ثني. يعني 3-5 سنين استخدام يومي. الموصلات المقواة بتقاوم التآكل عند نقاط الضغط." }
                 ]
             }
         },

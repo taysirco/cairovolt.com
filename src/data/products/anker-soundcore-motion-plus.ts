@@ -85,7 +85,9 @@ export const anker_soundcore_motion_plus = {
                 faqs: [
                     { question: "Can I use Motion+ with my TV?", answer: "Yes, you can connect via 3.5mm AUX for crystal clear sound, or Bluetooth if your TV supports it. It gives a mini-cinematic experience in your room." },
                     { question: "Is the volume loud enough for a party?", answer: "Absolutely! With 30W power and BassUp technology, it covers a large room or an open outdoor space (like a garden or rooftop) with strong, clear sound." },
-                    { question: "Does it charge with a Samsung phone charger?", answer: "It charges via USB-C, so you can use the same cable as your Samsung phone or new iPhone 15. No need to carry extra cables." }
+                    { question: "Does it charge with a Samsung phone charger?", answer: "It charges via USB-C, so you can use the same cable as your Samsung phone or new iPhone 15. No need to carry extra cables." },
+                    { question: "Is it really waterproof?", answer: "Yes, IPX7 rated — survives 30 minutes submersion in 1 meter of water. Safe for pool, beach, and rain. Not for saltwater diving." },
+                    { question: "How long does the battery last?", answer: "12+ hours at moderate volume. At max volume, expect 6-8 hours. Quick charge gives 4 hours from 30 minutes of charging." }
                 ]
             },
             ar: {
@@ -150,7 +152,9 @@ export const anker_soundcore_motion_plus = {
                 faqs: [
                     { question: "هل الـ Motion+ تنفع للتلفزيون؟", answer: "نعم، ممكن توصلها بـ AUX 3.5mm لصوت نقي جداً، أو بلوتوث لو التلفزيون بيدعم. بتديك تجربة سينمائية مصغرة في غرفتك." },
                     { question: "هل صوتها عالي كفاية لحفلة؟", answer: "جداً! بقوة 30 وات وتقنية BassUp، تغطي غرفة كبيرة أو مساحة خارجية مفتوحة (زي جنينة أو رووف) بصوت قوي وواضح." },
-                    { question: "هل بتشحن بموبايل سامسونج؟", answer: "بتشحن بكابل USB-C، يعني نفس شاحن موبايلك السامسونج أو الايفون 15 الجديد. مش محتاج تشيل كابلات زيادة." }
+                    { question: "هل بتشحن بموبايل سامسونج؟", answer: "بتشحن بكابل USB-C، يعني نفس شاحن موبايلك السامسونج أو الايفون 15 الجديد. مش محتاج تشيل كابلات زيادة." },
+                    { question: "مقاومة للمية فعلاً؟", answer: "أيوه، تصنيف IPX7 — بتستحمل 30 دقيقة غطس في متر مية. آمنة للمسبح والبحر والمطر. مش للغطس في مية مالحة." },
+                    { question: "البطارية بتعيش قد إيه؟", answer: "12+ ساعة على صوت متوسط. على أعلى صوت، 6-8 ساعات. الشحن السريع بيدي 4 ساعات من 30 دقيقة شحن." }
                 ]
             }
         },

@@ -96,7 +96,9 @@ export const anker_powerline_usb_c_usb_c = {
                     {
                         question: "How durable is the Anker USB-C cable?",
                         answer: "Extremely. It is tested to withstand over 35,000 bends, making it one of the most durable cables available."
-                    }
+                    },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {

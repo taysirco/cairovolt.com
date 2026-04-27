@@ -33,7 +33,9 @@ export const joyroom_usb_a_micro_cable = {
                 faqs: [
                     { question: "Which devices use Micro USB today?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
                     { question: "Can I charge my new Samsung with this cable?", answer: "No, Samsung S26/S25 use USB-C. This Micro USB cable is for older devices like budget phones, speakers, and accessories." },
-                    { question: "Is 2.4A charging fast?", answer: "2.4A is standard charging speed. For fast charging, you need USB-C cables with PD (Power Delivery) support." }
+                    { question: "Is 2.4A charging fast?", answer: "2.4A is standard charging speed. For fast charging, you need USB-C cables with PD (Power Delivery) support." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -51,7 +53,9 @@ export const joyroom_usb_a_micro_cable = {
                 faqs: [
                     { question: "أي أجهزة تستخدم Micro USB الحالي؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
                     { question: "هل يشحن سامسونج الجديد؟", answer: "لا، سامسونج S26/S25 يستخدم USB-C. هذا الكابل Micro USB للأجهزة القديمة مثل هواتف اقتصادية وسماعات." },
-                    { question: "هل 2.4 أمبير سريع؟", answer: "2.4 أمبير سرعة شحن قياسية. للشحن السريع، تحتاج كابلات USB-C مع PD (Power Delivery)." }
+                    { question: "هل 2.4 أمبير سريع؟", answer: "2.4 أمبير سرعة شحن قياسية. للشحن السريع، تحتاج كابلات USB-C مع PD (Power Delivery)." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
                 ]
             }
         },

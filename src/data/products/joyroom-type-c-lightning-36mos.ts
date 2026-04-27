@@ -38,7 +38,9 @@ export const joyroom_type_c_lightning_36mos = {
                 faqs: [
                     { question: "Why is 36-month warranty worth the extra cost?", answer: "Our 36-month warranty is the longest in the industry. That's 3 years of protection - cables typically last 1-2 years with daily use, so you're covered for the entire lifespan." },
                     { question: "Is the build quality different from 12/24 month cables?", answer: "Yes! 36-month cables use premium nylon braiding and reinforced connectors. They're built to last longer, which is why we offer longer warranty." },
-                    { question: "Can I buy this for iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is designed for iPhone 14 and earlier. For iPhone 17, see our USB-C cables." }
+                    { question: "Can I buy this for iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is designed for iPhone 14 and earlier. For iPhone 17, see our USB-C cables." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -55,7 +57,10 @@ export const joyroom_type_c_lightning_36mos = {
                 metaDesc: "كابل جوي روم بأطول ضمان في مصر 36 شهر — يعيش أكتر من 3 كابلات رخيصة. استبدال مجاني لو اتقطع. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر يستحق السعر الإضافي؟", answer: "ضماننا 36 شهر الأطول في السوق. 3 سنوات حماية - الكابلات عادة تعيش 1-2 سنة، فأنت مغطى طوال عمر الكابل." },
-                    { question: "هل جودة البناء مختلفة؟", answer: "نعم! كابلات 36 شهر تستخدم نايلون فاخر وموصلات مقواة. مصنوعة لتدوم أكثر، ولذلك نقدم ضمان أطول." }
+                    { question: "هل جودة البناء مختلفة؟", answer: "نعم! كابلات 36 شهر تستخدم نايلون فاخر وموصلات مقواة. مصنوعة لتدوم أكثر، ولذلك نقدم ضمان أطول." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." },
+                    { question: "الكابل هيعيش قد إيه؟", answer: "اتختبر لـ 25,000+ دورة ثني. يعني 3-5 سنين استخدام يومي. الموصلات المقواة بتقاوم التآكل عند نقاط الضغط." }
                 ]
             }
         },

@@ -97,7 +97,9 @@ export const anker_powercore_26800 = {
                     {
                         question: "Does it support USB-C charging?",
                         answer: "No, this model uses USB-A output ports and Micro-USB input ports."
-                    }
+                    },
+                    { question: "How many times will it charge my phone?", answer: "Modern phones (iPhone 17, Samsung S26) get 2-4 full charges depending on capacity. Mid-range phones get even more." },
+                    { question: "Can I take it on an airplane?", answer: "Yes! Under 100Wh capacity is allowed on all commercial flights. Carry in hand luggage as per IATA regulations." }
                 ]
             },
             ar: {

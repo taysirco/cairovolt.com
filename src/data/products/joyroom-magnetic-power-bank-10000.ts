@@ -80,7 +80,9 @@ export const joyroom_magnetic_power_bank_10000 = {
                 faqs: [
                     { question: "How many times can it charge iPhone 17?", answer: "The 10000mAh capacity can fully charge iPhone 17 approximately 2 times, or provide over 2.5 charges for iPhone 17 Pro. Actual results vary based on usage during charging." },
                     { question: "Can I use it while attached to my phone?", answer: "Absolutely! The magnetic attachment is strong enough for everyday use - scrolling, gaming, taking photos. The built-in kickstand is perfect for video calls or watching content while charging." },
-                    { question: "Does it charge through phone cases?", answer: "It works with MagSafe-compatible cases and most thin cases. Thick cases or cases with metal components may reduce charging efficiency or magnetic attachment." }
+                    { question: "Does it charge through phone cases?", answer: "It works with MagSafe-compatible cases and most thin cases. Thick cases or cases with metal components may reduce charging efficiency or magnetic attachment." },
+                    { question: "How many times will it charge my phone?", answer: "Modern phones (iPhone 17, Samsung S26) get 2-4 full charges depending on capacity. Mid-range phones get even more." },
+                    { question: "Can I take it on an airplane?", answer: "Yes! Under 100Wh capacity is allowed on all commercial flights. Carry in hand luggage as per IATA regulations." }
                 ]
             },
             ar: {
@@ -140,7 +142,9 @@ export const joyroom_magnetic_power_bank_10000 = {
                 faqs: [
                     { question: "كم شحنة يعطي MagSafe 10000 لايفون 17؟", answer: "سعة 10000 مللي أمبير تشحن الايفون 17 بالكامل حوالي مرتين، أو أكثر من 2.5 شحنة لايفون 17 برو. النتائج تختلف حسب الاستخدام أثناء الشحن." },
                     { question: "هل أستطيع استخدامه ملتصقاً بالهاتف؟", answer: "بالتأكيد! الالتصاق المغناطيسي قوي بما يكفي للاستخدام اليومي - التصفح، الألعاب، التصوير. الحامل المدمج مثالي لمكالمات الفيديو أو مشاهدة المحتوى أثناء الشحن." },
-                    { question: "هل يشحن من خلال الجراب؟", answer: "يعمل مع جرابات متوافقة مع MagSafe والجرابات الرفيعة. الجرابات السميكة أو التي تحتوي معدن قد تقلل كفاءة الشحن أو الالتصاق." }
+                    { question: "هل يشحن من خلال الجراب؟", answer: "يعمل مع جرابات متوافقة مع MagSafe والجرابات الرفيعة. الجرابات السميكة أو التي تحتوي معدن قد تقلل كفاءة الشحن أو الالتصاق." },
+                    { question: "هيشحن موبايلي كام مرة؟", answer: "الموبايلات الحديثة (ايفون 17، سامسونج S26) بتاخد 2-4 شحنات كاملة حسب السعة. الموبايلات المتوسطة بتاخد أكتر." },
+                    { question: "ينفع أاخده على الطيارة؟", answer: "أيوه! السعة تحت 100Wh مسموحة على كل الرحلات التجارية. احمله في شنطة اليد حسب قوانين IATA." }
                 ]
             }
         },

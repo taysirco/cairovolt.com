@@ -33,7 +33,9 @@ export const joyroom_usb_a_lightning_cable = {
                 faqs: [
                     { question: "Is this cable compatible with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This USB-A to Lightning cable is designed for iPhone 14/13/12/11 and earlier models that have the Lightning port." },
                     { question: "What's the difference between this and USB-C cables?", answer: "USB-A is the traditional rectangular connector found on older chargers. USB-C offers faster charging. Use this cable if your charger has USB-A port." },
-                    { question: "Does Joyroom offer warranty in Egypt?", answer: "Yes, this cable comes with 12-month warranty. We provide full support and free replacement for any manufacturing defects." }
+                    { question: "Does Joyroom offer warranty in Egypt?", answer: "Yes, this cable comes with 12-month warranty. We provide full support and free replacement for any manufacturing defects." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -51,7 +53,9 @@ export const joyroom_usb_a_lightning_cable = {
                 faqs: [
                     { question: "هل هذا الكابل متوافق مع ايفون 17؟", answer: "لا، ايفون 17 يستخدم USB-C. هذا الكابل USB-A إلى Lightning مصمم للايفون 14/13/12/11 والأقدم التي بها منفذ Lightning." },
                     { question: "ما الفرق بين هذا وكابلات USB-C؟", answer: "USB-A هو الموصل المستطيل التقليدي في الشواحن القديمة. USB-C يوفر شحن أسرع. استخدم هذا الكابل لو شاحنك USB-A." },
-                    { question: "هل جوي روم توفر ضمان في مصر؟", answer: "نعم، هذا الكابل بضمان 12 شهر. نوفر دعم كامل واستبدال مجاني لأي عيوب صناعة." }
+                    { question: "هل جوي روم توفر ضمان في مصر؟", answer: "نعم، هذا الكابل بضمان 12 شهر. نوفر دعم كامل واستبدال مجاني لأي عيوب صناعة." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
                 ]
             }
         },

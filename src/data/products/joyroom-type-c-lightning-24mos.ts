@@ -33,7 +33,9 @@ export const joyroom_type_c_lightning_24mos = {
                 faqs: [
                     { question: "Why choose 24-month warranty cable?", answer: "For users who want extra protection without premium pricing. 24-month warranty covers manufacturing defects twice as long as standard 12-month cables." },
                     { question: "What's covered under warranty?", answer: "Manufacturing defects including fraying, connector issues, and charging failures. Physical damage from misuse is not covered." },
-                    { question: "Does this work with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is for iPhone 14/13/12/11 with Lightning ports." }
+                    { question: "Does this work with iPhone 17?", answer: "No, iPhone 17 uses USB-C. This Lightning cable is for iPhone 14/13/12/11 with Lightning ports." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -42,7 +44,7 @@ export const joyroom_type_c_lightning_24mos = {
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">كابل <strong>جوي روم USB-C لـ Lightning ضمان 24 شهر</strong> بيدّي <strong>30 واط PD شحن سريع</strong> للايفون 14/13/12 بضعف ضمان الكابلات العادية. نسبة إرجاع CairoVolt: <strong>0.3% بس</strong> — أكثر كابل Lightning موثوق عندنا.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>⚡ <strong>30 واط PD:</strong> شحن سريع كامل لايفونات Lightning.</li><li>🛡️ <strong>ضمان 24 شهر:</strong> ضعف ضمان الكابلات العادية 12 شهر.</li><li>📊 <strong>0.3% نسبة إرجاع:</strong> الأقل بين كل الكابلات عندنا.</li><li>💰 <strong>0.17 جنيه/يوم:</strong> على 24 شهر، أرخص من المية.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"بنتتبع نسب الإرجاع على كل منتج. الكابل ده عند 0.3% — يعني 997 من كل 1,000 مشتري مبيحصلش معاهم مشكلة. ضمان 24 شهر مش كلام تسويق؛ ده بيعكس جودة تصنيع حقيقية. لو عايز كابل تنساه لأنه شغال وخلاص، ده هو."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>
-<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">ليه ضمان 24 شهر مهم</h2><p class="text-gray-700">أغلب الكابلات بتموت في 6-12 شهر. <strong>ضمان 24 شهر</strong> يعني لو حصل أي حاجة في سنتين، تاخد بدل مجاني. يعني <strong>0.17 جنيه في اليوم</strong> لشحن مضمون.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">30 واط PD: شحن سريع حقيقي</h2><p class="text-gray-700">مع أي شاحن PD، الكابل ده بيوصّل <strong>أقصى 30 واط للايفون</strong>. 0→50% في حوالي 25 دقيقة. مفيش مشاكل تفاوض فولتية.</p></section></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">ليه ضمان 24 شهر مهم</h2><p class="text-gray-700">أغلب الكابلات بتموت في 6-12 شهر. <strong>ضمان 24 شهر</strong> يعني لو حصل أي حاجة في سنتين، تاخد بدل مجاني. في ظل تذبذب الكهرباء في مصر اللي بيأثر على عمر الكابلات الرخيصة، ده <strong>0.17 جنيه في اليوم</strong> لشحن مضمون.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">30 واط PD: شحن سريع حقيقي</h2><p class="text-gray-700">مع أي شاحن PD، الكابل ده بيوصّل <strong>أقصى 30 واط للايفون</strong>. 0→50% في حوالي 25 دقيقة. مفيش مشاكل تفاوض فولتية.</p></section></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 14/13/12/11/SE:</strong> 30 واط PD شحن سريع.</li><li>📱 <strong>ايباد (Lightning):</strong> شحن سريع + بيانات.</li><li>🎧 <strong>AirPods Pro/3:</strong> شحن.</li><li>❌ <strong>ايفون 17/16/15:</strong> غير متوافق (USB-C فقط).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">ده كابل Lightning — مش بيشتغل مع ايفون 17/16/15 (USB-C). تأكد من موديل ايفونك قبل الطلب.</p></div>`,
                 features: ["شحن سريع 30 واط PD", "ضمان 24 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون متين"],
@@ -50,7 +52,10 @@ export const joyroom_type_c_lightning_24mos = {
                 metaDesc: "كابل جوي روم USB-C Lightning بضمان 24 شهر للايفون 14/13/12. شحن سريع 30 واط. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أختار كابل ضمان 24 شهر؟", answer: "للمستخدمين الذين يريدون حماية إضافية بدون سعر فاخر. ضمان 24 شهر يغطي عيوب الصناعة ضعف الكابلات العادية 12 شهر." },
-                    { question: "ماذا يغطي الضمان؟", answer: "عيوب الصناعة مثل التلف ومشاكل الموصل وفشل الشحن. الأضرار من سوء الاستخدام غير مغطاة." }
+                    { question: "ماذا يغطي الضمان؟", answer: "عيوب الصناعة مثل التلف ومشاكل الموصل وفشل الشحن. الأضرار من سوء الاستخدام غير مغطاة." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." },
+                    { question: "الكابل هيعيش قد إيه؟", answer: "اتختبر لـ 25,000+ دورة ثني. يعني 3-5 سنين استخدام يومي. الموصلات المقواة بتقاوم التآكل عند نقاط الضغط." }
                 ]
             }
         },

@@ -33,7 +33,9 @@ export const joyroom_usb_a_type_c_1_2m = {
                 faqs: [
                     { question: "Why choose 1.2m over 1m cable?", answer: "1.2m (4ft) gives you extra reach - perfect for bedside charging, using your phone while plugged in, or when outlets are far. Only 10 EGP more for much better convenience." },
                     { question: "Does this work with iPhone 17 and Samsung S26?", answer: "Yes! Both iPhone 17 and Samsung S26 use USB-C ports. This cable connects them to your existing USB-A chargers." },
-                    { question: "Is 3A enough for fast charging?", answer: "3A provides good charging speed with USB-A chargers. For maximum fast charging, use our USB-C to USB-C cables with PD chargers." }
+                    { question: "Is 3A enough for fast charging?", answer: "3A provides good charging speed with USB-A chargers. For maximum fast charging, use our USB-C to USB-C cables with PD chargers." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -51,7 +53,9 @@ export const joyroom_usb_a_type_c_1_2m = {
                 faqs: [
                     { question: "لماذا أختار 1.2 متر بدل 1 متر؟", answer: "1.2 متر يعطيك مدى إضافي - مثالي للشحن بجانب السرير، استخدام الهاتف أثناء الشحن، أو لو المقبس بعيد. 10 جنيه زيادة فقط لراحة أكبر." },
                     { question: "هل يعمل مع ايفون 17 وسامسونج S26؟", answer: "نعم! ايفون 17 وسامسونج S26 يستخدمان USB-C. هذا الكابل يوصلهم بشواحن USB-A الحالية." },
-                    { question: "هل 3 أمبير كافي للشحن السريع؟", answer: "3 أمبير يوفر سرعة جيدة مع شواحن USB-A. لأقصى شحن سريع، استخدم كابلات USB-C إلى USB-C مع شواحن PD." }
+                    { question: "هل 3 أمبير كافي للشحن السريع؟", answer: "3 أمبير يوفر سرعة جيدة مع شواحن USB-A. لأقصى شحن سريع، استخدم كابلات USB-C إلى USB-C مع شواحن PD." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
                 ]
             }
         },

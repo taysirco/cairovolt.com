@@ -33,7 +33,9 @@ export const joyroom_usb_a_type_c_cable = {
                 faqs: [
                     { question: "Why would I use USB-A to Type-C?", answer: "If you have an older charger with USB-A port but a new phone with USB-C (like iPhone 17 or Samsung S26), this cable bridges the gap. No need to buy a new charger!" },
                     { question: "Is 3A the same as fast charging?", answer: "3A provides good charging speed, but true fast charging requires both cable and charger to support PD or QC. This cable supports up to 3A which is faster than standard 2.4A cables." },
-                    { question: "Will this work with my car charger?", answer: "Yes! If your car charger has USB-A ports, this cable lets you charge your new iPhone 17 or Samsung S26 using it." }
+                    { question: "Will this work with my car charger?", answer: "Yes! If your car charger has USB-A ports, this cable lets you charge your new iPhone 17 or Samsung S26 using it." },
+                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
                 ]
             },
             ar: {
@@ -51,7 +53,9 @@ export const joyroom_usb_a_type_c_cable = {
                 faqs: [
                     { question: "لماذا أستخدم USB-A إلى Type-C؟", answer: "لو عندك شاحن قديم USB-A لكن هاتفك جديد USB-C (مثل ايفون 17 أو سامسونج S26)، هذا الكابل يربط بينهما. لا تحتاج شراء شاحن جديد!" },
                     { question: "هل 3 أمبير نفس الشحن السريع؟", answer: "3 أمبير يوفر سرعة جيدة، لكن الشحن السريع الحقيقي يتطلب كابل وشاحن يدعمان PD أو QC. هذا الكابل يدعم حتى 3 أمبير وهو أسرع من 2.4 أمبير العادي." },
-                    { question: "هل يعمل مع شاحن سيارتي؟", answer: "نعم! لو شاحن سيارتك USB-A، هذا الكابل يشحن ايفون 17 أو سامسونج S26 الجديد." }
+                    { question: "هل يعمل مع شاحن سيارتي؟", answer: "نعم! لو شاحن سيارتك USB-A، هذا الكابل يشحن ايفون 17 أو سامسونج S26 الجديد." },
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
                 ]
             }
         },
