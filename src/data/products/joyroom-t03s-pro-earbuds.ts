@@ -37,7 +37,7 @@ export const joyroom_t03s_pro_earbuds = {
         <li>🔋 <strong>30H Battery:</strong> 6 hours per charge + 24 hours from charging case.</li>
         <li>📱 <strong>Bluetooth 5.3:</strong> Low latency for gaming and video. iOS pop-up support.</li>
         <li>💧 <strong>IPX5:</strong> Sweat and splash resistant for gym and outdoor use.</li>
-    </ul>
+    <li>💰 <strong>1.84 EGP/day:</strong> Over 12 months, less than a cup of tea.</li><li>💰 <strong>1.84 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">

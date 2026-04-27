@@ -37,7 +37,7 @@ export const anker_737_powerbank = {
                 shortDescription: "⚡ 140W Two-Way Fast Charging | 🔋 24,000mAh | 💻 Charges MacBook Pro 50% in 30 Min | 📊 Smart Digital Display",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Anker 737 PowerCore (A1289)</strong> delivers 140W USB-C PD output — enough to fast-charge a MacBook Pro 16" to 50% in 30 minutes. 24,000mAh capacity provides 5+ iPhone 17 charges. Smart display shows live wattage and remaining time. At 86.4Wh, it's airline-approved. This is a professional-grade power bank for creatives and remote workers. EGP 4,400, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Anker 737 PowerCore (A1289)</strong> delivers 140W USB-C PD output — enough to fast-charge a MacBook Pro 16" to 50% in 30 minutes. 24,000mAh capacity provides 5+ iPhone 17 charges. Smart display shows live wattage and remaining time. At 86.4Wh, it's airline-approved. This is a professional-grade power bank for creatives and remote workers. EGP 4,400, 18-month warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -107,7 +107,7 @@ export const anker_737_powerbank = {
                 shortDescription: "الوحش اللي بيشغل لابتوبك في فترة تخفيف الأحمال ⚡ 140 واط | 🔋 24,000 مللي أمبير | 📊 شاشة ذكية بتعرفك فاضل كام دقيقة بالظبط",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 737 PowerCore (A1289)</strong> بيطلع 140 واط USB-C PD — بيشحن ماك بوك برو 16" حتى 50% في 30 دقيقة. سعة 24,000 مللي أمبير بتشحن ايفون 17 أكثر من 5 مرات. شاشة ذكية بتعرض الوات الحي والوقت المتبقي. بسعة 86.4 واط/ساعة مسموح في الطيارة. ده باور بانك مستوى احترافي للمصممين واللي بيشتغلوا عن بعد. سعر 4,400 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 737 PowerCore (A1289)</strong> بيطلع 140 واط USB-C PD — بيشحن ماك بوك برو 16" حتى 50% في 30 دقيقة. سعة 24,000 مللي أمبير بتشحن ايفون 17 أكثر من 5 مرات. شاشة ذكية بتعرض الوات الحي والوقت المتبقي. بسعة 86.4 واط/ساعة مسموح في الطيارة. ده باور بانك مستوى احترافي للمصممين واللي بيشتغلوا عن بعد. سعر 4,400 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

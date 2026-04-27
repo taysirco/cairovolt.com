@@ -35,7 +35,7 @@ export const anker_zolo_a110e_20000 = {
                 shortDescription: "⚡ 22.5W Fast Charging | 🔋 20,000mAh (74Wh) | 🔌 Built-in USB-C Cable | 📊 LED Digital Display | 🛡️ ActiveShield 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike 20K power banks that take 12+ hours to recharge, the Anker ZOLO A110E recharges in just 4.5 hours via its <strong>built-in USB-C cable</strong> at <strong>22.5W</strong>. During Cairo's frequent power instability, its 74Wh capacity charges iPhone 17 Pro Max 4 times with ActiveShield 3.0 thermal guard — FCC/CE certified with Anker's 18-month warranty. Available at <strong>EGP 1730</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike 20K power banks that take 12+ hours to recharge, the Anker ZOLO A110E recharges in just 4.5 hours via its <strong>built-in USB-C cable</strong> at <strong>22.5W</strong>. During Cairo's frequent power instability, its 74Wh capacity charges iPhone 17 Pro Max 4 times with ActiveShield 3.0 thermal guard — FCC/CE certified with Anker's 18-month warranty. Available at <strong>EGP 1730</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">
@@ -105,7 +105,7 @@ export const anker_zolo_a110e_20000 = {
                 shortDescription: "⚡ شحن سريع 22.5 واط | 🔋 20,000 مللي أمبير | 🔌 كابل USB-C مدمج | 📊 شاشة رقمية | 🛡️ حماية ActiveShield 3.0 | ✈️ مسموح بالطائرة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات 20 ألف اللي بتاخد 12+ ساعة عشان تشحن، أنكر زولو A110E بيشحن نفسه في 4.5 ساعة بس ب<strong>كابل USB-C مدمج</strong> و<strong>22.5 واط شحن سريع</strong>. في ظل عدم استقرار الكهربا في مصر، سعة 74Wh بتشحن ايفون 17 برو ماكس 4 مرات مع حماية ActiveShield 3.0 — معتمد FCC/CE وضمان 18 شهر. بسعر <strong>1730 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات 20 ألف اللي بتاخد 12+ ساعة عشان تشحن، أنكر زولو A110E بيشحن نفسه في 4.5 ساعة بس ب<strong>كابل USB-C مدمج</strong> و<strong>22.5 واط شحن سريع</strong>. في ظل عدم استقرار الكهربا في مصر، سعة 74Wh بتشحن ايفون 17 برو ماكس 4 مرات مع حماية ActiveShield 3.0 — معتمد FCC/CE وضمان 18 شهر. بسعر <strong>1730 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">

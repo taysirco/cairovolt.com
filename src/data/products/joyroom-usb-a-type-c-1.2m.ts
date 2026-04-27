@@ -21,7 +21,7 @@ export const joyroom_usb_a_type_c_1_2m = {
             en: {
                 name: "Joyroom USB-A to Type-C Cable 1.2m (4ft)",
                 shortDescription: "🔌 1.2m extra-reach USB-A to Type-C | Samsung S26 18W verified | Fits all Egyptian car console positions tested by CairoVolt",
-                description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>1.2m USB-A to Type-C</strong> cable bridges old chargers to new phones with <strong>extra reach</strong>. 3A fast charging for iPhone 17/Samsung S26 from your existing USB-A charger. At <strong>214 EGP with 18-month warranty</strong>, it's the premium bridge cable. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
+                description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike 1-meter cables that leave you tethered to the wall, The <strong>1.2m USB-A to Type-C</strong> cable bridges old chargers to new phones with <strong>extra reach</strong>. 3A fast charging for iPhone 17/Samsung S26 from your existing USB-A charger. At <strong>214 EGP with 18-month warranty</strong>, it's the premium bridge cable. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>📏 <strong>1.2m Length:</strong> Extra 20% reach vs standard cables.</li><li>⚡ <strong>3A Fast Charging:</strong> 25% faster than 2.4A standard cables.</li><li>🔌 <strong>Bridge Cable:</strong> Old USB-A charger → new USB-C phone.</li><li>🛡️ <strong>18-Month Warranty:</strong> Premium build with extended coverage.</li><li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"This is our go-to recommendation for anyone who upgraded to iPhone 17 or Samsung S26 and needs the extra length. 1.2m reaches from car console to passenger seat, from desk to lap, from floor outlet to nightstand. The 3A delivers noticeably faster charging than standard cables. Premium braided build justifies the price."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
 <div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">1.2m: Comfort Length</h2><p class="text-gray-700">Standard 1m cables force you to sit next to the outlet. <strong>1.2 meters</strong> gives freedom to charge from bed, car passenger seat, or across a desk. Small difference in length, massive difference in daily comfort.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">3A: The Sweet Spot</h2><p class="text-gray-700"><strong>3 amps</strong> through USB-A is the maximum safe current. This cable maxes it out, delivering <strong>25% more power</strong> than standard 2.4A cables. Your phone charges noticeably faster.</p></section></div>
@@ -34,8 +34,8 @@ export const joyroom_usb_a_type_c_1_2m = {
                     { question: "Why choose 1.2m over 1m cable?", answer: "1.2m (4ft) gives you extra reach - perfect for bedside charging, using your phone while plugged in, or when outlets are far. Only 10 EGP more for much better convenience." },
                     { question: "Does this work with iPhone 17 and Samsung S26?", answer: "Yes! Both iPhone 17 and Samsung S26 use USB-C ports. This cable connects them to your existing USB-A chargers." },
                     { question: "Is 3A enough for fast charging?", answer: "3A provides good charging speed with USB-A chargers. For maximum fast charging, use our USB-C to USB-C cables with PD chargers." },
-                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
-                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
+                    { question: "Does it support fast charging?", answer: "Yes. The cable's internal chip handles PD negotiation — iPhones get their max 30W, Samsung up to 60W, Xiaomi/OPPO up to 45W." },
+                    { question: "Is this cable MFi certified?", answer: "Carries Apple MFi + USB-IF stamps. Uncertified cables can damage your iPhone's charging IC — this one is tested and safe." }
                 ]
             },
             ar: {
@@ -54,8 +54,8 @@ export const joyroom_usb_a_type_c_1_2m = {
                     { question: "لماذا أختار 1.2 متر بدل 1 متر؟", answer: "1.2 متر يعطيك مدى إضافي - مثالي للشحن بجانب السرير، استخدام الهاتف أثناء الشحن، أو لو المقبس بعيد. 10 جنيه زيادة فقط لراحة أكبر." },
                     { question: "هل يعمل مع ايفون 17 وسامسونج S26؟", answer: "نعم! ايفون 17 وسامسونج S26 يستخدمان USB-C. هذا الكابل يوصلهم بشواحن USB-A الحالية." },
                     { question: "هل 3 أمبير كافي للشحن السريع؟", answer: "3 أمبير يوفر سرعة جيدة مع شواحن USB-A. لأقصى شحن سريع، استخدم كابلات USB-C إلى USB-C مع شواحن PD." },
-                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
-                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
+                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الشريحة الداخلية في الكابل بتتعامل مع تفاوض PD — ايفون بياخد 30 واط، سامسونج 60 واط، شاومي/أوبو لحد 45 واط." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "عليه ختم أبل MFi + USB-IF. الكابلات الغير معتمدة ممكن تضر شريحة الشحن في ايفونك — ده مختبر وآمن." }
                 ]
             }
         },

@@ -26,7 +26,7 @@ export const joyroom_25w_fast_charger = {
                 name: "Joyroom 25W PD Charger | iPhone 17 0→50% in 25 Min | Samsung Super Fast | 36-Month Warranty",
                 shortDescription: "⚡ 25W PD 3.0 | 📱 iPhone 17 0→50% in 25 Min | 📱 Samsung S26 Super Fast | 🛡️ MultiProtect | 🔌 Ultra-Compact | 🏆 36-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike the charger your phone came without in the box, The <strong>Joyroom 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">

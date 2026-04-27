@@ -25,7 +25,7 @@ export const anker_soundcore_flare_2 = {
                 shortDescription: "🔊 360° party speaker with LED light show | CairoVolt PartyCast test: 3 speakers synced in 1.2s across 500m² | IPX7 waterproof",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap Bluetooth speakers that distort at high volume, The <strong>Anker Soundcore Flare 2 (A3165)</strong> is a 20W 360° Bluetooth speaker with beat-synced LED light rings. IPX7 waterproof (survives submersion), BassUp™ technology, PartyCast for linking 100+ speakers. Bluetooth 5.0, Soundcore app EQ. Perfect party/pool speaker. EGP 2,999, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap Bluetooth speakers that distort at high volume, The <strong>Anker Soundcore Flare 2 (A3165)</strong> is a 20W 360° Bluetooth speaker with beat-synced LED light rings. IPX7 waterproof (survives submersion), BassUp™ technology, PartyCast for linking 100+ speakers. Bluetooth 5.0, Soundcore app EQ. Perfect party/pool speaker. EGP 2,999, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -38,7 +38,7 @@ export const anker_soundcore_flare_2 = {
         <li>💡 <strong>Light Show:</strong> Beat-driven dual LED rings that sync with your music.</li>
         <li>💧 <strong>Waterproof:</strong> IPX7 rated — survives full submersion.</li>
         <li>🔗 <strong>PartyCast:</strong> Sync 100+ speakers for massive sound coverage.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>5.55 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>5.55 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -91,7 +91,7 @@ export const anker_soundcore_flare_2 = {
                 shortDescription: "بتحول أي سهرة لحفلة 🌈 إضاءة RGB بتتفاعل مع الموسيقى | 🔊 صوت 360° بيتوزع في كل الاتجاهات | 💧 IPX7 خليها على حمام السباحة | 🔋 12 ساعة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة اللي صوتها بيتشوه على الصوت العالي، <strong>سماعة أنكر Soundcore Flare 2 (A3165)</strong> سماعة بلوتوث 20 واط بصوت 360° وحلقات LED متزامنة مع الإيقاع. مقاومة ماء IPX7 (بتتحمل الغمر)، تقنية BassUp™، PartyCast لربط 100+ سماعة. بلوتوث 5.0، تطبيق Soundcore للتحكم. سماعة الحفلات وحمام السباحة. سعر 2,999 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة اللي صوتها بيتشوه على الصوت العالي، <strong>سماعة أنكر Soundcore Flare 2 (A3165)</strong> سماعة بلوتوث 20 واط بصوت 360° وحلقات LED متزامنة مع الإيقاع. مقاومة ماء IPX7 (بتتحمل الغمر)، تقنية BassUp™، PartyCast لربط 100+ سماعة. بلوتوث 5.0، تطبيق Soundcore للتحكم. سماعة الحفلات وحمام السباحة. سعر 2,999 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

@@ -84,7 +84,7 @@ export const anker_521_powerhouse = {
                 shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ 3,000+ Charge Cycles (10+ Years) | 💡 Built-in LED Light",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1710)</strong> is a 256Wh portable power station with LiFePO4 batteries rated for 3,000+ charge cycles (10+ years). It outputs 200W via a 220V AC outlet — enough to run your router, fan, CPAP, and charge multiple phones during an Egyptian blackout. 6 output ports, built-in LED, 5-year warranty. EGP 11,000.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1710)</strong> is a 256Wh portable power station with LiFePO4 batteries rated for 3,000+ charge cycles (10+ years). It outputs 200W via a 220V AC outlet — enough to run your router, fan, CPAP, and charge multiple phones during an Egyptian blackout. 6 output ports, built-in LED, 5-year warranty. EGP 11,000. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -97,7 +97,7 @@ export const anker_521_powerhouse = {
         <li>🔌 <strong>200W AC Outlet:</strong> Powers routers, CPAP machines, fans, and small appliances.</li>
         <li>⚡ <strong>6 Output Ports:</strong> AC 220V + USB-C PD + 2× USB-A + Car Socket + DC.</li>
         <li>🛡️ <strong>5-Year Warranty:</strong> Industry-leading warranty — longest in Egypt.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>20.37 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>20.37 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -154,7 +154,7 @@ export const anker_521_powerhouse = {
                 shortDescription: "البديل الآمن والهادي للمولد وقت تخفيف الأحمال 🔋 256 واط | 🔌 فيشة 220 فولت كاملة | ♻️ بطارية بتعيش 10 سنين",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة أنكر 521 (A1710)</strong> بسعة 256 واط/ساعة ببطاريات LiFePO4 بتستحمل 3,000+ دورة شحن (10+ سنوات). بتطلع 200 واط من فيشة 220 فولت — تكفي تشغل الراوتر والمروحة وجهاز CPAP وتشحن موبايلات كتير وقت انقطاع الكهربا. 6 منافذ، إضاءة LED مدمجة، ضمان 5 سنوات. سعر 11,000 جنيه.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة أنكر 521 (A1710)</strong> بسعة 256 واط/ساعة ببطاريات LiFePO4 بتستحمل 3,000+ دورة شحن (10+ سنوات). بتطلع 200 واط من فيشة 220 فولت — تكفي تشغل الراوتر والمروحة وجهاز CPAP وتشحن موبايلات كتير وقت انقطاع الكهربا. 6 منافذ، إضاءة LED مدمجة، ضمان 5 سنوات. سعر 11,000 جنيه. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

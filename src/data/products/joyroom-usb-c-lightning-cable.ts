@@ -28,7 +28,7 @@ export const joyroom_usb_c_lightning_cable = {
                 name: "Joyroom USB-C to Lightning Cable | 20W PD | Nylon Braided | 12-Month Warranty",
                 shortDescription: "⚡ 20W PD Fast Charging | 🔗 Nylon Braided 10,000+ Bends | 📱 iPhone 17/16/15 | 💾 480Mbps Data Transfer | 💰 Best Price Egypt",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Joyroom USB-C to Lightning cable</strong> at <strong>118 EGP</strong> is the budget entry point for real 20W PD fast charging. Nylon braided, 12-month warranty, 0→50% in ~30 min for iPhone 14/13/12. CairoVolt's best-selling cable by volume. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike marketplace cables with fake PD labels that max out at 10W, The <strong>Joyroom USB-C to Lightning cable</strong> at <strong>118 EGP</strong> is the budget entry point for real 20W PD fast charging. Nylon braided, 12-month warranty, 0→50% in ~30 min for iPhone 14/13/12. CairoVolt's best-selling cable by volume. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -91,8 +91,8 @@ export const joyroom_usb_c_lightning_cable = {
                         question: "Will it charge ipad?",
                         answer: "It works for iPads with Lightning ports, but for USB-C iPads, you will need a USB-C to USB-C cable."
                     },
-                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
-                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
+                    { question: "Does it support fast charging?", answer: "Yes, certified for maximum device speed. For iPhones that means 30W PD fast charging, for Samsung flagships up to 60W Super Fast Charge." },
+                    { question: "Is this cable MFi certified?", answer: "Yes — carries dual MFi + USB-IF certification. This ensures compatibility with iOS updates and protects your device warranty." }
                 ]
             },
             ar: {

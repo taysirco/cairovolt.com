@@ -27,7 +27,7 @@ export const anker_soundcore_life_p2i = {
                 shortDescription: "🎧 28H Total Playtime | 🤖 AI-Enhanced 2-Mic Calls | 🎵 Dual EQ (Bass/Podcast) | ⚡ 10 Min = 1H Charge | 📱 Bluetooth 5.2",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 999, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 999, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -40,7 +40,7 @@ export const anker_soundcore_life_p2i = {
         <li>🤖 <strong>AI Calls:</strong> Dual-mic AI algorithm isolates your voice from street noise.</li>
         <li>🎵 <strong>Dual EQ:</strong> Bass Mode for music, Podcast Mode for clear vocals.</li>
         <li>⚡ <strong>Fast Charge:</strong> 10 minutes charging = 1 hour of playback.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -93,7 +93,7 @@ export const anker_soundcore_life_p2i = {
                 shortDescription: "مكالماتك واضحة في عز الدوشة 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>سماعات أنكر Soundcore Life P2i (A3991)</strong> سماعات TWS اقتصادية ببطارية 28 ساعة (7 سماعات + 21 علبة). ميكروفونات مزدوجة بذكاء اصطناعي لمكالمات واضحة في الدوشة، بلوتوث 5.2، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر 999 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed"><strong>سماعات أنكر Soundcore Life P2i (A3991)</strong> سماعات TWS اقتصادية ببطارية 28 ساعة (7 سماعات + 21 علبة). ميكروفونات مزدوجة بذكاء اصطناعي لمكالمات واضحة في الدوشة، بلوتوث 5.2، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر 999 جنيه، ضمان 18 شهر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

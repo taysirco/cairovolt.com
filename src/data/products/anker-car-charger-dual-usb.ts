@@ -27,7 +27,7 @@ export const anker_car_charger_dual_usb = {
                 shortDescription: "🚗 24W Dual USB (12W×2) | ⚡ PowerIQ Smart Charging | 📱 Charge 2 Devices Simultaneously | 💡 LED Indicator | 🔌 12V/24V Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Anker PowerDrive 2 (A2310)</strong> is a dual USB-A car charger with 24W total output (12W per port). PowerIQ detects connected devices and delivers optimal speed. Compact flush-fit design, soft blue LED, 12V/24V universal compatibility. Perfect for charging two phones during Cairo traffic. 18-month warranty. Available at <strong>EGP 950</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Anker PowerDrive 2 (A2310)</strong> is a dual USB-A car charger with 24W total output (12W per port). PowerIQ detects connected devices and delivers optimal speed. Compact flush-fit design, soft blue LED, 12V/24V universal compatibility. Perfect for charging two phones during Cairo traffic. 18-month warranty. Available at <strong>EGP 950</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -40,7 +40,7 @@ export const anker_car_charger_dual_usb = {
         <li>⚡ <strong>PowerIQ:</strong> Detects each device and delivers optimal charging speed.</li>
         <li>📱 <strong>Charge 2 Devices:</strong> Phone + earbuds, or 2 phones simultaneously.</li>
         <li>🔌 <strong>Universal Fit:</strong> Works with all 12V/24V car cigarette lighter sockets.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -93,7 +93,7 @@ export const anker_car_charger_dual_usb = {
                 shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، <strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، <strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

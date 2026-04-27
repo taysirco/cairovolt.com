@@ -26,7 +26,7 @@ export const anker_soundcore_r50i = {
                 shortDescription: "🎵 10mm Drivers + BassUp™ | 🔋 30h Total Battery | 🎙️ AI ENC Dual Mic | ⚡ Fast Charge | 💧 IPX5 | 📱 Soundcore App EQ",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The Soundcore R50i delivers <strong>10mm BassUp™ drivers</strong> and <strong>30h total battery</strong> at the lowest price point in the Soundcore lineup. In-ear silicone tips provide passive noise isolation for Cairo’s loud streets. AI ENC dual mics clean up call audio in buses and micro-buses. No ANC — but at this price, it’s the best-value wireless earbuds in Egypt. FCC certified, 18-month warranty. Available at <strong>EGP 950</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike earbuds that die during your gym session, The Soundcore R50i delivers <strong>10mm BassUp™ drivers</strong> and <strong>30h total battery</strong> at the lowest price point in the Soundcore lineup. In-ear silicone tips provide passive noise isolation for Cairo’s loud streets. AI ENC dual mics clean up call audio in buses and micro-buses. No ANC — but at this price, it’s the best-value wireless earbuds in Egypt. FCC certified, 18-month warranty. Available at <strong>EGP 950</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">

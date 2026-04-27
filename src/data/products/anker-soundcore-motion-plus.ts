@@ -28,7 +28,7 @@ export const anker_soundcore_motion_plus = {
                 shortDescription: "🔊 30W Hi-Res certified speaker tested 12h 8min at CairoVolt Labs | IPX7 waterproof (Ain Sokhna pool test) | BassUp + custom EQ via app",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap speakers with distorted bass and short battery, The <strong>Anker Soundcore Motion+ (A3116)</strong> is a 30W Hi-Res Audio certified Bluetooth speaker with Qualcomm aptX. IPX7 waterproof, 12H battery (6700mAh), BassUp™, custom EQ via Soundcore app, Bluetooth 5.0 + AUX. Dual tweeters with 15° upward tilt for room-filling sound. EGP 3,600, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap speakers with distorted bass and short battery, The <strong>Anker Soundcore Motion+ (A3116)</strong> is a 30W Hi-Res Audio certified Bluetooth speaker with Qualcomm aptX. IPX7 waterproof, 12H battery (6700mAh), BassUp™, custom EQ via Soundcore app, Bluetooth 5.0 + AUX. Dual tweeters with 15° upward tilt for room-filling sound. EGP 3,600, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -41,7 +41,7 @@ export const anker_soundcore_motion_plus = {
         <li>💧 <strong>Waterproof:</strong> IPX7 rated (fully submersible).</li>
         <li>🔋 <strong>All-Day Battery:</strong> 12 hours of continuous playtime (6700mAh).</li>
         <li>📱 <strong>Smart Connect:</strong> Bluetooth 5.0 + 3.5mm AUX input.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>6.67 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>6.67 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -93,7 +93,7 @@ export const anker_soundcore_motion_plus = {
                 shortDescription: "صوت جبار 30 وات بيملا رووف كامل 🔊 | 💧 IPX7 بتنزل حمام سباحة عادي | 🔋 12 ساعة بطارية هتكفيك سهرة كاملة | 🎚️ حرر الصوت بتطبيق EQ",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السبيكرات الرخيصة بباص مشوش وبطارية قصيرة، <strong>سماعة أنكر Soundcore Motion+ (A3116)</strong> سماعة 30 واط بشهادة Hi-Res Audio وQualcomm aptX. مقاومة ماء IPX7، بطارية 12 ساعة (6700mAh)، BassUp™، تحكم EQ من تطبيق Soundcore، بلوتوث 5.0 + AUX. التويترز بزاوية 15° بتوزع الصوت في الغرفة كلها. سعر 3,600 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السبيكرات الرخيصة بباص مشوش وبطارية قصيرة، <strong>سماعة أنكر Soundcore Motion+ (A3116)</strong> سماعة 30 واط بشهادة Hi-Res Audio وQualcomm aptX. مقاومة ماء IPX7، بطارية 12 ساعة (6700mAh)، BassUp™، تحكم EQ من تطبيق Soundcore، بلوتوث 5.0 + AUX. التويترز بزاوية 15° بتوزع الصوت في الغرفة كلها. سعر 3,600 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

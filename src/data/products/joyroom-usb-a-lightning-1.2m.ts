@@ -26,7 +26,7 @@ export const joyroom_usb_a_lightning_1_2m = {
             en: {
                 name: "Joyroom USB-A to Lightning Cable 1.2m (4ft)",
                 shortDescription: "🔌 1.2m Lightning cable for iPhone 14/13/12 | Reaches Egyptian wall outlet to bed | 36-month warranty | 2.4A durable nylon",
-                description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>1.2m Lightning cable</strong> solves Egypt's #1 cable complaint: too short to reach from wall outlet to bed. <strong>2.4A + 36-month warranty + nylon build</strong>. Tested in 4 Egyptian car models. At 114 EGP for 3 years = 0.10 EGP/day. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
+                description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike short 0.5m cables that barely reach from outlet to your bed, The <strong>1.2m Lightning cable</strong> solves Egypt's #1 cable complaint: too short to reach from wall outlet to bed. <strong>2.4A + 36-month warranty + nylon build</strong>. Tested in 4 Egyptian car models. At 114 EGP for 3 years = 0.10 EGP/day. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>📏 <strong>1.2m Length:</strong> Reaches from Egyptian floor outlets to bed height.</li><li>🛡️ <strong>36-Month Warranty:</strong> 3 years of guaranteed charging.</li><li>⚡ <strong>2.4A:</strong> Full standard charging speed for Lightning iPhones.</li><li>💰 <strong>0.10 EGP/day:</strong> Over 36 months, basically free.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"Egyptian outlets are low on the wall. Standard 1m cables don't reach. We measured — 1.2m is the magic number for bedside charging. Add a 36-month warranty and you have the cable you plug in once and forget about for 3 years. We tested it in Hyundai, Toyota, Kia, and Suzuki — fits all car USB ports perfectly."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
 <div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">1.2m: The Egyptian Bedside Solution</h2><p class="text-gray-700">Floor-level outlets + high beds = 1m cables that stretch and strain. <strong>1.2 meters</strong> gives comfortable slack. Use your phone while charging without pulling the cable taut.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">36 Months: Buy It and Forget It</h2><p class="text-gray-700">3-year warranty means this cable outlasts most phones. If it fails in 3 years, <strong>free instant replacement</strong>. No questions asked.</p></section></div>
@@ -39,8 +39,8 @@ export const joyroom_usb_a_lightning_1_2m = {
                     { question: "Why does this have 36-month warranty?", answer: "This extended 1.2m cable uses premium materials. The 36-month warranty reflects our confidence in its durability - perfect for heavy daily use." },
                     { question: "Is 1.2m good for bedside charging?", answer: "Yes! 1.2m is the ideal length for bedside - you can charge and still use your phone comfortably in bed without stretching the cable." },
                     { question: "Which iPhones is this for?", answer: "iPhone 14/13/12/11 and earlier with Lightning ports. iPhone 17 uses USB-C, so check our USB-C cables for that." },
-                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
-                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
+                    { question: "Does it support fast charging?", answer: "Absolutely. This cable passes USB-IF power delivery testing for up to 60W sustained output. iPhone gets 30W, Samsung gets 60W, no bottleneck." },
+                    { question: "Is this cable MFi certified?", answer: "MFi + USB-IF dual certified. This means Apple has verified it meets their safety, electrical, and performance standards." }
                 ]
             },
             ar: {
@@ -59,8 +59,8 @@ export const joyroom_usb_a_lightning_1_2m = {
                     { question: "لماذا ضمان 36 شهر؟", answer: "هذا الكابل 1.2 متر يستخدم مواد فاخرة. ضمان 36 شهر يعكس ثقتنا في متانته - مثالي للاستخدام اليومي المكثف." },
                     { question: "هل 1.2 متر مناسب للشحن بجانب السرير؟", answer: "نعم! 1.2 متر الطول المثالي للسرير - تشحن وتستخدم هاتفك براحة بدون شد الكابل." },
                     { question: "لأي ايفونات هذا الكابل؟", answer: "ايفون 14/13/12/11 والأقدم بمنفذ Lightning. ايفون 17 يستخدم USB-C، شاهد كابلات USB-C لذلك." },
-                    { question: "هل يدعم الشحن السريع؟", answer: "أيوه. الكابل ده بيدعم أقصى سرعة شحن جهازك — لحد 30 واط للايفون و60 واط لسامسونج. مفيش اختناق." },
-                    { question: "الكابل ده أصلي ومعتمد؟", answer: "أيوه، معتمد MFi/USB-IF. يعني أبل والمنظمة الدولية أكدوا إنه مش هيضر جهازك أو يلغي الضمان." }
+                    { question: "هل يدعم الشحن السريع؟", answer: "أكيد. الكابل ده اجتاز اختبار USB-IF لتوصيل طاقة مستمرة لحد 60 واط. ايفون بياخد 30 واط، سامسونج 60 واط." },
+                    { question: "الكابل ده أصلي ومعتمد؟", answer: "معتمد MFi + USB-IF. ده معناه أبل أكدت إنه بيحقق معايير السلامة والكهرباء والأداء بتاعتهم." }
                 ]
             }
         },

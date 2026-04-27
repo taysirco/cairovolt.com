@@ -33,7 +33,7 @@ export const joyroom_60w_car_charger = {
         <li>🔌 <strong>Retractable Cables:</strong> Built-in USB-C cables, no cable mess.</li>
         <li>📱 <strong>iPhone 17 MAX:</strong> Full 30W charging speed per port.</li>
         <li>🚗 <strong>Universal Fit:</strong> Standard 12V socket, fits any car.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>0.95 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>0.95 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

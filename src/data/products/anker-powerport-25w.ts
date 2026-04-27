@@ -27,7 +27,7 @@ export const anker_powerport_25w = {
                 shortDescription: "⚡ 25W PPS Samsung Super Fast | 📱 S26: 0-50% in 26 Min | 📱 iPhone 17 Compatible | 🛡️ ActiveShield 2.0 | 🇸🇦 UK Plug",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Anker 25W PPS Charger (A2322)</strong> unlocks Samsung Super Fast Charging — 0% to 50% on Galaxy S26 in 26 minutes. PPS (Programmable Power Supply) dynamically adjusts voltage for heat-free, efficient charging. Also fast charges iPhone 17 (28 min to 50%). ActiveShield 2.0 monitors temperature 3 million times daily. Compact 4.5cm, UK plug. EGP 550, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike Samsung's bundled 15W charger, The <strong>Anker 25W PPS Charger (A2322)</strong> unlocks Samsung Super Fast Charging — 0% to 50% on Galaxy S26 in 26 minutes. PPS (Programmable Power Supply) dynamically adjusts voltage for heat-free, efficient charging. Also fast charges iPhone 17 (28 min to 50%). ActiveShield 2.0 monitors temperature 3 million times daily. Compact 4.5cm, UK plug. EGP 550, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -40,7 +40,7 @@ export const anker_powerport_25w = {
         <li>📱 <strong>iPhone Compatible:</strong> Also fast charges iPhone 17 (0-50% in 28 min).</li>
         <li>🛡️ <strong>ActiveShield 2.0:</strong> Monitors temperature 3 million times/day.</li>
         <li>📏 <strong>4.5cm Compact:</strong> Smaller than Samsung's original charger. EGP 550.</li>
-    </ul>
+    <li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -107,7 +107,7 @@ export const anker_powerport_25w = {
                 shortDescription: "بيشحن الـ S26 لـ 50% في 26 دقيقة بالظبط ⚡ 25 واط PPS | ❄️ تبريد عالي مبيسخنش في حر الصيف | 📱 بيشحن ايفون كمان",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر 25 واط PPS (A2322)</strong> بيفتح Samsung Super Fast Charging — من 0% لـ 50% على Galaxy S26 في 26 دقيقة. PPS بيظبط الجهد ديناميكياً لشحن كفء بدون حرارة. بيشحن ايفون 17 كمان (28 دقيقة لـ 50%). ActiveShield 2.0 بيراقب الحرارة 3 مليون مرة يومياً. صغير 4.5سم، قابس UK. سعر 550 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر 25 واط PPS (A2322)</strong> بيفتح Samsung Super Fast Charging — من 0% لـ 50% على Galaxy S26 في 26 دقيقة. PPS بيظبط الجهد ديناميكياً لشحن كفء بدون حرارة. بيشحن ايفون 17 كمان (28 دقيقة لـ 50%). ActiveShield 2.0 بيراقب الحرارة 3 مليون مرة يومياً. صغير 4.5سم، قابس UK. سعر 550 جنيه، ضمان 18 شهر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

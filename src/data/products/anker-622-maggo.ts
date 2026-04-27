@@ -29,7 +29,7 @@ export const anker_622_maggo = {
                 shortDescription: "🧲 MagSafe Wireless Charging | 📱 Built-in Foldable Kickstand | 🪨 Ultra-Slim Design | 🔌 USB-C Two-Way Charging",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Anker 622 MagGo (A1610)</strong> is a MagSafe-compatible wireless battery pack for iPhone 17/16/15/14/13/12. It snaps magnetically to the back of your iPhone and charges at 7.5W while you use it. Built-in foldable kickstand for hands-free video calls. 13mm thin, USB-C pass-through charging. EGP 2,800, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Anker 622 MagGo (A1610)</strong> is a MagSafe-compatible wireless battery pack for iPhone 17/16/15/14/13/12. It snaps magnetically to the back of your iPhone and charges at 7.5W while you use it. Built-in foldable kickstand for hands-free video calls. 13mm thin, USB-C pass-through charging. EGP 2,800, 18-month warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -42,7 +42,7 @@ export const anker_622_maggo = {
         <li>📱 <strong>Foldable Stand:</strong> Built-in kickstand for hands-free video calls and streaming.</li>
         <li>🔌 <strong>USB-C Port:</strong> Two-way charging — charge the battery and your phone simultaneously.</li>
         <li>🪨 <strong>Ultra-Slim:</strong> Only 13mm thin — barely adds bulk to your iPhone.</li>
-    </ul>
+    <li>💰 <strong>5.19 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>5.19 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -95,7 +95,7 @@ export const anker_622_maggo = {
                 shortDescription: "لزقة في ضهر ايفونك مبتطحركش 🧲 شحن وايرلس MagSafe | 📱 ستاند مدمج لمكالمات الفيديو في الكافيهات | 🪨 رفيع جداً (13مم) مش هتحس بيه",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 622 MagGo (A1610)</strong> بطارية لاسلكية متوافقة مع MagSafe لايفون 17/16/15/14/13/12. بتلتصق مغناطيسي على ظهر ايفونك وبتشحن 7.5 واط وإنت بتستخدمه. حامل مدمج قابل للطي لمكالمات الفيديو بدون ما تمسك. سمك 13مم، شحن USB-C تمريري. سعر 2,800 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 622 MagGo (A1610)</strong> بطارية لاسلكية متوافقة مع MagSafe لايفون 17/16/15/14/13/12. بتلتصق مغناطيسي على ظهر ايفونك وبتشحن 7.5 واط وإنت بتستخدمه. حامل مدمج قابل للطي لمكالمات الفيديو بدون ما تمسك. سمك 13مم، شحن USB-C تمريري. سعر 2,800 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

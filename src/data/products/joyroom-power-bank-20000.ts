@@ -38,7 +38,7 @@ export const joyroom_power_bank_20000 = {
         <li>⚡ <strong>22.5W Output:</strong> PD 20W for iPhone + QC 3.0 for Android + SCP for Huawei.</li>
         <li>🔌 <strong>3 Output Ports:</strong> Charge 3 devices simultaneously (2×USB-A + 1×USB-C).</li>
         <li>📊 <strong>LED Display:</strong> Exact battery percentage. EGP 997 — best value 20,000mAh.</li>
-    </ul>
+    <li>💰 <strong>2.77 EGP/day:</strong> Over 12 months, less than a cup of tea.</li><li>💰 <strong>2.77 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">

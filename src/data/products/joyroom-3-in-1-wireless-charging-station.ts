@@ -34,7 +34,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <li>⌚ <strong>Apple Watch:</strong> Ultra 2, Series 10, all models fast charge.</li>
         <li>🎧 <strong>AirPods:</strong> Pro 2 / 3rd Gen wireless pad.</li>
         <li>🏛️ <strong>Premium:</strong> Aluminum alloy, adjustable angle, single cable.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>2.23 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>2.23 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

@@ -36,7 +36,7 @@ export const joyroom_car_mount_zs290 = {
         <li>📱 <strong>MagSafe Direct:</strong> iPhone 15/16/17 attach without metal plate.</li>
         <li>🔄 <strong>360° Rotation:</strong> Portrait, landscape, or any angle.</li>
         <li>🖐️ <strong>One-Hand:</strong> Snap phone on, pull phone off. Zero fumbling.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>7.08 EGP/day:</strong> Over 12 months, less than a cup of tea.</li><li>💰 <strong>7.08 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

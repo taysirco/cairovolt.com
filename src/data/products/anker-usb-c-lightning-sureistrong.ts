@@ -25,7 +25,7 @@ export const anker_usb_c_lightning_sureistrong = {
                 shortDescription: "🔌 Anker premium soft-touch anti-tangle cable | 30W PD for iPhone 14/13/12 | Stain-resistant coating | 24-month Anker warranty",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker SureIStrong USB-C to Lightning (A8652)</strong> is Anker's premium soft-touch cable for iPhone 14/13/12/11. MFi certified, 30W PD fast charging, 1.8m length. The bio-based fiber reinforcement at the stress point eliminates the #1 cause of cable failure. Stain-resistant coating, anti-tangle. EGP 599, 24-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker SureIStrong USB-C to Lightning (A8652)</strong> is Anker's premium soft-touch cable for iPhone 14/13/12/11. MFi certified, 30W PD fast charging, 1.8m length. The bio-based fiber reinforcement at the stress point eliminates the #1 cause of cable failure. Stain-resistant coating, anti-tangle. EGP 599, 24-month warranty. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -38,7 +38,7 @@ export const anker_usb_c_lightning_sureistrong = {
         <li>🧬 <strong>Bio-Fiber Reinforcement:</strong> 15x stronger at the stress point than standard cables.</li>
         <li>🧹 <strong>Stain-Resistant:</strong> White coating stays white, even in dusty Cairo bags.</li>
         <li>🔗 <strong>Anti-Tangle:</strong> Soft-touch surface prevents knots without cable ties.</li>
-    </ul>
+    <li>💰 <strong>0.83 EGP/day:</strong> Over 24 months, less than a cup of tea.</li><li>💰 <strong>0.83 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul>
 </div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
@@ -81,7 +81,7 @@ export const anker_usb_c_lightning_sureistrong = {
                 shortDescription: "كابل انكر الفاخر اللي حسسك إنك بتمسك حاجة غالية 🌟 مقاوم للبقع والتشابك | ⚡ 30 واط PD شحن سريع | 🛡️ معتمد MFi | 🏆 ضمان سنتين",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر SureIStrong USB-C to Lightning (A8652)</strong> كابل أنكر الفاخر بملمس ناعم لايفون 14/13/12/11. معتمد MFi، شحن سريع 30 واط PD، طول 1.8م. التقوية بألياف حيوية عند نقطة الضغط بتلغي السبب الأول لتلف الكابلات. مقاوم للبقع والتشابك. سعر 599 جنيه، ضمان 24 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر SureIStrong USB-C to Lightning (A8652)</strong> كابل أنكر الفاخر بملمس ناعم لايفون 14/13/12/11. معتمد MFi، شحن سريع 30 واط PD، طول 1.8م. التقوية بألياف حيوية عند نقطة الضغط بتلغي السبب الأول لتلف الكابلات. مقاوم للبقع والتشابك. سعر 599 جنيه، ضمان 24 شهر. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

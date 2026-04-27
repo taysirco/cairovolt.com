@@ -33,7 +33,7 @@ export const anker_zolo_a1681_20000 = {
                 shortDescription: "⚡ 45W PD Fast Charging — Charges Laptops! | 🔋 20,000mAh (72Wh) | 💻 MacBook Air / iPad Pro Compatible | 📊 Digital Display | 🛡️ ActiveShield 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget power banks that can’t charge laptops, the Anker ZOLO A1681 delivers <strong>45W dual USB-C PD output</strong> — enough for MacBook Air at full speed. With 20,000mAh capacity and a smart digital display showing real-time wattage, it survived our full-workday test in Downtown Cairo cafés. ActiveShield 3.0 thermal guard + FCC/CE certified — Anker 18-month warranty. Available at <strong>EGP 2200</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget power banks that can’t charge laptops, the Anker ZOLO A1681 delivers <strong>45W dual USB-C PD output</strong> — enough for MacBook Air at full speed. With 20,000mAh capacity and a smart digital display showing real-time wattage, it survived our full-workday test in Downtown Cairo cafés. ActiveShield 3.0 thermal guard + FCC/CE certified — Anker 18-month warranty. Available at <strong>EGP 2200</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">
@@ -103,7 +103,7 @@ export const anker_zolo_a1681_20000 = {
                 shortDescription: "⚡ 45 واط PD — يشحن لابتوبات! | 🔋 20,000 مللي أمبير | 💻 ماك بوك اير / ايباد برو | 📊 شاشة ذكية | 🛡️ ActiveShield 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة اللي مش بتشحن لابتوبات، أنكر زولو A1681 بيوفر <strong>45 واط USB-C PD</strong> — كفاية يشحن ماك بوك اير بالسرعة الكاملة. بسعة 20,000 مللي أمبير وشاشة ذكية بتعرض الواط لحظياً، عدّى اختبار يوم شغل كامل في كافيهات وسط البلد. حماية ActiveShield 3.0 + شهادات FCC/CE — ضمان 18 شهر. بسعر <strong>2200 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة اللي مش بتشحن لابتوبات، أنكر زولو A1681 بيوفر <strong>45 واط USB-C PD</strong> — كفاية يشحن ماك بوك اير بالسرعة الكاملة. بسعة 20,000 مللي أمبير وشاشة ذكية بتعرض الواط لحظياً، عدّى اختبار يوم شغل كامل في كافيهات وسط البلد. حماية ActiveShield 3.0 + شهادات FCC/CE — ضمان 18 شهر. بسعر <strong>2200 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">

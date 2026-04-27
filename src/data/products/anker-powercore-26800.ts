@@ -29,7 +29,7 @@ export const anker_powercore_26800 = {
                 shortDescription: "🔋 26,800mAh (96.48Wh) | 📱 5x iPhone 17 Charges | 🔌 3 USB Ports | ✈️ Max Airline-Legal Capacity | 🔄 Dual-Input Fast Recharge",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike generic power banks that die after 2 charges, The <strong>Anker PowerCore 26800 (A1277)</strong> packs 96.48Wh — the maximum capacity legally allowed on any airline. That’s 5 full iPhone 17 charges, 4 Samsung S26 charges, or a full family’s worth of power for a 5-day Siwa camping trip. 3 USB-A ports with PowerIQ 2.0 charge 3 devices simultaneously. Dual Micro-USB inputs slash recharge time to 6 hours instead of 20. EGP 2,300, 24-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike generic power banks that die after 2 charges, The <strong>Anker PowerCore 26800 (A1277)</strong> packs 96.48Wh — the maximum capacity legally allowed on any airline. That’s 5 full iPhone 17 charges, 4 Samsung S26 charges, or a full family’s worth of power for a 5-day Siwa camping trip. 3 USB-A ports with PowerIQ 2.0 charge 3 devices simultaneously. Dual Micro-USB inputs slash recharge time to 6 hours instead of 20. EGP 2,300, 24-month warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -108,7 +108,7 @@ export const anker_powercore_26800 = {
                 shortDescription: "أكبر سعة مسموحة تاخدها معاك الطيارة قانونياً 🔋 5 شحنات ايفون | 🔌 3 منافذ بيشحنوا موبايلات العيلة كلها وقت الطوارئ",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباوربنكات العادية اللي بتخلص بعد شحنتين، <strong>أنكر PowerCore 26800 (A1277)</strong> بخزن 96.48 واط/ساعة — أكبر سعة مسموحة قانونياً على أي طيارة. يعني 5 شحنات ايفون 17 كاملة، 4 شحنات سامسونج S26، أو طاقة عيلة كاملة لـ 5 أيام تخييم في سيوة. 3 منافذ USB-A مع PowerIQ 2.0 بيشحنوا 3 أجهزة في نفس الوقت. مدخلين Micro-USB بيشحنوه في 6 ساعات بدل 20. سعر 2,300 جنيه، ضمان 24 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباوربنكات العادية اللي بتخلص بعد شحنتين، <strong>أنكر PowerCore 26800 (A1277)</strong> بخزن 96.48 واط/ساعة — أكبر سعة مسموحة قانونياً على أي طيارة. يعني 5 شحنات ايفون 17 كاملة، 4 شحنات سامسونج S26، أو طاقة عيلة كاملة لـ 5 أيام تخييم في سيوة. 3 منافذ USB-A مع PowerIQ 2.0 بيشحنوا 3 أجهزة في نفس الوقت. مدخلين Micro-USB بيشحنوه في 6 ساعات بدل 20. سعر 2,300 جنيه، ضمان 24 شهر. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

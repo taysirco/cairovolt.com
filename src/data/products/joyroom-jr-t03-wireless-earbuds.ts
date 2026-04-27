@@ -38,7 +38,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <li>👆 <strong>Touch Controls:</strong> Play/pause, skip, volume, and call answer on earbuds.</li>
         <li>📱 <strong>Bluetooth 5.0:</strong> Stable connection with iPhone 17, Samsung S26, and all devices.</li>
         <li>💰 <strong>Best Budget:</strong> Quality wireless earbuds at Egypt's most affordable price.</li>
-    </ul>
+    <li>💰 <strong>1.43 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.43 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">

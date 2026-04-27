@@ -27,7 +27,7 @@ export const joyroom_30w_fast_charger = {
                 name: "Joyroom 30W PD+QC Charger | iPhone 17 MAX Speed | 0→50% in 20 Min | 36-Month Warranty",
                 shortDescription: "⚡ 30W MAX iPhone 17 Speed | 📱 0→50% in 20 Min | 🔄 Dual PD 3.0 + QC 3.0 | 📱 Samsung S26 Super Fast | ✅ CE/FCC Certified | 🏆 36-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 30W</strong> unlocks <strong>iPhone 17's maximum charging speed</strong> — the only Joyroom charger that maxes out iPhone at 30W. Dual-port (PD + QC) charges two devices simultaneously. <strong>0→50% in 20 min</strong>. 36-month warranty. At 280 EGP, it's the sweet spot of power and price. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike adapters that downgrade to 5V/1A after 10 minutes of charging, The <strong>Joyroom 30W</strong> unlocks <strong>iPhone 17's maximum charging speed</strong> — the only Joyroom charger that maxes out iPhone at 30W. Dual-port (PD + QC) charges two devices simultaneously. <strong>0→50% in 20 min</strong>. 36-month warranty. At 280 EGP, it's the sweet spot of power and price. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">

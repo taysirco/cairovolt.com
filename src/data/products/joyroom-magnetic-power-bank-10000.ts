@@ -35,7 +35,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <li>🧲 <strong>MagSafe N52:</strong> Snaps onto iPhone — no cable needed.</li>
         <li>⚡ <strong>Dual Output:</strong> 15W wireless + 20W USB-C wired simultaneously.</li>
         <li>📐 <strong>Kickstand:</strong> Watch videos hands-free while charging.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.57 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.57 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

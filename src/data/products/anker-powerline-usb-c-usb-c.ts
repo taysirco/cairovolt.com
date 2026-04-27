@@ -28,7 +28,7 @@ export const anker_powerline_usb_c_usb_c = {
                 shortDescription: "⚡ 60W Power Delivery | 📱 iPhone 17 Max Speed (30W) | 📱 Samsung S26 Super Fast (45W) | 💪 35,000+ Bends | 💻 MacBook Air Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty. Available at <strong>EGP 590</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty. Available at <strong>EGP 590</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -41,7 +41,7 @@ export const anker_powerline_usb_c_usb_c = {
         <li>📱 <strong>Universal USB-C:</strong> The one cable for the USB-C era — phones, tablets, laptops.</li>
         <li>💪 <strong>35,000+ Bends:</strong> 3.5x more durable than standard cables.</li>
         <li>📊 <strong>USB 2.0 Data:</strong> 480Mbps for photos and file transfers.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.09 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.09 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -95,8 +95,8 @@ export const anker_powerline_usb_c_usb_c = {
                         question: "How durable is the Anker USB-C cable?",
                         answer: "Extremely. It is tested to withstand over 35,000 bends, making it one of the most durable cables available."
                     },
-                    { question: "Does it support fast charging?", answer: "Yes. This cable supports the maximum charging speed your device allows — up to 30W for iPhones and 60W for Samsung devices. No bottleneck." },
-                    { question: "Is this cable MFi certified?", answer: "Yes, this cable carries full MFi/USB-IF certification. This means Apple and USB-IF have verified it won't damage your device or void your warranty." }
+                    { question: "Does it support fast charging?", answer: "Yes, certified for maximum device speed. For iPhones that means 30W PD fast charging, for Samsung flagships up to 60W Super Fast Charge." },
+                    { question: "Is this cable MFi certified?", answer: "Yes — carries dual MFi + USB-IF certification. This ensures compatibility with iOS updates and protects your device warranty." }
                 ]
             },
             ar: {
@@ -104,7 +104,7 @@ export const anker_powerline_usb_c_usb_c = {
                 shortDescription: "كابل يعيش معاك سنين من غير ما يتهري ⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع)",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر. بسعر <strong>590 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر. بسعر <strong>590 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
