@@ -149,7 +149,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
                 ]
             }
         },
-        meta: { keywords: "سماعة joyroom, ايربودز joyroom, جوي روم, سماعة جوي روم, جوي روم t03s, جويروم, سعر سماعة جوي روم", mainTerm: "سماعة joyroom" },
+        meta: { keywords: "سماعة joyroom, ايربودز joyroom, جوي روم, سماعة جوي روم, جوي روم t03s, جويروم, سعر سماعة جوي روم, joyroom earbuds egypt, joyroom wireless earbuds, joyroom bluetooth earbuds egypt, joyroom best earbuds egypt 2026, joyroom noise cancelling, joyroom cod egypt, افضل سماعة جوي روم", mainTerm: "سماعة joyroom" },
         expertOpinion: {
             en: "These are the reliable workhorse earbuds. No fancy ANC, just good, clear sound and reliable battery life. They are perfect for podcasts and calls. If you want a simple pair of wireless earbuds that just work without breaking the bank, these are it.",
             ar: "هذه هي سماعات الاعتمادية. لا يوجد ANC معقد، فقط صوت جيد وواضح وعمر بطارية موثوق. مثالية للبودكاست والمكالمات. إذا كنت تريد زوجاً بسيطاً من السماعات اللاسلكية يعمل فقط دون كسر الميزانية، فهذه هي."

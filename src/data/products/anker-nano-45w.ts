@@ -162,7 +162,7 @@ export const anker_nano_45w = {
                 ]
             }
         },
-        meta: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, anker 45w charger", mainTerm: "شاحن انكر 45 واط" },
+        meta: { keywords: "شاحن انكر 45 واط, شاحن انكر للابتوب, anker 45w charger, anker fast charger, anker wall charger egypt, anker usb c charger, anker gan charger, anker iphone charger egypt, anker samsung charger, anker best charger egypt 2026, anker cod egypt charger, افضل شاحن انكر, سعر شاحن انكر", mainTerm: "شاحن انكر 45 واط" },
         expertOpinion: {
             en: "The versatility of this charger is unmatched. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."

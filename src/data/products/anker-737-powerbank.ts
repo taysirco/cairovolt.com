@@ -167,7 +167,7 @@ export const anker_737_powerbank = {
                 ]
             }
         },
-        meta: { keywords: "anker 737, anker 140w, باور بانك انكر 737, انكر 24000", mainTerm: "anker 737" },
+        meta: { keywords: "anker 737, anker 140w, باور بانك انكر 737, انكر 24000, anker power bank egypt, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر", mainTerm: "anker 737" },
         expertOpinion: {
             en: "This is the 'beast' of power banks. The 140W output is insane – it can charge a MacBook Pro fast, which is rare for a portable battery. The digital display is incredibly useful, showing exactly how much time is left. It's heavy, yes, but for power users or digital nomads in Egypt who need reliable backup for laptops and phones, it's absolutely worth the investment.",
             ar: "هذا هو 'وحش' الباور بانك. قوة 140 واط جنونية – يمكنها شحن ماك بوك برو بسرعة، وهو أمر نادر لبطارية محمولة. الشاشة الرقمية مفيدة بشكل لا يصدق، حيث تعرض بالضبط الوقت المتبقي. إنه ثقيل، نعم، لكن للمستخدمين المحترفين في مصر الذين يحتاجون إلى نسخ احتياطي موثوق للابتوب والهواتف، فهو يستحق الاستثمار تماماً."

@@ -144,7 +144,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 ]
             }
         },
-        meta: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر", mainTerm: "joyroom magnetic power bank" },
+        meta: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, joyroom portable charger, joyroom best power bank egypt 2026, joyroom travel power bank, joyroom cod egypt power bank, افضل باور بانك جوي روم, سعر باور بانك جوي روم", mainTerm: "joyroom magnetic power bank" },
         expertOpinion: {
             en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
             ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."

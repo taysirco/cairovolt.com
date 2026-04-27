@@ -158,7 +158,7 @@ export const anker_car_charger_dual_usb = {
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, anker car charger", mainTerm: "شاحن سيارة انكر" },
+        meta: { keywords: "شاحن سيارة انكر, شاحن انكر سيارة, anker car charger, anker fast car charger, anker dual usb car charger, anker best car charger 2026, anker cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, car charger egypt, شاحن سيارة ايفون, شاحن سيارة سامسونج, شاحن 12 فولت سيارة, anker car charger price egypt, شاحن سيارة اصلي مصر, شاحن سيارة ادفع عند الاستلام", mainTerm: "شاحن سيارة انكر" },
         expertOpinion: {
             en: "This charger has saved me countless times on Cairo's ring road. It sits flush in the console and charges two phones at respectable speeds. It doesn't have the super-fast PD charging of newer models, but for reliability and keeping two devices alive during a commute with GPS running, it's unbeatable.",
             ar: "لقد أنقذني هذا الشاحن مرات لا تحصى على الطريق الدائري بالقاهرة. يستقر بشكل مسطح في الكونسول ويشحن هاتفين بسرعات محترمة. ليس لديه شحن PD فائق السرعة مثل الموديلات الأحدث، ولكن للموثوقية والحفاظ على جهازين قيد التشغيل أثناء التنقل مع تشغيل GPS، لا يمكن التغلب عليه."

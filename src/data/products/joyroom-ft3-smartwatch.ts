@@ -144,7 +144,7 @@ export const joyroom_ft3_smartwatch = {
                 ]
             }
         },
-        meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية", mainTerm: "joyroom ft3" },
+        meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية, joyroom smartwatch egypt, joyroom fitness watch, joyroom waterproof smartwatch, joyroom best smartwatch egypt 2026, joyroom cod egypt, افضل ساعة ذكية جوي روم, سعر ساعة ذكية جوي روم", mainTerm: "joyroom ft3" },
         expertOpinion: {
             en: "A stylish smartwatch that doesn't cost a fortune. The screen is bright and responsive. It tracks steps and heart rate accurately for casual fitness. It handles notifications well, supporting Arabic perfectly. It won't replace an Apple Watch, but it covers 80% of the needs for 10% of the price.",
             ar: "ساعة ذكية أنيقة لا تكلف ثروة. الشاشة ساطعة وسريعة الاستجابة. تتبع الخطوات ومعدل ضربات القلب بدقة للياقة البدنية العادية. تتعامل مع الإشعارات بشكل جيد، وتدعم العربية تماماً. لن تحل محل Apple Watch، لكنها تغطي 80% من الاحتياجات بـ 10% من السعر."

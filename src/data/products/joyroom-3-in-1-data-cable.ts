@@ -59,7 +59,7 @@ export const joyroom_3_in_1_data_cable = {
             en: "The Swiss Army knife of cables. Lightning + USB-C + Micro-USB in one cable means you charge everything in the family with a single cable. Perfect for Egyptian households running different phone generations.",
             ar: "السكينة السويسرية في الكابلات. Lightning + USB-C + Micro-USB في كابل واحد يعني تشحن كل حاجة في البيت بكابل واحد. مثالي للبيوت المصرية اللي فيها أجيال مختلفة من الموبايلات."
         },
-        meta: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt", mainTerm: "joyroom 3-in-1 cable" }
+        meta: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom 3-in-1 cable" }
         relatedProducts: ["joyroom-30w-pd-cable", "joyroom-type-c-lightning-24mos", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };

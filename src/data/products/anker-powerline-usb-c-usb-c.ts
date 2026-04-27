@@ -168,7 +168,7 @@ export const anker_powerline_usb_c_usb_c = {
                 ]
             }
         },
-        meta: { keywords: "كابل انكر تايب سي, وصلة انكر تايب سي, كابل USB-C انكر", mainTerm: "كابل انكر تايب سي" },
+        meta: { keywords: "كابل انكر تايب سي, وصلة انكر تايب سي, كابل USB-C انكر, anker cable egypt, anker charging cable, anker fast charge cable, anker iphone cable egypt, anker best cable egypt 2026, anker cod egypt cable, anker durable cable, افضل كابل شحن انكر, سعر كابل انكر", mainTerm: "كابل انكر تايب سي" },
         expertOpinion: {
             en: "A solid, no-nonsense cable for all your USB-C devices. Whether it's a Samsung phone, an iPad, or a laptop, this cable handles up to 60W flawlessly. The flexibility is great, and the connectors are reinforced. Definitely a step up from the flimsy cables that come in the box.",
             ar: "كابل قوي ومباشر لجميع أجهزة USB-C الخاصة بك. سواء كان هاتف سامسونج، آيباد، أو لابتوب، يتعامل هذا الكابل مع ما يصل إلى 60 واط بلا عيوب. المرونة رائعة، والموصلات مدعمة. بالتأكيد ترقية عن الكابلات الضعيفة التي تأتي في العلية."

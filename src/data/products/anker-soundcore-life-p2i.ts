@@ -157,7 +157,7 @@ export const anker_soundcore_life_p2i = {
                 ]
             }
         },
-        meta: { keywords: "anker soundcore life p2i, soundcore earbuds, سماعات انكر, ساوند كور", mainTerm: "anker soundcore life p2i" },
+        meta: { keywords: "anker soundcore life p2i, soundcore earbuds, سماعات انكر, ساوند كور, anker wireless earbuds, anker bluetooth earbuds egypt, anker best earbuds egypt 2026, anker noise cancelling, anker cod egypt, سماعة بلوتوث مصر انكر, افضل سماعة انكر, سعر سماعة انكر", mainTerm: "anker soundcore life p2i" },
         expertOpinion: {
             en: "These focus purely on call quality and battery life. The AI-enhanced mics really do make a difference in noisy environments. The sound is punchy with the Bass mode. If you spend a lot of time on calls and want Anker reliability, pick these over the generic budget options.",
             ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية Anker، اختر هذه بدلاً من الخيارات الاقتصادية العامة."

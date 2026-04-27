@@ -118,6 +118,6 @@ export const anker_soundcore_k20i = {
                 ]
             }
         },
-        meta: { keywords: "anker k20i, anker soundcore k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, soundcore airpods, اير بودز انكر", mainTerm: "anker soundcore k20i earbuds" },
+        meta: { keywords: "anker k20i, anker soundcore k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, soundcore airpods, اير بودز انكر, anker earbuds egypt, anker wireless earbuds, anker bluetooth earbuds egypt, anker best earbuds egypt 2026, anker noise cancelling, anker cod egypt, افضل سماعة انكر, سعر سماعة انكر", mainTerm: "anker soundcore k20i earbuds" },
         expertOpinion: { en: "The K20i is the comfort king. 13mm BassUp drivers outperform the price, 36h battery eliminates charging anxiety, and semi-in-ear design means zero ear fatigue. AI ENC passed our Cairo Metro test. Best-value semi-in-ear in Egypt.", ar: "الـ K20i ملك الراحة. درايفرات 13mm BassUp أداؤها أحسن من سعرها، بطارية 36 ساعة بتخلّص على قلق الشحن، والتصميم النصف داخلي يعني صفر إرهاق أذن. AI ENC نجحت في اختبار مترو القاهرة. أفضل قيمة سماعة نصف داخلية في مصر." }
     };

@@ -200,7 +200,7 @@ export const anker_powercore_20000 = {
             }
         },
         meta: {
-            keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, anker power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, anker 20000 egypt, باور بانك انكر مصر, anker powercore 20000 price egypt",
+            keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, anker power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, anker 20000 egypt, باور بانك انكر مصر, anker powercore 20000 price egypt, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, افضل باور بانك انكر",
             mainTerm: "باور بانك انكر 20000"
         },
         expertOpinion: {

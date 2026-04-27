@@ -147,7 +147,7 @@ export const joyroom_30w_fast_charger = {
                 ]
             }
         },
-        meta: { keywords: "joyroom 30w charger, شاحن 30 واط, شاحن ايفون 17 سريع, iphone 17 max speed charger, شاحن PD QC مصر", mainTerm: "joyroom 30w charger" },
+        meta: { keywords: "joyroom 30w charger, شاحن 30 واط, شاحن ايفون 17 سريع, iphone 17 max speed charger, شاحن PD QC مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم", mainTerm: "joyroom 30w charger" },
         expertOpinion: {
             en: "Future-proof your charging. With 30W, it maxes out the iPhone 17's charging speed and handles tablets easily. Supporting both PD and QC ensures it charges almost anything fast. It's the one brick to carry for all your mobile gear.",
             ar: "امن شحنك للمستقبل. مع 30 واط، يستغل أقصى سرعة شحن لايفون 17 ويتعامل مع التابلت بسهولة. دعم كل من PD و QC يضمن شحن أي شيء تقريباً بسرعة. إنه الشاحن الوحيد لحمله لجميع معداتك المحمولة."
