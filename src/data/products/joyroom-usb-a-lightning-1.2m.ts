@@ -25,7 +25,7 @@ export const joyroom_usb_a_lightning_1_2m = {
         translations: {
             en: {
                 name: "Joyroom USB-A to Lightning Cable 1.2m (4ft)",
-                shortDescription: "1.2m Lightning cable for iPhone 14/13/12 | Reaches Egyptian wall outlet to bed | 36-month warranty | 2.4A durable nylon",
+                shortDescription: "🔌 1.2m Lightning cable for iPhone 14/13/12 | Reaches Egyptian wall outlet to bed | 36-month warranty | 2.4A durable nylon",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>1.2m Lightning cable</strong> solves Egypt's #1 cable complaint: too short to reach from wall outlet to bed. <strong>2.4A + 36-month warranty + nylon build</strong>. Tested in 4 Egyptian car models. At 114 EGP for 3 years = 0.10 EGP/day.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>📏 <strong>1.2m Length:</strong> Reaches from Egyptian floor outlets to bed height.</li><li>🛡️ <strong>36-Month Warranty:</strong> 3 years of guaranteed charging.</li><li>⚡ <strong>2.4A:</strong> Full standard charging speed for Lightning iPhones.</li><li>💰 <strong>0.10 EGP/day:</strong> Over 36 months, basically free.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"Egyptian outlets are low on the wall. Standard 1m cables don't reach. We measured — 1.2m is the magic number for bedside charging. Add a 36-month warranty and you have the cable you plug in once and forget about for 3 years. We tested it in Hyundai, Toyota, Kia, and Suzuki — fits all car USB ports perfectly."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -34,7 +34,7 @@ export const joyroom_usb_a_lightning_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">USB-A to Lightning only. Does NOT work with iPhone 17/16/15 (USB-C) and does NOT support PD fast charging. For fast charging, use a USB-C to Lightning cable. احذر من الكابلات المقلدة بدون شريحة أمان — بتسبب تلف المنفذ وبطء الشحن.</p></div>`,
                 features: ["2.4A charging", "1.2m extended length", "iPhone 14 and earlier", "36-month warranty", "Durable design"],
                 metaTitle: "Joyroom Lightning 1.2m ⚡ 24% OFF | Official Warranty | COD",
-                metaDesc: "Joyroom 1.2m Lightning cable — reaches from Egyptian wall outlet to bed easily. 36-month warranty. Tested in 4 Egyptian car models. iPhone 14/13/12.",
+                metaDesc: "Joyroom 1.2m Lightning cable — reaches from outlet to bed easily. 36-month warranty. Tested in 4 Egyptian car models. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "Why does this have 36-month warranty?", answer: "This extended 1.2m cable uses premium materials. The 36-month warranty reflects our confidence in its durability - perfect for heavy daily use." },
                     { question: "Is 1.2m good for bedside charging?", answer: "Yes! 1.2m is the ideal length for bedside - you can charge and still use your phone comfortably in bed without stretching the cable." },

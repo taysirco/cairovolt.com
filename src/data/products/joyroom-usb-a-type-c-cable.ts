@@ -20,7 +20,7 @@ export const joyroom_usb_a_type_c_cable = {
         translations: {
             en: {
                 name: "Joyroom USB-A to Type-C Cable 1m",
-                shortDescription: "Bridge your old USB-A charger to iPhone 17/Samsung S26 | 3A fast charging | CairoVolt 365-day durability test passed",
+                shortDescription: "🔌 Bridge your old USB-A charger to iPhone 17/Samsung S26 | 3A fast charging | CairoVolt 365-day durability test passed",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Got a new iPhone 17 or Samsung S26 but still have old USB-A chargers? The <strong>Joyroom USB-A to Type-C</strong> bridges the gap with <strong>3A fast charging</strong> — no new charger needed. CairoVolt 365-day durability test: passed.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>⚡ <strong>3A Fast Charging:</strong> 25% faster than standard 2.4A cables.</li><li>🔌 <strong>Bridge Cable:</strong> Old USB-A charger → new USB-C phone.</li><li>📱 <strong>Universal USB-C:</strong> iPhone 17, Samsung S26, Xiaomi, Oppo.</li><li>💰 <strong>86 EGP:</strong> Saves you buying a new charger (500+ EGP).</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"This is the cable we recommend to everyone upgrading to iPhone 17 or Samsung S26 who asks 'do I need a new charger?' — No. Use this cable with your existing USB-A charger or car port. 3A delivers solid charging speed. We tested it in a car for 6 months — Cairo traffic, summer heat, daily abuse. Still works perfectly."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -64,6 +64,6 @@ export const joyroom_usb_a_type_c_cable = {
             ar: "كابل العمل للانتقال لـ USB-C. يوصل سامسونج S26 أو ايفون 17 الجديد بالشواحن والعربيات والكمبيوترات الحالية USB-A. مش محتاج تغير كل حاجة مرة واحدة."
         },
         meta: { keywords: "joyroom usb-a type-c, كابل type-c, كابل سامسونج ايفون, كابل جوي روم, جوي روم type c, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom usb-a type-c" },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger", "joyroom-car-phone-mount"],
 
     };

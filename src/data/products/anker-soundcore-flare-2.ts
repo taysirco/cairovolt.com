@@ -22,7 +22,7 @@ export const anker_soundcore_flare_2 = {
         translations: {
             en: {
                 name: "Anker Soundcore Flare 2 | 360° Sound & LED Light Show | 18-Month Warranty",
-                shortDescription: "360° party speaker with LED light show | CairoVolt PartyCast test: 3 speakers synced in 1.2s across 500m² | IPX7 waterproof",
+                shortDescription: "🔊 360° party speaker with LED light show | CairoVolt PartyCast test: 3 speakers synced in 1.2s across 500m² | IPX7 waterproof",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Flare 2 (A3165)</strong> is a 20W 360° Bluetooth speaker with beat-synced LED light rings. IPX7 waterproof (survives submersion), BassUp™ technology, PartyCast for linking 100+ speakers. Bluetooth 5.0, Soundcore app EQ. Perfect party/pool speaker. EGP 2,999, 18-month warranty.</p>

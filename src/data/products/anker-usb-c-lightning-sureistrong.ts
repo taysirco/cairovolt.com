@@ -22,7 +22,7 @@ export const anker_usb_c_lightning_sureistrong = {
         translations: {
             en: {
                 name: "Anker SureIStrong USB-C to Lightning Cable",
-                shortDescription: "Anker premium soft-touch anti-tangle cable | 30W PD for iPhone 14/13/12 | Stain-resistant coating | 24-month Anker warranty",
+                shortDescription: "🔌 Anker premium soft-touch anti-tangle cable | 30W PD for iPhone 14/13/12 | Stain-resistant coating | 24-month Anker warranty",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker SureIStrong USB-C to Lightning (A8652)</strong> is Anker's premium soft-touch cable for iPhone 14/13/12/11. MFi certified, 30W PD fast charging, 1.8m length. The bio-based fiber reinforcement at the stress point eliminates the #1 cause of cable failure. Stain-resistant coating, anti-tangle. EGP 599, 24-month warranty.</p>

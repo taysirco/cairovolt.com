@@ -22,7 +22,7 @@ export const joyroom_usb_c_cable_60w = {
         translations: {
             en: {
                 name: "Joyroom 60W USB-C to USB-C Fast Charging Cable",
-                shortDescription: "60W PD braided cable — CairoVolt test: iPhone 17 0→50% in 25min | Samsung S26 45W verified | 35,000+ bend lifespan nylon",
+                shortDescription: "🔌 60W PD braided cable — CairoVolt test: iPhone 17 0→50% in 25min | Samsung S26 45W verified | 35,000+ bend lifespan nylon",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike generic USB-C cables that cap at 15W and overheat, the <strong>Joyroom 60W USB-C cable</strong> delivers full PD negotiation — iPhone 17 gets its max 30W, Samsung S26 gets 45W Super Fast, and MacBook Air charges at full speed. CairoVolt USB meter test: <strong>0→50% iPhone 17 in 25 minutes</strong>. 35,000+ bend-tested braided nylon outlasts rubber cables 5×.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>⚡ <strong>60W Power Delivery:</strong> Full PD negotiation — each device gets its max speed automatically.</li><li>📱 <strong>Universal USB-C:</strong> iPhone 17, Samsung S26, iPad, MacBook Air — one cable for everything.</li><li>💪 <strong>35,000+ Bend Lifespan:</strong> Braided nylon + reinforced connectors survive 3+ years of daily use.</li><li>💾 <strong>480Mbps Data Transfer:</strong> Sync photos and files at full USB 2.0 speed.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"We tested this cable with a USB power meter on 6 devices. iPhone 17: locked at 30W. Samsung S26 Ultra: hit 45W PPS. MacBook Air M3: sustained 60W. Zero voltage drop at any wattage. The braided nylon survived 6 months in our test bag — tossed around, bent, yanked. Most 60W cables at this price use thin copper that creates resistance and heat. This one doesn't. At 123 EGP, it's the best value 60W cable in Egypt."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -66,6 +66,6 @@ export const joyroom_usb_c_cable_60w = {
             ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لعصر الـ USB-C."
         },
         meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, USB-IF certified cable", mainTerm: "joyroom 60w usb-c cable" },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger", "joyroom-car-phone-mount"],
 
     };

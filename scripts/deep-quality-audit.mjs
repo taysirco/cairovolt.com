@@ -139,8 +139,8 @@ for (const file of files) {
   const expertMatch = content.match(/expertOpinion:\s*\{[\s\S]*?\}/);
   if (expertMatch) {
     const expertText = expertMatch[0];
-    const enExpert = expertText.match(/en:\s*["'`]([^"'`]+)["'`]/);
-    const arExpert = expertText.match(/ar:\s*["'`]([^"'`]+)["'`]/);
+    const enExpert = expertText.match(/en:\s*"([^"]+)"/);
+    const arExpert = expertText.match(/ar:\s*"([^"]+)"/);
     if (enExpert && enExpert[1].split(' ').length < 8) warns.push('EXPERT: EN expert opinion too short (< 8 words)');
     if (arExpert && arExpert[1].split(' ').length < 6) warns.push('EXPERT: AR expert opinion too short (< 6 words)');
   }

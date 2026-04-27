@@ -25,7 +25,7 @@ export const anker_soundcore_motion_plus = {
         translations: {
             en: {
                 name: "Anker Soundcore Motion+ | 30W Hi-Res Audio | 18-Month Warranty",
-                shortDescription: "30W Hi-Res certified speaker tested 12h 8min at CairoVolt Labs | IPX7 waterproof (Ain Sokhna pool test) | BassUp + custom EQ via app",
+                shortDescription: "🔊 30W Hi-Res certified speaker tested 12h 8min at CairoVolt Labs | IPX7 waterproof (Ain Sokhna pool test) | BassUp + custom EQ via app",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">Unlike cheap speakers with distorted bass and short battery, The <strong>Anker Soundcore Motion+ (A3116)</strong> is a 30W Hi-Res Audio certified Bluetooth speaker with Qualcomm aptX. IPX7 waterproof, 12H battery (6700mAh), BassUp™, custom EQ via Soundcore app, Bluetooth 5.0 + AUX. Dual tweeters with 15° upward tilt for room-filling sound. EGP 3,600, 18-month warranty.</p>
