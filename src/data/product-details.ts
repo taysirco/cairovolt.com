@@ -14,6 +14,7 @@ import { anker_powercore_26800_detail } from './details/anker-powercore-26800';
 import { anker_powerport_20w_detail } from './details/anker-powerport-20w';
 import { anker_powerport_25w_detail } from './details/anker-powerport-25w';
 import { anker_nano_45w_detail } from './details/anker-nano-45w';
+import { anker_nano_45w_smart_display_charger_detail } from './details/anker-nano-45w-smart-display-charger';
 import { anker_powerline_usb_c_lightning_detail } from './details/anker-powerline-usb-c-lightning';
 import { anker_powerline_usb_c_usb_c_detail } from './details/anker-powerline-usb-c-usb-c';
 import { anker_car_charger_dual_usb_detail } from './details/anker-car-charger-dual-usb';
@@ -69,6 +70,7 @@ export const enhancements: Record<string, import('./details/_types').ProductDeta
     'anker-powerport-20w': anker_powerport_20w_detail,
     'anker-powerport-25w': anker_powerport_25w_detail,
     'anker-nano-45w': anker_nano_45w_detail,
+    'anker-nano-45w-smart-display-charger': anker_nano_45w_smart_display_charger_detail,
     'anker-powerline-usb-c-lightning': anker_powerline_usb_c_lightning_detail,
     'anker-powerline-usb-c-usb-c': anker_powerline_usb_c_usb_c_detail,
     'anker-car-charger-dual-usb': anker_car_charger_dual_usb_detail,

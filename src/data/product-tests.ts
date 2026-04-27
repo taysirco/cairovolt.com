@@ -39,6 +39,7 @@ import { anker_soundcore_k20i_lab } from './tests/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc_lab } from './tests/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i_lab } from './tests/anker-soundcore-r50i';
 import { anker_a2147_gan_charger_30w_lab } from './tests/anker-a2147-gan-charger-30w';
+import { anker_nano_45w_smart_display_charger_lab } from './tests/anker-nano-45w-smart-display-charger';
 
 export const labData: Record<string, import('./tests/_shared').ProductLabData> = {
     'anker-powercore-10000': anker_powercore_10000_lab,
@@ -77,6 +78,7 @@ export const labData: Record<string, import('./tests/_shared').ProductLabData> =
     'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_lab,
     'anker-soundcore-r50i': anker_soundcore_r50i_lab,
     'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_lab,
+    'anker-nano-45w-smart-display-charger': anker_nano_45w_smart_display_charger_lab,
 };
 
 /**

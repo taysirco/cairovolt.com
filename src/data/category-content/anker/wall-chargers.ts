@@ -90,6 +90,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
                         { name: 'شاحن انكر 30W سيارة (A2741)', price: 549, badge: 'شاحن سيارة' },
                         { name: 'شاحن انكر 45W', price: 790, badge: 'S26 Ultra' },
+                        { name: 'شاحن انكر نانو 45W شاشة ذكية (A121D)', price: 1900, badge: '🆕 Smart Display + Care Mode' },
                         { name: 'شاحن انكر GaN 65W', price: 999, badge: 'MacBook' },
                         { name: 'شاحن انكر 100W', price: 1299, badge: 'Pro Max' },
                     ]
@@ -167,6 +168,7 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                         { name: 'Anker Nano 3 GaN 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
                         { name: 'Anker 30W Car (A2741)', price: 549, badge: 'Car Charger' },
                         { name: 'Anker 45W', price: 790, badge: 'S26 Ultra' },
+                        { name: 'Anker Nano 45W Smart Display (A121D)', price: 1900, badge: '🆕 Smart Display + Care Mode' },
                         { name: 'Anker GaN 65W', price: 999, badge: 'MacBook' },
                         { name: 'Anker 100W', price: 1299, badge: 'Pro Max' },
                     ]

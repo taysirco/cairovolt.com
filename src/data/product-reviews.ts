@@ -13,6 +13,7 @@ import { anker_powercore_10000_reviews } from './reviews/anker-powercore-10000';
 import { anker_powercore_20000_reviews } from './reviews/anker-powercore-20000';
 import { anker_powerport_20w_reviews } from './reviews/anker-powerport-20w';
 import { anker_nano_45w_reviews } from './reviews/anker-nano-45w';
+import { anker_nano_45w_smart_display_charger_reviews } from './reviews/anker-nano-45w-smart-display-charger';
 import { anker_powerline_usb_c_lightning_reviews } from './reviews/anker-powerline-usb-c-lightning';
 import { joyroom_t03s_pro_earbuds_reviews } from './reviews/joyroom-t03s-pro-earbuds';
 import { joyroom_power_bank_10000_reviews } from './reviews/joyroom-power-bank-10000';
@@ -68,6 +69,7 @@ export const productReviewsDb: Record<string, import('./reviews/_shared').Produc
     'anker-powercore-20000': anker_powercore_20000_reviews,
     'anker-powerport-20w': anker_powerport_20w_reviews,
     'anker-nano-45w': anker_nano_45w_reviews,
+    'anker-nano-45w-smart-display-charger': anker_nano_45w_smart_display_charger_reviews,
     'anker-powerline-usb-c-lightning': anker_powerline_usb_c_lightning_reviews,
     'joyroom-t03s-pro-earbuds': joyroom_t03s_pro_earbuds_reviews,
     'joyroom-power-bank-10000': joyroom_power_bank_10000_reviews,

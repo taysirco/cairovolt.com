@@ -10,7 +10,7 @@ export const anker_a2147_gan_charger_30w = {
             { id: "img_5", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charging-iphone-17-pro-50-percent-21min.webp", alt: "Anker A2147 30W charging iPhone 17 Pro to 50% in 21 minutes fast charge demo", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-70-percent-smaller-size-comparison.webp", alt: "مقارنة حجم شاحن انكر Nano 3 أصغر 70% من شاحن 30 واط العادي", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-powerport-20w", "anker-powerport-25w", "anker-nano-45w", "anker-a8050-usb-c-cable", "anker-powerline-usb-c-usb-c"],
+        relatedProducts: ["anker-powerport-20w", "anker-powerport-25w", "anker-nano-45w", "anker-nano-45w-smart-display-charger", "anker-a8050-usb-c-cable", "anker-powerline-usb-c-usb-c"],
         translations: {
             en: {
                 name: "Anker 511 Nano 3 GaN Charger 30W (A2147) | USB-C PD | 70% Smaller | IQ3 | 24-Month Warranty",
