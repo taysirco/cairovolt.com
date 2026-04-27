@@ -2,7 +2,7 @@
 
 export const joyroom_magnetic_power_bank_10000 = {
         slug: "joyroom-magnetic-power-bank-10000",
-        sku: "JR-W030-MAG",
+        sku: "JR-PB-030-MAG",
         brand: "Joyroom",
         categorySlug: "power-banks",
         gtin: "6956116750060",

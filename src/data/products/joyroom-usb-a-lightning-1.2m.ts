@@ -2,7 +2,7 @@
 
 export const joyroom_usb_a_lightning_1_2m = {
         slug: "joyroom-usb-a-lightning-1.2m",
-        sku: "JR-S-AL12",
+        sku: "JR-CB-AL12",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750237",

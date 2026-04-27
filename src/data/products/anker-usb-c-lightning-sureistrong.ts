@@ -2,7 +2,7 @@
 
 export const anker_usb_c_lightning_sureistrong = {
         slug: "anker-usb-c-lightning-sureistrong",
-        sku: "ANK-A8652",
+        sku: "ANK-CB-A8652",
         brand: "Anker",
         categorySlug: "cables",
         gtin: "0194644008048",

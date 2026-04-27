@@ -2,7 +2,7 @@
 
 export const joyroom_type_c_lightning_braided = {
         slug: "joyroom-type-c-lightning-braided",
-        sku: "JR-S-CL30B",
+        sku: "JR-CB-CL30B",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750121",

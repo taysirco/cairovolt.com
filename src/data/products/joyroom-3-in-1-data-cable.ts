@@ -2,7 +2,7 @@
 
 export const joyroom_3_in_1_data_cable = {
         slug: "joyroom-3-in-1-data-cable",
-        sku: "JR-S-1830",
+        sku: "JR-CB-1830",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750107",

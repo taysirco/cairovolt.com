@@ -2,7 +2,7 @@
 
 export const joyroom_type_c_to_type_c_cable = {
         slug: "joyroom-type-c-to-type-c-cable",
-        sku: "JR-S-CC100",
+        sku: "JR-CB-CC100",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750176",

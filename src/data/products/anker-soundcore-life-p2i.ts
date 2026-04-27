@@ -2,7 +2,7 @@
 
 export const anker_soundcore_life_p2i = {
         slug: "anker-soundcore-life-p2i",
-        sku: "ANK-EP-P2I",
+        sku: "ANK-AU-P2I",
         brand: "Anker",
         categorySlug: "audio",
         gtin: "0194644101763",

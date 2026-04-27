@@ -2,7 +2,7 @@
 
 export const joyroom_car_mount_zs290 = {
         slug: "joyroom-car-mount-zs290",
-        sku: "JR-ZS290",
+        sku: "JR-CH-290",
         brand: "Joyroom",
         categorySlug: "car-holders",
         gtin: "6956116714024",

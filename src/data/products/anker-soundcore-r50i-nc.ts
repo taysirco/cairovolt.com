@@ -1,6 +1,6 @@
 // Product: anker-soundcore-r50i-nc
 export const anker_soundcore_r50i_nc = {
-        slug: "anker-soundcore-r50i-nc", sku: "ANK-EP-R50INC", brand: "Anker", categorySlug: "audio",
+        slug: "anker-soundcore-r50i-nc", sku: "ANK-AU-R50INC", brand: "Anker", categorySlug: "audio",
         gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1299, originalPrice: 1550, stock: 2649, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup.webp", alt: "سماعة انكر ساوندكور R50i NC مع إلغاء ضوضاء - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },

@@ -2,12 +2,12 @@
 
 export const joyroom_jr_t03_wireless_earbuds = {
         slug: "joyroom-jr-t03-wireless-earbuds",
-        sku: "JR-T03",
+        sku: "JR-AU-T03",
         brand: "Joyroom",
         categorySlug: "audio",
         gtin: "6956116714055",
         gtin13: "6956116714055",
-        mpn: "JR-T03",
+        mpn: "JR-AU-T03",
         price: 774,
         originalPrice: 899,
         stock: 2751,

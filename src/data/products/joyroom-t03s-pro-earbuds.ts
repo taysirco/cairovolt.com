@@ -2,12 +2,12 @@
 
 export const joyroom_t03s_pro_earbuds = {
         slug: "joyroom-t03s-pro-earbuds",
-        sku: "JR-T03S-PRO",
+        sku: "JR-AU-T03SPRO",
         brand: "Joyroom",
         categorySlug: "audio",
         gtin: "6956116714048",
         gtin13: "6956116714048",
-        mpn: "JR-T03S-PRO",
+        mpn: "JR-AU-T03SPRO",
         price: 664,
         originalPrice: 799,
         stock: 2807,

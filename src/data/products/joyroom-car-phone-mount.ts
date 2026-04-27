@@ -2,7 +2,7 @@
 
 export const joyroom_car_phone_mount = {
         slug: "joyroom-car-phone-mount",
-        sku: "JR-ZS295",
+        sku: "JR-CH-295",
         brand: "Joyroom",
         categorySlug: "car-holders",
         gtin: "6956116714031",

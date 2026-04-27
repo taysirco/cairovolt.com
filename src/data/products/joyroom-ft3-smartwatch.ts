@@ -2,7 +2,7 @@
 
 export const joyroom_ft3_smartwatch = {
         slug: "joyroom-ft3-smartwatch",
-        sku: "JR-FT3",
+        sku: "JR-SW-3",
         brand: "Joyroom",
         categorySlug: "smart-watches",
         gtin: "6956116714017",

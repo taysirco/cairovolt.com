@@ -2,7 +2,7 @@
 
 export const joyroom_type_c_lightning_24mos = {
         slug: "joyroom-type-c-lightning-24mos",
-        sku: "JR-S-CL24M",
+        sku: "JR-CB-CL24M",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750206",

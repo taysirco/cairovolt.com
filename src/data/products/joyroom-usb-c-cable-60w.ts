@@ -2,7 +2,7 @@
 
 export const joyroom_usb_c_cable_60w = {
         slug: "joyroom-usb-c-cable-60w",
-        sku: "JR-S-CC60",
+        sku: "JR-CB-CC60",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750114",

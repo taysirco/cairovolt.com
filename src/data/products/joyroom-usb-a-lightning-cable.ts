@@ -2,7 +2,7 @@
 
 export const joyroom_usb_a_lightning_cable = {
         slug: "joyroom-usb-a-lightning-cable",
-        sku: "JR-S-AL24",
+        sku: "JR-CB-AL24",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750145",

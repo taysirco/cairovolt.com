@@ -2,7 +2,7 @@
 
 export const joyroom_usb_a_type_c_1_2m = {
         slug: "joyroom-usb-a-type-c-1.2m",
-        sku: "JR-S-AC12",
+        sku: "JR-CB-AC12",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750220",

@@ -2,7 +2,7 @@
 
 export const joyroom_30w_pd_cable = {
         slug: "joyroom-30w-pd-cable",
-        sku: "JR-S-CL30",
+        sku: "JR-CB-CL30",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750138",

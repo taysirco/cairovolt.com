@@ -2,7 +2,7 @@
 
 export const anker_521_powerhouse = {
         slug: "anker-521-powerhouse",
-        sku: "ANK-PH-521",
+        sku: "ANK-PB-521",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "0194644081034",
@@ -18,7 +18,7 @@ export const anker_521_powerhouse = {
                 id: 'anker-521',
                 label: { en: '256Wh / 200W', ar: '256 واط·ساعة / 200 واط' },
                 model: 'Anker 521',
-                sku: 'ANK-PH-521',
+                sku: 'ANK-PB-521',
                 mpn: 'A1710Z21',
                 gtin: '0194644081034',
                 price: 11000,

@@ -1,6 +1,6 @@
 // Product: anker-soundcore-k20i
 export const anker_soundcore_k20i = {
-        slug: "anker-soundcore-k20i", sku: "ANK-EP-K20I", brand: "Anker", categorySlug: "audio",
+        slug: "anker-soundcore-k20i", sku: "ANK-AU-K20I", brand: "Anker", categorySlug: "audio",
         gtin: "194644039165", gtin13: "0194644039165", mpn: "A3994", price: 750, originalPrice: 830, stock: 2811, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt.webp", alt: "Anker Soundcore K20i true wireless earbuds semi-in-ear - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
