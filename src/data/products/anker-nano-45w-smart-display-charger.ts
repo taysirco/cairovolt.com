@@ -61,7 +61,7 @@ export const anker_nano_45w_smart_display_charger = {
 </div>
 `,
             features: ["⚡ 45W GaN USB-C Charger", "📺 Smart Display with AI", "📱 iPhone 0→50% in 20 Min", "🔄 180° Foldable Plug", "🛡️ TÜV Care Mode", "🏆 Red Dot 2026", "💤 Overnight Protection", "🌍 100-240V Universal"],
-            metaTitle: "Anker Nano 45W Smart Display ⚡ 30% OFF | Care Mode | COD Egypt",
+            metaTitle: "Anker Nano 45W Smart Display ⚡ 30% OFF | Care Mode | COD",
             metaDesc: "Buy Anker Nano 45W Smart Display GaN Charger (A121D) in Egypt. iPhone 17 Pro 0→50% in 20 min. 180° foldable plug. TÜV Care Mode. ✓ 18-Month Warranty ✓ COD.",
             faqs: [
                 { question: "What does the Smart Display show?", answer: "The TFT display shows real-time charging wattage (e.g. 'Fast 45W'), battery percentage, device name (iPhone 17 Pro Max), charging mode (Auto/Care), and animated AI characters. It's not just a number — it's a full charging dashboard." },
@@ -115,7 +115,7 @@ export const anker_nano_45w_smart_display_charger = {
 </div>
 `,
             features: ["⚡ شاحن 45 واط GaN", "📺 شاشة ذكية AI", "📱 ايفون 0→50% في 20 دقيقة", "🔄 قابس 180°", "🛡️ وضع العناية TÜV", "🏆 Red Dot 2026", "💤 حماية ليلية", "🌍 100-240V عالمي"],
-            metaTitle: "شاحن انكر نانو 45 واط شاشة ذكية ⚡ خصم 30% | وضع العناية | ادفع عند الاستلام",
+            metaTitle: "شاحن انكر نانو 45 واط شاشة ذكية ⚡ خصم 30% | وضع العناية",
             metaDesc: "اشتري شاحن انكر نانو 45 واط بشاشة ذكية (A121D) في مصر. ايفون 17 برو من 0 لـ 50% في 20 دقيقة. قابس 180°. وضع عناية TÜV. ✓ ضمان 18 شهر ✓ توصيل سريع.",
             faqs: [
                 { question: "الشاشة الذكية بتعرض إيه بالضبط؟", answer: "الشاشة TFT بتعرض الواط الحقيقي (مثلاً 'Fast 45W') ونسبة البطارية واسم الجهاز (iPhone 17 Pro Max) ووضع الشحن (Auto/Care) وشخصيات AI متحركة. مش مجرد رقم — ده داشبورد شحن كامل." },

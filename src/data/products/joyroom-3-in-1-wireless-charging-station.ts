@@ -73,7 +73,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Apple ecosystem ONLY — does NOT charge Samsung or Android wirelessly. Apple Watch charger module is Watch-specific. iPhone must be MagSafe compatible (iPhone 12+). AirPods must be wireless charging case model. Power adapter NOT included.</p></div>
 `,
                 features: ["📱 15W MagSafe iPhone", "⌚ Apple Watch Fast Charge", "🎧 AirPods Pro 2 Wireless", "🔄 3 Devices Simultaneously", "🏛️ Premium Aluminum", "📐 Adjustable StandBy Angle", "🔌 Single Cable Setup", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom 3-in-1 Wireless Station ⚡ iPhone+Watch+AirPods | COD Egypt",
+                metaTitle: "Joyroom 3-in-1 Wireless Station ⚡ iPhone+Watch+AirPods | COD",
                 metaDesc: "Buy Joyroom 3-in-1 MagSafe station in Egypt. iPhone 17 15W + Apple Watch fast charge + AirPods Pro 2. Premium aluminum. 18-month warranty. Best price.",
                 faqs: [
                     { question: "Does it support Apple Watch Ultra 2?", answer: "Yes! The Watch charging spot supports all Apple Watch models including Ultra 2, Series 10, and older. It provides fast charging for compatible Watch models." },
@@ -133,7 +133,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">نظام أبل بس — مش بتشحن سامسونج أو أندرويد لاسلكياً. وحدة شحن ساعة أبل خاصة بالساعة بس. الايفون لازم يكون متوافق MagSafe (ايفون 12+). AirPods لازم يكون موديل العلبة اللاسلكية. محول الطاقة مش في العلبة.</p></div>
 `,
                 features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر"],
-                metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | ادفع عند الاستلام",
+                metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | COD مصر",
                 metaDesc: "اشتري محطة شحن جوي روم 3 في 1 في مصر. ايفون 17 MagSafe 15 واط + ابل واتش شحن سريع + ايربودز برو 2. ألومنيوم فاخر. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
                     { question: "هل تدعم ابل واتش الترا 2؟", answer: "نعم! مكان شحن الساعة يدعم جميع موديلات ابل واتش بما فيها الترا 2 وسيريس 10 والأقدم. يوفر شحن سريع للموديلات المتوافقة." },

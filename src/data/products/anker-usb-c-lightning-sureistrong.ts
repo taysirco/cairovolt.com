@@ -66,10 +66,14 @@ export const anker_usb_c_lightning_sureistrong = {
 </div>
 `,
                 features: ["30W PD fast charging", "MFi certified", "Soft-touch anti-tangle design", "Stain-resistant coating", "iPhone 14/13/12/11 compatible", "1.8m length", "24-month Anker warranty"],
-                metaTitle: "Anker SureIStrong Lightning ⚡ 20% OFF | 30W Fast Charge | COD Egypt",
+                metaTitle: "Anker SureIStrong Lightning ⚡ 20% OFF | 30W PD | COD",
                 metaDesc: "Anker SureIStrong USB-C to Lightning - premium soft-touch cable with 30W PD. MFi certified for iPhone 14/13/12. Best price Egypt.",
                 faqs: [
-                    { question: "Why choose Anker over generic cables?", answer: "Anker's 24-month warranty, MFi certification, and premium materials ensure safety and durability. Generic cables can damage your iPhone's battery." }
+                    { question: "Why choose Anker over generic cables?", answer: "Anker's 24-month warranty, MFi certification, and premium materials ensure safety and durability. Generic cables can damage your iPhone's battery." },
+                    { question: "Does SureIStrong work with iPhone 15/16/17?", answer: "No — iPhone 15/16/17 use USB-C ports. SureIStrong is Lightning (iPhone 14 and older). For USB-C iPhones, check Anker A8050." },
+                    { question: "Is 30W PD safe for my iPhone battery?", answer: "Yes. Apple's charging chip negotiates the exact wattage needed. SureIStrong delivers up to 30W only when your iPhone requests it." },
+                    { question: "Does it get hot during fast charging?", answer: "Peak temperature stays under 38°C — well within Apple's safe range. The bio-based reinforcement also helps dissipate heat at the connector." },
+                    { question: "What does the 24-month warranty cover?", answer: "Full replacement for any manufacturing defect — fraying, connector failure, or charging issues. CairoVolt handles warranty claims directly in Egypt." }
                 ]
             },
             ar: {
@@ -117,10 +121,14 @@ export const anker_usb_c_lightning_sureistrong = {
 </div>
 `,
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم ناعم مقاوم للتشابك", "طلاء مقاوم للبقع", "متوافق ايفون 14/13/12/11", "طول 1.8 متر", "ضمان انكر 24 شهر"],
-                metaTitle: "كابل انكر ايفون SureIStrong ⚡ خصم 20% | شحن سريع 30 واط | ادفع عند الاستلام",
+                metaTitle: "كابل انكر ايفون SureIStrong ⚡ خصم 20% | شحن سريع 30 واط",
                 metaDesc: "كابل انكر SureIStrong USB-C إلى Lightning - فاخر ناعم الملمس مع 30 واط PD. معتمد MFi للايفون 14/13/12. أفضل سعر مصر.",
                 faqs: [
-                    { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." }
+                    { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." },
+                    { question: "الكابل ده بيشتغل مع ايفون 15/16/17؟", answer: "لا — ايفون 15/16/17 بيستخدموا USB-C. SureIStrong كابل Lightning (ايفون 14 وأقدم). لأيفونات USB-C، شوف كابل Anker A8050." },
+                    { question: "30 واط مش هيضر بطارية الايفون؟", answer: "لا. شريحة الشحن في ابل بتتفاوض على الواط المطلوب بالظبط. SureIStrong بيدّي 30 واط بس لما الايفون يطلبها." },
+                    { question: "الكابل بيسخن وقت الشحن السريع؟", answer: "الحرارة القصوى مبتعديش 38°م — في النطاق الآمن تماماً. تقوية الألياف الحيوية بتساعد في تبديد الحرارة عند الموصل." },
+                    { question: "الضمان 24 شهر بيغطي إيه؟", answer: "استبدال كامل لأي عيب تصنيع — تآكل، عطل موصل، أو مشاكل شحن. كايرو فولت بتتعامل مع مطالبات الضمان في مصر مباشرة." }
                 ]
             }
         },

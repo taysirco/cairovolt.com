@@ -46,7 +46,7 @@ export const joyroom_usb_a_type_c_1_2m = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">بيشتغل مع:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 17/16/15:</strong> 3 أمبير عبر USB-A.</li><li>📱 <strong>سامسونج S26/S25/A-Series:</strong> شحن 3 أمبير.</li><li>🚗 <strong>فيش عربية USB-A:</strong> طول 1.2 متر مثالي.</li><li>💻 <strong>كمبيوتر/لابتوب USB-A:</strong> بيانات + شحن.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيدعم شحن PD سريع (20 واط+). الماكس 3 أمبير/15 واط عبر USB-A. لشحن PD كامل السرعة، استخدم كابل USB-C لـ USB-C مع شاحن PD.</p></div>`,
                 features: ["شحن سريع 3 أمبير", "طول 1.2 متر", "متوافق ايفون 17", "متوافق سامسونج S26", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم تايب سي 1.2 متر ⚡ ضمان الوكيل الرسمي | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم تايب سي 1.2 متر ⚡ ضمان الوكيل الرسمي | COD مصر",
                 metaDesc: "كابل جوي روم 1.2 متر USB-A Type-C — 20 سم إضافية للسيارة والسرير. سامسونج S26 بـ 18 واط مؤكد. يناسب كل السيارات المصرية.",
                 faqs: [
                     { question: "لماذا أختار 1.2 متر بدل 1 متر؟", answer: "1.2 متر يعطيك مدى إضافي - مثالي للشحن بجانب السرير، استخدام الهاتف أثناء الشحن، أو لو المقبس بعيد. 10 جنيه زيادة فقط لراحة أكبر." },

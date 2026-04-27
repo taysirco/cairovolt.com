@@ -76,7 +76,7 @@ export const joyroom_20w_usb_c_charger = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included — you need a USB-C cable separately. This charger has a single USB-C port; it cannot charge two devices simultaneously. For Samsung Super Fast Charging (25W+), see our Joyroom 25W charger.</p></div>
 `,
                 features: ["⚡ 20W PD Fast Charging", "📱 iPhone 0→50% in 30 Min", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Design", "🌍 AC 100-240V Universal", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom 20W USB-C Charger ⚡ 15% OFF | Fast Charge iPhone | COD Egypt",
+                metaTitle: "Joyroom 20W USB-C Charger ⚡ 15% OFF | iPhone Fast | COD",
                 metaDesc: "Buy Joyroom 20W USB-C PD charger in Egypt. iPhone 17 0→50% in 30 min, MultiProtect safety, ultra-compact. Best price with 12-month warranty.",
                 faqs: [
                     { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
@@ -138,7 +138,7 @@ export const joyroom_20w_usb_c_charger = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل مش في العلبة — محتاج كابل USB-C لوحده. الشاحن ده فيه منفذ USB-C واحد؛ مش بيشحن جهازين في نفس الوقت. لسامسونج فائق السرعة (25 واط+)، شوف شاحن جوي روم 25 واط.</p></div>
 `,
                 features: ["⚡ شحن سريع 20 واط PD", "📱 ايفون 0→50% في 30 دقيقة", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير جداً", "🌍 AC 100-240V عالمي", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر"],
-                metaTitle: "شاحن جوي روم 20 واط ⚡ خصم 15% | شحن سريع ايفون | ادفع عند الاستلام",
+                metaTitle: "شاحن جوي روم 20 واط ⚡ خصم 15% | شحن سريع ايفون | COD مصر",
                 metaDesc: "اشتري شاحن جوي روم 20 واط USB-C PD في مصر. ايفون 17 من 0→50% في 30 دقيقة، حماية 5 طبقات، تصميم صغير. أفضل سعر مع ضمان 12 شهر.",
                 faqs: [
                     { question: "هل يسخن الشاحن؟", answer: "يستخدم شرائح تحكم ذكية للحفاظ على برودة الشاحن حتى أثناء الشحن السريع." },

@@ -56,7 +56,7 @@ export const anker_a2147_gan_charger_30w = {
 </div>
 `,
                 features: ["⚡ 30W GaN USB-C Charger", "🔬 70% Smaller than Standard", "📱 iPhone 0→50% in 21 Min", "🧠 IQ3 Smart Charging", "🔌 Foldable Plug", "🛡️ ActiveShield 2.0", "🏆 24-Month Warranty", "🌍 100-240V Universal"],
-                metaTitle: "Anker 511 Nano 3 GaN 30W ⚡ 9% OFF | Ultra Compact | COD Egypt",
+                metaTitle: "Anker 511 Nano 3 GaN 30W ⚡ 9% OFF | Ultra Compact | COD",
                 metaDesc: "Buy Anker 511 Nano 3 (A2147) GaN 30W charger in Egypt. 70% smaller! iPhone 17 Pro 0→50% in 21 min. IQ3 + ActiveShield 2.0. ✓ 24-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "What does GaN mean and why is it better?", answer: "GaN stands for Gallium Nitride — a semiconductor material that handles power more efficiently than traditional silicon. This lets Anker build a 30W charger that's 70% smaller and runs cooler. You get the same power in a fraction of the size." },
@@ -110,7 +110,7 @@ export const anker_a2147_gan_charger_30w = {
 </div>
 `,
                 features: ["⚡ شاحن GaN بقوة 30 واط", "🔬 أصغر 70% من العادي", "📱 ايفون 0→50% في 21 دقيقة", "🧠 شحن ذكي IQ3", "🔌 قابس قابل للطي", "🛡️ ActiveShield 2.0", "🏆 ضمان 24 شهر", "🌍 دخل 100-240V عالمي"],
-                metaTitle: "شاحن انكر 30 واط GaN الأصلي ⚡ خصم 9% | أصغر شاحن سريع | ادفع عند الاستلام",
+                metaTitle: "شاحن انكر 30 واط GaN الأصلي ⚡ خصم 9% | أصغر شاحن سريع",
                 metaDesc: "اشتري شاحن انكر 511 نانو 3 (A2147) GaN بقوة 30 واط في مصر. أصغر 70%! ايفون 17 برو من 0 لـ 50% في 21 دقيقة. IQ3 + ActiveShield 2.0. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "يعني إيه GaN وليه أحسن؟", answer: "GaN اختصار Gallium Nitride — نيتريد الجاليوم — مادة شبه موصلة بتتعامل مع الطاقة بكفاءة أعلى من السيليكون التقليدي. ده بيخلي أنكر يبني شاحن 30 واط أصغر 70% وبيسخن أقل. نفس القوة في جزء صغير من الحجم." },

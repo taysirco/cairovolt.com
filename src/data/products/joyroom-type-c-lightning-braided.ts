@@ -29,7 +29,7 @@ export const joyroom_type_c_lightning_braided = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Compatible Devices:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>iPhone 14/13/12/11/SE:</strong> 30W PD fast charging.</li><li>📱 <strong>iPad (Lightning):</strong> Fast charge + data sync.</li><li>🎧 <strong>AirPods Pro/3:</strong> Charging.</li><li>❌ <strong>iPhone 17/16/15:</strong> NOT compatible (USB-C).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable only — does NOT work with iPhone 17/16/15 (USB-C). If you want the same braided quality for USB-C, see our Joyroom USB-C cables.</p></div>`,
                 features: ["30W PD fast charging", "MFi certified", "Braided nylon design", "iPhone 14/13/12/11 compatible", "1m length", "18-month warranty"],
-                metaTitle: "Joyroom Lightning Braided ⚡ 24% OFF | Fast Charge iPhone | COD Egypt",
+                metaTitle: "Joyroom Lightning Braided ⚡ 24% OFF | iPhone Fast Charge",
                 metaDesc: "Joyroom USB-C to Lightning Cable - 30W fast charging for iPhone 14/13/12. MFi certified. Best price Egypt.",
                 faqs: [
                     { question: "Is this cable MFi certified?", answer: "Yes! This cable has Apple MFi certification with the C94 chip, ensuring safe charging and zero 'accessory not supported' errors." },
@@ -46,7 +46,7 @@ export const joyroom_type_c_lightning_braided = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 14/13/12/11/SE:</strong> 30 واط PD شحن سريع.</li><li>📱 <strong>ايباد (Lightning):</strong> شحن سريع + نقل بيانات.</li><li>🎧 <strong>AirPods Pro/3:</strong> شحن.</li><li>❌ <strong>ايفون 17/16/15:</strong> غير متوافق (USB-C).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابل Lightning بس — مش بيشتغل مع ايفون 17/16/15 (USB-C). لو عايز نفس جودة النايلون لـ USB-C، شوف كابلات جوي روم USB-C بتاعتنا.</p></div>`,
                 features: ["شحن سريع 30 واط PD", "معتمد MFi", "تصميم نايلون", "متوافق ايفون 14/13/12/11", "طول 1 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم ايفون نايلون ⚡ خصم 24% | شحن سريع | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون نايلون ⚡ خصم 24% | شحن سريع | COD مصر",
                 metaDesc: "كابل جوي روم USB-C إلى Lightning - شحن سريع 30 واط للايفون 14/13/12. معتمد MFi. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل الكابل معتمد MFi؟", answer: "نعم! هذا الكابل معتمد من أبل بشريحة C94، مما يضمن شحن آمن وعدم ظهور رسالة 'ملحق غير مدعوم'." },

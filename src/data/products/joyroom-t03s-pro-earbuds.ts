@@ -78,7 +78,7 @@ export const joyroom_t03s_pro_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">ANC reduces noise but does NOT eliminate it completely — don't expect Apple AirPods Pro level isolation. 30H battery is with ANC OFF; with ANC ON, expect ~20H. Not suitable for intense sports (IPX4 only). Ear tips are proprietary.</p></div>
 `,
                 features: ["🎧 ANC (25dB Noise Reduction)", "🔋 30H Total Playtime", "📱 Bluetooth 5.3 Low Latency", "💧 IPX5 Water Resistant", "👆 Touch Controls", "📱 iOS Pop-up Animation", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom T03S Pro Earbuds ⚡ 17% OFF | ANC Noise Cancel | COD Egypt",
+                metaTitle: "Joyroom T03S Pro Earbuds ⚡ 17% OFF | ANC Noise Cancel | COD",
                 metaDesc: "Buy Joyroom T03S Pro earbuds in Egypt. Real ANC, 30H battery, Bluetooth 5.3, IPX5 waterproof. AirPods alternative at EGP 664. 12-month warranty.",
                 faqs: [
                     { question: "Is the noise cancellation real?", answer: "Yes, T03S Pro features active noise cancellation (ANC) that effectively reduces ambient noise by up to 25dB." },
@@ -141,7 +141,7 @@ export const joyroom_t03s_pro_earbuds = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">ANC بيقلل الضوضاء لكن مش بيلغيها تماماً — متوقعش عزل على مستوى AirPods Pro. 30 ساعة بطارية مع إيقاف ANC؛ مع تشغيل ANC، توقع ~20 ساعة. مش مناسبة للرياضة المكثفة (IPX4 بس). أطراف الأذن خاصة بالمنتج.</p></div>
 `,
                 features: ["🎧 إلغاء ضوضاء ANC (25 ديسيبل)", "🔋 30 ساعة بطارية", "📱 Bluetooth 5.3 تأخير منخفض", "💧 مقاومة ماء IPX5", "👆 تحكم باللمس", "📱 إشعار iOS Pop-up", "🏆 ضمان 12 شهر"],
-                metaTitle: "سماعة جوي روم T03S Pro ⚡ خصم 17% | إلغاء ضوضاء ANC | ادفع عند الاستلام",
+                metaTitle: "سماعة جوي روم T03S Pro ⚡ خصم 17% | إلغاء ضوضاء ANC | COD مصر",
                 metaDesc: "اشتري سماعة جوي روم T03S Pro في مصر. إلغاء ضوضاء حقيقي، 30 ساعة، Bluetooth 5.3، IPX5. بديل AirPods بـ 664 جنيه. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل العزل حقيقي؟", answer: "نعم، T03S Pro بإلغاء ضوضاء نشط (ANC) يقلل الضوضاء حتى 25 ديسيبل." },

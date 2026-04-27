@@ -84,7 +84,7 @@ export const anker_737_powerbank = {
 </div>
 `,
                 features: ["⚡ 140W USB-C PD 3.1 Output", "🔋 24,000mAh (86.4Wh)", "📊 Smart Digital Display", "💻 MacBook Pro 50% in 30 Min", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (86.4Wh)", "🔌 3 Ports (2×USB-C + USB-A)"],
-                metaTitle: "Anker 737 Power Bank 140W ⚡ 9% OFF | Ultra Fast Charge | COD Egypt",
+                metaTitle: "Anker 737 Power Bank 140W ⚡ 9% OFF | Ultra Fast Charge | COD",
                 metaDesc: "Buy Anker 737 (PowerCore 24K) in Egypt. 140W charges MacBook Pro 50% in 30 min. 24,000mAh, smart display. ✓ Sealed ✓ Nationwide Delivery.",
                 faqs: [
                     { question: "Does it charge MacBook Pro 16-inch M5?", answer: "Yes, the 140W output via USB-C allows it to charge the latest MacBook Pro 16\" M5/M4 to 50% in just 30 minutes." },
@@ -153,7 +153,7 @@ export const anker_737_powerbank = {
 </div>
 `,
                 features: ["⚡ 140 واط USB-C PD 3.1", "🔋 24,000 مللي أمبير (86.4Wh)", "📊 شاشة رقمية ذكية", "💻 ماك بوك برو 50% في 30 دقيقة", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 3 منافذ (2×USB-C + USB-A)"],
-                metaTitle: "باور بانك انكر 737 الأصلي ⚡ خصم 9% | 140 واط فائق السرعة | ادفع عند الاستلام",
+                metaTitle: "باور بانك انكر 737 الأصلي ⚡ خصم 9% | 140 واط فائق السرعة",
                 metaDesc: "اشتري باور بانك انكر 737 في مصر. 140 واط يشحن ماك بوك برو 50% في 30 دقيقة. سعة 24,000، شاشة ذكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "هل يشحن لابتوب ماك بوك برو 16 بوصة M5؟", answer: "نعم، بفضل قوة 140 واط عبر USB-C، يشحن MacBook Pro 16\" (M5/M4) حتى 50% في 30 دقيقة." },

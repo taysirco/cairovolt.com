@@ -33,7 +33,7 @@ export const joyroom_type_c_lightning_36mos = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Compatible Devices:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>iPhone 14/13/12/11/SE:</strong> 30W PD fast charging.</li><li>📱 <strong>iPad (Lightning):</strong> Fast charging + data sync.</li><li>🎧 <strong>AirPods Pro/3:</strong> Charging.</li><li>❌ <strong>iPhone 17/16/15:</strong> NOT compatible (USB-C port).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable — does NOT fit iPhone 17/16/15 (USB-C). This is our premium option for Lightning iPhones only. If you have USB-C iPhone, see our USB-C cables.</p></div>`,
                 features: ["30W PD fast charging", "36-month premium warranty", "iPhone 14 and earlier", "1m length", "Premium nylon braided"],
-                metaTitle: "Joyroom Lightning Cable ⚡ 56% OFF | 3-Year Warranty | COD Egypt",
+                metaTitle: "Joyroom Lightning Cable ⚡ 56% OFF | 3-Year Warranty | COD",
                 metaDesc: "Joyroom 36-month warranty Lightning cable — the longest cable guarantee in Egypt. Outlasts 3 cheap cables. Free replacement if it breaks. iPhone 14/13/12.",
                 faqs: [
                     { question: "Why is 36-month warranty worth the extra cost?", answer: "Our 36-month warranty is the longest in the industry. That's 3 years of protection - cables typically last 1-2 years with daily use, so you're covered for the entire lifespan." },
@@ -51,7 +51,7 @@ export const joyroom_type_c_lightning_36mos = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 14/13/12/11/SE:</strong> 30 واط PD شحن سريع.</li><li>📱 <strong>ايباد (Lightning):</strong> شحن سريع + نقل بيانات.</li><li>🎧 <strong>AirPods Pro/3:</strong> شحن.</li><li>❌ <strong>ايفون 17/16/15:</strong> غير متوافق (منفذ USB-C).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابل Lightning — مش بيركّب على ايفون 17/16/15 (USB-C). ده الخيار الفاخر لايفونات Lightning بس. لو عندك ايفون USB-C، شوف كابلاتنا USB-C.</p></div>`,
                 features: ["شحن سريع 30 واط PD", "ضمان 36 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون فاخر"],
-                metaTitle: "كابل جوي روم ايفون ⚡ خصم 56% | ضمان 3 سنوات | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون ⚡ خصم 56% | ضمان 3 سنوات | COD مصر",
                 metaDesc: "كابل جوي روم بأطول ضمان في مصر 36 شهر — يعيش أكتر من 3 كابلات رخيصة. استبدال مجاني لو اتقطع. ايفون 14/13/12.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر يستحق السعر الإضافي؟", answer: "ضماننا 36 شهر الأطول في السوق. 3 سنوات حماية - الكابلات عادة تعيش 1-2 سنة، فأنت مغطى طوال عمر الكابل." },

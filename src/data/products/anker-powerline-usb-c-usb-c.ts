@@ -82,7 +82,7 @@ export const anker_powerline_usb_c_usb_c = {
 </div>
 `,
                 features: ["⚡ 60W Power Delivery", "📱 iPhone 17 Max 30W", "📱 Samsung S26 Super Fast 45W", "💻 MacBook Air Compatible", "💪 35,000+ Bend Lifespan", "🏆 18-Month Warranty"],
-                metaTitle: "Anker USB-C to USB-C 60W ⚡ 9% OFF | iPhone + Samsung | COD Egypt",
+                metaTitle: "Anker USB-C to USB-C 60W ⚡ 9% OFF | iPhone + Samsung | COD",
                 metaDesc: "Buy Anker PowerLine III USB-C cable in Egypt. 60W PD for iPhone 17, Samsung S26, MacBook Air. 35K+ bends. 18-month warranty. Best price Cairo delivery.",
                 faqs: [
                     {
@@ -158,7 +158,7 @@ export const anker_powerline_usb_c_usb_c = {
 </div>
 `,
                 features: ["⚡ 60 واط Power Delivery", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 45 واط", "💻 متوافق ماك بوك اير", "💪 35,000+ ثني", "🏆 ضمان 18 شهر"],
-                metaTitle: "كابل انكر تايب سي 60 واط ⚡ خصم 9% | ايفون وسامسونج | ادفع عند الاستلام",
+                metaTitle: "كابل انكر تايب سي 60 واط ⚡ خصم 9% | ايفون وسامسونج | COD مصر",
                 metaDesc: "اشتري كابل انكر PowerLine III USB-C في مصر. 60 واط لايفون 17 وسامسونج S26 وماك بوك. 35 ألف ثني. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "نعم، يدعم 60 واط فيتعامل مع 25 واط و 45 واط. تأكد من كابل 5 أمبير للسرعة القصوى." },

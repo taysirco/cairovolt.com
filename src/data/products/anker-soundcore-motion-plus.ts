@@ -80,7 +80,7 @@ export const anker_soundcore_motion_plus = {
 </div>
 `,
                 features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App"],
-                metaTitle: "Anker Soundcore Motion+ ⚡ 16% OFF | 30W Hi-Res Audio | COD Egypt",
+                metaTitle: "Anker Soundcore Motion+ ⚡ 16% OFF | 30W Hi-Res Audio | COD",
                 metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from CairoVolt & Fast Delivery.",
                 faqs: [
                     { question: "Can I use Motion+ with my TV?", answer: "Yes, you can connect via 3.5mm AUX for crystal clear sound, or Bluetooth if your TV supports it. It gives a mini-cinematic experience in your room." },
@@ -145,7 +145,7 @@ export const anker_soundcore_motion_plus = {
 </div>
 `,
                 features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية 12 ساعة (6700mAh)", "💧 مقاومة ماء IPX7", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ"],
-                metaTitle: "سماعة انكر Motion+ ⚡ خصم 16% | صوت 30 واط Hi-Res | ادفع عند الاستلام",
+                metaTitle: "سماعة انكر Motion+ ⚡ خصم 16% | صوت 30 واط Hi-Res | COD مصر",
                 metaDesc: "اشتري سماعة Anker Motion+ الأصلية في مصر. صوت ستيريو 30 وات، مقاومة للماء IPX7، بطارية 12 ساعة. ضمان 18 شهر من كايرو فولت وتوصيل سريع.",
                 faqs: [
                     { question: "هل الـ Motion+ تنفع للتلفزيون؟", answer: "نعم، ممكن توصلها بـ AUX 3.5mm لصوت نقي جداً، أو بلوتوث لو التلفزيون بيدعم. بتديك تجربة سينمائية مصغرة في غرفتك." },

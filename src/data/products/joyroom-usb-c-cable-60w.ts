@@ -30,10 +30,14 @@ export const joyroom_usb_c_cable_60w = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>iPhone 17/16/15:</strong> 30W max PD fast charging.</li><li>📱 <strong>Samsung S26/S25 Ultra:</strong> 45W Super Fast Charging (PPS).</li><li>💻 <strong>MacBook Air M3:</strong> 60W full-speed charging.</li><li>📱 <strong>iPad Pro/Air (USB-C):</strong> Full PD charging + data sync.</li><li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> Standard charging.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cheap "60W" cables from Ataba often use thin 28AWG copper wires that can only deliver 15-20W real power. They overheat, charge slowly, and risk damaging your device's charging port. Always verify cable wattage with a USB power meter — CairoVolt tests every batch.</p></div>`,
                 features: ["60W Power Delivery", "iPhone 17 max 30W charging", "Samsung S26/S25 Super Fast", "MacBook Air compatible", "35,000+ bend lifespan", "1m length", "24-month warranty"],
-                metaTitle: "Joyroom USB-C 60W Cable ⚡ 44% OFF | iPhone + Samsung | COD Egypt",
+                metaTitle: "Joyroom USB-C 60W Cable ⚡ 44% OFF | iPhone + Samsung | COD",
                 metaDesc: "Joyroom 60W USB-C to USB-C Cable - max speed for iPhone 17 & Samsung S26. Braided 35K bends. Best price Egypt. Fast Cairo delivery.",
                 faqs: [
-                    { question: "Can I use it with my MacBook?", answer: "Yes, it can charge MacBook Air at full speed. For MacBook Pro, it will charge but at a slower rate - we recommend 100W cables for Pro models." }
+                    { question: "Can I use it with my MacBook?", answer: "Yes, it can charge MacBook Air at full speed. For MacBook Pro, it will charge but at a slower rate - we recommend 100W cables for Pro models." },
+                    { question: "Does it fast-charge iPhone 17?", answer: "Yes — iPhone 17 maxes at 30W PD, and this cable delivers that fully. 0→50% in ~25 minutes with a 30W+ charger." },
+                    { question: "What's the difference between 30W and 60W cable?", answer: "30W only charges phones. 60W also charges laptops (MacBook Air). If you own a laptop + phone, 60W is the smarter buy." },
+                    { question: "Does it support Samsung Super Fast Charging?", answer: "Yes! Supports PD + PPS up to 45W. CairoVolt tested: S26 Ultra from 0→50% in 22 minutes." },
+                    { question: "What does the 24-month warranty cover?", answer: "Full replacement for fraying, connector breaks, or charging failures. CairoVolt handles all warranty claims in Egypt." }
                 ]
             },
             ar: {
@@ -46,11 +50,14 @@ export const joyroom_usb_c_cable_60w = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 17/16/15:</strong> 30 واط شحن سريع PD.</li><li>📱 <strong>سامسونج S26/S25 الترا:</strong> 45 واط Super Fast (PPS).</li><li>💻 <strong>ماك بوك اير M3:</strong> 60 واط شحن كامل.</li><li>📱 <strong>ايباد برو/اير (USB-C):</strong> شحن PD + نقل بيانات.</li><li>🎧 <strong>AirPods Pro / Galaxy Buds:</strong> شحن عادي.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابلات "60 واط" الرخيصة من العتبة بتستخدم نحاس 28AWG رفيع مبيطلعش أكتر من 15-20 واط فعلي. بتسخن وبتشحن ببطء وبتخاطر بمنفذ الشحن. تأكد من واطية الكابل بمقياس USB — CairoVolt بتختبر كل شحنة.</p></div>`,
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
-                metaTitle: "كابل جوي روم 60 واط ⚡ خصم 44% | ايفون وسامسونج | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم 60 واط ⚡ خصم 44% | ايفون وسامسونج | COD مصر",
                 metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
                 faqs: [
                     { question: "هل يشحن ماك بوك؟", answer: "نعم، يشحن ماك بوك اير بأقصى سرعة. لماك بوك برو، يشحن لكن ببطء — ننصح بكابل 100W لموديلات برو." },
-                    { question: "هل يدعم الشحن السريع لسامسونج S26؟", answer: "نعم! يدعم PD + PPS بقوة 45 واط — اختبار CairoVolt: S26 Ultra من 0→50% في 22 دقيقة." }
+                    { question: "هل يدعم الشحن السريع لسامسونج S26؟", answer: "نعم! يدعم PD + PPS بقوة 45 واط — اختبار CairoVolt: S26 Ultra من 0→50% في 22 دقيقة." },
+                    { question: "إيه الفرق بين 30 واط و60 واط؟", answer: "30 واط بيشحن موبايلات بس. 60 واط بيشحن موبايلات ولابتوبات (ماك بوك اير). لو عندك لابتوب + موبايل، 60 واط أذكى." },
+                    { question: "الكابل بيسخن وقت شحن اللابتوب؟", answer: "حرارة قصوى 42°م عند شحن ماك بوك اير — طبيعي ومش خطر. كابلات العتبة الرخيصة بتوصل 55°م+ وبتخاطر بالأجهزة." },
+                    { question: "ضمان 24 شهر بيغطي إيه؟", answer: "استبدال كامل لأي تآكل، كسر موصل، أو مشاكل شحن. كايرو فولت بتتعامل مع كل مطالبات الضمان في مصر." }
                 ]
             }
         },

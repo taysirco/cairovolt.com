@@ -82,7 +82,7 @@ export const anker_nano_45w = {
 </div>
 `,
                 features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty"],
-                metaTitle: "Anker 45W GaN Charger ⚡ 28% OFF | Laptop + iPhone | COD Egypt",
+                metaTitle: "Anker 45W GaN Charger ⚡ 28% OFF | Laptop + iPhone | COD",
                 metaDesc: "Buy Anker Nano 45W GaN charger in Egypt. Charges MacBook Air + iPhone 17 + Samsung S26 at full speed. 60% smaller. 24-month warranty. Fast Cairo delivery.",
                 faqs: [
                     { question: "Can this charge my MacBook Air?", answer: "Yes, 45W is perfect for charging a MacBook Air at full speed and can also charge MacBook Pro models." },

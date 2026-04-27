@@ -76,7 +76,7 @@ export const joyroom_usb_c_lightning_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable — does NOT work with iPhone 17/16/15 (USB-C). This cable does NOT support fast charging with old USB-A chargers; you need a USB-C PD charger (sold separately) for 20W speed.</p></div>
 `,
                 features: ["⚡ 20W PD Fast Charging", "🔗 Nylon Braided 10K+ Bends", "💾 480Mbps Data Transfer", "📱 iPhone 17/16/15 Compatible", "🔩 Aluminum Reinforced Connectors", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom USB-C Lightning ⚡ 41% OFF | 20W Fast Charge | COD Egypt",
+                metaTitle: "Joyroom USB-C Lightning ⚡ 41% OFF | 20W Fast Charge | COD",
                 metaDesc: "Buy Joyroom USB-C to Lightning cable in Egypt. 20W PD fast charging, nylon braided 10K+ bends, 480Mbps data. Best price iPhone cable. 12-month warranty.",
                 faqs: [
                     {
@@ -145,7 +145,7 @@ export const joyroom_usb_c_lightning_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابل Lightning — مش بيشتغل مع ايفون 17/16/15 (USB-C). الكابل ده مش بيدعم شحن سريع مع شواحن USB-A القديمة؛ محتاج شاحن USB-C PD (بيتباع لوحده) لسرعة 20 واط.</p></div>
 `,
                 features: ["⚡ شحن سريع 20 واط PD", "🔗 نايلون مضفر 10K+ انحناء", "💾 480Mbps نقل بيانات", "📱 متوافق ايفون 17/16/15", "🔩 موصلات ألومنيوم", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم ايفون ⚡ خصم 41% | شحن سريع 20 واط | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون ⚡ خصم 41% | شحن سريع 20 واط | COD مصر",
                 metaDesc: "اشتري كابل جوي روم USB-C to Lightning في مصر. شحن سريع 20 واط PD، نايلون 10K+ انحناء، 480Mbps. أفضل سعر كابل ايفون. ضمان 12 شهر.",
                 faqs: [
                     { question: "ما متانة كابل جوي روم Lightning هذا؟", answer: "نايلون مضفر يقاوم التآكل ويتحمل 10,000+ انحناء." },

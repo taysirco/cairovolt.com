@@ -28,7 +28,7 @@ export const joyroom_usb_a_type_c_cable = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Works With:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>iPhone 17/16/15:</strong> 3A charging via USB-A.</li><li>📱 <strong>Samsung S26/S25/A-Series:</strong> 3A charging.</li><li>📱 <strong>Xiaomi / Oppo / Realme:</strong> Standard 3A.</li><li>🚗 <strong>Car USB-A ports:</strong> Full compatibility.</li><li>💻 <strong>PC/Laptop USB-A:</strong> Data + charging.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This cable does NOT support PD fast charging (20W+). For maximum speed, use a USB-C to USB-C cable with a PD charger. This is a bridge cable for USB-A chargers only.</p></div>`,
                 features: ["3A fast charging", "1m length", "Samsung S26 compatible", "iPhone 17 compatible", "18-month warranty"],
-                metaTitle: "Joyroom USB-A to Type-C ⚡ 43% OFF | Best Price Egypt | COD Egypt",
+                metaTitle: "Joyroom USB-A to Type-C ⚡ 43% OFF | Best Price Egypt | COD",
                 metaDesc: "Joyroom USB-A to Type-C Cable for Samsung S26 & iPhone 17 with old chargers. Best price Egypt.",
                 faqs: [
                     { question: "Why would I use USB-A to Type-C?", answer: "If you have an older charger with USB-A port but a new phone with USB-C (like iPhone 17 or Samsung S26), this cable bridges the gap. No need to buy a new charger!" },
@@ -46,7 +46,7 @@ export const joyroom_usb_a_type_c_cable = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">بيشتغل مع:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 17/16/15:</strong> شحن 3 أمبير عبر USB-A.</li><li>📱 <strong>سامسونج S26/S25/A-Series:</strong> شحن 3 أمبير.</li><li>📱 <strong>شاومي / أوبو / ريلمي:</strong> 3 أمبير قياسي.</li><li>🚗 <strong>فيشة عربية USB-A:</strong> توافق كامل.</li><li>💻 <strong>كمبيوتر/لابتوب USB-A:</strong> بيانات + شحن.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيدعم شحن PD السريع (20 واط+). لأقصى سرعة، استخدم كابل USB-C لـ USB-C مع شاحن PD. ده كابل جسر لشواحن USB-A بس.</p></div>`,
                 features: ["شحن سريع 3 أمبير", "طول 1 متر", "متوافق سامسونج S26", "متوافق ايفون 17", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم تايب سي ⚡ خصم 43% | أرخص سعر في مصر | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم تايب سي ⚡ خصم 43% | أرخص سعر في مصر | COD مصر",
                 metaDesc: "كابل جوي روم USB-A إلى Type-C لسامسونج S26 وايفون 17 مع شواحن قديمة. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أستخدم USB-A إلى Type-C؟", answer: "لو عندك شاحن قديم USB-A لكن هاتفك جديد USB-C (مثل ايفون 17 أو سامسونج S26)، هذا الكابل يربط بينهما. لا تحتاج شراء شاحن جديد!" },

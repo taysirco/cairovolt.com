@@ -149,7 +149,7 @@ export const anker_powerline_usb_c_lightning = {
 </div>
 `,
                 features: ["✅ معتمد MFi من أبل", "⚡ شحن سريع 30 واط", "💪 يتحمل 35,000+ ثني", "📱 ايفون 14/13/12/11", "🚗 متوافق CarPlay", "🏆 ضمان 18 شهر"],
-                metaTitle: "كابل انكر ايفون MFi الأصلي ⚡ 30 واط شحن سريع | ادفع عند الاستلام",
+                metaTitle: "كابل انكر ايفون MFi الأصلي ⚡ 30 واط شحن سريع | COD مصر",
                 metaDesc: "اشتري كابل انكر PowerLine III USB-C to Lightning في مصر. معتمد MFi، شحن 30 واط، 35 ألف ثني. أمتن 3.5× من أبل. ضمان 18 شهر.",
                 faqs: [
                     {

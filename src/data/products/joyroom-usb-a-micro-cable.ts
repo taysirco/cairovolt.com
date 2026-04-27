@@ -28,7 +28,7 @@ export const joyroom_usb_a_micro_cable = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Works With:</h3><ul class="list-disc list-inside text-gray-700"><li>🔊 <strong>JBL / Anker Speakers:</strong> Full 2.4A charging.</li><li>🔋 <strong>Older Power Banks:</strong> Micro USB input models.</li><li>📱 <strong>Samsung A10s/A20s, Xiaomi Redmi:</strong> Standard charging.</li><li>🎮 <strong>PS4/Xbox Controllers:</strong> Charge while playing.</li><li>📖 <strong>Kindle / E-Readers:</strong> Slow-charge safe.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This cable does NOT work with iPhone, Samsung S26/S25, or any USB-C device. Check your device's charging port before ordering. If it's oval-shaped (USB-C), you need a different cable.</p></div>`,
                 features: ["2.4A charging", "1.2m length", "Micro USB devices", "Durable TPE", "12-month warranty"],
-                metaTitle: "Joyroom Micro USB Cable ⚡ 56% OFF | Fast Charge Android | COD Egypt",
+                metaTitle: "Joyroom Micro USB ⚡ 56% OFF | Fast Charge Android | COD",
                 metaDesc: "Joyroom Micro USB Cable for Android devices. 2.4A charging. Best price Egypt.",
                 faqs: [
                     { question: "Which devices use Micro USB today?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
@@ -46,7 +46,7 @@ export const joyroom_usb_a_micro_cable = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">بيشتغل مع:</h3><ul class="list-disc list-inside text-gray-700"><li>🔊 <strong>سماعات JBL / Anker:</strong> شحن كامل 2.4 أمبير.</li><li>🔋 <strong>باور بانك قديمة:</strong> موديلات بمدخل Micro USB.</li><li>📱 <strong>Samsung A10s/A20s, Xiaomi Redmi:</strong> شحن قياسي.</li><li>🎮 <strong>دراعات PS4/Xbox:</strong> شحن أثناء اللعب.</li><li>📖 <strong>Kindle / كتب إلكترونية:</strong> شحن آمن بطيء.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيشتغل مع ايفون أو سامسونج S26/S25 أو أي جهاز USB-C. تأكد من منفذ الشحن قبل الطلب. لو شكله بيضاوي (USB-C)، محتاج كابل تاني.</p></div>`,
                 features: ["شحن 2.4 أمبير", "طول 1.2 متر", "أجهزة Micro USB", "TPE متين", "ضمان 12 شهر"],
-                metaTitle: "كابل جوي روم Micro USB ⚡ خصم 56% | شحن سريع أندرويد | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم Micro USB ⚡ خصم 56% | شحن سريع أندرويد",
                 metaDesc: "كابل جوي روم Micro USB للاندرويد. شحن 2.4 أمبير. أفضل سعر مصر.",
                 faqs: [
                     { question: "أي أجهزة تستخدم Micro USB الحالي؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },

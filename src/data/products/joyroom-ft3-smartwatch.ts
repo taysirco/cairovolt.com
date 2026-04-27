@@ -74,7 +74,7 @@ export const joyroom_ft3_smartwatch = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This is NOT an Apple Watch — no App Store, no Apple Pay, no iMessage. Health readings (heart rate, SpO2) are estimates only, not medical-grade. Companion app required for full features. Notifications may lag on some Android devices.</p></div>
 `,
                 features: ["⌚ IP68 Waterproof", "🏃 20 Sports Modes", "❤️ 24/7 Heart Rate", "🔋 7-Day Battery", "📱 iPhone 17 & Samsung S26", "💬 Arabic Notifications", "🏆 12-Month Warranty"],
-                metaTitle: "Joyroom FT3 Smartwatch ⚡ 56% OFF | IP68 Waterproof | COD Egypt",
+                metaTitle: "Joyroom FT3 Smartwatch ⚡ 56% OFF | IP68 Waterproof | COD",
                 metaDesc: "Buy Joyroom FT3 Smart Watch in Egypt. IP68 waterproof, 20 sports modes, heart rate, 7-day battery. Works with iPhone 17 & Samsung. 12-month warranty.",
                 faqs: [
                     { question: "Does it support Arabic?", answer: "Yes, the watch interface and notifications fully support the Arabic language." },
@@ -134,7 +134,7 @@ export const joyroom_ft3_smartwatch = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">دي مش ساعة أبل — مفيش App Store ولا Apple Pay ولا iMessage. قراءات الصحة (نبض القلب، SpO2) تقديرية فقط، مش درجة طبية. تطبيق مرافق مطلوب للميزات الكاملة. الإشعارات ممكن تتأخر على بعض أجهزة أندرويد.</p></div>
 `,
                 features: ["⌚ IP68 مقاومة للماء", "🏃 20 وضع رياضي", "❤️ مراقبة النبض 24/7", "🔋 7 أيام بطارية", "📱 ايفون 17 وسامسونج S26", "💬 إشعارات عربية", "🏆 ضمان 12 شهر"],
-                metaTitle: "ساعة جوي روم FT3 الذكية ⚡ خصم 56% | IP68 ضد المياه | ادفع عند الاستلام",
+                metaTitle: "ساعة جوي روم FT3 الذكية ⚡ خصم 56% | IP68 ضد المياه | COD مصر",
                 metaDesc: "اشتري ساعة جوي روم FT3 في مصر. IP68 مقاومة للماء، 20 وضع رياضي، مراقبة النبض، 7 أيام بطارية. متوافقة مع ايفون 17 وسامسونج. ضمان 12 شهر.",
                 faqs: [
                     { question: "هل تدعم العربية؟", answer: "نعم، الواجهة والإشعارات تدعم العربية بالكامل." },

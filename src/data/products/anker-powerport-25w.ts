@@ -87,7 +87,7 @@ export const anker_powerport_25w = {
                     "📏 Compact 4.5cm Design",
                     "🏆 18-Month Warranty (vs Samsung's 12)"
                 ],
-                metaTitle: "Anker 25W PPS Charger ⚡ 15% OFF | Super Fast Samsung | COD Egypt",
+                metaTitle: "Anker 25W PPS Charger ⚡ 15% OFF | Super Fast Samsung | COD",
                 metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [
                     { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 550 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },

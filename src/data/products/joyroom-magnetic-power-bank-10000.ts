@@ -75,7 +75,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe wireless charging works with iPhone 12 and newer ONLY. Does NOT wirelessly charge Samsung or non-MagSafe phones. The 15W wireless is slower than wired; for fastest charge, use the USB-C port. Adds noticeable weight when attached to phone.</p></div>
 `,
                 features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty"],
-                metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD Egypt",
+                metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD",
                 metaDesc: "Buy Joyroom MagSafe power bank in Egypt. 10000mAh, 15W wireless + 20W wired, N52 magnets, kickstand. iPhone 17/16/15. 18-month warranty. Best price.",
                 faqs: [
                     { question: "How many times can it charge iPhone 17?", answer: "The 10000mAh capacity can fully charge iPhone 17 approximately 2 times, or provide over 2.5 charges for iPhone 17 Pro. Actual results vary based on usage during charging." },
@@ -135,7 +135,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">شحن MagSafe اللاسلكي بيشتغل مع ايفون 12 والأحدث بس. مش بيشحن سامسونج أو موبايلات بدون MagSafe لاسلكياً. الـ 15 واط اللاسلكي أبطأ من السلكي؛ لأسرع شحن، استخدم منفذ USB-C. بيزوّد وزن ملحوظ لما يكون مركّب على الموبايل.</p></div>
 `,
                 features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر"],
-                metaTitle: "باور بانك جوي روم MagSafe 10000 ⚡ خصم 6% | شحن لاسلكي | ادفع عند الاستلام",
+                metaTitle: "باور بانك جوي روم MagSafe 10000 ⚡ خصم 6% | شحن لاسلكي",
                 metaDesc: "اشتري باور بانك جوي روم MagSafe في مصر. 10000 مللي، 15 واط لاسلكي + 20 واط سلكي، مغناطيس N52، حامل مدمج. ايفون 17/16/15. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
                     { question: "كم شحنة يعطي MagSafe 10000 لايفون 17؟", answer: "سعة 10000 مللي أمبير تشحن الايفون 17 بالكامل حوالي مرتين، أو أكثر من 2.5 شحنة لايفون 17 برو. النتائج تختلف حسب الاستخدام أثناء الشحن." },

@@ -81,7 +81,7 @@ export const anker_622_maggo = {
 </div>
 `,
                 features: ["🧲 7.5W MagSafe Wireless Charging", "📱 Built-in Foldable Kickstand", "🪨 Ultra-Slim (13mm)", "🔌 USB-C Two-Way Charging", "🔄 Pass-Through Charging", "🛡️ 18-Month Anker Warranty"],
-                metaTitle: "Anker 622 MagGo Wireless ⚡ 7% OFF | MagSafe iPhone | COD Egypt",
+                metaTitle: "Anker 622 MagGo Wireless ⚡ 7% OFF | MagSafe iPhone | COD",
                 metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ Replacement Warranty ✓ 24-48H Shipping.",
                 faqs: [
                     { question: "Does it work with non-MagSafe cases?", answer: "No, it requires a magnetic MagSafe case or a bare iPhone (15/16/17 series) to attach securely." },
@@ -147,7 +147,7 @@ export const anker_622_maggo = {
 </div>
 `,
                 features: ["🧲 شحن MagSafe لاسلكي 7.5 واط", "📱 حامل مدمج قابل للطي", "🪨 نحيف جداً (13مم)", "🔌 USB-C شحن في الاتجاهين", "🔄 شحن تمريري", "🛡️ ضمان انكر 18 شهر"],
-                metaTitle: "باور بانك انكر 622 MagGo ⚡ خصم 7% | شحن لاسلكي ايفون | ادفع عند الاستلام",
+                metaTitle: "باور بانك انكر 622 MagGo ⚡ خصم 7% | شحن لاسلكي ايفون",
                 metaDesc: "اشتري بطارية انكر 622 MagGo في مصر. شحن لاسلكي MagSafe لايفون 17/16/15. حامل مدمج، نحيف جداً. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "هل يعمل مع الجرابات العادية؟", answer: "لا، يتطلب جراب MagSafe مغناطيسي أو ايفون بدون جراب (سلسلة 15/16/17) لضمان الالتصاق." },

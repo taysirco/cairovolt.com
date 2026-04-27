@@ -28,7 +28,7 @@ export const joyroom_type_c_lightning_24mos = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Compatible Devices:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>iPhone 14/13/12/11/SE:</strong> 30W PD fast charging.</li><li>📱 <strong>iPad (Lightning):</strong> Fast charging + data.</li><li>🎧 <strong>AirPods Pro/3:</strong> Charging.</li><li>❌ <strong>iPhone 17/16/15:</strong> NOT compatible (USB-C only).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This is a Lightning cable — it does NOT work with iPhone 17/16/15 (USB-C). Verify your iPhone model before ordering.</p></div>`,
                 features: ["30W PD fast charging", "24-month extended warranty", "iPhone 14 and earlier", "1m length", "Durable nylon braided"],
-                metaTitle: "Joyroom Lightning Cable ⚡ 49% OFF | 2-Year Warranty | COD Egypt",
+                metaTitle: "Joyroom Lightning Cable ⚡ 49% OFF | 2-Year Warranty | COD",
                 metaDesc: "Joyroom USB-C Lightning Cable with 24-month warranty for iPhone 14/13/12. 30W fast charging. Best price Egypt.",
                 faqs: [
                     { question: "Why choose 24-month warranty cable?", answer: "For users who want extra protection without premium pricing. 24-month warranty covers manufacturing defects twice as long as standard 12-month cables." },
@@ -46,7 +46,7 @@ export const joyroom_type_c_lightning_24mos = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 14/13/12/11/SE:</strong> 30 واط PD شحن سريع.</li><li>📱 <strong>ايباد (Lightning):</strong> شحن سريع + بيانات.</li><li>🎧 <strong>AirPods Pro/3:</strong> شحن.</li><li>❌ <strong>ايفون 17/16/15:</strong> غير متوافق (USB-C فقط).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">ده كابل Lightning — مش بيشتغل مع ايفون 17/16/15 (USB-C). تأكد من موديل ايفونك قبل الطلب.</p></div>`,
                 features: ["شحن سريع 30 واط PD", "ضمان 24 شهر", "ايفون 14 والأقدم", "طول 1 متر", "نايلون متين"],
-                metaTitle: "كابل جوي روم ايفون ⚡ خصم 49% | ضمان سنتين | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم ايفون ⚡ خصم 49% | ضمان سنتين | COD مصر",
                 metaDesc: "كابل جوي روم USB-C Lightning بضمان 24 شهر للايفون 14/13/12. شحن سريع 30 واط. أفضل سعر مصر.",
                 faqs: [
                     { question: "لماذا أختار كابل ضمان 24 شهر؟", answer: "للمستخدمين الذين يريدون حماية إضافية بدون سعر فاخر. ضمان 24 شهر يغطي عيوب الصناعة ضعف الكابلات العادية 12 شهر." },

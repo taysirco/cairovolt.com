@@ -37,7 +37,7 @@ export const anker_powercore_10000 = {
                     "MultiProtect 10-Layer Safety → Complete protection for your devices",
                     "18-Month Official Warranty → Full support and instant replacement in Egypt"
                 ],
-                metaTitle: "Anker 10000mAh Power Bank ⚡ 21% OFF | Fast Charge iPhone | COD Egypt",
+                metaTitle: "Anker 10000mAh Power Bank ⚡ 21% OFF | iPhone Fast | COD",
                 metaDesc: "Buy original Anker 10000mAh power bank. 2 full iPhone 17 charges. From EGP 1,300. ✓ 100% Original Sealed Product ✓ 14-Day Free Returns ✓ Shipping across Egypt.",
                 faqs: [
                     { question: "What is the price of Anker 10000mAh power bank in Egypt?", answer: "Anker 10000mAh power bank price is EGP 1,300 at CairoVolt. Includes 18-month warranty from authorized dealer and fast Cairo/Giza delivery." },
@@ -67,7 +67,7 @@ export const anker_powercore_10000 = {
                     "حماية MultiProtect 10 طبقات → حماية كاملة لأجهزتك",
                     "ضمان رسمي 18 شهر → دعم كامل واستبدال فوري في مصر"
                 ],
-                metaTitle: "سعر باور بانك انكر 10000 في مصر ⚡ خصم 21% | شحن سريع ايفون | ادفع عند الاستلام",
+                metaTitle: "سعر باور بانك انكر 10000 في مصر ⚡ خصم 21% | شحن سريع ايفون",
                 metaDesc: "اشتري باور بانك انكر 10000 مللي أمبير الأصلي. يشحن ايفون 17 مرتين. سعر 1,300 جنيه. ✓ ضمان 18 شهر ✓ توصيل سريع ✓ دفع عند الاستلام",
                 faqs: [
                     { question: "كم سعر باور بانك انكر 10000 في مصر؟", answer: "سعر باور بانك انكر 10000 هو 1,300 جنيه في CairoVolt. يشمل ضمان 18 شهر من الوكيل المعتمد وتوصيل سريع للقاهرة والجيزة." },

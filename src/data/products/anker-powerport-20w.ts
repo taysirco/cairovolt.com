@@ -88,7 +88,7 @@ export const anker_powerport_20w = {
                     "🇸🇦 UK-Style Plug (Egypt Compatible)",
                     "🏆 18-Month Warranty"
                 ],
-                metaTitle: "Anker 20W USB-C Charger ⚡ 11% OFF | Fast Charge iPhone | COD Egypt",
+                metaTitle: "Anker 20W USB-C Charger ⚡ 11% OFF | Fast Charge iPhone | COD",
                 metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 375. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Replacement Warranty ✓ 24-48H Shipping.",
                 faqs: [
                     { question: "What is the price of Anker 20W charger in Egypt?", answer: "Anker 20W charger price in Egypt is EGP 375 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },

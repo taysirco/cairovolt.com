@@ -28,7 +28,7 @@ export const joyroom_type_c_to_type_c_cable = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>iPhone 17/16/15:</strong> 30W PD fast charging.</li><li>📱 <strong>Samsung S26/S25 Ultra:</strong> 45W Super Fast Charging.</li><li>💻 <strong>MacBook Air M3:</strong> 60W full-speed charging.</li><li>📱 <strong>iPad Pro/Air:</strong> Full PD + data sync.</li><li>🎮 <strong>Nintendo Switch:</strong> Charging while playing.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Many "USB-C" cables sold in Egypt lack the e-marker chip required for 60W charging. They look identical but cap at 15W. CairoVolt verifies every cable with a USB power meter before shipping.</p></div>`,
                 features: ["60W PD support", "iPhone 17/16/15 compatible", "Samsung S26/S25 compatible", "1m length", "18-month warranty"],
-                metaTitle: "Joyroom USB-C to USB-C ⚡ 35% OFF | 60W Fast Charge | COD Egypt",
+                metaTitle: "Joyroom USB-C to USB-C ⚡ 35% OFF | 60W Fast Charge | COD",
                 metaDesc: "Joyroom USB-C Cable for iPhone 17 & Samsung S26. 60W PD. Best price Egypt.",
                 faqs: [
                     { question: "Does this cable work with iPhone 17?", answer: "Yes! iPhone 17 uses USB-C. This cable delivers 60W fast charging, providing the maximum 30W speed that iPhone 17 supports." },
@@ -46,7 +46,7 @@ export const joyroom_type_c_to_type_c_cable = {
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 17/16/15:</strong> 30 واط شحن سريع PD.</li><li>📱 <strong>سامسونج S26/S25 الترا:</strong> 45 واط Super Fast.</li><li>💻 <strong>ماك بوك اير M3:</strong> 60 واط شحن كامل.</li><li>📱 <strong>ايباد برو/اير:</strong> PD كامل + نقل بيانات.</li><li>🎮 <strong>نينتندو سويتش:</strong> شحن أثناء اللعب.</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابلات "USB-C" كتير في مصر مفيهاش شريحة e-marker المطلوبة لشحن 60 واط. شكلها واحد بس بتقف عند 15 واط. CairoVolt بتتحقق من كل كابل بمقياس USB قبل الشحن.</p></div>`,
                 features: ["يدعم 60 واط PD", "متوافق ايفون 17/16/15", "متوافق سامسونج S26/S25", "طول 1 متر", "ضمان 18 شهر"],
-                metaTitle: "كابل جوي روم تايب سي ⚡ خصم 35% | 60 واط شحن سريع | ادفع عند الاستلام",
+                metaTitle: "كابل جوي روم تايب سي ⚡ خصم 35% | 60 واط شحن سريع | COD مصر",
                 metaDesc: "كابل جوي روم USB-C للايفون 17 وسامسونج S26. 60 واط PD. أفضل سعر مصر.",
                 faqs: [
                     { question: "هل هذا الكابل يعمل مع ايفون 17؟", answer: "نعم! ايفون 17 يستخدم USB-C. هذا الكابل يوفر 60 واط شحن سريع، ويعطي ايفون 17 أقصى سرعة 30 واط." },

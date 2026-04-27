@@ -75,7 +75,7 @@ export const joyroom_25w_fast_charger = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included. Single USB-C port only — cannot charge 2 devices at once. For iPhone 14 and earlier, you need a USB-C to Lightning cable. This is NOT 45W — Samsung S26 Ultra users wanting maximum speed should pair with a 45W charger.</p></div>
 `,
                 features: ["⚡ 25W PD 3.0 Fast Charging", "📱 iPhone 17: 0→50% in 25 Min", "📱 Samsung Super Fast Charging", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Travel Design", "🌍 AC 100-240V Universal", "🏆 36-Month Warranty"],
-                metaTitle: "Joyroom 25W PD Charger ⚡ iPhone + Samsung | Official | COD Egypt",
+                metaTitle: "Joyroom 25W PD Charger ⚡ iPhone + Samsung | Official | COD",
                 metaDesc: "Buy Joyroom 25W PD charger in Egypt. iPhone 17 0→50% in 25 min, Samsung Super Fast, MultiProtect safety. 36-month warranty. Best price.",
                 faqs: [
                     { question: "Can this charger fast charge iPhone 17?", answer: "Yes! The Joyroom 25W charger provides optimal fast charging for iPhone 17, charging from 0-50% in approximately 25 minutes. iPhone 17 supports up to 30W, so this 25W charger delivers near-maximum speeds." },
@@ -137,7 +137,7 @@ export const joyroom_25w_fast_charger = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل مش في العلبة. منفذ USB-C واحد بس — مش بيشحن 2 جهاز في نفس الوقت. لايفون 14 وأقدم، محتاج كابل USB-C لـ Lightning. ده مش 45 واط — مستخدمي سامسونج S26 ألترا اللي عايزين أقصى سرعة محتاجين شاحن 45 واط.</p></div>
 `,
                 features: ["⚡ شحن سريع 25 واط PD 3.0", "📱 ايفون 17: 0→50% في 25 دقيقة", "📱 سامسونج سوبر فاست", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير للسفر", "🌍 AC 100-240V عالمي", "🏆 ضمان 36 شهر"],
-                metaTitle: "شاحن جوي روم 25 واط ⚡ ايفون + سامسونج أصلي 100% | ادفع عند الاستلام",
+                metaTitle: "شاحن جوي روم 25 واط ⚡ ايفون + سامسونج أصلي 100% | COD مصر",
                 metaDesc: "اشتري شاحن جوي روم 25 واط PD في مصر. ايفون 17 من 0→50% في 25 دقيقة، سامسونج سوبر فاست، حماية متعددة. ضمان 36 شهر. أفضل سعر.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج S26 السريع؟", answer: "نعم، يدعم بروتوكول Super Fast Charging من سامسونج. رغم أن S26 يقبل حتى 45 واط، إلا أن 25 واط توفر سرعات شحن ممتازة، تصل إلى 50% في حوالي 30 دقيقة." },

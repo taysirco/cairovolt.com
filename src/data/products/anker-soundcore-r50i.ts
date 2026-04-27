@@ -55,7 +55,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value"],
-                metaTitle: "Anker Soundcore R50i ⚡ 27% OFF | 30h Battery Life | COD Egypt",
+                metaTitle: "Anker Soundcore R50i ⚡ 27% OFF | 30h Battery Life | COD",
                 metaDesc: "Buy Anker R50i in Egypt. 10mm BassUp drivers, 30h battery, AI ENC calls. Best-value wireless earbuds. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "Does it have ANC (noise cancellation)?", answer: "No — the R50i uses passive noise isolation via silicone tips. For active ANC, choose the R50i NC (42dB ANC). The R50i offers great value without ANC." },
