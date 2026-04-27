@@ -49,6 +49,16 @@ export const joyroom_car_phone_mount = {
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Washable Nano-Suction Cup</h2>
         <p class="text-gray-700">The base uses a sticky gel pad combined with a vacuum suction mechanism. If it gets dusty and loses grip, simply rinse it with warm water, let it air dry, and it's good as new. Sticks securely to glass or textured dashboards.</p>
     </section>
+</div>
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">Compatible Devices:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>iPhone 17/16/15 Pro Max:</strong> Fits with most cases.</li>
+        <li>📱 <strong>Samsung S26/S25 Ultra:</strong> Secure grip, no wobble.</li>
+        <li>📱 <strong>Pixel / OnePlus / Xiaomi:</strong> Up to 6.8" screen.</li>
+        <li>❌ <strong>iPad Mini / Tablets:</strong> Too heavy, not recommended.</li>
+    </ul>
+</div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>
 </div>`,
                 features: ["Fits phones up to 7 inches", "Strong suction cup mount", "Dashboard or windshield mounting", "360-degree rotation", "One-hand operation", "Adjustable arm length", "12-month warranty"],
@@ -86,6 +96,16 @@ export const joyroom_car_phone_mount = {
         <h2 class="text-2xl font-bold mb-2 text-gray-900">كوب شفط قابل للغسيل</h2>
         <p class="text-gray-700">القاعدة بتستخدم جل لاصق مع ميكانيزم تفريغ هواء. لو لم تراب وضعف لزقه، اغسله بشوية مية دافية وسيبه ينشف، هيرجع يلزق كأنه جديد. بيثبت بقوة على الزجاج أو التابلوه الملمس.</p>
     </section>
+</div>
+<div class="device-compatibility">
+    <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
+    <ul class="list-disc list-inside text-gray-700">
+        <li>📱 <strong>ايفون 17/16/15 برو ماكس:</strong> بيشيله بالكفر.</li>
+        <li>📱 <strong>سامسونج S26/S25 ألترا:</strong> قبضة محكمة بدون اهتزاز.</li>
+        <li>📱 <strong>Pixel / OnePlus / Xiaomi:</strong> لحد شاشة 6.8 بوصة.</li>
+        <li>❌ <strong>ايباد ميني / تابلت:</strong> تقيل جداً، مش مناسب.</li>
+    </ul>
+</div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تركيب على فتحة التكييف بس — مفيش خيار تابلوه أو زجاج. ممكن يسد فتحة التكييف في الصيف لما تحتاج التكييف أكتر. مش مناسب للموبايلات التقيلة جداً بجرابات كبيرة. آلية الزنبرك ممكن ترتخي بعد 12+ شهر استخدام يومي.</p></div>
 </div>`,
                 features: ["يناسب هواتف حتى 7 بوصة", "كوب شفط قوي", "تثبيت على التابلوه أو الزجاج", "دوران 360 درجة", "تشغيل بيد واحدة", "ذراع قابل للتعديل", "ضمان 12 شهر"],

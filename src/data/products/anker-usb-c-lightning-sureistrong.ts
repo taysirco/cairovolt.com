@@ -31,9 +31,28 @@ export const anker_usb_c_lightning_sureistrong = {
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
     <p class="text-gray-700">Premium cables are heavily counterfeited. Fake SureIStrong cables have a glossy plastic feel vs the genuine matte bio-fiber coating. Non-MFi cables damage iPhone battery health and fail during iOS updates. Verify the MFi logo and Anker holographic seal.</p>
 </div>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">Key Features:</h3>
+    <ul class="list-none space-y-1">
+        <li>⚡ <strong>30W PD:</strong> iPhone 14 from 0→50% in ~30 minutes.</li>
+        <li>🧬 <strong>Bio-Fiber Reinforcement:</strong> 15x stronger at the stress point than standard cables.</li>
+        <li>🧹 <strong>Stain-Resistant:</strong> White coating stays white, even in dusty Cairo bags.</li>
+        <li>🔗 <strong>Anti-Tangle:</strong> Soft-touch surface prevents knots without cable ties.</li>
+    </ul>
+</div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">"SureIStrong is the cable we personally use. The soft-touch coating is unlike any cable we've tested — it genuinely feels premium, doesn't tangle, and the stain-resistant surface stays white even after months in a laptop bag. The 1.8m length is perfect for bedside charging. MFi certified means zero 'accessory not supported' errors."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p>
+</div>
+<div class="product-details">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Bio-Fiber Reinforcement: Where Cables Actually Break</h2>
+        <p class="text-gray-700">90% of cable deaths happen at the connector junction. Anker's SureIStrong wraps this critical 2cm zone in bio-based fiber — the same reinforcement concept used in aerospace composites. Result: <strong>15x stronger flex endurance</strong> than standard PVC cables. Tested to 12,000+ bends.</p>
+    </section>
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Soft-Touch Anti-Tangle Coating</h2>
+        <p class="text-gray-700">The proprietary matte coating achieves two things: it feels premium in your hand (noticeably different from plastic cables), and it <strong>prevents tangling</strong> even when tossed loose in a bag. The stain-resistant surface repels dirt and sweat — the white version stays white.</p>
+    </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
@@ -64,9 +83,28 @@ export const anker_usb_c_lightning_sureistrong = {
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
     <p class="text-gray-700">الكابلات الفاخرة بتتقلد بشكل كبير. كابلات SureIStrong المضروبة ليها ملمس بلاستيك لامع مقابل طلاء الألياف الحيوية المطفي الأصلي. كابلات غير MFi بتضر صحة بطارية الايفون وبتفشل وقت تحديثات iOS. تأكد من شعار MFi وختم أنكر الهولوجرافي.</p>
 </div>
+<div class="product-summary">
+    <h3 class="font-bold mb-2">المميزات الرئيسية:</h3>
+    <ul class="list-none space-y-1">
+        <li>⚡ <strong>30 واط PD:</strong> ايفون 14 من 0→50% في ~30 دقيقة.</li>
+        <li>🧬 <strong>تقوية ألياف حيوية:</strong> 15 ضعف أقوى عند نقطة الضغط من الكابلات العادية.</li>
+        <li>🧹 <strong>مقاوم للبقع:</strong> الطلاء الأبيض بيفضل أبيض حتى في شنط القاهرة المتربة.</li>
+        <li>🔗 <strong>مانع للتشابك:</strong> السطح الناعم بيمنع العقد من غير رباطات.</li>
+    </ul>
+</div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">"SureIStrong هو الكابل اللي بنستخدمه شخصياً. الطلاء الناعم مختلف عن أي كابل جربناه — بيحس فلوسه فعلاً، مبيتشابكش، والسطح المقاوم للبقع فضل ابيض بعد شهور. طول 1.8م مثالي لشحن جنب السرير."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span></p>
+</div>
+<div class="product-details">
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">تقوية الألياف الحيوية: المكان اللي الكابلات فعلاً بتبوظ فيه</h2>
+        <p class="text-gray-700">90% من وفيات الكابلات بتحصل عند نقطة اتصال الموصل. أنكر SureIStrong بتلف المنطقة الحرجة دي (2 سم) بألياف حيوية — نفس مفهوم التقوية المستخدم في المركبات الفضائية. النتيجة: <strong>متانة ثني 15 ضعف</strong> أقوى من كابلات PVC العادية. مختبر لأكثر من 12,000 ثنية.</p>
+    </section>
+    <section>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">طلاء ناعم مانع للتشابك</h2>
+        <p class="text-gray-700">الطلاء المطفي المميز بيحقق حاجتين: ملمسه فاخر في إيدك (مختلف بوضوح عن الكابلات البلاستيك)، و<strong>بيمنع التشابك</strong> حتى لما ترميه في الشنطة. السطح المقاوم للبقع بيطرد الأوساخ والعرق — النسخة البيضا بتفضل بيضا.</p>
+    </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
