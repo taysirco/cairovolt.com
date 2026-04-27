@@ -16,6 +16,8 @@ export const anker_521_powerhouse_detail: ProductDetail = {
             'Ports': { en: 'AC + USB-C PD + 2×USB-A + Car socket', ar: 'AC + USB-C PD + 2×USB-A + مقبس سيارة' },
             'Battery Type': { en: 'LiFePO4 (3,000+ cycles)', ar: 'LiFePO4 (3,000+ دورة)' },
             'Weight': { en: '3.7 kg', ar: '3.7 كجم' },
+            'Dimensions': { en: '216 × 211 × 144 mm', ar: '216 × 211 × 144 ملم' },
+            'Safety': { en: 'UPS-grade surge protection + LiFePO4 BMS', ar: 'حماية UPS + نظام إدارة بطارية LiFePO4' },
         },
         labVerified: {
             result: { en: 'Powered WE VDSL router + 40W desk fan simultaneously for 18 hours 15 minutes at 39°C. LiFePO4 chemistry showed zero thermal degradation vs lithium-ion.', ar: 'شغّل راوتر WE VDSL + مروحة مكتبية 40 واط معاً لمدة 18 ساعة و 15 دقيقة عند 39 درجة. كيمياء LiFePO4 لم تتأثر بالحرارة قياساً بالليثيوم أيون.' },

@@ -16,6 +16,8 @@ export const anker_737_powerbank_detail: ProductDetail = {
             'Ports': { en: '2× USB-C + 1× USB-A', ar: '2× USB-C + 1× USB-A' },
             'Recharge Time': { en: '<1 hour (140W)', ar: 'أقل من ساعة (140W)' },
             'Weight': { en: '645g', ar: '645 جرام' },
+            'Dimensions': { en: '156 × 55 × 50 mm', ar: '156 × 55 × 50 ملم' },
+            'Safety': { en: 'ActiveShield 2.0 + GaN thermal management', ar: 'ActiveShield 2.0 + إدارة حرارة GaN' },
         },
         labVerified: {
             result: {

@@ -16,6 +16,8 @@ export const anker_soundcore_motion_plus_detail: ProductDetail = {
             'Water Resistance': { en: 'IPX7', ar: 'IPX7' },
             'Connectivity': { en: 'Bluetooth 5.0 + AUX', ar: 'بلوتوث 5.0 + AUX' },
             'Weight': { en: '1.05 kg', ar: '1.05 كجم' },
+            'Dimensions': { en: '257 × 79 × 81 mm', ar: '257 × 79 × 81 ملم' },
+            'Safety': { en: 'IPX7 waterproof + Hi-Res Audio certified', ar: 'IPX7 مقاوم للماء + معتمد Hi-Res Audio' },
         },
         labVerified: {
             result: { en: 'IPX7: fully submerged 1m depth for 30 minutes at Ain Sokhna pool with zero water ingress. 8-hour rooftop test at 41°C direct sunlight: zero thermal shutdown, bass boost active, 18 different Bluetooth connections. Total playback: 12h 8min.', ar: 'IPX7: غمر كامل 1م عمق 30 دقيقة في حوض العين السخنة بدون تسرب. 8 ساعات سطح 41°C: صفر إيقاف حراري، باس نشط، 18 اتصال بلوتوث. إجمالي: 12س 8د.' },

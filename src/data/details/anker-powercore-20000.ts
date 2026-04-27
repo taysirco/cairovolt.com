@@ -16,6 +16,8 @@ export const anker_powercore_20000_detail: ProductDetail = {
             'Ports': { en: '2× USB-A', ar: '2× USB-A' },
             'Recharge Time': { en: '~10 hours (2A)', ar: '~10 ساعات (2 أمبير)' },
             'Weight': { en: '356g', ar: '356 جرام' },
+            'Dimensions': { en: '158 × 74 × 19 mm', ar: '158 × 74 × 19 ملم' },
+            'Safety': { en: 'MultiProtect 10-Layer (OV/OC/OT/SC)', ar: 'MultiProtect 10 طبقات (OV/OC/OT/SC)' },
         },
         labVerified: {
             result: { en: 'Charged 2 iPhones + 2 Samsung phones simultaneously on Cairo-Hurghada highway. All reached 80%+ charge before arrival. No overheating on dual ports.', ar: 'شحن 2 ايفون + 2 سامسونج في نفس الوقت على طريق الغردقة. وصلوا لـ 80%+ قبل الوصول. لا سخونة في المنافذ المزدوجة.' },

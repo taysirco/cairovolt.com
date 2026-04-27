@@ -16,6 +16,8 @@ export const anker_soundcore_flare_2_detail: ProductDetail = {
             'Water Resistance': { en: 'IPX7', ar: 'IPX7' },
             'Connectivity': { en: 'Bluetooth 5.0', ar: 'بلوتوث 5.0' },
             'Weight': { en: '0.65 kg', ar: '0.65 كجم' },
+            'Dimensions': { en: '81 × 81 × 155 mm', ar: '81 × 81 × 155 ملم' },
+            'Safety': { en: 'IPX7 waterproof + BassUp DSP', ar: 'IPX7 مقاوم للماء + BassUp DSP' },
         },
         labVerified: {
             result: { en: '3 Soundcore Flare 2 speakers synchronized via PartyCast in 1.2 seconds. Zero audio lag at 30+ meter separation across a 500m² outdoor venue in New Damietta. LED effects perfectly synced. Total runtime: 10h 15min.', ar: '3 سماعات Soundcore Flare 2 تزامنت عبر PartyCast في 1.2 ثانية. صفر تأخير صوتي على 30+ متر في 500م². تزامن LED تام. إجمالي: 10س 15د.' },

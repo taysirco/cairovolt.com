@@ -16,6 +16,8 @@ export const anker_powercore_26800_detail: ProductDetail = {
             'Ports': { en: '3× USB-A output + 2× Micro-USB input', ar: '3× USB-A خرج + 2× Micro-USB دخل' },
             'Recharge Time': { en: '6 hours (dual input)', ar: '6 ساعات (مدخلين)' },
             'Weight': { en: '495g', ar: '495 جرام' },
+            'Dimensions': { en: '180 × 80 × 24 mm', ar: '180 × 80 × 24 ملم' },
+            'Safety': { en: 'MultiProtect 10-Layer + VoltageBoost', ar: 'MultiProtect 10 طبقات + VoltageBoost' },
         },
         labVerified: {
             result: { en: 'Charged 5 devices (2 iPhones + 2 Samsung + 1 iPad) simultaneously from 10-15% to 90%+ each on Cairo-Hurghada round trip (10 hours). Total: 4.7 full charges. Zero thermal incidents at 41°C.', ar: 'شحن 5 أجهزة (ايفونين + سامسونجين + ايباد) معاً من 10-15% لـ 90%+. إجمالي: 4.7 شحنة كاملة. صفر حوادث حرارية عند 41°C.' },

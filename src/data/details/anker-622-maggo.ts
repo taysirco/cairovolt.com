@@ -16,6 +16,8 @@ export const anker_622_maggo_detail: ProductDetail = {
             'Ports': { en: '1× USB-C', ar: '1× USB-C' },
             'Compatibility': { en: 'iPhone 13/14/15/16/17 (MagSafe)', ar: 'ايفون 13/14/15/16/17 (MagSafe)' },
             'Weight': { en: '140g', ar: '140 جرام' },
+            'Dimensions': { en: '105 × 66 × 13 mm', ar: '105 × 66 × 13 ملم' },
+            'Safety': { en: 'MultiProtect + MagSafe alignment shield', ar: 'MultiProtect + درع محاذاة MagSafe' },
         },
         labVerified: {
             result: { en: 'iPhone 15 Pro charged from 0% to 68% in 40 minutes wirelessly at a Cairo coffee shop table, hands-free with kickstand active. MagSafe snap was instant. No heat at 38°C ambient.', ar: 'iPhone 15 Pro شحن من 0% لـ 68% في 40 دقيقة لاسلكياً على طاولة كافيه بالقاهرة بدون كابل. MagSafe لحظي. لا حرارة عند 38°C.' },
