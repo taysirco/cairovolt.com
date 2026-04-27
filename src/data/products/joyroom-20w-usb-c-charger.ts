@@ -62,21 +62,6 @@ export const joyroom_20w_usb_c_charger = {
         <p class="text-gray-700">The ultra-compact design is smaller than an AirPods case. Throw it in your pocket, laptop bag, or travel pouch. No bulky brick. Foldable prongs keep it tangle-free. Perfect as a <strong>secondary charger for the office</strong> or a dedicated travel charger.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">20W PD (Power Delivery)</td></tr>
-        <tr><td class="p-2 border">Port</td><td class="p-2 border">USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Protocol</td><td class="p-2 border">PD 3.0 / QC 3.0</td></tr>
-        <tr><td class="p-2 border">iPhone Charge Speed</td><td class="p-2 border">0→50% in ~30 min</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect (5 layers)</td></tr>
-        <tr><td class="p-2 border">Size</td><td class="p-2 border">Ultra-Compact (smaller than AirPods)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -137,21 +122,6 @@ export const joyroom_20w_usb_c_charger = {
         <p class="text-gray-700">التصميم الصغير جداً أصغر من علبة AirPods. حطّه في جيبك أو شنطة اللابتوب أو حقيبة السفر. مفيش طوبة كبيرة. أسنان قابلة للطي عشان ميتلخبطش. مثالي كـ <strong>شاحن ثانوي للمكتب</strong> أو شاحن سفر مخصص.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">20 واط PD (Power Delivery)</td></tr>
-        <tr><td class="p-2 border">المنفذ</td><td class="p-2 border">USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">البروتوكول</td><td class="p-2 border">PD 3.0 / QC 3.0</td></tr>
-        <tr><td class="p-2 border">سرعة شحن الايفون</td><td class="p-2 border">0→50% في ~30 دقيقة</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">حماية متعددة (5 طبقات)</td></tr>
-        <tr><td class="p-2 border">الحجم</td><td class="p-2 border">صغير جداً (أصغر من AirPods)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

@@ -70,19 +70,6 @@ export const anker_622_maggo = {
         <p class="text-gray-700">At only <strong>13mm thin</strong>, the MagGo 622 barely adds bulk to your iPhone. Slide it into your back pocket, toss it in your bag, or leave it magnetically attached all day. The USB-C port supports <strong>pass-through charging</strong>, meaning you can charge both the battery and your iPhone at the same time from a single cable.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Wireless Output</td><td class="p-2 border font-bold">7.5W MagSafe</td></tr>
-        <tr><td class="p-2 border">Wired Port</td><td class="p-2 border">USB-C (Two-Way)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Kickstand</td><td class="p-2 border">Built-in Foldable</td></tr>
-        <tr><td class="p-2 border">Thickness</td><td class="p-2 border">~13mm</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Pass-Through</td><td class="p-2 border">✅ Charge battery + phone simultaneously</td></tr>
-        <tr><td class="p-2 border">Compatibility</td><td class="p-2 border">iPhone 17/16/15/14/13/12 (MagSafe)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -149,19 +136,6 @@ export const anker_622_maggo = {
         <p class="text-gray-700">بسمك <strong>13 ملليمتر فقط</strong>، MagGo 622 بالكاد بيضيف حجم على ايفونك. حطّه في جيبك الخلفي، ارميه في شنطتك، أو سيبه ملتصق مغناطيسي طول اليوم. منفذ USB-C بيدعم <strong>الشحن التمريري</strong>، يعني تقدر تشحن البطارية وايفونك في نفس الوقت من كابل واحد.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">الشحن اللاسلكي</td><td class="p-2 border font-bold">7.5 واط MagSafe</td></tr>
-        <tr><td class="p-2 border">المنفذ السلكي</td><td class="p-2 border">USB-C (في الاتجاهين)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الحامل</td><td class="p-2 border">مدمج قابل للطي</td></tr>
-        <tr><td class="p-2 border">السمك</td><td class="p-2 border">~13 ملليمتر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشحن التمريري</td><td class="p-2 border">✅ اشحن البطارية + ايفونك في نفس الوقت</td></tr>
-        <tr><td class="p-2 border">التوافق</td><td class="p-2 border">ايفون 17/16/15/14/13/12 (MagSafe)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

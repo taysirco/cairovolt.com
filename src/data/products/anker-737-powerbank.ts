@@ -71,21 +71,6 @@ export const anker_737_powerbank = {
         <p class="text-gray-700">With 24,000mAh (86.4Wh), the 737 powers through an entire day of heavy use: charge your MacBook Air once, your iPhone 5+ times, or keep your router running for hours during a blackout. <strong>ActiveShield 3.0</strong> monitors temperature 3 million times daily to keep all your expensive devices safe. And at 86.4Wh, it's TSA-approved for air travel.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">24,000mAh (86.4Wh)</td></tr>
-        <tr><td class="p-2 border">Max Output</td><td class="p-2 border">140W USB-C PD 3.1</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Max Input</td><td class="p-2 border">140W (0-100% in under 1 hour)</td></tr>
-        <tr><td class="p-2 border">Ports</td><td class="p-2 border">2× USB-C + 1× USB-A</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Display</td><td class="p-2 border">Smart Digital (W in/out, time, %)</td></tr>
-        <tr><td class="p-2 border">Safety</td><td class="p-2 border">ActiveShield 3.0 (3M temp checks/day)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Weight</td><td class="p-2 border">630g</td></tr>
-        <tr><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 86.4Wh (TSA limit: 100Wh)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -155,21 +140,6 @@ export const anker_737_powerbank = {
         <p class="text-gray-700">بسعة 24,000 مللي أمبير (86.4 واط/ساعة)، الـ 737 بيكفيك يوم كامل من الاستخدام الثقيل: اشحن ماك بوك اير مرة، ايفونك 5+ مرات، أو خلّي الراوتر شغال لساعات وقت انقطاع الكهربا. <strong>ActiveShield 3.0</strong> بيراقب الحرارة 3 مليون مرة يومياً لحماية أجهزتك الغالية. وبسعة 86.4 واط/ساعة، مسموح بيه في الطائرة.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">24,000 مللي أمبير (86.4 واط/ساعة)</td></tr>
-        <tr><td class="p-2 border">أقصى إخراج</td><td class="p-2 border">140 واط USB-C PD 3.1</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">أقصى إدخال</td><td class="p-2 border">140 واط (0-100% في أقل من ساعة)</td></tr>
-        <tr><td class="p-2 border">المنافذ</td><td class="p-2 border">2× USB-C + 1× USB-A</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشاشة</td><td class="p-2 border">رقمية ذكية (واط دخول/خروج، وقت، %)</td></tr>
-        <tr><td class="p-2 border">الأمان</td><td class="p-2 border">ActiveShield 3.0 (3 مليون فحص حرارة/يوم)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الوزن</td><td class="p-2 border">630 جرام</td></tr>
-        <tr><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 86.4 واط/ساعة (حد TSA: 100 واط/ساعة)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">

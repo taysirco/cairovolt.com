@@ -39,19 +39,6 @@ export const anker_soundcore_r50i_nc = {
 <section><h2 class="text-2xl font-bold mb-2">Phone Stand Case: Hidden Genius</h2>
 <p class="text-gray-700">The charging case has a <strong>hidden built-in phone stand</strong>. Flip it open, prop up your phone, and you have an instant video call station or media viewing stand. During lunch breaks, turn any café table into your personal workspace. It's the kind of detail that makes you wonder why other brands don't do this.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">ANC</td><td class="p-2 border font-bold">42dB Hybrid Adaptive</td></tr>
-<tr><td class="p-2 border">Drivers</td><td class="p-2 border">10mm HiFi + BassUp™</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Battery (Earbuds)</td><td class="p-2 border">10h (ANC off) / 7h (ANC on)</td></tr>
-<tr><td class="p-2 border">Battery (Total)</td><td class="p-2 border font-bold">45 hours</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Fast Charge</td><td class="p-2 border">10min → 2h</td></tr>
-<tr><td class="p-2 border">Microphones</td><td class="p-2 border">4-Mic AI Beamforming</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.4</td></tr>
-<tr><td class="p-2 border">Waterproof</td><td class="p-2 border">IP54</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Case Feature</td><td class="p-2 border">Built-in Phone Stand</td></tr>
-<tr><td class="p-2 border">Transparency</td><td class="p-2 border">High-Fidelity Mode</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>iPhone 17 Pro Max:</strong> 42dB ANC eliminates plane engines. AAC HD codec.</li>
@@ -102,18 +89,6 @@ export const anker_soundcore_r50i_nc = {
 <section><h2 class="text-2xl font-bold mb-2">علبة بحامل موبايل: عبقرية مخفية</h2>
 <p class="text-gray-700">علبة الشحن فيها <strong>حامل موبايل مدمج مخفي</strong>. افتحها، سند موبايلك، وعندك محطة فيديو كول فورية. أثناء استراحة الغدا، حوّل أي طاولة كافيه لمساحة عملك.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">ANC</td><td class="p-2 border font-bold">42dB هجين تكيفي</td></tr>
-<tr><td class="p-2 border">الدرايفر</td><td class="p-2 border">10mm HiFi + BassUp™</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">بطارية السماعة</td><td class="p-2 border">10 ساعات (ANC مطفي) / 7 ساعات (ANC شغال)</td></tr>
-<tr><td class="p-2 border">بطارية إجمالي</td><td class="p-2 border font-bold">45 ساعة</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">شحن سريع</td><td class="p-2 border">10 دقايق → ساعتين</td></tr>
-<tr><td class="p-2 border">المايك</td><td class="p-2 border">4 مايك AI Beamforming</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">بلوتوث</td><td class="p-2 border">5.4</td></tr>
-<tr><td class="p-2 border">مقاومة</td><td class="p-2 border">IP54</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">العلبة</td><td class="p-2 border">حامل موبايل مدمج</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> 42dB ANC بيلغي صوت محركات الطائرة. كودك AAC HD.</li>

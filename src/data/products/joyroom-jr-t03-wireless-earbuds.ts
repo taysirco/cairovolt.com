@@ -65,20 +65,6 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <p class="text-gray-700">The <strong>built-in microphone</strong> handles phone calls clearly. Not studio quality, but perfectly adequate for everyday calls. Each earbud works independently — use one for calls while charging the other. For better call quality and ANC, upgrade to the <a href="/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Total Playtime</td><td class="p-2 border font-bold">20 hours (4H + 16H case)</td></tr>
-        <tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.0</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Controls</td><td class="p-2 border">Touch (Play/Pause/Skip/Call)</td></tr>
-        <tr><td class="p-2 border">Microphone</td><td class="p-2 border">Built-in (Calls)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Sound</td><td class="p-2 border">Stereo with Bass</td></tr>
-        <tr><td class="p-2 border">Case</td><td class="p-2 border">Compact USB-C Charging</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -138,20 +124,6 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <p class="text-gray-700"><strong>الميكروفون المدمج</strong> بيتعامل مع المكالمات بوضوح. مش جودة استوديو، بس كافي جداً للمكالمات اليومية. كل سماعة بتشتغل مستقلة — استخدم واحدة للمكالمات واشحن التانية. لجودة مكالمات أفضل وANC، ارقى لـ <a href="/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">وقت التشغيل</td><td class="p-2 border font-bold">20 ساعة (4ساعات + 16ساعة علبة)</td></tr>
-        <tr><td class="p-2 border">البلوتوث</td><td class="p-2 border">5.0</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">التحكم</td><td class="p-2 border">لمس (تشغيل/إيقاف/تخطي/مكالمة)</td></tr>
-        <tr><td class="p-2 border">الميكروفون</td><td class="p-2 border">مدمج (مكالمات)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الصوت</td><td class="p-2 border">ستيريو مع بيس</td></tr>
-        <tr><td class="p-2 border">العلبة</td><td class="p-2 border">صغيرة شحن USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

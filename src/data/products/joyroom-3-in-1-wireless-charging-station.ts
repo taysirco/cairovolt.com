@@ -61,21 +61,6 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <p class="text-gray-700"><strong>Premium aluminum alloy construction</strong> with a matte finish that matches Apple's design language. This isn't a cheap plastic accessory — it looks like it belongs next to your MacBook and iPad. Weighted base prevents tipping when you remove your phone.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">iPhone Charging</td><td class="p-2 border font-bold">15W MagSafe</td></tr>
-        <tr><td class="p-2 border">Apple Watch</td><td class="p-2 border">Fast Charging (All Models)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">AirPods</td><td class="p-2 border">5W Wireless Pad</td></tr>
-        <tr><td class="p-2 border">Simultaneous</td><td class="p-2 border">3 devices at once</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Material</td><td class="p-2 border">Premium Aluminum Alloy</td></tr>
-        <tr><td class="p-2 border">Angle</td><td class="p-2 border">Adjustable (StandBy mode)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Power Input</td><td class="p-2 border">USB-C (30W+ adapter recommended)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -134,21 +119,6 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <p class="text-gray-700"><strong>تصنيع ألومنيوم فاخر</strong> بلمسة مات بتطابق لغة تصميم Apple. ده مش إكسسوار بلاستيك رخيص — شكله كإنه مكانه جنب ال MacBook وال iPad. قاعدة ثقيلة بتمنع الإنقلاب لما تشيل الموبايل.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">شحن ايفون</td><td class="p-2 border font-bold">15 واط MagSafe</td></tr>
-        <tr><td class="p-2 border">ابل واتش</td><td class="p-2 border">شحن سريع (كل الموديلات)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">ايربودز</td><td class="p-2 border">5 واط قاعدة لاسلكية</td></tr>
-        <tr><td class="p-2 border">شحن متزامن</td><td class="p-2 border">3 أجهزة في نفس الوقت</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الخامة</td><td class="p-2 border">ألومنيوم فاخر</td></tr>
-        <tr><td class="p-2 border">الزاوية</td><td class="p-2 border">قابلة للتعديل (وضع StandBy)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">USB-C (ينصح بشاحن 30+ واط)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

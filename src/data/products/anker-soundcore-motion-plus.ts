@@ -69,19 +69,6 @@ export const anker_soundcore_motion_plus = {
         <p class="text-gray-700">With a massive 6700mAh battery (like a <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power bank</a>), forget the charger. It lasts a full workday or a long night out with friends. And when it drains, charge it via USB-C just like your phone.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Sound Output</td><td class="p-2 border font-bold">30W (Hi-Res)</td></tr>
-        <tr><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX7 (Fully Submersible)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Playtime</td><td class="p-2 border">12 Hours</td></tr>
-        <tr><td class="p-2 border">Battery Capacity</td><td class="p-2 border">6700mAh</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Bluetooth</td><td class="p-2 border">Bluetooth 5.0 (30m Range)</td></tr>
-        <tr><td class="p-2 border">Audio Inputs</td><td class="p-2 border">USB-C / 3.5mm AUX</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Works Perfectly With:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -147,19 +134,6 @@ export const anker_soundcore_motion_plus = {
         <p class="text-gray-700">ببطارية ضخمة <a href="/anker/power-banks" class="text-blue-600 hover:underline">زي الباور بانك</a> بسعة 6700mAh، انسى الشاحن. تكفيك يوم كامل شغل، أو سهرة طويلة مع الصحاب. ولما تفصل، اشحنها بكابل USB-C زي موبايلك بالظبط.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">تفاصيل تقنية ومواصفات:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">قوة الصوت (Output)</td><td class="p-2 border font-bold">30 واط (Hi-Res)</td></tr>
-        <tr><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX7 (غمر كامل)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">وقت التشغيل</td><td class="p-2 border">12 ساعة</td></tr>
-        <tr><td class="p-2 border">سعة البطارية</td><td class="p-2 border">6700mAh</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">البلوتوث</td><td class="p-2 border">Bluetooth 5.0 (مدى 30 متر)</td></tr>
-        <tr><td class="p-2 border">مداخل الصوت</td><td class="p-2 border">USB-C / 3.5mm AUX</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">اشتغل معانا على إيه؟</h3>
     <ul class="list-disc list-inside text-gray-700">

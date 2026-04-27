@@ -68,21 +68,6 @@ export const anker_soundcore_life_p2i = {
         <p class="text-gray-700"><strong>7 hours per charge</strong> from the earbuds, plus <strong>3 additional full charges</strong> from the compact case = <strong>28 hours total</strong>. Forgot to charge? <strong>10 minutes in the case = 1 full hour of playback.</strong> That's enough for an emergency commute when you're running late.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Total Playtime</td><td class="p-2 border font-bold">28 hours (7H + 21H case)</td></tr>
-        <tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.2</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Microphones</td><td class="p-2 border">Dual AI-Enhanced (per earbud)</td></tr>
-        <tr><td class="p-2 border">EQ Modes</td><td class="p-2 border">Bass / Podcast (switchable)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Fast Charge</td><td class="p-2 border">10 min = 1 hour playback</td></tr>
-        <tr><td class="p-2 border">Drivers</td><td class="p-2 border">10mm Large Drivers</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Single Earbud Mode</td><td class="p-2 border">Yes (Left or Right)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (Anker Egypt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -149,21 +134,6 @@ export const anker_soundcore_life_p2i = {
         <p class="text-gray-700"><strong>7 ساعات</strong> لكل شحنة من السماعات، و<strong>3 شحنات كاملة إضافية</strong> من العلبة = <strong>28 ساعة إجمالي</strong>. نسيت تشحن؟ <strong>10 دقائق في العلبة = ساعة كاملة استماع.</strong> ده كفاية لرحلة طوارئ لما تكون متأخر.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">وقت التشغيل</td><td class="p-2 border font-bold">28 ساعة (7ساعات + 21ساعة علبة)</td></tr>
-        <tr><td class="p-2 border">البلوتوث</td><td class="p-2 border">5.2</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الميكروفونات</td><td class="p-2 border">مزدوج بذكاء اصطناعي (لكل سماعة)</td></tr>
-        <tr><td class="p-2 border">أوضاع EQ</td><td class="p-2 border">Bass / Podcast (قابل للتبديل)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشحن السريع</td><td class="p-2 border">10 دقائق = ساعة استماع</td></tr>
-        <tr><td class="p-2 border">السماعات</td><td class="p-2 border">10mm سماعات كبيرة</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">وضع السماعة الفردية</td><td class="p-2 border">نعم (يمين أو يسار)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (انكر مصر)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

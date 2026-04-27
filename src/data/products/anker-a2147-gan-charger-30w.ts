@@ -40,23 +40,6 @@ export const anker_a2147_gan_charger_30w = {
     <section><h2 class="text-2xl font-bold mb-2">Built for Egypt's Power Grid</h2>
     <p class="text-gray-700">Egypt's electricity grid is notorious for voltage fluctuations, especially during peak summer and load-shedding periods. The A2147 features <strong>ActiveShield 2.0</strong> — Anker's proprietary temperature monitoring system that checks internal temperature millions of times per day. Combined with over-voltage, under-voltage, and over-current protection, your expensive iPhone or Samsung is safe even when the grid isn't stable. The GaN design also runs <strong>cooler</strong> than silicon equivalents, which matters in a 40°C+ Egyptian summer.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">Product Type</td><td class="p-2 border font-bold">Wall Charger (GaN Nano)</td></tr>
-    <tr><td class="p-2 border">Model</td><td class="p-2 border font-bold">Anker 511 Charger (Nano 3) — A2147</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Series</td><td class="p-2 border">Series 5</td></tr>
-    <tr><td class="p-2 border">Technology</td><td class="p-2 border font-bold">GaN (Gallium Nitride) + IQ3</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border">30W USB-C PD 3.0</td></tr>
-    <tr><td class="p-2 border">Voltage Rails</td><td class="p-2 border">5V⎓3A / 9V⎓3A / 15V⎓2A / 20V⎓1.5A</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">100-240V ~ 50/60Hz 0.8A (Universal)</td></tr>
-    <tr><td class="p-2 border">Safety</td><td class="p-2 border">ActiveShield 2.0 + MultiProtect</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Dimensions</td><td class="p-2 border">28.5 × 28.5 × 35.6 mm (70% smaller)</td></tr>
-    <tr><td class="p-2 border">Weight</td><td class="p-2 border">~38g</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Plug</td><td class="p-2 border">Foldable Prongs</td></tr>
-    <tr><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE / PSE / RoHS / TÜV</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>iPhone 17/16/15 series:</strong> 30W PD fast charging — 0→50% in ~21 minutes.</li>
@@ -111,23 +94,6 @@ export const anker_a2147_gan_charger_30w = {
     <section><h2 class="text-2xl font-bold mb-2">مصمم لشبكة كهرباء مصر</h2>
     <p class="text-gray-700">شبكة كهرباء مصر مشهورة بتذبذب الفولتية، خصوصاً في ذروة الصيف وأوقات تخفيف الأحمال. الـ A2147 فيه <strong>ActiveShield 2.0</strong> — نظام أنكر الحصري لمراقبة الحرارة اللي بيتشيك ملايين المرات يومياً. مع حماية من ارتفاع الفولتية وانخفاضها والتيار الزائد، ايفونك وسامسونجك الغالي في أمان حتى لما الكهرباء مش مستقرة. كمان تصميم GaN بيشتغل <strong>أبرد</strong> من شواحن السيليكون، وده مهم في صيف مصري 40°C+.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">نوع المنتج</td><td class="p-2 border font-bold">شاحن حائط (GaN نانو)</td></tr>
-    <tr><td class="p-2 border">الموديل</td><td class="p-2 border font-bold">Anker 511 Charger (Nano 3) — A2147</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">السلسلة</td><td class="p-2 border">Series 5</td></tr>
-    <tr><td class="p-2 border">التقنية</td><td class="p-2 border font-bold">GaN (نيتريد الجاليوم) + IQ3</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border">30 واط USB-C PD 3.0</td></tr>
-    <tr><td class="p-2 border">مستويات الفولتية</td><td class="p-2 border">5V⎓3A / 9V⎓3A / 15V⎓2A / 20V⎓1.5A</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">100-240V ~ 50/60Hz 0.8A (عالمي)</td></tr>
-    <tr><td class="p-2 border">الأمان</td><td class="p-2 border">ActiveShield 2.0 + MultiProtect</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الأبعاد</td><td class="p-2 border">28.5 × 28.5 × 35.6 ملم (أصغر 70%)</td></tr>
-    <tr><td class="p-2 border">الوزن</td><td class="p-2 border">~38 جرام</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">القابس</td><td class="p-2 border">سنون قابلة للطي</td></tr>
-    <tr><td class="p-2 border">الشهادات</td><td class="p-2 border">FCC / CE / PSE / RoHS / TÜV</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>ايفون 17/16/15:</strong> شحن PD سريع 30 واط — من 0 لـ 50% في ~21 دقيقة.</li>

@@ -39,21 +39,6 @@ export const anker_a2741_charger_30w = {
     <section><h2 class="text-2xl font-bold mb-2">Built for Cairo Traffic and Summer Heat</h2>
     <p class="text-gray-700">Long commutes on the Ring Road or trips to the North Coast mean your phone runs GPS, music, and calls simultaneously. The A2741's <strong>30W output</strong> means your phone gains charge even under heavy use — basic 12W car chargers can barely keep up. <strong>MultiProtect</strong> monitors voltage, current, and temperature continuously. Compatible with all <strong>12V and 24V</strong> vehicles — from compact sedans to SUVs and trucks.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">Product Type</td><td class="p-2 border font-bold">Car Charger (Miniature)</td></tr>
-    <tr><td class="p-2 border">Total Output</td><td class="p-2 border font-bold">30W</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">USB-C Port</td><td class="p-2 border">PD: 5V⎓3A / 9V⎓3A (27W) | PPS: 3.3-11V⎓3A (30W)</td></tr>
-    <tr><td class="p-2 border">USB-A Port</td><td class="p-2 border">5V⎓3A / 9V⎓2A / 10V⎓2.25A (22.5W PowerIQ 3.0)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">12V⎓3.3A / 24V⎓2A DC (All Cars)</td></tr>
-    <tr><td class="p-2 border">Dual Port Active</td><td class="p-2 border">~12W + ~12W (power shared)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect (OV / UV / OC / OT Protection)</td></tr>
-    <tr><td class="p-2 border">Dimensions</td><td class="p-2 border">54.6 × 23.9 × 24.1 mm</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Weight</td><td class="p-2 border">~15g</td></tr>
-    <tr><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>Samsung Galaxy S26/S25:</strong> PPS Super Fast Charging via USB-C (optimized protocol).</li>
@@ -106,21 +91,6 @@ export const anker_a2741_charger_30w = {
     <section><h2 class="text-2xl font-bold mb-2">مصمم لزحمة القاهرة وحر الصيف</h2>
     <p class="text-gray-700">المشاوير الطويلة على الدائري أو رحلات الساحل يعني موبايلك بيشغل GPS ومزيكا واتصالات في نفس الوقت. الـ A2741 بقوة <strong>30 واط</strong> يعني موبايلك بيكسب شحن حتى تحت استخدام كتير — شواحن السيارة العادية بـ 12 واط بالعافية بتلحق. <strong>MultiProtect</strong> بيراقب الفولتية والتيار والحرارة باستمرار. متوافق مع كل سيارات <strong>12V و 24V</strong> — من الملاكي الصغيرة للـ SUV والتريلات.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">نوع المنتج</td><td class="p-2 border font-bold">شاحن سيارة (فائق الصغر)</td></tr>
-    <tr><td class="p-2 border">الإخراج الإجمالي</td><td class="p-2 border font-bold">30 واط</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">منفذ USB-C</td><td class="p-2 border">PD: 5V⎓3A / 9V⎓3A (27 واط) | PPS: 3.3-11V⎓3A (30 واط)</td></tr>
-    <tr><td class="p-2 border">منفذ USB-A</td><td class="p-2 border">5V⎓3A / 9V⎓2A / 10V⎓2.25A (22.5 واط PowerIQ 3.0)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">12V⎓3.3A / 24V⎓2A DC (كل السيارات)</td></tr>
-    <tr><td class="p-2 border">المنفذين معاً</td><td class="p-2 border">~12 واط + ~12 واط (القوة بتتقسم)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect (حماية OV / UV / OC / OT)</td></tr>
-    <tr><td class="p-2 border">الأبعاد</td><td class="p-2 border">54.6 × 23.9 × 24.1 ملم</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الوزن</td><td class="p-2 border">~15 جرام</td></tr>
-    <tr><td class="p-2 border">الشهادات</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>سامسونج جالكسي S26/S25:</strong> شحن PPS Super Fast Charging عبر USB-C (بروتوكول محسّن).</li>

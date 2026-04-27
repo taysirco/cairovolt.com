@@ -61,21 +61,6 @@ export const joyroom_25w_fast_charger = {
         <p class="text-gray-700">Most chargers come with 12-month warranties. This Joyroom charger comes with <strong>36 months</strong> — that's 3 full years of coverage. If anything goes wrong, CairoVolt handles the replacement directly. <strong>MultiProtect 5-layer safety</strong> means your phone's battery stays healthy long-term.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">25W PD 3.0</td></tr>
-        <tr><td class="p-2 border">Port</td><td class="p-2 border">USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">0→50% in 25 min</td></tr>
-        <tr><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">0→50% in ~28 min (Super Fast)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect (5 layers)</td></tr>
-        <tr><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Size</td><td class="p-2 border">Ultra-Compact</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -136,21 +121,6 @@ export const joyroom_25w_fast_charger = {
         <p class="text-gray-700">معظم الشواحن بتيجي بضمان 12 شهر. شاحن جوي روم ده بييجي بـ <strong>36 شهر</strong> — يعني 3 سنين كاملة تغطية. لو حصل أي مشكلة، كايرو فولت بتتعامل مع الاستبدال مباشرة. <strong>حماية متعددة 5 طبقات</strong> يعني بطارية موبايلك بتفضل صحية على المدى الطويل.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">25 واط PD 3.0</td></tr>
-        <tr><td class="p-2 border">المنفذ</td><td class="p-2 border">USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">0→50% في 25 دقيقة</td></tr>
-        <tr><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">0→50% في ~28 دقيقة (سوبر فاست)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">حماية متعددة (5 طبقات)</td></tr>
-        <tr><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الحجم</td><td class="p-2 border">صغير جداً</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

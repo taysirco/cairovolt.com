@@ -65,20 +65,6 @@ export const joyroom_power_bank_20000 = {
         <p class="text-gray-700">The <strong>digital LED display</strong> shows exact battery percentage — not vague dots. Verified with <strong>Golden Code</strong> to confirm authenticity. Pair with a <a href="/joyroom/cables" class="text-blue-600 hover:underline">Joyroom USB-C cable</a> for maximum charging speed. At 72Wh, it's <strong>airline approved</strong> for travel.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">20,000mAh (72Wh)</td></tr>
-        <tr><td class="p-2 border">Max Output</td><td class="p-2 border">22.5W (SCP) / 20W (PD) / 18W (QC 3.0)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Output Ports</td><td class="p-2 border">2× USB-A + 1× USB-C</td></tr>
-        <tr><td class="p-2 border">Display</td><td class="p-2 border">LED Digital (Exact %)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 72Wh (TSA limit: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Authenticity</td><td class="p-2 border">Golden Code Verification</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -139,20 +125,6 @@ export const joyroom_power_bank_20000 = {
         <p class="text-gray-700"><strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط — مش نقاط غامضة. متحقق بـ<strong>الكود الذهبي</strong> لتأكيد الأصالة. استخدمه مع <a href="/joyroom/cables" class="text-blue-600 hover:underline">كابل جوي روم USB-C</a> لأقصى سرعة شحن. بسعة 72 واط/ساعة، <strong>مسموح بالطائرة</strong> للسفر.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">20,000 مللي أمبير (72 واط/ساعة)</td></tr>
-        <tr><td class="p-2 border">أقصى إخراج</td><td class="p-2 border">22.5 واط (SCP) / 20 واط (PD) / 18 واط (QC 3.0)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">منافذ الإخراج</td><td class="p-2 border">2× USB-A + 1× USB-C</td></tr>
-        <tr><td class="p-2 border">الشاشة</td><td class="p-2 border">LED رقمية (نسبة دقيقة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 72 واط/ساعة (حد TSA: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الأصالة</td><td class="p-2 border">كود ذهبي Golden Code</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">

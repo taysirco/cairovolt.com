@@ -63,20 +63,6 @@ export const joyroom_car_mount_zs290 = {
         <p class="text-gray-700"><strong>360-degree ball joint</strong> lets you angle your phone in portrait for navigation or landscape for media. The <strong>air vent clip</strong> keeps your dashboard clean — no suction cups, no sticky adhesives. The compact design doesn't block significant airflow from your AC.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Magnet Grade</td><td class="p-2 border font-bold">N52 Neodymium</td></tr>
-        <tr><td class="p-2 border">MagSafe</td><td class="p-2 border">Direct attach (iPhone 15/16/17)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Rotation</td><td class="p-2 border">360° Ball Joint</td></tr>
-        <tr><td class="p-2 border">Mount Type</td><td class="p-2 border">Air Vent Clip</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Case Compatibility</td><td class="p-2 border">Up to 3mm thick</td></tr>
-        <tr><td class="p-2 border">Metal Plate</td><td class="p-2 border">Included (for non-MagSafe)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -137,20 +123,6 @@ export const joyroom_car_mount_zs290 = {
         <p class="text-gray-700"><strong>مفصل كروي 360 درجة</strong> بيخلّيك تظبط موبايلك طولي للخريطة أو عرضي للفيديو. <strong>مشبك التكييف</strong> بيحافظ على التابلوه نظيف — مفيش كبّاسات ولا لاصق. التصميم الصغير مش بيمنع هوا التكييف بشكل ملحوظ.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">درجة المغناطيس</td><td class="p-2 border font-bold">N52 نيوديميوم</td></tr>
-        <tr><td class="p-2 border">MagSafe</td><td class="p-2 border">تثبيت مباشر (ايفون 15/16/17)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الدوران</td><td class="p-2 border">360° مفصل كروي</td></tr>
-        <tr><td class="p-2 border">نوع التثبيت</td><td class="p-2 border">مشبك فتحة التكييف</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">توافق الكفر</td><td class="p-2 border">لحد 3 مم سُمك</td></tr>
-        <tr><td class="p-2 border">القطعة المعدنية</td><td class="p-2 border">مشمولة (لغير MagSafe)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

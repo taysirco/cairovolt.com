@@ -60,21 +60,6 @@ export const joyroom_60w_car_charger = {
         <p class="text-gray-700">Standard <strong>12V cigarette lighter socket</strong> compatibility means it works with any car, SUV, or truck — from a Hyundai Elantra to a Toyota Land Cruiser. The compact design doesn't block other controls. LED indicator shows charging status at a glance, even in the dark Ring Road tunnels.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Total Power</td><td class="p-2 border font-bold">60W (30W + 30W)</td></tr>
-        <tr><td class="p-2 border">Cables</td><td class="p-2 border">Built-in Retractable USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Cable Length</td><td class="p-2 border">1 meter each (retractable)</td></tr>
-        <tr><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">30W MAX per port</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">30W Super Fast</td></tr>
-        <tr><td class="p-2 border">Car Socket</td><td class="p-2 border">12V Universal</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Indicator</td><td class="p-2 border">LED Power Status</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -134,21 +119,6 @@ export const joyroom_60w_car_charger = {
         <p class="text-gray-700">مقبس <strong>12 فولت قياسي</strong> يعني بيشتغل مع أي سيارة أو SUV أو شاحنة — من هيونداي إلنترا لتويوتا لاند كروزر. التصميم الصغير مش بيعطّل باقي الأزرار. مؤشر LED بيورّيك حالة الشحن بنظرة، حتى في أنفاق الدائري المظلمة.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">القوة الإجمالية</td><td class="p-2 border font-bold">60 واط (30+30 واط)</td></tr>
-        <tr><td class="p-2 border">الكابلات</td><td class="p-2 border">مدمجة قابلة للسحب USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">طول الكابل</td><td class="p-2 border">1 متر لكل كابل (قابل للسحب)</td></tr>
-        <tr><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">30 واط MAX لكل منفذ</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">30 واط سوبر فاست</td></tr>
-        <tr><td class="p-2 border">مقبس السيارة</td><td class="p-2 border">12 فولت عالمي</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">المؤشر</td><td class="p-2 border">مؤشر LED لحالة الشحن</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

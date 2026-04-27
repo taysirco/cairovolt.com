@@ -78,21 +78,6 @@ export const anker_powercore_20000 = {
         <p class="text-gray-700">At <strong>72Wh</strong>, the PowerCore 20000 is well under the TSA/IATA 100Wh limit for carry-on luggage. Weighing only <strong>356g</strong>, it's lighter than a can of soda. The <strong>MultiProtect 10-layer safety</strong> system protects against overcharging, overheating, and short circuits. And with a <strong>24-month warranty</strong> (double industry standard), CairoVolt guarantees every unit is 100% original.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">20,000mAh (72Wh)</td></tr>
-        <tr><td class="p-2 border">Output Ports</td><td class="p-2 border">2× USB-A (2.4A each)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">Micro USB (2A)</td></tr>
-        <tr><td class="p-2 border">Charging Tech</td><td class="p-2 border">PowerIQ + VoltageBoost</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect 10-Layer</td></tr>
-        <tr><td class="p-2 border">Weight</td><td class="p-2 border">356g</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 72Wh (TSA limit: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -176,21 +161,6 @@ export const anker_powercore_20000 = {
         <p class="text-gray-700">بسعة <strong>72 واط/ساعة</strong>، PowerCore 20000 أقل بكثير من حد TSA/IATA (100 واط/ساعة) لحقيبة اليد. بوزن <strong>356 جرام فقط</strong>، أخف من علبة كولا. نظام حماية <strong>MultiProtect بـ 10 طبقات</strong> يحمي من الشحن الزائد والسخونة والقصر. ومع <strong>ضمان 24 شهر</strong> (ضعف المعيار)، CairoVolt تضمن إن كل قطعة أصلية 100%.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">20,000 مللي أمبير (72 واط/ساعة)</td></tr>
-        <tr><td class="p-2 border">منافذ الإخراج</td><td class="p-2 border">2× USB-A (2.4 أمبير لكل منفذ)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الإدخال</td><td class="p-2 border">Micro USB (2 أمبير)</td></tr>
-        <tr><td class="p-2 border">تقنية الشحن</td><td class="p-2 border">PowerIQ + VoltageBoost</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect 10 طبقات</td></tr>
-        <tr><td class="p-2 border">الوزن</td><td class="p-2 border">356 جرام</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 72 واط/ساعة (حد TSA: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">

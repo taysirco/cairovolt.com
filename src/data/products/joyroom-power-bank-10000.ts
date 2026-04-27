@@ -61,21 +61,6 @@ export const joyroom_power_bank_10000 = {
         <p class="text-gray-700">No more guessing with 4 LED dots. The <strong>digital percentage display</strong> shows you exactly how much charge remains — whether it's 73% or 12%, you know precisely. This feature is usually found on power banks costing 2-3x more. Pair with a <a href="/joyroom/wall-chargers" class="text-blue-600 hover:underline">Joyroom fast charger</a> to recharge in 3-4 hours.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">10,000mAh (37Wh)</td></tr>
-        <tr><td class="p-2 border">Fast Charging</td><td class="p-2 border">Quick Charge 3.0 (18W)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Output Ports</td><td class="p-2 border">2× USB-A</td></tr>
-        <tr><td class="p-2 border">Display</td><td class="p-2 border">LED Digital (Exact %)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Thickness</td><td class="p-2 border">14mm (Ultra-Slim)</td></tr>
-        <tr><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 37Wh (TSA limit: 100Wh)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Authenticity</td><td class="p-2 border">Golden Code Verification</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -151,21 +136,6 @@ export const joyroom_power_bank_10000 = {
         <p class="text-gray-700">مفيش تخمين تاني مع 4 نقاط LED. <strong>الشاشة الرقمية</strong> بتعرضلك بالظبط كام شحن متبقي — سواء 73% أو 12%، بتعرف بدقة. الميزة دي عادة بتكون في باور بانك سعره 2-3× أكتر. استخدمه مع <a href="/joyroom/wall-chargers" class="text-blue-600 hover:underline">شاحن جوي روم سريع</a> لإعادة شحنه في 3-4 ساعات.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">10,000 مللي أمبير (37 واط/ساعة)</td></tr>
-        <tr><td class="p-2 border">الشحن السريع</td><td class="p-2 border">Quick Charge 3.0 (18 واط)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">منافذ الإخراج</td><td class="p-2 border">2× USB-A</td></tr>
-        <tr><td class="p-2 border">الشاشة</td><td class="p-2 border">LED رقمية (نسبة دقيقة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">السمك</td><td class="p-2 border">14مم (نحيف جداً)</td></tr>
-        <tr><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 37 واط/ساعة (حد TSA: 100Wh)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأصالة</td><td class="p-2 border">كود ذهبي Golden Code</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">

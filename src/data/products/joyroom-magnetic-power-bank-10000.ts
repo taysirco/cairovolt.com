@@ -62,21 +62,6 @@ export const joyroom_magnetic_power_bank_10000 = {
         <p class="text-gray-700">The foldable <strong>built-in kickstand</strong> props your phone up in landscape mode. Watch Netflix, take FaceTime calls, or follow a recipe — all while charging wirelessly. Works on desks, airplane tray tables, and bedside tables. No separate stand needed.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">10000mAh</td></tr>
-        <tr><td class="p-2 border">Wireless Output</td><td class="p-2 border">15W MagSafe</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Wired Output</td><td class="p-2 border">20W USB-C PD</td></tr>
-        <tr><td class="p-2 border">Magnets</td><td class="p-2 border">N52 Neodymium</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">iPhone 17 Charges</td><td class="p-2 border">~2 full charges</td></tr>
-        <tr><td class="p-2 border">Kickstand</td><td class="p-2 border">Built-in Foldable</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Simultaneous</td><td class="p-2 border">2 devices (wireless + wired)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -135,21 +120,6 @@ export const joyroom_magnetic_power_bank_10000 = {
         <p class="text-gray-700"><strong>الحامل المدمج القابل للطي</strong> بيرفع موبايلك في وضع عرضي. شاهد Netflix، خد مكالمات FaceTime، أو اتبع وصفة — وانت بتشحن لاسلكي. بيشتغل على المكاتب وطاولات الطيارة والكومودينو. مفيش حاجة لحامل منفصل.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">10000 مللي أمبير</td></tr>
-        <tr><td class="p-2 border">المخرج اللاسلكي</td><td class="p-2 border">15 واط MagSafe</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">المخرج السلكي</td><td class="p-2 border">20 واط USB-C PD</td></tr>
-        <tr><td class="p-2 border">المغناطيسات</td><td class="p-2 border">N52 نيوديميوم</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">شحنات ايفون 17</td><td class="p-2 border">~مرتين كاملتين</td></tr>
-        <tr><td class="p-2 border">الحامل</td><td class="p-2 border">مدمج قابل للطي</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">شحن متزامن</td><td class="p-2 border">جهازين (لاسلكي + سلكي)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

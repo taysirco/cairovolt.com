@@ -69,21 +69,6 @@ export const anker_nano_45w = {
         <p class="text-gray-700">At 45W, this charger exceeds the needs of every current phone (iPhone 17 max: 30W, Samsung S26 max: 45W) and handles MacBook Air charging effortlessly. As devices get more power-hungry, 45W keeps you covered. <strong>24-month warranty</strong> from Anker means you're protected long-term. Ideal for <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">replacing multiple chargers</a> with one versatile brick.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border font-bold">45W USB-C PD 3.0 + PPS</td></tr>
-        <tr><td class="p-2 border">Technology</td><td class="p-2 border">GaN III (Gallium Nitride)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">MacBook Air</td><td class="p-2 border">Full native charging speed</td></tr>
-        <tr><td class="p-2 border">iPhone 17</td><td class="p-2 border">Max 30W fast charging</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Samsung S26</td><td class="p-2 border">45W Super Fast Charging 2.0</td></tr>
-        <tr><td class="p-2 border">Size</td><td class="p-2 border">60% smaller than traditional 45W</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Plug</td><td class="p-2 border">UK-Style (Egyptian compatible)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">What It Charges at Full Speed:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -153,21 +138,6 @@ export const anker_nano_45w = {
         <p class="text-gray-700">بـ 45 واط، الشاحن ده بيتجاوز احتياجات كل الهواتف الحالية (ايفون 17: 30 واط، سامسونج S26: 45 واط) وبيتعامل مع شحن ماك بوك اير بسهولة. كل ما الأجهزة تحتاج طاقة أكثر، 45 واط هتفضل مغطيك. <strong>ضمان 24 شهر</strong> من انكر يعني حماية طويلة المدى. مثالي <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">لاستبدال شواحن متعددة</a> بشاحن واحد متعدد الاستخدامات.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border font-bold">45 واط USB-C PD 3.0 + PPS</td></tr>
-        <tr><td class="p-2 border">التقنية</td><td class="p-2 border">GaN III (Gallium Nitride)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">ماك بوك اير</td><td class="p-2 border">شحن بالسرعة الأصلية الكاملة</td></tr>
-        <tr><td class="p-2 border">ايفون 17</td><td class="p-2 border">أقصى شحن 30 واط</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">سامسونج S26</td><td class="p-2 border">45 واط Super Fast Charging 2.0</td></tr>
-        <tr><td class="p-2 border">الحجم</td><td class="p-2 border">أصغر 60% من التقليدي</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">القابس</td><td class="p-2 border">UK-Style (متوافق مع مصر)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">إيه اللي بيشحنه بالسرعة الكاملة:</h3>
     <ul class="list-disc list-inside text-gray-700">

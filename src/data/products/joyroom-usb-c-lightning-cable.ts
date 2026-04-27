@@ -63,20 +63,6 @@ export const joyroom_usb_c_lightning_cable = {
         <p class="text-gray-700">Not just a charging cable. <strong>480Mbps USB 2.0 data transfer</strong> lets you sync photos, music, and backups with your MacBook or PC. One cable for both charging and data — no need to carry two.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Charging Speed</td><td class="p-2 border font-bold">20W PD Fast Charging</td></tr>
-        <tr><td class="p-2 border">Data Transfer</td><td class="p-2 border">480Mbps (USB 2.0)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Connector</td><td class="p-2 border">USB-C to Lightning</td></tr>
-        <tr><td class="p-2 border">Material</td><td class="p-2 border">Nylon Braided + Aluminum Connectors</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Bend Lifespan</td><td class="p-2 border">10,000+ bends</td></tr>
-        <tr><td class="p-2 border">Length</td><td class="p-2 border">1 meter</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -144,20 +130,6 @@ export const joyroom_usb_c_lightning_cable = {
         <p class="text-gray-700">مش بس كابل شحن. <strong>480Mbps نقل بيانات USB 2.0</strong> بيخلّيك تزامن صور ومزيكا وباك أب مع الماك بوك أو الكمبيوتر. كابل واحد للشحن والبيانات — مش محتاج تشيل اتنين.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">سرعة الشحن</td><td class="p-2 border font-bold">شحن سريع 20 واط PD</td></tr>
-        <tr><td class="p-2 border">نقل البيانات</td><td class="p-2 border">480Mbps (USB 2.0)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الموصل</td><td class="p-2 border">USB-C to Lightning</td></tr>
-        <tr><td class="p-2 border">الخامة</td><td class="p-2 border">نايلون مضفر + موصلات ألومنيوم</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">عمر الانحناء</td><td class="p-2 border">10,000+ انحناء</td></tr>
-        <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

@@ -67,24 +67,6 @@ export const anker_zolo_a110e_20000 = {
         <p class="text-gray-700">In Egypt, power outages aren't hypothetical — they're seasonal. The A110E is designed as your <strong>power insurance</strong>: keep your router running, your phone alive, and your panic at zero. <strong>ActiveShield 3.0</strong> monitors temperature 3 million times daily — critical during Cairo's 42°C summer when batteries are under maximum thermal stress. The digital display shows exact remaining capacity, so you can ration power intelligently.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">20,000mAh (74Wh)</td></tr>
-        <tr><td class="p-2 border">Max Output</td><td class="p-2 border">22.5W (USB-C / Built-in Cable)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">20W USB-C (~4.5 hours full charge)</td></tr>
-        <tr><td class="p-2 border">Ports</td><td class="p-2 border">Built-in USB-C + USB-C Port + USB-A Port</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Display</td><td class="p-2 border">Digital LED (exact %)</td></tr>
-        <tr><td class="p-2 border">Safety</td><td class="p-2 border">ActiveShield 3.0 (3M temp checks/day)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Dimensions</td><td class="p-2 border">140.7 × 71.7 × 27.7 mm</td></tr>
-        <tr><td class="p-2 border">Weight</td><td class="p-2 border">392g (0.86 lbs)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 74Wh (TSA limit: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Special Features</td><td class="p-2 border">Trickle-Charge, Pass-Through, 3-Device Charging</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -157,24 +139,6 @@ export const anker_zolo_a110e_20000 = {
         <p class="text-gray-700">في مصر، انقطاع الكهربا مش نظري — ده موسمي. الـ A110E مصمم كـ<strong>تأمين طاقة</strong>: خلّي الراوتر شغال، موبايلك حي، وقلقك صفر. <strong>ActiveShield 3.0</strong> بيراقب الحرارة 3 مليون مرة يومياً — حرج في صيف القاهرة 42°C لما البطاريات تحت ضغط حراري أقصى. الشاشة الرقمية بتعرض السعة المتبقية، عشان تقدر تقسم الطاقة بذكاء.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">20,000 مللي أمبير (74 واط/ساعة)</td></tr>
-        <tr><td class="p-2 border">أقصى إخراج</td><td class="p-2 border">22.5 واط (USB-C / الكابل المدمج)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الإدخال</td><td class="p-2 border">20 واط USB-C (~4.5 ساعة شحن كامل)</td></tr>
-        <tr><td class="p-2 border">المنافذ</td><td class="p-2 border">كابل USB-C مدمج + منفذ USB-C + منفذ USB-A</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشاشة</td><td class="p-2 border">LED رقمية (نسبة مئوية)</td></tr>
-        <tr><td class="p-2 border">الأمان</td><td class="p-2 border">ActiveShield 3.0 (3 مليون فحص/يوم)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأبعاد</td><td class="p-2 border">140.7 × 71.7 × 27.7 مم</td></tr>
-        <tr><td class="p-2 border">الوزن</td><td class="p-2 border">392 جرام</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 74 واط/ساعة (حد TSA: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الشهادات</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">ميزات خاصة</td><td class="p-2 border">شحن دقيق، شحن عابر، شحن 3 أجهزة</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">

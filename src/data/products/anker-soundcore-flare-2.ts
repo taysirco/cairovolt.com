@@ -66,20 +66,6 @@ export const anker_soundcore_flare_2 = {
         <p class="text-gray-700">Need more coverage? <strong>PartyCast technology</strong> lets you sync over 100 compatible Soundcore speakers together for synchronized sound and light. Perfect for large events, weddings, or outdoor parties where a single speaker won't cut it.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Sound Output</td><td class="p-2 border font-bold">20W (10W × 2 Dual Drivers)</td></tr>
-        <tr><td class="p-2 border">Sound Technology</td><td class="p-2 border">BassUp™ + 360° Audio</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX7 (Fully Submersible)</td></tr>
-        <tr><td class="p-2 border">LED Light Show</td><td class="p-2 border">Dual Rings, Beat-Synced</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Bluetooth</td><td class="p-2 border">Bluetooth 5.0</td></tr>
-        <tr><td class="p-2 border">Multi-Speaker Sync</td><td class="p-2 border">PartyCast (100+ Speakers)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">App Control</td><td class="p-2 border">Soundcore App (Custom EQ)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatibility Guide:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -148,20 +134,6 @@ export const anker_soundcore_flare_2 = {
         <p class="text-gray-700">محتاج تغطية أكبر؟ تقنية <strong>PartyCast</strong> بتخليك تربط أكثر من 100 سماعة Soundcore متوافقة مع بعض لصوت وإضاءة متزامنين. مثالية للمناسبات الكبيرة، الأفراح، أو الحفلات الخارجية لما سماعة واحدة متكفيش.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">قوة الصوت</td><td class="p-2 border font-bold">20 وات (10×2 محركين مزدوجين)</td></tr>
-        <tr><td class="p-2 border">تقنية الصوت</td><td class="p-2 border">BassUp™ + صوت محيطي 360°</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX7 (غمر كامل)</td></tr>
-        <tr><td class="p-2 border">الإضاءة</td><td class="p-2 border">حلقات LED مزدوجة متزامنة مع الإيقاع</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">البلوتوث</td><td class="p-2 border">Bluetooth 5.0</td></tr>
-        <tr><td class="p-2 border">ربط السماعات</td><td class="p-2 border">PartyCast (أكثر من 100 سماعة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">التطبيق</td><td class="p-2 border">Soundcore App (تخصيص EQ)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مثالي مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">

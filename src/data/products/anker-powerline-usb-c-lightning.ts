@@ -68,20 +68,6 @@ export const anker_powerline_usb_c_lightning = {
         <p class="text-gray-700">This cable supports <strong>30W Power Delivery</strong>, unlocking the maximum charging speed for iPhone 14/13/12/11 when paired with a 20W+ <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">USB-C charger</a>. That means 0% to 50% in about 30 minutes. Also works perfectly with Apple CarPlay, iPad, and AirPods with Lightning.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Certification</td><td class="p-2 border font-bold">Apple MFi Certified</td></tr>
-        <tr><td class="p-2 border">Max Power</td><td class="p-2 border">30W Power Delivery</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Durability</td><td class="p-2 border">35,000+ bend lifespan</td></tr>
-        <tr><td class="p-2 border">Length</td><td class="p-2 border">1m (3ft) / 2m (6ft)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Connectors</td><td class="p-2 border">USB-C to Lightning</td></tr>
-        <tr><td class="p-2 border">CarPlay</td><td class="p-2 border">✅ Fully compatible</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -151,20 +137,6 @@ export const anker_powerline_usb_c_lightning = {
         <p class="text-gray-700">الكابل ده بيدعم <strong>30 واط Power Delivery</strong>، بيفتح أقصى سرعة شحن لايفون 14/13/12/11 مع شاحن 20 واط+. يعني 0% لـ 50% في حوالي 30 دقيقة. كمان بيشتغل بشكل مثالي مع Apple CarPlay وايباد وايربودز.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">الشهادة</td><td class="p-2 border font-bold">Apple MFi معتمد</td></tr>
-        <tr><td class="p-2 border">أقصى قوة</td><td class="p-2 border">30 واط Power Delivery</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">المتانة</td><td class="p-2 border">35,000+ ثني</td></tr>
-        <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر / 2 متر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الموصلات</td><td class="p-2 border">USB-C إلى Lightning</td></tr>
-        <tr><td class="p-2 border">CarPlay</td><td class="p-2 border">✅ متوافق بالكامل</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

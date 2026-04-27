@@ -68,20 +68,6 @@ export const anker_powerport_25w = {
         <p class="text-gray-700">At <strong>4.5cm</strong>, the Anker 25W is physically smaller than Samsung's own charger. <strong>ActiveShield 2.0</strong> checks temperature 3 million times daily — far more sophisticated than basic thermal protection. And Anker's <strong>18-month warranty</strong> beats Samsung's 12-month standard. Better charger, better warranty, better price.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border font-bold">25W USB-C PD 3.0 + PPS</td></tr>
-        <tr><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">0-50% in 26 minutes (Super Fast)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">0-50% in 28 minutes</td></tr>
-        <tr><td class="p-2 border">Size</td><td class="p-2 border">4.5cm (Compact)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">ActiveShield 2.0 (3M checks/day)</td></tr>
-        <tr><td class="p-2 border">Plug Type</td><td class="p-2 border">UK-Style (Egyptian compatible)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (vs Samsung's 12)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Optimized For:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -162,20 +148,6 @@ export const anker_powerport_25w = {
         <p class="text-gray-700">بحجم <strong>4.5 سم</strong>، انكر 25 واط أصغر فعلياً من شاحن سامسونج الأصلي. <strong>ActiveShield 2.0</strong> بيفحص الحرارة 3 مليون مرة يومياً — أكثر تطوراً من الحماية الحرارية الأساسية. و<strong>ضمان 18 شهر</strong> من انكر بيتغلب على 12 شهر القياسي من سامسونج. شاحن أفضل، ضمان أفضل، سعر أفضل.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border font-bold">25 واط USB-C PD 3.0 + PPS</td></tr>
-        <tr><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">0-50% في 26 دقيقة (Super Fast)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">0-50% في 28 دقيقة</td></tr>
-        <tr><td class="p-2 border">الحجم</td><td class="p-2 border">4.5 سم (صغير)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">ActiveShield 2.0 (3 مليون فحص/يوم)</td></tr>
-        <tr><td class="p-2 border">القابس</td><td class="p-2 border">UK-Style (متوافق مع مصر)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (ضد 12 شهر من سامسونج)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">محسّن لـ:</h3>
     <ul class="list-disc list-inside text-gray-700">

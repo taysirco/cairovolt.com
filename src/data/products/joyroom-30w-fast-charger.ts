@@ -62,21 +62,6 @@ export const joyroom_30w_fast_charger = {
         <p class="text-gray-700">Not just MultiProtect — this charger carries <strong>CE, FCC, and RoHS certifications</strong>. That means it's been tested to international safety standards. Over-voltage, over-current, over-temperature, and short-circuit protection are all verified by independent labs. Safe for overnight charging.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Output Power</td><td class="p-2 border font-bold">30W (iPhone 17 MAX)</td></tr>
-        <tr><td class="p-2 border">Protocols</td><td class="p-2 border">PD 3.0 + QC 3.0 (Dual)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">0→50% in 20 min (MAX)</td></tr>
-        <tr><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">Super Fast Charging</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Certifications</td><td class="p-2 border">CE / FCC / RoHS</td></tr>
-        <tr><td class="p-2 border">Detection</td><td class="p-2 border">Intelligent Protocol Auto-Switch</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">AC 100-240V (Universal)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">36 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -137,21 +122,6 @@ export const joyroom_30w_fast_charger = {
         <p class="text-gray-700">مش بس حماية متعددة — الشاحن ده عليه <strong>شهادات CE وFCC وRoHS</strong>. يعني اتفحص بمعايير أمان دولية. حماية الفولت والتيار والحرارة والقصر كلهم متحقق منهم بمعامل مستقلة. آمن للشحن طول الليل.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">قوة الخرج</td><td class="p-2 border font-bold">30 واط (ايفون 17 MAX)</td></tr>
-        <tr><td class="p-2 border">البروتوكولات</td><td class="p-2 border">PD 3.0 + QC 3.0 (مزدوج)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">0→50% في 20 دقيقة (MAX)</td></tr>
-        <tr><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">سوبر فاست</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشهادات</td><td class="p-2 border">CE / FCC / RoHS</td></tr>
-        <tr><td class="p-2 border">الكشف</td><td class="p-2 border">كشف ذكي للبروتوكول أوتوماتيك</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">AC 100-240V (عالمي)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">36 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

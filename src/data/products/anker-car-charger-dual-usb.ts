@@ -68,20 +68,6 @@ export const anker_car_charger_dual_usb = {
         <p class="text-gray-700">Heat-resistant design handles Egypt's summer temperatures. <strong>MultiProtect safety</strong> protects your devices from surges and your car's electrical system from interference. Pair with <a href="/anker/cables" class="text-blue-600 hover:underline">Anker cables</a> for maximum speed. Anker backs it with an <strong>18-month warranty</strong> — longer than most car accessories.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Total Output</td><td class="p-2 border font-bold">24W (12W × 2 ports)</td></tr>
-        <tr><td class="p-2 border">Ports</td><td class="p-2 border">2× USB-A</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Technology</td><td class="p-2 border">PowerIQ Smart Charging</td></tr>
-        <tr><td class="p-2 border">Input Voltage</td><td class="p-2 border">12V / 24V (All cars)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">LED Indicator</td><td class="p-2 border">Blue (Low-Glare)</td></tr>
-        <tr><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect System</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -150,20 +136,6 @@ export const anker_car_charger_dual_usb = {
         <p class="text-gray-700">تصميم مقاوم للحرارة يتحمل حر مصر في الصيف. <strong>حماية MultiProtect</strong> بتحمي أجهزتك من التذبذبات والنظام الكهربي للسيارة من التداخل. استخدمه مع <a href="/anker/cables" class="text-blue-600 hover:underline">كابلات انكر</a> لأقصى سرعة. انكر بتدعمه بـ<strong>ضمان 18 شهر</strong> — أطول من معظم إكسسوارات السيارة.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">الإخراج الإجمالي</td><td class="p-2 border font-bold">24 واط (12 واط × 2 منفذ)</td></tr>
-        <tr><td class="p-2 border">المنافذ</td><td class="p-2 border">2× USB-A</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">التقنية</td><td class="p-2 border">PowerIQ شحن ذكي</td></tr>
-        <tr><td class="p-2 border">جهد الدخول</td><td class="p-2 border">12فولت / 24فولت (كل السيارات)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">مؤشر LED</td><td class="p-2 border">أزرق (هادي)</td></tr>
-        <tr><td class="p-2 border">الأمان</td><td class="p-2 border">نظام MultiProtect</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

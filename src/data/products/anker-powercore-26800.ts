@@ -70,21 +70,6 @@ export const anker_powercore_26800 = {
         <p class="text-gray-700">The biggest complaint about high-capacity power banks? Recharging time. Anker solved this with <strong>dual Micro-USB input ports</strong>. Use 2 cables + 2 wall chargers simultaneously and the 26800 recharges fully in just <strong>6 hours</strong> instead of 20. Pair with <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall chargers</a> for optimal speed.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">26,800mAh (96.48Wh)</td></tr>
-        <tr><td class="p-2 border">Output Ports</td><td class="p-2 border">3× USB-A (PowerIQ 2.0)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Input Ports</td><td class="p-2 border">2× Micro-USB (dual-input)</td></tr>
-        <tr><td class="p-2 border">Recharge Time</td><td class="p-2 border">~6 hours (dual-input) / ~13 hours (single)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect 10-Layer</td></tr>
-        <tr><td class="p-2 border">Weight</td><td class="p-2 border">~500g</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 96.48Wh (Max legal: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">How Many Charges Per Device:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -161,21 +146,6 @@ export const anker_powercore_26800 = {
         <p class="text-gray-700">أكبر شكوى من باور بانك السعة الكبيرة؟ وقت إعادة الشحن. انكر حلّت المشكلة بـ<strong>مدخلين Micro-USB</strong>. استخدم كابلين + شاحنين في نفس الوقت والـ 26800 يشحن بالكامل في <strong>6 ساعات فقط</strong> بدل 20. استخدمه مع <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شواحن انكر</a> لأقصى سرعة.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">26,800 مللي أمبير (96.48 واط/ساعة)</td></tr>
-        <tr><td class="p-2 border">منافذ الإخراج</td><td class="p-2 border">3× USB-A (PowerIQ 2.0)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">منافذ الإدخال</td><td class="p-2 border">2× Micro-USB (شحن مزدوج)</td></tr>
-        <tr><td class="p-2 border">وقت إعادة الشحن</td><td class="p-2 border">~6 ساعات (مزدوج) / ~13 ساعة (مفرد)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect 10 طبقات</td></tr>
-        <tr><td class="p-2 border">الوزن</td><td class="p-2 border">~500 جرام</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 96.48 واط/ساعة (الحد: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">كام شحنة لكل جهاز:</h3>
     <ul class="list-disc list-inside text-gray-700">

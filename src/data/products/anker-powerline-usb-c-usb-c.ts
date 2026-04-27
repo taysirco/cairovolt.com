@@ -69,20 +69,6 @@ export const anker_powerline_usb_c_usb_c = {
         <p class="text-gray-700">This cable unlocks the full potential of your <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker charger</a>. Pair with the <strong>20W</strong> for iPhone, <strong>25W PPS</strong> for Samsung, or <strong>45W GaN</strong> for laptops. The 60W rating ensures you'll never be the bottleneck — the cable always delivers what the charger puts out.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Max Power</td><td class="p-2 border font-bold">60W Power Delivery</td></tr>
-        <tr><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">Max 30W</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Samsung S26 Speed</td><td class="p-2 border">Up to 45W Super Fast</td></tr>
-        <tr><td class="p-2 border">Durability</td><td class="p-2 border">35,000+ bend lifespan</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Data Transfer</td><td class="p-2 border">USB 2.0 (480Mbps)</td></tr>
-        <tr><td class="p-2 border">Length</td><td class="p-2 border">1m (3ft) / 2m (6ft)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Works With Everything USB-C:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -159,20 +145,6 @@ export const anker_powerline_usb_c_usb_c = {
         <p class="text-gray-700">الكابل ده بيفتح الإمكانية الكاملة لـ<a href="/anker/wall-chargers" class="text-blue-600 hover:underline">شاحن انكر</a>. استخدمه مع <strong>20 واط</strong> للايفون، <strong>25 واط PPS</strong> لسامسونج، أو <strong>45 واط GaN</strong> للابتوب. تصنيف 60 واط يضمن إن الكابل مش هيكون العائق أبداً — دايماً بيوصّل اللي الشاحن بيطلعه.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">أقصى قوة</td><td class="p-2 border font-bold">60 واط Power Delivery</td></tr>
-        <tr><td class="p-2 border">سرعة ايفون 17</td><td class="p-2 border">أقصى 30 واط</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">سرعة سامسونج S26</td><td class="p-2 border">حتى 45 واط Super Fast</td></tr>
-        <tr><td class="p-2 border">المتانة</td><td class="p-2 border">35,000+ ثني</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">نقل البيانات</td><td class="p-2 border">USB 2.0 (480ميجابت/ثانية)</td></tr>
-        <tr><td class="p-2 border">الطول</td><td class="p-2 border">1 متر / 2 متر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">بيشتغل مع كل حاجة USB-C:</h3>
     <ul class="list-disc list-inside text-gray-700">

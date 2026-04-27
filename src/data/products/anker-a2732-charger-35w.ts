@@ -39,20 +39,6 @@ export const anker_a2732_charger_35w = {
     <section><h2 class="text-2xl font-bold mb-2">Upgrade from Basic USB-A Car Chargers</h2>
     <p class="text-gray-700">If you're still using a basic dual USB-A car charger, the A2732 is the logical upgrade. You get the USB-C PD port your new iPhone/Samsung needs for fast charging, <strong>plus</strong> the USB-A port for everything else. Compatible with all 12V and 24V vehicles — sedans, SUVs, trucks, and microbuses. Pair with an <a href="/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum speed.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">Product Type</td><td class="p-2 border font-bold">Car Charger</td></tr>
-    <tr><td class="p-2 border">Total Output</td><td class="p-2 border font-bold">35W</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">USB-C Port</td><td class="p-2 border">20W PD (5V⎓3A / 9V⎓2.22A)</td></tr>
-    <tr><td class="p-2 border">USB-A Port</td><td class="p-2 border">15W PowerIQ 2.0 (5V⎓2.4A / 9V⎓1.67A / 12V⎓1.25A)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Input</td><td class="p-2 border">12V / 24V DC (All Cars)</td></tr>
-    <tr><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect (Surge / Temperature / Short-Circuit)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">LED Indicator</td><td class="p-2 border">Blue Ring (Low-Glare Night Driving)</td></tr>
-    <tr><td class="p-2 border">Weight</td><td class="p-2 border">~32g</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>iPhone 17/16/15 series:</strong> 20W PD fast charging via USB-C (0→50% in ~30 min).</li>
@@ -105,20 +91,6 @@ export const anker_a2732_charger_35w = {
     <section><h2 class="text-2xl font-bold mb-2">ترقية من شواحن السيارة العادية</h2>
     <p class="text-gray-700">لو لسه بتستخدم شاحن سيارة USB-A عادي، الـ A2732 هو الترقية المنطقية. بتاخد منفذ USB-C PD اللي ايفونك وسامسونجك محتاجينه للشحن السريع، <strong>وكمان</strong> منفذ USB-A لكل حاجة تانية. متوافق مع كل سيارات 12V و 24V — ملاكي وSUV وتريلات وميكروباصات.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">نوع المنتج</td><td class="p-2 border font-bold">شاحن سيارة</td></tr>
-    <tr><td class="p-2 border">الإخراج الإجمالي</td><td class="p-2 border font-bold">35 واط</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">منفذ USB-C</td><td class="p-2 border">20 واط PD (5V⎓3A / 9V⎓2.22A)</td></tr>
-    <tr><td class="p-2 border">منفذ USB-A</td><td class="p-2 border">15 واط PowerIQ 2.0 (5V⎓2.4A / 9V⎓1.67A / 12V⎓1.25A)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الدخل</td><td class="p-2 border">12V / 24V DC (كل السيارات)</td></tr>
-    <tr><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect (ارتفاع فولتية / حرارة / قصر دائرة)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">مؤشر LED</td><td class="p-2 border">حلقة زرقاء (هادية للسواقة بالليل)</td></tr>
-    <tr><td class="p-2 border">الوزن</td><td class="p-2 border">~32 جرام</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الشهادات</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>ايفون 17/16/15:</strong> شحن PD سريع 20 واط عبر USB-C (0→50% في ~30 دقيقة).</li>

@@ -40,18 +40,6 @@ export const anker_soundcore_r50i = {
 <section><h2 class="text-2xl font-bold mb-2">In-Ear Passive Isolation</h2>
 <p class="text-gray-700">The silicone ear tips create a physical seal that blocks external noise passively. No battery drain for noise cancellation. On the Metro, the passive seal reduces ambient noise by 20-25dB — enough to enjoy music without maxing out volume. Multiple tip sizes included for the perfect fit.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">Drivers</td><td class="p-2 border font-bold">10mm BassUp™</td></tr>
-<tr><td class="p-2 border">Battery (Earbuds)</td><td class="p-2 border">8 hours</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Battery (Total)</td><td class="p-2 border font-bold">30 hours</td></tr>
-<tr><td class="p-2 border">Fast Charge</td><td class="p-2 border">10min → 1h</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Microphones</td><td class="p-2 border">Dual AI ENC</td></tr>
-<tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.3</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Design</td><td class="p-2 border">In-Ear (silicone tips)</td></tr>
-<tr><td class="p-2 border">Waterproof</td><td class="p-2 border">IPX5</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">EQ</td><td class="p-2 border">22 presets + 8-band custom</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>iPhone 17 Pro Max:</strong> BassUp 10mm tested. AAC codec optimal.</li>
@@ -102,17 +90,6 @@ export const anker_soundcore_r50i = {
 <section><h2 class="text-2xl font-bold mb-2">عزل سلبي داخلي</h2>
 <p class="text-gray-700">أطراف السيليكون بتعمل سيل فيزيائي بيمنع الضوضاء بشكل سلبي. بدون استهلاك بطارية. في المترو، السيل بيقلل الضوضاء 20-25dB — كفاية تستمتع بالموسيقى بدون ما توصل الصوت لأقصاه.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">الدرايفر</td><td class="p-2 border font-bold">10mm BassUp™</td></tr>
-<tr><td class="p-2 border">بطارية السماعة</td><td class="p-2 border">8 ساعات</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">بطارية إجمالي</td><td class="p-2 border font-bold">30 ساعة</td></tr>
-<tr><td class="p-2 border">شحن سريع</td><td class="p-2 border">10 دقايق → ساعة</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">المايك</td><td class="p-2 border">مزدوج AI ENC</td></tr>
-<tr><td class="p-2 border">بلوتوث</td><td class="p-2 border">5.3</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">التصميم</td><td class="p-2 border">داخلي (أطراف سيليكون)</td></tr>
-<tr><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX5</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> BassUp 10mm مختبرة. كودك AAC مثالي.</li>

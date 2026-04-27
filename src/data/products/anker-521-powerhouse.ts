@@ -125,21 +125,6 @@ export const anker_521_powerhouse = {
         <p class="text-gray-700">One station, every device: <strong>AC 220V outlet</strong> for appliances, <strong>USB-C PD</strong> for laptops and phones, <strong>2× USB-A</strong> for accessories, <strong>car socket</strong> for 12V devices, and a <strong>built-in LED warm light</strong> for when the power goes out at night. Charge it via wall outlet, car, or even a <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">solar panel</a> for off-grid use.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">256Wh (LiFePO4)</td></tr>
-        <tr><td class="p-2 border">AC Output</td><td class="p-2 border">200W Pure Sine Wave (220V)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-C PD</td><td class="p-2 border">60W Output</td></tr>
-        <tr><td class="p-2 border">USB-A Ports</td><td class="p-2 border">2× (12W each)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Car Socket</td><td class="p-2 border">12V/10A</td></tr>
-        <tr><td class="p-2 border">Battery Life</td><td class="p-2 border">3,000+ cycles (10+ years)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">LED Light</td><td class="p-2 border">Built-in Warm White</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">5 Years (Full Device)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">What Can It Power? (Real-World Tested):</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -209,21 +194,6 @@ export const anker_521_powerhouse = {
         <p class="text-gray-700">محطة واحدة، كل أجهزتك: <strong>منفذ 220 فولت</strong> للأجهزة الكهربائية، <strong>USB-C PD</strong> للابتوب والموبايلات، <strong>2× USB-A</strong> للإكسسوارات، <strong>مقبس سيارة</strong> لأجهزة 12 فولت، و<strong>إضاءة LED مدمجة</strong> لما الكهربا تقطع بالليل. اشحنها من الحائط، السيارة، أو <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">لوح شمسي</a> للاستخدام خارج الشبكة.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">256 واط/ساعة (LiFePO4)</td></tr>
-        <tr><td class="p-2 border">منفذ AC</td><td class="p-2 border">200 واط Pure Sine Wave (220فولت)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-C PD</td><td class="p-2 border">60 واط</td></tr>
-        <tr><td class="p-2 border">منافذ USB-A</td><td class="p-2 border">2× (12 واط لكل منفذ)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">مقبس السيارة</td><td class="p-2 border">12فولت/10أمبير</td></tr>
-        <tr><td class="p-2 border">عمر البطارية</td><td class="p-2 border">3,000+ دورة (10+ سنوات)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">إضاءة LED</td><td class="p-2 border">مدمجة (إضاءة دافئة)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">5 سنوات (شامل)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">إيه اللي يقدر يشغّله؟ (اختبار حقيقي):</h3>
     <ul class="list-disc list-inside text-gray-700">

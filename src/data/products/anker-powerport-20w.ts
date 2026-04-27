@@ -68,20 +68,6 @@ export const anker_powerport_20w = {
         <p class="text-gray-700">The <strong>MultiProtect 10-layer safety</strong> system monitors temperature, voltage, and current in real-time. Protection against overheating, short circuits, and overcharging means you can safely charge overnight or leave it plugged in during Egypt's voltage fluctuations. Anker backs it with an <strong>18-month warranty</strong> — double the industry standard.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Output</td><td class="p-2 border font-bold">20W USB-C PD 3.0</td></tr>
-        <tr><td class="p-2 border">iPhone 17 Speed</td><td class="p-2 border">0-50% in 30 minutes</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Size</td><td class="p-2 border">4cm (Ultra-Compact)</td></tr>
-        <tr><td class="p-2 border">Plug Type</td><td class="p-2 border">UK-Style (Egyptian compatible)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">MultiProtect 10-Layer</td></tr>
-        <tr><td class="p-2 border">Compatibility</td><td class="p-2 border">All USB-C devices</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border">18 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -164,20 +150,6 @@ export const anker_powerport_20w = {
         <p class="text-gray-700">نظام <strong>MultiProtect بـ 10 طبقات</strong> بيراقب الحرارة والجهد والتيار لحظياً. حماية من السخونية والقصر والشحن الزائد يعني تقدر تشحن بالليل أو تسيبه موصول وقت تقلبات الجهد في مصر. انكر بتدعمه بـ<strong>ضمان 18 شهر</strong> — ضعف المعيار.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">الإخراج</td><td class="p-2 border font-bold">20 وات USB-C PD 3.0</td></tr>
-        <tr><td class="p-2 border">سرعة شحن ايفون 17</td><td class="p-2 border">0-50% في 30 دقيقة</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الحجم</td><td class="p-2 border">4 سم (صغير جداً)</td></tr>
-        <tr><td class="p-2 border">نوع القابس</td><td class="p-2 border">UK-Style (متوافق مع مصر)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">MultiProtect 10 طبقات</td></tr>
-        <tr><td class="p-2 border">التوافق</td><td class="p-2 border">كل أجهزة USB-C</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border">18 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

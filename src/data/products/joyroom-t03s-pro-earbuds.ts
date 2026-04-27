@@ -64,21 +64,6 @@ export const joyroom_t03s_pro_earbuds = {
         <p class="text-gray-700">The T03S Pro uses the same stem design as Apple AirPods for comfortable all-day wear. <strong>Touch controls</strong> on each earbud handle play/pause, skip, volume, and ANC toggle. <strong>iOS pop-up animation</strong> makes pairing with iPhone feel premium. IPX5 water resistance means gym sweat and light rain won't damage them. Pair with a <a href="/joyroom/power-banks" class="text-blue-600 hover:underline">Joyroom power bank</a> for extended travel listening.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">The Numbers:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Noise Cancellation</td><td class="p-2 border font-bold">ANC (up to 25dB reduction)</td></tr>
-        <tr><td class="p-2 border">Total Playtime</td><td class="p-2 border">30 hours (6H + 24H case)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.3 (Low Latency)</td></tr>
-        <tr><td class="p-2 border">Water Resistance</td><td class="p-2 border">IPX5 (Sweat & Splash)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Controls</td><td class="p-2 border">Touch (Play/Pause/Skip/ANC)</td></tr>
-        <tr><td class="p-2 border">Call Quality</td><td class="p-2 border">ENC (Environmental Noise Cancellation)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">iOS Support</td><td class="p-2 border">Pop-up animation on iPhone</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -140,21 +125,6 @@ export const joyroom_t03s_pro_earbuds = {
         <p class="text-gray-700">T03S Pro بتستخدم نفس تصميم العصا زي Apple AirPods لراحة طول اليوم. <strong>تحكم باللمس</strong> على كل سماعة لتشغيل/إيقاف، تخطي، صوت، وتبديل ANC. <strong>إشعار iOS</strong> بيخلّي التوصيل بالايفون يحس فاخر. مقاومة IPX5 يعني عرق الجيم والمطر الخفيف مش هيضرهم. استخدمهم مع <a href="/joyroom/power-banks" class="text-blue-600 hover:underline">باور بانك جوي روم</a> لاستماع ممتد في السفر.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">إلغاء الضوضاء</td><td class="p-2 border font-bold">ANC (تقليل حتى 25 ديسيبل)</td></tr>
-        <tr><td class="p-2 border">وقت التشغيل</td><td class="p-2 border">30 ساعة (6ساعات + 24ساعة علبة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">البلوتوث</td><td class="p-2 border">5.3 (تأخير منخفض)</td></tr>
-        <tr><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX5 (عرق ورذاذ)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">التحكم</td><td class="p-2 border">لمس (تشغيل/إيقاف/تخطي/ANC)</td></tr>
-        <tr><td class="p-2 border">جودة المكالمات</td><td class="p-2 border">ENC (إلغاء ضوضاء بيئي)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">دعم iOS</td><td class="p-2 border">إشعار Pop-up على ايفون</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">

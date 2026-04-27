@@ -45,26 +45,6 @@ export const anker_nano_45w_smart_display_charger = {
     <section><h2 class="text-2xl font-bold mb-2">180° Foldable Plug: Fits Everywhere</h2>
     <p class="text-gray-700">Standard foldable plugs fold to 0° (flat) or 90° (up). The A121D's prongs rotate a full <strong>180°</strong> — meaning you can angle them in any direction. Behind the nightstand? Behind the sofa? Crowded power strip at a Cairo café? This plug adapts. Tested at 1000+ fold cycles with zero loosening. Combined with its compact GaN body smaller than an AirPods case, this is the most travel-friendly 45W charger available.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">Product Type</td><td class="p-2 border font-bold">Wall Charger (GaN Nano + Smart Display)</td></tr>
-    <tr><td class="p-2 border">Model</td><td class="p-2 border font-bold">Anker Nano Charger (45W, 1C, Smart Display) — A121D</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Technology</td><td class="p-2 border font-bold">GaN (Gallium Nitride) + TFT Smart Display + AI</td></tr>
-    <tr><td class="p-2 border">Output</td><td class="p-2 border">45W USB-C PD 3.0</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Voltage Rails</td><td class="p-2 border">5V⎓3A / 9V⎓3A / 15V⎓3A / 20V⎓2.25A</td></tr>
-    <tr><td class="p-2 border">Input</td><td class="p-2 border">100-240V ~ 50/60Hz 1.5A Max (Universal)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Display</td><td class="p-2 border font-bold">TFT Smart Display (wattage + % + device name + AI)</td></tr>
-    <tr><td class="p-2 border">Charging Modes</td><td class="p-2 border">Auto (Fast) / Care (TÜV Overnight Protection)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Plug</td><td class="p-2 border font-bold">180° Foldable Prongs</td></tr>
-    <tr><td class="p-2 border">Safety</td><td class="p-2 border">ActiveShield 5.0 (Real-time Thermal Monitoring)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Dimensions</td><td class="p-2 border">34 × 35.5 × 40 mm (1.34 × 1.40 × 1.57 in)</td></tr>
-    <tr><td class="p-2 border">Weight</td><td class="p-2 border">75g (2.65 oz)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Awards</td><td class="p-2 border">Red Dot Design Award 2026</td></tr>
-    <tr><td class="p-2 border">Certifications</td><td class="p-2 border">TÜV Rheinland / FCC / CE / RoHS</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">Warranty</td><td class="p-2 border font-bold">18 Months</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>iPhone 17/16/15 series:</strong> 45W PD fast charging — 0→50% in ~20 minutes. Display shows device name.</li>
@@ -119,26 +99,6 @@ export const anker_nano_45w_smart_display_charger = {
     <section><h2 class="text-2xl font-bold mb-2">قابس 180°: بيتركب في أي مكان</h2>
     <p class="text-gray-700">القوابس العادية القابلة للطي بتتطوي مسطح بس (0° أو 90°). قابس الـ A121D بيلف <strong>180° كاملة</strong> — يعني تقدر تخليه في أي زاوية. ورا الكومودينو؟ ورا الكنبة؟ مشترك كهرباء مزحوم في كافيه في القاهرة؟ القابس ده بيتأقلم. متجرب 1000+ مرة طي من غير أي تخلخل. مع جسمه الصغير بتقنية GaN — أصغر من علبة ايربودز — ده أكتر شاحن 45 واط مناسب للسفر.</p></section>
 </div>
-
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-    <tr class="bg-gray-100"><td class="p-2 border">نوع المنتج</td><td class="p-2 border font-bold">شاحن حائط (GaN نانو + شاشة ذكية)</td></tr>
-    <tr><td class="p-2 border">الموديل</td><td class="p-2 border font-bold">Anker Nano Charger (45W, 1C, شاشة ذكية) — A121D</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">التقنية</td><td class="p-2 border font-bold">GaN (نيتريد الجاليوم) + شاشة TFT ذكية + AI</td></tr>
-    <tr><td class="p-2 border">الإخراج</td><td class="p-2 border">45 واط USB-C PD 3.0</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">مستويات الفولتية</td><td class="p-2 border">5V⎓3A / 9V⎓3A / 15V⎓3A / 20V⎓2.25A</td></tr>
-    <tr><td class="p-2 border">الدخل</td><td class="p-2 border">100-240V ~ 50/60Hz 1.5A Max (عالمي)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الشاشة</td><td class="p-2 border font-bold">شاشة TFT ذكية (واط + % + اسم الجهاز + AI)</td></tr>
-    <tr><td class="p-2 border">أوضاع الشحن</td><td class="p-2 border">Auto (سريع) / Care (حماية ليلية TÜV)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">القابس</td><td class="p-2 border font-bold">سنون قابلة للطي 180°</td></tr>
-    <tr><td class="p-2 border">الأمان</td><td class="p-2 border">ActiveShield 5.0 (مراقبة حرارية لحظية)</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الأبعاد</td><td class="p-2 border">34 × 35.5 × 40 ملم</td></tr>
-    <tr><td class="p-2 border">الوزن</td><td class="p-2 border">75 جرام</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الجوائز</td><td class="p-2 border">Red Dot Design Award 2026</td></tr>
-    <tr><td class="p-2 border">الشهادات</td><td class="p-2 border">TÜV Rheinland / FCC / CE / RoHS</td></tr>
-    <tr class="bg-gray-100"><td class="p-2 border">الضمان</td><td class="p-2 border font-bold">18 شهر</td></tr>
-</table></div>
-
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر:</h3>
 <ul class="list-disc list-inside text-gray-700">
     <li>📱 <strong>ايفون 17/16/15:</strong> شحن PD سريع 45 واط — من 0 لـ 50% في ~20 دقيقة. الشاشة بتعرض اسم الجهاز.</li>

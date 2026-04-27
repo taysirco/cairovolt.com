@@ -71,26 +71,6 @@ export const anker_prime_a1695_25000 = {
         <p class="text-gray-700">The A1695 supports up to <strong>100W input charging</strong>. With the compatible Anker Prime charger, it refills from 0 to 80% in approximately 30 minutes. Full charge in about 50 minutes. That's faster than most phones recharge. The smart display shows real-time watts (input and output), temperature, and battery percentage — professional-grade telemetry for power-critical professionals.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">25,000mAh (92.7Wh)</td></tr>
-        <tr><td class="p-2 border">Max Combined Output</td><td class="p-2 border font-bold">165W (single-port: 140W)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-C 1 Output</td><td class="p-2 border">Up to 140W PD 3.1</td></tr>
-        <tr><td class="p-2 border">USB-C 2 Output</td><td class="p-2 border">Up to 65W PD</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-A Output</td><td class="p-2 border">22.5W</td></tr>
-        <tr><td class="p-2 border">Input</td><td class="p-2 border">100W USB-C (80% in ~30 min)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Display</td><td class="p-2 border">Smart LED (watts I/O, temp, %)</td></tr>
-        <tr><td class="p-2 border">Cooling</td><td class="p-2 border">Active Fan (auto-engaging)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Weight</td><td class="p-2 border">~680g</td></tr>
-        <tr><td class="p-2 border">Dimensions</td><td class="p-2 border">127.5 × 54.6 × 49.8 mm</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 92.7Wh (TSA limit: 100Wh)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">24 Months</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE / UL / RoHS</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -163,26 +143,6 @@ export const anker_prime_a1695_25000 = {
         <p class="text-gray-700">الـ A1695 بيدعم <strong>100 واط إدخال</strong>. مع شاحن أنكر برايم المتوافق، بيملا من 0 لـ 80% في حوالي 30 دقيقة. شحن كامل في حوالي 50 دقيقة. ده أسرع من أغلب الموبايلات! الشاشة الذكية بتعرض الواط (إدخال وإخراج)، الحرارة، ونسبة البطارية — تقنية احترافية للمحترفين.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">25,000 مللي أمبير (92.7Wh)</td></tr>
-        <tr><td class="p-2 border">أقصى إخراج مشترك</td><td class="p-2 border font-bold">165 واط (منفذ واحد: 140 واط)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-C 1</td><td class="p-2 border">حتى 140 واط PD 3.1</td></tr>
-        <tr><td class="p-2 border">USB-C 2</td><td class="p-2 border">حتى 65 واط PD</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-A</td><td class="p-2 border">22.5 واط</td></tr>
-        <tr><td class="p-2 border">الإدخال</td><td class="p-2 border">100 واط USB-C (80% في ~30 دقيقة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشاشة</td><td class="p-2 border">LED ذكية (واط I/O, حرارة, %)</td></tr>
-        <tr><td class="p-2 border">التبريد</td><td class="p-2 border">مروحة نشطة (أوتوماتيكية)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الوزن</td><td class="p-2 border">~680 جرام</td></tr>
-        <tr><td class="p-2 border">الأبعاد</td><td class="p-2 border">127.5 × 54.6 × 49.8 مم</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 92.7Wh (حد TSA: 100Wh)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">24 شهر</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشهادات</td><td class="p-2 border">FCC / CE / UL / RoHS</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">

@@ -37,15 +37,6 @@ export const anker_a8050_usb_c_cable = {
 <section><h2 class="text-2xl font-bold mb-2">100W PD: One Cable for Everything</h2>
 <p class="text-gray-700">At <strong>100W Power Delivery</strong>, the A8050 charges iPhones at 27W, Samsung at 45W, iPads at 35W, and MacBook Air at full speed. One cable replaces the 5 different cables in your drawer. Plus 480Mbps data transfer for syncing photos and files.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">Max Charging</td><td class="p-2 border font-bold">100W PD 3.0</td></tr>
-<tr><td class="p-2 border">Data Transfer</td><td class="p-2 border">480Mbps (USB 2.0)</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Length</td><td class="p-2 border">1.8m (6ft)</td></tr>
-<tr><td class="p-2 border">Durability</td><td class="p-2 border">35,000+ bend cycles</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Material</td><td class="p-2 border">Braided Nylon + Reinforced Connectors</td></tr>
-<tr><td class="p-2 border">Connector</td><td class="p-2 border">USB-C to USB-C</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>iPhone 17 Pro Max:</strong> 27W fast charge at full PD speed.</li>
@@ -93,14 +84,6 @@ export const anker_a8050_usb_c_cable = {
 <section><h2 class="text-2xl font-bold mb-2">100 واط PD: كابل واحد لكل حاجة</h2>
 <p class="text-gray-700">بـ<strong>100 واط Power Delivery</strong>، الـ A8050 بيشحن ايفون بـ 27 واط، سامسونج بـ 45 واط، ايباد بـ 35 واط، وماك بوك اير بسرعة كاملة. كابل واحد بيعوض الـ 5 كابلات في الدرج.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">أقصى شحن</td><td class="p-2 border font-bold">100 واط PD 3.0</td></tr>
-<tr><td class="p-2 border">نقل بيانات</td><td class="p-2 border">480Mbps</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">الطول</td><td class="p-2 border">1.8 متر</td></tr>
-<tr><td class="p-2 border">المتانة</td><td class="p-2 border">35,000+ دورة ثني</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">المادة</td><td class="p-2 border">نايلون مضفر + موصلات مقواة</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> شحن سريع 27 واط بأقصى سرعة PD.</li>

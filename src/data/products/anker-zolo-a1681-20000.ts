@@ -65,24 +65,6 @@ export const anker_zolo_a1681_20000 = {
         <p class="text-gray-700">Whether it's a load-shedding schedule that kills your productivity, a 5-hour train to Alexandria, or a freelance session at Zamalek Grounds — the A1681 is your productivity insurance. <strong>ActiveShield 3.0</strong> monitors heat (critical at 45W output), and the trickle-charge mode keeps your AirPods safe. At 72Wh, it's flight-approved for all airlines.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Capacity</td><td class="p-2 border font-bold">20,000mAh (72Wh)</td></tr>
-        <tr><td class="p-2 border">Max Output</td><td class="p-2 border font-bold">45W USB-C PD</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">USB-A Output</td><td class="p-2 border">22.5W</td></tr>
-        <tr><td class="p-2 border">Input</td><td class="p-2 border">45W USB-C PD (~2.5h full charge)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Ports</td><td class="p-2 border">USB-C (PD 45W) + USB-A (22.5W)</td></tr>
-        <tr><td class="p-2 border">Display</td><td class="p-2 border">Smart LED (%, watts, status)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Safety</td><td class="p-2 border">ActiveShield 3.0</td></tr>
-        <tr><td class="p-2 border">Dimensions</td><td class="p-2 border">152.4 × 72.2 × 25.4 mm</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Weight</td><td class="p-2 border">~405g</td></tr>
-        <tr><td class="p-2 border">Airline Approved</td><td class="p-2 border">✅ 72Wh (TSA limit: 100Wh)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -155,24 +137,6 @@ export const anker_zolo_a1681_20000 = {
         <p class="text-gray-700">سواء تخفيف أحمال بيقتل إنتاجيتك، أو قطار 5 ساعات للإسكندرية، أو جلسة فريلانس في كافيه الزمالك — الـ A1681 تأمين إنتاجيتك. <strong>ActiveShield 3.0</strong> بيراقب الحرارة (حرج مع 45 واط)، ووضع الشحن الدقيق بيحمي الايربودز. بسعة 72Wh، مسموح بيه في كل خطوط الطيران.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">السعة</td><td class="p-2 border font-bold">20,000 مللي أمبير (72Wh)</td></tr>
-        <tr><td class="p-2 border">أقصى إخراج</td><td class="p-2 border font-bold">45 واط USB-C PD</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">إخراج USB-A</td><td class="p-2 border">22.5 واط</td></tr>
-        <tr><td class="p-2 border">الإدخال</td><td class="p-2 border">45 واط USB-C PD (~2.5 ساعة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">المنافذ</td><td class="p-2 border">USB-C (PD 45W) + USB-A (22.5W)</td></tr>
-        <tr><td class="p-2 border">الشاشة</td><td class="p-2 border">LED ذكية (%, واط, حالة)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الأمان</td><td class="p-2 border">ActiveShield 3.0</td></tr>
-        <tr><td class="p-2 border">الأبعاد</td><td class="p-2 border">152.4 × 72.2 × 25.4 مم</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الوزن</td><td class="p-2 border">~405 جرام</td></tr>
-        <tr><td class="p-2 border">الطائرة</td><td class="p-2 border">✅ 72Wh (حد TSA: 100Wh)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشهادات</td><td class="p-2 border">FCC / CE / RoHS</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">

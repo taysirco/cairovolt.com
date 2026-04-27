@@ -41,21 +41,6 @@ export const anker_soundcore_k20i = {
 <section><h2 class="text-2xl font-bold mb-2">Cairo Metro Tested: AI ENC Calls</h2>
 <p class="text-gray-700">The K20i's <strong>dual-mic AI ENC</strong> doesn't passively block noise — it actively identifies and removes it. We tested calls on Metro Line 3 during rush hour: colleagues on the other end couldn't tell we were in the subway. The AI separates your voice from ambient noise using a deep-learning neural network. Bus, micro-bus, tuk-tuk — the K20i handles all of Cairo's audio chaos.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">Full Specifications:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">Drivers</td><td class="p-2 border font-bold">13mm BassUp™ Dynamic</td></tr>
-<tr><td class="p-2 border">Battery (Earbuds)</td><td class="p-2 border">6 hours</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Battery (Total)</td><td class="p-2 border font-bold">36 hours</td></tr>
-<tr><td class="p-2 border">Fast Charge</td><td class="p-2 border">10min → 2h playback</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Microphones</td><td class="p-2 border">Dual AI ENC</td></tr>
-<tr><td class="p-2 border">Bluetooth</td><td class="p-2 border">5.3</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Design</td><td class="p-2 border">Semi-In-Ear (no tips)</td></tr>
-<tr><td class="p-2 border">Weight</td><td class="p-2 border">3.3g per earbud</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Waterproof</td><td class="p-2 border">IPX5</td></tr>
-<tr><td class="p-2 border">EQ</td><td class="p-2 border">22 presets + custom 8-band</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">Controls</td><td class="p-2 border">Touch (customizable via app)</td></tr>
-<tr><td class="p-2 border">Certifications</td><td class="p-2 border">FCC / CE</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>iPhone 17 Pro Max:</strong> BassUp bass test — rich low-end via Apple Music.</li>
@@ -107,18 +92,6 @@ export const anker_soundcore_k20i = {
 <section><h2 class="text-2xl font-bold mb-2">مختبرة في مترو القاهرة: مكالمات AI ENC</h2>
 <p class="text-gray-700">الـ AI ENC بتاعت الـ K20i مش بتمنع الضوضاء بشكل سلبي — بتكتشفها وبتشيلها. جربنا المكالمات في مترو الخط 3 وقت الزحمة: الزملاء على الطرف التاني مكانوش عارفين إننا في المترو. الذكاء الاصطناعي بيفصل صوتك عن الضوضاء.</p></section>
 </div>
-<div class="technical-specs"><h3 class="text-xl font-bold mb-4">المواصفات:</h3>
-<table class="w-full text-sm border-collapse border border-gray-300">
-<tr class="bg-gray-100"><td class="p-2 border">الدرايفر</td><td class="p-2 border font-bold">13mm BassUp™</td></tr>
-<tr><td class="p-2 border">بطارية السماعة</td><td class="p-2 border">6 ساعات</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">بطارية إجمالي</td><td class="p-2 border font-bold">36 ساعة</td></tr>
-<tr><td class="p-2 border">شحن سريع</td><td class="p-2 border">10 دقايق → ساعتين</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">المايك</td><td class="p-2 border">مزدوج AI ENC</td></tr>
-<tr><td class="p-2 border">بلوتوث</td><td class="p-2 border">5.3</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">التصميم</td><td class="p-2 border">نصف داخلي (بدون أطراف)</td></tr>
-<tr><td class="p-2 border">الوزن</td><td class="p-2 border">3.3 جرام/سماعة</td></tr>
-<tr class="bg-gray-100"><td class="p-2 border">مقاومة الماء</td><td class="p-2 border">IPX5</td></tr>
-</table></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
 <ul class="list-disc list-inside text-gray-700">
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> اختبار باس BassUp — باس غني عبر Apple Music.</li>

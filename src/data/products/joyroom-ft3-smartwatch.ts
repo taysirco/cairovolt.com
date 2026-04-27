@@ -62,21 +62,6 @@ export const joyroom_ft3_smartwatch = {
         <p class="text-gray-700">Get <strong>WhatsApp, Facebook, SMS, and call notifications</strong> directly on your wrist. Full Arabic text support — read messages without pulling out your phone. Reject or mute calls with a tap. The watch doesn't have a speaker for Bluetooth calling, but for notification management, it's excellent.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">Technical Details:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">Water Resistance</td><td class="p-2 border font-bold">IP68</td></tr>
-        <tr><td class="p-2 border">Sports Modes</td><td class="p-2 border">20 modes</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Heart Rate</td><td class="p-2 border">24/7 Continuous Monitoring</td></tr>
-        <tr><td class="p-2 border">Battery Life</td><td class="p-2 border">~7 days (normal use)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Display</td><td class="p-2 border">HD Color Touchscreen</td></tr>
-        <tr><td class="p-2 border">Notifications</td><td class="p-2 border">WhatsApp, SMS, Calls (Arabic)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">Connectivity</td><td class="p-2 border">Bluetooth (iPhone + Android)</td></tr>
-        <tr><td class="p-2 border">Warranty</td><td class="p-2 border">12 Months (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Compatible Devices:</h3>
     <ul class="list-disc list-inside text-gray-700">
@@ -135,21 +120,6 @@ export const joyroom_ft3_smartwatch = {
         <p class="text-gray-700">استقبل <strong>إشعارات الواتساب وفيسبوك والرسائل والمكالمات</strong> على معصمك. دعم كامل للنص العربي — اقرا الرسائل من غير ما تطلّع الموبايل. ارفض أو اكتم المكالمات بلمسة. الساعة مفيهاش سماعة لمكالمات البلوتوث، بس لإدارة الإشعارات، ممتازة.</p>
     </section>
 </div>
-
-<div class="technical-specs">
-    <h3 class="text-xl font-bold mb-4">المواصفات التقنية:</h3>
-    <table class="w-full text-sm border-collapse border border-gray-300">
-        <tr class="bg-gray-100"><td class="p-2 border">مقاومة الماء</td><td class="p-2 border font-bold">IP68</td></tr>
-        <tr><td class="p-2 border">الأوضاع الرياضية</td><td class="p-2 border">20 وضع</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">مراقبة النبض</td><td class="p-2 border">مراقبة مستمرة 24/7</td></tr>
-        <tr><td class="p-2 border">عمر البطارية</td><td class="p-2 border">~7 أيام (استخدام عادي)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الشاشة</td><td class="p-2 border">HD تاتش سكرين ملونة</td></tr>
-        <tr><td class="p-2 border">الإشعارات</td><td class="p-2 border">واتساب، رسائل، مكالمات (عربي)</td></tr>
-        <tr class="bg-gray-100"><td class="p-2 border">الاتصال</td><td class="p-2 border">بلوتوث (ايفون + اندرويد)</td></tr>
-        <tr><td class="p-2 border">الضمان</td><td class="p-2 border">12 شهر (CairoVolt)</td></tr>
-    </table>
-</div>
-
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3>
     <ul class="list-disc list-inside text-gray-700">
