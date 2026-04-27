@@ -30,7 +30,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
                 name: "Joyroom JR-T03 Wireless Earbuds | 20H Battery | Bluetooth 5.0 | 12-Month Warranty",
                 shortDescription: "🎧 20H Total Playtime | 👆 Touch Controls | 📱 Bluetooth 5.0 | 🎤 Built-in Mic for Calls | 💰 Best Budget TWS",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom JR-T03 earbuds</strong> pack <strong>20 hours total battery + Bluetooth 5.0 + touch controls</strong> at 774 EGP. IPX4 water-resistant for gym use. Deep bass with 13mm drivers. A solid daily driver that punches above its price.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom JR-T03 earbuds</strong> pack <strong>20 hours total battery + Bluetooth 5.0 + touch controls</strong> at 774 EGP. IPX4 water-resistant for gym use. Deep bass with 13mm drivers. A solid daily driver that punches above its price.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -75,7 +75,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <li>📺 <strong>iPad / Android Tablet:</strong> Wireless audio.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">NO active noise cancellation (ANC). Not suitable for very loud environments. IPX4 means splash-resistant, NOT swim-proof. Ear tips may need replacement after 6+ months. Touch controls have a learning curve.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">NO active noise cancellation (ANC). Not suitable for very loud environments. IPX4 means splash-resistant, NOT swim-proof. Ear tips may need replacement after 6+ months. Touch controls have a learning curve. احذر من السماعات المقلدة — جودة صوت سيئة وبطارية بتنفد في ساعة.</p></div>
 `,
                 features: ["🎧 20H Total Playtime", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Mic", "🎵 Stereo Sound", "💰 Best Budget Price", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom JR-T03 Earbuds ⚡ Budget Bluetooth | Official | COD",
@@ -91,7 +91,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
                 name: "سماعة جوي روم JR-T03 | أرخص سماعة بلوتوث أصلية للطلبة | ضمان 12 شهر",
                 shortDescription: "سماعة الغلابة اللي بتعيش 🎧 صوت ممتاز للمحاضرات والأغاني | 🔋 20 ساعة بطارية | 🎤 ميكروفون مكالمات شغال لو انت في مكان هادي",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">سماعات <strong>جوي روم JR-T03</strong> بتوفر <strong>20 ساعة بطارية إجمالية + بلوتوث 5.0 + تحكم باللمس</strong> بـ 774 جنيه. مقاومة مياه IPX4 للجيم. صوت bass عميق بسماعات 13 مم. سماعة يومية ممتازة بتتفوق على سعرها.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم JR-T03</strong> بتوفر <strong>20 ساعة بطارية إجمالية + بلوتوث 5.0 + تحكم باللمس</strong> بـ 774 جنيه. مقاومة مياه IPX4 للجيم. صوت bass عميق بسماعات 13 مم. سماعة يومية ممتازة بتتفوق على سعرها.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
@@ -154,6 +154,13 @@ export const joyroom_jr_t03_wireless_earbuds = {
             en: "These are the reliable workhorse earbuds. No fancy ANC, just good, clear sound and reliable battery life. They are perfect for podcasts and calls. If you want a simple pair of wireless earbuds that just work without breaking the bank, these are it.",
             ar: "هذه هي سماعات الاعتمادية. لا يوجد ANC معقد، فقط صوت جيد وواضح وعمر بطارية موثوق. مثالية للبودكاست والمكالمات. إذا كنت تريد زوجاً بسيطاً من السماعات اللاسلكية يعمل فقط دون كسر الميزانية، فهذه هي."
         }
-        relatedProducts: ["joyroom-t03s-pro-earbuds", "joyroom-3-in-1-data-cable", "joyroom-magnetic-power-bank-10000"],
+        relatedProducts: [
+        "joyroom-t03s-pro-earbuds",
+        "joyroom-3-in-1-data-cable",
+        "joyroom-magnetic-power-bank-10000",
+        "joyroom-usb-a-type-c-cable",
+        "joyroom-power-bank-10000",
+        "joyroom-20w-usb-c-charger"
+    ],
 
     };

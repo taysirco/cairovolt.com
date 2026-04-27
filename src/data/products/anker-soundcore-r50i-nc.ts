@@ -11,7 +11,14 @@ export const anker_soundcore_r50i_nc = {
             { id: "img_6", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-app-equalizer-customization-screen.webp", alt: "Anker R50i NC retail box and included accessories", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-package-contents-eartips-cable-box.webp", alt: "سماعة انكر R50i NC مع خاصية الشفافية - كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-soundcore-k20i", "anker-soundcore-r50i", "anker-a8050-usb-c-cable", "anker-a2732-charger-35w", "anker-zolo-a110e-20000"],
+        relatedProducts: [
+        "anker-soundcore-k20i",
+        "anker-soundcore-r50i",
+        "anker-a8050-usb-c-cable",
+        "anker-a2732-charger-35w",
+        "anker-zolo-a110e-20000",
+        "anker-prime-a1695-25000"
+    ],
         translations: {
             en: {
                 name: "Anker Soundcore R50i NC | 42dB ANC | 45h Battery | 4-Mic AI | 18-Month Warranty",

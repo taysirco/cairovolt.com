@@ -27,7 +27,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand | 18-Month Warranty",
                 shortDescription: "🔋 10000mAh (2x iPhone 17) | 🧲 MagSafe N52 Snap | ⚡ 15W Wireless + 20W USB-C | 📐 Built-in Kickstand | 📱 Charge 2 Devices | 🏆 18-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom MagSafe Power Bank 10000mAh</strong> snaps magnetically to iPhone back and charges wirelessly at <strong>15W + 20W wired output</strong>. Built-in kickstand for FaceTime. At 850 EGP, it's the premium hands-free portable charging solution.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom MagSafe Power Bank 10000mAh</strong> snaps magnetically to iPhone back and charges wirelessly at <strong>15W + 20W wired output</strong>. Built-in kickstand for FaceTime. At 850 EGP, it's the premium hands-free portable charging solution.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -72,7 +72,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <li>📺 <strong>iPad / Tablets:</strong> USB-C wired charging.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe wireless charging works with iPhone 12 and newer ONLY. Does NOT wirelessly charge Samsung or non-MagSafe phones. The 15W wireless is slower than wired; for fastest charge, use the USB-C port. Adds noticeable weight when attached to phone.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe wireless charging works with iPhone 12 and newer ONLY. Does NOT wirelessly charge Samsung or non-MagSafe phones. The 15W wireless is slower than wired; for fastest charge, use the USB-C port. Adds noticeable weight when attached to phone. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p></div>
 `,
                 features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty"],
                 metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD",
@@ -89,7 +89,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 name: "باور بانك جوي روم MagSafe 10000 | ألزقه في ظهر الايفون وكمل تصوير | ضمان 18 شهر",
                 shortDescription: "منقذ بطارية الايفون في رحلات الساحل 🧲 MagSafe N52 قوي مش هيقع | ⚡ 15 واط لاسلكي + 20 واط سلكي | 📐 حامل مدمج للفيديوهات",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم MagSafe 10000mAh</strong> بيلزق مغناطيسياً ع ضهر الايفون وبيشحن لاسلكياً بـ <strong>15 واط + 20 واط سلكي</strong>. حامل مدمج لـ FaceTime. بـ 850 جنيه، الحل الفاخر للشحن المحمول بدون يدين.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم MagSafe 10000mAh</strong> بيلزق مغناطيسياً ع ضهر الايفون وبيشحن لاسلكياً بـ <strong>15 واط + 20 واط سلكي</strong>. حامل مدمج لـ FaceTime. بـ 850 جنيه، الحل الفاخر للشحن المحمول بدون يدين.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -153,6 +153,13 @@ export const joyroom_magnetic_power_bank_10000 = {
             en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
             ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."
         }
-        relatedProducts: ["joyroom-power-bank-10000", "joyroom-power-bank-20000", "joyroom-3-in-1-data-cable", "joyroom-20w-usb-c-charger", "joyroom-60w-car-charger"],
+        relatedProducts: [
+        "joyroom-power-bank-10000",
+        "joyroom-power-bank-20000",
+        "joyroom-3-in-1-data-cable",
+        "joyroom-20w-usb-c-charger",
+        "joyroom-60w-car-charger",
+        "joyroom-25w-fast-charger"
+    ],
 
     };

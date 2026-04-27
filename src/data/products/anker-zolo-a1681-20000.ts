@@ -19,7 +19,14 @@ export const anker_zolo_a1681_20000 = {
             { id: "img_3", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-usb-c-45w-pd-fast-charging-laptop-compatible.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير 45 واط - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 charging MacBook Air alongside iPhone", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-zolo-a110e-20000", "anker-prime-a1695-25000", "anker-a8050-usb-c-cable", "anker-a2732-charger-35w", "anker-soundcore-r50i-nc"],
+        relatedProducts: [
+        "anker-zolo-a110e-20000",
+        "anker-prime-a1695-25000",
+        "anker-a8050-usb-c-cable",
+        "anker-a2732-charger-35w",
+        "anker-soundcore-r50i-nc",
+        "anker-zolo-a110d-10000"
+    ],
         translations: {
             en: {
                 name: "Anker ZOLO Power Bank 20,000mAh 45W PD | Laptop + Phone | 18-Month Warranty",

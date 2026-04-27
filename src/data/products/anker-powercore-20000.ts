@@ -37,7 +37,7 @@ export const anker_powercore_20000 = {
                 shortDescription: "🔋 20,000mAh (72Wh) | 📱 4x iPhone 17 Charges | 🔌 Dual USB-A Ports | ✈️ Airline Approved | 🛡️ 24-Month Warranty",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerCore 20000 (A1260)</strong> stores 72Wh of energy — enough for 4 full iPhone 17 charges or 3 Samsung S26 charges. Dual USB-A ports with PowerIQ let you charge two devices simultaneously. At 356g and airline-approved (under TSA's 100Wh limit), it's built for Egyptian students, travelers, and power-outage survivors. 24-month warranty, EGP 1,550.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Anker PowerCore 20000 (A1260)</strong> stores 72Wh of energy — enough for 4 full iPhone 17 charges or 3 Samsung S26 charges. Dual USB-A ports with PowerIQ let you charge two devices simultaneously. At 356g and airline-approved (under TSA's 100Wh limit), it's built for Egyptian students, travelers, and power-outage survivors. 24-month warranty, EGP 1,550.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -120,7 +120,7 @@ export const anker_powercore_20000 = {
                 shortDescription: "لو مشوارك طويل أو مسافر ده المنقذ 🔋 4 شحنات كاملة للايفون | 🔌 منفذين عشان تشحن إنت وصاحبك | ✈️ مسموح في الطيارة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>أنكر PowerCore 20000 (A1260)</strong> بيخزن 72 واط/ساعة — يكفي 4 شحنات ايفون 17 كاملة أو 3 شحنات سامسونج S26. منفذين USB-A مع PowerIQ بيشحنوا جهازين في نفس الوقت. بوزن 356 جرام ومسموح في الطيارة (أقل من حد TSA 100Wh)، ده مصمم للطلاب والمسافرين واللي عايشين مع انقطاع الكهربا. ضمان 24 شهر، سعر 1,550 جنيه.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر PowerCore 20000 (A1260)</strong> بيخزن 72 واط/ساعة — يكفي 4 شحنات ايفون 17 كاملة أو 3 شحنات سامسونج S26. منفذين USB-A مع PowerIQ بيشحنوا جهازين في نفس الوقت. بوزن 356 جرام ومسموح في الطيارة (أقل من حد TSA 100Wh)، ده مصمم للطلاب والمسافرين واللي عايشين مع انقطاع الكهربا. ضمان 24 شهر، سعر 1,550 جنيه.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
@@ -207,5 +207,12 @@ export const anker_powercore_20000 = {
             en: "If the 10,000mAh version is for the day, this 20,000mAh beast is for the weekend. It gives you roughly double the power, great for trips or if you carry multiple devices. It's heavier, naturally, but having that extra juice is peace of mind. The dual USB ports are clutch for sharing power with a friend.",
             ar: "إذا كان إصدار 10,000 مللي أمبير لليوم، فإن هذا الوحش بسعة 20,000 مللي أمبير لعطلة نهاية الأسبوع. يمنحك ضعف الطاقة تقريباً، رائع للرحلات أو إذا كنت تحمل أجهزة متعددة. إنه أثقل وزناً بالطبع، لكن الحصول على تلك الطاقة الإضافية راحة بال. منفذا USB مفيدان جداً لمشاركة الطاقة مع صديق."
         },
-        relatedProducts: ["anker-powercore-10000", "anker-powercore-26800", "anker-zolo-a110e-20000", "anker-powerport-20w", "anker-a8050-usb-c-cable"]
+        relatedProducts: [
+        "anker-powercore-10000",
+        "anker-powercore-26800",
+        "anker-zolo-a110e-20000",
+        "anker-powerport-20w",
+        "anker-a8050-usb-c-cable",
+        "anker-521-powerhouse"
+    ]
     };

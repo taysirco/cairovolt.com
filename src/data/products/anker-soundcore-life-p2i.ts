@@ -162,5 +162,12 @@ export const anker_soundcore_life_p2i = {
             en: "These focus purely on call quality and battery life. The AI-enhanced mics really do make a difference in noisy environments. The sound is punchy with the Bass mode. If you spend a lot of time on calls and want Anker reliability, pick these over the generic budget options.",
             ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية Anker، اختر هذه بدلاً من الخيارات الاقتصادية العامة."
         },
-        relatedProducts: ["anker-soundcore-r50i", "anker-soundcore-flare-2", "anker-powercore-10000", "anker-powerport-20w", "anker-a8050-usb-c-cable"]
+        relatedProducts: [
+        "anker-soundcore-r50i",
+        "anker-soundcore-flare-2",
+        "anker-powercore-10000",
+        "anker-powerport-20w",
+        "anker-a8050-usb-c-cable",
+        "anker-soundcore-motion-plus"
+    ]
     };

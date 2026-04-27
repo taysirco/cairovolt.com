@@ -180,5 +180,12 @@ export const anker_powercore_26800 = {
             en: "This is the ultimate travel companion. The 26,800mAh capacity is massive – enough to keep your phone running for a week. The three USB ports are a godsend for families or groups. It takes a while to recharge (use two cables!), but once it's full, you're set for days. A huge favorite for long trips to Dahab or Siwa.",
             ar: "هذا هو الرفيق المثالي للسفر. سعة 26,800 مللي أمبير هائلة – تكفي لتشغيل هاتفك لمدة أسبوع. منافذ USB الثلاثة نعمة للعائلات أو المجموعات. يستغرق وقتاً طويلاً لإعادة الشحن (استخدم كابلين!)، لكن بمجرد امتلاءه، فأنت جاهز لأيام. مفضل جداً للرحلات الطويلة إلى دهب أو سيوة."
         },
-        relatedProducts: ["anker-powercore-20000", "anker-737-powerbank", "anker-zolo-a110e-20000", "anker-nano-45w", "anker-a8050-usb-c-cable"]
+        relatedProducts: [
+        "anker-powercore-20000",
+        "anker-737-powerbank",
+        "anker-zolo-a110e-20000",
+        "anker-nano-45w",
+        "anker-a8050-usb-c-cable",
+        "anker-521-powerhouse"
+    ]
     };

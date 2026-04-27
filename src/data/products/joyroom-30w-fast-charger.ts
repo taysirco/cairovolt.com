@@ -27,7 +27,7 @@ export const joyroom_30w_fast_charger = {
                 name: "Joyroom 30W PD+QC Charger | iPhone 17 MAX Speed | 0→50% in 20 Min | 36-Month Warranty",
                 shortDescription: "⚡ 30W MAX iPhone 17 Speed | 📱 0→50% in 20 Min | 🔄 Dual PD 3.0 + QC 3.0 | 📱 Samsung S26 Super Fast | ✅ CE/FCC Certified | 🏆 36-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom 30W</strong> unlocks <strong>iPhone 17's maximum charging speed</strong> — the only Joyroom charger that maxes out iPhone at 30W. Dual-port (PD + QC) charges two devices simultaneously. <strong>0→50% in 20 min</strong>. 36-month warranty. At 280 EGP, it's the sweet spot of power and price.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 30W</strong> unlocks <strong>iPhone 17's maximum charging speed</strong> — the only Joyroom charger that maxes out iPhone at 30W. Dual-port (PD + QC) charges two devices simultaneously. <strong>0→50% in 20 min</strong>. 36-month warranty. At 280 EGP, it's the sweet spot of power and price.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -73,7 +73,7 @@ export const joyroom_30w_fast_charger = {
         <li>💻 <strong>MacBook Air:</strong> Slow charge (30W).</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included. The 30W PD port is USB-C only. The secondary QC port is USB-A (for Android/accessories). Both ports cannot deliver 30W simultaneously — power splits when charging 2 devices. For Samsung 45W max speed, this is NOT sufficient.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included. The 30W PD port is USB-C only. The secondary QC port is USB-A (for Android/accessories). Both ports cannot deliver 30W simultaneously — power splits when charging 2 devices. For Samsung 45W max speed, this is NOT sufficient. احذر من الشواحن المقلدة بدون شهادات أمان — بتسبب سخونة زيادة وتلف البطارية.</p></div>
 `,
                 features: ["⚡ 30W iPhone 17 MAX Speed", "📱 0→50% in 20 Minutes", "🔄 Dual PD 3.0 + QC 3.0", "📱 Samsung Super Fast", "✅ CE/FCC/RoHS Certified", "🧠 Intelligent Protocol Detection", "🏆 36-Month Warranty"],
                 metaTitle: "Joyroom 30W PD+QC Charger ⚡ 33% OFF | iPhone + Samsung | COD",
@@ -89,7 +89,7 @@ export const joyroom_30w_fast_charger = {
                 name: "شاحن جوي روم 30 واط PD+QC | شاحن واحد هيشحن كل الموبايلات بأقصى سرعة | ضمان 36 شهر",
                 shortDescription: "سرعة ايفون 17 القصوى ⚡ 0→50% في 20 دقيقة | 🔄 بيشحن Apple وسامسونج و Xiaomi | 🏆 ضمان 3 سنين",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">شاحن <strong>جوي روم 30 واط</strong> بيفتح <strong>أقصى سرعة شحن لايفون 17</strong> — شاحن جوي روم الوحيد اللي بيوصل الايفون لأقصى 30 واط. منفذين (PD + QC) بيشحن جهازين في نفس الوقت. <strong>0→50% في 20 دقيقة</strong>. ضمان 36 شهر. بـ 280 جنيه، نقطة التوازن بين القوة والسعر.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 30 واط</strong> بيفتح <strong>أقصى سرعة شحن لايفون 17</strong> — شاحن جوي روم الوحيد اللي بيوصل الايفون لأقصى 30 واط. منفذين (PD + QC) بيشحن جهازين في نفس الوقت. <strong>0→50% في 20 دقيقة</strong>. ضمان 36 شهر. بـ 280 جنيه، نقطة التوازن بين القوة والسعر.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">

@@ -30,7 +30,7 @@ export const joyroom_power_bank_20000 = {
                 name: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | Triple Output | 12-Month Warranty",
                 shortDescription: "🔋 20,000mAh (4x iPhone 17) | ⚡ 22.5W PD + QC 3.0 | 🔌 3 Output Ports | 📊 LED Digital Display | 💰 Best Value",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom 20000mAh Power Bank</strong> delivers <strong>22.5W PD+QC with triple output</strong> — charge 3 devices simultaneously. 20000mAh = 4+ full phone charges. At 997 EGP, the best capacity-per-EGP power bank we sell.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 20000mAh Power Bank</strong> delivers <strong>22.5W PD+QC with triple output</strong> — charge 3 devices simultaneously. 20000mAh = 4+ full phone charges. At 997 EGP, the best capacity-per-EGP power bank we sell.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -76,7 +76,7 @@ export const joyroom_power_bank_20000 = {
         <li>🎧 <strong>AirPods / Galaxy Buds:</strong> ~40+ charges.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Heavier than 10000mAh options — not ideal for shirt pockets. Full recharge takes 6-8 hours. When charging 3 devices simultaneously, power splits and each device charges slower. Not airline carry-on approved in some regions (check before flying).</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Heavier than 10000mAh options — not ideal for shirt pockets. Full recharge takes 6-8 hours. When charging 3 devices simultaneously, power splits and each device charges slower. Not airline carry-on approved in some regions (check before flying). احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p></div>
 `,
                 features: ["🔋 20,000mAh (4x iPhone 17)", "⚡ 22.5W PD + QC 3.0 + SCP", "🔌 3 Output Ports (Charge 3 Devices)", "📊 LED Digital Display", "✈️ Airline Approved (72Wh)", "✅ Golden Code Verified", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom 20000mAh Power Bank ⚡ Best Price | 22.5W PD+QC | COD",
@@ -92,7 +92,7 @@ export const joyroom_power_bank_20000 = {
                 name: "باور بانك جوي روم 20000 | أرخص باور بانك للسفر (بيشحن 3 أجهزة) | ضمان 12 شهر",
                 shortDescription: "أعلى قيمة مقابل سعر في مصر 🔋 4 شحنات ايفون 17 | ⚡ שحن سريع 22.5 واط | 🔌 شغال معاك في مواصلات الساحل الطويلة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم 20000mAh</strong> بيدّي <strong>22.5 واط PD+QC بثلاث مخارج</strong> — اشحن 3 أجهزة في نفس الوقت. 20000mAh = 4+ شحنات كاملة للموبايل. بـ 997 جنيه، أفضل سعة مقابل الجنيه في باور بانكاتنا.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 20000mAh</strong> بيدّي <strong>22.5 واط PD+QC بثلاث مخارج</strong> — اشحن 3 أجهزة في نفس الوقت. 20000mAh = 4+ شحنات كاملة للموبايل. بـ 997 جنيه، أفضل سعة مقابل الجنيه في باور بانكاتنا.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
@@ -162,7 +162,12 @@ export const joyroom_power_bank_20000 = {
             }
         },
         meta: { keywords: "باور بانك جوي روم 20000, joyroom power bank 20000, joyroom portable charger, joyroom best power bank egypt 2026, joyroom travel power bank, joyroom cod egypt power bank, شاحن متنقل جوي روم, افضل باور بانك جوي روم, سعر باور بانك جوي روم, power bank 20000 egypt, باور بانك 20000 مللي, شاحن محمول للسفر, باور بانك ايفون, joyroom power bank price, باور بانك ادفع عند الاستلام, باور بانك اصلي مصر", mainTerm: "باور بانك جوي روم 20000" },
-        relatedProducts: ["joyroom-20w-usb-c-charger", "joyroom-usb-c-lightning-cable"],
+        relatedProducts: [
+        "joyroom-20w-usb-c-charger",
+        "joyroom-usb-c-lightning-cable",
+        "joyroom-magnetic-power-bank-10000",
+        "joyroom-power-bank-10000"
+    ],
         expertOpinion: {
             en: "Double the capacity of the 10,000mAh model, this is the heavy lifter. It supports 22.5W fast charging, which is surprisingly quick for a budget-friendly power bank. It's a bit bulky, but if you need to keep multiple devices charged for a long weekend, this is the most cost-effective solution.",
             ar: "ضعف سعة موديل 10,000 مللي أمبير، هذا هو الحامل الثقيل. يدعم الشحن السريع 22.5 واط، وهو سريع بشكل مفاجئ لباور بانك اقتصادي. إنه ضخم قليلاً، لكن إذا كنت بحاجة للحفاظ على شحن أجهزة متعددة لعطلة نهاية أسبوع طويلة، فهذا هو الحل الأكثر فعالية من حيث التكلفة."

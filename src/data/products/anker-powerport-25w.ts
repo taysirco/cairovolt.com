@@ -27,7 +27,7 @@ export const anker_powerport_25w = {
                 shortDescription: "⚡ 25W PPS Samsung Super Fast | 📱 S26: 0-50% in 26 Min | 📱 iPhone 17 Compatible | 🛡️ ActiveShield 2.0 | 🇸🇦 UK Plug",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker 25W PPS Charger (A2322)</strong> unlocks Samsung Super Fast Charging — 0% to 50% on Galaxy S26 in 26 minutes. PPS (Programmable Power Supply) dynamically adjusts voltage for heat-free, efficient charging. Also fast charges iPhone 17 (28 min to 50%). ActiveShield 2.0 monitors temperature 3 million times daily. Compact 4.5cm, UK plug. EGP 550, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Anker 25W PPS Charger (A2322)</strong> unlocks Samsung Super Fast Charging — 0% to 50% on Galaxy S26 in 26 minutes. PPS (Programmable Power Supply) dynamically adjusts voltage for heat-free, efficient charging. Also fast charges iPhone 17 (28 min to 50%). ActiveShield 2.0 monitors temperature 3 million times daily. Compact 4.5cm, UK plug. EGP 550, 18-month warranty.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -107,7 +107,7 @@ export const anker_powerport_25w = {
                 shortDescription: "بيشحن الـ S26 لـ 50% في 26 دقيقة بالظبط ⚡ 25 واط PPS | ❄️ تبريد عالي مبيسخنش في حر الصيف | 📱 بيشحن ايفون كمان",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>شاحن أنكر 25 واط PPS (A2322)</strong> بيفتح Samsung Super Fast Charging — من 0% لـ 50% على Galaxy S26 في 26 دقيقة. PPS بيظبط الجهد ديناميكياً لشحن كفء بدون حرارة. بيشحن ايفون 17 كمان (28 دقيقة لـ 50%). ActiveShield 2.0 بيراقب الحرارة 3 مليون مرة يومياً. صغير 4.5سم، قابس UK. سعر 550 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر 25 واط PPS (A2322)</strong> بيفتح Samsung Super Fast Charging — من 0% لـ 50% على Galaxy S26 في 26 دقيقة. PPS بيظبط الجهد ديناميكياً لشحن كفء بدون حرارة. بيشحن ايفون 17 كمان (28 دقيقة لـ 50%). ActiveShield 2.0 بيراقب الحرارة 3 مليون مرة يومياً. صغير 4.5سم، قابس UK. سعر 550 جنيه، ضمان 18 شهر.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

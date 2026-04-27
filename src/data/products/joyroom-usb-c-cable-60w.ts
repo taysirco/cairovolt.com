@@ -31,7 +31,7 @@ export const joyroom_usb_c_cable_60w = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cheap "60W" cables from Ataba often use thin 28AWG copper wires that can only deliver 15-20W real power. They overheat, charge slowly, and risk damaging your device's charging port. Always verify cable wattage with a USB power meter — CairoVolt tests every batch.</p></div>`,
                 features: ["60W Power Delivery", "iPhone 17 max 30W charging", "Samsung S26/S25 Super Fast", "MacBook Air compatible", "35,000+ bend lifespan", "1m length", "24-month warranty"],
                 metaTitle: "Joyroom USB-C 60W Cable ⚡ 44% OFF | iPhone + Samsung | COD",
-                metaDesc: "Joyroom 60W USB-C to USB-C Cable - max speed for iPhone 17 & Samsung S26. Braided 35K bends. Best price Egypt. Fast Cairo delivery.",
+                metaDesc: "Joyroom 60W USB-C to USB-C Cable - max speed for iPhone 17 & Samsung S26. Braided 35K bends. Best price Egypt. Fast Cairo delivery. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "Can I use it with my MacBook?", answer: "Yes, it can charge MacBook Air at full speed. For MacBook Pro, it will charge but at a slower rate - we recommend 100W cables for Pro models." },
                     { question: "Does it fast-charge iPhone 17?", answer: "Yes — iPhone 17 maxes at 30W PD, and this cable delivers that fully. 0→50% in ~25 minutes with a 30W+ charger." },
@@ -51,7 +51,7 @@ export const joyroom_usb_c_cable_60w = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابلات "60 واط" الرخيصة من العتبة بتستخدم نحاس 28AWG رفيع مبيطلعش أكتر من 15-20 واط فعلي. بتسخن وبتشحن ببطء وبتخاطر بمنفذ الشحن. تأكد من واطية الكابل بمقياس USB — CairoVolt بتختبر كل شحنة.</p></div>`,
                 features: ["60 واط Power Delivery", "شحن ايفون 17 بأقصى سرعة 30 واط", "سامسونج S26/S25 سوبر فاست", "متوافق ماك بوك اير", "يتحمل 35,000+ ثني", "طول 1 متر", "ضمان 24 شهر"],
                 metaTitle: "كابل جوي روم 60 واط ⚡ خصم 44% | ايفون وسامسونج | COD مصر",
-                metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع.",
+                metaDesc: "كابل جوي روم 60 واط USB-C - أقصى سرعة للايفون 17 وسامسونج S26. 35 ألف ثني. أفضل سعر مصر. توصيل سريع. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "هل يشحن ماك بوك؟", answer: "نعم، يشحن ماك بوك اير بأقصى سرعة. لماك بوك برو، يشحن لكن ببطء — ننصح بكابل 100W لموديلات برو." },
                     { question: "هل يدعم الشحن السريع لسامسونج S26؟", answer: "نعم! يدعم PD + PPS بقوة 45 واط — اختبار CairoVolt: S26 Ultra من 0→50% في 22 دقيقة." },
@@ -65,7 +65,7 @@ export const joyroom_usb_c_cable_60w = {
             en: "60W in a cable means laptop-grade charging. Connect to any 60W+ charger and watch your iPhone 17 or Samsung S26 hit 50% in 20 minutes. This is the speed standard for the USB-C era.",
             ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لعصر الـ USB-C."
         },
-        meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom 60w usb-c cable" }
+        meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, USB-IF certified cable", mainTerm: "joyroom 60w usb-c cable" }
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
 
     };

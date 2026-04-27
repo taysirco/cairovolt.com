@@ -28,7 +28,7 @@ export const anker_nano_45w = {
                 shortDescription: "⚡ 45W GaN III Technology | 💻 MacBook Air Full Speed | 📱 iPhone 17 Max Speed | 📱 Samsung S26 Super Fast 2.0 | 📏 Ultra-Compact",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker Nano 45W GaN III (A2039)</strong> replaces your laptop charger, phone charger, and tablet charger with a single compact cube. 45W USB-C PD charges MacBook Air at full speed, iPhone 17 at max speed, and Samsung S26 with Super Fast 2.0. GaN III technology keeps it cool and small. UK-style plug, 24-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Anker Nano 45W GaN III (A2039)</strong> replaces your laptop charger, phone charger, and tablet charger with a single compact cube. 45W USB-C PD charges MacBook Air at full speed, iPhone 17 at max speed, and Samsung S26 with Super Fast 2.0. GaN III technology keeps it cool and small. UK-style plug, 24-month warranty.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -97,7 +97,7 @@ export const anker_nano_45w = {
                 shortDescription: "شاحن واحد يغنيك عن 3 شواحن 💻 شحن ماك بوك بالسرعة الأصلية | 📱 شحن سوبر فاست لسامسونج وايفون | 🔌 ممتاز للسفر",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>شاحن أنكر نانو 45 واط GaN III (A2039)</strong> بيستبدل شاحن اللابتوب وشاحن الموبايل وشاحن التابلت بمكعب صغير واحد. 45 واط USB-C PD بيشحن ماك بوك اير بسرعة كاملة، ايفون 17 بأقصى سرعة، وسامسونج S26 مع Super Fast 2.0. تقنية GaN III بتخليه بارد وصغير. قابس UK-Style، ضمان 24 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر نانو 45 واط GaN III (A2039)</strong> بيستبدل شاحن اللابتوب وشاحن الموبايل وشاحن التابلت بمكعب صغير واحد. 45 واط USB-C PD بيشحن ماك بوك اير بسرعة كاملة، ايفون 17 بأقصى سرعة، وسامسونج S26 مع Super Fast 2.0. تقنية GaN III بتخليه بارد وصغير. قابس UK-Style، ضمان 24 شهر.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
@@ -167,5 +167,12 @@ export const anker_nano_45w = {
             en: "The versatility of this charger is unmatched. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
         },
-        relatedProducts: ["anker-powerport-20w", "anker-a2147-gan-charger-30w", "anker-nano-45w-smart-display-charger", "anker-a8050-usb-c-cable", "anker-737-powerbank", "anker-powerline-usb-c-usb-c", "anker-powerline-usb-c-lightning"]
+        relatedProducts: [
+        "anker-powerport-20w",
+        "anker-a2147-gan-charger-30w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-a8050-usb-c-cable",
+        "anker-737-powerbank",
+        "anker-powerline-usb-c-usb-c"
+    ]
     };

@@ -29,7 +29,7 @@ export const joyroom_t03s_pro_earbuds = {
                 name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3 | 12-Month Warranty",
                 shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 30H Total Playtime | 📱 Bluetooth 5.3 Low Latency | 💧 IPX5 Water Resistant | 👆 Touch Controls",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -75,7 +75,7 @@ export const joyroom_t03s_pro_earbuds = {
         <li>📺 <strong>iPad / Android Tablet:</strong> Full wireless audio support.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">ANC reduces noise but does NOT eliminate it completely — don't expect Apple AirPods Pro level isolation. 30H battery is with ANC OFF; with ANC ON, expect ~20H. Not suitable for intense sports (IPX4 only). Ear tips are proprietary.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">ANC reduces noise but does NOT eliminate it completely — don't expect Apple AirPods Pro level isolation. 30H battery is with ANC OFF; with ANC ON, expect ~20H. Not suitable for intense sports (IPX4 only). Ear tips are proprietary. احذر من السماعات المقلدة — جودة صوت سيئة وبطارية بتنفد في ساعة.</p></div>
 `,
                 features: ["🎧 ANC (25dB Noise Reduction)", "🔋 30H Total Playtime", "📱 Bluetooth 5.3 Low Latency", "💧 IPX5 Water Resistant", "👆 Touch Controls", "📱 iOS Pop-up Animation", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom T03S Pro Earbuds ⚡ 17% OFF | ANC Noise Cancel | COD",
@@ -92,7 +92,7 @@ export const joyroom_t03s_pro_earbuds = {
                 name: "سماعة جوي روم T03S Pro | اعزل نفسك عن دوشة المترو والشارع | ضمان 12 شهر",
                 shortDescription: "أقوى عزل ضوضاء في الفئة الاقتصادية 🎧 إلغاء ضوضاء حقيقي ANC مبيهزرش | 🔋 30 ساعة بطارية | 📱 نفس تصميم الايربودز بسعر معقول",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">سماعات <strong>جوي روم T03S Pro ANC</strong> بميزة <strong>عزل ضوضاء نشط + 30 ساعة بطارية + بلوتوث 5.3</strong> بـ 664 جنيه. ANC بيمنع لحد 35dB من الضوضاء المحيطة. أفضل سماعات ANC مقابل الجنيه في مصر.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم T03S Pro ANC</strong> بميزة <strong>عزل ضوضاء نشط + 30 ساعة بطارية + بلوتوث 5.3</strong> بـ 664 جنيه. ANC بيمنع لحد 35dB من الضوضاء المحيطة. أفضل سماعات ANC مقابل الجنيه في مصر.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
@@ -157,6 +157,13 @@ export const joyroom_t03s_pro_earbuds = {
             en: "The T03S Pro is the budget king of ANC earbuds. The noise cancellation is genuinely effective against Cairo traffic noise. The transparency mode works well too. They fit similarly to Apple's design, so they're very comfortable. For the price, the sound quality and features are unbeatable.",
             ar: "تعد T03S Pro ملكة سماعات ANC الاقتصادية. إلغاء الضوضاء فعال حقاً ضد ضوضاء مرور القاهرة. وضع الشفافية يعمل بشكل جيد أيضاً. تناسب الأذن بشكل مشابه لتصميم أبل، لذا فهي مريحة جداً. مقابل السعر، جودة الصوت والميزات لا تضاهى."
         }
-        relatedProducts: ["joyroom-jr-t03-wireless-earbuds", "joyroom-3-in-1-data-cable", "joyroom-magnetic-power-bank-10000"],
+        relatedProducts: [
+        "joyroom-jr-t03-wireless-earbuds",
+        "joyroom-3-in-1-data-cable",
+        "joyroom-magnetic-power-bank-10000",
+        "joyroom-usb-a-type-c-cable",
+        "joyroom-power-bank-10000",
+        "joyroom-20w-usb-c-charger"
+    ],
 
     };

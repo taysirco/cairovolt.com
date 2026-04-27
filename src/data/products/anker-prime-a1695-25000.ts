@@ -25,7 +25,14 @@ export const anker_prime_a1695_25000 = {
             { id: "img_9", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-size-comparison-hand-portable-25000mah.webp", alt: "انكر برايم A1695 شحن ماك بوك برو وايفون وايباد معاً", order: 8, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_10", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-charging-speed-test-lab-egypt.webp", alt: "Anker Prime A1695 premium matte finish and build quality", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-zolo-a1681-20000", "anker-a2732-charger-35w", "anker-a8050-usb-c-cable", "anker-zolo-a110e-20000", "anker-soundcore-r50i-nc"],
+        relatedProducts: [
+        "anker-zolo-a1681-20000",
+        "anker-a2732-charger-35w",
+        "anker-a8050-usb-c-cable",
+        "anker-zolo-a110e-20000",
+        "anker-soundcore-r50i-nc",
+        "anker-737-powerbank"
+    ],
         translations: {
             en: {
                 name: "Anker Prime 25,000mAh 165W PD | MacBook Pro Charging | 24-Month Warranty",
@@ -85,7 +92,7 @@ export const anker_prime_a1695_25000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) to unlock full laptop-charging speed safely.</p>
+    <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) to unlock full laptop-charging speed safely. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
 </div>
 `,
                 features: ["⚡ 165W Combined Output", "💻 140W MacBook Pro Charging", "🔋 25,000mAh (92.7Wh)", "🌡️ Active Cooling Fan", "⏱️ 30-min 80% Recharge", "📊 Smart Display (watts/temp/%)", "✈️ Max Flight-Legal Capacity", "🛡️ 24-Month Warranty"],

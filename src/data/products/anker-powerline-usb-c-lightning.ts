@@ -27,7 +27,7 @@ export const anker_powerline_usb_c_lightning = {
                 shortDescription: "✅ Apple MFi Certified | ⚡ 30W Fast Charging iPhone 14/13/12 | 💪 35,000+ Bend Lifespan | 📱 CarPlay Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker PowerLine III USB-C to Lightning (A8612)</strong> is an MFi-certified cable for iPhone 14/13/12/11 and Lightning iPads. 30W PD fast charging, 35,000+ bend lifespan (3.5x Apple's cable), CarPlay compatible. For iPhone 17/16/15 owners, you need a USB-C to USB-C cable instead. EGP 508, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker PowerLine III USB-C to Lightning (A8612)</strong> is an MFi-certified cable for iPhone 14/13/12/11 and Lightning iPads. 30W PD fast charging, 35,000+ bend lifespan (3.5x Apple's cable), CarPlay compatible. For iPhone 17/16/15 owners, you need a USB-C to USB-C cable instead. EGP 508, 18-month warranty.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -96,7 +96,7 @@ export const anker_powerline_usb_c_lightning = {
                 shortDescription: "الكابل الوحيد اللي مش هيبوظ بطارية ايفونك الغالي ✅ معتمد MFi من أبل | 💪 أمتن 3 مرات من الأصلي مش هيتقطع | 🚗 شغال CarPlay من غير تقطيع",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>كابل أنكر PowerLine III USB-C to Lightning (A8612)</strong> كابل معتمد MFi لايفون 14/13/12/11 وايباد Lightning. شحن سريع 30 واط PD، بيتحمل 35,000+ ثني (3.5× الأصلي)، متوافق CarPlay. لو عندك ايفون 17/16/15 محتاج كابل USB-C to USB-C. سعر 508 جنيه، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to Lightning (A8612)</strong> كابل معتمد MFi لايفون 14/13/12/11 وايباد Lightning. شحن سريع 30 واط PD، بيتحمل 35,000+ ثني (3.5× الأصلي)، متوافق CarPlay. لو عندك ايفون 17/16/15 محتاج كابل USB-C to USB-C. سعر 508 جنيه، ضمان 18 شهر.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
@@ -174,5 +174,12 @@ export const anker_powerline_usb_c_lightning = {
             en: "Cables are usually the first thing to break, but not this one. The build quality is exceptional – it feels robust and can withstand serious abuse. MFi certification means no 'accessory not supported' errors. It's a simple product, but one that solves a daily frustration perfectly.",
             ar: "عادة ما تكون الكابلات أول شيء يتلف، لكن ليس هذا. جودة التصنيع استثنائية – ملمسه قوي ويمكنه تحمل الاستخدام الشاق. شهادة MFi تعني عدم وجود أخطاء 'الملحق غير مدعوم'. منتج بسيط، لكنه يحل مشكلة يومية بشكل مثالي."
         },
-        relatedProducts: ["anker-powerport-20w", "anker-powercore-10000", "anker-a8050-usb-c-cable", "anker-usb-c-lightning-sureistrong", "anker-powercore-20000"]
+        relatedProducts: [
+        "anker-powerport-20w",
+        "anker-powercore-10000",
+        "anker-a8050-usb-c-cable",
+        "anker-usb-c-lightning-sureistrong",
+        "anker-powercore-20000",
+        "anker-622-maggo"
+    ]
     };
