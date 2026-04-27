@@ -66,7 +66,7 @@ export const joyroom_car_phone_mount = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>`,
                 features: ["📱 Fits phones up to 7 inches", "✨ Strong suction cup mount", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 12-month warranty"],
                 metaTitle: "Joyroom Car Phone Mount ⚡ 58% OFF | Anti-Vibration | COD",
-                metaDesc: "Joyroom Car Phone Mount — holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360° rotation. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Buy joyroom Car Phone Mount — holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360° rotation. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "Does the suction mount fit iPhone 17 Pro Max?", answer: "Yes! It's designed for phones up to 7 inches, so it easily holds iPhone 17 Pro Max (6.9 inches) and Samsung S26 Ultra securely." },
                     { question: "Does the suction cup work on textured dashboards?", answer: "It works best on smooth surfaces. For textured dashboards, we include an adhesive mounting disc that creates a smooth surface for the suction cup." },
@@ -119,7 +119,7 @@ export const joyroom_car_phone_mount = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تركيب على فتحة التكييف بس — مفيش خيار تابلوه أو زجاج. ممكن يسد فتحة التكييف في الصيف لما تحتاج التكييف أكتر. مش مناسب للموبايلات التقيلة جداً بجرابات كبيرة. آلية الزنبرك ممكن ترتخي بعد 12+ شهر استخدام يومي.</p></div>`,
                 features: ["📐 يناسب هواتف حتى 7 بوصة", "✨ كوب شفط قوي", "✨ تثبيت على التابلوه أو الزجاج", "✨ دوران 360 درجة", "✨ تشغيل بيد واحدة", "✨ ذراع قابل للتعديل", "🏆 ضمان 12 شهر"],
                 metaTitle: "حامل موبايل سيارة جوي روم ⚡ خصم 58% | ثبات ضد الاهتزاز",
-                metaDesc: "حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "اشتري حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "هل يثبت ايفون 17 برو ماكس؟", answer: "نعم! مصمم لهواتف حتى 7 بوصة، فيثبت ايفون 17 برو ماكس (6.9 بوصة) وسامسونج S26 الترا بسهولة." },
                     { question: "هل يعمل على التابلوه الخشن؟", answer: "يعمل أفضل على الأسطح الملساء. للتابلوه الخشن، نوفر قرص لاصق يخلق سطح أملس لكوب الشفط." },

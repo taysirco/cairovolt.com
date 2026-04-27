@@ -60,7 +60,7 @@ export const anker_soundcore_r50i_nc = {
     <p class="text-gray-700">Many Chinese earbuds claim "ANC" but only offer passive noise isolation (≤5dB). Real hybrid ANC like the R50i NC uses feedforward + feedback microphones to cancel 42dB actively. Verify authenticity at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🔇 42dB Hybrid ANC", "🔋 45h Total Battery", "🎙️ 4-Mic AI Beamforming", "📱 Phone Stand Case", "🎵 10mm BassUp™ HiFi", "💧 IP54 Dust/Water", "⚡ 10min Fast Charge", "🔊 Transparency Mode"],
+                features: ["🔇 42dB Hybrid ANC", "🔋 45h Total Battery", "🎙️ 4-Mic AI Beamforming", "📱 Phone Stand Case", "🎵 10mm BassUp™ HiFi", "💧 IP54 Dust/Water", "⚡ 10min Fast Charge", "🔊 Transparency Mode", "🏆 18-Month Warranty"],
                 metaTitle: "Anker Soundcore R50i NC ⚡ 16% OFF | 42dB ANC | COD Egypt",
                 metaDesc: "Buy Anker R50i NC ANC earbuds in Egypt. 42dB noise cancellation, 45h battery, 4-mic AI calls, phone stand case. ✓ 18-Month Warranty.",
                 faqs: [
@@ -110,7 +110,7 @@ export const anker_soundcore_r50i_nc = {
     <p class="text-gray-700">سماعات صيني كتير بتدّعي "ANC" بس بتوفر عزل سلبي بس (≤5dB). ANC الهجين الحقيقي زي R50i NC بيستخدم مايكات feedforward + feedback لإلغاء 42dB بشكل نشط. تأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🔇 42dB ANC هجين", "🔋 45 ساعة إجمالي", "🎙️ 4 مايك AI", "📱 علبة حامل موبايل", "🎵 10mm BassUp™", "💧 IP54", "⚡ شحن 10 دقايق", "🔊 وضع شفافية"],
+                features: ["🔇 42dB ANC هجين", "🔋 45 ساعة إجمالي", "🎙️ 4 مايك AI", "📱 علبة حامل موبايل", "🎵 10mm BassUp™", "💧 IP54", "⚡ شحن 10 دقايق", "🔊 وضع شفافية", "🏆 ضمان 18 شهر"],
                 metaTitle: "سعر سماعة انكر R50i NC في مصر ⚡ خصم 16% | إلغاء ضوضاء 42dB",
                 metaDesc: "اشتري سماعة انكر R50i NC في مصر. 42dB إلغاء ضوضاء، 45 ساعة بطارية، 4 مايك AI، حامل موبايل. ✓ ضمان 18 شهر.",
                 faqs: [

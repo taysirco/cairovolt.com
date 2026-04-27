@@ -31,7 +31,7 @@ export const joyroom_3_in_1_data_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">3-in-1 cables do NOT support PD fast charging. For maximum speed, use a dedicated USB-C cable. This cable is for convenience charging, not speed charging. احذر من الكابلات المقلدة بدون شريحة أمان — بتسبب تلف المنفذ وبطء الشحن.</p></div>`,
                 features: ["⚡ 3 connectors: Lightning + USB-C + Micro", "✨ Universal compatibility", "⚡ 2.4A fast charging", "✨ Nylon braided durable design", "✨ 1.2m length", "🏆 12-month warranty"],
                 metaTitle: "Joyroom 3-in-1 Cable ⚡ 15% OFF | All Devices in One | COD",
-                metaDesc: "Joyroom 3-in-1 Multi Cable - Lightning + USB-C + Micro USB. One cable for iPhone, Samsung, all devices. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Buy joyroom 3-in-1 Multi Cable - Lightning + USB-C + Micro USB. One cable for iPhone, Samsung, all devices. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "Can all 3 connectors charge simultaneously?", answer: "No, only one connector can be used at a time. The 3-in-1 design is for convenience - one cable that works with any device." },
                     { question: "Does the 3-in-1 cable support fast charging?", answer: "It supports up to 2.4A charging across all 3 connectors. For maximum iPhone 17 fast charging (30W PD), we recommend dedicated USB-C cables." },
@@ -51,7 +51,7 @@ export const joyroom_3_in_1_data_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابلات 3 في 1 مش بتدعم شحن PD السريع. لأقصى سرعة، استخدم كابل USB-C مخصص. الكابل ده للشحن المريح، مش لشحن السرعة.</p></div>`,
                 features: ["⚡ 3 موصلات: Lightning + USB-C + Micro", "✨ توافق شامل", "⚡ شحن سريع 2.4 أمبير", "✨ تصميم نايلون متين", "✨ طول 1.2 متر", "🏆 ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم 3 في 1 ⚡ خصم 15% | كابل واحد لكل الأجهزة",
-                metaDesc: "كابل جوي روم 3 في 1 - Lightning + USB-C + Micro USB. كابل واحد للايفون والسامسونج. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "اشتري كابل جوي روم 3 في 1 - Lightning + USB-C + Micro USB. كابل واحد للايفون والسامسونج. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "لا، موصل واحد فقط يعمل في كل مرة. تصميم 3 في 1 للراحة - كابل واحد يعمل مع أي جهاز." },
                     { question: "هل كابل 3 في 1 يدعم الشحن السريع؟", answer: "يدعم شحن حتى 2.4 أمبير عبر الموصلات الثلاثة. لأقصى سرعة شحن للايفون 17 (30 واط PD)، ننصح بكابلات USB-C المخصصة." },

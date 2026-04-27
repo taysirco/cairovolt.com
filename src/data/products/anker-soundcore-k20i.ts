@@ -55,7 +55,7 @@ export const anker_soundcore_k20i = {
     <p class="text-gray-700">Fake Soundcore earbuds use recycled drivers that distort at 60% volume and have batteries lasting only 1.5h instead of 6h. Always buy from authorized sellers and verify at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🎵 13mm BassUp™ Drivers", "🔋 36h Total Battery", "👂 Semi-In-Ear Comfort", "🎙️ AI ENC Dual Mic", "⚡ 10min Fast Charge", "💧 IPX5 Waterproof", "📱 Soundcore App EQ", "🎮 Low-Latency Mode"],
+                features: ["🎵 13mm BassUp™ Drivers", "🔋 36h Total Battery", "👂 Semi-In-Ear Comfort", "🎙️ AI ENC Dual Mic", "⚡ 10min Fast Charge", "💧 IPX5 Waterproof", "📱 Soundcore App EQ", "🎮 Low-Latency Mode", "🏆 18-Month Warranty"],
                 metaTitle: "Anker Soundcore K20i ⚡ 10% OFF | 36h Battery Life | COD",
                 metaDesc: "Buy Anker Soundcore K20i in Egypt. 13mm BassUp drivers, 36h battery, semi-in-ear comfort, AI ENC calls. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
@@ -106,7 +106,7 @@ export const anker_soundcore_k20i = {
     <p class="text-gray-700">سماعات Soundcore مقلدة بتستخدم درايفرات مستعملة بتشوّه عند 60% صوت وبطاريتها ساعة ونص بس بدل 6 ساعات. اشتري من بائعين معتمدين وتأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق Soundcore", "🎮 وضع تأخير منخفض"],
+                features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق Soundcore", "🎮 وضع تأخير منخفض", "🏆 ضمان 18 شهر"],
                 metaTitle: "سعر سماعة انكر K20i في مصر ⚡ خصم 10% | ايربودز انكر 36 ساعة",
                 metaDesc: "اشتري سماعة انكر K20i في مصر. 13mm BassUp، 36 ساعة بطارية، نصف داخلية مريحة. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [

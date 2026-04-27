@@ -51,7 +51,7 @@ export const anker_a8050_usb_c_cable = {
     <p class="text-gray-700">A 10 EGP cable from the metro only carries 5W and damages your charger’s PD negotiation chip over time. Using a non-PD-rated cable with a 45W+ charger creates a fire risk. The A8050 is USB-IF certified for safe 100W delivery.</p>
 </div>
 `,
-                features: ["🔌 100W PD 3.0", "🧬 35,000 Bend Cycles", "📏 1.8m Braided Nylon", "📊 480Mbps Data", "🛡️ Reinforced Connectors"],
+                features: ["🔌 100W PD 3.0", "🧬 35,000 Bend Cycles", "📏 1.8m Braided Nylon", "📊 480Mbps Data", "🛡️ Reinforced Connectors", "🏆 18-Month Warranty"],
                 metaTitle: "Anker USB-C Cable 100W ⚡ 11% OFF | Braided Nylon | COD Egypt",
                 metaDesc: "Buy Anker A8050 USB-C cable in Egypt. 100W PD, braided nylon, 35,000 bends. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
@@ -98,7 +98,7 @@ export const anker_a8050_usb_c_cable = {
     <p class="text-gray-700">كابل ب~10 جنيه من المترو بيوصل 5 واط بس وبيتلف شريحة PD في شاحنك مع الوقت. استخدام كابل غير معتمد PD مع شاحن 45+ واط بيعمل خطر حريق. الـ A8050 معتمد USB-IF لتوصيل 100 واط بأمان.</p>
 </div>
 `,
-                features: ["🔌 100 واط PD 3.0", "🧬 35,000 دورة ثني", "📏 1.8 متر نايلون مضفر", "📊 480Mbps بيانات", "🛡️ موصلات مقواة"],
+                features: ["🔌 100 واط PD 3.0", "🧬 35,000 دورة ثني", "📏 1.8 متر نايلون مضفر", "📊 480Mbps بيانات", "🛡️ موصلات مقواة", "🏆 ضمان 18 شهر"],
                 metaTitle: "كابل انكر USB-C 100 واط ⚡ خصم 11% | نايلون مضفر | COD مصر",
                 metaDesc: "اشتري كابل انكر A8050 USB-C في مصر. 100 واط PD، نايلون مضفر، 35,000 ثنية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [

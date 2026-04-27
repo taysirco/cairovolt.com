@@ -90,7 +90,7 @@ export const anker_737_powerbank = {
     </ul>
 </div>
 `,
-                features: ["⚡ 140W USB-C PD 3.1 Output", "🔋 24,000mAh (86.4Wh)", "📊 Smart Digital Display", "💻 MacBook Pro 50% in 30 Min", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (86.4Wh)", "🔌 3 Ports (2×USB-C + USB-A)"],
+                features: ["⚡ 140W USB-C PD 3.1 Output", "🔋 24,000mAh (86.4Wh)", "📊 Smart Digital Display", "💻 MacBook Pro 50% in 30 Min", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (86.4Wh)", "🔌 3 Ports (2×USB-C + USB-A)", "🏆 18-Month Warranty"],
                 metaTitle: "Anker 737 Power Bank 140W ⚡ 9% OFF | Ultra Fast Charge | COD",
                 metaDesc: "Buy Anker 737 (PowerCore 24K) in Egypt. 140W charges MacBook Pro 50% in 30 min. 24,000mAh, smart display. ✓ Sealed ✓ Nationwide Delivery.",
                 faqs: [
@@ -162,7 +162,7 @@ export const anker_737_powerbank = {
     </ul>
 </div>
 `,
-                features: ["⚡ 140 واط USB-C PD 3.1", "🔋 24,000 مللي أمبير (86.4Wh)", "📊 شاشة رقمية ذكية", "💻 ماك بوك برو 50% في 30 دقيقة", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 3 منافذ (2×USB-C + USB-A)"],
+                features: ["⚡ 140 واط USB-C PD 3.1", "🔋 24,000 مللي أمبير (86.4Wh)", "📊 شاشة رقمية ذكية", "💻 ماك بوك برو 50% في 30 دقيقة", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 3 منافذ (2×USB-C + USB-A)", "🏆 ضمان 18 شهر"],
                 metaTitle: "باور بانك انكر 737 الأصلي ⚡ خصم 9% | 140 واط فائق السرعة",
                 metaDesc: "اشتري باور بانك انكر 737 في مصر. 140 واط يشحن ماك بوك برو 50% في 30 دقيقة. سعة 24,000، شاشة ذكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [

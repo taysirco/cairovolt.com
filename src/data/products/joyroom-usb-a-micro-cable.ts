@@ -29,7 +29,7 @@ export const joyroom_usb_a_micro_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This cable does NOT work with iPhone, Samsung S26/S25, or any USB-C device. Check your device's charging port before ordering. If it's oval-shaped (USB-C), you need a different cable.</p></div>`,
                 features: ["⚡ 2.4A charging", "✨ 1.2m length", "⚡ Micro USB devices", "✨ Durable TPE", "🏆 12-month warranty"],
                 metaTitle: "Joyroom Micro USB ⚡ 56% OFF | Fast Charge Android | COD",
-                metaDesc: "Joyroom Micro USB Cable for Android devices. 2.4A charging. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Buy joyroom Micro USB Cable for Android devices. 2.4A charging. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "Which devices use Micro USB today?", answer: "Micro USB is used by older Android phones, budget earbuds, power banks, and some Bluetooth speakers. Most new devices now use USB-C." },
                     { question: "Can I charge my new Samsung with this cable?", answer: "No, Samsung S26/S25 use USB-C. This Micro USB cable is for older devices like budget phones, speakers, and accessories." },
@@ -49,7 +49,7 @@ export const joyroom_usb_a_micro_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيشتغل مع ايفون أو سامسونج S26/S25 أو أي جهاز USB-C. تأكد من منفذ الشحن قبل الطلب. لو شكله بيضاوي (USB-C)، محتاج كابل تاني.</p></div>`,
                 features: ["⚡ شحن 2.4 أمبير", "✨ طول 1.2 متر", "⚡ أجهزة Micro USB", "✨ TPE متين", "🏆 ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم Micro USB ⚡ خصم 56% | شحن سريع أندرويد",
-                metaDesc: "كابل جوي روم Micro USB للاندرويد. شحن 2.4 أمبير. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "اشتري كابل جوي روم Micro USB للاندرويد. شحن 2.4 أمبير. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "أي أجهزة تستخدم Micro USB الحالي؟", answer: "Micro USB يستخدم في هواتف اندرويد القديمة، سماعات اقتصادية، باور بانك، وبعض سماعات بلوتوث. معظم الأجهزة الجديدة USB-C." },
                     { question: "هل يشحن سامسونج الجديد؟", answer: "لا، سامسونج S26/S25 يستخدم USB-C. هذا الكابل Micro USB للأجهزة القديمة مثل هواتف اقتصادية وسماعات." },

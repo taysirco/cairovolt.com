@@ -89,7 +89,7 @@ export const anker_zolo_a1681_20000 = {
     <p class="text-gray-700">Never use a 5W cable with a 45W+ power bank — the cable bottlenecks at 15W and overheats. Always pair the A1681 with a 100W-rated cable like the <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> to unlock full 45W charging speed safely.</p>
 </div>
 `,
-                features: ["⚡ 45W PD — Charges Laptops", "🔋 20,000mAh (72Wh)", "💻 MacBook Air Compatible", "📊 Smart Digital Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (72Wh)", "🔌 Dual Port Output", "💡 Trickle-Charge Mode"],
+                features: ["⚡ 45W PD — Charges Laptops", "🔋 20,000mAh (72Wh)", "💻 MacBook Air Compatible", "📊 Smart Digital Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (72Wh)", "🔌 Dual Port Output", "💡 Trickle-Charge Mode", "🏆 18-Month Warranty"],
                 metaTitle: "Anker ZOLO 20000mAh 45W ⚡ 12% OFF | Laptop Charge | COD",
                 metaDesc: "Buy Anker ZOLO A1681 45W PD in Egypt. Charges MacBook Air + iPhone simultaneously. 20000mAh, digital display. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
@@ -161,7 +161,7 @@ export const anker_zolo_a1681_20000 = {
     <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 45 واط+ — الكابل بيختنق عند 15 واط وبيسخن. استخدم كابل 100 واط زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> عشان تفتح سرعة 45 واط الكاملة بأمان.</p>
 </div>
 `,
-                features: ["⚡ 45 واط PD — يشحن لابتوبات", "🔋 20,000 مللي أمبير (72Wh)", "💻 متوافق مع ماك بوك اير", "📊 شاشة ذكية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (72Wh)", "🔌 منفذين", "💡 وضع الشحن الدقيق"],
+                features: ["⚡ 45 واط PD — يشحن لابتوبات", "🔋 20,000 مللي أمبير (72Wh)", "💻 متوافق مع ماك بوك اير", "📊 شاشة ذكية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (72Wh)", "🔌 منفذين", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
                 metaTitle: "باور بانك انكر زولو 20000 الأصلي ⚡ خصم 12% | 45 واط لابتوب",
                 metaDesc: "اشتري انكر زولو A1681 بقوة 45 واط PD في مصر. يشحن ماك بوك اير + ايفون في نفس الوقت. 20000 مللي أمبير. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [

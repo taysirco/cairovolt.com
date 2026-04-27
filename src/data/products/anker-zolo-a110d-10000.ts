@@ -93,7 +93,7 @@ export const anker_zolo_a110d_10000 = {
     <p class="text-gray-700">Cheap power banks with fake mAh ratings are everywhere in Egypt. A "20,000mAh" bank from el-Ataba often holds only 8,000mAh of real capacity. Anker's rated capacity matches actual lab-tested output — every mAh is real. Always verify authenticity at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["⚡ 22.5W Fast Charging", "🔋 10,000mAh (37Wh)", "🔌 Built-in USB-C Cable", "📊 Digital LED Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved", "🔌 3-Device Simultaneous Charging", "💡 Trickle-Charge Mode"],
+                features: ["⚡ 22.5W Fast Charging", "🔋 10,000mAh (37Wh)", "🔌 Built-in USB-C Cable", "📊 Digital LED Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved", "🔌 3-Device Simultaneous Charging", "💡 Trickle-Charge Mode", "🏆 18-Month Warranty"],
                 metaTitle: "Anker ZOLO 10000mAh ⚡ 9% OFF | Built-in Cable | COD Egypt",
                 metaDesc: "Buy Anker ZOLO A110D 10000mAh in Egypt. 22.5W fast charge with built-in USB-C cable. Digital display, 229g ultra-slim. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
@@ -165,7 +165,7 @@ export const anker_zolo_a110d_10000 = {
     <p class="text-gray-700">الباور بانكات الرخيصة بأرقام mAh وهمية منتشرة في مصر. باور بانك "20,000 مللي أمبير" من العتبة غالباً فيه 8,000 بس سعة حقيقية. أرقام Anker مطابقة للاختبار المعملي — كل مللي أمبير حقيقي. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["⚡ شحن سريع 22.5 واط", "🔋 10,000 مللي أمبير (37Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 شحن 3 أجهزة في وقت واحد", "💡 وضع الشحن الدقيق"],
+                features: ["⚡ شحن سريع 22.5 واط", "🔋 10,000 مللي أمبير (37Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 شحن 3 أجهزة في وقت واحد", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
                 metaTitle: "باور بانك انكر زولو 10000 ⚡ خصم 9% | كابل مدمج | COD مصر",
                 metaDesc: "اشتري باور بانك انكر زولو A110D في مصر. 22.5 واط شحن سريع مع كابل USB-C مدمج. شاشة رقمية، 229 جرام. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [

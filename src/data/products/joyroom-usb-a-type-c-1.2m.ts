@@ -29,7 +29,7 @@ export const joyroom_usb_a_type_c_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This cable does NOT support PD fast charging (20W+). Maximum is 3A/15W through USB-A. For full-speed PD charging, use a USB-C to USB-C cable with PD charger. احذر من الكابلات المقلدة بدون شريحة أمان — بتسبب تلف المنفذ وبطء الشحن.</p></div>`,
                 features: ["⚡ 3A fast charging", "✨ 1.2m extended length", "📱 iPhone 17 compatible", "✨ Samsung S26 compatible", "🏆 18-month warranty"],
                 metaTitle: "Joyroom USB-A Type-C 1.2m ⚡ Official Warranty | COD Egypt",
-                metaDesc: "Joyroom 1.2m USB-A Type-C — 20cm extra reach for car and bedside. Samsung S26 18W verified. ✓ 18-Month Warranty ✓ COD Egypt.",
+                metaDesc: "Buy joyroom 1.2m USB-A Type-C — 20cm extra reach for car and bedside. Samsung S26 18W verified. ✓ 18-Month Warranty ✓ COD Egypt.",
                 faqs: [
                     { question: "Why choose 1.2m over 1m cable?", answer: "1.2m (4ft) gives you extra reach - perfect for bedside charging, using your phone while plugged in, or when outlets are far. Only 10 EGP more for much better convenience." },
                     { question: "Does this work with iPhone 17 and Samsung S26?", answer: "Yes! Both iPhone 17 and Samsung S26 use USB-C ports. This cable connects them to your existing USB-A chargers." },
@@ -49,7 +49,7 @@ export const joyroom_usb_a_type_c_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل ده مش بيدعم شحن PD سريع (20 واط+). الماكس 3 أمبير/15 واط عبر USB-A. لشحن PD كامل السرعة، استخدم كابل USB-C لـ USB-C مع شاحن PD.</p></div>`,
                 features: ["⚡ شحن سريع 3 أمبير", "✨ طول 1.2 متر", "✨ متوافق ايفون 17", "✨ متوافق سامسونج S26", "🏆 ضمان 18 شهر"],
                 metaTitle: "كابل جوي روم تايب سي 1.2 متر ⚡ ضمان الوكيل الرسمي | COD مصر",
-                metaDesc: "كابل جوي روم 1.2 متر USB-A Type-C — 20 سم إضافية للسيارة والسرير. سامسونج S26 بـ 18 واط. ✓ ضمان 18 شهر ✓ توصيل سريع مصر.",
+                metaDesc: "اشتري كابل جوي روم 1.2 متر USB-A Type-C — 20 سم إضافية للسيارة والسرير. سامسونج S26 بـ 18 واط. ✓ ضمان 18 شهر ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "لماذا أختار 1.2 متر بدل 1 متر؟", answer: "1.2 متر يعطيك مدى إضافي - مثالي للشحن بجانب السرير، استخدام الهاتف أثناء الشحن، أو لو المقبس بعيد. 10 جنيه زيادة فقط لراحة أكبر." },
                     { question: "هل يعمل مع ايفون 17 وسامسونج S26؟", answer: "نعم! ايفون 17 وسامسونج S26 يستخدمان USB-C. هذا الكابل يوصلهم بشواحن USB-A الحالية." },

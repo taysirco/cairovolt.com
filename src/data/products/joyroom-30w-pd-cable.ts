@@ -30,7 +30,7 @@ export const joyroom_30w_pd_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">If you charge Samsung S26 (needs 45W for Super Fast) or a laptop, choose the 60W cable instead. 30W is optimized specifically for iPhone users.</p></div>`,
                 features: ["⚡ 30W PD charging", "✨ 1.2m length", "📱 iPhone 17/16/15 compatible", "✨ TPE durable material", "🏆 12-month warranty"],
                 metaTitle: "Joyroom 30W PD Cable ⚡ 48% OFF | CairoVolt Warranty | COD",
-                metaDesc: "Joyroom 30W PD Cable 1.2m - affordable fast charging for iPhone 17. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Buy joyroom 30W PD Cable 1.2m - affordable fast charging for iPhone 17. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "What's the difference vs 60W cable?", answer: "30W is sufficient for iPhone 17 (max 30W). 60W is better if you also charge laptops or want future-proofing." },
                     { question: "Does it fast-charge iPhone 17 Pro Max?", answer: "Yes — iPhone 17 Pro Max accepts up to 30W PD, which is exactly what this cable delivers. 0→50% in ~25 minutes." },
@@ -50,7 +50,7 @@ export const joyroom_30w_pd_cable = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">لو بتشحن سامسونج S26 (محتاج 45 واط لـ Super Fast) أو لابتوب، اختار كابل 60 واط بدل ده. 30 واط مُحسّن خصيصاً لمستخدمي ايفون.</p></div>`,
                 features: ["⚡ شحن 30 واط PD", "✨ طول 1.2 متر", "✨ متوافق ايفون 17/16/15", "✨ مادة TPE متينة", "🏆 ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم 30 واط ⚡ خصم 48% | ضمان كايرو فولت | COD مصر",
-                metaDesc: "كابل جوي روم 30 واط PD 1.2 متر - شحن سريع اقتصادي للايفون 17. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "اشتري كابل جوي روم 30 واط PD 1.2 متر - شحن سريع اقتصادي للايفون 17. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "ما الفرق عن كابل 60 واط؟", answer: "30 واط كافي للايفون 17 (أقصى 30 واط). 60 واط أفضل لو تشحن لابتوب أو للمستقبل." },
                     { question: "بيشحن ايفون 17 برو ماكس سريع؟", answer: "أيوه — ايفون 17 برو ماكس أقصاه 30 واط PD، واللي هو بالظبط قوة الكابل ده. 0→50% في ~25 دقيقة." },

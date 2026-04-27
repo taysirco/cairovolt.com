@@ -34,7 +34,7 @@ export const joyroom_usb_a_lightning_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">USB-A to Lightning only. Does NOT work with iPhone 17/16/15 (USB-C) and does NOT support PD fast charging. For fast charging, use a USB-C to Lightning cable. احذر من الكابلات المقلدة بدون شريحة أمان — بتسبب تلف المنفذ وبطء الشحن.</p></div>`,
                 features: ["⚡ 2.4A charging", "✨ 1.2m extended length", "📱 iPhone 14 and earlier", "🏆 36-month warranty", "✨ Durable design"],
                 metaTitle: "Joyroom Lightning 1.2m ⚡ 24% OFF | Official Warranty | COD",
-                metaDesc: "Joyroom 1.2m Lightning cable — reaches from outlet to bed easily. 36-month warranty. Tested in 4 Egyptian car models. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Buy joyroom 1.2m Lightning cable — reaches from outlet to bed easily. 36-month warranty. Tested in 4 Egyptian car models. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [
                     { question: "Why does this have 36-month warranty?", answer: "This extended 1.2m cable uses premium materials. The 36-month warranty reflects our confidence in its durability - perfect for heavy daily use." },
                     { question: "Is 1.2m good for bedside charging?", answer: "Yes! 1.2m is the ideal length for bedside - you can charge and still use your phone comfortably in bed without stretching the cable." },
@@ -54,7 +54,7 @@ export const joyroom_usb_a_lightning_1_2m = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">USB-A لـ Lightning بس. مش بيشتغل مع ايفون 17/16/15 (USB-C) ومش بيدعم شحن PD سريع. للشحن السريع، استخدم كابل USB-C لـ Lightning.</p></div>`,
                 features: ["⚡ شحن 2.4 أمبير", "✨ طول 1.2 متر", "✨ ايفون 14 والأقدم", "🏆 ضمان 36 شهر", "✨ تصميم متين"],
                 metaTitle: "كابل جوي روم ايفون 1.2 متر ⚡ خصم 24% | ضمان الوكيل | COD مصر",
-                metaDesc: "كابل جوي روم 1.2 متر Lightning — يوصل من البريزة للسرير بسهولة. ضمان 36 شهر. مجرب في 4 موديلات سيارات مصرية. ايفون 14/13/12. ✓ ضمان ✓ توصيل سريع مصر.",
+                metaDesc: "اشتري كابل جوي روم 1.2 متر Lightning — يوصل من البريزة للسرير بسهولة. ضمان 36 شهر. مجرب في 4 موديلات سيارات مصرية. ايفون 14/13/12. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "لماذا ضمان 36 شهر؟", answer: "هذا الكابل 1.2 متر يستخدم مواد فاخرة. ضمان 36 شهر يعكس ثقتنا في متانته - مثالي للاستخدام اليومي المكثف." },
                     { question: "هل 1.2 متر مناسب للشحن بجانب السرير؟", answer: "نعم! 1.2 متر الطول المثالي للسرير - تشحن وتستخدم هاتفك براحة بدون شد الكابل." },
