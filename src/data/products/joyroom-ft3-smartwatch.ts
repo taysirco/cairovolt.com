@@ -154,7 +154,8 @@ export const joyroom_ft3_smartwatch = {
         "joyroom-magnetic-power-bank-10000",
         "joyroom-20w-usb-c-charger",
         "joyroom-usb-a-type-c-cable",
-        "joyroom-t03s-pro-earbuds"
+        "joyroom-t03s-pro-earbuds",
+        "joyroom-jr-t03-wireless-earbuds"
     ],
 
     };

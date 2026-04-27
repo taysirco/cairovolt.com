@@ -66,12 +66,12 @@ export const joyroom_30w_pd_cable = {
         },
         meta: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي, كابل جوي روم, جوي روم type c, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, USB-IF certified cable, joyroom 30w pd cable", mainTerm: "joyroom 30w pd cable" },
         relatedProducts: [
-        "joyroom-3-in-1-data-cable",
+        "joyroom-usb-a-lightning-1.2m",
         "joyroom-type-c-lightning-24mos",
-        "joyroom-20w-usb-c-charger",
-        "joyroom-magnetic-power-bank-10000",
-        "joyroom-60w-car-charger",
-        "joyroom-25w-fast-charger"
+        "joyroom-ft3-smartwatch",
+        "joyroom-type-c-lightning-braided",
+        "joyroom-type-c-to-type-c-cable",
+        "joyroom-type-c-lightning-36mos"
     ],
 
     };

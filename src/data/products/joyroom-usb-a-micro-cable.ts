@@ -64,6 +64,6 @@ export const joyroom_usb_a_micro_cable = {
             ar: "Micro-USB مش ميت — الباور بانك والسماعة البلوتوث وماكينة الحلاقة وتابلت الأولاد لسه محتاجينه. ده كابل الخدمة اللي كل بيت مصري لسه محتاجه."
         },
         meta: { keywords: "joyroom micro usb, كابل ميكرو, كابل اندرويد, كابل جوي روم, جوي روم micro usb, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, joyroom micro usb cable", mainTerm: "joyroom micro usb cable" },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],
+        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-type-c-lightning-36mos", "joyroom-60w-car-charger", "joyroom-type-c-lightning-24mos"],
 
     };

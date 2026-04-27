@@ -67,12 +67,12 @@ export const joyroom_3_in_1_data_cable = {
         },
         meta: { keywords: "joyroom 3 in 1 cable, كابل 3 في 1, كابل متعدد الاستخدامات, multi charging cable egypt, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, joyroom 3-in-1 cable", mainTerm: "joyroom 3-in-1 cable" },
         relatedProducts: [
-        "joyroom-30w-pd-cable",
+        "joyroom-usb-a-lightning-1.2m",
         "joyroom-type-c-lightning-24mos",
-        "joyroom-20w-usb-c-charger",
-        "joyroom-magnetic-power-bank-10000",
-        "joyroom-60w-car-charger",
-        "joyroom-25w-fast-charger"
+        "joyroom-ft3-smartwatch",
+        "joyroom-type-c-lightning-braided",
+        "joyroom-type-c-to-type-c-cable",
+        "joyroom-type-c-lightning-36mos"
     ],
 
     };
