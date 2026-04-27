@@ -9,9 +9,9 @@ import { useTranslations } from 'next-intl';
 import { useState, useEffect, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { QuickSummary } from '@/components/content/ProductGuides';
-import { CategoryOverviewBlock } from '@/components/content/CategoryOverviewBlock';
+// CategoryOverviewBlock removed — duplicate of QuickSummary + ShortDescription
 import { useCart } from '@/context/CartContext';
-import TestResultsBlock from '@/components/content/TestResultsBlock';
+// TestResultsBlock removed — duplicate of ProductTestResults metrics
 import ProductTestResults from '@/components/content/ProductTestResults';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
 import type { RegionalStats } from '@/lib/bosta';
@@ -365,17 +365,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                 </div>
             </div>
 
-            {/* Product summary */}
-            <div className="container mx-auto px-4 pt-4">
-                <CategoryOverviewBlock
-                    productName={productName}
-                    brand={product.brand}
-                    category={translatedCategory}
-                    price={activePrice}
-                    locale={locale}
-                    shortDescription={productShortDesc}
-                />
-            </div>
+            {/* CategoryOverviewBlock removed — content duplicated by QuickSummary + ShortDescription above */}
 
             {/* Product Section */}
             <div className="container mx-auto px-3 sm:px-4 py-4 md:py-8 max-w-full">
@@ -760,46 +750,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             </div>
                         )}
 
-                        {/* Quality Badges — SVG Icons */}
-                        <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4 md:pt-6 max-w-full">
-                            {(() => {
-                                const trustHash = hash; // reuse existing hash from slug
-                                const trustItems = [
-                                    { // Original
-                                        ar: [{ title: 'منتج أصلي', sub: 'ضمان 100%' }, { title: 'ضمان رسمي', sub: '18 شهر' }, { title: 'شحن سريع', sub: '2-3 أيام' }, { title: 'الدفع عند الاستلام', sub: 'بدون مقدم' }],
-                                        en: [{ title: 'Original Product', sub: '100% Guaranteed' }, { title: 'Official Warranty', sub: '18 Months' }, { title: 'Fast Shipping', sub: '2-3 Days' }, { title: 'Cash on Delivery', sub: 'No Prepayment' }]
-                                    },
-                                    { // Variant 1
-                                        ar: [{ title: 'باركود أصلي', sub: 'قابل للفحص' }, { title: 'كفالة الوكيل', sub: 'استبدال فوري' }, { title: 'توصيل سريع', sub: 'كل المحافظات' }, { title: 'ادفع كاش', sub: 'عند الاستلام' }],
-                                        en: [{ title: 'Verified Barcode', sub: 'Scan to Confirm' }, { title: 'Dealer Guarantee', sub: 'Instant Replace' }, { title: 'Quick Delivery', sub: 'All Governorates' }, { title: 'Pay Cash', sub: 'On Receipt' }]
-                                    },
-                                    { // Variant 2
-                                        ar: [{ title: 'مختوم بختم الشركة', sub: 'معتمد من الموزع' }, { title: 'حماية 18 شهر', sub: 'ضد عيوب الصناعة' }, { title: 'شحن مصر', sub: '1-3 أيام عمل' }, { title: 'دفع مرن', sub: 'كاش أو فودافون كاش' }],
-                                        en: [{ title: 'Company Sealed', sub: 'Distributor Certified' }, { title: '18-Month Shield', sub: 'Manufacturing Defects' }, { title: 'Egypt Shipping', sub: '1-3 Business Days' }, { title: 'Flexible Pay', sub: 'Cash or VodaCash' }]
-                                    },
-                                ];
-                                const selectedSet = isRTL ? trustItems[trustHash % trustItems.length].ar : trustItems[trustHash % trustItems.length].en;
-                                const icons = ['green', 'blue', 'indigo', 'emerald'];
-                                const iconColors = ['text-green-600', 'text-blue-600', 'text-indigo-600', 'text-emerald-600'];
-                                const iconPaths = [
-                                    'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z',
-                                    'M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z',
-                                    'M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0',
-                                    'M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z',
-                                ];
-                                return selectedSet.map((item, i) => (
-                                    <div key={i} className="flex items-center gap-2 md:gap-3 p-2 md:p-4 bg-white dark:bg-gray-900 rounded-lg md:rounded-xl border border-gray-100 dark:border-gray-800">
-                                        <svg className={`w-6 h-6 md:w-8 md:h-8 ${iconColors[i]} flex-shrink-0`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d={iconPaths[i]} />
-                                        </svg>
-                                        <div>
-                                            <div className="font-bold text-xs md:text-sm">{item.title}</div>
-                                            <div className="text-[10px] md:text-xs text-gray-500 dark:text-gray-400">{item.sub}</div>
-                                        </div>
-                                    </div>
-                                ));
-                            })()}
-                        </div>
+                        {/* Quality Badges removed — trust signals already covered by ProductGuarantees Trust Matrix below */}
                     </div>
                 </article>
             </div>
@@ -827,19 +778,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         </section>
                     )}
 
-                    {/* 2. CairoVolt Labs Test Results — Proof after claim */}
-                    {labTestData && (
-                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
-                            <TestResultsBlock
-                                testScenario={labTestData.testScenario}
-                                testResult={labTestData.testResult}
-                                testConditions={labTestData.testConditions}
-                                expertName={labTestData.expertName}
-                                expertProfileUrl={labTestData.expertProfileUrl}
-                                locale={locale}
-                            />
-                        </section>
-                    )}
+                    {/* TestResultsBlock removed — lab data already shown via ProductTestResults metrics below */}
 
                     {/* Product Test Results — product test metrics */}
                     {labMetrics && (
@@ -1041,24 +980,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                 </div>
             </div>
 
-            {/* Content Section */}
-            <div className="container mx-auto px-3 sm:px-4 py-8 md:py-12">
-                <div className="bg-gradient-to-br from-gray-100 to-gray-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-5 sm:p-8 md:p-12">
-                    <h2 className="text-2xl font-bold mb-4">
-                        {isRTL ? `لماذا تختار ${productName}؟` : `Why Choose ${productName}?`}
-                    </h2>
-                    <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
-                        {productShortDesc}
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                        {product.meta?.keywords?.split(',').slice(0, 6).map((keyword, idx) => (
-                            <span key={idx} className="px-3 py-1 bg-white dark:bg-gray-800 rounded-full text-sm text-gray-600 dark:text-gray-400 border border-gray-200 dark:border-gray-700">
-                                {keyword.trim()}
-                            </span>
-                        ))}
-                    </div>
-                </div>
-            </div>
+            {/* "Why Choose" section removed — shortDescription already shown above + keyword pills = potential stuffing */}
 
             {/* Verified Customer Reviews Section */}
             <div className="container mx-auto px-4 py-8">
