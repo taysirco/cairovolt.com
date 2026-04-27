@@ -28,6 +28,7 @@ export const joyroom_car_mount_zs290 = {
                 name: "Joyroom Magnetic Car Mount ZS290 | N52 Magnets | MagSafe | 360° | 12-Month Warranty",
                 shortDescription: "🧲 N52 Strong Magnets | 📱 MagSafe iPhone 17/16/15 | 🔄 360° Rotation | ❄️ Air Vent Clip | 🖐️ One-Hand Operation",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom ZS290 MagSafe car mount</strong> uses <strong>N52 magnets</strong> — the strongest consumer-grade magnets available. Holds iPhone firmly at 120km/h on Cairo's Ring Road. <strong>360° rotation</strong> for landscape GPS. At 2,550 EGP, it's the premium car mount.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -72,6 +73,7 @@ export const joyroom_car_mount_zs290 = {
         <li>📱 <strong>Any phone:</strong> Universal with metal plate.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe ONLY — does NOT work with non-MagSafe phones unless you add a MagSafe ring (sold separately). iPhone 12 and newer only. Not compatible with thick cases (>2mm). Dashboard adhesive may weaken in extreme Cairo summer heat (>50°C).</p></div>
 `,
                 features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom Magnetic Car Mount ⚡ N52 MagSafe | COD Egypt",
@@ -88,6 +90,7 @@ export const joyroom_car_mount_zs290 = {
                 name: "حامل جوال مغناطيسي جوي روم ZS290 | موبايلك مش هيقع في مطبات القاهرة | ضمان 12 شهر",
                 shortDescription: "أقوى مغناطيس للسيارة في مصر 🧲 N52 بيمسك ايفون برو ماكس كأنه ملزوق | ❄️ بيركب في التكييف من غير ما يكسر الريش | 🖐️ بتركبه وتفكه بإيد واحدة",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">حامل <strong>جوي روم ZS290 MagSafe للسيارة</strong> بيستخدم <strong>مغناطيس N52</strong> — أقوى مغناطيس متاح للمستهلك. بيمسك الايفون بثبات عند 120 كم/س على الدائري. <strong>دوران 360°</strong> لوضع GPS الأفقي. بـ 2,550 جنيه، الحامل الفاخر.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
@@ -132,6 +135,7 @@ export const joyroom_car_mount_zs290 = {
         <li>📱 <strong>أي هاتف:</strong> عالمي بالقطعة المعدنية.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">MagSafe بس — مش بيشتغل مع موبايلات بدون MagSafe إلا لو ضفت حلقة MagSafe (بتتباع لوحدها). ايفون 12 والأحدث بس. مش متوافق مع الجرابات السميكة (أكتر من 2 مم). لاصق التابلوه ممكن يضعف في حرارة صيف القاهرة الشديدة (فوق 50°م).</p></div>
 `,
                 features: ["🧲 مغناطيس N52 الأقوى", "📱 MagSafe تثبيت مباشر", "🔄 360° مفصل كروي", "❄️ مشبك التكييف", "🖐️ بيد واحدة", "📦 قطعة معدنية مشمولة", "🏆 ضمان 12 شهر"],
                 metaTitle: "حامل جوال مغناطيسي جوي روم ⚡ N52 MagSafe | ادفع عند الاستلام",

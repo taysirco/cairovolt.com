@@ -27,6 +27,7 @@ export const joyroom_ft3_smartwatch = {
                 name: "Joyroom FT3 Smart Watch | IP68 Waterproof | 20 Sports Modes | Heart Rate | 12-Month Warranty",
                 shortDescription: "⌚ IP68 Waterproof | 🏃 20 Sports Modes | ❤️ Heart Rate Monitor | 📱 iPhone 17 & Samsung S26 | 🔋 7-Day Battery",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom FT3 Smartwatch</strong> delivers <strong>IP68 waterproof + 20 sports modes + heart rate monitoring</strong> at 1,092 EGP. Works with iPhone AND Android. 7-day battery life. The budget alternative to Apple Watch for basic health tracking.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -70,6 +71,7 @@ export const joyroom_ft3_smartwatch = {
         <li>📱 <strong>Xiaomi / OnePlus / Pixel:</strong> Android app compatible.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This is NOT an Apple Watch — no App Store, no Apple Pay, no iMessage. Health readings (heart rate, SpO2) are estimates only, not medical-grade. Companion app required for full features. Notifications may lag on some Android devices.</p></div>
 `,
                 features: ["⌚ IP68 Waterproof", "🏃 20 Sports Modes", "❤️ 24/7 Heart Rate", "🔋 7-Day Battery", "📱 iPhone 17 & Samsung S26", "💬 Arabic Notifications", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom FT3 Smartwatch ⚡ 56% OFF | IP68 Waterproof | COD Egypt",
@@ -85,6 +87,7 @@ export const joyroom_ft3_smartwatch = {
                 name: "ساعة جوي روم FT3 الذكية | بديل اقتصادي يعيش معاك الجيم والمشاوير | ضمان 12 شهر",
                 shortDescription: "أشيك وأقوى ساعة في فئتها ⌚ IP68 غسيل إيدين وعرق الجيم | 🏃 20 وضع رياضي | 💬 إشعارات عربي مظبوطة | 🔋 7 أيام بطارية",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">ساعة <strong>جوي روم FT3 الذكية</strong> بتوفر <strong>مقاومة مياه IP68 + 20 وضع رياضي + مراقبة نبض القلب</strong> بـ 1,092 جنيه. بتشتغل مع ايفون وأندرويد. عمر بطارية 7 أيام. البديل الاقتصادي لساعة أبل لتتبع الصحة الأساسي.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -128,6 +131,7 @@ export const joyroom_ft3_smartwatch = {
         <li>📱 <strong>Xiaomi / OnePlus / Pixel:</strong> تطبيق اندرويد متوافق.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">دي مش ساعة أبل — مفيش App Store ولا Apple Pay ولا iMessage. قراءات الصحة (نبض القلب، SpO2) تقديرية فقط، مش درجة طبية. تطبيق مرافق مطلوب للميزات الكاملة. الإشعارات ممكن تتأخر على بعض أجهزة أندرويد.</p></div>
 `,
                 features: ["⌚ IP68 مقاومة للماء", "🏃 20 وضع رياضي", "❤️ مراقبة النبض 24/7", "🔋 7 أيام بطارية", "📱 ايفون 17 وسامسونج S26", "💬 إشعارات عربية", "🏆 ضمان 12 شهر"],
                 metaTitle: "ساعة جوي روم FT3 الذكية ⚡ خصم 56% | IP68 ضد المياه | ادفع عند الاستلام",

@@ -26,6 +26,7 @@ export const joyroom_car_phone_mount = {
                 name: "Joyroom Universal Car Phone Mount",
                 shortDescription: "Anti-shake car mount tested at 120km/h on Egyptian highways | Fits 4.7-7 inch phones with case | 360° rotation",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -48,6 +49,7 @@ export const joyroom_car_phone_mount = {
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Washable Nano-Suction Cup</h2>
         <p class="text-gray-700">The base uses a sticky gel pad combined with a vacuum suction mechanism. If it gets dusty and loses grip, simply rinse it with warm water, let it air dry, and it's good as new. Sticks securely to glass or textured dashboards.</p>
     </section>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>
 </div>`,
                 features: ["Fits phones up to 7 inches", "Strong suction cup mount", "Dashboard or windshield mounting", "360-degree rotation", "One-hand operation", "Adjustable arm length", "12-month warranty"],
                 metaTitle: "Joyroom Car Phone Mount ⚡ 58% OFF | Anti-Vibration | COD Egypt",
@@ -61,6 +63,7 @@ export const joyroom_car_phone_mount = {
                 name: "حامل موبايل للسيارة جوي روم | مبتهزش في مطبات الدائري | دوران 360° | يناسب كل الموبايلات",
                 shortDescription: "منقذك من غرامات المرور 🚓 كوب شفط قوي مش هيقع من شمس الصيف | 📱 يناسب ايفون 17 برو ماكس وسامسونج الترا | 👋 بتركبه وتفكه بإيد واحدة",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">حامل <strong>جوي روم العالمي للسيارة</strong> بـ <strong>169 جنيه</strong> بيناسب موبايلات من 4.7"-6.8" بآلية تثبيت قوية. أذرع زنبركية + وسائد مانعة للانزلاق. بيركّب على كل فتحات تكييف العربيات المصرية. اقتصادي بدون التضحية بالثبات.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة اللي تهمك:</h3>
     <ul class="list-none space-y-1">
@@ -83,6 +86,7 @@ export const joyroom_car_phone_mount = {
         <h2 class="text-2xl font-bold mb-2 text-gray-900">كوب شفط قابل للغسيل</h2>
         <p class="text-gray-700">القاعدة بتستخدم جل لاصق مع ميكانيزم تفريغ هواء. لو لم تراب وضعف لزقه، اغسله بشوية مية دافية وسيبه ينشف، هيرجع يلزق كأنه جديد. بيثبت بقوة على الزجاج أو التابلوه الملمس.</p>
     </section>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تركيب على فتحة التكييف بس — مفيش خيار تابلوه أو زجاج. ممكن يسد فتحة التكييف في الصيف لما تحتاج التكييف أكتر. مش مناسب للموبايلات التقيلة جداً بجرابات كبيرة. آلية الزنبرك ممكن ترتخي بعد 12+ شهر استخدام يومي.</p></div>
 </div>`,
                 features: ["يناسب هواتف حتى 7 بوصة", "كوب شفط قوي", "تثبيت على التابلوه أو الزجاج", "دوران 360 درجة", "تشغيل بيد واحدة", "ذراع قابل للتعديل", "ضمان 12 شهر"],
                 metaTitle: "حامل موبايل سيارة جوي روم ⚡ خصم 58% | ثبات ضد الاهتزاز | ادفع عند الاستلام",

@@ -26,6 +26,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
                 name: "Joyroom 3-in-1 MagSafe Station | iPhone 17 + Apple Watch + AirPods | 15W | Aluminum | 18-Month Warranty",
                 shortDescription: "📱 iPhone 17 15W MagSafe | ⌚ Apple Watch Fast Charge | 🎧 AirPods Pro 2 | 🔄 3 Devices Simultaneously | 🏛️ Premium Aluminum | 🏆 18-Month Warranty",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom 3-in-1 MagSafe Station</strong> charges <strong>iPhone 17 + Apple Watch + AirPods simultaneously</strong> at 15W. Premium aluminum build. Eliminates 3 cables from your nightstand. At 1,206 EGP, the premium Apple ecosystem dock.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -69,6 +70,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <li>🎧 <strong>AirPods Pro 2 / 3rd Gen:</strong> Wireless charging case.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Apple ecosystem ONLY — does NOT charge Samsung or Android wirelessly. Apple Watch charger module is Watch-specific. iPhone must be MagSafe compatible (iPhone 12+). AirPods must be wireless charging case model. Power adapter NOT included.</p></div>
 `,
                 features: ["📱 15W MagSafe iPhone", "⌚ Apple Watch Fast Charge", "🎧 AirPods Pro 2 Wireless", "🔄 3 Devices Simultaneously", "🏛️ Premium Aluminum", "📐 Adjustable StandBy Angle", "🔌 Single Cable Setup", "🏆 18-Month Warranty"],
                 metaTitle: "Joyroom 3-in-1 Wireless Station ⚡ iPhone+Watch+AirPods | COD Egypt",
@@ -84,6 +86,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
                 name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك | ضمان 18 شهر",
                 shortDescription: "شاحن واحد للايفون والساعة والايربودز 📱 MagSafe 15 واط | ⌚ شحن ابل واتش سريع | 🏛️ تصميم ألومنيوم فخم",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">محطة <strong>جوي روم 3 في 1 MagSafe</strong> بتشحن <strong>ايفون 17 + ساعة أبل + AirPods في نفس الوقت</strong> بـ 15 واط. بناء ألومنيوم فاخر. بتلغي 3 كابلات من الكومودينو. بـ 1,206 جنيه، محطة شحن نظام أبل الفاخرة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">
@@ -127,6 +130,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <li>🎧 <strong>ايربودز برو 2 / الجيل الثالث:</strong> علبة شحن لاسلكية.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">نظام أبل بس — مش بتشحن سامسونج أو أندرويد لاسلكياً. وحدة شحن ساعة أبل خاصة بالساعة بس. الايفون لازم يكون متوافق MagSafe (ايفون 12+). AirPods لازم يكون موديل العلبة اللاسلكية. محول الطاقة مش في العلبة.</p></div>
 `,
                 features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر"],
                 metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | ادفع عند الاستلام",

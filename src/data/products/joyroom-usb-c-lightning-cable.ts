@@ -28,6 +28,7 @@ export const joyroom_usb_c_lightning_cable = {
                 name: "Joyroom USB-C to Lightning Cable | 20W PD | Nylon Braided | 12-Month Warranty",
                 shortDescription: "⚡ 20W PD Fast Charging | 🔗 Nylon Braided 10,000+ Bends | 📱 iPhone 17/16/15 | 💾 480Mbps Data Transfer | 💰 Best Price Egypt",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom USB-C to Lightning cable</strong> at <strong>118 EGP</strong> is the budget entry point for real 20W PD fast charging. Nylon braided, 12-month warranty, 0→50% in ~30 min for iPhone 14/13/12. CairoVolt's best-selling cable by volume.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -72,6 +73,7 @@ export const joyroom_usb_c_lightning_cable = {
         <li>💻 <strong>Any USB-C source:</strong> MacBook, PD charger, power bank.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable — does NOT work with iPhone 17/16/15 (USB-C). This cable does NOT support fast charging with old USB-A chargers; you need a USB-C PD charger (sold separately) for 20W speed.</p></div>
 `,
                 features: ["⚡ 20W PD Fast Charging", "🔗 Nylon Braided 10K+ Bends", "💾 480Mbps Data Transfer", "📱 iPhone 17/16/15 Compatible", "🔩 Aluminum Reinforced Connectors", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom USB-C Lightning ⚡ 41% OFF | 20W Fast Charge | COD Egypt",
@@ -95,6 +97,7 @@ export const joyroom_usb_c_lightning_cable = {
                 name: "كابل جوي روم USB-C to Lightning | كابل ايفون أصلي مبيهنجش التاتش ومبيتقطعش | ضمان 12 شهر",
                 shortDescription: "كابل أصلي لو بطاريتك غالية عليك 🛡️ تيار مستقر مبيضربش البطارية | 💪 نايلون 10,000+ انحناء مش هيتقطع | ⚡ 20 واط PD شحن سريع | 💰 بسعر الكابلات العادية",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">كابل <strong>جوي روم USB-C لـ Lightning</strong> بـ <strong>118 جنيه</strong> هو أرخص نقطة دخول لشحن PD سريع حقيقي 20 واط. نايلون مجدول، ضمان 12 شهر، 0→50% في ~30 دقيقة لايفون 14/13/12. أكثر كابل مبيعاً في كايرو فولت.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -139,6 +142,7 @@ export const joyroom_usb_c_lightning_cable = {
         <li>💻 <strong>أي مصدر USB-C:</strong> ماك بوك، شاحن PD، باور بانك.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">كابل Lightning — مش بيشتغل مع ايفون 17/16/15 (USB-C). الكابل ده مش بيدعم شحن سريع مع شواحن USB-A القديمة؛ محتاج شاحن USB-C PD (بيتباع لوحده) لسرعة 20 واط.</p></div>
 `,
                 features: ["⚡ شحن سريع 20 واط PD", "🔗 نايلون مضفر 10K+ انحناء", "💾 480Mbps نقل بيانات", "📱 متوافق ايفون 17/16/15", "🔩 موصلات ألومنيوم", "💰 أفضل سعر مصر", "🏆 ضمان 12 شهر"],
                 metaTitle: "كابل جوي روم ايفون ⚡ خصم 41% | شحن سريع 20 واط | ادفع عند الاستلام",

@@ -26,6 +26,7 @@ export const joyroom_power_bank_10000 = {
                 name: "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display | 12-Month Warranty",
                 shortDescription: "🔋 10,000mAh (2x iPhone 17) | ⚡ Quick Charge 3.0 | 📊 LED Battery Display | 📏 Ultra-Slim 14mm | 🔌 Dual USB Output",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom 10000mAh Slim Power Bank</strong> features <strong>QC 3.0 fast output + LED display showing exact battery %</strong>. Ultra-slim design fits in shirt pockets. At 1,624 EGP, it's the premium compact power bank for professionals.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -71,6 +72,7 @@ export const joyroom_power_bank_10000 = {
         <li>⌚ <strong>Apple Watch / Smart Watch:</strong> ~10+ full charges.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Does NOT support PD protocol — iPhone 17/16/15 charges at standard QC speed, not maximum PD. 10000mAh gives about 2 full charges for most phones, not 3+. No wireless charging. LED display drains a small amount of standby power.</p></div>
 `,
                 features: [
                     "🔋 10,000mAh (2x iPhone 17 Charges)",
@@ -101,6 +103,7 @@ export const joyroom_power_bank_10000 = {
                 name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة) | ضمان 12 شهر",
                 shortDescription: "أرخص باور بانك أصلي في مصر 🔋 10,000 مللي (شحنتين ايفون 17) | ⚡ أسرع 4 مرات من الشاحن العادي | 📊 شاشة ديجيتال للنسبة",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم 10000mAh نحيف</strong> بميزة <strong>QC 3.0 خرج سريع + شاشة LED بتوريك نسبة البطارية بالظبط</strong>. تصميم نحيف جداً بيدخل جيب القميص. بـ 1,624 جنيه، باور بانك المحترفين الفاخر.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
@@ -146,6 +149,7 @@ export const joyroom_power_bank_10000 = {
         <li>⌚ <strong>ابل واتش / ساعة ذكية:</strong> ~10+ شحنة.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">مش بيدعم بروتوكول PD — ايفون 17/16/15 بيشحن بسرعة QC العادية، مش أقصى PD. 10000mAh بيدّي حوالي 2 شحنة كاملة لمعظم الموبايلات، مش 3+. مفيش شحن لاسلكي. شاشة LED بتستهلك كمية صغيرة من طاقة الاستعداد.</p></div>
 `,
                 features: [
                     "🔋 10,000 مللي أمبير (شحنتين ايفون 17)",

@@ -27,6 +27,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand | 18-Month Warranty",
                 shortDescription: "🔋 10000mAh (2x iPhone 17) | 🧲 MagSafe N52 Snap | ⚡ 15W Wireless + 20W USB-C | 📐 Built-in Kickstand | 📱 Charge 2 Devices | 🏆 18-Month Warranty",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom MagSafe Power Bank 10000mAh</strong> snaps magnetically to iPhone back and charges wirelessly at <strong>15W + 20W wired output</strong>. Built-in kickstand for FaceTime. At 850 EGP, it's the premium hands-free portable charging solution.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -71,6 +72,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <li>📺 <strong>iPad / Tablets:</strong> USB-C wired charging.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe wireless charging works with iPhone 12 and newer ONLY. Does NOT wirelessly charge Samsung or non-MagSafe phones. The 15W wireless is slower than wired; for fastest charge, use the USB-C port. Adds noticeable weight when attached to phone.</p></div>
 `,
                 features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty"],
                 metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD Egypt",
@@ -85,6 +87,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 name: "باور بانك جوي روم MagSafe 10000 | ألزقه في ظهر الايفون وكمل تصوير | ضمان 18 شهر",
                 shortDescription: "منقذ بطارية الايفون في رحلات الساحل 🧲 MagSafe N52 قوي مش هيقع | ⚡ 15 واط لاسلكي + 20 واط سلكي | 📐 حامل مدمج للفيديوهات",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">باور بانك <strong>جوي روم MagSafe 10000mAh</strong> بيلزق مغناطيسياً ع ضهر الايفون وبيشحن لاسلكياً بـ <strong>15 واط + 20 واط سلكي</strong>. حامل مدمج لـ FaceTime. بـ 850 جنيه، الحل الفاخر للشحن المحمول بدون يدين.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -129,6 +132,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <li>📺 <strong>ايباد / تابلت:</strong> شحن سلكي USB-C.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">شحن MagSafe اللاسلكي بيشتغل مع ايفون 12 والأحدث بس. مش بيشحن سامسونج أو موبايلات بدون MagSafe لاسلكياً. الـ 15 واط اللاسلكي أبطأ من السلكي؛ لأسرع شحن، استخدم منفذ USB-C. بيزوّد وزن ملحوظ لما يكون مركّب على الموبايل.</p></div>
 `,
                 features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر"],
                 metaTitle: "باور بانك جوي روم MagSafe 10000 ⚡ خصم 6% | شحن لاسلكي | ادفع عند الاستلام",

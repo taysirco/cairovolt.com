@@ -26,6 +26,7 @@ export const joyroom_25w_fast_charger = {
                 name: "Joyroom 25W PD Charger | iPhone 17 0→50% in 25 Min | Samsung Super Fast | 36-Month Warranty",
                 shortDescription: "⚡ 25W PD 3.0 | 📱 iPhone 17 0→50% in 25 Min | 📱 Samsung S26 Super Fast | 🛡️ MultiProtect | 🔌 Ultra-Compact | 🏆 36-Month Warranty",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -71,6 +72,7 @@ export const joyroom_25w_fast_charger = {
         <li>📺 <strong>iPad / Tablets:</strong> Fast charging.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included. Single USB-C port only — cannot charge 2 devices at once. For iPhone 14 and earlier, you need a USB-C to Lightning cable. This is NOT 45W — Samsung S26 Ultra users wanting maximum speed should pair with a 45W charger.</p></div>
 `,
                 features: ["⚡ 25W PD 3.0 Fast Charging", "📱 iPhone 17: 0→50% in 25 Min", "📱 Samsung Super Fast Charging", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Travel Design", "🌍 AC 100-240V Universal", "🏆 36-Month Warranty"],
                 metaTitle: "Joyroom 25W PD Charger ⚡ iPhone + Samsung | Official | COD Egypt",
@@ -86,6 +88,7 @@ export const joyroom_25w_fast_charger = {
                 name: "شاحن جوي روم 25 واط PD | الشاحن الوحيد اللي هتحتاجه للبيت كله | ضمان 36 شهر",
                 shortDescription: "شاحن واحد بيخلص مشاكل البيت ⚡ 25 واط بيشحن ايفون وسامسونج بسرعة جبارة | 🛡️ مبيهنجش التاتش زي الشواحن المضروبة | 🏆 ضمان 3 سنين كاملين",
                 description: `
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">شاحن <strong>جوي روم 25 واط PD 3.0</strong> هو "شاحن العيلة" — شاحن واحد لايفون 17 وسامسونج S26. <strong>0→50% في 25 دقيقة</strong> للايفون، سوبر فاست لسامسونج. ضمان 36 شهر. بـ 342 جنيه، بيغنيك عن شراء 2 شاحنين منفصلين.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">
@@ -131,6 +134,7 @@ export const joyroom_25w_fast_charger = {
         <li>📺 <strong>ايباد / تابلت:</strong> شحن سريع.</li>
     </ul>
 </div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل مش في العلبة. منفذ USB-C واحد بس — مش بيشحن 2 جهاز في نفس الوقت. لايفون 14 وأقدم، محتاج كابل USB-C لـ Lightning. ده مش 45 واط — مستخدمي سامسونج S26 ألترا اللي عايزين أقصى سرعة محتاجين شاحن 45 واط.</p></div>
 `,
                 features: ["⚡ شحن سريع 25 واط PD 3.0", "📱 ايفون 17: 0→50% في 25 دقيقة", "📱 سامسونج سوبر فاست", "🛡️ حماية 5 طبقات", "🔌 تصميم صغير للسفر", "🌍 AC 100-240V عالمي", "🏆 ضمان 36 شهر"],
                 metaTitle: "شاحن جوي روم 25 واط ⚡ ايفون + سامسونج أصلي 100% | ادفع عند الاستلام",
