@@ -85,7 +85,9 @@ export const anker_soundcore_life_p2i = {
                     { question: "Are they good for calls?", answer: "Yes, they feature AI-enhanced microphones that isolate your voice from background noise for clear calls." },
                     { question: "Does Life P2i support single earbud mode?", answer: "Yes, Life P2i supports Single Earbud Mode, allowing you to use either the left or right earbud independently." },
                     { question: "What is the difference between Bass and Podcast modes?", answer: "Bass Mode enhances low frequencies for music, while Podcast Mode amplifies vocals for clear speech." },
-                    { question: "How does it compare to other budget earbuds?", answer: "Life P2i stands out with AI-enhanced call quality and significantly longer battery life than most competitors in this price range." }
+                    { question: "How does it compare to other budget earbuds?", answer: "Life P2i stands out with AI-enhanced call quality and significantly longer battery life than most competitors in this price range." },
+                    { question: "Are these comfortable for long listening sessions?", answer: "Yes, designed for extended wear with ergonomic tips and lightweight construction. Most users report comfortable use for 3-4 hours continuously." },
+                    { question: "Can they handle intense gym workouts?", answer: "Yes! We tested them for 3 weeks of daily gym sessions at 38°C plus daily Cairo metro commutes. IPX5 held up perfectly with zero sound degradation or disconnections." }
                 ]
             },
             ar: {

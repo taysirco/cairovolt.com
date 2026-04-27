@@ -63,8 +63,7 @@ export const joyroom_car_phone_mount = {
         <li>❌ <strong>iPad Mini / Tablets:</strong> Too heavy, not recommended.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>
-</div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>`,
                 features: ["Fits phones up to 7 inches", "Strong suction cup mount", "Dashboard or windshield mounting", "360-degree rotation", "One-hand operation", "Adjustable arm length", "12-month warranty"],
                 metaTitle: "Joyroom Car Phone Mount ⚡ 58% OFF | Anti-Vibration | COD",
                 metaDesc: "Joyroom Car Phone Mount — holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360° rotation. ✓ COD ✓ Fast Delivery Egypt.",
@@ -117,8 +116,7 @@ export const joyroom_car_phone_mount = {
         <li>❌ <strong>ايباد ميني / تابلت:</strong> تقيل جداً، مش مناسب.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تركيب على فتحة التكييف بس — مفيش خيار تابلوه أو زجاج. ممكن يسد فتحة التكييف في الصيف لما تحتاج التكييف أكتر. مش مناسب للموبايلات التقيلة جداً بجرابات كبيرة. آلية الزنبرك ممكن ترتخي بعد 12+ شهر استخدام يومي.</p></div>
-</div>`,
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تركيب على فتحة التكييف بس — مفيش خيار تابلوه أو زجاج. ممكن يسد فتحة التكييف في الصيف لما تحتاج التكييف أكتر. مش مناسب للموبايلات التقيلة جداً بجرابات كبيرة. آلية الزنبرك ممكن ترتخي بعد 12+ شهر استخدام يومي.</p></div>`,
                 features: ["يناسب هواتف حتى 7 بوصة", "كوب شفط قوي", "تثبيت على التابلوه أو الزجاج", "دوران 360 درجة", "تشغيل بيد واحدة", "ذراع قابل للتعديل", "ضمان 12 شهر"],
                 metaTitle: "حامل موبايل سيارة جوي روم ⚡ خصم 58% | ثبات ضد الاهتزاز",
                 metaDesc: "حامل جوال سيارة جوي روم - يثبت ايفون 17 برو ماكس وسامسونج S26 الترا بأمان. تابلوه أو زجاج. دوران 360. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
@@ -135,7 +133,7 @@ export const joyroom_car_phone_mount = {
             en: "The Joyroom Universal Car Phone Mount survived our Cairo road test — 200km of potholes, speed bumps, and Ring Road vibrations without dropping the phone once.'s most popular car models. The suction cup withstands 45°C dashboard temperatures — a critical factor that cheap mounts fail at during Egyptian summers.",
             ar: "مجرب في 4 من أشهر موديلات السيارات في مصر. كاسة الشفط تتحمل 45°C على التابلوه — عامل حاسم الحوامل الرخيصة بتفشل فيه في صيف مصر."
         },
-        meta: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, car mount suction cup, حامل موبايل عربية, حامل تابلو سيارة, phone holder egypt price, حامل سيارة ضد الاهتزاز, حامل جوال ادفع عند الاستلام", mainTerm: "joyroom car phone mount" },
+        meta: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, car mount suction cup, حامل موبايل عربية, حامل تابلو سيارة, phone holder egypt price, حامل سيارة ضد الاهتزاز, حامل جوال ادفع عند الاستلام, joyroom car phone mount", mainTerm: "joyroom car phone mount" },
         relatedProducts: [
         "joyroom-car-mount-zs290",
         "joyroom-60w-car-charger",

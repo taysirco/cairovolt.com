@@ -64,7 +64,7 @@ export const joyroom_type_c_lightning_36mos = {
                 ]
             }
         },
-        meta: { keywords: "joyroom lightning 36 month, كابل ضمان 36 شهر, كابل ايفون ضمان طويل, كابل جوي روم, جوي روم كابل ايفون, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم", mainTerm: "joyroom lightning 36 month warranty" },
+        meta: { keywords: "joyroom lightning 36 month, كابل ضمان 36 شهر, كابل ايفون ضمان طويل, كابل جوي روم, جوي روم كابل ايفون, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, joyroom lightning 36 month warranty", mainTerm: "joyroom lightning 36 month warranty" },
         expertOpinion: {
             en: "The 'buy it for life' cable — 36 months is the longest warranty in Egypt. Our 6-month daily-use test showed zero degradation at 25,000+ bend cycles. Premium nylon braiding with Kevlar core delivers 30W PD reliably. At 131 EGP over 3 years (0.12 EGP/day), it costs less than three cheap replacements.",
             ar: "كابل بضمان 36 شهر حقيقي — ده كابل بيتحمل الاستخدام اليومي المكثف وبيوصل سرعة الشحن الكاملة لايفون 17. اختبرناه 6 شهور بنتيجة صفر تدهور.'اشتريه للعمر' من الكابلات. 3 سنوات تعتبر دهراً في اكسسوارات التقنية. البناء مدرع ليتناسب مع الضمان. إذا تعبت من استبدال الكابلات باستمرار، فهذه محطتك الأخيرة."

@@ -85,7 +85,8 @@ export const joyroom_power_bank_20000 = {
                     { question: "What is 22.5W fast charging?", answer: "It is a high-speed charging protocol supported by Huawei (SCP) and some other Android devices for rapid top-ups." },
                     { question: "Does it display exact battery percentage?", answer: "Yes, the digital LED display shows the exact remaining battery percentage, so you never guess." },
                     { question: "Can I charge 3 devices?", answer: "Yes, it has 3 output ports (2 USB-A and 1 USB-C), allowing simultaneous charging for three devices." },
-                    { question: "Is Joyroom 20000mAh good value?", answer: "Yes, Joyroom offers high capacity at a lower price point than premium brands. Great value choice." }
+                    { question: "Is Joyroom 20000mAh good value?", answer: "Yes, Joyroom offers high capacity at a lower price point than premium brands. Great value choice." },
+                    { question: "Can I take this on a plane?", answer: "Power banks under 100Wh (approximately 27,000mAh at 3.7V) are allowed in carry-on luggage on all airlines. Check your specific capacity against airline regulations." }
                 ]
             },
             ar: {

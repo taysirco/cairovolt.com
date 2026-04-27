@@ -81,7 +81,8 @@ export const joyroom_25w_fast_charger = {
                     { question: "Can this charger fast charge iPhone 17?", answer: "Yes! The Joyroom 25W charger provides optimal fast charging for iPhone 17, charging from 0-50% in approximately 25 minutes. iPhone 17 supports up to 30W, so this 25W charger delivers near-maximum speeds." },
                     { question: "Does it support Samsung S26 Super Fast Charging?", answer: "Yes, it supports Samsung's Super Fast Charging protocol. While S26 can accept up to 45W, the 25W output still provides excellent fast charging speeds, reaching 50% in about 30 minutes." },
                     { question: "Is it safe for overnight charging?", answer: "Absolutely. The charger features MultiProtect safety including over-voltage, over-current, over-temperature, and short-circuit protection. It's certified safe for extended charging." },
-                    { question: "What cable do I need for iPhone 17?", answer: "You need a USB-C to USB-C cable for iPhone 17 (or USB-C to Lightning for iPhone 14 and earlier). The cable is not included - we recommend pairing with our Joyroom certified cables." }
+                    { question: "What cable do I need for iPhone 17?", answer: "You need a USB-C to USB-C cable for iPhone 17 (or USB-C to Lightning for iPhone 14 and earlier). The cable is not included - we recommend pairing with our Joyroom certified cables." },
+                    { question: "Is this charger safe for overnight charging?", answer: "Yes. Built-in MultiProtect safety includes over-voltage, over-current, and temperature protection that automatically stops charging when your battery reaches 100%." }
                 ]
             },
             ar: {

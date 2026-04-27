@@ -124,6 +124,6 @@ export const anker_a2732_charger_35w = {
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر, anker car charger, anker a2732, شاحن سيارة usb-c, anker powerdrive pd, شاحن عربية انكر, anker fast car charger, anker dual usb car charger, anker best car charger 2026, anker cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر", mainTerm: "شاحن سيارة انكر 35 واط" },
+        meta: { keywords: "شاحن سيارة انكر, anker car charger, anker a2732, شاحن سيارة usb-c, anker powerdrive pd, شاحن عربية انكر, anker fast car charger, anker dual usb car charger, anker best car charger 2026, anker cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر 35 واط", mainTerm: "شاحن سيارة انكر 35 واط" },
         expertOpinion: { en: "The A2732 is the upgrade from basic dual USB-A car chargers. USB-C PD at 20W actually fast-charges your iPhone during commutes, while the USB-A port handles legacy devices. 35W total, compact design, LED ring for dark interiors. Best PD car charger under 600 EGP.", ar: "الـ A2732 هو ترقية شاحن السيارة العادي. USB-C PD بـ 20 واط بيشحن ايفونك فعلاً بسرعة أثناء المشاوير، و USB-A بيتعامل مع الأجهزة القديمة. 35 واط إجمالي، تصميم مدمج، حلقة LED للعربية في الضلمة. أفضل شاحن سيارة PD تحت 600 جنيه." }
     };

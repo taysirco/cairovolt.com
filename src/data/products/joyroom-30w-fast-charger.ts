@@ -82,7 +82,8 @@ export const joyroom_30w_fast_charger = {
                     { question: "Is 30W the maximum for iPhone 17?", answer: "Yes! Apple's iPhone 17 supports maximum 30W wired charging. This Joyroom 30W charger delivers the full maximum charging speed, charging 0-50% in just 20 minutes." },
                     { question: "What's the difference between PD and QC?", answer: "PD (Power Delivery) is used by Apple and newer Samsung devices. QC (Quick Charge) is Qualcomm's protocol used by many Android phones. This charger supports BOTH, so it fast-charges virtually any smartphone." },
                     { question: "Can I charge my MacBook with this?", answer: "While it will charge MacBook Air slowly, for optimal MacBook charging we recommend our 45W or higher chargers. This 30W is perfect for phones and tablets." },
-                    { question: "Does it come with a cable?", answer: "No, the cable is sold separately. For iPhone 17, pair with our USB-C to USB-C cable. For older iPhones, use USB-C to Lightning cable." }
+                    { question: "Does it come with a cable?", answer: "No, the cable is sold separately. For iPhone 17, pair with our USB-C to USB-C cable. For older iPhones, use USB-C to Lightning cable." },
+                    { question: "Is this charger safe for overnight charging?", answer: "Yes. Built-in MultiProtect safety includes over-voltage, over-current, and temperature protection that automatically stops charging when your battery reaches 100%." }
                 ]
             },
             ar: {

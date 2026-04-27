@@ -159,7 +159,7 @@ export const anker_soundcore_motion_plus = {
             }
         },
         meta: {
-            keywords: "anker motion+, soundcore motion+ egypt, سعر anker motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, anker speaker egypt, soundcore app, waterproof speaker cairo, anker bluetooth speaker egypt, anker portable speaker, anker best speaker egypt 2026, anker cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر",
+            keywords: "anker motion+, soundcore motion+ egypt, سعر anker motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, anker speaker egypt, soundcore app, waterproof speaker cairo, anker bluetooth speaker egypt, anker portable speaker, anker best speaker egypt 2026, anker cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, سماعة anker motion+",
             mainTerm: "سماعة anker motion+"
         },
         expertOpinion: {
