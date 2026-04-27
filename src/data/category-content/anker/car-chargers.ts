@@ -8,7 +8,7 @@ export const anker_car_chargers_content: CategoryContent = {
                 en: {
                     title: 'Anker Car Charger Egypt | Fast Charging 48W',
                     description: 'Shop original Anker Car Charger in Egypt. Fast charging 48W, dual ports. Official warranty.',
-                    keywords: 'anker car charger, car charger egypt, fast car charger, anker powerdrive',
+                    keywords: 'anker car charger, car charger egypt, fast car charger, anker powerdrive, anker 535 car charger, شاحن سيارة انكر, USB C car charger egypt',
                 },
                 ar: {
                     title: 'شاحن سيارة انكر | Anker Car Charger Egypt - شحن سريع',
@@ -53,6 +53,14 @@ export const anker_car_chargers_content: CategoryContent = {
                         {
                             question: 'هل يمكنني شحن اللابتوب في السيارة؟',
                             answer: 'نعم، ولكن تحتاج لشاحن سيارة بقوة 65 واط أو أكثر (موديلات Anker Prime Car Charger) لضمان شحن اللابتوب أثناء الاستخدام.'
+                        },
+                        {
+                            question: 'هل شاحن السيارة بيسخن في الصيف؟',
+                            answer: 'شواحن انكر بتستخدم جسم معدني (Alloy Body) بيشتت الحرارة بكفاءة. نظام MultiProtect بيراقب الحرارة وبيفصل تلقائياً لو وصلت لمستوى غير آمن. مصمم خصيصاً للحرارة العالية.'
+                        },
+                        {
+                            question: 'هل بيشحن ايفون وسامسونج في نفس الوقت؟',
+                            answer: 'أيوه! موديل 48W+ فيه منفذين: USB-C PD للايفون (شحن سريع 30W) و USB-A PowerIQ للسامسونج (18W). كل منفذ بيشتغل بأقصى سرعة بشكل مستقل.'
                         }
                     ],
                     products: [
@@ -96,7 +104,15 @@ No. Anker chargers draw negligible power when the car is off, ensuring your car 
                     faq: [
                         {
                             question: 'Can I charge my MacBook in the car?',
-                            answer: 'Yes, but you need a high-wattage model (65W+) like the Anker Prime Car Charger to charge a laptop effectively while running.'
+                            answer: 'Yes, but you need a high-wattage model (65W+) like the Anker Prime Car Charger to charge a laptop effectively while running apps and GPS simultaneously.'
+                        },
+                        {
+                            question: 'Does the car charger overheat in summer?',
+                            answer: 'Anker uses premium alloy body construction that dissipates heat efficiently. The MultiProtect system monitors temperature and auto-shuts if it reaches unsafe levels. Engineered specifically for extreme heat environments.'
+                        },
+                        {
+                            question: 'Can it charge iPhone and Samsung simultaneously?',
+                            answer: 'Yes! The 48W+ model has dual ports: USB-C PD for iPhone (30W fast charge) and USB-A PowerIQ for Samsung (18W). Each port operates at maximum speed independently without power sharing.'
                         }
                     ],
                     products: [

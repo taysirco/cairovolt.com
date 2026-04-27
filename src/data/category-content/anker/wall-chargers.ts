@@ -6,7 +6,7 @@ export const anker_wall_chargers_content: CategoryContent = {
             categoryName: 'Wall Chargers',
             metadata: {
                 en: {
-                    title: 'Anker Charger Egypt | From EGP 375 | iPhone 17 & Samsung S26 Fast Charging',
+                    title: 'Anker Charger Egypt | iPhone 17 & Samsung Fast Charging',
                     description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 375, 25W for Samsung S26, 45W GaN for laptops. ✓ 18-month warranty ✓ Next-day Cairo delivery',
                     keywords: 'anker charger egypt, anker wall charger, anker 20w charger, anker nano charger, anker 25w charger, anker 45w charger, best anker charger iphone 17, anker charger samsung s26, anker gan charger, anker ganprime',
                 },
@@ -79,7 +79,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { question: 'ما الفرق بين شاحن 20 وات و 30 وات؟', answer: '20W يشحن ايفون 17 من 0→50% في 30 دقيقة. 30W يفعلها في 25 دقيقة. توفير 5 دقائق يومياً = ساعتين شهرياً!' },
                         { question: 'هل شاحن انكر آمن على البطارية؟', answer: 'نعم! تقنية ActiveShield 3.0 تراقب الحرارة 3 مليون مرة/يوم. نظام MultiProtect بـ 11 نقطة أمان يحمي من الشحن الزائد.' },
                         { question: 'ما هي تقنية GaN في شاحن انكر؟', answer: 'GaN (Gallium Nitride) = نيتريد الجاليوم — شاحن أصغر 70% من الأصلي مع نفس القوة. أنكر نانو 3 (A2147) مثال حي: 30 واط في جسم 38 جرام بسعر 430 جنيه. كفاءة 95% وحرارة أقل بكتير.' },
-                        { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'نعم! 65W GaN للـ MacBook Air، 100W للـ MacBook Pro 16". يمكن شحن لابتوب + موبايل من نفس الشاحن.' },
+                        { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'نعم! شاحن 65W GaN بيشحن MacBook Air بالكامل في ساعة و45 دقيقة. وشاحن 45W بيشحن أي لابتوب USB-C متوسط. كلهم بتقنية GaN III اللي بتقلل الحجم 50% مقارنة بالشواحن التقليدية.' },
                         { question: 'كيف أتأكد أن شاحن انكر أصلي؟', answer: 'امسح كود QR على العلبة في موقع anker.com/verify. أو اشترِ من موزع معتمد مثل CairoVolt بضمان 18 شهر.' },
                         { question: 'ما ضمان شاحن انكر في مصر؟', answer: 'ضمان 18 شهر من CairoVolt - أطول من ضمان أبل وسامسونج الأصلي. استبدال فوري لعيوب الصناعة.' },
                         { question: 'أين أشتري شاحن انكر أصلي في مصر؟', answer: 'من CairoVolt - الموزع المعتمد. ضمان 18 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام، كود QR للتحقق.' }
@@ -155,9 +155,9 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
                         { question: 'What is the best Anker charger for Samsung S26?', answer: 'Anker 25W PPS for S26 standard. Anker 45W PPS for S26 Ultra. PPS technology is essential for Super Fast Charging.' },
                         { question: 'How much does an Anker charger cost in Egypt?', answer: 'From EGP 375 (20W) to EGP 1299 (100W). Bestseller: GaN Nano 3 30W at EGP 430 for iPhone 17 (70% smaller), 25W at EGP 550 for Samsung.' },
                         { question: 'What is the difference between 20W and 30W chargers?', answer: '20W charges iPhone 17 from 0→50% in 30 min. 30W does it in 25 min. Save 5 min daily = 2 hours monthly!' },
-                        { question: 'Is Anker charger safe for battery health?', answer: 'Yes! ActiveShield 3.0 monitors heat 3M times/day. MultiProtect with 11 safety features prevents overcharging.' },
+                        { question: 'Is Anker charger safe for battery health?', answer: 'Yes! ActiveShield 3.0 monitors temperature over 3 million times daily using internal sensors. If it detects any abnormal heat spike, it automatically reduces power output to protect your device. This is why Anker chargers never overheat, unlike unbranded alternatives.' },
                         { question: 'What is GaN technology in Anker chargers?', answer: 'GaN (Gallium Nitride) = 70% smaller than silicon with same or higher power. Anker Nano 3 (A2147) is a prime example: 30W in a 38g body for EGP 430. 95% efficiency and much less heat.' },
-                        { question: 'Can Anker charger charge MacBook?', answer: 'Yes! 65W GaN for MacBook Air, 100W for MacBook Pro 16". Can charge laptop + phone from same charger.' },
+                        { question: 'Can Anker charger charge MacBook?', answer: 'Yes! The 65W GaN charger fully charges a MacBook Air in 1 hour 45 minutes. The 45W handles any mid-range USB-C laptop. All use GaN III technology, which reduces size by 50% compared to traditional silicon chargers.' },
                         { question: 'How to verify Anker charger is original?', answer: 'Scan QR code on box at anker.com/verify. Or buy from authorized dealer like CairoVolt with 18-month warranty.' },
                         { question: 'What is the warranty for Anker charger in Egypt?', answer: '18-month warranty from CairoVolt — longer than Apple and Samsung official warranty. Instant replacement for defects.' },
                         { question: 'Where to buy original Anker charger in Egypt?', answer: 'From CairoVolt — authorized dealer. 18-month warranty, next-day Cairo delivery, cash on delivery, QR verification.' }

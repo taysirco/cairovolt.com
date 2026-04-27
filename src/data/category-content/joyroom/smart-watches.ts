@@ -8,12 +8,12 @@ export const joyroom_smart_watches_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Smart Watch Egypt | Fitness Tracker',
                     description: 'Shop Joyroom Smart Watch in Egypt. Fitness tracker, health monitoring. Affordable prices.',
-                    keywords: 'joyroom smart watch, joyroom watch, fitness tracker, smart watch egypt',
+                    keywords: 'joyroom smart watch, joyroom watch, fitness tracker, smart watch egypt, joyroom FT3 pro, joyroom AMOLED watch',
                 },
                 ar: {
                     title: 'ساعات جوي روم الذكية | Joyroom Smart Watch Egypt',
-                    description: 'تسوقاعات جوي روم الذكية في مصر. ساعة ذكية Joyroom بمميزات رائعة وسعر اقتصادي.',
-                    keywords: 'ساعة جوي روم, ساعة ذكية, joyroom smart watch, fitness tracker',
+                    description: 'تسوق ساعات جوي روم الذكية في مصر. ساعة FT3 Pro بشاشة AMOLED ومكالمات بلوتوث. بطارية 7 أيام، مقاومة ماء IP68. ضمان سنة + توصيل.',
+                    keywords: 'ساعة جوي روم, ساعة ذكية مصر, joyroom FT3, ساعة AMOLED جوي روم, ساعة رياضية ذكية, ساعة بلوتوث كولينج',
                 }
             },
             pageContent: {

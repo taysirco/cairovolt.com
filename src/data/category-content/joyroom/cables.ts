@@ -8,12 +8,12 @@ export const joyroom_cables_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Cable Egypt | Lightning, USB-C',
                     description: 'Shop original Joyroom cables in Egypt. Lightning, USB-C cables at affordable prices.',
-                    keywords: 'joyroom cable, joyroom lightning cable, joyroom type c cable, cable egypt',
+                    keywords: 'joyroom cable, joyroom lightning cable, joyroom type c cable, cable egypt, joyroom usb c cable, كابل جوي روم',
                 },
                 ar: {
                     title: 'كابل جوي روم | Joyroom Cable Egypt - وصلة جيروم',
-                    description: 'تسوق كابل جوي روم الأصلي في مصر. وصلة جيروم للآيفون وتايب سي بأفضل سعر.',
-                    keywords: 'كابل جوي روم, وصلة جيروم, وصلة شاحن, كابل شحن',
+                    description: 'تسوق كابل جوي روم الأصلي في مصر. وصلة جيروم شحن سريع للايفون وتايب سي. ضمان حتى 36 شهر + توصيل لكل مصر بأفضل سعر.',
+                    keywords: 'كابل جوي روم, وصلة جيروم, وصلة شاحن, كابل شحن, كابل جوي روم ايفون, كابل تايب سي جوي روم',
                 }
             },
             pageContent: {

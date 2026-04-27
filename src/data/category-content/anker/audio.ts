@@ -59,7 +59,7 @@ export const anker_audio_content: CategoryContent = {
                     ],
                     en: [
                         { question: 'What is the difference between Soundcore R50i, P20i, and Liberty 4?', answer: 'R50i (EGP 950): Budget-friendly with excellent sound and 10-hour battery. P20i (EGP 820): Same price, different design with more colors. Liberty 4 (Flagship): Features ANC, Hi-Res Audio, and personalized HearID. Choose R50i for budget, Liberty 4 for the full experience.' },
-                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Not all models! R50i & P20i don\'t have ANC (but provide passive isolation). Liberty 4 & P40i come with active ANC that blocks 98% of noise. If you commute frequently, ANC is worth the upgrade.' },
+                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Not all models feature ANC. The R50i NC and Space A40 have active noise cancellation with transparency mode, while the R50i and P2i focus on passive noise isolation, which is still excellent for commuting and gym use.'t have ANC (but provide passive isolation). Liberty 4 & P40i come with active ANC that blocks 98% of noise. If you commute frequently, ANC is worth the upgrade.' },
                         { question: 'How can I verify if my Soundcore earbuds are genuine?', answer: 'The safest method: Download the Soundcore App from App Store or Google Play and try to pair your earbuds. If the app doesn\'t recognize them = 100% fake. Genuine products appear instantly and allow firmware updates and EQ customization.' },
                         { question: 'Which is better: Soundcore or AirPods?', answer: 'Depends on your needs! AirPods are excellent for iPhone users and Apple ecosystem. Soundcore offers the same quality (sometimes better bass) at half the price or less, with Hi-Res Audio and a powerful customization app. For smart budgets, Soundcore wins.' },
                         { question: 'Is the Soundcore app available in Arabic?', answer: 'The app is currently English-only but very user-friendly. It lets you: customize EQ (sound), activate HearID (personal audio profile), update earbuds firmware, and track lost earbuds. Available free on iOS & Android.' }
@@ -116,11 +116,11 @@ export const anker_audio_content: CategoryContent = {
                     faq: [
                         {
                             question: 'ما هو الفرق بين R50i و P20i؟',
-                            answer: 'الفرق الرئيسي في التصميم. R50i بتصميم "عصا" أطول قليلاً وجودة مايك أفضل قليلاً، بينما P20i أصغر وأخف. الصوت والبطارية متطابقان تقريباً.'
+                            answer: 'الفرق الرئيسي بينهم في التصميم والمميزات. R50i بتصميم in-ear مع عزل صوتي ممتاز وبطارية أطول. Life P2i بتصميم أكبر قليلاً مع باس أقوى. كلاهما بيدعم بلوتوث 5.3 وضمان 18 شهر من CairoVolt.'
                         },
                         {
                             question: 'هل يوجد تأخير في الصوت (Delay) مع الألعاب؟',
-                            answer: 'معظم سماعات انكر الحديثة تدعم "وضع الألعاب" (Game Mode) عبر التطبيق، الذي يقلل التأخير لأقل من 70ms لتجربة لعب سلسة.'
+                            answer: 'معظم سماعات انكر الحديثة بتدعم الشحن اللاسلكي للعلبة. R50i NC وSpace A40 بيتشحنوا لاسلكياً على أي قاعدة Qi. الموديلات الاقتصادية زي R50i العادية بتتشحن بكابل USB-C فقط.'
                         }
                     ],
                     products: [
@@ -167,11 +167,11 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                     faq: [
                         {
                             question: 'What is the difference between R50i and P20i?',
-                            answer: 'The main difference is the design. R50i has a slightly longer "stem" design (better mic), while P20i is more compact. Sound and battery are nearly identical.'
+                            answer: 'The main difference is in design and features. R50i has an in-ear design with excellent passive isolation and longer battery life. Life P2i has a slightly larger housing with stronger bass response. Both support Bluetooth 5.3 and come with CairoVolt's 18-month warranty.'
                         },
                         {
                             question: 'Is there audio lag when gaming?',
-                            answer: 'Most modern Anker earbuds support "Game Mode" via the app, which reduces latency to under 70ms for a smooth gaming experience.'
+                            answer: 'Most modern Anker earbuds support wireless charging for the case. The R50i NC and Space A40 charge wirelessly on any Qi pad. Budget models like the standard R50i charge via USB-C cable only.'
                         }
                     ],
                     products: [

@@ -8,7 +8,7 @@ export const joyroom_power_banks_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Power Bank Egypt | 20000mAh, 10000mAh',
                     description: 'Shop original Joyroom Power Bank in Egypt. Joyroom 20000mAh, 10000mAh power banks. Affordable quality with warranty. Best prices.',
-                    keywords: 'joyroom power bank, joyroom power bank 10000, joyroom power bank 20000, power bank egypt',
+                    keywords: 'joyroom power bank, joyroom power bank 10000, joyroom power bank 20000, power bank egypt, joyroom magnetic power bank, portable charger joyroom',
                 },
                 ar: {
                     title: 'باور بانك جوي روم | Joyroom Power Bank Egypt - أسعار',

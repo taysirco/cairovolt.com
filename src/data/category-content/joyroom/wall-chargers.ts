@@ -8,7 +8,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Charger Egypt | Fast Charging 20W',
                     description: 'Shop original Joyroom Charger in Egypt. Fast charging 20W, affordable prices. Official warranty.',
-                    keywords: 'joyroom charger, joyroom 20w, charger egypt, fast charger',
+                    keywords: 'joyroom charger, joyroom 20w, charger egypt, fast charger, joyroom pd charger, joyroom 30w charger egypt',
                 },
                 ar: {
                     title: 'شاحن جوي روم | Joyroom Charger Egypt - شاحن جيروم سريع',
@@ -50,7 +50,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                         },
                         {
                             question: 'هل يدعم Super Fast Charging لسامسونج؟',
-                            answer: 'نعم، الموديلات التي تدعم تقنية PPS (تأكد من المواصفات) تدعم الشحن الخارق لسامسونج.'
+                            answer: 'نعم، الموديلات اللي بتدعم تقنية PPS (25 واط وأعلى) بتشحن سامسونج Super Fast Charging. شاحن 30 واط كافي لشحن أي سامسونج جديد بالسرعة الكاملة. الشاحن بيتفاوض تلقائياً مع جهازك عشان يديه أقصى سرعة آمنة.'
                         }
                     ],
                     products: [
@@ -88,11 +88,11 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     faq: [
                         {
                             question: 'Does it get hot?',
-                            answer: 'Slight warmth is normal during fast charging. However, Joyroom\'s thermal sensors cut off power instantly if limits are exceeded.'
+                            answer: 'Slight warmth is normal during fast charging — GaN chips run up to 15°C cooler than traditional silicon chargers. Joyroom uses multi-layer thermal protection with built-in temperature sensors that auto-throttle if temperatures exceed safe limits. Your device is fully protected.'s thermal sensors cut off power instantly if limits are exceeded.'
                         },
                         {
                             question: 'Which Joyroom chargers support Samsung Super Fast Charging?',
-                            answer: 'Models with PPS support (25W+ with PPS in specs) fully activate Samsung\'s Super Fast Charging mode. The Joyroom 25W and 30W chargers both support it.'
+                            answer: 'Models with PPS support (25W and above) deliver Samsung Super Fast Charging speeds. The 30W charger handles any Samsung flagship at maximum speed. The charger automatically negotiates with your device's charging IC to deliver the highest safe power level.'s Super Fast Charging mode. The Joyroom 25W and 30W chargers both support it.'
                         }
                     ],
                     products: [

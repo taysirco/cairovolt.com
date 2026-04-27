@@ -77,7 +77,7 @@ export const joyroom_audio_content: CategoryContent = {
                         { question: 'كيف أتأكد أن سماعات جوي روم أصلية؟', answer: 'بالكود الذهبي! اكشط الملصق على العلبة وأرسل الكود بـ SMS. ستصلك رسالة تأكيد الأصالة فوراً. نحن موزع معتمد.' },
                         { question: 'ما الفرق بين جوي روم والايربودز الأصلية؟', answer: 'نفس الميزات (ANC, Spatial Audio, Pop-up Pairing) لكن بسعر أقل 90%. جوي روم T03s Pro بـ 699 ج vs ايربودز Pro بـ 12,000+ ج.' },
                         { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'T03s Pro: 6 ساعات للسماعة + 24 ساعة مع علبة الشحن. T03s Pro Max: 8 + 32 ساعة. يكفي يوم كامل بسهولة.' },
-                        { question: 'ما ضمان سماعات جوي روم في مصر؟', answer: 'ضمان الكود الذهبي 12 شهر من CairoVolt. استبدال فوري (ليس إصلاح!) لعيوب الصناعة.' },
+                        { question: 'ما ضمان سماعات جوي روم في مصر؟', answer: 'ضمان الكود الذهبي من CairoVolt بيغطي 12 شهر كامل ضد عيوب الصناعة. لو السماعة فيها مشكلة في الصوت أو البطارية أو البلوتوث، بنبدّلها فوراً بدون أسئلة. كل منتج عليه كود تتبع خاص.' },
                         { question: 'أين أشتري سماعات جوي روم الأصلية في مصر؟', answer: 'من CairoVolt - موزع معتمد. الكود الذهبي، ضمان 12 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام.' }
                     ],
                     products: [
@@ -146,8 +146,8 @@ Joyroom earbuds offer premium AirPods-like features at budget-friendly prices. T
                         { question: 'How do I verify Joyroom earbuds are authentic?', answer: 'Golden Code! Scratch the sticker on the box and send the code via SMS. You will receive instant authenticity confirmation. We are authorized dealers.' },
                         { question: 'How do Joyroom compare to original AirPods?', answer: 'Same features (ANC, Spatial Audio, Pop-up Pairing) but 90% cheaper. Joyroom T03s Pro at EGP 699 vs AirPods Pro at 12,000+ EGP.' },
                         { question: 'What is the battery life of Joyroom earbuds?', answer: 'T03s Pro: 6 hours per bud + 24 hours with charging case. T03s Pro Max: 8 + 32 hours. Easily lasts a full day.' },
-                        { question: 'What is the warranty for Joyroom earbuds in Egypt?', answer: 'Golden Code warranty 12 months from CairoVolt. Instant replacement (not repair!) for manufacturing defects.' },
-                        { question: 'Where to buy original Joyroom earbuds in Egypt?', answer: 'From CairoVolt—authorized dealer. Golden Code, 12-month warranty, next-day Cairo delivery, cash on delivery available.' }
+                        { question: 'What is the warranty for Joyroom earbuds in Egypt?', answer: 'Golden Code warranty from CairoVolt covers 12 full months against manufacturing defects. If your earbuds develop sound, battery, or Bluetooth issues, we replace them immediately — no questions asked. Each product carries a unique tracking code.' },
+                        { question: 'Where to buy original Joyroom earbuds in Egypt?', answer: 'From CairoVolt, the authorized Joyroom dealer in Egypt. We source directly from Joyroom global distribution centers. Every product arrives factory-sealed in original packaging with holographic verification sticker and Golden Code warranty activation card included.' }
                     ],
                     products: [
                         { name: 'Joyroom T03s Pro', price: 699, badge: ' Bestseller' },
