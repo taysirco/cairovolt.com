@@ -27,7 +27,7 @@ export const anker_car_charger_dual_usb = {
                 shortDescription: "🚗 24W Dual USB (12W×2) | ⚡ PowerIQ Smart Charging | 📱 Charge 2 Devices Simultaneously | 💡 LED Indicator | 🔌 12V/24V Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Anker PowerDrive 2 (A2310)</strong> is a dual USB-A car charger with 24W total output (12W per port). PowerIQ detects connected devices and delivers optimal speed. Compact flush-fit design, soft blue LED, 12V/24V universal compatibility. Perfect for charging two phones during Cairo traffic. 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Anker PowerDrive 2 (A2310)</strong> is a dual USB-A car charger with 24W total output (12W per port). PowerIQ detects connected devices and delivers optimal speed. Compact flush-fit design, soft blue LED, 12V/24V universal compatibility. Perfect for charging two phones during Cairo traffic. 18-month warranty. Available at <strong>EGP 950</strong> with CairoVolt warranty.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -95,7 +95,7 @@ export const anker_car_charger_dual_usb = {
                 shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، <strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، <strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

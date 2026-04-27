@@ -39,7 +39,7 @@ export const anker_prime_a1695_25000 = {
                 shortDescription: "⚡ 165W BEAST — Charges MacBook Pro 16\"! | 🔋 25,000mAh (92.7Wh) | 💻 2× USB-C PD + USB-A | 🌡️ Active Cooling Fan | 📊 Smart Display | ⏱️ Recharges in ~30 min (Prime Charger)",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike standard power banks limited to phone charging, the Anker Prime A1695 outputs <strong>165W</strong> — charging MacBook Pro 16-inch at near-adapter speed. With 25,000mAh (92.7Wh), active cooling fan, and smart display showing real-time watts and temperature, it survived our 8-hour Maadi blackout test. FCC/CE certified — 24-month Anker warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike standard power banks limited to phone charging, the Anker Prime A1695 outputs <strong>165W</strong> — charging MacBook Pro 16-inch at near-adapter speed. With 25,000mAh (92.7Wh), active cooling fan, and smart display showing real-time watts and temperature, it survived our 8-hour Maadi blackout test. FCC/CE certified — 24-month Anker warranty. Available at <strong>EGP 3950</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary">
@@ -111,7 +111,7 @@ export const anker_prime_a1695_25000 = {
                 shortDescription: "⚡ 165 واط وحش — يشحن ماك بوك برو 16\"! | 🔋 25,000 مللي أمبير (92.7Wh) | 💻 2× USB-C PD + USB-A | 🌡️ مروحة تبريد نشطة | ⏱️ إعادة شحن في ~30 دقيقة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات العادية المحدودة بشحن الموبايلات، أنكر برايم A1695 بيطلع <strong>165 واط</strong> — بيشحن ماك بوك برو 16 بوصة بسرعة قريبة من الأدابتر. بسعة 25,000 مللي أمبير (92.7Wh)، مروحة تبريد، وشاشة ذكية بتعرض الواط والحرارة لحظياً. عدّى اختبار انقطاع 8 ساعات في المعادي. شهادات FCC/CE/UL — ضمان 24 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات العادية المحدودة بشحن الموبايلات، أنكر برايم A1695 بيطلع <strong>165 واط</strong> — بيشحن ماك بوك برو 16 بوصة بسرعة قريبة من الأدابتر. بسعة 25,000 مللي أمبير (92.7Wh)، مروحة تبريد، وشاشة ذكية بتعرض الواط والحرارة لحظياً. عدّى اختبار انقطاع 8 ساعات في المعادي. شهادات FCC/CE/UL — ضمان 24 شهر. بسعر <strong>3950 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary">

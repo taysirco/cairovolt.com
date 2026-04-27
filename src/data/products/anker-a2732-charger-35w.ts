@@ -24,7 +24,7 @@ export const anker_a2732_charger_35w = {
                 shortDescription: "🚗 35W Car Charger | 🔌 USB-C 20W PD + USB-A 15W PowerIQ 2.0 | 📱 Fast Charge iPhone + Legacy Device | 🛡️ MultiProtect Safety | 💡 Blue LED Ring | 🔋 12V/24V All Cars",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike basic dual USB-A car chargers that max out at 12W per port, the Anker A2732 PowerDrive PD+ 2 delivers <strong>20W USB-C PD fast charging + 15W USB-A PowerIQ 2.0</strong> — totaling 35W from your car's 12V/24V socket. Perfect for Cairo's Ring Road commutes: fast-charge your iPhone via USB-C while your passenger's legacy phone charges via USB-A. MultiProtect safety, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike basic dual USB-A car chargers that max out at 12W per port, the Anker A2732 PowerDrive PD+ 2 delivers <strong>20W USB-C PD fast charging + 15W USB-A PowerIQ 2.0</strong> — totaling 35W from your car's 12V/24V socket. Perfect for Cairo's Ring Road commutes: fast-charge your iPhone via USB-C while your passenger's legacy phone charges via USB-A. MultiProtect safety, 18-month warranty. Available at <strong>EGP 550</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -76,7 +76,7 @@ export const anker_a2732_charger_35w = {
                 shortDescription: "🚗 شاحن سيارة 35 واط | 🔌 USB-C بقوة 20 واط PD + USB-A بقوة 15 واط | 📱 شحن سريع للايفون أثناء القيادة | 🛡️ حماية MultiProtect | 💡 حلقة LED | 🔋 12/24 فولت كل السيارات",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة العادية بمنفذين USB-A اللي أقصاها 12 واط للمنفذ، أنكر A2732 PowerDrive PD+ 2 بيوفر <strong>20 واط USB-C PD شحن سريع + 15 واط USB-A PowerIQ 2.0</strong> — 35 واط إجمالي من ولاعة عربيتك. مثالي لزحمة الدائري: اشحن ايفونك سريع وصاحبك يشحن موبايله القديم. حماية MultiProtect، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة العادية بمنفذين USB-A اللي أقصاها 12 واط للمنفذ، أنكر A2732 PowerDrive PD+ 2 بيوفر <strong>20 واط USB-C PD شحن سريع + 15 واط USB-A PowerIQ 2.0</strong> — 35 واط إجمالي من ولاعة عربيتك. مثالي لزحمة الدائري: اشحن ايفونك سريع وصاحبك يشحن موبايله القديم. حماية MultiProtect، ضمان 18 شهر. بسعر <strong>550 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">

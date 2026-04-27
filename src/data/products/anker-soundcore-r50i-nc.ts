@@ -25,7 +25,7 @@ export const anker_soundcore_r50i_nc = {
                 shortDescription: "🔇 42dB Adaptive ANC | 🔋 45h Total Battery | 🎙️ 4-Mic AI Beamforming | 📱 Built-in Phone Stand Case | 🎵 10mm HiFi Drivers | 💧 IP54",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget earbuds with fake ANC marketing, the Soundcore R50i NC delivers <strong>real 42dB hybrid ANC</strong> tested on Cairo Metro and EgyptAir flights. With <strong>4-mic AI beamforming</strong>, a built-in phone stand case, and 45h total battery, it matches AirPods Pro 2 performance at half the price — FCC/CE certified, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget earbuds with fake ANC marketing, the Soundcore R50i NC delivers <strong>real 42dB hybrid ANC</strong> tested on Cairo Metro and EgyptAir flights. With <strong>4-mic AI beamforming</strong>, a built-in phone stand case, and 45h total battery, it matches AirPods Pro 2 performance at half the price — FCC/CE certified, 18-month warranty. Available at <strong>EGP 1299</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -76,7 +76,7 @@ export const anker_soundcore_r50i_nc = {
                 shortDescription: "🔇 42dB ANC تكيفي | 🔋 45 ساعة إجمالي | 🎙️ 4 مايك AI | 📱 علبة بحامل موبايل | 🎵 10mm HiFi | 💧 IP54",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بتسويق ANC وهمي، ساوندكور R50i NC بتوفر <strong>42dB ANC هجين حقيقي</strong> اتاختبر في مترو القاهرة ورحلات مصر للطيران. ب<strong>4 مايك AI</strong>، علبة بحامل موبايل، وبطارية 45 ساعة، بتنافس ايربودز برو 2 بنص السعر — شهادات FCC/CE، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بتسويق ANC وهمي، ساوندكور R50i NC بتوفر <strong>42dB ANC هجين حقيقي</strong> اتاختبر في مترو القاهرة ورحلات مصر للطيران. ب<strong>4 مايك AI</strong>، علبة بحامل موبايل، وبطارية 45 ساعة، بتنافس ايربودز برو 2 بنص السعر — شهادات FCC/CE، ضمان 18 شهر. بسعر <strong>1299 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">

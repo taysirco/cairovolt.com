@@ -19,7 +19,7 @@ export const anker_a8050_usb_c_cable = {
                 shortDescription: "🔌 100W PD Charging | 🧬 Braided Nylon (35,000 bend cycles) | 📊 480Mbps Data Transfer | 📏 1.8m Length | 🔥 Supports PD 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap cables from el-Ataba that die within weeks, the Anker A8050 survives <strong>35,000+ bend cycles</strong> with braided nylon shielding. At <strong>100W PD 3.0</strong>, it charges phones, tablets, AND laptops at max speed. The 1.8m length reaches from any Egyptian wall outlet to your bed. 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap cables from el-Ataba that die within weeks, the Anker A8050 survives <strong>35,000+ bend cycles</strong> with braided nylon shielding. At <strong>100W PD 3.0</strong>, it charges phones, tablets, AND laptops at max speed. The 1.8m length reaches from any Egyptian wall outlet to your bed. 18-month warranty. Available at <strong>EGP 240</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -67,7 +67,7 @@ export const anker_a8050_usb_c_cable = {
                 shortDescription: "🔌 100 واط PD | 🧬 نايلون مضفر (35,000 دورة ثني) | 📊 نقل بيانات 480Mbps | 📏 طول 1.8 متر | 🔥 PD 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس كابلات العتبة اللي بتموت في أسابيع، أنكر A8050 بيستحمل <strong>35,000+ دورة ثني</strong> بغطاء نايلون مضفر. ب<strong>100 واط PD 3.0</strong>، بيشحن موبايلات وتابلت ولابتوبات بأقصى سرعة. طول 1.8 متر بيوصل من أي بريزة للسرير. ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس كابلات العتبة اللي بتموت في أسابيع، أنكر A8050 بيستحمل <strong>35,000+ دورة ثني</strong> بغطاء نايلون مضفر. ب<strong>100 واط PD 3.0</strong>، بيشحن موبايلات وتابلت ولابتوبات بأقصى سرعة. طول 1.8 متر بيوصل من أي بريزة للسرير. ضمان 18 شهر. بسعر <strong>240 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">

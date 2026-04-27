@@ -29,7 +29,7 @@ export const anker_nano_45w_smart_display_charger = {
             shortDescription: "⚡ 45W GaN USB-C PD 3.0 | 📺 Smart Display with AI Animations | 📱 iPhone 17 Pro 0→50% in 20 Min | 🔄 180° Foldable Plug | 🛡️ TÜV-Certified Care Mode | 🏆 Red Dot Winner 2026 | 💤 Overnight Battery Protection | 🎨 4 Colors",
             description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The Anker Nano 45W Smart Display (A121D) is the <strong>world's first GaN charger with an interactive TFT display</strong> — showing real-time wattage, battery percentage, and AI animations while it charges. 45W USB-C PD 3.0 output charges iPhone 17 Pro from 0→50% in just 20 minutes. TÜV Rheinland-certified Care Mode protects your battery overnight. Red Dot Design Award 2026 winner with 180° foldable plug.</p>
+    <p class="text-gray-800 leading-relaxed">The Anker Nano 45W Smart Display (A121D) is the <strong>world's first GaN charger with an interactive TFT display</strong> — showing real-time wattage, battery percentage, and AI animations while it charges. 45W USB-C PD 3.0 output charges iPhone 17 Pro from 0→50% in just 20 minutes. TÜV Rheinland-certified Care Mode protects your battery overnight. Red Dot Design Award 2026 winner with 180° foldable plug. Available at <strong>EGP 1900</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -83,7 +83,7 @@ export const anker_nano_45w_smart_display_charger = {
             shortDescription: "⚡ 45 واط GaN بمنفذ USB-C PD 3.0 | 📺 شاشة ذكية بأنيميشن AI | 📱 ايفون 17 برو من 0 لـ 50% في 20 دقيقة | 🔄 قابس قابل للطي 180° | 🛡️ وضع العناية بشهادة TÜV | 🏆 فائز Red Dot 2026 | 💤 حماية بطارية ليلية | 🎨 4 ألوان",
             description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن العادية اللي مش بتعرف إيه اللي بيحصل جوّاها، شاحن أنكر نانو 45 واط (A121D) هو <strong>أول شاحن GaN في العالم بشاشة TFT ذكية تفاعلية</strong> — بتعرض الواط الحقيقي ونسبة البطارية واسم جهازك وأنيميشن AI وهو بيشحن. 45 واط USB-C PD 3.0 بيشحن ايفون 17 برو من 0 لـ 50% في 20 دقيقة بس. وضع العناية Care Mode معتمد من TÜV Rheinland بيحمي بطاريتك بالليل. فائز بجائزة Red Dot 2026 بقابس قابل للطي 180°.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن العادية اللي مش بتعرف إيه اللي بيحصل جوّاها، شاحن أنكر نانو 45 واط (A121D) هو <strong>أول شاحن GaN في العالم بشاشة TFT ذكية تفاعلية</strong> — بتعرض الواط الحقيقي ونسبة البطارية واسم جهازك وأنيميشن AI وهو بيشحن. 45 واط USB-C PD 3.0 بيشحن ايفون 17 برو من 0 لـ 50% في 20 دقيقة بس. وضع العناية Care Mode معتمد من TÜV Rheinland بيحمي بطاريتك بالليل. فائز بجائزة Red Dot 2026 بقابس قابل للطي 180°. بسعر <strong>1900 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">

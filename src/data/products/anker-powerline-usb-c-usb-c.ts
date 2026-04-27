@@ -28,7 +28,7 @@ export const anker_powerline_usb_c_usb_c = {
                 shortDescription: "⚡ 60W Power Delivery | 📱 iPhone 17 Max Speed (30W) | 📱 Samsung S26 Super Fast (45W) | 💪 35,000+ Bends | 💻 MacBook Air Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Anker PowerLine III USB-C to USB-C (A8852)</strong> is the universal cable for. 60W PD handles iPhone 17 (30W), Samsung S26 (45W Super Fast), and MacBook Air charging — all from one cable. 35,000+ bend lifespan (3.5x standard cables), USB 2.0 data transfer. 18-month warranty. Available at <strong>EGP 590</strong> with CairoVolt warranty.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -106,7 +106,7 @@ export const anker_powerline_usb_c_usb_c = {
                 shortDescription: "كابل يعيش معاك سنين من غير ما يتهري ⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع)",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر. بسعر <strong>590 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

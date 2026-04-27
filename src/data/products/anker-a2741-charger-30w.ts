@@ -17,7 +17,7 @@ export const anker_a2741_charger_30w = {
                 shortDescription: "🚗 30W Car Charger | 🔌 USB-C 27W PD/PPS + USB-A 22.5W PowerIQ 3.0 | 📐 Miniature Design (15g!) | 📱 Fast Charge iPhone + Samsung | 🛡️ MultiProtect | 🔋 12V/24V All Cars",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The Anker A2741 is an <strong>ultra-miniature 30W car charger</strong> weighing only 15 grams — barely larger than a coin, yet packing USB-C PD/PPS (27W) + USB-A PowerIQ 3.0 (22.5W). It sits almost invisible in your car's 12V socket. PPS support means optimized fast charging for Samsung Galaxy series. MultiProtect safety for Egyptian summer driving conditions. 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The Anker A2741 is an <strong>ultra-miniature 30W car charger</strong> weighing only 15 grams — barely larger than a coin, yet packing USB-C PD/PPS (27W) + USB-A PowerIQ 3.0 (22.5W). It sits almost invisible in your car's 12V socket. PPS support means optimized fast charging for Samsung Galaxy series. MultiProtect safety for Egyptian summer driving conditions. 18-month warranty. Available at <strong>EGP 530</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -69,7 +69,7 @@ export const anker_a2741_charger_30w = {
                 shortDescription: "🚗 شاحن سيارة 30 واط | 📐 وزنه 15 جرام بس! | 🔌 USB-C بقوة 27 واط PD/PPS + USB-A بقوة 22.5 واط | ⚡ شحن سامسونج السريع PPS | 🛡️ حماية MultiProtect | 🔋 12/24 فولت كل السيارات",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، أنكر A2741 هو <strong>شاحن سيارة فائق الصغر 30 واط</strong> وزنه 15 جرام بس — أكبر من العملة بشوية، لكن فيه USB-C PD/PPS (27 واط) + USB-A PowerIQ 3.0 (22.5 واط). بيركب شبه مخفي في ولاعة عربيتك. دعم PPS يعني شحن سريع محسّن لسامسونج جالكسي. حماية MultiProtect لظروف الصيف المصري. ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، أنكر A2741 هو <strong>شاحن سيارة فائق الصغر 30 واط</strong> وزنه 15 جرام بس — أكبر من العملة بشوية، لكن فيه USB-C PD/PPS (27 واط) + USB-A PowerIQ 3.0 (22.5 واط). بيركب شبه مخفي في ولاعة عربيتك. دعم PPS يعني شحن سريع محسّن لسامسونج جالكسي. حماية MultiProtect لظروف الصيف المصري. ضمان 18 شهر. بسعر <strong>530 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">

@@ -37,7 +37,7 @@ export const anker_zolo_a110d_10000 = {
                 shortDescription: "⚡ 22.5W Fast Charging | 🔋 10,000mAh | 🔌 Built-in USB-C Cable | 📊 LED Digital Display | 🛡️ ActiveShield 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap power banks with vague LED dots and forgotten cables, the Anker ZOLO A110D packs a <strong>built-in USB-C cable</strong> and <strong>22.5W fast charging</strong> into just 229g. In Egypt's heat and Metro commutes, its ActiveShield 3.0 monitors temperature 3 million times daily while the digital display shows exact battery percentage — backed by Anker's 18-month warranty and FCC/CE certification.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap power banks with vague LED dots and forgotten cables, the Anker ZOLO A110D packs a <strong>built-in USB-C cable</strong> and <strong>22.5W fast charging</strong> into just 229g. In Egypt's heat and Metro commutes, its ActiveShield 3.0 monitors temperature 3 million times daily while the digital display shows exact battery percentage — backed by Anker's 18-month warranty and FCC/CE certification. Available at <strong>EGP 1270</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary">
@@ -109,7 +109,7 @@ export const anker_zolo_a110d_10000 = {
                 shortDescription: "⚡ شحن سريع 22.5 واط | 🔋 10,000 مللي أمبير | 🔌 كابل USB-C مدمج مش هتنساه أبداً | 📊 شاشة رقمية بالنسبة المئوية | 🛡️ حماية ActiveShield 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة بلمبات LED المبهمة والكابلات المنسية، أنكر زولو A110D بيوفر <strong>كابل USB-C مدمج</strong> و<strong>شحن سريع 22.5 واط</strong> بوزن 229 جرام بس. في حر مصر ومواصلات المترو، ActiveShield 3.0 بيراقب الحرارة 3 مليون مرة يومياً والشاشة الرقمية بتعرض النسبة بالضبط — مع ضمان Anker لمدة 18 شهر وشهادات FCC/CE.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة بلمبات LED المبهمة والكابلات المنسية، أنكر زولو A110D بيوفر <strong>كابل USB-C مدمج</strong> و<strong>شحن سريع 22.5 واط</strong> بوزن 229 جرام بس. في حر مصر ومواصلات المترو، ActiveShield 3.0 بيراقب الحرارة 3 مليون مرة يومياً والشاشة الرقمية بتعرض النسبة بالضبط — مع ضمان Anker لمدة 18 شهر وشهادات FCC/CE. بسعر <strong>1270 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary">

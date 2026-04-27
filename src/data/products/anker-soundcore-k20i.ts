@@ -20,7 +20,7 @@ export const anker_soundcore_k20i = {
                 shortDescription: "🎵 13mm BassUp™ Drivers | 🔋 36h Total Battery | 👂 Comfortable Semi-In-Ear | 🎙️ AI ENC Dual Mic | ⚡ 10min = 2h Charge | 💧 IPX5 Waterproof",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike AirPods-style earbuds that hurt after 2 hours, the Soundcore K20i uses a <strong>semi-in-ear design (3.3g)</strong> with zero ear-canal pressure. Its oversized <strong>13mm BassUp™ drivers</strong> deliver deeper bass than earbuds at twice the price. 36h total battery lasts a full Cairo commute week. AI ENC passed our Metro Line 3 rush-hour call test — FCC certified, 18-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike AirPods-style earbuds that hurt after 2 hours, the Soundcore K20i uses a <strong>semi-in-ear design (3.3g)</strong> with zero ear-canal pressure. Its oversized <strong>13mm BassUp™ drivers</strong> deliver deeper bass than earbuds at twice the price. 36h total battery lasts a full Cairo commute week. AI ENC passed our Metro Line 3 rush-hour call test — FCC certified, 18-month warranty. Available at <strong>EGP 750</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -71,7 +71,7 @@ export const anker_soundcore_k20i = {
                 shortDescription: "🎵 13mm BassUp™ | 🔋 36 ساعة إجمالي | 👂 نصف داخلية مريحة | 🎙️ AI ENC مايك مزدوج | ⚡ 10 دقايق = ساعتين | 💧 IPX5",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس سماعات ايربودز اللي بتوجع بعد ساعتين، ساوندكور K20i بتستخدم <strong>تصميم نصف داخلي (3.3 جرام)</strong> بدون ضغط على قناة الأذن. درايفرات <strong>13mm BassUp™</strong> بتوفر باس أعمق من سماعات بضعف السعر. بطارية 36 ساعة بتكفي أسبوع مواصلات كامل. AI ENC نجحت في اختبار مترو الخط 3 — شهادات FCC/CE، ضمان 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس سماعات ايربودز اللي بتوجع بعد ساعتين، ساوندكور K20i بتستخدم <strong>تصميم نصف داخلي (3.3 جرام)</strong> بدون ضغط على قناة الأذن. درايفرات <strong>13mm BassUp™</strong> بتوفر باس أعمق من سماعات بضعف السعر. بطارية 36 ساعة بتكفي أسبوع مواصلات كامل. AI ENC نجحت في اختبار مترو الخط 3 — شهادات FCC/CE، ضمان 18 شهر. بسعر <strong>750 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">

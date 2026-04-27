@@ -17,7 +17,7 @@ export const anker_a2147_gan_charger_30w = {
                 shortDescription: "⚡ 30W GaN USB-C Charger | 🔬 70% Smaller than Standard 30W | 📱 iPhone 17 Pro 0→50% in 21 Min | 🧠 IQ3 Smart Charging | 🔌 Foldable Plug | 🛡️ ActiveShield 2.0 | 🏆 24-Month Warranty",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The Anker 511 Nano 3 (A2147) is a <strong>30W GaN wall charger</strong> that's 70% smaller than a standard 30W charger — barely larger than a matchbox. Powered by Gallium Nitride (GaN) technology and Anker's IQ3 intelligent charging, it delivers full 30W USB-C PD output from a body that weighs just 38g. Charges iPhone 17 Pro from 0→50% in just 21 minutes. Series 5 quality with 24-month warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The Anker 511 Nano 3 (A2147) is a <strong>30W GaN wall charger</strong> that's 70% smaller than a standard 30W charger — barely larger than a matchbox. Powered by Gallium Nitride (GaN) technology and Anker's IQ3 intelligent charging, it delivers full 30W USB-C PD output from a body that weighs just 38g. Charges iPhone 17 Pro from 0→50% in just 21 minutes. Series 5 quality with 24-month warranty. Available at <strong>EGP 430</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -71,7 +71,7 @@ export const anker_a2147_gan_charger_30w = {
                 shortDescription: "⚡ شاحن GaN بقوة 30 واط | 🔬 أصغر 70% من شاحن 30 واط العادي | 📱 ايفون 17 برو من 0 لـ 50% في 21 دقيقة | 🧠 شحن ذكي IQ3 | 🔌 قابس قابل للطي | 🛡️ ActiveShield 2.0 | 🏆 ضمان 24 شهر",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، أنكر 511 نانو 3 (A2147) هو <strong>شاحن حائط GaN بقوة 30 واط</strong> أصغر 70% من شاحن 30 واط العادي — أكبر شوية من علبة كبريت. بتقنية نيتريد الجاليوم (GaN) والشحن الذكي IQ3 من أنكر، بيوفر 30 واط كاملة من منفذ USB-C في جسم وزنه 38 جرام بس. بيشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. جودة Series 5 بضمان 24 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، أنكر 511 نانو 3 (A2147) هو <strong>شاحن حائط GaN بقوة 30 واط</strong> أصغر 70% من شاحن 30 واط العادي — أكبر شوية من علبة كبريت. بتقنية نيتريد الجاليوم (GaN) والشحن الذكي IQ3 من أنكر، بيوفر 30 واط كاملة من منفذ USB-C في جسم وزنه 38 جرام بس. بيشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. جودة Series 5 بضمان 24 شهر. بسعر <strong>430 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
