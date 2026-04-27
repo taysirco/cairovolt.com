@@ -471,7 +471,14 @@ export default async function ProductPage({ params }: Props) {
                             isPartOf: {
                                 '@type': 'Dataset',
                                 name: 'CairoVolt Egypt Charger Lab Tests',
+                                description: 'Independent lab testing dataset of chargers, power banks, cables, and audio accessories under real Egyptian conditions (37-42°C ambient, 190-240V grid voltage). All tests conducted by certified engineers using calibrated USB power meters.',
                                 url: 'https://cairovolt.com/api/lab-data/json',
+                                license: 'https://creativecommons.org/licenses/by/4.0/',
+                                creator: {
+                                    '@type': 'Organization',
+                                    '@id': 'https://cairovolt.com/#organization',
+                                    name: 'CairoVolt Hardware Validation Labs',
+                                },
                             },
                         })
                     }}
