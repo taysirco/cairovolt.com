@@ -42,9 +42,7 @@ export const anker_powercore_26800 = {
         <li>🔌 <strong>3 USB-A Ports:</strong> Charge 3 devices simultaneously with PowerIQ 2.0.</li>
         <li>✈️ <strong>Max Airline Capacity:</strong> 96.48Wh — the largest capacity legally allowed on flights.</li>
         <li>🔄 <strong>Dual-Input Recharge:</strong> 2× Micro-USB inputs = full recharge in just 6 hours.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -123,7 +121,7 @@ export const anker_powercore_26800 = {
         <li>🔌 <strong>3 منافذ USB-A:</strong> اشحن 3 أجهزة في نفس الوقت مع PowerIQ 2.0.</li>
         <li>✈️ <strong>أكبر سعة للطائرة:</strong> 96.48 واط/ساعة — الحد الأقصى المسموح قانونياً.</li>
         <li>🔄 <strong>شحن مزدوج:</strong> مدخلين Micro-USB = شحن كامل في 6 ساعات فقط.</li>
-    </ul>
+    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
 </div>
 
 <div class="expert-review">

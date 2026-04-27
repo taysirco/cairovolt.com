@@ -30,7 +30,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
                 name: "Joyroom JR-T03 Wireless Earbuds | 20H Battery | Bluetooth 5.0 | 12-Month Warranty",
                 shortDescription: "🎧 20H Total Playtime | 👆 Touch Controls | 📱 Bluetooth 5.0 | 🎤 Built-in Mic for Calls | 💰 Best Budget TWS",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom JR-T03 earbuds</strong> pack <strong>20 hours total battery + Bluetooth 5.0 + touch controls</strong> at 774 EGP. IPX4 water-resistant for gym use. Deep bass with 13mm drivers. A solid daily driver that punches above its price.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom JR-T03 earbuds</strong> pack <strong>20 hours total battery + Bluetooth 5.0 + touch controls</strong> at 774 EGP. IPX4 water-resistant for gym use. Deep bass with 13mm drivers. A solid daily driver that punches above its price. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -91,7 +91,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
                 name: "سماعة جوي روم JR-T03 | أرخص سماعة بلوتوث أصلية للطلبة | ضمان 12 شهر",
                 shortDescription: "سماعة الغلابة اللي بتعيش 🎧 صوت ممتاز للمحاضرات والأغاني | 🔋 20 ساعة بطارية | 🎤 ميكروفون مكالمات شغال لو انت في مكان هادي",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم JR-T03</strong> بتوفر <strong>20 ساعة بطارية إجمالية + بلوتوث 5.0 + تحكم باللمس</strong> بـ 774 جنيه. مقاومة مياه IPX4 للجيم. صوت bass عميق بسماعات 13 مم. سماعة يومية ممتازة بتتفوق على سعرها.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم JR-T03</strong> بتوفر <strong>20 ساعة بطارية إجمالية + بلوتوث 5.0 + تحكم باللمس</strong> بـ 774 جنيه. مقاومة مياه IPX4 للجيم. صوت bass عميق بسماعات 13 مم. سماعة يومية ممتازة بتتفوق على سعرها. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
@@ -140,11 +140,11 @@ export const joyroom_jr_t03_wireless_earbuds = {
 `,
                 features: ["🎧 20 ساعة بطارية", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💰 أفضل سعر", "🏆 ضمان 12 شهر"],
                 metaTitle: "سماعة جوي روم JR-T03 ⚡ أرخص سماعة بلوتوث أصلية | COD مصر",
-                metaDesc: "اشتري سماعة جوي روم JR-T03 في مصر. 20 ساعة، تحكم باللمس، Bluetooth 5.0، ميكروفون مدمج. أفضل سماعات اقتصادية. ضمان 12 شهر.",
+                metaDesc: "اشتري سماعة جوي روم JR-T03 في مصر. 20 ساعة، تحكم باللمس، Bluetooth 5.0، ميكروفون مدمج. أفضل سماعات اقتصادية. ضمان 12 شهر. سماعة joyroom.",
                 faqs: [
                     { question: "هل هذه جوي روم أصلية؟", answer: "نعم، نبيع فقط منتجات جوي روم أصلية 100% مع ضمان رسمي." },
-                    { question: "هل تحتوي على ميكروفون؟", answer: "نعم، ميكروفون مدمج للمكالمات. T03S Pro أفضل لجودة مكالمات." },
-                    { question: "كم تدوم البطارية؟", answer: "3-4 ساعات للسماعات، العلبة توفر 4 شحنات إضافية." },
+                    { question: "هل تحتوي على ميكروفون؟", answer: "نعم، فيها ميكروفون مدمج للرد على المكالمات بجودة مقبولة. لو محتاج جودة مكالمات أعلى مع عزل ضوضاء، T03S Pro هي الخيار الأفضل." },
+                    { question: "كم تدوم البطارية؟", answer: "السماعات بتشتغل 3 إلى 4 ساعات متواصلة على شحنة واحدة، والعلبة بتوفر 4 شحنات إضافية يعني إجمالي حوالي 20 ساعة استماع." },
                     { question: "كيف تقارن مع T03S Pro؟", answer: "T03 أرخص لكن بدون ANC. T03S Pro عزل ضوضاء وصوت أفضل. T03 ممتاز للميزانية." }
                 ]
             }

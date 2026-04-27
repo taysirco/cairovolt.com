@@ -40,9 +40,7 @@ export const anker_car_charger_dual_usb = {
         <li>⚡ <strong>PowerIQ:</strong> Detects each device and delivers optimal charging speed.</li>
         <li>📱 <strong>Charge 2 Devices:</strong> Phone + earbuds, or 2 phones simultaneously.</li>
         <li>🔌 <strong>Universal Fit:</strong> Works with all 12V/24V car cigarette lighter sockets.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -108,7 +106,7 @@ export const anker_car_charger_dual_usb = {
         <li>⚡ <strong>PowerIQ:</strong> يتعرف على كل جهاز ويوصله أقصى سرعة شحن آمنة.</li>
         <li>📱 <strong>اشحن جهازين:</strong> موبايل + ايربودز، أو موبايلين في نفس الوقت.</li>
         <li>🔌 <strong>يناسب الكل:</strong> متوافق مع كل مقابس 12/24 فولت القياسية.</li>
-    </ul>
+    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -151,7 +149,7 @@ export const anker_car_charger_dual_usb = {
                 metaTitle: "شاحن سيارة انكر الأصلي ⚡ خصم 27% | منفذين شحن سريع | COD مصر",
                 metaDesc: "اشتري شاحن سيارة انكر PowerDrive 2 في مصر. 24 واط منفذين USB، PowerIQ، اشحن جهازين. يناسب كل السيارات. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
-                    { question: "هل يعمل في جميع السيارات؟", answer: "نعم، يعمل مع أي مقبس ولاعة 12/24 فولت قياسي." },
+                    { question: "هل يعمل في جميع السيارات؟", answer: "نعم، يعمل مع أي مقبس ولاعة سجائر 12/24 فولت قياسي في كل أنواع السيارات المصرية واليابانية والألمانية بدون محول." },
                     { question: "هل يستنزف بطارية السيارة؟", answer: "لا، يستهلك طاقة لا تذكر بدون جهاز. آمن للترك متصلاً." },
                     { question: "هل يشحن جهازين تابلت؟", answer: "يشحن جهازين، لكن السرعة تتوزع (24 واط إجمالي) مقابل جهاز واحد." },
                     { question: "هل يناسب مقبس سيارتي؟", answer: "نعم، التصميم الصغير يناسب جميع المقابس بدون إعاقة أزرار أخرى." },

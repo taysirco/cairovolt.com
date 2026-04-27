@@ -27,7 +27,7 @@ export const joyroom_ft3_smartwatch = {
                 name: "Joyroom FT3 Smart Watch | IP68 Waterproof | 20 Sports Modes | Heart Rate | 12-Month Warranty",
                 shortDescription: "⌚ IP68 Waterproof | 🏃 20 Sports Modes | ❤️ Heart Rate Monitor | 📱 iPhone 17 & Samsung S26 | 🔋 7-Day Battery",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike knockoff watches with fake water resistance ratings, The <strong>Joyroom FT3 Smartwatch</strong> delivers <strong>IP68 waterproof + 20 sports modes + heart rate monitoring</strong> at 1,092 EGP. Works with iPhone AND Android. 7-day battery life. The budget alternative to Apple Watch for basic health tracking.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike knockoff watches with fake water resistance ratings, The <strong>Joyroom FT3 Smartwatch</strong> delivers <strong>IP68 waterproof + 20 sports modes + heart rate monitoring</strong> at 1,092 EGP. Works with iPhone AND Android. 7-day battery life. The budget alternative to Apple Watch for basic health tracking. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -35,7 +35,7 @@ export const joyroom_ft3_smartwatch = {
         <li>🏃 <strong>20 Sports Modes:</strong> Walking, running, cycling, swimming, and 16 more.</li>
         <li>❤️ <strong>Heart Rate:</strong> 24/7 continuous heart rate monitoring.</li>
         <li>🔋 <strong>7-Day Battery:</strong> One charge lasts a full week of normal use.</li>
-    </ul>
+    <li>💰 <strong>2.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -87,7 +87,7 @@ export const joyroom_ft3_smartwatch = {
                 name: "ساعة جوي روم FT3 الذكية | بديل اقتصادي يعيش معاك الجيم والمشاوير | ضمان 12 شهر",
                 shortDescription: "أشيك وأقوى ساعة في فئتها ⌚ IP68 غسيل إيدين وعرق الجيم | 🏃 20 وضع رياضي | 💬 إشعارات عربي مظبوطة | 🔋 7 أيام بطارية",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الساعات المقلدة بتصنيفات مقاومة مية وهمية، ساعة <strong>جوي روم FT3 الذكية</strong> بتوفر <strong>مقاومة مياه IP68 + 20 وضع رياضي + مراقبة نبض القلب</strong> بـ 1,092 جنيه. بتشتغل مع ايفون وأندرويد. عمر بطارية 7 أيام. البديل الاقتصادي لساعة أبل لتتبع الصحة الأساسي.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الساعات المقلدة بتصنيفات مقاومة مية وهمية، ساعة <strong>جوي روم FT3 الذكية</strong> بتوفر <strong>مقاومة مياه IP68 + 20 وضع رياضي + مراقبة نبض القلب</strong> بـ 1,092 جنيه. بتشتغل مع ايفون وأندرويد. عمر بطارية 7 أيام. البديل الاقتصادي لساعة أبل لتتبع الصحة الأساسي. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
     <ul class="list-none space-y-1">

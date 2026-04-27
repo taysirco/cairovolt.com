@@ -30,7 +30,7 @@ export const joyroom_power_bank_20000 = {
                 name: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | Triple Output | 12-Month Warranty",
                 shortDescription: "🔋 20,000mAh (4x iPhone 17) | ⚡ 22.5W PD + QC 3.0 | 🔌 3 Output Ports | 📊 LED Digital Display | 💰 Best Value",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 20000mAh Power Bank</strong> delivers <strong>22.5W PD+QC with triple output</strong> — charge 3 devices simultaneously. 20000mAh = 4+ full phone charges. At 997 EGP, the best capacity-per-EGP power bank we sell.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 20000mAh Power Bank</strong> delivers <strong>22.5W PD+QC with triple output</strong> — charge 3 devices simultaneously. 20000mAh = 4+ full phone charges. At 997 EGP, the best capacity-per-EGP power bank we sell. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -93,7 +93,7 @@ export const joyroom_power_bank_20000 = {
                 name: "باور بانك جوي روم 20000 | أرخص باور بانك للسفر (بيشحن 3 أجهزة) | ضمان 12 شهر",
                 shortDescription: "أعلى قيمة مقابل سعر في مصر 🔋 4 شحنات ايفون 17 | ⚡ שحن سريع 22.5 واط | 🔌 شغال معاك في مواصلات الساحل الطويلة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 20000mAh</strong> بيدّي <strong>22.5 واط PD+QC بثلاث مخارج</strong> — اشحن 3 أجهزة في نفس الوقت. 20000mAh = 4+ شحنات كاملة للموبايل. بـ 997 جنيه، أفضل سعة مقابل الجنيه في باور بانكاتنا.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 20000mAh</strong> بيدّي <strong>22.5 واط PD+QC بثلاث مخارج</strong> — اشحن 3 أجهزة في نفس الوقت. 20000mAh = 4+ شحنات كاملة للموبايل. بـ 997 جنيه، أفضل سعة مقابل الجنيه في باور بانكاتنا. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">

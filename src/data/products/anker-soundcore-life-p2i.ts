@@ -40,9 +40,7 @@ export const anker_soundcore_life_p2i = {
         <li>🤖 <strong>AI Calls:</strong> Dual-mic AI algorithm isolates your voice from street noise.</li>
         <li>🎵 <strong>Dual EQ:</strong> Bass Mode for music, Podcast Mode for clear vocals.</li>
         <li>⚡ <strong>Fast Charge:</strong> 10 minutes charging = 1 hour of playback.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -108,7 +106,7 @@ export const anker_soundcore_life_p2i = {
         <li>🤖 <strong>مكالمات AI:</strong> خوارزمية ذكاء اصطناعي بميكروفونين بتعزل صوتك عن ضوضاء الشارع.</li>
         <li>🎵 <strong>EQ مزدوج:</strong> وضع Bass للمزيكا، وضع Podcast للكلام الواضح.</li>
         <li>⚡ <strong>شحن سريع:</strong> 10 دقائق شحن = ساعة استماع.</li>
-    </ul>
+    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -150,9 +148,9 @@ export const anker_soundcore_life_p2i = {
                 metaTitle: "سماعة انكر Life P2i ⚡ خصم 25% | 28 ساعة + مكالمات واضحة",
                 metaDesc: "اشتري سماعات انكر Life P2i في مصر. 28 ساعة، مكالمات AI بميكروفونين، EQ مزدوج، شحن سريع 10 دقائق. ضمان انكر 18 شهر.",
                 faqs: [
-                    { question: "هل هي جيدة للمكالمات؟", answer: "نعم، ميكروفونات ذكية تعزل صوتك عن الضوضاء لمكالمات واضحة." },
+                    { question: "هل هي جيدة للمكالمات؟", answer: "نعم، فيها ميكروفونات ذكية بتقنية عزل الضوضاء اللي بتفصل صوتك عن الأصوات المحيطة، فبتدّي مكالمات واضحة حتى في الشارع أو المواصلات." },
                     { question: "هل Life P2i تدعم وضع السماعة الفردية؟", answer: "نعم، تدعم وضع السماعة الفردية لاستخدام اليمنى أو اليسرى مستقلة." },
-                    { question: "ما الفرق بين وضع Bass و Podcast؟", answer: "Bass يعزز الصوت المنخفض للموسيقى، Podcast يضخم الأصوات للكلام." },
+                    { question: "ما الفرق بين وضع Bass و Podcast؟", answer: "وضع Bass بيعزز الترددات المنخفضة عشان الموسيقى تبقى أغنى وأعمق، ووضع Podcast بيضخم الأصوات البشرية عشان الكلام يبقى واضح ومفهوم." },
                     { question: "كيف تقارن مع السماعات الاقتصادية الأخرى؟", answer: "تتميز Life P2i بجودة مكالمات محسنة بالذكاء الاصطناعي وعمر بطارية أطول بكثير من معظم المنافسين في هذه الفئة السعرية." },
                     { question: "كايرو فولت اختبرتها في الجيم ومترو القاهرة؟", answer: "نعم! 3 أسابيع جيم يومي (38°C) + مترو القاهرة كل يوم. IPX5 صمد تماماً بدون تدهور في الصوت أو انقطاعات." },
                     { question: "هل IPX5 تتحمل عرق التمارين الشديد؟", answer: "نعم! اختبرناها في جيم مدينة نصر بحرارة 38°C خارجية. IPX5 حمت السماعات تماماً من العرق دون انقطاع واحد." }

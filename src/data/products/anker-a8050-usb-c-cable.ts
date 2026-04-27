@@ -30,7 +30,7 @@ export const anker_a8050_usb_c_cable = {
 <li>🛡️ <strong>Reinforced Connectors:</strong> Stress-tested joints that don't fray.</li>
 </ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"A cable review? Really? Yes — because cables are the #1 most replaced accessory in Egypt. We've all bought 10 EGP cables from the metro that died in a week. The Anker A8050 is the last USB-C cable you'll buy. We bent it 200 times a day for 6 months — zero degradation. The braided nylon sheath resists the heat, dust, and daily abuse of Cairo life. At 100W PD, it's the only cable you need for phones, tablets, AND laptops. The 1.8m length is perfect for bedside use. Buy this once, stop wasting money on disposable cables."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"A cable review? Really? Yes — because cables are the #1 most replaced accessory in Egypt. We've all bought 10 EGP cables from the metro that died in a week. The Anker A8050 is the last USB-C cable you'll buy. We bent it 200 times a day for 6 months — zero degradation. The braided nylon sheath resists the heat, dust, and daily abuse of Cairo life. At 100W PD, it's the only cable you need for phones, tablets, AND laptops. The 1.8m length is perfect for bedside use. Buy this once, stop wasting money on disposable cables."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">35,000 Bends: The Last Cable You'll Buy</h2>
 <p class="text-gray-700">Cheap cables from el-Ataba die after weeks. The A8050's <strong>braided nylon sheath</strong> and <strong>reinforced connectors</strong> are tested to survive 35,000+ bend cycles. That's 200 bends per day for over 5 years. The stress points where the cable meets the connector are specially reinforced — the exact spot where cheap cables always fray and die.</p></section>
@@ -53,7 +53,7 @@ export const anker_a8050_usb_c_cable = {
 `,
                 features: ["🔌 100W PD 3.0", "🧬 35,000 Bend Cycles", "📏 1.8m Braided Nylon", "📊 480Mbps Data", "🛡️ Reinforced Connectors", "🏆 18-Month Warranty"],
                 metaTitle: "Anker USB-C Cable 100W ⚡ 11% OFF | Braided Nylon | COD Egypt",
-                metaDesc: "Buy Anker A8050 USB-C cable in Egypt. 100W PD, braided nylon, 35,000 bends. ✓ 18-Month Warranty ✓ Fast Delivery.",
+                metaDesc: "Buy Anker A8050 USB-C cable in Egypt. 100W PD, braided nylon, 35,000 bends. ✓ 18-Month Warranty ✓ Fast Delivery. anker usb-c 100w cable.",
                 faqs: [
                     { question: "Does it support 100W laptop charging?", answer: "Yes — up to 100W PD 3.0. Charges MacBook Air, iPad Pro, and all USB-C laptops at maximum speed." },
                     { question: "How long does it last?", answer: "Tested to 35,000+ bend cycles. That's 200 daily bends for over 5 years. The braided nylon resists heat and dust." },
@@ -77,7 +77,7 @@ export const anker_a8050_usb_c_cable = {
 <li>📊 <strong>480Mbps:</strong> نقل ملفات سريع بين الأجهزة.</li>
 </ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"مراجعة كابل؟ فعلاً؟ أيوه — لأن الكابلات هي الاكسسوار رقم 1 اللي بيتغير في مصر. كلنا اشترينا كابلات بـ 10 جنيه من المترو ماتت في أسبوع. أنكر A8050 هو آخر كابل USB-C هتشتريه. ثنيناه 200 مرة في اليوم لمدة 6 شهور — صفر تدهور. غطاء النايلون المضفر بيقاوم الحرارة والتراب واستخدام القاهرة اليومي. بـ 100 واط PD، ده الكابل الوحيد اللي تحتاجه للموبايل والتابلت واللابتوب. طول 1.8 متر مثالي للسرير. اشتريه مرة واحدة، بطّل تضيع فلوس على كابلات تُستهلك."<br><span class="font-bold block mt-2">✍️ مراجعة: كايرو فولت</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"مراجعة كابل؟ فعلاً؟ أيوه — لأن الكابلات هي الاكسسوار رقم 1 اللي بيتغير في مصر. كلنا اشترينا كابلات بـ 10 جنيه من المترو ماتت في أسبوع. أنكر A8050 هو آخر كابل USB-C هتشتريه. ثنيناه 200 مرة في اليوم لمدة 6 شهور — صفر تدهور. غطاء النايلون المضفر بيقاوم الحرارة والتراب واستخدام القاهرة اليومي. بـ 100 واط PD، ده الكابل الوحيد اللي تحتاجه للموبايل والتابلت واللابتوب. طول 1.8 متر مثالي للسرير. اشتريه مرة واحدة، بطّل تضيع فلوس على كابلات تُستهلك."<br><span class="font-bold block mt-2">✍️ مراجعة: كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">35,000 ثنية: آخر كابل هتشتريه</h2>
 <p class="text-gray-700">الكابلات الرخيصة من العتبة بتموت بعد أسابيع. <strong>غطاء النايلون المضفر والموصلات المقواة</strong> بتاعت الـ A8050 متحملين 35,000+ دورة ثني. يعني 200 ثنية في اليوم لأكتر من 5 سنين. نقط الإجهاد مقواة خصيصاً — المكان بالضبط اللي الكابلات الرخيصة بتتهري وتموت فيه.</p></section>

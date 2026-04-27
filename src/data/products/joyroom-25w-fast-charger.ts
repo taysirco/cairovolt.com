@@ -26,7 +26,7 @@ export const joyroom_25w_fast_charger = {
                 name: "Joyroom 25W PD Charger | iPhone 17 0→50% in 25 Min | Samsung Super Fast | 36-Month Warranty",
                 shortDescription: "⚡ 25W PD 3.0 | 📱 iPhone 17 0→50% in 25 Min | 📱 Samsung S26 Super Fast | 🛡️ MultiProtect | 🔌 Ultra-Compact | 🏆 36-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -89,7 +89,7 @@ export const joyroom_25w_fast_charger = {
                 name: "شاحن جوي روم 25 واط PD | الشاحن الوحيد اللي هتحتاجه للبيت كله | ضمان 36 شهر",
                 shortDescription: "شاحن واحد بيخلص مشاكل البيت ⚡ 25 واط بيشحن ايفون وسامسونج بسرعة جبارة | 🛡️ مبيهنجش التاتش زي الشواحن المضروبة | 🏆 ضمان 3 سنين كاملين",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 25 واط PD 3.0</strong> هو "شاحن العيلة" — شاحن واحد لايفون 17 وسامسونج S26. <strong>0→50% في 25 دقيقة</strong> للايفون، سوبر فاست لسامسونج. ضمان 36 شهر. بـ 342 جنيه، بيغنيك عن شراء 2 شاحنين منفصلين.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 25 واط PD 3.0</strong> هو "شاحن العيلة" — شاحن واحد لايفون 17 وسامسونج S26. <strong>0→50% في 25 دقيقة</strong> للايفون، سوبر فاست لسامسونج. ضمان 36 شهر. بـ 342 جنيه، بيغنيك عن شراء 2 شاحنين منفصلين. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">

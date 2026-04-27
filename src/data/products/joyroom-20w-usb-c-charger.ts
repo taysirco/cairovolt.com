@@ -27,7 +27,7 @@ export const joyroom_20w_usb_c_charger = {
                 name: "Joyroom 20W USB-C PD Charger | iPhone 17 Fast Charge | 12-Month Warranty",
                 shortDescription: "⚡ 20W PD Fast Charging | 📱 iPhone 17/16/15 0→50% in 30 Min | 🛡️ MultiProtect Safety | 🔌 Ultra-Compact | 💰 Best Price Egypt",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 20W PD charger</strong> delivers <strong>real 20W Power Delivery</strong> — not the fake "20W" flooding Egypt's market. iPhone 17 from 0→50% in 30 min. 5-layer protection. Smaller than AirPods case. At <strong>236 EGP</strong>, it's the cheapest legitimate PD charger in Egypt.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 20W PD charger</strong> delivers <strong>real 20W Power Delivery</strong> — not the fake "20W" flooding Egypt's market. iPhone 17 from 0→50% in 30 min. 5-layer protection. Smaller than AirPods case. At <strong>236 EGP</strong>, it's the cheapest legitimate PD charger in Egypt. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -35,9 +35,7 @@ export const joyroom_20w_usb_c_charger = {
         <li>🛡️ <strong>MultiProtect:</strong> Over-voltage, over-current, over-temperature, short-circuit protection.</li>
         <li>🔌 <strong>Ultra-Compact:</strong> Smaller than AirPods case — fits any pocket.</li>
         <li>💰 <strong>Best Value:</strong> Same PD speed as premium brands at half the price.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -89,7 +87,7 @@ export const joyroom_20w_usb_c_charger = {
                 name: "شاحن جوي روم 20 واط PD | أرخص شاحن سريع أصلي يحمي بطاريتك | ضمان 12 شهر",
                 shortDescription: "بلاش تبوظ بطاريتك بشواحن الشارع الرخيصة ⚡ 20 واط PD أصلي بحماية 5 طبقات | 📱 ايفون 17 من 0→50% في 30 دقيقة | 🔌 صغير مبياخدش مكان في الشنطة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 20 واط PD</strong> بيدّي <strong>20 واط Power Delivery حقيقي</strong> — مش الـ "20 واط" المزيفة اللي مالية سوق مصر. ايفون 17 من 0→50% في 30 دقيقة. حماية 5 طبقات. أصغر من علبة AirPods. بـ <strong>236 جنيه</strong>، أرخص شاحن PD شرعي في مصر.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 20 واط PD</strong> بيدّي <strong>20 واط Power Delivery حقيقي</strong> — مش الـ "20 واط" المزيفة اللي مالية سوق مصر. ايفون 17 من 0→50% في 30 دقيقة. حماية 5 طبقات. أصغر من علبة AirPods. بـ <strong>236 جنيه</strong>، أرخص شاحن PD شرعي في مصر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">

@@ -26,7 +26,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
                 name: "Joyroom 3-in-1 MagSafe Station | iPhone 17 + Apple Watch + AirPods | 15W | Aluminum | 18-Month Warranty",
                 shortDescription: "📱 iPhone 17 15W MagSafe | ⌚ Apple Watch Fast Charge | 🎧 AirPods Pro 2 | 🔄 3 Devices Simultaneously | 🏛️ Premium Aluminum | 🏆 18-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 3-in-1 MagSafe Station</strong> charges <strong>iPhone 17 + Apple Watch + AirPods simultaneously</strong> at 15W. Premium aluminum build. Eliminates 3 cables from your nightstand. At 1,206 EGP, the premium Apple ecosystem dock.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The <strong>Joyroom 3-in-1 MagSafe Station</strong> charges <strong>iPhone 17 + Apple Watch + AirPods simultaneously</strong> at 15W. Premium aluminum build. Eliminates 3 cables from your nightstand. At 1,206 EGP, the premium Apple ecosystem dock. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -34,9 +34,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <li>⌚ <strong>Apple Watch:</strong> Ultra 2, Series 10, all models fast charge.</li>
         <li>🎧 <strong>AirPods:</strong> Pro 2 / 3rd Gen wireless pad.</li>
         <li>🏛️ <strong>Premium:</strong> Aluminum alloy, adjustable angle, single cable.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -86,7 +84,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
                 name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك | ضمان 18 شهر",
                 shortDescription: "شاحن واحد للايفون والساعة والايربودز 📱 MagSafe 15 واط | ⌚ شحن ابل واتش سريع | 🏛️ تصميم ألومنيوم فخم",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، محطة <strong>جوي روم 3 في 1 MagSafe</strong> بتشحن <strong>ايفون 17 + ساعة أبل + AirPods في نفس الوقت</strong> بـ 15 واط. بناء ألومنيوم فاخر. بتلغي 3 كابلات من الكومودينو. بـ 1,206 جنيه، محطة شحن نظام أبل الفاخرة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، محطة <strong>جوي روم 3 في 1 MagSafe</strong> بتشحن <strong>ايفون 17 + ساعة أبل + AirPods في نفس الوقت</strong> بـ 15 واط. بناء ألومنيوم فاخر. بتلغي 3 كابلات من الكومودينو. بـ 1,206 جنيه، محطة شحن نظام أبل الفاخرة. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة المختصرة:</h3>
     <ul class="list-none space-y-1">

@@ -82,7 +82,7 @@ export const anker_622_maggo = {
 `,
                 features: ["🧲 7.5W MagSafe Wireless Charging", "📱 Built-in Foldable Kickstand", "🪨 Ultra-Slim (13mm)", "🔌 USB-C Two-Way Charging", "🔄 Pass-Through Charging", "🛡️ 18-Month Anker Warranty"],
                 metaTitle: "Anker 622 MagGo Wireless ⚡ 7% OFF | MagSafe iPhone | COD",
-                metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ Replacement Warranty ✓ 24-48H Shipping.",
+                metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ Replacement Warranty ✓ 24-48H Shipping. anker maggo.",
                 faqs: [
                     { question: "Does it work with non-MagSafe cases?", answer: "No, it requires a magnetic MagSafe case or a bare iPhone (15/16/17 series) to attach securely." },
                     { question: "How fast is the wireless charging?", answer: "It provides 7.5W max wireless charging for iPhones, which is the standard for 3rd party magnetic battery packs." },

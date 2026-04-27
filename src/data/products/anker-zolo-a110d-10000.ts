@@ -48,9 +48,7 @@ export const anker_zolo_a110d_10000 = {
         <li>🔌 <strong>Built-in USB-C Cable:</strong> No extra cables needed — just grab and go.</li>
         <li>📊 <strong>Digital Display:</strong> Exact battery percentage — no guesswork with LED dots.</li>
         <li>✈️ <strong>Airline Safe:</strong> 37Wh — well under the 100Wh TSA limit.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>2.35 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

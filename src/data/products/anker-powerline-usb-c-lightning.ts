@@ -40,7 +40,7 @@ export const anker_powerline_usb_c_lightning = {
         <li>⚡ <strong>30W Fast Charging:</strong> iPhone 14 from 0-50% in 30 min with 20W+ charger.</li>
         <li>💪 <strong>35,000+ Bends:</strong> 3.5x more durable than Apple's cable (~10,000 bends).</li>
         <li>📱 <strong>CarPlay Ready:</strong> Works flawlessly with Apple CarPlay in cars.</li>
-    </ul>
+    <li>💰 <strong>0.94 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">

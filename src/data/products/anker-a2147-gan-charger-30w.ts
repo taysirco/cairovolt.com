@@ -30,7 +30,7 @@ export const anker_a2147_gan_charger_30w = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2147 Nano 3 is the charger Apple should have included in the box. At 30W from a body smaller than AirPods case, it's genuinely impressive engineering. We tested it through Cairo's summer voltage fluctuations — ActiveShield 2.0 kept temperatures at 42°C max even during sustained 30W output. The foldable plug is a real convenience for anyone who carries a charger in their bag daily. Compared to the Anker PowerPort 20W, you get 50% more power in roughly the same size. GaN is the future of charging, and this is one of the most affordable ways to experience it. At 430 EGP with a 24-month warranty, it's a no-brainer upgrade from any 20W charger."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"The A2147 Nano 3 is the charger Apple should have included in the box. At 30W from a body smaller than AirPods case, it's genuinely impressive engineering. We tested it through Cairo's summer voltage fluctuations — ActiveShield 2.0 kept temperatures at 42°C max even during sustained 30W output. The foldable plug is a real convenience for anyone who carries a charger in their bag daily. Compared to the Anker PowerPort 20W, you get 50% more power in roughly the same size. GaN is the future of charging, and this is one of the most affordable ways to experience it. At 430 EGP with a 24-month warranty, it's a no-brainer upgrade from any 20W charger."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">GaN Technology: Science Behind the Size</h2>
@@ -84,7 +84,7 @@ export const anker_a2147_gan_charger_30w = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A2147 نانو 3 هو الشاحن اللي كان لازم أبل تحطه في العلبة. بقوة 30 واط في جسم أصغر من علبة ايربودز، هندسة مبهرة فعلاً. جرّبناه في تذبذب فولتية صيف القاهرة — ActiveShield 2.0 حافظ على الحرارة 42°C كحد أقصى حتى في شحن 30 واط مستمر. القابس القابل للطي راحة حقيقية لأي حد بيشيل شاحن في شنطته يومياً. مقارنة بشاحن انكر 20 واط، بتاخد 50% قوة أكتر في نفس الحجم تقريباً. تقنية GaN هي مستقبل الشحن، وده من أرخص الطرق تجربها. بـ 430 جنيه مع ضمان 24 شهر، ترقية واضحة من أي شاحن 20 واط."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ A2147 نانو 3 هو الشاحن اللي كان لازم أبل تحطه في العلبة. بقوة 30 واط في جسم أصغر من علبة ايربودز، هندسة مبهرة فعلاً. جرّبناه في تذبذب فولتية صيف القاهرة — ActiveShield 2.0 حافظ على الحرارة 42°C كحد أقصى حتى في شحن 30 واط مستمر. القابس القابل للطي راحة حقيقية لأي حد بيشيل شاحن في شنطته يومياً. مقارنة بشاحن انكر 20 واط، بتاخد 50% قوة أكتر في نفس الحجم تقريباً. تقنية GaN هي مستقبل الشحن، وده من أرخص الطرق تجربها. بـ 430 جنيه مع ضمان 24 شهر، ترقية واضحة من أي شاحن 20 واط."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">تقنية GaN: العلم وراء الحجم الصغير</h2>

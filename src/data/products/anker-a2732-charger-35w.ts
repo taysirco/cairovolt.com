@@ -33,10 +33,10 @@ export const anker_a2732_charger_35w = {
     <li>🔌 <strong>USB-A PowerIQ 2.0:</strong> Detects and delivers optimal speed for legacy devices up to 15W.</li>
     <li>💡 <strong>Blue LED Ring:</strong> Find ports easily in dark car interiors — subtle enough for night driving.</li>
     <li>🛡️ <strong>MultiProtect Safety:</strong> Surge protection, temperature control, short-circuit prevention.</li>
-</ul></div>
+<li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2732 is the upgrade path from the basic PowerDrive 2. Where the A2224 gives you 2× USB-A at 12W each, the A2732 adds a USB-C PD port that actually fast-charges your iPhone at 20W — that's iPhone 0→50% during a typical Nasr City to 6th October commute. The USB-A port with PowerIQ 2.0 still handles your passenger's older phone or earbuds. We've had one in our test car for 4 months through summer — the LED ring is perfect for finding ports when it's dark, and the compact design doesn't stick out of the console. For anyone who wants PD fast charging in their car without paying for a premium charger, this is the sweet spot."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"The A2732 is the upgrade path from the basic PowerDrive 2. Where the A2224 gives you 2× USB-A at 12W each, the A2732 adds a USB-C PD port that actually fast-charges your iPhone at 20W — that's iPhone 0→50% during a typical Nasr City to 6th October commute. The USB-A port with PowerIQ 2.0 still handles your passenger's older phone or earbuds. We've had one in our test car for 4 months through summer — the LED ring is perfect for finding ports when it's dark, and the compact design doesn't stick out of the console. For anyone who wants PD fast charging in their car without paying for a premium charger, this is the sweet spot."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">USB-C PD: Actually Fast-Charge in Your Car</h2>
@@ -88,7 +88,7 @@ export const anker_a2732_charger_35w = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A2732 هو ترقية حقيقية عن PowerDrive 2 العادي. بدل منفذين USB-A بـ 12 واط، الـ A2732 عنده منفذ USB-C PD بيشحن ايفونك فعلاً بسرعة بـ 20 واط — يعني ايفون من 0 لـ 50% في مشوار مصر الجديدة لـ 6 أكتوبر. منفذ USB-A مع PowerIQ 2.0 بيتعامل مع موبايل الراكب القديم أو الايربودز. سيبناه في عربية الاختبار 4 شهور في الصيف — حلقة LED مثالية تلاقي المنافذ في الضلمة، والتصميم المدمج مش بيبرز من الكونسول. لأي حد عايز شحن PD سريع في العربية بسعر معقول، ده الاختيار الصح."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ A2732 هو ترقية حقيقية عن PowerDrive 2 العادي. بدل منفذين USB-A بـ 12 واط، الـ A2732 عنده منفذ USB-C PD بيشحن ايفونك فعلاً بسرعة بـ 20 واط — يعني ايفون من 0 لـ 50% في مشوار مصر الجديدة لـ 6 أكتوبر. منفذ USB-A مع PowerIQ 2.0 بيتعامل مع موبايل الراكب القديم أو الايربودز. سيبناه في عربية الاختبار 4 شهور في الصيف — حلقة LED مثالية تلاقي المنافذ في الضلمة، والتصميم المدمج مش بيبرز من الكونسول. لأي حد عايز شحن PD سريع في العربية بسعر معقول، ده الاختيار الصح."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">USB-C PD: شحن سريع فعلي في العربية</h2>

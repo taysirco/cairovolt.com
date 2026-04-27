@@ -50,9 +50,7 @@ export const anker_prime_a1695_25000 = {
         <li>💻 <strong>2× USB-C PD + USB-A:</strong> Power 3 devices including laptops simultaneously.</li>
         <li>🌡️ <strong>Active Cooling Fan:</strong> Built-in fan prevents overheating at 165W output.</li>
         <li>⏱️ <strong>30-Minute Recharge:</strong> With Anker Prime 100W charger, 80% in ~30 min.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>5.49 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

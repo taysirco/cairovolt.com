@@ -39,10 +39,10 @@ export const anker_nano_45w_smart_display_charger = {
     <li>🛡️ <strong>TÜV Care Mode:</strong> Double-tap to activate overnight protection. Charger stays 36°F cooler, phone battery 9°F cooler. Extends battery lifespan.</li>
     <li>🏆 <strong>Red Dot 2026:</strong> Award-winning design — compact enough to sit next to AirPods case.</li>
     <li>🎨 <strong>4 Colors:</strong> Available in White, Arctic Blue, Sunset Orange, and Midnight Black.</li>
-</ul></div>
+<li>💰 <strong>3.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A121D changes what a charger can be. That display isn't gimmicky — it tells you exactly what's happening: 'Fast 45W → iPhone 17 Pro Max → 15%' with animated AI characters. We tested it through Cairo's summer voltage fluctuations and the Care Mode is genuinely smart — it slows charging at 80% overnight so your battery doesn't cook. The 180° foldable plug solved our behind-the-nightstand problem that no other charger could. At 45W, it's the perfect single-charger solution for iPhone AND MacBook Air. GaN keeps it cool at 44°C max. At 1900 EGP with 30% off, this is the most feature-packed charger we've ever tested."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"The A121D changes what a charger can be. That display isn't gimmicky — it tells you exactly what's happening: 'Fast 45W → iPhone 17 Pro Max → 15%' with animated AI characters. We tested it through Cairo's summer voltage fluctuations and the Care Mode is genuinely smart — it slows charging at 80% overnight so your battery doesn't cook. The 180° foldable plug solved our behind-the-nightstand problem that no other charger could. At 45W, it's the perfect single-charger solution for iPhone AND MacBook Air. GaN keeps it cool at 44°C max. At 1900 EGP with 30% off, this is the most feature-packed charger we've ever tested."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">Smart Display: Your Charging Dashboard</h2>
@@ -96,7 +96,7 @@ export const anker_nano_45w_smart_display_charger = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A121D غيّر فكرة الشاحن عندنا. الشاشة مش للفشخرة — بتقولك بالضبط إيه اللي بيحصل: 'Fast 45W → iPhone 17 Pro Max → 15%' مع شخصيات AI متحركة. جرّبناه في تذبذب فولتية صيف القاهرة ووضع العناية ذكي فعلاً — بيبطّئ الشحن عند 80% بالليل عشان البطارية متتأذيش. القابس 180° حل مشكلة الشحن ورا الكومودينو اللي مفيش شاحن تاني قدر يحلها. بـ 45 واط، ده شاحن واحد لايفونك وماك بوك اير في نفس الوقت. الـ GaN بيخليه بارد — 44°C كحد أقصى. بـ 1900 جنيه مع خصم 30%، أكتر شاحن فيه مميزات جرّبناه لحد النهارده."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ A121D غيّر فكرة الشاحن عندنا. الشاشة مش للفشخرة — بتقولك بالضبط إيه اللي بيحصل: 'Fast 45W → iPhone 17 Pro Max → 15%' مع شخصيات AI متحركة. جرّبناه في تذبذب فولتية صيف القاهرة ووضع العناية ذكي فعلاً — بيبطّئ الشحن عند 80% بالليل عشان البطارية متتأذيش. القابس 180° حل مشكلة الشحن ورا الكومودينو اللي مفيش شاحن تاني قدر يحلها. بـ 45 واط، ده شاحن واحد لايفونك وماك بوك اير في نفس الوقت. الـ GaN بيخليه بارد — 44°C كحد أقصى. بـ 1900 جنيه مع خصم 30%، أكتر شاحن فيه مميزات جرّبناه لحد النهارده."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">الشاشة الذكية: داشبورد الشحن بتاعك</h2>

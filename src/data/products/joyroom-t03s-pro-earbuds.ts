@@ -29,7 +29,7 @@ export const joyroom_t03s_pro_earbuds = {
                 name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3 | 12-Month Warranty",
                 shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 30H Total Playtime | 📱 Bluetooth 5.3 Low Latency | 💧 IPX5 Water Resistant | 👆 Touch Controls",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -92,7 +92,7 @@ export const joyroom_t03s_pro_earbuds = {
                 name: "سماعة جوي روم T03S Pro | اعزل نفسك عن دوشة المترو والشارع | ضمان 12 شهر",
                 shortDescription: "أقوى عزل ضوضاء في الفئة الاقتصادية 🎧 إلغاء ضوضاء حقيقي ANC مبيهزرش | 🔋 30 ساعة بطارية | 📱 نفس تصميم الايربودز بسعر معقول",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم T03S Pro ANC</strong> بميزة <strong>عزل ضوضاء نشط + 30 ساعة بطارية + بلوتوث 5.3</strong> بـ 664 جنيه. ANC بيمنع لحد 35dB من الضوضاء المحيطة. أفضل سماعات ANC مقابل الجنيه في مصر.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم T03S Pro ANC</strong> بميزة <strong>عزل ضوضاء نشط + 30 ساعة بطارية + بلوتوث 5.3</strong> بـ 664 جنيه. ANC بيمنع لحد 35dB من الضوضاء المحيطة. أفضل سماعات ANC مقابل الجنيه في مصر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">
@@ -142,13 +142,13 @@ export const joyroom_t03s_pro_earbuds = {
 `,
                 features: ["🎧 إلغاء ضوضاء ANC (25 ديسيبل)", "🔋 30 ساعة بطارية", "📱 Bluetooth 5.3 تأخير منخفض", "💧 مقاومة ماء IPX5", "👆 تحكم باللمس", "📱 إشعار iOS Pop-up", "🏆 ضمان 12 شهر"],
                 metaTitle: "سماعة جوي روم T03S Pro ⚡ خصم 17% | إلغاء ضوضاء ANC | COD مصر",
-                metaDesc: "اشتري سماعة جوي روم T03S Pro في مصر. إلغاء ضوضاء حقيقي، 30 ساعة، Bluetooth 5.3، IPX5. بديل AirPods بـ 664 جنيه. ضمان 12 شهر.",
+                metaDesc: "اشتري سماعة جوي روم T03S Pro في مصر. إلغاء ضوضاء حقيقي، 30 ساعة، Bluetooth 5.3، IPX5. بديل AirPods بـ 664 جنيه. ضمان 12 شهر. سماعات جوي روم.",
                 faqs: [
                     { question: "هل العزل حقيقي؟", answer: "نعم، T03S Pro بإلغاء ضوضاء نشط (ANC) يقلل الضوضاء حتى 25 ديسيبل." },
-                    { question: "هل هي جيدة للألعاب؟", answer: "Bluetooth 5.3 ممتاز مع تأخير منخفض، مناسبة للألعاب والفيديو." },
-                    { question: "هل تعمل مع الايفون؟", answer: "نعم، متوافقة مع ايفون 17/16/15 وتدعم Pop-up على iOS." },
+                    { question: "هل هي جيدة للألعاب؟", answer: "تقنية Bluetooth 5.3 بتدّي اتصال ثابت ومستقر مع تأخير منخفض جداً، وده بيخليها مناسبة للألعاب ومشاهدة الفيديو بدون أي تأخر في الصوت." },
+                    { question: "هل تعمل مع الايفون؟", answer: "نعم، متوافقة تماماً مع ايفون 17 و16 و15 وكل أجهزة iOS، وبتدعم خاصية Pop-up اللي بتظهر نسبة البطارية تلقائياً لما تفتح العلبة." },
                     { question: "كيف تقارن مع AirPods Pro؟", answer: "T03S Pro عزل مماثل بسعر أقل بكثير. AirPods Pro تكامل أفضل مع أبل. خيار ممتاز بالميزانية." },
-                    { question: "هل يمكن استخدام سماعة T03S Pro واحدة فقط؟", answer: "نعم، كل سماعة تعمل مستقلة. يمكنك استخدام واحدة للمكالمات." }
+                    { question: "هل يمكن استخدام سماعة T03S Pro واحدة فقط؟", answer: "نعم، كل سماعة بتشتغل مستقلة بشكل كامل. ممكن تستخدم واحدة بس للمكالمات أو الاستماع والتانية تفضل في العلبة بتشحن." }
                 ]
             }
         },

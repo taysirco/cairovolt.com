@@ -25,7 +25,7 @@ export const joyroom_60w_car_charger = {
                 name: "Joyroom 60W Car Charger | 3-in-1 Retractable Cables | 30W+30W Dual | iPhone 17 MAX | 18-Month Warranty",
                 shortDescription: "⚡ 60W Total (30W+30W) | 🔌 Built-in Retractable USB-C | 📱 iPhone 17 MAX 30W | 📱 Samsung S26 Super Fast | 🚗 Fits All Cars | 🏆 18-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Joyroom 60W 3-in-1 car charger</strong> is the only car charger you need: <strong>built-in retractable USB-C cable + extra port = charge 2 devices at 30W each</strong>. No loose cables in the car. Tested in 8 Egyptian car models. At 513 EGP, it replaces buying a charger + cable separately.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Joyroom 60W 3-in-1 car charger</strong> is the only car charger you need: <strong>built-in retractable USB-C cable + extra port = charge 2 devices at 30W each</strong>. No loose cables in the car. Tested in 8 Egyptian car models. At 513 EGP, it replaces buying a charger + cable separately. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -33,9 +33,7 @@ export const joyroom_60w_car_charger = {
         <li>🔌 <strong>Retractable Cables:</strong> Built-in USB-C cables, no cable mess.</li>
         <li>📱 <strong>iPhone 17 MAX:</strong> Full 30W charging speed per port.</li>
         <li>🚗 <strong>Universal Fit:</strong> Standard 12V socket, fits any car.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -86,7 +84,7 @@ export const joyroom_60w_car_charger = {
                 name: "شاحن سيارة جوي روم 60 واط 3 في 1 | مش هتتخانقوا على الشاحن في زحمة الدائري | ضمان 18 شهر",
                 shortDescription: "كابلات بتتسحب وتختفي من غير كركبة في العربية ⚡ 30+30 واط فعلية بتشحن جهازين سوبر فاست في نفس الوقت",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، شاحن <strong>جوي روم 60 واط 3 في 1 للسيارة</strong> هو شاحن العربية الوحيد اللي محتاجه: <strong>كابل USB-C مدمج بيتسحب + منفذ إضافي = شحن 2 جهاز بـ 30 واط كل واحد</strong>. مفيش كابلات سايبة في العربية. مجرّب في 8 موديلات عربيات مصرية. بـ 513 جنيه، بيغنيك عن شراء شاحن + كابل لوحدهم.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، شاحن <strong>جوي روم 60 واط 3 في 1 للسيارة</strong> هو شاحن العربية الوحيد اللي محتاجه: <strong>كابل USB-C مدمج بيتسحب + منفذ إضافي = شحن 2 جهاز بـ 30 واط كل واحد</strong>. مفيش كابلات سايبة في العربية. مجرّب في 8 موديلات عربيات مصرية. بـ 513 جنيه، بيغنيك عن شراء شاحن + كابل لوحدهم. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">

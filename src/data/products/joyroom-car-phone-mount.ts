@@ -26,7 +26,7 @@ export const joyroom_car_phone_mount = {
                 name: "Joyroom Universal Car Phone Mount",
                 shortDescription: "🚗 Anti-shake car mount tested at 120km/h on Egyptian highways | Fits 4.7-7 inch phones with case | 360° rotation",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -34,8 +34,7 @@ export const joyroom_car_phone_mount = {
         <li>📱 <strong>Universal Fit:</strong> Expands up to 7 inches (fits iPhone 17 Pro Max with case).</li>
         <li>🔄 <strong>360° Viewing:</strong> Fully adjustable arm for perfect GPS angles.</li>
         <li>👋 <strong>One-Hand Release:</strong> Push button to instantly grab your phone.</li>
-    </ul>
-</div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -79,7 +78,7 @@ export const joyroom_car_phone_mount = {
                 name: "حامل موبايل للسيارة جوي روم | مبتهزش في مطبات الدائري | دوران 360° | يناسب كل الموبايلات",
                 shortDescription: "منقذك من غرامات المرور 🚓 كوب شفط قوي مش هيقع من شمس الصيف | 📱 يناسب ايفون 17 برو ماكس وسامسونج الترا | 👋 بتركبه وتفكه بإيد واحدة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">حامل <strong>جوي روم العالمي للسيارة</strong> بـ <strong>169 جنيه</strong> بيناسب موبايلات من 4.7"-6.8" بآلية تثبيت قوية. أذرع زنبركية + وسائد مانعة للانزلاق. بيركّب على كل فتحات تكييف العربيات المصرية. اقتصادي بدون التضحية بالثبات.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">حامل <strong>جوي روم العالمي للسيارة</strong> بـ <strong>169 جنيه</strong> بيناسب موبايلات من 4.7"-6.8" بآلية تثبيت قوية. أذرع زنبركية + وسائد مانعة للانزلاق. بيركّب على كل فتحات تكييف العربيات المصرية. اقتصادي بدون التضحية بالثبات. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة اللي تهمك:</h3>
     <ul class="list-none space-y-1">
@@ -87,7 +86,7 @@ export const joyroom_car_phone_mount = {
         <li>📱 <strong>لأي موبايل:</strong> بيوسع لحد 7 بوصة (يشيل ايفون 17 برو ماكس بالكفر).</li>
         <li>🔄 <strong>دوران 360°:</strong> ذراع قابل للتعديل عشان تظبط زاوية ה-GPS براحتك.</li>
         <li>👋 <strong>إفلات بضغطة:</strong> دوس على الزرار الموبايل يطلع فوراً.</li>
-    </ul>
+    <li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul>
 </div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>

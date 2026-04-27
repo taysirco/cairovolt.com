@@ -44,9 +44,7 @@ export const anker_zolo_a1681_20000 = {
         <li>💻 <strong>Laptop Charging:</strong> Supports MacBook Air, iPad Pro, Surface Go, Chromebooks.</li>
         <li>📊 <strong>Smart Digital Display:</strong> Battery %, watts output, and charging status.</li>
         <li>✈️ <strong>Airline Approved:</strong> 72Wh — safely under the 100Wh limit.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>4.07 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

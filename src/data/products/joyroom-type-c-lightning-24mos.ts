@@ -29,7 +29,7 @@ export const joyroom_type_c_lightning_24mos = {
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This is a <strong>Lightning</strong> cable — it does NOT work with iPhone 17/16/15 (USB-C). Check your iPhone charging port: if it's oval-shaped, you need a USB-C cable instead. Counterfeit Lightning cables often lack the chip inside that protects your iPhone battery — always buy from verified sellers like CairoVolt with warranty.</p></div>`,
                 features: ["⚡ 30W PD fast charging", "🏆 24-month extended warranty", "📱 iPhone 14 and earlier", "✨ 1m length", "✨ Durable nylon braided"],
                 metaTitle: "Joyroom Lightning Cable ⚡ 49% OFF | 2-Year Warranty | COD",
-                metaDesc: "Buy joyroom USB-C Lightning Cable with 24-month warranty for iPhone 14/13/12. 30W fast charging. Best price Egypt. ✓ COD ✓ Fast Delivery Egypt.",
+                metaDesc: "Buy joyroom USB-C Lightning Cable with 24-month warranty for iPhone 14/13/12. 30W fast charging. Best price Egypt. ✓ COD ✓ Fast Delivery.",
                 faqs: [
                     { question: "Why choose 24-month warranty cable?", answer: "For users who want extra protection without premium pricing. 24-month warranty covers manufacturing defects twice as long as standard 12-month cables." },
                     { question: "What's covered under warranty?", answer: "Manufacturing defects including fraying, connector issues, and charging failures. Physical damage from misuse is not covered." },

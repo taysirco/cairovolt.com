@@ -97,9 +97,7 @@ export const anker_521_powerhouse = {
         <li>🔌 <strong>200W AC Outlet:</strong> Powers routers, CPAP machines, fans, and small appliances.</li>
         <li>⚡ <strong>6 Output Ports:</strong> AC 220V + USB-C PD + 2× USB-A + Car Socket + DC.</li>
         <li>🛡️ <strong>5-Year Warranty:</strong> Industry-leading warranty — longest in Egypt.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

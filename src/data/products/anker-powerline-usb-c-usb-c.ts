@@ -41,9 +41,7 @@ export const anker_powerline_usb_c_usb_c = {
         <li>📱 <strong>Universal USB-C:</strong> The one cable for the USB-C era — phones, tablets, laptops.</li>
         <li>💪 <strong>35,000+ Bends:</strong> 3.5x more durable than standard cables.</li>
         <li>📊 <strong>USB 2.0 Data:</strong> 480Mbps for photos and file transfers.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -164,8 +162,8 @@ export const anker_powerline_usb_c_usb_c = {
                 metaDesc: "اشتري كابل انكر PowerLine III USB-C في مصر. 60 واط لايفون 17 وسامسونج S26 وماك بوك. 35 ألف ثني. ضمان 18 شهر. توصيل سريع.",
                 faqs: [
                     { question: "هل يدعم شحن سامسونج 45 واط؟", answer: "نعم، يدعم 60 واط فيتعامل مع 25 واط و 45 واط. تأكد من كابل 5 أمبير للسرعة القصوى." },
-                    { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "نعم، يدعم USB 2.0 (480 ميجابت/ثانية)، مناسب للصور والملفات." },
-                    { question: "ما مدى متانة كابل انكر USB-C؟", answer: "مختبر لتحمل 35,000+ انحناء، من أمتن الكابلات في السوق." },
+                    { question: "هل يمكن استخدامه لنقل البيانات؟", answer: "نعم، يدعم نقل بيانات USB 2.0 بسرعة 480 ميجابت في الثانية، وده مناسب لنقل الصور والفيديوهات والملفات الكبيرة بين الأجهزة." },
+                    { question: "ما مدى متانة كابل انكر USB-C؟", answer: "مختبر لتحمل أكتر من 35,000 دورة انحناء في المعمل، وده بيخليه من أمتن الكابلات المتاحة في السوق المصري وبيعيش سنين من الاستخدام اليومي." },
                     { question: "كيف يقارن مع كابلات سامسونج؟", answer: "نفس الأداء بسعر أقل. انكر يتحمل 35,000 انحناء مقابل ~10,000 لسامسونج." },
                     { question: "الكابل ده هيعيش قد إيه مع الاستخدام اليومي؟", answer: "مختبر لأكتر من 35,000 انحناء — يعني تقريباً 3-4 سنين استخدام يومي مكثف من غير أي تدهور في الأداء أو السرعة." }
                 ]

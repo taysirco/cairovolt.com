@@ -38,9 +38,7 @@ export const anker_soundcore_flare_2 = {
         <li>💡 <strong>Light Show:</strong> Beat-driven dual LED rings that sync with your music.</li>
         <li>💧 <strong>Waterproof:</strong> IPX7 rated — survives full submersion.</li>
         <li>🔗 <strong>PartyCast:</strong> Sync 100+ speakers for massive sound coverage.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

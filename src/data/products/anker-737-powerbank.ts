@@ -50,9 +50,7 @@ export const anker_737_powerbank = {
         <li>🔋 <strong>24,000mAh:</strong> Charges iPhone 17 Pro Max 5+ times or MacBook Air 1.5 times.</li>
         <li>📊 <strong>Smart Display:</strong> Real-time power output, input, and recharge time remaining.</li>
         <li>✈️ <strong>Airline Safe:</strong> 86.4Wh — under TSA 100Wh limit for carry-on luggage.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>9.26 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

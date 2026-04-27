@@ -26,7 +26,7 @@ export const joyroom_power_bank_10000 = {
                 name: "Joyroom 10000mAh Slim Power Bank | QC 3.0 | LED Display | 12-Month Warranty",
                 shortDescription: "🔋 10,000mAh (2x iPhone 17) | ⚡ Quick Charge 3.0 | 📊 LED Battery Display | 📏 Ultra-Slim 14mm | 🔌 Dual USB Output",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 10000mAh Slim Power Bank</strong> features <strong>QC 3.0 fast output + LED display showing exact battery %</strong>. Ultra-slim design fits in shirt pockets. At 1,624 EGP, it's the premium compact power bank for professionals.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 10000mAh Slim Power Bank</strong> features <strong>QC 3.0 fast output + LED display showing exact battery %</strong>. Ultra-slim design fits in shirt pockets. At 1,624 EGP, it's the premium compact power bank for professionals. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
@@ -34,7 +34,7 @@ export const joyroom_power_bank_10000 = {
         <li>⚡ <strong>Quick Charge 3.0:</strong> 4x faster than standard 5W charging.</li>
         <li>📊 <strong>LED Display:</strong> Shows exact battery percentage (not just dots).</li>
         <li>📏 <strong>Ultra-Slim 14mm:</strong> Thinner than your phone. Perfect for pockets.</li>
-    </ul>
+    <li>💰 <strong>4.51 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -103,7 +103,7 @@ export const joyroom_power_bank_10000 = {
                 name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة) | ضمان 12 شهر",
                 shortDescription: "أرخص باور بانك أصلي في مصر 🔋 10,000 مللي (شحنتين ايفون 17) | ⚡ أسرع 4 مرات من الشاحن العادي | 📊 شاشة ديجيتال للنسبة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 10000mAh نحيف</strong> بميزة <strong>QC 3.0 خرج سريع + شاشة LED بتوريك نسبة البطارية بالظبط</strong>. تصميم نحيف جداً بيدخل جيب القميص. بـ 1,624 جنيه، باور بانك المحترفين الفاخر.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 10000mAh نحيف</strong> بميزة <strong>QC 3.0 خرج سريع + شاشة LED بتوريك نسبة البطارية بالظبط</strong>. تصميم نحيف جداً بيدخل جيب القميص. بـ 1,624 جنيه، باور بانك المحترفين الفاخر. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
     <ul class="list-none space-y-1">

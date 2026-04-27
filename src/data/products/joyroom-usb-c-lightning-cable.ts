@@ -28,7 +28,7 @@ export const joyroom_usb_c_lightning_cable = {
                 name: "Joyroom USB-C to Lightning Cable | 20W PD | Nylon Braided | 12-Month Warranty",
                 shortDescription: "⚡ 20W PD Fast Charging | 🔗 Nylon Braided 10,000+ Bends | 📱 iPhone 17/16/15 | 💾 480Mbps Data Transfer | 💰 Best Price Egypt",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Joyroom USB-C to Lightning cable</strong> at <strong>118 EGP</strong> is the budget entry point for real 20W PD fast charging. Nylon braided, 12-month warranty, 0→50% in ~30 min for iPhone 14/13/12. CairoVolt's best-selling cable by volume.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Joyroom USB-C to Lightning cable</strong> at <strong>118 EGP</strong> is the budget entry point for real 20W PD fast charging. Nylon braided, 12-month warranty, 0→50% in ~30 min for iPhone 14/13/12. CairoVolt's best-selling cable by volume. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -99,7 +99,7 @@ export const joyroom_usb_c_lightning_cable = {
                 name: "كابل جوي روم USB-C to Lightning | كابل ايفون أصلي مبيهنجش التاتش ومبيتقطعش | ضمان 12 شهر",
                 shortDescription: "كابل أصلي لو بطاريتك غالية عليك 🛡️ تيار مستقر مبيضربش البطارية | 💪 نايلون 10,000+ انحناء مش هيتقطع | ⚡ 20 واط PD شحن سريع | 💰 بسعر الكابلات العادية",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، كابل <strong>جوي روم USB-C لـ Lightning</strong> بـ <strong>118 جنيه</strong> هو أرخص نقطة دخول لشحن PD سريع حقيقي 20 واط. نايلون مجدول، ضمان 12 شهر، 0→50% في ~30 دقيقة لايفون 14/13/12. أكثر كابل مبيعاً في كايرو فولت.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، كابل <strong>جوي روم USB-C لـ Lightning</strong> بـ <strong>118 جنيه</strong> هو أرخص نقطة دخول لشحن PD سريع حقيقي 20 واط. نايلون مجدول، ضمان 12 شهر، 0→50% في ~30 دقيقة لايفون 14/13/12. أكثر كابل مبيعاً في كايرو فولت. نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
     <ul class="list-none space-y-1">

@@ -26,10 +26,10 @@ export const anker_a2741_charger_30w = {
     <li>⚡ <strong>PPS Support:</strong> Samsung Galaxy S26/S25 get optimized Super Fast Charging via PPS protocol.</li>
     <li>🔌 <strong>PowerIQ 3.0 USB-A:</strong> Up to 22.5W for legacy devices — faster than most car charger USB-A ports.</li>
     <li>🛡️ <strong>MultiProtect:</strong> Over-voltage, under-voltage, over-current, and over-temperature protection.</li>
-</ul></div>
+<li>💰 <strong>0.98 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2741 is genuinely tiny — at 15 grams, you'll forget it's in your car. But don't let the size fool you: the USB-C port delivers 27W PD with PPS, which is significant for Samsung users who want Super Fast Charging in the car. The USB-A port with PowerIQ 3.0 offers 22.5W — substantially faster than the 12W you get from basic car chargers. Where the A2732 focuses on the PD upgrade, the A2741 is about maximum power in minimum size. We tested it through the 6th of October/Sheikh Zayed commute in August — it stayed cool under dual load despite 45°C ambient. For drivers who want the smallest possible charger with real fast-charge capability, the A2741 is unmatched."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"The A2741 is genuinely tiny — at 15 grams, you'll forget it's in your car. But don't let the size fool you: the USB-C port delivers 27W PD with PPS, which is significant for Samsung users who want Super Fast Charging in the car. The USB-A port with PowerIQ 3.0 offers 22.5W — substantially faster than the 12W you get from basic car chargers. Where the A2732 focuses on the PD upgrade, the A2741 is about maximum power in minimum size. We tested it through the 6th of October/Sheikh Zayed commute in August — it stayed cool under dual load despite 45°C ambient. For drivers who want the smallest possible charger with real fast-charge capability, the A2741 is unmatched."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">Miniature Size, Maximum Power</h2>
@@ -81,7 +81,7 @@ export const anker_a2741_charger_30w = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A2741 صغير فعلاً — بـ 15 جرام هتنسى إنه في عربيتك. بس ما تنخدعش بالحجم: منفذ USB-C بيوفر 27 واط PD مع PPS، وده مهم لمستخدمي سامسونج اللي عايزين Super Fast Charging في العربية. منفذ USB-A مع PowerIQ 3.0 بيوفر 22.5 واط — أسرع بكتير من الـ 12 واط بتاعة شواحن السيارة العادية. فين الـ A2732 بيركز على ترقية PD، الـ A2741 عن أقصى قوة في أقل حجم. جربناه في مشوار 6 أكتوبر/الشيخ زايد في أغسطس — فضل بارد تحت حمل مزدوج رغم 45°C حوله. لأي سواق عايز أصغر شاحن ممكن مع قدرة شحن سريع حقيقية، الـ A2741 مالوش بديل."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span></p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ A2741 صغير فعلاً — بـ 15 جرام هتنسى إنه في عربيتك. بس ما تنخدعش بالحجم: منفذ USB-C بيوفر 27 واط PD مع PPS، وده مهم لمستخدمي سامسونج اللي عايزين Super Fast Charging في العربية. منفذ USB-A مع PowerIQ 3.0 بيوفر 22.5 واط — أسرع بكتير من الـ 12 واط بتاعة شواحن السيارة العادية. فين الـ A2732 بيركز على ترقية PD، الـ A2741 عن أقصى قوة في أقل حجم. جربناه في مشوار 6 أكتوبر/الشيخ زايد في أغسطس — فضل بارد تحت حمل مزدوج رغم 45°C حوله. لأي سواق عايز أصغر شاحن ممكن مع قدرة شحن سريع حقيقية، الـ A2741 مالوش بديل."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">حجم صغير، قوة كبيرة</h2>

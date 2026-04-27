@@ -28,7 +28,7 @@ export const joyroom_car_mount_zs290 = {
                 name: "Joyroom Magnetic Car Mount ZS290 | N52 Magnets | MagSafe | 360° | 12-Month Warranty",
                 shortDescription: "🧲 N52 Strong Magnets | 📱 MagSafe iPhone 17/16/15 | 🔄 360° Rotation | ❄️ Air Vent Clip | 🖐️ One-Hand Operation",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap phone mounts that lose grip in Egyptian summer heat, The <strong>Joyroom ZS290 MagSafe car mount</strong> uses <strong>N52 magnets</strong> — the strongest consumer-grade magnets available. Holds iPhone firmly at 120km/h on Cairo's Ring Road. <strong>360° rotation</strong> for landscape GPS. At 2,550 EGP, it's the premium car mount.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap phone mounts that lose grip in Egyptian summer heat, The <strong>Joyroom ZS290 MagSafe car mount</strong> uses <strong>N52 magnets</strong> — the strongest consumer-grade magnets available. Holds iPhone firmly at 120km/h on Cairo's Ring Road. <strong>360° rotation</strong> for landscape GPS. At 2,550 EGP, it's the premium car mount. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -36,9 +36,7 @@ export const joyroom_car_mount_zs290 = {
         <li>📱 <strong>MagSafe Direct:</strong> iPhone 15/16/17 attach without metal plate.</li>
         <li>🔄 <strong>360° Rotation:</strong> Portrait, landscape, or any angle.</li>
         <li>🖐️ <strong>One-Hand:</strong> Snap phone on, pull phone off. Zero fumbling.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -77,7 +75,7 @@ export const joyroom_car_mount_zs290 = {
 `,
                 features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty"],
                 metaTitle: "Joyroom Magnetic Car Mount ⚡ N52 MagSafe | COD Egypt",
-                metaDesc: "Buy Joyroom magnetic car mount in Egypt. N52 magnets, MagSafe iPhone direct attach, 360° rotation, air vent clip. Holds iPhone 17 Pro Max. 12-month warranty.",
+                metaDesc: "Buy Joyroom car mount (ZS290) in Egypt. N52 magnets, MagSafe iPhone direct attach, 360° rotation, air vent clip. Holds iPhone 17 Pro Max. 12-month warranty.",
                 faqs: [
                     { question: "Are N52 magnets strong enough for iPhone 17 Pro Max?", answer: "Yes, the powerful N52 magnets are strong enough to securely hold heavy phones like the iPhone 17 Pro Max, even on bumpy roads." },
                     { question: "Does it block airflow?", answer: "Its compact design attaches to the vent blades but allows sufficient airflow around the mount." },
@@ -90,7 +88,7 @@ export const joyroom_car_mount_zs290 = {
                 name: "حامل جوال مغناطيسي جوي روم ZS290 | موبايلك مش هيقع في مطبات القاهرة | ضمان 12 شهر",
                 shortDescription: "أقوى مغناطيس للسيارة في مصر 🧲 N52 بيمسك ايفون برو ماكس كأنه ملزوق | ❄️ بيركب في التكييف من غير ما يكسر الريش | 🖐️ بتركبه وتفكه بإيد واحدة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الحوامل الرخيصة اللي بتسيب الموبايل في حرارة صيف مصر، حامل <strong>جوي روم ZS290 MagSafe للسيارة</strong> بيستخدم <strong>مغناطيس N52</strong> — أقوى مغناطيس متاح للمستهلك. بيمسك الايفون بثبات عند 120 كم/س على الدائري. <strong>دوران 360°</strong> لوضع GPS الأفقي. بـ 2,550 جنيه، الحامل الفاخر.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الحوامل الرخيصة اللي بتسيب الموبايل في حرارة صيف مصر، حامل <strong>جوي روم ZS290 MagSafe للسيارة</strong> بيستخدم <strong>مغناطيس N52</strong> — أقوى مغناطيس متاح للمستهلك. بيمسك الايفون بثبات عند 120 كم/س على الدائري. <strong>دوران 360°</strong> لوضع GPS الأفقي. بـ 2,550 جنيه، الحامل الفاخر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">

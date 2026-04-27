@@ -41,7 +41,7 @@ export const anker_nano_45w = {
         <li>💻 <strong>MacBook Air:</strong> Full native charging speed — no need for Apple's bulky adapter.</li>
         <li>📱 <strong>Samsung S26:</strong> Super Fast Charging 2.0 (45W) — the max Samsung supports.</li>
         <li>📏 <strong>GaN = Tiny:</strong> 60% smaller than traditional 45W chargers. Perfect for travel.</li>
-    </ul>
+    <li>💰 <strong>1.10 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">

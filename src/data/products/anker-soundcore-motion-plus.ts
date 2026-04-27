@@ -41,9 +41,7 @@ export const anker_soundcore_motion_plus = {
         <li>💧 <strong>Waterproof:</strong> IPX7 rated (fully submersible).</li>
         <li>🔋 <strong>All-Day Battery:</strong> 12 hours of continuous playtime (6700mAh).</li>
         <li>📱 <strong>Smart Connect:</strong> Bluetooth 5.0 + 3.5mm AUX input.</li>
-    </ul>
-</div>
-
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
