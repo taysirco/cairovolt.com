@@ -95,7 +95,7 @@ export const anker_prime_a1695_25000 = {
     <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) to unlock full laptop-charging speed safely. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
 </div>
 `,
-                features: ["⚡ 165W Combined Output", "💻 140W MacBook Pro Charging", "🔋 25,000mAh (92.7Wh)", "🌡️ Active Cooling Fan", "⏱️ 30-min 80% Recharge", "📊 Smart Display (watts/temp/%)", "✈️ Max Flight-Legal Capacity", "🛡️ 24-Month Warranty"],
+                features: ["⚡ 165W Combined Output", "💻 140W MacBook Pro Charging", "🔋 25,000mAh (92.7Wh)", "🌡️ Active Cooling Fan", "⚡ ⏱️ 30-min 80% Recharge", "📊 Smart Display (watts/temp/%)", "✈️ Max Flight-Legal Capacity", "🛡️ 24-Month Warranty"],
                 metaTitle: "Anker Prime 25000mAh 165W ⚡ 6% OFF | MacBook Pro | COD Egypt",
                 metaDesc: "Buy Anker Prime A1695 165W in Egypt. Charges MacBook Pro at 140W. 25000mAh, active cooling, smart display. ✓ 24-Month Warranty ✓ Fast Delivery.",
                 faqs: [
@@ -167,7 +167,7 @@ export const anker_prime_a1695_25000 = {
     <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 165 واط — الكابل بيبقى عنق زجاجة عند 15 واط وبيسخن بشكل خطير. الـ A1695 محتاج كابل 100+ واط (زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) عشان تفتح سرعة شحن اللابتوب الكاملة بأمان.</p>
 </div>
 `,
-                features: ["⚡ 165 واط إخراج مشترك", "💻 140 واط شحن ماك بوك برو", "🔋 25,000 مللي أمبير (92.7Wh)", "🌡️ مروحة تبريد نشطة", "⏱️ 30 دقيقة 80% إعادة شحن", "📊 شاشة ذكية", "✈️ أقصى سعة للطائرة", "🛡️ ضمان 24 شهر"],
+                features: ["⚡ 165 واط إخراج مشترك", "💻 140 واط شحن ماك بوك برو", "🔋 25,000 مللي أمبير (92.7Wh)", "🌡️ مروحة تبريد نشطة", "⚡ ⏱️ 30 دقيقة 80% إعادة شحن", "📊 شاشة ذكية", "✈️ أقصى سعة للطائرة", "🛡️ ضمان 24 شهر"],
                 metaTitle: "انكر برايم 25000 الأصلي ⚡ خصم 6% | 165 واط ماك بوك | COD مصر",
                 metaDesc: "اشتري انكر برايم A1695 بقوة 165 واط في مصر. يشحن ماك بوك برو بـ 140 واط. 25000 مللي أمبير، تبريد نشط. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
