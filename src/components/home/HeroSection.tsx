@@ -55,6 +55,18 @@ const heroProducts: HeroProduct[] = [
     href: '/anker/power-banks/anker-prime-a1695-25000',
     highlight: { en: '165W MacBook Pro', ar: '165 واط ماك بوك' },
   },
+  {
+    slug: 'anker-nano-45w-smart-display-charger',
+    name: { en: 'Anker Nano 45W Smart Display', ar: 'انكر نانو 45W شاشة ذكية' },
+    tagline: { en: '45W GaN · Smart TFT Display · 180° Foldable · Care Mode', ar: '45 واط GaN · شاشة TFT ذكية · قابس 180° · وضع العناية' },
+    image: '/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt.webp',
+    price: 1900,
+    originalPrice: 2700,
+    brand: 'Anker',
+    badge: { en: 'New Arrival', ar: 'جديد' },
+    href: '/anker/wall-chargers/anker-nano-45w-smart-display-charger',
+    highlight: { en: 'Red Dot 2026 Winner', ar: 'جائزة Red Dot 2026' },
+  },
 ];
 
 interface HeroSectionProps {
