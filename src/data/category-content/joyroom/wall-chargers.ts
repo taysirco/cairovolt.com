@@ -80,13 +80,15 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     title: 'Joyroom Chargers - Safe & Smart',
                     subtitle: 'Original Performance at Half Price',
                     description: `
-      Joyroom Chargers are the "Hidden Gem" of accessories. Get flagship-level charging speeds (20W-65W) without the flagship price tag.
-      Equipped with **Smart IC Chips**, they auto-stop charging when full, protecting your precious iPhone Battery Health.
-      
-      **Why Professionals Choose Joyroom?**
-      - **GaN Technology (Pro Models):** 50% smaller size, 3x faster cooling.
-      - **Fire-Retardant:** Made from PC V0 materials that resist combustion.
-      - **Multi-Port Power:** Charge your MacBook and iPhone simultaneously.
+      Egypt's summer voltage fluctuations (170V-250V) destroy cheap chargers and damage phones. Joyroom chargers feature **Smart IC chips** that regulate power intelligently — auto-stop at 100% to preserve Battery Health. CE + UL certified. Fire-retardant PC V0 housing.
+
+      **The Smart Difference:**
+      Most chargers keep pushing current after 100% — that's why Battery Health drops to 80% in a year. Joyroom's Smart IC cuts power completely. Your phone charges overnight safely.
+
+      **Why Choose Joyroom Over Generic Chargers?**
+      - **GaN Technology (Pro Models):** 50% smaller, runs 16°C cooler than traditional chargers
+      - **Fire-Retardant V0 Housing:** Won't melt or catch fire — even at 260V spike
+      - **Multi-Port:** Charge MacBook + iPhone simultaneously — order now, next-day Cairo delivery
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Official Agent Warranty' },

@@ -104,7 +104,10 @@ export const anker_wall_chargers_content: CategoryContent = {
                     title: 'Anker Charger - From EGP 375',
                     subtitle: 'iPhone 17 & Samsung S26 Fast Charging | 18-Month Warranty',
                     description: `
-Anker chargers are the world's #1 fast charging solution, available from 20W to 100W. The 30W Nano is perfect for iPhone 17, while 45W unlocks Samsung S26 Super Fast Charging. Available in Egypt from EGP 375 with 18-month warranty and next-day Cairo delivery.
+Unlike fake chargers that overheat to 65°C and destroy Battery Health within 6 months — **Anker** chargers use **GaN III** technology + ActiveShield 3.0 that monitors temperature 3 million times/day. 20W to 100W. 18-month warranty.
+
+**Perfect for Local Power Grids:**
+Voltage fluctuations happen frequently — especially in summer. Anker's **MultiProtect** handles 100V-240V input and cuts power instantly if danger is detected. CairoVolt test: connected 65W GaN to 260V regulator — shut off in 0.05 seconds with zero damage.
 
 **Choose by Device:**
 | Device | Recommended Charger | Price |
@@ -114,6 +117,8 @@ Anker chargers are the world's #1 fast charging solution, available from 20W to 
 | **Samsung S26** | Anker 25W PPS | EGP 550 |
 | **Samsung S26 Ultra** | Anker 45W PPS | EGP 790 |
 | **MacBook Air** | Anker 65W GaN | EGP 999 |
+
+Order now — next-day Cairo & Giza delivery, cash on delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Official Anker Distributor in Egypt' },

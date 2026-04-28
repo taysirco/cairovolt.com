@@ -120,11 +120,14 @@ export const joyroom_smart_watches_content: CategoryContent = {
                     title: 'Joyroom Smart Watch — From EGP 1,092',
                     subtitle: 'AMOLED + Bluetooth 5.3 Calling + 7-Day Battery | 1-Year Warranty',
                     description: `
-Joyroom Smart Watch is Egypt's best value alternative to Apple Watch and Samsung Galaxy Watch — at 75% less cost.
+Tried cheap smartwatches that go black in Egypt's sun and die after one day? The screen matters more than specs — and most fakes use **TN panels** that are invisible outdoors. Joyroom uses genuine **AMOLED** (1,000 nits) visible even in direct noon sunlight.
 
-**CairoVolt Test:** We used the FT3 Pro for 30 days straight. Battery genuinely lasted 7 days with normal use (notifications + step tracking). With heavy Bluetooth calling, it lasts 4 days.
+**Built for Egyptian Daily Life:**
+- **Ablution-proof:** IP68 waterproof — wash your hands 5 times daily with zero worry
+- **7-day real battery:** CairoVolt tested FT3 Pro for 30 days straight. Normal use = 7 days. Heavy Bluetooth calling = 4 days
+- **Bluetooth 5.3 Calling:** Answer calls from your wrist in traffic or the gym — clear voice quality
 
-**⚠️ Buyer Warning:** The Egyptian market is flooded with fake smart watches using cheap TN screens (not real AMOLED). They go blank in sunlight and die in one day. Joyroom originals use genuine AMOLED — vibrant colors even under Egypt's harsh noon sun.
+**⚠️ Buyer Warning:** Egypt's market is flooded with fake smartwatches at EGP 200-400 using cheap screens. They break in weeks. Joyroom's Global Version comes with serial verification.
 
 | Model | Display | Price | Best For |
 |-------|---------|-------|----------|

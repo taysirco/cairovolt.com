@@ -82,13 +82,13 @@ export const joyroom_cables_content: CategoryContent = {
                     title: 'Joyroom Cables (Auto-Disconnect Tech)',
                     subtitle: 'The Only Cable That Protects Your Battery',
                     description: `
-      Stop buying cheap cables that destroy your battery health. Joyroom cables are engineered for safety and longevity.
-      
-      **Exclusive Feature: Auto-Disconnect:**
-      Our smart cables (S-M411 Series) contain a chip that completely cuts off power once your phone hits 100%. You can finally sleep while charging without worrying about overcharging or battery degradation.
-      
-      **Durability:**
-      Heavy-duty **Braided Nylon** tested for 10,000+ bends, with reinforced metal heads to prevent fraying.
+      Your phone charges all night and Battery Health drops every month? Joyroom S-M411 is the only cable in Egypt with **Auto-Disconnect** — a Smart IC chip cuts power completely when charging hits 100%. USB-IF + CE certified. 60W. 10,000 bends without breaking.
+
+      **How Many Cheap Cables Did You Buy This Year?**
+      If you buy a 50 EGP cable every 2 months = 300 EGP wasted per year. A Joyroom cable at 118 EGP lasts 1+ year (10,000 bends tested) — that's real savings, not marketing talk.
+
+      **Egyptian-Proof Durability:**
+      **Braided Nylon** design handles 45°C heat + North Coast humidity. Reinforced metal heads — not cheap plastic that cracks. Order now — next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Auto-Stop Charging' },

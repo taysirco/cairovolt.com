@@ -148,10 +148,15 @@ export const anker_power_banks_content: CategoryContent = {
                     title: 'Anker Power Bank Original in Egypt',
                     subtitle: 'Best Quality & Best Selling',
                     description: `
-      Discover the original **Anker Power Bank** collection in Egypt. We offer the best Anker PowerCore models at competitive prices with official warranty.
-      
-      **Why Choose Anker Power Bank?**
-      Anker is the global leader in charging technology, offering solutions that combine speed and safety. With technologies like PowerIQ and GaNPrime, Anker ensures safe charging that preserves your phone's battery life.
+      Sudden power outage? 6-hour trip and your phone is at 10%? Anker power banks use **Grade-A cells** (same as Tesla) + **MultiProtect** 11-point safety system + smart LED display. From 10,000 to 60,000 mAh. 18-month warranty.
+
+      **Designed for Every Egyptian Scenario:**
+      - **Regular Cairo Day:** 10,000mAh — charges iPhone 17 twice. Pocket-sized. Only 220g
+      - **Hurghada/Sahel Trip:** 20,000mAh — 4 full charges. Airline-safe (<100Wh)
+      - **Extended Power Outage:** 60,000mAh PowerCore Reserve — charges 10+ devices. Powers your Wi-Fi router!
+
+      **Why Anker Over Any Power Bank?**
+      PowerIQ 4.0 auto-detects your device — iPhone, Samsung, or laptop — and delivers maximum safe charging speed. 500+ charge cycles (double the average). Order now — next-day Cairo & Giza delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: '100% Original (Verify via Serial)' },

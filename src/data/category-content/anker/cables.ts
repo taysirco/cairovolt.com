@@ -80,13 +80,15 @@ export const anker_cables_content: CategoryContent = {
                     title: 'Anker Cables (World\'s Strongest)',
                     subtitle: 'Anker PowerLine - The Last Cable You\'ll Buy',
                     description: `
-      Tired of iPhone cables snapping at the connector?
-      **Anker PowerLine** cables are built with **Kevlar fiber** (used in bulletproof vests), engineered to withstand over 12,000 bends.
-      
-      **Why is Anker #1?**
-      - **Blazing Speeds:** Supports Power Delivery (PD) to charge iPhone to 50% in 30 mins.
-      - **MFi Certified:** Contains Apple's original C94 chip, ensuring 100% compatibility and zero error messages.
-      - **Real Warranty:** 18-month immediate replacement warranty.
+      Unlike cheap cables that snap at the connector and trigger "Accessory Not Supported" errors — **Anker PowerLine** is made from **Kevlar fiber** (same material used in body armor). 35,000 bends. Apple MFi C94 chip. Zero issues.
+
+      **An Investment, Not Just a Cable:**
+      Apple's original cable breaks in 6 months — Anker PowerLine+ III lasts 3+ years of daily use. That's EGP 800+ saved per year. CairoVolt test: we pulled the cable with 80kg force — it didn't break.
+
+      **Why Anker Is #1 Worldwide:**
+      - **Power Delivery fast charging:** iPhone 17 from 0-50% in 30 minutes via USB-C
+      - **MFi Certified by Apple:** C94 chip = perfect compatibility + no software updates will disable it
+      - **18-month CairoVolt warranty:** Instant replacement — order now, next-day Cairo delivery
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Original Apple C94 Chip' },

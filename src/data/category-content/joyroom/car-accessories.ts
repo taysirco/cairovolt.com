@@ -85,13 +85,15 @@ export const joyroom_car_accessories_content: CategoryContent = {
                     title: 'Joyroom Car Accessories',
                     subtitle: 'Transform Your Car Into a Smart Station',
                     description: `
-      Discover original **Joyroom Car Accessories** in Egypt — everything you need for a comfortable, safe drive.
-      
-      **Why Choose Joyroom for Your Car?**
-      - **60W Dual-Port Car Charger:** Charges two devices simultaneously at max speed — iPhone + Samsung together.
-      - **N52 Magnetic Phone Holder:** The strongest magnetic mount — keeps your phone secure even on bumpy roads.
-      - **Sleek Design:** Matte black finish blends seamlessly with any car interior.
-      - **CairoVolt Warranty:** Instant replacement guarantee with tracking code.
+      Spending 2 hours daily in Cairo traffic while your phone dies before you get home? Joyroom car accessories solve this — a **60W GaN dual-port charger** powers iPhone + Samsung simultaneously via USB-C PD. FCC certified.
+
+      **The Smart Car Bundle:**
+      A charger alone isn't enough — you need a mount too. Joyroom offers a complete solution: 60W charger + N52 magnetic holder with 1,200 Gauss pull force. Install once — forget forever. Your phone never dies while driving again.
+
+      **Why Joyroom for Your Car?**
+      - **Real 60W output:** Charges two devices at max speed — not "theoretical" 60W like cheap alternatives
+      - **N52 Magnet:** Strongest commercial-grade — phone stays locked even on the worst roads
+      - **18-month CairoVolt warranty:** With tracking code — order now, cash on delivery
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Original Joyroom Product' },
@@ -121,16 +123,16 @@ export const joyroom_car_accessories_content: CategoryContent = {
                             answer: 'Phone holder from EGP 169, 60W car charger at EGP 513. Full bundle (charger + holder) at EGP 682. Next-day Cairo delivery, cash on delivery.'
                         },
                         {
-                            question: 'Is the car charger safe? Does it overheat?',
-                            answer: '100% safe. Smart protection cuts power if car voltage drops. CairoVolt test: 3 hours continuous charging in 45°C sun — charger at 40°C only. Cheap fakes reached 80°C!'
+                            question: 'Is the Joyroom car charger safe in hot weather?',
+                            answer: '100% safe. FCC + CE certified. GaN protection cuts power instantly if car voltage drops below 11V. CairoVolt test: parked in 45°C sun, charged for 3 hours — charger at 40°C only (cheap fakes reached 80°C).'
                         },
                         {
                             question: '⚠️ How to spot fake car accessories?',
                             answer: 'Fakes overheat and drop phones. Original: 1) Real USB-C PD 60W 2) N52 magnet grabs from 2cm 3) QR code on box 4) 18-month CairoVolt warranty.'
                         },
                         {
-                            question: 'Does it fast-charge iPhone and Samsung together?',
-                            answer: 'Yes! USB-C PD 30W for iPhone (50% in 30 min) + USB-A 30W Samsung Super Fast. Each port runs independently at max speed.'
+                            question: 'How many devices can the Joyroom 60W charger power simultaneously?',
+                            answer: 'Two devices at full speed! Port 1: USB-C PD 30W for iPhone 17 (0-50% in 30 min). Port 2: USB-A QC3.0 30W for Samsung Super Fast. Each port runs independently — no speed drop.'
                         },
                         {
                             question: 'What is the warranty for Joyroom car accessories in Egypt?',
