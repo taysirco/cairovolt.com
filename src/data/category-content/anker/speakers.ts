@@ -29,17 +29,17 @@ export const anker_speakers_content: CategoryContent = {
 - **صوت 360 درجة** - تجربة صوتية محيطية من كل الاتجاهات
 - **مقاومة للماء IPX7** - مثالية للحفلات والمسابح
 - **بطارية طويلة** - حتى 24 ساعة من التشغيل المتواصل
-- **ربط السماعات** - اربط 100+ سماعة معاً بتقنية PartyCast
-- **ضمان انكر الرسمي** - جودة موثوقة وخدمة ما بعد البيع
+- **ربط السماعات** - اربط 100+ سماعة معاً بتقنية PartyCast عبر Bluetooth 5.3
+- **شحن USB-C سريع** - شحن عبر USB-C — ضمان انكر الرسمي وجودة موثوقة
 
 **أشهر الموديلات:**
 - **Soundcore Motion+** - الخيار الأفضل لعشاق الصوت عالي الدقة
 - **Soundcore Flare 2** - سماعة الحفلات مع إضاءة LED متفاعلة
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'معتمد Hi-Res Audio' },
+                        { type: 'originality', text: 'معتمد Hi-Res Audio + CE' },
                         { type: 'warranty', text: 'ضمان 18 شهر' },
-                        { type: 'expert_verified', text: 'مقاومة ماء IPX7' }
+                        { type: 'expert_verified', text: 'مقاومة ماء IPX7 + BassUp + PartyCast' }
                     ],
                     buyingGuide: [
                         {

@@ -54,7 +54,7 @@ export const power_banks_generic: GenericCategory = {
                 { question: 'ما الفرق بين PD و QC في الشحن السريع؟', answer: 'PD (Power Delivery) هو معيار USB عالمي يعمل مع iPhone و Samsung و MacBook. QC (Quick Charge) من Qualcomm يعمل أساساً مع أجهزة Android. الباور بانك المثالي يدعم الاثنين معاً.' },
                 { question: 'أفضل باور بانك للسفر والرحلات؟', answer: 'باور بانك 20000mAh مثالي للسفر — يشحن الموبايل 4 مرات ومسموح به على الطائرة (أقل من 100Wh). للرحلات الطويلة: اختر 27000-30000mAh.' },
                 { question: 'كيف أختار بين باور بانك رخيص وغالي؟', answer: 'الباور بانك الأغلى سعراً يتميز ب: جودة خلايا أعلى (عمر أطول)، أنظمة حماية متعددة، ضمان أطول (18 شهر مقابل 6 شهور). الرخيص ممتاز للاستخدام اليومي لكن الغالي استثمار طويل المدى.' },
-                { question: 'كيف تعرف الباور بانك الأصلي من التقليد؟', answer: 'تحقق من: 1) ملصق الهولوجرام على العلبة 2) رقم السيريال على موقع الشركة الرسمي 3) الشراء من وكيل معتمد مثل كايرو فولت 4) وزن المنتج وجودة التشطيب.' },
+                { question: 'كيف تعرف الباور بانك الأصلي من التقليد؟', answer: '⚠️ تحذير: باور بانك مقلد (fake) ببطاريات رديئة خطر حقيقي — ممكن يسخن أو ينفجر! الأصلي معتمد FCC + UL. تحقق من: 1) ملصق الهولوجرام على العلبة 2) رقم السيريال على موقع الشركة الرسمي 3) الشراء من وكيل معتمد مثل كايرو فولت 4) وزن المنتج وجودة التشطيب.' },
             ],
             en: [
                 { question: 'How do I choose the right power bank capacity for my needs?', answer: '20000mAh if you travel often or have multiple devices (4-5 iPhone charges). 10000mAh for pocket-friendly daily use (2 iPhone charges). Both support PD fast charging.' },

@@ -32,11 +32,13 @@ export const joyroom_smart_watches_content: CategoryContent = {
 | **FT3 Pro** | AMOLED 1.43" دائرية | 1,092 ج | ⭐ مكالمات بلوتوث + كلاسيك |
 | **FT5** | IPS 1.83" مربعة | 1,092 ج | شاشة كبيرة + ابل ستايل |
 | **FC2** | AMOLED 1.32" دائرية | 1,092 ج | تصميم رسمي أنيق |
+
+**تقنيات التشغيل:** شحن مغناطيسي عبر USB-C + مقاومة ماء IPX68 + نظام تتبع SpO2 متقدم.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'نسخة جلوبال (Global Version) — ضد الساعات المقلدة' },
                         { type: 'warranty', text: 'ضمان سنة ضد عيوب الصناعة + استبدال من CairoVolt' },
-                        { type: 'expert_verified', text: 'Bluetooth 5.3 + AMOLED + IP68 — اختبار CairoVolt' }
+                        { type: 'expert_verified', text: 'Bluetooth 5.3 + AMOLED + IP68 — CE + FCC معتمد | اختبار CairoVolt' }
                     ],
                     buyingGuide: [
                         {

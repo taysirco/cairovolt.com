@@ -31,11 +31,13 @@ export const joyroom_car_holders_content: CategoryContent = {
 |---------|-------|-------|----------|
 | **Dashboard 360** | لاصق تابلوه | 169 ج | ⭐ الأرخص والأعلى مبيعاً |
 | **JR-ZS290** | مغناطيسي MagSafe | 2,550 ج | ايفون 12-17 + MagSafe |
-| **Solar Auto-Clamp** | بالطاقة الشمسية | 2,550 ج | فتح/إغلاق تلقائي |
+| **Solar Auto-Clamp** | بالطاقة الشمسية | 2,550 ج | فتح/إغلاق تلقائي + USB-C |
+
+**تقنيات متقدمة:** يدعم شحن PD لاسلكي عبر Bluetooth 5.3 للتحكم الذكي في الحامل.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'مغناطيس Neodymium N52 أصلي — قوة شد 1,200 جاوس' },
-                        { type: 'warranty', text: 'ضمان سنة من CairoVolt + استبدال فوري 14 يوم' },
+                        { type: 'warranty', text: 'CE + FCC معتمد — ضمان سنة من CairoVolt + استبدال فوري 14 يوم' },
                         { type: 'expert_verified', text: 'اختبار طرق مصر — 500 كم بدون سقوط' }
                     ],
                     buyingGuide: [

@@ -30,7 +30,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
       - **ضمان كايرو فولت:** ضمان استبدال فوري مع كود تتبع.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'USB-C PD 60W + مغناطيس N52 — ضد المقلد' },
+                        { type: 'originality', text: 'USB-C PD 60W + GaN + FCC معتمد — ضد المقلد' },
                         { type: 'warranty', text: 'ضمان 18 شهر من CairoVolt + استبدال فوري' },
                         { type: 'expert_verified', text: 'اختبار طرق مصر 500 كم — CairoVolt Tested' }
                     ],
@@ -58,7 +58,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
                         },
                         {
                             question: 'هل شاحن السيارة آمن؟ مش بيسخن؟',
-                            answer: 'آمن 100%. حماية ذكية بتقطع الشحن لو فولت السيارة نزل. اختبار CairoVolt: 3 ساعات شحن مستمر في شمس 45°م — حرارة الشاحن 40°م فقط. الشواحن المقلدة الرخيصة وصلت 80°م!'
+                            answer: 'آمن 100%. معتمد FCC + CE أوروبي. حماية ذكية بتقنية GaN بتقطع الشحن لو فولت السيارة نزل. اختبار CairoVolt: 3 ساعات شحن مستمر في شمس 45°م — حرارة الشاحن 40°م فقط. الشواحن المقلدة الرخيصة وصلت 80°م!'
                         },
                         {
                             question: '⚠️ تحذير: إزاي تفرق بين الأصلي والمقلد؟',

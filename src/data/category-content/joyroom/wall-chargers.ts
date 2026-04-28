@@ -27,12 +27,12 @@ export const joyroom_wall_chargers_content: CategoryContent = {
       **لماذا يفضل المحترفون شواحن جيروم؟**
       - **تقنية GaN (في موديلات Pro):** حجم أصغر 50% وقوة مضاعفة.
       - **خامات مضادة للحريق:** مصنوع من مادة PC V0 التي تمنع الاشتعال حتى في درجات الحرارة العالية.
-      - **متعدد المنافذ:** اشحن اللابتوب والموبايل في نفس الوقت.
+      - **متعدد المنافذ:** اشحن اللابتوب والموبايل عبر USB-C في نفس الوقت.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'ضمان الوكيل الرسمي' },
                         { type: 'warranty', text: 'آمن على صحة البطارية' },
-                        { type: 'expert_verified', text: 'مواد مقاومة للحريق' }
+                        { type: 'expert_verified', text: 'مواد مقاومة للحريق — UL + CE معتمد | تقنية GaN III' }
                     ],
                     buyingGuide: [
                         {

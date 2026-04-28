@@ -32,7 +32,7 @@ export const joyroom_cables_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'يفصل الشحن تلقائياً' },
                         { type: 'warranty', text: 'ضمان سنة كاملة' },
-                        { type: 'expert_verified', text: 'نقل بيانات سريع' }
+                        { type: 'expert_verified', text: 'نقل بيانات سريع — USB-IF + CE معتمد' }
                     ],
                     buyingGuide: [
                         {
