@@ -102,7 +102,7 @@ CairoVolt tested T03s Pro Max on Metro Line 3 (the noisiest) — ANC reduced tra
 - **AirPods Pro 2 = 12,000+ EGP** | T03s Pro = **EGP 699 only**
 - **Golden Code:** Verify authenticity via SMS — impossible to fake
 - **Pop-up pairing:** Connects to iPhone instantly, just like AirPods
-- **IPX5 waterproof:** Sweat, rain, or Sahel humidity — fully protected
+- **IPX5 waterproof:** Sweat, rain, or Sahel humidity — fully protected. CairoVolt verified — order now with next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Golden Code - SMS Authenticity Verification' },

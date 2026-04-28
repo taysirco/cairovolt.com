@@ -8,7 +8,7 @@ export const anker_cables_content: CategoryContent = {
                 en: {
                     title: 'Anker Cable Egypt | Lightning, USB-C, PowerLine',
                     description: 'Original Anker cables in Egypt. PowerLine III Kevlar USB-C & Lightning. MFi certified, 35,000+ bend tested. ✓ CairoVolt verified ✓ 18-month warranty',
-                    keywords: 'anker cable, anker lightning cable, anker type c cable, anker powerline, cable egypt',
+                    keywords: 'anker cable, anker lightning cable, anker type c cable, anker powerline, cable egypt, anker cable price egypt, MFi cable egypt, usb c cable anker',
                 },
                 ar: {
                     title: 'كابل انكر | Anker Cable Egypt - وصلة انكر للايفون',
