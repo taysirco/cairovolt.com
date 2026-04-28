@@ -72,7 +72,7 @@ export const anker_soundcore_motion_plus = {
     <ul class="list-disc list-inside text-gray-700">
         <li>📱 <strong>iPhone:</strong> Fully compatible with iPhone 15/14/13 Pro Max.</li>
         <li>📱 <strong>Samsung:</strong> Supports Samsung S24 Ultra / S23 / A-Series.</li>
-        <li>💻 <strong>Laptops:</strong> Works seamlessly with MacBook M1/M2/M3 & Windows.</li>
+        <li>💻 <strong>Laptops:</strong> Full compatibility with MacBook M1/M2/M3 & Windows via Bluetooth 5.0 + AUX.</li>
         <li>📺 <strong>Smart TV:</strong> Connect via Bluetooth or AUX for a cinematic experience.</li>
     </ul>
 </div>

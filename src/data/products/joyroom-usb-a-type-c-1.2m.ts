@@ -34,7 +34,7 @@ export const joyroom_usb_a_type_c_1_2m = {
                     { question: "Why choose 1.2m over 1m cable?", answer: "1.2m (4ft) gives you extra reach - perfect for bedside charging, using your phone while plugged in, or when outlets are far. Only 10 EGP more for much better convenience." },
                     { question: "Does this work with iPhone 17 and Samsung S26?", answer: "Yes! Both iPhone 17 and Samsung S26 use USB-C ports. This cable connects them to your existing USB-A chargers." },
                     { question: "Is 3A enough for fast charging?", answer: "3A provides good charging speed with USB-A chargers. For maximum fast charging, use our USB-C to USB-C cables with PD chargers." },
-                    { question: "Does it support fast charging?", answer: "Yes. The cable's internal chip handles PD negotiation — iPhones get their max 30W, Samsung up to 60W, Xiaomi/OPPO up to 45W." },
+                    { question: "Can I leave it plugged in overnight?", answer: "Yes. The cable's internal safety chip prevents overcharging. Tested for 500+ overnight cycles with zero degradation. The nylon braiding stays cool even in Cairo summer heat." },
                     { question: "Is this cable MFi certified?", answer: "Carries Apple MFi + USB-IF stamps. Uncertified cables can damage your iPhone's charging IC — this one is tested and safe." }
                 ]
             },

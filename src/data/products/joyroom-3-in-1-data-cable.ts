@@ -35,7 +35,7 @@ export const joyroom_3_in_1_data_cable = {
                 faqs: [
                     { question: "Can all 3 connectors charge simultaneously?", answer: "No, only one connector can be used at a time. The 3-in-1 design is for convenience - one cable that works with any device." },
                     { question: "Does the 3-in-1 cable support fast charging?", answer: "It supports up to 2.4A charging across all 3 connectors. For maximum iPhone 17 fast charging (30W PD), we recommend dedicated USB-C cables." },
-                    { question: "Does it support fast charging?", answer: "Full fast-charge support confirmed. This cable negotiates directly with your device's charging IC to deliver peak power — 30W iPhone, 60W Samsung." },
+                    { question: "Is 1.2m long enough for bedside charging?", answer: "Yes, 1.2m reaches from most Egyptian wall outlets to bed/desk. For couch charging across the room, consider a 2m cable instead." },
                     { question: "Is this cable MFi certified?", answer: "Fully certified by both Apple (MFi) and USB-IF. Unlike uncertified cables, it won't trigger 'accessory not supported' warnings." },
                     { question: "How long does this cable last?", answer: "Lab tested for 25,000+ bend cycles. In real terms, that's 3-5 years of daily use. The reinforced connectors resist fraying at the stress points." }
                 ]
@@ -55,7 +55,7 @@ export const joyroom_3_in_1_data_cable = {
                 faqs: [
                     { question: "هل تعمل الموصلات الثلاثة معاً؟", answer: "لا، موصل واحد فقط يعمل في كل مرة. تصميم 3 في 1 للراحة - كابل واحد يعمل مع أي جهاز." },
                     { question: "هل كابل 3 في 1 يدعم الشحن السريع؟", answer: "يدعم شحن حتى 2.4 أمبير عبر الموصلات الثلاثة. لأقصى سرعة شحن للايفون 17 (30 واط PD)، ننصح بكابلات USB-C المخصصة." },
-                    { question: "هل يدعم الشحن السريع؟", answer: "شحن سريع كامل. الكابل ده بيتفاوض مباشرة مع شريحة الشحن في جهازك عشان يديله أقصى طاقة — 30 واط ايفون، 60 واط سامسونج." },
+                    { question: "1.2 متر كفاية للشحن جنب السرير؟", answer: "أيوه، 1.2 متر بيوصل من معظم فيش الحائط المصرية للسرير أو المكتب. لو عايز توصل للكنبة، شوف كابل 2 متر." },
                     { question: "الكابل ده أصلي ومعتمد؟", answer: "معتمد بالكامل من أبل (MFi) و USB-IF. بعكس الكابلات الغير معتمدة، مش هيظهر تحذير 'الملحق غير مدعوم'." },
                     { question: "الكابل هيعيش قد إيه؟", answer: "اتختبر لـ 25,000+ دورة ثني. كابل 3-in-1 بيوزع الإجهاد على 3 رؤوس، فعمره أطول من الكابلات العادية. التصميم المضفر بيتحمل حرارة 45°م." }
                 ]

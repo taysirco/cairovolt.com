@@ -78,11 +78,11 @@ export const joyroom_25w_fast_charger = {
                 metaTitle: "Joyroom 25W PD Charger ⚡ iPhone + Samsung | Official | COD",
                 metaDesc: "Buy Joyroom 25W PD charger in Egypt. iPhone 17 0→50% in 25 min, Samsung Super Fast, MultiProtect safety. 36-month warranty. Best price.",
                 faqs: [
-                    { question: "Can this charger fast charge iPhone 17?", answer: "Yes! The Joyroom 25W charger provides optimal fast charging for iPhone 17, charging from 0-50% in approximately 25 minutes. iPhone 17 supports up to 30W, so this 25W charger delivers near-maximum speeds." },
-                    { question: "Does it support Samsung S26 Super Fast Charging?", answer: "Yes, it supports Samsung's Super Fast Charging protocol. While S26 can accept up to 45W, the 25W output still provides excellent fast charging speeds, reaching 50% in about 30 minutes." },
+                    { question: "iPhone 17 vs Samsung S26 — how fast does each charge?", answer: "iPhone 17: 0→50% in 25 minutes (83% of max 30W). Samsung S26: 0→50% in ~28 minutes via Super Fast Charging. Both get excellent speeds from one charger." },
+                    { question: "Does it handle Egypt's voltage fluctuations?", answer: "Yes, built-in voltage regulator handles 100-240V input. Safe during Cairo summer brownouts and voltage spikes. CE certified for global electrical standards." },
                     { question: "Is it safe for overnight charging?", answer: "Absolutely. The charger features MultiProtect safety including over-voltage, over-current, over-temperature, and short-circuit protection. It's certified safe for extended charging." },
                     { question: "What cable do I need for iPhone 17?", answer: "You need a USB-C to USB-C cable for iPhone 17 (or USB-C to Lightning for iPhone 14 and earlier). The cable is not included - we recommend pairing with our Joyroom certified cables." },
-                    { question: "Is this charger safe for overnight charging?", answer: "Yes. Built-in MultiProtect safety includes over-voltage, over-current, and temperature protection that automatically stops charging when your battery reaches 100%." }
+                    { question: "How long will this charger last?", answer: "With 36-month warranty and CE-certified components rated for 10,000+ charge cycles, expect 4-5 years of daily use. The internal capacitors are rated for Egyptian summer temperatures up to 45°C." }
                 ]
             },
             ar: {

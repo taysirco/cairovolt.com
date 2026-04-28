@@ -34,7 +34,7 @@ export const joyroom_usb_a_type_c_cable = {
                     { question: "Why would I use USB-A to Type-C?", answer: "If you have an older charger with USB-A port but a new phone with USB-C (like iPhone 17 or Samsung S26), this cable bridges the gap. No need to buy a new charger!" },
                     { question: "Is 3A the same as fast charging?", answer: "3A provides good charging speed, but true fast charging requires both cable and charger to support PD or QC. This cable supports up to 3A which is faster than standard 2.4A cables." },
                     { question: "Will this work with my car charger?", answer: "Yes! If your car charger has USB-A ports, this cable lets you charge your new iPhone 17 or Samsung S26 using it." },
-                    { question: "Does it support fast charging?", answer: "Absolutely — delivers your device's full charging speed. iPhones get up to 30W PD, Samsung devices up to 60W. Zero throttling under sustained load." },
+                    { question: "How many plug/unplug cycles before it wears out?", answer: "Lab rated for 10,000+ insertion cycles — that's 13 years of daily use. The reinforced connector housing prevents the wobble that kills cheap cables within months." },
                     { question: "Is this cable MFi certified?", answer: "MFi/USB-IF certified — Apple has tested and approved this cable. Your iPhone warranty stays intact." }
                 ]
             },
