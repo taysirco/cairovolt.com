@@ -135,7 +135,7 @@ export const anker_521_powerhouse = {
     </ul>
 </div>
 `,
-                features: ["🔋 256Wh LiFePO4 (3,000+ Cycles)", "🔌 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🛡️ 5-Year Full Warranty", "♻️ 10+ Year Battery Lifespan"],
+                features: ["🔋 256Wh LiFePO4 (3,000+ Cycles)", "🔌 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🛡️ 5-Year Full Warranty", "♻️ 10+ Year Battery Lifespan", "🔒 UL + CE Safety Certified → Premium safety standards for lithium power stations"],
                 metaTitle: "Anker 521 PowerHouse 256Wh ⚡ 15% OFF | Portable Power | COD",
                 metaDesc: "Buy Anker 521 PowerHouse in Egypt. 256Wh LiFePO4, 200W AC outlet, 3000+ cycles. Powers router, laptop, fan during blackouts. 5-year warranty. Fast delivery.",
                 faqs: [
@@ -154,7 +154,7 @@ export const anker_521_powerhouse = {
                 shortDescription: "البديل الآمن والهادي للمولد وقت تخفيف الأحمال 🔋 256 واط | 🔌 فيشة 220 فولت كاملة | ♻️ بطارية بتعيش 10 سنين",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed"><strong>محطة طاقة أنكر 521 (A1710)</strong> بسعة 256 واط/ساعة ببطاريات LiFePO4 بتستحمل 3,000+ دورة شحن (10+ سنوات). بتطلع 200 واط من فيشة 220 فولت — تكفي تشغل الراوتر والمروحة وجهاز CPAP وتشحن موبايلات كتير وقت انقطاع الكهربا. 6 منافذ، إضاءة LED مدمجة، ضمان 5 سنوات. سعر 11,000 جنيه. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس المولدات الصيني الرخيصة اللي بتبوظ بعد 300 دورة وبتضر أجهزتك الحساسة، <strong>محطة طاقة أنكر 521 (A1710)</strong> بتستخدم بطاريات LiFePO4 بتستحمل 3,000+ دورة شحن (10+ سنوات). بسعة 256 واط/ساعة وفيشة 220 فولت بقوة 200 واط — تكفي تشغل الراوتر والمروحة وجهاز CPAP وتشحن موبايلات كتير وقت قطع الكهربا. معتمدة UL + CE للسلامة. ضمان 5 سنوات. سعر <strong>11,000 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
@@ -207,7 +207,7 @@ export const anker_521_powerhouse = {
     </ul>
 </div>
 `,
-                features: ["🔋 256 واط/ساعة LiFePO4 (3,000+ دورة)", "🔌 منفذ 220 فولت (200 واط)", "⚡ USB-C PD 60 واط + 2× USB-A", "🚗 مقبس سيارة 12 فولت", "💡 إضاءة LED مدمجة", "🛡️ ضمان 5 سنوات", "♻️ عمر 10+ سنوات"],
+                features: ["🔋 256 واط/ساعة LiFePO4 (3,000+ دورة)", "🔌 منفذ 220 فولت (200 واط)", "⚡ USB-C PD 60 واط + 2× USB-A", "🚗 مقبس سيارة 12 فولت", "💡 إضاءة LED مدمجة", "🛡️ ضمان 5 سنوات", "♻️ عمر 10+ سنوات", "🔒 معتمد UL + CE للسلامة → أعلى معايير أمان محطات الطاقة"],
                 metaTitle: "محطة طاقة انكر 521 الأصلي ⚡ خصم 15% | مولد كهربا محمول",
                 metaDesc: "اشتري محطة طاقة انكر 521 في مصر. 256 واط/ساعة LiFePO4، منفذ 220 فولت، 3000+ دورة. يشغل راوتر ولابتوب ومروحة. ضمان 5 سنوات. توصيل سريع.",
                 faqs: [

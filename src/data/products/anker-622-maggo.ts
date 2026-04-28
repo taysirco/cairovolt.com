@@ -88,7 +88,8 @@ export const anker_622_maggo = {
                     { question: "How fast is the wireless charging?", answer: "It provides 7.5W max wireless charging for iPhones, which is the standard for 3rd party magnetic battery packs." },
                     { question: "Can I charge the battery while using it?", answer: "Yes, it supports pass-through charging, so you can charge the power bank and your phone simultaneously." },
                     { question: "How does MagGo compare to Apple's MagSafe Battery?", answer: "MagGo costs less and has a built-in kickstand that Apple's doesn't. Same 7.5W wireless charging, better value." }
-                ]
+                ,
+                    { question: "What does the 18-month CairoVolt warranty cover?", answer: "Full replacement for any manufacturing defect — battery degradation, charging failure, or magnet weakness. Bring it to CairoVolt or ship it free." }]
             },
             ar: {
                 name: "باور بانك انكر 622 MagGo ايفون 17 وايرلس | بستاند للمكالمات | ضمان 18 شهر",
@@ -154,7 +155,8 @@ export const anker_622_maggo = {
                     { question: "ما سرعة الشحن اللاسلكي؟", answer: "يوفر 7.5 واط كحد أقصى للايفون، وهو المعدل القياسي للبطاريات المغناطيسية." },
                     { question: "هل يمكنني شحن البطارية أثناء استخدامها؟", answer: "نعم، تدعم الشحن التمريري، يمكنك شحن البطارية والهاتف في نفس الوقت." },
                     { question: "كيف يقارن MagGo مع بطارية أبل MagSafe؟", answer: "MagGo أرخص وله حامل مدمج غير موجود في أبل. نفس شحن 7.5 واط، قيمة أفضل." }
-                ]
+                ,
+                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه بالظبط؟", answer: "استبدال كامل لأي عيب صناعة — تدهور بطارية، فشل شحن، أو ضعف المغناطيس. سلمه لكايرو فولت أو اشحنه مجاناً." }]
             }
         },
         meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر", mainTerm: "anker maggo" },

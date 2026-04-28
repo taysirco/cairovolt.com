@@ -78,7 +78,8 @@ export const joyroom_3_in_1_wireless_charging_station = {
                     { question: "What iPhone models are compatible?", answer: "All MagSafe iPhones: iPhone 17, 16, 15, 14, 13, and 12 series. The magnetic alignment ensures optimal 15W charging speed for all compatible models." },
                     { question: "Do I need a special power adapter?", answer: "For full 15W iPhone charging speed, use a 30W+ USB-C power adapter (not included). Lower wattage adapters will still work but at reduced charging speeds." },
                     { question: "Can I use it while traveling?", answer: "Yes, the compact foldable design is travel-friendly. Replace 3 separate chargers with this single station - perfect for trips." }
-                ]
+                ,
+                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty. Covers charging coil failure, overheating, or base defects. Free return shipping across Egypt." }]
             },
             ar: {
                 name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك | ضمان 18 شهر",
@@ -130,7 +131,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">نظام أبل بس — مش بتشحن سامسونج أو أندرويد لاسلكياً. وحدة شحن ساعة أبل خاصة بالساعة بس. الايفون لازم يكون متوافق MagSafe (ايفون 12+). AirPods لازم يكون موديل العلبة اللاسلكية. محول الطاقة مش في العلبة.</p></div>
 `,
-                features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر"],
+                features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر", "🔒 معتمد Qi رسمياً → توافق رسمي مع معيار الشحن اللاسلكي"],
                 metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | COD مصر",
                 metaDesc: "اشتري محطة شحن جوي روم 3 في 1 في مصر. ايفون 17 MagSafe 15 واط + ابل واتش شحن سريع + ايربودز برو 2. ألومنيوم فاخر. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
@@ -138,7 +139,8 @@ export const joyroom_3_in_1_wireless_charging_station = {
                     { question: "ما موديلات الايفون المتوافقة؟", answer: "جميع أجهزة MagSafe: ايفون 17 و16 و15 و14 و13 و12. المحاذاة المغناطيسية تضمن سرعة شحن 15 واط المثلى لجميع الموديلات المتوافقة." },
                     { question: "هل أحتاج شاحن خاص؟", answer: "للحصول على سرعة شحن 15 واط الكاملة للايفون، استخدم شاحن USB-C 30 واط أو أعلى (غير مشمول). الشواحن الأقل ستعمل لكن بسرعة أقل." },
                     { question: "هل يمكن استخدامها في السفر؟", answer: "نعم، التصميم المدمج القابل للطي مناسب للسفر. استبدل 3 شواحن منفصلة بهذه المحطة الواحدة - مثالية للرحلات." }
-                ]
+                ,
+                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عطل ملف الشحن، ارتفاع حرارة، أو عيوب القاعدة. شحن إرجاع مجاني لكل مصر." }]
             }
         },
         meta: { keywords: "joyroom 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, joyroom 3-in-1 wireless charger", mainTerm: "joyroom 3-in-1 wireless charger" },

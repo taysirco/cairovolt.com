@@ -85,7 +85,8 @@ export const joyroom_jr_t03_wireless_earbuds = {
                     { question: "Does it have a microphone?", answer: "Yes, it features a built-in microphone for calls, but T03S Pro is recommended for better call quality." },
                     { question: "How long does the battery last?", answer: "The earbuds last about 3-4 hours on a single charge, and the case provides 4 additional charges." },
                     { question: "How does it compare to T03S Pro?", answer: "T03 is more affordable but lacks ANC. T03S Pro has noise cancellation and better sound. T03 is great for budget users." }
-                ]
+                ,
+                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty covering driver failure, Bluetooth connectivity issues, case charging defects, or battery degradation. Free return shipping." }]
             },
             ar: {
                 name: "سماعة جوي روم JR-T03 | أرخص سماعة بلوتوث أصلية للطلبة | ضمان 12 شهر",
@@ -146,7 +147,8 @@ export const joyroom_jr_t03_wireless_earbuds = {
                     { question: "هل تحتوي على ميكروفون؟", answer: "نعم، فيها ميكروفون مدمج للرد على المكالمات بجودة مقبولة. لو محتاج جودة مكالمات أعلى مع عزل ضوضاء، T03S Pro هي الخيار الأفضل." },
                     { question: "كم تدوم البطارية؟", answer: "السماعات بتشتغل 3 إلى 4 ساعات متواصلة على شحنة واحدة، والعلبة بتوفر 4 شحنات إضافية يعني إجمالي حوالي 20 ساعة استماع." },
                     { question: "كيف تقارن مع T03S Pro؟", answer: "T03 أرخص لكن بدون ANC. T03S Pro عزل ضوضاء وصوت أفضل. T03 ممتاز للميزانية." }
-                ]
+                ,
+                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عطل السماعات، مشاكل اتصال البلوتوث، عيوب شحن العلبة، أو تدهور البطارية. شحن إرجاع مجاني." }]
             }
         },
         meta: { keywords: "سماعة joyroom, ايربودز joyroom, جوي روم, سماعة جوي روم, جوي روم t03s, جويروم, سعر سماعة جوي روم, joyroom earbuds egypt, joyroom wireless earbuds, joyroom bluetooth earbuds egypt, joyroom best earbuds egypt 2026, joyroom noise cancelling, joyroom cod egypt, افضل سماعة جوي روم", mainTerm: "سماعة joyroom" },

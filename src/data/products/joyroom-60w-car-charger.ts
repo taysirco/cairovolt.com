@@ -78,7 +78,8 @@ export const joyroom_60w_car_charger = {
                     { question: "Does the retractable cable work with iPhone 17?", answer: "Yes, the built-in USB-C cable is perfect for iPhone 17 (and iPhone 15/16) which use USB-C. For older Lightning iPhones, use the additional USB-A port with a Lightning cable." },
                     { question: "Will it fit my car's power outlet?", answer: "The compact design fits standard 12V car cigarette lighter sockets. Compatible with most cars, SUVs, and trucks manufactured after 2000." },
                     { question: "How long are the retractable cables?", answer: "Each retractable cable extends up to 1 meter (3.3 feet), long enough to reach backseat passengers comfortably." }
-                ]
+                ,
+                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty covering overheating, port failures, or retractable cable defects. Free return shipping." }]
             },
             ar: {
                 name: "شاحن سيارة جوي روم 60 واط 3 في 1 | مش هتتخانقوا على الشاحن في زحمة الدائري | ضمان 18 شهر",
@@ -131,7 +132,7 @@ export const joyroom_60w_car_charger = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل المدمج USB-C بس. لايفونات Lightning (14 وأقدم)، لسه محتاج محوّل أو كابل منفصل. الكابل القابل للسحب طوله ~80 سم — ممكن ميوصلش لركاب المقعد الخلفي. تأكد من عمق فيشة الولاعة في عربيتك قبل الشراء.</p></div>
 `,
-                features: ["⚡ 60 واط (30+30)", "🔌 كابلات USB-C قابلة للسحب", "📱 ايفون 17 MAX 30 واط", "📱 سامسونج S26 سوبر فاست", "🚗 12 فولت عالمي", "📰 1 متر للخلفي", "🏆 ضمان 18 شهر"],
+                features: ["⚡ 60 واط (30+30)", "🔌 كابلات USB-C قابلة للسحب", "📱 ايفون 17 MAX 30 واط", "📱 سامسونج S26 سوبر فاست", "🚗 12 فولت عالمي", "📰 1 متر للخلفي", "🏆 ضمان 18 شهر", "🔒 معتمد FCC → معيار السلامة الفيدرالي الأمريكي لإلكترونيات السيارات"],
                 metaTitle: "شاحن سيارة جوي روم 60 واط ⚡ خصم 21% | 3 كابلات مدمجة",
                 metaDesc: "اشتري شاحن سيارة جوي روم 60 واط في مصر. 30+30 واط، كابلات USB-C قابلة للسحب، ايفون 17 MAX، سامسونج سوبر فاست. كل السيارات. ضمان 18 شهر.",
                 faqs: [
@@ -139,7 +140,8 @@ export const joyroom_60w_car_charger = {
                     { question: "هل الكابل القابل للسحب يعمل مع ايفون 17؟", answer: "نعم، كابل USB-C المدمج مثالي للايفون 17 (و15/16) الذي يستخدم USB-C. للايفون القديم بـ Lightning، استخدم منفذ USB-A الإضافي مع كابل Lightning." },
                     { question: "هل يناسب مخرج سيارتي؟", answer: "التصميم المدمج يناسب مخارج ولاعة السجائر 12 فولت القياسية. متوافق مع معظم السيارات والـ SUV والشاحنات المصنعة بعد 2000." },
                     { question: "كم طول الكابلات القابلة للسحب؟", answer: "كل كابل قابل للسحب يمتد حتى 1 متر، طول كافٍ للوصول لركاب المقعد الخلفي بسهولة." }
-                ]
+                ,
+                    { question: "ضمان كايرو فولت بيغطي إيه بالظبط؟", answer: "استبدال كامل لمدة 18 شهر. بيغطي ارتفاع حرارة، عطل المنافذ، أو عيوب الكابل القابل للسحب. شحن إرجاع مجاني." }]
             }
         },
         meta: { keywords: "joyroom car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج, joyroom fast car charger, joyroom dual usb car charger, joyroom best car charger 2026, joyroom cod egypt, افضل شاحن سيارة جوي روم, سعر شاحن سيارة جوي روم, joyroom 60w car charger", mainTerm: "joyroom 60w car charger" },

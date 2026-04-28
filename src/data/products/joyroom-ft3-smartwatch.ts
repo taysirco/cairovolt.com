@@ -81,7 +81,8 @@ export const joyroom_ft3_smartwatch = {
                     { question: "Can I make calls from the watch?", answer: "No, this model supports call notifications (reject/mute) but does not have a microphone for Bluetooth calling." },
                     { question: "Can I swim with it?", answer: "It is IP68 rated, which means it can withstand immersion in water, but it is not recommended for deep swimming or hot showers." },
                     { question: "How does it compare to Apple Watch?", answer: "FT3 offers basic fitness tracking at a fraction of the price. Apple Watch has deeper iOS integration. FT3 is great for value-focused users." }
-                ]
+                ,
+                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty. Covers screen defects, battery failure, sensor malfunction, or water damage beyond IP68 specs. Free return shipping." }]
             },
             ar: {
                 name: "ساعة جوي روم FT3 الذكية | بديل اقتصادي يعيش معاك الجيم والمشاوير | ضمان 12 شهر",
@@ -133,7 +134,7 @@ export const joyroom_ft3_smartwatch = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">دي مش ساعة أبل — مفيش App Store ولا Apple Pay ولا iMessage. قراءات الصحة (نبض القلب، SpO2) تقديرية فقط، مش درجة طبية. تطبيق مرافق مطلوب للميزات الكاملة. الإشعارات ممكن تتأخر على بعض أجهزة أندرويد.</p></div>
 `,
-                features: ["⌚ IP68 مقاومة للماء", "🏃 20 وضع رياضي", "❤️ مراقبة النبض 24/7", "🔋 7 أيام بطارية", "📱 ايفون 17 وسامسونج S26", "💬 إشعارات عربية", "🏆 ضمان 12 شهر"],
+                features: ["⌚ IP68 مقاومة للماء", "🏃 20 وضع رياضي", "❤️ مراقبة النبض 24/7", "🔋 7 أيام بطارية", "📱 ايفون 17 وسامسونج S26", "💬 إشعارات عربية", "🏆 ضمان 12 شهر", "🔒 معتمد FCC + IP68 → مقاومة ماء + معيار السلامة الأمريكي للأجهزة القابلة للارتداء"],
                 metaTitle: "ساعة جوي روم FT3 الذكية ⚡ خصم 56% | IP68 ضد المياه | COD مصر",
                 metaDesc: "اشتري ساعة جوي روم FT3 في مصر. IP68 مقاومة للماء، 20 وضع رياضي، مراقبة النبض، 7 أيام بطارية. متوافقة مع ايفون 17 وسامسونج. ضمان 12 شهر.",
                 faqs: [
@@ -141,7 +142,8 @@ export const joyroom_ft3_smartwatch = {
                     { question: "هل يمكن إجراء مكالمات؟", answer: "لا، تدعم إشعارات المكالمات مع خيار الرفض أو الكتم بلمسة، لكن بدون ميكروفون مدمج لإجراء مكالمات بلوتوث." },
                     { question: "هل يمكن السباحة بها؟", answer: "IP68 تتحمل الغمر، لكن لا ينصح للسباحة العميقة أو الماء الساخن." },
                     { question: "كيف تقارن مع Apple Watch؟", answer: "FT3 تتبع لياقة أساسي بسعر أقل بكثير. Apple Watch تكامل أعمق مع iOS. FT3 للميزانية." }
-                ]
+                ,
+                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عيوب الشاشة، فشل البطارية، عطل الحساسات، أو تلف الماء فوق مواصفات IP68. شحن إرجاع مجاني." }]
             }
         },
         meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية, joyroom smartwatch egypt, joyroom fitness watch, joyroom waterproof smartwatch, joyroom best smartwatch egypt 2026, joyroom cod egypt, افضل ساعة ذكية جوي روم, سعر ساعة ذكية جوي روم", mainTerm: "joyroom ft3" },
