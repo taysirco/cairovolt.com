@@ -6,14 +6,14 @@ export const joyroom_car_accessories_content: CategoryContent = {
             categoryName: 'Car Accessories',
             metadata: {
                 en: {
-                    title: 'Joyroom Car Accessories Egypt | Charger, Holder, Mount',
-                    description: 'Shop Joyroom car accessories in Egypt. 60W dual-port car charger, magnetic phone holder, dashboard mount. Fast charging + secure grip. Warranty included.',
-                    keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 60w car charger, magnetic car mount, phone holder car egypt',
+                    title: 'Joyroom Car Accessories Egypt | USB-C PD 60W + N52 Mount from EGP 169',
+                    description: 'Shop Joyroom car accessories in Egypt. USB-C PD 60W charger + N52 magnetic holder + MagSafe. ✓ CairoVolt road-tested ✓ 18-month warranty ✓ Cairo delivery',
+                    keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 60W USB-C PD, N52 magnetic mount, MagSafe car holder, joyroom car accessories price',
                 },
                 ar: {
-                    title: 'اكسسوارات سيارة جوي روم | شاحن + حامل موبايل مصر',
-                    description: 'تسوق اكسسوارات سيارة جوي روم في مصر. شاحن سيارة 60 واط بمنفذين, حامل موبايل مغناطيسي, حامل تابلو. شحن سريع + تثبيت آمن. ضمان + توصيل.',
-                    keywords: 'شاحن سيارة joyroom, حامل موبايل سيارة, اكسسوارات سيارة, حامل مغناطيسي سيارة, شاحن سيارة 60 واط, joyroom car holder مصر',
+                    title: 'اكسسوارات سيارة جوي روم مصر | USB-C PD 60W + مغناطيس N52 من 169 جنيه',
+                    description: 'تسوق اكسسوارات سيارة جوي روم في مصر. شاحن USB-C PD 60W + حامل مغناطيس N52 + MagSafe. ✓ اختبار طرق CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    keywords: 'شاحن سيارة جوي روم, سعر اكسسوارات سيارة, حامل موبايل سيارة, حامل N52, شاحن USB-C PD 60W, MagSafe سيارة, اكسسوارات سيارة مصر',
                 }
             },
             pageContent: {
@@ -30,9 +30,9 @@ export const joyroom_car_accessories_content: CategoryContent = {
       - **ضمان كايرو فولت:** ضمان استبدال فوري مع كود تتبع.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'منتج جوي روم أصلي' },
-                        { type: 'warranty', text: 'ضمان 18 شهر' },
-                        { type: 'expert_verified', text: 'شحن سريع PD 60W' }
+                        { type: 'originality', text: 'USB-C PD 60W + مغناطيس N52 — ضد المقلد' },
+                        { type: 'warranty', text: 'ضمان 18 شهر من CairoVolt + استبدال فوري' },
+                        { type: 'expert_verified', text: 'اختبار طرق مصر 500 كم — CairoVolt Tested' }
                     ],
                     buyingGuide: [
                         {
@@ -53,16 +53,24 @@ export const joyroom_car_accessories_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'هل شاحن السيارة بيأثر على بطارية السيارة؟',
-                            answer: 'لا، شاحن جوي روم 60 واط يستهلك أقل من 1% من طاقة بطارية السيارة في الساعة. فيه حماية ذكية بتقطع الشحن تلقائياً لو فولت السيارة نزل تحت المستوى الآمن.'
+                            question: 'كم سعر اكسسوارات سيارة جوي روم في مصر؟',
+                            answer: 'حامل موبايل من 169 جنيه، شاحن سيارة 60W بـ 513 جنيه. باقة كاملة (شاحن + حامل) بـ 682 جنيه. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         },
                         {
-                            question: 'هل الحامل المغناطيسي بيأثر على الموبايل؟',
-                            answer: 'لا، المغناطيس N52 المستخدم في حوامل جوي روم آمن تماماً على الموبايلات الحديثة. لا يؤثر على البطارية ولا البيانات ولا الكاميرا. نفس التقنية المستخدمة في MagSafe من Apple.'
+                            question: 'هل شاحن السيارة آمن؟ مش بيسخن؟',
+                            answer: 'آمن 100%. حماية ذكية بتقطع الشحن لو فولت السيارة نزل. اختبار CairoVolt: 3 ساعات شحن مستمر في شمس 45°م — حرارة الشاحن 40°م فقط. الشواحن المقلدة الرخيصة وصلت 80°م!'
                         },
                         {
-                            question: 'هل الشاحن بيدعم الشحن السريع للايفون والسامسونج؟',
-                            answer: 'أيوه! منفذ USB-C بيطلع 30W PD للايفون (شحن 50% في 30 دقيقة). والمنفذ التاني 30W بيدعم سامسونج Super Fast Charging. تقدر تشحن الاتنين في نفس الوقت.'
+                            question: '⚠️ تحذير: إزاي تفرق بين الأصلي والمقلد؟',
+                            answer: 'شواحن وحوامل مقلدة كتير بتسخن وبتسقط. الأصلي: 1) USB-C PD حقيقي 60W 2) مغناطيس N52 بيمسك من 2 سم 3) علبة بكود QR 4) ضمان 18 شهر CairoVolt.'
+                        },
+                        {
+                            question: 'هل بيشحن ايفون وسامسونج في نفس الوقت؟',
+                            answer: 'أيوه! USB-C PD 30W للايفون (50% في 30 دقيقة) + USB-A 30W سامسونج Super Fast. كل منفذ مستقل بأقصى سرعة.'
+                        },
+                        {
+                            question: 'ما ضمان اكسسوارات سيارة جوي روم في مصر؟',
+                            answer: 'ضمان 18 شهر من CairoVolt. استبدال فوري خلال 14 يوم. يشمل: الشاحن، المغناطيس، الدوران. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         }
                     ],
                     products: [
@@ -107,16 +115,24 @@ export const joyroom_car_accessories_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'Will the car charger drain my car battery?',
-                            answer: 'No, the Joyroom 60W charger draws less than 1% of your car battery per hour. It features smart protection that automatically cuts power if your car voltage drops below safe levels.'
+                            question: 'How much do Joyroom car accessories cost in Egypt?',
+                            answer: 'Phone holder from EGP 169, 60W car charger at EGP 513. Full bundle (charger + holder) at EGP 682. Next-day Cairo delivery, cash on delivery.'
                         },
                         {
-                            question: 'Is the magnetic mount safe for my phone?',
-                            answer: 'Absolutely. The N52 magnets used in Joyroom mounts are completely safe for modern smartphones. They do not affect the battery, data, or camera. Same technology used in Apple MagSafe accessories.'
+                            question: 'Is the car charger safe? Does it overheat?',
+                            answer: '100% safe. Smart protection cuts power if car voltage drops. CairoVolt test: 3 hours continuous charging in 45°C sun — charger at 40°C only. Cheap fakes reached 80°C!'
                         },
                         {
-                            question: 'Does it support fast charging for iPhone and Samsung?',
-                            answer: 'Yes! The USB-C port delivers 30W PD for iPhone (50% in 30 minutes). The second port supports Samsung Super Fast Charging at 30W. Both devices can charge simultaneously at full speed.'
+                            question: '⚠️ How to spot fake car accessories?',
+                            answer: 'Fakes overheat and drop phones. Original: 1) Real USB-C PD 60W 2) N52 magnet grabs from 2cm 3) QR code on box 4) 18-month CairoVolt warranty.'
+                        },
+                        {
+                            question: 'Does it fast-charge iPhone and Samsung together?',
+                            answer: 'Yes! USB-C PD 30W for iPhone (50% in 30 min) + USB-A 30W Samsung Super Fast. Each port runs independently at max speed.'
+                        },
+                        {
+                            question: 'What is the warranty for Joyroom car accessories in Egypt?',
+                            answer: '18-month CairoVolt warranty. 14-day instant replacement. Covers: charger, magnet, rotation. Next-day Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [

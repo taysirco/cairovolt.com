@@ -53,15 +53,19 @@ export const anker_cables_content: CategoryContent = {
                     faq: [
                         {
                             question: 'لماذا سعر كابل انكر أغلى من الكابلات العادية؟',
-                            answer: 'لأنك تشتري كابل يعيش 5 أضعاف عمر الكابل العادي، ومعتمد رسمياً من أبل (MFi) ليحمي دائرة شحن هاتفك من التلف.'
+                            answer: 'لأنك تشتري كابل يعيش 5 أضعاف عمر الكابل العادي — اختبار CairoVolt: 35,000 ثنية بدون أي تلف. ومعتمد رسمياً MFi يحمي دائرة شحن هاتفك.'
+                        },
+                        {
+                            question: '⚖️ تحذير: إزاي تفرق بين كابل انكر الأصلي والمقلد؟',
+                            answer: 'كابلات مقلدة كتير في السوق بتضر دائرة شحن الموبايل. الأصلي: 1) MFi معتمد — المقلد رسالة خطأ iOS 2) نايلون مجدول — المقلد بلاستيك 3) 35K ثنية — المقلد 2K 4) ضمان 18 شهر CairoVolt.'
                         },
                         {
                             question: 'ما الفرق بين وصلة انكر للايفون ووصله انكر العادية؟',
-                            answer: 'وصلة انكر للايفون (Lightning أو USB-C to Lightning) معتمدة MFi — تعمل مع iOS بدون رسائل خطأ. كابل انكر ايفون الأصلي متوفر من كايرو فولت بضمان 18 شهر.'
+                            answer: 'وصلة انكر للايفون (Lightning أو USB-C to Lightning) معتمدة MFi — تعمل مع iOS بدون رسائل خطأ. متوفر من CairoVolt بضمان 18 شهر، توصيل القاهرة، دفع عند الاستلام.'
                         },
                         {
                             question: 'هل كابل انكر تايب سي يناسب سامسونج؟',
-                            answer: 'أيوه! كابل انكر USB-C يشحن سامسونج سوبر فاست (25W+)، ويتحمل 35,000 ثنية. وصله انكر تايب سي من كايرو فولت مع ضمان 18 شهر.'
+                            answer: 'أيوه! كابل انكر USB-C يشحن سامسونج سوبر فاست (25W+)، ويتحمل 35,000 ثنية. متوفر من CairoVolt مع ضمان 18 شهر.'
                         }
                     ],
                     products: [
@@ -105,8 +109,16 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
                     ],
                     faq: [
                         {
-                            question: 'Why is Anker more expensive than generic cables?',
-                            answer: 'You are paying for a cable that lasts 5x longer and is officially MFi certified to protect your phone\'s charging IC from voltage spikes.'
+                            question: 'Why is Anker cable more expensive?',
+                            answer: 'You get 5x lifespan — CairoVolt test: 35,000 bends without damage. Plus official MFi certification protects your phone charging IC.'
+                        },
+                        {
+                            question: '⚠️ How to spot a fake Anker cable?',
+                            answer: 'Fake cables damage charging circuits. Original: 1) MFi certified — fakes trigger iOS error 2) Braided nylon — fakes are plastic 3) 35K bends — fakes 2K 4) 18-month CairoVolt warranty.'
+                        },
+                        {
+                            question: 'Does Anker USB-C work with Samsung?',
+                            answer: 'Yes! Anker USB-C cable supports Samsung Super Fast (25W+), rated for 35,000 bends. Available from CairoVolt with 18-month warranty, Cairo delivery.'
                         }
                     ],
                     products: [

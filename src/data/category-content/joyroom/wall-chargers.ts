@@ -6,14 +6,14 @@ export const joyroom_wall_chargers_content: CategoryContent = {
             categoryName: 'Wall Chargers',
             metadata: {
                 en: {
-                    title: 'Joyroom Charger Egypt | Fast Charging 20W',
-                    description: 'Shop original Joyroom Charger in Egypt. Fast charging 20W, affordable prices. Official warranty.',
-                    keywords: 'joyroom charger, joyroom 20w, charger egypt, fast charger, joyroom pd charger, joyroom 30w charger egypt',
+                    title: 'Joyroom Charger Egypt | GaN PD 20W-65W from EGP 236',
+                    description: 'Shop Joyroom charger in Egypt. GaN PD 20W-65W, Smart IC, fire-retardant PC V0. ✓ CairoVolt tested ✓ 1-year warranty ✓ Cairo delivery',
+                    keywords: 'joyroom charger, joyroom 20w, joyroom GaN, joyroom PD charger, fast charger egypt, joyroom charger price egypt, شاحن جوي روم',
                 },
                 ar: {
-                    title: 'شاحن جوي روم | Joyroom Charger Egypt - شاحن جيروم سريع',
-                    description: 'تسوق شاحن جوي روم الأصلي في مصر. شاحن joyroom, شاحن جيروم سريع, joyroom charger بأفضل الأسعار.',
-                    keywords: 'شاحن joyroom, شاحن جوي روم, شاحن جيروم, joyroom charger, شاحن سريع',
+                    title: 'شاحن جوي روم مصر | GaN PD 20W-65W من 236 جنيه',
+                    description: 'تسوق شاحن جوي روم في مصر. GaN PD 20W-65W + Smart IC + مقاوم حريق. ✓ اختبار CairoVolt ✓ ضمان سنة ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    keywords: 'شاحن جوي روم, سعر شاحن جوي روم, شاحن جيروم, شاحن GaN, شاحن PD سريع, شاحن ايفون مصر',
                 }
             },
             pageContent: {
@@ -45,12 +45,24 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'هل يسخن الشاحن أثناء الشحن السريع؟',
-                            answer: 'من الطبيعي أن يصبح دافئاً، ولكن شواحن جوي روم مزودة بحساس حرارة يفصل الشحن فوراً إذا تجاوزت الحرارة الحد المسموح.'
+                            question: 'كم سعر شاحن جوي روم في مصر؟',
+                            answer: 'من 236 جنيه (20W PD) إلى 342 جنيه (35W GaN Dual). شاحن 65W للابتوب بـ 280 جنيه — أرخص 50% من شاحن أبل الأصلي. توصيل القاهرة، دفع عند الاستلام.'
                         },
                         {
-                            question: 'هل يدعم Super Fast Charging لسامسونج؟',
-                            answer: 'نعم، الموديلات اللي بتدعم تقنية PPS (25 واط وأعلى) بتشحن سامسونج Super Fast Charging. شاحن 30 واط كافي لشحن أي سامسونج جديد بالسرعة الكاملة. الشاحن بيتفاوض تلقائياً مع جهازك عشان يديه أقصى سرعة آمنة.'
+                            question: 'هل الشاحن آمن؟ مش بيسخن؟',
+                            answer: 'آمن 100%. مادة PC V0 مقاومة للحريق + حساس حرارة بيفصل تلقائياً. اختبار CairoVolt: GaN 35W حرارته 38°م فقط أثناء الشحن السريع. الشواحن المقلدة وصلت 65°م وسببت إنتفاخ بطارية!'
+                        },
+                        {
+                            question: '⚖️ تحذير: إزاي تفرق بين الأصلي والمقلد؟',
+                            answer: 'شواحن مقلدة كتير بتسخن وبتضر البطارية. الأصلي: 1) مادة PC V0 مطفية مش بلاستيك لامع 2) Smart IC بيفصل عند 100% 3) علبة بكود QR 4) ضمان سنة CairoVolt.'
+                        },
+                        {
+                            question: 'إيه الفرق بين 20W و 35W؟',
+                            answer: '20W = يشحن ايفون 17 من 0-50% في 30 دقيقة. 35W GaN = يشحن جهازين في نفس الوقت + حجم أصغر 50% من الشواحن العادية. 65W = ضروري للابتوب MacBook.'
+                        },
+                        {
+                            question: 'ما ضمان شاحن جوي روم في مصر؟',
+                            answer: 'ضمان سنة من CairoVolt. استبدال فوري خلال 14 يوم. يشمل: المنافذ، الشريحة، الجسم. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         }
                     ],
                     products: [
@@ -87,12 +99,24 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'Does it get hot?',
-                            answer: 'Slight warmth is normal during fast charging — GaN chips run up to 15°C cooler than traditional silicon chargers. Joyroom uses multi-layer thermal protection with built-in temperature sensors that auto-throttle if temperatures exceed safe limits. Your device is fully protected.'s thermal sensors cut off power instantly if limits are exceeded.'
+                            question: 'How much does Joyroom charger cost in Egypt?',
+                            answer: 'From EGP 236 (20W PD) to EGP 342 (35W GaN Dual). 65W laptop charger at EGP 280 — 50% cheaper than Apple original. Next-day Cairo delivery, cash on delivery.'
                         },
                         {
-                            question: 'Which Joyroom chargers support Samsung Super Fast Charging?',
-                            answer: 'Models with PPS support (25W and above) deliver Samsung Super Fast Charging speeds. The 30W charger handles any Samsung flagship at maximum speed. The charger automatically negotiates with your device's charging IC to deliver the highest safe power level.'s Super Fast Charging mode. The Joyroom 25W and 30W chargers both support it.'
+                            question: 'Is the charger safe? Does it overheat?',
+                            answer: '100% safe. PC V0 fire-retardant material + thermal sensor auto-cuts. CairoVolt test: GaN 35W at 38°C during fast charging. Fake chargers reached 65°C and caused battery swelling!'
+                        },
+                        {
+                            question: '⚠️ How to spot a fake charger?',
+                            answer: 'Fake chargers overheat and damage batteries. Original: 1) Matte PC V0 not shiny plastic 2) Smart IC auto-stops at 100% 3) QR code on box 4) 1-year CairoVolt warranty.'
+                        },
+                        {
+                            question: 'What is the difference between 20W and 35W?',
+                            answer: '20W = charges iPhone 17 from 0-50% in 30 min. 35W GaN = charges 2 devices simultaneously + 50% smaller than traditional chargers. 65W = required for MacBook laptop.'
+                        },
+                        {
+                            question: 'What is the warranty for Joyroom charger in Egypt?',
+                            answer: '1-year CairoVolt warranty. 14-day instant replacement. Covers: ports, chip, body. Next-day Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [

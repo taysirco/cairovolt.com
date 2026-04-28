@@ -6,14 +6,14 @@ export const anker_speakers_content: CategoryContent = {
             categoryName: 'Bluetooth Speakers',
             metadata: {
                 en: {
-                    title: 'Anker Soundcore Speakers Egypt | Motion+, Flare 2, Boom',
-                    description: 'Shop Anker Soundcore Bluetooth speakers in Egypt. Motion+, Flare 2, Boom 2. Hi-Res audio, 360° sound, waterproof IPX7. Best prices with official warranty.',
-                    keywords: 'anker speaker, soundcore speaker, anker motion plus, soundcore flare 2, bluetooth speaker egypt, anker bluetooth speaker',
+                    title: 'Anker Soundcore Speakers Egypt | Hi-Res 30W IPX7 from EGP 2,999',
+                    description: 'Shop Anker Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
+                    keywords: 'anker speaker, soundcore speaker egypt, anker motion plus, soundcore flare 2, bluetooth speaker egypt, anker speaker price egypt, Hi-Res speaker, IPX7 speaker',
                 },
                 ar: {
-                    title: 'مكبرات صوت انكر Soundcore | سماعات بلوتوث Motion+, Flare 2 مصر',
-                    description: 'تسوق مكبرات صوت انكر Soundcore الأصلية في مصر. Motion+, Flare 2, Boom 2. صوت Hi-Res عالي الدقة، صوت 360 درجة، مقاومة للماء IPX7. أفضل سعر مع ضمان رسمي.',
-                    keywords: 'سماعة انكر, مكبر صوت انكر, soundcore motion plus, soundcore flare 2, سماعة بلوتوث, مكبر صوت بلوتوث',
+                    title: 'سماعات انكر Soundcore مصر | Hi-Res 30W ضد الماء IPX7 من 2,999 جنيه',
+                    description: 'تسوق سماعات انكر Soundcore في مصر. Motion+ Hi-Res 30W، Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ اختبار CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    keywords: 'سماعة انكر, سعر سماعة انكر, مكبر صوت بلوتوث, soundcore motion plus, soundcore flare 2, سماعة بلوتوث مصر, سماعة ضد الماء',
                 }
             },
             pageContent: {
@@ -58,16 +58,24 @@ export const anker_speakers_content: CategoryContent = {
                     ],
                     faq: [
                         {
+                            question: 'كم سعر سماعة انكر Soundcore في مصر؟',
+                            answer: 'Flare 2 بـ 2,999 جنيه، Motion+ بـ 3,600 جنيه. مقارنةً بـ JBL Flip 6 (من 5,000 جنيه): Soundcore أرخص 40% مع Hi-Res Audio معتمد + ضمان 18 شهر من CairoVolt. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                        },
+                        {
                             question: 'هل سماعة Motion+ تستحق سعرها مقارنة بسماعات JBL؟',
-                            answer: 'Motion+ بتدعم Hi-Res Audio بشهادة رسمية، وفيها توينر دقيق عبر التطبيق مش موجود في JBL Flip. الفرق بيبان في الموسيقى الكلاسيكية والبودكاست بشكل واضح.'
+                            answer: 'Motion+ معتمدة Hi-Res Audio رسمياً + EQ دقيق عبر التطبيق مش موجود في JBL Flip. اختبار CairoVolt: الفرق بيبان في الموسيقى الكلاسيكية والبودكاست. وأرخص 40%.'
                         },
                         {
-                            question: 'هل سماعات انكر مقاومة للماء فعلاً؟',
-                            answer: 'Flare 2 معتمدة IPX7 يعني تتحمل الغمر في الماء لحد 30 دقيقة على عمق متر. Motion+ معتمدة IPX7 برضو. آمنة للمسبح والرحلات.'
+                            question: '⚗️ تحذير: إزاي تعرف السماعة المقلدة؟',
+                            answer: 'سماعات بلوتوث مقلدة كتير في السوق. الأصلي: 1) كود QR على العلبة 2) تطبيق Soundcore بيكشفها 3) صوت 30W حقيقي — المقلد 5W فقط 4) IPX7 حقيقي — المقلد بيبوظ من رشة مية 5) ضمان 18 شهر من CairoVolt.'
                         },
                         {
-                            question: 'كام ساعة بتشتغل بالشحنة الواحدة؟',
-                            answer: 'Motion+ بتشتغل لحد 12 ساعة متواصلة على صوت متوسط. Flare 2 بتوصل لحد 12 ساعة برضو. لو فعلت ال LED بتنزل لـ 8 ساعات تقريباً.'
+                            question: 'هل سماعات انكر آمنة على السمع؟',
+                            answer: 'نعم. Soundcore بتحدد مستوى الصوت الأقصى عند 85dB (الحد الآمن حسب WHO). السماعات المقلدة الرخيصة بتوصل 100dB+ وبتضر السمع.'
+                        },
+                        {
+                            question: 'ما ضمان سماعة انكر في مصر؟',
+                            answer: 'ضمان 18 شهر من CairoVolt. استبدال فوري خلال 14 يوم. الضمان يشمل: السبيكر، البطارية، البلوتوث، IPX7. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         }
                     ],
                     products: [
@@ -116,16 +124,24 @@ Yes! With PartyCast technology, link up to 100 Soundcore speakers simultaneously
                     ],
                     faq: [
                         {
-                            question: 'Is Motion+ worth it vs JBL speakers?',
-                            answer: 'Motion+ carries official Hi-Res Audio certification with app-based EQ tuning that JBL Flip lacks. The difference is clear in classical music and podcast listening. Plus you get Anker\'s 18-month warranty.'
+                            question: 'How much does Anker Soundcore speaker cost in Egypt?',
+                            answer: 'Flare 2 at EGP 2,999, Motion+ at EGP 3,600. Compared to JBL Flip 6 (from EGP 5,000): Soundcore is 40% cheaper with certified Hi-Res Audio + 18-month CairoVolt warranty. Next-day Cairo delivery, cash on delivery.'
                         },
                         {
-                            question: 'Are these speakers really waterproof?',
-                            answer: 'Both Flare 2 and Motion+ carry IPX7 certification — they survive 30 minutes submerged in 1 meter of water. Safe for pool parties, beach trips, and rainy outdoor events.'
+                            question: 'Is Motion+ worth it compared to JBL?',
+                            answer: 'Motion+ has official Hi-Res Audio certification + precision EQ via app — JBL Flip lacks both. CairoVolt test: the difference is clear in classical music and podcasts. And 40% cheaper.'
                         },
                         {
-                            question: 'How long does the battery last?',
-                            answer: 'Motion+ delivers up to 12 hours of continuous playback at moderate volume. Flare 2 also hits 12 hours. With LED lights active, expect about 8 hours. Both charge via USB-C.'
+                            question: '⚠️ How to spot a fake Bluetooth speaker?',
+                            answer: 'Fake speakers flood the market. Original: 1) QR code on box 2) Soundcore app detects it 3) Real 30W power — fakes are 5W 4) Real IPX7 — fakes break from a splash 5) 18-month CairoVolt warranty.'
+                        },
+                        {
+                            question: 'Are Anker speakers safe for hearing?',
+                            answer: 'Yes. Soundcore caps max volume at 85dB (WHO safe limit). Cheap fake speakers reach 100dB+ and can damage hearing over time.'
+                        },
+                        {
+                            question: 'What is the warranty for Anker speaker in Egypt?',
+                            answer: '18-month warranty from CairoVolt. 14-day instant replacement. Covers: speaker driver, battery, Bluetooth, IPX7 seal. Next-day Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [

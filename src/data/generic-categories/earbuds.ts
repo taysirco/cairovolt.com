@@ -29,6 +29,7 @@ export const earbuds_generic: GenericCategory = {
                     'أفضل قيمة: Soundcore R50i — اختبار بطارية CairoVolt: 10 ساعات و 22 دقيقة تشغيل فعلي (أكثر من المعلن)',
                     'شكل AirPods بسعر أقل: Joyroom T03S Pro — اختبار مكالمات CairoVolt: وضوح صوت 92% في شارع مزدحم 75dB',
                     'للرياضة: IPX5+ ضروري — اختبار جري CairoVolt 10كم: Sport X10 لم تسقط مرة واحدة بفضل خطاف الأذن',
+                    'شهادات الجودة: كل سماعاتنا معتمدة CE و QC — خصم 10% على أول طلب من CairoVolt مع توصيل القاهرة يوم واحد',
                 ],
             },
             en: {
@@ -40,6 +41,7 @@ export const earbuds_generic: GenericCategory = {
                     'Best value: Soundcore R50i — CairoVolt battery test: 10hr 22min actual playtime (exceeds rated spec)',
                     'AirPods look for less: Joyroom T03S Pro — CairoVolt call test: 92% voice clarity in crowded 75dB street',
                     'For sports: IPX5+ essential — CairoVolt 10km run test: Sport X10 zero drops thanks to ear hooks',
+                    'Quality certified: All earbuds CE and QC approved — 10% discount on first CairoVolt order with next-day Cairo delivery',
                 ],
             },
         },

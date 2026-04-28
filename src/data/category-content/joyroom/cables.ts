@@ -6,14 +6,14 @@ export const joyroom_cables_content: CategoryContent = {
             categoryName: 'Cables',
             metadata: {
                 en: {
-                    title: 'Joyroom Cable Egypt | Lightning, USB-C',
-                    description: 'Shop original Joyroom cables in Egypt. Lightning, USB-C cables at affordable prices.',
-                    keywords: 'joyroom cable, joyroom lightning cable, joyroom type c cable, cable egypt, joyroom usb c cable, كابل جوي روم',
+                    title: 'Joyroom Cable Egypt | USB-C PD 100W & Lightning from EGP 118',
+                    description: 'Shop Joyroom cables in Egypt. USB-C PD 100W for laptops, Lightning Auto-Disconnect. 10,000+ bend test. ✓ CairoVolt tested ✓ 1-year warranty ✓ Cairo delivery',
+                    keywords: 'joyroom cable, joyroom USB-C cable, joyroom lightning cable, joyroom 100W cable, cable egypt, joyroom auto disconnect, كابل جوي روم, joyroom cable price egypt',
                 },
                 ar: {
-                    title: 'كابل جوي روم | Joyroom Cable Egypt - وصلة جيروم',
-                    description: 'تسوق كابل جوي روم الأصلي في مصر. وصلة جيروم شحن سريع للايفون وتايب سي. ضمان حتى 36 شهر + توصيل لكل مصر بأفضل سعر.',
-                    keywords: 'كابل جوي روم, وصلة جيروم, وصلة شاحن, كابل شحن, كابل جوي روم ايفون, كابل تايب سي جوي روم',
+                    title: 'كابل جوي روم مصر | USB-C PD 100W + فصل تلقائي من 118 جنيه',
+                    description: 'تسوق كابل جوي روم الأصلي في مصر. USB-C PD 100W للابتوب + فصل تلقائي للايفون. 10,000 ثنية اختبار. ✓ ضمان سنة ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    keywords: 'كابل جوي روم, وصلة جيروم, سعر كابل جوي روم, كابل USB-C PD, كابل شحن سريع, كابل تايب سي 100 واط, وصلة شاحن ايفون مصر',
                 }
             },
             pageContent: {
@@ -52,12 +52,24 @@ export const joyroom_cables_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'كيف أعرف أن خاصية الفصل التلقائي تعمل؟',
-                            answer: 'في الموديلات التي تدعمها، يوجد مؤشر LED. عندما يكتمل الشحن، سينطفئ المؤشر وتتوقف عملية الشحن تماماً.'
+                            question: 'كم سعر كابل جوي روم في مصر؟',
+                            answer: 'من 118 جنيه (كابل Lightning Auto-Stop) إلى 237 جنيه (3-in-1 Braided). كابل USB-C PD 100W بـ 123 جنيه — أرخص 60% من كابل أبل الأصلي مع نفس السرعة. توصيل القاهرة يوم واحد.'
                         },
                         {
-                            question: 'هل الكابل معتمد من أبل (MFi)؟',
-                            answer: 'كابلات جوي روم متوافقة 100% مع أجهزة أبل ولا تظهر رسالة الخطأ (Accessory not supported) بفضل شريحة Smart IC.'
+                            question: 'هل الكابل آمن على بطارية الموبايل؟',
+                            answer: 'نعم. كابلات جوي روم بشريحة Smart IC بتنظم الفولت تلقائياً (5V/9V/20V). خاصية الفصل التلقائي (Auto-Disconnect) بتقطع الكهرباء عند 100% — نام وأنت مطمئن. اختبار CairoVolt: صفر ارتفاع حرارة بعد 8 ساعات شحن.'
+                        },
+                        {
+                            question: 'إيه الفرق بين كابل 60W و 100W؟',
+                            answer: '60W = يكفي لشحن سامسونج S26 وايفون 17 بأقصى سرعة. 100W = ضروري لشحن لابتوب MacBook Air/Pro أو iPad Pro. لو بتستخدم موبايل فقط → 60W كافي وأرخص. لو عندك لابتوب → 100W إلزامي.'
+                        },
+                        {
+                            question: 'كيف أعرف الكابل الأصلي من المقلد؟',
+                            answer: 'الكابل المقلد بيتقطع بعد أسبوع ويسبب رسالة "Accessory not supported". الأصلي: 1) مؤشر LED بينور أثناء الشحن 2) غلاف Braided Nylon مش بلاستيك رخيص 3) رؤوس معدنية مش بلاستيك 4) يتحمل 10,000+ ثنية (اختبار CairoVolt).'
+                        },
+                        {
+                            question: 'ما ضمان كابل جوي روم في مصر؟',
+                            answer: 'ضمان سنة من CairoVolt. استبدال فوري خلال 14 يوم لو الكابل قطع أو لم يشحن. الضمان يشمل: الموصل، الشريحة، الغلاف. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         }
                     ],
                     products: [
@@ -95,12 +107,24 @@ export const joyroom_cables_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'How do I know Auto-Disconnect is working?',
-                            answer: 'The LED indicator on the connector will turn off specifically when the battery is full and power is cut.'
+                            question: 'How much does Joyroom cable cost in Egypt?',
+                            answer: 'From EGP 118 (Lightning Auto-Stop) to EGP 237 (3-in-1 Braided). USB-C PD 100W at EGP 123 — 60% cheaper than Apple original cable at same speed. Next-day Cairo delivery.'
                         },
                         {
-                            question: 'Do Joyroom cables support data sync with PC/Mac?',
-                            answer: 'Yes, all Joyroom cables support 480Mbps USB 2.0 data transfer — fast enough for backing up iPhones, syncing photos, and transferring music.'
+                            question: 'Is the cable safe for battery health?',
+                            answer: 'Yes. Smart IC chip regulates voltage automatically (5V/9V/20V). Auto-Disconnect cuts power at 100%. CairoVolt test: zero heat increase after 8 hours of charging. Sleep with peace of mind.'
+                        },
+                        {
+                            question: 'What is the difference between 60W and 100W cables?',
+                            answer: '60W = enough for Samsung S26 and iPhone 17 at max speed. 100W = required for MacBook Air/Pro or iPad Pro charging. Phone only → 60W is cheaper. Have a laptop → 100W is mandatory.'
+                        },
+                        {
+                            question: 'How to spot a fake cable vs original?',
+                            answer: 'Fakes break in a week and show "Accessory not supported." Original: 1) LED indicator during charging 2) Braided Nylon not cheap plastic 3) Metal connectors 4) 10,000+ bend certified (CairoVolt tested).'
+                        },
+                        {
+                            question: 'What is the warranty for Joyroom cable in Egypt?',
+                            answer: '1-year CairoVolt warranty. 14-day instant replacement if cable breaks or stops charging. Covers: connector, chip, sheath. Next-day Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [
