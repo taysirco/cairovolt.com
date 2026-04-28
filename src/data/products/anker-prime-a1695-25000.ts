@@ -177,7 +177,7 @@ export const anker_prime_a1695_25000 = {
                 ]
             }
         },
-        meta: { keywords: "anker prime a1695, anker 165w, انكر برايم 165 واط, باور بانك ماك بوك برو, anker prime power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker prime 25000mah 165w", mainTerm: "anker prime 25000mah 165w" },
+        meta: { keywords: "anker prime a1695, anker 165w, انكر برايم 165 واط, باور بانك ماك بوك برو, anker prime power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker prime 25000mah 165w, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker prime 25000mah 165w" },
         expertOpinion: {
             en: "The A1695 is not a power bank — it's a portable power station. 165W combined (140W single-port) charges MacBook Pro 16\" at near-adapter speeds. Active cooling fan, 92.7Wh max flight-legal capacity, and 30-minute 80% recharge make it the ultimate power solution. Expensive but irreplaceable for professionals.",
             ar: "الـ A1695 مش باور بانك — ده محطة طاقة محمولة. 165 واط مشترك (140 واط منفذ واحد) بيشحن ماك بوك برو 16\" بسرعة قريبة من الأدابتر. مروحة تبريد، 92.7Wh أقصى سعة للطائرة، وإعادة شحن 30 دقيقة. غالي بس لا يُعوّض للمحترفين."

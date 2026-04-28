@@ -149,7 +149,7 @@ export const joyroom_25w_fast_charger = {
                 ]
             }
         },
-        meta: { keywords: "joyroom 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم", mainTerm: "joyroom 25w charger" },
+        meta: { keywords: "joyroom 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, joyroom charger egypt, شاحن سريع رخيص مصر", mainTerm: "joyroom 25w charger" },
         expertOpinion: {
             en: "Designed for the modern era. It bridges the gap between iPhone (20W) and Samsung (25W). Compact and powerful, it's the versatile choice if you have a mix of devices in your household. A great all-rounder.",
             ar: "صمم للعصر الحديث. يسد الفجوة بين ايفون (20 واط) وسامسونج (25 واط). صغير وقوي، إنه الخيار المتعدد الاستخدامات إذا كان لديك خليط من الأجهزة في منزلك. شامل رائع."

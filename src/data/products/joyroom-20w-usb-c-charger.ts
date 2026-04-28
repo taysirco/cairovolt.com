@@ -148,7 +148,7 @@ export const joyroom_20w_usb_c_charger = {
                     { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل لمدة 18 شهر. بيغطي ارتفاع حرارة، فشل شحن، أو تلف المنفذ في الاستخدام العادي. شحن إرجاع مجاني." }]
             }
         },
-        meta: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم", mainTerm: "شاحن جوي روم" },
+        meta: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, joyroom charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
         relatedProducts: [
         "joyroom-usb-c-lightning-cable",
         "joyroom-power-bank-10000",

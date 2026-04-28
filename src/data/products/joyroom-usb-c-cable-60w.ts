@@ -65,7 +65,7 @@ export const joyroom_usb_c_cable_60w = {
             en: "60W in a cable means laptop-grade charging. Connect to any 60W+ charger and watch your iPhone 17 or Samsung S26 hit 50% in 20 minutes. This is the speed standard for the USB-C era.",
             ar: "60 واط في كابل يعني شحن بمستوى اللاب توب. وصله بأي شاحن 60 واط وشوف ايفون 17 أو سامسونج S26 يوصل 50% في 20 دقيقة. ده معيار السرعة لعصر الـ USB-C."
         },
-        meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, USB-IF certified cable, joyroom 60w usb-c cable", mainTerm: "joyroom 60w usb-c cable" },
+        meta: { keywords: "joyroom usb-c cable 60w, كابل usb-c 60 واط, كابل ايفون 17, iphone 17 cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, USB-IF certified cable, joyroom 60w usb-c cable, كابل جوي روم مصر, joyroom cable egypt, كابل شحن ايفون, كابل تايب سي جوي روم", mainTerm: "joyroom 60w usb-c cable" },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger", "joyroom-car-phone-mount"],
 
     };

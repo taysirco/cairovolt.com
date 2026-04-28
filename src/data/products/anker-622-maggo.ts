@@ -159,7 +159,7 @@ export const anker_622_maggo = {
                     { question: "ضمان كايرو فولت 18 شهر بيغطي إيه بالظبط؟", answer: "استبدال كامل لأي عيب صناعة — تدهور بطارية، فشل شحن، أو ضعف المغناطيس. سلمه لكايرو فولت أو اشحنه مجاناً." }]
             }
         },
-        meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر", mainTerm: "anker maggo" },
+        meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker maggo" },
         expertOpinion: {
             en: "The MagGo 622 fixes the biggest annoyance of wireless chargers: usability while charging. The foldable kickstand is brilliant for watching videos or FaceTime calls. It's slim enough to not feel bulky. Just remember, it's 7.5W charging, so it's not for a quick 0-50% sprint, but perfect for keeping your battery topped up throughout a busy day in Cairo.",
             ar: "يحل MagGo 622 أكبر إزعاج للشواحن اللاسلكية: سهولة الاستخدام أثناء الشحن. الحامل القابل للطي رائع لمشاهدة الفيديوهات أو مكالمات الفيديو. إنه نحيف بما يكفي لعدم الشعور بالضخامة. فقط تذكر، الشحن بقوة 7.5 واط، لذا فهو ليس للشحن السريع من 0-50%، ولكنه مثالي للحفاظ على بطاريتك مشحونة طوال وعم حافل في القاهرة."

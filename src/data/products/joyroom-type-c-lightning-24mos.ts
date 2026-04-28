@@ -65,6 +65,6 @@ export const joyroom_type_c_lightning_24mos = {
         },
         meta: { keywords: "joyroom lightning 24 month, كابل ضمان 24 شهر, كابل ايفون ضمان, كابل جوي روم, جوي روم كابل ايفون, وصلة جوي روم, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, joyroom lightning 24 month warranty", mainTerm: "joyroom lightning 24 month warranty" },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-usb-a-type-c-1.2m", "joyroom-60w-car-charger",
-        "joyroom-usb-a-lightning-cable"],
+        "joyroom-usb-a-lightning-cable", "joyroom-usb-a-type-c-1.2m"],
 
     };

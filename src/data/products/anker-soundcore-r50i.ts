@@ -123,6 +123,6 @@ export const anker_soundcore_r50i = {
                 ]
             }
         },
-        meta: { keywords: "anker r50i, soundcore r50i, anker soundcore r50i, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوند كور r50i, سماعة soundcore r50i, سعر soundcore r50i, r50i anker, power bank anker, anker soundcore r50i earbuds", mainTerm: "anker soundcore r50i earbuds" },
+        meta: { keywords: "anker r50i, soundcore r50i, anker soundcore r50i, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوند كور r50i, سماعة soundcore r50i, سعر soundcore r50i, r50i anker, power bank anker, anker soundcore r50i earbuds, سماعة انكر مصر, anker earbuds egypt, سماعة بلوتوث انكر, soundcore مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore r50i earbuds" },
         expertOpinion: { en: "Best-value wireless earbuds in Egypt. 10mm BassUp, 30h battery, AI ENC, Soundcore app — all at 950 EGP. Passive isolation works well on the Metro. Start here if budget-conscious.", ar: "أفضل قيمة سماعة لاسلكية في مصر. 10mm BassUp، 30 ساعة، AI ENC، تطبيق Soundcore — كل ده بـ 950 جنيه. العزل السلبي بيشتغل كويس في المترو." }
     };

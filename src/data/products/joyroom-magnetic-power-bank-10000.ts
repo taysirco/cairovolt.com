@@ -72,7 +72,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe wireless charging works with iPhone 12 and newer ONLY. Does NOT wirelessly charge Samsung or non-MagSafe phones. The 15W wireless is slower than wired; for fastest charge, use the USB-C port. Adds noticeable weight when attached to phone. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p></div>
 `,
-                features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty"],
+                features: ["🔋 10000mAh (2x iPhone 17)", "🧲 MagSafe N52 Snap-On", "⚡ 15W Wireless Charging", "⚡ 20W USB-C PD Wired", "📐 Built-in Kickstand", "📱 Charge 2 Devices", "🏆 18-Month Warranty", "🔒 CE + FCC Certified → Global Safety Standards"],
                 metaTitle: "Joyroom MagSafe 10000mAh ⚡ 6% OFF | Wireless Charge | COD",
                 metaDesc: "Buy Joyroom magnetic power bank MagSafe in Egypt. 10000mAh, 15W wireless + 20W wired, N52 magnets, kickstand. iPhone 17/16/15. 18-month warranty. Best price.",
                 faqs: [
@@ -134,7 +134,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">شحن MagSafe اللاسلكي بيشتغل مع ايفون 12 والأحدث بس. مش بيشحن سامسونج أو موبايلات بدون MagSafe لاسلكياً. الـ 15 واط اللاسلكي أبطأ من السلكي؛ لأسرع شحن، استخدم منفذ USB-C. بيزوّد وزن ملحوظ لما يكون مركّب على الموبايل.</p></div>
 `,
-                features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر"],
+                features: ["🔋 10000 مللي (مرتين ايفون 17)", "🧲 MagSafe N52", "⚡ 15 واط لاسلكي", "⚡ 20 واط USB-C سلكي", "📐 حامل مدمج", "📱 شحن جهازين", "🏆 ضمان 18 شهر", "🔒 معتمد CE + FCC → معايير السلامة العالمية"],
                 metaTitle: "باور بانك جوي روم MagSafe 10000 ⚡ خصم 6% | شحن لاسلكي",
                 metaDesc: "اشتري باور بانك جوي روم MagSafe في مصر. 10000 مللي، 15 واط لاسلكي + 20 واط سلكي، مغناطيس N52، حامل مدمج. ايفون 17/16/15. ضمان 18 شهر. أفضل سعر.",
                 faqs: [
@@ -146,7 +146,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 ]
             }
         },
-        meta: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, joyroom portable charger, joyroom best power bank egypt 2026, joyroom travel power bank, joyroom cod egypt power bank, افضل باور بانك جوي روم, سعر باور بانك جوي روم, joyroom magnetic power bank", mainTerm: "joyroom magnetic power bank" },
+        meta: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, joyroom portable charger, joyroom best power bank egypt 2026, joyroom travel power bank, joyroom cod egypt power bank, افضل باور بانك جوي روم, سعر باور بانك جوي روم, joyroom magnetic power bank, باور بانك جوي روم اصلي, شاحن متنقل جوي روم, joyroom power bank egypt price, افضل باور بانك رخيص مصر, باور بانك ضمان", mainTerm: "joyroom magnetic power bank" },
         expertOpinion: {
             en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
             ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."

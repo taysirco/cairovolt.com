@@ -70,6 +70,6 @@ export const joyroom_type_c_lightning_36mos = {
             ar: "كابل بضمان 36 شهر حقيقي — ده كابل بيتحمل الاستخدام اليومي المكثف وبيوصل سرعة الشحن الكاملة لايفون 17. اختبرناه 6 شهور بنتيجة صفر تدهور.'اشتريه للعمر' من الكابلات. 3 سنوات تعتبر دهراً في اكسسوارات التقنية. البناء مدرع ليتناسب مع الضمان. إذا تعبت من استبدال الكابلات باستمرار، فهذه محطتك الأخيرة."
         },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-usb-a-type-c-1.2m", "joyroom-60w-car-charger",
-        "joyroom-usb-a-lightning-cable"],
+        "joyroom-usb-a-lightning-cable", "joyroom-usb-a-type-c-1.2m"],
 
     };

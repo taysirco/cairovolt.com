@@ -155,7 +155,7 @@ export const anker_soundcore_flare_2 = {
                 ]
             }
         },
-        meta: { keywords: "soundcore flare 2, party speaker, anker flare, سماعة مضيئة, anker bluetooth speaker egypt, anker portable speaker, anker waterproof speaker, anker best speaker egypt 2026, anker cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, افضل سبيكر انكر, سعر سبيكر انكر", mainTerm: "soundcore flare 2" },
+        meta: { keywords: "soundcore flare 2, party speaker, anker flare, سماعة مضيئة, anker bluetooth speaker egypt, anker portable speaker, anker waterproof speaker, anker best speaker egypt 2026, anker cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, افضل سبيكر انكر, سعر سبيكر انكر, سبيكر انكر مصر, anker speaker egypt, مكبر صوت بلوتوث, soundcore speaker مصر", mainTerm: "soundcore flare 2" },
         expertOpinion: {
             en: "If you love hosting parties, the Flare 2 is your best friend. The 360-degree sound fills the room evenly, and the beat-driven light show adds a fantastic vibe. It's fully waterproof, so pool parties are worry-free. While the bass isn't as deep as the Motion+, the overall experience and PartyCast feature make it a winner for social events.",
             ar: "إذا كنت تحب إقامة الحفلات، فإن Flare 2 هي صديقك المفضل. الصوت المحيطي 360 درجة يملأ الغرفة بالتساوي، وعرض الضوء المتفاعل مع الإيقاع يضيف جواً رائعاً. مقاومة للماء بالكامل، لذا حفلات حمام السباحة خالية من القلق. على الرغم من أن الباس ليس بعمق Motion+، إلا أن التجربة الكلية وميزة PartyCast تجعلها فائزة للمناسبات الاجتماعية."

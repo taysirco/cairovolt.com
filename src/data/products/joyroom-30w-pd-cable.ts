@@ -71,7 +71,6 @@ export const joyroom_30w_pd_cable = {
         "joyroom-ft3-smartwatch",
         "joyroom-type-c-lightning-braided",
         "joyroom-type-c-to-type-c-cable",
-        "joyroom-type-c-lightning-36mos"
-    ],
+        "joyroom-type-c-lightning-36mos", "joyroom-usb-a-type-c-1.2m"],
 
     };

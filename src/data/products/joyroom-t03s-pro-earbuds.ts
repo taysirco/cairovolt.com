@@ -152,7 +152,7 @@ export const joyroom_t03s_pro_earbuds = {
                 ]
             }
         },
-        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة joyroom t03s pro, joyroom earbuds, joyroom wireless earbuds, joyroom bluetooth earbuds egypt, joyroom best earbuds egypt 2026, joyroom noise cancelling, joyroom cod egypt, افضل سماعة جوي روم, سعر سماعة جوي روم", mainTerm: "سماعات جوي روم" },
+        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة joyroom t03s pro, joyroom earbuds, joyroom wireless earbuds, joyroom bluetooth earbuds egypt, joyroom best earbuds egypt 2026, joyroom noise cancelling, joyroom cod egypt, افضل سماعة جوي روم, سعر سماعة جوي روم, سماعة جوي روم مصر, joyroom earbuds egypt, سماعة بلوتوث رخيصة مصر, سماعة لاسلكية مصر", mainTerm: "سماعات جوي روم" },
         expertOpinion: {
             en: "The T03S Pro is the budget king of ANC earbuds. The noise cancellation is genuinely effective against Cairo traffic noise. The transparency mode works well too. They fit similarly to Apple's design, so they're very comfortable. For the price, the sound quality and features are unbeatable.",
             ar: "تعد T03S Pro ملكة سماعات ANC الاقتصادية. إلغاء الضوضاء فعال حقاً ضد ضوضاء مرور القاهرة. وضع الشفافية يعمل بشكل جيد أيضاً. تناسب الأذن بشكل مشابه لتصميم أبل، لذا فهي مريحة جداً. مقابل السعر، جودة الصوت والميزات لا تضاهى."

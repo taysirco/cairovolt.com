@@ -80,7 +80,7 @@ export const anker_powercore_26800 = {
     </ul>
 </div>
 `,
-                features: ["🔋 26,800mAh (96.48Wh) — 5x iPhone Charges", "🔌 3 USB-A Ports (PowerIQ 2.0)", "✈️ Max Airline-Legal Capacity", "🔄 Dual-Input 6hr Recharge", "🛡️ MultiProtect 10-Layer Safety", "🏆 24-Month Warranty"],
+                features: ["🔋 26,800mAh (96.48Wh) — 5x iPhone Charges", "🔌 3 USB-A Ports (PowerIQ 2.0)", "✈️ Max Airline-Legal Capacity", "🔄 Dual-Input 6hr Recharge", "🛡️ MultiProtect 10-Layer Safety", "🏆 24-Month Warranty", "🔒 FCC + CE + IATA Certified → Global Safety Standards"],
                 metaTitle: "Anker 26800mAh Power Bank ⚡ 34% OFF | Max Airline | COD",
                 metaDesc: "Buy Anker PowerCore 26800mAh in Egypt. Max airline-legal capacity, 3 USB ports, 5x iPhone charges. 24-month warranty. Fast Cairo delivery.",
                 faqs: [
@@ -161,7 +161,7 @@ export const anker_powercore_26800 = {
     </ul>
 </div>
 `,
-                features: ["🔋 26,800 مللي أمبير (96.48Wh) — 5 شحنات ايفون", "🔌 3 منافذ USB-A (PowerIQ 2.0)", "✈️ أكبر سعة مسموحة للطائرة", "🔄 شحن مزدوج 6 ساعات", "🛡️ حماية MultiProtect 10 طبقات", "🏆 ضمان 24 شهر"],
+                features: ["🔋 26,800 مللي أمبير (96.48Wh) — 5 شحنات ايفون", "🔌 3 منافذ USB-A (PowerIQ 2.0)", "✈️ أكبر سعة مسموحة للطائرة", "🔄 شحن مزدوج 6 ساعات", "🛡️ حماية MultiProtect 10 طبقات", "🏆 ضمان 24 شهر", "🔒 معتمد FCC + CE + IATA → معايير السلامة العالمية"],
                 metaTitle: "باور بانك انكر 26800 الأصلي ⚡ خصم 34% | أكبر سعة للطائرة",
                 metaDesc: "اشتري باور بانك انكر 26800 في مصر. أكبر سعة مسموحة للطائرة، 3 منافذ USB، 5 شحنات ايفون. ضمان 24 شهر. توصيل سريع القاهرة.",
                 faqs: [
@@ -176,7 +176,7 @@ export const anker_powercore_26800 = {
                 ]
             }
         },
-        meta: { keywords: "باور بانك انكر 26800, انكر 26800, anker power bank 26800, anker powercore 26800, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر", mainTerm: "باور بانك انكر 26800" },
+        meta: { keywords: "باور بانك انكر 26800, انكر 26800, anker power bank 26800, anker powercore 26800, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "باور بانك انكر 26800" },
         expertOpinion: {
             en: "This is the ultimate travel companion. The 26,800mAh capacity is massive – enough to keep your phone running for a week. The three USB ports are a godsend for families or groups. It takes a while to recharge (use two cables!), but once it's full, you're set for days. A huge favorite for long trips to Dahab or Siwa.",
             ar: "هذا هو الرفيق المثالي للسفر. سعة 26,800 مللي أمبير هائلة – تكفي لتشغيل هاتفك لمدة أسبوع. منافذ USB الثلاثة نعمة للعائلات أو المجموعات. يستغرق وقتاً طويلاً لإعادة الشحن (استخدم كابلين!)، لكن بمجرد امتلاءه، فأنت جاهز لأيام. مفضل جداً للرحلات الطويلة إلى دهب أو سيوة."

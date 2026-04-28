@@ -98,8 +98,7 @@ export const anker_powercore_20000 = {
                     "🛡️ MultiProtect 10-Layer Safety",
                     "🪨 Only 356g — Lighter Than a Can of Soda",
                     "📊 LED Power Indicator",
-                    "🏆 24-Month Warranty (2x Industry Standard)"
-                ],
+                    "🏆 24-Month Warranty (2x Industry Standard)", "🔒 FCC + CE + IATA Certified → Global Safety Standards"],
                 metaTitle: "Anker 20000mAh Power Bank ⚡ 11% OFF | 4x iPhone Charge | COD",
                 metaDesc: "Buy Anker PowerCore 20000mAh in Egypt for EGP 1,550. Charges iPhone 4x. Dual USB, 24-month warranty. ✓ Free Cairo delivery ✓ Cash on delivery ✓ 100% original.",
                 faqs: [
@@ -179,8 +178,7 @@ export const anker_powercore_20000 = {
                     "🛡️ حماية MultiProtect 10 طبقات",
                     "🪨 وزن 356 جرام فقط",
                     "📊 مؤشر LED للبطارية",
-                    "🏆 ضمان 24 شهر (ضعف المعيار)"
-                ],
+                    "🏆 ضمان 24 شهر (ضعف المعيار)", "🔒 معتمد FCC + CE + IATA → معايير السلامة العالمية"],
                 metaTitle: "باور بانك انكر 20000 الأصلي ⚡ خصم 11% | 4 شحنات ايفون",
                 metaDesc: "اشتري باور بانك انكر 20000 الأصلي في مصر بسعر 1,550 جنيه. 4 شحنات ايفون، منفذين USB، ضمان 24 شهر. ✓ توصيل مجاني القاهرة ✓ دفع عند الاستلام.",
                 faqs: [
@@ -196,7 +194,7 @@ export const anker_powercore_20000 = {
             }
         },
         meta: {
-            keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, anker power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, anker 20000 egypt, باور بانك انكر مصر, anker powercore 20000 price egypt, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, افضل باور بانك انكر",
+            keywords: "باور بانك انكر 20000, سعر باور بانك انكر 20000, anker power bank 20000mah, باور بانك 20000 مللي امبير, شاحن متنقل انكر, anker 20000 egypt, باور بانك انكر مصر, anker powercore 20000 price egypt, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, افضل باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع",
             mainTerm: "باور بانك انكر 20000"
         },
         expertOpinion: {

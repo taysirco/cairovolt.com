@@ -82,8 +82,7 @@ export const joyroom_power_bank_10000 = {
                     "🔌 Dual USB Output",
                     "✈️ Airline Approved (37Wh)",
                     "✅ Golden Code Verified Original",
-                    "🏆 12-Month Warranty"
-                ],
+                    "🏆 12-Month Warranty", "🔒 CE + FCC Certified → Global Safety Standards"],
                 metaTitle: "Joyroom 10000mAh Power Bank ⚡ QC 3.0 + LED Display | COD",
                 metaDesc: "Buy Joyroom 10000mAh power bank in Egypt. 2x iPhone charges, QC 3.0, LED display, ultra-slim 14mm. ✓ Original Sealed ✓ 14-Day Returns.",
                 faqs: [
@@ -157,8 +156,7 @@ export const joyroom_power_bank_10000 = {
                     "🔌 مخرجين USB",
                     "✈️ مسموح بالطائرة (37Wh)",
                     "✅ أصلي بالكود الذهبي",
-                    "🏆 ضمان 12 شهر"
-                ],
+                    "🏆 ضمان 12 شهر", "🔒 معتمد CE + FCC → معايير السلامة العالمية"],
                 metaTitle: "باور بانك جوي روم 10000 الأصلي ⚡ QC 3.0 + شاشة LED | COD مصر",
                 metaDesc: "اشتري باور بانك جوي روم 10000 في مصر. شحنتين ايفون، QC 3.0، شاشة LED، نحيف 14مم. ✓ ضمان 12 شهر ✓ كود ذهبي أصلي ✓ توصيل سريع.",
                 faqs: [

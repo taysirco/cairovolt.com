@@ -35,8 +35,7 @@ export const anker_powercore_10000 = {
                     "⚡ PowerIQ 4.0 Technology → Detects your device and delivers max speed safely",
                     "✨ 37Wh Capacity → Allowed on all flights (TSA/IATA limit is 100Wh)",
                     "✨ MultiProtect 10-Layer Safety → Complete protection for your devices",
-                    "🏆 18-Month Official Warranty → Full support and instant replacement in Egypt"
-                ],
+                    "🏆 18-Month Official Warranty → Full support and instant replacement in Egypt", "🔒 FCC + CE + IATA Certified → Global Safety Standards"],
                 metaTitle: "Anker 10000mAh Power Bank ⚡ 21% OFF | iPhone Fast | COD",
                 metaDesc: "Buy original Anker 10000mAh power bank. 2 full iPhone 17 charges. From EGP 1,300. ✓ 100% Original Sealed Product ✓ 14-Day Free Returns ✓ Shipping across Egypt.",
                 faqs: [
@@ -63,8 +62,7 @@ export const anker_powercore_10000 = {
                     "🔋 تقنية PowerIQ 4.0 → يتعرف على جهازك ويعطيه أقصى سرعة بأمان",
                     "⚡ سعة 37 واط/ساعة → مسموح على جميع الطائرات (الحد 100Wh)",
                     "✨ حماية MultiProtect 10 طبقات → حماية كاملة لأجهزتك",
-                    "🏆 ضمان رسمي 18 شهر → دعم كامل واستبدال فوري في مصر"
-                ],
+                    "🏆 ضمان رسمي 18 شهر → دعم كامل واستبدال فوري في مصر", "🔒 معتمد FCC + CE + IATA → معايير السلامة العالمية"],
                 metaTitle: "سعر باور بانك انكر 10000 في مصر ⚡ خصم 21% | شحن سريع ايفون",
                 metaDesc: "اشتري باور بانك انكر 10000 مللي أمبير الأصلي. يشحن ايفون 17 مرتين. سعر 1,300 جنيه. ✓ ضمان 18 شهر ✓ توصيل سريع ✓ دفع عند الاستلام",
                 faqs: [
@@ -80,7 +78,7 @@ export const anker_powercore_10000 = {
             }
         },
         meta: {
-            keywords: "باور بانك انكر 10000, سعر باور بانك انكر 10000, باور بنك انكر 10000, انكر 10000 مللي امبير, anker power bank 10000mah, anker powercore 10000, باور بانك 10000, شاحن متنقل انكر, anker 10000 egypt price, باور بانك انكر مصر",
+            keywords: "باور بانك انكر 10000, سعر باور بانك انكر 10000, باور بنك انكر 10000, انكر 10000 مللي امبير, anker power bank 10000mah, anker powercore 10000, باور بانك 10000, شاحن متنقل انكر, anker 10000 egypt price, باور بانك انكر مصر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع, anker egypt store, anker genuine egypt",
             mainTerm: "باور بانك انكر 10000"
         },
         expertOpinion: {

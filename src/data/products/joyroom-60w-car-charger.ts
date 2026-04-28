@@ -144,7 +144,7 @@ export const joyroom_60w_car_charger = {
                     { question: "ضمان كايرو فولت بيغطي إيه بالظبط؟", answer: "استبدال كامل لمدة 18 شهر. بيغطي ارتفاع حرارة، عطل المنافذ، أو عيوب الكابل القابل للسحب. شحن إرجاع مجاني." }]
             }
         },
-        meta: { keywords: "joyroom car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج, joyroom fast car charger, joyroom dual usb car charger, joyroom best car charger 2026, joyroom cod egypt, افضل شاحن سيارة جوي روم, سعر شاحن سيارة جوي روم, joyroom 60w car charger", mainTerm: "joyroom 60w car charger" },
+        meta: { keywords: "joyroom car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج, joyroom fast car charger, joyroom dual usb car charger, joyroom best car charger 2026, joyroom cod egypt, افضل شاحن سيارة جوي روم, سعر شاحن سيارة جوي روم, joyroom 60w car charger, شاحن عربية جوي روم, joyroom car charger egypt, شاحن سيارة رخيص مصر", mainTerm: "joyroom 60w car charger" },
         expertOpinion: {
             en: "The Swiss Army knife of car chargers. The retractable cables mean no more tangled mess in your console. 60W is enough to charge a laptop or fast, charge two phones at once. It keeps your car interior neat while delivering serious power.",
             ar: "سكين الجيش السويسري لشواحن السيارات. الكابلات القابلة للسحب تعني لا مزيد من الفوضى المتشابكة في الكونسول. 60 واط كافية لشحن لابتوب أو شحن هاتفين بسرعة في وقت واحد. تحافظ على نظافة سيارتك من الداخل مع توفير طاقة جدية."
