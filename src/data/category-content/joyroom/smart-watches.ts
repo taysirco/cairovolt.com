@@ -23,18 +23,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
                     description: `
 على عكس الساعات الذكية المقلدة اللي شاشتها بتختفي تحت الشمس وبطاريتها بتخلص في يوم — ساعة **جوي روم** بشاشة **AMOLED حقيقية** + مكالمات Bluetooth 5.3 + بطارية 7 أيام فعلية. 1,092 جنيه فقط. وفر 85% مقارنة بأبل ووتش.
 
-**مصممة لحياتك في مصر:**
-شمس مصر 45°م؟ AMOLED أوضح 3 مرات من IPS تحت أشعة الشمس المباشرة. مقاومة ماء IP68 = آمنة للوضوء وغسل اليدين والتعرق — مش للسباحة. اختبار CairoVolt: 30 يوم استخدام يومي متواصل.
-
-**⚠️ تحذير مهم:** ساعات ذكية مقلدة كتير في السوق المصري بتستخدم شاشات TN رخيصة مش AMOLED حقيقي.
-
-| الموديل | الشاشة | السعر | الأفضل لـ |
-|---------|--------|-------|----------|
-| **FT3 Pro** | AMOLED 1.43" دائرية | 1,092 ج | ⭐ مكالمات بلوتوث + كلاسيك |
-| **FT5** | IPS 1.83" مربعة | 1,092 ج | شاشة كبيرة + ابل ستايل |
-| **FC2** | AMOLED 1.32" دائرية | 1,092 ج | تصميم رسمي أنيق |
-
-**تقنيات التشغيل:** شحن مغناطيسي عبر USB-C + مقاومة ماء IPX68/IP68 + نظام تتبع SpO2 متقدم. CE + FCC معتمد. اطلبها الآن — توصيل القاهرة خلال 24 ساعة.
+**⚠️ تحذير مهم:** ساعات ذكية مقلدة كتير في السوق المصري بتستخدم شاشات TN رخيصة مش AMOLED حقيقي. اطلبها الآن — توصيل القاهرة خلال 24 ساعة.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'نسخة جلوبال (Global Version) — ضد الساعات المقلدة' },
@@ -122,18 +111,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
                     description: `
 Tried cheap smartwatches that go black in Egypt's sun and die after one day? The screen matters more than specs — and most fakes use **TN panels** that are invisible outdoors. Joyroom uses genuine **AMOLED** (1,000 nits) visible even in direct noon sunlight.
 
-**Built for Egyptian Daily Life:**
-- **Ablution-proof:** IP68 waterproof — wash your hands 5 times daily with zero worry
-- **7-day real battery:** CairoVolt tested FT3 Pro for 30 days straight. Normal use = 7 days. Heavy Bluetooth calling = 4 days
-- **Bluetooth 5.3 Calling:** Answer calls from your wrist in traffic or the gym — clear voice quality
-
 **⚠️ Buyer Warning:** Egypt's market is flooded with fake smartwatches at EGP 200-400 using cheap screens. They break in weeks. Joyroom's Global Version comes with serial verification.
-
-| Model | Display | Price | Best For |
-|-------|---------|-------|----------|
-| **FT3 Pro** | AMOLED 1.43" Round | EGP 1,092 | ⭐ BT Calling + Classic |
-| **FT5** | IPS 1.83" Square | EGP 1,092 | Big Screen + Apple Style |
-| **FC2** | AMOLED 1.32" Round | EGP 1,092 | Formal/Elegant |
 
 CairoVolt verified — order now with next-day Cairo & Giza delivery.
     `,

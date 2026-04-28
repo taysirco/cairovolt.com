@@ -23,18 +23,6 @@ export const anker_wall_chargers_content: CategoryContent = {
                     description: `
 على عكس الشواحن المقلدة اللي بتسخن لـ 65°م وبتبوظ Battery Health خلال 6 شهور — شاحن **انكر** بيعتمد على تقنية **GaN III** + نظام ActiveShield 3.0 اللي بيراقب الحرارة 3 مليون مرة في اليوم. من 20 لـ 100 واط. ضمان 18 شهر.
 
-**مثالي لكهرباء مصر:**
-تذبذب الفولت بيحصل كتير — خصوصاً الصيف. نظام **MultiProtect** من انكر بيتعامل مع الفولت من 100V لـ 240V وبيفصل فوراً لو في خطر. اختبار CairoVolt: وصلنا شاحن 65W GaN بمنظم 260V — فصل في 0.05 ثانية بدون أي ضرر.
-
-**اختر شاحنك حسب جهازك:**
-| جهازك | الشاحن الموصى به | السعر |
-|-------|-----------------|-------|
-| **iPhone 17/17 Pro** | Anker Nano 3 GaN 30W (A2147) | 430 ج |
-| **iPhone 17/16** | Anker 30W (A2741) | 549 ج |
-| **Samsung S26** | Anker 25W PPS | 550 ج |
-| **Samsung S26 Ultra** | Anker 45W PPS | 790 ج |
-| **MacBook Air** | Anker 65W GaN | 999 ج |
-
 اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة، دفع عند الاستلام.
     `,
                     qualityBadges: [
@@ -105,18 +93,6 @@ export const anker_wall_chargers_content: CategoryContent = {
                     subtitle: 'iPhone 17 & Samsung S26 Fast Charging | 18-Month Warranty',
                     description: `
 Unlike fake chargers that overheat to 65°C and destroy Battery Health within 6 months — **Anker** chargers use **GaN III** technology + ActiveShield 3.0 that monitors temperature 3 million times/day. 20W to 100W. 18-month warranty.
-
-**Perfect for Local Power Grids:**
-Voltage fluctuations happen frequently — especially in summer. Anker's **MultiProtect** handles 100V-240V input and cuts power instantly if danger is detected. CairoVolt test: connected 65W GaN to 260V regulator — shut off in 0.05 seconds with zero damage.
-
-**Choose by Device:**
-| Device | Recommended Charger | Price |
-|--------|---------------------|-------|
-| **iPhone 17/17 Pro** | Anker Nano 3 GaN 30W (A2147) | EGP 430 |
-| **iPhone 17/16** | Anker 30W (A2741) | EGP 549 |
-| **Samsung S26** | Anker 25W PPS | EGP 550 |
-| **Samsung S26 Ultra** | Anker 45W PPS | EGP 790 |
-| **MacBook Air** | Anker 65W GaN | EGP 999 |
 
 Order now — next-day Cairo & Giza delivery, cash on delivery.
     `,
