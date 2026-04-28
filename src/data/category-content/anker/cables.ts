@@ -123,6 +123,10 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
                         {
                             question: 'Does Anker USB-C work with Samsung?',
                             answer: 'Yes! Anker USB-C cable supports Samsung Super Fast (25W+), rated for 35,000 bends. Available from CairoVolt with 18-month warranty, Cairo delivery.'
+                        },
+                        {
+                            question: 'What is the difference between Anker iPhone cable and standard cable?',
+                            answer: 'Anker iPhone cables (Lightning or USB-C to Lightning) are MFi certified — they work with iOS without error messages. Available from CairoVolt with 18-month warranty, Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [

@@ -99,7 +99,7 @@ export const joyroom_power_banks_content: CategoryContent = {
       **Why 3 Million+ Egyptians Chose Joyroom:**
       - **22.5W Rocket Charging:** iPhone 15/16 to 60% in just 30 minutes via USB-C
       - **9-Point Protection:** Short circuit, overheating, sudden discharge — all covered
-      - **Digital Display:** See exact percentage — not just blinking LEDs. Order now — next-day Cairo delivery
+      - **Digital Display:** See exact percentage — not just blinking LEDs. CairoVolt tested — next-day Cairo delivery
     `,
                     qualityBadges: [
                         { type: 'originality', text: '100% Original (QR Code)' },

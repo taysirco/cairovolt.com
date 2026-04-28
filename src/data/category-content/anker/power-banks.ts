@@ -156,7 +156,7 @@ export const anker_power_banks_content: CategoryContent = {
       - **Extended Power Outage:** 60,000mAh PowerCore Reserve — charges 10+ devices. Powers your Wi-Fi router!
 
       **Why Anker Over Any Power Bank?**
-      PowerIQ 4.0 auto-detects your device — iPhone, Samsung, or laptop — and delivers maximum safe charging speed. 500+ charge cycles (double the average). Order now — next-day Cairo & Giza delivery.
+      PowerIQ 4.0 auto-detects your device — iPhone, Samsung, or laptop — and delivers maximum safe charging speed. 500+ charge cycles (double the average). CairoVolt tested — next-day Cairo & Giza delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: '100% Original (Verify via Serial)' },
@@ -175,10 +175,10 @@ export const anker_power_banks_content: CategoryContent = {
                         {
                             title: 'Understanding the Series',
                             content: `
-- **Series 3 (Essential / Core):** الجودة المعتادة بسعر اقتصادي. سعة حقيقية وتصميم عملي. (مثال: PowerCore 10000).
-- **Series 5 (Nano / MagGo):** تركيز على التصميم النحيف وتقنية المغناطيس (MagSafe). مثالية لمستخدمي iPhone 17/16.
-- **Series 7 (Super Fast):** سرعات شحن عالية للابتوب والتابلت. (مثال: Anker 737 بقوة 140 واط).
-- **Series Prime (The Flagship):** قمة التكنولوجيا (GaNPrime). شاشات ذكية، تطبيق تحكم عبر البلوتوث، وسرعات تصل لـ 250 واط.
+- **Series 3 (Essential / Core):** Reliable quality at an affordable price. Real capacity and practical design. (e.g., PowerCore 10000).
+- **Series 5 (Nano / MagGo):** Ultra-slim design with MagSafe magnetic technology. Perfect for iPhone 17/16 users.
+- **Series 7 (Super Fast):** High-speed charging for laptops and tablets. (e.g., Anker 737 with 140W output).
+- **Series Prime (The Flagship):** Peak technology (GaNPrime). Smart displays, Bluetooth app control, and speeds up to 250W.
 `
                         },
                         {

@@ -88,7 +88,9 @@ export const joyroom_cables_content: CategoryContent = {
       If you buy a 50 EGP cable every 2 months = 300 EGP wasted per year. A Joyroom cable at 118 EGP lasts 1+ year (10,000 bends tested) — that's real savings, not marketing talk.
 
       **Egyptian-Proof Durability:**
-      **Braided Nylon** design handles 45°C heat + North Coast humidity. Reinforced metal heads — not cheap plastic that cracks. Order now — next-day Cairo delivery.
+      - **Braided Nylon** design handles 45°C heat + North Coast humidity
+      - Reinforced metal heads — not cheap plastic that cracks
+      - CairoVolt tested: 10,000+ bends at 45°C — zero connector failure. Order now — next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Auto-Stop Charging' },

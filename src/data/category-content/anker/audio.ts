@@ -62,7 +62,9 @@ export const anker_audio_content: CategoryContent = {
                         { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Not all models feature ANC. The R50i NC and Space A40 have active noise cancellation with transparency mode, while the R50i and P2i focus on passive noise isolation. Liberty 4 & P40i come with active ANC that blocks 98% of noise. If you commute frequently, ANC is worth the upgrade.' },
                         { question: 'How can I verify if my Soundcore earbuds are genuine?', answer: 'The safest method: Download the Soundcore App from App Store or Google Play and try to pair your earbuds. If the app doesn\'t recognize them = 100% fake. Genuine products appear instantly and allow firmware updates and EQ customization.' },
                         { question: 'Which is better: Soundcore or AirPods?', answer: 'Depends on your needs! AirPods are excellent for iPhone users and Apple ecosystem. Soundcore offers the same quality (sometimes better bass) at half the price or less, with Hi-Res Audio and a powerful customization app. For smart budgets, Soundcore wins.' },
-                        { question: 'Is the Soundcore app available in Arabic?', answer: 'The app is currently English-only but very user-friendly. It lets you: customize EQ (sound), activate HearID (personal audio profile), update earbuds firmware, and track lost earbuds. Available free on iOS & Android.' }
+                        { question: 'Is the Soundcore app available in Arabic?', answer: 'The app is currently English-only but very user-friendly. It lets you: customize EQ (sound), activate HearID (personal audio profile), update earbuds firmware, and track lost earbuds. Available free on iOS & Android.' },
+                        { question: 'How much do Soundcore earbuds cost in Egypt?', answer: 'Soundcore earbuds prices in Egypt 2026: K20i from EGP 750, R50i from EGP 950, R50i NC from EGP 1,299. All prices include 18-month warranty from CairoVolt — the authorized Anker distributor in Egypt.' },
+                        { question: 'What is the best Anker Soundcore earbuds in Egypt?', answer: 'Depends on your budget: K20i (EGP 750) for maximum comfort without ear pressure, R50i (EGP 950) for best value with strong bass, R50i NC (EGP 1,299) for active noise cancellation. All are original Soundcore earbuds with 18-month CairoVolt warranty.' }
                     ]
                 }
             },
@@ -144,7 +146,7 @@ export const anker_audio_content: CategoryContent = {
       - **Gaming:** Game Mode with only 60ms latency — zero lag
 
       **Why Soundcore Over Any Earbuds?**
-      The free Soundcore app personalizes sound to YOUR ears (HearID). If the app doesn't detect the earbuds = 100% fake. Order now — 18-month warranty + next-day Cairo delivery.
+      The free Soundcore app personalizes sound to YOUR ears (HearID). If the app doesn't detect the earbuds = 100% fake. CairoVolt verified — 18-month warranty + next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Authorized Dealer (Original Serial)' },

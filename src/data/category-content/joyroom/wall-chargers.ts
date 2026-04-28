@@ -88,7 +88,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
       **Why Choose Joyroom Over Generic Chargers?**
       - **GaN Technology (Pro Models):** 50% smaller, runs 16°C cooler than traditional chargers
       - **Fire-Retardant V0 Housing:** Won't melt or catch fire — even at 260V spike
-      - **Multi-Port:** Charge MacBook + iPhone simultaneously — order now, next-day Cairo delivery
+      - **Multi-Port:** Charge MacBook + iPhone simultaneously — CairoVolt verified, next-day Cairo delivery
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Official Agent Warranty' },
@@ -124,6 +124,10 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                         {
                             question: 'What is the warranty for Joyroom charger in Egypt?',
                             answer: '1-year CairoVolt warranty. 14-day instant replacement. Covers: ports, chip, body. Next-day Cairo delivery, cash on delivery.'
+                        },
+                        {
+                            question: 'Does Joyroom charger handle Egypt voltage fluctuations?',
+                            answer: 'Yes! Joyroom chargers support 100-240V wide voltage input — handles Egyptian grid fluctuations (160-260V). Smart IC chip auto-adjusts. CairoVolt tested during peak summer brownouts — zero issues.'
                         }
                     ],
                     products: [
