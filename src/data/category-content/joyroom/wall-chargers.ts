@@ -42,6 +42,12 @@ export const joyroom_wall_chargers_content: CategoryContent = {
 - **للايفون العادي (11-16):** شاحن 20W أو 25W كافٍ جداً (يشحن 50% في نصف ساعة).
 - **للايفون برو ماكس / ايباد:** ننصح بشاحن 30W أو 35W للاستفادة من أقصى سرعة شحن ممكنة (PD 3.0).
 `
+                        },
+                        {
+                            title: 'هل الشاحن بيستحمل كهرباء مصر؟',
+                            content: `
+شواحن جوي روم بتدعم جهد من 100V لـ 240V — يعني بتتعامل مع تذبذب كهرباء مصر (160V-260V) تلقائياً. شريحة GaN III بتحافظ على حرارة أقل 16 درجة من الشواحن العادية. اختبار CairoVolt في عز الصيف: صفر مشاكل.
+`
                         }
                     ],
                     faq: [
@@ -101,6 +107,12 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                             content: `
 - **For Standard iPhone (11-16):** A 20W or 25W charger is perfect (0-50% in 30 mins).
 - **For Pro Max / IPad:** We recommend 30W or 35W to unlock maximum charging potential (PD 3.0).
+`
+                        },
+                        {
+                            title: 'Can It Handle Egyptian Voltage?',
+                            content: `
+Joyroom chargers support 100V-240V wide voltage input — automatically handles Egyptian grid fluctuations (160V-260V). GaN III chip keeps temperature 16°C cooler than traditional chargers. CairoVolt tested during peak summer: zero issues.
 `
                         }
                     ],

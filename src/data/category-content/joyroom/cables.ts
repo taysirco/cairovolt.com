@@ -105,6 +105,12 @@ export const joyroom_cables_content: CategoryContent = {
 - **Type-C 60W:** Perfect for Samsung S24 Ultra and iPhone 15/16 Series.
 - **Type-C 100W:** Essential for charging MacBooks, iPads, and high-end laptops at full speed.
 `
+                        },
+                        {
+                            title: 'Does It Support Data Transfer?',
+                            content: `
+Yes — all our cables support data transfer at 480Mbps, meaning you can easily transfer photos and videos from iPhone to computer without any issues.
+`
                         }
                     ],
                     faq: [
