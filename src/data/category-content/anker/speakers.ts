@@ -26,16 +26,6 @@ export const anker_speakers_content: CategoryContent = {
 **مثالية لصيف مصر:**
 حفلة في الساحل الشمالي؟ بول بارتي؟ مقاومة ماء **IPX7** يعني السبيكر يتحمل الغطس في المسبح. اختبار CairoVolt: غطسناها 30 دقيقة في مياه مالحة — الصوت رجع 100% بعد التجفيف.
 
-**ليه Soundcore مش أي سبيكر؟**
-- **تقنية BassUp:** باس عميق بيهز المكان — حساس بيحلل الموسيقى ويضاعف الباس تلقائياً
-- **PartyCast عبر Bluetooth 5.3:** اربط 100+ سماعة مع بعض — الصوت بيطلع متزامن بدون تأخير
-- **شحن USB-C سريع:** ساعة ونص شحن = 24 ساعة تشغيل. ضمان انكر 18 شهر — اطلبها الآن
-- **صوت 360°:** تجربة صوتية محيطية من كل الاتجاهات — مش اتجاه واحد بس
-
-**أشهر الموديلات:**
-- **Soundcore Motion+** — 30 واط Hi-Res + تحكم EQ عبر التطبيق
-- **Soundcore Flare 2** — إضاءة LED 360° متفاعلة مع الموسيقى + IPX7
-
 ضمان 18 شهر من CairoVolt + استبدال فوري خلال 14 يوم. اطلبها الآن — توصيل القاهرة والجيزة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) للشحن السريع USB-C أو باور بانك انكر (/anker/power-banks) لتشغيل السبيكر في الرحلات.
     `,
                     qualityBadges: [
@@ -94,10 +84,7 @@ Unlike cheap speakers that distort at Volume 80% — **Anker Soundcore** speaker
 **Perfect for Egyptian Summer:**
 Sahel pool party? Outdoor gathering? **IPX7 waterproof** means the speaker survives being submerged in the pool. CairoVolt test: we dunked it in salt water for 30 minutes — sound returned to 100% after drying.
 
-**Why Soundcore Over Any Speaker?**
-- **BassUp Technology:** Deep bass that shakes the room — a sensor analyzes music and doubles the bass automatically
-- **PartyCast via Bluetooth 5.3:** Link 100+ speakers together — perfectly synchronized audio
-- **USB-C Fast Charge:** 1.5 hours charge = 24 hours playback. 18-month Anker warranty — order now
+18-month CairoVolt warranty + instant replacement within 14 days. Order now — next-day Cairo & Giza delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Hi-Res Audio Certified' },
