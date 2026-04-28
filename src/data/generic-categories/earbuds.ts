@@ -5,7 +5,7 @@ export const earbuds_generic: GenericCategory = {
         slug: 'earbuds',
         brandCategories: [
             { brand: 'Anker', brandSlug: 'Anker', categorySlug: 'audio' },
-            { brand: 'Joyroom', brandSlug: 'Joyroom', categorySlug: 'earbuds' },
+            { brand: 'Joyroom', brandSlug: 'Joyroom', categorySlug: 'audio' },
         ],
         metadata: {
             ar: {
@@ -34,7 +34,7 @@ export const earbuds_generic: GenericCategory = {
             en: {
                 title: 'Bluetooth Earbuds in Egypt',
                 subtitle: 'Premium AirPods Alternative at Reasonable Prices',
-                intro: 'Discover the best wireless Bluetooth earbuds in Egypt from Soundcore (Anker\'s audio brand) and Joyroom. Excellent sound, long battery, prices from EGP 350 — a real AirPods alternative.',
+                intro: 'Discover the best wireless Bluetooth earbuds in Egypt from Soundcore (Anker\'s premium audio brand) and Joyroom. Excellent sound quality, long battery life, prices starting from EGP 350 — a real AirPods alternative.',
                 buyingTips: [
                     'ANC: Soundcore Liberty 4 NC — CairoVolt Cairo Metro test: reduced train noise from 98dB to 42dB',
                     'Best value: Soundcore R50i — CairoVolt battery test: 10hr 22min actual playtime (exceeds rated spec)',

@@ -64,7 +64,7 @@ export const power_banks_generic: GenericCategory = {
                 { question: 'What is the difference between PD and QC fast charging?', answer: 'PD (Power Delivery) is a universal USB standard that works with iPhone, Samsung, and MacBook. QC (Quick Charge) by Qualcomm primarily works with Android devices. The ideal power bank supports both.' },
                 { question: 'Best power bank for travel?', answer: 'A 20000mAh power bank is ideal for travel — charges your phone 4 times and is airline-approved (under 100Wh). For longer trips: choose 27000-30000mAh.' },
                 { question: 'How to choose between a cheap and expensive power bank?', answer: 'More expensive power banks have: higher cell quality (longer lifespan), multi-layer protection systems, and longer warranty (18 months vs 6 months). Budget options are great for daily use, but premium ones are a long-term investment.' },
-                { question: 'How to identify an original power bank from fake?', answer: 'Check: 1) Hologram sticker on box 2) Serial number on manufacturer\'s official website 3) Buy from authorized dealer like CairoVolt 4) Product weight and finish quality.' },
+                { question: 'How to identify an original power bank from fake?', answer: 'Check these five signs: 1) Authentic hologram security sticker on box 2) Verify serial number on manufacturer official website 3) Buy from authorized dealer like CairoVolt with warranty card 4) Original product is heavier due to genuine battery cells 5) Clean finish with precisely engraved branding, not cheaply printed logos.' },
             ],
         },
         richContent: {
