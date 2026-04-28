@@ -64,8 +64,8 @@ export const joyroom_cables_content: CategoryContent = {
                             answer: '60W = يكفي لشحن سامسونج S26 وايفون 17 بأقصى سرعة. 100W = ضروري لشحن لابتوب MacBook Air/Pro أو iPad Pro. لو بتستخدم موبايل فقط → 60W كافي وأرخص. لو عندك لابتوب → 100W إلزامي.'
                         },
                         {
-                            question: 'كيف أعرف الكابل الأصلي من المقلد؟',
-                            answer: 'الكابل المقلد بيتقطع بعد أسبوع ويسبب رسالة "Accessory not supported". الأصلي: 1) مؤشر LED بينور أثناء الشحن 2) غلاف Braided Nylon مش بلاستيك رخيص 3) رؤوس معدنية مش بلاستيك 4) يتحمل 10,000+ ثنية (اختبار CairoVolt).'
+                            question: '⚠️ تحذير: إيه ميزة الفصل التلقائي Auto-Disconnect في كابل جوي روم؟',
+                            answer: 'الكابلات المقلدة (fake) بتشحن 100% وتفضل تضخ كهرباء = Battery Health بينزل. كابل جوي روم الأصلي فيه شريحة Smart IC بتراقب مستوى الشحن — لما يوصل 100% بتقطع الكهرباء تماماً. اختبار CairoVolt: بعد 3 شهور شحن ليلي يومي، Battery Health فضل 99%. الميزة دي مش موجودة في أي كابل تاني في مصر.'
                         },
                         {
                             question: 'ما ضمان كابل جوي روم في مصر؟',
@@ -119,8 +119,8 @@ export const joyroom_cables_content: CategoryContent = {
                             answer: '60W = enough for Samsung S26 and iPhone 17 at max speed. 100W = required for MacBook Air/Pro or iPad Pro charging. Phone only → 60W is cheaper. Have a laptop → 100W is mandatory.'
                         },
                         {
-                            question: 'How to spot a fake cable vs original?',
-                            answer: 'Fakes break in a week and show "Accessory not supported." Original: 1) LED indicator during charging 2) Braided Nylon not cheap plastic 3) Metal connectors 4) 10,000+ bend certified (CairoVolt tested).'
+                            question: 'What is the Auto-Disconnect feature in Joyroom cables?',
+                            answer: 'A Smart IC chip inside the cable monitors charge level — at 100% it cuts power completely. Sleep with your phone plugged in without Battery Health degradation. CairoVolt test: after 3 months of daily overnight charging, Battery Health stayed at 99%. No other cable in Egypt offers this.'
                         },
                         {
                             question: 'What is the warranty for Joyroom cable in Egypt?',

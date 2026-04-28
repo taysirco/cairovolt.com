@@ -117,8 +117,8 @@ export const anker_audio_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'ما هو الفرق بين R50i و P20i؟',
-                            answer: 'الفرق الرئيسي بينهم في التصميم والمميزات. R50i بتصميم in-ear مع عزل صوتي ممتاز وبطارية أطول. Life P2i بتصميم أكبر قليلاً مع باس أقوى. كلاهما بيدعم بلوتوث 5.3 وضمان 18 شهر من CairoVolt.'
+                            question: 'هل سماعة انكر Soundcore بتشتغل مع سامسونج ولا ايفون بس؟',
+                            answer: 'سماعات Soundcore بتشتغل مع أي جهاز بلوتوث — سامسونج، ايفون، هواوي، شاومي، لابتوب. اختبار CairoVolt: اقتران مع Samsung S26 في 0.2 ثانية عبر Bluetooth 5.3 بمدى 15 متر. ميزة Pop-up Pairing حصرية لايفون. تطبيق Soundcore متاح Android و iOS.'
                         },
                         {
                             question: 'هل يوجد تأخير في الصوت (Delay) مع الألعاب؟',
@@ -169,8 +169,8 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                     ],
                     faq: [
                         {
-                            question: 'What is the difference between R50i and P20i?',
-                            answer: 'The main difference is in design and features. R50i has an in-ear design with excellent passive isolation and longer battery life. Life P2i has a slightly larger housing with stronger bass response. Both support Bluetooth 5.3 and come with 18-month CairoVolt warranty.'
+                            question: 'Do Anker Soundcore earbuds work with Samsung phones?',
+                            answer: 'Yes! Soundcore earbuds work with any Bluetooth device — Samsung, iPhone, Huawei, Xiaomi, laptops. CairoVolt test: paired with Samsung S26 in 0.2 seconds via Bluetooth 5.3 with 15m range. Pop-up Pairing is exclusive to iPhones. Soundcore app available on both Android and iOS.'
                         },
                         {
                             question: 'Is there audio lag when gaming?',

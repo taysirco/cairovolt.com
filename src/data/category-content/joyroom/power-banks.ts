@@ -69,8 +69,8 @@ export const joyroom_power_banks_content: CategoryContent = {
                             answer: 'آمن 100%. خلايا Li-Polymer Grade A+ (نفس المستخدمة في ايفون وسامسونج). حماية 9 نقاط: ماس كهربائي، سخونة زائدة، تفريغ مفاجئ، شحن زائد، فولت عالي. اختبار CairoVolt: 500 دورة شحن/تفريغ — احتفظ بـ 88% من السعة.'
                         },
                         {
-                            question: 'إيه الفرق بين 10,000 و 20,000 مللي أمبير؟',
-                            answer: '10,000mAh = يشحن ايفون 17 مرتين كاملتين، وزن 200 جرام يدخل الجيب. 20,000mAh = 4.1 شحنات ايفون 17 (اختبار CairoVolt)، وزن 380 جرام. لو بتتنقل كتير → 10,000. لو سفر أو قطع كهرباء → 20,000.'
+                            question: 'إيه الفرق بين باور بانك جوي روم وانكر؟ أختار أنهي؟',
+                            answer: 'جوي روم: أرخص 30-50%، شحن سريع 22.5W، تصميم Slim أنحف. أنكر: بطاريات Tesla-grade + شاشة LED ذكية. لو الميزانية أولوية → جوي روم 20,000mAh Pro بـ 997 جنيه (أفضل قيمة). لو محتاج 60,000mAh أو شحن لابتوب → أنكر Prime. الاتنين بضمان CairoVolt.'
                         },
                         {
                             question: 'هل الباور بانك مسموح على الطائرة؟',
@@ -139,8 +139,8 @@ Fake Joyroom banks are common (often filled with sand!).
                             answer: '100% safe. Grade A+ Li-Polymer cells (same used in iPhones and Samsung). 9-point protection: short-circuit, overheating, sudden discharge, overcharging, over-voltage. CairoVolt test: 500 charge cycles — retained 88% capacity.'
                         },
                         {
-                            question: 'What is the difference between 10,000 and 20,000mAh?',
-                            answer: '10,000mAh = 2 full iPhone 17 charges, 200g pocket-friendly. 20,000mAh = 4.1 iPhone 17 charges (CairoVolt tested), 380g. Daily commuter → 10,000. Travel or power outage → 20,000.'
+                            question: 'Joyroom vs Anker power bank — which should I choose?',
+                            answer: 'Joyroom: 30-50% cheaper, 22.5W fast charging, slimmer design. Anker: Tesla-grade cells + smart LED display. Budget priority → Joyroom 20,000mAh Pro at EGP 997 (best value). Need 60,000mAh or laptop charging → Anker Prime. Both backed by CairoVolt warranty.'
                         },
                         {
                             question: 'Is it airline/TSA approved?',
