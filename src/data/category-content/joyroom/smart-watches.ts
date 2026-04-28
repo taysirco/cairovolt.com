@@ -134,11 +134,13 @@ Tried cheap smartwatches that go black in Egypt's sun and die after one day? The
 | **FT3 Pro** | AMOLED 1.43" Round | EGP 1,092 | ⭐ BT Calling + Classic |
 | **FT5** | IPS 1.83" Square | EGP 1,092 | Big Screen + Apple Style |
 | **FC2** | AMOLED 1.32" Round | EGP 1,092 | Formal/Elegant |
+
+CairoVolt verified — order now with next-day Cairo & Giza delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Global Version — Counterfeit Protected' },
                         { type: 'warranty', text: '1-Year Warranty + CairoVolt Replacement' },
-                        { type: 'expert_verified', text: 'Bluetooth 5.3 + AMOLED + IP68 — CairoVolt Tested' }
+                        { type: 'expert_verified', text: 'Bluetooth 5.3 + AMOLED + IP68 — FCC Certified — CairoVolt Tested' }
                     ],
                     buyingGuide: [
                         {

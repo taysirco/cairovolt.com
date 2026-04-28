@@ -95,7 +95,7 @@ export const joyroom_cables_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'Auto-Stop Charging' },
                         { type: 'warranty', text: '1 Year Warranty' },
-                        { type: 'expert_verified', text: '480Mbps Data Sync' }
+                        { type: 'expert_verified', text: '480Mbps Data Sync — USB-IF Certified' }
                     ],
                     buyingGuide: [
                         {

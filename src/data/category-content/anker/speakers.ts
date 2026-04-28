@@ -36,7 +36,7 @@ export const anker_speakers_content: CategoryContent = {
 - **Soundcore Motion+** — 30 واط Hi-Res + تحكم EQ عبر التطبيق
 - **Soundcore Flare 2** — إضاءة LED 360° متفاعلة مع الموسيقى + IPX7
 
-تسوق كابل انكر (/anker/cables) للشحن السريع USB-C أو باور بانك انكر (/anker/power-banks) لتشغيل السبيكر في الرحلات.
+ضمان 18 شهر من CairoVolt + استبدال فوري خلال 14 يوم. اطلبها الآن — توصيل القاهرة والجيزة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) للشحن السريع USB-C أو باور بانك انكر (/anker/power-banks) لتشغيل السبيكر في الرحلات.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'معتمد Hi-Res Audio + CE' },

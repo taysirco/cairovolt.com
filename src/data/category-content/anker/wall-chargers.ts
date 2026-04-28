@@ -40,7 +40,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'الموزع المعتمد لـ Anker في مصر' },
                         { type: 'warranty', text: 'ضمان 18 شهر استبدال فوري - أطول من ضمان أبل' },
-                        { type: 'expert_verified', text: 'تقنية GaN + ActiveShield 3.0 للحماية' }
+                        { type: 'expert_verified', text: 'تقنية GaN + ActiveShield 3.0 — FCC معتمد' }
                     ],
                     buyingGuide: [
                         {
@@ -123,7 +123,7 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
                     qualityBadges: [
                         { type: 'originality', text: 'Official Anker Distributor in Egypt' },
                         { type: 'warranty', text: '18-Month Replacement Warranty — longer than Apple' },
-                        { type: 'expert_verified', text: 'GaN + ActiveShield 3.0 Protection' }
+                        { type: 'expert_verified', text: 'GaN + ActiveShield 3.0 — FCC Certified' }
                     ],
                     buyingGuide: [
                         {

@@ -116,11 +116,13 @@ We tested 3 models on the Cairo-Alexandria desert highway for 500 km at 120 km/h
 | **Dashboard 360** | Adhesive | EGP 169 | ⭐ Best Value |
 | **JR-ZS290** | MagSafe Magnetic | EGP 2,550 | iPhone 12-17 + MagSafe |
 | **Solar Auto-Clamp** | Solar Powered | EGP 2,550 | Auto open/close |
+
+CairoVolt verified — order now with next-day Cairo & Giza delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Genuine Neodymium N52 — 1,200 Gauss Pull Force' },
                         { type: 'warranty', text: '1-Year CairoVolt Warranty + 14-Day Replacement' },
-                        { type: 'expert_verified', text: 'Egyptian Road Tested — 500km Zero Drops' }
+                        { type: 'expert_verified', text: 'Egyptian Road Tested — CE + FCC Certified — 500km Zero Drops' }
                     ],
                     buyingGuide: [
                         {

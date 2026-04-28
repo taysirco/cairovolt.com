@@ -29,10 +29,10 @@ export const anker_car_chargers_content: CategoryContent = {
       **ليه انكر مش أي شاحن سيارة؟**
       - **MultiProtect:** نظام حماية بيراقب الحرارة 3 مليون مرة في اليوم — بيفصل فوراً لو في خطر
       - **USB-C PD سريع:** اشحن ايفون 17 من 0-50% في 30 دقيقة وأنت سايق
-      - **ضمان 18 شهر CairoVolt:** أطول من ضمان أبل — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة
+      - **ضمان 18 شهر CairoVolt:** أطول من ضمان أبل — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) + حامل موبايل انكر (/anker/car-chargers) لمنظومة سيارة كاملة.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'جسم معدني Alloy + USB-C PD — يتحمل 60°م' },
+                        { type: 'originality', text: 'جسم معدني Alloy + USB-C PD — FCC معتمد + يتحمل 60°م' },
                         { type: 'warranty', text: 'ضمان 18 شهر استبدال من CairoVolt' },
                         { type: 'expert_verified', text: 'PowerIQ 3.0 + MultiProtect — اختبار CairoVolt' }
                     ],
@@ -94,7 +94,7 @@ export const anker_car_chargers_content: CategoryContent = {
       - **18-month CairoVolt warranty:** Longer than Apple's — order now, next-day Cairo delivery
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'Alloy Heat Dissipation' },
+                        { type: 'originality', text: 'Alloy Heat Dissipation — FCC Certified' },
                         { type: 'warranty', text: '18-Month Warranty — Alloy Body' },
                         { type: 'expert_verified', text: '48W Fast Charging' }
                     ],

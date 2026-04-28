@@ -34,7 +34,7 @@ export const anker_cables_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'شريحة Apple C94 أصلية' },
                         { type: 'warranty', text: 'ضمان 18 شهر' },
-                        { type: 'expert_verified', text: 'يتحمل 80 كجم شد' }
+                        { type: 'expert_verified', text: 'يتحمل 80 كجم شد — USB-IF معتمد' }
                     ],
                     buyingGuide: [
                         {
@@ -93,7 +93,7 @@ export const anker_cables_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'Original Apple C94 Chip' },
                         { type: 'warranty', text: '18-Month Warranty — Kevlar Guaranteed' },
-                        { type: 'expert_verified', text: 'Withstands 80kg Pull' }
+                        { type: 'expert_verified', text: 'Withstands 80kg Pull — USB-IF Certified' }
                     ],
                     buyingGuide: [
                         {

@@ -33,7 +33,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'ضمان الوكيل الرسمي' },
                         { type: 'warranty', text: 'آمن على صحة البطارية' },
-                        { type: 'expert_verified', text: 'مواد مقاومة للحريق — UL + CE معتمد | تقنية GaN III' }
+                        { type: 'expert_verified', text: 'مواد مقاومة للحريق — UL + CE + FCC معتمد | تقنية GaN III' }
                     ],
                     buyingGuide: [
                         {
@@ -99,7 +99,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     qualityBadges: [
                         { type: 'originality', text: 'Official Agent Warranty' },
                         { type: 'warranty', text: 'Battery Health Safe' },
-                        { type: 'expert_verified', text: 'Fire-Proof Material' }
+                        { type: 'expert_verified', text: 'Fire-Proof Material — UL + CE + FCC Certified' }
                     ],
                     buyingGuide: [
                         {
