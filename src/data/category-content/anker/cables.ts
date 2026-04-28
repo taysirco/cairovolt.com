@@ -92,7 +92,7 @@ export const anker_cables_content: CategoryContent = {
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Original Apple C94 Chip' },
-                        { type: 'warranty', text: '18-Month Warranty' },
+                        { type: 'warranty', text: '18-Month Warranty — Kevlar Guaranteed' },
                         { type: 'expert_verified', text: 'Withstands 80kg Pull' }
                     ],
                     buyingGuide: [

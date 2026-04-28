@@ -97,7 +97,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Original Joyroom Product' },
-                        { type: 'warranty', text: '18-Month Warranty' },
+                        { type: 'warranty', text: '18-Month Warranty — FCC Certified' },
                         { type: 'expert_verified', text: '60W PD Fast Charge' }
                     ],
                     buyingGuide: [

@@ -95,7 +95,7 @@ export const anker_car_chargers_content: CategoryContent = {
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Alloy Heat Dissipation' },
-                        { type: 'warranty', text: '18-Month Warranty' },
+                        { type: 'warranty', text: '18-Month Warranty — Alloy Body' },
                         { type: 'expert_verified', text: '48W Fast Charging' }
                     ],
                     buyingGuide: [
