@@ -7,12 +7,12 @@ export const anker_speakers_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Soundcore Speakers Egypt | Hi-Res 30W IPX7 from EGP 2,999',
-                    description: 'Shop Anker Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
+                    description: 'Anker Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
                     keywords: 'anker speaker, soundcore speaker egypt, anker motion plus, soundcore flare 2, bluetooth speaker egypt, anker speaker price egypt, Hi-Res speaker, IPX7 speaker',
                 },
                 ar: {
-                    title: 'سماعات انكر Soundcore مصر | Hi-Res 30W ضد الماء IPX7 من 2,999 جنيه',
-                    description: 'تسوق سماعات انكر Soundcore في مصر. Motion+ Hi-Res 30W، Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ اختبار CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    title: 'سماعات انكر Soundcore مصر | Hi-Res 30W IPX7 من 2,999 جنيه',
+                    description: 'سماعات انكر Soundcore في مصر. Motion+ Hi-Res 30W، Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ اختبار CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
                     keywords: 'سماعة انكر, سعر سماعة انكر, مكبر صوت بلوتوث, soundcore motion plus, soundcore flare 2, سماعة بلوتوث مصر, سماعة ضد الماء',
                 }
             },
@@ -35,6 +35,8 @@ export const anker_speakers_content: CategoryContent = {
 **أشهر الموديلات:**
 - **Soundcore Motion+** — 30 واط Hi-Res + تحكم EQ عبر التطبيق
 - **Soundcore Flare 2** — إضاءة LED 360° متفاعلة مع الموسيقى + IPX7
+
+تسوق كابل انكر (/anker/cables) للشحن السريع USB-C أو باور بانك انكر (/anker/power-banks) لتشغيل السبيكر في الرحلات.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'معتمد Hi-Res Audio + CE' },

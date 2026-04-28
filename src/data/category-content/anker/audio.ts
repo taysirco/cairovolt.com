@@ -126,9 +126,10 @@ export const anker_audio_content: CategoryContent = {
                         }
                     ],
                     products: [
+                        { name: 'Anker Soundcore K20i', price: 750, badge: 'أريح تصميم' },
                         { name: 'Anker Soundcore R50i', price: 950, badge: 'اقتصادي ناجح' },
+                        { name: 'Anker Soundcore R50i NC', price: 1299, badge: 'ANC الغاء ضوضاء' },
                         { name: 'Anker Soundcore P20i', price: 820, badge: 'Best Value' },
-                        { name: 'Anker Liberty 4', price: 820, badge: 'Premium ANC' },
                     ]
                 },
                 en: {
@@ -178,9 +179,10 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                         }
                     ],
                     products: [
+                        { name: 'Anker Soundcore K20i', price: 750, badge: 'Most Comfortable' },
                         { name: 'Anker Soundcore R50i', price: 950, badge: 'Budget King' },
+                        { name: 'Anker Soundcore R50i NC', price: 1299, badge: 'ANC Noise Cancel' },
                         { name: 'Anker Soundcore P20i', price: 820, badge: 'Best Value' },
-                        { name: 'Anker Liberty 4', price: 820, badge: 'Premium ANC' },
                     ]
                 }
             }

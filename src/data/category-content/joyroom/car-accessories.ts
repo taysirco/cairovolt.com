@@ -6,12 +6,12 @@ export const joyroom_car_accessories_content: CategoryContent = {
             categoryName: 'Car Accessories',
             metadata: {
                 en: {
-                    title: 'Joyroom Car Accessories Egypt | USB-C PD 60W + N52 Mount from EGP 169',
+                    title: 'Joyroom Car Accessories Egypt | USB-C PD 60W + N52 Mount',
                     description: 'Shop Joyroom car accessories in Egypt. USB-C PD 60W charger + N52 magnetic holder + MagSafe. ✓ CairoVolt road-tested ✓ 18-month warranty ✓ Cairo delivery',
                     keywords: 'joyroom car charger, joyroom car holder, car accessories egypt, joyroom 60W USB-C PD, N52 magnetic mount, MagSafe car holder, joyroom car accessories price',
                 },
                 ar: {
-                    title: 'اكسسوارات سيارة جوي روم مصر | USB-C PD 60W + مغناطيس N52 من 169 جنيه',
+                    title: 'اكسسوارات سيارة جوي روم مصر | USB-C PD 60W + N52 من 169 جنيه',
                     description: 'تسوق اكسسوارات سيارة جوي روم في مصر. شاحن USB-C PD 60W + حامل مغناطيس N52 + MagSafe. ✓ اختبار طرق CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
                     keywords: 'شاحن سيارة جوي روم, سعر اكسسوارات سيارة, حامل موبايل سيارة, حامل N52, شاحن USB-C PD 60W, MagSafe سيارة, اكسسوارات سيارة مصر',
                 }

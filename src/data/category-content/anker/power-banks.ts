@@ -67,12 +67,12 @@ export const anker_power_banks_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Power Bank Egypt | PowerCore 20000mAh, 10000mAh',
-                    description: 'Shop original Anker Power Bank in Egypt. Anker PowerCore 20000mAh, 10000mAh, Prime & 737. Fast charging with official warranty. Best prices.',
+                    description: 'Original Anker Power Bank in Egypt. PowerCore 20000mAh, 10000mAh, Prime & 737. Tesla-grade cells, USB-C PD fast charging. ✓ CairoVolt tested ✓ 24-month warranty',
                     keywords: 'anker power bank, anker power bank 20000mah, anker powercore, anker prime power bank, anker 737 power bank, power bank egypt',
                 },
                 ar: {
                     title: 'باور بانك انكر | Anker Power Bank Egypt - أفضل أسعار',
-                    description: 'تسوق باور بانك انكر الأصلي في مصر. باور بانك انكر 20000 و 10000 مللي أمبير بأفضل الأسعار. شحن سريع وضمان أصلي.',
+                    description: 'باور بانك انكر الأصلي في مصر. PowerCore 20000 و 10000 mAh، Prime و 737. خلايا Tesla-grade + شحن PD سريع. ✓ ضمان 24 شهر ✓ توصيل القاهرة',
                     keywords: 'باور بانك انكر, باور بنك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك, افضل باور بانك, power bank anker',
                 }
             },
@@ -89,7 +89,7 @@ export const anker_power_banks_content: CategoryContent = {
       - **انقطاع كهرباء طويل:** 60,000mAh PowerCore Reserve — يشحن 10+ أجهزة. بيشغل راوتر Wi-Fi!
 
       **ليه انكر مش أي باور بانك؟**
-      PowerIQ 4.0 بيتعرف على جهازك تلقائياً — ايفون ولا سامسونج ولا لابتوب — وبيديله أقصى سرعة شحن بأمان. 500+ دورة شحن (ضعف المتوسط). اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة.
+      PowerIQ 4.0 بيتعرف على جهازك تلقائياً — ايفون ولا سامسونج ولا لابتوب — وبيديله أقصى سرعة شحن بأمان. 500+ دورة شحن (ضعف المتوسط). اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) + شاحن حائط انكر (/anker/wall-chargers) لمنظومة شحن كاملة.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'منتجات أصلية 100% (يمكن التحقق من السيريال)' },
@@ -182,7 +182,7 @@ export const anker_power_banks_content: CategoryContent = {
 `
                         },
                         {
-                            title: 'WARNING: How to Sport Fake Anker?',
+                            title: 'WARNING: How to Spot Fake Anker?',
                             content: `
 1. **Verification Code:** Every original box has a QR code to verify on Anker's official website.
 2. **Build Quality:** Originals feel premium and dense; fakes often feel light and cheap.

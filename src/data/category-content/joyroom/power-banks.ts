@@ -7,12 +7,12 @@ export const joyroom_power_banks_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Joyroom Power Bank Egypt | 22.5W PD Fast Charging from EGP 850',
-                    description: 'Shop Joyroom Power Bank in Egypt. 10000mAh from EGP 850, 20000mAh 22.5W PD + USB-C. Grade A+ Li-Polymer cells. ✓ CairoVolt tested ✓ 1-year warranty ✓ Airline safe ✓ Cairo delivery',
+                    description: 'Joyroom Power Bank in Egypt. 10000mAh from EGP 850, 20000mAh 22.5W PD + USB-C. Grade A+ Li-Polymer cells. ✓ CairoVolt tested ✓ 1-year warranty ✓ Airline safe',
                     keywords: 'joyroom power bank, joyroom power bank 10000, joyroom power bank 20000, power bank egypt, joyroom power bank price egypt, joyroom 22.5W, joyroom USB-C PD, portable charger joyroom, باور بانك جوي روم',
                 },
                 ar: {
                     title: 'باور بانك جوي روم مصر | 22.5W PD شحن سريع من 850 جنيه',
-                    description: 'تسوق باور بانك جوي روم الأصلي في مصر. 10,000mAh من 850 ج، 20,000mAh بشحن PD 22.5W + USB-C. خلايا Grade A+ Li-Polymer. ✓ اختبار CairoVolt ✓ ضمان سنة ✓ مسموح الطائرة ✓ توصيل القاهرة',
+                    description: 'باور بانك جوي روم الأصلي في مصر. 10,000mAh من 850 ج، 20,000mAh PD 22.5W + USB-C. خلايا Grade A+ Li-Polymer. ✓ اختبار CairoVolt ✓ ضمان سنة ✓ مسموح الطائرة',
                     keywords: 'باور بانك جوي روم, باور بانك جوي روم 10000, باور بانك جوي روم 20000, سعر باور بانك جوي روم, باور بانك جيروم, شحن سريع PD, باور بانك USB-C مصر, باور بانك رخيص مصر',
                 }
             },
@@ -29,7 +29,7 @@ export const joyroom_power_banks_content: CategoryContent = {
       **ليه 3 مليون مصري اختاروه؟**
       - **شحن صاروخي 22.5W:** يشحن ايفون 15/16 عبر USB-C حتى 60% في 30 دقيقة فقط.
       - **حماية 9 نقاط:** ماس كهربائي، سخونة زائدة، تفريغ مفاجئ — كله مغطى.
-      - **شاشة رقمية:** تعرف النسبة بالظبط — مش مجرد لمبات. اطلبه الآن — توصيل القاهرة خلال 24 ساعة.
+      - **شاشة رقمية:** تعرف النسبة بالظبط — مش مجرد لمبات. اطلبه الآن — توصيل القاهرة خلال 24 ساعة. تسوق كابل جوي روم (/joyroom/cables) USB-C PD لأقصى سرعة شحن.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'منتج أصلي 100% (UL + CE معتمد)' },

@@ -6,13 +6,13 @@ export const joyroom_smart_watches_content: CategoryContent = {
             categoryName: 'Smart Watches',
             metadata: {
                 en: {
-                    title: 'Joyroom Smart Watch Egypt | AMOLED Bluetooth Calling from EGP 1092',
+                    title: 'Joyroom Smart Watch Egypt | AMOLED Bluetooth Calling EGP 1092',
                     description: 'Shop Joyroom Smart Watch in Egypt. FT3 Pro AMOLED + Bluetooth 5.3 calling. 7-day battery, IP68. ✓ 1-year warranty ✓ CairoVolt tested ✓ Cash on delivery Cairo',
                     keywords: 'joyroom smart watch, joyroom watch egypt, joyroom FT3 pro, joyroom FT5, smart watch egypt, fitness tracker egypt, joyroom AMOLED watch, ساعة جوي روم, bluetooth calling watch, joyroom watch price egypt',
                 },
                 ar: {
                     title: 'ساعة جوي روم الذكية مصر | AMOLED + مكالمات بلوتوث من 1092 جنيه',
-                    description: 'تسوق ساعة جوي روم الذكية في مصر. FT3 Pro بشاشة AMOLED + مكالمات بلوتوث 5.3. بطارية 7 أيام، IP68. ✓ ضمان سنة ✓ اختبار CairoVolt ✓ توصيل القاهرة ✓ دفع عند الاستلام',
+                    description: 'ساعة جوي روم الذكية في مصر. FT3 Pro AMOLED + مكالمات بلوتوث 5.3. بطارية 7 أيام، IP68. ✓ ضمان سنة ✓ اختبار CairoVolt ✓ توصيل القاهرة ✓ دفع عند الاستلام',
                     keywords: 'ساعة جوي روم, ساعة ذكية مصر, joyroom FT3, ساعة AMOLED جوي روم, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم, ساعة ذكية رخيصة مصر, ساعة مكالمات بلوتوث',
                 }
             },

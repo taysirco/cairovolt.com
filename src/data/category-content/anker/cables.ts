@@ -7,12 +7,12 @@ export const anker_cables_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Cable Egypt | Lightning, USB-C, PowerLine',
-                    description: 'Shop original Anker cables in Egypt. Anker PowerLine Lightning, USB-C cables. Lifetime warranty. Best prices.',
+                    description: 'Original Anker cables in Egypt. PowerLine III Kevlar USB-C & Lightning. MFi certified, 35,000+ bend tested. ✓ CairoVolt verified ✓ 18-month warranty',
                     keywords: 'anker cable, anker lightning cable, anker type c cable, anker powerline, cable egypt',
                 },
                 ar: {
                     title: 'كابل انكر | Anker Cable Egypt - وصلة انكر للايفون',
-                    description: 'تسوق كابل انكر الأصلي في مصر. وصلة انكر للايفون, كابل شاحن انكر, anker type c cable, وصلة شاحن انكر بأفضل سعر.',
+                    description: 'كابل انكر الأصلي في مصر. PowerLine III Kevlar شحن سريع USB-C + Lightning. شهادة MFi، يتحمل 35,000+ ثنية. ✓ ضمان 18 شهر ✓ توصيل القاهرة',
                     keywords: 'وصلة انكر للايفون, وصله انكر, وصلة شاحن انكر, كابل شاحن انكر, كابل انكر ايفون, وصلة ايفون, anker type c cable, anker cable type c, anker usb type c, anker lightning',
                 }
             },
@@ -48,7 +48,7 @@ export const anker_cables_content: CategoryContent = {
                         {
                             title: 'هل يدعم الشحن السريع؟',
                             content: `
-طبعاً. كابلات USB-C to Lightning و USB-C to USB-C تدعم بروتوكول PD لشحن الايفون والسامسونج واللابتوب بأقصى سرعة.
+طبعاً. كابلات USB-C to Lightning و USB-C to USB-C تدعم بروتوكول PD لشحن الايفون والسامسونج واللابتوب بأقصى سرعة. تسوق شاحن انكر (/anker/wall-chargers) + كابل PowerLine = أقصى شحن سريع.
 `
                         }
                     ],
