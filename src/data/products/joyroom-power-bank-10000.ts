@@ -94,9 +94,7 @@ export const joyroom_power_bank_10000 = {
                     { question: "Is Joyroom power bank original?", answer: "Yes, CairoVolt products are 100% original with Golden Code verification and 12-month official warranty." },
                     { question: "Is Joyroom 10000 allowed on airplanes?", answer: "Yes! At 37Wh, it's well under the 100Wh TSA/IATA limit. You can carry it safely in hand luggage." },
                     { question: "Does it come with a charging cable?", answer: "Yes, includes a short Micro-USB cable to recharge the power bank. We recommend USB-C cable for your phone." },
-                    { question: "How long to recharge Joyroom 10000?", answer: "With 18W charger: 3-4 hours. With standard 5W: 6-8 hours. Fast charger recommended." },
-                    { question: "What is the warranty for Joyroom in Egypt?", answer: "12-month warranty from CairoVolt covering manufacturing defects with instant replacement." },
-                    { question: "Where to buy original Joyroom 10000 in Egypt?", answer: "Buy from CairoVolt—authorized distributor. Fast Cairo delivery, 12-month warranty, cash on delivery." }
+                    { question: "How long to recharge Joyroom 10000?", answer: "With 18W charger: 3-4 hours. With standard 5W: 6-8 hours. Fast charger recommended." }
                 ]
             },
             ar: {
@@ -171,9 +169,7 @@ export const joyroom_power_bank_10000 = {
                     { question: "هل باور بانك جوي روم أصلي؟", answer: "نعم، منتجات CairoVolt أصلية 100% مع كود التحقق الذهبي (Golden Code) وضمان 12 شهر رسمي." },
                     { question: "هل باور بانك جوي روم 10000 مسموح في الطائرة؟", answer: "نعم! سعته 37 واط/ساعة أقل بكثير من حد TSA/IATA (100Wh). يمكنك حمله بأمان في حقيبة اليد." },
                     { question: "هل يأتي مع كابل شحن؟", answer: "نعم، يشمل كابل Micro-USB قصير لشحن الباور بانك نفسه. ننصح بكابل USB-C لشحن هاتفك." },
-                    { question: "كم وقت شحن باور بانك جوي روم 10000؟", answer: "بشاحن 18 واط: 3-4 ساعات. بشاحن 5 واط عادي: 6-8 ساعات. ننصح بشاحن سريع لتوفير الوقت." },
-                    { question: "ما ضمان باور بانك جوي روم في مصر؟", answer: "ضمان 12 شهر من CairoVolt يغطي عيوب الصناعة مع استبدال فوري." },
-                    { question: "أين أشتري باور بانك جوي روم 10000 الأصلي؟", answer: "اشتري من CairoVolt - موزع معتمد. توصيل سريع للقاهرة، ضمان 12 شهر، دفع عند الاستلام." }
+                    { question: "كم وقت شحن باور بانك جوي روم 10000؟", answer: "بشاحن 18 واط: 3-4 ساعات. بشاحن 5 واط عادي: 6-8 ساعات. ننصح بشاحن سريع لتوفير الوقت." }
                 ]
             }
         },

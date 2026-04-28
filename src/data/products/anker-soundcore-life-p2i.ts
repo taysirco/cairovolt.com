@@ -76,7 +76,7 @@ export const anker_soundcore_life_p2i = {
     </ul>
 </div>
 `,
-                features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 18-Month Anker Warranty"],
+                features: ["🎧 28H Total Playtime", "🤖 AI Dual-Mic Calls", "🎵 Dual EQ (Bass/Podcast)", "⚡ 10 Min = 1H Fast Charge", "📱 Bluetooth 5.2", "🔊 10mm Large Drivers", "🏆 18-Month Anker Warranty", "🔒 FCC + CE + IPX5 Certified → Global Safety Standards"],
                 metaTitle: "Anker Soundcore Life P2i ⚡ 25% OFF | 28h + Clear Calls | COD",
                 metaDesc: "Buy Anker Soundcore Life P2i in Egypt. 28H battery, AI dual-mic calls, dual EQ, 10-min fast charge. Best value TWS. 18-month Anker warranty.",
                 faqs: [
@@ -144,7 +144,7 @@ export const anker_soundcore_life_p2i = {
     </ul>
 </div>
 `,
-                features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 ضمان انكر 18 شهر"],
+                features: ["🎧 28 ساعة بطارية", "🤖 مكالمات AI بميكروفونين", "🎵 EQ مزدوج (Bass/Podcast)", "⚡ 10 دقائق = ساعة", "📱 Bluetooth 5.2", "🔊 10mm سماعات كبيرة", "🏆 ضمان انكر 18 شهر", "🔒 معتمد FCC + CE + IPX5 → معايير السلامة العالمية"],
                 metaTitle: "سماعة انكر Life P2i ⚡ خصم 25% | 28 ساعة + مكالمات واضحة",
                 metaDesc: "اشتري سماعات انكر Life P2i في مصر. 28 ساعة، مكالمات AI بميكروفونين، EQ مزدوج، شحن سريع 10 دقائق. ضمان انكر 18 شهر.",
                 faqs: [

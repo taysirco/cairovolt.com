@@ -81,7 +81,7 @@ export const anker_nano_45w = {
     </ul>
 </div>
 `,
-                features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty"],
+                features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
                 metaTitle: "Anker 45W GaN Charger ⚡ 28% OFF | Laptop + iPhone | COD",
                 metaDesc: "Buy Anker Nano 45W GaN charger in Egypt. Charges MacBook Air + iPhone 17 + Samsung S26 at full speed. 60% smaller. 24-month warranty. Fast Cairo delivery.",
                 faqs: [
@@ -150,7 +150,7 @@ export const anker_nano_45w = {
     </ul>
 </div>
 `,
-                features: ["⚡ 45 واط GaN III", "💻 ماك بوك اير بالسرعة الكاملة", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 2.0", "📏 أصغر 60% من التقليدي", "🏆 ضمان 24 شهر"],
+                features: ["⚡ 45 واط GaN III", "💻 ماك بوك اير بالسرعة الكاملة", "📱 ايفون 17 بأقصى 30 واط", "📱 سامسونج S26 سوبر فاست 2.0", "📏 أصغر 60% من التقليدي", "🏆 ضمان 24 شهر", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية"],
                 metaTitle: "شاحن انكر 45 واط GaN ⚡ خصم 28% | لابتوب + ايفون | مصر",
                 metaDesc: "اشتري شاحن انكر نانو 45 واط GaN في مصر. يشحن ماك بوك اير + ايفون 17 + سامسونج S26 بأقصى سرعة. أصغر 60%. ضمان 24 شهر. توصيل سريع.",
                 faqs: [

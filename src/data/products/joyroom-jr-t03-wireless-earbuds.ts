@@ -77,7 +77,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">NO active noise cancellation (ANC). Not suitable for very loud environments. IPX4 means splash-resistant, NOT swim-proof. Ear tips may need replacement after 6+ months. Touch controls have a learning curve. احذر من السماعات المقلدة — جودة صوت سيئة وبطارية بتنفد في ساعة.</p></div>
 `,
-                features: ["🎧 20H Total Playtime", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Mic", "🎵 Stereo Sound", "💰 Best Budget Price", "🏆 12-Month Warranty"],
+                features: ["🎧 20H Total Playtime", "👆 Touch Controls", "📱 Bluetooth 5.0", "🎤 Built-in Mic", "🎵 Stereo Sound", "💰 Best Budget Price", "🏆 12-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
                 metaTitle: "Joyroom JR-T03 Earbuds ⚡ Budget Bluetooth | Official | COD",
                 metaDesc: "Buy Joyroom JR-T03 wireless earbuds in Egypt. 20H battery, touch controls, Bluetooth 5.0, built-in mic. Best budget TWS. 12-month warranty.",
                 faqs: [
@@ -139,7 +139,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">مفيش عزل ضوضاء نشط (ANC). مش مناسبة للبيئات الصاخبة جداً. IPX4 يعني مقاومة رذاذ، مش مقاومة غطس. أطراف الأذن ممكن تحتاج استبدال بعد 6+ شهور. التحكم باللمس محتاج تعوّد.</p></div>
 `,
-                features: ["🎧 20 ساعة بطارية", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💰 أفضل سعر", "🏆 ضمان 12 شهر"],
+                features: ["🎧 20 ساعة بطارية", "👆 تحكم باللمس", "📱 Bluetooth 5.0", "🎤 ميكروفون مدمج", "🎵 صوت ستيريو", "💰 أفضل سعر", "🏆 ضمان 12 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
                 metaTitle: "سماعة جوي روم JR-T03 ⚡ أرخص سماعة بلوتوث أصلية | COD مصر",
                 metaDesc: "اشتري سماعة جوي روم JR-T03 في مصر. 20 ساعة، تحكم باللمس، Bluetooth 5.0، ميكروفون مدمج. أفضل سماعات اقتصادية. ضمان 12 شهر. سماعة joyroom.",
                 faqs: [

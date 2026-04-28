@@ -85,8 +85,7 @@ export const anker_powerport_25w = {
                     "📱 iPhone 17: 0-50% in 28 Minutes",
                     "🛡️ ActiveShield 2.0 (3M Temp Checks/Day)",
                     "📏 Compact 4.5cm Design",
-                    "🏆 18-Month Warranty (vs Samsung's 12)"
-                ],
+                    "🏆 18-Month Warranty (vs Samsung's 12)", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
                 metaTitle: "Anker 25W PPS Charger ⚡ 15% OFF | Super Fast Samsung | COD",
                 metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [
@@ -97,9 +96,7 @@ export const anker_powerport_25w = {
                     { question: "How does Anker 25W compare to Samsung original charger?", answer: "Same 25W PPS speed. Anker is more compact, longer warranty (18 vs 12 months), and better value." },
                     { question: "Is Anker 25W safe for battery health?", answer: "Yes, ActiveShield 2.0 monitors temperature 3 million times daily, protecting devices from overheating." },
                     { question: "Does Anker 25W come with a cable?", answer: "No, charger only. Use a quality USB-C to USB-C cable for full 25W speed." },
-                    { question: "Does Anker 25W get hot during charging?", answer: "No, efficient thermal design with ActiveShield keeps it cool even at full 25W output." },
-                    { question: "What is the warranty for Anker 25W in Egypt?", answer: "18-month warranty from CairoVolt—longer than Samsung original. Covers defects with instant replacement." },
-                    { question: "Where to buy original Anker 25W in Egypt?", answer: "Buy from CairoVolt—authorized distributor. EGP 550, 18-month warranty, next-day Cairo delivery." }
+                    { question: "Does Anker 25W get hot during charging?", answer: "No, efficient thermal design with ActiveShield keeps it cool even at full 25W output." }
                 ]
             },
             ar: {
@@ -165,8 +162,7 @@ export const anker_powerport_25w = {
                     "📱 ايفون 17: 0-50% في 28 دقيقة",
                     "🛡️ ActiveShield 2.0 (3 مليون فحص/يوم)",
                     "📏 صغير 4.5 سم",
-                    "🏆 ضمان 18 شهر (ضد 12 من سامسونج)"
-                ],
+                    "🏆 ضمان 18 شهر (ضد 12 من سامسونج)", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية"],
                 metaTitle: "شاحن انكر 25 واط ⚡ خصم 15% | سوبر فاست سامسونج | مصر",
                 metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بـ 550 جنيه. سامسونج S26 سوبر فاست 0-50% في 26 دقيقة. متوافق ايفون 17. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
@@ -177,9 +173,7 @@ export const anker_powerport_25w = {
                     { question: "ما الفرق بين شاحن انكر 25 واط وشاحن سامسونج الأصلي؟", answer: "نفس السرعة (25W PPS). انكر أصغر حجماً، ضمان أطول (18 شهر vs 12)، وسعر أفضل من الأصلي." },
                     { question: "هل شاحن انكر 25 واط آمن على البطارية؟", answer: "نعم، تقنية ActiveShield 2.0 تراقب درجة الحرارة 3 مليون مرة/يوم لحماية أجهزتك من الحرارة الزائدة." },
                     { question: "هل شاحن انكر 25 واط يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. استخدم كابل USB-C to USB-C عالي الجودة للحصول على السرعة الكاملة." },
-                    { question: "هل شاحن انكر 25 واط يسخن؟", answer: "لا، تصميم فعال للحرارة مع ActiveShield يضمن بقاء الشاحن بارداً حتى عند 25 واط كاملة." },
-                    { question: "ما ضمان شاحن انكر 25 واط في مصر؟", answer: "ضمان 18 شهر من CairoVolt - أطول من ضمان سامسونج الأصلي. يغطي عيوب الصناعة مع استبدال فوري." },
-                    { question: "أين أشتري شاحن انكر 25 واط الأصلي في مصر؟", answer: "اشتري من CairoVolt - الموزع المعتمد. سعر 550 جنيه، ضمان 18 شهر، توصيل القاهرة يوم واحد." }
+                    { question: "هل شاحن انكر 25 واط يسخن؟", answer: "لا، تصميم فعال للحرارة مع ActiveShield يضمن بقاء الشاحن بارداً حتى عند 25 واط كاملة." }
                 ]
             }
         },

@@ -77,7 +77,7 @@ export const anker_soundcore_motion_plus = {
     </ul>
 </div>
 `,
-                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 18-Month Warranty"],
+                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 18-Month Warranty", "🔒 FCC + CE + IPX7 Certified → Global Safety Standards"],
                 metaTitle: "Anker Soundcore Motion+ ⚡ 16% OFF | 30W Hi-Res Audio | COD",
                 metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from CairoVolt & Fast Delivery.",
                 faqs: [
@@ -144,7 +144,7 @@ export const anker_soundcore_motion_plus = {
     </ul>
 </div>
 `,
-                features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية 12 ساعة (6700mAh)", "💧 مقاومة ماء IPX7", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ", "🏆 ضمان 18 شهر"],
+                features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية 12 ساعة (6700mAh)", "💧 مقاومة ماء IPX7", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE + IPX7 → معايير السلامة العالمية"],
                 metaTitle: "سماعة انكر Motion+ ⚡ خصم 16% | صوت 30 واط Hi-Res | COD مصر",
                 metaDesc: "اشتري سماعة Anker Motion+ الأصلية في مصر. صوت ستيريو 30 وات، مقاومة للماء IPX7، بطارية 12 ساعة. ضمان 18 شهر من كايرو فولت وتوصيل سريع.",
                 faqs: [

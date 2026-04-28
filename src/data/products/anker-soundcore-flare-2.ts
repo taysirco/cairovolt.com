@@ -75,7 +75,7 @@ export const anker_soundcore_flare_2 = {
     </ul>
 </div>
 `,
-                features: ["🔊 20W 360° Sound (10W×2)", "💡 Beat-Synced LED Light Show", "💧 IPX7 Waterproof", "🔗 PartyCast (Link 100+)", "🎚️ Soundcore App EQ", "📱 Bluetooth 5.0", "🏆 18-Month Warranty"],
+                features: ["🔊 20W 360° Sound (10W×2)", "💡 Beat-Synced LED Light Show", "💧 IPX7 Waterproof", "🔗 PartyCast (Link 100+)", "🎚️ Soundcore App EQ", "📱 Bluetooth 5.0", "🏆 18-Month Warranty", "🔒 FCC + CE + IPX7 Certified → Global Safety Standards"],
                 metaTitle: "Anker Soundcore Flare 2 ⚡ 12% OFF | 360° Sound + LED | COD",
                 metaDesc: "Buy Anker Soundcore Flare 2 in Egypt. 20W 360° sound, beat-synced LED lights, IPX7 waterproof. Link 100+ speakers. 18-Month Warranty & fast delivery.",
                 faqs: [
@@ -143,7 +143,7 @@ export const anker_soundcore_flare_2 = {
     </ul>
 </div>
 `,
-                features: ["🔊 صوت 20 وات 360° (10×2)", "💡 إضاءة LED متزامنة مع الإيقاع", "💧 مقاومة ماء IPX7", "🔗 PartyCast (ربط 100+ سماعة)", "🎚️ تطبيق Soundcore للتحكم", "📱 بلوتوث 5.0", "🏆 ضمان 18 شهر"],
+                features: ["🔊 صوت 20 وات 360° (10×2)", "💡 إضاءة LED متزامنة مع الإيقاع", "💧 مقاومة ماء IPX7", "🔗 PartyCast (ربط 100+ سماعة)", "🎚️ تطبيق Soundcore للتحكم", "📱 بلوتوث 5.0", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE + IPX7 → معايير السلامة العالمية"],
                 metaTitle: "مكبر صوت انكر Flare 2 ⚡ خصم 12% | صوت 360° + LED | COD مصر",
                 metaDesc: "اشتري مكبر صوت Soundcore Flare 2 في مصر. صوت 20 وات 360°، إضاءة LED متفاعلة، IPX7 ضد الماء. ربط 100+ سماعة. ضمان 18 شهر وتوصيل سريع.",
                 faqs: [

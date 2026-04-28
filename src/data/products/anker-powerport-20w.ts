@@ -98,10 +98,7 @@ export const anker_powerport_20w = {
                     { question: "Is Anker 20W safe for battery?", answer: "Yes, MultiProtect system provides 10-layer protection: from overheating, short circuit, and overcharging." },
                     { question: "Does Anker 20W come with cable?", answer: "No, charger only without cable. We recommend Anker USB-C to Lightning cable for full speed." },
                     { question: "How to identify original vs fake Anker charger?", answer: "Original comes with: QR verification code, precise Anker logo, 18-month warranty card. CairoVolt is authorized distributor." },
-                    { question: "What is the warranty for Anker 20W in Egypt?", answer: "18-month warranty from CairoVolt—double the standard. Covers manufacturing defects with instant replacement." },
-                    { question: "Does Anker 20W support iPad?", answer: "Yes, charges iPad mini and iPad Air. For faster iPad Pro charging, we recommend 30W or higher." },
-                    { question: "How long is delivery for Anker charger in Egypt?", answer: "Cairo & Giza: 1 day. Alexandria: 2-3 days. Other governorates: 3-5 days. Cash on delivery available." },
-                    { question: "Where to buy original Anker 20W charger in Egypt?", answer: "Buy from CairoVolt—authorized distributor. Free Cairo delivery, 18-month warranty, cash on delivery." }
+                    { question: "What is the warranty for Anker 20W in Egypt?", answer: "18-month warranty from CairoVolt—double the standard. Covers manufacturing defects with instant replacement." }
                 ]
             },
             ar: {
@@ -180,10 +177,7 @@ export const anker_powerport_20w = {
                     { question: "هل شاحن انكر 20 وات آمن على البطارية؟", answer: "نعم، نظام MultiProtect يوفر 10 طبقات حماية: من الحرارة الزائدة، التيار القصير، والشحن الزائد." },
                     { question: "هل شاحن انكر 20 وات يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. ننصح بكابل Anker USB-C to Lightning للحصول على السرعة الكاملة." },
                     { question: "كيف أعرف شاحن انكر الأصلي من التقليد؟", answer: "الأصلي يأتي مع: كود QR للتحقق، شعار Anker مطبوع بدقة، كارت ضمان 18 شهر. CairoVolt موزع معتمد." },
-                    { question: "ما ضمان شاحن انكر 20 وات في مصر؟", answer: "ضمان 18 شهر من CairoVolt - ضعف المعيار. يغطي عيوب الصناعة مع استبدال فوري." },
-                    { question: "هل شاحن انكر 20 وات يدعم iPad؟", answer: "نعم، يشحن iPad mini و iPad Air. للشحن الأسرع لـ iPad Pro، ننصح بشاحن 30 واط أو أعلى." },
-                    { question: "كم مدة توصيل شاحن انكر في مصر؟", answer: "القاهرة والجيزة: يوم واحد. الإسكندرية: 2-3 أيام. المحافظات: 3-5 أيام. دفع عند الاستلام متاح." },
-                    { question: "أين أشتري شاحن انكر 20 وات الأصلي في مصر؟", answer: "اشتري من CairoVolt - الموزع المعتمد. توصيل مجاني للقاهرة، ضمان 18 شهر، دفع عند الاستلام." }
+                    { question: "ما ضمان شاحن انكر 20 وات في مصر؟", answer: "ضمان 18 شهر من CairoVolt - ضعف المعيار. يغطي عيوب الصناعة مع استبدال فوري." }
                 ]
             }
         },

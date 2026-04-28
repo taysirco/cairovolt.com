@@ -110,9 +110,7 @@ export const anker_powercore_20000 = {
                     { question: "Is Anker 20000mAh allowed on airplanes?", answer: "Yes! The Anker 20000mAh (72Wh) is TSA/IATA approved for air travel. It's well below the 100Wh limit. You must carry it in hand luggage, not checked baggage." },
                     { question: "Should I buy 10000mAh or 20000mAh Anker power bank?", answer: "Choose 10000mAh for daily pocket carry (lighter at 180g, 2 iPhone charges). Choose 20000mAh for travel, heavy usage, or multiple devices (4 iPhone charges, 356g). The price difference is minimal for double the capacity." },
                     { question: "What is the warranty for Anker 20000 in Egypt?", answer: "CairoVolt provides 24-month warranty for Anker PowerCore 20000 in Egypt - double the industry standard! Warranty covers manufacturing defects and battery issues. We offer instant replacement." },
-                    { question: "Does Anker 20000mAh support fast charging?", answer: "The PowerCore 20000 supports PowerIQ and VoltageBoost for optimized charging up to 2.4A per port. For USB-C PD fast charging, consider Anker 737 (140W) or Anker Prime (200W) models." },
-                    { question: "How to identify original Anker 20000 vs fake?", answer: "Original Anker comes with: 1) QR verification code on box, 2) 24-month warranty card, 3) High-quality Anker logo embossing, 4) Proper weight (356g). CairoVolt guarantees 100% authentic products." },
-                    { question: "Where to buy original Anker 20000mAh in Egypt?", answer: "Buy original Anker 20000mAh from CairoVolt - authorized distributor in Egypt. We offer free delivery to Cairo & Giza, cash on delivery, and 24-month warranty. All products are 100% genuine with verification." }
+                    { question: "Does Anker 20000mAh support fast charging?", answer: "The PowerCore 20000 supports PowerIQ and VoltageBoost for optimized charging up to 2.4A per port. For USB-C PD fast charging, consider Anker 737 (140W) or Anker Prime (200W) models." }
                 ]
             },
             ar: {
@@ -193,9 +191,7 @@ export const anker_powercore_20000 = {
                     { question: "هل باور بانك انكر 20000 مسموح في الطائرة؟", answer: "نعم! باور بانك انكر 20000 (72 واط/ساعة) معتمد للسفر بالطائرة حسب قوانين TSA/IATA. السعة أقل من حد 100 واط/ساعة المسموح. يجب حمله في حقيبة اليد وليس الأمتعة المسجلة." },
                     { question: "هل أختار 10000 أم 20000 مللي أمبير؟", answer: "اختر 10000 للحمل اليومي في الجيب (أخف بوزن 180 جرام، شحنتين للايفون). اختر 20000 للسفر والاستخدام المكثف (4 شحنات للايفون، 356 جرام). فرق السعر بسيط مقابل ضعف السعة." },
                     { question: "ما ضمان باور بانك انكر 20000 في مصر؟", answer: "CairoVolt توفر ضمان 24 شهر لباور بانك انكر 20000 في مصر - ضعف المعيار! الضمان يغطي عيوب الصناعة ومشاكل البطارية. نوفر استبدال فوري." },
-                    { question: "هل باور بانك انكر 20000 يدعم الشحن السريع؟", answer: "باور بانك انكر 20000 يدعم PowerIQ و VoltageBoost للشحن المحسن حتى 2.4 أمبير لكل منفذ. للشحن السريع USB-C PD، راجع موديل انكر 737 (140 واط) أو انكر Prime (200 واط)." },
-                    { question: "كيف أفرق بين انكر 20000 الأصلي والتقليد؟", answer: "انكر الأصلي يأتي مع: 1) كود QR للتحقق على العلبة، 2) كارت ضمان 24 شهر، 3) شعار انكر مطبوع بجودة عالية، 4) وزن صحيح (356 جرام). CairoVolt تضمن منتجات أصلية 100%." },
-                    { question: "أين أشتري باور بانك انكر 20000 الأصلي في مصر؟", answer: "اشتري باور بانك انكر 20000 الأصلي من CairoVolt - الموزع المعتمد في مصر. نوفر توصيل مجاني للقاهرة والجيزة، دفع عند الاستلام، وضمان 24 شهر. جميع المنتجات أصلية 100% مع كود تحقق." }
+                    { question: "هل باور بانك انكر 20000 يدعم الشحن السريع؟", answer: "باور بانك انكر 20000 يدعم PowerIQ و VoltageBoost للشحن المحسن حتى 2.4 أمبير لكل منفذ. للشحن السريع USB-C PD، راجع موديل انكر 737 (140 واط) أو انكر Prime (200 واط)." }
                 ]
             }
         },

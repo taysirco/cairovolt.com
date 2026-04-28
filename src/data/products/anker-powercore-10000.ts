@@ -48,9 +48,7 @@ export const anker_powercore_10000 = {
                     { question: "Can I take Anker 10000 on airplane?", answer: "Yes! 10000mAh (37Wh) is allowed on all flights. TSA/IATA limit is 100Wh. Carry in hand luggage." },
                     { question: "What is the best cable for Anker 10000?", answer: "Anker USB-C to USB-C cable ensures maximum 22.5W charging speed. Available with 15% bundle discount." },
                     { question: "How long to recharge Anker 10000 itself?", answer: "With 20W charger: 3-4 hours. With standard 5W: 8-10 hours. We recommend Anker 20W or higher." },
-                    { question: "What is the difference between Anker 10000 and 20000?", answer: "10000: Lighter (180g), 2 charges, ideal for daily pocket carry. 20000: Heavier (356g), 4 charges, for long trips." },
-                    { question: "How long is delivery in Egypt?", answer: "Cairo & Giza: 1 day. Alexandria: 2-3 days. Other governorates: 3-5 days. Cash on delivery available." },
-                    { question: "Does Anker 10000 support wireless charging?", answer: "PowerCore 10000 is wired only. For wireless charging, choose the MagGo magnetic model." }
+                    { question: "How long is delivery in Egypt?", answer: "Cairo & Giza: 1 day. Alexandria: 2-3 days. Other governorates: 3-5 days. Cash on delivery available." }
                 ]
             },
             ar: {
@@ -77,10 +75,7 @@ export const anker_powercore_10000 = {
                     { question: "هل باور بانك انكر 10000 أصلي في مصر؟", answer: "نعم، جميع منتجات CairoVolt أصلية 100% مع كود تحقق على موقع انكر الرسمي وضمان 18 شهر." },
                     { question: "هل يمكن أخذ باور بانك انكر 10000 على الطائرة؟", answer: "نعم! سعة 10000mAh (37Wh) مسموحة على جميع الطائرات. الحد 100Wh. احمله في حقيبة اليد." },
                     { question: "ما أفضل كابل لباور بانك انكر 10000؟", answer: "كابل USB-C to USB-C من انكر يضمن أقصى سرعة 22.5 واط. متوفر مع خصم 15% عند الشراء معاً." },
-                    { question: "كم وقت شحن باور بانك انكر 10000 نفسه؟", answer: "بشاحن 20 واط: 3-4 ساعات. بشاحن 5 واط عادي: 8-10 ساعات. ننصح بشاحن 20 واط أو أعلى." },
-                    { question: "ما الفرق بين انكر 10000 و 20000؟", answer: "10000: أخف (180 جم)، شحنتين، مثالي للجيب اليومي. 20000: أثقل (356 جم)، 4 شحنات، للرحلات الطويلة." },
-                    { question: "كم مدة توصيل باور بانك انكر في مصر؟", answer: "القاهرة والجيزة: يوم واحد. الإسكندرية: 2-3 أيام. باقي المحافظات: 3-5 أيام. دفع عند الاستلام متاح." },
-                    { question: "هل يدعم باور بانك انكر 10000 الشحن اللاسلكي؟", answer: "موديل PowerCore 10000 العادي سلكي فقط. للشحن اللاسلكي، اختر موديل MagGo المغناطيسي." }
+                    { question: "كم وقت شحن باور بانك انكر 10000 نفسه؟", answer: "بشاحن 20 واط: 3-4 ساعات. بشاحن 5 واط عادي: 8-10 ساعات. ننصح بشاحن 20 واط أو أعلى." }
                 ]
             }
         },

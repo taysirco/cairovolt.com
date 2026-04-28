@@ -67,7 +67,7 @@ export const anker_nano_45w_smart_display_charger = {
     <p class="text-gray-700">Smart Display chargers are prime counterfeiting targets due to high demand. Fake versions use cheap TN panels that show incorrect wattage, lack Care Mode certification, and may overheat. Always verify at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> using the scratch-off security label.</p>
 </div>
 `,
-            features: ["⚡ 45W GaN USB-C Charger", "📺 Smart Display with AI", "📱 iPhone 0→50% in 20 Min", "🔄 180° Foldable Plug", "🛡️ TÜV Care Mode", "🏆 Red Dot 2026", "💤 Overnight Protection", "🌍 100-240V Universal", "🏆 18-Month Warranty"],
+            features: ["⚡ 45W GaN USB-C Charger", "📺 Smart Display with AI", "📱 iPhone 0→50% in 20 Min", "🔄 180° Foldable Plug", "🛡️ TÜV Care Mode", "🏆 Red Dot 2026", "💤 Overnight Protection", "🌍 100-240V Universal", "🏆 18-Month Warranty", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
             metaTitle: "Anker Nano 45W Smart Display ⚡ 30% OFF | Care Mode | COD",
             metaDesc: "Buy Anker Nano 45W Smart Display GaN Charger (A121D) in Egypt. iPhone 17 Pro 0→50% in 20 min. 180° foldable plug. TÜV Care Mode. ✓ 18-Month Warranty ✓ COD.",
             faqs: [
@@ -121,7 +121,7 @@ export const anker_nano_45w_smart_display_charger = {
     <p class="text-gray-700">شواحن الشاشة الذكية هدف رئيسي للتقليد بسبب الطلب العالي. النسخ المقلدة بتستخدم شاشات TN رخيصة بتعرض واط غلط ومفيهاش وضع العناية المعتمد وممكن تسخن. تأكد دايماً من أصالة منتج أنكر على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> باستخدام ملصق الأمان على العلبة.</p>
 </div>
 `,
-            features: ["⚡ شاحن 45 واط GaN", "📺 شاشة ذكية AI", "📱 ايفون 0→50% في 20 دقيقة", "🔄 قابس 180°", "🛡️ وضع العناية TÜV", "🏆 Red Dot 2026", "💤 حماية ليلية", "🌍 100-240V عالمي", "🏆 ضمان 18 شهر"],
+            features: ["⚡ شاحن 45 واط GaN", "📺 شاشة ذكية AI", "📱 ايفون 0→50% في 20 دقيقة", "🔄 قابس 180°", "🛡️ وضع العناية TÜV", "🏆 Red Dot 2026", "💤 حماية ليلية", "🌍 100-240V عالمي", "🏆 ضمان 18 شهر", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية"],
             metaTitle: "شاحن انكر نانو 45 واط شاشة ذكية ⚡ خصم 30% | وضع العناية",
             metaDesc: "اشتري شاحن انكر نانو 45 واط بشاشة ذكية (A121D) في مصر. ايفون 17 برو من 0 لـ 50% في 20 دقيقة. قابس 180°. وضع عناية TÜV. ✓ ضمان 18 شهر ✓ توصيل سريع.",
             faqs: [

@@ -61,7 +61,7 @@ export const anker_soundcore_r50i = {
     <p class="text-gray-700">Fake Soundcore earbuds rampant on social media sell for 150-200 EGP with recycled drivers that distort above 50% volume. Genuine R50i has Bluetooth 5.3, not 5.0/5.1. Always verify at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value", "🏆 18-Month Warranty"],
+                features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value", "🏆 18-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
                 metaTitle: "Anker Soundcore R50i ⚡ 27% OFF | 30h Battery Life | COD",
                 metaDesc: "Buy Anker R50i in Egypt. 10mm BassUp drivers, 30h battery, AI ENC calls. Best-value wireless earbuds. ✓ 18-Month Warranty ✓ Fast Delivery. anker soundcore r50i.",
                 faqs: [
@@ -111,7 +111,7 @@ export const anker_soundcore_r50i = {
     <p class="text-gray-700">سماعات Soundcore مقلدة منتشرة على السوشيال ميديا ب~150-200 جنيه بدرايفرات مستعملة بتشوّه فوق 50% صوت. الـ R50i الأصلية فيها بلوتوث 5.3 مش 5.0/5.1. تأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق Soundcore", "💰 أفضل قيمة", "🏆 ضمان 18 شهر"],
+                features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق Soundcore", "💰 أفضل قيمة", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
                 metaTitle: "سماعة انكر Soundcore R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [

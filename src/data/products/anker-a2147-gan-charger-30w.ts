@@ -55,7 +55,7 @@ export const anker_a2147_gan_charger_30w = {
     <p class="text-gray-700">GaN chargers are prime targets for counterfeiting because the technology is expensive. Fake "GaN" chargers use regular silicon with GaN labels — they overheat, deliver inconsistent voltage, and can damage your phone's battery permanently. Always verify your Anker product at <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> using the scratch-off security label on the box.</p>
 </div>
 `,
-                features: ["⚡ 30W GaN USB-C Charger", "🔬 70% Smaller than Standard", "📱 iPhone 0→50% in 21 Min", "🧠 IQ3 Smart Charging", "🔌 Foldable Plug", "🛡️ ActiveShield 2.0", "🏆 24-Month Warranty", "🌍 100-240V Universal"],
+                features: ["⚡ 30W GaN USB-C Charger", "🔬 70% Smaller than Standard", "📱 iPhone 0→50% in 21 Min", "🧠 IQ3 Smart Charging", "🔌 Foldable Plug", "🛡️ ActiveShield 2.0", "🏆 24-Month Warranty", "🌍 100-240V Universal", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
                 metaTitle: "Anker 511 Nano 3 GaN 30W ⚡ 9% OFF | Ultra Compact | COD",
                 metaDesc: "Buy Anker 511 Nano 3 (A2147) GaN 30W charger in Egypt. 70% smaller! iPhone 17 Pro 0→50% in 21 min. IQ3 + ActiveShield 2.0. ✓ 24-Month Warranty ✓ Fast Delivery.",
                 faqs: [
@@ -109,7 +109,7 @@ export const anker_a2147_gan_charger_30w = {
     <p class="text-gray-700">شواحن GaN هدف رئيسي للتقليد لأن التقنية غالية. الشواحن المقلدة بتستخدم سيليكون عادي بلصق GaN — بتسخن، بتوفر فولتية غير مستقرة، وممكن تتلف بطارية موبايلك نهائياً. تأكد دايماً من أصالة منتج أنكر على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a> باستخدام ملصق الأمان على العلبة.</p>
 </div>
 `,
-                features: ["⚡ شاحن GaN بقوة 30 واط", "🔬 أصغر 70% من العادي", "📱 ايفون 0→50% في 21 دقيقة", "🧠 شحن ذكي IQ3", "🔌 قابس قابل للطي", "🛡️ ActiveShield 2.0", "🏆 ضمان 24 شهر", "🌍 دخل 100-240V عالمي"],
+                features: ["⚡ شاحن GaN بقوة 30 واط", "🔬 أصغر 70% من العادي", "📱 ايفون 0→50% في 21 دقيقة", "🧠 شحن ذكي IQ3", "🔌 قابس قابل للطي", "🛡️ ActiveShield 2.0", "🏆 ضمان 24 شهر", "🌍 دخل 100-240V عالمي", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية"],
                 metaTitle: "شاحن انكر 30 واط GaN الأصلي ⚡ خصم 9% | أصغر شاحن سريع",
                 metaDesc: "اشتري شاحن انكر 511 نانو 3 (A2147) GaN بقوة 30 واط في مصر. أصغر 70%! ايفون 17 برو من 0 لـ 50% في 21 دقيقة. IQ3 + ActiveShield 2.0. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
