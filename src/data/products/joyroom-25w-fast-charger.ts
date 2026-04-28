@@ -10,16 +10,16 @@ export const joyroom_25w_fast_charger = {
         mpn: "JR-TCF25",
         price: 342,
         originalPrice: 350,
-        stock: 3121,
+        stock: 1058,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم 25 واط اصلي في مصر - توصيل سريع القاهرة", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Best Price Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 25W USB-C Charger iPhone 17 Compatible", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-8.webp", alt: "شاحن جوي روم سريع 25 واط - ضمان سنتين مصر", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 25W Fast Charger - Original Sealed | Fast Egypt Delivery - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-4.webp", alt: "شاحن جوي روم 25 واط اصلي في مصر - توصيل سريع القاهرة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 25W PD Charger - Best Price Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-6.webp", alt: "شاحن 25 واط للايفون 17 والسامسونج S26 - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 25W USB-C Charger iPhone 17 Compatible - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-25w-fast-charger/joyroom-joyroom-25w-fast-charger-egypt-cairo-8.webp", alt: "شاحن جوي روم سريع 25 واط - ضمان سنتين مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -87,7 +87,7 @@ export const joyroom_25w_fast_charger = {
             },
             ar: {
                 name: "شاحن جوي روم 25 واط PD | الشاحن الوحيد اللي هتحتاجه للبيت كله | ضمان 36 شهر",
-                shortDescription: "شاحن واحد بيخلص مشاكل البيت ⚡ 25 واط بيشحن ايفون وسامسونج بسرعة جبارة | 🛡️ مبيهنجش التاتش زي الشواحن المضروبة | 🏆 ضمان 3 سنين كاملين",
+                shortDescription: "شاحن واحد بيخلص مشاكل البيت | ⚡ 25 واط بيشحن ايفون وسامسونج بسرعة جبارة | 🛡️ مبيهنجش التاتش زي الشواحن المضروبة | 🏆 ضمان 3 سنين كاملين",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 25 واط PD 3.0</strong> هو "شاحن العيلة" — شاحن واحد لايفون 17 وسامسونج S26. <strong>0→50% في 25 دقيقة</strong> للايفون، سوبر فاست لسامسونج. ضمان 36 شهر. بـ 342 جنيه، بيغنيك عن شراء 2 شاحنين منفصلين. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">

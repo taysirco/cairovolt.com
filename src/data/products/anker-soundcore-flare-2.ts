@@ -10,19 +10,19 @@ export const anker_soundcore_flare_2 = {
         mpn: "A3165011",
         price: 2999,
         originalPrice: 3400,
-        stock: 2645,
+        stock: 629,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-ipx7-waterproof-pool-outdoor.webp", alt: "سماعة انكر فلير 2 مقاومة للماء IPX7 - استخدام حمام سباحة وأماكن مفتوحة", order: 0, isPrimary: true, width: 1024, height: 1024 },
+            { id: "img_1", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-ipx7-waterproof-pool-outdoor.webp", alt: "سماعة انكر فلير 2 مقاومة للماء IPX7 - استخدام حمام سباحة وأماكن مفتوحة - كايرو فولت", order: 0, isPrimary: true, width: 1024, height: 1024 },
             { id: "img_2", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-bluetooth-speaker-360-led-cairovolt.webp", alt: "سماعة انكر ساوندكور فلير 2 بلوتوث 360 درجة مع إضاءة LED - كايرو فولت", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-led-light-ring-360-ambient.webp", alt: "Anker Soundcore Flare 2 LED light ring 360-degree ambient lighting effect", order: 2, isPrimary: false, width: 684, height: 1372 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-package-box-contents-cable.webp", alt: "Anker Flare 2 package box contents with USB-C cable and user guide - Egypt", order: 3, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_3", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-led-light-ring-360-ambient.webp", alt: "Anker Soundcore Flare 2 LED light ring 360-degree ambient lighting effect - CairoVolt", order: 2, isPrimary: false, width: 684, height: 1372 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-package-box-contents-cable.webp", alt: "Anker Flare 2 package box contents with USB-C cable and user guide - Egypt - CairoVolt", order: 3, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
                 name: "Anker Soundcore Flare 2 | 360° Sound & LED Light Show | 18-Month Warranty",
-                shortDescription: "🔊 360° party speaker with LED light show | CairoVolt PartyCast test: 3 speakers synced in 1.2s across 500m² | IPX7 waterproof",
+                shortDescription: "🔊 360° Party Speaker + LED Light Show | 🏊 IPX7 Waterproof | 🔗 PartyCast Multi-Speaker Sync | 🔋 12-Hour Battery",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">Unlike cheap Bluetooth speakers that distort at high volume, The <strong>Anker Soundcore Flare 2 (A3165)</strong> is a 20W 360° Bluetooth speaker with beat-synced LED light rings. IPX7 waterproof (survives submersion), BassUp™ technology, PartyCast for linking 100+ speakers. Bluetooth 5.0, Soundcore app EQ. Perfect party/pool speaker. EGP 2,999, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
@@ -38,7 +38,7 @@ export const anker_soundcore_flare_2 = {
         <li>💡 <strong>Light Show:</strong> Beat-driven dual LED rings that sync with your music.</li>
         <li>💧 <strong>Waterproof:</strong> IPX7 rated — survives full submersion.</li>
         <li>🔗 <strong>PartyCast:</strong> Sync 100+ speakers for massive sound coverage.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>5.55 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>5.55 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>5.55 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">

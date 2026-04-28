@@ -21,7 +21,7 @@ export const anker_speakers_content: CategoryContent = {
                     title: 'مكبرات صوت انكر Soundcore',
                     subtitle: 'Anker Soundcore Speakers - صوت Hi-Res عالي الدقة',
                     description: `
-على عكس السماعات الرخيصة اللي صوتها بيتشوه على Volume 80% — سماعات **Anker Soundcore** معتمدة Hi-Res Audio بقوة 30 واط. صوت نقي. باس حقيقي. 24 ساعة تشغيل.
+على عكس السماعات الرخيصة اللي صوتها بيتشوه على Volume 80% — سماعات **Anker Soundcore** معتمدة Hi-Res Audio بقوة قوة عالية. صوت نقي. باس حقيقي. 24 ساعة تشغيل.
 
 **مثالية لصيف مصر:**
 حفلة في الساحل الشمالي؟ بول بارتي؟ مقاومة ماء **IPX7** يعني السبيكر يتحمل الغطس في المسبح. اختبار CairoVolt: غطسناها 30 دقيقة في مياه مالحة — الصوت رجع 100% بعد التجفيف.
@@ -79,7 +79,7 @@ export const anker_speakers_content: CategoryContent = {
                     title: 'Anker Soundcore Speakers',
                     subtitle: 'Hi-Res Audio Quality',
                     description: `
-Unlike cheap speakers that distort at Volume 80% — **Anker Soundcore** speakers are Hi-Res Audio certified at 30W. Pure sound. Real bass. 24-hour battery life.
+Unlike cheap speakers that distort at Volume 80% — **Anker Soundcore** speakers are Hi-Res Audio certified at powerful. Pure sound. Real bass. 24-hour battery life.
 
 **Perfect for Egyptian Summer:**
 Sahel pool party? Outdoor gathering? **IPX7 waterproof** means the speaker survives being submerged in the pool. CairoVolt test: we dunked it in salt water for 30 minutes — sound returned to 100% after drying.
@@ -104,28 +104,6 @@ Sahel pool party? Outdoor gathering? **IPX7 waterproof** means the speaker survi
                             content: `
 Yes! With PartyCast technology, link up to 100 Soundcore speakers simultaneously. All play in perfect sync with zero latency.
 `
-                        }
-                    ],
-                    faq: [
-                        {
-                            question: 'How much does Anker Soundcore speaker cost in Egypt?',
-                            answer: 'Flare 2 at EGP 2,999, Motion+ at EGP 3,600. Compared to JBL Flip 6 (from EGP 5,000): Soundcore is 40% cheaper with certified Hi-Res Audio + 18-month CairoVolt warranty. Next-day Cairo delivery, cash on delivery.'
-                        },
-                        {
-                            question: 'Is Motion+ worth it compared to JBL?',
-                            answer: 'Motion+ has official Hi-Res Audio certification + precision EQ via app — JBL Flip lacks both. CairoVolt test: the difference is clear in classical music and podcasts. And 40% cheaper.'
-                        },
-                        {
-                            question: '⚠️ How to spot a fake Bluetooth speaker?',
-                            answer: 'Fake speakers flood the market. Original: 1) QR code on box 2) Soundcore app detects it 3) Real 30W power — fakes are 5W 4) Real IPX7 — fakes break from a splash 5) 18-month CairoVolt warranty.'
-                        },
-                        {
-                            question: 'Are Anker speakers safe for hearing?',
-                            answer: 'Yes. Soundcore caps max volume at 85dB (WHO safe limit). Cheap fake speakers reach 100dB+ and can damage hearing over time.'
-                        },
-                        {
-                            question: 'What is the warranty for Anker speaker in Egypt?',
-                            answer: '18-month warranty from CairoVolt. 14-day instant replacement. Covers: speaker driver, battery, Bluetooth, IPX7 seal. Next-day Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [

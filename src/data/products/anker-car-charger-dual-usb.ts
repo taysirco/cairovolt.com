@@ -10,16 +10,16 @@ export const anker_car_charger_dual_usb = {
         mpn: "A2224011",
         price: 950,
         originalPrice: 1300,
-        stock: 2935,
+        stock: 525,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-package-box-contents-egypt.webp", alt: "Anker dual USB car charger package box and contents - CairoVolt Egypt", order: 0, isPrimary: true, width: 1200, height: 1500 },
             { id: "img_2", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-24w-powerdrive-cairovolt-egypt.webp", alt: "شاحن سيارة انكر 24 واط ثنائي المنافذ PowerDrive - كايرو فولت مصر", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker car charger charging phone and tablet simultaneously dual device test", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-compact-size-led-indicator-blue.webp", alt: "شاحن سيارة انكر بحجم صغير مع مؤشر LED أزرق للطاقة", order: 5, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_3", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-dual-usb-a-ports-detail-24w-output.webp", alt: "Anker car charger dual USB-A ports 24W total output power detail close-up - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-installed-car-dashboard-cigarette-lighter.webp", alt: "شاحن انكر مركب في لوحة السيارة بمقبس ولاعة السجائر - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-charging-phone-tablet-dual-device.webp", alt: "Anker car charger charging phone and tablet simultaneously dual device test - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-car-charger-dual-usb/anker-car-charger-compact-size-led-indicator-blue.webp", alt: "شاحن سيارة انكر بحجم صغير مع مؤشر LED أزرق للطاقة - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
@@ -40,7 +40,7 @@ export const anker_car_charger_dual_usb = {
         <li>⚡ <strong>PowerIQ:</strong> Detects each device and delivers optimal charging speed.</li>
         <li>📱 <strong>Charge 2 Devices:</strong> Phone + earbuds, or 2 phones simultaneously.</li>
         <li>🔌 <strong>Universal Fit:</strong> Works with all 12V/24V car cigarette lighter sockets.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -90,7 +90,7 @@ export const anker_car_charger_dual_usb = {
             },
             ar: {
                 name: "شاحن سيارة انكر (منفذين) | بيشحن موبايلين وانت عالق في زحمة الدائري | ضمان 18 شهر",
-                shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
+                shortDescription: "مش هيسخن تابلوه عربيتك في عز الصيف | 🚗 24 واط (12واط×2) | ⚡ شحن ذكي بيوزع الطاقة | 🚥 ممتاز لتشغيل الـ GPS وقتا طويلا",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس شواحن السيارة المقلدة اللي بتفصل مع تذبذب الفولتية، <strong>شاحن سيارة أنكر PowerDrive 2 (A2310)</strong> شاحن سيارة بمنفذين USB-A بكلي 24 واط (12 واط/منفذ). PowerIQ بيتعرف على كل جهاز ويوصله أقصى سرعة. تصميم مدمج، LED أزرق هادي، متوافق 12/24 فولت. مثالي لشحن موبايلين في زحمة القاهرة. ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
@@ -121,7 +121,7 @@ export const anker_car_charger_dual_usb = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">اشحن موبايلين وانت عالق في زحمة القاهرة</h2>
-        <p class="text-gray-700">بـ<strong>منفذين USB-A</strong> كل واحد 12 واط (24 واط إجمالي)، اشحن موبايلك وموبايل الراكب في نفس الوقت. <strong>تقنية PowerIQ</strong> بتتعرف على كل جهاز وتوصله أقصى سرعة شحن آمنة. مثالي للأزواج والعائلات في الرحلات الطويلة لما الموبايلين شغالين GPS ومزيكا.</p>
+        <p class="text-gray-700">بـ<strong>منفذين USB-A</strong> كل واحد 12 واط (24 واط إجمالي)، اشحن موبايلك وموبايل الراكب في نفس الوقت. <strong>تقنية PowerIQ</strong> بتتعرف على كل جهاز وتوصله أقصى سرعة شحن آمنة. مثالي للأزواج والعائلات في الرحلات الطويلة لما الموبايل (الهاتف الذكي)ين شغالين GPS ومزيكا.</p>
     </section>
 
     <section>

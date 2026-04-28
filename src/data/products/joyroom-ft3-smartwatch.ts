@@ -10,17 +10,17 @@ export const joyroom_ft3_smartwatch = {
         mpn: "JR-FT3",
         price: 1092,
         originalPrice: 2500,
-        stock: 2987,
+        stock: 629,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp", alt: "joyroom ft3 smartwatch - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-2.webp", alt: "joyroom ft3 smartwatch - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "joyroom ft3 smartwatch - Lowest Price Guarantee Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "joyroom ft3 smartwatch - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "joyroom ft3 smartwatch - Certified by Distributor", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-3.webp", alt: "joyroom ft3 smartwatch - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-4.webp", alt: "joyroom ft3 smartwatch - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-5.webp", alt: "joyroom ft3 smartwatch - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-6.webp", alt: "joyroom ft3 smartwatch - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "joyroom ft3 smartwatch - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_7", url: "/products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-7.webp", alt: "joyroom ft3 smartwatch - 18 Month Dealer Warranty Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -111,7 +111,7 @@ export const joyroom_ft3_smartwatch = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">20 وضع رياضي: من الجيم لكورنيش النيل</h2>
-        <p class="text-gray-700">تتبّع <strong>المشي والجري والدراجات والسباحة</strong> و 16 نشاط تاني. كل وضع بيسجّل المدة والسعرات ومناطق النبض والمسافة (GPS عبر الموبايل). البيانات بتتزامن مع تطبيق الموبايل على <strong>ايفون 17 أو سامسونج S26</strong> لرسوم بيانية مفصلة وتتبع أسبوعي.</p>
+        <p class="text-gray-700">تتبّع <strong>المشي والجري والدراجات والسباحة</strong> و 16 نشاط تاني. كل وضع بيسجّل المدة والسعرات ومناطق النبض والمسافة (GPS عبر الموبايل (الهاتف الذكي)). البيانات بتتزامن مع تطبيق الموبايل على <strong>ايفون 17 أو سامسونج S26</strong> لرسوم بيانية مفصلة وتتبع أسبوعي.</p>
     </section>
 
     <section>
@@ -146,7 +146,7 @@ export const joyroom_ft3_smartwatch = {
                     { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عيوب الشاشة، فشل البطارية، عطل الحساسات، أو تلف الماء فوق مواصفات IP68. شحن إرجاع مجاني." }]
             }
         },
-        meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية, joyroom smartwatch egypt, joyroom fitness watch, joyroom waterproof smartwatch, joyroom best smartwatch egypt 2026, joyroom cod egypt, افضل ساعة ذكية جوي روم, سعر ساعة ذكية جوي روم, ساعة جوي روم مصر, ساعة ذكية رخيصة مصر, ساعة رياضية جوي روم, joyroom egypt store, joyroom genuine egypt", mainTerm: "joyroom ft3" },
+        meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية, joyroom smartwatch egypt, joyroom fitness watch, joyroom waterproof smartwatch, joyroom best smartwatch egypt 2026, joyroom cod egypt, افضل ساعة ذكية جوي روم, سعر ساعة ذكية جوي روم, ساعة جوي روم مصر, ساعة ذكية رخيصة مصر, ساعة رياضية جوي روم, joyroom egypt store, joyroom genuine egypt, joyroom FT3 smartwatch CE FCC certified IP68", mainTerm: "joyroom ft3" },
         expertOpinion: {
             en: "The Joyroom FT3 Smart Watch proved IP68-worthy in our pool submersion test. Battery lasted within 10% of rated during 30-day daily wear with all sensors active.'t cost a fortune. The screen is bright and responsive. It tracks steps and heart rate accurately for casual fitness. It handles notifications well, supporting Arabic perfectly. It won't replace an Apple Watch, but it covers 80% of the needs for 10% of the price.",
             ar: "ساعة ذكية أنيقة لا تكلف ثروة. الشاشة ساطعة وسريعة الاستجابة. تتبع الخطوات ومعدل ضربات القلب بدقة للياقة البدنية العادية. تتعامل مع الإشعارات بشكل جيد، وتدعم العربية تماماً. لن تحل محل Apple Watch، لكنها تغطي 80% من الاحتياجات بـ 10% من السعر."

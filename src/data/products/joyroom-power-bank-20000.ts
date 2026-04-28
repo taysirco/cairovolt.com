@@ -10,20 +10,20 @@ export const joyroom_power_bank_20000 = {
         mpn: "JR-T020",
         price: 997,
         originalPrice: 1149,
-        stock: 3313,
+        stock: 1254,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "joyroom power bank 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - Full Warranty Coverage Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 - منتج أصلي معتمد | شحن مصر كلها", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Barcode Verified Egypt", order: 8, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 9, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Barcode Verified Egypt - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -38,7 +38,7 @@ export const joyroom_power_bank_20000 = {
         <li>⚡ <strong>22.5W Output:</strong> PD 20W for iPhone + QC 3.0 for Android + SCP for Huawei.</li>
         <li>🔌 <strong>3 Output Ports:</strong> Charge 3 devices simultaneously (2×USB-A + 1×USB-C).</li>
         <li>📊 <strong>LED Display:</strong> Exact battery percentage. EGP 997 — best value 20,000mAh.</li>
-    <li>💰 <strong>2.77 EGP/day:</strong> Over 12 months, less than a cup of tea.</li><li>💰 <strong>2.77 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
+    <li>💰 <strong>2.77 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -91,7 +91,7 @@ export const joyroom_power_bank_20000 = {
             },
             ar: {
                 name: "باور بانك جوي روم 20000 | أرخص باور بانك للسفر (بيشحن 3 أجهزة) | ضمان 12 شهر",
-                shortDescription: "أعلى قيمة مقابل سعر في مصر 🔋 4 شحنات ايفون 17 | ⚡ שحن سريع 22.5 واط | 🔌 شغال معاك في مواصلات الساحل الطويلة",
+                shortDescription: "أعلى قيمة مقابل سعر في مصر | 🔋 4 شحنات ايفون 17 | ⚡ שحن سريع 22.5 واط | 🔌 شغال معاك في مواصلات الساحل الطويلة",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 20000mAh</strong> بيدّي <strong>22.5 واط PD+QC بثلاث مخارج</strong> — اشحن 3 أجهزة في نفس الوقت. 20000mAh = 4+ شحنات كاملة للموبايل. بـ 997 جنيه، أفضل سعة مقابل الجنيه في باور بانكاتنا. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
 <div class="product-summary">

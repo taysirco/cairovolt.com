@@ -10,17 +10,17 @@ export const joyroom_usb_a_lightning_cable = {
         mpn: "JR-S-AL24",
         price: 43,
         originalPrice: 140,
-        stock: 3175,
+        stock: 542,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-cable/joyroom-joyroom-usb-a-lightning-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-cable/joyroom-joyroom-usb-a-lightning-cable-egypt-cairo-2.webp", alt: "كابل جوي روم USB-A Lightning مصر", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-cable/joyroom-joyroom-usb-a-lightning-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-cable/joyroom-joyroom-usb-a-lightning-cable-egypt-cairo-2.webp", alt: "كابل جوي روم USB-A Lightning مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom USB-A to Lightning Cable 1m",
-                shortDescription: "🔌 Budget iPhone cable — 2.4A charging at 0.12 EGP/day (CairoVolt tested 365+ days) | 12-month warranty",
+                shortDescription: "🔌 Budget iPhone Cable 2.4A | 💰 0.12 EGP/Day | 📊 CairoVolt 365-Day Test Passed | 🛡️ 12-Month Warranty",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike Lightning cables that stop working after an iOS update, Still using an old USB-A charger with your iPhone? The <strong>Joyroom USB-A to Lightning</strong> delivers full <strong>2.4A charging</strong> — no "accessory not supported" errors. At <strong>43 EGP</strong> (0.12 EGP/day over a year), it's the cheapest original iPhone cable in Egypt. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>⚡ <strong>2.4A Charging:</strong> Maximum speed for USB-A Lightning connections.</li><li>📱 <strong>iPhone 14/13/12/11:</strong> All Lightning iPhones supported.</li><li>📏 <strong>1m Length:</strong> Perfect for bedside and desk charging.</li><li>💰 <strong>43 EGP:</strong> 5x cheaper than Apple's original cable.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"We've had this cable in our office for over a year. It charges iPhone 14 at full 2.4A, no error messages, no heating issues. The TPE material survived Cairo summer without cracking. At 43 EGP, we bought one for every desk. If your charger is USB-A and your phone is Lightning — this is the cable. Period."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -40,7 +40,7 @@ export const joyroom_usb_a_lightning_cable = {
             },
             ar: {
                 name: "كابل جوي روم USB-A إلى Lightning 1 متر | أرخص كابل أصلي للايفون في مصر",
-                shortDescription: "بـ 43 جنيه بس (أرخص من قهوة) ☕ تكلفة يومية 0.12 جنيه | ✅ أصلي مش هيطلعلك رسالة 'ملحق غير مدعوم' | 💪 اتجرب 365+ يوم في كايرو فولت",
+                shortDescription: "💰 بـ 43 جنيه — أرخص من قهوة | ☕ تكلفة يومية 0.12 جنيه | ✅ أصلي مش هيطلعلك رسالة | 🛡️ ضمان سنة كاملة'ملحق غير مدعوم' | 💪 اتجرب 365+ يوم في كايرو فولت",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، لسه بتستخدم شاحن USB-A قديم مع ايفونك؟ كابل <strong>جوي روم USB-A لايتنينج</strong> بيدّي <strong>2.4 أمبير كاملة</strong> — مفيش رسالة "ملحق غير مدعوم". بـ <strong>43 جنيه</strong> (0.12 جنيه/يوم على مدار سنة)، أرخص كابل ايفون أصلي في مصر. نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>⚡ <strong>2.4 أمبير:</strong> أقصى سرعة لتوصيلات USB-A Lightning.</li><li>📱 <strong>ايفون 14/13/12/11:</strong> كل ايفونات Lightning مدعومة.</li><li>📏 <strong>طول 1 متر:</strong> مثالي للسرير والمكتب.</li><li>💰 <strong>43 جنيه:</strong> أرخص 5× من كابل ابل الأصلي.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"الكابل ده في مكتبنا من أكتر من سنة. بيشحن ايفون 14 بـ 2.4 أمبير كاملة، مفيش رسائل خطأ، مفيش سخونية. مادة TPE استحملت صيف القاهرة من غير ما تتشقق. بـ 43 جنيه، اشترينا واحد لكل مكتب. لو شاحنك USB-A وموبايلك Lightning — ده الكابل. نقطة."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>

@@ -10,15 +10,15 @@ export const anker_powerport_20w = {
         mpn: "A2347K11",
         price: 375,
         originalPrice: 420,
-        stock: 2984,
+        stock: 1146,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-pd-wall-charger-cairovolt-egypt.webp", alt: "شاحن انكر 20 واط USB-C PD حائطي صغير الحجم - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1499 },
-            { id: "img_2", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-port-detail-power-delivery.webp", alt: "Anker PowerPort 20W USB-C Power Delivery port detail close-up", order: 1, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_3", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-compact-size-comparison-coin-plug.webp", alt: "حجم شاحن انكر 20 واط مقارنة بعملة معدنية - تصميم فائق الصغر", order: 2, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_4", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-charging-iphone-fast-charge-pd.webp", alt: "Anker 20W fast charging iPhone with Power Delivery PD protocol speed test", order: 3, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_5", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-foldable-plug-prongs-travel-friendly.webp", alt: "شاحن انكر 20 واط بقابس قابل للطي - تصميم مناسب للسفر", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_2", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-port-detail-power-delivery.webp", alt: "Anker PowerPort 20W USB-C Power Delivery port detail close-up - CairoVolt", order: 1, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_3", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-compact-size-comparison-coin-plug.webp", alt: "حجم شاحن انكر 20 واط مقارنة بعملة معدنية - تصميم فائق الصغر - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_4", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-charging-iphone-fast-charge-pd.webp", alt: "Anker 20W fast charging iPhone with Power Delivery PD protocol speed test - CairoVolt", order: 3, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_5", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-foldable-plug-prongs-travel-friendly.webp", alt: "شاحن انكر 20 واط بقابس قابل للطي - تصميم مناسب للسفر - كايرو فولت", order: 4, isPrimary: false, width: 928, height: 1152 },
             { id: "img_6", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-package-box-contents-specifications.webp", alt: "Anker PowerPort 20W package box contents and specifications - CairoVolt Egypt", order: 5, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
@@ -103,7 +103,7 @@ export const anker_powerport_20w = {
             },
             ar: {
                 name: "شاحن انكر 20 وات للايفون | يلحقك قبل ما النور يقطع | ضمان 18 شهر",
-                shortDescription: "ربع ساعة شحن بتفرق معاك ⚡ ايفون 17 لـ 50% في 30 دقيقة | 🛡️ حماية من تذبذب الكهربا | 📏 أصغر من علبة الكبريت",
+                shortDescription: "ربع ساعة شحن بتفرق معاك | ⚡ ايفون 17 لـ 50% في 30 دقيقة | 🛡️ حماية من تذبذب الكهربا | 📏 أصغر من علبة الكبريت",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر 20 واط USB-C (A2347)</strong> أفضل ترقية لأي مالك ايفون في مصر. بيشحن ايفون 17 من 0% لـ 50% في 30 دقيقة — أسرع 3 مرات من شاحن 5 واط اللي أبل بطلت تحطه في العلبة. حجم 4 سم، قابس UK-Style (متوافق مع مصر)، حماية MultiProtect 10 طبقات. سعر 375 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
@@ -189,5 +189,12 @@ export const anker_powerport_20w = {
             en: "The Anker 20W USB-C Charger runs cooler than competitors in our Egyptian summer heat test — 43°C max vs 55°C+ for unbranded chargers. Safe for overnight charging.'t let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
             ar: "لا تدع الحجم يخدعك؛ هذا المكعب الصغير ضروري لأي مالك آيفون. يفتح إمكانيات الشحن السريع لهاتفك، ويوصله من 0 إلى 50% في 30 دقيقة فقط. سعره معقول، موثوق، وصغير بما يكفي ليناسب أي مشترك كهرباء مزدحم أو حقيبة."
         },
-        relatedProducts: ["anker-a2147-gan-charger-30w", "anker-a8050-usb-c-cable", "anker-powerline-usb-c-lightning", "anker-powercore-10000", "anker-powerport-25w", "anker-powerline-usb-c-usb-c"]
+        relatedProducts: [
+        "anker-a2147-gan-charger-30w",
+        "anker-622-maggo",
+        "anker-powerline-usb-c-lightning",
+        "anker-powercore-10000",
+        "anker-powerport-25w",
+        "anker-powerline-usb-c-usb-c"
+    ]
     };

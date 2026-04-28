@@ -10,26 +10,26 @@ export const anker_powercore_20000 = {
         mpn: "A1260011",
         price: 1550,
         originalPrice: 1750,
-        stock: 3085,
+        stock: 1177,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-samsung-galaxy-compatible.webp", alt: "Anker PowerCore 20000 LED 4-light battery indicator showing remaining charge level", order: 0, isPrimary: true, width: 1200, height: 1258 },
+            { id: "img_1", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-samsung-galaxy-compatible.webp", alt: "Anker PowerCore 20000 LED 4-light battery indicator showing remaining charge level - CairoVolt", order: 0, isPrimary: true, width: 1200, height: 1258 },
             { id: "img_2", url: "/products/anker/anker-powercore-20000/anker-powercore-20000mah-high-capacity-power-bank-cairovolt.webp", alt: "باور بانك انكر 20000 مللي أمبير عالي السعة - منظر أمامي كامل كايرو فولت مصر", order: 1, isPrimary: false, width: 432, height: 500 },
-            { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-matte-texture-anti-slip-surface.webp", alt: "Anker PowerCore 20000 dual USB-A output ports for simultaneous dual device charging", order: 2, isPrimary: false, width: 500, height: 465 },
-            { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-tablet-ipad-speed-test.webp", alt: "منفذ مايكرو USB لشحن باور بانك انكر 20000 - تفاصيل منفذ الإدخال", order: 3, isPrimary: false, width: 1000, height: 1000 },
+            { id: "img_3", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-matte-texture-anti-slip-surface.webp", alt: "Anker PowerCore 20000 dual USB-A output ports for simultaneous dual device charging - CairoVolt", order: 2, isPrimary: false, width: 500, height: 465 },
+            { id: "img_4", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-tablet-ipad-speed-test.webp", alt: "منفذ مايكرو USB لشحن باور بانك انكر 20000 - تفاصيل منفذ الإدخال - كايرو فولت", order: 3, isPrimary: false, width: 1000, height: 1000 },
             { id: "img_5", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-multisafety-protection-certification.webp", alt: "Anker PowerCore 20000 charging two devices simultaneously - dual output test CairoVolt", order: 4, isPrimary: false, width: 1007, height: 1010 },
-            { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-travel-friendly-airline-approved.webp", alt: "حجم ووزن باور بانك انكر 20000 مقارنة - تصميم محمول خفيف الوزن", order: 5, isPrimary: false, width: 1124, height: 803 },
-            { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-capacity-test-watt-meter-lab.webp", alt: "تقنية PowerIQ و VoltageBoost في باور بانك انكر 20000 - شحن ذكي محسن", order: 6, isPrimary: false, width: 1200, height: 1494 },
-            { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-full-view-all-angles-360.webp", alt: "Anker PowerCore 20000 package box contents with cables and accessories - Egypt", order: 7, isPrimary: false, width: 896, height: 1184 },
-            { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-dual-usb-a-output-ports-detail.webp", alt: "ملف جانبي لباور بانك انكر 20000 يعرض السمك الرفيع والتصميم الأنيق", order: 8, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-micro-usb-input-charging-port.webp", alt: "Anker PowerCore 20000 matte anti-slip surface texture - premium build quality", order: 9, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-two-devices-simultaneously.webp", alt: "اختبار شحن تابلت ايباد من باور بانك انكر 20000 - سرعة الشحن الفعلية", order: 10, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-size-weight-comparison-portable.webp", alt: "Anker PowerCore 20000 MultiSafety protection system certification badge", order: 11, isPrimary: false, width: 960, height: 1104 },
-            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-led-battery-indicator-4-lights.webp", alt: "باور بانك انكر 20000 متوافق مع السفر والطيران - معتمد من الخطوط الجوية", order: 12, isPrimary: false, width: 896, height: 1184 },
-            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-poweriq-voltage-boost-technology.webp", alt: "Anker PowerCore 20000 charging Samsung Galaxy smartphone compatibility test", order: 13, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-travel-friendly-airline-approved.webp", alt: "حجم ووزن باور بانك انكر 20000 مقارنة - تصميم محمول خفيف الوزن - كايرو فولت", order: 5, isPrimary: false, width: 1124, height: 803 },
+            { id: "img_7", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-capacity-test-watt-meter-lab.webp", alt: "تقنية PowerIQ و VoltageBoost في باور بانك انكر 20000 - شحن ذكي محسن - كايرو فولت", order: 6, isPrimary: false, width: 1200, height: 1494 },
+            { id: "img_8", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-full-view-all-angles-360.webp", alt: "Anker PowerCore 20000 package box contents with cables and accessories - Egypt - CairoVolt", order: 7, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_9", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-dual-usb-a-output-ports-detail.webp", alt: "ملف جانبي لباور بانك انكر 20000 يعرض السمك الرفيع والتصميم الأنيق - كايرو فولت", order: 8, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_10", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-micro-usb-input-charging-port.webp", alt: "Anker PowerCore 20000 matte anti-slip surface texture - premium build quality - CairoVolt", order: 9, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_11", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-charging-two-devices-simultaneously.webp", alt: "اختبار شحن تابلت ايباد من باور بانك انكر 20000 - سرعة الشحن الفعلية - كايرو فولت", order: 10, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_12", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-size-weight-comparison-portable.webp", alt: "Anker PowerCore 20000 MultiSafety protection system certification badge - CairoVolt", order: 11, isPrimary: false, width: 960, height: 1104 },
+            { id: "img_13", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-led-battery-indicator-4-lights.webp", alt: "باور بانك انكر 20000 متوافق مع السفر والطيران - معتمد من الخطوط الجوية - كايرو فولت", order: 12, isPrimary: false, width: 896, height: 1184 },
+            { id: "img_14", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-poweriq-voltage-boost-technology.webp", alt: "Anker PowerCore 20000 charging Samsung Galaxy smartphone compatibility test - CairoVolt", order: 13, isPrimary: false, width: 928, height: 1152 },
             { id: "img_15", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-package-box-contents-cables-egypt.webp", alt: "اختبار سعة باور بانك انكر 20000 بجهاز قياس واط في مختبر كايرو فولت", order: 14, isPrimary: false, width: 1008, height: 1072 },
-            { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-side-profile-thickness-design.webp", alt: "Anker PowerCore 20000 full 360-degree view showing all angles and design details", order: 15, isPrimary: false, width: 500, height: 433 }
+            { id: "img_16", url: "/products/anker/anker-powercore-20000/anker-powercore-20000-side-profile-thickness-design.webp", alt: "Anker PowerCore 20000 full 360-degree view showing all angles and design details - CairoVolt", order: 15, isPrimary: false, width: 500, height: 433 }
         ],
         translations: {
             en: {
@@ -114,7 +114,7 @@ export const anker_powercore_20000 = {
             },
             ar: {
                 name: "باور بانك انكر 20000 مللي أمبير | بيكفيك ويكند كامل برا البيت | ضمان 24 شهر",
-                shortDescription: "لو مشوارك طويل أو مسافر ده المنقذ 🔋 4 شحنات كاملة للايفون | 🔌 منفذين عشان تشحن إنت وصاحبك | ✈️ مسموح في الطيارة",
+                shortDescription: "لو مشوارك طويل أو مسافر ده المنقذ | 🔋 4 شحنات كاملة للايفون | 🔌 منفذين عشان تشحن إنت وصاحبك | ✈️ مسموح في الطيارة",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر PowerCore 20000 (A1260)</strong> بيخزن 72 واط/ساعة — يكفي 4 شحنات ايفون 17 كاملة أو 3 شحنات سامسونج S26. منفذين USB-A مع PowerIQ بيشحنوا جهازين في نفس الوقت. بوزن 356 جرام ومسموح في الطيارة (أقل من حد TSA 100Wh)، ده مصمم للطلاب والمسافرين واللي عايشين مع انقطاع الكهربا. ضمان 24 شهر، سعر 1,550 جنيه. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p>
@@ -204,9 +204,9 @@ export const anker_powercore_20000 = {
         relatedProducts: [
         "anker-powercore-10000",
         "anker-powercore-26800",
-        "anker-zolo-a110e-20000",
-        "anker-powerport-20w",
-        "anker-a8050-usb-c-cable",
+        "anker-622-maggo",
+        "anker-car-charger-dual-usb",
+        "anker-powerline-usb-c-lightning",
         "anker-521-powerhouse"
     ]
     };

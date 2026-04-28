@@ -10,16 +10,16 @@ export const anker_622_maggo = {
         mpn: "A1610011",
         price: 2800,
         originalPrice: 3000,
-        stock: 3136,
+        stock: 457,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-622-maggo/anker-622-maggo-package-box-contents-cable-egypt.webp", alt: "محتويات علبة انكر 622 ماج جو الأصلية مع كابل USB-C - كايرو فولت مصر", order: 0, isPrimary: true, width: 676, height: 811 },
             { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - كايرو فولت", order: 1, isPrimary: false, width: 530, height: 722 },
-            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetic attachment snapping onto iPhone wireless charging test", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-622-maggo/anker-622-maggo-foldable-kickstand-phone-stand-viewing.webp", alt: "حامل قابل للطي لباور بانك انكر 622 ماج جو - زاوية مشاهدة بدون يدين", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-622-maggo/anker-622-maggo-usb-c-port-input-output-detail.webp", alt: "Anker 622 MagGo USB-C input output port detail for charging and power delivery", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 7mm لباور بانك انكر 622 ماج جو - ملف عرض جانبي", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetic attachment snapping onto iPhone wireless charging test - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-622-maggo/anker-622-maggo-foldable-kickstand-phone-stand-viewing.webp", alt: "حامل قابل للطي لباور بانك انكر 622 ماج جو - زاوية مشاهدة بدون يدين - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-622-maggo/anker-622-maggo-usb-c-port-input-output-detail.webp", alt: "Anker 622 MagGo USB-C input output port detail for charging and power delivery - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-622-maggo/anker-622-maggo-slim-7mm-design-thickness-profile.webp", alt: "تصميم رفيع 7mm لباور بانك انكر 622 ماج جو - ملف عرض جانبي - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_7", url: "/products/anker/anker-622-maggo/anker-622-maggo-charging-iphone-magnetic-alignment-test.webp", alt: "Anker 622 MagGo charging iPhone magnetic alignment test - CairoVolt Lab Egypt", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         relatedProducts: ["anker-powercore-10000", "anker-powercore-20000", "anker-a8050-usb-c-cable", "anker-powerport-20w", "anker-powerline-usb-c-lightning"],
@@ -42,13 +42,13 @@ export const anker_622_maggo = {
         <li>📱 <strong>Foldable Stand:</strong> Built-in kickstand for hands-free video calls and streaming.</li>
         <li>🔌 <strong>USB-C Port:</strong> Two-way charging — charge the battery and your phone simultaneously.</li>
         <li>🪨 <strong>Ultra-Slim:</strong> Only 13mm thin — barely adds bulk to your iPhone.</li>
-    <li>💰 <strong>5.19 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>5.19 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
+    <li>💰 <strong>5.19 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "We used the MagGo 622 for a full week as our daily carry. The game-changer? The foldable kickstand. During a 45-minute FaceTime call at a Zamalek café, we propped the iPhone 17 up on the table and it charged wirelessly the entire time — no cable clutter, no holding the phone. The magnetic grip is strong enough to stay attached during a bumpy Uber ride. At 7.5W, it's not blazing fast, but that's the point: it's designed to keep your battery topped up throughout the day, not race to 100%. It slips into a back pocket and you forget it's there."
+        "We used the MagGo 622 for a full week as our daily carry. The a significant upgrade? The foldable kickstand. During a 45-minute FaceTime call at a Zamalek café, we propped the iPhone 17 up on the table and it charged wirelessly the entire time — no cable clutter, no holding the phone. The magnetic grip is strong enough to stay attached during a bumpy Uber ride. At 7.5W, it's not blazing fast, but that's the point: it's designed to keep your battery topped up throughout the day, not race to 100%. It slips into a back pocket and you forget it's there."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
@@ -93,14 +93,14 @@ export const anker_622_maggo = {
             },
             ar: {
                 name: "باور بانك انكر 622 MagGo ايفون 17 وايرلس | بستاند للمكالمات | ضمان 18 شهر",
-                shortDescription: "لزقة في ضهر ايفونك مبتطحركش 🧲 شحن وايرلس MagSafe | 📱 ستاند مدمج لمكالمات الفيديو في الكافيهات | 🪨 رفيع جداً (13مم) مش هتحس بيه",
+                shortDescription: "لزقة في ضهر ايفونك مبتطحركش | 🧲 شحن وايرلس MagSafe | 📱 ستاند مدمج لمكالمات الفيديو في الكافيهات | 🪨 رفيع جداً (13مم) مش هتحس بيه",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 622 MagGo (A1610)</strong> بطارية لاسلكية متوافقة مع MagSafe لايفون 17/16/15/14/13/12. بتلتصق مغناطيسي على ظهر ايفونك وبتشحن 7.5 واط وإنت بتستخدمه. حامل مدمج قابل للطي لمكالمات الفيديو بدون ما تمسك. سمك 13مم، شحن USB-C تمريري. سعر 2,800 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">البطاريات المغناطيسية المضروبة من Shein/Temu بتستخدم مغناطيسات ضعيفة بتفصل وقت الاستخدام ومفيهاش شهادة Qi — بتضر الموبايل من شحن غير سليم. أنكر 622 بيستخدم مغناطيسات N52 ومعتمد Qi. دور على ختم أنكر الهولوجرافي على العلبة.</p>
+    <p class="text-gray-700">في حرارة صيف مصر، الشحن اللاسلكي المقلد بيسخن موبايلك ويأثر على البطارية. البطاريات المغناطيسية المضروبة من Shein/Temu بتستخدم مغناطيسات ضعيفة بتفصل وقت الاستخدام ومفيهاش شهادة Qi — بتضر الموبايل (الهاتف الذكي) من شحن غير سليم. أنكر 622 بيستخدم مغناطيسات N52 ومعتمد Qi. دور على ختم أنكر الهولوجرافي على العلبة.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">عشان منضيعش وقتك.. دي المواصفات:</h3>
@@ -159,7 +159,7 @@ export const anker_622_maggo = {
                     { question: "ضمان كايرو فولت 18 شهر بيغطي إيه بالظبط؟", answer: "استبدال كامل لأي عيب صناعة — تدهور بطارية، فشل شحن، أو ضعف المغناطيس. سلمه لكايرو فولت أو اشحنه مجاناً." }]
             }
         },
-        meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker maggo" },
+        meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع, anker 622 maggo FCC certified", mainTerm: "anker maggo" },
         expertOpinion: {
             en: "The MagGo 622 fixes the biggest annoyance of wireless chargers: usability while charging. The foldable kickstand is brilliant for watching videos or FaceTime calls. It's slim enough to not feel bulky. Just remember, it's 7.5W charging, so it's not for a quick 0-50% sprint, but perfect for keeping your battery topped up throughout a busy day in Cairo.",
             ar: "يحل MagGo 622 أكبر إزعاج للشواحن اللاسلكية: سهولة الاستخدام أثناء الشحن. الحامل القابل للطي رائع لمشاهدة الفيديوهات أو مكالمات الفيديو. إنه نحيف بما يكفي لعدم الشعور بالضخامة. فقط تذكر، الشحن بقوة 7.5 واط، لذا فهو ليس للشحن السريع من 0-50%، ولكنه مثالي للحفاظ على بطاريتك مشحونة طوال وعم حافل في القاهرة."

@@ -1,20 +1,20 @@
 // Product: anker-soundcore-r50i-nc
 export const anker_soundcore_r50i_nc = {
         slug: "anker-soundcore-r50i-nc", sku: "ANK-AU-R50INC", brand: "Anker", categorySlug: "audio",
-        gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1299, originalPrice: 1550, stock: 2649, featured: true, status: "active",
+        gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1299, originalPrice: 1550, stock: 365, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup.webp", alt: "سماعة انكر ساوندكور R50i NC مع إلغاء ضوضاء - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp", alt: "Anker Soundcore R50i NC ANC earbuds with case - Egypt", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-wearing-noise-cancelling-commute.webp", alt: "Anker R50i NC earbuds in-ear detail with silicone tips", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-charging-case-compact-led-status.webp", alt: "Anker R50i NC charging case with integrated phone stand", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-transparency-mode-ambient-sound.webp", alt: "Anker R50i NC worn showing comfortable in-ear fit", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-app-equalizer-customization-screen.webp", alt: "Anker R50i NC retail box and included accessories", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp", alt: "Anker Soundcore R50i NC ANC earbuds with case - Egypt - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-wearing-noise-cancelling-commute.webp", alt: "Anker R50i NC earbuds in-ear detail with silicone tips - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-charging-case-compact-led-status.webp", alt: "Anker R50i NC charging case with integrated phone stand - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-transparency-mode-ambient-sound.webp", alt: "Anker R50i NC worn showing comfortable in-ear fit - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-app-equalizer-customization-screen.webp", alt: "Anker R50i NC retail box and included accessories - CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-package-contents-eartips-cable-box.webp", alt: "سماعة انكر R50i NC مع خاصية الشفافية - كايرو فولت", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-soundcore-k20i",
         "anker-soundcore-r50i",
-        "anker-a8050-usb-c-cable",
+        "anker-zolo-a1681-20000",
         "anker-a2732-charger-35w",
         "anker-zolo-a110e-20000",
         "anker-prime-a1695-25000"
@@ -64,11 +64,11 @@ export const anker_soundcore_r50i_nc = {
                 metaTitle: "Anker Soundcore R50i NC ⚡ 16% OFF | 42dB ANC | COD Egypt",
                 metaDesc: "Buy Anker R50i NC ANC earbuds in Egypt. 42dB noise cancellation, 45h battery, 4-mic AI calls, phone stand case. ✓ 18-Month Warranty. anker soundcore r50i.",
                 faqs: [
-                    { question: "How good is the 42dB ANC?", answer: "It blocks plane engines, Metro trains, café noise, and AC hum. Tested on EgyptAir flights and Cairo Metro. Rivals AirPods Pro 2 at half the price." },
-                    { question: "What's the phone stand case?", answer: "The charging case has a hidden built-in stand. Prop up your phone for video calls or watching content. Free hands-free viewing anywhere." },
+                    { question: "How good is the 42dB ANC?", answer: "Genuinely effective. Tested on EgyptAir flights and Cairo Metro commutes — engine drone and track rumble disappeared. Comparable to AirPods Pro 2 performance at roughly half the cost." },
+                    { question: "What's the phone stand case?", answer: "A fold-out kickstand is integrated into the charging case lid. Flip it open, prop your phone at viewing angle, and you get hands-free video calls or content watching on any flat surface." },
                     { question: "R50i NC vs K20i — which should I buy?", answer: "Need ANC + call quality → R50i NC. Need all-day comfort + bigger bass → K20i. R50i NC has 42dB ANC and 4 mics. K20i has semi-in-ear comfort and 13mm drivers." },
                     { question: "How long does the battery last with ANC on?", answer: "7h per charge with ANC on, 10h with ANC off. Total with case: up to 45 hours. Fast charge: 10min = 2h." },
-                    { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers ANC module failure, driver defects, battery degradation, and Bluetooth issues. Contact CairoVolt for free replacement if they fail under normal use." }
+                    { question: "What does the 18-month warranty cover?", answer: "ANC module failure, driver defects, battery degradation, and Bluetooth issues are all covered. CairoVolt processes replacements directly in Egypt within the warranty period." }
                 ]
             },
             ar: {
@@ -87,7 +87,7 @@ export const anker_soundcore_r50i_nc = {
 <li>🎵 <strong>10mm HiFi + BassUp™:</strong> صوت متوازن مع EQ قابل للتخصيص.</li>
 </ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i NC النقطة الحلوة في تشكيلة ساوندكور. بـ 42dB ANC، بتمنع ضوضاء القاهرة فعلاً: قطارات المترو، كلاكسات الميكروباس، هرج الكافيهات، صوت التكييف — كل ده اختفى. لبسناها 4 ساعات في رحلة مصر للطيران لدبي: صوت محرك الطائرة اختفى تماماً. الـ 4 مايك AI للمكالمات ترقية ضخمة عن مايكين الـ K20i. حامل الموبايل المخفي في العلبة عملي بشكل عبقري. بطارية 45 ساعة يعني بتشحن مرة كل 10 أيام لو بتستخدمها 4-5 ساعات يومياً. الـ R50i NC بتضرب فوق فئتها بكتير. أداء ANC ينافس ايربودز برو 2 بأقل من نص السعر. أفضل قيمة سماعة ANC في مصر، نقطة."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i NC النقطة الحلوة في تشكيلة ساوندكور. بـ 42dB ANC، بتمنع ضوضاء القاهرة فعلاً: قطارات المترو، كلاكسات الميكروباس، هرج الكافيهات، صوت التكييف — كل ده اختفى. لبسناها 4 ساعات في رحلة مصر للطيران لدبي: صوت محرك الطائرة اختفى تماماً. الـ 4 مايك AI للمكالمات ترقية ضخمة عن مايكين الـ K20i. حامل الموبايل (الهاتف الذكي) المخفي في العلبة عملي بشكل عبقري. بطارية 45 ساعة يعني بتشحن مرة كل 10 أيام لو بتستخدمها 4-5 ساعات يومياً. الـ R50i NC بتضرب فوق فئتها بكتير. أداء ANC ينافس ايربودز برو 2 بأقل من نص السعر. أفضل قيمة سماعة ANC في مصر، نقطة."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">42dB ANC: منطقة السكوت الشخصية</h2>
 <p class="text-gray-700">الـ R50i NC بتستخدم <strong>إلغاء ضوضاء هجين نشط</strong> بمايكات داخلية وخارجية لتحقيق <strong>42dB عزل</strong>. بيشيل: محركات الطائرة، اهتزاز المترو، هرج الكافيهات، صوت التكييف. <strong>وضع الشفافية</strong> بيخليك تسمع الإعلانات بدون ما تشيل السماعة — ضروري لمستخدمي المترو.</p></section>
@@ -114,11 +114,11 @@ export const anker_soundcore_r50i_nc = {
                 metaTitle: "سعر سماعة انكر R50i NC في مصر ⚡ خصم 16% | إلغاء ضوضاء 42dB",
                 metaDesc: "اشتري سماعة انكر R50i NC في مصر. 42dB إلغاء ضوضاء، 45 ساعة بطارية، 4 مايك AI، حامل موبايل. ✓ ضمان 18 شهر.",
                 faqs: [
-                    { question: "الـ 42dB ANC كويس قد إيه؟", answer: "بيمنع محركات الطائرة وقطارات المترو وضوضاء الكافيهات. اتاختبر في رحلات مصر للطيران ومترو القاهرة. بينافس ايربودز برو 2 بنص السعر." },
-                    { question: "إيه حكاية حامل الموبايل في العلبة؟", answer: "علبة الشحن فيها حامل مخفي. سند موبايلك لفيديو كول أو مشاهدة محتوى. مشاهدة حرة الايدين في أي مكان." },
+                    { question: "الـ 42dB ANC كويس قد إيه؟", answer: "فعّال بجد. اتاختبر في رحلات مصر للطيران ومترو القاهرة — صوت المحرك واهتزاز القضبان اختفوا. أداء قريب من ايربودز برو 2 بأقل من نص التمن." },
+                    { question: "إيه حكاية حامل الموبايل في العلبة؟", answer: "في غطا علبة الشحن حامل قابل للطي. افتحه، سند موبايلك عليه، وعندك زاوية مشاهدة مثالية لفيديو كول أو محتوى على أي سطح مستوي." },
                     { question: "R50i NC ولا K20i — أشتري أنهي؟", answer: "محتاج ANC + جودة مكالمات → R50i NC. محتاج راحة طول اليوم + باس أكبر → K20i. R50i NC عندها 42dB ANC و 4 مايك. K20i عندها راحة نصف داخلية و 13mm." },
                     { question: "البطارية بتعيش قد إيه مع ANC؟", answer: "7 ساعات بالشحنة مع ANC شغال، 10 ساعات بدون ANC. الإجمالي مع العلبة: 45 ساعة. شحن سريع: 10 دقايق = ساعتين." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل موديول ANC، عيوب الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }
+                    { question: "الضمان بيغطي إيه؟", answer: "عطل موديول ANC، عيوب الدرايفر، تدهور البطارية، ومشاكل البلوتوث كلهم مغطيين لمدة 18 شهر. كايرو فولت بتعالج الاستبدال مباشرة في مصر." }
                 ]
             }
         },

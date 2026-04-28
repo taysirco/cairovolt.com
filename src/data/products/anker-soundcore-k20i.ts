@@ -1,17 +1,17 @@
 // Product: anker-soundcore-k20i
 export const anker_soundcore_k20i = {
         slug: "anker-soundcore-k20i", sku: "ANK-AU-K20I", brand: "Anker", categorySlug: "audio",
-        gtin: "194644039165", gtin13: "0194644039165", mpn: "A3994", price: 750, originalPrice: 830, stock: 2811, featured: true, status: "active",
+        gtin: "194644039165", gtin13: "0194644039165", mpn: "A3994", price: 750, originalPrice: 830, stock: 394, featured: true, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt.webp", alt: "Anker Soundcore K20i true wireless earbuds semi-in-ear - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt.webp", alt: "Anker Soundcore K20i true wireless earbuds semi-in-ear - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-earbud-close-up-driver-detail-design.webp", alt: "سماعة انكر ساوندكور K20i لاسلكية نصف داخلية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wearing-in-ear-fit-comfort-lifestyle.webp", alt: "Anker K20i earbuds close-up showing 13mm driver detail", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-charging-case-open-led-indicator.webp", alt: "Anker K20i charging case with earbuds USB-C port", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-touch-controls-earbud-surface-detail.webp", alt: "Anker K20i worn in ear comfortable semi-in-ear fit", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-bluetooth-pairing-phone-connection.webp", alt: "Anker Soundcore K20i box contents and accessories", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-usb-c-charging-port-case-detail.webp", alt: "Anker K20i BassUp technology demonstration", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-package-contents-eartips-cable-manual.webp", alt: "انكر K20i استخدام في المترو القاهرة", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-battery-life-playtime-test-lab-egypt.webp", alt: "Anker K20i Soundcore app EQ customization screen", order: 8, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_3", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wearing-in-ear-fit-comfort-lifestyle.webp", alt: "Anker K20i earbuds close-up showing 13mm driver detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-charging-case-open-led-indicator.webp", alt: "Anker K20i charging case with earbuds USB-C port - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-touch-controls-earbud-surface-detail.webp", alt: "Anker K20i worn in ear comfortable semi-in-ear fit - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-bluetooth-pairing-phone-connection.webp", alt: "Anker Soundcore K20i box contents and accessories - CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-usb-c-charging-port-case-detail.webp", alt: "Anker K20i BassUp technology demonstration - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-package-contents-eartips-cable-manual.webp", alt: "انكر K20i استخدام في المترو القاهرة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-battery-life-playtime-test-lab-egypt.webp", alt: "Anker K20i Soundcore app EQ customization screen - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: ["anker-soundcore-r50i-nc", "anker-soundcore-r50i", "anker-a8050-usb-c-cable", "anker-a2741-charger-30w", "anker-zolo-a110d-10000"],
         translations: {

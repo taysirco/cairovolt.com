@@ -10,20 +10,20 @@ export const joyroom_jr_t03_wireless_earbuds = {
         mpn: "JR-AU-T03",
         price: 774,
         originalPrice: 899,
-        stock: 2751,
+        stock: 564,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-1.webp", alt: "joyroom jr t03 wireless earbuds - Original Sealed | Fast Egypt Delivery", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-10.webp", alt: "joyroom jr t03 wireless earbuds - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-2.webp", alt: "joyroom jr t03 wireless earbuds - Best Deal in Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-3.webp", alt: "joyroom jr t03 wireless earbuds - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-1.webp", alt: "joyroom jr t03 wireless earbuds - Original Sealed | Fast Egypt Delivery - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-10.webp", alt: "joyroom jr t03 wireless earbuds - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-2.webp", alt: "joyroom jr t03 wireless earbuds - Best Deal in Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-3.webp", alt: "joyroom jr t03 wireless earbuds - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-4.webp", alt: "joyroom jr t03 wireless earbuds - CairoVolt Verified Original", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-5.webp", alt: "joyroom jr t03 wireless earbuds الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-6.webp", alt: "joyroom jr t03 wireless earbuds - 18 Month Dealer Warranty Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-5.webp", alt: "joyroom jr t03 wireless earbuds الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-6.webp", alt: "joyroom jr t03 wireless earbuds - 18 Month Dealer Warranty Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_8", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-7.webp", alt: "joyroom jr t03 wireless earbuds - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_9", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-8.webp", alt: "joyroom jr t03 wireless earbuds - Factory Original CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_10", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-9.webp", alt: "joyroom jr t03 wireless earbuds - أوريجينال مصر | مع كفالة استبدال", order: 9, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_10", url: "/products/joyroom/joyroom-jr-t03-wireless-earbuds/joyroom-joyroom-jr-t03-wireless-earbuds-egypt-cairo-9.webp", alt: "joyroom jr t03 wireless earbuds - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -38,7 +38,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         <li>👆 <strong>Touch Controls:</strong> Play/pause, skip, volume, and call answer on earbuds.</li>
         <li>📱 <strong>Bluetooth 5.0:</strong> Stable connection with iPhone 17, Samsung S26, and all devices.</li>
         <li>💰 <strong>Best Budget:</strong> Quality wireless earbuds at Egypt's most affordable price.</li>
-    <li>💰 <strong>1.43 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.43 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
+    <li>💰 <strong>1.43 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -90,7 +90,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
             },
             ar: {
                 name: "سماعة جوي روم JR-T03 | أرخص سماعة بلوتوث أصلية للطلبة | ضمان 12 شهر",
-                shortDescription: "سماعة الغلابة اللي بتعيش 🎧 صوت ممتاز للمحاضرات والأغاني | 🔋 20 ساعة بطارية | 🎤 ميكروفون مكالمات شغال لو انت في مكان هادي",
+                shortDescription: "سماعة الغلابة اللي بتعيش | 🎧 صوت ممتاز للمحاضرات والأغاني | 🔋 20 ساعة بطارية | 🎤 ميكروفون مكالمات شغال لو انت في مكان هادي",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم JR-T03</strong> بتوفر <strong>20 ساعة بطارية إجمالية + بلوتوث 5.0 + تحكم باللمس</strong> بـ 774 جنيه. مقاومة مياه IPX4 للجيم. صوت bass عميق بسماعات 13 مم. سماعة يومية ممتازة بتتفوق على سعرها. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -124,7 +124,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">ميكروفون مدمج: اتكلم من غير ما تطلّع الموبايل</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">ميكروفون مدمج: اتكلم من غير ما تطلّع الموبايل (الهاتف الذكي)</h2>
         <p class="text-gray-700"><strong>الميكروفون المدمج</strong> بيتعامل مع المكالمات بوضوح. مش جودة استوديو، بس كافي جداً للمكالمات اليومية. كل سماعة بتشتغل مستقلة — استخدم واحدة للمكالمات واشحن التانية. لجودة مكالمات أفضل وANC، ارقى لـ <a href="/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
     </section>
 </div>
@@ -158,7 +158,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
         },
         relatedProducts: [
         "joyroom-t03s-pro-earbuds",
-        "joyroom-3-in-1-data-cable",
+        "joyroom-ft3-smartwatch",
         "joyroom-magnetic-power-bank-10000",
         "joyroom-usb-a-type-c-cable",
         "joyroom-power-bank-10000",

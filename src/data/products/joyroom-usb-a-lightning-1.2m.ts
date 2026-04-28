@@ -10,17 +10,17 @@ export const joyroom_usb_a_lightning_1_2m = {
         mpn: "JR-S-AL12",
         price: 114,
         originalPrice: 150,
-        stock: 3313,
+        stock: 574,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning 1.2m Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-3.webp", alt: "كابل جوي روم USB-A Lightning 1.2 متر مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-4.webp", alt: "Joyroom Lightning Cable 36mos Warranty", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-5.webp", alt: "كابل ايفون طويل 1.2 متر", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-6.webp", alt: "Joyroom 4ft Lightning Cable", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-7.webp", alt: "كابل جوي روم متين", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-8.webp", alt: "Joyroom USB-A Lightning Premium", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning 1.2m Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-3.webp", alt: "كابل جوي روم USB-A Lightning 1.2 متر مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-4.webp", alt: "Joyroom Lightning Cable 36mos Warranty - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-5.webp", alt: "كابل ايفون طويل 1.2 متر - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-6.webp", alt: "Joyroom 4ft Lightning Cable - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-7.webp", alt: "كابل جوي روم متين - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-8.webp", alt: "Joyroom USB-A Lightning Premium - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -45,11 +45,11 @@ export const joyroom_usb_a_lightning_1_2m = {
             },
             ar: {
                 name: "كابل جوي روم USB-A إلى Lightning 1.2 متر | يوصل من البريزة المصرية للسرير براحة | ضمان 36 شهر",
-                shortDescription: "اشحن وانت نايم براحة 🛏️ 1.2 متر الطول المثالي للكومودينو | 🛡️ ضمان 3 سنين (أطول ضمان كابل في مصر) | ⚡ 2.4A متين",
+                shortDescription: "اشحن وانت نايم براحة | 🛏️ 1.2 متر الطول المثالي للكومودينو | 🛡️ ضمان 3 سنين (أطول ضمان كابل في مصر) | ⚡ 2.4A متين",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، كابل <strong>Lightning 1.2 متر</strong> بيحل مشكلة مصر الأولى مع الكابلات: قصير ومبيوصلش من البريزة للسرير. <strong>2.4 أمبير + ضمان 36 شهر + بناء نايلون</strong>. مجرّب في 4 موديلات عربيات مصرية. بـ 114 جنيه لـ 3 سنين = 0.10 جنيه/يوم. نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>📏 <strong>1.2 متر:</strong> بيوصل من بريزة الأرض المصرية لارتفاع السرير.</li><li>🛡️ <strong>ضمان 36 شهر:</strong> 3 سنين شحن مضمون.</li><li>⚡ <strong>2.4 أمبير:</strong> أقصى سرعة شحن قياسية لايفونات Lightning.</li><li>💰 <strong>0.10 جنيه/يوم:</strong> على 36 شهر، تقريباً ببلاش.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"البرايز المصرية قريبة من الأرض. كابلات 1 متر مبتوصلش. قسنا — 1.2 متر هو الرقم السحري للشحن بجانب السرير. ضيف ضمان 36 شهر ومعاك كابل بتركّبه مرة وتنساه 3 سنين. جربناه في هيونداي وتويوتا وكيا وسوزوكي — بيركّب في كل فيش USB العربية تمام."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>
-<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">1.2 متر: حل السرير المصري</h2><p class="text-gray-700">بريزة أرضية + سرير عالي = كابل 1 متر بيتمط ويتعب. <strong>1.2 متر</strong> بيدّي مسافة مريحة. استخدم موبايلك وهو بيشحن من غير ما تشد الكابل.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">36 شهر: اشتريه وانساه</h2><p class="text-gray-700">ضمان 3 سنين يعني الكابل ده بيعيش أكتر من أغلب الموبايلات. لو فشل في 3 سنين، <strong>استبدال مجاني فوري</strong>. من غير أسئلة.</p></section></div>
+<div class="product-details"><section><h2 class="text-2xl font-bold mb-2 text-gray-900">1.2 متر: حل السرير المصري</h2><p class="text-gray-700">بريزة أرضية + سرير عالي = كابل 1 متر بيتمط ويتعب. <strong>1.2 متر</strong> بيدّي مسافة مريحة. استخدم موبايلك وهو بيشحن من غير ما تشد الكابل.</p></section><section><h2 class="text-2xl font-bold mb-2 text-gray-900">36 شهر: اشتريه وانساه</h2><p class="text-gray-700">ضمان 3 سنين يعني الكابل ده بيعيش أكتر من أغلب الموبايل (الهاتف الذكي)ات. لو فشل في 3 سنين، <strong>استبدال مجاني فوري</strong>. من غير أسئلة.</p></section></div>
 <div class="device-compatibility"><h3 class="font-bold mb-2">الأجهزة المتوافقة:</h3><ul class="list-disc list-inside text-gray-700"><li>📱 <strong>ايفون 14/13/12/11/SE:</strong> شحن 2.4 أمبير.</li><li>📱 <strong>ايباد (Lightning):</strong> شحن قياسي.</li><li>🎧 <strong>AirPods Pro/3:</strong> شحن.</li><li>❌ <strong>ايفون 17/16/15:</strong> غير متوافق (USB-C).</li></ul></div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">USB-A لـ Lightning بس. مش بيشتغل مع ايفون 17/16/15 (USB-C) ومش بيدعم شحن PD سريع. للشحن السريع، استخدم كابل USB-C لـ Lightning.</p></div>`,
                 features: ["⚡ شحن 2.4 أمبير", "✨ طول 1.2 متر", "✨ ايفون 14 والأقدم", "🏆 ضمان 36 شهر", "✨ تصميم متين"],

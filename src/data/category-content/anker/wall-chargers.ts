@@ -21,7 +21,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                     title: 'شاحن انكر - من 375 جنيه',
                     subtitle: 'شحن سريع ايفون 17 وسامسونج S26 | ضمان 18 شهر',
                     description: `
-على عكس الشواحن المقلدة اللي بتسخن لـ 65°م وبتبوظ Battery Health خلال 6 شهور — شاحن **انكر** بيعتمد على تقنية **GaN III** + نظام ActiveShield 3.0 اللي بيراقب الحرارة 3 مليون مرة في اليوم. من 20 لـ 100 واط. ضمان 18 شهر.
+موبايلك بيسخن وأنت بتشحنه؟ Battery Health بينزل كل شهر؟ المشكلة مش في الموبايل — المشكلة في الشاحن. شاحن **انكر** الأصلي مصمم ليحافظ على بطاريتك لسنوات. ضمان 18 شهر من CairoVolt.
 
 اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة، دفع عند الاستلام.
     `,
@@ -66,16 +66,11 @@ export const anker_wall_chargers_content: CategoryContent = {
                         }
                     ],
                     faq: [
-                        { question: 'ما أفضل شاحن انكر للايفون 17؟', answer: 'شاحن انكر نانو 3 GaN بقوة 30 واط (A2147) بسعر 430 جنيه — أصغر 70% من شاحن 30 واط العادي ويشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. تقنية GaN + IQ3 + ActiveShield 2.0. ضمان 24 شهر.' },
-                        { question: 'ما أفضل شاحن انكر لسامسونج S26؟', answer: 'شاحن انكر 25 واط PPS لـ S26 العادي. شاحن 45 واط PPS لـ S26 Ultra. تقنية PPS ضرورية لفتح Super Fast Charging.' },
-                        { question: 'كم سعر شاحن انكر في مصر؟', answer: 'من 375 جنيه (20W) إلى 1299 جنيه (100W). الأكثر مبيعاً: GaN 30W Nano 3 بـ 430 جنيه للايفون 17 (أصغر 70%)، 25W بـ 550 جنيه لسامسونج S26.' },
-                        { question: 'ما الفرق بين شاحن 20 وات و 30 وات؟', answer: '20W يشحن ايفون 17 من 0→50% في 30 دقيقة. 30W يفعلها في 25 دقيقة. توفير 5 دقائق يومياً = ساعتين شهرياً!' },
-                        { question: 'هل شاحن انكر آمن على البطارية؟', answer: 'نعم! تقنية ActiveShield 3.0 تراقب الحرارة 3 مليون مرة/يوم. نظام MultiProtect بـ 11 نقطة أمان يحمي من الشحن الزائد.' },
-                        { question: 'ما هي تقنية GaN في شاحن انكر؟', answer: 'GaN (Gallium Nitride) = نيتريد الجاليوم — شاحن أصغر 70% من الأصلي مع نفس القوة. أنكر نانو 3 (A2147) مثال حي: 30 واط في جسم 38 جرام بسعر 430 جنيه. كفاءة 95% وحرارة أقل بكتير.' },
-                        { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'نعم! شاحن 65W GaN بيشحن MacBook Air بالكامل في ساعة و45 دقيقة. وشاحن 45W بيشحن أي لابتوب USB-C متوسط. كلهم بتقنية GaN III اللي بتقلل الحجم 50% مقارنة بالشواحن التقليدية.' },
-                        { question: 'كيف أتأكد أن شاحن انكر أصلي؟', answer: '⚠️ تحذير: شواحن مقلدة كتير في السوق! الشاحن المقلد (fake) بيسخن ويضر البطارية. للتأكد من الأصلي: امسح كود QR على العلبة في موقع anker.com/verify. أو اشترِ من موزع معتمد مثل CairoVolt بضمان 18 شهر.' },
-                        { question: 'ما ضمان شاحن انكر في مصر؟', answer: 'ضمان 18 شهر من CairoVolt - أطول من ضمان أبل وسامسونج الأصلي. استبدال فوري لعيوب الصناعة.' },
-                        { question: 'أين أشتري شاحن انكر أصلي في مصر؟', answer: 'من CairoVolt - الموزع المعتمد. ضمان 18 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام، كود QR للتحقق.' }
+                        { question: 'ما أفضل شاحن انكر للايفون 17؟', answer: 'A2147 نانو 3 GaN بـ 30 واط — أصغر 70% من شواحن السيليكون. يشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. شوف جدول المقارنة في دليل الشراء بالأعلى.' },
+                        { question: 'ما أفضل شاحن انكر لسامسونج S26؟', answer: '25 واط PPS لـ S26 العادي، 45 واط PPS لـ S26 Ultra. تقنية PPS ضرورية لفتح Samsung Super Fast Charging — بدونها الشحن بيكون بطيء.' },
+                        { question: 'ما الفرق بين شاحن 20 وات و 30 وات؟', answer: 'فارق 9 دقائق في كل شحنة (30 دقيقة vs 21 دقيقة لـ 50%). يومياً التوفير = 5 دقائق. شهرياً = ساعتين. راجع الجدول التفصيلي في دليل الشراء.' },
+                        { question: 'هل شاحن انكر يشحن لابتوب MacBook؟', answer: 'أيوه. من 45W فأعلى بيشحن لابتوبات USB-C. للماك بوك اير: 65W كافي. للماك بوك برو 16: 100W مطلوب. كلهم بيدعموا شحن جهازين في نفس الوقت.' },
+                        { question: 'ما ضمان شاحن انكر من CairoVolt؟', answer: '18 شهر استبدال فوري — أطول من ضمان أبل وسامسونج. يغطي عيوب الصناعة والسخونة غير الطبيعية. للتحقق من الأصالة: امسح كود QR على العلبة في anker.com/verify.' }
                     ],
                     products: [
                         { name: 'شاحن انكر 20 واط', price: 375, badge: 'الأرخص' },
@@ -92,7 +87,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                     title: 'Anker Charger - From EGP 375',
                     subtitle: 'iPhone 17 & Samsung S26 Fast Charging | 18-Month Warranty',
                     description: `
-Unlike fake chargers that overheat to 65°C and destroy Battery Health within 6 months — **Anker** chargers use **GaN III** technology + ActiveShield 3.0 that monitors temperature 3 million times/day. 20W to 100W. 18-month warranty.
+Phone getting hot while charging? Battery Health dropping every month? The problem isn't your phone — it's your charger. Original **Anker** chargers are engineered to protect your battery for years. 18-month CairoVolt warranty.
 
 Order now — next-day Cairo & Giza delivery, cash on delivery.
     `,
@@ -135,18 +130,6 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
 [Shop Anker Cables](/en/anker/cables) — **15% off when bundled with charger!**
 `
                         }
-                    ],
-                    faq: [
-                        { question: 'What is the best Anker charger for iPhone 17?', answer: 'Anker Nano 3 GaN 30W (A2147) at EGP 430 — 70% smaller than standard 30W and charges iPhone 17 Pro from 0→50% in 21 minutes. GaN + IQ3 + ActiveShield 2.0. 24-month warranty.' },
-                        { question: 'What is the best Anker charger for Samsung S26?', answer: 'Anker 25W PPS for S26 standard. Anker 45W PPS for S26 Ultra. PPS technology is essential for Super Fast Charging.' },
-                        { question: 'How much does an Anker charger cost in Egypt?', answer: 'From EGP 375 (20W) to EGP 1299 (100W). Bestseller: GaN Nano 3 30W at EGP 430 for iPhone 17 (70% smaller), 25W at EGP 550 for Samsung.' },
-                        { question: 'What is the difference between 20W and 30W chargers?', answer: '20W charges iPhone 17 from 0→50% in 30 min. 30W does it in 25 min. Save 5 min daily = 2 hours monthly!' },
-                        { question: 'Is Anker charger safe for battery health?', answer: 'Yes! ActiveShield 3.0 monitors temperature over 3 million times daily using internal sensors. If it detects any abnormal heat spike, it automatically reduces power output to protect your device. This is why Anker chargers never overheat, unlike unbranded alternatives.' },
-                        { question: 'What is GaN technology in Anker chargers?', answer: 'GaN (Gallium Nitride) = 70% smaller than silicon with same or higher power. Anker Nano 3 (A2147) is a prime example: 30W in a 38g body for EGP 430. 95% efficiency and much less heat.' },
-                        { question: 'Can Anker charger charge MacBook?', answer: 'Yes! The 65W GaN charger fully charges a MacBook Air in 1 hour 45 minutes. The 45W handles any mid-range USB-C laptop. All use GaN III technology, which reduces size by 50% compared to traditional silicon chargers.' },
-                        { question: 'How to verify Anker charger is original?', answer: 'Scan QR code on box at anker.com/verify. Or buy from authorized dealer like CairoVolt with 18-month warranty.' },
-                        { question: 'What is the warranty for Anker charger in Egypt?', answer: '18-month warranty from CairoVolt — longer than Apple and Samsung official warranty. Instant replacement for defects.' },
-                        { question: 'Where to buy original Anker charger in Egypt?', answer: 'From CairoVolt — authorized dealer. 18-month warranty, next-day Cairo delivery, cash on delivery, QR verification.' }
                     ],
                     products: [
                         { name: 'Anker 20W Charger', price: 375, badge: 'Budget' },

@@ -10,18 +10,18 @@ export const anker_powercore_26800 = {
         mpn: "A1277011",
         price: 2300,
         originalPrice: 3500,
-        stock: 3005,
+        stock: 1485,
         featured: false,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-powercore-26800/anker-powercore-26800mah-ultra-capacity-power-bank-cairovolt.webp", alt: "باور بانك انكر 26800 مللي أمبير سعة فائقة ثلاث منافذ USB-A - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
-            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-triple-usb-a-output-ports-detail.webp", alt: "Anker PowerCore 26800 triple USB-A output ports detail for multi-device charging", order: 1, isPrimary: false, width: 1200, height: 1500 },
-            { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-dual-input-micro-usb-charging.webp", alt: "منفذ مايكرو USB مزدوج لشحن باور بانك انكر 26800 بسرعة مضاعفة", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-triple-usb-a-output-ports-detail.webp", alt: "Anker PowerCore 26800 triple USB-A output ports detail for multi-device charging - CairoVolt", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-dual-input-micro-usb-charging.webp", alt: "منفذ مايكرو USB مزدوج لشحن باور بانك انكر 26800 بسرعة مضاعفة - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
             { id: "img_4", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-charging-laptop-tablet-phone-multi.webp", alt: "Anker PowerCore 26800 charging laptop tablet and phone simultaneously - CairoVolt test", order: 3, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-size-comparison-weight-349g.webp", alt: "حجم باور بانك انكر 26800 مقارنة - وزن 349 جرام تصميم محمول", order: 4, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_6", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-led-battery-indicator-status.webp", alt: "Anker PowerCore 26800 LED battery indicator showing charging status level", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-size-comparison-weight-349g.webp", alt: "حجم باور بانك انكر 26800 مقارنة - وزن 349 جرام تصميم محمول - كايرو فولت", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-led-battery-indicator-status.webp", alt: "Anker PowerCore 26800 LED battery indicator showing charging status level - CairoVolt", order: 5, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_7", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-capacity-endurance-test-lab-egypt.webp", alt: "اختبار سعة وتحمل باور بانك انكر 26800 في مختبر كايرو فولت مصر", order: 6, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_8", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-package-box-cables-accessories.webp", alt: "Anker PowerCore 26800 package box with cables and all accessories included", order: 7, isPrimary: false, width: 928, height: 1152 }
+            { id: "img_8", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-package-box-cables-accessories.webp", alt: "Anker PowerCore 26800 package box with cables and all accessories included - CairoVolt", order: 7, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
             en: {
@@ -105,7 +105,7 @@ export const anker_powercore_26800 = {
             },
             ar: {
                 name: "باور بانك انكر 26800 مللي أمبير | وحش السفر والرحلات (3 منافذ) | ضمان 24 شهر",
-                shortDescription: "أكبر سعة مسموحة تاخدها معاك الطيارة قانونياً 🔋 5 شحنات ايفون | 🔌 3 منافذ بيشحنوا موبايلات العيلة كلها وقت الطوارئ",
+                shortDescription: "🔋 5 شحنات ايفون كاملة | 🔌 3 منافذ بيشحنوا العيلة كلها | ✈️ أكبر سعة مسموحة على الطيارة | 🛡️ ضمان 18 شهر",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الباوربنكات العادية اللي بتخلص بعد شحنتين، <strong>أنكر PowerCore 26800 (A1277)</strong> بخزن 96.48 واط/ساعة — أكبر سعة مسموحة قانونياً على أي طيارة. يعني 5 شحنات ايفون 17 كاملة، 4 شحنات سامسونج S26، أو طاقة عيلة كاملة لـ 5 أيام تخييم في سيوة. 3 منافذ USB-A مع PowerIQ 2.0 بيشحنوا 3 أجهزة في نفس الوقت. مدخلين Micro-USB بيشحنوه في 6 ساعات بدل 20. سعر 2,300 جنيه، ضمان 24 شهر. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p>

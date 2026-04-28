@@ -1,16 +1,23 @@
 // Product: anker-a2147-gan-charger-30w (WALL CHARGER — Anker 511 Nano 3, 30W GaN USB-C)
 export const anker_a2147_gan_charger_30w = {
         slug: "anker-a2147-gan-charger-30w", sku: "ANK-WC-A2147", brand: "Anker", categorySlug: "wall-chargers",
-        gtin: "194644126940", gtin13: "0194644126940", mpn: "A2147", price: 430, originalPrice: 470, stock: 3042, featured: true, status: "active",
+        gtin: "194644126940", gtin13: "0194644126940", mpn: "A2147", price: 430, originalPrice: 470, stock: 1127, featured: true, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-30w-gan-charger-usb-c-front-cairovolt.webp", alt: "Anker A2147 Nano 3 GaN 30W USB-C wall charger with foldable plug and IQ3 technology", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-30w-gan-charger-usb-c-front-cairovolt.webp", alt: "Anker A2147 Nano 3 GaN 30W USB-C wall charger with foldable plug and IQ3 technology - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charger-with-devices-iphone-ipad-airpods.webp", alt: "شاحن انكر A2147 بقوة 30 واط مع ايفون وايباد وايربودز وابل واتش - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-box-specifications-model-details.webp", alt: "Anker 511 Charger Nano 3 A2147 box back with specifications and 24-month warranty", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-series5-retail-box-scratch-verify-authentic.webp", alt: "علبة شاحن انكر A2147 Series 5 مع ملصق التحقق من الأصالة Scratch and Check", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charging-iphone-17-pro-50-percent-21min.webp", alt: "Anker A2147 30W charging iPhone 17 Pro to 50% in 21 minutes fast charge demo", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-70-percent-smaller-size-comparison.webp", alt: "مقارنة حجم شاحن انكر Nano 3 أصغر 70% من شاحن 30 واط العادي", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_3", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-box-specifications-model-details.webp", alt: "Anker 511 Charger Nano 3 A2147 box back with specifications and 24-month warranty - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-series5-retail-box-scratch-verify-authentic.webp", alt: "علبة شاحن انكر A2147 Series 5 مع ملصق التحقق من الأصالة Scratch and Check - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charging-iphone-17-pro-50-percent-21min.webp", alt: "Anker A2147 30W charging iPhone 17 Pro to 50% in 21 minutes fast charge demo - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-70-percent-smaller-size-comparison.webp", alt: "مقارنة حجم شاحن انكر Nano 3 أصغر 70% من شاحن 30 واط العادي - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-powerport-20w", "anker-powerport-25w", "anker-nano-45w", "anker-nano-45w-smart-display-charger", "anker-a8050-usb-c-cable", "anker-powerline-usb-c-usb-c"],
+        relatedProducts: [
+        "anker-powerport-20w",
+        "anker-powerport-25w",
+        "anker-nano-45w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-a2732-charger-35w",
+        "anker-a2741-charger-30w"
+    ],
         translations: {
             en: {
                 name: "Anker 511 Nano 3 GaN Charger 30W (A2147) | USB-C PD | 70% Smaller | IQ3 | 24-Month Warranty",
@@ -116,7 +123,7 @@ export const anker_a2147_gan_charger_30w = {
                     { question: "يعني إيه GaN وليه أحسن؟", answer: "GaN اختصار Gallium Nitride — نيتريد الجاليوم — مادة شبه موصلة بتتعامل مع الطاقة بكفاءة أعلى من السيليكون التقليدي. ده بيخلي أنكر يبني شاحن 30 واط أصغر 70% وبيسخن أقل. نفس القوة في جزء صغير من الحجم." },
                     { question: "ينفع يشحن ماك بوك؟", answer: "أيوه، بس ببطء. الـ 30 واط ينفع يشحن ماك بوك اير (M3/M4) — مفيد كشاحن طوارئ أو بالليل. للشحن اليومي للماك بوك، خد بالك من شاحن Anker Nano بقوة 45 واط أو أعلى." },
                     { question: "إيه الفرق بينه وبين شاحن انكر 20 واط؟", answer: "الـ A2147 بيوفر 30 واط (مقابل 20 واط) في نفس الحجم المدمج تقريباً بفضل تقنية GaN. بيشحن ايفون أسرع بـ 50% وكمان يقدر يشحن ايباد وحتى ماك بوك. كمان من Series 5 مع IQ3 — ترقية كبيرة في السرعة والذكاء." },
-                    { question: "30 واط مش هيضر بطارية ايفوني؟", answer: "لا خالص. ActiveShield 2.0 من أنكر بيراقب الحرارة ملايين المرات يومياً. الـ A2147 بيوفر بس اللي ايفونك بيطلبه — الايفون بيحدد أقصى شحن عند ~27 واط أصلاً. كمان تصميم GaN بيشتغل أبرد من شواحن السيليكون، فده بيحمي صحة البطارية أكتر." },
+                    { question: "30 واط مش هيضر بطارية ايفوني؟", answer: "لا خالص. ActiveShield 2.0 من أنكر بيراقب الحرارة ملايين المرات يومياً. الـ A2147 بيوفر بس اللي ايفونك بيطلبه — الايفون بيحدد أقصى شحن عند ~27 واط أصلاً." },
                     { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 24 شهر بيغطي عيوب التصنيع وعطل المنفذ والسخونة وعدم ثبات الشحن. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }

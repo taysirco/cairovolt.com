@@ -10,14 +10,14 @@ export const anker_zolo_a1681_20000 = {
         mpn: "A1681",
         price: 2200,
         originalPrice: 2500,
-        stock: 3151,
+        stock: 544,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 USB-C PD 45W port and USB-A detail", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp", alt: "Anker ZOLO A1681 power bank 20000mAh 45W front view - Egypt", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 USB-C PD 45W port and USB-A detail - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp", alt: "Anker ZOLO A1681 power bank 20000mAh 45W front view - Egypt - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-usb-c-45w-pd-fast-charging-laptop-compatible.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير 45 واط - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 charging MacBook Air alongside iPhone", order: 3, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 charging MacBook Air alongside iPhone - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-zolo-a110e-20000",
@@ -128,8 +128,8 @@ export const anker_zolo_a1681_20000 = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">45 واط PD: هنا بيبدأ شحن اللابتوبات</h2>
-        <p class="text-gray-700">الـ A1681 كسر الحاجز اللي بيفصل شواحن الموبايلات عن شواحن اللابتوبات. بـ<strong>45 واط USB-C Power Delivery</strong>، بيشحن ماك بوك اير، ايباد برو، سيرفس جو، وأغلب كروم بوكات USB-C. يعني وقت انقطاع الكهربا، مش بس بتحافظ على موبايلك — بتحافظ على محطة شغلك كلها. في اختبارنا، 45 واط شحنت ماك بوك اير M3 من 20% لـ 72% في ساعتين مع شحن ايفون في نفس الوقت.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">45 واط PD: هنا بيبدأ شحن اللابتوب (الحاسب المحمول)ات</h2>
+        <p class="text-gray-700">الـ A1681 كسر الحاجز اللي بيفصل شواحن الموبايل (الهاتف الذكي)ات عن شواحن اللابتوبات. بـ<strong>45 واط USB-C Power Delivery</strong>، بيشحن ماك بوك اير، ايباد برو، سيرفس جو، وأغلب كروم بوكات USB-C. يعني وقت انقطاع الكهربا، مش بس بتحافظ على موبايلك — بتحافظ على محطة شغلك كلها. في اختبارنا، 45 واط شحنت ماك بوك اير M3 من 20% لـ 72% في ساعتين مع شحن ايفون في نفس الوقت.</p>
     </section>
 
     <section>

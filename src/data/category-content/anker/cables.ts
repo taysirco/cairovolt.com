@@ -111,24 +111,6 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
 `
                         }
                     ],
-                    faq: [
-                        {
-                            question: 'Why is Anker cable more expensive?',
-                            answer: 'You get 5x lifespan — CairoVolt test: 35,000 bends without damage. Plus official MFi certification protects your phone charging IC.'
-                        },
-                        {
-                            question: '⚠️ How to spot a fake Anker cable?',
-                            answer: 'Fake cables damage charging circuits. Original: 1) MFi certified — fakes trigger iOS error 2) Braided nylon — fakes are plastic 3) 35K bends — fakes 2K 4) 18-month CairoVolt warranty.'
-                        },
-                        {
-                            question: 'Does Anker USB-C work with Samsung?',
-                            answer: 'Yes! Anker USB-C cable supports Samsung Super Fast (25W+), rated for 35,000 bends. Available from CairoVolt with 18-month warranty, Cairo delivery.'
-                        },
-                        {
-                            question: 'What is the difference between Anker iPhone cable and standard cable?',
-                            answer: 'Anker iPhone cables (Lightning or USB-C to Lightning) are MFi certified — they work with iOS without error messages. Available from CairoVolt with 18-month warranty, Cairo delivery, cash on delivery.'
-                        }
-                    ],
                     products: [
                         { name: 'Anker PowerLine Select+ (Braided)', price: 508, badge: 'Durable' },
                         { name: 'Anker PowerLine II (USB-C to Lightning)', price: 508, badge: 'Fast Charge' },

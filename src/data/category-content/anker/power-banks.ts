@@ -49,18 +49,18 @@ export const anker_power_banks_content: CategoryContent = {
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: '10,000mAh: مثالي للاستخدام اليومي الخفيف. يشحن iPhone 17 Pro مرتين تقريباً، حجم صغير يدخل الجيب. 20,000mAh: الخيار الأفضل للسفر والاستخدام المكثف. يشحن iPhone 17 Pro حوالي 4 مرات، أو يشحن ايباد مرة كاملة. القاعدة: كل 5000mAh = شحنة كاملة تقريباً للموبايل.' },
-                        { question: 'هل باور بانك انكر Prime يشحن لابتوب MacBook؟', answer: 'نعم! سلسلة Prime مصممة خصيصاً لشحن اللابتوبات. موديل A1695 بيطلع 140 واط — كافي لشحن MacBook Pro 16 بوصة بالكامل. فيه 3 منافذ (2 USB-C + 1 USB-A) عشان تشحن لابتوبك وموبايلك في نفس الوقت.' },
-                        { question: 'كيف أتأكد أن باور بانك انكر أصلي وليس تقليد؟', answer: 'الطريقة الأضمن: ١) اشترِ من وكيل معتمد (مثلنا). ٢) تحقق من السيريال على موقع anker.com/verify. ٣) المنتج الأصلي يأتي بضمان 18 شهر. ٤) الوزن: المقلد أخف بشكل ملحوظ لأنه يستخدم خلايا رديئة. ٥) جودة البلاستيك والطباعة.' },
-                        { question: 'أيهما أفضل باور بانك انكر أم شاومي (Xiaomi)؟', answer: 'انكر تتفوق في: ١) جودة الخلايا (Grade-A vs عادية). ٢) نظام الأمان (MultiProtect 11 نقطة vs أقل). ٣) العمر الافتراضي (500+ دورة vs 300). ٤) الضمان (18 شهر vs 6 أشهر). ٥) تقنية PowerIQ للشحن الذكي. شاومي اقتصادية لكن انكر استثمار طويل المدى.' },
-                        { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'يعتمد على سعة الباور بانك! iPhone 17 Pro بطاريته ~3500mAh. 5,000mAh = 1.2 شحنة. 10,000mAh = 2.5 شحنة. 20,000mAh = 4.5 شحنة. 27,650mAh Prime = 6+ شحنات. ملاحظة: هناك فقدان ~15% أثناء التحويل، لذلك النتيجة الفعلية أقل قليلاً من النظرية.' }
+                        { question: 'ما الفرق بين باور بانك انكر 10000 و 20000 مللي أمبير؟', answer: 'راجع جدول السعات في دليل الشراء بالأسفل. باختصار: 10K للجيب واليوم العادي، 20K للسفر والرحلات الطويلة.' },
+                        { question: 'هل باور بانك انكر Prime يشحن لابتوب MacBook؟', answer: 'أيوه. Prime عنده 3 منافذ (2 USB-C + 1 USB-A) فتشحن لابتوبك وموبايلك وتابلت في نفس الوقت. التفاصيل والسرعات الفعلية في دليل الشراء.' },
+                        { question: 'أيهما أفضل باور بانك انكر أم شاومي (Xiaomi)؟', answer: 'انكر تتفوق في: ١) خلايا Grade-A (نفس تسلا) vs عادية. ٢) 500+ دورة شحن vs 300. ٣) ضمان 18 شهر vs 6. ٤) PowerIQ ذكي vs تيار ثابت. شاومي أرخص لكن انكر بتعيش أطول وأأمن.' },
+                        { question: 'كم مرة يشحن باور بانك انكر iPhone 17 Pro؟', answer: 'القاعدة: كل 5,000mAh = شحنة كاملة تقريباً (بعد خصم 15% خسارة التحويل). راجع الجدول في دليل الشراء للأرقام الدقيقة حسب الموديل.' },
+                        { question: 'هل باور بانك انكر مسموح على الطائرة؟', answer: 'أي باور بانك أقل من 100Wh (تقريباً 27,000mAh) مسموح. كل موديلات انكر حتى 20,000mAh مسموحة. Prime 27,650mAh = 99.5Wh فيدخل بالضبط. 👉 شوف تحذير المقلد في دليل الشراء بالأسفل.' }
                     ],
                     en: [
-                        { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: '10,000mAh: Perfect for light daily use. Charges iPhone 17 Pro about 2 times, pocket-sized. 20,000mAh: Best choice for travel and heavy use. Charges iPhone 17 Pro about 4 times, or a full iPad charge. Rule of thumb: every 5000mAh = roughly one full phone charge.' },
-                        { question: 'Can Anker Prime power bank charge a MacBook laptop?', answer: 'Yes! The Prime series is specifically designed for laptops. Prime 27,650mAh with 250W output charges MacBook Pro 16" from 0 to 50% in just 30 minutes. It can charge laptop + phone + iPad simultaneously. Make sure to choose Prime, not regular PowerCore.' },
-                        { question: 'How can I verify if my Anker power bank is genuine?', answer: 'The safest method: 1) Buy from authorized dealers (like us). 2) Verify serial number at anker.com/verify. 3) Genuine products come with 18-month warranty. 4) Weight: Fakes are noticeably lighter due to inferior cells. 5) Check plastic quality and printing.' },
-                        { question: 'Which is better: Anker or Xiaomi power bank?', answer: 'Anker excels in: 1) Cell quality (Grade-A vs standard). 2) Safety system (MultiProtect 11 points vs fewer). 3) Lifespan (500+ cycles vs 300). 4) Warranty (18 months vs 6 months). 5) PowerIQ smart charging technology. Xiaomi is budget-friendly, but Anker is a long-term investment.' },
-                        { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'Depends on capacity! iPhone 17 Pro battery is ~3500mAh. 5,000mAh = 1.2 charges. 10,000mAh = 2.5 charges. 20,000mAh = 4.5 charges. 27,650mAh Prime = 6+ charges. Note: There\'s ~15% conversion loss, so actual results are slightly lower than theoretical.' }
+                        { question: 'What is the difference between Anker 10000mAh and 20000mAh power bank?', answer: 'See the detailed capacity comparison in our buying guide below. Short version: 10K for pocket carry and light daily use, 20K for travel and heavy multi-device usage.' },
+                        { question: 'Can Anker Prime power bank charge a MacBook laptop?', answer: 'Yes. Prime has 3 ports (2 USB-C + 1 USB-A) so you can charge laptop + phone + tablet simultaneously. Check the buying guide for exact speeds and test data.' },
+                        { question: 'Which is better: Anker or Xiaomi power bank?', answer: 'Anker wins on: 1) Grade-A Tesla-grade cells vs standard. 2) 500+ charge cycles vs 300. 3) 18-month warranty vs 6. 4) PowerIQ smart charging vs fixed current. Xiaomi costs less upfront but Anker lasts longer and is safer.' },
+                        { question: 'How many times can an Anker power bank charge iPhone 17 Pro?', answer: 'Rule: every 5,000mAh ≈ one full charge (after 15% conversion loss). See the exact per-model numbers in our buying guide below.' },
+                        { question: 'Are Anker power banks allowed on flights?', answer: 'Any power bank under 100Wh (~27,000mAh) is airline-approved. All Anker models up to 20,000mAh pass easily. Prime 27,650mAh = 99.5Wh, just under the limit. 👉 See the counterfeit warning in our buying guide.' }
                     ]
                 }
             },
@@ -81,15 +81,12 @@ export const anker_power_banks_content: CategoryContent = {
                     title: 'باور بانك انكر الأصلي في مصر',
                     subtitle: 'Anker Power Bank - الأعلى جودة والأكثر مبيعاً',
                     description: `
-      انقطاع الكهرباء مفاجئ؟ رحلة 6 ساعات والموبايل (هاتفك الذكي) على 10%؟ باور بانك **انكر** بخلايا **Grade-A** (نفس المستخدمة في تسلا) + نظام **MultiProtect** بـ 11 نقطة أمان + شاشة LED ذكية. من 10,000 لـ 60,000 مللي أمبير. ضمان 18 شهر.
+      انقطاع الكهرباء مفاجئ؟ رحلة 6 ساعات والموبايل (هاتفك الذكي) على 10%؟ باور بانك **انكر** بخلايا ممتازة + شاشة LED ذكية. ضمان 18 شهر.
 
       **مصمم لكل سيناريو في مصر:**
-      - **يوم عادي في القاهرة:** 10,000mAh — يشحن ايفون 17 مرتين. حجم الجيب. 220 جرام فقط
-      - **رحلة الغردقة/الساحل:** 20,000mAh — 4 شحنات كاملة. معتمد IATA للطيران (<100Wh)
-      - **انقطاع كهرباء طويل:** 60,000mAh PowerCore Reserve — يشحن 10+ أجهزة. بيشغل راوتر Wi-Fi!
+      يوم عادي في القاهرة، رحلة الغردقة أو الساحل، أو انقطاع كهرباء طويل — عندنا السعة المناسبة لكل حالة. شوف دليل الشراء بالأسفل.
 
-      **ليه انكر مش أي باور بانك؟**
-      PowerIQ 4.0 بيتعرف على جهازك تلقائياً — ايفون ولا سامسونج ولا لابتوب — وبيديله أقصى سرعة شحن بأمان. 500+ دورة شحن (ضعف المتوسط). اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) + شاحن حائط انكر (/anker/wall-chargers) لمنظومة شحن كاملة.
+      اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة. تسوق [كابل انكر](/anker/cables) + [شاحن حائط انكر](/anker/wall-chargers) لمنظومة شحن كاملة.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'منتجات أصلية 100% (يمكن التحقق من السيريال)' },
@@ -123,20 +120,6 @@ export const anker_power_banks_content: CategoryContent = {
 `
                         }
                     ],
-                    faq: [
-                        {
-                            question: 'هل باور بانك انكر آمن على بطارية ايفون 17 الجديد؟',
-                            answer: 'نعم، وبشكل مطلق. منتجات انكر معتمدة FCC و UL للسلامة الكهربائية وتدعم تقنية ActiveShield™ 2.0 و 3.0 التي تراقب درجة حرارة البطارية أكثر من 3 مليون مرة يومياً. بالإضافة لذلك، هي تدعم بروتوكول الشحن المقتصد (Trickle Charging) وسحب الطاقة الذكي الذي يمنع الشحن الزائد، مما يحافظ على صحة البطارية (Health) عند 100% لفترة أطول.'
-                        },
-                        {
-                            question: 'كم شحنة يعطي باور بانك 10000 مللي أمبير للموبايلات المختلفة؟',
-                            answer: 'يعتمد على حجم بطارية هاتفك، ولكن في المتوسط يشحن الايفون العادي (مثل iPhone 16/17) حوالي مرتين، ويشحن هواتف البرو ماكس والألترا مرة ونصف.'
-                        },
-                        {
-                            question: 'ما هو الفرق بين ضمان الوكيل والضمان الدولي؟',
-                            answer: 'ضمان الوكيل (الذي نوفره) يضمن لك حق الاستبدال الفوري من داخل مصر في حالة وجود عيب صناعة، بينما الضمان الدولي يتطلب شحن المنتج للخارج.'
-                        }
-                    ],
                     products: [
                         { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'الأكثر طلباً' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
@@ -148,15 +131,12 @@ export const anker_power_banks_content: CategoryContent = {
                     title: 'Anker Power Bank Original in Egypt',
                     subtitle: 'Best Quality & Best Selling',
                     description: `
-      Sudden power outage? 6-hour trip and your phone is at 10%? Anker power banks use **Grade-A cells** (same as Tesla) + **MultiProtect** 11-point safety system + smart LED display. From 10,000 to 60,000 mAh. 18-month warranty.
+      Sudden power outage? 6-hour trip and your phone is at 10%? Anker power banks use reliable cells + smart LED display. 18-month warranty.
 
       **Designed for Every Egyptian Scenario:**
-      - **Regular Cairo Day:** 10,000mAh — charges iPhone 17 twice. Pocket-sized. Only 220g
-      - **Hurghada/Sahel Trip:** 20,000mAh — 4 full charges. Airline-safe (<100Wh)
-      - **Extended Power Outage:** 60,000mAh PowerCore Reserve — charges 10+ devices. Powers your Wi-Fi router!
+      Regular Cairo day, Hurghada or Sahel trip, or extended power outage — we have the right capacity for every situation. See our buying guide below.
 
-      **Why Anker Over Any Power Bank?**
-      PowerIQ 4.0 auto-detects your device — iPhone, Samsung, or laptop — and delivers maximum safe charging speed. 500+ charge cycles (double the average). CairoVolt tested — next-day Cairo & Giza delivery.
+      CairoVolt tested — next-day Cairo & Giza delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: '100% Original (Verify via Serial)' },
@@ -189,20 +169,6 @@ export const anker_power_banks_content: CategoryContent = {
 3. **Ports:** Original ports are precise; fake ones might be loose.
 **At CairoVolt, we guarantee 100% original products with official warranty.**
 `
-                        }
-                    ],
-                    faq: [
-                        {
-                            question: 'Is Anker Power Bank safe for iPhone 17?',
-                            answer: 'Yes, Anker has updated its ActiveShield™ technology to perfectly match iPhone 17 and Samsung S26 charging protocols ensuring 100% safety.'
-                        },
-                        {
-                            question: 'How many times does a 10000mAh bank charge my phone?',
-                            answer: 'On average, it charges a standard iPhone (16/17) about 2 times, and Pro Max/Ultra models about 1.5 times.'
-                        },
-                        {
-                            question: 'Difference between Local Warranty and International?',
-                            answer: 'Local Warranty (which we provide) guarantees immediate replacement within Egypt for manufacturing defects, whereas International requires shipping abroad.'
                         }
                     ],
                     products: [

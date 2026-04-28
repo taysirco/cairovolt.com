@@ -10,19 +10,19 @@ export const joyroom_t03s_pro_earbuds = {
         mpn: "JR-AU-T03SPRO",
         price: 664,
         originalPrice: 799,
-        stock: 2807,
+        stock: 579,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "joyroom t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - Protected by CairoVolt Guarantee", order: 6, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "joyroom t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt", order: 8, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -37,7 +37,7 @@ export const joyroom_t03s_pro_earbuds = {
         <li>🔋 <strong>30H Battery:</strong> 6 hours per charge + 24 hours from charging case.</li>
         <li>📱 <strong>Bluetooth 5.3:</strong> Low latency for gaming and video. iOS pop-up support.</li>
         <li>💧 <strong>IPX5:</strong> Sweat and splash resistant for gym and outdoor use.</li>
-    <li>💰 <strong>1.84 EGP/day:</strong> Over 12 months, less than a cup of tea.</li><li>💰 <strong>1.84 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
+    <li>💰 <strong>1.84 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -90,7 +90,7 @@ export const joyroom_t03s_pro_earbuds = {
             },
             ar: {
                 name: "سماعة جوي روم T03S Pro | اعزل نفسك عن دوشة المترو والشارع | ضمان 12 شهر",
-                shortDescription: "أقوى عزل ضوضاء في الفئة الاقتصادية 🎧 إلغاء ضوضاء حقيقي ANC مبيهزرش | 🔋 30 ساعة بطارية | 📱 نفس تصميم الايربودز بسعر معقول",
+                shortDescription: "أقوى عزل ضوضاء في الفئة الاقتصادية | 🎧 إلغاء ضوضاء حقيقي ANC مبيهزرش | 🔋 30 ساعة بطارية | 📱 نفس تصميم الايربودز بسعر معقول",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، سماعات <strong>جوي روم T03S Pro ANC</strong> بميزة <strong>عزل ضوضاء نشط + 30 ساعة بطارية + بلوتوث 5.3</strong> بـ 664 جنيه. ANC بيمنع لحد 35dB من الضوضاء المحيطة. أفضل سماعات ANC مقابل الجنيه في مصر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -134,7 +134,7 @@ export const joyroom_t03s_pro_earbuds = {
         <li>📱 <strong>ايفون 17/16/15/14:</strong> دعم كامل مع إشعار iOS المنبثق.</li>
         <li>📱 <strong>سامسونج S26/S25/A-Series:</strong> دعم Bluetooth 5.3 كامل.</li>
         <li>💻 <strong>ماك بوك / لابتوب ويندوز:</strong> صوت بلوتوث للمكالمات والموسيقى.</li>
-        <li>🎮 <strong>الألعاب:</strong> وضع تأخير منخفض للألعاب الموبايل.</li>
+        <li>🎮 <strong>الألعاب:</strong> وضع تأخير منخفض للألعاب الموبايل (الهاتف الذكي).</li>
         <li>📺 <strong>ايباد / تابلت اندرويد:</strong> دعم صوت لاسلكي كامل.</li>
     </ul>
 </div>
@@ -159,7 +159,7 @@ export const joyroom_t03s_pro_earbuds = {
         },
         relatedProducts: [
         "joyroom-jr-t03-wireless-earbuds",
-        "joyroom-3-in-1-data-cable",
+        "joyroom-ft3-smartwatch",
         "joyroom-magnetic-power-bank-10000",
         "joyroom-usb-a-type-c-cable",
         "joyroom-power-bank-10000",

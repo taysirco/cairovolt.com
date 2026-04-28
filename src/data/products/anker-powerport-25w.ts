@@ -10,15 +10,15 @@ export const anker_powerport_25w = {
         mpn: "A2322K11",
         price: 550,
         originalPrice: 650,
-        stock: 2939,
+        stock: 1179,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-port-detail-pps-protocol.webp", alt: "Anker 25W USB-C port with PPS protocol for Samsung Super Fast Charging detail", order: 0, isPrimary: true, width: 1200, height: 1200 },
+            { id: "img_1", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-port-detail-pps-protocol.webp", alt: "Anker 25W USB-C port with PPS protocol for Samsung Super Fast Charging detail - CairoVolt", order: 0, isPrimary: true, width: 1200, height: 1200 },
             { id: "img_2", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-samsung-super-fast-charger-cairovolt.webp", alt: "شاحن انكر 25 واط USB-C سوبر فاست تشارج لسامسونج - كايرو فولت مصر", order: 1, isPrimary: false, width: 679, height: 444 },
-            { id: "img_3", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-compact-design-wall-outlet-plugged.webp", alt: "شاحن انكر 25 واط مدمج في مقبس الحائط - تصميم صغير وأنيق", order: 2, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_3", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-compact-design-wall-outlet-plugged.webp", alt: "شاحن انكر 25 واط مدمج في مقبس الحائط - تصميم صغير وأنيق - كايرو فولت", order: 2, isPrimary: false, width: 1200, height: 1500 },
             { id: "img_4", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-charging-samsung-galaxy-25w-fast.webp", alt: "Anker 25W charging Samsung Galaxy at full speed - Super Fast Charge test CairoVolt", order: 3, isPrimary: false, width: 1200, height: 1500 },
-            { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-foldable-plug-portable-travel.webp", alt: "قابس قابل للطي لشاحن انكر 25 واط - محمول ومناسب للسفر", order: 4, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-foldable-plug-portable-travel.webp", alt: "قابس قابل للطي لشاحن انكر 25 واط - محمول ومناسب للسفر - كايرو فولت", order: 4, isPrimary: false, width: 1200, height: 1500 },
             { id: "img_6", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-package-box-contents-specifications.webp", alt: "Anker 25W package box contents with specifications - CairoVolt Egypt", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
@@ -40,7 +40,7 @@ export const anker_powerport_25w = {
         <li>📱 <strong>iPhone Compatible:</strong> Also fast charges iPhone 17 (0-50% in 28 min).</li>
         <li>🛡️ <strong>ActiveShield 2.0:</strong> Monitors temperature 3 million times/day.</li>
         <li>📏 <strong>4.5cm Compact:</strong> Smaller than Samsung's original charger. EGP 550.</li>
-    <li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
+    <li>💰 <strong>1.02 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul>
 </div>
 
 <div class="expert-review">
@@ -101,7 +101,7 @@ export const anker_powerport_25w = {
             },
             ar: {
                 name: "شاحن انكر 25 واط PPS لسامسونج | شحن سوبر فاست بدون سخونة | ضمان 18 شهر",
-                shortDescription: "بيشحن الـ S26 لـ 50% في 26 دقيقة بالظبط ⚡ 25 واط PPS | ❄️ تبريد عالي مبيسخنش في حر الصيف | 📱 بيشحن ايفون كمان",
+                shortDescription: "بيشحن الـ S26 لـ 50% في 26 دقيقة بالظبط | ⚡ 25 واط PPS | ❄️ تبريد عالي مبيسخنش في حر الصيف | 📱 بيشحن ايفون كمان",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر 25 واط PPS (A2322)</strong> بيفتح Samsung Super Fast Charging — من 0% لـ 50% على Galaxy S26 في 26 دقيقة. PPS بيظبط الجهد ديناميكياً لشحن كفء بدون حرارة. بيشحن ايفون 17 كمان (28 دقيقة لـ 50%). ActiveShield 2.0 بيراقب الحرارة 3 مليون مرة يومياً. صغير 4.5سم، قابس UK. سعر 550 جنيه، ضمان 18 شهر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p>

@@ -10,21 +10,21 @@ export const joyroom_car_phone_mount = {
         mpn: "JR-ZS295",
         price: 169,
         originalPrice: 400,
-        stock: 3028,
+        stock: 619,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-1.webp", alt: "Joyroom Car Phone Mount Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-2.webp", alt: "حامل جوال للسيارة جوي روم مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-3.webp", alt: "Joyroom Dashboard Phone Holder", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-4.webp", alt: "حامل هاتف للسيارة", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-5.webp", alt: "Joyroom Car Mount iPhone 17", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-6.webp", alt: "حامل جوال سيارة للايفون 17", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-1.webp", alt: "Joyroom Car Phone Mount Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-2.webp", alt: "حامل جوال للسيارة جوي روم مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-3.webp", alt: "Joyroom Dashboard Phone Holder - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-4.webp", alt: "حامل هاتف للسيارة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-5.webp", alt: "Joyroom Car Mount iPhone 17 - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-6.webp", alt: "حامل جوال سيارة للايفون 17 - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom Universal Car Phone Mount",
-                shortDescription: "🚗 Anti-shake car mount tested at 120km/h on Egyptian highways | Fits 4.7-7 inch phones with case | 360° rotation",
+                shortDescription: "🚗 Anti-Shake at 120km/h Tested | 📱 Fits 4.7-7 Inch Phones with Case | 🔄 360° Rotation | 🏆 Egyptian Highway Tested",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
@@ -76,9 +76,9 @@ export const joyroom_car_phone_mount = {
             },
             ar: {
                 name: "حامل موبايل للسيارة جوي روم | مبتهزش في مطبات الدائري | دوران 360° | يناسب كل الموبايلات",
-                shortDescription: "منقذك من غرامات المرور 🚓 كوب شفط قوي مش هيقع من شمس الصيف | 📱 يناسب ايفون 17 برو ماكس وسامسونج الترا | 👋 بتركبه وتفكه بإيد واحدة",
+                shortDescription: "منقذك من غرامات المرور | 🚓 كوب شفط قوي مش هيقع من شمس الصيف | 📱 يناسب ايفون 17 برو ماكس وسامسونج الترا | 👋 بتركبه وتفكه بإيد واحدة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس حوامل الموبايل الرخيصة اللي بتقع من أول مطب وبتخربش موبايلك، حامل <strong>جوي روم العالمي للسيارة</strong> فيه أذرع زنبركية معدنية + وسائد سيليكون مانعة للانزلاق بتناسب موبايلات من 4.7"-6.8". بيركّب على كل فتحات تكييف العربيات المصرية بثبات حقيقي حتى على طريق الأوتوستراد. معتمد CE للسلامة. سعر <strong>169 جنيه</strong> مع ضمان كايرو فولت.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس حوامل الموبايل (الهاتف الذكي) الرخيصة اللي بتقع من أول مطب وبتخربش موبايلك، حامل <strong>جوي روم العالمي للسيارة</strong> فيه أذرع زنبركية معدنية + وسائد سيليكون مانعة للانزلاق بتناسب موبايلات من 4.7"-6.8". بيركّب على كل فتحات تكييف العربيات المصرية بثبات حقيقي حتى على طريق الأوتوستراد. معتمد CE للسلامة. سعر <strong>169 جنيه</strong> مع ضمان كايرو فولت.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">الخلاصة اللي تهمك:</h3>
     <ul class="list-none space-y-1">
@@ -132,7 +132,7 @@ export const joyroom_car_phone_mount = {
             en: "The Joyroom Universal Car Phone Mount survived our Cairo road test — 200km of potholes, speed bumps, and Ring Road vibrations without dropping the phone once.'s most popular car models. The suction cup withstands 45°C dashboard temperatures — a critical factor that cheap mounts fail at during Egyptian summers.",
             ar: "مجرب في 4 من أشهر موديلات السيارات في مصر. كاسة الشفط تتحمل 45°C على التابلوه — عامل حاسم الحوامل الرخيصة بتفشل فيه في صيف مصر."
         },
-        meta: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, car mount suction cup, حامل موبايل عربية, حامل تابلو سيارة, phone holder egypt price, حامل سيارة ضد الاهتزاز, حامل جوال ادفع عند الاستلام, joyroom car phone mount", mainTerm: "joyroom car phone mount" },
+        meta: { keywords: "joyroom car mount, حامل جوال سيارة, car phone holder egypt, حامل ايفون 17 للسيارة, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, car mount suction cup, حامل موبايل عربية, حامل تابلو سيارة, phone holder egypt price, حامل سيارة ضد الاهتزاز, حامل جوال ادفع عند الاستلام, joyroom car phone mount, joyroom car phone mount FCC certified", mainTerm: "joyroom car phone mount" },
         relatedProducts: [
         "joyroom-car-mount-zs290",
         "joyroom-60w-car-charger",

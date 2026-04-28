@@ -10,18 +10,18 @@ export const joyroom_30w_pd_cable = {
         mpn: "JR-S-CL30",
         price: 94,
         originalPrice: 180,
-        stock: 3259,
+        stock: 1391,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-1.webp", alt: "Joyroom 30W PD Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 30 واط مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-3.webp", alt: "Joyroom USB-C Cable 1.2m", order: 2, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-1.webp", alt: "Joyroom 30W PD Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 30 واط مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-3.webp", alt: "Joyroom USB-C Cable 1.2m - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom 30W PD Fast Charging Cable 1.2m",
-                shortDescription: "🔌 30W PD USB-C to USB-C cable — iPhone 15/16/17 fast charge at a fraction of Apple price | Braided nylon",
+                shortDescription: "🔌 30W PD USB-C Cable | 📱 iPhone 15/16/17 Fast Charge | 💪 Braided Nylon | 💰 Fraction of Apple Price",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike non-PD cables that ignore your phone's fast-charge protocol, The <strong>Joyroom 30W PD cable</strong> matches iPhone 17's maximum charging speed at a fraction of Apple's cable price. At <strong>94 EGP</strong>, it delivers the same 0→50% in 25 minutes as cables costing 3× more. The extra <strong>1.2m length</strong> reaches from floor outlet to bed. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>⚡ <strong>30W PD:</strong> Matches iPhone 17's max charging speed exactly.</li><li>📏 <strong>1.2m Length:</strong> 20% longer than standard — reaches bedside from floor.</li><li>💰 <strong>94 EGP:</strong> 3× cheaper than Apple's equivalent cable.</li><li>💪 <strong>TPE Construction:</strong> Flexible, heat-resistant, crack-proof.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"Here's the thing about 30W vs 60W cables: iPhone 17 maxes out at 30W. So a 60W cable doesn't charge your iPhone any faster — you're paying extra for unused capacity. This 30W cable delivers the EXACT same iPhone charging speed at 94 EGP. The 1.2m length is the perfect bedside length. We use this as our daily iPhone cable."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -41,7 +41,7 @@ export const joyroom_30w_pd_cable = {
             },
             ar: {
                 name: "كابل جوي روم 30 واط PD 1.2 متر | شحن سريع بسعر كابل العتبة لكن أصلي ومضمون",
-                shortDescription: "ليه تدفع ثمن كابل ابل وده بنفس السرعة؟ ⚡ 30 واط PD شحن كامل للايفون 17 | 📏 1.2 متر يوصل من البريزة للسرير | 💰 أرخص كابل أصلي في مصر",
+                shortDescription: "ليه تدفع ثمن كابل ابل وده بنفس السرعة؟ | ⚡ 30 واط PD شحن كامل للايفون 17 | 📏 1.2 متر يوصل من البريزة للسرير | 💰 أرخص كابل أصلي في مصر",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، كابل <strong>جوي روم 30 واط PD</strong> بيطابق أقصى سرعة شحن ايفون 17 بجزء بسيط من سعر كابل ابل. بـ <strong>94 جنيه</strong>، بيدّي نفس 0→50% في 25 دقيقة زي كابلات بـ 3 أضعاف السعر. طول <strong>1.2 متر</strong> بيوصل من البريزة الأرضية للسرير. نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>⚡ <strong>30 واط PD:</strong> بيطابق أقصى سرعة شحن ايفون 17 بالظبط.</li><li>📏 <strong>1.2 متر:</strong> أطول 20% من العادي — بيوصل من الأرض للسرير.</li><li>💰 <strong>94 جنيه:</strong> أرخص 3× من كابل ابل المكافئ.</li><li>💪 <strong>TPE متين:</strong> مرن، مقاوم للحرارة، مبيتشققش.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"الحقيقة عن 30 واط مقابل 60 واط: ايفون 17 أقصاه 30 واط. يعني كابل 60 واط مش هيشحن ايفونك أسرع — بتدفع زيادة في سعة مش بتستخدمها. الكابل ده بـ 30 واط بيدّي بالظبط نفس سرعة شحن الايفون بـ 94 جنيه. طول 1.2 متر مثالي للسرير. ده كابل الايفون اليومي بتاعنا."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>
@@ -68,9 +68,10 @@ export const joyroom_30w_pd_cable = {
         relatedProducts: [
         "joyroom-usb-a-lightning-1.2m",
         "joyroom-type-c-lightning-24mos",
-        "joyroom-ft3-smartwatch",
         "joyroom-type-c-lightning-braided",
         "joyroom-type-c-to-type-c-cable",
-        "joyroom-type-c-lightning-36mos", "joyroom-usb-a-type-c-1.2m"],
+        "joyroom-type-c-lightning-36mos",
+        "joyroom-usb-a-type-c-1.2m"
+    ],
 
     };

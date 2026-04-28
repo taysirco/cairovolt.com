@@ -10,18 +10,18 @@ export const anker_zolo_a110d_10000 = {
         mpn: "A110D-P11",
         price: 1270,
         originalPrice: 1390,
-        stock: 3160,
+        stock: 956,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-power-bank-builtin-usb-c-cable-led-display-cairovolt.webp", alt: "Anker ZOLO A110D 10000mAh power bank with built-in USB-C cable and LED digital display - CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-usb-c-cable-charging-smartphone-fast-charge-22w.webp", alt: "باور بانك انكر زولو A110D يشحن الهاتف عبر كابل USB-C مدمج بقوة 22.5 واط - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-led-battery-percentage-display-digital-indicator.webp", alt: "Anker ZOLO A110D LED digital battery percentage display showing exact charge level", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-dual-port-usb-c-usb-a-output-detail-view.webp", alt: "منافذ شحن انكر زولو A110D المزدوجة USB-C و USB-A بقوة 22.5 واط شحن سريع", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-slim-portable-design-pocket-size-comparison.webp", alt: "Anker ZOLO A110D slim 15.4mm portable design size comparison - pocket-friendly power bank", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-package-contents-box-cable-manual-accessories.webp", alt: "محتويات علبة انكر زولو A110D 10000 مللي أمبير - الباور بانك والكابل والدليل - مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-led-battery-percentage-display-digital-indicator.webp", alt: "Anker ZOLO A110D LED digital battery percentage display showing exact charge level - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-dual-port-usb-c-usb-a-output-detail-view.webp", alt: "منافذ شحن انكر زولو A110D المزدوجة USB-C و USB-A بقوة 22.5 واط شحن سريع - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-slim-portable-design-pocket-size-comparison.webp", alt: "Anker ZOLO A110D slim 15.4mm portable design size comparison - pocket-friendly power bank - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-package-contents-box-cable-manual-accessories.webp", alt: "محتويات علبة انكر زولو A110D 10000 مللي أمبير - الباور بانك والكابل والدليل - مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-charging-speed-test-watt-meter-lab.webp", alt: "Anker ZOLO A110D 22.5W charging speed test with watt meter - CairoVolt Lab Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-side-profile-thickness-portable-power-bank.webp", alt: "انكر زولو A110D باور بانك نحيف - عرض جانبي للسمك والتصميم المحمول", order: 7, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_8", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-side-profile-thickness-portable-power-bank.webp", alt: "انكر زولو A110D باور بانك نحيف - عرض جانبي للسمك والتصميم المحمول - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-zolo-a110e-20000",

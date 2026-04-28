@@ -10,17 +10,17 @@ export const anker_nano_45w = {
         mpn: "A2664K11",
         price: 790,
         originalPrice: 1100,
-        stock: 2953,
+        stock: 464,
         featured: false,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp", alt: "محتويات علبة شاحن انكر نانو 45 واط مع المواصفات - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
             { id: "img_2", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-gan-charger-compact-cairovolt-egypt.webp", alt: "شاحن انكر نانو 45 واط USB-C GaN فائق الكفاءة صغير الحجم - كايرو فولت", order: 1, isPrimary: false, width: 1200, height: 1500 },
-            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "حجم شاحن انكر نانو 45 واط مقارنة بشاحن ابل - أصغر بنسبة 60%", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano 45W charging MacBook Air laptop at full speed with PD fast charge", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-nano-45w-foldable-plug-ultra-slim-design.webp", alt: "قابس قابل للطي فائق الرفع لشاحن انكر نانو 45 واط - تصميم سفر", order: 5, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip temperature and efficiency performance test", order: 6, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_3", url: "/products/anker/anker-nano-45w/anker-nano-45w-usb-c-port-detail-gan-technology.webp", alt: "Anker Nano 45W USB-C port with GaN II technology close-up detail - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-nano-45w/anker-nano-45w-size-comparison-apple-charger-compact.webp", alt: "حجم شاحن انكر نانو 45 واط مقارنة بشاحن ابل - أصغر بنسبة 60% - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-nano-45w/anker-nano-45w-charging-macbook-air-laptop-fast-pd.webp", alt: "Anker Nano 45W charging MacBook Air laptop at full speed with PD fast charge - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-nano-45w/anker-nano-45w-foldable-plug-ultra-slim-design.webp", alt: "قابس قابل للطي فائق الرفع لشاحن انكر نانو 45 واط - تصميم سفر - كايرو فولت", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-nano-45w/anker-nano-45w-gan-II-chip-temperature-efficiency.webp", alt: "Anker Nano 45W GaN II chip temperature and efficiency performance test - CairoVolt", order: 6, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
@@ -94,10 +94,10 @@ export const anker_nano_45w = {
             },
             ar: {
                 name: "شاحن انكر نانو 45 واط | شاحن واحد للابتوب والموبايل (وداعاً للزحمة) | ضمان 24 شهر",
-                shortDescription: "شاحن واحد يغنيك عن 3 شواحن 💻 شحن ماك بوك بالسرعة الأصلية | 📱 شحن سوبر فاست لسامسونج وايفون | 🔌 ممتاز للسفر",
+                shortDescription: "شاحن واحد يغنيك عن 3 شواحن | 💻 شحن ماك بوك بالسرعة الأصلية | 📱 شحن سوبر فاست لسامسونج وايفون | 🔌 ممتاز للسفر",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر نانو 45 واط GaN III (A2039)</strong> بيستبدل شاحن اللابتوب وشاحن الموبايل وشاحن التابلت بمكعب صغير واحد. 45 واط USB-C PD بيشحن ماك بوك اير بسرعة كاملة، ايفون 17 بأقصى سرعة، وسامسونج S26 مع Super Fast 2.0. تقنية GaN III بتخليه بارد وصغير. قابس UK-Style، ضمان 24 شهر. بسعر <strong>790 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، <strong>شاحن أنكر نانو 45 واط GaN III (A2039)</strong> بيستبدل شاحن اللابتوب (الحاسب المحمول) وشاحن الموبايل (الهاتف الذكي) وشاحن التابلت بمكعب صغير واحد. 45 واط USB-C PD بيشحن ماك بوك اير بسرعة كاملة، ايفون 17 بأقصى سرعة، وسامسونج S26 مع Super Fast 2.0. تقنية GaN III بتخليه بارد وصغير. قابس UK-Style، ضمان 24 شهر. بسعر <strong>790 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
@@ -168,10 +168,10 @@ export const anker_nano_45w = {
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
         },
         relatedProducts: [
-        "anker-powerport-20w",
+        "anker-521-powerhouse",
         "anker-a2147-gan-charger-30w",
         "anker-nano-45w-smart-display-charger",
-        "anker-a8050-usb-c-cable",
+        "anker-powercore-26800",
         "anker-737-powerbank",
         "anker-powerline-usb-c-usb-c"
     ]

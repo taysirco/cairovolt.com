@@ -10,17 +10,17 @@ export const joyroom_type_c_to_type_c_cable = {
         mpn: "JR-S-CC100",
         price: 130,
         originalPrice: 200,
-        stock: 3299,
+        stock: 616,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-1.webp", alt: "Joyroom Type-C to Type-C Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Type-C مصر", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-1.webp", alt: "Joyroom Type-C to Type-C Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Type-C مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom USB-C to USB-C Cable",
-                shortDescription: "🔌 60W PD USB-C cable — charges iPhone 15/17 + Samsung S26 + MacBook Air from one cable | Braided nylon",
+                shortDescription: "🔌 60W PD USB-C Cable | 📱 iPhone 15/17 + Samsung S26 + MacBook Air | 💪 Braided Nylon | 🏆 18-Month Warranty",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike 15W generic USB-C cables, the <strong>Joyroom USB-C to USB-C</strong> delivers <strong>60W Power Delivery</strong> — iPhone 17 gets its max 30W, Samsung S26 gets 45W, and MacBook Air charges at full speed. One cable replaces 3 separate chargers. CairoVolt tested: zero voltage drop across all wattages. Available at <strong>EGP 130</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>⚡ <strong>60W PD:</strong> Auto-negotiates max speed for every device.</li><li>📱 <strong>Universal Compatibility:</strong> iPhone 17 + Samsung S26 + iPad + MacBook from one cable.</li><li>💪 <strong>Braided Nylon:</strong> Reinforced connectors for 2+ years of daily abuse.</li><li>💰 <strong>130 EGP:</strong> Premium cable performance at budget cable pricing.</li><li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"USB-C to USB-C is the only cable you'll need from 2025 onward. iPhone 17 switched to USB-C, Samsung has been there for years, and every laptop now uses it. This Joyroom cable at 130 EGP handles 60W without breaking a sweat. We tested it on MacBook Air, iPhone 17, and Samsung S26 — all hit their max charging speeds. The braided nylon feels premium, the connectors are snug without being too tight. This is the cable to buy 3 of and put everywhere."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -40,7 +40,7 @@ export const joyroom_type_c_to_type_c_cable = {
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى USB-C | كابل المستقبل لكل أجهزتك (ايفون + سامسونج + لابتوب)",
-                shortDescription: "كابل واحد بيشحن ايفون وسامسونج ولابتوب 🔌 60 واط PD | 📱 يعطي ايفون 17 أقصى سرعة 30 واط | 🏆 ضمان 18 شهر",
+                shortDescription: "كابل واحد بيشحن ايفون وسامسونج ولابتوب | 🔌 60 واط PD | 📱 يعطي ايفون 17 أقصى سرعة 30 واط | 🏆 ضمان 18 شهر",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">بدل ما تشتري كابل بيشحن بـ 15 واط بس ومبيكملش 3 شهور، كابل <strong>جوي روم USB-C</strong> بيوصّل <strong>60 واط PD</strong> — ايفون 17 بياخد 30 واط، سامسونج S26 بياخد 45 واط، وماك بوك اير بيتشحن كامل. كابل واحد بيغنيك عن 3. اختبار CairoVolt: صفر انخفاض فولتية. بسعر <strong>130 جنيه</strong> مع ضمان كايرو فولت. نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>⚡ <strong>60 واط PD:</strong> بيتفاوض تلقائي ويدّي كل جهاز أقصى سرعته.</li><li>📱 <strong>توافق شامل:</strong> ايفون 17 + سامسونج S26 + ايباد + ماك بوك من كابل واحد.</li><li>💪 <strong>نايلون مجدول:</strong> موصلات معززة بتعيش سنتين+ استخدام يومي.</li><li>💰 <strong>130 جنيه:</strong> أداء كابل فاخر بسعر كابل عادي.</li><li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"USB-C لـ USB-C هو الكابل الوحيد اللي هتحتاجه من 2025. ايفون 17 اتحول لـ USB-C، سامسونج بقالها سنين، وكل لابتوب حديث بيستخدمه. كابل جوي روم ده بـ 130 جنيه بيشيل 60 واط من غير ما يسخن. جربناه على ماك بوك اير وايفون 17 وسامسونج S26 — كلهم وصلوا أقصى سرعة شحن. النايلون حاسسه فاخر، الموصلات محكمة من غير ما تكون ضيقة. ده الكابل اللي تشتري 3 منه وتحطهم في كل مكان."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>

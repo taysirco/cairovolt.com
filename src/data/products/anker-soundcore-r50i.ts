@@ -1,23 +1,23 @@
 // Product: anker-soundcore-r50i
 export const anker_soundcore_r50i = {
         slug: "anker-soundcore-r50i", sku: "ANK-AU-R50I", brand: "Anker", categorySlug: "audio",
-        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 950, originalPrice: 1300, stock: 2713, featured: false, status: "active",
+        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 950, originalPrice: 1300, stock: 397, featured: false, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Anker Soundcore R50i true wireless earbuds in-ear - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Anker Soundcore R50i true wireless earbuds in-ear - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة انكر ساوندكور R50i لاسلكية داخلية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-charging-case-open-earbuds-visible.webp", alt: "Anker R50i earbuds close-up showing 10mm drivers", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wearing-comfortable-in-ear-lifestyle.webp", alt: "Anker R50i charging case with USB-C port", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-usb-c-charging-port-case-bottom.webp", alt: "Anker R50i worn showing secure in-ear fit", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-touch-control-gesture-tap-earbud.webp", alt: "سماعة انكر R50i علبة شحن USB-C - مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-bluetooth-5.3-connection-range-test.webp", alt: "Anker R50i silicone ear tips multiple sizes", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-charging-case-open-earbuds-visible.webp", alt: "Anker R50i earbuds close-up showing 10mm drivers - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wearing-comfortable-in-ear-lifestyle.webp", alt: "Anker R50i charging case with USB-C port - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-usb-c-charging-port-case-bottom.webp", alt: "Anker R50i worn showing secure in-ear fit - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-touch-control-gesture-tap-earbud.webp", alt: "سماعة انكر R50i علبة شحن USB-C - مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-bluetooth-5.3-connection-range-test.webp", alt: "Anker R50i silicone ear tips multiple sizes - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_8", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-package-box-contents-accessories-egypt.webp", alt: "أنكر R50i تطبيق Soundcore EQ - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-soundcore-r50i-nc",
         "anker-soundcore-k20i",
-        "anker-a8050-usb-c-cable",
+        "anker-soundcore-life-p2i",
         "anker-a2741-charger-30w",
-        "anker-zolo-a110d-10000",
+        "anker-soundcore-motion-plus",
         "anker-soundcore-flare-2"
     ],
         translations: {

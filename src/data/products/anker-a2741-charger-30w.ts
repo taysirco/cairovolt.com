@@ -1,16 +1,23 @@
 // Product: anker-a2741-charger-30w (CAR CHARGER — 30W USB-C PD + USB-A)
 export const anker_a2741_charger_30w = {
         slug: "anker-a2741-charger-30w", sku: "ANK-CC-A2741", brand: "Anker", categorySlug: "car-chargers",
-        gtin: "194644185183", gtin13: "0194644185183", mpn: "A2741", price: 530, originalPrice: 570, stock: 2793, featured: false, status: "active",
+        gtin: "194644185183", gtin13: "0194644185183", mpn: "A2741", price: 530, originalPrice: 570, stock: 812, featured: false, status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-30w-dual-port-charger-usb-c-usb-a-cairovolt.webp", alt: "Anker A2741 car charger 30W USB-C PD and USB-A in car cigarette lighter socket", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-30w-dual-port-charger-usb-c-usb-a-cairovolt.webp", alt: "Anker A2741 car charger 30W USB-C PD and USB-A in car cigarette lighter socket - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-usb-c-usb-a-dual-port-detail-30w-output.webp", alt: "شاحن سيارة انكر A2741 منفذين USB-C و USB-A - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-compact-charger-wall-plug-size-comparison.webp", alt: "Anker A2741 miniature car charger size compared to coin", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-charging-iphone-fast-charge-30w-usb-c.webp", alt: "Anker A2741 charging iPhone via USB-C PD in car dashboard", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-foldable-plug-design-portable-travel-charger.webp", alt: "Anker A2741 retail box showing 30W car charger specifications", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-30w-package-box-contents-specifications-egypt.webp", alt: "شاحن سيارة انكر A2741 مدمج في قابس ولاعة السيارة", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_3", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-compact-charger-wall-plug-size-comparison.webp", alt: "Anker A2741 miniature car charger size compared to coin - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-charging-iphone-fast-charge-30w-usb-c.webp", alt: "Anker A2741 charging iPhone via USB-C PD in car dashboard - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-foldable-plug-design-portable-travel-charger.webp", alt: "Anker A2741 retail box showing 30W car charger specifications - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-30w-package-box-contents-specifications-egypt.webp", alt: "شاحن سيارة انكر A2741 مدمج في قابس ولاعة السيارة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-a2147-gan-charger-30w", "anker-car-charger-dual-usb", "anker-a2732-charger-35w", "anker-a8050-usb-c-cable", "anker-zolo-a110d-10000", "anker-soundcore-r50i"],
+        relatedProducts: [
+        "anker-a2147-gan-charger-30w",
+        "anker-nano-45w-smart-display-charger",
+        "anker-a2732-charger-35w",
+        "anker-a8050-usb-c-cable",
+        "anker-zolo-a110d-10000",
+        "anker-soundcore-r50i"
+    ],
         translations: {
             en: {
                 name: "Anker 30W Mini Car Charger (A2741) | USB-C 27W PD + USB-A 22.5W | Ultra-Compact | 18-Month Warranty",
@@ -58,7 +65,7 @@ export const anker_a2741_charger_30w = {
                 metaDesc: "Buy Anker A2741 mini car charger in Egypt. 30W: USB-C 27W PD/PPS + USB-A 22.5W. Only 15g! Samsung PPS fast charging. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "How is the A2741 different from the A2732?", answer: "Both are Anker car chargers, but the A2741 is much smaller (15g vs 32g) and supports PPS protocol for Samsung Super Fast Charging. The A2732 has stronger per-port output but is physically larger. Choose A2741 for minimum size, A2732 for maximum single-port speed." },
-                    { question: "Does PPS make a difference for Samsung phones?", answer: "Yes! PPS (Programmable Power Supply) allows the A2741 to deliver the exact voltage Samsung Galaxy S26/S25 needs for Super Fast Charging. Regular PD car chargers give Samsung phones a slower charge." },
+                    { question: "Does PPS make a difference for Samsung phones?", answer: "Yes!" },
                     { question: "It's only 15g — is it durable enough?", answer: "Yes. The miniature size uses dense engineering, not cheap materials. The A2741 is built to automotive standards with heat-resistant internals and MultiProtect safety. Anker backs it with an 18-month warranty." },
                     { question: "What happens when both ports charge simultaneously?", answer: "When both ports are active, power is shared — approximately 12W per port. For single-device fast charging, use one port at a time. This is standard for dual-port car chargers at this wattage." },
                     { question: "What does the 18-month warranty cover?", answer: "Anker's 18-month warranty covers manufacturing defects, port failure, and overheating. Contact CairoVolt for free replacement. Keep your receipt and original box." }

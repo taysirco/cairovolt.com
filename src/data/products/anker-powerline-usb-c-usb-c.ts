@@ -10,16 +10,16 @@ export const anker_powerline_usb_c_usb_c = {
         mpn: "A8652H11",
         price: 590,
         originalPrice: 650,
-        stock: 3086,
+        stock: 1409,
         featured: false,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-to-usb-c-100w-cable-cairovolt-egypt.webp", alt: "كابل انكر USB-C إلى USB-C 100 واط نايلون مضفر متين - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1200 },
-            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-connector-detail-reinforced-joint.webp", alt: "Anker PowerLine USB-C connector detail with reinforced joint stress relief", order: 1, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-braided-nylon-texture-durability.webp", alt: "نسيج نايلون مضفر لكابل انكر USB-C - جودة بناء متميزة ومتانة", order: 2, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-100w-charging-laptop-macbook.webp", alt: "Anker USB-C 100W cable charging MacBook laptop with PD fast charging test", order: 3, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-cable-flexibility-bend-resistance.webp", alt: "مرونة كابل انكر USB-C ومقاومة الثني - اختبار المتانة", order: 4, isPrimary: false, width: 928, height: 1152 },
-            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-data-transfer-speed-10gbps.webp", alt: "Anker USB-C cable 10Gbps data transfer speed test and specification", order: 5, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_2", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-connector-detail-reinforced-joint.webp", alt: "Anker PowerLine USB-C connector detail with reinforced joint stress relief - CairoVolt", order: 1, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-braided-nylon-texture-durability.webp", alt: "نسيج نايلون مضفر لكابل انكر USB-C - جودة بناء متميزة ومتانة - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-100w-charging-laptop-macbook.webp", alt: "Anker USB-C 100W cable charging MacBook laptop with PD fast charging test - CairoVolt", order: 3, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-cable-flexibility-bend-resistance.webp", alt: "مرونة كابل انكر USB-C ومقاومة الثني - اختبار المتانة - كايرو فولت", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_6", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-data-transfer-speed-10gbps.webp", alt: "Anker USB-C cable 10Gbps data transfer speed test and specification - CairoVolt", order: 5, isPrimary: false, width: 928, height: 1152 },
             { id: "img_7", url: "/products/anker/anker-powerline-usb-c-usb-c/anker-powerline-usb-c-package-box-cable-accessories.webp", alt: "محتويات علبة كابل انكر USB-C إلى USB-C مع الملحقات - كايرو فولت", order: 6, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
@@ -41,7 +41,7 @@ export const anker_powerline_usb_c_usb_c = {
         <li>📱 <strong>Universal USB-C:</strong> The one cable for the USB-C era — phones, tablets, laptops.</li>
         <li>💪 <strong>35,000+ Bends:</strong> 3.5x more durable than standard cables.</li>
         <li>📊 <strong>USB 2.0 Data:</strong> 480Mbps for photos and file transfers.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.09 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.09 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.09 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -101,14 +101,14 @@ export const anker_powerline_usb_c_usb_c = {
             },
             ar: {
                 name: "كابل انكر تايب سي 60 واط | استثمارك المضمون (انسى تقليد العتبة) | ضمان 18 شهر",
-                shortDescription: "كابل يعيش معاك سنين من غير ما يتهري ⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع)",
+                shortDescription: "⚡ 60 واط بيشحن لابتوب وايفون وسامسونج | 💪 35,000+ ثني (مضاد للقطع) | 🧵 نايلون مجدول مبيتهريش | 🛡️ ضمان 18 شهر",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to USB-C (A8852)</strong> الكابل الشامل لـ. 60 واط PD بيتعامل مع ايفون 17 (30واط) وسامسونج S26 (45واط Super Fast) وماك بوك اير — كله من كابل واحد. بيتحمل 35,000+ ثني (3.5× العادي)، نقل بيانات USB 2.0. ضمان 18 شهر. بسعر <strong>590 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">كابلات USB-C الرخيصة من العتبة/المتاجر الالكترونية غالباً مبتشيلش واط عالي. بتدعي 60واط بس بتستخدم أسلاك 28AWG رفيعة بتسخن عند 30واط+ وبتشحن اللابتوب ببطء. أنكر بيستخدم أسلاك 20AWG مصممة لـ 60واط مستمر. لو الكابل بيسخن وقت الشحن، غيره فوراً.</p>
+    <p class="text-gray-700">السوق المصري مليان كابلات مقلدة شكلها زي الأصلي بالظبط. كابلات USB-C الرخيصة من العتبة/المتاجر الالكترونية غالباً مبتشيلش واط عالي. بتدعي 60واط بس بتستخدم أسلاك 28AWG رفيعة بتسخن عند 30واط+ وبتشحن اللابتوب ببطء. أنكر بيستخدم أسلاك 20AWG مصممة لـ 60واط مستمر. لو الكابل بيسخن وقت الشحن، غيره فوراً.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
@@ -179,7 +179,7 @@ export const anker_powerline_usb_c_usb_c = {
         "anker-powerport-25w",
         "anker-nano-45w",
         "anker-powercore-10000",
-        "anker-a8050-usb-c-cable",
+        "anker-car-charger-dual-usb",
         "anker-737-powerbank"
     ]
     };

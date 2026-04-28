@@ -10,20 +10,20 @@ export const anker_prime_a1695_25000 = {
         mpn: "A1695",
         price: 3950,
         originalPrice: 4200,
-        stock: 3148,
+        stock: 746,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt.webp", alt: "Anker Prime A1695 power bank 25000mAh 165W front view - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt.webp", alt: "Anker Prime A1695 power bank 25000mAh 165W front view - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-front-view-led-display-watt-output-reading.webp", alt: "انكر برايم 25000 مللي أمبير 165 واط - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-triple-usb-c-port-165w-output-detail.webp", alt: "Anker Prime A1695 dual USB-C PD ports and USB-A detail 165W", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-charging-macbook-laptop-165w-fast-charge.webp", alt: "Anker Prime A1695 charging MacBook Pro 16 at 140W - premium power bank", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-slim-design-aluminum-body-side-profile.webp", alt: "Anker Prime smart digital display showing watts and temperature", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-digital-display-remaining-time-smart-screen.webp", alt: "Anker Prime A1695 size comparison next to MacBook Pro and iPhone", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-multi-device-charging-phone-tablet-laptop.webp", alt: "Anker Prime retail box premium packaging", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-package-contents-cable-manual-accessories.webp", alt: "Anker Prime A1695 active cooling fan detail", order: 7, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_9", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-size-comparison-hand-portable-25000mah.webp", alt: "انكر برايم A1695 شحن ماك بوك برو وايفون وايباد معاً", order: 8, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_10", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-charging-speed-test-lab-egypt.webp", alt: "Anker Prime A1695 premium matte finish and build quality", order: 9, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_3", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-triple-usb-c-port-165w-output-detail.webp", alt: "Anker Prime A1695 dual USB-C PD ports and USB-A detail 165W - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-charging-macbook-laptop-165w-fast-charge.webp", alt: "Anker Prime A1695 charging MacBook Pro 16 at 140W - premium power bank - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-slim-design-aluminum-body-side-profile.webp", alt: "Anker Prime smart digital display showing watts and temperature - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-digital-display-remaining-time-smart-screen.webp", alt: "Anker Prime A1695 size comparison next to MacBook Pro and iPhone - CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-multi-device-charging-phone-tablet-laptop.webp", alt: "Anker Prime retail box premium packaging - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-package-contents-cable-manual-accessories.webp", alt: "Anker Prime A1695 active cooling fan detail - CairoVolt", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_9", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-size-comparison-hand-portable-25000mah.webp", alt: "انكر برايم A1695 شحن ماك بوك برو وايفون وايباد معاً - كايرو فولت", order: 8, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_10", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-charging-speed-test-lab-egypt.webp", alt: "Anker Prime A1695 premium matte finish and build quality - CairoVolt", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-zolo-a1681-20000",
@@ -36,7 +36,7 @@ export const anker_prime_a1695_25000 = {
         translations: {
             en: {
                 name: "Anker Prime 25,000mAh 165W PD | MacBook Pro Charging | 24-Month Warranty",
-                shortDescription: "⚡ 165W BEAST — Charges MacBook Pro 16\"! | 🔋 25,000mAh (92.7Wh) | 💻 2× USB-C PD + USB-A | 🌡️ Active Cooling Fan | 📊 Smart Display | ⏱️ Recharges in ~30 min (Prime Charger)",
+                shortDescription: "⚡ 165W Output — Charges MacBook Pro 16 | 🔋 25,000mAh (92.7Wh) | 💻 Dual USB-C 100W + USB-A | 📊 Smart Digital Display",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">Unlike standard power banks limited to phone charging, the Anker Prime A1695 outputs <strong>165W</strong> — charging MacBook Pro 16-inch at near-adapter speed. With 25,000mAh (92.7Wh), active cooling fan, and smart display showing real-time watts and temperature, it survived our 8-hour Maadi blackout test. FCC/CE certified — 24-month Anker warranty. Available at <strong>EGP 3950</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
@@ -97,19 +97,19 @@ export const anker_prime_a1695_25000 = {
                 metaTitle: "Anker Prime 25000mAh 165W ⚡ 6% OFF | MacBook Pro | COD Egypt",
                 metaDesc: "Buy Anker Prime A1695 165W in Egypt. Charges MacBook Pro at 140W. 25000mAh, active cooling, smart display. ✓ 24-Month Warranty ✓ Fast Delivery.",
                 faqs: [
-                    { question: "Can it charge a MacBook Pro 16-inch?", answer: "Yes! The USB-C 1 port delivers up to 140W PD 3.1 — enough to charge MacBook Pro 16\" at near-adapter speed. It's the only portable power bank that can do this." },
-                    { question: "Why does it have a fan?", answer: "At 165W output, significant heat is generated. The built-in active cooling fan prevents thermal throttling and protects both the power bank and your devices. It's whisper-quiet." },
-                    { question: "How fast does it recharge?", answer: "With Anker Prime 100W charger: 0→80% in ~30 minutes, full charge in ~50 minutes. The fastest-recharging power bank we've ever tested." },
-                    { question: "Is 92.7Wh safe for flights?", answer: "Yes — 92.7Wh is just under the TSA 100Wh limit. This is actually the maximum capacity power bank you can legally carry on any flight." },
+                    { question: "Can it charge a MacBook Pro 16-inch?", answer: "Yes. USB-C port 1 provides 140W PD 3.1 output — matching the original Apple adapter speed. No other portable battery can deliver this wattage level for full-size laptops." },
+                    { question: "Why does it have a fan?", answer: "Pushing 165W through a compact body generates serious heat. The internal fan maintains safe operating temperatures silently, preventing power throttling during sustained laptop charging sessions." },
+                    { question: "How fast does it recharge?", answer: "Pair it with a 100W charger and reach 80% in roughly half an hour. Total refill takes about 50 minutes — faster than most smartphones." },
+                    { question: "Is 92.7Wh safe for flights?", answer: "Yes. At 92.7Wh, it falls within the maximum 100Wh airline carry-on threshold. This is the largest flight-compliant capacity available in any power bank." },
                     { question: "How does it compare to Anker 737 (PowerCore 26K)?", answer: "The A1695 is the next generation: 165W vs 140W, faster recharge (30min vs 2h), active fan cooling, smarter display, and sleeker form factor. It's the flagship upgrade." }
                 ]
             },
             ar: {
                 name: "أنكر برايم 25,000 مللي أمبير 165 واط PD | شحن ماك بوك برو | ضمان 24 شهر",
-                shortDescription: "⚡ 165 واط وحش — يشحن ماك بوك برو 16\"! | 🔋 25,000 مللي أمبير (92.7Wh) | 💻 2× USB-C PD + USB-A | 🌡️ مروحة تبريد نشطة | ⏱️ إعادة شحن في ~30 دقيقة",
+                shortDescription: "⚡ 165 واط — يشحن ماك بوك برو 16 | 🔋 25,000 مللي أمبير (92.7Wh) | 💻 منفذين USB-C بقوة 100 واط | 📊 شاشة ديجيتال ذكية",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات العادية المحدودة بشحن الموبايلات، أنكر برايم A1695 بيطلع <strong>165 واط</strong> — بيشحن ماك بوك برو 16 بوصة بسرعة قريبة من الأدابتر. بسعة 25,000 مللي أمبير (92.7Wh)، مروحة تبريد، وشاشة ذكية بتعرض الواط والحرارة لحظياً. عدّى اختبار انقطاع 8 ساعات في المعادي. شهادات FCC/CE/UL — ضمان 24 شهر. بسعر <strong>3950 جنيه</strong> مع ضمان كايرو فولت. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات العادية المحدودة بشحن الموبايل (الهاتف الذكي)ات، أنكر برايم A1695 بيطلع <strong>165 واط</strong> — بيشحن ماك بوك برو 16 بوصة بسرعة قريبة من الأدابتر. بسعة 25,000 مللي أمبير (92.7Wh)، مروحة تبريد، وشاشة ذكية بتعرض الواط والحرارة لحظياً. عدّى اختبار انقطاع 8 ساعات في المعادي. شهادات FCC/CE/UL — ضمان 24 شهر. بسعر <strong>3950 جنيه</strong> مع ضمان كايرو فولت. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p>
 </div>
 
 <div class="product-summary">
@@ -134,7 +134,7 @@ export const anker_prime_a1695_25000 = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">165 واط: الوحش بتاع شحن اللابتوبات</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">165 واط: الوحش بتاع شحن اللابتوب (الحاسب المحمول)ات</h2>
         <p class="text-gray-700">أغلب الباور بانكات بتوقف عند 20-45 واط. أنكر برايم A1695 بيشتغل في دوري مختلف تماماً. بـ<strong>165 واط إخراج مشترك</strong> (لحد 140 واط من منفذ USB-C واحد)، بيشحن ماك بوك برو 16" بسرعة قريبة من الأدابتر. وصّل لابتوبك وموبايلك وتابلتك في نفس الوقت — الـ A1695 بيتعامل مع كل ده بدون مشاكل. <strong>مروحة التبريد النشطة</strong> بتشتغل أوتوماتيكي مع الواط العالي، وبتحافظ على الأداء الحراري حتى في صيف القاهرة 42°C.</p>
     </section>
 
@@ -169,10 +169,10 @@ export const anker_prime_a1695_25000 = {
                 metaTitle: "انكر برايم 25000 الأصلي ⚡ خصم 6% | 165 واط ماك بوك | COD مصر",
                 metaDesc: "اشتري انكر برايم A1695 بقوة 165 واط في مصر. يشحن ماك بوك برو بـ 140 واط. 25000 مللي أمبير، تبريد نشط. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
-                    { question: "بيشحن ماك بوك برو 16 بوصة؟", answer: "أيوه! منفذ USB-C 1 بيوفر لحد 140 واط PD 3.1 — كفاية يشحن ماك بوك برو 16\" بسرعة قريبة من الأدابتر. الباور بانك الوحيد المحمول اللي بيعمل كده." },
-                    { question: "ليه فيه مروحة؟", answer: "مع 165 واط إخراج، بيتولد حرارة كبيرة. المروحة النشطة بتمنع الاختناق الحراري وبتحمي الباور بانك وأجهزتك. هادية جداً." },
-                    { question: "بيشحن في كام دقيقة؟", answer: "مع شاحن أنكر برايم 100 واط: من 0 لـ 80% في ~30 دقيقة، شحن كامل في ~50 دقيقة. أسرع باور بانك اختبرناه." },
-                    { question: "92.7Wh مسموح في الطائرة؟", answer: "أيوه — 92.7Wh تحت حد TSA (100Wh). ده أقصى سعة باور بانك تقدر تاخدها في أي طائرة قانونياً." },
+                    { question: "بيشحن ماك بوك برو 16 بوصة؟", answer: "أيوه. المنفذ الأول بيطلع 140 واط PD 3.1 — زي أدابتر أبل الأصلي تقريباً. مفيش باور بانك تاني محمول بيوصل للقوة دي." },
+                    { question: "ليه فيه مروحة؟", answer: "طاقة 165 واط في جسم مدمج بتولّد حرارة عالية. المروحة الداخلية بتحافظ على درجات آمنة بهدوء، وبتمنع تراجع الأداء أثناء شحن اللابتوب لفترات طويلة." },
+                    { question: "بيشحن في كام دقيقة؟", answer: "وصّله على شاحن 100 واط وهيوصل 80% في نص ساعة تقريباً. الشحن الكامل في حوالي 50 دقيقة — أسرع من أغلب الموبايلات." },
+                    { question: "92.7Wh مسموح في الطائرة؟", answer: "أيوه. 92.7Wh جوّا حد الـ 100Wh المسموح بيه على الطائرات. ده أكبر سعة باور بانك تقدر تسافر بيها قانونياً." },
                     { question: "إيه الفرق بينه وبين أنكر 737؟", answer: "الـ A1695 هو الجيل الجديد: 165 واط مقابل 140، إعادة شحن أسرع (30 دقيقة مقابل ساعتين)، مروحة تبريد نشطة، شاشة أذكى، وتصميم أنيق." }
                 ]
             }

@@ -10,17 +10,17 @@ export const joyroom_20w_usb_c_charger = {
         mpn: "JR-TCF20",
         price: 236,
         originalPrice: 279,
-        stock: 2972,
+        stock: 919,
         featured: false,
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "joyroom 20w usb c charger - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "joyroom 20w usb c charger - أصلي بباركود الشركة | كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "joyroom 20w usb c charger - Lowest Price Guarantee Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "joyroom 20w usb c charger - منتج أصلي معتمد | شحن مصر كلها", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "joyroom 20w usb c charger - Certified by Distributor", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "joyroom 20w usb c charger - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "joyroom 20w usb c charger - Full Warranty Coverage Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "joyroom 20w usb c charger - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "joyroom 20w usb c charger - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "joyroom 20w usb c charger - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "joyroom 20w usb c charger - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "joyroom 20w usb c charger - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -86,7 +86,7 @@ export const joyroom_20w_usb_c_charger = {
             },
             ar: {
                 name: "شاحن جوي روم 20 واط PD | أرخص شاحن سريع أصلي يحمي بطاريتك | ضمان 12 شهر",
-                shortDescription: "بلاش تبوظ بطاريتك بشواحن الشارع الرخيصة ⚡ 20 واط PD أصلي بحماية 5 طبقات | 📱 ايفون 17 من 0→50% في 30 دقيقة | 🔌 صغير مبياخدش مكان في الشنطة",
+                shortDescription: "بلاش تبوظ بطاريتك بشواحن الشارع الرخيصة | ⚡ 20 واط PD أصلي بحماية 5 طبقات | 📱 ايفون 17 من 0→50% في 30 دقيقة | 🔌 صغير مبياخدش مكان في الشنطة",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 20 واط PD</strong> بيدّي <strong>20 واط Power Delivery حقيقي</strong> — مش الـ "20 واط" المزيفة اللي مالية سوق مصر. ايفون 17 من 0→50% في 30 دقيقة. حماية 5 طبقات. أصغر من علبة AirPods. بـ <strong>236 جنيه</strong>، أرخص شاحن PD شرعي في مصر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -153,7 +153,7 @@ export const joyroom_20w_usb_c_charger = {
         "joyroom-usb-c-lightning-cable",
         "joyroom-power-bank-10000",
         "joyroom-25w-fast-charger",
-        "joyroom-3-in-1-data-cable",
+        "joyroom-ft3-smartwatch",
         "joyroom-3-in-1-wireless-charging-station",
         "joyroom-30w-fast-charger"
     ],

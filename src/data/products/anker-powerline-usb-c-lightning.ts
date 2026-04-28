@@ -10,15 +10,15 @@ export const anker_powerline_usb_c_lightning = {
         mpn: "A8612H11",
         price: 508,
         originalPrice: 599,
-        stock: 3246,
+        stock: 452,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-braided-nylon-durable.webp", alt: "نسيج نايلون مضفر لكابل انكر باور لاين - متانة وجودة عالية", order: 0, isPrimary: true, width: 1200, height: 1310 },
+            { id: "img_1", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-braided-nylon-durable.webp", alt: "نسيج نايلون مضفر لكابل انكر باور لاين - متانة وجودة عالية - كايرو فولت", order: 0, isPrimary: true, width: 1200, height: 1310 },
             { id: "img_2", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-to-lightning-mfi-cable-cairovolt-egypt.webp", alt: "كابل انكر USB-C إلى لايتنينج MFi معتمد نايلون مضفر - كايرو فولت مصر", order: 1, isPrimary: false, width: 1200, height: 1500 },
-            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-connector-detail-mfi-certified.webp", alt: "Anker PowerLine USB-C Lightning connector detail MFi certified quality close-up", order: 2, isPrimary: false, width: 1200, height: 1500 },
-            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-charging-iphone-fast-pd.webp", alt: "Anker USB-C Lightning cable fast charging iPhone with PD Power Delivery test", order: 3, isPrimary: false, width: 1200, height: 1500 },
-            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-bend-test-12000-lifespan.webp", alt: "اختبار ثني كابل انكر باور لاين 12000 مرة - شهادة العمر الافتراضي", order: 4, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_3", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-connector-detail-mfi-certified.webp", alt: "Anker PowerLine USB-C Lightning connector detail MFi certified quality close-up - CairoVolt", order: 2, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_4", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-charging-iphone-fast-pd.webp", alt: "Anker USB-C Lightning cable fast charging iPhone with PD Power Delivery test - CairoVolt", order: 3, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_5", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-bend-test-12000-lifespan.webp", alt: "اختبار ثني كابل انكر باور لاين 12000 مرة - شهادة العمر الافتراضي - كايرو فولت", order: 4, isPrimary: false, width: 928, height: 1152 },
             { id: "img_6", url: "/products/anker/anker-powerline-usb-c-lightning/anker-powerline-usb-c-lightning-package-box-contents.webp", alt: "Anker PowerLine USB-C Lightning package box contents - CairoVolt Egypt", order: 5, isPrimary: false, width: 928, height: 1152 }
         ],
         translations: {
@@ -93,7 +93,7 @@ export const anker_powerline_usb_c_lightning = {
             },
             ar: {
                 name: "كابل انكر ايفون الأصلي (معتمد MFi) | أحمي بطاريتك من الكابلات المضروبة | ضمان 18 شهر",
-                shortDescription: "الكابل الوحيد اللي مش هيبوظ بطارية ايفونك الغالي ✅ معتمد MFi من أبل | 💪 أمتن 3 مرات من الأصلي مش هيتقطع | 🚗 شغال CarPlay من غير تقطيع",
+                shortDescription: "الكابل الوحيد اللي مش هيبوظ بطارية ايفونك الغالي | ✅ معتمد MFi من أبل | 💪 أمتن 3 مرات من الأصلي مش هيتقطع | 🚗 شغال CarPlay من غير تقطيع",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to Lightning (A8612)</strong> كابل معتمد MFi لايفون 14/13/12/11 وايباد Lightning. شحن سريع 30 واط PD، بيتحمل 35,000+ ثني (3.5× الأصلي)، متوافق CarPlay. لو عندك ايفون 17/16/15 محتاج كابل USB-C to USB-C. سعر 508 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>

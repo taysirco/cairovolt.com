@@ -10,17 +10,17 @@ export const joyroom_30w_fast_charger = {
         mpn: "JR-TCF30",
         price: 280,
         originalPrice: 420,
-        stock: 3151,
+        stock: 1261,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-1.webp", alt: "Joyroom 30W PD+QC Fast Charger Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 30 واط اصلي مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 30W Charger iPhone 17 Samsung S26", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-4.webp", alt: "شاحن 30 واط PD QC 3.0 - توصيل القاهرة", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 30W USB-C Wall Charger", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم سريع للايفون والاندرويد", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 30W Charger Best Price Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-1.webp", alt: "Joyroom 30W PD+QC Fast Charger Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 30 واط اصلي مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 30W Charger iPhone 17 Samsung S26 - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-4.webp", alt: "شاحن 30 واط PD QC 3.0 - توصيل القاهرة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 30W USB-C Wall Charger - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-6.webp", alt: "شاحن جوي روم سريع للايفون والاندرويد - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-7.webp", alt: "Joyroom 30W Charger Best Price Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -86,7 +86,7 @@ export const joyroom_30w_fast_charger = {
             },
             ar: {
                 name: "شاحن جوي روم 30 واط PD+QC | شاحن واحد هيشحن كل الموبايلات بأقصى سرعة | ضمان 36 شهر",
-                shortDescription: "سرعة ايفون 17 القصوى ⚡ 0→50% في 20 دقيقة | 🔄 بيشحن Apple وسامسونج و Xiaomi | 🏆 ضمان 3 سنين",
+                shortDescription: "سرعة ايفون 17 القصوى | ⚡ 0→50% في 20 دقيقة | 🔄 بيشحن Apple وسامسونج و Xiaomi | 🏆 ضمان 3 سنين",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، شاحن <strong>جوي روم 30 واط</strong> بيفتح <strong>أقصى سرعة شحن لايفون 17</strong> — شاحن جوي روم الوحيد اللي بيوصل الايفون لأقصى 30 واط. منفذين (PD + QC) بيشحن جهازين في نفس الوقت. <strong>0→50% في 20 دقيقة</strong>. ضمان 36 شهر. بـ 280 جنيه، نقطة التوازن بين القوة والسعر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -134,7 +134,7 @@ export const joyroom_30w_fast_charger = {
         <li>💻 <strong>ماك بوك Air:</strong> شحن بطيء (30 واط).</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">الكابل مش في العلبة. منفذ PD بتاع 30 واط USB-C بس. منفذ QC الثاني USB-A (لأندرويد/اكسسوارات). المنفذين مش بيدّو 30 واط في نفس الوقت — الطاقة بتتقسم لما تشحن 2 جهاز. لسامسونج 45 واط أقصى سرعة، ده مش كافي.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">في ظل تذبذب شبكة كهرباء مصر، الشاحن المقلد ممكن يحرق موبايلك. الكابل مش في العلبة. منفذ PD بتاع 30 واط USB-C بس. منفذ QC الثاني USB-A (لأندرويد/اكسسوارات). المنفذين مش بيدّو 30 واط في نفس الوقت — الطاقة بتتقسم لما تشحن 2 جهاز. لسامسونج 45 واط أقصى سرعة، ده مش كافي.</p></div>
 `,
                 features: ["⚡ 30 واط سرعة ايفون 17 القصوى", "📱 0→50% في 20 دقيقة", "🔄 PD 3.0 + QC 3.0 مزدوج", "📱 سامسونج سوبر فاست", "✅ معتمد CE/FCC/RoHS", "🧠 كشف ذكي للبروتوكول", "🏆 ضمان 36 شهر"],
                 metaTitle: "شاحن جوي روم 30 واط ⚡ خصم 33% | PD+QC ايفون وسامسونج",

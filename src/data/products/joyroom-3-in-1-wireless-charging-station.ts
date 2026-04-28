@@ -10,16 +10,16 @@ export const joyroom_3_in_1_wireless_charging_station = {
         mpn: "JR-WQN01",
         price: 1206,
         originalPrice: 1399,
-        stock: 3208,
+        stock: 416,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-1.webp", alt: "Joyroom 3-in-1 Wireless Charging Station Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-2.webp", alt: "محطة شحن لاسلكية 3 في 1 جوي روم مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-3.webp", alt: "Joyroom MagSafe Charger iPhone Watch AirPods", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-4.webp", alt: "شاحن لاسلكي للايفون والساعة والايربودز", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-5.webp", alt: "Joyroom Wireless Station Best Price Egypt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-6.webp", alt: "محطة شحن ابل 3 في 1 - توصيل القاهرة", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-1.webp", alt: "Joyroom 3-in-1 Wireless Charging Station Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-2.webp", alt: "محطة شحن لاسلكية 3 في 1 جوي روم مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-3.webp", alt: "Joyroom MagSafe Charger iPhone Watch AirPods - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-4.webp", alt: "شاحن لاسلكي للايفون والساعة والايربودز - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-5.webp", alt: "Joyroom Wireless Station Best Price Egypt - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-3-in-1-wireless-charging-station/joyroom-joyroom-3-in-1-wireless-charging-station-egypt-cairo-6.webp", alt: "محطة شحن ابل 3 في 1 - توصيل القاهرة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -34,7 +34,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <li>⌚ <strong>Apple Watch:</strong> Ultra 2, Series 10, all models fast charge.</li>
         <li>🎧 <strong>AirPods:</strong> Pro 2 / 3rd Gen wireless pad.</li>
         <li>🏛️ <strong>Premium:</strong> Aluminum alloy, adjustable angle, single cable.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>2.23 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>2.23 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>2.23 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -83,7 +83,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
             },
             ar: {
                 name: "محطة شحن جوي روم 3 في 1 | كومودينو رايق بدون كركبة سلوك | ضمان 18 شهر",
-                shortDescription: "شاحن واحد للايفون والساعة والايربودز 📱 MagSafe 15 واط | ⌚ شحن ابل واتش سريع | 🏛️ تصميم ألومنيوم فخم",
+                shortDescription: "شاحن واحد للايفون والساعة والايربودز | 📱 MagSafe 15 واط | ⌚ شحن ابل واتش سريع | 🏛️ تصميم ألومنيوم فخم",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، محطة <strong>جوي روم 3 في 1 MagSafe</strong> بتشحن <strong>ايفون 17 + ساعة أبل + AirPods في نفس الوقت</strong> بـ 15 واط. بناء ألومنيوم فاخر. بتلغي 3 كابلات من الكومودينو. بـ 1,206 جنيه، محطة شحن نظام أبل الفاخرة. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -118,7 +118,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">ألومنيوم: شكله زي Apple</h2>
-        <p class="text-gray-700"><strong>تصنيع ألومنيوم فاخر</strong> بلمسة مات بتطابق لغة تصميم Apple. ده مش إكسسوار بلاستيك رخيص — شكله كإنه مكانه جنب ال MacBook وال iPad. قاعدة ثقيلة بتمنع الإنقلاب لما تشيل الموبايل.</p>
+        <p class="text-gray-700"><strong>تصنيع ألومنيوم فاخر</strong> بلمسة مات بتطابق لغة تصميم Apple. ده مش إكسسوار بلاستيك رخيص — شكله كإنه مكانه جنب ال MacBook وال iPad. قاعدة ثقيلة بتمنع الإنقلاب لما تشيل الموبايل (الهاتف الذكي).</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -129,7 +129,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
         <li>🎧 <strong>ايربودز برو 2 / الجيل الثالث:</strong> علبة شحن لاسلكية.</li>
     </ul>
 </div>
-<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">نظام أبل بس — مش بتشحن سامسونج أو أندرويد لاسلكياً. وحدة شحن ساعة أبل خاصة بالساعة بس. الايفون لازم يكون متوافق MagSafe (ايفون 12+). AirPods لازم يكون موديل العلبة اللاسلكية. محول الطاقة مش في العلبة.</p></div>
+<div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3><p class="text-gray-700">تذبذب كهرباء مصر ممكن يأثر على الشحن اللاسلكي — الستيشن دي فيها حماية فولتية مدمجة. نظام أبل بس — مش بتشحن سامسونج أو أندرويد لاسلكياً. وحدة شحن ساعة أبل خاصة بالساعة بس. الايفون لازم يكون متوافق MagSafe (ايفون 12+). AirPods لازم يكون موديل العلبة اللاسلكية. محول الطاقة مش في العلبة.</p></div>
 `,
                 features: ["📱 15 واط MagSafe ايفون", "⌚ ابل واتش شحن سريع", "🎧 ايربودز برو 2 لاسلكي", "🔄 3 أجهزة معاً", "🏛️ ألومنيوم فاخر", "📐 زاوية StandBy", "🔌 كابل واحد", "🏆 ضمان 18 شهر", "🔒 معتمد Qi رسمياً → توافق رسمي مع معيار الشحن اللاسلكي"],
                 metaTitle: "محطة شحن جوي روم 3 في 1 ⚡ ايفون + واتش + ايربودز | COD مصر",
@@ -143,7 +143,7 @@ export const joyroom_3_in_1_wireless_charging_station = {
                     { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل. بيغطي عطل ملف الشحن، ارتفاع حرارة، أو عيوب القاعدة. شحن إرجاع مجاني لكل مصر." }]
             }
         },
-        meta: { keywords: "joyroom 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, joyroom 3-in-1 wireless charger", mainTerm: "joyroom 3-in-1 wireless charger" },
+        meta: { keywords: "joyroom 3 in 1 charger, محطة شحن 3 في 1, شاحن ايفون ساعة ايربودز, magsafe charging station egypt, شاحن لاسلكي ابل مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, joyroom 3-in-1 wireless charger, joyroom wireless charging station FCC CE certified", mainTerm: "joyroom 3-in-1 wireless charger" },
         expertOpinion: {
             en: "Clean up your nightstand instanty. One cable for phone, watch, and pods. The build quality feels premium with the metal accents. It charges the watch surprisingly fast for a 3-in-1. Essential for anyone deep in the Apple ecosystem.",
             ar: "نظف منضدتك فوراً. كابل واحد للهاتف والساعة والسماعات. جودة التصنيع تشعرك بالفخامة مع اللمسات المعدنية. يشحن الساعة بسرعة مدهشة لكونه 3 في 1. ضروري لأي شخص منغمس في نظام أبل."

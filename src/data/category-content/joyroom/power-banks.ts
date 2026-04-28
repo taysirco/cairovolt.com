@@ -1,5 +1,4 @@
 import type { CategoryContent } from '../_types';
-
 export const joyroom_power_banks_content: CategoryContent = {
             brand: 'Joyroom',
             brandColor: 'red',
@@ -21,15 +20,10 @@ export const joyroom_power_banks_content: CategoryContent = {
                     title: 'باور بانك جوي روم (The Budget BEAST)',
                     subtitle: 'Joyroom Power Bank - تكنولوجيا الحماية الفائقة',
                     description: `
-      على عكس الباور بانك المقلد (ببطاريات رمل!) اللي بيسخن ويخلص بعد 3 شهور، باور بانك جوي روم بيعتمد على خلايا **Li-Polymer Grade A+** معتمدة UL + CE — نفس المستخدمة في ايفون وسامسونج. 22.5 واط. 500 دورة شحن. 88% احتفاظ بالسعة.
-
+      الباور بانك اللي اشتريته من السوق خلص بعد 3 شهور؟ باور بانك **جوي روم** مبني بخلايا **متينة ومعتمدة** — نفس التقنية المستخدمة في الهواتف الرائدة. 500 دورة شحن وضمان 18 شهر من CairoVolt.
       **مثالي لظروف مصر:**
-      قطع كهرباء متكرر؟ رحلة ساحل شمالي 3 أيام؟ باور بانك 20,000mAh بيشحن الموبايل (الهاتف الذكي) 4 مرات كاملة — مسموح على الطائرة (74Wh أقل من حد IATA).
-
-      **ليه 3 مليون مصري اختاروه؟**
-      - **شحن صاروخي 22.5W:** يشحن ايفون 15/16 عبر USB-C حتى 60% في 30 دقيقة فقط.
-      - **حماية 9 نقاط:** ماس كهربائي، سخونة زائدة، تفريغ مفاجئ — كله مغطى.
-      - **شاشة رقمية:** تعرف النسبة بالظبط — مش مجرد لمبات. اطلبه الآن — توصيل القاهرة خلال 24 ساعة. تسوق كابل جوي روم (/joyroom/cables) USB-C PD لأقصى سرعة شحن.
+      قطع كهرباء متكرر؟ رحلة ساحل شمالي 3 أيام؟ مسموح على الطائرة. شاشة رقمية تعرف النسبة بالظبط — مش مجرد لمبات.
+      اطلبه الآن — توصيل القاهرة خلال 24 ساعة. تسوق [كابل جوي روم](/joyroom/cables) USB-C PD لأقصى سرعة شحن.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'منتج أصلي 100% (UL + CE معتمد)' },
@@ -57,10 +51,6 @@ export const joyroom_power_banks_content: CategoryContent = {
                     ],
                     faq: [
                         {
-                            question: 'كم سعر باور بانك جوي روم في مصر؟',
-                            answer: 'من 850 جنيه (MagSafe 10,000mAh) إلى 1,624 جنيه (Slim 10,000mAh 22.5W). موديل 20,000mAh Pro بـ 997 جنيه — أفضل قيمة مقابل السعة. يدعم USB-C و Lightning معاً. مقارنةً بأنكر: وفر 30-50% مع نفس تقنية PD وخلايا Grade A+.'
-                        },
-                        {
                             question: 'هل يؤثر الشحن السريع 22.5W على بطارية الايفون؟',
                             answer: 'لا. شريحة Smart IC من جوي روم بتتعرف على الجهاز وتديله الفولت المناسب تماماً (5V/9V/12V حسب الجهاز). بتفصل الشحن عند 100%. اختبار CairoVolt: حرارة الايفون 17 أثناء الشحن = 36°م (آمن تماماً). نفس مستوى حرارة الشاحن الأصلي.'
                         },
@@ -75,31 +65,22 @@ export const joyroom_power_banks_content: CategoryContent = {
                         {
                             question: 'هل الباور بانك مسموح على الطائرة؟',
                             answer: 'نعم. جميع موديلات جوي روم (حتى 20,000mAh = 74Wh) أقل من حد IATA وهو 100Wh. مسموح في حقيبة اليد فقط (مش الشنطة المسجلة). مجربة على مصر للطيران، طيران العربية، والإماراتية.'
-                        },
-                        {
-                            question: 'ما ضمان باور بانك جوي روم في مصر؟',
-                            answer: 'ضمان سنة من CairoVolt ضد عيوب الصناعة. استبدال فوري خلال 14 يوم. الضمان يشمل: البطارية، منافذ USB-C/USB-A، الشاشة الرقمية. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         }
                     ],
                     products: [
                         { name: 'Joyroom 10000mAh Slim 22.5W', price: 1624, badge: 'الأكثر مبيعاً' },
                         { name: 'Joyroom 20000mAh Pro 22.5W', price: 997, badge: 'وحش الطاقة' },
-                        { name: 'Joyroom MagSafe 10000mAh', price: 850, badge: 'لاسلكي' },
+                        { name: 'Joyroom MagSafe 10000mAh', price: 850, badge: 'لاسلكي' }
                     ]
                 },
                 en: {
                     title: 'Joyroom Power Bank - The Budget King',
                     subtitle: 'Premium Safety, Affordable Price',
                     description: `
-      Unlike fake power banks (filled with sand batteries!) that overheat and die in 3 months — Joyroom uses **Grade A+ Li-Polymer cells** certified UL + CE — the same cells used in iPhones and Samsung flagships. 22.5W fast charging. 500 charge cycles. 88% capacity retention.
-
+      That power bank you bought from the market died after 3 months? Joyroom uses **premium cells** — the same tech in flagship phones. 500 charge cycles and 18-month CairoVolt warranty.
       **Perfect for Egyptian Life:**
-      Frequent power outages? 3-day Sahel trip? 20,000mAh charges your phone 4 full times — airline-safe (74Wh, below IATA limit).
-
-      **Why 3 Million+ Egyptians Chose Joyroom:**
-      - **22.5W Rocket Charging:** iPhone 15/16 to 60% in just 30 minutes via USB-C
-      - **9-Point Protection:** Short circuit, overheating, sudden discharge — all covered
-      - **Digital Display:** See exact percentage — not just blinking LEDs. CairoVolt tested — next-day Cairo delivery
+      Frequent power outages? 3-day Sahel trip? Airline-safe. Digital display shows exact percentage — not just blinking LEDs.
+      CairoVolt tested — next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: '100% Original (QR Code)' },
@@ -125,36 +106,10 @@ Fake Joyroom banks are common (often filled with sand!).
 `
                         }
                     ],
-                    faq: [
-                        {
-                            question: 'How much does Joyroom Power Bank cost in Egypt?',
-                            answer: 'From EGP 850 (MagSafe 10,000mAh) to EGP 1,624 (Slim 10,000mAh 22.5W). The 20,000mAh Pro at EGP 997 is the best value-per-capacity. Compared to Anker: save 30-50% with the same PD technology and Grade A+ cells.'
-                        },
-                        {
-                            question: 'Does 22.5W fast charging hurt iPhone battery health?',
-                            answer: 'No. Joyroom Smart IC chip identifies your device and delivers the exact voltage needed (5V/9V/12V). Auto-cuts at 100%. CairoVolt test: iPhone 17 temperature during charging = 36°C (perfectly safe). Same as Apple original charger.'
-                        },
-                        {
-                            question: 'Is the power bank safe? Does it overheat or explode?',
-                            answer: '100% safe. Grade A+ Li-Polymer cells (same used in iPhones and Samsung). 9-point protection: short-circuit, overheating, sudden discharge, overcharging, over-voltage. CairoVolt test: 500 charge cycles — retained 88% capacity.'
-                        },
-                        {
-                            question: 'Joyroom vs Anker power bank — which should I choose?',
-                            answer: 'Joyroom: 30-50% cheaper, 22.5W fast charging, slimmer design. Anker: Tesla-grade cells + smart LED display. Budget priority → Joyroom 20,000mAh Pro at EGP 997 (best value). Need 60,000mAh or laptop charging → Anker Prime. Both backed by CairoVolt warranty.'
-                        },
-                        {
-                            question: 'Is it airline/TSA approved?',
-                            answer: 'Yes. All Joyroom models (up to 20,000mAh = 74Wh) are under IATA 100Wh limit. Carry-on only (not checked luggage). Tested on EgyptAir, Air Arabia, and Emirates.'
-                        },
-                        {
-                            question: 'What is the warranty for Joyroom power bank in Egypt?',
-                            answer: '1-year warranty from CairoVolt. 14-day instant replacement. Covers: battery, USB-C/USB-A ports, digital display. Next-day Cairo delivery, cash on delivery.'
-                        }
-                    ],
                     products: [
                         { name: 'Joyroom 10000mAh Slim 22.5W', price: 1624, badge: 'Best Seller' },
                         { name: 'Joyroom 20000mAh Pro 22.5W', price: 997, badge: 'Power Beast' },
-                        { name: 'Joyroom MagSafe 10000mAh', price: 850, badge: 'Wireless' },
+                        { name: 'Joyroom MagSafe 10000mAh', price: 850, badge: 'Wireless' }
                     ]
                 }
             }

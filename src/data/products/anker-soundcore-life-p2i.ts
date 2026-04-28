@@ -10,16 +10,16 @@ export const anker_soundcore_life_p2i = {
         mpn: "A3991H11",
         price: 820,
         originalPrice: 1100,
-        stock: 2623,
+        stock: 566,
         featured: false,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wireless-earbuds-10mm-cairovolt.webp", alt: "سماعات انكر ساوندكور لايف P2i لاسلكية درايفر 10mm - كايرو فولت مصر", order: 0, isPrimary: true, width: 737, height: 1142 },
-            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-earbud-driver-detail-design.webp", alt: "Anker Life P2i earbud driver design detail showing 10mm speaker quality", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-charging-case-open-led-status.webp", alt: "علبة شحن انكر لايف P2i مفتوحة مع مؤشرات LED لحالة البطارية", order: 2, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wearing-comfort-in-ear-fit.webp", alt: "Anker Soundcore Life P2i wearing comfort and in-ear fit lifestyle photo", order: 3, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-usb-c-charging-port-case.webp", alt: "منفذ USB-C لشحن علبة سماعات انكر لايف P2i - تفاصيل المنفذ", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-package-box-contents-eartips.webp", alt: "Anker Life P2i package box with multiple ear tip sizes and accessories - Egypt", order: 5, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-earbud-driver-detail-design.webp", alt: "Anker Life P2i earbud driver design detail showing 10mm speaker quality - CairoVolt", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-charging-case-open-led-status.webp", alt: "علبة شحن انكر لايف P2i مفتوحة مع مؤشرات LED لحالة البطارية - كايرو فولت", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wearing-comfort-in-ear-fit.webp", alt: "Anker Soundcore Life P2i wearing comfort and in-ear fit lifestyle photo - CairoVolt", order: 3, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-usb-c-charging-port-case.webp", alt: "منفذ USB-C لشحن علبة سماعات انكر لايف P2i - تفاصيل المنفذ - كايرو فولت", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-package-box-contents-eartips.webp", alt: "Anker Life P2i package box with multiple ear tip sizes and accessories - Egypt - CairoVolt", order: 5, isPrimary: false, width: 1024, height: 1024 }
         ],
         translations: {
             en: {
@@ -40,7 +40,7 @@ export const anker_soundcore_life_p2i = {
         <li>🤖 <strong>AI Calls:</strong> Dual-mic AI algorithm isolates your voice from street noise.</li>
         <li>🎵 <strong>Dual EQ:</strong> Bass Mode for music, Podcast Mode for clear vocals.</li>
         <li>⚡ <strong>Fast Charge:</strong> 10 minutes charging = 1 hour of playback.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.52 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -90,7 +90,7 @@ export const anker_soundcore_life_p2i = {
             },
             ar: {
                 name: "سماعات انكر سوندكور Life P2i | صوتك واضح وسط زحمة طلعت حرب | ضمان 18 شهر",
-                shortDescription: "مكالماتك واضحة في عز الدوشة 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
+                shortDescription: "مكالماتك واضحة في عز الدوشة | 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس السماعات اللاسلكية الصيني تحت 500 جنيه اللي بلوتوث 4.2 بيعمل تأخير وبطاريتها بتموت بعد شهرين، <strong>سماعات أنكر Soundcore Life P2i (A3991)</strong> فيها بلوتوث 5.2 أصلي مع ميكروفونات ذكية بذكاء اصطناعي بتعزل صوتك عن دوشة الشارع. 28 ساعة بطارية (7 سماعات + 21 علبة)، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر <strong>999 جنيه</strong> مع ضمان كايرو فولت 18 شهر.</p>

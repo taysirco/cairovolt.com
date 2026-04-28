@@ -21,15 +21,12 @@ export const anker_car_chargers_content: CategoryContent = {
                     title: 'شاحن سيارة انكر (شحن سريع وآمن)',
                     subtitle: 'Anker Car Charger - حول سيارتك لمحطة شحن',
                     description: `
-      على عكس شواحن السيارات البلاستيكية اللي بتسخن لـ 85°م وبتبوظ منفذ الولاعة — شاحن **Anker** جسمه **Alloy معدني** بيشتت الحرارة + تقنية PowerIQ 3.0 بتتعرف على جهازك تلقائياً. 52 واط. جهازين في نفس الوقت. صفر سخونة.
+      شواحن السيارات البلاستيكية بتسخن وبتبوظ منفذ الولاعة. شاحن **Anker** مختلف — جسم **معدني Alloy** بيشتت الحرارة + شحن سريع لجهازين في نفس الوقت. صفر سخونة.
 
       **مصمم لطرق مصر:**
-      حرارة الاسفلت 65°م؟ مطبات الصحراوي؟ الجسم المعدني يتحمل 60°م + التصميم المحكم مش بيهتز ولا بيفصل مع أسوأ المطبات. اختبار CairoVolt: 3 ساعات شحن في شمس 45°م — حرارة الشاحن 42°م فقط.
+      حرارة الصيف القاسية؟ مطبات الصحراوي؟ الجسم المعدني بيتحمل كل شيء + التصميم المحكم مش بيهتز ولا بيفصل.
 
-      **ليه انكر مش أي شاحن سيارة؟**
-      - **MultiProtect:** نظام حماية بيراقب الحرارة 3 مليون مرة في اليوم — بيفصل فوراً لو في خطر
-      - **USB-C PD سريع:** اشحن ايفون 17 من 0-50% في 30 دقيقة وأنت سايق
-      - **ضمان 18 شهر CairoVolt:** أطول من ضمان أبل — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) + حامل موبايل انكر (/anker/car-chargers) لمنظومة سيارة كاملة.
+      ضمان 18 شهر CairoVolt — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة. تسوق [كابل انكر](/anker/cables) لمنظومة سيارة كاملة.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'جسم معدني Alloy + USB-C PD — FCC معتمد + يتحمل 60°م' },
@@ -83,15 +80,12 @@ export const anker_car_chargers_content: CategoryContent = {
                     title: 'Anker Car Charger (Fast & Safe)',
                     subtitle: 'Turn Your Car Into a Power Station',
                     description: `
-      Unlike cheap plastic car chargers that overheat to 85°C and damage your lighter socket — the **Anker** car charger features an **Alloy metal body** that dissipates heat + PowerIQ 3.0 that auto-detects your device. 52W. Two devices. Zero overheating.
+      Cheap plastic car chargers overheat and damage your lighter socket. The **Anker** car charger features an **Alloy metal body** that dissipates heat + fast charging for two devices simultaneously. Zero overheating.
 
       **Built for Extreme Conditions:**
-      Asphalt reaching 65°C? Rough desert roads? The Alloy body handles 60°C + the precision-fit design stays locked even over the worst speed bumps. CairoVolt test: 3 hours continuous charging in 45°C sun — charger at 42°C only.
+      Egypt's brutal summer heat? Desert highway bumps? The Alloy body handles it all + the precision-fit design stays locked even on the worst roads.
 
-      **Why Anker Over Any Car Charger?**
-      - **MultiProtect:** Safety system monitors temperature 3 million times/day — cuts power instantly if danger detected
-      - **USB-C PD fast charging:** iPhone 17 from 0-50% in 30 minutes while driving
-      - **18-month CairoVolt warranty:** Longer than Apple's — order now, next-day Cairo delivery
+      18-month CairoVolt warranty — order now, next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Alloy Heat Dissipation — FCC Certified' },
@@ -111,28 +105,6 @@ export const anker_car_chargers_content: CategoryContent = {
                             content: `
 No. Anker chargers draw negligible power when the car is off, ensuring your car battery stays safe even if you leave the charger plugged in.
 `
-                        }
-                    ],
-                    faq: [
-                        {
-                            question: 'How much does Anker car charger cost in Egypt?',
-                            answer: 'All models from EGP 950 (PowerDrive/323/Mini). Compared to plastic chargers at EGP 200: Anker has alloy body + real PD fast charging + 18-month warranty. Next-day Cairo delivery, cash on delivery.'
-                        },
-                        {
-                            question: 'Is the car charger safe? Does it overheat?',
-                            answer: '100% safe. Alloy body dissipates heat (rated 60°C). MultiProtect auto-cuts if temperature spikes. CairoVolt test: 3 hours continuous charging in 45°C sun — charger stayed at 42°C. Cheap plastic fakes reached 85°C!'
-                        },
-                        {
-                            question: '⚠️ How to spot a fake Anker car charger?',
-                            answer: 'Fakes overheat and damage phones. Original: 1) Metal alloy body not plastic 2) Engraved Anker logo not printed 3) Real PD 52W charging 4) 18-month CairoVolt warranty.'
-                        },
-                        {
-                            question: 'Can it charge iPhone and Samsung at the same time?',
-                            answer: 'Yes! The 52W model has dual ports: USB-C PD for iPhone (30W fast charge) and USB-A PowerIQ for Samsung (22W). Each port runs at max speed independently.'
-                        },
-                        {
-                            question: 'What is the warranty for Anker car charger in Egypt?',
-                            answer: '18-month warranty from CairoVolt. 14-day instant replacement. Covers: ports, MultiProtect system, alloy body. Next-day Cairo delivery, cash on delivery.'
                         }
                     ],
                     products: [

@@ -1,5 +1,4 @@
 import type { CategoryContent } from '../_types';
-
 export const joyroom_wall_chargers_content: CategoryContent = {
             brand: 'Joyroom',
             brandColor: 'red',
@@ -21,14 +20,10 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     title: 'شواحن جوي روم (The Safe Choice)',
                     subtitle: 'Joyroom Chargers - تكنولوجيا تبريد ذكية',
                     description: `
-      كل صيف في مصر، تذبذب الكهرباء بيحرق شواحن رخيصة بالآلاف. شاحن جوي روم مختلف — شريحة **Smart IC** بتفصل تلقائياً عند 100% + مادة **PC V0 مقاومة للحريق** معتمدة UL + CE. 20 واط. حماية حقيقية. سعر في المتناول.
-
-      **اختبار CairoVolt المعملي:** وصلنا شاحن GaN 35W بمنظم فولت 260V (أعلى من الطبيعي بكتير) — الشاحن فصل في 0.1 ثانية بدون أي ضرر. حرارته بعد 3 ساعات شحن متواصل = 38°م فقط. الشواحن الرخيصة؟ وصلت 65°م.
-
+      كل صيف في مصر، تذبذب الكهرباء بيحرق شواحن رخيصة بالآلاف. شاحن **جوي روم** مختلف — بيفصل تلقائياً عند 100% + مادة **مقاومة للحريق**. حماية حقيقية. سعر في المتناول.
       **ليه بيختاروه المحترفون في مصر؟**
-      - **تقنية GaN III (موديلات Pro):** حجم أصغر 50% من شاحن أبل — يدخل جيب القميص.
-      - **USB-C PD سريع:** اشحن اللابتوب (الحاسب المحمول) والموبايل عبر USB-C في نفس الوقت.
-      - **ضمان سنة CairoVolt:** استبدال فوري خلال 14 يوم — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة.
+      شاحن بيستحمل تذبذب كهرباء مصر، بيحافظ على Battery Health، وحجمه بيدخل جيب القميص. شوف دليل الشراء بالأسفل لاختيار الواطية المناسبة.
+      اطلبه الآن — ضمان سنة CairoVolt + توصيل القاهرة خلال 24 ساعة.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'ضمان الوكيل الرسمي' },
@@ -53,48 +48,35 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     faq: [
                         {
                             question: 'كام سعر شاحن جوي روم (جيروم) في مصر 2026؟',
-                            answer: 'من 236 جنيه (20W PD) إلى 342 جنيه (35W GaN Dual). شاحن 65W للابتوب (الحاسب المحمول) بـ 280 جنيه — أرخص 50% من شاحن أبل الأصلي مع نفس الأداء. اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة، دفع عند الاستلام.'
+                            answer: 'من 236 جنيه (20W PD) إلى 342 جنيه (35W GaN Dual). شاحن 65W للابتوب بـ 280 جنيه — أرخص 50% من شاحن أبل الأصلي. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         },
                         {
-                            question: 'الشاحن بيسخن ولا آمن؟ (سؤال شائع)',
-                            answer: 'آمن 100%. مادة PC V0 مقاومة للحريق (نفس المستخدمة في طائرات بوينج) + حساس حرارة بيفصل تلقائياً لو الحرارة زادت عن 45°م. اختبار CairoVolt الميداني: GaN 35W حرارته 38°م فقط بعد ساعة شحن سريع متواصل. الشواحن المقلدة الرخيصة وصلت 65°م وسببت انتفاخ بطارية ايفون!'
+                            question: 'الشاحن بيسخن ولا آمن؟',
+                            answer: 'آمن 100%. اختبار CairoVolt الميداني: GaN 35W حرارته 38°م فقط بعد ساعة شحن متواصل. الشواحن المقلدة وصلت 65°م وسببت انتفاخ بطارية!'
                         },
                         {
-                            question: '⚠️ تحذير: إزاي تفرق بين شاحن جوي روم الأصلي والمقلد (fake)؟',
-                            answer: 'شواحن مقلدة كتير في سوق مصر بتسخن وبتضر البطارية وممكن تسبب حريق. الأصلي: 1) مادة PC V0 مطفية (matte) مش بلاستيك لامع رخيص 2) شريحة Smart IC بتفصل تلقائياً عند 100% 3) علبة عليها كود QR للتحقق 4) ضمان سنة من CairoVolt — الموزع المعتمد.'
+                            question: 'إيه الفرق بين 20W و 35W و 65W؟',
+                            answer: 'شوف دليل الشراء بالأعلى للمقارنة التفصيلية. باختصار: 20W كافي للموبايل اليومي (236 ج). 35W لشحن جهازين معاً (342 ج). 65W ضروري للابتوب (280 ج).'
                         },
                         {
-                            question: 'إيه الفرق بين 20W و 35W و 65W؟ أختار أنهي؟',
-                            answer: '20W = يشحن ايفون 17 من 0-50% في 30 دقيقة — كافي للاستخدام اليومي وسعره 236 ج. 35W GaN = يشحن جهازين (موبايل + ايباد) في نفس الوقت + حجم أصغر 50% — الأفضل قيمة بـ 342 ج. 65W = ضروري لشحن لابتوب MacBook Air — بـ 280 ج أرخص من شاحن أبل. مش محتاج لابتوب؟ وفر واشتري 20W.'
-                        },
-                        {
-                            question: 'هل شاحن جيروم بيشتغل كويس مع تذبذب كهرباء مصر؟',
-                            answer: 'نعم — ده من أهم مميزاته. حماية MultiProtect بتتعامل مع تذبذب الفولت (160V-240V) اللي بيحصل كتير في مصر خصوصاً الصيف. لو الفولت ارتفع فجأة الشاحن بيفصل في 0.1 ثانية. اختبار CairoVolt: وصلنا الشاحن بمنظم فولت 260V — فصل فوراً بدون أي ضرر. شاحن رخيص؟ كان هيتحرق.'
-                        },
-                        {
-                            question: 'ما ضمان شاحن جوي روم في مصر؟',
-                            answer: 'ضمان سنة كاملة من CairoVolt — الموزع الرسمي. استبدال فوري خلال 14 يوم بدون أسئلة. الضمان يشمل: المنافذ، شريحة Smart IC، جسم الشاحن. توصيل القاهرة والجيزة يوم واحد، باقي المحافظات 2-3 أيام. دفع عند الاستلام.'
+                            question: 'هل بيستحمل تذبذب كهرباء مصر؟',
+                            answer: 'نعم. تفاصيل الاختبار في دليل الشراء بالأعلى. الشاحن بيدعم جهد من 100V لـ 240V وبيفصل فوراً لو الفولت زاد.'
                         }
                     ],
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'اقتصادي' },
                         { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'الأسرع' },
-                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'للابتوب' },
+                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'للابتوب' }
                     ]
                 },
                 en: {
                     title: 'Joyroom Chargers - Safe & Smart',
                     subtitle: 'Original Performance at Half Price',
                     description: `
-      Egypt's summer voltage fluctuations (170V-250V) destroy cheap chargers and damage phones. Joyroom chargers feature **Smart IC chips** that regulate power intelligently — auto-stop at 100% to preserve Battery Health. CE + UL certified. Fire-retardant PC V0 housing.
-
+      Egypt's summer voltage fluctuations destroy cheap chargers and damage phones. Joyroom chargers auto-stop at 100% to preserve Battery Health. Fire-retardant housing that won't melt or catch fire.
       **The Smart Difference:**
-      Most chargers keep pushing current after 100% — that's why Battery Health drops to 80% in a year. Joyroom's Smart IC cuts power completely. Your phone charges overnight safely.
-
-      **Why Choose Joyroom Over Generic Chargers?**
-      - **GaN Technology (Pro Models):** 50% smaller, runs 16°C cooler than traditional chargers
-      - **Fire-Retardant V0 Housing:** Won't melt or catch fire — even at 260V spike
-      - **Multi-Port:** Charge MacBook + iPhone simultaneously — CairoVolt verified, next-day Cairo delivery
+      Most chargers keep pushing current after 100% — that's why Battery Health drops to 80% in a year. Joyroom cuts power completely. Your phone charges overnight safely.
+      See buying guide below to choose the right wattage. CairoVolt verified — next-day Cairo delivery.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Official Agent Warranty' },
@@ -116,36 +98,10 @@ Joyroom chargers support 100V-240V wide voltage input — automatically handles 
 `
                         }
                     ],
-                    faq: [
-                        {
-                            question: 'How much does Joyroom charger cost in Egypt?',
-                            answer: 'From EGP 236 (20W PD) to EGP 342 (35W GaN Dual). 65W laptop charger at EGP 280 — 50% cheaper than Apple original. Next-day Cairo delivery, cash on delivery.'
-                        },
-                        {
-                            question: 'Is the charger safe? Does it overheat?',
-                            answer: '100% safe. PC V0 fire-retardant material + thermal sensor auto-cuts. CairoVolt test: GaN 35W at 38°C during fast charging. Fake chargers reached 65°C and caused battery swelling!'
-                        },
-                        {
-                            question: '⚠️ How to spot a fake charger?',
-                            answer: 'Fake chargers overheat and damage batteries. Original: 1) Matte PC V0 not shiny plastic 2) Smart IC auto-stops at 100% 3) QR code on box 4) 1-year CairoVolt warranty.'
-                        },
-                        {
-                            question: 'What is the difference between 20W and 35W?',
-                            answer: '20W = charges iPhone 17 from 0-50% in 30 min. 35W GaN = charges 2 devices simultaneously + 50% smaller than traditional chargers. 65W = required for MacBook laptop.'
-                        },
-                        {
-                            question: 'What is the warranty for Joyroom charger in Egypt?',
-                            answer: '1-year CairoVolt warranty. 14-day instant replacement. Covers: ports, chip, body. Next-day Cairo delivery, cash on delivery.'
-                        },
-                        {
-                            question: 'Does Joyroom charger handle Egypt voltage fluctuations?',
-                            answer: 'Yes! Joyroom chargers support 100-240V wide voltage input — handles Egyptian grid fluctuations (160-260V). Smart IC chip auto-adjusts. CairoVolt tested during peak summer brownouts — zero issues.'
-                        }
-                    ],
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'Value' },
                         { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'Fastest' },
-                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'Laptop-Ready' },
+                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'Laptop-Ready' }
                     ]
                 }
             }

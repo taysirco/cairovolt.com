@@ -10,18 +10,18 @@ export const anker_737_powerbank = {
         mpn: "A1289011",
         price: 4999,
         originalPrice: 5500,
-        stock: 3001,
+        stock: 412,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-737-powerbank/anker-737-powercore-24000mah-140w-premium-power-bank-cairovolt.webp", alt: "باور بانك انكر 737 بقوة 140 واط 24000 مللي أمبير بريميوم - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
-            { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-737-usb-c-140w-output-port-detail-pd3.1.webp", alt: "Anker 737 USB-C 140W output port with PD3.1 protocol support detail", order: 1, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-737-smart-digital-display-wattage-voltage-reading.webp", alt: "شاشة ديجيتال ذكية لباور بانك انكر 737 تعرض الواط والفولت في الوقت الحقيقي", order: 2, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_2", url: "/products/anker/anker-737-powerbank/anker-737-usb-c-140w-output-port-detail-pd3.1.webp", alt: "Anker 737 USB-C 140W output port with PD3.1 protocol support detail - CairoVolt", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_3", url: "/products/anker/anker-737-powerbank/anker-737-smart-digital-display-wattage-voltage-reading.webp", alt: "شاشة ديجيتال ذكية لباور بانك انكر 737 تعرض الواط والفولت في الوقت الحقيقي - كايرو فولت", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-737-powerbank/anker-737-charging-macbook-pro-140w-laptop-fast-charge.webp", alt: "Anker 737 charging MacBook Pro at 140W speed - laptop fast charge test CairoVolt", order: 3, isPrimary: false, width: 1200, height: 1200 },
-            { id: "img_5", url: "/products/anker/anker-737-powerbank/anker-737-triple-port-usb-c-usb-a-configuration.webp", alt: "تكوين المنافذ الثلاثية لباور بانك انكر 737 - USB-C و USB-A", order: 4, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_6", url: "/products/anker/anker-737-powerbank/anker-737-premium-aluminum-body-design-build-quality.webp", alt: "Anker 737 premium aluminum body design and build quality close-up", order: 5, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_7", url: "/products/anker/anker-737-powerbank/anker-737-size-comparison-compact-24000mah-portable.webp", alt: "حجم باور بانك انكر 737 المدمج مع سعة 24000 مللي أمبير - تصميم محمول", order: 6, isPrimary: false, width: 1024, height: 1024 },
-            { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-737-package-contents-cable-pouch-accessories.webp", alt: "Anker 737 package contents including cable pouch and all accessories", order: 7, isPrimary: false, width: 1024, height: 1024 }
+            { id: "img_5", url: "/products/anker/anker-737-powerbank/anker-737-triple-port-usb-c-usb-a-configuration.webp", alt: "تكوين المنافذ الثلاثية لباور بانك انكر 737 - USB-C و USB-A - كايرو فولت", order: 4, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_6", url: "/products/anker/anker-737-powerbank/anker-737-premium-aluminum-body-design-build-quality.webp", alt: "Anker 737 premium aluminum body design and build quality close-up - CairoVolt", order: 5, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_7", url: "/products/anker/anker-737-powerbank/anker-737-size-comparison-compact-24000mah-portable.webp", alt: "حجم باور بانك انكر 737 المدمج مع سعة 24000 مللي أمبير - تصميم محمول - كايرو فولت", order: 6, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-737-package-contents-cable-pouch-accessories.webp", alt: "Anker 737 package contents including cable pouch and all accessories - CairoVolt", order: 7, isPrimary: false, width: 1024, height: 1024 }
         ],
         relatedProducts: [
         "anker-prime-a1695-25000",
@@ -103,8 +103,8 @@ export const anker_737_powerbank = {
                 ]
             },
             ar: {
-                name: "باور بانك انكر 737 (140 واط) | منقذ اللابتوب المعتمد وقت قطع الكهربا | ضمان 18 شهر",
-                shortDescription: "الوحش اللي بيشغل لابتوبك في فترة تخفيف الأحمال ⚡ 140 واط | 🔋 24,000 مللي أمبير | 📊 شاشة ذكية بتعرفك فاضل كام دقيقة بالظبط",
+                name: "باور بانك انكر 737 (140 واط) | منقذ اللابتوب (الحاسب المحمول) المعتمد وقت قطع الكهربا | ضمان 18 شهر",
+                shortDescription: "الوحش اللي بيشغل لابتوبك في فترة تخفيف الأحمال | ⚡ 140 واط | 🔋 24,000 مللي أمبير | 📊 شاشة ذكية بتعرفك فاضل كام دقيقة بالظبط",
                 description: `
 <div class="quick-answer">
     <p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، <strong>أنكر 737 PowerCore (A1289)</strong> بيطلع 140 واط USB-C PD — بيشحن ماك بوك برو 16" حتى 50% في 30 دقيقة. سعة 24,000 مللي أمبير بتشحن ايفون 17 أكثر من 5 مرات. شاشة ذكية بتعرض الوات الحي والوقت المتبقي. بسعة 86.4 واط/ساعة مسموح في الطيارة. ده باور بانك مستوى احترافي للمصممين واللي بيشتغلوا عن بعد. سعر 4,400 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
@@ -134,7 +134,7 @@ export const anker_737_powerbank = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">140 واط: باور بانك يشحن اللابتوب (مش بس الموبايل)</h2>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">140 واط: باور بانك يشحن اللابتوب (مش بس الموبايل (الهاتف الذكي))</h2>
         <p class="text-gray-700">معظم الباور بانك بيوصل لـ 20-30 واط — كافي للموبايل، بس فاشل للابتوب. انكر 737 بيوفر <strong>140 واط عبر USB-C PD 3.1</strong>، مما يخليه من القلائل اللي بتشحن ماك بوك برو 16" بسرعة. اشحن لابتوبك 50% في 30 دقيقة، أو شغّله أثناء رحلة طيران. للعمل عن بعد في مصر وقت <a href="/anker/power-banks" class="text-blue-600 hover:underline">انقطاع الكهرباء</a>، ده بيغير كل حاجة.</p>
     </section>
 

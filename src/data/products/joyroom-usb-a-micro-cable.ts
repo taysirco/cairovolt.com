@@ -10,17 +10,17 @@ export const joyroom_usb_a_micro_cable = {
         mpn: "JR-S-AM24",
         price: 44,
         originalPrice: 100,
-        stock: 3303,
+        stock: 479,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Micro Cable Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Micro USB مصر", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Micro Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-micro-cable/joyroom-joyroom-usb-a-micro-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Micro USB مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom USB-A to Micro USB Cable 1.2m",
-                shortDescription: "🔌 Micro-USB cable tested with 12 devices (Samsung A10s, Xiaomi, Oppo, JBL) — full 2.4A on all | TPE durable",
+                shortDescription: "🔌 Micro-USB Cable | ⚡ Full 2.4A Tested on 12 Devices | 💪 TPE Durable | 🏆 Samsung A10s, Xiaomi, JBL Verified",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike fragile Micro-USB cables that bend and snap at the connector, Your power bank, Bluetooth speaker, shaver, and kids' tablet still need Micro USB — and cheap cables break in weeks. The <strong>Joyroom USB-A to Micro USB</strong> delivers full <strong>2.4A charging</strong> with durable TPE construction. At <strong>44 EGP</strong>, it's the utility cable every Egyptian household needs. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>🔌 <strong>2.4A Fast Charge:</strong> Maximum standard charging speed for Micro USB devices.</li><li>📏 <strong>1.2m Length:</strong> Long enough for bedside use, short enough to avoid tangles.</li><li>💪 <strong>Durable TPE:</strong> Flexible rubber that resists cracking in heat.</li><li>💰 <strong>44 EGP:</strong> Less than a cup of coffee at a Cairo cafe.</li><li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"Micro USB isn't dead — it's everywhere in Egyptian homes. JBL speakers, old power banks, electric shavers, kids' tablets, wireless mice, ring lights. We tested this cable with 12 different devices and it delivered full 2.4A on every single one. The TPE material stays flexible even after months in a hot car. At 44 EGP, there's no reason to use a sketchy no-name cable that might damage your device. Buy 3 and have them ready."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -40,7 +40,7 @@ export const joyroom_usb_a_micro_cable = {
             },
             ar: {
                 name: "كابل جوي روم USB-A إلى Micro USB 1.2 متر | كابل السماعات والباور بانك القديم",
-                shortDescription: "لسه عندك أجهزة Micro USB؟ 🔌 اتجرب مع 12 جهاز (Samsung A10s, Xiaomi, JBL) | ⚡ 2.4A كاملة | 💪 TPE متين مش هيتقطع",
+                shortDescription: "لسه عندك أجهزة Micro USB؟ | 🔌 اتجرب مع 12 جهاز (Samsung A10s, Xiaomi, JBL) | ⚡ 2.4A كاملة | 💪 TPE متين مش هيتقطع",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، الباور بانك والسماعة البلوتوث وماكينة الحلاقة وتابلت الأولاد لسه بيشتغلوا بـ Micro USB — والكابلات الرخيصة بتبوظ في أسابيع. كابل <strong>جوي روم Micro USB</strong> بيدّي <strong>2.4 أمبير كاملة</strong> مع TPE متين. بـ <strong>44 جنيه</strong>، ده كابل الخدمة اللي كل بيت مصري محتاجه. نسبة إرجاع CairoVolt: <strong>0.4% بس</strong> من 1,200+ وحدة مبيعة.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>🔌 <strong>2.4 أمبير:</strong> أقصى سرعة شحن قياسية لأجهزة Micro USB.</li><li>📏 <strong>طول 1.2 متر:</strong> طويل كفاية للسرير، قصير كفاية مبيتلخبطش.</li><li>💪 <strong>TPE متين:</strong> مطاط مرن مبيتشققش في الحرارة.</li><li>💰 <strong>44 جنيه:</strong> أرخص من فنجان قهوة في كافيه.</li><li>🔄 <strong>استبدال مجاني:</strong> لو طلع فيه عيب، بنبدّله — بدون أسئلة.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"Micro USB مش ميت — هو في كل بيت مصري. سماعات JBL، باور بانك قديمة، ماكينات حلاقة، تابلت الأولاد، ماوس وايرلس، رينج لايت. جربنا الكابل ده مع 12 جهاز مختلف وطلّع 2.4 أمبير كاملة على كلهم. مادة TPE فضلت مرنة حتى بعد شهور في عربية ساخنة. بـ 44 جنيه، مفيش سبب تستخدم كابل مجهول ممكن يضر جهازك. اشتري 3 وجهّزهم."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>

@@ -49,22 +49,18 @@ export const anker_audio_content: CategoryContent = {
                 ],
                 faq: {
                     ar: [
-                        { question: 'ما الفرق بين سماعات Soundcore R50i و P20i و Liberty 4؟', answer: 'R50i (950 ج.م): الخيار الاقتصادي مع جودة صوت ممتازة وبطارية 10 ساعات. P20i (820 ج.م): نفس السعر لكن بتصميم مختلف وألوان أكثر. Liberty 4 (الأعلى): تأتي بـ ANC، Hi-Res Audio، وHearID للصوت الشخصي. اختر R50i للميزانية، Liberty 4 للتجربة الكاملة.' },
-                        { question: 'هل سماعات Soundcore تدعم عزل الضوضاء ANC؟', answer: 'ليس كل الموديلات! R50i و P20i لا تحتوي ANC (لكن تعزل الضوضاء بشكل سلبي). أما Liberty 4 و P40i فتأتي بـ ANC نشط يحجب 98% من الضوضاء. إذا كنت تستخدم المواصلات كثيراً، ANC يستحق الفرق.' },
-                        { question: 'كيف أعرف أن سماعة Soundcore أصلية وليست تقليد؟', answer: 'الطريقة الأضمن: حمّل تطبيق Soundcore من App Store أو Google Play وحاول ربط السماعة. إذا لم يتعرف التطبيق عليها = مقلدة 100%. المنتجات الأصلية تظهر فوراً وتتيح لك تحديث firmware وتخصيص EQ.' },
-                        { question: 'أيهما أفضل: سماعات Soundcore أم AirPods؟', answer: 'يعتمد على احتياجك! AirPods ممتازة لمستخدمي آيفون وتكامل مع Apple. Soundcore تقدم نفس الجودة (أحياناً أفضل في الباس) بنصف السعر أو أقل، مع Hi-Res Audio وتطبيق تخصيص قوي. للميزانية الذكية، Soundcore هي الخيار.' },
-                        { question: 'هل تطبيق Soundcore متاح بالعربي؟', answer: 'التطبيق حالياً بالإنجليزية فقط، لكنه سهل الاستخدام جداً. يتيح لك: تخصيص EQ (الصوت)، تفعيل HearID (ملف صوتي شخصي)، تحديث firmware السماعة، وتتبع السماعة إذا ضاعت. متاح مجاناً على iOS و Android.' },
-                         { question: 'كم سعر سماعة Soundcore في مصر؟', answer: 'أسعار سماعات Soundcore في مصر 2026: K20i من 750 جنيه، R50i من 950 جنيه، R50i NC من 1,299 جنيه. كل الأسعار تشمل ضمان 18 شهر من كايرو فولت — الموزع المعتمد لانكر مصر.' },
-                         { question: 'إيه أفضل سماعة بلوتوث انكر Soundcore في مصر؟', answer: 'يعتمد على ميزانيتك: K20i (750 ج) لأقصى راحة بدون ضغط على الأذن، R50i (950 ج) لأفضل قيمة مع باس قوي، R50i NC (1,299 ج) لإلغاء الضوضاء. كلها ايربودز ساوند كور أصلية بضمان 18 شهر من كايرو فولت.' }
+                        { question: 'ما الفرق بين سماعات Soundcore R50i و K20i و R50i NC؟', answer: 'شوف دليل الشراء بالأعلى للمقارنة التفصيلية. باختصار: K20i للراحة، R50i لأفضل قيمة صوتية، R50i NC لو محتاج إلغاء ضوضاء.' },
+                        { question: 'هل سماعات Soundcore تدعم عزل الضوضاء ANC؟', answer: 'R50i NC و P40i عندهم ANC نشط بيحجب 98% من الضوضاء. باقي الموديلات (R50i، K20i، P20i) فيها عزل سلبي بس. لو بتركب مترو أو ميكروباص كتير، ANC يستاهل الفرق.' },
+                        { question: 'أيهما أفضل: سماعات Soundcore أم AirPods؟', answer: 'AirPods أفضل لتكامل Apple ecosystem. Soundcore بتقدم باس أقوى + Hi-Res Audio + تطبيق تخصيص EQ — بأقل من نص السعر. للميزانية الذكية Soundcore بتكسب.' },
+                        { question: 'هل سماعات Soundcore بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — كل موديلات Soundcore بتدعم Bluetooth 5.3 فبتشتغل مع أي موبايل (ايفون، سامسونج، شاومي، أوبو). التطبيق متاح مجاناً على iOS و Android.' },
+                        { question: 'كام سنة بتعيش سماعات Soundcore؟', answer: 'بالاستخدام اليومي المعتدل: 2-3 سنين. البطارية بتحتفظ بـ 80% من سعتها بعد 500 دورة شحن. الضمان من CairoVolt يغطي 18 شهر استبدال فوري.' }
                     ],
                     en: [
-                        { question: 'What is the difference between Soundcore R50i, P20i, and Liberty 4?', answer: 'R50i (EGP 950): Budget-friendly with excellent sound and 10-hour battery. P20i (EGP 820): Same price, different design with more colors. Liberty 4 (Flagship): Features ANC, Hi-Res Audio, and personalized HearID. Choose R50i for budget, Liberty 4 for the full experience.' },
-                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'Not all models feature ANC. The R50i NC and Space A40 have active noise cancellation with transparency mode, while the R50i and P2i focus on passive noise isolation. Liberty 4 & P40i come with active ANC that blocks 98% of noise. If you commute frequently, ANC is worth the upgrade.' },
-                        { question: 'How can I verify if my Soundcore earbuds are genuine?', answer: 'The safest method: Download the Soundcore App from App Store or Google Play and try to pair your earbuds. If the app doesn\'t recognize them = 100% fake. Genuine products appear instantly and allow firmware updates and EQ customization.' },
-                        { question: 'Which is better: Soundcore or AirPods?', answer: 'Depends on your needs! AirPods are excellent for iPhone users and Apple ecosystem. Soundcore offers the same quality (sometimes better bass) at half the price or less, with Hi-Res Audio and a powerful customization app. For smart budgets, Soundcore wins.' },
-                        { question: 'Is the Soundcore app available in Arabic?', answer: 'The app is currently English-only but very user-friendly. It lets you: customize EQ (sound), activate HearID (personal audio profile), update earbuds firmware, and track lost earbuds. Available free on iOS & Android.' },
-                        { question: 'How much do Soundcore earbuds cost in Egypt?', answer: 'Soundcore earbuds prices in Egypt 2026: K20i from EGP 750, R50i from EGP 950, R50i NC from EGP 1,299. All prices include 18-month warranty from CairoVolt — the authorized Anker distributor in Egypt.' },
-                        { question: 'What is the best Anker Soundcore earbuds in Egypt?', answer: 'Depends on your budget: K20i (EGP 750) for maximum comfort without ear pressure, R50i (EGP 950) for best value with strong bass, R50i NC (EGP 1,299) for active noise cancellation. All are original Soundcore earbuds with 18-month CairoVolt warranty.' }
+                        { question: 'What is the difference between Soundcore R50i, K20i, and R50i NC?', answer: 'See our buying guide above for the full comparison. Quick summary: K20i for comfort, R50i for best sound value, R50i NC if you need active noise cancellation.' },
+                        { question: 'Do Soundcore earbuds support ANC (Active Noise Cancelling)?', answer: 'R50i NC and P40i have active ANC blocking 98% of noise. Other models (R50i, K20i, P20i) use passive isolation only. If you commute frequently on Metro or minibus, ANC is worth the upgrade.' },
+                        { question: 'Which is better: Soundcore or AirPods?', answer: 'AirPods excel in Apple ecosystem integration. Soundcore delivers stronger bass + Hi-Res Audio + EQ customization app — at less than half the price. For smart budgets, Soundcore wins.' },
+                        { question: 'Do Soundcore earbuds work with iPhone 17 and Samsung S26?', answer: 'Yes — all Soundcore models support Bluetooth 5.3 and work with any phone (iPhone, Samsung, Xiaomi, Oppo). The free Soundcore app is available on both iOS and Android.' },
+                        { question: 'How long do Soundcore earbuds last?', answer: 'With moderate daily use: 2-3 years. Battery retains 80% capacity after 500 charge cycles. CairoVolt warranty covers 18 months with instant replacement.' }
                     ]
                 }
             },
@@ -117,16 +113,6 @@ export const anker_audio_content: CategoryContent = {
 `
                         }
                     ],
-                    faq: [
-                        {
-                            question: 'هل سماعة انكر Soundcore بتشتغل مع سامسونج ولا ايفون بس؟',
-                            answer: 'سماعات Soundcore بتشتغل مع أي جهاز بلوتوث — سامسونج، ايفون، هواوي، شاومي، لابتوب. اختبار CairoVolt: اقتران مع Samsung S26 في 0.2 ثانية عبر Bluetooth 5.3 بمدى 15 متر. ميزة Pop-up Pairing حصرية لايفون. تطبيق Soundcore متاح Android و iOS.'
-                        },
-                        {
-                            question: 'هل يوجد تأخير في الصوت (Delay) مع الألعاب؟',
-                            answer: 'موديلات P40i و Liberty 4 بتدعم وضع الألعاب (Game Mode) بتأخير 60ms فقط — يعني تقريباً صفر lag. R50i العادية تأخيرها ~120ms وهو مقبول للألعاب العادية. لو بتلعب PUBG أو ألعاب تنافسية، اختار موديل فيه Game Mode.'
-                        }
-                    ],
                     products: [
                         { name: 'Anker Soundcore K20i', price: 750, badge: 'أريح تصميم' },
                         { name: 'Anker Soundcore R50i', price: 950, badge: 'اقتصادي ناجح' },
@@ -168,16 +154,6 @@ export const anker_audio_content: CategoryContent = {
 Always ensure you download the Soundcore App. If the app doesn't recognize your earbuds, **they are likely fake**.
 The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find My Earbuds.
 `
-                        }
-                    ],
-                    faq: [
-                        {
-                            question: 'Do Anker Soundcore earbuds work with Samsung phones?',
-                            answer: 'Yes! Soundcore earbuds work with any Bluetooth device — Samsung, iPhone, Huawei, Xiaomi, laptops. CairoVolt test: paired with Samsung S26 in 0.2 seconds via Bluetooth 5.3 with 15m range. Pop-up Pairing is exclusive to iPhones. Soundcore app available on both Android and iOS.'
-                        },
-                        {
-                            question: 'Is there audio lag when gaming?',
-                            answer: 'Models like P40i and Liberty 4 support Game Mode with only 60ms latency — virtually zero lag. The standard R50i has ~120ms delay which is acceptable for casual games. For competitive titles like PUBG, choose a model with dedicated Game Mode.'
                         }
                     ],
                     products: [

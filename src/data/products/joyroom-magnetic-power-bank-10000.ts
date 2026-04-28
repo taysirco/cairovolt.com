@@ -10,17 +10,17 @@ export const joyroom_magnetic_power_bank_10000 = {
         mpn: "JR-W030",
         price: 850,
         originalPrice: 900,
-        stock: 3313,
+        stock: 758,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-1.webp", alt: "Joyroom Magnetic MagSafe Power Bank 10000mAh Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-2.webp", alt: "باور بانك جوي روم مغناطيسي 10000 مللي امبير مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-3.webp", alt: "MagSafe Power Bank iPhone 17/16/15 Compatible", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-4.webp", alt: "شاحن متنقل مغناطيسي للايفون - القاهرة", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Wireless Magnetic Charger Power Bank", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك MagSafe جوي روم اصلي", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-7.webp", alt: "Joyroom 10000mAh Magnetic Power Bank Best Price", order: 6, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-1.webp", alt: "Joyroom Magnetic MagSafe Power Bank 10000mAh Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-2.webp", alt: "باور بانك جوي روم مغناطيسي 10000 مللي امبير مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-3.webp", alt: "MagSafe Power Bank iPhone 17/16/15 Compatible - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-4.webp", alt: "شاحن متنقل مغناطيسي للايفون - القاهرة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Wireless Magnetic Charger Power Bank - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك MagSafe جوي روم اصلي - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-7.webp", alt: "Joyroom 10000mAh Magnetic Power Bank Best Price - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -35,7 +35,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         <li>🧲 <strong>MagSafe N52:</strong> Snaps onto iPhone — no cable needed.</li>
         <li>⚡ <strong>Dual Output:</strong> 15W wireless + 20W USB-C wired simultaneously.</li>
         <li>📐 <strong>Kickstand:</strong> Watch videos hands-free while charging.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.57 EGP/day:</strong> Over 18 months, less than a cup of tea.</li><li>💰 <strong>1.57 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>1.57 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -85,7 +85,7 @@ export const joyroom_magnetic_power_bank_10000 = {
             },
             ar: {
                 name: "باور بانك جوي روم MagSafe 10000 | ألزقه في ظهر الايفون وكمل تصوير | ضمان 18 شهر",
-                shortDescription: "منقذ بطارية الايفون في رحلات الساحل 🧲 MagSafe N52 قوي مش هيقع | ⚡ 15 واط لاسلكي + 20 واط سلكي | 📐 حامل مدمج للفيديوهات",
+                shortDescription: "منقذ بطارية الايفون في رحلات الساحل | 🧲 MagSafe N52 قوي مش هيقع | ⚡ 15 واط لاسلكي + 20 واط سلكي | 📐 حامل مدمج للفيديوهات",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم MagSafe 10000mAh</strong> بيلزق مغناطيسياً ع ضهر الايفون وبيشحن لاسلكياً بـ <strong>15 واط + 20 واط سلكي</strong>. حامل مدمج لـ FaceTime. بـ 850 جنيه، الحل الفاخر للشحن المحمول بدون يدين. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -101,7 +101,7 @@ export const joyroom_magnetic_power_bank_10000 = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">تجربتنا الفعلية للمنتج ده 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "أخدته في رحلة القاهرة-شرم الشيخ — 6 ساعات في الباص من غير بريزة. ثبّته على ايفون 15 برو ونسيته. لما وصلنا، الموبايل كان 100% والباور بانك لسه فيه 45%. الحامل المدمج عبقري لطاولة الطيارة أو الكومودينو في الفندق. المغناطيس قوي كفاية إني أمسك الموبايل من الباور بانك ومش بيقع. في البيت، بشحن ايفوني لاسلكي وسامسونج مراتي بكابل USB-C في نفس الوقت. هو أساساً شاحن MagSafe متنقل + باور بانك + حامل موبايل في واحد. بـ 850 جنيه، قرار واضح لأي حد عنده ايفون 15/16/17."
+        "أخدته في رحلة القاهرة-شرم الشيخ — 6 ساعات في الباص من غير بريزة. ثبّته على ايفون 15 برو ونسيته. لما وصلنا، الموبايل (الهاتف الذكي) كان 100% والباور بانك لسه فيه 45%. الحامل المدمج عبقري لطاولة الطيارة أو الكومودينو في الفندق. المغناطيس قوي كفاية إني أمسك الموبايل من الباور بانك ومش بيقع. في البيت، بشحن ايفوني لاسلكي وسامسونج مراتي بكابل USB-C في نفس الوقت. هو أساساً شاحن MagSafe متنقل + باور بانك + حامل موبايل في واحد. بـ 850 جنيه، قرار واضح لأي حد عنده ايفون 15/16/17."
         <br>
         <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
     </p>
@@ -155,7 +155,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         "joyroom-power-bank-10000",
         "joyroom-power-bank-20000",
         "joyroom-3-in-1-data-cable",
-        "joyroom-20w-usb-c-charger",
+        "joyroom-3-in-1-wireless-charging-station",
         "joyroom-60w-car-charger",
         "joyroom-25w-fast-charger"
     ],

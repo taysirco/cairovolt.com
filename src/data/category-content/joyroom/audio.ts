@@ -72,16 +72,11 @@ export const joyroom_audio_content: CategoryContent = {
                         }
                     ],
                     faq: [
-                        { question: 'ما هي أفضل سماعات جوي روم في مصر؟', answer: 'T03s Pro هي الأكثر مبيعاً بسعر 699 جنيه. توفر ANC وSpatial Audio وPop-up Pairing مثل الايربودز بنصف السعر.' },
-                        { question: 'كم سعر سماعات جوي روم T03s في مصر؟', answer: 'T03s العادية: 499 جنيه. T03s Pro: 699 جنيه. T03s Pro Max: 1025 جنيه. جميعها بضمان الكود الذهبي.' },
-                        { question: 'ما الفرق بين T03s و T03s Pro؟', answer: 'T03s Pro يضيف: ANC (إلغاء الضوضاء)، Spatial Audio، بطارية أطول (6h vs 5h)، وجودة صوت أعلى. الفرق 200 جنيه يستاهل.' },
-                        { question: 'هل سماعات جوي روم تعمل مع ايفون 17؟', answer: 'نعم 100%! تدعم Pop-up Pairing مثل الايربودز، Siri، وجميع ميزات iOS 19. أفضل بديل اقتصادي للايربودز.' },
-                        { question: 'هل سماعات جوي روم تعمل مع سامسونج S26؟', answer: 'نعم! متوافقة مع جميع أجهزة أندرويد. تدعم Google Assistant وSamsung SmartThings. اتصال Bluetooth 5.3 قوي ومستقر.' },
-                        { question: 'كيف أتأكد أن سماعات جوي روم أصلية؟', answer: '⚗️ تحذير: سماعات مقلدة (fake) كتير في السوق المصري بصوت رديء وبطارية بتخلص بسرعة. للتأكد من الأصلي: الكود الذهبي! اكشط الملصق على العلبة وأرسل الكود بـ SMS. ستصلك رسالة تأكيد الأصالة فوراً. نحن موزع معتمد.' },
-                        { question: 'ما الفرق بين جوي روم والايربودز الأصلية؟', answer: 'نفس الميزات (ANC, Spatial Audio, Pop-up Pairing) لكن بسعر أقل 90%. جوي روم T03s Pro بـ 699 ج vs ايربودز Pro بـ 12,000+ ج.' },
-                        { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'T03s Pro: 6 ساعات للسماعة + 24 ساعة مع علبة الشحن. T03s Pro Max: 8 + 32 ساعة. يكفي يوم كامل بسهولة.' },
-                        { question: 'ما ضمان سماعات جوي روم في مصر؟', answer: 'ضمان الكود الذهبي من CairoVolt بيغطي 12 شهر كامل ضد عيوب الصناعة. لو السماعة فيها مشكلة في الصوت أو البطارية أو البلوتوث، بنبدّلها فوراً بدون أسئلة. كل منتج عليه كود تتبع خاص.' },
-                        { question: 'أين أشتري سماعات جوي روم الأصلية في مصر؟', answer: 'من CairoVolt - موزع معتمد. الكود الذهبي، ضمان 12 شهر، توصيل القاهرة يوم واحد، دفع عند الاستلام.' }
+                        { question: 'ما الفرق بين T03s و T03s Pro و Pro Max؟', answer: 'راجع جدول المقارنة في دليل الشراء بالأعلى. باختصار: T03s للميزانية المحدودة، Pro للاستخدام اليومي مع ANC، Pro Max للسفر والمحترفين.' },
+                        { question: 'هل سماعات جوي روم بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — بتدعم Pop-up Pairing مع الايفون (زي الايربودز بالظبط) + Google Assistant مع سامسونج. Bluetooth 5.3 بيضمن اتصال مستقر لحد 15 متر.' },
+                        { question: 'ما الفرق بين جوي روم والايربودز الأصلية؟', answer: 'نفس الميزات الأساسية (ANC, Spatial Audio, Pop-up Pairing) لكن بسعر أقل 90%. الايربودز أفضل في تكامل Apple ecosystem فقط.' },
+                        { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'حسب الموديل — شوف الأرقام الدقيقة من اختبار CairoVolt في جدول المقارنة بالأعلى. القاعدة: Pro = يوم كامل، Pro Max = يومين بسهولة.' },
+                        { question: 'ما ضمان سماعات جوي روم من CairoVolt؟', answer: '12 شهر استبدال فوري بدون أسئلة. يغطي عيوب الصوت والبطارية والبلوتوث. كل منتج عليه كود تتبع خاص. 👉 شوف خطوات التحقق من الأصالة في دليل الشراء.' }
                     ],
                     products: [
                         { name: 'Joyroom T03s Pro', price: 699, badge: ' الأكثر مبيعاً' },
@@ -142,18 +137,6 @@ CairoVolt tested T03s Pro Max on Metro Line 3 (the noisiest) — ANC reduced tra
 **CairoVolt is an authorized dealer with Golden Code + 12-month replacement warranty.**
 `
                         }
-                    ],
-                    faq: [
-                        { question: 'What are the best Joyroom earbuds in Egypt?', answer: 'T03s Pro is the bestseller at EGP 699. Offers ANC, Spatial Audio, and Pop-up Pairing like AirPods at half the price.' },
-                        { question: 'How much do Joyroom T03s earbuds cost in Egypt?', answer: 'T03s Standard: EGP 499. T03s Pro: EGP 699. T03s Pro Max: EGP 1025. All with Golden Code warranty.' },
-                        { question: 'What is the difference between T03s and T03s Pro?', answer: 'T03s Pro adds: ANC (noise cancellation), Spatial Audio, longer battery (6h vs 5h), and better sound quality. Worth the EGP 200 difference.' },
-                        { question: 'Do Joyroom earbuds work with iPhone 17?', answer: 'Yes 100%! Supports Pop-up Pairing like AirPods, Siri, and all iOS 19 features. Best budget AirPods alternative.' },
-                        { question: 'Do Joyroom earbuds work with Samsung S26?', answer: 'Yes! Compatible with all Android devices. Supports Google Assistant and Samsung SmartThings. Strong Bluetooth 5.3 connection.' },
-                        { question: 'How do I verify Joyroom earbuds are authentic?', answer: 'Golden Code! Scratch the sticker on the box and send the code via SMS. You will receive instant authenticity confirmation. We are authorized dealers.' },
-                        { question: 'How do Joyroom compare to original AirPods?', answer: 'Same features (ANC, Spatial Audio, Pop-up Pairing) but 90% cheaper. Joyroom T03s Pro at EGP 699 vs AirPods Pro at 12,000+ EGP.' },
-                        { question: 'What is the battery life of Joyroom earbuds?', answer: 'T03s Pro: 6 hours per bud + 24 hours with charging case. T03s Pro Max: 8 + 32 hours. Easily lasts a full day.' },
-                        { question: 'What is the warranty for Joyroom earbuds in Egypt?', answer: 'Golden Code warranty from CairoVolt covers 12 full months against manufacturing defects. If your earbuds develop sound, battery, or Bluetooth issues, we replace them immediately — no questions asked. Each product carries a unique tracking code.' },
-                        { question: 'Where to buy original Joyroom earbuds in Egypt?', answer: 'From CairoVolt, the authorized Joyroom dealer in Egypt. We source directly from Joyroom global distribution centers. Every product arrives factory-sealed in original packaging with holographic verification sticker and Golden Code warranty activation card included.' }
                     ],
                     products: [
                         { name: 'Joyroom T03s Pro', price: 699, badge: ' Bestseller' },

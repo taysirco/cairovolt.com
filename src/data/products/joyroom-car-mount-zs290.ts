@@ -10,17 +10,17 @@ export const joyroom_car_mount_zs290 = {
         mpn: "JR-ZS290",
         price: 2550,
         originalPrice: 2999,
-        stock: 2873,
+        stock: 451,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "joyroom car mount zs290 - Official Distributor | Nationwide Shipping", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "joyroom car mount zs290 - منتج أصلي معتمد | شحن مصر كلها", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "joyroom car mount zs290 - Competitive Pricing Egypt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "joyroom car mount zs290 - ضمان الوكيل | متاح بالدفع عند الاستلام", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "joyroom car mount zs290 - Authorized Egypt Dealer", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "joyroom car mount zs290 الأصلي في مصر | توصيل لأي محافظة", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "joyroom car mount zs290 - Full Warranty Coverage Egypt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "joyroom car mount zs290 - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "joyroom car mount zs290 - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "joyroom car mount zs290 - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "joyroom car mount zs290 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "joyroom car mount zs290 - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "joyroom car mount zs290 الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "joyroom car mount zs290 - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "joyroom car mount zs290 - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
@@ -36,7 +36,7 @@ export const joyroom_car_mount_zs290 = {
         <li>📱 <strong>MagSafe Direct:</strong> iPhone 15/16/17 attach without metal plate.</li>
         <li>🔄 <strong>360° Rotation:</strong> Portrait, landscape, or any angle.</li>
         <li>🖐️ <strong>One-Hand:</strong> Snap phone on, pull phone off. Zero fumbling.</li>
-    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>7.08 EGP/day:</strong> Over 12 months, less than a cup of tea.</li><li>💰 <strong>7.08 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul></div>
+    <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>7.08 EGP/day:</strong> Over 12 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
@@ -86,9 +86,9 @@ export const joyroom_car_mount_zs290 = {
             },
             ar: {
                 name: "حامل جوال مغناطيسي جوي روم ZS290 | موبايلك مش هيقع في مطبات القاهرة | ضمان 12 شهر",
-                shortDescription: "أقوى مغناطيس للسيارة في مصر 🧲 N52 بيمسك ايفون برو ماكس كأنه ملزوق | ❄️ بيركب في التكييف من غير ما يكسر الريش | 🖐️ بتركبه وتفكه بإيد واحدة",
+                shortDescription: "أقوى مغناطيس للسيارة في مصر | 🧲 N52 بيمسك ايفون برو ماكس كأنه ملزوق | ❄️ بيركب في التكييف من غير ما يكسر الريش | 🖐️ بتركبه وتفكه بإيد واحدة",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الحوامل الرخيصة اللي بتسيب الموبايل في حرارة صيف مصر، حامل <strong>جوي روم ZS290 MagSafe للسيارة</strong> بيستخدم <strong>مغناطيس N52</strong> — أقوى مغناطيس متاح للمستهلك. بيمسك الايفون بثبات عند 120 كم/س على الدائري. <strong>دوران 360°</strong> لوضع GPS الأفقي. بـ 2,550 جنيه، الحامل الفاخر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الحوامل الرخيصة اللي بتسيب الموبايل (الهاتف الذكي) في حرارة صيف مصر، حامل <strong>جوي روم ZS290 MagSafe للسيارة</strong> بيستخدم <strong>مغناطيس N52</strong> — أقوى مغناطيس متاح للمستهلك. بيمسك الايفون بثبات عند 120 كم/س على الدائري. <strong>دوران 360°</strong> لوضع GPS الأفقي. بـ 2,550 جنيه، الحامل الفاخر. نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات في المنتج ده:</h3>
     <ul class="list-none space-y-1">
@@ -156,7 +156,7 @@ export const joyroom_car_mount_zs290 = {
                 ]
             }
         },
-        meta: { keywords: "joyroom car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي, joyroom phone holder car, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, حامل موبايل سيارة جوي روم, joyroom car mount egypt, حامل تلفون عربية مصر, ستاند موبايل سيارة, joyroom egypt store, joyroom genuine egypt", mainTerm: "joyroom car mount" },
+        meta: { keywords: "joyroom car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي, joyroom phone holder car, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, حامل موبايل سيارة جوي روم, joyroom car mount egypt, حامل تلفون عربية مصر, ستاند موبايل سيارة, joyroom egypt store, joyroom genuine egypt, joyroom car mount FCC certified", mainTerm: "joyroom car mount" },
         expertOpinion: {
             en: "Simple, strong, and effective. The magnet is surprisingly powerful – my phone didn't budge even on speed bumps. It clips securely to the air vent and doesn't rattle. If you want a minimalist mount that just holds your phone securely, this is the one.",
             ar: "بسيط، قوي، وفعال. المغناطيس قوي بشكل مدهش – لم يتحرك هاتفي حتى على المطبات. يشبك بإحكام في فتحة التكييف ولا يهتز. إذا كنت تريد حاملاً بسيطاً يمسك هاتفك بإحكام فقط، فهذا هو."

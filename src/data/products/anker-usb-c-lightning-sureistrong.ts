@@ -10,13 +10,13 @@ export const anker_usb_c_lightning_sureistrong = {
         mpn: "A8652H21",
         price: 599,
         originalPrice: 750,
-        stock: 3090,
+        stock: 511,
         featured: true,
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-240w-braided-cable-cairovolt.webp", alt: "Anker SureIStrong USB-C to Lightning 240W braided cable with Kevlar reinforcement - CairoVolt Egypt", order: 0, isPrimary: true, width: 600, height: 600 },
-            { id: "img_2", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-connector-detail-kevlar.webp", alt: "موصل كابل انكر SureIStrong المقوى بالكيفلار - تفاصيل الجودة والمتانة", order: 1, isPrimary: false, width: 800, height: 1000 },
-            { id: "img_3", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-charging-iphone-fast-pd.webp", alt: "Anker SureIStrong cable fast charging iPhone with USB-C Power Delivery", order: 2, isPrimary: false, width: 741, height: 1024 },
+            { id: "img_2", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-connector-detail-kevlar.webp", alt: "موصل كابل انكر SureIStrong المقوى بالكيفلار - تفاصيل الجودة والمتانة - كايرو فولت", order: 1, isPrimary: false, width: 800, height: 1000 },
+            { id: "img_3", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-charging-iphone-fast-pd.webp", alt: "Anker SureIStrong cable fast charging iPhone with USB-C Power Delivery - CairoVolt", order: 2, isPrimary: false, width: 741, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-package-box-contents.webp", alt: "محتويات علبة كابل انكر SureIStrong الأصلي - كايرو فولت مصر", order: 3, isPrimary: false, width: 864, height: 1184 }
         ],
         translations: {
@@ -38,7 +38,7 @@ export const anker_usb_c_lightning_sureistrong = {
         <li>🧬 <strong>Bio-Fiber Reinforcement:</strong> 15x stronger at the stress point than standard cables.</li>
         <li>🧹 <strong>Stain-Resistant:</strong> White coating stays white, even in dusty Cairo bags.</li>
         <li>🔗 <strong>Anti-Tangle:</strong> Soft-touch surface prevents knots without cable ties.</li>
-    <li>💰 <strong>0.83 EGP/day:</strong> Over 24 months, less than a cup of tea.</li><li>💰 <strong>0.83 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul>
+    <li>💰 <strong>0.83 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul>
 </div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">What Our Engineers Say 🛠️</h2>

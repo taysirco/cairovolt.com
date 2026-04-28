@@ -10,23 +10,23 @@ export const anker_zolo_a110e_20000 = {
         mpn: "A110E-P11",
         price: 1730,
         originalPrice: 1950,
-        stock: 3158,
+        stock: 779,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt.webp", alt: "Anker ZOLO A110E power bank 20000mAh front view with built-in USB-C cable - Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt.webp", alt: "Anker ZOLO A110E power bank 20000mAh front view with built-in USB-C cable - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-usb-c-fast-charging-22w-smartphone-connected.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير مع كابل مدمج - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-led-digital-display-battery-level-indicator.webp", alt: "Anker ZOLO A110E ports detail showing USB-C and USB-A - 22.5W output", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-triple-output-ports-usb-c-usb-a-detail.webp", alt: "Anker ZOLO A110E digital display and size comparison", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-size-hand-comparison-portable.webp", alt: "Anker ZOLO A110E retail box with specifications - 20000mAh Egypt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-package-box-contents-accessories-unboxing.webp", alt: "انكر زولو A110E أثناء شحن أجهزة متعددة - 3 أجهزة في وقت واحد", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_3", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-led-digital-display-battery-level-indicator.webp", alt: "Anker ZOLO A110E ports detail showing USB-C and USB-A - 22.5W output - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-triple-output-ports-usb-c-usb-a-detail.webp", alt: "Anker ZOLO A110E digital display and size comparison - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-size-hand-comparison-portable.webp", alt: "Anker ZOLO A110E retail box with specifications - 20000mAh Egypt - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-package-box-contents-accessories-unboxing.webp", alt: "انكر زولو A110E أثناء شحن أجهزة متعددة - 3 أجهزة في وقت واحد - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-zolo-a110d-10000",
         "anker-zolo-a1681-20000",
-        "anker-a8050-usb-c-cable",
-        "anker-a2741-charger-30w",
-        "anker-soundcore-r50i",
+        "anker-powercore-26800",
+        "anker-prime-a1695-25000",
+        "anker-soundcore-r50i-nc",
         "anker-a2732-charger-35w"
     ],
         translations: {

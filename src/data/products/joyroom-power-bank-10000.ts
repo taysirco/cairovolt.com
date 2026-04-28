@@ -10,16 +10,16 @@ export const joyroom_power_bank_10000 = {
         mpn: "JR-T012",
         price: 1624,
         originalPrice: 1899,
-        stock: 3287,
+        stock: 462,
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 الأصلي مصر - شحن سريع iPhone 17", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - ضمان 12 شهر", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt - Quick Charge 3.0", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp", alt: "باور بانك جوي روم 10000 الأصلي مصر - شحن سريع iPhone 17 - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-2.webp", alt: "شاحن متنقل جوي روم 10000 مللي أمبير - توصيل القاهرة - ضمان 12 شهر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-3.webp", alt: "باور بانك جوي روم نحيف 10000 - أفضل سعر في مصر فبراير - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-4.webp", alt: "Joyroom 10000mAh Power Bank Original Egypt - Quick Charge 3.0 - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Slim Power Bank 10000 - CairoVolt Verified Original", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أفضل قيمة مقابل سعر - ضمان رسمي مصر", order: 5, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-6.webp", alt: "باور بانك جوي روم 10000 - أفضل قيمة مقابل سعر - ضمان رسمي مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -98,7 +98,7 @@ export const joyroom_power_bank_10000 = {
             },
             ar: {
                 name: "باور بانك جوي روم 10000 مللي | الفئة الاقتصادية (منقذ الطلبة) | ضمان 12 شهر",
-                shortDescription: "أرخص باور بانك أصلي في مصر 🔋 10,000 مللي (شحنتين ايفون 17) | ⚡ أسرع 4 مرات من الشاحن العادي | 📊 شاشة ديجيتال للنسبة",
+                shortDescription: "أرخص باور بانك أصلي في مصر | 🔋 10,000 مللي (شحنتين ايفون 17) | ⚡ أسرع 4 مرات من الشاحن العادي | 📊 شاشة ديجيتال للنسبة",
                 description: `
 <div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الباور بانك الرخيص بسعات مكتوبة مبالغ فيها، باور بانك <strong>جوي روم 10000mAh نحيف</strong> بميزة <strong>QC 3.0 خرج سريع + شاشة LED بتوريك نسبة البطارية بالظبط</strong>. تصميم نحيف جداً بيدخل جيب القميص. بـ 1,624 جنيه، باور بانك المحترفين الفاخر. نسبة إرجاع CairoVolt: <strong>0.6% بس</strong> من 600+ وحدة مبيعة.</p></div>
 <div class="product-summary">
@@ -114,7 +114,7 @@ export const joyroom_power_bank_10000 = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "نحن في فريق كايرو فولت سلّمنا جوي روم 10000 لسواق دليفري في الجيزة بيستخدم موبايله 12+ ساعة يومياً للـ GPS والمكالمات. بعد أسبوع، رأيه: 'ده منقذة حياة.' كان بيشحن سامسونج A54 مرة الصبح ومرة بالليل، ولسه بطارية فاضلة. شاشة LED خلّته دايماً يعرف بالظبط إمتى يوصّل. بسمك 14مم، دخل جيب الجينز جنب الموبايل. لأي حد فاكر إن الباور بانك الكويس لازم يكون غالي، جوي روم بتثبت العكس. Quick Charge 3.0 الكرزة على التورتة — أسرع بشكل ملحوظ من الباور بانك العشوائي اللي مالي السوق."
+        "نحن في فريق كايرو فولت سلّمنا جوي روم 10000 لسواق دليفري في الجيزة بيستخدم موبايله 12+ ساعة يومياً للـ GPS والمكالمات. بعد أسبوع، رأيه: 'ده منقذة حياة.' كان بيشحن سامسونج A54 مرة الصبح ومرة بالليل، ولسه بطارية فاضلة. شاشة LED خلّته دايماً يعرف بالظبط إمتى يوصّل. بسمك 14مم، دخل جيب الجينز جنب الموبايل (الهاتف الذكي). لأي حد فاكر إن الباور بانك الكويس لازم يكون غالي، جوي روم بتثبت العكس. Quick Charge 3.0 الكرزة على التورتة — أسرع بشكل ملحوظ من الباور بانك العشوائي اللي مالي السوق."
         <br>
         <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
     </p>
@@ -179,6 +179,13 @@ export const joyroom_power_bank_10000 = {
             en: "The Joyroom 10000mAh Slim Power Bank delivered 93% of rated capacity in our discharge test — well above the 85% industry average. Pocket-safe even in 35°C Cairo summers.'t need to spend a fortune for quality. This 10,000mAh bank is slimmer than most competitors and the digital percentage display is a feature usually reserved for premium models. For the price, it's an absolute steal for daily use.",
             ar: "تثبت Joyroom أنك لست بحاجة لإنفاق ثروة للحصول على الجودة. باور بانك 10000 مللي أمبير هذا أنحف من المنافسين، وشاشة النسبة المئوية الرقمية ميزة عادة ما تكون للموديلات الفاخرة. بالنسبة للسعر، فهو صفقة رابحة للاستخدام اليومي."
         },
-        relatedProducts: ["joyroom-magnetic-power-bank-10000", "joyroom-power-bank-20000", "joyroom-3-in-1-data-cable", "joyroom-20w-usb-c-charger", "joyroom-60w-car-charger", "joyroom-t03s-pro-earbuds"],
+        relatedProducts: [
+        "joyroom-magnetic-power-bank-10000",
+        "joyroom-power-bank-20000",
+        "joyroom-jr-t03-wireless-earbuds",
+        "joyroom-20w-usb-c-charger",
+        "joyroom-60w-car-charger",
+        "joyroom-t03s-pro-earbuds"
+    ],
 
     };

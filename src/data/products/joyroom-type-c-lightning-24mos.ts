@@ -10,17 +10,17 @@ export const joyroom_type_c_lightning_24mos = {
         mpn: "JR-S-CL24M",
         price: 123,
         originalPrice: 240,
-        stock: 3265,
+        stock: 542,
         featured: false,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-2.webp", alt: "Joyroom Type-C Lightning 24 Month Warranty Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-3.webp", alt: "كابل جوي روم 24 شهر ضمان مصر", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-2.webp", alt: "Joyroom Type-C Lightning 24 Month Warranty Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-3.webp", alt: "كابل جوي روم 24 شهر ضمان مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom USB-C to Lightning Cable (24-Month Warranty)",
-                shortDescription: "🔌 24-month warranty Lightning cable for iPhone 14/13/12 | 30W PD fast charging | CairoVolt: 0.4% return rate over 1,200 units sold",
+                shortDescription: "🔌 24-Month Warranty Lightning Cable | ⚡ 30W PD Fast Charging | 📱 iPhone 14/13/12 | 📊 0.4% Return Rate",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap cables that throttle at 5W and die within weeks, The <strong>Joyroom USB-C to Lightning 24-month warranty</strong> cable delivers <strong>30W PD fast charging</strong> for iPhone 14/13/12 with double the warranty of standard cables. CairoVolt return rate: <strong>only 0.3%</strong> — the most reliable Lightning cable we sell. Available at <strong>EGP 123</strong> with CairoVolt warranty.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1"><li>⚡ <strong>30W PD:</strong> Full fast charging for Lightning iPhones.</li><li>🛡️ <strong>24-Month Warranty:</strong> Double the standard 12-month coverage.</li><li>📊 <strong>0.3% Return Rate:</strong> Lowest of any cable we sell.</li><li>💰 <strong>0.17 EGP/day:</strong> Over 24 months, costs less than water.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"We track return rates on every product. This cable sits at 0.3% — meaning 997 out of 1,000 buyers never have an issue. The 24-month warranty isn't marketing fluff; it reflects genuine build quality. If you want a cable you'll forget about because it just works, this is it."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span></p></div>
@@ -40,7 +40,7 @@ export const joyroom_type_c_lightning_24mos = {
             },
             ar: {
                 name: "كابل جوي روم USB-C إلى Lightning (ضمان 24 شهر) | كابل ايفون بضمان سنتين كاملين",
-                shortDescription: "مللت من شراء كابل كل 3 شهور؟ 🛡️ ضمان سنتين بأقل نسبة إرجاع 0.3% في كايرو فولت | ⚡ 30 واط PD شحن سريع | 🧵 نايلون فاخر",
+                shortDescription: "مللت من شراء كابل كل 3 شهور؟ | 🛡️ ضمان سنتين بأقل نسبة إرجاع 0.3% في كايرو فولت | ⚡ 30 واط PD شحن سريع | 🧵 نايلون فاخر",
                 description: `<div class="quick-answer"><p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، كابل <strong>جوي روم USB-C لـ Lightning ضمان 24 شهر</strong> بيدّي <strong>30 واط PD شحن سريع</strong> للايفون 14/13/12 بضعف ضمان الكابلات العادية. نسبة إرجاع CairoVolt: <strong>0.3% بس</strong> — أكثر كابل Lightning موثوق عندنا. بسعر <strong>123 جنيه</strong> مع ضمان كايرو فولت.</p></div>
 <div class="product-summary"><h3 class="font-bold mb-2">ليه الكابل ده؟</h3><ul class="list-none space-y-1"><li>⚡ <strong>30 واط PD:</strong> شحن سريع كامل لايفونات Lightning.</li><li>🛡️ <strong>ضمان 24 شهر:</strong> ضعف ضمان الكابلات العادية 12 شهر.</li><li>📊 <strong>0.3% نسبة إرجاع:</strong> الأقل بين كل الكابلات عندنا.</li><li>💰 <strong>0.17 جنيه/يوم:</strong> على 24 شهر، أرخص من المية.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">رأينا التقني بصراحة 💡</h2><p class="text-gray-700 leading-relaxed text-lg">"بنتتبع نسب الإرجاع على كل منتج. الكابل ده عند 0.3% — يعني 997 من كل 1,000 مشتري مبيحصلش معاهم مشكلة. ضمان 24 شهر مش كلام تسويق؛ ده بيعكس جودة تصنيع حقيقية. لو عايز كابل تنساه لأنه شغال وخلاص، ده هو."<br><span class="font-bold block mt-2">✍️ الفريق التقني بكايرو فولت</span></p></div>
@@ -64,7 +64,13 @@ export const joyroom_type_c_lightning_24mos = {
             ar: "ضمان 24 شهر على كابل شبه مالوش مثيل. بيانات الإرجاع عندنا بتأكد ليه — 0.3% نسبة إرجاع من 2,400 وحدة. TPE المقوى عند مفصل الموصل هو السر الهندسي هنا."
         },
         meta: { keywords: "joyroom lightning 24 month, كابل ضمان 24 شهر, كابل ايفون ضمان, كابل جوي روم, جوي روم كابل ايفون, وصلة جوي روم, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, joyroom lightning 24 month warranty", mainTerm: "joyroom lightning 24 month warranty" },
-        relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-usb-a-micro-cable", "joyroom-usb-a-type-c-1.2m", "joyroom-60w-car-charger",
-        "joyroom-usb-a-lightning-cable", "joyroom-usb-a-type-c-1.2m"],
+        relatedProducts: [
+        "joyroom-3-in-1-data-cable",
+        "joyroom-30w-pd-cable",
+        "joyroom-usb-a-micro-cable",
+        "joyroom-usb-a-type-c-1.2m",
+        "joyroom-60w-car-charger",
+        "joyroom-usb-a-lightning-cable"
+    ],
 
     };
