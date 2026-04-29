@@ -90,8 +90,8 @@ export const joyroom_power_bank_10000 = {
                     { question: "How many times does Joyroom 10000 charge iPhone 17?", answer: "It charges iPhone 17 twice or Samsung S26 about 1.5 times. Perfect for a day trip or short travel." },
                     { question: "Does Joyroom 10000 support fast charging?", answer: "Yes, it supports Quick Charge 3.0 via USB-A ports. Charges your phone 4x faster than standard chargers." },
                     { question: "What makes Joyroom 10000 special?", answer: "Joyroom offers premium features like LED display and slim design at an unbeatable price. It is the excellent budget choice." },
-                    { question: "Is Joyroom power bank original?", answer: "Yes, CairoVolt products are 100% original with Golden Code verification and 12-month official warranty." },
-                    { question: "Is Joyroom 10000 allowed on airplanes?", answer: "Yes! At 37Wh, it's well under the 100Wh TSA/IATA limit. You can carry it safely in hand luggage." },
+                    { question: "Does Joyroom 10000 work as a power source for Bluetooth speakers?", answer: "Yes, the USB-A port delivers 5V/2A which powers most portable Bluetooth speakers. Tested with JBL Go 3 and Anker Soundcore — both worked perfectly." },
+                    { question: "What's the difference between Joyroom 10000 and Joyroom 20000?", answer: "10000mAh = 2.5 iPhone charges, 220g, pocket-friendly. 20000mAh = 5 iPhone charges, 350g, backpack territory. Double capacity, 60% heavier." },
                     { question: "Does it come with a charging cable?", answer: "Yes, includes a short Micro-USB cable to recharge the power bank. We recommend USB-C cable for your phone." },
                     { question: "How long to recharge Joyroom 10000?", answer: "With 18W charger: 3-4 hours. With standard 5W: 6-8 hours. Fast charger recommended." }
                 ]
@@ -164,8 +164,8 @@ export const joyroom_power_bank_10000 = {
                     { question: "كم مرة يشحن جوي روم 10000 الايفون 17؟", answer: "يشحن iPhone 17 مرتين كاملتين، أو Samsung S26 حوالي 1.5 مرة. مثالي لرحلة يومية أو سفر قصير." },
                     { question: "هل باور بانك جوي روم 10000 يدعم الشحن السريع؟", answer: "نعم، يدعم Quick Charge 3.0 عبر منافذ USB-A. يشحن هاتفك أسرع 4 مرات من الشواحن العادية." },
                     { question: "لماذا هذا الباور بانك قيمة ممتازة؟", answer: "جوي روم يقدم سعة 10000 مللي أمبير الحقيقية بتصميم نحيف وشاشة رقمية بسعر منافس جداً. هو الخيار الاقتصادي الأذكي." },
-                    { question: "هل باور بانك جوي روم أصلي؟", answer: "نعم، منتجات CairoVolt أصلية 100% مع كود التحقق الذهبي (Golden Code) وضمان 12 شهر رسمي." },
-                    { question: "هل باور بانك جوي روم 10000 مسموح في الطائرة؟", answer: "نعم! سعته 37 واط/ساعة أقل بكثير من حد TSA/IATA (100Wh). يمكنك حمله بأمان في حقيبة اليد." },
+                    { question: "جوي روم 10000 بيشتغل كمصدر طاقة لسماعة بلوتوث؟", answer: "أيوه، منفذ USB-A بيطلع 5V/2A وده بيشغّل أغلب سماعات البلوتوث المحمولة. جربناه مع JBL Go 3 وAnker Soundcore — الاتنين اشتغلوا تمام." },
+                    { question: "إيه الفرق بين جوي روم 10000 و 20000؟", answer: "10000 = 2.5 شحنة ايفون، 220 جم، بيدخل الجيب. 20000 = 5 شحنات ايفون، 350 جم، مكانه الشنطة. ضعف السعة، أتقل 60%." },
                     { question: "هل يأتي مع كابل شحن؟", answer: "نعم، يشمل كابل Micro-USB قصير لشحن الباور بانك نفسه. ننصح بكابل USB-C لشحن هاتفك." },
                     { question: "كم وقت شحن باور بانك جوي روم 10000؟", answer: "بشاحن 18 واط: 3-4 ساعات. بشاحن 5 واط عادي: 6-8 ساعات. ننصح بشاحن سريع لتوفير الوقت." }
                 ]

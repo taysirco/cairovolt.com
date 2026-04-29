@@ -144,7 +144,7 @@ export const anker_521_powerhouse = {
                     { question: "What is the lifespan of the battery?", answer: "It uses LiFePO4 batteries which are rated for 3,000 cycles, meaning it will last for over 10 years of daily use." },
                     { question: "Can it charge a MacBook M5?", answer: "Yes, the 200W AC outlet can power MacBook Pro M5 and the USB-C PD port provides direct charging, though slower than the dedicated 90W charger." },
                     { question: "Is it allowed on airplanes?", answer: "No, at 256Wh it exceeds the 100Wh TSA limit for carry-on. Check with your airline for specific regulations on checked baggage." },
-                    { question: "Can I take this on a plane?", answer: "Power banks under 100Wh (approximately 27,000mAh at 3.7V) are allowed in carry-on luggage on all airlines. Check your specific capacity against airline regulations." },
+                    { question: "Can it charge from a solar panel?", answer: "Yes — the DC input supports 11-28V solar panels (65W max recommended). Full charge from solar takes 5-7 hours in direct Egyptian sunlight. Ideal for off-grid camping in Sinai or the Western Desert." },
                     { question: "How long does it take to fully recharge?", answer: "Recharge time depends on your charger wattage. With an 18W+ charger, expect 3-5 hours for a full recharge. Using a 5W charger will take significantly longer." },
                     { question: "Does it support pass-through charging?", answer: "Yes, you can charge the power bank and your device simultaneously. The power bank intelligently distributes power between recharging itself and your connected device." }
                 ]

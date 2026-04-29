@@ -86,7 +86,7 @@ export const joyroom_power_bank_20000 = {
                     { question: "Does it display exact battery percentage?", answer: "Yes, the digital LED display shows the exact remaining battery percentage, so you never guess." },
                     { question: "Can I charge 3 devices?", answer: "Yes, it has 3 output ports (2 USB-A and 1 USB-C), allowing simultaneous charging for three devices." },
                     { question: "Is Joyroom 20000mAh good value?", answer: "Yes, Joyroom offers high capacity at a lower price point than premium brands. Great value choice." },
-                    { question: "Can I take this on a plane?", answer: "Power banks under 100Wh (approximately 27,000mAh at 3.7V) are allowed in carry-on luggage on all airlines. Check your specific capacity against airline regulations." }
+                    { question: "How heavy is the 20000mAh compared to carrying a spare phone?", answer: "At 350g, it weighs about 1.5x an iPhone 17 (171g). But provides 5 full charges — equivalent to carrying 5 spare phones in battery capacity." }
                 ]
             },
             ar: {
@@ -170,7 +170,7 @@ export const joyroom_power_bank_20000 = {
         "joyroom-power-bank-10000"
     ],
         expertOpinion: {
-            en: "Double the capacity of the 10,000mAh model, this is the heavy lifter. It supports 22.5W fast charging, which is surprisingly quick for a budget-friendly power bank. It's a bit bulky, but if you need to keep multiple devices charged for a long weekend, this is the most cost-effective solution.",
-            ar: "ضعف سعة موديل 10,000 مللي أمبير، هذا هو الحامل الثقيل. يدعم الشحن السريع 22.5 واط، وهو سريع بشكل مفاجئ لباور بانك اقتصادي. إنه ضخم قليلاً، لكن إذا كنت بحاجة للحفاظ على شحن أجهزة متعددة لعطلة نهاية أسبوع طويلة، فهذا هو الحل الأكثر فعالية من حيث التكلفة."
+            en: "The 20,000mAh Joyroom is the family trip power bank. Charges 3-4 phones on a Cairo-to-coast road trip. Not for daily pocket carry — 350g is backpack territory. Best value per mAh in Egypt.'s a bit bulky, but if you need to keep multiple devices charged for a long weekend, this is the most cost-effective solution.",
+            ar: "جويروم 20,000 ده باور بانك رحلات العيلة. بيشحن 3-4 موبايلات في رحلة القاهرة-الساحل. مش للجيب اليومي — 350 جم ده مكانه الشنطة. أحسن قيمة مقابل المللي أمبير في مصر."
         }
     };

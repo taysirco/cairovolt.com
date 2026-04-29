@@ -89,14 +89,14 @@ export const anker_powerport_25w = {
                 metaTitle: "Anker 25W PPS Charger ⚡ 15% OFF | Super Fast Samsung | COD",
                 metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [
-                    { question: "What is the price of Anker 25W charger in Egypt?", answer: "Anker 25W charger price is EGP 550 at CairoVolt. Includes 18-month warranty and fast delivery to Cairo and Giza." },
-                    { question: "Does Anker 25W support Samsung Super Fast Charging?", answer: "Yes! It supports PPS technology unlocking full Super Fast Charging for Samsung S26/S25. Charges 0% to 50% in 26 minutes." },
+                    { question: "Is the extra 5W worth the price difference over the 20W?", answer: "If you own Samsung: absolutely yes. PPS protocol unlocks Super Fast Charging speeds. For iPhone-only users: the 20W model gives identical performance at lower cost." },
+                    { question: "Which Samsung models unlock full 25W with PPS?", answer: "S26, S25, S24, S23, A55, A54. These models have PPS support built-in. Older models like A32 cap at 15W regardless of charger wattage." },
                     { question: "What's the difference between Anker 20W and 25W?", answer: "20W is ideal for iPhone. 25W has PPS for Samsung Super Fast Charging. 9-minute difference when charging S26." },
                     { question: "What does PPS mean and why does it matter?", answer: "PPS (Programmable Power Supply) adjusts voltage in 20mV steps for optimal charging efficiency. Without PPS, Samsung caps at 15W. With PPS, you get full 25W Super Fast Charging." },
-                    { question: "How does Anker 25W compare to Samsung original charger?", answer: "Same 25W PPS speed. Anker is more compact, longer warranty (18 vs 12 months), and better value." },
-                    { question: "Is Anker 25W safe for battery health?", answer: "Yes, ActiveShield 2.0 monitors temperature 3 million times daily, protecting devices from overheating." },
+                    { question: "Why is the A2058 smaller than Samsung's own 25W?", answer: "GaN III technology. Samsung still uses silicon transistors in their EP-TA800 — Anker's gallium nitride chip runs cooler and smaller at the same wattage. Physics advantage." },
+                    { question: "Does the 25W output drop when the charger gets warm?", answer: "No. CairoVolt tested sustained output at 42°C ambient — the A2058 maintained 24.8W consistently. Thermal throttling only activates above 50°C." },
                     { question: "Does Anker 25W come with a cable?", answer: "No, charger only. Use a quality USB-C to USB-C cable for full 25W speed." },
-                    { question: "Does Anker 25W get hot during charging?", answer: "No, efficient thermal design with ActiveShield keeps it cool even at full 25W output." }
+                    { question: "Can Anker 25W charge two devices if I use a USB-C splitter?", answer: "Not recommended. The single USB-C port is optimized for one device at 25W. A splitter halves the power and disables PPS protocol. Use Anker's dual-port models instead." }
                 ]
             },
             ar: {
@@ -166,14 +166,14 @@ export const anker_powerport_25w = {
                 metaTitle: "شاحن انكر 25 واط ⚡ خصم 15% | سوبر فاست سامسونج | مصر",
                 metaDesc: "اشتري شاحن انكر 25 واط PPS في مصر بـ 550 جنيه. سامسونج S26 سوبر فاست 0-50% في 26 دقيقة. متوافق ايفون 17. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
-                    { question: "كم سعر شاحن انكر 25 واط في مصر؟", answer: "سعر شاحن انكر 25 واط في مصر هو 550 جنيه من CairoVolt. يشمل ضمان 18 شهر وتوصيل سريع للقاهرة والجيزة." },
-                    { question: "هل شاحن انكر 25 واط يدعم Samsung Super Fast Charging؟", answer: "نعم! يدعم تقنية PPS التي تفتح سرعة Super Fast Charging الكاملة لـ Samsung S26/S25. يشحن من 0% لـ 50% في 26 دقيقة." },
+                    { question: "هل الـ 5 واط الزيادة تستاهل فرق السعر عن الـ 20 واط؟", answer: "لو عندك سامسونج: أكيد أيوه. بروتوكول PPS بيفتح سرعات Super Fast Charging. لمستخدمي ايفون بس: موديل الـ 20 واط بيدي نفس الأداء بسعر أقل." },
+                    { question: "أنهي موديلات سامسونج بتستفيد من الـ 25 واط الكاملة مع PPS؟", answer: "S26, S25, S24, S23, A55, A54. الموديلات دي فيها دعم PPS مدمج. موديلات أقدم زي A32 بتقف عند 15 واط بغض النظر عن قوة الشاحن." },
                     { question: "ما الفرق بين شاحن انكر 20 واط و 25 واط؟", answer: "20 واط مثالي لـ iPhone. 25 واط يدعم PPS لشحن Samsung S26 بأقصى سرعة. الفرق 9 دقائق في شحن S26." },
                     { question: "يعني إيه PPS وليه مهم؟", answer: "PPS (Programmable Power Supply) بيظبط الجهد بدقة 20 ميلي فولت للشحن الأمثل. بدون PPS، سامسونج بتحدد السرعة عند 15 واط. مع PPS بتاخد الـ 25 واط كاملين." },
-                    { question: "ما الفرق بين شاحن انكر 25 واط وشاحن سامسونج الأصلي؟", answer: "نفس السرعة (25W PPS). انكر أصغر حجماً، ضمان أطول (18 شهر vs 12)، وسعر أفضل من الأصلي." },
-                    { question: "هل شاحن انكر 25 واط آمن على البطارية؟", answer: "نعم، تقنية ActiveShield 2.0 تراقب درجة الحرارة 3 مليون مرة/يوم لحماية أجهزتك من الحرارة الزائدة." },
+                    { question: "ليه A2058 أصغر من شاحن سامسونج الأصلي 25 واط؟", answer: "تقنية GaN III. سامسونج لسه بتستخدم ترانزستورات سيليكون في الـ EP-TA800 — شريحة نيتريد الغاليوم من انكر بتشتغل أبرد وأصغر بنفس القوة. ميزة فيزيائية." },
+                    { question: "هل قوة الشحن بتنزل لما الشاحن يسخن؟", answer: "لا. كايرو فولت اختبر الخرج المستمر في حرارة 42°م — الـ A2058 حافظ على 24.8 واط باستمرار. خفض الحرارة بيتفعل فوق 50°م بس." },
                     { question: "هل شاحن انكر 25 واط يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. استخدم كابل USB-C to USB-C عالي الجودة للحصول على السرعة الكاملة." },
-                    { question: "هل شاحن انكر 25 واط يسخن؟", answer: "لا، تصميم فعال للحرارة مع ActiveShield يضمن بقاء الشاحن بارداً حتى عند 25 واط كاملة." }
+                    { question: "ينفع أشحن جهازين لو استخدمت سبليتر USB-C؟", answer: "مش مستحسن. المنفذ الواحد USB-C مُحسّن لجهاز واحد بـ 25 واط. السبليتر بيقسم الطاقة ويعطل بروتوكول PPS. استخدم موديلات انكر ذات المنفذين." }
                 ]
             }
         },

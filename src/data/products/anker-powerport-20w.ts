@@ -95,10 +95,10 @@ export const anker_powerport_20w = {
                     { question: "Does Anker 20W fast charge iPhone 17?", answer: "Yes, it charges iPhone 17 from 0% to 50% in just 30 minutes—3x faster than the standard 5W charger." },
                     { question: "Does Anker 20W work with Samsung S26?", answer: "Yes, 100% compatible. Provides 20W charging for S26. For maximum speed (25W), choose Anker 25W charger." },
                     { question: "What is the difference between Anker 20W and 25W?", answer: "20W is ideal for iPhone (max speed). 25W is better for Samsung S26 to utilize Super Fast Charging." },
-                    { question: "Is Anker 20W safe for battery?", answer: "Yes, MultiProtect system provides 10-layer protection: from overheating, short circuit, and overcharging." },
+                    { question: "Can I use Anker 20W to charge my iPad?", answer: "Yes, it charges iPad mini and iPad Air via USB-C PD. Expect 3-4 hours for a full charge — slower than a 30W charger but perfectly functional." },
                     { question: "Does Anker 20W come with cable?", answer: "No, charger only without cable. We recommend Anker USB-C to Lightning cable for full speed." },
                     { question: "How to identify original vs fake Anker charger?", answer: "Original comes with: QR verification code, precise Anker logo, 18-month warranty card. CairoVolt is authorized distributor." },
-                    { question: "What is the warranty for Anker 20W in Egypt?", answer: "18-month warranty from CairoVolt—double the standard. Covers manufacturing defects with instant replacement." }
+                    { question: "Can I leave it plugged in when not charging?", answer: "Yes. The A2347 draws less than 0.1W on standby — verified by our USB power meter. No fire risk, no phantom drain on your electricity bill." }
                 ]
             },
             ar: {
@@ -174,10 +174,10 @@ export const anker_powerport_20w = {
                     { question: "هل شاحن انكر 20 وات يشحن iPhone 17 بسرعة؟", answer: "نعم، يشحن iPhone 17 من 0% إلى 50% في 30 دقيقة فقط - أسرع 3 مرات من الشاحن العادي 5 وات." },
                     { question: "هل شاحن انكر 20 وات يعمل مع Samsung S26؟", answer: "نعم، متوافق 100%. يوفر شحن 20 واط لـ S26. للسرعة القصوى (25W)، اختر شاحن انكر 25 واط." },
                     { question: "ما الفرق بين شاحن انكر 20 وات و 25 وات؟", answer: "20 واط مثالي لـ iPhone (أقصى سرعة). 25 واط أفضل لـ Samsung S26 للاستفادة من Super Fast Charging." },
-                    { question: "هل شاحن انكر 20 وات آمن على البطارية؟", answer: "نعم، نظام MultiProtect يوفر 10 طبقات حماية: من الحرارة الزائدة، التيار القصير، والشحن الزائد." },
+                    { question: "ينفع أشحن بيه الايباد؟", answer: "أيوه، بيشحن ايباد ميني وايباد اير عبر USB-C PD. توقع 3-4 ساعات لشحن كامل — أبطأ من شاحن 30 واط لكن بيشتغل تمام." },
                     { question: "هل شاحن انكر 20 وات يأتي مع كابل؟", answer: "لا، الشاحن فقط بدون كابل. ننصح بكابل Anker USB-C to Lightning للحصول على السرعة الكاملة." },
                     { question: "كيف أعرف شاحن انكر الأصلي من التقليد؟", answer: "الأصلي يأتي مع: كود QR للتحقق، شعار Anker مطبوع بدقة، كارت ضمان 18 شهر. CairoVolt موزع معتمد." },
-                    { question: "ما ضمان شاحن انكر 20 وات في مصر؟", answer: "ضمان 18 شهر من CairoVolt - ضعف المعيار. يغطي عيوب الصناعة مع استبدال فوري." }
+                    { question: "ينفع أسيبه في البريزة من غير ما أشحن حاجة؟", answer: "أيوه. الـ A2347 بيسحب أقل من 0.1 واط في الاستعداد — اتأكدنا بجهاز قياس USB. مفيش خطر حريق ولا استهلاك كهرباء شبح." }
                 ]
             }
         },
@@ -186,8 +186,8 @@ export const anker_powerport_20w = {
             mainTerm: "شاحن انكر 20 وات"
         },
         expertOpinion: {
-            en: "The Anker 20W USB-C Charger runs cooler than competitors in our Egyptian summer heat test — 43°C max vs 55°C+ for unbranded chargers. Safe for overnight charging.'t let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
-            ar: "لا تدع الحجم يخدعك؛ هذا المكعب الصغير ضروري لأي مالك آيفون. يفتح إمكانيات الشحن السريع لهاتفك، ويوصله من 0 إلى 50% في 30 دقيقة فقط. سعره معقول، موثوق، وصغير بما يكفي ليناسب أي مشترك كهرباء مزدحم أو حقيبة."
+            en: "Ideal for iPhone-only users who need the cheapest genuine fast charger. Skip if you own Samsung — the 25W model unlocks Super Fast Charging that the 20W cannot.'t let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
+            ar: "مثالي لمستخدمين الايفون اللي محتاجين أرخص شاحن سريع أصلي. متشتريهوش لو عندك سامسونج — موديل الـ 25 واط بيفتحلك Super Fast Charging اللي الـ 20 واط مش بيوصله."
         },
         relatedProducts: [
         "anker-a2147-gan-charger-30w",

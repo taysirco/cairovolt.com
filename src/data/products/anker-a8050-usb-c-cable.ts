@@ -111,5 +111,5 @@ export const anker_a8050_usb_c_cable = {
             }
         },
         meta: { keywords: "anker a8050, anker usb-c cable, anker cable type c, anker usb type c, كابل انكر usb-c, كابل شحن 100 واط, وصله انكر, anker braided cable, anker charging cable, anker fast charge cable, anker iphone cable egypt, anker best cable egypt 2026, anker cod egypt cable, anker durable cable, افضل كابل شحن انكر, سعر كابل انكر, anker usb-c 100w cable", mainTerm: "anker usb-c 100w cable" },
-        expertOpinion: { en: "The A8050 is the cable you buy once and forget about. 100W PD, 35,000 bends, braided nylon — it replaces every USB-C cable in your drawer. Stop buying 10 EGP cables from the metro.", ar: "الـ A8050 هو الكابل اللي بتشتريه مرة وبتنساه. 100 واط PD، 35,000 ثنية، نايلون مضفر — بيعوض كل كابل USB-C في الدرج. بطّل تشتري كابلات بـ 10 جنيه من المترو." }
+        expertOpinion: { en: "This cable outlasts every budget option by years. If you charge daily and travel weekly, the A8050 pays for itself in 3 months. Not ideal for desk setups where you need 2m+ length — it's 1.8m max.", ar: "الكابل ده بيعيش أضعاف أي كابل رخيص بسنوات. لو بتشحن يومي وبتسافر أسبوعي، A8050 هيوفر عليك في 3 شهور. مش مثالي لو محتاج كابل طويل للمكتب — أقصى طول 1.8 متر." }
     };

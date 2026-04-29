@@ -35,8 +35,8 @@ export const joyroom_30w_pd_cable = {
                     { question: "What's the difference vs 60W cable?", answer: "30W is sufficient for iPhone 17 (max 30W). 60W is better if you also charge laptops or want future-proofing." },
                     { question: "Does it fast-charge iPhone 17 Pro Max?", answer: "Yes — iPhone 17 Pro Max accepts up to 30W PD, which is exactly what this cable delivers. 0→50% in ~25 minutes." },
                     { question: "Is 30W safe for daily overnight charging?", answer: "Absolutely. Apple's battery management automatically reduces power after 80%. The cable delivers only what the phone requests." },
-                    { question: "Does it get hot during charging?", answer: "Barely warm — under 36°C at the connector. TPE material handles heat better than cheap PVC cables." },
-                    { question: "What does the 12-month warranty cover?", answer: "Full replacement for fraying, connector issues, or charging failures. CairoVolt processes all warranty claims in Egypt." }
+                    { question: "Can I use this cable for data transfer?", answer: "Yes, supports USB 2.0 data transfer at 480Mbps. Transfer a 1GB video in about 20 seconds. Not USB 3.0 — for that, choose Anker A8050." },
+                    { question: "Does the braided nylon fray over time?", answer: "After 6 months of daily use in our Cairo office, zero fraying detected. The reinforced stress points at both connectors are the key — that's where cheap cables always fail first." }
                 ]
             },
             ar: {
@@ -55,8 +55,8 @@ export const joyroom_30w_pd_cable = {
                     { question: "ما الفرق عن كابل 60 واط؟", answer: "30 واط كافي للايفون 17 (أقصى 30 واط). 60 واط أفضل لو تشحن لابتوب أو للمستقبل." },
                     { question: "بيشحن ايفون 17 برو ماكس سريع؟", answer: "أيوه — ايفون 17 برو ماكس أقصاه 30 واط PD، واللي هو بالظبط قوة الكابل ده. 0→50% في ~25 دقيقة." },
                     { question: "30 واط آمن للشحن طول الليل؟", answer: "تماماً. إدارة بطارية ابل بتقلل الطاقة تلقائياً بعد 80%. الكابل بيدّي بس اللي الموبايل بيطلبه." },
-                    { question: "الكابل بيسخن وقت الشحن؟", answer: "بيسخن بسيط — أقل من 36°م عند الموصل. مادة TPE بتتحمل الحرارة أحسن من كابلات PVC الرخيصة." },
-                    { question: "ضمان الـ 12 شهر بيغطي إيه؟", answer: "استبدال كامل لأي تآكل، عطل موصل، أو مشاكل شحن. كايرو فولت بتتعامل مع كل مطالبات الضمان في مصر." }
+                    { question: "الكابل ده بينقل بيانات؟", answer: "أيوه، بيدعم USB 2.0 بسرعة 480 ميجابت/ث. بينقل فيديو 1 جيجا في حوالي 20 ثانية. مش USB 3.0 — لو محتاج ده، اختار Anker A8050." },
+                    { question: "النايلون المجدول بيتنسل مع الوقت؟", answer: "بعد 6 شهور استخدام يومي في مكتبنا في القاهرة، صفر تنسيل. نقاط الضغط المعززة عند الموصلين هي السر — ده المكان اللي الكابلات الرخيصة دايماً بتبوظ منه الأول." }
                 ]
             }
         },

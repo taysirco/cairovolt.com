@@ -60,8 +60,8 @@ export const joyroom_type_c_to_type_c_cable = {
             }
         },
         expertOpinion: {
-            en: "USB-C to USB-C is the future — iPhone 17, Samsung S26, and every modern laptop use it. This cable at 60W PD handles laptops and phones alike. One cable for everything is the ultimate simplification.",
-            ar: "USB-C إلى USB-C هو المستقبل — ايفون 17، سامسونج S26، وكل لاب توب حديث بيستخدمه. الكابل ده بـ 60 واط PD يشحن لاب توبات وموبايلات. كابل واحد لكل حاجة هو قمة البساطة."
+            en: "If every device you own is USB-C, this single cable replaces your entire drawer. One cable for phone, tablet, and laptop. Not suitable for iPhone 15 or older Lightning models.",
+            ar: "لو كل أجهزتك USB-C، الكابل ده بيغنيك عن كل الدرج. كابل واحد للموبايل والتابلت واللابتوب. مش مناسب لايفون 15 أو الموديلات القديمة اللي فيها Lightning."
         },
         meta: { keywords: "joyroom usb-c cable, كابل usb-c, كابل ايفون 17, كابل جوي روم, جوي روم type c, وصلة جوي روم, joyroom charging cable, joyroom fast charge cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, كابل جوي روم مصر, joyroom cable egypt, كابل شحن ايفون", mainTerm: "joyroom usb-c cable" },
         relatedProducts: ["joyroom-3-in-1-data-cable", "joyroom-30w-pd-cable", "joyroom-20w-usb-c-charger", "joyroom-magnetic-power-bank-10000", "joyroom-60w-car-charger"],

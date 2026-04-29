@@ -97,7 +97,7 @@ export const anker_737_powerbank = {
                     { question: "How long does it take to recharge?", answer: "With a 140W charger, it recharges from 0 to 100% in less than 1 hour." },
                     { question: "Can it charge iPhone 17 at full speed?", answer: "Absolutely! It delivers the maximum 30W that iPhone 17 supports, charging from 0-50% in about 20 minutes." },
                     { question: "How does 737 compare to Samsung 25W power bank?", answer: "737 offers 140W vs Samsung's 25W - that's 5.6x more power. It can charge laptops while Samsung's can only charge phones. Premium choice for power users." },
-                    { question: "Can I take this on a plane?", answer: "Power banks under 100Wh (approximately 27,000mAh at 3.7V) are allowed in carry-on luggage on all airlines. Check your specific capacity against airline regulations." },
+                    { question: "Does the 737 support fast charging in both directions?", answer: "Yes — 140W output charges devices fast, and 140W input recharges the 737 itself in under 40 minutes. Bidirectional fast charging is rare at this price." },
                     { question: "How long does it take to fully recharge?", answer: "Recharge time depends on your charger wattage. With an 18W+ charger, expect 3-5 hours for a full recharge. Using a 5W charger will take significantly longer." },
                     { question: "Does it support pass-through charging?", answer: "Yes, you can charge the power bank and your device simultaneously. The power bank intelligently distributes power between recharging itself and your connected device." }
                 ]

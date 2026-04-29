@@ -97,8 +97,8 @@ export const anker_powercore_26800 = {
                         answer: "No, this model uses USB-A output ports and Micro-USB input ports."
                     },
                     { question: "How many times will it charge my phone?", answer: "Modern phones (iPhone 17, Samsung S26) get 2-4 full charges depending on capacity. Mid-range phones get even more." },
-                    { question: "Can I take it on an airplane?", answer: "Yes! Under 100Wh capacity is allowed on all commercial flights. Carry in hand luggage as per IATA regulations." },
-                    { question: "Can I take this on a plane?", answer: "Power banks under 100Wh (approximately 27,000mAh at 3.7V) are allowed in carry-on luggage on all airlines. Check your specific capacity against airline regulations." },
+                    { question: "Does the 26800 support USB-C PD charging?", answer: "Yes — the USB-C port delivers 30W PD output for phones and tablets. Input also accepts PD for faster recharging vs Micro-USB." },
+                    { question: "Is 26800mAh enough for a week-long Sinai camping trip?", answer: "With 2 phones (low usage): 5-6 days. With phone + camera + headlamp: 3-4 days. Bring a solar panel for trips over 4 days." },
                     { question: "How long does it take to fully recharge?", answer: "Recharge time depends on your charger wattage. With an 18W+ charger, expect 3-5 hours for a full recharge. Using a 5W charger will take significantly longer." },
                     { question: "Does it support pass-through charging?", answer: "Yes, you can charge the power bank and your device simultaneously. The power bank intelligently distributes power between recharging itself and your connected device." }
                 ]

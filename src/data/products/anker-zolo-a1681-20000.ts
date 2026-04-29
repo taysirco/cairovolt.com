@@ -173,7 +173,7 @@ export const anker_zolo_a1681_20000 = {
         },
         meta: { keywords: "anker zolo a1681, anker 45w power bank, انكر 45 واط, باور بانك لابتوب, anker pd power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker zolo a1681 45w, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker zolo a1681 45w" },
         expertOpinion: {
-            en: "The A1681 hits the sweet spot. 45W PD means laptop charging from a pocket-sized device. We charged a MacBook Air M3 from 20→72% in 2 hours at a Downtown Cairo café. For freelancers and remote workers who can't guarantee outlet access, this is the productivity insurance policy. Best 20K laptop-charging power bank under 2500 EGP.",
-            ar: "الـ A1681 ضرب النقطة الحلوة. 45 واط PD يعني شحن لابتوب من جهاز بحجم الجيب. شحنّا ماك بوك اير M3 من 20 لـ 72% في ساعتين في كافيه وسط البلد. للفريلانسرز واللي بيشتغلوا عن بُعد ومش مضمون يلاقوا بريزة — ده بوليصة تأمين الإنتاجية. أفضل باور بانك 20 ألف بشحن لابتوب تحت 2500 جنيه."
+            en: "The A1681 is for freelancers who work from cafés. 45W PD charges your MacBook Air alongside your phone — no outlet hunting. Too heavy at 380g for joggers, but perfect for bag carriers.'t guarantee outlet access, this is the productivity insurance policy. Best 20K laptop-charging power bank under 2500 EGP.",
+            ar: "A1681 للفريلانسرز اللي بيشتغلوا من الكافيهات. 45 واط PD بيشحن الماك بوك مع الموبايل — من غير ما تدور على بريزة. تقيل شوية (380 جم) للجري، لكن مثالي لأصحاب الشنط."
         }
     };

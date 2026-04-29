@@ -78,11 +78,11 @@ export const joyroom_20w_usb_c_charger = {
                 metaDesc: "Buy Joyroom 20W USB-C PD charger in Egypt. iPhone 17 0→50% in 30 min, MultiProtect safety, ultra-compact. Best price with 12-month warranty.",
                 faqs: [
                     { question: "Does it heat up?", answer: "It utilizes smart temperature control chips to keep the charger cool even during fast charging sessions." },
-                    { question: "Is it safe for iPhone battery?", answer: "Yes, it intelligently adjusts power output to match your device's needs, preserving battery health over time." },
+                    { question: "How does Joyroom 20W compare to Anker 20W?", answer: "Both deliver identical 20W PD output. Joyroom costs 40% less. Anker has 18-month warranty vs Joyroom's 12-month. For budget buyers, Joyroom wins on value." },
                     { question: "Does it support Samsung Super Fast Charging?", answer: "It supports standard fast charging (15W-18W) for Samsung devices. For Super Fast Charging (25W+), a higher wattage charger is required." },
                     { question: "Is this charger good for travel?", answer: "Yes! Its ultra-compact design fits in any pocket or bag easily. Perfect for travel." }
                 ,
-                    { question: "What does the CairoVolt warranty cover?", answer: "18-month full replacement warranty. Covers overheating, charging failure, or port damage under normal use. Free return shipping." }]
+                    { question: "Does the charging LED indicator change color?", answer: "Yes. Blue = charging normally. No light = fully charged or disconnected. Flashing = connection issue — try a different cable." }]
             },
             ar: {
                 name: "شاحن جوي روم 20 واط PD | أرخص شاحن سريع أصلي يحمي بطاريتك | ضمان 12 شهر",
@@ -141,11 +141,11 @@ export const joyroom_20w_usb_c_charger = {
                 metaDesc: "اشتري شاحن جوي روم 20 واط USB-C PD في مصر. ايفون 17 من 0→50% في 30 دقيقة، حماية 5 طبقات، تصميم صغير. أفضل سعر مع ضمان 12 شهر.",
                 faqs: [
                     { question: "هل يسخن الشاحن؟", answer: "يستخدم شرائح تحكم ذكية للحفاظ على برودة الشاحن حتى أثناء الشحن السريع." },
-                    { question: "هل هو آمن على البطارية؟", answer: "نعم، يضبط الطاقة بذكاء لتناسب جهازك، مما يحافظ على صحة البطارية." },
+                    { question: "إيه الفرق بين جويروم 20 واط وانكر 20 واط؟", answer: "الاتنين بيطلعوا 20 واط PD. جويروم أرخص 40%. انكر ضمانه 18 شهر مقابل 12 شهر لجويروم. لو الميزانية مهمة، جويروم أحسن قيمة." },
                     { question: "هل يدعم سامسونج فائق السرعة؟", answer: "يدعم الشحن السريع القياسي (15-18 واط). للشحن الفائق (25 واط)، شاهد انكر 25 واط." },
                     { question: "كيف يقارن مع انكر 20 واط؟", answer: "جوي روم أرخص بأداء مماثل. انكر ضمان أطول وتصميم أنيق." }
                 ,
-                    { question: "ضمان كايرو فولت 18 شهر بيغطي إيه؟", answer: "استبدال كامل لمدة 18 شهر. بيغطي ارتفاع حرارة، فشل شحن، أو تلف المنفذ في الاستخدام العادي. شحن إرجاع مجاني." }]
+                    { question: "لمبة الشحن بتتغير لونها؟", answer: "أيوه. أزرق = بيشحن عادي. مفيش لمبة = الشحن اكتمل أو مفصول. بتفلش = مشكلة توصيل — جرب كابل تاني." }]
             }
         },
         meta: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, joyroom charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
