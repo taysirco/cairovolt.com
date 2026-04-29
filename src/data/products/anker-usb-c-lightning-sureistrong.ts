@@ -15,7 +15,7 @@ export const anker_usb_c_lightning_sureistrong = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-240w-braided-cable-cairovolt.webp", alt: "Anker SureIStrong USB-C to Lightning 240W braided cable with Kevlar reinforcement - CairoVolt Egypt", order: 0, isPrimary: true, width: 600, height: 600 },
-            { id: "img_2", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-connector-detail-kevlar.webp", alt: "موصل كابل انكر SureIStrong المقوى بالكيفلار - تفاصيل الجودة والمتانة - كايرو فولت", order: 1, isPrimary: false, width: 800, height: 1000 },
+            { id: "img_2", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-connector-detail-kevlar.webp", alt: "موصل كابل انكر SureIStrong المقوى بالكيفلار - تفاصيل الجودة والمتانة - A8652H21 - كايرو فولت", order: 1, isPrimary: false, width: 800, height: 1000 },
             { id: "img_3", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-charging-iphone-fast-pd.webp", alt: "Anker SureIStrong cable fast charging iPhone with USB-C Power Delivery - CairoVolt", order: 2, isPrimary: false, width: 741, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-usb-c-lightning-sureistrong/anker-usb-c-lightning-sureistrong-package-box-contents.webp", alt: "محتويات علبة كابل انكر SureIStrong الأصلي - كايرو فولت مصر", order: 3, isPrimary: false, width: 864, height: 1184 }
         ],

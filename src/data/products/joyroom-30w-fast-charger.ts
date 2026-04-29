@@ -15,7 +15,7 @@ export const joyroom_30w_fast_charger = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-1.webp", alt: "Joyroom 30W PD+QC Fast Charger Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 30 واط اصلي مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-2.webp", alt: "شاحن جوي روم 30 واط اصلي مصر - JR-TCF30 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-3.webp", alt: "Joyroom 30W Charger iPhone 17 Samsung S26 - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-4.webp", alt: "شاحن 30 واط PD QC 3.0 - توصيل القاهرة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-30w-fast-charger/joyroom-joyroom-30w-fast-charger-egypt-cairo-5.webp", alt: "Joyroom 30W USB-C Wall Charger - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

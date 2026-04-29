@@ -15,7 +15,7 @@ export const joyroom_60w_car_charger = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-6.webp", alt: "Joyroom 60W 3-in-1 Car Charger Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-7.webp", alt: "شاحن سيارة جوي روم 60 واط 3 في 1 مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-7.webp", alt: "شاحن سيارة جوي روم 60 واط 3 في 1 مصر - JR-CL26 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-8.webp", alt: "Joyroom Retractable Car Charger USB-C - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-4.webp", alt: "شاحن سيارة سريع مع كابل مدمج - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-5.webp", alt: "Joyroom 60W iPhone 17 Car Charger - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 }

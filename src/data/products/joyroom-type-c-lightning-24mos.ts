@@ -15,7 +15,7 @@ export const joyroom_type_c_lightning_24mos = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-2.webp", alt: "Joyroom Type-C Lightning 24 Month Warranty Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-3.webp", alt: "كابل جوي روم 24 شهر ضمان مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-24mos/joyroom-joyroom-type-c-lightning-24mos-egypt-cairo-3.webp", alt: "كابل جوي روم 24 شهر ضمان مصر - JR-S-CL24M - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

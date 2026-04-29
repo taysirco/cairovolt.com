@@ -15,7 +15,7 @@ export const joyroom_usb_c_lightning_cable = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-1.webp", alt: "joyroom usb c lightning cable - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-2.webp", alt: "joyroom usb c lightning cable الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-2.webp", alt: "joyroom usb c lightning cable الأصلي في مصر | توصيل لأي محافظة - JR-S-CL20 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-3.webp", alt: "joyroom usb c lightning cable - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-4.webp", alt: "joyroom usb c lightning cable - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-5.webp", alt: "joyroom usb c lightning cable - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

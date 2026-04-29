@@ -15,7 +15,7 @@ export const joyroom_power_bank_20000 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | JR-T020 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

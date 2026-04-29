@@ -15,7 +15,7 @@ export const joyroom_30w_pd_cable = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-1.webp", alt: "Joyroom 30W PD Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 30 واط مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-2.webp", alt: "كابل جوي روم 30 واط مصر - JR-S-CL30 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-30w-pd-cable/joyroom-joyroom-30w-pd-cable-egypt-cairo-3.webp", alt: "Joyroom USB-C Cable 1.2m - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {

@@ -15,7 +15,7 @@ export const anker_powerport_25w = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-port-detail-pps-protocol.webp", alt: "Anker 25W USB-C port with PPS protocol for Samsung Super Fast Charging detail - CairoVolt", order: 0, isPrimary: true, width: 1200, height: 1200 },
-            { id: "img_2", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-samsung-super-fast-charger-cairovolt.webp", alt: "شاحن انكر 25 واط USB-C سوبر فاست تشارج لسامسونج - كايرو فولت مصر", order: 1, isPrimary: false, width: 679, height: 444 },
+            { id: "img_2", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-usb-c-samsung-super-fast-charger-cairovolt.webp", alt: "شاحن انكر 25 واط USB-C سوبر فاست تشارج لسامسونج - A2322K11 - كايرو فولت مصر", order: 1, isPrimary: false, width: 679, height: 444 },
             { id: "img_3", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-compact-design-wall-outlet-plugged.webp", alt: "شاحن انكر 25 واط مدمج في مقبس الحائط - تصميم صغير وأنيق - كايرو فولت", order: 2, isPrimary: false, width: 1200, height: 1500 },
             { id: "img_4", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-charging-samsung-galaxy-25w-fast.webp", alt: "Anker 25W charging Samsung Galaxy at full speed - Super Fast Charge test CairoVolt", order: 3, isPrimary: false, width: 1200, height: 1500 },
             { id: "img_5", url: "/products/anker/anker-powerport-25w/anker-powerport-25w-foldable-plug-portable-travel.webp", alt: "قابس قابل للطي لشاحن انكر 25 واط - محمول ومناسب للسفر - كايرو فولت", order: 4, isPrimary: false, width: 1200, height: 1500 },

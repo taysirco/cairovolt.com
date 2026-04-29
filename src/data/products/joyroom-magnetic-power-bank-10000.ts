@@ -15,7 +15,7 @@ export const joyroom_magnetic_power_bank_10000 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-1.webp", alt: "Joyroom Magnetic MagSafe Power Bank 10000mAh Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-2.webp", alt: "باور بانك جوي روم مغناطيسي 10000 مللي امبير مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-2.webp", alt: "باور بانك جوي روم مغناطيسي 10000 مللي امبير مصر - JR-W030 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-3.webp", alt: "MagSafe Power Bank iPhone 17/16/15 Compatible - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-4.webp", alt: "شاحن متنقل مغناطيسي للايفون - القاهرة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-magnetic-power-bank-10000/joyroom-joyroom-magnetic-power-bank-10000-egypt-cairo-5.webp", alt: "Joyroom Wireless Magnetic Charger Power Bank - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

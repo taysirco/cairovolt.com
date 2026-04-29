@@ -15,7 +15,7 @@ export const anker_powerport_20w = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-pd-wall-charger-cairovolt-egypt.webp", alt: "شاحن انكر 20 واط USB-C PD حائطي صغير الحجم - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1499 },
-            { id: "img_2", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-port-detail-power-delivery.webp", alt: "Anker PowerPort 20W USB-C Power Delivery port detail close-up - CairoVolt", order: 1, isPrimary: false, width: 928, height: 1152 },
+            { id: "img_2", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-usb-c-port-detail-power-delivery.webp", alt: "Anker PowerPort 20W USB-C Power Delivery port detail close-up - A2347K11 - CairoVolt", order: 1, isPrimary: false, width: 928, height: 1152 },
             { id: "img_3", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-compact-size-comparison-coin-plug.webp", alt: "حجم شاحن انكر 20 واط مقارنة بعملة معدنية - تصميم فائق الصغر - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
             { id: "img_4", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-charging-iphone-fast-charge-pd.webp", alt: "Anker 20W fast charging iPhone with Power Delivery PD protocol speed test - CairoVolt", order: 3, isPrimary: false, width: 928, height: 1152 },
             { id: "img_5", url: "/products/anker/anker-powerport-20w/anker-powerport-20w-foldable-plug-prongs-travel-friendly.webp", alt: "شاحن انكر 20 واط بقابس قابل للطي - تصميم مناسب للسفر - كايرو فولت", order: 4, isPrimary: false, width: 928, height: 1152 },

@@ -40,6 +40,34 @@ import { anker_soundcore_r50i_nc_lab } from './tests/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i_lab } from './tests/anker-soundcore-r50i';
 import { anker_a2147_gan_charger_30w_lab } from './tests/anker-a2147-gan-charger-30w';
 import { anker_nano_45w_smart_display_charger_lab } from './tests/anker-nano-45w-smart-display-charger';
+import { anker_nano_45w_lab } from './tests/anker-nano-45w';
+import { anker_powerline_usb_c_lightning_lab } from './tests/anker-powerline-usb-c-lightning';
+import { anker_powerline_usb_c_usb_c_lab } from './tests/anker-powerline-usb-c-usb-c';
+import { anker_powerport_20w_lab } from './tests/anker-powerport-20w';
+import { anker_powerport_25w_lab } from './tests/anker-powerport-25w';
+import { anker_soundcore_life_p2i_lab } from './tests/anker-soundcore-life-p2i';
+import { anker_usb_c_lightning_sureistrong_lab } from './tests/anker-usb-c-lightning-sureistrong';
+import { joyroom_20w_usb_c_charger_lab } from './tests/joyroom-20w-usb-c-charger';
+import { joyroom_25w_fast_charger_lab } from './tests/joyroom-25w-fast-charger';
+import { joyroom_3_in_1_data_cable_lab } from './tests/joyroom-3-in-1-data-cable';
+import { joyroom_3_in_1_wireless_charging_station_lab } from './tests/joyroom-3-in-1-wireless-charging-station';
+import { joyroom_30w_pd_cable_lab } from './tests/joyroom-30w-pd-cable';
+import { joyroom_60w_car_charger_lab } from './tests/joyroom-60w-car-charger';
+import { joyroom_car_mount_zs290_lab } from './tests/joyroom-car-mount-zs290';
+import { joyroom_car_phone_mount_lab } from './tests/joyroom-car-phone-mount';
+import { joyroom_ft3_smartwatch_lab } from './tests/joyroom-ft3-smartwatch';
+import { joyroom_magnetic_power_bank_10000_lab } from './tests/joyroom-magnetic-power-bank-10000';
+import { joyroom_type_c_lightning_24mos_lab } from './tests/joyroom-type-c-lightning-24mos';
+import { joyroom_type_c_lightning_36mos_lab } from './tests/joyroom-type-c-lightning-36mos';
+import { joyroom_type_c_lightning_braided_lab } from './tests/joyroom-type-c-lightning-braided';
+import { joyroom_type_c_to_type_c_cable_lab } from './tests/joyroom-type-c-to-type-c-cable';
+import { joyroom_usb_a_lightning_1_2m_lab } from './tests/joyroom-usb-a-lightning-1.2m';
+import { joyroom_usb_a_lightning_cable_lab } from './tests/joyroom-usb-a-lightning-cable';
+import { joyroom_usb_a_micro_cable_lab } from './tests/joyroom-usb-a-micro-cable';
+import { joyroom_usb_a_type_c_1_2m_lab } from './tests/joyroom-usb-a-type-c-1.2m';
+import { joyroom_usb_a_type_c_cable_lab } from './tests/joyroom-usb-a-type-c-cable';
+import { joyroom_usb_c_cable_60w_lab } from './tests/joyroom-usb-c-cable-60w';
+import { joyroom_usb_c_lightning_cable_lab } from './tests/joyroom-usb-c-lightning-cable';
 
 export const labData: Record<string, import('./tests/_shared').ProductLabData> = {
     'anker-powercore-10000': anker_powercore_10000_lab,
@@ -79,6 +107,34 @@ export const labData: Record<string, import('./tests/_shared').ProductLabData> =
     'anker-soundcore-r50i': anker_soundcore_r50i_lab,
     'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_lab,
     'anker-nano-45w-smart-display-charger': anker_nano_45w_smart_display_charger_lab,
+    'anker-nano-45w': anker_nano_45w_lab,
+    'anker-powerline-usb-c-lightning': anker_powerline_usb_c_lightning_lab,
+    'anker-powerline-usb-c-usb-c': anker_powerline_usb_c_usb_c_lab,
+    'anker-powerport-20w': anker_powerport_20w_lab,
+    'anker-powerport-25w': anker_powerport_25w_lab,
+    'anker-soundcore-life-p2i': anker_soundcore_life_p2i_lab,
+    'anker-usb-c-lightning-sureistrong': anker_usb_c_lightning_sureistrong_lab,
+    'joyroom-20w-usb-c-charger': joyroom_20w_usb_c_charger_lab,
+    'joyroom-25w-fast-charger': joyroom_25w_fast_charger_lab,
+    'joyroom-3-in-1-data-cable': joyroom_3_in_1_data_cable_lab,
+    'joyroom-3-in-1-wireless-charging-station': joyroom_3_in_1_wireless_charging_station_lab,
+    'joyroom-30w-pd-cable': joyroom_30w_pd_cable_lab,
+    'joyroom-60w-car-charger': joyroom_60w_car_charger_lab,
+    'joyroom-car-mount-zs290': joyroom_car_mount_zs290_lab,
+    'joyroom-car-phone-mount': joyroom_car_phone_mount_lab,
+    'joyroom-ft3-smartwatch': joyroom_ft3_smartwatch_lab,
+    'joyroom-magnetic-power-bank-10000': joyroom_magnetic_power_bank_10000_lab,
+    'joyroom-type-c-lightning-24mos': joyroom_type_c_lightning_24mos_lab,
+    'joyroom-type-c-lightning-36mos': joyroom_type_c_lightning_36mos_lab,
+    'joyroom-type-c-lightning-braided': joyroom_type_c_lightning_braided_lab,
+    'joyroom-type-c-to-type-c-cable': joyroom_type_c_to_type_c_cable_lab,
+    'joyroom-usb-a-lightning-1.2m': joyroom_usb_a_lightning_1_2m_lab,
+    'joyroom-usb-a-lightning-cable': joyroom_usb_a_lightning_cable_lab,
+    'joyroom-usb-a-micro-cable': joyroom_usb_a_micro_cable_lab,
+    'joyroom-usb-a-type-c-1.2m': joyroom_usb_a_type_c_1_2m_lab,
+    'joyroom-usb-a-type-c-cable': joyroom_usb_a_type_c_cable_lab,
+    'joyroom-usb-c-cable-60w': joyroom_usb_c_cable_60w_lab,
+    'joyroom-usb-c-lightning-cable': joyroom_usb_c_lightning_cable_lab,
 };
 
 /**

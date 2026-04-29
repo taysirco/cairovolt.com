@@ -15,7 +15,7 @@ export const joyroom_type_c_lightning_36mos = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-1.webp", alt: "Joyroom Type-C Lightning 36 Month Warranty Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-2.webp", alt: "كابل جوي روم 36 شهر ضمان مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-2.webp", alt: "كابل جوي روم 36 شهر ضمان مصر - JR-S-CL36M - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-6.webp", alt: "Joyroom Lightning 36mos Cable Details - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-7.webp", alt: "كابل ايفون ضمان 36 شهر - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-type-c-lightning-36mos/joyroom-joyroom-type-c-lightning-36mos-egypt-cairo-8.webp", alt: "Joyroom Premium Lightning Cable - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

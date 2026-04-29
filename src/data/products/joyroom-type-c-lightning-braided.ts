@@ -15,7 +15,7 @@ export const joyroom_type_c_lightning_braided = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-type-c-lightning-braided/joyroom-joyroom-type-c-lightning-braided-egypt-cairo-1.webp", alt: "Joyroom Type-C Lightning Braided Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-braided/joyroom-joyroom-type-c-lightning-braided-egypt-cairo-2.webp", alt: "كابل جوي روم Type-C Lightning مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-lightning-braided/joyroom-joyroom-type-c-lightning-braided-egypt-cairo-2.webp", alt: "كابل جوي روم Type-C Lightning مصر - JR-S-CL30B - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-type-c-lightning-braided/joyroom-joyroom-type-c-lightning-braided-egypt-cairo-3.webp", alt: "Joyroom iPhone 14 Fast Charging Cable - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {

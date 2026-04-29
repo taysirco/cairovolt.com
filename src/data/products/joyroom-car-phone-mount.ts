@@ -15,7 +15,7 @@ export const joyroom_car_phone_mount = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-1.webp", alt: "Joyroom Car Phone Mount Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-2.webp", alt: "حامل جوال للسيارة جوي روم مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-2.webp", alt: "حامل جوال للسيارة جوي روم مصر - JR-ZS295 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-3.webp", alt: "Joyroom Dashboard Phone Holder - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-4.webp", alt: "حامل هاتف للسيارة - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-car-phone-mount/joyroom-joyroom-car-phone-mount-egypt-cairo-5.webp", alt: "Joyroom Car Mount iPhone 17 - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

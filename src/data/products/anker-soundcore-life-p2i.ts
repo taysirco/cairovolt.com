@@ -15,7 +15,7 @@ export const anker_soundcore_life_p2i = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wireless-earbuds-10mm-cairovolt.webp", alt: "سماعات انكر ساوندكور لايف P2i لاسلكية درايفر 10mm - كايرو فولت مصر", order: 0, isPrimary: true, width: 737, height: 1142 },
-            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-earbud-driver-detail-design.webp", alt: "Anker Life P2i earbud driver design detail showing 10mm speaker quality - CairoVolt", order: 1, isPrimary: false, width: 1024, height: 1024 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-earbud-driver-detail-design.webp", alt: "Anker Life P2i earbud driver design detail showing 10mm speaker quality - A3991H11 - CairoVolt", order: 1, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_3", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-charging-case-open-led-status.webp", alt: "علبة شحن انكر لايف P2i مفتوحة مع مؤشرات LED لحالة البطارية - كايرو فولت", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-wearing-comfort-in-ear-fit.webp", alt: "Anker Soundcore Life P2i wearing comfort and in-ear fit lifestyle photo - CairoVolt", order: 3, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_5", url: "/products/anker/anker-soundcore-life-p2i/anker-soundcore-life-p2i-usb-c-charging-port-case.webp", alt: "منفذ USB-C لشحن علبة سماعات انكر لايف P2i - تفاصيل المنفذ - كايرو فولت", order: 4, isPrimary: false, width: 1024, height: 1024 },

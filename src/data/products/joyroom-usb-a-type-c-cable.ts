@@ -15,7 +15,7 @@ export const joyroom_usb_a_type_c_cable = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-usb-a-type-c-cable/joyroom-joyroom-usb-a-type-c-cable-egypt-cairo-1.webp", alt: "Joyroom USB-A Type-C Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-type-c-cable/joyroom-joyroom-usb-a-type-c-cable-egypt-cairo-2.webp", alt: "كابل جوي روم USB-A Type-C مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-a-type-c-cable/joyroom-joyroom-usb-a-type-c-cable-egypt-cairo-2.webp", alt: "كابل جوي روم USB-A Type-C مصر - JR-S-AC30 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {

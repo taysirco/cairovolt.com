@@ -15,7 +15,7 @@ export const anker_prime_a1695_25000 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt.webp", alt: "Anker Prime A1695 power bank 25000mAh 165W front view - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-front-view-led-display-watt-output-reading.webp", alt: "انكر برايم 25000 مللي أمبير 165 واط - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-front-view-led-display-watt-output-reading.webp", alt: "انكر برايم 25000 مللي أمبير 165 واط - A1695 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-triple-usb-c-port-165w-output-detail.webp", alt: "Anker Prime A1695 dual USB-C PD ports and USB-A detail 165W - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-charging-macbook-laptop-165w-fast-charge.webp", alt: "Anker Prime A1695 charging MacBook Pro 16 at 140W - premium power bank - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-slim-design-aluminum-body-side-profile.webp", alt: "Anker Prime smart digital display showing watts and temperature - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

@@ -4,7 +4,7 @@ export const anker_soundcore_r50i = {
         gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 950, originalPrice: 1300, stock: 397, featured: false, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Anker Soundcore R50i true wireless earbuds in-ear - Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة انكر ساوندكور R50i لاسلكية داخلية - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة انكر ساوندكور R50i لاسلكية داخلية - A3949 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-charging-case-open-earbuds-visible.webp", alt: "Anker R50i earbuds close-up showing 10mm drivers - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_4", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wearing-comfortable-in-ear-lifestyle.webp", alt: "Anker R50i charging case with USB-C port - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-usb-c-charging-port-case-bottom.webp", alt: "Anker R50i worn showing secure in-ear fit - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },

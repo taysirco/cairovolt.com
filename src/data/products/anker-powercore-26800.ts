@@ -15,7 +15,7 @@ export const anker_powercore_26800 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-powercore-26800/anker-powercore-26800mah-ultra-capacity-power-bank-cairovolt.webp", alt: "باور بانك انكر 26800 مللي أمبير سعة فائقة ثلاث منافذ USB-A - كايرو فولت مصر", order: 0, isPrimary: true, width: 1200, height: 1500 },
-            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-triple-usb-a-output-ports-detail.webp", alt: "Anker PowerCore 26800 triple USB-A output ports detail for multi-device charging - CairoVolt", order: 1, isPrimary: false, width: 1200, height: 1500 },
+            { id: "img_2", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-triple-usb-a-output-ports-detail.webp", alt: "Anker PowerCore 26800 triple USB-A output ports detail for multi-device charging - A1277011 - CairoVolt", order: 1, isPrimary: false, width: 1200, height: 1500 },
             { id: "img_3", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-dual-input-micro-usb-charging.webp", alt: "منفذ مايكرو USB مزدوج لشحن باور بانك انكر 26800 بسرعة مضاعفة - كايرو فولت", order: 2, isPrimary: false, width: 928, height: 1152 },
             { id: "img_4", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-charging-laptop-tablet-phone-multi.webp", alt: "Anker PowerCore 26800 charging laptop tablet and phone simultaneously - CairoVolt test", order: 3, isPrimary: false, width: 928, height: 1152 },
             { id: "img_5", url: "/products/anker/anker-powercore-26800/anker-powercore-26800-size-comparison-weight-349g.webp", alt: "حجم باور بانك انكر 26800 مقارنة - وزن 349 جرام تصميم محمول - كايرو فولت", order: 4, isPrimary: false, width: 928, height: 1152 },

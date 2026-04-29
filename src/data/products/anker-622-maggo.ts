@@ -15,7 +15,7 @@ export const anker_622_maggo = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-622-maggo/anker-622-maggo-package-box-contents-cable-egypt.webp", alt: "محتويات علبة انكر 622 ماج جو الأصلية مع كابل USB-C - كايرو فولت مصر", order: 0, isPrimary: true, width: 676, height: 811 },
-            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - كايرو فولت", order: 1, isPrimary: false, width: 530, height: 722 },
+            { id: "img_2", url: "/products/anker/anker-622-maggo/anker-622-maggo-5000mah-magsafe-wireless-power-bank-cairovolt.webp", alt: "باور بانك انكر 622 ماج جو 5000 مللي أمبير شحن لاسلكي MagSafe - A1610011 - كايرو فولت", order: 1, isPrimary: false, width: 530, height: 722 },
             { id: "img_3", url: "/products/anker/anker-622-maggo/anker-622-maggo-magnetic-attachment-iphone-wireless-charging.webp", alt: "Anker 622 MagGo magnetic attachment snapping onto iPhone wireless charging test - CairoVolt", order: 2, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_4", url: "/products/anker/anker-622-maggo/anker-622-maggo-foldable-kickstand-phone-stand-viewing.webp", alt: "حامل قابل للطي لباور بانك انكر 622 ماج جو - زاوية مشاهدة بدون يدين - كايرو فولت", order: 3, isPrimary: false, width: 1024, height: 1024 },
             { id: "img_5", url: "/products/anker/anker-622-maggo/anker-622-maggo-usb-c-port-input-output-detail.webp", alt: "Anker 622 MagGo USB-C input output port detail for charging and power delivery - CairoVolt", order: 4, isPrimary: false, width: 1024, height: 1024 },

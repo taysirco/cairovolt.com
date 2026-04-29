@@ -15,7 +15,7 @@ export const joyroom_type_c_to_type_c_cable = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-1.webp", alt: "Joyroom Type-C to Type-C Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Type-C مصر - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_2", url: "/products/joyroom/joyroom-type-c-to-type-c-cable/joyroom-joyroom-type-c-to-type-c-cable-egypt-cairo-2.webp", alt: "كابل جوي روم Type-C مصر - JR-S-CC100 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
