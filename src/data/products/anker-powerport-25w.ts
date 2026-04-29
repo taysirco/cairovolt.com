@@ -85,7 +85,7 @@ export const anker_powerport_25w = {
                     "📱 iPhone 17: 0-50% in 28 Minutes",
                     "🛡️ ActiveShield 2.0 (3M Temp Checks/Day)",
                     "📏 Compact 4.5cm Design",
-                    "🏆 18-Month Warranty (vs Samsung's 12)", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
+                    "🏆 18-Month Warranty (vs Samsung's 12)", "🔒 UL + FCC + CE Certified → Global Safety Standards", "🔒 MultiProtect 11-Point Safety System"],
                 metaTitle: "Anker 25W PPS Charger ⚡ 15% OFF | Super Fast Samsung | COD",
                 metaDesc: "Buy Anker 25W PPS charger in Egypt for EGP 550. Samsung S26 Super Fast 0-50% in 26 min. Also charges iPhone 17. ✓ Warranty ✓ 24-48H Shipping.",
                 faqs: [

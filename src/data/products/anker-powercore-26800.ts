@@ -80,7 +80,7 @@ export const anker_powercore_26800 = {
     </ul>
 </div>
 `,
-                features: ["🔋 26,800mAh (96.48Wh) — 5x iPhone Charges", "🔌 3 USB-A Ports (PowerIQ 2.0)", "✈️ Max Airline-Legal Capacity", "🔄 Dual-Input 6hr Recharge", "🛡️ MultiProtect 10-Layer Safety", "🏆 24-Month Warranty", "🔒 FCC + CE + IATA Certified → Global Safety Standards"],
+                features: ["🔋 26,800mAh (96.48Wh) — 5x iPhone Charges", "🔌 3 USB-A Ports (PowerIQ 2.0)", "✈️ Max Airline-Legal Capacity", "🔄 Dual-Input 6hr Recharge", "🛡️ MultiProtect 10-Layer Safety", "🏆 24-Month Warranty", "🔒 FCC + CE + IATA Certified → Global Safety Standards", "🔒 MultiProtect 11-Point Safety"],
                 metaTitle: "Anker 26800mAh Power Bank ⚡ 34% OFF | Max Airline | COD",
                 metaDesc: "Buy Anker PowerCore 26800mAh in Egypt. Max airline-legal capacity, 3 USB ports, 5x iPhone charges. 24-month warranty. Fast Cairo delivery.",
                 faqs: [

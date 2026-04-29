@@ -73,7 +73,7 @@ export const joyroom_30w_fast_charger = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included. The 30W PD port is USB-C only. The secondary QC port is USB-A (for Android/accessories). Both ports cannot deliver 30W simultaneously — power splits when charging 2 devices. For Samsung 45W max speed, this is NOT sufficient. احذر من الشواحن المقلدة بدون شهادات أمان — بتسبب سخونة زيادة وتلف البطارية.</p></div>
 `,
-                features: ["⚡ 30W iPhone 17 MAX Speed", "📱 0→50% in 20 Minutes", "🔄 Dual PD 3.0 + QC 3.0", "📱 Samsung Super Fast", "✅ CE/FCC/RoHS Certified", "🧠 Intelligent Protocol Detection", "🏆 36-Month Warranty"],
+                features: ["⚡ 30W iPhone 17 MAX Speed", "📱 0→50% in 20 Minutes", "🔄 Dual PD 3.0 + QC 3.0", "📱 Samsung Super Fast", "✅ CE/FCC/RoHS Certified", "🧠 Intelligent Protocol Detection", "🏆 36-Month Warranty", "🔒 Overcurrent + Overheat Protection"],
                 metaTitle: "Joyroom 30W PD+QC Charger ⚡ 33% OFF | iPhone + Samsung | COD",
                 metaDesc: "Buy Joyroom 30W charger in Egypt. iPhone 17 MAX 30W speed, 0→50% in 20 min, dual PD+QC, CE/FCC certified. 36-month warranty. Best price.",
                 faqs: [

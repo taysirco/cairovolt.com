@@ -63,7 +63,7 @@ export const joyroom_car_phone_mount = {
     </ul>
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Air vent mount ONLY — no dashboard or windshield option. May block air vent in summer when you need AC most. Not suitable for very heavy phones with large cases. Spring mechanism may loosen after 12+ months of daily use.</p></div>`,
-                features: ["📱 Fits phones up to 7 inches", "✨ Strong suction cup mount", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 12-month warranty"],
+                features: ["📱 Fits phones up to 7 inches", "✨ Strong suction cup mount", "✨ Dashboard or windshield mounting", "✨ 360-degree rotation", "✨ One-hand operation", "✨ Adjustable arm length", "🏆 12-month warranty", "🔒 Anti-Scratch Silicone Grip"],
                 metaTitle: "Joyroom Car Phone Mount ⚡ 58% OFF | Anti-Vibration | COD",
                 metaDesc: "Buy joyroom Car Phone Mount — holds iPhone 17 Pro Max & Samsung S26 Ultra securely. Dashboard or windshield. 360° rotation. ✓ COD ✓ Fast Delivery Egypt.",
                 faqs: [

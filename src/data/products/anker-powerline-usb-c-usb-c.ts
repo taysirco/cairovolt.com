@@ -79,7 +79,7 @@ export const anker_powerline_usb_c_usb_c = {
     </ul>
 </div>
 `,
-                features: ["⚡ 60W Power Delivery", "📱 iPhone 17 Max 30W", "📱 Samsung S26 Super Fast 45W", "💻 MacBook Air Compatible", "💪 35,000+ Bend Lifespan", "🏆 18-Month Warranty"],
+                features: ["⚡ 60W Power Delivery", "📱 iPhone 17 Max 30W", "📱 Samsung S26 Super Fast 45W", "💻 MacBook Air Compatible", "💪 35,000+ Bend Lifespan", "🏆 18-Month Warranty", "🛡️ 10,000+ Bend-Tested — Outlasts Ordinary Cables 6x", "🔒 MultiProtect Safety — Overcurrent + Short-Circuit Shield"],
                 metaTitle: "Anker USB-C to USB-C 60W ⚡ 9% OFF | iPhone + Samsung | COD",
                 metaDesc: "Buy Anker PowerLine III USB-C cable in Egypt. 60W PD for iPhone 17, Samsung S26, MacBook Air. 35K+ bends. 18-month warranty. Best price Cairo delivery.",
                 faqs: [

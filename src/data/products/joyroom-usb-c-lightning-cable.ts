@@ -75,7 +75,7 @@ export const joyroom_usb_c_lightning_cable = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Lightning cable — does NOT work with iPhone 17/16/15 (USB-C). This cable does NOT support fast charging with old USB-A chargers; you need a USB-C PD charger (sold separately) for 20W speed.</p></div>
 `,
-                features: ["⚡ 20W PD Fast Charging", "🔗 Nylon Braided 10K+ Bends", "💾 480Mbps Data Transfer", "📱 iPhone 17/16/15 Compatible", "🔩 Aluminum Reinforced Connectors", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
+                features: ["⚡ 20W PD Fast Charging", "🔗 Nylon Braided 10K+ Bends", "💾 480Mbps Data Transfer", "📱 iPhone 17/16/15 Compatible", "🔩 Aluminum Reinforced Connectors", "💰 Best Price Egypt", "🏆 12-Month Warranty", "🛡️ 10K Bend-Tested Braided Nylon — 2-Year Lifespan"],
                 metaTitle: "Joyroom USB-C Lightning ⚡ 41% OFF | 20W Fast Charge | COD",
                 metaDesc: "Buy Joyroom USB-C to Lightning cable in Egypt. 20W PD fast charging, nylon braided 10K+ bends, 480Mbps data. Best price iPhone cable. 12-month warranty.",
                 faqs: [

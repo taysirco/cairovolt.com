@@ -80,7 +80,7 @@ export const anker_622_maggo = {
     </ul>
 </div>
 `,
-                features: ["🧲 7.5W MagSafe Wireless Charging", "📱 Built-in Foldable Kickstand", "🪨 Ultra-Slim (13mm)", "🔌 USB-C Two-Way Charging", "🔄 Pass-Through Charging", "🛡️ 18-Month Anker Warranty"],
+                features: ["🧲 7.5W MagSafe Wireless Charging", "📱 Built-in Foldable Kickstand", "🪨 Ultra-Slim (13mm)", "🔌 USB-C Two-Way Charging", "🔄 Pass-Through Charging", "🛡️ 18-Month Anker Warranty", "🔒 MultiProtect 11-Point Safety", "✈️ Airline-Approved (<100Wh)"],
                 metaTitle: "Anker 622 MagGo Wireless ⚡ 7% OFF | MagSafe iPhone | COD",
                 metaDesc: "Buy Anker 622 MagGo in Egypt. MagSafe wireless for iPhone 17/16/15. Built-in kickstand, ultra-slim. ✓ Replacement Warranty ✓ 24-48H Shipping. anker maggo.",
                 faqs: [

@@ -73,7 +73,7 @@ export const joyroom_car_mount_zs290 = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">MagSafe ONLY — does NOT work with non-MagSafe phones unless you add a MagSafe ring (sold separately). iPhone 12 and newer only. Not compatible with thick cases (>2mm). Dashboard adhesive may weaken in extreme Cairo summer heat (>50°C).</p></div>
 `,
-                features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty"],
+                features: ["🧲 N52 Strongest Magnets", "📱 MagSafe Direct Attach", "🔄 360° Ball Joint", "❄️ Air Vent Clip", "🖐️ One-Hand Operation", "📦 Metal Plate Included", "🏆 12-Month Warranty", "🔒 Anti-Scratch Silicone Grip"],
                 metaTitle: "Joyroom Magnetic Car Mount ⚡ N52 MagSafe | COD Egypt",
                 metaDesc: "Buy Joyroom car mount (ZS290) in Egypt. N52 magnets, MagSafe iPhone direct attach, 360° rotation, air vent clip. Holds iPhone 17 Pro Max. 12-month warranty.",
                 faqs: [

@@ -77,7 +77,7 @@ export const anker_soundcore_motion_plus = {
     </ul>
 </div>
 `,
-                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 18-Month Warranty", "🔒 FCC + CE + IPX7 Certified → Global Safety Standards"],
+                features: ["🔈 30W Sound (Hi-Res)", "🔋 12-Hour Battery (6700mAh)", "💧 IPX7 Waterproof", "📱 Bluetooth 5.0 + AUX", "🎚️ Custom EQ App", "🏆 18-Month Warranty", "🔒 FCC + CE + IPX7 Certified → Global Safety Standards", "🔒 IPX7 Fully Waterproof"],
                 metaTitle: "Anker Soundcore Motion+ ⚡ 16% OFF | 30W Hi-Res Audio | COD",
                 metaDesc: "Buy original Anker Soundcore Motion+ in Egypt. 30W Hi-Res stereo sound, IPX7 waterproof, 12H battery. 18-Month Warranty from CairoVolt & Fast Delivery.",
                 faqs: [

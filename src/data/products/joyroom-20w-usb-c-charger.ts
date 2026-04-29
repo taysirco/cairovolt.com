@@ -73,7 +73,7 @@ export const joyroom_20w_usb_c_charger = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included — you need a USB-C cable separately. This charger has a single USB-C port; it cannot charge two devices simultaneously. For Samsung Super Fast Charging (25W+), see our Joyroom 25W charger.</p></div>
 `,
-                features: ["⚡ 20W PD Fast Charging", "📱 iPhone 0→50% in 30 Min", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Design", "🌍 AC 100-240V Universal", "💰 Best Price Egypt", "🏆 12-Month Warranty"],
+                features: ["⚡ 20W PD Fast Charging", "📱 iPhone 0→50% in 30 Min", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Design", "🌍 AC 100-240V Universal", "💰 Best Price Egypt", "🏆 12-Month Warranty", "🔒 Overcurrent + Overheat Protection"],
                 metaTitle: "Joyroom 20W USB-C Charger ⚡ 15% OFF | iPhone Fast | COD",
                 metaDesc: "Buy Joyroom 20W USB-C PD charger in Egypt. iPhone 17 0→50% in 30 min, MultiProtect safety, ultra-compact. Best price with 12-month warranty.",
                 faqs: [

@@ -51,7 +51,7 @@ export const anker_a8050_usb_c_cable = {
     <p class="text-gray-700">A 10 EGP cable from the metro only carries 5W and damages your charger’s PD negotiation chip over time. Using a non-PD-rated cable with a 45W+ charger creates a fire risk. The A8050 is USB-IF certified for safe 100W delivery.</p>
 </div>
 `,
-                features: ["🔌 100W PD 3.0", "🧬 35,000 Bend Cycles", "📏 1.8m Braided Nylon", "📊 480Mbps Data", "🛡️ Reinforced Connectors", "🏆 18-Month Warranty", "🔒 MFi + CE Certified → Global Safety Standards"],
+                features: ["🔌 100W PD 3.0", "🧬 35,000 Bend Cycles", "📏 1.8m Braided Nylon", "📊 480Mbps Data", "🛡️ Reinforced Connectors", "🏆 18-Month Warranty", "🔒 MFi + CE Certified → Global Safety Standards", "🛡️ 10,000+ Bend-Tested — Outlasts Ordinary Cables 6x"],
                 metaTitle: "Anker USB-C Cable 100W ⚡ 11% OFF | Braided Nylon | COD Egypt",
                 metaDesc: "Buy Anker A8050 USB-C cable in Egypt. 100W PD, braided nylon, 35,000 bends. ✓ 18-Month Warranty ✓ Fast Delivery. anker usb-c 100w cable.",
                 faqs: [

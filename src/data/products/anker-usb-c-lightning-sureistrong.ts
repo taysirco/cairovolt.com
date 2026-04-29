@@ -65,7 +65,7 @@ export const anker_usb_c_lightning_sureistrong = {
     </ul>
 </div>
 `,
-                features: ["⚡ 30W PD fast charging", "✨ MFi certified", "✨ Soft-touch anti-tangle design", "✨ Stain-resistant coating", "📱 iPhone 14/13/12/11 compatible", "✨ 1.8m length", "🏆 24-month Anker warranty"],
+                features: ["⚡ 30W PD fast charging", "✨ MFi certified", "✨ Soft-touch anti-tangle design", "✨ Stain-resistant coating", "📱 iPhone 14/13/12/11 compatible", "✨ 1.8m length", "🏆 24-month Anker warranty", "🛡️ 10,000+ Bend-Tested — Outlasts Ordinary Cables 6x"],
                 metaTitle: "Anker SureIStrong Lightning ⚡ 20% OFF | 30W PD | COD",
                 metaDesc: "Buy anker SureIStrong USB-C to Lightning - premium soft-touch cable with 30W PD. MFi certified for iPhone 14/13/12. Best price Egypt. ✓ COD ✓ Fast Delivery E...",
                 faqs: [

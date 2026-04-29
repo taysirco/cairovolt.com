@@ -77,7 +77,7 @@ export const anker_car_charger_dual_usb = {
     </ul>
 </div>
 `,
-                features: ["🚗 24W Dual USB (12W×2)", "⚡ PowerIQ Smart Charging", "📱 Charge 2 Devices Simultaneously", "🔌 12V/24V All Cars", "💡 Blue LED Indicator", "🏆 18-Month Warranty"],
+                features: ["🚗 24W Dual USB (12W×2)", "⚡ PowerIQ Smart Charging", "📱 Charge 2 Devices Simultaneously", "🔌 12V/24V All Cars", "💡 Blue LED Indicator", "🏆 18-Month Warranty", "🔒 MultiProtect Safety System", "🚗 12V/24V Vehicle Compatible"],
                 metaTitle: "Anker Car Charger Dual USB ⚡ 27% OFF | Fast Charge | COD",
                 metaDesc: "Buy Anker PowerDrive 2 car charger in Egypt. 24W dual USB, PowerIQ, charge 2 devices. Fits all cars. 18-month warranty. Fast Cairo delivery.",
                 faqs: [

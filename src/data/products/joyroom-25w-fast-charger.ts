@@ -74,7 +74,7 @@ export const joyroom_25w_fast_charger = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Cable NOT included. Single USB-C port only — cannot charge 2 devices at once. For iPhone 14 and earlier, you need a USB-C to Lightning cable. This is NOT 45W — Samsung S26 Ultra users wanting maximum speed should pair with a 45W charger. احذر من الشواحن المقلدة بدون شهادات أمان — بتسبب سخونة زيادة وتلف البطارية.</p></div>
 `,
-                features: ["⚡ 25W PD 3.0 Fast Charging", "📱 iPhone 17: 0→50% in 25 Min", "📱 Samsung Super Fast Charging", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Travel Design", "🌍 AC 100-240V Universal", "🏆 36-Month Warranty"],
+                features: ["⚡ 25W PD 3.0 Fast Charging", "📱 iPhone 17: 0→50% in 25 Min", "📱 Samsung Super Fast Charging", "🛡️ MultiProtect 5-Layer Safety", "🔌 Ultra-Compact Travel Design", "🌍 AC 100-240V Universal", "🏆 36-Month Warranty", "🔒 Overcurrent + Overheat Protection"],
                 metaTitle: "Joyroom 25W PD Charger ⚡ iPhone + Samsung | Official | COD",
                 metaDesc: "Buy Joyroom 25W PD charger in Egypt. iPhone 17 0→50% in 25 min, Samsung Super Fast, MultiProtect safety. 36-month warranty. Best price.",
                 faqs: [

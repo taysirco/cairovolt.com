@@ -81,7 +81,7 @@ export const anker_nano_45w = {
     </ul>
 </div>
 `,
-                features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
+                features: ["⚡ 45W GaN III Technology", "💻 MacBook Air Full Speed Charging", "📱 iPhone 17 Max 30W Speed", "📱 Samsung S26 Super Fast 2.0 (45W)", "📏 60% Smaller Than Traditional", "🏆 24-Month Warranty", "🔒 UL + FCC + CE Certified → Global Safety Standards", "🔒 MultiProtect 11-Point Safety System"],
                 metaTitle: "Anker 45W GaN Charger ⚡ 28% OFF | Laptop + iPhone | COD",
                 metaDesc: "Buy Anker Nano 45W GaN charger in Egypt. Charges MacBook Air + iPhone 17 + Samsung S26 at full speed. 60% smaller. 24-month warranty. Fast Cairo delivery.",
                 faqs: [

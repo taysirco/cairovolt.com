@@ -73,7 +73,7 @@ export const joyroom_ft3_smartwatch = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">This is NOT an Apple Watch — no App Store, no Apple Pay, no iMessage. Health readings (heart rate, SpO2) are estimates only, not medical-grade. Companion app required for full features. Notifications may lag on some Android devices. احذر من الساعات المقلدة — مفيش مقاومة مية حقيقية وبتبوظ من أول غسيل إيد.</p></div>
 `,
-                features: ["⌚ IP68 Waterproof", "🏃 20 Sports Modes", "❤️ 24/7 Heart Rate", "🔋 7-Day Battery", "📱 iPhone 17 & Samsung S26", "💬 Arabic Notifications", "🏆 12-Month Warranty"],
+                features: ["⌚ IP68 Waterproof", "🏃 20 Sports Modes", "❤️ 24/7 Heart Rate", "🔋 7-Day Battery", "📱 iPhone 17 & Samsung S26", "💬 Arabic Notifications", "🏆 12-Month Warranty", "🔒 IP68 Waterproof Rating"],
                 metaTitle: "Joyroom FT3 Smartwatch ⚡ 56% OFF | IP68 Waterproof | COD",
                 metaDesc: "Buy Joyroom FT3 Smart Watch in Egypt. IP68 waterproof, 20 sports modes, heart rate, 7-day battery. Works with iPhone 17 & Samsung. 12-month warranty.",
                 faqs: [

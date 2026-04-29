@@ -70,7 +70,7 @@ export const joyroom_60w_car_charger = {
 </div>
 <div class="buyer-warning"><h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3><p class="text-gray-700">Built-in cable is USB-C only. For Lightning iPhones (14 and earlier), you still need an adapter or separate cable. The retractable cable is ~80cm — may not reach backseat passengers. Check your car's cigarette lighter socket depth before buying. احذر من شواحن السيارة المقلدة — ممكن تسبب ماس كهربائي في العربية.</p></div>
 `,
-                features: ["⚡ 60W Total (30W+30W)", "🔌 Retractable USB-C Cables", "📱 iPhone 17 MAX 30W", "📱 Samsung S26 Super Fast", "🚗 Universal 12V Fit", "📰 1m Reach to Backseat", "🏆 18-Month Warranty"],
+                features: ["⚡ 60W Total (30W+30W)", "🔌 Retractable USB-C Cables", "📱 iPhone 17 MAX 30W", "📱 Samsung S26 Super Fast", "🚗 Universal 12V Fit", "📰 1m Reach to Backseat", "🏆 18-Month Warranty", "🔒 Overcurrent + Overheat Protection"],
                 metaTitle: "Joyroom 60W Car Charger ⚡ 21% OFF | 3-in-1 Cables | COD",
                 metaDesc: "Buy Joyroom 60W car charger in Egypt. 30W+30W dual, retractable USB-C cables, iPhone 17 MAX speed, Samsung Super Fast. Fits all cars. 18-month warranty.",
                 faqs: [

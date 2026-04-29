@@ -86,8 +86,7 @@ export const anker_powerport_20w = {
                     "📏 Ultra-Compact 4cm Design",
                     "🛡️ MultiProtect 10-Layer Safety",
                     "🇸🇦 UK-Style Plug (Egypt Compatible)",
-                    "🏆 18-Month Warranty"
-                ],
+                    "🏆 18-Month Warranty", "🔒 MultiProtect 11-Point Safety System", "🌍 100-240V Universal — Egypt 220V Ready"],
                 metaTitle: "Anker 20W USB-C Charger ⚡ 11% OFF | Fast Charge iPhone | COD",
                 metaDesc: "Buy Anker 20W USB-C charger in Egypt for EGP 375. iPhone 17 from 0-50% in 30 min. Ultra-compact 4cm. ✓ Replacement Warranty ✓ 24-48H Shipping.",
                 faqs: [
