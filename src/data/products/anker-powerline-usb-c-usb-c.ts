@@ -132,7 +132,7 @@ export const anker_powerline_usb_c_usb_c = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">الكابل الوحيد اللي محتاجه الحالي</h2>
-        <p class="text-gray-700">ايفون 17؟ USB-C. سامسونج S26؟ USB-C. ايباد؟ USB-C. ماك بوك؟ USB-C. بـ<strong>60 واط Power Delivery</strong>، كابل انكر الواحد ده بيشحنهم كلهم بأقصى سرعة مدعومة. ايفون 17 بياخد 30 واط الكاملة، سامسونج S26 بياخد 45 واط Super Fast Charging، ويقدر يشحن ماك بوك اير. كابل واحد بيغنيك عن كل كابلاتك.</p>
+        <p class="text-gray-700">مع تذبذب الكهرباء في مصر، الكابل ده بيتحمل الفولتية المتغيرة بسلاسة. ايفون 17؟ USB-C. سامسونج S26؟ USB-C. ايباد؟ USB-C. ماك بوك؟ USB-C. بـ<strong>60 واط Power Delivery</strong>، كابل انكر الواحد ده بيشحنهم كلهم بأقصى سرعة مدعومة. ايفون 17 بياخد 30 واط الكاملة، سامسونج S26 بياخد 45 واط Super Fast Charging، ويقدر يشحن ماك بوك اير. كابل واحد بيغنيك عن كل كابلاتك.</p>
     </section>
 
     <section>

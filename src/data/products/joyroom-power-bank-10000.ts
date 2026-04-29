@@ -123,7 +123,7 @@ export const joyroom_power_bank_10000 = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">مميزات فاخرة بسعر اقتصادي</h2>
-        <p class="text-gray-700">جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من الماركات الفاخرة لنفس السعة.</p>
+        <p class="text-gray-700">في ظل انقطاعات الكهرباء المتكررة في مصر، جوي روم 10000 بيوفر اللي الباور بانك الرخيصة مبتوفرهوش: <strong>Quick Charge 3.0</strong> (أسرع 4× من العادي)، <strong>شاشة LED رقمية</strong> بتعرض نسبة البطارية بالظبط، و<strong>مخرجين USB</strong> لشحن الموبايل والايربودز في نفس الوقت. كل ده بسعر أقل بكتير من الماركات الفاخرة لنفس السعة.</p>
     </section>
 
     <section>

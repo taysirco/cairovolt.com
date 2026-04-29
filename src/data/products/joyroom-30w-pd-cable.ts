@@ -65,13 +65,6 @@ export const joyroom_30w_pd_cable = {
             ar: "بقوة 30 واط PD، الكابل ده يطابق أقصى سرعة شحن لايفون 17 بجزء بسيط من أسعار الكابلات الفاخرة. النقطة المثالية بين السرعة والقيمة للمستخدمين المصريين اللي بيترقوا لـ USB-C."
         },
         meta: { keywords: "joyroom 30w cable, كابل 30 واط, كابل ايفون 17 اقتصادي, كابل جوي روم, جوي روم type c, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, USB-IF certified cable, joyroom 30w pd cable", mainTerm: "joyroom 30w pd cable" },
-        relatedProducts: [
-        "joyroom-usb-a-lightning-1.2m",
-        "joyroom-type-c-lightning-24mos",
-        "joyroom-type-c-lightning-braided",
-        "joyroom-type-c-to-type-c-cable",
-        "joyroom-type-c-lightning-36mos",
-        "joyroom-usb-a-type-c-1.2m"
-    ],
+        relatedProducts: ["joyroom-type-c-lightning-24mos", "joyroom-type-c-lightning-braided", "joyroom-type-c-to-type-c-cable", "joyroom-type-c-lightning-36mos", "joyroom-3-in-1-wireless-charging-station", "joyroom-30w-fast-charger"],
 
     };
