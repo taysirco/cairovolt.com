@@ -42,7 +42,12 @@ export const joyroom_car_phone_mount_lab: ProductLabData = {
                             "answer": "Tested at 55°C direct sun. No suction loss. Industrial-grade material handles Egyptian summer heat."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'Google Pixel 9 Pro' },
+        { name: 'iPhone 16 Plus' },
+    ],
     labMetrics: {
         actualWeight_g: 65,
         devicesCharged: 0,

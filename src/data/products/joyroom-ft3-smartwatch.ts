@@ -148,9 +148,9 @@ export const joyroom_ft3_smartwatch = {
         },
         meta: { keywords: "joyroom smart watch, joyroom ft3, ساعة جوي روم, ساعة ذكية, joyroom smartwatch egypt, joyroom fitness watch, joyroom waterproof smartwatch, joyroom best smartwatch egypt 2026, joyroom cod egypt, افضل ساعة ذكية جوي روم, سعر ساعة ذكية جوي روم, ساعة جوي روم مصر, ساعة ذكية رخيصة مصر, ساعة رياضية جوي روم, joyroom egypt store, joyroom genuine egypt, joyroom FT3 smartwatch CE FCC certified IP68", mainTerm: "joyroom ft3" },
         expertOpinion: {
-            en: "The Joyroom FT3 Smart Watch proved IP68-worthy in our pool submersion test. Battery lasted within 10% of rated during 30-day daily wear with all sensors active.'t cost a fortune. The screen is bright and responsive. It tracks steps and heart rate accurately for casual fitness. It handles notifications well, supporting Arabic perfectly. It won't replace an Apple Watch, but it covers 80% of the needs for 10% of the price.",
-            ar: "ساعة ذكية أنيقة لا تكلف ثروة. الشاشة ساطعة وسريعة الاستجابة. تتبع الخطوات ومعدل ضربات القلب بدقة للياقة البدنية العادية. تتعامل مع الإشعارات بشكل جيد، وتدعم العربية تماماً. لن تحل محل Apple Watch، لكنها تغطي 80% من الاحتياجات بـ 10% من السعر."
-        },
+        en: "Best for casual fitness enthusiasts and smartwatch beginners who want notifications, step tracking, and heart rate monitoring without spending Apple Watch money. Perfect Arabic support for Egyptian users. Not for serious athletes needing advanced metrics.",
+        ar: "مثالي للي عايز يدخل عالم الساعات الذكية من غير ما يصرف كتير — إشعارات، خطوات، نبض القلب، وشاشة واضحة بالعربي. مش للرياضيين المحترفين اللي محتاجين GPS متقدم."
+    },
         relatedProducts: [
         "joyroom-3-in-1-data-cable",
         "joyroom-magnetic-power-bank-10000",

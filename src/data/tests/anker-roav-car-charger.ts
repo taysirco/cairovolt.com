@@ -27,6 +27,10 @@ export const anker_roav_car_charger_lab: ProductLabData = {
                 question: 'شاحن السيارة ده بيشحن تليفونين في نفس الوقت وإيه بيوصل؟',
                 answer: 'أيوة، في رحلة كايرو-اسكندرية (3 ساعات) شحن iPhone 15 Pro كامل وSamsung S24 لـ 87%، ومنفذ USB-A ثالث شغال في نفس الوقت.',
             },
+        {
+            question: 'الشاحن ده أمان على موبايلي ولا ممكن يأذيه؟',
+            answer: 'أمان تماماً — فيه حماية متعددة الطبقات من الشحن الزائد وارتفاع الحرارة ومعتمد من UL.',
+        },
         ],
         voiceFaqEn: [
             {
@@ -35,9 +39,12 @@ export const anker_roav_car_charger_lab: ProductLabData = {
             },
         ],
         isAccessoryFor: [
-            { name: 'iPhone 15 Pro Max' },
-            { name: 'Samsung Galaxy S24 Ultra' },
-        ],
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'iPhone 16 Pro' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'Samsung Galaxy S25' },
+        { name: 'iPad Pro M4' },
+    ],
         labMetrics: {
             maxTemp_C: 39,
             chargingSpeed_W: 48,

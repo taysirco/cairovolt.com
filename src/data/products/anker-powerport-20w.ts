@@ -186,9 +186,9 @@ export const anker_powerport_20w = {
             mainTerm: "شاحن انكر 20 وات"
         },
         expertOpinion: {
-            en: "Ideal for iPhone-only users who need the cheapest genuine fast charger. Skip if you own Samsung — the 25W model unlocks Super Fast Charging that the 20W cannot.'t let the size fool you; this little cube is essential for any iPhone owner. It unlocks the fast charging potential of your iPhone, getting you from 0 to 50% in just 30 minutes. It's affordable, reliable, and tiny enough to fit in any crowded power strip or bag.",
-            ar: "مثالي لمستخدمين الايفون اللي محتاجين أرخص شاحن سريع أصلي. متشتريهوش لو عندك سامسونج — موديل الـ 25 واط بيفتحلك Super Fast Charging اللي الـ 20 واط مش بيوصله."
-        },
+        en: "The essential iPhone companion — nothing more, nothing less. If you own an iPhone and still use the old 5W adapter, this is your #1 upgrade. Samsung users should look at the 25W model instead.",
+        ar: "الشاحن الأساسي لأي حد عنده ايفون ولسه بيستخدم الشاحن البطيء القديم — أول ترقية لازم تعملها. لو عندك سامسونج روح للموديل 25 واط."
+    },
         relatedProducts: [
         "anker-a2147-gan-charger-30w",
         "anker-622-maggo",

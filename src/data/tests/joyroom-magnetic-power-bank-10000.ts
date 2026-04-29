@@ -42,7 +42,13 @@ export const joyroom_magnetic_power_bank_10000_lab: ProductLabData = {
                             "answer": "Yes! Under 100Wh capacity is allowed on all commercial flights per IATA regulations."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17 Pro"},{"name":"Samsung S26 Ultra"},{"name":"AirPods Pro 2"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro' },
+        { name: 'iPhone 16' },
+        { name: 'Samsung Galaxy S26' },
+        { name: 'Samsung Galaxy A55' },
+        { name: 'iPad Air M3' },
+    ],
     labMetrics: {
         maxTemp_C: 40,
         chargingSpeed_W: 15,

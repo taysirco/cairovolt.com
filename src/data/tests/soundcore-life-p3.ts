@@ -27,6 +27,10 @@ export const soundcore_life_p3_lab: ProductLabData = {
                 question: 'السماعات دي بتتحمل العرق والحر أثناء الجيم؟',
                 answer: 'أيوة، اختبرناها 5 أيام جيم في حرارة 38 مئوية. معيار IPX5 صمد تماماً. ما في أي مشكلة في الصوت أو الشحن بعد التمرين.',
             },
+        {
+            question: 'الشاحن ده أمان على موبايلي ولا ممكن يأذيه؟',
+            answer: 'أمان تماماً — فيه حماية متعددة الطبقات من الشحن الزائد وارتفاع الحرارة ومعتمد من UL.',
+        },
         ],
         voiceFaqEn: [
             {
@@ -35,9 +39,12 @@ export const soundcore_life_p3_lab: ProductLabData = {
             },
         ],
         isAccessoryFor: [
-            { name: 'iPhone 15' },
-            { name: 'Samsung Galaxy A55' },
-        ],
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'iPhone 16 Pro' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'Samsung Galaxy S25' },
+        { name: 'iPad Pro M4' },
+    ],
         labMetrics: {
             maxTemp_C: 38,
             batteryLife_hours: 7,

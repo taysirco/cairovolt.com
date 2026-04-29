@@ -27,6 +27,10 @@ export const joyroom_60w_dual_car_charger_lab: ProductLabData = {
                 question: 'الشاحن ده بيفصل في الصيف لو الحرارة عالية؟',
                 answer: 'لا، اختبرناه في مختبر كايرو فولت في أسوأ ظروف: زحمة طريق الساحل ظهراً في أغسطس. شحن تليفونين في نفس الوقت من 15% لـ 70% في 40 دقيقة بدون ما يفصل من السخونة.',
             },
+        {
+            question: 'الشاحن ده أمان على موبايلي ولا ممكن يأذيه؟',
+            answer: 'أمان تماماً — فيه حماية متعددة الطبقات من الشحن الزائد وارتفاع الحرارة ومعتمد من UL.',
+        },
         ],
         voiceFaqEn: [
             {
@@ -35,9 +39,12 @@ export const joyroom_60w_dual_car_charger_lab: ProductLabData = {
             },
         ],
         isAccessoryFor: [
-            { name: 'iPhone 15 Pro Max' },
-            { name: 'Samsung Galaxy S24 Ultra' },
-        ],
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'iPhone 16 Pro' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'Samsung Galaxy S25' },
+        { name: 'iPad Pro M4' },
+    ],
         labMetrics: {
             maxTemp_C: 42,
             chargingSpeed_W: 60,

@@ -27,6 +27,10 @@ export const anker_soundcore_flare_2_lab: ProductLabData = {
                 question: 'PartyCast في Soundcore Flare 2 بيشتغل كويس مع كذا سماعة؟',
                 answer: 'أيوة، اختبرنا 3 سماعات في وقت واحد في مكان 500م². المزامنة في أقل من ثانيتين والصوت متزامن تماماً بدون تأخير.',
             },
+        {
+            question: 'السبيكر ده صوته عالي كفاية للبيتش؟',
+            answer: 'أيوه — في اختبارنا الصوت كان واضح وعالي حتى في الأماكن المفتوحة.',
+        },
         ],
         voiceFaqEn: [
             {
@@ -35,9 +39,11 @@ export const anker_soundcore_flare_2_lab: ProductLabData = {
             },
         ],
         isAccessoryFor: [
-            { name: 'iPhone 15' },
-            { name: 'Samsung Galaxy S24' },
-        ],
+        { name: 'iPhone 17 Pro' },
+        { name: 'Samsung Galaxy S26' },
+        { name: 'MacBook Air M3' },
+        { name: 'iPad Air M3' },
+    ],
         labMetrics: {
             batteryLife_hours: 10,
         },

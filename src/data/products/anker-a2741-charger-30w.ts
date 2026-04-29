@@ -125,5 +125,8 @@ export const anker_a2741_charger_30w = {
             }
         },
         meta: { keywords: "شاحن سيارة انكر ميني, anker mini car charger, anker a2741, شاحن سيارة صغير, anker car charger pps, شاحن عربية انكر, anker fast car charger, anker dual usb car charger, anker best car charger 2026, anker cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر ميني 30 واط, شاحن عربية انكر مصر, anker car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر ميني 30 واط" },
-        expertOpinion: { en: "The A2741 is the smallest serious car charger we've tested. At 15g with 30W output including PPS for Samsung, it's ideal for drivers who want invisible charging. USB-A PowerIQ 3.0 at 22.5W outperforms most car charger USB-A ports. Best miniature car charger under 600 EGP.", ar: "الـ A2741 أصغر شاحن سيارة جاد جربناه. بـ 15 جرام و 30 واط مع PPS لسامسونج، مثالي للسواقين اللي عايزين شحن غير مرئي. USB-A PowerIQ 3.0 بـ 22.5 واط أسرع من معظم منافذ USB-A في شواحن السيارات. أفضل شاحن سيارة مدمج تحت 600 جنيه." }
+        expertOpinion: {
+        en: "Ideal for minimalists who hate bulky car chargers. Nearly invisible in the cigarette lighter, yet charges iPhone and Samsung at full speed. Perfect for clean dashboard aesthetics.",
+        ar: "مثالي للي بيحبوا التابلوه النضيف ومش عايزين شاحن كبير في العربية. أصغر شاحن سيارة هتلاقيه وبيشحن بأقصى سرعة."
+    }
     };

@@ -176,9 +176,9 @@ export const joyroom_power_bank_10000 = {
             mainTerm: "باور بانك جوي روم 10000"
         },
         expertOpinion: {
-            en: "The Joyroom 10000mAh Slim Power Bank delivered 93% of rated capacity in our discharge test — well above the 85% industry average. Pocket-safe even in 35°C Cairo summers.'t need to spend a fortune for quality. This 10,000mAh bank is slimmer than most competitors and the digital percentage display is a feature usually reserved for premium models. For the price, it's an absolute steal for daily use.",
-            ar: "تثبت Joyroom أنك لست بحاجة لإنفاق ثروة للحصول على الجودة. باور بانك 10000 مللي أمبير هذا أنحف من المنافسين، وشاشة النسبة المئوية الرقمية ميزة عادة ما تكون للموديلات الفاخرة. بالنسبة للسعر، فهو صفقة رابحة للاستخدام اليومي."
-        },
+        en: "The everyday pocket companion for students, commuters, and light travelers. Slim enough to forget it's in your bag, with a percentage display so you're never caught off guard. Not for laptop charging — get the 20K for that.",
+        ar: "رفيق الجيب اليومي للطلاب واللي بيتنقلوا كتير — رفيع بشاشة بتقولك الشحن فاضل كام بالظبط. مش للابتوب — لو محتاج ده خد الـ 20 ألف."
+    },
         relatedProducts: [
         "joyroom-magnetic-power-bank-10000",
         "joyroom-power-bank-20000",

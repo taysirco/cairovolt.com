@@ -42,7 +42,12 @@ export const joyroom_usb_a_type_c_cable_lab: ProductLabData = {
                             "answer": "Yes, it supports fast charging and data transfer simultaneously. USB 2.0 speed means 480 Mbps."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"},{"name":"iPad Pro"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'MacBook Air M3' },
+        { name: 'iPad Pro M4' },
+    ],
     labMetrics: {
         maxTemp_C: 36,
         bendCycles: 15000,

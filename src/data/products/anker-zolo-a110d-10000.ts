@@ -177,7 +177,7 @@ export const anker_zolo_a110d_10000 = {
         },
         meta: { keywords: "anker zolo 10000, anker a110d, anker zolo 30w, انكر زولو 10000, باور بانك بكابل مدمج, باور بنك انكر, anker built-in cable power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker zolo 10000mah", mainTerm: "anker zolo 10000mah" },
         expertOpinion: {
-            en: "The Anker ZOLO Power Bank 10,000mAh (22.5W) delivered 93% of rated capacity in our discharge test — well above the 85% industry average. Pocket-safe even in 35°C Cairo summers.'grab and go' power bank. The built-in USB-C cable is genius — it eliminates the #1 complaint about power banks: forgetting the cable. At 229g and 15.4mm thin, it disappears in your pocket. 22.5W is genuine fast charging, and the digital display showing exact percentage is far superior to vague LED dots. Best value 10K power bank in Egypt for daily carry.",
-            ar: "الـ A110D هو باور بانك 'المسه وامشي'. الكابل المدمج فكرة عبقرية — قضى على الشكوى رقم 1: نسيان الكابل. بوزن 229 جرام وسُمك 15.4 مم، بيختفي في جيبك. 22.5 واط شحن سريع حقيقي، والشاشة الرقمية اللي بتعرض النسبة أحسن بكتير من لمبات LED. أفضل باور بانك 10 آلاف في مصر للاستخدام اليومي."
-        }
+        en: "The everyday carry power bank: slim enough for your pocket, built-in cable so you never forget one. Perfect for students, commuters, and anyone who just needs a reliable backup phone charge.",
+        ar: "باور بانك الجيب اليومي — رفيع بكابل مدمج مش هتنساه أبداً. مثالي للطلاب واللي بيتنقلوا بالمواصلات وعايزين شحنة ضمان للموبايل."
+    }
     };

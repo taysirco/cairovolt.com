@@ -134,5 +134,8 @@ export const anker_nano_45w_smart_display_charger = {
         }
     },
     meta: { keywords: "anker nano 45w smart display, شاحن انكر 45 واط شاشة ذكية, anker a121d, anker nano charger 45w smart display 180 foldable, شاحن انكر نانو شاشة, anker 45w gan charger display, شاحن 45 واط بشاشة, anker care mode charger, شاحن انكر بشاشة مصر, anker released a 45w nano charger featuring a smart display, anker launched new nano 45w charger with smart display, شاحن انكر الجديد شاشة, شاحن ايفون 17 سريع, افضل شاحن 45 واط, شاحن انكر قابس قابل للطي, شاحن GaN بشاشة ذكية مصر, anker nano smart display egypt price, شاحن لابتوب وموبايل انكر, شاحن انكر نانو 45 واط بشاشة ذكية", mainTerm: "شاحن انكر نانو 45 واط بشاشة ذكية" },
-    expertOpinion: { en: "The Anker Nano 45W Smart Display GaN Charger (A121D) runs cooler than competitors in our Egyptian summer heat test — 43°C max vs 55°C+ for unbranded chargers. Safe for overnight charging.'s most innovative charger yet. 45W GaN with a smart TFT display, 180° foldable plug, and TÜV-certified Care Mode for overnight protection. Red Dot 2026 winner. iPhone 17 Pro 0→50% in 20 minutes. At 1900 EGP (30% off), it's the smartest charger under 2000 EGP in Egypt.", ar: "الـ A121D أكثر شاحن مبتكر من أنكر. 45 واط GaN بشاشة TFT ذكية وقابس 180° ووضع عناية معتمد من TÜV للحماية الليلية. فائز Red Dot 2026. ايفون 17 برو من 0 لـ 50% في 20 دقيقة. بـ 1900 جنيه (خصم 30%) أذكى شاحن تحت 2000 جنيه في مصر." }
+    expertOpinion: {
+        en: "The power user's dream: ultrabook + phone charging with a live display showing real watts. Perfect for tech enthusiasts who want transparency and control. Overkill for basic phone-only charging.",
+        ar: "حلم الباور يوزر — بيشحن لابتوب وموبايل وبيوريك الواط لحظة بلحظة. مثالي لعشاق التقنية اللي عايزين يعرفوا كل حاجة. أكبر من احتياجك لو بتشحن موبايل بس."
+    }
 };

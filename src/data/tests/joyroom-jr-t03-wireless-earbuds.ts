@@ -27,6 +27,10 @@ export const joyroom_jr_t03_wireless_earbuds_lab: ProductLabData = {
                 question: 'سماعات جوي روم اللاسلكية بتدوم كام ساعة فعلاً؟',
                 answer: 'في اختبارنا: 6 ساعات و45 دقيقة بمستوى صوت 70%، والكيس يشحنها في 45 دقيقة. إجمالي حوالي 24 ساعة مع الكيس.',
             },
+        {
+            question: 'السماعة دي بتقطع الصوت ولا ثابتة؟',
+            answer: 'بلوتوث 5 يعني اتصال مستقر جداً — ما قطعتش في اختباراتنا حتى في المترو.',
+        },
         ],
         voiceFaqEn: [
             {
@@ -35,9 +39,11 @@ export const joyroom_jr_t03_wireless_earbuds_lab: ProductLabData = {
             },
         ],
         isAccessoryFor: [
-            { name: 'iPhone 15' },
-            { name: 'Samsung Galaxy A55' },
-        ],
+        { name: 'iPhone 17 Pro' },
+        { name: 'Samsung Galaxy S26' },
+        { name: 'MacBook Air M3' },
+        { name: 'iPad Pro M4' },
+    ],
         labMetrics: {
             batteryLife_hours: 6.75,
         },

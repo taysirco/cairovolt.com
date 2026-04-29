@@ -42,7 +42,11 @@ export const joyroom_ft3_smartwatch_lab: ProductLabData = {
                             "answer": "In our 30-day daily wear test, battery lasted within 10% of rated duration with all sensors enabled."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro' },
+        { name: 'Samsung Galaxy S26' },
+        { name: 'Huawei P70 Pro' },
+    ],
     labMetrics: {
         batteryLife_hours: 168,
         actualWeight_g: 45,

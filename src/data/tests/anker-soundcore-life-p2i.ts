@@ -42,7 +42,12 @@ export const anker_soundcore_life_p2i_lab: ProductLabData = {
                             "answer": "In our real test, battery lasted within 5% of rated duration. So if rated 30 hours, expect 28-30."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"MacBook Pro"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro' },
+        { name: 'Samsung Galaxy S26' },
+        { name: 'MacBook Air M3' },
+        { name: 'iPad Pro M4' },
+    ],
     labMetrics: {
         maxTemp_C: 32,
         batteryLife_hours: 8,

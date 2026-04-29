@@ -42,7 +42,13 @@ export const joyroom_20w_usb_c_charger_lab: ProductLabData = {
                             "answer": "This is a single-port charger. It charges one device at maximum speed. For dual charging, check our multi-port options."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"iPad Air"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'iPhone 16 Pro' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'Samsung Galaxy S25' },
+        { name: 'iPad Pro M4' },
+    ],
     labMetrics: {
         maxTemp_C: 40,
         chargingSpeed_W: 20,

@@ -42,7 +42,12 @@ export const joyroom_60w_car_charger_lab: ProductLabData = {
                             "answer": "Tested in a 48°C car cabin. Max temperature 45°C — within safe limits."
                   }
         ],
-        isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"}],
+        isAccessoryFor: [
+        { name: 'iPhone 17 Pro' },
+        { name: 'Samsung Galaxy S26' },
+        { name: 'Google Pixel 9 Pro' },
+        { name: 'iPad mini 7' },
+    ],
     labMetrics: {
         maxTemp_C: 43,
         chargingSpeed_W: 60,

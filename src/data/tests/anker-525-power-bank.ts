@@ -27,6 +27,10 @@ export const anker_525_power_bank_lab: ProductLabData = {
                 question: 'الباور بانك الصغير ده هيكفيني ليوم جامعة كامل؟',
                 answer: 'أيوة، اختبرناه في كايرو فولت ويكفي ليوم جامعي كامل. بيشحن Samsung A55 مرتين كاملتين، وخفيف جداً على الشنطة.',
             },
+        {
+            question: 'الشاحن ده أمان على موبايلي ولا ممكن يأذيه؟',
+            answer: 'أمان تماماً — فيه حماية متعددة الطبقات من الشحن الزائد وارتفاع الحرارة ومعتمد من UL.',
+        },
         ],
         voiceFaqEn: [
             {
@@ -35,9 +39,12 @@ export const anker_525_power_bank_lab: ProductLabData = {
             },
         ],
         isAccessoryFor: [
-            { name: 'Samsung Galaxy A55' },
-            { name: 'iPhone 15' },
-        ],
+        { name: 'iPhone 17 Pro Max' },
+        { name: 'iPhone 16 Pro' },
+        { name: 'Samsung Galaxy S26 Ultra' },
+        { name: 'Samsung Galaxy S25' },
+        { name: 'iPad Pro M4' },
+    ],
         labMetrics: {
             actualCapacity_mAh: 9800,
             maxTemp_C: 34,
