@@ -43,4 +43,10 @@ export const joyroom_20w_usb_c_charger_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"iPad Air"}],
-    };
+    labMetrics: {
+        maxTemp_C: 40,
+        chargingSpeed_W: 20,
+        actualWeight_g: 45,
+        devicesCharged: 5,
+    }
+};

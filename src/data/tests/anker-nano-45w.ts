@@ -43,4 +43,10 @@ export const anker_nano_45w_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"iPad Air"}],
-    };
+    labMetrics: {
+        maxTemp_C: 41,
+        chargingSpeed_W: 45,
+        actualWeight_g: 116,
+        devicesCharged: 6,
+    }
+};

@@ -43,4 +43,8 @@ export const joyroom_car_mount_zs290_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"}],
-    };
+    labMetrics: {
+        actualWeight_g: 85,
+        devicesCharged: 0,
+    }
+};

@@ -43,4 +43,10 @@ export const anker_usb_c_lightning_sureistrong_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"},{"name":"iPad Pro"}],
-    };
+    labMetrics: {
+        maxTemp_C: 34,
+        bendCycles: 30000,
+        actualWeight_g: 25,
+        devicesCharged: 5,
+    }
+};

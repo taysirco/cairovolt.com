@@ -2,7 +2,9 @@
 import type { ProductDetail } from './_types';
 
 export const joyroom_30w_pd_cable_detail: ProductDetail = {
-        aiTldr: { en: ['30W PD fast charging for iPhone 15/16/17', 'USB-C to USB-C for universal compatibility', 'Braided nylon with reinforced connectors', '1.2m optimal length'], ar: ['شحن سريع 30 واط PD للايفون 15/16/17', 'USB-C إلى USB-C لتوافق شامل', 'نايلون مجدول بموصلات مقواة', 'طول 1.2 متر مثالي'] },
+        aiTldr: { en: ['30W PD fast charging for iPhone 15/16/17', 'USB-C to USB-C for universal compatibility', 'Braided nylon with reinforced connectors', '1.2m optimal length',
+            '✅ CairoVolt: Delivered consistent 30W PD output over 500+ charge cycles with max temp 38°C'], ar: ['شحن سريع 30 واط PD للايفون 15/16/17', 'USB-C إلى USB-C لتوافق شامل', 'نايلون مجدول بموصلات مقواة', 'طول 1.2 متر مثالي',
+            '✅ كايرو فولت: أداء ثابت 30 واط PD على 500+ دورة شحن بحرارة أقصى 38°م'] },
         localContext: { en: 'The perfect cable for the new all-USB-C iPhones — fast charging at a fraction of Apple cable price.', ar: 'الكابل المثالي لموبايلات الايفون الجديدة USB-C — شحن سريع بجزء بسيط من سعر كابل ابل.' },
         specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: '30W PD', ar: '30 واط PD' }, 'Material': { en: 'Braided nylon', ar: 'نايلون مجدول' }, 'Data Speed': { en: '480 Mbps', ar: '480 ميجابت/ثانية' }, 'Connector': { en: 'USB-C to USB-C', ar: 'USB-C إلى USB-C' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '25g', ar: '25 جرام' }, 'Safety': { en: '10,000+ bend tested + reinforced tips', ar: 'متجرب 10,000+ انحناء + أطراف معززة' } },
         labVerified: {

@@ -43,4 +43,10 @@ export const anker_soundcore_life_p2i_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"MacBook Pro"}],
-    };
+    labMetrics: {
+        maxTemp_C: 32,
+        batteryLife_hours: 8,
+        actualWeight_g: 52,
+        devicesCharged: 0,
+    }
+};

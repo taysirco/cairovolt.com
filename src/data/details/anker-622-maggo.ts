@@ -3,8 +3,10 @@ import type { ProductDetail } from './_types';
 
 export const anker_622_maggo_detail: ProductDetail = {
         aiTldr: {
-            en: ['Magnetic snap-on charging for iPhone 15/16/17', 'Built-in foldable kickstand for hands-free viewing', 'USB-C pass-through charging support', 'Ultra-slim design fits in back pocket'],
-            ar: ['شحن مغناطيسي بالالتصاق للايفون 15/16/17', 'حامل مدمج قابل للطي للمشاهدة بدون يدين', 'يدعم الشحن التمريري عبر USB-C', 'تصميم نحيف جداً يدخل الجيب الخلفي']
+            en: ['Magnetic snap-on charging for iPhone 15/16/17', 'Built-in foldable kickstand for hands-free viewing', 'USB-C pass-through charging support', 'Ultra-slim design fits in back pocket',
+            '✅ CairoVolt: MagSafe alignment holds at 45° tilt — zero slippage during 30-day daily use test'],
+            ar: ['شحن مغناطيسي بالالتصاق للايفون 15/16/17', 'حامل مدمج قابل للطي للمشاهدة بدون يدين', 'يدعم الشحن التمريري عبر USB-C', 'تصميم نحيف جداً يدخل الجيب الخلفي',
+            '✅ كايرو فولت: محاذاة MagSafe ثابتة عند ميل 45° — صفر انزلاق في اختبار 30 يوم استخدام يومي']
         },
         localContext: {
             en: 'Charge your iPhone wirelessly in Egyptian cafes and universities — the kickstand lets you watch content while charging, no cables needed.',

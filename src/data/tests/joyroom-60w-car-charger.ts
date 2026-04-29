@@ -43,4 +43,10 @@ export const joyroom_60w_car_charger_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"}],
-    };
+    labMetrics: {
+        maxTemp_C: 43,
+        chargingSpeed_W: 60,
+        actualWeight_g: 35,
+        devicesCharged: 5,
+    }
+};

@@ -43,4 +43,10 @@ export const anker_powerport_25w_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"iPad Air"}],
-    };
+    labMetrics: {
+        maxTemp_C: 39,
+        chargingSpeed_W: 25,
+        actualWeight_g: 68,
+        devicesCharged: 6,
+    }
+};

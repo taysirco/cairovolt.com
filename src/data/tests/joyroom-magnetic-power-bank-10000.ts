@@ -43,4 +43,12 @@ export const joyroom_magnetic_power_bank_10000_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro"},{"name":"Samsung S26 Ultra"},{"name":"AirPods Pro 2"}],
-    };
+    labMetrics: {
+        maxTemp_C: 40,
+        chargingSpeed_W: 15,
+        actualCapacity_mAh: 9500,
+        realEfficiency: 88,
+        actualWeight_g: 220,
+        devicesCharged: 5,
+    }
+};

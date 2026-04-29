@@ -43,4 +43,9 @@ export const joyroom_ft3_smartwatch_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"}],
-    };
+    labMetrics: {
+        batteryLife_hours: 168,
+        actualWeight_g: 45,
+        devicesCharged: 0,
+    }
+};

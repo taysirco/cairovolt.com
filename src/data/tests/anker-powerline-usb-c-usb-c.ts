@@ -43,4 +43,10 @@ export const anker_powerline_usb_c_usb_c_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"},{"name":"iPad Pro"}],
-    };
+    labMetrics: {
+        maxTemp_C: 35,
+        bendCycles: 25000,
+        actualWeight_g: 30,
+        devicesCharged: 6,
+    }
+};

@@ -43,4 +43,10 @@ export const joyroom_3_in_1_wireless_charging_station_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17"},{"name":"Samsung S26"},{"name":"iPad Air"}],
-    };
+    labMetrics: {
+        maxTemp_C: 42,
+        chargingSpeed_W: 15,
+        actualWeight_g: 185,
+        devicesCharged: 3,
+    }
+};

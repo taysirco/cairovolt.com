@@ -43,4 +43,10 @@ export const joyroom_type_c_lightning_36mos_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"},{"name":"iPad Pro"}],
-    };
+    labMetrics: {
+        maxTemp_C: 35,
+        bendCycles: 22000,
+        actualWeight_g: 28,
+        devicesCharged: 5,
+    }
+};

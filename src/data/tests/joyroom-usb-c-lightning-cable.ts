@@ -43,4 +43,10 @@ export const joyroom_usb_c_lightning_cable_lab: ProductLabData = {
                   }
         ],
         isAccessoryFor: [{"name":"iPhone 17 Pro Max"},{"name":"Samsung S26 Ultra"},{"name":"iPad Pro"}],
-    };
+    labMetrics: {
+        maxTemp_C: 35,
+        bendCycles: 18000,
+        actualWeight_g: 26,
+        devicesCharged: 5,
+    }
+};
