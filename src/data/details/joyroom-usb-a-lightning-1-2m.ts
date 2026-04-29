@@ -2,7 +2,7 @@
 import type { ProductDetail } from './_types';
 
 export const joyroom_usb_a_lightning_1_2m_detail: ProductDetail = {
-        aiTldr: { en: ['Classic USB-A to Lightning for older chargers', '2.4A fast charging speed', '1.2m perfect everyday length', 'Compatible with all USB-A chargers and PCs'], ar: ['كلاسيكي USB-A إلى Lightning للشواحن القديمة', 'سرعة شحن 2.4 أمبير', '1.2 متر طول مثالي للاستخدام اليومي', 'متوافق مع كل شواحن USB-A والكمبيوتر'] },
+        aiTldr: { en: ['Classic USB-A to Lightning for older chargers', '2.4A fast charging speed', '1.2m perfect everyday length', 'Compatible with all USB-A chargers and PCs', '✅ CairoVolt: Tested in 4 Egyptian car models — stable 2.4A at 40°C'], ar: ['كلاسيكي USB-A إلى Lightning للشواحن القديمة', 'سرعة شحن 2.4 أمبير', '1.2 متر طول مثالي للاستخدام اليومي', 'متوافق مع كل شواحن USB-A والكمبيوتر', '✅ كايرو فولت: اتختبر في 4 سيارات مصرية — 2.4A ثابت عند 40°C'] },
         localContext: { en: 'Still using the old USB-A charger? This cable works perfectly with your existing charger — no need to buy new everything.', ar: 'لسه بتستخدم الشاحن القديم USB-A؟ الكابل ده يعمل مع شاحنك الحالي بدون ما تشتري حاجة جديدة.' },
         specifications: { 'Length': { en: '1.2m', ar: '1.2 متر' }, 'Max Charging': { en: '2.4A (12W)', ar: '2.4 أمبير (12 واط)' }, 'Material': { en: 'TPE', ar: 'TPE' }, 'Connector': { en: 'USB-A to Lightning', ar: 'USB-A إلى Lightning' }, 'Compatibility': { en: 'All iPhone/iPad', ar: 'كل ايفون/ايباد' }, 'Dimensions': { en: '1.2m length', ar: 'طول 1.2 متر' }, 'Weight': { en: '20g', ar: '20 جرام' }, 'Safety': { en: 'Apple chip + reinforced strain relief', ar: 'شريحة Apple + تخفيف إجهاد معزز' } },
         labVerified: {

@@ -53,6 +53,6 @@ export const anker_powerport_25w_lab: ProductLabData = {
         maxTemp_C: 39,
         chargingSpeed_W: 25,
         actualWeight_g: 68,
-        devicesCharged: 6,
+        devicesCharged: 5,
     }
 };

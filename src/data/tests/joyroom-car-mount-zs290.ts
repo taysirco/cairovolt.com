@@ -50,6 +50,6 @@ export const joyroom_car_mount_zs290_lab: ProductLabData = {
     ],
     labMetrics: {
         actualWeight_g: 85,
-        devicesCharged: 0,
+        devicesCharged: 4,
     }
 };

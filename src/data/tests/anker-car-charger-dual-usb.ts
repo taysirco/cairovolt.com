@@ -46,6 +46,6 @@ export const anker_car_charger_dual_usb_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 42,
             chargingSpeed_W: 48,
-            devicesCharged: 2,
+            devicesCharged: 3,
         },
     };

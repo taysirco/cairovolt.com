@@ -85,12 +85,10 @@ export const anker_powercore_10000 = {
             en: "This is the classic, reliable power bank everyone should own. It's incredibly small for its 10,000mAh capacity – truly pocket-sized. No fancy bells and whistles, just solid, fast charging for your phone. Perfect for carrying daily in your pocket or purse without weighing you down.",
             ar: "هذا هو الباور بانك الكلاسيكي والموثوق الذي يجب أن يمتلكه الجميع. صغير بشكل لا يصدق لسعة 10,000 مللي أمبير – حجم الجيب حقاً. لا يوجد به مميزات معقدة، فقط شحن قوي وسريع لهاتفك. مثالي للحمل اليومي في جيبك أو حقيبتك دون أن يثقلك."
         },
-        relatedProducts: [
-        "anker-powerport-20w",
+        relatedProducts: ["anker-powerport-20w",
         "anker-powerline-usb-c-usb-c",
         "anker-car-charger-dual-usb",
         "anker-powercore-20000",
         "anker-powerline-usb-c-lightning",
-        "anker-622-maggo"
-    ]
+        "anker-622-maggo", 'anker-powerport-25w', 'anker-soundcore-flare-2']
     };

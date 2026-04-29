@@ -50,7 +50,7 @@ export const anker_zolo_a110e_20000_lab: ProductLabData = {
             maxTemp_C: 42,
             chargingSpeed_W: 30,
             realEfficiency: 71,
-            devicesCharged: 3,
+            devicesCharged: 4,
             actualWeight_g: 370,
         },
     };

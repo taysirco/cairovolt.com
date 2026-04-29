@@ -53,6 +53,6 @@ export const anker_nano_45w_lab: ProductLabData = {
         maxTemp_C: 41,
         chargingSpeed_W: 45,
         actualWeight_g: 116,
-        devicesCharged: 6,
+        devicesCharged: 5,
     }
 };

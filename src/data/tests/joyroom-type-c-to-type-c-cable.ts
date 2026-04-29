@@ -52,6 +52,6 @@ export const joyroom_type_c_to_type_c_cable_lab: ProductLabData = {
         maxTemp_C: 35,
         bendCycles: 20000,
         actualWeight_g: 34,
-        devicesCharged: 6,
+        devicesCharged: 4,
     }
 };

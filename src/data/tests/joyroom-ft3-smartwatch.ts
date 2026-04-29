@@ -50,6 +50,6 @@ export const joyroom_ft3_smartwatch_lab: ProductLabData = {
     labMetrics: {
         batteryLife_hours: 168,
         actualWeight_g: 45,
-        devicesCharged: 0,
+        devicesCharged: 3,
     }
 };

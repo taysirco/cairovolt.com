@@ -48,6 +48,6 @@ export const anker_roav_car_charger_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 39,
             chargingSpeed_W: 48,
-            devicesCharged: 3,
+            devicesCharged: 5,
         },
     };

@@ -187,12 +187,10 @@ export const anker_powerport_20w = {
         en: "The essential iPhone companion — nothing more, nothing less. If you own an iPhone and still use the old 5W adapter, this is your #1 upgrade. Samsung users should look at the 25W model instead.",
         ar: "الشاحن الأساسي لأي حد عنده ايفون ولسه بيستخدم الشاحن البطيء القديم — أول ترقية لازم تعملها. لو عندك سامسونج روح للموديل 25 واط."
     },
-        relatedProducts: [
-        "anker-a2147-gan-charger-30w",
+        relatedProducts: ["anker-a2147-gan-charger-30w",
         "anker-622-maggo",
         "anker-powerline-usb-c-lightning",
         "anker-powercore-10000",
         "anker-powerport-25w",
-        "anker-powerline-usb-c-usb-c"
-    ]
+        "anker-powerline-usb-c-usb-c", 'anker-car-charger-dual-usb', 'anker-soundcore-life-p2i']
     };

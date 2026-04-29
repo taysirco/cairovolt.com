@@ -48,6 +48,6 @@ export const joyroom_60w_dual_car_charger_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 42,
             chargingSpeed_W: 60,
-            devicesCharged: 2,
+            devicesCharged: 5,
         },
     };

@@ -65,7 +65,7 @@ export const anker_nano_45w_smart_display_charger_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 44,
             chargingSpeed_W: 45,
-            devicesCharged: 6,
+            devicesCharged: 10,
             actualWeight_g: 75,
         },
     };

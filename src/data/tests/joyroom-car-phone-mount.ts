@@ -50,6 +50,6 @@ export const joyroom_car_phone_mount_lab: ProductLabData = {
     ],
     labMetrics: {
         actualWeight_g: 65,
-        devicesCharged: 0,
+        devicesCharged: 4,
     }
 };

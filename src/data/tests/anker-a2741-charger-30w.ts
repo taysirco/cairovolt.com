@@ -46,7 +46,7 @@ export const anker_a2741_charger_30w_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 39,
             chargingSpeed_W: 30,
-            devicesCharged: 2,
+            devicesCharged: 3,
             actualWeight_g: 15,
         },
     };

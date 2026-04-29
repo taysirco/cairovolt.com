@@ -47,6 +47,6 @@ export const anker_prime_100w_charger_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 40,
             chargingSpeed_W: 100,
-            devicesCharged: 3,
+            devicesCharged: 4,
         },
     };

@@ -151,13 +151,11 @@ export const joyroom_magnetic_power_bank_10000 = {
             en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
             ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."
         },
-        relatedProducts: [
-        "joyroom-power-bank-10000",
+        relatedProducts: ["joyroom-power-bank-10000",
         "joyroom-power-bank-20000",
         "joyroom-3-in-1-data-cable",
         "joyroom-3-in-1-wireless-charging-station",
         "joyroom-60w-car-charger",
-        "joyroom-25w-fast-charger"
-    ],
+        "joyroom-25w-fast-charger", 'joyroom-30w-fast-charger', 'joyroom-ft3-smartwatch'],
 
     };

@@ -53,6 +53,6 @@ export const joyroom_3_in_1_wireless_charging_station_lab: ProductLabData = {
         maxTemp_C: 42,
         chargingSpeed_W: 15,
         actualWeight_g: 185,
-        devicesCharged: 3,
+        devicesCharged: 5,
     }
 };

@@ -201,12 +201,10 @@ export const anker_powercore_20000 = {
             en: "If the 10,000mAh version is for the day, this 20,000mAh beast is for the weekend. It gives you roughly double the power, great for trips or if you carry multiple devices. It's heavier, naturally, but having that extra juice is peace of mind. The dual USB ports are clutch for sharing power with a friend.",
             ar: "إذا كان إصدار 10,000 مللي أمبير لليوم، فإن هذا الوحش بسعة 20,000 مللي أمبير لعطلة نهاية الأسبوع. يمنحك ضعف الطاقة تقريباً، رائع للرحلات أو إذا كنت تحمل أجهزة متعددة. إنه أثقل وزناً بالطبع، لكن الحصول على تلك الطاقة الإضافية راحة بال. منفذا USB مفيدان جداً لمشاركة الطاقة مع صديق."
         },
-        relatedProducts: [
-        "anker-powercore-10000",
+        relatedProducts: ["anker-powercore-10000",
         "anker-powercore-26800",
         "anker-622-maggo",
         "anker-car-charger-dual-usb",
         "anker-powerline-usb-c-lightning",
-        "anker-521-powerhouse"
-    ]
+        "anker-521-powerhouse", 'anker-usb-c-lightning-sureistrong']
     };

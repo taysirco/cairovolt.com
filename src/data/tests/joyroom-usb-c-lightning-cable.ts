@@ -52,6 +52,6 @@ export const joyroom_usb_c_lightning_cable_lab: ProductLabData = {
         maxTemp_C: 35,
         bendCycles: 18000,
         actualWeight_g: 26,
-        devicesCharged: 5,
+        devicesCharged: 4,
     }
 };

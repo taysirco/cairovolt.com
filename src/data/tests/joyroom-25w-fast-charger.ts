@@ -53,6 +53,6 @@ export const joyroom_25w_fast_charger_lab: ProductLabData = {
         maxTemp_C: 41,
         chargingSpeed_W: 25,
         actualWeight_g: 52,
-        devicesCharged: 6,
+        devicesCharged: 5,
     }
 };

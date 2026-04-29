@@ -47,7 +47,7 @@ export const anker_powercore_20000_lab: ProductLabData = {
             actualCapacity_mAh: 19200,
             maxTemp_C: 32,
             realEfficiency: 72,
-            devicesCharged: 4,
+            devicesCharged: 3,
             actualWeight_g: 340,
         },
     };

@@ -51,7 +51,7 @@ export const joyroom_power_bank_10000_lab: ProductLabData = {
             actualCapacity_mAh: 9600,
             maxTemp_C: 36,
             realEfficiency: 71,
-            devicesCharged: 1.4,
+            devicesCharged: 3.4,
             actualWeight_g: 210,
         },
     };

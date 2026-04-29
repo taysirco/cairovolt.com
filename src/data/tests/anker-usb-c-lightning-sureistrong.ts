@@ -52,6 +52,6 @@ export const anker_usb_c_lightning_sureistrong_lab: ProductLabData = {
         maxTemp_C: 34,
         bendCycles: 30000,
         actualWeight_g: 25,
-        devicesCharged: 5,
+        devicesCharged: 4,
     }
 };

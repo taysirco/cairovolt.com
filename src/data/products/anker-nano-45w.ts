@@ -167,12 +167,10 @@ export const anker_nano_45w = {
             en: "The versatility of this charger is hard to beat. It's powerful enough to charge a MacBook Air or even a Pro at decent speeds, yet compact enough for your phone. If you want one charger to rule them all (laptop, tablet, phone), this Anker Nano is the smartest choice you can make.",
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن Anker Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
         },
-        relatedProducts: [
-        "anker-521-powerhouse",
+        relatedProducts: ["anker-521-powerhouse",
         "anker-a2147-gan-charger-30w",
         "anker-nano-45w-smart-display-charger",
         "anker-powercore-26800",
         "anker-737-powerbank",
-        "anker-powerline-usb-c-usb-c"
-    ]
+        "anker-powerline-usb-c-usb-c", 'anker-powerport-25w']
     };

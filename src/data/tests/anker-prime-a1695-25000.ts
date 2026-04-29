@@ -50,7 +50,7 @@ export const anker_prime_a1695_25000_lab: ProductLabData = {
             maxTemp_C: 46,
             chargingSpeed_W: 165,
             realEfficiency: 76,
-            devicesCharged: 3,
+            devicesCharged: 5,
             actualWeight_g: 535,
         },
     };

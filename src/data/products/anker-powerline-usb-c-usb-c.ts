@@ -174,12 +174,10 @@ export const anker_powerline_usb_c_usb_c = {
             en: "A solid, no-nonsense cable for all your USB-C devices. Whether it's a Samsung phone, an iPad, or a laptop, this cable handles up to 60W flawlessly. The flexibility is great, and the connectors are reinforced. Definitely a step up from the flimsy cables that come in the box.",
             ar: "كابل قوي ومباشر لجميع أجهزة USB-C الخاصة بك. سواء كان هاتف سامسونج، آيباد، أو لابتوب، يتعامل هذا الكابل مع ما يصل إلى 60 واط بلا عيوب. المرونة رائعة، والموصلات مدعمة. بالتأكيد ترقية عن الكابلات الضعيفة التي تأتي في العلية."
         },
-        relatedProducts: [
-        "anker-powerport-20w",
+        relatedProducts: ["anker-powerport-20w",
         "anker-powerport-25w",
         "anker-nano-45w",
         "anker-powercore-10000",
         "anker-car-charger-dual-usb",
-        "anker-737-powerbank"
-    ]
+        "anker-737-powerbank", 'anker-nano-45w-smart-display-charger', 'anker-soundcore-motion-plus']
     };

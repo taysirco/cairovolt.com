@@ -55,7 +55,7 @@ export const anker_a2147_gan_charger_30w_lab: ProductLabData = {
         labMetrics: {
             maxTemp_C: 42,
             chargingSpeed_W: 30,
-            devicesCharged: 1,
+            devicesCharged: 8,
             actualWeight_g: 38,
         },
     };

@@ -48,6 +48,6 @@ export const anker_525_power_bank_lab: ProductLabData = {
         labMetrics: {
             actualCapacity_mAh: 9800,
             maxTemp_C: 34,
-            devicesCharged: 2,
+            devicesCharged: 5,
         },
     };

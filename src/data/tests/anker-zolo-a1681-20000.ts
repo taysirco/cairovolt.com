@@ -49,7 +49,7 @@ export const anker_zolo_a1681_20000_lab: ProductLabData = {
             maxTemp_C: 44,
             chargingSpeed_W: 45,
             realEfficiency: 73,
-            devicesCharged: 2,
+            devicesCharged: 4,
             actualWeight_g: 395,
         },
     };

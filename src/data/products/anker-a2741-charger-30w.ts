@@ -10,14 +10,12 @@ export const anker_a2741_charger_30w = {
             { id: "img_5", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-foldable-plug-design-portable-travel-charger.webp", alt: "Anker A2741 retail box showing 30W car charger specifications - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/anker-a2741-charger-30w/anker-a2741-30w-package-box-contents-specifications-egypt.webp", alt: "شاحن سيارة انكر A2741 مدمج في قابس ولاعة السيارة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: [
-        "anker-a2147-gan-charger-30w",
+        relatedProducts: ["anker-a2147-gan-charger-30w",
         "anker-nano-45w-smart-display-charger",
         "anker-a2732-charger-35w",
         "anker-a8050-usb-c-cable",
         "anker-zolo-a110d-10000",
-        "anker-soundcore-r50i"
-    ],
+        "anker-soundcore-r50i", 'anker-soundcore-k20i'],
         translations: {
             en: {
                 name: "Anker 30W Mini Car Charger (A2741) | USB-C 27W PD + USB-A 22.5W | Ultra-Compact | 18-Month Warranty",

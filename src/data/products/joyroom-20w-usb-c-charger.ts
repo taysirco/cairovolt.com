@@ -149,14 +149,12 @@ export const joyroom_20w_usb_c_charger = {
             }
         },
         meta: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, joyroom charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
-        relatedProducts: [
-        "joyroom-usb-c-lightning-cable",
+        relatedProducts: ["joyroom-usb-c-lightning-cable",
         "joyroom-power-bank-10000",
         "joyroom-25w-fast-charger",
         "joyroom-ft3-smartwatch",
         "joyroom-3-in-1-wireless-charging-station",
-        "joyroom-30w-fast-charger"
-    ],
+        "joyroom-30w-fast-charger", 'joyroom-jr-t03-wireless-earbuds', 'joyroom-power-bank-20000'],
         expertOpinion: {
             en: "A fantastic alternative to more expensive brands. It delivers the same 20W PD charging speed for iPhones as the big names. It runs cool and feels solid. I've used this personally for months with zero issues. Great for a secondary charger at the office.",
             ar: "بديل رائع للماركات الأغلى. يوفر نفس سرعة شحن 20 واط PD للايفون مثل الأسماء الكبيرة. يعمل بشكل بارد وملمسه قوي. لقد استخدمته شخصياً لشهور دون أي مشاكل. رائع كشاحن ثانوي في المكتب."

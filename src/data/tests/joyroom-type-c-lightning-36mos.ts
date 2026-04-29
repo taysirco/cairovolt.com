@@ -52,6 +52,6 @@ export const joyroom_type_c_lightning_36mos_lab: ProductLabData = {
         maxTemp_C: 35,
         bendCycles: 22000,
         actualWeight_g: 28,
-        devicesCharged: 5,
+        devicesCharged: 4,
     }
 };

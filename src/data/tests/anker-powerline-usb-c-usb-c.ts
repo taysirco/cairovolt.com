@@ -52,6 +52,6 @@ export const anker_powerline_usb_c_usb_c_lab: ProductLabData = {
         maxTemp_C: 35,
         bendCycles: 25000,
         actualWeight_g: 30,
-        devicesCharged: 6,
+        devicesCharged: 4,
     }
 };
