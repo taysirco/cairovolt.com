@@ -26,7 +26,7 @@ export const joyroom_car_phone_mount = {
                 name: "Joyroom Universal Car Phone Mount",
                 shortDescription: "🚗 Anti-Shake at 120km/h Tested | 📱 Fits 4.7-7 Inch Phones with Case | 🔄 360° Rotation | 🏆 Egyptian Highway Tested",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">The <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike flimsy phone mounts that drop your phone on every pothole, the <strong>Joyroom Universal Car Mount</strong> at <strong>169 EGP</strong> fits phones 4.7"-6.8" with a strong grip mechanism. Spring-loaded arms + anti-slip pads. Fits all Egyptian car air vents. Budget-friendly without sacrificing stability. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">

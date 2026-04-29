@@ -27,7 +27,7 @@ export const anker_soundcore_life_p2i = {
                 shortDescription: "🎧 28H Total Playtime | 🤖 AI-Enhanced 2-Mic Calls | 🎵 Dual EQ (Bass/Podcast) | ⚡ 10 Min = 1H Charge | 📱 Bluetooth 5.2",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 999, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap earbuds that sound hollow and die in months, the <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 999, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>

@@ -84,7 +84,7 @@ export const anker_521_powerhouse = {
                 shortDescription: "🔋 256Wh LiFePO4 | 🔌 200W AC Outlet (220V) | ♻️ 3,000+ Charge Cycles (10+ Years) | 💡 Built-in LED Light",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">The <strong>Anker 521 PowerHouse (A1710)</strong> is a 256Wh portable power station with LiFePO4 batteries rated for 3,000+ charge cycles (10+ years). It outputs 200W via a 220V AC outlet — enough to run your router, fan, CPAP, and charge multiple phones during an Egyptian blackout. 6 output ports, built-in LED, 5-year warranty. EGP 11,000. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike noisy generators or flimsy power banks that die mid-blackout, the <strong>Anker 521 PowerHouse (A1710)</strong> is a 256Wh portable power station with LiFePO4 batteries rated for 3,000+ charge cycles (10+ years). It outputs 200W via a 220V AC outlet — enough to run your router, fan, CPAP, and charge multiple phones during an Egyptian blackout. 6 output ports, built-in LED, 5-year warranty. EGP 11,000. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>

@@ -5,6 +5,7 @@ export interface BlogArticle {
     modifiedDate: string;
     readingTime: number; // minutes
     relatedProducts: string[]; // product slugs
+    relatedArticles?: string[]; // article slugs for internal linking
     relatedCategories: string[]; // e.g. "Anker/power-banks"
     coverImage?: string;
     author?: {
