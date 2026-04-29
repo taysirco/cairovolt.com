@@ -8,8 +8,8 @@ export const anker_powerline_usb_c_lightning = {
         gtin: "0848061099430",
         gtin13: "0848061099430",
         mpn: "A8612H11",
-        price: 508,
-        originalPrice: 599,
+        price: 630,
+        originalPrice: 690,
         stock: 452,
         featured: true,
         status: "active",
@@ -27,7 +27,7 @@ export const anker_powerline_usb_c_lightning = {
                 shortDescription: "✅ Apple MFi Certified | ⚡ 30W Fast Charging iPhone 14/13/12 | 💪 35,000+ Bend Lifespan | 📱 CarPlay Compatible",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike generic Lightning cables that lack Apple MFi chip protection, The <strong>Anker PowerLine III USB-C to Lightning (A8612)</strong> is an MFi-certified cable for iPhone 14/13/12/11 and Lightning iPads. 30W PD fast charging, 35,000+ bend lifespan (3.5x Apple's cable), CarPlay compatible. For iPhone 17/16/15 owners, you need a USB-C to USB-C cable instead. EGP 508, 18-month warranty. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike generic Lightning cables that lack Apple MFi chip protection, The <strong>Anker PowerLine III USB-C to Lightning (A8612)</strong> is an MFi-certified cable for iPhone 14/13/12/11 and Lightning iPads. 30W PD fast charging, 35,000+ bend lifespan (3.5x Apple's cable), CarPlay compatible. For iPhone 17/16/15 owners, you need a USB-C to USB-C cable instead. EGP 630, 18-month warranty. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -96,7 +96,7 @@ export const anker_powerline_usb_c_lightning = {
                 shortDescription: "الكابل الوحيد اللي مش هيبوظ بطارية ايفونك الغالي | ✅ معتمد MFi من أبل | 💪 أمتن 3 مرات من الأصلي مش هيتقطع | 🚗 شغال CarPlay من غير تقطيع",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to Lightning (A8612)</strong> كابل معتمد MFi لايفون 14/13/12/11 وايباد Lightning. شحن سريع 30 واط PD، بيتحمل 35,000+ ثني (3.5× الأصلي)، متوافق CarPlay. لو عندك ايفون 17/16/15 محتاج كابل USB-C to USB-C. سعر 508 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الكابلات الرخيصة اللي بتختنق عند 5 واط وبتموت في أسابيع، <strong>كابل أنكر PowerLine III USB-C to Lightning (A8612)</strong> كابل معتمد MFi لايفون 14/13/12/11 وايباد Lightning. شحن سريع 30 واط PD، بيتحمل 35,000+ ثني (3.5× الأصلي)، متوافق CarPlay. لو عندك ايفون 17/16/15 محتاج كابل USB-C to USB-C. سعر 630 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.4%</strong> across 1,200+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

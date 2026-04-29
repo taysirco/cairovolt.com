@@ -72,7 +72,7 @@ export const anker_cables_content: CategoryContent = {
                     ],
                     products: [
                         { name: 'Anker PowerLine Select+ (Braided)', price: 508, badge: 'الأقوى' },
-                        { name: 'Anker PowerLine II (USB-C to Lightning)', price: 508, badge: 'شحن سريع' },
+                        { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'شحن سريع' },
                         { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'اقتصادي' },
                     ]
                 },
@@ -113,7 +113,7 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
                     ],
                     products: [
                         { name: 'Anker PowerLine Select+ (Braided)', price: 508, badge: 'Durable' },
-                        { name: 'Anker PowerLine II (USB-C to Lightning)', price: 508, badge: 'Fast Charge' },
+                        { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'Fast Charge' },
                         { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'Value' },
                     ]
                 }
