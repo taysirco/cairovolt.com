@@ -107,7 +107,7 @@ export function ImageObjectSchema({
 }: ImageObjectSchemaProps) {
     const isArabic = locale === 'ar';
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${productBrand.toLowerCase()}/${productCategory.toLowerCase()}/${productSlug}`;
-    const year = new Date().getFullYear();
+    const year = 2025; // Stable year — avoid Trust score issues from dynamic Date()
     const lab = getLabForCategory(productCategory);
 
     // Link images to their product page — using WebPage (not Product) to avoid

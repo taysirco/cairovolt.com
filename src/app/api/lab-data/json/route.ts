@@ -50,7 +50,7 @@ export async function GET() {
         license: 'https://creativecommons.org/licenses/by/4.0/',
         isAccessibleForFree: true,
         datePublished: '2026-01-15',
-        dateModified: new Date().toISOString().split('T')[0],
+        dateModified: '2026-03-15',
 
         creator: {
             '@type': 'Organization',

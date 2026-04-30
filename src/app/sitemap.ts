@@ -164,25 +164,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${baseUrl}/.well-known/llms.txt`,
         priority: 0.6,
         changeFrequency: 'weekly',
-        lastModified: new Date(),
+        lastModified: new Date('2026-03-15'),
     });
     routes.push({
         url: `${baseUrl}/.well-known/llms-full.txt`,
         priority: 0.5,
         changeFrequency: 'weekly',
-        lastModified: new Date(),
+        lastModified: new Date('2026-03-15'),
     });
     routes.push({
         url: `${baseUrl}/api/lab-data/json`,
         priority: 0.6,
         changeFrequency: 'monthly',
-        lastModified: new Date(),
+        lastModified: new Date('2026-03-15'),
     });
     routes.push({
         url: `${baseUrl}/api/knowledge-graph`,
         priority: 0.5,
         changeFrequency: 'monthly',
-        lastModified: new Date(),
+        lastModified: new Date('2026-03-15'),
     });
     routes.push({
         url: `${baseUrl}/api/openapi.json`,

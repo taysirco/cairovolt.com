@@ -29,16 +29,9 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
     const lastUpdated = pulse.timestamp;
     const priceValidUntil = new Date(Date.now() + 86400000).toISOString();
 
-    // WebPage schema
-    const webPageSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'WebPage',
-        dateModified: lastUpdated,
-        speakable: {
-            '@type': 'SpeakableSpecification',
-            cssSelector: ['.logistics-pulse-text'],
-        },
-    };
+    // NOTE: WebPage schema removed — this component previously injected a separate
+    // WebPage with dateModified: lastUpdated (dynamic), causing Trust Score instability.
+    // The parent product page already has the correct WebPage schema.
 
     // Format quality check time for display
     const qcDisplay = pulse.lastQualityCheckMinutes < 60
@@ -49,12 +42,6 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
 
     return (
         <>
-            {/* WebPage schema */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
-            />
-
             <div
                 className={`bg-gray-50 dark:bg-gray-950/80 border ${borderColor} p-4 mt-6 rounded-xl text-sm`}
                 role="status"

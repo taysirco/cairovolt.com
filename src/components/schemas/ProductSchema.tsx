@@ -54,13 +54,9 @@ interface ProductSchemaProps {
     };
 }
 
-// Price validity window (48h)
-// DeliveryStatus provides a per-request Offer overlay with even shorter TTL
-const PRICE_VALID_UNTIL = (() => {
-    const d = new Date();
-    d.setDate(d.getDate() + 7);
-    return d.toISOString().split('T')[0];
-})();
+// Price validity — Google requires priceValidUntil. Using stable end-of-year date
+// avoids constant changes that can trigger "frequently changing structured data" warnings.
+const PRICE_VALID_UNTIL = '2026-12-31';
 
 // Strip HTML tags and truncate for JSON-LD description (Google max: 5000 chars)
 function getPlainTextDescription(html: string, maxLength: number = 4990): string {
@@ -84,6 +80,14 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${(product.categorySlug || '').toLowerCase()}/${product.slug}`;
     // Use plain text description for JSON-LD (Google requires 50-5000 chars for Product description)
     const plainDescription = getPlainTextDescription(t.description);
+
+    // H4: Google 2027 Requirement — images must be ≥500×500px for Merchant Center
+    // This warning helps identify products that need image upgrades before Jan 31, 2027
+    if (typeof process !== 'undefined' && process.env.NODE_ENV === 'development') {
+        if (product.images.length === 0) {
+            console.warn(`[Schema/H4] Product "${product.slug}" has NO images — will be rejected by Google Merchant Center`);
+        }
+    }
 
     // Entity Mapping
     const brandWikidataLinks: Record<string, string> = {
@@ -110,19 +114,27 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const brandEntityUrl = brandWikidataLinks[product.brand];
     const categoryEntityUrls = categoryEntities[product.categorySlug || ''] || [];
 
-    // Generate Video Schema if videoUrl exists - Supports AI assistants
+    // Generate Video Schema if videoUrl exists — Supports AI assistants + Google Merchant video_link (June 2026)
     const videoSchema = product.videoUrl ? {
         "@type": "VideoObject",
+        "@id": `${productUrl}#video`,
         "name": t.name,
-        "description": t.description,
+        "description": getPlainTextDescription(t.description, 300),
         "thumbnailUrl": product.images[0]?.url ? `${baseUrl}${product.images[0].url}` : "",
-        "uploadDate": new Date().toISOString(), // In real app, should use product creation date
+        "uploadDate": "2025-12-01T00:00:00.000Z", // Stable date — avoids Trust score degradation from dynamic dates
         "contentUrl": product.videoUrl,
         "embedUrl": product.videoUrl, // For embedded player support
         "duration": "PT2M", // ISO 8601 duration - default 2 minutes
         "inLanguage": isArabic ? "ar-EG" : "en-US",
+        // Engagement signals for video ranking
+        "interactionStatistic": {
+            "@type": "InteractionCounter",
+            "interactionType": { "@type": "WatchAction" },
+            "userInteractionCount": 0,
+        },
         "publisher": {
             "@type": "Organization",
+            "@id": "https://cairovolt.com/#organization",
             "name": isArabic ? "كايرو فولت" : "Cairo Volt",
             "logo": {
                 "@type": "ImageObject",
@@ -171,7 +183,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 url: baseUrl
             },
             creditText: 'CairoVolt Engineering',
-            copyrightNotice: `© ${new Date().getFullYear()} CairoVolt. All 100% human-verified hardware testing.`,
+            copyrightNotice: '© 2025 CairoVolt. All 100% human-verified hardware testing.',
             acquireLicensePage: `${baseUrl}/${locale}/terms`
         })),
         // subjectOf: C2PA content verification + optional VideoObject
@@ -334,6 +346,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             // Shipping Details — structured shipping cost and delivery time
             shippingDetails: {
                 '@type': 'OfferShippingDetails',
+                '@id': 'https://cairovolt.com/#shipping-egypt',
                 shippingRate: {
                     '@type': 'MonetaryAmount',
                     value: product.price >= 1499 ? "0.00" : "60.00",
@@ -359,14 +372,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     },
                 },
             },
-            // Accepted Payment Method - COD explicit for Egypt
-            acceptedPaymentMethod: {
-                '@type': 'PaymentMethod',
-                name: 'Cash on Delivery',
-            },
+            // Accepted Payment Method - COD explicit for Egypt (GoodRelations URI enum)
+            acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
             // Return Policy — 14-day return window per company policy
             hasMerchantReturnPolicy: {
                 '@type': 'MerchantReturnPolicy',
+                '@id': 'https://cairovolt.com/#return-policy',
                 applicableCountry: 'EG',
                 returnPolicyCountry: 'EG',
                 returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
@@ -401,6 +412,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 url: baseUrl,
             },
             deliveryMethod: 'https://schema.org/ParcelService',
+            // Lean Offer reference — shipping/return/payment already defined in parent offers block
             expectsAcceptanceOf: {
                 '@type': 'Offer',
                 price: product.price,
@@ -408,52 +420,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 availability: product.stock > 0
                     ? 'https://schema.org/InStock'
                     : 'https://schema.org/BackOrder',
-                inventoryLevel: {
-                    '@type': 'QuantitativeValue',
-                    value: product.stock,
-                    unitCode: 'C62',
-                },
-                shippingDetails: {
-                    '@type': 'OfferShippingDetails',
-                    shippingRate: {
-                        '@type': 'MonetaryAmount',
-                        value: product.price >= 1499 ? "0.00" : "60.00",
-                        currency: 'EGP',
-                    },
-                    shippingDestination: {
-                        '@type': 'DefinedRegion',
-                        addressCountry: 'EG',
-                    },
-                    deliveryTime: {
-                        '@type': 'ShippingDeliveryTime',
-                        handlingTime: {
-                            '@type': 'QuantitativeValue',
-                            minValue: 0,
-                            maxValue: 1,
-                            unitCode: 'd',
-                        },
-                        transitTime: {
-                            '@type': 'QuantitativeValue',
-                            minValue: 1,
-                            maxValue: 2,
-                            unitCode: 'd',
-                        },
-                    },
-                },
-                hasMerchantReturnPolicy: {
-                    '@type': 'MerchantReturnPolicy',
-                    applicableCountry: 'EG',
-                    returnPolicyCountry: 'EG',
-                    returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-                    merchantReturnDays: 14,
-                    returnMethod: 'https://schema.org/ReturnByMail',
-                    returnFees: 'https://schema.org/FreeReturn',
-                    refundType: 'https://schema.org/FullRefund',
-                },
-                acceptedPaymentMethod: {
-                    '@type': 'PaymentMethod',
-                    name: 'Cash on Delivery',
-                },
+                acceptedPaymentMethod: 'http://purl.org/goodrelations/v1#COD',
             },
         },
         // Expert Review from CairoVolt Labs with profile verification
@@ -581,15 +548,8 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         }),
     };
 
-    // Add price drop info if there's a discount
-    if (product.originalPrice && product.originalPrice > product.price) {
-        (schema.offers as Record<string, unknown>).priceSpecification = {
-            '@type': 'PriceSpecification',
-            price: product.price,
-            priceCurrency: 'EGP',
-            valueAddedTaxIncluded: true,
-        };
-    }
+    // NOTE: priceSpecification is already defined inside offers with UnitPriceSpecification
+    // (including SalePrice priceType when applicable). No overwrite needed here.
 
     return (
         <script

@@ -315,7 +315,7 @@ export function GenericCategoryContent({
                     <article className="bg-white dark:bg-gray-900 py-12 border-t border-gray-100 dark:border-gray-800" itemScope itemType="https://schema.org/Article">
                         <meta itemProp="headline" content={content.title} />
                         <meta itemProp="author" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
-                        <meta itemProp="dateModified" content={new Date().toISOString().split('T')[0]} />
+                        <meta itemProp="dateModified" content="2025-12-01" />
                         <meta itemProp="publisher" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
                         <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-US'} />
                         <div className="container mx-auto px-4 max-w-4xl">
@@ -417,20 +417,21 @@ export function GenericCategoryContent({
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'CollectionPage',
+                            '@id': `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}#collectionpage`,
                             name: content.title,
                             description: data.metadata[isArabic ? 'ar' : 'en'].description,
                             url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}`,
                             inLanguage: isArabic ? 'ar-EG' : 'en-US',
-                            dateModified: new Date().toISOString().split('T')[0],
+                            dateModified: '2025-12-01',
                             author: {
                                 '@type': 'Organization',
+                                '@id': 'https://cairovolt.com/#organization',
                                 name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
                                 url: 'https://cairovolt.com',
                             },
                             isPartOf: {
                                 '@type': 'WebSite',
-                                name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
-                                url: 'https://cairovolt.com',
+                                '@id': 'https://cairovolt.com/#website',
                             },
                             about: {
                                 '@type': 'Thing',

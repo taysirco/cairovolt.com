@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     const isArabic = locale === 'ar';
-    const year = new Date().getFullYear();
+    const year = 2026; // Stable year — update annually, not dynamically
 
     const titleAr = `حلول انقطاع الكهرباء في ${gov.nameAr} ${year} | باور بانك وUPS`;
     const titleEn = `Power Outage Solutions ${gov.nameEn} ${year} | Power Banks & UPS`;

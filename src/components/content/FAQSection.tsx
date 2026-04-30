@@ -37,7 +37,7 @@ export default function FAQSection({ productName, qaList, locale }: FAQSectionPr
     };
 
     const speakableSchema = {
-        '@context': 'https://schema.org/',
+        '@context': 'https://schema.org',
         '@type': 'WebPage',
         name: isArabic
             ? `إجابات مختبر كايرو فولت الصارمة لمنتج ${productName}`

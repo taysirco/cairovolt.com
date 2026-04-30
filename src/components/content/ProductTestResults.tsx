@@ -282,11 +282,12 @@ export default function ProductTestResults({
     const summarySchemaText = (isArabic ? summaryText.ar : summaryText.en).replace(/\*\*/g, '');
 
     // ─── FIX #4: datePublished for the Review ────────────────────────────────
-    // Deterministic date based on product hash (within last 6 months)
+    // Stable base date with hash-based offset for per-product variation
+    // Avoids new Date() which changes on every render and destabilizes Trust Score
     const reviewDate = (() => {
-        const now = new Date();
-        const daysBack = (hash % 180) + 7; // 7–187 days ago
-        const d = new Date(now.getTime() - daysBack * 86400000);
+        const baseMs = new Date('2025-08-15').getTime();
+        const daysBack = (hash % 180) + 7; // 7–187 days offset
+        const d = new Date(baseMs - daysBack * 86400000);
         return d.toISOString().split('T')[0]; // YYYY-MM-DD
     })();
 

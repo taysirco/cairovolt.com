@@ -123,6 +123,19 @@ export const OrganizationSchema = ({ locale }: Props) => {
                         },
                     },
                 ],
+                // Organization-level Return Policy (Google Best Practice 2026)
+                // Products reference this via @id: 'https://cairovolt.com/#return-policy'
+                hasMerchantReturnPolicy: {
+                    '@type': 'MerchantReturnPolicy',
+                    '@id': 'https://cairovolt.com/#return-policy',
+                    applicableCountry: 'EG',
+                    returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+                    merchantReturnDays: 14,
+                    returnMethod: 'https://schema.org/ReturnByMail',
+                    returnFees: 'https://schema.org/FreeReturn',
+                    refundType: 'https://schema.org/FullRefund',
+                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/return-policy`,
+                },
             },
             {
                 '@type': 'ElectronicsStore',
@@ -148,7 +161,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                         '@type': 'SearchAction',
                         target: {
                             '@type': 'EntryPoint',
-                            urlTemplate: `https://cairovolt.com/${locale}/search?q={search_term_string}`,
+                            urlTemplate: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}/search?q={search_term_string}`,
                         },
                         'query-input': 'required name=search_term_string',
                     },
@@ -169,7 +182,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                 hasOfferCatalog: {
                     '@type': 'OfferCatalog',
                     name: isArabic ? 'كتالوج منتجات كايرو فولت' : 'CairoVolt Product Catalog',
-                    url: `https://cairovolt.com/${locale}`,
+                    url: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}`,
                     numberOfItems: 50,
                 },
                 areaServed: isArabic
