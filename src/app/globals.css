@@ -108,6 +108,7 @@ html {
 
 .animate-hero-float {
   animation: hero-float 4s ease-in-out infinite;
+  will-change: transform;
 }
 
 /* Trust badge subtle pulse */

@@ -59,7 +59,7 @@ export default function Footer() {
                         <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'تسوق حسب الفئة' : 'Shop by Category'}
                         </h3>
-                        <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
+                        <ul className="space-y-2.5 text-sm text-gray-600 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/power-banks')} className="hover:text-blue-600 transition-colors">
                                     {isRTL ? 'باور بانك' : 'Power Banks'}
@@ -88,7 +88,7 @@ export default function Footer() {
                         <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'العلامات التجارية' : 'Brands'}
                         </h3>
-                        <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
+                        <ul className="space-y-2.5 text-sm text-gray-600 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/anker')} className="hover:text-blue-600 transition-colors font-medium">
                                     {isRTL ? 'جميع منتجات Anker' : 'All Anker Products'}
@@ -127,7 +127,7 @@ export default function Footer() {
                         <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'أدلة ومقالات' : 'Guides & Resources'}
                         </h3>
-                        <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
+                        <ul className="space-y-2.5 text-sm text-gray-600 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/blog')} className="hover:text-blue-600 transition-colors font-medium">
                                     {isRTL ? 'المدونة' : 'Blog'}
@@ -149,7 +149,7 @@ export default function Footer() {
                     {/* Customer Service */}
                     <div>
                         <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">{t('customerService')}</h3>
-                        <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
+                        <ul className="space-y-2.5 text-sm text-gray-600 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/contact')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
                                     {t('contactUs')}
@@ -191,7 +191,7 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 dark:text-gray-400">
+                <div className="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 dark:text-gray-400">
                     <p>
                         © {currentYear} {isRTL ? 'كايرو فولت' : 'Cairo Volt'}. {t('allRightsReserved')}.
                     </p>

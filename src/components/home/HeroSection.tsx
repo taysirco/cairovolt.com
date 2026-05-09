@@ -78,7 +78,6 @@ export default function HeroSection({ locale }: HeroSectionProps) {
   const [activeIdx, setActiveIdx] = useState(0);
   const active = heroProducts[activeIdx];
   const layoutRef = useRef<HTMLDivElement>(null);
-  const [isDesktop, setIsDesktop] = useState(false);
 
   const handlePillClick = useCallback((idx: number) => {
     setActiveIdx(idx);
@@ -92,14 +91,6 @@ export default function HeroSection({ locale }: HeroSectionProps) {
     return () => clearInterval(timer);
   }, []);
 
-  // Responsive detection
-  useEffect(() => {
-    const checkDesktop = () => setIsDesktop(window.innerWidth >= 1024);
-    checkDesktop();
-    window.addEventListener('resize', checkDesktop);
-    return () => window.removeEventListener('resize', checkDesktop);
-  }, []);
-
   return (
     <section
       id="hero-section"
@@ -110,19 +101,14 @@ export default function HeroSection({ locale }: HeroSectionProps) {
     >
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-        {/* Main hero layout */}
+        {/* Main hero layout — CSS-only responsive, no JS layout shift */}
         <div
           ref={layoutRef}
-          style={{
-            display: 'flex',
-            flexDirection: isDesktop ? (isAr ? 'row-reverse' : 'row') : 'column',
-            alignItems: 'center',
-            gap: isDesktop ? '4rem' : '2rem',
-          }}
+          className={`flex flex-col ${isAr ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-16`}
         >
           
-          {/* Text Side — on mobile: only heading/tagline/stars, CTA moves below image */}
-          <div className={`flex-1 text-center ${isDesktop ? (isAr ? 'text-right' : 'text-left') : ''} space-y-6 z-10 w-full`}>
+          {/* Text Side */}
+          <div className={`text-center ${isAr ? 'lg:text-right' : 'lg:text-left'} space-y-6 z-10 w-full lg:flex-1`}>
             {/* Badge */}
             {active.badge && (
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 backdrop-blur-sm">
@@ -156,7 +142,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             </p>
 
             {/* Social Proof */}
-            <div className={`flex items-center gap-3 ${isDesktop ? (isAr ? 'justify-end' : 'justify-start') : 'justify-center'}`}>
+            <div className={`flex items-center gap-3 justify-center ${isAr ? 'lg:justify-end' : 'lg:justify-start'}`}>
               <div className="flex">
                 {[1, 2, 3, 4, 5].map((s) => (
                   <SvgIcon key={s} name="star" className={`w-5 h-5 ${s <= 4 ? 'text-amber-400' : 'text-amber-400/80'}`} />
@@ -167,39 +153,35 @@ export default function HeroSection({ locale }: HeroSectionProps) {
               </span>
             </div>
 
-            {/* CTA — Desktop only (on mobile it appears after image) */}
-            {isDesktop && (
-              <div className={`flex flex-col sm:flex-row gap-3 ${isAr ? 'justify-end' : 'justify-start'}`}>
-                <Link
-                  href={`/${locale}${active.href}`}
-                  className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300"
-                >
-                  <SvgIcon name="cart" className="w-5 h-5" />
-                  {isAr ? 'اطلب الآن — ادفع عند الاستلام' : 'Order Now — Cash on Delivery'}
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">{isAr ? '←' : '→'}</span>
-                </Link>
-              </div>
-            )}
+            {/* CTA — Desktop only (CSS hidden on mobile) */}
+            <div className={`hidden lg:flex flex-col sm:flex-row gap-3 ${isAr ? 'justify-end' : 'justify-start'}`}>
+              <Link
+                href={`/${locale}${active.href}`}
+                className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300"
+              >
+                <SvgIcon name="cart" className="w-5 h-5" />
+                {isAr ? 'اطلب الآن — ادفع عند الاستلام' : 'Order Now — Cash on Delivery'}
+                <span className="group-hover:translate-x-1 transition-transform duration-300">{isAr ? '←' : '→'}</span>
+              </Link>
+            </div>
 
-            {/* Trust Pills — Desktop only */}
-            {isDesktop && (
-              <div className={`flex flex-wrap gap-4 pt-2 ${isAr ? 'justify-end' : 'justify-start'}`}>
-                {[
-                  { icon: 'shield', text: isAr ? 'ضمان 18-24 شهر' : '18-24 Month Warranty' },
-                  { icon: 'truck', text: isAr ? 'نوصل كل مصر' : 'All Egypt Delivery' },
-                  { icon: 'check-circle', text: isAr ? '100% Anker أصلي' : '100% Authentic Anker' },
-                ].map((pill) => (
-                  <div key={pill.icon} className="flex items-center gap-1.5 text-slate-400 text-sm">
-                    <SvgIcon name={pill.icon} className="w-4 h-4 text-green-400" />
-                    <span>{pill.text}</span>
-                  </div>
-                ))}
-              </div>
-            )}
+            {/* Trust Pills — Desktop only (CSS hidden on mobile) */}
+            <div className={`hidden lg:flex flex-wrap gap-4 pt-2 ${isAr ? 'justify-end' : 'justify-start'}`}>
+              {[
+                { icon: 'shield', text: isAr ? 'ضمان 18-24 شهر' : '18-24 Month Warranty' },
+                { icon: 'truck', text: isAr ? 'نوصل كل مصر' : 'All Egypt Delivery' },
+                { icon: 'check-circle', text: isAr ? '100% Anker أصلي' : '100% Authentic Anker' },
+              ].map((pill) => (
+                <div key={pill.icon} className="flex items-center gap-1.5 text-slate-400 text-sm">
+                  <SvgIcon name={pill.icon} className="w-4 h-4 text-green-400" />
+                  <span>{pill.text}</span>
+                </div>
+              ))}
+            </div>
           </div>
 
-          {/* Image Side — 1:1 aspect ratio, responsive, full-bleed */}
-          <div className="flex-1 relative flex justify-center items-center z-10 w-full lg:w-auto px-4 sm:px-0">
+          {/* Image Side — NO flex-1 on mobile to prevent CLS */}
+          <div className="relative flex justify-center items-center z-10 w-full lg:flex-1 lg:w-auto px-4 sm:px-0">
             <div className="relative w-full max-w-[360px] sm:max-w-[380px] lg:max-w-[420px] aspect-square">
               {/* Glow ring behind product — CSS-only, no layout shift */}
               <div
@@ -250,33 +232,31 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           </div>
         </div>
 
-        {/* CTA — Mobile only (below image) */}
-        {!isDesktop && (
-          <div className="flex flex-col items-center gap-4 mt-8 z-10 relative">
-            <Link
-              href={`/${locale}${active.href}`}
-              className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300 w-full max-w-md"
-            >
-              <SvgIcon name="cart" className="w-5 h-5" />
-              {isAr ? 'اطلب الآن — ادفع عند الاستلام' : 'Order Now — Cash on Delivery'}
-              <span className="group-hover:translate-x-1 transition-transform duration-300">{isAr ? '←' : '→'}</span>
-            </Link>
+        {/* CTA — Mobile only (CSS hidden on desktop) */}
+        <div className="flex lg:hidden flex-col items-center gap-4 mt-8 z-10 relative">
+          <Link
+            href={`/${locale}${active.href}`}
+            className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300 w-full max-w-md"
+          >
+            <SvgIcon name="cart" className="w-5 h-5" />
+            {isAr ? 'اطلب الآن — ادفع عند الاستلام' : 'Order Now — Cash on Delivery'}
+            <span className="group-hover:translate-x-1 transition-transform duration-300">{isAr ? '←' : '→'}</span>
+          </Link>
 
-            {/* Trust Pills — Mobile */}
-            <div className="flex flex-wrap gap-4 justify-center">
-              {[
-                { icon: 'shield', text: isAr ? 'ضمان 18-24 شهر' : '18-24 Month Warranty' },
-                { icon: 'truck', text: isAr ? 'نوصل كل مصر' : 'All Egypt Delivery' },
-                { icon: 'check-circle', text: isAr ? '100% Anker أصلي' : '100% Authentic Anker' },
-              ].map((pill) => (
-                <div key={pill.icon} className="flex items-center gap-1.5 text-slate-400 text-sm">
-                  <SvgIcon name={pill.icon} className="w-4 h-4 text-green-400" />
-                  <span>{pill.text}</span>
-                </div>
-              ))}
-            </div>
+          {/* Trust Pills — Mobile */}
+          <div className="flex flex-wrap gap-4 justify-center">
+            {[
+              { icon: 'shield', text: isAr ? 'ضمان 18-24 شهر' : '18-24 Month Warranty' },
+              { icon: 'truck', text: isAr ? 'نوصل كل مصر' : 'All Egypt Delivery' },
+              { icon: 'check-circle', text: isAr ? '100% Anker أصلي' : '100% Authentic Anker' },
+            ].map((pill) => (
+              <div key={pill.icon} className="flex items-center gap-1.5 text-slate-400 text-sm">
+                <SvgIcon name={pill.icon} className="w-4 h-4 text-green-400" />
+                <span>{pill.text}</span>
+              </div>
+            ))}
           </div>
-        )}
+        </div>
 
         {/* Product Selector Pills */}
         <div className="flex justify-center gap-3 mt-10 z-10 relative">
