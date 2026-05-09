@@ -93,20 +93,20 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                     </div>
                     <div className="grid grid-cols-2 gap-2 text-xs">
                         <div>
-                            <span className="text-gray-500 dark:text-gray-400">{labels.price}: </span>
+                            <span className="text-gray-700 dark:text-gray-400">{labels.price}: </span>
                             <span className="font-bold text-green-700 dark:text-green-400">{product.price} {labels.egp}</span>
                         </div>
                         <div>
-                            <span className="text-gray-500 dark:text-gray-400">{labels.warranty}: </span>
+                            <span className="text-gray-700 dark:text-gray-400">{labels.warranty}: </span>
                             <span className="font-semibold bg-green-200 dark:bg-green-800 px-1.5 py-0.5 rounded text-[10px]">{warrantyMonths} {labels.months} ✓</span>
                         </div>
                         <div>
-                            <span className="text-gray-500 dark:text-gray-400">{labels.delivery}: </span>
+                            <span className="text-gray-700 dark:text-gray-400">{labels.delivery}: </span>
                             <span className="font-medium">1-3 {labels.days}</span>
                             {product.price >= 1499 && <span className="text-green-600 text-[10px] ms-1">({labels.free})</span>}
                         </div>
                         <div>
-                            <span className="text-gray-500 dark:text-gray-400">{labels.original}: </span>
+                            <span className="text-gray-700 dark:text-gray-400">{labels.original}: </span>
                             <span className="font-bold text-green-600 dark:text-green-400">{labels.yes}</span>
                         </div>
                     </div>

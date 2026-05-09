@@ -393,7 +393,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             }}
                         >
                             {discount > 0 && (
-                                <span className={`absolute top-4 ${isRTL ? 'right-4' : 'left-4'} px-3 py-1.5 bg-red-500 text-white text-sm font-bold rounded-full z-10 shadow-lg`}>
+                                <span className={`absolute top-4 ${isRTL ? 'right-4' : 'left-4'} px-3 py-1.5 bg-red-600 text-white text-sm font-bold rounded-full z-10 shadow-lg`}>
                                     -{discount}%
                                 </span>
                             )}
@@ -446,7 +446,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         c2paHash={product.contentCredentials?.signature ? String(product.contentCredentials.signature).slice(0, 32) : undefined}
                                         fill
                                         priority
-                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
                                         imageClassName="object-cover transition-transform hover:scale-105"
                                         isPrimary
                                         locale={locale}
@@ -554,7 +554,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <ul className="space-y-1">
                                     {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point: string, idx: number) => (
                                         <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
-                                            <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${brand === 'anker' ? 'bg-blue-500' : 'bg-red-500'}`} />
+                                            <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${brand === 'anker' ? 'bg-blue-600' : 'bg-red-600'}`} />
                                             {point}
                                         </li>
                                     ))}

@@ -96,7 +96,7 @@ export default function ProductTestResults({
             icon: '🌡️',
             label: isArabic ? 'أقصى حرارة مسجلة أثناء التشغيل' : 'Max Recorded Temperature Under Load',
             value: `${labMetrics.maxTemp_C}°C`,
-            color: isSafe ? 'text-emerald-600 dark:text-emerald-400' : 'text-amber-600 dark:text-amber-400',
+            color: isSafe ? 'text-emerald-700 dark:text-emerald-400' : 'text-amber-700 dark:text-amber-400',
             schemaNote: isArabic
                 ? `أقصى حرارة: ${labMetrics.maxTemp_C}°C (${isSafe ? 'آمن' : 'يحتاج تهوية'})`
                 : `Max temp: ${labMetrics.maxTemp_C}°C (${isSafe ? 'safe' : 'needs ventilation'})`,
@@ -108,7 +108,7 @@ export default function ProductTestResults({
             icon: '⚡',
             label: isArabic ? 'الكفاءة الفعلية (مقابل 100% نظري)' : 'Real-World Efficiency (vs 100% theoretical)',
             value: `${labMetrics.realEfficiency}%`,
-            color: labMetrics.realEfficiency >= 70 ? 'text-emerald-600 dark:text-emerald-400' : 'text-amber-600 dark:text-amber-400',
+            color: labMetrics.realEfficiency >= 70 ? 'text-emerald-700 dark:text-emerald-400' : 'text-amber-700 dark:text-amber-400',
             schemaNote: isArabic
                 ? `الكفاءة الفعلية ${labMetrics.realEfficiency}% (طبيعي لدوائر الحماية الحرارية)`
                 : `Real efficiency ${labMetrics.realEfficiency}% (normal for thermal protection circuits)`,
@@ -132,7 +132,7 @@ export default function ProductTestResults({
             icon: '⚡',
             label: isArabic ? 'سرعة الشحن الفعلية' : 'Actual Charging Speed',
             value: `${labMetrics.chargingSpeed_W}W`,
-            color: 'text-cyan-600 dark:text-cyan-400',
+            color: 'text-cyan-700 dark:text-cyan-400',
             schemaNote: isArabic
                 ? `سرعة شحن فعلية ${labMetrics.chargingSpeed_W} واط`
                 : `Actual charging speed: ${labMetrics.chargingSpeed_W}W`,
@@ -327,7 +327,7 @@ export default function ProductTestResults({
                                     <>صمد في اختبار تشغيل الراوتر (12V) لمدة <strong className="text-blue-600 dark:text-blue-400">{labMetrics.routerRuntimeHours} ساعة</strong> متواصلة.{' '}</>
                                 )}
                                 {labMetrics.chargingSpeed_W && labMetrics.chargingSpeed_W >= 30 && (
-                                    <><strong className="text-gray-900 dark:text-white">قسنا</strong> سرعة الشحن الفعلية ووصلت <strong className="text-cyan-600 dark:text-cyan-400">{labMetrics.chargingSpeed_W} واط</strong> مستقرة.{' '}</>
+                                    <><strong className="text-gray-900 dark:text-white">قسنا</strong> سرعة الشحن الفعلية ووصلت <strong className="text-cyan-700 dark:text-cyan-400">{labMetrics.chargingSpeed_W} واط</strong> مستقرة.{' '}</>
                                 )}
                                 {labMetrics.bendCycles && (
                                     <>أخضعناه لـ <strong className="text-emerald-600 dark:text-emerald-400">{labMetrics.bendCycles.toLocaleString()} دورة ثني</strong> بدون أي تلف مادي.{' '}</>
@@ -350,7 +350,7 @@ export default function ProductTestResults({
                                     <>It survived our router (12V) runtime test for <strong className="text-blue-600 dark:text-blue-400">{labMetrics.routerRuntimeHours} hours</strong> continuously.{' '}</>
                                 )}
                                 {labMetrics.chargingSpeed_W && labMetrics.chargingSpeed_W >= 30 && (
-                                    <><strong className="text-gray-900 dark:text-white">We measured</strong> actual charging speed at a stable <strong className="text-cyan-600 dark:text-cyan-400">{labMetrics.chargingSpeed_W}W</strong>.{' '}</>
+                                    <><strong className="text-gray-900 dark:text-white">We measured</strong> actual charging speed at a stable <strong className="text-cyan-700 dark:text-cyan-400">{labMetrics.chargingSpeed_W}W</strong>.{' '}</>
                                 )}
                                 {labMetrics.bendCycles && (
                                     <>Subjected to <strong className="text-emerald-600 dark:text-emerald-400">{labMetrics.bendCycles.toLocaleString()} bend cycles</strong> with zero physical damage.{' '}</>

@@ -144,6 +144,7 @@ export default async function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${cairo.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
+        suppressHydrationWarning
       >
 
 
@@ -317,34 +318,6 @@ export default async function RootLayout({
             `
           }}
         />
-        {/* Statcounter Analytics - lazyOnload for zero LCP/FCP impact */}
-        <Script
-          id="statcounter-config"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `
-              var sc_project=13202580; 
-              var sc_invisible=1; 
-              var sc_security="83195b7d"; 
-            `
-          }}
-        />
-        <Script
-          src="https://www.statcounter.com/counter/counter.js"
-          strategy="lazyOnload"
-        />
-        <noscript>
-          <div className="statcounter">
-            <a title="real time web analytics" href="https://statcounter.com/" target="_blank">
-              <img
-                className="statcounter"
-                src="https://c.statcounter.com/13202580/0/83195b7d/1/"
-                alt="real time web analytics"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </a>
-          </div>
-        </noscript>
       </body>
     </html>
   );

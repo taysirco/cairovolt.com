@@ -169,7 +169,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 disabled={isMain}
                                 className={`relative flex-shrink-0 w-[calc(50%-8px)] min-w-[130px] max-w-[180px] sm:w-[160px] rounded-2xl border-2 p-2.5 sm:p-3 bg-white dark:bg-gray-800 transition-all duration-300 snap-center
                                     ${isSelected
-                                        ? 'border-green-500 shadow-lg shadow-green-500/20'
+                                        ? 'border-green-600 shadow-lg shadow-green-600/20'
                                         : 'border-gray-200 dark:border-gray-700 opacity-60'
                                     }
                                     ${!isMain ? 'active:scale-95 cursor-pointer' : 'cursor-default'}`}
@@ -220,7 +220,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                 {/* Reason Text */}
                                 {!isMain && item.reason[isArabic ? 'ar' : 'en'] && (
-                                    <p className="text-[10px] text-orange-600 dark:text-orange-400 font-medium mb-1 line-clamp-1 text-start">
+                                    <p className="text-[10px] text-orange-700 dark:text-orange-400 font-medium mb-1 line-clamp-1 text-start">
                                         💡 {item.reason[isArabic ? 'ar' : 'en']}
                                     </p>
                                 )}
@@ -338,7 +338,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 >
                                     <div className={`w-48 rounded-2xl border-2 p-4 bg-white dark:bg-gray-800 transition-all
                                         ${isSelected
-                                            ? 'border-green-500 shadow-xl shadow-green-100 dark:shadow-green-900/20'
+                                            ? 'border-green-600 shadow-xl shadow-green-100 dark:shadow-green-900/20'
                                             : 'border-gray-200 dark:border-gray-700'
                                         }`}
                                     >
@@ -375,7 +375,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                             {/* Reason Text */}
                                             {!isMain && item.reason[isArabic ? 'ar' : 'en'] && (
-                                                <p className="text-[11px] text-orange-600 dark:text-orange-400 font-medium mb-2 line-clamp-1">
+                                                <p className="text-[11px] text-orange-700 dark:text-orange-400 font-medium mb-2 line-clamp-1">
                                                     💡 {item.reason[isArabic ? 'ar' : 'en']}
                                                 </p>
                                             )}
@@ -398,7 +398,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                         {/* Checkbox in corner */}
                                         <div className={`absolute top-3 ${isArabic ? 'left-3' : 'right-3'} w-6 h-6 rounded-md border-2 flex items-center justify-center transition-all
                                             ${isSelected
-                                                ? 'bg-green-500 border-green-500 text-white'
+                                                ? 'bg-green-600 border-green-600 text-white'
                                                 : 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800'
                                             }`}
                                         >
