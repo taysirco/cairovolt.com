@@ -261,7 +261,7 @@ export default async function BrandHubPage({ params }: Props) {
                             <h3 className={`text-lg md:text-2xl font-black mb-2 ${brand === 'joyroom' ? 'group-hover:text-red-600' : 'group-hover:text-blue-600'}`}>
                                 {isRTL ? cat.title.ar : cat.title.en}
                             </h3>
-                            <p className="text-sm md:text-base text-gray-500 dark:text-gray-400 font-medium mb-4">
+                            <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 font-medium mb-4">
                                 {isRTL ? cat.description.ar : cat.description.en}
                             </p>
 
@@ -307,7 +307,7 @@ export default async function BrandHubPage({ params }: Props) {
                                     <span className="font-bold text-sm text-gray-900 dark:text-white">
                                         {isRTL ? badge.title.ar : badge.title.en}
                                     </span>
-                                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                                    <span className="text-xs text-gray-600 dark:text-gray-400">
                                         {isRTL ? badge.description.ar : badge.description.en}
                                     </span>
                                 </div>
@@ -341,7 +341,7 @@ export default async function BrandHubPage({ params }: Props) {
                                     <span className="text-2xl md:text-3xl font-black text-blue-600 dark:text-blue-400 block mb-1">
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
-                                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                                    <span className="text-xs text-gray-600 dark:text-gray-400">
                                         {isRTL ? achievement.label.ar : achievement.label.en}
                                     </span>
                                 </div>
@@ -387,7 +387,7 @@ export default async function BrandHubPage({ params }: Props) {
                                 <h4 className="text-xl font-bold mb-3 dark:text-white">
                                     {isRTL ? item.title.ar : item.title.en}
                                 </h4>
-                                <p className="text-gray-500 dark:text-gray-400 leading-relaxed">
+                                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                                     {isRTL ? item.description.ar : item.description.en}
                                 </p>
                             </div>

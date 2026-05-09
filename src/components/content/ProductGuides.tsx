@@ -118,19 +118,19 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                         <span className="text-sm font-medium text-gray-800 dark:text-gray-200 block mb-2">{comp.name}</span>
                         <div className="grid grid-cols-2 gap-2 text-xs">
                             <div>
-                                <span className="text-gray-500 dark:text-gray-400">{labels.price}: </span>
+                                <span className="text-gray-600 dark:text-gray-400">{labels.price}: </span>
                                 <span className="text-gray-700 dark:text-gray-300">{typeof comp.price === 'number' ? `${comp.price} ${labels.egp}` : comp.price}</span>
                             </div>
                             <div>
-                                <span className="text-gray-500 dark:text-gray-400">{labels.warranty}: </span>
+                                <span className="text-gray-600 dark:text-gray-400">{labels.warranty}: </span>
                                 <span className="text-gray-700 dark:text-gray-300">{comp.warranty}</span>
                             </div>
                             <div>
-                                <span className="text-gray-500 dark:text-gray-400">{labels.delivery}: </span>
+                                <span className="text-gray-600 dark:text-gray-400">{labels.delivery}: </span>
                                 <span className="text-gray-700 dark:text-gray-300">{comp.delivery}</span>
                             </div>
                             <div>
-                                <span className="text-gray-500 dark:text-gray-400">{labels.original}: </span>
+                                <span className="text-gray-600 dark:text-gray-400">{labels.original}: </span>
                                 {comp.original ? (
                                     <span className="text-green-700 dark:text-green-400 font-medium">{labels.yes}</span>
                                 ) : (
@@ -217,7 +217,7 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                     '* Officially authorized by Anker & Joyroom — Commercial Registry 8446',
                 ];
                 return (
-                    <p className="mt-4 text-xs text-gray-500 dark:text-gray-400 text-center">
+                    <p className="mt-4 text-xs text-gray-600 dark:text-gray-400 text-center">
                         {isArabic ? arTrustLines[catHash % arTrustLines.length] : enTrustLines[catHash % enTrustLines.length]}
                     </p>
                 );
@@ -374,7 +374,7 @@ export function ExpertOpinion({ productName, brand, category, locale, customOpin
                                 <path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
                             </svg>
                         </div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+                        <span className="text-sm text-gray-600 dark:text-gray-400 font-medium">
                             {t.verified}
                         </span>
                     </div>

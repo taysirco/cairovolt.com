@@ -62,7 +62,7 @@ export default function BackupTimeCalculator({ locale }: BackupTimeCalculatorPro
             <h3 className="text-xl font-bold mb-2 text-blue-600 dark:text-blue-400">
                 {isArabic ? '⚡ حاسبة مختبر كايرو فولت لأزمة الكهرباء' : '⚡ CairoVolt Power Outage Calculator'}
             </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">
                 {isArabic
                     ? 'احسب بدقة كم ساعة سيصمد جهازك على هذا الباور بانك (Anker 737) قبل الشراء.'
                     : 'Calculate exactly how long your device will last on the Anker 737 power bank before buying.'}

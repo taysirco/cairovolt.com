@@ -111,7 +111,7 @@ export default function ShareButtons({ slug, productName, price, locale = 'ar', 
     return (
         <div className={`flex items-center gap-2 ${compact ? '' : 'flex-wrap'}`} dir={isArabic ? 'rtl' : 'ltr'}>
             {!compact && (
-                <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">
+                <span className="text-xs text-gray-600 dark:text-gray-400 font-medium">
                     {isArabic ? 'شارك:' : 'Share:'}
                 </span>
             )}

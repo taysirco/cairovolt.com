@@ -125,7 +125,7 @@ export default async function BlogPage({ params }: Props) {
                                         </p>
 
                                         {/* Meta */}
-                                        <div className="flex items-center justify-between text-sm md:text-xs text-gray-500 dark:text-gray-400 pt-5 md:pt-4 border-t border-gray-100 dark:border-gray-700">
+                                        <div className="flex items-center justify-between text-sm md:text-xs text-gray-600 dark:text-gray-400 pt-5 md:pt-4 border-t border-gray-100 dark:border-gray-700">
                                             <span>
                                                 {new Date(article.modifiedDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
                                                     year: 'numeric',

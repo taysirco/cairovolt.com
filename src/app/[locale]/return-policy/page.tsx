@@ -72,7 +72,7 @@ export default function ReturnPolicyPage() {
                         <h1 className="text-4xl font-bold text-center mb-3 bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
                             {t('title')}
                         </h1>
-                        <p className="text-center text-gray-500 dark:text-gray-400 mb-10 text-sm">
+                        <p className="text-center text-gray-600 dark:text-gray-400 mb-10 text-sm">
                             {t('lastUpdated')}
                         </p>
 
@@ -88,7 +88,7 @@ export default function ReturnPolicyPage() {
                                 <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-xl p-6 text-center">
                                     <p className="text-5xl font-bold text-orange-500 mb-2">14</p>
                                     <p className="text-lg font-medium">{t('window.days')}</p>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">{t('window.description')}</p>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">{t('window.description')}</p>
                                 </div>
                             </section>
 
@@ -160,14 +160,14 @@ export default function ReturnPolicyPage() {
                                     <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6">
                                         <h3 className="font-semibold text-lg mb-2 text-green-700 dark:text-green-400">{t('refund.processing')}</h3>
                                         <p className="text-3xl font-bold text-green-600">5-7</p>
-                                        <p className="text-sm text-gray-500 dark:text-gray-400">{t('refund.businessDays')}</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400">{t('refund.businessDays')}</p>
                                     </div>
                                     <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6">
                                         <h3 className="font-semibold text-lg mb-2 text-blue-700 dark:text-blue-400">{t('refund.method')}</h3>
                                         <p className="text-gray-600 dark:text-gray-300 text-sm">{t('refund.methodDescription')}</p>
                                     </div>
                                 </div>
-                                <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">{t('refund.shippingNote')}</p>
+                                <p className="text-sm text-gray-600 dark:text-gray-400 mt-4">{t('refund.shippingNote')}</p>
                             </section>
 
                             {/* Defective Products */}

@@ -351,7 +351,7 @@ export function GenericCategoryContent({
                                             <h3 className="font-semibold text-gray-900 dark:text-white mt-2 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors text-sm">
                                                 {trans.title}
                                             </h3>
-                                            <p className="text-xs text-gray-500 dark:text-gray-400 line-clamp-2">
+                                            <p className="text-xs text-gray-600 dark:text-gray-400 line-clamp-2">
                                                 {trans.metaDescription}
                                             </p>
                                         </Link>

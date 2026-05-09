@@ -79,7 +79,7 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
                         </p>
 
                         {/* Secondary: Today's stats */}
-                        <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500 dark:text-gray-500">
+                        <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-600 dark:text-gray-500">
                             <span>
                                 📦{' '}
                                 {isArabic

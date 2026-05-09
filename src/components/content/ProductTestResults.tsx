@@ -419,7 +419,7 @@ export default function ProductTestResults({
                         </svg>
                         {isArabic ? 'بيانات أصلية من مختبرات كايرو فولت' : 'First-Party Data from CairoVolt Labs'}
                     </span>
-                    <span className="text-[10px] text-gray-500 dark:text-gray-400 font-mono">
+                    <span className="text-[10px] text-gray-600 dark:text-gray-400 font-mono">
                         SKU: {sku} • {isArabic ? `تاريخ الاختبار: ${reviewDate}` : `Test date: ${reviewDate}`}
                     </span>
                 </div>

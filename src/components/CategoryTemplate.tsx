@@ -422,7 +422,7 @@ export default function CategoryTemplate({
                                     <span className="text-2xl md:text-3xl font-black text-purple-600 dark:text-purple-400 block mb-1">
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
-                                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                                    <span className="text-xs text-gray-600 dark:text-gray-400">
                                         {isRTL ? achievement.label.ar : achievement.label.en}
                                     </span>
                                 </div>
@@ -463,7 +463,7 @@ export default function CategoryTemplate({
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
                                             {isRTL ? useCase.title.ar : useCase.title.en}
                                         </h4>
-                                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                                        <p className="text-sm text-gray-600 dark:text-gray-400">
                                             {isRTL ? useCase.description.ar : useCase.description.en}
                                         </p>
                                     </div>
@@ -480,7 +480,7 @@ export default function CategoryTemplate({
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
                                             {isRTL ? badge.title.ar : badge.title.en}
                                         </span>
-                                        <span className="text-xs text-gray-500 dark:text-gray-400">
+                                        <span className="text-xs text-gray-600 dark:text-gray-400">
                                             {isRTL ? badge.description.ar : badge.description.en}
                                         </span>
                                     </div>
@@ -543,7 +543,7 @@ export default function CategoryTemplate({
                                     <span className="text-2xl md:text-3xl font-black text-blue-600 dark:text-blue-400 block mb-1">
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
-                                    <span className="text-xs text-gray-500 dark:text-gray-400">
+                                    <span className="text-xs text-gray-600 dark:text-gray-400">
                                         {isRTL ? achievement.label.ar : achievement.label.en}
                                     </span>
                                 </div>
@@ -584,7 +584,7 @@ export default function CategoryTemplate({
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
                                             {isRTL ? useCase.title.ar : useCase.title.en}
                                         </h4>
-                                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                                        <p className="text-sm text-gray-600 dark:text-gray-400">
                                             {isRTL ? useCase.description.ar : useCase.description.en}
                                         </p>
                                     </div>
@@ -601,7 +601,7 @@ export default function CategoryTemplate({
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
                                             {isRTL ? badge.title.ar : badge.title.en}
                                         </span>
-                                        <span className="text-xs text-gray-500 dark:text-gray-400">
+                                        <span className="text-xs text-gray-600 dark:text-gray-400">
                                             {isRTL ? badge.description.ar : badge.description.en}
                                         </span>
                                     </div>

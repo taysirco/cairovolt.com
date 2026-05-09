@@ -275,7 +275,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                     {/* Total Price */}
                     <div className="text-center mb-2 py-3 bg-white/50 dark:bg-gray-800/50 rounded-xl">
-                        <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">
+                        <div className="text-sm text-gray-600 dark:text-gray-400 mb-1">
                             {isArabic ? 'الإجمالي' : 'Total'}
                         </div>
                         {pricing.bundleDiscount > 0 && (
@@ -291,7 +291,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                     {/* Daily Cost — Psychological Pricing */}
                     {pricing.isFullBundle && pricing.dailyCost > 0 && (
-                        <p className="text-center text-xs text-gray-500 dark:text-gray-400 mb-4">
+                        <p className="text-center text-xs text-gray-600 dark:text-gray-400 mb-4">
                             {isArabic
                                 ? `💡 يعني بس ${pricing.dailyCost} ج.م في اليوم لمدة سنة`
                                 : `💡 That's only ${pricing.dailyCost} EGP/day for a full year`}
@@ -458,7 +458,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                 {/* Daily Cost */}
                                 {pricing.isFullBundle && pricing.dailyCost > 0 && (
-                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                                    <p className="text-xs text-gray-600 dark:text-gray-400 mt-2">
                                         💡 {isArabic
                                             ? `${pricing.dailyCost} ج.م/يوم لمدة سنة`
                                             : `${pricing.dailyCost} EGP/day for a year`}

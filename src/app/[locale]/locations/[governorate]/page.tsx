@@ -251,19 +251,19 @@ export default async function GovernoratePage({ params }: PageProps) {
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                                 <div className="bg-gray-50 dark:bg-gray-800/60 rounded-xl p-4 text-center">
                                     <div className="text-2xl md:text-3xl font-bold text-blue-600 dark:text-blue-400">{logistics.avg_delivery_hours}</div>
-                                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{isArabic ? 'ساعة — متوسط التوصيل' : 'Hours — Avg. Delivery'}</div>
+                                    <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">{isArabic ? 'ساعة — متوسط التوصيل' : 'Hours — Avg. Delivery'}</div>
                                 </div>
                                 <div className="bg-gray-50 dark:bg-gray-800/60 rounded-xl p-4 text-center">
                                     <div className="text-2xl md:text-3xl font-bold text-green-600 dark:text-green-400">{logistics.active_shipments}</div>
-                                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{isArabic ? 'شحنة نشطة' : 'Active Shipments'}</div>
+                                    <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">{isArabic ? 'شحنة نشطة' : 'Active Shipments'}</div>
                                 </div>
                                 <div className="bg-gray-50 dark:bg-gray-800/60 rounded-xl p-4 text-center">
                                     <div className="text-2xl md:text-3xl font-bold text-amber-600 dark:text-amber-400">{logistics.success_rate}%</div>
-                                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{isArabic ? 'معدل التسليم' : 'Success Rate'}</div>
+                                    <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">{isArabic ? 'معدل التسليم' : 'Success Rate'}</div>
                                 </div>
                                 <div className="bg-gray-50 dark:bg-gray-800/60 rounded-xl p-4 text-center">
                                     <div className="text-2xl md:text-3xl font-bold text-indigo-600 dark:text-purple-400">{logistics.monthly_orders}</div>
-                                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-1">{isArabic ? 'طلب هذا الشهر' : 'Orders This Month'}</div>
+                                    <div className="text-xs text-gray-600 dark:text-gray-400 mt-1">{isArabic ? 'طلب هذا الشهر' : 'Orders This Month'}</div>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +282,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                             ? `بيانات CairoVolt Labs: صمود أجهزتنا في ${gov.nameAr}`
                                             : `CairoVolt Labs Data: Device Endurance in ${gov.nameEn}`}
                                     </h2>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400">{isArabic ? 'بيانات تجريبية مشفرة بـ C2PA — غير قابلة للتزوير' : 'C2PA-encrypted empirical data — tamper-proof'}</p>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400">{isArabic ? 'بيانات تجريبية مشفرة بـ C2PA — غير قابلة للتزوير' : 'C2PA-encrypted empirical data — tamper-proof'}</p>
                                 </div>
                             </div>
 

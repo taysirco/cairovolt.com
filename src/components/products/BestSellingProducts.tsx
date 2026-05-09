@@ -112,7 +112,7 @@ export default function BestSellingProducts({
                             ? `أفضل ${products.length} منتج من ${brandDisplayName}`
                             : `Top ${products.length} ${brandDisplayName} Products`}
                     </h2>
-                    <p className="text-base md:text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
+                    <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                         {isRTL
                             ? 'المنتجات الأعلى تقييماً والأكثر طلباً من عملائنا — أصلية 100% بضمان الوكيل'
                             : 'Top-rated and most requested by our customers — 100% original with official warranty'}
@@ -216,7 +216,7 @@ export default function BestSellingProducts({
                                                 {isRTL ? 'ج.م' : 'EGP'}
                                             </span>
                                             {product.originalPrice && product.originalPrice > product.price && (
-                                                <span className="text-xs text-gray-500 dark:text-gray-400 line-through block">
+                                                <span className="text-xs text-gray-600 dark:text-gray-400 line-through block">
                                                     {product.originalPrice.toLocaleString()}
                                                 </span>
                                             )}

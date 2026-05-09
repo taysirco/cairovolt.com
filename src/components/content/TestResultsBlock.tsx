@@ -94,7 +94,7 @@ export default function TestResultsBlock({
                                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                                 {isArabic ? 'فحص هندسي معتمد' : 'Verified Engineering Test'}
                             </span>
-                            <span className="text-[11px] text-gray-500 dark:text-gray-400 font-medium bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-full border border-gray-200 dark:border-white/10">
+                            <span className="text-[11px] text-gray-600 dark:text-gray-400 font-medium bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-full border border-gray-200 dark:border-white/10">
                                 {isArabic ? 'بيانات أصلية 100% — مختبرياً' : '100% Lab-Verified Data'}
                             </span>
                         </div>
@@ -106,7 +106,7 @@ export default function TestResultsBlock({
                     <div className="bg-gray-50 dark:bg-slate-800/40 rounded-xl p-4 md:p-5 border border-gray-200 dark:border-slate-700/50 hover:bg-gray-100 dark:hover:bg-slate-800/60 transition-colors">
                         <div className="flex items-center gap-2 mb-2">
                             <svg className="w-4 h-4 text-gray-400 dark:text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
-                            <p className="text-xs text-gray-500 dark:text-gray-400 font-bold uppercase tracking-widest">
+                            <p className="text-xs text-gray-600 dark:text-gray-400 font-bold uppercase tracking-widest">
                                 {isArabic ? selectedArScenario : selectedEnScenario}
                             </p>
                         </div>
@@ -132,7 +132,7 @@ export default function TestResultsBlock({
 
                     {/* Footer / Meta */}
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-6 pt-4 border-t border-gray-200 dark:border-slate-800">
-                        <div className="flex items-center gap-2 text-xs text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-slate-800/50 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700">
+                        <div className="flex items-center gap-2 text-xs text-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-slate-800/50 px-3 py-1.5 rounded-lg border border-gray-200 dark:border-slate-700">
                             <svg className="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                             <span>{testConditions}</span>
                         </div>

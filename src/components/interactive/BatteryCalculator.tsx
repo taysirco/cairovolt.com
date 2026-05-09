@@ -97,7 +97,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                                 <span className="text-2xl text-gray-400">.{Math.round(partialPercent / 10)}</span>
                             )}
                         </div>
-                        <div className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-4">
+                        <div className="text-sm font-medium text-gray-600 dark:text-gray-400 mb-4">
                             {isArabic ? 'مرة شحن كاملة' : 'full charges'}
                         </div>
 
@@ -132,7 +132,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                 {/* Quick comparison */}
                 <div className="grid grid-cols-2 gap-3 text-center">
                     <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-3">
-                        <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
+                        <div className="text-xs text-gray-600 dark:text-gray-400 mb-1">
                             {isArabic ? 'سعة الباور بانك' : 'Power Bank'}
                         </div>
                         <div className="text-lg font-bold text-gray-900 dark:text-white">
@@ -140,7 +140,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                         </div>
                     </div>
                     <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-3">
-                        <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
+                        <div className="text-xs text-gray-600 dark:text-gray-400 mb-1">
                             {isArabic ? 'بطارية الموبايل' : 'Phone Battery'}
                         </div>
                         <div className="text-lg font-bold text-gray-900 dark:text-white">

@@ -123,7 +123,7 @@ export function CategoryOverviewBlock({
             </div>
 
             {/* Quality Indicators — Dynamically Rotated */}
-            <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700 flex flex-wrap gap-3 text-xs text-gray-500 dark:text-gray-400">
+            <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700 flex flex-wrap gap-3 text-xs text-gray-600 dark:text-gray-400">
                 {(() => {
                     const arTrustSets = [
                         ['أصلي 100%', 'ضمان رسمي', 'توصيل سريع'],
@@ -230,7 +230,7 @@ export function CollectionOverviewBlock({
                             <div className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400">
                                 {productCount}+
                             </div>
-                            <div className="text-xs text-gray-500 dark:text-gray-400">
+                            <div className="text-xs text-gray-600 dark:text-gray-400">
                                 {isArabic ? 'منتج' : 'Products'}
                             </div>
                         </div>
@@ -238,7 +238,7 @@ export function CollectionOverviewBlock({
                             <div className="text-xl md:text-2xl font-bold text-green-600 dark:text-green-400">
                                 18
                             </div>
-                            <div className="text-xs text-gray-500 dark:text-gray-400">
+                            <div className="text-xs text-gray-600 dark:text-gray-400">
                                 {isArabic ? 'شهر ضمان' : 'Month Warranty'}
                             </div>
                         </div>
@@ -246,7 +246,7 @@ export function CollectionOverviewBlock({
                             <div className="text-xl md:text-2xl font-bold text-purple-600 dark:text-purple-400">
                                 27
                             </div>
-                            <div className="text-xs text-gray-500 dark:text-gray-400">
+                            <div className="text-xs text-gray-600 dark:text-gray-400">
                                 {isArabic ? 'محافظة' : 'Governorates'}
                             </div>
                         </div>

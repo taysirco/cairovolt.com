@@ -344,7 +344,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {/* Breadcrumb */}
             <div className="bg-gray-50 dark:bg-gray-900/50 border-b border-gray-200 dark:border-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-                    <nav className="text-sm text-gray-500 dark:text-gray-400" aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'}>
+                    <nav className="text-sm text-gray-600 dark:text-gray-400" aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'}>
                         <div className="flex flex-wrap items-center gap-y-1">
                             <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors flex-shrink-0">
                                 {locale === 'ar' ? 'الرئيسية' : 'Home'}
@@ -531,7 +531,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     {product.brand} — {tProduct('inStock')}
                                 </span>
                             ) : (
-                                <span className="px-4 py-1.5 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-full">
+                                <span className="px-4 py-1.5 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">
                                     {tProduct('outOfStock')}
                                 </span>
                             )}
@@ -593,7 +593,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             </span>
                             {activeOriginalPrice && (
                                 <>
-                                    <span className="text-base md:text-xl text-gray-500 dark:text-gray-400 line-through mb-0.5 md:mb-1">
+                                    <span className="text-base md:text-xl text-gray-600 dark:text-gray-400 line-through mb-0.5 md:mb-1">
                                         {activeOriginalPrice.toLocaleString()}
                                     </span>
                                     <span className="px-2 py-0.5 bg-green-100 text-green-700 text-sm font-bold rounded">
@@ -699,7 +699,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     <p className="text-lg font-bold text-gray-700 dark:text-gray-300 mb-1">
                                         {isRTL ? 'هذا المنتج غير متوفر حالياً' : 'This product is currently out of stock'}
                                     </p>
-                                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
                                         {isRTL ? 'تواصل معنا عبر واتساب لمعرفة موعد التوفر' : 'Contact us via WhatsApp to know when it\'s back'}
                                     </p>
                                     <a
@@ -905,25 +905,25 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             </thead>
                             <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
                                 <tr>
-                                    <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('brand')}</td>
+                                    <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('brand')}</td>
                                     <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{product.brand}</td>
                                 </tr>
                                 {product.sku && (
                                     <tr>
-                                        <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('sku')}</td>
+                                        <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('sku')}</td>
                                         <td className="py-4 font-bold font-mono text-end text-gray-900 dark:text-white">{product.sku}</td>
                                     </tr>
                                 )}
                                 <tr>
-                                    <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('category')}</td>
+                                    <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('category')}</td>
                                     <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{translatedCategory}</td>
                                 </tr>
                                 <tr>
-                                    <td className="py-4 text-gray-500 dark:text-gray-400">{tProduct('warranty')}</td>
+                                    <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('warranty')}</td>
                                     <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? (brand === 'joyroom' ? '12 شهر' : '18 شهر') : (brand === 'joyroom' ? '12 Months' : '18 Months')}</td>
                                 </tr>
                                 <tr>
-                                    <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>
+                                    <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>
                                     <td className={`py-4 font-bold text-end ${(product.stock || 0) > 0 ? 'text-green-600' : 'text-red-600'}`}>
                                         {(product.stock || 0) > 0 ? (isRTL ? 'متوفر' : 'Available') : (isRTL ? 'غير متوفر' : 'Out of Stock')}
                                     </td>
@@ -931,7 +931,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 {/* Product-specific specifications */}
                                 {productDetail?.specifications && (Object.entries(productDetail.specifications) as [string, { en: string; ar: string }][]).map(([key, val]) => (
                                     <tr key={key}>
-                                        <td className="py-4 text-gray-500 dark:text-gray-400">{isRTL ? key : key}</td>
+                                        <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? key : key}</td>
                                         <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? val.ar : val.en}</td>
                                     </tr>
                                 ))}

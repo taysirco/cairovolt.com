@@ -120,7 +120,7 @@ export default function ProductGuarantees({
 
                         {/* Sorting Hub */}
                         <div className="mt-4 pt-3 border-t border-gray-200 dark:border-slate-700/50">
-                            <p className="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1.5">
+                            <p className="text-xs text-gray-600 dark:text-gray-400 flex items-center gap-1.5">
                                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
