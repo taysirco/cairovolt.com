@@ -30,7 +30,7 @@ export function GET() {
                 url: `${baseUrl}/en/contact`,
             },
             'x-logo': {
-                url: `${baseUrl}/cairovolt_logo.png`,
+                url: `${baseUrl}/cairovolt_logo.webp`,
             },
         },
         // MPP: Top-level service info for payment categorization

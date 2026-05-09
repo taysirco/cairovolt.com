@@ -27,7 +27,7 @@ export default function Footer() {
                     <div className="col-span-2 md:col-span-1">
                         <div className="mb-3 md:mb-4">
                             <Image
-                                src="/cairovolt_logo.png"
+                                src="/cairovolt_logo.webp"
                                 alt={isRTL ? 'كايرو فولت' : 'Cairo Volt'}
                                 width={160}
                                 height={89}

@@ -378,7 +378,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
             : 'Authorized dealer for Anker and Joyroom products in Egypt. Power banks, chargers, earbuds, cables at best prices with official warranty.',
         url: 'https://cairovolt.com',
         logo: 'https://cairovolt.com/logo.png',
-        image: 'https://cairovolt.com/cairovolt_logo.png',
+        image: 'https://cairovolt.com/cairovolt_logo.webp',
         telephone: '+201558245974',
         email: 'support@cairovolt.com',
         currenciesAccepted: 'EGP',

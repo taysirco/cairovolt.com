@@ -102,7 +102,7 @@ export default function Header() {
                     >
                         <div className="flex items-center">
                                 <Image
-                                    src="/cairovolt_logo.png"
+                                    src="/cairovolt_logo.webp"
                                     alt="CairoVolt"
                                     width={160}
                                     height={89}
@@ -299,7 +299,7 @@ export default function Header() {
                             <Link href={getLocalizedHref('/')} className="flex items-center gap-2" onClick={() => setMobileMenuOpen(false)}>
                                 <div className="flex items-center">
                                     <Image
-                                        src="/cairovolt_logo.png"
+                                        src="/cairovolt_logo.webp"
                                         alt="CairoVolt"
                                         width={120}
                                         height={67}

@@ -93,7 +93,7 @@ export async function GET() {
         return {
             title: article.translations.ar.title,
             link: `https://cairovolt.com/blog/${article.slug}`,
-            image: image || 'https://cairovolt.com/cairovolt_logo.png',
+            image: image || 'https://cairovolt.com/cairovolt_logo.webp',
             description: article.translations.ar.excerpt,
         };
     });

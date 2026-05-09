@@ -332,6 +332,7 @@ export default function CategoryTemplate({
                                         brand={brand}
                                         category={categorySlug}
                                         fill
+                                        priority={idx < 4}
                                         loading={idx < 4 ? 'eager' : 'lazy'}
                                         sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                                         imageClassName="object-contain p-2 group-hover:scale-105 transition-transform"
