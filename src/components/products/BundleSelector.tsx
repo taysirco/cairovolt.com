@@ -126,7 +126,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
         if (slot === 'essential') {
             return {
                 text: isArabic ? 'مطلوب معاه' : 'Essential',
-                className: 'bg-blue-500 text-white',
+                className: 'bg-blue-600 text-white',
             };
         }
         return {
@@ -186,7 +186,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                 {/* Slot Badge */}
                                 {isMain ? (
-                                    <div className={`absolute top-2 ${isArabic ? 'right-2' : 'left-2'} px-2 py-0.5 bg-blue-500 text-white text-[10px] font-bold rounded-full z-10`}>
+                                    <div className={`absolute top-2 ${isArabic ? 'right-2' : 'left-2'} px-2 py-0.5 bg-blue-600 text-white text-[10px] font-bold rounded-full z-10`}>
                                         {isArabic ? 'رئيسي' : 'Main'}
                                     </div>
                                 ) : badge && (

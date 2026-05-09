@@ -71,7 +71,7 @@ export default function ProductTestResults({
             icon: '🔋',
             label: isArabic ? 'السعة الفعلية القابلة للاستخدام' : 'Actual Usable Capacity',
             value: `${labMetrics.actualCapacity_mAh.toLocaleString()} ${isArabic ? 'مللي أمبير' : 'mAh'}`,
-            color: 'text-emerald-600 dark:text-emerald-400',
+            color: 'text-emerald-700 dark:text-emerald-400',
             schemaNote: isArabic
                 ? `السعة الفعلية: ${labMetrics.actualCapacity_mAh} مللي أمبير`
                 : `Actual capacity: ${labMetrics.actualCapacity_mAh} mAh`,
@@ -144,7 +144,7 @@ export default function ProductTestResults({
             icon: '📱',
             label: isArabic ? 'عدد الأجهزة المشحونة فعلياً' : 'Devices Actually Charged',
             value: `${labMetrics.devicesCharged} ${isArabic ? 'جهاز' : 'devices'}`,
-            color: 'text-emerald-600 dark:text-emerald-400',
+            color: 'text-emerald-700 dark:text-emerald-400',
             schemaNote: isArabic
                 ? `شحن ${labMetrics.devicesCharged} جهاز فعلياً في اختبارنا`
                 : `Actually charged ${labMetrics.devicesCharged} devices in our test`,
@@ -156,7 +156,7 @@ export default function ProductTestResults({
             icon: '🔧',
             label: isArabic ? 'دورات الثني بدون تلف' : 'Bend Cycles Without Damage',
             value: `${labMetrics.bendCycles.toLocaleString()}`,
-            color: 'text-emerald-600 dark:text-emerald-400',
+            color: 'text-emerald-700 dark:text-emerald-400',
             schemaNote: isArabic
                 ? `اجتاز ${labMetrics.bendCycles} دورة ثني بدون أي تلف`
                 : `Passed ${labMetrics.bendCycles} bend cycles without damage`,
@@ -321,7 +321,7 @@ export default function ProductTestResults({
                                 لقد <strong className="text-gray-900 dark:text-white">قمنا باختبار</strong> هذا المنتج (<span className="font-semibold">{productName}</span>) فعلياً داخل مختبراتنا.{' '}
                                 باستخدام أجهزة القياس المعتمدة، <strong className="text-gray-900 dark:text-white">قسنا</strong> الأداء الفعلي{' '}
                                 {labMetrics.actualCapacity_mAh && (
-                                    <>و<strong className="text-gray-900 dark:text-white">وجدنا</strong> أن السعة الفعلية القابلة للاستخدام <strong className="text-emerald-600 dark:text-emerald-400">{labMetrics.actualCapacity_mAh.toLocaleString()} مللي أمبير</strong>.{' '}</>
+                                    <>و<strong className="text-gray-900 dark:text-white">وجدنا</strong> أن السعة الفعلية القابلة للاستخدام <strong className="text-emerald-700 dark:text-emerald-400">{labMetrics.actualCapacity_mAh.toLocaleString()} مللي أمبير</strong>.{' '}</>
                                 )}
                                 {labMetrics.routerRuntimeHours && (
                                     <>صمد في اختبار تشغيل الراوتر (12V) لمدة <strong className="text-blue-600 dark:text-blue-400">{labMetrics.routerRuntimeHours} ساعة</strong> متواصلة.{' '}</>
@@ -330,7 +330,7 @@ export default function ProductTestResults({
                                     <><strong className="text-gray-900 dark:text-white">قسنا</strong> سرعة الشحن الفعلية ووصلت <strong className="text-cyan-700 dark:text-cyan-400">{labMetrics.chargingSpeed_W} واط</strong> مستقرة.{' '}</>
                                 )}
                                 {labMetrics.bendCycles && (
-                                    <>أخضعناه لـ <strong className="text-emerald-600 dark:text-emerald-400">{labMetrics.bendCycles.toLocaleString()} دورة ثني</strong> بدون أي تلف مادي.{' '}</>
+                                    <>أخضعناه لـ <strong className="text-emerald-700 dark:text-emerald-400">{labMetrics.bendCycles.toLocaleString()} دورة ثني</strong> بدون أي تلف مادي.{' '}</>
                                 )}
                                 {labMetrics.noiseReduction_dB && (
                                     <><strong className="text-gray-900 dark:text-white">قسنا</strong> عزل الضوضاء الفعلي ووجدناه <strong className="text-purple-600 dark:text-purple-400">{labMetrics.noiseReduction_dB} ديسيبل</strong>.{' '}</>
@@ -344,7 +344,7 @@ export default function ProductTestResults({
                                 We have <strong className="text-gray-900 dark:text-white">tested</strong> this product (<span className="font-semibold">{productName}</span>) first-hand in our labs.{' '}
                                 Using calibrated equipment, <strong className="text-gray-900 dark:text-white">we measured</strong> the actual performance{' '}
                                 {labMetrics.actualCapacity_mAh && (
-                                    <>and <strong className="text-gray-900 dark:text-white">found</strong> the actual usable capacity to be <strong className="text-emerald-600 dark:text-emerald-400">{labMetrics.actualCapacity_mAh.toLocaleString()} mAh</strong>.{' '}</>
+                                    <>and <strong className="text-gray-900 dark:text-white">found</strong> the actual usable capacity to be <strong className="text-emerald-700 dark:text-emerald-400">{labMetrics.actualCapacity_mAh.toLocaleString()} mAh</strong>.{' '}</>
                                 )}
                                 {labMetrics.routerRuntimeHours && (
                                     <>It survived our router (12V) runtime test for <strong className="text-blue-600 dark:text-blue-400">{labMetrics.routerRuntimeHours} hours</strong> continuously.{' '}</>
@@ -353,7 +353,7 @@ export default function ProductTestResults({
                                     <><strong className="text-gray-900 dark:text-white">We measured</strong> actual charging speed at a stable <strong className="text-cyan-700 dark:text-cyan-400">{labMetrics.chargingSpeed_W}W</strong>.{' '}</>
                                 )}
                                 {labMetrics.bendCycles && (
-                                    <>Subjected to <strong className="text-emerald-600 dark:text-emerald-400">{labMetrics.bendCycles.toLocaleString()} bend cycles</strong> with zero physical damage.{' '}</>
+                                    <>Subjected to <strong className="text-emerald-700 dark:text-emerald-400">{labMetrics.bendCycles.toLocaleString()} bend cycles</strong> with zero physical damage.{' '}</>
                                 )}
                                 {labMetrics.noiseReduction_dB && (
                                     <><strong className="text-gray-900 dark:text-white">We measured</strong> actual noise isolation at <strong className="text-purple-600 dark:text-purple-400">{labMetrics.noiseReduction_dB} dB</strong>.{' '}</>
