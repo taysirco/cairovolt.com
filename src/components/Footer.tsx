@@ -36,7 +36,7 @@ export default function Footer() {
                                 className="object-contain h-[58px] md:h-[67px] w-auto dark:[filter:brightness(0)_invert(1)]"
                             />
                         </div>
-                        <p className="text-gray-500 dark:text-gray-400 text-xs md:text-sm leading-relaxed mb-4">
+                        <p className="text-gray-600 dark:text-gray-400 text-xs md:text-sm leading-relaxed mb-4">
                             {t('aboutDescription')}
                         </p>
                         <div className="flex items-center gap-3 text-sm">
@@ -181,7 +181,7 @@ export default function Footer() {
 
                 {/* About Us Summary */}
                 <div className="border-t border-gray-200 dark:border-gray-800 pt-6 pb-4">
-                    <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed text-center max-w-4xl mx-auto">
+                    <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed text-center max-w-4xl mx-auto">
                         <span>
                             {isRTL
                                 ? 'كايرو فولت (CairoVolt) هو موزع معتمد لمنتجات Anker وJoyroom الأصلية في مصر، متخصص في إكسسوارات الهواتف المحمولة والشحن السريع مع توصيل لجميع المحافظات.'

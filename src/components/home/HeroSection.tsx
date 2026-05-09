@@ -105,16 +105,9 @@ export default function HeroSection({ locale }: HeroSectionProps) {
       id="hero-section"
       className="relative overflow-hidden"
       style={{
-        background: 'linear-gradient(135deg, #0a0f1c 0%, #111d35 50%, #0d1628 100%)',
+        background: 'radial-gradient(ellipse at center, rgba(59,130,246,0.15) 0%, transparent 50%), linear-gradient(135deg, #0a0f1c 0%, #111d35 50%, #0d1628 100%)',
       }}
     >
-      {/* Ambient glow */}
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-20 blur-[120px] pointer-events-none"
-        style={{
-          background: 'radial-gradient(circle, #3b82f6, transparent 70%)',
-        }}
-      />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         {/* Main hero layout */}
@@ -208,11 +201,13 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           {/* Image Side — 1:1 aspect ratio, responsive, full-bleed */}
           <div className="flex-1 relative flex justify-center items-center z-10 w-full lg:w-auto px-4 sm:px-0">
             <div className="relative w-full max-w-[360px] sm:max-w-[380px] lg:max-w-[420px] aspect-square">
-              {/* Glow ring behind product */}
+              {/* Glow ring behind product — CSS-only, no layout shift */}
               <div
-                className="absolute inset-[-20%] rounded-full opacity-25 blur-[80px]"
+                className="absolute inset-[-20%] rounded-full opacity-25 blur-[80px] pointer-events-none"
                 style={{
                   background: 'radial-gradient(circle, #3b82f6, transparent 70%)',
+                  willChange: 'transform',
+                  contain: 'strict',
                 }}
               />
               
