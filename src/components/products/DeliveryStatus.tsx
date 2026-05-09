@@ -20,7 +20,7 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
     const pulse = getLiveFulfillmentData(sku, locale);
     const isArabic = locale === 'ar';
 
-    const accentColor = brandColor === 'blue' ? 'text-blue-400' : 'text-red-400';
+    const accentColor = brandColor === 'blue' ? 'text-blue-700 dark:text-blue-400' : 'text-red-700 dark:text-red-400';
     const dotColor = brandColor === 'blue' ? 'bg-blue-500' : 'bg-red-500';
     const pingColor = brandColor === 'blue' ? 'bg-blue-400' : 'bg-red-400';
     const borderColor = brandColor === 'blue' ? 'border-blue-200 dark:border-blue-900/30' : 'border-red-200 dark:border-red-900/30';
