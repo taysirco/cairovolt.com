@@ -152,7 +152,7 @@ export default function BestSellingProducts({
                                 {/* Discount Badge */}
                                 {discount > 0 && (
                                     <div className={`absolute top-2 ${isRTL ? 'left-2' : 'right-2'} z-20`}>
-                                        <span className="inline-block bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm">
+                                        <span className="inline-block bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm">
                                             -{discount}%
                                         </span>
                                     </div>

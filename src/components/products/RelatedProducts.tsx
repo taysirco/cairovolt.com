@@ -92,7 +92,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
 
                                     {/* Discount Badge */}
                                     {discount > 0 && (
-                                        <span className="absolute top-2 left-2 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full z-10">
+                                        <span className="absolute top-2 left-2 bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full z-10">
                                             -{discount}%
                                         </span>
                                     )}

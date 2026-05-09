@@ -111,7 +111,7 @@ export default function ShareButtons({ slug, productName, price, locale = 'ar', 
     return (
         <div className={`flex items-center gap-2 ${compact ? '' : 'flex-wrap'}`} dir={isArabic ? 'rtl' : 'ltr'}>
             {!compact && (
-                <span className="text-xs text-gray-400 font-medium">
+                <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">
                     {isArabic ? 'شارك:' : 'Share:'}
                 </span>
             )}
@@ -121,7 +121,7 @@ export default function ShareButtons({ slug, productName, price, locale = 'ar', 
                 id="share-copy-link"
                 onClick={() => handleShare('copy_link')}
                 className={`${btnBase} ${copied
-                    ? 'bg-green-100 dark:bg-green-900/40 text-green-600'
+                    ? 'bg-green-100 dark:bg-green-900/40 text-green-700'
                     : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
                 }`}
                 title={copied ? (isArabic ? 'تم النسخ!' : 'Copied!') : (isArabic ? 'نسخ الرابط' : 'Copy Link')}
