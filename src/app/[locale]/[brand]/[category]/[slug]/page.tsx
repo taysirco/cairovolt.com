@@ -16,7 +16,7 @@ import TabTakeover from '@/components/UX/TabTakeover';
 import BrandVerification from '@/components/UX/BrandVerification';
 import { getLabData, getLabMetrics } from '@/data/product-tests';
 import { BostaTracker } from '@/lib/bosta';
-import { headers } from 'next/headers';
+
 
 import { buildManifest, signManifest } from '@/lib/media-verification';
 
@@ -97,19 +97,10 @@ const CITY_TO_GOVERNORATE: Record<string, string> = {
 };
 
 async function detectUserGovernorate(): Promise<{ slug: string; display: string }> {
-    const headersList = await headers();
-    const city = (
-        headersList.get('x-vercel-ip-city') ||
-        headersList.get('x-appengine-city') ||
-        headersList.get('x-forwarded-city') ||
-        'cairo'
-    ).toLowerCase();
-
-    const slug = CITY_TO_GOVERNORATE[city] || 'cairo';
-    // Capitalize display name
-    const display = city.charAt(0).toUpperCase() + city.slice(1);
-
-    return { slug, display };
+    // Return Cairo by default to preserve Static Site Generation (SSG)
+    // Using headers() here would opt the ENTIRE page into dynamic rendering (SSR),
+    // destroying TTFB performance and causing Firebase reads on every request.
+    return { slug: 'cairo', display: 'Cairo' };
 }
 
 async function getProduct(slug: string): Promise<Product | null> {
