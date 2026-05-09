@@ -86,7 +86,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
                   <p className="text-lg font-medium text-slate-300 mt-1">
                     {isAr ? brand.tagline.ar : brand.tagline.en}
                   </p>
-                  <p className="text-sm text-slate-500 mt-0.5">
+                  <p className="text-sm text-slate-400 mt-0.5">
                     {isAr ? brand.desc.ar : brand.desc.en}
                   </p>
                 </div>

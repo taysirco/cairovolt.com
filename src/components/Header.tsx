@@ -245,7 +245,7 @@ export default function Header() {
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => trackWhatsappClick('header')}
-                            className="hidden md:flex items-center gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium rounded-xl transition-colors"
+                            className="hidden md:flex items-center gap-2 px-4 py-2 bg-green-700 hover:bg-green-600 text-white text-sm font-medium rounded-xl transition-colors"
                             suppressHydrationWarning
                         >
                             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -424,7 +424,7 @@ export default function Header() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     onClick={() => trackWhatsappClick('header')}
-                                    className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-green-500 text-white font-medium rounded-xl"
+                                    className="flex items-center justify-center gap-2 w-full px-4 py-3 bg-green-700 text-white font-medium rounded-xl"
                                     suppressHydrationWarning
                                 >
                                     <SvgIcon name="phone" className="w-4 h-4 inline-block" /> {isRTL ? 'تواصل عبر واتساب' : 'Chat on WhatsApp'}

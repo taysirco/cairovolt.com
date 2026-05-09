@@ -286,7 +286,7 @@ export default function Home() {
               <div className="text-center">
                 <Link
                   href={isRTL ? '/blog' : `/${locale}/blog`}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white font-medium rounded-xl hover:bg-emerald-700 transition-colors"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-700 text-white font-medium rounded-xl hover:bg-emerald-600 transition-colors"
                 >
                   {isRTL ? 'عرض كل المقالات' : 'View All Articles'}
                   <span>{isRTL ? '←' : '→'}</span>
@@ -326,7 +326,7 @@ export default function Home() {
         </section>
 
         {/* ==================== 9. Voice Search FAQ ==================== */}
-        <section className="py-16 lg:py-20" style={{ background: '#0d1222' }}>
+        <section className="py-16 lg:py-20 dark" style={{ background: '#0d1222' }}>
           <div className="container mx-auto px-4 max-w-4xl">
             <FAQSection
               productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'CairoVolt — Anker & Joyroom Accessories'}

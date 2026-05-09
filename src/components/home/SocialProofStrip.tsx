@@ -98,7 +98,7 @@ export default function SocialProofStrip({ locale }: SocialProofStripProps) {
                 </div>
                 <div>
                   <div className="text-sm font-medium text-slate-200">{review.author || 'عميل'}</div>
-                  <div className="text-xs text-slate-500">{review.location || ''}</div>
+                  <div className="text-xs text-slate-400">{review.location || ''}</div>
                 </div>
               </div>
             </div>
