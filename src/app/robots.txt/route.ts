@@ -26,7 +26,7 @@ export function GET() {
 # search = building a search index and providing search results.
 # ai-train = training or fine-tuning AI models.
 # ai-input = inputting content into one or more AI models for real-time generative tasks (RAG, grounding).
-Content-Signal: search=yes, ai-train=no, ai-input=yes
+# X-Content-Signal: search=yes, ai-train=no, ai-input=yes
 
 # --- Googlebot (Primary search crawler) ---
 User-Agent: Googlebot

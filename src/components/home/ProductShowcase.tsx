@@ -214,7 +214,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                           />
                         ))}
                       </div>
-                      <span className="text-[11px] text-slate-500">
+                      <span className="text-[11px] text-slate-400">
                         ({rating.reviewCount})
                       </span>
                     </div>
@@ -225,9 +225,9 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <span className="text-lg font-bold text-green-400 font-outfit">
                       {product.price.toLocaleString()}
                     </span>
-                    <span className="text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
+                    <span className="text-xs text-slate-400">{isAr ? 'ج.م' : 'EGP'}</span>
                     {product.originalPrice && (
-                      <span className="text-xs text-slate-600 line-through">
+                      <span className="text-xs text-slate-400 line-through">
                         {product.originalPrice.toLocaleString()}
                       </span>
                     )}
