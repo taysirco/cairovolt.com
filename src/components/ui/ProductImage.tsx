@@ -142,8 +142,8 @@ export function ProductImage({
 
     // Build image props — fill mode vs explicit dimensions
     const imageProps = fill
-        ? { src, alt, fill: true as const, sizes, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
-        : { src, alt, width, height, loading, priority, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
+        ? { src, alt, fill: true as const, sizes, loading, priority, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
+        : { src, alt, width, height, loading, priority, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
 
     // When fill=true, the figure must fill the parent and be position:relative for next/image fill.
     // Uses inline style to guarantee correct layout — immune to Turbopack class caching issues.

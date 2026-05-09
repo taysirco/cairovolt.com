@@ -168,7 +168,7 @@ export default function BestSellingProducts({
                                             brand={product.brand}
                                             category={product.categorySlug}
                                             fill
-                                            loading={idx < 5 ? 'eager' : 'lazy'}
+                                            loading="lazy"
                                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                                             imageClassName="object-contain p-3 group-hover:scale-110 transition-transform duration-500"
                                             locale={locale}
