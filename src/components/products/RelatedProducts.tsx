@@ -80,7 +80,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                             category={product.categorySlug}
                                             fill
                                             imageClassName="object-contain p-2 transition-transform duration-500 group-hover:scale-110"
-                                            sizes="(max-width: 768px) 160px, 250px"
+                                            sizes="(max-width: 768px) 110px, 200px"
                                             locale={locale}
                                             lightweight
                                         />

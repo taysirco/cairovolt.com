@@ -205,7 +205,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                             brand={item.product.brand}
                                             category={item.product.categorySlug}
                                             fill
-                                            sizes="(max-width: 768px) 160px, 200px"
+                                            sizes="(max-width: 768px) 120px, 160px"
                                             imageClassName="object-cover"
                                             locale={locale}
                                             lightweight
@@ -359,7 +359,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                                     brand={item.product.brand}
                                                     category={item.product.categorySlug}
                                                     fill
-                                                    sizes="(max-width: 768px) 160px, 200px"
+                                                    sizes="(max-width: 768px) 120px, 160px"
                                                     imageClassName="object-cover"
                                                     locale={locale}
                                                     lightweight

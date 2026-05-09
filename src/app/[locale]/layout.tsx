@@ -108,14 +108,6 @@ export default async function RootLayout({
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
         <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
-        {/* Preload LCP hero image — eliminates resource discovery delay */}
-        <link
-          rel="preload"
-          as="image"
-          type="image/webp"
-          href="/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt.webp"
-          fetchPriority="high"
-        />
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
         {/* OpenSearch */}
@@ -220,7 +212,7 @@ export default async function RootLayout({
            ══════════════════════════════════════════════════════════════ */}
         <Script
           id="tiktok-pixel"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               !function (w, d, t) {
@@ -241,12 +233,12 @@ export default async function RootLayout({
            ══════════════════════════════════════════════════════════════ */}
         <Script
           id="gtm-loader"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=AW-18109404098"
         />
         <Script
           id="gtm-config"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
