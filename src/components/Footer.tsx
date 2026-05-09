@@ -32,6 +32,7 @@ export default function Footer() {
                                 width={160}
                                 height={89}
                                 loading="lazy"
+                                sizes="(max-width: 768px) 160px, 160px"
                                 className="object-contain h-[58px] md:h-[67px] w-auto dark:[filter:brightness(0)_invert(1)]"
                             />
                         </div>
@@ -55,9 +56,9 @@ export default function Footer() {
 
                     {/* Shop by Category — clean generic URLs */}
                     <div>
-                        <h4 className="font-semibold mb-4 text-gray-900 dark:text-white">
+                        <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'تسوق حسب الفئة' : 'Shop by Category'}
-                        </h4>
+                        </h3>
                         <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/power-banks')} className="hover:text-blue-600 transition-colors">
@@ -84,9 +85,9 @@ export default function Footer() {
 
                     {/* Brands */}
                     <div>
-                        <h4 className="font-semibold mb-4 text-gray-900 dark:text-white">
+                        <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'العلامات التجارية' : 'Brands'}
-                        </h4>
+                        </h3>
                         <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/anker')} className="hover:text-blue-600 transition-colors font-medium">
@@ -123,9 +124,9 @@ export default function Footer() {
 
                     {/* Resources */}
                     <div>
-                        <h4 className="font-semibold mb-4 text-gray-900 dark:text-white">
+                        <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">
                             {isRTL ? 'أدلة ومقالات' : 'Guides & Resources'}
-                        </h4>
+                        </h3>
                         <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/blog')} className="hover:text-blue-600 transition-colors font-medium">
@@ -147,7 +148,7 @@ export default function Footer() {
 
                     {/* Customer Service */}
                     <div>
-                        <h4 className="font-semibold mb-4 text-gray-900 dark:text-white">{t('customerService')}</h4>
+                        <h3 className="text-sm font-semibold mb-4 text-gray-900 dark:text-white">{t('customerService')}</h3>
                         <ul className="space-y-2.5 text-sm text-gray-500 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/contact')} className="hover:text-gray-900 dark:hover:text-white transition-colors">

@@ -101,14 +101,15 @@ export default function Header() {
                         className="flex items-center gap-2"
                     >
                         <div className="flex items-center">
-                            <Image
-                                src="/cairovolt_logo.png"
-                                alt="CairoVolt"
-                                width={160}
-                                height={89}
-                                priority
-                                className="object-contain h-[50px] md:h-[58px] w-auto dark:[filter:brightness(0)_invert(1)]"
-                            />
+                                <Image
+                                    src="/cairovolt_logo.png"
+                                    alt="CairoVolt"
+                                    width={160}
+                                    height={89}
+                                    priority
+                                    sizes="(max-width: 768px) 120px, 160px"
+                                    className="object-contain h-[50px] md:h-[58px] w-auto dark:[filter:brightness(0)_invert(1)]"
+                                />
                         </div>
                         <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-300 dark:to-indigo-300 bg-clip-text text-transparent hidden sm:inline">
                             {isRTL ? 'كايرو فولت' : 'Cairo Volt'}
@@ -302,6 +303,7 @@ export default function Header() {
                                         alt="CairoVolt"
                                         width={120}
                                         height={67}
+                                        sizes="120px"
                                         className="h-[60px] w-auto object-contain dark:[filter:brightness(0)_invert(1)]"
                                     />
                                 </div>

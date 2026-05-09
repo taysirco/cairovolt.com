@@ -120,10 +120,14 @@ const nextConfig = {
                         value: 'on',
                     },
                     {
-                        // Early preconnect via header — browser starts TLS handshake
-                        // before parsing HTML. Saves ~100-200ms on first image load.
-                        key: 'Link',
-                        value: '<https://firebasestorage.googleapis.com>; rel=preconnect, <https://fonts.gstatic.com>; rel=preconnect; crossorigin',
+                        // COOP — proper origin isolation (Best Practices)
+                        key: 'Cross-Origin-Opener-Policy',
+                        value: 'same-origin-allow-popups',
+                    },
+                    {
+                        // CSP — effective XSS mitigation (Best Practices)
+                        key: 'Content-Security-Policy',
+                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self' https:;",
                     },
                 ],
             },

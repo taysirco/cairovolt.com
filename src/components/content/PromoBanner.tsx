@@ -105,7 +105,7 @@ export default function PromoBanner() {
                 </span>
                 <span>— خصم 10% على طلبك الأول</span>
                 {countdown && (
-                    <span className="text-xs bg-black/20 text-white px-2 py-0.5 rounded-full">
+                    <span className="text-xs bg-white/60 text-black font-bold px-2 py-0.5 rounded-full">
                         ⏰ ينتهي خلال {countdown}
                     </span>
                 )}
@@ -114,7 +114,7 @@ export default function PromoBanner() {
             {/* Close button */}
             <button
                 onClick={() => setVisible(false)}
-                className="absolute top-1/2 left-3 -translate-y-1/2 text-black/50 hover:text-black text-lg font-bold"
+                className="absolute top-1/2 left-3 -translate-y-1/2 text-black/70 hover:text-black text-lg font-bold"
                 aria-label="إغلاق"
             >
                 ×

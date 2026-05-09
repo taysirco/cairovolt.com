@@ -344,7 +344,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {/* Breadcrumb */}
             <div className="bg-gray-50 dark:bg-gray-900/50 border-b border-gray-200 dark:border-gray-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-                    <nav className="text-sm text-gray-500 dark:text-gray-400">
+                    <nav className="text-sm text-gray-500 dark:text-gray-400" aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'}>
                         <div className="flex flex-wrap items-center gap-y-1">
                             <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors flex-shrink-0">
                                 {locale === 'ar' ? 'الرئيسية' : 'Home'}
@@ -588,12 +588,12 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white transition-all duration-300">
                                 {activePrice.toLocaleString()}
                             </span>
-                            <span className="text-base md:text-xl text-gray-500 mb-0.5 md:mb-1">
+                            <span className="text-base md:text-xl text-gray-600 dark:text-gray-300 mb-0.5 md:mb-1">
                                 {tCommon('egp')}
                             </span>
                             {activeOriginalPrice && (
                                 <>
-                                    <span className="text-base md:text-xl text-gray-400 line-through mb-0.5 md:mb-1">
+                                    <span className="text-base md:text-xl text-gray-500 dark:text-gray-400 line-through mb-0.5 md:mb-1">
                                         {activeOriginalPrice.toLocaleString()}
                                     </span>
                                     <span className="px-2 py-0.5 bg-green-100 text-green-700 text-sm font-bold rounded">
@@ -612,6 +612,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         <button
                                             onClick={() => { const nq = Math.max(1, quantity - 1); setQuantity(nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
+                                            aria-label={isRTL ? 'تقليل الكمية' : 'Decrease quantity'}
                                         >
                                             −
                                         </button>
@@ -619,6 +620,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         <button
                                             onClick={() => { const nq = quantity + 1; setQuantity(nq); }}
                                             className="px-5 py-3 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors font-bold text-lg"
+                                            aria-label={isRTL ? 'زيادة الكمية' : 'Increase quantity'}
                                         >
                                             +
                                         </button>
@@ -659,9 +661,9 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         </span>
                                     </div>
                                     <div>
-                                        <h4 className="text-sm font-bold text-emerald-800 dark:text-emerald-300 mb-1">
+                                        <p className="text-sm font-bold text-emerald-800 dark:text-emerald-300 mb-1">
                                             {isRTL ? 'معاً من أجل مصر' : 'Together for Egypt'}
-                                        </h4>
+                                        </p>
                                         <p className="text-sm text-emerald-700 dark:text-emerald-400 leading-relaxed">
                                             {isRTL ? (
                                                 <>

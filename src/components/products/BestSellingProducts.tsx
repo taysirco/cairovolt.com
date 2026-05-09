@@ -212,11 +212,11 @@ export default function BestSellingProducts({
                                             <span className={`text-base md:text-lg font-black ${isAnker ? 'text-blue-600 dark:text-blue-400' : 'text-red-600 dark:text-red-400'}`}>
                                                 {product.price.toLocaleString()}
                                             </span>
-                                            <span className="text-[10px] text-gray-500 dark:text-gray-400 font-medium mr-1 ml-0.5">
+                                            <span className="text-[10px] text-gray-600 dark:text-gray-400 font-medium mr-1 ml-0.5">
                                                 {isRTL ? 'ج.م' : 'EGP'}
                                             </span>
                                             {product.originalPrice && product.originalPrice > product.price && (
-                                                <span className="text-[11px] text-gray-400 line-through block">
+                                                <span className="text-xs text-gray-500 dark:text-gray-400 line-through block">
                                                     {product.originalPrice.toLocaleString()}
                                                 </span>
                                             )}

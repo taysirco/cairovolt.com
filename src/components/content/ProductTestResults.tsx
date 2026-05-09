@@ -382,7 +382,7 @@ export default function ProductTestResults({
                         >
                             <span className="text-xl flex-shrink-0">{metric.icon}</span>
                             <div className="flex-1 min-w-0">
-                                <p className="text-xs text-gray-500 dark:text-gray-400 font-medium leading-tight truncate">
+                                <p className="text-xs text-gray-600 dark:text-gray-400 font-medium leading-tight truncate">
                                     {metric.label}
                                 </p>
                                 <p className={`font-black text-base md:text-lg ${metric.color}`}>
@@ -419,7 +419,7 @@ export default function ProductTestResults({
                         </svg>
                         {isArabic ? 'بيانات أصلية من مختبرات كايرو فولت' : 'First-Party Data from CairoVolt Labs'}
                     </span>
-                    <span className="text-[10px] text-gray-400 dark:text-gray-500 font-mono">
+                    <span className="text-[10px] text-gray-500 dark:text-gray-400 font-mono">
                         SKU: {sku} • {isArabic ? `تاريخ الاختبار: ${reviewDate}` : `Test date: ${reviewDate}`}
                     </span>
                 </div>

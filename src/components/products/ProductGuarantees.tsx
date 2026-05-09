@@ -69,7 +69,7 @@ export default function ProductGuarantees({
                                 </svg>
                             {isRTL ? 'بيانات التوصيل المباشرة' : 'Live Delivery Data'}
                             </span>
-                            <span className="text-[11px] text-gray-500 dark:text-gray-400 font-medium bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-full border border-gray-200 dark:border-white/10">
+                            <span className="text-[11px] text-gray-600 dark:text-gray-400 font-medium bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-full border border-gray-200 dark:border-white/10">
                                 {isRTL ? `مخصص لمنطقتك: ${governorateDisplay}` : `Customized for: ${governorateDisplay}`}
                             </span>
                         </div>
@@ -141,11 +141,11 @@ export default function ProductGuarantees({
                         <div className="grid grid-cols-2 gap-3">
                             <div className="text-center p-3 bg-gray-100 dark:bg-slate-900/50 rounded-lg border border-gray-200 dark:border-slate-700/30">
                                 <p className="text-2xl font-black text-gray-900 dark:text-white">{deliveryStats.monthly_orders}</p>
-                                <p className="text-[11px] text-gray-500 dark:text-gray-400">{isRTL ? 'طلب هذا الشهر' : 'orders this month'}</p>
+                                                                <p className="text-[11px] text-gray-600 dark:text-gray-400">{isRTL ? 'طلب هذا الشهر' : 'orders this month'}</p>
                             </div>
                             <div className="text-center p-3 bg-gray-100 dark:bg-slate-900/50 rounded-lg border border-gray-200 dark:border-slate-700/30">
                                 <p className="text-2xl font-black text-gray-900 dark:text-white">{deliveryStats.active_shipments}</p>
-                                <p className="text-[11px] text-gray-500 dark:text-gray-400">{isRTL ? 'شحنة نشطة الآن' : 'active shipments now'}</p>
+                                                                <p className="text-[11px] text-gray-600 dark:text-gray-400">{isRTL ? 'شحنة نشطة الآن' : 'active shipments now'}</p>
                             </div>
                         </div>
                     </div>

@@ -108,7 +108,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
 
                                 {/* Product Info */}
                                 <div className="space-y-1">
-                                    <div className="text-xs text-gray-400 font-medium uppercase tracking-wider">
+                                    <div className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wider">
                                         {product.brand}
                                     </div>
 
@@ -121,7 +121,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                             {product.price.toLocaleString()} <span className="text-xs">{isArabic ? 'ج.م' : 'EGP'}</span>
                                         </span>
                                         {product.originalPrice && (
-                                            <span className="text-xs text-gray-400 line-through">
+                                            <span className="text-xs text-gray-500 dark:text-gray-400 line-through">
                                                 {product.originalPrice.toLocaleString()}
                                             </span>
                                         )}
