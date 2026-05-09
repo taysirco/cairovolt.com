@@ -16,7 +16,8 @@ import TabTakeover from '@/components/UX/TabTakeover';
 import BrandVerification from '@/components/UX/BrandVerification';
 import { getLabData, getLabMetrics } from '@/data/product-tests';
 import { BostaTracker } from '@/lib/bosta';
-
+import { headers } from 'next/headers';
+import { unstable_cache } from 'next/cache';
 
 import { buildManifest, signManifest } from '@/lib/media-verification';
 
@@ -97,10 +98,19 @@ const CITY_TO_GOVERNORATE: Record<string, string> = {
 };
 
 async function detectUserGovernorate(): Promise<{ slug: string; display: string }> {
-    // Return Cairo by default to preserve Static Site Generation (SSG)
-    // Using headers() here would opt the ENTIRE page into dynamic rendering (SSR),
-    // destroying TTFB performance and causing Firebase reads on every request.
-    return { slug: 'cairo', display: 'Cairo' };
+    const headersList = await headers();
+    const city = (
+        headersList.get('x-vercel-ip-city') ||
+        headersList.get('x-appengine-city') ||
+        headersList.get('x-forwarded-city') ||
+        'cairo'
+    ).toLowerCase();
+
+    const slug = CITY_TO_GOVERNORATE[city] || 'cairo';
+    // Capitalize display name
+    const display = city.charAt(0).toUpperCase() + city.slice(1);
+
+    return { slug, display };
 }
 
 async function getProduct(slug: string): Promise<Product | null> {
@@ -138,9 +148,21 @@ async function getProduct(slug: string): Promise<Product | null> {
     }
 }
 
+const getCachedProduct = unstable_cache(
+    async (slug: string) => getProduct(slug),
+    ['product-cache'],
+    { revalidate: 3600, tags: ['products'] }
+);
+
+const getCachedAggregateRating = unstable_cache(
+    async (slug: string) => calculateVerifiedAggregateRating(slug),
+    ['aggregate-rating'],
+    { revalidate: 3600, tags: ['reviews'] }
+);
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, brand, category, slug } = await params;
-    const product = await getProduct(slug);
+    const product = await getCachedProduct(slug);
 
     if (!product) {
         return {
@@ -233,7 +255,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function ProductPage({ params }: Props) {
     const { locale, brand, category, slug } = await params;
     const [product, currentTemp, userGov] = await Promise.all([
-        getProduct(slug),
+        getCachedProduct(slug),
         getCairoTemperature(),
         detectUserGovernorate(),
     ]);
@@ -289,8 +311,8 @@ export default async function ProductPage({ params }: Props) {
     // CairoVolt Labs first-party test data
     const labInfo = getLabData(slug);
 
-    // Fetch verified aggregate rating for Structured Data
-    const verifiedAggregateRating = await calculateVerifiedAggregateRating(slug);
+    // Fetch verified aggregate rating for Structured Data (Cached)
+    const verifiedAggregateRating = await getCachedAggregateRating(slug);
 
     // Get static product reviews for structured data (unique per product)
     const staticReviews = getStaticProductReviews(
