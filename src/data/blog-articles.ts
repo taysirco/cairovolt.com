@@ -27,6 +27,7 @@ import { how_to_spot_fake_chargers_7_tests } from './blog/how-to-spot-fake-charg
 import { gan_charger_technology_guide_egypt } from './blog/gan-charger-technology-guide-egypt';
 import { soundcore_models_guide_egypt_2026 } from './blog/soundcore-models-guide-egypt-2026';
 import { why_charging_cable_breaks_fast_causes_fixes } from './blog/why-charging-cable-breaks-fast-causes-fixes';
+import { can_power_bank_charge_laptop_guide } from './blog/can-power-bank-charge-laptop-guide';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -52,6 +53,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     gan_charger_technology_guide_egypt,
     soundcore_models_guide_egypt_2026,
     why_charging_cable_breaks_fast_causes_fixes,
+    can_power_bank_charge_laptop_guide,
 ];
 
 
