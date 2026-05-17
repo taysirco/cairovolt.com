@@ -217,10 +217,28 @@ html {
 /* ================================================
    Blog typography overrides for custom callout boxes
    ================================================ */
-.dark .prose div[style*="background"] p,
-.dark .prose div[style*="background"] strong,
-.dark .prose div[style*="background"] li,
-.dark .prose div[style*="background"] a,
+
+/* 1. If the div has a light background (#f... or #e...) AND NO inline color, force text to be dark slate to maintain contrast against the light background */
+.dark .prose div[style*="background:#f"]:not([style*="color:"]) p,
+.dark .prose div[style*="background:#f"]:not([style*="color:"]) strong,
+.dark .prose div[style*="background:#f"]:not([style*="color:"]) li,
+.dark .prose div[style*="background:#f"]:not([style*="color:"]) a,
+.dark .prose div[style*="background:#e"]:not([style*="color:"]) p,
+.dark .prose div[style*="background:#e"]:not([style*="color:"]) strong,
+.dark .prose div[style*="background:#e"]:not([style*="color:"]) li,
+.dark .prose div[style*="background:#e"]:not([style*="color:"]) a {
+  color: #1e293b;
+}
+
+/* 2. If the div HAS an inline color, force children to inherit it (overriding Tailwind's dark prose utilities) */
+.dark .prose div[style*="color:"] p,
+.dark .prose div[style*="color:"] strong,
+.dark .prose div[style*="color:"] li,
+.dark .prose div[style*="color:"] a {
+  color: inherit;
+}
+
+/* 3. Handle specific class-based callouts that might not have inline colors */
 .dark .prose .quick-answer-inline p,
 .dark .prose .quick-answer-inline strong,
 .dark .prose .expert-callout p,
@@ -228,5 +246,5 @@ html {
 .dark .prose .source-references p,
 .dark .prose .source-references strong,
 .dark .prose .source-references li {
-  color: inherit !important;
+  color: inherit;
 }
