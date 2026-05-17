@@ -52,12 +52,39 @@ functions/.secret.*
 *-key.json
 *-keys.json
 cairovolt-*.json
-keyword_analysis_report.md
-tsconfig.tsbuildinfo
 
-# Internal strategy & analysis (never commit)
+# Firebase cache & debug
+.firebase/
+firebase-debug.log
+
+# ================================================
+# Plans, references & non-essential files
+# ================================================
+
+# Strategy docs & content blueprints
+cairovolt_content_blueprint.md
+cairovolt-blog.md
+cairovolt-blog-topics-2026.md
+new_product_guide.md
+keyword_analysis_report.md
+
+# Invoices & business documents
+invoice_*.html
+invoice_*.pdf
+
+# Wholesale catalogs & dashboards (standalone HTML)
+anker_wholesale_catalog.html
+wholesale-dashboard.html
+
+# Chrome extension (separate project)
+cairovolt-authenticator/
+cairovolt-authenticator.zip
+
+# Seed data & utility/audit scripts
+data/
+scripts/
+
+# Internal strategy & analysis
 analysis_data/
 update-products-pages
 product-page-new
-firebase-debug.log
-.firebase/
