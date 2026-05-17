@@ -213,3 +213,20 @@ html {
 .sticky-footer-bar .sticky-label {
   color: #a1a1aa !important;
 }
+
+/* ================================================
+   Blog typography overrides for custom callout boxes
+   ================================================ */
+.dark .prose div[style*="background"] p,
+.dark .prose div[style*="background"] strong,
+.dark .prose div[style*="background"] li,
+.dark .prose div[style*="background"] a,
+.dark .prose .quick-answer-inline p,
+.dark .prose .quick-answer-inline strong,
+.dark .prose .expert-callout p,
+.dark .prose .expert-callout strong,
+.dark .prose .source-references p,
+.dark .prose .source-references strong,
+.dark .prose .source-references li {
+  color: inherit !important;
+}

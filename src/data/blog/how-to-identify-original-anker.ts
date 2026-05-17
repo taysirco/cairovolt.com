@@ -33,6 +33,14 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                                                 <h3> 1. كود التحقق QR على العلبة ✓</h3>
                                                                                                                                     <p> <strong>الطريقة الأسهل والأضمن.</strong> كل منتج انكر أصلي يحتوي على كود QR على العلبة. امسحه بكاميرا موبايلك وسيفتح موقع <strong>anker.com/verify </strong>. لو ظهرت رسالة "Authentic" فهو أصلي 100%.</p>
                                                                                                                                         <p><strong>المقلد: </strong> إما لا يحتوي على كود QR، أو الكود لا يعمل، أو يؤدي لموقع مختلف.</p>
+                                                                                                                                        
+                                                                                                                                        <div class="verify-cta" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border-radius: 12px; padding: 24px; text-align: center; color: white; margin: 30px 0; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);">
+                                                                                                                                            <h4 style="color: white; margin-top: 0; font-size: 1.25rem;">هل تريد التأكد من أصالة منتجك الآن؟</h4>
+                                                                                                                                            <p style="margin-bottom: 20px; font-size: 0.95rem; opacity: 0.9;">استخدم أداة التحقق السريعة الخاصة بنا لضمان أن منتجك أصلي 100%</p>
+                                                                                                                                            <a href="https://cairovolt.com/verify" style="display: inline-block; background: white; color: #1d4ed8; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: transform 0.2s;">
+                                                                                                                                                <span style="margin-left: 8px;">🛡️</span> تحقق من منتجك الآن
+                                                                                                                                            </a>
+                                                                                                                                        </div>
 
                                                                                                                                             <h3>2. الوزن والكثافة </h3>
                                                                                                                                                 <p> منتجات انكر الأصلية تستخدم خلايا بطارية Grade - A عالية الكثافة.لذلك: </p>
@@ -107,6 +115,14 @@ export const how_to_identify_original_anker: BlogArticle = {
 
             <h3>1. QR Verification Code on Box ✓</h3>
     <p> Every genuine Anker product has a QR code on the packaging.Scan it with your phone camera — it opens <strong> anker.com / verify </strong>. If it says "Authentic", it's 100% genuine.</p>
+
+    <div class="verify-cta" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); border-radius: 12px; padding: 24px; text-align: center; color: white; margin: 30px 0; box-shadow: 0 4px 15px rgba(37, 99, 235, 0.2);">
+        <h4 style="color: white; margin-top: 0; font-size: 1.25rem;">Want to verify your product right now?</h4>
+        <p style="margin-bottom: 20px; font-size: 0.95rem; opacity: 0.9;">Use our quick verification tool to ensure your product is 100% genuine.</p>
+        <a href="https://cairovolt.com/verify" style="display: inline-block; background: white; color: #1d4ed8; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: transform 0.2s;">
+            <span style="margin-right: 8px;">🛡️</span> Verify Your Product Now
+        </a>
+    </div>
 
         <h3>2. Weight & amp; Density </h3>
             <p> Original Anker products use Grade - A high - density battery cells.A genuine 10,000mAh weighs ~190g, 20,000mAh weighs ~350g.Fakes are noticeably lighter.</p>
