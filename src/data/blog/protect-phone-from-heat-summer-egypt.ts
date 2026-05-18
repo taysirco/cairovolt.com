@@ -9,7 +9,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
     readingTime: 11,
     relatedProducts: ['anker-powercore-20000', 'anker-nano-45w', 'anker-powerline-usb-c-to-usb-c', 'joyroom-20w-usb-c-charger'],
     relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks', 'Joyroom/wall-chargers', 'Anker/cables'],
-    coverImage: "/images/blog/posts/protect-phone-from-heat-summer-egypt.webp",
+    coverImage: "/images/blog/posts/protect-phone-from-heat-summer-egypt.webp?v=2",
     translations: {
         ar: {
             title: 'موبايلك في خطر: الدليل الكامل لحماية هاتفك من حرارة صيف مصر',

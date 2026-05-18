@@ -19,7 +19,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
         'how-to-spot-fake-chargers-7-tests',
     ],
     relatedCategories: ['Joyroom/power-banks', 'Anker/power-banks'],
-    coverImage: '/images/blog/posts/best-power-bank-under-1000-egp-egypt.webp',
+    coverImage: '/images/blog/posts/best-power-bank-under-1000-egp-egypt.webp?v=2',
     author: {
         name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
         title: { ar: 'محرر تقني', en: 'Tech Editor' },

@@ -6,7 +6,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
     publishDate: '2026-05-12',
     modifiedDate: '2026-05-12',
     readingTime: 10,
-    coverImage: '/images/blog/posts/why-charging-cable-breaks-fast-causes-fixes.webp',
+    coverImage: '/images/blog/posts/why-charging-cable-breaks-fast-causes-fixes.webp?v=2',
     relatedProducts: [
         'anker-a8050-usb-c-cable',
         'anker-powerline-usb-c-usb-c',

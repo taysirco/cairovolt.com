@@ -9,7 +9,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['anker-powercore-20000', 'joyroom-power-bank-20000', 'anker-powerport-20w', 'joyroom-20w-usb-c-charger'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks', 'Anker/wall-chargers', 'Joyroom/wall-chargers'],
-    coverImage: "/images/blog/posts/anker-vs-joyroom-comparison.webp",
+    coverImage: "/images/blog/posts/anker-vs-joyroom-comparison.webp?v=2",
         translations: {
             ar: {
                 title: 'انكر vs جوي روم: مقارنة شاملة — أيهما أفضل؟',
