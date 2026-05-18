@@ -18,9 +18,11 @@ const nextConfig = {
         imageSizes: [64, 80, 96, 128, 256, 384],
         // Next.js 16 requires explicit whitelist when local image URLs carry a
         // query string (we use ?v=N to cache-bust replaced webp covers).
-        // Omitting `search` matches any query string on /images/**.
+        // Once `localPatterns` is set it also gates every local path, so list
+        // the roots actually used: the logo at /public root and /images/**.
+        // Omitting `search` allows any query string on these paths.
         localPatterns: [
-            { pathname: '/images/**' },
+            { pathname: '/**' },
         ] as any,
         remotePatterns: [
             {
