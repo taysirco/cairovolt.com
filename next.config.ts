@@ -16,6 +16,12 @@ const nextConfig = {
         deviceSizes: [360, 414, 640, 750, 828, 1080, 1200, 1920],
         // Thumbnail sizes for gallery thumbnails and listing cards
         imageSizes: [64, 80, 96, 128, 256, 384],
+        // Next.js 16 requires explicit whitelist when local image URLs carry a
+        // query string (we use ?v=N to cache-bust replaced webp covers).
+        // Omitting `search` matches any query string on /images/**.
+        localPatterns: [
+            { pathname: '/images/**' },
+        ] as any,
         remotePatterns: [
             {
                 protocol: 'https',
