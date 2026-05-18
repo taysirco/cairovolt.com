@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -108,35 +109,59 @@ export default async function BlogPage({ params }: Props) {
                                     href={getLocalizedHref(`/blog/${article.slug}`)}
                                     className="group bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                                 >
-                                    {/* Category Badge */}
-                                    <div className="p-8 md:p-6 pb-0 md:pb-0">
-                                        <span className="inline-flex items-center gap-1.5 px-4 md:px-3 py-1.5 md:py-1 rounded-full text-sm md:text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
-                                            <SvgIcon name={catLabel.icon} className="w-5 h-5 md:w-4 md:h-4" /> {isArabic ? catLabel.ar : catLabel.en}
-                                        </span>
+                                    {/* Cover Image */}
+                                    <div className="relative aspect-[1.91/1] overflow-hidden bg-gradient-to-br from-blue-600/10 to-purple-600/10">
+                                        {article.coverImage ? (
+                                            <Image
+                                                src={article.coverImage}
+                                                alt={trans.title}
+                                                fill
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                                                loading="lazy"
+                                            />
+                                        ) : (
+                                            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center">
+                                                <SvgIcon name={catLabel.icon} className="w-16 h-16 text-white/20" />
+                                            </div>
+                                        )}
+                                        {/* Gradient overlay */}
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                                        {/* Category Badge on image */}
+                                        <div className="absolute top-3 start-3">
+                                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-gray-900/80 backdrop-blur-sm text-blue-700 dark:text-blue-300 shadow-sm">
+                                                <SvgIcon name={catLabel.icon} className="w-3.5 h-3.5" /> {isArabic ? catLabel.ar : catLabel.en}
+                                            </span>
+                                        </div>
+                                        {/* Reading time on image */}
+                                        <div className="absolute bottom-3 end-3">
+                                            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-black/50 backdrop-blur-sm text-white">
+                                                {isArabic ? `${article.readingTime} د` : `${article.readingTime} min`}
+                                            </span>
+                                        </div>
                                     </div>
 
                                     {/* Content */}
-                                    <div className="p-8 md:p-6">
-                                        <h2 className="text-xl md:text-lg font-bold text-gray-900 dark:text-white mb-4 md:mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-tight">
+                                    <div className="p-6 md:p-5">
+                                        <h2 className="text-lg md:text-base font-bold text-gray-900 dark:text-white mb-3 md:mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-snug">
                                             {trans.title}
                                         </h2>
-                                        <p className="text-base md:text-sm text-gray-600 dark:text-gray-400 mb-5 md:mb-4 line-clamp-3">
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 md:mb-3 line-clamp-2">
                                             {trans.excerpt}
                                         </p>
 
                                         {/* Meta */}
-                                        <div className="flex items-center justify-between text-sm md:text-xs text-gray-600 dark:text-gray-400 pt-5 md:pt-4 border-t border-gray-100 dark:border-gray-700">
+                                        <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 pt-3 border-t border-gray-100 dark:border-gray-700">
                                             <span>
                                                 {new Date(article.modifiedDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
                                                     year: 'numeric',
-                                                    month: 'long',
+                                                    month: 'short',
                                                     day: 'numeric',
                                                 })}
                                             </span>
-                                            <span>
-                                                {isArabic
-                                                    ? `${article.readingTime} دقائق قراءة`
-                                                    : `${article.readingTime} min read`}
+                                            <span className="flex items-center gap-1 text-blue-600 dark:text-blue-400 font-medium group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5 transition-transform">
+                                                {isArabic ? 'اقرأ المزيد' : 'Read more'}
+                                                <svg className="w-3.5 h-3.5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                                             </span>
                                         </div>
                                     </div>

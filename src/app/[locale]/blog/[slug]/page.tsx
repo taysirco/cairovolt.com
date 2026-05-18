@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { getBlogArticle, getAllBlogSlugs, blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
@@ -81,16 +82,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
             publishedTime: article.publishDate,
             modifiedTime: article.modifiedDate,
-            // Blog articles don't have dedicated cover images but this
-            // explicit images:[] prevents inheriting the 200x60 layout logo
-            images: [],
+            // Blog articles now have dedicated cover images
+            images: article.coverImage ? [{
+                url: `https://cairovolt.com${article.coverImage}`,
+                width: 1200,
+                height: 630,
+                alt: trans.metaTitle,
+            }] : [],
         },
-        // Explicit twitter block prevents falling back to layout logo.png
-        // Use 'summary' (not large image) since we have no cover photo
         twitter: {
-            card: 'summary',
+            card: article.coverImage ? 'summary_large_image' : 'summary',
             title: trans.metaTitle,
             description: trans.metaDescription,
+            ...(article.coverImage ? { images: [`https://cairovolt.com${article.coverImage}`] } : {}),
         },
         robots: {
             index: true,
@@ -249,6 +253,75 @@ export default async function BlogArticlePage({ params }: Props) {
                         </nav>
                     </div>
                 </div>
+                {/* Cover Image Hero — framed card with C2PA authenticity badge */}
+                {article.coverImage && (
+                    <div className="relative bg-gradient-to-b from-gray-50 to-white dark:from-gray-800/60 dark:to-gray-900 pt-6 md:pt-10 pb-2 md:pb-4">
+                        {/* Soft ambient backdrop behind the image */}
+                        <div aria-hidden className="absolute inset-x-0 top-0 h-1/2 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 dark:from-blue-400/10 dark:to-purple-400/10 pointer-events-none" />
+                        <div className="container mx-auto px-4 relative">
+                            <figure className="relative max-w-5xl mx-auto">
+                                <div className="relative aspect-[1200/630] overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl shadow-blue-900/10 dark:shadow-black/40 ring-1 ring-gray-200/70 dark:ring-gray-700/60">
+                                    <Image
+                                        src={article.coverImage}
+                                        alt={trans.title}
+                                        fill
+                                        sizes="(max-width: 1024px) 100vw, 1024px"
+                                        className="object-cover"
+                                        priority
+                                    />
+                                    {/* Bottom legibility gradient — subtle, only ~30% of the image */}
+                                    <div aria-hidden className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/55 via-black/15 to-transparent" />
+                                    {/* Category badge */}
+                                    <div className="absolute top-3 md:top-4 start-3 md:start-4">
+                                        <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-white/95 dark:bg-gray-900/85 backdrop-blur-md text-blue-700 dark:text-blue-300 shadow-md ring-1 ring-black/5">
+                                            <SvgIcon name={catLabel.icon} className="w-3.5 h-3.5" /> {isArabic ? catLabel.ar : catLabel.en}
+                                        </span>
+                                    </div>
+                                    {/* C2PA verified badge */}
+                                    <div className="absolute top-3 md:top-4 end-3 md:end-4">
+                                        <span
+                                            className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-[10px] md:text-[11px] font-bold bg-black/45 backdrop-blur-md text-white border border-white/20 shadow-md tracking-wider"
+                                            title={isArabic ? 'صورة موثّقة بمعايير محتوى المصادقة C2PA' : 'Image authenticated with C2PA content credentials'}
+                                        >
+                                            <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1.06 14.06L7.4 12.5l1.42-1.41 2.12 2.12 4.24-4.24 1.42 1.41-5.66 5.68z" />
+                                            </svg>
+                                            {isArabic ? 'موثّقة · C2PA' : 'Verified · C2PA'}
+                                        </span>
+                                    </div>
+                                    {/* Author micro-credit bottom-start */}
+                                    {article.author && (
+                                        <div className="absolute bottom-3 md:bottom-4 start-3 md:start-4 flex items-center gap-2">
+                                            <img
+                                                src={article.author.avatar}
+                                                alt=""
+                                                className="w-7 h-7 md:w-8 md:h-8 rounded-full ring-2 ring-white/80 object-cover"
+                                                loading="lazy"
+                                            />
+                                            <span className="text-[11px] md:text-xs font-semibold text-white drop-shadow">
+                                                {article.author.name[isArabic ? 'ar' : 'en']}
+                                            </span>
+                                        </div>
+                                    )}
+                                    {/* Reading time bottom-end */}
+                                    <div className="absolute bottom-3 md:bottom-4 end-3 md:end-4">
+                                        <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] md:text-xs font-medium bg-black/45 backdrop-blur-md text-white">
+                                            <svg className="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                            {isArabic ? `${article.readingTime} د` : `${article.readingTime} min`}
+                                        </span>
+                                    </div>
+                                </div>
+                                <figcaption className="text-[11px] md:text-xs text-gray-500 dark:text-gray-400 mt-3 text-center px-4">
+                                    {isArabic
+                                        ? '© كايرو فولت — صورة محميّة بمعايير محتوى المصادقة C2PA و EXIF/XMP'
+                                        : '© CairoVolt — Image authenticated with C2PA content credentials and EXIF/XMP'}
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                )}
 
                 {/* Article Header */}
                 <header className="container mx-auto px-4 py-8 md:py-12 max-w-4xl">

@@ -9,6 +9,7 @@ export const how_to_charge_power_bank_correctly: BlogArticle = {
         readingTime: 5,
         relatedProducts: ['anker-powercore-20000'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+    coverImage: "/images/blog/posts/how-to-charge-power-bank-correctly.webp",
         translations: {
             ar: {
                 title: 'طريقة شحن باور بانك انكر بشكل صحيح: 7 نصائح للحفاظ على البطارية',

@@ -9,6 +9,7 @@ export const how_to_identify_original_anker: BlogArticle = {
         readingTime: 6,
         relatedProducts: ['anker-powercore-10000', 'anker-soundcore-motion-plus', 'anker-737-powerbank'],
         relatedCategories: ['Anker/power-banks', 'Anker/wall-chargers', 'Anker/cables'],
+    coverImage: "/images/blog/posts/how-to-identify-original-anker.webp",
         translations: {
             ar: {
                 title: 'كيف تعرف انكر الأصلي من المقلد؟ 5 طرق مضمونة',

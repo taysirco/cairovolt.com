@@ -9,6 +9,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
         readingTime: 10,
         relatedProducts: ['anker-car-charger-dual-usb', 'joyroom-60w-car-charger', 'anker-powerline-usb-c-lightning', 'joyroom-usb-c-lightning-cable'],
         relatedCategories: ['Anker/car-chargers', 'Joyroom/car-chargers'],
+    coverImage: "/images/blog/posts/best-car-charger-egypt-2026.webp",
         translations: {
             ar: {
                 title: 'أفضل شاحن سيارة في مصر: دليل الشراء الشامل',

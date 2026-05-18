@@ -16,11 +16,23 @@ for (const file of files) {
     
     if (fs.existsSync(expectedWebp)) {
         const newCoverImage = `/images/blog/posts/${slug}.webp`;
-        const updatedContent = content.replace(/coverImage:\s*['"][^'"]+['"]/, `coverImage: '${newCoverImage}'`);
-        if (content !== updatedContent) {
-            fs.writeFileSync(tsPath, updatedContent, 'utf8');
-            console.log(`Updated ${file}`);
-            updatedCount++;
+        
+        // If coverImage already exists, replace it
+        if (/coverImage:\s*['"][^'"]+['"]/.test(content)) {
+            const updatedContent = content.replace(/coverImage:\s*['"][^'"]+['"]/, `coverImage: '${newCoverImage}'`);
+            if (content !== updatedContent) {
+                fs.writeFileSync(tsPath, updatedContent, 'utf8');
+                console.log(`Updated ${file}`);
+                updatedCount++;
+            }
+        } else {
+            // Otherwise, insert it after slug
+            const updatedContent = content.replace(/slug:\s*['"]([^'"]+)['"]\s*,/, `slug: '$1',\n        coverImage: '${newCoverImage}',`);
+            if (content !== updatedContent) {
+                fs.writeFileSync(tsPath, updatedContent, 'utf8');
+                console.log(`Inserted coverImage in ${file}`);
+                updatedCount++;
+            }
         }
     }
 }

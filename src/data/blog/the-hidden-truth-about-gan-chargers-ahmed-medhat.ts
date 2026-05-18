@@ -10,6 +10,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
         relatedProducts: ['anker-nano-45w', 'joyroom-30w-pd-charger'],
     relatedArticles: ['gan-charger-technology-guide-egypt', 'does-fast-charging-damage-battery-truth', 'best-iphone-17-charger-egypt'],
         relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
+    coverImage: "/images/blog/posts/the-hidden-truth-about-gan-chargers-ahmed-medhat.webp",
         author: {
             name: {
                 ar: 'أحمد مدحت',

@@ -9,6 +9,7 @@ export const best_samsung_s26_charger: BlogArticle = {
         readingTime: 3,
         relatedProducts: ['anker-powerport-25w', 'joyroom-25w-fast-charger', 'joyroom-30w-fast-charger'],
         relatedCategories: ['Anker/wall-chargers'],
+    coverImage: "/images/blog/posts/best-samsung-s26-charger.webp",
         translations: {
             ar: {
                 title: 'أفضل شاحن لسامسونج S26 في مصر: شحن سريع 45W',

@@ -9,6 +9,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
         readingTime: 9,
         relatedProducts: ['anker-powerport-20w', 'anker-nano-45w', 'joyroom-20w-usb-c-charger', 'joyroom-25w-fast-charger'],
         relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
+    coverImage: "/images/blog/posts/does-fast-charging-damage-battery-truth.webp",
         translations: {
             ar: {
                 title: 'هل الشحن السريع يضر بطارية الموبايل فعلاً؟ الحقيقة العلمية الكاملة',

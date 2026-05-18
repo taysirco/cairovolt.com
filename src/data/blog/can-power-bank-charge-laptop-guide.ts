@@ -6,7 +6,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     publishDate: '2026-05-12',
     modifiedDate: '2026-05-12',
     readingTime: 12,
-    coverImage: '/images/blog/posts/anker-zolo-10000-power-bank.webp',
+    coverImage: '/images/blog/posts/can-power-bank-charge-laptop-guide.webp',
     relatedProducts: [
         'anker-737-powerbank',
         'anker-521-powerhouse',

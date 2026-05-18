@@ -9,6 +9,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
         readingTime: 9,
         relatedProducts: ['anker-powerline-usb-c-usb-c', 'anker-powerline-usb-c-lightning', 'anker-nano-45w', 'joyroom-usb-c-cable-60w', 'joyroom-20w-usb-c-charger', 'anker-powerport-20w'],
         relatedCategories: ['Anker/cables', 'Joyroom/cables', 'Anker/wall-chargers', 'Joyroom/wall-chargers'],
+    coverImage: "/images/blog/posts/why-phone-charging-slowly-causes-solutions.webp",
         translations: {
             ar: {
                 title: 'ليه موبايلك بيشحن ببطء؟ 8 أسباب خفية والحل الفوري',

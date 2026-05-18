@@ -9,6 +9,7 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-usb-c-lightning-cable', 'joyroom-20w-usb-c-charger'],
         relatedCategories: ['Anker/wall-chargers', 'Anker/cables'],
+    coverImage: "/images/blog/posts/do-fake-chargers-damage-iphone-battery.webp",
         translations: {
             ar: {
                 title: 'هل الشواحن التقليد بتضر بطارية الايفون فعلاً؟ الإجابة العلمية',

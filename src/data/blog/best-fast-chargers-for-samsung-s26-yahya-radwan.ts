@@ -10,6 +10,7 @@ export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
         relatedProducts: ['anker-nano-45w', 'anker-737-powerbank'],
     relatedArticles: ['best-samsung-s26-charger', 'gan-charger-technology-guide-egypt', 'does-fast-charging-damage-battery-truth'],
         relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks'],
+    coverImage: "/images/blog/posts/best-fast-chargers-for-samsung-s26-yahya-radwan.webp",
         author: {
             name: {
                 ar: 'يحيى رضوان',

@@ -9,6 +9,7 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-20w-usb-c-charger'],
         relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
+    coverImage: "/images/blog/posts/original-vs-fake-apple-charger-egypt.webp",
         translations: {
             ar: {
                 title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر؟',
