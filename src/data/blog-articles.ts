@@ -29,6 +29,7 @@ import { soundcore_models_guide_egypt_2026 } from './blog/soundcore-models-guide
 import { why_charging_cable_breaks_fast_causes_fixes } from './blog/why-charging-cable-breaks-fast-causes-fixes';
 import { can_power_bank_charge_laptop_guide } from './blog/can-power-bank-charge-laptop-guide';
 import { best_power_bank_under_1000_egp_egypt } from './blog/best-power-bank-under-1000-egp-egypt';
+import { best_100w_fast_charge_power_bank_iphone_samsung } from './blog/best-100w-fast-charge-power-bank-iphone-samsung';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -56,6 +57,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     why_charging_cable_breaks_fast_causes_fixes,
     can_power_bank_charge_laptop_guide,
     best_power_bank_under_1000_egp_egypt,
+    best_100w_fast_charge_power_bank_iphone_samsung,
 ];
 
 

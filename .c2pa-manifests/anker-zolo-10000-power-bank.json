@@ -1,0 +1,50 @@
+{
+  "claim_generator": "CairoVolt-CMS/1.0 (Nano-Banana-Pipeline)",
+  "title": "anker-zolo-10000-power-bank",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "softwareAgent": "Gemini 2.5 Flash Image (Nano Banana)",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+            "when": "2026-05-18T00:04:18.194Z"
+          },
+          {
+            "action": "c2pa.color_adjustments",
+            "softwareAgent": "sharp v0.33.x (WebP q85 1200x630)"
+          },
+          {
+            "action": "c2pa.edited",
+            "softwareAgent": "exiftool v13.36",
+            "description": "EXIF metadata injection"
+          },
+          {
+            "action": "c2pa.published",
+            "softwareAgent": "CairoVolt Next.js CMS",
+            "when": "2026-05-18T00:04:18.194Z"
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "anker-zolo-10000-power-bank",
+        "url": "https://cairovolt.com/images/blog/posts/anker-zolo-10000-power-bank.webp",
+        "publisher": {
+          "@type": "Organization",
+          "name": "CairoVolt",
+          "url": "https://cairovolt.com"
+        },
+        "datePublished": "2026-05-18",
+        "license": "https://cairovolt.com/license/editorial",
+        "copyrightHolder": "CairoVolt"
+      }
+    }
+  ]
+}
