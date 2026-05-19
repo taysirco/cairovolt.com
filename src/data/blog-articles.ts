@@ -35,6 +35,7 @@ import { magsafe_magnetic_power_bank_worth_extra_cost } from './blog/magsafe-mag
 import { power_bank_for_photographers_dslr_cameras } from './blog/power-bank-for-photographers-dslr-cameras';
 import { power_bank_gaming_pubg_freefire_cooling } from './blog/power-bank-gaming-pubg-freefire-cooling';
 import { five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity } from './blog/5000-vs-10000-vs-20000-mah-which-capacity';
+import { twenty_thousand_mah_power_bank_iphone_17_pro_max_charges } from './blog/20000mah-power-bank-iphone-17-pro-max-charges';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -68,6 +69,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     power_bank_for_photographers_dslr_cameras,
     power_bank_gaming_pubg_freefire_cooling,
     five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity,
+    twenty_thousand_mah_power_bank_iphone_17_pro_max_charges,
 ];
 
 
