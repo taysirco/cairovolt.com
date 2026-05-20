@@ -39,6 +39,7 @@ import { twenty_thousand_mah_power_bank_iphone_17_pro_max_charges } from './blog
 import { power_bank_with_digital_display_worth_it } from './blog/power-bank-with-digital-display-worth-it';
 import { power_bank_charge_4_devices_simultaneously } from './blog/power-bank-charge-4-devices-simultaneously';
 import { why_power_bank_dies_after_6_months_mistakes } from './blog/why-power-bank-dies-after-6-months-mistakes';
+import { anker_vs_joyroom_power_banks_12_models_tested } from './blog/anker-vs-joyroom-power-banks-12-models-tested';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -76,6 +77,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     power_bank_with_digital_display_worth_it,
     power_bank_charge_4_devices_simultaneously,
     why_power_bank_dies_after_6_months_mistakes,
+    anker_vs_joyroom_power_banks_12_models_tested,
 ];
 
 
