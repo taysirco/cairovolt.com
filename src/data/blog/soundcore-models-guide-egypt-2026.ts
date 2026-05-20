@@ -18,10 +18,10 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
             metaDescription: 'دليل شامل لكل موديلات سماعات Soundcore من انكر في مصر 2026. مقارنة P30i, Q11i, A30i, Q20i, V20i, R50i, K20i مع الأسعار والمواصفات. أيهم يناسبك؟',
             keywords: 'soundcore p30i, soundcore q11i, anker soundcore liberty 4 nc, anker soundcore liberty 4 pro, anker soundcore liberty 5, anker soundcore p30i, anker soundcore p40i, anker soundcore q11i, anker soundcore r50i vi, anker p2i, p40i soundcore, anker pencil, soundcore a30i, soundcore q20i, soundcore v20i, soundcore q30, soundcore q45, soundcore c40i, soundcore c30i, soundcore p25i, soundcore p41i, soundcore h30i, soundcore a20i, soundcore r100, anker p30i, anker a30i, انكر p30i, anker p25i, anker q20i, anker v20i, p30i soundcore, soundcore liberty 4 pro, soundcore liberty 5, soundcore space one, soundcore space one pro, soundcore r50i vi, soundcore select 4 go, soundcore liberty buds, soundcore aerofit 2, anker lightening',
             excerpt: 'مقارنة شاملة لكل موديلات سماعات Soundcore من انكر — المتوفرة في مصر والعالمية. اعرف الفرق بين P30i وQ11i وA30i وغيرها قبل ما تشتري.',
-            quickAnswer: 'سماعات Soundcore المتوفرة في مصر من كايرو فولت: K20i (750ج)، R50i (950ج)، R50i NC (1299ج)، Life P2i (820ج). موديلات مثل P30i وQ11i متوفرة دولياً. البديل الأفضل لـ P30i هو R50i NC بإلغاء ضوضاء أقوى.',
+            quickAnswer: 'سماعات Soundcore المتوفرة في مصر من كايرو فولت: K20i (750ج)، R50i (950ج)، R50i NC (1199ج)، Life P2i (820ج). موديلات مثل P30i وQ11i متوفرة دولياً. البديل الأفضل لـ P30i هو R50i NC بإلغاء ضوضاء أقوى.',
             content: `
 <div class="quick-answer-inline" style="background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151">
-  <p><strong>باختصار:</strong> سماعات Soundcore المتوفرة الآن في مصر من كايرو فولت: K20i (750ج)، R50i (950ج)، R50i NC (1,299ج)، Life P2i (820ج). كلها بضمان 18 شهر وتوصيل لكل المحافظات.</p>
+  <p><strong>باختصار:</strong> سماعات Soundcore المتوفرة الآن في مصر من كايرو فولت: K20i (750ج)، R50i (950ج)، R50i NC (1,199ج)، Life P2i (820ج). كلها بضمان 18 شهر وتوصيل لكل المحافظات.</p>
 </div>
 
 <h2>ما هي Soundcore؟</h2>
@@ -33,7 +33,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 <tbody>
 <tr style="background:#f8fafc"><td style="padding:8px"><strong>Soundcore K20i</strong></td><td style="padding:8px">750 ج</td><td style="padding:8px">13mm BassUp، 36 ساعة، نصف داخلية</td><td style="padding:8px">الراحة القصوى</td></tr>
 <tr><td style="padding:8px"><strong>Soundcore R50i</strong></td><td style="padding:8px">950 ج</td><td style="padding:8px">10mm BassUp، 30 ساعة، IPX5</td><td style="padding:8px">أفضل قيمة</td></tr>
-<tr style="background:#f8fafc"><td style="padding:8px"><strong>Soundcore R50i NC</strong></td><td style="padding:8px">1,299 ج</td><td style="padding:8px">ANC 42dB، 45 ساعة، 4 مايك AI</td><td style="padding:8px">إلغاء الضوضاء</td></tr>
+<tr style="background:#f8fafc"><td style="padding:8px"><strong>Soundcore R50i NC</strong></td><td style="padding:8px">1,199 ج</td><td style="padding:8px">ANC 42dB، 45 ساعة، 4 مايك AI</td><td style="padding:8px">إلغاء الضوضاء</td></tr>
 <tr><td style="padding:8px"><strong>Soundcore Life P2i</strong></td><td style="padding:8px">820 ج</td><td style="padding:8px">ألوان متعددة، عزل سلبي</td><td style="padding:8px">الاستخدام اليومي</td></tr>
 </tbody>
 </table>
@@ -103,10 +103,10 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
             metaDescription: 'Complete guide to all Soundcore by Anker earbuds in Egypt 2026. Compare P30i, Q11i, A30i, Q20i, V20i, R50i, Space One with prices and specs. Which one is right for you?',
             keywords: 'soundcore p30i, soundcore q11i, anker soundcore liberty 4 nc, anker soundcore liberty 4 pro, anker soundcore liberty 5, anker soundcore p30i, anker soundcore p40i, anker soundcore q11i, anker soundcore r50i vi, anker p2i, p40i soundcore, anker pencil, soundcore a30i, soundcore q20i, soundcore v20i, soundcore q30, soundcore q45, soundcore c40i, soundcore h30i, soundcore p25i, soundcore p41i, soundcore a20i, soundcore r100, anker p30i, anker a30i, anker p25i, anker q20i, anker v20i, p30i soundcore, soundcore liberty 4 pro, soundcore liberty 5, soundcore space one, soundcore space one pro, soundcore r50i vi, soundcore liberty buds, soundcore aerofit 2, soundcore select 4 go, anker lightening',
             excerpt: 'Complete comparison of all Soundcore by Anker earbuds — available in Egypt and international models.',
-            quickAnswer: 'Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,299), Life P2i (EGP 820). Models like P30i and Q11i are international — best local alternative for P30i is R50i NC with stronger ANC.',
+            quickAnswer: 'Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,199), Life P2i (EGP 820). Models like P30i and Q11i are international — best local alternative for P30i is R50i NC with stronger ANC.',
             content: `
 <div class="quick-answer-inline" style="background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151">
-  <p><strong>In short:</strong> Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,299), Life P2i (EGP 820). All with 18-month warranty.</p>
+  <p><strong>In short:</strong> Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,199), Life P2i (EGP 820). All with 18-month warranty.</p>
 </div>
 
 <h2>What is Soundcore?</h2>

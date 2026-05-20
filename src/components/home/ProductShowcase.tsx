@@ -36,7 +36,7 @@ const showcaseProducts: ShowcaseProduct[] = [
     slug: 'anker-soundcore-r50i-nc',
     name: { en: 'Soundcore R50i NC ANC', ar: 'ساوندكور R50i NC' },
     image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp',
-    price: 1299,
+    price: 1199,
     originalPrice: 1550,
     brand: 'Anker',
     badge: { en: 'New', ar: 'جديد' },

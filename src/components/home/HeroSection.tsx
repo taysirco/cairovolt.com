@@ -48,7 +48,7 @@ const heroProducts: HeroProduct[] = [
     name: { en: 'Soundcore R50i NC', ar: 'ساوندكور R50i NC' },
     tagline: { en: '42dB ANC · 45h Battery · 4-Mic AI Calls', ar: '42dB إلغاء ضوضاء · 45 ساعة · 4 مايك AI' },
     image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp',
-    price: 1299,
+    price: 1199,
     originalPrice: 1550,
     brand: 'Anker',
     badge: { en: 'New Arrival', ar: 'جديد' },

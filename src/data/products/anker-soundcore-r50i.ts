@@ -76,7 +76,7 @@ export const anker_soundcore_r50i = {
 <h2 class="text-2xl font-bold mb-3">Soundcore R50i vs Alternatives — Quick Comparison</h2>
 <p class="text-gray-600 mb-3">Not sure which Soundcore earbuds are right for you? Here's how the Soundcore R50i stacks up against its siblings:</p>
 <table class="w-full border-collapse text-sm"><thead><tr class="bg-blue-900 text-white"><th class="p-3">Feature</th><th class="p-3">Soundcore R50i</th><th class="p-3"><a href='/en/anker/audio/anker-soundcore-r50i-nc' class='text-blue-200 hover:underline'>R50i NC</a></th><th class="p-3"><a href='/en/anker/audio/anker-soundcore-k20i' class='text-blue-200 hover:underline'>K20i</a></th><th class="p-3"><a href='/en/anker/audio/anker-soundcore-life-p2i' class='text-blue-200 hover:underline'>Life P2i</a></th></tr></thead><tbody>
-<tr class="bg-gray-50"><td class="p-2 border font-semibold">Price (EGP)</td><td class="p-2 border text-green-700 font-bold">950</td><td class="p-2 border">1,299</td><td class="p-2 border">750</td><td class="p-2 border">820</td></tr>
+<tr class="bg-gray-50"><td class="p-2 border font-semibold">Price (EGP)</td><td class="p-2 border text-green-700 font-bold">950</td><td class="p-2 border">1,199</td><td class="p-2 border">750</td><td class="p-2 border">820</td></tr>
 <tr><td class="p-2 border font-semibold">Driver</td><td class="p-2 border">10mm BassUp</td><td class="p-2 border">10mm BassUp</td><td class="p-2 border">13mm BassUp</td><td class="p-2 border">10mm</td></tr>
 <tr class="bg-gray-50"><td class="p-2 border font-semibold">Battery</td><td class="p-2 border">30h</td><td class="p-2 border">45h</td><td class="p-2 border">36h</td><td class="p-2 border">28h</td></tr>
 <tr><td class="p-2 border font-semibold">ANC</td><td class="p-2 border">❌ Passive only</td><td class="p-2 border">✅ 42dB</td><td class="p-2 border">❌ None</td><td class="p-2 border">❌ Passive</td></tr>
@@ -116,7 +116,7 @@ export const anker_soundcore_r50i = {
                 metaDesc: "Soundcore R50i earbuds — EGP 950 with 18-month warranty. 10mm BassUp™, 30h battery, IPX5. ✅ Original Anker ✅ COD ✅ Same-day Cairo delivery. Compare R50i vs R50i NC.",
                 faqs: [
                     { question: "Does the Soundcore R50i have ANC (noise cancellation)?", answer: "No — the Soundcore R50i uses passive noise isolation via silicone tips. For active ANC, choose the Soundcore R50i NC (42dB ANC). The R50i offers excellent value without ANC." },
-                    { question: "Soundcore R50i vs R50i NC — what's the difference?", answer: "Soundcore R50i: no ANC, 30h battery, 950 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1299 EGP. If budget allows, R50i NC is the significant upgrade." },
+                    { question: "Soundcore R50i vs R50i NC — what's the difference?", answer: "Soundcore R50i: no ANC, 30h battery, 950 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1199 EGP. If budget allows, R50i NC is the significant upgrade." },
                     { question: "Soundcore R50i vs K20i — which is better?", answer: "Soundcore R50i = in-ear (passive isolation, 10mm drivers, 30h). K20i = semi-in-ear (more comfortable, 13mm drivers, 36h). K20i costs 750 EGP vs R50i's 950 EGP." },
                     { question: "How to pair Soundcore R50i with my phone?", answer: "Open the charging case near your phone. The Soundcore R50i enters pairing mode automatically. Go to Bluetooth settings and select 'Soundcore R50i'. Download the Soundcore app for EQ customization and firmware updates." },
                     { question: "Is the Soundcore R50i worth it in 2026?", answer: "Absolutely. At EGP 950, the Soundcore R50i offers 10mm BassUp drivers, 30h battery, Bluetooth 5.3, IPX5, and full app EQ — features found in earbuds costing 2-3× more. It's the best-value wireless earbuds in Egypt." },
@@ -169,7 +169,7 @@ export const anker_soundcore_r50i = {
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },
-                    { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 950 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1299 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
+                    { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 950 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1199 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
                     { question: "R50i ولا K20i — أنهي أحسن؟", answer: "R50i = داخلية (عزل سلبي، 10mm، 30 ساعة). K20i = نصف داخلية (أريح، 13mm، 36 ساعة). K20i بـ 750 جنيه مقابل 950 للـ R50i." },
                     { question: "إزاي أحافظ على البطارية أطول فترة؟", answer: "خلّي العلبة مشحونة بـ USB-C. متفرغش السماعات لـ 0%. حطها في العلبة لما مش بتستخدمها. شحن 10 دقايق بيدي ساعتين طوارئ." },
                     { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }

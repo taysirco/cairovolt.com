@@ -51,7 +51,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                                                                                                          <ul>
                                                                                                          <li><strong>Soundcore K20i</strong> — 750 ج.م | نصف داخلية | 36 ساعة | BassUp 13mm</li>
                                                                                                          <li><strong>Soundcore R50i</strong> — 950 ج.م | داخلية | 30 ساعة | BassUp 10mm</li>
-                                                                                                         <li><strong>Soundcore R50i NC</strong> — 1,299 ج.م | ANC 42dB | 45 ساعة | 4 مايك AI</li>
+                                                                                                         <li><strong>Soundcore R50i NC</strong> — 1,199 ج.م | ANC 42dB | 45 ساعة | 4 مايك AI</li>
                                                                                                          <li><strong>Soundcore Life P2i</strong> — 820 ج.م | ألوان متعددة | عزل سلبي</li>
                                                                                                          </ul>
 
@@ -100,7 +100,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                     { question: 'ما أفضل سماعة بلوتوث في مصر؟', answer: 'Soundcore Liberty 4 NC للجودة العالية مع إلغاء ضوضاء. Joyroom T03S Pro لأفضل سعر.' },
                     { question: 'هل سماعات جوي روم أصلية؟', answer: 'نعم، Joyroom شركة معروفة عالمياً ومنتجاتها أصلية. تأكد من الشراء من وكيل معتمد للحصول على الضمان.' },
                     { question: 'هل Soundcore أفضل من JBL؟', answer: 'Soundcore من انكر تقدم جودة صوت منافسة لـ JBL بسعر أقل عادةً. Liberty 4 NC يتفوق على JBL في نفس الفئة السعرية.' },
-                    { question: 'ما مواصفات Soundcore P30i؟', answer: 'Soundcore P30i: بطارية 28 ساعة، ANC 40dB، IP55 مقاومة الماء والغبار، شحن سريع 10 دقايق. غير متوفر حالياً في مصر — البديل الأقرب هو R50i NC المتوفر من كايرو فولت بـ 1,299 جنيه.' },
+                    { question: 'ما مواصفات Soundcore P30i؟', answer: 'Soundcore P30i: بطارية 28 ساعة، ANC 40dB، IP55 مقاومة الماء والغبار، شحن سريع 10 دقايق. غير متوفر حالياً في مصر — البديل الأقرب هو R50i NC المتوفر من كايرو فولت بـ 1,199 جنيه.' },
                     { question: 'إيه هو الفرق بين Soundcore Q11i و Q20i و Q30؟', answer: 'Soundcore Q11i: Over-ear اقتصادية بدون ANC. Q20i: ANC أساسي + EQ محسّن. Q30: ANC متطور + Hi-Res Audio. كلها غير متوفرة حالياً في مصر — سماعات Soundcore المتوفرة من كايرو فولت هي K20i, R50i, R50i NC.' },
                 ]
             },
@@ -142,7 +142,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                                                                                                          <ul>
                                                                                                          <li><strong>Soundcore K20i</strong> — EGP 750 | Semi-in-ear | 36h | 13mm BassUp</li>
                                                                                                          <li><strong>Soundcore R50i</strong> — EGP 950 | In-ear | 30h | 10mm BassUp</li>
-                                                                                                         <li><strong>Soundcore R50i NC</strong> — EGP 1,299 | ANC 42dB | 45h | 4-mic AI</li>
+                                                                                                         <li><strong>Soundcore R50i NC</strong> — EGP 1,199 | ANC 42dB | 45h | 4-mic AI</li>
                                                                                                          <li><strong>Soundcore Life P2i</strong> — EGP 820 | Multiple colors | Passive isolation</li>
                                                                                                          </ul>
                                                                                                          <h3>📦 International Soundcore Models (specs for reference):</h3>

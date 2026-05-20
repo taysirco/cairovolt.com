@@ -1,7 +1,7 @@
 // Product: anker-soundcore-r50i-nc
 export const anker_soundcore_r50i_nc = {
         slug: "anker-soundcore-r50i-nc", sku: "ANK-AU-R50INC", brand: "Anker", categorySlug: "audio",
-        gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1299, originalPrice: 1550, stock: 365, featured: true, status: "active",
+        gtin: "194644197421", gtin13: "0194644197421", mpn: "A3959", price: 1199, originalPrice: 1550, stock: 365, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-earbud-anc-driver-detail-closeup.webp", alt: "سماعة انكر ساوندكور R50i NC مع إلغاء ضوضاء - كايرو فولت", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp", alt: "Anker Soundcore R50i NC ANC earbuds with case - Egypt - A3959 - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
@@ -25,7 +25,7 @@ export const anker_soundcore_r50i_nc = {
                 shortDescription: "🔇 42dB Adaptive ANC | 🔋 45h Total Battery | 🎙️ 4-Mic AI Beamforming | 📱 Built-in Phone Stand Case | 🎵 10mm HiFi Drivers | 💧 IP54",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget earbuds with fake ANC marketing, the Soundcore R50i NC delivers <strong>real 42dB hybrid ANC</strong> tested on Cairo Metro and EgyptAir flights. With <strong>4-mic AI beamforming</strong>, a built-in phone stand case, and 45h total battery, it matches AirPods Pro 2 performance at half the price — FCC/CE certified, 18-month warranty. Available at <strong>EGP 1299</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget earbuds with fake ANC marketing, the Soundcore R50i NC delivers <strong>real 42dB hybrid ANC</strong> tested on Cairo Metro and EgyptAir flights. With <strong>4-mic AI beamforming</strong>, a built-in phone stand case, and 45h total battery, it matches AirPods Pro 2 performance at half the price — FCC/CE certified, 18-month warranty. Available at <strong>EGP 1199</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -35,7 +35,7 @@ export const anker_soundcore_r50i_nc = {
 <li>📱 <strong>Phone Stand Case:</strong> Hidden stand turns any surface into a video call station.</li>
 <li>🎵 <strong>10mm HiFi Drivers + BassUp™:</strong> Balanced sound with customizable EQ.</li>
 <li>💧 <strong>IP54:</strong> Dust-proof and splash-proof for outdoor use.</li>
-<li>💰 <strong>2.41 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+<li>💰 <strong>2.22 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
 <p class="text-gray-700 leading-relaxed text-lg">"The R50i NC is the sweet spot of the Soundcore lineup. At 42dB ANC, it genuinely blocks out Cairo's noise: Metro trains, micro-bus horns, café chatter, air conditioning hum — all gone. We wore them for a 4-hour EgyptAir flight to Dubai: plane engine noise disappeared completely. The 4-mic AI beamforming for calls is a massive upgrade over the K20i's dual mic — wind noise on the Corniche simply vanished. The hidden phone stand in the case is brilliantly practical for video calls. At 45 hours total battery, you charge once every 10 days if you use 4-5h daily. The R50i NC punches WAY above its weight class. ANC performance that rivals AirPods Pro 2 at less than half the price. The best ANC earbuds value in Egypt, period."<br><span class="font-bold block mt-2">✍️ CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-details">
@@ -76,7 +76,7 @@ export const anker_soundcore_r50i_nc = {
                 shortDescription: "🔇 42dB ANC تكيفي | 🔋 45 ساعة إجمالي | 🎙️ 4 مايك AI | 📱 علبة بحامل موبايل | 🎵 10mm HiFi | 💧 IP54",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بتسويق ANC وهمي، ساوندكور R50i NC بتوفر <strong>42dB ANC هجين حقيقي</strong> اتاختبر في مترو القاهرة ورحلات مصر للطيران. ب<strong>4 مايك AI</strong>، علبة بحامل موبايل، وبطارية 45 ساعة، بتنافس ايربودز برو 2 بنص السعر — شهادات FCC/CE، ضمان 18 شهر. بسعر <strong>1299 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بتسويق ANC وهمي، ساوندكور R50i NC بتوفر <strong>42dB ANC هجين حقيقي</strong> اتاختبر في مترو القاهرة ورحلات مصر للطيران. ب<strong>4 مايك AI</strong>، علبة بحامل موبايل، وبطارية 45 ساعة، بتنافس ايربودز برو 2 بنص السعر — شهادات FCC/CE، ضمان 18 شهر. بسعر <strong>1199 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
