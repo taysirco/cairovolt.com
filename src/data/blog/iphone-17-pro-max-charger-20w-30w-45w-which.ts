@@ -135,7 +135,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
 <p>لكن الفرق بيكبر في الشحنة الكاملة (0→100%): 1:42 مقابل 1:35 — 7 دقائق. ده لإن الـ 30W بيحافظ على سرعة أعلى لفترة أطول قبل ما الموبايل يبدأ يقلل السحب.</p>
 
 <h3>2. شاحن 45W = نفس سرعة 30W بالضبط (لكن بـ 300ج زيادة)</h3>
-<p>Anker GaN 30W: 0-50% في 24 دقيقة. Anker Nano 45W: 0-50% في 24 دقيقة. نفس الرقم. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W — والشاحنين بيوصلوا للحد ده. الـ 45W الزيادة مش بتتحول لسرعة — بتفضل كامنة.</p>
+<p>انكر GaN 30W: 0-50% في 24 دقيقة. Anker Nano 45W: 0-50% في 24 دقيقة. نفس الرقم. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W — والشاحنين بيوصلوا للحد ده. الـ 45W الزيادة مش بتتحول لسرعة — بتفضل كامنة.</p>
 
 <p><strong>إمتى الـ 45W يستاهل؟</strong> لو عندك أجهزة تانية بتقبل 45W — زي iPad Pro أو MacBook Air أو Samsung S26 Ultra (اللي بيقبل 45W فعلاً). شاحن واحد لكل أجهزتك = أحسن صفقة.</p>
 
@@ -146,15 +146,15 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:24px;">
-        <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#059669;">🥇 الأفضل عموماً — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">Anker GaN 30W</a> (499ج)</p>
+        <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#059669;">🥇 الأفضل عموماً — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">انكر GaN 30W</a> (499ج)</p>
         <p style="margin:0;line-height:1.8;">تقنية GaN = أصغر حجماً من شاحن 20W العادي. بيطلع 26.8W فعلية — بيستغل 99% من قدرة iPhone 17 Pro Max. ضمان 18 شهر. لو هتشتري شاحن واحد بس — ده هو.</p>
     </li>
     <li style="margin-bottom:24px;">
-        <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#2563eb;">🥈 أفضل قيمة — <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">Joyroom 30W</a> (299ج)</p>
+        <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#2563eb;">🥈 أفضل قيمة — <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">جوي روم 30W</a> (299ج)</p>
         <p style="margin:0;line-height:1.8;">بيطلع 25.9W فعلية — أبطأ من Anker GaN 30W بفرق دقيقة واحدة فقط (0-50%). أرخص 200ج. لو الميزانية محدودة — ده أذكى اختيار.</p>
     </li>
     <li style="margin-bottom:24px;">
-        <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#6b21a8;">🥉 لو عندك أجهزة متعددة — <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Nano 45W</a> (799ج)</p>
+        <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#6b21a8;">🥉 لو عندك أجهزة متعددة — <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر نانو 45W</a> (799ج)</p>
         <p style="margin:0;line-height:1.8;">شاشة ذكية بتعرض الواط الفعلي. بيشحن iPhone 17 Pro Max + iPad Pro + MacBook Air. شاحن واحد بدل 3. لو عندك أكتر من جهاز Apple — ده يستاهل الفرق.</p>
     </li>
 </ul>
@@ -175,25 +175,25 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر 20W</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">33°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">38°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ بارد</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker GaN 30W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر GaN 30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">35°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">40°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ممتاز</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker Nano 45W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر نانو 45W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">35°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;">42°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ مقبول</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 30W</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">36°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;">44°م</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ دافئ</td>

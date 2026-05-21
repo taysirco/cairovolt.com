@@ -152,7 +152,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
     </thead>
     <tbody>
         <tr style="background:#f0fdf4;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Anker Nano 45W ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>انكر نانو 45W ⭐</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">45W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">2× USB-C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅</td>
@@ -161,7 +161,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">موبايل + تابلت</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Anker GaN 30W</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>انكر GaN 30W</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1× USB-C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅</td>
@@ -179,7 +179,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">لابتوب + موبايل + سماعة</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Joyroom 30W</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>جوي روم 30W</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1× USB-C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌</td>
@@ -188,7 +188,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">ميزانية محدودة</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Anker 20W</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>انكر 20W</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1× USB-C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">❌</td>
@@ -209,13 +209,13 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ بتشحن جهازين في نفس الوقت؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>Anker Nano 45W</strong> (799ج) — 2× USB-C + شاشة ذكية</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>انكر نانو 45W</strong> (799ج) — 2× USB-C + شاشة ذكية</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ ميزانيتك فوق 400ج؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>Anker GaN 30W</strong> (499ج) — أقصى سرعة + أصغر حجم</p>
-        <p style="margin:4px 0 0 20px;">❌ لا → <strong>Joyroom 30W</strong> (299ج) — نفس السرعة تقريباً بنص السعر</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>انكر GaN 30W</strong> (499ج) — أقصى سرعة + أصغر حجم</p>
+        <p style="margin:4px 0 0 20px;">❌ لا → <strong>جوي روم 30W</strong> (299ج) — نفس السرعة تقريباً بنص السعر</p>
     </li>
 </ul>
 

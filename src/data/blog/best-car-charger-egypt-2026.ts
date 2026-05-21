@@ -21,7 +21,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
                 content: `
 <h2>لماذا تحتاج شاحن سيارة أصلي في مصر؟</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
-    <p><strong>باختصار:</strong> أفضل شاحن سيارة اقتصادي: <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W</a> (منفذين، أقل من 550 ج.م). أفضل أداء: <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">Anker Dual USB</a> (حماية MultiProtect + ضمان 18 شهر). اختبرناهما في حرارة صيفية 45°C بدون أي مشاكل.</p>
+    <p><strong>باختصار:</strong> أفضل شاحن سيارة اقتصادي: <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">جوي روم 60W</a> (منفذين، أقل من 550 ج.م). أفضل أداء: <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">انكر Dual USB</a> (حماية MultiProtect + ضمان 18 شهر). اختبرناهما في حرارة صيفية 45°C بدون أي مشاكل.</p>
 </div>
 <p>المصري بيقضي في المتوسط <strong>ساعة ونص يومياً في السيارة</strong> (زحمة القاهرة الكلاسيكية 😅). ده معناه إن موبايلك بيستهلك بطارية على الخرائط، المكالمات، والميوزيك. شاحن السيارة مش رفاهية — <strong>ده ضرورة يومية</strong>.</p>
 <p>لكن السوق مليان شواحن سيارة تقليد بتشتغل شهر وتبوظ، أو أسوأ — بتسخن وتضر الموبايل. في هذا الدليل الشامل، هنساعدك تختار الشاحن الصح.</p>
@@ -38,7 +38,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
     <li><strong>20-30W:</strong> شحن سريع — مثالي لـ iPhone و معظم أجهزة Samsung</li>
     <li><strong>45-60W:</strong> شحن فائق السرعة — يشحن Samsung S26 بأقصى سرعة أو يشحن لابتوب صغير</li>
 </ul>
-<p><strong>نصيحتنا:</strong> لا تشتري أقل من 20W. شاحن <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W</a> يعطيك المستقبل أيضاً — لو غيّرت موبايلك لواحد أحدث.</p>
+<p><strong>نصيحتنا:</strong> لا تشتري أقل من 20W. شاحن <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">جوي روم 60W</a> يعطيك المستقبل أيضاً — لو غيّرت موبايلك لواحد أحدث.</p>
 
 <h3>2. عدد ونوع المنافذ</h3>
 <ul>
@@ -79,7 +79,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 
 <h2>جدول المقارنة الشامل</h2>
 <table>
-    <thead><tr><th>المعيار</th><th>Anker Dual USB</th><th>Joyroom 60W</th></tr></thead>
+    <thead><tr><th>المعيار</th><th>انكر Dual USB</th><th>جوي روم 60W</th></tr></thead>
     <tbody>
         <tr><td><strong>القدرة</strong></td><td>24W</td><td>60W</td></tr>
         <tr><td><strong>المنافذ</strong></td><td>2× USB-A</td><td>USB-C + USB-A</td></tr>
@@ -95,7 +95,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <h2>إزاي تختار الكابل الصح لشاحن السيارة؟</h2>
 <p>الشاحن لوحده مش كفاية — <strong>الكابل نص المعادلة</strong>. كابل تقليد = شحن بطيء + سخونة + احتمال تلف.</p>
 <ul>
-    <li><strong>لو عندك iPhone:</strong> كابل <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">Anker USB-C to Lightning</a> (MFi معتمد) أو <a href="/joyroom/cables/joyroom-usb-c-lightning-cable" style="color:#2563eb">Joyroom USB-C to Lightning</a></li>
+    <li><strong>لو عندك iPhone:</strong> كابل <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">انكر USB-C to Lightning</a> (MFi معتمد) أو <a href="/joyroom/cables/joyroom-usb-c-lightning-cable" style="color:#2563eb">جوي روم USB-C to Lightning</a></li>
     <li><strong>لو عندك Samsung/Android:</strong> كابل USB-C to USB-C يدعم 60W على الأقل</li>
     <li><strong>للشاحن اللي فيه USB-A بس:</strong> كابل USB-A to USB-C أو USB-A to Lightning</li>
 </ul>
@@ -111,8 +111,8 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 
 <h2>نصيحتنا النهائية</h2>
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #eab308;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#854d0e">
-    <p><strong>لو ميزانيتك محدودة:</strong> <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W Car Charger</a> — أفضل قيمة مقابل سعر. منفذ USB-C + USB-A، شحن سريع PD + QC، وحماية ذكية بأقل من 550 ج.م.</p>
-    <p><strong>لو عايز الأفضل:</strong> <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">Anker Car Charger Dual USB</a> + <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">كابل Anker أصلي</a> — 10 طبقات حماية + ضمان 18 شهر استبدال من كايرو فولت.</p>
+    <p><strong>لو ميزانيتك محدودة:</strong> <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">جوي روم 60W Car Charger</a> — أفضل قيمة مقابل سعر. منفذ USB-C + USB-A، شحن سريع PD + QC، وحماية ذكية بأقل من 550 ج.م.</p>
+    <p><strong>لو عايز الأفضل:</strong> <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">انكر شاحن سيارة Dual USB</a> + <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">كابل Anker أصلي</a> — 10 طبقات حماية + ضمان 18 شهر استبدال من كايرو فولت.</p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">

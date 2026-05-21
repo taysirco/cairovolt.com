@@ -26,7 +26,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 <p>السؤال الأشهر في عالم الموبايلات: <strong>"هل الشحن السريع بيبوظ البطارية؟"</strong>. الإجابة القصيرة: لا. لكن الإجابة الكاملة محتاجة نفهم إيه اللي بيحصل جوا البطارية أثناء الشحن.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🔬 اختبارنا العملي (6 أشهر):</strong> في مختبر كايرو فولت، شحنّا 3 أجهزة iPhone 15 يومياً لمدة 180 يوم: الأول بشاحن <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> (شحن سريع)، الثاني بشاحن Apple 5W القديم (شحن بطيء)، والثالث بشاحن تقليد 20W من السوق. النتيجة بعد 6 أشهر: Battery Health بالشاحن السريع = 97%، البطيء = 96%، التقليد = 89%. الفارق بين السريع والبطيء 1% فقط!</p>
+    <p><strong>🔬 اختبارنا العملي (6 أشهر):</strong> في مختبر كايرو فولت، شحنّا 3 أجهزة iPhone 15 يومياً لمدة 180 يوم: الأول بشاحن <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W</a> (شحن سريع)، الثاني بشاحن Apple 5W القديم (شحن بطيء)، والثالث بشاحن تقليد 20W من السوق. النتيجة بعد 6 أشهر: Battery Health بالشاحن السريع = 97%، البطيء = 96%، التقليد = 89%. الفارق بين السريع والبطيء 1% فقط!</p>
 </div>
 
 <h2>كيف يعمل الشحن السريع علمياً؟</h2>
@@ -40,13 +40,13 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 
 <h2>لماذا يقولون إن الشحن السريع يضر؟ (المفاهيم الخاطئة)</h2>
 <h3>الخطأ 1: "الشحن السريع = حرارة = ضرر"</h3>
-<p>الشاحن السريع <strong>الأصلي</strong> بيولّد حرارة أقل مما تتخيل. شواحن GaN مثل <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> بتحول 95% من الطاقة لشحن فعلي و5% بس حرارة. الحرارة الخطيرة مصدرها الشواحن التقليد اللي مفيهاش دوائر حماية.</p>
+<p>الشاحن السريع <strong>الأصلي</strong> بيولّد حرارة أقل مما تتخيل. شواحن GaN مثل <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W</a> بتحول 95% من الطاقة لشحن فعلي و5% بس حرارة. الحرارة الخطيرة مصدرها الشواحن التقليد اللي مفيهاش دوائر حماية.</p>
 
 <h3>الخطأ 2: "البطارية بتتآكل أسرع بالشحن السريع"</h3>
 <p>دراسة Battery University أثبتت إن <strong>عدد دورات الشحن</strong> (Charge Cycles) هو اللي بيحدد عمر البطارية — مش سرعة الشحن. يعني لو شحنت 500 دورة بشاحن سريع أو بطيء، النتيجة هتكون متقاربة جداً.</p>
 
 <h3>الخطأ 3: "لازم أشحن الموبايل بالشاحن اللي جاي معاه بس"</h3>
-<p>ده كان صح من 10 سنين. دلوقتي معيار USB PD بيضمن إن <strong>أي شاحن معتمد</strong> يشحن أي موبايل بأمان. شاحن <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> بيشحن iPhone بنفس أمان شاحن Apple الأصلي.</p>
+<p>ده كان صح من 10 سنين. دلوقتي معيار USB PD بيضمن إن <strong>أي شاحن معتمد</strong> يشحن أي موبايل بأمان. شاحن <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a> بيشحن iPhone بنفس أمان شاحن Apple الأصلي.</p>
 
 <h2>ما الذي يضر البطارية فعلاً؟</h2>
 <p>الأبحاث العلمية تؤكد إن العوامل التالية هي اللي بتدمر بطاريتك — وكلها <strong>مالهاش علاقة بسرعة الشحن</strong>:</p>
@@ -62,9 +62,9 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 <table>
     <thead><tr><th>طريقة الشحن</th><th>الشاحن المستخدم</th><th>Battery Health بعد 6 أشهر</th><th>حرارة أثناء الشحن</th><th>وقت الشحن 0→80%</th></tr></thead>
     <tbody>
-        <tr><td><strong>شحن سريع أصلي</strong></td><td>Anker Nano 45W (GaN)</td><td><strong>97%</strong></td><td>33°C</td><td>35 دقيقة</td></tr>
+        <tr><td><strong>شحن سريع أصلي</strong></td><td>انكر نانو 45W (GaN)</td><td><strong>97%</strong></td><td>33°C</td><td>35 دقيقة</td></tr>
         <tr><td>شحن بطيء</td><td>Apple 5W الأصلي</td><td>96%</td><td>30°C</td><td>2.5 ساعة</td></tr>
-        <tr><td>شحن سريع (20W أصلي)</td><td>Joyroom 20W PD</td><td><strong>97%</strong></td><td>34°C</td><td>45 دقيقة</td></tr>
+        <tr><td>شحن سريع (20W أصلي)</td><td>جوي روم 20W PD</td><td><strong>97%</strong></td><td>34°C</td><td>45 دقيقة</td></tr>
         <tr><td style="color:#ef4444">شاحن تقليد</td><td>شاحن 20W من السوق</td><td style="color:#ef4444"><strong>89%</strong></td><td style="color:#ef4444">43°C</td><td>55 دقيقة</td></tr>
     </tbody>
 </table>
@@ -81,7 +81,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 </ol>
 
 <h2>الخلاصة: اشحن سريع بأمان</h2>
-<p>الشحن السريع الأصلي <strong>آمن تماماً</strong> على بطارية موبايلك. العدو الحقيقي هو الحرارة الناتجة من الشواحن التقليد. <strong>الحل الأوفر:</strong> شاحن <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> (أقل من 200 ج.م) — أصلي 100% مع شحن سريع وحماية كاملة. <strong>الحل الأفضل:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a> — أسرع شاحن بأقل حرارة مع ضمان 18 شهر.</p>
+<p>الشحن السريع الأصلي <strong>آمن تماماً</strong> على بطارية موبايلك. العدو الحقيقي هو الحرارة الناتجة من الشواحن التقليد. <strong>الحل الأوفر:</strong> شاحن <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a> (أقل من 200 ج.م) — أصلي 100% مع شحن سريع وحماية كاملة. <strong>الحل الأفضل:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W GaN</a> — أسرع شاحن بأقل حرارة مع ضمان 18 شهر.</p>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر علمية:</p>

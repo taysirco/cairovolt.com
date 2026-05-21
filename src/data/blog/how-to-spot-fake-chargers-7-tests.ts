@@ -46,8 +46,8 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
 <table>
     <thead><tr><th>المنتج</th><th>الأصلي</th><th>التقليد</th><th>الفرق</th></tr></thead>
     <tbody>
-        <tr><td><strong>Anker PowerPort 20W</strong></td><td>56 جرام</td><td>38 جرام</td><td>32% أخف ❌</td></tr>
-        <tr><td><strong>Anker 30W GaN</strong></td><td>62 جرام</td><td>41 جرام</td><td>34% أخف ❌</td></tr>
+        <tr><td><strong>انكر باور بورت 20W</strong></td><td>56 جرام</td><td>38 جرام</td><td>32% أخف ❌</td></tr>
+        <tr><td><strong>انكر 30W GaN</strong></td><td>62 جرام</td><td>41 جرام</td><td>34% أخف ❌</td></tr>
         <tr><td><strong>كابل USB-C (1م)</strong></td><td>28 جرام</td><td>16 جرام</td><td>43% أخف ❌</td></tr>
     </tbody>
 </table>
@@ -79,9 +79,9 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
 <table>
     <thead><tr><th>الشاحن</th><th>شحن في 30 دقيقة</th><th>الحكم</th></tr></thead>
     <tbody>
-        <tr><td><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker PowerPort 20W أصلي</a></td><td>20% → 68%</td><td>✅ شحن سريع حقيقي</td></tr>
+        <tr><td><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر باور بورت 20W أصلي</a></td><td>20% → 68%</td><td>✅ شحن سريع حقيقي</td></tr>
         <tr><td>تقليد "20W"</td><td>20% → 41%</td><td>❌ شحن عادي 5W فقط</td></tr>
-        <tr><td><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">Anker GaN 30W أصلي</a></td><td>20% → 72%</td><td>✅ شحن سريع PD</td></tr>
+        <tr><td><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">انكر GaN 30W أصلي</a></td><td>20% → 72%</td><td>✅ شحن سريع PD</td></tr>
         <tr><td>تقليد "30W GaN"</td><td>20% → 39%</td><td>❌ مفيش GaN أصلاً</td></tr>
     </tbody>
 </table>

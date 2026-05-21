@@ -17,11 +17,11 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
                 metaDescription: 'اعرف الحقيقة العلمية: هل الشواحن التقليد بتدمر بطارية الايفون؟ شرح مفصل لتأثير الشحن السيء على Battery Health وإزاي تحمي موبايلك.',
                 keywords: 'هل الشواحن التقليد تضر البطارية, شاحن تقليد ايفون, تأثير الشاحن التقليد على البطارية, battery health ايفون, حماية بطارية الايفون, شاحن اصلي vs تقليد',
                 excerpt: 'الحقيقة العلمية الكاملة عن تأثير الشواحن التقليد على بطارية الايفون وإزاي تحمي موبايلك.',
-                quickAnswer: 'نعم، الشواحن التقليد تضر بطارية الايفون. التيار غير المنتظم يسبب سخونة زيادة تقلل عمر البطارية 30-50%. الحل: استخدم شاحن معتمد MFi مثل <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> (375 جنيه) لحماية جهازك.',
+                quickAnswer: 'نعم، الشواحن التقليد تضر بطارية الايفون. التيار غير المنتظم يسبب سخونة زيادة تقلل عمر البطارية 30-50%. الحل: استخدم شاحن معتمد MFi مثل <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W</a> (375 جنيه) لحماية جهازك.',
                 content: `
                                             <h2> الإجابة المختصرة: نعم، الشواحن التقليد ممكن تدمر بطارية الايفون </h2>
                                                 <div class="quick-answer-inline" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="تحذير مهم" >
-                                                    <p><strong>❗ باختصار: </strong> نعم، الشواحن التقليد بتضر بطارية الايفون فعلاً — Battery Health بتنزل أسرع 2-3× من الطبيعي. الحل: شاحن Anker 20W (375 ج.م) أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> (أقل من 200 ج.م).</p>
+                                                    <p><strong>❗ باختصار: </strong> نعم، الشواحن التقليد بتضر بطارية الايفون فعلاً — Battery Health بتنزل أسرع 2-3× من الطبيعي. الحل: شاحن Anker 20W (375 ج.م) أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a> (أقل من 200 ج.م).</p>
                                                         </div>
                                                         <p> الشواحن التقليد بتضر بطارية الايفون بـ 3 طرق رئيسية: <strong>تيار غير منتظم </strong>، <strong>سخونة زائدة</strong>، و <strong> غياب دوائر الحماية </strong>. خلينا نشرح كل واحدة بالتفصيل.</p>
 

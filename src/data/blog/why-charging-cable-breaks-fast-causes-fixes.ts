@@ -58,7 +58,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <h2>الخطأ #3: الشحن والموبايل مايل بزاوية 📐</h2>
 <p>لما موبايلك على السرير والكابل داخل فيه وأنت نايم عليه — الكابل بيتعرض لـ <strong>ثني بزاوية 90°</strong> عند نقطة الدخول لمدة 6-8 ساعات كل ليلة. ده أسوأ سيناريو للأسلاك الداخلية.</p>
 <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin:12px 0">
-    <p style="margin:0;color:#166534"><strong>✅ الحل:</strong> حط الموبايل على سطح مستوي وخلي الكابل ينزل في خط مستقيم أو بانحناء خفيف. الكابلات المعزّزة زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> فيها تقوية عند نقطة الانحناء بتتحمل <strong>12,000 دورة ثني</strong>.</p>
+    <p style="margin:0;color:#166534"><strong>✅ الحل:</strong> حط الموبايل على سطح مستوي وخلي الكابل ينزل في خط مستقيم أو بانحناء خفيف. الكابلات المعزّزة زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين</a> فيها تقوية عند نقطة الانحناء بتتحمل <strong>12,000 دورة ثني</strong>.</p>
 </div>
 
 <h2>الخطأ #4: شراء كابل تقليد بـ 30 جنيه 💸</h2>
@@ -99,10 +99,10 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <table>
     <thead><tr><th>الكابل</th><th>دورات الثني</th><th>القدرة</th><th>المميز</th></tr></thead>
     <tbody>
-        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050 USB-C</strong></a></td><td>12,000+</td><td>100W</td><td>Bio-based غلاف صديق للبيئة</td></tr>
-        <tr><td><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine USB-C</strong></a></td><td>12,000+</td><td>60W</td><td>نايلون مضفر مزدوج</td></tr>
-        <tr><td><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>Anker SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>الأمتن لـ iPhone</td></tr>
-        <tr><td><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom USB-C 60W</strong></a></td><td>10,000+</td><td>60W</td><td>سعر اقتصادي ممتاز</td></tr>
+        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>انكر A8050 USB-C</strong></a></td><td>12,000+</td><td>100W</td><td>Bio-based غلاف صديق للبيئة</td></tr>
+        <tr><td><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>انكر باور لاين USB-C</strong></a></td><td>12,000+</td><td>60W</td><td>نايلون مضفر مزدوج</td></tr>
+        <tr><td><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>انكر SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>الأمتن لـ iPhone</td></tr>
+        <tr><td><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>جوي روم USB-C 60W</strong></a></td><td>10,000+</td><td>60W</td><td>سعر اقتصادي ممتاز</td></tr>
     </tbody>
 </table>
 

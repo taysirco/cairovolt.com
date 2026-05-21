@@ -36,9 +36,9 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:16px;color:#1e40af;font-weight:bold;text-align:center">
     Wh = (mAh × الفولت) ÷ 1000
 </div>
-<p>مثال: باور بانك <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000mAh</a>:</p>
+<p>مثال: باور بانك <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر باور كور 20000mAh</a>:</p>
 <p><strong>20,000 × 3.7V ÷ 1000 = 74Wh</strong> ← أقل من 100Wh = مسموح 100% ✅</p>
-<p>مثال 2: <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb">Anker PowerCore 26800mAh</a>:</p>
+<p>مثال 2: <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb">انكر باور كور 26800mAh</a>:</p>
 <p><strong>26,800 × 3.7V ÷ 1000 = 99.16Wh</strong> ← أقل من 100Wh بنسبة ضئيلة = مسموح ✅</p>
 
 <h2>حدود الباور بانك في الطائرة — الجدول الشامل</h2>
@@ -71,11 +71,11 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
 <table>
     <thead><tr><th>المنتج</th><th>السعة</th><th>الطاقة (Wh)</th><th>الحكم</th></tr></thead>
     <tbody>
-        <tr><td><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000mAh</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ آمن تماماً</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ آمن تماماً</td></tr>
-        <tr><td><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000mAh</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ مسموح</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ مسموح</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb">Anker PowerCore 26800</a></td><td>26,800mAh</td><td>99.16 Wh</td><td>✅ مسموح (أقل من 100)</td></tr>
+        <tr><td><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">جوي روم 10000mAh</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ آمن تماماً</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر باور كور 10000</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ آمن تماماً</td></tr>
+        <tr><td><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">جوي روم 20000mAh</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ مسموح</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر باور كور 20000</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ مسموح</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb">انكر باور كور 26800</a></td><td>26,800mAh</td><td>99.16 Wh</td><td>✅ مسموح (أقل من 100)</td></tr>
     </tbody>
 </table>
 
@@ -94,7 +94,7 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
     <li><strong>خليه في مكان سهل الوصول:</strong> حطه في الجيب الخارجي من حقيبة الظهر</li>
     <li><strong>اشتري باور بانك بملصق واضح:</strong> العلامات التجارية الموثوقة (Anker, Joyroom) دايماً بتكتب السعة بخط واضح</li>
     <li><strong>جهز صورة من مواصفات المنتج:</strong> لو عندك الفاتورة أو صورة من السعة على الموبايل، ده بيسهّل الأمور</li>
-    <li><strong>لو مسافر كتير، اختار 10000mAh:</strong> <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a> — خفيف، صغير، ويعدي أي مطار في العالم بدون نظرة ثانية</li>
+    <li><strong>لو مسافر كتير، اختار 10000mAh:</strong> <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر باور كور 10000</a> — خفيف، صغير، ويعدي أي مطار في العالم بدون نظرة ثانية</li>
 </ul>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">

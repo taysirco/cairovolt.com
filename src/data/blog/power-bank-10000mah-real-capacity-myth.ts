@@ -53,7 +53,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
 <p>ده زي بالظبط لما بتحول عملة من دولار لجنيه — البنك بياخد عمولة. الباور بانك بياخد \"عمولة فيزيائية\" في صورة حرارة.</p>
 
 <h3>🔌 المرحلة 2: مقاومة الكابل — خسارة 3-8%</h3>
-<p>الكابل نفسه فيه <strong>مقاومة كهربائية</strong>. كل ما الكابل أرخص أو أطول، المقاومة أعلى والخسارة أكبر. كابل تقليد ممكن يضيع 8% من الطاقة — كابل <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III</a> بأسلاك نحاس سميكة بيضيع 3% بس.</p>
+<p>الكابل نفسه فيه <strong>مقاومة كهربائية</strong>. كل ما الكابل أرخص أو أطول، المقاومة أعلى والخسارة أكبر. كابل تقليد ممكن يضيع 8% من الطاقة — كابل <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين III</a> بأسلاك نحاس سميكة بيضيع 3% بس.</p>
 
 <h3>📱 المرحلة 3: دائرة الشحن في الموبايل — خسارة 5-10%</h3>
 <p>الموبايل نفسه فيه دائرة شحن (Charging IC) بتحوّل الطاقة الداخلة من 5V لـ <strong>4.2V</strong> (جهد شحن خلايا الليثيوم). عملية التحويل دي كمان بتولّد حرارة.</p>
@@ -95,11 +95,11 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
 <table>
     <thead><tr><th>الباور بانك</th><th>السعة المُصرح بها</th><th>الطاقة المُسلّمة فعلياً</th><th>الكفاءة</th><th>عدد شحنات iPhone 16 Pro</th></tr></thead>
     <tbody>
-        <tr><td><strong><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a></strong></td><td>10,000mAh (37Wh)</td><td><strong>25.2Wh</strong></td><td style="color:#22c55e"><strong>68%</strong> ⭐</td><td><strong>1.9 شحنة</strong></td></tr>
-        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000mAh</a></strong></td><td>10,000mAh (37Wh)</td><td><strong>23.7Wh</strong></td><td style="color:#22c55e"><strong>64%</strong></td><td><strong>1.8 شحنة</strong></td></tr>
+        <tr><td><strong><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر باور كور 10000</a></strong></td><td>10,000mAh (37Wh)</td><td><strong>25.2Wh</strong></td><td style="color:#22c55e"><strong>68%</strong> ⭐</td><td><strong>1.9 شحنة</strong></td></tr>
+        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">جوي روم 10000mAh</a></strong></td><td>10,000mAh (37Wh)</td><td><strong>23.7Wh</strong></td><td style="color:#22c55e"><strong>64%</strong></td><td><strong>1.8 شحنة</strong></td></tr>
         <tr><td>باور بانك تقليد 10000 (ماركة X)</td><td>10,000mAh (37Wh)</td><td>19.2Wh</td><td style="color:#ef4444"><strong>52%</strong></td><td style="color:#ef4444">1.4 شحنة</td></tr>
-        <tr><td><strong><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a></strong></td><td>20,000mAh (74Wh)</td><td><strong>50.3Wh</strong></td><td style="color:#22c55e"><strong>68%</strong> ⭐</td><td><strong>3.8 شحنة</strong></td></tr>
-        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000mAh</a></strong></td><td>20,000mAh (74Wh)</td><td><strong>46.6Wh</strong></td><td style="color:#22c55e"><strong>63%</strong></td><td><strong>3.5 شحنة</strong></td></tr>
+        <tr><td><strong><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر باور كور 20000</a></strong></td><td>20,000mAh (74Wh)</td><td><strong>50.3Wh</strong></td><td style="color:#22c55e"><strong>68%</strong> ⭐</td><td><strong>3.8 شحنة</strong></td></tr>
+        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">جوي روم 20000mAh</a></strong></td><td>20,000mAh (74Wh)</td><td><strong>46.6Wh</strong></td><td style="color:#22c55e"><strong>63%</strong></td><td><strong>3.5 شحنة</strong></td></tr>
         <tr><td>باور بانك تقليد 20000 (ماركة Y)</td><td>\"20,000mAh\"</td><td style="color:#ef4444">27.8Wh</td><td style="color:#ef4444"><strong>37%</strong></td><td style="color:#ef4444"><strong>2.1 شحنة</strong> 🚩</td></tr>
     </tbody>
 </table>
@@ -138,7 +138,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
 <p>في جو 25°C: كفاءة 65-68%. في جو 40°C+: الكفاءة بتنزل لـ 55-60%. <strong>النتيجة:</strong> في صيف مصر، الباور بانك بيشحن أقل! الحل: خزّنه واستخدمه في مكان بارد.</p>
 
 <h3>🔌 2. جودة الكابل</h3>
-<p>كابل رخيص طوله 2 متر ممكن يضيع 8% من الطاقة. كابل <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III</a> بطول 1 متر بيضيع 3% بس. <strong>النتيجة:</strong> الكابل الجيد القصير بيزود عدد الشحنات!</p>
+<p>كابل رخيص طوله 2 متر ممكن يضيع 8% من الطاقة. كابل <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين III</a> بطول 1 متر بيضيع 3% بس. <strong>النتيجة:</strong> الكابل الجيد القصير بيزود عدد الشحنات!</p>
 
 <h3>⚡ 3. سرعة الشحن</h3>
 <p>الشحن السريع (PD/QC) بيولّد حرارة أكتر شوية = كفاءة أقل بـ 2-3%. لكن الفرق صغير مع الشواحن الأصلية. <strong>المفاجأة:</strong> الشحن البطيء جداً (5W) كمان كفاءته أقل لأن الدائرة بتشتغل لفترة أطول!</p>
@@ -173,19 +173,19 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
 <table>
     <thead><tr><th>الباور بانك</th><th>iPhone 16 Pro (3,582mAh)</th><th>Samsung S25 Ultra (5,000mAh)</th><th>Xiaomi 14 Pro (4,880mAh)</th></tr></thead>
     <tbody>
-        <tr><td><strong><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker 10,000mAh</a></strong></td><td>1.9 شحنة</td><td>1.4 شحنة</td><td>1.4 شحنة</td></tr>
-        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10,000mAh</a></strong></td><td>1.8 شحنة</td><td>1.3 شحنة</td><td>1.3 شحنة</td></tr>
-        <tr><td><strong><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker 20,000mAh</a></strong></td><td>3.8 شحنة</td><td>2.7 شحنة</td><td>2.8 شحنة</td></tr>
-        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20,000mAh</a></strong></td><td>3.5 شحنة</td><td>2.5 شحنة</td><td>2.6 شحنة</td></tr>
-        <tr><td><strong><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb">Anker 737 (24,000mAh)</a></strong></td><td>4.6 شحنة</td><td>3.2 شحنة</td><td>3.3 شحنة</td></tr>
+        <tr><td><strong><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر 10,000mAh</a></strong></td><td>1.9 شحنة</td><td>1.4 شحنة</td><td>1.4 شحنة</td></tr>
+        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">جوي روم 10,000mAh</a></strong></td><td>1.8 شحنة</td><td>1.3 شحنة</td><td>1.3 شحنة</td></tr>
+        <tr><td><strong><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر 20,000mAh</a></strong></td><td>3.8 شحنة</td><td>2.7 شحنة</td><td>2.8 شحنة</td></tr>
+        <tr><td><strong><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">جوي روم 20,000mAh</a></strong></td><td>3.5 شحنة</td><td>2.5 شحنة</td><td>2.6 شحنة</td></tr>
+        <tr><td><strong><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb">انكر 737 (24,000mAh)</a></strong></td><td>4.6 شحنة</td><td>3.2 شحنة</td><td>3.3 شحنة</td></tr>
     </tbody>
 </table>
 
 <h2>الخلاصة: مش غش — ده فيزياء</h2>
 <p>لما باور بانك 10,000mAh ما يشحنلكش مرتين، <strong>ده مش معناه إنه مضروب</strong>. ده معناه إن قوانين الفيزياء شغالة صح. الفرق بين الأصلي والتقليد هو <strong>كم طاقة بتوصل فعلاً لموبايلك</strong>:</p>
 <ul>
-    <li><strong><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a>:</strong> كفاءة 68% — أعلى معدل اتسجل في اختبارنا</li>
-    <li><strong><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000</a>:</strong> كفاءة 64% — أفضل قيمة مقابل سعر</li>
+    <li><strong><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر باور كور 10000</a>:</strong> كفاءة 68% — أعلى معدل اتسجل في اختبارنا</li>
+    <li><strong><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">جوي روم 10000</a>:</strong> كفاءة 64% — أفضل قيمة مقابل سعر</li>
     <li><strong>التقليد:</strong> كفاءة 37-52% — نص الطاقة بتروح حرارة وده خطر على موبايلك</li>
 </ul>
 <p><strong>القاعدة الذهبية:</strong> اضرب السعة × 0.65 = السعة الحقيقية. ده يكفيك عشان تعرف بالظبط هتشحن كام مرة <strong>قبل ما تدفع جنيه واحد</strong>.</p>

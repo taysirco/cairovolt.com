@@ -56,7 +56,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 <ol>
     <li>جرّب كابل تاني (اطلب من حد في البيت)</li>
     <li>لو الشحن بقى سريع — المشكلة محلولة</li>
-    <li>اشتري كابل أصلي: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker USB-C 60W</a> أو <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a> (أرخص وبيأدي نفس الغرض)</li>
+    <li>اشتري كابل أصلي: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر USB-C 60W</a> أو <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">جوي روم USB-C 60W</a> (أرخص وبيأدي نفس الغرض)</li>
 </ol>
 
 <h2>السبب 2: إعدادات الموبايل بتأكل الشحن (23%)</h2>
@@ -78,9 +78,9 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 </thead>
 <tbody>
 <tr><td style="border:1px solid #e2e8f0;padding:10px">شاحن 5W قديم</td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#ef4444"><strong>95 دقيقة ❌</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#ef4444"><strong>110 دقيقة ❌</strong></td></tr>
-<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>30 دقيقة</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>40 دقيقة</strong></td></tr>
-<tr style="background:#f0fdf4"><td style="border:1px solid #e2e8f0;padding:10px"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>22 دقيقة ✅</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>26 دقيقة ✅</strong></td></tr>
-<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>31 دقيقة</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>42 دقيقة</strong></td></tr>
+<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>30 دقيقة</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>40 دقيقة</strong></td></tr>
+<tr style="background:#f0fdf4"><td style="border:1px solid #e2e8f0;padding:10px"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W GaN</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>22 دقيقة ✅</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>26 دقيقة ✅</strong></td></tr>
+<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>31 دقيقة</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>42 دقيقة</strong></td></tr>
 </tbody>
 </table>
 <p>الفرق بين شاحن 5W وشاحن 45W هو 73 دقيقة — <strong>ساعة و13 دقيقة توفير!</strong></p>

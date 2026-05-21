@@ -120,28 +120,28 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker ZOLO A1681</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر زولو A1681</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2,200ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>45W PD</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>2.78 شحنة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">791ج/شحنة</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 20,000mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 20,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>997ج</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2.61 شحنة</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>382ج/شحنة (الأرخص)</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker PowerCore 20K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر باور كور 20K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,550ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">18W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2.55 شحنة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">608ج/شحنة</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker ZOLO A110E</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر زولو A110E</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,730ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2.51 شحنة</td>
@@ -263,7 +263,7 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
         <strong>🎯 قاعدة الترقية:</strong>
         لو استخدامك = موبايل + سماعة + ساعة، الـ 20,000mAh كافي تماماً.
         لو احتياجك = موبايل + لابتوب أو موبايل + ايباد، خد
-        <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker Prime 25,000mAh 165W</a>
+        <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر برايم 25,000mAh 165W</a>
         — الفرق 1,750 جنيه بس لكن السعة الفعلية +30% + قدرة 165W لشحن لابتوب.
     </p>
 </div>
@@ -275,13 +275,13 @@ export const twenty_thousand_mah_power_bank_iphone_17_pro_max_charges: BlogArtic
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <strong>أفضل قيمة للجنيه (382ج/شحنة):</strong>
-        <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Joyroom 20,000mAh</a>
+        <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">جوي روم 20,000mAh</a>
         بـ 997 جنيه = 2.61 شحنة iPhone.
         <strong>أعلى عدد شحنات + شحن لابتوب:</strong>
-        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO 45W</a>
+        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو 45W</a>
         بـ 2,200ج = 2.78 شحنة.
         <strong>أطول ضمان + بناء Anker:</strong>
-        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO A110E</a>
+        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو A110E</a>
         بـ 1,730ج = 2.51 شحنة + 18 شهر ضمان.
         كلهم متاحون على كايرو فولت بضمان أصلي + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>

@@ -42,7 +42,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
         (1) شحن موبايل + لابتوب معاً بكامل السرعة بدون اختناق،
         (2) إعادة شحن الباور بانك نفسه في 30-50 دقيقة بدلاً من 5 ساعات،
         (3) شحن MacBook Pro طوارئ بسرعة الشاحن الأصلي.
-        أفضل خيارين: <strong>Anker Prime 165W</strong> (3,950ج) و <strong>Anker 737 140W</strong> (4,999ج).
+        أفضل خيارين: <strong>انكر برايم 165W</strong> (3,950ج) و <strong>انكر 737 140W</strong> (4,999ج).
     </p>
 </div>
 
@@ -192,8 +192,8 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Anker Prime 165W (3,950ج)</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Anker 737 140W (4,999ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر برايم 165W (3,950ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر 737 140W (4,999ج)</th>
         </tr>
     </thead>
     <tbody>
@@ -237,7 +237,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
         <strong>🎯 الخلاصة:</strong> لو ما عندكش لابتوب USB-C، وما بتسافرش لـ 2+ يوم بدون كهرباء، وما بتشحنش 3 أجهزة معاً —
         الـ 100W+ مش ضروري. البديل الذكي:
-        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker ZOLO 20,000mAh 45W PD</a>
+        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو 20,000mAh 45W PD</a>
         بـ 2,200 جنيه — يشحن iPhone 17 و Galaxy S26 Ultra بكامل سرعتهم بـ <strong>توفير 1,750 جنيه</strong>.
     </p>
 </div>

@@ -37,7 +37,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                                                                                                                         <h3> 2. Soundcore R50i — أفضل قيمة </h3>
                                                                                                                             <p> صوت ممتاز بسعر اقتصادي.بطارية 10 ساعات، مقاومة للماء IPX5.الأفضل لمن يبحث عن الجودة بأقل سعر من Anker.</p>
 
-                                                                                                                                <h3> 3. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">Joyroom T03S Pro</a> — شبيهة AirPods </h3>
+                                                                                                                                <h3> 3. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">جوي روم T03S Pro</a> — شبيهة AirPods </h3>
                                                                                                                                     <p> تصميم مطابق تقريباً لـ AirPods مع جودة صوت جيدة جداً.السماعة الأكثر مبيعاً في مصر في فئتها السعرية. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">شاهد المواصفات</a></p>
 
                                                                                                                                         <h3> 4. Joyroom T03S — الأرخص </h3>
@@ -74,7 +74,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
                                                                                                                                                     < tbody >
                                                                                                                                                     <tr><td><strong>Soundcore Liberty 4 NC </strong></td > <td>✓ فعال </td><td>10 ساعات</td > <td>IPX4 </td><td>~2,500 ج</td > </tr>
                                                                                                                                                         < tr > <td><strong>Soundcore R50i </strong></td > <td>✗</td><td>10 ساعات</td > <td>IPX5 </td><td>~900 ج</td > </tr>
-                                                                                                                                                            < tr > <td><strong>Joyroom T03S Pro </strong></td > <td>✗</td><td>6 ساعات</td > <td>IPX4 </td><td>664 ج</td > </tr>
+                                                                                                                                                            < tr > <td><strong>جوي روم T03S Pro </strong></td > <td>✗</td><td>6 ساعات</td > <td>IPX4 </td><td>664 ج</td > </tr>
                                                                                                                                                                 < tr > <td><strong>Joyroom T03S </strong></td > <td>✗</td><td>5 ساعات</td > <td>IPX4 </td><td>774 ج</td > </tr>
                                                                                                                                                                     </tbody>
                                                                                                                                                                     </table>

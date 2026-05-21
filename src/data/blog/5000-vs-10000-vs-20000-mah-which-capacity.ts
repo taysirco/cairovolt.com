@@ -146,19 +146,19 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
             <td style="padding:12px;border:1px solid #d1d5db;">الطالب والميزانية</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Joyroom MagSafe 10,000mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جوي روم MagSafe 10,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">850ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>MagSafe + Kickstand</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">مستخدم iPhone النشط</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker ZOLO A110D 10,000mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر زولو A110D 10,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,270ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>كابل USB-C مدمج</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">الموظف اللي ينسى الكابلات</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker PowerCore 10,000mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر باور كور 10,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2,150ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ضمان 24 شهر + جودة Anker</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">الاستخدام الاحترافي</td>
@@ -211,27 +211,27 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">السفر لـ 2-3 أيام</td>
             <td style="padding:12px;border:1px solid #d1d5db;">موبايل + سماعة + ساعة + ربما لابتوب</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ZOLO A1681 45W (2,200ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر زولو A1681 45W (2,200ج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">مستخدم لابتوب USB-C</td>
             <td style="padding:12px;border:1px solid #d1d5db;">الـ 10,000mAh لا يشحن لابتوب</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ZOLO A1681 45W (2,200ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر زولو A1681 45W (2,200ج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">الكامبينج / السفاري</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3 أيام بدون كهرباء لكاميرا + موبايل</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Joyroom 20,000mAh (997ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">جوي روم 20,000mAh (997ج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">انقطاع الكهربا الطويل</td>
             <td style="padding:12px;border:1px solid #d1d5db;">تشغيل راوتر 8-12 ساعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Joyroom 20,000mAh (997ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">جوي روم 20,000mAh (997ج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">العائلة في رحلات نهارية</td>
             <td style="padding:12px;border:1px solid #d1d5db;">شحن أب + أم + 2 أطفال</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ZOLO A110E (1,730ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر زولو A110E (1,730ج)</td>
         </tr>
     </tbody>
 </table>
@@ -310,15 +310,15 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <strong>5,000mAh:</strong>
-        <a href="/anker/power-banks/anker-622-maggo" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker 622 MagGo</a>
+        <a href="/anker/power-banks/anker-622-maggo" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر 622 ماج جو</a>
         (2,800ج) لمستخدم iPhone مع MagSafe + كفر مغناطيسي.
         <strong>10,000mAh:</strong>
-        <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO A110D</a>
+        <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو A110D</a>
         (1,270ج) للموظف والطالب — كابل مدمج + ضمان 18 شهر.
         <strong>20,000mAh:</strong>
-        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Anker ZOLO A110E</a>
+        <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">انكر زولو A110E</a>
         (1,730ج) أو
-        <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">Joyroom 20K</a>
+        <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#15803d;font-weight:bold;text-decoration:underline;">جوي روم 20K</a>
         (997ج) للسفر واللابتوب.
         كلهم متاحون على كايرو فولت بضمان أصلي + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>

@@ -43,7 +43,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
         (2) تشحن عدة مرات يومياً قصيرة (10-20 دقيقة)،
         (3) تكره الكابلات في الشنطة.
         عيوبه: الشحن أبطأ 50% (7.5W لاسلكي مقابل 20W سلكي) + فقد كفاءة 25% + سخونة أعلى.
-        التوصية: <strong>Joyroom MagSafe 10,000mAh</strong> بـ 850ج هو نقطة التوازن المثلى.
+        التوصية: <strong>جوي روم MagSafe 10,000mAh</strong> بـ 850ج هو نقطة التوازن المثلى.
     </p>
 </div>
 
@@ -133,7 +133,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom MagSafe 10K</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم MagSafe 10K</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom سلكي 10K</th>
         </tr>
     </thead>
@@ -188,7 +188,7 @@ export const magsafe_magnetic_power_bank_worth_extra_cost: BlogArticle = {
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
         <strong>🎯 ميزانية تحت 1000 جنيه:</strong>
-        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Joyroom MagSafe 10,000mAh (850ج)</a>
+        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">جوي روم MagSafe 10,000mAh (850ج)</a>
         — نقطة التوازن. شحن لاسلكي 15W حقيقي + Kickstand + سلكي 20W PD احتياطي + ضمان 12 شهر.
     </p>
 </div>

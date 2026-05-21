@@ -21,7 +21,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
                 content: `
 <h2>الكابل: أهم قطعة وأكتر قطعة متجاهلة</h2>
 <div class="quick-answer-inline" style="background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
-    <p><strong>باختصار:</strong> كابل USB-C رخيص ممكن يقلل سرعة شحنك 70%. الكابل الغلط مش بس بطيء — ده ممكن يضر موبايلك. أفضل خيار: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine 60W</a>. أفضل خيار اقتصادي: <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a>.</p>
+    <p><strong>باختصار:</strong> كابل USB-C رخيص ممكن يقلل سرعة شحنك 70%. الكابل الغلط مش بس بطيء — ده ممكن يضر موبايلك. أفضل خيار: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين 60W</a>. أفضل خيار اقتصادي: <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">جوي روم USB-C 60W</a>.</p>
 </div>
 
 <p>اسألك سؤال: لو اشتريت شاحن 45 واط بـ 790 جنيه — هتوصلّه بإيه؟</p>
@@ -57,7 +57,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>ده الكابل اللي طرفه الكبير مستطيل (USB-A — اللي بتحتاج تقلبه 3 مرات عشان يدخل 😂). <strong>ماكسيمم 12 واط</strong> حتى لو الشاحن أقوى. مناسب للشحن الليلي البطيء بس.</p>
 
 <h2>الاختبار الكبير: 5 كابلات وجهاً لوجه</h2>
-<p>اختبرنا 5 كابلات USB-C to USB-C بطول 1 متر على نفس الشاحن (<a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a>) مع Samsung S24 Ultra:</p>
+<p>اختبرنا 5 كابلات USB-C to USB-C بطول 1 متر على نفس الشاحن (<a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W</a>) مع Samsung S24 Ultra:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:13px">
 <thead>
@@ -71,21 +71,21 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 </thead>
 <tbody>
 <tr style="background:#f0fdf4">
-    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine 60W</strong></a></td>
+    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>انكر باور لاين 60W</strong></a></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e"><strong>42.3W ✅</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center"><strong>12 ثانية</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e">31°C</td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center">~350 ج.م</td>
 </tr>
 <tr>
-    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom USB-C 60W</strong></a></td>
+    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>جوي روم USB-C 60W</strong></a></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e"><strong>40.8W ✅</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center"><strong>14 ثانية</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e">33°C</td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center">~180 ج.م</td>
 </tr>
 <tr>
-    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb">Joyroom USB-C عادي</a></td>
+    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb">جوي روم USB-C عادي</a></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#f59e0b"><strong>27.1W</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center">18 ثانية</td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#f59e0b">36°C</td>
@@ -124,7 +124,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <h3>الخطوة 1: حدد نوع الموبايل</h3>
 <ul>
     <li><strong>iPhone 17 أو أحدث:</strong> كابل USB-C to USB-C</li>
-    <li><strong>iPhone 14-16:</strong> كابل USB-C to Lightning (لازم MFi) — <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">Anker PowerLine C-Lightning</a></li>
+    <li><strong>iPhone 14-16:</strong> كابل USB-C to Lightning (لازم MFi) — <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">انكر باور لاين C-Lightning</a></li>
     <li><strong>Samsung / Xiaomi / أي Android:</strong> كابل USB-C to USB-C</li>
 </ul>
 
@@ -148,21 +148,21 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 
 <h2>أفضل 3 كابلات USB-C نرشحها في مصر</h2>
 
-<h3>🥇 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III USB-C (60W)</a> — الأفضل</h3>
+<h3>🥇 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين III USB-C (60W)</a> — الأفضل</h3>
 <p>نايلون مضفر، 60 واط، USB 3.2 (نقل بيانات سريع)، ضمان 18 شهر. يشحن iPhone وSamsung بأقصى سرعة ممكنة. <strong>الكابل اللي بنستخدمه في كل اختباراتنا.</strong></p>
 
-<h3>🥈 <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a> — أفضل قيمة</h3>
+<h3>🥈 <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">جوي روم USB-C 60W</a> — أفضل قيمة</h3>
 <p>أداء قريب جداً من Anker بنصف السعر تقريباً. غلاف مقوى، 60 واط، ضمان 12 شهر. <strong>خيارنا الأول لمن يبحث عن الاقتصاد.</strong></p>
 
-<h3>🥉 <a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb">Anker USB-C to Lightning SureIStrong</a> — لأصحاب iPhone القديم</h3>
+<h3>🥉 <a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb">انكر USB-C لـ Lightning SureIStrong</a> — لأصحاب iPhone القديم</h3>
 <p>MFi معتمد، يدعم الشحن السريع حتى 30 واط لـ iPhone. تضفير مزدوج يتحمل أكثر من 12,000 ثنية. الأفضل لمن لديه iPhone 14-16.</p>
 
 <h2>السؤال الأهم: كابل واحد ولا اتنين؟</h2>
 <p>نصيحتنا بعد سنين في بيع الإكسسوارات:</p>
 <ul>
     <li><strong>كابل رئيسي في البيت:</strong> أحسن كابل عندك (60W PD) — هو اللي تشحن عليه يومياً</li>
-    <li><strong>كابل احتياطي في الشنطة:</strong> كابل متين ومش غالي — <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom 60W</a> مثالي لده</li>
-    <li><strong>كابل في العربية:</strong> أي كابل بيتحمل الحرارة والتني — <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> بياخد جائزة هنا</li>
+    <li><strong>كابل احتياطي في الشنطة:</strong> كابل متين ومش غالي — <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">جوي روم 60W</a> مثالي لده</li>
+    <li><strong>كابل في العربية:</strong> أي كابل بيتحمل الحرارة والتني — <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين</a> بياخد جائزة هنا</li>
 </ul>
 <p>بمعنى: <strong>اتنين أو تلاتة</strong>. الكابل أرخص حاجة في منظومة الشحن — ماتوفرش فيه.</p>
 

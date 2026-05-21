@@ -39,8 +39,8 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
         أفضل باور بانكات أصلية تحت 1000 جنيه في مصر فيها خياران فقط جديران بالشراء:
-        (1) <strong>Joyroom MagSafe 10,000mAh</strong> بـ 850 جنيه — مثالي لمستخدمي iPhone مع MagSafe.
-        (2) <strong>Joyroom 20,000mAh PD</strong> بـ 997 جنيه — سعة مضاعفة لشحن أجهزة متعددة.
+        (1) <strong>جوي روم MagSafe 10,000mAh</strong> بـ 850 جنيه — مثالي لمستخدمي iPhone مع MagSafe.
+        (2) <strong>جوي روم 20,000mAh PD</strong> بـ 997 جنيه — سعة مضاعفة لشحن أجهزة متعددة.
         أي شيء أرخص من 800 جنيه في OLX = غالباً مقلّد بدون ضمان.
     </p>
 </div>
@@ -132,8 +132,8 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom 20,000mAh (997ج)</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Anker ZOLO 10,000mAh (1,270ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم 20,000mAh (997ج)</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر زولو 10,000mAh (1,270ج)</th>
         </tr>
     </thead>
     <tbody>

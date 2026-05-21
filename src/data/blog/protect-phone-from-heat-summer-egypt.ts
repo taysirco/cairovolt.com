@@ -74,7 +74,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <p>الجراب (Case) بيعمل عازل حراري. والشحن بيولّد حرارة. الاثنين مع بعض = <strong>حرارة محبوسة</strong> بتضر البطارية. تجربتنا: iPhone بجراب سيليكون سميك وصل لـ 41°C أثناء الشحن. نفس الـ iPhone بدون جراب: 34°C. فارق 7 درجات!</p>
 
 <h3>✅ 3. استخدم شاحن GaN — أقل حرارة بـ 40%</h3>
-<p>شواحن <strong>GaN (Gallium Nitride)</strong> مثل <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> بتحول 95% من الطاقة لشحن فعلي و5% بس حرارة. مقارنة بالشواحن العادية (80% شحن، 20% حرارة). يعني:</p>
+<p>شواحن <strong>GaN (Gallium Nitride)</strong> مثل <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W</a> بتحول 95% من الطاقة لشحن فعلي و5% بس حرارة. مقارنة بالشواحن العادية (80% شحن، 20% حرارة). يعني:</p>
 <ul>
     <li>الشاحن نفسه بيسخن أقل ← حرارة موبايلك أقل أثناء الشحن</li>
     <li>الشحن أسرع ← وقت أقل على الشاحن ← تعرض أقل للحرارة</li>
@@ -88,7 +88,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <p>لعب PUBG أو Fortnite أثناء الشحن = <strong>أخطر شيء ممكن تعمله لموبايلك</strong>. المعالج شغال 100% (حرارة) + الشاحن شغال (حرارة) + الشاشة أعلى سطوع (حرارة). رصدنا 52°C على Samsung أثناء لعب PUBG على الشاحن! البطارية في هذا السيناريو بتخسر عمرها ضعف السرعة.</p>
 
 <h3>✅ 6. استخدم كابل جيد — الكابل الرديء = حرارة زائدة</h3>
-<p>كابل رخيص أو تالف = <strong>مقاومة كهربائية عالية</strong> = حرارة زائدة + شحن أبطأ. كابل <a href="/anker/cables/anker-powerline-usb-c-to-usb-c" style="color:#2563eb">Anker PowerLine III</a> مصمم بأسلاك نحاس سميكة تقلل المقاومة وتمنع السخونة.</p>
+<p>كابل رخيص أو تالف = <strong>مقاومة كهربائية عالية</strong> = حرارة زائدة + شحن أبطأ. كابل <a href="/anker/cables/anker-powerline-usb-c-to-usb-c" style="color:#2563eb">انكر باور لاين III</a> مصمم بأسلاك نحاس سميكة تقلل المقاومة وتمنع السخونة.</p>
 <p><strong>علامات الكابل التالف:</strong></p>
 <ul>
     <li>منطقة ساخنة في مكان معين من الكابل أثناء الشحن</li>
@@ -124,7 +124,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <p><strong>⚠️ تحذير:</strong> لا تحط الموبايل في التلاجة أو الفريزر! التغير المفاجئ في الحرارة يسبب تكثف مائي داخل الجهاز ← ماس كهربائي ← تلف دائم.</p>
 
 <h3>✅ 12. اشحن باور بانك في البيت — مش في العربية</h3>
-<p>الباور بانك حساس للحرارة زي الموبايل بالظبط. تجربتنا أثبتت: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a> اللي اتخزن في حرارة غرفة (25°C) احتفظ بـ 95% من سعته بعد سنة. نفس الموديل اللي اتساب في عربية بشكل متكرر (40°C+): فقد 28% من سعته في 8 أشهر بس.</p>
+<p>الباور بانك حساس للحرارة زي الموبايل بالظبط. تجربتنا أثبتت: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر باور كور 20000</a> اللي اتخزن في حرارة غرفة (25°C) احتفظ بـ 95% من سعته بعد سنة. نفس الموديل اللي اتساب في عربية بشكل متكرر (40°C+): فقد 28% من سعته في 8 أشهر بس.</p>
 
 <h2>اختبار كايرو فولت: تأثير الحرارة على البطارية (بيانات حقيقية)</h2>
 <table>
@@ -177,8 +177,8 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <table>
     <thead><tr><th>نوع الشاحن</th><th>حرارة الموبايل أثناء الشحن</th><th>وقت الشحن 0→80%</th><th>التقييم للصيف</th></tr></thead>
     <tbody>
-        <tr><td><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a></strong></td><td><strong>33°C</strong></td><td>28 دقيقة</td><td style="color:#22c55e"><strong>⭐ الأفضل</strong></td></tr>
-        <tr><td><strong><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W PD</a></strong></td><td>35°C</td><td>45 دقيقة</td><td style="color:#22c55e"><strong>✅ ممتاز</strong></td></tr>
+        <tr><td><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 45W GaN</a></strong></td><td><strong>33°C</strong></td><td>28 دقيقة</td><td style="color:#22c55e"><strong>⭐ الأفضل</strong></td></tr>
+        <tr><td><strong><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W PD</a></strong></td><td>35°C</td><td>45 دقيقة</td><td style="color:#22c55e"><strong>✅ ممتاز</strong></td></tr>
         <tr><td>Apple 20W الأصلي</td><td>36°C</td><td>42 دقيقة</td><td>✅ جيد</td></tr>
         <tr><td>شاحن تقليد 20W</td><td style="color:#ef4444">43°C</td><td>55 دقيقة</td><td style="color:#ef4444">🔴 خطر</td></tr>
         <tr><td>شاحن 5W القديم</td><td>38°C</td><td>2.5 ساعة</td><td style="color:#f97316">⚠️ وقت طويل = حرارة تراكمية</td></tr>
@@ -210,7 +210,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <p>لو عايز تبسّط كل الكلام اللي فات في 3 قواعد بس:</p>
 <ol>
     <li><strong>ابعد عن الحرارة:</strong> لا تابلوه عربية، لا شمس مباشرة، لا جراب سميك أثناء الشحن</li>
-    <li><strong>استخدم شاحن أصلي:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker GaN</a> أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom PD</a> — الشاحن التقليد هو مصدر الحرارة الأول</li>
+    <li><strong>استخدم شاحن أصلي:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر GaN</a> أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم PD</a> — الشاحن التقليد هو مصدر الحرارة الأول</li>
     <li><strong>اشحن بذكاء:</strong> اشحن في مكان بارد، شيل الجراب، لا تلعب أثناء الشحن</li>
 </ol>
 <p><strong>موبايلك استثمار غالي</strong> — ايفون 17 بـ 40 ألف جنيه، سامسونج S26 بـ 35 ألف. مش بيستاهل إنك تحميه من الحرارة؟ شاحن أصلي بـ 375 جنيه ممكن يوفرلك آلاف في صيانة أو استبدال بطارية.</p>

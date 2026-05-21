@@ -42,9 +42,9 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
         (1) USB-C PD 45-100W لشحن الكاميرا مباشرة،
         (2) سعة 20,000mAh+ ليوم تصوير كامل،
         (3) Pass-through charging لشحن الكاميرا والموبايل معاً.
-        أفضل خيار: <strong>Anker Prime 165W</strong> (3,950ج) لمصوّر mirrorless،
-        <strong>Anker 737 140W</strong> (4,999ج) لمصور أعراس متنقل،
-        <strong>Anker PowerCore 26,800mAh</strong> (2,300ج) للميزانية.
+        أفضل خيار: <strong>انكر برايم 165W</strong> (3,950ج) لمصوّر mirrorless،
+        <strong>انكر 737 140W</strong> (4,999ج) لمصور أعراس متنقل،
+        <strong>انكر باور كور 26,800mAh</strong> (2,300ج) للميزانية.
     </p>
 </div>
 
@@ -124,7 +124,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 <h2>الاختيار #1: للمصوّر mirrorless اليومي — Anker Prime 165W</h2>
 
 <p>السعر: 3,950 جنيه ·
-<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695 25,000mAh 165W</a>
+<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 باور بانك 25,000mAh 165W</a>
 · الأفضل قيمة في 2026.</p>
 
 <p>ليه هو الأمثل لمعظم المصورين:</p>
@@ -143,7 +143,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 <h2>الاختيار #2: للسفاري والصحراء — Anker 737 140W</h2>
 
 <p>السعر: 4,999 جنيه ·
-<a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore 24,000mAh 140W</a>
+<a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور 24,000mAh 140W</a>
 · بدون أجزاء متحركة.</p>
 
 <p>الفرق الجوهري عن Prime A1695: <strong>لا مروحة = لا غبار = متانة لسنوات في الصحراء</strong>. الجسم ألومنيوم منحوت، يتحمل سقوط 1.5 متر بدون تأثير على الأداء (اختبرنا).</p>
@@ -161,7 +161,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 <h2>الاختيار #3: ميزانية اقتصادية — Anker PowerCore 26,800mAh</h2>
 
 <p>السعر: 2,300 جنيه ·
-<a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">Anker PowerCore 26,800mAh</a>
+<a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">انكر باور كور 26,800mAh</a>
 · أعلى سعة بأقل سعر.</p>
 
 <p>الفلسفة المختلفة: <strong>السعة أهم من السرعة</strong>. هذا الباور بانك بـ 30W output فقط (PD) — لكن سعته 26,800mAh تعطي 3 شحنات لـ Canon R5 أو 7 شحنات لـ Sony A7 IV. للمصوّر اللي بياخد كاميرا واحدة + موبايل + GoPro، هذا الخيار يكفي تماماً ويوفّر 1,650-2,700 جنيه مقابل الاختيارات الأعلى.</p>
@@ -182,10 +182,10 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📷 <strong>الكاميرا الرئيسية (Sony A7 IV / Canon R5):</strong>
-    <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime 165W (3,950ج)</a>
+    <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم 165W (3,950ج)</a>
     — شحن الكاميرا + اللابتوب لو احتاج backup فوري.</li>
     <li style="margin-bottom:12px;">📱 <strong>الموبايل + GoPro:</strong>
-    <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 45W (2,200ج)</a>
+    <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو 45W (2,200ج)</a>
     — احتياطي خفيف للأجهزة الثانوية.</li>
     <li style="margin-bottom:12px;">🔋 <strong>إجمالي 45,000mAh متاحة:</strong> ضمان عدم انقطاع التصوير حتى في عرس 12 ساعة.</li>
 </ul>
@@ -195,8 +195,8 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 
 <p>المصوّر اللي بيشتغل من المنزل أو الستوديو لكن بياخد فترات تصوير خارجية: المشكلة مش السعة — المشكلة <strong>الشحن الذاتي السريع</strong>. تخيل تنتهي من تصوير الصباح، تعود البيت، تشحن الباور بانك في ساعة فاضية واحدة، تخرج لتصوير المساء.</p>
 
-<p>الحل: <strong>Anker Prime 165W + كابل
-<a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 USB-C 240W</a></strong> (الـ A1695 يقبل 100W input):</p>
+<p>الحل: <strong>انكر برايم 165W + كابل
+<a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050 كابل USB-C 240W</a></strong> (الـ A1695 يقبل 100W input):</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⏱️ <strong>من 0 إلى 80% في 35 دقيقة:</strong> ساعة استراحة = باور بانك ممتلئ تقريباً للجولة التالية.</li>

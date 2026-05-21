@@ -42,8 +42,8 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
         (1) سعة بطارية 5,000mAh مقابل 4,685mAh (أكبر 7%)،
         (2) شحن سريع 45W مقابل 30W — محتاج باور بانك يدعم PD 45W،
         (3) لا MagSafe في Samsung — لازم كابل دائماً.
-        أفضل خيار لـ S26 Ultra: <strong>Anker ZOLO 45W</strong> (2,200ج).
-        أفضل خيار لـ iPhone 17 Pro Max: <strong>Joyroom MagSafe 10,000mAh</strong> (850ج).
+        أفضل خيار لـ S26 Ultra: <strong>انكر زولو 45W</strong> (2,200ج).
+        أفضل خيار لـ iPhone 17 Pro Max: <strong>جوي روم MagSafe 10,000mAh</strong> (850ج).
     </p>
 </div>
 
@@ -144,8 +144,8 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
     <thead>
         <tr style="background:#f3f4f6;">
             <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المعيار</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom MagSafe 10,000mAh</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Anker 622 MagGo 5,000mAh</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">جوي روم MagSafe 10,000mAh</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">انكر 622 ماج جو 5,000mAh</th>
         </tr>
     </thead>
     <tbody>
@@ -222,7 +222,7 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#854d0e;">
         <strong>🎯 التوصية المشتركة:</strong>
-        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">Anker ZOLO A1681 45W (2,200ج)</a>
+        <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#854d0e;font-weight:bold;text-decoration:underline;">انكر زولو A1681 45W (2,200ج)</a>
         هو الحل الوحيد المنطقي. لأنه: (1) يطلق 45W على S26 Ultra (شحن سريع كامل)، (2) iPhone 17 Pro Max يستفيد من 30W (حد الموبايل) — يعني الاتنين راضيان، (3) سعة 20,000mAh تعطي 4 شحنات لكل موبايل. يوفّر 650ج مقابل شراء باور بانكين منفصلين.
     </p>
 </div>

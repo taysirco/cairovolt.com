@@ -193,8 +193,8 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <p>قسنا الخرج كل 5 دقائق لمدة ساعة بحمل ثابت. النتيجة كانت مفاجئة:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>Anker ZOLO A1681 (45W):</strong> بدأ بـ 44.2W وبعد 30 دقيقة نزل لـ 42.8W — ثبات 97%. ده يعني اللابتوب بتاعك بيشحن بنفس السرعة من أول دقيقة لآخر دقيقة.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>Anker 737 (140W):</strong> بدأ بـ 138W وبعد 30 دقيقة نزل لـ 131W — ثبات 95%. ممتاز للابتوبات الثقيلة.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>انكر زولو A1681 (45W):</strong> بدأ بـ 44.2W وبعد 30 دقيقة نزل لـ 42.8W — ثبات 97%. ده يعني اللابتوب بتاعك بيشحن بنفس السرعة من أول دقيقة لآخر دقيقة.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>انكر 737 (140W):</strong> بدأ بـ 138W وبعد 30 دقيقة نزل لـ 131W — ثبات 95%. ممتاز للابتوبات الثقيلة.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Joyroom 20K (22.5W):</strong> بدأ بـ 21.8W وبعد 15 دقيقة نزل لـ 18.2W — ثبات 83%. الانخفاض سببه الحرارة الداخلية — الخلايا بتقلل الخرج لحماية نفسها.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Joyroom 10K (22.5W):</strong> بدأ بـ 21.5W وبعد 10 دقائق نزل لـ 16.8W — ثبات 78%. طبيعي لسعة صغيرة.</li>
 </ul>
@@ -253,28 +253,28 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 20K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 20K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">997ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">59.8Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>16.7ج/Wh ⭐</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker ZOLO A110E 20K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر زولو A110E 20K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,730ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">67.3Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">25.7ج/Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker ZOLO A1681 20K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر زولو A1681 20K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2,200ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">33.2ج/Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W PD</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker Prime 25K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر برايم 25K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3,950ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">85.1Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">46.4ج/Wh</td>

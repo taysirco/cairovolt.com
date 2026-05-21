@@ -66,9 +66,9 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
 <table>
     <thead><tr><th>الشاحن</th><th>القدرة</th><th>الأبعاد</th><th>الوزن</th></tr></thead>
     <tbody>
-        <tr><td><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb"><strong>Anker 30W GaN</strong></a></td><td>30W PD</td><td>3.2 × 3.2 × 3 سم</td><td>62g</td></tr>
+        <tr><td><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb"><strong>انكر 30W GaN</strong></a></td><td>30W PD</td><td>3.2 × 3.2 × 3 سم</td><td>62g</td></tr>
         <tr><td>شاحن سيليكون 30W</td><td>30W</td><td>5.5 × 4 × 3.5 سم</td><td>105g</td></tr>
-        <tr><td><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb"><strong>Anker Nano 45W GaN</strong></a></td><td>45W PD</td><td>4.1 × 3.6 × 3.2 سم</td><td>82g</td></tr>
+        <tr><td><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb"><strong>انكر نانو 45W GaN</strong></a></td><td>45W PD</td><td>4.1 × 3.6 × 3.2 سم</td><td>82g</td></tr>
         <tr><td>شاحن سيليكون 45W</td><td>45W</td><td>7 × 4.5 × 3.8 سم</td><td>145g</td></tr>
     </tbody>
 </table>
@@ -77,7 +77,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
 <table>
     <thead><tr><th>الشاحن</th><th>درجة الحرارة</th><th>التقييم</th></tr></thead>
     <tbody>
-        <tr><td><strong>Anker 30W GaN</strong></td><td>38°C</td><td>✅ بارد تقريباً</td></tr>
+        <tr><td><strong>انكر 30W GaN</strong></td><td>38°C</td><td>✅ بارد تقريباً</td></tr>
         <tr><td>سيليكون 30W</td><td>52°C</td><td>⚠️ ساخن</td></tr>
         <tr><td><strong>Anker 45W GaN</strong></td><td>42°C</td><td>✅ دافي</td></tr>
         <tr><td>سيليكون 45W</td><td>61°C</td><td>❌ ساخن جداً</td></tr>
@@ -113,7 +113,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
 <div style="background:#fef9c3;border:1px solid #fde68a;border-radius:12px;padding:20px;margin:16px 0">
     <h3 style="color:#92400e;margin-top:0">💰 ممكن تستغنى عن GaN لو:</h3>
     <ul>
-        <li><strong>بتشحن في البيت بس</strong> — شاحن <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W سيليكون</a> ممتاز وسعره أقل</li>
+        <li><strong>بتشحن في البيت بس</strong> — شاحن <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W سيليكون</a> ممتاز وسعره أقل</li>
         <li><strong>موبايلك مش بيدعم شحن فوق 20W</strong> — مش هتستفيد من القدرة الزيادة</li>
         <li><strong>الميزانية محدودة</strong> — الفرق 30-50% في السعر</li>
     </ul>
@@ -141,7 +141,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
     <p style="opacity:0.9;text-align:center;margin:0">في 2022 كانت 5% من الشواحن GaN. في 2026 النسبة وصلت 40%. بحلول 2028 هيكون <strong>معظم الشواحن GaN</strong>. اللي هيشتري دلوقتي هيكون سابق بخطوة.</p>
 </div>
 
-<p>تصفّح <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:bold">Anker GaN 30W</a> أو <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:bold">Anker Nano 45W</a> على كايرو فولت — كل المنتجات أصلية بضمان 18 شهر وبطاقة تحقق C2PA. توصيل لكل مصر خلال 24-72 ساعة.</p>
+<p>تصفّح <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:bold">انكر GaN 30W</a> أو <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:bold">انكر نانو 45W</a> على كايرو فولت — كل المنتجات أصلية بضمان 18 شهر وبطاقة تحقق C2PA. توصيل لكل مصر خلال 24-72 ساعة.</p>
 `,
             faq: [
                 {

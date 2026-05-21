@@ -42,7 +42,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
         (1) خرج 22.5W أو أقل — الأعلى يسخن أكتر أثناء اللعب،
         (2) Trickle-charge mode للحفاظ على البطارية 80-85% بدون رفعها لـ 100%،
         (3) كابل قصير 30cm لتقليل المقاومة الحرارية.
-        أفضل خيار: <strong>Anker ZOLO A110E 22.5W</strong> (1,730ج) لـ 4-6 ساعات لعب +
+        أفضل خيار: <strong>انكر زولو A110E 22.5W</strong> (1,730ج) لـ 4-6 ساعات لعب +
         مروحة تبريد للسيشن الطويلة.
     </p>
 </div>
@@ -160,25 +160,25 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب عادي (1-3 ساعات)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker ZOLO A110E 22.5W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر زولو A110E 22.5W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1,730ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Trickle-Charge + 20,000mAh + ضمان 18 شهر</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب نصف محترف (3-5 ساعات)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Joyroom 20,000mAh + مروحة</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>جوي روم 20,000mAh + مروحة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">997ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">سعة كبيرة + 3 منافذ لتشغيل مروحة معاً</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">لاعب محترف / e-sports (5+ ساعات)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker Prime 165W + مروحة Peltier</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر برايم 165W + مروحة Peltier</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">3,950ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh + 3 منافذ مستقلة + تبريد كامل</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">صانع محتوى يبث (Live Streaming)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>Anker 737 140W + لابتوب</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>انكر 737 140W + لابتوب</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">4,999ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">شحن موبايل + لابتوب البث + إنارة LED</td>
         </tr>

@@ -31,7 +31,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 
 <h2>أفضل 5 باور بانك في مصر</h2>
 
-<h3>1. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;text-decoration:underline">Anker PowerCore 20000mAh</a> — الأكثر مبيعاً</h3>
+<h3>1. <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;text-decoration:underline">انكر باور كور 20000mAh</a> — الأكثر مبيعاً</h3>
 <p><strong>السعر:</strong> 1,550 جنيه | <strong>السعة:</strong> 20,000mAh | <strong>الوزن:</strong> 350 جم</p>
 <p>الخيار الأول لأغلب المصريين. يشحن iPhone 17 Pro أربع مرات كاملة، ويدعم الشحن السريع PowerIQ. مصنوع من خلايا بطارية Grade-A (نفس المستخدمة في السيارات الكهربائية).</p>
 <ul>
@@ -41,7 +41,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <li>✗ لا يدعم شحن اللابتوب</li>
 </ul>
 
-<h3>2. <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;text-decoration:underline">Anker Nano 10000mAh</a> — الأصغر حجماً</h3>
+<h3>2. <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;text-decoration:underline">انكر نانو 10000mAh</a> — الأصغر حجماً</h3>
 <p><strong>السعر:</strong> 1,300 جنيه | <strong>السعة:</strong> 10,000mAh | <strong>الوزن:</strong> 190 جم</p>
 <p>بحجم بطاقة الائتمان تقريباً. مثالي للاستخدام اليومي الخفيف ويدخل في أي جيب. يدعم USB-C بقوة 30 واط للشحن السريع.</p>
 
@@ -49,11 +49,11 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <p><strong>السعر:</strong> 3,799 جنيه | <strong>السعة:</strong> 27,650mAh | <strong>القوة:</strong> 250W</p>
 <p>الوحش الحقيقي. يشحن MacBook Pro 16" من 0 لـ 50% في 30 دقيقة. شاشة رقمية ذكية وتطبيق بلوتوث للتحكم. الخيار الأفضل للمسافرين والمحترفين.</p>
 
-<h3>4. <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;text-decoration:underline">Joyroom Power Bank 10000mAh</a> — الأفضل اقتصادياً</h3>
+<h3>4. <a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;text-decoration:underline">جوي روم باور بانك 10000mAh</a> — الأفضل اقتصادياً</h3>
 <p><strong>السعر:</strong> 1,624 جنيه | <strong>السعة:</strong> 10,000mAh</p>
 <p>خيار ممتاز لمن يبحث عن جودة جيدة بسعر اقتصادي. تصميم أنيق وشحن سريع يصل لـ 22.5 واط. ضمان 12 شهر.</p>
 
-<h3>5. <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;text-decoration:underline">Joyroom Power Bank 20000mAh</a> — اقتصادي وقوي</h3>
+<h3>5. <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;text-decoration:underline">جوي روم باور بانك 20000mAh</a> — اقتصادي وقوي</h3>
 <p><strong>السعر:</strong> 997 جنيه | <strong>السعة:</strong> 20,000mAh</p>
 <p>سعة كبيرة بسعر منافس. يشحن الموبايل 4 مرات ويدعم الشحن السريع. خيار ذكي للطلاب.</p>
 
@@ -62,10 +62,10 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <thead><tr><th>المنتج</th><th>السعة</th><th>السعر</th><th>الشحن السريع</th><th>الضمان</th><th>الأفضل لـ</th></tr></thead>
 <tbody>
 <tr><td><strong>Anker 20000mAh</strong></td><td>20,000</td><td>1,550 ج</td><td>✓ PowerIQ</td><td>18 شهر</td><td>الاستخدام اليومي</td></tr>
-<tr><td><strong>Anker Nano 10000</strong></td><td>10,000</td><td>1,300 ج</td><td>✓ 30W</td><td>18 شهر</td><td>الجيب والتنقل</td></tr>
-<tr><td><strong>Anker Prime 27650</strong></td><td>27,650</td><td>3,799 ج</td><td>✓ 250W</td><td>18 شهر</td><td>اللابتوب والسفر</td></tr>
-<tr><td><strong>Joyroom 10000</strong></td><td>10,000</td><td>1,624 ج</td><td>✓ 22.5W</td><td>12 شهر</td><td>الميزانية المحدودة</td></tr>
-<tr><td><strong>Joyroom 20000</strong></td><td>20,000</td><td>997 ج</td><td>✓ 22.5W</td><td>12 شهر</td><td>سعة كبيرة اقتصادية</td></tr>
+<tr><td><strong>انكر نانو 10000</strong></td><td>10,000</td><td>1,300 ج</td><td>✓ 30W</td><td>18 شهر</td><td>الجيب والتنقل</td></tr>
+<tr><td><strong>انكر برايم 27650</strong></td><td>27,650</td><td>3,799 ج</td><td>✓ 250W</td><td>18 شهر</td><td>اللابتوب والسفر</td></tr>
+<tr><td><strong>جوي روم 10000</strong></td><td>10,000</td><td>1,624 ج</td><td>✓ 22.5W</td><td>12 شهر</td><td>الميزانية المحدودة</td></tr>
+<tr><td><strong>جوي روم 20000</strong></td><td>20,000</td><td>997 ج</td><td>✓ 22.5W</td><td>12 شهر</td><td>سعة كبيرة اقتصادية</td></tr>
 </tbody>
 </table>
 

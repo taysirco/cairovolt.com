@@ -87,8 +87,8 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     <tbody>
         <tr><td>10,000mAh</td><td>37Wh</td><td>~31Wh</td><td>❌ أقل من نص شحنة</td></tr>
         <tr><td><strong>20,000mAh</strong></td><td>74Wh</td><td>~63Wh</td><td>✅ مرة واحدة تقريباً</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737 (24,000mAh)</strong></a></td><td>87Wh</td><td>~74Wh</td><td>✅✅ مرة كاملة + 30%</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>Anker 26,800mAh</strong></a></td><td>99Wh</td><td>~84Wh</td><td>✅✅ مرة ونص تقريباً</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>انكر 737 (24,000mAh)</strong></a></td><td>87Wh</td><td>~74Wh</td><td>✅✅ مرة كاملة + 30%</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>انكر 26,800mAh</strong></a></td><td>99Wh</td><td>~84Wh</td><td>✅✅ مرة ونص تقريباً</td></tr>
     </tbody>
 </table>
 
@@ -104,8 +104,8 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     <thead><tr><th>الباور بانك</th><th>خرج PD</th><th>وصل لكام%</th><th>الوقت</th></tr></thead>
     <tbody>
         <tr><td>جينيريك 20,000mAh (بدون PD)</td><td>10W ❌</td><td>لم يشحن</td><td>—</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb">Anker Zolo 20,000</a></td><td>22.5W</td><td>10% → 72%</td><td>3.5 ساعة</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737</strong></a></td><td>140W</td><td>10% → 100% ✅</td><td>1.5 ساعة</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb">انكر زولو 20,000</a></td><td>22.5W</td><td>10% → 72%</td><td>3.5 ساعة</td></tr>
+        <tr><td><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>انكر 737</strong></a></td><td>140W</td><td>10% → 100% ✅</td><td>1.5 ساعة</td></tr>
     </tbody>
 </table>
 
@@ -116,15 +116,15 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     <li><strong>باور بانك 30W + لابتوب بيستهلك 40W</strong> ← البطارية <strong>بتنزل</strong> لكن أبطأ ⚠️</li>
     <li><strong>باور بانك 65W+ + أي لابتوب</strong> ← بيشحن بسرعة وأنت شغال ✅✅</li>
 </ul>
-<p>لو بتشتغل على اللابتوب وعايز تشحنه في نفس الوقت — اختار باور بانك <strong>أقوى من استهلاك اللابتوب</strong>. <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:bold">Anker 737</a> بخرج 140W بيشحن أي لابتوب وأنت شغال براحة.</p>
+<p>لو بتشتغل على اللابتوب وعايز تشحنه في نفس الوقت — اختار باور بانك <strong>أقوى من استهلاك اللابتوب</strong>. <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:bold">انكر 737</a> بخرج 140W بيشحن أي لابتوب وأنت شغال براحة.</p>
 
 <h2>خريطة اتخاذ القرار 🗺️</h2>
 <div style="background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:16px;padding:24px;margin:20px 0;color:white">
     <p style="font-size:16px;font-weight:bold;margin-bottom:16px">اختار الباور بانك المناسب للابتوبك:</p>
     <ul style="opacity:0.95;line-height:2">
-        <li>🔹 <strong>MacBook Air / Dell XPS 13</strong> ← <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#60a5fa">Anker Zolo 20,000</a> كافي</li>
-        <li>🔹 <strong>MacBook Pro 14" / ThinkPad</strong> ← <a href="/anker/power-banks/anker-737-powerbank" style="color:#60a5fa">Anker 737 (140W)</a> الخيار الأمثل</li>
-        <li>🔹 <strong>محتاج شحنات متعددة + طوارئ</strong> ← <a href="/anker/power-banks/anker-521-powerhouse" style="color:#60a5fa">Anker 521 PowerHouse</a></li>
+        <li>🔹 <strong>MacBook Air / Dell XPS 13</strong> ← <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#60a5fa">انكر زولو 20,000</a> كافي</li>
+        <li>🔹 <strong>MacBook Pro 14" / ThinkPad</strong> ← <a href="/anker/power-banks/anker-737-powerbank" style="color:#60a5fa">انكر 737 (140W)</a> الخيار الأمثل</li>
+        <li>🔹 <strong>محتاج شحنات متعددة + طوارئ</strong> ← <a href="/anker/power-banks/anker-521-powerhouse" style="color:#60a5fa">انكر 521 باور هاوس</a></li>
     </ul>
 </div>
 
