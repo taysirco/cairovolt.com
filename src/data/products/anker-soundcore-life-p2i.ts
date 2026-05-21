@@ -168,6 +168,9 @@ export const anker_soundcore_life_p2i = {
         "anker-powercore-10000",
         "anker-powerport-20w",
         "anker-a8050-usb-c-cable",
-        "anker-soundcore-motion-plus"
+        "anker-soundcore-motion-plus",
+        "soundcore-p20i-earbuds",
+        "soundcore-p25i-earbuds",
+        "soundcore-v20i-earbuds"
     ]
     };

@@ -164,5 +164,13 @@ export const anker_soundcore_motion_plus = {
             en: "The Motion+ is hands-down the best Bluetooth speaker around EGP 2850 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
             ar: "تُعد Motion+ بلا شك أفضل سماعة بلوتوث في فئتها السعرية في مصر. شهادة الصوت عالي الدقة (Hi-Res) تضمن لك نقاء صوت استثنائي، والباس القوي يملأ المكان. اختبرناها في ظروف مختلفة وأثبتت كفاءة جبارة."
         },
-        relatedProducts: ["anker-soundcore-flare-2", "anker-soundcore-life-p2i", "anker-soundcore-r50i", "anker-powercore-10000", "anker-powerline-usb-c-usb-c"]
+        relatedProducts: [
+        "anker-soundcore-flare-2",
+        "anker-soundcore-life-p2i",
+        "anker-soundcore-r50i",
+        "anker-powercore-10000",
+        "anker-powerline-usb-c-usb-c",
+        "soundcore-select-4-go-speaker",
+        "soundcore-rave-3-speaker"
+    ]
     };

@@ -59,6 +59,32 @@ import { anker_soundcore_k20i_reviews } from './reviews/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc_reviews } from './reviews/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i_reviews } from './reviews/anker-soundcore-r50i';
 import { anker_a2147_gan_charger_30w_reviews } from './reviews/anker-a2147-gan-charger-30w';
+import { soundcore_p20i_earbuds_reviews } from './reviews/soundcore-p20i-earbuds';
+import { soundcore_p25i_earbuds_reviews } from './reviews/soundcore-p25i-earbuds';
+import { soundcore_liberty_4_nc_reviews } from './reviews/soundcore-liberty-4-nc';
+import { soundcore_a30i_earbuds_reviews } from './reviews/soundcore-a30i-earbuds';
+import { soundcore_liberty_5_reviews } from './reviews/soundcore-liberty-5';
+import { soundcore_liberty_4_pro_reviews } from './reviews/soundcore-liberty-4-pro';
+import { soundcore_p30i_earbuds_reviews } from './reviews/soundcore-p30i-earbuds';
+import { soundcore_life_q20_headphones_reviews } from './reviews/soundcore-life-q20-headphones';
+import { soundcore_liberty_buds_reviews } from './reviews/soundcore-liberty-buds';
+import { soundcore_liberty_air_2_pro_reviews } from './reviews/soundcore-liberty-air-2-pro';
+import { soundcore_p40i_earbuds_reviews } from './reviews/soundcore-p40i-earbuds';
+import { soundcore_p41i_earbuds_reviews } from './reviews/soundcore-p41i-earbuds';
+import { soundcore_v20i_earbuds_reviews } from './reviews/soundcore-v20i-earbuds';
+import { soundcore_r50i_vi_earbuds_reviews } from './reviews/soundcore-r50i-vi-earbuds';
+import { soundcore_life_u2i_neckband_reviews } from './reviews/soundcore-life-u2i-neckband';
+import { soundcore_c30i_earbuds_reviews } from './reviews/soundcore-c30i-earbuds';
+import { soundcore_c40i_earbuds_reviews } from './reviews/soundcore-c40i-earbuds';
+import { soundcore_liberty_3_pro_reviews } from './reviews/soundcore-liberty-3-pro';
+import { soundcore_q30_headphones_reviews } from './reviews/soundcore-q30-headphones';
+import { soundcore_q45_headphones_reviews } from './reviews/soundcore-q45-headphones';
+import { soundcore_q11i_headphones_reviews } from './reviews/soundcore-q11i-headphones';
+import { soundcore_q20i_headphones_reviews } from './reviews/soundcore-q20i-headphones';
+import { soundcore_space_one_headphones_reviews } from './reviews/soundcore-space-one-headphones';
+import { soundcore_rave_3_speaker_reviews } from './reviews/soundcore-rave-3-speaker';
+import { soundcore_select_4_go_speaker_reviews } from './reviews/soundcore-select-4-go-speaker';
+import { anker_pencil_stylus_reviews } from './reviews/anker-pencil-stylus';
 
 export const productReviewsDb: Record<string, import('./reviews/_shared').ProductReview[]> = {
     'anker-soundcore-motion-plus': anker_soundcore_motion_plus_reviews,
@@ -115,6 +141,32 @@ export const productReviewsDb: Record<string, import('./reviews/_shared').Produc
     'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_reviews,
     'anker-soundcore-r50i': anker_soundcore_r50i_reviews,
     'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_reviews,
+    'soundcore-p20i-earbuds': soundcore_p20i_earbuds_reviews,
+    'soundcore-p25i-earbuds': soundcore_p25i_earbuds_reviews,
+    'soundcore-liberty-4-nc': soundcore_liberty_4_nc_reviews,
+    'soundcore-a30i-earbuds': soundcore_a30i_earbuds_reviews,
+    'soundcore-liberty-5': soundcore_liberty_5_reviews,
+    'soundcore-liberty-4-pro': soundcore_liberty_4_pro_reviews,
+    'soundcore-p30i-earbuds': soundcore_p30i_earbuds_reviews,
+    'soundcore-life-q20-headphones': soundcore_life_q20_headphones_reviews,
+    'soundcore-liberty-buds': soundcore_liberty_buds_reviews,
+    'soundcore-liberty-air-2-pro': soundcore_liberty_air_2_pro_reviews,
+    'soundcore-p40i-earbuds': soundcore_p40i_earbuds_reviews,
+    'soundcore-p41i-earbuds': soundcore_p41i_earbuds_reviews,
+    'soundcore-v20i-earbuds': soundcore_v20i_earbuds_reviews,
+    'soundcore-r50i-vi-earbuds': soundcore_r50i_vi_earbuds_reviews,
+    'soundcore-life-u2i-neckband': soundcore_life_u2i_neckband_reviews,
+    'soundcore-c30i-earbuds': soundcore_c30i_earbuds_reviews,
+    'soundcore-c40i-earbuds': soundcore_c40i_earbuds_reviews,
+    'soundcore-liberty-3-pro': soundcore_liberty_3_pro_reviews,
+    'soundcore-q30-headphones': soundcore_q30_headphones_reviews,
+    'soundcore-q45-headphones': soundcore_q45_headphones_reviews,
+    'soundcore-q11i-headphones': soundcore_q11i_headphones_reviews,
+    'soundcore-q20i-headphones': soundcore_q20i_headphones_reviews,
+    'soundcore-space-one-headphones': soundcore_space_one_headphones_reviews,
+    'soundcore-rave-3-speaker': soundcore_rave_3_speaker_reviews,
+    'soundcore-select-4-go-speaker': soundcore_select_4_go_speaker_reviews,
+    'anker-pencil-stylus': anker_pencil_stylus_reviews,
 };
 
 // ============= FALLBACK GENERATOR =============

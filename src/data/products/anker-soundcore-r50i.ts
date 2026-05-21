@@ -18,7 +18,10 @@ export const anker_soundcore_r50i = {
         "anker-soundcore-life-p2i",
         "anker-a2741-charger-30w",
         "anker-soundcore-motion-plus",
-        "anker-soundcore-flare-2"
+        "anker-soundcore-flare-2",
+        "soundcore-r50i-vi-earbuds",
+        "soundcore-p30i-earbuds",
+        "soundcore-a30i-earbuds"
     ],
         translations: {
             en: {

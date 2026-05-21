@@ -31,7 +31,10 @@ export const anker_prime_a1695_25000 = {
         "anker-a8050-usb-c-cable",
         "anker-zolo-a110e-20000",
         "anker-soundcore-r50i-nc",
-        "anker-737-powerbank"
+        "anker-737-powerbank",
+        "soundcore-liberty-4-pro",
+        "soundcore-rave-3-speaker",
+        "soundcore-space-one-headphones"
     ],
         translations: {
             en: {

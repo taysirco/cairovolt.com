@@ -13,7 +13,16 @@ export const anker_soundcore_k20i = {
             { id: "img_8", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-package-contents-eartips-cable-manual.webp", alt: "انكر K20i استخدام في المترو القاهرة - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_9", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-battery-life-playtime-test-lab-egypt.webp", alt: "Anker K20i Soundcore app EQ customization screen - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
-        relatedProducts: ["anker-soundcore-r50i-nc", "anker-soundcore-r50i", "anker-a8050-usb-c-cable", "anker-a2741-charger-30w", "anker-zolo-a110d-10000"],
+        relatedProducts: [
+        "anker-soundcore-r50i-nc",
+        "anker-soundcore-r50i",
+        "anker-a8050-usb-c-cable",
+        "anker-a2741-charger-30w",
+        "anker-zolo-a110d-10000",
+        "soundcore-p20i-earbuds",
+        "soundcore-c30i-earbuds",
+        "soundcore-v20i-earbuds"
+    ],
         translations: {
             en: {
                 name: "Anker Soundcore K20i | 13mm Drivers | 36h Battery | Semi-In-Ear | 18-Month Warranty",

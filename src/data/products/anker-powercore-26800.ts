@@ -187,6 +187,8 @@ export const anker_powercore_26800 = {
         "anker-zolo-a110e-20000",
         "anker-nano-45w",
         "anker-a8050-usb-c-cable",
-        "anker-521-powerhouse"
+        "anker-521-powerhouse",
+        "soundcore-rave-3-speaker",
+        "soundcore-space-one-headphones"
     ]
     };

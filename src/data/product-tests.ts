@@ -68,6 +68,32 @@ import { joyroom_usb_a_type_c_1_2m_lab } from './tests/joyroom-usb-a-type-c-1.2m
 import { joyroom_usb_a_type_c_cable_lab } from './tests/joyroom-usb-a-type-c-cable';
 import { joyroom_usb_c_cable_60w_lab } from './tests/joyroom-usb-c-cable-60w';
 import { joyroom_usb_c_lightning_cable_lab } from './tests/joyroom-usb-c-lightning-cable';
+import { soundcore_p20i_earbuds_lab } from './tests/soundcore-p20i-earbuds';
+import { soundcore_p25i_earbuds_lab } from './tests/soundcore-p25i-earbuds';
+import { soundcore_liberty_4_nc_lab } from './tests/soundcore-liberty-4-nc';
+import { soundcore_a30i_earbuds_lab } from './tests/soundcore-a30i-earbuds';
+import { soundcore_liberty_5_lab } from './tests/soundcore-liberty-5';
+import { soundcore_liberty_4_pro_lab } from './tests/soundcore-liberty-4-pro';
+import { soundcore_p30i_earbuds_lab } from './tests/soundcore-p30i-earbuds';
+import { soundcore_life_q20_headphones_lab } from './tests/soundcore-life-q20-headphones';
+import { soundcore_liberty_buds_lab } from './tests/soundcore-liberty-buds';
+import { soundcore_liberty_air_2_pro_lab } from './tests/soundcore-liberty-air-2-pro';
+import { soundcore_p40i_earbuds_lab } from './tests/soundcore-p40i-earbuds';
+import { soundcore_p41i_earbuds_lab } from './tests/soundcore-p41i-earbuds';
+import { soundcore_v20i_earbuds_lab } from './tests/soundcore-v20i-earbuds';
+import { soundcore_r50i_vi_earbuds_lab } from './tests/soundcore-r50i-vi-earbuds';
+import { soundcore_life_u2i_neckband_lab } from './tests/soundcore-life-u2i-neckband';
+import { soundcore_c30i_earbuds_lab } from './tests/soundcore-c30i-earbuds';
+import { soundcore_c40i_earbuds_lab } from './tests/soundcore-c40i-earbuds';
+import { soundcore_liberty_3_pro_lab } from './tests/soundcore-liberty-3-pro';
+import { soundcore_q30_headphones_lab } from './tests/soundcore-q30-headphones';
+import { soundcore_q45_headphones_lab } from './tests/soundcore-q45-headphones';
+import { soundcore_q11i_headphones_lab } from './tests/soundcore-q11i-headphones';
+import { soundcore_q20i_headphones_lab } from './tests/soundcore-q20i-headphones';
+import { soundcore_space_one_headphones_lab } from './tests/soundcore-space-one-headphones';
+import { soundcore_rave_3_speaker_lab } from './tests/soundcore-rave-3-speaker';
+import { soundcore_select_4_go_speaker_lab } from './tests/soundcore-select-4-go-speaker';
+import { anker_pencil_stylus_lab } from './tests/anker-pencil-stylus';
 
 export const labData: Record<string, import('./tests/_shared').ProductLabData> = {
     'anker-powercore-10000': anker_powercore_10000_lab,
@@ -135,6 +161,32 @@ export const labData: Record<string, import('./tests/_shared').ProductLabData> =
     'joyroom-usb-a-type-c-cable': joyroom_usb_a_type_c_cable_lab,
     'joyroom-usb-c-cable-60w': joyroom_usb_c_cable_60w_lab,
     'joyroom-usb-c-lightning-cable': joyroom_usb_c_lightning_cable_lab,
+    'soundcore-p20i-earbuds': soundcore_p20i_earbuds_lab,
+    'soundcore-p25i-earbuds': soundcore_p25i_earbuds_lab,
+    'soundcore-liberty-4-nc': soundcore_liberty_4_nc_lab,
+    'soundcore-a30i-earbuds': soundcore_a30i_earbuds_lab,
+    'soundcore-liberty-5': soundcore_liberty_5_lab,
+    'soundcore-liberty-4-pro': soundcore_liberty_4_pro_lab,
+    'soundcore-p30i-earbuds': soundcore_p30i_earbuds_lab,
+    'soundcore-life-q20-headphones': soundcore_life_q20_headphones_lab,
+    'soundcore-liberty-buds': soundcore_liberty_buds_lab,
+    'soundcore-liberty-air-2-pro': soundcore_liberty_air_2_pro_lab,
+    'soundcore-p40i-earbuds': soundcore_p40i_earbuds_lab,
+    'soundcore-p41i-earbuds': soundcore_p41i_earbuds_lab,
+    'soundcore-v20i-earbuds': soundcore_v20i_earbuds_lab,
+    'soundcore-r50i-vi-earbuds': soundcore_r50i_vi_earbuds_lab,
+    'soundcore-life-u2i-neckband': soundcore_life_u2i_neckband_lab,
+    'soundcore-c30i-earbuds': soundcore_c30i_earbuds_lab,
+    'soundcore-c40i-earbuds': soundcore_c40i_earbuds_lab,
+    'soundcore-liberty-3-pro': soundcore_liberty_3_pro_lab,
+    'soundcore-q30-headphones': soundcore_q30_headphones_lab,
+    'soundcore-q45-headphones': soundcore_q45_headphones_lab,
+    'soundcore-q11i-headphones': soundcore_q11i_headphones_lab,
+    'soundcore-q20i-headphones': soundcore_q20i_headphones_lab,
+    'soundcore-space-one-headphones': soundcore_space_one_headphones_lab,
+    'soundcore-rave-3-speaker': soundcore_rave_3_speaker_lab,
+    'soundcore-select-4-go-speaker': soundcore_select_4_go_speaker_lab,
+    'anker-pencil-stylus': anker_pencil_stylus_lab,
 };
 
 /**

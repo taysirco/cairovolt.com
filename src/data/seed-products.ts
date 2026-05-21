@@ -57,6 +57,32 @@ import { anker_soundcore_k20i } from './products/anker-soundcore-k20i';
 import { anker_soundcore_r50i_nc } from './products/anker-soundcore-r50i-nc';
 import { anker_soundcore_r50i } from './products/anker-soundcore-r50i';
 import { anker_a2147_gan_charger_30w } from './products/anker-a2147-gan-charger-30w';
+import { soundcore_p20i_earbuds } from './products/soundcore-p20i-earbuds';
+import { soundcore_p25i_earbuds } from './products/soundcore-p25i-earbuds';
+import { soundcore_liberty_4_nc } from './products/soundcore-liberty-4-nc';
+import { soundcore_a30i_earbuds } from './products/soundcore-a30i-earbuds';
+import { soundcore_liberty_5 } from './products/soundcore-liberty-5';
+import { soundcore_liberty_4_pro } from './products/soundcore-liberty-4-pro';
+import { soundcore_p30i_earbuds } from './products/soundcore-p30i-earbuds';
+import { soundcore_life_q20_headphones } from './products/soundcore-life-q20-headphones';
+import { soundcore_liberty_buds } from './products/soundcore-liberty-buds';
+import { soundcore_liberty_air_2_pro } from './products/soundcore-liberty-air-2-pro';
+import { soundcore_p40i_earbuds } from './products/soundcore-p40i-earbuds';
+import { soundcore_p41i_earbuds } from './products/soundcore-p41i-earbuds';
+import { soundcore_v20i_earbuds } from './products/soundcore-v20i-earbuds';
+import { soundcore_r50i_vi_earbuds } from './products/soundcore-r50i-vi-earbuds';
+import { soundcore_life_u2i_neckband } from './products/soundcore-life-u2i-neckband';
+import { soundcore_c30i_earbuds } from './products/soundcore-c30i-earbuds';
+import { soundcore_c40i_earbuds } from './products/soundcore-c40i-earbuds';
+import { soundcore_liberty_3_pro } from './products/soundcore-liberty-3-pro';
+import { soundcore_q30_headphones } from './products/soundcore-q30-headphones';
+import { soundcore_q45_headphones } from './products/soundcore-q45-headphones';
+import { soundcore_q11i_headphones } from './products/soundcore-q11i-headphones';
+import { soundcore_q20i_headphones } from './products/soundcore-q20i-headphones';
+import { soundcore_space_one_headphones } from './products/soundcore-space-one-headphones';
+import { soundcore_rave_3_speaker } from './products/soundcore-rave-3-speaker';
+import { soundcore_select_4_go_speaker } from './products/soundcore-select-4-go-speaker';
+import { anker_pencil_stylus } from './products/anker-pencil-stylus';
 
 export const products = [
     anker_soundcore_motion_plus,
@@ -113,4 +139,30 @@ export const products = [
     anker_soundcore_r50i_nc,
     anker_soundcore_r50i,
     anker_a2147_gan_charger_30w,
+    soundcore_p20i_earbuds,
+    soundcore_p25i_earbuds,
+    soundcore_liberty_4_nc,
+    soundcore_a30i_earbuds,
+    soundcore_liberty_5,
+    soundcore_liberty_4_pro,
+    soundcore_p30i_earbuds,
+    soundcore_life_q20_headphones,
+    soundcore_liberty_buds,
+    soundcore_liberty_air_2_pro,
+    soundcore_p40i_earbuds,
+    soundcore_p41i_earbuds,
+    soundcore_v20i_earbuds,
+    soundcore_r50i_vi_earbuds,
+    soundcore_life_u2i_neckband,
+    soundcore_c30i_earbuds,
+    soundcore_c40i_earbuds,
+    soundcore_liberty_3_pro,
+    soundcore_q30_headphones,
+    soundcore_q45_headphones,
+    soundcore_q11i_headphones,
+    soundcore_q20i_headphones,
+    soundcore_space_one_headphones,
+    soundcore_rave_3_speaker,
+    soundcore_select_4_go_speaker,
+    anker_pencil_stylus,
 ];

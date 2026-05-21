@@ -160,5 +160,13 @@ export const anker_soundcore_flare_2 = {
             en: "If you love hosting parties, the Flare 2 is your best friend. The 360-degree sound fills the room evenly, and the beat-driven light show adds a fantastic vibe. It's fully waterproof, so pool parties are worry-free. While the bass isn't as deep as the Motion+, the overall experience and PartyCast feature make it a winner for social events.",
             ar: "إذا كنت تحب إقامة الحفلات، فإن Flare 2 هي صديقك المفضل. الصوت المحيطي 360 درجة يملأ الغرفة بالتساوي، وعرض الضوء المتفاعل مع الإيقاع يضيف جواً رائعاً. مقاومة للماء بالكامل، لذا حفلات حمام السباحة خالية من القلق. على الرغم من أن الباس ليس بعمق Motion+، إلا أن التجربة الكلية وميزة PartyCast تجعلها فائزة للمناسبات الاجتماعية."
         },
-        relatedProducts: ["anker-soundcore-motion-plus", "anker-soundcore-r50i", "anker-soundcore-life-p2i", "anker-powercore-10000", "anker-a8050-usb-c-cable"]
+        relatedProducts: [
+        "anker-soundcore-motion-plus",
+        "anker-soundcore-r50i",
+        "anker-soundcore-life-p2i",
+        "anker-powercore-10000",
+        "anker-a8050-usb-c-cable",
+        "soundcore-select-4-go-speaker",
+        "soundcore-rave-3-speaker"
+    ]
     };

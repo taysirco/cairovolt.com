@@ -17,7 +17,10 @@ export const anker_soundcore_r50i_nc = {
         "anker-zolo-a1681-20000",
         "anker-a2732-charger-35w",
         "anker-zolo-a110e-20000",
-        "anker-prime-a1695-25000"
+        "anker-prime-a1695-25000",
+        "soundcore-a30i-earbuds",
+        "soundcore-p40i-earbuds",
+        "soundcore-liberty-buds"
     ],
         translations: {
             en: {

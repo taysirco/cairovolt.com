@@ -73,6 +73,8 @@ export const anker_speakers_content: CategoryContent = {
                     products: [
                         { name: 'Soundcore Motion+', price: 3600, badge: 'صوت Hi-Res' },
                         { name: 'Soundcore Flare 2', price: 2999, badge: 'إضاءة LED' },
+                        { name: 'Soundcore Rave 3', price: 5999, badge: 'حفلات 100W' },
+                        { name: 'Soundcore Select 4 Go', price: 1699, badge: 'IP67 محمولة' },
                     ]
                 },
                 en: {
@@ -109,6 +111,8 @@ Yes! With PartyCast technology, link up to 100 Soundcore speakers simultaneously
                     products: [
                         { name: 'Soundcore Motion+', price: 3600, badge: 'Hi-Res Audio' },
                         { name: 'Soundcore Flare 2', price: 2999, badge: 'LED Lights' },
+                        { name: 'Soundcore Rave 3', price: 5999, badge: 'Party 100W' },
+                        { name: 'Soundcore Select 4 Go', price: 1699, badge: 'IP67 Portable' },
                     ]
                 }
             }

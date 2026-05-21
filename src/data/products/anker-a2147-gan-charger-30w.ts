@@ -16,7 +16,10 @@ export const anker_a2147_gan_charger_30w = {
         "anker-nano-45w",
         "anker-nano-45w-smart-display-charger",
         "anker-a2732-charger-35w",
-        "anker-a2741-charger-30w"
+        "anker-a2741-charger-30w",
+        "soundcore-liberty-5",
+        "soundcore-liberty-4-pro",
+        "anker-pencil-stylus"
     ],
         translations: {
             en: {
