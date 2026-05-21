@@ -39,7 +39,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أفضل شاحن GaN متعدد المنافذ: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W بشاشة ذكية</a> (799ج) — بيشحن iPhone + iPad بمنفذين USB-C. لو محتاج لابتوب → Anker 717 GaN 100W (1,299ج). الميزانية محدودة → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499ج). تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.
+        أفضل شاحن GaN متعدد المنافذ: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — بيشحن iPhone + iPad بمنفذين USB-C. لو محتاج لابتوب → Anker 717 GaN 100W (1,299ج). الميزانية محدودة → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج). تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.
     </p>
 </div>
 
@@ -62,7 +62,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <h2>أفضل 5 شواحن GaN متعددة المنافذ — مصر 2026</h2>
 
 <h3>🥇 #1 — Anker Nano 45W بشاشة ذكية (799ج)</h3>
-<p><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a> — أفضل شاحن GaN للأغلبية.</p>
+<p><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> — أفضل شاحن GaN للأغلبية.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
@@ -79,7 +79,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <p><strong>ليه #1؟</strong> الشاشة الذكية مش بس شكل — بتخليك تعرف لو الكابل بايظ (الواط هيبان صفر أو منخفض)، ولو الموبايل خلص شحن (الواط هينزل لـ 0.5W). 45W كافية لأي موبايل + تابلت. والحجم أصغر من شاحن Apple 20W الأصلي.</p>
 
 <h3>🥈 #2 — Anker GaN 30W (499ج)</h3>
-<p><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a> — أفضل قيمة لمنفذ واحد.</p>
+<p><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a> — أفضل قيمة لمنفذ واحد.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
@@ -109,7 +109,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <p><strong>ليه #3؟</strong> ده الشاحن اللي بيغنيك عن 3 شواحن تانية. 100W لمنفذ واحد بيشحن MacBook Pro 14" بالسرعة الكاملة. أو بيتقسم على 4 منافذ. في المكتب: وصّل اللابتوب + الموبايل + السماعة — كلهم في فيشة واحدة. مثالي للسفر.</p>
 
 <h3>#4 — Joyroom 30W (299ج)</h3>
-<p><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a> — أرخص شاحن 30W أصلي في مصر.</p>
+<p><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم شاحن 30W</a> — أرخص شاحن 30W أصلي في مصر.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
@@ -123,7 +123,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <p><strong>ليه #4؟</strong> مش GaN — ده شاحن تقليدي بسيليكون عادي. حجمه أكبر شوية من Anker GaN 30W وحرارته أعلى 4°م. لكن بيطلع 25.9W فعلية — فرق دقيقة واحدة بس عن Anker في شحن iPhone. بيوفر 200ج لو الميزانية ضيقة.</p>
 
 <h3>#5 — Anker PowerPort 20W (375ج)</h3>
-<p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — الاختيار الآمن والموثوق.</p>
+<p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر باور بورت 20W</a> — الاختيار الآمن والموثوق.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>

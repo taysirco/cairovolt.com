@@ -109,7 +109,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📱 <strong>مستخدم iPhone مع MagSafe:</strong> الـ
-    <a href="/anker/power-banks/anker-622-maggo" style="color:#2563eb;font-weight:600;">Anker 622 MagGo (2,800ج)</a>
+    <a href="/anker/power-banks/anker-622-maggo" style="color:#2563eb;font-weight:600;">انكر 622 ماج جو (2,800ج)</a>
     بسعة 5,000mAh مصمم خصيصاً ليلصق بالموبايل لاسلكي — الوزن 140 جرام، يدخل جيب الجاكيت بسهولة، Kickstand مدمج.</li>
     <li style="margin-bottom:12px;">🚶 <strong>الموظف اللي يقضي 3-5 ساعات خارج المكتب:</strong> طلعة كافيه + ميتنج + عودة. شحنة واحدة كافية تماماً، الوزن لا يحس.</li>
     <li style="margin-bottom:12px;">👜 <strong>المرأة بشنطة صغيرة:</strong> الـ 20,000mAh ثقيل (405 جرام) في شنطة اليد الصغيرة. الـ 5,000mAh أنسب.</li>

@@ -128,7 +128,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
 </ul>
 
 <p>أفضل باور بانك يدعم Trickle-Charge في مصر:
-<a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E 20,000mAh</a>
+<a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 20,000mAh</a>
 (1,730ج). اضغط زر الباور مرتين سريعاً لتفعيل الوضع.</p>
 
 
@@ -193,7 +193,7 @@ export const power_bank_gaming_pubg_freefire_cooling: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📱 <strong>الموبايل:</strong> iPhone 17 / Galaxy S26 / Redmi Note 14 — موضوع على الترابيزة (مش في الإيد).</li>
     <li style="margin-bottom:12px;">🔋 <strong>الباور بانك:</strong>
-    <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E 22.5W</a>
+    <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 22.5W</a>
     في وضع Trickle-Charge، كابل 30cm USB-C-USB-C.</li>
     <li style="margin-bottom:12px;">❄️ <strong>مروحة الموبايل:</strong> مغناطيسية USB-C، تأخذ 5W من الباور بانك.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>الغرفة:</strong> مكيف 24°م، إضاءة منخفضة (تقلل reflection حرارة الشاشة).</li>

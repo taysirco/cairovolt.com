@@ -47,7 +47,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — بيانات حقيقية:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         اختبرنا 6 باور بانكات بشاشة رقمية مقابل 4 باور بانكات بلمبات LED خلال مايو 2026. شحنّا كل واحد 100% وفرّغناه بحمل ثابت 10 واط.
-        <strong>النتيجة:</strong> الشاشات الرقمية في <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110D</a> و<a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> أعطت قراءات بهامش خطأ ±1% فقط. في المقابل، باور بانك بلمبات LED أظهر لمبة واحدة منورة عند 22% وعند 3% — نفس المؤشر لسعتين مختلفتين تماماً.
+        <strong>النتيجة:</strong> الشاشات الرقمية في <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو A110D</a> و<a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> أعطت قراءات بهامش خطأ ±1% فقط. في المقابل، باور بانك بلمبات LED أظهر لمبة واحدة منورة عند 22% وعند 3% — نفس المؤشر لسعتين مختلفتين تماماً.
     </p>
 </div>
 
@@ -101,7 +101,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
 
 <p><strong>الموقف الأول — قطع الكهرباء في صيف القاهرة.</strong> الكهرباء قطعت والموبايل على 8% واللابتوب على وشك يقفل. لو الباور بانك بلمبات LED، هتشوف لمبة واحدة وتقعد تقامر: "أوصل اللابتوب ولا الموبايل؟" لو بشاشة رقمية بتقرأ 34%، بتعرف إنك تقدر تشحن الموبايل شحنة كاملة (يحتاج ~15-18% من الباور بانك) ولسه يفضل 16% للطوارئ.</p>
 
-<p><strong>الموقف الثاني — كابل تالف بدون ما تعرف.</strong> وصلت الموبايل بالباور بانك وافترضت إنه بيشحن سريع. لكن الكابل تالف من جوا وبيطلع 2.5 واط بدل 22.5 واط. الباور بانك بلمبات مش هيقولك حاجة. الشاشة الذكية في <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681 (45W)</a> بتعرض الوات الخارج لحظياً — لو شفت 2.5W بدل 22W، هتعرف فوراً إن الكابل هو المشكلة.</p>
+<p><strong>الموقف الثاني — كابل تالف بدون ما تعرف.</strong> وصلت الموبايل بالباور بانك وافترضت إنه بيشحن سريع. لكن الكابل تالف من جوا وبيطلع 2.5 واط بدل 22.5 واط. الباور بانك بلمبات مش هيقولك حاجة. الشاشة الذكية في <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681 (45W)</a> بتعرض الوات الخارج لحظياً — لو شفت 2.5W بدل 22W، هتعرف فوراً إن الكابل هو المشكلة.</p>
 
 <p><strong>الموقف الثالث — رحلة طويلة بعدة أجهزة.</strong> مسافر الساحل الشمالي 5 ساعات ومعاك موبايلين وتابلت. الشاشة الرقمية بتخليك توزع الطاقة بذكاء: "الباور بانك عند 67%، هشحن الموبايل الأول لـ 80% وأسيب الباقي للتابلت." بدون أرقام، بتوزع عشوائي وممكن الكل يفضي نص الرحلة.</p>
 
@@ -128,35 +128,35 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">رقمية (%)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>997ج ⭐</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110D</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو A110D</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">10,000mAh (37Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">رقمية (%) + كابل مدمج</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>1,270ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (74Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">22.5W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">رقمية (%) + كابل مدمج</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>1,730ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">45W PD</td>
             <td style="padding:12px;border:1px solid #d1d5db;">ذكية (% + وات + حالة)</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (92.7Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">165W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">ذكية (وات + حرارة + صحة)</td>
@@ -165,7 +165,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
     </tbody>
 </table>
 
-<p>للمقارنة: <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10,000mAh</a> (بلمبات LED) سعره 1,300 جنيه — يعني أغلى بـ 30 جنيه من Anker ZOLO A110D اللي فيه شاشة رقمية <strong>وكابل مدمج</strong>. في الحالة دي، الاختيار واضح.</p>
+<p>للمقارنة: <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر باور كور 10,000mAh</a> (بلمبات LED) سعره 1,300 جنيه — يعني أغلى بـ 30 جنيه من Anker ZOLO A110D اللي فيه شاشة رقمية <strong>وكابل مدمج</strong>. في الحالة دي، الاختيار واضح.</p>
 
 <h2>مين يحتاج شاشة رقمية ومين يستغنى؟</h2>
 

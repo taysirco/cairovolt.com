@@ -39,7 +39,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        Anker بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ Joyroom)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). Joyroom بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> (2,200ج) أو <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime</a> (3,950ج).
+        Anker بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ Joyroom)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). Joyroom بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> (2,200ج) أو <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> (3,950ج).
     </p>
 </div>
 
@@ -69,7 +69,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;" colspan="7"><strong>🔵 Anker — 7 موديلات</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">PowerCore 10K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر باور كور 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">33.8Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>91%</strong></td>
@@ -78,7 +78,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1,300ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">ZOLO A110D 10K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو A110D 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">34.4Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>92%</strong></td>
@@ -87,7 +87,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1,270ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">ZOLO A110E 20K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">67.3Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>90%</strong></td>
@@ -96,7 +96,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1,730ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">PowerCore 20K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb;font-weight:600;">انكر باور كور 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">65.5Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>88%</strong></td>
@@ -105,7 +105,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1,550ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">ZOLO A1681 20K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>89%</strong></td>
@@ -123,7 +123,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">3,650ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Prime A1695 25K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 25K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">85.1Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>91%</strong></td>
@@ -135,7 +135,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;" colspan="7"><strong>🔴 Joyroom — 5 موديلات</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom 10K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">30.7Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>82%</strong></td>
@@ -144,7 +144,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>550ج ⭐</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom MagSafe 10K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم MagSafe 10K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">31.5Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>85%</strong></td>
@@ -153,7 +153,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">890ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">59.8Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>83%</strong></td>

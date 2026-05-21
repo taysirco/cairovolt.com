@@ -107,7 +107,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 <p>افتح أي باور بانك 45W ووصّله بموبايل + لابتوب في نفس الوقت — هتلاقي حاجة مزعجة: <strong>الباور بانك يقسم الـ 45W بين الجهازين بطريقة غير متساوية</strong>. النتيجة المعتادة: 30W للابتوب، 15W للموبايل. الموبايل اللي بياخد عادة 30W، بياخد نص ده — يعني وقت شحن مضاعف.</p>
 
 <p>الباور بانك 100W+ بيحل المشكلة دي بـ <strong>Independent Port Power Allocation</strong> — كل منفذ بياخد طاقته الكاملة بدون مزاحمة. اختبارنا مع
-<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime 165W</a>
+<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم 165W</a>
 مع MacBook Air M3 + iPhone 17 Pro Max في نفس اللحظة:</p>
 
 <ul style="list-style:none;padding:0;">
@@ -163,7 +163,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 <h2>الخيار الأول: Anker Prime 165W A1695 — الأفضل قيمة في مصر 2026</h2>
 
 <p>سعر 3,950 جنيه يبدو مرتفع، لكن المواصفات بتبرّره:
-<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695 25,000mAh 165W</a>
+<a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 باور بانك 25,000mAh 165W</a>
 هو الباور بانك الأقوى في حجم محمول قانوني للطيران في مصر — بسعة 92.7Wh (أقل من حد TSA 100Wh بقليل).</p>
 
 <p>المواصفات الفعلية اللي تختبرناها:</p>
@@ -183,7 +183,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 <h2>الخيار الثاني: Anker 737 PowerCore 140W — للذين يفضلون البساطة</h2>
 
 <p>بسعر 4,999 جنيه،
-<a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore 24K</a>
+<a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور 24K</a>
 يقدم 140W مع تصميم أبسط وأمتن — بدون مروحة تبريد (لأن 140W أقل من 165W في حرارة التوليد).</p>
 
 <p>الميزة اللي يتفوّق فيها على Prime A1695: <strong>المتانة الفائقة والبساطة</strong>. الجسم ألومنيوم مصنّع بدقة، بدون أجزاء متحركة (لا مراوح). للسفر القاسي (سفاري الصحراء، الكامبينج، رحلات السيارة الطويلة) — الـ 737 أنسب لأن مروحة Prime ممكن تدخلها رمال أو غبار.</p>
@@ -253,7 +253,7 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>240W rated:</strong> مثل
-    <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 USB-C 240W</a>
+    <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050 كابل USB-C 240W</a>
     — يتحمل الـ 165W الكامل بدون احماء.</li>
     <li style="margin-bottom:12px;">🔌 <strong>USB-IF Certified:</strong> شهادة رسمية من اتحاد USB — تضمن التوصيل المضبوط للبيانات والطاقة معاً.</li>
     <li style="margin-bottom:12px;">📏 <strong>1 متر فقط:</strong> الكابلات الطويلة (1.5م+) بتفقد فولتية بسبب المقاومة. للشحن السريع: 1م أو أقل.</li>

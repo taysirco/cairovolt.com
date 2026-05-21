@@ -39,7 +39,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أيوا، تقدر تشحن موبايل + لابتوب + سماعة + ساعة من باور بانك واحد — بشرط 3 حاجات: (1) سعة 20,000mAh على الأقل (المثالي 25,000mAh)، (2) 3 منافذ خرج أو أكتر مع دعم USB-C PD بقدرة 65W+، (3) إجمالي خرج 100W+ علشان الوات يتوزع كفاية. أفضل خيار: <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a> — 25,000mAh، 165W إجمالي، منفذين USB-C + USB-A، بيشحن لابتوب كامل + 3 أجهزة صغيرة معاً.
+        أيوا، تقدر تشحن موبايل + لابتوب + سماعة + ساعة من باور بانك واحد — بشرط 3 حاجات: (1) سعة 20,000mAh على الأقل (المثالي 25,000mAh)، (2) 3 منافذ خرج أو أكتر مع دعم USB-C PD بقدرة 65W+، (3) إجمالي خرج 100W+ علشان الوات يتوزع كفاية. أفضل خيار: <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a> — 25,000mAh، 165W إجمالي، منفذين USB-C + USB-A، بيشحن لابتوب كامل + 3 أجهزة صغيرة معاً.
     </p>
 </div>
 
@@ -47,7 +47,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — توزيع الوات الحقيقي:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
         وصّلنا 4 أجهزة (MacBook Air M2 + iPhone 17 Pro + AirPods Pro 3 + ساعة ذكية) على 3 باور بانكات مختلفة في مايو 2026 وقسنا الخرج الفعلي لكل منفذ بمقياس USB-C. 
-        <strong>النتيجة:</strong> <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a> وزّع 62W للابتوب + 18W للموبايل + 5W للسماعة + 2.5W للساعة = 87.5W إجمالي من أصل 165W. باور بانك رخيص بمنفذين بس — فشل يشحن اللابتوب خالص وأعطى الموبايل 10W بدل 25W.
+        <strong>النتيجة:</strong> <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a> وزّع 62W للابتوب + 18W للموبايل + 5W للسماعة + 2.5W للساعة = 87.5W إجمالي من أصل 165W. باور بانك رخيص بمنفذين بس — فشل يشحن اللابتوب خالص وأعطى الموبايل 10W بدل 25W.
     </p>
 </div>
 
@@ -123,7 +123,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (92.7Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>165W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
@@ -131,7 +131,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>3,950ج ⭐</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 PowerCore</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">24,000mAh (86.4Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>140W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
@@ -139,7 +139,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>3,650ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>45W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A + كابل مدمج</td>
@@ -147,7 +147,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (74Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>22.5W</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A + كابل مدمج</td>
@@ -165,7 +165,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>الأولوية 1 — اللابتوب:</strong> وصّله أول حاجة على منفذ USB-C PD الرئيسي. اللابتوب بياخد أكبر نصيب من الوات (30-65W)، ولو وصّلته بعد الأجهزة التانية، الباور بانك ممكن يرفض يفاوض على PD ويديله 5W بس.</li>
     <li style="margin-bottom:12px;">📱 <strong>الأولوية 2 — الموبايل:</strong> وصّله على المنفذ التاني (USB-C أو USB-A QC). الموبايل محتاج 10-25W وبيشحن بسرعة لو الباور بانك بيدعم Quick Charge أو PD.</li>
-    <li style="margin-bottom:12px;">🎧 <strong>الأولوية 3 — السماعة والساعة:</strong> دول بيشحنوا بـ 2.5-5W فقط. أي منفذ USB-A فاضي يكفيهم. لو عندك كابل 3-في-1 (زي <a href="/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1</a>)، تقدر توصّل اتنين على منفذ واحد.</li>
+    <li style="margin-bottom:12px;">🎧 <strong>الأولوية 3 — السماعة والساعة:</strong> دول بيشحنوا بـ 2.5-5W فقط. أي منفذ USB-A فاضي يكفيهم. لو عندك كابل 3-في-1 (زي <a href="/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb;font-weight:600;">جوي روم 3-في-1</a>)، تقدر توصّل اتنين على منفذ واحد.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>القاعدة الذهبية:</strong> وصّل اللابتوب الأول → استنّى 5 ثواني لحد ما الـ PD يتفاوض → بعدين وصّل الباقي واحد واحد. التوصيل المفاجئ لـ 4 أجهزة مرة واحدة ممكن يخلي الباور بانك يعيد التفاوض ويقلل الخرج للكل.</li>
 </ul>
 
@@ -176,7 +176,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 </div>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">❌ <strong>الخطأ #1 — كابل USB-C مش بيدعم PD:</strong> أهم سبب. كابل شحن رخيص من OLX أقصاه 15W. اللابتوب يرفض يشحن تماماً. الحل: كابل USB-C PD 100W معتمد (زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to USB-C</a>).</li>
+    <li style="margin-bottom:12px;">❌ <strong>الخطأ #1 — كابل USB-C مش بيدعم PD:</strong> أهم سبب. كابل شحن رخيص من OLX أقصاه 15W. اللابتوب يرفض يشحن تماماً. الحل: كابل USB-C PD 100W معتمد (زي <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر باور لاين USB-C لـ USB-C</a>).</li>
     <li style="margin-bottom:12px;">❌ <strong>الخطأ #2 — باور بانك سعته صغيرة:</strong> باور بانك 10,000mAh هيشحن اللابتوب 20-25% بس وبعدين يخلص. لـ 4 أجهزة محتاج 20,000mAh كحد أدنى.</li>
     <li style="margin-bottom:12px;">❌ <strong>الخطأ #3 — توصيل كل الأجهزة مرة واحدة:</strong> وصّلهم واحد واحد بفارق 5 ثواني. التوصيل المفاجئ بيخلي رقاقة الـ PD تعيد التفاوض وتقلل الخرج للكل.</li>
     <li style="margin-bottom:12px;">❌ <strong>الخطأ #4 — استخدام الباور بانك في حرارة 45°م+:</strong> في عربية مقفولة في صيف القاهرة، الحرارة الداخلية بتوصل 60-70°م. الباور بانك بيقلل الخرج تلقائياً لحماية البطارية — والنتيجة إن اللابتوب مش هيشحن.</li>
@@ -186,10 +186,10 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
 <h2>مين يحتاج باور بانك متعدد الأجهزة ومين يستغنى؟</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>بتشتغل عن بُعد من الكافيهات:</strong> اللابتوب + الموبايل + السماعة = حياتك كلها معلقة على شحنة واحدة. <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime</a> بيغطي يوم عمل كامل (6-8 ساعات).</li>
+    <li style="margin-bottom:12px;">✅ <strong>بتشتغل عن بُعد من الكافيهات:</strong> اللابتوب + الموبايل + السماعة = حياتك كلها معلقة على شحنة واحدة. <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> بيغطي يوم عمل كامل (6-8 ساعات).</li>
     <li style="margin-bottom:12px;">✅ <strong>بتسافر كتير:</strong> رحلة 5 ساعات للساحل أو الغردقة — باور بانك واحد بدل 3 شواحن و3 كابلات. خفّف شنطتك.</li>
-    <li style="margin-bottom:12px;">✅ <strong>صانع محتوى:</strong> كاميرا + موبايل + لابتوب + ميكروفون لاسلكي. <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 (140W)</a> بيشحنهم كلهم من غير ما تدور على بريزة.</li>
-    <li style="margin-bottom:12px;">❌ <strong>استخدامك خفيف:</strong> لو بتشحن موبايلك بس مرة في اليوم، <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> بـ 997ج كفاية ومش محتاج تدفع 3,000+ جنيه.</li>
+    <li style="margin-bottom:12px;">✅ <strong>صانع محتوى:</strong> كاميرا + موبايل + لابتوب + ميكروفون لاسلكي. <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 (140W)</a> بيشحنهم كلهم من غير ما تدور على بريزة.</li>
+    <li style="margin-bottom:12px;">❌ <strong>استخدامك خفيف:</strong> لو بتشحن موبايلك بس مرة في اليوم، <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج كفاية ومش محتاج تدفع 3,000+ جنيه.</li>
 </ul>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">

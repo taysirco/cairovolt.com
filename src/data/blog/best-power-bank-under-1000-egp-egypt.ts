@@ -85,7 +85,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 <h2>الخيار الأول: Joyroom MagSafe 10,000mAh — لمن يناسب؟</h2>
 
 <p>أرخص باور بانك أصلي بضمان في مصر بـ <strong>850 جنيه</strong> — وهو
-<a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom MagSafe Power Bank 10,000mAh</a>.
+<a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم MagSafe باور بانك 10,000mAh</a>.
 المميز فيه إنه يدعم MagSafe الأصلي لمستخدمي iPhone 12 وأحدث، يعني تشحن لاسلكي بقدرة 15W بمجرد لصقه بظهر الموبايل بدون كابلات.</p>
 
 <p>المواصفات الفعلية: سعة 10,000mAh، خرج لاسلكي 15W MagSafe، خرج سلكي USB-C PD بقدرة 20W، يدعم شحن iPhone 17 Pro من 0 إلى 50% في 28 دقيقة، يحتوي حامل (Kickstand) قابل للطي لمشاهدة الفيديوهات. الوزن 215 جرام — بيدخل جيب الجاكيت بسهولة.</p>
@@ -105,7 +105,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 <h2>الخيار الثاني: Joyroom 20,000mAh PD — السعة المضاعفة بأقل من 1000 جنيه</h2>
 
 <p>بـ <strong>997 جنيه فقط</strong> تحصل على ضعف السعة:
-<a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh Power Bank</a>
+<a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم باور بانك 20,000mAh</a>
 بقدرة 22.5W PD+QC وثلاث منافذ (USB-C + 2x USB-A) — يعني تشحن 3 أجهزة معاً.</p>
 
 <p>الأرقام الواقعية: 20,000mAh = ~13,000mAh فعلية بعد التحويل = 2.7 شحنة كاملة لـ iPhone 17 Pro Max، أو 3 شحنات لـ Samsung Galaxy A55، أو شحنة كاملة + 30% لـ Samsung S26 Ultra. الوزن 405 جرام — أثقل من الـ 10,000mAh لكن مقبول لشنطة لاب توب.</p>
@@ -125,7 +125,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
 <h2>هل تستحق إضافة 250 جنيه للترقية لـ Anker ZOLO؟</h2>
 
 <p>بمجرد ما تتعدى حاجز الـ 1000 جنيه، يدخل اسم <strong>Anker</strong> اللعبة. السؤال: هل الفرق بين Joyroom بـ 997 و
-<a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO 10,000mAh بـ 1,270 جنيه</a>
+<a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر زولو 10,000mAh بـ 1,270 جنيه</a>
 يستحق الـ 273 جنيه الإضافية؟</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">

@@ -39,7 +39,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        شاحن 30W هو الاختيار الأمثل. iPhone 17 Pro Max أقصى قبول شحن ليه 27W. شاحن 20W: 0-50% في 28 دقيقة. شاحن 30W: 0-50% في 24 دقيقة. شاحن 45W: 0-50% في 24 دقيقة (نفس الـ 30W بالظبط). أفضل اختيار: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> بـ 499ج.
+        شاحن 30W هو الاختيار الأمثل. iPhone 17 Pro Max أقصى قبول شحن ليه 27W. شاحن 20W: 0-50% في 28 دقيقة. شاحن 30W: 0-50% في 24 دقيقة. شاحن 45W: 0-50% في 24 دقيقة (نفس الـ 30W بالظبط). أفضل اختيار: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> بـ 499ج.
     </p>
 </div>
 
@@ -76,7 +76,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر 20W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">28 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">58 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1 ساعة 42 دقيقة</td>
@@ -84,7 +84,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">375ج</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W ⭐</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W ⭐</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>24 دقيقة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>52 دقيقة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>1 ساعة 35 دقيقة</strong></td>
@@ -92,7 +92,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">499ج</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">24 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">52 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1 ساعة 34 دقيقة</td>
@@ -100,7 +100,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">799ج</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">جوي روم 20W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">62 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1 ساعة 48 دقيقة</td>
@@ -108,7 +108,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">199ج</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">54 دقيقة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">1 ساعة 38 دقيقة</td>

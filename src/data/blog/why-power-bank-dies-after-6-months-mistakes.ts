@@ -93,7 +93,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔥 <strong>الأعراض:</strong> الباور بانك بيسخن أكتر من الطبيعي أثناء الشحن، بينتفخ (ولو بسيط)، بيفصل فجأة عند 15-20% بدل ما يكمل لـ 5%.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>الحل:</strong> شيله من العربية كل ما تنزل. لو مضطر تسيبه — حطه في الشنطة الخلفية (أبرد مكان) مش على التابلوه.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>الاستثناء:</strong> باور بانكات <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime</a> و <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> فيهم شاشة ذكية بتعرض درجة الحرارة الداخلية — بتقدر تراقب قبل ما الموضوع يبقى خطير.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>الاستثناء:</strong> باور بانكات <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> و <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> فيهم شاشة ذكية بتعرض درجة الحرارة الداخلية — بتقدر تراقب قبل ما الموضوع يبقى خطير.</li>
 </ul>
 
 <p>لمزيد من النصائح عن حماية أجهزتك في الصيف المصري، اقرأ <a href="/blog/protect-phone-from-heat-summer-egypt" style="color:#2563eb;font-weight:600;">حماية الموبايل من حرارة صيف مصر</a>.</p>
@@ -127,7 +127,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔋 <strong>القاعدة:</strong> قبل ما تخزّن الباور بانك لأي فترة، اشحنه لـ 50%. ده المستوى المثالي — مش 100% (ضغط على الخلايا) ومش 0% (خطر Deep Discharge).</li>
     <li style="margin-bottom:12px;">📅 <strong>كل 3 شهور:</strong> طلّع الباور بانك وشوف النسبة. لو نزل تحت 30%، اشحنه لـ 50% تاني. 5 دقائق كل 3 شهور بتحمي استثمارك.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>الميزة:</strong> <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E</a> (1,730ج) فيه شاشة رقمية — بتشوف النسبة فوراً من غير ما تحتاج توصّله.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>الميزة:</strong> <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E</a> (1,730ج) فيه شاشة رقمية — بتشوف النسبة فوراً من غير ما تحتاج توصّله.</li>
 </ul>
 
 <h2>إزاي تعرف إن بطارية الباور بانك بدأت تموت؟</h2>

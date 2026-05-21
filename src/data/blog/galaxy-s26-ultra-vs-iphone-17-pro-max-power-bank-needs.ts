@@ -122,7 +122,7 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
 </ul>
 
 <p>الخلاصة من نقطة دفع المال: لو عندك Samsung S26 Ultra، الترقية لـ
-<a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO 45W (2,200ج)</a>
+<a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو 45W (2,200ج)</a>
 أفضل من اختيار الـ 22.5W (1,730ج). لو عندك iPhone 17 Pro Max، الـ 22.5W كافي وأوفر 470 جنيه.</p>
 
 
@@ -191,13 +191,13 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎯 <strong>الأفضل قيمة (850ج):</strong>
-    <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">Joyroom MagSafe 10,000mAh</a>
+    <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم MagSafe 10,000mAh</a>
     — شحنتين iPhone 17 Pro Max + Kickstand + لاسلكي 15W. أوفر 1,950ج من Anker MagGo.</li>
     <li style="margin-bottom:12px;">💎 <strong>الأفخم (2,800ج):</strong>
-    <a href="/anker/power-banks/anker-622-maggo" style="color:#2563eb;font-weight:600;">Anker 622 MagGo</a>
+    <a href="/anker/power-banks/anker-622-maggo" style="color:#2563eb;font-weight:600;">انكر 622 ماج جو</a>
     — ضمان 18 شهر + جودة بناء Anker + Kickstand مدمج. أقل سعة لكن أنحف بـ 40%.</li>
     <li style="margin-bottom:12px;">🔋 <strong>السلكي الموفّر (1,730ج):</strong>
-    <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110E 22.5W</a>
+    <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 22.5W</a>
     — لمن لا يهتم بـ MagSafe ويريد سعة 20,000mAh ضعف Joyroom.</li>
 </ul>
 
@@ -208,10 +208,10 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎯 <strong>الأفضل قيمة (2,200ج):</strong>
-    <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681 45W PD</a>
+    <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681 45W PD</a>
     — يطلق Super Fast Charging الكاملة على S26 Ultra. سعة 20,000mAh = 4 شحنات كاملة.</li>
     <li style="margin-bottom:12px;">💎 <strong>الأفخم (3,950ج):</strong>
-    <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695 165W</a>
+    <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 165W</a>
     — لو عندك S26 Ultra + لابتوب USB-C. شحن متزامن بكامل السرعة.</li>
     <li style="margin-bottom:12px;">⚠️ <strong>تجنّب:</strong> أي باور بانك 22.5W مع S26 Ultra. هتفقد نصف سرعة الشحن المتاحة في الموبايل.</li>
 </ul>
