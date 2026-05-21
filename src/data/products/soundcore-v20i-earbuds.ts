@@ -9,7 +9,7 @@ export const soundcore_v20i_earbuds = {
     mpn: "A3962",
     price: 1449,
     originalPrice: 1499,
-    stock: 400,
+    stock: 792,
     featured: false,
     status: "active",
 

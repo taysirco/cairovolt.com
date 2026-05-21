@@ -9,7 +9,7 @@ export const soundcore_liberty_air_2_pro = {
     mpn: "A3951",
     price: 2150,
     originalPrice: 2200,
-    stock: 400,
+    stock: 997,
     featured: false,
     status: "active",
 

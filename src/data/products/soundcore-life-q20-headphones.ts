@@ -9,7 +9,7 @@ export const soundcore_life_q20_headphones = {
     mpn: "A3025",
     price: 2350,
     originalPrice: 2799,
-    stock: 400,
+    stock: 796,
     featured: false,
     status: "active",
 

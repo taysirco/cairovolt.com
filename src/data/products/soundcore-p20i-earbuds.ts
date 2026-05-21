@@ -9,7 +9,7 @@ export const soundcore_p20i_earbuds = {
     mpn: "A3949Z11",
     price: 699,
     originalPrice: 749,
-    stock: 400,
+    stock: 709,
     featured: false,
     status: "active",
 

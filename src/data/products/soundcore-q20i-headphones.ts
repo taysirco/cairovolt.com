@@ -9,7 +9,7 @@ export const soundcore_q20i_headphones = {
     mpn: "A3004",
     price: 2522,
     originalPrice: 2999,
-    stock: 400,
+    stock: 939,
     featured: true,
     status: "active",
 

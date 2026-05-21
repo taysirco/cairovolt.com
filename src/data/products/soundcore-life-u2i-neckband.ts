@@ -9,7 +9,7 @@ export const soundcore_life_u2i_neckband = {
     mpn: "A3213",
     price: 739,
     originalPrice: 789,
-    stock: 400,
+    stock: 957,
     featured: false,
     status: "active",
 

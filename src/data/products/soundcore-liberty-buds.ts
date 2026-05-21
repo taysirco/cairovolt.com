@@ -9,7 +9,7 @@ export const soundcore_liberty_buds = {
     mpn: "A3960",
     price: 1750,
     originalPrice: 2099,
-    stock: 400,
+    stock: 751,
     featured: false,
     status: "active",
 

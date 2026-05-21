@@ -9,7 +9,7 @@ export const soundcore_c30i_earbuds = {
     mpn: "A3965",
     price: 2350,
     originalPrice: 2799,
-    stock: 400,
+    stock: 1120,
     featured: false,
     status: "active",
 

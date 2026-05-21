@@ -9,7 +9,7 @@ export const soundcore_p41i_earbuds = {
     mpn: "A3956",
     price: 2439,
     originalPrice: 2899,
-    stock: 400,
+    stock: 1070,
     featured: false,
     status: "active",
 

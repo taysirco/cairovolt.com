@@ -9,7 +9,7 @@ export const anker_pencil_stylus = {
     mpn: "A7139",
     price: 1049,
     originalPrice: 1299,
-    stock: 400,
+    stock: 750,
     featured: true,
     status: "active",
 

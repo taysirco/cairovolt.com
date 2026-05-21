@@ -9,7 +9,7 @@ export const soundcore_liberty_4_pro = {
     mpn: "A3954",
     price: 5830,
     originalPrice: 6999,
-    stock: 400,
+    stock: 806,
     featured: true,
     status: "active",
 

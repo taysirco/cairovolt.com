@@ -9,7 +9,7 @@ export const soundcore_rave_3_speaker = {
     mpn: "A3399",
     price: 9450,
     originalPrice: 11499,
-    stock: 400,
+    stock: 719,
     featured: false,
     status: "active",
 

@@ -9,7 +9,7 @@ export const soundcore_p25i_earbuds = {
     mpn: "A3948",
     price: 770,
     originalPrice: 899,
-    stock: 400,
+    stock: 1089,
     featured: false,
     status: "active",
 

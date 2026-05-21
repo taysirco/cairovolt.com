@@ -9,7 +9,7 @@ export const soundcore_q30_headphones = {
     mpn: "A3028",
     price: 4649,
     originalPrice: 5499,
-    stock: 400,
+    stock: 740,
     featured: false,
     status: "active",
 

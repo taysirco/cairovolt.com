@@ -9,7 +9,7 @@ export const soundcore_space_one_headphones = {
     mpn: "A3035",
     price: 4700,
     originalPrice: 5599,
-    stock: 400,
+    stock: 1031,
     featured: true,
     status: "active",
 

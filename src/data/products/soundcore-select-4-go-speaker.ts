@@ -9,7 +9,7 @@ export const soundcore_select_4_go_speaker = {
     mpn: "A3129",
     price: 1249,
     originalPrice: 1999,
-    stock: 400,
+    stock: 927,
     featured: false,
     status: "active",
 

@@ -9,7 +9,7 @@ export const soundcore_c40i_earbuds = {
     mpn: "A3966",
     price: 3050,
     originalPrice: 3599,
-    stock: 400,
+    stock: 1045,
     featured: false,
     status: "active",
 

@@ -9,7 +9,7 @@ export const soundcore_q45_headphones = {
     mpn: "A3040",
     price: 4685,
     originalPrice: 5499,
-    stock: 400,
+    stock: 829,
     featured: true,
     status: "active",
 

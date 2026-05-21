@@ -9,7 +9,7 @@ export const soundcore_q11i_headphones = {
     mpn: "A3037",
     price: 2312,
     originalPrice: 2362,
-    stock: 400,
+    stock: 813,
     featured: false,
     status: "active",
 
