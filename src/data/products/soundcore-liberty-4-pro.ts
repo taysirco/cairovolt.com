@@ -6,7 +6,7 @@ export const soundcore_liberty_4_pro = {
     categorySlug: "audio",
     gtin: "",
     gtin13: "",
-    mpn: "A3952",
+    mpn: "A3954",
     price: 5830,
     originalPrice: 6999,
     stock: 400,

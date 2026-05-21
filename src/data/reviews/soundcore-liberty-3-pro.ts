@@ -2,71 +2,71 @@ import type { ProductReview } from './_shared';
 
 export const soundcore_liberty_3_pro_reviews: ProductReview[] = [
     {
-        author: 'Magdy Hassan',
+        author: 'Tarek Abdallah',
+        rating: 5,
+        location: 'مصر الجديدة',
+        datePublished: '2026-03-15',
+        reviewBody: {
+            en: 'Audio engineer here. The ACAA 2.0 dual-driver is the real deal — the balanced armature handles treble details that single-driver earbuds can\'t touch. Instrument separation in orchestral music is noticeably better. At 4,400 EGP vs 5,830 for Liberty 4 Pro, I saved 1,430 EGP and got 90% of the sound quality.',
+            ar: 'مهندس صوت هنا. ACAA 2.0 الدرايفر المزدوج حقيقي — الـ balanced armature بتتعامل مع تفاصيل التريبل اللي سماعات الدرايفر الواحد مش بتوصلها. فصل الآلات في الموسيقى الأوركسترالية أحسن بشكل ملحوظ. بـ 4,400 جنيه مقابل 5,830 لـ Liberty 4 Pro، وفّرت 1,430 جنيه وأخدت 90% من جودة الصوت.'
+        },
+        pros: { en: ['ACAA 2.0 real dual-driver', 'Saves 1,430 vs Liberty 4 Pro', 'Orchestral instrument separation'], ar: ['ACAA 2.0 درايفر مزدوج حقيقي', 'وفّر 1,430 من Liberty 4 Pro', 'فصل آلات أوركسترا'] },
+    },
+    {
+        author: 'Nada Samir',
         rating: 5,
         location: 'المعادي',
-        datePublished: '2026-01-30',
+        datePublished: '2026-02-20',
         reviewBody: {
-            en: 'Sound quality is incredible for the price. Deep bass without muddy mids.',
-            ar: 'جودة الصوت مذهلة بالسعر ده. باس عميق بدون تشويه.'
+            en: 'The wireless charging case is amazing — I just drop it on my nightstand Qi pad every night. No cables. LDAC on my Samsung S26 sounds incredible with lossless Spotify. HearID ANC adapted to my small ear canals perfectly. The Fusion Comfort ear wings keep them secure during my morning run.',
+            ar: 'علبة الشحن اللاسلكي مذهلة — بس بحطها على Qi pad الكوميدينو كل ليلة. مفيش كابلات. LDAC على Samsung S26 صوتها لا يُصدَّق مع Spotify lossless. HearID ANC تكيّف مع قنوات ودني الصغيرة تماماً. جناحين Fusion Comfort بيخلوهم ثابتين في الجري الصبح.'
         },
-        pros: { en: ['Clear bass', 'Great battery', 'Comfortable fit'], ar: ['باس واضح', 'بطارية ممتازة', 'لبسة مريحة'] },
+        pros: { en: ['Wireless charging — no cables', 'LDAC + lossless Spotify', 'HearID adapts to ear shape'], ar: ['شحن لاسلكي — مفيش كابلات', 'LDAC + Spotify lossless', 'HearID بيتكيف مع شكل الأذن'] },
     },
     {
-        author: 'Karim Samir',
+        author: 'Youssef Magdy',
+        rating: 4,
+        location: 'الدقي',
+        datePublished: '2026-04-05',
+        reviewBody: {
+            en: 'Great sound but honest: the ANC is not as strong as the Liberty 4 Pro. In the Cairo Metro, I can still hear some engine noise. The Liberty 4 Pro eliminates it completely. But for the 1,430 EGP price difference, the Liberty 3 Pro\'s ANC is good enough for daily commuting.',
+            ar: 'صوت ممتاز بس بصراحة: الـ ANC مش قوي زي Liberty 4 Pro. في مترو القاهرة، لسه بسمع شوية صوت محرك. Liberty 4 Pro بتلغيه تماماً. بس بفرق 1,430 جنيه، ANC بتاعة Liberty 3 Pro كفاية للمواصلات اليومية.'
+        },
+        pros: { en: ['Great sound quality', 'Good value vs Liberty 4 Pro', 'ANC good for daily use'], ar: ['جودة صوت ممتازة', 'قيمة كويسة مقابل Liberty 4 Pro', 'ANC كويس للاستخدام اليومي'] },
+        cons: { en: ['ANC weaker than Liberty 4 Pro'], ar: ['ANC أضعف من Liberty 4 Pro'] },
+    },
+    {
+        author: 'Sara El-Din',
         rating: 5,
-        location: 'مدينة نصر',
-        datePublished: '2026-01-10',
+        location: '6 أكتوبر',
+        datePublished: '2026-01-18',
         reviewBody: {
-            en: 'Best value earbuds in Egypt. Battery lasts my whole work week.',
-            ar: 'أفضل سماعة بالقيمة في مصر. البطارية بتكمّل أسبوع شغل كامل.'
+            en: 'Bought for my husband as a birthday gift. He uses them 6 hours daily for work calls and music. The dual-driver sounds much better than his old AirPods Pro. Wireless charging case was a big selling point — he charges everything wirelessly. CairoVolt same-day delivery to October City!',
+            ar: 'اشتريتها لجوزي هدية عيد ميلاد. بيستخدمهم 6 ساعات يومياً لمكالمات الشغل والموسيقى. الدرايفر المزدوج صوتها أحسن بكتير من AirPods Pro القديمة بتاعته. علبة الشحن اللاسلكي كانت نقطة بيع كبيرة — بيشحن كل حاجة لاسلكي. كايرو فولت توصيل نفس اليوم لأكتوبر!'
         },
-        pros: { en: ['Excellent battery', 'Fast USB-C charging', 'Stable Bluetooth'], ar: ['بطارية ممتازة', 'شحن USB-C سريع', 'بلوتوث مستقر'] },
+        pros: { en: ['Better than AirPods Pro', 'Wireless charging case', 'Same-day delivery October City'], ar: ['أحسن من AirPods Pro', 'علبة شحن لاسلكي', 'توصيل نفس اليوم أكتوبر'] },
     },
     {
-        author: 'Yasmin Ali',
+        author: 'Mohamed Ashraf',
         rating: 5,
-        location: 'المهندسين',
-        datePublished: '2025-10-20',
+        location: 'القاهرة الجديدة',
+        datePublished: '2026-03-28',
         reviewBody: {
-            en: 'Very good sound and build quality. Wish touch controls were more customizable.',
-            ar: 'صوت وبناء ممتاز. كنت أتمنى أزرار اللمس تكون أكتر قابلية للتخصيص.'
+            en: 'The 4 ear tip sizes + ear wings mean these fit perfectly. I tried 3 other earbuds that fell out during gym — Liberty 3 Pro stays locked. IPX4 handles sweat. The Soundcore app HearID test took 2 minutes and noticeably improved both sound and ANC after calibration.',
+            ar: 'الـ 4 مقاسات أطراف + جناحين يعني بيتحطوا تمام. جرّبت 3 سماعات تانية كانت بتقع في الجيم — Liberty 3 Pro بتفضل ثابتة. IPX4 بتستحمل العرق. اختبار HearID في تطبيق Soundcore أخد دقيقتين وحسّن الصوت والـ ANC بشكل ملحوظ بعد المعايرة.'
         },
-        pros: { en: ['Good sound', 'IPX5 waterproof', 'Compact case'], ar: ['صوت كويس', 'مقاومة مية IPX5', 'علبة مدمجة'] },
-        cons: { en: ['Touch controls limited'], ar: ['أزرار اللمس محدودة'] },
+        pros: { en: ['4 tip sizes + wings = perfect fit', 'Stays locked in gym', 'HearID calibration improves everything'], ar: ['4 مقاسات + جناحين = ثبات مثالي', 'بتفضل ثابتة في الجيم', 'معايرة HearID بتحسّن كل حاجة'] },
     },
     {
-        author: 'Islam Mohamed',
+        author: 'Hania Khaled',
         rating: 4,
-        location: 'المنصورة',
-        datePublished: '2026-04-01',
+        location: 'الشروق',
+        datePublished: '2026-04-12',
         reviewBody: {
-            en: 'Use them daily on Metro Line 3. Noise isolation is surprisingly good.',
-            ar: 'بستخدمها يومياً في المترو الخط الثالث. العزل مفاجئ بالسعر ده.'
+            en: 'One thing to know: LDAC and multipoint can\'t work at the same time. I have to choose between Hi-Res audio on my Samsung or switching between phone and laptop. I usually keep multipoint on and use LDAC only for focused music sessions. Other than that, outstanding earbuds.',
+            ar: 'حاجة لازم تعرفها: LDAC وmultipoint مش بيشتغلوا مع بعض. لازم أختار بين Hi-Res على سامسونج أو التبديل بين الموبايل واللاب. عادةً بفضل multipoint وبستخدم LDAC بس لجلسات الموسيقى المركزة. غير كده، سماعات ممتازة.'
         },
-        pros: { en: ['Great noise isolation', 'Secure fit', 'Good call quality'], ar: ['عزل ممتاز', 'ثبات في الودان', 'جودة مكالمات كويسة'] },
-    },
-    {
-        author: 'Ahmed Mohamed',
-        rating: 4,
-        location: 'الجيزة',
-        datePublished: '2025-12-25',
-        reviewBody: {
-            en: 'Bought one for my wife too after using mine for a month. Nothing comes close at this price.',
-            ar: 'اشتريت واحدة لمراتي كمان بعد ما استخدمت بتاعتي شهر. مفيش حاجة تقرب منها بالسعر.'
-        },
-        pros: { en: ['Premium feel', 'Brand trust', 'Fast delivery'], ar: ['إحساس premium', 'ثقة في البراند', 'توصيل سريع'] },
-    },
-    {
-        author: 'Youssef Adel',
-        rating: 4,
-        location: 'بورسعيد',
-        datePublished: '2026-03-01',
-        reviewBody: {
-            en: 'Solid earbuds overall. Bass could be deeper for EDM but Soundcore app EQ helps.',
-            ar: 'سماعات قوية بشكل عام. الباس ممكن يكون أعمق للـ EDM بس تطبيق Soundcore بيساعد.'
-        },
-        pros: { en: ['App EQ customization', 'Long battery', 'IPX5 for gym'], ar: ['تخصيص EQ بالتطبيق', 'بطارية طويلة', 'IPX5 للجيم'] },
-        cons: { en: ['Bass could be deeper for EDM'], ar: ['الباس ممكن يكون أعمق للـ EDM'] },
+        pros: { en: ['Outstanding overall quality', 'LDAC for focused sessions', 'Multipoint for daily use'], ar: ['جودة عامة ممتازة', 'LDAC للجلسات المركزة', 'Multipoint للاستخدام اليومي'] },
+        cons: { en: ['LDAC and multipoint can\'t work together'], ar: ['LDAC وmultipoint مش بيشتغلوا مع بعض'] },
     },
 ];
