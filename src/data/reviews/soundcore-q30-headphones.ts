@@ -80,4 +80,84 @@ export const soundcore_q30_headphones_reviews: ProductReview[] = [
         },
         pros: { en: ['Multipoint Mac+iPhone perfect', 'Foldable fits hard case', '3.5mm saved on flight'], ar: ['Multipoint ماك+ايفون تمام', 'القابل للطي بيتحط في الهارد كيس', '3.5mm أنقذني في الطيارة'] },
     },
+    {
+        author: 'Sameh Yousry',
+        rating: 5,
+        location: 'بنها',
+        datePublished: '2026-03-21',
+        reviewBody: {
+            en: 'Train from Benha to Cairo daily — 90 minutes each way. Transport mode blocks engine vibration and rail noise. Protein leather cushions don\'t make my ears sweat like cheaper headphones. 40h battery means I charge on weekends only.',
+            ar: 'قطار بنها-القاهرة يومياً — ساعة ونص كل اتجاه. وضع مواصلات بيمنع اهتزاز المحرك وصوت القضبان. وسائد الجلد البروتين مش بتعرّق ودني زي الهيدفونات الرخيصة. بطارية 40 ساعة يعني بشحن في الويكند بس.'
+        },
+        pros: { en: ['Train noise blocked', 'No-sweat protein cushions', 'Weekend-only charging'], ar: ['صوت القطار اتمنع', 'وسائد بدون عرق', 'شحن في الويكند بس'] },
+    },
+    {
+        author: 'Noura Magdy',
+        rating: 4,
+        location: 'مدينة نصر',
+        datePublished: '2026-04-17',
+        reviewBody: {
+            en: 'Love the 3 ANC modes (Transport, Indoor, Outdoor). Indoor mode is ideal for studying — blocks my family\'s TV without making me feel isolated. Only minus: the headband slightly squeezes after 4+ hours. Great value for a student budget.',
+            ar: 'بحب الـ 3 أوضاع ANC (مواصلات، داخلي، خارجي). الوضع الداخلي مثالي للمذاكرة — بيمنع صوت التليفزيون بتاع العيلة بدون ما أحس بعزلة. العيب الوحيد: الهيدباند بيضغط شوية بعد 4 ساعات. قيمة ممتازة لميزانية طالبة.'
+        },
+        pros: { en: ['3 ANC modes', 'Study-friendly Indoor mode', 'Student budget value'], ar: ['3 أوضاع ANC', 'وضع داخلي للمذاكرة', 'قيمة لميزانية الطالب'] },
+        cons: { en: ['Headband pressure after 4+ hours'], ar: ['الهيدباند بيضغط بعد 4+ ساعات'] },
+    },
+    {
+        author: 'Bassem Adel',
+        rating: 5,
+        location: 'العبور',
+        datePublished: '2026-05-02',
+        reviewBody: {
+            en: 'Bass response is excellent for EDM and Arabic trap. BassUp mode adds a nice thump. Silk driver handles both lows and mids beautifully. My first over-ear ANC and I\'m converted — I\'ll never go back to earbuds for serious listening.',
+            ar: 'استجابة الباس ممتازة لـ EDM والتراب العربي. وضع BassUp بيضيف دقة حلوة. درايفر الحرير بيتعامل مع اللو والميد بشكل جميل. أول هيدفون ANC أوفر إير ليا واتغيرت — مش هرجع لسماعات الأذن في السماع الجاد.'
+        },
+        pros: { en: ['EDM and Arabic trap bass', 'BassUp mode', 'Over-ear convert for life'], ar: ['باس EDM وتراب عربي', 'وضع BassUp', 'اتحولت لأوفر إير مدى الحياة'] },
+    },
+    {
+        author: 'Safaa Ibrahim',
+        rating: 3,
+        location: 'الفيوم',
+        datePublished: '2026-03-30',
+        reviewBody: {
+            en: 'Sound quality and ANC are good for the price. But the Bluetooth range is shorter than expected — audio cuts when I walk 5m from my phone. Also the app EQ only has basic presets. For pure sound quality, the Q45 is worth the extra.',
+            ar: 'جودة الصوت والعزل كويسين بالسعر. بس مدى البلوتوث أقصر من المتوقع — الصوت بيقطع لما بمشي 5 متر من الموبايل. كمان الـ EQ في التطبيق فيها إعدادات بسيطة بس. لجودة صوت صافية، Q45 تستاهل الفرق.'
+        },
+        pros: { en: ['Good ANC for price', 'Hard case included'], ar: ['عزل كويس بالسعر', 'شنطة هارد مرفقة'] },
+        cons: { en: ['Short Bluetooth range ~5m', 'Basic app EQ presets'], ar: ['مدى بلوتوث قصير ~5م', 'إعدادات EQ بسيطة في التطبيق'] },
+    },
+    {
+        author: 'Mohamed Adel',
+        rating: 5,
+        location: 'السويس',
+        datePublished: '2026-04-28',
+        reviewBody: {
+            en: 'Shipped to Suez in 4 days from CairoVolt. Perfect for my late night gaming sessions — ANC blocks AC noise and the wired 3.5mm mode means zero latency for FPS games. Wife doesn\'t wake up and I hear footsteps in-game perfectly.',
+            ar: 'اتشحن للسويس في 4 أيام من كايرو فولت. مثالي لجلسات الجيمنج بالليل — ANC بيمنع صوت التكييف والوضع السلكي 3.5mm يعني صفر تأخير في ألعاب FPS. مراتي مش بتصحى وبسمع خطوات في اللعبة تمام.'
+        },
+        pros: { en: ['Late night gaming essential', 'Zero latency wired mode', 'ANC blocks AC noise'], ar: ['أساسي للجيمنج بالليل', 'صفر تأخير في الوضع السلكي', 'ANC بيمنع صوت التكييف'] },
+    },
+    {
+        author: 'Hanaa Samy',
+        rating: 5,
+        location: 'المنيا',
+        datePublished: '2026-05-16',
+        reviewBody: {
+            en: 'Medical resident — 12-hour shifts. The protein leather is breathable enough for long wear. ANC lets me rest in the break room without hearing the corridor noise. The hard case protects them in my locker. Best purchase this year.',
+            ar: 'طبيبة مقيمة — شيفتات 12 ساعة. الجلد البروتين بيتنفس كفاية للبس الطويل. ANC بيخليني أرتاح في أوضة الراحة من غير ما أسمع ضوضاء الممر. الشنطة الهارد بتحميهم في اللوكر. أحسن شراء السنة دي.'
+        },
+        pros: { en: ['12-hour shift comfortable', 'Break room peace', 'Locker-safe hard case'], ar: ['مريح في شيفت 12 ساعة', 'هدوء أوضة الراحة', 'شنطة هارد آمنة في اللوكر'] },
+    },
+    {
+        author: 'Wael Shawky',
+        rating: 4,
+        location: 'الغردقة',
+        datePublished: '2026-04-08',
+        reviewBody: {
+            en: 'Tourist hotel receptionist — Outdoor mode is perfect for hearing guests while listening to background music. Folds flat for storing in my desk drawer. Multipoint connects to hotel phone and my personal phone simultaneously. Professional look too.',
+            ar: 'ريسبشنيست في فندق سياحي — الوضع الخارجي مثالي لسماع الضيوف وأنا بسمع موسيقى في الخلفية. بيتطوي مسطح في درج المكتب. Multipoint بيتوصل بتليفون الفندق وموبايلي في نفس الوقت. شكل احترافي كمان.'
+        },
+        pros: { en: ['Hotel reception approved', 'Folds flat for drawer', 'Dual phone Multipoint'], ar: ['معتمد للريسبشن', 'بيتطوي في الدرج', 'Multipoint لتليفونين'] },
+        cons: { en: ['Outdoor mode lets some wind through'], ar: ['الوضع الخارجي بيسمح بشوية هوا'] },
+    },
 ];

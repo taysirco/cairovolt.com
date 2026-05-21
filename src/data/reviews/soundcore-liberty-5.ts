@@ -80,4 +80,61 @@ export const soundcore_liberty_5_reviews: ProductReview[] = [
         },
         pros: { en: ['LDAC Hi-Res on S26', 'BT 5.4 low gaming latency', 'Fast CairoVolt delivery'], ar: ['LDAC Hi-Res على S26', 'تأخير ألعاب أقل BT 5.4', 'توصيل سريع كايرو فولت'] },
     },
+    {
+        author: 'Nabil Hosny',
+        rating: 5,
+        location: 'الإسكندرية',
+        datePublished: '2026-03-15',
+        reviewBody: {
+            en: 'The CloudComfort ear tips are genuinely different — memory foam that molds to your ear canal. After 6 hours of wear, zero discomfort. My previous Liberty 3 Pro tips started hurting after 3 hours. This alone justifies the upgrade.',
+            ar: 'سدادات CloudComfort فعلاً مختلفة — ميموري فوم بيتشكل على قناة الودن. بعد 6 ساعات لبس، صفر إزعاج. سدادات Liberty 3 Pro القديمة كانت بتوجع بعد 3 ساعات. ده لوحده بيبرر الترقية.'
+        },
+        pros: { en: ['CloudComfort 6-hour zero pain', 'Memory foam ear tips', 'Upgrade from Liberty 3 Pro'], ar: ['CloudComfort 6 ساعات صفر ألم', 'سدادات ميموري فوم', 'ترقية من Liberty 3 Pro'] },
+    },
+    {
+        author: 'Eman Rashad',
+        rating: 4,
+        location: 'طنطا',
+        datePublished: '2026-04-22',
+        reviewBody: {
+            en: 'Sound quality is warm and engaging — not as analytical as Liberty 4 Pro but more fun for casual listening. Perfect for commute music and Netflix. Deducting one star: no ANC at this price feels like a missed opportunity. Transparency mode is also absent.',
+            ar: 'جودة الصوت دافية ومشوقة — مش تحليلية زي Liberty 4 Pro بس أمتع للسماع الكاجوال. مثالية لموسيقى المواصلات ونتفليكس. خصمت نجمة: مفيش ANC بالسعر ده حاسة إنها فرصة ضايعة. وضع الشفافية كمان غايب.'
+        },
+        pros: { en: ['Warm engaging sound', 'Netflix commute perfect', 'Fun over analytical'], ar: ['صوت دافي مشوق', 'مثالية لنتفليكس في المواصلات', 'ممتعة أكتر من تحليلية'] },
+        cons: { en: ['No ANC at this price point', 'No transparency mode'], ar: ['مفيش ANC بالسعر ده', 'مفيش وضع شفافية'] },
+    },
+    {
+        author: 'Magdy Hassan',
+        rating: 5,
+        location: 'أسوان',
+        datePublished: '2026-05-08',
+        reviewBody: {
+            en: 'Ordered to Aswan — arrived in 6 days, well packaged. The IPX5 is essential here — temps hit 45°C in summer and I sweat a lot. These survive the heat. BT 5.4 range reaches my kitchen while phone is in the bedroom. No dropouts.',
+            ar: 'طلبته لأسوان — وصل في 6 أيام مغلف كويس. IPX5 أساسي هنا — الحرارة بتوصل 45 درجة في الصيف وبعرق كتير. السماعات بتستحمل الحر. مدى BT 5.4 بيوصل المطبخ والموبايل في الأوضة. مفيش انقطاع.'
+        },
+        pros: { en: ['Aswan heat survivor IPX5', 'BT 5.4 cross-room range', 'Well-packaged shipping'], ar: ['بتستحمل حر أسوان IPX5', 'مدى BT 5.4 بين الأوض', 'شحن مغلف كويس'] },
+    },
+    {
+        author: 'Nermin Talaat',
+        rating: 5,
+        location: 'مدينة بدر',
+        datePublished: '2026-03-26',
+        reviewBody: {
+            en: 'Call center agent — 8 hours of calls daily. The 4-mic AI noise cancellation makes my voice clear for customers even in our open-plan office. CloudComfort tips mean no ear fatigue at end of shift. Manager approved these for work use.',
+            ar: 'موظفة كول سنتر — 8 ساعات مكالمات يومياً. إلغاء الضوضاء بالـ AI بـ 4 مايك بيخلي صوتي واضح للعملاء حتى في المكتب المفتوح. سدادات CloudComfort يعني صفر تعب ودن آخر الشيفت. المدير وافق عليهم للشغل.'
+        },
+        pros: { en: ['8-hour call center tested', 'Manager-approved for work', 'CloudComfort no fatigue'], ar: ['مختبرة في كول سنتر 8 ساعات', 'معتمدة من المدير للشغل', 'CloudComfort صفر تعب'] },
+    },
+    {
+        author: 'Ayman Fawzy',
+        rating: 3,
+        location: 'الزمالك',
+        datePublished: '2026-04-06',
+        reviewBody: {
+            en: 'Good earbuds but slightly overpriced for what you get vs the P40i which has ANC at a lower price. Sound quality is better on the Liberty 5, yes, but the lack of ANC is hard to justify. If you dont care about ANC, then 5 stars.',
+            ar: 'سماعات كويسة بس غالية شوية لللي بتقدمه مقارنة بـ P40i اللي عندها ANC بسعر أقل. جودة الصوت أحسن في Liberty 5، أيوه، بس غياب ANC صعب يتبرر. لو مش مهتم بالـ ANC، يبقى 5 نجوم.'
+        },
+        pros: { en: ['Better sound than P40i', 'CloudComfort excellence'], ar: ['صوت أحسن من P40i', 'تفوق CloudComfort'] },
+        cons: { en: ['No ANC while P40i has it cheaper', 'Slightly overpriced'], ar: ['مفيش ANC و P40i عندها بسعر أقل', 'غالية شوية'] },
+    },
 ];

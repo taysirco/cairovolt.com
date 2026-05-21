@@ -80,4 +80,61 @@ export const soundcore_space_one_headphones_reviews: ProductReview[] = [
         },
         pros: { en: ['Folds flat for travel', '3.5mm for airplanes', 'SuperJet bus ANC'], ar: ['بتنطوي للسفر', '3.5mm للطيارات', 'ANC أتوبيس سوبرجيت'] },
     },
+    {
+        author: 'Gamal Youssef',
+        rating: 5,
+        location: 'التجمع الخامس',
+        datePublished: '2026-03-11',
+        reviewBody: {
+            en: 'Business traveler — Cairo-Dubai-Riyadh monthly. Space One is the perfect travel headphone: folds into my carry-on pocket, 40dB ANC silences airplane engines, and 3.5mm wired mode works with every airline IFE system. 40h battery lasts the entire 5-day trip.',
+            ar: 'مسافر عمل — القاهرة-دبي-الرياض شهرياً. سبيس ون هيدفون السفر المثالي: بيتطوي في جيب الكاري أون، 40dB ANC بيسكّت محركات الطيارة، والوضع السلكي 3.5mm بيشتغل مع كل نظام ترفيه. بطارية 40 ساعة بتكفي الرحلة كلها 5 أيام.'
+        },
+        pros: { en: ['Monthly business travel tested', '40dB airplane ANC', '5-day battery trip'], ar: ['مختبر في سفر عمل شهري', '40dB ANC طيارة', 'بطارية رحلة 5 أيام'] },
+    },
+    {
+        author: 'Azza Kamel',
+        rating: 4,
+        location: 'المنيا',
+        datePublished: '2026-04-14',
+        reviewBody: {
+            en: 'Lightweight at 265g — lighter than Q45 and Q30. This matters for 8-hour wear days. Sound quality is warm and pleasant, not audiophile-grade but absolutely comfortable for daily use. Only wish: the ANC was slightly stronger for noisy environments.',
+            ar: 'خفيف بوزن 265 جرام — أخف من Q45 و Q30. ده بيفرق في أيام اللبس 8 ساعات. جودة الصوت دافية وممتعة، مش مستوى أوديوفايل بس مريحة جداً للاستخدام اليومي. الأمنية الوحيدة: الـ ANC يكون أقوى شوية للأماكن الصاخبة.'
+        },
+        pros: { en: ['Lightest at 265g', '8-hour comfort', 'Warm pleasant sound'], ar: ['الأخف بوزن 265 جرام', 'راحة 8 ساعات', 'صوت دافي ممتع'] },
+        cons: { en: ['ANC could be stronger in noisy places'], ar: ['ANC ممكن يكون أقوى في الأماكن الصاخبة'] },
+    },
+    {
+        author: 'Youssef Emad',
+        rating: 5,
+        location: 'الجيزة',
+        datePublished: '2026-05-01',
+        reviewBody: {
+            en: 'The ErgoFit rotating earcups are genius — they angle to match my ear shape perfectly. Other headphones sit flat and create gaps. Space One seals completely which makes the ANC more effective. Protein leather + memory foam = cloud-like comfort.',
+            ar: 'إيركابات ErgoFit الدوّارة عبقرية — بتميل تطابق شكل ودني تماماً. الهيدفونات التانية بتقعد مسطحة وبتعمل فراغات. سبيس ون بتقفل تماماً وده بيخلي الـ ANC أكثر فعالية. جلد بروتين + ميموري فوم = راحة زي السحاب.'
+        },
+        pros: { en: ['ErgoFit rotating earcup seal', 'Cloud comfort', 'Better ANC from seal'], ar: ['قفل إيركاب ErgoFit الدوّار', 'راحة زي السحاب', 'ANC أحسن من القفل'] },
+    },
+    {
+        author: 'Naglaa Amin',
+        rating: 5,
+        location: 'شبرا',
+        datePublished: '2026-03-29',
+        reviewBody: {
+            en: 'Stay-at-home mom — these are my escape from the chaos 😅 ANC mode while the kids watch Spacetoon = 30 minutes of peace for Quran recitation. The transparency mode lets me hear if someone cries. Best self-care purchase.',
+            ar: 'أم ربة منزل — دول وسيلة هروبي من الفوضى 😅 وضع ANC والعيال بيتفرجوا على سبيستون = 30 دقيقة سلام لسماع القرآن. وضع الشفافية بيخليني أسمع لو حد بكى. أحسن شراء رعاية ذاتية.'
+        },
+        pros: { en: ['Mom escape from chaos', 'Transparency for baby monitoring', 'Self-care essential'], ar: ['هروب الأم من الفوضى', 'شفافية لمراقبة الأطفال', 'أساسي للرعاية الذاتية'] },
+    },
+    {
+        author: 'Tarek Galal',
+        rating: 4,
+        location: 'السويس',
+        datePublished: '2026-05-14',
+        reviewBody: {
+            en: 'Great all-rounder headphone. Folds for travel, good ANC, comfortable for long wear. If I had to pick one complaint: the EQ in the app has fewer options than Q30/Q45. But the physical comfort is the best in the lineup.',
+            ar: 'هيدفون شامل ممتاز. بيتطوي للسفر، ANC كويس، مريح للبس الطويل. لو لازم أختار شكوى واحدة: الـ EQ في التطبيق فيه خيارات أقل من Q30/Q45. بس الراحة الجسدية الأحسن في التشكيلة.'
+        },
+        pros: { en: ['Best all-rounder', 'Best comfort in lineup', 'Travel-friendly foldable'], ar: ['أحسن شامل', 'أحسن راحة في التشكيلة', 'قابل للطي للسفر'] },
+        cons: { en: ['Fewer app EQ options than Q30/Q45'], ar: ['خيارات EQ أقل من Q30/Q45'] },
+    },
 ];

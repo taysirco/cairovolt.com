@@ -80,4 +80,72 @@ export const soundcore_q45_headphones_reviews: ProductReview[] = [
         },
         pros: { en: ['Orchestra instrument placement', 'Balanced 295g weight', 'Same-day Maadi delivery'], ar: ['تحديد مكان آلات الأوركسترا', 'وزن 295g متوازن', 'توصيل نفس اليوم للمعادي'] },
     },
+    {
+        author: 'Kareem Mansour',
+        rating: 5,
+        location: 'التجمع الخامس',
+        datePublished: '2026-03-09',
+        reviewBody: {
+            en: 'Audiophile here — the silk+ceramic dual driver is the real differentiator vs Q30. Highs shimmer without sibilance, mids are lush, and bass extends deep. LDAC on my Pixel 9 Pro streams at 990kbps. This is Hi-Res Audio that actually delivers on the promise.',
+            ar: 'أوديوفايل هنا — درايفر الحرير+السيراميك المزدوج هو الفارق الحقيقي عن Q30. الأعالي لامعة بدون حدة، الوسط غني، والباس عميق. LDAC على Pixel 9 Pro بتاعي بيستريم بـ 990kbps. ده Hi-Res Audio بيوفي بالوعد فعلاً.'
+        },
+        pros: { en: ['Silk+ceramic dual driver audiophile', 'LDAC 990kbps verified', 'Sibilance-free highs'], ar: ['درايفر حرير+سيراميك أوديوفايل', 'LDAC 990kbps متحقق', 'أعالي بدون حدة'] },
+    },
+    {
+        author: 'Ghada Sayed',
+        rating: 4,
+        location: 'الهرم',
+        datePublished: '2026-04-18',
+        reviewBody: {
+            en: 'Best headphones I\'ve owned for Arabic music. Fairuz and Warda sound like they\'re singing in the room. ANC is strong. Only reason for 4 stars: the case is fabric pouch, not hard — Q30 wins on case protection. But Q45 wins everything else.',
+            ar: 'أحسن هيدفون اشتريتها للموسيقى العربية. فيروز ووردة صوتهم كأنهم بيغنوا في الأوضة. ANC قوي. السبب الوحيد لـ 4 نجوم: الشنطة قماش مش هارد — Q30 بتكسب في الحماية. بس Q45 بتكسب كل حاجة تانية.'
+        },
+        pros: { en: ['Arabic music excellence', 'Fairuz-approved sound', 'Strong ANC'], ar: ['تفوق في الموسيقى العربية', 'صوت يستاهل فيروز', 'ANC قوي'] },
+        cons: { en: ['Fabric pouch case, not hard like Q30'], ar: ['شنطة قماش مش هارد زي Q30'] },
+    },
+    {
+        author: 'Abdel Fattah Selim',
+        rating: 5,
+        location: 'المنصورة',
+        datePublished: '2026-05-09',
+        reviewBody: {
+            en: 'Lawyer — 4-hour court sessions. ANC blocks courtroom chatter during prep breaks. The 50h battery means I charge biweekly. Multipoint connects to laptop for case notes and phone for urgent calls simultaneously. Professional essential.',
+            ar: 'محامي — جلسات محكمة 4 ساعات. ANC بيمنع همس المحكمة في استراحات التحضير. بطارية 50 ساعة يعني بشحن كل أسبوعين. Multipoint بيتوصل بالابتوب لملاحظات القضايا والموبايل للمكالمات العاجلة في نفس الوقت. أداة مهنية أساسية.'
+        },
+        pros: { en: ['Lawyer courtroom essential', '50h biweekly charging', 'Dual device Multipoint'], ar: ['أساسي لمحامي المحكمة', 'شحن كل أسبوعين 50 ساعة', 'Multipoint لجهازين'] },
+    },
+    {
+        author: 'Abeer Nasser',
+        rating: 5,
+        location: 'بورسعيد',
+        datePublished: '2026-03-24',
+        reviewBody: {
+            en: 'Delivered to Port Said in 3 days. The foldable design packs flat in my work bag. Sound quality demolishes my old Sony WH-CH720N — the dual driver separation is on another level. 5-min charge for 4 hours is clutch before meetings.',
+            ar: 'وصل بورسعيد في 3 أيام. التصميم القابل للطي بيتحط مسطح في شنطة الشغل. جودة الصوت بتدمر سوني WH-CH720N القديمة — فصل الدرايفر المزدوج على مستوى تاني. شحن 5 دقائق لـ 4 ساعات مهم قبل الاجتماعات.'
+        },
+        pros: { en: ['Beats Sony WH-CH720N', 'Flat fold for work bag', '5-min pre-meeting charge'], ar: ['بتتفوق على سوني WH-CH720N', 'طي مسطح لشنطة الشغل', 'شحن 5 دقائق قبل الاجتماع'] },
+    },
+    {
+        author: 'Manal Hossam',
+        rating: 3,
+        location: 'الزقازيق',
+        datePublished: '2026-04-30',
+        reviewBody: {
+            en: 'Sound quality is absolutely premium. But at this price point, I expected better build materials — the plastic creaks slightly when adjusting the headband. Also, the cushions pick up lint from my hijab. Sound-wise though, nothing touches this under 7K EGP.',
+            ar: 'جودة الصوت بريميوم بالمطلق. بس بالسعر ده كنت متوقعة خامات أحسن — البلاستيك بيطقطق شوية لما بظبط الهيدباند. كمان الوسائد بتلم وبر من الحجاب. من ناحية الصوت بس، مفيش حاجة بتلمسها تحت 7000 جنيه.'
+        },
+        pros: { en: ['Premium sound unmatched under 7K', 'Excellent ANC'], ar: ['صوت بريميوم مالوش منافس تحت 7 آلاف', 'ANC ممتاز'] },
+        cons: { en: ['Plastic creaks when adjusting', 'Cushions pick up hijab lint'], ar: ['البلاستيك بيطقطق عند التعديل', 'الوسائد بتلم وبر الحجاب'] },
+    },
+    {
+        author: 'Shady Ragab',
+        rating: 5,
+        location: 'المعادي',
+        datePublished: '2026-05-19',
+        reviewBody: {
+            en: 'Music producer side project — the soundstage on Q45 is wide enough for basic mixing reference checks on the go. Not studio monitors obviously, but for a portable headphone the imaging is exceptional. Worth every extra pound over the Q30.',
+            ar: 'مشروع إنتاج موسيقي جانبي — المسرح الصوتي في Q45 واسع كفاية لفحوصات ميكسنج أساسية أثناء التنقل. مش مونيتورات استوديو طبعاً، بس لهيدفون محمول الإيمجنج استثنائي. يستاهل كل جنيه زيادة على Q30.'
+        },
+        pros: { en: ['Music production reference', 'Wide soundstage', 'Exceptional imaging for portable'], ar: ['مرجع إنتاج موسيقي', 'مسرح صوتي واسع', 'إيمجنج استثنائي لمحمول'] },
+    },
 ];

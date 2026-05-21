@@ -37,7 +37,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
     useEffect(() => {
         async function fetchReviews() {
             try {
-                const response = await fetch(`/api/reviews?productSlug=${productSlug}`);
+                const response = await fetch(`/api/reviews?productSlug=${productSlug}&locale=${locale}`);
                 const data = await response.json();
                 setReviews(data.reviews || []);
                 setAggregateRating(data.aggregateRating);
@@ -48,7 +48,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
             }
         }
         fetchReviews();
-    }, [productSlug]);
+    }, [productSlug, locale]);
 
     const displayedReviews = showAll ? reviews : reviews.slice(0, 3);
 
