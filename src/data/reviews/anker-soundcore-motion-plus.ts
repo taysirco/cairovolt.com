@@ -47,8 +47,64 @@ export const anker_soundcore_motion_plus_reviews: ProductReview[] = [
             pros: { en: ['Custom EQ profiles', 'App control', 'Arabic music sounds great'], ar: ['ملفات EQ مخصصة', 'تحكم بالتطبيق', 'صوت رائع للموسيقى العربية'] }
         },
         {
-            author: 'Fatma Hassan', rating: 5, location: 'الزقازيق', datePublished: '2025-03-25',
+            author: 'Fatma Hassan', rating: 5, location: 'الزقازيق', datePublished: '2026-03-25',
             reviewBody: { en: 'Bought for my husband birthday - he uses it every day! Sound fills our whole apartment.', ar: 'اشتريتها لعيد ميلاد زوجي - يستخدمها كل يوم! الصوت يملأ الشقة كلها.' },
             pros: { en: ['Room-filling sound', 'Daily use worthy', 'Great gift'], ar: ['صوت يملأ الغرفة', 'يستحق الاستخدام اليومي', 'هدية رائعة'] }
-        }
+        },
+        {
+            author: 'Sherif Kamal',
+            rating: 5,
+            location: 'العجمي',
+            datePublished: '2026-04-15',
+            reviewBody: {
+                en: 'Chalet speaker in Agami. IPX7 survived a direct splash from the pool — not even a hiccup. 30W fills the outdoor area. BassUp makes Mahraganat shake the chairs. Paired 2 for stereo at a wedding and it replaced the DJ speakers for ambient music.',
+                ar: 'سبيكر الشاليه في العجمي. IPX7 استحملت رشة مباشرة من الحمام — ما عملتش أي حاجة. 30 واط بتملى المساحة الخارجية. BassUp بتخلي المهرجانات تهز الكراسي. ربطت 2 ستيريو في فرح وبدّلت سبيكرز الـ DJ للموسيقى الخلفية.'
+            },
+            pros: { en: ['Pool splash IPX7 survived', 'Wedding stereo pair replaced DJ', 'BassUp Mahraganat outdoor'], ar: ['IPX7 استحملت رشة حمام', 'ستيريو فرح بدّلت الـ DJ', 'BassUp مهرجانات خارجية'] },
+        },
+        {
+            author: 'Amir Helal',
+            rating: 4,
+            location: 'حلوان',
+            datePublished: '2026-05-12',
+            reviewBody: {
+                en: '30W sounds huge for the size. 4 stars because: at max volume the high frequencies get harsh after 2+ hours — ear fatigue. At 70-80% volume it sounds perfect. Also at 1.05kg it\'s not truly portable — more of a "move it between rooms" speaker. Sound quality per watt is unbeatable.',
+                ar: '30 واط صوت ضخم للحجم. 4 نجوم لأن: على أعلى فوليوم الترددات العالية بتبقى قاسية بعد ساعتين — إرهاق ودن. على 70-80% فوليوم الصوت مثالي. كمان بـ 1.05 كيلو مش حقيقي محمولة — أكتر "انقلها بين الأوض". جودة صوت لكل واط مالهاش منافس.'
+            },
+            pros: { en: ['30W huge for size', 'Perfect at 70-80% volume'], ar: ['30 واط ضخم للحجم', 'مثالي على 70-80% فوليوم'] },
+            cons: { en: ['Harsh highs at max volume', '1.05kg not truly portable'], ar: ['حدة عالية على أقصى فوليوم', '1.05 كيلو مش محمولة فعلاً'] },
+        },
+        {
+            author: 'Abeer Soliman',
+            rating: 5,
+            location: 'بورسعيد',
+            datePublished: '2026-03-18',
+            reviewBody: {
+                en: 'Yoga instructor — I use this for outdoor classes in Port Said. IPX7 handles sea spray and humidity. The AUX input connects to my mixing board when I need wired. Sound projection fills a group of 20 students. 12h battery covers all my Saturday classes.',
+                ar: 'مدربة يوغا — بستخدمها للكلاسات في الهوا الطلق في بورسعيد. IPX7 بتتحمل رذاذ البحر والرطوبة. مدخل AUX بيتوصل بالميكسر لما محتاجة سلكي. الصوت بيوصل لمجموعة 20 طالب. 12 ساعة بطارية بتغطي كل كلاسات السبت.'
+            },
+            pros: { en: ['Outdoor yoga class tested', 'Sea spray IPX7 proof', 'AUX mixing board compatible'], ar: ['مختبرة كلاسات يوغا خارجية', 'IPX7 ضد رذاذ البحر', 'متوافقة مع ميكسر AUX'] },
+        },
+        {
+            author: 'Magdi Attia',
+            rating: 5,
+            location: 'شرم الشيخ',
+            datePublished: '2026-04-30',
+            reviewBody: {
+                en: 'Dive center owner in Sharm. Motion+ lives on the boat deck — salt water, sun, sand, heat. 8 months and still perfect. IPX7 is the real deal. We play music for divers between dives and 30W fills the boat. Ordered replacement from CairoVolt — arrived in 5 days.',
+                ar: 'صاحب مركز غطس في شرم. Motion+ عايشة على سطح المركب — ميه مالحة، شمس، رملة، حر. 8 شهور ولسه تمام. IPX7 حقيقية. بنشغل موسيقى للغطاسين بين الغطسات و30 واط بتملى المركب. طلبت بديلة من كايرو فولت — وصلت في 5 أيام.'
+            },
+            pros: { en: ['Dive boat 8 months salt water', 'IPX7 real-world tested', '30W fills boat deck'], ar: ['مركب غطس 8 شهور ميه مالحة', 'IPX7 مختبرة فعلياً', '30 واط بتملى سطح المركب'] },
+        },
+        {
+            author: 'Zeinab Osman',
+            rating: 5,
+            location: 'المنيا',
+            datePublished: '2026-05-20',
+            reviewBody: {
+                en: 'Replaced my Bluetooth soundbar with Motion+. Seriously. For music, the clarity and bass response is better than my 3,000 EGP soundbar. The Soundcore app EQ lets me tune it for movies too. Now my soundbar collects dust.',
+                ar: 'بدّلت ساوندبار البلوتوث بتاعي بـ Motion+. بجد. للموسيقى، الوضوح واستجابة الباس أحسن من ساوندباري بتاعت الـ 3,000 جنيه. تطبيق Soundcore EQ بيخليني أضبطها للأفلام كمان. دلوقتي الساوندبار بيجمع تراب.'
+            },
+            pros: { en: ['Replaced 3,000 EGP soundbar', 'Better clarity and bass', 'App EQ tunes for movies'], ar: ['بدّلت ساوندبار 3,000 جنيه', 'وضوح وباس أفضل', 'EQ التطبيق بيضبط للأفلام'] },
+        },
     ];

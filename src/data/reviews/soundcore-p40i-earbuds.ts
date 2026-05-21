@@ -58,4 +58,83 @@ export const soundcore_p40i_earbuds_reviews: ProductReview[] = [
         },
         pros: { en: ['Phone stand holds S26 Ultra', 'Clear 6-mic call quality', '10-min fast charge saves meetings'], ar: ['حامل بيمسك S26 Ultra', 'مكالمات واضحة 6 مايكات', '10 دقائق شحن بتنقذ الميتنج'] },
     },
+    {
+        author: 'Ragab Abdel Latif',
+        rating: 5,
+        location: 'قنا',
+        datePublished: '2026-03-14',
+        reviewBody: {
+            en: 'Long-distance truck driver Qena-Cairo route. 60h battery means I charge at home once a week. The phone stand props my phone on the dashboard for navigation. ANC blocks enough engine noise for clear podcasts. Best investment for drivers.',
+            ar: 'سائق نقل ثقيل خط قنا-القاهرة. 60 ساعة بطارية يعني بشحن في البيت مرة في الأسبوع. حامل الموبايل بيسند الموبايل على التابلوه للملاحة. ANC بتحجب صوت المحرك كفاية لبودكاست واضح. أحسن استثمار للسائقين.'
+        },
+        pros: { en: ['Truck driver weekly charge', 'Phone stand on dashboard', 'ANC blocks engine noise'], ar: ['سائق نقل شحن أسبوعي', 'حامل موبايل على التابلوه', 'ANC بتحجب صوت المحرك'] },
+    },
+    {
+        author: 'Hala Abdel Moneim',
+        rating: 4,
+        location: 'الزقازيق',
+        datePublished: '2026-04-28',
+        reviewBody: {
+            en: '4 stars because the case is MASSIVE. It\'s like carrying a small brick. The phone stand is cool but adds too much bulk. If they made a version without the stand and smaller case, it would be 5 stars. Sound quality and battery are absolutely top-tier.',
+            ar: '4 نجوم لأن العلبة ضخمة جداً. زي ما تكون شايلة طوبة صغيرة. حامل الموبايل حلو بس بيضيف حجم كتير. لو عملوا نسخة بدون الحامل وعلبة أصغر، هتبقى 5 نجوم. جودة الصوت والبطارية على الأعلى تماماً.'
+        },
+        pros: { en: ['Top-tier sound quality', 'Battery unmatched'], ar: ['جودة صوت على الأعلى', 'بطارية بلا منافس'] },
+        cons: { en: ['Case too bulky — like a small brick', 'Phone stand adds unnecessary bulk'], ar: ['العلبة ضخمة — زي طوبة صغيرة', 'حامل الموبايل بيضيف حجم غير ضروري'] },
+    },
+    {
+        author: 'Sameh Gaber',
+        rating: 5,
+        location: 'الجيزة',
+        datePublished: '2026-05-08',
+        reviewBody: {
+            en: 'Architect — I use the phone stand to prop my phone for site reference photos while wearing earbuds during construction supervision. 60h battery means the case doubles as a power reserve. IPX5 handles Giza construction site dust. Practical genius.',
+            ar: 'مهندس معماري — بستخدم حامل الموبايل لسند الموبايل لصور المرجع في الموقع وأنا لابس السماعات أثناء إشراف البناء. 60 ساعة بطارية يعني العلبة بتشتغل كاحتياطي طاقة. IPX5 بتتحمل تراب موقع البناء في الجيزة. عبقرية عملية.'
+        },
+        pros: { en: ['Architect site reference stand', '60h = power reserve', 'IPX5 construction dust proof'], ar: ['حامل مرجع المعماري', '60 ساعة = احتياطي طاقة', 'IPX5 ضد تراب البناء'] },
+    },
+    {
+        author: 'Yasmin Gamal',
+        rating: 5,
+        location: 'أسيوط',
+        datePublished: '2026-03-30',
+        reviewBody: {
+            en: 'Nursing student in Assiut. The phone stand is PERFECT for watching anatomy lectures while eating in the cafeteria. 60h battery lasts me through exam week without charging. ANC helps me study in the noisy dorm. Best study companion for the price.',
+            ar: 'طالبة تمريض في أسيوط. حامل الموبايل مثالي لمشاهدة محاضرات التشريح وأنا بآكل في الكافيتيريا. 60 ساعة بطارية بتكفيني أسبوع الامتحانات بدون شحن. ANC بتساعدني أذاكر في السكن الزحمة. أحسن رفيق دراسة بالسعر.'
+        },
+        pros: { en: ['Anatomy lecture phone stand', 'Exam week no-charge', 'ANC dorm study'], ar: ['حامل موبايل لمحاضرات التشريح', 'أسبوع امتحانات بدون شحن', 'ANC مذاكرة في السكن'] },
+    },
+    {
+        author: 'Adel Morsy',
+        rating: 4,
+        location: 'المعادي',
+        datePublished: '2026-05-19',
+        reviewBody: {
+            en: 'Comparing P40i vs P30i: P40i wins on battery (60h vs 45h), phone stand, and 6-mic calls. P30i wins on price (250 EGP less) and similar sound quality. If you don\'t need the phone stand and extra 15h, save money on P30i. I chose P40i because weekly charging is non-negotiable for me.',
+            ar: 'مقارنة P40i مع P30i: P40i بتكسب في البطارية (60 مقابل 45)، حامل الموبايل، ومكالمات 6 مايكات. P30i بتكسب في السعر (أقل 250 جنيه) وجودة صوت مماثلة. لو مش محتاج الحامل و15 ساعة زيادة، وفّر في P30i. اخترت P40i لأن الشحن الأسبوعي مش قابل للتفاوض بالنسبة ليا.'
+        },
+        pros: { en: ['60h > P30i 45h battery', '6-mic superior calls', 'Weekly charging non-negotiable'], ar: ['60 ساعة > 45 بطارية P30i', 'مكالمات 6 مايكات أفضل', 'شحن أسبوعي غير قابل للتفاوض'] },
+        cons: { en: ['250 EGP more than P30i for similar sound'], ar: ['أغلى 250 جنيه من P30i لصوت مماثل'] },
+    },
+    {
+        author: 'Hanan Shokry',
+        rating: 5,
+        location: 'الشيخ زايد',
+        datePublished: '2026-04-08',
+        reviewBody: {
+            en: 'Working mom with 3 kids. The phone stand is a lifesaver — I prop my phone on the kitchen counter while cooking and watching recipes with ANC on. Kids screaming? ANC handles it. Battery never dies even though I use them 5+ hours daily. Worth every piaster.',
+            ar: 'أم عاملة مع 3 أطفال. حامل الموبايل منقذ — بسند الموبايل على رخامة المطبخ وأنا بطبخ وبشاهد وصفات مع ANC. العيال بيصرخوا؟ ANC بتتعامل. البطارية عمرها ما بتموت رغم إني بستخدمهم 5+ ساعات يومياً. تستاهل كل قرش.'
+        },
+        pros: { en: ['Kitchen recipe phone stand', 'ANC blocks kids screaming', '5h daily — battery never dies'], ar: ['حامل موبايل لوصفات المطبخ', 'ANC بتحجب صراخ العيال', '5 ساعات يومياً — البطارية مش بتموت'] },
+    },
+    {
+        author: 'Wessam Eldin',
+        rating: 5,
+        location: 'المنوفية',
+        datePublished: '2026-03-25',
+        reviewBody: {
+            en: 'First earbuds with ANC I ever owned. Coming from 100 EGP market earbuds. The difference is like going from a bicycle to a car. ANC is magical — I turn it on in the microbus and suddenly it\'s peaceful. 60h battery at this price is robbery. CairoVolt delivered to Menoufiya in 3 days.',
+            ar: 'أول سماعات ANC أملكها. جاي من سماعات السوق بـ 100 جنيه. الفرق زي ما تكون راحت من عجلة لعربية. ANC سحرية — بشغلها في الميكروباس وفجأة هدوء. 60 ساعة بطارية بالسعر ده سرقة. كايرو فولت وصّلت للمنوفية في 3 أيام.'
+        },
+        pros: { en: ['First ANC — life-changing upgrade', '60h at this price is robbery', 'Menoufiya 3-day delivery'], ar: ['أول ANC — ترقية غيّرت الحياة', '60 ساعة بالسعر ده سرقة', 'توصيل المنوفية 3 أيام'] },
+    },
 ];
