@@ -14,103 +14,103 @@ export const soundcore_c40i_earbuds = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-main-view-cairovolt.webp", alt: "Soundcore C40i A3966 main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 features angle - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore C40i A3966 specifications detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 retail box authentic - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore C40i A3966 in use lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 size comparison - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore C40i A3966 accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 close up detail - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_1", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-main-view-cairovolt.webp", alt: "Soundcore C40i A3966 open-ear clip-on titanium flex - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 كليب تيتانيوم مرن - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore C40i A3966 12x17mm racetrack titanium driver - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 علبة اصلية - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore C40i A3966 open-ear flex lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore C40i A3966 ear grips accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/soundcore-c40i-earbuds/soundcore-c40i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور C40i A3966 تفاصيل قرب تيتانيوم - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
     relatedProducts: ["soundcore-c30i-earbuds", "soundcore-p25i-earbuds", "soundcore-p20i-earbuds", "anker-soundcore-r50i", "anker-soundcore-k20i", "anker-a2741-charger-30w"],
 
     translations: {
         en: {
-            name: "Soundcore C40i | Dual Driver | 45dB ANC | 50h | LDAC | BT 5.4 | 18-Month Warranty",
-            shortDescription: "Original Anker Soundcore — 18-month CairoVolt warranty",
+            name: "Soundcore C40i | Open-Ear Clip-On | Titanium Flex | 12×17mm | 21h | BT 5.4 | 18-Month Warranty",
+            shortDescription: "Premium open-ear titanium flex clip-on | 12×17mm racetrack driver | Physical buttons | AI calls | BT 5.4 multipoint | IPX4 — 18-month CairoVolt warranty",
             description: `<div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-3">10mm + BA Dual Driver Architecture: Sound Engineering at Scale</h2>
-        <p class="text-gray-700 leading-relaxed">The 10mm + BA Dual driver unit uses a composite diaphragm that separates low and high frequencies at the material level. The outer ring handles bass response while the inner dome manages vocals and treble. This split-zone approach eliminates the muddy overlap common in single-material drivers used by budget competitors.</p>
-        <p class="text-gray-700 leading-relaxed">Bluetooth 5.4 delivers stable connection up to 15 meters with multipoint support for simultaneous phone and laptop pairing. The 50h total battery converts to roughly two weeks of daily commuting before the USB-C case needs charging.</p>
+        <h2 class="text-2xl font-bold mb-3">Titanium Flex Clip-On: Premium Open-Ear Comfort</h2>
+        <p class="text-gray-700 leading-relaxed">C40i uses a flexible titanium wire with soft TPU that naturally molds to your earlobe shape. Nothing enters the ear canal — zero pressure, zero ear fatigue even after 6-hour work sessions. The flex clip adjusts to different earlobe thicknesses without needing size swaps. Additional ear grips included for extra security during exercise.</p>
+        <p class="text-gray-700 leading-relaxed">The 12mm×17mm racetrack-shaped titanium driver delivers clear mids and vocals with a wide soundstage. Physical button controls eliminate the accidental-tap problem that plagued the C30i's touch controls. Soundcore app provides full EQ customization.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">Adaptive ANC: Silence When You Need It</h2>
-        <p class="text-gray-700 leading-relaxed">The 45dB active noise cancellation adapts to your environment in real-time. On a Cairo microbus, it targets the low-frequency engine rumble. In a café, it handles the mid-range chatter. The transparency mode lets ambient sound through with a single tap — critical for crossing streets safely.</p>
-        <p class="text-gray-700 leading-relaxed">The hybrid ANC system uses both feedforward and feedback microphones, creating a wider noise-cancelling bandwidth than single-mic designs. Combined with the silicone ear tip seal, external noise reduction approaches real-world quiet.</p>
+        <h2 class="text-2xl font-bold mb-3">Awareness Audio: The Safety-First Approach</h2>
+        <p class="text-gray-700 leading-relaxed">No ANC — intentionally. Open-ear design means you hear traffic while running, colleagues while working, and Metro announcements while commuting. AI noise reduction improves call quality by filtering background hum — effective for WFH Zoom calls, limited in windy conditions.</p>
+        <p class="text-gray-700 leading-relaxed">BT 5.4 multipoint connects to phone + laptop simultaneously. 7h per charge with 21h total (10-min fast charge = 2h). IPX4 handles sweat and light rain for outdoor exercise.</p>
     </section>
 </div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">Counterfeit Soundcore earbuds are widespread on Egyptian social media at suspiciously low prices. They use recycled drivers that distort and lack genuine Bluetooth 5.4 chipsets.</p>
+    <p class="text-gray-700 leading-relaxed mb-3">C40i is an OPEN-EAR clip-on — it does NOT go inside the ear canal and has NO ANC and NO LDAC. If you want in-ear buds with ANC, buy P30i, P40i, or Liberty 4 NC instead.</p>
     <p class="font-bold mb-2">How to verify authenticity:</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>Model:</strong> A3966 engraved inside the case</li>
-        <li><strong>Logo:</strong> Soundcore logo laser-etched, not painted</li>
-        <li><strong>Pairing:</strong> Shows "Soundcore C40i" in Soundcore app</li>
-        <li><strong>Packaging:</strong> Sealed box with holographic Anker authentication</li>
-        <li><strong>Price:</strong> Below 1525 EGP is suspicious</li>
+        <li><strong>Model:</strong> A3966 engraved on the case</li>
+        <li><strong>Design:</strong> Genuine titanium wire flexes smoothly — counterfeits use rigid plastic</li>
+        <li><strong>Controls:</strong> Physical buttons — not touch controls</li>
+        <li><strong>App:</strong> Shows "Soundcore C40i" in Soundcore app</li>
+        <li><strong>Price:</strong> Below 1,525 EGP is suspicious</li>
     </ul>
 </div>`,
-            features: ["🎧 10mm + BA Dual", "🔋 50h", "🔒 18-Month Warranty"],
-            metaTitle: "Soundcore C40i ⚡ 1% OFF | CairoVolt Egypt",
-            metaDesc: "Buy Soundcore C40i in Egypt. ✓ 18-month warranty ✓ COD ✓ Same-day Cairo delivery. Original Anker Soundcore.",
+            features: ["Open-Ear Clip-On", "Titanium Flex Wire + TPU", "12×17mm Racetrack Titanium", "No ANC (Hear Environment)", "Physical Button Controls", "7h/21h Battery", "10min = 2h Fast Charge", "BT 5.4 Multipoint", "AI Call Noise Reduction", "IPX4", "Soundcore App EQ", "18-Month Warranty"],
+            metaTitle: "Soundcore C40i — Premium Open-Ear Titanium Flex Clip-On | Egypt | CairoVolt",
+            metaDesc: "Buy Soundcore C40i in Egypt — 3,050 EGP. Premium open-ear titanium flex clip-on, 12×17mm racetrack, physical buttons, BT 5.4, AI calls, IPX4. 18-month warranty. COD.",
             faqs: [
-                    { question: "How effective is the ANC on Soundcore C40i in Cairo traffic?", answer: "The 45dB ANC targets engine and road noise frequencies effectively. Combined with passive seal, it significantly reduces Cairo microbus and Metro noise." },
-                    { question: "Does Soundcore C40i support multipoint Bluetooth?", answer: "Yes — Bluetooth 5.4 with multipoint connects to two devices simultaneously. Auto-switches audio between phone and laptop." },
-                    { question: "Can I use Soundcore C40i for gym workouts in Egyptian summer?", answer: "IPX5 rated. Handles sweat, rain, and AC-to-outdoor condensation that Cairo summers produce." },
-                    { question: "How does Soundcore C40i compare to AirPods at this price?", answer: "At 3050 EGP vs 8,000+ for AirPods: 50h battery, 10mm + BA Dual drivers, IPX5, and full app EQ. 90% of the experience at a fraction of the price." },
-                    { question: "What's in the Soundcore C40i box?", answer: "Earbuds, charging case, USB-C cable, 3 sizes silicone ear tips (S/M/L), and user manual. Everything to start immediately." },
+                    { question: "C40i vs C30i — what's the difference?", answer: "Same driver and sound. C40i: titanium flex clip (more comfortable), physical buttons, BT 5.4, 21h, 3,050 EGP. C30i: hard-shell clip, touch controls, BT 5.3, 30h, 2,350 EGP. C40i for comfort. C30i for battery and value." },
+                    { question: "Does C40i have ANC?", answer: "No — C40i is open-ear with no ANC. This is by design for safety (hear traffic while running) and productivity (hear colleagues at work). For ANC: P30i (42dB, 1,200) or Liberty 4 NC (2,999)." },
+                    { question: "Does C40i support LDAC?", answer: "No — C40i uses AAC and SBC codecs only. For LDAC: Liberty 4 NC (2,999 EGP) or Liberty 5 (2,499 EGP)." },
+                    { question: "Are the physical buttons better than C30i touch controls?", answer: "Yes — physical buttons eliminate accidental taps/pauses. This was a top complaint about C30i. C40i's buttons are precise and provide tactile feedback." },
+                    { question: "Is the bass good on C40i?", answer: "Honest: bass is thin like all open-ear earbuds. Mids and vocals are excellent for podcasts and calls. If bass matters: buy in-ear buds (P30i, P40i, Liberty series)." },
             ]
         },
         ar: {
-            name: "سماعة ساوندكور C40i | درايفر مزدوج | عزل 45dB | 50 ساعة | LDAC | ضمان 18 شهر",
-            shortDescription: "أصلي من أنكر ساوندكور — ضمان كايرو فولت 18 شهر",
+            name: "سماعة ساوندكور C40i | كليب أذن مفتوح | تيتانيوم مرن | 12×17mm | 21 ساعة | BT 5.4 | ضمان 18 شهر",
+            shortDescription: "كليب أذن مفتوح بريميوم تيتانيوم مرن | 12×17mm racetrack | أزرار فيزيائية | مكالمات AI | BT 5.4 multipoint | IPX4 — ضمان كايرو فولت 18 شهر",
             description: `<div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-3">هندسة درايفر 10mm + BA Dual: صوت مُصمَّم بدقة</h2>
-        <p class="text-gray-700 leading-relaxed">وحدة درايفر 10mm + BA Dual بتستخدم غشاء مركّب بيفصل الترددات المنخفضة عن العالية على مستوى المادة نفسها. الحلقة الخارجية مسؤولة عن الباس والداخلية عن الأصوات البشرية والتريبل. التقسيم ده بيلغي التداخل اللي في الدرايفرات الرخيصة.</p>
-        <p class="text-gray-700 leading-relaxed">بلوتوث 5.4 بيوفر اتصال مستقر لحد 15 متر مع multipoint للموبايل واللاب مع بعض. 50h بطارية إجمالي يعني حوالي أسبوعين مواصلات قبل ما تشحن علبة الـ USB-C.</p>
+        <h2 class="text-2xl font-bold mb-3">كليب تيتانيوم مرن: راحة أذن مفتوحة بريميوم</h2>
+        <p class="text-gray-700 leading-relaxed">C40i بتستخدم سلك تيتانيوم مرن مع TPU ناعم بيتشكّل بشكل طبيعي على شحمة ودنك. مفيش حاجة بتدخل قناة الودان — صفر ضغط، صفر إرهاق حتى بعد 6 ساعات شغل. الكليب المرن بيتكيف مع سماكات الشحمة المختلفة بدون ما تغيّر المقاس. قبضات أذن إضافية متضمنة لتثبيت أكتر في التمارين.</p>
+        <p class="text-gray-700 leading-relaxed">درايفر 12mm×17mm بشكل racetrack مع تيتانيوم بيقدم ميد وأصوات واضحة مع مسرح صوتي واسع. أزرار فيزيائية بتلغي مشكلة الضغط بالغلط اللي كانت في أزرار لمس C30i. تطبيق Soundcore بيوفر تخصيص EQ كامل.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">عزل ضوضاء تكيّفي: سكوت لما تحتاجه</h2>
-        <p class="text-gray-700 leading-relaxed">عزل 45dB نشط بيتكيف مع بيئتك لحظياً. في الميكروباص بيستهدف صوت الموتور. في الكافيه بيتعامل مع الكلام. وضع الشفافية بيمرّر الأصوات بضغطة — مهم وانت بتعدي الشارع.</p>
-        <p class="text-gray-700 leading-relaxed">نظام ANC هجين بيستخدم مايكين — feedforward و feedback — بيخلي نطاق إلغاء الضوضاء أعرض من الأنظمة بمايك واحد. مع سيل أطراف السيليكون، العزل الحقيقي بيوصل لمستوى هدوء ملموس.</p>
+        <h2 class="text-2xl font-bold mb-3">صوت بوعي: منهج الأمان أولاً</h2>
+        <p class="text-gray-700 leading-relaxed">بدون ANC — متعمّد. تصميم الأذن المفتوحة يعني بتسمع المرور وانت بتجري، الزملاء وانت بتشتغل، وإعلانات المترو وانت في المواصلات. عزل AI للضوضاء بيحسّن جودة المكالمات بتصفية الهمهمة الخلفية — فعّال لمكالمات Zoom من البيت، محدود في الهوا.</p>
+        <p class="text-gray-700 leading-relaxed">BT 5.4 multipoint بيتصل بالموبايل + اللاب مع بعض. 7 ساعات لكل شحنة مع 21 إجمالي (10 دقائق شحن سريع = ساعتين). IPX4 بتستحمل العرق والمطر الخفيف للتمارين الخارجية.</p>
     </section>
 </div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">سماعات ساوندكور مقلدة منتشرة على السوشيال ميديا المصري بأسعار مشبوهة. بتستخدم درايفرات مُعاد تدويرها بتشوّه وبتفتقد شريحة بلوتوث 5.4 الأصلية.</p>
+    <p class="text-gray-700 leading-relaxed mb-3">C40i كليب أذن مفتوح — مش بتدخل جوه الودان ومفيهاش ANC ولا LDAC. لو عايز سماعة داخلية بـ ANC، اشتري P30i أو P40i أو Liberty 4 NC.</p>
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>الموديل:</strong> A3966 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
-        <li><strong>السعر:</strong> أقل من 1525 جنيه = مشكوك فيه</li>
+        <li><strong>الموديل:</strong> A3966 محفور على العلبة</li>
+        <li><strong>التصميم:</strong> سلك التيتانيوم الأصلي بينثني بسلاسة — المقلدة بتستخدم بلاستيك صلب</li>
+        <li><strong>الأزرار:</strong> أزرار فيزيائية — مش لمس</li>
+        <li><strong>التطبيق:</strong> بتظهر باسم "Soundcore C40i" في التطبيق</li>
+        <li><strong>السعر:</strong> أقل من 1,525 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["🎧 10mm + BA Dual", "🔋 50h", "🔒 ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور C40i ⚡ خصم 1% | كايرو فولت مصر",
-            metaDesc: "اشتري سماعة ساوندكور C40i في مصر. ✓ ضمان 18 شهر ✓ الدفع عند الاستلام ✓ توصيل سريع. أصلي من أنكر ساوندكور.",
+            features: ["كليب أذن مفتوح", "سلك تيتانيوم مرن + TPU", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "أزرار فيزيائية", "7/21 ساعة بطارية", "10 دقائق = ساعتين", "BT 5.4 Multipoint", "عزل ضوضاء AI للمكالمات", "IPX4", "تطبيق Soundcore EQ", "ضمان 18 شهر"],
+            metaTitle: "سماعة ساوندكور C40i — كليب أذن مفتوح تيتانيوم مرن بريميوم | مصر | كايرو فولت",
+            metaDesc: "اشتري سماعة ساوندكور C40i في مصر — 3,050 جنيه. كليب أذن مفتوح تيتانيوم مرن بريميوم، 12×17mm racetrack، أزرار فيزيائية، BT 5.4، مكالمات AI، IPX4. ضمان 18 شهر.",
             faqs: [
-                    { question: "الـ ANC في سماعة ساوندكور C40i بيعزل كويس في مواصلات القاهرة؟", answer: "عزل 45dB بيستهدف ترددات المحركات والطريق. مع السيل السلبي، بيقلل ضوضاء الميكروباص والمترو بشكل ملموس." },
-                    { question: "سماعة ساوندكور C40i بتتوصل بجهازين في نفس الوقت؟", answer: "أيوه — بلوتوث 5.4 مع multipoint بتتصل بالموبايل واللاب مع بعض وبتبدّل أوتوماتيك." },
-                    { question: "أقدر أستخدم سماعة ساوندكور C40i في الجيم في صيف مصر؟", answer: "حماية IPX5. بتستحمل العرق والمطر وتكثف الانتقال من التكييف للحر." },
-                    { question: "سماعة ساوندكور C40i أحسن من الإيربودز بالسعر ده؟", answer: "بـ 3050 جنيه مقابل 8,000+ للإيربودز: 50h بطارية، درايفر 10mm + BA Dual, IPX5, وتطبيق EQ. 90% من التجربة بجزء صغير من السعر." },
-                    { question: "إيه اللي في علبة سماعة ساوندكور C40i؟", answer: "السماعات، علبة الشحن، كابل USB-C، 3 مقاسات أطراف سيليكون (S/M/L)، ودليل استخدام." },
+                    { question: "C40i ولا C30i — إيه الفرق؟", answer: "نفس الدرايفر والصوت. C40i: كليب تيتانيوم مرن (أكثر راحة)، أزرار فيزيائية، BT 5.4، 21 ساعة، 3,050 جنيه. C30i: كليب صلب، لمس، BT 5.3، 30 ساعة، 2,350 جنيه. C40i للراحة. C30i للبطارية والتوفير." },
+                    { question: "C40i فيها ANC؟", answer: "لأ — C40i أذن مفتوحة بدون ANC. ده بالتصميم للأمان (اسمع المرور وانت بتجري) والإنتاجية (اسمع الزملاء في الشغل). لو عايز ANC: P30i (42dB، 1,200) أو Liberty 4 NC (2,999)." },
+                    { question: "C40i فيها LDAC؟", answer: "لأ — C40i بتدعم AAC وSBC بس. لو عايز LDAC: Liberty 4 NC (2,999 جنيه) أو Liberty 5 (2,499 جنيه)." },
+                    { question: "الأزرار الفيزيائية أحسن من لمس C30i؟", answer: "أيوه — أزرار فيزيائية بتلغي الضغط/الإيقاف بالغلط. ده كان من أكبر شكاوي C30i. أزرار C40i دقيقة وبتدي إحساس ملمسي." },
+                    { question: "الباس كويس في C40i؟", answer: "بصراحة: الباس ضعيف زي كل سماعات الأذن المفتوحة. الميد والأصوات ممتازة للبودكاست والمكالمات. لو الباس مهم: اشتري سماعات داخلية (P30i، P40i، سلسلة Liberty)." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore c40i, anker c40i, c40i earbuds, c40i vs c30i, soundcore c40i egypt, c40i price, ساوندكور c40i, سماعة c40i, سعر c40i مصر, مقارنة c40i و c30i", mainTerm: "soundcore c40i" },
+    meta: { keywords: "soundcore c40i, anker c40i, c40i open ear, c40i titanium flex, c40i clip on, soundcore c40i egypt, c40i vs c30i, ساوندكور c40i, كليب أذن مفتوح تيتانيوم, سعر c40i مصر, مقارنة c40i و c30i", mainTerm: "soundcore c40i" },
 
     expertOpinion: {
-        en: "Soundcore C40i delivers 10mm + BA Dual sound with 45dB ANC at 3050 EGP. At this price point, no competitor in the Egyptian market matches its feature set.",
-        ar: "سماعة ساوندكور C40i بتوفر صوت 10mm + BA Dual مع عزل 45dB بـ 3050 جنيه. بالسعر ده، مفيش منافس في السوق المصري بيقدم نفس المميزات."
+        en: "C40i is the premium open-ear clip-on — titanium flex wire is genuinely more comfortable than C30i's hard shell for long sessions. Physical buttons solve the touch-control frustration. Same sound quality (12×17mm racetrack). But C30i has 42% more battery (30h vs 21h) for 23% less money. Choose C40i for comfort. C30i for value.",
+        ar: "C40i هي الكليب المفتوح البريميوم — سلك التيتانيوم المرن فعلاً أكثر راحة من كليب C30i الصلب للجلسات الطويلة. أزرار فيزيائية بتحل إحباط اللمس. نفس جودة الصوت (12×17mm racetrack). بس C30i عندها بطارية أكتر بـ 42% (30 مقابل 21 ساعة) بأقل 23%. اختار C40i للراحة. C30i للتوفير."
     }
 };

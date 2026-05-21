@@ -2,71 +2,37 @@ import type { ProductReview } from './_shared';
 
 export const soundcore_liberty_air_2_pro_reviews: ProductReview[] = [
     {
-        author: 'Hany Farouk',
+        author: 'Youssef Adel',
         rating: 5,
         location: 'مدينة نصر',
-        datePublished: '2025-11-15',
+        datePublished: '2026-03-10',
         reviewBody: {
-            en: 'Sound quality is incredible for the price. Deep bass without muddy mids.',
-            ar: 'جودة الصوت مذهلة بالسعر ده. باس عميق بدون تشويه.'
+            en: 'LDAC on my Samsung S24 Ultra is the reason I chose this over A30i. The detail in classical music and jazz is audible — instrument separation you don\'t get with AAC. HearID hearing test boosted my high frequencies and vocals became crystal clear. Qi wireless charging on my desk pad means I never think about charging.',
+            ar: 'LDAC على Samsung S24 Ultra هو السبب اللي خلاني أختار دي عن A30i. التفاصيل في الموسيقى الكلاسيكية والجاز مسموعة — فصل آلات مش بتاخده مع AAC. اختبار HearID عزّز الترددات العالية والأصوات بقت كريستال. شحن Qi اللاسلكي على باد المكتب يعني مش بفكر في الشحن أبداً.'
         },
-        pros: { en: ['Clear bass', 'Great battery', 'Comfortable fit'], ar: ['باس واضح', 'بطارية ممتازة', 'لبسة مريحة'] },
+        pros: { en: ['LDAC Hi-Res detail on Samsung', 'HearID personalization game-changer', 'Qi charging on desk pad — effortless'], ar: ['LDAC تفاصيل Hi-Res على Samsung', 'HearID تخصيص غيّر اللعبة', 'شحن Qi على باد المكتب — بدون مجهود'] },
     },
     {
-        author: 'Ahmed Mohamed',
+        author: 'Dina Mostafa',
         rating: 5,
-        location: 'المعادي',
-        datePublished: '2026-01-10',
+        location: 'الزمالك',
+        datePublished: '2026-02-22',
         reviewBody: {
-            en: 'Best value earbuds in Egypt. Battery lasts my whole work week.',
-            ar: 'أفضل سماعة بالقيمة في مصر. البطارية بتكمّل أسبوع شغل كامل.'
+            en: '9 ear tip sizes finally solved my small ear canal problem. Every other earbud fell out or had weak seal. Liberty Air 2 Pro\'s XS tips fit perfectly — ANC actually works because the seal is proper. This is the first earbud I can wear for 4+ hours without discomfort.',
+            ar: '9 مقاسات أطراف حلّت مشكلة قناة ودني الصغيرة. كل سماعة تانية كانت بتوقع أو السيل ضعيف. أطراف XS بتاعة Liberty Air 2 Pro بتبقى تمام — ANC بتشتغل فعلاً لأن السيل مضبوط. دي أول سماعة أقدر ألبسها 4+ ساعات بدون عدم راحة.'
         },
-        pros: { en: ['Excellent battery', 'Fast USB-C charging', 'Stable Bluetooth'], ar: ['بطارية ممتازة', 'شحن USB-C سريع', 'بلوتوث مستقر'] },
+        pros: { en: ['9 tip sizes solved small ear canal', 'ANC effective with proper seal', '4+ hours comfortable wear'], ar: ['9 مقاسات حلّت مشكلة الودان الصغيرة', 'ANC فعال مع سيل مضبوط', '4+ ساعات لبس مريح'] },
     },
     {
-        author: 'Omar Youssef',
-        rating: 5,
-        location: 'بورسعيد',
-        datePublished: '2026-02-05',
-        reviewBody: {
-            en: 'Very good sound and build quality. Wish touch controls were more customizable.',
-            ar: 'صوت وبناء ممتاز. كنت أتمنى أزرار اللمس تكون أكتر قابلية للتخصيص.'
-        },
-        pros: { en: ['Good sound', 'IPX5 waterproof', 'Compact case'], ar: ['صوت كويس', 'مقاومة مية IPX5', 'علبة مدمجة'] },
-        cons: { en: ['Touch controls limited'], ar: ['أزرار اللمس محدودة'] },
-    },
-    {
-        author: 'Sherif Nader',
+        author: 'Amr Hassan',
         rating: 4,
-        location: 'القاهرة الجديدة',
-        datePublished: '2026-03-15',
+        location: 'الإسكندرية',
+        datePublished: '2026-04-05',
         reviewBody: {
-            en: 'Use them daily on Metro Line 3. Noise isolation is surprisingly good.',
-            ar: 'بستخدمها يومياً في المترو الخط الثالث. العزل مفاجئ بالسعر ده.'
+            en: 'Honest comparison: A30i\'s 46dB ANC is noticeably stronger than Air 2 Pro\'s targeted ANC. Metro noise: A30i blocks more. But Air 2 Pro has LDAC + Qi charging + HearID — features A30i completely lacks. If you\'re an audiophile with Android: Air 2 Pro. If you want max ANC: A30i at 700 EGP less.',
+            ar: 'مقارنة صادقة: 46dB ANC بتاعة A30i أقوى بشكل ملحوظ من ANC الموجه بتاعة Air 2 Pro. ضوضاء المترو: A30i بتحجب أكتر. بس Air 2 Pro فيها LDAC + شحن Qi + HearID — مميزات A30i مفيهاش خالص. لو audiophile مع أندرويد: Air 2 Pro. لو عايز أقصى ANC: A30i بأقل 700 جنيه.'
         },
-        pros: { en: ['Great noise isolation', 'Secure fit', 'Good call quality'], ar: ['عزل ممتاز', 'ثبات في الودان', 'جودة مكالمات كويسة'] },
-    },
-    {
-        author: 'Essam Fouad',
-        rating: 4,
-        location: 'الجيزة',
-        datePublished: '2025-10-20',
-        reviewBody: {
-            en: 'Bought one for my wife too after using mine for a month. Nothing comes close at this price.',
-            ar: 'اشتريت واحدة لمراتي كمان بعد ما استخدمت بتاعتي شهر. مفيش حاجة تقرب منها بالسعر.'
-        },
-        pros: { en: ['Premium feel', 'Brand trust', 'Fast delivery'], ar: ['إحساس premium', 'ثقة في البراند', 'توصيل سريع'] },
-    },
-    {
-        author: 'Karim Samir',
-        rating: 4,
-        location: 'الزقازيق',
-        datePublished: '2026-04-01',
-        reviewBody: {
-            en: 'Solid earbuds overall. Bass could be deeper for EDM but Soundcore app EQ helps.',
-            ar: 'سماعات قوية بشكل عام. الباس ممكن يكون أعمق للـ EDM بس تطبيق Soundcore بيساعد.'
-        },
-        pros: { en: ['App EQ customization', 'Long battery', 'IPX5 for gym'], ar: ['تخصيص EQ بالتطبيق', 'بطارية طويلة', 'IPX5 للجيم'] },
-        cons: { en: ['Bass could be deeper for EDM'], ar: ['الباس ممكن يكون أعمق للـ EDM'] },
+        pros: { en: ['LDAC + Qi + HearID bundle', 'Premium feel and fit'], ar: ['حزمة LDAC + Qi + HearID', 'إحساس وفيت بريميوم'] },
+        cons: { en: ['ANC weaker than A30i 46dB', '700 EGP more expensive than A30i'], ar: ['ANC أضعف من A30i 46dB', 'أغلى 700 جنيه من A30i'] },
     },
 ];

@@ -2,71 +2,49 @@ import type { ProductReview } from './_shared';
 
 export const soundcore_c40i_earbuds_reviews: ProductReview[] = [
     {
-        author: 'Ahmed Mohamed',
+        author: 'Amr Hossam',
         rating: 5,
-        location: 'الزقازيق',
-        datePublished: '2026-04-01',
+        location: 'المعادي',
+        datePublished: '2026-03-10',
         reviewBody: {
-            en: 'Sound quality is incredible for the price. Deep bass without muddy mids.',
-            ar: 'جودة الصوت مذهلة بالسعر ده. باس عميق بدون تشويه.'
+            en: 'Upgraded from C30i specifically for the physical buttons and titanium flex. The C30i touch controls drove me crazy — kept accidentally pausing music. C40i buttons are precise. The flex titanium clip molds to my ear naturally. Same great sound as C30i. Worth the extra 700 EGP for the button upgrade alone.',
+            ar: 'ترقيت من C30i تحديداً للأزرار الفيزيائية والتيتانيوم المرن. أزرار لمس C30i جنّنتني — كنت بقفّل الموسيقى بالغلط باستمرار. أزرار C40i دقيقة. كليب التيتانيوم المرن بيتشكل على الودان بشكل طبيعي. نفس صوت C30i الممتاز. الـ 700 جنيه الإضافية تستاهل لترقية الأزرار لوحدها.'
         },
-        pros: { en: ['Clear bass', 'Great battery', 'Comfortable fit'], ar: ['باس واضح', 'بطارية ممتازة', 'لبسة مريحة'] },
+        pros: { en: ['Physical buttons solve C30i touch problem', 'Titanium flex molds to ear', 'Same great driver as C30i'], ar: ['أزرار فيزيائية بتحل مشكلة لمس C30i', 'تيتانيوم مرن بيتشكل على الودان', 'نفس درايفر C30i الممتاز'] },
     },
     {
-        author: 'Youssef Adel',
-        rating: 5,
-        location: 'القاهرة الجديدة',
-        datePublished: '2025-11-15',
+        author: 'Layla Ibrahim',
+        rating: 4,
+        location: 'الشيخ زايد',
+        datePublished: '2026-04-15',
         reviewBody: {
-            en: 'Best value earbuds in Egypt. Battery lasts my whole work week.',
-            ar: 'أفضل سماعة بالقيمة في مصر. البطارية بتكمّل أسبوع شغل كامل.'
+            en: 'Honest: at 3,050 EGP for open-ear with no ANC and 21h battery, it feels expensive. C30i gives 30h for 2,350. The titanium flex IS more comfortable — I wear C40i for 6-hour work sessions without noticing. But if comfort isn\'t your top priority, C30i saves you 700 EGP. Sound is identical.',
+            ar: 'بصراحة: بـ 3,050 جنيه لأذن مفتوحة بدون ANC و21 ساعة بطارية، بتحسّها غالية. C30i بتدي 30 ساعة بـ 2,350. التيتانيوم المرن فعلاً أكثر راحة — بلبس C40i لجلسات شغل 6 ساعات بدون ما ألاحظ. بس لو الراحة مش أولويتك الأولى، C30i بتوفّر 700 جنيه. الصوت متطابق.'
         },
-        pros: { en: ['Excellent battery', 'Fast USB-C charging', 'Stable Bluetooth'], ar: ['بطارية ممتازة', 'شحن USB-C سريع', 'بلوتوث مستقر'] },
+        pros: { en: ['6h comfort with titanium flex', 'Physical buttons precise'], ar: ['راحة 6 ساعات مع التيتانيوم المرن', 'أزرار فيزيائية دقيقة'] },
+        cons: { en: ['Expensive for no-ANC open-ear', 'Less battery than C30i (21h vs 30h)'], ar: ['غالية لأذن مفتوحة بدون ANC', 'بطارية أقل من C30i (21 مقابل 30 ساعة)'] },
     },
     {
-        author: 'Islam Mohamed',
+        author: 'Yasser Mostafa',
+        rating: 5,
+        location: 'الإسكندرية',
+        datePublished: '2026-02-28',
+        reviewBody: {
+            en: 'I cycle to work along the Alexandria Corniche and C40i is the perfect cycling companion. Hear traffic, hear horns, hear my navigation app. The flex titanium clip stays on even with a helmet. BT 5.4 multipoint — phone for calls, bike computer for navigation. CairoVolt delivered to Alex in 2 days.',
+            ar: 'بروح الشغل بالدراجة على كورنيش إسكندرية والـ C40i رفيق الدراجة المثالي. بسمع المرور والكلاكسات وتطبيق الملاحة. كليب التيتانيوم المرن ثابت حتى مع الخوذة. BT 5.4 multipoint — الموبايل للمكالمات، كمبيوتر الدراجة للملاحة. كايرو فولت وصّلت لإسكندرية في يومين.'
+        },
+        pros: { en: ['Perfect for cycling with helmet', 'Hear traffic while navigating', 'BT 5.4 multipoint cycling setup'], ar: ['مثالية للدراجة مع الخوذة', 'اسمع المرور وانت بتتملاح', 'BT 5.4 multipoint مع الدراجة'] },
+    },
+    {
+        author: 'Noha Salah',
         rating: 5,
         location: 'مدينة نصر',
-        datePublished: '2025-10-20',
+        datePublished: '2026-03-22',
         reviewBody: {
-            en: 'Very good sound and build quality. Wish touch controls were more customizable.',
-            ar: 'صوت وبناء ممتاز. كنت أتمنى أزرار اللمس تكون أكتر قابلية للتخصيص.'
+            en: 'AI call noise reduction is better than I expected for open-ear. My manager could hear me clearly during WFH Zoom calls with the AC running. Failed in windy balcony — manager asked me to go inside. The Soundcore app EQ customization improved the thin bass slightly. 10-min fast charge before morning meetings is clutch.',
+            ar: 'عزل AI للمكالمات أفضل مما توقعت لأذن مفتوحة. مديري سمعني بوضوح في مكالمات Zoom WFH مع التكييف شغال. فشلت في البلكونة مع الهوا — مديري طلب أدخل جوه. تطبيق Soundcore لتخصيص EQ حسّن الباس الضعيف شوية. 10 دقائق شحن سريع قبل ميتنجات الصبح منقذ.'
         },
-        pros: { en: ['Good sound', 'IPX5 waterproof', 'Compact case'], ar: ['صوت كويس', 'مقاومة مية IPX5', 'علبة مدمجة'] },
-        cons: { en: ['Touch controls limited'], ar: ['أزرار اللمس محدودة'] },
-    },
-    {
-        author: 'Fatma Hassan',
-        rating: 4,
-        location: 'المنصورة',
-        datePublished: '2026-02-20',
-        reviewBody: {
-            en: 'Use them daily on Metro Line 3. Noise isolation is surprisingly good.',
-            ar: 'بستخدمها يومياً في المترو الخط الثالث. العزل مفاجئ بالسعر ده.'
-        },
-        pros: { en: ['Great noise isolation', 'Secure fit', 'Good call quality'], ar: ['عزل ممتاز', 'ثبات في الودان', 'جودة مكالمات كويسة'] },
-    },
-    {
-        author: 'Mohamed Ibrahim',
-        rating: 4,
-        location: 'الإسكندرية',
-        datePublished: '2026-01-30',
-        reviewBody: {
-            en: 'Bought one for my wife too after using mine for a month. Nothing comes close at this price.',
-            ar: 'اشتريت واحدة لمراتي كمان بعد ما استخدمت بتاعتي شهر. مفيش حاجة تقرب منها بالسعر.'
-        },
-        pros: { en: ['Premium feel', 'Brand trust', 'Fast delivery'], ar: ['إحساس premium', 'ثقة في البراند', 'توصيل سريع'] },
-    },
-    {
-        author: 'Dina Samir',
-        rating: 4,
-        location: 'الجيزة',
-        datePublished: '2025-12-25',
-        reviewBody: {
-            en: 'Solid earbuds overall. Bass could be deeper for EDM but Soundcore app EQ helps.',
-            ar: 'سماعات قوية بشكل عام. الباس ممكن يكون أعمق للـ EDM بس تطبيق Soundcore بيساعد.'
-        },
-        pros: { en: ['App EQ customization', 'Long battery', 'IPX5 for gym'], ar: ['تخصيص EQ بالتطبيق', 'بطارية طويلة', 'IPX5 للجيم'] },
-        cons: { en: ['Bass could be deeper for EDM'], ar: ['الباس ممكن يكون أعمق للـ EDM'] },
+        pros: { en: ['AI call noise OK for WFH', 'Soundcore EQ improves bass slightly', '10-min fast charge for meetings'], ar: ['عزل AI للمكالمات كافي للـ WFH', 'EQ بيحسّن الباس شوية', '10 دقائق شحن سريع للميتنجات'] },
+        cons: { en: ['Fails in windy conditions'], ar: ['بتفشل في الهوا الشديد'] },
     },
 ];

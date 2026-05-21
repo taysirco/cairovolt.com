@@ -58,15 +58,15 @@ export const soundcore_life_q20_headphones = {
         <li><strong>App:</strong> Shows in Soundcore app with correct model name</li>
     </ul>
 </div>`,
-            features: ["🎧 40mm Hi-Res", "🔋 60h", "🔒 18-Month Warranty"],
-            metaTitle: "Soundcore Life Q20 ⚡ 2% OFF | CairoVolt Egypt",
-            metaDesc: "Buy Soundcore Life Q20 in Egypt. ✓ 18-month warranty ✓ COD ✓ Same-day Cairo delivery. Original Anker Soundcore.",
+            features: ["40mm Hi-Res BassUp", "Hybrid ANC 4-mic", "40h ANC / 60h off", "5min = 4h Fast Charge", "3.5mm Wired Mode", "BT 5.0", "Micro-USB", "Foldable + Pouch", "263g Protein Leather", "18-Month Warranty"],
+            metaTitle: "Soundcore Life Q20 — 40mm ANC Over-Ear + 60h Battery | Egypt | CairoVolt",
+            metaDesc: "Buy Soundcore Life Q20 in Egypt — 2,350 EGP. 40mm Hi-Res, hybrid ANC, 60h battery, BassUp, foldable, 3.5mm wired. 18-month warranty. COD. Same-day Cairo.",
             faqs: [
-                    { question: "Can I use Soundcore Life Q20 wired without battery?", answer: "Yes — 3.5mm audio jack provides passive wired listening when battery dies. Sound quality is still good in wired mode." },
-                    { question: "How comfortable is Soundcore Life Q20 for long sessions?", answer: "Protein leather cushions with memory foam distribute pressure evenly. Weight: 263g. Comfortable for 4-8 hour sessions." },
-                    { question: "Does Soundcore Life Q20 fold for travel?", answer: "Yes — foldable design with carrying case included. Compact enough for backpack or carry-on luggage." },
-                    { question: "How does the ANC perform on flights?", answer: "30dB hybrid ANC effectively cancels airplane engine drone in the 100-500Hz range. Excellent for long flights." },
-                    { question: "Does Soundcore Life Q20 support the Soundcore app?", answer: "No — Operates standalone with physical controls." },
+                    { question: "Life Q20 or Q20i — which should I buy?", answer: "Q20i: USB-C, Soundcore app, multipoint, BT 5.3, 172 EGP more. Q20: Micro-USB, no app, BT 5.0, but same 40mm driver and ANC. Choose Q20 if app/multipoint don't matter." },
+                    { question: "Does Life Q20 work with a dead battery?", answer: "Yes — 3.5mm AUX cable provides passive wired listening. Works on airplane entertainment systems too. No charging needed." },
+                    { question: "How is BassUp different from regular mode?", answer: "BassUp boosts 80-200Hz bass range by ~3dB via physical button. Great for Arabic pop, EDM, and hip-hop. No app needed — dedicated hardware button." },
+                    { question: "Can I use Life Q20 for online meetings?", answer: "Yes — built-in microphone works for Zoom/Teams. ANC blocks background noise. 5-min fast charge gives 4h emergency battery before meetings." },
+                    { question: "Is Micro-USB a dealbreaker?", answer: "If you only have USB-C cables, you'll need a separate Micro-USB cable. Q20i (172 EGP more) uses USB-C. Otherwise Q20 is identical in sound and ANC." },
             ]
         },
         ar: {
@@ -97,23 +97,23 @@ export const soundcore_life_q20_headphones = {
         <li><strong>التطبيق:</strong> بتظهر في تطبيق Soundcore بالاسم الصحيح</li>
     </ul>
 </div>`,
-            features: ["🎧 40mm Hi-Res", "🔋 60h", "🔒 ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Life Q20 ⚡ خصم 2% | كايرو فولت مصر",
-            metaDesc: "اشتري سماعة ساوندكور Life Q20 في مصر. ✓ ضمان 18 شهر ✓ الدفع عند الاستلام ✓ توصيل سريع. أصلي من أنكر ساوندكور.",
+            features: ["درايفر 40mm Hi-Res BassUp", "ANC هجين 4 مايكات", "40 ساعة ANC / 60 بدون", "5 دقايق = 4 ساعات", "وضع سلكي 3.5mm", "BT 5.0", "Micro-USB", "قابل للطي + حقيبة", "263 جرام جلد بروتين", "ضمان 18 شهر"],
+            metaTitle: "سماعة ساوندكور Life Q20 — 40mm ANC Over-Ear + 60 ساعة | مصر | كايرو فولت",
+            metaDesc: "اشتري سماعة ساوندكور Life Q20 في مصر — 2,350 جنيه. درايفر 40mm Hi-Res، ANC هجين، 60 ساعة، BassUp، قابل للطي، 3.5mm سلكي. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
-                    { question: "أقدر أستخدم سماعة ساوندكور Life Q20 بالسلك بدون بطارية؟", answer: "أيوه — جاك 3.5mm بيشتغل سلكي لما البطارية تخلص. جودة الصوت لسه كويسة في الوضع السلكي." },
-                    { question: "سماعة ساوندكور Life Q20 مريحة للبس الطويل؟", answer: "وسائد جلد بروتين مع فوم ذاكرة بتوزع الضغط. الوزن: 263 جرام. مريحة لـ 4-8 ساعات." },
-                    { question: "سماعة ساوندكور Life Q20 بتتطوي للسفر؟", answer: "أيوه — تصميم قابل للطي مع شنطة حمل. صغيرة كفاية للباكباك أو شنطة السفر." },
-                    { question: "الـ ANC بتشتغل كويس في الطيارة؟", answer: "عزل 30dB هجين بيلغي صوت محركات الطيارة في نطاق 100-500Hz. ممتازة للرحلات الطويلة." },
-                    { question: "سماعة ساوندكور Life Q20 بتشتغل مع تطبيق Soundcore؟", answer: "لأ — بتشتغل مستقلة بأزرار فيزيائية." },
+                    { question: "Life Q20 ولا Q20i — أشتري أنهي؟", answer: "Q20i: USB-C، تطبيق Soundcore، multipoint، BT 5.3، أغلى 172 جنيه. Q20: Micro-USB، بدون تطبيق، BT 5.0، بس نفس درايفر 40mm وANC. اختار Q20 لو مش محتاج تطبيق/multipoint." },
+                    { question: "Q20 بتشتغل والبطارية فاضية؟", answer: "أيوه — كابل 3.5mm بيشغّلها سلكي بدون شحن. كمان بتشتغل على نظام الترفيه في الطيارات." },
+                    { question: "BassUp بتفرق إيه عن الوضع العادي؟", answer: "BassUp بتعزز باس 80-200Hz بـ ~3dB بزر فيزيائي. ممتازة للبوب العربي والـ EDM. مش محتاج تطبيق." },
+                    { question: "تنفع للميتنجات الأونلاين؟", answer: "أيوه — فيها مايك مدمج لـ Zoom/Teams. ANC بيعزل الدوشة. 5 دقايق شحن سريع = 4 ساعات طوارئ قبل الميتنج." },
+                    { question: "Micro-USB مشكلة كبيرة؟", answer: "لو كل كابلاتك USB-C، هتحتاج كابل Micro-USB منفصل. Q20i (أغلى 172 جنيه) بتستخدم USB-C. غير كده الصوت والـ ANC متطابقين." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore life q20, anker soundcore life q20, soundcore q20 plus, life q20 headphones egypt, best anc headphones egypt, anker headphones, soundcore headphones, ساوندكور لايف q20, هيدفون انكر q20, سماعة رأس انكر, سعر soundcore q20 مصر, أفضل هيدفون ANC مصر, هيدفون بلوتوث انكر", mainTerm: "anker soundcore life q20" },
+    meta: { keywords: "soundcore life q20, anker soundcore life q20, life q20 headphones egypt, best budget anc headphones egypt, anker headphones, ساوندكور لايف q20, هيدفون انكر, سعر q20 مصر", mainTerm: "anker soundcore life q20" },
 
     expertOpinion: {
-        en: "Soundcore Life Q20 brings studio-grade 40mm Hi-Res sound and 30dB ANC to the Egyptian market. At 2350 EGP, it competes with headphones at double the price.",
-        ar: "سماعة ساوندكور Life Q20 بتوفر صوت 40mm Hi-Res بجودة ستوديو وعزل 30dB للسوق المصري. بـ 2350 جنيه، بتنافس هيدفونات بضعف السعر."
+        en: "Life Q20 is the budget ANC over-ear champion in Egypt at 2,350 EGP. 40mm BassUp + foldable + 3.5mm wired backup. Trade-off vs Q20i: no app, Micro-USB, BT 5.0. Worth the 172 EGP savings if you prefer physical controls.",
+        ar: "Life Q20 بطل ANC over-ear الاقتصادي في مصر بـ 2,350 جنيه. درايفر 40mm BassUp + قابل للطي + سلكي 3.5mm احتياطي. المقايضة مقابل Q20i: بدون تطبيق، Micro-USB، BT 5.0. تستاهل توفير 172 جنيه لو بتفضّل الأزرار الفيزيائية."
     }
 };

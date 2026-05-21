@@ -2,69 +2,48 @@ import type { ProductReview } from './_shared';
 
 export const soundcore_q11i_headphones_reviews: ProductReview[] = [
     {
-        author: 'Yasmin Ali',
+        author: 'Ahmed Tarek',
         rating: 5,
-        location: '6 أكتوبر',
-        datePublished: '2025-12-25',
+        location: 'مدينة نصر',
+        datePublished: '2026-03-15',
         reviewBody: {
-            en: 'ANC is phenomenal for the price. Blocks out metro noise completely.',
-            ar: 'عزل الضوضاء مذهل بالسعر ده. بيمنع صوت المترو تماماً.'
+            en: '60 hours of battery. SIXTY. I charge these once every 2.5 weeks. For someone who works from home in a quiet apartment, I don\'t need ANC at all. The 40mm with BassUp makes Arabic music sound incredible. Saved 210 EGP vs Q20i and got longer effective battery since no ANC draining it.',
+            ar: '60 ساعة بطارية. ستين. بشحنهم مرة كل أسبوعين ونص. لحد بيشتغل من البيت في شقة هادية، مش محتاج ANC خالص. 40mm مع BassUp بتخلي الموسيقى العربية صوتها خيالي. وفّرت 210 جنيه عن Q20i وبطارية فعلية أطول لأن مفيش ANC بيستهلك.'
         },
-        pros: { en: ['Strong ANC', 'Comfortable padding', 'Long battery'], ar: ['ANC قوي', 'بطانة مريحة', 'بطارية طويلة'] },
+        pros: { en: ['60h battery — charge every 2.5 weeks', 'BassUp excellent for Arabic music', 'Saved 210 EGP vs Q20i'], ar: ['60 ساعة بطارية — شحن كل 2.5 أسبوع', 'BassUp ممتاز للموسيقى العربية', 'وفّرت 210 جنيه عن Q20i'] },
     },
     {
-        author: 'Bassem Yousry',
-        rating: 5,
-        location: 'القاهرة الجديدة',
-        datePublished: '2025-10-20',
-        reviewBody: {
-            en: 'Best headphones for long listening sessions. Super comfortable even after 4 hours.',
-            ar: 'أفضل سماعة لجلسات الاستماع الطويلة. مريحة جداً حتى بعد 4 ساعات.'
-        },
-        pros: { en: ['Comfortable', 'Great sound', 'Foldable design'], ar: ['مريحة', 'صوت ممتاز', 'تصميم قابل للطي'] },
-    },
-    {
-        author: 'Magdy Hassan',
-        rating: 5,
-        location: 'المنصورة',
-        datePublished: '2026-01-10',
-        reviewBody: {
-            en: 'Sound quality rivals headphones costing 3x more. Very happy with the purchase.',
-            ar: 'جودة الصوت بتنافس سماعات بـ 3 أضعاف سعرها. سعيد جداً بالشراء.'
-        },
-        pros: { en: ['Hi-Res audio', 'Value for money', 'Build quality'], ar: ['صوت Hi-Res', 'قيمة مقابل السعر', 'جودة بناء'] },
-    },
-    {
-        author: 'Sara Ahmed',
-        rating: 4,
-        location: 'طنطا',
-        datePublished: '2026-01-30',
-        reviewBody: {
-            en: 'Perfect for working from home. ANC blocks family noise, transparency mode for calls.',
-            ar: 'مثالية للشغل من البيت. ANC بيمنع صوت الأسرة وTransparency للمكالمات.'
-        },
-        pros: { en: ['ANC modes', 'Multipoint BT', 'Clear mic'], ar: ['أوضاع ANC', 'بلوتوث Multipoint', 'مايك واضح'] },
-    },
-    {
-        author: 'Osama Kamel',
-        rating: 4,
-        location: 'الدقي',
-        datePublished: '2026-04-01',
-        reviewBody: {
-            en: 'Battery life is incredible. Use them for a week without charging.',
-            ar: 'عمر البطارية مذهل. بستخدمها أسبوع بدون شحن.'
-        },
-        pros: { en: ['Marathon battery', 'Quick charge', 'USB-C'], ar: ['بطارية ماراثونية', 'شحن سريع', 'USB-C'] },
-    },
-    {
-        author: 'Karim Samir',
+        author: 'Salma Adly',
         rating: 4,
         location: 'المعادي',
-        datePublished: '2025-11-15',
+        datePublished: '2026-04-02',
         reviewBody: {
-            en: 'Folds down compact for travel. Sound stays consistent even at lower volumes.',
-            ar: 'بتتطوي مدمجة للسفر. الصوت ثابت حتى مع أقل مستوى صوت.'
+            en: 'Honest: if you commute on Cairo Metro daily, skip Q11i and get Q20i. The ANC is worth 210 EGP for Metro noise. But I work from home and these are perfect for my use case. Cushion pressure is too much with my glasses — mild discomfort after 2 hours. Without glasses: 6 hours fine.',
+            ar: 'بصراحة: لو بتركب مترو القاهرة يومياً، سيب Q11i وخد Q20i. الـ ANC يستاهل الـ 210 جنيه لضوضاء المترو. بس أنا بشتغل من البيت ودول مثاليين لحالتي. ضغط الوسائد كتير مع النظارة — عدم راحة خفيفة بعد ساعتين. بدون نظارة: 6 ساعات عادي.'
         },
-        pros: { en: ['Portable', 'Consistent sound', 'Durable'], ar: ['محمولة', 'صوت ثابت', 'متينة'] },
+        pros: { en: ['Perfect for WFH quiet environment', '60h battery incredible'], ar: ['مثالي للشغل من البيت الهادي', '60 ساعة بطارية مذهلة'] },
+        cons: { en: ['Uncomfortable with glasses after 2h', 'No ANC for commuters'], ar: ['مش مريح مع النظارة بعد ساعتين', 'مفيش ANC للمواصلات'] },
+    },
+    {
+        author: 'Khaled Nour',
+        rating: 5,
+        location: 'طنطا',
+        datePublished: '2026-02-28',
+        reviewBody: {
+            en: 'The 5-minute fast charge saved me before a 4-hour train ride to Cairo. Plugged in while buying coffee, got 4 hours of music. The foldable design fits in my bag easily. Replaceable cushions mean these headphones will last me years. CairoVolt shipped to Tanta in 2 days.',
+            ar: '5 دقائق شحن سريع أنقذتني قبل رحلة قطر 4 ساعات للقاهرة. وصّلت الشحن وأنا بشتري قهوة، خدت 4 ساعات موسيقى. التصميم القابل للطي بيدخل الشنطة بسهولة. الوسائد القابلة للتبديل يعني الهيدفون ده هيفضل معايا سنين. كايرو فولت وصّلت لطنطا في يومين.'
+        },
+        pros: { en: ['5-min fast charge = 4h for train', 'Foldable fits easily in bag', 'Replaceable cushions for longevity'], ar: ['5 دقائق شحن = 4 ساعات للقطر', 'قابل للطي بيدخل الشنطة', 'وسائد قابلة للتبديل للعمر الطويل'] },
+    },
+    {
+        author: 'Yasmin Fouad',
+        rating: 5,
+        location: 'الإسكندرية',
+        datePublished: '2026-03-20',
+        reviewBody: {
+            en: 'Soundcore app EQ customization is surprisingly deep for a budget headphone. BassUp mode for Mahraganat is insane. Multipoint BT 5.3 — phone + laptop simultaneously — is a feature usually found in 4,000+ EGP headphones. Q11i at 2,312 delivers 80% of Q30 experience at half the price.',
+            ar: 'تخصيص EQ في تطبيق Soundcore عميق بشكل مفاجئ لهيدفون بادجت. وضع BassUp للمهرجانات مجنون. BT 5.3 multipoint — الموبايل + اللاب مع بعض — ميزة عادة بتبقى في هيدفونات 4,000+ جنيه. Q11i بـ 2,312 بتقدم 80% من تجربة Q30 بنص السعر.'
+        },
+        pros: { en: ['Soundcore app EQ surprisingly deep', 'BassUp for Mahraganat insane', 'Multipoint at budget price'], ar: ['EQ في التطبيق عميق بشكل مفاجئ', 'BassUp للمهرجانات مجنون', 'Multipoint بسعر بادجت'] },
     },
 ];

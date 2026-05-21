@@ -14,14 +14,14 @@ export const soundcore_c30i_earbuds = {
     status: "active",
 
     images: [
-            { id: "img_1", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-main-view-cairovolt.webp", alt: "Soundcore C30i A3965 main view - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 features angle - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore C30i A3965 specifications detail - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 retail box authentic - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_5", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore C30i A3965 in use lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 size comparison - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_7", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore C30i A3965 accessories included - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 close up detail - كايرو فولت", order: 7, isPrimary: false, width: 750, height: 750 },
+            { id: "img_1", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-main-view-cairovolt.webp", alt: "Soundcore C30i A3965 open-ear clip-on earbuds - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-features-angle-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 كليب أذن مفتوح - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-specifications-detail-cairovolt.webp", alt: "Soundcore C30i A3965 racetrack titanium driver - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-retail-box-authentic-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 علبة اصلية - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_5", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-in-use-lifestyle-cairovolt.webp", alt: "Soundcore C30i A3965 open-ear running lifestyle - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-size-comparison-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 مقارنة حجم - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_7", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-accessories-included-cairovolt.webp", alt: "Soundcore C30i A3965 silicone grips accessories - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور C30i A3965 تفاصيل قرب - كايرو فولت", order: 7, isPrimary: false, width: 750, height: 750 },
             { id: "img_9", url: "/products/anker/soundcore-c30i-earbuds/soundcore-c30i-earbuds-alternate-color-cairovolt.webp", alt: "Soundcore C30i A3965 alternate color - CairoVolt", order: 8, isPrimary: false, width: 750, height: 750 },
     ],
 
@@ -29,89 +29,89 @@ export const soundcore_c30i_earbuds = {
 
     translations: {
         en: {
-            name: "Soundcore C30i | ANC 35dB | 10mm | 36h Battery | BT 5.4 | 18-Month Warranty",
-            shortDescription: "Original Anker Soundcore — 18-month CairoVolt warranty",
+            name: "Soundcore C30i | Open-Ear Clip-On | 12×17mm Titanium | 30h Battery | BT 5.3 | 18-Month Warranty",
+            shortDescription: "Open-ear clip-on — hear your environment + music | 12×17mm racetrack titanium | 10h/30h battery | BT 5.3 multipoint | IPX4 — 18-month CairoVolt warranty",
             description: `<div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-3">10mm Driver Architecture: Sound Engineering at Scale</h2>
-        <p class="text-gray-700 leading-relaxed">The 10mm driver unit uses a composite diaphragm that separates low and high frequencies at the material level. The outer ring handles bass response while the inner dome manages vocals and treble. This split-zone approach eliminates the muddy overlap common in single-material drivers used by budget competitors.</p>
-        <p class="text-gray-700 leading-relaxed">Bluetooth 5.4 delivers stable connection up to 15 meters with multipoint support for simultaneous phone and laptop pairing. The 36h total battery converts to roughly two weeks of daily commuting before the USB-C case needs charging.</p>
+        <h2 class="text-2xl font-bold mb-3">Open-Ear Clip-On: Music + Environment Together</h2>
+        <p class="text-gray-700 leading-relaxed">C30i clips onto your outer ear cartilage — nothing enters the ear canal. Hear your music and your environment simultaneously with zero ear pressure. The hard-shell clip-on with detachable silicone grips (M/L sizes) stays secure during running, gym, and all-day office wear. At just 5.7g per earbud, you'll forget they're there.</p>
+        <p class="text-gray-700 leading-relaxed">The 12mm×17mm racetrack-shaped dynamic driver with titanium-coated diaphragm delivers a wider soundstage than regular round drivers. Clear mids and vocals excel for podcasts and calls. Bass is intentionally light — the open design doesn't reinforce low frequencies.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">Adaptive ANC: Silence When You Need It</h2>
-        <p class="text-gray-700 leading-relaxed">The 35dB active noise cancellation adapts to your environment in real-time. On a Cairo microbus, it targets the low-frequency engine rumble. In a café, it handles the mid-range chatter. The transparency mode lets ambient sound through with a single tap — critical for crossing streets safely.</p>
-        <p class="text-gray-700 leading-relaxed">The hybrid ANC system uses both feedforward and feedback microphones, creating a wider noise-cancelling bandwidth than single-mic designs. Combined with the silicone ear tip seal, external noise reduction approaches real-world quiet.</p>
+        <h2 class="text-2xl font-bold mb-3">Safety-First Audio: The Running & Office Companion</h2>
+        <p class="text-gray-700 leading-relaxed">No ANC — and that's the point. Open-ear means you hear traffic while jogging on the Corniche, colleagues calling your name in the office, and Metro announcements without pausing music. This is a safety feature for Cairo street runners and a productivity feature for office workers.</p>
+        <p class="text-gray-700 leading-relaxed">10h per charge with 30h total (10-min fast charge = 3h). BT 5.3 multipoint connects phone + laptop. IPX4 handles sweat and light rain. At 2,350 EGP, it's the only affordable open-ear clip-on in Egypt vs Bose Ultra Open (12,000+ EGP).</p>
     </section>
 </div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">Counterfeit Soundcore earbuds are widespread on Egyptian social media at suspiciously low prices. They use recycled drivers that distort and lack genuine Bluetooth 5.4 chipsets.</p>
+    <p class="text-gray-700 leading-relaxed mb-3">C30i is an OPEN-EAR clip-on — it does NOT go inside the ear canal and has NO ANC. If you want in-ear buds with ANC, buy P30i (1,200 EGP) or P40i (1,522 EGP) instead.</p>
     <p class="font-bold mb-2">How to verify authenticity:</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>Model:</strong> A3965 engraved inside the case</li>
-        <li><strong>Logo:</strong> Soundcore logo laser-etched, not painted</li>
-        <li><strong>Pairing:</strong> Shows "Soundcore C30i" in Soundcore app</li>
-        <li><strong>Packaging:</strong> Sealed box with holographic Anker authentication</li>
-        <li><strong>Price:</strong> Below 1175 EGP is suspicious</li>
+        <li><strong>Model:</strong> A3965 engraved on the case</li>
+        <li><strong>Design:</strong> Hard-shell clip-on with detachable silicone grips</li>
+        <li><strong>App:</strong> Shows "Soundcore C30i" in Soundcore app</li>
+        <li><strong>Driver:</strong> Genuine racetrack-shaped (oval, not round)</li>
+        <li><strong>Price:</strong> Below 1,175 EGP is suspicious</li>
     </ul>
 </div>`,
-            features: ["🎧 10mm", "🔋 36h", "🔒 18-Month Warranty"],
-            metaTitle: "Soundcore C30i ⚡ 2% OFF | CairoVolt Egypt",
-            metaDesc: "Buy Soundcore C30i in Egypt. ✓ 18-month warranty ✓ COD ✓ Same-day Cairo delivery. Original Anker Soundcore.",
+            features: ["Open-Ear Clip-On", "12×17mm Racetrack Titanium", "No ANC (Hear Environment)", "10h/30h Battery", "10min = 3h Fast Charge", "BT 5.3 Multipoint", "IPX4 Sweat+Rain", "5.7g Ultralight", "2-Mic Calls", "Detachable Silicone Grips", "18-Month Warranty"],
+            metaTitle: "Soundcore C30i — Open-Ear Clip-On Earbuds | Titanium Driver | Egypt | CairoVolt",
+            metaDesc: "Buy Soundcore C30i in Egypt — 2,350 EGP. Open-ear clip-on, 12×17mm titanium, hear environment + music, 30h battery, BT 5.3, IPX4, 5.7g. 18-month warranty. COD.",
             faqs: [
-                    { question: "How effective is the ANC on Soundcore C30i in Cairo traffic?", answer: "The 35dB ANC targets engine and road noise frequencies effectively. Combined with passive seal, it significantly reduces Cairo microbus and Metro noise." },
-                    { question: "Does Soundcore C30i support multipoint Bluetooth?", answer: "Yes — Bluetooth 5.4 with multipoint connects to two devices simultaneously. Auto-switches audio between phone and laptop." },
-                    { question: "Can I use Soundcore C30i for gym workouts in Egyptian summer?", answer: "IPX5 rated. Handles sweat, rain, and AC-to-outdoor condensation that Cairo summers produce." },
-                    { question: "How does Soundcore C30i compare to AirPods at this price?", answer: "At 2350 EGP vs 8,000+ for AirPods: 36h battery, 10mm drivers, IPX5, and full app EQ. 90% of the experience at a fraction of the price." },
-                    { question: "What's in the Soundcore C30i box?", answer: "Earbuds, charging case, USB-C cable, 3 sizes silicone ear tips (S/M/L), and user manual. Everything to start immediately." },
+                    { question: "C30i is open-ear — what does that mean?", answer: "C30i clips onto your outer ear, nothing enters the ear canal. You hear music AND your environment simultaneously. No ANC. Ideal for running (hear traffic), office (hear colleagues), and people who dislike in-ear buds." },
+                    { question: "Why doesn't C30i have ANC?", answer: "Open-ear design means ears aren't sealed. This is intentional — it's a safety feature for outdoor runners and a productivity feature for offices. For ANC: P30i (42dB, 1,200 EGP) or P40i (1,522 EGP)." },
+                    { question: "C30i or C40i — what's the difference?", answer: "C40i adds ANC to the open-ear clip-on design, plus longer battery. C30i has no ANC but costs less. If you want open-ear + ANC, choose C40i." },
+                    { question: "Is the bass good on C30i?", answer: "Honest: bass is thin. Open-ear can't reinforce low frequencies like sealed in-ear buds. Mids and vocals are excellent for podcasts. If bass matters: buy P30i or P40i (in-ear, sealed)." },
+                    { question: "Does sound leak to people nearby?", answer: "Yes — at 60%+ volume, people sitting 1m away can hear your audio. Keep volume at 40-50% in quiet offices. At normal listening volume outdoors, leakage is minimal." },
             ]
         },
         ar: {
-            name: "سماعة ساوندكور C30i | عزل 35dB | 36 ساعة بطارية | بلوتوث 5.4 | ضمان 18 شهر",
-            shortDescription: "أصلي من أنكر ساوندكور — ضمان كايرو فولت 18 شهر",
+            name: "سماعة ساوندكور C30i | كليب أذن مفتوح | 12×17mm تيتانيوم | 30 ساعة | BT 5.3 | ضمان 18 شهر",
+            shortDescription: "كليب أذن مفتوح — اسمع بيئتك + الموسيقى | 12×17mm racetrack تيتانيوم | 10/30 ساعة | BT 5.3 multipoint | IPX4 — ضمان كايرو فولت 18 شهر",
             description: `<div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-3">هندسة درايفر 10mm: صوت مُصمَّم بدقة</h2>
-        <p class="text-gray-700 leading-relaxed">وحدة درايفر 10mm بتستخدم غشاء مركّب بيفصل الترددات المنخفضة عن العالية على مستوى المادة نفسها. الحلقة الخارجية مسؤولة عن الباس والداخلية عن الأصوات البشرية والتريبل. التقسيم ده بيلغي التداخل اللي في الدرايفرات الرخيصة.</p>
-        <p class="text-gray-700 leading-relaxed">بلوتوث 5.4 بيوفر اتصال مستقر لحد 15 متر مع multipoint للموبايل واللاب مع بعض. 36h بطارية إجمالي يعني حوالي أسبوعين مواصلات قبل ما تشحن علبة الـ USB-C.</p>
+        <h2 class="text-2xl font-bold mb-3">كليب أذن مفتوح: موسيقى + بيئة مع بعض</h2>
+        <p class="text-gray-700 leading-relaxed">C30i بتتعلق على غضروف الأذن الخارجية — مفيش حاجة بتدخل قناة الودان. اسمع موسيقتك وبيئتك في نفس الوقت بدون أي ضغط على الأذن. الكليب الصلب مع قبضات سيليكون قابلة للفك (مقاسين M/L) بيفضل ثابت في الجري والجيم واللبس طول اليوم في المكتب. بـ 5.7 جرام بس لكل سماعة، هتنسى إنك لابسها.</p>
+        <p class="text-gray-700 leading-relaxed">درايفر 12mm×17mm بشكل racetrack مع غشاء تيتانيوم بيقدم مسرح صوتي أعرض من الدرايفرات الدائرية العادية. الميد والأصوات واضحة ومتميزة للبودكاست والمكالمات. الباس خفيف عمداً — التصميم المفتوح مش بيعزز الترددات المنخفضة.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">عزل ضوضاء تكيّفي: سكوت لما تحتاجه</h2>
-        <p class="text-gray-700 leading-relaxed">عزل 35dB نشط بيتكيف مع بيئتك لحظياً. في الميكروباص بيستهدف صوت الموتور. في الكافيه بيتعامل مع الكلام. وضع الشفافية بيمرّر الأصوات بضغطة — مهم وانت بتعدي الشارع.</p>
-        <p class="text-gray-700 leading-relaxed">نظام ANC هجين بيستخدم مايكين — feedforward و feedback — بيخلي نطاق إلغاء الضوضاء أعرض من الأنظمة بمايك واحد. مع سيل أطراف السيليكون، العزل الحقيقي بيوصل لمستوى هدوء ملموس.</p>
+        <h2 class="text-2xl font-bold mb-3">صوت بأمان: رفيق الجري والمكتب</h2>
+        <p class="text-gray-700 leading-relaxed">بدون ANC — وده المقصود. الأذن المفتوحة يعني بتسمع المرور وانت بتجري على الكورنيش، الزملاء بينادوا اسمك في المكتب، وإعلانات المترو بدون ما توقف الموسيقى. دي ميزة أمان لعدّائين شوارع القاهرة وميزة إنتاجية لموظفين المكاتب.</p>
+        <p class="text-gray-700 leading-relaxed">10 ساعات لكل شحنة مع 30 إجمالي (10 دقائق شحن سريع = 3 ساعات). BT 5.3 multipoint بيتصل بالموبايل + اللاب. IPX4 بتستحمل العرق والمطر الخفيف. بـ 2,350 جنيه، الوحيدة المعقولة open-ear في مصر مقابل Bose Ultra Open (12,000+ جنيه).</p>
     </section>
 </div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">سماعات ساوندكور مقلدة منتشرة على السوشيال ميديا المصري بأسعار مشبوهة. بتستخدم درايفرات مُعاد تدويرها بتشوّه وبتفتقد شريحة بلوتوث 5.4 الأصلية.</p>
+    <p class="text-gray-700 leading-relaxed mb-3">C30i كليب أذن مفتوح — مش بتدخل جوه الودان ومفيهاش ANC. لو عايز سماعة داخلية بـ ANC، اشتري P30i (1,200 جنيه) أو P40i (1,522 جنيه).</p>
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
-        <li><strong>الموديل:</strong> A3965 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
-        <li><strong>السعر:</strong> أقل من 1175 جنيه = مشكوك فيه</li>
+        <li><strong>الموديل:</strong> A3965 محفور على العلبة</li>
+        <li><strong>التصميم:</strong> كليب صلب بقبضات سيليكون قابلة للفك</li>
+        <li><strong>التطبيق:</strong> بتظهر باسم "Soundcore C30i" في التطبيق</li>
+        <li><strong>الدرايفر:</strong> شكل racetrack أصلي (بيضاوي، مش دائري)</li>
+        <li><strong>السعر:</strong> أقل من 1,175 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["🎧 10mm", "🔋 36h", "🔒 ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور C30i ⚡ خصم 2% | كايرو فولت مصر",
-            metaDesc: "اشتري سماعة ساوندكور C30i في مصر. ✓ ضمان 18 شهر ✓ الدفع عند الاستلام ✓ توصيل سريع. أصلي من أنكر ساوندكور.",
+            features: ["كليب أذن مفتوح", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "10/30 ساعة بطارية", "10 دقائق = 3 ساعات", "BT 5.3 Multipoint", "IPX4 عرق+مطر", "5.7 جرام خفيف", "2 مايك مكالمات", "قبضات سيليكون قابلة للفك", "ضمان 18 شهر"],
+            metaTitle: "سماعة ساوندكور C30i — كليب أذن مفتوح تيتانيوم | مصر | كايرو فولت",
+            metaDesc: "اشتري سماعة ساوندكور C30i في مصر — 2,350 جنيه. كليب أذن مفتوح، 12×17mm تيتانيوم، اسمع البيئة + الموسيقى، 30 ساعة، BT 5.3، IPX4، 5.7 جرام. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
-                    { question: "الـ ANC في سماعة ساوندكور C30i بيعزل كويس في مواصلات القاهرة؟", answer: "عزل 35dB بيستهدف ترددات المحركات والطريق. مع السيل السلبي، بيقلل ضوضاء الميكروباص والمترو بشكل ملموس." },
-                    { question: "سماعة ساوندكور C30i بتتوصل بجهازين في نفس الوقت؟", answer: "أيوه — بلوتوث 5.4 مع multipoint بتتصل بالموبايل واللاب مع بعض وبتبدّل أوتوماتيك." },
-                    { question: "أقدر أستخدم سماعة ساوندكور C30i في الجيم في صيف مصر؟", answer: "حماية IPX5. بتستحمل العرق والمطر وتكثف الانتقال من التكييف للحر." },
-                    { question: "سماعة ساوندكور C30i أحسن من الإيربودز بالسعر ده؟", answer: "بـ 2350 جنيه مقابل 8,000+ للإيربودز: 36h بطارية، درايفر 10mm, IPX5, وتطبيق EQ. 90% من التجربة بجزء صغير من السعر." },
-                    { question: "إيه اللي في علبة سماعة ساوندكور C30i؟", answer: "السماعات، علبة الشحن، كابل USB-C، 3 مقاسات أطراف سيليكون (S/M/L)، ودليل استخدام." },
+                    { question: "C30i أذن مفتوحة يعني إيه؟", answer: "C30i بتتعلق على الأذن الخارجية، مفيش حاجة بتدخل قناة الودان. بتسمع الموسيقى والبيئة حواليك مع بعض. مفيش ANC. مثالية للجري (اسمع المرور)، المكتب (اسمع الزملاء)، واللي مش بيحبوا السماعات الداخلية." },
+                    { question: "ليه C30i مفيهاش ANC؟", answer: "تصميم مفتوح يعني الودان مش مسدودة. ده متعمد — ميزة أمان للجري في الشوارع وميزة إنتاجية للمكاتب. لو عايز ANC: P30i (42dB، 1,200 جنيه) أو P40i (1,522 جنيه)." },
+                    { question: "C30i ولا C40i — إيه الفرق؟", answer: "C40i بتضيف ANC لتصميم الكليب المفتوح، وبطارية أطول. C30i بدون ANC بس أرخص. لو عايز open-ear + ANC، اختار C40i." },
+                    { question: "الباس كويس في C30i؟", answer: "بصراحة: الباس ضعيف. الأذن المفتوحة مش بتقدر تعزز الترددات المنخفضة زي السماعات الداخلية المحكمة. الميد والأصوات ممتازة للبودكاست. لو الباس مهم: اشتري P30i أو P40i (داخلية محكمة)." },
+                    { question: "الصوت بيتسرب للناس الجنب؟", answer: "أيوه — على 60%+ صوت، الناس الجالسة على بعد متر بتسمع. خلي الصوت على 40-50% في المكاتب الهادية. على صوت سماع عادي في الخارج، التسريب بيكون قليل." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore c30i, anker c30i, c30i earbuds, soundcore c30i egypt, cheapest soundcore tws, c30i price, ساوندكور c30i, سماعة c30i, سعر c30i مصر, أرخص سماعة ساوندكور لاسلكية", mainTerm: "soundcore c30i" },
+    meta: { keywords: "soundcore c30i, anker c30i, c30i open ear, c30i clip on, soundcore c30i egypt, open ear earbuds egypt, c30i vs bose ultra open, ساوندكور c30i, سماعة كليب أذن مفتوح, سعر c30i مصر, سماعة أذن مفتوحة مصر", mainTerm: "soundcore c30i" },
 
     expertOpinion: {
-        en: "Soundcore C30i delivers 10mm sound with 35dB ANC at 2350 EGP. At this price point, no competitor in the Egyptian market matches its feature set.",
-        ar: "سماعة ساوندكور C30i بتوفر صوت 10mm مع عزل 35dB بـ 2350 جنيه. بالسعر ده، مفيش منافس في السوق المصري بيقدم نفس المميزات."
+        en: "C30i is a COMPLETELY different category — open-ear clip-on, not in-ear. No ANC, thin bass, but unmatched comfort and environmental awareness for runners and office workers. At 2,350 EGP, it's the only affordable open-ear in Egypt vs Bose Ultra Open (12,000+). If you want ANC and bass: buy P30i or P40i instead.",
+        ar: "C30i فئة مختلفة تماماً — كليب أذن مفتوح، مش داخل الأذن. بدون ANC، باس ضعيف، بس راحة ووعي بيئي لا مثيل له للعدّائين وموظفين المكاتب. بـ 2,350 جنيه، الوحيدة المعقولة open-ear في مصر مقابل Bose Ultra Open (12,000+). لو عايز ANC وباس: اشتري P30i أو P40i بدلها."
     }
 };
