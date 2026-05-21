@@ -41,6 +41,7 @@ import { power_bank_charge_4_devices_simultaneously } from './blog/power-bank-ch
 import { why_power_bank_dies_after_6_months_mistakes } from './blog/why-power-bank-dies-after-6-months-mistakes';
 import { anker_vs_joyroom_power_banks_12_models_tested } from './blog/anker-vs-joyroom-power-banks-12-models-tested';
 import { iphone_17_pro_max_charger_20w_30w_45w_which } from './blog/iphone-17-pro-max-charger-20w-30w-45w-which';
+import { best_gan_multi_port_chargers_office_home_egypt } from './blog/best-gan-multi-port-chargers-office-home-egypt';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -80,6 +81,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     why_power_bank_dies_after_6_months_mistakes,
     anker_vs_joyroom_power_banks_12_models_tested,
     iphone_17_pro_max_charger_20w_30w_45w_which,
+    best_gan_multi_port_chargers_office_home_egypt,
 ];
 
 
