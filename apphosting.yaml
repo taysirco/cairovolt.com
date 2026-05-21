@@ -6,12 +6,16 @@
 
 runConfig:
   cpu: 2
-  memoryMiB: 1024
+  memoryMiB: 2048
   minInstances: 1
   maxInstances: 4
   concurrency: 50
 
 env:
+  - variable: NODE_OPTIONS
+    value: --max-old-space-size=4096
+    availability:
+      - BUILD
   - variable: FIREBASE_PROJECT_ID
     value: gadgets-b0bdb  # CairoVolt — Firebase Project ID (immutable)
   - variable: GOOGLE_SHEET_ID

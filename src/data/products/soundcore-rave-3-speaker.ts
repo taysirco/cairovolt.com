@@ -8,7 +8,7 @@ export const soundcore_rave_3_speaker = {
     gtin13: "",
     mpn: "A3399",
     price: 9450,
-    originalPrice: 6999,
+    originalPrice: 11499,
     stock: 400,
     featured: false,
     status: "active",
