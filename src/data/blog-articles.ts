@@ -42,6 +42,7 @@ import { why_power_bank_dies_after_6_months_mistakes } from './blog/why-power-ba
 import { anker_vs_joyroom_power_banks_12_models_tested } from './blog/anker-vs-joyroom-power-banks-12-models-tested';
 import { iphone_17_pro_max_charger_20w_30w_45w_which } from './blog/iphone-17-pro-max-charger-20w-30w-45w-which';
 import { best_gan_multi_port_chargers_office_home_egypt } from './blog/best-gan-multi-port-chargers-office-home-egypt';
+import { travel_charger_usb_c_usb_a_sahel_trip } from './blog/travel-charger-usb-c-usb-a-sahel-trip';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -82,6 +83,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     anker_vs_joyroom_power_banks_12_models_tested,
     iphone_17_pro_max_charger_20w_30w_45w_which,
     best_gan_multi_port_chargers_office_home_egypt,
+    travel_charger_usb_c_usb_a_sahel_trip,
 ];
 
 
