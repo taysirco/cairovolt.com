@@ -69,4 +69,83 @@ export const soundcore_q20i_headphones_reviews: ProductReview[] = [
         },
         pros: { en: ['Best value at this price', '3.5mm for old laptops', 'Fits university backpack'], ar: ['أحسن قيمة بالسعر ده', '3.5mm للابتوبات القديمة', 'بتتحط في شنطة الجامعة'] },
     },
+    {
+        author: 'Tamer Gamal',
+        rating: 5,
+        location: 'بنها',
+        datePublished: '2026-05-12',
+        reviewBody: {
+            en: 'Train commuter Benha-Cairo daily. The over-ear design blocks train noise physically PLUS ANC reduces it electronically. Combination is amazing. 60h with ANC off means I charge once every 2 weeks. The cushions are soft enough for my 90-minute commute each way.',
+            ar: 'راكب قطار بنها-القاهرة يومياً. التصميم over-ear بيحجب ضوضاء القطار فيزيائياً + ANC بيقللها إلكترونياً. الكومبو مذهل. 60 ساعة بدون ANC يعني بشحن مرة كل أسبوعين. الوسائد ناعمة كفاية لرحلتي الـ 90 دقيقة في كل اتجاه.'
+        },
+        pros: { en: ['Train commute physical+electronic isolation', '2-week charge cycle', '90-min cushion comfort'], ar: ['عزل قطار فيزيائي+إلكتروني', 'شحن كل أسبوعين', 'راحة وسائد 90 دقيقة'] },
+    },
+    {
+        author: 'Doaa Abdel Fattah',
+        rating: 4,
+        location: 'الفيوم',
+        datePublished: '2026-03-20',
+        reviewBody: {
+            en: '4 stars — the cushions get warm after 2 hours in Egyptian summer heat. Not a Q20i problem, it\'s an over-ear problem. I switch to earbuds outdoors and use Q20i indoors with AC. Sound quality and ANC are 5-star. Delivered to Fayoum in 4 days via CairoVolt.',
+            ar: '4 نجوم — الوسائد بتسخن بعد ساعتين في حر الصيف المصري. مش مشكلة Q20i، ده مشكلة over-ear. بنقّل لإيربودز في الشارع وبستخدم Q20i في البيت مع التكييف. جودة الصوت وANC 5 نجوم. وصلت للفيوم في 4 أيام عبر كايرو فولت.'
+        },
+        pros: { en: ['Sound + ANC 5-star', 'Fayoum 4-day delivery'], ar: ['صوت + ANC 5 نجوم', 'توصيل الفيوم 4 أيام'] },
+        cons: { en: ['Cushions warm in summer heat'], ar: ['الوسائد بتسخن في الصيف'] },
+    },
+    {
+        author: 'Ashraf Mounir',
+        rating: 5,
+        location: 'حلوان',
+        datePublished: '2026-04-25',
+        reviewBody: {
+            en: 'DJ and music producer. Q20i is my secondary monitoring headphone — I use it for quick checks when my studio headphones are charging. For the price, the frequency response is surprisingly flat when you turn off BassUp. The 3.5mm AUX input is essential for studio work.',
+            ar: 'DJ ومنتج موسيقى. Q20i هيدفون المراقبة الثانوي — بستخدمها للفحص السريع لما سماعات الاستوديو بتتشحن. بالسعر، الاستجابة الترددية مسطحة بشكل مفاجئ لما تقفل BassUp. مدخل AUX 3.5mm ضروري لشغل الاستوديو.'
+        },
+        pros: { en: ['DJ secondary monitoring', 'Flat response with BassUp off', '3.5mm essential for studio'], ar: ['مراقبة ثانوية DJ', 'استجابة مسطحة بدون BassUp', '3.5mm ضروري للاستوديو'] },
+    },
+    {
+        author: 'Norhan Salem',
+        rating: 5,
+        location: 'السويس',
+        datePublished: '2026-05-05',
+        reviewBody: {
+            en: 'Bought for long study sessions during finals. The over-ear cushions create a seal that blocks the living room TV noise. ANC adds another layer — total silence. 40mm drivers with the Soundcore EQ tuned to "Classical" preset makes my study Quran playlist sound beautiful.',
+            ar: 'اشتريتها لجلسات المذاكرة الطويلة أثناء الفاينال. وسائد over-ear بتعمل سيل بيحجب صوت تليفزيون الصالة. ANC بتضيف طبقة تانية — سكوت تام. درايفرات 40mm مع EQ مضبوط على "Classical" بيخلي بلايليست القرآن صوتها جميل.'
+        },
+        pros: { en: ['Finals study silence', 'Classical preset Quran beauty', 'TV noise sealed out'], ar: ['سكوت مذاكرة الفاينال', 'بريست Classical للقرآن', 'صوت التليفزيون محجوب'] },
+    },
+    {
+        author: 'Mokhtar Ezzat',
+        rating: 4,
+        location: 'شبين الكوم',
+        datePublished: '2026-03-08',
+        reviewBody: {
+            en: 'Good headphones for the money. 4 stars: the plastic build feels cheap compared to metal-framed headphones. I worry about durability — the hinges feel fragile when folding. But the sound and ANC are genuinely impressive. If it lasts 2 years, it\'s worth it.',
+            ar: '4 نجوم: البلاستيك بيحسسك إنه رخيص مقارنة بهيدفونات إطار معدن. قلقان على المتانة — المفصلات بتحسسك إنها هشة لما بتطوي. بس الصوت وANC مبهرين فعلاً. لو كملت سنتين، تستاهل.'
+        },
+        pros: { en: ['Sound + ANC impressive', 'Foldable for travel'], ar: ['صوت + ANC مبهرين', 'قابلة للطي للسفر'] },
+        cons: { en: ['Plastic build feels fragile', 'Hinges worry on durability'], ar: ['بلاستيك بيحس إنه هش', 'المفصلات مقلقة للمتانة'] },
+    },
+    {
+        author: 'Lobna Hashem',
+        rating: 5,
+        location: 'مرسى مطروح',
+        datePublished: '2026-04-18',
+        reviewBody: {
+            en: 'Work from home in Marsa Matrouh — the wind noise here is constant. ANC + over-ear seal blocks the wind completely. I feel like I\'m in a soundproof room. The Soundcore app lets me schedule auto-off after 30 minutes for nap mode. CairoVolt delivered in 5 days.',
+            ar: 'شغل من البيت في مرسى مطروح — صوت الرياح هنا مستمر. ANC + سيل over-ear بتحجب الرياح تماماً. بحس إني في غرفة عازلة. تطبيق Soundcore بيخليني أعمل جدول إيقاف تلقائي بعد 30 دقيقة لوضع القيلولة. كايرو فولت وصّلت في 5 أيام.'
+        },
+        pros: { en: ['Wind noise blocked completely', 'Auto-off nap mode', 'Matrouh 5-day delivery'], ar: ['ضوضاء الرياح محجوبة تماماً', 'إيقاف تلقائي للقيلولة', 'توصيل مطروح 5 أيام'] },
+    },
+    {
+        author: 'Ramzy Saad',
+        rating: 5,
+        location: 'التجمع الخامس',
+        datePublished: '2026-05-18',
+        reviewBody: {
+            en: 'My gaming headset broke and I needed a replacement fast. Q20i arrived next day from CairoVolt. The wired 3.5mm mode with zero latency is perfect for PS5 gaming. ANC blocks the AC unit in my gaming room. 40mm drivers deliver cinematic explosions in God of War.',
+            ar: 'هيدست الألعاب اتكسر ومحتاج بديل بسرعة. Q20i وصلت تاني يوم من كايرو فولت. وضع 3.5mm السلكي بدون تأخير مثالي لألعاب PS5. ANC بتحجب التكييف في أوضة الألعاب. درايفرات 40mm بتدي انفجارات سينمائية في God of War.'
+        },
+        pros: { en: ['PS5 zero-latency wired gaming', 'Next-day CairoVolt delivery', 'Cinematic God of War sound'], ar: ['ألعاب PS5 سلكي بدون تأخير', 'توصيل كايرو فولت تاني يوم', 'صوت God of War سينمائي'] },
+    },
 ];

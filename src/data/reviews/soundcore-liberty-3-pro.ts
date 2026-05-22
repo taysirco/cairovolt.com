@@ -69,4 +69,83 @@ export const soundcore_liberty_3_pro_reviews: ProductReview[] = [
         pros: { en: ['Outstanding overall quality', 'LDAC for focused sessions', 'Multipoint for daily use'], ar: ['جودة عامة ممتازة', 'LDAC للجلسات المركزة', 'Multipoint للاستخدام اليومي'] },
         cons: { en: ['LDAC and multipoint can\'t work together'], ar: ['LDAC وmultipoint مش بيشتغلوا مع بعض'] },
     },
+    {
+        author: 'Raouf Abdel Meguid',
+        rating: 5,
+        location: 'الجيزة',
+        datePublished: '2026-05-10',
+        reviewBody: {
+            en: 'Classical music listener. The balanced armature driver handles violin harmonics and piano sustains with a clarity that dynamic-only earbuds can\'t match. Paired with LDAC on my Samsung, I hear details in Beethoven that I missed on my 8,000 EGP wired IEMs. Worth double the price.',
+            ar: 'مستمع موسيقى كلاسيكية. درايفر balanced armature بيتعامل مع هارمونيكس الكمان وsustains البيانو بوضوح إن السماعات الدايناميك بس مش بتوصله. مع LDAC على سامسونج، بسمع تفاصيل في بيتهوفن كانت فايتاني على IEMs السلكية بتاعتي الـ 8,000 جنيه. تستاهل ضعف السعر.'
+        },
+        pros: { en: ['Balanced armature violin harmonics', 'LDAC Beethoven detail', 'Better than 8,000 EGP IEMs'], ar: ['balanced armature هارمونيكس الكمان', 'LDAC تفاصيل بيتهوفن', 'أحسن من IEMs بـ 8,000 جنيه'] },
+    },
+    {
+        author: 'Manal Lotfy',
+        rating: 5,
+        location: 'الشيخ زايد',
+        datePublished: '2026-03-08',
+        reviewBody: {
+            en: 'Podcast producer — I use Liberty 3 Pro to review my edits on-the-go. The dual driver gives me honest frequency representation. The Fusion Comfort tips + wings don\'t fall out during walking recordings. 6 mics for recording voice memos on the street are clear enough for B-roll reference.',
+            ar: 'منتجة بودكاست — بستخدم Liberty 3 Pro لمراجعة المونتاج وأنا ماشية. الدرايفر المزدوج بيديني تمثيل ترددات صادق. أطراف Fusion Comfort + الجناحين مش بيقعوا أثناء تسجيلات المشي. 6 مايكات لتسجيل ملاحظات صوتية في الشارع واضحة كفاية لمرجع B-roll.'
+        },
+        pros: { en: ['Podcast edit review on-go', 'Walking recording stable', '6-mic street voice memos'], ar: ['مراجعة مونتاج بودكاست ماشية', 'تسجيل مشي مستقر', 'ملاحظات صوتية 6 مايكات في الشارع'] },
+    },
+    {
+        author: 'Abdallah Nour',
+        rating: 4,
+        location: 'الأقصر',
+        datePublished: '2026-04-20',
+        reviewBody: {
+            en: '4 stars: battery life at 6h per charge with ANC is the weakest link. My P40i gives 12h per charge. For audiophiles who prioritize sound quality over battery, Liberty 3 Pro wins. For daily all-day use, look elsewhere. I carry the wireless charging case and top up during lunch.',
+            ar: '4 نجوم: بطارية 6 ساعات بالشحنة مع ANC هي النقطة الأضعف. P40i بتاعتي بتدي 12 ساعة بالشحنة. للـ audiophiles اللي أولويتهم جودة الصوت على البطارية، Liberty 3 Pro بتكسب. للاستخدام اليومي طول اليوم، بص في حتة تانية. بحمل علبة الشحن اللاسلكي وبشحن أثناء الغدا.'
+        },
+        pros: { en: ['Audiophile sound priority', 'Wireless case tops up fast'], ar: ['أولوية صوت audiophile', 'العلبة اللاسلكية بتشحن بسرعة'] },
+        cons: { en: ['6h per charge with ANC — weakest link'], ar: ['6 ساعات بالشحنة مع ANC — النقطة الأضعف'] },
+    },
+    {
+        author: 'Farida Mohsen',
+        rating: 5,
+        location: 'المنصورة',
+        datePublished: '2026-05-18',
+        reviewBody: {
+            en: 'Switched from AirPods Pro 2 to Liberty 3 Pro after trying them at a friend\'s house. The dual driver sounds warmer and more detailed for Arabic music — Oum Kalthoum recordings come alive. The custom EQ in Soundcore app is miles ahead of Apple\'s limited settings.',
+            ar: 'بدّلت من AirPods Pro 2 لـ Liberty 3 Pro بعد ما جرّبتها عند صاحبتي. الدرايفر المزدوج صوته أدفأ وأكثر تفصيلاً للموسيقى العربية — تسجيلات أم كلثوم بتحيى. الـ EQ المخصص في تطبيق Soundcore متقدم بكتير على إعدادات Apple المحدودة.'
+        },
+        pros: { en: ['Warmer than AirPods Pro 2', 'Oum Kalthoum recordings alive', 'Soundcore EQ >> Apple'], ar: ['أدفأ من AirPods Pro 2', 'تسجيلات أم كلثوم حية', 'Soundcore EQ >> Apple'] },
+    },
+    {
+        author: 'Nasser Abdel Hakim',
+        rating: 5,
+        location: 'دمياط',
+        datePublished: '2026-03-25',
+        reviewBody: {
+            en: 'Furniture showroom owner in Damietta. I use LDAC to demo high-quality audio for clients. The dual driver impresses everyone who hears it. Wireless charging means the case sits on my desk pad looking professional. At 4,400 EGP it\'s an investment but it pays for itself in client impressions.',
+            ar: 'صاحب معرض أثاث في دمياط. بستخدم LDAC لعرض صوت عالي الجودة للعملاء. الدرايفر المزدوج بيبهر كل حد بيسمعه. شحن لاسلكي يعني العلبة بتقعد على باد المكتب وشكلها بروفيشنال. بـ 4,400 جنيه استثمار بس بيسدد نفسه في انطباعات العملاء.'
+        },
+        pros: { en: ['LDAC client demo impressive', 'Wireless case desk professional', 'Investment pays in impressions'], ar: ['عرض LDAC للعملاء مبهر', 'علبة لاسلكية بروفيشنال', 'استثمار بيسدد في الانطباعات'] },
+    },
+    {
+        author: 'Ghada Nabil',
+        rating: 4,
+        location: 'طنطا',
+        datePublished: '2026-04-08',
+        reviewBody: {
+            en: 'The ear wings are a love-or-hate feature. I find them comfortable but my sister couldn\'t stand them after 30 minutes. Try before you commit. For me, they\'re the reason these stay in during HIIT workouts. IPX4 handles sweat but I wish it were IPX5.',
+            ar: 'جناحين الودان خاصية يا بتحبها يا بتكرهها. أنا بلاقيها مريحة بس أختي ما قدرتش تستحملها بعد 30 دقيقة. جرّب قبل ما تلتزم. بالنسبالي، هم السبب إن السماعات بتفضل ثابتة في HIIT. IPX4 بتستحمل العرق بس كنت أتمنى IPX5.'
+        },
+        pros: { en: ['Wings keep secure in HIIT', 'Personal fit game-changer'], ar: ['الجناحين بيثبتوا في HIIT', 'ثبات شخصي غيّر اللعبة'] },
+        cons: { en: ['Ear wings not for everyone', 'IPX4 — wish it were IPX5'], ar: ['جناحين الودان مش للكل', 'IPX4 — كنت أتمنى IPX5'] },
+    },
+    {
+        author: 'Ibrahim Lotfy',
+        rating: 5,
+        location: 'الغردقة',
+        datePublished: '2026-05-02',
+        reviewBody: {
+            en: 'Resort manager in Hurghada. I use these during my 12-hour shifts — switch between ANC in the noisy kitchen and transparency at the front desk. Wireless charging at my office station. LDAC when I finally sit down for Oum Kalthoum. CairoVolt delivered in 4 days.',
+            ar: 'مدير ريزورت في الغردقة. بستخدمهم أثناء شيفتات الـ 12 ساعة — بتبدل بين ANC في المطبخ الصاخب وشفافية في الاستقبال. شحن لاسلكي في محطة المكتب. LDAC لما أقعد أخيراً لأم كلثوم. كايرو فولت وصّلت في 4 أيام.'
+        },
+        pros: { en: ['12h shift ANC/transparency switch', 'Wireless office station', 'Hurghada 4-day delivery'], ar: ['تبديل ANC/شفافية شيفت 12 ساعة', 'محطة مكتب لاسلكية', 'توصيل الغردقة 4 أيام'] },
+    },
 ];

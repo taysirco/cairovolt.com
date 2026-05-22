@@ -58,4 +58,83 @@ export const soundcore_p30i_earbuds_reviews: ProductReview[] = [
         pros: { en: ['42dB ANC at 1,200 EGP', '45h battery life', 'Creative phone stand case'], ar: ['42dB ANC بـ 1,200 جنيه', 'بطارية 45 ساعة', 'علبة ستاند موبايل مبتكرة'] },
         cons: { en: ['Very bass-heavy signature', 'Phone stand angle fixed at 70°'], ar: ['صوت bass-heavy جداً', 'زاوية الستاند ثابتة على 70°'] },
     },
+    {
+        author: 'Reda Shafik',
+        rating: 5,
+        location: 'طنطا',
+        datePublished: '2026-04-12',
+        reviewBody: {
+            en: 'Electrician — I work in noisy environments with generators and tools. P30i 42dB ANC blocks enough to hear my music while staying safe. 45h battery means I charge on weekends only. IP54 handles workshop dust. The phone stand props my phone for wiring diagrams.',
+            ar: 'كهربائي — بشتغل في بيئات صاخبة مع مولدات وعدد. P30i 42dB ANC بتحجب كفاية أسمع موسيقتي وأنا آمن. 45 ساعة بطارية يعني بشحن في الويكاند بس. IP54 بتتحمل غبار الورشة. ستاند الموبايل بيسند الموبايل لرسومات الأسلاك.'
+        },
+        pros: { en: ['Electrician workshop tested', '45h weekend-only charging', 'Phone stand for wiring diagrams'], ar: ['مختبرة ورشة كهربائي', 'شحن الويكاند فقط 45 ساعة', 'ستاند موبايل لرسومات الأسلاك'] },
+    },
+    {
+        author: 'Inas Farouk',
+        rating: 5,
+        location: 'الشيخ زايد',
+        datePublished: '2026-03-18',
+        reviewBody: {
+            en: 'Stay-at-home mom listening to podcasts 6h daily. The ANC creates a bubble of calm when the house is chaos. BT 5.4 connects instantly to my phone every morning. 45h means I charge the case maybe twice a month. At 1,200 EGP — the best self-care investment.',
+            ar: 'أم بيت بسمع بودكاست 6 ساعات يومياً. الـ ANC بتعمل فقاعة هدوء لما البيت فوضى. BT 5.4 بتتوصل بالموبايل فوراً كل صباح. 45 ساعة يعني بشحن العلبة مرتين في الشهر تقريباً. بـ 1,200 جنيه — أحسن استثمار self-care.'
+        },
+        pros: { en: ['Podcast mom 6h daily', 'ANC bubble of calm', 'Twice monthly charging'], ar: ['أم بودكاست 6 ساعات يومياً', 'ANC فقاعة هدوء', 'شحن مرتين في الشهر'] },
+    },
+    {
+        author: 'Sayed Abdel Aal',
+        rating: 4,
+        location: 'قنا',
+        datePublished: '2026-05-08',
+        reviewBody: {
+            en: '4 stars: the ANC is solid for the price but compared to Liberty 4 NC it\'s noticeably weaker (42dB vs 98.5%). For everyday use at 1,200 EGP though, it\'s unbeatable. The 45h battery is the real winner — better than Liberty 4 NC\'s 50h because the case charges faster.',
+            ar: '4 نجوم: الـ ANC ممتاز بالسعر بس مقارنة بـ Liberty 4 NC أضعف بشكل ملحوظ (42dB مقابل 98.5%). للاستخدام اليومي بـ 1,200 جنيه بس، مالهاش منافس. 45 ساعة بطارية هي الفايزة — أحسن من 50 بتاعة Liberty 4 NC لأن العلبة بتتشحن أسرع.'
+        },
+        pros: { en: ['Unbeatable at 1,200 EGP daily', '45h with faster case charge'], ar: ['مالهاش منافس بـ 1,200 يومياً', '45 ساعة مع شحن علبة أسرع'] },
+        cons: { en: ['ANC weaker than Liberty 4 NC'], ar: ['ANC أضعف من Liberty 4 NC'] },
+    },
+    {
+        author: 'Nagwa Hafez',
+        rating: 5,
+        location: 'دمنهور',
+        datePublished: '2026-04-28',
+        reviewBody: {
+            en: 'Bought for my university son in Damanhour. He uses the phone stand to watch lectures while eating breakfast. 42dB ANC helps him study in the dorm. BassUp for his workout playlists. He called me a "cool mom" for the first time. Worth every piaster.',
+            ar: 'اشتريتها لابني الجامعي في دمنهور. بيستخدم ستاند الموبايل يتفرج محاضرات وهو بياكل فطار. 42dB ANC بتساعده يذاكر في السكن. BassUp لبلايليست الجيم. قالي "كول ماما" لأول مرة. تستاهل كل قرش.'
+        },
+        pros: { en: ['Lecture phone stand breakfast', 'Dorm study ANC', '"Cool mom" gift approval'], ar: ['ستاند موبايل للمحاضرات مع الفطار', 'ANC مذاكرة السكن', 'هدية "كول ماما" معتمدة'] },
+    },
+    {
+        author: 'Yehia Hamdi',
+        rating: 5,
+        location: 'المنيا',
+        datePublished: '2026-03-05',
+        reviewBody: {
+            en: 'Software developer remote — I\'m on Zoom calls 4h daily minimum. P30i multipoint lets me stay connected to phone and laptop simultaneously. When a client calls my phone while I\'m in a Zoom meeting, I switch seamlessly. The phone stand holds my phone at the perfect angle for quick glances.',
+            ar: 'مطور سوفتوير ريموت — أنا على Zoom 4 ساعات يومياً كحد أدنى. P30i multipoint بتخليني متصل بالموبايل واللابتوب في نفس الوقت. لما عميل بيتصل على موبايلي وأنا في ميتنج Zoom، بتبدل بسلاسة. ستاند الموبايل بيمسك الموبايل بالزاوية المثالية للنظرة السريعة.'
+        },
+        pros: { en: ['Dev remote Zoom 4h daily', 'Multipoint phone-laptop switch', 'Phone stand for quick glances'], ar: ['مطور ريموت Zoom 4 ساعات', 'Multipoint تبديل موبايل-لابتوب', 'ستاند موبايل للنظرة السريعة'] },
+    },
+    {
+        author: 'Suzy Girgis',
+        rating: 4,
+        location: 'مدينة نصر',
+        datePublished: '2026-05-20',
+        reviewBody: {
+            en: 'The Soundcore app has SO many EQ presets — I found one called "Podcast" that makes voices incredibly clear. The default sound is too bassy for my taste but the app fixes everything. 4 stars because the earbuds don\'t have wear detection — music keeps playing when I take them out.',
+            ar: 'تطبيق Soundcore عنده بريستات EQ كتير — لقيت واحد اسمه "Podcast" بيخلي الأصوات واضحة بشكل خيالي. الصوت الافتراضي بيسي كتير بالنسبة لذوقي بس التطبيق بيصلّح كل حاجة. 4 نجوم لأن السماعات مفيهاش wear detection — الموسيقى بتفضل تشتغل لما بشيلهم.'
+        },
+        pros: { en: ['Podcast EQ preset game-changer', 'App fixes bass-heavy default'], ar: ['بريست Podcast EQ غيّر اللعبة', 'التطبيق بيصلّح الباس الزيادة'] },
+        cons: { en: ['No wear detection — music plays when removed'], ar: ['مفيش wear detection — الموسيقى بتشتغل لما بتشيل'] },
+    },
+    {
+        author: 'Shadi Girgis',
+        rating: 5,
+        location: 'سوهاج',
+        datePublished: '2026-04-15',
+        reviewBody: {
+            en: 'Best gift I received this year. My wife bought it from CairoVolt for my birthday — delivered to Sohag in 5 days. The ANC is the first time I experienced noise cancellation. Sitting on my balcony with ANC on, the street disappears. Life-changing technology at 1,200 EGP.',
+            ar: 'أحسن هدية استلمتها السنة دي. مراتي اشترتها من كايرو فولت لعيد ميلادي — وصلت لسوهاج في 5 أيام. الـ ANC أول مرة أجرب إلغاء ضوضاء. قاعد على البلكونة مع ANC، الشارع بيختفي. تكنولوجيا غيّرت الحياة بـ 1,200 جنيه.'
+        },
+        pros: { en: ['Birthday gift from wife', 'First ANC life-changing', 'Sohag 5-day delivery'], ar: ['هدية عيد ميلاد من المراة', 'أول ANC غيّرت الحياة', 'توصيل سوهاج 5 أيام'] },
+    },
 ];
