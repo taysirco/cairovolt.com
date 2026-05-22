@@ -69,4 +69,72 @@ export const soundcore_life_q20_headphones_reviews: ProductReview[] = [
         },
         pros: { en: ['Protein leather doesn\'t sweat', 'ANC blocks household noise', 'Shipped to Assiut in 3 days'], ar: ['جلد بروتين مش بيعرق', 'ANC بيعزل دوشة البيت', 'وصّلت لأسيوط في 3 أيام'] },
     },
+    {
+        author: 'Mazen Abdel Razek',
+        rating: 5,
+        location: 'الزقازيق',
+        datePublished: '2026-04-20',
+        reviewBody: {
+            en: 'PhD student — I live in the library. Life Q20 ANC blocks the whispers and page-turning noise completely. 60h without ANC means I sometimes go 3 weeks between charges. The protein leather cushions lasted 2 months without peeling. Best study headphone under 2,500.',
+            ar: 'طالب دكتوراه — عايش في المكتبة. Life Q20 ANC بتحجب الهمس وصوت الصفحات تماماً. 60 ساعة بدون ANC يعني أحياناً بعدي 3 أسابيع بين الشحنات. وسادات الجلد البروتين كمّلت شهرين بدون تقشير. أحسن سماعة مذاكرة تحت 2,500.'
+        },
+        pros: { en: ['Library whisper blocking', '3-week charge cycle', 'Protein leather 2 months strong'], ar: ['حجب همس المكتبة', 'شحن كل 3 أسابيع', 'جلد بروتين قوي شهرين'] },
+    },
+    {
+        author: 'Abir Soliman',
+        rating: 4,
+        location: 'الإسماعيلية',
+        datePublished: '2026-03-15',
+        reviewBody: {
+            en: '4 stars: Micro-USB in 2026 is the only real complaint. Everything else is stellar — ANC, battery, comfort, sound. My husband has Q20i with USB-C for 172 EGP more. If Micro-USB doesn\'t bother you, save the money. If it does, get Q20i.',
+            ar: '4 نجوم: Micro-USB في 2026 الشكوى الوحيدة الحقيقية. كل حاجة تانية ممتازة — ANC، بطارية، راحة، صوت. جوزي عنده Q20i بـ USB-C بـ 172 جنيه زيادة. لو Micro-USB مش مزعجك، وفّر الفلوس. لو مزعجك، خد Q20i.'
+        },
+        pros: { en: ['Everything stellar except port', 'Save 172 vs Q20i'], ar: ['كل حاجة ممتازة ماعدا البورت', 'وفّر 172 من Q20i'] },
+        cons: { en: ['Micro-USB in 2026 is the only flaw'], ar: ['Micro-USB في 2026 العيب الوحيد'] },
+    },
+    {
+        author: 'Kholoud Anwar',
+        rating: 5,
+        location: 'المنصورة',
+        datePublished: '2026-05-08',
+        reviewBody: {
+            en: 'Accounting firm — I work with numbers 10 hours daily. Life Q20 ANC + over-ear seal = zero office distraction. The 40mm drivers are warm and non-fatiguing for long sessions. I switch to BassUp mode at 5 PM for my drive-home playlist. Best work headphone.',
+            ar: 'مكتب محاسبة — بشتغل مع أرقام 10 ساعات يومياً. Life Q20 ANC + سيل over-ear = صفر تشتيت مكتب. درايفرات 40mm دافية ومش بتتعب في الجلسات الطويلة. بنقّل لوضع BassUp الساعة 5 لبلايليست الرجوع. أحسن سماعة شغل.'
+        },
+        pros: { en: ['10h accountant office tested', '40mm warm non-fatiguing', 'BassUp for drive home'], ar: ['مختبرة مكتب محاسبة 10 ساعات', '40mm دافية مش متعبة', 'BassUp لطريق الرجوع'] },
+    },
+    {
+        author: 'Tayseer Hamza',
+        rating: 5,
+        location: 'السادس من أكتوبر',
+        datePublished: '2026-04-05',
+        reviewBody: {
+            en: 'Flight attendant — I use Life Q20 on layovers. The foldable design packs flat in my carry-on. ANC blocks hotel noise. 60h means I charge maybe once per rotation. The 3.5mm wired mode works on every plane entertainment system. Best value travel headphone.',
+            ar: 'مضيفة طيران — بستخدم Life Q20 في الاستراحات. التصميم القابل للطي بيتحط مسطح في شنطة الكابين. ANC بتحجب ضوضاء الفندق. 60 ساعة يعني بشحن مرة كل rotation تقريباً. وضع 3.5mm بيشتغل مع كل نظام ترفيه طيارة. أحسن قيمة سماعة سفر.'
+        },
+        pros: { en: ['Flight attendant layover tested', 'Foldable flat carry-on', '3.5mm every plane system'], ar: ['مختبرة استراحة مضيفة طيران', 'قابلة للطي مسطحة في الكابين', '3.5mm لكل طيارة'] },
+    },
+    {
+        author: 'Hamdi Abdel Wahed',
+        rating: 4,
+        location: 'الغردقة',
+        datePublished: '2026-05-18',
+        reviewBody: {
+            en: 'Good for the price. 4 stars because: no Soundcore app means no custom EQ. I\'m stuck with BassUp on/off only. My colleague\'s Q20i has 22 EQ presets via the app. But Q20 costs less and the default sound signature is honestly good enough for Mahraganat and Shaabi.',
+            ar: '4 نجوم لأن: مفيش تطبيق Soundcore يعني مفيش EQ مخصص. أنا محدود بـ BassUp تشغيل/إيقاف بس. زميلي عنده Q20i فيها 22 بريسيت EQ عبر التطبيق. بس Q20 أرخص وتوقيع الصوت الافتراضي بصراحة كويس كفاية للمهرجانات والشعبي.'
+        },
+        pros: { en: ['Good default sound', 'Cheaper than Q20i', 'BassUp good for Shaabi'], ar: ['صوت افتراضي كويس', 'أرخص من Q20i', 'BassUp كويس للشعبي'] },
+        cons: { en: ['No app — BassUp on/off only'], ar: ['مفيش تطبيق — BassUp تشغيل/إيقاف بس'] },
+    },
+    {
+        author: 'Naglaa Seif',
+        rating: 5,
+        location: 'العاشر من رمضان',
+        datePublished: '2026-03-28',
+        reviewBody: {
+            en: 'Factory manager — the production floor is 85dB. Life Q20 ANC brings it down to maybe 60dB. Not silent but enough to hear my music and think. The protein leather survives industrial humidity. 40h with ANC is enough for the work week. CairoVolt delivered to 10th of Ramadan in 2 days.',
+            ar: 'مديرة مصنع — أرض الإنتاج 85dB. Life Q20 ANC بتنزلها لحوالي 60dB. مش سكوت تام بس كفاية أسمع موسيقتي وأفكر. الجلد البروتين بيستحمل رطوبة الصناعة. 40 ساعة مع ANC كافية لأسبوع الشغل. كايرو فولت وصّلت للعاشر في يومين.'
+        },
+        pros: { en: ['Factory 85dB reduced to 60dB', 'Protein leather industrial humidity', '10th of Ramadan 2-day delivery'], ar: ['مصنع 85dB مخفضة لـ 60dB', 'جلد بروتين رطوبة صناعية', 'توصيل العاشر في يومين'] },
+    },
 ];

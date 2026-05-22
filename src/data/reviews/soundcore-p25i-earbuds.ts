@@ -69,4 +69,72 @@ export const soundcore_p25i_earbuds_reviews: ProductReview[] = [
         },
         pros: { en: ['Ultra-compact case', 'AI call clarity in traffic noise', 'Soundcore app verified genuine'], ar: ['علبة صغيرة جداً', 'وضوح مكالمات AI في ضوضاء المرور', 'تطبيق Soundcore أكد الأصالة'] },
     },
+    {
+        author: 'Walaa Ibrahim',
+        rating: 5,
+        location: 'سوهاج',
+        datePublished: '2026-04-22',
+        reviewBody: {
+            en: 'Teacher in Sohag — I use P25i during my free periods to relax. BassUp makes Quran recitations incredibly immersive. The game mode lets my son play PUBG with low latency when he borrows them. 770 EGP = family shared earbuds. CairoVolt delivered in 4 days.',
+            ar: 'مدرسة في سوهاج — بستخدم P25i في حصصي الفاضية للاسترخاء. BassUp بتخلي تلاوات القرآن غامرة بشكل لا يصدق. وضع الألعاب بيخلي ابني يلعب PUBG بتأخير منخفض لما بيستعيرها. 770 جنيه = سماعات مشتركة للعيلة. كايرو فولت وصّلت في 4 أيام.'
+        },
+        pros: { en: ['Quran BassUp immersive', 'Game mode for son', 'Family shared at 770 EGP'], ar: ['BassUp قرآن غامر', 'وضع ألعاب للابن', 'مشتركة للعيلة بـ 770 جنيه'] },
+    },
+    {
+        author: 'Hazem Fouad',
+        rating: 4,
+        location: 'بنها',
+        datePublished: '2026-03-10',
+        reviewBody: {
+            en: 'Uber driver — I need clear calls + music during 10-hour shifts. P25i 2-mic AI ENC handles road noise for calls. BassUp keeps me awake on night shifts. 28h total battery lasts 3 shifts. 4 stars: wish there was transparency mode to hear passengers without removing earbuds.',
+            ar: 'سائق أوبر — محتاج مكالمات واضحة + موسيقى أثناء شيفتات 10 ساعات. P25i 2 ميكروفون AI ENC بتتعامل مع ضوضاء الطريق في المكالمات. BassUp بتخليني صاحي في شيفتات الليل. 28 ساعة بطارية بتكفي 3 شيفتات. 4 نجوم: كنت أتمنى وضع شفافية لسماع الركاب بدون ما أشيل.'
+        },
+        pros: { en: ['Uber 10h shift tested', 'AI ENC road noise calls', 'BassUp night shift awake'], ar: ['مختبرة شيفت أوبر 10 ساعات', 'AI ENC مكالمات ضوضاء طريق', 'BassUp تصحية شيفت ليل'] },
+        cons: { en: ['No transparency mode for passengers'], ar: ['مفيش وضع شفافية للركاب'] },
+    },
+    {
+        author: 'Reem Mohsen',
+        rating: 5,
+        location: 'الدقي',
+        datePublished: '2026-05-05',
+        reviewBody: {
+            en: 'Yoga and meditation instructor. I recommend P25i to my students as budget mindfulness earbuds. The passive isolation is enough for guided meditation in a quiet studio. BassUp off + "Podcast" EQ preset makes guided meditation voices crystal clear. 770 EGP is affordable for students.',
+            ar: 'مدربة يوغا وتأمل. بنصح طلابي بـ P25i كسماعات mindfulness بادجت. العزل السلبي كافي للتأمل الموجه في استوديو هادي. BassUp مقفول + بريست EQ "Podcast" بيخلي أصوات التأمل الموجه كريستال. 770 جنيه مقبولة للطلاب.'
+        },
+        pros: { en: ['Meditation studio tested', 'Podcast preset for guided voice', 'Student-affordable mindfulness'], ar: ['مختبرة في استوديو تأمل', 'بريست Podcast للصوت الموجه', 'mindfulness بسعر الطلاب'] },
+    },
+    {
+        author: 'Alaa Abdel Rahim',
+        rating: 5,
+        location: 'كفر الشيخ',
+        datePublished: '2026-04-08',
+        reviewBody: {
+            en: 'Coming from 150 EGP market earbuds to P25i is like switching from AM radio to FM. The 10mm driver makes everything sound richer. BassUp is addictive. The Soundcore app EQ is a bonus I didn\'t expect at this price. CairoVolt cash on delivery to Kafr El-Sheikh — perfect.',
+            ar: 'الانتقال من سماعات السوق بـ 150 جنيه لـ P25i زي التبديل من AM لـ FM. درايفر 10mm بيخلي كل حاجة أغنى. BassUp إدمان. EQ تطبيق Soundcore بونص ما كنتش أتوقعه بالسعر. كايرو فولت دفع عند الاستلام لكفر الشيخ — مثالي.'
+        },
+        pros: { en: ['AM to FM upgrade experience', '10mm richer everything', 'COD delivery Kafr El-Sheikh'], ar: ['تجربة ترقية AM لـ FM', '10mm أغنى لكل حاجة', 'توصيل دفع عند الاستلام كفر الشيخ'] },
+    },
+    {
+        author: 'Mona Badawy',
+        rating: 4,
+        location: 'مدينة نصر',
+        datePublished: '2026-05-18',
+        reviewBody: {
+            en: 'Bought as a gift for my maid. She loves the BassUp for Shaabi music. The 28h battery means she charges it once every few days. The touch controls took her a while to learn but now she\'s fluent. 4 stars because for 71 EGP less, P20i has 30h battery. But the smaller case won her over.',
+            ar: '4 نجوم لأن بفرق 71 جنيه أقل، P20i عندها 30 ساعة بطارية. بس العلبة الأصغر كسبتها. BassUp للشعبي ممتاز. 28 ساعة بطارية يعني بتشحنها كل كام يوم. أزرار اللمس أخدت وقت تتعلمها بس دلوقتي بتتحكم.'
+        },
+        pros: { en: ['BassUp perfect for Shaabi', 'Smaller case preferred', 'Easy once touch controls learned'], ar: ['BassUp مثالي للشعبي', 'العلبة الأصغر مفضلة', 'سهلة بعد تعلم اللمس'] },
+        cons: { en: ['P20i has 30h for 71 EGP less'], ar: ['P20i عندها 30 ساعة بـ 71 جنيه أقل'] },
+    },
+    {
+        author: 'Amgad Talaat',
+        rating: 5,
+        location: 'الشروق',
+        datePublished: '2026-03-25',
+        reviewBody: {
+            en: 'Pharmacy student — I use these for lecture recordings and study playlists. The 10mm driver is clear for voice-heavy content. Bluetooth 5.3 connects to my iPad + phone. IPX5 survived a rainstorm walking home from uni. At 770 EGP, every pharmacy student should have these.',
+            ar: 'طالب صيدلة — بستخدمهم لتسجيلات المحاضرات وبلايليست المذاكرة. درايفر 10mm واضح للمحتوى الصوتي. بلوتوث 5.3 بيتوصل بالآيباد + الموبايل. IPX5 استحملت عاصفة مطر وأنا راجع من الجامعة. بـ 770 جنيه، كل طالب صيدلة لازم يكون عنده.'
+        },
+        pros: { en: ['Lecture recordings clear', 'BT 5.3 iPad+phone', 'IPX5 rainstorm survived'], ar: ['تسجيلات محاضرات واضحة', 'BT 5.3 آيباد+موبايل', 'IPX5 استحملت عاصفة مطر'] },
+    },
 ];

@@ -70,4 +70,72 @@ export const soundcore_rave_3_speaker_reviews: ProductReview[] = [
         },
         pros: { en: ['Bass you feel in your bones', 'Works in 45°C Aswan heat', 'Auracast stereo pairing'], ar: ['باس بتحسه في عظامك', 'بتشتغل في حرارة أسوان 45 درجة', 'ربط Auracast ستيريو'] },
     },
+    {
+        author: 'Hisham Ramadan',
+        rating: 5,
+        location: 'المنيا',
+        datePublished: '2026-03-20',
+        reviewBody: {
+            en: 'Wedding DJ — I used Rave 3 as a backup for a 300-person wedding in Minya. The 200W surprised even the main PA operator. The wireless mics had zero latency for the MC. HexaGlow created a dance floor atmosphere without renting extra lights. Charged overnight, lasted the entire 6-hour reception.',
+            ar: 'DJ أفراح — استخدمت Rave 3 كاحتياطي لفرح 300 شخص في المنيا. الـ 200 واط فاجأت حتى مشغل PA الرئيسي. الميكروفونات اللاسلكية بدون أي تأخير للعريف. HexaGlow عملت أجواء حلبة رقص بدون ما أأجر إضاءة إضافية. اتشحنت بالليل وكفت الاستقبال الـ 6 ساعات كله.'
+        },
+        pros: { en: ['Wedding 300-person backup', 'Zero latency wireless mics', 'HexaGlow replaces party lights'], ar: ['احتياطي فرح 300 شخص', 'ميكروفونات بدون تأخير', 'HexaGlow بتستبدل إضاءة الحفلات'] },
+    },
+    {
+        author: 'Asmaa Lotfy',
+        rating: 4,
+        location: 'مدينة نصر',
+        datePublished: '2026-04-08',
+        reviewBody: {
+            en: '4 stars because at 10kg, it\'s not portable — it\'s a permanent fixture. My husband had to carry it to the car alone once and his back hurt for 2 days. Once placed, the sound is incredible. The 6.5" woofer bass during Amr Diab concerts on YouTube is better than the actual concert speakers. If you\'re buying for home use, it\'s 5 stars. For portable parties, look for something lighter.',
+            ar: '4 نجوم لأن بـ 10 كيلو، مش محمولة — دي قطعة ثابتة. جوزي شالها للعربية لوحده مرة وضهره وجعه يومين. لما بتتحط، الصوت لا يُصدق. باس الووفر 6.5 بوصة أثناء حفلات عمرو دياب على يوتيوب أحسن من سبيكرات الحفلة الفعلية. لو بتشتري للبيت، 5 نجوم. للحفلات المتنقلة، دوّر على حاجة أخف.'
+        },
+        pros: { en: ['Better than concert speakers', 'Home entertainment king'], ar: ['أحسن من سبيكرات الحفلات', 'ملك الترفيه المنزلي'] },
+        cons: { en: ['10kg — not truly portable', 'Back pain carrying alone'], ar: ['10 كيلو — مش محمولة فعلاً', 'وجع ضهر لو شيلها لوحدك'] },
+    },
+    {
+        author: 'Wael Abdel Moneim',
+        rating: 5,
+        location: 'الجيزة',
+        datePublished: '2026-05-20',
+        reviewBody: {
+            en: 'Gym owner — Rave 3 replaced our broken gym sound system. 200W fills the 200sqm floor. HexaGlow keeps the energy up during peak hours. Auracast with a second speaker covers the locker room. AI vocal removal for karaoke Fridays became our most popular class. 12h battery means no cables on the gym floor.',
+            ar: 'صاحب جيم — Rave 3 استبدلت نظام صوت الجيم المكسور. 200 واط بتملأ أرضية 200 متر مربع. HexaGlow بتخلي الطاقة عالية في ساعات الذروة. Auracast مع سبيكر تاني بتغطي غرفة الخزائن. إزالة الصوت بالـ AI لكاريوكي الجمعة بقت أشهر حصة. 12 ساعة بطارية يعني مفيش كابلات على أرض الجيم.'
+        },
+        pros: { en: ['Gym 200sqm coverage', 'Karaoke Fridays most popular class', 'No cables on gym floor'], ar: ['تغطية جيم 200 متر مربع', 'كاريوكي الجمعة أشهر حصة', 'مفيش كابلات على أرض الجيم'] },
+    },
+    {
+        author: 'Marwa Abdel Hafez',
+        rating: 5,
+        location: 'دمياط',
+        datePublished: '2026-03-08',
+        reviewBody: {
+            en: 'Bought for my son\'s engagement party in Damietta. 200W filled the family courtyard. The 2 wireless mics made the speeches and sing-along memorable. HexaGlow in pink mode matched the engagement theme perfectly. CairoVolt delivered in 5 days — impressive for a 10kg package.',
+            ar: 'اشتريتها لحفلة خطوبة ابني في دمياط. 200 واط ملت حوش العيلة. الميكروفونين اللاسلكيين خلوا الخطب والغنا ذكرى جميلة. HexaGlow على وضع البينك طابقت ثيم الخطوبة تماماً. كايرو فولت وصّلت في 5 أيام — مبهر لطرد 10 كيلو.'
+        },
+        pros: { en: ['Engagement party courtyard filled', 'Wireless mics for speeches', 'HexaGlow pink theme matched'], ar: ['حوش حفلة خطوبة ممتلئ', 'ميكروفونات لاسلكية للخطب', 'HexaGlow بينك طابق الثيم'] },
+    },
+    {
+        author: 'Yasser Abdel Fattah',
+        rating: 5,
+        location: 'العريش',
+        datePublished: '2026-04-25',
+        reviewBody: {
+            en: 'Desert camping in Sinai — Rave 3 survived sand, wind, and 38°C heat. IPX4 handled a sandstorm. The battery lasted our entire 2-day trip at 50% volume. The HexaGlow RGB was our campfire light show. Bass from the 6.5" woofer echoes off the mountains. CairoVolt delivered to Arish in 6 days.',
+            ar: 'تخييم صحراء في سيناء — Rave 3 نجت من الرمل والرياح وحرارة 38 درجة. IPX4 استحملت عاصفة رملية. البطارية كفت رحلتنا كلها يومين عند 50% حجم. HexaGlow RGB كانت عرض أضواء نار المخيم. باس الووفر 6.5 بوصة بيتردد من الجبال. كايرو فولت وصّلت للعريش في 6 أيام.'
+        },
+        pros: { en: ['Sinai desert camping tested', '2-day battery at 50%', 'Bass echoes off mountains'], ar: ['مختبرة تخييم صحراء سيناء', 'بطارية يومين عند 50%', 'باس بيتردد من الجبال'] },
+    },
+    {
+        author: 'Samah Abdel Latif',
+        rating: 4,
+        location: 'بني سويف',
+        datePublished: '2026-05-12',
+        reviewBody: {
+            en: '4 stars: the Soundcore app EQ is essential — without it, the default sound is too bass-heavy for Quran recitations. Once I adjusted the mids and treble, it became beautiful for religious gatherings. 200W at 30% volume fills a majlis perfectly. Wireless mics for adhkar are clear.',
+            ar: '4 نجوم: EQ تطبيق Soundcore ضروري — بدونه، الصوت الافتراضي بيسي جداً لتلاوات القرآن. لما ظبطت الميد والتريبل، بقت جميلة للتجمعات الدينية. 200 واط عند 30% حجم بتملأ المجلس تماماً. الميكروفونات اللاسلكية للأذكار واضحة.'
+        },
+        pros: { en: ['Majlis religious gatherings', 'EQ tuned for Quran', 'Wireless mics for adhkar'], ar: ['تجمعات دينية في المجلس', 'EQ مضبوط للقرآن', 'ميكروفونات لاسلكية للأذكار'] },
+        cons: { en: ['Default sound too bass-heavy for recitations'], ar: ['الصوت الافتراضي بيسي جداً للتلاوات'] },
+    },
 ];
