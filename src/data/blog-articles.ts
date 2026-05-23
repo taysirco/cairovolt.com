@@ -46,6 +46,7 @@ import { travel_charger_usb_c_usb_a_sahel_trip } from './blog/travel-charger-usb
 import { twenty_w_30w_45w_65w_100w_charger_which_you_need } from './blog/20w-30w-45w-65w-100w-charger-which-you-need';
 import { two_in_1_wireless_charger_phone_watch_bedside } from './blog/2-in-1-wireless-charger-phone-watch-bedside';
 import { charge_phone_overnight_safe_or_not } from './blog/charge-phone-overnight-safe-or-not';
+import { samsung_s26_ultra_45w_super_fast_charging_real } from './blog/samsung-s26-ultra-45w-super-fast-charging-real';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -90,6 +91,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     twenty_w_30w_45w_65w_100w_charger_which_you_need,
     two_in_1_wireless_charger_phone_watch_bedside,
     charge_phone_overnight_safe_or_not,
+    samsung_s26_ultra_45w_super_fast_charging_real,
 ];
 
 
