@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { getBlogArticle, getAllBlogSlugs, blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
-import { FAQSchema } from '@/components/schemas/ProductSchema';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
@@ -147,9 +146,7 @@ export default async function BlogArticlePage({ params }: Props) {
                 description={trans.metaDescription}
                 locale={locale}
             />
-            {trans.faq && trans.faq.length > 0 && (
-                <FAQSchema faqs={trans.faq} locale={locale} />
-            )}
+            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
             {/* ClaimReview Schema — ClaimReview schema for counterfeit charger articles */}
             {(slug === 'original-vs-fake-apple-charger-egypt' || slug === 'do-fake-chargers-damage-iphone-battery') && (
                 <script

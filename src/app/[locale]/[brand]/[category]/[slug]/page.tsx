@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { getFirestore } from '@/lib/firebase-admin';
 import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
-import { ProductSchema, BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
+import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
 import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
 import { getProductDetail } from '@/data/product-details';
@@ -444,16 +444,7 @@ export default async function ProductPage({ params }: Props) {
             />
 
 
-            {/* Product-Specific FAQSchema */}
-            {(() => {
-                const productFaqs = product.translations?.[isArabic ? 'ar' : 'en']?.faqs;
-                return productFaqs && productFaqs.length > 0 ? (
-                    <FAQSchema
-                        faqs={productFaqs}
-                        locale={locale}
-                    />
-                ) : null;
-            })()}
+            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
             {/* FAQSection removed — was duplicating the same product FAQ questions visible in the accordion above */}
 

@@ -559,27 +559,13 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     );
 }
 
-// FAQ Schema for FAQ page
-export function FAQSchema({ faqs, locale: _locale }: { faqs: Array<{ question: string; answer: string }>; locale: string }) {
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqs.map(faq => ({
-            '@type': 'Question',
-            name: faq.question,
-            acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-            },
-        })),
-    };
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
+/**
+ * FAQSchema — DEPRECATED
+ * Google deprecated FAQPage rich results May 7, 2026.
+ * This export is kept for backward compatibility but renders nothing.
+ */
+export function FAQSchema({ faqs: _faqs, locale: _locale }: { faqs: Array<{ question: string; answer: string }>; locale: string }) {
+    return null;
 }
 
 // Breadcrumb Schema

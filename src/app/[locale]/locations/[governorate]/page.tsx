@@ -114,43 +114,13 @@ export default async function GovernoratePage({ params }: PageProps) {
                 locale={locale}
             />
 
-            {/* FAQ + Load Shedding Structured Data */}
+            {/* FAQ + Load Shedding Structured Data — FAQPage removed (Google deprecated May 7, 2026) */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         '@context': 'https://schema.org',
                         '@graph': [
-                            {
-                                '@type': 'FAQPage',
-                                mainEntity: (isArabic ? lsData.voiceFaqsAr : lsData.voiceFaqsEn).map(faq => ({
-                                    '@type': 'Question',
-                                    name: faq.question,
-                                    acceptedAnswer: {
-                                        '@type': 'Answer',
-                                        text: faq.answer,
-                                    },
-                                })),
-                                about: {
-                                    '@type': 'Thing',
-                                    name: 'Electricity load shedding',
-                                    sameAs: [
-                                        'https://en.wikipedia.org/wiki/Rolling_blackout',
-                                        'https://www.wikidata.org/wiki/Q1438438',
-                                    ],
-                                },
-                                mentions: [
-                                    {
-                                        '@type': 'Place',
-                                        name: gov.nameEn,
-                                        containedInPlace: { '@type': 'Country', name: 'Egypt' },
-                                    },
-                                ],
-                                speakable: {
-                                    '@type': 'SpeakableSpecification',
-                                    cssSelector: ['.cairovolt-voice-answer', '.emergency-highlight'],
-                                },
-                            },
                             {
                                 '@type': 'LocalBusiness',
                                 name: isArabic ? 'كايرو فولت' : 'CairoVolt',

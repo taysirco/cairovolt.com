@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const revalidate = 86400;
@@ -89,7 +89,7 @@ export default async function FAQPage({ params }: Props) {
 
     return (
         <>
-            <FAQSchema faqs={allFaqs} locale={locale} />
+            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },

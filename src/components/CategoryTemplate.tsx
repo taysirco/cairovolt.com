@@ -58,26 +58,10 @@ const categoryKeyMap: Record<string, string> = {
     'other': 'other',
 };
 
-function FAQSchema({ faqs }: { faqs: FAQItem[] }) {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faqs.map(faq => ({
-            "@type": "Question",
-            "name": faq.question,
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": faq.answer
-            }
-        }))
-    };
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
+function FAQSchema({ faqs: _faqs }: { faqs: FAQItem[] }) {
+    // FAQPage JSON-LD intentionally removed — Google deprecated FAQ rich results May 7, 2026
+    // Visible FAQ accordion UI is preserved below in the template
+    return null;
 }
 
 export default function CategoryTemplate({

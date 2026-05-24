@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { brandData } from '@/data/brand-data';
 import { ArticleSchema } from '@/components/schemas/StructuredDataSchemas';
-import { FAQSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
+import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { BrandOverviewBlock } from '@/components/content/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
@@ -136,16 +136,7 @@ export default async function BrandHubPage({ params }: Props) {
                 />
             )}
 
-            {/* FAQ Schema */}
-            {data.faq && (
-                <FAQSchema
-                    faqs={(isRTL ? data.faq.ar : data.faq.en).map(item => ({
-                        question: item.question,
-                        answer: item.answer
-                    }))}
-                    locale={locale}
-                />
-            )}
+            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
             {/* Hero Section 2.0 */}
             <section className={`relative overflow-hidden py-20 md:py-32`}>

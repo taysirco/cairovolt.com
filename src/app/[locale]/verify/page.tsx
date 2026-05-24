@@ -158,26 +158,7 @@ export default async function VerifyPage({
                 }}
             />
 
-            {/* ═══════════════════════════════════════
-                JSON-LD: FAQPage Schema
-                ═══════════════════════════════════════ */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'FAQPage',
-                        mainEntity: faqs.map(f => ({
-                            '@type': 'Question',
-                            name: f.question,
-                            acceptedAnswer: {
-                                '@type': 'Answer',
-                                text: f.answer,
-                            },
-                        })),
-                    }),
-                }}
-            />
+            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
             {/* ═══════════════════════════════════════
                 JSON-LD: HowTo Schema

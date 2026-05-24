@@ -14,28 +14,21 @@ interface FAQSectionProps {
 }
 
 /**
- * FAQSection — Product-specific FAQ with FAQPage schema + SpeakableSpecification
+ * FAQSection — Product-specific FAQ with SpeakableSpecification for voice search
  * Targets Egyptian Arabic voice queries (Google Assistant / Siri)
  * The .cairovolt-voice-answer CSS selector is what Google reads aloud.
+ *
+ * NOTE: FAQPage JSON-LD removed May 2026 — Google deprecated FAQ rich results
+ * entirely (see GSC notice: "As of May 7, 2026, FAQ rich results are no longer
+ * appearing in Google Search"). Keeping visual FAQ + speakable for voice.
  */
 export default function FAQSection({ productName, qaList, locale }: FAQSectionProps) {
     if (!qaList || qaList.length === 0) return null;
 
     const isArabic = locale === 'ar';
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: qaList.map(qa => ({
-            '@type': 'Question',
-            name: qa.question,
-            acceptedAnswer: {
-                '@type': 'Answer',
-                text: qa.answer,
-            },
-        })),
-    };
-
+    // FAQPage schema intentionally removed — Google deprecated FAQ rich results May 7, 2026
+    // Speakable schema retained for voice search assistant support
     const speakableSchema = {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
@@ -50,11 +43,6 @@ export default function FAQSection({ productName, qaList, locale }: FAQSectionPr
 
     return (
         <section className="mt-12 mb-8 border-t border-gray-200 pt-8">
-            <Script
-                id={`faq-schema-${productName.replace(/\s+/g, '-')}`}
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-            />
             <Script
                 id={`speakable-schema-${productName.replace(/\s+/g, '-')}`}
                 type="application/ld+json"

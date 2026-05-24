@@ -4,7 +4,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { getGenericCategory } from '@/data/generic-categories';
 import { getBlogArticle } from '@/data/blog-articles';
 import { staticProducts } from '@/lib/static-products';
-import { BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
+import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 
@@ -126,7 +126,7 @@ export function GenericCategoryContent({
                 ]}
                 locale={locale}
             />
-            {faq.length > 0 && <FAQSchema faqs={faq} locale={locale} />}
+            {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
             <main className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'} itemScope itemType="https://schema.org/CollectionPage">
                 <meta itemProp="name" content={content.title} />
