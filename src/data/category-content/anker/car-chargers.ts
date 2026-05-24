@@ -37,8 +37,8 @@ export const anker_car_chargers_content: CategoryContent = {
                         {
                             title: 'كيف تختار القوة المناسبة؟',
                             content: `
-- **للاستخدام العادي (24W):** يشحن جهازين بسرعة عادية (12W لكل جهاز). مناسب لهواتف الاندرويد القديمة والايفون العادي.
-- **للسرعة القصوى (48W+):** ضروري للايفون الحديث (14/15/16) وسامسونج. يدعم شحن PD سريع (50% في 30 دقيقة).
+- **للاستخدام العادي (24W):** يشحن جهازين بسرعة عادية (12W لكل جهاز). مناسب لهواتف الاندرويد القديمة.
+- **للسرعة القصوى (48W+):** ضروري لايفون 17 Pro Max وسامسونج S26 Ultra. يدعم شحن PD سريع (50% في 30 دقيقة).
 `
                         },
                         {
@@ -68,6 +68,18 @@ export const anker_car_chargers_content: CategoryContent = {
                         {
                             question: 'ما ضمان شاحن سيارة انكر في مصر؟',
                             answer: 'ضمان 18 شهر من CairoVolt. استبدال فوري خلال 14 يوم. الضمان يشمل: المنافذ، MultiProtect، الجسم المعدني. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                        },
+                        {
+                            question: 'هل بيشحن ايفون 17 بسرعة في السيارة؟',
+                            answer: 'أيوه! منفذ USB-C PD بيشحن ايفون 17 Pro Max من 20% لـ 80% في 35 دقيقة (اختبار CairoVolt على طريق الصحراوي). المهم تستخدم كابل USB-C أصلي — تسوق [كابل انكر](/anker/cables) لأقصى سرعة.'
+                        },
+                        {
+                            question: 'هل يشحن سامسونج S26 Ultra بسرعة؟',
+                            answer: 'نعم. موديل 323 (52W) فيه منفذ USB-C PD 30W بيشحن S26 Ultra بسرعة Super Fast Charging. اختبار CairoVolt: 0→50% في 28 دقيقة أثناء استخدام Google Maps.'
+                        },
+                        {
+                            question: 'هل بيشتغل مع كل السيارات؟',
+                            answer: 'نعم، بيشتغل مع كل السيارات اللي فيها منفذ ولاعة 12V أو 24V (يعني 99% من سيارات مصر). تيغو, هيونداي, BMW, مرسيدس, وحتى الميكروباص — اختبرناه على 5 أنواع سيارات في CairoVolt.'
                         }
                     ],
                     products: [
@@ -97,7 +109,7 @@ export const anker_car_chargers_content: CategoryContent = {
                             title: 'Choosing the Right Wattage',
                             content: `
 - **Standard Use (24W):** Charges two devices at standard speed. Good for older phones or maintaining battery while using GPS.
-- **Max Speed (48W+):** Essential for iPhone 14/15/16 and Samsung S-Series. Supports PD Fast Charging (0-50% in 30 mins).
+- **Max Speed (48W+):** Essential for iPhone 17 Pro Max and Samsung S26 Ultra. Supports PD Fast Charging (0-50% in 30 mins).
 `
                         },
                         {

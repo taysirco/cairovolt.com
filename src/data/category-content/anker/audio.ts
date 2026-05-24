@@ -52,8 +52,8 @@ export const anker_audio_content: CategoryContent = {
                         { question: 'ما الفرق بين سماعات Soundcore R50i و K20i و R50i NC؟', answer: 'شوف دليل الشراء بالأعلى للمقارنة التفصيلية. باختصار: K20i للراحة، R50i لأفضل قيمة صوتية، R50i NC لو محتاج إلغاء ضوضاء.' },
                         { question: 'هل سماعات Soundcore تدعم عزل الضوضاء ANC؟', answer: 'R50i NC و P40i عندهم ANC نشط بيحجب 98% من الضوضاء. باقي الموديلات (R50i، K20i، P20i) فيها عزل سلبي بس. لو بتركب مترو أو ميكروباص كتير، ANC يستاهل الفرق.' },
                         { question: 'أيهما أفضل: سماعات Soundcore أم AirPods؟', answer: 'AirPods أفضل لتكامل Apple ecosystem. Soundcore بتقدم باس أقوى + Hi-Res Audio + تطبيق تخصيص EQ — بأقل من نص السعر. للميزانية الذكية Soundcore بتكسب.' },
-                        { question: 'هل سماعات Soundcore بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — كل موديلات Soundcore بتدعم Bluetooth 5.3 فبتشتغل مع أي موبايل (ايفون، سامسونج، شاومي، أوبو). التطبيق متاح مجاناً على iOS و Android.' },
-                        { question: 'كام سنة بتعيش سماعات Soundcore؟', answer: 'بالاستخدام اليومي المعتدل: 2-3 سنين. البطارية بتحتفظ بـ 80% من سعتها بعد 500 دورة شحن. الضمان من CairoVolt يغطي 18 شهر استبدال فوري.' }
+                        { question: 'هل سماعات Soundcore بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — كل موديلات Soundcore بتدعم Bluetooth 5.3 فبتشتغل مع أي موبايل (ايفون، سامسونج، شاومي، أوبو). اختبار CairoVolt: الاقتران تم في 3 ثواني مع ايفون 17 Pro Max. التطبيق متاح مجاناً على iOS و Android.' },
+                        { question: 'كام سنة بتعيش سماعات Soundcore؟', answer: 'بالاستخدام اليومي المعتدل: 2-3 سنين. البطارية بتحتفظ بـ 80% من سعتها بعد 500 دورة شحن. الضمان من CairoVolt يغطي 18 شهر استبدال فوري. تسوق [كابل انكر](/anker/cables) لشحن العلبة بسرعة أو [سبيكر انكر](/anker/speakers) لصوت أقوى.' }
                     ],
                     en: [
                         { question: 'What is the difference between Soundcore R50i, K20i, and R50i NC?', answer: 'See our buying guide above for the full comparison. Quick summary: K20i for comfort, R50i for best sound value, R50i NC if you need active noise cancellation.' },

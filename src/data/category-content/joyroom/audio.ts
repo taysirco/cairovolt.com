@@ -30,7 +30,7 @@ export const joyroom_audio_content: CategoryContent = {
 - ✓ AirPods Pro 2 = 12,000+ جنيه | T03s Pro = **699 جنيه فقط**
 - ✓ نفس الميزات: ANC, Spatial Audio, Pop-up Pairing
 - ✓ الكود الذهبي: تأكد من الأصالة برسالة SMS
-- ✓ 15,000+ قطعة مباعة في مصر — اطلبها الآن وتوصيل القاهرة خلال 24 ساعة
+- ✓ 15,000+ قطعة مباعة في مصر — اطلبها الآن وتوصيل القاهرة خلال 24 ساعة. تسوق [كابل جوي روم](/joyroom/cables) لشحن السماعة
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'الكود الذهبي - تأكيد الأصالة بـ SMS' },

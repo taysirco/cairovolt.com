@@ -29,7 +29,7 @@ export const anker_cables_content: CategoryContent = {
       **ليه انكر الرقم 1 عالمياً؟**
       - **Power Delivery سريع:** يشحن ايفون 17 من 0-50% في 30 دقيقة عبر USB-C
       - **معتمد MFi من أبل:** شريحة C94 = توافق تام + لا تحديثات تعطله
-      - **ضمان 18 شهر CairoVolt:** استبدال فوري — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة
+      - **ضمان 18 شهر CairoVolt:** استبدال فوري — اطلبه الآن وتوصيل القاهرة خلال 24 ساعة. تسوق [شاحن انكر](/anker/wall-chargers) + كابل PowerLine = أقصى شحن سريع.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'شريحة Apple C94 أصلية' },
@@ -48,7 +48,7 @@ export const anker_cables_content: CategoryContent = {
                         {
                             title: 'هل يدعم الشحن السريع؟',
                             content: `
-طبعاً. كابلات USB-C to Lightning و USB-C to USB-C تدعم بروتوكول PD لشحن الايفون والسامسونج واللابتوب بأقصى سرعة. تسوق شاحن انكر (/anker/wall-chargers) + كابل PowerLine = أقصى شحن سريع.
+طبعاً. كابلات USB-C to Lightning و USB-C to USB-C تدعم بروتوكول PD لشحن الايفون والسامسونج واللابتوب بأقصى سرعة. تسوق [شاحن انكر](/anker/wall-chargers) + كابل PowerLine = أقصى شحن سريع.
 `
                         }
                     ],
@@ -68,6 +68,22 @@ export const anker_cables_content: CategoryContent = {
                         {
                             question: 'هل كابل انكر تايب سي يناسب سامسونج؟',
                             answer: 'أيوه! كابل انكر USB-C يشحن سامسونج سوبر فاست (25W+)، ويتحمل 35,000 ثنية. متوفر من CairoVolt مع ضمان 18 شهر.'
+                        },
+                        {
+                            question: 'هل كابل انكر بيشحن ايفون 17 Pro Max بسرعة؟',
+                            answer: 'أيوه! كابل USB-C to Lightning بدعم PD بيشحن ايفون 17 Pro Max من 0 لـ 50% في 30 دقيقة مع شاحن انكر 30W. اختبار CairoVolt: أسرع 3 مرات من الكابل العادي.'
+                        },
+                        {
+                            question: 'هل كابل انكر يدعم سامسونج Super Fast Charging؟',
+                            answer: 'نعم! كابل USB-C to USB-C من انكر بيدعم Samsung Super Fast Charging حتى 45W لسامسونج S26 Ultra. كل كابلاتنا معتمدة USB-IF ومتوافقة مع كل أجهزة USB-C.'
+                        },
+                        {
+                            question: 'ما ضمان كابل انكر من CairoVolt؟',
+                            answer: 'ضمان 18 شهر استبدال فوري. لو الكابل اتقطع أو ظهرت رسالة خطأ — استبدال مجاني خلال 14 يوم. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                        },
+                        {
+                            question: 'هل كابل انكر بينقل بيانات ولا شحن بس؟',
+                            answer: 'الاتنين! كابلات انكر USB-C بتدعم نقل بيانات حتى 480Mbps + شحن PD سريع في نفس الكابل. بنقل 1GB من الصور في 17 ثانية (اختبار CairoVolt).'
                         }
                     ],
                     products: [

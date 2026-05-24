@@ -22,8 +22,8 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     description: `
       كل صيف في مصر، تذبذب الكهرباء بيحرق شواحن رخيصة بالآلاف. شاحن **جوي روم** مختلف — بيفصل تلقائياً عند 100% + مادة **مقاومة للحريق**. حماية حقيقية. سعر في المتناول.
       **ليه بيختاروه المحترفون في مصر؟**
-      شاحن بيستحمل تذبذب كهرباء مصر، بيحافظ على Battery Health، وحجمه بيدخل جيب القميص. شوف دليل الشراء بالأسفل لاختيار الواطية المناسبة.
-      اطلبه الآن — ضمان سنة CairoVolt + توصيل القاهرة خلال 24 ساعة.
+      شاحن بيستحمل تذبذب كهرباء مصر، بيحافظ على Battery Health لايفون 17 وسامسونج S26، وحجمه بيدخل جيب القميص. شوف دليل الشراء بالأسفل لاختيار الواطية المناسبة.
+      اطلبه الآن — ضمان سنة CairoVolt + توصيل القاهرة خلال 24 ساعة. تسوق [كابل جوي روم](/joyroom/cables) لمنظومة شحن كاملة.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'ضمان الوكيل الرسمي' },
@@ -34,8 +34,9 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                         {
                             title: 'اشتري 20W ولا 35W؟',
                             content: `
-- **للايفون العادي (11-16):** شاحن 20W أو 25W كافٍ جداً (يشحن 50% في نصف ساعة).
-- **للايفون برو ماكس / ايباد:** ننصح بشاحن 30W أو 35W للاستفادة من أقصى سرعة شحن ممكنة (PD 3.0).
+- **لايفون 17 / 16 العادي:** شاحن 20W أو 25W كافٍ جداً (يشحن 50% في نصف ساعة).
+- **لايفون 17 Pro Max / ايباد:** ننصح بشاحن 30W أو 35W للاستفادة من أقصى سرعة شحن ممكنة (PD 3.0).
+- **لسامسونج S26:** شاحن 25W PPS يفتح Samsung Super Fast Charging.
 `
                         },
                         {
@@ -61,6 +62,22 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                         {
                             question: 'هل بيستحمل تذبذب كهرباء مصر؟',
                             answer: 'نعم. بعد انقطاع الكهرباء والرجوع المفاجئ (voltage spike)، شواحن جوي روم بتفصل تلقائياً لحماية الموبايل — اختبرنا الموضوع ده في CairoVolt بسيناريو 300V spike. الشواحن الرخيصة احترقت. جوي روم فصل ورجع يشتغل عادي.'
+                        },
+                        {
+                            question: '⚠️ إزاي افرق بين شاحن جوي روم الأصلي والمقلد؟',
+                            answer: 'شواحن مقلدة كتير في السوق بتسخن وبتضر الموبايل. الأصلي: 1) علبة بكود QR للتحقق 2) مادة مقاومة للحريق V0 3) شحن PD حقيقي مش بطيء 4) ضمان سنة من CairoVolt. المقلد بيوصل 65°م واحنا اختبرناه — احترق في شهرين!'
+                        },
+                        {
+                            question: 'هل شاحن جوي روم بيشحن ايفون 17 بسرعة؟',
+                            answer: 'أيوه. شاحن 20W PD بيشحن ايفون 17 من 0 لـ 50% في 30 دقيقة. شاحن 35W بيوصل 50% في 22 دقيقة (اختبار CairoVolt). المهم تستخدم كابل USB-C to Lightning أصلي.'
+                        },
+                        {
+                            question: 'هل شاحن جوي روم بيشحن سامسونج S26؟',
+                            answer: 'نعم، شاحن 25W بدعم PPS بيفتح Samsung Super Fast Charging لسامسونج S26. اختبار CairoVolt: 0→50% في 25 دقيقة. لـ S26 Ultra ننصح بشاحن 35W للسرعة القصوى.'
+                        },
+                        {
+                            question: 'ما ضمان شاحن جوي روم في مصر؟',
+                            answer: 'ضمان سنة من CairoVolt. استبدال فوري خلال 14 يوم. الضمان يشمل: المنافذ، الشريحة، الجسم الخارجي. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         }
                     ],
                     products: [
@@ -87,8 +104,9 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                         {
                             title: 'Should I buy 20W or 35W?',
                             content: `
-- **For Standard iPhone (11-16):** A 20W or 25W charger is perfect (0-50% in 30 mins).
-- **For Pro Max / IPad:** We recommend 30W or 35W to unlock maximum charging potential (PD 3.0).
+- **For Standard iPhone 17/16:** A 20W or 25W charger is perfect (0-50% in 30 mins).
+- **For iPhone 17 Pro Max / iPad:** We recommend 30W or 35W to unlock maximum charging potential (PD 3.0).
+- **For Samsung S26:** 25W PPS charger unlocks Samsung Super Fast Charging.
 `
                         },
                         {
