@@ -66,12 +66,12 @@ export const anker_audio_content: CategoryContent = {
             },
             metadata: {
                 en: {
-                    title: 'Anker Soundcore Earbuds Egypt | R50i, R50i NC, P20i, K20i, Liberty',
-                    description: 'Shop Anker earbuds & Soundcore earbuds in Egypt. R50i, R50i NC, P20i, P25i, A30i, K20i, Liberty 4 NC, Liberty 5. Anker headphones with ANC. Best prices + official warranty.',
-                    keywords: 'anker soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i, anker r50i nc, anker soundcore r50i, anker soundcore r50i nc, soundcore p20i, anker p20i, soundcore p25i, anker p25i, soundcore a30i, anker soundcore a30i, soundcore k20i, soundcore liberty 4 nc, anker liberty 4 nc, anker soundcore liberty 4 nc, soundcore liberty 5, soundcore liberty 4 pro, soundcore r100, anker r100, anker airpods, anker soundcore egypt, anker speaker, anker bluetooth speaker',
+                    title: 'Anker Soundcore Earbuds Egypt | R50i, P20i, Liberty 4 NC',
+                    description: 'Shop Anker Soundcore earbuds in Egypt. R50i, R50i NC, P20i, K20i, A30i, Liberty 4 NC. ANC headphones with Hi-Res Audio. Best prices + warranty.',
+                    keywords: 'anker soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, anker soundcore egypt, anker speaker',
                 },
                 ar: {
-                    title: 'سماعات انكر ساوند كور في مصر | ايربودز انكر R50i | سماعة بلوتوث',
+                    title: 'سماعات انكر ساوند كور | ايربودز انكر R50i | سماعة بلوتوث',
                     description: 'تسوق سماعات انكر وايربودز انكر R50i الأصلية في مصر. سماعة ساوند كور، سماعه بلوتوث انكر، سماعات anker Soundcore. أسعار تبدأ من 699 جنيه + ضمان 18 شهر.',
                     keywords: 'سماعات انكر, ايربودز انكر, ايربودز انكر r50i, سماعة ساوند كور, سماعة بلوتوث انكر, سماعات انكر بلوتوث, سماعات anker, انكر سماعه, سماعه انكر, سماعة انكر, ساوند كور, انكر ساوند كور, سماعات انكر ساوند كور بلوتوث, anker soundcore, سعر سماعة ايربودز',
                 }

@@ -11,11 +11,11 @@ export const cables_generic: GenericCategory = {
             ar: {
                 title: 'أفضل وصلة شاحن في مصر | كابل شحن تايب سي | وصلة ايفون اصلية',
                 description: 'دليل شامل لأفضل كابلات ووصلات الشحن في مصر. وصلة شاحن تايب سي، وصلة شاحن ايفون اصلية، سلك شاحن ايفون، كابل انكر USB-C PD شحن سريع. وصلة انكر نايلون مضادة للكسر.',
-                keywords: 'وصلة شاحن, وصلة شاحن تايب سي, وصلة شاحن ايفون, وصلة ايفون, وصلة ايفون اصلية, وصلة انكر, سلك شاحن ايفون, سلك شاحن انكر, كابل شاحن, كابل شحن سريع, كابل ايفون, كابل تايب سي, كابل الشاحن, سلك الشاحن, وصله شاحن ايفون اصليه, كابل usb c, كابل PD, كابل نايلون, افضل كابل شحن',
+                keywords: 'وصلة شاحن, وصلة شاحن تايب سي, وصلة شاحن ايفون, وصلة ايفون, وصلة ايفون اصلية, وصلة انكر, سلك شاحن ايفون, سلك شاحن انكر, كابل شاحن, كابل شحن سريع, كابل ايفون, كابل تايب سي, كابل usb c, كابل PD, افضل كابل شحن',
             },
             en: {
-                title: 'Best Charging Cables in Egypt | Anker iPhone Cable | USB-C Fast Charging',
-                description: 'Best Anker cables & USB-C charging cables in Egypt. Anker iPhone cable, Anker USB cable, Anker type C cable, lightning cable. Braided nylon PD fast charging from EGP 149.',
+                title: 'Best Charging Cables Egypt | Anker USB-C & iPhone Cable',
+                description: 'Best Anker cables in Egypt. USB-C, iPhone cable, lightning cable, type C cable. Braided nylon PD fast charging. Prices from EGP 149.',
                 keywords: 'anker cables, anker iphone cable, anker type c cable, anker usb cable, anker lightning cable, anker micro usb cable, charging cable egypt, usb c cable, iphone cable, fast charging cable, lightning cable, nylon braided cable, pd cable, best charging cable, cable price egypt',
             },
         },
