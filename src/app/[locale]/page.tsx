@@ -133,49 +133,7 @@ export default function Home() {
           : 'Original mobile accessories store in Egypt. Power banks, earbuds, chargers & cables from Anker & Joyroom with official warranty.'}
         locale={locale}
       />
-      {/* FAQPage Schema — Rich Snippets for high-volume queries */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            'mainEntity': isRTL ? [
-              {
-                '@type': 'Question',
-                'name': 'فين فروع وتوكيل انكر في مصر؟',
-                'acceptedAnswer': { '@type': 'Answer', 'text': 'كايرو فولت هو الموزع المعتمد لمنتجات انكر في مصر. نوصل لكل المحافظات عبر شركة بوسطة (Active). مقرنا في التجمع الثالث، القاهرة الجديدة.' }
-              },
-              {
-                '@type': 'Question',
-                'name': 'إزاي أتأكد إن شاحن انكر الأصلي مش تقليد؟',
-                'acceptedAnswer': { '@type': 'Answer', 'text': 'كل منتج انكر أصلي عليه كود QR على العلبة. امسحه على anker.com/verify وهيأكدلك الأصالة فوراً. لو اشتريت من كايرو فولت، كل المنتجات أصلية 100% مع ضمان 18 شهر.' }
-              },
-              {
-                '@type': 'Question',
-                'name': 'كم سعر باور بانك انكر 10000 في مصر؟',
-                'acceptedAnswer': { '@type': 'Answer', 'text': 'سعر باور بانك انكر 10000 هو 1,300 جنيه في كايرو فولت. يشمل ضمان 18 شهر وتوصيل سريع لكل مصر مع إمكانية الدفع عند الاستلام.' }
-              },
-              {
-                '@type': 'Question',
-                'name': 'كم سعر سماعة انكر Soundcore R50i في مصر؟',
-                'acceptedAnswer': { '@type': 'Answer', 'text': 'سعر سماعة Soundcore R50i هو 950 جنيه في كايرو فولت. بطارية 30 ساعة، BassUp، IPX5. ضمان 18 شهر وتوصيل لكل المحافظات.' }
-              },
-            ] : [
-              {
-                '@type': 'Question',
-                'name': 'Where are Anker authorized dealers in Egypt?',
-                'acceptedAnswer': { '@type': 'Answer', 'text': 'CairoVolt is the authorized Anker distributor in Egypt, delivering to all 27 governorates via Active (Bosta) courier. Based in New Cairo 3rd Settlement.' }
-              },
-              {
-                '@type': 'Question',
-                'name': 'How to verify an original Anker charger?',
-                'acceptedAnswer': { '@type': 'Answer', 'text': 'Every original Anker product has a QR code on the box. Scan it at anker.com/verify for instant authenticity confirmation. CairoVolt products are 100% original with 18-month warranty.' }
-              },
-            ]
-          })
-        }}
-      />
+
 
       <div className="flex flex-col" dir={isRTL ? 'rtl' : 'ltr'}>
 
@@ -337,10 +295,14 @@ export default function Home() {
                 { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، شحن 40 جنيه أو مجاني فوق 1,350 جنيه.' },
                 { question: 'فين فروع وتوكيل انكر في مصر؟', answer: 'كايرو فولت هو الموزع المعتمد لمنتجات انكر في مصر. نوصل لكل المحافظات عبر شركة بوسطة (Active). مقرنا في التجمع الثالث، القاهرة الجديدة. تواصل معنا واتساب لأي استفسار.' },
                 { question: 'إزاي أتأكد إن شاحن انكر الأصلي مش تقليد؟', answer: 'كل منتج انكر أصلي عليه كود QR على العلبة. امسحه على anker.com/verify وهيأكدلك الأصالة فوراً. لو اشتريت من كايرو فولت، كل المنتجات أصلية 100% مع ضمان 18 شهر استبدال فوري.' },
+                { question: 'كم سعر باور بانك انكر 10000 في مصر؟', answer: 'سعر باور بانك انكر 10000 هو 1,300 جنيه في كايرو فولت. يشمل ضمان 18 شهر وتوصيل سريع لكل مصر مع إمكانية الدفع عند الاستلام.' },
+                { question: 'كم سعر سماعة انكر Soundcore R50i في مصر؟', answer: 'سعر سماعة Soundcore R50i هو 950 جنيه في كايرو فولت. بطارية 30 ساعة، BassUp، IPX5. ضمان 18 شهر وتوصيل لكل المحافظات.' },
               ] : [
                 { question: 'Does the Anker 737 power bank run a WE router during power outages?', answer: 'Yes, we tested it at CairoVolt\'s Bosta warehouse in New Cairo 3 at 37°C. It ran a WE VDSL router for 14 hours 22 minutes continuously without restart.' },
                 { question: 'How can I verify CairoVolt products are original?', answer: 'CairoVolt is officially registered (CR: 8446). Every product is sealed with the original barcode verifiable on Anker\'s website. 18-month warranty.' },
                 { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Flat 40 EGP shipping or free above 1,350 EGP.' },
+                { question: 'Where are Anker authorized dealers in Egypt?', answer: 'CairoVolt is the authorized Anker distributor in Egypt, delivering to all 27 governorates via Active (Bosta) courier. Based in New Cairo 3rd Settlement.' },
+                { question: 'How to verify an original Anker charger?', answer: 'Every original Anker product has a QR code on the box. Scan it at anker.com/verify for instant authenticity confirmation. CairoVolt products are 100% original with 18-month warranty.' },
               ]}
             />
           </div>
