@@ -59,12 +59,12 @@ export const anker_powerline_usb_c_usb_c = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Built to Outlast Every Cable You've Owned</h2>
-        <p class="text-gray-700">Tested to <strong>35,000+ bends</strong> — 3.5x the lifespan of standard cables. The stress-tested connectors won't wobble or lose contact after months of daily use. Whether it lives coiled in your <a href="/anker/power-banks" class="text-blue-600 hover:underline">power bank bag</a> or stretched between your nightstand and outlet, this cable is engineered for the real world.</p>
+        <p class="text-gray-700">Tested to <strong>35,000+ bends</strong> — 3.5x the lifespan of standard cables. The stress-tested connectors won't wobble or lose contact after months of daily use. Whether it lives coiled in your <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power bank bag</a> or stretched between your nightstand and outlet, this cable is engineered for the real world.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Pair with Any Anker Charger for Maximum Speed</h2>
-        <p class="text-gray-700">This cable unlocks the full potential of your <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker charger</a>. Pair with the <strong>20W</strong> for iPhone, <strong>25W PPS</strong> for Samsung, or <strong>45W GaN</strong> for laptops. The 60W rating ensures you'll never be the bottleneck — the cable always delivers what the charger puts out.</p>
+        <p class="text-gray-700">This cable unlocks the full potential of your <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">Anker charger</a>. Pair with the <strong>20W</strong> for iPhone, <strong>25W PPS</strong> for Samsung, or <strong>45W GaN</strong> for laptops. The 60W rating ensures you'll never be the bottleneck — the cable always delivers what the charger puts out.</p>
     </section>
 </div>
 <div class="device-compatibility">

@@ -63,7 +63,7 @@ export const joyroom_power_bank_20000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">LED Display + Golden Code: Quality You Can Trust</h2>
-        <p class="text-gray-700">The <strong>digital LED display</strong> shows exact battery percentage — not vague dots. Verified with <strong>Golden Code</strong> to confirm authenticity. Pair with a <a href="/joyroom/cables" class="text-blue-600 hover:underline">Joyroom USB-C cable</a> for maximum charging speed. At 72Wh, it's <strong>airline approved</strong> for travel.</p>
+        <p class="text-gray-700">The <strong>digital LED display</strong> shows exact battery percentage — not vague dots. Verified with <strong>Golden Code</strong> to confirm authenticity. Pair with a <a href="/en/joyroom/cables" class="text-blue-600 hover:underline">Joyroom USB-C cable</a> for maximum charging speed. At 72Wh, it's <strong>airline approved</strong> for travel.</p>
     </section>
 </div>
 <div class="device-compatibility">

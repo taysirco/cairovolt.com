@@ -62,7 +62,7 @@ export const joyroom_t03s_pro_earbuds = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">AirPods Design at a Fraction of the Price</h2>
-        <p class="text-gray-700">The T03S Pro uses the same stem design as Apple AirPods for comfortable all-day wear. <strong>Touch controls</strong> on each earbud handle play/pause, skip, volume, and ANC toggle. <strong>iOS pop-up animation</strong> makes pairing with iPhone feel premium. IPX5 water resistance means gym sweat and light rain won't damage them. Pair with a <a href="/joyroom/power-banks" class="text-blue-600 hover:underline">Joyroom power bank</a> for extended travel listening.</p>
+        <p class="text-gray-700">The T03S Pro uses the same stem design as Apple AirPods for comfortable all-day wear. <strong>Touch controls</strong> on each earbud handle play/pause, skip, volume, and ANC toggle. <strong>iOS pop-up animation</strong> makes pairing with iPhone feel premium. IPX5 water resistance means gym sweat and light rain won't damage them. Pair with a <a href="/en/joyroom/power-banks" class="text-blue-600 hover:underline">Joyroom power bank</a> for extended travel listening.</p>
     </section>
 </div>
 <div class="device-compatibility">

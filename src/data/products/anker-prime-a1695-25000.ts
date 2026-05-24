@@ -93,7 +93,7 @@ export const anker_prime_a1695_25000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) to unlock full laptop-charging speed safely. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
+    <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) to unlock full laptop-charging speed safely. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
 </div>
 `,
                 features: ["⚡ 165W Combined Output", "💻 140W MacBook Pro Charging", "🔋 25,000mAh (92.7Wh)", "🌡️ Active Cooling Fan", "⚡ ⏱️ 30-min 80% Recharge", "📊 Smart Display (watts/temp/%)", "✈️ Max Flight-Legal Capacity", "🛡️ 24-Month Warranty"],

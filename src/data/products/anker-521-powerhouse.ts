@@ -120,7 +120,7 @@ export const anker_521_powerhouse = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">6 Ports for Every Device You Own</h2>
-        <p class="text-gray-700">One station, every device: <strong>AC 220V outlet</strong> for appliances, <strong>USB-C PD</strong> for laptops and phones, <strong>2× USB-A</strong> for accessories, <strong>car socket</strong> for 12V devices, and a <strong>built-in LED warm light</strong> for when the power goes out at night. Charge it via wall outlet, car, or even a <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">solar panel</a> for off-grid use.</p>
+        <p class="text-gray-700">One station, every device: <strong>AC 220V outlet</strong> for appliances, <strong>USB-C PD</strong> for laptops and phones, <strong>2× USB-A</strong> for accessories, <strong>car socket</strong> for 12V devices, and a <strong>built-in LED warm light</strong> for when the power goes out at night. Charge it via wall outlet, car, or even a <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">solar panel</a> for off-grid use.</p>
     </section>
 </div>
 <div class="device-compatibility">

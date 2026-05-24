@@ -60,7 +60,7 @@ export const anker_powerport_20w = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Smaller Than a Matchbox: The Travel Essential</h2>
-        <p class="text-gray-700">At only <strong>4cm</strong>, this is one of the world's smallest 20W chargers. It doesn't hog space on your power strip, fits easily in any bag, and the <strong>UK-style plug</strong> works directly in all Egyptian outlets. Pair it with an <a href="/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum charging speed.</p>
+        <p class="text-gray-700">At only <strong>4cm</strong>, this is one of the world's smallest 20W chargers. It doesn't hog space on your power strip, fits easily in any bag, and the <strong>UK-style plug</strong> works directly in all Egyptian outlets. Pair it with an <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum charging speed.</p>
     </section>
 
     <section>
@@ -76,7 +76,7 @@ export const anker_powerport_20w = {
         <li>📱 <strong>iPad mini / iPad Air:</strong> Fast USB-C PD charging.</li>
         <li>🎧 <strong>AirPods Pro 2:</strong> USB-C fast charging.</li>
         <li>⌚ <strong>Apple Watch (USB-C):</strong> Compatible via USB-C.</li>
-        <li>🔋 <strong>Anker Power Banks:</strong> Recharge <a href="/anker/power-banks" class="text-blue-600 hover:underline">PowerCore 10000</a> in 3-4 hours.</li>
+        <li>🔋 <strong>Anker Power Banks:</strong> Recharge <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">PowerCore 10000</a> in 3-4 hours.</li>
     </ul>
 </div>
 `,

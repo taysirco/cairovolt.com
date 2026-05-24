@@ -23,6 +23,19 @@ function sanitizeHtml(html: string): string {
 }
 
 /**
+ * i18n Quarantine Law: Rewrite internal links for non-default locales.
+ * When locale is 'en', all relative internal hrefs (starting with /)
+ * get prefixed with /en/ — unless they already have it.
+ */
+function localizeInternalLinks(html: string, locale: string): string {
+    if (locale === 'ar') return html;
+    return html.replace(
+        /href=(["'])\/(?!en\/|https?:\/\/|mailto:|tel:|javascript:|#)([^"']*?)\1/gi,
+        (_, quote, path) => `href=${quote}/${locale}/${path}${quote}`
+    );
+}
+
+/**
  * Generate metadata for a generic category page
  * Used by each static category route (/earbuds, /power-banks, etc.)
  */
@@ -321,7 +334,7 @@ export function GenericCategoryContent({
                         <div className="container mx-auto px-4 max-w-4xl">
                             <div
                                 className="prose prose-lg dark:prose-invert max-w-none prose-headings:scroll-mt-20 prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-gray-900 dark:prose-h2:text-white prose-table:text-sm prose-th:bg-gray-100 dark:prose-th:bg-gray-800 prose-th:p-3 prose-td:p-3 prose-table:border prose-table:border-gray-200 dark:prose-table:border-gray-700 prose-tr:border-b prose-tr:border-gray-200 dark:prose-tr:border-gray-700 prose-strong:text-gray-900 dark:prose-strong:text-white prose-a:text-blue-600 prose-li:my-1"
-                                dangerouslySetInnerHTML={{ __html: sanitizeHtml(richContent) }}
+                                dangerouslySetInnerHTML={{ __html: localizeInternalLinks(sanitizeHtml(richContent), locale) }}
                                 itemProp="articleBody"
                             />
                         </div>

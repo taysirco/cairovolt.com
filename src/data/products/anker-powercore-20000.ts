@@ -70,7 +70,7 @@ export const anker_powercore_20000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual USB Ports: Share Power with a Friend</h2>
-        <p class="text-gray-700">With <strong>2 USB-A ports</strong>, charge your phone and a friend's simultaneously. <strong>PowerIQ technology</strong> detects each device and delivers optimal charging speed (up to 2.4A per port). Perfect for couples, families, or when your friend's phone dies during a power outage — a common scenario in Egypt. Pair with an <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall charger</a> for faster recharging.</p>
+        <p class="text-gray-700">With <strong>2 USB-A ports</strong>, charge your phone and a friend's simultaneously. <strong>PowerIQ technology</strong> detects each device and delivers optimal charging speed (up to 2.4A per port). Perfect for couples, families, or when your friend's phone dies during a power outage — a common scenario in Egypt. Pair with an <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall charger</a> for faster recharging.</p>
     </section>
 
     <section>

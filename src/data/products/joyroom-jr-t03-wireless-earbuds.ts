@@ -63,7 +63,7 @@ export const joyroom_jr_t03_wireless_earbuds = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Built-in Mic: Take Calls Without Your Phone</h2>
-        <p class="text-gray-700">The <strong>built-in microphone</strong> handles phone calls clearly. Not studio quality, but perfectly adequate for everyday calls. Each earbud works independently — use one for calls while charging the other. For better call quality and ANC, upgrade to the <a href="/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
+        <p class="text-gray-700">The <strong>built-in microphone</strong> handles phone calls clearly. Not studio quality, but perfectly adequate for everyday calls. Each earbud works independently — use one for calls while charging the other. For better call quality and ANC, upgrade to the <a href="/en/joyroom/audio" class="text-blue-600 hover:underline">T03S Pro</a>.</p>
     </section>
 </div>
 <div class="device-compatibility">

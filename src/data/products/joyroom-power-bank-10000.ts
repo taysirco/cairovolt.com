@@ -59,7 +59,7 @@ export const joyroom_power_bank_10000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">LED Display: Know Your Exact Battery Level</h2>
-        <p class="text-gray-700">No more guessing with 4 LED dots. The <strong>digital percentage display</strong> shows you exactly how much charge remains — whether it's 73% or 12%, you know precisely. This feature is usually found on power banks costing 2-3x more. Pair with a <a href="/joyroom/wall-chargers" class="text-blue-600 hover:underline">Joyroom fast charger</a> to recharge in 3-4 hours.</p>
+        <p class="text-gray-700">No more guessing with 4 LED dots. The <strong>digital percentage display</strong> shows you exactly how much charge remains — whether it's 73% or 12%, you know precisely. This feature is usually found on power banks costing 2-3x more. Pair with a <a href="/en/joyroom/wall-chargers" class="text-blue-600 hover:underline">Joyroom fast charger</a> to recharge in 3-4 hours.</p>
     </section>
 </div>
 <div class="device-compatibility">

@@ -84,7 +84,7 @@ export const anker_zolo_a1681_20000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Never use a 5W cable with a 45W+ power bank — the cable bottlenecks at 15W and overheats. Always pair the A1681 with a 100W-rated cable like the <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> to unlock full 45W charging speed safely.</p>
+    <p class="text-gray-700">Never use a 5W cable with a 45W+ power bank — the cable bottlenecks at 15W and overheats. Always pair the A1681 with a 100W-rated cable like the <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> to unlock full 45W charging speed safely.</p>
 </div>
 `,
                 features: ["⚡ 45W PD — Charges Laptops", "🔋 20,000mAh (72Wh)", "💻 MacBook Air Compatible", "📊 Smart Digital Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (72Wh)", "🔌 Dual Port Output", "💡 Trickle-Charge Mode", "🏆 18-Month Warranty"],

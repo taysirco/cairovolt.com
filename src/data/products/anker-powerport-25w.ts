@@ -60,7 +60,7 @@ export const anker_powerport_25w = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">One Charger for Samsung AND iPhone</h2>
-        <p class="text-gray-700">The Anker 25W isn't just for Samsung. It also fast-charges <strong>iPhone 17/16/15</strong> at near-maximum speed (0-50% in 28 min). If your household has both Samsung and Apple devices, this single charger handles both. Pair with a <a href="/anker/cables" class="text-blue-600 hover:underline">USB-C cable</a> and you're set for any device.</p>
+        <p class="text-gray-700">The Anker 25W isn't just for Samsung. It also fast-charges <strong>iPhone 17/16/15</strong> at near-maximum speed (0-50% in 28 min). If your household has both Samsung and Apple devices, this single charger handles both. Pair with a <a href="/en/anker/cables" class="text-blue-600 hover:underline">USB-C cable</a> and you're set for any device.</p>
     </section>
 
     <section>
@@ -75,7 +75,7 @@ export const anker_powerport_25w = {
         <li>📱 <strong>Samsung A-Series:</strong> 25W fast charging where supported.</li>
         <li>📱 <strong>iPhone 17/16/15:</strong> Near-max speed USB-C PD charging.</li>
         <li>📱 <strong>iPad Air / iPad mini:</strong> Fast USB-C PD charging.</li>
-        <li>🔋 <strong>Anker Power Banks:</strong> Recharge <a href="/anker/power-banks" class="text-blue-600 hover:underline">PowerCore models</a> faster.</li>
+        <li>🔋 <strong>Anker Power Banks:</strong> Recharge <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">PowerCore models</a> faster.</li>
     </ul>
 </div>
 `,

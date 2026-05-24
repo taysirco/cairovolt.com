@@ -62,7 +62,7 @@ export const anker_622_maggo = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Built-in Kickstand: Watch, Call, Charge — Hands-Free</h2>
-        <p class="text-gray-700">The built-in <strong>foldable kickstand</strong> is what separates the 622 from every other magnetic battery. Prop your iPhone upright for FaceTime calls, Netflix binges, or following a recipe in the kitchen — all while charging. No need for a separate <a href="/anker/power-banks" class="text-blue-600 hover:underline">phone stand</a>. It's the perfect desk companion.</p>
+        <p class="text-gray-700">The built-in <strong>foldable kickstand</strong> is what separates the 622 from every other magnetic battery. Prop your iPhone upright for FaceTime calls, Netflix binges, or following a recipe in the kitchen — all while charging. No need for a separate <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">phone stand</a>. It's the perfect desk companion.</p>
     </section>
 
     <section>

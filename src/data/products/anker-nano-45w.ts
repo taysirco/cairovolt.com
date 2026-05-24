@@ -61,12 +61,12 @@ export const anker_nano_45w = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">GaN III: Laptop Power in Phone Charger Size</h2>
-        <p class="text-gray-700"><strong>Gallium Nitride (GaN III)</strong> technology is the reason this 45W charger is <strong>60% smaller</strong> than traditional silicon-based chargers. It's physically smaller than Apple's own 30W adapter despite being 50% more powerful. GaN also generates less heat, meaning safer charging and longer lifespan. Pair with an <a href="/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum performance.</p>
+        <p class="text-gray-700"><strong>Gallium Nitride (GaN III)</strong> technology is the reason this 45W charger is <strong>60% smaller</strong> than traditional silicon-based chargers. It's physically smaller than Apple's own 30W adapter despite being 50% more powerful. GaN also generates less heat, meaning safer charging and longer lifespan. Pair with an <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker USB-C cable</a> for maximum performance.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Future-Proof: Ready now and Beyond</h2>
-        <p class="text-gray-700">At 45W, this charger exceeds the needs of every current phone (iPhone 17 max: 30W, Samsung S26 max: 45W) and handles MacBook Air charging effortlessly. As devices get more power-hungry, 45W keeps you covered. <strong>24-month warranty</strong> from Anker means you're protected long-term. Ideal for <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">replacing multiple chargers</a> with one versatile brick.</p>
+        <p class="text-gray-700">At 45W, this charger exceeds the needs of every current phone (iPhone 17 max: 30W, Samsung S26 max: 45W) and handles MacBook Air charging effortlessly. As devices get more power-hungry, 45W keeps you covered. <strong>24-month warranty</strong> from Anker means you're protected long-term. Ideal for <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">replacing multiple chargers</a> with one versatile brick.</p>
     </section>
 </div>
 <div class="device-compatibility">

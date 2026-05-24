@@ -67,6 +67,20 @@ function sanitizeHtml(html: string): string {
         .replace(/data\s*:/gi, 'blocked:'); // data: URIs
 }
 
+/**
+ * i18n Quarantine Law: Rewrite internal links for non-default locales.
+ * When locale is 'en', all relative internal hrefs (starting with /)
+ * get prefixed with /en/ — unless they already have it.
+ * Arabic is the default locale and needs no prefix.
+ */
+function localizeInternalLinks(html: string, locale: string): string {
+    if (locale === 'ar') return html; // Arabic = default, no prefix needed
+    return html.replace(
+        /href=(["'])\/(?!en\/|https?:\/\/|mailto:|tel:|javascript:|#)([^"']*?)\1/gi,
+        (_, quote, path) => `href=${quote}/${locale}/${path}${quote}`
+    );
+}
+
 
 interface Product {
     id: string; // Add id
@@ -865,7 +879,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <div
                                     className={`prose prose-lg dark:prose-invert max-w-none transition-all duration-500 overflow-hidden ${isDescriptionExpanded ? 'max-h-none' : 'max-h-72'}`}
                                 >
-                                    <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(productDesc) }} />
+                                    <div dangerouslySetInnerHTML={{ __html: localizeInternalLinks(sanitizeHtml(productDesc), locale) }} />
                                 </div>
 
                                 {!isDescriptionExpanded && (

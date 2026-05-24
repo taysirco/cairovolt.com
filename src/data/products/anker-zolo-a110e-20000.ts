@@ -64,7 +64,7 @@ export const anker_zolo_a110e_20000 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Same Genius Cable, Double the Power</h2>
-        <p class="text-gray-700">Like its smaller sibling (the <a href="/anker/power-banks/anker-zolo-a110d-10000" class="text-blue-600 hover:underline">A110D</a>), the A110E features Anker's <strong>built-in USB-C cable</strong> — rated for 10,000+ bend cycles. But here you get it backed by a 20,000mAh reservoir. The cable charges your devices at <strong>22.5W</strong> and also serves as the input cable for recharging the power bank. Three total connections: built-in cable + USB-C port + USB-A port = <strong>3 devices simultaneously</strong>.</p>
+        <p class="text-gray-700">Like its smaller sibling (the <a href="/en/anker/power-banks/anker-zolo-a110d-10000" class="text-blue-600 hover:underline">A110D</a>), the A110E features Anker's <strong>built-in USB-C cable</strong> — rated for 10,000+ bend cycles. But here you get it backed by a 20,000mAh reservoir. The cable charges your devices at <strong>22.5W</strong> and also serves as the input cable for recharging the power bank. Three total connections: built-in cable + USB-C port + USB-A port = <strong>3 devices simultaneously</strong>.</p>
     </section>
 
     <section>

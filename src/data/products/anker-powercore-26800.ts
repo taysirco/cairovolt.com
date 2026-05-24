@@ -60,12 +60,12 @@ export const anker_powercore_26800 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3 USB Ports: The Family Charger</h2>
-        <p class="text-gray-700">With <strong>3 USB-A output ports</strong>, charge your phone, your partner's phone, and your kid's tablet simultaneously. <strong>PowerIQ 2.0</strong> intelligently distributes power across all 3 ports. During a <a href="/anker/power-banks" class="text-blue-600 hover:underline">power outage</a>, one power bank serves the whole family — no arguments about who charges first.</p>
+        <p class="text-gray-700">With <strong>3 USB-A output ports</strong>, charge your phone, your partner's phone, and your kid's tablet simultaneously. <strong>PowerIQ 2.0</strong> intelligently distributes power across all 3 ports. During a <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power outage</a>, one power bank serves the whole family — no arguments about who charges first.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Dual-Input: Recharge in 6 Hours, Not 20</h2>
-        <p class="text-gray-700">The biggest complaint about high-capacity power banks? Recharging time. Anker solved this with <strong>dual Micro-USB input ports</strong>. Use 2 cables + 2 wall chargers simultaneously and the 26800 recharges fully in just <strong>6 hours</strong> instead of 20. Pair with <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall chargers</a> for optimal speed.</p>
+        <p class="text-gray-700">The biggest complaint about high-capacity power banks? Recharging time. Anker solved this with <strong>dual Micro-USB input ports</strong>. Use 2 cables + 2 wall chargers simultaneously and the 26800 recharges fully in just <strong>6 hours</strong> instead of 20. Pair with <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">Anker wall chargers</a> for optimal speed.</p>
     </section>
 </div>
 <div class="device-compatibility">

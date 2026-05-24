@@ -63,7 +63,7 @@ export const anker_737_powerbank = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">140W: The Power Bank That Charges Laptops (Not Just Phones)</h2>
-        <p class="text-gray-700">Most power banks top out at 20-30W — enough for phones, but useless for laptops. The Anker 737 delivers <strong>140W via USB-C PD 3.1</strong>, making it one of the few portable chargers that can genuinely fast-charge a MacBook Pro 16". Charge your laptop to 50% in 30 minutes, or power it during a flight. For remote workers and digital nomads in Egypt, this changes everything during <a href="/anker/power-banks" class="text-blue-600 hover:underline">power outages</a>.</p>
+        <p class="text-gray-700">Most power banks top out at 20-30W — enough for phones, but useless for laptops. The Anker 737 delivers <strong>140W via USB-C PD 3.1</strong>, making it one of the few portable chargers that can genuinely fast-charge a MacBook Pro 16". Charge your laptop to 50% in 30 minutes, or power it during a flight. For remote workers and digital nomads in Egypt, this changes everything during <a href="/en/anker/power-banks" class="text-blue-600 hover:underline">power outages</a>.</p>
     </section>
 
     <section>

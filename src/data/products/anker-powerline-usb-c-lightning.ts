@@ -60,12 +60,12 @@ export const anker_powerline_usb_c_lightning = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">3.5x More Durable Than Apple's Cable</h2>
-        <p class="text-gray-700">Apple's cable lasts about 10,000 bends before fraying. The PowerLine III is tested to <strong>35,000+ bends</strong> — 3.5x the lifespan. The reinforced stress points at both connectors are where cables usually break first. Anker engineered these to withstand years of daily plugging and unplugging. Pair with an <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">Anker 20W charger</a> for maximum fast charging speed.</p>
+        <p class="text-gray-700">Apple's cable lasts about 10,000 bends before fraying. The PowerLine III is tested to <strong>35,000+ bends</strong> — 3.5x the lifespan. The reinforced stress points at both connectors are where cables usually break first. Anker engineered these to withstand years of daily plugging and unplugging. Pair with an <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">Anker 20W charger</a> for maximum fast charging speed.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Full 30W Fast Charging for iPhone</h2>
-        <p class="text-gray-700">This cable supports <strong>30W Power Delivery</strong>, unlocking the maximum charging speed for iPhone 14/13/12/11 when paired with a 20W+ <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">USB-C charger</a>. That means 0% to 50% in about 30 minutes. Also works perfectly with Apple CarPlay, iPad, and AirPods with Lightning.</p>
+        <p class="text-gray-700">This cable supports <strong>30W Power Delivery</strong>, unlocking the maximum charging speed for iPhone 14/13/12/11 when paired with a 20W+ <a href="/en/anker/wall-chargers" class="text-blue-600 hover:underline">USB-C charger</a>. That means 0% to 50% in about 30 minutes. Also works perfectly with Apple CarPlay, iPad, and AirPods with Lightning.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -75,7 +75,7 @@ export const anker_powerline_usb_c_lightning = {
         <li>📱 <strong>iPad (Lightning):</strong> Fast charging via USB-C PD.</li>
         <li>🎧 <strong>AirPods Pro 1 / AirPods:</strong> Lightning charging.</li>
         <li>🚗 <strong>Apple CarPlay:</strong> Flawless connection in supported cars.</li>
-        <li>❌ <strong>NOT for iPhone 17/16/15:</strong> These use USB-C. See our <a href="/anker/cables" class="text-blue-600 hover:underline">USB-C cables</a>.</li>
+        <li>❌ <strong>NOT for iPhone 17/16/15:</strong> These use USB-C. See our <a href="/en/anker/cables" class="text-blue-600 hover:underline">USB-C cables</a>.</li>
     </ul>
 </div>
 `,

@@ -63,7 +63,7 @@ export const anker_car_charger_dual_usb = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Built for Daily Egyptian Driving</h2>
-        <p class="text-gray-700">Heat-resistant design handles Egypt's summer temperatures. <strong>MultiProtect safety</strong> protects your devices from surges and your car's electrical system from interference. Pair with <a href="/anker/cables" class="text-blue-600 hover:underline">Anker cables</a> for maximum speed. Anker backs it with an <strong>18-month warranty</strong> — longer than most car accessories.</p>
+        <p class="text-gray-700">Heat-resistant design handles Egypt's summer temperatures. <strong>MultiProtect safety</strong> protects your devices from surges and your car's electrical system from interference. Pair with <a href="/en/anker/cables" class="text-blue-600 hover:underline">Anker cables</a> for maximum speed. Anker backs it with an <strong>18-month warranty</strong> — longer than most car accessories.</p>
     </section>
 </div>
 <div class="device-compatibility">
