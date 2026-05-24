@@ -33,7 +33,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
 
     <h3> 1. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">انكر نانو 30W</a> — الأفضل عموماً </h3>
     <p> <strong>السعر: </strong> 790 جنيه | <strong>القوة:</strong> 45W | <strong>التقنية: </strong> GaN III</p>
-    <p>أصغر شاحن 30W في العالم.يعطي iPhone 17 أقصى سرعة شحن ممكنة(0 لـ 50 % في 25 دقيقة).أصغر من شاحن Apple 20W الأصلي! <a href="/anker/chargers" class="text-blue-600 hover:underline">تصفح شواحن انكر</a></p>
+    <p>أصغر شاحن 30W في العالم.يعطي iPhone 17 أقصى سرعة شحن ممكنة(0 لـ 50 % في 25 دقيقة).أصغر من شاحن Apple 20W الأصلي! <a href="/anker/wall-chargers" class="text-blue-600 hover:underline">تصفح شواحن انكر</a></p>
 
     <h3> 2. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W</a> — الأرخص للايفون </h3>
     <p> <strong>السعر: </strong> 375 جنيه | <strong>القوة:</strong> 20W </p>
@@ -91,7 +91,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
 
                         <h3> 1. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 30W</a> — Best Overall </h3>
                             <p> <strong>Price: </strong> EGP 790 | <strong>Power:</strong> 45W | <strong>Tech: </strong> GaN III</p>
-                                <p>World's smallest 30W charger. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple's 20W charger! <a href="/en/anker/chargers" style="color:#2563eb">Browse Anker Chargers</a></p>
+                                <p>World's smallest 30W charger. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple's 20W charger! <a href="/en/anker/wall-chargers" style="color:#2563eb">Browse Anker Chargers</a></p>
 
                                     <h3> 2. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> — Budget iPhone Charger </h3>
                                         <p> <strong>Price: </strong> EGP 375 | <strong>Power:</strong> 20W </p>
