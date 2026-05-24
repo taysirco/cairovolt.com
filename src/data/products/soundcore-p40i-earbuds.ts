@@ -57,8 +57,8 @@ export const soundcore_p40i_earbuds = {
     </ul>
 </div>`,
             features: ["11mm Composite BassUp", "Adaptive ANC", "60h Total Battery", "Phone Stand Case", "6-Mic AI Calls", "BT 5.3 Multipoint", "IPX5", "10min = 2h Fast Charge", "Transparency Mode", "18-Month Warranty"],
-            metaTitle: "Soundcore P40i — 11mm ANC + 60h Battery + Phone Stand Case | Egypt | CairoVolt",
-            metaDesc: "Buy Soundcore P40i in Egypt — 2,052 EGP. 11mm composite driver, adaptive ANC, 60h battery, 6-mic AI calls, phone stand case. 18-month warranty. COD. Same-day Cairo.",
+            metaTitle: "Soundcore P40i — 11mm ANC + 60h Battery",
+            metaDesc: "Buy Soundcore P40i in Egypt — 2,052 EGP. 11mm composite driver, adaptive ANC, 60h battery, 6-mic AI calls, phone stand case. 18-month warranty. COD.",
             faqs: [
                     { question: "P40i vs R50i NC — which is better?", answer: "R50i NC: stronger ANC (42dB vs ~25dB), better noise cancellation for Metro. P40i: 60h battery (vs 45h), phone stand case, 11mm driver (vs 10mm). Choose R50i NC for ANC, P40i for battery life." },
                     { question: "Is the driver 12mm or 11mm?", answer: "11mm composite — some sources incorrectly list 12mm. The 11mm with BassUp delivers strong, customizable bass via the Soundcore app." },
@@ -96,7 +96,7 @@ export const soundcore_p40i_earbuds = {
     </ul>
 </div>`,
             features: ["درايفر 11mm BassUp مركب", "ANC تكيّفي", "60 ساعة بطارية", "علبة حامل موبايل", "6 مايكات AI", "BT 5.3 Multipoint", "IPX5", "10 دقايق = ساعتين شحن", "وضع شفافية", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور P40i — 11mm ANC + 60 ساعة + حامل موبايل | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور P40i — 11mm ANC + 60 ساعة + حامل موبايل",
             metaDesc: "اشتري سماعة ساوندكور P40i في مصر — 2,052 جنيه. درايفر 11mm مركب، ANC تكيّفي، 60 ساعة، 6 مايكات AI، علبة حامل موبايل. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "P40i ولا R50i NC — أنهي أحسن؟", answer: "R50i NC: ANC أقوى (42dB مقابل ~25dB). P40i: بطارية 60 ساعة (مقابل 45)، علبة حامل موبايل، درايفر 11mm (مقابل 10mm). اختار R50i NC للـ ANC، P40i للبطارية." },

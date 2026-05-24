@@ -57,8 +57,8 @@ export const soundcore_liberty_3_pro = {
     </ul>
 </div>`,
             features: ["10.6mm ACAA 2.0 Dual-Driver", "HearID Personalized ANC", "LDAC Hi-Res Codec", "Wireless Charging Case", "6h/8h + 24h/32h Battery", "BT 5.2 Multipoint", "Fusion Comfort (4 tips + wings)", "IPX4", "15min = 3h Fast Charge", "18-Month Warranty"],
-            metaTitle: "Soundcore Liberty 3 Pro — ACAA 2.0 Dual-Driver + LDAC + Wireless Charging | Egypt | CairoVolt",
-            metaDesc: "Buy Soundcore Liberty 3 Pro in Egypt — 4,400 EGP. 10.6mm ACAA 2.0 dual-driver, HearID ANC ~30dB, LDAC Hi-Res, wireless charging case. 18-month warranty. COD. Same-day Cairo.",
+            metaTitle: "Soundcore Liberty 3 Pro — ACAA 2.0 Dual-Driver + LDAC",
+            metaDesc: "Buy Soundcore Liberty 3 Pro in Egypt — 4,400 EGP. 10.6mm ACAA 2.0 dual-driver, HearID ANC ~30dB, LDAC Hi-Res, wireless charging case. 18-month warranty. COD.",
             faqs: [
                     { question: "What is ACAA 2.0 and why does it matter?", answer: "ACAA 2.0 places a 10.6mm dynamic driver + balanced armature on one axis. Dynamic handles bass, armature handles treble — no overlap, no muddy sound. Single-driver earbuds can't separate instruments this cleanly." },
                     { question: "Does LDAC work with iPhone?", answer: "No — LDAC is Android-only (Samsung, Pixel, etc.). iPhone uses AAC codec which is good quality but not Hi-Res. Android users get full 990kbps Hi-Res streaming." },
@@ -98,8 +98,8 @@ export const soundcore_liberty_3_pro = {
     </ul>
 </div>`,
             features: ["درايفر 10.6mm ACAA 2.0 مزدوج", "HearID ANC شخصي", "LDAC Hi-Res", "علبة شحن لاسلكي", "6/8 + 24/32 ساعة بطارية", "BT 5.2 Multipoint", "Fusion Comfort (4 أطراف + جناحين)", "IPX4", "15 دقيقة = 3 ساعات شحن سريع", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Liberty 3 Pro — درايفر مزدوج ACAA 2.0 + LDAC + شحن لاسلكي | مصر | كايرو فولت",
-            metaDesc: "اشتري سماعة ساوندكور Liberty 3 Pro في مصر — 4,400 جنيه. درايفر 10.6mm ACAA 2.0 مزدوج، HearID ANC ~30dB، LDAC Hi-Res، شحن لاسلكي. ضمان 18 شهر. الدفع عند الاستلام.",
+            metaTitle: "سماعة ساوندكور Liberty 3 Pro — درايفر مزدوج ACAA 2.0",
+            metaDesc: "اشتري سماعة ساوندكور Liberty 3 Pro في مصر — 4,400 جنيه. درايفر 10.6mm ACAA 2.0 مزدوج، HearID ANC ~30dB، LDAC Hi-Res، شحن لاسلكي. ضمان 18 شهر. الدفع عند.",
             faqs: [
                     { question: "إيه هو ACAA 2.0 وليه مهم؟", answer: "ACAA 2.0 بيحط درايفر ديناميكي 10.6mm + balanced armature على محور واحد. الديناميكي بيتعامل مع الباس، الـ armature بيتعامل مع التريبل — مفيش تداخل، مفيش صوت ملخبط. سماعات الدرايفر الواحد مش بتقدر تفصل الآلات بالوضوح ده." },
                     { question: "LDAC بتشتغل مع iPhone؟", answer: "لأ — LDAC لـ Android بس (Samsung, Pixel, إلخ). iPhone بيستخدم AAC وده كويس بس مش Hi-Res. مستخدمين Android بيستفيدوا بـ Hi-Res LDAC كامل بـ 990kbps." },

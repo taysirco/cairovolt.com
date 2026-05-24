@@ -54,8 +54,8 @@ export const soundcore_life_u2i_neckband = {
     </ul>
 </div>`,
             features: ["Wireless Neckband", "10mm Graphene BassUp", "22h Battery", "10min = 3h Fast Charge", "Magnetic Auto-Pause", "28g Ultralight", "BT 5.0", "AI Mic", "IPX5", "USB-C", "18-Month Warranty"],
-            metaTitle: "Soundcore Life U2i — Neckband | 10mm BassUp | 22h | CairoVolt Egypt",
-            metaDesc: "Buy Soundcore Life U2i in Egypt — 739 EGP. Neckband, 10mm graphene BassUp, 22h battery, IPX5, AI mic, magnetic earbuds. Cheapest Soundcore. 18-month warranty. COD.",
+            metaTitle: "Soundcore Life U2i — Neckband | 10mm BassUp | 22h",
+            metaDesc: "Buy Soundcore Life U2i in Egypt — 739 EGP. Neckband, 10mm graphene BassUp, 22h battery, IPX5, AI mic, magnetic earbuds. Cheapest Soundcore. 18-month.",
             faqs: [
                     { question: "Why neckband instead of TWS earbuds?", answer: "Never lose an earbud — they hang on your neck. No charging case needed. 22h battery built into neckband. Perfect for delivery drivers, mechanics, outdoor workers. Trade-off: less discreet than TWS." },
                     { question: "Is Bluetooth 5.0 outdated compared to P20i's 5.3?", answer: "BT 5.0 is older: shorter range (10m vs 15m), no multipoint. But at 739 EGP, it delivers reliable connection for personal use. For multipoint: P20i (699 EGP) or A30i (1,450)." },
@@ -93,7 +93,7 @@ export const soundcore_life_u2i_neckband = {
     </ul>
 </div>`,
             features: ["نيكباند لاسلكي", "10mm جرافين BassUp", "22 ساعة بطارية", "10 دقائق = 3 ساعات", "تشبيك مغناطيسي أوتوماتيك", "28 جرام خفيف", "BT 5.0", "مايك AI", "IPX5", "USB-C", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Life U2i — نيكباند | 10mm BassUp | 22 ساعة | كايرو فولت",
+            metaTitle: "سماعة ساوندكور Life U2i — نيكباند | 10mm BassUp",
             metaDesc: "اشتري سماعة ساوندكور Life U2i في مصر — 739 جنيه. نيكباند، 10mm جرافين BassUp، 22 ساعة، IPX5، مايك AI، سماعات مغناطيسية. أرخص Soundcore. ضمان 18 شهر.",
             faqs: [
                     { question: "ليه نيكباند بدل TWS؟", answer: "مش هتضيع سماعة أبداً — بتتعلق على رقبتك. مفيش علبة شحن. 22 ساعة بطارية مدمجة. مثالية لسواقين الديلفري والميكانيكيين والعمال الخارجيين. المقايضة: أقل أناقة من TWS." },

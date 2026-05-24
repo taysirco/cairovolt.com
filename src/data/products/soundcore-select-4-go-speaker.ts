@@ -54,7 +54,7 @@ export const soundcore_select_4_go_speaker = {
     </ul>
 </div>`,
             features: ["IP67 Waterproof", "Floats on Water", "Dustproof", "5W", "20h Battery", "BT 5.4", "9-Band EQ", "TWS Pairing", "USB-C", "Carry Strap", "No Mic", "No AUX", "18-Month Warranty"],
-            metaTitle: "Soundcore Select 4 Go — IP67 Waterproof + Floats | 20h | Egypt | CairoVolt",
+            metaTitle: "Soundcore Select 4 Go — IP67 Waterproof + Floats | 20h",
             metaDesc: "Buy Soundcore Select 4 Go in Egypt — 1,249 EGP. IP67 waterproof, floats, 20h battery, BT 5.4, 9-band EQ, TWS pairing. JBL Go 4 killer. 18-month warranty.",
             faqs: [
                     { question: "Does Select 4 Go really float?", answer: "Yes — tested. Floats face-up on pool surface and continues playing. IP67 means submersible to 1m for 30 minutes. Safe for pool, beach, shower." },
@@ -93,7 +93,7 @@ export const soundcore_select_4_go_speaker = {
     </ul>
 </div>`,
             features: ["IP67 ضد المية", "بتطفو على المية", "ضد الغبار", "5 واط", "20 ساعة", "BT 5.4", "9-باند EQ", "ربط TWS", "USB-C", "حزام حمل", "بدون مايك", "بدون AUX", "ضمان 18 شهر"],
-            metaTitle: "مكبر صوت ساوندكور Select 4 Go — IP67 + بتطفو | 20 ساعة | كايرو فولت مصر",
+            metaTitle: "مكبر صوت ساوندكور Select 4 Go — IP67 + بتطفو | 20 ساعة",
             metaDesc: "اشتري مكبر صوت ساوندكور Select 4 Go في مصر — 1,249 جنيه. IP67 ضد المية، بتطفو، 20 ساعة، BT 5.4، 9-باند EQ، ربط TWS. قاتل JBL Go 4. ضمان 18 شهر.",
             faqs: [
                     { question: "Select 4 Go بتطفو فعلاً؟", answer: "أيوه — متختبرة. بتطفو وجهها لفوق على سطح المسبح وبتكمل تشغيل. IP67 يعني ممكن تغطسها لحد 1 متر لـ 30 دقيقة. آمنة للمسبح والبحر والدش." },

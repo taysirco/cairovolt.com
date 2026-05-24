@@ -57,7 +57,7 @@ export const soundcore_c30i_earbuds = {
     </ul>
 </div>`,
             features: ["Open-Ear Clip-On", "12×17mm Racetrack Titanium", "No ANC (Hear Environment)", "10h/30h Battery", "10min = 3h Fast Charge", "BT 5.3 Multipoint", "IPX4 Sweat+Rain", "5.7g Ultralight", "2-Mic Calls", "Detachable Silicone Grips", "18-Month Warranty"],
-            metaTitle: "Soundcore C30i — Open-Ear Clip-On Earbuds | Titanium Driver | Egypt | CairoVolt",
+            metaTitle: "Soundcore C30i — Open-Ear Clip-On Earbuds",
             metaDesc: "Buy Soundcore C30i in Egypt — 2,350 EGP. Open-ear clip-on, 12×17mm titanium, hear environment + music, 30h battery, BT 5.3, IPX4, 5.7g. 18-month warranty. COD.",
             faqs: [
                     { question: "C30i is open-ear — what does that mean?", answer: "C30i clips onto your outer ear, nothing enters the ear canal. You hear music AND your environment simultaneously. No ANC. Ideal for running (hear traffic), office (hear colleagues), and people who dislike in-ear buds." },
@@ -96,8 +96,8 @@ export const soundcore_c30i_earbuds = {
     </ul>
 </div>`,
             features: ["كليب أذن مفتوح", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "10/30 ساعة بطارية", "10 دقائق = 3 ساعات", "BT 5.3 Multipoint", "IPX4 عرق+مطر", "5.7 جرام خفيف", "2 مايك مكالمات", "قبضات سيليكون قابلة للفك", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور C30i — كليب أذن مفتوح تيتانيوم | مصر | كايرو فولت",
-            metaDesc: "اشتري سماعة ساوندكور C30i في مصر — 2,350 جنيه. كليب أذن مفتوح، 12×17mm تيتانيوم، اسمع البيئة + الموسيقى، 30 ساعة، BT 5.3، IPX4، 5.7 جرام. ضمان 18 شهر. الدفع عند الاستلام.",
+            metaTitle: "سماعة ساوندكور C30i — كليب أذن مفتوح تيتانيوم | مصر",
+            metaDesc: "اشتري سماعة ساوندكور C30i في مصر — 2,350 جنيه. كليب أذن مفتوح، 12×17mm تيتانيوم، اسمع البيئة + الموسيقى، 30 ساعة، BT 5.3، IPX4، 5.7 جرام. ضمان 18 شهر. الدفع.",
             faqs: [
                     { question: "C30i أذن مفتوحة يعني إيه؟", answer: "C30i بتتعلق على الأذن الخارجية، مفيش حاجة بتدخل قناة الودان. بتسمع الموسيقى والبيئة حواليك مع بعض. مفيش ANC. مثالية للجري (اسمع المرور)، المكتب (اسمع الزملاء)، واللي مش بيحبوا السماعات الداخلية." },
                     { question: "ليه C30i مفيهاش ANC؟", answer: "تصميم مفتوح يعني الودان مش مسدودة. ده متعمد — ميزة أمان للجري في الشوارع وميزة إنتاجية للمكاتب. لو عايز ANC: P30i (42dB، 1,200 جنيه) أو P40i (1,522 جنيه)." },

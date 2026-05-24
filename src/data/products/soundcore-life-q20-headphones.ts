@@ -58,7 +58,7 @@ export const soundcore_life_q20_headphones = {
     </ul>
 </div>`,
             features: ["40mm Hi-Res BassUp", "Hybrid ANC 4-mic", "40h ANC / 60h off", "5min = 4h Fast Charge", "3.5mm Wired Mode", "BT 5.0", "Micro-USB", "Foldable + Pouch", "263g Protein Leather", "18-Month Warranty"],
-            metaTitle: "Soundcore Life Q20 — 40mm ANC Over-Ear + 60h Battery | Egypt | CairoVolt",
+            metaTitle: "Soundcore Life Q20 — 40mm ANC Over-Ear + 60h Battery",
             metaDesc: "Buy Soundcore Life Q20 in Egypt — 2,350 EGP. 40mm Hi-Res, hybrid ANC, 60h battery, BassUp, foldable, 3.5mm wired. 18-month warranty. COD. Same-day Cairo.",
             faqs: [
                     { question: "Life Q20 or Q20i — which should I buy?", answer: "Q20i: USB-C, Soundcore app, multipoint, BT 5.3, 172 EGP more. Q20: Micro-USB, no app, BT 5.0, but same 40mm driver and ANC. Choose Q20 if app/multipoint don't matter." },
@@ -97,7 +97,7 @@ export const soundcore_life_q20_headphones = {
     </ul>
 </div>`,
             features: ["درايفر 40mm Hi-Res BassUp", "ANC هجين 4 مايكات", "40 ساعة ANC / 60 بدون", "5 دقايق = 4 ساعات", "وضع سلكي 3.5mm", "BT 5.0", "Micro-USB", "قابل للطي + حقيبة", "263 جرام جلد بروتين", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Life Q20 — 40mm ANC Over-Ear + 60 ساعة | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور Life Q20 — 40mm ANC Over-Ear + 60 ساعة",
             metaDesc: "اشتري سماعة ساوندكور Life Q20 في مصر — 2,350 جنيه. درايفر 40mm Hi-Res، ANC هجين، 60 ساعة، BassUp، قابل للطي، 3.5mm سلكي. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "Life Q20 ولا Q20i — أشتري أنهي؟", answer: "Q20i: USB-C، تطبيق Soundcore، multipoint، BT 5.3، أغلى 172 جنيه. Q20: Micro-USB، بدون تطبيق، BT 5.0، بس نفس درايفر 40mm وANC. اختار Q20 لو مش محتاج تطبيق/multipoint." },

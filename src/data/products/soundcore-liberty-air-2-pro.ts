@@ -55,8 +55,8 @@ export const soundcore_liberty_air_2_pro = {
     </ul>
 </div>`,
             features: ["LDAC Hi-Res", "11mm PureNote", "Targeted ANC", "HearID EQ", "Qi Wireless", "9 Ear Tips", "7h/26h Battery", "BT 5.0", "IPX4", "Soundcore App", "18-Month Warranty"],
-            metaTitle: "Soundcore Liberty Air 2 Pro — LDAC + ANC + Qi | Egypt | CairoVolt",
-            metaDesc: "Buy Soundcore Liberty Air 2 Pro in Egypt — 2,150 EGP. LDAC Hi-Res, 11mm PureNote, targeted ANC, Qi wireless charging, HearID, 9 ear tips, 26h. 18-month warranty.",
+            metaTitle: "Soundcore Liberty Air 2 Pro — LDAC + ANC + Qi | Egypt",
+            metaDesc: "Buy Soundcore Liberty Air 2 Pro in Egypt — 2,150 EGP. LDAC Hi-Res, 11mm PureNote, targeted ANC, Qi wireless charging, HearID, 9 ear tips, 26h. 18-month.",
             faqs: [
                     { question: "Liberty Air 2 Pro or A30i — which should I buy?", answer: "Air 2 Pro: LDAC Hi-Res, Qi wireless charging, HearID, 9 tips, 26h, 2,150 EGP. A30i: 46dB ANC (stronger), lipstick case, 24h, 1,450 EGP. Audiophile + Android: Air 2 Pro. ANC priority + value: A30i." },
                     { question: "Does LDAC work on iPhone?", answer: "No — LDAC is Android-only (Samsung, Pixel, etc.). On iPhone, the earbuds use AAC which is still excellent quality but not Hi-Res. If you use iPhone exclusively, A30i at 1,450 EGP is better value." },
@@ -94,7 +94,7 @@ export const soundcore_liberty_air_2_pro = {
     </ul>
 </div>`,
             features: ["LDAC Hi-Res", "11mm PureNote", "ANC موجه", "HearID EQ", "شحن Qi لاسلكي", "9 مقاسات أطراف", "7/26 ساعة بطارية", "BT 5.0", "IPX4", "تطبيق Soundcore", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Liberty Air 2 Pro — LDAC + ANC + Qi | كايرو فولت مصر",
+            metaTitle: "سماعة ساوندكور Liberty Air 2 Pro — LDAC + ANC + Qi",
             metaDesc: "اشتري سماعة ساوندكور Liberty Air 2 Pro في مصر — 2,150 جنيه. LDAC Hi-Res، 11mm PureNote، ANC موجه، شحن Qi لاسلكي، HearID، 9 أطراف، 26 ساعة. ضمان 18 شهر.",
             faqs: [
                     { question: "Liberty Air 2 Pro ولا A30i — أشتري أنهي؟", answer: "Air 2 Pro: LDAC Hi-Res، شحن Qi، HearID، 9 أطراف، 26 ساعة، 2,150 جنيه. A30i: 46dB ANC (أقوى)، علبة ليبستيك، 24 ساعة، 1,450 جنيه. أوديوفايل + أندرويد: Air 2 Pro. أولوية ANC + قيمة: A30i." },

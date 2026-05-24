@@ -59,7 +59,7 @@ export const soundcore_p41i_earbuds = {
     </ul>
 </div>`,
             features: ["11mm BassUp Composite", "Adaptive ANC (3 modes)", "192h Total Battery", "3,000mAh Powerbank Case", "10min = 5h Fast Charge", "6-Mic AI Calls", "BT 5.3 Multipoint", "IPX5", "Phone Stand Case", "Built-in USB-C Cable", "18-Month Warranty"],
-            metaTitle: "Soundcore P41i — 192h Battery + Powerbank Case + ANC | Egypt | CairoVolt",
+            metaTitle: "Soundcore P41i — 192h Battery + Powerbank Case + ANC",
             metaDesc: "Buy Soundcore P41i in Egypt — 2,439 EGP. 192h battery, 3,000mAh powerbank case, 11mm BassUp, adaptive ANC, 6-mic AI, phone stand. 18-month warranty. COD.",
             faqs: [
                     { question: "Does the P41i case actually charge my phone?", answer: "Yes — the 3,000mAh case outputs 10W via built-in USB-C. Tested: iPhone 17 from 15% to 45% (~30% gain). Not a full charge but enough for emergencies." },
@@ -98,7 +98,7 @@ export const soundcore_p41i_earbuds = {
     </ul>
 </div>`,
             features: ["درايفر 11mm BassUp", "ANC تكيّفي (3 أوضاع)", "192 ساعة إجمالي", "علبة باور بانك 3,000mAh", "10 دقائق = 5 ساعات", "6 مايكات AI", "BT 5.3 Multipoint", "IPX5", "ستاند موبايل", "كابل USB-C مدمج", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور P41i — 192 ساعة + علبة باور بانك + ANC | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور P41i — 192 ساعة + علبة باور بانك + ANC",
             metaDesc: "اشتري سماعة ساوندكور P41i في مصر — 2,439 جنيه. 192 ساعة، علبة باور بانك 3,000mAh، 11mm BassUp، ANC تكيّفي، 6 مايكات AI، ستاند. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "علبة P41i بتشحن الموبايل فعلاً؟", answer: "أيوه — علبة 3,000mAh بخرج 10W من كابل USB-C المدمج. مختبرة: iPhone 17 من 15% لـ 45% (~30% زيادة). مش شحن كامل بس كفاية للطوارئ." },

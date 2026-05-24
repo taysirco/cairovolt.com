@@ -55,7 +55,7 @@ export const soundcore_q11i_headphones = {
     </ul>
 </div>`,
             features: ["40mm BassUp", "No ANC", "60h Battery", "5min = 4h Fast Charge", "Foldable", "Replaceable Cushions", "BT 5.3 Multipoint", "3.5mm AUX", "~240g", "Soundcore App", "18-Month Warranty"],
-            metaTitle: "Soundcore Q11i — 40mm BassUp | 60h | Foldable | Egypt | CairoVolt",
+            metaTitle: "Soundcore Q11i — 40mm BassUp | 60h | Foldable | Egypt",
             metaDesc: "Buy Soundcore Q11i in Egypt — 2,312 EGP. 40mm BassUp, 60h battery, NO ANC, foldable, replaceable cushions, BT 5.3 multipoint, 3.5mm AUX. 18-month warranty. COD.",
             faqs: [
                     { question: "Q11i or Q20i — which should I buy?", answer: "Same 40mm driver. Q11i: no ANC, 60h always, 2,312 EGP. Q20i: 43dB ANC, 60h (off)/40h (on), 2,522 EGP. Quiet office: Q11i. Daily Metro/bus commute: Q20i. The 210 EGP difference is the ANC." },
@@ -94,7 +94,7 @@ export const soundcore_q11i_headphones = {
     </ul>
 </div>`,
             features: ["40mm BassUp", "بدون ANC", "60 ساعة بطارية", "5 دقائق = 4 ساعات", "قابل للطي", "وسائد بديلة", "BT 5.3 Multipoint", "3.5mm AUX", "~240 جرام", "تطبيق Soundcore", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Q11i — 40mm BassUp | 60 ساعة | قابل للطي | كايرو فولت",
+            metaTitle: "سماعة ساوندكور Q11i — 40mm BassUp | 60 ساعة | قابل للطي",
             metaDesc: "اشتري سماعة ساوندكور Q11i في مصر — 2,312 جنيه. 40mm BassUp، 60 ساعة، بدون ANC، قابل للطي، وسائد بديلة، BT 5.3، 3.5mm AUX. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "Q11i ولا Q20i — أشتري أنهي؟", answer: "نفس درايفر 40mm. Q11i: بدون ANC، 60 ساعة دايماً، 2,312 جنيه. Q20i: 43dB ANC، 60 (بدون)/40 (مع)، 2,522. مكتب هادي: Q11i. مواصلات مترو/باص: Q20i. الفرق 210 جنيه والـ ANC." },

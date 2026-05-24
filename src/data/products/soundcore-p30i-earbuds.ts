@@ -56,7 +56,7 @@ export const soundcore_p30i_earbuds = {
     </ul>
 </div>`,
             features: ["10mm BassUp Driver", "42dB Adaptive ANC", "45h Total Battery", "Phone Stand Case", "10min = 2h Fast Charge", "BT 5.4 Multipoint", "IP54 Dust+Splash", "Soundcore App EQ", "Transparency Mode", "18-Month Warranty"],
-            metaTitle: "Soundcore P30i — 42dB ANC + BassUp + Phone Stand Case | Egypt | CairoVolt",
+            metaTitle: "Soundcore P30i — 42dB ANC + BassUp + Phone Stand Case",
             metaDesc: "Buy Soundcore P30i in Egypt — 1,200 EGP. 42dB ANC, 10mm BassUp, 45h battery, phone stand case, BT 5.4, IP54. 18-month warranty. COD. Same-day Cairo.",
             faqs: [
                     { question: "P30i vs P40i — which should I buy?", answer: "P40i: 11mm composite, deeper ANC, 57h battery, 6-mic, 1,522 EGP. P30i: 10mm BassUp, 42dB ANC, 45h, phone stand case, 1,200 EGP. P30i saves 322 EGP. Choose P40i if you need premium ANC and calls." },
@@ -95,7 +95,7 @@ export const soundcore_p30i_earbuds = {
     </ul>
 </div>`,
             features: ["درايفر 10mm BassUp", "ANC تكيّفي 42dB", "45 ساعة إجمالي", "علبة ستاند موبايل", "10 دقائق = ساعتين شحن", "BT 5.4 Multipoint", "IP54 غبار+رذاذ", "تطبيق Soundcore EQ", "وضع شفافية", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور P30i — 42dB ANC + BassUp + علبة ستاند | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور P30i — 42dB ANC + BassUp + علبة ستاند",
             metaDesc: "اشتري سماعة ساوندكور P30i في مصر — 1,200 جنيه. ANC 42dB، 10mm BassUp، 45 ساعة، علبة ستاند موبايل، BT 5.4، IP54. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "P30i ولا P40i — أشتري أنهي؟", answer: "P40i: درايفر 11mm composite، ANC أعمق، 57 ساعة، 6 مايكات، 1,522 جنيه. P30i: 10mm BassUp، 42dB ANC، 45 ساعة، علبة ستاند، 1,200 جنيه. P30i بتوفّر 322 جنيه. اختار P40i لو محتاج ANC بريميوم ومكالمات." },

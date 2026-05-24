@@ -116,7 +116,7 @@ export const anker_soundcore_r50i = {
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value", "🏆 18-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
                 metaTitle: "Soundcore R50i — Buy Original in Egypt ⚡ 27% OFF | CairoVolt",
-                metaDesc: "Soundcore R50i earbuds — EGP 950 with 18-month warranty. 10mm BassUp™, 30h battery, IPX5. ✅ Original Anker ✅ COD ✅ Same-day Cairo delivery. Compare R50i vs R50i NC.",
+                metaDesc: "Soundcore R50i earbuds — EGP 950 with 18-month warranty. 10mm BassUp™, 30h battery, IPX5. ✅ Original Anker ✅ COD ✅ Same-day Cairo delivery. Compare R50i vs.",
                 faqs: [
                     { question: "Does the Soundcore R50i have ANC (noise cancellation)?", answer: "No — the Soundcore R50i uses passive noise isolation via silicone tips. For active ANC, choose the Soundcore R50i NC (42dB ANC). The R50i offers excellent value without ANC." },
                     { question: "Soundcore R50i vs R50i NC — what's the difference?", answer: "Soundcore R50i: no ANC, 30h battery, 950 EGP. R50i NC: 42dB ANC, 45h battery, phone stand case, 4 mics, 1199 EGP. If budget allows, R50i NC is the significant upgrade." },

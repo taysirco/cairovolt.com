@@ -56,7 +56,7 @@ export const soundcore_liberty_buds = {
     </ul>
 </div>`,
             features: ["11mm Dynamic + LDAC", "ANC 3.0 Adaptive", "Semi-In-Ear (No Tips)", "BT 6.1 Multipoint", "30h Total Battery", "10min = 4h Fast Charge", "IP55 Dust+Water", "AI Translation 100+ Languages", "HearID 4.0 + Soundcore App", "18-Month Warranty"],
-            metaTitle: "Soundcore Liberty Buds — Semi-In-Ear ANC 3.0 + LDAC + AI Translation | Egypt | CairoVolt",
+            metaTitle: "Soundcore Liberty Buds — Semi-In-Ear ANC 3.0 + LDAC",
             metaDesc: "Buy Soundcore Liberty Buds in Egypt — 1,750 EGP. Semi-in-ear comfort, 11mm LDAC, ANC 3.0, BT 6.1, AI Translation, IP55, 30h battery. 18-month warranty. COD.",
             faqs: [
                     { question: "What does semi-in-ear mean? How is it different from regular earbuds?", answer: "Semi-in-ear: no silicone tips pushed into the ear canal. Rests in the outer ear. Detachable fins keep them stable. Zero ear pressure. Trade-off: weaker ANC than sealed in-ear buds because no deep seal." },
@@ -95,7 +95,7 @@ export const soundcore_liberty_buds = {
     </ul>
 </div>`,
             features: ["درايفر 11mm + LDAC", "ANC 3.0 تكيّفي", "Semi-In-Ear (بدون أطراف)", "BT 6.1 Multipoint", "30 ساعة إجمالي", "10 دقائق = 4 ساعات", "IP55 غبار+مياه", "ترجمة AI 100+ لغة", "HearID 4.0 + تطبيق Soundcore", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور Liberty Buds — Semi-In-Ear ANC 3.0 + LDAC + ترجمة AI | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور Liberty Buds — Semi-In-Ear ANC 3.0",
             metaDesc: "اشتري سماعة ساوندكور Liberty Buds في مصر — 1,750 جنيه. راحة semi-in-ear، 11mm LDAC، ANC 3.0، BT 6.1، ترجمة AI، IP55، 30 ساعة. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "يعني إيه semi-in-ear؟ إيه الفرق عن السماعات العادية؟", answer: "Semi-in-ear: بدون أطراف سيليكون بتتدفع جوه قناة الودان. بتستقر في الودان الخارجية. زعانف قابلة للفك بتثبّتها. صفر ضغط. المقايضة: ANC أضعف من السماعات المحكمة لأن مفيش سيل عميق." },

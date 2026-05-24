@@ -53,7 +53,7 @@ export const soundcore_rave_3_speaker = {
     </ul>
 </div>`,
             features: ["200W Peak", "6.5\" Woofer", "AI Karaoke", "2 Wireless Mics", "AI Vocal Removal", "HexaGlow RGB", "BassUp", "12h Battery", "BT 5.3", "Auracast", "TWS Pairing", "AUX", "IPX4", "18-Month Warranty"],
-            metaTitle: "Soundcore Rave 3 — 200W Party + AI Karaoke | 2 Mics | Egypt | CairoVolt",
+            metaTitle: "Soundcore Rave 3 — 200W Party + AI Karaoke | 2 Mics",
             metaDesc: "Buy Soundcore Rave 3 in Egypt — 9,450 EGP. 200W, 6.5\" woofer, AI karaoke, 2 wireless mics, HexaGlow RGB, 12h battery, IPX4, BT 5.3. 18-month warranty. COD.",
             faqs: [
                     { question: "Are the 2 wireless karaoke mics really included?", answer: "Yes — both wireless microphones are in the box. No additional purchase needed. 10m wireless range. Reverb/echo/pitch effects via Soundcore app." },
@@ -92,7 +92,7 @@ export const soundcore_rave_3_speaker = {
     </ul>
 </div>`,
             features: ["200 واط ذروة", "ووفر 6.5\"", "كاريوكي AI", "2 مايك لاسلكي", "إزالة صوت AI", "HexaGlow RGB", "BassUp", "12 ساعة", "BT 5.3", "Auracast", "ربط TWS", "AUX", "IPX4", "ضمان 18 شهر"],
-            metaTitle: "مكبر صوت ساوندكور Rave 3 — 200 واط + كاريوكي AI | 2 مايك | كايرو فولت مصر",
+            metaTitle: "مكبر صوت ساوندكور Rave 3 — 200 واط + كاريوكي AI",
             metaDesc: "اشتري مكبر صوت ساوندكور Rave 3 في مصر — 9,450 جنيه. 200 واط، ووفر 6.5\"، كاريوكي AI، 2 مايك لاسلكي، HexaGlow RGB، 12 ساعة، IPX4. ضمان 18 شهر.",
             faqs: [
                     { question: "2 مايك كاريوكي لاسلكي متضمنين فعلاً؟", answer: "أيوه — المايكين في العلبة. مش محتاج تشتري حاجة تانية. مدى 10 متر لاسلكي. إفكتات ريفرب/صدى/بيتش من التطبيق." },

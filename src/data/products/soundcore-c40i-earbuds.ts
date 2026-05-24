@@ -56,8 +56,8 @@ export const soundcore_c40i_earbuds = {
     </ul>
 </div>`,
             features: ["Open-Ear Clip-On", "Titanium Flex Wire + TPU", "12×17mm Racetrack Titanium", "No ANC (Hear Environment)", "Physical Button Controls", "7h/21h Battery", "10min = 2h Fast Charge", "BT 5.4 Multipoint", "AI Call Noise Reduction", "IPX4", "Soundcore App EQ", "18-Month Warranty"],
-            metaTitle: "Soundcore C40i — Premium Open-Ear Titanium Flex Clip-On | Egypt | CairoVolt",
-            metaDesc: "Buy Soundcore C40i in Egypt — 3,050 EGP. Premium open-ear titanium flex clip-on, 12×17mm racetrack, physical buttons, BT 5.4, AI calls, IPX4. 18-month warranty. COD.",
+            metaTitle: "Soundcore C40i — Premium Open-Ear Titanium Flex Clip-On",
+            metaDesc: "Buy Soundcore C40i in Egypt — 3,050 EGP. Premium open-ear titanium flex clip-on, 12×17mm racetrack, physical buttons, BT 5.4, AI calls, IPX4. 18-month.",
             faqs: [
                     { question: "C40i vs C30i — what's the difference?", answer: "Same driver and sound. C40i: titanium flex clip (more comfortable), physical buttons, BT 5.4, 21h, 3,050 EGP. C30i: hard-shell clip, touch controls, BT 5.3, 30h, 2,350 EGP. C40i for comfort. C30i for battery and value." },
                     { question: "Does C40i have ANC?", answer: "No — C40i is open-ear with no ANC. This is by design for safety (hear traffic while running) and productivity (hear colleagues at work). For ANC: P30i (42dB, 1,200) or Liberty 4 NC (2,999)." },
@@ -95,7 +95,7 @@ export const soundcore_c40i_earbuds = {
     </ul>
 </div>`,
             features: ["كليب أذن مفتوح", "سلك تيتانيوم مرن + TPU", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "أزرار فيزيائية", "7/21 ساعة بطارية", "10 دقائق = ساعتين", "BT 5.4 Multipoint", "عزل ضوضاء AI للمكالمات", "IPX4", "تطبيق Soundcore EQ", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور C40i — كليب أذن مفتوح تيتانيوم مرن بريميوم | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور C40i — كليب أذن مفتوح تيتانيوم مرن",
             metaDesc: "اشتري سماعة ساوندكور C40i في مصر — 3,050 جنيه. كليب أذن مفتوح تيتانيوم مرن بريميوم، 12×17mm racetrack، أزرار فيزيائية، BT 5.4، مكالمات AI، IPX4. ضمان 18 شهر.",
             faqs: [
                     { question: "C40i ولا C30i — إيه الفرق؟", answer: "نفس الدرايفر والصوت. C40i: كليب تيتانيوم مرن (أكثر راحة)، أزرار فيزيائية، BT 5.4، 21 ساعة، 3,050 جنيه. C30i: كليب صلب، لمس، BT 5.3، 30 ساعة، 2,350 جنيه. C40i للراحة. C30i للبطارية والتوفير." },

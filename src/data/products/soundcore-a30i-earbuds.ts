@@ -56,8 +56,8 @@ export const soundcore_a30i_earbuds = {
     </ul>
 </div>`,
             features: ["46dB Smart ANC", "6mm Composite", "Lipstick Case", "3.7g Ultralight", "24h Battery", "10min = 2h", "BT 5.4 Multipoint", "4-Mic AI Calls", "IP54", "3D Surround", "18-Month Warranty"],
-            metaTitle: "Soundcore A30i — 46dB ANC + Lipstick Case | Egypt | CairoVolt",
-            metaDesc: "Buy Soundcore A30i in Egypt — 1,450 EGP. 46dB Smart ANC, 6mm composite, lipstick case, 3.7g ultralight, 24h battery, BT 5.4 multipoint, IP54. 18-month warranty. COD.",
+            metaTitle: "Soundcore A30i — 46dB ANC + Lipstick Case | Egypt",
+            metaDesc: "Buy Soundcore A30i in Egypt — 1,450 EGP. 46dB Smart ANC, 6mm composite, lipstick case, 3.7g ultralight, 24h battery, BT 5.4 multipoint, IP54. 18-month.",
             faqs: [
                     { question: "A30i or P30i — which should I buy?", answer: "A30i: 46dB stronger ANC, 6mm (less bass), 24h, lipstick case, 1,450 EGP. P30i: 42dB ANC, 10mm (more bass), 45h, phone stand case, 1,200 EGP. ANC priority: A30i. Bass + battery priority: P30i." },
                     { question: "Is the A30i bass weak because of the 6mm driver?", answer: "Compared to 10mm drivers: yes, bass lacks depth. Mids and vocals are clear and balanced. Soundcore app EQ can boost bass but introduces slight distortion at max. A30i excels at podcasts and calls, not bass-heavy music." },
@@ -95,7 +95,7 @@ export const soundcore_a30i_earbuds = {
     </ul>
 </div>`,
             features: ["46dB ANC ذكي", "6mm Composite", "علبة أحمر شفاه", "3.7 جرام خفيف", "24 ساعة بطارية", "10 دقائق = ساعتين", "BT 5.4 Multipoint", "4 مايكات AI", "IP54", "3D محيطي", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور A30i — 46dB ANC + علبة أحمر شفاه | مصر | كايرو فولت",
+            metaTitle: "سماعة ساوندكور A30i — 46dB ANC + علبة أحمر شفاه | مصر",
             metaDesc: "اشتري سماعة ساوندكور A30i في مصر — 1,450 جنيه. 46dB ANC ذكي، 6mm composite، علبة أحمر شفاه، 3.7 جرام، 24 ساعة، BT 5.4، IP54. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "A30i ولا P30i — أشتري أنهي؟", answer: "A30i: 46dB ANC أقوى، 6mm (باس أقل)، 24 ساعة، علبة ليبستيك، 1,450 جنيه. P30i: 42dB ANC، 10mm (باس أقوى)، 45 ساعة، علبة ستاند، 1,200 جنيه. أولوية العزل: A30i. أولوية الباس + البطارية: P30i." },

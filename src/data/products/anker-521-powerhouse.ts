@@ -136,7 +136,7 @@ export const anker_521_powerhouse = {
 </div>
 `,
                 features: ["🔋 256Wh LiFePO4 (3,000+ Cycles)", "🔌 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🛡️ 5-Year Full Warranty", "♻️ 10+ Year Battery Lifespan", "🔒 UL + CE Safety Certified → Premium safety standards for lithium power stations"],
-                metaTitle: "Anker 521 Power Station 256Wh ⚡ 15% OFF | Portable Power Egypt",
+                metaTitle: "Anker 521 Power Station 256Wh ⚡ 15% OFF",
                 metaDesc: "Buy Anker 521 PowerHouse portable power station in Egypt. 256Wh LiFePO4, 200W AC outlet, 3000+ cycles. Powers router, fan during blackouts. 5-year warranty.",
                 faqs: [
                     { question: "Can it power a CPAP machine?", answer: "It can power a CPAP machine for about 4-5 hours, depending on the pressure settings and heated humidifier usage." },

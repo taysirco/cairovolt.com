@@ -56,8 +56,8 @@ export const soundcore_v20i_earbuds = {
     </ul>
 </div>`,
             features: ["Open-Ear Ear-Hook", "16mm Titanium BassUp", "4-Position Hooks", "LED Lights", "No ANC (Awareness)", "8h/36h Battery", "BT 5.3 Multipoint", "4-Mic AI Calls", "IP55", "Soundcore App", "18-Month Warranty"],
-            metaTitle: "Soundcore V20i — Open-Ear Hook | 16mm BassUp | LED | CairoVolt Egypt",
-            metaDesc: "Buy Soundcore V20i in Egypt — 1,449 EGP. Open-ear ear-hook, 16mm titanium BassUp, LED lights, 4-position adjustable hooks, 36h, IP55, 4-mic AI. 18-month warranty. COD.",
+            metaTitle: "Soundcore V20i — Open-Ear Hook | 16mm BassUp | LED",
+            metaDesc: "Buy Soundcore V20i in Egypt — 1,449 EGP. Open-ear ear-hook, 16mm titanium BassUp, LED lights, 4-position adjustable hooks, 36h, IP55, 4-mic AI. 18-month.",
             faqs: [
                     { question: "V20i vs C30i — which open-ear is better?", answer: "Different designs. V20i: ear-hook, 16mm BassUp (more bass), LED, IP55, 36h, 1,449 EGP. C30i: clip-on, 12×17mm racetrack (wider soundstage), IPX4, 30h, 2,350 EGP. Sports/bass: V20i. Sleek/office: C30i." },
                     { question: "Does V20i have ANC?", answer: "No — V20i is open-ear with no ANC. By design for outdoor safety. For ANC earbuds: A30i (46dB, 1,450) or P30i (42dB, 1,200)." },
@@ -95,7 +95,7 @@ export const soundcore_v20i_earbuds = {
     </ul>
 </div>`,
             features: ["خطاف أذن مفتوح", "16mm تيتانيوم BassUp", "خطاف 4 أوضاع", "إضاءة LED", "بدون ANC (وعي)", "8/36 ساعة بطارية", "BT 5.3 Multipoint", "4 مايكات AI", "IP55", "تطبيق Soundcore", "ضمان 18 شهر"],
-            metaTitle: "سماعة ساوندكور V20i — خطاف أذن مفتوح | 16mm BassUp | LED | كايرو فولت",
+            metaTitle: "سماعة ساوندكور V20i — خطاف أذن مفتوح | 16mm BassUp",
             metaDesc: "اشتري سماعة ساوندكور V20i في مصر — 1,449 جنيه. خطاف أذن مفتوح، 16mm تيتانيوم BassUp، LED، خطاف 4 أوضاع، 36 ساعة، IP55، 4 مايكات AI. ضمان 18 شهر.",
             faqs: [
                     { question: "V20i ولا C30i — أنهي أذن مفتوحة أحسن؟", answer: "تصميمات مختلفة. V20i: خطاف أذن، 16mm BassUp (باس أكتر)، LED، IP55، 36 ساعة، 1,449 جنيه. C30i: كليب، 12×17mm racetrack (مسرح صوتي أعرض)، IPX4، 30 ساعة، 2,350 جنيه. رياضة/باس: V20i. أناقة/مكتب: C30i." },
