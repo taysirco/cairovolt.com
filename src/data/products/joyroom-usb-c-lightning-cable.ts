@@ -42,7 +42,7 @@ export const joyroom_usb_c_lightning_cable = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "I've tested dozens of Lightning cables in our Cairo lab. Most cheap cables break at the connector neck within 2 months. This Joyroom cable has survived 6 months of daily abuse — plugging/unplugging from my iPhone, tossed in bags, bent at sharp angles. The nylon braid still looks fresh. The reinforced aluminum connectors show zero wobble. And it actually delivers 20W PD — I verified with a USB power meter. Pair it with the <a href='/joyroom/wall-chargers' class='text-blue-600 hover:underline'>Joyroom 20W charger</a> for the cheapest real fast-charging kit in Egypt. At 118 EGP, I bought 3 — one for home, one for the office, one for the car."
+        "I've tested dozens of Lightning cables in our Cairo lab. Most cheap cables break at the connector neck within 2 months. This Joyroom cable has survived 6 months of daily abuse — plugging/unplugging from my iPhone, tossed in bags, bent at sharp angles. The nylon braid still looks fresh. The reinforced aluminum connectors show zero wobble. And it actually delivers 20W PD — I verified with a USB power meter. Pair it with the <a href='/en/joyroom/wall-chargers' class='text-blue-600 hover:underline'>Joyroom 20W charger</a> for the cheapest real fast-charging kit in Egypt. At 118 EGP, I bought 3 — one for home, one for the office, one for the car."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>

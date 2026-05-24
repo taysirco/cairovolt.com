@@ -39,7 +39,7 @@ export const joyroom_20w_usb_c_charger = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Our Hands-On Test 🔍</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "I kept one at home and one at the office for 4 months. Both still look brand new. The 20W PD charges my iPhone 15 Pro from dead to 50% in exactly 28 minutes — I timed it. It barely gets warm, even in summer with Cairo's heat. For under 250 EGP, you're getting real PD fast charging, not the fake '20W' chargers flooding the market. Pair it with the <a href='/joyroom/cables' class='text-blue-600 hover:underline'>Joyroom USB-C to Lightning cable</a> and you have the cheapest legitimate fast-charging setup in Egypt."
+        "I kept one at home and one at the office for 4 months. Both still look brand new. The 20W PD charges my iPhone 15 Pro from dead to 50% in exactly 28 minutes — I timed it. It barely gets warm, even in summer with Cairo's heat. For under 250 EGP, you're getting real PD fast charging, not the fake '20W' chargers flooding the market. Pair it with the <a href='/en/joyroom/cables' class='text-blue-600 hover:underline'>Joyroom USB-C to Lightning cable</a> and you have the cheapest legitimate fast-charging setup in Egypt."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
