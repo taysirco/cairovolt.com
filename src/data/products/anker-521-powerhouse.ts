@@ -136,8 +136,8 @@ export const anker_521_powerhouse = {
 </div>
 `,
                 features: ["🔋 256Wh LiFePO4 (3,000+ Cycles)", "🔌 200W AC Outlet (220V)", "⚡ USB-C PD 60W + 2× USB-A", "🚗 12V Car Socket", "💡 Built-in LED Light", "🛡️ 5-Year Full Warranty", "♻️ 10+ Year Battery Lifespan", "🔒 UL + CE Safety Certified → Premium safety standards for lithium power stations"],
-                metaTitle: "Anker 521 PowerHouse 256Wh ⚡ 15% OFF | Portable Power | COD",
-                metaDesc: "Buy Anker 521 PowerHouse in Egypt. 256Wh LiFePO4, 200W AC outlet, 3000+ cycles. Powers router, laptop, fan during blackouts. 5-year warranty. Fast delivery.",
+                metaTitle: "Anker 521 Power Station 256Wh ⚡ 15% OFF | Portable Power Egypt",
+                metaDesc: "Buy Anker 521 PowerHouse portable power station in Egypt. 256Wh LiFePO4, 200W AC outlet, 3000+ cycles. Powers router, fan during blackouts. 5-year warranty.",
                 faqs: [
                     { question: "Can it power a CPAP machine?", answer: "It can power a CPAP machine for about 4-5 hours, depending on the pressure settings and heated humidifier usage." },
                     { question: "Can I use it while it's charging (UPS)?", answer: "No, the Anker 521 does not support UPS function. It supports pass-through charging but extended use as a UPS is not recommended." },
@@ -208,8 +208,8 @@ export const anker_521_powerhouse = {
 </div>
 `,
                 features: ["🔋 256 واط/ساعة LiFePO4 (3,000+ دورة)", "🔌 منفذ 220 فولت (200 واط)", "⚡ USB-C PD 60 واط + 2× USB-A", "🚗 مقبس سيارة 12 فولت", "💡 إضاءة LED مدمجة", "🛡️ ضمان 5 سنوات", "♻️ عمر 10+ سنوات", "🔒 معتمد UL + CE للسلامة → أعلى معايير أمان محطات الطاقة"],
-                metaTitle: "محطة طاقة انكر 521 الأصلي ⚡ خصم 15% | مولد كهربا محمول",
-                metaDesc: "اشتري محطة طاقة انكر 521 في مصر. 256 واط/ساعة LiFePO4، منفذ 220 فولت، 3000+ دورة. يشغل راوتر ولابتوب ومروحة. ضمان 5 سنوات. توصيل سريع.",
+                metaTitle: "محطة طاقة انكر 521 | انكر باور ستيشن ⚡ خصم 15% | مولد محمول",
+                metaDesc: "محطة طاقة متنقلة انكر 521 باور ستيشن في مصر. 256 واط/ساعة LiFePO4، منفذ 220 فولت، 3000+ دورة. يشغل راوتر ومروحة. ضمان 5 سنوات. توصيل سريع.",
                 faqs: [
                     { question: "هل يمكنه تشغيل جهاز التنفس CPAP؟", answer: "نعم، يشغل جهاز CPAP لمدة 4-5 ساعات حسب إعدادات الضغط والمرطب الحراري." },
                     { question: "هل يمكن استخدامه أثناء شحنه (UPS)؟", answer: "لا، لا يدعم وظيفة UPS الكاملة. يدعم الشحن أثناء الاستخدام لكن لا ينصح كبديل دائم للكهرباء." },
@@ -222,7 +222,7 @@ export const anker_521_powerhouse = {
                 ]
             }
         },
-        meta: { keywords: "anker powerhouse, anker 521, portable power station, مولد كهرباء انكر, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, باور بانك مصر انكر, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker 521" },
+        meta: { keywords: "anker power station, anker powerhouse, anker 521, portable power station, anker power station egypt, محطة طاقة متنقلة, انكر باور ستيشن, محطة طاقة انكر, مولد كهرباء انكر, anker best power bank egypt 2026, باور بانك مصر انكر, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك شحن سريع", mainTerm: "anker 521" },
         expertOpinion: {
             en: "For frequent power outages or camping trips, the Anker 521 is a lifesaver. It's built like a tank with batteries designed to last 10 years. The 200W AC outlet is a huge plus for running small appliances. It won't power a fridge, but for keeping laptops, phones, and lights running during a blackout, it's reliable and safe.",
             ar: "لانقطاع الكهرباء المتكرر أو رحلات التخييم، تعتبر Anker 521 منقذة للحياة. صممت ببطاريات تدوم 10 سنوات. منفذ التيار المتردد 200 واط ميزة كبيرة لتشغيل الأجهزة الصغيرة. لن تشغل ثلاجة، لكن للحفاظ على عمل اللابتوب والهواتف والأضواء أثناء انقطاع التيار، فهي موثوقة وآمنة."

@@ -66,14 +66,14 @@ export const anker_power_banks_content: CategoryContent = {
             },
             metadata: {
                 en: {
-                    title: 'Anker Power Bank Egypt | PowerCore 20000mAh, 10000mAh',
-                    description: 'Original Anker Power Bank in Egypt. PowerCore 20000mAh, 10000mAh, Prime & 737. Tesla-grade cells, USB-C PD fast charging. ✓ CairoVolt tested ✓ 24-month warranty',
-                    keywords: 'anker power bank, anker power bank 20000mah, anker powercore, anker prime power bank, anker 737 power bank, power bank egypt',
+                    title: 'Anker Power Bank & Power Station Egypt | 20000mAh, 10000mAh',
+                    description: 'Original Anker power bank & portable power station in Egypt. PowerCore 20000mAh, 10000mAh, 521 PowerHouse. USB-C PD fast charging. CairoVolt tested + warranty.',
+                    keywords: 'anker power bank, anker power station, anker power bank 20000mah, anker powercore, anker prime power bank, anker powerhouse, anker 521, power bank egypt, portable power station',
                 },
                 ar: {
-                    title: 'باور بانك انكر | Anker Power Bank Egypt - أفضل أسعار',
-                    description: 'باور بانك انكر الأصلي في مصر. PowerCore 20000 و 10000 mAh، Prime و 737. خلايا Tesla-grade + شحن PD سريع. ✓ ضمان 24 شهر ✓ توصيل القاهرة',
-                    keywords: 'باور بانك انكر, باور بنك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك, افضل باور بانك, power bank anker',
+                    title: 'باور بانك انكر ومحطة طاقة | Anker Power Bank مصر',
+                    description: 'باور بانك انكر ومحطة طاقة انكر الأصلي. PowerCore 20000 و 10000 mAh، انكر باور ستيشن 521. شحن PD سريع. ✓ ضمان 24 شهر ✓ توصيل القاهرة',
+                    keywords: 'باور بانك انكر, باور بنك انكر, محطة طاقة انكر, انكر باور ستيشن, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك',
                 }
             },
             pageContent: {

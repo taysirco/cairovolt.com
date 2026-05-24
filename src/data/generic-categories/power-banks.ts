@@ -11,12 +11,12 @@ export const power_banks_generic: GenericCategory = {
             ar: {
                 title: 'أفضل باور بانك في مصر | باور بانك انكر 20000 و 10000 | أسعار',
                 description: 'دليل شامل لأفضل باور بانك في مصر. سعر باور بانك انكر 20000 و 10000 مللي أمبير. باور بنك انكر شحن سريع PD، joyroom power bank. مقارنة أسعار شاملة ونصائح شراء.',
-                keywords: 'باور بانك, باور بانك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر 20000, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, باور بانك للسفر',
+                keywords: 'باور بانك, باور بانك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر 20000, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, محطة طاقة متنقلة',
             },
             en: {
                 title: 'Best Power Bank Egypt | Anker 20000mAh & 10000mAh | Prices',
                 description: 'Best Anker & Joyroom power bank in Egypt. 20000mAh, 10000mAh, wireless power bank. PD fast charging. Updated prices & comparison.',
-                keywords: 'power bank egypt, anker power bank, anker power bank 20000mah, anker power bank 10000mah, joyroom power bank, best power bank, power bank 20000mah, power bank 10000mah, wireless power bank, laptop power bank, powerbank, portable charger egypt, anker powerbank, iphone power bank, power bank price egypt',
+                keywords: 'power bank egypt, anker power bank, anker power station, anker power bank 20000mah, anker power bank 10000mah, joyroom power bank, best power bank, power bank 20000mah, power bank 10000mah, wireless power bank, laptop power bank, powerbank, portable charger egypt, portable power station, power bank price egypt',
             },
         },
         pageContent: {
