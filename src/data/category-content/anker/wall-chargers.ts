@@ -8,12 +8,12 @@ export const anker_wall_chargers_content: CategoryContent = {
                 en: {
                     title: 'Anker Charger Egypt | iPhone 17 & Samsung Fast Charging',
                     description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 375, 25W for Samsung S26, 45W GaN for laptops. ✓ 18-month warranty ✓ Next-day Cairo delivery',
-                    keywords: 'anker charger egypt, anker wall charger, anker 20w charger, anker nano charger, anker 25w charger, anker 45w charger, best anker charger iphone 17, anker charger samsung s26, anker gan charger, anker ganprime',
+                    keywords: 'anker charger egypt, anker wall charger, anker 20w charger, anker nano charger, anker 25w charger, anker 45w charger, anker 65w charger, anker gan charger, best anker charger, anker charger iphone 17, anker charger samsung, anker ganprime, anker 100w, anker nano 45w, anker charger price',
                 },
                 ar: {
                     title: 'شاحن انكر | من 375 جنيه | شحن سريع ايفون 17 وسامسونج S26 مصر',
                     description: 'تسوق شاحن انكر الأصلي في مصر. 20W للايفون من 375 ج، 25W لسامسونج S26، 45W GaN للابتوب. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام',
-                    keywords: 'شاحن انكر, شواحن انكر, راس شاحن انكر, شاحن انكر ايفون, شاحن انكر 20 وات, شاحن انكر 25 واط, شاحن انكر تايب سي, شاحن انكر سريع, افضل شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن انكر نانو, شاحن انكر 45 واط, فيش شاحن انكر, ادابتر انكر',
+                    keywords: 'شاحن انكر, شواحن انكر, راس شاحن انكر, شاحن انكر ايفون, شاحن انكر 20 وات, شاحن انكر 25 واط, شاحن 45 واط, شاحن انكر تايب سي, شاحن انكر سريع, افضل شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن انكر نانو, شاحن انكر 45 واط, ادابتر انكر',
                 }
             },
             pageContent: {

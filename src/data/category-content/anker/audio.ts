@@ -68,7 +68,7 @@ export const anker_audio_content: CategoryContent = {
                 en: {
                     title: 'Anker Soundcore Earbuds Egypt | R50i, P20i, Liberty 4 NC',
                     description: 'Shop Anker Soundcore earbuds in Egypt. R50i, R50i NC, P20i, K20i, A30i, Liberty 4 NC. ANC headphones with Hi-Res Audio. Best prices + warranty.',
-                    keywords: 'anker soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, anker soundcore egypt, anker speaker',
+                    keywords: 'anker soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, anker p2i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, anker soundcore egypt',
                 },
                 ar: {
                     title: 'سماعات انكر ساوند كور | ايربودز انكر R50i | سماعة بلوتوث',
