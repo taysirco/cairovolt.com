@@ -9,14 +9,14 @@ export const chargers_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل شاحن سريع في مصر | شاحن ايفون وسامسونج | GaN',
-                description: 'دليل شامل لأفضل شواحن الموبايل في مصر. شاحن ايفون 17، شاحن سامسونج S26، شاحن GaN، شحن سريع PD و PPS. مقارنة أسعار ونصائح شراء.',
-                keywords: 'شاحن سريع, شاحن ايفون, شاحن سامسونج, شاحن موبايل, شاحن تايب سي, شاحن 20 واط, شاحن 30 واط, شاحن 45 واط, شاحن GaN, راس شاحن, افضل شاحن سريع, شاحن PD, شاحن PPS, شاحن ايفون 17, شاحن سامسونج S26',
+                title: 'أفضل شاحن سريع في مصر | شاحن ايفون | شاحن سامسونج 25 واط | شاحن وايرلس',
+                description: 'دليل شامل لأفضل شواحن في مصر. شاحن تايب سي، شاحن ايفون اصلي، شاحن سامسونج 25 واط و 45 واط، شاحن وايرلس، شاحن وير لس، شاحن لاسلكي. راس شاحن انكر GaN. سعر شاحن الايفون الاصلي ومقارنة أسعار.',
+                keywords: 'شاحن سريع, شاحن ايفون, شاحن ايفون اصلي, سعر شاحن الايفون الاصلي, شاحن سامسونج, شاحن سامسونج 25 واط, شاحن سامسونج 45w, شاحن تايب سي, شاحن type c, شاحن وايرلس, شاحن وير لس, شاحن لاسلكي, شاحن الوايرلس, راس شاحن, راس شاحن انكر, سعر راس شاحن ايفون, شاحن انكر 30 واط, افضل شاحن للايفون, شاحن 45 واط, شاحن GaN, شاحن PD, شاحن انكر, تايب سي شاحن',
             },
             en: {
-                title: 'Best Fast Chargers in Egypt | iPhone & Samsung | GaN Chargers',
-                description: 'Complete guide to the best phone chargers in Egypt. iPhone 17 charger, Samsung S26 charger, GaN technology, PD & PPS fast charging. Price comparison and buying tips.',
-                keywords: 'fast charger egypt, iphone charger, samsung charger, phone charger, usb c charger, 20w charger, 30w charger, 45w charger, gan charger, best fast charger, pd charger, pps charger, iphone 17 charger, samsung s26 charger, wall charger egypt',
+                title: 'Best Fast Chargers in Egypt | iPhone & Samsung Charger | Anker Wireless Charger',
+                description: 'Best phone chargers in Egypt. Anker charger, iPhone charger, Samsung 25W & 45W charger, wireless charger, GaN USB-C PD fast charging. Price comparison & buying guide.',
+                keywords: 'anker charger, fast charger egypt, iphone charger, samsung charger, anker iphone charger, wireless charger, anker wireless charger, usb c charger, phone charger, 20w charger, 30w charger, 45w charger, gan charger, best fast charger, pd charger, wall charger egypt, charger price egypt',
             },
         },
         pageContent: {

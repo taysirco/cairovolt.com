@@ -9,14 +9,14 @@ export const power_banks_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل باور بانك في مصر | شحن سريع | أسعار ومقارنة شاملة',
-                description: 'دليل شامل لأفضل باور بانك في مصر. مقارنة بين سعات 10000 و 20000 و 30000 مللي أمبير. باور بانك شحن سريع PD، أسعار محدثة، جداول مقارنة، ونصائح شراء.',
-                keywords: 'باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, باور بنك 20000, سعر باور بانك, باور بانك للسفر, باور بانك PD, افضل باور بانك في مصر, شاحن محمول, باور بانك رخيص',
+                title: 'أفضل باور بانك في مصر | باور بانك انكر 20000 و 10000 | أسعار ومقارنة',
+                description: 'دليل شامل لأفضل باور بانك في مصر. سعر باور بانك انكر 20000 و 10000 مللي أمبير. باور بنك انكر شحن سريع PD، joyroom power bank. مقارنة أسعار شاملة ونصائح شراء.',
+                keywords: 'باور بانك, باور بانك انكر, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر 20000, سعر باور بانك انكر 10000, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, باور بانك في مصر, افضل باور بانك, باور بانك 20000, باور بانك 10000, باور بانك شحن سريع, شاحن متنقل, شاحن باور بانك, باور بانك للسفر, باور بانك PD',
             },
             en: {
-                title: 'Best Power Banks in Egypt | Fast Charging | Prices & Comparison',
-                description: 'Complete guide to the best power banks in Egypt. Compare 10000 vs 20000 vs 30000mAh capacities. PD fast charging, updated prices, comparison tables, and buying tips.',
-                keywords: 'power bank egypt, best power bank, power bank 20000, power bank 10000, portable charger egypt, fast charging power bank, power bank price egypt, power bank pd, best power bank, power bank for travel, power bank comparison, cheap power bank egypt',
+                title: 'Best Power Bank in Egypt | Anker Power Bank 20000mAh & 10000mAh | Prices',
+                description: 'Best Anker power bank & Joyroom power bank in Egypt. Anker power bank 20000mAh, 10000mAh, wireless power bank, laptop power bank. PD fast charging. Prices & comparison.',
+                keywords: 'power bank egypt, anker power bank, anker power bank 20000mah, anker power bank 10000mah, anker power bank 20000, anker power bank 10000, anker power bank egypt, joyroom power bank, joyroom power bank 10000mah, joyroom power bank 20000mah, best power bank, power bank 20000mah, power bank 10000mah, power bank 10000, power bank 20000, wireless power bank, laptop power bank, iphone power bank, powerbank, anker powerbank',
             },
         },
         pageContent: {

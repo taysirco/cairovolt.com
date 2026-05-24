@@ -9,14 +9,14 @@ export const earbuds_generic: GenericCategory = {
         ],
         metadata: {
             ar: {
-                title: 'أفضل سماعات بلوتوث في مصر | ايربودز | سماعات لاسلكية',
-                description: 'دليل شامل لأفضل سماعات بلوتوث في مصر. سماعات لاسلكية مع إلغاء ضوضاء ANC، بديل AirPods، أسعار تبدأ من 350 جنيه. مقارنة ونصائح شراء.',
-                keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, ايربودز, سماعات لاسلكية, افضل سماعات بلوتوث, بديل ايربودز, سماعات ANC, سماعات بلوتوث رخيصة, سماعات بلوتوث رياضية, سعر سماعات بلوتوث, سماعات الغاء ضوضاء, ايربودز في مصر, سماعة بلوتوث',
+                title: 'أفضل سماعه ايربودز في مصر | سماعه بلوتوث | سماعة ساوند كور',
+                description: 'دليل شامل لأفضل سماعه ايربودز وسماعات بلوتوث في مصر. ايربودز انكر Soundcore R50i، سماعة ساوند كور، سماعات انكر بلوتوث لاسلكية مع إلغاء ضوضاء ANC. أسعار تبدأ من 350 جنيه.',
+                keywords: 'سماعه ايربودز, سماعه بلوتوث, سماعة ساوند كور, ايربودز انكر, ايربودز انكر r50i, سماعات انكر, سماعات انكر بلوتوث, سماعة بلوتوث انكر, سماعات بلوتوث, سماعات لاسلكية, بديل ايربودز, سماعات ANC, سماعات بلوتوث رخيصة, ايربودز في مصر, سماعة بلوتوث, انكر سماعه, سعر سماعة ايربودز',
             },
             en: {
-                title: 'Best Bluetooth Earbuds in Egypt | AirPods Alternative | Wireless',
-                description: 'Complete guide to the best Bluetooth earbuds in Egypt. Wireless earbuds with ANC, AirPods alternative, prices from EGP 350. Comparison and buying tips.',
-                keywords: 'bluetooth earbuds egypt, wireless earbuds, airpods alternative, best bluetooth earbuds, earbuds with anc, cheap earbuds egypt, wireless earbuds egypt, noise cancelling earbuds, sport earbuds, bluetooth earbuds price, earbuds, tws earbuds egypt',
+                title: 'Best Bluetooth Earbuds in Egypt | Anker Earbuds | Soundcore AirPods Alternative',
+                description: 'Best Anker earbuds & Soundcore earbuds in Egypt. R50i, R50i NC, Liberty 4 NC, P20i — wireless Bluetooth earbuds with ANC noise cancelling. Prices from EGP 350.',
+                keywords: 'anker earbuds, soundcore earbuds, bluetooth earbuds egypt, anker headphones, wireless earbuds, airpods alternative, anker airpods, best bluetooth earbuds egypt, earbuds with anc, soundcore r50i, soundcore liberty 4 nc, anker soundcore egypt, tws earbuds egypt',
             },
         },
         pageContent: {
