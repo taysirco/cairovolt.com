@@ -1,6 +1,4 @@
-'use client';
-
-import { useEffect, useRef, useState } from 'react';
+import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 
 interface BlogContentRendererProps {
     html: string;
@@ -8,83 +6,29 @@ interface BlogContentRendererProps {
     locale?: string;
 }
 
-// Defense-in-depth: sanitize HTML even from admin-controlled sources
-function sanitizeHtml(html: string): string {
-    return html
-        .replace(/<script[\s\S]*?<\/script>/gi, '')
-        .replace(/<style[\s\S]*?<\/style>/gi, '')
-        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
-        .replace(/<object[\s\S]*?<\/object>/gi, '')
-        .replace(/<embed[^>]*>/gi, '')
-        .replace(/<form[\s\S]*?<\/form>/gi, '')
-        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
-        .replace(/\son\w+\s*=\s*\S+/gi, '')
-        .replace(/javascript\s*:/gi, 'blocked:')
-        .replace(/data\s*:/gi, 'blocked:');
-}
-
 /**
- * i18n Quarantine Law: Rewrite internal links for non-default locales.
- * When locale is 'en', all relative internal hrefs (starting with /)
- * get prefixed with /en/ to prevent cross-language link bleeding.
- * Arabic is the default locale and needs no prefix.
+ * BlogContentRenderer — Server-rendered HTML renderer for blog articles.
  *
- * Excludes: external URLs (http/https), anchors (#), mailto:, tel:, javascript:
+ * Sanitizes the raw HTML stored in src/data/blog/*.ts (defense-in-depth)
+ * and rewrites internal links for the active locale (i18n Quarantine Law).
+ *
+ * Rendered fully server-side: search engines see the final processed
+ * HTML on the first crawl wave, with no client-side fallback or skeleton
+ * to slow indexing. Sanitization fixes malformed authoring artefacts
+ * (e.g. `< table >`, `</td >`) before they reach the DOM, so React
+ * hydration of any client components nested inside the article tree
+ * stays consistent with the server output.
  */
-function localizeInternalLinks(html: string, locale: string): string {
-    if (locale === 'ar') return html; // Arabic = default, no prefix needed
-
-    // Match href="/..." or href='/...' — but NOT href="/en/..." (already localized)
-    // and NOT href="http..." href="mailto:" href="tel:" href="#" href="javascript:"
-    return html.replace(
-        /href=(["'])\/(?!en\/|https?:\/\/|mailto:|tel:|javascript:|#)([^"']*?)\1/gi,
-        (_, quote, path) => `href=${quote}/${locale}/${path}${quote}`
-    );
-}
-
-/**
- * BlogContentRenderer — Client-side-only HTML renderer for blog articles.
- *
- * Problem: Blog article HTML content contains malformed tags (e.g., `< table >`,
- * `< tr >`) that browsers auto-correct during SSR HTML parsing. When React tries
- * to hydrate, the DOM tree no longer matches what React generated on the server,
- * causing "Failed to execute 'removeChild'" errors.
- *
- * Solution: Render the HTML entirely on the client. The server renders a
- * lightweight placeholder, and the client fills it with the actual content.
- * This avoids hydration entirely for this highly dynamic content block.
- *
- * Content is rendered server-side and indexed.
- * 
- */
-export default function BlogContentRenderer({ html, className = '', locale = 'ar' }: BlogContentRendererProps) {
-    const containerRef = useRef<HTMLDivElement>(null);
-    const [mounted, setMounted] = useState(false);
-
-    useEffect(() => {
-        setMounted(true);
-    }, []);
-
-    // On the server and first client render, show a minimal skeleton
-    // that won't cause hydration issues
-    if (!mounted) {
-        return (
-            <div className={className}>
-                <div className="animate-pulse space-y-4">
-                    <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-3/4" />
-                    <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-full" />
-                    <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-5/6" />
-                    <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-4/6" />
-                </div>
-            </div>
-        );
-    }
-
+export default function BlogContentRenderer({
+    html,
+    className = '',
+    locale = 'ar',
+}: BlogContentRendererProps) {
+    const processed = localizeInternalLinks(sanitizeHtml(html), locale);
     return (
         <div
-            ref={containerRef}
             className={className}
-            dangerouslySetInnerHTML={{ __html: localizeInternalLinks(sanitizeHtml(html), locale) }}
+            dangerouslySetInnerHTML={{ __html: processed }}
         />
     );
 }

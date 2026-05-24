@@ -48,38 +48,7 @@ import ShareButtons from '@/components/products/ShareButtons';
 import { getProductDetail } from '@/data/product-details';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
-
-// Lightweight HTML sanitizer — strips dangerous tags while preserving formatting
-function sanitizeHtml(html: string): string {
-    // Remove script, style, iframe, object, embed, form, and event handlers
-    return html
-        .replace(/<script[\s\S]*?<\/script>/gi, '')
-        .replace(/<style[\s\S]*?<\/style>/gi, '')
-        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
-        .replace(/<object[\s\S]*?<\/object>/gi, '')
-        .replace(/<embed[^>]*>/gi, '')
-        .replace(/<form[\s\S]*?<\/form>/gi, '')
-        .replace(/<input[^>]*>/gi, '')
-        .replace(/<textarea[\s\S]*?<\/textarea>/gi, '')
-        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '') // on* event handlers
-        .replace(/\son\w+\s*=\s*\S+/gi, '') // unquoted on* handlers
-        .replace(/javascript\s*:/gi, 'blocked:') // javascript: URIs
-        .replace(/data\s*:/gi, 'blocked:'); // data: URIs
-}
-
-/**
- * i18n Quarantine Law: Rewrite internal links for non-default locales.
- * When locale is 'en', all relative internal hrefs (starting with /)
- * get prefixed with /en/ — unless they already have it.
- * Arabic is the default locale and needs no prefix.
- */
-function localizeInternalLinks(html: string, locale: string): string {
-    if (locale === 'ar') return html; // Arabic = default, no prefix needed
-    return html.replace(
-        /href=(["'])\/(?!en\/|https?:\/\/|mailto:|tel:|javascript:|#)([^"']*?)\1/gi,
-        (_, quote, path) => `href=${quote}/${locale}/${path}${quote}`
-    );
-}
+import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 
 
 interface Product {

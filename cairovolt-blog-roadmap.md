@@ -64,7 +64,7 @@
 19. ✅ → slug: `samsung-s26-ultra-45w-super-fast-charging-real`
 20. ✅ → slug: `slimmest-100w-laptop-gan-chargers-egypt`
 21. ✅ → slug: `why-anker-chargers-disappear-egyptian-markets`
-22. ⬜ أفضل شاحن لـ Xiaomi Redmi Note 13 Pro و Poco في مصر 2026 → `xiaomi-redmi-note-13-pro-best-charger-egypt`
+22. ✅ → slug: `xiaomi-redmi-note-13-pro-best-charger-egypt`
 23. ⬜ شواحن HyperJuice احترافي — متى يحتاجه المصور والمصمم والمونتير؟ → `hyperjuice-professional-charger-when-need-it`
 24. ⬜ كيف تحمي شاحن المنزل من تذبذب الكهرباء في صيف مصر؟ دليل المهندس → `protect-charger-egypt-voltage-fluctuation-summer`
 25. ⬜ كابل USB-C 240W لشحن لابتوبات الجيمنج — متى تحتاجه فعلاً؟ → `usb-c-240w-cable-gaming-laptop-when-need`

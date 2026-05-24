@@ -6,34 +6,7 @@ import { getBlogArticle } from '@/data/blog-articles';
 import { staticProducts } from '@/lib/static-products';
 import { BreadcrumbSchema, FAQSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
-
-// Defense-in-depth: sanitize HTML content even from static sources
-function sanitizeHtml(html: string): string {
-    return html
-        .replace(/<script[\s\S]*?<\/script>/gi, '')
-        .replace(/<style[\s\S]*?<\/style>/gi, '')
-        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
-        .replace(/<object[\s\S]*?<\/object>/gi, '')
-        .replace(/<embed[^>]*>/gi, '')
-        .replace(/<form[\s\S]*?<\/form>/gi, '')
-        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
-        .replace(/\son\w+\s*=\s*\S+/gi, '')
-        .replace(/javascript\s*:/gi, 'blocked:')
-        .replace(/data\s*:/gi, 'blocked:');
-}
-
-/**
- * i18n Quarantine Law: Rewrite internal links for non-default locales.
- * When locale is 'en', all relative internal hrefs (starting with /)
- * get prefixed with /en/ — unless they already have it.
- */
-function localizeInternalLinks(html: string, locale: string): string {
-    if (locale === 'ar') return html;
-    return html.replace(
-        /href=(["'])\/(?!en\/|https?:\/\/|mailto:|tel:|javascript:|#)([^"']*?)\1/gi,
-        (_, quote, path) => `href=${quote}/${locale}/${path}${quote}`
-    );
-}
+import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 
 /**
  * Generate metadata for a generic category page

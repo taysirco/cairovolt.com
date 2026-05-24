@@ -15,28 +15,6 @@ import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidg
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
-// Defense-in-depth: sanitize HTML content even from static sources
-function sanitizeHtml(html: string): string {
-    return html
-        // Fix malformed tags with internal spaces (e.g. `< table >` → `<table>`)
-        // These cause browser DOM auto-correction that breaks React hydration
-        .replace(/<\s+(\w)/g, '<$1')
-        .replace(/(\w)\s+>/g, '$1>')
-        .replace(/<\s+\//g, '</')
-        .replace(/\s+>/g, '>')
-        // Security: strip dangerous elements
-        .replace(/<script[\s\S]*?<\/script>/gi, '')
-        .replace(/<style[\s\S]*?<\/style>/gi, '')
-        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
-        .replace(/<object[\s\S]*?<\/object>/gi, '')
-        .replace(/<embed[^>]*>/gi, '')
-        .replace(/<form[\s\S]*?<\/form>/gi, '')
-        .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
-        .replace(/\son\w+\s*=\s*\S+/gi, '')
-        .replace(/javascript\s*:/gi, 'blocked:')
-        .replace(/data\s*:/gi, 'blocked:');
-}
-
 export const revalidate = 86400;
 export const dynamicParams = true;
 
@@ -367,7 +345,7 @@ export default async function BlogArticlePage({ params }: Props) {
                 {/* Article Content */}
                 <article className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
                     <BlogContentRenderer
-                        html={sanitizeHtml(trans.content)}
+                        html={trans.content}
                         locale={locale}
                         className="prose prose-xl md:prose-lg dark:prose-invert max-w-none
                             prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-white
