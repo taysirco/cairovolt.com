@@ -48,6 +48,7 @@ import { two_in_1_wireless_charger_phone_watch_bedside } from './blog/2-in-1-wir
 import { charge_phone_overnight_safe_or_not } from './blog/charge-phone-overnight-safe-or-not';
 import { samsung_s26_ultra_45w_super_fast_charging_real } from './blog/samsung-s26-ultra-45w-super-fast-charging-real';
 import { slimmest_100w_laptop_gan_chargers_egypt } from './blog/slimmest-100w-laptop-gan-chargers-egypt';
+import { why_anker_chargers_disappear_egyptian_markets } from './blog/why-anker-chargers-disappear-egyptian-markets';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -94,6 +95,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     charge_phone_overnight_safe_or_not,
     samsung_s26_ultra_45w_super_fast_charging_real,
     slimmest_100w_laptop_gan_chargers_egypt,
+    why_anker_chargers_disappear_egyptian_markets,
 ];
 
 
