@@ -6,7 +6,7 @@ export const anker_speakers_content: CategoryContent = {
             categoryName: 'Bluetooth Speakers',
             metadata: {
                 en: {
-                    title: 'Anker Soundcore Speakers Egypt | Hi-Res 30W IPX7 from EGP 2,999',
+                    title: 'Anker Soundcore Speakers Egypt | Hi-Res 30W IPX7 | EGP 2999',
                     description: 'Anker Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
                     keywords: 'anker speaker, soundcore speaker egypt, anker motion plus, soundcore flare 2, bluetooth speaker egypt, anker speaker price egypt, Hi-Res speaker, IPX7 speaker',
                 },

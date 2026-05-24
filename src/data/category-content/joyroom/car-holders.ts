@@ -5,9 +5,9 @@ export const joyroom_car_holders_content: CategoryContent = {
             categoryName: 'Car Holders',
             metadata: {
                 en: {
-                    title: 'Joyroom Car Phone Holder Egypt | MagSafe N52 Mount from EGP 169',
-                    description: 'Joyroom car phone holders in Egypt. N52 Neodymium magnetic mount, MagSafe compatible, 360° rotation. ✓ CairoVolt road-tested ✓ 1-year warranty ✓ Cash on delivery',
-                    keywords: 'joyroom car holder, car phone mount egypt, magnetic car holder, MagSafe car mount, N52 magnet holder, air vent mount, حامل موبايل سيارة, joyroom car holder price egypt',
+                    title: 'Joyroom Car Holder Egypt | MagSafe N52 Mount | EGP 169',
+                    description: 'Joyroom car phone holders in Egypt. N52 Neodymium magnetic mount, MagSafe compatible, 360° rotation. ✓ CairoVolt road-tested ✓ 1-year warranty ✓ COD',
+                    keywords: 'joyroom car holder, joyroom car mount, car phone mount egypt, magnetic car holder, MagSafe car mount, N52 magnet holder, air vent mount, حامل موبايل سيارة',
                 },
                 ar: {
                     title: 'حامل موبايل سيارة جوي روم مصر | N52 + MagSafe من 169 جنيه',

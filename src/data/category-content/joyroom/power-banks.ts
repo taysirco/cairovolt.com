@@ -5,7 +5,7 @@ export const joyroom_power_banks_content: CategoryContent = {
             categoryName: 'Power Banks',
             metadata: {
                 en: {
-                    title: 'Joyroom Power Bank Egypt | 22.5W PD Fast Charging from EGP 850',
+                    title: 'Joyroom Power Bank Egypt | 22.5W PD Fast Charge | EGP 850',
                     description: 'Joyroom Power Bank in Egypt. 10000mAh from EGP 850, 20000mAh 22.5W PD + USB-C. Grade A+ Li-Polymer cells. ✓ CairoVolt tested ✓ 1-year warranty ✓ Airline safe',
                     keywords: 'joyroom power bank, joyroom power bank 10000, joyroom power bank 20000, power bank egypt, joyroom power bank price egypt, joyroom 22.5W, joyroom USB-C PD, portable charger joyroom, باور بانك جوي روم',
                 },

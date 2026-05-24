@@ -6,7 +6,7 @@ export const joyroom_audio_content: CategoryContent = {
             categoryName: 'Audio & Earbuds',
             metadata: {
                 en: {
-                    title: 'Joyroom Earbuds Egypt | From EGP 499 | Best AirPods Alternative',
+                    title: 'Joyroom Earbuds Egypt | From EGP 499 | AirPods Alternative',
                     description: 'Shop original Joyroom earbuds in Egypt. T03s Pro with ANC and Spatial Audio from EGP 699. ✓ Golden Code verified ✓ 12-month warranty ✓ Next-day Cairo delivery',
                     keywords: 'joyroom earbuds egypt, joyroom t03s pro egypt, joyroom wireless earbuds, joyroom bluetooth earbuds, best airpods alternative egypt, cheap wireless earbuds egypt, joyroom vs airpods, joyroom anc earbuds, joyroom t03s pro max, joyroom golden code verification',
                 },

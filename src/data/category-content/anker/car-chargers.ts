@@ -6,14 +6,14 @@ export const anker_car_chargers_content: CategoryContent = {
             categoryName: 'Car Chargers',
             metadata: {
                 en: {
-                    title: 'Anker Car Charger Egypt | USB-C PD 52W Dual Port from EGP 950',
+                    title: 'Anker Car Charger Egypt | USB-C PD 52W Dual Port | EGP 950',
                     description: 'Shop Anker car charger in Egypt. USB-C PD 52W + PowerIQ. Alloy body heat-resistant 60°C. ✓ 18-month warranty ✓ CairoVolt tested ✓ Cairo delivery',
                     keywords: 'anker car charger, car charger egypt, anker car charger price egypt, anker USB-C car charger, anker PD car charger, fast car charger, شاحن سيارة انكر',
                 },
                 ar: {
                     title: 'شاحن سيارة انكر مصر | USB-C PD 52W + منفذين من 950 جنيه',
                     description: 'تسوق شاحن سيارة انكر الأصلي في مصر. USB-C PD 52W + PowerIQ. جسم معدني يتحمل 60°م. ✓ ضمان 18 شهر ✓ اختبار CairoVolt ✓ توصيل القاهرة ✓ دفع عند الاستلام',
-                    keywords: 'شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة سريع USB-C PD, شاحن سيارة دوال, anker car charger, شاحن سيارة مصر',
+                    keywords: 'شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سياره, شاحن سيارة سريع USB-C PD, شاحن سيارة دوال, anker car charger, شاحن سيارة مصر',
                 }
             },
             pageContent: {
