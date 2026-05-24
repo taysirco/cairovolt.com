@@ -108,20 +108,20 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
                     <h2> Anker vs Joyroom: Quick Answer</h2>
                 <p><strong>In short: </strong> Anker wins on quality, advanced tech, and longer warranty. Joyroom wins on price with very good quality. Your choice depends on your budget and needs.</p>
 
-                    <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+                    <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
                         <p><strong>⚡ Our data: </strong> We sold 8,000+ products from both brands in 2025. Anker return rate was just 0.3% vs Joyroom's 1.1% — both excellent. Top Anker complaint: "a bit pricey." Top Joyroom complaint: "basic packaging." This comparison is based on our real sales data.</p>
                             </div>
 
                             <h2> Complete Comparison Table</h2>
             <table>
-            <thead><tr><th>Criteria </th><th>Anker 🔵</th > <th>Joyroom 🔴</th><th>Winner</th > </tr></thead >
+            <thead><tr><th>Criteria </th><th>Anker 🔵</th> <th>Joyroom 🔴</th><th>Winner</th> </tr></thead>
     <tbody>
-    <tr><td><strong>Founded </strong></td > <td>2011(California) </td><td>2012 (China)</td > <td>-</td></tr >
-    <tr><td><strong>Build Quality </strong></td > <td>Excellent(Grade - A) </td><td>Very Good</td > <td>🔵 Anker </td></tr >
-    <tr><td><strong>Fast Charging </strong></td > <td>PowerIQ 4.0 + GaN </td><td>22.5W QC</td > <td>🔵 Anker </td></tr >
-    <tr><td><strong>Safety </strong></td > <td>MultiProtect 11 - point </td><td>Standard</td > <td>🔵 Anker </td></tr >
-    <tr><td><strong>Egypt Warranty </strong></td > <td>18 months </td><td>12 months</td > <td>🔵 Anker </td></tr >
-    <tr><td><strong>Price </strong></td > <td>Higher(EGP 1,550 +) </td><td>Lower (~EGP 450+)</td > <td>🔴 Joyroom </td></tr >
+    <tr><td><strong>Founded </strong></td> <td>2011(California) </td><td>2012 (China)</td> <td>-</td></tr>
+    <tr><td><strong>Build Quality </strong></td> <td>Excellent(Grade - A) </td><td>Very Good</td> <td>🔵 Anker </td></tr>
+    <tr><td><strong>Fast Charging </strong></td> <td>PowerIQ 4.0 + GaN </td><td>22.5W QC</td> <td>🔵 Anker </td></tr>
+    <tr><td><strong>Safety </strong></td> <td>MultiProtect 11 - point </td><td>Standard</td> <td>🔵 Anker </td></tr>
+    <tr><td><strong>Egypt Warranty </strong></td> <td>18 months </td><td>12 months</td> <td>🔵 Anker </td></tr>
+    <tr><td><strong>Price </strong></td> <td>Higher(EGP 1,550 +) </td><td>Lower (~EGP 450+)</td> <td>🔴 Joyroom </td></tr>
     </tbody>
     </table>
 

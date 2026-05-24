@@ -20,12 +20,12 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
                 quickAnswer: 'أفضل شاحن سريع لايفون 17 هو Anker 20W بسعر 375 جنيه — يشحن من 0% لـ 50% في 30 دقيقة فقط. للشحن الأسرع، Anker Nano 45W يصل لـ 50% في 22 دقيقة بسعر 790 جنيه.',
                 content: `
             <h2> لماذا شاحن Apple الأصلي ليس الأفضل لـ iPhone 17؟</h2>
-    <div class= "quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع" >
+    <div class= "quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع">
     <p><strong>باختصار: </strong> أفضل شاحن للايفون 17 هو Anker Nano 45W بسعر 790 جنيه — يشحن من 0% لـ 50% في 22 دقيقة فقط. للميزانية المحدودة Anker 20W بسعر 375 جنيه. لا تستخدم شواحن التقليد أبداً.</p>
     </div>
     <p> مفاجأة: Apple لا تضع شاحن في العلبة! وحتى شاحنها الرسمي 20W أصبح <strong> بطيئاً </strong> لـ iPhone 17 الذي يدعم شحن حتى 27 واط. الحل؟ شاحن انكر 30W بنصف سعر شاحن أبل الأصلي.</p>
 
-    <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+    <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>📱 تجربتنا: </strong> قسنا سرعة شحن iPhone 17 Pro بـ 4 شواحن مختلفة: شاحن Apple 20W (من 0% لـ 50% في 30 دقيقة)، Anker 20W (نفس السرعة تقريباً)، Anker 30W Nano (50% في 22 دقيقة فقط!)، وشاحن تقليد (50% في 55 دقيقة مع سخونة ملحوظة). الفرق واضح.</p>
     </div>
 
@@ -44,12 +44,12 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     <p>يشحن iPhone 17 + MacBook Air + AirPods في نفس الوقت من شاحن واحد! مثالي للمسافرين.</p>
 
     <h2> جدول سرعات الشحن لـ iPhone 17 </h2>
-    < table >
-    <thead><tr><th>الشاحن </th><th>0→50%</th > <th>0→100 % </th><th>السعر</th > </tr></thead >
+    <table>
+    <thead><tr><th>الشاحن </th><th>0→50%</th> <th>0→100 % </th><th>السعر</th> </tr></thead>
     <tbody>
-    <tr><td>شاحن 5W(القديم) </td><td>90 دقيقة</td > <td>3.5 ساعة </td><td>-</td > </tr>
-    < tr > <td>شاحن 20W </td><td>30 دقيقة</td > <td>1.5 ساعة </td><td>375 ج</td > </tr>
-    < tr > <td><strong>شاحن 45W </strong></td > <td><strong>25 دقيقة </strong></td > <td><strong>1.2 ساعة </strong></td > <td><strong>790 ج </strong></td > </tr>
+    <tr><td>شاحن 5W(القديم) </td><td>90 دقيقة</td> <td>3.5 ساعة </td><td>-</td> </tr>
+    <tr> <td>شاحن 20W </td><td>30 دقيقة</td> <td>1.5 ساعة </td><td>375 ج</td> </tr>
+    <tr> <td><strong>شاحن 45W </strong></td> <td><strong>25 دقيقة </strong></td> <td><strong>1.2 ساعة </strong></td> <td><strong>790 ج </strong></td> </tr>
     </tbody>
     </table>
 
@@ -57,12 +57,12 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     <p> للحصول على أقصى سرعة شحن مع iPhone 17، تحتاج كابل <strong> USB - C to USB - C </strong> يدعم Power Delivery. كابل انكر PowerLine III هو الخيار الأمثل — يتحمل 25,000 ثنية بضمان مدى الحياة.</p>
     <p><strong>تحذير: </strong> الكابلات الرخيصة قد تحد سرعة الشحن لـ 5-10 واط فقط حتى مع شاحن 30W!</p>
 
-    <div class="source-references" style = "background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px" >
-    <p style="font-weight:700;margin-bottom:8px;color:#92400e" >📚 مصادر موثوقة: </p>
-    <ul style = "margin:0;padding-right:20px;color:#78350f" >
-    <li><a href="https://www.usb.org/usb-charger-pd" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > USB - IF — معيار USB Power Delivery الرسمي  (بالإنجليزية)</a></li>
-    <li><a href="https://support.apple.com/ar-eg/101571" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > Apple Support — الشحن السريع لـ iPhone </a></li>
-    <li><a href="https://www.energy.gov/eere/vehicles/articles/fotw-1272-january-9-2023-electric-vehicle-battery-pack-costs-2022-are" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > وزارة الطاقة الأمريكية(DOE) — تقنية GaN في الشواحن  (بالإنجليزية)</a></li>
+    <div class="source-references" style = "background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
+    <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر موثوقة: </p>
+    <ul style = "margin:0;padding-right:20px;color:#78350f">
+    <li><a href="https://www.usb.org/usb-charger-pd" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> USB - IF — معيار USB Power Delivery الرسمي  (بالإنجليزية)</a></li>
+    <li><a href="https://support.apple.com/ar-eg/101571" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> Apple Support — الشحن السريع لـ iPhone </a></li>
+    <li><a href="https://www.energy.gov/eere/vehicles/articles/fotw-1272-january-9-2023-electric-vehicle-battery-pack-costs-2022-are" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> وزارة الطاقة الأمريكية(DOE) — تقنية GaN في الشواحن  (بالإنجليزية)</a></li>
     </ul>
     </div>
         `,
@@ -83,7 +83,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     <h2> Why Apple's Official Charger Isn't the Best for iPhone 17 </h2>
         <p> Surprise: Apple doesn't include a charger in the box! And even their official 20W charger is now <strong>slow</strong> for iPhone 17, which supports up to 27W charging. The solution? Anker 30W charger at half the price of Apple's official one.</p>
 
-            <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0" >
+            <div class="expert-callout" style = "background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
                 <p><strong>📱 Our testing: </strong> We measured iPhone 17 Pro charging speed with 4 different chargers: Apple 20W (0–50% in 30 min), Anker 20W (same speed), Anker 30W Nano (50% in just 22 min!), and a counterfeit charger (50% in 55 min with noticeable heat). The difference is clear.</p>
                     </div>
 
@@ -102,12 +102,12 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
                                                         <p>Charges iPhone 17 + MacBook Air + AirPods simultaneously from one charger! Perfect for travelers.</p>
 
                                                             <h2> iPhone 17 Charging Speed Table </h2>
-                                                                < table >
-                                                                <thead><tr><th>Charger </th><th>0→50%</th > <th>0→100 % </th><th>Price</th > </tr></thead >
+                                                                <table>
+                                                                <thead><tr><th>Charger </th><th>0→50%</th> <th>0→100 % </th><th>Price</th> </tr></thead>
                                                                     <tbody>
-                                                                    <tr><td>5W(old) </td><td>90 min</td > <td>3.5 hours </td><td>-</td > </tr>
-                                                                        < tr > <td>20W </td><td>30 min</td > <td>1.5 hours </td><td>EGP 375</td > </tr>
-                                                                            < tr > <td><strong>45W </strong></td > <td><strong>25 min </strong></td > <td><strong>1.2 hours </strong></td > <td><strong>EGP 790 </strong></td > </tr>
+                                                                    <tr><td>5W(old) </td><td>90 min</td> <td>3.5 hours </td><td>-</td> </tr>
+                                                                        <tr> <td>20W </td><td>30 min</td> <td>1.5 hours </td><td>EGP 375</td> </tr>
+                                                                            <tr> <td><strong>45W </strong></td> <td><strong>25 min </strong></td> <td><strong>1.2 hours </strong></td> <td><strong>EGP 790 </strong></td> </tr>
                                                                                 </tbody>
                                                                                 </table>
 
