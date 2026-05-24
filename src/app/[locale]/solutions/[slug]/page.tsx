@@ -155,7 +155,7 @@ export default async function SolutionPage({ params }: Props) {
                             return (
                                 <Link
                                     key={product.slug}
-                                    href={`/${isArabic ? '' : 'en/'}${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`}
+                                    href={`${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`}
                                     className="flex gap-4 bg-white dark:bg-gray-900 p-4 rounded-2xl border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-lg transition-all group"
                                 >
                                     <div className="w-24 h-24 bg-gray-50 dark:bg-gray-800 rounded-xl relative overflow-hidden flex-shrink-0">

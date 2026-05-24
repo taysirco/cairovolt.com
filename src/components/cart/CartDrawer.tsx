@@ -208,7 +208,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                         </div>
 
                         <Link
-                            href={`/${locale}/checkout`}
+                            href={`${locale === 'ar' ? '' : '/en'}/checkout`}
                             onClick={() => setIsOpen(false)}
                             className="block w-full py-4 bg-green-600 hover:bg-green-700 text-white text-center font-bold rounded-xl shadow-lg shadow-green-600/20 transition-all transform active:scale-95"
                         >

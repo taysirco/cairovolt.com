@@ -98,8 +98,8 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
 <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر موثوقة:</p>
 <ul style="margin:0;padding-right:20px;color:#78350f">
-<li><a href="https://batteryuniversity.com/article/bu-802-what-causes-capacity-loss" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — ما يسبب فقدان السعة في بطاريات الليثيوم</a> (BU-802)</li>
-<li><a href="https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work" target="_blank" rel="noopener" style="color:#1d4ed8">وزارة الطاقة الأمريكية (DOE) — كيف تعمل بطاريات الليثيوم أيون</a></li>
+<li><a href="https://batteryuniversity.com/article/bu-802-what-causes-capacity-loss" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — ما يسبب فقدان السعة في بطاريات الليثيوم (بالإنجليزية)</a> (BU-802)</li>
+<li><a href="https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work" target="_blank" rel="noopener" style="color:#1d4ed8">وزارة الطاقة الأمريكية (DOE) — كيف تعمل بطاريات الليثيوم أيون (بالإنجليزية)</a></li>
 <li><a href="https://ieeexplore.ieee.org/document/9714758" target="_blank" rel="noopener" style="color:#1d4ed8">IEEE — دراسة عن عمر بطاريات الليثيوم بوليمر في الأجهزة المحمولة</a></li>
 </ul>
 </div>
@@ -130,7 +130,7 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 
 <h3>1. <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000mAh</a> — Best Seller</h3>
 <p><strong>Price:</strong> EGP 1,550 | <strong>Capacity:</strong> 20,000mAh | <strong>Weight:</strong> 350g</p>
-<p>The #1 choice for most Egyptians. Charges iPhone 17 Pro four full times with PowerIQ fast charging. Built with Grade-A battery cells (same used in electric vehicles). <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">View Product Details</a></p>
+<p>The #1 choice for most Egyptians. Charges iPhone 17 Pro four full times with PowerIQ fast charging. Built with Grade-A battery cells (same used in electric vehicles). <a href="/en/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">View Product Details</a></p>
 
 <h3>2. <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker Nano 10000mAh</a> — Most Compact</h3>
 <p><strong>Price:</strong> EGP 1,300 | <strong>Capacity:</strong> 10,000mAh | <strong>Weight:</strong> 190g</p>
@@ -142,11 +142,11 @@ export const best_power_bank_egypt_2026: BlogArticle = {
 
 <h3>4. <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000mAh</a> — Best Budget</h3>
 <p><strong>Price:</strong> EGP 1,624 | <strong>Capacity:</strong> 10,000mAh</p>
-<p>Excellent choice for those seeking good quality at a budget price. Sleek design with 22.5W fast charging. 12-month warranty. <a href="/joyroom/power-banks/joyroom-10000mah-slim" class="text-blue-600 hover:underline">Check Price</a></p>
+<p>Excellent choice for those seeking good quality at a budget price. Sleek design with 22.5W fast charging. 12-month warranty. <a href="/en/joyroom/power-banks/joyroom-power-bank-10000" class="text-blue-600 hover:underline">Check Price</a></p>
 
 <h3>5. <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000mAh</a> — Budget & Powerful</h3>
 <p><strong>Price:</strong> EGP 997 | <strong>Capacity:</strong> 20,000mAh</p>
-<p>Big capacity at a competitive price. Charges your phone 4 times with fast charging support. Smart choice for students. <a href="/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">View Deal</a></p>
+<p>Big capacity at a competitive price. Charges your phone 4 times with fast charging support. Smart choice for students. <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">View Deal</a></p>
 
 <h2>Comparison Table: Best Power Banks in Egypt</h2>
 <table>

@@ -247,9 +247,9 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology Explained</a></li>
-        <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB-IF — USB Power Delivery Specification 3.1</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" rel="nofollow">Battery University — Charging Lithium-Ion</a></li>
+        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology Explained (بالإنجليزية)</a></li>
+        <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB-IF — USB Power Delivery Specification 3.1 (بالإنجليزية)</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" rel="nofollow">Battery University — Charging Lithium-Ion (بالإنجليزية)</a></li>
     </ul>
 </div>`,
             faq: [

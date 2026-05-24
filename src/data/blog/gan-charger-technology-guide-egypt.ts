@@ -184,9 +184,9 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
 <table>
     <thead><tr><th>Charger</th><th>Power</th><th>Dimensions</th><th>Weight</th></tr></thead>
     <tbody>
-        <tr><td><strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">Anker 30W GaN</a></strong></td><td>30W PD</td><td>3.2 × 3.2 × 3 cm</td><td>62g</td></tr>
+        <tr><td><strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">Anker 30W GaN</a></strong></td><td>30W PD</td><td>3.2 × 3.2 × 3 cm</td><td>62g</td></tr>
         <tr><td>Silicon 30W</td><td>30W</td><td>5.5 × 4 × 3.5 cm</td><td>105g</td></tr>
-        <tr><td><strong><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a></strong></td><td>45W PD</td><td>4.1 × 3.6 × 3.2 cm</td><td>82g</td></tr>
+        <tr><td><strong><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a></strong></td><td>45W PD</td><td>4.1 × 3.6 × 3.2 cm</td><td>82g</td></tr>
         <tr><td>Silicon 45W</td><td>45W</td><td>7 × 4.5 × 3.8 cm</td><td>145g</td></tr>
     </tbody>
 </table>
@@ -198,16 +198,16 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
 <p>GaN achieves 91-95% efficiency vs 78-85% for silicon. Over a year of daily charging, this translates to measurable electricity savings.</p>
 
 <h2>Who Needs GaN?</h2>
-<p>Frequent travelers (50% smaller), multi-device users (one charger for phone + tablet), USB-C laptop owners (45-65W GaN replaces laptop brick), and safety-conscious users (40% less heat).</p>
+<p>Frequent travelers (50% smaller), multi-device users (one charger for phone + tablet), USB-C laptop owners (45-65W GaN replaces laptop brick), and safety-conscious users (40% less heat). If you only charge at home and your phone doesn't support over 20W — the <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W silicon charger</a> is excellent at a lower price.</p>
 
 <h2>Are GaN Chargers Safe?</h2>
-<p>Yes — original GaN chargers from brands like Anker include 9 layers of protection and USB Power Delivery protocol negotiation. The charger communicates with your device before charging begins. However, <strong>counterfeit "GaN" chargers</strong> often lack these protections. Read our <a href="/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb">guide to spotting fake chargers</a>.</p>
+<p>Yes — original GaN chargers from brands like Anker include 9 layers of protection and USB Power Delivery protocol negotiation. The charger communicates with your device before charging begins. However, <strong>counterfeit "GaN" chargers</strong> often lack these protections. Read our <a href="/en/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb">guide to spotting fake chargers</a>.</p>
 
 <h2>The Future Is Here</h2>
 <div style="background:linear-gradient(135deg,#1e3a5f,#2563eb);border-radius:16px;padding:24px;margin:20px 0;color:white;text-align:center">
     <p style="font-size:18px;font-weight:bold">GaN chargers: 5% market share in 2022 → 40% in 2026 → majority by 2028</p>
 </div>
-<p>Shop <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:bold">Anker GaN 30W</a> or <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:bold">Anker Nano 45W</a> on CairoVolt — all products are original with 18-month warranty and C2PA authentication. Delivery across Egypt in 24-72 hours.</p>
+<p>Shop <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:bold">Anker GaN 30W</a> or <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:bold">Anker Nano 45W</a> on CairoVolt — all products are original with 18-month warranty and C2PA authentication. Delivery across Egypt in 24-72 hours.</p>
 `,
             faq: [
                 {

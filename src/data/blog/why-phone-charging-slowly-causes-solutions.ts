@@ -130,9 +130,9 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 
 <h3>المصادر</h3>
 <ul style="font-size:13px;color:#6b7280">
-    <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — Power Delivery Specifications</a></li>
-    <li><a href="https://support.apple.com/en-us/108055" target="_blank" rel="noopener">Apple — About Optimized Battery Charging</a></li>
-    <li><a href="https://www.samsung.com/global/galaxy/what-is/adaptive-fast-charging/" target="_blank" rel="noopener">Samsung — Adaptive Fast Charging</a></li>
+    <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — Power Delivery Specifications (بالإنجليزية)</a></li>
+    <li><a href="https://support.apple.com/ar-eg/108055" target="_blank" rel="noopener">Apple — About Optimized Battery Charging</a></li>
+    <li><a href="https://www.samsung.com/eg/galaxy/what-is/adaptive-fast-charging/" target="_blank" rel="noopener">Samsung — Adaptive Fast Charging</a></li>
 </ul>
 `,
                 faq: [
@@ -181,13 +181,13 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
     <li>The charger: <strong>100% fine</strong> — tested with a new cable and charged at full speed</li>
     <li>The cable: <strong>internally broken</strong> — the outer sheath looked fine but the copper wires inside were worn from constant bending</li>
 </ul>
-<p>We swapped the cable with an <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine USB-C cable</a> — the phone charged from 0 to 50% in 28 minutes. Ahmed: "It was the cable?! I almost bought a whole new charger."</p>
+<p>We swapped the cable with an <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine USB-C cable</a> — the phone charged from 0 to 50% in 28 minutes. Ahmed: "It was the cable?! I almost bought a whole new charger."</p>
 
 <h3>How to tell if the cable is the problem</h3>
 <ol>
     <li>Try a different cable (borrow one from someone)</li>
     <li>If charging speeds up — problem solved</li>
-    <li>Get a quality cable: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker USB-C 60W</a> or <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a> (more affordable, same performance)</li>
+    <li>Get a quality cable: <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker USB-C 60W</a> or <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a> (more affordable, same performance)</li>
 </ol>
 
 <h2>Cause 2: Phone Settings Are Eating Your Charge (23%)</h2>
@@ -209,9 +209,9 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 </thead>
 <tbody>
 <tr><td style="border:1px solid #e2e8f0;padding:10px">Old 5W charger</td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#ef4444"><strong>95 min ❌</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#ef4444"><strong>110 min ❌</strong></td></tr>
-<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>30 min</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>40 min</strong></td></tr>
-<tr style="background:#f0fdf4"><td style="border:1px solid #e2e8f0;padding:10px"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>22 min ✅</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>26 min ✅</strong></td></tr>
-<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>31 min</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>42 min</strong></td></tr>
+<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>30 min</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>40 min</strong></td></tr>
+<tr style="background:#f0fdf4"><td style="border:1px solid #e2e8f0;padding:10px"><a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>22 min ✅</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#22c55e"><strong>26 min ✅</strong></td></tr>
+<tr><td style="border:1px solid #e2e8f0;padding:10px"><a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>31 min</strong></td><td style="border:1px solid #e2e8f0;padding:10px;text-align:center;color:#f59e0b"><strong>42 min</strong></td></tr>
 </tbody>
 </table>
 <p>The difference between a 5W and 45W charger is 73 minutes — <strong>saving over an hour!</strong></p>
@@ -232,7 +232,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 <h2>Cause 6: Using USB-A Cable Instead of USB-C</h2>
 <p>Many people use the old USB-A cable (the big rectangular plug) because it "still works." The problem is USB-A <strong>maxes out at 12 watts</strong>, even if your charger is 45W.</p>
 <p>So if you have a 45W charger with a USB-A cable — you're only charging at 12W. That's like buying a Ferrari and filling it with the cheapest fuel.</p>
-<p><strong>Fix:</strong> Use a USB-C to USB-C cable with a USB-C charger. An <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker USB-C 60W cable</a> will make a massive difference.</p>
+<p><strong>Fix:</strong> Use a USB-C to USB-C cable with a USB-C charger. An <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker USB-C 60W cable</a> will make a massive difference.</p>
 
 <h2>Cause 7: The Battery Itself Needs Replacing (6%)</h2>
 <p>Every lithium battery has a lifespan. After about 500 charge cycles (~2 years), it starts losing capacity. If Battery Health is below 80%, charging will be slower and the battery will drain faster.</p>
@@ -245,7 +245,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 
 <h2>Cause 8: Charging From a Laptop or TV USB Port</h2>
 <p>The USB port on your laptop or TV outputs <strong>only 2.5 watts max</strong>. That's slower than even the ancient 5W charger. Charging from a laptop "out of laziness" can take 4–5 hours for a full charge.</p>
-<p><strong>Fix:</strong> Always use a wall charger. Even the budget <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W charger</a> is 8x faster than a laptop USB port.</p>
+<p><strong>Fix:</strong> Always use a wall charger. Even the budget <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W charger</a> is 8x faster than a laptop USB port.</p>
 
 <h2>Summary: Where to Start?</h2>
 <p>Before buying anything new, try the free fixes first:</p>

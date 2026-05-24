@@ -169,7 +169,7 @@ export const OrganizationSchema = ({ locale }: Props) => {
                         '@type': 'OrderAction',
                         target: {
                             '@type': 'EntryPoint',
-                            urlTemplate: `https://cairovolt.com/${locale}/checkout?add_sku={sku}`,
+                            urlTemplate: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}/checkout?add_sku={sku}`,
                             actionPlatform: [
                                 'https://schema.org/DesktopWebPlatform',
                                 'https://schema.org/MobileWebPlatform',

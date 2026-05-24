@@ -48,8 +48,8 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 <h2>المقارنة حسب الفئة</h2>
 
 <h3>1. باور بانك</h3>
-<p><strong>Anker:</strong> PowerCore 20000mAh بـ 1,550 ج — خلايا Grade-A، شحن سريع PowerIQ، ضمان 18 شهر.</p>
-<p><strong>Joyroom:</strong> 20000mAh بـ ~650 ج — شحن 22.5W، تصميم أنيق، ضمان 12 شهر.</p>
+<p><strong>Anker:</strong> <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">باور كور 20000mAh</a> بـ 1,550 ج — خلايا Grade-A، شحن سريع PowerIQ، ضمان 18 شهر.</p>
+<p><strong>Joyroom:</strong> <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">باور بانك 20000mAh</a> بـ ~650 ج — شحن 22.5W، تصميم أنيق، ضمان 12 شهر.</p>
 <p><strong>الحكم:</strong> لو ميزانيتك تسمح، انكر أفضل بفارق واضح في الجودة. لو محدود الميزانية، جوي روم ممتاز بالسعر.</p>
 
 <h3>2. شواحن حائط</h3>
@@ -64,7 +64,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 
 <h3>4. سماعات بلوتوث</h3>
 <p><strong>Anker (Soundcore):</strong> Liberty 4 NC مع إلغاء ضوضاء فعال. جودة صوت ممتازة.</p>
-<p><strong>Joyroom:</strong> T03S Pro — سماعات شبيهة بـ AirPods بسعر اقتصادي.</p>
+<p><strong>Joyroom:</strong> <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">سماعة T03S Pro</a> — سماعات شبيهة بـ AirPods بسعر اقتصادي.</p>
 <p><strong>الحكم:</strong> Soundcore تتفوق بفارق كبير في جودة الصوت وإلغاء الضوضاء.</p>
 
 <h2>متى تختار Anker؟</h2>
@@ -86,7 +86,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
 <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر موثوقة:</p>
 <ul style="margin:0;padding-right:20px;color:#78350f">
-<li><a href="https://batteryuniversity.com/article/bu-304a-safety-concerns-with-li-ion" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — معايير أمان بطاريات الليثيوم</a> (BU-304a)</li>
+<li><a href="https://batteryuniversity.com/article/bu-304a-safety-concerns-with-li-ion" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — معايير أمان بطاريات الليثيوم (بالإنجليزية)</a> (BU-304a)</li>
 <li><a href="https://www.ul.com/services/battery-and-energy-storage-testing" target="_blank" rel="noopener" style="color:#1d4ed8">UL (Underwriters Laboratories) — اختبارات أمان البطاريات</a></li>
 </ul>
 </div>
@@ -128,8 +128,8 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
     <h2> Category - by - Category Comparison </h2>
 
     <h3> 1. Power Banks </h3>
-    <p><strong>Anker:</strong> <a href="/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">PowerCore 20000mAh</a> at EGP 1,550 — Grade-A cells, PowerIQ fast charging, 18-month warranty.</p>
-    <p><strong>Joyroom:</strong> <a href="/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">20000mAh</a> at ~EGP 650 — 22.5W charging, sleek design, 12-month warranty.</p>
+    <p><strong>Anker:</strong> <a href="/en/anker/power-banks/anker-powercore-20000" class="text-blue-600 hover:underline">PowerCore 20000mAh</a> at EGP 1,550 — Grade-A cells, PowerIQ fast charging, 18-month warranty.</p>
+    <p><strong>Joyroom:</strong> <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" class="text-blue-600 hover:underline">20000mAh</a> at ~EGP 650 — 22.5W charging, sleek design, 12-month warranty.</p>
     <p><strong>Verdict: </strong> Anker clearly wins on quality if budget allows. Joyroom is excellent value for money.</p>
 
     <h3>2. Wall Chargers </h3>
@@ -144,7 +144,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 
     <h3>4. Bluetooth Earbuds </h3>
     <p> <strong>Anker(Soundcore): </strong> Liberty 4 NC with active noise cancellation. Excellent sound quality.</p>
-    <p><strong>Joyroom:</strong> <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">T03S Pro</a> — AirPods-like earbuds at a budget price.</p>
+    <p><strong>Joyroom:</strong> <a href="/en/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">T03S Pro</a> — AirPods-like earbuds at a budget price.</p>
     <p><strong>Verdict: </strong> Soundcore wins by a large margin in sound quality and noise cancellation.</p>
 
     <h2>When to Choose Anker ? </h2>

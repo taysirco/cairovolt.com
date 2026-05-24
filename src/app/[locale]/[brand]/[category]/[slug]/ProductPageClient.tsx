@@ -346,7 +346,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
                     <nav className="text-sm text-gray-600 dark:text-gray-400" aria-label={isRTL ? 'مسار التصفح' : 'Breadcrumb'}>
                         <div className="flex flex-wrap items-center gap-y-1">
-                            <Link href={`/${locale}`} className="hover:text-blue-600 transition-colors flex-shrink-0">
+                            <Link href={`${locale === 'ar' ? '/' : '/en'}`} className="hover:text-blue-600 transition-colors flex-shrink-0">
                                 {locale === 'ar' ? 'الرئيسية' : 'Home'}
                             </Link>
                             <span className="mx-2 text-gray-300 dark:text-gray-600 flex-shrink-0">/</span>

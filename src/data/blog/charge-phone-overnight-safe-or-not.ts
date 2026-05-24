@@ -213,9 +213,9 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — How to Prolong Lithium-Based Batteries</a></li>
-        <li><a href="https://support.apple.com/en-us/108055" rel="nofollow">Apple — iPhone Battery and Performance</a></li>
-        <li><a href="https://www.samsung.com/global/galaxy/what-is/adaptive-charging/" rel="nofollow">Samsung — Adaptive Charging Feature</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" rel="nofollow">Battery University — How to Prolong Lithium-Based Batteries (بالإنجليزية)</a></li>
+        <li><a href="https://support.apple.com/ar-eg/108055" rel="nofollow">Apple — iPhone Battery and Performance</a></li>
+        <li><a href="https://www.samsung.com/eg/galaxy/what-is/adaptive-charging/" rel="nofollow">Samsung — Adaptive Charging Feature</a></li>
     </ul>
 </div>`,
             faq: [

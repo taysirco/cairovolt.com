@@ -467,7 +467,7 @@ export default async function ProductPage({ params }: Props) {
                             '@type': 'Dataset',
                             name: `Lab Test: ${product.translations?.en?.name || slug}`,
                             description: `Independent performance test of ${product.translations?.en?.name || slug} under Egyptian conditions (37-42°C, 190-240V). Tested by ${labInfo.labTests[0].expertName} at CairoVolt Labs.`,
-                            url: `https://cairovolt.com/${brand}/${category}/${slug}`,
+                            url: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}/${brand}/${category}/${slug}`,
                             license: 'https://creativecommons.org/licenses/by/4.0/',
                             creator: {
                                 '@type': 'Organization',

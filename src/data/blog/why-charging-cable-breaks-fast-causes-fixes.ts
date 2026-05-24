@@ -151,10 +151,10 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 </table>
 
 <h2>Mistake #3: Charging at a 90° Angle 📐</h2>
-<p>Phone on the bed, cable bent sharply at the connection point for 6-8 hours every night. This is the worst-case scenario for internal wires. Cables with Strain Relief like <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> are reinforced to handle <strong>12,000+ bend cycles</strong>.</p>
+<p>Phone on the bed, cable bent sharply at the connection point for 6-8 hours every night. This is the worst-case scenario for internal wires. Cables with Strain Relief like <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> are reinforced to handle <strong>12,000+ bend cycles</strong>.</p>
 
 <h2>Mistake #4: Buying Counterfeit Cables 💸</h2>
-<p>A cheap cable has 8-12 aluminum wires vs 28-56 copper wires in originals, no shielding, PVC jacket that cracks, and no strain relief reinforcement. Read our <a href="/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb">guide to spotting fakes</a>.</p>
+<p>A cheap cable has 8-12 aluminum wires vs 28-56 copper wires in originals, no shielding, PVC jacket that cracks, and no strain relief reinforcement. Read our <a href="/en/blog/how-to-spot-fake-chargers-7-tests" style="color:#2563eb">guide to spotting fakes</a>.</p>
 
 <h2>Mistake #5: Heat Exposure 🌡️</h2>
 <p>Leaving cables in a hot car (60-70°C) softens the plastic jacket and weakens internal solder joints through thermal fatigue.</p>
@@ -176,10 +176,10 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <table>
     <thead><tr><th>Cable</th><th>Bend Cycles</th><th>Power</th><th>Key Feature</th></tr></thead>
     <tbody>
-        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050</strong></a></td><td>12,000+</td><td>100W</td><td>Bio-based eco jacket</td></tr>
-        <tr><td><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine</strong></a></td><td>12,000+</td><td>60W</td><td>Double-braided nylon</td></tr>
-        <tr><td><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>Anker SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>Toughest for iPhone</td></tr>
-        <tr><td><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom 60W</strong></a></td><td>10,000+</td><td>60W</td><td>Best budget option</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050</strong></a></td><td>12,000+</td><td>100W</td><td>Bio-based eco jacket</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine</strong></a></td><td>12,000+</td><td>60W</td><td>Double-braided nylon</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>Anker SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>Toughest for iPhone</td></tr>
+        <tr><td><a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom 60W</strong></a></td><td>10,000+</td><td>60W</td><td>Best budget option</td></tr>
     </tbody>
 </table>
 

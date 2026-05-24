@@ -238,7 +238,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
         <li><a href="https://www.power-electronics.com/topics/wide-bandgap/gan/" rel="nofollow">Power Electronics — GaN Technology Overview</a></li>
-        <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing</a></li>
+        <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing (بالإنجليزية)</a></li>
     </ul>
 </div>`,
             faq: [

@@ -86,10 +86,10 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر علمية:</p>
     <ul style="margin:0;padding-right:20px;color:#78350f">
-        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — كيفية إطالة عمر بطاريات الليثيوم</a> (BU-808)</li>
-        <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — شحن بطاريات الليثيوم أيون</a> (BU-409)</li>
-        <li><a href="https://support.apple.com/en-us/108055" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — تعظيم أداء بطارية iPhone</a></li>
-        <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery الرسمي</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — كيفية إطالة عمر بطاريات الليثيوم (بالإنجليزية)</a> (BU-808)</li>
+        <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — شحن بطاريات الليثيوم أيون (بالإنجليزية)</a> (BU-409)</li>
+        <li><a href="https://support.apple.com/ar-eg/108055" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — تعظيم أداء بطارية iPhone</a></li>
+        <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery الرسمي (بالإنجليزية)</a></li>
     </ul>
 </div>
 `,
@@ -115,7 +115,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 <p>The most-asked question in the mobile world: <strong>"Does fast charging ruin my battery?"</strong> The short answer: no. But the complete answer requires understanding what happens inside the battery during charging.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🔬 Our 6-Month Test:</strong> At CairoVolt Labs, we charged 3 identical iPhone 15 units daily for 180 days: the first with an <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> (fast charging), the second with Apple's old 5W charger (slow), and the third with a counterfeit 20W charger. Results after 6 months: Battery Health with fast charger = 97%, slow = 96%, counterfeit = 89%. The difference between fast and slow is just 1%!</p>
+    <p><strong>🔬 Our 6-Month Test:</strong> At CairoVolt Labs, we charged 3 identical iPhone 15 units daily for 180 days: the first with an <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> (fast charging), the second with Apple's old 5W charger (slow), and the third with a counterfeit 20W charger. Results after 6 months: Battery Health with fast charger = 97%, slow = 96%, counterfeit = 89%. The difference between fast and slow is just 1%!</p>
 </div>
 
 <h2>How Does Fast Charging Actually Work?</h2>
@@ -129,13 +129,13 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 
 <h2>Why Do People Say Fast Charging Is Harmful? (Common Myths)</h2>
 <h3>Myth 1: "Fast Charging = Heat = Damage"</h3>
-<p>A <strong>legitimate</strong> fast charger generates less heat than you'd think. GaN chargers like the <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> convert 95% of energy to actual charging with only 5% lost as heat. Dangerous heat comes from counterfeit chargers lacking protection circuits.</p>
+<p>A <strong>legitimate</strong> fast charger generates less heat than you'd think. GaN chargers like the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a> convert 95% of energy to actual charging with only 5% lost as heat. Dangerous heat comes from counterfeit chargers lacking protection circuits.</p>
 
 <h3>Myth 2: "Battery Degrades Faster with Fast Charging"</h3>
 <p>Battery University research proves that <strong>charge cycle count</strong> determines battery lifespan — not charging speed. Whether you complete 500 cycles with fast or slow charging, the results are remarkably similar.</p>
 
 <h3>Myth 3: "You Must Only Use the Included Charger"</h3>
-<p>That was true 10 years ago. Today, the USB PD standard ensures <strong>any certified charger</strong> safely charges any phone. A <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> charges an iPhone just as safely as Apple's own charger.</p>
+<p>That was true 10 years ago. Today, the USB PD standard ensures <strong>any certified charger</strong> safely charges any phone. A <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> charges an iPhone just as safely as Apple's own charger.</p>
 
 <h2>What Actually Damages Your Battery?</h2>
 <p>Scientific research confirms these factors destroy your battery — and <strong>none are related to charging speed</strong>:</p>
@@ -160,7 +160,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 
 <h2>7 Golden Tips to Protect Your Phone Battery</h2>
 <ol>
-    <li><strong>Use original or certified chargers:</strong> Anker or Joyroom — 18-month warranty from <a href="/" style="color:#2563eb">CairoVolt</a></li>
+    <li><strong>Use original or certified chargers:</strong> Anker or Joyroom — 18-month warranty from <a href="/en/" style="color:#2563eb">CairoVolt</a></li>
     <li><strong>Enable Optimized Battery Charging:</strong> Found in Settings > Battery > Battery Health on iPhone (similar feature on Samsung)</li>
     <li><strong>Avoid charging in extreme heat:</strong> Don't charge in a closed car during summer</li>
     <li><strong>Keep battery between 20-80%:</strong> Don't drain to 0% or leave at 100% for extended periods</li>
@@ -170,7 +170,7 @@ export const does_fast_charging_damage_battery_truth: BlogArticle = {
 </ol>
 
 <h2>Conclusion: Fast Charge Safely</h2>
-<p>Legitimate fast charging is <strong>completely safe</strong> for your phone battery. The real enemy is heat from counterfeit chargers. <strong>Best budget option:</strong> <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> (under 200 EGP) — 100% original with fast charging and full protection. <strong>Best overall:</strong> <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a> — fastest charging with lowest heat and 18-month warranty.</p>
+<p>Legitimate fast charging is <strong>completely safe</strong> for your phone battery. The real enemy is heat from counterfeit chargers. <strong>Best budget option:</strong> <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">Joyroom 20W</a> (under 200 EGP) — 100% original with fast charging and full protection. <strong>Best overall:</strong> <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W GaN</a> — fastest charging with lowest heat and 18-month warranty.</p>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 Scientific Sources:</p>

@@ -368,6 +368,7 @@ export default async function BlogArticlePage({ params }: Props) {
                 <article className="container mx-auto px-4 md:px-4 max-w-4xl pb-16 md:pb-12">
                     <BlogContentRenderer
                         html={sanitizeHtml(trans.content)}
+                        locale={locale}
                         className="prose prose-xl md:prose-lg dark:prose-invert max-w-none
                             prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-white
                             prose-h2:text-3xl md:prose-h2:text-2xl prose-h2:mt-12 md:prose-h2:mt-10 prose-h2:mb-5 md:prose-h2:mb-4 prose-h2:pb-3 md:prose-h2:pb-2 prose-h2:border-b prose-h2:border-gray-100 dark:prose-h2:border-gray-800

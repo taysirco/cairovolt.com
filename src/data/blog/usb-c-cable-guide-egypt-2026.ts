@@ -168,8 +168,8 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 
 <h3>المصادر</h3>
 <ul style="font-size:13px;color:#6b7280">
-    <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C Cable Specification</a></li>
-    <li><a href="https://www.anker.com/blogs/cables" target="_blank" rel="noopener">Anker — Cable Technology Guide</a></li>
+    <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C Cable Specification (بالإنجليزية)</a></li>
+    <li><a href="https://www.anker.com/blogs/cables" target="_blank" rel="noopener">Anker — Cable Technology Guide (بالإنجليزية)</a></li>
     <li><a href="https://en.wikipedia.org/wiki/USB-C" target="_blank" rel="noopener">Wikipedia — USB-C Standard</a></li>
 </ul>
 `,
@@ -190,7 +190,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
                 content: `
 <h2>The Cable: The Most Important and Most Ignored Piece</h2>
 <div class="quick-answer-inline" style="background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="Quick answer">
-    <p><strong>In short:</strong> A cheap USB-C cable can cut your charging speed by 70%. The wrong cable isn't just slow — it can harm your phone. Best pick: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine 60W</a>. Best budget pick: <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a>.</p>
+    <p><strong>In short:</strong> A cheap USB-C cable can cut your charging speed by 70%. The wrong cable isn't just slow — it can harm your phone. Best pick: <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine 60W</a>. Best budget pick: <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a>.</p>
 </div>
 
 <p>Let me ask you something: if you bought a 45-watt charger for EGP 790 — what would you plug into it?</p>
@@ -226,7 +226,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>This is the cable with the big rectangular plug (USB-A — the one you need to flip 3 times to get it in 😂). <strong>Maximum 12 watts</strong> even if your charger is more powerful. Only suitable for slow overnight charging.</p>
 
 <h2>The Big Test: 5 Cables Face to Face</h2>
-<p>We tested 5 USB-C to USB-C cables (all 1 meter) on the same charger (<a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a>) with Samsung S24 Ultra:</p>
+<p>We tested 5 USB-C to USB-C cables (all 1 meter) on the same charger (<a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 45W</a>) with Samsung S24 Ultra:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:13px">
 <thead>
@@ -240,21 +240,21 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 </thead>
 <tbody>
 <tr style="background:#f0fdf4">
-    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine 60W</strong></a></td>
+    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine 60W</strong></a></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e"><strong>42.3W ✅</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center"><strong>12 sec</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e">31°C</td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center">~EGP 350</td>
 </tr>
 <tr>
-    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom USB-C 60W</strong></a></td>
+    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom USB-C 60W</strong></a></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e"><strong>40.8W ✅</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center"><strong>14 sec</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#22c55e">33°C</td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center">~EGP 180</td>
 </tr>
 <tr>
-    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb">Joyroom USB-C Standard</a></td>
+    <td style="border:1px solid #e2e8f0;padding:8px"><a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb">Joyroom USB-C Standard</a></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#f59e0b"><strong>27.1W</strong></td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center">18 sec</td>
     <td style="border:1px solid #e2e8f0;padding:8px;text-align:center;color:#f59e0b">36°C</td>
@@ -293,7 +293,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <h3>Step 1: Know Your Phone's Port</h3>
 <ul>
     <li><strong>iPhone 17 or newer:</strong> USB-C to USB-C cable</li>
-    <li><strong>iPhone 14–16:</strong> USB-C to Lightning cable (must be MFi) — <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">Anker PowerLine C-Lightning</a></li>
+    <li><strong>iPhone 14–16:</strong> USB-C to Lightning cable (must be MFi) — <a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">Anker PowerLine C-Lightning</a></li>
     <li><strong>Samsung / Xiaomi / any Android:</strong> USB-C to USB-C cable</li>
 </ul>
 
@@ -317,21 +317,21 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 
 <h2>Top 3 USB-C Cables We Recommend in Egypt</h2>
 
-<h3>🥇 <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III USB-C (60W)</a> — The Best</h3>
+<h3>🥇 <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III USB-C (60W)</a> — The Best</h3>
 <p>Nylon braided, 60W, USB 3.2 (fast data transfer), 18-month warranty. Charges iPhone and Samsung at maximum possible speed. <strong>The cable we use in all our tests.</strong></p>
 
-<h3>🥈 <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a> — Best Value</h3>
+<h3>🥈 <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom USB-C 60W</a> — Best Value</h3>
 <p>Performance very close to Anker at roughly half the price. Reinforced sheath, 60W, 12-month warranty. <strong>Our top pick for budget shoppers.</strong></p>
 
-<h3>🥉 <a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb">Anker USB-C to Lightning SureIStrong</a> — For Older iPhone Users</h3>
+<h3>🥉 <a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb">Anker USB-C to Lightning SureIStrong</a> — For Older iPhone Users</h3>
 <p>MFi certified, supports fast charging up to 30W for iPhone. Double-braided construction withstands over 12,000 bends. The best choice for iPhone 14–16 owners.</p>
 
 <h2>The Key Question: One Cable or Two?</h2>
 <p>Our advice after years of selling accessories:</p>
 <ul>
     <li><strong>Main cable at home:</strong> Your best cable (60W PD) — the one you charge with daily</li>
-    <li><strong>Backup cable in your bag:</strong> A durable, affordable cable — <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom 60W</a> is ideal for this</li>
-    <li><strong>Cable in the car:</strong> Any cable that handles heat and bending — <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> wins here</li>
+    <li><strong>Backup cable in your bag:</strong> A durable, affordable cable — <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">Joyroom 60W</a> is ideal for this</li>
+    <li><strong>Cable in the car:</strong> Any cable that handles heat and bending — <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine</a> wins here</li>
 </ul>
 <p>Bottom line: <strong>two or three cables</strong>. The cable is the cheapest part of your charging setup — don't skimp on it.</p>
 

@@ -166,7 +166,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
 <p>Every laptop has a minimum charging threshold. MacBook Air needs 20W minimum (slow), Dell XPS 13 needs 30W, ThinkPad X1 needs 45W. Choose a power bank with output equal to or greater than your laptop's original charger.</p>
 
 <h2>Requirement #3: Sufficient Capacity (mAh) 📊</h2>
-<p>Real energy = mAh × 3.7V ÷ 1000 × 85% efficiency. A 20,000mAh bank delivers ~63Wh — enough for one full MacBook Air charge. The <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737 (24,000mAh)</strong></a> delivers ~74Wh for a full charge plus 30% extra.</p>
+<p>Real energy = mAh × 3.7V ÷ 1000 × 85% efficiency. A 20,000mAh bank delivers ~63Wh — enough for one full MacBook Air charge. The <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737 (24,000mAh)</strong></a> delivers ~74Wh for a full charge plus 30% extra. The <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb"><strong>Anker 26,800mAh</strong></a> at 99Wh gives ~84Wh — about 1.5 full charges.</p>
 
 <h2>Our Real-World Test Results</h2>
 <p>Testing MacBook Air M3 (52.6Wh battery) from 10% to maximum:</p>
@@ -174,24 +174,24 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     <thead><tr><th>Power Bank</th><th>PD Output</th><th>Charged To</th><th>Time</th></tr></thead>
     <tbody>
         <tr><td>Generic 20,000mAh (no PD)</td><td>10W ❌</td><td>Did not charge</td><td>—</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb">Anker Zolo 20,000</a></td><td>22.5W</td><td>10% → 72%</td><td>3.5 hours</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737</strong></a></td><td>140W</td><td>10% → 100% ✅</td><td>1.5 hours</td></tr>
+        <tr><td><a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb">Anker Zolo 20,000</a></td><td>22.5W</td><td>10% → 72%</td><td>3.5 hours</td></tr>
+        <tr><td><a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb"><strong>Anker 737</strong></a></td><td>140W</td><td>10% → 100% ✅</td><td>1.5 hours</td></tr>
     </tbody>
 </table>
 
 <h2>Can You Use the Laptop While Charging?</h2>
-<p>It depends on wattage. If your power bank outputs more than your laptop consumes, it charges while you work. The <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb">Anker 737</a> at 140W handles any laptop comfortably.</p>
+<p>It depends on wattage. If your power bank outputs more than your laptop consumes, it charges while you work. The <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb">Anker 737</a> at 140W handles any laptop comfortably.</p>
 
 <h2>Decision Map 🗺️</h2>
 <div style="background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:16px;padding:24px;margin:20px 0;color:white">
     <ul style="opacity:0.95;line-height:2">
-        <li>🔹 <strong>MacBook Air / Dell XPS 13</strong> ← <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#60a5fa">Anker Zolo 20,000</a></li>
-        <li>🔹 <strong>MacBook Pro 14" / ThinkPad</strong> ← <a href="/anker/power-banks/anker-737-powerbank" style="color:#60a5fa">Anker 737 (140W)</a></li>
-        <li>🔹 <strong>Multiple charges + emergency</strong> ← <a href="/anker/power-banks/anker-521-powerhouse" style="color:#60a5fa">Anker 521 PowerHouse</a></li>
+        <li>🔹 <strong>MacBook Air / Dell XPS 13</strong> ← <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#60a5fa">Anker Zolo 20,000</a></li>
+        <li>🔹 <strong>MacBook Pro 14" / ThinkPad</strong> ← <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#60a5fa">Anker 737 (140W)</a></li>
+        <li>🔹 <strong>Multiple charges + emergency</strong> ← <a href="/en/anker/power-banks/anker-521-powerhouse" style="color:#60a5fa">Anker 521 PowerHouse</a></li>
     </ul>
 </div>
 
-<p>All products are original with 18-month warranty and C2PA authentication. Shop <a href="/anker/power-banks" style="color:#2563eb;font-weight:bold">Anker power banks</a> on CairoVolt — delivery across Egypt in 24-72 hours.</p>
+<p>All products are original with 18-month warranty and C2PA authentication. Shop <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:bold">Anker power banks</a> on CairoVolt — delivery across Egypt in 24-72 hours. ✈️ Taking your power bank on a flight? Read our <a href="/en/blog/power-bank-airplane-rules-egypt-2026" style="color:#2563eb">complete airplane rules guide</a>.</p>
 `,
             faq: [
                 { question: 'Can a power bank charge a laptop?', answer: 'Yes, if it supports USB-C PD at 45W+, has 20,000mAh+ capacity, and the laptop supports USB-C charging. Most 2022+ laptops are compatible.' },

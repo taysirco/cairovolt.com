@@ -7,7 +7,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
     publishDate: '2026-04-09',
     modifiedDate: '2026-04-09',
     readingTime: 11,
-    relatedProducts: ['anker-powercore-20000', 'anker-nano-45w', 'anker-powerline-usb-c-to-usb-c', 'joyroom-20w-usb-c-charger'],
+    relatedProducts: ['anker-powercore-20000', 'anker-nano-45w', 'anker-powerline-usb-c-usb-c', 'joyroom-20w-usb-c-charger'],
     relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks', 'Joyroom/wall-chargers', 'Anker/cables'],
     coverImage: "/images/blog/posts/protect-phone-from-heat-summer-egypt.webp?v=2",
     translations: {
@@ -88,7 +88,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <p>لعب PUBG أو Fortnite أثناء الشحن = <strong>أخطر شيء ممكن تعمله لموبايلك</strong>. المعالج شغال 100% (حرارة) + الشاحن شغال (حرارة) + الشاشة أعلى سطوع (حرارة). رصدنا 52°C على Samsung أثناء لعب PUBG على الشاحن! البطارية في هذا السيناريو بتخسر عمرها ضعف السرعة.</p>
 
 <h3>✅ 6. استخدم كابل جيد — الكابل الرديء = حرارة زائدة</h3>
-<p>كابل رخيص أو تالف = <strong>مقاومة كهربائية عالية</strong> = حرارة زائدة + شحن أبطأ. كابل <a href="/anker/cables/anker-powerline-usb-c-to-usb-c" style="color:#2563eb">انكر باور لاين III</a> مصمم بأسلاك نحاس سميكة تقلل المقاومة وتمنع السخونة.</p>
+<p>كابل رخيص أو تالف = <strong>مقاومة كهربائية عالية</strong> = حرارة زائدة + شحن أبطأ. كابل <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">انكر باور لاين III</a> مصمم بأسلاك نحاس سميكة تقلل المقاومة وتمنع السخونة.</p>
 <p><strong>علامات الكابل التالف:</strong></p>
 <ul>
     <li>منطقة ساخنة في مكان معين من الكابل أثناء الشحن</li>
@@ -218,11 +218,11 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر علمية موثوقة:</p>
     <ul style="margin:0;padding-right:20px;color:#78350f">
-        <li><a href="https://support.apple.com/en-us/108055" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — الحفاظ على iPhone ضمن درجات حرارة التشغيل المقبولة</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — كيفية إطالة عمر بطاريات الليثيوم (BU-808)</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-410-what-causes-lithium-ion-to-die" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — أسباب موت بطاريات الليثيوم أيون (BU-410)</a></li>
-        <li><a href="https://www.samsung.com/global/galaxy/what-is/lithium-ion-battery/" target="_blank" rel="noopener" style="color:#1d4ed8">Samsung — دليل العناية ببطاريات الليثيوم أيون</a></li>
-        <li><a href="https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work" target="_blank" rel="noopener" style="color:#1d4ed8">وزارة الطاقة الأمريكية (DOE) — كيف تعمل بطاريات الليثيوم</a></li>
+        <li><a href="https://support.apple.com/ar-eg/108055" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — الحفاظ على iPhone ضمن درجات حرارة التشغيل المقبولة</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — كيفية إطالة عمر بطاريات الليثيوم (BU-808) (بالإنجليزية)</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-410-what-causes-lithium-ion-to-die" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — أسباب موت بطاريات الليثيوم أيون (BU-410) (بالإنجليزية)</a></li>
+        <li><a href="https://www.samsung.com/eg/galaxy/what-is/lithium-ion-battery/" target="_blank" rel="noopener" style="color:#1d4ed8">Samsung — دليل العناية ببطاريات الليثيوم أيون</a></li>
+        <li><a href="https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work" target="_blank" rel="noopener" style="color:#1d4ed8">وزارة الطاقة الأمريكية (DOE) — كيف تعمل بطاريات الليثيوم (بالإنجليزية)</a></li>
     </ul>
 </div>
 `,
@@ -312,7 +312,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
 <p>Playing PUBG or Fortnite while charging = <strong>the most dangerous thing you can do</strong>. Processor at 100% (heat) + charger active (heat) + screen at max brightness (heat). We recorded 52°C on a Samsung during PUBG while charging! Battery life-span degrades at double the rate in this scenario.</p>
 
 <h3>✅ 6. Use a Quality Cable — Bad Cable = Extra Heat</h3>
-<p>A cheap or damaged cable = <strong>high electrical resistance</strong> = extra heat + slower charging. Cables like <a href="/en/anker/cables/anker-powerline-usb-c-to-usb-c" style="color:#2563eb">Anker PowerLine III</a> are built with thick copper wires that reduce resistance and prevent overheating.</p>
+<p>A cheap or damaged cable = <strong>high electrical resistance</strong> = extra heat + slower charging. Cables like <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb">Anker PowerLine III</a> are built with thick copper wires that reduce resistance and prevent overheating.</p>
 
 <h3>✅ 7. Close Background Apps</h3>
 <p>Apps like GPS, video streaming, and social media run the processor in background = continuous heat. <strong>Practical tip:</strong> On extremely hot days, close apps you don't actually need — especially Google Maps and video streaming.</p>

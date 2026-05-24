@@ -161,7 +161,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
     <p style="font-weight:700;color:#166534;font-size:16px;margin-bottom:12px">✅ ملخص: كيف تختار الباور بانك الصح</p>
     <ol style="color:#15803d;margin:0;padding-right:20px">
         <li><strong>قارن بالـ Wh مش الـ mAh:</strong> الـ Wh هي الرقم الحقيقي للطاقة</li>
-        <li><strong>اشتري من ماركة موثوقة:</strong> <a href="/anker/power-banks" style="color:#2563eb">Anker</a> (كفاءة 68%) أو <a href="/joyroom/power-banks" style="color:#2563eb">Joyroom</a> (كفاءة 63%)</li>
+        <li><strong>اشتري من ماركة موثوقة:</strong> <a href="/anker/power-banks" style="color:#2563eb">باور بانكات انكر</a> (كفاءة 68%) أو <a href="/joyroom/power-banks" style="color:#2563eb">باور بانكات جوي روم</a> (كفاءة 63%)</li>
         <li><strong>استخدم كابل جيد:</strong> الكابل الرديء بيضيع 5-8% إضافية</li>
         <li><strong>اشحن في مكان بارد:</strong> الحرارة العالية بتقلل الكفاءة 10%+</li>
         <li><strong>لا تستخدم الموبايل أثناء الشحن:</strong> بتقلل عدد الشحنات</li>
@@ -193,10 +193,10 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر علمية موثوقة:</p>
     <ul style="margin:0;padding-right:20px;color:#78350f">
-        <li><a href="https://batteryuniversity.com/article/bu-802b-what-does-elevated-self-discharge-do" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — التفريغ الذاتي لبطاريات الليثيوم (BU-802b)</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — إطالة عمر بطاريات الليثيوم (BU-808)</a></li>
-        <li><a href="https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work" target="_blank" rel="noopener" style="color:#1d4ed8">وزارة الطاقة الأمريكية — كيف تعمل بطاريات الليثيوم</a></li>
-        <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery الرسمي</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-802b-what-does-elevated-self-discharge-do" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — التفريغ الذاتي لبطاريات الليثيوم (BU-802b) (بالإنجليزية)</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — إطالة عمر بطاريات الليثيوم (BU-808) (بالإنجليزية)</a></li>
+        <li><a href="https://www.energy.gov/eere/articles/how-does-lithium-ion-battery-work" target="_blank" rel="noopener" style="color:#1d4ed8">وزارة الطاقة الأمريكية — كيف تعمل بطاريات الليثيوم (بالإنجليزية)</a></li>
+        <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery الرسمي (بالإنجليزية)</a></li>
     </ul>
 </div>
 `,
@@ -304,7 +304,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
     <li><strong><a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000</a>:</strong> 64% efficiency — best value for money</li>
     <li><strong>Counterfeit:</strong> 37-52% efficiency — half the energy wasted as heat, which is dangerous for your phone</li>
 </ul>
-<p><strong>The Golden Rule:</strong> Multiply capacity × 0.65 = real capacity. That's all you need to know exactly how many charges you'll get <strong>before spending a single pound</strong>.</p>
+<p><strong>The Golden Rule:</strong> Multiply capacity × 0.65 = real capacity. That's all you need to know exactly how many charges you'll get <strong>before spending a single pound</strong>. Browse <a href="/en/anker/power-banks" style="color:#2563eb">Anker power banks</a> (68% efficiency) or <a href="/en/joyroom/power-banks" style="color:#2563eb">Joyroom power banks</a> (63% efficiency) — all original with 18-month warranty.</p>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 Authoritative Scientific Sources:</p>

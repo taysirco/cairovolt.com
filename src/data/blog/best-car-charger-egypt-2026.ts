@@ -118,8 +118,8 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
     <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر ومراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#78350f">
-        <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery للسيارات</a></li>
-        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — تأثير الحرارة على البطارية</a></li>
+        <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener" style="color:#1d4ed8">USB-IF — معيار USB Power Delivery للسيارات (بالإنجليزية)</a></li>
+        <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target="_blank" rel="noopener" style="color:#1d4ed8">Battery University — تأثير الحرارة على البطارية (بالإنجليزية)</a></li>
     </ul>
 </div>
 `,
@@ -140,7 +140,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
                 content: `
 <h2>Why You Need a Legitimate Car Charger in Egypt</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="Quick Summary">
-    <p><strong>In short:</strong> Best budget car charger: <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W</a> (dual ports, under 550 EGP). Best performance: <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">Anker Dual USB</a> (MultiProtect + 18-month warranty). Both tested at 45°C summer heat with zero issues.</p>
+    <p><strong>In short:</strong> Best budget car charger: <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W</a> (dual ports, under 550 EGP). Best performance: <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">Anker Dual USB</a> (MultiProtect + 18-month warranty). Both tested at 45°C summer heat with zero issues.</p>
 </div>
 <p>The average Egyptian spends <strong>1.5 hours daily in their car</strong> (classic Cairo traffic 😅). That means your phone is draining battery on maps, calls, and music. A car charger isn't a luxury — <strong>it's a daily necessity</strong>.</p>
 <p>But the market is flooded with counterfeit car chargers that work for a month then die, or worse — overheat and damage your phone. This comprehensive guide will help you choose the right one.</p>
@@ -157,7 +157,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
     <li><strong>20-30W:</strong> Fast charging — ideal for iPhone and most Samsung devices</li>
     <li><strong>45-60W:</strong> Ultra-fast — charges Samsung S26 at max speed or powers a small laptop</li>
 </ul>
-<p><strong>Our advice:</strong> Don't buy below 20W. The <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W</a> future-proofs you when you upgrade your phone.</p>
+<p><strong>Our advice:</strong> Don't buy below 20W. The <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W</a> future-proofs you when you upgrade your phone.</p>
 
 <h3>2. Port Count and Type</h3>
 <ul>
@@ -175,7 +175,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <ul>
     <li><strong>Ports:</strong> 2× USB-A (24W total)</li>
     <li><strong>Protection:</strong> MultiProtect (10-layer protection)</li>
-    <li><strong>Warranty:</strong> 18-month replacement from <a href="/" style="color:#2563eb">CairoVolt</a></li>
+    <li><strong>Warranty:</strong> 18-month replacement from <a href="/en/" style="color:#2563eb">CairoVolt</a></li>
     <li><strong>Pros:</strong> Dim LED doesn't distract during night driving, ultra-compact profile sits flush with lighter socket</li>
     <li><strong>Cons:</strong> No USB-C port — requires USB-A to USB-C or Lightning cable</li>
 </ul>
@@ -214,7 +214,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <h2>How to Choose the Right Cable for Your Car Charger</h2>
 <p>The charger alone isn't enough — <strong>the cable is half the equation</strong>. A counterfeit cable = slow charging + heat + potential damage.</p>
 <ul>
-    <li><strong>For iPhone:</strong> <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">Anker USB-C to Lightning</a> (MFi certified) or <a href="/joyroom/cables/joyroom-usb-c-lightning-cable" style="color:#2563eb">Joyroom USB-C to Lightning</a></li>
+    <li><strong>For iPhone:</strong> <a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">Anker USB-C to Lightning</a> (MFi certified) or <a href="/en/joyroom/cables/joyroom-usb-c-lightning-cable" style="color:#2563eb">Joyroom USB-C to Lightning</a></li>
     <li><strong>For Samsung/Android:</strong> USB-C to USB-C cable supporting at least 60W</li>
     <li><strong>For USB-A only chargers:</strong> USB-A to USB-C or USB-A to Lightning cable</li>
 </ul>
@@ -230,8 +230,8 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 
 <h2>Our Final Recommendation</h2>
 <div class="quick-answer-inline" style="background:#fefce8;border-left:4px solid #eab308;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#854d0e">
-    <p><strong>On a budget:</strong> <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W Car Charger</a> — best value for money. USB-C + USB-A ports, PD + QC fast charging, and smart protection under 550 EGP.</p>
-    <p><strong>Want the best:</strong> <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">Anker Car Charger Dual USB</a> + <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">original Anker cable</a> — 10-layer protection + 18-month replacement warranty from CairoVolt.</p>
+    <p><strong>On a budget:</strong> <a href="/en/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">Joyroom 60W Car Charger</a> — best value for money. USB-C + USB-A ports, PD + QC fast charging, and smart protection under 550 EGP.</p>
+    <p><strong>Want the best:</strong> <a href="/en/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">Anker Car Charger Dual USB</a> + <a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">original Anker cable</a> — 10-layer protection + 18-month replacement warranty from CairoVolt.</p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">

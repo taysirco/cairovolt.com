@@ -96,7 +96,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
                   {brand.categories.map((cat) => (
                     <Link
                       key={cat.href}
-                      href={`/${locale}${cat.href}`}
+                      href={`${locale === 'ar' ? '' : '/en'}${cat.href}`}
                       className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-white/[0.1] hover:border-white/[0.15] transition-all duration-200 text-sm text-slate-300 hover:text-white"
                     >
                       <SvgIcon name={cat.icon} className="w-4 h-4 opacity-60" />
@@ -107,7 +107,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
 
                 {/* CTA */}
                 <Link
-                  href={`/${locale}${brand.href}`}
+                  href={`${locale === 'ar' ? '' : '/en'}${brand.href}`}
                   className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl ${brand.textColor} bg-white/[0.05] border border-white/[0.08] hover:bg-white/[0.1] font-semibold text-sm transition-all duration-300 group/btn`}
                 >
                   {isAr ? `تصفح كل ${brand.name}` : `Browse All ${brand.name}`}

@@ -114,7 +114,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">2,200ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">737 PowerCore 24K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 باور كور 24K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">24,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">79.5Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>92%</strong></td>

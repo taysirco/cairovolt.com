@@ -180,7 +180,7 @@ export default async function FAQPage({ params }: Props) {
                         <div className="mt-12 text-center bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-white">
                             <h3 className="text-2xl font-bold mb-4">{t('stillNeedHelp')}</h3>
                             <p className="mb-6 opacity-90">{t('contactUs')}</p>
-                            <Link href="/contact" className="inline-block bg-white text-orange-600 font-semibold px-8 py-3 rounded-full hover:shadow-lg transition-shadow">
+                            <Link href={`${locale === 'ar' ? '' : '/en'}/contact`} className="inline-block bg-white text-orange-600 font-semibold px-8 py-3 rounded-full hover:shadow-lg transition-shadow">
                                 {t('contactButton')}
                             </Link>
                         </div>

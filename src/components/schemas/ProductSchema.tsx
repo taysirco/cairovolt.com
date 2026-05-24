@@ -184,7 +184,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             },
             creditText: 'CairoVolt Engineering',
             copyrightNotice: '© 2025 CairoVolt. All 100% human-verified hardware testing.',
-            acquireLicensePage: `${baseUrl}/${locale}/terms`
+            acquireLicensePage: `${baseUrl}${locale === 'ar' ? '' : '/en'}/terms`
         })),
         // subjectOf: C2PA content verification + optional VideoObject
         subjectOf: videoSchema

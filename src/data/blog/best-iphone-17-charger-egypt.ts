@@ -37,7 +37,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
 
     <h3> 2. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W</a> — الأرخص للايفون </h3>
     <p> <strong>السعر: </strong> 375 جنيه | <strong>القوة:</strong> 20W </p>
-    <p> كافي لـ iPhone 17 العادي لكن لن يعطيك أقصى سرعة.مثالي لو عايز توفر ومش مستعجل. <a href="/anker/chargers/anker-powerport-20w" class="text-blue-600 hover:underline">احصل على انكر 20W</a></p>
+    <p> كافي لـ iPhone 17 العادي لكن لن يعطيك أقصى سرعة.مثالي لو عايز توفر ومش مستعجل. <a href="/anker/wall-chargers/anker-powerport-20w" class="text-blue-600 hover:underline">احصل على انكر 20W</a></p>
 
     <h3> 3. Anker 65W GaN — شاحن واحد لكل أجهزتك </h3>
     <p> <strong>السعر: </strong> 999 جنيه | <strong>القوة:</strong> 65W | <strong>المنافذ: </strong> 2 USB-C + 1 USB-A</p>
@@ -60,9 +60,9 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     <div class="source-references" style = "background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px" >
     <p style="font-weight:700;margin-bottom:8px;color:#92400e" >📚 مصادر موثوقة: </p>
     <ul style = "margin:0;padding-right:20px;color:#78350f" >
-    <li><a href="https://www.usb.org/usb-charger-pd" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > USB - IF — معيار USB Power Delivery الرسمي </a></li>
-    <li><a href="https://support.apple.com/en-us/101571" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > Apple Support — الشحن السريع لـ iPhone </a></li>
-    <li><a href="https://www.energy.gov/eere/vehicles/articles/fotw-1272-january-9-2023-electric-vehicle-battery-pack-costs-2022-are" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > وزارة الطاقة الأمريكية(DOE) — تقنية GaN في الشواحن </a></li>
+    <li><a href="https://www.usb.org/usb-charger-pd" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > USB - IF — معيار USB Power Delivery الرسمي  (بالإنجليزية)</a></li>
+    <li><a href="https://support.apple.com/ar-eg/101571" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > Apple Support — الشحن السريع لـ iPhone </a></li>
+    <li><a href="https://www.energy.gov/eere/vehicles/articles/fotw-1272-january-9-2023-electric-vehicle-battery-pack-costs-2022-are" target = "_blank" rel = "noopener" style = "color:#1d4ed8" > وزارة الطاقة الأمريكية(DOE) — تقنية GaN في الشواحن  (بالإنجليزية)</a></li>
     </ul>
     </div>
         `,
@@ -91,11 +91,11 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
 
                         <h3> 1. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb">Anker Nano 30W</a> — Best Overall </h3>
                             <p> <strong>Price: </strong> EGP 790 | <strong>Power:</strong> 45W | <strong>Tech: </strong> GaN III</p>
-                                <p>World's smallest 30W charger. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple's 20W charger! </p>
+                                <p>World's smallest 30W charger. Gives iPhone 17 maximum charging speed (0→50% in 25 minutes). Smaller than Apple's 20W charger! <a href="/en/anker/chargers" style="color:#2563eb">Browse Anker Chargers</a></p>
 
                                     <h3> 2. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> — Budget iPhone Charger </h3>
                                         <p> <strong>Price: </strong> EGP 375 | <strong>Power:</strong> 20W </p>
-                                            <p> Sufficient for standard iPhone 17 but won't give maximum speed. Great if you want to save and aren't in a rush. <a href="/anker/chargers/anker-powerport-20w" class="text-blue-600 hover:underline">Get Anker 20W</a></p>
+                                            <p> Sufficient for standard iPhone 17 but won't give maximum speed. Great if you want to save and aren't in a rush. <a href="/en/anker/wall-chargers/anker-powerport-20w" class="text-blue-600 hover:underline">Get Anker 20W</a></p>
 
                                                 <h3> 3. Anker 65W GaN — One Charger for Everything </h3>
                                                     <p> <strong>Price: </strong> EGP 999 | <strong>Power:</strong> 65W | <strong>Ports: </strong> 2 USB-C + 1 USB-A</p>

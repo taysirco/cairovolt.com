@@ -184,7 +184,7 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#6b7280;">
-        <li><a href="https://www.anker.com/blogs/company-news/anker-innovations-annual-report" rel="nofollow">Anker Innovations — Annual Report 2025</a></li>
+        <li><a href="https://www.anker.com/blogs/company-news/anker-innovations-annual-report" rel="nofollow">Anker Innovations — Annual Report 2025 (بالإنجليزية)</a></li>
         <li><a href="https://www.customs.gov.eg" rel="nofollow">مصلحة الجمارك المصرية — التعريفة الجمركية</a></li>
         <li><a href="https://www.ntra.gov.eg" rel="nofollow">الجهاز القومي لتنظيم الاتصالات — معايير الأجهزة</a></li>
     </ul>
@@ -366,8 +366,8 @@ export const why_anker_chargers_disappear_egyptian_markets: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
     <ul style="margin:0;padding-left:20px;color:#6b7280;">
         <li><a href="https://www.anker.com/blogs/company-news/anker-innovations-annual-report" rel="nofollow">Anker Innovations — Annual Report 2025</a></li>
-        <li><a href="https://www.customs.gov.eg" rel="nofollow">Egyptian Customs Authority — Tariff Schedule</a></li>
-        <li><a href="https://www.ntra.gov.eg" rel="nofollow">National Telecom Regulatory Authority — Device Standards</a></li>
+        <li><a href="https://www.customs.gov.eg" rel="nofollow">Egyptian Customs Authority — Tariff Schedule (in Arabic)</a></li>
+        <li><a href="https://www.ntra.gov.eg" rel="nofollow">National Telecom Regulatory Authority — Device Standards (in Arabic)</a></li>
     </ul>
 </div>`,
             faq: [

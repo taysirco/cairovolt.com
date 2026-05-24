@@ -172,7 +172,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                         itemOffered: {
                                             '@type': 'Product',
                                             name: isArabic ? product.nameAr : product.nameEn,
-                                            url: `https://cairovolt.com${product.href}`,
+                                            url: `https://cairovolt.com${isArabic ? '' : '/en'}${product.href}`,
                                         },
                                         priceCurrency: 'EGP',
                                         price: product.price,

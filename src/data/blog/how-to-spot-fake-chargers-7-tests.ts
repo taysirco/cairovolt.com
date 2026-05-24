@@ -184,7 +184,7 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
 <p>Plug in the charger for exactly 10 minutes. Original: warm at 35-42°C. Fake: uncomfortably hot above 55°C due to missing thermal management circuitry.</p>
 
 <h2>Test #3: Real Fast Charging Test (95% Accuracy)</h2>
-<p>Drain your phone to 20%, charge for 30 minutes. An original <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> reaches ~68%. A fake "20W" charger only reaches ~41% — it is actually charging at 5W.</p>
+<p>Drain your phone to 20%, charge for 30 minutes. An original <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">Anker 20W</a> reaches ~68%. The <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">Anker GaN 30W</a> hits ~72% with PD fast charging. A fake "20W" charger only reaches ~41% — it is actually charging at 5W.</p>
 
 <h2>Test #4: Print Quality Under Zoom (80% Accuracy)</h2>
 <p>Use your phone camera at 3x zoom to inspect logos, text, and barcodes. Originals have sharp, clean edges. Fakes show blurred edges and inconsistent fonts.</p>
@@ -205,7 +205,7 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
 <div style="background:linear-gradient(135deg,#065f46,#059669);border-radius:16px;padding:24px;margin:20px 0;color:white;text-align:center">
     <p style="font-size:20px;font-weight:bold">A fake charger saves you 100 EGP — but costs you a 3,000 EGP battery replacement</p>
 </div>
-<p>Shop <a href="/anker/wall-chargers" style="color:#2563eb;font-weight:bold">original Anker chargers</a> or <a href="/joyroom/wall-chargers" style="color:#2563eb;font-weight:bold">Joyroom chargers</a> on CairoVolt — delivered to your door within 24-72 hours with 18-month warranty.</p>
+<p>Shop <a href="/en/anker/wall-chargers" style="color:#2563eb;font-weight:bold">original Anker chargers</a> or <a href="/en/joyroom/wall-chargers" style="color:#2563eb;font-weight:bold">Joyroom chargers</a> on CairoVolt — delivered to your door within 24-72 hours with 18-month warranty.</p>
 `,
             faq: [
                 {

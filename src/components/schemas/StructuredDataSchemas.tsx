@@ -435,22 +435,22 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
                 {
                     '@type': 'OfferCatalog',
                     name: isArabic ? 'باور بانك' : 'Power Banks',
-                    url: 'https://cairovolt.com/power-banks',
+                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/power-banks`,
                 },
                 {
                     '@type': 'OfferCatalog',
                     name: isArabic ? 'شواحن' : 'Chargers',
-                    url: 'https://cairovolt.com/chargers',
+                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/chargers`,
                 },
                 {
                     '@type': 'OfferCatalog',
                     name: isArabic ? 'سماعات' : 'Earbuds',
-                    url: 'https://cairovolt.com/earbuds',
+                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/earbuds`,
                 },
                 {
                     '@type': 'OfferCatalog',
                     name: isArabic ? 'كابلات' : 'Cables',
-                    url: 'https://cairovolt.com/cables',
+                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/cables`,
                 },
             ],
         },

@@ -33,7 +33,7 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
                                 ? 'عذراً، هذا الرابط غير صالح أو منتهي الصلاحية. إذا كنت ترغب في إضافة تقييم، يرجى التواصل معنا.'
                                 : 'Sorry, this link is invalid or expired. If you would like to add a review, please contact us.'}
                         </p>
-                        <a href={`/${locale}`} className="review-error__link">
+                        <a href={`${locale === 'ar' ? '/' : '/en'}`} className="review-error__link">
                             {isArabic ? '← العودة للرئيسية' : '← Back to Home'}
                         </a>
                     </div>

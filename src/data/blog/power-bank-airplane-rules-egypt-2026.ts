@@ -21,7 +21,7 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
                 content: `
 <h2>الإجابة السريعة: نعم — بشروط بسيطة</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
-    <p><strong>باختصار:</strong> الباور بانك مسموح في <strong>حقيبة اليد فقط</strong> (carry-on)، ممنوع في حقيبة الشحن. الحد: أقل من 100 واط/ساعة (Wh) = أقل من ≈27,000mAh. كل باور بانكات <a href="/anker/power-banks" style="color:#2563eb">Anker</a> و<a href="/joyroom/power-banks" style="color:#2563eb">Joyroom</a> من كايرو فولت أقل من هذا الحد ومسموح بها 100%.</p>
+    <p><strong>باختصار:</strong> الباور بانك مسموح في <strong>حقيبة اليد فقط</strong> (carry-on)، ممنوع في حقيبة الشحن. الحد: أقل من 100 واط/ساعة (Wh) = أقل من ≈27,000mAh. كل باور بانكات <a href="/anker/power-banks" style="color:#2563eb">انكر</a> و<a href="/joyroom/power-banks" style="color:#2563eb">جوي روم</a> من كايرو فولت أقل من هذا الحد ومسموح بها 100%.</p>
 </div>
 <p>كل مسافر مصري بيسأل نفس السؤال قبل أي رحلة: <strong>"أقدر آخد الباور بانك معايا ولا هيتصادر في المطار؟"</strong> الخبر الجيد: الإجابة "نعم" في معظم الحالات. لكن لازم تعرف القواعد عشان ماتتفاجأش.</p>
 
@@ -123,7 +123,7 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
                 content: `
 <h2>Quick Answer: Yes — With Simple Rules</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="Quick Summary">
-    <p><strong>In short:</strong> Power banks are allowed in <strong>carry-on luggage only</strong>, never in checked baggage. The limit: under 100 Watt-hours (Wh) = under ≈27,000mAh. All <a href="/anker/power-banks" style="color:#2563eb">Anker</a> and <a href="/joyroom/power-banks" style="color:#2563eb">Joyroom</a> power banks from CairoVolt are under this limit and 100% flight-legal.</p>
+    <p><strong>In short:</strong> Power banks are allowed in <strong>carry-on luggage only</strong>, never in checked baggage. The limit: under 100 Watt-hours (Wh) = under ≈27,000mAh. All <a href="/en/anker/power-banks" style="color:#2563eb">Anker</a> and <a href="/en/joyroom/power-banks" style="color:#2563eb">Joyroom</a> power banks from CairoVolt are under this limit and 100% flight-legal.</p>
 </div>
 <p>Every traveler asks the same question before any trip: <strong>"Can I take my power bank on the plane or will it get confiscated?"</strong> The good news: the answer is "yes" in most cases. But you need to know the rules to avoid surprises.</p>
 
@@ -138,9 +138,9 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:16px;color:#1e40af;font-weight:bold;text-align:center">
     Wh = (mAh × Voltage) ÷ 1000
 </div>
-<p>Example: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000mAh</a>:</p>
+<p>Example: <a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000mAh</a>:</p>
 <p><strong>20,000 × 3.7V ÷ 1000 = 74Wh</strong> ← Under 100Wh = 100% allowed ✅</p>
-<p>Example 2: <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb">Anker PowerCore 26800mAh</a>:</p>
+<p>Example 2: <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb">Anker PowerCore 26800mAh</a>:</p>
 <p><strong>26,800 × 3.7V ÷ 1000 = 99.16Wh</strong> ← Just under 100Wh = allowed ✅</p>
 
 <h2>Power Bank Flight Limits — Complete Reference Table</h2>
@@ -169,15 +169,15 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
 </table>
 
 <h2>Power Banks That Are 100% Flight-Legal</h2>
-<p>All these products from <a href="/" style="color:#2563eb">CairoVolt</a> are under 100Wh and allowed on any aircraft:</p>
+<p>All these products from <a href="/en/" style="color:#2563eb">CairoVolt</a> are under 100Wh and allowed on any aircraft:</p>
 <table>
     <thead><tr><th>Product</th><th>Capacity</th><th>Energy (Wh)</th><th>Verdict</th></tr></thead>
     <tbody>
-        <tr><td><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000mAh</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ Completely safe</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ Completely safe</td></tr>
-        <tr><td><a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000mAh</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ Allowed</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ Allowed</td></tr>
-        <tr><td><a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb">Anker PowerCore 26800</a></td><td>26,800mAh</td><td>99.16 Wh</td><td>✅ Allowed (under 100)</td></tr>
+        <tr><td><a href="/en/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb">Joyroom 10000mAh</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ Completely safe</td></tr>
+        <tr><td><a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a></td><td>10,000mAh</td><td>37 Wh</td><td>✅ Completely safe</td></tr>
+        <tr><td><a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">Joyroom 20000mAh</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ Allowed</td></tr>
+        <tr><td><a href="/en/anker/power-banks/anker-powercore-20000" style="color:#2563eb">Anker PowerCore 20000</a></td><td>20,000mAh</td><td>74 Wh</td><td>✅ Allowed</td></tr>
+        <tr><td><a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb">Anker PowerCore 26800</a></td><td>26,800mAh</td><td>99.16 Wh</td><td>✅ Allowed (under 100)</td></tr>
     </tbody>
 </table>
 
@@ -196,7 +196,7 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
     <li><strong>Keep it easily accessible:</strong> Place it in the outer pocket of your backpack</li>
     <li><strong>Buy from reputable brands:</strong> Trusted brands (Anker, Joyroom) always clearly print capacity labels</li>
     <li><strong>Save product specs on your phone:</strong> Having the receipt or spec sheet photo makes things smoother</li>
-    <li><strong>For frequent flyers, choose 10000mAh:</strong> <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a> — enough for a full charge, only 37Wh (clears any airport), weighs just 180g, with fast charging</li>
+    <li><strong>For frequent flyers, choose 10000mAh:</strong> <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb">Anker PowerCore 10000</a> — enough for a full charge, only 37Wh (clears any airport), weighs just 180g, with fast charging</li>
 </ul>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">

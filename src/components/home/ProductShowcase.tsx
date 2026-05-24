@@ -51,7 +51,7 @@ const showcaseProducts: ShowcaseProduct[] = [
     originalPrice: 1100,
     brand: 'Anker',
     badge: { en: 'Hot Deal', ar: 'عرض مميز' },
-    href: '/anker/chargers/anker-nano-45w',
+    href: '/anker/wall-chargers/anker-nano-45w',
     categorySlug: 'chargers',
   },
   {
@@ -172,7 +172,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                 )}
 
                 {/* Image — 1:1 aspect ratio, object-cover to fill frame */}
-                <Link href={`/${locale}${product.href}`} className="block relative aspect-square overflow-hidden rounded-t-2xl">
+                <Link href={`${locale === 'ar' ? '' : '/en'}${product.href}`} className="block relative aspect-square overflow-hidden rounded-t-2xl">
                   <Image
                     src={product.image}
                     alt={isAr ? product.name.ar : product.name.en}
@@ -192,7 +192,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
 
                   {/* Name */}
                   <Link
-                    href={`/${locale}${product.href}`}
+                    href={`${locale === 'ar' ? '' : '/en'}${product.href}`}
                     className="text-sm font-medium text-slate-200 hover:text-white line-clamp-2 leading-snug transition-colors"
                   >
                     {isAr ? product.name.ar : product.name.en}

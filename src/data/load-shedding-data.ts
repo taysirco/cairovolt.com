@@ -105,7 +105,7 @@ const PRODUCTS: Record<string, OutageProduct> = {
         labHighlightAr: `يشغل راوتر + مروحة ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة و${LAB_CONSTANTS.ANKER_521_UPS_MINUTES} دقيقة`,
         labHighlightEn: `Router + fan for ${LAB_CONSTANTS.ANKER_521_UPS_HOURS}h ${LAB_CONSTANTS.ANKER_521_UPS_MINUTES}min`,
         price: catalogPrice('anker-521-powerhouse'),
-        href: '/anker/power-stations/anker-521-powerhouse',
+        href: '/anker/power-banks/anker-521-powerhouse',
         badgeAr: '🏠 UPS منزلي كامل',
         badgeEn: '🏠 Full Home UPS',
     },

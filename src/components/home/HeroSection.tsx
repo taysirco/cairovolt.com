@@ -156,7 +156,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             {/* CTA — Desktop only (CSS hidden on mobile) */}
             <div className={`hidden lg:flex flex-col sm:flex-row gap-3 ${isAr ? 'justify-end' : 'justify-start'}`}>
               <Link
-                href={`/${locale}${active.href}`}
+                href={`${locale === 'ar' ? '' : '/en'}${active.href}`}
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300"
               >
                 <SvgIcon name="cart" className="w-5 h-5" />
@@ -235,7 +235,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
         {/* CTA — Mobile only (CSS hidden on desktop) */}
         <div className="flex lg:hidden flex-col items-center gap-4 mt-8 z-10 relative">
           <Link
-            href={`/${locale}${active.href}`}
+            href={`${locale === 'ar' ? '' : '/en'}${active.href}`}
             className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300 w-full max-w-md"
           >
             <SvgIcon name="cart" className="w-5 h-5" />

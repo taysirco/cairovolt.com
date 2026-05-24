@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 interface BlogContentRendererProps {
     html: string;
     className?: string;
+    locale?: string;
 }
 
 // Defense-in-depth: sanitize HTML even from admin-controlled sources
@@ -23,6 +24,25 @@ function sanitizeHtml(html: string): string {
 }
 
 /**
+ * i18n Quarantine Law: Rewrite internal links for non-default locales.
+ * When locale is 'en', all relative internal hrefs (starting with /)
+ * get prefixed with /en/ to prevent cross-language link bleeding.
+ * Arabic is the default locale and needs no prefix.
+ *
+ * Excludes: external URLs (http/https), anchors (#), mailto:, tel:, javascript:
+ */
+function localizeInternalLinks(html: string, locale: string): string {
+    if (locale === 'ar') return html; // Arabic = default, no prefix needed
+
+    // Match href="/..." or href='/...' — but NOT href="/en/..." (already localized)
+    // and NOT href="http..." href="mailto:" href="tel:" href="#" href="javascript:"
+    return html.replace(
+        /href=(["'])\/(?!en\/|https?:\/\/|mailto:|tel:|javascript:|#)([^"']*?)\1/gi,
+        (_, quote, path) => `href=${quote}/${locale}/${path}${quote}`
+    );
+}
+
+/**
  * BlogContentRenderer — Client-side-only HTML renderer for blog articles.
  *
  * Problem: Blog article HTML content contains malformed tags (e.g., `< table >`,
@@ -37,7 +57,7 @@ function sanitizeHtml(html: string): string {
  * Content is rendered server-side and indexed.
  * 
  */
-export default function BlogContentRenderer({ html, className = '' }: BlogContentRendererProps) {
+export default function BlogContentRenderer({ html, className = '', locale = 'ar' }: BlogContentRendererProps) {
     const containerRef = useRef<HTMLDivElement>(null);
     const [mounted, setMounted] = useState(false);
 
@@ -64,7 +84,7 @@ export default function BlogContentRenderer({ html, className = '' }: BlogConten
         <div
             ref={containerRef}
             className={className}
-            dangerouslySetInnerHTML={{ __html: sanitizeHtml(html) }}
+            dangerouslySetInnerHTML={{ __html: localizeInternalLinks(sanitizeHtml(html), locale) }}
         />
     );
 }

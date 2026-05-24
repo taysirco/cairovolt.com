@@ -95,7 +95,7 @@ export default function ReviewForm({ token, productName, customerName, locale }:
                         ? 'تم إرسال تقييمك بنجاح. رأيك يُحدث فرقاً ويساعد عملاء آخرين!'
                         : 'Your review has been submitted successfully. Your opinion makes a difference!'}
                 </p>
-                <a href={`/${locale}`} className="review-success__link">
+                <a href={`${locale === 'ar' ? '/' : '/en'}`} className="review-success__link">
                     {isArabic ? '← تسوق المزيد' : '← Shop More'}
                 </a>
 

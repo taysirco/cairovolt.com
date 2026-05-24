@@ -17,7 +17,7 @@ export default function ContactPageClient() {
             <section className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white py-16">
                 <div className="container mx-auto px-4">
                     <nav className="text-sm text-white/70 mb-6">
-                        <Link href={`/${locale}`} className="hover:text-white">
+                        <Link href={`${locale === 'ar' ? '/' : '/en'}`} className="hover:text-white">
                             {tCommon('home')}
                         </Link>
                         <span className="mx-2">/</span>
