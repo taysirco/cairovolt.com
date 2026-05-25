@@ -51,6 +51,7 @@ import { slimmest_100w_laptop_gan_chargers_egypt } from './blog/slimmest-100w-la
 import { why_anker_chargers_disappear_egyptian_markets } from './blog/why-anker-chargers-disappear-egyptian-markets';
 import { xiaomi_redmi_note_13_pro_best_charger_egypt } from './blog/xiaomi-redmi-note-13-pro-best-charger-egypt';
 import { hyperjuice_professional_charger_when_need_it } from './blog/hyperjuice-professional-charger-when-need-it';
+import { protect_charger_egypt_voltage_fluctuation_summer } from './blog/protect-charger-egypt-voltage-fluctuation-summer';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -100,6 +101,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     why_anker_chargers_disappear_egyptian_markets,
     xiaomi_redmi_note_13_pro_best_charger_egypt,
     hyperjuice_professional_charger_when_need_it,
+    protect_charger_egypt_voltage_fluctuation_summer,
 ];
 
 
