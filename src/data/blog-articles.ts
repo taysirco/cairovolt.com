@@ -53,6 +53,7 @@ import { xiaomi_redmi_note_13_pro_best_charger_egypt } from './blog/xiaomi-redmi
 import { hyperjuice_professional_charger_when_need_it } from './blog/hyperjuice-professional-charger-when-need-it';
 import { protect_charger_egypt_voltage_fluctuation_summer } from './blog/protect-charger-egypt-voltage-fluctuation-summer';
 import { usb_c_240w_cable_gaming_laptop_when_need } from './blog/usb-c-240w-cable-gaming-laptop-when-need';
+import { three_meter_charging_cable_bed_living_room } from './blog/3-meter-charging-cable-bed-living-room';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -104,6 +105,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     hyperjuice_professional_charger_when_need_it,
     protect_charger_egypt_voltage_fluctuation_summer,
     usb_c_240w_cable_gaming_laptop_when_need,
+    three_meter_charging_cable_bed_living_room,
 ];
 
 

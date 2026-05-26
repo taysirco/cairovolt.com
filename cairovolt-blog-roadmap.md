@@ -67,8 +67,8 @@
 22. ✅ → slug: `xiaomi-redmi-note-13-pro-best-charger-egypt`
 23. ✅ → slug: `hyperjuice-professional-charger-when-need-it`
 24. ✅ كيف تحمي شاحن المنزل من تذبذب الكهرباء في صيف مصر؟ دليل المهندس → `protect-charger-egypt-voltage-fluctuation-summer`
-25. ⬜ كابل USB-C 240W لشحن لابتوبات الجيمنج — متى تحتاجه فعلاً؟ → `usb-c-240w-cable-gaming-laptop-when-need`
-26. ⬜ كابل بطول 3 متر للسرير والصالة — أفضل اختيارات متينة في مصر 2026 → `3-meter-charging-cable-bed-living-room`
+25. ✅ → slug: `usb-c-240w-cable-gaming-laptop-when-need`
+26. ✅ → slug: `3-meter-charging-cable-bed-living-room`
 27. ⬜ كابل مغناطيسي للسيارة — راحة الاستخدام مقابل بطء الشحن، أيهما يفوز؟ → `magnetic-cable-car-charging-pros-cons`
 28. ⬜ كابل USB-C to Lightning ضد USB-C to USB-C — أيهما أسرع لـ iPhone؟ → `usb-c-lightning-vs-usb-c-usb-c-faster`
 29. ⬜ كيف تحمي كابلات الشحن من حرارة العربية 70°م في صيف القاهرة؟ → `protect-cables-car-summer-heat-cairo`
