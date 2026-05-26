@@ -21,7 +21,8 @@ const brands = [
       { icon: 'battery', name: { en: 'Power Banks', ar: 'باور بانك' }, href: '/anker/power-banks' },
       { icon: 'plug', name: { en: 'Chargers', ar: 'شواحن' }, href: '/anker/chargers' },
       { icon: 'cable', name: { en: 'Cables', ar: 'كابلات' }, href: '/anker/cables' },
-      { icon: 'headphones', name: { en: 'Soundcore', ar: 'سماعات' }, href: '/anker/audio' },
+      // Soundcore is Anker's audio sub-brand — route the pill to the dedicated hub
+      { icon: 'headphones', name: { en: 'Soundcore Audio →', ar: 'ساوند كور →' }, href: '/soundcore' },
     ],
     href: '/anker',
     letter: 'A',
@@ -62,7 +63,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
         </div>
 
         {/* Brand Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-6 lg:mb-8">
           {brands.map((brand) => (
             <div
               key={brand.name}
@@ -119,6 +120,60 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
             </div>
           ))}
         </div>
+
+        {/* Sub-brand spotlight — Soundcore (Anker's audio family) */}
+        <Link
+          href={`${locale === 'ar' ? '' : '/en'}/soundcore`}
+          className="group relative block overflow-hidden rounded-2xl bg-gradient-to-r from-orange-600/20 via-red-600/20 to-pink-700/20 border border-orange-500/20 hover:border-orange-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-900/20"
+        >
+          <div
+            className={`absolute ${isAr ? '-left-8' : '-right-8'} -bottom-16 text-[180px] font-black leading-none opacity-[0.04] select-none pointer-events-none text-orange-400`}
+          >
+            S
+          </div>
+          <div className="relative p-6 lg:p-8 flex flex-col md:flex-row items-center md:items-stretch gap-5 md:gap-8">
+            <div className="flex-1">
+              <div className="inline-flex items-center gap-2 px-3 py-1 mb-3 bg-orange-500/15 border border-orange-500/30 rounded-full text-orange-300 text-xs font-bold">
+                {isAr ? '🎧 العلامة الفرعية للصوتيات من Anker' : '🎧 Anker\'s Audio Sub-Brand'}
+              </div>
+              <h3 className="text-3xl md:text-4xl font-black text-orange-300 font-outfit">
+                Soundcore
+                <span className="text-base font-medium text-slate-400 ms-3">
+                  {isAr ? 'ساوند كور' : 'by Anker'}
+                </span>
+              </h3>
+              <p className="text-base md:text-lg font-medium text-slate-300 mt-2">
+                {isAr
+                  ? '100 مليون مستخدم — Hi-Res Audio معتمد — أكثر من 30 موديل في مصر'
+                  : '100M+ users — Hi-Res Audio certified — 30+ models in Egypt'}
+              </p>
+              <div className="flex flex-wrap gap-2 mt-4">
+                <Link
+                  href={`${locale === 'ar' ? '' : '/en'}/anker/audio`}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
+                >
+                  <SvgIcon name="headphones" className="w-4 h-4 opacity-70" />
+                  <span>{isAr ? 'ايربودز + هيدفون' : 'Earbuds & Headphones'}</span>
+                </Link>
+                <Link
+                  href={`${locale === 'ar' ? '' : '/en'}/anker/speakers`}
+                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
+                >
+                  <SvgIcon name="speaker" className="w-4 h-4 opacity-70" />
+                  <span>{isAr ? 'سبيكرات بلوتوث' : 'Bluetooth Speakers'}</span>
+                </Link>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-orange-200 bg-orange-500/10 border border-orange-500/30 hover:bg-orange-500/20 font-semibold text-sm transition-all duration-300">
+                {isAr ? 'افتح مركز ساوند كور' : 'Open Soundcore Hub'}
+                <span className={`transition-transform duration-300 ${isAr ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`}>
+                  {isAr ? '←' : '→'}
+                </span>
+              </span>
+            </div>
+          </div>
+        </Link>
       </div>
     </section>
   );

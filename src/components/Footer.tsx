@@ -104,6 +104,21 @@ export default function Footer() {
                                     {isRTL ? 'شواحن انكر' : 'Anker Chargers'}
                                 </Link>
                             </li>
+                            <li>
+                                <Link href={getLocalizedHref('/soundcore')} className="hover:text-orange-600 transition-colors font-semibold">
+                                    {isRTL ? '🎧 ساوند كور (Soundcore)' : '🎧 Soundcore by Anker'}
+                                </Link>
+                            </li>
+                            <li className="ps-4 text-xs">
+                                <Link href={getLocalizedHref('/anker/audio')} className="hover:text-orange-600 transition-colors text-gray-500">
+                                    {isRTL ? '— ايربودز ساوند كور' : '— Soundcore Earbuds'}
+                                </Link>
+                            </li>
+                            <li className="ps-4 text-xs">
+                                <Link href={getLocalizedHref('/anker/speakers')} className="hover:text-orange-600 transition-colors text-gray-500">
+                                    {isRTL ? '— سبيكرات ساوند كور' : '— Soundcore Speakers'}
+                                </Link>
+                            </li>
                             <li className="pt-2 border-t border-gray-200 dark:border-gray-700">
                                 <Link href={getLocalizedHref('/joyroom')} className="hover:text-red-600 transition-colors font-medium">
                                     {isRTL ? 'جميع منتجات Joyroom' : 'All Joyroom Products'}

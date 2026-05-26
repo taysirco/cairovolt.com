@@ -226,6 +226,36 @@ export default async function BrandHubPage({ params }: Props) {
                 maxProducts={20}
             />
 
+            {/* Soundcore Hub callout — only on /anker, points users to the audio sub-brand hub */}
+            {brand === 'anker' && (
+                <section className="container mx-auto px-4 pt-12 relative z-20">
+                    <Link
+                        href={getLocalizedHref('/soundcore')}
+                        className="flex flex-wrap items-center justify-between gap-3 p-5 md:p-6 rounded-2xl bg-gradient-to-r from-orange-500 via-red-500 to-pink-600 text-white shadow-xl hover:shadow-2xl hover:scale-[1.01] transition-all"
+                    >
+                        <div className="flex items-center gap-4">
+                            <span className="text-3xl"><SvgIcon name="headphones" className="w-8 h-8" /></span>
+                            <div>
+                                <div className="font-black text-lg md:text-xl">
+                                    {isRTL
+                                        ? 'تبحث عن منتجات الصوتيات؟ تصفّح hub ساوند كور'
+                                        : 'Looking for Audio products? Visit the Soundcore hub'}
+                                </div>
+                                <div className="text-xs md:text-sm text-white/85 mt-1">
+                                    {isRTL
+                                        ? 'ساوند كور (Soundcore) هي العلامة الفرعية للصوتيات من Anker — ايربودز + هيدفون + سبيكرات'
+                                        : 'Soundcore is Anker\'s dedicated audio sub-brand — earbuds, headphones & Bluetooth speakers'}
+                                </div>
+                            </div>
+                        </div>
+                        <span className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-orange-700 rounded-full font-bold text-sm shadow-md">
+                            {isRTL ? 'افتح /soundcore' : 'Open /soundcore'}
+                            <span>{isRTL ? '←' : '→'}</span>
+                        </span>
+                    </Link>
+                </section>
+            )}
+
             {/* Categories Grid (App Style) — Browse by category */}
             <section className="container mx-auto px-4 py-20 -mt-10 relative z-20">
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">

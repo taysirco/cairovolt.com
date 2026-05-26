@@ -27,6 +27,14 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 <h2>ما هي Soundcore؟</h2>
 <p>Soundcore هي العلامة التجارية الصوتية المتخصصة من <strong>انكر (Anker)</strong> — الشركة الأمريكية رقم 1 في الشحن. أُطلقت في 2016 وخدمت أكثر من 100 مليون مستخدم حول العالم. الفلسفة بسيطة: جودة صوت احترافية بسعر معقول، مع ضمان انكر الأصلي.</p>
 
+<div class="hub-callout" style="background:linear-gradient(90deg,#fff7ed,#fef2f2);border:2px solid #fb923c;border-radius:12px;padding:16px 20px;margin:20px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+  <div style="flex:1;min-width:240px">
+    <div style="font-size:13px;font-weight:700;color:#9a3412;margin-bottom:4px">🎧 صفحة ساوند كور المخصصة</div>
+    <div style="font-size:14px;color:#7c2d12">تصفّح <a href="/soundcore" style="color:#c2410c;font-weight:700;text-decoration:underline">مركز ساوند كور الرسمي</a> — كل الايربودز والهيدفون والسبيكرات في صفحة واحدة منظمة بالأسعار والمميزات.</div>
+  </div>
+  <a href="/soundcore" style="background:#c2410c;color:white;padding:10px 18px;border-radius:8px;font-weight:700;text-decoration:none;font-size:14px;white-space:nowrap">افتح /soundcore ←</a>
+</div>
+
 <h2>سماعات Soundcore المتوفرة في مصر (كايرو فولت 2026)</h2>
 <table style="width:100%;border-collapse:collapse;font-size:14px">
 <thead><tr style="background:#1e40af;color:white"><th style="padding:10px;text-align:right">الموديل</th><th style="padding:10px">السعر</th><th style="padding:10px">أبرز المميزات</th><th style="padding:10px">مناسب لـ</th></tr></thead>
@@ -111,6 +119,14 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 
 <h2>What is Soundcore?</h2>
 <p>Soundcore is the dedicated audio brand from <strong>Anker</strong> — the #1 American charging brand. Launched in 2016, serving 100M+ users worldwide. Simple philosophy: premium audio at accessible prices, backed by Anker's quality guarantee.</p>
+
+<div class="hub-callout" style="background:linear-gradient(90deg,#fff7ed,#fef2f2);border:2px solid #fb923c;border-radius:12px;padding:16px 20px;margin:20px 0;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+  <div style="flex:1;min-width:240px">
+    <div style="font-size:13px;font-weight:700;color:#9a3412;margin-bottom:4px">🎧 Dedicated Soundcore Hub</div>
+    <div style="font-size:14px;color:#7c2d12">Browse the <a href="/en/soundcore" style="color:#c2410c;font-weight:700;text-decoration:underline">official Soundcore hub</a> — all earbuds, headphones, and speakers in one organized page with prices and key specs.</div>
+  </div>
+  <a href="/en/soundcore" style="background:#c2410c;color:white;padding:10px 18px;border-radius:8px;font-weight:700;text-decoration:none;font-size:14px;white-space:nowrap">Open /soundcore →</a>
+</div>
 
 <h2>Soundcore P30i — Specs & Egypt Alternative</h2>
 <p><strong>Soundcore P30i</strong> (also searched as <strong>anker p30i</strong>): 28h battery, ANC 40dB, IP55 water/dust resistance, 10-min fast charge = 2h playback. Not currently available in Egypt. <strong>Best available alternative:</strong> Soundcore R50i NC — stronger ANC (42dB vs 40dB), 4-mic AI vs 2-mic, 45h total battery.</p>

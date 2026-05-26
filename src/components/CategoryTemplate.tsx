@@ -219,6 +219,39 @@ export default function CategoryTemplate({
                 />
             )}
 
+            {/* Soundcore Family Banner — shown only for audio/speakers (Soundcore sub-brand) */}
+            {(categorySlug === 'audio' || categorySlug === 'speakers') && brand === 'Anker' && (
+                <div className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-600 text-white">
+                    <div className="container mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3 text-sm md:text-base">
+                        <div className="flex items-center gap-2 font-medium">
+                            <span className="hidden sm:inline">🎧</span>
+                            <span>
+                                {isRTL
+                                    ? 'هذه صفحة من عائلة Soundcore by Anker — العلامة الصوتية الفرعية'
+                                    : 'Part of the Soundcore by Anker family — the audio sub-brand'}
+                            </span>
+                        </div>
+                        <div className="flex items-center gap-3">
+                            <Link
+                                href={`${localePrefix}/soundcore`}
+                                className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-white text-orange-700 rounded-full font-bold text-xs md:text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all"
+                            >
+                                {isRTL ? 'كل منتجات ساوند كور' : 'All Soundcore Products'}
+                                <span>{isRTL ? '←' : '→'}</span>
+                            </Link>
+                            <Link
+                                href={`${localePrefix}/anker/${categorySlug === 'audio' ? 'speakers' : 'audio'}`}
+                                className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 bg-black/20 text-white rounded-full font-medium text-xs hover:bg-black/30 transition-colors"
+                            >
+                                {categorySlug === 'audio'
+                                    ? (isRTL ? '🔊 سبيكرات ساوند كور' : '🔊 Soundcore Speakers')
+                                    : (isRTL ? '🎧 ايربودز ساوند كور' : '🎧 Soundcore Earbuds')}
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            )}
+
             {/* Hero Section */}
             <section className={`bg-gradient-to-br ${brandColorClass} text-white py-8 md:py-16`}>
                 <div className="container mx-auto px-4">

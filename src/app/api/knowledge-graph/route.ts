@@ -94,18 +94,46 @@ export async function GET() {
         const entityId = `${baseUrl}/#entity-${key}`;
         nodeIds.push(entityId);
 
-        graph["@graph"].push({
+        const node: Record<string, unknown> = {
             "@type": entity.type,
             "@id": entityId,
             "name": entity.name,
-            "sameAs": entity.sameAs
-        });
+            "sameAs": entity.sameAs,
+        };
+
+        // Soundcore is a sub-brand of Anker — declare the parent-child link
+        if (key === 'soundcore') {
+            node.parentOrganization = { "@id": `${baseUrl}/#entity-anker` };
+        }
+
+        graph["@graph"].push(node);
     }
+
+    // 2b. Soundcore Hub WebPage node — the canonical /soundcore landing
+    graph["@graph"].push({
+        "@type": "CollectionPage",
+        "@id": `${baseUrl}/soundcore#collectionpage`,
+        "name": "Soundcore by Anker — Audio Sub-Brand Hub",
+        "url": `${baseUrl}/soundcore`,
+        "inLanguage": ["ar-EG", "en-EG"],
+        "about": { "@id": `${baseUrl}/#entity-soundcore` },
+        "isPartOf": { "@id": `${baseUrl}/#website` },
+        "hasPart": [
+            { "@id": `${baseUrl}/anker/audio#collectionpage` },
+            { "@id": `${baseUrl}/anker/speakers#collectionpage` },
+        ],
+    });
 
     // 3. The Products mapping the technologies
     for (const product of staticProducts) {
-        // Link product to its brand entity
-        const brandKey = product.brand.toLowerCase();
+        // Soundcore products (audio + speakers under brand="Anker") get linked to
+        // the soundcore sub-brand entity for precise topical attribution.
+        const isSoundcoreProduct =
+            product.brand.toLowerCase() === 'anker' &&
+            ['audio', 'speakers'].includes(product.categorySlug) &&
+            /soundcore/i.test(product.slug);
+
+        const brandKey = isSoundcoreProduct ? 'soundcore' : product.brand.toLowerCase();
         const brandId = `${baseUrl}/#entity-${brandKey}`;
 
         graph["@graph"].push({
@@ -113,8 +141,12 @@ export async function GET() {
             "@id": `${baseUrl}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}/#product`,
             "name": product.translations.en.name,
             "url": `${baseUrl}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`,
-            // Link product to its brand
-            "brand": { "@id": brandId }
+            // Link product to its brand (Soundcore for audio, Anker for charging)
+            "brand": { "@id": brandId },
+            ...(isSoundcoreProduct && {
+                // Soundcore products are also part of the Soundcore hub collection
+                "isPartOf": { "@id": `${baseUrl}/soundcore#collectionpage` },
+            }),
         });
     }
 

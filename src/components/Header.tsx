@@ -55,6 +55,14 @@ export default function Header() {
         { slug: 'car-chargers', icon: 'car', key: 'carChargers' },
     ];
 
+    // Soundcore audio sub-brand — surfaced separately in the dropdown so users
+    // searching for "soundcore" / "ساوند كور" find a clear entry point.
+    const soundcoreCategories = [
+        { href: '/soundcore', icon: 'headphones', label: { en: 'Soundcore Hub (All Audio)', ar: 'ساوند كور (كل المنتجات الصوتية)' }, primary: true },
+        { href: '/anker/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوند كور' } },
+        { href: '/anker/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوند كور' } },
+    ];
+
     const joyroomCategories = [
         { slug: 'power-banks', icon: 'battery', key: 'powerBanks' },
         { slug: 'audio', icon: 'headphones', key: 'audio' },
@@ -144,6 +152,26 @@ export default function Header() {
                                         <span>{tCat(cat.key)}</span>
                                     </Link>
                                 ))}
+                                {/* Soundcore audio sub-brand — distinct visual section */}
+                                <div className="border-t border-gray-100 dark:border-gray-800 mt-2 pt-2">
+                                    <div className="px-3 py-1.5 text-[10px] font-bold text-orange-600 dark:text-orange-400 uppercase tracking-wider flex items-center gap-1">
+                                        <span>🎧</span> {isRTL ? 'ساوند كور (Anker)' : 'Soundcore by Anker'}
+                                    </div>
+                                    {soundcoreCategories.map((cat) => (
+                                        <Link
+                                            key={cat.href}
+                                            href={getLocalizedHref(cat.href)}
+                                            className={`flex items-center gap-3 px-3 py-2.5 text-sm rounded-lg transition-colors ${
+                                                cat.primary
+                                                    ? 'font-semibold text-orange-700 dark:text-orange-300 hover:bg-orange-50 dark:hover:bg-orange-900/20'
+                                                    : 'text-gray-600 dark:text-gray-300 hover:bg-orange-50 dark:hover:bg-orange-900/20 hover:text-orange-600'
+                                            }`}
+                                        >
+                                            <SvgIcon name={cat.icon} className="w-5 h-5" />
+                                            <span>{isRTL ? cat.label.ar : cat.label.en}</span>
+                                        </Link>
+                                    ))}
+                                </div>
                                 <div className="border-t border-gray-100 dark:border-gray-800 mt-2 pt-2">
                                     <Link
                                         href={getLocalizedHref('/anker')}
@@ -336,6 +364,31 @@ export default function Header() {
                                         >
                                             <SvgIcon name={cat.icon} className="w-5 h-5" />
                                             <span>{tCat(cat.key)}</span>
+                                        </Link>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Soundcore Section (Anker's audio sub-brand) */}
+                            <div>
+                                <h3 className="flex items-center gap-2 text-sm font-bold text-orange-600 mb-3">
+                                    <span className="w-2 h-2 rounded-full bg-orange-600"></span>
+                                    🎧 {isRTL ? 'ساوند كور (Anker)' : 'Soundcore by Anker'}
+                                </h3>
+                                <div className="space-y-1">
+                                    {soundcoreCategories.map((cat) => (
+                                        <Link
+                                            key={cat.href}
+                                            href={getLocalizedHref(cat.href)}
+                                            onClick={() => setMobileMenuOpen(false)}
+                                            className={`flex items-center gap-3 px-3 py-2 rounded-lg ${
+                                                cat.primary
+                                                    ? 'font-semibold text-orange-700 dark:text-orange-300 bg-orange-50 dark:bg-orange-900/20'
+                                                    : 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                                            }`}
+                                        >
+                                            <SvgIcon name={cat.icon} className="w-5 h-5" />
+                                            <span>{isRTL ? cat.label.ar : cat.label.en}</span>
                                         </Link>
                                     ))}
                                 </div>

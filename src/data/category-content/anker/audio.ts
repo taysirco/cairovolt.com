@@ -89,7 +89,9 @@ export const anker_audio_content: CategoryContent = {
       - **ألعاب:** وضع Game Mode بتأخير 60ms فقط — صفر lag
 
       **ليه ساوند كور مش أي سماعة؟**
-      تطبيق Soundcore المجاني بيخصص الصوت لأذنك بالذات (HearID). لو التطبيق مش شاف السماعة = مقلدة 100%. اطلبها الآن — ضمان 18 شهر + توصيل القاهرة خلال 24 ساعة. تسوق كابل انكر (/anker/cables) لشحن السماعة أو باور بانك انكر (/anker/power-banks) لتشغيلها في الرحلات.
+      تطبيق Soundcore المجاني بيخصص الصوت لأذنك بالذات (HearID). لو التطبيق مش شاف السماعة = مقلدة 100%. اطلبها الآن — ضمان 18 شهر + توصيل القاهرة خلال 24 ساعة.
+
+      ⬅️ تصفّح [مركز ساوند كور الكامل](/soundcore) لكل منتجات Soundcore — ايربودز وسبيكرات في صفحة واحدة. أو تسوق [كابل انكر](/anker/cables) لشحن السماعة، [باور بانك انكر](/anker/power-banks) لتشغيلها في الرحلات، أو [سبيكر ساوند كور](/anker/speakers) لصوت أعلى.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'وكيل معتمد (سيريال أصلي)' },
@@ -155,6 +157,8 @@ export const anker_audio_content: CategoryContent = {
 
       **Why Soundcore Over Any Earbuds?**
       The free Soundcore app personalizes sound to YOUR ears (HearID). If the app doesn't detect the earbuds = 100% fake. CairoVolt verified — 18-month warranty + next-day Cairo delivery.
+
+      ⬅️ Visit the full [Soundcore Hub](/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/anker/cables) to charge them, [Anker power banks](/anker/power-banks) for travel, or [Soundcore speakers](/anker/speakers) for louder sound.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Authorized Dealer (Original Serial)' },

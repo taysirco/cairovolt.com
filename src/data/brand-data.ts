@@ -80,8 +80,8 @@ export const brandData: Record<string, BrandData> = {
         categories: [
             { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore 10000 & 20000mAh', ar: 'شحن ذكي و سعات ضخمة' }, href: '/anker/power-banks', icon: 'bolt', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
             { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'GaN Nano 3, 20W, 30W & 45W', ar: 'شواحن GaN Nano وسرعات 45W' }, href: '/anker/wall-chargers', icon: 'plug', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Soundcore Earbuds', ar: 'سماعات Soundcore' }, description: { en: 'Liberty 4, P40i, R50i', ar: 'عزل ضوضاء وصوت Hi-Res' }, href: '/anker/audio', icon: 'headphones', volume: { en: '3,600+ searches/mo', ar: '3,600+ بحث/شهر' } },
-            { title: { en: 'Soundcore Speakers', ar: 'مكبرات صوت (Speakers)' }, description: { en: 'Motion+, Flare 2, Boom 2', ar: 'صوت 360 درجة وحفلات' }, href: '/anker/speakers', icon: 'speaker', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: 'Best Audio', ar: 'صوت نقي' } },
+            { title: { en: 'Soundcore Earbuds', ar: 'سماعات ساوند كور' }, description: { en: 'Liberty 4, P40i, R50i — part of Soundcore family', ar: 'Liberty 4، P40i، R50i — من عائلة Soundcore' }, href: '/anker/audio', icon: 'headphones', volume: { en: '4,400+ searches/mo', ar: '4,400+ بحث/شهر' }, badge: { en: 'Soundcore', ar: 'Soundcore' } },
+            { title: { en: 'Soundcore Speakers', ar: 'سبيكرات ساوند كور' }, description: { en: 'Motion+, Flare 2, Rave 3 — part of Soundcore family', ar: 'Motion+، Flare 2، Rave 3 — من عائلة Soundcore' }, href: '/anker/speakers', icon: 'speaker', volume: { en: '780+ searches/mo', ar: '780+ بحث/شهر' }, badge: { en: 'Soundcore', ar: 'Soundcore' } },
             { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
             { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/anker/car-chargers', icon: 'car', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
         ],
@@ -131,14 +131,14 @@ export const brandData: Record<string, BrandData> = {
         ],
         metadata: {
             en: {
-                title: 'Anker Egypt Official | #1 Charging Brand | Power Banks & Soundcore',
-                description: 'The Official Anker Egypt Destination. Shop Anker GaNPrime Chargers, Prime Power Banks, and Soundcore Liberty 4. 100% Original with 18-Month Warranty.',
-                keywords: 'anker egypt, anker power bank, anker soundcore, anker charger, anker earbuds, soundcore r50i, anker r50i nc, soundcore egypt, anker verify, anker cable, soundcore liberty 4 pro, anker liberty 4 nc, anker p40i, soundcore space one',
+                title: 'Anker Egypt Official | #1 Charging Brand | GaNPrime Chargers + Power Banks',
+                description: 'The Official Anker Egypt destination for charging. Shop Anker GaNPrime chargers, PowerCore power banks, PowerLine cables, and PowerDrive car chargers. 100% Original with 18-month warranty. For Soundcore audio, see our dedicated /soundcore hub.',
+                keywords: 'anker egypt, anker, anker power bank, anker charger, anker cable, anker car charger, anker verify, anker gan, anker powercore, anker powerline, anker prime, anker nano, anker wholesale egypt',
             },
             ar: {
-                title: 'Anker Egypt | انكر مصر - الوكيل الرسمي (باور بانك & Soundcore)',
-                description: 'موقع انكر مصر الرسمي. تسوق منتجات Anker الأصلية: باور بانك Prime، شواحن Nano، وسماعات Soundcore. ضمان الوكيل 18 شهر استبدال فوري.',
-                keywords: 'انكر مصر, أنكر, توكيل انكر, موقع انكر, باور بانك انكر, سماعة انكر, ايربودز انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر',
+                title: 'Anker Egypt | انكر مصر — الوكيل الرسمي للشواحن والباور بانك',
+                description: 'موقع انكر مصر الرسمي للشحن. تسوق شواحن Anker GaNPrime، باور بانك PowerCore، كابلات PowerLine، وشواحن السيارة. ضمان الوكيل 18 شهر استبدال فوري. لمنتجات الصوتيات (ساوند كور) تصفّح /soundcore.',
+                keywords: 'انكر مصر, أنكر, انكر, توكيل انكر, موقع انكر, وكيل انكر, باور بانك انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
             }
         },
         article: {

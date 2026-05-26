@@ -90,3 +90,6 @@ cairovolt-authenticator.zip
 analysis_data/
 update-products-pages
 product-page-new
+
+# Office/Excel temporary files
+~$*

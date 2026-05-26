@@ -59,6 +59,36 @@ export const contentGraph: ContentMap = {
         },
         categories: [
             {
+                // Soundcore hub — Anker's audio sub-brand. Modeled as a navigational
+                // category-level node so getInternalLinksForPage('/soundcore') resolves
+                // and the sitemap/related-links helpers see it. URL is top-level
+                // (/soundcore), not /anker/soundcore — matches Anker's real-world IA.
+                topic: 'Soundcore by Anker — Audio Sub-Brand Hub',
+                topicAr: 'ساوند كور — مركز العلامة الصوتية الفرعية',
+                url: '/soundcore',
+                pageType: 'navigational',
+                supportingContent: [
+                    {
+                        topic: 'What is Soundcore vs Anker?',
+                        topicAr: 'الفرق بين ساوند كور وانكر',
+                        type: 'educational',
+                        alternateNames: ['soundcore vs anker', 'soundcore explained', 'is soundcore anker'],
+                        alternateNamesAr: ['ساوند كور ام انكر', 'ايه الفرق بين ساوند كور وانكر'],
+                    },
+                    {
+                        topic: 'Soundcore Earbuds vs Speakers — Which to Buy',
+                        topicAr: 'ايربودز ساوند كور ام سبيكر — أيهما تشتري',
+                        type: 'buying_guide',
+                        alternateNames: ['soundcore earbuds or speaker', 'choose soundcore product'],
+                        alternateNamesAr: ['اختار ساوند كور', 'سماعة ولا سبيكر ساوند كور'],
+                    },
+                ],
+                relatedEntities: ['Soundcore', 'Anker', 'Hi-Res Audio', 'BassUp', 'HearID', 'PartyCast', 'LDAC'],
+                contentPriority: { ar: 2160, en: 19380 },
+                // Hub fans out to its two children + the parent brand for entity clarity
+                internalLinks: ['/anker/audio', '/anker/speakers', '/anker'],
+            },
+            {
                 topic: 'Power Banks',
                 topicAr: 'باور بانك',
                 url: '/anker/power-banks',
@@ -130,8 +160,8 @@ export const contentGraph: ContentMap = {
                 internalLinks: ['/anker/power-banks', '/anker/cables'],
             },
             {
-                topic: 'Earbuds & Audio',
-                topicAr: 'سماعات وايربودز',
+                topic: 'Soundcore Earbuds & Headphones',
+                topicAr: 'سماعات ساوند كور (ايربودز + هيدفون)',
                 url: '/anker/audio',
                 pageType: 'commercial',
                 supportingContent: [
@@ -157,9 +187,42 @@ export const contentGraph: ContentMap = {
                         alternateNamesAr: ['سماعات عزل ضوضاء', 'تقنية ANC'],
                     },
                 ],
-                relatedEntities: ['Soundcore', 'ANC', 'Bluetooth 5.3', 'IPX5', 'Hi-Res Audio'],
+                relatedEntities: ['Soundcore', 'ANC', 'Bluetooth 5.3', 'IPX5', 'Hi-Res Audio', 'BassUp', 'LDAC'],
                 contentPriority: { ar: 3200, en: 590 },
-                internalLinks: ['/anker/speakers', '/joyroom/audio'],
+                // Soundcore hub is the canonical parent — listed first for link weight
+                internalLinks: ['/soundcore', '/anker/speakers', '/joyroom/audio'],
+            },
+            {
+                topic: 'Soundcore Bluetooth Speakers',
+                topicAr: 'مكبرات صوت ساوند كور',
+                url: '/anker/speakers',
+                pageType: 'commercial',
+                supportingContent: [
+                    {
+                        topic: 'Soundcore Motion+ vs JBL Flip Comparison',
+                        topicAr: 'مقارنة Motion+ ضد JBL Flip',
+                        type: 'comparison',
+                        alternateNames: ['motion+ vs jbl', 'soundcore vs jbl speaker'],
+                        alternateNamesAr: ['موشن بلس ضد جي بي ال', 'ساوند كور ام جي بي ال'],
+                    },
+                    {
+                        topic: 'Best Waterproof Speaker for Pool & Beach',
+                        topicAr: 'أفضل سبيكر مقاوم للماء للمسبح والشاطئ',
+                        type: 'buying_guide',
+                        alternateNames: ['waterproof speaker', 'ipx7 speaker beach'],
+                        alternateNamesAr: ['سبيكر ضد الماء', 'مكبر صوت للساحل'],
+                    },
+                    {
+                        topic: 'PartyCast Explained: Connecting 100 Speakers',
+                        topicAr: 'شرح PartyCast: ربط 100 سبيكر معاً',
+                        type: 'educational',
+                        alternateNames: ['partycast', 'connect multiple bluetooth speakers'],
+                        alternateNamesAr: ['ربط سبيكرات', 'partycast بالعربي'],
+                    },
+                ],
+                relatedEntities: ['Soundcore', 'IPX7', 'Hi-Res Audio', 'BassUp', 'PartyCast', 'Bluetooth 5.3'],
+                contentPriority: { ar: 780, en: 720 },
+                internalLinks: ['/soundcore', '/anker/audio', '/anker/power-banks'],
             },
             {
                 topic: 'Cables',
@@ -244,7 +307,8 @@ export const contentGraph: ContentMap = {
                 ],
                 relatedEntities: ['TWS', 'ENC', 'Gaming Mode', 'Bluetooth 5.3', 'Touch Controls'],
                 contentPriority: { ar: 1800, en: 210 },
-                internalLinks: ['/joyroom/cables', '/anker/audio'],
+                // Cross-link to /soundcore (premium audio brand) and /anker/audio (alternative)
+                internalLinks: ['/joyroom/cables', '/anker/audio', '/soundcore'],
             },
             {
                 topic: 'Car Accessories',

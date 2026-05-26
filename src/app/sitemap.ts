@@ -91,6 +91,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         addBilingual(routes, `/${toLower(brandId)}`, 0.9, 'weekly');
     });
 
+    // ── Soundcore Hub (Anker audio sub-brand) ──
+    // Standalone landing for the "soundcore" / "ساوند كور" keyword cluster (~20k searches/mo).
+    // Lives outside brandData because Soundcore products are recorded under brand="Anker".
+    addBilingual(routes, '/soundcore', 0.95, 'weekly', new Date('2026-05-26'));
+
     // ── Category Pages ──
     Object.keys(categoryContent).forEach(brandId => {
         const brandSlug = toLower(brandId);

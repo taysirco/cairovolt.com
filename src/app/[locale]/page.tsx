@@ -95,16 +95,19 @@ export default function Home() {
   const locale = useLocale();
   const isRTL = locale === 'ar';
 
-  // Categories for CollectionPageSchema — preserve SEO structured data
+  // Categories for CollectionPageSchema — preserve SEO structured data.
+  // Soundcore added as a sub-brand hub so Google sees it as a top-level destination.
   const schemaCategories = isRTL
     ? [
       { title: 'باور بانك', href: '/anker/power-banks' },
+      { title: 'ساوند كور (Soundcore)', href: '/soundcore' },
       { title: 'سماعات', href: '/joyroom/audio' },
       { title: 'شواحن', href: '/anker/wall-chargers' },
       { title: 'كابلات', href: '/anker/cables' },
     ]
     : [
       { title: 'Power Banks', href: '/en/anker/power-banks' },
+      { title: 'Soundcore Audio', href: '/en/soundcore' },
       { title: 'Earbuds', href: '/en/joyroom/audio' },
       { title: 'Chargers', href: '/en/anker/wall-chargers' },
       { title: 'Cables', href: '/en/anker/cables' },
