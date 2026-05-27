@@ -1,7 +1,7 @@
 /**
  * Soundcore Hub — Content data for /soundcore landing page.
  * Soundcore is Anker's audio sub-brand (launched 2016). This hub aggregates
- * the two product lines: TWS/headphones (/anker/audio) and speakers (/anker/speakers).
+ * the two product lines: TWS/headphones (/soundcore/audio) and speakers (/soundcore/speakers).
  *
  * Why a dedicated hub?
  * The keyword "soundcore" (14,800/mo) and "ساوند كور" (1,900/mo) refer specifically
@@ -67,7 +67,7 @@ export const soundcoreHub = {
      */
     categories: [
         {
-            href: '/anker/audio',
+            href: '/soundcore/audio',
             title: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات ساوند كور (ايربودز + هيدفون)' },
             description: {
                 en: 'TWS earbuds, neckbands & over-ear headphones. ANC, Hi-Res, LDAC, BassUp.',
@@ -81,7 +81,7 @@ export const soundcoreHub = {
             searchVolume: { en: '~9,000 searches/mo', ar: '~9,000 بحث/شهر' },
         },
         {
-            href: '/anker/speakers',
+            href: '/soundcore/speakers',
             title: { en: 'Soundcore Bluetooth Speakers', ar: 'مكبرات صوت ساوند كور (Speakers)' },
             description: {
                 en: '360° Hi-Res sound, IPX7 waterproof, PartyCast, LED light shows.',
@@ -189,7 +189,7 @@ export const soundcoreHub = {
             },
             {
                 question: 'إيه الفرق بين سماعات ساوند كور ومكبرات صوت ساوند كور؟',
-                answer: 'كل منتجات ساوند كور بتنقسم لعائلتين: (1) السماعات الشخصية (ايربودز TWS، نيكباند، هيدفون) في /anker/audio — بداية السعر 699 جنيه (P20i)، نهاية الفلاجشيب 5,830 جنيه (Liberty 4 Pro). (2) مكبرات الصوت البلوتوث (Speakers) في /anker/speakers — بداية 1,249 جنيه (Select 4 Go)، فلاجشيب 9,450 جنيه (Rave 3 بقوة 200W).',
+                answer: 'كل منتجات ساوند كور بتنقسم لعائلتين: (1) السماعات الشخصية (ايربودز TWS، نيكباند، هيدفون) في /soundcore/audio — بداية السعر 699 جنيه (P20i)، نهاية الفلاجشيب 5,830 جنيه (Liberty 4 Pro). (2) مكبرات الصوت البلوتوث (Speakers) في /soundcore/speakers — بداية 1,249 جنيه (Select 4 Go)، فلاجشيب 9,450 جنيه (Rave 3 بقوة 200W).',
             },
             {
                 question: 'هل ساوند كور أفضل من JBL أو AirPods؟',
@@ -219,7 +219,7 @@ export const soundcoreHub = {
             },
             {
                 question: 'What\'s the difference between Soundcore earbuds and Soundcore speakers?',
-                answer: 'Soundcore splits into two families: (1) Personal audio — TWS earbuds, neckbands, headphones at /anker/audio, priced EGP 699 (P20i) to 5,830 (Liberty 4 Pro). (2) Bluetooth speakers at /anker/speakers, priced EGP 1,249 (Select 4 Go) to 9,450 (Rave 3, 200W).',
+                answer: 'Soundcore splits into two families: (1) Personal audio — TWS earbuds, neckbands, headphones at /soundcore/audio, priced EGP 699 (P20i) to 5,830 (Liberty 4 Pro). (2) Bluetooth speakers at /soundcore/speakers, priced EGP 1,249 (Select 4 Go) to 9,450 (Rave 3, 200W).',
             },
             {
                 question: 'Is Soundcore better than JBL or AirPods?',

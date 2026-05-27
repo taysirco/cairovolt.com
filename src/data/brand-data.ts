@@ -80,10 +80,10 @@ export const brandData: Record<string, BrandData> = {
         categories: [
             { title: { en: 'Anker Power Banks', ar: 'باور بانك انكر' }, description: { en: 'PowerCore 10000 & 20000mAh', ar: 'شحن ذكي و سعات ضخمة' }, href: '/anker/power-banks', icon: 'bolt', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
             { title: { en: 'Anker Chargers', ar: 'شواحن انكر (Wall)' }, description: { en: 'GaN Nano 3, 20W, 30W & 45W', ar: 'شواحن GaN Nano وسرعات 45W' }, href: '/anker/wall-chargers', icon: 'plug', volume: { en: '2,900+ searches/mo', ar: '2,900+ بحث/شهر' } },
-            { title: { en: 'Soundcore Earbuds', ar: 'سماعات ساوند كور' }, description: { en: 'Liberty 4, P40i, R50i — part of Soundcore family', ar: 'Liberty 4، P40i، R50i — من عائلة Soundcore' }, href: '/anker/audio', icon: 'headphones', volume: { en: '4,400+ searches/mo', ar: '4,400+ بحث/شهر' }, badge: { en: 'Soundcore', ar: 'Soundcore' } },
-            { title: { en: 'Soundcore Speakers', ar: 'سبيكرات ساوند كور' }, description: { en: 'Motion+, Flare 2, Rave 3 — part of Soundcore family', ar: 'Motion+، Flare 2، Rave 3 — من عائلة Soundcore' }, href: '/anker/speakers', icon: 'speaker', volume: { en: '780+ searches/mo', ar: '780+ بحث/شهر' }, badge: { en: 'Soundcore', ar: 'Soundcore' } },
             { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
             { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/anker/car-chargers', icon: 'car', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
+            // Soundcore audio sub-brand cross-link — products migrated to /soundcore/*
+            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوند كور (للصوتيات)' }, description: { en: 'Earbuds + Speakers under Anker\'s dedicated audio brand', ar: 'ايربودز + سبيكرات تحت العلامة الصوتية الفرعية من Anker' }, href: '/soundcore', icon: 'headphones', volume: { en: '20K+ searches/mo', ar: '20K+ بحث/شهر' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
         ],
         whySection: {
             title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا Anker هي الأفضل عالمياً؟' },
@@ -188,8 +188,8 @@ export const brandData: Record<string, BrandData> = {
             ]
         },
         quickAnswer: {
-            en: 'Anker is the world\'s #1 charging brand, available in Egypt via CairoVolt with 18-month replacement warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 375), Soundcore P40i earbuds (EGP 1,650). All products are 100% original with GaN technology.',
-            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن، متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، سماعات P40i (1,650 ج). كل المنتجات أصلية 100% بتقنية GaN.'
+            en: 'Anker is the world\'s #1 charging brand (power banks, GaN chargers, cables, car chargers) — available in Egypt via CairoVolt with 18-month warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 375), 100W laptop charger. For Anker\'s audio sub-brand Soundcore (earbuds + Bluetooth speakers), visit /soundcore.',
+            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن (باور بانك، شواحن GaN، كابلات، شواحن سيارة) — متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، شاحن لابتوب 100W. للعلامة الفرعية للصوتيات من Anker (ساوند كور — ايربودز وسبيكرات بلوتوث) تصفّح /soundcore.'
         }
     },
     joyroom: {

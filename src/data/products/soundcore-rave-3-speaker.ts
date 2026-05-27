@@ -2,7 +2,7 @@
 export const soundcore_rave_3_speaker = {
     slug: "soundcore-rave-3-speaker",
     sku: "ANK-SP-RAVE3",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "speakers",
     gtin: "",
     gtin13: "",

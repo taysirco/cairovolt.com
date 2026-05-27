@@ -1,8 +1,55 @@
 # Soundcore Targeting Strategy — Architectural Rationale
 
-**Last updated:** 2026-05-26
+**Last updated:** 2026-05-27
 **Owner:** SEO / Content
 **Scope:** How CairoVolt structures URL targeting + anchor text for the "Soundcore" keyword cluster (Anker's audio sub-brand).
+
+---
+
+## 🚀 v3 Update — Full Migration Complete (2026-05-27)
+
+> **What changed:** Phase B migration executed. Soundcore is no longer hosted under `/anker/audio` + `/anker/speakers` — it now has its own complete URL tree at `/soundcore/audio` + `/soundcore/speakers` with all 31 products migrated.
+>
+> **Why:** Section 7 of this doc originally recommended Option B as the proper long-term architecture, but the initial deployment (v1-v2) implemented Option A as a quick win. v3 completes the architecture by migrating products' `brand` field from `"Anker"` to `"Soundcore"`, moving category-content files, and adding 301 redirects to preserve link equity.
+
+### v3 — Live URL Structure
+
+```
+/soundcore                                  ← Brand hub (custom route)
+├── /soundcore/audio                        ← Earbuds & headphones category
+│   ├── /soundcore/audio/anker-soundcore-r50i
+│   ├── /soundcore/audio/soundcore-liberty-4-nc
+│   └── ... (27 products)
+└── /soundcore/speakers                     ← Bluetooth speakers category
+    ├── /soundcore/speakers/anker-soundcore-motion-plus
+    └── ... (4 products)
+```
+
+### v3 — Migration Effects
+
+| Aspect | Before (v1-v2) | After (v3) |
+|---|---|---|
+| Product `brand` field | `"Anker"` | `"Soundcore"` (31 products) |
+| Product URL | `/anker/audio/{slug}` | `/soundcore/audio/{slug}` |
+| Category-content file | `category-content/anker/audio.ts` | `category-content/soundcore/audio.ts` |
+| Old URL → new URL | n/a | 301 redirect (preserves ~95% link equity) |
+| Anker brand page (`/anker`) | Listed Soundcore Earbuds + Speakers as categories | Only 4 charging categories + 1 cross-link card to `/soundcore` |
+| ProductSchema `brand` | `"Anker"` | `"Soundcore"` (better entity precision) |
+| Breadcrumb hierarchy | Home → Anker → Audio → R50i | Home → Soundcore → Audio → R50i |
+
+### v3 — 301 Redirect Coverage
+
+The middleware (`src/middleware.ts`) intercepts the legacy paths and 301-redirects to the new ones:
+
+```
+GET /anker/audio                  → 301 → /soundcore/audio
+GET /anker/audio/{slug}           → 301 → /soundcore/audio/{slug}
+GET /anker/speakers               → 301 → /soundcore/speakers
+GET /anker/speakers/{slug}        → 301 → /soundcore/speakers/{slug}
+GET /en/anker/{audio|speakers}/*  → 301 → /en/soundcore/{audio|speakers}/*
+```
+
+**The historical Option A vs Option B analysis below remains useful as decision context.** Specific URL paths in Sections 1-10 below reflect the original Option A state and may say `/anker/audio` — read them as historical narrative. The current live structure is the v3 one shown above.
 
 ---
 

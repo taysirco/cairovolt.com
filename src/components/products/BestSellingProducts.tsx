@@ -14,9 +14,7 @@ interface BestSellingProductsProps {
 }
 
 /**
- * Curated list of top-selling Anker product slugs, ordered by sales rank.
- * This is manually curated to reflect actual best-sellers and ensure a good mix
- * across categories (power banks, chargers, cables, audio).
+ * Curated list of top-selling Anker product slugs (charging only — post-Soundcore migration).
  */
 const ankerBestSellers: string[] = [
     // Power Banks — highest volume
@@ -29,23 +27,39 @@ const ankerBestSellers: string[] = [
     'anker-powerport-20w',
     'anker-powerport-25w',
     'anker-nano-45w',
-    // Audio — popular gift items
-    'anker-soundcore-r50i',
-    'anker-soundcore-life-p2i',
-    'anker-soundcore-r50i-nc',
-    'anker-soundcore-k20i',
     // Cables — everyday essentials
     'anker-powerline-usb-c-lightning',
     'anker-a8050-usb-c-cable',
     // Car Chargers
     'anker-a2732-charger-35w',
+    'anker-521-powerhouse',
+];
+
+/**
+ * Curated list of top-selling Soundcore products (Anker's audio sub-brand).
+ * Mix of earbuds + speakers — driven by R50i, R50i NC, Liberty family.
+ */
+const soundcoreBestSellers: string[] = [
+    // Earbuds — top sellers
+    'anker-soundcore-r50i',
+    'anker-soundcore-r50i-nc',
+    'anker-soundcore-life-p2i',
+    'anker-soundcore-k20i',
+    'soundcore-p20i-earbuds',
+    'soundcore-liberty-4-nc',
+    'soundcore-liberty-5',
+    // Speakers — flagship
+    'anker-soundcore-motion-plus',
+    'anker-soundcore-flare-2',
+    'soundcore-rave-3-speaker',
+    'soundcore-select-4-go-speaker',
 ];
 
 function getBestSellingProducts(brandSlug: string, max: number): StaticProduct[] {
-    if (brandSlug === 'anker') {
-        // Use curated order — match against product brand field 'Anker'
+    if (brandSlug === 'anker' || brandSlug === 'soundcore') {
+        const curatedList = brandSlug === 'anker' ? ankerBestSellers : soundcoreBestSellers;
         const ordered: StaticProduct[] = [];
-        for (const slug of ankerBestSellers) {
+        for (const slug of curatedList) {
             const product = staticProducts.find(
                 p => p.slug === slug && p.brand.toLowerCase() === brandSlug && p.status === 'active'
             );
@@ -73,6 +87,7 @@ export default function BestSellingProducts({
 }: BestSellingProductsProps) {
     const isRTL = locale === 'ar';
     const isAnker = brandSlug === 'anker';
+    const isSoundcore = brandSlug === 'soundcore';
     const products = getBestSellingProducts(brandSlug, maxProducts);
 
     if (products.length === 0) return null;
@@ -117,7 +132,11 @@ export default function BestSellingProducts({
                             ? 'المنتجات الأعلى تقييماً والأكثر طلباً من عملائنا — أصلية 100% بضمان الوكيل'
                             : 'Top-rated and most requested by our customers — 100% original with official warranty'}
                     </p>
-                    <div className={`h-1.5 w-24 mx-auto mt-4 rounded-full ${isAnker ? 'bg-gradient-to-r from-blue-600 to-cyan-500' : 'bg-gradient-to-r from-red-600 to-orange-500'}`}></div>
+                    <div className={`h-1.5 w-24 mx-auto mt-4 rounded-full ${
+                        isSoundcore ? 'bg-gradient-to-r from-orange-600 to-pink-500' :
+                        isAnker ? 'bg-gradient-to-r from-blue-600 to-cyan-500' :
+                        'bg-gradient-to-r from-red-600 to-orange-500'
+                    }`}></div>
                 </div>
 
                 {/* Products Grid */}
@@ -209,7 +228,11 @@ export default function BestSellingProducts({
                                     {/* Price Row */}
                                     <div className="flex items-end justify-between gap-1">
                                         <div>
-                                            <span className={`text-base md:text-lg font-black ${isAnker ? 'text-blue-600 dark:text-blue-400' : 'text-red-600 dark:text-red-400'}`}>
+                                            <span className={`text-base md:text-lg font-black ${
+                                                isSoundcore ? 'text-orange-600 dark:text-orange-400' :
+                                                isAnker ? 'text-blue-600 dark:text-blue-400' :
+                                                'text-red-600 dark:text-red-400'
+                                            }`}>
                                                 {product.price.toLocaleString()}
                                             </span>
                                             <span className="text-[10px] text-gray-600 dark:text-gray-400 font-medium mr-1 ml-0.5">
@@ -221,7 +244,11 @@ export default function BestSellingProducts({
                                                 </span>
                                             )}
                                         </div>
-                                        <span className={`w-7 h-7 rounded-full flex items-center justify-center text-white text-xs shadow-sm transition-transform group-hover:scale-110 ${isAnker ? 'bg-gradient-to-br from-blue-500 to-blue-600' : 'bg-gradient-to-br from-red-500 to-red-600'}`}>
+                                        <span className={`w-7 h-7 rounded-full flex items-center justify-center text-white text-xs shadow-sm transition-transform group-hover:scale-110 ${
+                                            isSoundcore ? 'bg-gradient-to-br from-orange-500 to-pink-500' :
+                                            isAnker ? 'bg-gradient-to-br from-blue-500 to-blue-600' :
+                                            'bg-gradient-to-br from-red-500 to-red-600'
+                                        }`}>
                                             {isRTL ? '←' : '→'}
                                         </span>
                                     </div>

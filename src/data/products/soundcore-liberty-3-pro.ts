@@ -2,7 +2,7 @@
 export const soundcore_liberty_3_pro = {
     slug: "soundcore-liberty-3-pro",
     sku: "ANK-AU-LIB3P",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",
     gtin13: "",

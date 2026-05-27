@@ -157,7 +157,7 @@
 | 2. Chargers | `best-iphone-17-charger-egypt` · `best-samsung-s26-charger` · `gan-charger-technology-guide-egypt` · `the-hidden-truth-about-gan-chargers-ahmed-medhat` · `best-car-charger-egypt-2026` |
 | 3. Cables | `usb-c-cable-guide-egypt-2026` · `why-charging-cable-breaks-fast-causes-fixes` |
 | 4. Authenticity | `how-to-identify-original-anker` · `how-to-spot-fake-chargers-7-tests` · `original-vs-fake-apple-charger-egypt` · `do-fake-chargers-damage-iphone-battery` |
-| 5. Audio | `best-bluetooth-earbuds-egypt-2026` · `soundcore-models-guide-egypt-2026` |
+| 5. Audio (🎧 Soundcore family — الهب `/soundcore`) | `best-bluetooth-earbuds-egypt-2026` · `soundcore-models-guide-egypt-2026` — مقالات هذا العنقود يجب أن تربط بـ [`/soundcore`](/soundcore) في النص للهب، وبـ `/soundcore/audio` أو `/soundcore/speakers` للمنتجات. راجع [`SOUNDCORE-STRATEGY.md`](SOUNDCORE-STRATEGY.md) + [`cairovolt-blog.md`](cairovolt-blog.md) §10. |
 
 ---
 
@@ -169,3 +169,4 @@
 | [`content-laws.md`](content-laws.md) | القوانين العابرة (i18n + Bilingual Parity + Voice + Authority + Anti-AI) |
 | [`voice.md`](voice.md) | المرجع الكنوني لـ Voice & Tone |
 | [`cairovolt_content_blueprint.md`](cairovolt_content_blueprint.md) | E-E-A-T + Burstiness + AEO + NLP المصري |
+| [`SOUNDCORE-STRATEGY.md`](SOUNDCORE-STRATEGY.md) | بنية `/soundcore` (هب العلامة الفرعية للصوتيات) + قواعد توجيه روابط Soundcore داخل المقالات |

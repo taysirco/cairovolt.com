@@ -1,8 +1,8 @@
 import type { CategoryContent } from '../_types';
 
-export const anker_audio_content: CategoryContent = {
-            brand: 'Anker',
-            brandColor: 'blue',
+export const soundcore_audio_content: CategoryContent = {
+            brand: 'Soundcore',
+            brandColor: 'orange',
             categoryName: 'Audio & Earbuds',
             // Soundcore content data
             soundcoreData: {
@@ -53,7 +53,7 @@ export const anker_audio_content: CategoryContent = {
                         { question: 'هل سماعات Soundcore تدعم عزل الضوضاء ANC؟', answer: 'R50i NC و P40i عندهم ANC نشط بيحجب 98% من الضوضاء. باقي الموديلات (R50i، K20i، P20i) فيها عزل سلبي بس. لو بتركب مترو أو ميكروباص كتير، ANC يستاهل الفرق.' },
                         { question: 'أيهما أفضل: سماعات Soundcore أم AirPods؟', answer: 'AirPods أفضل لتكامل Apple ecosystem. Soundcore بتقدم باس أقوى + Hi-Res Audio + تطبيق تخصيص EQ — بأقل من نص السعر. للميزانية الذكية Soundcore بتكسب.' },
                         { question: 'هل سماعات Soundcore بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — كل موديلات Soundcore بتدعم Bluetooth 5.3 فبتشتغل مع أي موبايل (ايفون، سامسونج، شاومي، أوبو). اختبار CairoVolt: الاقتران تم في 3 ثواني مع ايفون 17 Pro Max. التطبيق متاح مجاناً على iOS و Android.' },
-                        { question: 'كام سنة بتعيش سماعات Soundcore؟', answer: 'بالاستخدام اليومي المعتدل: 2-3 سنين. البطارية بتحتفظ بـ 80% من سعتها بعد 500 دورة شحن. الضمان من CairoVolt يغطي 18 شهر استبدال فوري. تسوق [كابل انكر](/anker/cables) لشحن العلبة بسرعة أو [سبيكر انكر](/anker/speakers) لصوت أقوى.' }
+                        { question: 'كام سنة بتعيش سماعات Soundcore؟', answer: 'بالاستخدام اليومي المعتدل: 2-3 سنين. البطارية بتحتفظ بـ 80% من سعتها بعد 500 دورة شحن. الضمان من CairoVolt يغطي 18 شهر استبدال فوري. تسوق [كابل انكر](/anker/cables) لشحن العلبة بسرعة أو [سبيكر انكر](/soundcore/speakers) لصوت أقوى.' }
                     ],
                     en: [
                         { question: 'What is the difference between Soundcore R50i, K20i, and R50i NC?', answer: 'See our buying guide above for the full comparison. Quick summary: K20i for comfort, R50i for best sound value, R50i NC if you need active noise cancellation.' },
@@ -91,7 +91,7 @@ export const anker_audio_content: CategoryContent = {
       **ليه ساوند كور مش أي سماعة؟**
       تطبيق Soundcore المجاني بيخصص الصوت لأذنك بالذات (HearID). لو التطبيق مش شاف السماعة = مقلدة 100%. اطلبها الآن — ضمان 18 شهر + توصيل القاهرة خلال 24 ساعة.
 
-      ⬅️ تصفّح [مركز ساوند كور الكامل](/soundcore) لكل منتجات Soundcore — ايربودز وسبيكرات في صفحة واحدة. أو تسوق [كابل انكر](/anker/cables) لشحن السماعة، [باور بانك انكر](/anker/power-banks) لتشغيلها في الرحلات، أو [سبيكر ساوند كور](/anker/speakers) لصوت أعلى.
+      ⬅️ تصفّح [مركز ساوند كور الكامل](/soundcore) لكل منتجات Soundcore — ايربودز وسبيكرات في صفحة واحدة. أو تسوق [كابل انكر](/anker/cables) لشحن السماعة، [باور بانك انكر](/anker/power-banks) لتشغيلها في الرحلات، أو [سبيكر ساوند كور](/soundcore/speakers) لصوت أعلى.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'وكيل معتمد (سيريال أصلي)' },
@@ -158,7 +158,7 @@ export const anker_audio_content: CategoryContent = {
       **Why Soundcore Over Any Earbuds?**
       The free Soundcore app personalizes sound to YOUR ears (HearID). If the app doesn't detect the earbuds = 100% fake. CairoVolt verified — 18-month warranty + next-day Cairo delivery.
 
-      ⬅️ Visit the full [Soundcore Hub](/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/anker/cables) to charge them, [Anker power banks](/anker/power-banks) for travel, or [Soundcore speakers](/anker/speakers) for louder sound.
+      ⬅️ Visit the full [Soundcore Hub](/soundcore) to browse all Soundcore products — earbuds and speakers in one place. Also check [Anker cables](/anker/cables) to charge them, [Anker power banks](/anker/power-banks) for travel, or [Soundcore speakers](/soundcore/speakers) for louder sound.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Authorized Dealer (Original Serial)' },

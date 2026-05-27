@@ -312,7 +312,13 @@ export function getEntitiesForBrand(brand: string): string[] {
     const brandLower = brand.toLowerCase();
 
     if (brandLower === 'anker') {
-        return [...base, 'anker', 'soundcore', 'cairovolt', 'usbC', 'usbPD', 'gan', 'lithiumIon', 'newCairo', 'damietta'];
+        // Anker post-migration = charging products only (no Soundcore audio)
+        return [...base, 'anker', 'cairovolt', 'usbC', 'usbPD', 'gan', 'lithiumIon', 'newCairo', 'damietta'];
+    }
+    if (brandLower === 'soundcore') {
+        // Soundcore = Anker's audio sub-brand (earbuds + speakers)
+        // 'anker' included as parent entity for relationship signaling
+        return [...base, 'soundcore', 'anker', 'cairovolt', 'bluetooth', 'earbuds', 'speaker', 'anc'];
     }
     if (brandLower === 'joyroom') {
         return [...base, 'joyroom', 'cairovolt', 'usbC', 'bluetooth'];

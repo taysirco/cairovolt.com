@@ -86,7 +86,7 @@ export const contentGraph: ContentMap = {
                 relatedEntities: ['Soundcore', 'Anker', 'Hi-Res Audio', 'BassUp', 'HearID', 'PartyCast', 'LDAC'],
                 contentPriority: { ar: 2160, en: 19380 },
                 // Hub fans out to its two children + the parent brand for entity clarity
-                internalLinks: ['/anker/audio', '/anker/speakers', '/anker'],
+                internalLinks: ['/soundcore/audio', '/soundcore/speakers', '/anker'],
             },
             {
                 topic: 'Power Banks',
@@ -162,7 +162,7 @@ export const contentGraph: ContentMap = {
             {
                 topic: 'Soundcore Earbuds & Headphones',
                 topicAr: 'سماعات ساوند كور (ايربودز + هيدفون)',
-                url: '/anker/audio',
+                url: '/soundcore/audio',
                 pageType: 'commercial',
                 supportingContent: [
                     {
@@ -190,12 +190,12 @@ export const contentGraph: ContentMap = {
                 relatedEntities: ['Soundcore', 'ANC', 'Bluetooth 5.3', 'IPX5', 'Hi-Res Audio', 'BassUp', 'LDAC'],
                 contentPriority: { ar: 3200, en: 590 },
                 // Soundcore hub is the canonical parent — listed first for link weight
-                internalLinks: ['/soundcore', '/anker/speakers', '/joyroom/audio'],
+                internalLinks: ['/soundcore', '/soundcore/speakers', '/joyroom/audio'],
             },
             {
                 topic: 'Soundcore Bluetooth Speakers',
                 topicAr: 'مكبرات صوت ساوند كور',
-                url: '/anker/speakers',
+                url: '/soundcore/speakers',
                 pageType: 'commercial',
                 supportingContent: [
                     {
@@ -222,7 +222,7 @@ export const contentGraph: ContentMap = {
                 ],
                 relatedEntities: ['Soundcore', 'IPX7', 'Hi-Res Audio', 'BassUp', 'PartyCast', 'Bluetooth 5.3'],
                 contentPriority: { ar: 780, en: 720 },
-                internalLinks: ['/soundcore', '/anker/audio', '/anker/power-banks'],
+                internalLinks: ['/soundcore', '/soundcore/audio', '/anker/power-banks'],
             },
             {
                 topic: 'Cables',
@@ -307,8 +307,8 @@ export const contentGraph: ContentMap = {
                 ],
                 relatedEntities: ['TWS', 'ENC', 'Gaming Mode', 'Bluetooth 5.3', 'Touch Controls'],
                 contentPriority: { ar: 1800, en: 210 },
-                // Cross-link to /soundcore (premium audio brand) and /anker/audio (alternative)
-                internalLinks: ['/joyroom/cables', '/anker/audio', '/soundcore'],
+                // Cross-link to /soundcore (premium audio brand) and /soundcore/audio (alternative)
+                internalLinks: ['/joyroom/cables', '/soundcore/audio', '/soundcore'],
             },
             {
                 topic: 'Car Accessories',

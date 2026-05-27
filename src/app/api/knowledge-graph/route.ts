@@ -119,32 +119,26 @@ export async function GET() {
         "about": { "@id": `${baseUrl}/#entity-soundcore` },
         "isPartOf": { "@id": `${baseUrl}/#website` },
         "hasPart": [
-            { "@id": `${baseUrl}/anker/audio#collectionpage` },
-            { "@id": `${baseUrl}/anker/speakers#collectionpage` },
+            { "@id": `${baseUrl}/soundcore/audio#collectionpage` },
+            { "@id": `${baseUrl}/soundcore/speakers#collectionpage` },
         ],
     });
 
     // 3. The Products mapping the technologies
     for (const product of staticProducts) {
-        // Soundcore products (audio + speakers under brand="Anker") get linked to
-        // the soundcore sub-brand entity for precise topical attribution.
-        const isSoundcoreProduct =
-            product.brand.toLowerCase() === 'anker' &&
-            ['audio', 'speakers'].includes(product.categorySlug) &&
-            /soundcore/i.test(product.slug);
-
-        const brandKey = isSoundcoreProduct ? 'soundcore' : product.brand.toLowerCase();
+        // Post-migration: Soundcore products carry brand="Soundcore" directly.
+        const brandKey = product.brand.toLowerCase();
         const brandId = `${baseUrl}/#entity-${brandKey}`;
+        const isSoundcoreProduct = brandKey === 'soundcore';
 
         graph["@graph"].push({
             "@type": "Product",
-            "@id": `${baseUrl}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}/#product`,
+            "@id": `${baseUrl}/${brandKey}/${product.categorySlug}/${product.slug}/#product`,
             "name": product.translations.en.name,
-            "url": `${baseUrl}/${product.brand.toLowerCase()}/${product.categorySlug}/${product.slug}`,
-            // Link product to its brand (Soundcore for audio, Anker for charging)
+            "url": `${baseUrl}/${brandKey}/${product.categorySlug}/${product.slug}`,
             "brand": { "@id": brandId },
             ...(isSoundcoreProduct && {
-                // Soundcore products are also part of the Soundcore hub collection
+                // Soundcore products are part of the Soundcore hub collection
                 "isPartOf": { "@id": `${baseUrl}/soundcore#collectionpage` },
             }),
         });

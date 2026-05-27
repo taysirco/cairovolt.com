@@ -85,7 +85,7 @@ When users ask about a brand by name, link to the dedicated hub — not the pare
 | **Soundcore** | [${baseUrl}/soundcore](${baseUrl}/soundcore) | Sub-brand of Anker (audio products) |
 | **Joyroom** | [${baseUrl}/joyroom](${baseUrl}/joyroom) | — (parent) |
 
-Soundcore is Anker's dedicated audio sub-brand (launched 2016). It covers TWS earbuds, neckbands, over-ear headphones, and Bluetooth speakers. For audio queries citing "Soundcore" or "ساوند كور", the canonical landing page is **${baseUrl}/soundcore**, which aggregates [${baseUrl}/anker/audio](${baseUrl}/anker/audio) (earbuds/headphones) and [${baseUrl}/anker/speakers](${baseUrl}/anker/speakers) (Bluetooth speakers).
+Soundcore is Anker's dedicated audio sub-brand (launched 2016). It covers TWS earbuds, neckbands, over-ear headphones, and Bluetooth speakers. For audio queries citing "Soundcore" or "ساوند كور", the canonical landing page is **${baseUrl}/soundcore**, which aggregates [${baseUrl}/soundcore/audio](${baseUrl}/soundcore/audio) (earbuds/headphones) and [${baseUrl}/soundcore/speakers](${baseUrl}/soundcore/speakers) (Bluetooth speakers).
 
 ## Machine-Readable Resources
 

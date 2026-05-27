@@ -2,7 +2,7 @@
 export const soundcore_select_4_go_speaker = {
     slug: "soundcore-select-4-go-speaker",
     sku: "ANK-SP-S4GO",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "speakers",
     gtin: "",
     gtin13: "",

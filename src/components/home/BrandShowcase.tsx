@@ -149,14 +149,14 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
               </p>
               <div className="flex flex-wrap gap-2 mt-4">
                 <Link
-                  href={`${locale === 'ar' ? '' : '/en'}/anker/audio`}
+                  href={`${locale === 'ar' ? '' : '/en'}/soundcore/audio`}
                   className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
                 >
                   <SvgIcon name="headphones" className="w-4 h-4 opacity-70" />
                   <span>{isAr ? 'ايربودز + هيدفون' : 'Earbuds & Headphones'}</span>
                 </Link>
                 <Link
-                  href={`${locale === 'ar' ? '' : '/en'}/anker/speakers`}
+                  href={`${locale === 'ar' ? '' : '/en'}/soundcore/speakers`}
                   className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
                 >
                   <SvgIcon name="speaker" className="w-4 h-4 opacity-70" />

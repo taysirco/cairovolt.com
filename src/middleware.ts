@@ -160,6 +160,24 @@ export default function middleware(request: NextRequest) {
         return NextResponse.redirect(url, { status: 301 });
     }
 
+    // 2. Soundcore Migration 301s (May 2026) — Anker audio products moved to /soundcore tree.
+    // Patterns:
+    //   /anker/audio                  → /soundcore/audio
+    //   /anker/audio/{slug}           → /soundcore/audio/{slug}
+    //   /anker/speakers               → /soundcore/speakers
+    //   /anker/speakers/{slug}        → /soundcore/speakers/{slug}
+    //   /en/anker/{audio|speakers}/*  → /en/soundcore/{audio|speakers}/*
+    // Preserves ~95% link equity via 301 + maintains hreflang consistency.
+    const soundcoreMigration = pathname.match(
+        /^(\/en)?\/anker\/(audio|speakers)(\/.*)?$/
+    );
+    if (soundcoreMigration) {
+        const [, localePrefix, category, rest] = soundcoreMigration;
+        const url = request.nextUrl.clone();
+        url.pathname = `${localePrefix || ''}/soundcore/${category}${rest || ''}`;
+        return NextResponse.redirect(url, { status: 301 });
+    }
+
     // ── X-Cache-Status + performance headers for all responses ──
     const response = intlMiddleware(request);
     if (response) {

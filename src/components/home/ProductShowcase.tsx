@@ -40,7 +40,7 @@ const showcaseProducts: ShowcaseProduct[] = [
     originalPrice: 1550,
     brand: 'Anker',
     badge: { en: 'New', ar: 'جديد' },
-    href: '/anker/audio/anker-soundcore-r50i-nc',
+    href: '/soundcore/audio/anker-soundcore-r50i-nc',
     categorySlug: 'audio',
   },
   {
@@ -72,7 +72,7 @@ const showcaseProducts: ShowcaseProduct[] = [
     price: 750,
     originalPrice: 830,
     brand: 'Anker',
-    href: '/anker/audio/anker-soundcore-k20i',
+    href: '/soundcore/audio/anker-soundcore-k20i',
     categorySlug: 'audio',
   },
   {
@@ -92,7 +92,7 @@ const showcaseProducts: ShowcaseProduct[] = [
     price: 2999,
     originalPrice: 3400,
     brand: 'Anker',
-    href: '/anker/speakers/anker-soundcore-flare-2',
+    href: '/soundcore/speakers/anker-soundcore-flare-2',
     categorySlug: 'speakers',
   },
   {

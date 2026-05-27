@@ -2,7 +2,7 @@
 export const soundcore_life_u2i_neckband = {
     slug: "soundcore-life-u2i-neckband",
     sku: "ANK-AU-U2I",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",
     gtin13: "",

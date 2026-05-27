@@ -40,7 +40,12 @@ export async function GET() {
             md += `### [${product.translations.en.name}](${url})\n\n`;
             md += `| Field | Value |\n`;
             md += `|-------|-------|\n`;
-            md += `| **Brand** | ${product.brand} |\n`;
+            // Post-migration: Soundcore products carry brand="Soundcore" directly
+            const isSoundcore = product.brand.toLowerCase() === 'soundcore';
+            const brandLabel = isSoundcore
+                ? `Soundcore (sub-brand of Anker) — hub: ${baseUrl}/soundcore`
+                : product.brand;
+            md += `| **Brand** | ${brandLabel} |\n`;
             md += `| **Price** | ${product.price} EGP |\n`;
 
             if (product.originalPrice && product.originalPrice > product.price) {

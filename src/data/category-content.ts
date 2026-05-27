@@ -5,10 +5,11 @@ export type { CategoryContent, FAQItem, BuyingGuideSection, QualityBadge, Soundc
 
 import { anker_power_banks_content } from './category-content/anker/power-banks';
 import { anker_wall_chargers_content } from './category-content/anker/wall-chargers';
-import { anker_audio_content } from './category-content/anker/audio';
 import { anker_cables_content } from './category-content/anker/cables';
 import { anker_car_chargers_content } from './category-content/anker/car-chargers';
-import { anker_speakers_content } from './category-content/anker/speakers';
+// Soundcore (Anker audio sub-brand) — migrated from /anker/{audio,speakers} to /soundcore/{audio,speakers}
+import { soundcore_audio_content } from './category-content/soundcore/audio';
+import { soundcore_speakers_content } from './category-content/soundcore/speakers';
 import { joyroom_audio_content } from './category-content/joyroom/audio';
 import { joyroom_power_banks_content } from './category-content/joyroom/power-banks';
 import { joyroom_wall_chargers_content } from './category-content/joyroom/wall-chargers';
@@ -21,10 +22,12 @@ export const categoryContent: Record<string, Record<string, import("./category-c
     anker: {
         'power-banks': anker_power_banks_content,
         'wall-chargers': anker_wall_chargers_content,
-        'audio': anker_audio_content,
         'cables': anker_cables_content,
         'car-chargers': anker_car_chargers_content,
-        'speakers': anker_speakers_content,
+    },
+    soundcore: {
+        'audio': soundcore_audio_content,
+        'speakers': soundcore_speakers_content,
     },
     joyroom: {
         'audio': joyroom_audio_content,

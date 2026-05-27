@@ -3,7 +3,7 @@
 export const anker_soundcore_flare_2 = {
         slug: "anker-soundcore-flare-2",
         sku: "ANK-AU-FLARE2",
-        brand: "Anker",
+        brand: "Soundcore",
         categorySlug: "speakers",
         gtin: "0848061045123",
         gtin13: "0848061045123",
@@ -124,7 +124,7 @@ export const anker_soundcore_flare_2 = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">عرض ضوئي يغنيك عن إضاءة الحفلات</h2>
-        <p class="text-gray-700">حلقات LED المزدوجة في Flare 2 بتنبض وتغير ألوانها مع إيقاع المزيكا. خصص المؤثرات من <a href="/anker/audio" class="text-blue-600 hover:underline">تطبيق Soundcore</a> أو خليها تتفاعل تلقائي. بتحول أي غرفة أو مكان مفتوح لحفلة صغيرة — من غير أي أدوات إضاءة إضافية.</p>
+        <p class="text-gray-700">حلقات LED المزدوجة في Flare 2 بتنبض وتغير ألوانها مع إيقاع المزيكا. خصص المؤثرات من <a href="/soundcore/audio" class="text-blue-600 hover:underline">تطبيق Soundcore</a> أو خليها تتفاعل تلقائي. بتحول أي غرفة أو مكان مفتوح لحفلة صغيرة — من غير أي أدوات إضاءة إضافية.</p>
     </section>
 
     <section>

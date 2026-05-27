@@ -2,7 +2,7 @@
 export const soundcore_liberty_buds = {
     slug: "soundcore-liberty-buds",
     sku: "ANK-AU-LBUDS",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",
     gtin13: "",

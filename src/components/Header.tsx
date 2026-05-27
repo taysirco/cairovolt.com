@@ -59,8 +59,8 @@ export default function Header() {
     // searching for "soundcore" / "ساوند كور" find a clear entry point.
     const soundcoreCategories = [
         { href: '/soundcore', icon: 'headphones', label: { en: 'Soundcore Hub (All Audio)', ar: 'ساوند كور (كل المنتجات الصوتية)' }, primary: true },
-        { href: '/anker/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوند كور' } },
-        { href: '/anker/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوند كور' } },
+        { href: '/soundcore/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوند كور' } },
+        { href: '/soundcore/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوند كور' } },
     ];
 
     const joyroomCategories = [

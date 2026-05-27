@@ -1,8 +1,8 @@
 import type { CategoryContent } from '../_types';
 
-export const anker_speakers_content: CategoryContent = {
-            brand: 'Anker',
-            brandColor: 'blue',
+export const soundcore_speakers_content: CategoryContent = {
+            brand: 'Soundcore',
+            brandColor: 'orange',
             categoryName: 'Bluetooth Speakers',
             metadata: {
                 en: {
@@ -28,7 +28,7 @@ export const anker_speakers_content: CategoryContent = {
 
 ضمان 18 شهر من CairoVolt + استبدال فوري خلال 14 يوم. اطلبها الآن — توصيل القاهرة والجيزة خلال 24 ساعة.
 
-⬅️ تصفّح [مركز ساوند كور الكامل](/soundcore) لكل المنتجات الصوتية في صفحة واحدة. أو تسوق [ايربودز ساوند كور](/anker/audio) للاستخدام الشخصي، [كابل انكر](/anker/cables) للشحن السريع USB-C، أو [باور بانك انكر](/anker/power-banks) لتشغيل السبيكر في الرحلات.
+⬅️ تصفّح [مركز ساوند كور الكامل](/soundcore) لكل المنتجات الصوتية في صفحة واحدة. أو تسوق [ايربودز ساوند كور](/soundcore/audio) للاستخدام الشخصي، [كابل انكر](/anker/cables) للشحن السريع USB-C، أو [باور بانك انكر](/anker/power-banks) لتشغيل السبيكر في الرحلات.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'معتمد Hi-Res Audio + CE' },
@@ -102,7 +102,7 @@ Sahel pool party? Outdoor gathering? **IPX7 waterproof** means the speaker survi
 
 18-month CairoVolt warranty + instant replacement within 14 days. Order now — next-day Cairo & Giza delivery.
 
-⬅️ Visit the full [Soundcore Hub](/soundcore) for all audio products in one place. Also explore [Soundcore earbuds](/anker/audio) for personal use, [Anker cables](/anker/cables) for fast charging, or [Anker power banks](/anker/power-banks) to power the speaker outdoors.
+⬅️ Visit the full [Soundcore Hub](/soundcore) for all audio products in one place. Also explore [Soundcore earbuds](/soundcore/audio) for personal use, [Anker cables](/anker/cables) for fast charging, or [Anker power banks](/anker/power-banks) to power the speaker outdoors.
     `,
                     qualityBadges: [
                         { type: 'originality', text: 'Hi-Res Audio Certified' },

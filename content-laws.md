@@ -40,6 +40,7 @@
 - روابط منتجات: `/{brand}/{category}/{slug}` → في EN: `/en/{brand}/{category}/{slug}`
 - روابط فئات: `/{brand}/{category}` → في EN: `/en/{brand}/{category}`
 - روابط براند: `/anker`, `/joyroom` → في EN: `/en/anker`, `/en/joyroom`
+- روابط hubs فرعية: `/soundcore` (Anker audio sub-brand) → في EN: `/en/soundcore`
 - روابط مقالات: `/blog/{slug}` → في EN: `/en/blog/{slug}`
 - الصفحة الرئيسية: `/` → في EN: `/en`
 - أي مسار داخلي آخر (`/about`, `/contact`, `/shipping`, ...) → يطبّق نفس النمط
@@ -77,7 +78,7 @@ file="src/data/blog/{slug}.ts"   # أو src/data/products/{slug}.ts
 
 # 1) أي href في النسخة الإنجليزية بدون بادئة /en/ — يجب أن يكون 0
 awk '/[ \t]+en:[ \t]*{/{flag=1} flag{print} /^[ \t]+},[ \t]*$/ && flag{flag=0}' "$file" \
-  | grep -E 'href="/(anker|joyroom|blog|cart|search|categories|about|contact)' \
+  | grep -E 'href="/(anker|joyroom|soundcore|blog|cart|search|categories|about|contact)' \
   | grep -v 'href="/en/' \
   | grep -v 'href="https'
 

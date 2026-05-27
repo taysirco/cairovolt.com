@@ -36,8 +36,8 @@ interface Product {
 }
 
 interface CategoryTemplateProps {
-    brand: 'Anker' | 'Joyroom';
-    brandColor: 'blue' | 'red';
+    brand: 'Anker' | 'Joyroom' | 'Soundcore';
+    brandColor: 'blue' | 'red' | 'orange';
     category: string;
     categorySlug: string;
     categoryInfo: CategoryContent['pageContent'];
@@ -85,7 +85,10 @@ export default function CategoryTemplate({
     // Get translated category name
     const categoryKey = categoryKeyMap[categorySlug] || 'other';
     const translatedCategory = tCat(categoryKey);
-    const translatedBrand = brand === 'Anker' ? tBrand('anker') : tBrand('joyroom');
+    const translatedBrand =
+        brand === 'Anker' ? tBrand('anker') :
+        brand === 'Soundcore' ? tBrand('soundcore') :
+        tBrand('joyroom');
 
     // Initialize with server-side products if available
     const [dbProducts, setDbProducts] = useState<Product[]>(initialProducts);
@@ -119,21 +122,25 @@ export default function CategoryTemplate({
             });
     }, [brand, categorySlug]);
 
-    const brandColorClass = brandColor === 'blue'
-        ? 'from-blue-600 to-blue-400'
-        : 'from-red-600 to-red-400';
+    const brandColorClass =
+        brandColor === 'blue' ? 'from-blue-600 to-blue-400' :
+        brandColor === 'orange' ? 'from-orange-600 to-pink-500' :
+        'from-red-600 to-red-400';
 
-    const bgLightClass = brandColor === 'blue'
-        ? 'bg-blue-50 dark:bg-blue-900/10'
-        : 'bg-red-50 dark:bg-red-900/10';
+    const bgLightClass =
+        brandColor === 'blue' ? 'bg-blue-50 dark:bg-blue-900/10' :
+        brandColor === 'orange' ? 'bg-orange-50 dark:bg-orange-900/10' :
+        'bg-red-50 dark:bg-red-900/10';
 
-    const badgeColorClass = brandColor === 'blue'
-        ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
-        : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300';
+    const badgeColorClass =
+        brandColor === 'blue' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300' :
+        brandColor === 'orange' ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300' :
+        'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300';
 
-    const buttonColorClass = brandColor === 'blue'
-        ? 'bg-blue-600 hover:bg-blue-700'
-        : 'bg-red-600 hover:bg-red-700';
+    const buttonColorClass =
+        brandColor === 'blue' ? 'bg-blue-600 hover:bg-blue-700' :
+        brandColor === 'orange' ? 'bg-orange-600 hover:bg-orange-700' :
+        'bg-red-600 hover:bg-red-700';
 
     // Use database products if available, otherwise use initialProducts.
     // We avoid falling back to 'content.products' which creates empty slugs.
@@ -219,16 +226,16 @@ export default function CategoryTemplate({
                 />
             )}
 
-            {/* Soundcore Family Banner — shown only for audio/speakers (Soundcore sub-brand) */}
-            {(categorySlug === 'audio' || categorySlug === 'speakers') && brand === 'Anker' && (
+            {/* Soundcore Family Banner — shown on Soundcore audio/speakers categories */}
+            {(categorySlug === 'audio' || categorySlug === 'speakers') && brand === 'Soundcore' && (
                 <div className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-600 text-white">
                     <div className="container mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3 text-sm md:text-base">
                         <div className="flex items-center gap-2 font-medium">
                             <span className="hidden sm:inline">🎧</span>
                             <span>
                                 {isRTL
-                                    ? 'هذه صفحة من عائلة Soundcore by Anker — العلامة الصوتية الفرعية'
-                                    : 'Part of the Soundcore by Anker family — the audio sub-brand'}
+                                    ? 'هذه صفحة من عائلة Soundcore — العلامة الصوتية الفرعية من Anker'
+                                    : 'Part of the Soundcore family — Anker\'s audio sub-brand'}
                             </span>
                         </div>
                         <div className="flex items-center gap-3">
@@ -236,11 +243,11 @@ export default function CategoryTemplate({
                                 href={`${localePrefix}/soundcore`}
                                 className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-white text-orange-700 rounded-full font-bold text-xs md:text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all"
                             >
-                                {isRTL ? 'كل منتجات ساوند كور' : 'All Soundcore Products'}
+                                {isRTL ? 'مركز ساوند كور' : 'Soundcore Hub'}
                                 <span>{isRTL ? '←' : '→'}</span>
                             </Link>
                             <Link
-                                href={`${localePrefix}/anker/${categorySlug === 'audio' ? 'speakers' : 'audio'}`}
+                                href={`${localePrefix}/soundcore/${categorySlug === 'audio' ? 'speakers' : 'audio'}`}
                                 className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 bg-black/20 text-white rounded-full font-medium text-xs hover:bg-black/30 transition-colors"
                             >
                                 {categorySlug === 'audio'

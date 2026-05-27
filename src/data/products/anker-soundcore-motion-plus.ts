@@ -3,7 +3,7 @@
 export const anker_soundcore_motion_plus = {
         slug: "anker-soundcore-motion-plus",
         sku: "ANK-AU-MOTION",
-        brand: "Anker",
+        brand: "Soundcore",
         categorySlug: "speakers",
         gtin: "0840053011550",
         gtin13: "0840053011550",

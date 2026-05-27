@@ -52,7 +52,7 @@ const heroProducts: HeroProduct[] = [
     originalPrice: 1550,
     brand: 'Anker',
     badge: { en: 'New Arrival', ar: 'جديد' },
-    href: '/anker/audio/anker-soundcore-r50i-nc',
+    href: '/soundcore/audio/anker-soundcore-r50i-nc',
     highlight: { en: 'Rivals AirPods Pro 2', ar: 'منافس ايربودز برو 2' },
   },
   {

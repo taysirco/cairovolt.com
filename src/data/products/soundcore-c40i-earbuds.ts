@@ -2,7 +2,7 @@
 export const soundcore_c40i_earbuds = {
     slug: "soundcore-c40i-earbuds",
     sku: "ANK-AU-C40I",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",
     gtin13: "",

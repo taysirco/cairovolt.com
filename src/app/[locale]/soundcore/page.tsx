@@ -60,17 +60,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /**
  * Picks Soundcore best-sellers across both lines (audio + speakers).
- * All Soundcore products are stored with brand="Anker" + categorySlug in {audio, speakers},
- * and the slug starts with "soundcore-" or "anker-soundcore-".
- * Sorts: featured first, then by price ascending (so entry-level shows first).
+ * Post-migration: products carry brand="Soundcore" directly + live at /soundcore/{cat}/{slug}.
+ * Sorts: featured first, then by price ascending (entry-level shows first).
  */
 function getSoundcoreBestSellers(max: number) {
     return staticProducts
         .filter(p =>
             p.status === 'active' &&
-            p.brand.toLowerCase() === 'anker' &&
-            ['audio', 'speakers'].includes(p.categorySlug) &&
-            /soundcore/i.test(p.slug)
+            p.brand.toLowerCase() === 'soundcore'
         )
         .sort((a, b) => {
             if (a.featured !== b.featured) return a.featured ? -1 : 1;
@@ -94,8 +91,8 @@ export default async function SoundcoreHubPage({ params }: Props) {
     const mentionEntities = ['bluetooth', 'earbuds', 'speaker', 'anc', 'egypt', 'cairo', 'newCairo'];
 
     const quickAnswer = isRTL
-        ? 'ساوند كور (Soundcore) هي العلامة الفرعية للصوتيات من Anker، أُطلقت سنة 2016. تنقسم منتجاتها لعائلتين فقط: (1) سماعات/ايربودز/هيدفون في /anker/audio، و(2) مكبرات صوت بلوتوث في /anker/speakers. كل المنتجات بضمان 18 شهر من كايرو فولت.'
-        : 'Soundcore is Anker\'s audio sub-brand, launched in 2016. Products split into two lines only: (1) earbuds/headphones at /anker/audio, and (2) Bluetooth speakers at /anker/speakers. All carry an 18-month CairoVolt warranty.';
+        ? 'ساوند كور (Soundcore) هي العلامة الفرعية للصوتيات من Anker، أُطلقت سنة 2016. تنقسم منتجاتها لعائلتين فقط: (1) سماعات/ايربودز/هيدفون في /soundcore/audio، و(2) مكبرات صوت بلوتوث في /soundcore/speakers. كل المنتجات بضمان 18 شهر من كايرو فولت.'
+        : 'Soundcore is Anker\'s audio sub-brand, launched in 2016. Products split into two lines only: (1) earbuds/headphones at /soundcore/audio, and (2) Bluetooth speakers at /soundcore/speakers. All carry an 18-month CairoVolt warranty.';
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-black" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -123,7 +120,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
 
             {/* CollectionPage JSON-LD — declares /soundcore as a hub with two child
                 collections. hasPart establishes the parent-child relationship for
-                Google's entity graph: the hub aggregates /anker/audio + /anker/speakers. */}
+                Google's entity graph: the hub aggregates /soundcore/audio + /soundcore/speakers. */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -153,18 +150,18 @@ export default async function SoundcoreHubPage({ params }: Props) {
                         hasPart: [
                             {
                                 '@type': 'CollectionPage',
-                                '@id': `https://cairovolt.com${baseHref}/anker/audio#collectionpage`,
+                                '@id': `https://cairovolt.com${baseHref}/soundcore/audio#collectionpage`,
                                 name: isRTL ? 'سماعات ساوند كور (ايربودز + هيدفون)' : 'Soundcore Earbuds & Headphones',
-                                url: `https://cairovolt.com${baseHref}/anker/audio`,
+                                url: `https://cairovolt.com${baseHref}/soundcore/audio`,
                                 description: isRTL
                                     ? 'سماعات بلوتوث TWS، نيكباند، وهيدفون فوق الأذن من ساوند كور'
                                     : 'Soundcore TWS earbuds, neckbands & over-ear headphones',
                             },
                             {
                                 '@type': 'CollectionPage',
-                                '@id': `https://cairovolt.com${baseHref}/anker/speakers#collectionpage`,
+                                '@id': `https://cairovolt.com${baseHref}/soundcore/speakers#collectionpage`,
                                 name: isRTL ? 'مكبرات صوت ساوند كور (سبيكرات بلوتوث)' : 'Soundcore Bluetooth Speakers',
-                                url: `https://cairovolt.com${baseHref}/anker/speakers`,
+                                url: `https://cairovolt.com${baseHref}/soundcore/speakers`,
                                 description: isRTL
                                     ? 'مكبرات صوت بلوتوث Hi-Res، IPX7 مقاومة الماء، PartyCast'
                                     : 'Hi-Res Bluetooth speakers, IPX7 waterproof, PartyCast',
@@ -176,7 +173,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                             itemListElement: products.slice(0, 10).map((p, idx) => ({
                                 '@type': 'ListItem',
                                 position: idx + 1,
-                                url: `https://cairovolt.com${baseHref}/anker/${p.categorySlug}/${p.slug}`,
+                                url: `https://cairovolt.com${baseHref}/soundcore/${p.categorySlug}/${p.slug}`,
                                 name: p.translations[isRTL ? 'ar' : 'en'].name.split('|')[0].trim(),
                             })),
                         },
@@ -323,7 +320,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3 md:gap-5">
                             {products.map(product => {
                                 const t = product.translations[isRTL ? 'ar' : 'en'];
-                                const productUrl = getHref(`/anker/${product.categorySlug}/${product.slug}`);
+                                const productUrl = getHref(`/soundcore/${product.categorySlug}/${product.slug}`);
                                 const isSpeaker = product.categorySlug === 'speakers';
                                 return (
                                     <Link
@@ -474,7 +471,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                             </p>
                         </div>
                         <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-                            <Link href={getHref('/anker/audio')} className="flex items-center gap-4 px-6 py-5 bg-white text-gray-900 rounded-2xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
+                            <Link href={getHref('/soundcore/audio')} className="flex items-center gap-4 px-6 py-5 bg-white text-gray-900 rounded-2xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
                                 <SvgIcon name="headphones" className="w-8 h-8 text-orange-600" />
                                 <div className={isRTL ? 'text-right flex-1' : 'text-left flex-1'}>
                                     <div className="text-base">{isRTL ? 'سماعات ساوند كور' : 'Soundcore Earbuds'}</div>
@@ -482,7 +479,7 @@ export default async function SoundcoreHubPage({ params }: Props) {
                                 </div>
                                 <span className="text-2xl text-orange-600">{isRTL ? '←' : '→'}</span>
                             </Link>
-                            <Link href={getHref('/anker/speakers')} className="flex items-center gap-4 px-6 py-5 bg-white text-gray-900 rounded-2xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
+                            <Link href={getHref('/soundcore/speakers')} className="flex items-center gap-4 px-6 py-5 bg-white text-gray-900 rounded-2xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
                                 <SvgIcon name="speaker" className="w-8 h-8 text-pink-600" />
                                 <div className={isRTL ? 'text-right flex-1' : 'text-left flex-1'}>
                                     <div className="text-base">{isRTL ? 'سبيكرات ساوند كور' : 'Soundcore Speakers'}</div>

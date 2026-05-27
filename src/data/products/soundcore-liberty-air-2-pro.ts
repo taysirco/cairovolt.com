@@ -2,7 +2,7 @@
 export const soundcore_liberty_air_2_pro = {
     slug: "soundcore-liberty-air-2-pro",
     sku: "ANK-AU-LA2P",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",
     gtin13: "",

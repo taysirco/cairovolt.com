@@ -102,7 +102,7 @@ export async function GET() {
     const extraLabItems = [
         {
             title: '🎵 كايرو فولت تختبر Soundcore Motion Plus: 12 ساعة على شاطئ العين السخنة + IPX7 في الحوض',
-            link: 'https://cairovolt.com/anker/audio/anker-soundcore-motion-plus',
+            link: 'https://cairovolt.com/soundcore/audio/anker-soundcore-motion-plus',
             image: 'https://cairovolt.com/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-1.webp',
             description: 'اختبرنا Soundcore Motion Plus في شاطئ العين السخنة: غمر IPX7 لمدة 30 دقيقة، 12 ساعة و8 دقائق تشغيل مستمر، وصفر إيقاف حراري في 41 درجة على سطح القاهرة.',
         },

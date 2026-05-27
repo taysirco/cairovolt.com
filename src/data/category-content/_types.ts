@@ -28,8 +28,8 @@ export interface SoundcoreData {
 // NEW: PowerBank-specific data for power-banks category targeting "باور بانك انكر" keyword
 export type PowerBankData = SoundcoreData; // Same structure, different content
 export interface CategoryContent {
-    brand: 'Anker' | 'Joyroom';
-    brandColor: 'blue' | 'red';
+    brand: 'Anker' | 'Joyroom' | 'Soundcore';
+    brandColor: 'blue' | 'red' | 'orange';
     categoryName: string;
     // NEW: Optional Soundcore data for audio category
     soundcoreData?: SoundcoreData;

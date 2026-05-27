@@ -2,7 +2,7 @@
 export const soundcore_life_q20_headphones = {
     slug: "soundcore-life-q20-headphones",
     sku: "ANK-AU-Q20",
-    brand: "Anker",
+    brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",
     gtin13: "",
