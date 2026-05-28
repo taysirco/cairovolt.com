@@ -213,6 +213,15 @@ export function getProductsGroupedByCategory(brand: string): Record<string, Stat
 }
 
 // ═══════════════════════════════════════════════════════════
+// 🔗 BRAND FAMILIES — Cross-brand pairing (e.g. Anker ↔ Soundcore)
+// ═══════════════════════════════════════════════════════════
+export const BRAND_FAMILIES: Record<string, string[]> = {
+    'anker': ['anker', 'soundcore'],
+    'soundcore': ['anker', 'soundcore'],
+    'joyroom': ['joyroom'],
+};
+
+// ═══════════════════════════════════════════════════════════
 // 🏆 GOLDEN COMBO — Smart Bundle Recommendation Engine
 // ═══════════════════════════════════════════════════════════
 // Philosophy: "If a customer buys a power bank, they DON'T need
@@ -312,7 +321,7 @@ export function getSmartBundleProducts(product: StaticProduct): BundleResult {
             .filter(p =>
                 p.status === 'active' &&
                 p.slug !== product.slug &&
-                p.brand.toLowerCase() === brandLower &&
+                (BRAND_FAMILIES[brandLower] || [brandLower]).includes(p.brand.toLowerCase()) &&
                 p.categorySlug === entry.targetCategory
             );
 
@@ -422,7 +431,7 @@ export function getSmartRelatedProducts(product: StaticProduct, maxProducts: num
         .filter(p =>
             p.status === 'active' &&
             !usedSlugs.has(p.slug) &&
-            p.brand.toLowerCase() === product.brand.toLowerCase() &&
+            (BRAND_FAMILIES[product.brand.toLowerCase()] || [product.brand.toLowerCase()]).includes(p.brand.toLowerCase()) &&
             !usedCategories.has(p.categorySlug) // NEVER same category
         )
         .sort((a, b) => {

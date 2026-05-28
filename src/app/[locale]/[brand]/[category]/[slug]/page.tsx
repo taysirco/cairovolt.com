@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getFirestore } from '@/lib/firebase-admin';
-import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts } from '@/lib/static-products';
+import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, BRAND_FAMILIES } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
@@ -277,7 +277,10 @@ export default async function ProductPage({ params }: Props) {
     // STRICT FILTER: Only show related products from the SAME BRAND to prevent cross-contamination
     const relatedProducts = staticProduct
         ? getSmartRelatedProducts(staticProduct, 8)
-            .filter(p => p.brand.toLowerCase() === product.brand.toLowerCase())
+            .filter(p => {
+                const family = BRAND_FAMILIES[product.brand.toLowerCase()] || [product.brand.toLowerCase()];
+                return family.includes(p.brand.toLowerCase());
+            })
             .map(p => ({ id: `static_${p.slug}`, ...p } as Product))
         : [];
 

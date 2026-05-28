@@ -6,8 +6,8 @@ export const soundcore_speakers_content: CategoryContent = {
             categoryName: 'Bluetooth Speakers',
             metadata: {
                 en: {
-                    title: 'Anker Soundcore Speakers Egypt | Hi-Res 30W IPX7 | EGP 2999',
-                    description: 'Anker Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
+                    title: 'Soundcore Speakers Egypt | Hi-Res 30W IPX7 | EGP 2999',
+                    description: 'Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
                     keywords: 'anker speaker, soundcore speaker egypt, anker motion plus, soundcore flare 2, bluetooth speaker egypt, anker speaker price egypt, Hi-Res speaker, IPX7 speaker',
                 },
                 ar: {
@@ -19,9 +19,9 @@ export const soundcore_speakers_content: CategoryContent = {
             pageContent: {
                 ar: {
                     title: 'مكبرات صوت انكر Soundcore',
-                    subtitle: 'Anker Soundcore Speakers - صوت Hi-Res عالي الدقة',
+                    subtitle: 'Soundcore Speakers - صوت Hi-Res عالي الدقة',
                     description: `
-على عكس السماعات الرخيصة اللي صوتها بيتشوه على Volume 80% — سماعات **Anker Soundcore** معتمدة Hi-Res Audio بقوة قوة عالية. صوت نقي. باس حقيقي. 24 ساعة تشغيل.
+على عكس السماعات الرخيصة اللي صوتها بيتشوه على Volume 80% — سماعات **Soundcore** معتمدة Hi-Res Audio بقوة قوة عالية. صوت نقي. باس حقيقي. 24 ساعة تشغيل.
 
 **مثالية لصيف مصر:**
 حفلة في الساحل الشمالي؟ بول بارتي؟ مقاومة ماء **IPX7** يعني السبيكر يتحمل الغطس في المسبح. اختبار CairoVolt: غطسناها 30 دقيقة في مياه مالحة — الصوت رجع 100% بعد التجفيف.
@@ -92,10 +92,10 @@ export const soundcore_speakers_content: CategoryContent = {
                     ]
                 },
                 en: {
-                    title: 'Anker Soundcore Speakers',
+                    title: 'Soundcore Speakers',
                     subtitle: 'Hi-Res Audio Quality',
                     description: `
-Unlike cheap speakers that distort at Volume 80% — **Anker Soundcore** speakers are Hi-Res Audio certified at powerful. Pure sound. Real bass. 24-hour battery life.
+Unlike cheap speakers that distort at Volume 80% — **Soundcore** speakers are Hi-Res Audio certified at powerful. Pure sound. Real bass. 24-hour battery life.
 
 **Perfect for Egyptian Summer:**
 Sahel pool party? Outdoor gathering? **IPX7 waterproof** means the speaker survives being submerged in the pool. CairoVolt test: we dunked it in salt water for 30 minutes — sound returned to 100% after drying.

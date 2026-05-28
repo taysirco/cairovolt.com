@@ -7,8 +7,8 @@ export const soundcore_audio_content: CategoryContent = {
             // Soundcore content data
             soundcoreData: {
                 title: {
-                    en: 'Soundcore by Anker: World\'s Leading Wireless Audio Brand',
-                    ar: 'ساوند كور من انكر: العلامة الأولى عالمياً في السماعات اللاسلكية'
+                    en: 'Soundcore: World\'s Leading Wireless Audio Brand',
+                    ar: 'ساوند كور: العلامة الأولى عالمياً في السماعات اللاسلكية'
                 },
                 tagline: {
                     en: 'Hear It. Feel It.',
@@ -16,7 +16,7 @@ export const soundcore_audio_content: CategoryContent = {
                 },
                 history: {
                     en: 'Soundcore was launched in 2016 as Anker\'s dedicated audio brand, bringing the same commitment to quality and innovation that made Anker #1 in charging. Today, Soundcore has served over 100 million users worldwide with award-winning earbuds and speakers. The brand\'s philosophy is simple: deliver premium audio experiences at accessible prices. From the budget-friendly R50i to the flagship Liberty 4, every Soundcore product is engineered with precision and backed by the Anker quality guarantee.',
-                    ar: 'أُطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من انكر، حاملةً نفس الالتزام بالجودة والابتكار الذي جعل انكر الأولى في الشحن. اليوم، خدمت ساوند كور أكثر من 100 مليون مستخدم حول العالم بسماعات ومكبرات صوت حائزة على جوائز. فلسفة العلامة بسيطة: تقديم تجارب صوتية ممتازة بأسعار معقولة. من R50i الاقتصادية إلى Liberty 4 الرائدة — سواء كنت تبحث عن ايربودز انكر اقتصادية أو سماعة بلوتوث بإلغاء ضوضاء احترافي، انكر ساوند كور عندها الحل المناسب لميزانيتك.'
+                    ar: 'أُطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من انكر، حاملةً نفس الالتزام بالجودة والابتكار الذي جعل انكر الأولى في الشحن. اليوم، خدمت ساوند كور أكثر من 100 مليون مستخدم حول العالم بسماعات ومكبرات صوت حائزة على جوائز. فلسفة العلامة بسيطة: تقديم تجارب صوتية ممتازة بأسعار معقولة. من R50i الاقتصادية إلى Liberty 4 الرائدة — سواء كنت تبحث عن ايربودز ساوندكور اقتصادية أو سماعة بلوتوث بإلغاء ضوضاء احترافي، ساوند كور عندها الحل المناسب لميزانيتك.'
                 },
                 achievements: [
                     { icon: 'headphones', stat: { en: '100M+', ar: '+100 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
@@ -66,22 +66,22 @@ export const soundcore_audio_content: CategoryContent = {
             },
             metadata: {
                 en: {
-                    title: 'Anker Soundcore Earbuds Egypt | R50i, P20i, Liberty 4 NC',
-                    description: 'Shop Anker Soundcore earbuds in Egypt. R50i, R50i NC, P20i, K20i, A30i, Liberty 4 NC. ANC headphones with Hi-Res Audio. Best prices + warranty.',
-                    keywords: 'anker soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, anker p2i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, anker soundcore egypt',
+                    title: 'Soundcore Earbuds Egypt | R50i, P20i, Liberty 4 NC',
+                    description: 'Shop Soundcore earbuds in Egypt. R50i, R50i NC, P20i, K20i, A30i, Liberty 4 NC. ANC headphones with Hi-Res Audio. Best prices + warranty.',
+                    keywords: 'soundcore, anker earbuds, anker headphones, soundcore earbuds, soundcore r50i, anker r50i nc, soundcore p20i, anker p2i, soundcore k20i, soundcore a30i, soundcore liberty 4 nc, soundcore liberty 5, anker r100, anker airpods, soundcore egypt, anker',
                 },
                 ar: {
-                    title: 'سماعات انكر ساوند كور | ايربودز انكر R50i | سماعة بلوتوث',
-                    description: 'تسوق سماعات انكر وايربودز انكر R50i الأصلية في مصر. سماعة ساوند كور، سماعه بلوتوث انكر، سماعات anker Soundcore. أسعار تبدأ من 699 جنيه + ضمان 18 شهر.',
-                    keywords: 'سماعات انكر, ايربودز انكر, ايربودز انكر r50i, سماعة ساوند كور, سماعة بلوتوث انكر, سماعات انكر بلوتوث, سماعات anker, انكر سماعه, سماعه انكر, سماعة انكر, ساوند كور, انكر ساوند كور, سماعات انكر ساوند كور بلوتوث, anker soundcore, سعر سماعة ايربودز',
+                    title: 'سماعات ساوند كور | ايربودز ساوندكور R50i | سماعة بلوتوث',
+                    description: 'تسوق سماعات ساوندكور وايربودز ساوندكور R50i الأصلية في مصر. سماعة ساوند كور، سماعه بلوتوث ساوندكور، سماعات Soundcore. أسعار تبدأ من 699 جنيه + ضمان 18 شهر.',
+                    keywords: 'سماعات ساوندكور, ايربودز ساوندكور, ايربودز ساوندكور r50i, سماعة ساوند كور, سماعة بلوتوث ساوندكور, سماعات ساوندكور بلوتوث, سماعات soundcore, ساوندكور سماعه, سماعه ساوندكور, سماعة ساوندكور, ساوند كور, سماعات ساوند كور بلوتوث, soundcore, سعر سماعة ايربودز, انكر',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'سماعات انكر Soundcore',
-                    subtitle: 'Anker Soundcore - جودة صوت استثنائية',
+                    title: 'سماعات Soundcore',
+                    subtitle: 'Soundcore - جودة صوت استثنائية',
                     description: `
-      80% من السماعات في السوق المصري صوتها بيتشوه عند أعلى مستوى — وبتموت بعد 3 شهور. سماعات **انكر ساوند كور (Anker Soundcore)** معتمدة **Hi-Res Audio** من جمعية الصوت اليابانية + **IPX5** مقاومة العرق + شهادة CE. تقنية **BassUp** حصرية. بطارية تصل لـ 50 ساعة.
+      80% من السماعات في السوق المصري صوتها بيتشوه عند أعلى مستوى — وبتموت بعد 3 شهور. سماعات **ساوند كور (Soundcore)** معتمدة **Hi-Res Audio** من جمعية الصوت اليابانية + **IPX5** مقاومة العرق + شهادة CE. تقنية **BassUp** حصرية. بطارية تصل لـ 50 ساعة.
 
       **مثالية لحياتك في مصر:**
       - **زحمة المترو والميكروباص:** ANC بيحجب 98% من الدوشة — اتكلم في التليفون بوضوح
@@ -100,7 +100,7 @@ export const soundcore_audio_content: CategoryContent = {
                     ],
                     buyingGuide: [
                         {
-                            title: 'دليل اختيار سماعة انكر المناسبة',
+                            title: 'دليل اختيار سماعة ساوندكور المناسبة',
                             content: `
 - **الفئة الاقتصادية (R50i / P20i):** أفضل قيمة مقابل سعر. صوت قوي (BassUp)، بطارية ممتازة، وتصميم مريح. (بدون عزل ضوضاء)
 - **الفئة المتوسطة (P40i / P3):** تدعم عزل الضوضاء (ANC)، علبة شحن لاسلكي، ووضع الألعاب (Game Mode).
@@ -116,9 +116,9 @@ export const soundcore_audio_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Anker Soundcore K20i', price: 750, badge: 'أريح تصميم' },
-                        { name: 'Anker Soundcore R50i', price: 950, badge: 'اقتصادي ناجح' },
-                        { name: 'Anker Soundcore R50i NC', price: 1199, badge: 'ANC الغاء ضوضاء' },
+                        { name: 'Soundcore K20i', price: 750, badge: 'أريح تصميم' },
+                        { name: 'Soundcore R50i', price: 950, badge: 'اقتصادي ناجح' },
+                        { name: 'Soundcore R50i NC', price: 1199, badge: 'ANC الغاء ضوضاء' },
                         { name: 'Soundcore P20i', price: 699, badge: 'أقل سعر TWS' },
                         { name: 'Soundcore P25i', price: 770, badge: 'BassUp' },
                         { name: 'Soundcore Life U2i', price: 739, badge: 'نيكباند 22h' },
@@ -145,10 +145,10 @@ export const soundcore_audio_content: CategoryContent = {
                     ]
                 },
                 en: {
-                    title: 'Anker Soundcore Earbuds',
+                    title: 'Soundcore Earbuds',
                     subtitle: 'Exceptional Audio Quality',
                     description: `
-      80% of earbuds in the Egyptian market distort at max volume — and die within 3 months. **Anker Soundcore** earbuds are **Hi-Res Audio certified** by the Japan Audio Society + proprietary **BassUp** technology. Battery life up to 50 hours.
+      80% of earbuds in the Egyptian market distort at max volume — and die within 3 months. **Soundcore** earbuds are **Hi-Res Audio certified** by the Japan Audio Society + proprietary **BassUp** technology. Battery life up to 50 hours.
 
       **Perfect for Egyptian Daily Life:**
       - **Metro & minibus commute:** ANC blocks 98% of ambient noise — crystal clear calls
@@ -167,7 +167,7 @@ export const soundcore_audio_content: CategoryContent = {
                     ],
                     buyingGuide: [
                         {
-                            title: 'Which Anker Earbud Should You Buy?',
+                            title: 'Which Soundcore Earbud Should You Buy?',
                             content: `
 - **Budget Series (R50i / P20i):** Best value for money. Powerful sound (BassUp), excellent battery, comfortable fit. (No ANC).
 - **Mid-Range Series (P40i / Life Note 3):** Supports Active Noise Cancellation (ANC), Wireless Charging Case, and Game Mode.
@@ -183,9 +183,9 @@ The App allows you to: Customize EQ, Enable Game Mode, Update Firmware, and Find
                         }
                     ],
                     products: [
-                        { name: 'Anker Soundcore K20i', price: 750, badge: 'Most Comfortable' },
-                        { name: 'Anker Soundcore R50i', price: 950, badge: 'Budget King' },
-                        { name: 'Anker Soundcore R50i NC', price: 1199, badge: 'ANC Noise Cancel' },
+                        { name: 'Soundcore K20i', price: 750, badge: 'Most Comfortable' },
+                        { name: 'Soundcore R50i', price: 950, badge: 'Budget King' },
+                        { name: 'Soundcore R50i NC', price: 1199, badge: 'ANC Noise Cancel' },
                         { name: 'Soundcore P20i', price: 699, badge: 'Lowest Price TWS' },
                         { name: 'Soundcore P25i', price: 770, badge: 'BassUp' },
                         { name: 'Soundcore Life U2i', price: 739, badge: 'Neckband 22h' },

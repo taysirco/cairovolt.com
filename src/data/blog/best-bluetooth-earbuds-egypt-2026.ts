@@ -8,7 +8,7 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
         modifiedDate: '2026-02-01',
         readingTime: 4,
         relatedProducts: ['joyroom-t03s-pro-earbuds', 'joyroom-jr-t03-wireless-earbuds', 'anker-soundcore-life-p2i'],
-        relatedCategories: ['Anker/audio', 'Joyroom/earbuds'],
+        relatedCategories: ['Soundcore/audio', 'Joyroom/earbuds'],
     coverImage: "/images/blog/posts/best-bluetooth-earbuds-egypt-2026.webp?v=2",
         translations: {
             ar: {

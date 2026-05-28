@@ -14,7 +14,7 @@ export const earbuds_generic: GenericCategory = {
                 keywords: 'سماعه ايربودز, سماعه بلوتوث, سماعة ساوند كور, ايربودز انكر, ايربودز انكر r50i, سماعات انكر, سماعة بلوتوث انكر, سماعات بلوتوث, سماعات لاسلكية, بديل ايربودز, سماعات ANC, سماعات بلوتوث رخيصة, ايربودز في مصر, انكر سماعه, سعر سماعة ايربودز',
             },
             en: {
-                title: 'Best Earbuds Egypt | Anker Soundcore | AirPods Alternative',
+                title: 'Best Earbuds Egypt | Soundcore | AirPods Alternative',
                 description: 'Best Anker earbuds & Soundcore earbuds in Egypt. R50i, R50i NC, Liberty 4 NC, P20i — wireless Bluetooth earbuds with ANC noise cancelling. Prices from EGP 350.',
                 keywords: 'anker earbuds, soundcore earbuds, bluetooth earbuds egypt, anker headphones, wireless earbuds, airpods alternative, anker airpods, best bluetooth earbuds egypt, earbuds with anc, soundcore r50i, soundcore liberty 4 nc, anker soundcore egypt, tws earbuds egypt',
             },
