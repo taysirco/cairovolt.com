@@ -41,7 +41,7 @@
 ## 📝 خطة المحتوى — 228 موضوع (بالترتيب الإلزامي)
 
 > **للـ Auto-Workflow:** ابدأ بأول ⬜ من #1. عند الانتهاء استبدل ⬜ بـ `✅ → slug: {final-slug}`.
-> **اسم الـ coverImage = الـ slug + `.webp`** في `/public/images/blog/posts/` (جميع صور الغلاف الـ 101 تم توليدها وتجهيزها مسبقاً في هذا المسار، فقط استخدم الاسم المناسب للملف ولا تقم بتوليد صور جديدة أو استبدالها).
+> **اسم الـ coverImage = الـ slug + `.webp`** في `/public/images/blog/posts/` (143 صورة غلاف من أصل 198 موضوع مخطط تم توليدها وتجهيزها مسبقاً في هذا المسار بصيغة `.webp` وأبعاد 1200×630، فقط استخدم الاسم المناسب للملف ولا تقم بتوليد صور جديدة أو استبدالها. المواضيع الـ 55 المتبقية بدون صور ستحتاج توليد عند الكتابة).
 
 1. ✅ أفضل باور بانك تحت 1000 جنيه في مصر 2026 — الخيارات الأصلية وتحذير من التقليد → `best-power-bank-under-1000-egp-egypt`
 2. ✅ → slug: `best-100w-fast-charge-power-bank-iphone-samsung`
@@ -71,8 +71,8 @@
 26. ✅ → slug: `3-meter-charging-cable-bed-living-room`
 27. ✅ → slug: `magnetic-cable-car-charging-pros-cons`
 28. ✅ → slug: `usb-c-lightning-vs-usb-c-usb-c-faster`
-29. ⬜ كابلات الشحن في عربيتك بتذوب من الحر؟ حلول ذكية لحماية الكابل من 70°م → `protect-cables-car-summer-heat-cairo`
-30. ⬜ كابل قصير 30cm للباور بانك — السر الخفي لإطالة عمر بطاريتك الاحتياطية → `short-30cm-cable-power-bank-extends-life`
+29. ✅ → slug: `protect-cables-car-summer-heat-cairo`
+30. ✅ → slug: `short-30cm-cable-power-bank-extends-life`
 31. ⬜ مش كل منفذ USB-C واحد — إزاي تفرق بين 240W و Thunderbolt والعادي؟ → `usb-c-240w-thunderbolt-port-difference`
 32. ⬜ تجربة واقعية: كابل Joyroom Speedy Series بعد 90 يوم استخدام يومي في حر مصر → `joyroom-speedy-cable-3-months-review`
 33. ⬜ شحن اللابتوب في العربية — دليل اختيار شاحن 100W لرحلات الطريق الطويلة → `car-charger-100w-laptop-sahel-trip`

@@ -1,9 +1,7 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
-import Image from 'next/image';
 import { blogArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { SvgIcon } from '@/components/ui/SvgIcon';
+import BlogPagination from '@/components/blog/BlogPagination';
 
 export const revalidate = 86400;
 
@@ -51,27 +49,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
+/* ─── Category labels (passed to client component) ─────────── */
 const categoryLabels: Record<string, { ar: string; en: string; icon: string }> = {
     'buying-guide': { ar: 'دليل شراء', en: 'Buying Guide', icon: 'book' },
-    'comparison': { ar: 'مقارنة', en: 'Comparison', icon: 'scale' },
-    'how-to': { ar: 'شرح', en: 'How-To', icon: 'wrench' },
-    'review': { ar: 'مراجعة', en: 'Review', icon: 'star' },
-    'tips': { ar: 'نصائح', en: 'Tips', icon: 'bulb' },
+    'comparison':   { ar: 'مقارنة',    en: 'Comparison',   icon: 'scale' },
+    'how-to':       { ar: 'شرح',       en: 'How-To',       icon: 'wrench' },
+    'review':       { ar: 'مراجعة',    en: 'Review',       icon: 'star' },
+    'tips':         { ar: 'نصائح',     en: 'Tips',         icon: 'bulb' },
 };
 
 export default async function BlogPage({ params }: Props) {
     const { locale } = await params;
     const isArabic = locale === 'ar';
 
-    const getLocalizedHref = (path: string) => {
-        const cleanPath = path.startsWith('/') ? path : `/${path}`;
-        return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
-    };
+    /*
+     * Serialize only the fields the client component needs.
+     * This keeps the JS bundle lean and avoids passing full HTML content
+     * (which can be very large) to the client.
+     */
+    const sortedArticles = [...blogArticles]
+        .sort((a, b) => new Date(b.modifiedDate).getTime() - new Date(a.modifiedDate).getTime())
+        .map((a) => {
+            const trans = a.translations[isArabic ? 'ar' : 'en'];
+            return {
+                slug: a.slug,
+                category: a.category,
+                readingTime: a.readingTime,
+                coverImage: a.coverImage,
+                publishDate: a.publishDate,
+                modifiedDate: a.modifiedDate,
+                title: trans.title,
+                excerpt: trans.excerpt,
+            };
+        });
 
-    // Sort articles by modified date descending
-    const sortedArticles = [...blogArticles].sort(
-        (a, b) => new Date(b.modifiedDate).getTime() - new Date(a.modifiedDate).getTime()
-    );
+    const totalArticles = sortedArticles.length;
 
     return (
         <>
@@ -85,7 +97,8 @@ export default async function BlogPage({ params }: Props) {
 
             <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
                 <div className="container mx-auto px-4 py-12 md:py-16">
-                    {/* Hero */}
+
+                    {/* ── Hero ──────────────────────────────────────── */}
                     <div className="text-center mb-12">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                             {isArabic ? 'مدونة كايرو فولت' : 'CairoVolt Blog'}
@@ -95,80 +108,31 @@ export default async function BlogPage({ params }: Props) {
                                 ? 'أدلة شراء شاملة، مقارنات، ونصائح لاختيار أفضل اكسسوارات الموبايل في مصر'
                                 : 'Complete buying guides, comparisons, and tips for choosing the best mobile accessories in Egypt'}
                         </p>
+                        {/* Article count badge */}
+                        <div className="mt-4 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            {isArabic ? `${totalArticles} تدوينة` : `${totalArticles} articles`}
+                        </div>
                     </div>
 
-                    {/* Articles Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6 max-w-6xl mx-auto">
-                        {sortedArticles.map((article) => {
-                            const trans = article.translations[isArabic ? 'ar' : 'en'];
-                            const catLabel = categoryLabels[article.category];
+                    {/* ── Client-side paginated grid ────────────────── */}
+                    {/*
+                     * SEO STRATEGY:
+                     * - Only /blog is indexed (canonical set above).
+                     * - Pagination is pure client-side JS state — no URL segments
+                     *   like /blog/2 or ?page=2 are ever created or crawled.
+                     * - Individual article pages /blog/[slug] carry full SEO weight.
+                     * - Google sees all articles via sitemap.ts, not via paginated pages.
+                     */}
+                    <BlogPagination
+                        articles={sortedArticles}
+                        isArabic={isArabic}
+                        locale={locale}
+                        categoryLabels={categoryLabels}
+                    />
 
-                            return (
-                                <Link
-                                    key={article.slug}
-                                    href={getLocalizedHref(`/blog/${article.slug}`)}
-                                    className="group bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                                >
-                                    {/* Cover Image */}
-                                    <div className="relative aspect-[1.91/1] overflow-hidden bg-gradient-to-br from-blue-600/10 to-purple-600/10">
-                                        {article.coverImage ? (
-                                            <Image
-                                                src={article.coverImage}
-                                                alt={trans.title}
-                                                fill
-                                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                                loading="lazy"
-                                            />
-                                        ) : (
-                                            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center">
-                                                <SvgIcon name={catLabel.icon} className="w-16 h-16 text-white/20" />
-                                            </div>
-                                        )}
-                                        {/* Gradient overlay */}
-                                        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-                                        {/* Category Badge on image */}
-                                        <div className="absolute top-3 start-3">
-                                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-white/90 dark:bg-gray-900/80 backdrop-blur-sm text-blue-700 dark:text-blue-300 shadow-sm">
-                                                <SvgIcon name={catLabel.icon} className="w-3.5 h-3.5" /> {isArabic ? catLabel.ar : catLabel.en}
-                                            </span>
-                                        </div>
-                                        {/* Reading time on image */}
-                                        <div className="absolute bottom-3 end-3">
-                                            <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-black/50 backdrop-blur-sm text-white">
-                                                {isArabic ? `${article.readingTime} د` : `${article.readingTime} min`}
-                                            </span>
-                                        </div>
-                                    </div>
-
-                                    {/* Content */}
-                                    <div className="p-6 md:p-5">
-                                        <h2 className="text-lg md:text-base font-bold text-gray-900 dark:text-white mb-3 md:mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 leading-snug">
-                                            {trans.title}
-                                        </h2>
-                                        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 md:mb-3 line-clamp-2">
-                                            {trans.excerpt}
-                                        </p>
-
-                                        {/* Meta */}
-                                        <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 pt-3 border-t border-gray-100 dark:border-gray-700">
-                                            <span>
-                                                {new Date(article.modifiedDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US', {
-                                                    year: 'numeric',
-                                                    month: 'short',
-                                                    day: 'numeric',
-                                                })}
-                                            </span>
-                                            <span className="flex items-center gap-1 text-blue-600 dark:text-blue-400 font-medium group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5 transition-transform">
-                                                {isArabic ? 'اقرأ المزيد' : 'Read more'}
-                                                <svg className="w-3.5 h-3.5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </Link>
-                            );
-                        })}
-                    </div>
                 </div>
             </main>
         </>
