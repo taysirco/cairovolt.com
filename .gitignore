@@ -85,6 +85,9 @@ cairovolt-authenticator.zip
 # Seed data & utility/audit scripts (root-level only)
 /data/
 /scripts/
+# Exception: GitHub Actions scripts must be tracked
+!/scripts/detect-new-articles.mjs
+!/scripts/post-to-social.mjs
 
 # Internal strategy & analysis
 analysis_data/
