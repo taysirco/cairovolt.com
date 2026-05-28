@@ -146,6 +146,13 @@ export function buildManifest(opts: {
                         url: 'https://cairovolt.com',
                         sameAs: [
                             'https://www.facebook.com/cairovolt',
+                            'https://www.instagram.com/cairovolt',
+                            'https://www.tiktok.com/@cairovolt',
+                            'https://www.linkedin.com/company/cairovolt',
+                            'https://kaggle.com/cairovolt',
+                            'https://wa.me/201558245974',
+                            'https://x.com/cairovolt',
+                            'https://www.youtube.com/@cairovolt',
                         ],
                     },
                 ],

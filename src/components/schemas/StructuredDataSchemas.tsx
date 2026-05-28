@@ -385,7 +385,6 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         paymentAccepted: ['Cash on Delivery', 'الدفع عند الاستلام'],
         priceRange: '$$',
         slogan: isArabic ? 'الوكيل المعتمد لأنكر وجوي روم في مصر — مختبرياً' : 'Authorized Anker & Joyroom Dealer in Egypt — Lab Tested',
-        hasMap: 'https://maps.app.goo.gl/cairovolt',
         sameAs: [
             'https://www.facebook.com/cairovolt',
             'https://www.instagram.com/cairovolt',
@@ -393,6 +392,8 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
             'https://www.linkedin.com/company/cairovolt',
             'https://kaggle.com/cairovolt',
             'https://wa.me/201558245974',
+            'https://x.com/cairovolt',
+            'https://www.youtube.com/@cairovolt',
         ],
         openingHoursSpecification: [
             {

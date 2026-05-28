@@ -251,36 +251,7 @@ export default async function RootLayout({
           }}
         />
 
-        {/* ══════════════════════════════════════════════════════════════
-           Facebook SDK — DEFERRED to lazyOnload for performance
-           Replace {your-app-id} with your actual Facebook App ID
-           ══════════════════════════════════════════════════════════════ */}
-        <Script
-          id="facebook-sdk"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.fbAsyncInit = function() {
-                FB.init({
-                  appId      : '{your-app-id}',
-                  cookie     : true,
-                  xfbml      : true,
-                  version    : 'v22.0'
-                });
-                if (typeof FB.AppEvents !== 'undefined') {
-                  FB.AppEvents.logPageView();
-                }
-              };
-              (function(d, s, id){
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) {return;}
-                js = d.createElement(s); js.id = id;
-                js.src = "https://connect.facebook.net/en_US/sdk.js";
-                fjs.parentNode.insertBefore(js, fjs);
-              }(document, 'script', 'facebook-jssdk'));
-            `
-          }}
-        />
+        {/* Facebook SDK — removed (placeholder app ID was causing silent errors on every page load) */}
 
         {/* WebMCP — navigator.modelContext.registerTool() */}
         {/* MUST be inline — scanners need registerTool in static HTML source */}

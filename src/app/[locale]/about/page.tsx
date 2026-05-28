@@ -320,7 +320,7 @@ export default function AboutPage() {
                                         </span>
                                         <div>
                                             <p className="font-bold text-sm">{isArabic ? 'واتساب' : 'WhatsApp'}</p>
-                                            <p className="text-sm text-gray-500" dir="ltr">+20 106 337 4834</p>
+                                            <p className="text-sm text-gray-500" dir="ltr">+201558245974</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-3">

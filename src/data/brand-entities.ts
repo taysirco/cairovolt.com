@@ -50,6 +50,8 @@ const brands: Record<string, EntityRef> = {
             'https://www.linkedin.com/company/cairovolt',
             'https://kaggle.com/cairovolt',
             'https://wa.me/201558245974',
+            'https://x.com/cairovolt',
+            'https://www.youtube.com/@cairovolt',
         ],
     },
     apple: {
