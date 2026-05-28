@@ -27,7 +27,6 @@ export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: Deliv
 
     // Timestamps
     const lastUpdated = pulse.timestamp;
-    const priceValidUntil = new Date(Date.now() + 86400000).toISOString();
 
     // NOTE: WebPage schema removed — this component previously injected a separate
     // WebPage with dateModified: lastUpdated (dynamic), causing Trust Score instability.

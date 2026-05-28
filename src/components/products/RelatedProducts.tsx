@@ -26,7 +26,6 @@ interface RelatedProductsProps {
 
 export default function RelatedProducts({ products, locale }: RelatedProductsProps) {
     const isArabic = locale === 'ar';
-    const tCommon = useTranslations('Common');
 
     // Ensure we don't show empty section
     if (!products || products.length === 0) return null;
