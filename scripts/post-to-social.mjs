@@ -87,15 +87,64 @@ async function fbPost(endpoint, body) {
 // ─── 1. نشر على Facebook Page ────────────────────────────────────────────────
 async function postToFacebook() {
   console.log('\n📘 النشر على Facebook Page...');
-  
-  const postText = buildPostText();
-  
-  const body = {
-    message: postText,
-    link: ARTICLE_URL,  // Facebook يجلب الـ preview تلقائياً من Open Graph
-  };
 
-  const result = await fbPost(`${FB_PAGE_ID}/feed`, body);
+  const postText = buildPostText();
+
+  // الخطوة 1: إجبار Facebook على قراءة OG tags الجديدة (مسح cache القديم)
+  if (!DRY_RUN && COVER_URL) {
+    console.log('  🔄 تحديث Facebook OG cache...');
+    try {
+      const scrapeUrl = `https://graph.facebook.com/v21.0/?id=${encodeURIComponent(ARTICLE_URL)}&scrape=true&access_token=${FB_PAGE_ACCESS_TOKEN}`;
+      const scrapeRes = await fetch(scrapeUrl, { method: 'POST' });
+      const scrapeData = await scrapeRes.json();
+      if (scrapeData.og_object) {
+        console.log('  ✅ Cache محدّث بنجاح');
+      } else {
+        console.log('  ⚠️ Scrape: ' + JSON.stringify(scrapeData).slice(0, 100));
+      }
+    } catch (e) {
+      console.log(`  ⚠️ Scrape فشل: ${e.message} — متابعة...`);
+    }
+    await new Promise(r => setTimeout(r, 2000));
+  }
+
+  let result;
+
+  // الخطوة 2: رفع صورة الغلاف مباشرة (يضمن ظهورها بدون الاعتماد على cache)
+  if (COVER_URL && !DRY_RUN) {
+    console.log('  📸 رفع صورة الغلاف مباشرة على Facebook...');
+    const photoRes = await fetch(`https://graph.facebook.com/v21.0/${FB_PAGE_ID}/photos`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        url: COVER_URL,
+        published: false,
+        access_token: FB_PAGE_ACCESS_TOKEN,
+      }),
+    });
+    const photoData = await photoRes.json();
+
+    if (photoData.id && !photoData.error) {
+      console.log(`  ✅ Photo ID: ${photoData.id} — ربط بالمنشور...`);
+      result = await fbPost(`${FB_PAGE_ID}/feed`, {
+        message: postText,
+        link: ARTICLE_URL,
+        attached_media: [{ media_fbid: photoData.id }],
+      });
+    } else {
+      console.log(`  ⚠️ رفع الصورة فشل: ${JSON.stringify(photoData.error)} — نشر بالـ link فقط`);
+      result = await fbPost(`${FB_PAGE_ID}/feed`, {
+        message: postText,
+        link: ARTICLE_URL,
+      });
+    }
+  } else {
+    result = await fbPost(`${FB_PAGE_ID}/feed`, {
+      message: postText,
+      link: ARTICLE_URL,
+    });
+  }
+
   console.log(`✅ Facebook: نُشر بنجاح! Post ID: ${result.id}`);
   return result.id;
 }
