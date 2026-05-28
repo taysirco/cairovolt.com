@@ -98,9 +98,23 @@
 
 ---
 
-## 🚀 الخطوة 16-A — عدّ الكلمات (إلزامي قبل Build)
+## 🚀 الخطوة 16-A — بوابة التدقيق (إلزامي قبل Build)
 
 > 🔴 **هذه الخطوة غير قابلة للتخطّي.** لا يُقبل التخمين أو التقدير — شغّل الأمر وتحقق من الرقم الفعلي.
+
+**البوابة الرسمية (استخدم هذه):**
+
+```bash
+# تدقيق شامل لمقال واحد: عدّ الكلمات + i18n leaks + FAQ=4 + quickAnswer + coverImage + relatedArticles
+npm run audit:blog {slug}
+
+# أو تدقيق كل المقالات المنشورة دفعة واحدة:
+npm run audit:blog
+```
+
+> السكربت (`scripts/audit-blog.js`) يفشل بـ `exit 1` لو أي شرط لم يتحقق: AR < 1,500 · EN < 1,500 · تسريب `/en/` في AR أو غيابه في EN · FAQ ≠ 4 لكل لغة · غياب `quickAnswer` أو `coverImage` · `relatedArticles` ≠ 3. **فشل = توقّف وأصلح، لا تكمل للـ build.**
+
+<details><summary>أمر عدّ الكلمات اليدوي (احتياطي — لو السكربت غير متاح)</summary>
 
 ```bash
 # شغّل هذا الأمر بعد كتابة المقال مباشرةً — قبل npm run build
@@ -119,6 +133,8 @@ if (ar < 1500 || en < 1500) { console.log('\\n🚫 BLOCKED — أضف محتوى
 else console.log('\\n✅ PASS — متابعة للـ build');
 "
 ```
+
+</details>
 
 **القاعدة الصارمة:**
 - 🚫 AR < 1,500 كلمة → **أضف أقساماً جديدة — لا تتابع**
@@ -226,7 +242,7 @@ git push origin main
 
 ## 🗺️ المحتوى الحي — قائمة المنشور والخطة
 
-> القائمة الكاملة (52+ مقال منشور + 101 موضوع مخطط + العناقيد + Auto-Workflow) **انتقلت إلى ملف منفصل** ليبقى هذا الملف خفيفاً ومستقراً:
+> القائمة الكاملة (55 مقال منشور + 228 موضوع مخطط + العناقيد + Auto-Workflow) **انتقلت إلى ملف منفصل** ليبقى هذا الملف خفيفاً ومستقراً:
 >
 > 🗺️ **[`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md)** — اقرأه لاختيار الموضوع التالي.
 >
@@ -535,7 +551,7 @@ export interface BlogArticle {
 
 #### 🎧 قاعدة Soundcore (إلزامية) — حدد الـ URL حسب نية القارئ
 
-> Soundcore هي علامة الصوتيات الفرعية من Anker. بعد **v3 Migration (مايو 2027)**: المنتجات أصبحت `brand: "Soundcore"` (31 منتج) والـ URLs انتقلت لـ `/soundcore/audio` و `/soundcore/speakers` مع 301 redirects من المسارات القديمة `/anker/audio` و `/anker/speakers`. الموقع عنده **3 URLs مختلفة** لأي رابط صوتي. اختيار الـ URL الغلط = إهدار authority + entity dilution.
+> Soundcore هي علامة الصوتيات الفرعية من Anker. بعد **v3 Migration (مايو 2026)**: المنتجات أصبحت `brand: "Soundcore"` (31 منتج) والـ URLs انتقلت لـ `/soundcore/audio` و `/soundcore/speakers` مع 301 redirects من المسارات القديمة `/anker/audio` و `/anker/speakers`. الموقع عنده **3 URLs مختلفة** لأي رابط صوتي. اختيار الـ URL الغلط = إهدار authority + entity dilution.
 
 | نية القارئ (في النص) | استخدم هذا الـ URL | مثال |
 |---|---|---|
@@ -624,16 +640,7 @@ export interface BlogArticle {
 
 **`relatedArticles`:** 3 بالضبط · بمنطق العنقود الموضوعي · نوّع لتغطي الموقع.
 
-**العناقيد الموضوعية (محدّث — 52 مقال):**
-
-| العنقود | المقالات |
-|---------|----------|
-| 1. Power Banks (17 مقال) | `best-power-bank-egypt-2026` · `best-power-bank-router-power-outage-egypt` · `how-to-charge-power-bank-correctly` · `power-bank-10000mah-real-capacity-myth` · `power-bank-airplane-rules-egypt-2026` · `can-power-bank-charge-laptop-guide` · `best-power-bank-under-1000-egp-egypt` · `best-100w-fast-charge-power-bank-iphone-samsung` · `galaxy-s26-ultra-vs-iphone-17-pro-max-power-bank-needs` · `magsafe-magnetic-power-bank-worth-extra-cost` · `power-bank-for-photographers-dslr-cameras` · `power-bank-gaming-pubg-freefire-cooling` · `5000-vs-10000-vs-20000-mah-which-capacity` · `20000mah-power-bank-iphone-17-pro-max-charges` · `power-bank-with-digital-display-worth-it` · `power-bank-charge-4-devices-simultaneously` · `why-power-bank-dies-after-6-months-mistakes` |
-| 2. Chargers (18 مقال) | `best-iphone-17-charger-egypt` · `best-samsung-s26-charger` · `gan-charger-technology-guide-egypt` · `the-hidden-truth-about-gan-chargers-ahmed-medhat` · `best-car-charger-egypt-2026` · `best-fast-chargers-for-samsung-s26-yahya-radwan` · `does-fast-charging-damage-battery-truth` · `why-phone-charging-slowly-causes-solutions` · `protect-phone-from-heat-summer-egypt` · `best-gan-multi-port-chargers-office-home-egypt` · `iphone-17-pro-max-charger-20w-30w-45w-which` · `20w-30w-45w-65w-100w-charger-which-you-need` · `2-in-1-wireless-charger-phone-watch-bedside` · `charge-phone-overnight-safe-or-not` · `samsung-s26-ultra-45w-super-fast-charging-real` · `slimmest-100w-laptop-gan-chargers-egypt` · `xiaomi-redmi-note-13-pro-best-charger-egypt` · `hyperjuice-professional-charger-when-need-it` |
-| 3. Cables (7 مقالات) | `usb-c-cable-guide-egypt-2026` · `why-charging-cable-breaks-fast-causes-fixes` · `usb-c-240w-cable-gaming-laptop-when-need` · `3-meter-charging-cable-bed-living-room` · `magnetic-cable-car-charging-pros-cons` · `usb-c-lightning-vs-usb-c-usb-c-faster` · *(+ مقالات الكابلات القادمة من الـ roadmap)* |
-| 4. Authenticity (4 مقالات) | `how-to-identify-original-anker` · `how-to-spot-fake-chargers-7-tests` · `original-vs-fake-apple-charger-egypt` · `do-fake-chargers-damage-iphone-battery` |
-| 5. Audio / Soundcore (2 مقال) | `best-bluetooth-earbuds-egypt-2026` · `soundcore-models-guide-egypt-2026` — الهب: [`/soundcore`](/soundcore) |
-| 6. Brand & Market (4 مقالات) | `anker-vs-joyroom-comparison` · `anker-vs-joyroom-power-banks-12-models-tested` · `why-anker-chargers-disappear-egyptian-markets` · `protect-charger-egypt-voltage-fluctuation-summer` · `travel-charger-usb-c-usb-a-sahel-trip` |
+> 🕸️ **العناقيد الموضوعية = مصدر واحد للحقيقة:** الجدول الكامل والمحدّث في [`cairovolt-blog-roadmap.md` → قسم «العناقيد الموضوعية (Topic Clusters)»](cairovolt-blog-roadmap.md#-العناقيد-الموضوعية-topic-clusters). **لا تكرّر الجدول هنا** (كان يسبب drift). القاعدة الثابتة: المقال الجديد يربط بـ 3 مقالات من نفس عنقوده.
 
 ---
 
@@ -951,7 +958,7 @@ export const your_new_article_slug: BlogArticle = {
 | [`content-laws.md`](content-laws.md) | القوانين العابرة (i18n + Bilingual + Voice + Authority + Anti-AI) — **اقرأه قبل أي كتابة** |
 | [`voice.md`](voice.md) | المرجع الكنوني لـ Voice & Tone (DNA الأسلوب + الفكاهة) — **إلزامي** |
 | [`cairovolt_content_blueprint.md`](cairovolt_content_blueprint.md) | Burstiness + Information Gain + AEO + NLP المصري + E-E-A-T |
-| [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md) | قائمة الـ 101 موضوع + المنشور + العناقيد + Auto-Workflow |
+| [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md) | قائمة الـ 228 موضوع + المنشور + العناقيد + Auto-Workflow |
 | [`new_product_guide.md`](new_product_guide.md) | إضافة منتج جديد |
 | [`src/data/blog/_types.ts`](src/data/blog/_types.ts) | TypeScript Schema |
 | [`src/data/blog-articles.ts`](src/data/blog-articles.ts) | Barrel file |

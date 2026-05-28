@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "audit:blog": "node scripts/audit-blog.js"
   },
   "dependencies": {
     "@google-cloud/secret-manager": "^6.1.1",

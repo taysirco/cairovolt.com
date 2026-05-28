@@ -58,6 +58,7 @@ import { magnetic_cable_car_charging_pros_cons } from './blog/magnetic-cable-car
 import { usb_c_lightning_vs_usb_c_usb_c_faster } from './blog/usb-c-lightning-vs-usb-c-usb-c-faster';
 import { protect_cables_car_summer_heat_cairo } from './blog/protect-cables-car-summer-heat-cairo';
 import { short_30cm_cable_power_bank_extends_life } from './blog/short-30cm-cable-power-bank-extends-life';
+import { usb_c_240w_thunderbolt_port_difference } from './blog/usb-c-240w-thunderbolt-port-difference';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -114,6 +115,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     usb_c_lightning_vs_usb_c_usb_c_faster,
     protect_cables_car_summer_heat_cairo,
     short_30cm_cable_power_bank_extends_life,
+    usb_c_240w_thunderbolt_port_difference,
 ];
 
 

@@ -18,11 +18,12 @@
 4. **اقرأ [`cairovolt-blog.md`](cairovolt-blog.md)** للـ 17 خطوة Workflow + Schema + Templates
 5. اعثر على أول ⬜ في القائمة أدناه
 6. نفّذ كامل الـ Workflow بدون توقف
-7. **تأكد أن المحتوى ≥ 1,200 كلمة لكل لغة**
-8. شغّل `npm run build` للتحقق
-9. اعمل commit + push على GitHub
-10. **حدّث هذا الملف:** استبدل ⬜ بـ `✅ → slug: {final-slug}` (سطر واحد فقط بـ Edit tool)
-11. قدّم تقرير 5 أسطر
+7. **تأكد أن المحتوى ≥ 1,500 كلمة لكل لغة** (القاعدة غير القابلة للكسر)
+8. شغّل `npm run audit:blog {slug}` — البوابة الحقيقية (تفشل = توقّف وأصلح، لا تكمل)
+9. شغّل `npm run build` للتحقق
+10. اعمل commit + push على GitHub
+11. **حدّث هذا الملف:** استبدل ⬜ بـ `✅ → slug: {final-slug}` (سطر واحد فقط بـ Edit tool)
+12. قدّم تقرير 5 أسطر
 
 **Trigger Phrases:** "اكتب موضوع جديد/تدوينة جديدة" · "اكمل المدونة" · "اكتب التدوينة التالية" · "ابدأ موضوع من القائمة" · "Write the next blog post" · "اكتب موضوع #N".
 
@@ -34,7 +35,7 @@
 
 > **لا تُعد كتابتها.** مصدر الحقيقة: `src/data/blog/*.ts` + `src/data/blog-articles.ts`. عند التضارب → اعتمد الكود وحدّث هذه القائمة.
 
-`anker-vs-joyroom-comparison` · `best-bluetooth-earbuds-egypt-2026` · `best-car-charger-egypt-2026` · `best-fast-chargers-for-samsung-s26-yahya-radwan` · `best-iphone-17-charger-egypt` · `best-power-bank-egypt-2026` · `best-power-bank-router-power-outage-egypt` · `best-samsung-s26-charger` · `can-power-bank-charge-laptop-guide` · `do-fake-chargers-damage-iphone-battery` · `does-fast-charging-damage-battery-truth` · `gan-charger-technology-guide-egypt` · `how-to-charge-power-bank-correctly` · `how-to-identify-original-anker` · `how-to-spot-fake-chargers-7-tests` · `original-vs-fake-apple-charger-egypt` · `power-bank-10000mah-real-capacity-myth` · `power-bank-airplane-rules-egypt-2026` · `protect-phone-from-heat-summer-egypt` · `soundcore-models-guide-egypt-2026` · `the-hidden-truth-about-gan-chargers-ahmed-medhat` · `usb-c-cable-guide-egypt-2026` · `why-charging-cable-breaks-fast-causes-fixes` · `why-phone-charging-slowly-causes-solutions`
+`2-in-1-wireless-charger-phone-watch-bedside` · `20000mah-power-bank-iphone-17-pro-max-charges` · `20w-30w-45w-65w-100w-charger-which-you-need` · `3-meter-charging-cable-bed-living-room` · `5000-vs-10000-vs-20000-mah-which-capacity` · `anker-vs-joyroom-comparison` · `anker-vs-joyroom-power-banks-12-models-tested` · `best-100w-fast-charge-power-bank-iphone-samsung` · `best-bluetooth-earbuds-egypt-2026` · `best-car-charger-egypt-2026` · `best-fast-chargers-for-samsung-s26-yahya-radwan` · `best-gan-multi-port-chargers-office-home-egypt` · `best-iphone-17-charger-egypt` · `best-power-bank-egypt-2026` · `best-power-bank-router-power-outage-egypt` · `best-power-bank-under-1000-egp-egypt` · `best-samsung-s26-charger` · `can-power-bank-charge-laptop-guide` · `charge-phone-overnight-safe-or-not` · `do-fake-chargers-damage-iphone-battery` · `does-fast-charging-damage-battery-truth` · `galaxy-s26-ultra-vs-iphone-17-pro-max-power-bank-needs` · `gan-charger-technology-guide-egypt` · `how-to-charge-power-bank-correctly` · `how-to-identify-original-anker` · `how-to-spot-fake-chargers-7-tests` · `hyperjuice-professional-charger-when-need-it` · `iphone-17-pro-max-charger-20w-30w-45w-which` · `magnetic-cable-car-charging-pros-cons` · `magsafe-magnetic-power-bank-worth-extra-cost` · `original-vs-fake-apple-charger-egypt` · `power-bank-10000mah-real-capacity-myth` · `power-bank-airplane-rules-egypt-2026` · `power-bank-charge-4-devices-simultaneously` · `power-bank-for-photographers-dslr-cameras` · `power-bank-gaming-pubg-freefire-cooling` · `power-bank-with-digital-display-worth-it` · `protect-cables-car-summer-heat-cairo` · `protect-charger-egypt-voltage-fluctuation-summer` · `protect-phone-from-heat-summer-egypt` · `samsung-s26-ultra-45w-super-fast-charging-real` · `short-30cm-cable-power-bank-extends-life` · `slimmest-100w-laptop-gan-chargers-egypt` · `soundcore-models-guide-egypt-2026` · `the-hidden-truth-about-gan-chargers-ahmed-medhat` · `travel-charger-usb-c-usb-a-sahel-trip` · `usb-c-240w-cable-gaming-laptop-when-need` · `usb-c-240w-thunderbolt-port-difference` · `usb-c-cable-guide-egypt-2026` · `usb-c-lightning-vs-usb-c-usb-c-faster` · `why-anker-chargers-disappear-egyptian-markets` · `why-charging-cable-breaks-fast-causes-fixes` · `why-phone-charging-slowly-causes-solutions` · `why-power-bank-dies-after-6-months-mistakes` · `xiaomi-redmi-note-13-pro-best-charger-egypt`
 
 ---
 
@@ -73,7 +74,7 @@
 28. ✅ → slug: `usb-c-lightning-vs-usb-c-usb-c-faster`
 29. ✅ → slug: `protect-cables-car-summer-heat-cairo`
 30. ✅ → slug: `short-30cm-cable-power-bank-extends-life`
-31. ⬜ مش كل منفذ USB-C واحد — إزاي تفرق بين 240W و Thunderbolt والعادي؟ → `usb-c-240w-thunderbolt-port-difference`
+31. ✅ → slug: `usb-c-240w-thunderbolt-port-difference`
 32. ⬜ تجربة واقعية: كابل Joyroom Speedy Series بعد 90 يوم استخدام يومي في حر مصر → `joyroom-speedy-cable-3-months-review`
 33. ⬜ شحن اللابتوب في العربية — دليل اختيار شاحن 100W لرحلات الطريق الطويلة → `car-charger-100w-laptop-sahel-trip`
 34. ⬜ حامل سيارة مغناطيسي بشحن لاسلكي — الحقيقة قبل ما تدفع ثمنه → `magnetic-car-phone-holder-wireless-charging`
@@ -281,11 +282,14 @@
 
 | العنقود | المقالات |
 |---------|----------|
-| 1. Power Banks | `best-power-bank-egypt-2026` · `best-power-bank-router-power-outage-egypt` · `how-to-charge-power-bank-correctly` · `power-bank-10000mah-real-capacity-myth` · `power-bank-airplane-rules-egypt-2026` · `can-power-bank-charge-laptop-guide` |
-| 2. Chargers | `best-iphone-17-charger-egypt` · `best-samsung-s26-charger` · `gan-charger-technology-guide-egypt` · `the-hidden-truth-about-gan-chargers-ahmed-medhat` · `best-car-charger-egypt-2026` |
-| 3. Cables | `usb-c-cable-guide-egypt-2026` · `why-charging-cable-breaks-fast-causes-fixes` |
-| 4. Authenticity | `how-to-identify-original-anker` · `how-to-spot-fake-chargers-7-tests` · `original-vs-fake-apple-charger-egypt` · `do-fake-chargers-damage-iphone-battery` |
+| 1. Power Banks | `best-power-bank-egypt-2026` · `best-power-bank-router-power-outage-egypt` · `how-to-charge-power-bank-correctly` · `power-bank-10000mah-real-capacity-myth` · `power-bank-airplane-rules-egypt-2026` · `can-power-bank-charge-laptop-guide` · `best-power-bank-under-1000-egp-egypt` · `best-100w-fast-charge-power-bank-iphone-samsung` · `magsafe-magnetic-power-bank-worth-extra-cost` · `power-bank-for-photographers-dslr-cameras` · `power-bank-gaming-pubg-freefire-cooling` · `5000-vs-10000-vs-20000-mah-which-capacity` · `20000mah-power-bank-iphone-17-pro-max-charges` · `power-bank-with-digital-display-worth-it` · `power-bank-charge-4-devices-simultaneously` · `why-power-bank-dies-after-6-months-mistakes` · `anker-vs-joyroom-power-banks-12-models-tested` |
+| 2. Chargers | `best-iphone-17-charger-egypt` · `best-samsung-s26-charger` · `gan-charger-technology-guide-egypt` · `the-hidden-truth-about-gan-chargers-ahmed-medhat` · `best-car-charger-egypt-2026` · `iphone-17-pro-max-charger-20w-30w-45w-which` · `best-gan-multi-port-chargers-office-home-egypt` · `travel-charger-usb-c-usb-a-sahel-trip` · `20w-30w-45w-65w-100w-charger-which-you-need` · `samsung-s26-ultra-45w-super-fast-charging-real` · `slimmest-100w-laptop-gan-chargers-egypt` · `why-anker-chargers-disappear-egyptian-markets` · `xiaomi-redmi-note-13-pro-best-charger-egypt` · `hyperjuice-professional-charger-when-need-it` · `protect-charger-egypt-voltage-fluctuation-summer` · `best-fast-chargers-for-samsung-s26-yahya-radwan` |
+| 3. Cables | `usb-c-cable-guide-egypt-2026` · `why-charging-cable-breaks-fast-causes-fixes` · `usb-c-240w-cable-gaming-laptop-when-need` · `3-meter-charging-cable-bed-living-room` · `magnetic-cable-car-charging-pros-cons` · `usb-c-lightning-vs-usb-c-usb-c-faster` · `protect-cables-car-summer-heat-cairo` · `short-30cm-cable-power-bank-extends-life` · `usb-c-240w-thunderbolt-port-difference` |
+| 4. Authenticity | `how-to-identify-original-anker` · `how-to-spot-fake-chargers-7-tests` · `original-vs-fake-apple-charger-egypt` · `do-fake-chargers-damage-iphone-battery` · `anker-vs-joyroom-comparison` |
 | 5. Audio (🎧 Soundcore family — الهب `/soundcore`) | `best-bluetooth-earbuds-egypt-2026` · `soundcore-models-guide-egypt-2026` — مقالات هذا العنقود يجب أن تربط بـ [`/soundcore`](/soundcore) في النص للهب، وبـ `/soundcore/audio` أو `/soundcore/speakers` للمنتجات. راجع [`SOUNDCORE-STRATEGY.md`](SOUNDCORE-STRATEGY.md) + [`cairovolt-blog.md`](cairovolt-blog.md) §10. |
+| 6. Wireless Charging | `2-in-1-wireless-charger-phone-watch-bedside` |
+| 7. Battery & Safety | `does-fast-charging-damage-battery-truth` · `charge-phone-overnight-safe-or-not` · `protect-phone-from-heat-summer-egypt` · `why-phone-charging-slowly-causes-solutions` |
+| 8. Phone-Specific | `galaxy-s26-ultra-vs-iphone-17-pro-max-power-bank-needs` |
 
 ---
 
