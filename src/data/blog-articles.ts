@@ -56,6 +56,7 @@ import { usb_c_240w_cable_gaming_laptop_when_need } from './blog/usb-c-240w-cabl
 import { three_meter_charging_cable_bed_living_room } from './blog/3-meter-charging-cable-bed-living-room';
 import { magnetic_cable_car_charging_pros_cons } from './blog/magnetic-cable-car-charging-pros-cons';
 import { usb_c_lightning_vs_usb_c_usb_c_faster } from './blog/usb-c-lightning-vs-usb-c-usb-c-faster';
+import { protect_cables_car_summer_heat_cairo } from './blog/protect-cables-car-summer-heat-cairo';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -110,6 +111,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     three_meter_charging_cable_bed_living_room,
     magnetic_cable_car_charging_pros_cons,
     usb_c_lightning_vs_usb_c_usb_c_faster,
+    protect_cables_car_summer_heat_cairo,
 ];
 
 
