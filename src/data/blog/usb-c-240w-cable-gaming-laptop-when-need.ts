@@ -238,7 +238,7 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
-    <ul style="margin:0;padding-right:20px;color:#6b7280;">
+    <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.usb.org/document-library/usb-power-delivery" rel="nofollow">USB-IF Power Delivery Specification Rev 3.1</a></li>
         <li><a href="https://www.anker.com/blogs/cables" rel="nofollow">Anker Cable Technology Blog</a></li>
     </ul>
@@ -463,7 +463,7 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
-    <ul style="margin:0;padding-left:20px;color:#6b7280;">
+    <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://www.usb.org/document-library/usb-power-delivery" rel="nofollow">USB-IF Power Delivery Specification Rev 3.1</a></li>
         <li><a href="https://www.anker.com/blogs/cables" rel="nofollow">Anker Cable Technology Blog</a></li>
     </ul>

@@ -101,7 +101,7 @@ export default async function RootLayout({
         <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
         <link rel="dns-prefetch" href="https://firestore.googleapis.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
         <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
@@ -175,7 +175,7 @@ export default async function RootLayout({
            ══════════════════════════════════════════════════════════════ */}
         <Script
           id="dom-patch"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               if (typeof window !== 'undefined') {
@@ -248,9 +248,10 @@ export default async function RootLayout({
         {/* Facebook SDK — removed (placeholder app ID was causing silent errors on every page load) */}
 
         {/* WebMCP — navigator.modelContext.registerTool() */}
-        {/* MUST be inline — scanners need registerTool in static HTML source */}
-        <script
+        {/* Deferred to lazyOnload — AI agents can still discover tools after page loads */}
+        <Script
           id="webmcp-tools"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               (function() {

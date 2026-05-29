@@ -191,7 +191,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
-    <ul style="margin:0;padding-right:20px;color:#6b7280;">
+    <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.mi.com/global/product/redmi-note-13-pro" rel="nofollow">Xiaomi Redmi Note 13 Pro — المواصفات الرسمية</a></li>
         <li><a href="https://www.gsmarena.com/xiaomi_redmi_note_13_pro-11919.php" rel="nofollow">GSMArena — Xiaomi Redmi Note 13 Pro Review</a></li>
         <li><a href="https://www.tomshardware.com/reviews/best-usb-c-chargers" rel="nofollow">Tom's Hardware — Best USB-C Chargers 2026</a></li>
@@ -380,7 +380,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
-    <ul style="margin:0;padding-left:20px;color:#6b7280;">
+    <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://www.mi.com/global/product/redmi-note-13-pro" rel="nofollow">Xiaomi Redmi Note 13 Pro — Official Specifications</a></li>
         <li><a href="https://www.gsmarena.com/xiaomi_redmi_note_13_pro-11919.php" rel="nofollow">GSMArena — Xiaomi Redmi Note 13 Pro Review</a></li>
         <li><a href="https://www.tomshardware.com/reviews/best-usb-c-chargers" rel="nofollow">Tom's Hardware — Best USB-C Chargers 2026</a></li>

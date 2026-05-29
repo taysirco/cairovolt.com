@@ -296,7 +296,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                 }
                 .verified-badge {
                     background: #dcfce7;
-                    color: #16a34a;
+                    color: #15803d;
                     font-size: 12px;
                     padding: 2px 8px;
                     border-radius: 20px;
@@ -307,7 +307,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                     gap: 12px;
                 }
                 .review-date {
-                    color: #9ca3af;
+                    color: #6b7280;
                     font-size: 13px;
                 }
                 .review-title {
@@ -337,7 +337,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                     margin: 0;
                 }
                 .pros li {
-                    color: #16a34a;
+                    color: #15803d;
                     font-size: 14px;
                     padding: 2px 0;
                 }
@@ -351,7 +351,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                     margin-left: 4px;
                 }
                 .review-location {
-                    color: #9ca3af;
+                    color: #6b7280;
                     font-size: 13px;
                 }
                 .btn-show-more {

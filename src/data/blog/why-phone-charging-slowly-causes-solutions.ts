@@ -36,7 +36,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 
 <p>الساعة 7 الصبح. منبه الموبايل بيرن. بتمد إيدك تشيل الموبايل من على الشاحن وبتلاقيه 43% بس — رغم إنه كان موصول <strong>الليل كله</strong>.</p>
 <p>لو حصلتلك الموقف ده — إنت مش لوحدك. ده أكتر سؤال بنسمعه في كايرو فولت:</p>
-<blockquote style="border-right:3px solid #9ca3af;padding:10px 16px;margin:16px 0;color:#6b7280;font-style:italic">"أنا اشتريت الشاحن من عندكم من أسبوع وبيشحن ببطء — أكيد فيه مشكلة!"</blockquote>
+<blockquote style="border-right:3px solid #9ca3af;padding:10px 16px;margin:16px 0;color:#4b5563;font-style:italic">"أنا اشتريت الشاحن من عندكم من أسبوع وبيشحن ببطء — أكيد فيه مشكلة!"</blockquote>
 
 <div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>📊 بيانات حقيقية من فريق الدعم:</strong> حللنا آخر 500 تذكرة دعم فني وصلتنا بخصوص "الشحن البطيء". النتيجة فاجأتنا:</p>
@@ -139,7 +139,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 <p>وأهم حاجة: <strong>مش كل "شحن بطيء" معناه مشكلة</strong>. لو موبايلك بيوصل من 0 لـ 50% في أقل من 30 دقيقة — ده طبيعي وممتاز.</p>
 
 <h3>المصادر</h3>
-<ul style="font-size:13px;color:#6b7280">
+<ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — Power Delivery Specifications (بالإنجليزية)</a></li>
     <li><a href="https://support.apple.com/ar-eg/108055" target="_blank" rel="noopener">Apple — About Optimized Battery Charging</a></li>
     <li><a href="https://www.samsung.com/eg/galaxy/what-is/adaptive-fast-charging/" target="_blank" rel="noopener">Samsung — Adaptive Fast Charging</a></li>
@@ -167,7 +167,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 
 <p>It's 7 AM. Your alarm is ringing. You reach for your phone on the charger and find it at 43% — even though it's been plugged in <strong>all night</strong>.</p>
 <p>If this sounds familiar, you're not alone. It's the most common question we hear at CairoVolt:</p>
-<blockquote style="border-left:3px solid #9ca3af;padding:10px 16px;margin:16px 0;color:#6b7280;font-style:italic">"I bought this charger from you a week ago and it's charging slowly — it must be defective!"</blockquote>
+<blockquote style="border-left:3px solid #9ca3af;padding:10px 16px;margin:16px 0;color:#4b5563;font-style:italic">"I bought this charger from you a week ago and it's charging slowly — it must be defective!"</blockquote>
 
 <div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>📊 Real data from our support team:</strong> We analyzed our last 500 support tickets about "slow charging." The results surprised us:</p>
@@ -270,7 +270,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
 <p>And remember: <strong>not every "slow charge" is a problem</strong>. If your phone reaches 0 to 50% in under 30 minutes — that's perfectly normal and excellent.</p>
 
 <h3>Sources</h3>
-<ul style="font-size:13px;color:#6b7280">
+<ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — Power Delivery Specifications</a></li>
     <li><a href="https://support.apple.com/en-us/108055" target="_blank" rel="noopener">Apple — About Optimized Battery Charging</a></li>
     <li><a href="https://www.samsung.com/global/galaxy/what-is/adaptive-fast-charging/" target="_blank" rel="noopener">Samsung — Adaptive Fast Charging</a></li>

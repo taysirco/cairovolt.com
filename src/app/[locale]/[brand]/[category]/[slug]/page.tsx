@@ -352,8 +352,26 @@ export default async function ProductPage({ params }: Props) {
         worstRating: Number(staticAggregateRating.worstRating),
     } : null);
 
+    // LCP Preload: Generate Next.js optimized image URL for the hero image
+    // This eliminates the ~1,990ms resource load delay — browser discovers
+    // the image URL from HTML head before JS even parses
+    const primaryImageUrl = product.images?.[0]?.url;
+    const preloadImageHref = primaryImageUrl
+        ? `/_next/image?url=${encodeURIComponent(primaryImageUrl)}&w=828&q=75`
+        : null;
+
     return (
         <>
+            {/* LCP Image Preload — must be first for maximum browser priority */}
+            {preloadImageHref && (
+                <link
+                    rel="preload"
+                    as="image"
+                    href={preloadImageHref}
+                    type="image/webp"
+                    fetchPriority="high"
+                />
+            )}
             <ProductSchema
                 product={{
                     ...product,

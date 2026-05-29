@@ -247,7 +247,7 @@ export const usb_c_240w_thunderbolt_port_difference: BlogArticle = {
 </div>
 
 <h3>المصادر</h3>
-<ul style="font-size:13px;color:#6b7280">
+<ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C و USB4 Specifications</a></li>
     <li><a href="https://www.intel.com/content/www/us/en/products/docs/io/thunderbolt/thunderbolt-technology-general.html" target="_blank" rel="noopener">Intel — Thunderbolt 4 Technology Brief</a></li>
     <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener">USB-IF — USB Power Delivery Specification (PD 3.1 / EPR 240W)</a></li>
@@ -479,7 +479,7 @@ export const usb_c_240w_thunderbolt_port_difference: BlogArticle = {
 </div>
 
 <h3>Sources</h3>
-<ul style="font-size:13px;color:#6b7280">
+<ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C & USB4 Specifications</a></li>
     <li><a href="https://www.intel.com/content/www/us/en/products/docs/io/thunderbolt/thunderbolt-technology-general.html" target="_blank" rel="noopener">Intel — Thunderbolt 4 Technology Brief</a></li>
     <li><a href="https://www.usb.org/usb-charger-pd" target="_blank" rel="noopener">USB-IF — USB Power Delivery Specification (PD 3.1 / EPR 240W)</a></li>

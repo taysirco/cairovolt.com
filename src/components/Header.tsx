@@ -139,7 +139,7 @@ export default function Header() {
                                 </svg>
                             </Link>
                             <div className={`absolute top-full ${isRTL ? 'right-0' : 'left-0'} w-64 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all transform translate-y-2 group-hover:translate-y-0 p-2 mt-1`}>
-                                <div className="px-3 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">
+                                <div className="px-3 py-2 text-xs font-bold text-gray-500 uppercase tracking-wider">
                                     {isRTL ? 'منتجات أنكر' : 'Anker Products'}
                                 </div>
                                 {ankerCategories.map((cat) => (
@@ -196,7 +196,7 @@ export default function Header() {
                                 </svg>
                             </Link>
                             <div className={`absolute top-full ${isRTL ? 'right-0' : 'left-0'} w-64 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all transform translate-y-2 group-hover:translate-y-0 p-2 mt-1`}>
-                                <div className="px-3 py-2 text-xs font-bold text-gray-400 uppercase tracking-wider">
+                                <div className="px-3 py-2 text-xs font-bold text-gray-500 uppercase tracking-wider">
                                     {isRTL ? 'منتجات جوي روم' : 'Joyroom Products'}
                                 </div>
                                 {joyroomCategories.map((cat) => (

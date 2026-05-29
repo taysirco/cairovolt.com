@@ -203,7 +203,7 @@ export const protect_charger_egypt_voltage_fluctuation_summer: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
-    <ul style="margin:0;padding-right:20px;color:#6b7280;">
+    <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.egyptera.org/ar/regulations" rel="nofollow">جهاز تنظيم مرفق الكهرباء المصري — معايير جودة الجهد (بالعربية)</a></li>
         <li><a href="https://www.iec.ch/dyn/www/f?p=103:38:0::::FSP_ORG_ID:1365" rel="nofollow">IEC 62368-1 — Audio/Video & ICT Equipment Safety Standard (بالإنجليزية)</a></li>
         <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology & Protection Layers (بالإنجليزية)</a></li>
@@ -405,7 +405,7 @@ export const protect_charger_egypt_voltage_fluctuation_summer: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
-    <ul style="margin:0;padding-left:20px;color:#6b7280;">
+    <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://www.egyptera.org/ar/regulations" rel="nofollow">Egyptian Electric Utility Regulatory Authority — Voltage Quality Standards</a></li>
         <li><a href="https://www.iec.ch/dyn/www/f?p=103:38:0::::FSP_ORG_ID:1365" rel="nofollow">IEC 62368-1 — Audio/Video & ICT Equipment Safety Standard</a></li>
         <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology & Protection Layers</a></li>

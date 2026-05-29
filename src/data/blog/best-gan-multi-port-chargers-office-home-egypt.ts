@@ -236,7 +236,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
-    <ul style="margin:0;padding-right:20px;color:#6b7280;">
+    <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.power-electronics.com/topics/wide-bandgap/gan/" rel="nofollow">Power Electronics — GaN Technology Overview</a></li>
         <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing (بالإنجليزية)</a></li>
     </ul>
@@ -469,7 +469,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
-    <ul style="margin:0;padding-left:20px;color:#6b7280;">
+    <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://www.power-electronics.com/topics/wide-bandgap/gan/" rel="nofollow">Power Electronics — GaN Technology Overview</a></li>
         <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing</a></li>
     </ul>

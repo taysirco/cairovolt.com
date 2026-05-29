@@ -177,7 +177,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>بمعنى: <strong>اتنين أو تلاتة</strong>. الكابل أرخص حاجة في منظومة الشحن — ماتوفرش فيه.</p>
 
 <h3>المصادر</h3>
-<ul style="font-size:13px;color:#6b7280">
+<ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C Cable Specification (بالإنجليزية)</a></li>
     <li><a href="https://www.anker.com/blogs/cables" target="_blank" rel="noopener">Anker — Cable Technology Guide (بالإنجليزية)</a></li>
     <li><a href="https://en.wikipedia.org/wiki/USB-C" target="_blank" rel="noopener">Wikipedia — USB-C Standard</a></li>
@@ -346,7 +346,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>Bottom line: <strong>two or three cables</strong>. The cable is the cheapest part of your charging setup — don't skimp on it.</p>
 
 <h3>Sources</h3>
-<ul style="font-size:13px;color:#6b7280">
+<ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C Cable Specification</a></li>
     <li><a href="https://www.anker.com/blogs/cables" target="_blank" rel="noopener">Anker — Cable Technology Guide</a></li>
     <li><a href="https://en.wikipedia.org/wiki/USB-C" target="_blank" rel="noopener">Wikipedia — USB-C Standard</a></li>

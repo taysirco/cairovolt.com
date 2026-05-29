@@ -137,7 +137,7 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
     </tbody>
 </table>
 
-<p style="font-size:13px;color:#6b7280;">* اختبار USB-C to Lightning على iPhone 17 Pro Max باستخدام محول Lightning — لأن iPhone 17 مفيهوش منفذ Lightning أصلاً. الأرقام بتعكس الحد الأقصى لبروتوكول Lightning نفسه.</p>
+<p style="font-size:13px;color:#4b5563;">* اختبار USB-C to Lightning على iPhone 17 Pro Max باستخدام محول Lightning — لأن iPhone 17 مفيهوش منفذ Lightning أصلاً. الأرقام بتعكس الحد الأقصى لبروتوكول Lightning نفسه.</p>
 
 <p>الفرق مش هيّن: <strong>24 دقيقة وفر</strong> من 0 لـ 80% ده ممكن يكون الفرق بين إنك تنزل الشغل بموبايل مشحون أو إنك تقعد تستنى. وده مش بسبب الكابل ككابل — ده بسبب إن بروتوكول Lightning نفسه فيه سقف (ceiling) كهربائي مش بيعدّيه.</p>
 
@@ -347,7 +347,7 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
     </tbody>
 </table>
 
-<p style="font-size:13px;color:#6b7280;">* Lightning test on iPhone 17 Pro Max used a Lightning adapter — since iPhone 17 has no Lightning port natively. Numbers reflect the Lightning protocol's maximum capability.</p>
+<p style="font-size:13px;color:#4b5563;">* Lightning test on iPhone 17 Pro Max used a Lightning adapter — since iPhone 17 has no Lightning port natively. Numbers reflect the Lightning protocol's maximum capability.</p>
 
 <p>The difference is substantial: <strong>24 minutes saved</strong> from 0 to 80% could be the difference between leaving for work with a charged phone or sitting around waiting. And it's not the cable's fault per se — it's that the Lightning protocol itself has an electrical ceiling it simply cannot exceed.</p>
 

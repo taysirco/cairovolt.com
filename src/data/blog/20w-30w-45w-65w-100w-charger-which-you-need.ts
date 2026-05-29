@@ -265,7 +265,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
-    <ul style="margin:0;padding-right:20px;color:#6b7280;">
+    <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB Implementers Forum — USB Power Delivery Specification (بالإنجليزية)</a></li>
         <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing (بالإنجليزية)</a></li>
         <li><a href="https://support.apple.com/ar-eg/102571" rel="nofollow">Apple — Charging your iPhone fast</a></li>
@@ -528,7 +528,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 References:</p>
-    <ul style="margin:0;padding-left:20px;color:#6b7280;">
+    <ul style="margin:0;padding-left:20px;color:#4b5563;">
         <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB Implementers Forum — USB Power Delivery Specification</a></li>
         <li><a href="https://www.chargerlab.com" rel="nofollow">ChargerLAB — Independent USB-C charger testing</a></li>
         <li><a href="https://support.apple.com/en-us/102571" rel="nofollow">Apple — Charging your iPhone fast</a></li>
