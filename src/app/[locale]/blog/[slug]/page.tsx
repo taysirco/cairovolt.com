@@ -12,6 +12,7 @@ import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/brand-entities';
 import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
 
 import ShareAnalytics from '@/components/content/ShareAnalytics';
+import SocialShareButtons from '@/components/content/SocialShareButtons';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
 export const revalidate = 86400;
@@ -319,7 +320,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         <QuickAnswerBox answer={trans.quickAnswer} locale={locale} variant="highlighted" />
                     )}
 
-                    <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 dark:text-gray-400 pb-8 border-b border-gray-100 dark:border-gray-700">
+                    <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 dark:text-gray-400 pb-6 border-b border-gray-100 dark:border-gray-700">
                         <span className="flex items-center gap-1.5">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                             <time dateTime={article.modifiedDate}>
@@ -336,6 +337,18 @@ export default async function BlogArticlePage({ params }: Props) {
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                             {article.author ? article.author.name[isArabic ? 'ar' : 'en'] : (isArabic ? 'فريق كايرو فولت' : 'Cairo Volt Team')}
                         </span>
+                    </div>
+
+                    {/* Social Share Buttons — Top */}
+                    <div className="pt-5 pb-2">
+                        <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-3">
+                            {isArabic ? '📤 شارك المقال:' : '📤 Share this article:'}
+                        </p>
+                        <SocialShareButtons
+                            title={trans.title}
+                            url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
+                            locale={locale}
+                        />
                     </div>
                 </header>
 
@@ -439,6 +452,21 @@ export default async function BlogArticlePage({ params }: Props) {
                         </div>
                     )}
 
+
+                    {/* Social Share Buttons — Bottom (after reading the article) */}
+                    <div className="my-10 p-6 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50">
+                        <p className="text-lg font-bold text-gray-900 dark:text-white mb-1">
+                            {isArabic ? '📤 عجبك المقال؟ شاركه مع صحابك!' : '📤 Enjoyed this article? Share it!'}
+                        </p>
+                        <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+                            {isArabic ? 'ساعد غيرك يستفيد — شارك على السوشيال ميديا' : 'Help others learn — share on social media'}
+                        </p>
+                        <SocialShareButtons
+                            title={trans.title}
+                            url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
+                            locale={locale}
+                        />
+                    </div>
 
                     {/* FAQ Section */}
                     {trans.faq && trans.faq.length > 0 && (

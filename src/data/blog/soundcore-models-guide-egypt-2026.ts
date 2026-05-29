@@ -11,6 +11,11 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
     relatedArticles: ['best-bluetooth-earbuds-egypt-2026', 'anker-vs-joyroom-comparison', 'protect-phone-from-heat-summer-egypt'],
     relatedCategories: ['Soundcore/audio'],
     coverImage: "/images/blog/posts/soundcore-models-guide-egypt-2026.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     translations: {
         ar: {
             title: 'دليل سماعات Soundcore الشامل 2026 — كل الموديلات وأسعارها في مصر',

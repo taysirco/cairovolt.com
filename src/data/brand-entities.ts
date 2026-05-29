@@ -401,6 +401,155 @@ export function getEntitiesForArticle(slug: string): { about: string[]; mentions
             about: ['powerBank', 'lithiumIon', 'egypt'],
             mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'cable', 'fastCharging', 'cairo', 'newCairo'],
         },
+        // — New articles (batch 2) —
+        'best-fast-chargers-for-samsung-s26-yahya-radwan': {
+            about: ['charger', 'samsung', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'quickCharge', 'gan', 'fastCharging', 'cairo'],
+        },
+        'the-hidden-truth-about-gan-chargers-ahmed-medhat': {
+            about: ['gan', 'charger', 'egypt'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'fastCharging', 'thermalRunaway', 'cairo'],
+        },
+        'how-to-spot-fake-chargers-7-tests': {
+            about: ['charger', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'apple', 'samsung', 'usbC', 'cairo'],
+        },
+        'gan-charger-technology-guide-egypt': {
+            about: ['gan', 'charger', 'egypt'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'fastCharging', 'cairo'],
+        },
+        'soundcore-models-guide-egypt-2026': {
+            about: ['soundcore', 'earbuds', 'egypt'],
+            mentions: ['anker', 'cairovolt', 'anc', 'bluetooth', 'speaker', 'cairo'],
+        },
+        'why-charging-cable-breaks-fast-causes-fixes': {
+            about: ['cable', 'usbC'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'apple', 'egypt', 'cairo'],
+        },
+        'can-power-bank-charge-laptop-guide': {
+            about: ['powerBank', 'usbPD'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'best-power-bank-under-1000-egp-egypt': {
+            about: ['powerBank', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'lithiumIon', 'usbC', 'usbPD', 'fastCharging', 'cairo'],
+        },
+        'best-100w-fast-charge-power-bank-iphone-samsung': {
+            about: ['powerBank', 'fastCharging'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'apple', 'samsung', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'galaxy-s26-ultra-vs-iphone-17-pro-max-power-bank-needs': {
+            about: ['powerBank', 'samsung', 'apple'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'fastCharging', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'magsafe-magnetic-power-bank-worth-extra-cost': {
+            about: ['powerBank', 'magsafe', 'qi2'],
+            mentions: ['anker', 'cairovolt', 'apple', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'power-bank-for-photographers-dslr-cameras': {
+            about: ['powerBank', 'usbPD'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'power-bank-gaming-pubg-freefire-cooling': {
+            about: ['powerBank', 'fastCharging'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'lithiumIon', 'thermalRunaway', 'egypt', 'cairo'],
+        },
+        '5000-vs-10000-vs-20000-mah-which-capacity': {
+            about: ['powerBank', 'lithiumIon'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'fastCharging', 'egypt', 'cairo'],
+        },
+        '20000mah-power-bank-iphone-17-pro-max-charges': {
+            about: ['powerBank', 'apple'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'lithiumIon', 'fastCharging', 'egypt', 'cairo'],
+        },
+        'power-bank-with-digital-display-worth-it': {
+            about: ['powerBank'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'power-bank-charge-4-devices-simultaneously': {
+            about: ['powerBank', 'usbC'],
+            mentions: ['anker', 'cairovolt', 'usbPD', 'fastCharging', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'why-power-bank-dies-after-6-months-mistakes': {
+            about: ['powerBank', 'lithiumIon'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'thermalRunaway', 'egypt', 'cairo'],
+        },
+        'anker-vs-joyroom-power-banks-12-models-tested': {
+            about: ['anker', 'joyroom', 'powerBank'],
+            mentions: ['cairovolt', 'usbC', 'usbPD', 'fastCharging', 'lithiumIon', 'egypt', 'cairo'],
+        },
+        'iphone-17-pro-max-charger-20w-30w-45w-which': {
+            about: ['charger', 'apple'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'gan', 'fastCharging', 'egypt', 'cairo'],
+        },
+        'best-gan-multi-port-chargers-office-home-egypt': {
+            about: ['gan', 'charger', 'egypt'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'fastCharging', 'cairo'],
+        },
+        'travel-charger-usb-c-usb-a-sahel-trip': {
+            about: ['charger', 'usbC', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbPD', 'gan', 'cairo'],
+        },
+        '20w-30w-45w-65w-100w-charger-which-you-need': {
+            about: ['charger', 'usbPD', 'gan'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'fastCharging', 'apple', 'samsung', 'egypt', 'cairo'],
+        },
+        '2-in-1-wireless-charger-phone-watch-bedside': {
+            about: ['qi2', 'magsafe', 'charger'],
+            mentions: ['anker', 'cairovolt', 'apple', 'egypt', 'cairo'],
+        },
+        'charge-phone-overnight-safe-or-not': {
+            about: ['lithiumIon', 'fastCharging'],
+            mentions: ['anker', 'cairovolt', 'charger', 'apple', 'samsung', 'thermalRunaway', 'egypt', 'cairo'],
+        },
+        'samsung-s26-ultra-45w-super-fast-charging-real': {
+            about: ['charger', 'samsung', 'fastCharging'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'usbPD', 'quickCharge', 'gan', 'egypt', 'cairo'],
+        },
+        'slimmest-100w-laptop-gan-chargers-egypt': {
+            about: ['gan', 'charger', 'usbPD'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'fastCharging', 'egypt', 'cairo'],
+        },
+        'why-anker-chargers-disappear-egyptian-markets': {
+            about: ['anker', 'egypt'],
+            mentions: ['cairovolt', 'charger', 'powerBank', 'usbC', 'gan', 'cairo', 'damietta'],
+        },
+        'xiaomi-redmi-note-13-pro-best-charger-egypt': {
+            about: ['charger', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'usbPD', 'fastCharging', 'cairo'],
+        },
+        'hyperjuice-professional-charger-when-need-it': {
+            about: ['charger', 'gan', 'usbPD'],
+            mentions: ['anker', 'cairovolt', 'usbC', 'fastCharging', 'egypt', 'cairo'],
+        },
+        'protect-charger-egypt-voltage-fluctuation-summer': {
+            about: ['charger', 'egypt'],
+            mentions: ['anker', 'cairovolt', 'thermalRunaway', 'loadShedding', 'cairo'],
+        },
+        'usb-c-240w-cable-gaming-laptop-when-need': {
+            about: ['cable', 'usbC', 'usbPD'],
+            mentions: ['anker', 'cairovolt', 'fastCharging', 'egypt', 'cairo'],
+        },
+        '3-meter-charging-cable-bed-living-room': {
+            about: ['cable', 'usbC'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'fastCharging', 'egypt', 'cairo'],
+        },
+        'magnetic-cable-car-charging-pros-cons': {
+            about: ['cable', 'carCharger'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'magsafe', 'egypt', 'cairo'],
+        },
+        'usb-c-lightning-vs-usb-c-usb-c-faster': {
+            about: ['cable', 'usbC', 'apple'],
+            mentions: ['anker', 'cairovolt', 'usbPD', 'fastCharging', 'egypt', 'cairo'],
+        },
+        'protect-cables-car-summer-heat-cairo': {
+            about: ['cable', 'egypt'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'thermalRunaway', 'cairo'],
+        },
+        'short-30cm-cable-power-bank-extends-life': {
+            about: ['cable', 'powerBank'],
+            mentions: ['anker', 'joyroom', 'cairovolt', 'usbC', 'fastCharging', 'egypt', 'cairo'],
+        },
     };
 
     return articleEntityMap[slug] || { about: ['egypt'], mentions: ['cairo'] };

@@ -9,7 +9,17 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['joyroom-t03s-pro-earbuds', 'joyroom-jr-t03-wireless-earbuds', 'anker-soundcore-life-p2i'],
         relatedCategories: ['Soundcore/audio', 'Joyroom/earbuds'],
+    relatedArticles: [
+        'soundcore-models-guide-egypt-2026',
+        'anker-vs-joyroom-comparison',
+        'best-power-bank-egypt-2026',
+    ],
     coverImage: "/images/blog/posts/best-bluetooth-earbuds-egypt-2026.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'أفضل سماعات بلوتوث في مصر: Soundcore vs Joyroom',

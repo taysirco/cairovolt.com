@@ -9,7 +9,17 @@ export const how_to_identify_original_anker: BlogArticle = {
         readingTime: 6,
         relatedProducts: ['anker-powercore-10000', 'anker-soundcore-motion-plus', 'anker-737-powerbank'],
         relatedCategories: ['Anker/power-banks', 'Anker/wall-chargers', 'Anker/cables'],
+    relatedArticles: [
+        'how-to-spot-fake-chargers-7-tests',
+        'anker-vs-joyroom-comparison',
+        'why-anker-chargers-disappear-egyptian-markets',
+    ],
     coverImage: "/images/blog/posts/how-to-identify-original-anker.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'كيف تعرف انكر الأصلي من المقلد؟ 5 طرق مضمونة',

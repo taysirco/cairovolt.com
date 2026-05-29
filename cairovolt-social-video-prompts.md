@@ -21,12 +21,14 @@
 > 🟢 **مسار Lite (لو الميزانية ضيّقة):** 1 Short/أسبوع + TikTok native كل أسبوعين + 6 long-form = **~25 فيديو** بدل 45. نفس التغطية، إيقاع أبطأ.
 
 ### الأنواع والأبعاد (Specs)
-| النوع | Aspect | الدقة (px) | المدة | Resolution param | كم clip من Seedance |
+| النوع | Aspect | الدقة (px) | المدة | Resolution param | وحدة التوليد (لقطة Seedance = 8–10s) |
 |------|--------|-----------|-------|------------------|----------------------|
-| YouTube Short | **9:16** | 1080×1920 | 20–30s | `1080p` (أو `720p` للتوفير) | 2 clips × 12–15s |
-| TikTok Native | **9:16** | 1080×1920 | 15–25s | `720p` | 1–2 clips |
-| YouTube Long-form | **16:9** | 1920×1080 | 60–180s | `1080p` | 6–12 clips تُركَّب |
-| X Video (reuse) | 9:16 أو 1:1 crop | — | ≤140s | — | إعادة قص |
+| YouTube Short | **9:16** | 1080×1920 | 20–30s | `1080p` (أو `720p` للتوفير) | **~3 لقطات × 8–10s** تُركَّب |
+| TikTok Native | **9:16** | 1080×1920 | 15–25s | `720p` | **~2 لقطة × 8–10s** |
+| YouTube Long-form | **16:9** | 1920×1080 | 60–180s | `1080p` | **8–18 لقطة × 8–10s** تُركَّب |
+| X Video (reuse) | 9:16 أو 1:1 crop | — | ≤140s | — | إعادة قص (بدون توليد) |
+
+> 🎯 **لكل لقطة prompt واحد عميق (8–10s)**: الـ Short = اهوك (8–10s) + core (8–10s) + resolve/CTA (8–10s). ركّب الثلاثة في المونتاج لمدة 20–30s. ده بيدّيك تحكّم أكبر وجودة أعلى من لقطة واحدة طويلة.
 
 ### 💰 ميزانية الـ credits
 - رصيدك الآن **4.5 credits** = ~فيديو واحد. **45 فيديو = شحن مطلوب.**
@@ -42,18 +44,46 @@
 - **صورة منتج:** `public/products/anker/{handle}/` أو `public/products/joyroom/{handle}/` (مثل `anker-737-powerbank`, `anker-nano-45w`, `joyroom-power-bank-20000`).
 - في Seedance: ارفع الصورة كـ `medias` بدور `image` أو `start_image`.
 
-### 🎨 STYLE_BASE (انسخه في بداية كل prompt فيديو)
+### 🎬 ENGINE_BASE (المحرّك السينمائي — الصقه في بداية كل prompt)
 ```
-Cinematic tech-commercial, shot on 50mm, shallow depth of field, soft warm key light
-with cool rim light, clean modern Egyptian apartment/desk setting, crisp 4K detail,
-slow smooth camera push-in, premium minimalist brand mood. NO baked-in text
-(captions added in edit). Product identity must stay consistent with the reference image.
+Photoreal cinematic tech-commercial. Full-frame cinema camera (ARRI Alexa look), 35mm
+anamorphic lens at T1.8 — shallow depth of field, creamy bokeh, gentle lens breathing.
+Physically-based lighting: soft key with natural falloff, accurate contact shadows and
+ambient occlusion where objects meet surfaces. True material response — matte plastic,
+brushed-aluminium micro-scratches, glass specular highlights, woven fabric, real skin pores
+and fine hair. Subtle handheld micro-movement, natural motion blur, fine sensor grain, 24fps
+at 1/48 shutter. Filmic color science, slightly desaturated highlights, rich shadow detail.
+Single continuous take, 8–10 seconds. Product shape, logo and color LOCKED to the reference
+image — no morphing, no identity drift. NO baked-in text (captions added later in edit).
 ```
 
 ### 🏷️ BRAND_BASE
 ```
-Brand: CairoVolt (Egyptian phone-accessories retailer). Products: Anker / Joyroom / Soundcore.
-Mood: trustworthy expert, slightly playful. Apply CairoVolt accent color in edit.
+Brand: CairoVolt — Egyptian phone-accessories retailer (Anker / Joyroom / Soundcore).
+Mood: trustworthy expert, a little playful. Authentic modern-Egyptian settings (Cairo flat,
+balcony, parked car, North-Coast beach). Leave clean negative space for an accent-color
+caption added in edit.
+```
+
+### 🚫 NEGATIVE_BASE (الصقه في خانة negative أو في آخر الـ prompt)
+```
+avoid: warped or extra fingers, deformed hands, melted or morphing product edges, garbled
+fake text, invented logos, identity drift from the reference, plastic CGI sheen, waxy skin,
+oversaturated cartoon colors, flicker, strobing, geometry warping, duplicated objects,
+floating shadows, watermark, timestamp, jittery camera, uncanny faces.
+```
+
+### 🧬 صيغة الـ Prompt العميق (8–10 ثواني · beat-by-beat) — ده سر العمق
+```
+[SUBJECT + مكان مصري حقيقي + وقت اليوم]
+[CAMERA: عدسة + حركة محددة — push-in / orbit / rack-focus / handheld / slider]
+[0–3s HOOK — اللقطة اللي توقّف السكرول]
+[3–7s CORE — الحركة اللي توصّل الرسالة]
+[7–10s RESOLVE — المنتج يبقى البطل / الـ payoff]
+[LIGHT: مصادر إضاءة واقعية + درجة حرارة اللون بالكلفن]
+[REALISM: تفاصيل فيزيائية — heat shimmer / قطرة عرق / ذرات غبار في الضوء / وهج LED / انعكاسات]
+[GRADE: درجة اللون + المود]
+ref: {المسار الحقيقي للصورة}
 ```
 
 ### 🔊 الصوت
@@ -140,7 +170,7 @@ Seedance 2.0 مفيهوش `generate_audio` — ضيف الـ voiceover (صوت "
 
 **W1-T1 · TikTok Native · 9:16 · 18s**
 - 📝 هوك: «الموبايل في صيف مصر زي الآيس كريم 🍦 بيسيح» · متن: «بس الفرق إنك تقدر تنقذه — متشحنوش وهو سخن» · CTA: «نصايح كتير في المقال»
-- 🎬 `STYLE_BASE + BRAND_BASE. Playful: a smartphone next to a melting ice-cream cone on a sunny table, fun summer vibe, vibrant colors, quick zoom. ref: product photo public/products/anker/anker-nano-45w`
+- 🎬 `STYLE_BASE + BRAND_BASE. Playful: a smartphone next to a melting ice-cream cone on a sunny table, fun summer vibe, vibrant colors, quick zoom. ref: public/products/anker/anker-nano-45w`
 
 ---
 

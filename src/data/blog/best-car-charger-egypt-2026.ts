@@ -9,7 +9,17 @@ export const best_car_charger_egypt_2026: BlogArticle = {
         readingTime: 10,
         relatedProducts: ['anker-car-charger-dual-usb', 'joyroom-60w-car-charger', 'anker-powerline-usb-c-lightning', 'joyroom-usb-c-lightning-cable'],
         relatedCategories: ['Anker/car-chargers', 'Joyroom/car-chargers'],
+    relatedArticles: [
+        'travel-charger-usb-c-usb-a-sahel-trip',
+        'protect-cables-car-summer-heat-cairo',
+        'magnetic-cable-car-charging-pros-cons',
+    ],
     coverImage: "/images/blog/posts/best-car-charger-egypt-2026.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'أفضل شاحن سيارة في مصر: دليل الشراء الشامل',

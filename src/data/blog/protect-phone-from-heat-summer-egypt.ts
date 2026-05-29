@@ -9,7 +9,17 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
     readingTime: 11,
     relatedProducts: ['anker-powercore-20000', 'anker-nano-45w', 'anker-powerline-usb-c-usb-c', 'joyroom-20w-usb-c-charger'],
     relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks', 'Joyroom/wall-chargers', 'Anker/cables'],
+    relatedArticles: [
+        'does-fast-charging-damage-battery-truth',
+        'charge-phone-overnight-safe-or-not',
+        'protect-charger-egypt-voltage-fluctuation-summer',
+    ],
     coverImage: "/images/blog/posts/protect-phone-from-heat-summer-egypt.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     translations: {
         ar: {
             title: 'موبايلك في خطر: الدليل الكامل لحماية هاتفك من حرارة صيف مصر',

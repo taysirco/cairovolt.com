@@ -535,24 +535,24 @@ export default function CategoryTemplate({
                 </section>
             )}
 
-            {/* NEW: PowerBank Section for "باور بانك انكر" targeting - Only renders for power-banks category */}
+            {/* PowerBank Section — brand-aware colors and titles */}
             {powerBankData && (
-                <section className="py-16 bg-gradient-to-b from-blue-50 to-cyan-50 dark:from-gray-900 dark:to-gray-950">
+                <section className={`py-16 bg-gradient-to-b ${brandColor === 'red' ? 'from-red-50 to-rose-50' : brandColor === 'orange' ? 'from-orange-50 to-amber-50' : 'from-blue-50 to-cyan-50'} dark:from-gray-900 dark:to-gray-950`}>
                     <div className="container mx-auto px-4">
                         {/* Section Title & Tagline */}
                         <div className="text-center mb-12">
-                            <span className="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full text-sm font-bold mb-4">
+                            <span className={`inline-block px-4 py-2 ${brandColor === 'red' ? 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400' : brandColor === 'orange' ? 'bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400' : 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400'} rounded-full text-sm font-bold mb-4`}>
                                 <SvgIcon name="battery" className="w-5 h-5 inline-block" /> {isRTL ? powerBankData.tagline.ar : powerBankData.tagline.en}
                             </span>
                             <h2 className="text-3xl md:text-4xl font-black mb-4 dark:text-white">
                                 {isRTL ? powerBankData.title.ar : powerBankData.title.en}
                             </h2>
-                            <div className="h-1.5 w-24 mx-auto rounded-full bg-gradient-to-r from-blue-600 to-cyan-600"></div>
+                            <div className={`h-1.5 w-24 mx-auto rounded-full bg-gradient-to-r ${brandColor === 'red' ? 'from-red-600 to-rose-600' : brandColor === 'orange' ? 'from-orange-600 to-amber-600' : 'from-blue-600 to-cyan-600'}`}></div>
                         </div>
 
                         {/* History */}
                         <div className="max-w-4xl mx-auto mb-12">
-                            <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl border border-blue-100 dark:border-gray-700 shadow-lg">
+                            <div className={`bg-white dark:bg-gray-900 p-8 rounded-3xl border ${brandColor === 'red' ? 'border-red-100' : brandColor === 'orange' ? 'border-orange-100' : 'border-blue-100'} dark:border-gray-700 shadow-lg`}>
                                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
                                     {isRTL ? powerBankData.history.ar : powerBankData.history.en}
                                 </p>
@@ -563,8 +563,8 @@ export default function CategoryTemplate({
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
                             {powerBankData.achievements.map((achievement, idx) => (
                                 <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
-                                    <SvgIcon name={achievement.icon} className="w-8 h-8 mb-2 mx-auto text-blue-500" />
-                                    <span className="text-2xl md:text-3xl font-black text-blue-600 dark:text-blue-400 block mb-1">
+                                    <SvgIcon name={achievement.icon} className={`w-8 h-8 mb-2 mx-auto ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
+                                    <span className={`text-2xl md:text-3xl font-black ${brandColor === 'red' ? 'text-red-600 dark:text-red-400' : brandColor === 'orange' ? 'text-orange-600 dark:text-orange-400' : 'text-blue-600 dark:text-blue-400'} block mb-1`}>
                                         {isRTL ? achievement.stat.ar : achievement.stat.en}
                                     </span>
                                     <span className="text-xs text-gray-600 dark:text-gray-400">
@@ -581,10 +581,10 @@ export default function CategoryTemplate({
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 {powerBankData.technologies.map((tech, idx) => (
-                                    <div key={idx} className="p-5 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-700 hover:border-blue-200 dark:hover:border-blue-800 transition-colors shadow-sm">
+                                    <div key={idx} className={`p-5 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-700 ${brandColor === 'red' ? 'hover:border-red-200 dark:hover:border-red-800' : brandColor === 'orange' ? 'hover:border-orange-200 dark:hover:border-orange-800' : 'hover:border-blue-200 dark:hover:border-blue-800'} transition-colors shadow-sm`}>
                                         <div className="flex items-center gap-3 mb-3">
-                                            <SvgIcon name={tech.icon} className="w-6 h-6 text-blue-500" />
-                                            <h4 className="font-bold text-lg text-blue-600 dark:text-blue-400">
+                                            <SvgIcon name={tech.icon} className={`w-6 h-6 ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
+                                            <h4 className={`font-bold text-lg ${brandColor === 'red' ? 'text-red-600 dark:text-red-400' : brandColor === 'orange' ? 'text-orange-600 dark:text-orange-400' : 'text-blue-600 dark:text-blue-400'}`}>
                                                 {tech.name}
                                             </h4>
                                         </div>
@@ -604,7 +604,7 @@ export default function CategoryTemplate({
                             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                                 {powerBankData.useCases.map((useCase, idx) => (
                                     <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all">
-                                        <SvgIcon name={useCase.icon} className="w-10 h-10 mb-3 mx-auto text-blue-500" />
+                                        <SvgIcon name={useCase.icon} className={`w-10 h-10 mb-3 mx-auto ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
                                             {isRTL ? useCase.title.ar : useCase.title.en}
                                         </h4>
@@ -621,7 +621,7 @@ export default function CategoryTemplate({
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                                 {powerBankData.trustBadges.map((badge, idx) => (
                                     <div key={idx} className="flex flex-col items-center text-center p-3">
-                                        <SvgIcon name={badge.icon} className="w-7 h-7 mb-2 text-blue-500" />
+                                        <SvgIcon name={badge.icon} className={`w-7 h-7 mb-2 ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
                                             {isRTL ? badge.title.ar : badge.title.en}
                                         </span>
@@ -636,14 +636,14 @@ export default function CategoryTemplate({
                         {/* PowerBank FAQs */}
                         <div className="max-w-4xl mx-auto">
                             <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">
-                                {isRTL ? 'أسئلة شائعة عن باور بانك انكر' : 'Anker Power Bank FAQ'}
+                                {isRTL ? `أسئلة شائعة عن باور بانك ${translatedBrand}` : `${translatedBrand} Power Bank FAQ`}
                             </h3>
                             <div className="space-y-4">
                                 {(isRTL ? powerBankData.faq.ar : powerBankData.faq.en).map((item, idx) => (
                                     <details key={idx} className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden">
-                                        <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                                        <summary className={`flex items-center justify-between p-5 cursor-pointer list-none font-bold text-gray-900 dark:text-white ${brandColor === 'red' ? 'hover:text-red-600 dark:hover:text-red-400' : brandColor === 'orange' ? 'hover:text-orange-600 dark:hover:text-orange-400' : 'hover:text-blue-600 dark:hover:text-blue-400'} transition-colors`}>
                                             {item.question}
-                                            <span className="text-blue-500 group-open:rotate-180 transition-transform">▼</span>
+                                            <span className={`${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'} group-open:rotate-180 transition-transform`}>▼</span>
                                         </summary>
                                         <div className="px-5 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed">
                                             {item.answer}

@@ -248,3 +248,75 @@ html {
 .dark .prose .source-references li {
   color: inherit;
 }
+
+/* ================================================
+   Blog TABLE contrast overrides for dark mode
+   Inline-styled <tr>/<td>/<th> with light backgrounds
+   need forced dark text so it doesn't vanish.
+   ================================================ */
+
+/* 4a. Table ROWS with light inline backgrounds → force dark text on all children */
+.dark .prose tr[style*="background:#f"] td,
+.dark .prose tr[style*="background:#f"] th,
+.dark .prose tr[style*="background:#f"] td strong,
+.dark .prose tr[style*="background:#f"] th strong,
+.dark .prose tr[style*="background:#e"] td,
+.dark .prose tr[style*="background:#e"] th,
+.dark .prose tr[style*="background:#e"] td strong,
+.dark .prose tr[style*="background:#e"] th strong {
+  color: #1e293b !important;
+}
+
+/* 4b. Table HEADER rows with light backgrounds → force dark text */
+.dark .prose thead tr[style*="background:#f"] th,
+.dark .prose thead tr[style*="background:#e"] th {
+  color: #1e293b !important;
+}
+
+/* 4c. Individual CELLS with inline color → preserve their inline color (e.g., red speed, green speed) */
+.dark .prose td[style*="color:"],
+.dark .prose th[style*="color:"],
+.dark .prose td[style*="color:"] strong,
+.dark .prose th[style*="color:"] strong {
+  color: inherit !important;
+}
+
+/* 4d. Cells in rows with light backgrounds BUT having their own inline color → the inline color wins (specificity) */
+.dark .prose tr[style*="background:#f"] td[style*="color:"],
+.dark .prose tr[style*="background:#e"] td[style*="color:"],
+.dark .prose tr[style*="background:#f"] td[style*="color:"] strong,
+.dark .prose tr[style*="background:#e"] td[style*="color:"] strong {
+  color: inherit !important;
+}
+
+/* 4e. Rows with amber/yellow backgrounds (#fef...) — extra specificity for EPR-style rows */
+.dark .prose tr[style*="background:#fef"] td,
+.dark .prose tr[style*="background:#fef"] td strong {
+  color: #78350f !important;
+}
+.dark .prose tr[style*="background:#fef"] td[style*="color:"],
+.dark .prose tr[style*="background:#fef"] td[style*="color:"] strong {
+  color: inherit !important;
+}
+
+/* 4f. Rows with blue-tinted backgrounds (#eff...) — e.g., Thunderbolt rows */
+.dark .prose tr[style*="background:#eff"] td,
+.dark .prose tr[style*="background:#eff"] td strong {
+  color: #1e3a5f !important;
+}
+.dark .prose tr[style*="background:#eff"] td[style*="color:"],
+.dark .prose tr[style*="background:#eff"] td[style*="color:"] strong {
+  color: inherit !important;
+}
+
+/* 5. Dark mode tables without inline styles: ensure default text contrast */
+.dark .prose table td {
+  color: #d1d5db;
+}
+.dark .prose table td strong {
+  color: #f3f4f6;
+}
+.dark .prose table th {
+  color: #f9fafb;
+}
+

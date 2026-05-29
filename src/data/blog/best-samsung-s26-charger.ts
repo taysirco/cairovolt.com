@@ -9,7 +9,17 @@ export const best_samsung_s26_charger: BlogArticle = {
         readingTime: 3,
         relatedProducts: ['anker-powerport-25w', 'joyroom-25w-fast-charger', 'joyroom-30w-fast-charger'],
         relatedCategories: ['Anker/wall-chargers'],
+    relatedArticles: [
+        'best-fast-chargers-for-samsung-s26-yahya-radwan',
+        'samsung-s26-ultra-45w-super-fast-charging-real',
+        'does-fast-charging-damage-battery-truth',
+    ],
     coverImage: "/images/blog/posts/best-samsung-s26-charger.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'أفضل شاحن لسامسونج S26 في مصر: شحن سريع 45W',

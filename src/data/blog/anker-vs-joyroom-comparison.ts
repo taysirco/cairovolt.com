@@ -9,7 +9,17 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['anker-powercore-20000', 'joyroom-power-bank-20000', 'anker-powerport-20w', 'joyroom-20w-usb-c-charger'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks', 'Anker/wall-chargers', 'Joyroom/wall-chargers'],
+    relatedArticles: [
+        'how-to-identify-original-anker',
+        'best-power-bank-egypt-2026',
+        'anker-vs-joyroom-power-banks-12-models-tested',
+    ],
     coverImage: "/images/blog/posts/anker-vs-joyroom-comparison.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'انكر vs جوي روم: مقارنة شاملة — أيهما أفضل؟',

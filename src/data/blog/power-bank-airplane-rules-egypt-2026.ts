@@ -9,7 +9,17 @@ export const power_bank_airplane_rules_egypt_2026: BlogArticle = {
         readingTime: 8,
         relatedProducts: ['anker-powercore-10000', 'anker-powercore-20000', 'joyroom-power-bank-10000', 'joyroom-power-bank-20000', 'anker-powercore-26800'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+    relatedArticles: [
+        'best-power-bank-egypt-2026',
+        'travel-charger-usb-c-usb-a-sahel-trip',
+        'power-bank-10000mah-real-capacity-myth',
+    ],
     coverImage: "/images/blog/posts/power-bank-airplane-rules-egypt-2026.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'هل الباور بانك مسموح في الطائرة؟ قوانين المطارات المصرية والدولية',

@@ -9,7 +9,17 @@ export const best_power_bank_router_power_outage_egypt: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['anker-521-powerhouse', 'anker-737-powerbank', 'anker-powercore-20000', 'joyroom-power-bank-20000'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+    relatedArticles: [
+        'best-power-bank-egypt-2026',
+        'power-bank-10000mah-real-capacity-myth',
+        'how-to-charge-power-bank-correctly',
+    ],
     coverImage: "/images/blog/posts/best-power-bank-router-power-outage-egypt.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'أفضل باور بانك وكابل لتشغيل الراوتر أثناء انقطاع الكهرباء (أسعار وأنواع)',

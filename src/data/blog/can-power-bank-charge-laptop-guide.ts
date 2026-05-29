@@ -7,6 +7,11 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
     modifiedDate: '2026-05-12',
     readingTime: 12,
     coverImage: '/images/blog/posts/can-power-bank-charge-laptop-guide.webp?v=2',
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     relatedProducts: [
         'anker-737-powerbank',
         'anker-521-powerhouse',

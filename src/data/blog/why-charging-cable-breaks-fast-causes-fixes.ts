@@ -7,6 +7,11 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
     modifiedDate: '2026-05-12',
     readingTime: 10,
     coverImage: '/images/blog/posts/why-charging-cable-breaks-fast-causes-fixes.webp?v=2',
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     relatedProducts: [
         'anker-a8050-usb-c-cable',
         'anker-powerline-usb-c-usb-c',
@@ -17,7 +22,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
         'joyroom-3-in-1-data-cable',
         'joyroom-type-c-to-type-c-cable',
     ],
-    relatedArticles: ['usb-c-cable-guide-egypt-2026', 'how-to-spot-fake-chargers-7-tests'],
+    relatedArticles: ['usb-c-cable-guide-egypt-2026', 'how-to-spot-fake-chargers-7-tests', 'protect-cables-car-summer-heat-cairo'],
     relatedCategories: ['Anker/cables', 'Joyroom/cables'],
     translations: {
         ar: {

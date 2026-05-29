@@ -8,6 +8,11 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
     modifiedDate: '2026-04-23',
     readingTime: 14,
     coverImage: '/images/blog/posts/how-to-spot-fake-chargers-7-tests.webp?v=2',
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     relatedProducts: [
         'anker-powerport-20w',
         'anker-powerport-25w',
@@ -19,6 +24,11 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
         'anker-a8050-usb-c-cable',
     ],
     relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers', 'Anker/cables'],
+    relatedArticles: [
+        'how-to-identify-original-anker',
+        'original-vs-fake-apple-charger-egypt',
+        'do-fake-chargers-damage-iphone-battery',
+    ],
     translations: {
         ar: {
             title: '7 اختبارات احترافية تكشف الشاحن التقليد من الأصلي (دليل مصوّر 2026)',

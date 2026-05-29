@@ -9,7 +9,17 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
         readingTime: 10,
         relatedProducts: ['anker-powerline-usb-c-usb-c', 'anker-powerline-usb-c-lightning', 'anker-usb-c-lightning-sureistrong', 'joyroom-usb-c-cable-60w', 'joyroom-usb-c-lightning-cable', 'joyroom-type-c-to-type-c-cable'],
         relatedCategories: ['Anker/cables', 'Joyroom/cables'],
+    relatedArticles: [
+        'why-charging-cable-breaks-fast-causes-fixes',
+        'usb-c-240w-cable-gaming-laptop-when-need',
+        'usb-c-lightning-vs-usb-c-usb-c-faster',
+    ],
     coverImage: "/images/blog/posts/usb-c-cable-guide-egypt-2026.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'دليلك الكامل لكابلات USB-C في مصر: مش كل الكابلات زي بعض',

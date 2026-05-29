@@ -8,6 +8,11 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
     modifiedDate: '2026-04-23',
     readingTime: 11,
     coverImage: '/images/blog/posts/gan-charger-technology-guide-egypt.webp?v=2',
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     relatedProducts: [
         'anker-a2147-gan-charger-30w',
         'anker-nano-45w',
@@ -19,6 +24,11 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
         'anker-a2732-charger-35w',
     ],
     relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers', 'Anker/car-chargers'],
+    relatedArticles: [
+        'the-hidden-truth-about-gan-chargers-ahmed-medhat',
+        'best-gan-multi-port-chargers-office-home-egypt',
+        'slimmest-100w-laptop-gan-chargers-egypt',
+    ],
     translations: {
         ar: {
             title: 'تقنية GaN في الشواحن: ليه شاحن 30 وات أصبح أصغر من إصبعك؟ (الدليل العلمي الكامل)',

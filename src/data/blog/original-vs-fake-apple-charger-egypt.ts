@@ -9,7 +9,17 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
         readingTime: 4,
         relatedProducts: ['anker-powerport-20w', 'anker-powerline-usb-c-lightning', 'joyroom-20w-usb-c-charger'],
         relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
+    relatedArticles: [
+        'do-fake-chargers-damage-iphone-battery',
+        'how-to-spot-fake-chargers-7-tests',
+        'best-iphone-17-charger-egypt',
+    ],
     coverImage: "/images/blog/posts/original-vs-fake-apple-charger-egypt.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر؟',

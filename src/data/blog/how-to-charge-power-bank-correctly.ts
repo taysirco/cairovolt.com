@@ -9,7 +9,17 @@ export const how_to_charge_power_bank_correctly: BlogArticle = {
         readingTime: 5,
         relatedProducts: ['anker-powercore-20000'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+    relatedArticles: [
+        'power-bank-10000mah-real-capacity-myth',
+        'why-power-bank-dies-after-6-months-mistakes',
+        'best-power-bank-egypt-2026',
+    ],
     coverImage: "/images/blog/posts/how-to-charge-power-bank-correctly.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'طريقة شحن باور بانك انكر بشكل صحيح: 7 نصائح للحفاظ على البطارية',

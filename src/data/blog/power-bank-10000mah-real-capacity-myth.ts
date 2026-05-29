@@ -9,7 +9,17 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
     readingTime: 12,
     relatedProducts: ['anker-powercore-10000', 'anker-powercore-20000', 'anker-zolo-a110e-20000', 'joyroom-power-bank-10000', 'joyroom-power-bank-20000', 'anker-737-powerbank'],
     relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+    relatedArticles: [
+        '5000-vs-10000-vs-20000-mah-which-capacity',
+        'how-to-charge-power-bank-correctly',
+        'best-power-bank-egypt-2026',
+    ],
     coverImage: "/images/blog/posts/power-bank-10000mah-real-capacity-myth.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
     translations: {
         ar: {
             title: 'وهم الـ 10,000mAh: لماذا لا يشحن الباور بانك موبايلك مرتين؟ (الفيزياء الكاملة)',

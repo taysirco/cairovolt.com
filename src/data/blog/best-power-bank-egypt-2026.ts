@@ -9,7 +9,17 @@ export const best_power_bank_egypt_2026: BlogArticle = {
         readingTime: 5,
         relatedProducts: ['anker-powercore-20000', 'anker-nano-10000', 'anker-prime-27650'],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
+    relatedArticles: [
+        'best-power-bank-router-power-outage-egypt',
+        'how-to-charge-power-bank-correctly',
+        'power-bank-10000mah-real-capacity-myth',
+    ],
     coverImage: "/images/blog/posts/best-power-bank-egypt-2026.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'أفضل باور بانك في مصر: دليل الشراء الشامل',

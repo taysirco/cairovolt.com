@@ -9,7 +9,17 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
         readingTime: 3,
         relatedProducts: ['anker-powerport-20w', 'anker-nano-45w', 'joyroom-20w-usb-c-charger', 'anker-powerline-usb-c-lightning'],
         relatedCategories: ['Anker/wall-chargers', 'Anker/cables'],
+    relatedArticles: [
+        'original-vs-fake-apple-charger-egypt',
+        'do-fake-chargers-damage-iphone-battery',
+        'iphone-17-pro-max-charger-20w-30w-45w-which',
+    ],
     coverImage: "/images/blog/posts/best-iphone-17-charger-egypt.webp?v=2",
+    author: {
+        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
+        title: { ar: 'محرر تقني', en: 'Tech Editor' },
+        avatar: '/images/team/cairovolt-team.webp'
+    },
         translations: {
             ar: {
                 title: 'أفضل شاحن للايفون 17 في مصر: دليل السرعة الكاملة',
