@@ -52,17 +52,28 @@ export default function HeroCarousel({ products, locale }: HeroCarouselProps) {
     return () => clearInterval(timer);
   }, [products.length]);
 
-  // Hide the SSR placeholder once this client component mounts
-  // Use visibility:hidden (not display:none) to preserve layout dimensions and prevent CLS
+  // Swap SSR placeholder for client carousel without CLS or double-space.
+  // Strategy: client carousel starts absolutely positioned (overlaps SSR),
+  // then SSR is removed and client becomes static in one paint frame.
   useEffect(() => {
     const ssrPlaceholder = document.querySelector('[data-hero-ssr]');
-    if (ssrPlaceholder) {
-      (ssrPlaceholder as HTMLElement).style.visibility = 'hidden';
-      (ssrPlaceholder as HTMLElement).setAttribute('aria-hidden', 'true');
-    }
-    const clientEl = document.querySelector('[data-hero-client]');
-    if (clientEl) {
-      (clientEl as HTMLElement).style.display = '';
+    const clientEl = document.querySelector('[data-hero-client]') as HTMLElement;
+    if (ssrPlaceholder && clientEl) {
+      // Step 1: Show client absolutely on top of SSR (no layout shift, no double space)
+      clientEl.style.display = '';
+      clientEl.style.position = 'absolute';
+      clientEl.style.top = '0';
+      clientEl.style.left = '0';
+      clientEl.style.right = '0';
+      // Step 2: In next frame, remove SSR and make client static
+      requestAnimationFrame(() => {
+        ssrPlaceholder.setAttribute('style', 'display:none');
+        ssrPlaceholder.setAttribute('aria-hidden', 'true');
+        clientEl.style.position = '';
+        clientEl.style.top = '';
+        clientEl.style.left = '';
+        clientEl.style.right = '';
+      });
     }
   }, []);
 
