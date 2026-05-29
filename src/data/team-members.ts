@@ -1,13 +1,21 @@
 /**
- * CairoVolt Team Members — E-E-A-T Authors & Technical Reviewers
- * Each member has verified social media links sourced via live web search.
- * Photos expected at: /images/blog/authors/<id>.webp
+ * Recommended Arab Tech Creators — independent reviewers CairoVolt recommends following.
+ *
+ * IMPORTANT: These are NOT CairoVolt employees, authors, or affiliates. This file
+ * powers a curated "experts we recommend" directory. Their `title`/`role` describe
+ * who they really are publicly (their own channels), NOT any position at CairoVolt.
+ * Do not present them as staff, do not attribute CairoVolt content to them, and do
+ * not list them as Organization `member` — that would be misrepresentation.
+ *
+ * Each entry has verified social links. Photos at: /images/blog/authors/<id>.webp
  */
 
-export interface TeamMember {
+export interface RecommendedCreator {
     id: string;
     name: { ar: string; en: string };
+    /** The creator's real public specialty/headline — describes their own work, not a CairoVolt role */
     title: { ar: string; en: string };
+    /** The creator's real public role (e.g. channel owner / independent reviewer) */
     role: { ar: string; en: string };
     bio: { ar: string; en: string };
     expertise: { ar: string[]; en: string[] };
@@ -24,17 +32,17 @@ export interface TeamMember {
     };
 }
 
-export const teamMembers: TeamMember[] = [
+export const recommendedCreators: RecommendedCreator[] = [
     {
         id: 'yehia_radwan',
         name: { ar: 'يحيى رضوان', en: 'Yehia Radwan' },
         title: {
-            ar: 'مراجع أول — هواتف ذكية وإكسسوارات الشحن',
-            en: 'Lead Reviewer — Smartphones & Charging Accessories',
+            ar: 'صانع محتوى تقني — مراجعات هواتف وإكسسوارات شحن',
+            en: 'Tech Content Creator — Phone & Charging Accessory Reviews',
         },
         role: {
-            ar: 'رئيس قسم المراجعات التقنية',
-            en: 'Head of Technical Reviews',
+            ar: 'صانع محتوى تقني مستقل',
+            en: 'Independent Tech Creator',
         },
         bio: {
             ar: 'صانع محتوى تقني مصري ومن أكثر المراجعين تأثيراً في الوطن العربي. متخصص في مراجعات الهواتف الذكية واختبار إكسسوارات الشحن والباور بانك تحت ظروف الاستخدام الحقيقي في مصر.',
@@ -62,8 +70,8 @@ export const teamMembers: TeamMember[] = [
             en: 'Tech Researcher — Charging Physics & GaN Technology',
         },
         role: {
-            ar: 'محلل تقنيات الشحن والطاقة',
-            en: 'Charging & Power Technology Analyst',
+            ar: 'صانع محتوى تقني مستقل',
+            en: 'Independent Tech Creator',
         },
         bio: {
             ar: 'باحث وصانع محتوى تقني مصري متخصص في تبسيط العلوم المعقدة وراء تقنيات الشحن الحديثة. يشرح الفرق بين تقنيات GaN والسيليكون، وأسباب تدهور البطاريات، وفيزياء التوصيل الحراري بأسلوب علمي مبسط.',
@@ -171,8 +179,8 @@ export const teamMembers: TeamMember[] = [
             en: 'Founder of Android Basha — Arab Tech Content Pioneer',
         },
         role: {
-            ar: 'مستشار تقني أول',
-            en: 'Senior Technology Consultant',
+            ar: 'مؤسس شبكة باشا ميديا',
+            en: 'Founder, Basha Media Network',
         },
         bio: {
             ar: 'مؤسس شبكة باشا ميديا ومن أوائل صناع المحتوى التقني في المنطقة العربية. يمتلك شبكة قنوات متخصصة (أندرويد باشا، كاميرا باشا، جيمنج باشا). خبرة تتجاوز العقد في مراجعة الأجهزة والإكسسوارات التقنية.',
@@ -200,8 +208,8 @@ export const teamMembers: TeamMember[] = [
             en: 'Founder of UTD Saudi — Arab Tech Authority',
         },
         role: {
-            ar: 'استشاري تقني ومقيم أول',
-            en: 'Tech Consultant & Senior Evaluator',
+            ar: 'مؤسس قناة UTD Saudi',
+            en: 'Founder, UTD Saudi',
         },
         bio: {
             ar: 'فيصل السيف — مؤسس TechPills Productions وقناة UTD Saudi التي تتجاوز 10 ملايين مشترك. مقدم برامج تلفزيونية تقنية سابق ومن أبرز المرجعيات التقنية في الشرق الأوسط. يغطي أحدث تقنيات الشحن والإكسسوارات في مراجعاته.',
@@ -222,19 +230,19 @@ export const teamMembers: TeamMember[] = [
     },
 ];
 
-/** Utility: get a team member by their ID */
-export function getTeamMemberById(id: string): TeamMember | undefined {
-    return teamMembers.find(m => m.id === id);
+/** Utility: get a recommended creator by their ID */
+export function getCreatorById(id: string): RecommendedCreator | undefined {
+    return recommendedCreators.find(m => m.id === id);
 }
 
 /** Country flag emoji helper */
-export function getCountryFlag(code: TeamMember['country']): string {
+export function getCountryFlag(code: RecommendedCreator['country']): string {
     const flags: Record<string, string> = { EG: '🇪🇬', JO: '🇯🇴', SA: '🇸🇦', AE: '🇦🇪' };
     return flags[code] || '';
 }
 
 /** Country name helper */
-export function getCountryName(code: TeamMember['country'], locale: 'ar' | 'en'): string {
+export function getCountryName(code: RecommendedCreator['country'], locale: 'ar' | 'en'): string {
     const names: Record<string, { ar: string; en: string }> = {
         EG: { ar: 'مصر', en: 'Egypt' },
         JO: { ar: 'الأردن', en: 'Jordan' },

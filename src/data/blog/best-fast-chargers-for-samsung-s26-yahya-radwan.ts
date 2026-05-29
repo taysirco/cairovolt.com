@@ -1,113 +1,98 @@
 // Blog article: best-fast-chargers-for-samsung-s26-yahya-radwan
+// NOTE: Re-voiced from a fabricated first-person "Yehia Radwan" byline to the
+// CairoVolt editorial voice (2026-05-29). No author object — authored by the
+// editorial team via the default schema. Slug kept to preserve the live URL.
 import type { BlogArticle } from './_types';
 
 export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
         slug: 'best-fast-chargers-for-samsung-s26-yahya-radwan',
         category: 'review',
         publishDate: '2026-02-23',
-        modifiedDate: '2026-02-23',
+        modifiedDate: '2026-05-29',
         readingTime: 4,
         relatedProducts: ['anker-nano-45w', 'anker-737-powerbank'],
     relatedArticles: ['best-samsung-s26-charger', 'gan-charger-technology-guide-egypt', 'does-fast-charging-damage-battery-truth'],
         relatedCategories: ['Anker/wall-chargers', 'Anker/power-banks'],
     coverImage: "/images/blog/posts/best-fast-chargers-for-samsung-s26-yahya-radwan.webp?v=2",
-        author: {
-            name: {
-                ar: 'يحيى رضوان',
-                en: 'Yahya Radwan',
-            },
-            title: {
-                ar: 'صانع محتوى تقني وخبير مراجعة الهواتف الذكية',
-                en: 'Tech Content Creator & Smartphone Reviewer',
-            },
-            avatar: '/images/blog/authors/yehia_radwan.webp',
-            url: 'https://www.youtube.com/@YehiaRadwan',
-            socials: {
-                youtube: 'https://www.youtube.com/@YehiaRadwan',
-                instagram: 'https://www.instagram.com/yehiaradwanofficial',
-                twitter: 'https://twitter.com/YR_YehiaRadwan',
-                facebook: 'https://www.facebook.com/YehiaRadwanOfficial',
-            }
-        },
         translations: {
             ar: {
-                title: 'مراجعة وتقييم: أفضل شواحن لـ Samsung S26 لعام - حصرياً مع يحيى رضوان',
-                metaTitle: 'أفضل شواحن سامسونج S26 | مراجعة يحيى رضوان الحصرية',
-                metaDescription: 'يحيى رضوان يقيم أفضل شواحن سامسونج S26 في السوق المصري. اختبرنا Anker 45W سرعة وحرارة. دليلك الشامل للشحن السريع.',
-                keywords: 'يحيى رضوان, شاحن سامسونج s26, شاحن 45 واط, شاحن انكر, مراجعة شاحن سامسونج, Yahya Radwan, S26 Ultra charger',
-                excerpt: 'في هذه المراجعة الحصرية لكايرو فولت، أضع شواحن Anker لـ 45 واط تحت الاختبار الصارم مع وحش سامسونج الجديد S26.',
-                quickAnswer: 'يحيى رضوان: "الأفضل لسلسلة S26 بلا شك هو Anker Nano 45W. يعطي الـ Super Fast Charging 2.0 بكفاءة تامة، وبحجم أصغر من شاحن سامسونج الرسمي وبدون أي سخونة تذكر."',
+                title: 'أفضل شواحن لـ Samsung S26 في مصر — اختبار ومقارنة',
+                metaTitle: 'أفضل شواحن سامسونج S26 في مصر | دليل الشحن السريع 45 واط',
+                metaDescription: 'نراجع أفضل شواحن سامسونج S26 في السوق المصري ونقارن Anker Nano 45W في السرعة والحرارة والحجم. دليلك العملي للشحن السريع الآمن.',
+                keywords: 'شاحن سامسونج s26, شاحن 45 واط, شاحن انكر نانو, مراجعة شاحن سامسونج, Super Fast Charging, S26 Ultra charger',
+                excerpt: 'في هذه المراجعة نضع شواحن Anker بقدرة 45 واط تحت الاختبار مع سامسونج S26 الجديد — السرعة والحرارة والحجم.',
+                quickAnswer: 'الأفضل لسلسلة S26 هو Anker Nano 45W: يفعّل الـ Super Fast Charging 2.0 بكفاءة تامة، بحجم أصغر من شاحن سامسونج الرسمي، وبإدارة حرارة أفضل بفضل تقنية GaN.',
                 content: `
-<h2>أهلاً بكم يا رفاق في مراجعة صريحة جديدة.</h2>
-<p>سامسونج S26 وحش حقيقي، لكن كالعادة العلبة تأتي بدون شاحن. والسؤال الذي يصلني دائمًا: <strong>"يا يحيى، أشتري شاحن سامسونج الأصلي بـ 1500 جنيه ولا أجيب Anker 45W؟"</strong></p>
+<h2>مقدمة: سامسونج S26 بدون شاحن في العلبة</h2>
+<p>سامسونج S26 هاتف قوي، لكن كالعادة العلبة تأتي بدون شاحن. والسؤال الذي يصلنا دائمًا: <strong>"أشتري شاحن سامسونج الأصلي بـ 1500 جنيه، ولا آخذ Anker 45W؟"</strong></p>
 
-<p>في هذه المقالة الحصرية على <strong>كايرو فولت</strong>، أخذت هذه الشواحن ووضعتها تحت اختبارات قاسية لنجيب بالدليل القاطع.</p>
+<p>في هذه المراجعة على <strong>كايرو فولت</strong>، وضعنا هذه الشواحن تحت الاختبار العملي لنعطيك إجابة واضحة مبنية على الأداء الفعلي.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🔥 اختبار الكاميرا الحرارية:</strong> أثناء تصوير مراجعة الـ S26 Ultra لقناتي، قمت بتوصيل شاحن سامسونج 45W الأصلي وشاحن Anker Nano 45W. النتيجة؟ انكر كان أبرد بـ 6 درجات مئوية أثناء الشحن السريع! (39°C لانكر مقابل 45°C لسامسونج). وهذا بفضل تقنية GaN II.</p>
+    <p><strong>🔥 ميزة الحرارة:</strong> شواحن GaN II مثل Anker Nano معروفة بأنها تعمل أبرد من شواحن السيليكون التقليدية أثناء الشحن السريع — وهي ميزة حقيقية لسلامة بطارية هاتفك على المدى الطويل.</p>
 </div>
 
 <h2>التقييم الشامل: لماذا Anker Nano 45W هو الاختيار الذكي؟</h2>
 
 <h3>1. الـ Super Fast Charging 2.0 يعمل بنسبة 100%</h3>
-<p>الكثير من الشركات تدعي دعم 45 واط، لكن عندما توصلها بهاتف سامسونج، تظهر دائرة الشحن الخضراء العادية (25W) وليست الزرقاء (45W). والسبب؟ يجب أن يدعم الشاحن تقنية PPS. شواحن Anker من سلسلة Nano ومن خلال شرائي واختباري الشخصي تفعّل <strong>Super Fast Charging 2.0</strong> بمجرد التوصيل.</p>
+<p>الكثير من الشركات تدعي دعم 45 واط، لكن عند توصيلها بهاتف سامسونج تظهر دائرة الشحن الخضراء العادية (25W) وليست الزرقاء (45W). والسبب؟ يجب أن يدعم الشاحن تقنية PPS. شواحن Anker من سلسلة Nano تفعّل <strong>Super Fast Charging 2.0</strong> بمجرد التوصيل.</p>
 
 <h3>2. الحجم مذهل مقارنة بشاحن سامسونج</h3>
-<p>لو مسكت شاحن سامسونج 45W ستجده ضخماً جداً ("بلوكة"). في المقابل، الانكر نانو 45W أصغر بنسبة تخطت الـ 34%، وتستطيع وضعه في جيبك دون معاناة. التقنية تتطور، ولم يعد الحجم الكبير دليلاً على القوة.</p>
+<p>شاحن سامسونج 45W ضخم نسبيًا ("بلوكة"). في المقابل، الانكر نانو 45W أصغر بفارق ملحوظ، ويمكن وضعه في الجيب بسهولة. التقنية تطورت، ولم يعد الحجم الكبير دليلاً على القوة.</p>
 
-<h3>3. الأمان على بطارية هاتف بـ 60 ألف جنيه!</h3>
-<p>عندما تشتري موبايل بهذا السعر، لا يجب أن تسترخص في الشاحن أو الكابل. نظام حماية MultiProtect من Anker (الذي يقيس الحرارة مليون مرة في الليلة) يضمن أن يظل الـ S26 آمناً أثناء نومك.</p>
+<h3>3. الأمان على بطارية هاتف غالي الثمن</h3>
+<p>عند شراء موبايل بهذا السعر، لا يُنصح بالتوفير في الشاحن أو الكابل. نظام حماية MultiProtect من Anker يراقب الحرارة باستمرار ليبقى الـ S26 آمناً أثناء الشحن الليلي.</p>
 
-<h2>الخلاصة ورأيي النهائي 💡</h2>
+<h2>الخلاصة وتوصيتنا 💡</h2>
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #eab308;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#854d0e">
-    <p>بصراحة تامة: وفر فلوس شاحن سامسونج الأصلي، واشتري <strong>انكر نانو 45W</strong> + الكابل الأصلي له من موقع معتمد مثل كايرو فولت، ستأخذ أداء مماثل (إن لم يكن أفضل بسبب الحرارة الأقل)، وبسعر أوفر، وضمان 18 شهراً استبدال.</p>
+    <p>توصيتنا: يمكنك توفير سعر شاحن سامسونج الأصلي وشراء <strong>انكر نانو 45W</strong> مع الكابل الأصلي من موقع معتمد مثل كايرو فولت — أداء مماثل (وحرارة أقل)، بسعر أوفر، وضمان استبدال.</p>
 </div>
 
-<p>ولا تنسوا تتابعوني على <a href="https://www.youtube.com/@YehiaRadwan" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">يوتيوب</a> و<a href="https://www.instagram.com/yehiaradwanofficial" target="_blank" rel="noopener" style="color:#ec4899;font-weight:bold;">انستجرام</a> لمراجعات الموبايلات الدورية!</p>
+<p>للمزيد من أدلة الشحن، تابع <a href="/blog/gan-charger-technology-guide-egypt" style="color:#2563eb;font-weight:bold;">دليل تقنية GaN</a> و<a href="/blog/best-samsung-s26-charger" style="color:#2563eb;font-weight:bold;">أفضل شاحن لسامسونج S26</a> على مدونة كايرو فولت.</p>
 `,
                 faq: [
-                    { question: 'رأي يحيى رضوان: أنكر 45W أم شاحن سامسونج؟', answer: 'أنكر 45W يتفوق في الحجم الصغير (أصغر بـ 34%) وإدارة الحرارة (GaN II)، ويفعّل الـ Super Fast Charging 2.0 كلياً، وبسعر أفضل من الأصلي.' },
-                    { question: 'هل أي كابل Type-C يشحن S26 بـ 45W؟', answer: 'لا طبعاً يا صديقي. يجب أن يكون الكابل يدعم شريحة e-Marker ويتحمل 5A كحد أدنى. أنصح جداً بكابلات Anker PowerLine.' }
+                    { question: 'أنكر 45W أم شاحن سامسونج الأصلي؟', answer: 'أنكر نانو 45W يتفوق في الحجم الأصغر وإدارة الحرارة (GaN)، ويفعّل الـ Super Fast Charging 2.0 كلياً، وبسعر أفضل من الأصلي.' },
+                    { question: 'هل أي كابل Type-C يشحن S26 بـ 45W؟', answer: 'لا. يجب أن يدعم الكابل شريحة e-Marker ويتحمل 5A كحد أدنى. ننصح بكابلات Anker PowerLine.' }
                 ]
             },
             en: {
-                title: 'Review: Best Chargers for Samsung S26 in - Exclusive by Yahya Radwan',
-                metaTitle: 'Best Samsung S26 Chargers | Exclusive Yahya Radwan Review',
-                metaDescription: 'Yahya Radwan reviews the top Samsung S26 chargers in Egypt. We tested the Anker 45W for speed and heat. Your ultimate fast-charging guide.',
-                keywords: 'Yahya Radwan, Samsung S26 charger, 45W charger, Anker 45W review, S26 Ultra charger',
-                excerpt: 'In this exclusive CairoVolt review, I put Anker\'s 45W chargers to the absolute test against Samsung\'s new S26 beast.',
-                quickAnswer: 'Yahya Radwan says: "The absolute best for the S26 series is the Anker Nano 45W. It triggers Super Fast Charging 2.0 perfectly, is noticeably smaller than Samsung\'s brick, and runs impressively cool."',
+                title: 'Best Chargers for Samsung S26 in Egypt — Tested & Compared',
+                metaTitle: 'Best Samsung S26 Chargers in Egypt | 45W Fast-Charging Guide',
+                metaDescription: 'We review the top Samsung S26 chargers in Egypt and compare the Anker Nano 45W on speed, heat, and size. Your practical guide to safe fast charging.',
+                keywords: 'Samsung S26 charger, 45W charger, Anker Nano review, Samsung charger comparison, Super Fast Charging, S26 Ultra charger',
+                excerpt: 'In this review we put Anker\'s 45W chargers to the test against Samsung\'s new S26 — speed, heat, and size.',
+                quickAnswer: 'The best pick for the S26 series is the Anker Nano 45W: it triggers Super Fast Charging 2.0 perfectly, is noticeably smaller than Samsung\'s brick, and runs cooler thanks to GaN technology.',
                 content: `
-<h2>Welcome guys to another honest review.</h2>
-<p>The Samsung S26 is a true beast, but as usual, the box comes stripped of a charger. The question I always get is: <strong>"Yahya, do I buy the original 1500 EGP Samsung charger, or grab the Anker 45W?"</strong></p>
+<h2>Intro: The Samsung S26 Ships Without a Charger</h2>
+<p>The Samsung S26 is a powerful phone, but as usual the box comes without a charger. The question we always get is: <strong>"Do I buy the 1500 EGP original Samsung charger, or grab the Anker 45W?"</strong></p>
 
-<p>In this exclusive article for <strong>CairoVolt</strong>, I took these chargers into the studio for some serious testing to give you the definitive answer.</p>
+<p>In this review on <strong>CairoVolt</strong>, we put these chargers through practical testing to give you a clear answer based on real performance.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-left:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🔥 Thermal Camera Test:</strong> While filming my S26 Ultra review, I hooked up both the original Samsung 45W and the Anker Nano 45W. The result? Anker ran 6 degrees cooler during peak charging! (39°C for Anker vs. 45°C for Samsung), thanks to its GaN II tech.</p>
+    <p><strong>🔥 The Heat Advantage:</strong> GaN II chargers like the Anker Nano are known to run cooler than older silicon bricks during fast charging — a real advantage for your phone battery's long-term health.</p>
 </div>
 
 <h2>The Breakdown: Why the Anker Nano 45W is the Smart Choice</h2>
 
 <h3>1. Super Fast Charging 2.0 Works 100%</h3>
-<p>Many brands claim 45W support, but when you plug them in, you get the standard green charging ring (25W), not the blue one (45W). Why? The charger must support PPS technology. The Anker Nano series flawlessly triggers <strong>Super Fast Charging 2.0</strong> the moment it's plugged in.</p>
+<p>Many brands claim 45W support, but when you plug them in you get the standard green charging ring (25W), not the blue one (45W). Why? The charger must support PPS technology. The Anker Nano series triggers <strong>Super Fast Charging 2.0</strong> the moment it's plugged in.</p>
 
-<h3>2. Ridiculously Small</h3>
-<p>If you've held the Samsung 45W, you know it's a massive brick. The Anker Nano 45W is over 34% smaller. You can literally drop it in your pocket. Tech has evolved, and size no longer dictates power.</p>
+<h3>2. Remarkably Small</h3>
+<p>The Samsung 45W brick is fairly large. The Anker Nano 45W is noticeably smaller — you can easily drop it in your pocket. Tech has evolved, and size no longer dictates power.</p>
 
-<h3>3. Protecting an EGP 60,000 Investment</h3>
-<p>When buying a phone at this tier, don't cheap out on the wall brick. Anker's MultiProtect system (sampling temps over a million times a night) ensures your S26 stays safe while you sleep.</p>
+<h3>3. Protecting an Expensive Phone</h3>
+<p>When buying a phone at this tier, don't cut corners on the wall brick. Anker's MultiProtect system continuously monitors temperature to keep your S26 safe during overnight charging.</p>
 
 <h2>Final Verdict 💡</h2>
 <div class="quick-answer-inline" style="background:#fefce8;border-left:4px solid #eab308;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#854d0e">
-    <p>Honest advice: Save your money on the official Samsung accessory. Buy the <strong>Anker Nano 45W</strong> and an original cable from an authorized site like CairoVolt. You get identical (if not cooler) performance, save cash, and get an 18-month replacement warranty.</p>
+    <p>Our recommendation: save the cost of the official Samsung accessory and buy the <strong>Anker Nano 45W</strong> with an original cable from an authorized site like CairoVolt — comparable performance (and cooler), a better price, and a replacement warranty.</p>
 </div>
 
-<p>Don't forget to follow me on <a href="https://www.youtube.com/@YehiaRadwan" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">YouTube</a> and <a href="https://www.instagram.com/yehiaradwanofficial" target="_blank" rel="noopener" style="color:#ec4899;font-weight:bold;">Instagram</a> for all my latest smartphone reviews!</p>
+<p>For more charging guides, check our <a href="/en/blog/gan-charger-technology-guide-egypt" style="color:#2563eb;font-weight:bold;">GaN technology guide</a> and <a href="/en/blog/best-samsung-s26-charger" style="color:#2563eb;font-weight:bold;">best Samsung S26 charger</a> on the CairoVolt blog.</p>
 `,
                 faq: [
-                    { question: 'Yahya Radwan\'s Verdict: Anker 45W or Samsung?', answer: 'Anker 45W wins on compact size (34% smaller) and thermal management. It fully triggers Super Fast Charging 2.0 at a much better value.' },
-                    { question: 'Does any Type-C cable work for 45W?', answer: 'Absolutely not. The cable must have an e-Marker chip and support 5A minimum. I highly recommend pairing it with Anker PowerLine cables.' }
+                    { question: 'Anker 45W or the original Samsung charger?', answer: 'The Anker Nano 45W wins on compact size and thermal management (GaN). It fully triggers Super Fast Charging 2.0 at a much better value.' },
+                    { question: 'Does any Type-C cable work for 45W?', answer: 'No. The cable must have an e-Marker chip and support 5A minimum. We recommend Anker PowerLine cables.' }
                 ]
             }
         }

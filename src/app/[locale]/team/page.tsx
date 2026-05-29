@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { teamMembers, getCountryFlag, getCountryName, type TeamMember } from '@/data/team-members';
+import { recommendedCreators, getCountryFlag, getCountryName, type RecommendedCreator } from '@/data/team-members';
 
 export const revalidate = 2592000;
 
@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : 'https://cairovolt.com/en/team';
 
     const title = isArabic
-        ? 'فريقنا التقني — خبراء مراجعة الإكسسوارات والشحن | كايرو فولت'
-        : 'Our Technical Team — Charging & Accessories Review Experts | CairoVolt';
+        ? 'خبراء التقنية الذين ننصح بمتابعتهم | كايرو فولت'
+        : 'Tech Experts We Recommend Following | CairoVolt';
     const description = isArabic
-        ? 'تعرف على فريق كايرو فولت من المراجعين التقنيين المتخصصين في اختبار الشواحن والباور بانك وإكسسوارات الموبايل. خبرة حقيقية، مراجعات مستقلة، محتوى موثوق.'
-        : 'Meet the CairoVolt team of tech reviewers specializing in charger, power bank, and mobile accessory testing. Real expertise, independent reviews, trusted content.';
+        ? 'قائمة منسقة من أبرز صنّاع المحتوى التقني المستقلين في الوطن العربي الذين نتابعهم ونثق في مراجعاتهم للشواحن والباور بانك. صنّاع مستقلون — لا تربطهم علاقة عمل بكايرو فولت.'
+        : 'A curated list of the top independent Arab tech creators we follow and trust for charger, power bank, and accessory reviews. Independent creators — not affiliated with CairoVolt.';
 
     return {
         title: { absolute: title },
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'website',
             siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
-            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: isArabic ? 'كايرو فولت - فريقنا التقني' : 'CairoVolt - Our Technical Team' }],
+            images: [{ url: '/og-cover.png', width: 1200, height: 630, alt: isArabic ? 'كايرو فولت - خبراء ننصح بمتابعتهم' : 'CairoVolt - Tech Experts We Recommend' }],
         },
         other: {
             'geo.region': 'EG',
@@ -58,8 +58,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-/** Person JSON-LD for a single team member */
-function PersonSchema({ member, locale }: { member: TeamMember; locale: string }) {
+/**
+ * Person JSON-LD for a recommended creator.
+ * NOTE: No `worksFor`/affiliation to CairoVolt — these are independent creators we
+ * recommend, not staff. `sameAs` points to their own channels (their real identity),
+ * and `mainEntityOfPage` is each creator's own primary platform, not our site.
+ */
+function PersonSchema({ member, locale }: { member: RecommendedCreator; locale: string }) {
     const isArabic = locale === 'ar';
     const lang = isArabic ? 'ar' : 'en';
     const sameAs = Object.values(member.socials).filter(Boolean) as string[];
@@ -69,14 +74,9 @@ function PersonSchema({ member, locale }: { member: TeamMember; locale: string }
         '@type': 'Person',
         '@id': `https://cairovolt.com/team#${member.id}`,
         name: member.name[lang],
-        url: member.url || sameAs[0] || `https://cairovolt.com${isArabic ? '' : '/en'}/team`,
+        url: member.url || sameAs[0],
         jobTitle: member.title[lang],
-        worksFor: {
-            '@type': 'Organization',
-            '@id': 'https://cairovolt.com/#organization',
-            name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-            url: 'https://cairovolt.com',
-        },
+        description: member.bio[lang],
         image: `https://cairovolt.com${member.avatar}`,
         sameAs,
         knowsAbout: member.expertise[lang],
@@ -119,13 +119,13 @@ export default function TeamPage() {
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: isArabic ? 'فريقنا التقني' : 'Our Team', url: `https://cairovolt.com${isArabic ? '' : '/en'}/team` },
+                    { name: isArabic ? 'خبراء ننصح بمتابعتهم' : 'Recommended Experts', url: `https://cairovolt.com${isArabic ? '' : '/en'}/team` },
                 ]}
                 locale={locale}
             />
 
             {/* Person JSON-LD for each team member */}
-            {teamMembers.map((member) => (
+            {recommendedCreators.map((member) => (
                 <PersonSchema key={member.id} member={member} locale={locale} />
             ))}
 
@@ -135,21 +135,31 @@ export default function TeamPage() {
                     <div className="text-center mb-16 max-w-4xl mx-auto">
                         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-                            {isArabic ? 'خبراء تقنيون معتمدون' : 'Verified Technical Experts'}
+                            {isArabic ? 'صنّاع محتوى ننصح بمتابعتهم' : 'Creators We Recommend Following'}
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                            {isArabic ? 'فريقنا التقني' : 'Our Technical Team'}
+                            {isArabic ? 'خبراء التقنية الذين ننصح بمتابعتهم' : 'Tech Experts We Recommend'}
                         </h1>
                         <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
                             {isArabic
-                                ? 'نعتمد على فريق من أبرز المراجعين التقنيين في الوطن العربي. كل مراجعة وكل توصية مبنية على خبرة حقيقية واختبار فعلي — وليست منسوخة من الإنترنت.'
-                                : 'We rely on a team of the most prominent tech reviewers in the Arab world. Every review and recommendation is based on real expertise and hands-on testing — not copied from the internet.'}
+                                ? 'قبل ما تشتري إكسسوار، تابع المراجعات المستقلة. جمعنا لك أبرز صنّاع المحتوى التقني في الوطن العربي ممن نتابعهم بأنفسنا ونثق في مراجعاتهم للشواحن والباور بانك والإكسسوارات.'
+                                : 'Before you buy an accessory, watch the independent reviews. We curated the top Arab tech creators we personally follow and trust for charger, power bank, and accessory reviews.'}
+                        </p>
+                    </div>
+
+                    {/* Independence disclaimer — keeps the page honest and consistent with the schema (no affiliation claimed) */}
+                    <div className="max-w-3xl mx-auto mb-12 flex items-start gap-3 p-4 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 text-sm">
+                        <svg className="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <p className="text-amber-800 dark:text-amber-300">
+                            {isArabic
+                                ? 'هؤلاء صنّاع محتوى مستقلون لا تربطهم علاقة عمل أو رعاية بكايرو فولت، ولا يكتبون محتوى موقعنا. نرشّحهم فقط لجودة مراجعاتهم المستقلة. محتوى كايرو فولت يكتبه فريق التحرير لدينا.'
+                                : 'These are independent creators with no employment or sponsorship relationship with CairoVolt, and they do not write our content. We list them solely for the quality of their independent reviews. CairoVolt content is written by our own editorial team.'}
                         </p>
                     </div>
 
                     {/* Team Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-20">
-                        {teamMembers.map((member) => {
+                        {recommendedCreators.map((member) => {
                             const lang = isArabic ? 'ar' : 'en';
                             return (
                                 <article
@@ -259,12 +269,12 @@ export default function TeamPage() {
                                 <span className="text-3xl text-blue-500">
                                     <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>
                                 </span>
-                                {isArabic ? 'منهجيتنا التحريرية' : 'Our Editorial Methodology'}
+                                {isArabic ? 'لماذا نوصي بهؤلاء تحديداً؟' : 'Why We Recommend These Creators'}
                             </h2>
                             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
                                 {isArabic
-                                    ? 'نلتزم في كايرو فولت بأعلى معايير الجودة التحريرية. كل محتوى على موقعنا يمر بعملية فحص ومراجعة صارمة لضمان الدقة والمصداقية:'
-                                    : 'At CairoVolt, we uphold the highest editorial quality standards. Every piece of content on our site goes through a rigorous review process to ensure accuracy and credibility:'}
+                                    ? 'نختار من نرشّحه بعناية. هذه هي المعايير التي يجب أن تتوفر في صانع المحتوى قبل أن نضعه في هذه القائمة:'
+                                    : 'We pick who we recommend carefully. These are the criteria a creator must meet before we add them to this list:'}
                             </p>
                             <div className="grid md:grid-cols-2 gap-5">
                                 <div className="flex items-start gap-3 p-4 bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-100 dark:border-green-800">
@@ -273,12 +283,12 @@ export default function TeamPage() {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-sm text-green-800 dark:text-green-300 mb-1">
-                                            {isArabic ? 'اختبار فعلي حقيقي' : 'Real Hands-on Testing'}
+                                            {isArabic ? 'اختبار عملي حقيقي' : 'Real Hands-on Testing'}
                                         </h3>
                                         <p className="text-xs text-green-700 dark:text-green-400">
                                             {isArabic
-                                                ? 'كل منتج يتم اختباره فعلياً بأجهزة قياس (USB Testers) في ظروف الاستخدام المصري الحقيقي — وليست مراجعات نظرية.'
-                                                : 'Every product is tested with measuring equipment (USB Testers) under real Egyptian usage conditions — not theoretical reviews.'}
+                                                ? 'يختبرون المنتجات بأنفسهم بأجهزة قياس فعلية (USB Testers) ويقدمون نتائج عملية — لا مراجعات نظرية.'
+                                                : 'They test products themselves with real measuring equipment (USB testers) and share practical results — not theoretical reviews.'}
                                         </p>
                                     </div>
                                 </div>
@@ -288,12 +298,12 @@ export default function TeamPage() {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-sm text-blue-800 dark:text-blue-300 mb-1">
-                                            {isArabic ? 'مراجعون مستقلون' : 'Independent Reviewers'}
+                                            {isArabic ? 'استقلالية المحتوى' : 'Genuine Independence'}
                                         </h3>
                                         <p className="text-xs text-blue-700 dark:text-blue-400">
                                             {isArabic
-                                                ? 'فريقنا يضم مراجعين مستقلين يشترون المنتجات بأموالهم الخاصة ويرفضون الإعلانات المدفوعة لضمان حيادية آرائهم.'
-                                                : 'Our team includes independent reviewers who purchase products with their own money and refuse paid ads to ensure unbiased opinions.'}
+                                                ? 'كثير منهم يشتري المنتجات بماله الخاص ويرفض الإعلانات المدفوعة — ما يجعل رأيه محايداً وغير متحيز.'
+                                                : 'Many buy products with their own money and refuse paid promotions — keeping their opinions neutral and unbiased.'}
                                         </p>
                                     </div>
                                 </div>
@@ -307,8 +317,8 @@ export default function TeamPage() {
                                         </h3>
                                         <p className="text-xs text-purple-700 dark:text-purple-400">
                                             {isArabic
-                                                ? 'كل مراجع في فريقنا له قناة يوتيوب أو منصة محتوى فعلية يمكنك التحقق من سجل أعماله ومصداقيته بنفسك.'
-                                                : 'Every reviewer on our team has a YouTube channel or active content platform where you can verify their track record and credibility yourself.'}
+                                                ? 'لكل منهم قناة يوتيوب أو منصة محتوى فعلية يمكنك أن تتحقق من سجل أعماله ومصداقيته بنفسك.'
+                                                : 'Each has a YouTube channel or active content platform where you can verify their track record and credibility yourself.'}
                                         </p>
                                     </div>
                                 </div>
@@ -322,8 +332,8 @@ export default function TeamPage() {
                                         </h3>
                                         <p className="text-xs text-amber-700 dark:text-amber-400">
                                             {isArabic
-                                                ? 'نذكر عيوب المنتجات بصراحة كاملة. لا نخفي المشاكل ولا نبالغ في المميزات — هدفنا مساعدتك على اتخاذ القرار الصحيح.'
-                                                : 'We mention product flaws with complete honesty. We don\'t hide issues or exaggerate features — our goal is to help you make the right decision.'}
+                                                ? 'يذكرون عيوب المنتجات بصراحة. لا يخفون المشاكل ولا يبالغون في المميزات — ما يساعدك على اتخاذ القرار الصحيح.'
+                                                : 'They point out product flaws honestly. No hiding issues, no exaggerating features — helping you make the right decision.'}
                                         </p>
                                     </div>
                                 </div>
@@ -335,7 +345,7 @@ export default function TeamPage() {
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                                 <div>
                                     <p className="text-4xl font-bold">7</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'مراجعون تقنيون' : 'Tech Reviewers'}</p>
+                                    <p className="text-sm opacity-80">{isArabic ? 'صنّاع محتوى نرشّحهم' : 'Creators We Recommend'}</p>
                                 </div>
                                 <div>
                                     <p className="text-4xl font-bold">4</p>
@@ -343,11 +353,11 @@ export default function TeamPage() {
                                 </div>
                                 <div>
                                     <p className="text-4xl font-bold">15M+</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'إجمالي المتابعين' : 'Combined Followers'}</p>
+                                    <p className="text-sm opacity-80">{isArabic ? 'مجموع متابعيهم على قنواتهم' : 'Their Combined Audience'}</p>
                                 </div>
                                 <div>
                                     <p className="text-4xl font-bold">10+</p>
-                                    <p className="text-sm opacity-80">{isArabic ? 'سنوات خبرة' : 'Years Experience'}</p>
+                                    <p className="text-sm opacity-80">{isArabic ? 'أعوام من خبرتهم الجماعية' : 'Years of Their Experience'}</p>
                                 </div>
                             </div>
                         </section>

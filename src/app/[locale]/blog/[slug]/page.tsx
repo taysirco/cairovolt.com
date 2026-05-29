@@ -13,6 +13,8 @@ import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidg
 
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import SocialShareButtons from '@/components/content/SocialShareButtons';
+import { RecommendedReviews } from '@/components/content/RecommendedReviews';
+import { ExpertQuote } from '@/components/content/ExpertQuote';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
 export const revalidate = 86400;
@@ -336,8 +338,8 @@ export default async function BlogArticlePage({ params }: Props) {
                         <span className="flex items-center gap-1.5">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
                             {article.author ? article.author.name[isArabic ? 'ar' : 'en'] : (
-                                <Link href={isArabic ? '/team' : '/en/team'} className="text-blue-600 dark:text-blue-400 hover:underline">
-                                    {isArabic ? 'فريق كايرو فولت' : 'CairoVolt Team'}
+                                <Link href={isArabic ? '/about' : '/en/about'} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                    {isArabic ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team'}
                                 </Link>
                             )}
                         </span>
@@ -378,25 +380,19 @@ export default async function BlogArticlePage({ params }: Props) {
                     {/* Interactive Widgets (Calculators, Mermaid Diagrams) */}
                     <BlogInteractiveWidgets slug={slug} locale={locale} />
 
-                    {/* CairoVolt Labs Expert Box — Expert data section */}
-                    <div className="my-10 p-6 bg-gradient-to-br from-blue-950 to-slate-900 text-white rounded-2xl border border-blue-700/30 shadow-xl">
-                        <div className="flex items-center gap-3 mb-4">
-                            <span className="text-2xl">🔬</span>
-                            <div>
-                                <div className="font-bold text-blue-300 text-sm uppercase tracking-wider">
-                                    {isArabic ? 'مختبر كايرو فولت — بيانات طرف أول' : 'CairoVolt Labs — First-Party Data'}
-                                </div>
-                                <div className="text-xs text-gray-400">
-                                    {isArabic ? 'م. يحيى رضوان · مهندس ضمان الجودة' : 'Eng. Yahia Radwan · Quality Assurance Engineer'}
-                                </div>
-                            </div>
-                        </div>
-                        <p className="cairovolt-voice-answer text-gray-200 leading-relaxed">
-                            {isArabic
-                                ? 'باور بانك أنكر 737 اتجرب في مخازن كايرو فولت بالتجمع الثالث في حرارة 37 درجة مئوية وشغل راوتر WE VDSL لمدة 14 ساعة و22 دقيقة متواصلة بدون ريستارت — هذه نتيجة حقيقية من بيئة مصرية لا تجدها في أي مكان آخر.'
-                                : 'Anker 737 power bank was tested at CairoVolt\'s warehouse in New Cairo 3 at 37°C and ran a WE VDSL router for 14 hours 22 minutes continuously without restart — a real result from an Egyptian environment unavailable anywhere else.'}
-                        </p>
-                    </div>
+                    {/* Verified expert quote — only renders when the article carries a real, sourced quote */}
+                    {article.expertQuote && <ExpertQuote quote={article.expertQuote} locale={locale} />}
+
+                    {/*
+                      REMOVED: the "CairoVolt Labs — First-Party Data" box.
+                      It was hardcoded identically on every article (an Anker 737 / WE-router
+                      result shown even on cable/earbud posts) and credited an independent
+                      YouTuber as "Quality Assurance Engineer" — neither is true, so it was a
+                      fabricated experience + false-employment signal.
+                      To bring it back legitimately: store REAL, per-article test data on the
+                      BlogArticle object and attribute it to "CairoVolt editorial/lab team"
+                      (or a real, named, consenting tester) — never to an unaffiliated creator.
+                    */}
 
                     {/* FAQSection removed — was duplicating the FAQ accordion below */}
 
@@ -461,35 +457,46 @@ export default async function BlogArticlePage({ params }: Props) {
                         <div className="my-12 p-6 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30 flex flex-col md:flex-row items-center md:items-start gap-6">
                             <img
                                 src="/images/team/cairovolt-team.webp"
-                                alt={isArabic ? 'فريق كايرو فولت التقني' : 'CairoVolt Technical Team'}
+                                alt={isArabic ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team'}
                                 className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-md flex-shrink-0"
                                 loading="lazy"
                             />
                             <div className="text-center md:text-start flex-1">
                                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                                    <Link href={isArabic ? '/team' : '/en/team'} className="hover:text-blue-600 transition-colors">
-                                        {isArabic ? 'فريق كايرو فولت التقني' : 'CairoVolt Technical Team'}
+                                    <Link href={isArabic ? '/about' : '/en/about'} className="hover:text-blue-600 transition-colors">
+                                        {isArabic ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team'}
                                     </Link>
                                 </h3>
                                 <p className="text-blue-600 dark:text-blue-400 font-medium text-sm mb-3">
-                                    {isArabic ? '7 مراجعين تقنيين متخصصين من 4 دول عربية' : '7 specialized tech reviewers from 4 Arab countries'}
+                                    {isArabic ? 'متخصصون في اختبار ومراجعة إكسسوارات الشحن والموبايل' : 'Specialists in testing & reviewing charging and mobile accessories'}
                                 </p>
                                 <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
                                     {isArabic
-                                        ? 'يُكتب هذا المحتوى بواسطة فريقنا التقني المتخصص في اختبار ومراجعة إكسسوارات الشحن والموبايل. كل مقال يمر بمراجعة دقيقة لضمان دقة المعلومات.'
-                                        : 'This content is written by our technical team specializing in testing and reviewing charging and mobile accessories. Every article undergoes thorough review to ensure accuracy.'}
+                                        ? 'يُكتب هذا المحتوى ويُراجع بواسطة فريق التحرير في كايرو فولت. كل مقال يمر بمراجعة دقيقة لضمان دقة المعلومات. للاطلاع على آراء مستقلة، نرشّح لك أيضاً نخبة من صنّاع المحتوى التقني.'
+                                        : 'This content is written and reviewed by the CairoVolt editorial team. Every article undergoes thorough review for accuracy. For independent opinions, we also recommend a selection of top tech creators.'}
                                 </p>
-                                <Link
-                                    href={isArabic ? '/team' : '/en/team'}
-                                    className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline"
-                                >
-                                    {isArabic ? 'تعرف على فريقنا' : 'Meet our team'}
-                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                                </Link>
+                                <div className="flex flex-wrap items-center justify-center md:justify-start gap-x-5 gap-y-2">
+                                    <Link
+                                        href={isArabic ? '/about' : '/en/about'}
+                                        className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline"
+                                    >
+                                        {isArabic ? 'من نحن' : 'About us'}
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                                    </Link>
+                                    <Link
+                                        href={isArabic ? '/team' : '/en/team'}
+                                        className="inline-flex items-center gap-2 text-sm font-semibold text-purple-600 dark:text-purple-400 hover:underline"
+                                    >
+                                        {isArabic ? 'خبراء ننصح بمتابعتهم' : 'Experts we recommend'}
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     )}
 
+                    {/* Independent reviews we recommend — honest external citations, no fabricated quotes */}
+                    <RecommendedReviews locale={locale} />
 
                     {/* Social Share Buttons — Bottom (after reading the article) */}
                     <div className="my-10 p-6 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50">

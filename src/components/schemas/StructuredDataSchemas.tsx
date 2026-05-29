@@ -215,61 +215,18 @@ export function ArticleSchema({
             '@type': 'WebPage',
             '@id': url,
         },
-        author: [
-            {
-                '@type': 'Person',
-                '@id': 'https://cairovolt.com/team#ahmed_medhat',
-                name: 'Ahmed Medhat',
-                jobTitle: locale === 'ar'
-                    ? 'رئيس قسم الفحص التقني وحلول الطاقة — مختبر كايرو فولت'
-                    : 'Head of Hardware QA & Power Solutions — CairoVolt Labs',
-                sameAs: [
-                    'https://www.youtube.com/@AhmedMedhat1719',
-                ],
-                worksFor: {
-                    '@type': 'Organization',
-                    name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
-                    url: 'https://cairovolt.com',
-                },
-                knowsAbout: [
-                    'Power bank technology',
-                    'GaN charger engineering',
-                    'Egyptian power grid infrastructure',
-                    'Consumer electronics safety',
-                    'Anker products',
-                ],
-            },
-            {
-                '@type': 'Person',
-                '@id': 'https://cairovolt.com/team#yehia_radwan',
-                name: 'Yehia Radwan',
-                jobTitle: locale === 'ar'
-                    ? 'مهندس ضمان الجودة — مختبر كايرو فولت'
-                    : 'Quality Assurance Engineer — CairoVolt Labs',
-                sameAs: [
-                    'https://www.youtube.com/@YehiaRadwan',
-                    'https://www.instagram.com/yehiaradwanofficial',
-                    'https://twitter.com/YR_YehiaRadwan',
-                    'https://www.facebook.com/YehiaRadwanOfficial',
-                ],
-                worksFor: {
-                    '@type': 'Organization',
-                    name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
-                    url: 'https://cairovolt.com',
-                },
-                knowsAbout: [
-                    'Smartphone fast charging',
-                    'Samsung Galaxy accessories',
-                    'Consumer electronics QA',
-                    'Joyroom products',
-                ],
-            },
-            {
-                '@type': 'Organization',
-                name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
-                url: 'https://cairovolt.com',
-            },
-        ],
+        // Honest authorship: this content is produced by CairoVolt's own editorial
+        // team. We deliberately do NOT attribute articles to independent external
+        // reviewers (e.g. famous YouTubers) who are not contracted authors —
+        // fabricated bylines violate Google's "Who / How / Why" content guidance
+        // and risk a manual action. When a real, named human author signs an
+        // article, add them here as a Person with a verifiable sameAs.
+        author: {
+            '@type': 'Organization',
+            '@id': 'https://cairovolt.com/#organization',
+            name: locale === 'ar' ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team',
+            url: 'https://cairovolt.com',
+        },
         publisher: {
             '@type': 'Organization',
             name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',

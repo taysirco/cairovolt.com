@@ -24,6 +24,8 @@
 | **keywords** | 8-12 مصطلح | §13 |
 | **coverImage** | إلزامي — `.webp` 1200×630 | §2 |
 | **category** | من 5: `buying-guide`, `comparison`, `how-to`, `review`, `tips` | §0 |
+| **author** | 🔴 اتركه فارغاً (الافتراضي: "فريق تحرير كايرو فولت") — ❌ ممنوع نسب المقال لمراجع خارجي مستقل | §النموذج الصادق |
+| **expertQuote** | اختياري — اقتباس **حقيقي + رابط مصدر** فقط (ممنوع التلفيق) | §النموذج الصادق |
 | **Ammiyya ratio** | 85% عامية / 15% MSA | [`voice.md`](voice.md) |
 | **أول 200 كلمة** | فكاهة إلزامية (نكتة/مفارقة/سخرية) | [`voice.md`](voice.md) |
 | **⚖️ i18n href (AR)** | `<a href="/anker/...">` بدون `/en/` | [`content-laws.md`](content-laws.md) §1 |
@@ -257,7 +259,7 @@ git push origin main
 2. **Egyptian Market Lens** — OLX، عامية، EGP، توصيل محلي
 3. **Quick-Answer-Before-Analysis** — TL;DR ملوّن في أول 50px
 4. **Specificity Over Vagueness** — "72°م" بدل "بيسخن"، "4 من 5 مقلّد"، "750ج"
-5. **Testing as Trust Signal** — اختبارات ميدانية بمنهجية معلنة (لا اقتباسات خارجية)
+5. **Testing as Trust Signal** — اختبارات ميدانية بمنهجية معلنة (طرف أول) + اقتباسات خارجية **موثّقة بمصدر فقط** (ممنوع التلفيق)
 6. **Formula + Flexibility** — هيكل ثابت (TL;DR → Callout → H2 → Tables → FAQ) + عمق 6-8 د
 7. **Conversational Ammiyya with Technical Depth** — "إنت" بجانب فيزياء أشباه الموصلات **(المرجع الكامل: [`voice.md`](voice.md) — فكاهة أكاديمية + قاعدة الـ 200 كلمة + 🔴 ≥ 1,500 كلمة/مقال — تحقق بـ §16-A)**
 8. **Internal Linking Web** — كل مقال يربط بـ 3 ذات صلة (عناقيد موضوعية)
@@ -361,7 +363,7 @@ export interface BlogArticle {
 | سؤال + سنة | "هل الباور بانك يشحن لابتوب؟ الدليل الشامل 2026" | "Can a Power Bank Charge a Laptop? Complete 2026 Guide" |
 | مشكلة + رقم + حل | "ليه كابل الشحن بيبوظ بسرعة؟ 6 أخطاء + الحل" | "Why Your Cable Keeps Breaking: 6 Mistakes & Fixes" |
 | براند + دليل + سنة | "دليل سماعات Soundcore الشامل في مصر 2026" | "Complete Soundcore Earbuds Guide Egypt 2026" |
-| حقيقة مخفية + خبير | "الحقيقة المخفية عن شواحن GaN — أحمد مدحت" | "The Hidden Truth About GaN Chargers — Ahmed Medhat" |
+| حقيقة مخفية + فضول | "الحقيقة المخفية عن شواحن GaN" | "The Hidden Truth About GaN Chargers" |
 
 **قواعد:** السنة (2026) للمواضيع المتغيرة · رقم في العنوان · trigger عاطفي ("الحقيقة المخفية"/"مضمونة"/"في مصر") · ❌ كليشيهات: "أفضل" بدون رقم، "كل ما تحتاج"، "دليل شامل" بدون qualifier.
 
@@ -380,21 +382,22 @@ export interface BlogArticle {
     relatedArticles: ['slug-a', 'slug-b', 'slug-c'],    // 3 بالضبط
     relatedCategories: ['Anker/power-banks'],    // أو ['Soundcore/audio'] لمنتجات الصوتيات
     coverImage: '/images/blog/posts/{slug}.webp',       // 1200×630، .webp
-    author: {
-        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
-        title: { ar: 'محرر تقني', en: 'Tech Editor' },
-        avatar: '/images/team/cairovolt-team.webp',
-    },
+    // author: محذوف افتراضياً → ArticleSchema ينسبه لـ "فريق تحرير كايرو فولت".
+    //         أضِفه فقط لمؤلف بشري حقيقي بإذنه — ❌ لا مراجع خارجي مستقل (يوتيوبر).
+    // expertQuote: اختياري — اقتباس حقيقي موثّق من مراجع مستقل (يتطلب sourceUrl). انظر §النموذج الصادق.
 }
 ```
 
-**قاعدة Author:**
+**قاعدة Author (محدّثة — مايو 2026):**
+
+> 🔴 **لا تنسب أي مقال لمراجع خارجي مستقل (يوتيوبر مشهور) كمؤلف.** المراجعون على صفحة `/team` *لا يعملون لدينا ولا يكتبون محتوانا*. نسبهم كمؤلفين — أو الكتابة بصيغة المتكلم باسمهم، أو "حصرياً مع فلان" — = انتحال يخالف سياسات Google ويعرّض الموقع لعقوبة يدوية. التفاصيل في قسم «🤝 النموذج الصادق» أدناه.
 
 | الحالة | استخدم |
 |--------|--------|
-| مقال تقني فيزيائي/هندسي عميق | خبير مُسمّى + socials (مثل Ahmed Medhat لـ GaN) |
-| how-to عام / buying-guide | `CairoVolt Team` افتراضياً |
-| يحتوي اختبار ميداني | "فريق كايرو فولت اختبر..." |
+| أي مقال (الافتراضي) | **اترك `author` محذوفاً** → `ArticleSchema` ينسبه تلقائياً لـ "فريق تحرير كايرو فولت" |
+| مؤلف بشري حقيقي **بإذنه** (موظف/كاتب متعاقد) | `author` بالاسم الحقيقي + socials موثّقة |
+| تريد إبراز رأي مراجع مستقل | استخدم `expertQuote` (اقتباس **حقيقي + رابط مصدر**) — لا تجعله `author` |
+| يحتوي اختبار ميداني حقيقي | Expert Callout في `content` باسم "فريق كايرو فولت" (لا اسم شخص لا يعمل لدينا) |
 
 ---
 
@@ -460,7 +463,7 @@ export interface BlogArticle {
 
 **قواعد المنهجية:** عدد عينات بدقة (5/8/16) · مصدر بصراحة (OLX/Facebook/Amazon) · تاريخ (شهر/سنة) · قارن مع المعيار.
 
-> ⚠️ **ملاحظة: CairoVolt Labs Box الثابت.** صفحة المقال (`blog/[slug]/page.tsx`) تعرض صندوق **"مختبر كايرو فولت — بيانات طرف أول"** بشكل ثابت (hardcoded) لكل المقالات — يذكر م. يحيى رضوان واختبار Anker 737. هذا الصندوق **لا يُشتق من بيانات المقال** — مبرمج مباشرة في الصفحة. لذلك: اكتب Expert Callout في الـ `content` للاختبارات الخاصة بموضوع المقال — الصندوق الثابت يُكمله ولا يُكرره.
+> ⚠️ **ملاحظة (محدّثة — مايو 2026):** صندوق **"مختبر كايرو فولت — م. يحيى رضوان"** الثابت **تم حذفه**. كان مفبركاً (نتيجة Anker 737 واحدة مكرّرة حرفياً على كل المقالات حتى الكابلات والسماعات) وينسب يوتيوبر مستقل كـ"مهندس ضمان جودة" لدينا. لذلك: لو عندك اختبار **حقيقي خاص بموضوع المقال**، اكتبه في Expert Callout داخل `content` بمنهجية معلنة وباسم "فريق كايرو فولت" — لا تنسب اختبارات لأشخاص لا يعملون لدينا.
 
 ---
 
@@ -765,7 +768,7 @@ export const blogArticles: BlogArticle[] = [
 
 **🧬 الهوية:** العنوان سؤال/رقم · Quick-Answer Box أول 50px ملوّن · سياق مصري (2-3 إشارات) · عامية 85%/فصحى 15% · أرقام محددة لكل ادعاء · Expert Callout لو في اختبار.
 
-**🗂️ Schema:** slug صحيح · category من الـ 5 · publishDate ISO · modifiedDate = publishDate · readingTime 6-8 · coverImage `.webp` موجودة · author معبّأ.
+**🗂️ Schema:** slug صحيح · category من الـ 5 · publishDate ISO · modifiedDate = publishDate · readingTime 6-8 · coverImage `.webp` موجودة · author **محذوف** (افتراضي = فريق التحرير) أو مؤلف بشري حقيقي بإذنه — ❌ لا مراجع خارجي · `expertQuote` (إن وُجد) باقتباس حقيقي + `sourceUrl`.
 
 **🔗 Linking:** relatedProducts = 5-6 (slugs موجودة) · relatedArticles = 3 من العنقود · relatedCategories معبّأ · روابط منتجات داخل النص بـ `<a style="color:#2563eb">`.
 
@@ -797,13 +800,54 @@ export const blogArticles: BlogArticle[] = [
 | `BlogContentRenderer` | `src/components/ui/BlogContentRenderer.tsx` | يعرض الـ HTML `content` مع sanitization + إعادة كتابة الروابط الداخلية تلقائياً حسب الـ locale (شبكة أمان i18n) | ✅ يقرأ `content` |
 | `BlogInteractiveWidgets` | `src/components/interactive/BlogInteractiveWidgets.tsx` | ويدجتات تفاعلية (حاسبة بطارية / رسوم Mermaid) — مُعيّنة لمقالات محددة بالـ slug | ⬜ slug فقط |
 | `ShareAnalytics` | `src/components/content/ShareAnalytics.tsx` | تتبع مشاركات WhatsApp كـ trackable direct traffic | ❌ لا إدخال |
-| `ArticleSchema` | `src/components/schemas/StructuredDataSchemas.tsx` | structured data (`BlogPosting`) مع entity graph من `brand-entities.ts` | ✅ تلقائي |
+| `ArticleSchema` | `src/components/schemas/StructuredDataSchemas.tsx` | structured data (`BlogPosting`) — المؤلف = **"فريق تحرير كايرو فولت"** (Organization) تلقائياً؛ + entity graph من `brand-entities.ts` | ✅ تلقائي |
 | `SpeakableSchema` | `src/components/schemas/StructuredDataSchemas.tsx` | Google Speakable structured data | ✅ تلقائي |
 | `ClaimReview` | inline في page.tsx | schema لمقالات كشف التقليد فقط (hardcoded لـ 2 مقال) | ❌ hardcoded |
 | `HowToSchema` | `src/components/schemas/StructuredDataSchemas.tsx` | schema لمقال `original-vs-fake-apple-charger-egypt` فقط | ❌ hardcoded |
-| CairoVolt Labs Box | inline في page.tsx (سطر 364-382) | صندوق ثابت "مختبر كايرو فولت — بيانات طرف أول" يظهر في **كل** مقال | ❌ hardcoded |
+| `RecommendedReviews` | `src/components/content/RecommendedReviews.tsx` | "مراجعات مستقلة ننصح بمشاهدتها" — يربط بقنوات المراجعين الحقيقية (بدون اقتباس). يظهر في **كل** مقال. JSON-LD = `ItemList` يشير لكياناتهم على `/team` | ⬜ تلقائي (`creatorIds` اختياري للتخصيص) |
+| `ExpertQuote` | `src/components/content/ExpertQuote.tsx` | يعرض اقتباساً **حقيقياً موثّقاً** من مراجع مستقل (`Quotation` schema + رابط مصدر). يظهر **فقط** لو المقال فيه `expertQuote` بـ `sourceUrl` | ✅ يقرأ `expertQuote` (اختياري) |
 
 > 💡 **الخلاصة العملية:** عند كتابة مقال جديد، اهتم بـ: `content` (HTML) + `quickAnswer` + `faq` + `relatedProducts` + `relatedArticles`. باقي المكونات تعمل تلقائياً. الـ `BlogContentRenderer` يُعيد كتابة الروابط الداخلية حسب الـ locale — لكن **لا تعتمد عليه كبديل** عن قانون i18n Quarantine؛ اكتب الروابط صح من البداية.
+
+---
+
+## 🤝 الكتّاب والمراجعون المستقلون — النموذج الصادق (مايو 2026)
+
+> تصحيح جوهري طُبِّق على المشروع: المراجعون المشهورون (يحيى رضوان، أحمد مدحت، أشرف، صلاح حامد، فيصل السيف…) **ليسوا فريقنا ولا كتّابنا ولا موظفينا**. كان الموقع يقدّمهم كطاقم وينسب لهم المقالات والاختبارات — وده انتحال يخالف سياسة Google (الكاتب المزيّف / تحريف الخبرة) ويعرّض الدومين لعقوبة. النموذج التالي يحمي الموقع **ويستفيد من سلطتهم بطريقة مشروعة**.
+
+**١) نسب التأليف (Authorship)**
+- **الافتراضي:** كل مقال يُنسب لـ **"فريق تحرير كايرو فولت"** (Organization) تلقائياً عبر `ArticleSchema`. اترك `author` محذوفاً.
+- **مؤلف بشري:** فقط بإذن حقيقي (موظف/كاتب متعاقد) → `author` بالاسم + socials موثّقة.
+- ❌ **ممنوع تماماً:** نسب مقال ليوتيوبر مستقل · كتابة مقال بصيغة المتكلم باسمه ("أنا يحيى…") · عبارات "حصرياً مع فلان" · وضع اسمه في `metaTitle`/`keywords` كطُعم.
+
+**٢) صفحة `/team` = "خبراء ننصح بمتابعتهم" (لا "فريقنا")**
+- البيانات في [`src/data/team-members.ts`](src/data/team-members.ts) → `recommendedCreators` (كان `teamMembers`). وصف دقيق لهم كصنّاع **مستقلين** + روابط قنواتهم الحقيقية.
+- Person schema **بدون** `worksFor`، وهم **ليسوا** ضمن Organization `member`. الصفحة فيها بانر إخلاء مسؤولية صريح.
+
+**٣) موديول "مراجعات مستقلة ننصح بمشاهدتها" — [`RecommendedReviews`](src/components/content/RecommendedReviews.tsx)**
+- يظهر تلقائياً في **كل** مقال (بعد كارت الكاتب). يربط بقنواتهم الحقيقية. **بدون أي اقتباس.** JSON-LD = `ItemList` يشير لكياناتهم على `/team`.
+- لتخصيص المراجعين لمقال معيّن: `<RecommendedReviews locale={locale} creatorIds={['ashraf_zamka','salah_hamed']} />`.
+
+**٤) اقتباس مراجع داخل مقال — [`ExpertQuote`](src/components/content/ExpertQuote.tsx) + حقل `expertQuote`**
+- حقل اختياري على المقال → يظهر "ضمن بعض المقالات" فقط (تلك التي تحمل اقتباساً). يظهر **فقط** لو فيه اقتباس **حقيقي + `sourceUrl`** (رابط الفيديو/المنشور). بدون مصدر → لا يظهر شيء (الكود يمنع الاقتباس غير الموثّق).
+- 🔴 **القاعدة الحديدية:** الاقتباس لازم يكون كلاماً قاله الشخص **فعلاً، حرفياً**، مع رابط المصدر. **ممنوع تأليف اقتباس أو إعادة صياغة كاقتباس** — حتى "بشكل عشوائي ضمن بعض المقالات". تلفيق كلام على لسان شخص حقيقي = نفس الانتحال المرفوض.
+- مثال (املأه باقتباس حقيقي موثّق فقط):
+
+```typescript
+expertQuote: {
+    creatorId: 'ashraf_zamka',                          // من recommendedCreators
+    quote: {
+        ar: '«الاقتباس الحرفي كما قاله في الفيديو…»',
+        en: 'The verbatim quote as said in the video…',
+    },
+    sourceUrl: 'https://www.youtube.com/watch?v=XXXX',   // إلزامي — رابط المقطع نفسه
+    sourceLabel: { ar: 'من مراجعته على يوتيوب', en: 'From his YouTube review' },
+},
+```
+
+- الـ schema الناتج: `Quotation` بـ `spokenByCharacter` (Person `@id` على `/team`) + `citation` (رابط المصدر) — وصف **دقيق**: "هذا الشخص قال هذا، وهنا المصدر"، وليس أنه ألّف محتوانا.
+
+> 💡 **كيف نستفيد من سلطتهم بصدق؟** نقتبس رأيهم الحقيقي بمصدر (`expertQuote`)، أو نرشّح قنواتهم (`RecommendedReviews`) — لا ننتحل هويتهم. الإشارة الإيجابية لـ E-E-A-T تأتي من الصدق والاستشهاد الحقيقي، لا من التزييف.
 
 ---
 
@@ -825,11 +869,10 @@ export const your_new_article_slug: BlogArticle = {
     relatedArticles: ['a-1', 'a-2', 'a-3'],
     relatedCategories: ['Anker/power-banks'],            // أو ['Soundcore/audio'] أو ['Soundcore/speakers']
     coverImage: '/images/blog/posts/your-cover-image.webp',
-    author: {
-        name: { ar: 'فريق كايرو فولت', en: 'CairoVolt Team' },
-        title: { ar: 'محرر تقني', en: 'Tech Editor' },
-        avatar: '/images/team/cairovolt-team.webp',
-    },
+    // author: اتركه محذوفاً (الافتراضي) → يُنسب تلقائياً لـ "فريق تحرير كايرو فولت".
+    //         أضِفه فقط لمؤلف بشري حقيقي بإذنه. ❌ لا تضع مراجعاً مستقلاً (يوتيوبر) هنا.
+    // expertQuote: اختياري — اقتباس حقيقي موثّق من مراجع مستقل (يتطلب sourceUrl). انظر §النموذج الصادق:
+    // expertQuote: { creatorId: 'ashraf_zamka', quote: { ar: '«…»', en: '…' }, sourceUrl: 'https://youtu.be/…' },
     translations: {
         ar: {
             title: 'العنوان بالعربي — رقم أو سؤال',

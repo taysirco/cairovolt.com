@@ -465,7 +465,7 @@ export default function Header() {
                                         className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
                                     >
                                         <SvgIcon name="briefcase" className="w-5 h-5" />
-                                        <span>{isRTL ? 'فريقنا التقني' : 'Our Team'}</span>
+                                        <span>{isRTL ? 'خبراء ننصح بهم' : 'Recommended Experts'}</span>
                                     </Link>
                                     <Link
                                         href={getLocalizedHref('/faq')}

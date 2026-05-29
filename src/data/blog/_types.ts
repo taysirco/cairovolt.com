@@ -21,6 +21,21 @@ export interface BlogArticle {
             tiktok?: string;
         };
     };
+    /**
+     * Optional VERIFIED quote from an independent reviewer we recommend.
+     * HARD RULE: only ever use a REAL statement the creator actually made.
+     * `sourceUrl` (link to the exact video/post) is REQUIRED — the component
+     * renders nothing without it, so a quote can never appear unsourced.
+     * Never fabricate or paraphrase-as-quote. `creatorId` must match an id in
+     * src/data/team-members.ts (recommendedCreators). These creators are NOT
+     * affiliated with CairoVolt — the quote is shown as an external citation.
+     */
+    expertQuote?: {
+        creatorId: string;
+        quote: { ar: string; en: string };
+        sourceUrl: string;
+        sourceLabel?: { ar: string; en: string };
+    };
     translations: {
         ar: {
             title: string;
