@@ -60,6 +60,7 @@ import { protect_cables_car_summer_heat_cairo } from './blog/protect-cables-car-
 import { short_30cm_cable_power_bank_extends_life } from './blog/short-30cm-cable-power-bank-extends-life';
 import { usb_c_240w_thunderbolt_port_difference } from './blog/usb-c-240w-thunderbolt-port-difference';
 import { joyroom_speedy_cable_3_months_review } from './blog/joyroom-speedy-cable-3-months-review';
+import { car_charger_100w_laptop_sahel_trip } from './blog/car-charger-100w-laptop-sahel-trip';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -118,6 +119,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     short_30cm_cable_power_bank_extends_life,
     usb_c_240w_thunderbolt_port_difference,
     joyroom_speedy_cable_3_months_review,
+    car_charger_100w_laptop_sahel_trip,
 ];
 
 
