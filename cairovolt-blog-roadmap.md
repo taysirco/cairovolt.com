@@ -75,7 +75,7 @@
 29. ✅ → slug: `protect-cables-car-summer-heat-cairo`
 30. ✅ → slug: `short-30cm-cable-power-bank-extends-life`
 31. ✅ → slug: `usb-c-240w-thunderbolt-port-difference`
-32. ⬜ تجربة واقعية: كابل Joyroom Speedy Series بعد 90 يوم استخدام يومي في حر مصر → `joyroom-speedy-cable-3-months-review`
+32. ✅ → slug: joyroom-speedy-cable-3-months-review
 33. ⬜ شحن اللابتوب في العربية — دليل اختيار شاحن 100W لرحلات الطريق الطويلة → `car-charger-100w-laptop-sahel-trip`
 34. ⬜ حامل سيارة مغناطيسي بشحن لاسلكي — الحقيقة قبل ما تدفع ثمنه → `magnetic-car-phone-holder-wireless-charging`
 35. ⬜ ثلاث أجهزة على شاحن سيارة واحد — فن توزيع 60W بذكاء → `car-charger-3-devices-power-distribution`
