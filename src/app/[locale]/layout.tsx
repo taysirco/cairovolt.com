@@ -168,6 +168,19 @@ export default async function RootLayout({
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <PrefetchHints />}
 
+        {/* Service Worker — instant repeat visits via cache */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js').catch(function() {});
+                });
+              }
+            `
+          }}
+        />
+
         {/* DOM Patch — patches browser extension DOM conflicts (tiny, inline) */}
         <script
           dangerouslySetInnerHTML={{

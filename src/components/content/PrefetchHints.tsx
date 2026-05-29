@@ -13,8 +13,7 @@ export default function PrefetchHints() {
         prerender: [
             {
                 // Product pages — prerender on hover/pointerdown (moderate)
-                // Previously "eager" which wasted bandwidth by prerending ALL visible product links.
-                // "moderate" activates on hover intent — still gives 0ms navigation for intentional clicks.
+                // Gives 0ms navigation for intentional clicks
                 source: "document",
                 where: {
                     and: [
@@ -25,10 +24,24 @@ export default function PrefetchHints() {
                         { not: { href_matches: "/*/verify*" } }
                     ]
                 },
-                eagerness: "moderate" // Prerender on hover — saves ~2-5MB bandwidth vs eager
+                eagerness: "moderate"
             },
             {
-                // Governorate location pages — prerender on hover
+                // Category & brand pages — prerender on hover
+                source: "document",
+                where: {
+                    and: [
+                        { href_matches: "/*/*" },
+                        { not: { href_matches: "/*/*/*/*" } },
+                        { not: { href_matches: "/*/admin/*" } },
+                        { not: { href_matches: "/*/checkout*" } },
+                        { not: { href_matches: "/*/blog*" } }
+                    ]
+                },
+                eagerness: "moderate"
+            },
+            {
+                // Location pages — prerender on hover
                 source: "document",
                 where: {
                     and: [
@@ -36,24 +49,22 @@ export default function PrefetchHints() {
                         { not: { href_matches: "/*/admin/*" } }
                     ]
                 },
-                eagerness: "moderate" // Prerender on hover/pointerdown
+                eagerness: "moderate"
             }
         ],
         prefetch: [
             {
-                // Category and brand hubs — prefetch eagerly (lightweight RSC payloads)
-                // These pages are small and frequently accessed from any product page.
+                // All internal links — prefetch eagerly (lightweight RSC payloads)
                 source: "document",
                 where: {
                     and: [
-                        { href_matches: "/*/*" }, // /locale/brand or /locale/brand/category
+                        { href_matches: "/*" },
                         { not: { href_matches: "/*/admin/*" } },
                         { not: { href_matches: "/*/checkout*" } },
-                        { not: { href_matches: "/*/confirm*" } },
-                        { not: { href_matches: "/*/*/*/*" } } // Don't duplicate product rules
+                        { not: { href_matches: "/*/confirm*" } }
                     ]
                 },
-                eagerness: "eager" // Prefetch immediately — category pages are small
+                eagerness: "eager"
             }
         ]
     };

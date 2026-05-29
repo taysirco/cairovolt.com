@@ -16,13 +16,13 @@ import TabTakeover from '@/components/UX/TabTakeover';
 import BrandVerification from '@/components/UX/BrandVerification';
 import { getLabData, getLabMetrics } from '@/data/product-tests';
 import { BostaTracker } from '@/lib/bosta';
-import { headers } from 'next/headers';
 import { unstable_cache } from 'next/cache';
 
 import { buildManifest, signManifest } from '@/lib/media-verification';
 
-// ISR: On-demand revalidation only (via /api/indexing webhook)
-// No time-based revalidation — Google Shopping demands 100% price/stock accuracy
+// ISR: Revalidate every hour + on-demand via /api/indexing webhook
+// Removing headers() allows true SSG → pages served as static HTML from CDN
+export const revalidate = 3600;
 export const dynamicParams = true;
 
 type Props = {
@@ -84,34 +84,8 @@ async function trySignProduct(name: string): Promise<Record<string, unknown> | n
     }
 }
 
-// City-to-governorate slug mapping for location detection
-const CITY_TO_GOVERNORATE: Record<string, string> = {
-    'cairo': 'cairo', 'giza': 'giza', 'alexandria': 'alexandria',
-    'القاهرة': 'cairo', 'الجيزة': 'giza', 'الإسكندرية': 'alexandria',
-    'tanta': 'gharbia', 'mansoura': 'dakahlia', 'zagazig': 'sharqia',
-    'ismailia': 'ismailia', 'suez': 'suez', 'port said': 'port-said',
-    'damietta': 'damietta', 'fayoum': 'fayoum', 'minya': 'minya',
-    'asyut': 'asyut', 'sohag': 'sohag', 'luxor': 'luxor', 'aswan': 'aswan',
-    'hurghada': 'red-sea', 'sharm el sheikh': 'south-sinai',
-    'new cairo': 'cairo', 'nasr city': 'cairo', '6th of october': 'giza',
-    'maadi': 'cairo', 'heliopolis': 'cairo', 'dokki': 'giza',
-};
-
-async function detectUserGovernorate(): Promise<{ slug: string; display: string }> {
-    const headersList = await headers();
-    const city = (
-        headersList.get('x-vercel-ip-city') ||
-        headersList.get('x-appengine-city') ||
-        headersList.get('x-forwarded-city') ||
-        'cairo'
-    ).toLowerCase();
-
-    const slug = CITY_TO_GOVERNORATE[city] || 'cairo';
-    // Capitalize display name
-    const display = city.charAt(0).toUpperCase() + city.slice(1);
-
-    return { slug, display };
-}
+// Default governorate for SSG — client-side detection in ProductPageClient
+const DEFAULT_GOV = { slug: 'cairo', display: 'Cairo' };
 
 async function getProduct(slug: string): Promise<Product | null> {
     // First try static data
@@ -254,18 +228,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ProductPage({ params }: Props) {
     const { locale, brand, category, slug } = await params;
-    const [product, currentTemp, userGov] = await Promise.all([
+    const [product, currentTemp] = await Promise.all([
         getCachedProduct(slug),
         getCairoTemperature(),
-        detectUserGovernorate(),
     ]);
 
     if (!product) {
         notFound();
     }
 
-    // Get delivery intelligence from BostaTracker
-    const deliveryStats = BostaTracker.getRegionalStats(userGov.slug, locale);
+    // Default delivery stats for SSG — client can refine via geolocation API
+    const deliveryStats = BostaTracker.getRegionalStats(DEFAULT_GOV.slug, locale);
 
     // Get lab metrics for Trust Matrix
     const labMetrics = getLabMetrics(slug);
@@ -352,12 +325,10 @@ export default async function ProductPage({ params }: Props) {
         worstRating: Number(staticAggregateRating.worstRating),
     } : null);
 
-    // LCP Preload: Generate Next.js optimized image URL for the hero image
-    // This eliminates the ~1,990ms resource load delay — browser discovers
-    // the image URL from HTML head before JS even parses
+    // LCP Preload: Use custom image optimizer URL (/_next/image is broken on FAH)
     const primaryImageUrl = product.images?.[0]?.url;
     const preloadImageHref = primaryImageUrl
-        ? `/_next/image?url=${encodeURIComponent(primaryImageUrl)}&w=828&q=75`
+        ? `/api/img?url=${encodeURIComponent(primaryImageUrl)}&w=828&q=75`
         : null;
 
     return (
@@ -551,7 +522,7 @@ export default async function ProductPage({ params }: Props) {
                 thermalAdvice={{ currentTemp, category }}
                 deliveryIntelligence={deliveryStats}
                 labMetrics={labMetrics}
-                userGovernorate={userGov.display}
+                userGovernorate={DEFAULT_GOV.display}
             />
 
             {/* Live delivery tracking — streamed dynamically via Suspense */}
