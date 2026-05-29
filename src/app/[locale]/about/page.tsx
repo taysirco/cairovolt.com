@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema } from '@/components/schemas/StructuredDataSchemas';
 
@@ -372,6 +373,25 @@ export default function AboutPage() {
                                     </div>
                                 </div>
                             </div>
+                        </section>
+
+                        {/* Meet Our Team CTA */}
+                        <section className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 shadow-lg text-white text-center">
+                            <h2 className="text-2xl font-bold mb-3">
+                                {isArabic ? 'تعرف على فريقنا التقني' : 'Meet Our Technical Team'}
+                            </h2>
+                            <p className="text-white/80 mb-6 max-w-2xl mx-auto">
+                                {isArabic
+                                    ? '7 خبراء تقنيين من أبرز المراجعين في الوطن العربي يختبرون كل منتج قبل أن نعرضه لك.'
+                                    : '7 tech experts from the most prominent reviewers in the Arab world test every product before we present it to you.'}
+                            </p>
+                            <Link
+                                href={isArabic ? '/team' : '/en/team'}
+                                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-100 transition-colors"
+                            >
+                                {isArabic ? 'تعرف على الفريق' : 'Meet the Team'}
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                            </Link>
                         </section>
                     </div>
                 </div>

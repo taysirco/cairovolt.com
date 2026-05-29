@@ -218,6 +218,11 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
+                                <Link href={getLocalizedHref('/team')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
+                                    {isRTL ? 'فريقنا التقني' : 'Our Team'}
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href={getLocalizedHref('/faq')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
                                     {t('faqs')}
                                 </Link>

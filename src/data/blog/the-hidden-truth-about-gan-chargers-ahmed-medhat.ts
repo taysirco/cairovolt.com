@@ -20,12 +20,10 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
                 ar: 'باحث وصانع محتوى تقني',
                 en: 'Tech Researcher & Content Creator',
             },
-            avatar: '/images/blog/authors/ahmed_medhat.jpg',
-            url: 'https://www.youtube.com/@Ahmed.Medhat',
+            avatar: '/images/blog/authors/ahmed_medhat.webp',
+            url: 'https://www.youtube.com/@AhmedMedhat1719',
             socials: {
-                youtube: 'https://www.youtube.com/@Ahmed.Medhat',
-                facebook: 'https://www.facebook.com/a.medhatofficial',
-                tiktok: 'https://www.tiktok.com/@ahmedmedhatofficial'
+                youtube: 'https://www.youtube.com/@AhmedMedhat1719',
             }
         },
         translations: {
@@ -62,7 +60,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
     <p>شواحن الـ GaN ليست رفاهية، بل أصبحت ضرورة هندسية لحماية الأجهزة المعقدة. الاستثمار في شاحن GaN مدعوم بتقنيات الحماية (مثل شواحن Anker من كايرو فولت) يعني توفير آلاف الجنيهات التي كنت ستدفعها مستقبلاً لتغيير بطارية هاتفك التالفة من الحرارة.</p>
 </div>
 
-<p>تابعوا المزيد من التحليلات التقنية المعمقة على منصاتي عبر <a href="https://www.youtube.com/@Ahmed.Medhat" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">يوتيوب</a> و<a href="https://www.facebook.com/a.medhatofficial" target="_blank" rel="noopener" style="color:#2563eb;font-weight:bold;">فيسبوك</a>.</p>
+<p>تابعوا المزيد من التحليلات التقنية المعمقة على قناتي عبر <a href="https://www.youtube.com/@AhmedMedhat1719" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">يوتيوب</a>.</p>
 `,
                 faq: [
                     { question: 'رأي أحمد مدحت: ما هو الفرق الجوهري بين GaN والسيليكون؟', answer: 'التوصيل الحراري والكهربائي. الـ GaN يتحمل جهد وتيار أعلى بكثير مع فقدان حراري يقترب من الصفر، مما يسمح بصناعة شاحن أصغر ومجنون السرعة ولا يسخن.' },
@@ -102,7 +100,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
     <p>GaN chargers are no longer a luxury; they are an engineering necessity to protect complex, expensive hardware. Investing in a properly shielded GaN brick (like those from Anker via CairoVolt) is an insurance policy against premature thermal battery degradation.</p>
 </div>
 
-<p>For more deep-dive technical research, join me on <a href="https://www.youtube.com/@Ahmed.Medhat" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">YouTube</a> and <a href="https://www.facebook.com/a.medhatofficial" target="_blank" rel="noopener" style="color:#2563eb;font-weight:bold;">Facebook</a>.</p>
+<p>For more deep-dive technical research, join me on <a href="https://www.youtube.com/@AhmedMedhat1719" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">YouTube</a>.</p>
 `,
                 faq: [
                     { question: 'Ahmed Medhat\'s Insight: What is the core difference between GaN and Silicon?', answer: 'Thermal and electrical conductivity. GaN handles massively higher voltages and currents with near-zero thermal loss, allowing for ridiculously small, lightning-fast chargers that never overheat.' },

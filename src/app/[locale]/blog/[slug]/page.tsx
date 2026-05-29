@@ -335,7 +335,11 @@ export default async function BlogArticlePage({ params }: Props) {
                         </span>
                         <span className="flex items-center gap-1.5">
                             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
-                            {article.author ? article.author.name[isArabic ? 'ar' : 'en'] : (isArabic ? 'فريق كايرو فولت' : 'Cairo Volt Team')}
+                            {article.author ? article.author.name[isArabic ? 'ar' : 'en'] : (
+                                <Link href={isArabic ? '/team' : '/en/team'} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                    {isArabic ? 'فريق كايرو فولت' : 'CairoVolt Team'}
+                                </Link>
+                            )}
                         </span>
                     </div>
 
@@ -448,6 +452,40 @@ export default async function BlogArticlePage({ params }: Props) {
                                         )}
                                     </div>
                                 )}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Team fallback — when no specific author */}
+                    {!article.author && (
+                        <div className="my-12 p-6 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30 flex flex-col md:flex-row items-center md:items-start gap-6">
+                            <img
+                                src="/images/team/cairovolt-team.webp"
+                                alt={isArabic ? 'فريق كايرو فولت التقني' : 'CairoVolt Technical Team'}
+                                className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-md flex-shrink-0"
+                                loading="lazy"
+                            />
+                            <div className="text-center md:text-start flex-1">
+                                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                                    <Link href={isArabic ? '/team' : '/en/team'} className="hover:text-blue-600 transition-colors">
+                                        {isArabic ? 'فريق كايرو فولت التقني' : 'CairoVolt Technical Team'}
+                                    </Link>
+                                </h3>
+                                <p className="text-blue-600 dark:text-blue-400 font-medium text-sm mb-3">
+                                    {isArabic ? '7 مراجعين تقنيين متخصصين من 4 دول عربية' : '7 specialized tech reviewers from 4 Arab countries'}
+                                </p>
+                                <p className="text-sm text-gray-600 dark:text-gray-300 mb-4">
+                                    {isArabic
+                                        ? 'يُكتب هذا المحتوى بواسطة فريقنا التقني المتخصص في اختبار ومراجعة إكسسوارات الشحن والموبايل. كل مقال يمر بمراجعة دقيقة لضمان دقة المعلومات.'
+                                        : 'This content is written by our technical team specializing in testing and reviewing charging and mobile accessories. Every article undergoes thorough review to ensure accuracy.'}
+                                </p>
+                                <Link
+                                    href={isArabic ? '/team' : '/en/team'}
+                                    className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:underline"
+                                >
+                                    {isArabic ? 'تعرف على فريقنا' : 'Meet our team'}
+                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                                </Link>
                             </div>
                         </div>
                     )}

@@ -460,6 +460,14 @@ export default function Header() {
                                         <span>{isRTL ? 'من نحن' : 'About Us'}</span>
                                     </Link>
                                     <Link
+                                        href={getLocalizedHref('/team')}
+                                        onClick={() => setMobileMenuOpen(false)}
+                                        className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+                                    >
+                                        <SvgIcon name="briefcase" className="w-5 h-5" />
+                                        <span>{isRTL ? 'فريقنا التقني' : 'Our Team'}</span>
+                                    </Link>
+                                    <Link
                                         href={getLocalizedHref('/faq')}
                                         onClick={() => setMobileMenuOpen(false)}
                                         className="flex items-center gap-3 px-3 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"

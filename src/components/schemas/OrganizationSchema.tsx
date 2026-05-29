@@ -138,6 +138,17 @@ export const OrganizationSchema = ({ locale }: Props) => {
                     refundType: 'https://schema.org/FullRefund',
                     url: `https://cairovolt.com${isArabic ? '' : '/en'}/return-policy`,
                 },
+                // Team Members — link Organization to Person schemas on /team
+                // Each @id matches the PersonSchema output in src/app/[locale]/team/page.tsx
+                member: [
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#yehia_radwan' },
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#ahmed_medhat' },
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#mohamed_hakimo' },
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#hazem_adel' },
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#ashraf_zamka' },
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#salah_hamed' },
+                    { '@type': 'Person', '@id': 'https://cairovolt.com/team#faisal_alsaif' },
+                ],
             },
             {
                 '@type': 'ElectronicsStore',

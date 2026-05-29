@@ -391,6 +391,38 @@
             "support": "Support"
         }
     },
+    "Team": {
+        "metaTitle": "Our Technical Team | Mobile Accessories Review Experts - CairoVolt",
+        "metaDescription": "Meet CairoVolt's team of tech experts and mobile accessories reviewers. 7 trusted reviewers who test every product before it reaches you.",
+        "title": "Our Technical Team",
+        "subtitle": "Charging & Audio Accessories Review Experts in the Arab World",
+        "heroDescription": "Every article at CairoVolt goes through technical review by real experts. Meet the team that tests and evaluates every product before we present it to you.",
+        "expertise": "Areas of Expertise",
+        "followOn": "Follow on",
+        "ourTeam": "The Team",
+        "methodology": {
+            "title": "Editorial & Review Methodology",
+            "description": "Every piece of content on CairoVolt goes through a rigorous process ensuring accuracy and transparency.",
+            "steps": {
+                "testing": {
+                    "title": "Real-World Testing",
+                    "description": "Every product is tested with professional measuring equipment under real Egyptian conditions (heat, power grid, daily usage)."
+                },
+                "review": {
+                    "title": "Independent Review",
+                    "description": "Reviewers purchase products themselves or test them completely independently from manufacturers."
+                },
+                "verification": {
+                    "title": "Data Verification",
+                    "description": "Every number and specification mentioned in articles is based on actual measurements, not copied from manufacturer specs."
+                },
+                "update": {
+                    "title": "Continuous Updates",
+                    "description": "Articles are regularly updated to reflect the latest prices and availability in the Egyptian market."
+                }
+            }
+        }
+    },
     "Privacy": {
         "metaTitle": "Privacy Policy",
         "metaDescription": "Learn how Cairo Volt protects your personal information and privacy.",

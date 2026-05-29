@@ -75,6 +75,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // ── Static Pages ──
     addBilingual(routes, '/about', 0.5, 'monthly', new Date('2025-12-01'));
+    addBilingual(routes, '/team', 0.6, 'monthly', new Date('2026-05-29'));
     addBilingual(routes, '/contact', 0.6, 'monthly', new Date('2025-12-01'));
     addBilingual(routes, '/faq', 0.7, 'weekly');
 

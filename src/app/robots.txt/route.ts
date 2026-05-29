@@ -96,6 +96,7 @@ Allow: /api/openapi.json
 Allow: /blog/
 Allow: /verify
 Allow: /about
+Allow: /team
 Allow: /faq
 Disallow: /checkout
 Disallow: /cart

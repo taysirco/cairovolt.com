@@ -218,14 +218,13 @@ export function ArticleSchema({
         author: [
             {
                 '@type': 'Person',
-                name: 'Eng. Ahmed Medhat',
+                '@id': 'https://cairovolt.com/team#ahmed_medhat',
+                name: 'Ahmed Medhat',
                 jobTitle: locale === 'ar'
                     ? 'رئيس قسم الفحص التقني وحلول الطاقة — مختبر كايرو فولت'
                     : 'Head of Hardware QA & Power Solutions — CairoVolt Labs',
                 sameAs: [
-                    'https://www.youtube.com/@Ahmed.Medhat',
-                    'https://www.facebook.com/a.medhatofficial',
-                    'https://www.tiktok.com/@ahmedmedhatofficial',
+                    'https://www.youtube.com/@AhmedMedhat1719',
                 ],
                 worksFor: {
                     '@type': 'Organization',
@@ -242,16 +241,16 @@ export function ArticleSchema({
             },
             {
                 '@type': 'Person',
-                name: 'Eng. Yahia Radwan',
+                '@id': 'https://cairovolt.com/team#yehia_radwan',
+                name: 'Yehia Radwan',
                 jobTitle: locale === 'ar'
                     ? 'مهندس ضمان الجودة — مختبر كايرو فولت'
                     : 'Quality Assurance Engineer — CairoVolt Labs',
                 sameAs: [
-                    'https://www.youtube.com/c/YehiaRadwan',
+                    'https://www.youtube.com/@YehiaRadwan',
                     'https://www.instagram.com/yehiaradwanofficial',
-                    'https://twitter.com/yahiaradwan',
+                    'https://twitter.com/YR_YehiaRadwan',
                     'https://www.facebook.com/YehiaRadwanOfficial',
-                    'https://tiktok.com/@yahiaradwan',
                 ],
                 worksFor: {
                     '@type': 'Organization',

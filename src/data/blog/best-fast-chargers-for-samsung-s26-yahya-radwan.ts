@@ -20,14 +20,13 @@ export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
                 ar: 'صانع محتوى تقني وخبير مراجعة الهواتف الذكية',
                 en: 'Tech Content Creator & Smartphone Reviewer',
             },
-            avatar: '/images/blog/authors/yehia_radwan.jpg',
-            url: 'https://www.youtube.com/c/YehiaRadwan',
+            avatar: '/images/blog/authors/yehia_radwan.webp',
+            url: 'https://www.youtube.com/@YehiaRadwan',
             socials: {
-                youtube: 'https://www.youtube.com/c/YehiaRadwan',
+                youtube: 'https://www.youtube.com/@YehiaRadwan',
                 instagram: 'https://www.instagram.com/yehiaradwanofficial',
-                twitter: 'https://twitter.com/yahiaradwan',
+                twitter: 'https://twitter.com/YR_YehiaRadwan',
                 facebook: 'https://www.facebook.com/YehiaRadwanOfficial',
-                tiktok: 'https://tiktok.com/@yahiaradwan'
             }
         },
         translations: {
@@ -64,7 +63,7 @@ export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
     <p>بصراحة تامة: وفر فلوس شاحن سامسونج الأصلي، واشتري <strong>انكر نانو 45W</strong> + الكابل الأصلي له من موقع معتمد مثل كايرو فولت، ستأخذ أداء مماثل (إن لم يكن أفضل بسبب الحرارة الأقل)، وبسعر أوفر، وضمان 18 شهراً استبدال.</p>
 </div>
 
-<p>ولا تنسوا تتابعوني على <a href="https://youtube.com/@YahiaRadwan" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">يوتيوب</a> و<a href="https://instagram.com/yahiaradwan" target="_blank" rel="noopener" style="color:#ec4899;font-weight:bold;">انستجرام</a> لمراجعات الموبايلات الدورية!</p>
+<p>ولا تنسوا تتابعوني على <a href="https://www.youtube.com/@YehiaRadwan" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">يوتيوب</a> و<a href="https://www.instagram.com/yehiaradwanofficial" target="_blank" rel="noopener" style="color:#ec4899;font-weight:bold;">انستجرام</a> لمراجعات الموبايلات الدورية!</p>
 `,
                 faq: [
                     { question: 'رأي يحيى رضوان: أنكر 45W أم شاحن سامسونج؟', answer: 'أنكر 45W يتفوق في الحجم الصغير (أصغر بـ 34%) وإدارة الحرارة (GaN II)، ويفعّل الـ Super Fast Charging 2.0 كلياً، وبسعر أفضل من الأصلي.' },
@@ -104,7 +103,7 @@ export const best_fast_chargers_for_samsung_s26_yahya_radwan: BlogArticle = {
     <p>Honest advice: Save your money on the official Samsung accessory. Buy the <strong>Anker Nano 45W</strong> and an original cable from an authorized site like CairoVolt. You get identical (if not cooler) performance, save cash, and get an 18-month replacement warranty.</p>
 </div>
 
-<p>Don't forget to follow me on <a href="https://youtube.com/@YahiaRadwan" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">YouTube</a> and <a href="https://instagram.com/yahiaradwan" target="_blank" rel="noopener" style="color:#ec4899;font-weight:bold;">Instagram</a> for all my latest smartphone reviews!</p>
+<p>Don't forget to follow me on <a href="https://www.youtube.com/@YehiaRadwan" target="_blank" rel="noopener" style="color:#ef4444;font-weight:bold;">YouTube</a> and <a href="https://www.instagram.com/yehiaradwanofficial" target="_blank" rel="noopener" style="color:#ec4899;font-weight:bold;">Instagram</a> for all my latest smartphone reviews!</p>
 `,
                 faq: [
                     { question: 'Yahya Radwan\'s Verdict: Anker 45W or Samsung?', answer: 'Anker 45W wins on compact size (34% smaller) and thermal management. It fully triggers Super Fast Charging 2.0 at a much better value.' },
