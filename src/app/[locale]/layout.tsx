@@ -93,34 +93,22 @@ export default async function RootLayout({
       <head>
         {/* Prevent browsers/extensions from auto-detecting phone numbers — causes hydration mismatches */}
         <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
-        {/* DNS-prefetch for external origins — lightweight, no connection cost */}
-        {/* fonts.googleapis.com REMOVED: next/font/google self-hosts fonts */}
-        {/* connect.facebook.net REMOVED: Facebook SDK removed from project */}
+        {/* DNS-prefetch for data origins — fonts are self-hosted, analytics is interaction-gated */}
         <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
         <link rel="dns-prefetch" href="https://firestore.googleapis.com" />
-        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
-        <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
-        <link rel="dns-prefetch" href="https://www.statcounter.com" />
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
         {/* OpenSearch */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
-        {/* Structured resource links */}
-        <link rel="ai-instructions" href="https://cairovolt.com/.well-known/llms.txt" />
-        <link rel="ai-instructions-full" href="https://cairovolt.com/.well-known/llms-full.txt" />
-        <link rel="openapi" href="https://cairovolt.com/api/openapi.json" />
-        <link rel="dataset" href="https://cairovolt.com/api/lab-data/json" type="application/ld+json" />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
-        {/* Dark mode detection — MUST stay inline (FOUC prevention) + auto-recheck every 60s */}
+        {/* Dark mode detection — MUST stay inline (FOUC prevention) */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
                 try {
+                  var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
                   function applyTheme() {
-                    var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
                     if (mq && mq.matches) {
                       document.documentElement.classList.add('dark');
                     } else {
@@ -129,7 +117,7 @@ export default async function RootLayout({
                     }
                   }
                   applyTheme();
-                  setInterval(applyTheme, 60000);
+                  if (mq) mq.addEventListener('change', applyTheme);
                 } catch (e) {}
               })();
             `,
@@ -260,11 +248,11 @@ export default async function RootLayout({
 
         {/* Facebook SDK — removed (placeholder app ID was causing silent errors on every page load) */}
 
-        {/* WebMCP — navigator.modelContext.registerTool() */}
+        {/* WebMCP — deferred to idle to avoid blocking critical rendering */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              (function() {
+              (typeof requestIdleCallback==='function'?requestIdleCallback:setTimeout)(function() {
                 if (typeof navigator === 'undefined' || !navigator.modelContext || !navigator.modelContext.registerTool) return;
                 try {
                   navigator.modelContext.registerTool({

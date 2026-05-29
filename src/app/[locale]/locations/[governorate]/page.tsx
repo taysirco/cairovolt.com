@@ -9,8 +9,7 @@ import { getGovernorateOutageData } from '@/data/load-shedding-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 
-export const dynamic = 'force-dynamic'; // BostaTracker uses new Date() — must be dynamic
-export const revalidate = 3600; // ISR: revalidate every hour after initial render
+export const revalidate = 3600; // ISR: revalidate every hour
 
 interface PageProps {
     params: Promise<{

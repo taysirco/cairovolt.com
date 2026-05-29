@@ -193,9 +193,12 @@ export default function middleware(request: NextRequest) {
         // Clean framework identifiers for all responses
         response.headers.delete('x-powered-by');
 
-        // Standard Link header for resource discovery (RFC 8288 + RFC 9727)
-        const existingLink = response.headers.get('Link');
-        response.headers.set('Link', existingLink ? `${existingLink}, ${RESOURCE_LINKS}` : RESOURCE_LINKS);
+        // Resource discovery links only for bots — saves ~380B header per human request
+        const isBot = ENGINE_UA.test(userAgent) || PARTNER_UA.test(userAgent);
+        if (isBot) {
+            const existingLink = response.headers.get('Link');
+            response.headers.set('Link', existingLink ? `${existingLink}, ${RESOURCE_LINKS}` : RESOURCE_LINKS);
+        }
 
         // Vary: Accept — critical for content negotiation caching (HTML vs markdown)
         response.headers.set('Vary', 'Accept');
