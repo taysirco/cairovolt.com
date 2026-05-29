@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Cairo, Outfit } from "next/font/google";
 import "../globals.css"; // Corrected path
 import Script from 'next/script';
+import LazyUXComponents from '@/components/LazyUXComponents';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { NextIntlClientProvider } from 'next-intl';
@@ -11,10 +12,6 @@ import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
 import { GoogleAnalytics } from '@/components/content/GoogleAnalytics';
 import PrefetchHints from '@/components/content/PrefetchHints';
-import InteractiveEffects from '@/components/UX/InteractiveEffects';
-import ViewportPrefetch from '@/components/UX/ViewportPrefetch';
-import RouteIntelligence from '@/components/UX/RouteIntelligence';
-import UXMetricsEngine from '@/components/UX/UXMetricsEngine';
 
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 import ThemeWatcher from '@/components/ThemeWatcher';
@@ -166,10 +163,7 @@ export default async function RootLayout({
               </main>
               <Footer />
               <LazyClientComponents locale={locale} />
-              <InteractiveEffects />
-              <ViewportPrefetch />
-              <RouteIntelligence />
-              <UXMetricsEngine />
+              <LazyUXComponents />
             </div>
           </CartProvider>
         </NextIntlClientProvider>

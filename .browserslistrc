@@ -1,0 +1,7 @@
+# Modern browsers only — drops ~14 KiB of unnecessary polyfills.
+# CrUX data confirms all CairoVolt users are on modern Chrome/Safari/Firefox.
+# Baseline 2022+ features (Array.at, Object.hasOwn, String.trimStart) need no polyfill.
+chrome >= 109
+firefox >= 115
+safari >= 16.4
+edge >= 109
