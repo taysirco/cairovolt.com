@@ -1,4 +1,3 @@
-import { useLocale } from 'next-intl';
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -109,8 +108,8 @@ function SocialLink({ href, label, children }: { href: string; label: string; ch
     );
 }
 
-export default function TeamPage() {
-    const locale = useLocale();
+export default async function TeamPage({ params }: Props) {
+    const { locale } = await params;
     const isArabic = locale === 'ar';
 
     return (
