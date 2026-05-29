@@ -325,27 +325,23 @@ export default async function ProductPage({ params }: Props) {
         worstRating: Number(staticAggregateRating.worstRating),
     } : null);
 
-    // LCP Preload: Use imagesrcset+imagesizes to match the exact srcset
-    // the Next.js Image component generates. Without this, the preload URL
-    // won't match any srcset entry and the image is downloaded TWICE.
+    // LCP Preload: href with w=1080 to match what the Image srcset selects
+    // on Moto G Power (412px × 2.625 DPR = 1081, closest deviceSize = 1080).
+    // Note: imageSrcSet/imageSizes props are silently dropped by Next.js
+    // App Router SSR, so we use a simple href preload instead.
     const primaryImageUrl = product.images?.[0]?.url;
-    const preloadSrcSet = primaryImageUrl
-        ? [360, 414, 640, 750, 828, 1080, 1200].map(w =>
-            `/api/img?url=${encodeURIComponent(primaryImageUrl)}&w=${w}&q=75 ${w}w`
-          ).join(', ')
+    const preloadImageHref = primaryImageUrl
+        ? `/api/img?url=${encodeURIComponent(primaryImageUrl)}&w=1080&q=75`
         : null;
-    const preloadSizes = '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px';
 
     return (
         <>
-            {/* LCP Image Preload — imagesrcset matches ProductPageClient sizes prop */}
-            {preloadSrcSet && (
+            {/* LCP Image Preload — w=1080 matches Moto G Power srcset selection */}
+            {preloadImageHref && (
                 <link
                     rel="preload"
                     as="image"
-                    imageSrcSet={preloadSrcSet}
-                    imageSizes={preloadSizes}
-                    type="image/webp"
+                    href={preloadImageHref}
                     fetchPriority="high"
                 />
             )}
