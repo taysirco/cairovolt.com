@@ -61,6 +61,11 @@ const nextConfig = {
                         value: 'public, max-age=86400, s-maxage=86400',
                     },
                     {
+                        // Cloudflare edge: cache 7 days (longer than browser)
+                        key: 'CDN-Cache-Control',
+                        value: 'public, max-age=604800',
+                    },
+                    {
                         key: 'Access-Control-Allow-Origin',
                         value: '*',
                     },
@@ -82,6 +87,11 @@ const nextConfig = {
                         key: 'Cache-Control',
                         value: 'public, max-age=31536000, immutable',
                     },
+                    {
+                        // Cloudflare edge: cache forever (immutable assets)
+                        key: 'CDN-Cache-Control',
+                        value: 'public, max-age=31536000, immutable',
+                    },
                 ],
             },
             {
@@ -89,6 +99,10 @@ const nextConfig = {
                 headers: [
                     {
                         key: 'Cache-Control',
+                        value: 'public, max-age=31536000, immutable',
+                    },
+                    {
+                        key: 'CDN-Cache-Control',
                         value: 'public, max-age=31536000, immutable',
                     },
                 ],
@@ -100,6 +114,40 @@ const nextConfig = {
                     {
                         key: 'Cache-Control',
                         value: 'public, max-age=86400, s-maxage=86400, stale-while-revalidate=604800',
+                    },
+                    {
+                        // Cloudflare edge: cache 7 days, serve stale for 30 days while revalidating
+                        key: 'CDN-Cache-Control',
+                        value: 'public, max-age=604800, stale-while-revalidate=2592000',
+                    },
+                ],
+            },
+            {
+                // Product + category pages — Cloudflare edge caching with SWR
+                source: '/:locale(ar|en)/:brand/:path*',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
+                    },
+                    {
+                        // Cloudflare edge: cache 2 hours, serve stale for 24h while revalidating
+                        key: 'CDN-Cache-Control',
+                        value: 'public, max-age=7200, stale-while-revalidate=86400',
+                    },
+                ],
+            },
+            {
+                // Homepage — Cloudflare edge caching
+                source: '/:locale(ar|en)',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400',
+                    },
+                    {
+                        key: 'CDN-Cache-Control',
+                        value: 'public, max-age=7200, stale-while-revalidate=86400',
                     },
                 ],
             },
@@ -138,8 +186,9 @@ const nextConfig = {
                     },
                     {
                         // CSP — effective XSS mitigation (Best Practices)
+                        // Removed 'unsafe-eval' — not needed in production Next.js
                         key: 'Content-Security-Policy',
-                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self' https:;",
+                        value: "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.tiktok.com https://www.statcounter.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.eg https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https: http:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https: wss:; frame-src 'self' https://www.google.com https://td.doubleclick.net; media-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self' https:;",
                     },
                 ],
             },
