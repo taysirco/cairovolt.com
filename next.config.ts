@@ -18,7 +18,7 @@ const nextConfig = {
         // Optimized breakpoints — match actual device widths to avoid oversized images
         deviceSizes: [360, 414, 640, 750, 828, 1080, 1200, 1920],
         // Thumbnail sizes for gallery thumbnails and listing cards
-        imageSizes: [64, 80, 96, 128, 256, 384],
+        imageSizes: [64, 80, 96, 128, 160, 256, 320, 384],
         // Next.js 16 requires explicit whitelist when local image URLs carry a
         // query string (we use ?v=N to cache-bust replaced webp covers).
         // Once `localPatterns` is set it also gates every local path, so list

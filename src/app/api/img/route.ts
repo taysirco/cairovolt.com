@@ -17,8 +17,8 @@ import sharp from 'sharp';
 // Allowed path prefixes for security
 const ALLOWED_PREFIXES = ['/products/', '/blog/', '/cairovolt_logo'];
 
-// Valid widths (must match next.config.ts deviceSizes + imageSizes)
-const VALID_WIDTHS = new Set([64, 80, 96, 128, 256, 384, 360, 414, 640, 750, 828, 1080, 1200, 1920]);
+// Valid widths (next.config.ts deviceSizes + imageSizes + fixed image widths)
+const VALID_WIDTHS = new Set([64, 80, 96, 128, 160, 256, 320, 384, 360, 414, 640, 750, 828, 1080, 1200, 1920]);
 
 // In-memory LRU cache for hot images (up to 100 entries, ~50MB max)
 const cache = new Map<string, { buffer: Uint8Array; contentType: string }>();
