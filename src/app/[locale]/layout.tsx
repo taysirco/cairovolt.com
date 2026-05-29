@@ -103,7 +103,7 @@ export default async function RootLayout({
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
-        <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
+        <link rel="preconnect" href="https://analytics.tiktok.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
         {/* PWA Manifest */}
