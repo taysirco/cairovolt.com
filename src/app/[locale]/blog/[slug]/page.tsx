@@ -225,7 +225,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                 {isArabic ? 'المدونة' : 'Blog'}
                             </Link>
                             <span className="mx-1">/</span>
-                            <span className="text-gray-900 dark:text-white font-medium truncate max-w-[250px]">
+                            <span className="text-gray-900 dark:text-white font-medium">
                                 {trans.title}
                             </span>
                         </nav>

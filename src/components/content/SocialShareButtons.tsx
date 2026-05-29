@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface SocialShareButtonsProps {
     title: string;
@@ -13,7 +13,14 @@ interface SocialShareButtonsProps {
  */
 export default function SocialShareButtons({ title, url, locale }: SocialShareButtonsProps) {
     const [copied, setCopied] = useState(false);
+    const [supportsShare, setSupportsShare] = useState(false);
     const isArabic = locale === 'ar';
+
+    useEffect(() => {
+        if (typeof navigator !== 'undefined' && 'share' in navigator) {
+            setSupportsShare(true);
+        }
+    }, []);
 
     const encodedUrl = encodeURIComponent(url);
     const encodedTitle = encodeURIComponent(title);
@@ -112,7 +119,7 @@ export default function SocialShareButtons({ title, url, locale }: SocialShareBu
             </button>
 
             {/* Native Share API (mobile) — only shows when Web Share API is available */}
-            {typeof navigator !== 'undefined' && 'share' in navigator && (
+            {supportsShare && (
                 <button
                     onClick={handleNativeShare}
                     className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm font-semibold transition-all hover:scale-105 hover:shadow-lg active:scale-95 border border-gray-200 dark:border-gray-700"
