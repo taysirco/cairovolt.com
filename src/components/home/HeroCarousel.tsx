@@ -73,8 +73,8 @@ export default function HeroCarousel({ products, locale }: HeroCarouselProps) {
         <div
           className={`flex flex-col ${isAr ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-16`}
         >
-          {/* Text Side */}
-          <div className={`text-center ${isAr ? 'lg:text-right' : 'lg:text-left'} space-y-6 z-10 w-full lg:flex-1`}>
+          {/* Text Side — min-height prevents CLS during carousel rotation */}
+          <div className={`text-center ${isAr ? 'lg:text-right' : 'lg:text-left'} space-y-6 z-10 w-full lg:flex-1 min-h-[280px] lg:min-h-[320px]`}>
             {/* Badge */}
             {active.badge && (
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 backdrop-blur-sm">
