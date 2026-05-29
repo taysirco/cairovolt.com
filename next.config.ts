@@ -43,7 +43,7 @@ const nextConfig = {
         ] as any,
     },
     experimental: {
-        optimizeCss: true,  // Uses Critters to inline critical CSS — reduces FCP/LCP by ~300ms
+        // optimizeCss (Critters) removed — incompatible with App Router streaming
         optimizePackageImports: ['next-intl', 'react-hook-form'],  // Tree-shake barrel exports
         staleTimes: {
             dynamic: 180,   // 3 min — RSC payloads stay cached longer in client router

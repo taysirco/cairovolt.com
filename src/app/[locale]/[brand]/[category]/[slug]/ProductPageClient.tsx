@@ -43,11 +43,14 @@ const BackupTimeCalculator = dynamic(() => import('@/components/UX/BackupTimeCal
 const VariantSelector = dynamic(() => import('@/components/products/VariantSelector'), {
     ssr: false
 });
-import RelatedLinks from '@/components/content/RelatedLinks';
-import ShareButtons from '@/components/products/ShareButtons';
+const RelatedLinks = dynamic(() => import('@/components/content/RelatedLinks'), { ssr: false });
+const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'), { ssr: false });
 import { getProductDetail } from '@/data/product-details';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { ContentCredentialsBadge } from '@/components/UX/ContentCredentialsBadge';
+const ContentCredentialsBadge = dynamic(
+    () => import('@/components/UX/ContentCredentialsBadge').then(mod => mod.ContentCredentialsBadge),
+    { ssr: false }
+);
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 
 
@@ -488,7 +491,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         {product.contentCredentials && (
                             <div className="flex justify-end">
                                 <ContentCredentialsBadge
-                                    credentials={product.contentCredentials as Parameters<typeof ContentCredentialsBadge>[0]['credentials']}
+                                    credentials={product.contentCredentials as any}
                                     productSlug={product.slug}
                                     locale={locale}
                                 />

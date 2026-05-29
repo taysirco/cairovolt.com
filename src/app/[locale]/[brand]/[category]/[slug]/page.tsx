@@ -341,6 +341,7 @@ export default async function ProductPage({ params }: Props) {
                 <link
                     rel="preload"
                     as="image"
+                    type="image/webp"
                     href={preloadImageHref}
                     fetchPriority="high"
                 />
