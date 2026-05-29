@@ -69,6 +69,19 @@ voice.md
 new_product_guide.md
 keyword_analysis_report.md
 
+# Content plans & roadmaps (local-only — never push)
+cairovolt-blog-roadmap.md
+cairovolt-image-prompts.md
+cairovolt-social-roadmap.md
+cairovolt-social-video-prompts.md
+content-laws.md
+SOUNDCORE-STRATEGY.md
+SOCIAL_AUTOPOST_SETUP.md
+
+# Keyword & anchor-text analysis (Excel)
+CairoVolt-Anchor-Text-Strategy-FINAL.xlsx
+cairovolt-keywords.xlsx
+
 # Invoices & business documents
 invoice_*.html
 invoice_*.pdf
@@ -89,10 +102,29 @@ cairovolt-authenticator.zip
 !/scripts/detect-new-articles.mjs
 !/scripts/post-to-social.mjs
 
+# Root-level utility scripts (local tools)
+/convert_all.py
+/generate-existing-blog-images.js
+/map_images.js
+/process_real_images.js
+/update_cover_images.js
+
 # Internal strategy & analysis
 analysis_data/
 update-products-pages
 product-page-new
+
+# Analysis datasets & keyword research CSVs
+public/datasets/
+
+# C2PA manifests (generated dynamically in src/lib/media-verification.ts)
+.c2pa-manifests/
+
+# IDE & editor settings
+.vscode/
+
+# Genkit traces & caches
+.genkit/
 
 # Office/Excel temporary files
 ~$*
