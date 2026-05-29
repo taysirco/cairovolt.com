@@ -23,6 +23,9 @@ const BOT_BLOCKED_PATHS = ['/checkout', '/cart', '/account'];
 // Paths that should always have noindex regardless of bot type
 const NOINDEX_PATHS = ['/admin', '/confirm', '/review/'];
 
+// Pre-computed Link header — avoids string allocation on every request
+const RESOURCE_LINKS = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset", <https://cairovolt.com/.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"';
+
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     const userAgent = request.headers.get('user-agent') || '';
@@ -191,9 +194,8 @@ export default function middleware(request: NextRequest) {
         response.headers.delete('x-powered-by');
 
         // Standard Link header for resource discovery (RFC 8288 + RFC 9727)
-        const resourceLinks = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset", <https://cairovolt.com/.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"';
         const existingLink = response.headers.get('Link');
-        response.headers.set('Link', existingLink ? `${existingLink}, ${resourceLinks}` : resourceLinks);
+        response.headers.set('Link', existingLink ? `${existingLink}, ${RESOURCE_LINKS}` : RESOURCE_LINKS);
 
         // Vary: Accept — critical for content negotiation caching (HTML vs markdown)
         response.headers.set('Vary', 'Accept');

@@ -44,6 +44,7 @@ const nextConfig = {
     },
     experimental: {
         optimizeCss: true,  // Uses Critters to inline critical CSS — reduces FCP/LCP by ~300ms
+        optimizePackageImports: ['next-intl', 'react-hook-form'],  // Tree-shake barrel exports
         staleTimes: {
             dynamic: 180,   // 3 min — RSC payloads stay cached longer in client router
             static: 600,    // 10 min — static pages (about, faq, blog) cached longer

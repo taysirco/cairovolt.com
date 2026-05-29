@@ -147,16 +147,16 @@ export default function Home() {
         <TrustRibbon locale={locale} />
 
         {/* ==================== 3. Featured Products Showcase ==================== */}
-        <ProductShowcase locale={locale} />
+        <div className="cv-auto"><ProductShowcase locale={locale} /></div>
 
         {/* ==================== 4. Brand Showcase ==================== */}
-        <BrandShowcase locale={locale} />
+        <div className="cv-auto"><BrandShowcase locale={locale} /></div>
 
         {/* ==================== 5. Social Proof Strip ==================== */}
-        <SocialProofStrip locale={locale} />
+        <div className="cv-auto-sm"><SocialProofStrip locale={locale} /></div>
 
         {/* ==================== 6. CairoVolt Labs — Exclusive Data ==================== */}
-        <section className="py-16 lg:py-20" style={{ background: '#0a0f1c' }}>
+        <section className="cv-auto py-16 lg:py-20" style={{ background: '#0a0f1c' }}>
           <div className="container mx-auto px-4 max-w-5xl">
             <div className="bg-gradient-to-br from-slate-900 to-blue-950 text-white p-8 md:p-10 rounded-3xl shadow-2xl border border-blue-800/30">
               <div className="flex items-center gap-3 mb-2">
@@ -209,7 +209,7 @@ export default function Home() {
         </section>
 
         {/* ==================== 7. Blog & Guides ==================== */}
-        <section className="py-16 lg:py-20" style={{ background: '#0d1222' }}>
+        <section className="cv-auto py-16 lg:py-20" style={{ background: '#0d1222' }}>
           <div className="container mx-auto px-4">
             <div className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 rounded-3xl border border-emerald-500/10 p-8 md:p-12">
               <div className="text-center mb-8">
@@ -258,7 +258,7 @@ export default function Home() {
         </section>
 
         {/* ==================== 8. Compact About + SEO Text ==================== */}
-        <section className="py-16 lg:py-20" style={{ background: '#0a0f1c' }}>
+        <section className="cv-auto py-16 lg:py-20" style={{ background: '#0a0f1c' }}>
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="text-center mb-8">
               <h2 className="text-2xl lg:text-3xl font-bold text-white font-outfit mb-4">
@@ -287,7 +287,7 @@ export default function Home() {
         </section>
 
         {/* ==================== 9. Voice Search FAQ ==================== */}
-        <section className="py-16 lg:py-20 dark" style={{ background: '#0d1222' }}>
+        <section className="cv-auto py-16 lg:py-20 dark" style={{ background: '#0d1222' }}>
           <div className="container mx-auto px-4 max-w-4xl">
             <FAQSection
               productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'CairoVolt — Anker & Joyroom Accessories'}

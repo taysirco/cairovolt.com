@@ -13,7 +13,7 @@ import { GoogleAnalytics } from '@/components/content/GoogleAnalytics';
 import PrefetchHints from '@/components/content/PrefetchHints';
 
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
-import ThemeWatcher from '@/components/ThemeWatcher';
+
 import PromoBanner from '@/components/content/PromoBanner';
 
 const geistSans = Geist({
@@ -113,24 +113,23 @@ export default async function RootLayout({
         <link rel="openapi" href="https://cairovolt.com/api/openapi.json" />
         <link rel="dataset" href="https://cairovolt.com/api/lab-data/json" type="application/ld+json" />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
-        {/* Dark mode detection — MUST stay inline (FOUC prevention) */}
+        {/* Dark mode detection — MUST stay inline (FOUC prevention) + auto-recheck every 60s */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
                 try {
-                  var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-                  if (mq && mq.matches) {
-                    document.documentElement.classList.add('dark');
-                  } else {
-                    var currentHour = new Date().getHours();
-                    var isNight = currentHour >= 18 || currentHour < 6;
-                    if (isNight) {
+                  function applyTheme() {
+                    var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+                    if (mq && mq.matches) {
                       document.documentElement.classList.add('dark');
                     } else {
-                      document.documentElement.classList.remove('dark');
+                      var h = new Date().getHours();
+                      document.documentElement.classList[h >= 18 || h < 6 ? 'add' : 'remove']('dark');
                     }
                   }
+                  applyTheme();
+                  setInterval(applyTheme, 60000);
                 } catch (e) {}
               })();
             `,
@@ -145,7 +144,7 @@ export default async function RootLayout({
 
         <NextIntlClientProvider messages={messages}>
           <CartProvider>
-            <ThemeWatcher />
+
             {/* Standard GA4 Analytics */}
             <GoogleAnalytics />
             {/* Global business graph and tech stack metadata */}

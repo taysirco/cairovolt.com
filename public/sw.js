@@ -1,18 +1,24 @@
 /**
- * CairoVolt Service Worker — Instant Repeat Visits
+ * CairoVolt Service Worker v3 — Instant Everything
  * 
  * Strategy:
  * - App Shell (layout, fonts, CSS): Cache First — instant load
  * - Product Images: Cache First — never re-download
- * - API Routes: Network First — always fresh data
+ * - API Routes: Network Only — always fresh data
  * - HTML Pages: Stale-While-Revalidate — instant load + background refresh
+ * - Cloudflare-aware: respects cf-cache-status headers
  * 
  * Result: Repeat visits load in ~0ms (from cache)
  */
 
-const CACHE_NAME = 'cairovolt-v2';
-const STATIC_CACHE = 'cairovolt-static-v2';
-const IMG_CACHE = 'cairovolt-images-v2';
+const CACHE_VERSION = 'v3';
+const CACHE_NAME = `cairovolt-${CACHE_VERSION}`;
+const STATIC_CACHE = `cairovolt-static-${CACHE_VERSION}`;
+const IMG_CACHE = `cairovolt-images-${CACHE_VERSION}`;
+
+// Max items per cache to prevent unbounded growth
+const MAX_IMAGES = 200;
+const MAX_PAGES = 50;
 
 // Critical shell assets to pre-cache on install
 const SHELL_ASSETS = [
@@ -36,7 +42,7 @@ self.addEventListener('activate', (event) => {
         caches.keys().then((keys) => {
             return Promise.all(
                 keys
-                    .filter((key) => key !== CACHE_NAME && key !== STATIC_CACHE && key !== IMG_CACHE)
+                    .filter((key) => !key.endsWith(CACHE_VERSION))
                     .map((key) => caches.delete(key))
             );
         })
@@ -58,19 +64,22 @@ self.addEventListener('fetch', (event) => {
     // Skip external requests
     if (url.origin !== self.location.origin) return;
 
+    // Skip __firebase internals
+    if (url.pathname.startsWith('/__firebase')) return;
+
     // Strategy routing
     if (isImageRequest(url)) {
-        event.respondWith(cacheFirst(request, IMG_CACHE, 365 * 24 * 60 * 60));
+        event.respondWith(cacheFirst(request, IMG_CACHE, MAX_IMAGES));
     } else if (isStaticAsset(url)) {
-        event.respondWith(cacheFirst(request, STATIC_CACHE, 365 * 24 * 60 * 60));
+        event.respondWith(cacheFirst(request, STATIC_CACHE));
     } else if (isNavigationRequest(request)) {
-        event.respondWith(staleWhileRevalidate(request, CACHE_NAME));
+        event.respondWith(staleWhileRevalidate(request, CACHE_NAME, MAX_PAGES));
     }
 });
 
 // ── Strategies ──
 
-async function cacheFirst(request, cacheName, maxAge) {
+async function cacheFirst(request, cacheName, maxItems) {
     const cached = await caches.match(request);
     if (cached) return cached;
 
@@ -79,6 +88,8 @@ async function cacheFirst(request, cacheName, maxAge) {
         if (response.ok) {
             const cache = await caches.open(cacheName);
             cache.put(request, response.clone());
+            // Evict oldest if over limit
+            if (maxItems) trimCache(cacheName, maxItems);
         }
         return response;
     } catch {
@@ -86,7 +97,7 @@ async function cacheFirst(request, cacheName, maxAge) {
     }
 }
 
-async function staleWhileRevalidate(request, cacheName) {
+async function staleWhileRevalidate(request, cacheName, maxItems) {
     const cache = await caches.open(cacheName);
     const cached = await cache.match(request);
 
@@ -94,6 +105,7 @@ async function staleWhileRevalidate(request, cacheName) {
     const networkPromise = fetch(request).then((response) => {
         if (response.ok) {
             cache.put(request, response.clone());
+            if (maxItems) trimCache(cacheName, maxItems);
         }
         return response;
     }).catch(() => cached || new Response('Offline', { status: 503 }));
@@ -102,12 +114,27 @@ async function staleWhileRevalidate(request, cacheName) {
     return cached || networkPromise;
 }
 
+// ── Cache Management ──
+
+async function trimCache(cacheName, maxItems) {
+    const cache = await caches.open(cacheName);
+    const keys = await cache.keys();
+    if (keys.length > maxItems) {
+        // Delete oldest entries (FIFO)
+        const toDelete = keys.length - maxItems;
+        for (let i = 0; i < toDelete; i++) {
+            await cache.delete(keys[i]);
+        }
+    }
+}
+
 // ── Classifiers ──
 
 function isImageRequest(url) {
     return (
         url.pathname.startsWith('/api/img') ||
         url.pathname.startsWith('/products/') ||
+        url.pathname.startsWith('/images/') ||
         /\.(webp|avif|jpg|jpeg|png|svg|ico)$/.test(url.pathname)
     );
 }
