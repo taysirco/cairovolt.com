@@ -396,7 +396,7 @@ export default function CategoryTemplate({
                                         </span>
                                         <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
                                         {product.originalPrice && product.originalPrice > product.price && (
-                                            <span className="text-xs text-gray-400 line-through ml-2">{product.originalPrice}</span>
+                                            <span className="text-xs text-gray-500 dark:text-gray-400 line-through ml-2">{product.originalPrice}</span>
                                         )}
                                     </div>
                                     <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm text-xs`}>

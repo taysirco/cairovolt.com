@@ -212,7 +212,6 @@ export const config = {
     // 2. Everything else except paths with dots, _next, __firebase
     matcher: [
         '/.well-known/:path*',
-        '/robots.txt',
         '/((?!_next|__firebase|.*\\..*).*)',
     ]
 };

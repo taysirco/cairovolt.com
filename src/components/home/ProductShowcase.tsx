@@ -24,7 +24,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-zolo-a110e-20000',
     name: { en: 'Anker ZOLO 20,000mAh', ar: 'أنكر زولو 20,000' },
-    image: '/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt.webp',
+    image: '/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt-thumb.webp',
     price: 1730,
     originalPrice: 1950,
     brand: 'Anker',
@@ -35,7 +35,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-soundcore-r50i-nc',
     name: { en: 'Soundcore R50i NC ANC', ar: 'ساوندكور R50i NC' },
-    image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp',
+    image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt-thumb.webp',
     price: 1199,
     originalPrice: 1550,
     brand: 'Anker',
@@ -46,7 +46,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-nano-45w',
     name: { en: 'Anker Nano 45W Charger', ar: 'شاحن أنكر نانو 45 واط' },
-    image: '/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications.webp',
+    image: '/products/anker/anker-nano-45w/anker-nano-45w-package-box-contents-specifications-thumb.webp',
     price: 790,
     originalPrice: 1100,
     brand: 'Anker',
@@ -57,7 +57,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-prime-a1695-25000',
     name: { en: 'Anker Prime 165W', ar: 'أنكر برايم 165 واط' },
-    image: '/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt.webp',
+    image: '/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt-thumb.webp',
     price: 3950,
     originalPrice: 4200,
     brand: 'Anker',
@@ -68,7 +68,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-soundcore-k20i',
     name: { en: 'Soundcore K20i Earbuds', ar: 'ساوندكور K20i' },
-    image: '/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt.webp',
+    image: '/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt-thumb.webp',
     price: 750,
     originalPrice: 830,
     brand: 'Anker',
@@ -78,7 +78,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-zolo-a110d-10000',
     name: { en: 'Anker ZOLO 10,000mAh', ar: 'أنكر زولو 10,000' },
-    image: '/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-power-bank-builtin-usb-c-cable-led-display-cairovolt.webp',
+    image: '/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-power-bank-builtin-usb-c-cable-led-display-cairovolt-thumb.webp',
     price: 1270,
     brand: 'Anker',
     badge: { en: 'Pocket Size', ar: 'حجم الجيب' },
@@ -88,7 +88,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-soundcore-flare-2',
     name: { en: 'Soundcore Flare 2 Speaker', ar: 'سماعة فلير 2' },
-    image: '/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-ipx7-waterproof-pool-outdoor.webp',
+    image: '/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-ipx7-waterproof-pool-outdoor-thumb.webp',
     price: 2999,
     originalPrice: 3400,
     brand: 'Anker',
@@ -98,7 +98,7 @@ const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-a8050-usb-c-cable',
     name: { en: 'Anker USB-C Cable 100W', ar: 'كابل أنكر USB-C' },
-    image: '/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability.webp',
+    image: '/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability-thumb.webp',
     price: 240,
     originalPrice: 270,
     brand: 'Anker',

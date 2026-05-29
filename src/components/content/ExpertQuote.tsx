@@ -15,6 +15,7 @@
 
 import { recommendedCreators } from '@/data/team-members';
 import type { BlogArticle } from '@/data/blog/_types';
+import Image from 'next/image';
 
 type Props = {
     quote: NonNullable<BlogArticle['expertQuote']>;
@@ -64,14 +65,12 @@ export function ExpertQuote({ quote, locale }: Props) {
                     {text}
                 </p>
                 <figcaption className="mt-5 flex items-center gap-3">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <Image
                         src={creator.avatar}
                         alt={creator.name[lang]}
                         width={44}
                         height={44}
                         className="w-11 h-11 rounded-full object-cover ring-2 ring-white dark:ring-gray-800 flex-shrink-0"
-                        loading="lazy"
                     />
                     <div className="min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">

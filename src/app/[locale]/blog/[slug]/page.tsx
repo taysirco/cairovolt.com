@@ -246,6 +246,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                         sizes="(max-width: 1024px) 100vw, 1024px"
                                         className="object-cover"
                                         priority
+                                        fetchPriority="high"
                                     />
                                     {/* Bottom legibility gradient — subtle, only ~30% of the image */}
                                     <div aria-hidden className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/55 via-black/15 to-transparent" />
@@ -270,11 +271,12 @@ export default async function BlogArticlePage({ params }: Props) {
                                     {/* Author micro-credit bottom-start */}
                                     {article.author && (
                                         <div className="absolute bottom-3 md:bottom-4 start-3 md:start-4 flex items-center gap-2">
-                                            <img
+                                            <Image
                                                 src={article.author.avatar}
                                                 alt=""
+                                                width={32}
+                                                height={32}
                                                 className="w-7 h-7 md:w-8 md:h-8 rounded-full ring-2 ring-white/80 object-cover"
-                                                loading="lazy"
                                             />
                                             <span className="text-[11px] md:text-xs font-semibold text-white drop-shadow">
                                                 {article.author.name[isArabic ? 'ar' : 'en']}
@@ -399,11 +401,12 @@ export default async function BlogArticlePage({ params }: Props) {
                     {/* Author Profile Bio */}
                     {article.author && (
                         <div className="my-12 p-6 md:p-8 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50 flex flex-col md:flex-row items-center md:items-start gap-6">
-                            <img
+                            <Image
                                 src={article.author.avatar}
                                 alt={article.author.name[isArabic ? 'ar' : 'en']}
+                                width={128}
+                                height={128}
                                 className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-md flex-shrink-0"
-                                loading="lazy"
                             />
                             <div className="text-center md:text-start flex-1">
                                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -455,11 +458,12 @@ export default async function BlogArticlePage({ params }: Props) {
                     {/* Team fallback — when no specific author */}
                     {!article.author && (
                         <div className="my-12 p-6 md:p-8 bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30 flex flex-col md:flex-row items-center md:items-start gap-6">
-                            <img
+                            <Image
                                 src="/images/team/cairovolt-team.webp"
                                 alt={isArabic ? 'فريق تحرير كايرو فولت' : 'CairoVolt Editorial Team'}
+                                width={128}
+                                height={128}
                                 className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-md flex-shrink-0"
-                                loading="lazy"
                             />
                             <div className="text-center md:text-start flex-1">
                                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
@@ -609,7 +613,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 {/* Discount badge */}
                                                 {prod.originalPrice && prod.originalPrice > prod.price && (
                                                     <div className="absolute top-2.5 end-2.5">
-                                                        <span className="text-[10px] font-bold px-2 py-1 rounded-full bg-red-500 text-white shadow-sm">
+                                                        <span className="text-[10px] font-bold px-2 py-1 rounded-full bg-red-700 text-white shadow-sm">
                                                             -{Math.round((1 - prod.price / prod.originalPrice) * 100)}%
                                                         </span>
                                                     </div>
@@ -620,11 +624,11 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 <h3 className="font-bold text-sm text-gray-900 dark:text-white mb-3 line-clamp-2 leading-snug">{pTrans.name}</h3>
                                                 <div className="flex items-center justify-between">
                                                     <div>
-                                                        <span className="text-lg font-bold text-green-600">
+                                                        <span className="text-lg font-bold text-green-700 dark:text-green-400">
                                                             {prod.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
                                                         </span>
                                                         {prod.originalPrice && prod.originalPrice > prod.price && (
-                                                            <span className="text-xs text-gray-400 line-through block">
+                                                            <span className="text-xs text-gray-500 dark:text-gray-400 line-through block">
                                                                 {prod.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
                                                             </span>
                                                         )}

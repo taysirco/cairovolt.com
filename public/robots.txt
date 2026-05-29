@@ -1,19 +1,4 @@
-import { NextResponse } from 'next/server';
-
-/**
- * robots.txt — Route Handler (instead of MetadataRoute.Robots)
- * 
- * We use a raw route handler instead of the typed export because
- * Next.js's MetadataRoute.Robots doesn't support:
- *   1. Content-Signal directives (contentsignals.org)
- *   2. Custom comments for legal declarations
- * 
- * Content-Signal specification: https://contentsignals.org
- * IETF Draft: https://datatracker.ietf.org/doc/draft-content-signals/
- */
-
-export function GET() {
-    const robotsTxt = `# ==========================================================
+# ==========================================================
 # CairoVolt robots.txt
 # Last updated: 2026-04-22
 # ==========================================================
@@ -120,12 +105,3 @@ Disallow: /
 # --- Sitemaps ---
 Sitemap: https://cairovolt.com/sitemap.xml
 Sitemap: https://cairovolt.com/image-sitemap.xml
-`;
-
-    return new NextResponse(robotsTxt, {
-        headers: {
-            'Content-Type': 'text/plain; charset=utf-8',
-            'Cache-Control': 'public, max-age=86400, s-maxage=86400',
-        },
-    });
-}

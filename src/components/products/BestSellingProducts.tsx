@@ -229,7 +229,7 @@ export default function BestSellingProducts({
                                     <div className="flex items-end justify-between gap-1">
                                         <div>
                                             <span className={`text-base md:text-lg font-black ${
-                                                isSoundcore ? 'text-orange-600 dark:text-orange-400' :
+                                                isSoundcore ? 'text-orange-700 dark:text-orange-400' :
                                                 isAnker ? 'text-blue-600 dark:text-blue-400' :
                                                 'text-red-600 dark:text-red-400'
                                             }`}>
