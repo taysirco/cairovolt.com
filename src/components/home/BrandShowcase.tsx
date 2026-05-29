@@ -120,8 +120,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
         </div>
 
         {/* Sub-brand spotlight — Soundcore (Anker's audio family) */}
-        <Link
-          href={`${locale === 'ar' ? '' : '/en'}/soundcore`}
+        <div
           className="group relative block overflow-hidden rounded-2xl bg-gradient-to-r from-orange-600/20 via-red-600/20 to-pink-700/20 border border-orange-500/20 hover:border-orange-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-orange-900/20"
         >
           <div
@@ -148,14 +147,14 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
               <div className="flex flex-wrap gap-2 mt-4">
                 <Link
                   href={`${locale === 'ar' ? '' : '/en'}/soundcore/audio`}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
+                  className="relative z-20 flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
                 >
                   <SvgIcon name="headphones" className="w-4 h-4 opacity-70" />
                   <span>{isAr ? 'ايربودز + هيدفون' : 'Earbuds & Headphones'}</span>
                 </Link>
                 <Link
                   href={`${locale === 'ar' ? '' : '/en'}/soundcore/speakers`}
-                  className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
+                  className="relative z-20 flex items-center gap-1.5 px-3 py-2 rounded-xl bg-white/[0.05] border border-white/[0.08] hover:bg-orange-500/10 hover:border-orange-500/30 transition-all duration-200 text-sm text-slate-300 hover:text-orange-200"
                 >
                   <SvgIcon name="speaker" className="w-4 h-4 opacity-70" />
                   <span>{isAr ? 'سبيكرات بلوتوث' : 'Bluetooth Speakers'}</span>
@@ -163,15 +162,18 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
               </div>
             </div>
             <div className="flex items-center">
-              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-orange-200 bg-orange-500/10 border border-orange-500/30 hover:bg-orange-500/20 font-semibold text-sm transition-all duration-300">
+              <Link
+                href={`${locale === 'ar' ? '' : '/en'}/soundcore`}
+                className="relative z-20 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-orange-200 bg-orange-500/10 border border-orange-500/30 hover:bg-orange-500/20 font-semibold text-sm transition-all duration-300 after:absolute after:inset-0 after:z-10"
+              >
                 {isAr ? 'افتح مركز ساوند كور' : 'Open Soundcore Hub'}
                 <span className={`transition-transform duration-300 ${isAr ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'}`}>
                   {isAr ? '←' : '→'}
                 </span>
-              </span>
+              </Link>
             </div>
           </div>
-        </Link>
+        </div>
       </div>
     </section>
   );
