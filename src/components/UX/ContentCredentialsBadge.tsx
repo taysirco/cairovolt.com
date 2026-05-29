@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ShieldCheck, ShieldX, Info, X, Camera, ExternalLink } from 'lucide-react';
+
 
 interface ContentCredentialsData {
     manifest?: {
@@ -115,11 +115,11 @@ export function ContentCredentialsBadge({ credentials, productSlug, locale = 'ar
                 aria-label={`${t.verified} — ${t.modalTitle}`}
             >
                 {isAiGenerated
-                    ? <ShieldX className="h-3.5 w-3.5 shrink-0 text-amber-500" />
-                    : <ShieldCheck className="h-3.5 w-3.5 shrink-0" />
+                    ? <svg className="h-3.5 w-3.5 shrink-0 text-amber-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9.5 9.5l5 5M14.5 9.5l-5 5"/></svg>
+                    : <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
                 }
                 <span>{isAiGenerated ? t.aiGenerated : t.verified}</span>
-                <Camera className="h-3 w-3 shrink-0 opacity-60" />
+                <svg className="h-3 w-3 shrink-0 opacity-60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/></svg>
             </button>
 
             {isOpen && (
@@ -135,7 +135,7 @@ export function ContentCredentialsBadge({ credentials, productSlug, locale = 'ar
                         {/* Header */}
                         <div className="flex items-center justify-between border-b border-zinc-100 px-5 py-4 dark:border-zinc-800">
                             <div className="flex items-center gap-2">
-                                <ShieldCheck className="h-5 w-5 text-emerald-500" />
+                                <svg className="h-5 w-5 text-emerald-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
                                 <h2 className="text-sm font-semibold text-zinc-900 dark:text-white">
                                     {t.modalTitle}
                                 </h2>
@@ -145,7 +145,7 @@ export function ContentCredentialsBadge({ credentials, productSlug, locale = 'ar
                                 className="rounded-lg p-1 text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
                                 aria-label={t.close}
                             >
-                                <X className="h-4 w-4" />
+                                <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                             </button>
                         </div>
 
@@ -210,9 +210,9 @@ export function ContentCredentialsBadge({ credentials, productSlug, locale = 'ar
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-1 rounded-lg bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-700 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:text-emerald-400"
                                 >
-                                    <Info className="h-3 w-3" />
+                                    <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
                                     {t.verifyOnline}
-                                    <ExternalLink className="h-3 w-3" />
+                                    <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                                 </a>
                             )}
                             <a
@@ -222,7 +222,7 @@ export function ContentCredentialsBadge({ credentials, productSlug, locale = 'ar
                                 className="inline-flex items-center gap-1 rounded-lg bg-zinc-50 px-3 py-1.5 text-xs font-medium text-zinc-600 hover:bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-400"
                             >
                                 {t.publicKey}
-                                <ExternalLink className="h-3 w-3" />
+                                <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                             </a>
                         </div>
                     </div>

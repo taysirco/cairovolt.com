@@ -93,17 +93,15 @@ export default async function RootLayout({
       <head>
         {/* Prevent browsers/extensions from auto-detecting phone numbers — causes hydration mismatches */}
         <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
-        {/* DNS-prefetch for ALL external origins — lightweight, no connection cost */}
-        {/* Preconnects REMOVED: fonts/firebase were unused on product pages, wasting connection budget */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        {/* DNS-prefetch for external origins — lightweight, no connection cost */}
+        {/* fonts.googleapis.com REMOVED: next/font/google self-hosts fonts */}
+        {/* connect.facebook.net REMOVED: Facebook SDK removed from project */}
         <link rel="dns-prefetch" href="https://firebasestorage.googleapis.com" />
         <link rel="dns-prefetch" href="https://firestore.googleapis.com" />
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
-        <link rel="preconnect" href="https://analytics.tiktok.com" crossOrigin="" />
-        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
         <link rel="dns-prefetch" href="https://www.statcounter.com" />
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />

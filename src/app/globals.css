@@ -67,6 +67,20 @@ html {
   }
 }
 
+/* content-visibility: auto — skip rendering of off-screen sections
+   This is the single biggest rendering performance win.
+   Apply .cv-auto to below-the-fold sections (footer, related products, etc.) */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+.cv-auto-sm {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 200px;
+}
+
+
 /* Hide scrollbar for horizontal scroll */
 .scrollbar-hide {
   -ms-overflow-style: none;

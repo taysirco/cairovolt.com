@@ -20,7 +20,7 @@ export default function Footer() {
     };
 
     return (
-        <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-10 md:pt-16 pb-8" dir={isRTL ? 'rtl' : 'ltr'}>
+        <footer className="cv-auto bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 pt-10 md:pt-16 pb-8" dir={isRTL ? 'rtl' : 'ltr'}>
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-10 mb-8 md:mb-12">
                     {/* About Section */}

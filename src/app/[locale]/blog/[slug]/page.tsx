@@ -9,7 +9,8 @@ import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
 import { getEntitiesForArticle, entitiesToJsonLd } from '@/data/brand-entities';
-import BlogInteractiveWidgets from '@/components/interactive/BlogInteractiveWidgets';
+import dynamic from 'next/dynamic';
+const BlogInteractiveWidgets = dynamic(() => import('@/components/interactive/BlogInteractiveWidgets'));
 
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import SocialShareButtons from '@/components/content/SocialShareButtons';
