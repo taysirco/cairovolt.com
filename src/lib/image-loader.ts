@@ -27,12 +27,6 @@ export default function imageLoader({ src, width, quality }: ImageLoaderParams):
         return src;
     }
 
-    // Thumbnail images (-thumb.webp) are already pre-optimized at 128px
-    // No need to route through the optimizer
-    if (src.includes('-thumb.webp')) {
-        return src;
-    }
-
     // Route local images through our custom optimizer
     const q = quality || 75;
     return `/api/img?url=${encodeURIComponent(src)}&w=${width}&q=${q}`;

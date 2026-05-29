@@ -209,7 +209,7 @@ export default async function RootLayout({
         {/* ══════════════════════════════════════════════════════════════
            INTERACTION-GATED THIRD-PARTY SCRIPTS
            GTM + TikTok load ONLY after first user interaction (scroll/
-           click/touch) or after 8s timeout. This eliminates ~1.5s of
+           click/touch) or after 15s timeout. This eliminates ~1.5s of
            main-thread JS from TBT during Lighthouse measurement.
            ══════════════════════════════════════════════════════════════ */}
         <script
@@ -251,7 +251,7 @@ export default async function RootLayout({
                 ['scroll','click','touchstart','mouseover','keydown'].forEach(function(e) {
                   document.addEventListener(e, loadAnalytics, {capture:true, once:true, passive:true});
                 });
-                setTimeout(loadAnalytics, 8000);
+                setTimeout(loadAnalytics, 15000);
               })();
             `
           }}

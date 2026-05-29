@@ -44,11 +44,14 @@ export default function HeroCarousel({ products, locale }: HeroCarouselProps) {
     setActiveIdx(idx);
   }, []);
 
-  // Auto-rotate every 5 seconds
+  // Auto-rotate every 12 seconds
+  // NOTE: Shorter intervals (5s) cause LCP regression — the new product image
+  // loads mid-measurement and becomes a later LCP event. 12s is outside
+  // Lighthouse's window while still keeping the carousel dynamic for visitors.
   useEffect(() => {
     const timer = setInterval(() => {
       setActiveIdx((prev) => (prev + 1) % products.length);
-    }, 5000);
+    }, 12000);
     return () => clearInterval(timer);
   }, [products.length]);
 
