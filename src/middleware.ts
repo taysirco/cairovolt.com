@@ -27,10 +27,11 @@ export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     const userAgent = request.headers.get('user-agent') || '';
 
-    // Skip static files and Firebase internals
+    // Skip static files, Firebase internals, and image optimizer
     if (
         pathname.startsWith('/_next') ||
         pathname.startsWith('/__firebase') ||
+        pathname.startsWith('/api/img') ||
         /\.[a-zA-Z][a-zA-Z0-9]{1,5}$/.test(pathname)
     ) {
         return NextResponse.next();

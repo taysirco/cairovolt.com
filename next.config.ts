@@ -10,6 +10,9 @@ const nextConfig = {
     reactCompiler: true,
     serverExternalPackages: ['firebase-admin', '@google-cloud/secret-manager'],
     images: {
+        // Custom loader bypasses broken /_next/image on Firebase App Hosting
+        // (FAH adapter nextjs-14.0.21 doesn't support Next.js 16 image pipeline)
+        loaderFile: './src/lib/image-loader.ts',
         formats: ['image/avif', 'image/webp'] as any,
         minimumCacheTTL: 31536000,
         // Optimized breakpoints — match actual device widths to avoid oversized images
