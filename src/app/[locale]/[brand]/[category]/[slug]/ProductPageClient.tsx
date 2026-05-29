@@ -448,7 +448,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 className="flex flex-nowrap gap-2 sm:gap-3 overflow-x-auto pb-2 scrollbar-hide snap-x snap-mandatory -mx-1 px-1"
                                 style={{ WebkitOverflowScrolling: 'touch', touchAction: 'pan-x' }}
                             >
-                                {images.map((img, idx) => (
+                                {images.map((img, idx) => {
+                                    // Use pre-generated 128px thumbnail for gallery strips
+                                    // (Firebase App Hosting lacks /_next/image optimizer)
+                                    const thumbUrl = img.url.replace(/\.webp$/, '-thumb.webp');
+                                    return (
                                     <button
                                         key={idx}
                                         aria-label={`View image ${idx + 1}`}
@@ -462,7 +466,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                             }`}
                                     >
                                         <ProductImage
-                                            src={img.url}
+                                            src={thumbUrl}
                                             alt={img.alt || productName}
                                             slug={product.slug}
                                             brand={product.brand}
@@ -475,7 +479,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                             lightweight
                                         />
                                     </button>
-                                ))}
+                                    );
+                                })}
                             </div>
                         )}
 
