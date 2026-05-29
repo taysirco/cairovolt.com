@@ -53,10 +53,12 @@ export default function HeroCarousel({ products, locale }: HeroCarouselProps) {
   }, [products.length]);
 
   // Hide the SSR placeholder once this client component mounts
+  // Use visibility:hidden (not display:none) to preserve layout dimensions and prevent CLS
   useEffect(() => {
     const ssrPlaceholder = document.querySelector('[data-hero-ssr]');
     if (ssrPlaceholder) {
-      (ssrPlaceholder as HTMLElement).style.display = 'none';
+      (ssrPlaceholder as HTMLElement).style.visibility = 'hidden';
+      (ssrPlaceholder as HTMLElement).setAttribute('aria-hidden', 'true');
     }
     const clientEl = document.querySelector('[data-hero-client]');
     if (clientEl) {
@@ -66,8 +68,8 @@ export default function HeroCarousel({ products, locale }: HeroCarouselProps) {
 
   return (
     <>
-      {/* Client-rendered hero content — hidden until hydration */}
-      <div data-hero-client style={{ display: 'none' }}>
+      {/* Client-rendered hero content — hidden until hydration, absolutely positioned to avoid CLS */}
+      <div data-hero-client style={{ display: 'none' }} className="relative">
         <div
           className={`flex flex-col ${isAr ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-16`}
         >

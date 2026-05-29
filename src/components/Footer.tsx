@@ -174,12 +174,12 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li className="ps-4 text-xs">
-                                <Link href={getLocalizedHref('/soundcore/audio')} className="hover:text-orange-600 transition-colors text-gray-500">
+                                <Link href={getLocalizedHref('/soundcore/audio')} className="hover:text-orange-600 transition-colors text-gray-600 dark:text-gray-400">
                                     {isRTL ? '— ايربودز ساوند كور' : '— Soundcore Earbuds'}
                                 </Link>
                             </li>
                             <li className="ps-4 text-xs">
-                                <Link href={getLocalizedHref('/soundcore/speakers')} className="hover:text-orange-600 transition-colors text-gray-500">
+                                <Link href={getLocalizedHref('/soundcore/speakers')} className="hover:text-orange-600 transition-colors text-gray-600 dark:text-gray-400">
                                     {isRTL ? '— سبيكرات ساوند كور' : '— Soundcore Speakers'}
                                 </Link>
                             </li>
