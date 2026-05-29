@@ -526,36 +526,69 @@ export default async function BlogArticlePage({ params }: Props) {
                             <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                                 {isArabic ? <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> المنتجات المذكورة في المقال</> : <><SvgIcon name="cart" className="w-6 h-6 inline-block" /> Products Mentioned in This Article</>}
                             </h2>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
                                 {article.relatedProducts.map((slug: string) => {
                                     const prod = getProductBySlug(slug);
                                     if (!prod) return null;
                                     const pTrans = prod.translations[isArabic ? 'ar' : 'en'];
                                     const isAnkerBrand = prod.brand.toLowerCase() === 'anker';
+                                    const primaryImage = prod.images?.find(img => img.isPrimary) || prod.images?.[0];
                                     return (
                                         <Link
                                             key={slug}
                                             href={getLocalizedHref(`/${prod.brand.toLowerCase()}/${prod.categorySlug.toLowerCase()}/${slug}`)}
-                                            className={`group p-4 rounded-xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-lg transition-all ${isAnkerBrand ? 'hover:border-blue-200' : 'hover:border-red-200'}`}
+                                            className={`group rounded-2xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-1 ${isAnkerBrand ? 'hover:border-blue-300 hover:shadow-blue-100/50 dark:hover:shadow-blue-900/30' : 'hover:border-red-300 hover:shadow-red-100/50 dark:hover:shadow-red-900/30'}`}
                                         >
-                                            <div className={`text-xs font-bold mb-1 ${isAnkerBrand ? 'text-blue-600' : 'text-red-600'}`}>{prod.brand}</div>
-                                            <h3 className="font-bold text-sm text-gray-900 dark:text-white mb-2 line-clamp-2">{pTrans.name}</h3>
-                                            <div className="flex items-center justify-between">
-                                                <span className="text-lg font-bold text-green-600">
-                                                    {prod.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
-                                                </span>
-                                                <span className={`text-xs px-2 py-1 rounded-full ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-100' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-100'} transition-colors`}>
-                                                    {isArabic ? 'تسوق' : 'Shop'} →
-                                                </span>
-                                            </div>
-                                            {prod.originalPrice && prod.originalPrice > prod.price && (
-                                                <div className="mt-1">
-                                                    <span className="text-xs text-gray-400 line-through">{prod.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}</span>
-                                                    <span className="text-xs text-red-500 font-bold ml-2 rtl:mr-2 rtl:ml-0">
-                                                        -{Math.round((1 - prod.price / prod.originalPrice) * 100)}%
+                                            {/* Product Image */}
+                                            <div className="relative aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
+                                                {primaryImage ? (
+                                                    <Image
+                                                        src={primaryImage.url}
+                                                        alt={pTrans.name}
+                                                        fill
+                                                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                                                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                                        loading="lazy"
+                                                    />
+                                                ) : (
+                                                    <div className="absolute inset-0 flex items-center justify-center text-gray-300 dark:text-gray-600">
+                                                        <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                                                    </div>
+                                                )}
+                                                {/* Brand badge */}
+                                                <div className="absolute top-2.5 start-2.5">
+                                                    <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-md shadow-sm ${isAnkerBrand ? 'bg-blue-600/90 text-white' : 'bg-red-600/90 text-white'}`}>
+                                                        {prod.brand}
                                                     </span>
                                                 </div>
-                                            )}
+                                                {/* Discount badge */}
+                                                {prod.originalPrice && prod.originalPrice > prod.price && (
+                                                    <div className="absolute top-2.5 end-2.5">
+                                                        <span className="text-[10px] font-bold px-2 py-1 rounded-full bg-red-500 text-white shadow-sm">
+                                                            -{Math.round((1 - prod.price / prod.originalPrice) * 100)}%
+                                                        </span>
+                                                    </div>
+                                                )}
+                                            </div>
+                                            {/* Product Info */}
+                                            <div className="p-4">
+                                                <h3 className="font-bold text-sm text-gray-900 dark:text-white mb-3 line-clamp-2 leading-snug">{pTrans.name}</h3>
+                                                <div className="flex items-center justify-between">
+                                                    <div>
+                                                        <span className="text-lg font-bold text-green-600">
+                                                            {prod.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                                        </span>
+                                                        {prod.originalPrice && prod.originalPrice > prod.price && (
+                                                            <span className="text-xs text-gray-400 line-through block">
+                                                                {prod.originalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                                            </span>
+                                                        )}
+                                                    </div>
+                                                    <span className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-colors duration-300 ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-600 group-hover:text-white' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-600 group-hover:text-white'}`}>
+                                                        {isArabic ? 'تسوق' : 'Shop'} →
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </Link>
                                     );
                                 })}
@@ -569,7 +602,7 @@ export default async function BlogArticlePage({ params }: Props) {
                             <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-white">
                                 {isArabic ? 'مقالات ذات صلة' : 'Related Articles'}
                             </h2>
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                                 {relatedArticles.map((related) => {
                                     const rTrans = related.translations[isArabic ? 'ar' : 'en'];
                                     const rCat = categoryLabels[related.category];
@@ -577,14 +610,42 @@ export default async function BlogArticlePage({ params }: Props) {
                                         <Link
                                             key={related.slug}
                                             href={getLocalizedHref(`/blog/${related.slug}`)}
-                                            className="p-5 bg-gray-50 dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700 hover:shadow-md transition-all hover:-translate-y-0.5"
+                                            className="group rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                                         >
-                                            <span className="text-xs font-medium text-blue-600 dark:text-blue-400">
-                                                <SvgIcon name={rCat.icon} className="w-4 h-4" /> {isArabic ? rCat.ar : rCat.en}
-                                            </span>
-                                            <h3 className="font-bold text-sm mt-2 text-gray-900 dark:text-white line-clamp-2">
-                                                {rTrans.title}
-                                            </h3>
+                                            {/* Cover Image */}
+                                            <div className="relative aspect-[16/9] bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 overflow-hidden">
+                                                {related.coverImage ? (
+                                                    <Image
+                                                        src={related.coverImage}
+                                                        alt={rTrans.title}
+                                                        fill
+                                                        sizes="(max-width: 768px) 100vw, 33vw"
+                                                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                                        loading="lazy"
+                                                    />
+                                                ) : (
+                                                    <div className="absolute inset-0 flex items-center justify-center">
+                                                        <SvgIcon name={rCat.icon} className="w-12 h-12 text-gray-300 dark:text-gray-600" />
+                                                    </div>
+                                                )}
+                                                {/* Dark gradient overlay for legibility */}
+                                                <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+                                                {/* Category badge */}
+                                                <div className="absolute bottom-3 start-3">
+                                                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-bold bg-white/90 dark:bg-gray-900/80 backdrop-blur-md text-blue-700 dark:text-blue-300 shadow-sm">
+                                                        <SvgIcon name={rCat.icon} className="w-3 h-3" /> {isArabic ? rCat.ar : rCat.en}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            {/* Article Info */}
+                                            <div className="p-4">
+                                                <h3 className="font-bold text-sm text-gray-900 dark:text-white line-clamp-2 leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                                                    {rTrans.title}
+                                                </h3>
+                                                <span className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-blue-600 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                    {isArabic ? 'اقرأ المزيد' : 'Read more'} →
+                                                </span>
+                                            </div>
                                         </Link>
                                     );
                                 })}
