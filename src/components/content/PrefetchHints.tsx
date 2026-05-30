@@ -54,7 +54,10 @@ export default function PrefetchHints() {
         ],
         prefetch: [
             {
-                // All internal links — prefetch eagerly (lightweight RSC payloads)
+                // All internal links — prefetch on intent (hover/pointerdown), NOT on load.
+                // "eager" used to prefetch every link the moment the page rendered, which
+                // on slow connections saturated bandwidth for ~4.5s and wrecked LCP/TBT.
+                // "moderate" fires on hover/pointerdown — same instant feel, zero load cost.
                 source: "document",
                 where: {
                     and: [
@@ -64,7 +67,7 @@ export default function PrefetchHints() {
                         { not: { href_matches: "/*/confirm*" } }
                     ]
                 },
-                eagerness: "eager"
+                eagerness: "moderate"
             }
         ]
     };

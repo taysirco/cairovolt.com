@@ -78,6 +78,13 @@ export function InstantLink({ onPointerEnter, onTouchStart, onFocus, href, ...re
     return (
         <Link
             href={href}
+            // Disable Next's automatic on-viewport prefetch. With dozens of nav
+            // links this fired a prefetch storm at page load (saturating the
+            // connection and inflating LCP/TBT). We prefetch on INTENT instead —
+            // hover (80ms), touchstart, and focus below — which keeps navigation
+            // instant without wasting bandwidth on links the user never clicks.
+            // A caller can still re-enable via an explicit prefetch prop (…rest).
+            prefetch={false}
             onPointerEnter={handlePointerEnter}
             onTouchStart={handleTouchStart}
             onFocus={handleFocus}

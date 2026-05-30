@@ -296,8 +296,11 @@ export default function InteractiveEffects() {
                 }
                 .cv-promo-btn {
                     display: inline-block;
-                    background: #25d366;
-                    color: white;
+                    /* Deepened from #25d366 → #15803d: white-on-#25d366 was 1.98:1
+                       (failed WCAG AA). #15803d gives ~5:1 with white — passes AA
+                       while staying recognizably WhatsApp green. */
+                    background: #15803d;
+                    color: #ffffff;
                     padding: 12px 24px;
                     border-radius: 10px;
                     text-decoration: none;
@@ -308,8 +311,8 @@ export default function InteractiveEffects() {
                     touch-action: manipulation;
                     min-height: 44px;
                 }
-                .cv-promo-btn:hover { background: #1ebb57; }
-                .cv-promo-btn:active { background: #19a84d; }
+                .cv-promo-btn:hover { background: #166534; }
+                .cv-promo-btn:active { background: #14532d; }
 
                 /* Optimistic cart press */
                 .cv-pressing {

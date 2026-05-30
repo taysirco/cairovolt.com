@@ -11,22 +11,22 @@ import dynamic from 'next/dynamic';
  *
  * Components deferred:
  * - InteractiveEffects: Ripple effects, scroll tracking, promo overlay, idle detection
- * - ViewportPrefetch: IntersectionObserver-based link prefetcher
- * - RouteIntelligence: Predictive prefetch
  * - UXMetricsEngine: Engagement tracking
+ *
+ * NOTE: ViewportPrefetch and RouteIntelligence were removed — stacked on Next's
+ * default Link prefetch + the speculation-rules block, they prefetched dozens of
+ * routes on page load, saturating the connection for ~4.5s and tanking simulated
+ * LCP/TBT. Navigation stays instant via InstantLink (hover/touch prefetch) +
+ * speculation-rules prerender (moderate) — both intent-based, zero load cost.
  */
 
 const InteractiveEffects = dynamic(() => import('@/components/UX/InteractiveEffects'), { ssr: false });
-const ViewportPrefetch = dynamic(() => import('@/components/UX/ViewportPrefetch'), { ssr: false });
-const RouteIntelligence = dynamic(() => import('@/components/UX/RouteIntelligence'), { ssr: false });
 const UXMetricsEngine = dynamic(() => import('@/components/UX/UXMetricsEngine'), { ssr: false });
 
 export default function LazyUXComponents() {
     return (
         <>
             <InteractiveEffects />
-            <ViewportPrefetch />
-            <RouteIntelligence />
             <UXMetricsEngine />
         </>
     );
