@@ -76,6 +76,9 @@ interface ProductImageProps {
     fill?: boolean;
     /** Sizes attribute for responsive images */
     sizes?: string;
+    /** Responsive srcSet — forwarded to the underlying <img> when unoptimized is true.
+     *  Example: "image-480.webp 480w, image-800.webp 800w" */
+    srcSet?: string;
     /** Loading strategy */
     loading?: 'eager' | 'lazy';
     /** Next.js Image priority flag */
@@ -127,6 +130,7 @@ export function ProductImage({
     height = 800,
     fill = false,
     sizes,
+    srcSet,
     loading,
     priority = false,
     unoptimized = false,
@@ -144,9 +148,12 @@ export function ProductImage({
     const lab = getLabForCategory(category);
 
     // Build image props — fill mode vs explicit dimensions
+    // When srcSet is provided (responsive hero), pass it through to the underlying <img>.
+    // next/image with unoptimized forwards extra HTML attributes to the rendered element.
+    const srcSetProps = srcSet ? { srcSet } : {};
     const imageProps = fill
-        ? { src, alt, fill: true as const, sizes, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
-        : { src, alt, width, height, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
+        ? { src, alt, fill: true as const, sizes, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain', ...srcSetProps }
+        : { src, alt, width, height, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain', ...srcSetProps };
 
     // When fill=true, the figure must fill the parent and be position:relative for next/image fill.
     // Uses inline style to guarantee correct layout — immune to Turbopack class caching issues.

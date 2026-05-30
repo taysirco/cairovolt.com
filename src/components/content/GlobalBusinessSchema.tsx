@@ -91,7 +91,6 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
             id="global-business-schema"
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(globalPayload) }}
-            strategy="beforeInteractive"
         />
     );
 }

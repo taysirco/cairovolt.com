@@ -325,25 +325,29 @@ export default async function ProductPage({ params }: Props) {
         worstRating: Number(staticAggregateRating.worstRating),
     } : null);
 
-    // LCP Preload: point at the pre-generated 800px static variant — the exact
-    // file the hero <Image unoptimized> paints. (Previously preloaded
-    // /api/img?w=1080 (AVIF) which never matched the rendered raw webp, so the
-    // browser downloaded BOTH — a wasted critical-path fetch.) One static webp
-    // now serves the preload + the <img>, deduped to a single request.
+    // LCP Preload: responsive preload that matches the hero <img srcset>.
+    // On mobile (≤640px) the browser preloads the lighter 480px variant (~10 KB);
+    // on desktop it preloads the 800px variant (~21 KB). imageSrcset/imageSizes
+    // on <link rel="preload"> deduplicates with the matching <img srcset>,
+    // collapsing preload + paint into a single network request.
     const primaryImageUrl = product.images?.[0]?.url;
-    const preloadImageHref = primaryImageUrl
+    const preloadImage800 = primaryImageUrl
         ? primaryImageUrl.replace(/\.webp$/, '-800.webp')
+        : null;
+    const preloadImage480 = primaryImageUrl
+        ? primaryImageUrl.replace(/\.webp$/, '-480.webp')
         : null;
 
     return (
         <>
-            {/* LCP Image Preload — w=1080 matches Moto G Power srcset selection */}
-            {preloadImageHref && (
+            {/* LCP Image Preload — responsive srcset matches hero <img> */}
+            {preloadImage800 && preloadImage480 && (
                 <link
                     rel="preload"
                     as="image"
                     type="image/webp"
-                    href={preloadImageHref}
+                    imageSrcSet={`${preloadImage480} 480w, ${preloadImage800} 800w`}
+                    imageSizes="(max-width: 640px) 480px, 800px"
                     fetchPriority="high"
                 />
             )}

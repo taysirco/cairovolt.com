@@ -33,8 +33,8 @@ const BundleSelector = dynamic(() => import('@/components/products/BundleSelecto
     ssr: false
 });
 
-const ProductComparisonTable = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductComparisonTable));
-const ExpertOpinion = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ExpertOpinion));
+const ProductComparisonTable = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductComparisonTable), { ssr: false });
+const ExpertOpinion = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ExpertOpinion), { ssr: false });
 const ProductFAQ = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductFAQ));
 
 const BackupTimeCalculator = dynamic(() => import('@/components/UX/BackupTimeCalculator'), {
@@ -303,12 +303,14 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
     const images = product.images || [];
     const primaryImage = images[selectedImage]?.url || '';
-    // LCP hero: serve the pre-generated 800px static variant directly (FAH's
+    // LCP hero: serve the pre-generated static variants directly (FAH's
     // adapter can't drive Next 16's optimizer, so <Image> otherwise paints the
     // raw 1080px master AND a hardcoded /api/img preload fetches a 2nd, unused
-    // AVIF copy). `unoptimized` + `-800.webp` collapses that to one right-sized
-    // request. Every gallery image has a `-800.webp` sibling, so swipes are safe.
-    const heroImageSrc = primaryImage.replace(/\.webp$/, '-800.webp');
+    // AVIF copy). `unoptimized` + srcSet collapses that to one right-sized
+    // request. Every gallery image has -800 and -480 siblings, so swipes are safe.
+    const heroImage800 = primaryImage.replace(/\.webp$/, '-800.webp');
+    const heroImage480 = primaryImage.replace(/\.webp$/, '-480.webp');
+    const heroSrcSet = `${heroImage480} 480w, ${heroImage800} 800w`;
     const discount = activeOriginalPrice
         ? Math.round((1 - activePrice / activeOriginalPrice) * 100)
         : 0;
@@ -441,7 +443,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <div className="w-full h-full relative">
                                 {primaryImage ? (
                                     <ProductImage
-                                        src={heroImageSrc}
+                                        src={heroImage800}
+                                        srcSet={heroSrcSet}
                                         alt={productName}
                                         slug={product.slug}
                                         brand={product.brand}
@@ -450,7 +453,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         fill
                                         priority
                                         unoptimized
-                                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
+                                        sizes="(max-width: 640px) 480px, 800px"
                                         imageClassName="object-cover transition-transform hover:scale-105"
                                         isPrimary
                                         locale={locale}
@@ -797,7 +800,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                     )}
 
                     {/* 4. Enhanced Structured Data Sections — Expert Opinion + FAQs + Comparison */}
-                    <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
+                    <div className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800 cv-auto">
                         {/* Expert Opinion */}
                         <ExpertOpinion
                             productName={productName}
@@ -870,7 +873,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                     {/* Description Section - Progressive Disclosure Pattern */}
                     {productDesc && (
-                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800" aria-label={isRTL ? 'وصف المنتج' : 'Product Description'}>
+                        <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800 cv-auto" aria-label={isRTL ? 'وصف المنتج' : 'Product Description'}>
                             <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
                                 <SvgIcon name="clipboard" className="w-6 h-6" />
                                 {tProduct('details')}
@@ -958,11 +961,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {/* "Why Choose" section removed — shortDescription already shown above + keyword pills = potential stuffing */}
 
             {/* Verified Customer Reviews Section */}
-            <div className="container mx-auto px-4 py-8">
+            <div className="container mx-auto px-4 py-8 cv-auto">
                 <VerifiedReviews productSlug={product.slug} locale={locale} />
             </div>
             {/* Related Products Section */}
-            <div className="container mx-auto px-4 pb-8">
+            <div className="container mx-auto px-4 pb-8 cv-auto">
                 <RelatedProducts products={relatedProducts} locale={locale} />
 
                 {/* Related Categories */}
