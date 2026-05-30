@@ -251,11 +251,14 @@ export default function HeroCarousel({ products, locale }: HeroCarouselProps) {
           >
             <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-lg overflow-hidden flex-shrink-0">
               <Image
-                src={product.image}
+                // 40px selector pill → ship the pre-generated 128px `-pill` variant
+                // instead of the 1080px hero master. `unoptimized` serves this exact
+                // file (FAH ignores the image loader anyway). ~25KB → ~2KB per pill.
+                src={product.image.replace(/\.webp$/, '-pill.webp')}
                 alt={isAr ? product.name.ar : product.name.en}
                 fill
+                unoptimized
                 className="object-cover"
-                sizes="40px"
               />
             </div>
             <span className={`text-xs sm:text-sm font-medium hidden sm:block ${

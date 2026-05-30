@@ -174,9 +174,14 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                 {/* Image — 1:1 aspect ratio, object-cover to fill frame */}
                 <Link href={`${locale === 'ar' ? '' : '/en'}${product.href}`} className="block relative aspect-square overflow-hidden rounded-t-2xl">
                   <Image
-                    src={product.image}
+                    // 180px-displayed card → ship the pre-generated 480px variant
+                    // (Firebase App Hosting ignores the image loader, so <Image>
+                    // serves the raw src; `unoptimized` serves this exact file —
+                    // no loader-driven upscale on environments where it does run).
+                    src={product.image.replace('-thumb.webp', '-480.webp')}
                     alt={isAr ? product.name.ar : product.name.en}
                     fill
+                    unoptimized
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                     loading="lazy"
