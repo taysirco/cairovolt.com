@@ -80,6 +80,8 @@ interface ProductImageProps {
     loading?: 'eager' | 'lazy';
     /** Next.js Image priority flag */
     priority?: boolean;
+    /** Serve the exact src file (bypass loader/optimizer) — for pre-sized statics */
+    unoptimized?: boolean;
     /** Whether this is the primary/hero image */
     isPrimary?: boolean;
     /** Locale for bilingual text */
@@ -127,6 +129,7 @@ export function ProductImage({
     sizes,
     loading,
     priority = false,
+    unoptimized = false,
     isPrimary = false,
     locale = 'ar',
     lightweight = false,
@@ -142,8 +145,8 @@ export function ProductImage({
 
     // Build image props — fill mode vs explicit dimensions
     const imageProps = fill
-        ? { src, alt, fill: true as const, sizes, loading, priority, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
-        : { src, alt, width, height, loading, priority, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
+        ? { src, alt, fill: true as const, sizes, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' }
+        : { src, alt, width, height, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain' };
 
     // When fill=true, the figure must fill the parent and be position:relative for next/image fill.
     // Uses inline style to guarantee correct layout — immune to Turbopack class caching issues.

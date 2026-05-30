@@ -325,13 +325,14 @@ export default async function ProductPage({ params }: Props) {
         worstRating: Number(staticAggregateRating.worstRating),
     } : null);
 
-    // LCP Preload: href with w=1080 to match what the Image srcset selects
-    // on Moto G Power (412px × 2.625 DPR = 1081, closest deviceSize = 1080).
-    // Note: imageSrcSet/imageSizes props are silently dropped by Next.js
-    // App Router SSR, so we use a simple href preload instead.
+    // LCP Preload: point at the pre-generated 800px static variant — the exact
+    // file the hero <Image unoptimized> paints. (Previously preloaded
+    // /api/img?w=1080 (AVIF) which never matched the rendered raw webp, so the
+    // browser downloaded BOTH — a wasted critical-path fetch.) One static webp
+    // now serves the preload + the <img>, deduped to a single request.
     const primaryImageUrl = product.images?.[0]?.url;
     const preloadImageHref = primaryImageUrl
-        ? `/api/img?url=${encodeURIComponent(primaryImageUrl)}&w=1080&q=75`
+        ? primaryImageUrl.replace(/\.webp$/, '-800.webp')
         : null;
 
     return (

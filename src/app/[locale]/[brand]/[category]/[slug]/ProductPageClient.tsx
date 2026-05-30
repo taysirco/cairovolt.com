@@ -292,6 +292,12 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
     const images = product.images || [];
     const primaryImage = images[selectedImage]?.url || '';
+    // LCP hero: serve the pre-generated 800px static variant directly (FAH's
+    // adapter can't drive Next 16's optimizer, so <Image> otherwise paints the
+    // raw 1080px master AND a hardcoded /api/img preload fetches a 2nd, unused
+    // AVIF copy). `unoptimized` + `-800.webp` collapses that to one right-sized
+    // request. Every gallery image has a `-800.webp` sibling, so swipes are safe.
+    const heroImageSrc = primaryImage.replace(/\.webp$/, '-800.webp');
     const discount = activeOriginalPrice
         ? Math.round((1 - activePrice / activeOriginalPrice) * 100)
         : 0;
@@ -424,7 +430,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <div className="w-full h-full relative">
                                 {primaryImage ? (
                                     <ProductImage
-                                        src={primaryImage}
+                                        src={heroImageSrc}
                                         alt={productName}
                                         slug={product.slug}
                                         brand={product.brand}
@@ -432,6 +438,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         c2paHash={product.contentCredentials?.signature ? String(product.contentCredentials.signature).slice(0, 32) : undefined}
                                         fill
                                         priority
+                                        unoptimized
                                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
                                         imageClassName="object-cover transition-transform hover:scale-105"
                                         isPrimary

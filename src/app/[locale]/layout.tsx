@@ -318,7 +318,7 @@ export default async function RootLayout({
                     }
                   });
                 } catch(e) {}
-              })();
+              });
             `
           }}
         />
