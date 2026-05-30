@@ -256,6 +256,17 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const productFeatures = currentTranslation?.features || [];
     const productDetail = getProductDetail(product.slug);
 
+    // Parse battery capacity from product detail specs for the BackupTimeCalculator.
+    // Handles formats like "24,000mAh (86.4Wh)", "10,000mAh", or "256Wh".
+    const parsedCapacity = (() => {
+        const capStr = productDetail?.specifications?.['Capacity']?.en ?? '';
+        const mahMatch = capStr.replace(/,/g, '').match(/(\d+(?:\.\d+)?)\s*mAh/i);
+        const whMatch = capStr.replace(/,/g, '').match(/(\d+(?:\.\d+)?)\s*Wh/i);
+        const mah = mahMatch ? parseFloat(mahMatch[1]) : 0;
+        const wh = whMatch ? parseFloat(whMatch[1]) : 0;
+        return mah > 0 ? { mah, wh: wh || undefined } : null;
+    })();
+
     const handleAddToCart = () => {
         // flushSync forces React to paint the green feedback BEFORE startTransition batches the cart update
         flushSync(() => {
@@ -796,10 +807,15 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             customOpinion={product.expertOpinion?.[locale as 'ar' | 'en']}
                         />
 
-                        {/* BackupTimeCalculator — only for power bank products */}
-                        {category === 'power-banks' && (
+                        {/* BackupTimeCalculator — only for power bank products with parseable capacity */}
+                        {category === 'power-banks' && parsedCapacity && (
                             <div className="border-t border-gray-100 dark:border-gray-800 my-6 pt-6">
-                                <BackupTimeCalculator locale={locale} />
+                                <BackupTimeCalculator
+                                    locale={locale}
+                                    productName={productName}
+                                    batteryCapacityMah={parsedCapacity.mah}
+                                    batteryWh={parsedCapacity.wh}
+                                />
                             </div>
                         )}
 
