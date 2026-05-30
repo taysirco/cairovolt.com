@@ -70,10 +70,11 @@ export default function BackupTimeCalculator({ locale }: BackupTimeCalculatorPro
 
             <div className="space-y-4">
                 <div>
-                    <label className="block text-sm mb-1">
+                    <label htmlFor="bt-device" className="block text-sm mb-1">
                         {isArabic ? 'الجهاز المراد تشغيله:' : 'Device to power:'}
                     </label>
                     <select
+                        id="bt-device"
                         className="w-full bg-gray-50 dark:bg-slate-800 border border-gray-300 dark:border-slate-600 rounded p-2 text-gray-900 dark:text-white"
                         value={device}
                         onChange={(e) => setDevice(e.target.value)}
@@ -87,16 +88,18 @@ export default function BackupTimeCalculator({ locale }: BackupTimeCalculatorPro
                 </div>
 
                 <div>
-                    <label className="block text-sm mb-1">
+                    <label htmlFor="bt-hours" className="block text-sm mb-1">
                         {isArabic ? 'مدة انقطاع الكهرباء المتوقعة (ساعات):' : 'Expected power outage duration (hours):'}
                     </label>
                     <input
+                        id="bt-hours"
                         type="range"
                         min="1"
                         max="15"
                         value={hours}
                         onChange={(e) => setHours(parseInt(e.target.value))}
                         className="w-full accent-blue-500"
+                        aria-valuetext={`${hours} ${isArabic ? 'ساعات' : 'hours'}`}
                     />
                     <div className="text-center font-bold text-lg text-blue-600 dark:text-blue-300">
                         {hours} {isArabic ? 'ساعات' : 'hours'}
@@ -104,7 +107,7 @@ export default function BackupTimeCalculator({ locale }: BackupTimeCalculatorPro
                 </div>
 
                 <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-500/50 rounded-lg text-center">
-                    <p className={`font-bold ${result.ok ? 'text-green-400' : 'text-yellow-400'}`}>
+                    <p className={`font-bold ${result.ok ? 'text-green-700 dark:text-green-400' : 'text-yellow-800 dark:text-yellow-400'}`}>
                         {result.text}
                     </p>
                 </div>
