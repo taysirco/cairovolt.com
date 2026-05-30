@@ -14,7 +14,7 @@ const BlogInteractiveWidgets = dynamic(() => import('@/components/interactive/Bl
 
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import SocialShareButtons from '@/components/content/SocialShareButtons';
-import { RecommendedReviews } from '@/components/content/RecommendedReviews';
+
 import { ExpertQuote } from '@/components/content/ExpertQuote';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
@@ -500,8 +500,7 @@ export default async function BlogArticlePage({ params }: Props) {
                         </div>
                     )}
 
-                    {/* Independent reviews we recommend — honest external citations, no fabricated quotes */}
-                    <RecommendedReviews locale={locale} />
+
 
                     {/* Social Share Buttons — Bottom (after reading the article) */}
                     <div className="my-10 p-6 bg-gray-50 dark:bg-gray-800/50 rounded-2xl border border-gray-100 dark:border-gray-700/50">
