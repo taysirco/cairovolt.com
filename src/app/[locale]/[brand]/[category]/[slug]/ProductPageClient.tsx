@@ -45,13 +45,12 @@ const VariantSelector = dynamic(() => import('@/components/products/VariantSelec
 });
 const RelatedLinks = dynamic(() => import('@/components/content/RelatedLinks'), { ssr: false });
 const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'), { ssr: false });
-import { getProductDetail } from '@/data/product-details';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 const ContentCredentialsBadge = dynamic(
     () => import('@/components/UX/ContentCredentialsBadge').then(mod => mod.ContentCredentialsBadge),
     { ssr: false }
 );
-import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 
 
 interface Product {
@@ -109,6 +108,11 @@ interface ProductPageClientProps {
     deliveryIntelligence: RegionalStats;
     labMetrics: LabMetrics | null;
     userGovernorate: string;
+    productDetail: {
+        aiTldr?: { en: string[]; ar: string[] };
+        localContext?: { en: string; ar: string };
+        specifications?: Record<string, { en: string; ar: string }>;
+    } | null;
 }
 
 // Category mapping for breadcrumb
@@ -121,7 +125,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate, productDetail }: ProductPageClientProps) {
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
@@ -254,7 +258,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const productDesc = currentTranslation?.description || '';
     const productShortDesc = currentTranslation?.shortDescription || '';
     const productFeatures = currentTranslation?.features || [];
-    const productDetail = getProductDetail(product.slug);
+
 
     // Parse battery capacity from product detail specs for the BackupTimeCalculator.
     // Handles formats like "24,000mAh (86.4Wh)", "10,000mAh", or "256Wh".

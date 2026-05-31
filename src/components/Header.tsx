@@ -114,7 +114,7 @@ export default function Header() {
                                     alt="CairoVolt"
                                     width={160}
                                     height={89}
-                                    priority
+                                    loading="eager"
                                     sizes="(max-width: 768px) 120px, 160px"
                                     className="object-contain h-[50px] md:h-[58px] w-auto dark:[filter:brightness(0)_invert(1)]"
                                 />

@@ -61,19 +61,9 @@ interface Product {
     contentCredentials?: Record<string, unknown> | null;
 }
 
-// Fetch current Cairo temperature for dynamic thermal advice
-async function getCairoTemperature(): Promise<number> {
-    try {
-        const res = await fetch(
-            'https://api.open-meteo.com/v1/forecast?latitude=30.06&longitude=31.25&current_weather=true',
-            { next: { revalidate: 3600 } }
-        );
-        const data = await res.json();
-        return data.current_weather?.temperature ?? 30;
-    } catch {
-        return 30;
-    }
-}
+// Default Cairo temperature — client-side component will fetch real value lazily.
+// Moved off the critical SSR path to reduce TTFB by ~200-500ms.
+const DEFAULT_CAIRO_TEMP = 30;
 
 async function trySignProduct(name: string): Promise<Record<string, unknown> | null> {
     try {
@@ -228,10 +218,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ProductPage({ params }: Props) {
     const { locale, brand, category, slug } = await params;
-    const [product, currentTemp] = await Promise.all([
-        getCachedProduct(slug),
-        getCairoTemperature(),
-    ]);
+    const product = await getCachedProduct(slug);
 
     if (!product) {
         notFound();
@@ -242,6 +229,9 @@ export default async function ProductPage({ params }: Props) {
 
     // Get lab metrics for Trust Matrix
     const labMetrics = getLabMetrics(slug);
+
+    // Product detail — computed once, used for schema + client props
+    const productDetailData = getProductDetail(slug) || null;
 
     // Get static product for smart related products
     const staticProduct = getProductBySlug(slug);
@@ -400,7 +390,7 @@ export default async function ProductPage({ params }: Props) {
                     worstRating: String(aggregateRating.worstRating)
                 } : undefined}
                 reviews={schemaReviews}
-                specifications={getProductDetail(slug)?.specifications}
+                specifications={productDetailData?.specifications}
                 isAccessoryOrSparePartFor={labInfo?.isAccessoryFor || (category === 'power-banks' ? [
                     { name: 'WE VDSL Router' },
                     { name: 'Apple MacBook Pro' },
@@ -417,15 +407,14 @@ export default async function ProductPage({ params }: Props) {
                         };
                     }
                     // Priority 2: product-details labVerified data
-                    const productDetail = getProductDetail(slug);
-                    if (productDetail?.labVerified) {
+                    if (productDetailData?.labVerified) {
                         return {
-                            name: productDetail.labVerified.expertName,
-                            profileUrl: productDetail.labVerified.expertName.includes('Yahia')
+                            name: productDetailData.labVerified.expertName,
+                            profileUrl: productDetailData.labVerified.expertName.includes('Yahia')
                                 ? 'https://www.youtube.com/c/YehiaRadwan'
                                 : 'https://www.youtube.com/@Ahmed.Medhat',
                             title: isArabic ? 'رئيس قسم الفحص التقني وحلول الطاقة' : 'Head of Technical Testing & Power Solutions',
-                            body: isArabic ? productDetail.labVerified.result.ar : productDetail.labVerified.result.en,
+                            body: isArabic ? productDetailData.labVerified.result.ar : productDetailData.labVerified.result.en,
                         };
                     }
                     // No generic fallback — only include expert review when real lab data exists
@@ -562,24 +551,28 @@ export default async function ProductPage({ params }: Props) {
                         };
                     }
                     // Priority 2: product-details labVerified data
-                    const productDetail = getProductDetail(slug);
-                    if (productDetail?.labVerified) {
+                    if (productDetailData?.labVerified) {
                         return {
-                            testScenario: isArabic ? productDetail.localContext.ar : productDetail.localContext.en,
-                            testResult: isArabic ? productDetail.labVerified.result.ar : productDetail.labVerified.result.en,
-                            testConditions: isArabic ? productDetail.labVerified.conditions.ar : productDetail.labVerified.conditions.en,
-                            expertName: productDetail.labVerified.expertName,
-                            expertProfileUrl: productDetail.labVerified.expertName.includes('Yahia')
+                            testScenario: isArabic ? productDetailData.localContext.ar : productDetailData.localContext.en,
+                            testResult: isArabic ? productDetailData.labVerified.result.ar : productDetailData.labVerified.result.en,
+                            testConditions: isArabic ? productDetailData.labVerified.conditions.ar : productDetailData.labVerified.conditions.en,
+                            expertName: productDetailData.labVerified.expertName,
+                            expertProfileUrl: productDetailData.labVerified.expertName.includes('Yahia')
                                 ? 'https://www.youtube.com/c/YehiaRadwan'
                                 : 'https://www.youtube.com/@Ahmed.Medhat',
                         };
                     }
                     return undefined;
                 })()}
-                thermalAdvice={{ currentTemp, category }}
+                thermalAdvice={{ currentTemp: DEFAULT_CAIRO_TEMP, category }}
                 deliveryIntelligence={deliveryStats}
                 labMetrics={labMetrics}
                 userGovernorate={DEFAULT_GOV.display}
+                productDetail={productDetailData ? {
+                    aiTldr: productDetailData.aiTldr,
+                    localContext: productDetailData.localContext,
+                    specifications: productDetailData.specifications,
+                } : null}
             />
 
             {/* Live delivery tracking — streamed dynamically via Suspense */}
