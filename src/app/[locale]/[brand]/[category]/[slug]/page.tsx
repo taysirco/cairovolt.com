@@ -254,7 +254,19 @@ export default async function ProductPage({ params }: Props) {
                 const family = BRAND_FAMILIES[product.brand.toLowerCase()] || [product.brand.toLowerCase()];
                 return family.includes(p.brand.toLowerCase());
             })
-            .map(p => ({ id: `static_${p.slug}`, ...p } as Product))
+            .map(p => ({
+                id: `static_${p.slug}`,
+                slug: p.slug,
+                brand: p.brand,
+                categorySlug: p.categorySlug,
+                price: p.price,
+                originalPrice: p.originalPrice,
+                images: p.images?.[0] ? [{ url: p.images[0].url }] : [],
+                translations: {
+                    en: { name: p.translations?.en?.name },
+                    ar: { name: p.translations?.ar?.name },
+                },
+            } as Product))
         : [];
 
     // Smart bundle data with reasons, discount, and daily cost
@@ -263,7 +275,19 @@ export default async function ProductPage({ params }: Props) {
             const result = getSmartBundleProducts(staticProduct);
             return {
                 bundleProducts: result.bundleProducts.map(bp => ({
-                    product: { id: `static_${bp.product.slug}`, ...bp.product } as Product,
+                    product: {
+                        id: `static_${bp.product.slug}`,
+                        slug: bp.product.slug,
+                        brand: bp.product.brand,
+                        categorySlug: bp.product.categorySlug,
+                        price: bp.product.price,
+                        originalPrice: bp.product.originalPrice,
+                        images: bp.product.images?.[0] ? [{ url: bp.product.images[0].url }] : [],
+                        translations: {
+                            en: { name: bp.product.translations?.en?.name },
+                            ar: { name: bp.product.translations?.ar?.name },
+                        },
+                    } as Product,
                     slot: bp.slot,
                     reason: bp.reason,
                 })),
@@ -495,7 +519,32 @@ export default async function ProductPage({ params }: Props) {
             <BrandVerification brand={brand} locale={locale} />
 
             <ProductPageClient
-                product={product}
+                product={{
+                    id: product.id,
+                    slug: product.slug,
+                    sku: product.sku,
+                    brand: product.brand,
+                    categorySlug: product.categorySlug,
+                    price: product.price,
+                    originalPrice: product.originalPrice,
+                    stock: product.stock,
+                    featured: product.featured,
+                    images: product.images?.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
+                    translations: {
+                        [locale]: {
+                            name: product.translations?.[locale as 'ar' | 'en']?.name,
+                            description: product.translations?.[locale as 'ar' | 'en']?.description,
+                            faqs: product.translations?.[locale as 'ar' | 'en']?.faqs,
+                        },
+                    } as Product['translations'],
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    expertOpinion: (product as any).expertOpinion,
+                    contentCredentials: product.contentCredentials?.signature
+                        ? { signature: product.contentCredentials.signature }
+                        : null,
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                    variants: (product as any).variants,
+                } as Product}
                 relatedProducts={relatedProducts}
                 bundleData={bundleData}
                 locale={locale}
