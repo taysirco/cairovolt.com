@@ -63,19 +63,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
             publishedTime: article.publishDate,
             modifiedTime: article.modifiedDate,
-            // Blog articles now have dedicated cover images
-            images: article.coverImage ? [{
-                url: `https://cairovolt.com${article.coverImage}`,
+            // OG images use JPG for maximum Facebook/social compatibility (webp causes fallback to default logo)
+            images: article.coverImage ? [{ 
+                url: `https://cairovolt.com/images/blog/og/${slug}.jpg`,
                 width: 1200,
                 height: 630,
                 alt: trans.metaTitle,
+                type: 'image/jpeg',
             }] : [],
         },
         twitter: {
             card: article.coverImage ? 'summary_large_image' : 'summary',
             title: trans.metaTitle,
             description: trans.metaDescription,
-            ...(article.coverImage ? { images: [`https://cairovolt.com${article.coverImage}`] } : {}),
+            ...(article.coverImage ? { images: [`https://cairovolt.com/images/blog/og/${slug}.jpg`] } : {}),
         },
         robots: {
             index: true,
