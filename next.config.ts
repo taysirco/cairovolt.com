@@ -43,7 +43,12 @@ const nextConfig = {
         ] as any,
     },
     experimental: {
-        // optimizeCss (Critters) removed — incompatible with App Router streaming
+        // optimizeCss (Critters) removed — incompatible with App Router streaming.
+        // inlineCss is the Next-native replacement (NOT Critters): it folds the route's
+        // CSS into a <style> tag in the streamed HTML, removing the render-blocking
+        // stylesheet request (~671ms) that gates FCP and therefore LCP. Experimental —
+        // MUST verify live for FOUC/visual regressions; roll back by deleting this line.
+        inlineCss: true,
         optimizePackageImports: ['next-intl', 'react-hook-form'],  // Tree-shake barrel exports
         staleTimes: {
             dynamic: 180,   // 3 min — RSC payloads stay cached longer in client router
