@@ -62,6 +62,7 @@ import { usb_c_240w_thunderbolt_port_difference } from './blog/usb-c-240w-thunde
 import { joyroom_speedy_cable_3_months_review } from './blog/joyroom-speedy-cable-3-months-review';
 import { car_charger_100w_laptop_sahel_trip } from './blog/car-charger-100w-laptop-sahel-trip';
 import { magnetic_car_phone_holder_wireless_charging } from './blog/magnetic-car-phone-holder-wireless-charging';
+import { car_charger_3_devices_power_distribution } from './blog/car-charger-3-devices-power-distribution';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -122,6 +123,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     joyroom_speedy_cable_3_months_review,
     car_charger_100w_laptop_sahel_trip,
     magnetic_car_phone_holder_wireless_charging,
+    car_charger_3_devices_power_distribution,
 ];
 
 
