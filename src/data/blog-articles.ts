@@ -65,6 +65,7 @@ import { magnetic_car_phone_holder_wireless_charging } from './blog/magnetic-car
 import { car_charger_3_devices_power_distribution } from './blog/car-charger-3-devices-power-distribution';
 import { car_charger_stops_working_5_causes_fixes } from './blog/car-charger-stops-working-5-causes-fixes';
 import { car_phone_holder_cooling_fan_summer_protection } from './blog/car-phone-holder-cooling-fan-summer-protection';
+import { car_charger_usb_c_pd_iphone_15_ipad } from './blog/car-charger-usb-c-pd-iphone-15-ipad';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -128,6 +129,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     car_charger_3_devices_power_distribution,
     car_charger_stops_working_5_causes_fixes,
     car_phone_holder_cooling_fan_summer_protection,
+    car_charger_usb_c_pd_iphone_15_ipad,
 ];
 
 
