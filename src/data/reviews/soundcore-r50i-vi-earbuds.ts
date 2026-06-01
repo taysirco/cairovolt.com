@@ -42,7 +42,7 @@ export const soundcore_r50i_vi_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-05-05',
         reviewBody: {
             en: 'Coming from AirPods 2nd gen that died. R50i Vi gives me 90% of the experience at 1/8th the price. The BassUp actually produces deeper bass than AirPods. Voice assistant integration works seamlessly with Google Assistant on my Pixel. Only minus: no ANC, but at 785 EGP that\'s expected. The Soundcore app EQ customization is way better than Apple.',
-            ar: 'جاي من AirPods الجيل الثاني اللي ماتت. R50i Vi بتديني 90% من التجربة بـ 1/8 السعر. BassUp فعلاً بتنتج باس أعمق من AirPods. تكامل المساعد الصوتي شغال بسلاسة مع Google Assistant على Pixel بتاعي. السلبية الوحيدة: مفيش ANC، بس بـ 785 جنيه ده متوقع. تخصيص EQ في Soundcore أحسن بكتير من Apple.'
+            ar: 'جاي من AirPods الجيل الثاني اللي ماتت. R50i Vi بتديني 90% من التجربة بـ 1/8 السعر. BassUp فعلاً بتنتج باس أعمق من AirPods. تكامل المساعد الصوتي شغال بسلاسة مع Google Assistant على Pixel بتاعي. السلبية الوحيدة: مفيش ANC، بس بـ 785 جنيه ده متوقع. تخصيص EQ في ساوندكور أحسن بكتير من Apple.'
         },
         pros: { en: ['Deeper bass than AirPods', 'Google Assistant works seamlessly', 'App EQ better than Apple'], ar: ['باس أعمق من AirPods', 'Google Assistant شغال بسلاسة', 'EQ التطبيق أحسن من Apple'] },
         cons: { en: ['No ANC (expected at this price)'], ar: ['مفيش ANC (متوقع بالسعر ده)'] },
@@ -54,7 +54,7 @@ export const soundcore_r50i_vi_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-05-12',
         reviewBody: {
             en: 'Ordered from CairoVolt to Minya — arrived in 4 days perfectly packaged. The voice assistant shortcut is amazing for asking directions while walking in unfamiliar places. IPX5 survived a surprise rain shower. Game mode latency is low enough for PUBG. I upgraded from 150 EGP earbuds and the difference is night and day. The Soundcore app confirmed they are genuine.',
-            ar: 'طلبت من كايرو فولت للمنيا — وصلت في 4 أيام مغلفة ممتاز. اختصار المساعد الصوتي ممتاز لسؤال الاتجاهات وأنت ماشي في أماكن مش عارفها. IPX5 استحملت مطر مفاجئ. تأخير وضع الألعاب كافي لـ PUBG. ترقيت من سماعات بـ 150 جنيه والفرق ليل ونهار. تطبيق Soundcore أكد إنهم أصليين.'
+            ar: 'طلبت من كايرو فولت للمنيا — وصلت في 4 أيام مغلفة ممتاز. اختصار المساعد الصوتي ممتاز لسؤال الاتجاهات وأنت ماشي في أماكن مش عارفها. IPX5 استحملت مطر مفاجئ. تأخير وضع الألعاب كافي لـ PUBG. ترقيت من سماعات بـ 150 جنيه والفرق ليل ونهار. تطبيق ساوندكور أكد إنهم أصليين.'
         },
         pros: { en: ['Voice directions while walking', 'IPX5 survived rain', 'Massive upgrade from cheap earbuds'], ar: ['اتجاهات صوتية وأنت ماشي', 'IPX5 استحملت المطر', 'ترقية ضخمة من السماعات الرخيصة'] },
     },
@@ -65,7 +65,7 @@ export const soundcore_r50i_vi_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-05-18',
         reviewBody: {
             en: 'Best sub-800 EGP earbuds you can buy. The Vi (voice intelligence) feature is the killer differentiator vs P20i. I use Google Assistant to control my smart home while my hands are busy. BT 5.3 connects instantly every time I open the case. Sound signature is warm with satisfying bass. CairoVolt is the only store I trust for authentic Soundcore in Egypt.',
-            ar: 'أحسن سماعات تحت 800 جنيه ممكن تشتريها. ميزة Vi (الذكاء الصوتي) هي الفارق القاتل ضد P20i. بستخدم Google Assistant للتحكم في المنزل الذكي وأيديا مشغولة. BT 5.3 بيتصل فوراً كل مرة بفتح العلبة. الصوت دافئ مع باس مُرضي. كايرو فولت هي المتجر الوحيد اللي بثق فيه لـ Soundcore أصلية في مصر.'
+            ar: 'أحسن سماعات تحت 800 جنيه ممكن تشتريها. ميزة Vi (الذكاء الصوتي) هي الفارق القاتل ضد P20i. بستخدم Google Assistant للتحكم في المنزل الذكي وأيديا مشغولة. BT 5.3 بيتصل فوراً كل مرة بفتح العلبة. الصوت دافئ مع باس مُرضي. كايرو فولت هي المتجر الوحيد اللي بثق فيه لـ ساوندكور أصلية في مصر.'
         },
         pros: { en: ['Smart home voice control', 'BT 5.3 instant connect', 'Warm sound with satisfying bass'], ar: ['تحكم صوتي في المنزل الذكي', 'BT 5.3 اتصال فوري', 'صوت دافئ مع باس مُرضي'] },
     },

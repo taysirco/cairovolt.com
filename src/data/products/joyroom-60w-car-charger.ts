@@ -25,7 +25,7 @@ export const joyroom_60w_car_charger = {
                 name: "Joyroom 60W Car Charger | 3-in-1 Retractable Cables | 30W+30W Dual | iPhone 17 MAX | 18-Month Warranty",
                 shortDescription: "⚡ 60W Total (30W+30W) | 🔌 Built-in Retractable USB-C | 📱 iPhone 17 MAX 30W | 📱 Samsung S26 Super Fast | 🚗 Fits All Cars | 🏆 18-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>Joyroom 60W 3-in-1 car charger</strong> is the only car charger you need: <strong>built-in retractable USB-C cable + extra port = charge 2 devices at 30W each</strong>. No loose cables in the car. Tested in 8 Egyptian car models. At 513 EGP, it replaces buying a charger + cable separately. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike unbranded car chargers that flicker during voltage drops, The <strong>جوي روم 60W 3-in-1 car charger</strong> is the only car charger you need: <strong>built-in retractable USB-C cable + extra port = charge 2 devices at 30W each</strong>. No loose cables in the car. Tested in 8 Egyptian car models. At 513 EGP, it replaces buying a charger + cable separately. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Key Features:</h3>
     <ul class="list-none space-y-1">
@@ -144,7 +144,7 @@ export const joyroom_60w_car_charger = {
                     { question: "ضمان كايرو فولت بيغطي إيه بالظبط؟", answer: "استبدال كامل لمدة 18 شهر. بيغطي ارتفاع حرارة، عطل المنافذ، أو عيوب الكابل القابل للسحب. شحن إرجاع مجاني." }]
             }
         },
-        meta: { keywords: "joyroom car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج, joyroom fast car charger, joyroom dual usb car charger, joyroom best car charger 2026, joyroom cod egypt, افضل شاحن سيارة جوي روم, سعر شاحن سيارة جوي روم, joyroom 60w car charger, شاحن عربية جوي روم, joyroom car charger egypt, شاحن سيارة رخيص مصر, joyroom car charger CE certified PD", mainTerm: "joyroom 60w car charger" },
+        meta: { keywords: "جوي روم car charger 60w, شاحن سيارة 60 واط, شاحن سيارة ايفون 17, car charger retractable egypt, شاحن سيارة كابل مدمج, جوي روم fast car charger, جوي روم dual usb car charger, جوي روم best car charger 2026, جوي روم cod egypt, افضل شاحن سيارة جوي روم, سعر شاحن سيارة جوي روم, جوي روم 60w car charger, شاحن عربية جوي روم, جوي روم car charger egypt, شاحن سيارة رخيص مصر, جوي روم car charger CE certified PD", mainTerm: "joyroom 60w car charger" },
         expertOpinion: {
             en: "The Swiss Army knife of car chargers. The retractable cables mean no more tangled mess in your console. 60W is enough to charge a laptop or fast, charge two phones at once. It keeps your car interior neat while delivering serious power.",
             ar: "سكين الجيش السويسري لشواحن السيارات. الكابلات القابلة للسحب تعني لا مزيد من الفوضى المتشابكة في الكونسول. 60 واط كافية لشحن لابتوب أو شحن هاتفين بسرعة في وقت واحد. تحافظ على نظافة سيارتك من الداخل مع توفير طاقة جدية."

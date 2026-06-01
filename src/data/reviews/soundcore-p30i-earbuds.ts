@@ -42,9 +42,9 @@ export const soundcore_p30i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-03-30',
         reviewBody: {
             en: 'CairoVolt delivered to Aswan in 4 days. The BT 5.4 multipoint is incredibly useful — I switch between phone calls and laptop Zoom meetings seamlessly. The Soundcore app EQ customization let me boost mids for podcast listening after using BassUp mode for music.',
-            ar: 'كايرو فولت وصّلت لأسوان في 4 أيام. BT 5.4 multipoint مفيد جداً — بنقّل بين مكالمات الموبايل وميتنجات Zoom على اللاب بسلاسة. تطبيق Soundcore خلاني أعزز الميد للبودكاست بعد ما أستخدم وضع BassUp للموسيقى.'
+            ar: 'كايرو فولت وصّلت لأسوان في 4 أيام. BT 5.4 multipoint مفيد جداً — بنقّل بين مكالمات الموبايل وميتنجات Zoom على اللاب بسلاسة. تطبيق ساوندكور خلاني أعزز الميد للبودكاست بعد ما أستخدم وضع BassUp للموسيقى.'
         },
-        pros: { en: ['Delivered to Aswan in 4 days', 'BT 5.4 multipoint seamless', 'Soundcore app EQ flexibility'], ar: ['وصّلت لأسوان في 4 أيام', 'BT 5.4 multipoint سلس', 'مرونة EQ في تطبيق Soundcore'] },
+        pros: { en: ['Delivered to Aswan in 4 days', 'BT 5.4 multipoint seamless', 'Soundcore app EQ flexibility'], ar: ['وصّلت لأسوان في 4 أيام', 'BT 5.4 multipoint سلس', 'مرونة EQ في تطبيق ساوندكور'] },
     },
     {
         author: 'Karim Nabil',
@@ -121,7 +121,7 @@ export const soundcore_p30i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-05-20',
         reviewBody: {
             en: 'The Soundcore app has SO many EQ presets — I found one called "Podcast" that makes voices incredibly clear. The default sound is too bassy for my taste but the app fixes everything. 4 stars because the earbuds don\'t have wear detection — music keeps playing when I take them out.',
-            ar: 'تطبيق Soundcore عنده بريستات EQ كتير — لقيت واحد اسمه "Podcast" بيخلي الأصوات واضحة بشكل خيالي. الصوت الافتراضي بيسي كتير بالنسبة لذوقي بس التطبيق بيصلّح كل حاجة. 4 نجوم لأن السماعات مفيهاش wear detection — الموسيقى بتفضل تشتغل لما بشيلهم.'
+            ar: 'تطبيق ساوندكور عنده بريستات EQ كتير — لقيت واحد اسمه "Podcast" بيخلي الأصوات واضحة بشكل خيالي. الصوت الافتراضي بيسي كتير بالنسبة لذوقي بس التطبيق بيصلّح كل حاجة. 4 نجوم لأن السماعات مفيهاش wear detection — الموسيقى بتفضل تشتغل لما بشيلهم.'
         },
         pros: { en: ['Podcast EQ preset game-changer', 'App fixes bass-heavy default'], ar: ['بريست Podcast EQ غيّر اللعبة', 'التطبيق بيصلّح الباس الزيادة'] },
         cons: { en: ['No wear detection — music plays when removed'], ar: ['مفيش wear detection — الموسيقى بتشتغل لما بتشيل'] },

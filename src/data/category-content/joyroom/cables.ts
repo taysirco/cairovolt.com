@@ -8,7 +8,7 @@ export const joyroom_cables_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Cable Egypt | USB-C PD 100W & Lightning from EGP 118',
                     description: 'Shop Joyroom cables in Egypt. USB-C PD 100W for laptops, Lightning Auto-Disconnect. 10,000+ bend test. ✓ CairoVolt tested ✓ 1-year warranty ✓ Cairo delivery',
-                    keywords: 'joyroom cable, joyroom USB-C cable, joyroom lightning cable, joyroom 100W cable, cable egypt, joyroom auto disconnect, كابل جوي روم, joyroom cable price egypt',
+                    keywords: 'جوي روم cable, جوي روم USB-C cable, جوي روم lightning cable, جوي روم 100W cable, cable egypt, جوي روم auto disconnect, كابل جوي روم, جوي روم cable price egypt',
                 },
                 ar: {
                     title: 'كابل جوي روم مصر | USB-C PD 100W + فصل تلقائي من 118 جنيه',
@@ -19,7 +19,7 @@ export const joyroom_cables_content: CategoryContent = {
             pageContent: {
                 ar: {
                     title: 'كابلات جوي روم (تكنولوجيا الفصل التلقائي)',
-                    subtitle: 'Joyroom Cables - الكابل الوحيد اللي بيخاف على بطاريتك',
+                    subtitle: 'جوي روم Cables - الكابل الوحيد اللي بيخاف على بطاريتك',
                     description: `
       موبايلك بيشحن طول الليل وBattery Health بينزل كل شهر؟ كابل جوي روم S-M411 الوحيد في مصر بخاصية **الفصل التلقائي** — بيقطع الكهرباء تماماً لما الشحن يوصل 100%.
 

@@ -29,11 +29,11 @@ export const anker_622_maggo = {
                 shortDescription: "🧲 MagSafe Wireless Charging | 📱 Built-in Foldable Kickstand | 🪨 Ultra-Slim Design | 🔌 USB-C Two-Way Charging",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Anker 622 MagGo (A1610)</strong> is a MagSafe-compatible wireless battery pack for iPhone 17/16/15/14/13/12. It snaps magnetically to the back of your iPhone and charges at 7.5W while you use it. Built-in foldable kickstand for hands-free video calls. 13mm thin, USB-C pass-through charging. EGP 2,800, 18-month warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>أنكر 622 MagGo (A1610)</strong> is a MagSafe-compatible wireless battery pack for iPhone 17/16/15/14/13/12. It snaps magnetically to the back of your iPhone and charges at 7.5W while you use it. Built-in foldable kickstand for hands-free video calls. 13mm thin, USB-C pass-through charging. EGP 2,800, 18-month warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Knock-off magnetic batteries from Shein/Temu use weak magnets that detach during use and lack proper Qi certification — risking phone damage from improper charging. Anker 622 uses N52-grade magnets and is Qi-certified. Check for the Anker holographic seal on the box. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
+    <p class="text-gray-700">Knock-off magnetic batteries from Shein/Temu use weak magnets that detach during use and lack proper Qi certification — risking phone damage from improper charging. أنكر 622 uses N52-grade magnets and is Qi-certified. Check for the أنكر holographic seal on the box. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
@@ -57,7 +57,7 @@ export const anker_622_maggo = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">Snap On, Charge Wirelessly, Keep Using Your Phone</h2>
-        <p class="text-gray-700">The Anker 622 MagGo snaps onto the back of your iPhone using <strong>powerful magnets</strong> that align perfectly with MagSafe. No plugging in cables — just snap and go. The magnetic hold is strong enough for normal use: scrolling, texting, even taking photos. It charges at <strong>7.5W</strong>, the standard for third-party MagSafe accessories, keeping your battery topped up without overheating.</p>
+        <p class="text-gray-700">The أنكر 622 MagGo snaps onto the back of your iPhone using <strong>powerful magnets</strong> that align perfectly with MagSafe. No plugging in cables — just snap and go. The magnetic hold is strong enough for normal use: scrolling, texting, even taking photos. It charges at <strong>7.5W</strong>, the standard for third-party MagSafe accessories, keeping your battery topped up without overheating.</p>
     </section>
 
     <section>
@@ -159,7 +159,7 @@ export const anker_622_maggo = {
                     { question: "ضمان كايرو فولت 18 شهر بيغطي إيه بالظبط؟", answer: "استبدال كامل لأي عيب صناعة — تدهور بطارية، فشل شحن، أو ضعف المغناطيس. سلمه لكايرو فولت أو اشحنه مجاناً." }]
             }
         },
-        meta: { keywords: "anker maggo, anker 622, magsafe power bank, باور بانك ماج سيف, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع, anker 622 maggo FCC certified", mainTerm: "anker maggo" },
+        meta: { keywords: "أنكر maggo, أنكر 622, magsafe power bank, باور بانك ماج سيف, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع, أنكر 622 maggo FCC certified", mainTerm: "anker maggo" },
         expertOpinion: {
         en: "Perfect for iPhone MagSafe users who want a stand-and-charge combo — ideal for desk FaceTime, nightstand charging, or watching videos while powering up. Skip if you need fast emergency charging or use a non-MagSafe phone.",
         ar: "مثالي لمستخدمي MagSafe اللي عايزين يشحنوا ويتفرجوا في نفس الوقت — ممتاز للمكتب أو الكومودينو. مش مناسب لو محتاج شحن طوارئ سريع أو موبايلك مش MagSafe."

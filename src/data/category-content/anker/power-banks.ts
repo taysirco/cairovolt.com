@@ -71,7 +71,7 @@ export const anker_power_banks_content: CategoryContent = {
                     keywords: 'anker power bank, anker power station, anker power bank 20000mah, anker powercore, anker prime power bank, anker powerhouse, anker 521, power bank egypt, portable power station',
                 },
                 ar: {
-                    title: 'باور بانك انكر ومحطة طاقة | Anker Power Bank مصر',
+                    title: 'باور بانك انكر ومحطة طاقة | أنكر Power Bank مصر',
                     description: 'باور بانك انكر ومحطة طاقة انكر الأصلي. PowerCore 20000 و 10000 mAh، انكر باور ستيشن 521. شحن PD سريع. ✓ ضمان 24 شهر ✓ توصيل القاهرة',
                     keywords: 'باور بانك انكر, باور بنك انكر, محطة طاقة انكر, انكر باور ستيشن, باور بانك انكر 20000, باور بانك انكر 10000, سعر باور بانك انكر, انكر باور بانك, باور بانك',
                 }
@@ -79,7 +79,7 @@ export const anker_power_banks_content: CategoryContent = {
             pageContent: {
                 ar: {
                     title: 'باور بانك انكر الأصلي في مصر',
-                    subtitle: 'Anker Power Bank - الأعلى جودة والأكثر مبيعاً',
+                    subtitle: 'أنكر Power Bank - الأعلى جودة والأكثر مبيعاً',
                     description: `
       انقطاع الكهرباء مفاجئ؟ رحلة 6 ساعات والموبايل (هاتفك الذكي) على 10%؟ باور بانك **انكر** بخلايا ممتازة + شاشة LED ذكية. ضمان 18 شهر.
 

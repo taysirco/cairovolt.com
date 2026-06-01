@@ -7,7 +7,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Charger Egypt | GaN PD 20W-65W from EGP 236',
                     description: 'Shop Joyroom charger in Egypt. GaN PD 20W-65W, Smart IC, fire-retardant PC V0. ✓ CairoVolt tested ✓ 1-year warranty ✓ Cairo delivery',
-                    keywords: 'joyroom charger, joyroom 20w, joyroom GaN, joyroom PD charger, fast charger egypt, joyroom charger price egypt, شاحن جوي روم',
+                    keywords: 'جوي روم charger, جوي روم 20w, جوي روم GaN, جوي روم PD charger, fast charger egypt, جوي روم charger price egypt, شاحن جوي روم',
                 },
                 ar: {
                     title: 'شاحن جوي روم مصر | GaN PD 20W-65W من 236 جنيه',
@@ -18,7 +18,7 @@ export const joyroom_wall_chargers_content: CategoryContent = {
             pageContent: {
                 ar: {
                     title: 'شواحن جوي روم (The Safe Choice)',
-                    subtitle: 'Joyroom Chargers - تكنولوجيا تبريد ذكية',
+                    subtitle: 'جوي روم Chargers - تكنولوجيا تبريد ذكية',
                     description: `
       كل صيف في مصر، تذبذب الكهرباء بيحرق شواحن رخيصة بالآلاف. شاحن **جوي روم** مختلف — بيفصل تلقائياً عند 100% + مادة **مقاومة للحريق**. حماية حقيقية. سعر في المتناول.
       **ليه بيختاروه المحترفون في مصر؟**

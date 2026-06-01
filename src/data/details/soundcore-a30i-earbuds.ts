@@ -22,7 +22,7 @@ export const soundcore_a30i_earbuds_detail: ProductDetail = {
         'Water': { en: 'IP54 (dust + splash)', ar: 'IP54 (غبار + رذاذ)' },
         'Weight': { en: '3.7g per earbud', ar: '3.7 جرام لكل سماعة' },
         'Case': { en: 'Compact lipstick-shaped, USB-C', ar: 'صغيرة بشكل أحمر شفاه، USB-C' },
-        'App': { en: 'Soundcore App (EQ + ANC + 3D Surround)', ar: 'تطبيق Soundcore (EQ + ANC + 3D محيطي)' },
+        'App': { en: 'Soundcore App (EQ + ANC + 3D Surround)', ar: 'تطبيق ساوندكور (EQ + ANC + 3D محيطي)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

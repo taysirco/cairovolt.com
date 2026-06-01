@@ -29,7 +29,7 @@ export const soundcore_life_q20_headphones_lab: ProductLabData = {
         },
     ],
     voiceFaqAr: [
-        { question: 'Life Q20 ولا Q20i؟', answer: 'Q20i أحدث: USB-C، تطبيق Soundcore، multipoint، BT 5.3. Q20 أقدم: Micro-USB، بدون تطبيق، BT 5.0. بس Q20 أرخص بـ 172 جنيه. لو عايز تطبيق ومالتي بوينت: Q20i. لو البطارية والباس أولوية والسعر مهم: Q20.' },
+        { question: 'Life Q20 ولا Q20i؟', answer: 'Q20i أحدث: USB-C، تطبيق ساوندكور، multipoint، BT 5.3. Q20 أقدم: Micro-USB، بدون تطبيق، BT 5.0. بس Q20 أرخص بـ 172 جنيه. لو عايز تطبيق ومالتي بوينت: Q20i. لو البطارية والباس أولوية والسعر مهم: Q20.' },
         { question: 'ينفع للطيران؟', answer: 'أيوه — ANC هجين بيعزل صوت المحرك كويس. ولو البطارية خلصت، كابل 3.5mm بيخليها تشتغل سلبي. الحقيبة مكفولة.' },
         { question: 'فيها بلوتوث multipoint؟', answer: 'لأ — BT 5.0 بدون multipoint. لو محتاج تتصل بموبايل ولاب في نفس الوقت، Q20i أو Q30.' },
     ],

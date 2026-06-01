@@ -28,17 +28,17 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
     relatedCategories: ['Joyroom/cables', 'Anker/cables'],
     translations: {
         ar: {
-            title: 'تجربة واقعية: كابل Joyroom Speedy Series بعد 90 يوم استخدام يومي في حر مصر',
+            title: 'تجربة واقعية: كابل جوي روم Speedy Series بعد 90 يوم استخدام يومي في حر مصر',
             metaTitle: 'كابل جوي روم Speedy بعد 90 يوم — مراجعة حقيقية | كايرو فولت',
-            metaDescription: 'تجربة واقعية لكابل Joyroom Speedy Series بعد 3 شهور استخدام يومي في حر مصر. اختبار سرعة الشحن والمتانة والحرارة — بالأرقام والصور.',
-            keywords: 'كابل جوي روم, مراجعة كابل جوي روم, جوي روم speedy, كابل شحن سريع رخيص, كابل شحن متين, joyroom speedy cable review, كابل usb-c مصر, كابل جوي روم 60 واط, تجربة كابل شحن, افضل كابل شحن اقتصادي',
-            excerpt: 'تجربة واقعية لكابل Joyroom Speedy Series بعد 3 شهور من الاستخدام اليومي في حر القاهرة — بالأرقام والنتائج.',
-            quickAnswer: 'كابل Joyroom Speedy Series USB-C 60W فاجأنا بعد 90 يوم استخدام يومي في حر القاهرة (42°C+). سرعة الشحن ثابتة عند 58-60W بدون تراجع. الغلاف النايلون المضفر لسه زي أول يوم — مفيش تقشير أو تشقق. نقطة الانحناء عند الكونكتور تحمّلت أكثر من 3,000 توصيل/فصل. بسعر 123 جنيه — ده أفضل كابل بالسعر ده في مصر.',
+            metaDescription: 'تجربة واقعية لكابل جوي روم Speedy Series بعد 3 شهور استخدام يومي في حر مصر. اختبار سرعة الشحن والمتانة والحرارة — بالأرقام والصور.',
+            keywords: 'كابل جوي روم, مراجعة كابل جوي روم, جوي روم speedy, كابل شحن سريع رخيص, كابل شحن متين, جوي روم speedy cable review, كابل usb-c مصر, كابل جوي روم 60 واط, تجربة كابل شحن, افضل كابل شحن اقتصادي',
+            excerpt: 'تجربة واقعية لكابل جوي روم Speedy Series بعد 3 شهور من الاستخدام اليومي في حر القاهرة — بالأرقام والنتائج.',
+            quickAnswer: 'كابل جوي روم Speedy Series USB-C 60W فاجأنا بعد 90 يوم استخدام يومي في حر القاهرة (42°C+). سرعة الشحن ثابتة عند 58-60W بدون تراجع. الغلاف النايلون المضفر لسه زي أول يوم — مفيش تقشير أو تشقق. نقطة الانحناء عند الكونكتور تحمّلت أكثر من 3,000 توصيل/فصل. بسعر 123 جنيه — ده أفضل كابل بالسعر ده في مصر.',
             content: `
 <h2>ليه عملنا المراجعة دي أصلاً؟</h2>
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الخلاصة السريعة:</strong> كابل Joyroom Speedy Series USB-C 60W فاجأنا بعد 90 يوم استخدام يومي في حر القاهرة (42°C+). سرعة الشحن ثابتة عند 58-60W بدون تراجع. الغلاف النايلون لسه متماسك. نقطة الانحناء تحمّلت 3,000+ توصيل/فصل. بسعر <strong>123 جنيه</strong> — أفضل كابل بالسعر ده في مصر.
+        <strong>💡 الخلاصة السريعة:</strong> كابل جوي روم Speedy Series USB-C 60W فاجأنا بعد 90 يوم استخدام يومي في حر القاهرة (42°C+). سرعة الشحن ثابتة عند 58-60W بدون تراجع. الغلاف النايلون لسه متماسك. نقطة الانحناء تحمّلت 3,000+ توصيل/فصل. بسعر <strong>123 جنيه</strong> — أفضل كابل بالسعر ده في مصر.
     </p>
 </div>
 <p>كل أسبوع بيجيلنا سؤال واحد بعشر صيغ مختلفة: "هو كابل جوي روم ده كويس فعلاً ولا هيبوظ بعد أسبوعين زي اللي قبله؟" — والصراحة، السؤال ده منطقي جداً ومشروع. لما تشوف كابل بـ 123 جنيه وجنبه كابل انكر بـ 590 جنيه، عقلك الباطن بيقولك "اللي رخيص أكيد ضعيف ومش هيعيش." لكن بدل ما نرد بكلام تسويقي فاضي، قلنا نعمل اللي بنعمله دايماً: <strong>نختبر بالأرقام.</strong></p>
@@ -51,7 +51,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
 </div>
 
 <h2>اليوم الأول: المواصفات على الورق 📋</h2>
-<p>قبل ما نتكلم عن التجربة، خلينا نشوف إيه اللي Joyroom واعدنا بيه — وإيه اللي حصل فعلاً:</p>
+<p>قبل ما نتكلم عن التجربة، خلينا نشوف إيه اللي جوي روم واعدنا بيه — وإيه اللي حصل فعلاً:</p>
 <table>
     <thead><tr><th>المواصفة</th><th>الوعد الرسمي</th><th>النتيجة بعد 90 يوم</th></tr></thead>
     <tbody>
@@ -63,7 +63,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
         <tr><td><strong>توافق</strong></td><td>PD 3.0 / QC 4.0</td><td>اشتغل مع كل الأجهزة ✅</td></tr>
     </tbody>
 </table>
-<p>المفاجأة الأولى: الكابل فعلاً بيطلّع الأرقام المكتوبة عليه. وده مش شيء بديهي — في عالم الكابلات الرخيصة، كابل مكتوب عليه 60W بيطلّع 15-20W فعلي هو القاعدة مش الاستثناء. Joyroom هنا <strong>بيلعب فوق مستواه السعري</strong>.</p>
+<p>المفاجأة الأولى: الكابل فعلاً بيطلّع الأرقام المكتوبة عليه. وده مش شيء بديهي — في عالم الكابلات الرخيصة، كابل مكتوب عليه 60W بيطلّع 15-20W فعلي هو القاعدة مش الاستثناء. جوي روم هنا <strong>بيلعب فوق مستواه السعري</strong>.</p>
 
 <h2>الشهر الأول: الانطباع الأوّلي 📦</h2>
 <p>أول حاجة لاحظناها — <strong>الكونكتور USB-C بيدخل ويطلع بنعومة</strong>. مش محتاج ضغط. ده تفصيلة صغيرة لكن بتفرق كتير لأن الكونكتور اللي محتاج ضغط معناه إنك هتشد الكابل أقوى لما تطلعه = تلف أسرع.</p>
@@ -112,7 +112,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
         <tr><td>OLX (بدون علامة تجارية)</td><td>25 ج.م</td><td>8W فقط ❌</td><td>3 أسابيع</td></tr>
         <tr><td>محل وسط البلد (مكتوب عليه 60W)</td><td>35 ج.م</td><td>12W فعلي ❌</td><td>6 أسابيع</td></tr>
         <tr><td>أمازون مصر (علامة غير معروفة)</td><td>45 ج.م</td><td>18W فعلي ❌</td><td>شهرين</td></tr>
-        <tr><td><strong>Joyroom Speedy</strong></td><td><strong>123 ج.م</strong></td><td><strong>58-60W ✅</strong></td><td><strong>3+ شهور ولسه</strong></td></tr>
+        <tr><td><strong>جوي روم Speedy</strong></td><td><strong>123 ج.م</strong></td><td><strong>58-60W ✅</strong></td><td><strong>3+ شهور ولسه</strong></td></tr>
     </tbody>
 </table>
 <p>الحسبة بسيطة: لو بتشتري كابل بـ 30 جنيه كل شهر، بعد سنة هتكون صرفت 360 جنيه على كابلات ضعيفة بتشحن بـ 8-12W فعلي. <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">كابل جوي روم</a> واحد بـ 123 جنيه بيشحن بـ 60W ولسه شغال بعد 3 شهور. <strong>ده فرق 3x في السعر مقابل 7x في الأداء</strong>.</p>
@@ -128,10 +128,10 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
 </ul>
 <p>كل كابلات جوي روم على كايرو فولت <strong>بضمان رسمي + بطاقة تحقق C2PA</strong> — يعني مش هتشتري تقليد بالغلط.</p>
 
-<h2>المقارنة العادلة: Joyroom vs Anker — الأرقام بتتكلم 🔬</h2>
+<h2>المقارنة العادلة: جوي روم vs أنكر — الأرقام بتتكلم 🔬</h2>
 <p>مش عدل نقارن كابل بـ 123 جنيه بكابل بـ 590 جنيه بدون ما نوضح إيه اللي بتدفع فيه الفرق:</p>
 <table>
-    <thead><tr><th>المعيار</th><th>Joyroom Speedy 60W</th><th>Anker PowerLine USB-C</th></tr></thead>
+    <thead><tr><th>المعيار</th><th>جوي روم Speedy 60W</th><th>أنكر PowerLine USB-C</th></tr></thead>
     <tbody>
         <tr><td><strong>السعر</strong></td><td><strong>123 ج.م</strong> 🏆</td><td>590 ج.م</td></tr>
         <tr><td><strong>القدرة</strong></td><td>60W</td><td>60W</td></tr>
@@ -148,7 +148,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
 
 <h2>لمين الكابل ده مثالي — ولمين لأ 🎯</h2>
 <div style="background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:16px;padding:24px;margin:20px 0;color:white">
-    <p style="font-size:18px;font-weight:bold;margin-bottom:16px">✅ اشتري Joyroom Speedy لو:</p>
+    <p style="font-size:18px;font-weight:bold;margin-bottom:16px">✅ اشتري جوي روم Speedy لو:</p>
     <ul style="opacity:0.95">
         <li>بتشحن موبايل/تابلت (مش لابتوب) — القدرة 60W كافية لأي موبايل في السوق</li>
         <li>عايز كابل متين بسعر معقول — <strong>123 جنيه</strong> مقابل أداء يفضل ثابت 3+ شهور مثبتة</li>
@@ -176,7 +176,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
 
 <div style="background:linear-gradient(135deg,#065f46,#059669);border-radius:16px;padding:24px;margin:20px 0;color:white;text-align:center">
     <p style="font-size:22px;font-weight:bold;margin-bottom:8px">🏆 الحكم النهائي</p>
-    <p style="font-size:18px;opacity:0.95;margin-bottom:12px">كابل <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#86efac;font-weight:bold">Joyroom Speedy 60W</a> بـ 123 جنيه</p>
+    <p style="font-size:18px;opacity:0.95;margin-bottom:12px">كابل <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#86efac;font-weight:bold">جوي روم Speedy 60W</a> بـ 123 جنيه</p>
     <p style="font-size:16px;opacity:0.9;margin-bottom:8px">90 يوم استخدام يومي • حر القاهرة 42°C+ • أداء ثابت 58-60W</p>
     <p style="font-size:28px;margin:16px 0 8px">⭐⭐⭐⭐ <span style="opacity:0.5">⭐</span></p>
     <p style="font-size:14px;opacity:0.8;margin:0">4/5 — خسر نجمة بسبب عدم دعم نقل البيانات السريع (USB 2.0 فقط) وغياب E-Marker chip</p>
@@ -196,7 +196,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
                 { question: 'هل كابل جوي روم Speedy بيشحن سريع فعلاً؟', answer: 'أيوا. اختبرنا الكابل لمدة 90 يوم وسرعة الشحن ثابتة عند 58-60W فعلي. بيشحن Samsung S24 Ultra من 0% لـ 50% في 24 دقيقة. يدعم PD 3.0 و QC 4.0.' },
                 { question: 'كابل جوي روم بيستحمل حر مصر ولا بيبوظ بسرعة؟', answer: 'الغلاف النايلون المضفر تحمّل حر القاهرة (42°C+) والعربية (55-65°C) لمدة 90 يوم بدون أي تلف. أفضل بمراحل من كابلات PVC الرخيصة اللي بتتشقق بعد أسبوعين.' },
                 { question: 'إيه الفرق بين كابل جوي روم وكابل انكر؟', answer: 'انكر أغلى (590 ج مقابل 123 ج) لكن بيقدم: نايلون مضفر مزدوج، E-Marker chip، شهادة USB-IF، وضمان 18 شهر (مقابل 12 لجوي روم). جوي روم يقدم أفضل قيمة مقابل السعر.' },
-                { question: 'هل كابل جوي روم Speedy يشحن لابتوب؟', answer: 'لا. أقصى قدرة الكابل 60W وده كافي لأي موبايل أو تابلت، لكن اللابتوبات محتاجة 65-100W. لشحن لابتوب اشتري كابل 100W زي Anker A8050 بـ 350 جنيه.' },
+                { question: 'هل كابل جوي روم Speedy يشحن لابتوب؟', answer: 'لا. أقصى قدرة الكابل 60W وده كافي لأي موبايل أو تابلت، لكن اللابتوبات محتاجة 65-100W. لشحن لابتوب اشتري كابل 100W زي أنكر A8050 بـ 350 جنيه.' },
             ],
         },
         en: {

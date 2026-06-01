@@ -15,13 +15,13 @@ export const joyroom_car_mount_zs290 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp", alt: "joyroom car mount zs290 - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "joyroom car mount zs290 - منتج أصلي معتمد | شحن مصر كلها - JR-ZS290 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-2.webp", alt: "جوي روم car mount zs290 - منتج أصلي معتمد | شحن مصر كلها - JR-ZS290 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-3.webp", alt: "joyroom car mount zs290 - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "joyroom car mount zs290 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-4.webp", alt: "جوي روم car mount zs290 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-5.webp", alt: "joyroom car mount zs290 - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "joyroom car mount zs290 الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-6.webp", alt: "جوي روم car mount zs290 الأصلي في مصر | توصيل لأي محافظة - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-7.webp", alt: "joyroom car mount zs290 - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "joyroom car mount zs290 - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_8", url: "/products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-8.webp", alt: "جوي روم car mount zs290 - مختوم بختم الشركة | كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -156,7 +156,7 @@ export const joyroom_car_mount_zs290 = {
                 ]
             }
         },
-        meta: { keywords: "joyroom car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي, joyroom phone holder car, joyroom best car mount 2026, joyroom dashboard mount, joyroom cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, حامل موبايل سيارة جوي روم, joyroom car mount egypt, حامل تلفون عربية مصر, ستاند موبايل سيارة, joyroom egypt store, joyroom genuine egypt, joyroom car mount FCC certified", mainTerm: "joyroom car mount" },
+        meta: { keywords: "جوي روم car mount, magnetic car holder, حامل جوال سيارة, حامل مغناطيسي, جوي روم phone holder car, جوي روم best car mount 2026, جوي روم dashboard mount, جوي روم cod egypt, افضل حامل سيارة جوي روم, سعر حامل موبايل جوي روم, حامل موبايل سيارة جوي روم, جوي روم car mount egypt, حامل تلفون عربية مصر, ستاند موبايل سيارة, جوي روم egypt store, جوي روم genuine egypt, جوي روم car mount FCC certified", mainTerm: "joyroom car mount" },
         expertOpinion: {
             en: "Simple, strong, and effective. The magnet is surprisingly powerful – my phone didn't budge even on speed bumps. It clips securely to the air vent and doesn't rattle. If you want a minimalist mount that just holds your phone securely, this is the one.",
             ar: "بسيط، قوي، وفعال. المغناطيس قوي بشكل مدهش – لم يتحرك هاتفي حتى على المطبات. يشبك بإحكام في فتحة التكييف ولا يهتز. إذا كنت تريد حاملاً بسيطاً يمسك هاتفك بإحكام فقط، فهذا هو."

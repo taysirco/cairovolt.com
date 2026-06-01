@@ -33,11 +33,11 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
             metaDescription: 'عربيتك جوّاها بتوصل 70°م في صيف القاهرة وكابلاتك بتتلف. اعرف ليه بالعلم وإزاي تحميها بحلول ذكية ورخيصة من كايرو فولت.',
             keywords: 'حماية كابل شحن من الحرارة, كابل شحن العربية صيف, تلف كابل من الشمس, كابل USB-C للسيارة, حر مصر وكابل الشحن, حماية كابلات السيارة, best cable for hot car egypt, كابل مقاوم للحرارة',
             excerpt: 'عربيتك بتوصل 70°م في صيف القاهرة — والكابل العادي مش متصمم يتحمل ده. اعرف ليه بيتلف وإزاي تحميه بـ 5 حلول علمية مجربة.',
-            quickAnswer: 'جوّه العربية في صيف القاهرة بيوصل 70-80°م عند الزجاج الأمامي. الكابل العادي (PVC) بيبدأ يتلف عند 60°م. الحل: (1) كابل nylon braided مش PVC، (2) متسيبوش الكابل متلوّي في الشمس، (3) خزّنه في الدرج مش على الكرسي. الكابلات المؤهلة: Anker PowerLine+ وJoyroom Speedy Series.',
+            quickAnswer: 'جوّه العربية في صيف القاهرة بيوصل 70-80°م عند الزجاج الأمامي. الكابل العادي (PVC) بيبدأ يتلف عند 60°م. الحل: (1) كابل nylon braided مش PVC، (2) متسيبوش الكابل متلوّي في الشمس، (3) خزّنه في الدرج مش على الكرسي. الكابلات المؤهلة: أنكر PowerLine+ وJoyroom Speedy Series.',
             faq: [
                 {
                     question: 'هل كابل الشحن الرخيص بيتحمل حرارة عربية القاهرة في الصيف؟',
-                    answer: 'لأ. الكابلات الرخيصة مغطّاها بـ PVC اللي بيلين ويتشقق عند 60°م. جوّه العربية بيوصل 70-80°م في الصيف. الكابلات المؤهلة للعربية: nylon braided أو TPE المقاوم للحرارة زي Anker PowerLine+ وJoyroom Speedy Series.'
+                    answer: 'لأ. الكابلات الرخيصة مغطّاها بـ PVC اللي بيلين ويتشقق عند 60°م. جوّه العربية بيوصل 70-80°م في الصيف. الكابلات المؤهلة للعربية: nylon braided أو TPE المقاوم للحرارة زي أنكر PowerLine+ وJoyroom Speedy Series.'
                 },
                 {
                     question: 'إيه أكتر حاجة بتخلّي الكابل يتلف في العربية بسرعة؟',
@@ -45,7 +45,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
                 },
                 {
                     question: 'هل في كابل بيتحمل حرارة 80 درجة مئوية؟',
-                    answer: 'أيوا. كابلات nylon braided زي Anker PowerLine III مصنّفة حتى 80°م. الـ nylon نفسه لا يلين تحت الحرارة زي PVC. بالإضافة لده، الـ Kevlar الموجود في بعض كابلات Anker بيضمن مقاومة شد ≥ 25kg حتى في الحرارة العالية.'
+                    answer: 'أيوا. كابلات nylon braided زي أنكر PowerLine III مصنّفة حتى 80°م. الـ nylon نفسه لا يلين تحت الحرارة زي PVC. بالإضافة لده، الـ Kevlar الموجود في بعض كابلات أنكر بيضمن مقاومة شد ≥ 25kg حتى في الحرارة العالية.'
                 },
                 {
                     question: 'ممكن أرجع الكابل اللي اتلف من الحرارة؟',
@@ -56,7 +56,7 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> جوّه العربية في صيف القاهرة بيوصل 70-80°م عند الزجاج الأمامي. الكابل العادي (PVC) بيبدأ يتلف عند 60°م. الحل: (1) كابل nylon braided مش PVC، (2) متسيبوش الكابل متلوّي في الشمس، (3) خزّنه في الدرج مش على الكرسي. الكابلات المؤهلة: Anker PowerLine+ وJoyroom Speedy Series.
+        <strong>💡 الإجابة السريعة:</strong> جوّه العربية في صيف القاهرة بيوصل 70-80°م عند الزجاج الأمامي. الكابل العادي (PVC) بيبدأ يتلف عند 60°م. الحل: (1) كابل nylon braided مش PVC، (2) متسيبوش الكابل متلوّي في الشمس، (3) خزّنه في الدرج مش على الكرسي. الكابلات المؤهلة: أنكر PowerLine+ وJoyroom Speedy Series.
     </p>
 </div>
 
@@ -85,8 +85,8 @@ export const protect_cables_car_summer_heat_cairo: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">🔴 <strong>PVC (الأرخص — 20-60 جنيه):</strong> بيلين عند 60°م، بيتشقق عند 70°م، بيتقشر في الصيف المصري بعد 2-4 شهور. الكابلات الصينية الرخيصة كلها PVC.</li>
-    <li style="margin-bottom:16px;">🟡 <strong>TPE (متوسط — 80-200 جنيه):</strong> Thermoplastic Elastomer — مرن حتى 80°م، أفضل من PVC بكتير، بيستخدمه بعض كابلات Joyroom المتوسطة.</li>
-    <li style="margin-bottom:16px;">🟢 <strong>Nylon Braided (الأفضل — 150-350 جنيه):</strong> ضفيرة نايلون حول اللب — مقاوم للحرارة والانثناء. مش بيلين، مش بيتشقق. بيستخدمه Anker PowerLine+ وJoyroom Speedy Series.</li>
+    <li style="margin-bottom:16px;">🟡 <strong>TPE (متوسط — 80-200 جنيه):</strong> Thermoplastic Elastomer — مرن حتى 80°م، أفضل من PVC بكتير، بيستخدمه بعض كابلات جوي روم المتوسطة.</li>
+    <li style="margin-bottom:16px;">🟢 <strong>Nylon Braided (الأفضل — 150-350 جنيه):</strong> ضفيرة نايلون حول اللب — مقاوم للحرارة والانثناء. مش بيلين، مش بيتشقق. بيستخدمه أنكر PowerLine+ وJoyroom Speedy Series.</li>
 </ul>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">

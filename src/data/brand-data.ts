@@ -69,7 +69,7 @@ export const brandData: Record<string, BrandData> = {
             title: 'Anker Egypt',
             description: {
                 en: 'Experience the future of charging with Anker GaNPrime™ and PowerIQ 4.0. The only brand fully optimized for iPhone 17 & Samsung S26 AI features. Official Warranty.',
-                ar: 'اختبر مستقبل الشحن مع تقنيات Anker GaNPrime™ و PowerIQ 4.0. العلامة التجارية الوحيدة المجهزة بالكامل لذكاء هواتف. ضمان الوكيل الرسمي.'
+                ar: 'اختبر مستقبل الشحن مع تقنيات أنكر GaNPrime™ و PowerIQ 4.0. العلامة التجارية الوحيدة المجهزة بالكامل لذكاء هواتف. ضمان الوكيل الرسمي.'
             },
             features: [
                 { en: 'Official Agent Warranty (18 Months)', ar: 'ضمان الوكيل (18 شهر استبدال)' },
@@ -83,10 +83,10 @@ export const brandData: Record<string, BrandData> = {
             { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
             { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/anker/car-chargers', icon: 'car', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
             // Soundcore audio sub-brand cross-link — products migrated to /soundcore/*
-            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوند كور (للصوتيات)' }, description: { en: 'Earbuds + Speakers under Anker\'s dedicated audio brand', ar: 'ايربودز + سبيكرات تحت العلامة الصوتية الفرعية من Anker' }, href: '/soundcore', icon: 'headphones', volume: { en: '20K+ searches/mo', ar: '20K+ بحث/شهر' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
+            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوند كور (للصوتيات)' }, description: { en: 'Earbuds + Speakers under Anker\'s dedicated audio brand', ar: 'ايربودز + سبيكرات تحت العلامة الصوتية الفرعية من أنكر' }, href: '/soundcore', icon: 'headphones', volume: { en: '20K+ searches/mo', ar: '20K+ بحث/شهر' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
         ],
         whySection: {
-            title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا Anker هي الأفضل عالمياً؟' },
+            title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا أنكر هي الأفضل عالمياً؟' },
             items: [
                 { icon: 'globe', title: { en: '#1 Global Leader', ar: 'الأولى عالمياً بلا منازع' }, description: { en: 'Dominated the charging market since 2011', ar: 'تسيطر على سوق الشحن منذ 2011' } },
                 { icon: 'brain', title: { en: 'AI PowerIQ 4.0', ar: 'ذكاء اصطناعي PowerIQ 4.0' }, description: { en: 'Adapts power to your device\'s needs', ar: 'يتكيف مع احتياج هاتفك لحظياً' } },
@@ -136,8 +136,8 @@ export const brandData: Record<string, BrandData> = {
                 keywords: 'anker egypt, anker, anker power bank, anker charger, anker cable, anker car charger, anker verify, anker gan, anker powercore, anker powerline, anker prime, anker nano, anker wholesale egypt',
             },
             ar: {
-                title: 'Anker Egypt | انكر مصر — الوكيل الرسمي للشواحن والباور بانك',
-                description: 'موقع انكر مصر الرسمي للشحن. تسوق شواحن Anker GaNPrime، باور بانك PowerCore، كابلات PowerLine، وشواحن السيارة. ضمان الوكيل 18 شهر استبدال فوري. لمنتجات الصوتيات (ساوند كور) تصفّح /soundcore.',
+                title: 'أنكر Egypt | انكر مصر — الوكيل الرسمي للشواحن والباور بانك',
+                description: 'موقع انكر مصر الرسمي للشحن. تسوق شواحن أنكر GaNPrime، باور بانك PowerCore، كابلات PowerLine، وشواحن السيارة. ضمان الوكيل 18 شهر استبدال فوري. لمنتجات الصوتيات (ساوند كور) تصفّح /soundcore.',
                 keywords: 'انكر مصر, أنكر, انكر, توكيل انكر, موقع انكر, وكيل انكر, باور بانك انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
             }
         },
@@ -146,12 +146,12 @@ export const brandData: Record<string, BrandData> = {
                 title: 'أنكر مصر: عندما تجتمع القوة مع الذكاء الاصطناعي',
                 sections: [
                     {
-                        heading: 'لماذا تعتبر Anker الخيار الأول في مصر؟',
-                        content: 'منذ دخولها السوق المصري، غيرت Anker مفهوم "الشحن" من مجرد ملحق إضافي إلى تقنية أساسية تعتمد عليها حياتك اليومية. بفضل تقنيات مثل **PowerIQ 4.0** التي تتعرف على نوع هاتفك (سواء كان iPhone 17 أو Samsung S26) وتعطيه الفولت المناسب بالضبط، أصبحت انكر "صديقة البطارية" الأولى.'
+                        heading: 'لماذا تعتبر أنكر الخيار الأول في مصر؟',
+                        content: 'منذ دخولها السوق المصري، غيرت أنكر مفهوم "الشحن" من مجرد ملحق إضافي إلى تقنية أساسية تعتمد عليها حياتك اليومية. بفضل تقنيات مثل **PowerIQ 4.0** التي تتعرف على نوع هاتفك (سواء كان iPhone 17 أو Samsung S26) وتعطيه الفولت المناسب بالضبط، أصبحت انكر "صديقة البطارية" الأولى.'
                     },
                     {
                         heading: 'ضمان الوكيل: استثمار آمن 100%',
-                        content: 'شراء منتج Anker الأصلي يعني حصولك على ضمان استبدال فوري لمدة 18 شهراً. لا مزيد من القلق بشأن المنتجات المقلدة التي تضر بجهازك. نحن نضمن لك راحة البال، وجودة التصنيع، وتقنية **ActiveShield 2.0** التي تراقب حرارة الشاحن 3 مليون مرة يومياً.'
+                        content: 'شراء منتج أنكر الأصلي يعني حصولك على ضمان استبدال فوري لمدة 18 شهراً. لا مزيد من القلق بشأن المنتجات المقلدة التي تضر بجهازك. نحن نضمن لك راحة البال، وجودة التصنيع، وتقنية **ActiveShield 2.0** التي تراقب حرارة الشاحن 3 مليون مرة يومياً.'
                     }
                 ]
             },
@@ -173,9 +173,9 @@ export const brandData: Record<string, BrandData> = {
             ar: [
                 { question: 'كيف أتأكد أن منتج انكر أصلي 100%؟', answer: 'ابحث دائماً عن "العلامة المائية الثلاثية" (Hologram) الخاصة بالوكيل على العلبة. يمكنك أيضاً مسح QR Code الموجود للتحقق عبر موقع انكر الرسمي. نحن في CairoVolt نضمن لك منتجات أصلية 100% مع ضمان استبدال فوري.' },
                 { question: 'ما الفرق بين ضمان أنكر في CairoVolt وأمازون/نون؟', answer: 'في المتاجر العامة (Marketplaces)، الضمان يعتمد على البائع وقد يكون 14 يوماً فقط. أما في CairoVolt، بصفتنا موزع معتمد، نقدم "ضمان الوكيل الرسمي" لمدة 18 شهراً. إذا حدث أي عيب صناعة، نستبدل المنتج بجديد فوراً، وليس صيانة.' },
-                { question: 'ما هو الفرق بين تقنية PowerIQ و PD (Power Delivery)؟', answer: 'تقنية **PD** هي معيار عالمي للشحن السريع (للآيفون واللابتوب). أما **PowerIQ** فهي تقنية حصرية لـ Anker تتعرف بذكاء على نوع جهازك (سواء سامسونج، آيفون، أو سماعة) وتعطيه أقصى سرعة آمنة له. شواحن Anker الجديدة تدمج الاثنين معاً!' },
+                { question: 'ما هو الفرق بين تقنية PowerIQ و PD (Power Delivery)؟', answer: 'تقنية **PD** هي معيار عالمي للشحن السريع (للآيفون واللابتوب). أما **PowerIQ** فهي تقنية حصرية لـ أنكر تتعرف بذكاء على نوع جهازك (سواء سامسونج، آيفون، أو سماعة) وتعطيه أقصى سرعة آمنة له. شواحن أنكر الجديدة تدمج الاثنين معاً!' },
                 { question: 'هل شواحن انكر تضر ببطارية الايفون (Battery Health)؟', answer: 'على العكس تماماً! شواحن انكر تأتي بتقنية **ActiveShield 2.0** التي تراقب الحرارة 3 مليون مرة يومياً لتمنع السخونة التي تضر البطارية. كما أنها حاصلة على شهادة MFi من آبل، مما يعني أنها آمنة تماماً مثل الشاحن الأصلي وأحياناً أفضل تبريداً.' },
-                { question: 'لماذا تعتبر منتجات Anker استثمار جيد؟', answer: 'إذا كنت تبحث عن \"أعلى أداء وتكنولوجيا في العالم\" وتدفع مقابل الاستدامة، فـ **Anker** هي الأفضل (استثمار طويل الأمد). منتجاتنا مصممة لتعيش سنوات طويلة مع الحفاظ على كفاءتها.' },
+                { question: 'لماذا تعتبر منتجات أنكر استثمار جيد؟', answer: 'إذا كنت تبحث عن \"أعلى أداء وتكنولوجيا في العالم\" وتدفع مقابل الاستدامة، فـ **أنكر** هي الأفضل (استثمار طويل الأمد). منتجاتنا مصممة لتعيش سنوات طويلة مع الحفاظ على كفاءتها.' },
                 { question: 'أين يوجد مركز صيانة انكر المعتمد في مصر؟', answer: 'لا داعي للبحث عن "مركز صيانة"! سياسة الضمان لدينا هي "الاستبدال الفوري". إذا واجهت مشكلة خلال 18 شهراً، تواصل معنا عبر واتساب وسنقوم باستبدال المنتج لك من خلال فروعنا أو الشحن.' }
             ],
             en: [
@@ -189,7 +189,7 @@ export const brandData: Record<string, BrandData> = {
         },
         quickAnswer: {
             en: 'Anker is the world\'s #1 charging brand (power banks, GaN chargers, cables, car chargers) — available in Egypt via CairoVolt with 18-month warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 375), 100W laptop charger. For Anker\'s audio sub-brand Soundcore (earbuds + Bluetooth speakers), visit /soundcore.',
-            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن (باور بانك، شواحن GaN، كابلات، شواحن سيارة) — متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، شاحن لابتوب 100W. للعلامة الفرعية للصوتيات من Anker (ساوند كور — ايربودز وسبيكرات بلوتوث) تصفّح /soundcore.'
+            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن (باور بانك، شواحن GaN، كابلات، شواحن سيارة) — متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، شاحن لابتوب 100W. للعلامة الفرعية للصوتيات من أنكر (ساوند كور — ايربودز وسبيكرات بلوتوث) تصفّح /soundcore.'
         }
     },
     joyroom: {
@@ -209,7 +209,7 @@ export const brandData: Record<string, BrandData> = {
             ],
             heroProduct: {
                 label: { en: 'The Legend:', ar: 'الأسطورة:' },
-                link: { href: '/joyroom/audio', text: { en: 'Joyroom T03s - The AirPods Alternative', ar: 'Joyroom T03s - البديل الاستراتيجي للايربودز' } }
+                link: { href: '/joyroom/audio', text: { en: 'Joyroom T03s - The AirPods Alternative', ar: 'جوي روم T03s - البديل الاستراتيجي للايربودز' } }
             }
         },
         categories: [
@@ -221,7 +221,7 @@ export const brandData: Record<string, BrandData> = {
             { title: { en: 'Car Holders', ar: 'حوامل سيارة' }, description: { en: 'Strong Magnets', ar: 'مغناطيس قوي جداً' }, href: '/joyroom/car-holders', icon: 'compass', volume: { en: 'New', ar: 'جديد' } },
         ],
         whySection: {
-            title: { en: 'Why Choose Joyroom?', ar: 'لماذا تختار Joyroom؟' },
+            title: { en: 'Why Choose Joyroom?', ar: 'لماذا تختار جوي روم؟' },
             items: [
                 { icon: 'coin', title: { en: 'Budget King', ar: 'ملك التوفير' }, description: { en: 'Flagship features at 1/4 price', ar: 'مواصفات الفلاجشيب بربع الثمن' } },
                 { icon: 'sparkles', title: { en: 'Premium Design', ar: 'تصميم بريميوم' }, description: { en: 'Looks and feels expensive', ar: 'شكل وملمس غالي' } },
@@ -270,7 +270,7 @@ export const brandData: Record<string, BrandData> = {
                 keywords: 'joyroom egypt, joyroom t03s, joyroom t03s pro, joyroom power bank, joyroom charger, joyroom cable, joyroom egypt original, best budget earbuds egypt',
             },
             ar: {
-                title: 'Joyroom Egypt | جوي روم مصر - ملك التوفير (T03s الأصلية)',
+                title: 'جوي روم Egypt | جوي روم مصر - ملك التوفير (T03s الأصلية)',
                 description: 'متجر جوي روم مصر المعتمد. احصل على سماعات T03s الأسطورية، وباور بانك آمن ببطاريات Grade A+. تأكد من أصالة المنتج بالكود الذهبي.',
                 keywords: 'جوي روم, جوي روم الاصلي, سماعة جوي روم, سعر t03s في مصر, سعر سماعة جوي روم, جوي روم t03s, سعر جوي روم t03s, جويروم, باور بانك جوي روم, شاحن جوي روم',
             }
@@ -281,7 +281,7 @@ export const brandData: Record<string, BrandData> = {
                 sections: [
                     {
                         heading: 'لماذا يلقبونها بـ "آبل الغلابة"؟',
-                        content: 'استطاعت جوي روم (Joyroom) أن تكتسح السوق المصري بمنتج واحد أسطوري: **T03s**. هذه السماعة قدمت تجربة الايربودز (فتح العلبة، العزل، نقاء الصوت) ولكن بربع الثمن. هي ليست مجرد سماعة رخيصة، هي "استثمار ذكي" لكل طالب أو موظف يريد التكنولوجيا بدون دفع مبالغ طائلة.'
+                        content: 'استطاعت جوي روم (جوي روم) أن تكتسح السوق المصري بمنتج واحد أسطوري: **T03s**. هذه السماعة قدمت تجربة الايربودز (فتح العلبة، العزل، نقاء الصوت) ولكن بربع الثمن. هي ليست مجرد سماعة رخيصة، هي "استثمار ذكي" لكل طالب أو موظف يريد التكنولوجيا بدون دفع مبالغ طائلة.'
                     },
                     {
                         heading: 'خدعوك فقالوا: رخيص يعني سيء!',

@@ -158,7 +158,7 @@ export const anker_zolo_a110e_20000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">الباور بانكات الرخيصة بأرقام mAh وهمية منتشرة في السوق المصري. باور بانك "20,000 مللي أمبير" من العتبة غالباً فيه 8,000 بس سعة حقيقية. أرقام Anker مطابقة للاختبار المعملي. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">الباور بانكات الرخيصة بأرقام mAh وهمية منتشرة في السوق المصري. باور بانك "20,000 مللي أمبير" من العتبة غالباً فيه 8,000 بس سعة حقيقية. أرقام أنكر مطابقة للاختبار المعملي. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
                 features: ["⚡ شحن سريع 22.5 واط", "🔋 20,000 مللي أمبير (74Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (74Wh)", "🔌 شحن 3 أجهزة", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
@@ -173,7 +173,7 @@ export const anker_zolo_a110e_20000 = {
                 ]
             }
         },
-        meta: { keywords: "anker zolo 20000, anker a110e, انكر زولو 20000, باور بانك 20000 بكابل مدمج, anker 20k power bank, power bank anker, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker zolo 20000mah, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026", mainTerm: "anker zolo 20000mah" },
+        meta: { keywords: "أنكر zolo 20000, أنكر a110e, انكر زولو 20000, باور بانك 20000 بكابل مدمج, أنكر 20k power bank, power bank أنكر, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, أنكر zolo 20000mah, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026", mainTerm: "anker zolo 20000mah" },
         expertOpinion: {
         en: "Your blackout insurance and travel companion. Charges two phones for days, not hours. Perfect for Egyptian power outage seasons, long trips, and heavy phone users who drain batteries fast.",
         ar: "تأمينك ضد انقطاع الكهرباء ورفيقك في السفر. بيشحن موبايلين لأيام مش ساعات. مثالي لمواسم قطع الكهرباء في مصر والرحلات الطويلة."

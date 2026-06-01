@@ -19,9 +19,9 @@ export const soundcore_life_u2i_neckband_reviews: ProductReview[] = [
         datePublished: '2026-04-10',
         reviewBody: {
             en: 'At 739 EGP, this is the cheapest Soundcore product period. I bought it for my daily Metro commute — 22h means I charge once a week. BassUp makes Arabic pop sound great. The neckband sits under my hijab without any discomfort. 28g is literally nothing.',
-            ar: 'بـ 739 جنيه، ده أرخص منتج Soundcore أساساً. اشتريتها للمترو اليومي — 22 ساعة يعني بشحن مرة في الأسبوع. BassUp بتخلي البوب العربي صوته حلو. النيكباند بيقعد تحت الحجاب بدون أي عدم راحة. 28 جرام حرفياً مفيش.'
+            ar: 'بـ 739 جنيه، ده أرخص منتج ساوندكور أساساً. اشتريتها للمترو اليومي — 22 ساعة يعني بشحن مرة في الأسبوع. BassUp بتخلي البوب العربي صوته حلو. النيكباند بيقعد تحت الحجاب بدون أي عدم راحة. 28 جرام حرفياً مفيش.'
         },
-        pros: { en: ['739 EGP cheapest Soundcore', 'BassUp for Arabic pop', 'Neckband sits under hijab comfortably'], ar: ['739 جنيه أرخص Soundcore', 'BassUp للبوب العربي', 'نيكباند بيقعد تحت الحجاب بسهولة'] },
+        pros: { en: ['739 EGP cheapest Soundcore', 'BassUp for Arabic pop', 'Neckband sits under hijab comfortably'], ar: ['739 جنيه أرخص ساوندكور', 'BassUp للبوب العربي', 'نيكباند بيقعد تحت الحجاب بسهولة'] },
     },
     {
         author: 'Tamer Hosny',

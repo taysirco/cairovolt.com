@@ -26,7 +26,7 @@ export const joyroom_25w_fast_charger = {
                 name: "Joyroom 25W PD Charger | iPhone 17 0→50% in 25 Min | Samsung Super Fast | 36-Month Warranty",
                 shortDescription: "⚡ 25W PD 3.0 | 📱 iPhone 17 0→50% in 25 Min | 📱 Samsung S26 Super Fast | 🛡️ MultiProtect | 🔌 Ultra-Compact | 🏆 36-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike the charger your phone came without in the box, The <strong>Joyroom 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike the charger your phone came without in the box, The <strong>جوي روم 25W PD 3.0</strong> is the "family charger" — one charger for iPhone 17 AND Samsung S26. <strong>0→50% in 25 min</strong> for iPhone, Super Fast for Samsung. 36-month warranty. At 342 EGP, it replaces buying 2 separate chargers. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -59,7 +59,7 @@ export const joyroom_25w_fast_charger = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">36-Month Warranty: 3x the Industry Standard</h2>
-        <p class="text-gray-700">Most chargers come with 12-month warranties. This Joyroom charger comes with <strong>36 months</strong> — that's 3 full years of coverage. If anything goes wrong, CairoVolt handles the replacement directly. <strong>MultiProtect 5-layer safety</strong> means your phone's battery stays healthy long-term.</p>
+        <p class="text-gray-700">Most chargers come with 12-month warranties. This جوي روم charger comes with <strong>36 months</strong> — that's 3 full years of coverage. If anything goes wrong, CairoVolt handles the replacement directly. <strong>MultiProtect 5-layer safety</strong> means your phone's battery stays healthy long-term.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -149,7 +149,7 @@ export const joyroom_25w_fast_charger = {
                 ]
             }
         },
-        meta: { keywords: "joyroom 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, joyroom charger egypt, شاحن سريع رخيص مصر", mainTerm: "joyroom 25w charger" },
+        meta: { keywords: "جوي روم 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم samsung charger, جوي روم best charger egypt 2026, جوي روم cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, جوي روم charger egypt, شاحن سريع رخيص مصر", mainTerm: "joyroom 25w charger" },
         expertOpinion: {
         en: "The household peacekeeper — one charger that fast-charges both iPhone and Samsung equally well. Perfect for families with mixed devices. Best value under 300 EGP.",
         ar: "شاحن السلام المنزلي — شاحن واحد بيشحن ايفون وسامسونج بنفس السرعة. مثالي للعيلة اللي عندها أجهزة مختلفة. أفضل قيمة تحت 300 جنيه."

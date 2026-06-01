@@ -19,7 +19,7 @@ export const soundcore_p25i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-04-01',
         reviewBody: {
             en: 'My first Soundcore product. 770 EGP for 10mm BassUp, BT 5.3, IPX5, game mode, and app EQ? Unbeatable. I listen to Amr Diab and Tamer Hosny all day on Metro — BassUp makes Arabic pop bass lines come alive. 10h per charge means I charge every 2 days. CairoVolt delivered to Tanta in 3 days.',
-            ar: 'أول منتج Soundcore ليا. 770 جنيه لـ 10mm BassUp, BT 5.3, IPX5, وضع ألعاب, وEQ في التطبيق؟ مفيش منافس. بسمع عمرو دياب وتامر حسني طول اليوم في المترو — BassUp بتخلي خطوط باس البوب العربي تقوم. 10 ساعات لكل شحنة يعني بشحن كل يومين. كايرو فولت وصّلت لطنطا في 3 أيام.'
+            ar: 'أول منتج ساوندكور ليا. 770 جنيه لـ 10mm BassUp, BT 5.3, IPX5, وضع ألعاب, وEQ في التطبيق؟ مفيش منافس. بسمع عمرو دياب وتامر حسني طول اليوم في المترو — BassUp بتخلي خطوط باس البوب العربي تقوم. 10 ساعات لكل شحنة يعني بشحن كل يومين. كايرو فولت وصّلت لطنطا في 3 أيام.'
         },
         pros: { en: ['BassUp amazing for Arabic pop', '10h per charge for Metro commute', 'Delivered to Tanta in 3 days'], ar: ['BassUp خيالية للبوب العربي', '10 ساعات لمواصلات المترو', 'وصّلت لطنطا في 3 أيام'] },
     },
@@ -65,9 +65,9 @@ export const soundcore_p25i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-05-15',
         reviewBody: {
             en: 'Bought these as backup earbuds and they quickly became my daily driver. The compact case disappears in my pocket. Voice calls are surprisingly clear with the 2-mic AI noise cancellation — my colleagues can hear me perfectly even in Zamalek traffic. The touch controls are responsive. Soundcore app detected them instantly which confirms they are genuine.',
-            ar: 'اشتريتهم كسماعات احتياطية وبسرعة بقوا سماعتي اليومية. العلبة الصغيرة بتختفي في جيبي. المكالمات الصوتية واضحة بشكل مفاجئ مع إلغاء الضوضاء بالـ AI بـ 2 ميكروفون — زملائي بيسمعوني كويس حتى في زحمة الزمالك. أزرار اللمس متجاوبة. تطبيق Soundcore كشفهم فوراً وده بيأكد إنهم أصليين.'
+            ar: 'اشتريتهم كسماعات احتياطية وبسرعة بقوا سماعتي اليومية. العلبة الصغيرة بتختفي في جيبي. المكالمات الصوتية واضحة بشكل مفاجئ مع إلغاء الضوضاء بالـ AI بـ 2 ميكروفون — زملائي بيسمعوني كويس حتى في زحمة الزمالك. أزرار اللمس متجاوبة. تطبيق ساوندكور كشفهم فوراً وده بيأكد إنهم أصليين.'
         },
-        pros: { en: ['Ultra-compact case', 'AI call clarity in traffic noise', 'Soundcore app verified genuine'], ar: ['علبة صغيرة جداً', 'وضوح مكالمات AI في ضوضاء المرور', 'تطبيق Soundcore أكد الأصالة'] },
+        pros: { en: ['Ultra-compact case', 'AI call clarity in traffic noise', 'Soundcore app verified genuine'], ar: ['علبة صغيرة جداً', 'وضوح مكالمات AI في ضوضاء المرور', 'تطبيق ساوندكور أكد الأصالة'] },
     },
     {
         author: 'Walaa Ibrahim',
@@ -110,7 +110,7 @@ export const soundcore_p25i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-04-08',
         reviewBody: {
             en: 'Coming from 150 EGP market earbuds to P25i is like switching from AM radio to FM. The 10mm driver makes everything sound richer. BassUp is addictive. The Soundcore app EQ is a bonus I didn\'t expect at this price. CairoVolt cash on delivery to Kafr El-Sheikh — perfect.',
-            ar: 'الانتقال من سماعات السوق بـ 150 جنيه لـ P25i زي التبديل من AM لـ FM. درايفر 10mm بيخلي كل حاجة أغنى. BassUp إدمان. EQ تطبيق Soundcore بونص ما كنتش أتوقعه بالسعر. كايرو فولت دفع عند الاستلام لكفر الشيخ — مثالي.'
+            ar: 'الانتقال من سماعات السوق بـ 150 جنيه لـ P25i زي التبديل من AM لـ FM. درايفر 10mm بيخلي كل حاجة أغنى. BassUp إدمان. EQ تطبيق ساوندكور بونص ما كنتش أتوقعه بالسعر. كايرو فولت دفع عند الاستلام لكفر الشيخ — مثالي.'
         },
         pros: { en: ['AM to FM upgrade experience', '10mm richer everything', 'COD delivery Kafr El-Sheikh'], ar: ['تجربة ترقية AM لـ FM', '10mm أغنى لكل حاجة', 'توصيل دفع عند الاستلام كفر الشيخ'] },
     },

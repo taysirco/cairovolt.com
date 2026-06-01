@@ -89,15 +89,15 @@ export const anker_soundcore_motion_plus = {
                 ]
             },
             ar: {
-                name: "سماعة انكر Soundcore Motion+ | سماعة تجمعات الرووف والساحل اللي مبتفصلش | ضمان 18 شهر",
+                name: "سماعة انكر ساوندكور Motion+ | سماعة تجمعات الرووف والساحل اللي مبتفصلش | ضمان 18 شهر",
                 shortDescription: "صوت جبار 30 وات بيملا رووف كامل 🔊 | 💧 IPX7 بتنزل حمام سباحة عادي | 🔋 12 ساعة بطارية هتكفيك سهرة كاملة | 🎚️ حرر الصوت بتطبيق EQ",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السبيكرات الرخيصة بباص مشوش وبطارية قصيرة، <strong>سماعة أنكر Soundcore Motion+ (A3116)</strong> سماعة 30 واط بشهادة Hi-Res Audio وQualcomm aptX. مقاومة ماء IPX7، بطارية 12 ساعة (6700mAh)، BassUp™، تحكم EQ من تطبيق Soundcore، بلوتوث 5.0 + AUX. التويترز بزاوية 15° بتوزع الصوت في الغرفة كلها. سعر 3,600 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السبيكرات الرخيصة بباص مشوش وبطارية قصيرة، <strong>سماعة أنكر ساوندكور Motion+ (A3116)</strong> سماعة 30 واط بشهادة Hi-Res Audio وQualcomm aptX. مقاومة ماء IPX7، بطارية 12 ساعة (6700mAh)، BassUp™، تحكم EQ من تطبيق ساوندكور، بلوتوث 5.0 + AUX. التويترز بزاوية 15° بتوزع الصوت في الغرفة كلها. سعر 3,600 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات “Motion+” المضروبة منتشرة في السوق المصري. بتستخدم محرك 5 واط واحد بيقولوا 30واط وبطاريتها الحقيقية 2-3 ساعات. الأصلية عليها شهادة Hi-Res ظاهرة على الجسم وبتتوصل بتطبيق Soundcore لتخصيص EQ. لو التطبيق مش شايف السماعة، يبقى مضروبة. اشتري من موزعين معتمدين بس.</p>
+    <p class="text-gray-700">سماعات “Motion+” المضروبة منتشرة في السوق المصري. بتستخدم محرك 5 واط واحد بيقولوا 30واط وبطاريتها الحقيقية 2-3 ساعات. الأصلية عليها شهادة Hi-Res ظاهرة على الجسم وبتتوصل بتطبيق ساوندكور لتخصيص EQ. لو التطبيق مش شايف السماعة، يبقى مضروبة. اشتري من موزعين معتمدين بس.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
@@ -146,7 +146,7 @@ export const anker_soundcore_motion_plus = {
 `,
                 features: ["🔈 صوت 30 وات (Hi-Res)", "🔋 بطارية 12 ساعة (6700mAh)", "💧 مقاومة ماء IPX7", "📱 بلوتوث 5.0 + AUX", "🎚️ تطبيق للتحكم في الـ EQ", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE + IPX7 → معايير السلامة العالمية", "🔒 مقاومة كاملة للماء IPX7"],
                 metaTitle: "سماعة انكر Motion+ ⚡ خصم 16% | صوت 30 واط Hi-Res | COD مصر",
-                metaDesc: "اشتري سماعة Anker Motion+ الأصلية في مصر. صوت ستيريو 30 وات، مقاومة للماء IPX7، بطارية 12 ساعة. ضمان 18 شهر من كايرو فولت وتوصيل سريع.",
+                metaDesc: "اشتري سماعة أنكر Motion+ الأصلية في مصر. صوت ستيريو 30 وات، مقاومة للماء IPX7، بطارية 12 ساعة. ضمان 18 شهر من كايرو فولت وتوصيل سريع.",
                 faqs: [
                     { question: "هل الـ Motion+ تنفع للتلفزيون؟", answer: "نعم، ممكن توصلها بـ AUX 3.5mm لصوت نقي جداً، أو بلوتوث لو التلفزيون بيدعم. بتديك تجربة سينمائية مصغرة في غرفتك." },
                     { question: "هل صوتها عالي كفاية لحفلة؟", answer: "جداً! بقوة 30 وات وتقنية BassUp، تغطي غرفة كبيرة أو مساحة خارجية مفتوحة (زي جنينة أو رووف) بصوت قوي وواضح." },
@@ -157,8 +157,8 @@ export const anker_soundcore_motion_plus = {
             }
         },
         meta: {
-            keywords: "anker motion+, soundcore motion+ egypt, سعر anker motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, anker speaker egypt, soundcore app, waterproof speaker cairo, anker bluetooth speaker egypt, anker portable speaker, anker best speaker egypt 2026, anker cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, سماعة anker motion+",
-            mainTerm: "سماعة anker motion+"
+            keywords: "أنكر motion+, ساوندكور motion+ egypt, سعر أنكر motion+, سماعة انكر 30 وات, افضل سماعة بلوتوث مصر, أنكر speaker egypt, ساوندكور app, waterproof speaker cairo, أنكر bluetooth speaker egypt, أنكر portable speaker, أنكر best speaker egypt 2026, أنكر cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, سماعة أنكر motion+",
+            mainTerm: "سماعة أنكر motion+"
         },
         expertOpinion: {
             en: "The Motion+ is hands-down the best Bluetooth speaker around EGP 2850 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",

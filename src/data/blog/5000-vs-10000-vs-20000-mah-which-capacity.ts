@@ -30,7 +30,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
             title: '5000mAh أم 10000mAh أم 20000mAh — أي سعة باور بانك تناسب احتياجك فعلاً في 2026؟',
             metaTitle: '5000 ضد 10000 ضد 20000mAh — أي سعة تناسبك؟ | كايرو فولت',
             metaDescription: '5000mAh = شحنة واحدة، 10000mAh = شحنتين، 20000mAh = 4 شحنات — لكن السعة الأكبر مش دايماً الأذكى. اختبار 30 يوم على 5 سيناريوهات يومية.',
-            keywords: 'افضل سعة باور بانك, 5000mah ضد 10000mah, 10000 ضد 20000 mah, اي باور بانك اشتري, mah meaning power bank, سعة باور بانك مناسبة, anker 10000 vs 20000, joyroom power bank capacity egypt 2026',
+            keywords: 'افضل سعة باور بانك, 5000mah ضد 10000mah, 10000 ضد 20000 mah, اي باور بانك اشتري, mah meaning power bank, سعة باور بانك مناسبة, أنكر 10000 vs 20000, جوي روم power bank capacity egypt 2026',
             excerpt: 'هل 20,000mAh دايماً أفضل من 10,000mAh؟ الإجابة: لا. السعة الأكبر = وزن أثقل + شحن ذاتي أبطأ + سعر أعلى. اختبرنا 5 سيناريوهات يومية على 3 سعات لمدة شهر.',
             quickAnswer: 'السعة المناسبة تعتمد على استخدامك اليومي: (1) 5,000mAh = شحنة واحدة لـ iPhone — للجيب والاستخدام الطارئ القصير، (2) 10,000mAh = شحنتين — الأفضل لـ 70% من المستخدمين (الموظف، الطالب، الكافيه)، (3) 20,000mAh = 4 شحنات — للسفر والـ camping ومستخدمي اللابتوب. القاعدة: اضرب سعة بطارية موبايلك × 2.5 — هذا هو الـ mAh المناسب.',
             content: `<p>أمام رف الباور بانكات في كايرو فولت، السؤال اللي بيتكرر كل يوم: <strong>"أخد 5000 ولا 10000 ولا 20000؟"</strong>. القاعدة الشائعة في السوق المصري: "كل ما زاد الـ mAh كل ما كان أحسن". هذا غير صحيح. السعة الأكبر تعني: (1) <strong>وزن أثقل</strong> — 5,000mAh = 115 جرام، 20,000mAh = 405 جرام، (2) <strong>شحن ذاتي أبطأ</strong> — 5,000mAh يمتلي في 90 دقيقة، 20,000mAh يحتاج 5+ ساعات، (3) <strong>سعر أعلى</strong> بدون فائدة فعلية لمعظم المستخدمين. الحقيقة الذكية: <em>السعة المناسبة هي اللي تطابق احتياجك اليومي بالضبط — مش الأقل ولا الأكثر</em>. اختبرنا 3 سعات على 5 سيناريوهات استخدام يومي حقيقي لمدة شهر. النتائج بتحدد بالأرقام أي سعة تناسب أي شخصية.</p>
@@ -92,7 +92,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
             <td style="padding:12px;border:1px solid #d1d5db;">2.68 شحنة</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (Anker Prime)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (أنكر Prime)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>15,725mAh</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">11,100mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3.36 شحنة</td>
@@ -140,7 +140,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Joyroom Power Bank 10,000mAh</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جوي روم Power Bank 10,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>450ج</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">أرخص أصلي</td>
             <td style="padding:12px;border:1px solid #d1d5db;">الطالب والميزانية</td>
@@ -160,7 +160,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">انكر باور كور 10,000mAh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">2,150ج</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ضمان 24 شهر + جودة Anker</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>ضمان 24 شهر + جودة أنكر</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">الاستخدام الاحترافي</td>
         </tr>
     </tbody>
@@ -286,7 +286,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">عائلة (4 أجهزة) + يوم رحلة</td>
             <td style="padding:12px;border:1px solid #d1d5db;">4,500 × 4 × 1.6 = 28,800mAh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25,000mAh (Anker Prime)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>25,000mAh (أنكر Prime)</strong></td>
         </tr>
     </tbody>
 </table>
@@ -338,7 +338,7 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
                 },
                 {
                     question: 'هل أحسن أشتري 20,000mAh مرة واحدة بدلاً من تجديد الـ 10,000mAh بعد سنتين؟',
-                    answer: 'لا، الـ 10,000mAh الأصلي يصمد 4-5 سنوات (≈ 800 دورة شحن قبل انخفاض السعة لـ 80%). الفرق بين الـ 10,000mAh (1,270ج Anker ZOLO) و 20,000mAh (1,730ج) = 460ج فقط. لو احتياجك يومياً شحنتين، خد 20,000mAh من البداية. لو شحنة، الـ 10,000mAh أوفر ولا تحتاج تجديد.',
+                    answer: 'لا، الـ 10,000mAh الأصلي يصمد 4-5 سنوات (≈ 800 دورة شحن قبل انخفاض السعة لـ 80%). الفرق بين الـ 10,000mAh (1,270ج أنكر ZOLO) و 20,000mAh (1,730ج) = 460ج فقط. لو احتياجك يومياً شحنتين، خد 20,000mAh من البداية. لو شحنة، الـ 10,000mAh أوفر ولا تحتاج تجديد.',
                 },
             ],
         },

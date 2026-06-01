@@ -125,7 +125,7 @@ export const anker_usb_c_lightning_sureistrong = {
                 metaDesc: "اشتري كابل انكر SureIStrong USB-C إلى Lightning - فاخر ناعم الملمس مع 30 واط PD. معتمد MFi للايفون 14/13/12. أفضل سعر مصر. ✓ ضمان ✓ توصيل سريع مصر.",
                 faqs: [
                     { question: "لماذا انكر وليس كابل عادي؟", answer: "ضمان انكر 24 شهر، واعتماد MFi، والمواد الفاخرة تضمن الأمان والمتانة. الكابلات العادية قد تضر ببطارية ايفونك." },
-                    { question: "الكابل ده بيشتغل مع ايفون 15/16/17؟", answer: "لا — ايفون 15/16/17 بيستخدموا USB-C. SureIStrong كابل Lightning (ايفون 14 وأقدم). لأيفونات USB-C، شوف كابل Anker A8050." },
+                    { question: "الكابل ده بيشتغل مع ايفون 15/16/17؟", answer: "لا — ايفون 15/16/17 بيستخدموا USB-C. SureIStrong كابل Lightning (ايفون 14 وأقدم). لأيفونات USB-C، شوف كابل أنكر A8050." },
                     { question: "30 واط مش هيضر بطارية الايفون؟", answer: "لا. شريحة الشحن في ابل بتتفاوض على الواط المطلوب بالظبط. SureIStrong بيدّي 30 واط بس لما الايفون يطلبها." },
                     { question: "الكابل بيسخن وقت الشحن السريع؟", answer: "الحرارة القصوى مبتعديش 38°م — في النطاق الآمن تماماً. تقوية الألياف الحيوية بتساعد في تبديد الحرارة عند الموصل." },
                     { question: "الضمان 24 شهر بيغطي إيه؟", answer: "استبدال كامل لأي عيب تصنيع — تآكل، عطل موصل، أو مشاكل شحن. كايرو فولت بتتعامل مع مطالبات الضمان في مصر مباشرة." }
@@ -136,6 +136,6 @@ export const anker_usb_c_lightning_sureistrong = {
             en: "This Anker SureIStrong USB-C to Lightning Cable delivers certified charging speeds with durability that outlasts street-market alternatives by 10x. Our 6-month daily-carry test confirmed zero degradation.'s engineering pinnacle for Lightning cables. The bio-based reinforcement at the stress point eliminates the #1 cable failure. If you want one cable that survives Egyptian summers and daily abuse — this is it.",
             ar: "SureIStrong هو قمة هندسة انكر لكابلات Lightning. التقوية الحيوية عند نقطة الضغط تلغي السبب الأول لتلف الكابلات. لو عايز كابل واحد يتحمل صيف مصر والاستخدام اليومي — ده هو."
         },
-        meta: { keywords: "anker sureistrong, anker lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, anker cable egypt, anker charging cable, anker fast charge cable, anker usb c cable, anker iphone cable egypt, anker best cable egypt 2026, anker cod egypt cable, anker durable cable, افضل كابل شحن انكر, سعر كابل انكر, anker sureistrong lightning", mainTerm: "anker sureistrong lightning" },
+        meta: { keywords: "أنكر sureistrong, أنكر lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, أنكر cable egypt, أنكر charging cable, أنكر fast charge cable, أنكر usb c cable, أنكر iphone cable egypt, أنكر best cable egypt 2026, أنكر cod egypt cable, أنكر durable cable, افضل كابل شحن انكر, سعر كابل انكر, أنكر sureistrong lightning", mainTerm: "anker sureistrong lightning" },
         relatedProducts: ["anker-powerline-usb-c-lightning", "anker-powerport-20w", "anker-powercore-10000", "anker-a8050-usb-c-cable", "anker-powercore-20000"]
     };

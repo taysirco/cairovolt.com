@@ -66,7 +66,7 @@ export const soundcore_rave_3_speaker_reviews: ProductReview[] = [
         datePublished: '2026-05-15',
         reviewBody: {
             en: 'Shipped to Aswan in 6 days — impressive for this weight. The 6.5" woofer produces bass you feel in your bones. Tested in Aswan summer heat (45°C ambient) — worked perfectly for 10 hours straight. The twin tweeters give crisp highs that don\'t get lost even outdoors. Auracast pairing with my friend\'s Soundcore speaker for stereo was jaw-dropping. At 9,450 EGP this is a professional-grade speaker at consumer prices.',
-            ar: 'اتشحنت لأسوان في 6 أيام — مثير للإعجاب للوزن ده. الووفر 6.5 بوصة بينتج باس بتحسه في عظامك. اختبرته في حرارة صيف أسوان (45 درجة) — اشتغل ممتاز 10 ساعات متواصلة. التويترين بيدوا ترددات عالية واضحة مش بتتوه حتى في الخارج. ربط Auracast مع سبيكر صاحبي Soundcore لستيريو كان مذهل. بـ 9,450 جنيه دي سبيكر احترافية بسعر استهلاكي.'
+            ar: 'اتشحنت لأسوان في 6 أيام — مثير للإعجاب للوزن ده. الووفر 6.5 بوصة بينتج باس بتحسه في عظامك. اختبرته في حرارة صيف أسوان (45 درجة) — اشتغل ممتاز 10 ساعات متواصلة. التويترين بيدوا ترددات عالية واضحة مش بتتوه حتى في الخارج. ربط Auracast مع سبيكر صاحبي ساوندكور لستيريو كان مذهل. بـ 9,450 جنيه دي سبيكر احترافية بسعر استهلاكي.'
         },
         pros: { en: ['Bass you feel in your bones', 'Works in 45°C Aswan heat', 'Auracast stereo pairing'], ar: ['باس بتحسه في عظامك', 'بتشتغل في حرارة أسوان 45 درجة', 'ربط Auracast ستيريو'] },
     },
@@ -133,7 +133,7 @@ export const soundcore_rave_3_speaker_reviews: ProductReview[] = [
         datePublished: '2026-05-12',
         reviewBody: {
             en: '4 stars: the Soundcore app EQ is essential — without it, the default sound is too bass-heavy for Quran recitations. Once I adjusted the mids and treble, it became beautiful for religious gatherings. 200W at 30% volume fills a majlis perfectly. Wireless mics for adhkar are clear.',
-            ar: '4 نجوم: EQ تطبيق Soundcore ضروري — بدونه، الصوت الافتراضي بيسي جداً لتلاوات القرآن. لما ظبطت الميد والتريبل، بقت جميلة للتجمعات الدينية. 200 واط عند 30% حجم بتملأ المجلس تماماً. الميكروفونات اللاسلكية للأذكار واضحة.'
+            ar: '4 نجوم: EQ تطبيق ساوندكور ضروري — بدونه، الصوت الافتراضي بيسي جداً لتلاوات القرآن. لما ظبطت الميد والتريبل، بقت جميلة للتجمعات الدينية. 200 واط عند 30% حجم بتملأ المجلس تماماً. الميكروفونات اللاسلكية للأذكار واضحة.'
         },
         pros: { en: ['Majlis religious gatherings', 'EQ tuned for Quran', 'Wireless mics for adhkar'], ar: ['تجمعات دينية في المجلس', 'EQ مضبوط للقرآن', 'ميكروفونات لاسلكية للأذكار'] },
         cons: { en: ['Default sound too bass-heavy for recitations'], ar: ['الصوت الافتراضي بيسي جداً للتلاوات'] },

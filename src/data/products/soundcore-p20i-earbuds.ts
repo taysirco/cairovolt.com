@@ -71,7 +71,7 @@ export const soundcore_p20i_earbuds = {
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">هندسة BassUp بـ 10mm: عمق صوتي مُصمَّم</h2>
-        <p class="text-gray-700 leading-relaxed">الـ P20i فيها درايفر 10mm مضبوط بخوارزمية BassUp من Soundcore. على عكس السماعات الرخيصة اللي بتخلط الترددات، الـ P20i بتفصل الباس العميق عن الأصوات البشرية. الغرفة الصوتية من البولي كربونيت بتمنع تراكم الضغط وبتخلي اللبس مريح لساعات.</p>
+        <p class="text-gray-700 leading-relaxed">الـ P20i فيها درايفر 10mm مضبوط بخوارزمية BassUp من ساوندكور. على عكس السماعات الرخيصة اللي بتخلط الترددات، الـ P20i بتفصل الباس العميق عن الأصوات البشرية. الغرفة الصوتية من البولي كربونيت بتمنع تراكم الضغط وبتخلي اللبس مريح لساعات.</p>
         <p class="text-gray-700 leading-relaxed">بلوتوث 5.3 مع multipoint بيخلّيك تتنقل بين الموبايل واللاب أوتوماتيك. 30 ساعة بطارية إجمالي — يعني أسبوعين مواصلات تقريباً قبل ما تحتاج كابل USB-C.</p>
     </section>
     <section>
@@ -86,7 +86,7 @@ export const soundcore_p20i_earbuds = {
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3949Z11 مطبوع جوه غطا العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
+        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
         <li><strong>الوزن:</strong> ~5 جرام للسماعة — المقلدة أخف</li>
         <li><strong>التغليف:</strong> علبة سوداء مطفية بختم هولوجرافيك</li>
         <li><strong>السعر:</strong> أقل من 500 جنيه = مشكوك فيه</li>
@@ -98,14 +98,14 @@ export const soundcore_p20i_earbuds = {
             faqs: [
                     { question: "الـ P20i بتتوصل بجهازين في نفس الوقت؟", answer: "أيوه — multipoint بتوتوث 5.3 بتتصل بالموبايل واللاب مع بعض وبتبدّل الصوت أوتوماتيك." },
                     { question: "الـ P20i بتستحمل رطوبة الجيم في القاهرة؟", answer: "أيوه — IPX5 مع طبقة نانو على الـ PCB. مُختبرة ضد العرق والمطر وتكثف التكييف." },
-                    { question: "P20i ولا R50i — أشتري أنهي؟", answer: "P20i: 699 جنيه، BassUp أساسي، 30 ساعة، قيمة ممتازة. R50i: 950 جنيه، BassUp محسّن، تطبيق Soundcore EQ. لو الميزانية تسمح، R50i أفضل." },
-                    { question: "الـ P20i بتشتغل مع تطبيق Soundcore؟", answer: "أيوه — تخصيص EQ كامل، ضبط أزرار اللمس، وتحديثات firmware من تطبيق Soundcore على iOS و Android." },
+                    { question: "P20i ولا R50i — أشتري أنهي؟", answer: "P20i: 699 جنيه، BassUp أساسي، 30 ساعة، قيمة ممتازة. R50i: 950 جنيه، BassUp محسّن، تطبيق ساوندكور EQ. لو الميزانية تسمح، R50i أفضل." },
+                    { question: "الـ P20i بتشتغل مع تطبيق ساوندكور؟", answer: "أيوه — تخصيص EQ كامل، ضبط أزرار اللمس، وتحديثات firmware من تطبيق ساوندكور على iOS و Android." },
                     { question: "علبة الـ P20i بتتشحن في كام ساعة؟", answer: "حوالي ساعتين بـ USB-C. الشحن السريع 10 دقايق بيدّيك ساعة تشغيل طوارئ." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore p20i, soundcore p20i egypt, anker p20i, p20i earbuds, soundcore p20i price egypt, soundcore p20i review, best budget earbuds egypt 2026, soundcore p20i vs r50i, سماعة ساوندكور p20i, ساوندكور p20i, سعر soundcore p20i, سماعة انكر p20i, ايربودز p20i, أفضل سماعة لاسلكية رخيصة مصر", mainTerm: "soundcore p20i" },
+    meta: { keywords: "ساوندكور p20i, ساوندكور p20i egypt, أنكر p20i, p20i earbuds, ساوندكور p20i price egypt, ساوندكور p20i review, best budget earbuds egypt 2026, ساوندكور p20i vs r50i, سماعة ساوندكور p20i, ساوندكور p20i, سعر ساوندكور p20i, سماعة انكر p20i, ايربودز p20i, أفضل سماعة لاسلكية رخيصة مصر", mainTerm: "soundcore p20i" },
 
     expertOpinion: {
         en: "Best budget TWS in Egypt under 700 EGP. The P20i delivers BassUp 10mm drivers, 30h battery, and Bluetooth 5.3 at a price that makes cheap knockoffs pointless.",

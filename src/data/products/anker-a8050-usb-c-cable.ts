@@ -115,10 +115,10 @@ export const anker_a8050_usb_c_cable = {
                     { question: "بيعيش قد إيه؟", answer: "متحمل 35,000+ دورة ثني. يعني 200 ثنية يومياً لأكتر من 5 سنين. النايلون المضفر بيقاوم الحرارة والتراب." },
                     { question: "بينقل بيانات؟", answer: "أيوه — 480Mbps USB 2.0 لنقل صور وفيديوهات وملفات بين الأجهزة." },
                     { question: "متوافق مع ايفون 17؟", answer: "أيوه — ايفون 17 بيستخدم USB-C. الـ A8050 بيشحنه بـ 27 واط PD بأقصى سرعة. كمان بيشتغل مع سامسونج S26، بيكسل 9، ايباد برو، ماك بوك اير، وكل أجهزة USB-C." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي التهري وعطل الموصل وعيوب الشحن. لو الكابل باظ في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي التهري وعطل الموصل وعيوب الشحن. لو الكابل باظ في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
                 ]
             }
         },
-        meta: { keywords: "anker a8050, anker usb-c cable, anker cable type c, anker usb type c, كابل انكر usb-c, كابل شحن 100 واط, وصله انكر, anker braided cable, anker charging cable, anker fast charge cable, anker iphone cable egypt, anker best cable egypt 2026, anker cod egypt cable, anker durable cable, افضل كابل شحن انكر, سعر كابل انكر, anker usb-c 100w cable", mainTerm: "anker usb-c 100w cable" },
+        meta: { keywords: "أنكر a8050, أنكر usb-c cable, أنكر cable type c, أنكر usb type c, كابل انكر usb-c, كابل شحن 100 واط, وصله انكر, أنكر braided cable, أنكر charging cable, أنكر fast charge cable, أنكر iphone cable egypt, أنكر best cable egypt 2026, أنكر cod egypt cable, أنكر durable cable, افضل كابل شحن انكر, سعر كابل انكر, أنكر usb-c 100w cable", mainTerm: "anker usb-c 100w cable" },
         expertOpinion: { en: "This cable outlasts every budget option by years. If you charge daily and travel weekly, the A8050 pays for itself in 3 months. Not ideal for desk setups where you need 2m+ length — it's 1.8m max.", ar: "الكابل ده بيعيش أضعاف أي كابل رخيص بسنوات. لو بتشحن يومي وبتسافر أسبوعي، A8050 هيوفر عليك في 3 شهور. مش مثالي لو محتاج كابل طويل للمكتب — أقصى طول 1.8 متر." }
     };

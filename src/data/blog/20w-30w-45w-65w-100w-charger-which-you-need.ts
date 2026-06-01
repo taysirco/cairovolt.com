@@ -163,7 +163,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> مهندسين ومصممين ومونتيرين بيشحنوا لابتوب + أجهزة متعددة · السفر (شاحن واحد بدل 3-4) · المكتب.</li>
     <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> اللي بيشحن موبايل بس — مفيش فايدة عملية تخليك تدفع 1,299ج.</li>
-    <li style="margin-bottom:12px;">💰 <strong>السعر في مصر:</strong> Anker 717 GaN 100W (1,299ج) — 3× USB-C + 1× USB-A.</li>
+    <li style="margin-bottom:12px;">💰 <strong>السعر في مصر:</strong> أنكر 717 GaN 100W (1,299ج) — 3× USB-C + 1× USB-A.</li>
 </ul>
 
 <h2>الجدول الشامل — كل فئة واط مقارنة بالأرقام</h2>
@@ -224,7 +224,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #1: "واط أكتر = شحن أسرع دايماً"</strong> — غلط. واط أكتر بيفيد بس لو الجهاز بيقبله. iPhone 17 Pro Max بشاحن 30W = نفس سرعة 100W بالملّي.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #2: "شاحن 100W هيبوظ موبايلي"</strong> — غلط. الموبايل بيسحب اللي يحتاجه بس. مستحيل شاحن 100W يدفع 100W في موبايل بيقبل 27W. بروتوكولات PD و PPS بتنظّم ده تلقائياً.</li>
-    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: "الشاحن الأصلي بتاع الموبايل أحسن حاجة"</strong> — مش دايماً. Apple مبتقدمش شاحن أصلاً. Samsung بتدّي 25W لكن الموبايل بيقبل 45W. شاحن Anker أو Joyroom المعتمد بيدّي نفس الأداء أو أحسن.</li>
+    <li style="margin-bottom:16px;">❌ <strong>الخطأ #3: "الشاحن الأصلي بتاع الموبايل أحسن حاجة"</strong> — مش دايماً. Apple مبتقدمش شاحن أصلاً. Samsung بتدّي 25W لكن الموبايل بيقبل 45W. شاحن أنكر أو جوي روم المعتمد بيدّي نفس الأداء أو أحسن.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #4: "أشتري أقل واط عشان أحمي البطارية"</strong> — مفيش علاقة. الشحن البطيء (5W) ممكن يكون أسوأ لإن الموبايل بيفضل على الشاحن ساعات أطول = حرارة تراكمية أكتر. الشحن السريع 30W بيخلّص في وقت أقل = إجهاد حراري أقل إجمالاً.</li>
     <li style="margin-bottom:16px;">❌ <strong>الخطأ #5: "شاحن 20ج من الميكروباص بيشحن زي شاحن 500ج"</strong> — ده أخطر واحد. شاحن مجهول بـ 20ج مفيهوش حماية فولتية (100-240V). في كهرباء مصر المتذبذبة — خصوصاً في الصيف — ده بيبقى خطر حقيقي على البطارية والموبايل.</li>
 </ul>
@@ -234,7 +234,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ بتشحن لابتوب؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → MacBook Pro أو لابتوب قوي → <strong>Anker 717 GaN 100W</strong> (1,299ج)</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → MacBook Pro أو لابتوب قوي → <strong>أنكر 717 GaN 100W</strong> (1,299ج)</p>
         <p style="margin:4px 0 0 20px;">✅ أيوا → MacBook Air أو لابتوب خفيف → شاحن 65W GaN</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
@@ -252,14 +252,14 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير:</strong> في مصر، شواحن كتير على OLX و Facebook Marketplace بتتباع بواط مكتوب على العلبة أعلى من الفعلي. شاحن مكتوب عليه "65W" بـ 100ج ممكن يطلع 12W فعلية. اشتري دايماً من مصدر أصلي معتمد — Anker و Joyroom على كايرو فولت بكود تحقق وضمان حقيقي.
+        <strong>⚠️ تحذير:</strong> في مصر، شواحن كتير على OLX و Facebook Marketplace بتتباع بواط مكتوب على العلبة أعلى من الفعلي. شاحن مكتوب عليه "65W" بـ 100ج ممكن يطلع 12W فعلية. اشتري دايماً من مصدر أصلي معتمد — أنكر و جوي روم على كايرو فولت بكود تحقق وضمان حقيقي.
     </p>
 </div>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية من 199ج لـ 1,299ج على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل الشواحن <strong>أصلية بضمان 18 شهر</strong> (Anker) أو 12 شهر (Joyroom). توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام + دعم واتساب 24/7.
+        كل الشواحن <strong>أصلية بضمان 18 شهر</strong> (أنكر) أو 12 شهر (جوي روم). توصيل لكل المحافظات خلال 24-72 ساعة + دفع عند الاستلام + دعم واتساب 24/7.
     </p>
 </div>
 
@@ -282,7 +282,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
                 },
                 {
                     question: 'ليه شاحن Xiaomi 67W مش بيشحن بنفس السرعة لما أستخدمه مع iPhone؟',
-                    answer: 'لإن Xiaomi بيستخدم بروتوكول شحن خاص (Turbo Charge / HyperCharge) مش متوافق مع iPhone. iPhone بيحتاج USB-PD. شاحن Xiaomi 67W ممكن يطلع 18-20W بس لـ iPhone عبر PD العام. لو عايز أقصى سرعة لـ iPhone — محتاج شاحن USB-C PD زي Anker 30W. كل براند ليه بروتوكولات خاصة — VOOC لـ Oppo، Turbo Charge لـ Xiaomi، Super Fast لـ Samsung.'
+                    answer: 'لإن Xiaomi بيستخدم بروتوكول شحن خاص (Turbo Charge / HyperCharge) مش متوافق مع iPhone. iPhone بيحتاج USB-PD. شاحن Xiaomi 67W ممكن يطلع 18-20W بس لـ iPhone عبر PD العام. لو عايز أقصى سرعة لـ iPhone — محتاج شاحن USB-C PD زي أنكر 30W. كل براند ليه بروتوكولات خاصة — VOOC لـ Oppo، Turbo Charge لـ Xiaomi، Super Fast لـ Samsung.'
                 },
                 {
                     question: 'هل أقدر أشحن لابتوب بشاحن 45W؟',

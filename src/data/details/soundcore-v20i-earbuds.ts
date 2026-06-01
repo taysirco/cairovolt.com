@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_v20i_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: ['16mm titanium BassUp driver — open-ear with adjustable ear hooks (4 positions)', 'NO ANC — open-ear design for environmental awareness. LED customizable lights', '8h earbuds / 36h total — USB-C. IP55 sweat+dust+splash resistant', 'BT 5.3 multipoint — 4-mic AI calls. Soundcore App (EQ + controls + LED)', 'CairoVolt: 18-month warranty. 1,449 EGP. Best open-ear ear-hook for sports.'],
-        ar: ['درايفر 16mm تيتانيوم BassUp — أذن مفتوحة بخطاف قابل للتعديل (4 أوضاع)', 'بدون ANC — تصميم مفتوح للوعي البيئي. إضاءة LED قابلة للتخصيص', '8 ساعات سماعة / 36 إجمالي — USB-C. IP55 عرق+غبار+رذاذ', 'BT 5.3 multipoint — 4 مايكات AI. تطبيق Soundcore (EQ + أزرار + LED)', 'كايرو فولت: ضمان 18 شهر. 1,449 جنيه. أحسن خطاف أذن مفتوح للرياضة.'],
+        ar: ['درايفر 16mm تيتانيوم BassUp — أذن مفتوحة بخطاف قابل للتعديل (4 أوضاع)', 'بدون ANC — تصميم مفتوح للوعي البيئي. إضاءة LED قابلة للتخصيص', '8 ساعات سماعة / 36 إجمالي — USB-C. IP55 عرق+غبار+رذاذ', 'BT 5.3 multipoint — 4 مايكات AI. تطبيق ساوندكور (EQ + أزرار + LED)', 'كايرو فولت: ضمان 18 شهر. 1,449 جنيه. أحسن خطاف أذن مفتوح للرياضة.'],
     },
     localContext: {
         en: 'V20i is a different category from C30i/C40i — open-ear EAR-HOOK, not clip-on. The adjustable hook wraps around your ear for maximum sport stability. 16mm titanium BassUp delivers stronger bass than C30i/C40i\'s racetrack drivers. At 1,449 EGP, it competes with C30i (2,350, clip) — cheaper AND bigger driver. Choose V20i for sports/bass. Choose C30i/C40i for sleek/office.',
@@ -21,7 +21,7 @@ export const soundcore_v20i_earbuds_detail: ProductDetail = {
         'Water': { en: 'IP55 (sweat + dust + splash)', ar: 'IP55 (عرق + غبار + رذاذ)' },
         'Fit': { en: 'Adjustable ear hooks (4 positions)', ar: 'خطاف أذن قابل للتعديل (4 أوضاع)' },
         'LED': { en: 'Customizable LED lights (via app)', ar: 'إضاءة LED قابلة للتخصيص (من التطبيق)' },
-        'App': { en: 'Soundcore App (EQ + controls + LED)', ar: 'تطبيق Soundcore (EQ + أزرار + LED)' },
+        'App': { en: 'Soundcore App (EQ + controls + LED)', ar: 'تطبيق ساوندكور (EQ + أزرار + LED)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

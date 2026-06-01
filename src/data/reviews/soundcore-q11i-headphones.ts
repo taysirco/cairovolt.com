@@ -42,7 +42,7 @@ export const soundcore_q11i_headphones_reviews: ProductReview[] = [
         datePublished: '2026-03-20',
         reviewBody: {
             en: 'Soundcore app EQ customization is surprisingly deep for a budget headphone. BassUp mode for Mahraganat is insane. Multipoint BT 5.3 — phone + laptop simultaneously — is a feature usually found in 4,000+ EGP headphones. Q11i at 2,312 delivers 80% of Q30 experience at half the price.',
-            ar: 'تخصيص EQ في تطبيق Soundcore عميق بشكل مفاجئ لهيدفون بادجت. وضع BassUp للمهرجانات مجنون. BT 5.3 multipoint — الموبايل + اللاب مع بعض — ميزة عادة بتبقى في هيدفونات 4,000+ جنيه. Q11i بـ 2,312 بتقدم 80% من تجربة Q30 بنص السعر.'
+            ar: 'تخصيص EQ في تطبيق ساوندكور عميق بشكل مفاجئ لهيدفون بادجت. وضع BassUp للمهرجانات مجنون. BT 5.3 multipoint — الموبايل + اللاب مع بعض — ميزة عادة بتبقى في هيدفونات 4,000+ جنيه. Q11i بـ 2,312 بتقدم 80% من تجربة Q30 بنص السعر.'
         },
         pros: { en: ['Soundcore app EQ surprisingly deep', 'BassUp for Mahraganat insane', 'Multipoint at budget price'], ar: ['EQ في التطبيق عميق بشكل مفاجئ', 'BassUp للمهرجانات مجنون', 'Multipoint بسعر بادجت'] },
     },

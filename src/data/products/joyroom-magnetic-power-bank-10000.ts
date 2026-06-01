@@ -27,7 +27,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 name: "Joyroom MagSafe Power Bank 10000mAh | 15W Wireless + 20W Wired | Kickstand | 18-Month Warranty",
                 shortDescription: "🔋 10000mAh (2x iPhone 17) | 🧲 MagSafe N52 Snap | ⚡ 15W Wireless + 20W USB-C | 📐 Built-in Kickstand | 📱 Charge 2 Devices | 🏆 18-Month Warranty",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom MagSafe Power Bank 10000mAh</strong> snaps magnetically to iPhone back and charges wirelessly at <strong>15W + 20W wired output</strong>. Built-in kickstand for FaceTime. At 850 EGP, it's the premium hands-free portable charging solution. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>جوي روم MagSafe Power Bank 10000mAh</strong> snaps magnetically to iPhone back and charges wirelessly at <strong>15W + 20W wired output</strong>. Built-in kickstand for FaceTime. At 850 EGP, it's the premium hands-free portable charging solution. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -146,7 +146,7 @@ export const joyroom_magnetic_power_bank_10000 = {
                 ]
             }
         },
-        meta: { keywords: "joyroom magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, joyroom portable charger, joyroom best power bank egypt 2026, joyroom travel power bank, joyroom cod egypt power bank, افضل باور بانك جوي روم, سعر باور بانك جوي روم, joyroom magnetic power bank, باور بانك جوي روم اصلي, شاحن متنقل جوي روم, joyroom power bank egypt price, افضل باور بانك رخيص مصر, باور بانك ضمان", mainTerm: "joyroom magnetic power bank" },
+        meta: { keywords: "جوي روم magsafe power bank, باور بانك مغناطيسي, شاحن ايفون 17 لاسلكي, magnetic wireless charger egypt, باور بانك MagSafe مصر, جوي روم portable charger, جوي روم best power bank egypt 2026, جوي روم travel power bank, جوي روم cod egypt power bank, افضل باور بانك جوي روم, سعر باور بانك جوي روم, جوي روم magnetic power bank, باور بانك جوي روم اصلي, شاحن متنقل جوي روم, جوي روم power bank egypt price, افضل باور بانك رخيص مصر, باور بانك ضمان", mainTerm: "joyroom magnetic power bank" },
         expertOpinion: {
             en: "The convenience of MagSafe on the go. The magnets align perfectly, and the kickstand is a game changer for watching videos on a plane or train. 10,000mAh is the sweet spot – enough power without being a brick attached to your phone.",
             ar: "راحة MagSafe أثناء التنقل. تتوافق المغناطيسات تماماً، والحامل المدمج يغير قواعد اللعبة لمشاهدة الفيديوهات على الطائرة أو القطار. 10,000 مللي أمبير هي النقطة المثالية – طاقة كافية دون أن تكون طوبة ملتصقة بهاتفك."

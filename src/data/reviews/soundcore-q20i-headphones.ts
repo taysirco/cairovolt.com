@@ -133,7 +133,7 @@ export const soundcore_q20i_headphones_reviews: ProductReview[] = [
         datePublished: '2026-04-18',
         reviewBody: {
             en: 'Work from home in Marsa Matrouh — the wind noise here is constant. ANC + over-ear seal blocks the wind completely. I feel like I\'m in a soundproof room. The Soundcore app lets me schedule auto-off after 30 minutes for nap mode. CairoVolt delivered in 5 days.',
-            ar: 'شغل من البيت في مرسى مطروح — صوت الرياح هنا مستمر. ANC + سيل over-ear بتحجب الرياح تماماً. بحس إني في غرفة عازلة. تطبيق Soundcore بيخليني أعمل جدول إيقاف تلقائي بعد 30 دقيقة لوضع القيلولة. كايرو فولت وصّلت في 5 أيام.'
+            ar: 'شغل من البيت في مرسى مطروح — صوت الرياح هنا مستمر. ANC + سيل over-ear بتحجب الرياح تماماً. بحس إني في غرفة عازلة. تطبيق ساوندكور بيخليني أعمل جدول إيقاف تلقائي بعد 30 دقيقة لوضع القيلولة. كايرو فولت وصّلت في 5 أيام.'
         },
         pros: { en: ['Wind noise blocked completely', 'Auto-off nap mode', 'Matrouh 5-day delivery'], ar: ['ضوضاء الرياح محجوبة تماماً', 'إيقاف تلقائي للقيلولة', 'توصيل مطروح 5 أيام'] },
     },

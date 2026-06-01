@@ -156,7 +156,7 @@ export const anker_zolo_a1681_20000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 45 واط+ — الكابل بيختنق عند 15 واط وبيسخن. استخدم كابل 100 واط زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> عشان تفتح سرعة 45 واط الكاملة بأمان.</p>
+    <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 45 واط+ — الكابل بيختنق عند 15 واط وبيسخن. استخدم كابل 100 واط زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">أنكر A8050</a> عشان تفتح سرعة 45 واط الكاملة بأمان.</p>
 </div>
 `,
                 features: ["⚡ 45 واط PD — يشحن لابتوبات", "🔋 20,000 مللي أمبير (72Wh)", "💻 متوافق مع ماك بوك اير", "📊 شاشة ذكية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (72Wh)", "🔌 منفذين", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
@@ -171,7 +171,7 @@ export const anker_zolo_a1681_20000 = {
                 ]
             }
         },
-        meta: { keywords: "anker zolo a1681, anker 45w power bank, انكر 45 واط, باور بانك لابتوب, anker pd power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker zolo a1681 45w, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker zolo a1681 45w" },
+        meta: { keywords: "أنكر zolo a1681, أنكر 45w power bank, انكر 45 واط, باور بانك لابتوب, أنكر pd power bank, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, أنكر zolo a1681 45w, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker zolo a1681 45w" },
         expertOpinion: {
             en: "The A1681 is for freelancers who work from cafés. 45W PD charges your MacBook Air alongside your phone — no outlet hunting. Too heavy at 380g for joggers, but perfect for bag carriers.'t guarantee outlet access, this is the productivity insurance policy. Best 20K laptop-charging power bank under 2500 EGP.",
             ar: "A1681 للفريلانسرز اللي بيشتغلوا من الكافيهات. 45 واط PD بيشحن الماك بوك مع الموبايل — من غير ما تدور على بريزة. تقيل شوية (380 جم) للجري، لكن مثالي لأصحاب الشنط."

@@ -64,7 +64,7 @@ export const joyroom_usb_a_lightning_1_2m = {
                 ]
             }
         },
-        meta: { keywords: "joyroom lightning 1.2m, كابل لايتنينج طويل, كابل ايفون 14 طويل, كابل جوي روم ايفون, وصلة جوي روم, joyroom cable egypt, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, joyroom usb-a lightning 1.2m", mainTerm: "joyroom usb-a lightning 1.2m" },
+        meta: { keywords: "جوي روم lightning 1.2m, كابل لايتنينج طويل, كابل ايفون 14 طويل, كابل جوي روم ايفون, وصلة جوي روم, جوي روم cable egypt, جوي روم charging cable, جوي روم fast charge cable, جوي روم usb c cable, جوي روم iphone cable egypt, جوي روم best cable egypt 2026, جوي روم cod egypt cable, جوي روم durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, جوي روم usb-a lightning 1.2m", mainTerm: "joyroom usb-a lightning 1.2m" },
         expertOpinion: {
             en: "Similar to its Type-C sibling, the extra length is the key feature here. Great for iPhone users sticking with legacy chargers. The 36-month warranty on this specific model makes it an absolute stealth bargain.",
             ar: "مشابه لشقيقه Type-C، الطول الإضافي هو الميزة الأساسية هنا. رائع لمستخدمي iPhone المتمسكين بالشواحن القديمة. ضمان 36 شهراً على هذا الموديل بالتحديد يجعله صفقة خفية مطلقة."

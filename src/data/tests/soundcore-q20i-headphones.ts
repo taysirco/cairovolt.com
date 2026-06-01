@@ -31,7 +31,7 @@ export const soundcore_q20i_headphones_lab: ProductLabData = {
     voiceFaqAr: [
         { question: 'العزل حقيقي ولا وهمي؟', answer: 'حقيقي — 4 مايكات هجين. متأكد في معمل كايرو فولت: ~22dB تقليل صوت محرك المترو. مش زي هيدفونات 800 جنيه اللي بتدّعي ANC.' },
         { question: 'تستاهل الترقية لـ Q30؟', answer: 'Q30 أحسن في الـ ANC (3 أوضاع مخصصة) والصوت (درايفر حرير) وفيها شنطة هارد. بس Q20i بتوفر 75% من الأداء بنص السعر.' },
-        { question: 'الباس قوي أوي؟', answer: 'أيوه بالديفولت. بس تقدر تقلله من 22 بريسيت EQ في تطبيق Soundcore. بريسيت "Balanced" بيصلّح الموضوع.' },
+        { question: 'الباس قوي أوي؟', answer: 'أيوه بالديفولت. بس تقدر تقلله من 22 بريسيت EQ في تطبيق ساوندكور. بريسيت "Balanced" بيصلّح الموضوع.' },
     ],
     voiceFaqEn: [
         { question: 'Is the ANC real or fake?', answer: 'Real — 4-mic hybrid. Verified in CairoVolt lab: ~22dB Metro engine reduction. Not like 800 EGP headphones claiming ANC.' },

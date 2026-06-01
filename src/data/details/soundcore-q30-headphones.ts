@@ -22,7 +22,7 @@ export const soundcore_q30_headphones_detail: ProductDetail = {
         'Cushions': { en: 'Protein Leather + Memory Foam', ar: 'جلد بروتين + فوم ذاكرة' },
         'Weight': { en: '260g', ar: '260 جرام' },
         'Foldable': { en: 'Yes + Hard Carry Case', ar: 'نعم + شنطة هارد كيس' },
-        'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق Soundcore (EQ + أوضاع ANC)' },
+        'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق ساوندكور (EQ + أوضاع ANC)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

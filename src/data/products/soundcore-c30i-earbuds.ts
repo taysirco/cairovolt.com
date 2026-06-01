@@ -90,7 +90,7 @@ export const soundcore_c30i_earbuds = {
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3965 محفور على العلبة</li>
         <li><strong>التصميم:</strong> كليب صلب بقبضات سيليكون قابلة للفك</li>
-        <li><strong>التطبيق:</strong> بتظهر باسم "Soundcore C30i" في التطبيق</li>
+        <li><strong>التطبيق:</strong> بتظهر باسم "ساوندكور C30i" في التطبيق</li>
         <li><strong>الدرايفر:</strong> شكل racetrack أصلي (بيضاوي، مش دائري)</li>
         <li><strong>السعر:</strong> أقل من 1,175 جنيه = مشكوك فيه</li>
     </ul>
@@ -108,7 +108,7 @@ export const soundcore_c30i_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore c30i, anker c30i, c30i open ear, c30i clip on, soundcore c30i egypt, open ear earbuds egypt, c30i vs bose ultra open, ساوندكور c30i, سماعة كليب أذن مفتوح, سعر c30i مصر, سماعة أذن مفتوحة مصر", mainTerm: "soundcore c30i" },
+    meta: { keywords: "ساوندكور c30i, أنكر c30i, c30i open ear, c30i clip on, ساوندكور c30i egypt, open ear earbuds egypt, c30i vs bose ultra open, ساوندكور c30i, سماعة كليب أذن مفتوح, سعر c30i مصر, سماعة أذن مفتوحة مصر", mainTerm: "soundcore c30i" },
 
     expertOpinion: {
         en: "C30i is a COMPLETELY different category — open-ear clip-on, not in-ear. No ANC, thin bass, but unmatched comfort and environmental awareness for runners and office workers. At 2,350 EGP, it's the only affordable open-ear in Egypt vs Bose Ultra Open (12,000+). If you want ANC and bass: buy P30i or P40i instead.",

@@ -37,7 +37,7 @@ export const anker_soundcore_life_p2i_reviews: ProductReview[] = [
         },
         {
             author: 'Magdy Hassan', rating: 3, location: 'أسيوط', datePublished: '2026-01-21',
-            reviewBody: { en: 'Noise isolation is OK but not as good as my old Soundcore Life P3. These are a step down. Ear tips do not seal perfectly in my ears.', ar: 'عزل الضوضاء مقبول لكن مش زي Soundcore Life P3 القديمة. دي أقل. السدادات مش بتقفل في ودني بالظبط.' },
+            reviewBody: { en: 'Noise isolation is OK but not as good as my old Soundcore Life P3. These are a step down. Ear tips do not seal perfectly in my ears.', ar: 'عزل الضوضاء مقبول لكن مش زي ساوندكور Life P3 القديمة. دي أقل. السدادات مش بتقفل في ودني بالظبط.' },
             pros: { en: ['OK noise isolation', 'Upgrade from wired'], ar: ['عزل ضوضاء مقبول', 'ترقية من السلكي'] },
             cons: { en: ['Ear tips don\'t seal well'], ar: ['السدادات مش بتقفل كويس'] }
         },

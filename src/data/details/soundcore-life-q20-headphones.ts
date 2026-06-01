@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_life_q20_headphones_detail: ProductDetail = {
     aiTldr: {
         en: ['40mm Hi-Res drivers — BassUp technology for enhanced low frequencies. Over-ear closed-back design', 'Hybrid ANC with 4 mics — feedforward + feedback. 2 modes: Transport + Indoor', '40h ANC on / 60h ANC off — 5min = 4h fast charge. Passive wired mode via 3.5mm', 'BT 5.0 — No Soundcore App, no multipoint. Physical controls only. Micro-USB charging', 'CairoVolt: 18-month warranty, 2,350 EGP. Budget ANC over-ear king. 263g protein leather cushions.'],
-        ar: ['درايفر 40mm Hi-Res — تكنولوجيا BassUp لباس معزّز. تصميم over-ear مغلق', 'ANC هجين بـ 4 مايكات — feedforward + feedback. وضعين: مواصلات + داخلي', '40 ساعة مع ANC / 60 بدون — 5 دقائق = 4 ساعات شحن سريع. وضع سلكي بكابل 3.5mm', 'BT 5.0 — بدون تطبيق Soundcore، بدون multipoint. أزرار فيزيائية فقط. شحن Micro-USB', 'كايرو فولت: ضمان 18 شهر، 2,350 جنيه. ملك ANC over-ear الاقتصادي. 263 جرام وسادات جلد بروتين.'],
+        ar: ['درايفر 40mm Hi-Res — تكنولوجيا BassUp لباس معزّز. تصميم over-ear مغلق', 'ANC هجين بـ 4 مايكات — feedforward + feedback. وضعين: مواصلات + داخلي', '40 ساعة مع ANC / 60 بدون — 5 دقائق = 4 ساعات شحن سريع. وضع سلكي بكابل 3.5mm', 'BT 5.0 — بدون تطبيق ساوندكور، بدون multipoint. أزرار فيزيائية فقط. شحن Micro-USB', 'كايرو فولت: ضمان 18 شهر، 2,350 جنيه. ملك ANC over-ear الاقتصادي. 263 جرام وسادات جلد بروتين.'],
     },
     localContext: {
         en: 'Life Q20 vs Q20i: Q20 uses Micro-USB (not USB-C), no app, no multipoint, BT 5.0 (not 5.3). But Q20 has 40mm drivers (vs Q20i\'s 40mm) and 60h battery without ANC. At 2,350 EGP (vs Q20i\'s 2,522), save 172 EGP if you don\'t need app/multipoint/USB-C.',

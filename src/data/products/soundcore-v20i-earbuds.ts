@@ -72,12 +72,12 @@ export const soundcore_v20i_earbuds = {
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">16mm تيتانيوم BassUp: أعمق باس في الأذن المفتوحة</h2>
-        <p class="text-gray-700 leading-relaxed">V20i مش كليب — دي خطاف بيلف حوالين الودان الخارجية لأقصى ثبات. جواها درايفر 16mm مغطى تيتانيوم بتقنية BassUp — أكبر درايفر في أي سماعة Soundcore أذن مفتوحة. النتيجة: صوت أذن مفتوح بباس بتحسّه فعلاً، مش بس بتسمعه. البوب العربي والـ EDM بيقوموا بطريقة درايفرات الكليب الأصغر مش بتقدر عليها.</p>
+        <p class="text-gray-700 leading-relaxed">V20i مش كليب — دي خطاف بيلف حوالين الودان الخارجية لأقصى ثبات. جواها درايفر 16mm مغطى تيتانيوم بتقنية BassUp — أكبر درايفر في أي سماعة ساوندكور أذن مفتوحة. النتيجة: صوت أذن مفتوح بباس بتحسّه فعلاً، مش بس بتسمعه. البوب العربي والـ EDM بيقوموا بطريقة درايفرات الكليب الأصغر مش بتقدر عليها.</p>
         <p class="text-gray-700 leading-relaxed">خطاف الأذن القابل للتعديل بيلف في 4 أوضاع ليناسب أشكال ودان مختلفة. بعكس تصميمات الكليب اللي بتمسك شحمة الودان، الخطاف بيلف حوالين غضروف الودان لثبات رياضي. مفيش حاجة بتدخل قناة الودان — وعي بيئي كامل مع صوت قوي ممتلئ.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">إضاءة LED + IP55: مبنية للرياضيين الخارجيين</h2>
-        <p class="text-gray-700 leading-relaxed">إضاءة LED قابلة للتخصيص بـ 5 ألوان بتخليك ظاهر في الجري قبل الفجر أو الليل — ميزة أمان حقيقية مش جيميك. ظبّط الألوان والأنماط من تطبيق Soundcore. تأثير LED على البطارية ضعيف: ~30 دقيقة بس من الـ 8 ساعات.</p>
+        <p class="text-gray-700 leading-relaxed">إضاءة LED قابلة للتخصيص بـ 5 ألوان بتخليك ظاهر في الجري قبل الفجر أو الليل — ميزة أمان حقيقية مش جيميك. ظبّط الألوان والأنماط من تطبيق ساوندكور. تأثير LED على البطارية ضعيف: ~30 دقيقة بس من الـ 8 ساعات.</p>
         <p class="text-gray-700 leading-relaxed">حماية IP55 يعني حماية من نفث الغبار والمية — أقوى من IPX4 بتاعة C30i/C40i. بتستحمل عرق الجيم ورذاذ المطر وتراب المشاوير الخارجية. 4 مايكات AI بتحسّن المكالمات في البيئات المعتدلة. 36 ساعة إجمالي بتغطي أسبوع كامل من جلسات التمرين.</p>
     </section>
 </div>
@@ -90,11 +90,11 @@ export const soundcore_v20i_earbuds = {
         <li><strong>الموديل:</strong> A3962 على العلبة والسماعات</li>
         <li><strong>LED:</strong> الأصلية فيها LED قابلة للتخصيص من التطبيق — المقلدة مفيش تحكم</li>
         <li><strong>الخطاف:</strong> دوران 4 أوضاع قابل للتعديل — المقلدة خطاف ثابت</li>
-        <li><strong>التطبيق:</strong> بتظهر "Soundcore V20i" مع LED وEQ وتخصيص الأزرار</li>
+        <li><strong>التطبيق:</strong> بتظهر "ساوندكور V20i" مع LED وEQ وتخصيص الأزرار</li>
         <li><strong>السعر:</strong> أقل من 725 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["خطاف أذن مفتوح", "16mm تيتانيوم BassUp", "خطاف 4 أوضاع", "إضاءة LED", "بدون ANC (وعي)", "8/36 ساعة بطارية", "BT 5.3 Multipoint", "4 مايكات AI", "IP55", "تطبيق Soundcore", "ضمان 18 شهر"],
+            features: ["خطاف أذن مفتوح", "16mm تيتانيوم BassUp", "خطاف 4 أوضاع", "إضاءة LED", "بدون ANC (وعي)", "8/36 ساعة بطارية", "BT 5.3 Multipoint", "4 مايكات AI", "IP55", "تطبيق ساوندكور", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور V20i — خطاف أذن مفتوح | 16mm BassUp",
             metaDesc: "اشتري سماعة ساوندكور V20i في مصر — 1,449 جنيه. خطاف أذن مفتوح، 16mm تيتانيوم BassUp، LED، خطاف 4 أوضاع، 36 ساعة، IP55، 4 مايكات AI. ضمان 18 شهر.",
             faqs: [
@@ -107,7 +107,7 @@ export const soundcore_v20i_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore v20i, anker v20i, v20i open ear, v20i ear hook, v20i bassup, soundcore v20i egypt, v20i vs c30i, v20i led, ساوندكور v20i, سماعة خطاف أذن مفتوح, سعر v20i مصر", mainTerm: "soundcore v20i" },
+    meta: { keywords: "ساوندكور v20i, أنكر v20i, v20i open ear, v20i ear hook, v20i bassup, ساوندكور v20i egypt, v20i vs c30i, v20i led, ساوندكور v20i, سماعة خطاف أذن مفتوح, سعر v20i مصر", mainTerm: "soundcore v20i" },
 
     expertOpinion: {
         en: "V20i is the sports open-ear champion: 16mm BassUp delivers bass that clip-ons can't match, ear hooks provide running-grade stability, and LED lights add genuine safety. At 1,449 EGP, it's cheaper than C30i (2,350) with bigger bass.",

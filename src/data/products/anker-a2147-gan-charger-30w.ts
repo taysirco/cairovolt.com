@@ -124,13 +124,13 @@ export const anker_a2147_gan_charger_30w = {
                 metaDesc: "اشتري شاحن انكر 511 نانو 3 (A2147) GaN بقوة 30 واط في مصر. أصغر 70%! ايفون 17 برو من 0 لـ 50% في 21 دقيقة. IQ3 + ActiveShield 2.0. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "يعني إيه GaN وليه أحسن؟", answer: "GaN اختصار Gallium Nitride — نيتريد الجاليوم — مادة شبه موصلة بتتعامل مع الطاقة بكفاءة أعلى من السيليكون التقليدي. ده بيخلي أنكر يبني شاحن 30 واط أصغر 70% وبيسخن أقل. نفس القوة في جزء صغير من الحجم." },
-                    { question: "ينفع يشحن ماك بوك؟", answer: "أيوه، بس ببطء. الـ 30 واط ينفع يشحن ماك بوك اير (M3/M4) — مفيد كشاحن طوارئ أو بالليل. للشحن اليومي للماك بوك، خد بالك من شاحن Anker Nano بقوة 45 واط أو أعلى." },
+                    { question: "ينفع يشحن ماك بوك؟", answer: "أيوه، بس ببطء. الـ 30 واط ينفع يشحن ماك بوك اير (M3/M4) — مفيد كشاحن طوارئ أو بالليل. للشحن اليومي للماك بوك، خد بالك من شاحن أنكر Nano بقوة 45 واط أو أعلى." },
                     { question: "إيه الفرق بينه وبين شاحن انكر 20 واط؟", answer: "الـ A2147 بيوفر 30 واط (مقابل 20 واط) في نفس الحجم المدمج تقريباً بفضل تقنية GaN. بيشحن ايفون أسرع بـ 50% وكمان يقدر يشحن ايباد وحتى ماك بوك. كمان من Series 5 مع IQ3 — ترقية كبيرة في السرعة والذكاء." },
                     { question: "30 واط مش هيضر بطارية ايفوني؟", answer: "لا خالص. ActiveShield 2.0 من أنكر بيراقب الحرارة ملايين المرات يومياً. الـ A2147 بيوفر بس اللي ايفونك بيطلبه — الايفون بيحدد أقصى شحن عند ~27 واط أصلاً." },
                     { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 24 شهر بيغطي عيوب التصنيع وعطل المنفذ والسخونة وعدم ثبات الشحن. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }
         },
-        meta: { keywords: "شاحن انكر GaN, anker gan charger, anker a2147, anker nano 3, شاحن 30 واط صغير, anker 511 charger, شاحن جان انكر, anker wall charger 30w, anker fast charger, anker usb c charger, anker iphone charger egypt, anker samsung charger, anker best charger egypt 2026, anker cod egypt charger, افضل شاحن انكر, سعر شاحن انكر, شاحن انكر GaN 30 واط نانو 3", mainTerm: "شاحن انكر GaN 30 واط نانو 3" },
+        meta: { keywords: "شاحن انكر GaN, أنكر gan charger, أنكر a2147, أنكر nano 3, شاحن 30 واط صغير, أنكر 511 charger, شاحن جان انكر, أنكر wall charger 30w, أنكر fast charger, أنكر usb c charger, أنكر iphone charger egypt, أنكر samsung charger, أنكر best charger egypt 2026, أنكر cod egypt charger, افضل شاحن انكر, سعر شاحن انكر, شاحن انكر GaN 30 واط نانو 3", mainTerm: "شاحن انكر GaN 30 واط نانو 3" },
         expertOpinion: { en: "If your daily carry is iPhone + AirPods and you hate bulky chargers, the A2147 is your answer. Skip it if you need laptop charging — 30W tops out at iPad speed for MacBooks. For phones-only users at this price, nothing competes.", ar: "لو شنطتك فيها ايفون + AirPods وزهقت من الشواحن الكبيرة، A2147 هو الحل. مش هينفعك لو محتاج تشحن لابتوب — 30 واط بيشحن ماك بوك ببطء. لمستخدمين الموبايلات بالسعر ده، مفيش منافس." }
     };

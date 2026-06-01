@@ -78,7 +78,7 @@ export const soundcore_p30i_earbuds = {
     <section>
         <h2 class="text-2xl font-bold mb-3">عزل 42dB تكيّفي: سكوت مواصلات القاهرة</h2>
         <p class="text-gray-700 leading-relaxed">ANC تكيّفي بيستهدف حتى 42dB من الضوضاء الخارجية — بيكتشف الفرق بين دمدمة محرك المترو (100-500Hz) وكلام الكافيه (500-2000Hz) وبيتكيف لحظياً. وضع الشفافية بيمرّر الأصوات بضغطة — مهم وانت بتعدي الشارع.</p>
-        <p class="text-gray-700 leading-relaxed">حماية IP54 ضد الغبار والرذاذ بتستحمل عواصف صيف القاهرة وعرق الجيم. تطبيق Soundcore بيوفر تخصيص EQ وتبديل أوضاع ANC. مقارنة بـ P20i (بدون ANC): دي قفزة ضخمة. مقارنة بـ P40i: الـ P40i عندها ANC أعمق ودرايفر 11mm composite.</p>
+        <p class="text-gray-700 leading-relaxed">حماية IP54 ضد الغبار والرذاذ بتستحمل عواصف صيف القاهرة وعرق الجيم. تطبيق ساوندكور بيوفر تخصيص EQ وتبديل أوضاع ANC. مقارنة بـ P20i (بدون ANC): دي قفزة ضخمة. مقارنة بـ P40i: الـ P40i عندها ANC أعمق ودرايفر 11mm composite.</p>
     </section>
 </div>
 
@@ -88,29 +88,29 @@ export const soundcore_p30i_earbuds = {
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3959 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
+        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
+        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق ساوندكور</li>
+        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من أنكر</li>
         <li><strong>السعر:</strong> أقل من 600 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["درايفر 10mm BassUp", "ANC تكيّفي 42dB", "45 ساعة إجمالي", "علبة ستاند موبايل", "10 دقائق = ساعتين شحن", "BT 5.4 Multipoint", "IP54 غبار+رذاذ", "تطبيق Soundcore EQ", "وضع شفافية", "ضمان 18 شهر"],
+            features: ["درايفر 10mm BassUp", "ANC تكيّفي 42dB", "45 ساعة إجمالي", "علبة ستاند موبايل", "10 دقائق = ساعتين شحن", "BT 5.4 Multipoint", "IP54 غبار+رذاذ", "تطبيق ساوندكور EQ", "وضع شفافية", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور P30i — 42dB ANC + BassUp + علبة ستاند",
             metaDesc: "اشتري سماعة ساوندكور P30i في مصر — 1,200 جنيه. ANC 42dB، 10mm BassUp، 45 ساعة، علبة ستاند موبايل، BT 5.4، IP54. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "P30i ولا P40i — أشتري أنهي؟", answer: "P40i: درايفر 11mm composite، ANC أعمق، 57 ساعة، 6 مايكات، 1,522 جنيه. P30i: 10mm BassUp، 42dB ANC، 45 ساعة، علبة ستاند، 1,200 جنيه. P30i بتوفّر 322 جنيه. اختار P40i لو محتاج ANC بريميوم ومكالمات." },
                     { question: "علبة ستاند الموبايل بتشتغل إزاي؟", answer: "علبة شحن P30i فيها آلية ستاند مدمجة بتسند الموبايل على زاوية 70°. ممتازة لمشاهدة فيديو حر اليدين على المكتب أو المطبخ. بتمسك موبايلات لحد حجم iPhone 17 Pro Max." },
                     { question: "42dB ANC بتفرق في مترو القاهرة؟", answer: "فعّال جداً. مختبر: بيقلل دمدمة محرك المترو بـ ~38dB. بتقدر تسمع موسيقى بصوت معتدل بدون ما تسمع المحرك. وضع الشفافية بيخليك تسمع الإعلانات بضغطة." },
-                    { question: "BassUp دايماً شغّال؟", answer: "لأ — BassUp وضع بتفعّله من تطبيق Soundcore أو أزرار اللمس. بيعزز باس 100-250Hz بـ ~4dB. ممتاز للبوب العربي والـ EDM. أقفله للبودكاست والمكالمات." },
-                    { question: "P30i ولا P20i — إيه الترقية؟", answer: "P20i: بدون ANC، BT 5.3، 30 ساعة. P30i: 42dB ANC، BT 5.4، 45 ساعة، ستاند موبايل، تطبيق Soundcore. الـ ANC لوحده يستاهل الترقية لأي حد بيركب مواصلات." },
+                    { question: "BassUp دايماً شغّال؟", answer: "لأ — BassUp وضع بتفعّله من تطبيق ساوندكور أو أزرار اللمس. بيعزز باس 100-250Hz بـ ~4dB. ممتاز للبوب العربي والـ EDM. أقفله للبودكاست والمكالمات." },
+                    { question: "P30i ولا P20i — إيه الترقية؟", answer: "P20i: بدون ANC، BT 5.3، 30 ساعة. P30i: 42dB ANC، BT 5.4، 45 ساعة، ستاند موبايل، تطبيق ساوندكور. الـ ANC لوحده يستاهل الترقية لأي حد بيركب مواصلات." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore p30i, anker p30i, soundcore p30i egypt, p30i price, p30i earbuds, p30i vs p40i, p30i phone stand case, ساوندكور p30i, سماعة انكر p30i, سعر p30i مصر, أفضل سماعة ANC تحت 1500 جنيه", mainTerm: "soundcore p30i" },
+    meta: { keywords: "ساوندكور p30i, أنكر p30i, ساوندكور p30i egypt, p30i price, p30i earbuds, p30i vs p40i, p30i phone stand case, ساوندكور p30i, سماعة انكر p30i, سعر p30i مصر, أفضل سماعة ANC تحت 1500 جنيه", mainTerm: "soundcore p30i" },
 
     expertOpinion: {
         en: "P30i is the budget ANC sweet spot in the Soundcore lineup at 1,200 EGP. 42dB adaptive ANC, 10mm BassUp, 45h battery, and the unique phone stand case. Saves 322 EGP vs P40i — worth the upgrade from P20i for ANC alone. Touch controls can be overly sensitive.",
-        ar: "P30i هي نقطة ANC الاقتصادية المثالية في تشكيلة Soundcore بـ 1,200 جنيه. ANC تكيّفي 42dB، 10mm BassUp، 45 ساعة، وعلبة ستاند الموبايل الفريدة. بتوفّر 322 جنيه من P40i — تستاهل الترقية من P20i للـ ANC لوحده. أزرار اللمس ممكن تكون حساسة زيادة."
+        ar: "P30i هي نقطة ANC الاقتصادية المثالية في تشكيلة ساوندكور بـ 1,200 جنيه. ANC تكيّفي 42dB، 10mm BassUp، 45 ساعة، وعلبة ستاند الموبايل الفريدة. بتوفّر 322 جنيه من P40i — تستاهل الترقية من P20i للـ ANC لوحده. أزرار اللمس ممكن تكون حساسة زيادة."
     }
 };

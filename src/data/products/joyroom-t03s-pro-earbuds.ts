@@ -15,13 +15,13 @@ export const joyroom_t03s_pro_earbuds = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1.webp", alt: "joyroom t03s pro earbuds - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "joyroom t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة - JR-AU-T03SPRO - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-2.webp", alt: "جوي روم t03s pro earbuds الأصلي في مصر | توصيل لأي محافظة - JR-AU-T03SPRO - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-3.webp", alt: "joyroom t03s pro earbuds - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "joyroom t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-4.webp", alt: "جوي روم t03s pro earbuds - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-5.webp", alt: "joyroom t03s pro earbuds - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "joyroom t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-6.webp", alt: "جوي روم t03s pro earbuds - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-7.webp", alt: "joyroom t03s pro earbuds - Protected by CairoVolt Guarantee", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "joyroom t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-8.webp", alt: "جوي روم t03s pro earbuds - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_9", url: "/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp", alt: "joyroom t03s pro earbuds - Genuine Product All Egypt - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
@@ -29,7 +29,7 @@ export const joyroom_t03s_pro_earbuds = {
                 name: "Joyroom T03S Pro ANC Earbuds | 30H Battery | Bluetooth 5.3 | 12-Month Warranty",
                 shortDescription: "🎧 Active Noise Cancellation (ANC) | 🔋 30H Total Playtime | 📱 Bluetooth 5.3 Low Latency | 💧 IPX5 Water Resistant | 👆 Touch Controls",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>Joyroom T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike cheap earbuds with tinny sound and 1-hour battery, The <strong>جوي روم T03S Pro ANC Earbuds</strong> feature <strong>active noise cancellation + 30 hours battery + Bluetooth 5.3</strong> at 664 EGP. ANC blocks up to 35dB of ambient noise. The best ANC-per-EGP earbuds in Egypt. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">Quick Summary:</h3>
     <ul class="list-none space-y-1">
@@ -62,7 +62,7 @@ export const joyroom_t03s_pro_earbuds = {
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">AirPods Design at a Fraction of the Price</h2>
-        <p class="text-gray-700">The T03S Pro uses the same stem design as Apple AirPods for comfortable all-day wear. <strong>Touch controls</strong> on each earbud handle play/pause, skip, volume, and ANC toggle. <strong>iOS pop-up animation</strong> makes pairing with iPhone feel premium. IPX5 water resistance means gym sweat and light rain won't damage them. Pair with a <a href="/en/joyroom/power-banks" class="text-blue-600 hover:underline">Joyroom power bank</a> for extended travel listening.</p>
+        <p class="text-gray-700">The T03S Pro uses the same stem design as Apple AirPods for comfortable all-day wear. <strong>Touch controls</strong> on each earbud handle play/pause, skip, volume, and ANC toggle. <strong>iOS pop-up animation</strong> makes pairing with iPhone feel premium. IPX5 water resistance means gym sweat and light rain won't damage them. Pair with a <a href="/en/joyroom/power-banks" class="text-blue-600 hover:underline">جوي روم power bank</a> for extended travel listening.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -152,7 +152,7 @@ export const joyroom_t03s_pro_earbuds = {
                 ]
             }
         },
-        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة joyroom t03s pro, joyroom earbuds, joyroom wireless earbuds, joyroom bluetooth earbuds egypt, joyroom best earbuds egypt 2026, joyroom noise cancelling, joyroom cod egypt, افضل سماعة جوي روم, سعر سماعة جوي روم, سماعة جوي روم مصر, joyroom earbuds egypt, سماعة بلوتوث رخيصة مصر, سماعة لاسلكية مصر", mainTerm: "سماعات جوي روم" },
+        meta: { keywords: "سماعات جوي روم, ايربودز جوي روم, سماعة جوي روم t03s pro, جوي روم earbuds, جوي روم wireless earbuds, جوي روم bluetooth earbuds egypt, جوي روم best earbuds egypt 2026, جوي روم noise cancelling, جوي روم cod egypt, افضل سماعة جوي روم, سعر سماعة جوي روم, سماعة جوي روم مصر, جوي روم earbuds egypt, سماعة بلوتوث رخيصة مصر, سماعة لاسلكية مصر", mainTerm: "سماعات جوي روم" },
         expertOpinion: {
             en: "The T03S Pro is the budget king of ANC earbuds. The noise cancellation is genuinely effective against Cairo traffic noise. The transparency mode works well too. They fit similarly to Apple's design, so they're very comfortable. For the price, the sound quality and features are unbeatable.",
             ar: "تعد T03S Pro ملكة سماعات ANC الاقتصادية. إلغاء الضوضاء فعال حقاً ضد ضوضاء مرور القاهرة. وضع الشفافية يعمل بشكل جيد أيضاً. تناسب الأذن بشكل مشابه لتصميم أبل، لذا فهي مريحة جداً. مقابل السعر، جودة الصوت والميزات لا تضاهى."

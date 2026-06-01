@@ -31,15 +31,15 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             title: 'أفضل 5 شواحن GaN متعددة المنافذ للمكتب والمنزل في مصر 2026',
             metaTitle: 'أفضل 5 شواحن GaN متعددة المنافذ — مكتب ومنزل مصر 2026 | كايرو فولت',
             metaDescription: 'دليل اختيار شاحن GaN متعدد المنافذ في مصر 2026. من 30W لـ 100W — اشحن موبايل + لابتوب + تابلت بشاحن واحد. أسعار من 499ج لـ 1,299ج مع اختبارات حقيقية.',
-            keywords: 'شاحن GaN مصر, شاحن متعدد المنافذ, شاحن GaN انكر, افضل شاحن مكتب 2026, شاحن USB-C متعدد, شاحن 65W GaN, شاحن 100W GaN مصر, شاحن واحد لكل الاجهزة, GaN charger egypt, شاحن جاليوم نيترايد, شاحن لابتوب وموبايل معا, anker gan charger egypt',
+            keywords: 'شاحن GaN مصر, شاحن متعدد المنافذ, شاحن GaN انكر, افضل شاحن مكتب 2026, شاحن USB-C متعدد, شاحن 65W GaN, شاحن 100W GaN مصر, شاحن واحد لكل الاجهزة, GaN charger egypt, شاحن جاليوم نيترايد, شاحن لابتوب وموبايل معا, أنكر gan charger egypt',
             excerpt: 'اشحن موبايل + لابتوب + تابلت بشاحن واحد صغير. أفضل 5 شواحن GaN متعددة المنافذ في مصر — من 499ج لـ 1,299ج مع اختبارات حقيقية.',
-            quickAnswer: 'أفضل شاحن GaN متعدد المنافذ في مصر: Anker Nano 45W بشاشة ذكية (799ج) — بيشحن iPhone 17 Pro Max + iPad بمنفذين USB-C. لو محتاج شحن لابتوب ثقيل → Anker 717 GaN 100W (1,299ج) بـ 3 منافذ USB-C + USB-A. لو الميزانية محدودة → Anker GaN 30W (499ج) منفذ واحد USB-C بيشحن أي موبايل بأقصى سرعة. تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.',
+            quickAnswer: 'أفضل شاحن GaN متعدد المنافذ في مصر: أنكر Nano 45W بشاشة ذكية (799ج) — بيشحن iPhone 17 Pro Max + iPad بمنفذين USB-C. لو محتاج شحن لابتوب ثقيل → أنكر 717 GaN 100W (1,299ج) بـ 3 منافذ USB-C + USB-A. لو الميزانية محدودة → أنكر GaN 30W (499ج) منفذ واحد USB-C بيشحن أي موبايل بأقصى سرعة. تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.',
             content: `<p>مكتبك فيه 3 شواحن: واحد للموبايل، واحد للتابلت، وواحد للابتوب. كل واحد بسلك ومحوّل. الطبلون ورا المكتب شكله كارثي — و3 بريزات مشغولة. الحل؟ شاحن GaN واحد بمنافذ متعددة بيشحن كل أجهزتك. أصغر حجماً من الشاحن العادي وبيطلع واط أكتر. بس مش كل شواحن GaN متساوية — اختبرنا 5 موديلات عشان نقولك تشتري إيه.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أفضل شاحن GaN متعدد المنافذ: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — بيشحن iPhone + iPad بمنفذين USB-C. لو محتاج لابتوب → Anker 717 GaN 100W (1,299ج). الميزانية محدودة → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج). تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.
+        أفضل شاحن GaN متعدد المنافذ: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — بيشحن iPhone + iPad بمنفذين USB-C. لو محتاج لابتوب → أنكر 717 GaN 100W (1,299ج). الميزانية محدودة → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج). تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.
     </p>
 </div>
 
@@ -61,7 +61,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <h2>أفضل 5 شواحن GaN متعددة المنافذ — مصر 2026</h2>
 
-<h3>🥇 #1 — Anker Nano 45W بشاشة ذكية (799ج)</h3>
+<h3>🥇 #1 — أنكر Nano 45W بشاشة ذكية (799ج)</h3>
 <p><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> — أفضل شاحن GaN للأغلبية.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
@@ -78,7 +78,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>ليه #1؟</strong> الشاشة الذكية مش بس شكل — بتخليك تعرف لو الكابل بايظ (الواط هيبان صفر أو منخفض)، ولو الموبايل خلص شحن (الواط هينزل لـ 0.5W). 45W كافية لأي موبايل + تابلت. والحجم أصغر من شاحن Apple 20W الأصلي.</p>
 
-<h3>🥈 #2 — Anker GaN 30W (499ج)</h3>
+<h3>🥈 #2 — أنكر GaN 30W (499ج)</h3>
 <p><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a> — أفضل قيمة لمنفذ واحد.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
@@ -93,8 +93,8 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>ليه #2؟</strong> لو بتشحن جهاز واحد بس (الموبايل)، ده أحسن اختيار بالسعر. 30W كافية لأقصى سرعة شحن iPhone 17 Pro Max (اللي بيقبل 27W أصلاً). اختبرناه بالتفصيل في <a href="/blog/iphone-17-pro-max-charger-20w-30w-45w-which" style="color:#2563eb;font-weight:600;">مقارنة شواحن iPhone 17 Pro Max</a>.</p>
 
-<h3>🥉 #3 — Anker 717 GaN 100W (1,299ج)</h3>
-<p>Anker 717 Charger (100W) — شاحن الكل-في-واحد الحقيقي.</p>
+<h3>🥉 #3 — أنكر 717 GaN 100W (1,299ج)</h3>
+<p>أنكر 717 Charger (100W) — شاحن الكل-في-واحد الحقيقي.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
@@ -108,21 +108,21 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>ليه #3؟</strong> ده الشاحن اللي بيغنيك عن 3 شواحن تانية. 100W لمنفذ واحد بيشحن MacBook Pro 14" بالسرعة الكاملة. أو بيتقسم على 4 منافذ. في المكتب: وصّل اللابتوب + الموبايل + السماعة — كلهم في فيشة واحدة. مثالي للسفر.</p>
 
-<h3>#4 — Joyroom 30W (299ج)</h3>
+<h3>#4 — جوي روم 30W (299ج)</h3>
 <p><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم شاحن 30W</a> — أرخص شاحن 30W أصلي في مصر.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
     <tbody>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;width:35%;">الواط</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W (USB-C PD + QC 3.0)</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">المنافذ</td><td style="padding:10px 12px;border:1px solid #d1d5db;">1× USB-C</td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">بيشحن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">iPhone 17 Pro Max (25.9W فعلية) — أبطأ دقيقة من Anker</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">بيشحن</td><td style="padding:10px 12px;border:1px solid #d1d5db;">iPhone 17 Pro Max (25.9W فعلية) — أبطأ دقيقة من أنكر</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">حرارة السطح</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#ca8a04;">44°م (مقبول)</td></tr>
     </tbody>
 </table>
 
-<p><strong>ليه #4؟</strong> مش GaN — ده شاحن تقليدي بسيليكون عادي. حجمه أكبر شوية من Anker GaN 30W وحرارته أعلى 4°م. لكن بيطلع 25.9W فعلية — فرق دقيقة واحدة بس عن Anker في شحن iPhone. بيوفر 200ج لو الميزانية ضيقة.</p>
+<p><strong>ليه #4؟</strong> مش GaN — ده شاحن تقليدي بسيليكون عادي. حجمه أكبر شوية من أنكر GaN 30W وحرارته أعلى 4°م. لكن بيطلع 25.9W فعلية — فرق دقيقة واحدة بس عن أنكر في شحن iPhone. بيوفر 200ج لو الميزانية ضيقة.</p>
 
-<h3>#5 — Anker PowerPort 20W (375ج)</h3>
+<h3>#5 — أنكر PowerPort 20W (375ج)</h3>
 <p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر باور بورت 20W</a> — الاختيار الآمن والموثوق.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
@@ -170,7 +170,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">موبايل فقط</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>Anker 717 GaN 100W</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>أنكر 717 GaN 100W</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">100W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">3× USB-C + 1× USB-A</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅</td>
@@ -204,7 +204,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ بتشحن لابتوب؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>Anker 717 GaN 100W</strong> (1,299ج) — 4 منافذ، 100W للابتوب</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>أنكر 717 GaN 100W</strong> (1,299ج) — 4 منافذ، 100W للابتوب</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
@@ -225,12 +225,12 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 <p>يعتمد. MacBook Air بيشحن عادي بـ 45W (بس أبطأ شوية من شاحنه 67W الأصلي). MacBook Pro 14"+ محتاج 65W على الأقل — شاحن 45W هيشحنه لكن ببطء شديد وممكن ينزل البطارية لو بتشتغل عليه. القاعدة: لو اللابتوب أقل من 45W استهلاك → 45W كفاية. لو فوق → محتاج 65W+.</p>
 
 <h3>هل شاحن GaN آمن في كهرباء مصر؟</h3>
-<p>أيوا. شواحن Anker GaN فيها حماية من تذبذب الجهد (100-240V). كهرباء مصر 220V — في النطاق الآمن. كمان، فيها MultiProtect 11 نقطة: حماية من الشحن الزائد، الحرارة الزائدة، القصر الكهربائي، والتيار المفاجئ.</p>
+<p>أيوا. شواحن أنكر GaN فيها حماية من تذبذب الجهد (100-240V). كهرباء مصر 220V — في النطاق الآمن. كمان، فيها MultiProtect 11 نقطة: حماية من الشحن الزائد، الحرارة الزائدة، القصر الكهربائي، والتيار المفاجئ.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن GaN أصلية بضمان 18 شهر على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        كل شواحن Anker GaN <strong>أصلية 100%</strong> بكود تحقق. ضمان 18 شهر يشمل عيوب التصنيع. توصيل لكل المحافظات + دفع عند الاستلام.
+        كل شواحن أنكر GaN <strong>أصلية 100%</strong> بكود تحقق. ضمان 18 شهر يشمل عيوب التصنيع. توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>
 
@@ -251,12 +251,12 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
                     answer: 'مستحيل. الموبايل هو اللي بيتحكم في كمية الكهرباء اللي بيسحبها — مش الشاحن. لو وصلت iPhone 17 Pro Max (27W أقصى) بشاحن 100W، الموبايل هيسحب 27W بس. الباقي 73W بيفضل كامن في الشاحن. نفس فكرة إنك تملا كوباية مياه من خرطوم إطفاء — الكوباية بتاخد اللي تقدر عليه بس.'
                 },
                 {
-                    question: 'Anker GaN 30W ولا Anker Nano 45W — أنا بشحن الموبايل بس؟',
-                    answer: 'Anker GaN 30W (499ج). لو بتشحن موبايل واحد بس، الـ 30W بيطلع 26.8W فعلية — iPhone مش بيقبل أكتر من 27W أصلاً. الـ 45W مش هيشحنه أسرع. توفر 300ج. الـ 45W يستاهل بس لو بتشحن جهازين (الموبايل + التابلت مثلاً) في نفس الوقت.'
+                    question: 'أنكر GaN 30W ولا أنكر Nano 45W — أنا بشحن الموبايل بس؟',
+                    answer: 'أنكر GaN 30W (499ج). لو بتشحن موبايل واحد بس، الـ 30W بيطلع 26.8W فعلية — iPhone مش بيقبل أكتر من 27W أصلاً. الـ 45W مش هيشحنه أسرع. توفر 300ج. الـ 45W يستاهل بس لو بتشحن جهازين (الموبايل + التابلت مثلاً) في نفس الوقت.'
                 },
                 {
                     question: 'هل ممكن أستخدم شاحن GaN مع بريزة المطبخ أو الحمام؟',
-                    answer: 'أيوا — طالما البريزة مؤرضة (3 pins) ومحمية من المياه. شواحن Anker GaN فيها حماية من الرطوبة والقصر الكهربائي. لكن متستخدمش أي شاحن بإيدك المبلولة أو في مكان فيه مياه مباشرة — ده ينطبق على أي جهاز كهربائي.'
+                    answer: 'أيوا — طالما البريزة مؤرضة (3 pins) ومحمية من المياه. شواحن أنكر GaN فيها حماية من الرطوبة والقصر الكهربائي. لكن متستخدمش أي شاحن بإيدك المبلولة أو في مكان فيه مياه مباشرة — ده ينطبق على أي جهاز كهربائي.'
                 }
             ]
         },

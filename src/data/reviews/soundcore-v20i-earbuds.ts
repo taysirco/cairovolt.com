@@ -19,7 +19,7 @@ export const soundcore_v20i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-04-12',
         reviewBody: {
             en: 'The LED lights are my favorite feature — I run at 6am before sunrise and cars can see me from behind. 5 colors from the Soundcore app. IP55 means I don\'t worry about summer sweat. 36h total battery means I charge weekly. The 4-position hook adjustment fits my small ears perfectly.',
-            ar: 'إضاءة LED ميزتي المفضلة — بجري الساعة 6 الصبح قبل الشروق والعربيات بتشوفني من وراي. 5 ألوان من تطبيق Soundcore. IP55 يعني مش بقلق من عرق الصيف. 36 ساعة إجمالي يعني بشحن أسبوعياً. تعديل الخطاف بـ 4 أوضاع مناسب لودني الصغيرة تماماً.'
+            ar: 'إضاءة LED ميزتي المفضلة — بجري الساعة 6 الصبح قبل الشروق والعربيات بتشوفني من وراي. 5 ألوان من تطبيق ساوندكور. IP55 يعني مش بقلق من عرق الصيف. 36 ساعة إجمالي يعني بشحن أسبوعياً. تعديل الخطاف بـ 4 أوضاع مناسب لودني الصغيرة تماماً.'
         },
         pros: { en: ['LED lights for pre-dawn running safety', 'IP55 for summer sweat', '4-position hook fits small ears'], ar: ['LED للأمان في الجري قبل الفجر', 'IP55 لعرق الصيف', 'خطاف 4 أوضاع مناسب للودان الصغيرة'] },
     },
@@ -42,8 +42,8 @@ export const soundcore_v20i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-03-25',
         reviewBody: {
             en: 'I compared V20i to Shokz OpenRun (3x the price). V20i bass is significantly better thanks to 16mm BassUp — Shokz bone conduction can\'t match. Shokz is lighter but V20i at 1,449 EGP is 90% of the experience for 33% of the price. The Soundcore app EQ customization seals the deal.',
-            ar: 'قارنت V20i بـ Shokz OpenRun (3 أضعاف السعر). باس V20i أقوى بكتير بفضل 16mm BassUp — توصيل العظم بتاع Shokz مش بيوصل. Shokz أخف بس V20i بـ 1,449 جنيه 90% من التجربة بـ 33% السعر. تطبيق Soundcore EQ بيختم الصفقة.'
+            ar: 'قارنت V20i بـ Shokz OpenRun (3 أضعاف السعر). باس V20i أقوى بكتير بفضل 16mm BassUp — توصيل العظم بتاع Shokz مش بيوصل. Shokz أخف بس V20i بـ 1,449 جنيه 90% من التجربة بـ 33% السعر. تطبيق ساوندكور EQ بيختم الصفقة.'
         },
-        pros: { en: ['Bass beats Shokz bone conduction', '33% of Shokz price for 90% experience', 'Soundcore app EQ customization'], ar: ['باس بيغلب Shokz توصيل عظم', '33% سعر Shokz بـ 90% تجربة', 'تطبيق Soundcore EQ للتخصيص'] },
+        pros: { en: ['Bass beats Shokz bone conduction', '33% of Shokz price for 90% experience', 'Soundcore app EQ customization'], ar: ['باس بيغلب Shokz توصيل عظم', '33% سعر Shokz بـ 90% تجربة', 'تطبيق ساوندكور EQ للتخصيص'] },
     },
 ];

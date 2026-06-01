@@ -26,7 +26,7 @@ export const anker_wall_chargers_content: CategoryContent = {
 اطلبه الآن — توصيل القاهرة والجيزة خلال 24 ساعة، دفع عند الاستلام.
     `,
                     qualityBadges: [
-                        { type: 'originality', text: 'الموزع المعتمد لـ Anker في مصر' },
+                        { type: 'originality', text: 'الموزع المعتمد لـ أنكر في مصر' },
                         { type: 'warranty', text: 'ضمان 18 شهر استبدال فوري - أطول من ضمان أبل' },
                         { type: 'expert_verified', text: 'تقنية GaN + ActiveShield 3.0 — FCC معتمد' }
                     ],

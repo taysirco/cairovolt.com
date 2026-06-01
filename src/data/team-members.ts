@@ -100,7 +100,7 @@ export const recommendedCreators: RecommendedCreator[] = [
             en: 'Accessories Reviewer & Brand Comparisons',
         },
         bio: {
-            ar: 'مراجع تقني عربي متخصص في اختبار إكسسوارات الشحن والصوتيات. يستخدم أجهزة قياس احترافية (USB Testers) للتحقق من القدرة الفعلية للشواحن ويقدم مقارنات تفصيلية بين Anker وUgreen وBaseus وJoyroom.',
+            ar: 'مراجع تقني عربي متخصص في اختبار إكسسوارات الشحن والصوتيات. يستخدم أجهزة قياس احترافية (USB Testers) للتحقق من القدرة الفعلية للشواحن ويقدم مقارنات تفصيلية بين أنكر وUgreen وBaseus وJoyroom.',
             en: 'Arab tech reviewer specializing in charging and audio accessories testing. Uses professional USB testers to verify actual charger output and delivers detailed brand comparisons between Anker, Ugreen, Baseus, and Joyroom.',
         },
         expertise: {

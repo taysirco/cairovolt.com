@@ -91,9 +91,9 @@ export const soundcore_liberty_3_pro = {
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3952 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
+        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
+        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق ساوندكور</li>
+        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من أنكر</li>
         <li><strong>السعر:</strong> أقل من 2200 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
@@ -111,7 +111,7 @@ export const soundcore_liberty_3_pro = {
         }
     },
 
-    meta: { keywords: "soundcore liberty 3 pro, liberty 3 pro egypt, anker liberty 3 pro, liberty 3 pro price, liberty 3 pro review, liberty 3 pro vs liberty 4 pro, ACAA 2.0 earbuds, ساوندكور ليبرتي 3 برو, سماعة ليبرتي 3 برو, سعر liberty 3 pro مصر, ايربودز ليبرتي 3 برو", mainTerm: "soundcore liberty 3 pro" },
+    meta: { keywords: "ساوندكور liberty 3 pro, liberty 3 pro egypt, أنكر liberty 3 pro, liberty 3 pro price, liberty 3 pro review, liberty 3 pro vs liberty 4 pro, ACAA 2.0 earbuds, ساوندكور ليبرتي 3 برو, سماعة ليبرتي 3 برو, سعر liberty 3 pro مصر, ايربودز ليبرتي 3 برو", mainTerm: "soundcore liberty 3 pro" },
 
     expertOpinion: {
         en: "Soundcore Liberty 3 Pro delivers 11mm ACAA 2.0 sound with 40dB ANC at 4400 EGP. At this price point, no competitor in the Egyptian market matches its feature set.",

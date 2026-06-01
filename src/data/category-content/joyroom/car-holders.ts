@@ -7,12 +7,12 @@ export const joyroom_car_holders_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Car Holder Egypt | MagSafe N52 Mount | EGP 169',
                     description: 'Joyroom car phone holders in Egypt. N52 Neodymium magnetic mount, MagSafe compatible, 360° rotation. ✓ CairoVolt road-tested ✓ 1-year warranty ✓ COD',
-                    keywords: 'joyroom car holder, joyroom car mount, car phone mount egypt, magnetic car holder, MagSafe car mount, N52 magnet holder, air vent mount, حامل موبايل سيارة',
+                    keywords: 'جوي روم car holder, جوي روم car mount, car phone mount egypt, magnetic car holder, MagSafe car mount, N52 magnet holder, air vent mount, حامل موبايل سيارة',
                 },
                 ar: {
                     title: 'حامل موبايل سيارة جوي روم مصر | N52 + MagSafe من 169 جنيه',
                     description: 'تسوق حامل موبايل للسيارة جوي روم في مصر. مغناطيس N52 + MagSafe + دوران 360°. ✓ اختبار طرق CairoVolt ✓ ضمان سنة ✓ توصيل القاهرة ✓ دفع عند الاستلام',
-                    keywords: 'حامل موبايل سيارة, حامل موبايل للسيارة, حامل جوي روم, حامل مغناطيسي, حامل MagSafe, سعر حامل موبايل سيارة, joyroom car holder, حامل تكييف سيارة',
+                    keywords: 'حامل موبايل سيارة, حامل موبايل للسيارة, حامل جوي روم, حامل مغناطيسي, حامل MagSafe, سعر حامل موبايل سيارة, جوي روم car holder, حامل تكييف سيارة',
                 }
             },
             pageContent: {
@@ -99,8 +99,8 @@ export const joyroom_car_holders_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Joyroom Dashboard 360 (لاصق)', price: 169, badge: '⭐ الأرخص والأكثر مبيعاً' },
-                        { name: 'Joyroom JR-ZS290 MagSafe (مغناطيسي)', price: 2550, badge: 'MagSafe ايفون' },
+                        { name: 'جوي روم Dashboard 360 (لاصق)', price: 169, badge: '⭐ الأرخص والأكثر مبيعاً' },
+                        { name: 'جوي روم JR-ZS290 MagSafe (مغناطيسي)', price: 2550, badge: 'MagSafe ايفون' },
                         { name: 'Joyroom Solar Auto-Clamp', price: 2550, badge: 'طاقة شمسية' }
                     ]
                 },

@@ -95,7 +95,7 @@ export const anker_soundcore_k20i = {
 <p class="text-gray-700 leading-relaxed text-lg">"الـ K20i حلت مشكلة أغلب السماعات بتتجاهلها: الراحة. بعد 3 ساعات سماعات داخلية، ودانك بتوجعك. التصميم النصف داخلي للـ K20i يعني صفر ضغط — بتنسى إنك لابسها. جربناها في ماراثون اجتماعات 6 ساعات ورحلات مترو الخط 3 اليومية. درايفرات 13mm BassUp صوتها أحسن بكتير من سعرها. بطارية 36 ساعة خلّصت على قلق الشحن — شحنّا يوم الحد وكفت لمساء الخميس. الـ AI ENC فلترت ضوضاء المترو وقت المكالمات بشكل إن الزملاء مكانوش عارفين إننا تحت الأرض. بالسعر ده، الـ K20i بتنافس سماعات ضعف سعرها. أفضل قيمة سماعة نصف داخلية في مصر."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">13mm BassUp™: صوت كبير، سعر صغير</h2>
-<p class="text-gray-700">أغلب السماعات الاقتصادية بتستخدم درايفرات 6mm. الـ K20i فيها <strong>13mm</strong> — أكتر من ضعف المساحة. درايفر أكبر = هوا أكتر = باس أعمق وصوت أوسع. BassUp™ بتعزز الترددات المنخفضة لحظياً بدون ما تأثر على الصوت. من تطبيق <strong>Soundcore</strong>، اظبط الـ EQ بـ 8 نطاقات أو اختار من 22 إعداد مسبق.</p></section>
+<p class="text-gray-700">أغلب السماعات الاقتصادية بتستخدم درايفرات 6mm. الـ K20i فيها <strong>13mm</strong> — أكتر من ضعف المساحة. درايفر أكبر = هوا أكتر = باس أعمق وصوت أوسع. BassUp™ بتعزز الترددات المنخفضة لحظياً بدون ما تأثر على الصوت. من تطبيق <strong>ساوندكور</strong>، اظبط الـ EQ بـ 8 نطاقات أو اختار من 22 إعداد مسبق.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">36 ساعة: اشحن يوم الحد، اسمع لحد الخميس</h2>
 <p class="text-gray-700">6 ساعات لكل شحنة سماعة، 36 ساعة إجمالي مع العلبة. ده أسبوع شغل كامل بساعتين مواصلات يومياً. <strong>شحن 10 دقايق</strong> عبر USB-C بيدي ساعتين تشغيل طوارئ — مثالي لـ "الميتنج بعد 10 دقايق".</p></section>
 <section><h2 class="text-2xl font-bold mb-2">مختبرة في مترو القاهرة: مكالمات AI ENC</h2>
@@ -106,16 +106,16 @@ export const anker_soundcore_k20i = {
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> اختبار باس BassUp — باس غني عبر Apple Music.</li>
 <li>📱 <strong>سامسونج S26 الترا:</strong> بلوتوث 5.3 مستقر، كودك: AAC/SBC.</li>
 <li>💻 <strong>ماك بوك برو:</strong> صوت PC مستقر + مكالمات Teams/Zoom عبر AI ENC.</li>
-<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق Soundcore كامل EQ + تحكم.</li>
+<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق ساوندكور كامل EQ + تحكم.</li>
 <li>📱 <strong>ايباد برو M4:</strong> وضع جيمنج منخفض التأخير 60ms.</li>
 </ul></div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات Soundcore مقلدة بتستخدم درايفرات مستعملة بتشوّه عند 60% صوت وبطاريتها ساعة ونص بس بدل 6 ساعات. اشتري من بائعين معتمدين وتأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">سماعات ساوندكور مقلدة بتستخدم درايفرات مستعملة بتشوّه عند 60% صوت وبطاريتها ساعة ونص بس بدل 6 ساعات. اشتري من بائعين معتمدين وتأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق Soundcore", "🎮 وضع تأخير منخفض", "🏆 ضمان 18 شهر"],
+                features: ["🎵 13mm BassUp™", "🔋 36 ساعة إجمالي", "👂 نصف داخلية مريحة", "🎙️ AI ENC مزدوج", "⚡ شحن 10 دقايق", "💧 IPX5", "📱 تطبيق ساوندكور", "🎮 وضع تأخير منخفض", "🏆 ضمان 18 شهر"],
                 metaTitle: "سعر سماعة انكر K20i في مصر ⚡ خصم 10% | ايربودز انكر 36 ساعة",
                 metaDesc: "اشتري سماعة انكر K20i في مصر. 13mm BassUp، 36 ساعة بطارية، نصف داخلية مريحة. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
@@ -123,10 +123,10 @@ export const anker_soundcore_k20i = {
                     { question: "الباس أحسن من ايربودز؟", answer: "درايفرات 13mm BassUp بتوفر باس أعمق بكتير من ايربودز. الدرايفر الكبير بيحرك هوا أكتر = باس أكتر." },
                     { question: "AI ENC بتشتغل كويس في الأماكن الزحمة؟", answer: "أيوه — اختبرناها في مترو القاهرة خط 3 وقت الزحمة. الزملاء ما عرفوش إننا في المترو. شبكة AI العصبية بتفصل الصوت عن الضوضاء." },
                     { question: "إيه الفرق بين K20i و R50i؟", answer: "K20i = نصف داخلية (بدون أطراف، راحة قصوى، بدون ANC). R50i = داخلية (أطراف سيليكون، عزل سلبي). K20i عندها 13mm مقابل 10mm في R50i." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. لو باظت في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. لو باظت في الاستخدام العادي، كلّم CairoVolt للاستبدال مجاناً." }
                 ]
             }
         },
-        meta: { keywords: "anker k20i, anker soundcore k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, soundcore airpods, اير بودز انكر, anker earbuds egypt, anker wireless earbuds, anker bluetooth earbuds egypt, anker best earbuds egypt 2026, anker noise cancelling, anker cod egypt, افضل سماعة انكر, سعر سماعة انكر, anker soundcore k20i earbuds", mainTerm: "anker soundcore k20i earbuds" },
+        meta: { keywords: "أنكر k20i, أنكر ساوندكور k20i, سماعة انكر k20i, ايربودز انكر, سماعة بلوتوث انكر, سماعه انكر, انكر k20i, ساوندكور airpods, اير بودز انكر, أنكر earbuds egypt, أنكر wireless earbuds, أنكر bluetooth earbuds egypt, أنكر best earbuds egypt 2026, أنكر noise cancelling, أنكر cod egypt, افضل سماعة انكر, سعر سماعة انكر, أنكر ساوندكور k20i earbuds", mainTerm: "anker soundcore k20i earbuds" },
         expertOpinion: { en: "Buy the K20i if ear fatigue from in-ear buds is your problem. The open-ear design trades noise isolation for all-day comfort. Not for gym or metro commuters who need tight seal against noise.", ar: "اشتري K20i لو مشكلتك ألم الأذن من السماعات الداخلية. التصميم المفتوح بيضحي بعزل الضوضاء مقابل راحة طول اليوم. مش للجيم أو المترو اللي محتاج عزل صوت قوي." }
     };

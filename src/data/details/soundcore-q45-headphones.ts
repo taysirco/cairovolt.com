@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_q45_headphones_detail: ProductDetail = {
     aiTldr: {
         en: ['40mm silk+ceramic dual-layer driver — soundstage width and bass depth that TWS earbuds cannot match', '98% adaptive ANC with 5 app-adjustable levels — auto-detects and adapts to your environment', '50h battery with ANC on / 65h without — charge once a week even at 7h daily use', 'Protein leather + memory foam cushions — 8-hour comfort tested. 295g balanced weight', 'CairoVolt: 18-month warranty, 0.9% return rate, original Anker guaranteed. 3.5mm wired backup'],
-        ar: ['درايفر 40mm حرير+سيراميك مزدوج الطبقات — اتساع مسرح صوتي وعمق باس الـ TWS مش قادرة تحققه', 'عزل 98% تكيفي بـ 5 مستويات من التطبيق — بيتعرف على بيئتك ويتكيف أوتوماتيك', '50 ساعة بطارية مع ANC / 65 ساعة بدون — اشحن مرة في الأسبوع حتى مع 7 ساعات يومياً', 'وسائد جلد بروتين + فوم ذاكرة — راحة 8 ساعات مختبرة. وزن 295 جرام متوازن', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 0.9%، أصلي Anker مضمون. جاك 3.5mm سلكي احتياطي'],
+        ar: ['درايفر 40mm حرير+سيراميك مزدوج الطبقات — اتساع مسرح صوتي وعمق باس الـ TWS مش قادرة تحققه', 'عزل 98% تكيفي بـ 5 مستويات من التطبيق — بيتعرف على بيئتك ويتكيف أوتوماتيك', '50 ساعة بطارية مع ANC / 65 ساعة بدون — اشحن مرة في الأسبوع حتى مع 7 ساعات يومياً', 'وسائد جلد بروتين + فوم ذاكرة — راحة 8 ساعات مختبرة. وزن 295 جرام متوازن', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 0.9%، أصلي أنكر مضمون. جاك 3.5mm سلكي احتياطي'],
     },
     localContext: {
         en: 'Cairo remote workers face a dual challenge: noisy home environments (construction, traffic, family) and long listening sessions (8+ hours). The Soundcore Space Q45 delivers 98% adaptive ANC to isolate from noise, protein leather cushions for all-day comfort, and 50h ANC battery. At 4,685 EGP, it is the professional home office headphones — a fraction of Sony WH-1000XM5 or Bose 700 pricing available in Egypt.',
@@ -22,7 +22,7 @@ export const soundcore_q45_headphones_detail: ProductDetail = {
         'Ear Cushions': { en: 'Protein Leather + Memory Foam', ar: 'جلد بروتين + فوم ذاكرة' },
         'Weight': { en: '295g', ar: '295 جرام' },
         'Foldable': { en: 'Yes + Carry Case', ar: 'نعم + شنطة حمل' },
-        'App': { en: 'Soundcore App (HearID + 5-Level ANC + EQ)', ar: 'تطبيق Soundcore (HearID + ANC 5 مستويات + EQ)' },
+        'App': { en: 'Soundcore App (HearID + 5-Level ANC + EQ)', ar: 'تطبيق ساوندكور (HearID + ANC 5 مستويات + EQ)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

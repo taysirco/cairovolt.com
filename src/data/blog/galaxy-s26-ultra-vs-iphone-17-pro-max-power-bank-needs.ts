@@ -30,9 +30,9 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
             title: 'هل Galaxy S26 Ultra يحتاج باور بانك أقوى من iPhone 17 Pro Max؟ الإجابة بالأرقام',
             metaTitle: 'باور بانك S26 Ultra ضد iPhone 17 Pro Max | كايرو فولت',
             metaDescription: 'بطارية S26 Ultra أكبر 7% من iPhone 17 Pro Max، لكنها تشحن 50% أسرع — يعني محتاجة باور بانك مختلف تماماً. الإجابة بالأرقام واختبار ميداني.',
-            keywords: 'باور بانك سامسونج S26 الترا, باور بانك ايفون 17 برو ماكس, مقارنة شحن S26 ايفون, افضل باور بانك سامسونج 2026, افضل باور بانك ايفون, anker zolo 45w samsung, magsafe iphone 17 power bank, samsung vs iphone power bank egypt',
+            keywords: 'باور بانك سامسونج S26 الترا, باور بانك ايفون 17 برو ماكس, مقارنة شحن S26 ايفون, افضل باور بانك سامسونج 2026, افضل باور بانك ايفون, أنكر zolo 45w samsung, magsafe iphone 17 power bank, samsung vs iphone power bank egypt',
             excerpt: 'بطارية Galaxy S26 Ultra أكبر 7% فقط من iPhone 17 Pro Max، لكنها تشحن 50% أسرع — يعني الحلول مختلفة تماماً. الإجابة بالأرقام + اختبار ميداني.',
-            quickAnswer: 'نعم، Galaxy S26 Ultra محتاج باور بانك مختلف عن iPhone 17 Pro Max لـ 3 أسباب: (1) سعة بطارية 5,000mAh مقابل 4,685mAh (أكبر 7%)، (2) شحن سريع 45W مقابل 30W — يحتاج باور بانك يدعم PD 45W، (3) لا MagSafe في Samsung — لازم كابل دائماً. أفضل خيار لـ S26 Ultra: Anker ZOLO 45W (2,200ج). أفضل خيار لـ iPhone 17 Pro Max: Joyroom MagSafe 10,000mAh (850ج).',
+            quickAnswer: 'نعم، Galaxy S26 Ultra محتاج باور بانك مختلف عن iPhone 17 Pro Max لـ 3 أسباب: (1) سعة بطارية 5,000mAh مقابل 4,685mAh (أكبر 7%)، (2) شحن سريع 45W مقابل 30W — يحتاج باور بانك يدعم PD 45W، (3) لا MagSafe في Samsung — لازم كابل دائماً. أفضل خيار لـ S26 Ultra: أنكر ZOLO 45W (2,200ج). أفضل خيار لـ iPhone 17 Pro Max: جوي روم MagSafe 10,000mAh (850ج).',
             content: `<p>سؤال بنشوفه كل يوم في إنبوكسنا: "اتنين أصحاب — واحد عنده Samsung Galaxy S26 Ultra والتاني iPhone 17 Pro Max — قرروا يشتركوا في باور بانك واحد علشان الميزانية. هل ينفع؟" الإجابة المباشرة: <strong>نظرياً ينفع، لكن عملياً الباور بانك المناسب لكل واحد منهم مختلف جذرياً.</strong> السر في 3 فروق تقنية مهمة بين الموبايلين، أهمها مش حجم البطارية — هو سرعة الشحن. خلّينا نشرح بالأرقام والاختبار الميداني ليه S26 Ultra يحتاج 45W PD بينما iPhone 17 Pro Max يكتفي بـ 30W، وإزاي ده يغيّر اختيار الباور بانك تماماً.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -192,13 +192,13 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🎯 <strong>الأفضل قيمة (850ج):</strong>
     <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم MagSafe 10,000mAh</a>
-    — شحنتين iPhone 17 Pro Max + Kickstand + لاسلكي 15W. أوفر 1,950ج من Anker MagGo.</li>
+    — شحنتين iPhone 17 Pro Max + Kickstand + لاسلكي 15W. أوفر 1,950ج من أنكر MagGo.</li>
     <li style="margin-bottom:12px;">💎 <strong>الأفخم (2,800ج):</strong>
     <a href="/anker/power-banks/anker-622-maggo" style="color:#2563eb;font-weight:600;">انكر 622 ماج جو</a>
-    — ضمان 18 شهر + جودة بناء Anker + Kickstand مدمج. أقل سعة لكن أنحف بـ 40%.</li>
+    — ضمان 18 شهر + جودة بناء أنكر + Kickstand مدمج. أقل سعة لكن أنحف بـ 40%.</li>
     <li style="margin-bottom:12px;">🔋 <strong>السلكي الموفّر (1,730ج):</strong>
     <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">انكر زولو A110E 22.5W</a>
-    — لمن لا يهتم بـ MagSafe ويريد سعة 20,000mAh ضعف Joyroom.</li>
+    — لمن لا يهتم بـ MagSafe ويريد سعة 20,000mAh ضعف جوي روم.</li>
 </ul>
 
 
@@ -227,7 +227,7 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
     </p>
 </div>
 
-<p>الفرق العملي الوحيد: مستخدم iPhone هيفقد ميزة MagSafe. لو ده مهم، الحل الأمثل = Anker ZOLO 45W (مشترك) + Joyroom MagSafe 850ج (إضافي لـ iPhone فقط) = إجمالي 3,050ج. الجمع ده يحل احتياج الاتنين بفلسفتهم المختلفة.</p>
+<p>الفرق العملي الوحيد: مستخدم iPhone هيفقد ميزة MagSafe. لو ده مهم، الحل الأمثل = أنكر ZOLO 45W (مشترك) + جوي روم MagSafe 850ج (إضافي لـ iPhone فقط) = إجمالي 3,050ج. الجمع ده يحل احتياج الاتنين بفلسفتهم المختلفة.</p>
 
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
@@ -235,16 +235,16 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
         ✅ خلاصة الاختيار
     </p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <strong>iPhone 17 Pro Max فقط:</strong> Joyroom MagSafe 10,000mAh (850ج) — استفد من MagSafe.
-        <strong>Samsung S26 Ultra فقط:</strong> Anker ZOLO 45W PD (2,200ج) — استفد من Super Fast Charging.
-        <strong>الاتنين معاً:</strong> Anker ZOLO 45W (مشترك) + اختيار MagSafe منفصل لو لازم.
+        <strong>iPhone 17 Pro Max فقط:</strong> جوي روم MagSafe 10,000mAh (850ج) — استفد من MagSafe.
+        <strong>Samsung S26 Ultra فقط:</strong> أنكر ZOLO 45W PD (2,200ج) — استفد من Super Fast Charging.
+        <strong>الاتنين معاً:</strong> أنكر ZOLO 45W (مشترك) + اختيار MagSafe منفصل لو لازم.
         كلهم متاحون على كايرو فولت بضمان أصلي + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
                 {
                     question: 'هل ينفع نفس الباور بانك يشحن iPhone و Samsung بأقصى سرعة؟',
-                    answer: 'نعم، لو الباور بانك يدعم USB-C PD 45W على الأقل، هيشحن S26 Ultra بـ Super Fast Charging الكاملة (45W) و iPhone 17 Pro Max بكامل سرعته (30W، حد الموبايل). Anker ZOLO A1681 45W (2,200ج) هو الخيار الأمثل المشترك. الباور بانك بـ 22.5W هيخنق S26 Ultra لنصف سرعته.',
+                    answer: 'نعم، لو الباور بانك يدعم USB-C PD 45W على الأقل، هيشحن S26 Ultra بـ Super Fast Charging الكاملة (45W) و iPhone 17 Pro Max بكامل سرعته (30W، حد الموبايل). أنكر ZOLO A1681 45W (2,200ج) هو الخيار الأمثل المشترك. الباور بانك بـ 22.5W هيخنق S26 Ultra لنصف سرعته.',
                 },
                 {
                     question: 'هل Galaxy S26 Ultra يدعم Qi2 المغناطيسي زي MagSafe؟',

@@ -7,12 +7,12 @@ export const joyroom_smart_watches_content: CategoryContent = {
                 en: {
                     title: 'Joyroom Smartwatch Egypt | AMOLED Bluetooth Call | EGP 1092',
                     description: 'Shop Joyroom Smart Watch in Egypt. FT3 Pro AMOLED + Bluetooth 5.3 calling. 7-day battery, IP68. ✓ 1-year warranty ✓ CairoVolt tested ✓ Cash on delivery Cairo',
-                    keywords: 'joyroom smartwatch, joyroom smart watch, joyroom watch egypt, joyroom FT3 pro, joyroom FT5, smart watch egypt, fitness tracker egypt, joyroom AMOLED watch, ساعة جوي روم, bluetooth calling watch',
+                    keywords: 'جوي روم smartwatch, جوي روم smart watch, جوي روم watch egypt, جوي روم FT3 pro, جوي روم FT5, smart watch egypt, fitness tracker egypt, جوي روم AMOLED watch, ساعة جوي روم, bluetooth calling watch',
                 },
                 ar: {
                     title: 'ساعة جوي روم الذكية | AMOLED + مكالمات بلوتوث | 1092 جنيه',
                     description: 'ساعة جوي روم الذكية في مصر. FT3 Pro AMOLED + مكالمات بلوتوث 5.3. بطارية 7 أيام، IP68. ✓ ضمان سنة ✓ اختبار CairoVolt ✓ توصيل القاهرة ✓ دفع عند الاستلام',
-                    keywords: 'ساعة جوي روم, ساعة ذكية جوي روم, ساعة ذكية مصر, joyroom FT3, ساعة AMOLED جوي روم, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم, ساعة مكالمات بلوتوث',
+                    keywords: 'ساعة جوي روم, ساعة ذكية جوي روم, ساعة ذكية مصر, جوي روم FT3, ساعة AMOLED جوي روم, ساعة رياضية ذكية, ساعة بلوتوث كولينج, سعر ساعة جوي روم, ساعة مكالمات بلوتوث',
                 }
             },
             pageContent: {
@@ -49,7 +49,7 @@ export const joyroom_smart_watches_content: CategoryContent = {
 1. **الشاشة:** AMOLED الأصلي بيبين واضح تحت الشمس — المقلد بيختفي
 2. **البلوتوث:** 5.3 الأصلي بيوصل لمدى 10 متر — المقلد بيقطع على 3 متر
 3. **البطارية:** الأصلي 7 أيام — المقلد يوم واحد بالكتير
-4. **العلبة:** كود QR للتحقق على علبة Joyroom الأصلية
+4. **العلبة:** كود QR للتحقق على علبة جوي روم الأصلية
 5. **المصدر:** اشترِ من موزع معتمد مثل CairoVolt بضمان سنة
 `
                         },
@@ -101,9 +101,9 @@ export const joyroom_smart_watches_content: CategoryContent = {
                         }
                     ],
                     products: [
-                        { name: 'Joyroom FT3 Pro AMOLED (مكالمات بلوتوث)', price: 1092, badge: '⭐ الأكثر مبيعاً' },
-                        { name: 'Joyroom FT5 شاشة كبيرة 1.83"', price: 1092, badge: 'أكبر شاشة' },
-                        { name: 'Joyroom FC2 كلاسيك AMOLED', price: 1092, badge: 'تصميم رسمي' }
+                        { name: 'جوي روم FT3 Pro AMOLED (مكالمات بلوتوث)', price: 1092, badge: '⭐ الأكثر مبيعاً' },
+                        { name: 'جوي روم FT5 شاشة كبيرة 1.83"', price: 1092, badge: 'أكبر شاشة' },
+                        { name: 'جوي روم FC2 كلاسيك AMOLED', price: 1092, badge: 'تصميم رسمي' }
                     ]
                 },
                 en: {

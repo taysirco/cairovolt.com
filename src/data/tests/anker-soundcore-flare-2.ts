@@ -24,7 +24,7 @@ export const anker_soundcore_flare_2_lab: ProductLabData = {
         ],
         voiceFaqAr: [
             {
-                question: 'PartyCast في Soundcore Flare 2 بيشتغل كويس مع كذا سماعة؟',
+                question: 'PartyCast في ساوندكور Flare 2 بيشتغل كويس مع كذا سماعة؟',
                 answer: 'أيوة، اختبرنا 3 سماعات في وقت واحد في مكان 500م². المزامنة في أقل من ثانيتين والصوت متزامن تماماً بدون تأخير.',
             },
         {

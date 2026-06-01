@@ -15,13 +15,13 @@ export const joyroom_usb_c_lightning_cable = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-1.webp", alt: "joyroom usb c lightning cable - Official Distributor | Nationwide Shipping - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-2.webp", alt: "joyroom usb c lightning cable الأصلي في مصر | توصيل لأي محافظة - JR-S-CL20 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-2.webp", alt: "جوي روم usb c lightning cable الأصلي في مصر | توصيل لأي محافظة - JR-S-CL20 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-3.webp", alt: "joyroom usb c lightning cable - Competitive Pricing Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-4.webp", alt: "joyroom usb c lightning cable - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-4.webp", alt: "جوي روم usb c lightning cable - مختوم بختم الشركة | كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-5.webp", alt: "joyroom usb c lightning cable - Authorized Egypt Dealer - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-6.webp", alt: "joyroom usb c lightning cable - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-6.webp", alt: "جوي روم usb c lightning cable - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-7.webp", alt: "joyroom usb c lightning cable - Protected by CairoVolt Guarantee", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8.webp", alt: "joyroom usb c lightning cable - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_8", url: "/products/joyroom/joyroom-usb-c-lightning-cable/joyroom-joyroom-usb-c-lightning-cable-egypt-cairo-8.webp", alt: "جوي روم usb c lightning cable - أصلي بباركود الشركة | كايرو فولت مصر", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
@@ -158,7 +158,7 @@ export const joyroom_usb_c_lightning_cable = {
                 ]
             }
         },
-        meta: { keywords: "كابل جوي روم, cable joyroom, كابل جوي روم ايفون, وصلة جوي روم, joyroom charging cable, joyroom fast charge cable, joyroom usb c cable, joyroom iphone cable egypt, joyroom best cable egypt 2026, joyroom cod egypt cable, joyroom durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, كابل جوي روم مصر, joyroom cable egypt, كابل شحن ايفون, كابل تايب سي جوي روم", mainTerm: "كابل جوي روم" },
+        meta: { keywords: "كابل جوي روم, cable جوي روم, كابل جوي روم ايفون, وصلة جوي روم, جوي روم charging cable, جوي روم fast charge cable, جوي روم usb c cable, جوي روم iphone cable egypt, جوي روم best cable egypt 2026, جوي روم cod egypt cable, جوي روم durable cable, افضل كابل شحن جوي روم, سعر كابل جوي روم, كابل جوي روم مصر, جوي روم cable egypt, كابل شحن ايفون, كابل تايب سي جوي روم", mainTerm: "كابل جوي روم" },
         expertOpinion: {
             en: "This cable surprises with its build quality. The nylon braiding is tight and resists tangling. It handles 20W fast charging perfectly. It performs flawlessly for daily charging and is a fraction of the price of official cables.",
             ar: "هذا الكابل يفاجئ بجودة تصنيعه. تجديل النايلون محكم ويقاوم التشابك. يتعامل مع الشحن السريع 20 واط بشكل مثالي. يؤدي عمله بلا عيوب للشحن اليومي وبجزء بسيط من سعر الكابلات الرسمية."

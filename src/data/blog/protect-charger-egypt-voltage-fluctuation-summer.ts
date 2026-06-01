@@ -48,7 +48,7 @@ export const protect_charger_egypt_voltage_fluctuation_summer: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 تحليل كايرو فولت — مايو 2026</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        من تحليل بيانات ضمان 1,200 شاحن خلال صيف 2025: <strong>87% من حالات الاحتراق حصلت في شواحن بدون شهادة UL/CE</strong> (أغلبها ماركات صيني مجهولة بأقل من 100ج). <strong>الشواحن الأصلية المعتمدة (Anker, Samsung, Apple) سجلت 0.3% فقط معدل أعطال</strong> — أي أقل بـ 29× من الرخيصة. السبب: 7-9 طبقات حماية داخلية مقابل 0-2 طبقة في الرخيص.
+        من تحليل بيانات ضمان 1,200 شاحن خلال صيف 2025: <strong>87% من حالات الاحتراق حصلت في شواحن بدون شهادة UL/CE</strong> (أغلبها ماركات صيني مجهولة بأقل من 100ج). <strong>الشواحن الأصلية المعتمدة (أنكر, Samsung, Apple) سجلت 0.3% فقط معدل أعطال</strong> — أي أقل بـ 29× من الرخيصة. السبب: 7-9 طبقات حماية داخلية مقابل 0-2 طبقة في الرخيص.
     </p>
 </div>
 
@@ -206,7 +206,7 @@ export const protect_charger_egypt_voltage_fluctuation_summer: BlogArticle = {
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.egyptera.org/ar/regulations" rel="nofollow">جهاز تنظيم مرفق الكهرباء المصري — معايير جودة الجهد (بالعربية)</a></li>
         <li><a href="https://www.iec.ch/dyn/www/f?p=103:38:0::::FSP_ORG_ID:1365" rel="nofollow">IEC 62368-1 — Audio/Video & ICT Equipment Safety Standard (بالإنجليزية)</a></li>
-        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology & Protection Layers (بالإنجليزية)</a></li>
+        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">أنكر — GaN Charger Technology & Protection Layers (بالإنجليزية)</a></li>
         <li><a href="https://www.nema.org/standards/view/surge-protective-devices" rel="nofollow">NEMA — Surge Protective Devices Standards (بالإنجليزية)</a></li>
     </ul>
 </div>`,

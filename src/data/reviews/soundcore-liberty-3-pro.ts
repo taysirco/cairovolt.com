@@ -53,7 +53,7 @@ export const soundcore_liberty_3_pro_reviews: ProductReview[] = [
         datePublished: '2026-03-28',
         reviewBody: {
             en: 'The 4 ear tip sizes + ear wings mean these fit perfectly. I tried 3 other earbuds that fell out during gym — Liberty 3 Pro stays locked. IPX4 handles sweat. The Soundcore app HearID test took 2 minutes and noticeably improved both sound and ANC after calibration.',
-            ar: 'الـ 4 مقاسات أطراف + جناحين يعني بيتحطوا تمام. جرّبت 3 سماعات تانية كانت بتقع في الجيم — Liberty 3 Pro بتفضل ثابتة. IPX4 بتستحمل العرق. اختبار HearID في تطبيق Soundcore أخد دقيقتين وحسّن الصوت والـ ANC بشكل ملحوظ بعد المعايرة.'
+            ar: 'الـ 4 مقاسات أطراف + جناحين يعني بيتحطوا تمام. جرّبت 3 سماعات تانية كانت بتقع في الجيم — Liberty 3 Pro بتفضل ثابتة. IPX4 بتستحمل العرق. اختبار HearID في تطبيق ساوندكور أخد دقيقتين وحسّن الصوت والـ ANC بشكل ملحوظ بعد المعايرة.'
         },
         pros: { en: ['4 tip sizes + wings = perfect fit', 'Stays locked in gym', 'HearID calibration improves everything'], ar: ['4 مقاسات + جناحين = ثبات مثالي', 'بتفضل ثابتة في الجيم', 'معايرة HearID بتحسّن كل حاجة'] },
     },
@@ -110,7 +110,7 @@ export const soundcore_liberty_3_pro_reviews: ProductReview[] = [
         datePublished: '2026-05-18',
         reviewBody: {
             en: 'Switched from AirPods Pro 2 to Liberty 3 Pro after trying them at a friend\'s house. The dual driver sounds warmer and more detailed for Arabic music — Oum Kalthoum recordings come alive. The custom EQ in Soundcore app is miles ahead of Apple\'s limited settings.',
-            ar: 'بدّلت من AirPods Pro 2 لـ Liberty 3 Pro بعد ما جرّبتها عند صاحبتي. الدرايفر المزدوج صوته أدفأ وأكثر تفصيلاً للموسيقى العربية — تسجيلات أم كلثوم بتحيى. الـ EQ المخصص في تطبيق Soundcore متقدم بكتير على إعدادات Apple المحدودة.'
+            ar: 'بدّلت من AirPods Pro 2 لـ Liberty 3 Pro بعد ما جرّبتها عند صاحبتي. الدرايفر المزدوج صوته أدفأ وأكثر تفصيلاً للموسيقى العربية — تسجيلات أم كلثوم بتحيى. الـ EQ المخصص في تطبيق ساوندكور متقدم بكتير على إعدادات Apple المحدودة.'
         },
         pros: { en: ['Warmer than AirPods Pro 2', 'Oum Kalthoum recordings alive', 'Soundcore EQ >> Apple'], ar: ['أدفأ من AirPods Pro 2', 'تسجيلات أم كلثوم حية', 'Soundcore EQ >> Apple'] },
     },

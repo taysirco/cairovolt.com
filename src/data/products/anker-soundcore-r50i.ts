@@ -10,7 +10,7 @@ export const anker_soundcore_r50i = {
             { id: "img_5", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-usb-c-charging-port-case-bottom.webp", alt: "Soundcore R50i worn showing secure in-ear fit - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_6", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-touch-control-gesture-tap-earbud.webp", alt: "سماعة ساوندكور R50i علبة شحن USB-C - مصر - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-bluetooth-5.3-connection-range-test.webp", alt: "Soundcore R50i silicone ear tips multiple sizes - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-package-box-contents-accessories-egypt.webp", alt: "ساوندكور R50i تطبيق Soundcore EQ - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_8", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-package-box-contents-accessories-egypt.webp", alt: "ساوندكور R50i تطبيق ساوندكور EQ - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-soundcore-r50i-nc",
@@ -130,10 +130,10 @@ export const anker_soundcore_r50i = {
             },
             ar: {
                 name: "سماعة أنكر ساوندكور R50i | 10mm درايفر | 30 ساعة | داخلية | ضمان 18 شهر",
-                shortDescription: "🎵 10mm BassUp™ | 🔋 30 ساعة | 🎙️ AI ENC مزدوج | ⚡ شحن سريع | 💧 IPX5 | 📱 تطبيق Soundcore",
+                shortDescription: "🎵 10mm BassUp™ | 🔋 30 ساعة | 🎙️ AI ENC مزدوج | ⚡ شحن سريع | 💧 IPX5 | 📱 تطبيق ساوندكور",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، ساوندكور R50i بتوفر <strong>10mm BassUp™</strong> و<strong>30 ساعة بطارية</strong> بأقل سعر في تشكيلة Soundcore. أطراف سيليكون داخلية بتوفر عزل سلبي لشوارع القاهرة الصاخبة. AI ENC مزدوج بينضّف صوت المكالمات في الأتوبيس والميكروباص. بدون ANC — بس بالسعر ده، أفضل قيمة سماعة لاسلكية في مصر. شهادات FCC، ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة بصوت مشوش وبطارية ساعة، ساوندكور R50i بتوفر <strong>10mm BassUp™</strong> و<strong>30 ساعة بطارية</strong> بأقل سعر في تشكيلة ساوندكور. أطراف سيليكون داخلية بتوفر عزل سلبي لشوارع القاهرة الصاخبة. AI ENC مزدوج بينضّف صوت المكالمات في الأتوبيس والميكروباص. بدون ANC — بس بالسعر ده، أفضل قيمة سماعة لاسلكية في مصر. شهادات FCC، ضمان 18 شهر. بسعر <strong>950 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
@@ -144,10 +144,10 @@ export const anker_soundcore_r50i = {
 <li>⚡ <strong>شحن سريع:</strong> 10 دقايق = ساعة.</li>
 </ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i نقطة بداية أنكر — ويا نعم البداية. بـ 950 جنيه، بتاخد 10mm درايفرات و BassUp و 30 ساعة بطارية و AI ENC للمكالمات وتطبيق Soundcore الكامل. التصميم الداخلي بأطراف السيليكون بيعزل الضوضاء بشكل سلبي فعّال بشكل مفاجئ في المترو. لأ، مفيهاش ANC زي <a href='/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>، بس السيل بتاع السيليكون بيمنع ضوضاء كتير طبيعياً. لو عايز أقصى قيمة، ابدأ من هنا. لو عايز ANC، ارقي لـ R50i NC. لو عايز أقصى راحة، اختار <a href='/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ R50i نقطة بداية أنكر — ويا نعم البداية. بـ 950 جنيه، بتاخد 10mm درايفرات و BassUp و 30 ساعة بطارية و AI ENC للمكالمات وتطبيق ساوندكور الكامل. التصميم الداخلي بأطراف السيليكون بيعزل الضوضاء بشكل سلبي فعّال بشكل مفاجئ في المترو. لأ، مفيهاش ANC زي <a href='/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>، بس السيل بتاع السيليكون بيمنع ضوضاء كتير طبيعياً. لو عايز أقصى قيمة، ابدأ من هنا. لو عايز ANC، ارقي لـ R50i NC. لو عايز أقصى راحة، اختار <a href='/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ كايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 <div class="product-details">
 <section><h2 class="text-2xl font-bold mb-2">بطل القيمة</h2>
-<p class="text-gray-700">بـ 950 جنيه، الـ R50i بتوفر اللي سماعات بضعف السعر ما بتوفروش: صوت موثوق، بطارية موثوقة، ومكالمات موثوقة. <strong>درايفرات 10mm BassUp</strong> بتوفر باس صلب ووسط واضح. تطبيق Soundcore بيفتح 22 إعداد EQ و 8 نطاقات.</p></section>
+<p class="text-gray-700">بـ 950 جنيه، الـ R50i بتوفر اللي سماعات بضعف السعر ما بتوفروش: صوت موثوق، بطارية موثوقة، ومكالمات موثوقة. <strong>درايفرات 10mm BassUp</strong> بتوفر باس صلب ووسط واضح. تطبيق ساوندكور بيفتح 22 إعداد EQ و 8 نطاقات.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">30 ساعة: شحن أسبوعي</h2>
 <p class="text-gray-700">8 ساعات لكل شحنة، 30 ساعة إجمالي. بساعتين استخدام يومي، ده أكتر من أسبوعين بين الشحنات. <strong>شحن USB-C سريع</strong> بيدي ساعة تشغيل من 10 دقايق.</p></section>
 <section><h2 class="text-2xl font-bold mb-2">عزل سلبي داخلي</h2>
@@ -158,27 +158,27 @@ export const anker_soundcore_r50i = {
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> BassUp 10mm مختبرة. كودك AAC مثالي.</li>
 <li>📱 <strong>سامسونج S26 الترا:</strong> بلوتوث 5.3 اتصال مستقر. SBC/AAC.</li>
 <li>💻 <strong>ماك بوك/ويندوز:</strong> AI ENC مزدوج لمكالمات Zoom/Teams.</li>
-<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق Soundcore: 22 إعداد EQ + 8 نطاقات مخصصة.</li>
+<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق ساوندكور: 22 إعداد EQ + 8 نطاقات مخصصة.</li>
 <li>📱 <strong>ايباد ميني:</strong> IPX5 مختبرة للجيم. وضع جيمنج منخفض التأخير.</li>
 </ul></div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات Soundcore مقلدة منتشرة على السوشيال ميديا ب~150-200 جنيه بدرايفرات مستعملة بتشوّه فوق 50% صوت. الـ R50i الأصلية فيها بلوتوث 5.3 مش 5.0/5.1. تأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">سماعات ساوندكور مقلدة منتشرة على السوشيال ميديا ب~150-200 جنيه بدرايفرات مستعملة بتشوّه فوق 50% صوت. الـ R50i الأصلية فيها بلوتوث 5.3 مش 5.0/5.1. تأكد على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
-                features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق Soundcore", "💰 أفضل قيمة", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
-                metaTitle: "سماعة انكر Soundcore R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
+                features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق ساوندكور", "💰 أفضل قيمة", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
+                metaTitle: "سماعة انكر ساوندكور R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },
                     { question: "R50i ولا R50i NC — إيه الفرق؟", answer: "R50i: بدون ANC، 30 ساعة، 950 جنيه. R50i NC: 42dB ANC، 45 ساعة، علبة حامل، 4 مايك، 1199 جنيه. لو الميزانية تسمح، R50i NC ترقية كبيرة." },
                     { question: "R50i ولا K20i — أنهي أحسن؟", answer: "R50i = داخلية (عزل سلبي، 10mm، 30 ساعة). K20i = نصف داخلية (أريح، 13mm، 36 ساعة). K20i بـ 750 جنيه مقابل 950 للـ R50i." },
                     { question: "إزاي أحافظ على البطارية أطول فترة؟", answer: "خلّي العلبة مشحونة بـ USB-C. متفرغش السماعات لـ 0%. حطها في العلبة لما مش بتستخدمها. شحن 10 دقايق بيدي ساعتين طوارئ." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عطل الدرايفر، تدهور البطارية، ومشاكل البلوتوث. كلّم CairoVolt للاستبدال مجاناً لو باظت في الاستخدام العادي." }
                 ]
             }
         },
-        meta: { keywords: "soundcore r50i, anker soundcore r50i, anker r50i, soundcore r50i egypt, soundcore r50i price, soundcore r50i review, soundcore r50i specs, soundcore r50i vs r50i nc, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوند كور r50i, سماعة soundcore r50i, سعر soundcore r50i, سعر soundcore r50i في مصر, r50i anker, anker soundcore r50i earbuds, سماعة انكر مصر, anker earbuds egypt, سماعة بلوتوث انكر, soundcore مصر, افضل سماعة لاسلكية 2026, soundcore r50i vs airpods, how to pair soundcore r50i", mainTerm: "soundcore r50i" },
-        expertOpinion: { en: "The Soundcore R50i is for first-time wireless earbud buyers who refuse to compromise. At its price, you get features found in earbuds costing 3× more. Skip if you need ANC — the Soundcore R50i uses passive isolation only.", ar: "Soundcore R50i لأول مرة تشتري سماعات لاسلكية وعايز حاجة محترمة. بسعرها بتاخد مميزات موجودة في سماعات بـ 3 أضعاف السعر. مش ليك لو محتاج عزل نشط — R50i بتعتمد على عزل سلبي بس." }
+        meta: { keywords: "ساوندكور r50i, أنكر ساوندكور r50i, أنكر r50i, ساوندكور r50i egypt, ساوندكور r50i price, ساوندكور r50i review, ساوندكور r50i specs, ساوندكور r50i vs r50i nc, سماعة انكر r50i, سماعه انكر, ايربودز انكر r50i, انكر ساوند كور r50i, سماعة ساوندكور r50i, سعر ساوندكور r50i, سعر ساوندكور r50i في مصر, r50i أنكر, أنكر ساوندكور r50i earbuds, سماعة انكر مصر, أنكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, افضل سماعة لاسلكية 2026, ساوندكور r50i vs airpods, how to pair ساوندكور r50i", mainTerm: "soundcore r50i" },
+        expertOpinion: { en: "The Soundcore R50i is for first-time wireless earbud buyers who refuse to compromise. At its price, you get features found in earbuds costing 3× more. Skip if you need ANC — the Soundcore R50i uses passive isolation only.", ar: "ساوندكور R50i لأول مرة تشتري سماعات لاسلكية وعايز حاجة محترمة. بسعرها بتاخد مميزات موجودة في سماعات بـ 3 أضعاف السعر. مش ليك لو محتاج عزل نشط — R50i بتعتمد على عزل سلبي بس." }
     };

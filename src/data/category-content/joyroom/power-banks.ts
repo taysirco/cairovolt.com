@@ -67,18 +67,18 @@ export const joyroom_power_banks_content: CategoryContent = {
         en: {
             title: 'Joyroom Power Bank Egypt | 10000 & 20000mAh | QC 3.0 from EGP 850',
             description: 'Buy original Joyroom power bank in Egypt. 10000mAh from EGP 850, 20000mAh 22.5W QC 3.0. Grade A+ Li-Polymer cells, LED display. CairoVolt tested — 0.8% return rate. ✓ 12-month warranty ✓ COD ✓ Airline safe',
-            keywords: 'joyroom power bank, joyroom power bank egypt, joyroom power bank 10000, joyroom power bank 20000, joyroom power bank price egypt, joyroom 22.5W, joyroom USB-C PD, joyroom magsafe power bank, portable charger joyroom, power bank egypt cheap, best budget power bank egypt, joyroom 10000mAh price, joyroom 20000mAh price, باور بانك جوي روم, باور بانك جيروم, joyroom battery pack, affordable power bank egypt 2026',
+            keywords: 'جوي روم power bank, جوي روم power bank egypt, جوي روم power bank 10000, جوي روم power bank 20000, جوي روم power bank price egypt, جوي روم 22.5W, جوي روم USB-C PD, جوي روم magsafe power bank, portable charger جوي روم, power bank egypt cheap, best budget power bank egypt, جوي روم 10000mAh price, جوي روم 20000mAh price, باور بانك جوي روم, باور بانك جيروم, جوي روم battery pack, affordable power bank egypt 2026',
         },
         ar: {
             title: 'باور بانك جوي روم مصر | 10000 و 20000mAh | شحن سريع 22.5W من 850ج',
             description: 'باور بانك جوي روم الأصلي في مصر. 10,000mAh من 850ج، 20,000mAh بشحن سريع QC 3.0 بـ 22.5W. خلايا Grade A+ Li-Polymer + شاشة LED. اختبار CairoVolt — نسبة إرجاع 0.8%. ✓ ضمان سنة ✓ دفع عند الاستلام ✓ مسموح الطائرة',
-            keywords: 'باور بانك جوي روم, باور بانك جوي روم 10000, باور بانك جوي روم 20000, سعر باور بانك جوي روم, باور بانك جيروم, باور بانك جوي رووم, باور بانك رخيص مصر, أفضل باور بانك اقتصادي, شحن سريع PD, باور بانك USB-C مصر, باور بانك جوي روم ماجسيف, أرخص باور بانك أصلي مصر, باور بانك 10000 سعر مصر, باور بانك 20000 سعر مصر, joyroom power bank, joyroom باور بانك, باور بانك شحن سريع 22.5 واط',
+            keywords: 'باور بانك جوي روم, باور بانك جوي روم 10000, باور بانك جوي روم 20000, سعر باور بانك جوي روم, باور بانك جيروم, باور بانك جوي رووم, باور بانك رخيص مصر, أفضل باور بانك اقتصادي, شحن سريع PD, باور بانك USB-C مصر, باور بانك جوي روم ماجسيف, أرخص باور بانك أصلي مصر, باور بانك 10000 سعر مصر, باور بانك 20000 سعر مصر, جوي روم power bank, جوي روم باور بانك, باور بانك شحن سريع 22.5 واط',
         }
     },
     pageContent: {
         ar: {
             title: 'باور بانك جوي روم الأصلي — وحش الميزانية',
-            subtitle: 'Joyroom Power Bank — خلايا Grade A+ بسعر أقل 40-55% من الماركات الفاخرة',
+            subtitle: 'جوي روم Power Bank — خلايا Grade A+ بسعر أقل 40-55% من الماركات الفاخرة',
             description: `
 على عكس الباور بانك الرخيص اللي بيبوظ بعد 3 شهور (وسعته الحقيقية نص المكتوب على العلبة)، باور بانك **جوي روم** مبني بخلايا **Li-Polymer Grade A+** — نفس الكيمياء اللي في هواتف سامسونج وأبل الرائدة. اختبار CairoVolt Labs بعد 200 دورة شحن: احتفظ بـ **91% من السعة الأصلية**. شحن سريع 22.5W بيشحن ايفون 17 من 0 لـ 50% في 30 دقيقة. ده أسرع 4× من الباور بانك بتاع 50 جنيه.
 

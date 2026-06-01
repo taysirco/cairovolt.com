@@ -56,7 +56,7 @@ export const anker_soundcore_r50i_nc_reviews: ProductReview[] = [
         },
         {
             author: 'Yasmin El-Tawil', rating: 4, location: 'العبور', datePublished: '2026-05-19',
-            reviewBody: { en: 'Bought for my commute on the Ring Road. ANC handles traffic noise perfectly. Only complaint: the Soundcore app takes a few tries to connect via Bluetooth. Once connected, everything is smooth.', ar: 'اشتريتهم لمشواري على الدائري. الـ ANC بيتعامل مع ضوضاء الزحمة تمام. الشكوى الوحيدة: تطبيق Soundcore بياخد كام محاولة يتوصل بالبلوتوث. بعد ما بيتوصل كل حاجة سلسة.' },
+            reviewBody: { en: 'Bought for my commute on the Ring Road. ANC handles traffic noise perfectly. Only complaint: the Soundcore app takes a few tries to connect via Bluetooth. Once connected, everything is smooth.', ar: 'اشتريتهم لمشواري على الدائري. الـ ANC بيتعامل مع ضوضاء الزحمة تمام. الشكوى الوحيدة: تطبيق ساوندكور بياخد كام محاولة يتوصل بالبلوتوث. بعد ما بيتوصل كل حاجة سلسة.' },
             pros: { en: ['Ring Road traffic tested', 'Smooth after connection', 'Commuter approved'], ar: ['مختبر في الدائري', 'سلس بعد التوصيل', 'معتمد للتنقل'] },
             cons: { en: ['App Bluetooth pairing can be finicky'], ar: ['اقتران بلوتوث التطبيق بيعند ساعات'] }
         }

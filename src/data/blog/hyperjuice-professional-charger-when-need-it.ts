@@ -33,7 +33,7 @@ export const hyperjuice_professional_charger_when_need_it: BlogArticle = {
             metaDescription: 'شواحن HyperJuice 100W و 145W و 245W للمحترفين — مقارنة كاملة بالأرقام والاختبارات. هل تستحق السعر للمصور والمونتير في مصر 2026؟ دليل المهندس.',
             keywords: 'شاحن HyperJuice, شاحن احترافي للمصورين, شاحن 140W GaN, شاحن محطة عمل, HyperJuice 245W, شاحن لابتوب احترافي مصر, شاحن USB-C PD 100W, شاحن فيديوجرافر, شاحن مونتير مصر, شاحن GaN احترافي, شاحن متعدد المنافذ للمحترفين, HyperJuice Egypt',
             excerpt: 'شواحن HyperJuice بتبدأ من 100W وتوصل لـ 245W — مصممة للمحترفين اللي بيشحنوا لابتوب + كاميرا + موبايل معاً. اعرف متى تستحق السعر ومتى البديل أوفر.',
-            quickAnswer: 'شواحن HyperJuice تستحق فعلاً لو بتستخدم 3 أجهزة USB-C PD في نفس الوقت (لابتوب + كاميرا + موبايل) وبتحتاج 100W+ مستمر. موديل 100W (حوالي 2,800ج) للتصوير الخارجي، 145W (حوالي 3,500ج) للمونتير اللي عنده MacBook Pro 16\"، و 245W (حوالي 5,200ج) لمحطات العمل المكتبية. لو بتستخدم جهاز واحد أو اتنين — شاحن Anker GaN 45-65W بيعمل نفس الشغل بنص السعر.',
+            quickAnswer: 'شواحن HyperJuice تستحق فعلاً لو بتستخدم 3 أجهزة USB-C PD في نفس الوقت (لابتوب + كاميرا + موبايل) وبتحتاج 100W+ مستمر. موديل 100W (حوالي 2,800ج) للتصوير الخارجي، 145W (حوالي 3,500ج) للمونتير اللي عنده MacBook Pro 16\"، و 245W (حوالي 5,200ج) لمحطات العمل المكتبية. لو بتستخدم جهاز واحد أو اتنين — شاحن أنكر GaN 45-65W بيعمل نفس الشغل بنص السعر.',
             content: `<p>إنت مصور فريلانسر. رجعت من شوت في حدايق الأهرام الساعة 6 المغرب. البطارية الأولى للكاميرا فاضية. اللابتوب على 18% عشان كنت بتراجع الصور في العربية. الموبايل على 9% عشان GPS و Instagram Stories أكلوا البطارية. والعميل بيبعتلك على واتساب "الصور خلصت؟" — وإنت عندك 3 أجهزة محتاجة شحن في نفس الوقت وبريزة واحدة فاضية في البيت. في اللحظة دي بتتمنى لو عندك شاحن واحد بيشحن كل حاجة — بدل ما تلعب كراسي موسيقية مع الشواحن لحد الساعة 2 بالليل.</p>
 
 <p>شواحن HyperJuice مصممة بالظبط للحالة دي — محترف عنده أكتر من جهاز وكلهم محتاجين شحن "دلوقتي مش بكره." بس السؤال الحقيقي: هل فعلاً محتاج شاحن بـ 3,000-5,000 جنيه، ولا شاحن GaN عادي بنص السعر يعمل نفس الشغلانة؟ في المقال ده — هنحلل كل موديل بالأرقام، ونقولك بصراحة: "اشتري" ولا "وفّر فلوسك."</p>
@@ -54,7 +54,7 @@ export const hyperjuice_professional_charger_when_need_it: BlogArticle = {
 
 <h2>إيه الفرق بين HyperJuice وأي شاحن GaN تاني؟ — المقارنة بالأرقام</h2>
 
-<p>HyperJuice — الشركة الأمريكية Hyper — متخصصة في شواحن المحترفين من 2009. الفرق الأساسي عن Anker أو Baseus مش في التقنية (كلهم GaN)، لكن في <strong>ثلاث حاجات:</strong> (1) القدرة الإجمالية أعلى (تبدأ من 100W وتوصل 245W)، (2) توزيع القدرة أذكى بين المنافذ، (3) التصميم الحراري مصمم للتشغيل المستمر ساعات طويلة — مش مجرد شحن 30 دقيقة وبعدين يسخن ويبطّئ.</p>
+<p>HyperJuice — الشركة الأمريكية Hyper — متخصصة في شواحن المحترفين من 2009. الفرق الأساسي عن أنكر أو Baseus مش في التقنية (كلهم GaN)، لكن في <strong>ثلاث حاجات:</strong> (1) القدرة الإجمالية أعلى (تبدأ من 100W وتوصل 245W)، (2) توزيع القدرة أذكى بين المنافذ، (3) التصميم الحراري مصمم للتشغيل المستمر ساعات طويلة — مش مجرد شحن 30 دقيقة وبعدين يسخن ويبطّئ.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
@@ -154,18 +154,18 @@ export const hyperjuice_professional_charger_when_need_it: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #d1d5db;">مصمم جرافيك — لابتوب + موبايل بس</td>
-            <td style="padding:10px;border:1px solid #d1d5db;color:#2563eb;font-weight:bold;">Anker 45W كافي 💰</td>
+            <td style="padding:10px;border:1px solid #d1d5db;color:#2563eb;font-weight:bold;">أنكر 45W كافي 💰</td>
             <td style="padding:10px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;">انكر نانو 45W</a> بـ 799ج بيشحن MacBook Air + موبايل — أرخص 72%</td>
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #d1d5db;">طالب هندسة — لابتوب فقط</td>
-            <td style="padding:10px;border:1px solid #d1d5db;color:#2563eb;font-weight:bold;">Anker 30W كافي 💰</td>
+            <td style="padding:10px;border:1px solid #d1d5db;color:#2563eb;font-weight:bold;">أنكر 30W كافي 💰</td>
             <td style="padding:10px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">انكر GaN 30W</a> بيشحن لابتوبات Ultrabook — أرخص 85%</td>
         </tr>
     </tbody>
 </table>
 
-<p><strong>القاعدة الذهبية:</strong> لو بتشحن أقل من 3 أجهزة USB-C يومياً — <strong>HyperJuice مبالغة.</strong> شاحن Anker GaN بـ 45-65W بيعمل نفس الشغل بنص التمن أو أقل. HyperJuice بيلمع فعلاً لما تحتاج <strong>100W+ مستمر لساعات + 3-4 منافذ شغالة في نفس الوقت.</strong></p>
+<p><strong>القاعدة الذهبية:</strong> لو بتشحن أقل من 3 أجهزة USB-C يومياً — <strong>HyperJuice مبالغة.</strong> شاحن أنكر GaN بـ 45-65W بيعمل نفس الشغل بنص التمن أو أقل. HyperJuice بيلمع فعلاً لما تحتاج <strong>100W+ مستمر لساعات + 3-4 منافذ شغالة في نفس الوقت.</strong></p>
 
 <h2>التصميم الحراري — ليه HyperJuice مش بيبطّئ بعد ساعة؟</h2>
 
@@ -185,13 +185,13 @@ export const hyperjuice_professional_charger_when_need_it: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير:</strong> شواحن HyperJuice <strong>مش متوفرة رسمياً في السوق المصري</strong> — أغلب اللي على OLX وFacebook بتيجي من أمازون أمريكا أو الإمارات بدون ضمان محلي. لو الشاحن فيه مشكلة — مفيش وكيل في مصر يصلّحه. ده الفرق الأساسي مقابل شواحن Anker اللي على <a href="/anker/wall-chargers" style="color:#991b1b;font-weight:600;">كايرو فولت بضمان 18 شهر</a>.
+        <strong>⚠️ تحذير:</strong> شواحن HyperJuice <strong>مش متوفرة رسمياً في السوق المصري</strong> — أغلب اللي على OLX وFacebook بتيجي من أمازون أمريكا أو الإمارات بدون ضمان محلي. لو الشاحن فيه مشكلة — مفيش وكيل في مصر يصلّحه. ده الفرق الأساسي مقابل شواحن أنكر اللي على <a href="/anker/wall-chargers" style="color:#991b1b;font-weight:600;">كايرو فولت بضمان 18 شهر</a>.
     </p>
 </div>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">🔌 <strong>الفيشة الأمريكية:</strong> HyperJuice بييجي بفيشة أمريكية (Type A) — في مصر بنستخدم Type C (European). هتحتاج أدابتور — وده بيضيف حلقة كمان في السلسلة الكهربائية. الأدابتورات الرخيصة ممكن تسبب تذبذب وتقلل الأداء. اشتري أدابتور بجودة عالية أو وصلة C8 أصلية لو هتستخدم الموديل المكتبي</li>
-    <li style="margin-bottom:16px;">💰 <strong>السعر vs البديل:</strong> HyperJuice 100W بـ 2,800ج. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> بـ 799ج + <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> = 1,300ج. يعني <strong>شاحنين Anker أصليين بضمان 18 شهر بـ أقل من نص سعر HyperJuice واحد بدون ضمان.</strong> لو مش محتاج 100W من منفذ واحد — الخيار واضح</li>
+    <li style="margin-bottom:16px;">💰 <strong>السعر vs البديل:</strong> HyperJuice 100W بـ 2,800ج. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> بـ 799ج + <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> = 1,300ج. يعني <strong>شاحنين أنكر أصليين بضمان 18 شهر بـ أقل من نص سعر HyperJuice واحد بدون ضمان.</strong> لو مش محتاج 100W من منفذ واحد — الخيار واضح</li>
     <li style="margin-bottom:16px;">🔥 <strong>الكابلات لازم تستحمل:</strong> شاحن 100W+ محتاج كابلات USB-C بتدعم 100W (5A / 20V). كابل عادي بـ 3A هيحدّ الشحن لـ 60W — يعني هتضيّع 40W من قدرة الشاحن. <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابلات انكر PowerLine USB-C</a> مصممة لـ 100W ومعاها ضمان</li>
     <li style="margin-bottom:16px;">⚡ <strong>تذبذب الكهرباء المصري:</strong> شبكة الكهرباء في مصر بتتذبذب بين 200-240V — خصوصاً في الصيف والساحل. شواحن HyperJuice بتدعم 100-240V ومصممة للتذبذب. بس الأدابتور الرخيص ممكن يكون نقطة الضعف. <strong>استثمر في مشترك كهرباء بحماية Surge Protection</strong></li>
 </ul>
@@ -208,21 +208,21 @@ export const hyperjuice_professional_charger_when_need_it: BlogArticle = {
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.hypershop.com/collections/chargers" rel="nofollow">HyperJuice — Official Charger Lineup (بالإنجليزية)</a></li>
         <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB-IF — USB Power Delivery Specification 3.1 (بالإنجليزية)</a></li>
-        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology Explained (بالإنجليزية)</a></li>
+        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">أنكر — GaN Charger Technology Explained (بالإنجليزية)</a></li>
     </ul>
 </div>`,
             faq: [
                 {
                     question: 'هل شواحن HyperJuice متوفرة رسمياً في مصر؟',
-                    answer: 'لا — مفيش وكيل رسمي لـ HyperJuice في مصر حالياً. أغلب اللي بتلاقيه على OLX وFacebook بييجي من أمازون أمريكا أو الإمارات بدون ضمان محلي. لو الشاحن اتعطّل — هتضطر تبعته بره للصيانة أو ترميه. البديل: شواحن Anker GaN متاحة على كايرو فولت بضمان 18 شهر.'
+                    answer: 'لا — مفيش وكيل رسمي لـ HyperJuice في مصر حالياً. أغلب اللي بتلاقيه على OLX وFacebook بييجي من أمازون أمريكا أو الإمارات بدون ضمان محلي. لو الشاحن اتعطّل — هتضطر تبعته بره للصيانة أو ترميه. البديل: شواحن أنكر GaN متاحة على كايرو فولت بضمان 18 شهر.'
                 },
                 {
                     question: 'هل HyperJuice 100W بيشحن كاميرا Sony A7IV أو Canon R6 II؟',
                     answer: 'أيوا — الكاميرتين بيدعموا شحن USB-C PD. Sony A7IV بتسحب 7.5W والـ Canon R6 II بتسحب 15W تقريباً. يعني هيفضل 80-85W للابتوب والموبايل. بس خد بالك: مش كل الكاميرات بتدعم شحن USB-C أثناء التشغيل — بعضها بيشحن وهي مطفية بس.'
                 },
                 {
-                    question: 'إيه الفرق العملي بين HyperJuice 145W و Anker Prime 100W؟',
-                    answer: 'الفرق الأساسي: HyperJuice 145W بيدّي 100W على المنفذ الأول + 45W فائض للمنافذ التانية. Anker Prime 100W بيوزّع 100W بين كل المنافذ. لو عندك MacBook Pro 16" (بيسحب 96W) ومحتاج تشحن حاجة تانية في نفس الوقت — 145W أفضل. لو عندك MacBook Air — الفرق ملوش لازمة.'
+                    question: 'إيه الفرق العملي بين HyperJuice 145W و أنكر Prime 100W؟',
+                    answer: 'الفرق الأساسي: HyperJuice 145W بيدّي 100W على المنفذ الأول + 45W فائض للمنافذ التانية. أنكر Prime 100W بيوزّع 100W بين كل المنافذ. لو عندك MacBook Pro 16" (بيسحب 96W) ومحتاج تشحن حاجة تانية في نفس الوقت — 145W أفضل. لو عندك MacBook Air — الفرق ملوش لازمة.'
                 },
                 {
                     question: 'هل ممكن استخدم HyperJuice 245W كمحطة شحن لـ Studio كامل؟',

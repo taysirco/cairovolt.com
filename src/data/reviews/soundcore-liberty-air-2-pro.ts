@@ -110,9 +110,9 @@ export const soundcore_liberty_air_2_pro_reviews: ProductReview[] = [
         datePublished: '2026-04-12',
         reviewBody: {
             en: 'Samsung Galaxy user and I refuse to use Galaxy Buds. LDAC on Liberty Air 2 Pro gives me better sound than Galaxy Buds2 Pro at lower price. The Soundcore app is more detailed than Samsung\'s Wearable app. Better EQ, better customization.',
-            ar: 'مستخدم Samsung Galaxy ورافض أستخدم Galaxy Buds. LDAC على Liberty Air 2 Pro بتديني صوت أحسن من Galaxy Buds2 Pro بسعر أقل. تطبيق Soundcore أكثر تفصيلاً من تطبيق Samsung Wearable. EQ أحسن، تخصيص أحسن.'
+            ar: 'مستخدم Samsung Galaxy ورافض أستخدم Galaxy Buds. LDAC على Liberty Air 2 Pro بتديني صوت أحسن من Galaxy Buds2 Pro بسعر أقل. تطبيق ساوندكور أكثر تفصيلاً من تطبيق Samsung Wearable. EQ أحسن، تخصيص أحسن.'
         },
-        pros: { en: ['Beats Galaxy Buds2 Pro sound', 'Soundcore app > Samsung Wearable', 'LDAC superior to Samsung codec'], ar: ['بتفوق على Galaxy Buds2 Pro صوت', 'تطبيق Soundcore > Samsung Wearable', 'LDAC أفضل من كودك Samsung'] },
+        pros: { en: ['Beats Galaxy Buds2 Pro sound', 'Soundcore app > Samsung Wearable', 'LDAC superior to Samsung codec'], ar: ['بتفوق على Galaxy Buds2 Pro صوت', 'تطبيق ساوندكور > Samsung Wearable', 'LDAC أفضل من كودك Samsung'] },
     },
     {
         author: 'Dalal Waheed',

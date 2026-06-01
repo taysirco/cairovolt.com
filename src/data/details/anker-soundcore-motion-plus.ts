@@ -4,7 +4,7 @@ import type { ProductDetail } from './_types';
 export const anker_soundcore_motion_plus_detail: ProductDetail = {
         aiTldr: {
             en: ['30W Hi-Res certified sound with deep bass', 'IPX7 fully waterproof — pool & shower safe', '12-hour battery life on single charge', 'Customizable EQ via Soundcore app', '✅ CairoVolt: Ain Sokhna beach test — IPX7 1m/30min + 8h rooftop at 41°C with zero shutdown'],
-            ar: ['صوت 30 واط بشهادة Hi-Res وباس عميق', 'مقاوم للماء IPX7 — آمن للمسبح والدش', 'بطارية 12 ساعة بشحنة واحدة', 'تخصيص الصوت عبر تطبيق Soundcore', '✅ كايرو فولت: اختبار شاطئ العين السخنة — IPX7 1م/30 دقيقة + 8 ساعات سطح 41°C بدون إيقاف']
+            ar: ['صوت 30 واط بشهادة Hi-Res وباس عميق', 'مقاوم للماء IPX7 — آمن للمسبح والدش', 'بطارية 12 ساعة بشحنة واحدة', 'تخصيص الصوت عبر تطبيق ساوندكور', '✅ كايرو فولت: اختبار شاطئ العين السخنة — IPX7 1م/30 دقيقة + 8 ساعات سطح 41°C بدون إيقاف']
         },
         localContext: {
             en: 'CairoVolt Ain Sokhna test: IPX7 held at 1m depth for 30 minutes. Cairo rooftop 8h test at 41°C direct sunlight: zero thermal shutdown, bass mode active all night with 18 Bluetooth connections. 12h 8min total playtime.',

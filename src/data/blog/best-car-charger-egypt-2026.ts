@@ -24,10 +24,10 @@ export const best_car_charger_egypt_2026: BlogArticle = {
             ar: {
                 title: 'أفضل شاحن سيارة في مصر: دليل الشراء الشامل',
                 metaTitle: 'أفضل شاحن سيارة في مصر | مقارنة وأسعار',
-                metaDescription: 'دليل شامل لأفضل شاحن سيارة في مصر: مقارنة Anker و Joyroom، اختبار حرارة صيفية 45°C، أسعار محدثة، ونصائح اختيار الكابل الصح.',
+                metaDescription: 'دليل شامل لأفضل شاحن سيارة في مصر: مقارنة أنكر و جوي روم، اختبار حرارة صيفية 45°C، أسعار محدثة، ونصائح اختيار الكابل الصح.',
                 keywords: 'شاحن سيارة, أفضل شاحن سيارة, شاحن سيارة سريع, شاحن سيارة ايفون, شاحن سيارة سامسونج, شاحن سيارة مصر, شاحن ولاعة السيارة',
                 excerpt: 'دليلك الشامل لاختيار أفضل شاحن سيارة في مصر مع مقارنة المنتجات واختبار حرارة الصيف.',
-                quickAnswer: 'أفضل شاحن سيارة في مصر: للميزانية المحدودة Joyroom 60W Car Charger (منفذين USB-C + USB-A بسعر أقل من 550 ج.م). للأداء الأعلى Anker Car Charger Dual USB (شحن سريع 24W + حماية MultiProtect). كلاهما اختبرناهما في حرارة 45°C الصيفية وأثبتا كفاءة وأمان تام.',
+                quickAnswer: 'أفضل شاحن سيارة في مصر: للميزانية المحدودة جوي روم 60W Car Charger (منفذين USB-C + USB-A بسعر أقل من 550 ج.م). للأداء الأعلى أنكر Car Charger Dual USB (شحن سريع 24W + حماية MultiProtect). كلاهما اختبرناهما في حرارة 45°C الصيفية وأثبتا كفاءة وأمان تام.',
                 content: `
 <h2>لماذا تحتاج شاحن سيارة أصلي في مصر؟</h2>
 <div class="quick-answer-inline" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
@@ -37,7 +37,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <p>لكن السوق مليان شواحن سيارة تقليد بتشتغل شهر وتبوظ، أو أسوأ — بتسخن وتضر الموبايل. في هذا الدليل الشامل، هنساعدك تختار الشاحن الصح.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>🌡️ اختبارنا الصيفي:</strong> في مختبر كايرو فولت، اختبرنا 4 شواحن سيارة في سيارة مغلقة تحت شمس يوليو (حرارة داخلية 55°C). شواحن Anker و Joyroom الأصلية بدأت العمل فوراً بدون أي تأخير أو سخونة غير طبيعية. شاحنين تقليد من السوق: واحد رفض يشتغل من الحرارة، والثاني اشتغل لكن الموبايل سخن لـ 47°C!</p>
+    <p><strong>🌡️ اختبارنا الصيفي:</strong> في مختبر كايرو فولت، اختبرنا 4 شواحن سيارة في سيارة مغلقة تحت شمس يوليو (حرارة داخلية 55°C). شواحن أنكر و جوي روم الأصلية بدأت العمل فوراً بدون أي تأخير أو سخونة غير طبيعية. شاحنين تقليد من السوق: واحد رفض يشتغل من الحرارة، والثاني اشتغل لكن الموبايل سخن لـ 47°C!</p>
 </div>
 
 <h2>المعايير الأساسية لاختيار شاحن سيارة</h2>
@@ -58,11 +58,11 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 </ul>
 
 <h3>3. الحماية من السخونة</h3>
-<p>السيارة المصرية في الصيف بتوصل <strong>55°C+</strong> من جوا. شاحن تقليد بدون حماية حرارية = <strong>خطر على الموبايل وعلى السيارة</strong>. شواحن Anker (MultiProtect) و Joyroom (Smart Protection) فيهم دوائر حماية من الحرارة الزائدة، التيار العالي، والقصر الكهربائي.</p>
+<p>السيارة المصرية في الصيف بتوصل <strong>55°C+</strong> من جوا. شاحن تقليد بدون حماية حرارية = <strong>خطر على الموبايل وعلى السيارة</strong>. شواحن أنكر (MultiProtect) و جوي روم (Smart Protection) فيهم دوائر حماية من الحرارة الزائدة، التيار العالي، والقصر الكهربائي.</p>
 
 <h2>أفضل 3 شواحن سيارة في مصر</h2>
 
-<h3>🥇 Anker Car Charger Dual USB — الأفضل للأمان والضمان</h3>
+<h3>🥇 أنكر Car Charger Dual USB — الأفضل للأمان والضمان</h3>
 <ul>
     <li><strong>المنافذ:</strong> 2× USB-A (24W إجمالي)</li>
     <li><strong>الحماية:</strong> MultiProtect (10 طبقات حماية)</li>
@@ -71,7 +71,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
     <li><strong>العيب:</strong> لا يوجد منفذ USB-C — يحتاج كابل USB-A to USB-C أو Lightning</li>
 </ul>
 
-<h3>🥈 Joyroom 60W Car Charger — الأفضل بميزانية محدودة</h3>
+<h3>🥈 جوي روم 60W Car Charger — الأفضل بميزانية محدودة</h3>
 <ul>
     <li><strong>المنافذ:</strong> USB-C (30W PD) + USB-A (30W QC 3.0)</li>
     <li><strong>الحماية:</strong> Smart Protection System</li>
@@ -79,7 +79,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
     <li><strong>العيب:</strong> عند شحن جهازين معاً، القدرة بتتقسم (30W + 30W تصبح ~20W + 20W)</li>
 </ul>
 
-<h3>🥉 Anker PowerDrive III Duo — للعائلات (منفذين USB-C)</h3>
+<h3>🥉 أنكر PowerDrive III Duo — للعائلات (منفذين USB-C)</h3>
 <ul>
     <li><strong>المنافذ:</strong> 2× USB-C (36W إجمالي)</li>
     <li><strong>الحماية:</strong> MultiProtect + PowerIQ 3.0</li>
@@ -122,7 +122,7 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 <h2>نصيحتنا النهائية</h2>
 <div class="quick-answer-inline" style="background:#fefce8;border-right:4px solid #eab308;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#854d0e">
     <p><strong>لو ميزانيتك محدودة:</strong> <a href="/joyroom/car-chargers/joyroom-60w-car-charger" style="color:#2563eb">جوي روم 60W Car Charger</a> — أفضل قيمة مقابل سعر. منفذ USB-C + USB-A، شحن سريع PD + QC، وحماية ذكية بأقل من 550 ج.م.</p>
-    <p><strong>لو عايز الأفضل:</strong> <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">انكر شاحن سيارة Dual USB</a> + <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">كابل Anker أصلي</a> — 10 طبقات حماية + ضمان 18 شهر استبدال من كايرو فولت.</p>
+    <p><strong>لو عايز الأفضل:</strong> <a href="/anker/car-chargers/anker-car-charger-dual-usb" style="color:#2563eb">انكر شاحن سيارة Dual USB</a> + <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb">كابل أنكر أصلي</a> — 10 طبقات حماية + ضمان 18 شهر استبدال من كايرو فولت.</p>
 </div>
 
 <div class="source-references" style="background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
@@ -134,9 +134,9 @@ export const best_car_charger_egypt_2026: BlogArticle = {
 </div>
 `,
                 faq: [
-                    { question: 'إيه أفضل شاحن سيارة في مصر؟', answer: 'للميزانية: Joyroom 60W (USB-C + USB-A، أقل من 550 ج.م). للأمان: Anker Dual USB (MultiProtect + ضمان 18 شهر). كلاهما اجتاز اختبار الحرارة الصيفية.' },
+                    { question: 'إيه أفضل شاحن سيارة في مصر؟', answer: 'للميزانية: جوي روم 60W (USB-C + USB-A، أقل من 550 ج.م). للأمان: أنكر Dual USB (MultiProtect + ضمان 18 شهر). كلاهما اجتاز اختبار الحرارة الصيفية.' },
                     { question: 'هل شاحن السيارة بيضر بطارية الموبايل؟', answer: 'لا — لو شاحن أصلي فيه حماية حرارية. الضرر بييجي من الشواحن التقليد اللي مفيهاش دوائر حماية وبتسخن في حرارة الصيف.' },
-                    { question: 'هل أقدر أشحن لابتوب من شاحن السيارة؟', answer: 'نعم، لو الشاحن يدعم USB-C PD بقدرة 45W أو أكتر. Joyroom 60W يقدر يشحن لابتوبات صغيرة مثل MacBook Air.' },
+                    { question: 'هل أقدر أشحن لابتوب من شاحن السيارة؟', answer: 'نعم، لو الشاحن يدعم USB-C PD بقدرة 45W أو أكتر. جوي روم 60W يقدر يشحن لابتوبات صغيرة مثل MacBook Air.' },
                     { question: 'إيه الفرق بين USB-A و USB-C في شاحن السيارة؟', answer: 'USB-C (PD) هو المعيار الحديث — أسرع بكتير (حتى 60W). USB-A (QC) هو الكلاسيكي — أبطأ لكن متوافق مع كل الأجهزة القديمة.' },
                 ]
             },

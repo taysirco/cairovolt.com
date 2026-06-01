@@ -15,22 +15,22 @@ export const joyroom_power_bank_20000 = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-1.webp", alt: "joyroom power bank 20000 - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "joyroom power bank 20000 - مختوم بختم الشركة | JR-T020 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-10.webp", alt: "جوي روم power bank 20000 - مختوم بختم الشركة | JR-T020 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-2.webp", alt: "joyroom power bank 20000 - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "joyroom power bank 20000 - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-3.webp", alt: "جوي روم power bank 20000 - أوريجينال مصر | مع كفالة استبدال - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-4.webp", alt: "joyroom power bank 20000 - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "joyroom power bank 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-5.webp", alt: "جوي روم power bank 20000 - أصلي بباركود الشركة | كايرو فولت مصر", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-6.webp", alt: "joyroom power bank 20000 - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "joyroom power bank 20000 - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_8", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-7.webp", alt: "جوي روم power bank 20000 - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_9", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-8.webp", alt: "joyroom power bank 20000 - Barcode Verified Egypt - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "joyroom power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_10", url: "/products/joyroom/joyroom-power-bank-20000/joyroom-joyroom-power-bank-20000-egypt-cairo-9.webp", alt: "جوي روم power bank 20000 - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
             en: {
                 name: "Joyroom 20000mAh Power Bank | 22.5W PD+QC | Triple Output | 12-Month Warranty",
                 shortDescription: "🔋 20,000mAh (4x iPhone 17) | ⚡ 22.5W PD + QC 3.0 | 🔌 3 Output Ports | 📊 LED Digital Display | 💰 Best Value",
                 description: `
-<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>Joyroom 20000mAh Power Bank</strong> delivers <strong>22.5W PD+QC with triple output</strong> — charge 3 devices simultaneously. 20000mAh = 4+ full phone charges. At 997 EGP, the best capacity-per-EGP power bank we sell. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
+<div class="quick-answer"><p class="text-gray-800 leading-relaxed">Unlike budget power banks with inflated capacity claims, The <strong>جوي روم 20000mAh Power Bank</strong> delivers <strong>22.5W PD+QC with triple output</strong> — charge 3 devices simultaneously. 20000mAh = 4+ full phone charges. At 997 EGP, the best capacity-per-EGP power bank we sell. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p></div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">At a Glance:</h3>
     <ul class="list-none space-y-1">
@@ -44,7 +44,7 @@ export const joyroom_power_bank_20000 = {
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">Real-World Performance..</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "We took the Joyroom 20000 on a family road trip from Cairo to Hurghada — 6 hours in the car with 3 phones and a tablet. Results: we charged 2 iPhones from dead to full, a Samsung A54 once, and kept an iPad mini alive for the kids' movies. Arrived with 22% battery left in the power bank. The 22.5W fast charging was noticeably faster than generic 10W banks. Three output ports meant no arguments about who charges first. At under EGP 1,000, this is the most power per pound you can get in Egypt."
+        "We took the جوي روم 20000 on a family road trip from Cairo to Hurghada — 6 hours in the car with 3 phones and a tablet. Results: we charged 2 iPhones from dead to full, a Samsung A54 once, and kept an iPad mini alive for the kids' movies. Arrived with 22% battery left in the power bank. The 22.5W fast charging was noticeably faster than generic 10W banks. Three output ports meant no arguments about who charges first. At under EGP 1,000, this is the most power per pound you can get in Egypt."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
@@ -53,17 +53,17 @@ export const joyroom_power_bank_20000 = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">4x iPhone Charges for Under 1,000 EGP</h2>
-        <p class="text-gray-700">At <strong>20,000mAh</strong>, this Joyroom delivers 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. That's a full weekend of power. And at EGP 997, it's the most affordable 20,000mAh power bank with fast charging in Egypt. Compare that to premium brands charging 2-3x more for the same capacity.</p>
+        <p class="text-gray-700">At <strong>20,000mAh</strong>, this جوي روم delivers 4 full iPhone 17 charges, 3 Samsung S26 charges, or 2.5 iPad mini charges. That's a full weekend of power. And at EGP 997, it's the most affordable 20,000mAh power bank with fast charging in Egypt. Compare that to premium brands charging 2-3x more for the same capacity.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">22.5W Fast Charging: Triple Protocol Support</h2>
-        <p class="text-gray-700">This isn't a slow trickle charger. The Joyroom 20000 supports <strong>USB-C PD 20W</strong> for iPhones, <strong>QC 3.0</strong> for Samsung/Android, and <strong>SCP 22.5W</strong> for Huawei devices. Whatever phone you have, it charges fast. The <strong>3 output ports</strong> (2×USB-A + USB-C) mean the whole family charges simultaneously.</p>
+        <p class="text-gray-700">This isn't a slow trickle charger. The جوي روم 20000 supports <strong>USB-C PD 20W</strong> for iPhones, <strong>QC 3.0</strong> for Samsung/Android, and <strong>SCP 22.5W</strong> for Huawei devices. Whatever phone you have, it charges fast. The <strong>3 output ports</strong> (2×USB-A + USB-C) mean the whole family charges simultaneously.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">LED Display + Golden Code: Quality You Can Trust</h2>
-        <p class="text-gray-700">The <strong>digital LED display</strong> shows exact battery percentage — not vague dots. Verified with <strong>Golden Code</strong> to confirm authenticity. Pair with a <a href="/en/joyroom/cables" class="text-blue-600 hover:underline">Joyroom USB-C cable</a> for maximum charging speed. At 72Wh, it's <strong>airline approved</strong> for travel.</p>
+        <p class="text-gray-700">The <strong>digital LED display</strong> shows exact battery percentage — not vague dots. Verified with <strong>Golden Code</strong> to confirm authenticity. Pair with a <a href="/en/joyroom/cables" class="text-blue-600 hover:underline">جوي روم USB-C cable</a> for maximum charging speed. At 72Wh, it's <strong>airline approved</strong> for travel.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -162,7 +162,7 @@ export const joyroom_power_bank_20000 = {
                 ]
             }
         },
-        meta: { keywords: "باور بانك جوي روم 20000, joyroom power bank 20000, joyroom portable charger, joyroom best power bank egypt 2026, joyroom travel power bank, joyroom cod egypt power bank, شاحن متنقل جوي روم, افضل باور بانك جوي روم, سعر باور بانك جوي روم, power bank 20000 egypt, باور بانك 20000 مللي, شاحن محمول للسفر, باور بانك ايفون, joyroom power bank price, باور بانك ادفع عند الاستلام, باور بانك اصلي مصر", mainTerm: "باور بانك جوي روم 20000" },
+        meta: { keywords: "باور بانك جوي روم 20000, جوي روم power bank 20000, جوي روم portable charger, جوي روم best power bank egypt 2026, جوي روم travel power bank, جوي روم cod egypt power bank, شاحن متنقل جوي روم, افضل باور بانك جوي روم, سعر باور بانك جوي روم, power bank 20000 egypt, باور بانك 20000 مللي, شاحن محمول للسفر, باور بانك ايفون, جوي روم power bank price, باور بانك ادفع عند الاستلام, باور بانك اصلي مصر", mainTerm: "باور بانك جوي روم 20000" },
         relatedProducts: [
         "joyroom-20w-usb-c-charger",
         "joyroom-usb-c-lightning-cable",

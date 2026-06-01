@@ -86,9 +86,9 @@ export const soundcore_p25i_earbuds = {
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3948 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
+        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
+        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق ساوندكور</li>
+        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من أنكر</li>
         <li><strong>السعر:</strong> أقل من 385 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
@@ -104,7 +104,7 @@ export const soundcore_p25i_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore p25i, anker p25i, soundcore p25i egypt, anker p25i price, soundcore p25i review, p25i vs p20i, best soundcore earbuds budget, ساوندكور p25i, سماعة انكر p25i, سعر soundcore p25i مصر, ايربودز انكر p25i, مقارنة p25i و p20i", mainTerm: "soundcore p25i" },
+    meta: { keywords: "ساوندكور p25i, أنكر p25i, ساوندكور p25i egypt, أنكر p25i price, ساوندكور p25i review, p25i vs p20i, best ساوندكور earbuds budget, ساوندكور p25i, سماعة انكر p25i, سعر ساوندكور p25i مصر, ايربودز انكر p25i, مقارنة p25i و p20i", mainTerm: "soundcore p25i" },
 
     expertOpinion: {
         en: "Soundcore P25i delivers 10mm BassUp sound at 770 EGP. At this price point, no competitor in the Egyptian market matches its feature set.",

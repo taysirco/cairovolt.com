@@ -85,9 +85,9 @@ export const soundcore_r50i_vi_earbuds = {
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3983 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
+        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
+        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق ساوندكور</li>
+        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من أنكر</li>
         <li><strong>السعر:</strong> أقل من 392 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
@@ -103,7 +103,7 @@ export const soundcore_r50i_vi_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore r50i vi, r50i vi earbuds, soundcore r50i vi egypt, r50i vi vs r50i, r50i vi vs r50i nc, ساوندكور r50i vi, سماعة r50i vi, سعر r50i vi مصر, مقارنة r50i vi و r50i", mainTerm: "soundcore r50i vi" },
+    meta: { keywords: "ساوندكور r50i vi, r50i vi earbuds, ساوندكور r50i vi egypt, r50i vi vs r50i, r50i vi vs r50i nc, ساوندكور r50i vi, سماعة r50i vi, سعر r50i vi مصر, مقارنة r50i vi و r50i", mainTerm: "soundcore r50i vi" },
 
     expertOpinion: {
         en: "Soundcore R50i Vi delivers 10mm BassUp sound at 785 EGP. At this price point, no competitor in the Egyptian market matches its feature set.",

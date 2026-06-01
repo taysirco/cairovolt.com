@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_liberty_5_detail: ProductDetail = {
     aiTldr: {
         en: ['9.2mm wool-paper diaphragm driver — warmer, more natural sound than synthetic drivers', 'Adaptive ANC 3.0: 6 mics recalibrating every 0.3s, 2× stronger voice reduction', 'IP55 dust + water protection — the first Liberty with Cairo sandstorm defense', 'LDAC Hi-Res 990kbps + Dolby Audio + 3D Audio — latest 2025 codec support', 'CairoVolt: 18-month warranty, 1.0% return rate, original Anker guaranteed'],
-        ar: ['درايفر 9.2mm ورق صوفي — صوت أدفى وأطبع من الدرايفرات الصناعية', 'عزل ANC 3.0 تكيفي: 6 مايك بيتكيفوا كل 0.3 ثانية، 2× أقوى في تقليل الأصوات', 'حماية IP55 غبار + مياه — أول ليبرتي بحماية من غبار القاهرة', 'LDAC Hi-Res 990kbps + Dolby Audio + 3D Audio — أحدث دعم كودك 2025', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 1.0%، أصلي Anker مضمون'],
+        ar: ['درايفر 9.2mm ورق صوفي — صوت أدفى وأطبع من الدرايفرات الصناعية', 'عزل ANC 3.0 تكيفي: 6 مايك بيتكيفوا كل 0.3 ثانية، 2× أقوى في تقليل الأصوات', 'حماية IP55 غبار + مياه — أول ليبرتي بحماية من غبار القاهرة', 'LDAC Hi-Res 990kbps + Dolby Audio + 3D Audio — أحدث دعم كودك 2025', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 1.0%، أصلي أنكر مضمون'],
     },
     localContext: {
         en: 'Cairo has two earbuds threats: noise (85dB+ Metro and microbus) and dust (khamaseen sandstorms every spring). The Soundcore Liberty 5 is the first Liberty-series with IP55 — dust AND water protection. ANC 3.0 handles the noise. IP55 handles the dust. At 4,651 EGP, it is the newest all-rounder for Egyptian daily drivers who need durability in harsh conditions.',

@@ -71,11 +71,11 @@ export const soundcore_select_4_go_speaker = {
     <section>
         <h2 class="text-2xl font-bold mb-3">IP67: غمر وضد الغبار وبتطفو</h2>
         <p class="text-gray-700 leading-relaxed">Select 4 Go هي السبيكر النهائية للمية. IP67 يعني حماية غمر كامل (1 متر لـ 30 دقيقة) وختم ضد الغبار كامل — بتستحمل رمل شاطئ مصر ووقوع في المسبح وبخار الدش. والأحسن: بتطفو وجهها لفوق على المية، بتكمل تشغيل موسيقى من سطح المسبح.</p>
-        <p class="text-gray-700 leading-relaxed">20 ساعة بطارية على 50% صوت بتخليها أطول سبيكر Soundcore صغيرة بطارية. اشحن مرة وخد ويكند الساحل كامل صوت جنب المسبح. BT 5.4 بيقدم أحدث وأثبت اتصال لاسلكي. شحن USB-C سريع. حزام حمل مدمج بيتعلق على شنط الظهر والجيم.</p>
+        <p class="text-gray-700 leading-relaxed">20 ساعة بطارية على 50% صوت بتخليها أطول سبيكر ساوندكور صغيرة بطارية. اشحن مرة وخد ويكند الساحل كامل صوت جنب المسبح. BT 5.4 بيقدم أحدث وأثبت اتصال لاسلكي. شحن USB-C سريع. حزام حمل مدمج بيتعلق على شنط الظهر والجيم.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">5 واط صوت شخصي: مش سبيكر حفلات</h2>
-        <p class="text-gray-700 leading-relaxed">بـ 5 واط، Select 4 Go مصممة للاستخدام الشخصي والمجموعات الصغيرة: دش، مكتب، سرير، جنب المسبح لـ 2-3 صحاب. جودة الصوت واضحة ومتوازنة لحجمها. 9-باند EQ في تطبيق Soundcore بيوفر تحكم تردد احترافي نادر في سبيكرات الجيب — ارفع الميد للبودكاست، الباس للموسيقى.</p>
+        <p class="text-gray-700 leading-relaxed">بـ 5 واط، Select 4 Go مصممة للاستخدام الشخصي والمجموعات الصغيرة: دش، مكتب، سرير، جنب المسبح لـ 2-3 صحاب. جودة الصوت واضحة ومتوازنة لحجمها. 9-باند EQ في تطبيق ساوندكور بيوفر تحكم تردد احترافي نادر في سبيكرات الجيب — ارفع الميد للبودكاست، الباس للموسيقى.</p>
         <p class="text-gray-700 leading-relaxed">ربط TWS بيوصل اتنين Select 4 Go لفصل ستيريو حقيقي. مهم: مفيش مايك مدمج (مش بتاخد مكالمات) ومفيش مدخل AUX (بلوتوث فقط). لصوت حفلات: Rave 3 (200 واط) بـ 9,450 جنيه.</p>
     </section>
 </div>
@@ -87,7 +87,7 @@ export const soundcore_select_4_go_speaker = {
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3129 على ملصق المنتج</li>
         <li><strong>اختبار الطفو:</strong> الأصلية بتطفو وجهها لفوق على المية</li>
-        <li><strong>التطبيق:</strong> بتتصل بتطبيق Soundcore بـ 9-باند EQ</li>
+        <li><strong>التطبيق:</strong> بتتصل بتطبيق ساوندكور بـ 9-باند EQ</li>
         <li><strong>BT:</strong> بتظهر "Bluetooth 5.4" في الإعدادات</li>
         <li><strong>البطارية:</strong> 20 ساعة على 50% — المقلدة بتموت في 4-6 ساعات</li>
     </ul>
@@ -105,7 +105,7 @@ export const soundcore_select_4_go_speaker = {
         }
     },
 
-    meta: { keywords: "soundcore select 4 go, select 4 go waterproof, select 4 go float, soundcore pool speaker, select 4 go egypt, best waterproof speaker egypt, jbl go 4 alternative, ساوندكور سيليكت 4 جو, سبيكر ضد المية, سبيكر بتطفو, سعر select 4 go مصر", mainTerm: "soundcore select 4 go" },
+    meta: { keywords: "ساوندكور select 4 go, select 4 go waterproof, select 4 go float, ساوندكور pool speaker, select 4 go egypt, best waterproof speaker egypt, jbl go 4 alternative, ساوندكور سيليكت 4 جو, سبيكر ضد المية, سبيكر بتطفو, سعر select 4 go مصر", mainTerm: "soundcore select 4 go" },
 
     expertOpinion: {
         en: "Select 4 Go is THE waterproof pocket speaker at 1,249 EGP. IP67 + floats + 20h battery beats JBL Go 4. Trade-offs: 5W personal volume only (not for parties), no mic, no AUX. For parties: Rave 3.",

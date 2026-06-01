@@ -23,11 +23,11 @@ export const cables_generic: GenericCategory = {
             ar: {
                 title: 'كابلات شحن في مصر',
                 subtitle: 'كابلات مضادة للكسر — USB-C و Lightning',
-                intro: 'اكتشف كابلات الشحن الأصلية من Anker و Joyroom. كابلات PowerLine من انكر تتحمل 25,000 ثنية وتدعم الشحن السريع حتى 100W. كابلات جوي روم بجودة ممتازة وسعر اقتصادي.',
+                intro: 'اكتشف كابلات الشحن الأصلية من أنكر و جوي روم. كابلات PowerLine من انكر تتحمل 25,000 ثنية وتدعم الشحن السريع حتى 100W. كابلات جوي روم بجودة ممتازة وسعر اقتصادي.',
                 buyingTips: [
                     'لـ iPhone 17: كابل USB-C to USB-C مع PD — اختبار CairoVolt: كابل PD يشحن 60W فعلية (الكابل العادي 5W فقط!)',
-                    'اختبار متانة CairoVolt Labs: كابل Anker PowerLine صمد 25,000 ثنية — الكابل العادي انكسر عند 3,200 ثنية',
-                    'كابلات النايلون المضفرة: اختبار 365 يوم — كابل Anker بقي كالجديد، كابل بلاستيك تلف بعد 4 أشهر',
+                    'اختبار متانة CairoVolt Labs: كابل أنكر PowerLine صمد 25,000 ثنية — الكابل العادي انكسر عند 3,200 ثنية',
+                    'كابلات النايلون المضفرة: اختبار 365 يوم — كابل أنكر بقي كالجديد، كابل بلاستيك تلف بعد 4 أشهر',
                     'الطول المناسب: 1م للسيارة/المكتب، 2م للسرير — اختبارنا: لا فرق في سرعة الشحن بين 1م و 2م',
                 ],
             },
@@ -71,7 +71,7 @@ export const cables_generic: GenericCategory = {
 <li><strong>النوع:</strong> <strong>USB-C to USB-C</strong> هو المعيار الحالي لكل الأجهزة الحديثة (iPhone 17, Samsung S26, iPad, MacBook)</li>
 <li><strong>دعم PD:</strong> تأكد الكابل يدعم <strong>Power Delivery</strong> — بدونه لن يعمل الشحن السريع حتى لو الشاحن يدعمه</li>
 <li><strong>التيار:</strong> كابل <strong>3A</strong> يكفي لمعظم الموبايلات. كابل <strong>5A</strong> ضروري للابتوب والشحن فائق السرعة</li>
-<li><strong>المتانة:</strong> كابلات <strong>النايلون المضفر</strong> أقوى 5 مرات من البلاستيك العادي. كابلات Anker PowerLine تتحمل 25,000 ثنية</li>
+<li><strong>المتانة:</strong> كابلات <strong>النايلون المضفر</strong> أقوى 5 مرات من البلاستيك العادي. كابلات أنكر PowerLine تتحمل 25,000 ثنية</li>
 <li><strong>الطول:</strong> 1 متر للسيارة والمكتب. 1.8-2 متر للسرير والأريكة. 0.3 متر للباور بانك</li>
 </ul>
 
@@ -97,12 +97,12 @@ export const cables_generic: GenericCategory = {
 <table>
 <thead><tr><th>الكابل</th><th>النوع</th><th>الطول</th><th>أقصى شحن</th><th>المتانة</th><th>السعر (جنيه)</th></tr></thead>
 <tbody>
-<tr><td>Joyroom USB-C 1m</td><td>C to C</td><td>1m</td><td>60W</td><td>نايلون</td><td>~149</td></tr>
-<tr><td>Joyroom 3-in-1</td><td>متعدد</td><td>1.2m</td><td>30W</td><td>نايلون</td><td>~199</td></tr>
-<tr><td><strong>Anker PowerLine III 1m </strong></td><td><strong>C to C</strong></td><td><strong>1m</strong></td><td><strong>60W</strong></td><td><strong>25,000 ثنية</strong></td><td><strong>~249</strong></td></tr>
-<tr><td>Anker PowerLine III Lightning</td><td>C to L</td><td>1m</td><td>30W</td><td>25,000 ثنية</td><td>~299</td></tr>
-<tr><td>Anker Flow 1.8m</td><td>C to C</td><td>1.8m</td><td>60W</td><td>سيليكون</td><td>~399</td></tr>
-<tr><td>Anker 765 140W</td><td>C to C</td><td>1.8m</td><td>140W</td><td>نايلون</td><td>~549</td></tr>
+<tr><td>جوي روم USB-C 1m</td><td>C to C</td><td>1m</td><td>60W</td><td>نايلون</td><td>~149</td></tr>
+<tr><td>جوي روم 3-in-1</td><td>متعدد</td><td>1.2m</td><td>30W</td><td>نايلون</td><td>~199</td></tr>
+<tr><td><strong>أنكر PowerLine III 1m </strong></td><td><strong>C to C</strong></td><td><strong>1m</strong></td><td><strong>60W</strong></td><td><strong>25,000 ثنية</strong></td><td><strong>~249</strong></td></tr>
+<tr><td>أنكر PowerLine III Lightning</td><td>C to L</td><td>1m</td><td>30W</td><td>25,000 ثنية</td><td>~299</td></tr>
+<tr><td>أنكر Flow 1.8m</td><td>C to C</td><td>1.8m</td><td>60W</td><td>سيليكون</td><td>~399</td></tr>
+<tr><td>أنكر 765 140W</td><td>C to C</td><td>1.8m</td><td>140W</td><td>نايلون</td><td>~549</td></tr>
 </tbody>
 </table>
 
@@ -124,13 +124,13 @@ export const cables_generic: GenericCategory = {
 <h2 id="braided-cables">لماذا كابلات النايلون المضفرة أفضل؟</h2>
 <p>الفرق بين كابل نايلون مضفر وكابل بلاستيك عادي ضخم:</p>
 <ul>
-<li><strong>المتانة:</strong> كابل Anker PowerLine النايلون يتحمل <strong>25,000 ثنية</strong> — الكابل العادي يتلف بعد ~3,000 ثنية</li>
+<li><strong>المتانة:</strong> كابل أنكر PowerLine النايلون يتحمل <strong>25,000 ثنية</strong> — الكابل العادي يتلف بعد ~3,000 ثنية</li>
 <li><strong>مقاومة التشابك:</strong> النايلون لا يتشابك في الشنطة عكس البلاستيك</li>
 <li><strong>مقاومة الحرارة:</strong> النايلون يتحمل حرارة أعلى بدون أن يذوب أو يتلف</li>
 <li><strong>المظهر:</strong> كابل النايلون يبقى جديد لفترة أطول بكثير</li>
 <li><strong>العمر:</strong> كابل نايلون يعيش 3-5 سنوات. كابل بلاستيك: 6-12 شهر</li>
 </ul>
-<p>كل كابلات <strong>Anker PowerLine</strong> و <strong>Joyroom</strong> المتوفرة في كايرو فولت نايلون مضفر.</p>
+<p>كل كابلات <strong>أنكر PowerLine</strong> و <strong>جوي روم</strong> المتوفرة في كايرو فولت نايلون مضفر.</p>
 
 <h2 id="original-vs-fake">كيف تعرف كابل ايفون الأصلي من التقليد؟</h2>
 <p>الكابلات المقلدة خطيرة — يمكن أن تبطئ الشحن أو تتلف البطارية أو حتى تسبب حريق:</p>
@@ -139,7 +139,7 @@ export const cables_generic: GenericCategory = {
 <li><strong>سرعة الشحن:</strong> جرب الشحن — الأصلي يشحن سريع فعلياً، التقليد بطيء حتى مع شاحن سريع</li>
 <li><strong>الحرارة:</strong> الأصلي لا يسخن. التقليد يسخن بشكل ملحوظ (خطر!)</li>
 <li><strong>النايلون:</strong> في الأصلي النايلون متماسك ومتين. في التقليد يتفكك بسرعة</li>
-<li><strong>العلامة:</strong> اسم Anker أو Joyroom مطبوع بوضوح على الكابل والموصل</li>
+<li><strong>العلامة:</strong> اسم أنكر أو جوي روم مطبوع بوضوح على الكابل والموصل</li>
 <li><strong>الشراء:</strong> من وكيل معتمد مثل <strong>كايرو فولت</strong> = ضمان الأصالة + ضمان رسمي</li>
 </ul>
 `,

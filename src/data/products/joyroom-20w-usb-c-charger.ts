@@ -15,11 +15,11 @@ export const joyroom_20w_usb_c_charger = {
         status: "active",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp", alt: "joyroom 20w usb c charger - Authentic Product | CairoVolt Egypt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "joyroom 20w usb c charger - أصلي بباركود الشركة | JR-TCF20 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-2.webp", alt: "جوي روم 20w usb c charger - أصلي بباركود الشركة | JR-TCF20 - كايرو فولت مصر", order: 1, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_3", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-3.webp", alt: "joyroom 20w usb c charger - Lowest Price Guarantee Egypt - CairoVolt", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "joyroom 20w usb c charger - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-4.webp", alt: "جوي روم 20w usb c charger - منتج أصلي معتمد | شحن مصر كلها - كايرو فولت", order: 3, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_5", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-5.webp", alt: "joyroom 20w usb c charger - Certified by Distributor - CairoVolt", order: 4, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "joyroom 20w usb c charger - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_6", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-6.webp", alt: "جوي روم 20w usb c charger - ضمان الوكيل | متاح بالدفع عند الاستلام - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 },
             { id: "img_7", url: "/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-7.webp", alt: "joyroom 20w usb c charger - Full Warranty Coverage Egypt - CairoVolt", order: 6, isPrimary: false, width: 1080, height: 1080 }
         ],
         translations: {
@@ -148,7 +148,7 @@ export const joyroom_20w_usb_c_charger = {
                     { question: "لمبة الشحن بتتغير لونها؟", answer: "أيوه. أزرق = بيشحن عادي. مفيش لمبة = الشحن اكتمل أو مفصول. بتفلش = مشكلة توصيل — جرب كابل تاني." }]
             }
         },
-        meta: { keywords: "شاحن joyroom, شاحن جوي روم, joyroom charger, joyroom fast charger, joyroom wall charger egypt, joyroom usb c charger, joyroom gan charger, joyroom iphone charger egypt, joyroom samsung charger, joyroom best charger egypt 2026, joyroom cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, joyroom charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
+        meta: { keywords: "شاحن جوي روم, شاحن جوي روم, جوي روم charger, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم iphone charger egypt, جوي روم samsung charger, جوي روم best charger egypt 2026, جوي روم cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, جوي روم charger egypt, شاحن سريع رخيص مصر, شاحن USB-C مصر", mainTerm: "شاحن جوي روم" },
         relatedProducts: ["joyroom-usb-c-lightning-cable",
         "joyroom-power-bank-10000",
         "joyroom-25w-fast-charger",

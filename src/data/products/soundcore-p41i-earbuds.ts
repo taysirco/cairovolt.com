@@ -92,7 +92,7 @@ export const soundcore_p41i_earbuds = {
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3956 محفور جوه العلبة</li>
         <li><strong>العلبة:</strong> علبة 3,000mAh الأصلية أتقل بشكل ملحوظ من المقلدة</li>
-        <li><strong>التطبيق:</strong> بتظهر باسم "Soundcore P41i" في التطبيق مع 3 أوضاع ANC</li>
+        <li><strong>التطبيق:</strong> بتظهر باسم "ساوندكور P41i" في التطبيق مع 3 أوضاع ANC</li>
         <li><strong>الباور بانك:</strong> بتشحن الموبايل فعلياً بـ 10W من الكابل المدمج</li>
         <li><strong>السعر:</strong> أقل من 1,219 جنيه = مشكوك فيه</li>
     </ul>
@@ -110,10 +110,10 @@ export const soundcore_p41i_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore p41i, anker p41i, p41i earbuds, p41i powerbank case, p41i 192h battery, p41i vs p40i, soundcore p41i egypt, ساوندكور p41i, سماعة انكر p41i, سعر p41i مصر, علبة باور بانك سماعة, أفضل سماعة سفر", mainTerm: "soundcore p41i" },
+    meta: { keywords: "ساوندكور p41i, أنكر p41i, p41i earbuds, p41i powerbank case, p41i 192h battery, p41i vs p40i, ساوندكور p41i egypt, ساوندكور p41i, سماعة انكر p41i, سعر p41i مصر, علبة باور بانك سماعة, أفضل سماعة سفر", mainTerm: "soundcore p41i" },
 
     expertOpinion: {
         en: "P41i is the travel king of the Soundcore TWS lineup. 192h battery, 3,000mAh powerbank case, built-in USB-C cable, phone stand — no other earbud offers this utility package. Trade-off: bass-heavy sound and no LDAC. At 2,439 EGP, choose P41i for travel. Choose P40i (1,522) for daily balanced listening. Choose Liberty 4 NC (2,999) for premium ANC + LDAC.",
-        ar: "P41i ملك السفر في تشكيلة Soundcore TWS. 192 ساعة بطارية، علبة باور بانك 3,000mAh، كابل USB-C مدمج، ستاند موبايل — مفيش سماعة تانية بتقدم حزمة الاستخدام دي. المقايضة: صوت bass-heavy ومفيش LDAC. بـ 2,439 جنيه، اختار P41i للسفر. اختار P40i (1,522) للسماع اليومي المتوازن. اختار Liberty 4 NC (2,999) لـ ANC بريميوم + LDAC."
+        ar: "P41i ملك السفر في تشكيلة ساوندكور TWS. 192 ساعة بطارية، علبة باور بانك 3,000mAh، كابل USB-C مدمج، ستاند موبايل — مفيش سماعة تانية بتقدم حزمة الاستخدام دي. المقايضة: صوت bass-heavy ومفيش LDAC. بـ 2,439 جنيه، اختار P41i للسفر. اختار P40i (1,522) للسماع اليومي المتوازن. اختار Liberty 4 NC (2,999) لـ ANC بريميوم + LDAC."
     }
 };

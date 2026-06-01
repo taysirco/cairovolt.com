@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_q11i_headphones_detail: ProductDetail = {
     aiTldr: {
         en: ['40mm drivers + BassUp — over-ear foldable headphones with detachable cushions', 'NO ANC — passive isolation only. Budget entry-level over-ear', '60h battery — 5min=4h fast charge. USB-C + 3.5mm AUX wired backup', 'BT 5.3 multipoint — Soundcore App EQ. ~240g lightweight. Foldable', 'CairoVolt: 18-month warranty. 2,312 EGP. Entry over-ear without ANC premium.'],
-        ar: ['درايفر 40mm + BassUp — هيدفون أوفر-إير قابل للطي بوسائد قابلة للتبديل', 'بدون ANC — عزل سلبي فقط. هيدفون بادجت مبتدئ', '60 ساعة بطارية — 5 دقائق=4 ساعات شحن سريع. USB-C + 3.5mm AUX سلكي', 'BT 5.3 multipoint — تطبيق Soundcore EQ. ~240 جرام خفيف. قابل للطي', 'كايرو فولت: ضمان 18 شهر. 2,312 جنيه. هيدفون أوفر-إير بدون بريميوم ANC.'],
+        ar: ['درايفر 40mm + BassUp — هيدفون أوفر-إير قابل للطي بوسائد قابلة للتبديل', 'بدون ANC — عزل سلبي فقط. هيدفون بادجت مبتدئ', '60 ساعة بطارية — 5 دقائق=4 ساعات شحن سريع. USB-C + 3.5mm AUX سلكي', 'BT 5.3 multipoint — تطبيق ساوندكور EQ. ~240 جرام خفيف. قابل للطي', 'كايرو فولت: ضمان 18 شهر. 2,312 جنيه. هيدفون أوفر-إير بدون بريميوم ANC.'],
     },
     localContext: {
         en: 'Q11i is for budget buyers who want over-ear headphones WITHOUT paying the ANC premium. 60h battery = 2-3 weeks of daily use before charging. At 2,312 EGP, it\'s significantly cheaper than Q20i (2,522, has ANC) and Q30 (4,649, premium ANC). If you ride Cairo Metro daily and NEED noise blocking: Q20i. If you work in a quiet office and want long battery: Q11i saves 210 EGP.',
@@ -20,7 +20,7 @@ export const soundcore_q11i_headphones_detail: ProductDetail = {
         'Wired': { en: '3.5mm AUX (passive when battery dies)', ar: '3.5mm AUX (سلبي لما البطارية تخلص)' },
         'Design': { en: 'Foldable, detachable/replaceable cushions', ar: 'قابل للطي، وسائد قابلة للتبديل' },
         'Weight': { en: '~240g', ar: '~240 جرام' },
-        'App': { en: 'Soundcore App (EQ + BassUp)', ar: 'تطبيق Soundcore (EQ + BassUp)' },
+        'App': { en: 'Soundcore App (EQ + BassUp)', ar: 'تطبيق ساوندكور (EQ + BassUp)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

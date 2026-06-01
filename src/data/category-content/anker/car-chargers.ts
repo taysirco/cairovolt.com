@@ -8,20 +8,20 @@ export const anker_car_chargers_content: CategoryContent = {
                 en: {
                     title: 'Anker Car Charger Egypt | USB-C PD 52W Dual Port | EGP 950',
                     description: 'Shop Anker car charger in Egypt. USB-C PD 52W + PowerIQ. Alloy body heat-resistant 60°C. ✓ 18-month warranty ✓ CairoVolt tested ✓ Cairo delivery',
-                    keywords: 'anker car charger, car charger egypt, anker car charger price egypt, anker USB-C car charger, anker PD car charger, fast car charger, شاحن سيارة انكر',
+                    keywords: 'أنكر car charger, car charger egypt, أنكر car charger price egypt, أنكر USB-C car charger, أنكر PD car charger, fast car charger, شاحن سيارة انكر',
                 },
                 ar: {
                     title: 'شاحن سيارة انكر مصر | USB-C PD 52W + منفذين من 950 جنيه',
                     description: 'تسوق شاحن سيارة انكر الأصلي في مصر. USB-C PD 52W + PowerIQ. جسم معدني يتحمل 60°م. ✓ ضمان 18 شهر ✓ اختبار CairoVolt ✓ توصيل القاهرة ✓ دفع عند الاستلام',
-                    keywords: 'شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سياره, شاحن سيارة سريع USB-C PD, شاحن سيارة دوال, anker car charger, شاحن سيارة مصر',
+                    keywords: 'شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سياره, شاحن سيارة سريع USB-C PD, شاحن سيارة دوال, أنكر car charger, شاحن سيارة مصر',
                 }
             },
             pageContent: {
                 ar: {
                     title: 'شاحن سيارة انكر (شحن سريع وآمن)',
-                    subtitle: 'Anker Car Charger - حول سيارتك لمحطة شحن',
+                    subtitle: 'أنكر Car Charger - حول سيارتك لمحطة شحن',
                     description: `
-      شواحن السيارات البلاستيكية بتسخن وبتبوظ منفذ الولاعة. شاحن **Anker** مختلف — جسم **معدني Alloy** بيشتت الحرارة + شحن سريع لجهازين في نفس الوقت. صفر سخونة.
+      شواحن السيارات البلاستيكية بتسخن وبتبوظ منفذ الولاعة. شاحن **أنكر** مختلف — جسم **معدني Alloy** بيشتت الحرارة + شحن سريع لجهازين في نفس الوقت. صفر سخونة.
 
       **مصمم لطرق مصر:**
       حرارة الصيف القاسية؟ مطبات الصحراوي؟ الجسم المعدني بيتحمل كل شيء + التصميم المحكم مش بيهتز ولا بيفصل.
@@ -59,7 +59,7 @@ export const anker_car_chargers_content: CategoryContent = {
                         },
                         {
                             question: '⚖️ تحذير: إزاي تفرق بين شاحن انكر الأصلي والمقلد؟',
-                            answer: 'شواحن سيارات مقلدة كتير في السوق بتسخن وبتضر الموبايل. الأصلي: 1) جسم معدني Alloy مش بلاستيك 2) لوجو Anker محفور مش مطبوع 3) شحن PD حقيقي 52W 4) ضمان 18 شهر من CairoVolt.'
+                            answer: 'شواحن سيارات مقلدة كتير في السوق بتسخن وبتضر الموبايل. الأصلي: 1) جسم معدني Alloy مش بلاستيك 2) لوجو أنكر محفور مش مطبوع 3) شحن PD حقيقي 52W 4) ضمان 18 شهر من CairoVolt.'
                         },
                         {
                             question: 'هل بيشحن ايفون وسامسونج في نفس الوقت؟',

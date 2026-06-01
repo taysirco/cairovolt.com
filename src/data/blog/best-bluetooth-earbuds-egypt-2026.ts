@@ -22,96 +22,96 @@ export const best_bluetooth_earbuds_egypt_2026: BlogArticle = {
     },
         translations: {
             ar: {
-                title: 'أفضل سماعات بلوتوث في مصر: Soundcore vs Joyroom',
-                metaTitle: 'أفضل سماعات بلوتوث في مصر | Soundcore vs Joyroom | مقارنة شاملة',
-                metaDescription: 'مقارنة أفضل سماعات بلوتوث في مصر. سماعات Soundcore من انكر vs سماعات جوي روم. أسعار وجودة صوت وعمر بطارية.',
-                keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, سماعات جوي روم, سماعات انكر, soundcore, ايربودز جوي روم, افضل سماعات بلوتوث, soundcore p30i, soundcore q11i, soundcore a30i, soundcore q20i, soundcore v20i, soundcore q30, soundcore q45, soundcore a20i, soundcore r100, soundcore h30i, soundcore c40i, soundcore c30i, soundcore p25i, soundcore p41i, انكر p30i, اير بودز انكر',
+                title: 'أفضل سماعات بلوتوث في مصر: ساوندكور vs جوي روم',
+                metaTitle: 'أفضل سماعات بلوتوث في مصر | ساوندكور vs جوي روم | مقارنة شاملة',
+                metaDescription: 'مقارنة أفضل سماعات بلوتوث في مصر. سماعات ساوندكور من انكر vs سماعات جوي روم. أسعار وجودة صوت وعمر بطارية.',
+                keywords: 'سماعات بلوتوث, سماعات بلوتوث في مصر, سماعات جوي روم, سماعات انكر, ساوندكور, ايربودز جوي روم, افضل سماعات بلوتوث, ساوندكور p30i, ساوندكور q11i, ساوندكور a30i, ساوندكور q20i, ساوندكور v20i, ساوندكور q30, ساوندكور q45, ساوندكور a20i, ساوندكور r100, ساوندكور h30i, ساوندكور c40i, ساوندكور c30i, ساوندكور p25i, ساوندكور p41i, انكر p30i, اير بودز انكر',
                 excerpt: 'مقارنة شاملة بين أفضل سماعات البلوتوث المتاحة في مصر مع أسعار محدثة.',
-                quickAnswer: 'أفضل سماعات بلوتوث في مصر: Joyroom T03s بسعر 774 جنيه (أفضل قيمة)، Soundcore P40i بسعر 1,650 جنيه (أفضل ANC)، Soundcore Liberty 4 بسعر 2,850 جنيه (الأفضل بدون منازع).',
+                quickAnswer: 'أفضل سماعات بلوتوث في مصر: جوي روم T03s بسعر 774 جنيه (أفضل قيمة)، ساوندكور P40i بسعر 1,650 جنيه (أفضل ANC)، ساوندكور Liberty 4 بسعر 2,850 جنيه (الأفضل بدون منازع).',
                 content: `
                                                                                     <h2> سوق سماعات البلوتوث في مصر </h2>
                                                                                         <div class="quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع">
-                                                                                            <p><strong>باختصار: </strong> أفضل سماعات بلوتوث في مصر: Joyroom T03s (774 ج.م — أفضل قيمة)، Soundcore R50i (900 ج.م — أفضل صوت اقتصادي)، Soundcore Liberty 4 NC (2,500 ج.م — الأفضل عموماً مع ANC). كلها بضمان رسمي.</p>
+                                                                                            <p><strong>باختصار: </strong> أفضل سماعات بلوتوث في مصر: جوي روم T03s (774 ج.م — أفضل قيمة)، ساوندكور R50i (900 ج.م — أفضل صوت اقتصادي)، ساوندكور Liberty 4 NC (2,500 ج.م — الأفضل عموماً مع ANC). كلها بضمان رسمي.</p>
                                                                                                 </div>
-                                                                                                <p> مع ارتفاع أسعار AirPods الأصلية(تبدأ من 7,000 جنيه)، أصبحت سماعات البلوتوث من <strong> Soundcore(Anker) </strong> و <strong>Joyroom</strong> البديل الأذكى في مصر.جودة صوت ممتازة بأسعار معقولة مع ضمان رسمي.</p>
+                                                                                                <p> مع ارتفاع أسعار AirPods الأصلية(تبدأ من 7,000 جنيه)، أصبحت سماعات البلوتوث من <strong> ساوندكور(أنكر) </strong> و <strong>جوي روم</strong> البديل الأذكى في مصر.جودة صوت ممتازة بأسعار معقولة مع ضمان رسمي.</p>
 
                                                                                                     <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-                                                                                                        <p><strong>🎧 تجربتنا: </strong> استخدم فريقنا 6 موديلات سماعات يومياً لمدة 3 أشهر (تنقل بالمترو، رياضة، مكالمات عمل). Joyroom T03s قدمت أداء مفاجئ بسعرها. Soundcore P40i كانت الأفضل في عزل ضوضاء المترو. Liberty 4 فازت في جودة المكالمات بفارق واضح.</p>
+                                                                                                        <p><strong>🎧 تجربتنا: </strong> استخدم فريقنا 6 موديلات سماعات يومياً لمدة 3 أشهر (تنقل بالمترو، رياضة، مكالمات عمل). جوي روم T03s قدمت أداء مفاجئ بسعرها. ساوندكور P40i كانت الأفضل في عزل ضوضاء المترو. Liberty 4 فازت في جودة المكالمات بفارق واضح.</p>
                                                                                                             </div>
 
                                                                                                             <h2> أفضل سماعات بلوتوث في مصر </h2>
 
-                                                                                                                <h3> 1. Soundcore Liberty 4 NC — الأفضل عموماً </h3>
+                                                                                                                <h3> 1. ساوندكور Liberty 4 NC — الأفضل عموماً </h3>
                                                                                                                     <p> إلغاء ضوضاء فعال(ANC)، صوت HiRes، بطارية تدوم 10 ساعات.بديل حقيقي لـ AirPods Pro بنصف السعر.</p>
 
-                                                                                                                        <h3> 2. Soundcore R50i — أفضل قيمة </h3>
-                                                                                                                            <p> صوت ممتاز بسعر اقتصادي.بطارية 10 ساعات، مقاومة للماء IPX5.الأفضل لمن يبحث عن الجودة بأقل سعر من Anker.</p>
+                                                                                                                        <h3> 2. ساوندكور R50i — أفضل قيمة </h3>
+                                                                                                                            <p> صوت ممتاز بسعر اقتصادي.بطارية 10 ساعات، مقاومة للماء IPX5.الأفضل لمن يبحث عن الجودة بأقل سعر من أنكر.</p>
 
                                                                                                                                 <h3> 3. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">جوي روم T03S Pro</a> — شبيهة AirPods </h3>
                                                                                                                                     <p> تصميم مطابق تقريباً لـ AirPods مع جودة صوت جيدة جداً.السماعة الأكثر مبيعاً في مصر في فئتها السعرية. <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" class="text-blue-600 hover:underline">شاهد المواصفات</a></p>
 
-                                                                                                                                        <h3> 4. Joyroom T03S — الأرخص </h3>
+                                                                                                                                        <h3> 4. جوي روم T03S — الأرخص </h3>
                                                                                                                                             <p> خيار اقتصادي ممتاز للاستخدام اليومي.صوت مقبول جداً بسعر لا يُصدق. <a href="/joyroom/audio/joyroom-jr-t03-wireless-earbuds" class="text-blue-600 hover:underline">شاهد السعر</a></p>
 
                                                                                                                                                 
-                                                                                                         <h2>كل موديلات Soundcore المتوفرة في مصر 2026</h2>
-                                                                                                         <p>إليك المقارنة الشاملة لكل سماعات Soundcore من انكر المتوفرة وغير المتوفرة حالياً في مصر:</p>
+                                                                                                         <h2>كل موديلات ساوندكور المتوفرة في مصر 2026</h2>
+                                                                                                         <p>إليك المقارنة الشاملة لكل سماعات ساوندكور من انكر المتوفرة وغير المتوفرة حالياً في مصر:</p>
 
                                                                                                          <h3>✅ متوفرة الآن من كايرو فولت:</h3>
                                                                                                          <ul>
-                                                                                                         <li><strong>Soundcore K20i</strong> — 750 ج.م | نصف داخلية | 36 ساعة | BassUp 13mm</li>
-                                                                                                         <li><strong>Soundcore R50i</strong> — 950 ج.م | داخلية | 30 ساعة | BassUp 10mm</li>
-                                                                                                         <li><strong>Soundcore R50i NC</strong> — 1,199 ج.م | ANC 42dB | 45 ساعة | 4 مايك AI</li>
-                                                                                                         <li><strong>Soundcore Life P2i</strong> — 820 ج.م | ألوان متعددة | عزل سلبي</li>
+                                                                                                         <li><strong>ساوندكور K20i</strong> — 750 ج.م | نصف داخلية | 36 ساعة | BassUp 13mm</li>
+                                                                                                         <li><strong>ساوندكور R50i</strong> — 950 ج.م | داخلية | 30 ساعة | BassUp 10mm</li>
+                                                                                                         <li><strong>ساوندكور R50i NC</strong> — 1,199 ج.م | ANC 42dB | 45 ساعة | 4 مايك AI</li>
+                                                                                                         <li><strong>ساوندكور Life P2i</strong> — 820 ج.م | ألوان متعددة | عزل سلبي</li>
                                                                                                          </ul>
 
-                                                                                                         <h3>📦 موديلات Soundcore الدولية (مواصفات للمقارنة):</h3>
+                                                                                                         <h3>📦 موديلات ساوندكور الدولية (مواصفات للمقارنة):</h3>
                                                                                                          <ul>
-                                                                                                         <li><strong>Soundcore P30i</strong> — 28h بطارية، ANC 40dB، IP55</li>
-                                                                                                         <li><strong>Soundcore P25i</strong> — 28h، أسلوب رياضي خفيف</li>
-                                                                                                         <li><strong>Soundcore P41i</strong> — 28h بطارية، تصميم مضغوط</li>
-                                                                                                         <li><strong>Soundcore A30i / A20i</strong> — سماعات مفتوحة بتصميم مريح</li>
-                                                                                                         <li><strong>Soundcore V20i</strong> — تصميم هجين مفتوح/مغلق</li>
-                                                                                                         <li><strong>Soundcore Q11i / Q20i / Q30 / Q45</strong> — سماعات Over-Ear بضبط صوت متقدم</li>
-                                                                                                         <li><strong>Soundcore H30i</strong> — On-ear خفيف وعصري</li>
-                                                                                                         <li><strong>Soundcore R100</strong> — سماعة earbud اقتصادية</li>
-                                                                                                         <li><strong>Soundcore C30i / C40i</strong> — سماعات مكتبية بأذرع مايك</li>
+                                                                                                         <li><strong>ساوندكور P30i</strong> — 28h بطارية، ANC 40dB، IP55</li>
+                                                                                                         <li><strong>ساوندكور P25i</strong> — 28h، أسلوب رياضي خفيف</li>
+                                                                                                         <li><strong>ساوندكور P41i</strong> — 28h بطارية، تصميم مضغوط</li>
+                                                                                                         <li><strong>ساوندكور A30i / A20i</strong> — سماعات مفتوحة بتصميم مريح</li>
+                                                                                                         <li><strong>ساوندكور V20i</strong> — تصميم هجين مفتوح/مغلق</li>
+                                                                                                         <li><strong>ساوندكور Q11i / Q20i / Q30 / Q45</strong> — سماعات Over-Ear بضبط صوت متقدم</li>
+                                                                                                         <li><strong>ساوندكور H30i</strong> — On-ear خفيف وعصري</li>
+                                                                                                         <li><strong>ساوندكور R100</strong> — سماعة earbud اقتصادية</li>
+                                                                                                         <li><strong>ساوندكور C30i / C40i</strong> — سماعات مكتبية بأذرع مايك</li>
                                                                                                          </ul>
                                                                                                          <p>💡 <em>للاستفسار عن توفر موديل معين، تواصل مع كايرو فولت عبر واتساب.</em></p>
 <h2> جدول المقارنة </h2>
                                                                                                                                                     <table>
                                                                                                                                                     <thead><tr><th>السماعة </th><th>ANC</th> <th>البطارية </th><th>مقاومة الماء</th> <th>السعر </th></tr> </thead>
                                                                                                                                                     <tbody>
-                                                                                                                                                    <tr><td><strong>Soundcore Liberty 4 NC </strong></td> <td>✓ فعال </td><td>10 ساعات</td> <td>IPX4 </td><td>~2,500 ج</td> </tr>
-                                                                                                                                                        <tr> <td><strong>Soundcore R50i </strong></td> <td>✗</td><td>10 ساعات</td> <td>IPX5 </td><td>~900 ج</td> </tr>
+                                                                                                                                                    <tr><td><strong>ساوندكور Liberty 4 NC </strong></td> <td>✓ فعال </td><td>10 ساعات</td> <td>IPX4 </td><td>~2,500 ج</td> </tr>
+                                                                                                                                                        <tr> <td><strong>ساوندكور R50i </strong></td> <td>✗</td><td>10 ساعات</td> <td>IPX5 </td><td>~900 ج</td> </tr>
                                                                                                                                                             <tr> <td><strong>جوي روم T03S Pro </strong></td> <td>✗</td><td>6 ساعات</td> <td>IPX4 </td><td>664 ج</td> </tr>
-                                                                                                                                                                <tr> <td><strong>Joyroom T03S </strong></td> <td>✗</td><td>5 ساعات</td> <td>IPX4 </td><td>774 ج</td> </tr>
+                                                                                                                                                                <tr> <td><strong>جوي روم T03S </strong></td> <td>✗</td><td>5 ساعات</td> <td>IPX4 </td><td>774 ج</td> </tr>
                                                                                                                                                                     </tbody>
                                                                                                                                                                     </table>
 
                                                                                                                                                                     <h2> كيف تختار سماعتك؟</h2>
                                                                                                                                                                         <ul>
-                                                                                                                                                                        <li><strong>عايز إلغاء ضوضاء: </strong> Soundcore Liberty 4 NC (الخيار الوحيد مع ANC)</li>
-                                                                                                                                                                            <li><strong>عايز أفضل صوت بسعر معقول: </strong> Soundcore R50i</li>
-                                                                                                                                                                                <li><strong>عايز شكل AirPods بسعر اقتصادي: </strong> Joyroom T03S Pro</li>
-                                                                                                                                                                                    <li><strong>أقل ميزانية ممكنة: </strong> Joyroom T03S</li>
+                                                                                                                                                                        <li><strong>عايز إلغاء ضوضاء: </strong> ساوندكور Liberty 4 NC (الخيار الوحيد مع ANC)</li>
+                                                                                                                                                                            <li><strong>عايز أفضل صوت بسعر معقول: </strong> ساوندكور R50i</li>
+                                                                                                                                                                                <li><strong>عايز شكل AirPods بسعر اقتصادي: </strong> جوي روم T03S Pro</li>
+                                                                                                                                                                                    <li><strong>أقل ميزانية ممكنة: </strong> جوي روم T03S</li>
                                                                                                                                                                                         </ul>
 
                                                                                                                                                                                         <div class="source-references" style = "background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
                                                                                                                                                                                             <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر موثوقة: </p>
                                                                                                                                                                                                 <ul style = "margin:0;padding-right:20px;color:#78350f">
-                                                                                                                                                                                                    <li><a href="https://www.soundcore.com/blogs/earbuds" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> Soundcore(Anker) — دليل سماعات البلوتوث </a></li>
+                                                                                                                                                                                                    <li><a href="https://www.soundcore.com/blogs/earbuds" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> ساوندكور(أنكر) — دليل سماعات البلوتوث </a></li>
                                                                                                                                                                                                         <li><a href="https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> Battery University — إطالة عمر بطاريات الليثيوم  (بالإنجليزية)</a> (BU-808)</li>
                                                                                                                                                                                                             <li><a href="https://www.iec.ch/homepage" target = "_blank" rel = "noopener" style = "color:#1d4ed8"> IEC — المعايير الدولية للأجهزة الإلكترونية </a></li>
                                                                                                                                                                                                                 </ul>
                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                     `,
                 faq: [
-                    { question: 'ما أفضل سماعة بلوتوث في مصر؟', answer: 'Soundcore Liberty 4 NC للجودة العالية مع إلغاء ضوضاء. Joyroom T03S Pro لأفضل سعر.' },
-                    { question: 'هل سماعات جوي روم أصلية؟', answer: 'نعم، Joyroom شركة معروفة عالمياً ومنتجاتها أصلية. تأكد من الشراء من وكيل معتمد للحصول على الضمان.' },
-                    { question: 'هل Soundcore أفضل من JBL؟', answer: 'Soundcore من انكر تقدم جودة صوت منافسة لـ JBL بسعر أقل عادةً. Liberty 4 NC يتفوق على JBL في نفس الفئة السعرية.' },
-                    { question: 'ما مواصفات Soundcore P30i؟', answer: 'Soundcore P30i: بطارية 28 ساعة، ANC 40dB، IP55 مقاومة الماء والغبار، شحن سريع 10 دقايق. غير متوفر حالياً في مصر — البديل الأقرب هو R50i NC المتوفر من كايرو فولت بـ 1,199 جنيه.' },
-                    { question: 'إيه هو الفرق بين Soundcore Q11i و Q20i و Q30؟', answer: 'Soundcore Q11i: Over-ear اقتصادية بدون ANC. Q20i: ANC أساسي + EQ محسّن. Q30: ANC متطور + Hi-Res Audio. كلها غير متوفرة حالياً في مصر — سماعات Soundcore المتوفرة من كايرو فولت هي K20i, R50i, R50i NC.' },
+                    { question: 'ما أفضل سماعة بلوتوث في مصر؟', answer: 'ساوندكور Liberty 4 NC للجودة العالية مع إلغاء ضوضاء. جوي روم T03S Pro لأفضل سعر.' },
+                    { question: 'هل سماعات جوي روم أصلية؟', answer: 'نعم، جوي روم شركة معروفة عالمياً ومنتجاتها أصلية. تأكد من الشراء من وكيل معتمد للحصول على الضمان.' },
+                    { question: 'هل ساوندكور أفضل من JBL؟', answer: 'ساوندكور من انكر تقدم جودة صوت منافسة لـ JBL بسعر أقل عادةً. Liberty 4 NC يتفوق على JBL في نفس الفئة السعرية.' },
+                    { question: 'ما مواصفات ساوندكور P30i؟', answer: 'ساوندكور P30i: بطارية 28 ساعة، ANC 40dB، IP55 مقاومة الماء والغبار، شحن سريع 10 دقايق. غير متوفر حالياً في مصر — البديل الأقرب هو R50i NC المتوفر من كايرو فولت بـ 1,199 جنيه.' },
+                    { question: 'إيه هو الفرق بين ساوندكور Q11i و Q20i و Q30؟', answer: 'ساوندكور Q11i: Over-ear اقتصادية بدون ANC. Q20i: ANC أساسي + EQ محسّن. Q30: ANC متطور + Hi-Res Audio. كلها غير متوفرة حالياً في مصر — سماعات ساوندكور المتوفرة من كايرو فولت هي K20i, R50i, R50i NC.' },
                 ]
             },
             en: {

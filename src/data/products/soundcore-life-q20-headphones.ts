@@ -93,14 +93,14 @@ export const soundcore_life_q20_headphones = {
         <li><strong>البناء:</strong> ساوندكور الأصلي بهيدباند ستانلس ستيل</li>
         <li><strong>الوزن:</strong> 263 جرام — المقلد أخف</li>
         <li><strong>الوسائد:</strong> جلد بروتين، مش PU بيتقشر</li>
-        <li><strong>التطبيق:</strong> بتظهر في تطبيق Soundcore بالاسم الصحيح</li>
+        <li><strong>التطبيق:</strong> بتظهر في تطبيق ساوندكور بالاسم الصحيح</li>
     </ul>
 </div>`,
             features: ["درايفر 40mm Hi-Res BassUp", "ANC هجين 4 مايكات", "40 ساعة ANC / 60 بدون", "5 دقايق = 4 ساعات", "وضع سلكي 3.5mm", "BT 5.0", "Micro-USB", "قابل للطي + حقيبة", "263 جرام جلد بروتين", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور Life Q20 — 40mm ANC Over-Ear + 60 ساعة",
             metaDesc: "اشتري سماعة ساوندكور Life Q20 في مصر — 2,350 جنيه. درايفر 40mm Hi-Res، ANC هجين، 60 ساعة، BassUp، قابل للطي، 3.5mm سلكي. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
-                    { question: "Life Q20 ولا Q20i — أشتري أنهي؟", answer: "Q20i: USB-C، تطبيق Soundcore، multipoint، BT 5.3، أغلى 172 جنيه. Q20: Micro-USB، بدون تطبيق، BT 5.0، بس نفس درايفر 40mm وANC. اختار Q20 لو مش محتاج تطبيق/multipoint." },
+                    { question: "Life Q20 ولا Q20i — أشتري أنهي؟", answer: "Q20i: USB-C، تطبيق ساوندكور، multipoint، BT 5.3، أغلى 172 جنيه. Q20: Micro-USB، بدون تطبيق، BT 5.0، بس نفس درايفر 40mm وANC. اختار Q20 لو مش محتاج تطبيق/multipoint." },
                     { question: "Q20 بتشتغل والبطارية فاضية؟", answer: "أيوه — كابل 3.5mm بيشغّلها سلكي بدون شحن. كمان بتشتغل على نظام الترفيه في الطيارات." },
                     { question: "BassUp بتفرق إيه عن الوضع العادي؟", answer: "BassUp بتعزز باس 80-200Hz بـ ~3dB بزر فيزيائي. ممتازة للبوب العربي والـ EDM. مش محتاج تطبيق." },
                     { question: "تنفع للميتنجات الأونلاين؟", answer: "أيوه — فيها مايك مدمج لـ Zoom/Teams. ANC بيعزل الدوشة. 5 دقايق شحن سريع = 4 ساعات طوارئ قبل الميتنج." },
@@ -109,7 +109,7 @@ export const soundcore_life_q20_headphones = {
         }
     },
 
-    meta: { keywords: "soundcore life q20, anker soundcore life q20, life q20 headphones egypt, best budget anc headphones egypt, anker headphones, ساوندكور لايف q20, هيدفون انكر, سعر q20 مصر", mainTerm: "anker soundcore life q20" },
+    meta: { keywords: "ساوندكور life q20, أنكر ساوندكور life q20, life q20 headphones egypt, best budget anc headphones egypt, أنكر headphones, ساوندكور لايف q20, هيدفون انكر, سعر q20 مصر", mainTerm: "anker soundcore life q20" },
 
     expertOpinion: {
         en: "Life Q20 is the budget ANC over-ear champion in Egypt at 2,350 EGP. 40mm BassUp + foldable + 3.5mm wired backup. Trade-off vs Q20i: no app, Micro-USB, BT 5.0. Worth the 172 EGP savings if you prefer physical controls.",

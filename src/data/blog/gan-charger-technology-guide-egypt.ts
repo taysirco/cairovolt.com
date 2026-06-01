@@ -34,16 +34,16 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
             title: 'تقنية GaN في الشواحن: ليه شاحن 30 وات أصبح أصغر من إصبعك؟ (الدليل العلمي الكامل)',
             metaTitle: 'شواحن GaN — ليه أصغر وأسرع؟ الدليل العلمي الكامل 2026 | كايرو فولت',
             metaDescription: 'اكتشف سر تقنية GaN اللي غيّرت عالم الشواحن — شاحن 30 وات بحجم علبة كبريت! مقارنة علمية بين GaN والسيليكون التقليدي + اختبارات حرارة حقيقية.',
-            keywords: 'شاحن GaN, تقنية نيتريد الجاليوم, شاحن صغير سريع, Anker GaN 30W, شاحن GaN مصر, الفرق بين GaN والسيليكون, شاحن 30 وات صغير, أفضل شاحن GaN 2026, gallium nitride charger, شاحن سفر صغير',
+            keywords: 'شاحن GaN, تقنية نيتريد الجاليوم, شاحن صغير سريع, أنكر GaN 30W, شاحن GaN مصر, الفرق بين GaN والسيليكون, شاحن 30 وات صغير, أفضل شاحن GaN 2026, gallium nitride charger, شاحن سفر صغير',
             excerpt: 'تقنية GaN حوّلت شاحن 30 وات من حجم علبة سجاير لحجم علبة كبريت. اعرف ازاي — بالفيزياء والأرقام الحقيقية.',
-            quickAnswer: 'شواحن GaN (نيتريد الجاليوم) بتستخدم ترانزستورات من مادة أشباه موصلات متقدمة بدل السيليكون التقليدي. النتيجة: كفاءة تحويل 93% بدل 80%، حرارة أقل 40%، وحجم أصغر 50-70%. شاحن Anker GaN 30W حجمه 3.2 × 3.2 × 3 سم فقط — أصغر من شاحن Apple 5W القديم لكنه أقوى 6 مرات. السعر أعلى 30-50% من السيليكون لكن الاستثمار يستحق لمن يحتاج شاحن سفر أو شحن سريع يومي.',
+            quickAnswer: 'شواحن GaN (نيتريد الجاليوم) بتستخدم ترانزستورات من مادة أشباه موصلات متقدمة بدل السيليكون التقليدي. النتيجة: كفاءة تحويل 93% بدل 80%، حرارة أقل 40%، وحجم أصغر 50-70%. شاحن أنكر GaN 30W حجمه 3.2 × 3.2 × 3 سم فقط — أصغر من شاحن Apple 5W القديم لكنه أقوى 6 مرات. السعر أعلى 30-50% من السيليكون لكن الاستثمار يستحق لمن يحتاج شاحن سفر أو شحن سريع يومي.',
             content: `
 <h2>السؤال اللي بيحيّر الكل: ازاي شاحن 30 وات أصغر من شاحن 5 وات؟!</h2>
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#1e3a5f" role="complementary" aria-label="الجواب السريع">
     <p><strong>⚡ الجواب بالمختصر:</strong> شواحن GaN بتستخدم مادة <strong>نيتريد الجاليوم</strong> بدل السيليكون التقليدي. المادة دي بتوصّل الكهرباء بكفاءة أعلى وحرارة أقل — فالمكونات بتكون <strong>أصغر 50-70%</strong> والأداء <strong>أعلى 15-20%</strong>. ببساطة: نفس القوة في نص الحجم.</p>
 </div>
 
-<p>لو ماسك <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">شاحن Anker GaN 30W</a> في إيدك، أول حاجة هتلاحظها إنه <strong>أصغر من شاحن Apple 5W القديم</strong>. ده مش سحر — ده فيزياء أشباه الموصلات. وفي المقال ده هنشرحلك بالظبط إزاي تقنية GaN غيّرت كل حاجة، وليه هي <strong>مستقبل الشحن</strong>.</p>
+<p>لو ماسك <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb">شاحن أنكر GaN 30W</a> في إيدك، أول حاجة هتلاحظها إنه <strong>أصغر من شاحن Apple 5W القديم</strong>. ده مش سحر — ده فيزياء أشباه الموصلات. وفي المقال ده هنشرحلك بالظبط إزاي تقنية GaN غيّرت كل حاجة، وليه هي <strong>مستقبل الشحن</strong>.</p>
 
 <div class="expert-callout" style="background:#eff6ff;border-right:4px solid #3b82f6;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>🔬 مختبر كايرو فولت:</strong> اختبرنا 4 شواحن GaN و 4 شواحن سيليكون تقليدية في نفس فئة القدرة. قسنا الحجم، الوزن، الحرارة بعد ساعة شحن، والكفاءة الفعلية بجهاز USB Power Meter. كل الأرقام في المقال ده <strong>من اختباراتنا الحقيقية</strong>.</p>
@@ -89,7 +89,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
     <tbody>
         <tr><td><strong>انكر 30W GaN</strong></td><td>38°C</td><td>✅ بارد تقريباً</td></tr>
         <tr><td>سيليكون 30W</td><td>52°C</td><td>⚠️ ساخن</td></tr>
-        <tr><td><strong>Anker 45W GaN</strong></td><td>42°C</td><td>✅ دافي</td></tr>
+        <tr><td><strong>أنكر 45W GaN</strong></td><td>42°C</td><td>✅ دافي</td></tr>
         <tr><td>سيليكون 45W</td><td>61°C</td><td>❌ ساخن جداً</td></tr>
     </tbody>
 </table>
@@ -131,7 +131,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
 
 <h2>رابعاً: هل شواحن GaN آمنة لموبايلك؟</h2>
 <p>سؤال مهم ومشروع. الجواب: <strong>أيوا، بشرط إنها أصلية</strong>.</p>
-<p>شواحن GaN من براندات زي Anker فيها <strong>9 طبقات حماية</strong>:</p>
+<p>شواحن GaN من براندات زي أنكر فيها <strong>9 طبقات حماية</strong>:</p>
 <ol>
     <li>حماية من الجهد الزائد (Over-Voltage Protection)</li>
     <li>حماية من التيار الزائد (Over-Current Protection)</li>
@@ -160,7 +160,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
                 },
                 {
                     question: 'هل شاحن GaN بيبوظ البطارية؟',
-                    answer: 'لا. شواحن GaN الأصلية زي Anker فيها بروتوكول PD اللي بيتفاوض مع الموبايل على القدرة المناسبة. الموبايل هو اللي بيحدد كام وات يستقبل — مش الشاحن. بالعكس، حرارة أقل = عمر بطارية أطول.',
+                    answer: 'لا. شواحن GaN الأصلية زي أنكر فيها بروتوكول PD اللي بيتفاوض مع الموبايل على القدرة المناسبة. الموبايل هو اللي بيحدد كام وات يستقبل — مش الشاحن. بالعكس، حرارة أقل = عمر بطارية أطول.',
                 },
                 {
                     question: 'ليه شاحن GaN أغلى من العادي؟',
@@ -168,7 +168,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
                 },
                 {
                     question: 'أحسن شاحن GaN في مصر 2026؟',
-                    answer: 'لشحن الموبايل: Anker GaN 30W (A2147) — حجم صغير جداً وقدرة ممتازة بسعر معقول. للابتوب + موبايل: Anker Nano 45W — قدرة كافية لشحن MacBook Air + iPhone في نفس الوقت.',
+                    answer: 'لشحن الموبايل: أنكر GaN 30W (A2147) — حجم صغير جداً وقدرة ممتازة بسعر معقول. للابتوب + موبايل: أنكر Nano 45W — قدرة كافية لشحن MacBook Air + iPhone في نفس الوقت.',
                 },
             ],
         },

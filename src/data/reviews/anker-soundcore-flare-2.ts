@@ -88,7 +88,7 @@ export const anker_soundcore_flare_2_reviews: ProductReview[] = [
             datePublished: '2026-03-08',
             reviewBody: {
                 en: 'Housewarming gift for my best friend. She screamed when the lights turned on. The PartyCast feature let us link it with her old Soundcore speaker. Two speakers playing in sync with lights — her party was the talk of the building.',
-                ar: 'هدية افتتاح بيت لصديقتي. صرخت لما الأضواء نورت. خاصية PartyCast خلتنا نربطها مع سبيكر Soundcore القديم بتاعها. سبيكرين بيشتغلوا متزامنين مع أضواء — حفلتها بقت حديث العمارة.'
+                ar: 'هدية افتتاح بيت لصديقتي. صرخت لما الأضواء نورت. خاصية PartyCast خلتنا نربطها مع سبيكر ساوندكور القديم بتاعها. سبيكرين بيشتغلوا متزامنين مع أضواء — حفلتها بقت حديث العمارة.'
             },
             pros: { en: ['Housewarming gift screams', 'PartyCast multi-speaker sync', 'Talk of the building party'], ar: ['هدية افتتاح صرخة', 'PartyCast تزامن سبيكرات', 'حفلة حديث العمارة'] },
         },

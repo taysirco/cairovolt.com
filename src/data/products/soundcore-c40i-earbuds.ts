@@ -73,7 +73,7 @@ export const soundcore_c40i_earbuds = {
     <section>
         <h2 class="text-2xl font-bold mb-3">كليب تيتانيوم مرن: راحة أذن مفتوحة بريميوم</h2>
         <p class="text-gray-700 leading-relaxed">C40i بتستخدم سلك تيتانيوم مرن مع TPU ناعم بيتشكّل بشكل طبيعي على شحمة ودنك. مفيش حاجة بتدخل قناة الودان — صفر ضغط، صفر إرهاق حتى بعد 6 ساعات شغل. الكليب المرن بيتكيف مع سماكات الشحمة المختلفة بدون ما تغيّر المقاس. قبضات أذن إضافية متضمنة لتثبيت أكتر في التمارين.</p>
-        <p class="text-gray-700 leading-relaxed">درايفر 12mm×17mm بشكل racetrack مع تيتانيوم بيقدم ميد وأصوات واضحة مع مسرح صوتي واسع. أزرار فيزيائية بتلغي مشكلة الضغط بالغلط اللي كانت في أزرار لمس C30i. تطبيق Soundcore بيوفر تخصيص EQ كامل.</p>
+        <p class="text-gray-700 leading-relaxed">درايفر 12mm×17mm بشكل racetrack مع تيتانيوم بيقدم ميد وأصوات واضحة مع مسرح صوتي واسع. أزرار فيزيائية بتلغي مشكلة الضغط بالغلط اللي كانت في أزرار لمس C30i. تطبيق ساوندكور بيوفر تخصيص EQ كامل.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">صوت بوعي: منهج الأمان أولاً</h2>
@@ -90,11 +90,11 @@ export const soundcore_c40i_earbuds = {
         <li><strong>الموديل:</strong> A3966 محفور على العلبة</li>
         <li><strong>التصميم:</strong> سلك التيتانيوم الأصلي بينثني بسلاسة — المقلدة بتستخدم بلاستيك صلب</li>
         <li><strong>الأزرار:</strong> أزرار فيزيائية — مش لمس</li>
-        <li><strong>التطبيق:</strong> بتظهر باسم "Soundcore C40i" في التطبيق</li>
+        <li><strong>التطبيق:</strong> بتظهر باسم "ساوندكور C40i" في التطبيق</li>
         <li><strong>السعر:</strong> أقل من 1,525 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["كليب أذن مفتوح", "سلك تيتانيوم مرن + TPU", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "أزرار فيزيائية", "7/21 ساعة بطارية", "10 دقائق = ساعتين", "BT 5.4 Multipoint", "عزل ضوضاء AI للمكالمات", "IPX4", "تطبيق Soundcore EQ", "ضمان 18 شهر"],
+            features: ["كليب أذن مفتوح", "سلك تيتانيوم مرن + TPU", "12×17mm Racetrack تيتانيوم", "بدون ANC (اسمع البيئة)", "أزرار فيزيائية", "7/21 ساعة بطارية", "10 دقائق = ساعتين", "BT 5.4 Multipoint", "عزل ضوضاء AI للمكالمات", "IPX4", "تطبيق ساوندكور EQ", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور C40i — كليب أذن مفتوح تيتانيوم مرن",
             metaDesc: "اشتري سماعة ساوندكور C40i في مصر — 3,050 جنيه. كليب أذن مفتوح تيتانيوم مرن بريميوم، 12×17mm racetrack، أزرار فيزيائية، BT 5.4، مكالمات AI، IPX4. ضمان 18 شهر.",
             faqs: [
@@ -107,7 +107,7 @@ export const soundcore_c40i_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore c40i, anker c40i, c40i open ear, c40i titanium flex, c40i clip on, soundcore c40i egypt, c40i vs c30i, ساوندكور c40i, كليب أذن مفتوح تيتانيوم, سعر c40i مصر, مقارنة c40i و c30i", mainTerm: "soundcore c40i" },
+    meta: { keywords: "ساوندكور c40i, أنكر c40i, c40i open ear, c40i titanium flex, c40i clip on, ساوندكور c40i egypt, c40i vs c30i, ساوندكور c40i, كليب أذن مفتوح تيتانيوم, سعر c40i مصر, مقارنة c40i و c30i", mainTerm: "soundcore c40i" },
 
     expertOpinion: {
         en: "C40i is the premium open-ear clip-on — titanium flex wire is genuinely more comfortable than C30i's hard shell for long sessions. Physical buttons solve the touch-control frustration. Same sound quality (12×17mm racetrack). But C30i has 42% more battery (30h vs 21h) for 23% less money. Choose C40i for comfort. C30i for value.",

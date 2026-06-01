@@ -121,7 +121,7 @@ export const soundcore_liberty_4_pro_reviews: ProductReview[] = [
         datePublished: '2026-03-28',
         reviewBody: {
             en: 'Shipped to Asyut in 5 days. The ear tip fit test in the Soundcore app ensures perfect seal — my left ear needed a different size from my right. Custom fit = maximum ANC. 10-minute charge = 4 hours playback. Emergency charging perfected.',
-            ar: 'اتشحن لأسيوط في 5 أيام. اختبار السدادات في تطبيق Soundcore بيضمن قفل مثالي — ودني الشمال محتاجة مقاس مختلف عن اليمين. قفل مخصص = أقصى ANC. شحن 10 دقائق = 4 ساعات تشغيل. شحن الطوارئ اتقن.'
+            ar: 'اتشحن لأسيوط في 5 أيام. اختبار السدادات في تطبيق ساوندكور بيضمن قفل مثالي — ودني الشمال محتاجة مقاس مختلف عن اليمين. قفل مخصص = أقصى ANC. شحن 10 دقائق = 4 ساعات تشغيل. شحن الطوارئ اتقن.'
         },
         pros: { en: ['Ear tip fit test app', 'Different sizes per ear', '10-min = 4h emergency charge'], ar: ['اختبار السدادات في التطبيق', 'مقاسات مختلفة لكل ودن', '10 دقائق = 4 ساعات شحن طوارئ'] },
     },

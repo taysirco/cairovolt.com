@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_select_4_go_speaker_detail: ProductDetail = {
     aiTldr: {
         en: ['5W output — ultra-portable mono speaker. Pocket/backpack size with strap', 'IP67 waterproof + dustproof — fully submersible AND floats on water', '20h battery — longest-lasting ultra-portable Soundcore speaker. USB-C', 'BT 5.4 — 9-band EQ via app. TWS pairing. No mic. No AUX', 'CairoVolt: 18-month warranty. 1,249 EGP. JBL Go 4 killer at lower price.'],
-        ar: ['5 واط — سبيكر مونو صغير جداً. بحجم الجيب/الشنطة مع حزام', 'IP67 ضد المية + الغبار — غمر كامل وبتطفو على المية', '20 ساعة بطارية — أطول سبيكر Soundcore صغير بطارية. USB-C', 'BT 5.4 — 9-باند EQ من التطبيق. ربط TWS. بدون مايك. بدون AUX', 'كايرو فولت: ضمان 18 شهر. 1,249 جنيه. قاتل JBL Go 4 بسعر أقل.'],
+        ar: ['5 واط — سبيكر مونو صغير جداً. بحجم الجيب/الشنطة مع حزام', 'IP67 ضد المية + الغبار — غمر كامل وبتطفو على المية', '20 ساعة بطارية — أطول سبيكر ساوندكور صغير بطارية. USB-C', 'BT 5.4 — 9-باند EQ من التطبيق. ربط TWS. بدون مايك. بدون AUX', 'كايرو فولت: ضمان 18 شهر. 1,249 جنيه. قاتل JBL Go 4 بسعر أقل.'],
     },
     localContext: {
         en: 'Select 4 Go is a JBL Go 4 competitor at a lower price. IP67 means fully submersible + dustproof — AND it floats, making it perfect for Egyptian pools, Sahel beach, and shower use. 20h battery is exceptional for this size. Trade-off: 5W mono (not loud for parties — for that, get Rave 3). No mic, no AUX — Bluetooth only.',
@@ -15,7 +15,7 @@ export const soundcore_select_4_go_speaker_detail: ProductDetail = {
         'Battery': { en: '20 hours', ar: '20 ساعة' },
         'Bluetooth': { en: '5.4', ar: '5.4' },
         'Water/Dust': { en: 'IP67 (fully submersible + dustproof + floats)', ar: 'IP67 (غمر + ضد الغبار + بتطفو)' },
-        'EQ': { en: '9-band EQ via Soundcore app', ar: '9-باند EQ من تطبيق Soundcore' },
+        'EQ': { en: '9-band EQ via Soundcore app', ar: '9-باند EQ من تطبيق ساوندكور' },
         'Pairing': { en: 'TWS stereo (pair 2 units)', ar: 'TWS ستيريو (اربط 2)' },
         'Mic': { en: 'No built-in mic', ar: 'بدون مايك مدمج' },
         'AUX': { en: 'No AUX input', ar: 'بدون مدخل AUX' },

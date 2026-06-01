@@ -13,7 +13,7 @@ export const soundcore_a30i_earbuds_lab: ProductLabData = {
         },
         {
             scenario: { en: 'A30i A3958 — 6mm driver sound quality and lipstick case portability', ar: 'A30i A3958 — جودة صوت درايفر 6mm وقابلية حمل علبة أحمر الشفاه' },
-            result: { en: '6mm driver: clear, balanced mids/highs. Bass lacks depth compared to P30i (10mm) — noticeable on heavy bass tracks. Soundcore app EQ can boost bass but introduces slight distortion at max. 3D Surround effect adds width to podcasts. Lipstick case: 78mm × 32mm — fits in shirt pocket, jeans coin pocket, small clutch purse. 3.7g per bud: lightest ANC earbuds in our catalog — no ear fatigue after 3h commute.', ar: 'درايفر 6mm: ميد/هاي واضح ومتوازن. الباس ناقص العمق مقارنة بـ P30i (10mm) — ملحوظ في الأغاني الـ bass-heavy. تطبيق Soundcore بيقدر يعزز الباس بس بيعمل تشويه خفيف على الماكس. تأثير 3D Surround بيضيف عرض للبودكاست. علبة أحمر الشفاه: 78mm × 32mm — بتدخل جيب القميص، جيب العملات في الجينز، شنطة كلاتش صغيرة. 3.7 جرام لكل سماعة: أخف سماعة ANC في الكتالوج — مفيش إرهاق بعد 3 ساعات مواصلات.' },
+            result: { en: '6mm driver: clear, balanced mids/highs. Bass lacks depth compared to P30i (10mm) — noticeable on heavy bass tracks. Soundcore app EQ can boost bass but introduces slight distortion at max. 3D Surround effect adds width to podcasts. Lipstick case: 78mm × 32mm — fits in shirt pocket, jeans coin pocket, small clutch purse. 3.7g per bud: lightest ANC earbuds in our catalog — no ear fatigue after 3h commute.', ar: 'درايفر 6mm: ميد/هاي واضح ومتوازن. الباس ناقص العمق مقارنة بـ P30i (10mm) — ملحوظ في الأغاني الـ bass-heavy. تطبيق ساوندكور بيقدر يعزز الباس بس بيعمل تشويه خفيف على الماكس. تأثير 3D Surround بيضيف عرض للبودكاست. علبة أحمر الشفاه: 78mm × 32mm — بتدخل جيب القميص، جيب العملات في الجينز، شنطة كلاتش صغيرة. 3.7 جرام لكل سماعة: أخف سماعة ANC في الكتالوج — مفيش إرهاق بعد 3 ساعات مواصلات.' },
             conditions: { en: 'CairoVolt Lab — reference tracks, May 2026', ar: 'معمل كايرو فولت — تراكات مرجعية، مايو 2026' },
             expertName: EXPERTS.AUDIO.name,
             expertProfileUrl: EXPERTS.AUDIO.profileUrl,
@@ -30,8 +30,8 @@ export const soundcore_a30i_earbuds_lab: ProductLabData = {
     ],
     voiceFaqAr: [
         { question: 'A30i ولا P30i؟', answer: 'A30i: 46dB ANC أقوى، 6mm درايفر أصغر (باس أقل)، 24h بطارية، علبة ليبستيك، 1,450 جنيه. P30i: 42dB ANC، 10mm درايفر (باس أقوى)، 45h بطارية، علبة ستاند، 1,200 جنيه. عايز ANC أقوى: A30i. عايز باس وبطارية: P30i.' },
-        { question: 'العلبة شكل أحمر شفاه ليه؟', answer: 'تصميم Soundcore للحمل السهل — أصغر من علب TWS العادية. بتدخل جيب القميص. مش فعلاً أحمر شفاه — بس نفس الحجم والشكل.' },
-        { question: 'الباس ضعيف؟', answer: 'مقارنة بـ P30i (10mm): أيوه. درايفر 6mm مش بيضخ باس عميق. الميد والأصوات ممتازة. تطبيق Soundcore بيحسّن الباس شوية بس مش هيوصل لمستوى 10mm.' },
+        { question: 'العلبة شكل أحمر شفاه ليه؟', answer: 'تصميم ساوندكور للحمل السهل — أصغر من علب TWS العادية. بتدخل جيب القميص. مش فعلاً أحمر شفاه — بس نفس الحجم والشكل.' },
+        { question: 'الباس ضعيف؟', answer: 'مقارنة بـ P30i (10mm): أيوه. درايفر 6mm مش بيضخ باس عميق. الميد والأصوات ممتازة. تطبيق ساوندكور بيحسّن الباس شوية بس مش هيوصل لمستوى 10mm.' },
     ],
     voiceFaqEn: [
         { question: 'A30i or P30i?', answer: 'A30i: 46dB stronger ANC, 6mm smaller driver (less bass), 24h battery, lipstick case, 1,450 EGP. P30i: 42dB ANC, 10mm driver (more bass), 45h battery, stand case, 1,200 EGP. Want stronger ANC: A30i. Want bass + battery: P30i.' },

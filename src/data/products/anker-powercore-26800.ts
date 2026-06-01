@@ -167,16 +167,16 @@ export const anker_powercore_26800 = {
                 faqs: [
                     { question: "هل هذا أكبر حجم مسموح في الطائرة؟", answer: "نعم! 26,800 مللي أمبير ضمن حد TSA 100 واط/ساعة، أكبر سعة للسفر قانونياً. مسموح في طيران مصر وفلاين وإيميراتس." },
                     { question: "كيف أشحن الباور بانك بسرعة؟", answer: "لديه مدخلين Micro-USB. بكابلين وشاحنين معاً، يشحن بالكامل في 6 ساعات." },
-                    { question: "هل يدعم USB-C؟", answer: "لا، هذا الموديل منافذ USB-A ومدخل Micro-USB. لـ USB-C شاهد Anker 737." },
+                    { question: "هل يدعم USB-C؟", answer: "لا، هذا الموديل منافذ USB-A ومدخل Micro-USB. لـ USB-C شاهد أنكر 737." },
                     { question: "كم شحنة يعطي 26800 لايفون 17؟", answer: "يشحن ايفون 17 حوالي 5 مرات كاملة، أو سامسونج S26 حوالي 4 مرات." },
                     { question: "لماذا أختار 26800 بدل 20000؟", answer: "26800 للسفر الطويل و 3 منافذ لشحن العائلة. 20000 أصغر وأخف للحمل اليومي." },
                     { question: "كايرو فولت اختبرته عملياً في رحلة عائلية؟", answer: "نعم! رحلة ذهاباً وإياباً للغردقة (10 ساعات قيادة). شحن 5 أجهزة (ايفونين + سامسونجين + ايباد) من 10-15% لـ 90%+. كف العيلة كلها براحة." },
                     { question: "هل يتحمل حرارة طريق الساحل في أغسطس؟", answer: "نعم! اختبرناه عند 41 درجة في السيارة بدون سخونة أو تباطؤ حراري. صمم للحر المصري." },
-                    { question: "هل يمكن استخدامه لانقطاع الكهرباء؟", answer: "نعم، لكن للهواتف فقط. لتشغيل الراوتر واللابتوب والمروحة، اختار Anker 521 PowerHouse بدله." }
+                    { question: "هل يمكن استخدامه لانقطاع الكهرباء؟", answer: "نعم، لكن للهواتف فقط. لتشغيل الراوتر واللابتوب والمروحة، اختار أنكر 521 PowerHouse بدله." }
                 ]
             }
         },
-        meta: { keywords: "باور بانك انكر 26800, انكر 26800, anker power bank 26800, anker powercore 26800, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "باور بانك انكر 26800" },
+        meta: { keywords: "باور بانك انكر 26800, انكر 26800, أنكر power bank 26800, أنكر powercore 26800, سعر باور بانك انكر, باور بنك انكر, انكر باور بانك, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "باور بانك انكر 26800" },
         expertOpinion: {
             en: "This is the ultimate travel companion. The 26,800mAh capacity is massive – enough to keep your phone running for a week. The three USB ports are a godsend for families or groups. It takes a while to recharge (use two cables!), but once it's full, you're set for days. A huge favorite for long trips to Dahab or Siwa.",
             ar: "هذا هو الرفيق المثالي للسفر. سعة 26,800 مللي أمبير هائلة – تكفي لتشغيل هاتفك لمدة أسبوع. منافذ USB الثلاثة نعمة للعائلات أو المجموعات. يستغرق وقتاً طويلاً لإعادة الشحن (استخدم كابلين!)، لكن بمجرد امتلاءه، فأنت جاهز لأيام. مفضل جداً للرحلات الطويلة إلى دهب أو سيوة."

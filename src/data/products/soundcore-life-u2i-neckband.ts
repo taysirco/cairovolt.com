@@ -74,8 +74,8 @@ export const soundcore_life_u2i_neckband = {
         <p class="text-gray-700 leading-relaxed">النيكباند المرن بيوزن 28 جرام بس — بتنسى إنه موجود. درايفر 10mm مُعزز بالجرافين مع BassUp بيقدم باس غني بشكل مفاجئ لتصميم نيكباند. البوب العربي والبودكاست نقطة قوتها. أطراف سيليكون بـ 3 مقاسات بتعمل سيل سلبي لحجب ضوضاء محترم.</p>
     </section>
     <section>
-        <h2 class="text-2xl font-bold mb-3">739 جنيه: أرخص مدخل لعالم Soundcore</h2>
-        <p class="text-gray-700 leading-relaxed">بـ 739 جنيه، Life U2i هي نقطة الدخول لنظام Soundcore. 22 ساعة بطارية يعني شحن مرة في الأسبوع لمعظم المستخدمين. 10 دقائق شحن سريع بتدي 3 ساعات طوارئ. شحن USB-C. IPX5 بتستحمل عرق الجيم ومواصلات المطر.</p>
+        <h2 class="text-2xl font-bold mb-3">739 جنيه: أرخص مدخل لعالم ساوندكور</h2>
+        <p class="text-gray-700 leading-relaxed">بـ 739 جنيه، Life U2i هي نقطة الدخول لنظام ساوندكور. 22 ساعة بطارية يعني شحن مرة في الأسبوع لمعظم المستخدمين. 10 دقائق شحن سريع بتدي 3 ساعات طوارئ. شحن USB-C. IPX5 بتستحمل عرق الجيم ومواصلات المطر.</p>
         <p class="text-gray-700 leading-relaxed">مايك مُعزز بالـ AI بيوفر مكالمات واضحة في البيئات المعتدلة. BT 5.0 مستقر للاستخدام الشخصي مع إنه بينقصه المدى والـ multipoint بتاعة موديلات 5.3/5.4 الأحدث. لسواقين الديلفري وميكانيكيين الورش وأي حد محتاج سماعات فيزيائياً مستحيل تضيع — النيكباند هو الحل.</p>
     </section>
 </div>
@@ -94,7 +94,7 @@ export const soundcore_life_u2i_neckband = {
 </div>`,
             features: ["نيكباند لاسلكي", "10mm جرافين BassUp", "22 ساعة بطارية", "10 دقائق = 3 ساعات", "تشبيك مغناطيسي أوتوماتيك", "28 جرام خفيف", "BT 5.0", "مايك AI", "IPX5", "USB-C", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور Life U2i — نيكباند | 10mm BassUp",
-            metaDesc: "اشتري سماعة ساوندكور Life U2i في مصر — 739 جنيه. نيكباند، 10mm جرافين BassUp، 22 ساعة، IPX5، مايك AI، سماعات مغناطيسية. أرخص Soundcore. ضمان 18 شهر.",
+            metaDesc: "اشتري سماعة ساوندكور Life U2i في مصر — 739 جنيه. نيكباند، 10mm جرافين BassUp، 22 ساعة، IPX5، مايك AI، سماعات مغناطيسية. أرخص ساوندكور. ضمان 18 شهر.",
             faqs: [
                     { question: "ليه نيكباند بدل TWS؟", answer: "مش هتضيع سماعة أبداً — بتتعلق على رقبتك. مفيش علبة شحن. 22 ساعة بطارية مدمجة. مثالية لسواقين الديلفري والميكانيكيين والعمال الخارجيين. المقايضة: أقل أناقة من TWS." },
                     { question: "بلوتوث 5.0 قديمة مقارنة بـ 5.3 بتاعة P20i؟", answer: "BT 5.0 أقدم: مدى أقصر (10 مقابل 15 متر)، مفيش multipoint. بس بـ 739 جنيه بتوفر اتصال موثوق للاستخدام الشخصي. للـ multipoint: P20i (699) أو A30i (1,450)." },
@@ -105,10 +105,10 @@ export const soundcore_life_u2i_neckband = {
         }
     },
 
-    meta: { keywords: "soundcore life u2i, anker neckband, u2i neckband, soundcore neckband egypt, u2i price, best neckband earphones egypt, ساوندكور لايف u2i, سماعة نيكباند انكر, نيكباند انكر, سعر u2i مصر", mainTerm: "soundcore life u2i" },
+    meta: { keywords: "ساوندكور life u2i, أنكر neckband, u2i neckband, ساوندكور neckband egypt, u2i price, best neckband earphones egypt, ساوندكور لايف u2i, سماعة نيكباند انكر, نيكباند انكر, سعر u2i مصر", mainTerm: "soundcore life u2i" },
 
     expertOpinion: {
         en: "Life U2i is the cheapest Soundcore and the only neckband in the lineup. At 739 EGP, the 10mm graphene BassUp delivers honest budget audio with 22h battery. Neckband design means you never lose an earbud. For TWS with more features at similar price: P20i.",
-        ar: "Life U2i أرخص Soundcore والنيكباند الوحيد في التشكيلة. بـ 739 جنيه، 10mm جرافين BassUp بيقدم صوت بادجت صادق مع 22 ساعة بطارية. تصميم النيكباند يعني مش هتضيع سماعة. لو عايز TWS بمميزات أكتر بسعر قريب: P20i."
+        ar: "Life U2i أرخص ساوندكور والنيكباند الوحيد في التشكيلة. بـ 739 جنيه، 10mm جرافين BassUp بيقدم صوت بادجت صادق مع 22 ساعة بطارية. تصميم النيكباند يعني مش هتضيع سماعة. لو عايز TWS بمميزات أكتر بسعر قريب: P20i."
     }
 };

@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_p30i_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: ['10mm BassUp driver — punchy bass-forward sound, great for Arabic pop and EDM', 'Adaptive ANC up to 42dB — targets engine noise on microbus, speech in cafés. Transparency mode', '10h earbuds / 45h total — 10min = 2h quick charge. USB-C. IP54 dust+splash', 'BT 5.4 with multipoint — Soundcore App EQ. Case doubles as phone stand', 'CairoVolt: 18-month warranty. 1,200 EGP. Budget ANC king with phone stand case.'],
-        ar: ['درايفر 10mm BassUp — باس قوي، ممتاز للبوب العربي والـ EDM', 'ANC تكيّفي حتى 42dB — بيستهدف صوت المحرك في الميكروباص، الكلام في الكافيهات. وضع شفافية', '10 ساعات سماعة / 45 إجمالي — 10 دقائق = ساعتين شحن سريع. USB-C. IP54 غبار+رذاذ', 'BT 5.4 مع multipoint — تطبيق Soundcore EQ. العلبة بتتحول لستاند موبايل', 'كايرو فولت: ضمان 18 شهر. 1,200 جنيه. ملك ANC الاقتصادي مع علبة ستاند.'],
+        ar: ['درايفر 10mm BassUp — باس قوي، ممتاز للبوب العربي والـ EDM', 'ANC تكيّفي حتى 42dB — بيستهدف صوت المحرك في الميكروباص، الكلام في الكافيهات. وضع شفافية', '10 ساعات سماعة / 45 إجمالي — 10 دقائق = ساعتين شحن سريع. USB-C. IP54 غبار+رذاذ', 'BT 5.4 مع multipoint — تطبيق ساوندكور EQ. العلبة بتتحول لستاند موبايل', 'كايرو فولت: ضمان 18 شهر. 1,200 جنيه. ملك ANC الاقتصادي مع علبة ستاند.'],
     },
     localContext: {
         en: 'P30i is the sweet spot between P20i (no ANC) and P40i (premium ANC). At 1,200 EGP, it undercuts Liberty 4 NC (2,999) by 60% while still offering 42dB ANC, BassUp, and the unique phone stand case. Best for Cairo commuters who want solid ANC without spending 3K+.',
@@ -20,7 +20,7 @@ export const soundcore_p30i_earbuds_detail: ProductDetail = {
         'Bluetooth': { en: '5.4 Multipoint', ar: '5.4 Multipoint' },
         'Water/Dust': { en: 'IP54', ar: 'IP54' },
         'Case Feature': { en: 'Built-in phone stand', ar: 'ستاند موبايل مدمج' },
-        'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق Soundcore (EQ + أوضاع ANC)' },
+        'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق ساوندكور (EQ + أوضاع ANC)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

@@ -42,7 +42,7 @@ export const anker_prime_a1695_25000 = {
                 shortDescription: "⚡ 165W Output — Charges MacBook Pro 16 | 🔋 25,000mAh (92.7Wh) | 💻 Dual USB-C 100W + USB-A | 📊 Smart Digital Display",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike standard power banks limited to phone charging, the Anker Prime A1695 outputs <strong>165W</strong> — charging MacBook Pro 16-inch at near-adapter speed. With 25,000mAh (92.7Wh), active cooling fan, and smart display showing real-time watts and temperature, it survived our 8-hour Maadi blackout test. FCC/CE certified — 24-month Anker warranty. Available at <strong>EGP 3950</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike standard power banks limited to phone charging, the أنكر Prime A1695 outputs <strong>165W</strong> — charging MacBook Pro 16-inch at near-adapter speed. With 25,000mAh (92.7Wh), active cooling fan, and smart display showing real-time watts and temperature, it survived our 8-hour Maadi blackout test. FCC/CE certified — 24-month أنكر warranty. Available at <strong>EGP 3950</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">
@@ -52,12 +52,12 @@ export const anker_prime_a1695_25000 = {
         <li>🔋 <strong>25,000mAh (92.7Wh):</strong> The most capacity you can fly with (under 100Wh TSA limit).</li>
         <li>💻 <strong>2× USB-C PD + USB-A:</strong> Power 3 devices including laptops simultaneously.</li>
         <li>🌡️ <strong>Active Cooling Fan:</strong> Built-in fan prevents overheating at 165W output.</li>
-        <li>⏱️ <strong>30-Minute Recharge:</strong> With Anker Prime 100W charger, 80% in ~30 min.</li>
+        <li>⏱️ <strong>30-Minute Recharge:</strong> With أنكر Prime 100W charger, 80% in ~30 min.</li>
     <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>5.49 EGP/day:</strong> Over 24 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "This is not a power bank. This is a portable power station disguised as a power bank. At 165W combined output, the Anker Prime A1695 charges MacBook Pro 16-inch at near-wall-socket speeds. We tested it during a critical 8-hour power outage in Maadi during July heat — it kept a MacBook Pro, an iPad, and two iPhones alive for the entire duration. The active cooling fan is genuinely necessary at these watts — and it's whisper-quiet. The build quality is absurdly premium: aerospace-grade aluminum, smart display showing real-time watts and temperature, and a heft that screams 'I mean business.' With a 100W+ USB-C charger, it refills from 0% to 80% in about 35 minutes — faster than any power bank this size. At 92.7Wh, it's the maximum capacity you can legally carry on a plane. This is for the creator, the executive, the traveler who refuses to be powerless. Expensive? Yes. Worth every pound? Absolutely."
+        "This is not a power bank. This is a portable power station disguised as a power bank. At 165W combined output, the أنكر Prime A1695 charges MacBook Pro 16-inch at near-wall-socket speeds. We tested it during a critical 8-hour power outage in Maadi during July heat — it kept a MacBook Pro, an iPad, and two iPhones alive for the entire duration. The active cooling fan is genuinely necessary at these watts — and it's whisper-quiet. The build quality is absurdly premium: aerospace-grade aluminum, smart display showing real-time watts and temperature, and a heft that screams 'I mean business.' With a 100W+ USB-C charger, it refills from 0% to 80% in about 35 minutes — faster than any power bank this size. At 92.7Wh, it's the maximum capacity you can legally carry on a plane. This is for the creator, the executive, the traveler who refuses to be powerless. Expensive? Yes. Worth every pound? Absolutely."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
@@ -66,17 +66,17 @@ export const anker_prime_a1695_25000 = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">165W: The Laptop Charging Monster</h2>
-        <p class="text-gray-700">Most power banks top out at 20-45W. The Anker Prime A1695 operates in a completely different league. With <strong>165W combined output</strong> (up to 140W from a single USB-C port), it charges a MacBook Pro 16" at near-adapter speeds. Plug in your laptop, phone, and tablet simultaneously — the A1695 handles it all without breaking a sweat. The built-in <strong>active cooling fan</strong> engages automatically at high-wattage output, keeping thermal performance optimal even in Cairo's 42°C summers.</p>
+        <p class="text-gray-700">Most power banks top out at 20-45W. The أنكر Prime A1695 operates in a completely different league. With <strong>165W combined output</strong> (up to 140W from a single USB-C port), it charges a MacBook Pro 16" at near-adapter speeds. Plug in your laptop, phone, and tablet simultaneously — the A1695 handles it all without breaking a sweat. The built-in <strong>active cooling fan</strong> engages automatically at high-wattage output, keeping thermal performance optimal even in Cairo's 42°C summers.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">92.7Wh: Maximum Flight-Legal Capacity</h2>
-        <p class="text-gray-700">Anker engineered the A1695 at exactly <strong>92.7Wh</strong> — strategically just under the TSA's strict 100Wh carry-on limit. This is the maximum capacity you can legally fly with. It translates to: 1 full MacBook Pro charge, 5+ iPhone charges, or 2+ iPad charges. For transcontinental flights, multi-day business trips, or surviving extended power outages — this is the nuclear option.</p>
+        <p class="text-gray-700">أنكر engineered the A1695 at exactly <strong>92.7Wh</strong> — strategically just under the TSA's strict 100Wh carry-on limit. This is the maximum capacity you can legally fly with. It translates to: 1 full MacBook Pro charge, 5+ iPhone charges, or 2+ iPad charges. For transcontinental flights, multi-day business trips, or surviving extended power outages — this is the nuclear option.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">30-Minute Recharge: Time is Money</h2>
-        <p class="text-gray-700">The A1695 supports up to <strong>100W input charging</strong>. With the compatible Anker Prime charger, it refills from 0 to 80% in approximately 30 minutes. Full charge in about 50 minutes. That's faster than most phones recharge. The smart display shows real-time watts (input and output), temperature, and battery percentage — professional-grade telemetry for power-critical professionals.</p>
+        <p class="text-gray-700">The A1695 supports up to <strong>100W input charging</strong>. With the compatible أنكر Prime charger, it refills from 0 to 80% in approximately 30 minutes. Full charge in about 50 minutes. That's faster than most phones recharge. The smart display shows real-time watts (input and output), temperature, and battery percentage — professional-grade telemetry for power-critical professionals.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -93,7 +93,7 @@ export const anker_prime_a1695_25000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) to unlock full laptop-charging speed safely. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
+    <p class="text-gray-700">Never use a 5W cable with a 165W power bank — the cable becomes a 15W bottleneck and overheats dangerously. The A1695 requires a 100W+ rated USB-C cable (like <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">أنكر A8050</a>) to unlock full laptop-charging speed safely. احذر من الباور بانك المقلد — السعة الحقيقية بتكون نص المكتوب والخطر على سلامتك.</p>
 </div>
 `,
                 features: ["⚡ 165W Combined Output", "💻 140W MacBook Pro Charging", "🔋 25,000mAh (92.7Wh)", "🌡️ Active Cooling Fan", "⚡ ⏱️ 30-min 80% Recharge", "📊 Smart Display (watts/temp/%)", "✈️ Max Flight-Legal Capacity", "🛡️ 24-Month Warranty"],
@@ -165,7 +165,7 @@ export const anker_prime_a1695_25000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 165 واط — الكابل بيبقى عنق زجاجة عند 15 واط وبيسخن بشكل خطير. الـ A1695 محتاج كابل 100+ واط (زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a>) عشان تفتح سرعة شحن اللابتوب الكاملة بأمان.</p>
+    <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 165 واط — الكابل بيبقى عنق زجاجة عند 15 واط وبيسخن بشكل خطير. الـ A1695 محتاج كابل 100+ واط (زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">أنكر A8050</a>) عشان تفتح سرعة شحن اللابتوب الكاملة بأمان.</p>
 </div>
 `,
                 features: ["⚡ 165 واط إخراج مشترك", "💻 140 واط شحن ماك بوك برو", "🔋 25,000 مللي أمبير (92.7Wh)", "🌡️ مروحة تبريد نشطة", "⚡ ⏱️ 30 دقيقة 80% إعادة شحن", "📊 شاشة ذكية", "✈️ أقصى سعة للطائرة", "🛡️ ضمان 24 شهر"],
@@ -180,7 +180,7 @@ export const anker_prime_a1695_25000 = {
                 ]
             }
         },
-        meta: { keywords: "anker prime a1695, anker 165w, انكر برايم 165 واط, باور بانك ماك بوك برو, anker prime power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker prime 25000mah 165w, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker prime 25000mah 165w" },
+        meta: { keywords: "أنكر prime a1695, أنكر 165w, انكر برايم 165 واط, باور بانك ماك بوك برو, أنكر prime power bank, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, أنكر prime 25000mah 165w, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker prime 25000mah 165w" },
         expertOpinion: {
         en: "For professionals who can't afford downtime: remote workers, photographers on shoots, and frequent flyers. The most capable power bank that's still airplane-legal. Not for budget shoppers.",
         ar: "للمحترفين اللي مش بيستحملوا الشحن يخلص — شغل ريموت، مصورين، وناس بتسافر كتير. أقوى باور بانك يدخل الطيارة. مش لأصحاب الميزانية المحدودة."

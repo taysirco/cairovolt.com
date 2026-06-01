@@ -14,7 +14,7 @@ export const soundcore_p25i_earbuds_lab: ProductLabData = {
     ],
     voiceFaqAr: [
         { question: 'P25i ولا P20i — أنهي أشتري؟', answer: 'نفس الصوت بالظبط. P20i: 699 جنيه + 30 ساعة. P25i: 770 جنيه + 28 ساعة. P20i قيمة أحسن. اشتري P25i بس لو بتفضّل علبتها أو P20i مش متوفرة.' },
-        { question: 'P25i فيها ANC؟', answer: 'لأ — عزل سلبي بس. أقل سماعة Soundcore بـ ANC هي A30i بـ 1,450 جنيه.' },
+        { question: 'P25i فيها ANC؟', answer: 'لأ — عزل سلبي بس. أقل سماعة ساوندكور بـ ANC هي A30i بـ 1,450 جنيه.' },
         { question: 'P25i كويسة للألعاب؟', answer: 'وضع ألعاب بيقلل التأخير لـ ~80ms. كافي لألعاب كاجوال و Netflix. مش كافي لـ FPS تنافسي.' },
     ],
     voiceFaqEn: [

@@ -22,7 +22,7 @@ export const soundcore_liberty_buds_detail: ProductDetail = {
         'Water/Dust': { en: 'IP55', ar: 'IP55' },
         'Fit': { en: 'Semi-in-ear + 4 sizes detachable ear fins', ar: 'Semi-in-ear + 4 مقاسات زعانف أذن قابلة للفك' },
         'Special Features': { en: 'AI Translation (100+ languages), HearID 4.0, Spatial Audio', ar: 'ترجمة AI (100+ لغة)، HearID 4.0، صوت مكاني' },
-        'App': { en: 'Soundcore App (full control)', ar: 'تطبيق Soundcore (تحكم كامل)' },
+        'App': { en: 'Soundcore App (full control)', ar: 'تطبيق ساوندكور (تحكم كامل)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

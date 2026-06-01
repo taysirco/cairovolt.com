@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: ['10mm BassUp driver — same engine as P20i/P25i but with AI Voice assistant shortcut', 'NO ANC — passive seal isolation. Soundcore app 22 EQ presets', '10h earbuds / 30h total — fast charge. USB-C. IPX5. BT 5.3', 'Vi = Voice Intelligence: double-tap triggers Google/Siri/Gemini instantly', 'CairoVolt: 18-month warranty. 785 EGP. R50i + voice assistant integration.'],
-        ar: ['درايفر 10mm BassUp — نفس محرك P20i/P25i بس مع اختصار مساعد صوتي AI', 'بدون ANC — عزل سلبي بالسيل. تطبيق Soundcore 22 بريست EQ', '10 ساعات سماعة / 30 إجمالي — شحن سريع. USB-C. IPX5. BT 5.3', 'Vi = Voice Intelligence: ضغطتين بيفعّلوا Google/Siri/Gemini فوراً', 'كايرو فولت: ضمان 18 شهر. 785 جنيه. R50i + تكامل مساعد صوتي.'],
+        ar: ['درايفر 10mm BassUp — نفس محرك P20i/P25i بس مع اختصار مساعد صوتي AI', 'بدون ANC — عزل سلبي بالسيل. تطبيق ساوندكور 22 بريست EQ', '10 ساعات سماعة / 30 إجمالي — شحن سريع. USB-C. IPX5. BT 5.3', 'Vi = Voice Intelligence: ضغطتين بيفعّلوا Google/Siri/Gemini فوراً', 'كايرو فولت: ضمان 18 شهر. 785 جنيه. R50i + تكامل مساعد صوتي.'],
     },
     localContext: {
         en: 'R50i Vi is the standard R50i with enhanced voice assistant integration — "Vi" stands for Voice Intelligence. Same 10mm BassUp driver as P20i/P25i/R50i. At 785 EGP vs P20i (699): 86 EGP more for voice assistant shortcuts and slightly refined touch controls. Vs R50i NC (has ANC): R50i Vi has NO ANC. Don\'t confuse them.',
@@ -20,7 +20,7 @@ export const soundcore_r50i_vi_earbuds_detail: ProductDetail = {
         'Mics': { en: '2-mic AI-enhanced calls', ar: '2 مايك AI للمكالمات' },
         'Water': { en: 'IPX5 (sweat + rain)', ar: 'IPX5 (عرق + مطر)' },
         'Voice Assistant': { en: 'Google/Siri/Gemini via double-tap', ar: 'Google/Siri/Gemini بضغطتين' },
-        'App': { en: 'Soundcore App (EQ + controls + game mode)', ar: 'تطبيق Soundcore (EQ + أزرار + ألعاب)' },
+        'App': { en: 'Soundcore App (EQ + controls + game mode)', ar: 'تطبيق ساوندكور (EQ + أزرار + ألعاب)' },
     },
     labVerified: {
         result: { en: 'Same 10mm BassUp as P20i/P25i — identical sound confirmed by AB test. Vi voice assistant shortcut: double-tap left earbud triggers Google Assistant on Android / Siri on iPhone instantly. Response time <1s. Useful for hands-free queries while commuting. Battery 10h earbuds / 30h total confirmed. IPX5 gym-tested. Touch controls slightly more responsive than P20i.', ar: 'نفس 10mm BassUp بتاعة P20i/P25i — صوت متطابق متأكد باختبار AB. اختصار Vi للمساعد الصوتي: ضغطتين على السماعة اليسرى بتفعّل Google Assistant على أندرويد / Siri على iPhone فوراً. وقت استجابة <ثانية. مفيد للاستفسارات بدون أيدي في المواصلات. بطارية 10 ساعات / 30 إجمالي متأكدة. IPX5 متختبرة في الجيم. أزرار اللمس أكتر استجابة من P20i شوية.' },

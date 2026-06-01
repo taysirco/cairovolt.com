@@ -33,7 +33,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
             metaDescription: 'أنحف شواحن لابتوب 100W GaN في مصر 2026 — مقارنة 5 شواحن بالوزن والحجم والسعر. بديل شاحن اللابتوب الأصلي الضخم. دليل المهندس للموظفين والطلاب.',
             keywords: 'شاحن لابتوب 100W, شاحن GaN لابتوب, أنحف شاحن لابتوب, شاحن لابتوب صغير مصر, شاحن USB-C لابتوب, بديل شاحن لابتوب أصلي, شاحن 100W GaN مصر, شاحن MacBook صغير, شاحن Dell XPS USB-C, شاحن لابتوب للسفر, أفضل شاحن لابتوب 2026 مصر, شاحن PD 3.1 100W',
             excerpt: 'شاحن اللابتوب الأصلي وزنه نص كيلو وحجمه زي العلبة — بدّله بشاحن GaN 100W أصغر 60% وبيشحن الموبايل واللابتوب والتابلت من نفس المخرج.',
-            quickAnswer: 'أنحف شاحن لابتوب 100W GaN متاح في مصر 2026: Anker Prime 100W — وزنه 170 جرام فقط (أصغر من شاحن MacBook بـ 60%)، بيدّي 100W حقيقي عبر USB-C PD 3.0، وبيشحن MacBook Pro 16" من 0→50% في 35 دقيقة. البديل الاقتصادي: UGREEN Nexode 100W بـ 4 مخارج. الشرط الوحيد: لازم اللابتوب يدعم شحن USB-C PD (كل لابتوبات 2022+ بتدعمه). شواحن GaN أبرد 30% وأكفأ 95% مقارنة بشواحن السيليكون الأصلية.',
+            quickAnswer: 'أنحف شاحن لابتوب 100W GaN متاح في مصر 2026: أنكر Prime 100W — وزنه 170 جرام فقط (أصغر من شاحن MacBook بـ 60%)، بيدّي 100W حقيقي عبر USB-C PD 3.0، وبيشحن MacBook Pro 16" من 0→50% في 35 دقيقة. البديل الاقتصادي: UGREEN Nexode 100W بـ 4 مخارج. الشرط الوحيد: لازم اللابتوب يدعم شحن USB-C PD (كل لابتوبات 2022+ بتدعمه). شواحن GaN أبرد 30% وأكفأ 95% مقارنة بشواحن السيليكون الأصلية.',
             content: `<p>إنت موظف. أو طالب هندسة. أو فريلانسر في كافيه. الشنطة على كتفك فيها: لابتوب، شاحن اللابتوب (نص كيلو بالكابل)، شاحن الموبايل، وممكن شاحن التابلت كمان. يعني شايل 3 شواحن + 3 كابلات = كيلو ونص زيادة في ضهرك. وكل يوم نفس المعاناة — تفتح الشنطة في الاجتماع أو المحاضرة، الشاحن يطلع بالكابل المتلخبط، والناس بتبصّلك كإنك جايب معدات اللحام معاك.</p>
 
 <p>طب ما لو قولتلك إن فيه شاحن واحد — أصغر من علبة الكبريت الكبيرة — بيشحن اللابتوب والموبايل والتابلت كلهم؟ وبيدّي 100 واط حقيقي؟ ووزنه 170 جرام بس؟ في المقال ده، هنقارن أنحف 5 شواحن 100W GaN متاحين في مصر — بالوزن والحجم والسعر والمخارج — عشان تختار اللي يناسب شنطتك (وضهرك).</p>
@@ -41,7 +41,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أنحف شاحن لابتوب 100W GaN في مصر: <strong>Anker Prime 100W</strong> — وزنه 170 جرام (أصغر من شاحن MacBook بـ 60%)، بيدّي 100W حقيقي عبر USB-C PD 3.0، وبيشحن MacBook Pro 16" من 0→50% في 35 دقيقة. بديل اقتصادي: UGREEN Nexode 100W بـ 4 مخارج. الشرط: لازم اللابتوب يدعم شحن USB-C PD.
+        أنحف شاحن لابتوب 100W GaN في مصر: <strong>أنكر Prime 100W</strong> — وزنه 170 جرام (أصغر من شاحن MacBook بـ 60%)، بيدّي 100W حقيقي عبر USB-C PD 3.0، وبيشحن MacBook Pro 16" من 0→50% في 35 دقيقة. بديل اقتصادي: UGREEN Nexode 100W بـ 4 مخارج. الشرط: لازم اللابتوب يدعم شحن USB-C PD.
     </p>
 </div>
 
@@ -115,7 +115,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">1</td>
-            <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">Anker Prime 100W</td>
+            <td style="padding:10px;border:1px solid #d1d5db;font-weight:bold;">أنكر Prime 100W</td>
             <td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>170g</strong></td>
             <td style="padding:10px;border:1px solid #d1d5db;">2× USB-C + 1× USB-A</td>
             <td style="padding:10px;border:1px solid #d1d5db;">GaN III</td>
@@ -233,7 +233,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">🔌 <strong>Foldable Prongs (فيشة قابلة للطي):</strong> ده مش ترف — ده بيحمي الشاحن من الخدوش في الشنطة ويوفّر 20% مساحة إضافية. كل الشواحن اللي ذكرناها فيها فيشة قابلة للطي.</li>
     <li style="margin-bottom:16px;">⚡ <strong>PD 3.0 + PPS:</strong> لو عندك Samsung — لازم PPS عشان Super Fast Charging يشتغل. لو عندك iPhone أو MacBook — PD كافي. الشاحن اللي فيه الاتنين بيشتغل مع كل حاجة.</li>
-    <li style="margin-bottom:16px;">🔥 <strong>اتأكد من شهادة GaN:</strong> شواحن كتيرة بتكتب "GaN" على العلبة بس جواها سيليكون عادي. الماركات الموثوقة: Anker، UGREEN، Baseus، Nomad. شواحن OLX بـ 200ج "GaN 100W" — 95% منها مش GaN حقيقي.</li>
+    <li style="margin-bottom:16px;">🔥 <strong>اتأكد من شهادة GaN:</strong> شواحن كتيرة بتكتب "GaN" على العلبة بس جواها سيليكون عادي. الماركات الموثوقة: أنكر، UGREEN، Baseus، Nomad. شواحن OLX بـ 200ج "GaN 100W" — 95% منها مش GaN حقيقي.</li>
     <li style="margin-bottom:16px;">📏 <strong>الكابل لازم يستحمل:</strong> لازم كابل USB-C يدعم 100W (5A / 20V). كابلات <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر PowerLine USB-C</a> مصممة لـ 100W ومعاها ضمان 18 شهر. كابل رخيص = bottleneck بيحدّ القدرة لـ 60W أو أقل.</li>
 </ul>
 
@@ -247,7 +247,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
 <div class="sources-box" style="background:#f9fafb;border:1px solid #e5e7eb;padding:16px 20px;margin:32px 0;border-radius:8px;font-size:14px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
-        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">Anker — GaN Charger Technology Explained (بالإنجليزية)</a></li>
+        <li><a href="https://www.anker.com/blogs/chargers/gan-charger-explained" rel="nofollow">أنكر — GaN Charger Technology Explained (بالإنجليزية)</a></li>
         <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB-IF — USB Power Delivery Specification 3.1 (بالإنجليزية)</a></li>
         <li><a href="https://batteryuniversity.com/article/bu-409-charging-lithium-ion" rel="nofollow">Battery University — Charging Lithium-Ion (بالإنجليزية)</a></li>
     </ul>
@@ -263,7 +263,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
                 },
                 {
                     question: 'هل شاحن GaN آمن على اللابتوب ولا ممكن يضره؟',
-                    answer: 'شواحن GaN من ماركات معتمدة (Anker، UGREEN، Baseus) آمنة تماماً — فيها 7-9 طبقات حماية (حرارية، تيار زيادة، قصر دائرة). اللابتوب نفسه فيه BMS بيتحكم في الشحن. الخطر بس من شواحن مقلّدة من غير حماية — زي شواحن OLX بـ 200ج. الماركة > السعر.'
+                    answer: 'شواحن GaN من ماركات معتمدة (أنكر، UGREEN، Baseus) آمنة تماماً — فيها 7-9 طبقات حماية (حرارية، تيار زيادة، قصر دائرة). اللابتوب نفسه فيه BMS بيتحكم في الشحن. الخطر بس من شواحن مقلّدة من غير حماية — زي شواحن OLX بـ 200ج. الماركة > السعر.'
                 },
                 {
                     question: 'إيه الفرق بين GaN II و GaN III — وهل الفرق يستاهل فلوس أكتر؟',

@@ -122,11 +122,11 @@ export const anker_a2732_charger_35w = {
                     { question: "بيشحن ايفون بسرعة وأنا مشغل الـ GPS؟", answer: "أيوه! منفذ USB-C PD بـ 20 واط بيشحن الايفون حتى وانت مشغل خرايط — هتكسب شحن مش بس هتحافظ عليه. الـ GPS بيستهلك 5-8 واط فهتفضل تكسب." },
                     { question: "بيشتغل في التريلات والميكروباصات؟", answer: "أيوه — الـ A2732 بيقبل دخل 12V و 24V فبيشتغل في كل المركبات: ملاكي وSUV وتريلات وميكروباصات وفانات." },
                     { question: "هيسخن في العربية المركونة في الشمس؟", answer: "الـ A2732 فيه مراقبة حرارة ضمن MultiProtect ومصمم للاستخدام داخل السيارة. بس زي أي إلكترونيات، ما تسيبهوش في الشمس المباشرة في عربية حرارتها 60°C+ لفترات طويلة." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر, anker car charger, anker a2732, شاحن سيارة usb-c, anker powerdrive pd, شاحن عربية انكر, anker fast car charger, anker dual usb car charger, anker best car charger 2026, anker cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر 35 واط, شاحن عربية انكر مصر, anker car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر 35 واط" },
+        meta: { keywords: "شاحن سيارة انكر, أنكر car charger, أنكر a2732, شاحن سيارة usb-c, أنكر powerdrive pd, شاحن عربية انكر, أنكر fast car charger, أنكر dual usb car charger, أنكر best car charger 2026, أنكر cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر 35 واط, شاحن عربية انكر مصر, أنكر car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر 35 واط" },
         expertOpinion: {
         en: "Best for iPhone + accessory drivers who want genuine PD fast charging on the road. The dual-port design means you and your passenger charge simultaneously. Skip if you only charge one device.",
         ar: "مثالي لسواقين الأوبر واللي بيسافروا كتير — منفذين يعني إنت والراكب بتشحنوا مع بعض. مش محتاجه لو بتشحن جهاز واحد بس."

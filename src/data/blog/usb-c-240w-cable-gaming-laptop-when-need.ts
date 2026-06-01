@@ -212,7 +212,7 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
     </tbody>
 </table>
 
-<p>لو محتاج كابل 240W EPR فعلي — ابحث عن كابلات <strong>معتمدة USB-IF</strong> ومكتوب عليها صراحةً "240W" أو "EPR" على الكونكتور أو العلبة. الماركات الموثوقة عالمياً زي Anker وUGREEN وCable Matters بتوفر كابلات 240W بشهادة رسمية. لو لقيت كابل "240W" على OLX بـ 80 جنيه — ده مش 240W، ده حلم على ورق.</p>
+<p>لو محتاج كابل 240W EPR فعلي — ابحث عن كابلات <strong>معتمدة USB-IF</strong> ومكتوب عليها صراحةً "240W" أو "EPR" على الكونكتور أو العلبة. الماركات الموثوقة عالمياً زي أنكر وUGREEN وCable Matters بتوفر كابلات 240W بشهادة رسمية. لو لقيت كابل "240W" على OLX بـ 80 جنيه — ده مش 240W، ده حلم على ورق.</p>
 
 <h2>تحذيرات مهمة قبل ما تشتري ⚠️</h2>
 
@@ -240,7 +240,7 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
     <p style="margin:0 0 8px 0;font-weight:bold;color:#374151;">📚 المراجع:</p>
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.usb.org/document-library/usb-power-delivery" rel="nofollow">USB-IF Power Delivery Specification Rev 3.1</a></li>
-        <li><a href="https://www.anker.com/blogs/cables" rel="nofollow">Anker Cable Technology Blog</a></li>
+        <li><a href="https://www.anker.com/blogs/cables" rel="nofollow">أنكر Cable Technology Blog</a></li>
     </ul>
 </div>
 `,

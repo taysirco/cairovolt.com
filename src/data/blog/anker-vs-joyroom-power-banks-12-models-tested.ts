@@ -28,25 +28,25 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'Anker ضد Joyroom في الباور بانكات — اختبار 12 موديل بالأرقام والأسعار في مصر 2026',
+            title: 'أنكر ضد جوي روم في الباور بانكات — اختبار 12 موديل بالأرقام والأسعار في مصر 2026',
             metaTitle: 'انكر ضد جوي روم باور بانك — 12 موديل بالاختبار | كايرو فولت',
-            metaDescription: 'اختبرنا 7 باور بانكات Anker ضد 5 Joyroom في مايو 2026. مقارنة السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 550ج لـ 3,950ج. النتائج بالأرقام.',
-            keywords: 'انكر ضد جوي روم باور بانك, مقارنة باور بانك انكر وجوي روم, افضل باور بانك مصر 2026, انكر زولو ضد جوي روم 20000, اختبار باور بانك بالارقام, anker vs joyroom power bank egypt, سعة حقيقية باور بانك, باور بانك اصلي مصر, اسعار باور بانك مصر 2026, انكر برايم ضد جوي روم',
-            excerpt: 'اختبرنا 12 باور بانك من Anker و Joyroom بمقياس USB-C — السعة الحقيقية والخرج الفعلي والحرارة والسعر. النتائج المفاجئة بالأرقام.',
-            quickAnswer: 'Anker بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ Joyroom)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). Joyroom بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → Joyroom 20,000mAh بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → Anker ZOLO A1681 (2,200ج) أو Anker Prime (3,950ج).',
-            content: `<p>كل ما حد بيسأل "أشتري Anker ولا Joyroom؟" بيلاقي إجابات عامة: "Anker أغلى بس أحسن" أو "Joyroom كويس وأرخص". مفيش حد جاب أرقام حقيقية. علشان كده قررنا نعمل اختبار شامل — 7 باور بانكات Anker ضد 5 Joyroom — بمقياس USB-C ومقياس حرارة وساعة توقيت. النتيجة؟ مش بسيطة زي ما الناس فاكرة.</p>
+            metaDescription: 'اختبرنا 7 باور بانكات أنكر ضد 5 جوي روم في مايو 2026. مقارنة السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 550ج لـ 3,950ج. النتائج بالأرقام.',
+            keywords: 'انكر ضد جوي روم باور بانك, مقارنة باور بانك انكر وجوي روم, افضل باور بانك مصر 2026, انكر زولو ضد جوي روم 20000, اختبار باور بانك بالارقام, أنكر vs جوي روم power bank egypt, سعة حقيقية باور بانك, باور بانك اصلي مصر, اسعار باور بانك مصر 2026, انكر برايم ضد جوي روم',
+            excerpt: 'اختبرنا 12 باور بانك من أنكر و جوي روم بمقياس USB-C — السعة الحقيقية والخرج الفعلي والحرارة والسعر. النتائج المفاجئة بالأرقام.',
+            quickAnswer: 'أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → جوي روم 20,000mAh بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → أنكر ZOLO A1681 (2,200ج) أو أنكر Prime (3,950ج).',
+            content: `<p>كل ما حد بيسأل "أشتري أنكر ولا جوي روم؟" بيلاقي إجابات عامة: "أنكر أغلى بس أحسن" أو "جوي روم كويس وأرخص". مفيش حد جاب أرقام حقيقية. علشان كده قررنا نعمل اختبار شامل — 7 باور بانكات أنكر ضد 5 جوي روم — بمقياس USB-C ومقياس حرارة وساعة توقيت. النتيجة؟ مش بسيطة زي ما الناس فاكرة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        Anker بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ Joyroom)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). Joyroom بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> (2,200ج) أو <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> (3,950ج).
+        أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> (2,200ج) أو <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> (3,950ج).
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — منهجية الاختبار:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        اختبرنا 12 باور بانك (7 Anker + 5 Joyroom) خلال مايو 2026. كل وحدة شُحنت 100% → فُرّغت بحمل ثابت 10 واط → قِسنا: (1) السعة الفعلية بالواط/ساعة، (2) أقصى خرج مستدام، (3) درجة حرارة السطح بعد 30 دقيقة تحت الحمل الأقصى. كل الوحدات أصلية من مخزون كايرو فولت — مش عينات مجانية من الشركات.
+        اختبرنا 12 باور بانك (7 أنكر + 5 جوي روم) خلال مايو 2026. كل وحدة شُحنت 100% → فُرّغت بحمل ثابت 10 واط → قِسنا: (1) السعة الفعلية بالواط/ساعة، (2) أقصى خرج مستدام، (3) درجة حرارة السطح بعد 30 دقيقة تحت الحمل الأقصى. كل الوحدات أصلية من مخزون كايرو فولت — مش عينات مجانية من الشركات.
     </p>
 </div>
 
@@ -66,7 +66,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     </thead>
     <tbody>
         <tr style="background:#eff6ff;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;" colspan="7"><strong>🔵 Anker — 7 موديلات</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;" colspan="7"><strong>🔵 أنكر — 7 موديلات</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">انكر باور كور 10K</a></td>
@@ -132,7 +132,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">3,950ج</td>
         </tr>
         <tr style="background:#fef2f2;">
-            <td style="padding:10px 8px;border:1px solid #d1d5db;" colspan="7"><strong>🔴 Joyroom — 5 موديلات</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;" colspan="7"><strong>🔴 جوي روم — 5 موديلات</strong></td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/joyroom/power-banks/joyroom-power-bank-10000" style="color:#2563eb;font-weight:600;">جوي روم 10K</a></td>
@@ -162,7 +162,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>997ج ⭐</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">Joyroom 20K (USB-A فقط)</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">جوي روم 20K (USB-A فقط)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">58.2Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>82%</strong></td>
@@ -171,7 +171,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>750ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">Joyroom 20K Slim</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">جوي روم 20K Slim</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">60.1Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>84%</strong></td>
@@ -185,9 +185,9 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <p>لو عايز تفهم ليه "السعة الفعلية" أقل من المُعلن دايماً، اقرأ <a href="/blog/power-bank-10000mah-real-capacity-myth" style="color:#2563eb;font-weight:600;">حقيقة سعة 10,000mAh الفعلية</a> — الموضوع فيزيائي مش غش.</p>
 
 <h2>السعة الحقيقية — الفرق اللي مش واضح على العلبة</h2>
-<p>أكبر مفاجأة في الاختبار: الفرق في السعة الحقيقية. باور بانك Anker 20,000mAh بيدي 65-67Wh فعلية (88-90% كفاءة). Joyroom 20,000mAh بيدي 58-60Wh (82-84%). الفرق؟ 7-8Wh — يعني شحنة موبايل كاملة زيادة.</p>
+<p>أكبر مفاجأة في الاختبار: الفرق في السعة الحقيقية. باور بانك أنكر 20,000mAh بيدي 65-67Wh فعلية (88-90% كفاءة). جوي روم 20,000mAh بيدي 58-60Wh (82-84%). الفرق؟ 7-8Wh — يعني شحنة موبايل كاملة زيادة.</p>
 
-<p>السبب: Anker بيستخدم خلايا Grade-A من مصانع ATL و LG Chem — نفس المصانع اللي بتوّرد لـ Apple و Samsung. Joyroom بيستخدم خلايا Grade-B — مش رديئة، لكن كفاءة التحويل فيها أقل بـ 6-10%. في الاستخدام اليومي، ده معناه إن Anker ZOLO A110E (20K) بيشحن iPhone 17 Pro Max 3.8 مرة، بينما Joyroom 20K بيشحنه 3.3 مرة. نص شحنة فرق.</p>
+<p>السبب: أنكر بيستخدم خلايا Grade-A من مصانع ATL و LG Chem — نفس المصانع اللي بتوّرد لـ Apple و Samsung. جوي روم بيستخدم خلايا Grade-B — مش رديئة، لكن كفاءة التحويل فيها أقل بـ 6-10%. في الاستخدام اليومي، ده معناه إن أنكر ZOLO A110E (20K) بيشحن iPhone 17 Pro Max 3.8 مرة، بينما جوي روم 20K بيشحنه 3.3 مرة. نص شحنة فرق.</p>
 
 <h2>الخرج الفعلي تحت الحمل — مين بيثبت ومين بينزل؟</h2>
 <p>قسنا الخرج كل 5 دقائق لمدة ساعة بحمل ثابت. النتيجة كانت مفاجئة:</p>
@@ -195,11 +195,11 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⚡ <strong>انكر زولو A1681 (45W):</strong> بدأ بـ 44.2W وبعد 30 دقيقة نزل لـ 42.8W — ثبات 97%. ده يعني اللابتوب بتاعك بيشحن بنفس السرعة من أول دقيقة لآخر دقيقة.</li>
     <li style="margin-bottom:12px;">⚡ <strong>انكر 737 (140W):</strong> بدأ بـ 138W وبعد 30 دقيقة نزل لـ 131W — ثبات 95%. ممتاز للابتوبات الثقيلة.</li>
-    <li style="margin-bottom:12px;">🔋 <strong>Joyroom 20K (22.5W):</strong> بدأ بـ 21.8W وبعد 15 دقيقة نزل لـ 18.2W — ثبات 83%. الانخفاض سببه الحرارة الداخلية — الخلايا بتقلل الخرج لحماية نفسها.</li>
-    <li style="margin-bottom:12px;">🔋 <strong>Joyroom 10K (22.5W):</strong> بدأ بـ 21.5W وبعد 10 دقائق نزل لـ 16.8W — ثبات 78%. طبيعي لسعة صغيرة.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>جوي روم 20K (22.5W):</strong> بدأ بـ 21.8W وبعد 15 دقيقة نزل لـ 18.2W — ثبات 83%. الانخفاض سببه الحرارة الداخلية — الخلايا بتقلل الخرج لحماية نفسها.</li>
+    <li style="margin-bottom:12px;">🔋 <strong>جوي روم 10K (22.5W):</strong> بدأ بـ 21.5W وبعد 10 دقائق نزل لـ 16.8W — ثبات 78%. طبيعي لسعة صغيرة.</li>
 </ul>
 
-<p><strong>الخلاصة:</strong> Anker بيحافظ على 95-97% من الخرج المُعلن حتى بعد 30 دقيقة. Joyroom بينزل لـ 78-83%. في الشحن العادي للموبايل مش هتحس بالفرق كتير. لكن لو بتشحن لابتوب أو جهاز محتاج وات عالي مستمر، Anker هو الخيار الآمن.</p>
+<p><strong>الخلاصة:</strong> أنكر بيحافظ على 95-97% من الخرج المُعلن حتى بعد 30 دقيقة. جوي روم بينزل لـ 78-83%. في الشحن العادي للموبايل مش هتحس بالفرق كتير. لكن لو بتشحن لابتوب أو جهاز محتاج وات عالي مستمر، أنكر هو الخيار الآمن.</p>
 
 <h2>الحرارة — المعركة الصامتة</h2>
 <p>قسنا حرارة سطح كل باور بانك بعد 30 دقيقة تحت الحمل الأقصى بترمومتر ليزر. النتائج:</p>
@@ -215,13 +215,13 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>🔵 Anker (7 موديلات)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>🔵 أنكر (7 موديلات)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>39.9°م</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">44°م (737 عند 140W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">✅ ممتاز</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>🔴 Joyroom (5 موديلات)</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>🔴 جوي روم (5 موديلات)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>45.6°م</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">47°م (20K عند 22.5W)</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#ca8a04;">⚠️ مقبول</td>
@@ -246,7 +246,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Joyroom 10K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">جوي روم 10K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">550ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30.7Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>17.9ج/Wh ⭐</strong></td>
@@ -283,42 +283,42 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     </tbody>
 </table>
 
-<p>Joyroom بيدي أرخص واط/ساعة في السوق المصري — 16.7ج/Wh مقابل 25.7ج/Wh لأقرب منافس Anker. لكن الفرق في السعر بيشتريلك: خرج أثبت + حرارة أقل + ضمان أطول 6 شهور + خلايا بتعيش أطول.</p>
+<p>جوي روم بيدي أرخص واط/ساعة في السوق المصري — 16.7ج/Wh مقابل 25.7ج/Wh لأقرب منافس أنكر. لكن الفرق في السعر بيشتريلك: خرج أثبت + حرارة أقل + ضمان أطول 6 شهور + خلايا بتعيش أطول.</p>
 
 <h2>الحكم النهائي — مين يشتري إيه؟</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>ميزانية تحت 1,000ج — Joyroom 20,000mAh (997ج):</strong> أفضل قيمة مقابل سعر في مصر. 22.5W شحن سريع، شاشة رقمية، ضمان 12 شهر. كفاية لشحن أي موبايل 3+ مرات.</li>
-    <li style="margin-bottom:12px;">✅ <strong>ميزانية 1,200-1,800ج — Anker ZOLO A110E (1,730ج):</strong> سعة فعلية أعلى 12%، حرارة أقل، كابل مدمج، ضمان 18 شهر. الفرق عن Joyroom يستحق لو بتستخدمه يومياً.</li>
-    <li style="margin-bottom:12px;">✅ <strong>محتاج شحن لابتوب — Anker ZOLO A1681 (2,200ج):</strong> 45W PD بيشحن MacBook Air ولابتوبات خفيفة. Joyroom مش عنده باور بانك بيشحن لابتوب في السوق المصري.</li>
-    <li style="margin-bottom:12px;">✅ <strong>استخدام احترافي — Anker Prime (3,950ج) أو 737 (3,650ج):</strong> 140-165W للابتوبات الثقيلة، شاشة ذكية، 3 منافذ. مفيش منافس Joyroom في الفئة دي.</li>
-    <li style="margin-bottom:12px;">✅ <strong>باور بانك MagSafe — Joyroom Magnetic (890ج):</strong> بديل اقتصادي لـ Anker 622 MagGo. شحن لاسلكي 15W + سلكي 20W. سعر ممتاز لمستخدمي iPhone.</li>
+    <li style="margin-bottom:12px;">✅ <strong>ميزانية تحت 1,000ج — جوي روم 20,000mAh (997ج):</strong> أفضل قيمة مقابل سعر في مصر. 22.5W شحن سريع، شاشة رقمية، ضمان 12 شهر. كفاية لشحن أي موبايل 3+ مرات.</li>
+    <li style="margin-bottom:12px;">✅ <strong>ميزانية 1,200-1,800ج — أنكر ZOLO A110E (1,730ج):</strong> سعة فعلية أعلى 12%، حرارة أقل، كابل مدمج، ضمان 18 شهر. الفرق عن جوي روم يستحق لو بتستخدمه يومياً.</li>
+    <li style="margin-bottom:12px;">✅ <strong>محتاج شحن لابتوب — أنكر ZOLO A1681 (2,200ج):</strong> 45W PD بيشحن MacBook Air ولابتوبات خفيفة. جوي روم مش عنده باور بانك بيشحن لابتوب في السوق المصري.</li>
+    <li style="margin-bottom:12px;">✅ <strong>استخدام احترافي — أنكر Prime (3,950ج) أو 737 (3,650ج):</strong> 140-165W للابتوبات الثقيلة، شاشة ذكية، 3 منافذ. مفيش منافس جوي روم في الفئة دي.</li>
+    <li style="margin-bottom:12px;">✅ <strong>باور بانك MagSafe — جوي روم Magnetic (890ج):</strong> بديل اقتصادي لـ أنكر 622 MagGo. شحن لاسلكي 15W + سلكي 20W. سعر ممتاز لمستخدمي iPhone.</li>
 </ul>
 
-<p>للمقارنة الشاملة بين البراندين في كل الفئات (مش بس باور بانكات)، اقرأ <a href="/blog/anker-vs-joyroom-comparison" style="color:#2563eb;font-weight:600;">Anker ضد Joyroom — المقارنة الشاملة</a>.</p>
+<p>للمقارنة الشاملة بين البراندين في كل الفئات (مش بس باور بانكات)، اقرأ <a href="/blog/anker-vs-joyroom-comparison" style="color:#2563eb;font-weight:600;">أنكر ضد جوي روم — المقارنة الشاملة</a>.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ كل الموديلات الـ 12 متاحة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker بضمان 18 شهر + Joyroom بضمان 12 شهر. كلهم <strong>أصلي 100%</strong> بكود تحقق. توصيل لكل المحافظات + دفع عند الاستلام + دعم فني واتساب 24/7.
+        أنكر بضمان 18 شهر + جوي روم بضمان 12 شهر. كلهم <strong>أصلي 100%</strong> بكود تحقق. توصيل لكل المحافظات + دفع عند الاستلام + دعم فني واتساب 24/7.
     </p>
 </div>`,
             faq: [
                 {
-                    question: 'هل Joyroom بيستخدم خلايا بطارية مقلّدة؟',
-                    answer: 'لا. Joyroom بيستخدم خلايا Grade-B أصلية — مش مقلّدة ومش مستعملة. الفرق بينها وبين Grade-A (اللي Anker بيستخدمها) إن كفاءة التحويل أقل 6-10% وعدد الدورات أقل (500-600 بدل 800-1,200). لكنها آمنة تماماً ومعتمدة.'
+                    question: 'هل جوي روم بيستخدم خلايا بطارية مقلّدة؟',
+                    answer: 'لا. جوي روم بيستخدم خلايا Grade-B أصلية — مش مقلّدة ومش مستعملة. الفرق بينها وبين Grade-A (اللي أنكر بيستخدمها) إن كفاءة التحويل أقل 6-10% وعدد الدورات أقل (500-600 بدل 800-1,200). لكنها آمنة تماماً ومعتمدة.'
                 },
                 {
-                    question: 'لو عندي iPhone 17 Pro Max بس، أشتري Anker ولا Joyroom؟',
-                    answer: 'iPhone 17 Pro Max أقصى شحن 30W. Joyroom 20K بيطلع 22.5W (كافي وهيشحنه من 0 لـ 50% في 25 دقيقة). Anker ZOLO A110E بيطلع 22.5W برضو — نفس سرعة الشحن. الفرق: Anker هيشحنه 3.8 مرة بدل 3.3 مرة وبحرارة أقل. لو الميزانية مش مشكلة، Anker. لو كل جنيه مهم، Joyroom ممتاز.'
+                    question: 'لو عندي iPhone 17 Pro Max بس، أشتري أنكر ولا جوي روم؟',
+                    answer: 'iPhone 17 Pro Max أقصى شحن 30W. جوي روم 20K بيطلع 22.5W (كافي وهيشحنه من 0 لـ 50% في 25 دقيقة). أنكر ZOLO A110E بيطلع 22.5W برضو — نفس سرعة الشحن. الفرق: أنكر هيشحنه 3.8 مرة بدل 3.3 مرة وبحرارة أقل. لو الميزانية مش مشكلة، أنكر. لو كل جنيه مهم، جوي روم ممتاز.'
                 },
                 {
-                    question: 'كام مرة Joyroom 20K بيشحن Samsung S26 Ultra؟',
-                    answer: 'Samsung S26 Ultra بطاريته 5,000mAh (19.25Wh). Joyroom 20K سعته الفعلية 59.8Wh. بحساب كفاءة التحويل (85%): 59.8 × 0.85 ÷ 19.25 = 2.6 شحنة كاملة. Anker ZOLO A110E بسعة فعلية 67.3Wh: 67.3 × 0.85 ÷ 19.25 = 2.97 شحنة — يعني شحنة إضافية تقريباً.'
+                    question: 'كام مرة جوي روم 20K بيشحن Samsung S26 Ultra؟',
+                    answer: 'Samsung S26 Ultra بطاريته 5,000mAh (19.25Wh). جوي روم 20K سعته الفعلية 59.8Wh. بحساب كفاءة التحويل (85%): 59.8 × 0.85 ÷ 19.25 = 2.6 شحنة كاملة. أنكر ZOLO A110E بسعة فعلية 67.3Wh: 67.3 × 0.85 ÷ 19.25 = 2.97 شحنة — يعني شحنة إضافية تقريباً.'
                 },
                 {
                     question: 'هل الضمان على كايرو فولت بيشمل فقدان السعة؟',
-                    answer: 'أيوا. ضمان Anker (18 شهر) وJoyroom (12 شهر) على كايرو فولت بيشمل عيوب التصنيع بما فيها فقدان ملحوظ في السعة — لو نزلت تحت 80% من المُعلن خلال فترة الضمان بنبدّله. بس التلف الناتج عن سوء الاستخدام (حرارة، سقوط، مياه) مش مشمول.'
+                    answer: 'أيوا. ضمان أنكر (18 شهر) وJoyroom (12 شهر) على كايرو فولت بيشمل عيوب التصنيع بما فيها فقدان ملحوظ في السعة — لو نزلت تحت 80% من المُعلن خلال فترة الضمان بنبدّله. بس التلف الناتج عن سوء الاستخدام (حرارة، سقوط، مياه) مش مشمول.'
                 }
             ]
         },

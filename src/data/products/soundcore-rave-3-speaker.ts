@@ -74,7 +74,7 @@ export const soundcore_rave_3_speaker = {
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">كاريوكي AI: 2 مايك لاسلكي + إزالة صوت</h2>
-        <p class="text-gray-700 leading-relaxed">العلبة فيها 2 مايك لاسلكي — مش محتاج تشتري مايكات منفصلة. شغّل أي أغنية من البلوتوث والـ AI بيشيل صوت المغني لحظياً وبيسيب الموسيقى. أنت وصاحبك بتغنوا لايف مع ريفرب وصدى وإفكتات من تطبيق Soundcore. بيشتغل 90% نضيف على تسجيلات استوديو، 70% على لايف.</p>
+        <p class="text-gray-700 leading-relaxed">العلبة فيها 2 مايك لاسلكي — مش محتاج تشتري مايكات منفصلة. شغّل أي أغنية من البلوتوث والـ AI بيشيل صوت المغني لحظياً وبيسيب الموسيقى. أنت وصاحبك بتغنوا لايف مع ريفرب وصدى وإفكتات من تطبيق ساوندكور. بيشتغل 90% نضيف على تسجيلات استوديو، 70% على لايف.</p>
         <p class="text-gray-700 leading-relaxed">12 ساعة بطارية على 50% (BassUp والإضاءة مطفية). IPX4 بتستحمل الرذاذ والمطر الخفيف — مش غمر. بحوالي 10 كجم، ثقيلة وبدون عجلات — خطّط للنقل. BT 5.3 + مدخل AUX لـ DJ mixer.</p>
     </section>
 </div>
@@ -87,7 +87,7 @@ export const soundcore_rave_3_speaker = {
         <li><strong>الموديل:</strong> A3399 على ملصق المنتج</li>
         <li><strong>الوزن:</strong> ~10 كجم — المقلد أخف بشكل دراماتيكي</li>
         <li><strong>المايكات:</strong> 2 مايك لاسلكي في العلبة</li>
-        <li><strong>التطبيق:</strong> بيتصل بتطبيق Soundcore مع أزرار كاريوكي</li>
+        <li><strong>التطبيق:</strong> بيتصل بتطبيق ساوندكور مع أزرار كاريوكي</li>
         <li><strong>الصوت:</strong> بيملأ 100 متر مربع على 70% بدون تشويه</li>
     </ul>
 </div>`,
@@ -104,7 +104,7 @@ export const soundcore_rave_3_speaker = {
         }
     },
 
-    meta: { keywords: "soundcore rave 3, anker rave 3, rave 3 karaoke, rave 3 200w, rave 3 wireless mics, rave 3 egypt, best party speaker egypt, karaoke speaker egypt, ساوندكور ريف 3, سبيكر كاريوكي, سبيكر حفلات 200 واط, سعر rave 3 مصر", mainTerm: "soundcore rave 3" },
+    meta: { keywords: "ساوندكور rave 3, أنكر rave 3, rave 3 karaoke, rave 3 200w, rave 3 wireless mics, rave 3 egypt, best party speaker egypt, karaoke speaker egypt, ساوندكور ريف 3, سبيكر كاريوكي, سبيكر حفلات 200 واط, سعر rave 3 مصر", mainTerm: "soundcore rave 3" },
 
     expertOpinion: {
         en: "Rave 3 is the ultimate party/karaoke speaker at 9,450 EGP. 200W + 6.5\" woofer fills outdoor events. 2 wireless mics + AI vocal removal = instant karaoke. Trade-offs: 10kg heavy, IPX4 splash-only (not pool-safe), 12h battery at 50%.",

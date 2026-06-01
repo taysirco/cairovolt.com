@@ -87,15 +87,15 @@ export const anker_soundcore_flare_2 = {
                 ]
             },
             ar: {
-                name: "مكبر صوت انكر Soundcore Flare 2 | سماعة السهرة بإضاءة LED بتتفاعل مع الموسيقى | ضمان 18 شهر",
+                name: "مكبر صوت انكر ساوندكور Flare 2 | سماعة السهرة بإضاءة LED بتتفاعل مع الموسيقى | ضمان 18 شهر",
                 shortDescription: "بتحول أي سهرة لحفلة 🌈 إضاءة RGB بتتفاعل مع الموسيقى | 🔊 صوت 360° بيتوزع في كل الاتجاهات | 💧 IPX7 خليها على حمام السباحة | 🔋 12 ساعة",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة اللي صوتها بيتشوه على الصوت العالي، <strong>سماعة أنكر Soundcore Flare 2 (A3165)</strong> سماعة بلوتوث 20 واط بصوت 360° وحلقات LED متزامنة مع الإيقاع. مقاومة ماء IPX7 (بتتحمل الغمر)، تقنية BassUp™، PartyCast لربط 100+ سماعة. بلوتوث 5.0، تطبيق Soundcore للتحكم. سماعة الحفلات وحمام السباحة. سعر 2,999 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات الرخيصة اللي صوتها بيتشوه على الصوت العالي، <strong>سماعة أنكر ساوندكور Flare 2 (A3165)</strong> سماعة بلوتوث 20 واط بصوت 360° وحلقات LED متزامنة مع الإيقاع. مقاومة ماء IPX7 (بتتحمل الغمر)، تقنية BassUp™، PartyCast لربط 100+ سماعة. بلوتوث 5.0، تطبيق ساوندكور للتحكم. سماعة الحفلات وحمام السباحة. سعر 2,999 جنيه، ضمان 18 شهر. CairoVolt return rate: <strong>only 0.7%</strong> across 300+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات LED الرخيصة من Alibaba/Temu بتدعي IPX7 بس مفيهاش عزل سليم — بتموت بعد أول مياه. سماعات “Soundcore” المضروبة صوتها مزعج والـ LED مش متزامن مع الموسيقى. Flare 2 الأصلي بيتعرف عليه تطبيق Soundcore (المضروب مش بيتوصل). دور على ختم أنكر الهولوجرافي.</p>
+    <p class="text-gray-700">سماعات LED الرخيصة من Alibaba/Temu بتدعي IPX7 بس مفيهاش عزل سليم — بتموت بعد أول مياه. سماعات “ساوندكور” المضروبة صوتها مزعج والـ LED مش متزامن مع الموسيقى. Flare 2 الأصلي بيتعرف عليه تطبيق ساوندكور (المضروب مش بيتوصل). دور على ختم أنكر الهولوجرافي.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">نظرة سريعة على المواصفات:</h3>
@@ -119,17 +119,17 @@ export const anker_soundcore_flare_2 = {
 <div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">صوت 360 درجة يملأ كل ركن</h2>
-        <p class="text-gray-700">بمحركين صوت 10 وات (إجمالي 20 وات) يبثان في كل الاتجاهات، سماعة <strong>Soundcore Flare 2</strong> بتلغي مشكلة "المكان المثالي للسماع". في صيف مصر وحرارة 40°م+ على أسطح القاهرة أو شاليهات الساحل الشمالي، الصوت المحيطي بيوصل لكل حد — مش محتاج تقعد قدامها. تقنية <strong>BassUp</strong> بتوفر باس عميق بيتفوق على سماعات بضعف سعرها.</p>
+        <p class="text-gray-700">بمحركين صوت 10 وات (إجمالي 20 وات) يبثان في كل الاتجاهات، سماعة <strong>ساوندكور Flare 2</strong> بتلغي مشكلة "المكان المثالي للسماع". في صيف مصر وحرارة 40°م+ على أسطح القاهرة أو شاليهات الساحل الشمالي، الصوت المحيطي بيوصل لكل حد — مش محتاج تقعد قدامها. تقنية <strong>BassUp</strong> بتوفر باس عميق بيتفوق على سماعات بضعف سعرها.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">عرض ضوئي يغنيك عن إضاءة الحفلات</h2>
-        <p class="text-gray-700">حلقات LED المزدوجة في Flare 2 بتنبض وتغير ألوانها مع إيقاع المزيكا. خصص المؤثرات من <a href="/soundcore/audio" class="text-blue-600 hover:underline">تطبيق Soundcore</a> أو خليها تتفاعل تلقائي. بتحول أي غرفة أو مكان مفتوح لحفلة صغيرة — من غير أي أدوات إضاءة إضافية.</p>
+        <p class="text-gray-700">حلقات LED المزدوجة في Flare 2 بتنبض وتغير ألوانها مع إيقاع المزيكا. خصص المؤثرات من <a href="/soundcore/audio" class="text-blue-600 hover:underline">تطبيق ساوندكور</a> أو خليها تتفاعل تلقائي. بتحول أي غرفة أو مكان مفتوح لحفلة صغيرة — من غير أي أدوات إضاءة إضافية.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">اربط أكثر من 100 سماعة بـ PartyCast</h2>
-        <p class="text-gray-700">محتاج تغطية أكبر؟ تقنية <strong>PartyCast</strong> بتخليك تربط أكثر من 100 سماعة Soundcore متوافقة مع بعض لصوت وإضاءة متزامنين. مثالية للمناسبات الكبيرة، الأفراح، أو الحفلات الخارجية لما سماعة واحدة متكفيش.</p>
+        <p class="text-gray-700">محتاج تغطية أكبر؟ تقنية <strong>PartyCast</strong> بتخليك تربط أكثر من 100 سماعة ساوندكور متوافقة مع بعض لصوت وإضاءة متزامنين. مثالية للمناسبات الكبيرة، الأفراح، أو الحفلات الخارجية لما سماعة واحدة متكفيش.</p>
     </section>
 </div>
 <div class="device-compatibility">
@@ -143,19 +143,19 @@ export const anker_soundcore_flare_2 = {
     </ul>
 </div>
 `,
-                features: ["🔊 صوت 20 وات 360° (10×2)", "💡 إضاءة LED متزامنة مع الإيقاع", "💧 مقاومة ماء IPX7", "🔗 PartyCast (ربط 100+ سماعة)", "🎚️ تطبيق Soundcore للتحكم", "📱 بلوتوث 5.0", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE + IPX7 → معايير السلامة العالمية"],
+                features: ["🔊 صوت 20 وات 360° (10×2)", "💡 إضاءة LED متزامنة مع الإيقاع", "💧 مقاومة ماء IPX7", "🔗 PartyCast (ربط 100+ سماعة)", "🎚️ تطبيق ساوندكور للتحكم", "📱 بلوتوث 5.0", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE + IPX7 → معايير السلامة العالمية"],
                 metaTitle: "مكبر صوت انكر Flare 2 ⚡ خصم 12% | صوت 360° + LED | COD مصر",
-                metaDesc: "اشتري مكبر صوت Soundcore Flare 2 في مصر. صوت 20 وات 360°، إضاءة LED متفاعلة، IPX7 ضد الماء. ربط 100+ سماعة. ضمان 18 شهر وتوصيل سريع.",
+                metaDesc: "اشتري مكبر صوت ساوندكور Flare 2 في مصر. صوت 20 وات 360°، إضاءة LED متفاعلة، IPX7 ضد الماء. ربط 100+ سماعة. ضمان 18 شهر وتوصيل سريع.",
                 faqs: [
                     { question: "كم سماعة يمكنني ربطها معاً؟", answer: "بفضل تقنية PartyCast، يمكنك ربط أكثر من 100 سماعة Flare 2 لمزامنة الصوت والإضاءة." },
-                    { question: "هل يمكنني إطفاء الأنوار؟", answer: "نعم، يمكنك التحكم في حلقات الإضاءة LED وإيقاف تشغيلها تماماً عبر تطبيق Soundcore." },
+                    { question: "هل يمكنني إطفاء الأنوار؟", answer: "نعم، يمكنك التحكم في حلقات الإضاءة LED وإيقاف تشغيلها تماماً عبر تطبيق ساوندكور." },
                     { question: "هل الباس أقوى من الإصدار الأول؟", answer: "نعم، Flare 2 يستخدم تقنية BassUp ومحركات مزدوجة لباس أعمق وأغنى." },
                     { question: "كيف يقارن Flare 2 مع JBL Pulse 5؟", answer: "Flare 2 يقدم صوت وإضاءة 360 درجة بسعر أقل. لديه PartyCast لربط 100+ سماعة. اختيار قيمة ممتازة." },
                     { question: "أقدر أوصّل سماعتين مع بعض؟", answer: "أيوه، بتدعم ربط TWS (ستيريو لاسلكي حقيقي). وصّل سماعتين متشابهين لصوت ستيريو يمين/شمال — مثالي للغرف أو التجمعات." }
                 ]
             }
         },
-        meta: { keywords: "soundcore flare 2, party speaker, anker flare, سماعة مضيئة, anker bluetooth speaker egypt, anker portable speaker, anker waterproof speaker, anker best speaker egypt 2026, anker cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, افضل سبيكر انكر, سعر سبيكر انكر, سبيكر انكر مصر, anker speaker egypt, مكبر صوت بلوتوث, soundcore speaker مصر", mainTerm: "soundcore flare 2" },
+        meta: { keywords: "ساوندكور flare 2, party speaker, أنكر flare, سماعة مضيئة, أنكر bluetooth speaker egypt, أنكر portable speaker, أنكر waterproof speaker, أنكر best speaker egypt 2026, أنكر cod egypt speaker, سبيكر بلوتوث مصر انكر, مكبر صوت انكر, افضل سبيكر انكر, سعر سبيكر انكر, سبيكر انكر مصر, أنكر speaker egypt, مكبر صوت بلوتوث, ساوندكور speaker مصر", mainTerm: "soundcore flare 2" },
         expertOpinion: {
             en: "If you love hosting parties, the Flare 2 is your best friend. The 360-degree sound fills the room evenly, and the beat-driven light show adds a fantastic vibe. It's fully waterproof, so pool parties are worry-free. While the bass isn't as deep as the Motion+, the overall experience and PartyCast feature make it a winner for social events.",
             ar: "إذا كنت تحب إقامة الحفلات، فإن Flare 2 هي صديقك المفضل. الصوت المحيطي 360 درجة يملأ الغرفة بالتساوي، وعرض الضوء المتفاعل مع الإيقاع يضيف جواً رائعاً. مقاومة للماء بالكامل، لذا حفلات حمام السباحة خالية من القلق. على الرغم من أن الباس ليس بعمق Motion+، إلا أن التجربة الكلية وميزة PartyCast تجعلها فائزة للمناسبات الاجتماعية."

@@ -33,20 +33,20 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
             metaDescription: 'مقارنة شاملة بين كابل USB-C to Lightning وكابل USB-C to USB-C لشحن iPhone — بأرقام اختبار حقيقية. اعرف أيهم أسرع ومتى تحتاج كل نوع في مصر 2026.',
             keywords: 'USB-C to Lightning, USB-C to USB-C, كابل ايفون, شحن سريع ايفون, كابل Lightning, كابل USB-C ايفون, أسرع كابل ايفون, iPhone 17 كابل, كابل شحن ايفون مصر, Lightning vs USB-C cable iPhone',
             excerpt: 'مقارنة بالأرقام بين كابل USB-C to Lightning وكابل USB-C to USB-C لشحن iPhone — أيهم أسرع فعلاً ومتى تحتاج كل نوع.',
-            quickAnswer: 'كابل USB-C to USB-C أسرع لأجهزة iPhone 15 وأحدث — بيوصل 30W شحن سريع مقابل 20W كحد أقصى لكابل USB-C to Lightning. لكن لو عندك iPhone 14 أو أقدم، ملكش غير Lightning. النصيحة: لو iPhone 15/16/17 — اشتري USB-C to USB-C زي Anker A8050 (100W، 350ج). لو iPhone 14 أو أقدم — اشتري USB-C to Lightning زي Anker SureiStrong (30W، 320ج).',
+            quickAnswer: 'كابل USB-C to USB-C أسرع لأجهزة iPhone 15 وأحدث — بيوصل 30W شحن سريع مقابل 20W كحد أقصى لكابل USB-C to Lightning. لكن لو عندك iPhone 14 أو أقدم، ملكش غير Lightning. النصيحة: لو iPhone 15/16/17 — اشتري USB-C to USB-C زي أنكر A8050 (100W، 350ج). لو iPhone 14 أو أقدم — اشتري USB-C to Lightning زي أنكر SureiStrong (30W، 320ج).',
             content: `
 <p>صاحبك اشترى iPhone 17 Pro Max جديد وفرحان — وأول حاجة عملها إنه فتح الدُرج وطلّع كابل Lightning القديم بتاعه. وصّله بشاحن 30 واط وقعد يستنّى. بعد 45 دقيقة الموبايل على 52% بس. قالك: "الشاحن ده نصب!" لا يا حبيبي — الشاحن كويس. المصيبة إنك بتشحن iPhone بمنفذ USB-C بكابل Lightning اللي ولّى زمنه. ده زي ما تجيب عربية BMW وتحط فيها بنزين 80 — العربية هتمشي، بس مش بالأداء اللي إنت دافع فلوسه.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> كابل USB-C to USB-C أسرع لأجهزة iPhone 15 وأحدث — بيوصل 30W شحن سريع مقابل 20W كحد أقصى لكابل USB-C to Lightning. لكن لو عندك iPhone 14 أو أقدم، ملكش غير Lightning. النصيحة: لو iPhone 15/16/17 — اشتري USB-C to USB-C زي Anker A8050 (100W، 350ج). لو iPhone 14 أو أقدم — اشتري USB-C to Lightning زي Anker SureiStrong (30W، 320ج).
+        <strong>💡 الإجابة السريعة:</strong> كابل USB-C to USB-C أسرع لأجهزة iPhone 15 وأحدث — بيوصل 30W شحن سريع مقابل 20W كحد أقصى لكابل USB-C to Lightning. لكن لو عندك iPhone 14 أو أقدم، ملكش غير Lightning. النصيحة: لو iPhone 15/16/17 — اشتري USB-C to USB-C زي أنكر A8050 (100W، 350ج). لو iPhone 14 أو أقدم — اشتري USB-C to Lightning زي أنكر SureiStrong (30W، 320ج).
     </p>
 </div>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        اختبرنا 6 كابلات (3 أنواع USB-C to Lightning + 3 أنواع USB-C to USB-C) على 4 أجهزة iPhone مختلفة (iPhone 14 Pro / iPhone 15 Pro / iPhone 16 Pro Max / iPhone 17 Pro Max) خلال مايو 2026 مع شاحن Anker 30W ثابت. كل اختبار تكرر 3 مرات لضمان الدقة. <strong>النتيجة:</strong> USB-C to USB-C وصّل 27-30W فعلية على iPhone 15+ مقابل 18-20W فقط لـ Lightning على نفس الأجهزة — فرق 35% في سرعة الشحن.
+        اختبرنا 6 كابلات (3 أنواع USB-C to Lightning + 3 أنواع USB-C to USB-C) على 4 أجهزة iPhone مختلفة (iPhone 14 Pro / iPhone 15 Pro / iPhone 16 Pro Max / iPhone 17 Pro Max) خلال مايو 2026 مع شاحن أنكر 30W ثابت. كل اختبار تكرر 3 مرات لضمان الدقة. <strong>النتيجة:</strong> USB-C to USB-C وصّل 27-30W فعلية على iPhone 15+ مقابل 18-20W فقط لـ Lightning على نفس الأجهزة — فرق 35% في سرعة الشحن.
     </p>
 </div>
 
@@ -100,7 +100,7 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
 <p>يعني ببساطة: Lightning كابل بتاع 2012 بيحاول يشتغل في 2026. USB-C هو المعيار الحديث اللي الاتحاد الأوروبي نفسه أجبر Apple تتبناه — وده حصل بدءاً من iPhone 15 في سبتمبر 2023.</p>
 
 <h2>نتائج اختبار السرعة — الأرقام الحقيقية</h2>
-<p>كلام نظري حلو، بس إنت عاوز تعرف: <strong>في الحقيقة، بيفرق قد إيه؟</strong> جربنا الكابلين على iPhone 17 Pro Max مع شاحن Anker Nano 30W — ده اللي طلع:</p>
+<p>كلام نظري حلو، بس إنت عاوز تعرف: <strong>في الحقيقة، بيفرق قد إيه؟</strong> جربنا الكابلين على iPhone 17 Pro Max مع شاحن أنكر Nano 30W — ده اللي طلع:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead><tr style="background:#f3f4f6;">
@@ -232,9 +232,9 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
 `,
             faq: [
                 { question: 'هل ينفع أستخدم كابل USB-C to Lightning على iPhone 15 أو أحدث؟', answer: 'لأ — iPhone 15 وأحدث مفيهوش منفذ Lightning أصلاً. Apple حوّلت لـ USB-C بالكامل بدءاً من iPhone 15 في سبتمبر 2023. لو حاولت تدخل كابل Lightning — مش هيدخل فيزيائياً. محتاج كابل USB-C to USB-C فقط.' },
-                { question: 'هل كابل USB-C to USB-C العادي بيشحن iPhone 17 بنفس سرعة الكابل الأصلي من Apple؟', answer: 'أيوا — بشرط إن الكابل يدعم PD 3.0 ويكون بسُمك 22AWG أو أسمك. كابل زي Anker A8050 بيوصّل نفس الـ 27-30W بالظبط زي كابل Apple الأصلي. الفرق: كابل Anker بيتحمل 12,000 دورة ثني مقابل ~5,000 لكابل Apple.' },
+                { question: 'هل كابل USB-C to USB-C العادي بيشحن iPhone 17 بنفس سرعة الكابل الأصلي من Apple؟', answer: 'أيوا — بشرط إن الكابل يدعم PD 3.0 ويكون بسُمك 22AWG أو أسمك. كابل زي أنكر A8050 بيوصّل نفس الـ 27-30W بالظبط زي كابل Apple الأصلي. الفرق: كابل أنكر بيتحمل 12,000 دورة ثني مقابل ~5,000 لكابل Apple.' },
                 { question: 'ليه Apple اتأخرت كل ده في التحويل من Lightning لـ USB-C؟', answer: 'السبب الرئيسي: الإيرادات. Apple كانت بتاخد رسوم MFi licensing من كل شركة بتصنّع كابلات Lightning — صناعة بمليارات الدولارات. التحويل حصل بعد قانون الاتحاد الأوروبي (EU Common Charger Directive) اللي أجبر كل الشركات تستخدم USB-C بحلول 2024.' },
-                { question: 'لو عندي iPhone 14 و iPad Air M2 — أشتري كابل واحد ولا اتنين؟', answer: 'للأسف محتاج اتنين: USB-C to Lightning لـ iPhone 14 (منفذ Lightning) + USB-C to USB-C لـ iPad Air M2 (منفذ USB-C). أو اشتري كابل Joyroom 3-in-1 اللي فيه الاتنين في كابل واحد بـ 150ج — حل عملي وموفّر.' },
+                { question: 'لو عندي iPhone 14 و iPad Air M2 — أشتري كابل واحد ولا اتنين؟', answer: 'للأسف محتاج اتنين: USB-C to Lightning لـ iPhone 14 (منفذ Lightning) + USB-C to USB-C لـ iPad Air M2 (منفذ USB-C). أو اشتري كابل جوي روم 3-in-1 اللي فيه الاتنين في كابل واحد بـ 150ج — حل عملي وموفّر.' },
             ],
         },
         en: {

@@ -13,7 +13,7 @@ export const anker_a2147_gan_charger_30w_reviews: ProductReview[] = [
         datePublished: '2026-04-15',
         reviewBody: {
             en: 'IT manager — I standardized on Anker GaN 30W for our entire office. 15 units purchased from CairoVolt. Each one charges MacBook Air (slowly but works), iPad, and iPhone. The foldable plug means no broken plugs in cable drawers. GaN runs cooler than old silicon chargers. ActiveShield protects against Egyptian power grid fluctuations.',
-            ar: 'مدير IT — وحّدت على Anker GaN 30W للمكتب كله. اشتريت 15 قطعة من كايرو فولت. كل واحد بيشحن MacBook Air (ببطء بس شغال)، iPad، وiPhone. القابس القابل للطي يعني مفيش قوابس مكسورة في أدراج الكابلات. GaN بيشتغل أبرد من شواحن السيليكون القديمة. ActiveShield بيحمي من تقلبات شبكة الكهرباء المصرية.'
+            ar: 'مدير IT — وحّدت على أنكر GaN 30W للمكتب كله. اشتريت 15 قطعة من كايرو فولت. كل واحد بيشحن MacBook Air (ببطء بس شغال)، iPad، وiPhone. القابس القابل للطي يعني مفيش قوابس مكسورة في أدراج الكابلات. GaN بيشتغل أبرد من شواحن السيليكون القديمة. ActiveShield بيحمي من تقلبات شبكة الكهرباء المصرية.'
         },
         pros: { en: ['Office bulk 15 units', 'ActiveShield Egyptian grid', 'Foldable plug no breakage'], ar: ['15 قطعة للمكتب', 'ActiveShield شبكة كهرباء مصرية', 'قابس قابل للطي بدون كسر'] },
     },
@@ -58,7 +58,7 @@ export const anker_a2147_gan_charger_30w_reviews: ProductReview[] = [
         datePublished: '2026-05-20',
         reviewBody: {
             en: 'Replaced 3 separate chargers with 1 Anker GaN 30W. It charges my wife\'s iPhone, my Samsung, and our iPad. One charger for the whole family\'s devices. The 100-240V means it works during brownouts in Port Said summer. Best value single-port charger.',
-            ar: 'بدّلت 3 شواحن منفصلة بواحد Anker GaN 30W. بيشحن آيفون مراتي، سامسونج بتاعي، والآيباد بتاعنا. شاحن واحد لأجهزة العيلة كلها. 100-240V يعني بيشتغل أثناء انقطاعات بورسعيد في الصيف. أحسن قيمة شاحن منفذ واحد.'
+            ar: 'بدّلت 3 شواحن منفصلة بواحد أنكر GaN 30W. بيشحن آيفون مراتي، سامسونج بتاعي، والآيباد بتاعنا. شاحن واحد لأجهزة العيلة كلها. 100-240V يعني بيشتغل أثناء انقطاعات بورسعيد في الصيف. أحسن قيمة شاحن منفذ واحد.'
         },
         pros: { en: ['Replaced 3 chargers with 1', 'Family universal charger', '100-240V brownout safe'], ar: ['بدّل 3 شواحن بواحد', 'شاحن عيلة شامل', '100-240V آمن في الانقطاعات'] },
     },

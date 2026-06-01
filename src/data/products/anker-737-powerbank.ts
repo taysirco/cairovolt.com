@@ -175,7 +175,7 @@ export const anker_737_powerbank = {
                 ]
             }
         },
-        meta: { keywords: "anker 737, anker 140w, باور بانك انكر 737, انكر 24000, anker power bank egypt, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, anker power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker 737" },
+        meta: { keywords: "أنكر 737, أنكر 140w, باور بانك انكر 737, انكر 24000, أنكر power bank egypt, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker 737" },
         expertOpinion: {
         en: "Built for laptop-and-phone travelers, content creators on the go, and anyone who refuses to compromise on power. Overkill for casual phone-only users — get the 10K instead.",
         ar: "مصنوع للمسافرين اللي بيشحنوا لابتوب وموبايل، وصنّاع المحتوى اللي بيشتغلوا من أي مكان. لو بتشحن موبايل بس — الـ 10K هيكفيك وأوفر."

@@ -18,7 +18,7 @@ export const joyroom_car_accessories_content: CategoryContent = {
             pageContent: {
                 ar: {
                     title: 'اكسسوارات سيارة جوي روم',
-                    subtitle: 'Joyroom Car Accessories - حوّل سيارتك لمحطة ذكية',
+                    subtitle: 'جوي روم Car Accessories - حوّل سيارتك لمحطة ذكية',
                     description: `
       بتقضي ساعتين يومياً في زحمة القاهرة والموبايل (الهاتف الذكي) بيخلص قبل ما توصل البيت؟ إكسسوارات سيارة **جوي روم** بتحل المشكلة — شاحن + حامل في باقة واحدة. ركبهم مرة واحدة — وانسى.
       **باكدج السيارة الذكية:**

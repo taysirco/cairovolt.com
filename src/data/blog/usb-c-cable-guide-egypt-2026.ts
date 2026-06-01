@@ -27,7 +27,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
                 metaDescription: 'مش كل كابلات USB-C زي بعض! اكتشف الفرق الخطير بين الكابلات الرخيصة والأصلية. اختبار عملي بالميزان والمالتيمتر على 5 كابلات مختلفة من مختبر كايرو فولت.',
                 keywords: 'كابل USB-C, كابل شحن سريع, افضل كابل USB-C, كابل انكر, كابل جوي روم, الفرق بين كابلات الشحن, كابل شحن ايفون, كابل شحن سامسونج',
                 excerpt: 'مش كل كابلات USB-C زي بعض! اختبار عملي بالميزان والمالتيمتر على 5 كابلات مختلفة.',
-                quickAnswer: 'الكابل الرخيص ممكن يقلل سرعة الشحن بنسبة 70% ويبطئ نقل البيانات 50 مرة. كابل Anker PowerLine USB-C (60W) هو الأفضل من حيث المتانة والسرعة. كابل Joyroom USB-C 60W بديل اقتصادي ممتاز بنصف السعر.',
+                quickAnswer: 'الكابل الرخيص ممكن يقلل سرعة الشحن بنسبة 70% ويبطئ نقل البيانات 50 مرة. كابل أنكر PowerLine USB-C (60W) هو الأفضل من حيث المتانة والسرعة. كابل جوي روم USB-C 60W بديل اقتصادي ممتاز بنصف السعر.',
                 content: `
 <h2>الكابل: أهم قطعة وأكتر قطعة متجاهلة</h2>
 <div class="quick-answer-inline" style="background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
@@ -41,8 +41,8 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
     <p><strong>⚖️ اختبارنا بالميزان والمالتيمتر:</strong> في مختبر كايرو فولت، عملنا حاجة غريبة: وزنّا 5 كابلات USB-C مختلفة بميزان دقيق (حساسية 0.1 جرام) وفتحنا كابل تقليد عشان نشوف إيه جواه. النتيجة:</p>
     <ul style="margin:8px 0 0;padding-right:20px">
-        <li>كابل Anker PowerLine (1 متر): <strong>32.4 جرام</strong> — نحاس سميك 28AWG + تضفير نايلون</li>
-        <li>كابل Joyroom 60W (1 متر): <strong>28.7 جرام</strong> — نحاس جيد 30AWG + غلاف مقوى</li>
+        <li>كابل أنكر PowerLine (1 متر): <strong>32.4 جرام</strong> — نحاس سميك 28AWG + تضفير نايلون</li>
+        <li>كابل جوي روم 60W (1 متر): <strong>28.7 جرام</strong> — نحاس جيد 30AWG + غلاف مقوى</li>
         <li>كابل تقليد من محل موبايلات (1 متر): <strong>14.2 جرام</strong> — النصف تقريباً! 😱</li>
     </ul>
     <p style="margin-top:8px">لما فتحنا الكابل التقليد: الأسلاك الداخلية كانت 4 فقط (المفروض 8-12). النحاس كان رفيع جداً (36AWG)، ومعظم الكابل فاضي من جوا — بلاستيك وهوا.</p>
@@ -153,7 +153,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <ul>
     <li>تضفير نايلون (Nylon Braided) — بيتحمل أكتر 10 مرات من البلاستيك</li>
     <li>تقوية عند الأطراف (Reinforced Stress Points) — ده أهم حاجة</li>
-    <li>ضمان الشركة — Anker بيدي ضمان 18 شهر على كابلاته</li>
+    <li>ضمان الشركة — أنكر بيدي ضمان 18 شهر على كابلاته</li>
 </ul>
 
 <h2>أفضل 3 كابلات USB-C نرشحها في مصر</h2>
@@ -162,7 +162,7 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <p>نايلون مضفر، 60 واط، USB 3.2 (نقل بيانات سريع)، ضمان 18 شهر. يشحن iPhone وSamsung بأقصى سرعة ممكنة. <strong>الكابل اللي بنستخدمه في كل اختباراتنا.</strong></p>
 
 <h3>🥈 <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb">جوي روم USB-C 60W</a> — أفضل قيمة</h3>
-<p>أداء قريب جداً من Anker بنصف السعر تقريباً. غلاف مقوى، 60 واط، ضمان 12 شهر. <strong>خيارنا الأول لمن يبحث عن الاقتصاد.</strong></p>
+<p>أداء قريب جداً من أنكر بنصف السعر تقريباً. غلاف مقوى، 60 واط، ضمان 12 شهر. <strong>خيارنا الأول لمن يبحث عن الاقتصاد.</strong></p>
 
 <h3>🥉 <a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb">انكر USB-C لـ Lightning SureIStrong</a> — لأصحاب iPhone القديم</h3>
 <p>MFi معتمد، يدعم الشحن السريع حتى 30 واط لـ iPhone. تضفير مزدوج يتحمل أكثر من 12,000 ثنية. الأفضل لمن لديه iPhone 14-16.</p>
@@ -179,13 +179,13 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
 <h3>المصادر</h3>
 <ul style="font-size:13px;color:#4b5563">
     <li><a href="https://www.usb.org/documents" target="_blank" rel="noopener">USB-IF — USB Type-C Cable Specification (بالإنجليزية)</a></li>
-    <li><a href="https://www.anker.com/blogs/cables" target="_blank" rel="noopener">Anker — Cable Technology Guide (بالإنجليزية)</a></li>
+    <li><a href="https://www.anker.com/blogs/cables" target="_blank" rel="noopener">أنكر — Cable Technology Guide (بالإنجليزية)</a></li>
     <li><a href="https://en.wikipedia.org/wiki/USB-C" target="_blank" rel="noopener">Wikipedia — USB-C Standard</a></li>
 </ul>
 `,
                 faq: [
-                    { question: 'هل كل كابلات USB-C زي بعض؟', answer: 'لا. الفرق كبير جداً. كابل تقليد بـ 35 جنيه شحن بـ 11.6 واط فقط من شاحن 45 واط، بينما كابل Anker شحن بـ 42 واط. الفرق في سُمك النحاس الداخلي.' },
-                    { question: 'إيه أفضل كابل USB-C في مصر؟', answer: 'أفضل كابل من حيث الأداء هو Anker PowerLine III USB-C 60W. أفضل كابل من حيث القيمة هو Joyroom USB-C 60W بنصف السعر وأداء قريب جداً.' },
+                    { question: 'هل كل كابلات USB-C زي بعض؟', answer: 'لا. الفرق كبير جداً. كابل تقليد بـ 35 جنيه شحن بـ 11.6 واط فقط من شاحن 45 واط، بينما كابل أنكر شحن بـ 42 واط. الفرق في سُمك النحاس الداخلي.' },
+                    { question: 'إيه أفضل كابل USB-C في مصر؟', answer: 'أفضل كابل من حيث الأداء هو أنكر PowerLine III USB-C 60W. أفضل كابل من حيث القيمة هو جوي روم USB-C 60W بنصف السعر وأداء قريب جداً.' },
                     { question: 'هل الكابل الطويل بيشحن أبطأ؟', answer: 'نعم لكن بفرق بسيط. كابل 3 متر بيقلل السرعة 5-10% مقارنة بكابل 1 متر. للشحن السريع استخدم 1 متر. للشحن الليلي 2-3 متر مقبول.' },
                     { question: 'إيه الفرق بين كابل USB-C عادي وكابل PD؟', answer: 'كابل عادي بيشحن بـ 15 واط ماكسيمم. كابل PD (Power Delivery) بيشحن حتى 100 واط. لازم الكابل والشاحن يدعموا PD مع بعض للشحن السريع الكامل.' },
                 ]

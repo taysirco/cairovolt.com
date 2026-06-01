@@ -33,7 +33,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
             metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 236ج لـ 799ج. دليل عملي من كايرو فولت.',
             keywords: 'شاحن سفر مصر, شاحن USB-C USB-A, شاحن الساحل الشمالي, افضل شاحن للسفر 2026, شاحن منفذين, شاحن رحلات مصر, travel charger egypt, شاحن USB-C ولا USB-A, شاحن عطلة الصيف, شاحن انكر سفر, شاحن GaN سفر',
             excerpt: 'رايح الساحل ومحتار تاخد شاحن USB-C ولا USB-A؟ دليل عملي بالأرقام — من سرعات الشحن للتوافق مع كل أجهزتك، مع أفضل الاختيارات من 236ج.',
-            quickAnswer: 'لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: Anker Nano 45W بشاشة ذكية (799ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: Joyroom 25W (342ج) USB-C واحد بيشحن أي موبايل بسرعة.',
+            quickAnswer: 'لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: أنكر Nano 45W بشاشة ذكية (799ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: جوي روم 25W (342ج) USB-C واحد بيشحن أي موبايل بسرعة.',
             content: `<p>إنت لسه بتحضّر شنطة الساحل الشمالي: مايوه، واقي شمس، شاحن... وهنا بتقف. معاك iPhone 17، سماعة Bluetooth قديمة بمنفذ Micro-USB، ساعة ذكية بكابل USB-A، وباور بانك. شاحن واحد يقدر يشحن كل ده؟ ولا محتاج تشيل 3 شواحن ومحوّلات؟ الإجابة في الفرق بين USB-C و USB-A — وده اللي هنشرحه بالأرقام.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -93,7 +93,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <h2>3 سيناريوهات عملية — إنت أنهي واحد فيهم؟</h2>
 
 <h3>🎯 السيناريو 1: كل أجهزتك حديثة (USB-C فقط)</h3>
-<p>لو معاك iPhone 15+ أو Samsung S24+ أو iPad Pro أو MacBook — كل ده USB-C. سماعتك Soundcore أو AirPods Pro 2 — USB-C. ساعتك Apple Watch — USB-C. في الحالة دي، شاحن USB-C واحد يكفيك 100%.</p>
+<p>لو معاك iPhone 15+ أو Samsung S24+ أو iPad Pro أو MacBook — كل ده USB-C. سماعتك ساوندكور أو AirPods Pro 2 — USB-C. ساعتك Apple Watch — USB-C. في الحالة دي، شاحن USB-C واحد يكفيك 100%.</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (430ج) — أصغر من علبة كبريت، بيشحن أي موبايل بأقصى سرعة.</li>
     <li style="margin-bottom:12px;">⚡ <strong>لو بتشحن جهازين:</strong> <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — منفذين USB-C.</li>
@@ -102,7 +102,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <h3>🎯 السيناريو 2: خليط من أجهزة حديثة وقديمة</h3>
 <p>لو معاك iPhone 17 (USB-C) + سماعة JBL قديمة (Micro-USB عن طريق كابل USB-A) + مروحة USB محمولة (USB-A) — محتاج شاحن بالنوعين. المشكلة: معظم الشواحن بمنفذين في مصر إما بتوزع الواط غلط (بتدّي 5W بس من منفذ USB-A) أو مش بتدعم PD.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> شاحن Anker بمنفذ USB-C PD + USB-A — بيدّي أقصى سرعة من USB-C وسرعة مقبولة (12W) من USB-A في نفس الوقت.</li>
+    <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> شاحن أنكر بمنفذ USB-C PD + USB-A — بيدّي أقصى سرعة من USB-C وسرعة مقبولة (12W) من USB-A في نفس الوقت.</li>
     <li style="margin-bottom:12px;">💡 <strong>بديل ذكي:</strong> اشتري <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر GaN 30W</a> (430ج) + كابل USB-C to USB-A OTG adapter (أقل من 50ج). بكده تشحن أجهزة USB-A من منفذ USB-C.</li>
 </ul>
 
@@ -156,7 +156,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 </div>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🛡️ <strong>استخدم شاحن بحماية فولتية (100-240V):</strong> شواحن Anker وJoyroom بتدعم 100-240V — آمنة حتى لو الكهرباء متذبذبة. الشواحن المجهولة من الشارع مفيهاش الحماية دي.</li>
+    <li style="margin-bottom:12px;">🛡️ <strong>استخدم شاحن بحماية فولتية (100-240V):</strong> شواحن أنكر وJoyroom بتدعم 100-240V — آمنة حتى لو الكهرباء متذبذبة. الشواحن المجهولة من الشارع مفيهاش الحماية دي.</li>
     <li style="margin-bottom:12px;">🌡️ <strong>متسيبش الشاحن في الشمس:</strong> حرارة الشاليه أو العربية في الصيف ممكن توصل 60°م. لو الشاحن سخن فوق 50°م قبل ما توصّله، استنى يبرد. شواحن GaN بتتحمل حرارة أعلى من الشواحن التقليدية.</li>
     <li style="margin-bottom:12px;">💧 <strong>الرطوبة والملح:</strong> هوا البحر فيه ملح بيأكسد المنافذ. بعد يوم على البلاج، نضّف منفذ الشاحن ومنفذ الموبايل بفرشاة صغيرة ناشفة قبل التوصيل.</li>
     <li style="margin-bottom:12px;">🔌 <strong>خد مشترك كهرباء صغير:</strong> الشاليهات غالباً فيها بريزة واحدة أو اتنين. مشترك كهرباء بـ surge protector (حماية من الصواعق) بيحمي أجهزتك ويوفرلك منافذ إضافية.</li>
@@ -203,11 +203,11 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
                 },
                 {
                     question: 'هل شاحن 45W آمن في كهرباء الشاليه في الساحل الشمالي؟',
-                    answer: 'أيوا — طالما الشاحن أصلي ومعتمد (Anker/Joyroom). شواحن Anker بتدعم 100-240V يعني بتتعامل مع تذبذب الكهرباء. كمان فيها ActiveShield 2.0 بيراقب الحرارة ملايين المرات يومياً. الشواحن الرخيصة المجهولة هي اللي ممكن تسبب مشاكل.'
+                    answer: 'أيوا — طالما الشاحن أصلي ومعتمد (أنكر/Joyroom). شواحن أنكر بتدعم 100-240V يعني بتتعامل مع تذبذب الكهرباء. كمان فيها ActiveShield 2.0 بيراقب الحرارة ملايين المرات يومياً. الشواحن الرخيصة المجهولة هي اللي ممكن تسبب مشاكل.'
                 },
                 {
                     question: 'لو معايا iPhone 17 و Samsung S26 — شاحن واحد يشحن الاتنين؟',
-                    answer: 'أيوا. أي شاحن USB-C PD بيشحن الاتنين. iPhone 17 بيقبل حتى 27W و Samsung S26 بيقبل حتى 45W. شاحن 25W زي Joyroom (342ج) بيشحن الاتنين بسرعة ممتازة. شاحن 45W زي Anker Nano (799ج) بيشحن Samsung S26 بأقصى سرعة Super Fast 2.0.'
+                    answer: 'أيوا. أي شاحن USB-C PD بيشحن الاتنين. iPhone 17 بيقبل حتى 27W و Samsung S26 بيقبل حتى 45W. شاحن 25W زي جوي روم (342ج) بيشحن الاتنين بسرعة ممتازة. شاحن 45W زي أنكر Nano (799ج) بيشحن Samsung S26 بأقصى سرعة Super Fast 2.0.'
                 },
                 {
                     question: 'ليه مش أشتري شاحن بمنفذ USB-A بس — أرخص وبيشحن كل حاجة؟',

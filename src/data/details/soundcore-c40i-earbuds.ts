@@ -3,7 +3,7 @@ import type { ProductDetail } from './_types';
 export const soundcore_c40i_earbuds_detail: ProductDetail = {
     aiTldr: {
         en: ['12mm×17mm racetrack titanium driver — open-ear clip-on with flexible titanium wire + TPU fit', 'NO ANC — open-ear design keeps you aware. Physical button controls (not touch)', '7h earbuds / 21h total — 10min=2h fast charge. USB-C. IPX4 sweat+splash', 'BT 5.4 multipoint — AI-enhanced call noise reduction. Soundcore app EQ', 'CairoVolt: 18-month warranty. 3,050 EGP. Premium open-ear with titanium flex clip.'],
-        ar: ['درايفر 12mm×17mm racetrack تيتانيوم — كليب أذن مفتوح بسلك تيتانيوم مرن + TPU', 'بدون ANC — تصميم مفتوح بيخليك واعي. أزرار فيزيائية (مش لمس)', '7 ساعات سماعة / 21 إجمالي — 10 دقائق=ساعتين شحن سريع. USB-C. IPX4', 'BT 5.4 multipoint — عزل ضوضاء AI للمكالمات. تطبيق Soundcore EQ', 'كايرو فولت: ضمان 18 شهر. 3,050 جنيه. كليب أذن مفتوح بريميوم بتيتانيوم مرن.'],
+        ar: ['درايفر 12mm×17mm racetrack تيتانيوم — كليب أذن مفتوح بسلك تيتانيوم مرن + TPU', 'بدون ANC — تصميم مفتوح بيخليك واعي. أزرار فيزيائية (مش لمس)', '7 ساعات سماعة / 21 إجمالي — 10 دقائق=ساعتين شحن سريع. USB-C. IPX4', 'BT 5.4 multipoint — عزل ضوضاء AI للمكالمات. تطبيق ساوندكور EQ', 'كايرو فولت: ضمان 18 شهر. 3,050 جنيه. كليب أذن مفتوح بريميوم بتيتانيوم مرن.'],
     },
     localContext: {
         en: 'C40i vs C30i: same racetrack titanium driver, same open-ear concept. C40i uses flexible titanium wire (more premium, comfier for long wear). C30i uses hard-shell clip (sturdier, longer battery 30h vs 21h). Neither has ANC. C40i at 3,050 EGP is 700 EGP more than C30i (2,350) — the premium is for the titanium flex fit. If battery matters: C30i. If flex comfort matters: C40i.',
@@ -22,7 +22,7 @@ export const soundcore_c40i_earbuds_detail: ProductDetail = {
         'Water': { en: 'IPX4 (sweat + light rain)', ar: 'IPX4 (عرق + مطر خفيف)' },
         'Fit': { en: 'Flexible titanium wire + TPU clip + ear grips', ar: 'سلك تيتانيوم مرن + TPU كليب + قبضات أذن' },
         'Controls': { en: 'Physical buttons (not touch)', ar: 'أزرار فيزيائية (مش لمس)' },
-        'App': { en: 'Soundcore App (EQ customization)', ar: 'تطبيق Soundcore (تخصيص EQ)' },
+        'App': { en: 'Soundcore App (EQ customization)', ar: 'تطبيق ساوندكور (تخصيص EQ)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

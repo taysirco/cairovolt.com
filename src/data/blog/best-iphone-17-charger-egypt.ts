@@ -27,16 +27,16 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
                 metaDescription: 'اكتشف أفضل شاحن للايفون 17 و 17 Pro في مصر. شحن سريع 30 واط من انكر. كيف تحصل على أقصى سرعة شحن مع الكابل المناسب.',
                 keywords: 'شاحن ايفون 17, شاحن ايفون, افضل شاحن ايفون, شاحن انكر ايفون, شاحن سريع ايفون, شاحن 30 واط, شاحن ايفون اصلي',
                 excerpt: 'دليل اختيار أفضل شاحن سريع للايفون 17 مع مقارنة الواطية والسرعة.',
-                quickAnswer: 'أفضل شاحن سريع لايفون 17 هو Anker 20W بسعر 375 جنيه — يشحن من 0% لـ 50% في 30 دقيقة فقط. للشحن الأسرع، Anker Nano 45W يصل لـ 50% في 22 دقيقة بسعر 790 جنيه.',
+                quickAnswer: 'أفضل شاحن سريع لايفون 17 هو أنكر 20W بسعر 375 جنيه — يشحن من 0% لـ 50% في 30 دقيقة فقط. للشحن الأسرع، أنكر Nano 45W يصل لـ 50% في 22 دقيقة بسعر 790 جنيه.',
                 content: `
             <h2> لماذا شاحن Apple الأصلي ليس الأفضل لـ iPhone 17؟</h2>
     <div class= "quick-answer-inline" style = "background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role = "complementary" aria - label="ملخص سريع">
-    <p><strong>باختصار: </strong> أفضل شاحن للايفون 17 هو Anker Nano 45W بسعر 790 جنيه — يشحن من 0% لـ 50% في 22 دقيقة فقط. للميزانية المحدودة Anker 20W بسعر 375 جنيه. لا تستخدم شواحن التقليد أبداً.</p>
+    <p><strong>باختصار: </strong> أفضل شاحن للايفون 17 هو أنكر Nano 45W بسعر 790 جنيه — يشحن من 0% لـ 50% في 22 دقيقة فقط. للميزانية المحدودة أنكر 20W بسعر 375 جنيه. لا تستخدم شواحن التقليد أبداً.</p>
     </div>
     <p> مفاجأة: Apple لا تضع شاحن في العلبة! وحتى شاحنها الرسمي 20W أصبح <strong> بطيئاً </strong> لـ iPhone 17 الذي يدعم شحن حتى 27 واط. الحل؟ شاحن انكر 30W بنصف سعر شاحن أبل الأصلي.</p>
 
     <div class="expert-callout" style = "background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-    <p><strong>📱 تجربتنا: </strong> قسنا سرعة شحن iPhone 17 Pro بـ 4 شواحن مختلفة: شاحن Apple 20W (من 0% لـ 50% في 30 دقيقة)، Anker 20W (نفس السرعة تقريباً)، Anker 30W Nano (50% في 22 دقيقة فقط!)، وشاحن تقليد (50% في 55 دقيقة مع سخونة ملحوظة). الفرق واضح.</p>
+    <p><strong>📱 تجربتنا: </strong> قسنا سرعة شحن iPhone 17 Pro بـ 4 شواحن مختلفة: شاحن Apple 20W (من 0% لـ 50% في 30 دقيقة)، أنكر 20W (نفس السرعة تقريباً)، أنكر 30W Nano (50% في 22 دقيقة فقط!)، وشاحن تقليد (50% في 55 دقيقة مع سخونة ملحوظة). الفرق واضح.</p>
     </div>
 
     <h2> أفضل شواحن ايفون 17 في مصر </h2>
@@ -49,7 +49,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     <p> <strong>السعر: </strong> 375 جنيه | <strong>القوة:</strong> 20W </p>
     <p> كافي لـ iPhone 17 العادي لكن لن يعطيك أقصى سرعة.مثالي لو عايز توفر ومش مستعجل. <a href="/anker/wall-chargers/anker-powerport-20w" class="text-blue-600 hover:underline">احصل على انكر 20W</a></p>
 
-    <h3> 3. Anker 65W GaN — شاحن واحد لكل أجهزتك </h3>
+    <h3> 3. أنكر 65W GaN — شاحن واحد لكل أجهزتك </h3>
     <p> <strong>السعر: </strong> 999 جنيه | <strong>القوة:</strong> 65W | <strong>المنافذ: </strong> 2 USB-C + 1 USB-A</p>
     <p>يشحن iPhone 17 + MacBook Air + AirPods في نفس الوقت من شاحن واحد! مثالي للمسافرين.</p>
 
@@ -77,7 +77,7 @@ export const best_iphone_17_charger_egypt: BlogArticle = {
     </div>
         `,
                 faq: [
-                    { question: 'ما أفضل شاحن للايفون 17 في مصر؟', answer: 'Anker Nano 45W بسعر 790 جنيه. يعطي iPhone 17 أقصى سرعة شحن (0→50% في 25 دقيقة). أصغر من شاحن Apple الأصلي.' },
+                    { question: 'ما أفضل شاحن للايفون 17 في مصر؟', answer: 'أنكر Nano 45W بسعر 790 جنيه. يعطي iPhone 17 أقصى سرعة شحن (0→50% في 25 دقيقة). أصغر من شاحن Apple الأصلي.' },
                     { question: 'هل شاحن 20 واط كافي للايفون 17؟', answer: 'كافي لكنه ليس الأسرع. iPhone 17 يدعم حتى 27W، فشاحن 45W يعطيك السرعة الكاملة مقابل 370 جنيه فرق فقط.' },
                     { question: 'هل شاحن انكر آمن على بطارية الايفون؟', answer: 'نعم 100%. شواحن انكر معتمدة من Apple MFi وتستخدم تقنية ActiveShield لمراقبة الحرارة 3 مليون مرة يومياً.' },
                 ]

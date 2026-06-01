@@ -78,7 +78,7 @@ export const soundcore_liberty_buds = {
     <section>
         <h2 class="text-2xl font-bold mb-3">ANC 3.0 + ترجمة AI: مميزات ذكية في حزمة مريحة</h2>
         <p class="text-gray-700 leading-relaxed">ANC 3.0 التكيّفي بيراقب بيئتك لحظياً وبيعدّل العزل. بدون سيل عميق، ANC بيقلل ~15-20dB — فعّال لهمهمة المكتب والمواصلات الخفيفة، أقل فعالية من Liberty 4 NC المحكمة لمحركات المترو. وضع الشفافية بيمرّر الأصوات بشكل طبيعي.</p>
-        <p class="text-gray-700 leading-relaxed">ترجمة AI لحظية لأكثر من 100 لغة من خلال تطبيق Soundcore — اتكلم عربي، اسمع الترجمة الإنجليزية في السماعة. BT 6.1 مع multipoint بيتصل بالموبايل واللاب مع بعض. حماية IP55 بتستحمل الغبار والعرق والمطر الخفيف.</p>
+        <p class="text-gray-700 leading-relaxed">ترجمة AI لحظية لأكثر من 100 لغة من خلال تطبيق ساوندكور — اتكلم عربي، اسمع الترجمة الإنجليزية في السماعة. BT 6.1 مع multipoint بيتصل بالموبايل واللاب مع بعض. حماية IP55 بتستحمل الغبار والعرق والمطر الخفيف.</p>
     </section>
 </div>
 
@@ -89,28 +89,28 @@ export const soundcore_liberty_buds = {
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3960 محفور جوه العلبة</li>
         <li><strong>التصميم:</strong> Liberty Buds الأصلية فيها زعانف أذن قابلة للفك بـ 4 مقاسات</li>
-        <li><strong>التطبيق:</strong> بتظهر باسم "Soundcore Liberty Buds" في التطبيق مع HearID 4.0</li>
+        <li><strong>التطبيق:</strong> بتظهر باسم "ساوندكور Liberty Buds" في التطبيق مع HearID 4.0</li>
         <li><strong>إصدار BT:</strong> 6.1 — المقلدة بتظهر 5.0 أو أقل</li>
         <li><strong>السعر:</strong> أقل من 875 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["درايفر 11mm + LDAC", "ANC 3.0 تكيّفي", "Semi-In-Ear (بدون أطراف)", "BT 6.1 Multipoint", "30 ساعة إجمالي", "10 دقائق = 4 ساعات", "IP55 غبار+مياه", "ترجمة AI 100+ لغة", "HearID 4.0 + تطبيق Soundcore", "ضمان 18 شهر"],
+            features: ["درايفر 11mm + LDAC", "ANC 3.0 تكيّفي", "Semi-In-Ear (بدون أطراف)", "BT 6.1 Multipoint", "30 ساعة إجمالي", "10 دقائق = 4 ساعات", "IP55 غبار+مياه", "ترجمة AI 100+ لغة", "HearID 4.0 + تطبيق ساوندكور", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور Liberty Buds — Semi-In-Ear ANC 3.0",
             metaDesc: "اشتري سماعة ساوندكور Liberty Buds في مصر — 1,750 جنيه. راحة semi-in-ear، 11mm LDAC، ANC 3.0، BT 6.1، ترجمة AI، IP55، 30 ساعة. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
                     { question: "يعني إيه semi-in-ear؟ إيه الفرق عن السماعات العادية؟", answer: "Semi-in-ear: بدون أطراف سيليكون بتتدفع جوه قناة الودان. بتستقر في الودان الخارجية. زعانف قابلة للفك بتثبّتها. صفر ضغط. المقايضة: ANC أضعف من السماعات المحكمة لأن مفيش سيل عميق." },
                     { question: "Liberty Buds ولا Liberty 4 NC — أشتري أنهي؟", answer: "Liberty Buds: راحة semi-in-ear، ANC أضعف (~15dB)، BT 6.1، ترجمة AI، 1,750 جنيه. Liberty 4 NC: in-ear محكمة، ANC قوي (35dB)، 50 ساعة، 2,999 جنيه. اختار Buds للراحة. اختار 4 NC للعزل." },
-                    { question: "ترجمة AI بتشتغل مع العربي؟", answer: "أيوه — عربي من/إلى إنجليزي و100+ لغة تانية من تطبيق Soundcore. العبارات البسيطة بتتترجم بدقة مع ~1.5 ثانية تأخير. الجمل المعقدة: ~70% دقة. مفيدة للسفر، مش للترجمة الاحترافية." },
+                    { question: "ترجمة AI بتشتغل مع العربي؟", answer: "أيوه — عربي من/إلى إنجليزي و100+ لغة تانية من تطبيق ساوندكور. العبارات البسيطة بتتترجم بدقة مع ~1.5 ثانية تأخير. الجمل المعقدة: ~70% دقة. مفيدة للسفر، مش للترجمة الاحترافية." },
                     { question: "Liberty Buds بتدعم LDAC على الايفون؟", answer: "لأ — Apple مش بتدعم LDAC على iOS. Liberty Buds بتستخدم AAC على iPhone (لسه جودة كويسة). LDAC Hi-Res متاح على أندرويد (سامسونج، بيكسل، شاومي)." },
                     { question: "ثابتة في التمارين؟", answer: "زعانف الأذن القابلة للفك بـ 4 مقاسات بتوفر تثبيت آمن للمشي والجري الخفيف والجيم. IP55 بتستحمل العرق والغبار. مش مُرشحة للجري المكثف — التصميم semi-in-ear ممكن يتحرك في النشاط العنيف." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore liberty buds, anker liberty buds, liberty buds egypt, soundcore semi in ear, liberty buds review, liberty buds vs liberty 4 nc, ساوندكور ليبرتي بادز, سماعة semi-in-ear مصر, سعر liberty buds مصر", mainTerm: "soundcore liberty buds" },
+    meta: { keywords: "ساوندكور liberty buds, أنكر liberty buds, liberty buds egypt, ساوندكور semi in ear, liberty buds review, liberty buds vs liberty 4 nc, ساوندكور ليبرتي بادز, سماعة semi-in-ear مصر, سعر liberty buds مصر", mainTerm: "soundcore liberty buds" },
 
     expertOpinion: {
         en: "Liberty Buds fill a gap no other Soundcore TWS fills: semi-in-ear comfort with premium features (LDAC, ANC 3.0, AI Translation, BT 6.1). At 1,750 EGP, they're for users who prioritize comfort over maximum ANC. Trade-off vs Liberty 4 NC: weaker noise isolation (~15dB vs 35dB) but zero ear fatigue.",
-        ar: "Liberty Buds بتملا فراغ مفيش سماعة Soundcore TWS تانية بتملاه: راحة semi-in-ear مع مميزات بريميوم (LDAC، ANC 3.0، ترجمة AI، BT 6.1). بـ 1,750 جنيه، للمستخدمين اللي بيفضّلوا الراحة على أقصى عزل. المقايضة مقابل Liberty 4 NC: عزل أضعف (~15dB مقابل 35dB) بس صفر إرهاق أذن."
+        ar: "Liberty Buds بتملا فراغ مفيش سماعة ساوندكور TWS تانية بتملاه: راحة semi-in-ear مع مميزات بريميوم (LDAC، ANC 3.0، ترجمة AI، BT 6.1). بـ 1,750 جنيه، للمستخدمين اللي بيفضّلوا الراحة على أقصى عزل. المقايضة مقابل Liberty 4 NC: عزل أضعف (~15dB مقابل 35dB) بس صفر إرهاق أذن."
     }
 };

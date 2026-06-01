@@ -64,7 +64,7 @@ export const soundcore_liberty_4_nc_reviews: ProductReview[] = [
         datePublished: '2026-01-30',
         reviewBody: {
             en: 'Solid earbuds overall. Bass could be deeper for EDM but Soundcore app EQ helps.',
-            ar: 'سماعات قوية بشكل عام. الباس ممكن يكون أعمق للـ EDM بس تطبيق Soundcore بيساعد.'
+            ar: 'سماعات قوية بشكل عام. الباس ممكن يكون أعمق للـ EDM بس تطبيق ساوندكور بيساعد.'
         },
         pros: { en: ['App EQ customization', 'Long battery', 'IPX5 for gym'], ar: ['تخصيص EQ بالتطبيق', 'بطارية طويلة', 'IPX5 للجيم'] },
         cons: { en: ['Bass could be deeper for EDM'], ar: ['الباس ممكن يكون أعمق للـ EDM'] },

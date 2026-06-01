@@ -73,7 +73,7 @@ export const soundcore_p40i_earbuds = {
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">درايفر 11mm مركب + BassUp: مصمم لعشاق الباس</h2>
-        <p class="text-gray-700 leading-relaxed">درايفر 11mm مركب بيقدم صوت بباس قوي مضبوط بتكنولوجيا BassUp. الغشاء المركب بيستخدم مواد متعددة لفصل الباس عن الميد، بيخلي الأصوات واضحة حتى على صوت عالي. قابل للتخصيص من تطبيق Soundcore.</p>
+        <p class="text-gray-700 leading-relaxed">درايفر 11mm مركب بيقدم صوت بباس قوي مضبوط بتكنولوجيا BassUp. الغشاء المركب بيستخدم مواد متعددة لفصل الباس عن الميد، بيخلي الأصوات واضحة حتى على صوت عالي. قابل للتخصيص من تطبيق ساوندكور.</p>
         <p class="text-gray-700 leading-relaxed">بلوتوث 5.3 مع multipoint بيوصل الموبايل + اللاب مع بعض. 60 ساعة بطارية إجمالي — 12 ساعة سماعة بدون ANC. 10 دقايق شحن سريع = ساعتين. علبة USB-C بتتحول لحامل موبايل بكيك ستاند مدمج.</p>
     </section>
     <section>
@@ -89,9 +89,9 @@ export const soundcore_p40i_earbuds = {
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3955 محفور جوه العلبة</li>
-        <li><strong>اللوجو:</strong> شعار Soundcore محفور بالليزر مش مطبوع</li>
-        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق Soundcore</li>
-        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من Anker</li>
+        <li><strong>اللوجو:</strong> شعار ساوندكور محفور بالليزر مش مطبوع</li>
+        <li><strong>الربط:</strong> بتظهر باسمها في تطبيق ساوندكور</li>
+        <li><strong>التغليف:</strong> علبة مختومة بختم هولوجرافيك من أنكر</li>
         <li><strong>السعر:</strong> أقل من 1026 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
@@ -108,7 +108,7 @@ export const soundcore_p40i_earbuds = {
         }
     },
 
-    meta: { keywords: "soundcore p40i, anker p40i, soundcore p40i egypt, p40i earbuds, p40i price, soundcore p40i 60h battery, p40i phone stand case, 6 mic earbuds egypt, longest battery earbuds egypt, ساوندكور p40i, سماعة انكر p40i, سعر p40i مصر, ايربودز p40i, أطول بطارية سماعة مصر, 60 ساعة بطارية, علبة حامل موبايل", mainTerm: "soundcore p40i" },
+    meta: { keywords: "ساوندكور p40i, أنكر p40i, ساوندكور p40i egypt, p40i earbuds, p40i price, ساوندكور p40i 60h battery, p40i phone stand case, 6 mic earbuds egypt, longest battery earbuds egypt, ساوندكور p40i, سماعة انكر p40i, سعر p40i مصر, ايربودز p40i, أطول بطارية سماعة مصر, 60 ساعة بطارية, علبة حامل موبايل", mainTerm: "soundcore p40i" },
 
     expertOpinion: {
         en: "P40i is the battery king of Soundcore TWS at 60h total. 11mm composite BassUp, adaptive ANC, 6-mic AI calls, and a phone stand case at 2,052 EGP. Trade-off: ANC weaker than R50i NC (42dB). Pick P40i for battery, R50i NC for ANC.",

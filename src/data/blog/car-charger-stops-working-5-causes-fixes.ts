@@ -157,7 +157,7 @@ export const car_charger_stops_working_5_causes_fixes: BlogArticle = {
     <ul style="margin:0;padding-right:20px;color:#78350f">
         <li><a href="https://support.apple.com/en-us/102385" target="_blank" rel="noopener" style="color:#1d4ed8">Apple — إرشادات الأمان ودرجات الحرارة لشحن هواتف الآيفون</a></li>
         <li><a href="https://www.carcare.org" target="_blank" rel="noopener" style="color:#1d4ed8">Car Care Council — صيانة الفيوزات والكهرباء في السيارات الحديثة</a></li>
-        <li><a href="https://www.anker.com" target="_blank" rel="noopener" style="color:#1d4ed8">Anker — تقنيات حماية البطاريات ActiveShield 2.0 والتحكم الحراري</a></li>
+        <li><a href="https://www.anker.com" target="_blank" rel="noopener" style="color:#1d4ed8">أنكر — تقنيات حماية البطاريات ActiveShield 2.0 والتحكم الحراري</a></li>
         <li>دليلنا: <a href="/blog/best-car-charger-egypt-2026" style="color:#1d4ed8">أفضل شاحن سيارة في مصر 2026</a></li>
         <li>دليلنا: <a href="/blog/car-charger-3-devices-power-distribution" style="color:#1d4ed8">ثلاث أجهزة على شاحن سيارة واحد — فن توزيع القدرة الذكي</a></li>
     </ul>

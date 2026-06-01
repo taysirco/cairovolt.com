@@ -8,7 +8,7 @@ export const soundcore_p20i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-03-12',
         reviewBody: {
             en: 'At 699 EGP, P20i is the absolute king of budget earbuds in Egypt. BassUp makes Mahraganat and Shaabi sound incredible — punchy bass that you actually feel. 30h battery means I charge weekly. The Soundcore app with 22 EQ presets is insane for the price. My friends with 2,000+ EGP earbuds are jealous.',
-            ar: 'بـ 699 جنيه، P20i ملك سماعات البادجت في مصر بدون منازع. BassUp بتخلي المهرجانات والشعبي صوتهم خيالي — باس قوي بتحسّه فعلاً. 30 ساعة بطارية يعني بشحن أسبوعياً. تطبيق Soundcore بـ 22 بريست EQ مجنون بالسعر ده. صحابي اللي سماعاتهم بـ 2,000+ جنيه حاسدينني.'
+            ar: 'بـ 699 جنيه، P20i ملك سماعات البادجت في مصر بدون منازع. BassUp بتخلي المهرجانات والشعبي صوتهم خيالي — باس قوي بتحسّه فعلاً. 30 ساعة بطارية يعني بشحن أسبوعياً. تطبيق ساوندكور بـ 22 بريست EQ مجنون بالسعر ده. صحابي اللي سماعاتهم بـ 2,000+ جنيه حاسدينني.'
         },
         pros: { en: ['699 EGP absolute budget king', 'BassUp for Mahraganat/Shaabi insane', '22 EQ presets in app'], ar: ['699 جنيه ملك البادجت', 'BassUp للمهرجانات/الشعبي مجنون', '22 بريست EQ في التطبيق'] },
     },
@@ -30,7 +30,7 @@ export const soundcore_p20i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-02-20',
         reviewBody: {
             en: 'Honest: the bass is too much on default. Arabic pop sounds boomy. But the Soundcore app EQ fixed it — reduced bass 3 notches and increased mids. Now vocals are clear. The V-shaped default tuning won\'t suit everyone. CairoVolt shipped to Mansoura in 2 days. Great value for 699 EGP.',
-            ar: 'بصراحة: الباس كتير على الافتراضي. البوب العربي صوته بومي. بس تطبيق Soundcore EQ حلّه — قلّلت الباس 3 درجات وزوّدت الميد. دلوقتي الأصوات واضحة. التيونينج الافتراضي V-shaped مش هيناسب الكل. كايرو فولت وصّلت للمنصورة في يومين. قيمة ممتازة بـ 699 جنيه.'
+            ar: 'بصراحة: الباس كتير على الافتراضي. البوب العربي صوته بومي. بس تطبيق ساوندكور EQ حلّه — قلّلت الباس 3 درجات وزوّدت الميد. دلوقتي الأصوات واضحة. التيونينج الافتراضي V-shaped مش هيناسب الكل. كايرو فولت وصّلت للمنصورة في يومين. قيمة ممتازة بـ 699 جنيه.'
         },
         pros: { en: ['App EQ fixes default bass', 'Great value at 699 EGP', 'Shipped to Delta in 2 days'], ar: ['EQ في التطبيق بيحل الباس', 'قيمة ممتازة بـ 699', 'وصّلت للدلتا في يومين'] },
         cons: { en: ['Default tuning too bass-heavy', 'Requires app EQ adjustment'], ar: ['التيونينج الافتراضي ثقيل باس', 'محتاج تعديل EQ من التطبيق'] },

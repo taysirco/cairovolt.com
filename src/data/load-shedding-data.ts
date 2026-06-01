@@ -159,7 +159,7 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
         outageHours: 2,
         severityAr: 'متوسطة — انقطاعات مجدولة 2-3 ساعات',
         severityEn: 'Moderate — Scheduled 2-3 hour outages',
-        tipAr: 'أكتر مشكلة في القاهرة هي إن الراوتر بيفصل كل ما النور بيقطع. يعني لو بتشتغل من البيت أو الأولاد عندهم كلاسات أونلاين، الموضوع بيبقى كارثة. باور بانك Anker 737 عندنا في المختبر شغّل راوتر WE لمدة 14 ساعة من غير ما يعمل ريستارت — يعني حتى لو القطع 3 مرات في اليوم، النت مش هيقطع عندك.',
+        tipAr: 'أكتر مشكلة في القاهرة هي إن الراوتر بيفصل كل ما النور بيقطع. يعني لو بتشتغل من البيت أو الأولاد عندهم كلاسات أونلاين، الموضوع بيبقى كارثة. باور بانك أنكر 737 عندنا في المختبر شغّل راوتر WE لمدة 14 ساعة من غير ما يعمل ريستارت — يعني حتى لو القطع 3 مرات في اليوم، النت مش هيقطع عندك.',
         tipEn: 'The biggest problem in Cairo is your router dropping every power cut. If you work from home or kids have online classes, it\'s a disaster. Our lab-tested Anker 737 kept a WE router running 14 hours straight without a single restart.',
         problemAr: 'أهل القاهرة الكبرى بيعانوا إن النت بيفصل أثناء تخفيف الأحمال — خصوصاً اللي شغالين من البيت أو بيذاكروا أونلاين.',
         problemEn: 'Greater Cairo residents lose internet during load-shedding — hitting remote workers and online students the hardest.',
@@ -169,7 +169,7 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
         outageHours: 3,
         severityAr: 'متوسطة إلى عالية — 3-4 ساعات يومياً',
         severityEn: 'Moderate to High — 3-4 hours daily',
-        tipAr: 'في الدلتا، الناس بتعتمد على النت في التسويق الزراعي والتواصل مع المصدّرين. لو النت فصل، الصفقات بتطير. Anker 521 ببطارية LiFePO4 بيشغل الراوتر مع مروحة تبريد 18 ساعة — ده حل مثالي للمزارع والمخازن اللي مش فيها كهرباء مستقرة.',
+        tipAr: 'في الدلتا، الناس بتعتمد على النت في التسويق الزراعي والتواصل مع المصدّرين. لو النت فصل، الصفقات بتطير. أنكر 521 ببطارية LiFePO4 بيشغل الراوتر مع مروحة تبريد 18 ساعة — ده حل مثالي للمزارع والمخازن اللي مش فيها كهرباء مستقرة.',
         tipEn: 'In the Delta, people rely on internet for agricultural marketing and exporter communication. Lost connection means lost deals. Anker 521 with LiFePO4 runs router + cooling fan for 18 hours — perfect for farms and warehouses.',
         problemAr: 'محافظات الدلتا الانقطاع فيها بيطول بسبب الحمل الزراعي الصيفي. كمان مشاكل تذبذب الجهد الكهربائي منتشرة أكتر من العاصمة.',
         problemEn: 'Delta governorates face extended outages from summer agricultural load, plus more frequent voltage fluctuation issues than the capital.',
@@ -179,7 +179,7 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
         outageHours: 2,
         severityAr: 'متوسطة — 2-3 ساعات مع استقرار نسبي',
         severityEn: 'Moderate — 2-3 hours with relative stability',
-        tipAr: 'منطقة القناة فيها حركة تجارية وصناعية كبيرة. لو عندك محل صغير أو كاشير إلكتروني، لازم يفضل شغال وقت القطع. Anker 737 بيشغلك الكاشير والراوتر معاً طوال فترة القطع — يعني مش هتخسر أي عميل.',
+        tipAr: 'منطقة القناة فيها حركة تجارية وصناعية كبيرة. لو عندك محل صغير أو كاشير إلكتروني، لازم يفضل شغال وقت القطع. أنكر 737 بيشغلك الكاشير والراوتر معاً طوال فترة القطع — يعني مش هتخسر أي عميل.',
         tipEn: 'Canal Zone has heavy commercial and industrial activity. If you run a small shop with electronic POS, it must stay on. Anker 737 runs POS + router together throughout any outage.',
         problemAr: 'أصحاب المحلات في منطقة القناة بيخسروا مبيعات لما الكهرباء بتقطع وأجهزة نقاط البيع بتوقف.',
         problemEn: 'Shop owners in the Canal Zone lose sales when power cuts shut down their POS systems.',
@@ -189,7 +189,7 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
         outageHours: 4,
         severityAr: 'عالية — 4-6 ساعات يومياً في الصيف',
         severityEn: 'High — 4-6 hours daily in summer',
-        tipAr: 'الصعيد بيواجه أصعب ظروف في مصر كلها: انقطاع ممكن يوصل 6 ساعات مع حرارة فوق 45 درجة. المروحة مش رفاهية هنا، دي ضرورة حياتية. Anker 521 ببطارية LiFePO4 — اللي بتستحمل الحرارة العالية — جربناها في 39 درجة وشغّلت الراوتر والمروحة 18 ساعة من غير مشاكل.',
+        tipAr: 'الصعيد بيواجه أصعب ظروف في مصر كلها: انقطاع ممكن يوصل 6 ساعات مع حرارة فوق 45 درجة. المروحة مش رفاهية هنا، دي ضرورة حياتية. أنكر 521 ببطارية LiFePO4 — اللي بتستحمل الحرارة العالية — جربناها في 39 درجة وشغّلت الراوتر والمروحة 18 ساعة من غير مشاكل.',
         tipEn: 'Upper Egypt faces the toughest conditions: outages up to 6 hours with 45°C+ heat. A fan isn\'t a luxury here, it\'s survival. We tested Anker 521 with heat-resistant LiFePO4 at 39°C — ran router + fan for 18 hours.',
         problemAr: 'الصعيد عنده أطول فترات قطع في الجمهورية. الحر الشديد بيخلي المروحة والتكييف مسألة حياة أو موت مش مجرد راحة.',
         problemEn: 'Upper Egypt endures the longest blackouts nationwide. Extreme heat makes cooling a matter of survival, not comfort.',
@@ -199,7 +199,7 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
         outageHours: 2,
         severityAr: 'موسمية — بتزيد في الصيف مع ذروة السياحة',
         severityEn: 'Seasonal — spikes in summer with tourism peak',
-        tipAr: 'لو رايح الساحل أو عندك شاليه، أكيد اتعرضت لقطع الكهرباء وقت الذروة. الأولاد بيزهقوا والموبايلات بتخلص. Joyroom 20K بيشحنلك 3 موبايلات مع بعض لمدة 6 ساعات — يكفّي العيلة كلها من غير خناق.',
+        tipAr: 'لو رايح الساحل أو عندك شاليه، أكيد اتعرضت لقطع الكهرباء وقت الذروة. الأولاد بيزهقوا والموبايلات بتخلص. جوي روم 20K بيشحنلك 3 موبايلات مع بعض لمدة 6 ساعات — يكفّي العيلة كلها من غير خناق.',
         tipEn: 'Heading to the coast or own a chalet? Summer peak outages are inevitable. Joyroom 20K charges 3 phones simultaneously for 6 hours — covers the whole family without arguments.',
         problemAr: 'المصايف على الساحل بتعاني من قطع حاد في ذروة الصيف. الشاليهات والفنادق الصغيرة محتاجة حل طوارئ عملي.',
         problemEn: 'Coastal resorts suffer sharp outages at summer peak. Chalets and small hotels need practical emergency backup.',
@@ -209,7 +209,7 @@ const REGION_OUTAGE_DATA: Record<Governorate['region'], {
         outageHours: 3,
         severityAr: 'متغيرة — انقطاعات غير منتظمة وساعات بتطول',
         severityEn: 'Variable — irregular with extended durations',
-        tipAr: 'المناطق الصحراوية والحدودية مفيش فيها ضمان إن الكهرباء هتيجي بكرة. عشان كده محتاج جهاز يعيش معاك سنين مش شهور. Anker 521 ببطارية LiFePO4 بتستحمل فوق 3000 دورة شحن وما بتتأثرش بالحرارة — استثمار طويل المدى مش حل مؤقت.',
+        tipAr: 'المناطق الصحراوية والحدودية مفيش فيها ضمان إن الكهرباء هتيجي بكرة. عشان كده محتاج جهاز يعيش معاك سنين مش شهور. أنكر 521 ببطارية LiFePO4 بتستحمل فوق 3000 دورة شحن وما بتتأثرش بالحرارة — استثمار طويل المدى مش حل مؤقت.',
         tipEn: 'Desert and border zones have no guarantee power will return on schedule. You need a device that lasts years, not months. Anker 521\'s LiFePO4 handles 3000+ charge cycles in extreme heat — a long-term investment.',
         problemAr: 'المناطق الصحراوية الكهرباء فيها غير مستقرة أصلاً. الانقطاع ممكن يحصل في أي وقت ويمتد لساعات طويلة.',
         problemEn: 'Desert regions have inherently unstable power. Outages can strike anytime and stretch for many hours.',
@@ -266,15 +266,15 @@ function generateVoiceFaqsAr(
         cairo: [
             {
                 question: `النور بيقطع والنت بيفصل في ${govName} — أعمل إيه؟`,
-                answer: `جرّبنا في مختبر كايرو فولت باور بانك Anker 737 على راوتر WE VDSL وشغّله ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة من غير ما يعمل ريستارت واحد. يعني لو بتشتغل من البيت في ${govName}، النت مش هيقطع عندك حتى لو الكهرباء قطعت 3 مرات في اليوم. بنوصله لحد بابك خلال ${deliveryDays} يوم.`,
+                answer: `جرّبنا في مختبر كايرو فولت باور بانك أنكر 737 على راوتر WE VDSL وشغّله ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة من غير ما يعمل ريستارت واحد. يعني لو بتشتغل من البيت في ${govName}، النت مش هيقطع عندك حتى لو الكهرباء قطعت 3 مرات في اليوم. بنوصله لحد بابك خلال ${deliveryDays} يوم.`,
             },
             {
                 question: `أنا عندي عيال بيذاكروا أونلاين في ${govName} — إيه الحل الاقتصادي؟`,
-                answer: `Joyroom 20000 بيشحن 3 تليفونات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — ده يكفّي الأولاد يخلّصوا المذاكرة وانت مطمن. سعره ${PRODUCTS.joyroom20k.price} جنيه بس ومتاح بالدفع عند الاستلام في ${govName}. ولو عايز الراوتر كمان يفضل شغال، ابقى خد Anker 737.`,
+                answer: `جوي روم 20000 بيشحن 3 تليفونات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — ده يكفّي الأولاد يخلّصوا المذاكرة وانت مطمن. سعره ${PRODUCTS.joyroom20k.price} جنيه بس ومتاح بالدفع عند الاستلام في ${govName}. ولو عايز الراوتر كمان يفضل شغال، ابقى خد أنكر 737.`,
             },
             {
                 question: `الشاحن بتاعي باظ بعد ما الكهرباء رجعت فجأة — ده طبيعي؟`,
-                answer: `أيوة ده بيحصل كتير. لما الكهرباء بترجع، الجهد بيتذبذب بين ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} وده بيخرّب الشواحن الرخيصة. شاحن Anker Nano 30W بتقنية GaN جربناه في المختبر مع التذبذب ده ومبيأثرش على الموبايل خالص — ومعاه ضمان 18 شهر.`,
+                answer: `أيوة ده بيحصل كتير. لما الكهرباء بترجع، الجهد بيتذبذب بين ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} وده بيخرّب الشواحن الرخيصة. شاحن أنكر Nano 30W بتقنية GaN جربناه في المختبر مع التذبذب ده ومبيأثرش على الموبايل خالص — ومعاه ضمان 18 شهر.`,
             },
             {
                 question: `كايرو فولت بتوصلوا لـ ${govName} ولا لازم أنزل أشتري؟`,
@@ -284,15 +284,15 @@ function generateVoiceFaqsAr(
         delta: [
             {
                 question: `باور بانك يشغل الراوتر أثناء قطع الكهرباء في ${govName}؟`,
-                answer: `Anker 737 هو اللي بنرشّحه لأهل الدلتا. جربناه في مختبرنا وشغّل راوتر WE VDSL ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة متواصلة. لو بتعتمد على النت في شغل الزراعة أو التصدير، ده بيضمنلك تفضل متصل طول فترة القطع. التوصيل لـ ${govName} خلال ${deliveryDays} أيام.`,
+                answer: `أنكر 737 هو اللي بنرشّحه لأهل الدلتا. جربناه في مختبرنا وشغّل راوتر WE VDSL ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة متواصلة. لو بتعتمد على النت في شغل الزراعة أو التصدير، ده بيضمنلك تفضل متصل طول فترة القطع. التوصيل لـ ${govName} خلال ${deliveryDays} أيام.`,
             },
             {
                 question: `عندي مزرعة في ${govName} والكهرباء بتقطع كتير — إيه الحل؟`,
-                answer: `Anker 521 PowerHouse ده مش باور بانك عادي — ده UPS منزلي ببطارية LiFePO4. بيشغل راوتر ومروحة تبريد مع بعض ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة. البطارية بتستحمل 3000 دورة شحن وبتقاوم الحرارة. مناسب جداً للمزارع والمخازن في الدلتا.`,
+                answer: `أنكر 521 PowerHouse ده مش باور بانك عادي — ده UPS منزلي ببطارية LiFePO4. بيشغل راوتر ومروحة تبريد مع بعض ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة. البطارية بتستحمل 3000 دورة شحن وبتقاوم الحرارة. مناسب جداً للمزارع والمخازن في الدلتا.`,
             },
             {
                 question: `الجهد الكهربائي بيتذبذب في ${govName} — ده بيأثر على الموبايل؟`,
-                answer: `في الدلتا تذبذب الجهد مشكلة شايعة. الشواحن العادية ممكن تعمل "تخريف تاتش" في الموبايل. شاحن Anker Nano 30W بتقنية GaN بيتحمل تذبذب من ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} وبيحافظ على تيار ثابت — جربناه في المختبر بنفسنا.`,
+                answer: `في الدلتا تذبذب الجهد مشكلة شايعة. الشواحن العادية ممكن تعمل "تخريف تاتش" في الموبايل. شاحن أنكر Nano 30W بتقنية GaN بيتحمل تذبذب من ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} وبيحافظ على تيار ثابت — جربناه في المختبر بنفسنا.`,
             },
             {
                 question: `هل ممكن توصلوا لـ ${govName}؟`,
@@ -302,15 +302,15 @@ function generateVoiceFaqsAr(
         upper: [
             {
                 question: `الكهرباء بتقطع ${regionData.outageHours} ساعات في ${govName} والحر شديد — إيه الحل؟`,
-                answer: `الصعيد محتاج حاجة تستحمل الحرارة العالية. Anker 521 PowerHouse ببطارية LiFePO4 — النوع ده من البطاريات مصمم يشتغل في 45 درجة من غير ما يتأثر. جربناه في مختبرنا في 39 درجة وشغّل راوتر ومروحة 40 وات ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة. ده الحل اللي بيفرق في الصعيد فعلاً.`,
+                answer: `الصعيد محتاج حاجة تستحمل الحرارة العالية. أنكر 521 PowerHouse ببطارية LiFePO4 — النوع ده من البطاريات مصمم يشتغل في 45 درجة من غير ما يتأثر. جربناه في مختبرنا في 39 درجة وشغّل راوتر ومروحة 40 وات ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة. ده الحل اللي بيفرق في الصعيد فعلاً.`,
             },
             {
                 question: `محتاج حاجة تشحن موبايلات العيلة كلها في ${govName} وقت القطع`,
-                answer: `Joyroom 20000 بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. يعني أبوك وأمك وانت — الكل يقدر يتصل ويستخدم الموبايل عادي. سعره ${PRODUCTS.joyroom20k.price} جنيه ومتاح في ${govName} بالتوصيل والدفع لما يوصلك.`,
+                answer: `جوي روم 20000 بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. يعني أبوك وأمك وانت — الكل يقدر يتصل ويستخدم الموبايل عادي. سعره ${PRODUCTS.joyroom20k.price} جنيه ومتاح في ${govName} بالتوصيل والدفع لما يوصلك.`,
             },
             {
                 question: `باور بانك يشغل الراوتر في ${govName} من غير ما يقطع؟`,
-                answer: `Anker 737 أثبت في مختبرنا إنه بيشغل الراوتر ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة بدون ريستارت واحد. ده يعني حتى في الصعيد مع قطع 4-6 ساعات، النت عندك مش هيتأثر. بيوصل ${govName} خلال ${deliveryDays} أيام.`,
+                answer: `أنكر 737 أثبت في مختبرنا إنه بيشغل الراوتر ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة بدون ريستارت واحد. ده يعني حتى في الصعيد مع قطع 4-6 ساعات، النت عندك مش هيتأثر. بيوصل ${govName} خلال ${deliveryDays} أيام.`,
             },
             {
                 question: `بتوصلوا لحد ${govName} في الصعيد؟`,
@@ -320,15 +320,15 @@ function generateVoiceFaqsAr(
         canal: [
             {
                 question: `عندي محل في ${govName} والكاشير بيقف لما الكهرباء بتقطع`,
-                answer: `Anker 737 بيشغلك الكاشير الإلكتروني والراوتر مع بعض طول فترة الانقطاع. في اختبارات مختبرنا، شغّل راوتر WE لوحده ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة. ده معناه إنك مش هتخسر ولا عميل واحد وقت القطع. بنوصله لـ ${govName} خلال ${deliveryDays} أيام.`,
+                answer: `أنكر 737 بيشغلك الكاشير الإلكتروني والراوتر مع بعض طول فترة الانقطاع. في اختبارات مختبرنا، شغّل راوتر WE لوحده ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة. ده معناه إنك مش هتخسر ولا عميل واحد وقت القطع. بنوصله لـ ${govName} خلال ${deliveryDays} أيام.`,
             },
             {
                 question: `إيه أرخص حل لعيلتي في ${govName} وقت الانقطاع؟`,
-                answer: `Joyroom 20000 سعره ${PRODUCTS.joyroom20k.price} جنيه وبيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. ده أحسن حل اقتصادي للعيلة — الكل يقدر يشحن تليفونه. والشحن لحد بيتك في ${govName}.`,
+                answer: `جوي روم 20000 سعره ${PRODUCTS.joyroom20k.price} جنيه وبيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. ده أحسن حل اقتصادي للعيلة — الكل يقدر يشحن تليفونه. والشحن لحد بيتك في ${govName}.`,
             },
             {
                 question: `الشواحن بتبوظ الموبايل لما الكهرباء بتتذبذب في ${govName}؟`,
-                answer: `لو بتستخدم شاحن صيني رخيص، أيوة ممكن يعمل "تخريف تاتش" أو فوق كده يسبب حريق. شاحن Anker Nano 30W GaN اتجرب في المختبر مع تذبذب ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} ونجح — تيار ثابت وآمن. ومعاه ضمان 18 شهر.`,
+                answer: `لو بتستخدم شاحن صيني رخيص، أيوة ممكن يعمل "تخريف تاتش" أو فوق كده يسبب حريق. شاحن أنكر Nano 30W GaN اتجرب في المختبر مع تذبذب ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} ونجح — تيار ثابت وآمن. ومعاه ضمان 18 شهر.`,
             },
             {
                 question: `كايرو فولت بتوصلوا منطقة القناة؟`,
@@ -338,15 +338,15 @@ function generateVoiceFaqsAr(
         coastal: [
             {
                 question: `رايح الساحل و${govName} فيها قطع كهرباء — أعمل إيه؟`,
-                answer: `Joyroom 20000 هو الحل العملي للساحل. بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — يكفّي العيلة كلها على البحر. سعره ${PRODUCTS.joyroom20k.price} جنيه بس وبيوصل ${govName} خلال ${deliveryDays} أيام.`,
+                answer: `جوي روم 20000 هو الحل العملي للساحل. بيشحن 3 موبايلات في نفس الوقت لمدة ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات — يكفّي العيلة كلها على البحر. سعره ${PRODUCTS.joyroom20k.price} جنيه بس وبيوصل ${govName} خلال ${deliveryDays} أيام.`,
             },
             {
                 question: `عندي شاليه في ${govName} ومحتاج الراوتر يفضل شغال`,
-                answer: `Anker 737 بيشغل الراوتر ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة متواصلة — ده يغطي أي قطع موسمي في الساحل. جربناه في مختبرنا في حرارة 37 درجة وصمد. بنوصله لـ ${govName} بالدفع عند الاستلام.`,
+                answer: `أنكر 737 بيشغل الراوتر ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة متواصلة — ده يغطي أي قطع موسمي في الساحل. جربناه في مختبرنا في حرارة 37 درجة وصمد. بنوصله لـ ${govName} بالدفع عند الاستلام.`,
             },
             {
                 question: `أحسن شاحن آمن للساحل ما يبوظش الموبايل؟`,
-                answer: `Anker Nano 45W بتقنية GaN — اختبرناه مع تذبذب كهرباء ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} واشتغل زي الفل. سعره ${PRODUCTS.nano30w.price} جنيه ومعاه ضمان 18 شهر. أحسن من إنك تجيب شاحن من على الكورنيش ويبوظلك الموبايل.`,
+                answer: `أنكر Nano 45W بتقنية GaN — اختبرناه مع تذبذب كهرباء ${LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE} واشتغل زي الفل. سعره ${PRODUCTS.nano30w.price} جنيه ومعاه ضمان 18 شهر. أحسن من إنك تجيب شاحن من على الكورنيش ويبوظلك الموبايل.`,
             },
             {
                 question: `بتوصلوا ${govName} على الساحل؟`,
@@ -356,15 +356,15 @@ function generateVoiceFaqsAr(
         desert: [
             {
                 question: `الكهرباء مش مستقرة خالص في ${govName} — محتاج حاجة تدوم`,
-                answer: `في المناطق الصحراوية محتاج جهاز يتحمل الظروف الصعبة ويعيش معاك سنين. Anker 521 ببطارية LiFePO4 بتستحمل فوق 3000 دورة شحن ومابتتأثرش بالحرارة. اختبرناه في 39 درجة وشغّل راوتر ومروحة ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة.`,
+                answer: `في المناطق الصحراوية محتاج جهاز يتحمل الظروف الصعبة ويعيش معاك سنين. أنكر 521 ببطارية LiFePO4 بتستحمل فوق 3000 دورة شحن ومابتتأثرش بالحرارة. اختبرناه في 39 درجة وشغّل راوتر ومروحة ${LAB_CONSTANTS.ANKER_521_UPS_HOURS} ساعة.`,
             },
             {
                 question: `محتاج أشحن موبايلات في ${govName} والكهرباء بتيجي وتروح`,
-                answer: `Joyroom 20000 هو أحسن حل عملي — بيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. سعره ${PRODUCTS.joyroom20k.price} جنيه وبيكفّي أي عيلة. ولو محتاج حاجة أقوى، Anker PowerCore 20000 بيشحن الأيفون ${LAB_CONSTANTS.ANKER_20K_PHONE_CHARGES} مرات كاملة.`,
+                answer: `جوي روم 20000 هو أحسن حل عملي — بيشحن 3 موبايلات مع بعض ${LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS} ساعات. سعره ${PRODUCTS.joyroom20k.price} جنيه وبيكفّي أي عيلة. ولو محتاج حاجة أقوى، أنكر PowerCore 20000 بيشحن الأيفون ${LAB_CONSTANTS.ANKER_20K_PHONE_CHARGES} مرات كاملة.`,
             },
             {
                 question: `باور بانك يشغل الراوتر في ${govName}؟`,
-                answer: `Anker 737 شغّل راوتر WE في مختبرنا ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة. ده أطول وقت تشغيل في فئته. بيوصل ${govName} خلال ${deliveryDays} أيام بالدفع عند الاستلام.`,
+                answer: `أنكر 737 شغّل راوتر WE في مختبرنا ${LAB_CONSTANTS.ANKER_737_ROUTER_HOURS} ساعة و${LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES} دقيقة. ده أطول وقت تشغيل في فئته. بيوصل ${govName} خلال ${deliveryDays} أيام بالدفع عند الاستلام.`,
             },
             {
                 question: `بتوصلوا ${govName}؟`,

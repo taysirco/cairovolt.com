@@ -72,7 +72,7 @@ export const soundcore_q11i_headphones = {
     <section>
         <h2 class="text-2xl font-bold mb-3">40mm BassUp: هيدفون أوفر-إير بدون بريميوم ANC</h2>
         <p class="text-gray-700 leading-relaxed">Q11i بيشيل الـ ANC ويركز على اللي مهم لمستخدمي البيئات الهادية: جودة الصوت والبطارية والقيمة. درايفر 40mm ديناميك مع تقنية BassUp بيقدم توقيع صوتي دافئ بميل للباس بيخلي البوب العربي والمهرجانات صوتهم ممتلئ وغني. وسائد الأوفر-إير بتعمل غرفة صوتية مغلقة — عزل سلبي بيحجب ~18dB بدون أي استهلاك بطارية.</p>
-        <p class="text-gray-700 leading-relaxed">تطبيق Soundcore بيوفر تخصيص EQ عميق بشكل مفاجئ لهيدفون بادجت. BassUp ممكن يتظبط حسب ذوقك — من flat مرجعي لباس ثقيل. نفس درايفر 40mm الموجود في Q20i بسعر أقل، بدون إلكترونيات ANC بتزوّد التكلفة.</p>
+        <p class="text-gray-700 leading-relaxed">تطبيق ساوندكور بيوفر تخصيص EQ عميق بشكل مفاجئ لهيدفون بادجت. BassUp ممكن يتظبط حسب ذوقك — من flat مرجعي لباس ثقيل. نفس درايفر 40mm الموجود في Q20i بسعر أقل، بدون إلكترونيات ANC بتزوّد التكلفة.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">60 ساعة بطارية + وسائد بديلة: مبني ليدوم</h2>
@@ -89,11 +89,11 @@ export const soundcore_q11i_headphones = {
         <li><strong>الموديل:</strong> A3037 مطبوع على الهيدباند من جوه</li>
         <li><strong>الوسائد:</strong> الأصلية وسائد جلد بروتين قابلة للفك والتبديل</li>
         <li><strong>المفصل:</strong> مفصل طي سلس — المقلدة بتخلخل</li>
-        <li><strong>التطبيق:</strong> بتظهر "Soundcore Q11i" في التطبيق (بدون أزرار ANC)</li>
+        <li><strong>التطبيق:</strong> بتظهر "ساوندكور Q11i" في التطبيق (بدون أزرار ANC)</li>
         <li><strong>السعر:</strong> أقل من 1,156 جنيه = مشكوك فيه</li>
     </ul>
 </div>`,
-            features: ["40mm BassUp", "بدون ANC", "60 ساعة بطارية", "5 دقائق = 4 ساعات", "قابل للطي", "وسائد بديلة", "BT 5.3 Multipoint", "3.5mm AUX", "~240 جرام", "تطبيق Soundcore", "ضمان 18 شهر"],
+            features: ["40mm BassUp", "بدون ANC", "60 ساعة بطارية", "5 دقائق = 4 ساعات", "قابل للطي", "وسائد بديلة", "BT 5.3 Multipoint", "3.5mm AUX", "~240 جرام", "تطبيق ساوندكور", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور Q11i — 40mm BassUp | 60 ساعة | قابل للطي",
             metaDesc: "اشتري سماعة ساوندكور Q11i في مصر — 2,312 جنيه. 40mm BassUp، 60 ساعة، بدون ANC، قابل للطي، وسائد بديلة، BT 5.3، 3.5mm AUX. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
@@ -106,7 +106,7 @@ export const soundcore_q11i_headphones = {
         }
     },
 
-    meta: { keywords: "soundcore q11i, anker q11i, q11i headphones, q11i no anc, q11i 60h battery, soundcore q11i egypt, q11i vs q20i, ساوندكور q11i, هيدفون q11i, سعر q11i مصر, q11i بدون anc", mainTerm: "soundcore q11i" },
+    meta: { keywords: "ساوندكور q11i, أنكر q11i, q11i headphones, q11i no anc, q11i 60h battery, ساوندكور q11i egypt, q11i vs q20i, ساوندكور q11i, هيدفون q11i, سعر q11i مصر, q11i بدون anc", mainTerm: "soundcore q11i" },
 
     expertOpinion: {
         en: "Q11i is for quiet-environment users who want 40mm BassUp sound and 60h battery without paying for ANC they don't need. Same driver as Q20i, 210 EGP cheaper. Trade-off: no noise cancellation. If you commute on Cairo Metro: Q20i.",

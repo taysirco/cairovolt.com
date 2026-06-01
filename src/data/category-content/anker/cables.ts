@@ -11,17 +11,17 @@ export const anker_cables_content: CategoryContent = {
                     keywords: 'anker cable, anker lightning cable, anker type c cable, anker powerline, cable egypt, anker cable price egypt, MFi cable egypt, usb c cable anker',
                 },
                 ar: {
-                    title: 'كابل انكر | Anker Cable Egypt - وصلة انكر للايفون',
+                    title: 'كابل انكر | أنكر Cable Egypt - وصلة انكر للايفون',
                     description: 'كابل انكر الأصلي في مصر. PowerLine III Kevlar شحن سريع USB-C + Lightning. شهادة MFi، يتحمل 35,000+ ثنية. ✓ ضمان 18 شهر ✓ توصيل القاهرة',
-                    keywords: 'وصلة انكر للايفون, وصله انكر, وصلة شاحن انكر, كابل شاحن انكر, كابل انكر ايفون, وصلة ايفون, anker type c cable, anker cable type c, anker usb type c, anker lightning',
+                    keywords: 'وصلة انكر للايفون, وصله انكر, وصلة شاحن انكر, كابل شاحن انكر, كابل انكر ايفون, وصلة ايفون, أنكر type c cable, أنكر cable type c, أنكر usb type c, أنكر lightning',
                 }
             },
             pageContent: {
                 ar: {
                     title: 'كابلات انكر (الأكثر متانة في العالم)',
-                    subtitle: 'Anker PowerLine - كابل العمر الطويل',
+                    subtitle: 'أنكر PowerLine - كابل العمر الطويل',
                     description: `
-      على عكس الكابلات الرخيصة اللي بتتقطع من عند الرأس وبتظهر رسالة "ملحق غير مدعوم" — كابل **Anker PowerLine** مصنوع من ألياف **Kevlar** (نفس المستخدمة في الدروع الواقية). 35,000 ثنية. شريحة Apple MFi C94 أصلية. صفر مشاكل.
+      على عكس الكابلات الرخيصة اللي بتتقطع من عند الرأس وبتظهر رسالة "ملحق غير مدعوم" — كابل **أنكر PowerLine** مصنوع من ألياف **Kevlar** (نفس المستخدمة في الدروع الواقية). 35,000 ثنية. شريحة Apple MFi C94 أصلية. صفر مشاكل.
 
       **استثمار مش كابل:**
       كابل أبل الأصلي يتقطع بعد 6 شهور — كابل انكر PowerLine+ III يتحمل 3 سنوات استخدام يومي. ده توفير 800+ جنيه في السنة. اختبار CairoVolt: شددنا الكابل بقوة 80 كجم — لم ينقطع.

@@ -27,7 +27,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                 metaDescription: 'تعلم كيف تفرق بين منتجات انكر الأصلية والمقلدة. 5 طرق سهلة للتحقق من أصالة شاحن انكر وباور بانك انكر. نصائح من الوكيل المعتمد.',
                 keywords: 'انكر اصلي, الفرق بين انكر الاصلي والتقليد, كيف اعرف انكر الاصلي, شاحن انكر اصلي, التاكد من انكر الاصلي, موقع انكر لمعرفة الشاحن الاصلي',
                 excerpt: '5 طرق سهلة ومضمونة للتفريق بين منتجات انكر الأصلية والمقلدة.',
-                quickAnswer: 'للتفريق بين Anker الأصلي والتقليد: (1) افحص الباركود بتطبيق Anker الرسمي (2) الوزن الأثقل يعني الأصلي (3) الأصلي عليه شعار Anker محفور وليس مطبوع. الشراء من موزع معتمد مثل كايرو فولت يضمن الأصالة.',
+                quickAnswer: 'للتفريق بين أنكر الأصلي والتقليد: (1) افحص الباركود بتطبيق أنكر الرسمي (2) الوزن الأثقل يعني الأصلي (3) الأصلي عليه شعار أنكر محفور وليس مطبوع. الشراء من موزع معتمد مثل كايرو فولت يضمن الأصالة.',
                 content: `
                                                                                                     <h2> لماذا يوجد انكر مقلد في السوق المصري؟</h2>
                                                                                                         <div class="quick-answer-inline" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="تحذير">
@@ -77,7 +77,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                                                                                                                 <p> فغالباً المنتج مقلد.</p>
 
                                                                                                                                                                                                     <h3> 5. الشراء من وكيل معتمد 🏪</h3>
-                                                                                                                                                                                                        <p> الطريقة الأضمن لتجنب المقلد هي الشراء من <strong> وكيل معتمد </strong>. CairoVolt هو موزع معتمد لمنتجات Anker في مصر ويقدم:</p>
+                                                                                                                                                                                                        <p> الطريقة الأضمن لتجنب المقلد هي الشراء من <strong> وكيل معتمد </strong>. CairoVolt هو موزع معتمد لمنتجات أنكر في مصر ويقدم:</p>
                                                                                                                                                                                                             <ul>
                                                                                                                                                                                                             <li>ضمان 18 شهر مع استبدال فوري </li>
                                                                                                                                                                                                                 <li> فاتورة رسمية </li>
@@ -85,7 +85,7 @@ export const how_to_identify_original_anker: BlogArticle = {
                                                                                                                                                                                                                         <li> دعم واتساب 24 / 7 </li>
                                                                                                                                                                                                                             </ul>
 
-                                                                                                                                                                                                                            <p>أكثر منتجاتنا مبيعاً: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر باور كور 20000</a>، <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر باور كور 10000</a>، و<a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">شاحن Anker 20W</a> — كل منتج بكود QR أصلي للتحقق.</p><h2> ماذا تفعل لو اكتشفت أن المنتج مقلد؟</h2>
+                                                                                                                                                                                                                            <p>أكثر منتجاتنا مبيعاً: <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">انكر باور كور 20000</a>، <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb">انكر باور كور 10000</a>، و<a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">شاحن أنكر 20W</a> — كل منتج بكود QR أصلي للتحقق.</p><h2> ماذا تفعل لو اكتشفت أن المنتج مقلد؟</h2>
                                                                                                                                                                                                                                 <ol>
                                                                                                                                                                                                                                 <li>لا تستخدمه — المقلد قد يسبب تلف لبطارية موبايلك </li>
                                                                                                                                                                                                                                     <li> طالب بالاسترجاع من البائع </li>
@@ -103,7 +103,7 @@ export const how_to_identify_original_anker: BlogArticle = {
 `,
                 faq: [
                     { question: 'كيف أعرف انكر الأصلي؟', answer: 'الطريقة الأسهل: امسح كود QR على العلبة في موقع anker.com/verify. لو ظهرت "Authentic" فهو أصلي. أو اشترِ من وكيل معتمد مثل CairoVolt.' },
-                    { question: 'هل انكر من أمازون مصر أصلي؟', answer: 'ليس بالضرورة. أمازون يسمح لبائعين مختلفين بالبيع. تأكد أن البائع هو "Anker Direct" أو وكيل معتمد. الأضمن الشراء من الوكيل مباشرة.' },
+                    { question: 'هل انكر من أمازون مصر أصلي؟', answer: 'ليس بالضرورة. أمازون يسمح لبائعين مختلفين بالبيع. تأكد أن البائع هو "أنكر Direct" أو وكيل معتمد. الأضمن الشراء من الوكيل مباشرة.' },
                     { question: 'ما خطورة استخدام شاحن انكر مقلد؟', answer: 'المقلد لا يحتوي على أنظمة أمان MultiProtect. قد يسبب: سخونة زائدة، تلف بطارية الموبايل، أو في أسوأ الحالات حريق. لا تخاطر.' },
                 ]
             },

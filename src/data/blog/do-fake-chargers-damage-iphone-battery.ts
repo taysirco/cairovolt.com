@@ -31,12 +31,12 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
                 content: `
                                             <h2> الإجابة المختصرة: نعم، الشواحن التقليد ممكن تدمر بطارية الايفون </h2>
                                                 <div class="quick-answer-inline" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#7f1d1d" role = "complementary" aria - label="تحذير مهم">
-                                                    <p><strong>❗ باختصار: </strong> نعم، الشواحن التقليد بتضر بطارية الايفون فعلاً — Battery Health بتنزل أسرع 2-3× من الطبيعي. الحل: شاحن Anker 20W (375 ج.م) أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a> (أقل من 200 ج.م).</p>
+                                                    <p><strong>❗ باختصار: </strong> نعم، الشواحن التقليد بتضر بطارية الايفون فعلاً — Battery Health بتنزل أسرع 2-3× من الطبيعي. الحل: شاحن أنكر 20W (375 ج.م) أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a> (أقل من 200 ج.م).</p>
                                                         </div>
                                                         <p> الشواحن التقليد بتضر بطارية الايفون بـ 3 طرق رئيسية: <strong>تيار غير منتظم </strong>، <strong>سخونة زائدة</strong>، و <strong> غياب دوائر الحماية </strong>. خلينا نشرح كل واحدة بالتفصيل.</p>
 
                                                             <div class="expert-callout" style = "background:#fef2f2;border-right:4px solid #ef4444;padding:16px 20px;border-radius:8px;margin:20px 0">
-                                                                <p><strong>🔬 اختبارنا العملي: </strong> شحنّا iPhone 14 Pro بشاحن تقليد لمدة 30 يوم متواصل وقارنّاه بنفس الموديل بشاحن Anker 20W أصلي. النتيجة بعد شهر: Battery Health الجهاز بالشاحن التقليد نزل من 100% لـ 97%، بينما اللي بشاحن Anker فضل 100%. الشاحن التقليد كان بيسخّن الجهاز لـ 41°C أثناء الشحن (الأصلي 36°C فقط).</p>
+                                                                <p><strong>🔬 اختبارنا العملي: </strong> شحنّا iPhone 14 Pro بشاحن تقليد لمدة 30 يوم متواصل وقارنّاه بنفس الموديل بشاحن أنكر 20W أصلي. النتيجة بعد شهر: Battery Health الجهاز بالشاحن التقليد نزل من 100% لـ 97%، بينما اللي بشاحن أنكر فضل 100%. الشاحن التقليد كان بيسخّن الجهاز لـ 41°C أثناء الشحن (الأصلي 36°C فقط).</p>
                                                                     </div>
 
                                                                     <h2> 1. التيار غير المنتظم(Voltage Fluctuation) </h2>
@@ -62,14 +62,14 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
 
                                                                                                                         <h2> إزاي تحمي بطارية ايفونك؟</h2>
                                                                                                                             <ul>
-                                                                                                                            <li><strong>استخدم شاحن أصلي أو معتمد: </strong> Anker و Joyroom معتمدين ويقدموا نفس مستوى الحماية</li>
+                                                                                                                            <li><strong>استخدم شاحن أصلي أو معتمد: </strong> أنكر و جوي روم معتمدين ويقدموا نفس مستوى الحماية</li>
                                                                                                                                 <li><strong>استخدم كابل MFi أو معتمد: </strong> الكابل التقليد ممكن يسبب نفس المشاكل</li>
                                                                                                                                     <li><strong>تجنب الشحن في حرارة عالية: </strong> خصوصاً في صيف مصر</li>
                                                                                                                                         <li><strong>فعّل Optimized Battery Charging: </strong> من Settings > Battery > Battery Health</li>
                                                                                                                                             </ul>
 
                                                                                                                                             <h2> أرخص حل أصلي في مصر </h2>
-                                                                                                                                                <p> الحل الأوفر: <strong>شاحن Joyroom 20W </strong> (أقل من 200 جنيه) + <strong>كابل Joyroom USB-C to Lightning</strong> (أقل من 150 جنيه). إجمالي 350 جنيه بتحمي ايفون سعره 30,000 + جنيه.</p>
+                                                                                                                                                <p> الحل الأوفر: <strong>شاحن جوي روم 20W </strong> (أقل من 200 جنيه) + <strong>كابل جوي روم USB-C to Lightning</strong> (أقل من 150 جنيه). إجمالي 350 جنيه بتحمي ايفون سعره 30,000 + جنيه.</p>
 
                                                                                                                                                     <div class="source-references" style = "background:#fefce8;border:1px solid #fde68a;border-radius:10px;padding:16px 20px;margin:24px 0;font-size:13px">
                                                                                                                                                         <p style="font-weight:700;margin-bottom:8px;color:#92400e">📚 مصادر علمية: </p>
@@ -82,9 +82,9 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
                                                                                                                                                                                 `,
                 faq: [
                     { question: 'هل الشاحن التقليد بيبوظ بطارية الايفون فعلاً؟', answer: 'نعم. الشواحن التقليد بتسبب: تيار غير منتظم يجهد خلايا البطارية، سخونة زائدة تدمر الخلايا، وغياب حماية من الشحن الزائد. النتيجة: Battery Health بتنزل أسرع 2-3 مرات.' },
-                    { question: 'إيه أرخص شاحن أصلي للايفون في مصر؟', answer: 'شاحن Joyroom 20W PD بأقل من 200 جنيه — أصلي 100% مع شحن سريع وحماية كاملة. البديل الأفضل: Anker 20W بضمان 18 شهر.' },
+                    { question: 'إيه أرخص شاحن أصلي للايفون في مصر؟', answer: 'شاحن جوي روم 20W PD بأقل من 200 جنيه — أصلي 100% مع شحن سريع وحماية كاملة. البديل الأفضل: أنكر 20W بضمان 18 شهر.' },
                     { question: 'إزاي أعرف إن الشاحن بيضر البطارية؟', answer: 'علامات التحذير: الموبايل بيسخن كتير أثناء الشحن، Battery Health بتنزل أسرع من 1% شهرياً، الشحن بياخد وقت أطول من المعتاد، أو البطارية بتخلص بسرعة.' },
-                    { question: 'هل كابل الشحن التقليد بيضر كمان؟', answer: 'نعم. الكابل التقليد ممكن يسبب: تيار غير مستقر، سخونة في منفذ Lightning، وتلف في شريحة الشحن. استخدم كابل MFi معتمد أو كابل Joyroom/Anker الأصلي.' },
+                    { question: 'هل كابل الشحن التقليد بيضر كمان؟', answer: 'نعم. الكابل التقليد ممكن يسبب: تيار غير مستقر، سخونة في منفذ Lightning، وتلف في شريحة الشحن. استخدم كابل MFi معتمد أو كابل جوي روم/Anker الأصلي.' },
                 ]
             },
             en: {

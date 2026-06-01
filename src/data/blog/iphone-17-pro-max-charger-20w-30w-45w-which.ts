@@ -33,7 +33,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
             metaDescription: 'اختبرنا 3 شواحن (20W و30W و45W) على iPhone 17 Pro Max بمقياس USB-C. الفرق بين 20W و30W في السرعة 4 دقائق بس! النتائج الحقيقية بالأرقام في مصر 2026.',
             keywords: 'شاحن ايفون 17 برو ماكس, افضل شاحن ايفون 17, شاحن 20W ايفون, شاحن 30W ايفون, شاحن 45W ايفون, سرعة شحن ايفون 17 برو ماكس, شاحن اصلي ايفون مصر, انكر شاحن ايفون, هل شاحن 20W كفاية للايفون, شحن سريع ايفون 17 مصر, charger iphone 17 pro max egypt',
             excerpt: 'اختبرنا 3 شواحن (20W و30W و45W) على iPhone 17 Pro Max — الفرق بين 20W و30W في السرعة 4 دقائق بس. الـ 45W مش بيفرق خالص. النتائج بالأرقام.',
-            quickAnswer: 'شاحن 30W هو الاختيار الأمثل لـ iPhone 17 Pro Max. ليه؟ iPhone 17 Pro Max أقصى قبول شحن ليه 27W — يعني شاحن 30W بيستغل كل إمكانياته. شاحن 20W بيشحنه من 0-50% في 28 دقيقة. شاحن 30W بيعمل نفس الشحنة في 24 دقيقة — فرق 4 دقائق. شاحن 45W؟ نفس سرعة الـ 30W بالظبط لإن الموبايل مش بيقبل أكتر من 27W. الأفضل: Anker GaN 30W (499ج) — أصغر حجماً من الـ 20W وبيشحن أسرع.',
+            quickAnswer: 'شاحن 30W هو الاختيار الأمثل لـ iPhone 17 Pro Max. ليه؟ iPhone 17 Pro Max أقصى قبول شحن ليه 27W — يعني شاحن 30W بيستغل كل إمكانياته. شاحن 20W بيشحنه من 0-50% في 28 دقيقة. شاحن 30W بيعمل نفس الشحنة في 24 دقيقة — فرق 4 دقائق. شاحن 45W؟ نفس سرعة الـ 30W بالظبط لإن الموبايل مش بيقبل أكتر من 27W. الأفضل: أنكر GaN 30W (499ج) — أصغر حجماً من الـ 20W وبيشحن أسرع.',
             content: `<p>"شاحن 20 واط كفاية ولا لازم 30 ولا 45؟" — ده أكتر سؤال بنسمعه من عملاء كايرو فولت اللي اشتروا iPhone 17 Pro Max. Apple بتبيع الموبايل من غير شاحن، وبتسيب الاختيار عليك. المشكلة؟ كتير بيشتروا شاحن 45W بـ 800ج+ وهو مش بيفرق عن 30W بجنيه واحد في السرعة. وكتير بيفضلوا على شاحن 5W القديم اللي بيشحن الموبايل في 3 ساعات ونص.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -46,7 +46,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #059669;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#059669;font-weight:bold;">🔬 اختبار كايرو فولت — المنهجية:</p>
     <p style="margin:0;font-size:15px;line-height:1.8;color:#374151;">
-        استخدمنا iPhone 17 Pro Max (بطارية 4,685mAh) + مقياس USB-C (Fnirsi FNB58) بين الشاحن والموبايل لقياس الواط الفعلي كل 5 دقائق. كل اختبار بدأ من 0% مع إغلاق كل التطبيقات. حرارة الغرفة: 26°م. اختبرنا 6 شواحن مختلفة — 3 فئات واط × 2 براند (Anker + Joyroom). كابل الاختبار: Anker USB-C to USB-C 60W.
+        استخدمنا iPhone 17 Pro Max (بطارية 4,685mAh) + مقياس USB-C (Fnirsi FNB58) بين الشاحن والموبايل لقياس الواط الفعلي كل 5 دقائق. كل اختبار بدأ من 0% مع إغلاق كل التطبيقات. حرارة الغرفة: 26°م. اختبرنا 6 شواحن مختلفة — 3 فئات واط × 2 براند (أنكر + جوي روم). كابل الاختبار: أنكر USB-C to USB-C 60W.
     </p>
 </div>
 
@@ -130,12 +130,12 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
 <p>لو بصيت على الأرقام، هتلاقي 3 حقائق مفاجئة:</p>
 
 <h3>1. الفرق بين 20W و 30W = 4 دقائق بس (من 0 لـ 50%)</h3>
-<p>شاحن Anker 20W: 28 دقيقة. شاحن Anker GaN 30W: 24 دقيقة. الفرق: 4 دقائق. ده لإن iPhone 17 Pro Max في أول 50% بيشحن بأقصى سرعة (Peak Charging) — والفرق بين 19.4W و26.8W بيبان بس في الدقائق الأولى.</p>
+<p>شاحن أنكر 20W: 28 دقيقة. شاحن أنكر GaN 30W: 24 دقيقة. الفرق: 4 دقائق. ده لإن iPhone 17 Pro Max في أول 50% بيشحن بأقصى سرعة (Peak Charging) — والفرق بين 19.4W و26.8W بيبان بس في الدقائق الأولى.</p>
 
 <p>لكن الفرق بيكبر في الشحنة الكاملة (0→100%): 1:42 مقابل 1:35 — 7 دقائق. ده لإن الـ 30W بيحافظ على سرعة أعلى لفترة أطول قبل ما الموبايل يبدأ يقلل السحب.</p>
 
 <h3>2. شاحن 45W = نفس سرعة 30W بالضبط (لكن بـ 300ج زيادة)</h3>
-<p>انكر GaN 30W: 0-50% في 24 دقيقة. Anker Nano 45W: 0-50% في 24 دقيقة. نفس الرقم. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W — والشاحنين بيوصلوا للحد ده. الـ 45W الزيادة مش بتتحول لسرعة — بتفضل كامنة.</p>
+<p>انكر GaN 30W: 0-50% في 24 دقيقة. أنكر Nano 45W: 0-50% في 24 دقيقة. نفس الرقم. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W — والشاحنين بيوصلوا للحد ده. الـ 45W الزيادة مش بتتحول لسرعة — بتفضل كامنة.</p>
 
 <p><strong>إمتى الـ 45W يستاهل؟</strong> لو عندك أجهزة تانية بتقبل 45W — زي iPad Pro أو MacBook Air أو Samsung S26 Ultra (اللي بيقبل 45W فعلاً). شاحن واحد لكل أجهزتك = أحسن صفقة.</p>
 
@@ -151,7 +151,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
     </li>
     <li style="margin-bottom:24px;">
         <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#2563eb;">🥈 أفضل قيمة — <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;">جوي روم 30W</a> (299ج)</p>
-        <p style="margin:0;line-height:1.8;">بيطلع 25.9W فعلية — أبطأ من Anker GaN 30W بفرق دقيقة واحدة فقط (0-50%). أرخص 200ج. لو الميزانية محدودة — ده أذكى اختيار.</p>
+        <p style="margin:0;line-height:1.8;">بيطلع 25.9W فعلية — أبطأ من أنكر GaN 30W بفرق دقيقة واحدة فقط (0-50%). أرخص 200ج. لو الميزانية محدودة — ده أذكى اختيار.</p>
     </li>
     <li style="margin-bottom:24px;">
         <p style="margin:0 0 4px 0;font-size:18px;font-weight:bold;color:#6b21a8;">🥉 لو عندك أجهزة متعددة — <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">انكر نانو 45W</a> (799ج)</p>
@@ -201,7 +201,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
     </tbody>
 </table>
 
-<p>كل الشواحن في المنطقة الآمنة (تحت 50°م). Anker GaN أبرد من Joyroom 30W بـ 4°م — تقنية GaN بتحوّل الطاقة بكفاءة أعلى = حرارة أقل.</p>
+<p>كل الشواحن في المنطقة الآمنة (تحت 50°م). أنكر GaN أبرد من جوي روم 30W بـ 4°م — تقنية GaN بتحوّل الطاقة بكفاءة أعلى = حرارة أقل.</p>
 
 <h2>متى تشتري كل فئة؟</h2>
 
@@ -235,7 +235,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية بضمان حقيقي على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        Anker بضمان 18 شهر + Joyroom بضمان 12 شهر. كل الشواحن <strong>أصلية 100%</strong> وبتدعم USB-C Power Delivery. توصيل لكل المحافظات + دفع عند الاستلام.
+        أنكر بضمان 18 شهر + جوي روم بضمان 12 شهر. كل الشواحن <strong>أصلية 100%</strong> وبتدعم USB-C Power Delivery. توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>
 
@@ -253,7 +253,7 @@ export const iphone_17_pro_max_charger_20w_30w_45w_which: BlogArticle = {
                 },
                 {
                     question: 'أقدر أستخدم كابل Lightning القديم مع شاحن 30W؟',
-                    answer: 'لا. iPhone 17 Pro Max بيستخدم USB-C مش Lightning. محتاج كابل USB-C to USB-C. كابلات Lightning القديمة مش بتركب أصلاً. لو محتاج كابل، Anker PowerLine USB-C to USB-C خيار ممتاز وبيدعم 60W.'
+                    answer: 'لا. iPhone 17 Pro Max بيستخدم USB-C مش Lightning. محتاج كابل USB-C to USB-C. كابلات Lightning القديمة مش بتركب أصلاً. لو محتاج كابل، أنكر PowerLine USB-C to USB-C خيار ممتاز وبيدعم 60W.'
                 },
                 {
                     question: 'هل الشحن اللاسلكي أسرع من الشاحن السلكي 20W؟',

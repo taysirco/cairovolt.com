@@ -222,9 +222,9 @@ export const anker_521_powerhouse = {
                 ]
             }
         },
-        meta: { keywords: "anker power station, anker powerhouse, anker 521, portable power station, anker power station egypt, محطة طاقة متنقلة, انكر باور ستيشن, محطة طاقة انكر, مولد كهرباء انكر, anker best power bank egypt 2026, باور بانك مصر انكر, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك شحن سريع", mainTerm: "anker 521" },
+        meta: { keywords: "أنكر power station, أنكر powerhouse, أنكر 521, portable power station, أنكر power station egypt, محطة طاقة متنقلة, انكر باور ستيشن, محطة طاقة انكر, مولد كهرباء انكر, أنكر best power bank egypt 2026, باور بانك مصر انكر, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, باور بانك شحن سريع", mainTerm: "anker 521" },
         expertOpinion: {
             en: "For frequent power outages or camping trips, the Anker 521 is a lifesaver. It's built like a tank with batteries designed to last 10 years. The 200W AC outlet is a huge plus for running small appliances. It won't power a fridge, but for keeping laptops, phones, and lights running during a blackout, it's reliable and safe.",
-            ar: "لانقطاع الكهرباء المتكرر أو رحلات التخييم، تعتبر Anker 521 منقذة للحياة. صممت ببطاريات تدوم 10 سنوات. منفذ التيار المتردد 200 واط ميزة كبيرة لتشغيل الأجهزة الصغيرة. لن تشغل ثلاجة، لكن للحفاظ على عمل اللابتوب والهواتف والأضواء أثناء انقطاع التيار، فهي موثوقة وآمنة."
+            ar: "لانقطاع الكهرباء المتكرر أو رحلات التخييم، تعتبر أنكر 521 منقذة للحياة. صممت ببطاريات تدوم 10 سنوات. منفذ التيار المتردد 200 واط ميزة كبيرة لتشغيل الأجهزة الصغيرة. لن تشغل ثلاجة، لكن للحفاظ على عمل اللابتوب والهواتف والأضواء أثناء انقطاع التيار، فهي موثوقة وآمنة."
         }
     };

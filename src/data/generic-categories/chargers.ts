@@ -23,7 +23,7 @@ export const chargers_generic: GenericCategory = {
             ar: {
                 title: 'شواحن موبايل في مصر',
                 subtitle: 'شحن سريع لكل الأجهزة — ايفون، سامسونج، والمزيد',
-                intro: 'اكتشف شواحن الحائط السريعة من Anker و Joyroom. شواحن بتقنية GaN الحديثة أصغر حجماً وأقوى أداءً. سواء كنت تحتاج شاحن 20W للايفون أو 100W لكل أجهزتك — ستجده هنا.',
+                intro: 'اكتشف شواحن الحائط السريعة من أنكر و جوي روم. شواحن بتقنية GaN الحديثة أصغر حجماً وأقوى أداءً. سواء كنت تحتاج شاحن 20W للايفون أو 100W لكل أجهزتك — ستجده هنا.',
                 buyingTips: [
                     'لـ iPhone 17: اختر 30W على الأقل — اختبار CairoVolt: 0→50% في 25 دقيقة (مقابل 35 دقيقة بشاحن 20W)',
                     'لـ Samsung S26: تأكد من دعم PPS — اختبارنا: Super Fast Charging 25W يشحن 0→50% في 22 دقيقة',
@@ -71,8 +71,8 @@ export const chargers_generic: GenericCategory = {
 <li><strong>القوة (واط):</strong> كلما زادت الواط كلما كان الشحن أسرع. iPhone يحتاج 20-30W، Samsung يحتاج 25-45W، اللابتوب يحتاج 65W+</li>
 <li><strong>البروتوكول:</strong> تأكد من دعم <strong>USB-C PD</strong> (Power Delivery). لأجهزة Samsung تأكد من دعم <strong>PPS</strong></li>
 <li><strong>تقنية GaN:</strong> الشواحن بتقنية <strong>GaN</strong> أصغر حجماً بـ 50% من الشواحن التقليدية بنفس القوة</li>
-<li><strong>عدد المنافذ:</strong> لو بتشحن أكثر من جهاز، اختر شاحن بمنفذين أو أكثر (مثل Anker 735 بـ 3 منافذ)</li>
-<li><strong>الأمان:</strong> اشترِ دائماً شاحن أصلي بشهادات أمان. شواحن <strong>Anker</strong> تحتوي على نظام <strong>MultiProtect</strong> بـ 10 طبقات حماية</li>
+<li><strong>عدد المنافذ:</strong> لو بتشحن أكثر من جهاز، اختر شاحن بمنفذين أو أكثر (مثل أنكر 735 بـ 3 منافذ)</li>
+<li><strong>الأمان:</strong> اشترِ دائماً شاحن أصلي بشهادات أمان. شواحن <strong>أنكر</strong> تحتوي على نظام <strong>MultiProtect</strong> بـ 10 طبقات حماية</li>
 </ul>
 
 <h2 id="best-iphone-charger">أفضل شاحن ايفون 17 في مصر (20-30 واط)</h2>
@@ -96,13 +96,13 @@ export const chargers_generic: GenericCategory = {
 <table>
 <thead><tr><th>الشاحن</th><th>القوة</th><th>المنافذ</th><th>التقنية</th><th>الأفضل لـ</th><th>السعر (جنيه)</th></tr></thead>
 <tbody>
-<tr><td>Joyroom 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (ميزانية)</td><td>~299</td></tr>
-<tr><td>Anker Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (سفر)</td><td>~399</td></tr>
-<tr><td>Anker 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~550</td></tr>
-<tr><td><strong>Anker 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (أقصى سرعة)</strong></td><td><strong>~549</strong></td></tr>
-<tr><td>Joyroom 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>جهازين معاً</td><td>~399</td></tr>
-<tr><td>Anker 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
-<tr><td>Anker 735 65W</td><td>65W</td><td>3</td><td>PD + GaN Prime</td><td>لابتوب + موبايل</td><td>~1,199</td></tr>
+<tr><td>جوي روم 20W</td><td>20W</td><td>1 USB-C</td><td>PD</td><td>iPhone (ميزانية)</td><td>~299</td></tr>
+<tr><td>أنكر Nano 20W</td><td>20W</td><td>1 USB-C</td><td>PD + GaN</td><td>iPhone (سفر)</td><td>~399</td></tr>
+<tr><td>أنكر 312 25W</td><td>25W</td><td>1 USB-C</td><td>PD + PPS</td><td>Samsung S26</td><td>~550</td></tr>
+<tr><td><strong>أنكر 511 30W </strong></td><td><strong>30W</strong></td><td><strong>1 USB-C</strong></td><td><strong>PD + GaN</strong></td><td><strong>iPhone (أقصى سرعة)</strong></td><td><strong>~549</strong></td></tr>
+<tr><td>جوي روم 33W</td><td>33W</td><td>2</td><td>PD + QC</td><td>جهازين معاً</td><td>~399</td></tr>
+<tr><td>أنكر 521 40W</td><td>40W</td><td>2 USB-C</td><td>PD + GaN</td><td>iPhone + iPad</td><td>~699</td></tr>
+<tr><td>أنكر 735 65W</td><td>65W</td><td>3</td><td>PD + GaN Prime</td><td>لابتوب + موبايل</td><td>~1,199</td></tr>
 </tbody>
 </table>
 
@@ -114,17 +114,17 @@ export const chargers_generic: GenericCategory = {
 <li><strong>أقوى:</strong> نفس الحجم يعطي ضعف القوة مقارنة بالشواحن التقليدية</li>
 <li><strong>أطول عمراً:</strong> مادة GaN أكثر متانة من السيليكون التقليدي</li>
 </ul>
-<p>كل شواحن <strong>Anker</strong> الحديثة (Nano, GaN Prime) تستخدم تقنية GaN. وهذا سبب أنها الأصغر والأقوى في السوق.</p>
+<p>كل شواحن <strong>أنكر</strong> الحديثة (Nano, GaN Prime) تستخدم تقنية GaN. وهذا سبب أنها الأصغر والأقوى في السوق.</p>
 
 <h2 id="device-guide">أي شاحن لأي جهاز؟ دليل التوافق الكامل</h2>
 <table>
 <thead><tr><th>الجهاز</th><th>أقصى واط</th><th>البروتوكول المطلوب</th><th>الشاحن المثالي</th></tr></thead>
 <tbody>
-<tr><td>iPhone 17 / 17 Pro</td><td>30W</td><td>USB-C PD</td><td>Anker 511 Nano 30W</td></tr>
-<tr><td>Samsung S26 / S26 Ultra</td><td>45W</td><td>USB-C PD + PPS</td><td>Anker 312 25W (أو 45W)</td></tr>
-<tr><td>iPad Pro / Air</td><td>30W</td><td>USB-C PD</td><td>Anker 511 Nano 30W</td></tr>
-<tr><td>MacBook Air</td><td>67W</td><td>USB-C PD</td><td>Anker 735 65W</td></tr>
-<tr><td>أي موبايل Android</td><td>يختلف</td><td>USB-C PD / QC</td><td>Anker Nano 20W+</td></tr>
+<tr><td>iPhone 17 / 17 Pro</td><td>30W</td><td>USB-C PD</td><td>أنكر 511 Nano 30W</td></tr>
+<tr><td>Samsung S26 / S26 Ultra</td><td>45W</td><td>USB-C PD + PPS</td><td>أنكر 312 25W (أو 45W)</td></tr>
+<tr><td>iPad Pro / Air</td><td>30W</td><td>USB-C PD</td><td>أنكر 511 Nano 30W</td></tr>
+<tr><td>MacBook Air</td><td>67W</td><td>USB-C PD</td><td>أنكر 735 65W</td></tr>
+<tr><td>أي موبايل Android</td><td>يختلف</td><td>USB-C PD / QC</td><td>أنكر Nano 20W+</td></tr>
 </tbody>
 </table>
 
@@ -135,7 +135,7 @@ export const chargers_generic: GenericCategory = {
 <li><strong>رقم السيريال:</strong> كل منتج أصلي له رقم تسلسلي يمكن التحقق منه على موقع الشركة</li>
 <li><strong>الوزن:</strong> الشاحن الأصلي أثقل لأنه يحتوي على مكونات حقيقية عالية الجودة</li>
 <li><strong>منفذ USB-C:</strong> في الأصلي المنفذ محكم ودقيق، في التقليد يكون مرتخي</li>
-<li><strong>التغليف:</strong> علبة Anker الأصلية فيها ملصق هولوجرام وطباعة عالية الجودة</li>
+<li><strong>التغليف:</strong> علبة أنكر الأصلية فيها ملصق هولوجرام وطباعة عالية الجودة</li>
 <li><strong>الضمان:</strong> اشترِ من وكيل معتمد مثل <strong>كايرو فولت</strong> لضمان الأصالة + ضمان رسمي</li>
 </ul>
 `,

@@ -107,7 +107,7 @@ export const anker_zolo_a110d_10000 = {
                 shortDescription: "⚡ شحن سريع 22.5 واط | 🔋 10,000 مللي أمبير | 🔌 كابل USB-C مدمج مش هتنساه أبداً | 📊 شاشة رقمية بالنسبة المئوية | 🛡️ حماية ActiveShield 3.0",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة بلمبات LED المبهمة والكابلات المنسية، أنكر زولو A110D بيوفر <strong>كابل USB-C مدمج</strong> و<strong>شحن سريع 22.5 واط</strong> بوزن 229 جرام بس. في حر مصر ومواصلات المترو، ActiveShield 3.0 بيراقب الحرارة 3 مليون مرة يومياً والشاشة الرقمية بتعرض النسبة بالضبط — مع ضمان Anker لمدة 18 شهر وشهادات FCC/CE. بسعر <strong>1270 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة بلمبات LED المبهمة والكابلات المنسية، أنكر زولو A110D بيوفر <strong>كابل USB-C مدمج</strong> و<strong>شحن سريع 22.5 واط</strong> بوزن 229 جرام بس. في حر مصر ومواصلات المترو، ActiveShield 3.0 بيراقب الحرارة 3 مليون مرة يومياً والشاشة الرقمية بتعرض النسبة بالضبط — مع ضمان أنكر لمدة 18 شهر وشهادات FCC/CE. بسعر <strong>1270 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">
@@ -160,7 +160,7 @@ export const anker_zolo_a110d_10000 = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">الباور بانكات الرخيصة بأرقام mAh وهمية منتشرة في مصر. باور بانك "20,000 مللي أمبير" من العتبة غالباً فيه 8,000 بس سعة حقيقية. أرقام Anker مطابقة للاختبار المعملي — كل مللي أمبير حقيقي. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
+    <p class="text-gray-700">الباور بانكات الرخيصة بأرقام mAh وهمية منتشرة في مصر. باور بانك "20,000 مللي أمبير" من العتبة غالباً فيه 8,000 بس سعة حقيقية. أرقام أنكر مطابقة للاختبار المعملي — كل مللي أمبير حقيقي. تأكد من الأصالة على <a href="https://www.anker.com/verify" class="text-blue-600 hover:underline">anker.com/verify</a>.</p>
 </div>
 `,
                 features: ["⚡ شحن سريع 22.5 واط", "🔋 10,000 مللي أمبير (37Wh)", "🔌 كابل USB-C مدمج", "📊 شاشة LED رقمية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة", "🔌 شحن 3 أجهزة في وقت واحد", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
@@ -175,7 +175,7 @@ export const anker_zolo_a110d_10000 = {
                 ]
             }
         },
-        meta: { keywords: "anker zolo 10000, anker a110d, anker zolo 30w, انكر زولو 10000, باور بانك بكابل مدمج, باور بنك انكر, anker built-in cable power bank, anker portable charger, anker best power bank egypt 2026, anker travel power bank, anker cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, anker zolo 10000mah", mainTerm: "anker zolo 10000mah" },
+        meta: { keywords: "أنكر zolo 10000, أنكر a110d, أنكر zolo 30w, انكر زولو 10000, باور بانك بكابل مدمج, باور بنك انكر, أنكر built-in cable power bank, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, أنكر zolo 10000mah", mainTerm: "anker zolo 10000mah" },
         expertOpinion: {
         en: "The everyday carry power bank: slim enough for your pocket, built-in cable so you never forget one. Perfect for students, commuters, and anyone who just needs a reliable backup phone charge.",
         ar: "باور بانك الجيب اليومي — رفيع بكابل مدمج مش هتنساه أبداً. مثالي للطلاب واللي بيتنقلوا بالمواصلات وعايزين شحنة ضمان للموبايل."

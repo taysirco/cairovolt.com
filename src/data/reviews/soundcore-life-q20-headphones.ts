@@ -53,7 +53,7 @@ export const soundcore_life_q20_headphones_reviews: ProductReview[] = [
         datePublished: '2026-03-18',
         reviewBody: {
             en: 'No Soundcore app is the biggest drawback — you can\'t customize EQ or ANC levels. The Q20i has the app for 172 EGP more. But I prefer physical buttons honestly, and BassUp gives me the bass boost I want. If you don\'t care about app customization, the Q20 saves you money.',
-            ar: 'مفيش تطبيق Soundcore هي أكبر عيب — مش بتقدر تخصص EQ أو مستويات ANC. الـ Q20i فيها التطبيق بفرق 172 جنيه. بس أنا بصراحة بفضّل الأزرار الفيزيائية، والـ BassUp بيدّيني الباس اللي عايزه. لو مش مهتم بالتطبيق، الـ Q20 بتوفّر فلوس.'
+            ar: 'مفيش تطبيق ساوندكور هي أكبر عيب — مش بتقدر تخصص EQ أو مستويات ANC. الـ Q20i فيها التطبيق بفرق 172 جنيه. بس أنا بصراحة بفضّل الأزرار الفيزيائية، والـ BassUp بيدّيني الباس اللي عايزه. لو مش مهتم بالتطبيق، الـ Q20 بتوفّر فلوس.'
         },
         pros: { en: ['Physical buttons preferred', 'BassUp gives needed bass', 'Saves 172 vs Q20i'], ar: ['أزرار فيزيائية أفضل', 'BassUp بيدي الباس المطلوب', 'وفّر 172 من Q20i'] },
         cons: { en: ['No Soundcore app for EQ/ANC customization'], ar: ['مفيش تطبيق لتخصيص EQ/ANC'] },
@@ -121,7 +121,7 @@ export const soundcore_life_q20_headphones_reviews: ProductReview[] = [
         datePublished: '2026-05-18',
         reviewBody: {
             en: 'Good for the price. 4 stars because: no Soundcore app means no custom EQ. I\'m stuck with BassUp on/off only. My colleague\'s Q20i has 22 EQ presets via the app. But Q20 costs less and the default sound signature is honestly good enough for Mahraganat and Shaabi.',
-            ar: '4 نجوم لأن: مفيش تطبيق Soundcore يعني مفيش EQ مخصص. أنا محدود بـ BassUp تشغيل/إيقاف بس. زميلي عنده Q20i فيها 22 بريسيت EQ عبر التطبيق. بس Q20 أرخص وتوقيع الصوت الافتراضي بصراحة كويس كفاية للمهرجانات والشعبي.'
+            ar: '4 نجوم لأن: مفيش تطبيق ساوندكور يعني مفيش EQ مخصص. أنا محدود بـ BassUp تشغيل/إيقاف بس. زميلي عنده Q20i فيها 22 بريسيت EQ عبر التطبيق. بس Q20 أرخص وتوقيع الصوت الافتراضي بصراحة كويس كفاية للمهرجانات والشعبي.'
         },
         pros: { en: ['Good default sound', 'Cheaper than Q20i', 'BassUp good for Shaabi'], ar: ['صوت افتراضي كويس', 'أرخص من Q20i', 'BassUp كويس للشعبي'] },
         cons: { en: ['No app — BassUp on/off only'], ar: ['مفيش تطبيق — BassUp تشغيل/إيقاف بس'] },

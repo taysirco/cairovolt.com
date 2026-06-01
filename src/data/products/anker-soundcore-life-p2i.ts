@@ -93,11 +93,11 @@ export const anker_soundcore_life_p2i = {
                 shortDescription: "مكالماتك واضحة في عز الدوشة | 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات اللاسلكية الصيني تحت 500 جنيه اللي بلوتوث 4.2 بيعمل تأخير وبطاريتها بتموت بعد شهرين، <strong>سماعات أنكر Soundcore Life P2i (A3991)</strong> فيها بلوتوث 5.2 أصلي مع ميكروفونات ذكية بذكاء اصطناعي بتعزل صوتك عن دوشة الشارع. 28 ساعة بطارية (7 سماعات + 21 علبة)، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر <strong>999 جنيه</strong> مع ضمان كايرو فولت 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات اللاسلكية الصيني تحت 500 جنيه اللي بلوتوث 4.2 بيعمل تأخير وبطاريتها بتموت بعد شهرين، <strong>سماعات أنكر ساوندكور Life P2i (A3991)</strong> فيها بلوتوث 5.2 أصلي مع ميكروفونات ذكية بذكاء اصطناعي بتعزل صوتك عن دوشة الشارع. 28 ساعة بطارية (7 سماعات + 21 علبة)، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر <strong>999 جنيه</strong> مع ضمان كايرو فولت 18 شهر.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">سماعات TWS المضروبة تحت 500 جنيه بتستخدم شرايح بلوتوث 4.2 بتعمل تأخير صوت في الفيديو/الألعاب وبتفصل كتير. بطاريتها بتنزل لـ 30 دقيقة خلال شهور. Life P2i بتستخدم بلوتوث 5.2 أصلي باتصال مستقر. لو تطبيق Soundcore مش شايف السماعات، يبقى مضروبة.</p>
+    <p class="text-gray-700">سماعات TWS المضروبة تحت 500 جنيه بتستخدم شرايح بلوتوث 4.2 بتعمل تأخير صوت في الفيديو/الألعاب وبتفصل كتير. بطاريتها بتنزل لـ 30 دقيقة خلال شهور. Life P2i بتستخدم بلوتوث 5.2 أصلي باتصال مستقر. لو تطبيق ساوندكور مش شايف السماعات، يبقى مضروبة.</p>
 </div>
 <div class="product-summary">
     <h3 class="font-bold mb-2">ليه تشتري المنتج ده؟</h3>
@@ -157,10 +157,10 @@ export const anker_soundcore_life_p2i = {
                 ]
             }
         },
-        meta: { keywords: "anker soundcore life p2i, soundcore earbuds, سماعات انكر, ساوند كور, anker wireless earbuds, anker bluetooth earbuds egypt, anker best earbuds egypt 2026, anker noise cancelling, anker cod egypt, سماعة بلوتوث مصر انكر, افضل سماعة انكر, سعر سماعة انكر, سماعة انكر مصر, anker earbuds egypt, سماعة بلوتوث انكر, soundcore مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore life p2i" },
+        meta: { keywords: "أنكر ساوندكور life p2i, ساوندكور earbuds, سماعات انكر, ساوند كور, أنكر wireless earbuds, أنكر bluetooth earbuds egypt, أنكر best earbuds egypt 2026, أنكر noise cancelling, أنكر cod egypt, سماعة بلوتوث مصر انكر, افضل سماعة انكر, سعر سماعة انكر, سماعة انكر مصر, أنكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore life p2i" },
         expertOpinion: {
             en: "These focus purely on call quality and battery life. The AI-enhanced mics really do make a difference in noisy environments. The sound is punchy with the Bass mode. If you spend a lot of time on calls and want Anker reliability, pick these over the generic budget options.",
-            ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية Anker، اختر هذه بدلاً من الخيارات الاقتصادية العامة."
+            ar: "تركز هذه السماعات تماماً على جودة المكالمات وعمر البطارية. الميكروفونات المحسنة بالذكاء الاصطناعي تحدث فرقاً حقاً في البيئات الصاخبة. الصوت قوي مع وضع Bass. إذا كنت تقضي وقتاً طويلاً في المكالمات وتريد موثوقية أنكر، اختر هذه بدلاً من الخيارات الاقتصادية العامة."
         },
         relatedProducts: [
         "anker-soundcore-r50i",

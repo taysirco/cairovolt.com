@@ -71,8 +71,8 @@ export const soundcore_liberty_air_2_pro = {
             description: `<div class="product-details">
     <section>
         <h2 class="text-2xl font-bold mb-3">LDAC + 11mm PureNote: صوت Hi-Res بسعر ميد-رينج</h2>
-        <p class="text-gray-700 leading-relaxed">Liberty Air 2 Pro أرخص سماعة Soundcore في مصر بدعم LDAC كودك — 990kbps من الصوت عالي الدقة على فلاجشيبات أندرويد (Samsung Galaxy, Pixel). درايفر 11mm PureNote بيستخرج تفاصيل كودكات AAC و SBC العادية بتضيّعها. فصل الآلات وبريق التريبل وإحكام الباس بيتحسّنوا بشكل مسموع. على iPhone (AAC فقط)، درايفر PureNote لسه بيقدم جودة ممتازة.</p>
-        <p class="text-gray-700 leading-relaxed">HearID بيعمل اختبار سمع من تطبيق Soundcore وبيخلق EQ شخصي لسمعك أنت. أصحاب 35+ سنة مع انخفاض طبيعي للترددات العالية بيستفيدوا أكتر — الأصوات بتبقى كريستال. 9 مقاسات أطراف متضمنة (XS لحد XL، أشكال متعددة) بتضمن سيل مثالي لأي قناة ودان.</p>
+        <p class="text-gray-700 leading-relaxed">Liberty Air 2 Pro أرخص سماعة ساوندكور في مصر بدعم LDAC كودك — 990kbps من الصوت عالي الدقة على فلاجشيبات أندرويد (Samsung Galaxy, Pixel). درايفر 11mm PureNote بيستخرج تفاصيل كودكات AAC و SBC العادية بتضيّعها. فصل الآلات وبريق التريبل وإحكام الباس بيتحسّنوا بشكل مسموع. على iPhone (AAC فقط)، درايفر PureNote لسه بيقدم جودة ممتازة.</p>
+        <p class="text-gray-700 leading-relaxed">HearID بيعمل اختبار سمع من تطبيق ساوندكور وبيخلق EQ شخصي لسمعك أنت. أصحاب 35+ سنة مع انخفاض طبيعي للترددات العالية بيستفيدوا أكتر — الأصوات بتبقى كريستال. 9 مقاسات أطراف متضمنة (XS لحد XL، أشكال متعددة) بتضمن سيل مثالي لأي قناة ودان.</p>
     </section>
     <section>
         <h2 class="text-2xl font-bold mb-3">ANC موجه + شحن لاسلكي Qi</h2>
@@ -83,7 +83,7 @@ export const soundcore_liberty_air_2_pro = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">Liberty Air 2 Pro من أكتر سماعات Soundcore تقليداً بسبب تصميم الساق الشبيه بالإيربودز. المقلدة بتدّعي "LDAC" بس بتستخدم SBC بس — مفيش Hi-Res.</p>
+    <p class="text-gray-700 leading-relaxed mb-3">Liberty Air 2 Pro من أكتر سماعات ساوندكور تقليداً بسبب تصميم الساق الشبيه بالإيربودز. المقلدة بتدّعي "LDAC" بس بتستخدم SBC بس — مفيش Hi-Res.</p>
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3951 محفور جوه العلبة</li>
@@ -93,20 +93,20 @@ export const soundcore_liberty_air_2_pro = {
         <li><strong>الأطراف:</strong> 9 مقاسات — المقلدة 3 بس</li>
     </ul>
 </div>`,
-            features: ["LDAC Hi-Res", "11mm PureNote", "ANC موجه", "HearID EQ", "شحن Qi لاسلكي", "9 مقاسات أطراف", "7/26 ساعة بطارية", "BT 5.0", "IPX4", "تطبيق Soundcore", "ضمان 18 شهر"],
+            features: ["LDAC Hi-Res", "11mm PureNote", "ANC موجه", "HearID EQ", "شحن Qi لاسلكي", "9 مقاسات أطراف", "7/26 ساعة بطارية", "BT 5.0", "IPX4", "تطبيق ساوندكور", "ضمان 18 شهر"],
             metaTitle: "سماعة ساوندكور Liberty Air 2 Pro — LDAC + ANC + Qi",
             metaDesc: "اشتري سماعة ساوندكور Liberty Air 2 Pro في مصر — 2,150 جنيه. LDAC Hi-Res، 11mm PureNote، ANC موجه، شحن Qi لاسلكي، HearID، 9 أطراف، 26 ساعة. ضمان 18 شهر.",
             faqs: [
                     { question: "Liberty Air 2 Pro ولا A30i — أشتري أنهي؟", answer: "Air 2 Pro: LDAC Hi-Res، شحن Qi، HearID، 9 أطراف، 26 ساعة، 2,150 جنيه. A30i: 46dB ANC (أقوى)، علبة ليبستيك، 24 ساعة، 1,450 جنيه. أوديوفايل + أندرويد: Air 2 Pro. أولوية ANC + قيمة: A30i." },
                     { question: "LDAC بيشتغل على iPhone؟", answer: "لأ — LDAC أندرويد بس (Samsung, Pixel, إلخ). على iPhone بتستخدم AAC اللي جودتها ممتازة بس مش Hi-Res. لو بتستخدم iPhone حصري، A30i بـ 1,450 قيمة أحسن." },
                     { question: "HearID إيه وتستاهل؟", answer: "HearID بيعمل اختبار سمع في التطبيق وبيخلق EQ شخصي لودانك. أكتر تأثير لأصحاب 35+ مع فقدان طبيعي للترددات العالية. بيخلي الأصوات كريستال." },
-                    { question: "شحن Qi اللاسلكي بيشتغل مع أي باد؟", answer: "أيوه — أي باد Qi معتمد. Samsung, Anker, IKEA, أو أي باد عام. حط العلبة على الباد، LED بيأكد الشحن. بدون كابل." },
+                    { question: "شحن Qi اللاسلكي بيشتغل مع أي باد؟", answer: "أيوه — أي باد Qi معتمد. Samsung, أنكر, IKEA, أو أي باد عام. حط العلبة على الباد، LED بيأكد الشحن. بدون كابل." },
                     { question: "ليه 9 مقاسات أطراف؟", answer: "قنوات ودان مختلفة بتحتاج أطراف مختلفة. معظم السماعات فيها 3 (S/M/L). Air 2 Pro فيها 9 — فيت مثالي مضمون تقريباً. سيل أحسن = ANC أحسن = باس أحسن = راحة أحسن." },
             ]
         }
     },
 
-    meta: { keywords: "soundcore liberty air 2 pro, liberty air 2 pro ldac, liberty air 2 pro anc, liberty air 2 pro qi charging, liberty air 2 pro hearid, liberty air 2 pro egypt, ساوندكور ليبرتي اير 2 برو, سماعة ldac انكر, سعر liberty air 2 pro مصر, شحن لاسلكي سماعة", mainTerm: "soundcore liberty air 2 pro" },
+    meta: { keywords: "ساوندكور liberty air 2 pro, liberty air 2 pro ldac, liberty air 2 pro anc, liberty air 2 pro qi charging, liberty air 2 pro hearid, liberty air 2 pro egypt, ساوندكور ليبرتي اير 2 برو, سماعة ldac انكر, سعر liberty air 2 pro مصر, شحن لاسلكي سماعة", mainTerm: "soundcore liberty air 2 pro" },
 
     expertOpinion: {
         en: "Liberty Air 2 Pro is the cheapest LDAC + Qi + HearID bundle in Egypt at 2,150 EGP. Legacy product but features still unmatched at this price. Trade-off: ANC weaker than newer A30i (46dB). Choose Air 2 Pro for Hi-Res audio. Choose A30i for ANC at lower price.",

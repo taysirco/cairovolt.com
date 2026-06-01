@@ -3,11 +3,11 @@ import type { ProductDetail } from './_types';
 export const soundcore_life_u2i_neckband_detail: ProductDetail = {
     aiTldr: {
         en: ['10mm graphene driver + BassUp — neckband wireless (not TWS, not over-ear)', 'NO ANC — passive seal isolation. Budget entry at 739 EGP. 28g ultralight', '22h battery — 10min=3h fast charge. USB-C. IPX5 sweat+rain', 'BT 5.0 — AI mic noise reduction for calls. Flexible neckband fits all sizes', 'CairoVolt: 18-month warranty. 739 EGP. Cheapest Soundcore. Never lose an earbud.'],
-        ar: ['درايفر 10mm جرافين + BassUp — نيكباند لاسلكي (مش TWS ولا أوفر-إير)', 'بدون ANC — عزل سلبي بالسيل. بادجت مبتدئ بـ 739 جنيه. 28 جرام خفيف', '22 ساعة بطارية — 10 دقائق=3 ساعات شحن سريع. USB-C. IPX5 عرق+مطر', 'BT 5.0 — مايك AI لعزل ضوضاء المكالمات. نيكباند مرن بيناسب كل الأحجام', 'كايرو فولت: ضمان 18 شهر. 739 جنيه. أرخص سماعة Soundcore. مش هتضيع سماعة أبداً.'],
+        ar: ['درايفر 10mm جرافين + BassUp — نيكباند لاسلكي (مش TWS ولا أوفر-إير)', 'بدون ANC — عزل سلبي بالسيل. بادجت مبتدئ بـ 739 جنيه. 28 جرام خفيف', '22 ساعة بطارية — 10 دقائق=3 ساعات شحن سريع. USB-C. IPX5 عرق+مطر', 'BT 5.0 — مايك AI لعزل ضوضاء المكالمات. نيكباند مرن بيناسب كل الأحجام', 'كايرو فولت: ضمان 18 شهر. 739 جنيه. أرخص سماعة ساوندكور. مش هتضيع سماعة أبداً.'],
     },
     localContext: {
         en: 'Life U2i is the cheapest Soundcore in Egypt at 739 EGP. Neckband design means you NEVER lose an earbud — they hang around your neck when not in use. Perfect for Cairo street vendors, delivery drivers, and anyone who can\'t risk dropping a tiny TWS bud in the Metro. BT 5.0 (not 5.3/5.4) but for the price, it\'s the best neckband in market.',
-        ar: 'Life U2i أرخص Soundcore في مصر بـ 739 جنيه. تصميم النيكباند يعني مش هتضيع سماعة أبداً — بتتعلق حوالين رقبتك لما مش بتستخدمها. مثالية لباعة شوارع القاهرة وسواقين الديلفري وأي حد مش يقدر يخاطر يوقّع TWS صغيرة في المترو. BT 5.0 (مش 5.3/5.4) بس بالسعر ده أحسن نيكباند في السوق.',
+        ar: 'Life U2i أرخص ساوندكور في مصر بـ 739 جنيه. تصميم النيكباند يعني مش هتضيع سماعة أبداً — بتتعلق حوالين رقبتك لما مش بتستخدمها. مثالية لباعة شوارع القاهرة وسواقين الديلفري وأي حد مش يقدر يخاطر يوقّع TWS صغيرة في المترو. BT 5.0 (مش 5.3/5.4) بس بالسعر ده أحسن نيكباند في السوق.',
     },
     specifications: {
         'Product Type': { en: 'Wireless Neckband', ar: 'نيكباند لاسلكي' },

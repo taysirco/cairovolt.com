@@ -104,7 +104,7 @@ export const anker_soundcore_r50i_nc = {
 <li>📱 <strong>ايفون 17 برو ماكس:</strong> 42dB ANC بيلغي صوت محركات الطائرة. كودك AAC HD.</li>
 <li>📱 <strong>سامسونج S26 الترا:</strong> بلوتوث 5.4، multipoint تبديل بين جهازين.</li>
 <li>💻 <strong>ماك بوك برو:</strong> 4 مايك AI beamforming لمكالمات Zoom/Teams احترافية.</li>
-<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق Soundcore كامل: مستويات ANC، EQ، شفافية.</li>
+<li>📱 <strong>جوجل بيكسل 9 برو:</strong> تطبيق ساوندكور كامل: مستويات ANC، EQ، شفافية.</li>
 <li>📱 <strong>ايباد برو M4:</strong> وضع جيمنج + علبة حامل موبايل لـ FaceTime.</li>
 </ul></div>
 
@@ -125,6 +125,6 @@ export const anker_soundcore_r50i_nc = {
                 ]
             }
         },
-        meta: { keywords: "anker r50i nc, anker soundcore r50i nc, سماعة انكر r50i nc, سماعه انكر r50i nc, ايربودز انكر r50i nc, سعر انكر r50i nc, انكر r50i nc, سعر سماعة انكر r50i, soundcore r50i nc سعر, anker r50i nc سعر, anker soundcore r50i nc anc earbuds, سماعة انكر مصر, anker earbuds egypt, سماعة بلوتوث انكر, soundcore مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore r50i nc anc earbuds" },
+        meta: { keywords: "أنكر r50i nc, أنكر ساوندكور r50i nc, سماعة انكر r50i nc, سماعه انكر r50i nc, ايربودز انكر r50i nc, سعر انكر r50i nc, انكر r50i nc, سعر سماعة انكر r50i, ساوندكور r50i nc سعر, أنكر r50i nc سعر, أنكر ساوندكور r50i nc anc earbuds, سماعة انكر مصر, أنكر earbuds egypt, سماعة بلوتوث انكر, ساوندكور مصر, افضل سماعة لاسلكية 2026", mainTerm: "anker soundcore r50i nc anc earbuds" },
         expertOpinion: { en: "The R50i NC delivers AirPods Pro 2-level ANC at half the price. 42dB blocks Cairo's noise. 4-mic AI calls are professional-grade. Phone stand case is genius. 45h battery = 10-day endurance. Best ANC value in Egypt.", ar: "الـ R50i NC بتوفر ANC بمستوى ايربودز برو 2 بنص السعر. 42dB بتمنع ضوضاء القاهرة. 4 مايك AI للمكالمات درجة احترافية. علبة حامل الموبايل عبقرية. 45 ساعة = 10 أيام." }
     };

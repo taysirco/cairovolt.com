@@ -22,7 +22,7 @@ export const soundcore_p41i_earbuds_detail: ProductDetail = {
         'Mics': { en: '6-mic AI-enhanced calls', ar: '6 مايكات AI للمكالمات' },
         'Water': { en: 'IPX5', ar: 'IPX5' },
         'Case Features': { en: 'Powerbank (10W) + Phone Stand + Built-in USB-C cable', ar: 'باور بانك (10W) + ستاند موبايل + كابل USB-C مدمج' },
-        'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق Soundcore (EQ + أوضاع ANC)' },
+        'App': { en: 'Soundcore App (EQ + ANC modes)', ar: 'تطبيق ساوندكور (EQ + أوضاع ANC)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

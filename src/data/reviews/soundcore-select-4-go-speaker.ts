@@ -43,7 +43,7 @@ export const soundcore_select_4_go_speaker_reviews: ProductReview[] = [
         datePublished: '2026-05-01',
         reviewBody: {
             en: 'Perfect shower speaker! IP67 means zero worry about water damage. I hang it in the shower and the sound fills the bathroom beautifully for 5W. The Soundcore app 9-band EQ lets me customize treble for clearer vocals in the shower echo. 20h battery means I forget about charging for weeks. Way better than the cheap shower speakers that die in 2 months.',
-            ar: 'سبيكر دش مثالية! IP67 يعني صفر قلق من ضرر المية. بعلقها في الدش والصوت بيملأ الحمام بجمال لـ 5 واط. EQ بـ 9 باندات في Soundcore بيخليني أخصص التريبل لأصوات أوضح في صدى الدش. 20 ساعة بطارية يعني بنسى الشحن لأسابيع. أحسن بكتير من سبيكرات الدش الرخيصة اللي بتموت في شهرين.'
+            ar: 'سبيكر دش مثالية! IP67 يعني صفر قلق من ضرر المية. بعلقها في الدش والصوت بيملأ الحمام بجمال لـ 5 واط. EQ بـ 9 باندات في ساوندكور بيخليني أخصص التريبل لأصوات أوضح في صدى الدش. 20 ساعة بطارية يعني بنسى الشحن لأسابيع. أحسن بكتير من سبيكرات الدش الرخيصة اللي بتموت في شهرين.'
         },
         pros: { en: ['Perfect shower speaker', 'IP67 zero water worry', '9-band EQ for shower acoustics'], ar: ['سبيكر دش مثالية', 'IP67 صفر قلق من المية', '9 باند EQ لصوتيات الدش'] },
     },
@@ -133,7 +133,7 @@ export const soundcore_select_4_go_speaker_reviews: ProductReview[] = [
         datePublished: '2026-03-28',
         reviewBody: {
             en: '4 stars: I love everything about it except the lack of AUX input. My old car doesn\'t have Bluetooth so I can\'t use it there. For Bluetooth-only use at home and outdoors, it\'s perfect. The 9-band EQ in the Soundcore app makes a huge difference in sound quality for a 5W speaker. IP67 + float + 20h = pool champion.',
-            ar: '4 نجوم: بحب كل حاجة فيها ماعدا مفيش مدخل AUX. عربيتي القديمة مفيهاش بلوتوث فمش بقدر أستخدمها هناك. للاستخدام ببلوتوث بس في البيت والخارج، مثالية. 9 باند EQ في تطبيق Soundcore عملت فرق كبير في جودة الصوت لسبيكر 5 واط. IP67 + عوم + 20 ساعة = بطلة المسبح.'
+            ar: '4 نجوم: بحب كل حاجة فيها ماعدا مفيش مدخل AUX. عربيتي القديمة مفيهاش بلوتوث فمش بقدر أستخدمها هناك. للاستخدام ببلوتوث بس في البيت والخارج، مثالية. 9 باند EQ في تطبيق ساوندكور عملت فرق كبير في جودة الصوت لسبيكر 5 واط. IP67 + عوم + 20 ساعة = بطلة المسبح.'
         },
         pros: { en: ['9-band EQ transforms 5W', 'Pool champion IP67+float+20h'], ar: ['9 باند EQ بتحول 5 واط', 'بطلة المسبح IP67+عوم+20 ساعة'] },
         cons: { en: ['No AUX input — Bluetooth only'], ar: ['مفيش مدخل AUX — بلوتوث بس'] },

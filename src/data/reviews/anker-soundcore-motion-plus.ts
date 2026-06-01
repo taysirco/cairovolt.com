@@ -103,7 +103,7 @@ export const anker_soundcore_motion_plus_reviews: ProductReview[] = [
             datePublished: '2026-05-20',
             reviewBody: {
                 en: 'Replaced my Bluetooth soundbar with Motion+. Seriously. For music, the clarity and bass response is better than my 3,000 EGP soundbar. The Soundcore app EQ lets me tune it for movies too. Now my soundbar collects dust.',
-                ar: 'بدّلت ساوندبار البلوتوث بتاعي بـ Motion+. بجد. للموسيقى، الوضوح واستجابة الباس أحسن من ساوندباري بتاعت الـ 3,000 جنيه. تطبيق Soundcore EQ بيخليني أضبطها للأفلام كمان. دلوقتي الساوندبار بيجمع تراب.'
+                ar: 'بدّلت ساوندبار البلوتوث بتاعي بـ Motion+. بجد. للموسيقى، الوضوح واستجابة الباس أحسن من ساوندباري بتاعت الـ 3,000 جنيه. تطبيق ساوندكور EQ بيخليني أضبطها للأفلام كمان. دلوقتي الساوندبار بيجمع تراب.'
             },
             pros: { en: ['Replaced 3,000 EGP soundbar', 'Better clarity and bass', 'App EQ tunes for movies'], ar: ['بدّلت ساوندبار 3,000 جنيه', 'وضوح وباس أفضل', 'EQ التطبيق بيضبط للأفلام'] },
         },

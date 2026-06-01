@@ -24,60 +24,60 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
             ar: {
                 title: 'انكر vs جوي روم: مقارنة شاملة — أيهما أفضل؟',
                 metaTitle: 'انكر vs جوي روم | مقارنة شاملة | أيهما أفضل في مصر؟',
-                metaDescription: 'مقارنة شاملة بين انكر Anker وجوي روم Joyroom في مصر. من حيث الجودة والسعر والضمان والشحن السريع. اكتشف أيهما يناسبك.',
-                keywords: 'انكر vs جوي روم, الفرق بين انكر وجوي روم, مقارنة انكر وجوي روم, anker vs joyroom, افضل ماركة شواحن, انكر ام جوي روم',
-                excerpt: 'مقارنة تفصيلية بين Anker و Joyroom في كل الفئات: باور بانك، شواحن، كابلات، وسماعات.',
-                quickAnswer: 'Anker أغلى لكن يقدم تقنيات متقدمة (GaN, PowerIQ 3.0) وضمان 18 شهر. Joyroom أرخص 40% بجودة ممتازة وضمان 12 شهر. للميزانية المحدودة اختر Joyroom، للاستخدام الاحترافي اختر Anker.',
+                metaDescription: 'مقارنة شاملة بين انكر أنكر وجوي روم جوي روم في مصر. من حيث الجودة والسعر والضمان والشحن السريع. اكتشف أيهما يناسبك.',
+                keywords: 'انكر vs جوي روم, الفرق بين انكر وجوي روم, مقارنة انكر وجوي روم, أنكر vs جوي روم, افضل ماركة شواحن, انكر ام جوي روم',
+                excerpt: 'مقارنة تفصيلية بين أنكر و جوي روم في كل الفئات: باور بانك، شواحن، كابلات، وسماعات.',
+                quickAnswer: 'أنكر أغلى لكن يقدم تقنيات متقدمة (GaN, PowerIQ 3.0) وضمان 18 شهر. جوي روم أرخص 40% بجودة ممتازة وضمان 12 شهر. للميزانية المحدودة اختر جوي روم، للاستخدام الاحترافي اختر أنكر.',
                 content: `
-<h2>Anker vs Joyroom: الإجابة السريعة</h2>
+<h2>أنكر vs جوي روم: الإجابة السريعة</h2>
 <div class="quick-answer-inline" style="background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151" role="complementary" aria-label="ملخص سريع">
-<p><strong>باختصار:</strong> Anker أغلى 40% لكن يقدم تقنيات متقدمة (GaN, PowerIQ) وضمان 18 شهر. Joyroom أرخص بجودة جيدة جداً وضمان 12 شهر. اختر حسب ميزانيتك.</p>
+<p><strong>باختصار:</strong> أنكر أغلى 40% لكن يقدم تقنيات متقدمة (GaN, PowerIQ) وضمان 18 شهر. جوي روم أرخص بجودة جيدة جداً وضمان 12 شهر. اختر حسب ميزانيتك.</p>
 </div>
 <p><strong>باختصار:</strong> انكر هو الأفضل في الجودة والتقنيات المتقدمة والضمان الأطول. جوي روم هو الأفضل في السعر مع جودة جيدة جداً. اختيارك يعتمد على ميزانيتك واحتياجاتك.</p>
 
 <div class="expert-callout" style="background:#f0fdf4;border-right:4px solid #22c55e;padding:16px 20px;border-radius:8px;margin:20px 0">
-<p><strong>⚡ تجربتنا:</strong> بعنا أكثر من 8,000 منتج من الماركتين خلال 2025. نسبة الاسترجاع في Anker كانت 0.3% فقط بينما Joyroom 1.1% — كلاهما ممتاز. أكثر شكوى على Anker: "غالي شوية". أكثر شكوى على Joyroom: "التغليف بسيط". هذه المقارنة مبنية على بيانات مبيعاتنا الحقيقية.</p>
+<p><strong>⚡ تجربتنا:</strong> بعنا أكثر من 8,000 منتج من الماركتين خلال 2025. نسبة الاسترجاع في أنكر كانت 0.3% فقط بينما جوي روم 1.1% — كلاهما ممتاز. أكثر شكوى على أنكر: "غالي شوية". أكثر شكوى على جوي روم: "التغليف بسيط". هذه المقارنة مبنية على بيانات مبيعاتنا الحقيقية.</p>
 </div>
 
 <h2>جدول المقارنة الشاملة</h2>
 <table>
-<thead><tr><th>المعيار</th><th>Anker 🔵</th><th>Joyroom 🔴</th><th>الفائز</th></tr></thead>
+<thead><tr><th>المعيار</th><th>أنكر 🔵</th><th>جوي روم 🔴</th><th>الفائز</th></tr></thead>
 <tbody>
 <tr><td><strong>تأسست</strong></td><td>2011 (كاليفورنيا)</td><td>2012 (الصين)</td><td>-</td></tr>
-<tr><td><strong>جودة البناء</strong></td><td>ممتازة (Grade-A cells)</td><td>جيدة جداً</td><td>🔵 Anker</td></tr>
-<tr><td><strong>الشحن السريع</strong></td><td>PowerIQ 4.0 + GaN</td><td>22.5W QC</td><td>🔵 Anker</td></tr>
-<tr><td><strong>الأمان</strong></td><td>MultiProtect 11 نقطة</td><td>حماية قياسية</td><td>🔵 Anker</td></tr>
-<tr><td><strong>الضمان في مصر</strong></td><td>18 شهر</td><td>12 شهر</td><td>🔵 Anker</td></tr>
-<tr><td><strong>السعر</strong></td><td>أعلى (1,550+ ج)</td><td>أقل (~450+ ج)</td><td>🔴 Joyroom</td></tr>
-<tr><td><strong>تنوع المنتجات</strong></td><td>واسع جداً</td><td>متوسط</td><td>🔵 Anker</td></tr>
-<tr><td><strong>سماعات بلوتوث</strong></td><td>Soundcore (ممتازة)</td><td>جيدة (t03s)</td><td>🔵 Anker</td></tr>
-<tr><td><strong>التقييم العالمي</strong></td><td>4.9/5 أمازون</td><td>4.5/5</td><td>🔵 Anker</td></tr>
+<tr><td><strong>جودة البناء</strong></td><td>ممتازة (Grade-A cells)</td><td>جيدة جداً</td><td>🔵 أنكر</td></tr>
+<tr><td><strong>الشحن السريع</strong></td><td>PowerIQ 4.0 + GaN</td><td>22.5W QC</td><td>🔵 أنكر</td></tr>
+<tr><td><strong>الأمان</strong></td><td>MultiProtect 11 نقطة</td><td>حماية قياسية</td><td>🔵 أنكر</td></tr>
+<tr><td><strong>الضمان في مصر</strong></td><td>18 شهر</td><td>12 شهر</td><td>🔵 أنكر</td></tr>
+<tr><td><strong>السعر</strong></td><td>أعلى (1,550+ ج)</td><td>أقل (~450+ ج)</td><td>🔴 جوي روم</td></tr>
+<tr><td><strong>تنوع المنتجات</strong></td><td>واسع جداً</td><td>متوسط</td><td>🔵 أنكر</td></tr>
+<tr><td><strong>سماعات بلوتوث</strong></td><td>ساوندكور (ممتازة)</td><td>جيدة (t03s)</td><td>🔵 أنكر</td></tr>
+<tr><td><strong>التقييم العالمي</strong></td><td>4.9/5 أمازون</td><td>4.5/5</td><td>🔵 أنكر</td></tr>
 </tbody>
 </table>
 
 <h2>المقارنة حسب الفئة</h2>
 
 <h3>1. باور بانك</h3>
-<p><strong>Anker:</strong> <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">باور كور 20000mAh</a> بـ 1,550 ج — خلايا Grade-A، شحن سريع PowerIQ، ضمان 18 شهر.</p>
-<p><strong>Joyroom:</strong> <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">باور بانك 20000mAh</a> بـ ~650 ج — شحن 22.5W، تصميم أنيق، ضمان 12 شهر.</p>
+<p><strong>أنكر:</strong> <a href="/anker/power-banks/anker-powercore-20000" style="color:#2563eb">باور كور 20000mAh</a> بـ 1,550 ج — خلايا Grade-A، شحن سريع PowerIQ، ضمان 18 شهر.</p>
+<p><strong>جوي روم:</strong> <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb">باور بانك 20000mAh</a> بـ ~650 ج — شحن 22.5W، تصميم أنيق، ضمان 12 شهر.</p>
 <p><strong>الحكم:</strong> لو ميزانيتك تسمح، انكر أفضل بفارق واضح في الجودة. لو محدود الميزانية، جوي روم ممتاز بالسعر.</p>
 
 <h3>2. شواحن حائط</h3>
-<p><strong>Anker:</strong> تقنية GaN (أصغر 50%) + ActiveShield للحماية. من 375 ج (20W) لـ 1,299 ج (100W).</p>
-<p><strong>Joyroom:</strong> شواحن عملية بأسعار أقل. شاحن 20W بحوالي 200 ج.</p>
+<p><strong>أنكر:</strong> تقنية GaN (أصغر 50%) + ActiveShield للحماية. من 375 ج (20W) لـ 1,299 ج (100W).</p>
+<p><strong>جوي روم:</strong> شواحن عملية بأسعار أقل. شاحن 20W بحوالي 200 ج.</p>
 <p><strong>الحكم:</strong> انكر يتفوق بتقنية GaN التي تجعل الشاحن أصغر وأكفأ. لكن جوي روم كافي للاستخدام العادي.</p>
 
 <h3>3. كابلات شحن</h3>
-<p><strong>Anker:</strong> كابلات PowerLine III مضادة للكسر، تتحمل 25,000+ ثنية.</p>
-<p><strong>Joyroom:</strong> كابلات جيدة بسعر أقل بكثير.</p>
+<p><strong>أنكر:</strong> كابلات PowerLine III مضادة للكسر، تتحمل 25,000+ ثنية.</p>
+<p><strong>جوي روم:</strong> كابلات جيدة بسعر أقل بكثير.</p>
 <p><strong>الحكم:</strong> الكابلات هي أقل فئة فرقاً بين الاثنين. جوي روم يعطيك قيمة ممتازة هنا.</p>
 
 <h3>4. سماعات بلوتوث</h3>
-<p><strong>Anker (Soundcore):</strong> Liberty 4 NC مع إلغاء ضوضاء فعال. جودة صوت ممتازة.</p>
-<p><strong>Joyroom:</strong> <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">سماعة T03S Pro</a> — سماعات شبيهة بـ AirPods بسعر اقتصادي.</p>
-<p><strong>الحكم:</strong> Soundcore تتفوق بفارق كبير في جودة الصوت وإلغاء الضوضاء.</p>
+<p><strong>أنكر (ساوندكور):</strong> Liberty 4 NC مع إلغاء ضوضاء فعال. جودة صوت ممتازة.</p>
+<p><strong>جوي روم:</strong> <a href="/joyroom/audio/joyroom-t03s-pro-earbuds" style="color:#2563eb">سماعة T03S Pro</a> — سماعات شبيهة بـ AirPods بسعر اقتصادي.</p>
+<p><strong>الحكم:</strong> ساوندكور تتفوق بفارق كبير في جودة الصوت وإلغاء الضوضاء.</p>
 
-<h2>متى تختار Anker؟</h2>
+<h2>متى تختار أنكر؟</h2>
 <ul>
 <li>لو عايز أعلى جودة وأحدث تقنيات</li>
 <li>لو بتشحن لابتوب (GaN / Prime series)</li>
@@ -85,7 +85,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 <li>لو بتدور على سماعات بلوتوث ممتازة</li>
 </ul>
 
-<h2>متى تختار Joyroom؟</h2>
+<h2>متى تختار جوي روم؟</h2>
 <ul>
 <li>لو ميزانيتك محدودة وعايز جودة كويسة</li>
 <li>لو بتدور على كابلات بسعر ممتاز</li>
@@ -103,7 +103,7 @@ export const anker_vs_joyroom_comparison: BlogArticle = {
 `,
                 faq: [
                     { question: 'أيهما أفضل انكر أم جوي روم؟', answer: 'انكر أفضل في الجودة والتقنيات والضمان. جوي روم أفضل في السعر. لو ميزانيتك تسمح، انكر هو الخيار الأفضل.' },
-                    { question: 'هل جوي روم ماركة أصلية؟', answer: 'نعم، Joyroom شركة صينية تأسست 2012 ولها حضور عالمي. منتجاتها أصلية ولها ضمان. الأهم شراؤها من وكيل معتمد.' },
+                    { question: 'هل جوي روم ماركة أصلية؟', answer: 'نعم، جوي روم شركة صينية تأسست 2012 ولها حضور عالمي. منتجاتها أصلية ولها ضمان. الأهم شراؤها من وكيل معتمد.' },
                     { question: 'لماذا انكر أغلى من جوي روم؟', answer: 'لأن انكر تستخدم خلايا بطارية Grade-A وتقنيات حصرية مثل GaN و PowerIQ. الضمان أطول (18 شهر) ونظام الأمان أشمل (11 نقطة).' },
                 ]
             },

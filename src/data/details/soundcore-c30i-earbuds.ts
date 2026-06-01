@@ -22,7 +22,7 @@ export const soundcore_c30i_earbuds_detail: ProductDetail = {
         'Water': { en: 'IPX4 (sweat + light rain)', ar: 'IPX4 (عرق + مطر خفيف)' },
         'Weight': { en: '5.7g per earbud', ar: '5.7 جرام لكل سماعة' },
         'Fit': { en: 'Clip-on + detachable silicone grips (M/L)', ar: 'كليب + قبضات سيليكون (M/L)' },
-        'App': { en: 'Soundcore App (EQ)', ar: 'تطبيق Soundcore (EQ)' },
+        'App': { en: 'Soundcore App (EQ)', ar: 'تطبيق ساوندكور (EQ)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

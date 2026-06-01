@@ -42,7 +42,7 @@ export const soundcore_c40i_earbuds_reviews: ProductReview[] = [
         datePublished: '2026-03-22',
         reviewBody: {
             en: 'AI call noise reduction is better than I expected for open-ear. My manager could hear me clearly during WFH Zoom calls with the AC running. Failed in windy balcony — manager asked me to go inside. The Soundcore app EQ customization improved the thin bass slightly. 10-min fast charge before morning meetings is clutch.',
-            ar: 'عزل AI للمكالمات أفضل مما توقعت لأذن مفتوحة. مديري سمعني بوضوح في مكالمات Zoom WFH مع التكييف شغال. فشلت في البلكونة مع الهوا — مديري طلب أدخل جوه. تطبيق Soundcore لتخصيص EQ حسّن الباس الضعيف شوية. 10 دقائق شحن سريع قبل ميتنجات الصبح منقذ.'
+            ar: 'عزل AI للمكالمات أفضل مما توقعت لأذن مفتوحة. مديري سمعني بوضوح في مكالمات Zoom WFH مع التكييف شغال. فشلت في البلكونة مع الهوا — مديري طلب أدخل جوه. تطبيق ساوندكور لتخصيص EQ حسّن الباس الضعيف شوية. 10 دقائق شحن سريع قبل ميتنجات الصبح منقذ.'
         },
         pros: { en: ['AI call noise OK for WFH', 'Soundcore EQ improves bass slightly', '10-min fast charge for meetings'], ar: ['عزل AI للمكالمات كافي للـ WFH', 'EQ بيحسّن الباس شوية', '10 دقائق شحن سريع للميتنجات'] },
         cons: { en: ['Fails in windy conditions'], ar: ['بتفشل في الهوا الشديد'] },

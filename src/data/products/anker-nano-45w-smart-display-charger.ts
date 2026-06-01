@@ -133,7 +133,7 @@ export const anker_nano_45w_smart_display_charger = {
             ]
         }
     },
-    meta: { keywords: "anker nano 45w smart display, شاحن انكر 45 واط شاشة ذكية, anker a121d, anker nano charger 45w smart display 180 foldable, شاحن انكر نانو شاشة, anker 45w gan charger display, شاحن 45 واط بشاشة, anker care mode charger, شاحن انكر بشاشة مصر, anker released a 45w nano charger featuring a smart display, anker launched new nano 45w charger with smart display, شاحن انكر الجديد شاشة, شاحن ايفون 17 سريع, افضل شاحن 45 واط, شاحن انكر قابس قابل للطي, شاحن GaN بشاشة ذكية مصر, anker nano smart display egypt price, شاحن لابتوب وموبايل انكر, شاحن انكر نانو 45 واط بشاشة ذكية", mainTerm: "شاحن انكر نانو 45 واط بشاشة ذكية" },
+    meta: { keywords: "أنكر nano 45w smart display, شاحن انكر 45 واط شاشة ذكية, أنكر a121d, أنكر nano charger 45w smart display 180 foldable, شاحن انكر نانو شاشة, أنكر 45w gan charger display, شاحن 45 واط بشاشة, أنكر care mode charger, شاحن انكر بشاشة مصر, أنكر released a 45w nano charger featuring a smart display, أنكر launched new nano 45w charger with smart display, شاحن انكر الجديد شاشة, شاحن ايفون 17 سريع, افضل شاحن 45 واط, شاحن انكر قابس قابل للطي, شاحن GaN بشاشة ذكية مصر, أنكر nano smart display egypt price, شاحن لابتوب وموبايل انكر, شاحن انكر نانو 45 واط بشاشة ذكية", mainTerm: "شاحن انكر نانو 45 واط بشاشة ذكية" },
     expertOpinion: {
         en: "The power user's dream: ultrabook + phone charging with a live display showing real watts. Perfect for tech enthusiasts who want transparency and control. Overkill for basic phone-only charging.",
         ar: "حلم الباور يوزر — بيشحن لابتوب وموبايل وبيوريك الواط لحظة بلحظة. مثالي لعشاق التقنية اللي عايزين يعرفوا كل حاجة. أكبر من احتياجك لو بتشحن موبايل بس."

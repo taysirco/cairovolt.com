@@ -4,8 +4,8 @@
  * the two product lines: TWS/headphones (/soundcore/audio) and speakers (/soundcore/speakers).
  *
  * Why a dedicated hub?
- * The keyword "soundcore" (14,800/mo) and "ساوند كور" (1,900/mo) refer specifically
- * to the audio sub-brand — NOT to all Anker products. Funnelling them to /anker
+ * The keyword "ساوندكور" (14,800/mo) and "ساوند كور" (1,900/mo) refer specifically
+ * to the audio sub-brand — NOT to all أنكر products. Funnelling them to /anker
  * (which also covers chargers, cables, power banks) dilutes topical relevance.
  * See SOUNDCORE-STRATEGY.md for full rationale.
  */
@@ -50,14 +50,14 @@ export const soundcoreHub = {
             en: "World's #1 Wireless Audio Brand",
             ar: 'العلامة الأولى عالمياً في السماعات اللاسلكية',
         },
-        title: 'Soundcore by Anker',
+        title: 'ساوندكور by أنكر',
         subtitle: {
             en: 'Hear It. Feel It.',
             ar: 'اسمعها. عيشها.',
         },
         description: {
-            en: 'Soundcore is the dedicated audio sub-brand of Anker — over 100 million users worldwide, Hi-Res Audio certified, and engineered for premium sound at honest prices. Explore Soundcore earbuds, headphones, and Bluetooth speakers, with 18-month CairoVolt warranty and next-day Cairo delivery.',
-            ar: 'ساوند كور هي العلامة الفرعية المتخصصة في الصوتيات من Anker — أكثر من 100 مليون مستخدم حول العالم، شهادة Hi-Res Audio، وهندسة صوتية بأسعار صادقة. تصفّح سماعات ساوند كور (ايربودز + هيدفون) ومكبرات الصوت البلوتوث، مع ضمان 18 شهر من كايرو فولت وتوصيل القاهرة خلال 24 ساعة.',
+            en: 'ساوندكور is the dedicated audio sub-brand of أنكر — over 100 million users worldwide, Hi-Res Audio certified, and engineered for premium sound at honest prices. Explore ساوندكور earbuds, headphones, and Bluetooth speakers, with 18-month CairoVolt warranty and next-day Cairo delivery.',
+            ar: 'ساوند كور هي العلامة الفرعية المتخصصة في الصوتيات من أنكر — أكثر من 100 مليون مستخدم حول العالم، شهادة Hi-Res Audio، وهندسة صوتية بأسعار صادقة. تصفّح سماعات ساوند كور (ايربودز + هيدفون) ومكبرات الصوت البلوتوث، مع ضمان 18 شهر من كايرو فولت وتوصيل القاهرة خلال 24 ساعة.',
         },
     },
 
@@ -68,7 +68,7 @@ export const soundcoreHub = {
     categories: [
         {
             href: '/soundcore/audio',
-            title: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات ساوند كور (ايربودز + هيدفون)' },
+            title: { en: 'ساوندكور Earbuds & Headphones', ar: 'سماعات ساوند كور (ايربودز + هيدفون)' },
             description: {
                 en: 'TWS earbuds, neckbands & over-ear headphones. ANC, Hi-Res, LDAC, BassUp.',
                 ar: 'سماعات بلوتوث TWS، نيكباند، وهيدفون. عزل ضوضاء ANC، Hi-Res، LDAC، BassUp.',
@@ -82,7 +82,7 @@ export const soundcoreHub = {
         },
         {
             href: '/soundcore/speakers',
-            title: { en: 'Soundcore Bluetooth Speakers', ar: 'مكبرات صوت ساوند كور (Speakers)' },
+            title: { en: 'ساوندكور Bluetooth Speakers', ar: 'مكبرات صوت ساوند كور (Speakers)' },
             description: {
                 en: '360° Hi-Res sound, IPX7 waterproof, PartyCast, LED light shows.',
                 ar: 'صوت 360 درجة Hi-Res، مقاومة الماء IPX7، تقنية PartyCast، إضاءة LED تفاعلية.',
@@ -100,18 +100,18 @@ export const soundcoreHub = {
         { icon: 'headphones', value: { en: '100M+', ar: '+100 مليون' }, label: { en: 'Users Worldwide', ar: 'مستخدم حول العالم' } },
         { icon: 'star', value: { en: '4.8/5', ar: '4.8/5' }, label: { en: 'Average Rating', ar: 'متوسط التقييم' } },
         { icon: 'trophy', value: { en: '#1', ar: 'رقم 1' }, label: { en: 'Budget Audio Brand', ar: 'ماركة الصوتيات الاقتصادية' } },
-        { icon: 'music', value: { en: '2016', ar: '2016' }, label: { en: 'Launched as Anker Sub-Brand', ar: 'إطلاق كعلامة فرعية لانكر' } },
+        { icon: 'music', value: { en: '2016', ar: '2016' }, label: { en: 'Launched as أنكر Sub-Brand', ar: 'إطلاق كعلامة فرعية لانكر' } },
         { icon: 'globe', value: { en: '50+', ar: '+50' }, label: { en: 'Countries', ar: 'دولة' } },
-        { icon: 'phone', value: { en: '10M+', ar: '+10 مليون' }, label: { en: 'Soundcore App Users', ar: 'مستخدم لتطبيق Soundcore' } },
+        { icon: 'phone', value: { en: '10M+', ar: '+10 مليون' }, label: { en: 'ساوندكور App Users', ar: 'مستخدم لتطبيق ساوندكور' } },
     ] as SoundcoreStat[],
 
     history: {
-        en: 'Soundcore was launched in 2016 as Anker\'s dedicated audio brand — applying the same engineering rigor that made Anker the #1 charging brand to the audio category. Today, Soundcore has shipped over 100 million units globally, won CES Innovation Awards (Liberty 4 NC, Space One), and is Hi-Res Audio certified by the Japan Audio Society. Soundcore products fall into two families: wearables (TWS earbuds, neckbands, over-ear headphones) and Bluetooth speakers. The brand operates with its own R&D team, its own iOS/Android app for EQ customization (HearID), and its own warranty channel — distinct from Anker\'s charging product lines.',
-        ar: 'انطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من Anker — بنفس الانضباط الهندسي الذي جعل Anker الأولى عالمياً في الشحن، لكن مُطبَّق على الصوتيات. اليوم وزّعت ساوند كور أكثر من 100 مليون وحدة عالمياً، وفازت بجوائز CES للابتكار (Liberty 4 NC, Space One)، وحاصلة على شهادة Hi-Res Audio من جمعية الصوت اليابانية. منتجات ساوند كور تنقسم لعائلتين: السماعات الشخصية (ايربودز TWS، نيكباند، هيدفون فوق الأذن)، ومكبرات الصوت البلوتوث. العلامة عندها فريق أبحاث وتطوير مستقل، وتطبيق iOS/Android خاص لتخصيص الـ EQ (HearID)، وقناة ضمان منفصلة — كل ده مختلف عن خط شواحن Anker.',
+        en: 'ساوندكور was launched in 2016 as أنكر\'s dedicated audio brand — applying the same engineering rigor that made أنكر the #1 charging brand to the audio category. Today, ساوندكور has shipped over 100 million units globally, won CES Innovation Awards (Liberty 4 NC, Space One), and is Hi-Res Audio certified by the Japan Audio Society. ساوندكور products fall into two families: wearables (TWS earbuds, neckbands, over-ear headphones) and Bluetooth speakers. The brand operates with its own R&D team, its own iOS/Android app for EQ customization (HearID), and its own warranty channel — distinct from أنكر\'s charging product lines.',
+        ar: 'انطلقت ساوند كور في عام 2016 كعلامة الصوت المتخصصة من أنكر — بنفس الانضباط الهندسي الذي جعل أنكر الأولى عالمياً في الشحن، لكن مُطبَّق على الصوتيات. اليوم وزّعت ساوند كور أكثر من 100 مليون وحدة عالمياً، وفازت بجوائز CES للابتكار (Liberty 4 NC, Space One)، وحاصلة على شهادة Hi-Res Audio من جمعية الصوت اليابانية. منتجات ساوند كور تنقسم لعائلتين: السماعات الشخصية (ايربودز TWS، نيكباند، هيدفون فوق الأذن)، ومكبرات الصوت البلوتوث. العلامة عندها فريق أبحاث وتطوير مستقل، وتطبيق iOS/Android خاص لتخصيص الـ EQ (HearID)، وقناة ضمان منفصلة — كل ده مختلف عن خط شواحن أنكر.',
     },
 
     /**
-     * The 6 signature Soundcore technologies — used in marketing & product cards.
+     * The 6 signature ساوندكور technologies — used in marketing & product cards.
      */
     technologies: [
         {
@@ -134,7 +134,7 @@ export const soundcoreHub = {
             name: 'HearID AI',
             icon: 'brain',
             description: {
-                en: 'AI-powered personalized audio. The Soundcore app analyzes your hearing across frequencies and builds a custom EQ profile unique to your ears.',
+                en: 'AI-powered personalized audio. The ساوندكور app analyzes your hearing across frequencies and builds a custom EQ profile unique to your ears.',
                 ar: 'صوت شخصي بالذكاء الاصطناعي. تطبيق ساوند كور بيحلل سمعك عبر الترددات وبيبني ملف EQ مخصص لأذنيك بالذات.',
             },
         },
@@ -150,7 +150,7 @@ export const soundcoreHub = {
             name: 'PartyCast 2.0',
             icon: 'satellite',
             description: {
-                en: 'Pair up to 100 Soundcore speakers wirelessly with zero latency. Turn any room or beach into a synchronized sound system.',
+                en: 'Pair up to 100 ساوندكور speakers wirelessly with zero latency. Turn any room or beach into a synchronized sound system.',
                 ar: 'وصِّل لحد 100 سبيكر ساوند كور لاسلكياً بدون تأخير. حوّل أي غرفة أو شاطئ لنظام صوت متزامن.',
             },
         },
@@ -170,7 +170,7 @@ export const soundcoreHub = {
     trustBadges: [
         { icon: 'music', title: { en: 'Hi-Res Audio Certified', ar: 'شهادة Hi-Res Audio' }, description: { en: 'Japan Audio Society', ar: 'جمعية الصوت اليابانية' } },
         { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'CairoVolt Authorized', ar: 'وكيل CairoVolt المعتمد' } },
-        { icon: 'phone', title: { en: 'Soundcore App', ar: 'تطبيق Soundcore' }, description: { en: 'Free EQ & Firmware Updates', ar: 'EQ مجاني وتحديثات' } },
+        { icon: 'phone', title: { en: 'ساوندكور App', ar: 'تطبيق ساوندكور' }, description: { en: 'Free EQ & Firmware Updates', ar: 'EQ مجاني وتحديثات' } },
         { icon: 'star', title: { en: '4.8/5 Global Rating', ar: 'تقييم 4.8/5 عالمياً' }, description: { en: '500K+ verified reviews', ar: '500 ألف+ مراجعة موثوقة' } },
         { icon: 'globe', title: { en: 'iOS & Android', ar: 'iOS و Android' }, description: { en: 'Full cross-platform compatibility', ar: 'توافق كامل عبر المنصات' } },
         { icon: 'trophy', title: { en: 'CES Innovation Award', ar: 'جائزة CES للابتكار' }, description: { en: 'Multiple winners since 2018', ar: 'فائز عدة مرات منذ 2018' } },
@@ -184,8 +184,8 @@ export const soundcoreHub = {
     faq: {
         ar: [
             {
-                question: 'ما الفرق بين ساوند كور و Anker — هل هما نفس الشركة؟',
-                answer: 'ساوند كور هي العلامة الفرعية المتخصصة في الصوتيات من Anker، أُطلقت سنة 2016. Anker الأم بتركّز على الشحن (باور بانك، شواحن، كابلات)، أما ساوند كور فمسؤولة عن السماعات والـ Bluetooth speakers. نفس الشركة، نفس معايير الجودة، نفس الضمان (18 شهر من CairoVolt) — لكن خط منتجات منفصل.',
+                question: 'ما الفرق بين ساوند كور و أنكر — هل هما نفس الشركة؟',
+                answer: 'ساوند كور هي العلامة الفرعية المتخصصة في الصوتيات من أنكر، أُطلقت سنة 2016. أنكر الأم بتركّز على الشحن (باور بانك، شواحن، كابلات)، أما ساوند كور فمسؤولة عن السماعات والـ Bluetooth speakers. نفس الشركة، نفس معايير الجودة، نفس الضمان (18 شهر من CairoVolt) — لكن خط منتجات منفصل.',
             },
             {
                 question: 'إيه الفرق بين سماعات ساوند كور ومكبرات صوت ساوند كور؟',
@@ -196,7 +196,7 @@ export const soundcoreHub = {
                 answer: 'مقارنة سعر/أداء: ساوند كور بتفوق JBL في الـ Hi-Res Audio Certification (مفيش في JBL Flip)، وبتفوق AirPods في باس BassUp + LDAC + تطبيق EQ مفتوح. AirPods أفضل بس لو إنت داخل منظومة Apple بالكامل. للميزانية الذكية في مصر — ساوند كور بتكسب بفارق 30-50% أرخص بنفس الجودة.',
             },
             {
-                question: 'هل لازم يكون عندي تطبيق Soundcore؟',
+                question: 'هل لازم يكون عندي تطبيق ساوندكور؟',
                 answer: 'مش لازم، لكن مُستحسن جداً. التطبيق المجاني (iOS + Android) بيكشف لو السماعة مقلّدة، بيخصّص EQ بالـ HearID، بيفعّل Game Mode، وبيعمل تحديثات Firmware. لو التطبيق مش متعرّف على السماعة = 99% المنتج مقلّد. اتأكد من المصداقية قبل الشراء.',
             },
             {
@@ -205,11 +205,11 @@ export const soundcoreHub = {
             },
             {
                 question: 'إيه أفضل سماعة ساوند كور للمبتدئين؟',
-                answer: 'لميزانية محدودة: **Soundcore P20i** (699 جنيه) — أرخص TWS من ساوند كور وأفضل قيمة سعر/أداء في الفئة الاقتصادية. لو الميزانية أعلى شوية: **R50i** (950 جنيه) — مبيعات #1 في مصر، 30 ساعة بطارية، صوت BassUp قوي. لمن يريد عزل ضوضاء: **R50i NC** (1,199 جنيه) — أرخص ANC حقيقي في السوق.',
+                answer: 'لميزانية محدودة: **ساوندكور P20i** (699 جنيه) — أرخص TWS من ساوند كور وأفضل قيمة سعر/أداء في الفئة الاقتصادية. لو الميزانية أعلى شوية: **R50i** (950 جنيه) — مبيعات #1 في مصر، 30 ساعة بطارية، صوت BassUp قوي. لمن يريد عزل ضوضاء: **R50i NC** (1,199 جنيه) — أرخص ANC حقيقي في السوق.',
             },
             {
                 question: 'إيه أفضل سبيكر ساوند كور للحفلات؟',
-                answer: 'للحفلات الكبيرة: **Soundcore Rave 3** (9,450 جنيه) — 200W، تأثيرات DJ، مايك كاريوكي. للحفلات المتوسطة بإضاءة LED: **Flare 2** (2,999 جنيه) — IPX7 مقاومة كاملة للماء و 360° إضاءة متفاعلة. للسفر والساحل: **Select 4 Go** (1,249 جنيه) — IP67 بتطفو على الميه.',
+                answer: 'للحفلات الكبيرة: **ساوندكور Rave 3** (9,450 جنيه) — 200W، تأثيرات DJ، مايك كاريوكي. للحفلات المتوسطة بإضاءة LED: **Flare 2** (2,999 جنيه) — IPX7 مقاومة كاملة للماء و 360° إضاءة متفاعلة. للسفر والساحل: **Select 4 Go** (1,249 جنيه) — IP67 بتطفو على الميه.',
             },
         ],
         en: [
@@ -251,9 +251,9 @@ export const soundcoreHub = {
             keywords: 'soundcore, anker soundcore, soundcore egypt, soundcore earbuds, soundcore speakers, anker audio brand, hi-res audio egypt, soundcore r50i, soundcore liberty 4 nc, soundcore motion plus, soundcore flare 2',
         },
         ar: {
-            title: 'ساوند كور من Anker مصر | ايربودز + سماعات بلوتوث + سبيكرات',
-            description: 'ساوند كور (Soundcore) — العلامة الفرعية للصوتيات من Anker في مصر. تسوّق ايربودز ساوند كور (R50i، P20i، Liberty 4 NC) ومكبرات الصوت البلوتوث (Motion+، Flare 2). شهادة Hi-Res Audio + ضمان 18 شهر من كايرو فولت.',
-            keywords: 'ساوند كور, soundcore, انكر ساوند كور, سماعات ساوند كور, سبيكر ساوند كور, ايربودز ساوند كور, ساوند كور مصر, ساوند كور r50i, ساوند كور Liberty 4 NC, سماعة بلوتوث انكر, مكبر صوت انكر, سعر ساوند كور',
+            title: 'ساوند كور من أنكر مصر | ايربودز + سماعات بلوتوث + سبيكرات',
+            description: 'ساوند كور (ساوندكور) — العلامة الفرعية للصوتيات من أنكر في مصر. تسوّق ايربودز ساوند كور (R50i، P20i، Liberty 4 NC) ومكبرات الصوت البلوتوث (Motion+، Flare 2). شهادة Hi-Res Audio + ضمان 18 شهر من كايرو فولت.',
+            keywords: 'ساوند كور, ساوندكور, انكر ساوند كور, سماعات ساوند كور, سبيكر ساوند كور, ايربودز ساوند كور, ساوند كور مصر, ساوند كور r50i, ساوند كور Liberty 4 NC, سماعة بلوتوث انكر, مكبر صوت انكر, سعر ساوند كور',
         },
     },
 };

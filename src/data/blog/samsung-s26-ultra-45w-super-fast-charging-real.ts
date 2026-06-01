@@ -206,7 +206,7 @@ export const samsung_s26_ultra_45w_super_fast_charging_real: BlogArticle = {
     <ul style="margin:0;padding-right:20px;color:#4b5563;">
         <li><a href="https://www.samsung.com/eg/galaxy/galaxy-s26-ultra/specs/" rel="nofollow">Samsung — Galaxy S26 Ultra Official Specifications</a></li>
         <li><a href="https://www.usb.org/usb-charger-pd" rel="nofollow">USB-IF — USB Power Delivery \u0026 PPS Specification (بالإنجليزية)</a></li>
-        <li><a href="https://www.anker.com/blogs/chargers/what-is-pps-charging" rel="nofollow">Anker — What is PPS Charging? (بالإنجليزية)</a></li>
+        <li><a href="https://www.anker.com/blogs/chargers/what-is-pps-charging" rel="nofollow">أنكر — What is PPS Charging? (بالإنجليزية)</a></li>
     </ul>
 </div>`,
             faq: [

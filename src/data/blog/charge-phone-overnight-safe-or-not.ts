@@ -164,7 +164,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#991b1b;">
-        <strong>⚠️ تحذير:</strong> الشواحن المقلّدة — اللي بتتباع على OLX بـ 30-50 جنيه — غالباً مفيهاش دائرة حماية حرارية (Thermal Protection Circuit). يعني لو الشاحن بدأ يسخن، مفيش حاجة بتوقفه. الشاحن الأصلي (Anker/Joyroom/Apple) فيه 7-9 طبقات حماية بتقطع التيار تلقائياً لو الحرارة تعدّت 45°م. <strong>78% من حالات تلف البطاريات اللي شوفناها في كايرو فولت كانت بسبب شواحن مقلّدة — مش بسبب الشحن بالليل.</strong>
+        <strong>⚠️ تحذير:</strong> الشواحن المقلّدة — اللي بتتباع على OLX بـ 30-50 جنيه — غالباً مفيهاش دائرة حماية حرارية (Thermal Protection Circuit). يعني لو الشاحن بدأ يسخن، مفيش حاجة بتوقفه. الشاحن الأصلي (أنكر/Joyroom/Apple) فيه 7-9 طبقات حماية بتقطع التيار تلقائياً لو الحرارة تعدّت 45°م. <strong>78% من حالات تلف البطاريات اللي شوفناها في كايرو فولت كانت بسبب شواحن مقلّدة — مش بسبب الشحن بالليل.</strong>
     </p>
 </div>
 

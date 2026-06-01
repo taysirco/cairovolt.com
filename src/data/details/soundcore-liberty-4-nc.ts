@@ -7,7 +7,7 @@ export const soundcore_liberty_4_nc_detail: ProductDetail = {
     },
     localContext: {
         en: 'In Cairo commute — Metro Line 3, microbuses, and streets — ambient noise exceeds 85dB. The Soundcore Liberty 4 NC delivers premium audio at 2999 EGP, giving years of daily use.',
-        ar: 'في مواصلات القاهرة — المترو والميكروباصات — الضوضاء بتتعدى 85 ديسيبل. Soundcore Liberty 4 NC بتقدم صوت ممتاز بـ 2999 جنيه وبتدّيك سنين استخدام.',
+        ar: 'في مواصلات القاهرة — المترو والميكروباصات — الضوضاء بتتعدى 85 ديسيبل. ساوندكور Liberty 4 NC بتقدم صوت ممتاز بـ 2999 جنيه وبتدّيك سنين استخدام.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless Earbuds (TWS)', ar: 'سماعة لاسلكية (TWS)' },

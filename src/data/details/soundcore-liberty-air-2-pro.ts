@@ -21,7 +21,7 @@ export const soundcore_liberty_air_2_pro_detail: ProductDetail = {
         'Water': { en: 'IPX4 (splash + sweat)', ar: 'IPX4 (رذاذ + عرق)' },
         'Ear Tips': { en: '9 sizes included', ar: '9 مقاسات متضمنة' },
         'Special': { en: 'HearID personalized EQ', ar: 'HearID EQ شخصي' },
-        'App': { en: 'Soundcore App (full EQ + HearID + ANC)', ar: 'تطبيق Soundcore (EQ كامل + HearID + ANC)' },
+        'App': { en: 'Soundcore App (full EQ + HearID + ANC)', ar: 'تطبيق ساوندكور (EQ كامل + HearID + ANC)' },
     },
     labVerified: {
         result: { en: '11mm PureNote with LDAC: noticeable detail improvement over AAC on Android flagships. HearID hearing test creates personalized EQ — meaningful difference especially for older listeners with high-frequency roll-off. ANC: effective against steady noise (engines, AC), weaker against speech. 9 ear tip sizes mean virtually guaranteed fit. Qi wireless charging works on standard pads.', ar: '11mm PureNote مع LDAC: تحسّن ملحوظ في التفاصيل عن AAC على فلاجشيبات أندرويد. اختبار سمع HearID بيعمل EQ شخصي — فرق حقيقي خصوصاً لأصحاب السن الأكبر مع انخفاض الترددات العالية. ANC: فعال ضد الضوضاء الثابتة (محركات، تكييف)، أضعف ضد الكلام. 9 مقاسات أطراف يعني فيت مضمون تقريباً. شحن Qi اللاسلكي بيشتغل على باد عادي.' },

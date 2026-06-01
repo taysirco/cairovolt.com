@@ -23,7 +23,7 @@ export const soundcore_liberty_3_pro_detail: ProductDetail = {
         'Bluetooth': { en: '5.2 Multipoint', ar: '5.2 Multipoint' },
         'Water Resistance': { en: 'IPX4', ar: 'IPX4' },
         'Fit System': { en: 'Fusion Comfort (4 ear tips + ear wings)', ar: 'Fusion Comfort (4 أطراف + جناحين)' },
-        'App': { en: 'Soundcore App (HearID, EQ, ANC modes)', ar: 'تطبيق Soundcore (HearID, EQ, أوضاع ANC)' },
+        'App': { en: 'Soundcore App (HearID, EQ, ANC modes)', ar: 'تطبيق ساوندكور (HearID, EQ, أوضاع ANC)' },
         'Safety': { en: 'FCC, CE Certified', ar: 'معتمد FCC, CE' },
     },
     labVerified: {

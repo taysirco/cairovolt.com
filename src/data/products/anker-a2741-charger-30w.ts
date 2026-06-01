@@ -123,11 +123,11 @@ export const anker_a2741_charger_30w = {
                     { question: "الـ PPS بيفرق إيه مع سامسونج؟", answer: "أيوه بيفرق! PPS بيخلي الـ A2741 يوفر بالضبط الفولتية اللي سامسونج جالكسي S26/S25 محتاجها للـ Super Fast Charging. شواحن السيارة العادية اللي بتدعم PD بس بتشحن سامسونج أبطأ." },
                     { question: "15 جرام بس — ده متين كفاية؟", answer: "أيوه. الحجم الصغير مبني بهندسة مدمجة مش مواد رخيصة. الـ A2741 مصمم لمعايير السيارات بمكونات مقاومة للحرارة وحماية MultiProtect. أنكر بتديله ضمان 18 شهر." },
                     { question: "لما المنفذين بيشحنوا في نفس الوقت بيحصل إيه؟", answer: "لما المنفذين شغالين، القوة بتتقسم — حوالي 12 واط لكل منفذ. للشحن السريع، استخدم منفذ واحد في كل مرة. ده طبيعي في شواحن السيارة المزدوجة بالقوة دي." },
-                    { question: "الضمان بيغطي إيه؟", answer: "ضمان Anker 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
+                    { question: "الضمان بيغطي إيه؟", answer: "ضمان أنكر 18 شهر بيغطي عيوب التصنيع وعطل المنافذ والسخونة. كلّم CairoVolt للاستبدال مجاناً. احتفظ بالفاتورة والعلبة الأصلية." }
                 ]
             }
         },
-        meta: { keywords: "شاحن سيارة انكر ميني, anker mini car charger, anker a2741, شاحن سيارة صغير, anker car charger pps, شاحن عربية انكر, anker fast car charger, anker dual usb car charger, anker best car charger 2026, anker cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر ميني 30 واط, شاحن عربية انكر مصر, anker car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر ميني 30 واط" },
+        meta: { keywords: "شاحن سيارة انكر ميني, أنكر mini car charger, أنكر a2741, شاحن سيارة صغير, أنكر car charger pps, شاحن عربية انكر, أنكر fast car charger, أنكر dual usb car charger, أنكر best car charger 2026, أنكر cod egypt, افضل شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سيارة انكر ميني 30 واط, شاحن عربية انكر مصر, أنكر car charger egypt, شاحن سيارة سريع, شاحن USB-C سيارة مصر", mainTerm: "شاحن سيارة انكر ميني 30 واط" },
         expertOpinion: {
         en: "Ideal for minimalists who hate bulky car chargers. Nearly invisible in the cigarette lighter, yet charges iPhone and Samsung at full speed. Perfect for clean dashboard aesthetics.",
         ar: "مثالي للي بيحبوا التابلوه النضيف ومش عايزين شاحن كبير في العربية. أصغر شاحن سيارة هتلاقيه وبيشحن بأقصى سرعة."

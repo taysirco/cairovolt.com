@@ -41,15 +41,15 @@ export const anker_soundcore_motion_plus_lab: ProductLabData = {
         ],
         voiceFaqAr: [
             {
-                question: 'سماعة Soundcore Motion Plus بتتحمل ماء البحر؟',
+                question: 'سماعة ساوندكور Motion Plus بتتحمل ماء البحر؟',
                 answer: 'أيوة! اختبرناها في العين السخنة. غمرناها 1 متر لمدة 30 دقيقة في الحوض — IPX7 صمد تماماً. آمنة للشاطئ والمسبح.',
             },
             {
-                question: 'سماعة Soundcore Motion Plus بتشتغل كام ساعة في الحرارة؟',
+                question: 'سماعة ساوندكور Motion Plus بتشتغل كام ساعة في الحرارة؟',
                 answer: 'اختبرناها في حرارة 41 درجة شمس مباشرة على سطح القاهرة — اشتغلت 8 ساعات كاملة بدون إيقاف. مناسبة جداً لحفلات الصيف.',
             },
             {
-                question: 'كم سعر Soundcore Motion Plus في مصر؟',
+                question: 'كم سعر ساوندكور Motion Plus في مصر؟',
                 answer: 'متوفرة من كايرو فولت بضمان رسمي 18 شهر. سماعة بلوتوث IPX7 مع باص عميق وصوت Hi-Res 30 واط.',
             },
         ],

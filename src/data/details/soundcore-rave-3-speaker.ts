@@ -20,7 +20,7 @@ export const soundcore_rave_3_speaker_detail: ProductDetail = {
         'Lights': { en: 'HexaGlow beat-synced RGB LED', ar: 'HexaGlow RGB LED متزامن مع الإيقاع' },
         'Pairing': { en: 'TWS stereo + Auracast multi-speaker', ar: 'TWS ستيريو + Auracast مالتي سبيكر' },
         'Weight': { en: '~10 kg', ar: '~10 كجم' },
-        'App': { en: 'Soundcore App (EQ + karaoke effects + lights)', ar: 'تطبيق Soundcore (EQ + إفكتات كاريوكي + إضاءة)' },
+        'App': { en: 'Soundcore App (EQ + karaoke effects + lights)', ar: 'تطبيق ساوندكور (EQ + إفكتات كاريوكي + إضاءة)' },
     },
     labVerified: {
         result: { en: '200W: fills 100sqm outdoor space at 70% without distortion. 6.5" woofer bass physically felt at 3m. AI vocal removal: 90% effective on studio tracks, 70% on live recordings. 2 wireless mics: solid 10m range, no feedback when positioned correctly. HexaGlow lights: impressive beat sync. Battery: 11.5h measured at 50% lights off. IPX4: survived rain test, NOT submersible. 10kg: heavy, no wheels — need strong arms or a cart.', ar: '200 واط: بتملأ 100 متر مربع في الخارج على 70% بدون تشويه. ووفر 6.5" باس بتحسّه فيزيائياً على 3 متر. إزالة صوت AI: 90% فعالة على تراكات استوديو، 70% على تسجيلات لايف. 2 مايك لاسلكي: مدى 10 متر قوي، بدون فيدباك لما متوضعين صح. إضاءة HexaGlow: تزامن إيقاع مبهر. بطارية: 11.5 ساعة مقاسة على 50% بدون إضاءة. IPX4: نجحت في اختبار مطر، مش غمر. 10 كجم: ثقيلة، بدون عجلات — محتاج أيدي قوية أو كارت.' },
