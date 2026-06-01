@@ -64,6 +64,7 @@ import { car_charger_100w_laptop_sahel_trip } from './blog/car-charger-100w-lapt
 import { magnetic_car_phone_holder_wireless_charging } from './blog/magnetic-car-phone-holder-wireless-charging';
 import { car_charger_3_devices_power_distribution } from './blog/car-charger-3-devices-power-distribution';
 import { car_charger_stops_working_5_causes_fixes } from './blog/car-charger-stops-working-5-causes-fixes';
+import { car_phone_holder_cooling_fan_summer_protection } from './blog/car-phone-holder-cooling-fan-summer-protection';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -126,6 +127,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     magnetic_car_phone_holder_wireless_charging,
     car_charger_3_devices_power_distribution,
     car_charger_stops_working_5_causes_fixes,
+    car_phone_holder_cooling_fan_summer_protection,
 ];
 
 
