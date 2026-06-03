@@ -71,6 +71,7 @@ import { car_charger_toyota_corolla_hyundai_tucson_kia_cerato } from './blog/car
 import { gaming_earbuds_pubg_freefire_low_latency } from './blog/gaming-earbuds-pubg-freefire-low-latency';
 import { airpods_pro_3_vs_soundcore_liberty_4_nc } from './blog/airpods-pro-3-vs-soundcore-liberty-4-nc';
 import { earbuds_for_quran_recitation_clear_sound } from './blog/earbuds-for-quran-recitation-clear-sound';
+import { bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo } from './blog/bluetooth-earbuds-by-phone-brand-iphone-samsung-xiaomi-oppo';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -140,6 +141,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     gaming_earbuds_pubg_freefire_low_latency,
     airpods_pro_3_vs_soundcore_liberty_4_nc,
     earbuds_for_quran_recitation_clear_sound,
+    bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo,
 ];
 
 
