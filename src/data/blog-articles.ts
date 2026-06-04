@@ -73,6 +73,7 @@ import { airpods_pro_3_vs_soundcore_liberty_4_nc } from './blog/airpods-pro-3-vs
 import { earbuds_for_quran_recitation_clear_sound } from './blog/earbuds-for-quran-recitation-clear-sound';
 import { bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo } from './blog/bluetooth-earbuds-by-phone-brand-iphone-samsung-xiaomi-oppo';
 import { bluetooth_speaker_beach_pool_ipx67_rating } from './blog/bluetooth-speaker-beach-pool-ipx67-rating';
+import { earbuds_gym_running_no_drop_sweat_resistant } from './blog/earbuds-gym-running-no-drop-sweat-resistant';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -144,6 +145,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     earbuds_for_quran_recitation_clear_sound,
     bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo,
     bluetooth_speaker_beach_pool_ipx67_rating,
+    earbuds_gym_running_no_drop_sweat_resistant,
 ];
 
 
