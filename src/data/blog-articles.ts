@@ -74,6 +74,7 @@ import { earbuds_for_quran_recitation_clear_sound } from './blog/earbuds-for-qur
 import { bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo } from './blog/bluetooth-earbuds-by-phone-brand-iphone-samsung-xiaomi-oppo';
 import { bluetooth_speaker_beach_pool_ipx67_rating } from './blog/bluetooth-speaker-beach-pool-ipx67-rating';
 import { earbuds_gym_running_no_drop_sweat_resistant } from './blog/earbuds-gym-running-no-drop-sweat-resistant';
+import { bluetooth_earbuds_disconnect_6_causes_7_fixes } from './blog/bluetooth-earbuds-disconnect-6-causes-7-fixes';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -146,6 +147,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     bluetooth_earbuds_by_phone_brand_iphone_samsung_xiaomi_oppo,
     bluetooth_speaker_beach_pool_ipx67_rating,
     earbuds_gym_running_no_drop_sweat_resistant,
+    bluetooth_earbuds_disconnect_6_causes_7_fixes,
 ];
 
 
