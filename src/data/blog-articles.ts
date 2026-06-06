@@ -76,6 +76,7 @@ import { bluetooth_speaker_beach_pool_ipx67_rating } from './blog/bluetooth-spea
 import { earbuds_gym_running_no_drop_sweat_resistant } from './blog/earbuds-gym-running-no-drop-sweat-resistant';
 import { bluetooth_earbuds_disconnect_6_causes_7_fixes } from './blog/bluetooth-earbuds-disconnect-6-causes-7-fixes';
 import { anc_vs_enc_vs_transparency_mode_difference } from './blog/anc-vs-enc-vs-transparency-mode-difference';
+import { bluetooth_speaker_office_home_2000_egp } from './blog/bluetooth-speaker-office-home-2000-egp';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -150,6 +151,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     earbuds_gym_running_no_drop_sweat_resistant,
     bluetooth_earbuds_disconnect_6_causes_7_fixes,
     anc_vs_enc_vs_transparency_mode_difference,
+    bluetooth_speaker_office_home_2000_egp,
 ];
 
 
