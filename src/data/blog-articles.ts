@@ -80,6 +80,7 @@ import { bluetooth_speaker_office_home_2000_egp } from './blog/bluetooth-speaker
 import { on_ear_vs_over_ear_vs_in_ear_headphones } from './blog/on-ear-vs-over-ear-vs-in-ear-headphones';
 import { soundcore_earbuds_under_1000_egp_students } from './blog/soundcore-earbuds-under-1000-egp-students';
 import { bluetooth_earbud_one_side_only_working } from './blog/bluetooth-earbud-one-side-only-working';
+import { joyroom_vs_apple_watch_se_5x_price } from './blog/joyroom-vs-apple-watch-se-5x-price';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -158,6 +159,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     on_ear_vs_over_ear_vs_in_ear_headphones,
     soundcore_earbuds_under_1000_egp_students,
     bluetooth_earbud_one_side_only_working,
+    joyroom_vs_apple_watch_se_5x_price,
 ];
 
 
