@@ -82,6 +82,7 @@ import { soundcore_earbuds_under_1000_egp_students } from './blog/soundcore-earb
 import { bluetooth_earbud_one_side_only_working } from './blog/bluetooth-earbud-one-side-only-working';
 import { joyroom_vs_apple_watch_se_5x_price } from './blog/joyroom-vs-apple-watch-se-5x-price';
 import { sports_smart_watch_under_1500_egp_egypt } from './blog/sports-smart-watch-under-1500-egp-egypt';
+import { smartwatch_iphone_samsung_cross_compatibility } from './blog/smartwatch-iphone-samsung-cross-compatibility';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -162,6 +163,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     bluetooth_earbud_one_side_only_working,
     joyroom_vs_apple_watch_se_5x_price,
     sports_smart_watch_under_1500_egp_egypt,
+    smartwatch_iphone_samsung_cross_compatibility,
 ];
 
 
