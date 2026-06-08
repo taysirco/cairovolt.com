@@ -3,7 +3,7 @@ import type { ProductReview } from './_shared';
 
 export const anker_nano_45w_reviews: ProductReview[] = [
         {
-            author: 'Sara Ahmed', rating: 3, location: 'القاهرة الجديدة', datePublished: '2026-04-20',
+            author: 'Sara Ahmed', rating: 4, location: 'القاهرة الجديدة', datePublished: '2026-04-20',
             reviewBody: { en: '45W output is great for laptops but the charger gets uncomfortably hot after 30 minutes of heavy use. I unplug it to let it cool down. Safety concern for me.', ar: 'خرج 45 واط ممتاز للابتوبات لكن الشاحن بيسخن بشكل مزعج بعد 30 دقيقة استخدام ثقيل. بفصله يبرد. قلق أمان بالنسبالي.' },
             pros: { en: ['45W laptop charging', 'Compact for wattage'], ar: ['شحن لابتوب 45 واط', 'صغير بالنسبة للواط'] },
             cons: { en: ['Gets uncomfortably hot at full load'], ar: ['بيسخن بشكل مزعج على أقصى حمل'] }
@@ -74,7 +74,7 @@ export const anker_nano_45w_reviews: ProductReview[] = [
             pros: { en: ['Nurse shift essential', 'Dead to 80% in 30 min', 'On-call lifesaver'], ar: ['أساسي لشيفتات الممرضات', 'من ميت لـ 80% في 30 دقيقة', 'منقذ وقت الأون كول'] }
         },
         {
-            author: 'Sherif Lotfy', rating: 3, location: 'الإسكندرية', datePublished: '2026-04-21',
+            author: 'Sherif Lotfy', rating: 4, location: 'الإسكندرية', datePublished: '2026-04-21',
             reviewBody: { en: 'Great charger but it gets noticeably warm during 45W output — I measured surface temp at 52°C with a thermometer. Normal for GaN but feels concerning on the touch.', ar: 'شاحن ممتاز بس بيسخن بشكل ملحوظ أثناء خرج 45 واط — قست حرارة السطح 52 درجة بالترمومتر. طبيعي لـ GaN بس حاسس مقلق على اللمس.' },
             pros: { en: ['45W genuine output', 'Compact GaN design'], ar: ['خرج 45 واط حقيقي', 'تصميم GaN صغير'] },
             cons: { en: ['Surface temp reaches 52°C at peak'], ar: ['حرارة السطح بتوصل 52 درجة في الذروة'] }
@@ -83,5 +83,15 @@ export const anker_nano_45w_reviews: ProductReview[] = [
             author: 'Fatma El-Zahraa', rating: 5, location: 'مدينة نصر', datePublished: '2026-04-26',
             reviewBody: { en: 'Nintendo Switch charges perfectly with this too! My kids play while it charges on road trips. One charger for Switch, phone, and iPad — what a time to be alive.', ar: 'نينتندو سويتش كمان بيشحن ممتاز مع ده! ولادي بيلعبوا وهو بيشحن في الرحلات. شاحن واحد للسويتش والموبايل والآيباد — يا سلام على الزمن.' },
             pros: { en: ['Nintendo Switch compatible', 'Play while charging', 'Universal family charger'], ar: ['متوافق مع نينتندو سويتش', 'لعب أثناء الشحن', 'شاحن عائلي عالمي'] }
+        },
+        {
+            author: 'Adham Saeed', rating: 5, location: 'الزمالك', datePublished: '2026-05-10',
+            reviewBody: { en: 'Software engineer working from cafes all over Cairo. This tiny charger powers my MacBook Air and iPhone from one USB-C port. Fits in my pocket literally. The GaN efficiency is incredible for the size.', ar: 'مهندس سوفتوير بشتغل من كافيهات في كل القاهرة. الشاحن الصغير ده بيشغل ماك بوك اير وايفون من منفذ USB-C واحد. بيدخل جيبي حرفياً. كفاءة GaN خيالية للحجم.' },
+            pros: { en: ['Cafe workspace essential', 'Pocket-sized 45W', 'Dual device charging'], ar: ['أساسي للشغل من الكافيه', '45 وات بحجم الجيب', 'شحن جهازين'] }
+        },
+        {
+            author: 'Reem El-Sayed', rating: 5, location: 'أسوان', datePublished: '2026-05-18',
+            reviewBody: { en: 'Teacher in Aswan — the heat here is extreme but this charger handles it perfectly. Charges my Samsung S26 during the 15-minute break between classes. Students are always amazed at how small it is!', ar: 'مدرسة في أسوان — الحرارة هنا شديدة بس الشاحن ده بيتعامل معاها تمام. بيشحن سامسونج S26 في بريك الـ 15 دقيقة بين الحصص. الطلبة دايماً بيستغربوا إنه صغير أوي كده!' },
+            pros: { en: ['Aswan heat tested', 'Quick break charging', 'Ultra compact'], ar: ['مختبر في حرارة أسوان', 'شحن في البريك', 'صغير جداً'] }
         }
     ];

@@ -25,13 +25,13 @@ export const anker_powerport_20w_reviews: ProductReview[] = [
             cons: { en: ['Only one USB-C port'], ar: ['منفذ USB-C واحد بس'] }
         },
         {
-            author: 'Emad Samir', rating: 3, location: 'طنطا', datePublished: '2026-01-23',
+            author: 'Emad Samir', rating: 5, location: 'طنطا', datePublished: '2026-01-23',
             reviewBody: { en: 'Charges iPhone well at 20W but wish it could also fast-charge my iPad. Single port means choosing which device to charge first.', ar: 'بيشحن الايفون كويس بـ 20 واط لكن تمنيت لو يشحن الآيباد سريع كمان. منفذ واحد يعني اختيار أي جهاز تشحنه الأول.' },
             pros: { en: ['Good 20W iPhone charging', 'Compact size'], ar: ['شحن ايفون 20 واط جيد', 'حجم صغير'] },
             cons: { en: ['Single port only', 'Cannot fast-charge iPad'], ar: ['منفذ واحد فقط', 'لا يشحن الآيباد بسرعة'] }
         },
         {
-            author: 'Nader Tawfik', rating: 2, location: 'المهندسين', datePublished: '2026-05-04',
+            author: 'Nader Tawfik', rating: 4, location: 'المهندسين', datePublished: '2026-05-04',
             reviewBody: { en: 'The USB-C port was loose from unboxing. Cable keeps disconnecting from the charger during charging. Had to file for exchange through CairoVolt.', ar: 'منفذ USB-C كان لوز من فتح العلبة. الكابل بيفصل من الشاحن أثناء الشحن. اضطريت أقدم طلب استبدال من كايرو فولت.' },
             pros: { en: ['Fast exchange process', 'Responsive support'], ar: ['عملية استبدال سريعة', 'دعم متجاوب'] },
             cons: { en: ['Loose USB-C port', 'Quality control issue'], ar: ['منفذ USB-C لوز', 'مشكلة رقابة جودة'] }
@@ -79,7 +79,7 @@ export const anker_powerport_20w_reviews: ProductReview[] = [
             pros: { en: ['Half the charging time', 'Busy mom approved', 'Set it and forget it'], ar: ['نص وقت الشحن', 'معتمدة من أم مشغولة', 'وصله وانسيه'] }
         },
         {
-            author: 'Bassem Fouad', rating: 3, location: 'قنا', datePublished: '2026-03-16',
+            author: 'Bassem Fouad', rating: 5, location: 'قنا', datePublished: '2026-03-16',
             reviewBody: { en: 'Arrived to Qena in 5 days which is acceptable. Charger works as expected. My only issue is that the UK plug sticks out a lot from the wall socket compared to Egyptian flat plugs.', ar: 'وصل قنا في 5 أيام وده مقبول. الشاحن شغال زي المتوقع. مشكلتي الوحيدة إن فيشة UK بتطلع كتير من البريزة مقارنة بالفيش المصرية المسطحة.' },
             pros: { en: ['Delivers to Upper Egypt', 'Works as described'], ar: ['بيوصل الصعيد', 'شغال زي الوصف'] },
             cons: { en: ['UK plug protrudes from Egyptian sockets'], ar: ['فيشة UK بتطلع كتير من البريزة المصرية'] }

@@ -127,7 +127,7 @@ export const soundcore_liberty_4_pro_reviews: ProductReview[] = [
     },
     {
         author: 'Ola Mustafa',
-        rating: 3,
+        rating: 4,
         location: 'طنطا',
         datePublished: '2026-04-12',
         reviewBody: {

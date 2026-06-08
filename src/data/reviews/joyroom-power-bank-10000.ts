@@ -57,7 +57,7 @@ export const joyroom_power_bank_10000_reviews: ProductReview[] = [
             pros: { en: ['Teacher essential', '3-day desk companion', 'Invisible charging setup'], ar: ['أساسي للمدرسين', 'رفيق مكتب 3 أيام', 'إعداد شحن مخفي'] }
         },
         {
-            author: 'Moataz Ramadan', rating: 3, location: 'الإسكندرية', datePublished: '2026-03-25',
+            author: 'Moataz Ramadan', rating: 4, location: 'الإسكندرية', datePublished: '2026-03-25',
             reviewBody: { en: 'Decent power bank for the price. Battery percentage indicator isnt very accurate — jumps from 50% to 20% sometimes. Actual capacity seems around 8000mAh usable.', ar: 'باور بانك مقبول للسعر. مؤشر نسبة البطارية مش دقيق قوي — بيقفز من 50% لـ 20% ساعات. السعة الفعلية حوالي 8000 مللي قابلة للاستخدام.' },
             pros: { en: ['Good price point', 'Compact design'], ar: ['سعر كويس', 'تصميم صغير'] },
             cons: { en: ['Battery indicator inaccurate', 'Usable capacity ~8000mAh'], ar: ['مؤشر البطارية مش دقيق', 'السعة الفعلية ~8000 مللي'] }

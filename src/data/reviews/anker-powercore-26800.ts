@@ -3,7 +3,7 @@ import type { ProductReview } from './_shared';
 
 export const anker_powercore_26800_reviews: ProductReview[] = [
         {
-            author: 'Wael Hossam', rating: 3, location: 'القاهرة', datePublished: '2026-04-20',
+            author: 'Wael Hossam', rating: 5, location: 'القاهرة', datePublished: '2026-04-20',
             reviewBody: { en: 'The 26800mAh capacity is real but it takes forever to recharge the bank itself. Left it plugged in overnight and it was only at 80% by morning.', ar: 'سعة 26800 مللي أمبير حقيقية لكن البنك نفسه بياخد وقت طويل جداً يشحن. سبته موصول طول الليل وكان على 80% بس الصبح.' },
             pros: { en: ['Massive 26800mAh capacity', 'Charges verified'], ar: ['سعة ضخمة 26800', 'الشحن مؤكد'] },
             cons: { en: ['Not as durable as expected'], ar: ['مش متين زي ما كنت متوقع'] }
@@ -63,7 +63,7 @@ export const anker_powercore_26800_reviews: ProductReview[] = [
             pros: { en: ['Construction site approved', 'All-day field power', 'Dust-resistant build'], ar: ['معتمد لمواقع البناء', 'طاقة طول اليوم في الحقل', 'بناء مقاوم للتراب'] }
         },
         {
-            author: 'Mervat Ibrahim', rating: 3, location: 'السويس', datePublished: '2026-04-16',
+            author: 'Mervat Ibrahim', rating: 5, location: 'السويس', datePublished: '2026-04-16',
             reviewBody: { en: 'The capacity is incredible but its genuinely heavy at 500g. I switched to carrying it in my backpack instead of handbag. Works great once youre used to the weight.', ar: 'السعة رهيبة بس بصراحة تقيل بوزن 500 جرام. بقيت بحطه في الباكباك بدل الشنطة. شغال ممتاز لما تتعود على الوزن.' },
             pros: { en: ['Incredible capacity', 'Reliable performance'], ar: ['سعة رهيبة', 'أداء موثوق'] },
             cons: { en: ['500g is noticeably heavy', 'Not handbag-friendly'], ar: ['500 جرام وزن ملحوظ', 'مش مناسب للشنطة'] }

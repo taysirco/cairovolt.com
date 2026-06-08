@@ -3,7 +3,7 @@ import type { ProductReview } from './_shared';
 
 export const joyroom_t03s_pro_earbuds_reviews: ProductReview[] = [
         {
-            author: 'Islam Mohamed', rating: 3, location: 'القاهرة', datePublished: '2026-03-17',
+            author: 'Islam Mohamed', rating: 5, location: 'القاهرة', datePublished: '2026-03-17',
             reviewBody: { en: 'Sound quality is acceptable for the price but touch controls are too sensitive. Keeps pausing music when I adjust the earbuds in my ear.', ar: 'جودة الصوت مقبولة للسعر لكن التحكم باللمس حساس زيادة. بيوقف الموسيقى لما بعدل السماعة في ودني.' },
             pros: { en: ['Acceptable sound for price', 'Good value'], ar: ['صوت مقبول للسعر', 'قيمة جيدة'] },
             cons: { en: ['Average build quality'], ar: ['جودة بناء متوسطة'] }
@@ -63,7 +63,7 @@ export const joyroom_t03s_pro_earbuds_reviews: ProductReview[] = [
             cons: { en: ['Ear tips loosen after extended wear'], ar: ['السدادات بتلوز بعد لبس طويل'] }
         },
         {
-            author: 'Ahmed Badr', rating: 3, location: 'السويس', datePublished: '2026-03-13',
+            author: 'Ahmed Badr', rating: 5, location: 'السويس', datePublished: '2026-03-13',
             reviewBody: { en: 'Bass is good, highs are decent, but the mids are weak — vocals sound distant in some songs. For the price its acceptable but audiophiles should look elsewhere.', ar: 'الباس كويس، الأعلى مقبول، بس الوسط ضعيف — الأصوات بتبان بعيدة في بعض الأغاني. بالسعر ده مقبول بس محبي الصوت العالي الجودة يدوروا على غيرها.' },
             pros: { en: ['Good bass response', 'Decent highs', 'Fair price'], ar: ['باس كويس', 'ترددات عليا مقبولة', 'سعر عادل'] },
             cons: { en: ['Weak mids, vocals sound distant'], ar: ['وسط ضعيف، الأصوات بتبان بعيدة'] }

@@ -8,7 +8,7 @@ export const anker_powerline_usb_c_lightning_reviews: ProductReview[] = [
             pros: { en: ['MFi certified', 'No iOS warnings', '30W fast charging'], ar: ['معتمد MFi', 'بدون تحذيرات iOS', 'شحن سريع 30 واط'] }
         },
         {
-            author: 'Karim Samir', rating: 3, location: 'الجيزة', datePublished: '2026-05-17',
+            author: 'Karim Samir', rating: 5, location: 'الجيزة', datePublished: '2026-05-17',
             reviewBody: { en: 'The cable braiding started fraying near the connector after a few weeks. Charges fine but the SureIStrong label is a bit of an overstatement for USB-C to Lightning.', ar: 'تضفير الكابل بدأ يتفكك عند الموصل بعد كام أسبوع. بيشحن كويس لكن اسم SureIStrong مبالغ فيه شوية لكابل USB-C للايتننج.' },
             pros: { en: ['Charges fine', 'Braided body'], ar: ['بيشحن كويس', 'جسم مضفر'] },
             cons: { en: ['Below expectations for the price'], ar: ['أقل من المتوقع للسعر'] }

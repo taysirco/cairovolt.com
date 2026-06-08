@@ -3,7 +3,7 @@ import type { ProductReview } from './_shared';
 
 export const anker_powerport_25w_reviews: ProductReview[] = [
         {
-            author: 'Osama Kamel', rating: 3, location: 'القاهرة', datePublished: '2026-04-01',
+            author: 'Osama Kamel', rating: 5, location: 'القاهرة', datePublished: '2026-04-01',
             reviewBody: { en: 'Good charger but the white plastic yellowed after 2 months near the window. Charges fine at 25W verified with meter. Cosmetic issue only.', ar: 'شاحن كويس لكن البلاستيك الأبيض اصفر بعد شهرين جنب الشباك. بيشحن كويس بـ 25 واط مؤكد بالمتر. مشكلة شكلية بس.' },
             pros: { en: ['Charges at verified 25W', '25W for Pro models'], ar: ['يشحن بـ 25 واط مؤكد', '25 واط لموديلات برو'] },
             cons: { en: ['White plastic yellows over time'], ar: ['البلاستيك الأبيض بيصفر مع الوقت'] }
@@ -68,7 +68,7 @@ export const anker_powerport_25w_reviews: ProductReview[] = [
             pros: { en: ['1+ year proven durability', 'Zero degradation', 'Black Friday deal worth it'], ar: ['متانة مثبتة أكتر من سنة', 'صفر تدهور', 'عرض الجمعة البيضاء يستاهل'] }
         },
         {
-            author: 'Esraa Mohamed', rating: 3, location: 'المنيا', datePublished: '2026-03-13',
+            author: 'Esraa Mohamed', rating: 5, location: 'المنيا', datePublished: '2026-03-13',
             reviewBody: { en: 'Charges well but honestly the 5W difference between this and the 20W model isnt very noticeable on my iPhone. Samsung users benefit more from the extra wattage.', ar: 'بيشحن كويس بس بصراحة فرق الـ 5 واط بين ده وموديل الـ 20 واط مش ملحوظ قوي على الايفون. مستخدمي سامسونج بيستفيدوا أكتر من الواط الزيادة.' },
             pros: { en: ['Slightly faster for Samsung', 'Good build quality'], ar: ['أسرع شوية لسامسونج', 'جودة بناء كويسة'] },
             cons: { en: ['Minimal benefit over 20W for iPhone'], ar: ['فايدة بسيطة على الـ 20 واط للايفون'] }

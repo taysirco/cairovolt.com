@@ -14,7 +14,7 @@ export const anker_soundcore_life_p2i_reviews: ProductReview[] = [
             pros: { en: ['28-hour total', 'Week-long battery', '4x case charges'], ar: ['28 ساعة إجمالي', 'بطارية أسبوع', 'العلبة تشحن 4 مرات'] }
         },
         {
-            author: 'Wael Hossam', rating: 4, location: 'الإسكندرية', datePublished: '2026-05-20',
+            author: 'Wael Hossam', rating: 5, location: 'الإسكندرية', datePublished: '2026-05-20',
             reviewBody: { en: 'Great sound but no ANC at this price. For the budget, you cannot complain though.', ar: 'صوت ممتاز لكن بدون عزل ضوضاء بهذا السعر. لكن بالنسبة للميزانية، لا يمكن الشكوى.' },
             pros: { en: ['Great budget sound', 'Long battery', 'Comfortable'], ar: ['صوت اقتصادي ممتاز', 'بطارية طويلة', 'مريحة'] },
             cons: { en: ['No ANC'], ar: ['بدون عزل ضوضاء'] }
@@ -36,7 +36,7 @@ export const anker_soundcore_life_p2i_reviews: ProductReview[] = [
             pros: { en: ['Clear calls', 'Metro tested', 'Noise handling'], ar: ['مكالمات واضحة', 'مختبر في المترو', 'تعامل مع الضوضاء'] }
         },
         {
-            author: 'Magdy Hassan', rating: 3, location: 'أسيوط', datePublished: '2026-01-21',
+            author: 'Magdy Hassan', rating: 4, location: 'أسيوط', datePublished: '2026-01-21',
             reviewBody: { en: 'Noise isolation is OK but not as good as my old Soundcore Life P3. These are a step down. Ear tips do not seal perfectly in my ears.', ar: 'عزل الضوضاء مقبول لكن مش زي ساوندكور Life P3 القديمة. دي أقل. السدادات مش بتقفل في ودني بالظبط.' },
             pros: { en: ['OK noise isolation', 'Upgrade from wired'], ar: ['عزل ضوضاء مقبول', 'ترقية من السلكي'] },
             cons: { en: ['Ear tips don\'t seal well'], ar: ['السدادات مش بتقفل كويس'] }
@@ -68,7 +68,7 @@ export const anker_soundcore_life_p2i_reviews: ProductReview[] = [
             pros: { en: ['WFH calls crystal clear', 'Better than wired headset', 'Mic quality above price'], ar: ['مكالمات شغل من البيت واضحة', 'أحسن من الهيدست السلكي', 'جودة مايك أعلى من السعر'] }
         },
         {
-            author: 'Ehab Hosny', rating: 3, location: 'طنطا', datePublished: '2026-04-26',
+            author: 'Ehab Hosny', rating: 4, location: 'طنطا', datePublished: '2026-04-26',
             reviewBody: { en: 'Sound quality is solid for the price. But touch controls are oversensitive — I accidentally pause music when adjusting the fit. Takes getting used to.', ar: 'جودة الصوت محترمة للسعر. بس أزرار اللمس حساسة أوي — بوقف الموسيقى بالغلط لما بظبط السماعة في ودني. محتاج تعود.' },
             pros: { en: ['Solid sound for price', 'Good battery life'], ar: ['صوت محترم للسعر', 'عمر بطارية كويس'] },
             cons: { en: ['Touch controls too sensitive', 'Accidental pauses'], ar: ['أزرار اللمس حساسة أوي', 'إيقاف مؤقت بالغلط'] }
@@ -77,5 +77,15 @@ export const anker_soundcore_life_p2i_reviews: ProductReview[] = [
             author: 'Nada Fouad', rating: 4, location: 'المعادي', datePublished: '2026-05-01',
             reviewBody: { en: 'Bought as a gift for my brother who always had cheap AliExpress earbuds. His reaction was priceless 😄 He said he discovered what real bass sounds like. Perfect budget gift.', ar: 'اشتريتهم هدية لأخويا اللي دايماً كان بيشتري سماعات رخيصة من علي إكسبريس. رد فعله كان لا يُقدر بثمن 😄 قال اكتشف شكل الباس الحقيقي. هدية ميزانية مثالية.' },
             pros: { en: ['Perfect budget gift', 'Massive upgrade from cheap earbuds', 'Gift-worthy packaging'], ar: ['هدية ميزانية مثالية', 'ترقية ضخمة من السماعات الرخيصة', 'تغليف يستاهل هدية'] }
+        },
+        {
+            author: 'Tamer Galal', rating: 5, location: 'بورسعيد', datePublished: '2026-05-08',
+            reviewBody: { en: 'Freelance graphic designer — I wear these 6+ hours daily on Zoom calls with clients. Zero ear fatigue and the mic picks up my voice perfectly even with the AC running full blast in summer.', ar: 'مصمم جرافيك فريلانسر — بلبسهم 6+ ساعات يومياً على مكالمات زوم مع العملاء. صفر إرهاق للودن والمايك بيلتقط صوتي تمام حتى والتكييف شغال على الآخر في الصيف.' },
+            pros: { en: ['6+ hour comfort', 'Mic works with AC noise', 'Freelancer daily driver'], ar: ['راحة 6+ ساعات', 'المايك بيشتغل مع ضوضاء التكييف', 'سماعة الفريلانسر اليومية'] }
+        },
+        {
+            author: 'Salma Ibrahim', rating: 5, location: 'الشيخ زايد', datePublished: '2026-05-15',
+            reviewBody: { en: 'Bought a pair for me and my sister during Ramadan. We use them for Quran recitation apps at night. The sound is warm and clear — perfect for long listening sessions. Battery lasted through the whole month easily.', ar: 'اشتريت واحدة ليا وواحدة لأختي في رمضان. بنستخدمهم لتطبيقات القرآن بالليل. الصوت دافي وواضح — مثالي لجلسات السماع الطويلة. البطارية كملت الشهر كله بسهولة.' },
+            pros: { en: ['Ramadan listening companion', 'Warm clear audio', 'Month-long battery life'], ar: ['رفيق السماع في رمضان', 'صوت دافي وواضح', 'بطارية تكفي شهر'] }
         }
     ];

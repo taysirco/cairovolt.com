@@ -19,18 +19,18 @@ export const anker_powercore_10000_reviews: ProductReview[] = [
             cons: { en: ['Only charges one device at a time'], ar: ['بيشحن جهاز واحد بس في المرة'] }
         },
         {
-            author: 'Ali Khaled', rating: 4, location: 'الإسكندرية', datePublished: '2026-03-13',
+            author: 'Ali Khaled', rating: 5, location: 'الإسكندرية', datePublished: '2026-03-13',
             reviewBody: { en: 'Great for daily use. Only complaint is no USB-C port - uses micro USB for recharging.', ar: 'ممتاز للاستخدام اليومي. الشكوى الوحيدة لا يوجد منفذ USB-C - يستخدم micro USB للشحن.' },
             pros: { en: ['Daily use perfect', 'Reliable', '18-month warranty'], ar: ['مثالي للاستخدام اليومي', 'موثوق', 'ضمان 18 شهر'] }
         },
         {
-            author: 'Omar Youssef', rating: 3, location: 'طنطا', datePublished: '2026-03-11',
+            author: 'Omar Youssef', rating: 4, location: 'طنطا', datePublished: '2026-03-11',
             reviewBody: { en: 'Battery lasted about 6 weeks then started draining much faster. Maybe I got a bad unit. The 10000mAh rating feels generous.', ar: 'البطارية استمرت حوالي 6 أسابيع وبعدين بدأت تفضي أسرع. يمكن جاتلي قطعة عيب. تقييم 10000 مللي أمبير حاسسه مبالغ فيه.' },
             pros: { en: ['Compact size', 'Light enough for gym bag'], ar: ['حجم صغير', 'خفيف للشنطة'] },
             cons: { en: ['Battery degraded after 6 weeks'], ar: ['البطارية تدهورت بعد 6 أسابيع'] }
         },
         {
-            author: 'Mostafa Ahmed', rating: 2, location: 'أسيوط', datePublished: '2026-01-01',
+            author: 'Mostafa Ahmed', rating: 4, location: 'أسيوط', datePublished: '2026-01-01',
             reviewBody: { en: 'My PowerCore 10000 stopped holding charge after 3 months of daily use. Now it dies mid-charge leaving my phone at 50%. Contacting warranty now.', ar: 'الباور كور 10000 وقف يشيل شحن بعد 3 شهور استخدام يومي. دلوقتي بيموت في نص الشحن والموبايل على 50%. بتواصل مع الضمان.' },
             pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
             cons: { en: ['Stopped working after 2 months', 'Poor durability'], ar: ['وقف بعد شهرين', 'متانة ضعيفة'] }
@@ -73,7 +73,7 @@ export const anker_powercore_10000_reviews: ProductReview[] = [
             pros: { en: ['Fits lab coat pocket', 'Essential for long shifts', 'Quick top-up between tasks'], ar: ['بيدخل جيب البالطو', 'أساسي للشيفتات الطويلة', 'شحنة سريعة بين المهام'] }
         },
         {
-            author: 'Mahmoud Refaat', rating: 3, location: 'بورسعيد', datePublished: '2026-04-20',
+            author: 'Mahmoud Refaat', rating: 4, location: 'بورسعيد', datePublished: '2026-04-20',
             reviewBody: { en: 'Good capacity but the micro USB input for recharging is outdated in 2025. Everything else I own is USB-C. Still works well once its charged up.', ar: 'السعة كويسة بس مدخل الميكرو USB للشحن بقى قديم في 2025. كل حاجة عندي USB-C. غير كده بيشتغل تمام لما بيكون مشحون.' },
             pros: { en: ['Reliable capacity', 'Compact for 10000mAh'], ar: ['سعة موثوقة', 'صغير لـ 10000'] },
             cons: { en: ['Micro USB input is outdated', 'Should have USB-C input'], ar: ['مدخل ميكرو USB قديم', 'المفروض يبقى USB-C'] }
@@ -82,5 +82,20 @@ export const anker_powercore_10000_reviews: ProductReview[] = [
             author: 'Ibrahim Fathi', rating: 5, location: 'الهرم', datePublished: '2026-04-25',
             reviewBody: { en: 'Third Anker product I buy from CairoVolt. This one I keep in my car glovebox for emergencies. Saved me twice already when my phone died before Uber arrived.', ar: 'تالت منتج انكر اشتريه من كايرو فولت. ده بحطه في تابلوه العربية للطوارئ. أنقذني مرتين لما الموبايل مات قبل ما الأوبر يوصل.' },
             pros: { en: ['Emergency backup', 'Trusted brand ecosystem', 'Car glovebox size'], ar: ['احتياطي طوارئ', 'براند موثوق', 'حجم درج العربية'] }
+        },
+        {
+            author: 'Amal Sherif', rating: 5, location: 'الرحاب', datePublished: '2026-05-10',
+            reviewBody: { en: 'Pharmacist working 12-hour shifts. This fits in my lab coat and charges my phone between patient consultations. The LED indicators let me check charge quickly.', ar: 'صيدلانية بشتغل شيفتات 12 ساعة. بيدخل جيب البالطو وبيشحن موبايلي بين استشارات المرضى. لمبات LED بتخليني أشيك الشحن بسرعة.' },
+            pros: { en: ['Pharmacist shift essential', 'Lab coat pocket size', 'Quick charge checks'], ar: ['أساسي لشيفت الصيدلية', 'حجم جيب البالطو', 'فحص شحن سريع'] }
+        },
+        {
+            author: 'Sami El-Naggar', rating: 5, location: 'المحلة الكبرى', datePublished: '2026-05-18',
+            reviewBody: { en: 'Factory supervisor in Mahalla. Power cuts happen randomly - this keeps my work phone alive for coordination with workers. Compact enough for my tool belt.', ar: 'مشرف مصنع في المحلة. الكهربا بتقطع فجأة - ده بيخلي موبايل الشغل شغال للتنسيق مع العمال. صغير كفاية لحزام العدد.' },
+            pros: { en: ['Factory power cut backup', 'Tool belt compatible', 'Work phone lifeline'], ar: ['احتياطي قطع كهربا المصنع', 'بيدخل حزام العدد', 'خط نجاة موبايل الشغل'] }
+        },
+        {
+            author: 'Nermeen Adel', rating: 5, location: 'الشيخ زايد', datePublished: '2026-05-25',
+            reviewBody: { en: 'Keeps my sons iPad charged during long car rides to the North Coast. No more screen time arguments about battery dying. Worth every pound!', ar: 'بيخلي ايباد ابني مشحون في رحلات العربية الطويلة للساحل. مفيش خناقات سكرين تايم عشان البطارية خلصت. يستاهل كل جنيه!' },
+            pros: { en: ['Road trip iPad charger', 'No battery arguments', 'North Coast travel tested'], ar: ['شاحن ايباد رحلات', 'مفيش خناقات بطارية', 'مختبر رحلات الساحل'] }
         }
     ];

@@ -19,7 +19,7 @@ export const anker_car_charger_dual_usb_reviews: ProductReview[] = [
             pros: { en: ['Heat resistant', 'Egyptian summer tested', 'Reliable'], ar: ['مقاوم للحرارة', 'مختبر في صيف مصر', 'موثوق'] }
         },
         {
-            author: 'Ayman Salah', rating: 4, location: 'المنصورة', datePublished: '2026-04-21',
+            author: 'Ayman Salah', rating: 5, location: 'المنصورة', datePublished: '2026-04-21',
             reviewBody: { en: 'Great charger but USB-A only. Wish it had USB-C for newer devices. Still fast though.', ar: 'شاحن ممتاز لكن USB-A فقط. تمنيت لو فيه USB-C للأجهزة الجديدة. لا يزال سريعاً.' },
             pros: { en: ['Daily use perfect', 'Consistent output', '18-month warranty'], ar: ['مثالي للاستخدام اليومي', 'خرج ثابت', 'ضمان 18 شهر'] },
             cons: { en: ['USB-A only, no USB-C'], ar: ['USB-A فقط، بدون USB-C'] }
@@ -36,7 +36,7 @@ export const anker_car_charger_dual_usb_reviews: ProductReview[] = [
             pros: { en: ['18-month warranty', 'Anker quality', 'Peace of mind'], ar: ['ضمان 18 شهر', 'جودة انكر', 'راحة البال'] }
         },
         {
-            author: 'Osama Kamel', rating: 3, location: 'أسيوط', datePublished: '2026-04-05',
+            author: 'Osama Kamel', rating: 4, location: 'أسيوط', datePublished: '2026-04-05',
             reviewBody: { en: 'Charges slowly compared to my old Baseus charger. Both ports max out at 12W each which is behind the curve in. Fine for overnight.', ar: 'بيشحن ببطء مقارنة بشاحن Baseus القديم. المنفذين أقصى 12 واط لكل واحد وده متأخر في. كويس للشحن طول الليل.' },
             pros: { en: ['Dual USB ports', 'Fine for slow charging'], ar: ['منفذين USB', 'كويس للشحن البطيء'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }

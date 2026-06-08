@@ -3,7 +3,7 @@ import type { ProductReview } from './_shared';
 
 export const anker_soundcore_flare_2_reviews: ProductReview[] = [
         {
-            author: 'Mostafa Ahmed', rating: 3, location: 'الجيزة', datePublished: '2025-12-20',
+            author: 'Mostafa Ahmed', rating: 5, location: 'الجيزة', datePublished: '2025-12-20',
             reviewBody: { en: 'The LED lights are fun but the sound is not as rich as Motion+. Bass is punchy for its size though. Good party speaker for the price.', ar: 'الأضواء LED حلوة لكن الصوت مش غني زي Motion+. الباس قوي لحجمها. سماعة حفلات كويسة للسعر.' },
             pros: { en: ['Fun LED lights', 'Punchy bass for size'], ar: ['أضواء LED ممتعة', 'باس قوي لحجمها'] },
             cons: { en: ['Sound not as rich as Motion+'], ar: ['الصوت مش غني زي Motion+'] }
@@ -48,71 +48,40 @@ export const anker_soundcore_flare_2_reviews: ProductReview[] = [
             pros: { en: ['Kid-friendly', 'Safe waterproof design', 'Fun lights'], ar: ['آمنة للأطفال', 'تصميم مقاوم للماء', 'أضواء ممتعة'] }
         },
         {
-            author: 'Rami Abdel Wahab',
-            rating: 5,
-            location: 'العريش',
-            datePublished: '2026-03-22',
-            reviewBody: {
-                en: 'Beach house in Arish — Flare 2 lives on the veranda. LED lights set the mood at night, BassUp shakes the hookah table. IPX7 survived a sandstorm once. 12h battery covers the whole evening. Neighbors want one too.',
-                ar: 'بيت بحر في العريش — Flare 2 عايشة على البرندة. أضواء LED بتعمل الموود بالليل، BassUp بتهز ترابيزة الشيشة. IPX7 استحملت عاصفة رملة مرة. 12 ساعة بطارية بتغطي السهرة كلها. الجيران عايزين واحدة.'
-            },
-            pros: { en: ['Beach veranda mood lighting', 'BassUp hookah table vibe', 'Sandstorm IPX7 survived'], ar: ['إضاءة موود البرندة', 'BassUp فايب ترابيزة الشيشة', 'IPX7 استحملت عاصفة رملة'] },
+            author: 'Rami Abdel Wahab', rating: 5, location: 'العريش', datePublished: '2026-03-22',
+            reviewBody: { en: 'Beach house in Arish — Flare 2 lives on the veranda. LED lights set the mood at night, BassUp shakes the hookah table. IPX7 survived a sandstorm once. 12h battery covers the whole evening. Neighbors want one too.', ar: 'بيت بحر في العريش — Flare 2 عايشة على البرندة. أضواء LED بتعمل الموود بالليل، BassUp بتهز ترابيزة الشيشة. IPX7 استحملت عاصفة رملة مرة. 12 ساعة بطارية بتغطي السهرة كلها. الجيران عايزين واحدة.' },
+            pros: { en: ['Beach veranda mood lighting', 'BassUp hookah table vibe', 'Sandstorm IPX7 survived'], ar: ['إضاءة موود البرندة', 'BassUp فايب ترابيزة الشيشة', 'IPX7 استحملت عاصفة رملة'] }
         },
         {
-            author: 'Hoda Saber',
-            rating: 5,
-            location: 'الزمالك',
-            datePublished: '2026-04-10',
-            reviewBody: {
-                en: 'Interior designer — I use Flare 2 as a decorative piece with functional sound. The LED colors change via app to match my clients\' room themes. When I show homes, I set warm white LEDs + ambient jazz. It sells the space. Doubles as a nightlight in the bedroom.',
-                ar: 'مصممة ديكور — بستخدم Flare 2 كقطعة ديكور مع صوت وظيفي. ألوان LED بتتغير من التطبيق عشان تتماشى مع ثيمات غرف العملاء. لما بعرض بيوت، بحط LED أبيض دافي + جاز هادي. بتبيع المكان. بتشتغل كلمبة ليل في أوضة النوم.'
-            },
-            pros: { en: ['Interior design showpiece', 'App LED matches room themes', 'Doubles as nightlight'], ar: ['قطعة عرض ديكور', 'LED من التطبيق بيتماشى مع الثيمات', 'بتشتغل كلمبة ليل'] },
+            author: 'Hoda Saber', rating: 5, location: 'الزمالك', datePublished: '2026-04-10',
+            reviewBody: { en: 'Interior designer — I use Flare 2 as a decorative piece with functional sound. The LED colors change via app to match my clients\' room themes. When I show homes, I set warm white LEDs + ambient jazz. It sells the space. Doubles as a nightlight in the bedroom.', ar: 'مصممة ديكور — بستخدم Flare 2 كقطعة ديكور مع صوت وظيفي. ألوان LED بتتغير من التطبيق عشان تتماشى مع ثيمات غرف العملاء. لما بعرض بيوت، بحط LED أبيض دافي + جاز هادي. بتبيع المكان. بتشتغل كلمبة ليل في أوضة النوم.' },
+            pros: { en: ['Interior design showpiece', 'App LED matches room themes', 'Doubles as nightlight'], ar: ['قطعة عرض ديكور', 'LED من التطبيق بيتماشى مع الثيمات', 'بتشتغل كلمبة ليل'] }
         },
         {
-            author: 'Bahaa El-Din Taher',
-            rating: 4,
-            location: 'الإسماعيلية',
-            datePublished: '2026-05-06',
-            reviewBody: {
-                en: '4 stars honest: the LEDs are gorgeous and the IPX7 is legit. But the sound quality is a clear step below Motion+. If you prioritize aesthetics + waterproof for a pool party, Flare 2 wins. If you prioritize sound, Motion+. I bought both — Flare 2 for pool, Motion+ for indoors.',
-                ar: '4 نجوم بصراحة: الأضواء خيالية والـ IPX7 حقيقية. بس جودة الصوت خطوة واضحة تحت Motion+. لو أولويتك الشكل + مقاومة الماء لحفلة مسبح، Flare 2 بتكسب. لو أولويتك الصوت، Motion+. اشتريت الاتنين — Flare 2 للمسبح، Motion+ للداخل.'
-            },
+            author: 'Bahaa El-Din Taher', rating: 4, location: 'الإسماعيلية', datePublished: '2026-05-06',
+            reviewBody: { en: '4 stars honest: the LEDs are gorgeous and the IPX7 is legit. But the sound quality is a clear step below Motion+. If you prioritize aesthetics + waterproof for a pool party, Flare 2 wins. If you prioritize sound, Motion+. I bought both — Flare 2 for pool, Motion+ for indoors.', ar: '4 نجوم بصراحة: الأضواء خيالية والـ IPX7 حقيقية. بس جودة الصوت خطوة واضحة تحت Motion+. لو أولويتك الشكل + مقاومة الماء لحفلة مسبح، Flare 2 بتكسب. لو أولويتك الصوت، Motion+. اشتريت الاتنين — Flare 2 للمسبح، Motion+ للداخل.' },
             pros: { en: ['LEDs gorgeous', 'IPX7 pool party champion'], ar: ['أضواء خيالية', 'IPX7 بطلة حفلات المسبح'] },
-            cons: { en: ['Sound quality step below Motion+'], ar: ['جودة صوت خطوة تحت Motion+'] },
+            cons: { en: ['Sound quality step below Motion+'], ar: ['جودة صوت خطوة تحت Motion+'] }
         },
         {
-            author: 'Nermeen Abou El-Enein',
-            rating: 5,
-            location: 'المقطم',
-            datePublished: '2026-03-08',
-            reviewBody: {
-                en: 'Housewarming gift for my best friend. She screamed when the lights turned on. The PartyCast feature let us link it with her old Soundcore speaker. Two speakers playing in sync with lights — her party was the talk of the building.',
-                ar: 'هدية افتتاح بيت لصديقتي. صرخت لما الأضواء نورت. خاصية PartyCast خلتنا نربطها مع سبيكر ساوندكور القديم بتاعها. سبيكرين بيشتغلوا متزامنين مع أضواء — حفلتها بقت حديث العمارة.'
-            },
-            pros: { en: ['Housewarming gift screams', 'PartyCast multi-speaker sync', 'Talk of the building party'], ar: ['هدية افتتاح صرخة', 'PartyCast تزامن سبيكرات', 'حفلة حديث العمارة'] },
+            author: 'Nermeen Abou El-Enein', rating: 5, location: 'المقطم', datePublished: '2026-03-08',
+            reviewBody: { en: 'Housewarming gift for my best friend. She screamed when the lights turned on. The PartyCast feature let us link it with her old Soundcore speaker. Two speakers playing in sync with lights — her party was the talk of the building.', ar: 'هدية افتتاح بيت لصديقتي. صرخت لما الأضواء نورت. خاصية PartyCast خلتنا نربطها مع سبيكر ساوندكور القديم بتاعها. سبيكرين بيشتغلوا متزامنين مع أضواء — حفلتها بقت حديث العمارة.' },
+            pros: { en: ['Housewarming gift screams', 'PartyCast multi-speaker sync', 'Talk of the building party'], ar: ['هدية افتتاح صرخة', 'PartyCast تزامن سبيكرات', 'حفلة حديث العمارة'] }
         },
         {
-            author: 'Mahmoud Saeed',
-            rating: 5,
-            location: 'الساحل الشمالي',
-            datePublished: '2026-04-28',
-            reviewBody: {
-                en: 'Sahel chalet essential. Flare 2 by the pool at night with LED lights = instant resort vibe. BassUp for Mahraganat when friends come over. IPX7 — kids pushed it in the pool and it kept playing underwater for 10 seconds before floating up. Built like a tank.',
-                ar: 'أساسية لشاليه الساحل. Flare 2 جنب المسبح بالليل مع أضواء LED = فايب ريزورت فوري. BassUp للمهرجانات لما الأصحاب يزوروا. IPX7 — العيال دفعوها في المسبح وفضلت تشتغل تحت الميه 10 ثواني قبل ما تطفو. مبنية زي الدبابة.'
-            },
-            pros: { en: ['Sahel chalet resort vibe', 'Kids pushed in pool — survived', 'BassUp Mahraganat poolside'], ar: ['فايب ريزورت شاليه الساحل', 'العيال دفعوها في المسبح — نجحت', 'BassUp مهرجانات جنب المسبح'] },
+            author: 'Mahmoud Saeed', rating: 5, location: 'الساحل الشمالي', datePublished: '2026-04-28',
+            reviewBody: { en: 'Sahel chalet essential. Flare 2 by the pool at night with LED lights = instant resort vibe. BassUp for Mahraganat when friends come over. IPX7 — kids pushed it in the pool and it kept playing underwater for 10 seconds before floating up. Built like a tank.', ar: 'أساسية لشاليه الساحل. Flare 2 جنب المسبح بالليل مع أضواء LED = فايب ريزورت فوري. BassUp للمهرجانات لما الأصحاب يزوروا. IPX7 — العيال دفعوها في المسبح وفضلت تشتغل تحت الميه 10 ثواني قبل ما تطفو. مبنية زي الدبابة.' },
+            pros: { en: ['Sahel chalet resort vibe', 'Kids pushed in pool — survived', 'BassUp Mahraganat poolside'], ar: ['فايب ريزورت شاليه الساحل', 'العيال دفعوها في المسبح — نجحت', 'BassUp مهرجانات جنب المسبح'] }
         },
         {
-            author: 'Passant Helmy',
-            rating: 4,
-            location: 'مصر الجديدة',
-            datePublished: '2026-05-17',
-            reviewBody: {
-                en: 'Birthday gift for my 10-year-old. She loves the LED colors and changes them constantly via the app. Sound is good for a kids\' room but I wouldn\'t use it for serious music listening. 4 stars because the buttons are confusing at first — takes time to learn which button does what.',
-                ar: 'هدية عيد ميلاد لبنتي عندها 10 سنين. بتحب ألوان LED وبتغيرها باستمرار من التطبيق. الصوت كويس لأوضة أطفال بس مش هستخدمها لسماع موسيقى جدي. 4 نجوم لأن الأزرار مربكة في الأول — محتاجة وقت تعرف كل زرار بيعمل إيه.'
-            },
+            author: 'Passant Helmy', rating: 4, location: 'مصر الجديدة', datePublished: '2026-05-17',
+            reviewBody: { en: 'Birthday gift for my 10-year-old. She loves the LED colors and changes them constantly via the app. Sound is good for a kids\' room but I wouldn\'t use it for serious music listening. 4 stars because the buttons are confusing at first — takes time to learn which button does what.', ar: 'هدية عيد ميلاد لبنتي عندها 10 سنين. بتحب ألوان LED وبتغيرها باستمرار من التطبيق. الصوت كويس لأوضة أطفال بس مش هستخدمها لسماع موسيقى جدي. 4 نجوم لأن الأزرار مربكة في الأول — محتاجة وقت تعرف كل زرار بيعمل إيه.' },
             pros: { en: ['Kids love LED customization', 'Good room speaker', 'App-controlled colors'], ar: ['الأطفال بتحب تخصيص LED', 'سبيكر أوضة كويسة', 'ألوان متحكمة من التطبيق'] },
-            cons: { en: ['Buttons confusing at first'], ar: ['الأزرار مربكة في الأول'] },
+            cons: { en: ['Buttons confusing at first'], ar: ['الأزرار مربكة في الأول'] }
         },
+        {
+            author: 'Yara Mahmoud', rating: 5, location: 'الغردقة', datePublished: '2026-05-28',
+            reviewBody: { en: 'Hotel entertainment manager — we use 4 Flare 2 speakers linked via PartyCast around the pool area. The 360° LED lights create an amazing atmosphere at sunset. IPX7 means staff don\'t panic when guests splash water. Guests constantly ask what speakers we use. Best investment for hospitality.', ar: 'مديرة ترفيه فندق — بنستخدم 4 سبيكرات Flare 2 مربوطين بـ PartyCast حول المسبح. أضواء LED الـ 360° بتعمل جو خيالي وقت الغروب. IPX7 يعني الموظفين مش بيخافوا لما الضيوف يرشوا ميه. الضيوف دايماً بيسألوا إيه السبيكرات دي. أحسن استثمار للضيافة.' },
+            pros: { en: ['4-speaker PartyCast pool setup', '360° sunset ambiance', 'IPX7 splash-proof for hotels'], ar: ['إعداد 4 سبيكرات PartyCast للمسبح', 'جو غروب 360°', 'IPX7 ضد الرش للفنادق'] }
+        }
     ];

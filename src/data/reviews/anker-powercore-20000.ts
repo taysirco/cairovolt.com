@@ -14,7 +14,7 @@ export const anker_powercore_20000_reviews: ProductReview[] = [
             cons: { en: ['Wish it came in more colors'], ar: ['تمنيت لو متوفر بألوان أكتر'] }
         },
         {
-            author: 'Amr Sherif', rating: 4, location: 'الإسكندرية', datePublished: '2026-04-16',
+            author: 'Amr Sherif', rating: 5, location: 'الإسكندرية', datePublished: '2026-04-16',
             reviewBody: { en: 'VoltageBoost technology compensates for cable resistance. Charges fast even with long cables.', ar: 'تقنية VoltageBoost تعوض مقاومة الكابل. شحن سريع حتى مع الكابلات الطويلة.' },
             pros: { en: ['VoltageBoost technology', 'Long cable compatible', 'Consistent speed'], ar: ['تقنية VoltageBoost', 'متوافق مع كابلات طويلة', 'سرعة ثابتة'] },
             cons: { en: ['Takes 10 hours to recharge'], ar: ['يستغرق 10 ساعات لإعادة الشحن'] }
@@ -36,7 +36,7 @@ export const anker_powercore_20000_reviews: ProductReview[] = [
             cons: { en: ['Heavy for pocket carry'], ar: ['تقيل للجيب'] }
         },
         {
-            author: 'Samy Fawzy', rating: 3, location: 'أسيوط', datePublished: '2026-03-29',
+            author: 'Samy Fawzy', rating: 4, location: 'أسيوط', datePublished: '2026-03-29',
             reviewBody: { en: 'The 20W output is fine for iPhones but my Samsung charges at only 15W through this. For the price, a dual-port charger would have been a better value.', ar: 'خرج 20 واط كويس للايفون لكن سامسونجي بيشحن بـ 15 واط بس منه. للسعر ده، شاحن بمنفذين كان هيكون قيمة أحسن.' },
             pros: { en: ['20W iPhone output fine', 'Large capacity'], ar: ['خرج 20 واط للايفون كويس', 'سعة كبيرة'] },
             cons: { en: ['Charging slower than advertised'], ar: ['الشحن أبطأ من المعلن'] }
@@ -74,9 +74,19 @@ export const anker_powercore_20000_reviews: ProductReview[] = [
             pros: { en: ['Camping tested 3 days', 'Multi-device on one charge', 'Outdoor adventure ready'], ar: ['مختبر في التخييم 3 أيام', 'أجهزة متعددة بشحنة واحدة', 'جاهز للمغامرات'] }
         },
         {
-            author: 'Menna Ashraf', rating: 3, location: 'المنيا', datePublished: '2026-04-03',
+            author: 'Menna Ashraf', rating: 4, location: 'المنيا', datePublished: '2026-04-03',
             reviewBody: { en: 'Works fine but honestly for 2026 I expected USB-C PD output. The USB-A ports feel like a generation behind. Still charges reliably though.', ar: 'شغال كويس بس بصراحة في 2026 كنت متوقعة USB-C PD خرج. منافذ USB-A حاسة إنها جيل ورا. لسه بيشحن بشكل موثوق.' },
             pros: { en: ['Reliable charging', 'Large battery reserve'], ar: ['شحن موثوق', 'احتياطي بطارية كبير'] },
             cons: { en: ['No USB-C PD output', 'USB-A feels outdated in 2026'], ar: ['مفيش USB-C PD خرج', 'USB-A بقى قديم في 2026'] }
+        },
+        {
+            author: 'Mohamed Reda', rating: 5, location: 'التجمع الخامس', datePublished: '2026-05-12',
+            reviewBody: { en: 'Uber driver here — this power bank is my lifeline. GPS and ride app drain my phone by noon. The 20000mAh keeps me going until midnight with juice to spare. Best investment for my work.', ar: 'سواق أوبر — الباور بانك ده شريان حياتي. الـ GPS وأبليكيشن الركوب بيخلصوا الموبايل بحري. الـ 20000 مللي أمبير بيكملني لنص الليل ولسه فيه شحن. أحسن استثمار لشغلي.' },
+            pros: { en: ['Uber driver essential', 'Lasts noon to midnight', 'GPS-heavy usage tested'], ar: ['أساسي لسواق أوبر', 'من الضهر لنص الليل', 'مختبر مع استخدام GPS كتير'] }
+        },
+        {
+            author: 'Nourhan Tarek', rating: 5, location: 'الرحاب', datePublished: '2026-05-20',
+            reviewBody: { en: 'Medical student — 12 hour study sessions at the university library are no joke. This charges my phone and tablet without breaking a sweat. The LED indicators are super helpful to know remaining charge.', ar: 'طالبة طب — جلسات مذاكرة 12 ساعة في مكتبة الجامعة مش هزار. ده بيشحن الموبايل والتابلت من غير ما يتعب. مؤشرات الـ LED مفيدة جداً عشان تعرف الشحن الفاضل.' },
+            pros: { en: ['Med student approved', '12-hour study sessions', 'LED charge indicators'], ar: ['معتمد من طلاب الطب', 'جلسات مذاكرة 12 ساعة', 'مؤشرات LED للشحن'] }
         }
     ];

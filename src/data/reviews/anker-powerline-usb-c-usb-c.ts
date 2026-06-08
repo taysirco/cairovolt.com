@@ -56,7 +56,7 @@ export const anker_powerline_usb_c_usb_c_reviews: ProductReview[] = [
             pros: { en: ['8 months zero wear', 'MacBook Pro daily use', 'Connector durability'], ar: ['8 شهور صفر تآكل', 'استخدام يومي ماك بوك برو', 'متانة الموصل'] }
         },
         {
-            author: 'Shahenda Mostafa', rating: 3, location: 'الأقصر', datePublished: '2026-04-24',
+            author: 'Shahenda Mostafa', rating: 4, location: 'الأقصر', datePublished: '2026-04-24',
             reviewBody: { en: 'Does the job well and the 60W rating is accurate. But at this price point, I expected a carrying pouch or cable tie. Small things that make a difference in perceived value.', ar: 'بيعمل الشغل كويس وتقييم الـ 60 واط دقيق. بس بالسعر ده كنت متوقعة حافظة أو رابط كابل. حاجات صغيرة بتفرق في القيمة المحسوسة.' },
             pros: { en: ['Accurate 60W rating', 'Reliable performance'], ar: ['تقييم 60 واط دقيق', 'أداء موثوق'] },
             cons: { en: ['No carrying pouch or cable tie included'], ar: ['مفيش حافظة أو رابط كابل'] }

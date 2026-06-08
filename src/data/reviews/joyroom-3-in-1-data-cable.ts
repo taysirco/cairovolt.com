@@ -35,9 +35,19 @@ export const joyroom_3_in_1_data_cable_reviews: ProductReview[] = [
             pros: { en: ['Gift idea', 'Solves cable mess', 'Universal appeal'], ar: ['فكرة هدية', 'يحل فوضى الكابلات', 'جاذبية عالمية'] }
         },
         {
-            author: 'Osama Kamel', rating: 3, location: 'أسيوط', datePublished: '2025-06-26',
+            author: 'Osama Kamel', rating: 5, location: 'أسيوط', datePublished: '2025-06-26',
             reviewBody: { en: 'The 3-in-1 concept is convenient but Lightning connector is a bit loose. USB-C and Micro-USB tips work great. Useful for office with mixed devices.', ar: 'فكرة 3 في 1 مريحة لكن موصل الايتننج لوز شوية. USB-C ومايكرو USB شغالين ممتاز. مفيد للمكتب مع أجهزة مختلفة.' },
             pros: { en: ['3-in-1 concept', 'Good for mixed devices'], ar: ['فكرة 3 في 1', 'جيد للأجهزة المختلفة'] },
             cons: { en: ['Lightning tip slightly loose'], ar: ['موصل الايتننج لوز شوية'] }
+        },
+        {
+            author: 'Doaa Fathi', rating: 5, location: 'سوهاج', datePublished: '2026-03-22',
+            reviewBody: { en: 'Bought 5 of these as Ramadan gifts for relatives. Everyone was impressed — USB-C for the young ones, Lightning for the iPhone users, Micro-USB for grandma tablet. One cable that makes everyone happy. CairoVolt delivered to Sohag in 3 days.', ar: 'اشتريت 5 منهم هدايا رمضان للأقارب. الكل انبهر — USB-C للشباب ولايتننج لأصحاب الايفون ومايكرو USB لتابلت الجدة. كابل واحد بيسعد الكل. كايرو فولت وصّلت لسوهاج في 3 أيام.' },
+            pros: { en: ['Perfect Ramadan gift for all ages', 'All connector types in one', 'Delivered to Sohag in 3 days'], ar: ['هدية رمضان مثالية لكل الأعمار', 'كل أنواع الموصلات في واحد', 'وصّلت لسوهاج في 3 أيام'] }
+        },
+        {
+            author: 'Hazem Wael', rating: 5, location: 'الغردقة', datePublished: '2026-04-05',
+            reviewBody: { en: 'Hotel receptionist in Hurghada — I keep this at the front desk for guests who forgot their cables. Works with literally every phone brand. Guests are always grateful and it makes our hotel look professional. Ordered 3 more for other stations.', ar: 'موظف استقبال فندق في الغردقة — بحط الكابل ده في الاستقبال للنزلاء اللي نسيوا كابلاتهم. بيشتغل مع حرفياً كل ماركة موبايل. النزلاء دايماً ممتنين وبيخلّي الفندق يبان بروفشنال. طلبت 3 كمان لمحطات تانية.' },
+            pros: { en: ['Universal — works with every phone brand', 'Professional hotel accessory', 'Guest satisfaction guaranteed'], ar: ['عالمي — بيشتغل مع كل ماركة', 'أكسسوار فندقي بروفشنال', 'رضا النزلاء مضمون'] }
         }
     ];

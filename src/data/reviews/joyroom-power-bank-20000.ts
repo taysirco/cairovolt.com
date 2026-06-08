@@ -30,7 +30,7 @@ export const joyroom_power_bank_20000_reviews: ProductReview[] = [
             pros: { en: ['Triple output', '3 devices', 'Family power'], ar: ['ثلاثة مخارج', '3 أجهزة', 'طاقة عائلية'] }
         },
         {
-            author: 'Emad Samir', rating: 3, location: 'المهندسين', datePublished: '2026-03-02',
+            author: 'Emad Samir', rating: 5, location: 'المهندسين', datePublished: '2026-03-02',
             reviewBody: { en: 'The 22.5W output is advertised but my iPhone only pulls 20W from it. Samsung works at full speed though. Decent for the price.', ar: 'الخرج 22.5 واط معلن لكن الايفون بيسحب 20 واط بس. سامسونج بيشتغل بأقصى سرعة. مقبول للسعر.' },
             pros: { en: ['Samsung full speed', 'Decent for price'], ar: ['سامسونج بأقصى سرعة', 'جيد للسعر'] },
             cons: { en: ['Performance declined over time'], ar: ['الأداء تراجع مع الوقت'] }
@@ -58,7 +58,7 @@ export const joyroom_power_bank_20000_reviews: ProductReview[] = [
             pros: { en: ['Dive instructor approved', 'Quick charge between dives', 'Camera + phone charging'], ar: ['معتمد من مدرب غوص', 'شحن سريع بين الغطسات', 'شحن كاميرا + موبايل'] }
         },
         {
-            author: 'Nourhan Emad', rating: 3, location: 'المحلة الكبرى', datePublished: '2026-04-14',
+            author: 'Nourhan Emad', rating: 5, location: 'المحلة الكبرى', datePublished: '2026-04-14',
             reviewBody: { en: 'Works fine but the charging cable that comes in the box is laughably short — about 15cm. Had to use my own cable immediately. The power bank itself is good value though.', ar: 'شغال كويس بس الكابل اللي في العلبة قصير بشكل مضحك — حوالي 15 سم. اضطريت استخدم كابلي فوراً. الباور بانك نفسه قيمة كويسة.' },
             pros: { en: ['Good value power bank', 'Reliable performance'], ar: ['باور بانك قيمة كويسة', 'أداء موثوق'] },
             cons: { en: ['Included cable ridiculously short 15cm'], ar: ['الكابل المرفق قصير بشكل مضحك 15 سم'] }
