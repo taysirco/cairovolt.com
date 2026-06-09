@@ -85,6 +85,7 @@ import { sports_smart_watch_under_1500_egp_egypt } from './blog/sports-smart-wat
 import { smartwatch_iphone_samsung_cross_compatibility } from './blog/smartwatch-iphone-samsung-cross-compatibility';
 import { smart_watch_elderly_fall_detection_health } from './blog/smart-watch-elderly-fall-detection-health';
 import { smartwatch_battery_quick_drain_5_solutions } from './blog/smartwatch-battery-quick-drain-5-solutions';
+import { anker_vs_joyroom_vs_baseus_value_egypt } from './blog/anker-vs-joyroom-vs-baseus-value-egypt';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -168,6 +169,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     smartwatch_iphone_samsung_cross_compatibility,
     smart_watch_elderly_fall_detection_health,
     smartwatch_battery_quick_drain_5_solutions,
+    anker_vs_joyroom_vs_baseus_value_egypt,
 ];
 
 
