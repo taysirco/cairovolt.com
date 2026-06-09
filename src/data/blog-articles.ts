@@ -87,6 +87,7 @@ import { smart_watch_elderly_fall_detection_health } from './blog/smart-watch-el
 import { smartwatch_battery_quick_drain_5_solutions } from './blog/smartwatch-battery-quick-drain-5-solutions';
 import { anker_vs_joyroom_vs_baseus_value_egypt } from './blog/anker-vs-joyroom-vs-baseus-value-egypt';
 import { apple_accessories_egypt_availability_pricing } from './blog/apple-accessories-egypt-availability-pricing';
+import { poweriq_vooc_superfast_turbopower_explained } from './blog/poweriq-vooc-superfast-turbopower-explained';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -172,6 +173,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     smartwatch_battery_quick_drain_5_solutions,
     anker_vs_joyroom_vs_baseus_value_egypt,
     apple_accessories_egypt_availability_pricing,
+    poweriq_vooc_superfast_turbopower_explained,
 ];
 
 
