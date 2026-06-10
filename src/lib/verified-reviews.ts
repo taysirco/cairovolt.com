@@ -225,7 +225,23 @@ export async function submitReview(submission: ReviewSubmission): Promise<{ succ
 // ============================================
 
 /**
- * Get approved reviews for a product
+ * Synthetic reviews injected by the (now removed) /api/reviews/seed and
+ * /api/reviews/seed-v2 endpoints carry generated order identifiers:
+ *   v1: orderId/orderDocId = `SEED-{timestamp}-{i}`
+ *   v2: orderId = `ORD-{timestamp}-{rand}`, orderDocId = `DOC-{timestamp}-{i}`
+ * Real reviews reference an actual Firestore order document (20-char auto-ID,
+ * no hyphens), so these prefixes are a reliable fingerprint. Excluding them at
+ * read time keeps every consumer (JSON-LD, aggregateRating, UI) honest even
+ * while the seeded documents still exist in the collection.
+ */
+const SEEDED_ID_PATTERN = /^(SEED-|DOC-\d|ORD-\d{13}-)/;
+
+function isSeededReview(data: { orderId?: string; orderDocId?: string }): boolean {
+    return SEEDED_ID_PATTERN.test(data.orderDocId || '') || SEEDED_ID_PATTERN.test(data.orderId || '');
+}
+
+/**
+ * Get approved reviews for a product — genuine, order-backed reviews ONLY.
  */
 export async function getProductReviews(productSlug: string, limit: number = 20): Promise<VerifiedReview[]> {
     try {
@@ -237,15 +253,17 @@ export async function getProductReviews(productSlug: string, limit: number = 20)
             .limit(limit)
             .get();
 
-        return snapshot.docs.map(doc => {
-            const data = doc.data();
-            return {
-                id: doc.id,
-                ...data,
-                purchaseDate: data.purchaseDate?.toDate?.() || new Date(),
-                reviewDate: data.reviewDate?.toDate?.() || new Date()
-            } as VerifiedReview;
-        });
+        return snapshot.docs
+            .filter(doc => !isSeededReview(doc.data() as { orderId?: string; orderDocId?: string }))
+            .map(doc => {
+                const data = doc.data();
+                return {
+                    id: doc.id,
+                    ...data,
+                    purchaseDate: data.purchaseDate?.toDate?.() || new Date(),
+                    reviewDate: data.reviewDate?.toDate?.() || new Date()
+                } as VerifiedReview;
+            });
     } catch (error) {
         logger.warn('Failed to fetch reviews:', error);
         return [];
@@ -258,13 +276,15 @@ export async function getProductReviews(productSlug: string, limit: number = 20)
 export async function getProductReviewCount(productSlug: string): Promise<number> {
     try {
         const db = await getFirestore();
+        // Projection query instead of .count(): seeded reviews must be
+        // excluded, and that requires inspecting order identifiers.
         const snapshot = await db.collection('reviews')
             .where('productSlug', '==', productSlug)
             .where('status', '==', 'approved')
-            .count()
+            .select('orderId', 'orderDocId')
             .get();
 
-        return snapshot.data().count;
+        return snapshot.docs.filter(doc => !isSeededReview(doc.data() as { orderId?: string; orderDocId?: string })).length;
     } catch (error) {
         logger.warn('Failed to get review count:', error);
         return 0;
