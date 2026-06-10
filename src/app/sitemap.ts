@@ -33,13 +33,19 @@ function buildAlternates(path: string) {
     };
 }
 
-/** Arabic entry — full priority */
+/**
+ * Arabic entry — full priority.
+ * lastModified is emitted ONLY when a real modification date is known.
+ * A fabricated site-wide default teaches Google to distrust the whole
+ * sitemap's lastmod signal, which hurts recrawl scheduling for the pages
+ * (blog) where the date IS real.
+ */
 function arEntry(path: string, priority: number, freq: MetadataRoute.Sitemap[0]['changeFrequency'], lastMod?: Date): MetadataRoute.Sitemap[0] {
     return {
         url: `${baseUrl}${path}`,
         priority,
         changeFrequency: freq,
-        lastModified: lastMod || new Date('2026-03-15'),
+        ...(lastMod && { lastModified: lastMod }),
         alternates: buildAlternates(path),
     };
 }
@@ -50,7 +56,7 @@ function enEntry(path: string, priority: number, freq: MetadataRoute.Sitemap[0][
         url: `${baseUrl}/en${path}`,
         priority: Math.round(priority * 0.6 * 10) / 10, // 60% of Arabic priority
         changeFrequency: freq,
-        lastModified: lastMod || new Date('2026-03-15'),
+        ...(lastMod && { lastModified: lastMod }),
         alternates: buildAlternates(path),
     };
 }
@@ -119,7 +125,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             const path = `/${toLower(product.brand)}/${toLower(product.categorySlug)}/${product.slug}`;
             const hasLabData = !!(labData[product.slug] || getProductDetail(product.slug)?.labVerified);
             const priority = hasLabData ? 1.0 : 0.9;
-            addBilingual(routes, path, priority, 'daily');
+            // 'weekly' is the honest cadence — product copy rarely changes daily,
+            // and overstating freshness erodes sitemap trust.
+            addBilingual(routes, path, priority, 'weekly');
         });
 
     // Firebase-only products
@@ -165,38 +173,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Solutions data not available
     }
 
-    // ── AI & Machine-Readable Endpoints ──
-    // Critical for Google Dataset Search indexing + AI model discovery
-    routes.push({
-        url: `${baseUrl}/.well-known/llms.txt`,
-        priority: 0.6,
-        changeFrequency: 'weekly',
-        lastModified: new Date('2026-03-15'),
-    });
-    routes.push({
-        url: `${baseUrl}/.well-known/llms-full.txt`,
-        priority: 0.5,
-        changeFrequency: 'weekly',
-        lastModified: new Date('2026-03-15'),
-    });
-    routes.push({
-        url: `${baseUrl}/api/lab-data/json`,
-        priority: 0.6,
-        changeFrequency: 'monthly',
-        lastModified: new Date('2026-03-15'),
-    });
-    routes.push({
-        url: `${baseUrl}/api/knowledge-graph`,
-        priority: 0.5,
-        changeFrequency: 'monthly',
-        lastModified: new Date('2026-03-15'),
-    });
-    routes.push({
-        url: `${baseUrl}/api/openapi.json`,
-        priority: 0.4,
-        changeFrequency: 'monthly',
-        lastModified: new Date('2026-01-15'),
-    });
+    // NOTE: machine-readable endpoints (llms.txt, /api/knowledge-graph,
+    // /api/lab-data/json, openapi.json) are deliberately NOT in the sitemap.
+    // Sitemaps are for canonical, indexable HTML pages; non-HTML endpoints
+    // here only generate "crawled — currently not indexed" noise in Search
+    // Console. AI agents discover them via robots.txt, the bot-only Link
+    // header (middleware), and the /.well-known/ convention.
 
     return routes;
 }

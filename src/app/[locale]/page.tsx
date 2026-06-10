@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 import { Metadata } from 'next';
-import { OrganizationSchema } from '@/components/schemas/OrganizationSchema';
-import { WebSiteSchema, CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/StructuredDataSchemas';
+import { CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import FAQSection from '@/components/content/FAQSection';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
@@ -115,10 +114,10 @@ export default function Home() {
 
   return (
     <>
-      {/* ==================== Structured Data Markup ==================== */}
-      <OrganizationSchema locale={locale} />
+      {/* ==================== Structured Data Markup ====================
+          #organization + #website live in GlobalBusinessSchema (layout).
+          Here we only add homepage-specific entities that LINK to them. */}
       <LocalBusinessSchema locale={locale} />
-      <WebSiteSchema locale={locale} />
       <CollectionPageSchema
         locale={locale}
         collections={schemaCategories.map(cat => ({

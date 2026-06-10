@@ -131,7 +131,7 @@ export function GenericCategoryContent({
             <main className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'} itemScope itemType="https://schema.org/CollectionPage">
                 <meta itemProp="name" content={content.title} />
                 <meta itemProp="description" content={data.metadata[isArabic ? 'ar' : 'en'].description} />
-                <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-US'} />
+                <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
 
                 {/* Breadcrumb */}
                 <div className="bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800">
@@ -309,7 +309,7 @@ export function GenericCategoryContent({
                         <meta itemProp="author" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
                         <meta itemProp="dateModified" content="2025-12-01" />
                         <meta itemProp="publisher" content={isArabic ? 'كايرو فولت' : 'Cairo Volt'} />
-                        <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-US'} />
+                        <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
                         <div className="container mx-auto px-4 max-w-4xl">
                             <div
                                 className="prose prose-lg dark:prose-invert max-w-none prose-headings:scroll-mt-20 prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-gray-900 dark:prose-h2:text-white prose-table:text-sm prose-th:bg-gray-100 dark:prose-th:bg-gray-800 prose-th:p-3 prose-td:p-3 prose-table:border prose-table:border-gray-200 dark:prose-table:border-gray-700 prose-tr:border-b prose-tr:border-gray-200 dark:prose-tr:border-gray-700 prose-strong:text-gray-900 dark:prose-strong:text-white prose-a:text-blue-600 prose-li:my-1"
@@ -413,7 +413,7 @@ export function GenericCategoryContent({
                             name: content.title,
                             description: data.metadata[isArabic ? 'ar' : 'en'].description,
                             url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}`,
-                            inLanguage: isArabic ? 'ar-EG' : 'en-US',
+                            inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                             dateModified: '2025-12-01',
                             author: {
                                 '@type': 'Organization',

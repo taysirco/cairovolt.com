@@ -125,7 +125,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         "contentUrl": product.videoUrl,
         "embedUrl": product.videoUrl, // For embedded player support
         "duration": "PT2M", // ISO 8601 duration - default 2 minutes
-        "inLanguage": isArabic ? "ar-EG" : "en-US",
+        "inLanguage": isArabic ? "ar-EG" : "en-EG",
         // Engagement signals for video ranking
         "interactionStatistic": {
             "@type": "InteractionCounter",
@@ -135,7 +135,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         "publisher": {
             "@type": "Organization",
             "@id": "https://cairovolt.com/#organization",
-            "name": isArabic ? "كايرو فولت" : "Cairo Volt",
+            "name": isArabic ? "كايرو فولت" : "CairoVolt",
             "logo": {
                 "@type": "ImageObject",
                 "url": `${baseUrl}/logo.png`
@@ -331,7 +331,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             seller: {
                 '@type': 'Organization',
                 '@id': 'https://cairovolt.com/#organization',
-                name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
                 url: baseUrl,
                 identifier: [
                     { '@type': 'PropertyValue', propertyID: 'CommercialRegistry', value: '8446' },
@@ -395,7 +395,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             target: {
                 '@type': 'EntryPoint',
                 urlTemplate: `${baseUrl}/api/v1/quick-cod?sku={sku}&phone={phone_number}`,
-                inLanguage: isArabic ? 'ar-EG' : 'en-US',
+                inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                 actionPlatform: [
                     'https://schema.org/DesktopWebPlatform',
                     'https://schema.org/MobileWebPlatform',
@@ -408,7 +408,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             seller: {
                 '@type': 'Organization',
                 '@id': 'https://cairovolt.com/#organization',
-                name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
                 url: baseUrl,
             },
             deliveryMethod: 'https://schema.org/ParcelService',
@@ -436,15 +436,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 },
                 publisher: {
                     '@type': 'Organization',
-                    name: isArabic ? 'كايرو فولت' : 'Cairo Volt',
+                    name: isArabic ? 'كايرو فولت' : 'CairoVolt',
                 },
                 reviewBody: expertReview.body,
-                reviewRating: {
-                    '@type': 'Rating',
-                    ratingValue: '4.5',
-                    bestRating: '5',
-                    worstRating: '1',
-                },
+                // No reviewRating: lab write-ups are qualitative assessments,
+                // and a fixed editorial score on every product would be a
+                // fabricated rating signal under Google's review policies.
             },
             // Append existing user reviews if any
             ...(reviews || []).map(r => ({

@@ -1,93 +1,177 @@
-import Script from 'next/script';
-
 /**
- * GlobalBusinessSchema
- * 
- * Standard Organization and WebSite JSON-LD definitions for local business logic.
- * Incorporates industry standard affiliations and known domains to establish context.
+ * GlobalBusinessSchema — the SINGLE source of truth for the site-wide
+ * `#organization` and `#website` JSON-LD nodes.
+ *
+ * Rendered once in src/app/[locale]/layout.tsx, so every page (products,
+ * blog, categories…) that references these nodes by @id resolves them —
+ * including `#return-policy`, which ProductSchema offers point to.
+ *
+ * Rules that keep this valid:
+ *  - Plain <script>, NOT next/script: next/script injects after hydration,
+ *    making the markup invisible to non-JS crawlers (GPTBot, ClaudeBot,
+ *    PerplexityBot). JSON-LD must be in the server-rendered HTML.
+ *  - No other component may declare `#organization` or `#website`.
+ *    Page-level entities (e.g. `#local-business` on the homepage) link here
+ *    via parentOrganization/publisher @id references instead.
+ *  - No SearchAction: the site has no /search route, and Google retired
+ *    the sitelinks searchbox in 2024.
  */
 export default function GlobalBusinessSchema({ locale }: { locale: string }) {
     const isArabic = locale === 'ar';
 
     const globalPayload = {
-        "@context": "https://schema.org",
-        "@graph": [
+        '@context': 'https://schema.org',
+        '@graph': [
             {
-                "@type": "WebSite",
-                "@id": "https://cairovolt.com/#website",
-                "url": "https://cairovolt.com/",
-                "name": "CairoVolt | Engineering Grade Accessories",
-                "description": isArabic
-                    ? "المنصة الهندسية الأولى لإكسسوارات الهواتف من أنكر وآبل وجوي روم."
-                    : "The premium engineering platform for Anker, Apple, and Joyroom mobile accessories.",
-                "publisher": {
-                    "@id": "https://cairovolt.com/#organization"
-                },
-                "inLanguage": ["ar-EG", "en-US"]
+                '@type': 'WebSite',
+                '@id': 'https://cairovolt.com/#website',
+                url: 'https://cairovolt.com/',
+                name: 'CairoVolt',
+                alternateName: 'كايرو فولت',
+                description: isArabic
+                    ? 'متجر إكسسوارات الموبايل الأصلية في مصر — أنكر وجوي روم بضمان رسمي وبيانات اختبار معملية.'
+                    : 'Original mobile accessories store in Egypt — Anker & Joyroom with official warranty and lab test data.',
+                publisher: { '@id': 'https://cairovolt.com/#organization' },
+                inLanguage: ['ar-EG', 'en-EG'],
             },
             {
-                "@type": "Organization",
-                "@id": "https://cairovolt.com/#organization",
-                "name": "CairoVolt",
-                "url": "https://cairovolt.com",
-                "logo": {
-                    "@type": "ImageObject",
-                    "name": "CairoVolt Logo",
-                    "url": "https://cairovolt.com/logo.png",
-                    "width": 200,
-                    "height": 60
+                '@type': 'Organization',
+                '@id': 'https://cairovolt.com/#organization',
+                name: 'CairoVolt',
+                alternateName: 'كايرو فولت',
+                legalName: 'شركة كايرو فولت ذات مسئولية محدودة',
+                url: 'https://cairovolt.com',
+                description: isArabic
+                    ? 'كايرو فولت هو الوكيل المعتمد لمنتجات Anker و Joyroom في مصر. نبيع إكسسوارات الموبايل الأصلية مثل الباور بانك، السماعات، والكابلات بضمان رسمي.'
+                    : 'CairoVolt is the authorized distributor for Anker & Joyroom in Egypt. We sell original mobile accessories like power banks, earbuds, and cables with official warranty.',
+                logo: {
+                    '@type': 'ImageObject',
+                    url: 'https://cairovolt.com/logo.png',
+                    width: 1024,
+                    height: 1024,
+                    caption: 'CairoVolt',
                 },
-                "sameAs": [
-                    "https://www.facebook.com/cairovolt",
-                    "https://www.instagram.com/cairovolt",
-                    "https://www.tiktok.com/@cairovolt",
-                    "https://www.linkedin.com/company/cairovolt",
-                    "https://kaggle.com/cairovolt",
-                    "https://wa.me/201558245974",
-                    "https://x.com/cairovolt",
-                    "https://www.youtube.com/@cairovolt"
-                ],
-                "foundingDate": "2021",
-                "foundingLocation": {
-                    "@type": "Place",
-                    "name": "New Damietta City, Egypt",
-                    "sameAs": "https://www.wikidata.org/wiki/Q12211943"
-                },
-                // Industry affiliations and core technology stacks supported
-                "knowsAbout": [
-                    "https://en.wikipedia.org/wiki/Electrical_engineering",
-                    "https://en.wikipedia.org/wiki/Gallium_nitride",
-                    "https://en.wikipedia.org/wiki/Lithium-ion_battery",
-                    "https://en.wikipedia.org/wiki/USB-C",
-                    "https://en.wikipedia.org/wiki/MagSafe"
-                ],
-                // Featured supported vendor ecosystems
-                "mentions": [
+                email: 'support@cairovolt.com',
+                taxID: '777-471-566',
+                vatID: '777-471-566',
+                iso6523Code: '0188:8446',
+                identifier: [
                     {
-                        "@type": "Brand",
-                        "name": "Apple Inc.",
-                        "sameAs": "https://en.wikipedia.org/wiki/Apple_Inc."
+                        '@type': 'PropertyValue',
+                        name: isArabic ? 'رقم التسجيل الضريبي' : 'Tax Registration Number',
+                        value: '777-471-566',
                     },
                     {
-                        "@type": "Brand",
-                        "name": "Anker Innovations",
-                        "sameAs": "https://en.wikipedia.org/wiki/Anker_Innovations"
-                    }
+                        '@type': 'PropertyValue',
+                        name: isArabic ? 'رقم السجل التجاري' : 'Commercial Registration Number',
+                        value: '8446',
+                    },
                 ],
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "name": "CairoVolt Support",
-                    "telephone": "+201558245974",
-                    "contactType": "engineering support",
-                    "areaServed": "EG",
-                    "availableLanguage": ["Arabic", "English"]
-                }
-            }
-        ]
+                brand: [
+                    {
+                        '@type': 'Brand',
+                        name: 'Anker',
+                        sameAs: [
+                            'https://en.wikipedia.org/wiki/Anker_(brand)',
+                            'https://www.wikidata.org/wiki/Q28452620',
+                        ],
+                    },
+                    {
+                        '@type': 'Brand',
+                        name: 'Joyroom',
+                        sameAs: 'https://www.joyroom.com/',
+                    },
+                ],
+                award: [
+                    isArabic ? 'موزع معتمد لمنتجات Anker في مصر' : 'Authorized Distributor for Anker in Egypt',
+                    isArabic ? 'موزع معتمد لمنتجات Joyroom في مصر' : 'Authorized Distributor for Joyroom in Egypt',
+                ],
+                address: {
+                    '@type': 'PostalAddress',
+                    addressLocality: isArabic ? 'القاهرة' : 'Cairo',
+                    addressCountry: 'EG',
+                },
+                foundingDate: '2021',
+                foundingLocation: {
+                    '@type': 'Place',
+                    name: 'New Damietta City, Egypt',
+                    sameAs: 'https://www.wikidata.org/wiki/Q12211943',
+                },
+                numberOfEmployees: {
+                    '@type': 'QuantitativeValue',
+                    minValue: 5,
+                    maxValue: 25,
+                },
+                knowsAbout: [
+                    'https://en.wikipedia.org/wiki/Electrical_engineering',
+                    'https://en.wikipedia.org/wiki/Gallium_nitride',
+                    'https://en.wikipedia.org/wiki/Lithium-ion_battery',
+                    'https://en.wikipedia.org/wiki/USB-C',
+                    'https://en.wikipedia.org/wiki/MagSafe',
+                ],
+                sameAs: [
+                    'https://www.facebook.com/cairovolt',
+                    'https://www.instagram.com/cairovolt',
+                    'https://www.tiktok.com/@cairovolt',
+                    'https://www.linkedin.com/company/cairovolt',
+                    'https://kaggle.com/cairovolt',
+                    'https://wa.me/201558245974',
+                    'https://x.com/cairovolt',
+                    'https://www.youtube.com/@cairovolt',
+                ],
+                contactPoint: {
+                    '@type': 'ContactPoint',
+                    telephone: '+201558245974',
+                    contactType: 'customer service',
+                    areaServed: 'EG',
+                    availableLanguage: ['ar', 'en'],
+                },
+                department: [
+                    {
+                        '@type': 'Organization',
+                        name: isArabic ? 'مختبرات كايرو فولت للفحص التقني' : 'CairoVolt Tech & QA Labs',
+                        description: isArabic ? 'مركز الفحص التقني وإدارة الخوادم' : 'Technical testing center and server management',
+                        address: {
+                            '@type': 'PostalAddress',
+                            addressLocality: 'New Damietta City',
+                            addressCountry: 'EG',
+                        },
+                    },
+                    {
+                        '@type': 'Organization',
+                        name: isArabic ? 'مستودعات كايرو فولت للشحن' : 'CairoVolt Fulfillment Hub',
+                        description: isArabic ? 'مستودعات الشحن اللوجستي' : 'Logistics fulfillment warehouses',
+                        address: {
+                            '@type': 'PostalAddress',
+                            addressLocality: 'New Cairo 3',
+                            addressCountry: 'EG',
+                        },
+                    },
+                ],
+                // Organization-level return policy. Product offers reference it
+                // via @id — defining it here (layout level) means the reference
+                // resolves on EVERY page, not just the homepage.
+                hasMerchantReturnPolicy: {
+                    '@type': 'MerchantReturnPolicy',
+                    '@id': 'https://cairovolt.com/#return-policy',
+                    applicableCountry: 'EG',
+                    returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+                    merchantReturnDays: 14,
+                    returnMethod: 'https://schema.org/ReturnByMail',
+                    returnFees: 'https://schema.org/FreeReturn',
+                    refundType: 'https://schema.org/FullRefund',
+                    url: `https://cairovolt.com${isArabic ? '' : '/en'}/return-policy`,
+                },
+                // NOTE: We intentionally do NOT list the independent reviewers from
+                // /team as Organization `member`. They are creators we recommend, not
+                // CairoVolt staff. Claiming them as members would be a false employment
+                // signal. If/when real employees are added, list them here.
+            },
+        ],
     };
 
     return (
-        <Script
+        <script
             id="global-business-schema"
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(globalPayload) }}

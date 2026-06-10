@@ -30,16 +30,14 @@ export function SpeakableSchema({
         '@id': pageUrl,
         name: headline,
         description: description,
-        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-US',
+        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         speakable: {
             '@type': 'SpeakableSpecification',
             cssSelector: speakableSelectors,
         },
-        isPartOf: {
-            '@type': 'WebSite',
-            name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
-            url: 'https://cairovolt.com',
-        },
+        // Reference the canonical #website node (GlobalBusinessSchema in the
+        // layout) instead of redeclaring a conflicting inline WebSite.
+        isPartOf: { '@id': 'https://cairovolt.com/#website' },
     };
 
     return (
@@ -96,7 +94,7 @@ export function HowToSchema({
         '@type': 'HowTo',
         name: title,
         description: description,
-        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-US',
+        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         step: steps.map((step, index) => ({
             '@type': 'HowToStep',
             position: index + 1,
@@ -208,7 +206,7 @@ export function ArticleSchema({
         headline: headline,
         description: description,
         articleBody: articleBody,
-        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-US',
+        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         datePublished: datePublished || stableDate,
         dateModified: dateModified || stableDate,
         mainEntityOfPage: {
@@ -229,12 +227,13 @@ export function ArticleSchema({
         },
         publisher: {
             '@type': 'Organization',
+            '@id': 'https://cairovolt.com/#organization',
             name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
             logo: {
                 '@type': 'ImageObject',
                 url: 'https://cairovolt.com/logo.png',
-                width: 200,
-                height: 60,
+                width: 1024,
+                height: 1024,
             },
         },
     };
@@ -466,53 +465,9 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
     );
 }
 
-// WebSite Schema for homepage — enables site-level search functionality
-interface WebSiteSchemaProps {
-    locale: string;
-    baseUrl?: string;
-}
-
-export function WebSiteSchema({ locale, baseUrl = 'https://cairovolt.com' }: WebSiteSchemaProps) {
-    const isArabic = locale === 'ar';
-
-    const schema = {
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        '@id': `${baseUrl}/#website`,
-        name: isArabic ? 'كايرو فولت - اكسسوارات موبايل مصر' : 'CairoVolt - Mobile Accessories Egypt',
-        alternateName: isArabic ? 'Cairo Volt Egypt' : 'كايرو فولت مصر',
-        url: baseUrl,
-        inLanguage: isArabic ? 'ar-EG' : 'en-US',
-        description: isArabic
-            ? 'متجر إكسسوارات الموبايل الأصلية في مصر - Anker و Joyroom بضمان رسمي'
-            : 'Original mobile accessories store in Egypt - Anker & Joyroom with official warranty',
-        publisher: {
-            '@id': `${baseUrl}/#organization`,
-        },
-        // Geographic targeting
-        about: {
-            '@type': 'Country',
-            name: 'Egypt',
-            sameAs: 'https://en.wikipedia.org/wiki/Egypt',
-        },
-        // SearchAction — site search functionality
-        potentialAction: {
-            '@type': 'SearchAction',
-            target: {
-                '@type': 'EntryPoint',
-                urlTemplate: `${baseUrl}${isArabic ? '' : '/en'}/search?q={search_term_string}`,
-            },
-            'query-input': 'required name=search_term_string',
-        },
-    };
-
-    return (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-    );
-}
+// NOTE: WebSiteSchema was removed — the canonical #website node is defined
+// once in GlobalBusinessSchema (layout). Its SearchAction pointed to a
+// non-existent /search route and the sitelinks searchbox is retired anyway.
 
 // CollectionPage Schema for homepage category/brand listings
 interface CollectionPageSchemaProps {
@@ -537,7 +492,7 @@ export function CollectionPageSchema({ locale, collections }: CollectionPageSche
             ? 'تسوق أفضل إكسسوارات الموبايل الأصلية في مصر. باور بانك، شواحن، سماعات، كابلات من Anker و Joyroom.'
             : 'Shop the best original mobile accessories in Egypt. Power banks, chargers, earbuds, cables from Anker & Joyroom.',
         url: `${baseUrl}${isArabic ? '' : '/en'}`,
-        inLanguage: isArabic ? 'ar-EG' : 'en-US',
+        inLanguage: isArabic ? 'ar-EG' : 'en-EG',
         isPartOf: {
             '@id': `${baseUrl}/#website`,
         },

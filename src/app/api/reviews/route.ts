@@ -55,7 +55,9 @@ export async function GET(req: NextRequest) {
         // 2. Get static reviews from product-reviews.ts
         const staticProductReviews = productReviewsDb[productSlug] || [];
 
-        // 3. Map static reviews to the VerifiedReviews component format
+        // 3. Map static editorial reviews to the VerifiedReviews component format.
+        // isVerified MUST stay false: these are seed testimonials, not purchase-
+        // verified submissions, and presenting them as verified is deceptive.
         const mappedStaticReviews = staticProductReviews.map((r, index) => ({
             id: `static_${productSlug}_${index}`,
             customerName: r.author,
@@ -65,8 +67,8 @@ export async function GET(req: NextRequest) {
             cons: r.cons ? (isArabic ? r.cons.ar : r.cons.en) : undefined,
             reviewDate: r.datePublished,
             governorate: r.location,
-            isVerified: true,
-            helpfulCount: (index * 3 + productSlug.length) % 7, // Deterministic natural-looking engagement
+            isVerified: false,
+            helpfulCount: 0,
         }));
 
         // 4. Merge: Firebase verified reviews first, then static reviews
@@ -111,7 +113,7 @@ export async function GET(req: NextRequest) {
                 cons: r.cons ? (isArabic ? r.cons.ar : r.cons.en) : undefined,
                 reviewDate: r.datePublished,
                 governorate: r.location,
-                isVerified: true,
+                isVerified: false,
                 helpfulCount: 0,
             }));
             const staticAgg = calcStaticAggregateRating(staticProductReviews);

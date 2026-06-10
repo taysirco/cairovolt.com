@@ -5,8 +5,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, BRAND_FAMILIES } from '@/lib/static-products';
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { calculateVerifiedAggregateRating } from '@/lib/verified-reviews';
-import { getProductReviews as getStaticProductReviews, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
+import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
 import { getProductDetail } from '@/data/product-details';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
@@ -121,6 +120,26 @@ const getCachedProduct = unstable_cache(
 const getCachedAggregateRating = unstable_cache(
     async (slug: string) => calculateVerifiedAggregateRating(slug),
     ['aggregate-rating'],
+    { revalidate: 3600, tags: ['reviews'] }
+);
+
+// Verified customer reviews (real orders, token-gated submissions) for JSON-LD.
+// Mapped to plain serializable fields up-front: unstable_cache round-trips
+// through JSON, so Date objects would silently become strings on cache hits.
+const getCachedVerifiedReviews = unstable_cache(
+    async (slug: string) => {
+        const reviews = await getVerifiedProductReviews(slug);
+        return reviews.map(r => ({
+            customerName: r.customerName,
+            rating: r.rating,
+            reviewText: r.reviewText,
+            pros: r.pros,
+            cons: r.cons,
+            reviewDate: new Date(r.reviewDate).toISOString().split('T')[0],
+            governorate: r.governorate,
+        }));
+    },
+    ['verified-reviews-schema'],
     { revalidate: 3600, tags: ['reviews'] }
 );
 
@@ -304,40 +323,23 @@ export default async function ProductPage({ params }: Props) {
     // Fetch verified aggregate rating for Structured Data (Cached)
     const verifiedAggregateRating = await getCachedAggregateRating(slug);
 
-    // Get static product reviews for structured data (unique per product)
-    const staticReviews = getStaticProductReviews(
-        slug,
-        category,
-        {
-            en: product.translations?.en?.name || slug.replace(/-/g, ' '),
-            ar: product.translations?.ar?.name || slug.replace(/-/g, ' ')
-        },
-        product.price,
-        {
-            en: product.translations?.en?.features || ['quality'],
-            ar: product.translations?.ar?.features || ['الجودة']
-        }
-    );
-
-    // Map reviews to locale-specific content for schema
-    const schemaReviews = staticReviews.map(r => ({
-        author: r.author,
+    // Structured data carries ONLY verified customer reviews (real orders,
+    // token-gated submissions). Editorial/seed testimonials must never reach
+    // JSON-LD: Google's review-snippet policy requires genuine user reviews,
+    // and synthetic ratings risk a structured-data manual action.
+    const verifiedReviews = await getCachedVerifiedReviews(slug);
+    const schemaReviews = verifiedReviews.map(r => ({
+        author: r.customerName,
         rating: r.rating,
-        reviewBody: isArabic ? r.reviewBody.ar : r.reviewBody.en,
-        pros: r.pros ? (isArabic ? r.pros.ar : r.pros.en) : undefined,
-        cons: r.cons ? (isArabic ? r.cons.ar : r.cons.en) : undefined,
-        datePublished: r.datePublished,
-        location: r.location,
+        reviewBody: r.reviewText,
+        pros: r.pros,
+        cons: r.cons,
+        datePublished: r.reviewDate,
+        location: r.governorate,
     }));
 
-    // Use verified rating if available, fall back to static reviews rating
-    const staticAggregateRating = calcStaticAggregateRating(staticReviews);
-    const aggregateRating = verifiedAggregateRating || (staticAggregateRating ? {
-        ratingValue: staticAggregateRating.ratingValue,
-        reviewCount: Number(staticAggregateRating.reviewCount),
-        bestRating: Number(staticAggregateRating.bestRating),
-        worstRating: Number(staticAggregateRating.worstRating),
-    } : null);
+    // Aggregate rating: verified reviews only (null until 3+ real reviews exist)
+    const aggregateRating = verifiedAggregateRating;
 
     // LCP Preload: responsive preload that matches the hero <img srcset>.
     // On mobile (≤640px) the browser preloads the lighter 480px variant (~10 KB);

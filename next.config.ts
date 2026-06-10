@@ -114,6 +114,18 @@ const nextConfig = {
                 ],
             },
             {
+                // Internal wholesale dashboard — must never enter any index.
+                // Also blocked in robots.txt; the header covers crawlers that
+                // reached it via an external link despite the robots block.
+                source: '/wholesale-dashboard.html',
+                headers: [
+                    {
+                        key: 'X-Robots-Tag',
+                        value: 'noindex, nofollow, noarchive',
+                    },
+                ],
+            },
+            {
                 // Cache static informational pages (about, faq, contact, policies)
                 source: '/:locale(ar|en)/(about|faq|contact|shipping|return-policy|warranty|terms|privacy)',
                 headers: [

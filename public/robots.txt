@@ -24,6 +24,9 @@ Allow: /api/v1/verify-content
 Allow: /api/lab-data/
 Allow: /api/openapi.json
 Allow: /.well-known/
+# Cache-busted static images (?v=N) — longest-match beats the /*?* block below,
+# so Googlebot-Image can fetch blog covers & replaced product shots.
+Allow: /images/*?v=
 Disallow: /checkout
 Disallow: /cart
 Disallow: /account
@@ -41,6 +44,7 @@ Disallow: /api/serials
 Disallow: /api/v1/checkout
 Disallow: /api/v1/orders
 Disallow: /wishlist
+Disallow: /wholesale-dashboard.html
 Disallow: /*?*
 
 # --- All other bots (Bingbot, etc.) ---
@@ -51,6 +55,7 @@ Allow: /api/llms/catalog
 Allow: /api/v1/verify-content
 Allow: /api/lab-data/
 Allow: /.well-known/
+Allow: /images/*?v=
 Disallow: /checkout
 Disallow: /cart
 Disallow: /account
@@ -59,6 +64,7 @@ Disallow: /confirm
 Disallow: /review/
 Disallow: /api/
 Disallow: /wishlist
+Disallow: /wholesale-dashboard.html
 Disallow: /*?*
 
 # --- Strategic AI Access ---
@@ -92,6 +98,7 @@ Disallow: /api/serials
 Disallow: /api/verify
 Disallow: /api/products
 Disallow: /wishlist
+Disallow: /wholesale-dashboard.html
 
 # --- Block pure data miners ---
 User-Agent: CCBot
