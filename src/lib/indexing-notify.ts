@@ -26,7 +26,9 @@ export async function notifyIndexing(
         ? `/${brand}/${category}/${productSlug}`
         : `/products/${productSlug}`;
 
-    const targetUrl = `${baseUrl}/ar${path}`;
+    // Arabic is the default locale and is served UNPREFIXED — /ar/... URLs
+    // don't exist on this site (pinging them was indexing noise).
+    const targetUrl = `${baseUrl}${path}`;
     const actionType = options.isDeleted ? 'URL_DELETED' : 'URL_UPDATED';
 
     try {

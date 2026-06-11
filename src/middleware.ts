@@ -38,7 +38,7 @@ const KNOWN_TOP_SEGMENTS = new Set([
     'power-banks', 'chargers', 'cables', 'earbuds',
     // content & info pages
     'about', 'team', 'contact', 'faq', 'blog', 'locations', 'solutions',
-    'verify', 'warranty', 'shipping', 'return-policy', 'privacy', 'terms',
+    'lab', 'verify', 'warranty', 'shipping', 'return-policy', 'privacy', 'terms',
     // commerce & account flows
     'checkout', 'confirm', 'review', 'search',
     // infrastructure (also have earlier bypasses; listed for safety)

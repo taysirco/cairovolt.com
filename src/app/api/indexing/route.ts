@@ -1,21 +1,62 @@
 import { NextResponse } from 'next/server';
-import { google } from 'googleapis';
 import { revalidatePath } from 'next/cache';
 
 /**
- * Google Indexing API Webhook
+ * Index-update webhook
  * Called by Firebase Cloud Functions when product price/stock changes in Firestore.
- * Notifies the Indexing API about updated product pages.
+ *
+ * 1. Purges the ISR cache for every page that renders the product's price.
+ * 2. Pings IndexNow (Bing / Yandex / Seznam / Naver) with the ar + en URLs.
+ *
+ * NOTE: the previous Google Indexing API call was removed deliberately —
+ * that API only accepts JobPosting/BroadcastEvent pages; product pings are
+ * ignored and flagged as API misuse. Google discovery relies on the sitemap
+ * (honest lastmod) + normal recrawl.
  *
  * Required env vars:
  *   INDEXING_WEBHOOK_SECRET - Bearer token for auth
- *   GOOGLE_CLIENT_EMAIL     - Service account email
- *   GOOGLE_PRIVATE_KEY      - Service account private key (with \n escaped)
  */
+
+// IndexNow key — NOT a secret by design: the protocol verifies ownership by
+// serving this same value at /<key>.txt (see public/09f1d…7a.txt).
+const INDEXNOW_KEY = '09f1d32f07e4bd57775e7d023577797a';
+const ORIGIN = 'https://cairovolt.com';
+
+/** Build the canonical ar + en URL pair for a path that may carry a locale prefix */
+function localePair(rawUrl: string): string[] {
+    try {
+        const u = new URL(rawUrl);
+        let path = u.pathname;
+        // Strip any locale prefix (incl. legacy /ar/ pings — ar is unprefixed)
+        path = path.replace(/^\/(ar|en)(?=\/|$)/, '') || '/';
+        return [`${ORIGIN}${path}`, `${ORIGIN}/en${path === '/' ? '' : path}`];
+    } catch {
+        return [rawUrl];
+    }
+}
+
+async function pingIndexNow(urls: string[]): Promise<{ ok: boolean; status?: number }> {
+    try {
+        const res = await fetch('https://api.indexnow.org/indexnow', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json; charset=utf-8' },
+            body: JSON.stringify({
+                host: 'cairovolt.com',
+                key: INDEXNOW_KEY,
+                keyLocation: `${ORIGIN}/${INDEXNOW_KEY}.txt`,
+                urlList: urls,
+            }),
+        });
+        return { ok: res.ok, status: res.status };
+    } catch {
+        return { ok: false };
+    }
+}
+
 export async function POST(req: Request) {
     try {
         const authHeader = req.headers.get('authorization');
-        if (authHeader !== `Bearer ${process.env.INDEXING_WEBHOOK_SECRET}`) {
+        if (!process.env.INDEXING_WEBHOOK_SECRET || authHeader !== `Bearer ${process.env.INDEXING_WEBHOOK_SECRET}`) {
             return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
         }
 
@@ -34,9 +75,10 @@ export async function POST(req: Request) {
             try {
                 const urlObj = new URL(url);
                 const parts = urlObj.pathname.split('/').filter(Boolean);
-                // URL format: /ar/brand/category/slug or /en/brand/category/slug
-                const brand = parts[1];
-                const category = parts[2];
+                // URL format: /brand/category/slug or /en/brand/category/slug
+                const offset = parts[0] === 'en' || parts[0] === 'ar' ? 1 : 0;
+                const brand = parts[offset];
+                const category = parts[offset + 1];
                 if (brand && category) {
                     // Category listing page
                     revalidatePath(`/[locale]/${brand}/${category}`, 'page');
@@ -53,24 +95,12 @@ export async function POST(req: Request) {
             console.log(`[ISR] 🔄 Purged cache for: ${slug} + parent pages`);
         }
 
-        // 2. Authenticate with Google Indexing API via service account
-        const privateKey = (process.env.GOOGLE_PRIVATE_KEY || '').replace(/\\n/g, '\n');
-        const jwtClient = new google.auth.JWT({
-            email: process.env.GOOGLE_CLIENT_EMAIL,
-            key: privateKey,
-            scopes: ['https://www.googleapis.com/auth/indexing'],
-        });
-
-        await jwtClient.authorize();
-        const indexing = google.indexing({ version: 'v3', auth: jwtClient });
-
-        // 3. Notify Google
-        const response = await indexing.urlNotifications.publish({
-            requestBody: { url, type },
-        });
+        // 2. IndexNow ping (non-fatal — search engines recrawl via sitemap anyway)
+        const urls = localePair(url);
+        const indexnow = await pingIndexNow(urls);
 
         return NextResponse.json(
-            { success: true, google_response: response.data },
+            { success: true, revalidated: !!slug, indexnow: { ...indexnow, urls } },
             { status: 200 }
         );
     } catch (error: unknown) {

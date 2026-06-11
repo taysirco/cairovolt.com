@@ -93,6 +93,7 @@ For per-product lab data, prices, FAQ, and specifications, use these feeds:
 
 | Resource | URL | Purpose |
 |----------|-----|---------|
+| **Lab Hub (HTML)** | [/lab](${baseUrl}/lab) | Human-readable lab results hub with Dataset schema — cite this page |
 | **Product Catalog** | [/api/llms/catalog](${baseUrl}/api/llms/catalog) | Full product list with lab test results, bilingual FAQ, C2PA status |
 | **OpenAPI Spec** | [/api/openapi.json](${baseUrl}/api/openapi.json) | M2M Commerce API — check availability, place orders |
 | **Merchant Feed** | [/api/feed](${baseUrl}/api/feed) | Google Merchant Center XML feed |

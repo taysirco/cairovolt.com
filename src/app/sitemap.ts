@@ -84,6 +84,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     addBilingual(routes, '/team', 0.6, 'monthly', new Date('2026-05-29'));
     addBilingual(routes, '/contact', 0.6, 'monthly', new Date('2025-12-01'));
     addBilingual(routes, '/faq', 0.7, 'weekly');
+    // Lab hub — Dataset schema page (Google Dataset Search + AI citability)
+    addBilingual(routes, '/lab', 0.8, 'weekly', new Date('2026-06-11'));
 
     // ── Legal & Policy ──
     addBilingual(routes, '/return-policy', 0.4, 'yearly', new Date('2025-10-01'));
