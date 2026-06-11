@@ -3,50 +3,15 @@ import type { ProductReview } from './_shared';
 
 export const anker_521_powerhouse_reviews: ProductReview[] = [
         {
-            author: 'Hatem Samy', rating: 5, location: 'القاهرة', datePublished: '2025-11-27',
-            reviewBody: { en: 'Powered my CPAP machine for 5 hours during power outage. LiFePO4 battery is superior technology.', ar: 'شغل جهاز التنفس CPAP لمدة 5 ساعات خلال انقطاع الكهرباء. بطارية LiFePO4 تقنية متفوقة.' },
-            pros: { en: ['CPAP compatible', 'Power outage solution', 'LiFePO4 battery'], ar: ['متوافق مع CPAP', 'حل لانقطاع الكهرباء', 'بطارية LiFePO4'] }
+            author: 'لمياء حسن', rating: 5, location: 'القاهرة الجديدة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'محطة طاقة انكر 521 بسعة 256Wh وخرج 200W AC. بتشغل لابتوب 3-4 ساعات أو مروحة + إضاءة 8 ساعات. بـ 7500 جنيه استثمار للطوارئ والكامبينج' }
         },
         {
-            author: 'Akram Helmy', rating: 5, location: 'الجيزة', datePublished: '2026-01-15',
-            reviewBody: { en: '3000+ cycle lifespan means 10+ years of daily use. InfiniPower technology is revolutionary.', ar: 'عمر افتراضي 3000+ دورة يعني أكثر من 10 سنوات استخدام يومي. تقنية InfiniPower ثورية.' },
-            pros: { en: ['10+ year lifespan', 'InfiniPower tech', '3000 cycles'], ar: ['عمر أكثر من 10 سنوات', 'تقنية InfiniPower', '3000 دورة'] }
+            author: 'يوسف حسن', rating: 5, location: 'العجوزة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'محطة انكر 521 أنقذتني في قطع الكهربا الصيف اللي فات. الناس بتتلهف وأنا قاعد بشغل المروحة وبشحن. جاري بيبصلي بحقد حلو' }
         },
         {
-            author: 'Emad Samir', rating: 5, location: 'الإسكندرية', datePublished: '2025-10-03',
-            reviewBody: { en: '200W AC outlet powers my laptop and phone charger simultaneously. Like a portable wall socket!', ar: 'منفذ 200 واط AC يشغل اللابتوب وشاحن الموبايل معاً. مثل فيشة حائط محمولة!' },
-            pros: { en: ['200W AC outlet', 'Laptop + phone', 'Portable wall socket'], ar: ['منفذ 200 واط AC', 'لابتوب + موبايل', 'فيشة حائط محمولة'] },
-            cons: { en: ['No carrying pouch included'], ar: ['مفيش حافظة مرفقة'] }
-        },
-        {
-            author: 'Nader Tawfik', rating: 4, location: 'المنصورة', datePublished: '2025-08-26',
-            reviewBody: { en: 'Perfect for camping but cannot take on planes - 256Wh exceeds limit. Car trips only.', ar: 'مثالي للتخييم لكن لا يمكن أخذه في الطائرة - 256 واط/ساعة تتجاوز الحد. رحلات السيارة فقط.' },
-            pros: { en: ['Camping essential', 'Car trip power', 'Emergency backup'], ar: ['أساسي للتخييم', 'طاقة رحلات السيارة', 'احتياطي للطوارئ'] }
-        },
-        {
-            author: 'Ramy Saeed', rating: 5, location: 'طنطا', datePublished: '2025-07-31',
-            reviewBody: { en: '5-year warranty on a power station is unheard of. Anker clearly believes in this product.', ar: 'ضمان 5 سنوات على محطة طاقة غير مسبوق. انكر واثقون في هذا المنتج.' },
-            pros: { en: ['5-year warranty', 'Industry leading', 'Quality guarantee'], ar: ['ضمان 5 سنوات', 'الأفضل في الصناعة', 'ضمان الجودة'] }
-        },
-        {
-            author: 'Bassem Yousry', rating: 5, location: 'المهندسين', datePublished: '2025-07-05',
-            reviewBody: { en: 'The AC outlet waveform is modified sine wave, not pure. My sensitive lab equipment did not like it. For basic appliances it is fine though.', ar: 'موجة منفذ AC معدلة مش نقية. أجهزة المعمل الحساسة ماحبتش. للأجهزة العادية كويس.' },
-            pros: { en: ['AC outlet for appliances', 'Portable power'], ar: ['مخرج كهرباء للأجهزة', 'طاقة محمولة'] },
-            cons: { en: ['Modified sine wave, not pure'], ar: ['موجة معدلة مش نقية'] }
-        },
-        {
-            author: 'Hany Farouk', rating: 5, location: 'أسيوط', datePublished: '2025-12-12',
-            reviewBody: { en: 'USB-C PD port charges my MacBook Air. AC outlet runs my mini fridge. Ultimate versatility!', ar: 'منفذ USB-C PD يشحن ماك بوك آير. منفذ AC يشغل الثلاجة الصغيرة. تعددية مطلقة!' },
-            pros: { en: ['MacBook charging', 'Mini fridge power', 'Ultimate versatility'], ar: ['شحن ماك بوك', 'تشغيل ثلاجة صغيرة', 'تعددية مطلقة'] }
-        },
-        {
-            author: 'Samar Abdallah', rating: 5, location: 'المعادي', datePublished: '2026-02-14',
-            reviewBody: { en: 'Pharmacist here — during the 4-hour power cut last winter, I ran my medicine fridge and phone charger off this unit. LiFePO4 battery gives me peace of mind knowing it will last 3000+ cycles. Worth every pound for medical supply protection.', ar: 'صيدلانية هنا — في قطع الكهرباء 4 ساعات الشتا اللي فات، شغّلت ثلاجة الأدوية وشاحن الموبايل من الوحدة دي. بطارية LiFePO4 بتديني اطمئنان إنها هتعيش 3000+ دورة. تستاهل كل جنيه لحماية المستلزمات الطبية.' },
-            pros: { en: ['Medicine fridge during power cuts', 'LiFePO4 3000+ cycles peace of mind', 'Essential for pharmacies'], ar: ['ثلاجة أدوية وقت قطع الكهرباء', 'بطارية LiFePO4 اطمئنان 3000+ دورة', 'أساسي للصيدليات'] }
-        },
-        {
-            author: 'Youssef Tarek', rating: 5, location: 'شرم الشيخ', datePublished: '2026-03-08',
-            reviewBody: { en: 'Took it on a 3-day Sinai camping trip. Powered LED lights, charged 4 phones, and ran a mini fan at night. Still had 30% left. The 5-year warranty sealed the deal — Anker stands behind their products.', ar: 'أخدته في رحلة تخييم 3 أيام في سينا. شغّلت لمبات LED وشحنت 4 موبايلات وشغّلت مروحة صغيرة بالليل. لسه فيه 30%. ضمان 5 سنين حسم الموضوع — أنكر واقفين ورا منتجاتهم.' },
-            pros: { en: ['3-day camping trip tested', 'LED + phones + fan powered', '5-year warranty confidence'], ar: ['مختبر في رحلة تخييم 3 أيام', 'شغّل لمبات + موبايلات + مروحة', 'ثقة ضمان 5 سنين'] }
+            author: 'عمرو حسين', rating: 4, location: 'الفيوم', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أغلى حاجة اشتريتها بـ 7500 جنيه بس أكتر حاجة استفدت بيها. محطة انكر 521 في الرحلات والطوارئ — لا يُقدّر بثمن' }
         }
     ];

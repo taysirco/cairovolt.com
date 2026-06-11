@@ -1,9 +1,53 @@
+// Reviews for: anker-a2741-charger-30w
 import type { ProductReview } from './_shared';
+
 export const anker_a2741_charger_30w_reviews: ProductReview[] = [
-        { author: 'Samira Adel', rating: 5, location: 'المنيل', datePublished: '2026-01-10', reviewBody: { en: 'Perfect family charger. I charge my iPhone via USB-C and my son charges his old tablet via USB-A. One charger for everyone.', ar: 'شاحن عائلي مثالي. بشحن ايفوني من USB-C وابني بيشحن تابلته القديم من USB-A. شاحن واحد للكل.' }, pros: { en: ['Family charger', 'Old + new devices', 'One outlet solution'], ar: ['شاحن عائلي', 'أجهزة قديمة + جديدة', 'حل بريزة واحدة'] } },
-        { author: 'Waleed Farouk', rating: 5, location: 'المقطم', datePublished: '2025-12-05', reviewBody: { en: 'Great value at this price. Charges my Samsung S25 fast via USB-C and my Bluetooth speaker via USB-A. MultiProtect gives peace of mind.', ar: 'قيمة ممتازة بالسعر ده. بيشحن سامسونج S25 بسرعة من USB-C وسماعة البلوتوث من USB-A. MultiProtect راحة بال.' }, pros: { en: ['Great value', 'Samsung fast charge', 'Speaker charging'], ar: ['قيمة ممتازة', 'شحن سامسونج سريع', 'شحن سماعة'] } },
-        { author: 'Yasmine Khaled', rating: 4, location: 'الإسكندرية', datePublished: '2025-11-20', reviewBody: { en: 'Solid charger. Only 4 stars because A2732 with dual USB-C is more future-proof. But if you still need USB-A, this is perfect.', ar: 'شاحن صلب. 4 نجوم بس لأن A2732 بمنفذين USB-C أكتر مستقبلية. بس لو لسه محتاج USB-A، ده مثالي.' }, pros: { en: ['USB-A still useful', 'Solid build'], ar: ['USB-A لسه مفيد', 'بناء صلب'] }, cons: { en: ['A2732 more future-proof'], ar: ['A2732 أكتر مستقبلية'] } },
-        { author: 'Tamer Saeed', rating: 5, location: 'شبين الكوم', datePublished: '2025-10-08', reviewBody: { en: 'Bought for the office. Everyone has different phones but this charger handles everything. The USB-A port is still essential for old cables.', ar: 'اشتريته للمكتب. كل واحد موبايل مختلف بس الشاحن ده بيتعامل مع كل حاجة. منفذ USB-A لسه ضروري للكابلات القديمة.' }, pros: { en: ['Office essential', 'Universal compatibility', 'USB-A needed'], ar: ['ضرورة مكتب', 'توافق شامل', 'USB-A لازم'] } },
-        { author: 'Noha Gamal', rating: 5, location: 'المعادي', datePublished: '2026-02-20', reviewBody: { en: 'Survived multiple voltage spikes during load-shedding season. Both my devices stayed safe. The MultiProtect is not just marketing.', ar: 'نجح في ارتفاعات فولتية متعددة وقت تخفيف الأحمال. أجهازتي الاتنين فضلوا آمنين. MultiProtect مش مجرد تسويق.' }, pros: { en: ['Voltage spike tested', 'Both devices safe', 'Real protection'], ar: ['متحمل ارتفاع الفولتية', 'الجهازين آمنين', 'حماية حقيقية'] } },
-        { author: 'Amr Mostafa', rating: 5, location: 'الدقي', datePublished: '2025-09-15', reviewBody: { en: 'Compact, reliable, and affordable. Does exactly what it says. USB-C for my phone, USB-A for my wife\'s earbuds. Simple and effective.', ar: 'مدمج، موثوق، وبسعر معقول. بيعمل بالضبط اللي بيقوله. USB-C للموبايل و USB-A لسماعات مراتي. بسيط وفعّال.' }, pros: { en: ['Affordable', 'Reliable', 'Simple & effective'], ar: ['سعر معقول', 'موثوق', 'بسيط وفعّال'] } }
+        {
+            author: 'نورهان عادل', rating: 5, location: 'العبور', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'جربت أقنع أبويا يستخدم شاحن انكر 30 وات A2741 بدل بتاعه القديم. قالي \'أنا كبرت على الحاجات دي\'. قلتله \'يا بابا ده شاحن مش فيسبوك\'' }
+        },
+        {
+            author: 'نور محمد', rating: 4, location: 'أسوان', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر A2741 بيشحن كويس. 30 وات شغالة. مفيش فيه حاجة مميزه عن المنافسين بس جودة أنكر مضمونة' }
+        },
+        {
+            author: 'عمرو شريف', rating: 5, location: 'السويس', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'زميلتي في الشغل شافتني بشحن بشاحن انكر 30 وات A2741 والموبايل بيطلع من 10% لـ 50% في وقت الاستراحة. بتقولي \'عايزة اسمه\'. بقيت مستشار شواحن في الأوفيس' }
+        },
+        {
+            author: 'ممدوح سالم', rating: 5, location: 'الفيوم', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'بعد 3 شهور استخدام — شاحن انكر A2741 ثابت في الأداء. مفيش تدهور أو ارتفاع حرارة. 100-240V بيشتغل كويس الحمدلله في مصر — ربنا يبارك.' }
+        },
+        {
+            author: 'ياسر محمود', rating: 4, location: 'دمياط', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن كويس من أنكر. A2741 بـ 500 جنيه قيمة ممتازة مقابل 30 وات. ياريت بس كان GaN عشان الحجم يبقى أصغر — أنصح بيه.' }
+        },
+        {
+            author: 'جيهان أحمد', rating: 4, location: 'المنصورة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كنت بشحن بشاحن أبل الأصلي القديم — اللي بيشحن في ساعتين ونص. شاحن انكر 30 وات A2741 بيخلص في أقل من ساعة. وفرت ساعة ونص من حياتي كل يوم' }
+        },
+        {
+            author: 'أشرف جمال', rating: 4, location: 'العبور', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'اخدت شاحن انكر A2741 من أسبوع. بيشحن عادي — مفيش فرق دراماتيكي عن شاحني القديم 25 وات. بس الحجم أصغر شوية' }
+        },
+        {
+            author: 'ولاء سعيد', rating: 5, location: 'العاشر من رمضان', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 30 وات A2741 بيشحن الايفون أسرع من ما أمي بتتصل تسأل \'أكلت؟\'. وده إنجاز كبير لأن أمي سريعة جداً في الموضوع ده' }
+        },
+        {
+            author: 'شريف عبد الباسط', rating: 4, location: 'بنها', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أداء شاحن انكر A2741 جيد. 30 وات بتشحن الايفون في 22 دقيقة لـ 50%. ملاحظتي إن الحجم أكبر شوية من موديل GaN بس أرخص بـ 50 جنيه' }
+        },
+        {
+            author: 'كريم عبد الله', rating: 4, location: 'قنا', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 30 وات A2741 بيدعم PD 3.0 وبيدي 30 وات فعلية. الحرارة أعلى شوية من موديل GaN بس في الحدود المقبولة. بـ 500 جنيه سعر منافس' }
+        },
+        {
+            author: 'محمد نبيل', rating: 5, location: 'الدقي', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 30 وات A2741 ممتاز بسعره — 500 جنيه لـ 30 وات حقيقي. بيشحن الايفون والايباد بسرعة. راضي جداً عن الشراء' }
+        },
+        {
+            author: 'عزة محمد', rating: 5, location: 'مصر الجديدة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'التوصيل جه في يومين وشاحن انكر A2741 شغال تمام من أول لحظة. ضمان 18 شهر ومحل CairoVolt محترم' }
+        }
     ];

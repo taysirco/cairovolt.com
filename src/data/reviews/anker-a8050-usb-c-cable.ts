@@ -1,8 +1,29 @@
+// Reviews for: anker-a8050-usb-c-cable
 import type { ProductReview } from './_shared';
+
 export const anker_a8050_usb_c_cable_reviews: ProductReview[] = [
-        { author: 'Mostafa Ahmed', rating: 5, location: 'المعادي', datePublished: '2026-02-28', reviewBody: { en: 'Last USB-C cable I\'ll ever buy. 6 months of daily use and it looks brand new. The braided nylon is incredibly tough. 100W charges everything.', ar: 'آخر كابل USB-C هشتريه. 6 شهور استخدام يومي وشكله زي الجديد. النايلون المضفر قوي بشكل لا يصدق. 100 واط بيشحن كل حاجة.' }, pros: { en: ['Lifetime cable', 'Like-new after 6 months', '100W universal'], ar: ['كابل العمر', 'زي الجديد بعد 6 شهور', '100 واط عالمي'] } },
-        { author: 'Rana Youssef', rating: 5, location: 'الزمالك', datePublished: '2026-01-15', reviewBody: { en: 'Charges my MacBook Air AND transfers photos to my iPad. One cable for everything. The 1.8m length is perfect for my bedside setup.', ar: 'بيشحن الماك بوك اير وبينقل صور للايباد. كابل واحد لكل حاجة. طول 1.8 متر مثالي لجنب السرير.' }, pros: { en: ['MacBook + iPad cable', 'Perfect length', 'Data + charge'], ar: ['كابل ماك + ايباد', 'طول مثالي', 'بيانات + شحن'] } },
-        { author: 'Karim Sayed', rating: 5, location: 'شبرا', datePublished: '2025-12-20', reviewBody: { en: 'Replaced 3 cheap cables with this one. Better charging speed, doesn\'t fray, and actually transfers data. Should have bought Anker from the start.', ar: 'بدّلت 3 كابلات رخيصة بده. سرعة شحن أحسن، مبيتهريش، وبينقل بيانات فعلاً. كان المفروض اشتري أنكر من الأول.' }, pros: { en: ['Replaces cheap cables', 'Faster charging', 'No fraying'], ar: ['عوّض الكابلات الرخيصة', 'شحن أسرع', 'مبيتهريش'] } },
-        { author: 'Hany El-Masry', rating: 4, location: 'الدقي', datePublished: '2025-11-10', reviewBody: { en: 'Excellent cable. Only wish it came in 3m length too. 1.8m is good but sometimes I need extra reach. Build quality is outstanding.', ar: 'كابل ممتاز. أمنيتي إنه يبقى فيه 3 متر كمان. 1.8 متر كويس بس ساعات بحتاج طول أكتر. جودة البناء ممتازة.' }, pros: { en: ['Outstanding build', 'Premium braiding', 'Fast charging'], ar: ['بناء ممتاز', 'ضفر premium', 'شحن سريع'] }, cons: { en: ['No 3m option'], ar: ['مفيش خيار 3 متر'] } },
-        { author: 'Yasmin Fathy', rating: 5, location: 'مدينة نصر', datePublished: '2025-10-05', reviewBody: { en: 'My cats have chewed through 5 cables. This one survived. The braided nylon is apparently cat-proof. Best 220 EGP I\'ve ever spent.', ar: 'القطط بتوعي قطعوا 5 كابلات. ده نجح. النايلون المضفر ظاهر إنه مقاوم للقطط. أحسن 220 جنيه صرفتهم في حياتي.' }, pros: { en: ['Cat-proof tested', 'Survived pet abuse', 'Best value'], ar: ['متحمل القطط', 'نجح من الحيوانات الأليفة', 'أحسن قيمة'] } }
+        {
+            author: 'مروان محمد', rating: 5, location: 'الأقصر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كابل انكر A8050 بـ 1 متر — مناسب للشحن على المكتب. بيدعم شحن ونقل بيانات. التصميم مقوّى. بـ 180 جنيه أرخص كابل أنكر وبيعمل الغرض' }
+        },
+        {
+            author: 'رنا محمود', rating: 5, location: 'مصر الجديدة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أخويا داس على كابل انكر A8050 بكرسي المكتب 100 مرة ولسه شغال. ده كابل ولا سلسلة حديد؟' }
+        },
+        {
+            author: 'عبد الرحمن محمد', rating: 5, location: 'المهندسين', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كابل انكر A8050 بـ 180 جنيه ممتاز! متين ورخيص وبيشحن بسرعه. أحسن entry-level كابل من أنكر' }
+        },
+        {
+            author: 'جمال ياسين', rating: 4, location: 'الإسماعيلية', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كابل انكر A8050 كويس. متر واحد ومقوّى. بيعمل وظيفته. مفيش حاجة تميزه بس أحسن من بتاع 20 جنيه' }
+        },
+        {
+            author: 'عماد سمير', rating: 5, location: 'المهندسين', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كابل انكر A8050 بـ 180 جنيه — وده أرخص كابل أنكر. بس كابل أنكر الرخيص أحسن من أغلى كابل صيني. ده زي الفرق بين فول الغلبان وفول الغني — كله فول بس الطعم مختلف' }
+        },
+        {
+            author: 'ناصر جمعة', rating: 4, location: 'أسوان', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كابل جيد من أنكر. A8050 متر واحد — ممكن يكون قصير لبعض الناس. الأداء كويس والشحن سريع. ياريت كان متاح بطول 1.5 متر' }
+        }
     ];

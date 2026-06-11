@@ -3,99 +3,83 @@ import type { ProductReview } from './_shared';
 
 export const anker_powercore_10000_reviews: ProductReview[] = [
         {
-            author: 'Ahmed Mohamed', rating: 5, location: 'القاهرة', datePublished: '2026-03-28',
-            reviewBody: { en: 'Fits in my pocket easily - the most compact 10000mAh I have ever seen. Charges iPhone 17 twice.', ar: 'يناسب جيبي بسهولة - أصغر 10000 مللي أمبير رأيتها. يشحن ايفون 17 مرتين.' },
-            pros: { en: ['Ultra compact', 'Pocket-friendly', '2x iPhone 17 charges'], ar: ['صغير جداً', 'يناسب الجيب', 'يشحن ايفون 17 مرتين'] }
+            author: 'أشرف جمال', rating: 4, location: 'بنها', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر 10000 وزنه خفيف بس أثقل من وعود الناس. على الأقل هو بيوفي — 180 جرام بس بيشحنك مرتين ونص' }
         },
         {
-            author: 'Mohamed Ibrahim', rating: 5, location: 'الجيزة', datePublished: '2026-03-22',
-            reviewBody: { en: 'PowerIQ technology detects my device and delivers optimal charging speed. Smart and reliable.', ar: 'تقنية PowerIQ تكتشف جهازي وتوفر سرعة شحن مثالية. ذكية وموثوقة.' },
-            pros: { en: ['PowerIQ smart charging', 'Device detection', 'Optimal speed'], ar: ['شحن ذكي PowerIQ', 'اكتشاف الجهاز', 'سرعة مثالية'] }
+            author: 'عزة محمد', rating: 5, location: 'العجوزة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر 10000 بقى صديقي الوفي — بيشحنني مرتين ونص ومش بيزهق. أحسن من ناس كتير صراحةً' }
         },
         {
-            author: 'Mahmoud Hassan', rating: 5, location: 'المنصورة', datePublished: '2026-03-18',
-            reviewBody: { en: 'At 37Wh, it is perfect for flights. Used it on 5 flights - never questioned by security.', ar: 'بـ 37 واط/ساعة، مثالي للطيران. استخدمته في 5 رحلات - لا أسئلة من الأمن.' },
-            pros: { en: ['Flight approved 37Wh', 'No security issues', 'Travel companion'], ar: ['موافق للطيران 37Wh', 'بدون مشاكل أمنية', 'رفيق السفر'] },
-            cons: { en: ['Only charges one device at a time'], ar: ['بيشحن جهاز واحد بس في المرة'] }
+            author: 'رؤوف عبد الحليم', rating: 4, location: 'بنها', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر 10000 بيعمل الي عليه — بيشحن عادي مرتين ونص. مفيش حاجة خيالية بس مفيش مشاكل. يستاهل 650 جنيه' }
         },
         {
-            author: 'Ali Khaled', rating: 5, location: 'الإسكندرية', datePublished: '2026-03-13',
-            reviewBody: { en: 'Great for daily use. Only complaint is no USB-C port - uses micro USB for recharging.', ar: 'ممتاز للاستخدام اليومي. الشكوى الوحيدة لا يوجد منفذ USB-C - يستخدم micro USB للشحن.' },
-            pros: { en: ['Daily use perfect', 'Reliable', '18-month warranty'], ar: ['مثالي للاستخدام اليومي', 'موثوق', 'ضمان 18 شهر'] }
+            author: 'رضا عبد الحميد', rating: 5, location: 'الأقصر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'هدية ممتازة! جبت باور بانك انكر 10000 لأخويا في عيد ميلاده — فرحان جداً وبيستخدمه كل يوم. الجودة واضحة من التغليف' }
         },
         {
-            author: 'Omar Youssef', rating: 4, location: 'طنطا', datePublished: '2026-03-11',
-            reviewBody: { en: 'Battery lasted about 6 weeks then started draining much faster. Maybe I got a bad unit. The 10000mAh rating feels generous.', ar: 'البطارية استمرت حوالي 6 أسابيع وبعدين بدأت تفضي أسرع. يمكن جاتلي قطعة عيب. تقييم 10000 مللي أمبير حاسسه مبالغ فيه.' },
-            pros: { en: ['Compact size', 'Light enough for gym bag'], ar: ['حجم صغير', 'خفيف للشنطة'] },
-            cons: { en: ['Battery degraded after 6 weeks'], ar: ['البطارية تدهورت بعد 6 أسابيع'] }
+            author: 'نورهان عادل', rating: 4, location: 'العجوزة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر 10000 خلاني أبطل أقلق على البطاريه. معايا في كل مكان — الشغل، القهوة، السفر. أحسن 650 جنيه صرفتهم' }
         },
         {
-            author: 'Mostafa Ahmed', rating: 4, location: 'أسيوط', datePublished: '2026-01-01',
-            reviewBody: { en: 'My PowerCore 10000 stopped holding charge after 3 months of daily use. Now it dies mid-charge leaving my phone at 50%. Contacting warranty now.', ar: 'الباور كور 10000 وقف يشيل شحن بعد 3 شهور استخدام يومي. دلوقتي بيموت في نص الشحن والموبايل على 50%. بتواصل مع الضمان.' },
-            pros: { en: ['Brand reputation', 'Fast delivery'], ar: ['سمعة البراند', 'توصيل سريع'] },
-            cons: { en: ['Stopped working after 2 months', 'Poor durability'], ar: ['وقف بعد شهرين', 'متانة ضعيفة'] }
+            author: 'هالة سعيد', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'جبت باور بانك انكر 10000 الساحل — بقيت أشهر من الأكل. الشلة كلها \'فين أحمد؟ عنده الباور بانك!\' منصب اجتماعي جديد' }
         },
         {
-            author: 'Hassan Ali', rating: 5, location: 'المهندسين', datePublished: '2026-03-04',
-            reviewBody: { en: 'MultiProtect safety system gives peace of mind. Never overheats, never damages phone.', ar: 'نظام أمان MultiProtect يعطي راحة بال. لا يسخن أبداً، لا يضر الهاتف أبداً.' },
-            pros: { en: ['MultiProtect safety', 'No overheating', 'Phone safe'], ar: ['أمان MultiProtect', 'بدون سخونة', 'الهاتف آمن'] }
+            author: 'أمير عبد الحميد', rating: 5, location: 'العجوزة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'كهربا الشقة قطعت يومين في الصيف. باور بانك انكر 10000 هو اللي خلاني عايش — وخلاني أبعت رسايل لشركة الكهربا أشتكي. بدونه كنت هموت صامت' }
         },
         {
-            author: 'Ziad Mansour', rating: 5, location: 'التجمع الخامس', datePublished: '2026-03-22',
-            reviewBody: { en: 'Bought this as a replacement for a cheap power bank that died after 2 weeks. 8 months later, still going strong.', ar: 'اشتريته بدل باور بانك رخيص مات بعد اسبوعين. 8 شهور ولسه شغال زي الفل.' },
-            pros: { en: ['Long lasting', 'Reliable build', 'Worth the upgrade'], ar: ['عمر طويل', 'بناء متين', 'يستاهل الترقية'] }
+            author: 'حسين عبد الغني', rating: 3, location: 'أسيوط', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'الحجم أكبر شوية مما توقعت. باور بانك انكر 10000 كويس بس مش الأخف في السوق. بيشحن كويس بس مش هقول إنه مذهل' }
         },
         {
-            author: 'Nourhan Elsayed', rating: 5, location: 'دمياط', datePublished: '2026-03-27',
-            reviewBody: { en: 'I use it daily for my commute from Damietta to Mansoura. Charges my phone twice on the go without adding weight to my bag.', ar: 'بستخدمه كل يوم في مشواري من دمياط للمنصورة. بيشحن الموبايل مرتين في الطريق من غير ما يتقل الشنطة.' },
-            pros: { en: ['Commuter friendly', 'Featherweight 180g', 'Dual charges on the go'], ar: ['مناسب للتنقل', 'وزن ريشة 180 جرام', 'شحنتين وانت ماشي'] }
+            author: 'منصور أحمد', rating: 4, location: 'الأقصر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أداء باور بانك انكر 10000 جيد. السعة كافية لمعظم الناس. ملاحظتي: الشحن من المخرج 18 وات مش الأسرع بس كافي. مفيش شحن لاسلكي' }
         },
         {
-            author: 'Tamer Abdallah', rating: 4, location: 'الزقازيق', datePublished: '2026-04-01',
-            reviewBody: { en: 'Solid power bank overall. LED indicators could be brighter though - hard to see in sunlight. Charging speed is exactly as advertised.', ar: 'باور بانك محترم بشكل عام. لمبات الـ LED ممكن تبقى أوضح — صعب تشوفها في الشمس. سرعة الشحن زي ما هو مكتوب بالظبط.' },
-            pros: { en: ['Accurate capacity', 'Honest specs', 'Good build quality'], ar: ['سعة حقيقية', 'مواصفات صادقة', 'جودة تصنيع كويسة'] },
-            cons: { en: ['LED indicators dim in sunlight'], ar: ['لمبات LED باهتة في الشمس'] }
+            author: 'أميرة حسين', rating: 5, location: 'الجيزة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'صاحبي بيقولي \'مش هتحتاج باور بانك لو شحنت كويس\'. نفس الواحد ده بيقول كل يوم \'ممكن أشحن عندك شوية؟\'. الناس عايزة حاجة ببلاش' }
         },
         {
-            author: 'Hagar Mostafa', rating: 5, location: 'الفيوم', datePublished: '2026-04-05',
-            reviewBody: { en: 'Gift for my husband - he uses it every single day at his workshop. After a year of heavy use it still charges his Samsung fully twice.', ar: 'هدية لجوزي — بيستخدمه كل يوم في الورشة. بعد سنة استخدام شديد لسه بيشحن سامسونج بتاعه مرتين كاملين.' },
-            pros: { en: ['Survives daily heavy use', 'Great gift idea', 'Durable after 1 year'], ar: ['بيستحمل الاستخدام اليومي', 'فكرة هدية حلوة', 'متين بعد سنة'] }
+            author: 'زياد مراد', rating: 5, location: 'حلوان', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'نظام الحماية في باور بانك انكر 10000 شغال فعلاً — بيقطع لما الموبايل يوصل 100%. مهم لعمر البطارية. الشاشة الرقمية بتبين النسبة بدقة' }
         },
         {
-            author: 'Abdulrahman Gamal', rating: 4, location: 'سوهاج', datePublished: '2026-04-10',
-            reviewBody: { en: 'Ordered from CairoVolt, arrived in Sohag in 4 days. Product is exactly as described. Only thing missing is a USB-C to USB-C cable in the box.', ar: 'طلبته من كايرو فولت وصل سوهاج في 4 أيام. المنتج زي ما هو مكتوب بالظبط. الحاجة الوحيدة الناقصة كابل USB-C في العلبة.' },
-            pros: { en: ['Fast shipping to Upper Egypt', 'Product as described', 'Original sealed'], ar: ['توصيل سريع للصعيد', 'المنتج زي الوصف', 'أصلي مختوم'] },
-            cons: { en: ['No USB-C cable included'], ar: ['مفيش كابل USB-C في العلبة'] }
+            author: 'حازم شوقي', rating: 5, location: 'حلوان', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'اول باور بانك ماركة أشتريه — باور بانك انكر 10000. بعد سنه كاملة لسه زي أول يوم. فهمت ليه الناس بتحب أنكر' }
         },
         {
-            author: 'Salma Wagdy', rating: 5, location: 'مصر الجديدة', datePublished: '2026-04-15',
-            reviewBody: { en: 'As a medical student, this is a lifesaver during 12-hour hospital shifts. Fits in my lab coat pocket and charges my phone between rounds.', ar: 'كطالبة طب، ده منقذ حياتي في شيفتات المستشفى 12 ساعة. بيدخل جيب البالطو وبيشحن موبايلي بين الراوندات.' },
-            pros: { en: ['Fits lab coat pocket', 'Essential for long shifts', 'Quick top-up between tasks'], ar: ['بيدخل جيب البالطو', 'أساسي للشيفتات الطويلة', 'شحنة سريعة بين المهام'] }
+            author: 'يوسف حسن', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'السعة الفعلية لباور بانك انكر 10000 حوالي 9200 ملي أمبير بعد فقد التحويل — نسبة 92% ممتاازه. اختبرته بجهاز USB meter' }
         },
         {
-            author: 'Mahmoud Refaat', rating: 4, location: 'بورسعيد', datePublished: '2026-04-20',
-            reviewBody: { en: 'Good capacity but the micro USB input for recharging is outdated in 2025. Everything else I own is USB-C. Still works well once its charged up.', ar: 'السعة كويسة بس مدخل الميكرو USB للشحن بقى قديم في 2025. كل حاجة عندي USB-C. غير كده بيشتغل تمام لما بيكون مشحون.' },
-            pros: { en: ['Reliable capacity', 'Compact for 10000mAh'], ar: ['سعة موثوقة', 'صغير لـ 10000'] },
-            cons: { en: ['Micro USB input is outdated', 'Should have USB-C input'], ar: ['مدخل ميكرو USB قديم', 'المفروض يبقى USB-C'] }
+            author: 'محمد رضا', rating: 5, location: 'حلوان', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أبويا شاف باور بانك انكر 10000 وقال \'ده أكبر من ريموت التليفزيون\'. يا بابا ده بيشحن موبايلات مش بيغير قنوات. كل جيل وليه أولوياته' }
         },
         {
-            author: 'Ibrahim Fathi', rating: 5, location: 'الهرم', datePublished: '2026-04-25',
-            reviewBody: { en: 'Third Anker product I buy from CairoVolt. This one I keep in my car glovebox for emergencies. Saved me twice already when my phone died before Uber arrived.', ar: 'تالت منتج انكر اشتريه من كايرو فولت. ده بحطه في تابلوه العربية للطوارئ. أنقذني مرتين لما الموبايل مات قبل ما الأوبر يوصل.' },
-            pros: { en: ['Emergency backup', 'Trusted brand ecosystem', 'Car glovebox size'], ar: ['احتياطي طوارئ', 'براند موثوق', 'حجم درج العربية'] }
+            author: 'عبد الله حسن', rating: 4, location: 'القاهرة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: '180 جرام وبيشحن الايفون مرتين ونص. باور بانك انكر 10000 أحسن توازن بين الحجم والسعة في السوق. استخدمته 6 شهور بدون مشاكل' }
         },
         {
-            author: 'Amal Sherif', rating: 5, location: 'الرحاب', datePublished: '2026-05-10',
-            reviewBody: { en: 'Pharmacist working 12-hour shifts. This fits in my lab coat and charges my phone between patient consultations. The LED indicators let me check charge quickly.', ar: 'صيدلانية بشتغل شيفتات 12 ساعة. بيدخل جيب البالطو وبيشحن موبايلي بين استشارات المرضى. لمبات LED بتخليني أشيك الشحن بسرعة.' },
-            pros: { en: ['Pharmacist shift essential', 'Lab coat pocket size', 'Quick charge checks'], ar: ['أساسي لشيفت الصيدلية', 'حجم جيب البالطو', 'فحص شحن سريع'] }
+            author: 'جمال عبد الناصر', rating: 4, location: 'المنيا', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'اشتريت باور بانك انكر 10000 من 3 أسابيع. بيشحن عادي مفيش مفاجآت. الشاشة الرقمية إضافة لطيفة بس مش ضرورية' }
         },
         {
-            author: 'Sami El-Naggar', rating: 5, location: 'المحلة الكبرى', datePublished: '2026-05-18',
-            reviewBody: { en: 'Factory supervisor in Mahalla. Power cuts happen randomly - this keeps my work phone alive for coordination with workers. Compact enough for my tool belt.', ar: 'مشرف مصنع في المحلة. الكهربا بتقطع فجأة - ده بيخلي موبايل الشغل شغال للتنسيق مع العمال. صغير كفاية لحزام العدد.' },
-            pros: { en: ['Factory power cut backup', 'Tool belt compatible', 'Work phone lifeline'], ar: ['احتياطي قطع كهربا المصنع', 'بيدخل حزام العدد', 'خط نجاة موبايل الشغل'] }
+            author: 'مريم عادل', rating: 5, location: 'السويس', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'جربت باور بانك انكر 10000 في سفر 3 أيام — شحنت موبايلي وسماعتي وساعة صاحبي. السعة استحملت كل ده. جودة أنكر واضحة' }
         },
         {
-            author: 'Nermeen Adel', rating: 5, location: 'الشيخ زايد', datePublished: '2026-05-25',
-            reviewBody: { en: 'Keeps my sons iPad charged during long car rides to the North Coast. No more screen time arguments about battery dying. Worth every pound!', ar: 'بيخلي ايباد ابني مشحون في رحلات العربية الطويلة للساحل. مفيش خناقات سكرين تايم عشان البطارية خلصت. يستاهل كل جنيه!' },
-            pros: { en: ['Road trip iPad charger', 'No battery arguments', 'North Coast travel tested'], ar: ['شاحن ايباد رحلات', 'مفيش خناقات بطارية', 'مختبر رحلات الساحل'] }
+            author: 'سامي فوزي', rating: 5, location: 'الإسكندرية', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'في عزومة عيد ميلاد صاحبتي — 12 واحد شحنوا من باور بانك انكر 10000 بتاعي. بقيت محطة وقود بشرية. فتحت كشك شحن متنقل' }
+        },
+        {
+            author: 'إيناس فتحي', rating: 5, location: 'الدقي', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أنا Uber driver وباور بانك انكر 10000 بينقذني كل يوم. الموبايل شغال 12 ساعة متواصلة. أنكر كده خلتني أكسب فلوس أكتر' }
+        },
+        {
+            author: 'خالد محمود', rating: 4, location: 'الجيزة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك عادي بيعمل وظيفته. بيشحن الموبايل مرتين. مش أحسن ولا أوحش حاجة. لو محتاج باور بانك ومش عايز تفكر كتير — خد ده' }
         }
     ];

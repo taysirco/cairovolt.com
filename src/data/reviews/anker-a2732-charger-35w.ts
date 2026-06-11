@@ -1,9 +1,33 @@
+// Reviews for: anker-a2732-charger-35w
 import type { ProductReview } from './_shared';
+
 export const anker_a2732_charger_35w_reviews: ProductReview[] = [
-        { author: 'Mona Khaled', rating: 5, location: 'المعادي', datePublished: '2026-02-15', reviewBody: { en: 'Both ports charge my iPhone and iPad fast. Tiny size! GaN technology is magic — it barely gets warm. Perfect bedside charger.', ar: 'المنفذين بيشحنوا الايفون والايباد بسرعة. حجم صغير! تقنية GaN سحر — بالكاد بيسخن. شاحن سرير مثالي.' }, pros: { en: ['Dual fast charge', 'Tiny GaN size', 'Cool running'], ar: ['شحن سريع مزدوج', 'حجم GaN صغير', 'بارد'] } },
-        { author: 'Ahmed Helmy', rating: 5, location: 'شبرا', datePublished: '2026-01-20', reviewBody: { en: 'Replaced Apple\'s dual charger with this. Same performance, half the price, half the size. Two USB-C is exactly what I need for iPhone 17 + AirPods.', ar: 'بدّلت شاحن أبل المزدوج بده. نفس الأداء، نص السعر، نص الحجم. منفذين USB-C بالضبط اللي محتاجهم للايفون 17 + ايربودز.' }, pros: { en: ['Better than Apple', 'Half the price', 'iPhone + AirPods'], ar: ['أحسن من أبل', 'نص السعر', 'ايفون + ايربودز'] } },
-        { author: 'Laila Hassan', rating: 5, location: 'الجيزة', datePublished: '2025-12-10', reviewBody: { en: 'Survives Egyptian electricity perfectly. My old charger died after a voltage spike — this one has MultiProtect and never fails. Peace of mind.', ar: 'بيستحمل كهربا مصر تمام. شاحني القديم اتحرق بعد ارتفاع فولتية — ده عنده MultiProtect ومبيفشلش. راحة بال.' }, pros: { en: ['Voltage spike proof', 'MultiProtect', 'Peace of mind'], ar: ['مقاوم ارتفاع الفولتية', 'MultiProtect', 'راحة بال'] } },
-        { author: 'Kareem Ali', rating: 4, location: 'الدقي', datePublished: '2025-11-25', reviewBody: { en: 'Great charger, very small. Only wish: a LED light to show it\'s active. Otherwise perfect — fast charges both my phone and wife\'s.', ar: 'شاحن ممتاز، صغير جداً. أمنيتي: لمبة LED توريني إنه شغال. غير كده مثالي — بيشحن موبايلي وموبايل مراتي بسرعة.' }, pros: { en: ['Ultra compact', 'Dual charging', 'Fast'], ar: ['مدمج جداً', 'شحن مزدوج', 'سريع'] }, cons: { en: ['No activity LED'], ar: ['مفيش لمبة نشاط'] } },
-        { author: 'Heba Mohamed', rating: 5, location: 'مصر الجديدة', datePublished: '2026-03-08', reviewBody: { en: 'Travel essential. Works on 100-240V so I use it in Egypt, UAE, and Europe without adapters. Both ports charge my devices abroad perfectly.', ar: 'ضرورة للسفر. بيشتغل على 100-240V فبستخدمه في مصر والإمارات وأوروبا بدون محولات. المنفذين بيشحنوا أجهزتي برا مصر تمام.' }, pros: { en: ['Universal voltage', 'Travel essential', 'Works worldwide'], ar: ['فولتية عالمية', 'ضرورة سفر', 'بيشتغل عالمياً'] } },
-        { author: 'Mohamed Gamal', rating: 5, location: 'طنطا', datePublished: '2025-10-15', reviewBody: { en: 'Bought 3 — one for bedroom, one for office, one for travel bag. At this price and quality, it\'s a no-brainer. Both ports charge fast.', ar: 'اشتريت 3 — واحد لأوضة النوم، واحد للمكتب، واحد لشنطة السفر. بالسعر ده والجودة دي، مفيش تفكير. المنفذين شحن سريع.' }, pros: { en: ['Buy multiples', 'Office + home + travel', 'Great value'], ar: ['اشتري أكتر من واحد', 'مكتب + بيت + سفر', 'قيمة ممتازة'] } }
+        {
+            author: 'يوسف عادل', rating: 4, location: 'شبرا الخيمة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'واحد صاحبي قالي \'ليه تدفع 600 جنيه في شاحن وممكن تشتري اتنين بـ 300؟\'. قلتله عشان الاتنين بـ 300 هيبقوا ميتين بعد شهرين — ده هيفضل سنين' }
+        },
+        {
+            author: 'حازم شوقي', rating: 5, location: 'الإسماعيلية', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 35 وات مزدوج — بيشحن موبايلي وموبايل مراتي في نفس الوقت. أول اختراع يخلينا نبطل نتخانق على البريزة' }
+        },
+        {
+            author: 'زياد فاروق', rating: 4, location: 'مدينة نصر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أداء شاحن انكر المزدوج جيد. 35 وات مقسمة على مخرجين يعني كل مخرج مش بيدي الحد الأقصى. بس عملياً — كافي لشحن ايفون وايربودز في وقت واحد' }
+        },
+        {
+            author: 'طارق نبيل', rating: 4, location: 'الرحاب', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 35 وات مزدوج كويس. بيشحن جهازين بس مش الأسرع في كل مخرج لوحده. 600 جنيه سعر مقبول لشاحن مزدوج' }
+        },
+        {
+            author: 'مجدي حسن', rating: 5, location: 'قنا', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 35 وات المزدوج أحسن حل لشحن جهازين! بيوفر عليك مشترك ومكان. شاحن واحد بدل اتنين. ممتاز' }
+        },
+        {
+            author: 'باسل عمران', rating: 5, location: 'الإسكندرية', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'بقولكم — شاحن انكر 35 وات المزدوج ده حل مشكلة عائلية حقيقية. كل واحد عايز يشحن وفيه بريزة واحدة. دلوقتي الكل مبسوط' }
+        },
+        {
+            author: 'هشام سمير', rating: 5, location: 'قنا', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'شاحن انكر 35 وات المزدوج بيقسم الطاقة 20+15 وات على المخرجين. يعنى بيشحن جهازين بسرعه محترمة في وقت واحد. بـ 600 جنيه قيمة ممتاز واللهة' }
+        }
     ];

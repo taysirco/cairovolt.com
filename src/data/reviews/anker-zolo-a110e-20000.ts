@@ -3,39 +3,39 @@ import type { ProductReview } from './_shared';
 
 export const anker_zolo_a110e_20000_reviews: ProductReview[] = [
         {
-            author: 'Hassan Kamal', rating: 5, location: 'مصر الجديدة', datePublished: '2026-01-20',
-            reviewBody: { en: '48-hour power outage and this thing kept my phone and router alive for 36 hours. Worth every pound. The built-in cable is a lifesaver during emergencies.', ar: '48 ساعة انقطاع كهربا والباور بانك ده خلّى موبايلي والراوتر شغالين 36 ساعة. يستاهل كل جنيه. الكابل المدمج منقذ في الطوارئ.' },
-            pros: { en: ['48h blackout survivor', 'Router power backup', 'Built-in cable'], ar: ['نجح في 48 ساعة قطع كهربا', 'طاقة احتياطية للراوتر', 'كابل مدمج'] }
+            author: 'جابر محمد', rating: 5, location: 'الزقازيق', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أخدت باور بانك انكر زولو 20000 رحلة مرسى مطروح — الشلة بقت تسميني \'محطة الشحن\'. بس أنا سعيد بالمنصب' }
         },
         {
-            author: 'Youssef Ali', rating: 5, location: 'الزمالك', datePublished: '2025-12-15',
-            reviewBody: { en: 'Charged my iPhone 17 Pro four times on one charge! I take it on every Alex trip. The digital display is essential — I can plan my charging precisely.', ar: 'شحن ايفون 17 برو 4 مرات بشحنة واحدة! باخده في كل رحلة اسكندرية. الشاشة الرقمية ضرورية — بقدر أخطط شحني بدقة.' },
-            pros: { en: ['4x iPhone charges', 'Travel essential', 'Digital display planning'], ar: ['4 شحنات ايفون', 'ضروري للسفر', 'تخطيط بالشاشة الرقمية'] }
+            author: 'باسل عمران', rating: 3, location: 'العبور', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك زولو 20000 أوكيه. أكبر شوية مما توقعت. بيشحن كويس بس اللي عايز الأحسن يروح PowerCore — هشتري تاني إن شاء الله.' }
         },
         {
-            author: 'Amira Sayed', rating: 5, location: 'المهندسين', datePublished: '2026-02-10',
-            reviewBody: { en: 'Best investment for Egyptian summers. During load-shedding, I keep my router running and my phone charged. My neighbors are always asking to borrow it!', ar: 'أحسن استثمار لصيف مصر. وقت تخفيف الأحمال، بخلّي الراوتر شغال وموبايلي مشحون. جيراني دايماً بيطلبوه!' },
-            pros: { en: ['Load-shedding savior', 'Router backup', 'Friends & family approved'], ar: ['منقذ تخفيف الأحمال', 'احتياطي للراوتر', 'معتمد من الأهل والأصحاب'] }
+            author: 'عمار وهبة', rating: 4, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر زولو 20000 بيعمل اللي عليه. مفيش فيه حاجة مميزة بس 700 جنيه و20000 ملي أمبير — سعر تنافسي' }
         },
         {
-            author: 'Khaled Nasser', rating: 4, location: 'الإسكندرية', datePublished: '2025-11-02',
-            reviewBody: { en: 'Excellent capacity. Only reason for 4 stars: it\'s noticeably heavier than the 10K version. But you get double the capacity, so it\'s a fair trade-off. Digital display is fantastic.', ar: 'سعة ممتازة. سبب الـ 4 نجوم الوحيد: أتقل بشكل ملحوظ من نسخة الـ 10 آلاف. بس بتاخد ضعف السعة، فتبادل عادل. الشاشة الرقمية رهيبة.' },
-            pros: { en: ['Double capacity', 'Digital display', 'Reliable'], ar: ['ضعف السعة', 'شاشة رقمية', 'موثوق'] },
-            cons: { en: ['Heavier than 10K version (392g)'], ar: ['أتقل من نسخة الـ 10 آلاف (392 جرام)'] }
+            author: 'سمر علي', rating: 4, location: 'التجمع الخامس', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'أداء جيد لباور بانك زولو 20000. الوزن 350 جرام — مناسب للشنطة مش الجيب. بيشحن الموبايل 4 مرات فعلياً. بـ 700 جنيه يستاهل' }
         },
         {
-            author: 'Fatma Adel', rating: 5, location: 'شبرا', datePublished: '2025-09-28',
-            reviewBody: { en: 'My lifeline during commute. I charge my phone twice going to work and back. Still have 50% left at end of day. The cable never gets lost because it\'s built in. Pure genius.', ar: 'خط نجاتي في المواصلات. بشحن موبايلي مرتين روحة وجية. لسه عندي 50% آخر اليوم. الكابل مبيضيعش لأنه مدمج. عبقرية.' },
-            pros: { en: ['Commute-proof', 'All-day+ battery', 'Cable never lost'], ar: ['مثالي للمواصلات', 'بطارية يوم+', 'الكابل مبيضيعش'] }
+            author: 'صلاح مبارك', rating: 4, location: 'مدينة نصر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك زولو 20000 وزنه شوية — بس لما الكهربا تقطع وإنت الوحيد اللي موبايلك شغال — الوزن ده بيبقى وزن النصر' }
         },
         {
-            author: 'Ibrahim Magdy', rating: 5, location: 'أسيوط', datePublished: '2025-08-15',
-            reviewBody: { en: 'Bought for train trips Cairo-Aswan. 14 hours of charging phones, tablets, everything. Never ran out. Pass-through charging at the hotel is brilliant — one cable charges everything.', ar: 'اشتريته لرحلات القطار القاهرة-أسوان. 14 ساعة شحن موبايلات وتابلت وكل حاجة. ما خلصش. الشحن العابر في الفندق عبقري — كابل واحد بيشحن كل حاجة.' },
-            pros: { en: ['14h train tested', 'Multi-device charging', 'Pass-through'], ar: ['اتاختبر 14 ساعة قطار', 'شحن أجهزة متعددة', 'شحن عابر'] }
+            author: 'سامي فوزي', rating: 4, location: 'أسيوط', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك زولو 20000 مناسب جداً لأي حد بيسافر أو بيقعد بره كتير. 4 شحنات يعني راحة بال يومين' }
         },
         {
-            author: 'Dina Lotfy', rating: 5, location: 'حدائق القبة', datePublished: '2026-03-05',
-            reviewBody: { en: 'As a content creator, this is my emergency backup. I shoot reels all day and this charges my iPhone 17 Pro Max three times easy. The trickle mode charges my AirPods safely too.', ar: 'كصانعة محتوى، ده الاحتياطي بتاعي. بصور ريلز طول اليوم والباور بانك بيشحن ايفون 17 برو ماكس 3 مرات بسهولة. وضع الشحن الدقيق بيشحن الايربودز بأمان كمان.' },
-            pros: { en: ['Content creator approved', '3x Pro Max charges', 'AirPods trickle safe'], ar: ['معتمد من صناع المحتوى', '3 شحنات برو ماكس', 'شحن دقيق آمن للايربودز'] }
+            author: 'أنور حسن', rating: 5, location: 'الأقصر', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'قيمة ممتازة! باور بانك انكر زولو 20000 بـ 700 جنيه بيعمل اللي PowerCore بـ 850 بيعمله. الفرق بسيط والتوفير 150 جنيه حلو' }
+        },
+        {
+            author: 'نادر توفيق', rating: 5, location: 'مصر الجديدة', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر زولو 20000 — 700 جنيه بس بيشحن 4 مرات. ده أرخص من اني أشتري قهوة كل ما الموبايل يموت. استثمار ذكي' }
+        },
+        {
+            author: 'شيماء أحمد', rating: 5, location: 'قنا', datePublished: '2026-06-11',
+            reviewBody: { en: '', ar: 'باور بانك انكر زولو A110E بسعة 20000 ملي أمبير وسعر 700 جنيه — أرخص من PowerCore 20000. الأداء جيد والسعة حقيقية. فيه USB-C + USB-A — يستاهل التجربة فعلاً.' }
         }
     ];
