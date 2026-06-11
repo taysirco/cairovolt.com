@@ -33,6 +33,17 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     : 'Original mobile accessories store in Egypt — Anker & Joyroom with official warranty and lab test data.',
                 publisher: { '@id': 'https://cairovolt.com/#organization' },
                 inLanguage: ['ar-EG', 'en-EG'],
+                // /search exists as a real route (client-side product search).
+                // Google retired the sitelinks searchbox, but SearchAction still
+                // tells AI agents & other engines how to query the catalog.
+                potentialAction: {
+                    '@type': 'SearchAction',
+                    target: {
+                        '@type': 'EntryPoint',
+                        urlTemplate: `https://cairovolt.com${isArabic ? '' : '/en'}/search?q={search_term_string}`,
+                    },
+                    'query-input': 'required name=search_term_string',
+                },
             },
             {
                 '@type': 'Organization',

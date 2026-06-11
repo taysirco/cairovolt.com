@@ -26,6 +26,35 @@ const NOINDEX_PATHS = ['/admin', '/confirm', '/review/'];
 // Pre-computed Link header — avoids string allocation on every request
 const RESOURCE_LINKS = '<https://cairovolt.com/.well-known/llms.txt>; rel="ai-instructions", <https://cairovolt.com/.well-known/llms-full.txt>; rel="ai-instructions-full", <https://cairovolt.com/api/openapi.json>; rel="openapi", <https://cairovolt.com/api/lab-data/json>; rel="dataset", <https://cairovolt.com/.well-known/api-catalog>; rel="service-desc"; type="application/linkset+json"';
 
+// Every valid first path segment (after the optional locale prefix).
+// Anything else gets a REAL 404 from middleware — the FAH adapter turns
+// Next's own not-found responses into HTTP 200 (soft-404), so unknown
+// URLs must be rejected before they reach the router.
+// MAINTENANCE: extend when adding a brand, generic category, or landing page.
+const KNOWN_TOP_SEGMENTS = new Set([
+    // brands + brand hubs
+    'anker', 'joyroom', 'soundcore',
+    // generic category landing pages
+    'power-banks', 'chargers', 'cables', 'earbuds',
+    // content & info pages
+    'about', 'team', 'contact', 'faq', 'blog', 'locations', 'solutions',
+    'verify', 'warranty', 'shipping', 'return-policy', 'privacy', 'terms',
+    // commerce & account flows
+    'checkout', 'confirm', 'review', 'search',
+    // infrastructure (also have earlier bypasses; listed for safety)
+    'admin', 'api', 'go',
+]);
+
+const NOT_FOUND_HTML = `<!DOCTYPE html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>404 — الصفحة غير موجودة | CairoVolt</title>
+<style>body{font-family:system-ui,-apple-system,'Segoe UI',sans-serif;min-height:100vh;margin:0;display:flex;align-items:center;justify-content:center;background:#0f172a;color:#e2e8f0;text-align:center}main{padding:32px}h1{font-size:64px;margin:0 0 8px;color:#3b82f6}p{color:#94a3b8;margin:0 0 24px}a{display:inline-block;background:#2563eb;color:#fff;text-decoration:none;padding:12px 28px;border-radius:10px;font-weight:700}</style>
+</head><body><main><h1>404</h1>
+<p>الصفحة غير موجودة — Page not found</p>
+<a href="/">العودة للرئيسية · Back home</a></main></body></html>`;
+
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     const userAgent = request.headers.get('user-agent') || '';
@@ -180,6 +209,27 @@ export default function middleware(request: NextRequest) {
         const url = request.nextUrl.clone();
         url.pathname = `${localePrefix || ''}/soundcore/${category}${rest || ''}`;
         return NextResponse.redirect(url, { status: 301 });
+    }
+
+    // 3. Real 404 for unknown top-level segments (soft-404 fix).
+    // The FAH adapter serves Next's not-found page with HTTP 200, so the only
+    // reliable place to emit a real 404 status is the middleware (statuses
+    // here DO survive the serving layer — verified via the 301/204 paths).
+    // MAINTENANCE: add new top-level routes (brands, landing pages) here.
+    const firstSegment = (() => {
+        const parts = pathname.split('/').filter(Boolean);
+        if (parts[0] === 'en' || parts[0] === 'ar') parts.shift();
+        return parts[0];
+    })();
+    if (firstSegment && !KNOWN_TOP_SEGMENTS.has(firstSegment)) {
+        return new NextResponse(NOT_FOUND_HTML, {
+            status: 404,
+            headers: {
+                'Content-Type': 'text/html; charset=utf-8',
+                'X-Robots-Tag': 'noindex',
+                'Cache-Control': 'public, max-age=300',
+            },
+        });
     }
 
     // ── X-Cache-Status + performance headers for all responses ──

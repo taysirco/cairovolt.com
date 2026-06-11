@@ -6,7 +6,10 @@ import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
 
 // ISR: On-demand revalidation only (via /api/indexing webhook)
-export const dynamicParams = true;
+// Closed param space (categoryContent keys) → real 404 for unknown categories
+// instead of FAH soft-404. Product [slug] below stays dynamic (Firebase-only
+// products are not enumerable at build time).
+export const dynamicParams = false;
 
 type Props = {
     params: Promise<{ locale: string; brand: string; category: string }>;

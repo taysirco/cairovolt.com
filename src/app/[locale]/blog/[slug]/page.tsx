@@ -19,7 +19,9 @@ import { ExpertQuote } from '@/components/content/ExpertQuote';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
 export const revalidate = 86400;
-export const dynamicParams = true;
+// Closed slug space (all articles ship in the repo) → real 404 for unknown
+// slugs instead of FAH soft-404.
+export const dynamicParams = false;
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;

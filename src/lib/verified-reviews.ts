@@ -272,6 +272,40 @@ export async function getProductReviews(productSlug: string, limit: number = 20)
 }
 
 /**
+ * Genuine reviews submitted from a given governorate — powers the unique
+ * local-proof section on /locations/[governorate] pages (anti-doorway:
+ * every governorate page accumulates real, page-specific content).
+ * Equality-only filters → no composite Firestore index required.
+ */
+export async function getReviewsByGovernorate(governorateName: string, max: number = 6): Promise<VerifiedReview[]> {
+    try {
+        const db = await getFirestore();
+        const snapshot = await db.collection('reviews')
+            .where('status', '==', 'approved')
+            .where('governorate', '==', governorateName)
+            .limit(30)
+            .get();
+
+        return snapshot.docs
+            .filter(doc => !isSeededReview(doc.data() as { orderId?: string; orderDocId?: string }))
+            .map(doc => {
+                const data = doc.data();
+                return {
+                    id: doc.id,
+                    ...data,
+                    purchaseDate: data.purchaseDate?.toDate?.() || new Date(),
+                    reviewDate: data.reviewDate?.toDate?.() || new Date()
+                } as VerifiedReview;
+            })
+            .sort((a, b) => b.reviewDate.getTime() - a.reviewDate.getTime())
+            .slice(0, max);
+    } catch (error) {
+        logger.warn('Failed to fetch governorate reviews:', error);
+        return [];
+    }
+}
+
+/**
  * Get total review count for a product
  */
 export async function getProductReviewCount(productSlug: string): Promise<number> {

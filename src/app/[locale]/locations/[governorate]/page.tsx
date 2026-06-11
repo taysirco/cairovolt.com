@@ -4,12 +4,17 @@ import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { staticProducts } from '@/lib/static-products';
+import { getReviewsByGovernorate } from '@/lib/verified-reviews';
+import { unstable_cache } from 'next/cache';
 import { BostaTracker } from '@/lib/bosta';
 import { getGovernorateOutageData } from '@/data/load-shedding-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 
 export const revalidate = 3600; // ISR: revalidate every hour
+// Closed param space (27 governorates × 2 locales) → unknown slugs get a real
+// 404 instead of the 500 the FAH adapter produced on dynamic notFound() here.
+export const dynamicParams = false;
 
 interface PageProps {
     params: Promise<{
@@ -19,10 +24,34 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-    return governorates.map((gov) => ({
-        governorate: gov.slug,
-    }));
+    return ['ar', 'en'].flatMap(locale =>
+        governorates.map((gov) => ({ locale, governorate: gov.slug }))
+    );
 }
+
+// Cached + serialized (unstable_cache round-trips JSON: keep plain fields only).
+// Product link resolved here so the section can deep-link each review.
+const getCachedGovernorateReviews = unstable_cache(
+    async (governorateNameAr: string) => {
+        const reviews = await getReviewsByGovernorate(governorateNameAr, 6);
+        return reviews.map(r => {
+            const product = staticProducts.find(p => p.slug === r.productSlug);
+            return {
+                customerName: r.customerName,
+                rating: r.rating,
+                title: r.title || '',
+                reviewText: r.reviewText,
+                productName: r.productName,
+                productUrl: product
+                    ? `/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`
+                    : '',
+                reviewDate: new Date(r.reviewDate).toISOString().split('T')[0],
+            };
+        });
+    },
+    ['governorate-reviews'],
+    { revalidate: 3600, tags: ['reviews'] }
+);
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { locale, governorate: governorateSlug } = await params;
@@ -100,6 +129,11 @@ export default async function GovernoratePage({ params }: PageProps) {
     const displayProducts = staticProducts.filter(p =>
         loadSheddingProductSlugs.includes(p.slug) && p.status === 'active'
     );
+
+    // 4. Genuine customer reviews from THIS governorate (anti-doorway: real,
+    // page-specific content that no template can replicate). Renders only
+    // when at least one verified review exists.
+    const govReviews = await getCachedGovernorateReviews(gov.nameAr);
 
     return (
         <>
@@ -413,6 +447,59 @@ export default async function GovernoratePage({ params }: PageProps) {
                         </div>
                     </div>
                 </section>
+
+                {/* ═══════════ GENUINE LOCAL REVIEWS (verified orders only) ═══════════ */}
+                {govReviews.length > 0 && (
+                    <section className="py-12">
+                        <div className="container mx-auto px-4 max-w-5xl">
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+                                {isArabic
+                                    ? `تجارب عملاء حقيقية من ${gov.nameAr}`
+                                    : `Real customer experiences from ${gov.nameEn}`}
+                            </h2>
+                            <p className="text-gray-500 dark:text-gray-400 text-sm mb-8">
+                                {isArabic
+                                    ? 'مراجعات موثقة من طلبات تم توصيلها فعلياً في المحافظة'
+                                    : 'Verified reviews from orders actually delivered in this governorate'}
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                {govReviews.map((review, idx) => (
+                                    <div
+                                        key={idx}
+                                        className="bg-white dark:bg-gray-900/60 border border-gray-200 dark:border-gray-700/50 rounded-2xl p-5"
+                                    >
+                                        <div className="flex items-center justify-between mb-3">
+                                            <div className="font-semibold text-gray-900 dark:text-white">
+                                                {review.customerName}
+                                            </div>
+                                            <div className="text-yellow-500 text-sm" aria-label={`${review.rating}/5`}>
+                                                {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
+                                            </div>
+                                        </div>
+                                        {review.title && (
+                                            <div className="font-medium text-gray-800 dark:text-gray-200 mb-1">
+                                                {review.title}
+                                            </div>
+                                        )}
+                                        <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-3">
+                                            {review.reviewText}
+                                        </p>
+                                        <div className="flex items-center justify-between text-xs text-gray-500">
+                                            {review.productUrl ? (
+                                                <Link href={review.productUrl} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                                    {review.productName}
+                                                </Link>
+                                            ) : (
+                                                <span>{review.productName}</span>
+                                            )}
+                                            <span>{new Date(review.reviewDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US')}</span>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </section>
+                )}
 
                 {/* ═══════════ VOICE SEARCH FAQ ═══════════ */}
                 <section className="py-8 bg-gray-100 dark:bg-gray-800/30">

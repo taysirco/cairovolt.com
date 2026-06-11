@@ -243,6 +243,17 @@ export default function Header() {
 
                     {/* Actions */}
                     <div className="flex items-center gap-1 sm:gap-3">
+                        {/* Search */}
+                        <Link
+                            href="/search"
+                            className="p-2 sm:p-2.5 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-colors touch-target group"
+                            aria-label={isRTL ? 'البحث في المنتجات' : 'Search products'}
+                        >
+                            <svg className="w-5 h-5 text-gray-600 dark:text-gray-300 group-hover:text-blue-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+                            </svg>
+                        </Link>
+
                         {/* Cart Button */}
                         <button
                             onClick={() => setIsOpen(true)}

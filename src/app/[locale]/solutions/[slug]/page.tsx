@@ -6,10 +6,14 @@ import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 
 export const revalidate = 3600;
-export const dynamicParams = true;
+// Closed slug space (solutionsDB) → unknown slugs get a real 404 instead of
+// a soft-404/500 from the FAH serving layer.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-    return solutionsDB.map(p => ({ slug: p.slug }));
+    return ['ar', 'en'].flatMap(locale =>
+        solutionsDB.map(p => ({ locale, slug: p.slug }))
+    );
 }
 
 type Props = {
