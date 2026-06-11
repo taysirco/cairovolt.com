@@ -106,8 +106,16 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                 </div>
               )}
 
-              {/* Heading */}
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.5rem] font-bold text-white leading-tight tracking-tight font-outfit">
+              {/* Heading — SSR placeholder only (instant LCP paint).
+                  Rendered as a styled <p> with heading role, NOT <h1>: the live
+                  <h1> lives in HeroCarousel (the post-hydration, user-visible
+                  heading). Two <h1>s in the DOM is an SEO defect, and this node
+                  is set aria-hidden once the carousel takes over anyway. */}
+              <p
+                role="heading"
+                aria-level={1}
+                className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.5rem] font-bold text-white leading-tight tracking-tight font-outfit"
+              >
                 {isAr ? (
                   <>
                     منتجات <span className="text-blue-400">Anker</span> الأصلية
@@ -121,7 +129,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                     <span className="text-slate-300 text-2xl sm:text-3xl lg:text-4xl font-medium">{firstProduct.name.en}</span>
                   </>
                 )}
-              </h1>
+              </p>
 
               {/* Tagline */}
               <p className="text-lg text-slate-400 font-medium">
