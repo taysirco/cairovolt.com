@@ -7,6 +7,7 @@ import { getFirestore } from './firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import crypto from 'crypto';
 import { logger } from './logger';
+import { REVIEW_THANKS_LABEL_AR, REVIEW_THANKS_LABEL_EN } from './review-incentive';
 
 // ============================================
 // INTERFACES
@@ -236,7 +237,7 @@ export async function submitReview(submission: ReviewSubmission): Promise<{ succ
  */
 const SEEDED_ID_PATTERN = /^(SEED-|DOC-\d|ORD-\d{13}-)/;
 
-function isSeededReview(data: { orderId?: string; orderDocId?: string }): boolean {
+export function isSeededReview(data: { orderId?: string; orderDocId?: string }): boolean {
     return SEEDED_ID_PATTERN.test(data.orderDocId || '') || SEEDED_ID_PATTERN.test(data.orderId || '');
 }
 
@@ -335,13 +336,13 @@ export function generateReviewRequestMessage(
     if (locale === 'ar') {
         return `أهلاً ${customerName}!
 
-أتمنى إن ${productName} عجبك!
+أتمنى إن ${productName} نال إعجابك!
 
-لو عندك دقيقة، شاركنا رأيك الصادق:
+لو عندك دقيقة، شاركنا رأيك الصادق — مدح أو نقد، الاتنين يفيدونا ويساعدوا عملاء تانيين يختاروا صح:
 
 ${reviewUrl}
 
-رأيك يساعد عملاء تانيين يختاروا صح
+🎁 وكهدية شكر: بعد إرسال تقييمك — أياً كان رأيك — هيظهر لك كود ${REVIEW_THANKS_LABEL_AR} على طلبك الجاي.
 
 شكراً لثقتك في كايرو فولت!`;
     }
@@ -350,11 +351,11 @@ ${reviewUrl}
 
 Hope you're enjoying your ${productName}!
 
-If you have a minute, share your honest feedback:
+If you have a minute, share your honest feedback — praise or criticism, both help us and help other customers choose right:
 
 ${reviewUrl}
 
-Your review helps other customers make the right choice
+🎁 As a thank-you: after submitting your review — whatever your opinion — you'll get a ${REVIEW_THANKS_LABEL_EN} code for your next order.
 
 Thanks for trusting CairoVolt!`;
 }

@@ -22,6 +22,10 @@ env:
     value: 1laNmzAhUHJpkm-DTqzn0fsZxZNZ7S-Du2-_m7WFDYc8
   - variable: FIREBASE_DATABASE_ID
     value: gadgets  # CairoVolt — Firestore Database ID (immutable)
+  - variable: ADMIN_TASKS_SECRET
+    value: 7c3540be1c25d60937460700ff450ebfd1778369deac734a  # Gates /api/reviews/sync + /api/admin/purge-seeded-reviews (rotate by changing this value)
+    availability:
+      - RUNTIME
 
 secrets:
   - variable: FIREBASE_CLIENT_EMAIL

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { REVIEW_THANKS_CODE, REVIEW_THANKS_LABEL_AR, REVIEW_THANKS_LABEL_EN } from '@/lib/review-incentive';
 
 interface ReviewFormProps {
     token: string;
@@ -95,6 +96,28 @@ export default function ReviewForm({ token, productName, customerName, locale }:
                         ? 'تم إرسال تقييمك بنجاح. رأيك يُحدث فرقاً ويساعد عملاء آخرين!'
                         : 'Your review has been submitted successfully. Your opinion makes a difference!'}
                 </p>
+                {/* Sentiment-neutral thank-you reward — shown for EVERY submitted
+                    review regardless of rating (Google review policy compliant) */}
+                <div className="review-success__reward">
+                    <div className="review-success__reward-label">
+                        {isArabic
+                            ? `🎁 هدية شكر: كود ${REVIEW_THANKS_LABEL_AR} على طلبك الجاي`
+                            : `🎁 Thank-you gift: ${REVIEW_THANKS_LABEL_EN} code for your next order`}
+                    </div>
+                    <button
+                        type="button"
+                        className="review-success__reward-code"
+                        onClick={() => navigator.clipboard?.writeText(REVIEW_THANKS_CODE)}
+                        title={isArabic ? 'اضغط للنسخ' : 'Click to copy'}
+                    >
+                        {REVIEW_THANKS_CODE}
+                    </button>
+                    <div className="review-success__reward-note">
+                        {isArabic
+                            ? 'الكود يُمنح لكل تقييم صادق — إيجابي أو سلبي. اذكره عند طلبك القادم على واتساب.'
+                            : 'The code is given for every honest review — positive or negative. Mention it on your next WhatsApp order.'}
+                    </div>
+                </div>
                 <a href={`${locale === 'ar' ? '/' : '/en'}`} className="review-success__link">
                     {isArabic ? '← تسوق المزيد' : '← Shop More'}
                 </a>
@@ -131,6 +154,38 @@ export default function ReviewForm({ token, productName, customerName, locale }:
                         border-radius: 12px;
                         text-decoration: none;
                         font-weight: 600;
+                    }
+                    .review-success__reward {
+                        background: rgba(250, 204, 21, 0.08);
+                        border: 1px dashed rgba(250, 204, 21, 0.5);
+                        border-radius: 16px;
+                        padding: 20px;
+                        margin-bottom: 28px;
+                    }
+                    .review-success__reward-label {
+                        color: #facc15;
+                        font-size: 15px;
+                        font-weight: 600;
+                        margin-bottom: 12px;
+                    }
+                    .review-success__reward-code {
+                        display: inline-block;
+                        background: rgba(250, 204, 21, 0.15);
+                        color: #fde047;
+                        border: 1px solid rgba(250, 204, 21, 0.6);
+                        border-radius: 10px;
+                        padding: 10px 24px;
+                        font-size: 20px;
+                        font-weight: 800;
+                        letter-spacing: 2px;
+                        cursor: pointer;
+                        font-family: monospace;
+                    }
+                    .review-success__reward-note {
+                        color: rgba(255, 255, 255, 0.55);
+                        font-size: 13px;
+                        margin-top: 12px;
+                        line-height: 1.5;
                     }
                 `}</style>
             </div>

@@ -8,11 +8,25 @@ interface ReviewRequest {
     rowNumber: number;
     customerName: string;
     customerPhone: string;
-    productName: string;
-    reviewUrl: string;
-    whatsappLink: string;
+    productName?: string;
+    sheetProductName?: string;
+    reviewUrl?: string;
+    whatsappLink?: string;
     status: string;
+    reason?: string;
     createdAt: string;
+}
+
+const ADMIN_KEY_STORAGE = 'cv_admin_key';
+
+function getAdminKey(): string {
+    if (typeof window === 'undefined') return '';
+    let key = localStorage.getItem(ADMIN_KEY_STORAGE) || '';
+    if (!key) {
+        key = window.prompt('أدخل مفتاح الأدمن (ADMIN_TASKS_SECRET):')?.trim() || '';
+        if (key) localStorage.setItem(ADMIN_KEY_STORAGE, key);
+    }
+    return key;
 }
 
 export default function ReviewsDashboard() {
@@ -22,11 +36,22 @@ export default function ReviewsDashboard() {
     const [syncResults, setSyncResults] = useState<any>(null);
     const [error, setError] = useState<string | null>(null);
 
+    const authHeaders = (): Record<string, string> => ({
+        'Authorization': `Bearer ${getAdminKey()}`,
+        'Content-Type': 'application/json',
+    });
+
+    const handleAuthFailure = () => {
+        localStorage.removeItem(ADMIN_KEY_STORAGE);
+        setError('المفتاح غير صحيح — حدّث الصفحة وأدخله من جديد');
+    };
+
     // Fetch existing review requests
     const fetchRequests = async () => {
         setLoading(true);
         try {
-            const response = await fetch('/api/reviews/sync', { method: 'POST' });
+            const response = await fetch('/api/reviews/sync', { method: 'POST', headers: authHeaders() });
+            if (response.status === 401) { handleAuthFailure(); return; }
             const data = await response.json();
             if (data.success) {
                 setRequests(data.requests || []);
@@ -46,7 +71,8 @@ export default function ReviewsDashboard() {
         setSyncResults(null);
         setError(null);
         try {
-            const response = await fetch('/api/reviews/sync');
+            const response = await fetch('/api/reviews/sync', { headers: authHeaders() });
+            if (response.status === 401) { handleAuthFailure(); return; }
             const data = await response.json();
             setSyncResults(data);
             if (data.success) {
@@ -62,8 +88,29 @@ export default function ReviewsDashboard() {
         }
     };
 
+    // Mark a request as sent (after opening WhatsApp) or dismissed
+    const updateStatus = async (id: string, status: 'sent' | 'dismissed') => {
+        try {
+            const response = await fetch('/api/reviews/sync', {
+                method: 'PATCH',
+                headers: authHeaders(),
+                body: JSON.stringify({ id, status }),
+            });
+            if (response.status === 401) { handleAuthFailure(); return; }
+            const data = await response.json();
+            if (data.success) {
+                setRequests(prev => prev.map(r => r.id === id ? { ...r, status } : r));
+            } else {
+                setError(data.error);
+            }
+        } catch (err: any) {
+            setError(err.message);
+        }
+    };
+
     useEffect(() => {
         fetchRequests();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
@@ -149,19 +196,19 @@ export default function ReviewsDashboard() {
                         <div className="text-3xl font-bold text-yellow-600">
                             {requests.filter(r => r.status === 'pending').length}
                         </div>
-                        <div className="text-gray-500 text-sm">في الانتظار</div>
+                        <div className="text-gray-500 text-sm">جاهزة للإرسال</div>
                     </div>
                     <div className="bg-white dark:bg-gray-900 rounded-xl p-4 shadow">
                         <div className="text-3xl font-bold text-green-600">
-                            {requests.filter(r => r.status === 'completed').length}
+                            {requests.filter(r => r.status === 'sent' || r.status === 'completed').length}
                         </div>
-                        <div className="text-gray-500 text-sm">مكتملة</div>
+                        <div className="text-gray-500 text-sm">تم الإرسال</div>
                     </div>
                     <div className="bg-white dark:bg-gray-900 rounded-xl p-4 shadow">
-                        <div className="text-3xl font-bold text-purple-600">
-                            {new Date().toLocaleDateString('ar-EG')}
+                        <div className="text-3xl font-bold text-red-600">
+                            {requests.filter(r => r.status === 'unmatched').length}
                         </div>
-                        <div className="text-gray-500 text-sm">آخر تحديث</div>
+                        <div className="text-gray-500 text-sm">تحتاج مطابقة يدوية</div>
                     </div>
                 </div>
 
@@ -206,14 +253,28 @@ export default function ReviewsDashboard() {
                                                 </div>
                                             </td>
                                             <td className="px-4 py-3 text-gray-700 dark:text-gray-300">
-                                                {request.productName}
+                                                {request.productName || request.sheetProductName}
+                                                {request.status === 'unmatched' && (
+                                                    <div className="text-xs text-red-500 mt-1">
+                                                        {request.reason === 'invalid-phone' ? 'رقم واتساب غير صالح' : 'لم يُطابق منتجاً في الكتالوج'}
+                                                    </div>
+                                                )}
                                             </td>
                                             <td className="px-4 py-3">
-                                                <span className={`px-2 py-1 text-xs rounded-full ${request.status === 'completed'
-                                                    ? 'bg-green-100 text-green-700'
-                                                    : 'bg-yellow-100 text-yellow-700'
-                                                    }`}>
-                                                    {request.status === 'completed' ? 'تم التقييم' : 'في الانتظار'}
+                                                <span className={`px-2 py-1 text-xs rounded-full ${{
+                                                    completed: 'bg-green-100 text-green-700',
+                                                    sent: 'bg-green-100 text-green-700',
+                                                    pending: 'bg-yellow-100 text-yellow-700',
+                                                    unmatched: 'bg-red-100 text-red-700',
+                                                    dismissed: 'bg-gray-200 text-gray-600',
+                                                }[request.status] || 'bg-yellow-100 text-yellow-700'}`}>
+                                                    {{
+                                                        completed: 'تم التقييم',
+                                                        sent: 'تم الإرسال',
+                                                        pending: 'جاهزة للإرسال',
+                                                        unmatched: 'مطابقة يدوية',
+                                                        dismissed: 'مُتجاهَلة',
+                                                    }[request.status] || request.status}
                                                 </span>
                                             </td>
                                             <td className="px-4 py-3 text-sm text-gray-500">
@@ -222,21 +283,41 @@ export default function ReviewsDashboard() {
                                                     : '-'}
                                             </td>
                                             <td className="px-4 py-3">
-                                                <div className="flex gap-2">
-                                                    <a
-                                                        href={request.whatsappLink}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        className="px-3 py-1 bg-green-500 hover:bg-green-600 text-white text-sm rounded-lg transition-colors"
-                                                    >
-                                                        <SvgIcon name="phone" className="w-4 h-4 inline-block" /> واتساب
-                                                    </a>
-                                                    <button
-                                                        onClick={() => navigator.clipboard.writeText(request.reviewUrl)}
-                                                        className="px-3 py-1 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm rounded-lg transition-colors"
-                                                    >
-                                                        <SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> نسخ
-                                                    </button>
+                                                <div className="flex gap-2 flex-wrap">
+                                                    {request.whatsappLink && (
+                                                        <a
+                                                            href={request.whatsappLink}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            className="px-3 py-1 bg-green-500 hover:bg-green-600 text-white text-sm rounded-lg transition-colors"
+                                                        >
+                                                            <SvgIcon name="phone" className="w-4 h-4 inline-block" /> واتساب
+                                                        </a>
+                                                    )}
+                                                    {request.status === 'pending' && (
+                                                        <button
+                                                            onClick={() => updateStatus(request.id, 'sent')}
+                                                            className="px-3 py-1 bg-blue-500 hover:bg-blue-600 text-white text-sm rounded-lg transition-colors"
+                                                        >
+                                                            ✓ تم الإرسال
+                                                        </button>
+                                                    )}
+                                                    {(request.status === 'pending' || request.status === 'unmatched') && (
+                                                        <button
+                                                            onClick={() => updateStatus(request.id, 'dismissed')}
+                                                            className="px-3 py-1 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm rounded-lg transition-colors"
+                                                        >
+                                                            تجاهل
+                                                        </button>
+                                                    )}
+                                                    {request.reviewUrl && (
+                                                        <button
+                                                            onClick={() => navigator.clipboard.writeText(request.reviewUrl!)}
+                                                            className="px-3 py-1 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-sm rounded-lg transition-colors"
+                                                        >
+                                                            <SvgIcon name="clipboard" className="w-4 h-4 inline-block" /> نسخ
+                                                        </button>
+                                                    )}
                                                 </div>
                                             </td>
                                         </tr>
@@ -254,9 +335,10 @@ export default function ReviewsDashboard() {
                     </h3>
                     <ol className="list-decimal list-inside space-y-2 text-blue-700 dark:text-blue-400 text-sm">
                         <li>غيّر حالة الطلب في Google Sheets إلى <strong>"تم التوصيل"</strong></li>
-                        <li>اضغط زر <strong>"مزامنة الطلبات الجديدة"</strong> في هذه الصفحة</li>
-                        <li>سيتم إنشاء رابط تقييم لكل طلب وإضافته في عمود الملاحظات</li>
-                        <li>اضغط <strong>"واتساب"</strong> لإرسال الرابط للعميل مباشرة</li>
+                        <li>المزامنة تعمل تلقائياً كل يوم (أو اضغط <strong>"مزامنة الطلبات الجديدة"</strong> يدوياً) — تُعالَج الطلبات بعد 6 أيام من تاريخ الطلب وحتى 45 يوماً</li>
+                        <li>اضغط <strong>"واتساب"</strong> لفتح الرسالة الجاهزة وإرسالها، ثم اضغط <strong>"✓ تم الإرسال"</strong></li>
+                        <li>الطلبات في قسم <strong>"مطابقة يدوية"</strong> اسم منتجها في الشيت لم يطابق الكتالوج — راسل العميل يدوياً أو تجاهلها</li>
+                        <li>العميل يرى كود شكر (<strong>{'SHOKRAN10'}</strong>) بعد إرسال أي تقييم — إيجابي أو سلبي — لا تَعِد به مقابل تقييم إيجابي أبداً</li>
                     </ol>
                 </div>
             </div>
