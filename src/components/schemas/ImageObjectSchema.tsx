@@ -141,12 +141,7 @@ export function ImageObjectSchema({
             copyrightNotice: c2paHash
                 ? `© ${year} CairoVolt — C2PA: ${c2paHash.slice(0, 16)}`
                 : `© ${year} CairoVolt - cairovolt.com`,
-            creator: {
-                '@type': 'Organization',
-                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-                url: baseUrl,
-                sameAs: 'https://cairovolt.com',
-            },
+            creator: { '@id': 'https://cairovolt.com/#organization' },
             contentLocation: {
                 '@type': 'Place',
                 name: isArabic ? lab.nameAr : lab.nameEn,

@@ -132,15 +132,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
             "interactionType": { "@type": "WatchAction" },
             "userInteractionCount": 0,
         },
-        "publisher": {
-            "@type": "Organization",
-            "@id": "https://cairovolt.com/#organization",
-            "name": isArabic ? "كايرو فولت" : "CairoVolt",
-            "logo": {
-                "@type": "ImageObject",
-                "url": `${baseUrl}/logo.png`
-            }
-        }
+        "publisher": { "@id": "https://cairovolt.com/#organization" }
     } : null;
 
     const schema = {
@@ -328,21 +320,11 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 name: 'Egypt',
                 sameAs: 'https://en.wikipedia.org/wiki/Egypt',
             },
-            seller: {
-                '@type': 'Organization',
-                '@id': 'https://cairovolt.com/#organization',
-                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-                url: baseUrl,
-                identifier: [
-                    { '@type': 'PropertyValue', propertyID: 'CommercialRegistry', value: '8446' },
-                    { '@type': 'PropertyValue', propertyID: 'TaxID', value: '777-471-566' },
-                ],
-                location: {
-                    '@type': 'Place',
-                    name: 'New Damietta City',
-                    sameAs: 'https://www.wikidata.org/wiki/Q12211943',
-                },
-            },
+            // Reference the canonical #organization node (defined once in the
+            // layout's GlobalBusinessSchema with name, identifiers, address,
+            // logo…). Google merges same-@id nodes across the page's blocks, so
+            // re-inlining all that here is pure page weight.
+            seller: { '@id': 'https://cairovolt.com/#organization' },
             // Shipping Details — structured shipping cost and delivery time
             shippingDetails: {
                 '@type': 'OfferShippingDetails',
@@ -405,12 +387,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 contentType: 'application/json',
                 httpMethod: 'POST',
             },
-            seller: {
-                '@type': 'Organization',
-                '@id': 'https://cairovolt.com/#organization',
-                name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-                url: baseUrl,
-            },
+            seller: { '@id': 'https://cairovolt.com/#organization' },
             deliveryMethod: 'https://schema.org/ParcelService',
             // Lean Offer reference — shipping/return/payment already defined in parent offers block
             expectsAcceptanceOf: {
@@ -434,10 +411,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                     jobTitle: expertReview.title,
                     sameAs: expertReview.profileUrl,
                 },
-                publisher: {
-                    '@type': 'Organization',
-                    name: isArabic ? 'كايرو فولت' : 'CairoVolt',
-                },
+                publisher: { '@id': 'https://cairovolt.com/#organization' },
                 reviewBody: expertReview.body,
                 // No reviewRating: lab write-ups are qualitative assessments,
                 // and a fixed editorial score on every product would be a
