@@ -91,6 +91,7 @@ import { poweriq_vooc_superfast_turbopower_explained } from './blog/poweriq-vooc
 import { gan_iii_vs_gan_ii_chargers_upgrade_worth_it } from './blog/gan-iii-vs-gan-ii-chargers-upgrade-worth-it';
 import { qi2_magsafe_wireless_charging_future_egypt } from './blog/qi2-magsafe-wireless-charging-future-egypt';
 import { usb_pd_3_1_240w_when_need_it_supports } from './blog/usb-pd-3-1-240w-when-need-it-supports';
+import { bluetooth_5_4_vs_5_3_vs_5_0_real_difference } from './blog/bluetooth-5-4-vs-5-3-vs-5-0-real-difference';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -180,6 +181,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     gan_iii_vs_gan_ii_chargers_upgrade_worth_it,
     qi2_magsafe_wireless_charging_future_egypt,
     usb_pd_3_1_240w_when_need_it_supports,
+    bluetooth_5_4_vs_5_3_vs_5_0_real_difference,
 ];
 
 
