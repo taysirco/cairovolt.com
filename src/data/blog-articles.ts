@@ -94,6 +94,7 @@ import { usb_pd_3_1_240w_when_need_it_supports } from './blog/usb-pd-3-1-240w-wh
 import { bluetooth_5_4_vs_5_3_vs_5_0_real_difference } from './blog/bluetooth-5-4-vs-5-3-vs-5-0-real-difference';
 import { anker_activeshield_2_0_battery_protection_real } from './blog/anker-activeshield-2-0-battery-protection-real';
 import { phone_heating_during_charging_normal_or_danger } from './blog/phone-heating-during-charging-normal-or-danger';
+import { battery_drain_after_ios_android_update_charger } from './blog/battery-drain-after-ios-android-update-charger';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -186,6 +187,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     bluetooth_5_4_vs_5_3_vs_5_0_real_difference,
     anker_activeshield_2_0_battery_protection_real,
     phone_heating_during_charging_normal_or_danger,
+    battery_drain_after_ios_android_update_charger,
 ];
 
 
