@@ -96,6 +96,7 @@ import { anker_activeshield_2_0_battery_protection_real } from './blog/anker-act
 import { phone_heating_during_charging_normal_or_danger } from './blog/phone-heating-during-charging-normal-or-danger';
 import { battery_drain_after_ios_android_update_charger } from './blog/battery-drain-after-ios-android-update-charger';
 import { chargers_hajj_umrah_saudi_arabia_essentials } from './blog/chargers-hajj-umrah-saudi-arabia-essentials';
+import { black_friday_egypt_real_deals_vs_fake_discounts } from './blog/black-friday-egypt-real-deals-vs-fake-discounts';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -190,6 +191,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     phone_heating_during_charging_normal_or_danger,
     battery_drain_after_ios_android_update_charger,
     chargers_hajj_umrah_saudi_arabia_essentials,
+    black_friday_egypt_real_deals_vs_fake_discounts,
 ];
 
 
