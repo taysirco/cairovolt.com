@@ -8,17 +8,43 @@
  *   node scripts/index-blog.js black-friday-egypt-real-deals-vs-fake-discounts
  *
  * What it does:
- *   1. IndexNow ping → Bing, Yandex, Seznam, Naver (instant)
- *   2. Opens Google Search Console URL Inspection in your browser
- *      (Google Indexing API doesn't support blog pages)
+ *   1. IndexNow ping → Bing, Yandex, Seznam, Naver (instant, automatic)
+ *   2. Google Indexing API → automatic if GOOGLE_INDEXING_KEY is set in .env.local
+ *      Falls back to opening Search Console in browser if key is not available.
+ *
+ * Setup for Google Indexing API:
+ *   1. Go to https://console.cloud.google.com/ → APIs & Services → Enable "Indexing API"
+ *   2. Go to IAM & Admin → Service Accounts → use existing or create new
+ *   3. Create a JSON key for the service account
+ *   4. Add the service account email as Owner in Google Search Console
+ *   5. Set GOOGLE_INDEXING_KEY in .env.local with the full JSON (single line)
  */
 
 const { execSync } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+
+// ─── Load .env.local ─────────────────────────────────────
+function loadEnv() {
+    const envFiles = ['.env.local', '.env'];
+    for (const file of envFiles) {
+        const filePath = path.join(__dirname, '..', file);
+        if (fs.existsSync(filePath)) {
+            const lines = fs.readFileSync(filePath, 'utf8').split('\n');
+            for (const line of lines) {
+                const match = line.match(/^([A-Z_][A-Z0-9_]*)=(.+)$/);
+                if (match && !process.env[match[1]]) {
+                    process.env[match[1]] = match[2];
+                }
+            }
+        }
+    }
+}
+loadEnv();
 
 // ─── Config ──────────────────────────────────────────────
 const ORIGIN = 'https://cairovolt.com';
 const INDEXNOW_KEY = '09f1d32f07e4bd57775e7d023577797a';
-const GSC_PROPERTY = 'sc-domain:cairovolt.com';
 
 // ─── Parse args ──────────────────────────────────────────
 const slug = process.argv[2];
@@ -73,33 +99,71 @@ async function pingIndexNow() {
     }
 }
 
-// ─── 2. Google Search Console — open in browser ──────────
-function openGoogleSearchConsole() {
-    // URL Inspection deep-link for the AR version
-    const inspectUrl = `https://search.google.com/search-console/inspect?resource_id=${encodeURIComponent(GSC_PROPERTY)}&id=${encodeURIComponent(urls[0])}`;
-    
-    console.log('');
-    console.log('🌐 Google Search Console:');
-    console.log('   Opening URL Inspection in browser...');
-    console.log('   → Press "Request Indexing" for the AR page');
-    console.log('   → Then do the same for the EN page');
-    console.log('');
+// ─── 2. Google Indexing API ──────────────────────────────
+async function pingGoogleIndexingAPI() {
+    const keyJson = process.env.GOOGLE_INDEXING_KEY;
+
+    if (!keyJson) {
+        console.log('⚠️  Google Indexing API → GOOGLE_INDEXING_KEY not set in .env.local');
+        console.log('   Falling back to browser...');
+        return false;
+    }
 
     try {
-        // macOS
+        const { google } = require('googleapis');
+        const credentials = JSON.parse(keyJson);
+
+        const auth = new google.auth.GoogleAuth({
+            credentials,
+            scopes: ['https://www.googleapis.com/auth/indexing'],
+        });
+
+        const client = await auth.getClient();
+        const indexing = google.indexing({ version: 'v3', auth: client });
+
+        let allOk = true;
+        for (const url of urls) {
+            try {
+                const res = await indexing.urlNotifications.publish({
+                    requestBody: {
+                        url,
+                        type: 'URL_UPDATED',
+                    },
+                });
+                const locale = url.includes('/en/') ? 'EN' : 'AR';
+                console.log(`✅ Google Indexing API → ${locale} submitted (${res.data.urlNotificationMetadata?.latestUpdate?.type || 'OK'})`);
+            } catch (err) {
+                const locale = url.includes('/en/') ? 'EN' : 'AR';
+                const msg = err.response?.data?.error?.message || err.message;
+                console.log(`❌ Google Indexing API → ${locale} failed: ${msg}`);
+                allOk = false;
+            }
+        }
+
+        return allOk;
+    } catch (err) {
+        console.log(`❌ Google Indexing API → Error: ${err.message}`);
+        return false;
+    }
+}
+
+// ─── 3. Fallback: Open Google Search Console ─────────────
+function openGoogleSearchConsole() {
+    const GSC_PROPERTY = 'sc-domain:cairovolt.com';
+    const inspectUrl = `https://search.google.com/search-console/inspect?resource_id=${encodeURIComponent(GSC_PROPERTY)}&id=${encodeURIComponent(urls[0])}`;
+    const inspectUrlEn = `https://search.google.com/search-console/inspect?resource_id=${encodeURIComponent(GSC_PROPERTY)}&id=${encodeURIComponent(urls[1])}`;
+
+    console.log('');
+    console.log('🌐 Google Search Console (manual fallback):');
+
+    try {
         execSync(`open "${inspectUrl}"`, { stdio: 'ignore' });
         console.log('   ✅ Browser opened — AR URL');
     } catch {
-        // Fallback: just print the URL
-        console.log('   📋 Open manually:');
-        console.log('   ' + inspectUrl);
+        console.log('   📋 AR: ' + inspectUrl);
     }
 
-    // Also print EN URL for manual inspection
-    const inspectUrlEn = `https://search.google.com/search-console/inspect?resource_id=${encodeURIComponent(GSC_PROPERTY)}&id=${encodeURIComponent(urls[1])}`;
-    console.log('');
-    console.log('   📋 EN page (open manually or after AR):');
-    console.log('   ' + inspectUrlEn);
+    console.log('   📋 EN: ' + inspectUrlEn);
 }
 
 // ─── Main ────────────────────────────────────────────────
@@ -108,14 +172,18 @@ async function main() {
     await pingIndexNow();
     console.log('');
 
-    // Step 2: Google Search Console (manual — API doesn't support blog pages)
-    openGoogleSearchConsole();
+    // Step 2: Google Indexing API (automatic) or Search Console (manual fallback)
+    const googleOk = await pingGoogleIndexingAPI();
+
+    if (!googleOk) {
+        openGoogleSearchConsole();
+    }
 
     console.log('');
     console.log('─'.repeat(60));
     console.log('✅ Blog indexing complete for: ' + slug);
     console.log('   IndexNow: Bing/Yandex/Seznam/Naver → automatic');
-    console.log('   Google: Manual "Request Indexing" in Search Console');
+    console.log('   Google: ' + (googleOk ? 'Indexing API → automatic ✅' : 'Search Console → manual (set GOOGLE_INDEXING_KEY for auto)'));
     console.log('');
 }
 
