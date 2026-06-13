@@ -35,6 +35,7 @@
 | **Quick-Answer Box** | إلزامي في أول 50px، ملوّن، مطابق `quickAnswer` | §4 |
 | **Expert Callout** | إلزامي عند الادعاء بأي اختبار ميداني | §5 |
 | **Specificity** | كل ادعاء برقم. لا "بيسخن"/"كبير"/"جيد" | [`content-laws.md`](content-laws.md) §4 |
+| **🔍 Search Engine Indexing** | 🔴 **إلزامي بعد كل push** — `npm run index:blog {slug}` | §18 |
 
 > 🔴 **قبل أي commit:** (1) شغّل أمري `grep` في [`content-laws.md`](content-laws.md) §1 — يجب أن تكونا **0 سطر**. (2) شغّل أمر عدّ الكلمات (§16-A أدناه) — يجب أن يكون AR ≥ 1,500 و EN ≥ 1,500 أو **لا commit**.
 
@@ -58,12 +59,13 @@
 2. **اقرأ [`voice.md`](voice.md)** أولاً (إلزامي — DNA الأسلوب والفكاهة)
 3. **اقرأ [`content-laws.md`](content-laws.md)** (إلزامي — i18n Quarantine + Bilingual Parity + Authority + Anti-AI)
 4. **اقرأ [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md)** واعثر على أول ⬜
-5. نفّذ كامل الـ Workflow (الـ 17 خطوة أدناه) بدون توقف
+5. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف
 6. **شغّل أمر عدّ الكلمات (§16-A) — يجب AR ≥ 1,500 و EN ≥ 1,500 قبل أي خطوة تالية**
 7. شغّل `npm run build` للتحقق
 8. اعمل `commit + push` على GitHub
-9. **حدّث `cairovolt-blog-roadmap.md`** (⬜ → ✅) — لا تعدّل هذا الملف
-10. قدّم تقرير 5 أسطر
+9. 🔴 **فهرس المقال فوراً:** `npm run index:blog {slug}` — **لا يُتخطّى أبداً** (§18)
+10. **حدّث `cairovolt-blog-roadmap.md`** (⬜ → ✅) — لا تعدّل هذا الملف
+11. قدّم تقرير 6 أسطر (يشمل نتيجة الفهرسة)
 
 **Trigger Phrases إضافية:** "اكتب موضوع جديد/تدوينة جديدة" · "اكمل المدونة" · "اكتب التدوينة التالية" · "ابدأ موضوع من القائمة" · "Write the next blog post" · "اكتب موضوع #N".
 
@@ -71,7 +73,7 @@
 
 ---
 
-## 🗺️ Workflow كامل في 17 خطوة
+## 🗺️ Workflow كامل في 18 خطوة
 
 | # | الخطوة | المخرج |
 |---|--------|--------|
@@ -93,6 +95,7 @@
 | 15 | Checklist نهائي + تحديث `cairovolt-blog-roadmap.md` | تحقق شامل |
 | **16** | **`npm run build` للتحقق من نجاح البناء** | **build خالٍ من الأخطاء** |
 | **17** | **`git add` + `git commit` + `git push origin main` → رفع على GitHub** | **Commit منشور على GitHub** |
+| **18** | 🔴 **`npm run index:blog {slug}` → فهرسة فورية في محركات البحث** | **Google + Bing + Yandex مُبلَّغين** |
 
 **الملفات المطلوبة لكل مقال:** (1) `src/data/blog/{slug}.ts` جديد · (2) `public/images/blog/posts/{slug}.webp` (موجود مسبقاً في المستودع لجميع المقالات، لا تقم بإنشائه أو استبداله) · (3) `src/data/blog-articles.ts` تعديل.
 
@@ -237,8 +240,67 @@ git push origin main
 - تأكد من ظهور رسالة `To https://github.com/taysirco/cairovolt.com.git` ورقم الـ commit الجديد
 - شغّل `git status` للتأكد من رسالة `Your branch is up to date with 'origin/main'`
 - لو الـ push فشل (rejected/auth error)، شوف رسالة الخطأ وأصلح قبل المقال التالي
+- 🔴 **انتقل فوراً للخطوة 18 (الفهرسة) — لا تتخطّاها أبداً**
 
 > ⚠️ **ممنوع تماماً:** `git push --force` على main · `--no-verify` · push بدون build ناجح · push secrets/credentials. لو الـ pre-commit hook فشل، أصلح السبب الجذري وأعمل commit جديد (لا تستخدم `--amend` على commits منشورة).
+
+---
+
+## 🔍 الخطوة 18 — فهرسة المقال فوراً في محركات البحث (إلزامي)
+
+> 🔴 **هذه الخطوة غير قابلة للتخطّي.** مقال منشور بدون فهرسة = مقال غير موجود بالنسبة لمحركات البحث. الفهرسة الفورية تختصر وقت الاكتشاف من أيام إلى دقائق.
+
+**الأمر:**
+
+```bash
+cd /Users/ahmedsalem/Desktop/all\ my\ projects/mobile_accessories
+npm run index:blog {slug}
+```
+
+**ماذا يفعل الأمر (تلقائياً بالكامل):**
+
+| المحرك | الآلية | الحالة |
+|--------|--------|--------|
+| **Google** | Google Indexing API عبر Service Account | ✅ تلقائي 100% |
+| **Bing** | IndexNow API | ✅ تلقائي 100% |
+| **Yandex** | IndexNow API | ✅ تلقائي 100% |
+| **Seznam** | IndexNow API | ✅ تلقائي 100% |
+| **Naver** | IndexNow API | ✅ تلقائي 100% |
+
+**الـ URLs المُرسلة لكل مقال (2 URLs):**
+
+```
+https://cairovolt.com/blog/{slug}          ← AR (اللغة الافتراضية)
+https://cairovolt.com/en/blog/{slug}       ← EN
+```
+
+**معايير النجاح:**
+
+- ✅ `IndexNow → HTTP 200` — Bing/Yandex/Seznam/Naver مُبلَّغين
+- ✅ `Google Indexing API → AR submitted (OK)` — النسخة العربية مُرسلة
+- ✅ `Google Indexing API → EN submitted (OK)` — النسخة الإنجليزية مُرسلة
+
+**عند فشل الفهرسة:**
+
+| الخطأ | السبب | الحل |
+|-------|-------|------|
+| `GOOGLE_INDEXING_KEY not set` | مفتاح الـ Service Account مش في `.env.local` | أضف `GOOGLE_INDEXING_KEY={JSON}` في `.env.local` |
+| `quota exceeded` / `429` | تخطّيت 200 طلب/يوم (Google) | انتظر 24 ساعة — IndexNow مش متأثر |
+| `Network error` | مشكلة اتصال | أعد المحاولة — `npm run index:blog {slug}` |
+| `Permission denied` | Service Account مش Owner في Search Console | أضفه من [Search Console → Settings → Users](https://search.google.com/search-console/users) |
+
+> ⚠️ **Quota:** Google Indexing API = 200 طلب/يوم. كل مقال = 2 طلبات (AR + EN). يعني تقدر تنشر حتى 100 مقال/يوم بدون مشكلة. IndexNow ما عندوش quota عملي.
+
+**البنية التحتية (للمرجعية):**
+
+| الملف | الوظيفة |
+|-------|--------|
+| [`scripts/index-blog.js`](scripts/index-blog.js) | سكريبت الفهرسة CLI |
+| `.env.local` → `GOOGLE_INDEXING_KEY` | مفتاح Google Service Account (JSON) |
+| Service Account | `firebase-adminsdk-fbsvc@gadgets-b0bdb.iam.gserviceaccount.com` |
+| IndexNow Key | `09f1d32f07e4bd57775e7d023577797a` (مُخزّن في `/public/`) |
+
+> 🔴 **القاعدة الذهبية:** مقال بدون فهرسة = **لم يُنشر**. الخطوة 18 جزء لا يتجزأ من عملية النشر — مثلها مثل `npm run build` و `git push`.
 
 ---
 
