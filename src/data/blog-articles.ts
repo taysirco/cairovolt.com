@@ -97,6 +97,7 @@ import { phone_heating_during_charging_normal_or_danger } from './blog/phone-hea
 import { battery_drain_after_ios_android_update_charger } from './blog/battery-drain-after-ios-android-update-charger';
 import { chargers_hajj_umrah_saudi_arabia_essentials } from './blog/chargers-hajj-umrah-saudi-arabia-essentials';
 import { black_friday_egypt_real_deals_vs_fake_discounts } from './blog/black-friday-egypt-real-deals-vs-fake-discounts';
+import { back_to_school_university_accessories_bag_egypt } from './blog/back-to-school-university-accessories-bag-egypt';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -192,6 +193,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     battery_drain_after_ios_android_update_charger,
     chargers_hajj_umrah_saudi_arabia_essentials,
     black_friday_egypt_real_deals_vs_fake_discounts,
+    back_to_school_university_accessories_bag_egypt,
 ];
 
 
