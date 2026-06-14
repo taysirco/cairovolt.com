@@ -100,6 +100,7 @@ import { black_friday_egypt_real_deals_vs_fake_discounts } from './blog/black-fr
 import { back_to_school_university_accessories_bag_egypt } from './blog/back-to-school-university-accessories-bag-egypt';
 import { iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade } from './blog/iphone-16-pro-max-vs-iphone-17-pro-max-charger-upgrade';
 import { samsung_galaxy_a55_a75_charger_affordable_alternatives } from './blog/samsung-galaxy-a55-a75-charger-affordable-alternatives';
+import { xiaomi_redmi_note_14_accessories_students_budget } from './blog/xiaomi-redmi-note-14-accessories-students-budget';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -198,6 +199,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     back_to_school_university_accessories_bag_egypt,
     iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade,
     samsung_galaxy_a55_a75_charger_affordable_alternatives,
+    xiaomi_redmi_note_14_accessories_students_budget,
 ];
 
 
