@@ -106,6 +106,7 @@ import { realme_c_series_budget_charger_cable_300_egp } from './blog/realme-c-se
 import { honor_x_series_chargers_vs_samsung_xiaomi } from './blog/honor-x-series-chargers-vs-samsung-xiaomi';
 import { ipad_pro_m4_vs_ipad_air_charger_requirements } from './blog/ipad-pro-m4-vs-ipad-air-charger-requirements';
 import { macbook_air_m3_pro_m4_gan_chargers_alternatives } from './blog/macbook-air-m3-pro-m4-gan-chargers-alternatives';
+import { new_driver_car_accessories_essentials_beginners } from './blog/new-driver-car-accessories-essentials-beginners';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -210,6 +211,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     honor_x_series_chargers_vs_samsung_xiaomi,
     ipad_pro_m4_vs_ipad_air_charger_requirements,
     macbook_air_m3_pro_m4_gan_chargers_alternatives,
+    new_driver_car_accessories_essentials_beginners,
 ];
 
 
