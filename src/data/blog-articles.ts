@@ -104,6 +104,7 @@ import { xiaomi_redmi_note_14_accessories_students_budget } from './blog/xiaomi-
 import { oppo_reno_12_supervooc_charger_original_vs_alternative } from './blog/oppo-reno-12-supervooc-charger-original-vs-alternative';
 import { realme_c_series_budget_charger_cable_300_egp } from './blog/realme-c-series-budget-charger-cable-300-egp';
 import { honor_x_series_chargers_vs_samsung_xiaomi } from './blog/honor-x-series-chargers-vs-samsung-xiaomi';
+import { ipad_pro_m4_vs_ipad_air_charger_requirements } from './blog/ipad-pro-m4-vs-ipad-air-charger-requirements';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -206,6 +207,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     oppo_reno_12_supervooc_charger_original_vs_alternative,
     realme_c_series_budget_charger_cable_300_egp,
     honor_x_series_chargers_vs_samsung_xiaomi,
+    ipad_pro_m4_vs_ipad_air_charger_requirements,
 ];
 
 
