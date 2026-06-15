@@ -102,6 +102,7 @@ import { iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade } from './blog/i
 import { samsung_galaxy_a55_a75_charger_affordable_alternatives } from './blog/samsung-galaxy-a55-a75-charger-affordable-alternatives';
 import { xiaomi_redmi_note_14_accessories_students_budget } from './blog/xiaomi-redmi-note-14-accessories-students-budget';
 import { oppo_reno_12_supervooc_charger_original_vs_alternative } from './blog/oppo-reno-12-supervooc-charger-original-vs-alternative';
+import { realme_c_series_budget_charger_cable_300_egp } from './blog/realme-c-series-budget-charger-cable-300-egp';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -202,6 +203,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     samsung_galaxy_a55_a75_charger_affordable_alternatives,
     xiaomi_redmi_note_14_accessories_students_budget,
     oppo_reno_12_supervooc_charger_original_vs_alternative,
+    realme_c_series_budget_charger_cable_300_egp,
 ];
 
 
