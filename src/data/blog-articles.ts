@@ -107,6 +107,7 @@ import { honor_x_series_chargers_vs_samsung_xiaomi } from './blog/honor-x-series
 import { ipad_pro_m4_vs_ipad_air_charger_requirements } from './blog/ipad-pro-m4-vs-ipad-air-charger-requirements';
 import { macbook_air_m3_pro_m4_gan_chargers_alternatives } from './blog/macbook-air-m3-pro-m4-gan-chargers-alternatives';
 import { new_driver_car_accessories_essentials_beginners } from './blog/new-driver-car-accessories-essentials-beginners';
+import { chargers_ramadan_night_long_charging_sessions } from './blog/chargers-ramadan-night-long-charging-sessions';
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -212,6 +213,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     ipad_pro_m4_vs_ipad_air_charger_requirements,
     macbook_air_m3_pro_m4_gan_chargers_alternatives,
     new_driver_car_accessories_essentials_beginners,
+    chargers_ramadan_night_long_charging_sessions,
 ];
 
 
