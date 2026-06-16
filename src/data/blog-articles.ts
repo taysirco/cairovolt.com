@@ -109,6 +109,8 @@ import { macbook_air_m3_pro_m4_gan_chargers_alternatives } from './blog/macbook-
 import { new_driver_car_accessories_essentials_beginners } from './blog/new-driver-car-accessories-essentials-beginners';
 import { chargers_ramadan_night_long_charging_sessions } from './blog/chargers-ramadan-night-long-charging-sessions';
 import { phone_charging_during_prayer_fasting_battery_safe } from './blog/phone-charging-during-prayer-fasting-battery-safe';
+import { doctor_hospital_power_bank_12_hour_shift } from './blog/doctor-hospital-power-bank-12-hour-shift';
+
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
     best_power_bank_egypt_2026,
@@ -216,6 +218,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     new_driver_car_accessories_essentials_beginners,
     chargers_ramadan_night_long_charging_sessions,
     phone_charging_during_prayer_fasting_battery_safe,
+    doctor_hospital_power_bank_12_hour_shift,
 ];
 
 
