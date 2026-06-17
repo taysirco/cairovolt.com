@@ -110,6 +110,8 @@ import { new_driver_car_accessories_essentials_beginners } from './blog/new-driv
 import { chargers_ramadan_night_long_charging_sessions } from './blog/chargers-ramadan-night-long-charging-sessions';
 import { phone_charging_during_prayer_fasting_battery_safe } from './blog/phone-charging-during-prayer-fasting-battery-safe';
 import { doctor_hospital_power_bank_12_hour_shift } from './blog/doctor-hospital-power-bank-12-hour-shift';
+import { content_creator_camera_laptop_phone_one_power_bank } from './blog/content-creator-camera-laptop-phone-one-power-bank';
+
 
 
 export const blogArticles: import('./blog/_types').BlogArticle[] = [
@@ -219,6 +221,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     chargers_ramadan_night_long_charging_sessions,
     phone_charging_during_prayer_fasting_battery_safe,
     doctor_hospital_power_bank_12_hour_shift,
+    content_creator_camera_laptop_phone_one_power_bank,
 ];
 
 
