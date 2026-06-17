@@ -112,6 +112,7 @@ import { phone_charging_during_prayer_fasting_battery_safe } from './blog/phone-
 import { doctor_hospital_power_bank_12_hour_shift } from './blog/doctor-hospital-power-bank-12-hour-shift';
 import { content_creator_camera_laptop_phone_one_power_bank } from './blog/content-creator-camera-laptop-phone-one-power-bank';
 import { tuktuk_motorcycle_delivery_driver_fast_charging } from './blog/tuktuk-motorcycle-delivery-driver-fast-charging';
+import { talabat_mrsool_delivery_driver_phone_holder_charger } from './blog/talabat-mrsool-delivery-driver-phone-holder-charger';
 
 
 
@@ -224,6 +225,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     doctor_hospital_power_bank_12_hour_shift,
     content_creator_camera_laptop_phone_one_power_bank,
     tuktuk_motorcycle_delivery_driver_fast_charging,
+    talabat_mrsool_delivery_driver_phone_holder_charger,
 ];
 
 
