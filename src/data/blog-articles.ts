@@ -116,6 +116,7 @@ import { talabat_mrsool_delivery_driver_phone_holder_charger } from './blog/tala
 import { anker_solix_solar_power_bank_safari_camping_egypt } from './blog/anker-solix-solar-power-bank-safari-camping-egypt';
 import { home_security_cameras_power_backup_outage } from './blog/home-security-cameras-power-backup-outage';
 import { electric_scooter_charging_accessories_egypt } from './blog/electric-scooter-charging-accessories-egypt';
+import { drone_power_bank_cinematography_photographers } from './blog/drone-power-bank-cinematography-photographers';
 
 
 
@@ -232,6 +233,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     anker_solix_solar_power_bank_safari_camping_egypt,
     home_security_cameras_power_backup_outage,
     electric_scooter_charging_accessories_egypt,
+    drone_power_bank_cinematography_photographers,
 ];
 
 
