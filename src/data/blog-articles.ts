@@ -113,6 +113,7 @@ import { doctor_hospital_power_bank_12_hour_shift } from './blog/doctor-hospital
 import { content_creator_camera_laptop_phone_one_power_bank } from './blog/content-creator-camera-laptop-phone-one-power-bank';
 import { tuktuk_motorcycle_delivery_driver_fast_charging } from './blog/tuktuk-motorcycle-delivery-driver-fast-charging';
 import { talabat_mrsool_delivery_driver_phone_holder_charger } from './blog/talabat-mrsool-delivery-driver-phone-holder-charger';
+import { anker_solix_solar_power_bank_safari_camping_egypt } from './blog/anker-solix-solar-power-bank-safari-camping-egypt';
 
 
 
@@ -226,6 +227,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     content_creator_camera_laptop_phone_one_power_bank,
     tuktuk_motorcycle_delivery_driver_fast_charging,
     talabat_mrsool_delivery_driver_phone_holder_charger,
+    anker_solix_solar_power_bank_safari_camping_egypt,
 ];
 
 
