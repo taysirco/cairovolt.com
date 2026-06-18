@@ -114,6 +114,7 @@ import { content_creator_camera_laptop_phone_one_power_bank } from './blog/conte
 import { tuktuk_motorcycle_delivery_driver_fast_charging } from './blog/tuktuk-motorcycle-delivery-driver-fast-charging';
 import { talabat_mrsool_delivery_driver_phone_holder_charger } from './blog/talabat-mrsool-delivery-driver-phone-holder-charger';
 import { anker_solix_solar_power_bank_safari_camping_egypt } from './blog/anker-solix-solar-power-bank-safari-camping-egypt';
+import { home_security_cameras_power_backup_outage } from './blog/home-security-cameras-power-backup-outage';
 
 
 
@@ -228,6 +229,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     tuktuk_motorcycle_delivery_driver_fast_charging,
     talabat_mrsool_delivery_driver_phone_holder_charger,
     anker_solix_solar_power_bank_safari_camping_egypt,
+    home_security_cameras_power_backup_outage,
 ];
 
 
