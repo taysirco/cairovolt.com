@@ -118,6 +118,7 @@ import { home_security_cameras_power_backup_outage } from './blog/home-security-
 import { electric_scooter_charging_accessories_egypt } from './blog/electric-scooter-charging-accessories-egypt';
 import { drone_power_bank_cinematography_photographers } from './blog/drone-power-bank-cinematography-photographers';
 import { cpap_medical_power_bank_egypt_safety_first } from './blog/cpap-medical-power-bank-egypt-safety-first';
+import { lithium_ion_vs_lithium_polymer_power_bank_safety } from './blog/lithium-ion-vs-lithium-polymer-power-bank-safety';
 
 
 
@@ -236,6 +237,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     electric_scooter_charging_accessories_egypt,
     drone_power_bank_cinematography_photographers,
     cpap_medical_power_bank_egypt_safety_first,
+    lithium_ion_vs_lithium_polymer_power_bank_safety,
 ];
 
 
