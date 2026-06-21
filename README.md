@@ -2,11 +2,8 @@
 
 Authorized **Anker**, **Soundcore** and **Joyroom** dealer in Egypt, selling genuine mobile-power and audio accessories with cash-on-delivery and a local warranty.
 
-## Categories
+## Shop by category
 
-- Fast wall chargers: https://cairovolt.com/en/anker/wall-chargers
-- - USB-C cables: https://cairovolt.com/en/anker/cables
-  - - Bluetooth speakers (Soundcore): https://cairovolt.com/en/soundcore/speakers
-   
-    - Store: https://cairovolt.com/en
-    - 
+[Anker fast wall chargers](https://cairovolt.com/en/anker/wall-chargers) • [Anker USB-C cables](https://cairovolt.com/en/anker/cables) • [Soundcore Bluetooth speakers](https://cairovolt.com/en/soundcore/speakers) • [Anker car chargers](https://cairovolt.com/en/anker/car-chargers)
+
+Visit the [CairoVolt online store](https://cairovolt.com/en).
