@@ -114,7 +114,7 @@ export async function appendOrderToSheet(orderData: any) {
         const sheet = doc.sheetsByIndex[0]; // First sheet
 
         const rows = orderData.items.map((item: any, idx: number) => ({
-            'التاريخ': new Date().toLocaleDateString('ar-EG'),                              // A
+            'التاريخ': (() => { const d = new Date(); return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`; })(), // A
             'الاسم': orderData.customerName,                                               // B
             'رقم الهاتف': orderData.phone,                                                 // C
             'رقم الواتس': orderData.whatsapp || orderData.phone,                           // D
