@@ -113,22 +113,22 @@ export async function appendOrderToSheet(orderData: any) {
 
         const sheet = doc.sheetsByIndex[0]; // First sheet
 
-        const rows = orderData.items.map((item: any, idx: number) => ({
-            'date': (() => { const d = new Date(); return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`; })(), // A
-            'الاسم': orderData.customerName,                                               // B
-            'رقم الهاتف': orderData.phone,                                                 // C
-            'رقم الواتس': orderData.whatsapp || orderData.phone,                           // D
-            'المحافظة': orderData.cityLabel || orderData.city,                              // E
-            'المنطقة': '',                                                                 // F
-            'العنوان': orderData.address,                                                  // G
-            'تفاصيل الطلب': `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`, // H
-            'الكمية': item.quantity,                                                       // I
-            'توتال السعر شامل الشحن': idx === 0 ? orderData.totalAmount : '',              // J
-            'اسم المنتج': getShortName(item),                                              // K
-            'الحالة': 'جديد',                                                              // L
-            'ملاحظات': idx === 0 ? buildNotesField(orderData) : '',                        // M
-            'المصدر': idx === 0 ? getSourceField(orderData) : '',                          // N
-        }));
+        const rows = orderData.items.map((item: any, idx: number) => [
+            /* A */ (() => { const d = new Date(); return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`; })(),
+            /* B */ orderData.customerName,
+            /* C */ orderData.phone,
+            /* D */ orderData.whatsapp || orderData.phone,
+            /* E */ orderData.cityLabel || orderData.city,
+            /* F */ '',
+            /* G */ orderData.address,
+            /* H */ `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`,
+            /* I */ item.quantity,
+            /* J */ idx === 0 ? orderData.totalAmount : '',
+            /* K */ getShortName(item),
+            /* L */ 'جديد',
+            /* M */ idx === 0 ? buildNotesField(orderData) : '',
+            /* N */ idx === 0 ? getSourceField(orderData) : '',
+        ]);
 
         await sheet.addRows(rows);
         console.log(`[Sheets] ✅ Order synced: ${orderData.orderId || 'N/A'} | Phone: ${orderData.phone} | Rows: ${rows.length}`);
