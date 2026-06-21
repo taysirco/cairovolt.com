@@ -122,6 +122,7 @@ import { lithium_ion_vs_lithium_polymer_power_bank_safety } from './blog/lithium
 import { pass_through_charging_power_bank_myth_truth } from './blog/pass-through-charging-power-bank-myth-truth';
 import { clean_usb_c_port_safely_phone_no_damage } from './blog/clean-usb-c-port-safely-phone-no-damage';
 import { fast_charging_not_working_original_charger_7_causes } from './blog/fast-charging-not-working-original-charger-7-causes';
+import { charger_spark_outlet_when_dangerous_replace } from './blog/charger-spark-outlet-when-dangerous-replace';
 
 
 
@@ -244,6 +245,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     pass_through_charging_power_bank_myth_truth,
     clean_usb_c_port_safely_phone_no_damage,
     fast_charging_not_working_original_charger_7_causes,
+    charger_spark_outlet_when_dangerous_replace,
 ];
 
 
