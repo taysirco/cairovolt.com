@@ -118,7 +118,7 @@ export async function GET(req: NextRequest) {
 
             const status = row.get('الحالة') || '';
             const notes = row.get('ملاحظات') || '';
-            const orderDate = row.get('التاريخ') || '';
+            const orderDate = row.get('date') || '';
             const customerName = row.get('الاسم') || '';
             const customerPhone = row.get('رقم الواتس') || row.get('رقم الهاتف') || '';
             const sheetProductName = row.get('اسم المنتج') || '';
