@@ -120,6 +120,7 @@ import { drone_power_bank_cinematography_photographers } from './blog/drone-powe
 import { cpap_medical_power_bank_egypt_safety_first } from './blog/cpap-medical-power-bank-egypt-safety-first';
 import { lithium_ion_vs_lithium_polymer_power_bank_safety } from './blog/lithium-ion-vs-lithium-polymer-power-bank-safety';
 import { pass_through_charging_power_bank_myth_truth } from './blog/pass-through-charging-power-bank-myth-truth';
+import { clean_usb_c_port_safely_phone_no_damage } from './blog/clean-usb-c-port-safely-phone-no-damage';
 
 
 
@@ -240,6 +241,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     cpap_medical_power_bank_egypt_safety_first,
     lithium_ion_vs_lithium_polymer_power_bank_safety,
     pass_through_charging_power_bank_myth_truth,
+    clean_usb_c_port_safely_phone_no_damage,
 ];
 
 
