@@ -123,6 +123,7 @@ import { pass_through_charging_power_bank_myth_truth } from './blog/pass-through
 import { clean_usb_c_port_safely_phone_no_damage } from './blog/clean-usb-c-port-safely-phone-no-damage';
 import { fast_charging_not_working_original_charger_7_causes } from './blog/fast-charging-not-working-original-charger-7-causes';
 import { charger_spark_outlet_when_dangerous_replace } from './blog/charger-spark-outlet-when-dangerous-replace';
+import { phone_battery_needs_replacement_5_signs } from './blog/phone-battery-needs-replacement-5-signs';
 
 
 
@@ -246,6 +247,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     clean_usb_c_port_safely_phone_no_damage,
     fast_charging_not_working_original_charger_7_causes,
     charger_spark_outlet_when_dangerous_replace,
+    phone_battery_needs_replacement_5_signs,
 ];
 
 
