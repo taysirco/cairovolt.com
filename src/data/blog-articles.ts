@@ -127,6 +127,7 @@ import { phone_battery_needs_replacement_5_signs } from './blog/phone-battery-ne
 import { phone_charging_cold_winter_alexandria_safety } from './blog/phone-charging-cold-winter-alexandria-safety';
 import { surge_protector_voltage_spike_egypt_electrical } from './blog/surge-protector-voltage-spike-egypt-electrical';
 import { two_port_vs_4_port_vs_6_port_charger_family } from './blog/2-port-vs-4-port-vs-6-port-charger-family';
+import { anker_soundcore_vs_jbl_vs_bose_speakers_egypt } from './blog/anker-soundcore-vs-jbl-vs-bose-speakers-egypt';
 
 
 
@@ -254,6 +255,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     phone_charging_cold_winter_alexandria_safety,
     surge_protector_voltage_spike_egypt_electrical,
     two_port_vs_4_port_vs_6_port_charger_family,
+    anker_soundcore_vs_jbl_vs_bose_speakers_egypt,
 ];
 
 
