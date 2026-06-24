@@ -126,6 +126,7 @@ import { charger_spark_outlet_when_dangerous_replace } from './blog/charger-spar
 import { phone_battery_needs_replacement_5_signs } from './blog/phone-battery-needs-replacement-5-signs';
 import { phone_charging_cold_winter_alexandria_safety } from './blog/phone-charging-cold-winter-alexandria-safety';
 import { surge_protector_voltage_spike_egypt_electrical } from './blog/surge-protector-voltage-spike-egypt-electrical';
+import { two_port_vs_4_port_vs_6_port_charger_family } from './blog/2-port-vs-4-port-vs-6-port-charger-family';
 
 
 
@@ -252,6 +253,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     phone_battery_needs_replacement_5_signs,
     phone_charging_cold_winter_alexandria_safety,
     surge_protector_voltage_spike_egypt_electrical,
+    two_port_vs_4_port_vs_6_port_charger_family,
 ];
 
 
