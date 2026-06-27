@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Cairo, Outfit } from "next/font/google";
+import { Geist, Outfit } from "next/font/google";
 import "../globals.css"; // Corrected path
 import LazyUXComponents from '@/components/LazyUXComponents';
 import Header from "@/components/Header";
 import dynamic from 'next/dynamic';
 const Footer = dynamic(() => import('@/components/Footer'), { ssr: true });
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 import { CartProvider } from '@/context/CartContext';
 import LazyClientComponents from '@/components/LazyClientComponents';
@@ -23,11 +24,13 @@ const geistSans = Geist({
   display: 'swap',
 });
 
-const cairo = Cairo({
-  subsets: ['arabic'],
-  variable: '--font-cairo',
-  display: 'swap',
-});
+// NOTE: the Cairo (Arabic) webfont was removed — it was downloaded on every
+// page (preloaded via next/font) but never applied to any element: globals.css
+// sets `body { font-family: var(--font-sans) }` → Geist → system-ui fallback,
+// and no rule or Tailwind class ever referenced var(--font-cairo). Arabic text
+// already renders in the system Arabic font, so removing Cairo is a pure
+// per-page download saving with zero visual change. To intentionally style
+// Arabic with Cairo, re-add it AND wire `var(--font-cairo)` into globals.css.
 
 const outfit = Outfit({
   subsets: ['latin'],
@@ -79,6 +82,11 @@ export const metadata: Metadata = {
 };
 
 
+// Statically enumerate the locale segment so all child routes can prerender.
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function RootLayout({
   children,
   params
@@ -87,6 +95,11 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  // Enable next-intl STATIC rendering. Without this, next-intl reads the locale
+  // from request headers, which opts the entire [locale] subtree into dynamic
+  // (per-request) rendering — defeating every generateStaticParams/revalidate in
+  // the app. With it, pages prerender to static HTML served from the CDN edge.
+  setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
@@ -126,7 +139,7 @@ export default async function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${cairo.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}
         suppressHydrationWarning
       >
 

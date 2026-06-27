@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useLocale } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import { CollectionPageSchema, SpeakableSchema, LocalBusinessSchema } from '@/components/schemas/StructuredDataSchemas';
 import { SvgIcon } from '@/components/ui/SvgIcon';
@@ -8,6 +8,8 @@ import ShareAnalytics from '@/components/content/ShareAnalytics';
 import HeroSection from '@/components/home/HeroSection';
 import TrustRibbon from '@/components/home/TrustRibbon';
 import ProductShowcase from '@/components/home/ProductShowcase';
+import { showcaseProducts, type ShowcaseRatings } from '@/data/showcase-products';
+import { productReviewsDb, calculateAggregateRating } from '@/data/product-reviews';
 import SocialProofStrip from '@/components/home/SocialProofStrip';
 import BrandShowcase from '@/components/home/BrandShowcase';
 
@@ -90,8 +92,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function Home() {
-  const locale = useLocale();
+export default async function Home({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const isRTL = locale === 'ar';
 
   // Categories for CollectionPageSchema — preserve SEO structured data.
@@ -111,6 +114,15 @@ export default function Home() {
       { title: 'Chargers', href: '/en/anker/wall-chargers' },
       { title: 'Cables', href: '/en/anker/cables' },
     ];
+
+  // Precompute the 8 showcase ratings on the SERVER so the full productReviewsDb
+  // (~16KB) never reaches the homepage client bundle. Result is a tiny map
+  // (~8 entries) serialized into the RSC payload.
+  const showcaseRatings: ShowcaseRatings = {};
+  for (const p of showcaseProducts) {
+    const agg = productReviewsDb[p.slug] ? calculateAggregateRating(productReviewsDb[p.slug]) : null;
+    if (agg) showcaseRatings[p.slug] = { ratingValue: agg.ratingValue, reviewCount: agg.reviewCount };
+  }
 
   return (
     <>
@@ -146,7 +158,7 @@ export default function Home() {
         <TrustRibbon locale={locale} />
 
         {/* ==================== 3. Featured Products Showcase ==================== */}
-        <div className="cv-auto"><ProductShowcase locale={locale} /></div>
+        <div className="cv-auto"><ProductShowcase locale={locale} ratings={showcaseRatings} /></div>
 
         {/* ==================== 4. Brand Showcase ==================== */}
         <div className="cv-auto"><BrandShowcase locale={locale} /></div>

@@ -1,4 +1,6 @@
-import { connection } from 'next/server';
+'use client';
+
+import { useState, useEffect } from 'react';
 import { getLiveFulfillmentData } from '@/lib/live-fulfillment';
 
 interface DeliveryStatusProps {
@@ -8,16 +10,28 @@ interface DeliveryStatusProps {
 }
 
 /**
- * DeliveryStatus — Real-time Delivery Status Server Component
+ * DeliveryStatus — Live delivery-status widget (Client Component)
  *
- * Uses `connection()` to opt out of caching so delivery info stays current.
- * Shows live city names, stock status, and order data.
+ * Computes the time-derived "live pulse" CLIENT-SIDE so the parent product page
+ * stays fully STATIC (prerendered to the CDN edge) instead of being forced into
+ * per-request dynamic rendering. Shows live city names, stock status, and order
+ * data, refreshed every 20s.
  */
-export async function DeliveryStatus({ sku, locale, brandColor = 'blue' }: DeliveryStatusProps) {
-    // Dynamic rendering for real-time data
-    await connection();
+export function DeliveryStatus({ sku, locale, brandColor = 'blue' }: DeliveryStatusProps) {
+    // Keep the pseudo-live figures fresh without any SSR/hydration mismatch — the
+    // server renders only the skeleton; the client computes the first value on the
+    // next animation frame (deferred out of the effect body to avoid a synchronous
+    // set-state cascade) and then re-computes every 20s.
+    const [pulse, setPulse] = useState<ReturnType<typeof getLiveFulfillmentData> | null>(null);
+    useEffect(() => {
+        const update = () => setPulse(getLiveFulfillmentData(sku, locale));
+        const frame = requestAnimationFrame(update);
+        const id = setInterval(update, 20_000);
+        return () => { cancelAnimationFrame(frame); clearInterval(id); };
+    }, [sku, locale]);
 
-    const pulse = getLiveFulfillmentData(sku, locale);
+    if (!pulse) return <LivePulseSkeleton />;
+
     const isArabic = locale === 'ar';
 
     const accentColor = brandColor === 'blue' ? 'text-blue-700 dark:text-blue-400' : 'text-red-700 dark:text-red-400';

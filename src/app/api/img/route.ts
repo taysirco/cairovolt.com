@@ -14,15 +14,25 @@ import sharp from 'sharp';
  * Caching: immutable, 1-year browser cache.
  */
 
-// Allowed path prefixes for security
-const ALLOWED_PREFIXES = ['/products/', '/blog/', '/cairovolt_logo'];
+// Allowed path prefixes for security.
+// IMPORTANT: must cover every local path that next/image can request through
+// this loader (see src/lib/image-loader.ts + next.config.ts localPatterns).
+// '/images/' is required — blog cover heroes (/images/blog/posts/*.webp, the
+// LCP element on every blog page), team avatars (/images/team/*) and OG art
+// (/images/blog/og/*) all live there. Without it they 403 and fail to load.
+const ALLOWED_PREFIXES = ['/products/', '/blog/', '/images/', '/cairovolt_logo'];
 
 // Valid widths (next.config.ts deviceSizes + imageSizes + fixed image widths)
 const VALID_WIDTHS = new Set([64, 80, 96, 128, 160, 256, 320, 384, 360, 414, 640, 750, 828, 1080, 1200, 1920]);
 
-// In-memory LRU cache for hot images (up to 100 entries, ~50MB max)
+// In-memory LRU cache for hot images. Each instance re-optimizes an image with
+// sharp only on a cold cache miss; thereafter it serves from RAM (and Cloudflare
+// edge-caches the immutable response on top). Bumped 100→300 so a single instance
+// holds more of the hot set across the homepage/category/product/blog grids
+// before evicting. ~300 small resized webp/avif buffers fit comfortably in the
+// 2GB instance.
 const cache = new Map<string, { buffer: Uint8Array; contentType: string }>();
-const MAX_CACHE = 100;
+const MAX_CACHE = 300;
 
 export async function GET(request: NextRequest) {
     const { searchParams } = request.nextUrl;

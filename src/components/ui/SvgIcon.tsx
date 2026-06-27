@@ -1,5 +1,9 @@
-'use client';
-
+// NOTE: intentionally NOT a Client Component. SvgIcon is purely presentational
+// (a `switch` over `name` returning static inline SVG — no hooks, state, or
+// event handlers). Keeping it server-renderable means every usage inside a
+// Server Component emits plain HTML and ships ZERO JS for the icon. When used
+// inside a Client Component it still bundles there, exactly as before — so this
+// is strictly a win with no behavioural change.
 import React from 'react';
 
 /**
