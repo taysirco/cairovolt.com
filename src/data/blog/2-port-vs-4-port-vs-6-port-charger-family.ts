@@ -7,12 +7,12 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
     modifiedDate: '2026-06-24',
     readingTime: 7,
     relatedProducts: [
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
-        'anker-a2643-45w',
-        'anker-usb-c-to-usb-c-100w',
-        'anker-usb-c-to-lightning',
-        'anker-zolo-a1650-10000',
+      'anker-a2147-gan-charger-30w',
+      'anker-a2741-charger-30w',
+      'anker-powerport-25w',
+      'joyroom-30w-fast-charger',
+      'anker-powerline-usb-c-usb-c',
+      'joyroom-20w-usb-c-charger'
     ],
     relatedArticles: [
         'does-fast-charging-damage-battery-truth',

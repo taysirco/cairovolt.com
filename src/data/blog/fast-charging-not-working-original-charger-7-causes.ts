@@ -7,12 +7,12 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
     modifiedDate: '2026-06-21',
     readingTime: 8,
     relatedProducts: [
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
-        'anker-a2643-45w',
-        'anker-prime-a2342-67w',
-        'anker-usb-c-to-usb-c-100w',
-        'joyroom-usb-c-to-usb-c-60w',
+      'anker-a2147-gan-charger-30w',
+      'anker-nano-45w',
+      'anker-powerport-25w',
+      'anker-powerline-usb-c-usb-c',
+      'joyroom-30w-fast-charger',
+      'joyroom-usb-c-cable-60w'
     ],
     relatedArticles: [
         'why-phone-charging-slowly-causes-solutions',

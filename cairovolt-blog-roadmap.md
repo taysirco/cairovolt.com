@@ -147,7 +147,7 @@
 100. ✅ → slug: `anker-soundcore-vs-jbl-vs-bose-speakers-egypt`
 101. ✅ → slug: `authentic-charger-vs-3-fake-chargers-roi-math`
 102. ✅ → slug: `samsung-25w-charger-original-vs-fake-comparison`
-103. ⬜ شاحن سامسونج 45W ضد 25W — هل فرق السرعة الحقيقي يستاهل الفلوس الزيادة؟ → `samsung-45w-charger-vs-25w-real-charging-speed`
+103. ✅ → slug: `samsung-45w-charger-vs-25w-real-charging-speed`
 104. ⬜ 5 فروق تكشف شاحن سامسونج المقلّد في المحل قبل ما تدفع → `original-samsung-charger-5-differences-identify`
 105. ⬜ شاحن Samsung A15 — القوة المناسبة وإزاي تحمي بطاريتك من الشواحن التجارية → `samsung-a15-best-original-charger-guide`
 106. ⬜ جدول أسعار شواحن سامسونج الأصلية في مصر — مُحدّث مع شروط الضمان المعتمد → `samsung-original-charger-price-egypt-guide`

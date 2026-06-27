@@ -7,12 +7,12 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
     modifiedDate: '2026-06-21',
     readingTime: 7,
     relatedProducts: [
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
-        'anker-a2643-45w',
-        'anker-prime-a2342-67w',
-        'anker-usb-c-to-usb-c-100w',
-        'anker-312-a81h7-25w',
+      'anker-a2147-gan-charger-30w',
+      'anker-a2741-charger-30w',
+      'anker-nano-45w',
+      'anker-powerport-25w',
+      'anker-powerline-usb-c-usb-c',
+      'joyroom-25w-fast-charger'
     ],
     relatedArticles: [
         'fast-charging-not-working-original-charger-7-causes',

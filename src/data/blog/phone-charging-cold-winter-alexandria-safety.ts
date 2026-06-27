@@ -7,12 +7,12 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
     modifiedDate: '2026-06-23',
     readingTime: 7,
     relatedProducts: [
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
-        'anker-zolo-a1610-5000',
-        'anker-zolo-a1650-10000',
-        'anker-usb-c-to-usb-c-100w',
-        'anker-usb-c-to-lightning',
+      'anker-a2147-gan-charger-30w',
+      'anker-powerport-25w',
+      'anker-zolo-a110d-10000',
+      'anker-zolo-a110e-20000',
+      'anker-powerline-usb-c-usb-c',
+      'anker-usb-c-lightning-sureistrong'
     ],
     relatedArticles: [
         'phone-battery-needs-replacement-5-signs',

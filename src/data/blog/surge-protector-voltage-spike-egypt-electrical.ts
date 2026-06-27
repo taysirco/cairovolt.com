@@ -7,12 +7,12 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
     modifiedDate: '2026-06-24',
     readingTime: 8,
     relatedProducts: [
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
-        'anker-a2643-45w',
-        'anker-usb-c-to-usb-c-100w',
-        'anker-zolo-a1650-10000',
-        'anker-usb-c-to-lightning',
+      'anker-a2147-gan-charger-30w',
+      'anker-nano-45w',
+      'anker-a2741-charger-30w',
+      'anker-powerline-usb-c-usb-c',
+      'anker-zolo-a110e-20000',
+      'anker-usb-c-lightning-sureistrong'
     ],
     relatedArticles: [
         'charger-spark-outlet-when-dangerous-replace',

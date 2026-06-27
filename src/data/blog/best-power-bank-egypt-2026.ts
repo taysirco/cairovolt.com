@@ -7,7 +7,11 @@ export const best_power_bank_egypt_2026: BlogArticle = {
         publishDate: '2025-12-15',
         modifiedDate: '2026-02-01',
         readingTime: 5,
-        relatedProducts: ['anker-powercore-20000', 'anker-nano-10000', 'anker-prime-27650'],
+        relatedProducts: [
+      'anker-zolo-a110d-10000',
+      'anker-zolo-a110e-20000',
+      'anker-prime-a1695-25000'
+    ],
         relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
     relatedArticles: [
         'best-power-bank-router-power-outage-egypt',

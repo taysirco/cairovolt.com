@@ -10,7 +10,7 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
         publishDate: '2026-02-23',
         modifiedDate: '2026-05-29',
         readingTime: 4,
-        relatedProducts: ['anker-nano-45w', 'joyroom-30w-pd-charger'],
+        relatedProducts: ['anker-nano-45w', 'joyroom-30w-fast-charger'],
     relatedArticles: ['gan-charger-technology-guide-egypt', 'does-fast-charging-damage-battery-truth', 'best-iphone-17-charger-egypt'],
         relatedCategories: ['Anker/wall-chargers', 'Joyroom/wall-chargers'],
     coverImage: "/images/blog/posts/the-hidden-truth-about-gan-chargers-ahmed-medhat.webp?v=2",

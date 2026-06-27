@@ -7,12 +7,12 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
     modifiedDate: '2026-06-23',
     readingTime: 7,
     relatedProducts: [
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
-        'anker-a2643-45w',
-        'anker-zolo-a1610-5000',
-        'anker-zolo-a1650-10000',
-        'anker-zolo-a1671-20000',
+      'anker-a2147-gan-charger-30w',
+      'anker-powerport-20w',
+      'anker-zolo-a110d-10000',
+      'anker-zolo-a110e-20000',
+      'anker-zolo-a1681-20000',
+      'joyroom-power-bank-10000'
     ],
     relatedArticles: [
         'does-fast-charging-damage-battery-truth',

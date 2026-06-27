@@ -7,12 +7,12 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
     modifiedDate: '2026-06-21',
     readingTime: 7,
     relatedProducts: [
-        'anker-usb-c-to-usb-c-100w',
-        'anker-usb-c-to-usb-c-60w',
-        'joyroom-usb-c-to-usb-c-100w',
-        'joyroom-usb-c-to-usb-c-60w',
-        'anker-312-a81h5-30w',
-        'anker-nano-4-a2337-30w',
+      'anker-powerline-usb-c-usb-c',
+      'anker-a8050-usb-c-cable',
+      'joyroom-type-c-to-type-c-cable',
+      'joyroom-usb-c-cable-60w',
+      'anker-a2147-gan-charger-30w',
+      'joyroom-20w-usb-c-charger'
     ],
     relatedArticles: [
         'why-charging-cable-breaks-fast-causes-fixes',
