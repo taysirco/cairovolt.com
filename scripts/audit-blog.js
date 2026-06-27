@@ -127,6 +127,23 @@ function auditArticle(file) {
         warnings.push(`relatedProducts = ${relProducts} (المفضّل ${RELATED_PRODUCTS_MIN}-${RELATED_PRODUCTS_MAX})`);
     }
 
+    // 🔴 NEW: Validate relatedProducts slugs actually exist as product files
+    const PRODUCTS_DIR = path.join(__dirname, '..', 'src', 'data', 'products');
+    const missingProducts = (article.relatedProducts || []).filter((pSlug) => {
+        return !fs.existsSync(path.join(PRODUCTS_DIR, `${pSlug}.ts`));
+    });
+    if (missingProducts.length) {
+        errors.push(`relatedProducts وهمية (${missingProducts.length}/${relProducts}): ${missingProducts.join(', ')}`);
+    }
+
+    // 🔴 NEW: Validate metaDescription length (140-160 chars)
+    const arMetaLen = (ar.metaDescription || '').length;
+    const enMetaLen = (en.metaDescription || '').length;
+    if (arMetaLen < 140) errors.push(`AR metaDescription = ${arMetaLen} حرف (الحد الأدنى 140)`);
+    if (arMetaLen > 160) warnings.push(`AR metaDescription = ${arMetaLen} حرف (أكثر من 160 — قد يُقطع)`);
+    if (enMetaLen < 140) errors.push(`EN metaDescription = ${enMetaLen} chars (minimum 140)`);
+    if (enMetaLen > 160) warnings.push(`EN metaDescription = ${enMetaLen} chars (over 160 — may truncate)`);
+
     return { slug, errors, warnings, arWords, enWords };
 }
 

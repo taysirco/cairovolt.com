@@ -7,12 +7,12 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
     modifiedDate: '2026-06-27',
     readingTime: 8,
     relatedProducts: [
-      'samsung-25w-charger-ep-ta800',
-      'samsung-45w-charger-ep-ta845',
-      'samsung-usb-c-cable-ep-dn975',
-      'anker-nano-pro-20w',
-      'anker-312-usb-c-cable',
-      'joyroom-usb-c-cable-3a'
+      'anker-powerport-25w',
+      'anker-a2741-charger-30w',
+      'anker-powerline-usb-c-usb-c',
+      'anker-a8050-usb-c-cable',
+      'joyroom-25w-fast-charger',
+      'joyroom-usb-c-cable-60w'
     ],
     relatedArticles: [
       'how-to-spot-fake-chargers-7-tests',
