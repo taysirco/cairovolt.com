@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getBlogArticle, getAllBlogSlugs, blogArticles } from '@/data/blog-articles';
+import { getBlogArticle, getAllBlogSlugs, blogArticles, isArticleLive } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
@@ -18,7 +18,9 @@ import SocialShareButtons from '@/components/content/SocialShareButtons';
 import { ExpertQuote } from '@/components/content/ExpertQuote';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
-export const revalidate = 86400;
+// Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
+// (the daily reveal cron also force-revalidates on the exact day).
+export const revalidate = 3600;
 // Closed slug space (all articles ship in the repo) → real 404 for unknown
 // slugs instead of FAH soft-404.
 export const dynamicParams = false;
@@ -105,7 +107,9 @@ export default async function BlogArticlePage({ params }: Props) {
     const { locale, slug } = await params;
     const article = getBlogArticle(slug);
 
-    if (!article) {
+    // Hide missing OR not-yet-published (scheduled) articles. A future-dated
+    // article 404s until its publishDate arrives, then ISR reveals it.
+    if (!article || !isArticleLive(article)) {
         notFound();
     }
 

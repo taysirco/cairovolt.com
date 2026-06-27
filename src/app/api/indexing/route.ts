@@ -66,8 +66,18 @@ export async function POST(req: Request) {
             return NextResponse.json({ error: 'Invalid payload. Required: url, type (URL_UPDATED|URL_DELETED)' }, { status: 400 });
         }
 
+        // Blog reveal: when a scheduled article goes live (reveal-blog cron),
+        // revalidate the article + listing + sitemap so it appears same-day.
+        const isBlog = /\/blog\//.test(url);
+        if (isBlog && slug) {
+            revalidatePath(`/[locale]/blog/${slug}`, 'page');
+            revalidatePath('/[locale]/blog', 'page');
+            revalidatePath('/sitemap.xml');
+            console.log(`[ISR] 🔄 Revealed blog article: ${slug}`);
+        }
+
         // 1. Invalidate ISR cache — purge ALL pages that show this product's price/stock
-        if (slug) {
+        if (!isBlog && slug) {
             // Product page (both locales)
             revalidatePath(`/[locale]/[brand]/[category]/${slug}`, 'page');
 

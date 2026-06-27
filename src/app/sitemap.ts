@@ -5,7 +5,7 @@ import { governorates } from '@/data/governorates';
 import { categoryContent } from '@/data/category-content';
 import { staticProducts } from '@/lib/static-products';
 import { logger } from '@/lib/logger';
-import { blogArticles } from '@/data/blog-articles';
+import { blogArticles, isArticleLive } from '@/data/blog-articles';
 import { genericCategories } from '@/data/generic-categories';
 import { getFirestore } from '@/lib/firebase-admin';
 import { labData } from '@/data/product-tests';
@@ -154,9 +154,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         addBilingual(routes, `/${cat.slug}`, 0.8, 'weekly');
     });
 
-    // ── Blog ──
+    // ── Blog ── (only LIVE articles — scheduled/future ones stay out of the
+    // sitemap until their publishDate arrives; the sitemap is dynamic so it
+    // picks up each article on its scheduled day.)
     addBilingual(routes, '/blog', 0.7, 'weekly');
-    blogArticles.forEach(article => {
+    blogArticles.filter(a => isArticleLive(a)).forEach(article => {
         addBilingual(routes, `/blog/${article.slug}`, 0.8, 'monthly', new Date(article.modifiedDate));
     });
 

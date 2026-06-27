@@ -262,9 +262,27 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
 
 
 
-// Helper: get all article slugs for sitemap/static params
+// Helper: get all article slugs for static params (ALL slugs prebuild —
+// scheduled/future ones render 404 until live, then ISR reveals them).
 export function getAllBlogSlugs(): string[] {
     return blogArticles.map(a => a.slug);
+}
+
+// ── Drip-publishing gate ──────────────────────────────────────────────────
+// An article is LIVE only once its publishDate has arrived. Evaluated at
+// REQUEST time (Date.now()) — NOT module load — so ISR revalidation reveals
+// scheduled articles automatically when their date passes. Lets us commit all
+// articles at once but publish one/day. Used by the listing, slug page,
+// sitemap and feed so future-dated articles stay fully hidden until live.
+export function isArticleLive(a: BlogArticle, now: number = Date.now()): boolean {
+    const t = new Date(a.publishDate).getTime();
+    return Number.isFinite(t) ? t <= now : true; // malformed date fails open (live)
+}
+export function getLiveArticles(now: number = Date.now()): BlogArticle[] {
+    return blogArticles.filter(a => isArticleLive(a, now));
+}
+export function getLiveBlogSlugs(now: number = Date.now()): string[] {
+    return getLiveArticles(now).map(a => a.slug);
 }
 
 // Helper: get article by slug

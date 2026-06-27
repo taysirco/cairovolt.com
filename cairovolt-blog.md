@@ -1,7 +1,7 @@
 # 📝 دليل كتابة تدوينات CairoVolt
 
 > المرجع التنفيذي لكتابة أي مقال جديد. مبني على تحليل 5 مقالات حديثة (مايو–أبريل 2026).
-> **مراجع مرتبطة:** [`content-laws.md`](content-laws.md) (القوانين العابرة — i18n + Bilingual + Voice + Authority + Anti-AI) · [`voice.md`](voice.md) (DNA الأسلوب — اقرأه أولاً) · [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md) (قائمة الموضوعات الحية) · [`new_product_guide.md`](new_product_guide.md) (إضافة منتج) · [`cairovolt_content_blueprint.md`](cairovolt_content_blueprint.md) (Burstiness/AEO/E-E-A-T) · [`src/data/blog/_types.ts`](src/data/blog/_types.ts) (Schema) · [`src/data/blog-articles.ts`](src/data/blog-articles.ts) (Barrel)
+> **مراجع مرتبطة:** [`content-laws.md`](content-laws.md) (القوانين العابرة — i18n + Bilingual + Voice + Authority + Anti-AI) · [`voice.md`](voice.md) (DNA الأسلوب — اقرأه أولاً) · [`cairovolt-keyword-strategy.md`](cairovolt-keyword-strategy.md) (🎯 ماذا نستهدف + أنواع المقالات + تقنيات كل جروب/جسر + قاعدة دائم الخضرة) · [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md) (قائمة الموضوعات الحية) · [`new_product_guide.md`](new_product_guide.md) (إضافة منتج) · [`cairovolt_content_blueprint.md`](cairovolt_content_blueprint.md) (Burstiness/AEO/E-E-A-T) · [`src/data/blog/_types.ts`](src/data/blog/_types.ts) (Schema) · [`src/data/blog-articles.ts`](src/data/blog-articles.ts) (Barrel)
 
 ---
 
@@ -24,6 +24,9 @@
 | **keywords** | 8-12 مصطلح | §13 |
 | **coverImage** | إلزامي — `.webp` 1200×630 | §2 |
 | **category** | من 5: `buying-guide`, `comparison`, `how-to`, `review`, `tips` | §0 |
+| **🌲 Evergreen** | 🔴 **ممنوع سنة/تاريخ** في العنوان أو الـ slug أو المتن (المنشور المؤرّخ يبقى) | [`keyword-strategy`](cairovolt-keyword-strategy.md) §5 |
+| **🎯 استهداف الكلمة** | اجتَز اختبار الفلترة (مالك موبايل + إكسسوار يفيده) قبل الكتابة | [`keyword-strategy`](cairovolt-keyword-strategy.md) §1 |
+| **🌉 محتوى الجسر** | معايير الموبايل + إكسسوارات حسب المنفذ/الواط — ❌ لا يوحي ببيع هاتف | [`keyword-strategy`](cairovolt-keyword-strategy.md) §4, §6 |
 | **author** | 🔴 اتركه فارغاً (الافتراضي: "فريق تحرير كايرو فولت") — ❌ ممنوع نسب المقال لمراجع خارجي مستقل | §النموذج الصادق |
 | **expertQuote** | اختياري — اقتباس **حقيقي + رابط مصدر** فقط (ممنوع التلفيق) | §النموذج الصادق |
 | **Ammiyya ratio** | 85% عامية / 15% MSA | [`voice.md`](voice.md) |
@@ -36,8 +39,9 @@
 | **Expert Callout** | إلزامي عند الادعاء بأي اختبار ميداني | §5 |
 | **Specificity** | كل ادعاء برقم. لا "بيسخن"/"كبير"/"جيد" | [`content-laws.md`](content-laws.md) §4 |
 | **🔍 Search Engine Indexing** | 🔴 **إلزامي بعد كل push** — `npm run index:blog {slug}` | §18 |
+| **🏆 Dominance (الصدارة)** | GEO/استشهاد AI + اصطياد ميزات SERP + سلطة Pillar — **بطاقة تقييم ≥ 80/100** | [`dominance-playbook`](cairovolt-dominance-playbook.md) |
 
-> 🔴 **قبل أي commit:** (1) شغّل أمري `grep` في [`content-laws.md`](content-laws.md) §1 — يجب أن تكونا **0 سطر**. (2) شغّل أمر عدّ الكلمات (§16-A أدناه) — يجب أن يكون AR ≥ 1,500 و EN ≥ 1,500 أو **لا commit**.
+> 🔴 **قبل أي commit:** (1) شغّل أمري `grep` في [`content-laws.md`](content-laws.md) §1 — يجب أن تكونا **0 سطر**. (2) شغّل أمر عدّ الكلمات (§16-A أدناه) — يجب أن يكون AR ≥ 1,500 و EN ≥ 1,500 أو **لا commit**. (3) لمقالات الصدارة: قيّمها ببطاقة [`dominance-playbook`](cairovolt-dominance-playbook.md) — **≥ 80** أو أعِد العمل.
 
 ---
 
@@ -57,9 +61,9 @@
 
 1. أعلن سطر واحد: `"بدء كتابة #N — [العنوان]"`
 2. **اقرأ [`voice.md`](voice.md)** أولاً (إلزامي — DNA الأسلوب والفكاهة)
-3. **اقرأ [`content-laws.md`](content-laws.md)** (إلزامي — i18n Quarantine + Bilingual Parity + Authority + Anti-AI)
+3. **اقرأ [`content-laws.md`](content-laws.md)** (إلزامي — i18n Quarantine + Bilingual Parity + Authority + Anti-AI) + **[`cairovolt-keyword-strategy.md`](cairovolt-keyword-strategy.md)** (فلتر الاستهداف + زاوية الجسر + دائم الخضرة)
 4. **اقرأ [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md)** واعثر على أول ⬜
-5. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف
+5. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف — **ولّد الغلاف لو ناقص: `npm run cover:blog -- --slug={slug}`**
 6. **شغّل أمر عدّ الكلمات (§16-A) — يجب AR ≥ 1,500 و EN ≥ 1,500 قبل أي خطوة تالية**
 7. شغّل `npm run build` للتحقق
 8. اعمل `commit + push` على GitHub
@@ -73,13 +77,38 @@
 
 ---
 
+## 📅 النشر المجدول (Drip Publishing) — اكتب الكل، انشر واحداً/يوم
+
+> **المشكلة:** النظام يعرض كل مقال فور نشره — فكتابة 148 مقالاً ودفعها = ظهورها كلها دفعة واحدة (غير طبيعي لجوجل + يهدر الزحف).
+> **الحل المُطبَّق:** بوابة `publishDate` (`isArticleLive` في `src/data/blog-articles.ts`) تُخفي أي مقال تاريخه مستقبلي عن **القائمة + صفحة المقال (404) + sitemap + discover-feed**، ويُكشَف تلقائياً عند حلول تاريخه (ISR كل ساعة + كرون الكشف).
+
+**سير العمل لجدولة دفعة:**
+1. **اكتب كل المقالات** (كل واحد بـ `publishDate` = تاريخ اليوم مبدئياً) ودقّقها (`audit:blog`).
+2. **اجدُلها دفعة واحدة:**
+   ```bash
+   npm run schedule:blog -- --start=2026-07-01            # مقال/يوم من هذا التاريخ، وقت عشوائي 9ص-10م
+   npm run schedule:blog -- --start=2026-07-01 --shuffle  # عشوائية ترتيب المقالات أيضاً
+   npm run schedule:blog -- --dry                          # معاينة بلا كتابة
+   ```
+   يكتب `publishDate` + `modifiedDate` عشوائي الوقت في كل ملف (يبدو طبيعياً، لا نمط بوت).
+3. **commit + push مرة واحدة.** البوابة تُخفي المستقبلي — يظهر **واحد/يوم** تلقائياً.
+4. **كرون الكشف اليومي** (فهرسة فورية يوم النشر): على cron-job.org مهمة يومية تشغّل:
+   ```bash
+   INDEXING_WEBHOOK_SECRET=… npm run reveal:blog
+   ```
+   يجد مقال اليوم، يـ ping IndexNow + يُحدّث ISR للقائمة/المقال/sitemap. (الكشف يحدث خلال ساعة بدونه أيضاً عبر ISR، لكن الكرون يُسرّع الفهرسة ليوم النشر.)
+
+> ⚠️ **الأرقام لا تُكسر:** كل مقال مجدول يبقى ≥1,500 كلمة/لغة ويجتاز `audit:blog` **قبل** الجدولة. الجدولة تغيّر تاريخ النشر فقط.
+
+---
+
 ## 🗺️ Workflow كامل في 18 خطوة
 
 | # | الخطوة | المخرج |
 |---|--------|--------|
 | 0 | اختيار الزاوية + بحث ميداني (Information Gain) | زاوية فريدة + أرقام |
 | 1 | Slug + Title + Category | 3 قرارات أساسية |
-| 2 | Metadata (author/readingTime/coverImage/dates) | حقول الـ schema |
+| 2 | Metadata + غلاف (لو ناقص: `npm run cover:blog`) | حقول الـ schema + `.webp` |
 | 3 | معمارية المقال (Template الأساسي) | هيكل ثابت |
 | 4 | Quick-Answer Box (إلزامي) | صندوق ملوّن أول 50px |
 | 5 | Expert Callout (إن وُجد اختبار) | callout مع منهجية |
@@ -97,7 +126,7 @@
 | **17** | **`git add` + `git commit` + `git push origin main` → رفع على GitHub** | **Commit منشور على GitHub** |
 | **18** | 🔴 **`npm run index:blog {slug}` → فهرسة فورية في محركات البحث** | **Google + Bing + Yandex مُبلَّغين** |
 
-**الملفات المطلوبة لكل مقال:** (1) `src/data/blog/{slug}.ts` جديد · (2) `public/images/blog/posts/{slug}.webp` (موجود مسبقاً في المستودع لجميع المقالات، لا تقم بإنشائه أو استبداله) · (3) `src/data/blog-articles.ts` تعديل.
+**الملفات المطلوبة لكل مقال:** (1) `src/data/blog/{slug}.ts` جديد · (2) `public/images/blog/posts/{slug}.webp` — **لو موجود مسبقاً** (143 غلافاً جاهزاً للمواضيع #1-228 الأصلية) استخدمه ولا تستبدله؛ **لو غير موجود** (مواضيع الجسر #229+ أو أي slug جديد) **ولّده:** `npm run cover:blog -- --slug={slug}` (يطبّق EXIF+GEO+SEO+C2PA، دائم الخضرة — [الخطوة 2-ب](#الخطوة-2-ب--غلاف-المقال-coverimage)) · (3) `src/data/blog-articles.ts` تعديل.
 
 **بعد الانتهاء:** حدّث القائمة أدناه — استبدل ⬜ بـ `✅ → slug: {final-slug}` باستخدام Edit tool (سطر واحد فقط).
 
@@ -390,11 +419,19 @@ export interface BlogArticle {
 
 > ⚠️ **لا تكتب حرفاً قبل تنفيذ هذا.**
 
+> 🎯 **أولاً — اجتَز فلتر الاستهداف** ([`keyword-strategy.md`](cairovolt-keyword-strategy.md) §1): هل الباحث مالك/مشتري موبايل + يمكن لإكسسوار أن يفيده؟ لو لأ (فاتورة، مسلسل، حساب جوجل…) → الموضوع ضوضاء، اتركه. ولو الموضوع **جسر** (موديل موبايل) اتبع دليل §4 (معايير + إكسسوارات حسب المنفذ/الواط، ❌ لا يوحي ببيع هاتف).
+>
+> 🔑 **اسحب كلمات العنقود كاملة** — كل مقال يلتقط **كل** تنويعات كلماته من الـ944 (لا كلمة واحدة):
+> ```bash
+> npm run kw:blog -- --slug={slug}        # أو --cluster=data_transfer
+> ```
+> يطبع كل كلمات العنقود مرتّبة بالحجم + سطر `keywords:` جاهز. (مثال: سامسونج A = 111 كلمة / 135K بحث). المصدر: `keyword-research/complete-keywords.csv` + `coverage-map.csv`.
+
 **اسأل قبل البحث:** ما السؤال الذي لا يجيب عنه أحد؟ · ما خطأ المنافسين (أرقام قديمة، نصائح عامة، لا اختبار)؟ · هل لدي زاوية فريدة (اختبار، فك منتج، تجربة طويلة)؟
 
 **البحث الميداني:**
 ```
-□ Google: "[الموضوع] في مصر 2026"
+□ Google: "[الموضوع] في مصر"
 □ Google: "هل [الموضوع]" / "ليه [الموضوع]" (PAA)
 □ تحليل أول 3 منافسين في SERP — سجّل الفجوات والأخطاء
 □ مراجع عالمية (Tom's Guide, RTINGS, datasheets) — استخرج الأرقام
@@ -406,7 +443,7 @@ export interface BlogArticle {
 | الفئة | متى | أمثلة |
 |-------|-----|-------|
 | `how-to` | تعليمي إجرائي | "كيف تعرف انكر الأصلي؟" |
-| `buying-guide` | اختيار/شراء | "أفضل باور بانك للابتوب 2026" |
+| `buying-guide` | اختيار/شراء | "أفضل باور بانك للابتوب" · "دليل شراء سامسونج A + إكسسوارات" |
 | `tips` | حل مشكلة يومية | "ليه كابل الشحن بيبوظ؟" |
 | `comparison` | مقارنة بين خيارين+ | "Anker vs Joyroom" |
 | `review` | مراجعة منتج واحد | (نادر) |
@@ -415,30 +452,32 @@ export interface BlogArticle {
 
 ### الخطوة 1 — Slug + Title
 
-**Slug:** `{question-or-keyword}-{specifier}-{action-or-result}` · lowercase + `-` · 3-7 كلمات · لا أحرف عربية · لا أرقام إلا للسنة.
+**Slug:** `{question-or-keyword}-{specifier}-{action-or-result}` · lowercase + `-` · 3-7 كلمات · لا أحرف عربية · 🌲 **ممنوع سنة/تاريخ في الـ slug** (المنشور المؤرّخ يبقى — القاعدة للجديد). أرقام المواصفات (20w، 10000mah) مسموحة.
 
 **صيغ Title ناجحة:**
 
 | الصيغة | AR | EN |
 |--------|----|----|
 | سؤال + رقم + فائدة | "كيف تعرف انكر الأصلي؟ 5 طرق مضمونة" | "How to Identify Original Anker: 5 Guaranteed Methods" |
-| سؤال + سنة | "هل الباور بانك يشحن لابتوب؟ الدليل الشامل 2026" | "Can a Power Bank Charge a Laptop? Complete 2026 Guide" |
+| سؤال + شرط/فائدة | "هل الباور بانك يشحن لابتوب؟ الشروط + أفضل اختيار" | "Can a Power Bank Charge a Laptop? Conditions & Best Pick" |
 | مشكلة + رقم + حل | "ليه كابل الشحن بيبوظ بسرعة؟ 6 أخطاء + الحل" | "Why Your Cable Keeps Breaking: 6 Mistakes & Fixes" |
-| براند + دليل + سنة | "دليل سماعات Soundcore الشامل في مصر 2026" | "Complete Soundcore Earbuds Guide Egypt 2026" |
+| براند + دليل + سوق | "دليل سماعات Soundcore الشامل في مصر" | "Complete Soundcore Earbuds Guide in Egypt" |
 | حقيقة مخفية + فضول | "الحقيقة المخفية عن شواحن GaN" | "The Hidden Truth About GaN Chargers" |
 
-**قواعد:** السنة (2026) للمواضيع المتغيرة · رقم في العنوان · trigger عاطفي ("الحقيقة المخفية"/"مضمونة"/"في مصر") · ❌ كليشيهات: "أفضل" بدون رقم، "كل ما تحتاج"، "دليل شامل" بدون qualifier.
+**قواعد:** 🌲 **دائم الخضرة — ممنوع سنة/تاريخ في العنوان** ([`keyword-strategy.md`](cairovolt-keyword-strategy.md) §5؛ بدّل «أفضل X 2026» بـ «أفضل X تحت سعر/لاستخدام») · رقم في العنوان · trigger عاطفي ("الحقيقة المخفية"/"مضمونة"/"في مصر") · ❌ كليشيهات: "أفضل" بدون qualifier، "كل ما تحتاج"، "دليل شامل" بدون qualifier.
 
 ---
 
 ### الخطوة 2 — Metadata
 
+> 🖼️ **توليد الغلاف عند عدم وجود صورة مناسبة** — راجع [«الخطوة 2-ب: غلاف المقال»](#الخطوة-2-ب--غلاف-المقال-coverimage) أسفل النموذج.
+
 ```typescript
 {
     slug: '{slug}',
     category: 'how-to',
-    publishDate: '2026-05-17',                          // لا تُغيّره
-    modifiedDate: '2026-05-17',                         // حدّثه عند كل تعديل
+    publishDate: '2026-05-17',                          // مبدئي = تاريخ اليوم؛ `npm run schedule:blog` يضبطه للنشر المجدول (§النشر المجدول)
+    modifiedDate: '2026-05-17',                         // = publishDate (يضبطهما السكربت معاً)
     readingTime: 8,                                     // 7-9 — احسبها: 200 كلمة/د عربي، 250 إنجليزي (1,500 AR = ~7.5 د، 1,500 EN = ~6 د)
     relatedProducts: ['slug-1', /* ... */ 'slug-6'],    // 5-6
     relatedArticles: ['slug-a', 'slug-b', 'slug-c'],    // 3 بالضبط
@@ -449,6 +488,41 @@ export interface BlogArticle {
     // expertQuote: اختياري — اقتباس حقيقي موثّق من مراجع مستقل (يتطلب sourceUrl). انظر §النموذج الصادق.
 }
 ```
+
+### الخطوة 2-ب — غلاف المقال (coverImage)
+
+> **القاعدة:** كل مقال يحتاج `coverImage` بصيغة `.webp` بأبعاد **1200×630** في `/public/images/blog/posts/{slug}.webp`.
+
+**1) أولاً — هل توجد صورة مناسبة جاهزة؟** 143 غلافاً مُولّداً مسبقاً موجود في `/public/images/blog/posts/` باسم الـ slug. لو المقال يطابق slug له غلاف جاهز → استخدمه ولا تولّد جديداً.
+
+**2) لا توجد صورة مناسبة → ولّد غلافاً بالأمر الواحد** (يطبّق خط الأنابيب الكامل: **EXIF + XMP + GEO + SEO + C2PA**):
+
+```bash
+# الحد الأدنى — يقرأ العنوان/الكلمات/التصنيف تلقائياً من src/data/blog/{slug}.ts
+npm run cover:blog -- --slug={slug}
+
+# أو بتمرير صريح (أدق نتيجة للعنوان والكلمات):
+npm run cover:blog -- --slug={slug} \
+  --title="EN Title" --titleAr="العنوان بالعربي" \
+  --kicker="SHORT KICKER" --keywords="k1,k2,k3,egypt" --category=how-to
+```
+
+**ماذا يطبّق السكربت (`scripts/generate-blog-cover.mjs`) تلقائياً:**
+
+| الطبقة | المحتوى | لماذا |
+|--------|---------|-------|
+| 🎨 **التصميم** | غلاف 1200×630 ماركة CairoVolt، لون حسب التصنيف، عنوان EN + سطر عربي | هوية + Open Graph |
+| 🏷️ **EXIF/XMP** | Artist · Copyright · Title · Description · `Subject=keywords` · Headline · Credit · Source | ملكية + اكتشاف |
+| 📍 **GEO/GPS** | إحداثيات القاهرة (30.0444, 31.2357) + City=Cairo + CountryCode=EG | **SEO محلي** (تأكيد جغرافي للصورة) |
+| 🔐 **C2PA** | مانيفست موقّع: `c2pa.created → color_adjustments → edited → published` + ImageObject schema | أصالة المحتوى (Content Credentials) |
+
+> 🌲 **دائم الخضرة:** الأمر **لا يضع أي سنة/تاريخ** في الغلاف أو ميتاداتاه (Copyright = «© CairoVolt» بلا سنة، kicker بلا تاريخ). [`keyword-strategy.md`](cairovolt-keyword-strategy.md) §5.
+> ⚙️ **يتطلب:** `exiftool` + `c2patool` مثبّتَين (متوفّران في البيئة). الفشل في أيٍّ منهما لا يوقف توليد الصورة — يحذّر ويكمل.
+> 🔁 **استبدال غلاف موجود:** أضِف `--force`. **تحسين الحجم لكل الأغلفة:** `node scripts/optimize-blog-covers.mjs` (يحافظ على EXIF/C2PA).
+
+**3) سجّل المسار** في الـ schema: `coverImage: '/images/blog/posts/{slug}.webp'` — وتأكد أن الملف موجود فعلاً (الـ `audit:blog` يفشل لو غاب).
+
+---
 
 **قاعدة Author (محدّثة — مايو 2026):**
 
@@ -521,7 +595,7 @@ export interface BlogArticle {
 </div>
 ```
 
-**مثال:** "اشترينا 5 منتجات Anker من OLX خلال شهر مارس 2026 — وفكّكناها تحت المكبر بمساعدة فني صيانة. **النتيجة: 4 من 5 كانت مقلّدة.** الفروق: لحام بدائي، أسلاك ألومنيوم بدل النحاس، حرارة 72°م تحت الحمل مقابل 45°م للأصلي."
+**مثال:** "اشترينا 5 منتجات Anker من OLX خلال شهر كامل — وفكّكناها تحت المكبر بمساعدة فني صيانة. **النتيجة: 4 من 5 كانت مقلّدة.** الفروق: لحام بدائي، أسلاك ألومنيوم بدل النحاس، حرارة 72°م تحت الحمل مقابل 45°م للأصلي."
 
 **قواعد المنهجية:** عدد عينات بدقة (5/8/16) · مصدر بصراحة (OLX/Facebook/Amazon) · تاريخ (شهر/سنة) · قارن مع المعيار.
 
@@ -750,7 +824,7 @@ faq: [
 **`metaTitle` (≤ 60 حرف):**
 ```
 AR: "هل الباور بانك يشحن لابتوب؟ الشروط + أفضل اختيار | كايرو فولت" (52 حرف)
-EN: "Can a Power Bank Charge a Laptop? Complete 2026 Guide" (54 حرف)
+EN: "Can a Power Bank Charge a Laptop? Conditions & Best Pick" (56 حرف)
 ```
 
 **`metaDescription` (150-155 حرف):** صيغة = `[فائدة محددة] + [طريقة/منهجية] + [إشارة سلطة/CTA]`
@@ -762,9 +836,11 @@ EN: "Can your power bank charge your laptop? Learn the 3 scientific conditions,
 ```
 
 **`keywords` (8-12 مصطلح):** 2-3 long-tail questions · 2-3 core · 1-2 brand · 1-2 spec · 1-2 geo · 1-2 EN.
+
+> 🔑 **لا تخمّن الكلمات — اسحبها من عنقود المقال:** `npm run kw:blog -- --slug={slug}` يطبع كل كلمات العنقود + سطر `keywords:` جاهز للصق (مأخوذ من الـ944 كلمة المفلترة). اختر منه 8-12 توزّعها على العنوان/H2/FAQ/المتن. هكذا يلتقط المقال **كل تنويعات بحثه** لا واحدة. ([`keyword-strategy.md`](cairovolt-keyword-strategy.md) §7)
 ```typescript
 keywords: 'هل الباور بانك يشحن لابتوب, باور بانك للابتوب, شحن لابتوب من باور بانك, ' +
-         'افضل باور بانك للابتوب 2026, Anker 737 لابتوب, باور بانك 65 وات, ' +
+         'افضل باور بانك للابتوب, Anker 737 لابتوب, باور بانك 65 وات, ' +
          'power bank laptop egypt, باور بانك USB-C PD'
 ```
 

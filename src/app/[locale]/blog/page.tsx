@@ -1,9 +1,10 @@
 import { Metadata } from 'next';
-import { blogArticles } from '@/data/blog-articles';
+import { getLiveArticles } from '@/data/blog-articles';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import BlogPagination from '@/components/blog/BlogPagination';
 
-export const revalidate = 86400;
+// Hourly ISR so newly-scheduled articles appear in the listing within ~1h.
+export const revalidate = 3600;
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -67,7 +68,7 @@ export default async function BlogPage({ params }: Props) {
      * This keeps the JS bundle lean and avoids passing full HTML content
      * (which can be very large) to the client.
      */
-    const sortedArticles = [...blogArticles]
+    const sortedArticles = getLiveArticles()
         .sort((a, b) => new Date(b.modifiedDate).getTime() - new Date(a.modifiedDate).getTime())
         .map((a) => {
             const trans = a.translations[isArabic ? 'ar' : 'en'];
