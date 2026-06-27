@@ -155,18 +155,18 @@
 108. ✅ → slug: samsung-chargers-prices-market-egypt
 109. ✅ → slug: iphone-original-charger-price-egypt-warranty
 110. ✅ → slug: iphone-20w-charger-head-price-egypt
-111. ⬜ وصلة ايفون أصلية ضد التقليد — إزاي تفرق بين كابل MFi والكابلات التجارية؟ → `authentic-iphone-lightning-cable-vs-fake`
-112. ⬜ الشحن اللاسلكي MagSafe — هل فعلاً بيسخّن الآيفون ويقلل صحة البطارية؟ → `magsafe-wireless-charger-iphone-battery-health`
-113. ⬜ سلك شاحن ايفون بيقطع من الطرف؟ حلول عملية تطوّل عمره ضعف المدة → `iphone-charging-cable-break-protection-tips`
-114. ⬜ شاحن ساعة ابل المغناطيسي — دليل اختيار الطول المناسب وسرعة الشحن الحقيقية → `apple-watch-magnetic-charger-guide`
-115. ⬜ ضمان انكر 18 شهر في مصر — فروع التوكيل المعتمدة وشروط الاستبدال الكاملة → `anker-agent-egypt-branches-warranty-rules`
-116. ⬜ موقع Anker الرسمي — خطوة بخطوة للتحقق من باركود الضمان والأرقام التسلسلية → `anker-original-website-verify-barcode-guide`
-117. ⬜ شرح Anker Verify — دليلك المصور لفحص السيريال نمبر والتأكد من أمان ملحقاتك → `anker-verify-serial-number-security-check`
-118. ⬜ دليل أسعار شواحن انكر الأصلية في مصر — حائط وسيارة ومتعدد المنافذ → `anker-authentic-charger-price-list-egypt`
-119. ⬜ فين تشتري منتجات انكر الأصلية في القاهرة والمحافظات؟ خريطة الفروع المعتمدة → `anker-stores-egypt-cairo-alexandria`
-120. ⬜ السيريال نمبر في منتجات انكر — فين تلاقيه وإيه الصيغة الصحيحة اللي تتأكد منها؟ → `anker-serial-number-location-format-explained`
-121. ⬜ تجربة إلغاء الضوضاء ANC في الفئة الاقتصادية — هل فعلاً بتفرق في الشارع المصري؟ → `soundcore-r50i-nc-anc-earbuds-full-review`
-122. ⬜ ليه السماعة اللاسلكية دي هي الأكثر انتشاراً في مصر؟ تحليل شامل بالأرقام → `soundcore-r50i-wireless-earbuds-complete-review`
+111. ✅ → slug: authentic-iphone-lightning-cable-vs-fake
+112. ✅ → slug: magsafe-wireless-charger-iphone-battery-health
+113. ✅ → slug: iphone-charging-cable-break-protection-tips
+114. ✅ → slug: apple-watch-magnetic-charger-guide
+115. ✅ → slug: anker-agent-egypt-branches-warranty-rules
+116. ✅ → slug: anker-original-website-verify-barcode-guide
+117. ✅ → slug: anker-verify-serial-number-security-check
+118. ✅ → slug: anker-authentic-charger-price-list-egypt
+119. ✅ → slug: anker-stores-egypt-cairo-alexandria
+120. ✅ → slug: anker-serial-number-location-format-explained
+121. ✅ → slug: soundcore-r50i-nc-anc-earbuds-full-review
+122. ✅ → slug: soundcore-r50i-wireless-earbuds-complete-review
 123. ⬜ Earbuds ضد Headphones — مقارنة عملية بين سلاسل السماعات اللاسلكية والرياضية → `anker-bluetooth-headphones-earbuds-comparison-guide`
 124. ⬜ تجربة 90 يوم مع سماعة اقتصادية — الصوت والبطارية والمكالمات اليومية → `soundcore-p20i-earbuds-3-months-real-use-review`
 125. ⬜ الفروق الخفية بين P25i و P20i — في الصوت والـ EQ والتصميم → `soundcore-p25i-vs-soundcore-p20i-comparison`

@@ -139,6 +139,17 @@ import { samsung_chargers_prices_market_egypt } from './blog/samsung-chargers-pr
 import { iphone_original_charger_price_egypt_warranty } from './blog/iphone-original-charger-price-egypt-warranty';
 import { iphone_20w_charger_head_price_egypt } from './blog/iphone-20w-charger-head-price-egypt';
 import { authentic_iphone_lightning_cable_vs_fake } from './blog/authentic-iphone-lightning-cable-vs-fake';
+import { magsafe_wireless_charger_iphone_battery_health } from './blog/magsafe-wireless-charger-iphone-battery-health';
+import { iphone_charging_cable_break_protection_tips } from './blog/iphone-charging-cable-break-protection-tips';
+import { apple_watch_magnetic_charger_guide } from './blog/apple-watch-magnetic-charger-guide';
+import { anker_agent_egypt_branches_warranty_rules } from './blog/anker-agent-egypt-branches-warranty-rules';
+import { anker_original_website_verify_barcode_guide } from './blog/anker-original-website-verify-barcode-guide';
+import { anker_verify_serial_number_security_check } from './blog/anker-verify-serial-number-security-check';
+import { anker_authentic_charger_price_list_egypt } from './blog/anker-authentic-charger-price-list-egypt';
+import { anker_stores_egypt_cairo_alexandria } from './blog/anker-stores-egypt-cairo-alexandria';
+import { anker_serial_number_location_format_explained } from './blog/anker-serial-number-location-format-explained';
+import { soundcore_r50i_nc_anc_earbuds_full_review } from './blog/soundcore-r50i-nc-anc-earbuds-full-review';
+import { soundcore_r50i_wireless_earbuds_complete_review } from './blog/soundcore-r50i-wireless-earbuds-complete-review';
 
 
 
@@ -278,6 +289,17 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     iphone_original_charger_price_egypt_warranty,
     iphone_20w_charger_head_price_egypt,
     authentic_iphone_lightning_cable_vs_fake,
+    magsafe_wireless_charger_iphone_battery_health,
+    iphone_charging_cable_break_protection_tips,
+    apple_watch_magnetic_charger_guide,
+    anker_agent_egypt_branches_warranty_rules,
+    anker_original_website_verify_barcode_guide,
+    anker_verify_serial_number_security_check,
+    anker_authentic_charger_price_list_egypt,
+    anker_stores_egypt_cairo_alexandria,
+    anker_serial_number_location_format_explained,
+    soundcore_r50i_nc_anc_earbuds_full_review,
+    soundcore_r50i_wireless_earbuds_complete_review,
 ];
 
 
