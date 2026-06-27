@@ -150,7 +150,7 @@
 103. ✅ → slug: `samsung-45w-charger-vs-25w-real-charging-speed`
 104. ✅ → slug: original-samsung-charger-5-differences-identify
 105. ✅ → slug: samsung-a15-best-original-charger-guide
-106. ⬜ جدول أسعار شواحن سامسونج الأصلية في مصر — مُحدّث مع شروط الضمان المعتمد → `samsung-original-charger-price-egypt-guide`
+106. ✅ → slug: samsung-original-charger-price-egypt-guide
 107. ⬜ رأس شاحن سامسونج — دليل أشكال العلب المعتمدة والباركود الموثق لكل موديل → `samsung-charger-head-authentic-packaging-barcode`
 108. ⬜ مقارنة أسعار شواحن سامسونج (15W و25W و45W) في السوق المصري اليوم → `samsung-chargers-prices-market-egypt`
 109. ⬜ سعر شاحن ايفون الأصلي في مصر — ودليلك لحماية بطاريتك بضمان رسمي → `iphone-original-charger-price-egypt-warranty`

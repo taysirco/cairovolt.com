@@ -133,6 +133,7 @@ import { samsung_25w_charger_original_vs_fake_comparison } from './blog/samsung-
 import { samsung_45w_charger_vs_25w_real_charging_speed } from './blog/samsung-45w-charger-vs-25w-real-charging-speed';
 import { original_samsung_charger_5_differences_identify } from './blog/original-samsung-charger-5-differences-identify';
 import { samsung_a15_best_original_charger_guide } from './blog/samsung-a15-best-original-charger-guide';
+import { samsung_original_charger_price_egypt_guide } from './blog/samsung-original-charger-price-egypt-guide';
 
 
 
@@ -266,6 +267,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     samsung_45w_charger_vs_25w_real_charging_speed,
     original_samsung_charger_5_differences_identify,
     samsung_a15_best_original_charger_guide,
+    samsung_original_charger_price_egypt_guide,
 ];
 
 
