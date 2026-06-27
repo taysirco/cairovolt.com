@@ -476,8 +476,8 @@ export interface BlogArticle {
 {
     slug: '{slug}',
     category: 'how-to',
-    publishDate: '2026-05-17',                          // مبدئي = تاريخ اليوم؛ `npm run schedule:blog` يضبطه للنشر المجدول (§النشر المجدول)
-    modifiedDate: '2026-05-17',                         // = publishDate (يضبطهما السكربت معاً)
+    publishDate: '{NEXT_DATE}',                         // 🔴 إلزامي: شغّل `npm run next-date` واستخدم التاريخ الناتج (جدولة تلقائية مقال/يوم بوقت عشوائي)
+    modifiedDate: '{NEXT_DATE}',                        // = publishDate — نفس الناتج من `npm run next-date`
     readingTime: 8,                                     // 7-9 — احسبها: 200 كلمة/د عربي، 250 إنجليزي (1,500 AR = ~7.5 د، 1,500 EN = ~6 د)
     relatedProducts: ['slug-1', /* ... */ 'slug-6'],    // 5-6
     relatedArticles: ['slug-a', 'slug-b', 'slug-c'],    // 3 بالضبط

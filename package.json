@@ -12,7 +12,8 @@
     "cover:blog": "node scripts/generate-blog-cover.mjs",
     "kw:blog": "node scripts/blog-keywords.mjs",
     "schedule:blog": "node scripts/schedule-blog.mjs",
-    "reveal:blog": "node scripts/reveal-blog.mjs"
+    "reveal:blog": "node scripts/reveal-blog.mjs",
+    "next-date": "node scripts/next-publish-date.mjs"
   },
   "dependencies": {
     "@google-cloud/secret-manager": "^6.1.1",
