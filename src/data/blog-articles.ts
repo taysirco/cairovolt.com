@@ -131,6 +131,8 @@ import { anker_soundcore_vs_jbl_vs_bose_speakers_egypt } from './blog/anker-soun
 import { authentic_charger_vs_3_fake_chargers_roi_math } from './blog/authentic-charger-vs-3-fake-chargers-roi-math';
 import { samsung_25w_charger_original_vs_fake_comparison } from './blog/samsung-25w-charger-original-vs-fake-comparison';
 import { samsung_45w_charger_vs_25w_real_charging_speed } from './blog/samsung-45w-charger-vs-25w-real-charging-speed';
+import { original_samsung_charger_5_differences_identify } from './blog/original-samsung-charger-5-differences-identify';
+import { samsung_a15_best_original_charger_guide } from './blog/samsung-a15-best-original-charger-guide';
 
 
 
@@ -262,6 +264,8 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     authentic_charger_vs_3_fake_chargers_roi_math,
     samsung_25w_charger_original_vs_fake_comparison,
     samsung_45w_charger_vs_25w_real_charging_speed,
+    original_samsung_charger_5_differences_identify,
+    samsung_a15_best_original_charger_guide,
 ];
 
 
