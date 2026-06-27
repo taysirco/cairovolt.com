@@ -1,5 +1,4 @@
-import { useTranslations, useLocale } from 'next-intl';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
@@ -50,9 +49,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
-export default function AboutPage() {
-    const t = useTranslations('About');
-    const locale = useLocale();
+export default async function AboutPage({ params }: Props) {
+    const { locale } = await params;
+    setRequestLocale(locale);
+    const t = await getTranslations({ locale, namespace: 'About' });
     const isArabic = locale === 'ar';
 
     return (

@@ -8,6 +8,13 @@ const nextConfig = {
     trailingSlash: false,
     compress: true,
     reactCompiler: true,
+    // Strip console.* from production client bundles (keep error/warn for
+    // diagnostics). Shaves dead logging out of every shipped page's JS.
+    compiler: {
+        removeConsole: process.env.NODE_ENV === 'production'
+            ? { exclude: ['error', 'warn'] }
+            : false,
+    },
     serverExternalPackages: ['firebase-admin', '@google-cloud/secret-manager'],
     images: {
         // Custom loader bypasses broken /_next/image on Firebase App Hosting
