@@ -186,6 +186,7 @@ export default function BlogPagination({ articles, isArabic, locale, categoryLab
                         <Link
                             key={article.slug}
                             href={getLocalizedHref(`/blog/${article.slug}`)}
+                            prefetch={true}
                             className="group bg-white dark:bg-gray-800 rounded-2xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                         >
                             {/* Cover Image */}

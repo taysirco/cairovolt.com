@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { getGenericCategory } from '@/data/generic-categories';
-import { getBlogArticle } from '@/data/blog-articles';
+import { getIndexEntry } from '@/data/blog-index';
 import { staticProducts } from '@/lib/static-products';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
@@ -89,7 +89,7 @@ export function GenericCategoryContent({
     const faq = data.faq[isArabic ? 'ar' : 'en'];
     const richContent = data.richContent[isArabic ? 'ar' : 'en'];
     const relatedArticles = data.relatedBlogSlugs
-        .map(slug => getBlogArticle(slug))
+        .map(slug => getIndexEntry(slug))
         .filter(Boolean);
 
     const getLocalizedHref = (path: string) => {

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getBlogArticle, getAllBlogSlugs, blogArticles, isArticleLive } from '@/data/blog-articles';
+import { getAllIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
@@ -30,7 +30,7 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-    const slugs = getAllBlogSlugs();
+    const slugs = getAllIndexSlugs();
     return ['en', 'ar'].flatMap((locale) =>
         slugs.map((slug) => ({ locale, slug }))
     );
@@ -38,12 +38,13 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale, slug } = await params;
-    const article = getBlogArticle(slug);
+    // Use the lightweight index for metadata — no need to load full article content
+    const entry = getIndexEntry(slug);
 
-    if (!article) return {};
+    if (!entry) return {};
 
     const isArabic = locale === 'ar';
-    const trans = article.translations[isArabic ? 'ar' : 'en'];
+    const trans = entry.translations[isArabic ? 'ar' : 'en'];
 
     return {
         title: { absolute: trans.metaTitle },
@@ -65,10 +66,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             locale: isArabic ? 'ar_EG' : 'en_US',
             type: 'article',
             siteName: isArabic ? 'كايرو فولت' : 'CairoVolt',
-            publishedTime: article.publishDate,
-            modifiedTime: article.modifiedDate,
+            publishedTime: entry.publishDate,
+            modifiedTime: entry.modifiedDate,
             // OG images use JPG for maximum Facebook/social compatibility (webp causes fallback to default logo)
-            images: article.coverImage ? [{ 
+            images: entry.coverImage ? [{ 
                 url: `https://cairovolt.com/images/blog/og/${slug}.jpg`,
                 width: 1200,
                 height: 630,
@@ -77,10 +78,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             }] : [],
         },
         twitter: {
-            card: article.coverImage ? 'summary_large_image' : 'summary',
+            card: entry.coverImage ? 'summary_large_image' : 'summary',
             title: trans.metaTitle,
             description: trans.metaDescription,
-            ...(article.coverImage ? { images: [`https://cairovolt.com/images/blog/og/${slug}.jpg`] } : {}),
+            ...(entry.coverImage ? { images: [`https://cairovolt.com/images/blog/og/${slug}.jpg`] } : {}),
         },
         robots: {
             index: true,
@@ -105,11 +106,17 @@ const categoryLabels: Record<string, { ar: string; en: string; icon: string }> =
 
 export default async function BlogArticlePage({ params }: Props) {
     const { locale, slug } = await params;
-    const article = getBlogArticle(slug);
 
-    // Hide missing OR not-yet-published (scheduled) articles. A future-dated
-    // article 404s until its publishDate arrives, then ISR reveals it.
-    if (!article || !isArticleLive(article)) {
+    // Check the lightweight index first (fast, no content loaded)
+    const indexEntry = getIndexEntry(slug);
+    if (!indexEntry || !isIndexEntryLive(indexEntry)) {
+        notFound();
+    }
+
+    // Load ONLY this article's full content via dynamic import (~40KB)
+    // instead of the entire barrel (~5.9MB)
+    const article = await getBlogArticleBySlug(slug);
+    if (!article) {
         notFound();
     }
 
@@ -124,8 +131,8 @@ export default async function BlogArticlePage({ params }: Props) {
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
     };
 
-    // Get related articles (same category, excluding current)
-    const relatedArticles = blogArticles
+    // Get related articles from the lightweight index (no content loaded)
+    const relatedArticles = getLiveIndex()
         .filter(a => a.slug !== slug)
         .slice(0, 3);
 

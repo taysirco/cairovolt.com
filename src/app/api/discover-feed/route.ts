@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { products } from '@/data/seed-products';
-import { blogArticles, isArticleLive } from '@/data/blog-articles';
+import { blogIndex, isIndexEntryLive } from '@/data/blog-index';
 
 /**
  * Google Discover RSS Feed with WebSub/PubSubHubbub support
@@ -75,7 +75,7 @@ export async function GET() {
         });
 
     // Add latest blog articles — use coverImage or fallback to primary product image
-    const blogItems = blogArticles.filter(a => isArticleLive(a)).slice(0, 3).map(article => {
+    const blogItems = blogIndex.filter(a => isIndexEntryLive(a)).slice(0, 3).map(article => {
         let image = article.coverImage
             ? (article.coverImage.startsWith('http') ? article.coverImage : `https://cairovolt.com${article.coverImage}`)
             : null;

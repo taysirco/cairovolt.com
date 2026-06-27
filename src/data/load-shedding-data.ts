@@ -77,12 +77,17 @@ const LAB_CONSTANTS = {
     JOYROOM_20K_DEVICES_SIMULTANEOUS: 3,
 };
 
-import { staticProducts } from '@/lib/static-products';
+// Static price map to avoid importing the entire staticProducts catalog (~1.5MB).
+const PRICE_MAP: Record<string, number> = {
+    'anker-737-powerbank': 4999,
+    'anker-521-powerhouse': 11000,
+    'joyroom-power-bank-20000': 997,
+    'anker-powercore-20000': 1550,
+    'anker-nano-45w': 790,
+};
 
-// Dynamically resolves the current price from the static catalog (source of truth).
-// Falls back to 0 if something is wrong — this should never happen in practice.
 function catalogPrice(slug: string): number {
-    return staticProducts.find(p => p.slug === slug)?.price ?? 0;
+    return PRICE_MAP[slug] ?? 0;
 }
 
 // Product catalog for recommendations — prices are ALWAYS from static catalog

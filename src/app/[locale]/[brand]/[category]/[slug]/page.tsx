@@ -6,7 +6,7 @@ import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, BRAN
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
-import { getProductDetail } from '@/data/product-details';
+import { getProductDetailAsync } from '@/data/product-details';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
 import { logger } from '@/lib/logger';
@@ -250,7 +250,7 @@ export default async function ProductPage({ params }: Props) {
     const labMetrics = getLabMetrics(slug);
 
     // Product detail — computed once, used for schema + client props
-    const productDetailData = getProductDetail(slug) || null;
+    const productDetailData = (await getProductDetailAsync(slug)) || null;
 
     // Get static product for smart related products
     const staticProduct = getProductBySlug(slug);

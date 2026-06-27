@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getLiveArticles } from '@/data/blog-articles';
+import { getLiveIndex } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import BlogPagination from '@/components/blog/BlogPagination';
 
@@ -68,7 +68,7 @@ export default async function BlogPage({ params }: Props) {
      * This keeps the JS bundle lean and avoids passing full HTML content
      * (which can be very large) to the client.
      */
-    const sortedArticles = getLiveArticles()
+    const sortedArticles = getLiveIndex()
         .sort((a, b) => new Date(b.modifiedDate).getTime() - new Date(a.modifiedDate).getTime())
         .map((a) => {
             const trans = a.translations[isArabic ? 'ar' : 'en'];

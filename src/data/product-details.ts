@@ -170,3 +170,23 @@ export const enhancements: Record<string, import('./details/_types').ProductDeta
 export function getProductDetail(slug: string): ProductDetail | undefined {
     return enhancements[slug];
 }
+
+/**
+ * Lazy-load a single product detail module dynamically by slug.
+ * Avoids loading all 81 product details into server memory for a single page request.
+ */
+export async function getProductDetailAsync(slug: string): Promise<ProductDetail | undefined> {
+    try {
+        const mod = await import(`./details/${slug}`) as Record<string, unknown>;
+        // Product details modules export their detail object as `export const slug_detail = { ... }`
+        // or something similar. Find the first object that looks like a ProductDetail.
+        const detail = Object.values(mod).find(
+            (v): v is ProductDetail =>
+                typeof v === 'object' && v !== null && 'features' in v && 'specs' in v
+        );
+        return detail;
+    } catch {
+        // Fallback to synchronous in-memory map (the barrel is already evaluated at build time)
+        return enhancements[slug];
+    }
+}
