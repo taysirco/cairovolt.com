@@ -230,7 +230,9 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         شواحن <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">انكر</a> بتدعم USB-PD + QC — بتشحن آيفون وسامسونج بأقصى سرعة. <a href="/anker/cables" style="color:#2563eb;font-weight:600;">كابلات انكر USB-C</a> بتدعم 100W — مش هتكون عنق الزجاجة أبداً. ضمان 18 شهر + توصيل لكل المحافظات.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'ليه الشحن السريع مش شغّال رغم إن الشاحن أصلي والكابل أصلي؟',
@@ -456,7 +458,9 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> support USB-PD + QC — fast-charging iPhones and Samsungs at maximum speed. <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker USB-C cables</a> support 100W — they'll never be your bottleneck. 18-month warranty + delivery to all governorates.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'Why isn\'t fast charging working even though my charger and cable are genuine?',

@@ -49,6 +49,8 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
 </div>
 
 <p>للمزيد، اقرأ <a href="/blog/gan-charger-technology-guide-egypt" style="color:#2563eb;font-weight:bold;">دليل تقنية GaN الكامل</a> و<a href="/blog/does-fast-charging-damage-battery-truth" style="color:#2563eb;font-weight:bold;">هل الشحن السريع يضر البطارية؟</a> على مدونة كايرو فولت.</p>
+
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 30W</a>.</p></div>
 `,
                 faq: [
                     { question: 'ما هو الفرق الجوهري بين GaN والسيليكون؟', answer: 'التوصيل الحراري والكهربائي. الـ GaN يتحمل جهداً وتياراً أعلى بكثير مع فقدان حراري أقل، مما يسمح بصناعة شاحن أصغر وأسرع ولا يسخن.' },
@@ -89,6 +91,8 @@ export const the_hidden_truth_about_gan_chargers_ahmed_medhat: BlogArticle = {
 </div>
 
 <p>Read more in our <a href="/en/blog/gan-charger-technology-guide-egypt" style="color:#2563eb;font-weight:bold;">complete GaN technology guide</a> and <a href="/en/blog/does-fast-charging-damage-battery-truth" style="color:#2563eb;font-weight:bold;">does fast charging damage your battery?</a> on the CairoVolt blog.</p>
+
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Charger</a>.</p></div>
 `,
                 faq: [
                     { question: 'What is the core difference between GaN and Silicon?', answer: 'Thermal and electrical conductivity. GaN handles much higher voltages and currents with lower thermal loss, allowing for smaller, faster chargers that run cooler.' },

@@ -147,7 +147,9 @@ export const authentic_charger_vs_3_fake_chargers_roi_math: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر الأصلية</a> — 7 طبقات حماية + شحن سريع حقيقي (PD/QC) + ضمان 18 شهر. و<a href="/anker/cables" style="color:#2563eb;font-weight:600;">كابلات انكر</a> بتدعم الواط الكامل. الاستثمار الصح مرة واحدة — ومتشتريش تاني لسنين.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن Joyroom 25W</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'هل الشاحن التقليد فعلاً بيبوظ البطارية؟',
@@ -290,7 +292,9 @@ export const authentic_charger_vs_3_fake_chargers_roi_math: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Original Anker chargers</a> — 7-layer protection + real fast charging (PD/QC) + 18-month warranty. And <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker cables</a> that support full wattage. The right investment once — and you won't buy again for years.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W Charger</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'Do fake chargers actually damage batteries?',

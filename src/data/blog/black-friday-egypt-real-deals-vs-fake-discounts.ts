@@ -210,7 +210,9 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
         <li><a href="https://which.co.uk/news/article/black-friday-deals-investigation" rel="nofollow">Which? UK — تحقيق في عروض البلاك فرايدي الوهمية</a></li>
         <li><a href="https://www.consumer.ftc.gov/articles/0070-holiday-shopping-scams" rel="nofollow">FTC — حماية المستهلك من النصب في العروض</a></li>
     </ul>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">باور بانك Anker Zolo Slim 20000</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>
+`,
             faq: [
                 { question: 'هل كل عروض الجمعة البيضاء مزيفة؟', answer: 'لأ مش كلها. في عروض حقيقية بخصم 10-25% على منتجات أصلية. بس دراسات بتقول إن 60%+ من العروض مش أقل سعر في السنة. الحل: قارن الأسعار قبل وبعد، واتحقق من البائع والمنتج.' },
                 { question: 'إزاي أعرف إن الشاحن اللي في العرض أصلي؟', answer: 'تحقق من 5 حاجات: الوزن (الأصلي أتقل)، علامات السلامة (UL, CE, FCC)، جودة العلبة والطباعة، السعر (لو أرخص بـ 50%+ — غالباً مقلد)، وكود التحقق على موقع الشركة الرسمي.' },
@@ -403,7 +405,9 @@ export const black_friday_egypt_real_deals_vs_fake_discounts: BlogArticle = {
         <li><a href="https://which.co.uk/news/article/black-friday-deals-investigation" rel="nofollow">Which? UK — Black Friday Fake Deals Investigation</a></li>
         <li><a href="https://www.consumer.ftc.gov/articles/0070-holiday-shopping-scams" rel="nofollow">FTC — Consumer Protection from Sale Scams</a></li>
     </ul>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker Zolo Slim 20000 Power Bank</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>
+`,
             faq: [
                 { question: 'Are all Black Friday deals fake?', answer: 'No, not all of them. There are genuine deals with 10-25% off on authentic products. But studies show 60%+ of deals aren\'t the lowest price of the year. The solution: compare prices before and after, and verify the seller and product authenticity.' },
                 { question: 'How do I know if a charger on sale is genuine?', answer: 'Check 5 things: weight (genuine is heavier), safety marks (UL, CE, FCC), packaging quality and printing, price (if 50%+ cheaper — likely counterfeit), and verification code on the brand\'s official website.' },

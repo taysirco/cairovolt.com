@@ -138,7 +138,9 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> فيها حماية داخلية متعددة الطبقات (حماية من ارتفاع الجهد + ارتفاع الحرارة + التيار الزيادة). وصّلها بواقي فولتية كويس — وأجهزتك في أمان تام. ضمان 18 شهر + توصيل لكل المحافظات.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'إيه الفرق بين المشترك العادي وواقي الفولتية؟',
@@ -268,7 +270,9 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> feature multi-layer internal protection (over-voltage + over-temperature + over-current). Connect them to a quality surge protector — and your devices are fully safe. 18-month warranty + delivery to all governorates.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'What\'s the difference between a power strip and a surge protector?',

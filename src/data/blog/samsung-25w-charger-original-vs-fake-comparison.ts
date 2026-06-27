@@ -333,7 +333,9 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
 </div>
 </div>
 
-<p>في النهاية، شاحن سامسونج 25 واط الأصلي استثمار في أمان موبايلك وعمر بطاريتك. الـ 7 اختبارات دول — وخصوصاً الوزن ولون الـ USB-C — كفاية تكشف 90% من التقليد وإنت لسه في المحل. مش محتاج تبقى مهندس إلكترونيات عشان تعمل الاختبارات دي — محتاج بس تعرف فين تبص. ودلوقتي إنت عارف. 💡</p>`,
+<p>في النهاية، شاحن سامسونج 25 واط الأصلي استثمار في أمان موبايلك وعمر بطاريتك. الـ 7 اختبارات دول — وخصوصاً الوزن ولون الـ USB-C — كفاية تكشف 90% من التقليد وإنت لسه في المحل. مش محتاج تبقى مهندس إلكترونيات عشان تعمل الاختبارات دي — محتاج بس تعرف فين تبص. ودلوقتي إنت عارف. 💡</p>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'هل شاحن سامسونج 25W الأصلي بيشتغل مع كل موبايلات سامسونج؟',
@@ -664,7 +666,9 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
 </div>
 </div>
 
-<p>The original Samsung 25W charger is an investment in your phone's safety and battery longevity. These 7 tests — especially the weight and USB-C color checks — are enough to catch 90% of counterfeits while you're still at the shop. You don't need to be an electronics engineer to run these tests — you just need to know where to look. And now you do. 💡</p>`,
+<p>The original Samsung 25W charger is an investment in your phone's safety and battery longevity. These 7 tests — especially the weight and USB-C color checks — are enough to catch 90% of counterfeits while you're still at the shop. You don't need to be an electronics engineer to run these tests — you just need to know where to look. And now you do. 💡</p>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'Does the original Samsung 25W charger work with all Samsung phones?',

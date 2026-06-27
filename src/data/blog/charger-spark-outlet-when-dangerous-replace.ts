@@ -126,7 +126,9 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> معتمدة بشهادات UL/CE/FCC — 7 طبقات حماية من القصر والحرارة والشحن الزائد. ضمان 18 شهر + توصيل لكل المحافظات. متخاطرش بشاحن رخيص — السلامة أولاً.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker 30W</a> · <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">شاحن Anker Nano 45W</a> · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">شاحن Anker PowerPort 25W</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'هل شرارة الشاحن لما بوصله بالبريزة خطيرة؟',
@@ -246,7 +248,9 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> are certified with UL/CE/FCC — 7 layers of protection against short circuits, overheating, and overcharging. 18-month warranty + delivery to all governorates. Don't risk a cheap charger — safety first.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W Charger</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'Is it dangerous when my charger sparks when I plug it in?',

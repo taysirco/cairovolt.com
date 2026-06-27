@@ -172,7 +172,9 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         كل <a href="/soundcore/audio" style="color:#166534;font-weight:600;">سماعات ساوند كور</a> عندنا أصلية — لو حصلت أي مشكلة في فترة الضمان بنبدّلها أو نصلّحها مجاناً. مش هتقعد تدوّر على حلول على النت — ابعتلنا واتساب وهنحل المشكلة. توصيل لكل المحافظات + دعم فني 24/7.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">سماعة Soundcore Liberty 4 NC</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'السماعة اليمين مبتشتغلش بس الشمال تمام — ده عطل hardware؟',
@@ -332,7 +334,9 @@ export const bluetooth_earbud_one_side_only_working: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         All <a href="/en/soundcore/audio" style="color:#166534;font-weight:600;">Soundcore earbuds</a> on our store are original — if any issue occurs within the warranty period, we replace or repair them for free. No need to search for fixes online — message us on WhatsApp and we will solve the problem. Delivery across all Egyptian governorates + 24/7 tech support.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/soundcore/audio/soundcore-liberty-4-nc" style="color:#2563eb;font-weight:600;">Soundcore Liberty 4 NC</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'The right earbud is not working but the left is fine — is this a hardware defect?',

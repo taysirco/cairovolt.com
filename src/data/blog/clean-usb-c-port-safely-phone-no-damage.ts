@@ -168,7 +168,9 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         لو بعد التنظيف اكتشفت إن المشكلة في الكابل — <a href="/anker/cables" style="color:#2563eb;font-weight:600;">كابلات انكر USB-C</a> و<a href="/joyroom/cables" style="color:#2563eb;font-weight:600;">جوي روم</a> متوفرة بضمان 18 شهر. الـ connector مطابق للمعيار ومش هيضغط على المنفذ. توصيل لكل المحافظات.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل Anker PowerLine USB-C</a> · <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> · <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل Joyroom USB-C</a> · <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">كابل Joyroom 60W</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'هل ممكن أنظف منفذ USB-C بإبرة معدنية؟',
@@ -334,7 +336,9 @@ export const clean_usb_c_port_safely_phone_no_damage: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         If cleaning reveals the cable was the problem — <a href="/en/anker/cables" style="color:#2563eb;font-weight:600;">Anker USB-C cables</a> and <a href="/en/joyroom/cables" style="color:#2563eb;font-weight:600;">Joyroom cables</a> are available with 18-month warranty. Connectors meet spec and won't stress your port. Delivery to all governorates.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C Cable</a> · <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C Cable</a> · <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">Joyroom 60W Cable</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'Can I clean a USB-C port with a metal needle?',

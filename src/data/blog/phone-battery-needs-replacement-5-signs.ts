@@ -155,7 +155,9 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> — الحل الفوري لبطارية ضعيفة. و<a href="/anker/chargers" style="color:#2563eb;font-weight:600;">شواحن انكر</a> — الحل الدائم اللي يحمي بطاريتك الجديدة. ضمان 18 شهر + توصيل لكل المحافظات.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">بناءً على المقال ده، دي اختياراتنا: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن Anker GaN 30W</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">شاحن Anker 20W</a> · <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">باور بانك Anker Zolo 10000</a> · <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">باور بانك Anker Zolo 20000</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'إزاي أعرف إن بطارية موبايلي عايزة تتغيّر؟',
@@ -306,7 +308,9 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power banks</a> — the instant solution for a weak battery. And <a href="/en/anker/chargers" style="color:#2563eb;font-weight:600;">Anker chargers</a> — the long-term solution to protect your new battery. 18-month warranty + delivery to all governorates.
     </p>
-</div>`,
+</div>
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Based on this article, here are our picks: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W Charger</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W Charger</a> · <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo 10000 Power Bank</a> · <a href="/en/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;font-weight:600;">Anker Zolo 20000 Power Bank</a>.</p></div>
+`,
             faq: [
                 {
                     question: 'How do I know if my phone battery needs replacement?',
