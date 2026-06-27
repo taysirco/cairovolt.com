@@ -153,8 +153,8 @@
 106. ✅ → slug: samsung-original-charger-price-egypt-guide
 107. ✅ → slug: samsung-charger-head-authentic-packaging-barcode
 108. ✅ → slug: samsung-chargers-prices-market-egypt
-109. ⬜ سعر شاحن ايفون الأصلي في مصر — ودليلك لحماية بطاريتك بضمان رسمي → `iphone-original-charger-price-egypt-warranty`
-110. ⬜ رأس شاحن ايفون 20 واط — مقارنة أسعار منافذ التوزيع المعتمدة في مصر → `iphone-20w-charger-head-price-egypt`
+109. ✅ → slug: iphone-original-charger-price-egypt-warranty
+110. ✅ → slug: iphone-20w-charger-head-price-egypt
 111. ⬜ وصلة ايفون أصلية ضد التقليد — إزاي تفرق بين كابل MFi والكابلات التجارية؟ → `authentic-iphone-lightning-cable-vs-fake`
 112. ⬜ الشحن اللاسلكي MagSafe — هل فعلاً بيسخّن الآيفون ويقلل صحة البطارية؟ → `magsafe-wireless-charger-iphone-battery-health`
 113. ⬜ سلك شاحن ايفون بيقطع من الطرف؟ حلول عملية تطوّل عمره ضعف المدة → `iphone-charging-cable-break-protection-tips`

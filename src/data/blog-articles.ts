@@ -136,6 +136,8 @@ import { samsung_a15_best_original_charger_guide } from './blog/samsung-a15-best
 import { samsung_original_charger_price_egypt_guide } from './blog/samsung-original-charger-price-egypt-guide';
 import { samsung_charger_head_authentic_packaging_barcode } from './blog/samsung-charger-head-authentic-packaging-barcode';
 import { samsung_chargers_prices_market_egypt } from './blog/samsung-chargers-prices-market-egypt';
+import { iphone_original_charger_price_egypt_warranty } from './blog/iphone-original-charger-price-egypt-warranty';
+import { iphone_20w_charger_head_price_egypt } from './blog/iphone-20w-charger-head-price-egypt';
 
 
 
@@ -272,6 +274,8 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     samsung_original_charger_price_egypt_guide,
     samsung_charger_head_authentic_packaging_barcode,
     samsung_chargers_prices_market_egypt,
+    iphone_original_charger_price_egypt_warranty,
+    iphone_20w_charger_head_price_egypt,
 ];
 
 
