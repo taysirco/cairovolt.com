@@ -129,6 +129,7 @@ import { surge_protector_voltage_spike_egypt_electrical } from './blog/surge-pro
 import { two_port_vs_4_port_vs_6_port_charger_family } from './blog/2-port-vs-4-port-vs-6-port-charger-family';
 import { anker_soundcore_vs_jbl_vs_bose_speakers_egypt } from './blog/anker-soundcore-vs-jbl-vs-bose-speakers-egypt';
 import { authentic_charger_vs_3_fake_chargers_roi_math } from './blog/authentic-charger-vs-3-fake-chargers-roi-math';
+import { samsung_25w_charger_original_vs_fake_comparison } from './blog/samsung-25w-charger-original-vs-fake-comparison';
 
 
 
@@ -258,6 +259,7 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     two_port_vs_4_port_vs_6_port_charger_family,
     anker_soundcore_vs_jbl_vs_bose_speakers_egypt,
     authentic_charger_vs_3_fake_chargers_roi_math,
+    samsung_25w_charger_original_vs_fake_comparison,
 ];
 
 
