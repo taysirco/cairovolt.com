@@ -97,10 +97,23 @@ cairovolt-authenticator.zip
 
 # Seed data & utility/audit scripts (root-level only)
 /data/
-/scripts/
-# Exception: GitHub Actions scripts must be tracked
+# Ignore /scripts/ CONTENTS (not the dir itself) so the !exceptions below can
+# re-include specific files — `/scripts/` would exclude the dir and break negation.
+/scripts/*
+# Exceptions: pipeline scripts that MUST be tracked — build, CI, and npm
+# commands reference these, so a fresh clone / FAH build / GitHub Action needs
+# them present. Everything else under /scripts/ stays local one-off tooling.
+!/scripts/generate-blog-index.mjs
+!/scripts/reveal-blog.mjs
 !/scripts/detect-new-articles.mjs
 !/scripts/post-to-social.mjs
+!/scripts/audit-blog.js
+!/scripts/index-blog.js
+!/scripts/blog-keywords.mjs
+!/scripts/generate-blog-cover.mjs
+!/scripts/schedule-blog.mjs
+!/scripts/next-publish-date.mjs
+!/scripts/optimize-blog-covers.mjs
 
 # Root-level utility scripts (local tools)
 /convert_all.py
