@@ -14,15 +14,17 @@
 | **Word count** (لكل لغة) | 🔴 **≥ 1,500 كلمة — لا يُكسر** (الهدف 1,500-2,000) | [`voice.md`](voice.md) |
 | **H2 sections** | 4-6 | §6 |
 | **FAQ** | 4 بالضبط | §11 |
-| **relatedProducts** | 5-6 | §10 |
+| **relatedProducts** | 🔴 **5-6 منتجات حقيقية** — كل slug يجب أن يكون **ملف موجود في `src/data/products/`**. ❌ ممنوع تأليف slugs وهمية | §10 |
 | **relatedArticles** | 3 بالضبط (من نفس العنقود) | §10 + [`roadmap`](cairovolt-blog-roadmap.md) |
 | **readingTime** | 6-8 دقائق | §Schema |
-| **metaTitle** | ≤ 60 حرف | §13 |
-| **metaDescription** | 150-155 حرف | §13 |
+| **metaTitle** | ≤ 60 حرف (AR + EN) | §13 |
+| **metaDescription (AR)** | 🔴 **140-160 حرف** — الـ `audit:blog` يفشل تحت 140 | §13 |
+| **metaDescription (EN)** | 🔴 **140-160 حرف** — الـ `audit:blog` يفشل تحت 140 | §13 |
 | **quickAnswer** | 45-80 كلمة (يطابق Quick-Answer Box) | §4, §13 |
 | **excerpt** | 20-30 كلمة | §Schema |
-| **keywords** | 8-12 مصطلح | §13 |
-| **coverImage** | إلزامي — `.webp` 1200×630 | §2 |
+| **keywords** | 🔴 **8-12 مصطلح — من `npm run kw:blog`** وليس يدوياً | §13 + §0 |
+| **coverImage** | إلزامي — `.webp` 1200×630 · لو ناقص: `npm run cover:blog -- --slug={slug}` | §2 |
+| **publishDate** | 🔴 **من `npm run next-date`** — ليس تاريخ اليوم (جدولة تلقائية مقال/يوم) | §النشر المجدول |
 | **category** | من 5: `buying-guide`, `comparison`, `how-to`, `review`, `tips` | §0 |
 | **🌲 Evergreen** | 🔴 **ممنوع سنة/تاريخ** في العنوان أو الـ slug أو المتن (المنشور المؤرّخ يبقى) | [`keyword-strategy`](cairovolt-keyword-strategy.md) §5 |
 | **🎯 استهداف الكلمة** | اجتَز اختبار الفلترة (مالك موبايل + إكسسوار يفيده) قبل الكتابة | [`keyword-strategy`](cairovolt-keyword-strategy.md) §1 |
@@ -31,6 +33,8 @@
 | **expertQuote** | اختياري — اقتباس **حقيقي + رابط مصدر** فقط (ممنوع التلفيق) | §النموذج الصادق |
 | **Ammiyya ratio** | 85% عامية / 15% MSA | [`voice.md`](voice.md) |
 | **أول 200 كلمة** | فكاهة إلزامية (نكتة/مفارقة/سخرية) | [`voice.md`](voice.md) |
+| **📖 قراءة voice.md** | 🔴 **إلزامي قبل أي كتابة** — اقرأ الملف فعلياً (view_file) | [`voice.md`](voice.md) |
+| **📖 قراءة content-laws.md** | 🔴 **إلزامي قبل أي كتابة** — اقرأ الملف فعلياً (view_file) | [`content-laws.md`](content-laws.md) |
 | **⚖️ i18n href (AR)** | `<a href="/anker/...">` بدون `/en/` | [`content-laws.md`](content-laws.md) §1 |
 | **⚖️ i18n href (EN)** | `<a href="/en/anker/...">` بـ `/en/` | [`content-laws.md`](content-laws.md) §1 |
 | **Anchor text language** | يطابق لغة المحتوى (AR→عربي / EN→إنجليزي) | §10 |
@@ -41,7 +45,12 @@
 | **🔍 Search Engine Indexing** | 🔴 **إلزامي بعد كل push** — `npm run index:blog {slug}` | §18 |
 | **🏆 Dominance (الصدارة)** | GEO/استشهاد AI + اصطياد ميزات SERP + سلطة Pillar — **بطاقة تقييم ≥ 80/100** | [`dominance-playbook`](cairovolt-dominance-playbook.md) |
 
-> 🔴 **قبل أي commit:** (1) شغّل أمري `grep` في [`content-laws.md`](content-laws.md) §1 — يجب أن تكونا **0 سطر**. (2) شغّل أمر عدّ الكلمات (§16-A أدناه) — يجب أن يكون AR ≥ 1,500 و EN ≥ 1,500 أو **لا commit**. (3) لمقالات الصدارة: قيّمها ببطاقة [`dominance-playbook`](cairovolt-dominance-playbook.md) — **≥ 80** أو أعِد العمل.
+> 🔴 **قبل أي commit — 5 بوابات إلزامية:**
+> 1. شغّل `npm run audit:blog {slug}` — يجب أن ينجح (يفحص: كلمات + i18n + FAQ + منتجات حقيقية + metaDescription)
+> 2. تأكد AR ≥ 1,500 و EN ≥ 1,500 كلمة
+> 3. تأكد كل `relatedProducts` موجودين كملفات في `src/data/products/`
+> 4. تأكد AR + EN `metaDescription` كلاهما 140-160 حرف
+> 5. لمقالات الصدارة: بطاقة [`dominance-playbook`](cairovolt-dominance-playbook.md) — **≥ 80** أو أعِد العمل
 
 ---
 
@@ -57,19 +66,23 @@
 | طلب رقم صراحةً ("اكتب #42") | ✅ ابدأ بالموضوع المحدد |
 | طلب صريح لمراجعة/تعديل/سؤال | ⛔ نفّذ ما طُلب فقط — لا تكتب مقالاً |
 
-**بروتوكول التنفيذ (بالترتيب):**
+**بروتوكول التنفيذ (بالترتيب — 15 خطوة لا تُختصر):**
 
 1. أعلن سطر واحد: `"بدء كتابة #N — [العنوان]"`
-2. **اقرأ [`voice.md`](voice.md)** أولاً (إلزامي — DNA الأسلوب والفكاهة)
-3. **اقرأ [`content-laws.md`](content-laws.md)** (إلزامي — i18n Quarantine + Bilingual Parity + Authority + Anti-AI) + **[`cairovolt-keyword-strategy.md`](cairovolt-keyword-strategy.md)** (فلتر الاستهداف + زاوية الجسر + دائم الخضرة)
-4. **اقرأ [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md)** واعثر على أول ⬜
-5. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف — **ولّد الغلاف لو ناقص: `npm run cover:blog -- --slug={slug}`**
-6. **شغّل أمر عدّ الكلمات (§16-A) — يجب AR ≥ 1,500 و EN ≥ 1,500 قبل أي خطوة تالية**
-7. شغّل `npm run build` للتحقق
-8. اعمل `commit + push` على GitHub
-9. 🔴 **فهرس المقال فوراً:** `npm run index:blog {slug}` — **لا يُتخطّى أبداً** (§18)
-10. **حدّث `cairovolt-blog-roadmap.md`** (⬜ → ✅) — لا تعدّل هذا الملف
-11. قدّم تقرير 6 أسطر (يشمل نتيجة الفهرسة)
+2. 📖 **اقرأ [`voice.md`](voice.md)** فعلياً بـ `view_file` (إلزامي — DNA الأسلوب والفكاهة). **لا تعتمد على الذاكرة**
+3. 📖 **اقرأ [`content-laws.md`](content-laws.md)** فعلياً بـ `view_file` (إلزامي — i18n Quarantine + Bilingual Parity + Authority + Anti-AI)
+4. 📖 **اقرأ [`cairovolt-keyword-strategy.md`](cairovolt-keyword-strategy.md)** (فلتر الاستهداف + زاوية الجسر + دائم الخضرة)
+5. **اقرأ [`cairovolt-blog-roadmap.md`](cairovolt-blog-roadmap.md)** واعثر على أول ⬜
+6. 🔑 **شغّل `npm run kw:blog -- --slug={slug}`** — استخرج الكلمات المفتاحية من ملفات البحث الفعلية. **لا تكتب keywords يدوياً**
+7. 📅 **شغّل `npm run next-date --json`** — احصل على تاريخ النشر المجدول. **لا تستخدم تاريخ اليوم**
+8. 🛒 **تأكد من وجود المنتجات:** افتح `src/data/products/` واختر 5-6 منتجات **حقيقية موجودة كملفات .ts**. **ممنوع تأليف slugs**
+9. نفّذ كامل الـ Workflow (الـ 18 خطوة أدناه) بدون توقف — **ولّد الغلاف لو ناقص: `npm run cover:blog -- --slug={slug}`**
+10. **شغّل `npm run audit:blog {slug}`** — يجب أن ينجح (يفحص: كلمات ≥1,500 + i18n + FAQ + منتجات حقيقية + metaDescription 140-160)
+11. شغّل `npm run build` للتحقق
+12. اعمل `commit + push` على GitHub
+13. 🔴 **فهرس المقال فوراً:** `npm run index:blog {slug}` — **لا يُتخطّى أبداً** (§18)
+14. **حدّث `cairovolt-blog-roadmap.md`** (⬜ → ✅) — لا تعدّل هذا الملف
+15. قدّم تقرير 8 أسطر (يشمل: نتيجة الفهرسة + مصدر الكلمات المفتاحية + تاريخ النشر المجدول + المنتجات المرتبطة)
 
 **Trigger Phrases إضافية:** "اكتب موضوع جديد/تدوينة جديدة" · "اكمل المدونة" · "اكتب التدوينة التالية" · "ابدأ موضوع من القائمة" · "Write the next blog post" · "اكتب موضوع #N".
 
@@ -479,7 +492,7 @@ export interface BlogArticle {
     publishDate: '{NEXT_DATE}',                         // 🔴 إلزامي: شغّل `npm run next-date` واستخدم التاريخ الناتج (جدولة تلقائية مقال/يوم بوقت عشوائي)
     modifiedDate: '{NEXT_DATE}',                        // = publishDate — نفس الناتج من `npm run next-date`
     readingTime: 8,                                     // 7-9 — احسبها: 200 كلمة/د عربي، 250 إنجليزي (1,500 AR = ~7.5 د، 1,500 EN = ~6 د)
-    relatedProducts: ['slug-1', /* ... */ 'slug-6'],    // 5-6
+    relatedProducts: ['slug-1', /* ... */ 'slug-6'],    // 🔴 5-6 — كل slug يجب أن يكون ملف .ts موجود في src/data/products/ — شغّل `ls src/data/products/` للتأكد
     relatedArticles: ['slug-a', 'slug-b', 'slug-c'],    // 3 بالضبط
     relatedCategories: ['Anker/power-banks'],    // أو ['Soundcore/audio'] لمنتجات الصوتيات
     coverImage: '/images/blog/posts/{slug}.webp',       // 1200×630، .webp
