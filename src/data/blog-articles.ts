@@ -150,6 +150,36 @@ import { anker_stores_egypt_cairo_alexandria } from './blog/anker-stores-egypt-c
 import { anker_serial_number_location_format_explained } from './blog/anker-serial-number-location-format-explained';
 import { soundcore_r50i_nc_anc_earbuds_full_review } from './blog/soundcore-r50i-nc-anc-earbuds-full-review';
 import { soundcore_r50i_wireless_earbuds_complete_review } from './blog/soundcore-r50i-wireless-earbuds-complete-review';
+import { anker_bluetooth_headphones_earbuds_comparison_guide } from './blog/anker-bluetooth-headphones-earbuds-comparison-guide';
+import { soundcore_p20i_earbuds_3_months_real_use_review } from './blog/soundcore-p20i-earbuds-3-months-real-use-review';
+import { soundcore_p25i_vs_soundcore_p20i_comparison } from './blog/soundcore-p25i-vs-soundcore-p20i-comparison';
+import { anker_soundcore_life_p2i_specifications_audio_modes } from './blog/anker-soundcore-life-p2i-specifications-audio-modes';
+import { soundcore_a30i_lipstick_design_earbuds_review } from './blog/soundcore-a30i-lipstick-design-earbuds-review';
+import { soundcore_liberty_4_nc_anc_performance_review } from './blog/soundcore-liberty-4-nc-anc-performance-review';
+import { soundcore_liberty_4_pro_flagship_earbuds_review } from './blog/soundcore-liberty-4-pro-flagship-earbuds-review';
+import { soundcore_r100_specs_problems_solutions } from './blog/soundcore-r100-specs-problems-solutions';
+import { soundcore_k20i_semi_in_ear_earbuds_comfort_review } from './blog/soundcore-k20i-semi-in-ear-earbuds-comfort-review';
+import { soundcore_life_q20_headphones_best_budget_over_ear } from './blog/soundcore-life-q20-headphones-best-budget-over-ear';
+import { soundcore_liberty_buds_complete_lineup_comparison } from './blog/soundcore-liberty-buds-complete-lineup-comparison';
+import { soundcore_liberty_air_2_factory_reset_connection_fix } from './blog/soundcore-liberty-air-2-factory-reset-connection-fix';
+import { best_anker_soundcore_bluetooth_speakers_egypt } from './blog/best-anker-soundcore-bluetooth-speakers-egypt';
+import { soundcore_flare_2_partycast_led_speaker_review } from './blog/soundcore-flare-2-partycast-led-speaker-review';
+import { soundcore_motion_plus_30w_hi_res_speaker_review } from './blog/soundcore-motion-plus-30w-hi-res-speaker-review';
+import { joyroom_power_banks_10k_20k_models_review } from './blog/joyroom-power-banks-10k-20k-models-review';
+import { anker_521_powerhouse_portable_power_station_review } from './blog/anker-521-powerhouse-portable-power-station-review';
+import { anker_power_station_powerhouse_models_comparison } from './blog/anker-power-station-powerhouse-models-comparison';
+import { anker_power_bank_20000mah_models_comparison } from './blog/anker-power-bank-20000mah-models-comparison';
+import { anker_powercore_10000mah_compact_power_bank_review } from './blog/anker-powercore-10000mah-compact-power-bank-review';
+import { anker_wireless_magnetic_power_bank_compatibility } from './blog/anker-wireless-magnetic-power-bank-compatibility';
+import { usb_c_charger_cable_speeds_charging_time_impact } from './blog/usb-c-charger-cable-speeds-charging-time-impact';
+import { usb_charging_cables_materials_durability_guide } from './blog/usb-charging-cables-materials-durability-guide';
+import { anker_usb_c_charging_cables_powerline_vs_flow } from './blog/anker-usb-c-charging-cables-powerline-vs-flow';
+import { anker_nano_30w_charger_iphone_15_16_perfect_fit } from './blog/anker-nano-30w-charger-iphone-15-16-perfect-fit';
+import { anker_car_charger_protection_voltage_regulation } from './blog/anker-car-charger-protection-voltage-regulation';
+import { electric_scooter_charger_battery_safety_charging_rules } from './blog/electric-scooter-charger-battery-safety-charging-rules';
+import { lithium_battery_charger_safety_cutoff_circuit_explained } from './blog/lithium-battery-charger-safety-cutoff-circuit-explained';
+import { soundcore_earbuds_prices_specs_egypt_guide } from './blog/soundcore-earbuds-prices-specs-egypt-guide';
+import { best_wireless_chargers_qi2_compatibility_egypt } from './blog/best-wireless-chargers-qi2-compatibility-egypt';
 
 
 
@@ -300,6 +330,36 @@ export const blogArticles: import('./blog/_types').BlogArticle[] = [
     anker_serial_number_location_format_explained,
     soundcore_r50i_nc_anc_earbuds_full_review,
     soundcore_r50i_wireless_earbuds_complete_review,
+    anker_bluetooth_headphones_earbuds_comparison_guide,
+    soundcore_p20i_earbuds_3_months_real_use_review,
+    soundcore_p25i_vs_soundcore_p20i_comparison,
+    anker_soundcore_life_p2i_specifications_audio_modes,
+    soundcore_a30i_lipstick_design_earbuds_review,
+    soundcore_liberty_4_nc_anc_performance_review,
+    soundcore_liberty_4_pro_flagship_earbuds_review,
+    soundcore_r100_specs_problems_solutions,
+    soundcore_k20i_semi_in_ear_earbuds_comfort_review,
+    soundcore_life_q20_headphones_best_budget_over_ear,
+    soundcore_liberty_buds_complete_lineup_comparison,
+    soundcore_liberty_air_2_factory_reset_connection_fix,
+    best_anker_soundcore_bluetooth_speakers_egypt,
+    soundcore_flare_2_partycast_led_speaker_review,
+    soundcore_motion_plus_30w_hi_res_speaker_review,
+    joyroom_power_banks_10k_20k_models_review,
+    anker_521_powerhouse_portable_power_station_review,
+    anker_power_station_powerhouse_models_comparison,
+    anker_power_bank_20000mah_models_comparison,
+    anker_powercore_10000mah_compact_power_bank_review,
+    anker_wireless_magnetic_power_bank_compatibility,
+    usb_c_charger_cable_speeds_charging_time_impact,
+    usb_charging_cables_materials_durability_guide,
+    anker_usb_c_charging_cables_powerline_vs_flow,
+    anker_nano_30w_charger_iphone_15_16_perfect_fit,
+    anker_car_charger_protection_voltage_regulation,
+    electric_scooter_charger_battery_safety_charging_rules,
+    lithium_battery_charger_safety_cutoff_circuit_explained,
+    soundcore_earbuds_prices_specs_egypt_guide,
+    best_wireless_chargers_qi2_compatibility_egypt,
 ];
 
 
