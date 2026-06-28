@@ -294,7 +294,7 @@
 238. ✅ إكسسوارات ايفون 11 اللي لسه تستاهل — كابل وشاحن وباور بانك (~45K) → `iphone-11-accessories-still-worth-it`
 239. ✅ اشتريت اوبو رينو؟ الإكسسوارات العامة اللي تكمّله (الشحن الخاص والبديل) (~36K) → `oppo-reno-accessories-supervooc-guide`
 240. ✅ دليل شراء الايفون في مصر: ايه تختار والإكسسوارات حسب المنفذ (~33K) → `buy-iphone-egypt-guide-accessories-by-port`
-241. ⬜ شاومي/ريدمي: الإكسسوارات اللي تشتريها مع الموبايل (والشحن الخاص) (~23K) → `xiaomi-redmi-accessories-buying-guide`
+241. ✅ شاومي/ريدمي: الإكسسوارات اللي تشتريها مع الموبايل (والشحن الخاص) (~23K) → `xiaomi-redmi-accessories-buying-guide`
 242. ⬜ سامسونج Note: معايير الشراء والإكسسوارات اللي تناسب الفلاجشيب (~15K) → `samsung-note-buying-guide-accessories`
 243. ⬜ ايفون 8/7 مستعمل؟ ايه تفحص والإكسسوارات اللي تأمّنه (~13K) → `iphone-8-7-used-buying-check-accessories`
 244. ⬜ سامسونج فئة M: دليل الشراء والإكسسوارات الأوفر (~12K) → `samsung-galaxy-m-buying-guide-accessories`
