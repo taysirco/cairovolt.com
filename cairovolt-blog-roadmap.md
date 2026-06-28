@@ -266,7 +266,7 @@
 219. ✅ الباور بانك بديل الـ UPS — هل ينفع يشغّل الراوتر 8 ساعات وقت انقطاع الكهرباء؟ → `power-bank-router-ups-alternative-8-hours`
 220. ✅ محطة طاقة متنقلة للشقة — الحل الذكي لانقطاع الكهرباء المتكرر في صيف مصر → `portable-power-station-apartment-summer-outage-egypt`
 221. ✅ تشغيل اللابتوب على الباور بانك — شروط السعة والقدرة المطلوبة → `running-laptop-on-power-bank-capacity-requirements`
-222. ⬜ باور بانك للثلاجة المتنقلة في الرحلات — السعة المطلوبة والاختيارات المتاحة → `power-bank-portable-fridge-road-trip-capacity`
+222. ✅ باور بانك للثلاجة المتنقلة في الرحلات — السعة المطلوبة والاختيارات المتاحة → `power-bank-portable-fridge-road-trip-capacity`
 223. ⬜ ليه الشحن اللاسلكي أبطأ من السلكي — وهل Qi2 هيحل المشكلة دي؟ → `wireless-charging-slower-than-wired-qi2-solution`
 224. ⬜ هل الجراب بيأثر على الشحن اللاسلكي؟ اختبار أنواع الجرابات المختلفة → `phone-case-affect-wireless-charging-test-types`
 225. ⬜ شاحن لاسلكي للسيارة — هل يستحق الاستثمار ولا الكابل لسه أحسن؟ → `wireless-car-charger-worth-investment-vs-cable`
