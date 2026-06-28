@@ -240,7 +240,7 @@
 193. ✅ استخدام الموبايل أثناء الشحن — هل فعلاً ممكن يسبب انفجار البطارية؟ → `using-phone-while-charging-battery-explosion-myth`
 194. ✅ الشاحن متوصل بالكهرباء من غير موبايل — هل بيستهلك كهرباء ويسخن؟ → `charger-plugged-without-phone-electricity-waste`
 195. ✅ → slug: what-is-gan-gallium-nitride-charger-explained-simply
-196. ⬜ الفرق بين USB 2.0 و USB 3.0 و USB 3.2 في الكابلات — دليل مبسط بالصور → `usb-2-vs-usb-3-vs-usb-3-2-cable-differences`
+196. ✅ → slug: usb-2-vs-usb-3-vs-usb-3-2-cable-differences
 197. ⬜ PD و QC و PPS — فك شفرة اختصارات الشحن السريع المكتوبة على كل شاحن → `pd-qc-pps-fast-charging-abbreviations-explained`
 198. ⬜ BassUp و LDAC و aptX — مصطلحات السماعات اللي لازم تفهمها قبل ما تشتري → `bassup-ldac-aptx-audio-terms-explained-before-buying`
 199. ⬜ باور بانك لجهاز قياس السكر المتواصل CGM — الحل العملي لمرضى السكر → `power-bank-cgm-diabetes-continuous-glucose-monitor`
