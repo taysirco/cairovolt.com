@@ -272,7 +272,7 @@
 225. ✅ شاحن لاسلكي للسيارة — هل يستحق الاستثمار ولا الكابل لسه أحسن؟ → `wireless-car-charger-worth-investment-vs-cable`
 226. ✅ الشحن اللاسلكي العكسي — إمتى يكون مفيد فعلاً وإمتى مضيعة بطارية؟ → `reverse-wireless-charging-useful-vs-waste`
 227. ✅ إزاي تخزّن الباور بانك صح لو مش هتستخدمه فترة طويلة — بدون تلف البطارية → `store-power-bank-long-term-battery-protection`
-228. ⬜ تنظيف منفذ Lightning و USB-C — الأدوات الآمنة والأخطاء اللي بتكسر الموصلات → `clean-lightning-usb-c-port-safe-tools-mistakes`
+228. ✅ تنظيف منفذ Lightning و USB-C — الأدوات الآمنة والأخطاء اللي بتكسر الموصلات → `clean-lightning-usb-c-port-safe-tools-mistakes`
 
 ---
 
