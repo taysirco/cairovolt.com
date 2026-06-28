@@ -252,7 +252,7 @@
 205. ✅ هل ممكن أستخدم شاحن سامسونج لشحن آيفون والعكس؟ الجواب النهائي → `samsung-charger-for-iphone-cross-brand-compatibility`
 206. ✅ الفرق بين mAh و Wh في الباور بانك — وليه الـ mAh لوحدها مش كافية → `mah-vs-wh-power-bank-real-capacity-explained`
 207. ✅ خريطة أسواق الملحقات في مصر — من عتبة الحلمية لمول سيتي ستارز → `accessories-markets-map-egypt-helmeya-city-stars`
-208. ⬜ الشراء أونلاين ضد المحل — فين أضمن لشراء ملحقات أصلية في مصر؟ → `online-vs-store-original-accessories-egypt-guide`
+208. ✅ الشراء أونلاين ضد المحل — فين أضمن لشراء ملحقات أصلية في مصر؟ → `online-vs-store-original-accessories-egypt-guide`
 209. ⬜ ضمان الملحقات في مصر — حقوقك القانونية اللي المحلات مش بتقولك عليها → `accessories-warranty-egypt-consumer-legal-rights`
 210. ⬜ إزاي تشتري ملحقات أصلية من أمازون مصر وجوميا بدون ما تتنصب عليك → `buy-original-accessories-amazon-jumia-egypt-tips`
 211. ⬜ إعدادات الـ EQ المثالية للموسيقى العربية — ضبط السماعة على المزاج المصري → `eq-settings-arabic-music-egyptian-earbuds-tuning`
