@@ -157,56 +157,56 @@
 110. ✅ → slug: iphone-20w-charger-head-price-egypt
 111. ✅ → slug: authentic-iphone-lightning-cable-vs-fake
 112. ✅ → slug: magsafe-wireless-charger-iphone-battery-health
-113. ✅ → slug: iphone-charging-cable-break-protection-tips
-114. ✅ → slug: apple-watch-magnetic-charger-guide
-115. ✅ → slug: anker-agent-egypt-branches-warranty-rules
-116. ✅ → slug: anker-original-website-verify-barcode-guide
-117. ✅ → slug: anker-verify-serial-number-security-check
-118. ✅ → slug: anker-authentic-charger-price-list-egypt
-119. ✅ → slug: anker-stores-egypt-cairo-alexandria
-120. ✅ → slug: anker-serial-number-location-format-explained
-121. ✅ → slug: soundcore-r50i-nc-anc-earbuds-full-review
-122. ✅ → slug: soundcore-r50i-wireless-earbuds-complete-review
-123. ✅ → slug: `anker-bluetooth-headphones-earbuds-comparison-guide`
-124. ✅ → slug: `soundcore-p20i-earbuds-3-months-real-use-review`
-125. ✅ → slug: `soundcore-p25i-vs-soundcore-p20i-comparison`
-126. ✅ → slug: `anker-soundcore-life-p2i-specifications-audio-modes`
-127. ✅ → slug: `soundcore-a30i-lipstick-design-earbuds-review`
-128. ✅ → slug: `soundcore-liberty-4-nc-anc-performance-review`
-129. ✅ → slug: `soundcore-liberty-4-pro-flagship-earbuds-review`
-130. ✅ → slug: `soundcore-r100-specs-problems-solutions`
-131. ✅ → slug: `soundcore-k20i-semi-in-ear-earbuds-comfort-review`
-132. ✅ → slug: `soundcore-life-q20-headphones-best-budget-over-ear`
-133. ✅ → slug: `soundcore-liberty-buds-complete-lineup-comparison`
-134. ✅ → slug: `soundcore-liberty-air-2-factory-reset-connection-fix`
-135. ✅ → slug: `best-anker-soundcore-bluetooth-speakers-egypt`
-136. ✅ → slug: `soundcore-flare-2-partycast-led-speaker-review`
-137. ✅ → slug: `soundcore-motion-plus-30w-hi-res-speaker-review`
-138. ✅ → slug: `joyroom-power-banks-10k-20k-models-review`
-139. ✅ → slug: `anker-521-powerhouse-portable-power-station-review`
-140. ✅ → slug: `anker-power-station-powerhouse-models-comparison`
-141. ✅ → slug: `anker-power-bank-20000mah-models-comparison`
-142. ✅ → slug: `anker-powercore-10000mah-compact-power-bank-review`
-143. ✅ → slug: `anker-wireless-magnetic-power-bank-compatibility`
+113. ⬜ سلك شاحن ايفون بيقطع من الطرف؟ حلول عملية تطوّل عمره ضعف المدة → `iphone-charging-cable-break-protection-tips`
+114. ⬜ شاحن ساعة ابل المغناطيسي — دليل اختيار الطول المناسب وسرعة الشحن الحقيقية → `apple-watch-magnetic-charger-guide`
+115. ⬜ ضمان انكر 18 شهر في مصر — فروع التوكيل المعتمدة وشروط الاستبدال الكاملة → `anker-agent-egypt-branches-warranty-rules`
+116. ⬜ موقع Anker الرسمي — خطوة بخطوة للتحقق من باركود الضمان والأرقام التسلسلية → `anker-original-website-verify-barcode-guide`
+117. ⬜ شرح Anker Verify — دليلك المصور لفحص السيريال نمبر والتأكد من أمان ملحقاتك → `anker-verify-serial-number-security-check`
+118. ⬜ دليل أسعار شواحن انكر الأصلية في مصر — حائط وسيارة ومتعدد المنافذ → `anker-authentic-charger-price-list-egypt`
+119. ⬜ فين تشتري منتجات انكر الأصلية في القاهرة والمحافظات؟ خريطة الفروع المعتمدة → `anker-stores-egypt-cairo-alexandria`
+120. ⬜ السيريال نمبر في منتجات انكر — فين تلاقيه وإيه الصيغة الصحيحة اللي تتأكد منها؟ → `anker-serial-number-location-format-explained`
+121. ⬜ تجربة إلغاء الضوضاء ANC في الفئة الاقتصادية — هل فعلاً بتفرق في الشارع المصري؟ → `soundcore-r50i-nc-anc-earbuds-full-review`
+122. ⬜ ليه السماعة اللاسلكية دي هي الأكثر انتشاراً في مصر؟ تحليل شامل بالأرقام → `soundcore-r50i-wireless-earbuds-complete-review`
+123. ⬜ Earbuds ضد Headphones — مقارنة عملية بين سلاسل السماعات اللاسلكية والرياضية → `anker-bluetooth-headphones-earbuds-comparison-guide`
+124. ⬜ تجربة 90 يوم مع سماعة اقتصادية — الصوت والبطارية والمكالمات اليومية → `soundcore-p20i-earbuds-3-months-real-use-review`
+125. ⬜ الفروق الخفية بين P25i و P20i — في الصوت والـ EQ والتصميم → `soundcore-p25i-vs-soundcore-p20i-comparison`
+126. ⬜ ضبط الصوت للألعاب والموسيقى — دليل إعدادات السماعة الاقتصادية المثالية → `anker-soundcore-life-p2i-specifications-audio-modes`
+127. ⬜ تصميم علبة أحمر الشفاه مع أداء إلغاء ضوضاء ممتاز — هل الأناقة تأتي على حساب الصوت؟ → `soundcore-a30i-lipstick-design-earbuds-review`
+128. ⬜ ملك الفئة المتوسطة في عزل الضوضاء — تحليل أداء ANC الحقيقي → `soundcore-liberty-4-nc-anc-performance-review`
+129. ⬜ أفضل نقاء صوتي في الفئة المتوسطة العليا — ميزات الفلاجشيب بنصف السعر → `soundcore-liberty-4-pro-flagship-earbuds-review`
+130. ⬜ مشكلة ضعف الصوت المفاجئ في السماعات اللاسلكية — الأسباب والحلول الشائعة → `soundcore-r100-specs-problems-solutions`
+131. ⬜ سماعة مفتوحة للمكالمات والقيادة — الاختيار الآمن بدون ألم الأذن → `soundcore-k20i-semi-in-ear-earbuds-comfort-review`
+132. ⬜ أفضل هيدفون Over-Ear تحت 2500 جنيه — هل لسه الاختيار ده يستاهل فلوسك؟ → `soundcore-life-q20-headphones-best-budget-over-ear`
+133. ⬜ دليل شامل لسلسلة Liberty Buds — مقارنة كل الموديلات من الاقتصادي للفلاجشيب → `soundcore-liberty-buds-complete-lineup-comparison`
+134. ⬜ سماعة البلوتوث مش بتتوصل بالأندرويد؟ طريقة إعادة ضبط المصنع والحل النهائي → `soundcore-liberty-air-2-factory-reset-connection-fix`
+135. ⬜ أفضل سبيكرات بلوتوث في مصر — مقارنة الصوت والنقاء وعمر البطارية → `best-anker-soundcore-bluetooth-speakers-egypt`
+136. ⬜ تقنية PartyCast مع إضاءة LED متزامنة — تجربة صوتية مختلفة لحفلاتك → `soundcore-flare-2-partycast-led-speaker-review`
+137. ⬜ هل سبيكر 30 واط Hi-Res يستحق لقب "بطل النقاء الصوتي"؟ اختبار حقيقي → `soundcore-motion-plus-30w-hi-res-speaker-review`
+138. ⬜ باور بانك Joyroom — مراجعة 5 موديلات بسعات 10,000 و20,000 مللي أمبير → `joyroom-power-banks-10k-20k-models-review`
+139. ⬜ محطة الطاقة المتنقلة — الحل المثالي لتشغيل الشاشة والراوتر وقت انقطاع الكهرباء → `anker-521-powerhouse-portable-power-station-review`
+140. ⬜ محطات الطاقة المتنقلة — مقارنة بين الفئات ومميزات كل واحدة للرحلات والمنازل → `anker-power-station-powerhouse-models-comparison`
+141. ⬜ باور بانك 20000 مللي أمبير — مقارنة موديلات الشحن السريع بالمنفذ والوزن والأداء → `anker-power-bank-20000mah-models-comparison`
+142. ⬜ ليه باور بانك 10000 مللي أمبير لسه أفضل شاحن متنقل للمهام اليومية؟ → `anker-powercore-10000mah-compact-power-bank-review`
+143. ⬜ الباور بانك اللاسلكي المغناطيسي — هل هو عملي فعلاً لهواتف الآيفون والأندرويد؟ → `anker-wireless-magnetic-power-bank-compatibility`
 144. ⬜ إزاي تفرق بين شاحن Oppo SuperVOOC الأصلي والمقلد اللي بيدمر البطارية؟ → `oppo-original-supervooc-charger-vs-fake`
 145. ⬜ شاحن شاومي في مصر — دليل اختيار الشاحن اللي يدعم Turbo Charging فعلاً → `original-xiaomi-charger-turbo-charging-guide`
 146. ⬜ باور بانك Remax — هل يستحق الشراء كبديل اقتصادي في السوق المصري؟ → `remax-power-bank-value-budget-egypt`
 147. ⬜ باور بانك Mophie — الشاحن المعتمد من Apple عالمياً: هل أداؤه يستاهل سعره؟ → `mophie-premium-power-banks-apple-authorized`
-148. ✅ → slug: `usb-c-charger-cable-speeds-charging-time-impact`
-149. ✅ → slug: `usb-charging-cables-materials-durability-guide`
-150. ✅ → slug: `anker-usb-c-charging-cables-powerline-vs-flow`
-151. ✅ → slug: `anker-nano-30w-charger-iphone-15-16-perfect-fit`
-152. ✅ → slug: `anker-car-charger-protection-voltage-regulation`
+148. ⬜ سرعات كابلات USB-C المختلفة — إزاي بتأثر على وقت شحن موبايلك ولابتوبك؟ → `usb-c-charger-cable-speeds-charging-time-impact`
+149. ⬜ خامات كابلات الشحن — دليلك لاختيار كابل مقاوم للقطع الداخلي والطقس المصري → `usb-charging-cables-materials-durability-guide`
+150. ⬜ كابلات PowerLine ضد Flow — مقارنة شاملة لاختيار الكابل المثالي لاحتياجك → `anker-usb-c-charging-cables-powerline-vs-flow`
+151. ⬜ شاحن نانو 30 واط — الخيار الذكي والمستدام لهواتف iPhone 15 و iPhone 16 → `anker-nano-30w-charger-iphone-15-16-perfect-fit`
+152. ⬜ شاحن سيارة بيحمي جهازك من كهرباء البطارية غير المستقرة — إزاي تختار الصح؟ → `anker-car-charger-protection-voltage-regulation`
 153. ⬜ بديل الحجارة للسخان — دليلك الكامل لشراء شاحن سخان الغاز بأمان → `gas-water-heater-power-charger-adapter-safety`
 154. ⬜ شاحن بطارية 12 فولت — دليل اختيار الشاحن المناسب لبطاريات السيارات والدراجات النارية → `12v-battery-charger-cars-motorcycles-selection`
 155. ⬜ شاحن ماكينة حلاقة Kemei و Moser — دليلك لتحديد الفولت والفتحة المتوافقة لموديلك → `hair-clipper-charger-kemei-moser-voltage-guide`
-156. ✅ → slug: `electric-scooter-charger-battery-safety-charging-rules`
+156. ⬜ بطارية السكوتر الكهربائي بتنتفخ؟ قواعد الشحن الآمن لحمايتها من التلف → `electric-scooter-charger-battery-safety-charging-rules`
 157. ⬜ شاحن الساعة الذكية — الفرق بين المغناطيسي الأصلي والمقلد اللي بيدمر البطارية → `smartwatch-magnetic-chargers-original-vs-clones`
 158. ⬜ شاحن ساعة Huawei — جدول التوافق بين الموديلات وأسعار الرؤوس المغناطيسية في مصر → `huawei-watch-charger-compatibility-prices-egypt`
 159. ⬜ شاحن بطاريات الفيب 18650 — ليه الشحن الخارجي أأمن من الشحن في الجهاز؟ → `vape-18650-external-charger-importance-safety`
-160. ✅ → slug: `lithium-battery-charger-safety-cutoff-circuit-explained`
-161. ✅ → slug: `soundcore-earbuds-prices-specs-egypt-guide`
-162. ✅ → slug: `best-wireless-chargers-qi2-compatibility-egypt`
+160. ⬜ دائرة القطع في شواحن الليثيوم — التقنية اللي بتمنع البطارية من الانفجار → `lithium-battery-charger-safety-cutoff-circuit-explained`
+161. ⬜ دليل أسعار ومواصفات سماعات Soundcore في مصر — من الموزعين المعتمدين → `soundcore-earbuds-prices-specs-egypt-guide`
+162. ⬜ أفضل شاحن لاسلكي Qi2 في مصر — دليل اختيار الشاحن والأجهزة المتوافقة → `best-wireless-chargers-qi2-compatibility-egypt`
 163. ⬜ باور بانك Joyroom 10000 — اختبار السعة الحقيقية وعدد مرات شحن الموبايل الفعلية → `joyroom-10000mah-power-bank-real-capacity-test`
 164. ⬜ باور بانك Joyroom 20000 — أداء الشحن السريع في السفر ومقارنته مع البدائل → `joyroom-20000mah-power-bank-travel-performance-review`
 165. ⬜ أفضل شاحن للآيفون — مقارنة الشواحن المعتمدة بضمان MFi وسرعات الشحن الحقيقية → `best-iphone-chargers-mfi-approved-charging-speed`
