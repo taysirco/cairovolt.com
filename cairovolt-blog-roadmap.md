@@ -233,7 +233,7 @@
 186. ✅ شاحن GaN ضد الشاحن التقليدي — فرق الحجم والحرارة والأداء بالتفصيل → `gan-charger-vs-traditional-silicon-charger-comparison`
 187. ✅ ملحقات Samsung Galaxy S24 FE — أفضل شاحن وكابل وباور بانك بأحسن سعر → `samsung-galaxy-s24-fe-accessories-charger-cable`
 188. ✅ ملحقات Tecno و Infinix — أفضل شاحن وكابل لأشهر الهواتف الاقتصادية في مصر → `tecno-infinix-budget-phone-charger-cable-guide`
-189. ⬜ ملحقات Nothing Phone — الشاحن والكابل المناسب لأحدث هواتف Nothing → `nothing-phone-charger-cable-accessories-guide`
+189. ✅ ملحقات Nothing Phone — الشاحن والكابل المناسب لأحدث هواتف Nothing → `nothing-phone-charger-cable-accessories-guide`
 190. ⬜ هل شاحن USB-C العادي كافي لهواتف Google Pixel؟ ولا محتاج شاحن خاص؟ → `google-pixel-usb-c-charger-requirements-guide`
 191. ⬜ انفجار الباور بانك — حقيقة علمية أم مبالغة؟ وإزاي تحمي نفسك وعيلتك → `power-bank-explosion-real-risk-safety-tips`
 192. ⬜ شحن الموبايل في الحمام — خطر كهربائي حقيقي ولا مجرد تخويف؟ → `charging-phone-in-bathroom-electrical-danger-real`
