@@ -295,9 +295,9 @@
 239. ✅ اشتريت اوبو رينو؟ الإكسسوارات العامة اللي تكمّله (الشحن الخاص والبديل) (~36K) → `oppo-reno-accessories-supervooc-guide`
 240. ✅ دليل شراء الايفون في مصر: ايه تختار والإكسسوارات حسب المنفذ (~33K) → `buy-iphone-egypt-guide-accessories-by-port`
 241. ✅ شاومي/ريدمي: الإكسسوارات اللي تشتريها مع الموبايل (والشحن الخاص) (~23K) → `xiaomi-redmi-accessories-buying-guide`
-242. ⬜ سامسونج Note: معايير الشراء والإكسسوارات اللي تناسب الفلاجشيب (~15K) → `samsung-note-buying-guide-accessories`
-243. ⬜ ايفون 8/7 مستعمل؟ ايه تفحص والإكسسوارات اللي تأمّنه (~13K) → `iphone-8-7-used-buying-check-accessories`
-244. ⬜ سامسونج فئة M: دليل الشراء والإكسسوارات الأوفر (~12K) → `samsung-galaxy-m-buying-guide-accessories`
+242. ✅ سامسونج Note: معايير الشراء والإكسسوارات اللي تناسب الفلاجشيب (~15K) → `samsung-note-buying-guide-accessories`
+243. ✅ ايفون 8/7 مستعمل؟ ايه تفحص والإكسسوارات اللي تأمّنه (~13K) → `iphone-8-7-used-buying-check-accessories`
+244. ✅ سامسونج فئة M: دليل الشراء والإكسسوارات الأوفر (~12K) → `samsung-galaxy-m-buying-guide-accessories`
 245. ⬜ ايفون X/XS مستعمل: معايير الفحص + إكسسوارات تحدّث التجربة (~11K) → `iphone-x-xs-used-buying-accessories`
 246. ⬜ ريلمي: معايير الشراء والإكسسوارات العامة المتوافقة (~7K) → `realme-accessories-buying-guide`
 
