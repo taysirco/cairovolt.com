@@ -290,7 +290,7 @@
 234. ✅ ايفون 14 برو ماكس: أفضل بديل AirPods وشاحن بنص السعر (~56K) → `iphone-14-pro-max-airpods-alternative-charger`
 235. ✅ اشتريت ايفون 17 برو ماكس؟ الإكسسوارات اللي لازم معاه من أول يوم (~55K) → `iphone-17-pro-max-essential-accessories-day-one`
 236. ✅ ايفون 12 برو ماكس: معايير الشراء والإكسسوارات اللي تكمّله (~50K) → `iphone-12-pro-max-buying-criteria-accessories`
-237. ⬜ سامسونج S Ultra: الشحن السريع 45W الحقيقي والإكسسوارات الرائدة (~46K) → `samsung-s-ultra-45w-fast-charging-accessories`
+237. ✅ سامسونج S Ultra: الشحن السريع 45W الحقيقي والإكسسوارات الرائدة (~46K) → `samsung-s-ultra-45w-fast-charging-accessories`
 238. ⬜ إكسسوارات ايفون 11 اللي لسه تستاهل — كابل وشاحن وباور بانك (~45K) → `iphone-11-accessories-still-worth-it`
 239. ⬜ اشتريت اوبو رينو؟ الإكسسوارات العامة اللي تكمّله (الشحن الخاص والبديل) (~36K) → `oppo-reno-accessories-supervooc-guide`
 240. ⬜ دليل شراء الايفون في مصر: ايه تختار والإكسسوارات حسب المنفذ (~33K) → `buy-iphone-egypt-guide-accessories-by-port`
