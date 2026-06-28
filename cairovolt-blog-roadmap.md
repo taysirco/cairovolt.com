@@ -231,7 +231,7 @@
 184. ✅ هل الشاحن الغالي بيشحن أسرع فعلاً؟ اختبار عملي بالأرقام والقياسات → `expensive-charger-vs-cheap-speed-test-comparison`
 185. ✅ باور بانك بكابل مدمج ضد باور بانك عادي — أيهم أعملي وأطول عمراً؟ → `built-in-cable-power-bank-vs-regular-practical`
 186. ✅ شاحن GaN ضد الشاحن التقليدي — فرق الحجم والحرارة والأداء بالتفصيل → `gan-charger-vs-traditional-silicon-charger-comparison`
-187. ⬜ ملحقات Samsung Galaxy S24 FE — أفضل شاحن وكابل وباور بانك بأحسن سعر → `samsung-galaxy-s24-fe-accessories-charger-cable`
+187. ✅ ملحقات Samsung Galaxy S24 FE — أفضل شاحن وكابل وباور بانك بأحسن سعر → `samsung-galaxy-s24-fe-accessories-charger-cable`
 188. ⬜ ملحقات Tecno و Infinix — أفضل شاحن وكابل لأشهر الهواتف الاقتصادية في مصر → `tecno-infinix-budget-phone-charger-cable-guide`
 189. ⬜ ملحقات Nothing Phone — الشاحن والكابل المناسب لأحدث هواتف Nothing → `nothing-phone-charger-cable-accessories-guide`
 190. ⬜ هل شاحن USB-C العادي كافي لهواتف Google Pixel؟ ولا محتاج شاحن خاص؟ → `google-pixel-usb-c-charger-requirements-guide`
