@@ -227,7 +227,7 @@
 180. ✅ إزاي تحافظ على صحة بطارية موبايلك فوق 80% لأطول فترة ممكنة → `keep-phone-battery-health-above-80-percent-tips`
 181. ✅ شحن موبايلين من شاحن واحد — بيبطئ الشحن قد إيه فعلاً؟ → `charging-two-phones-one-charger-speed-impact`
 182. ✅ الباور بانك بيشحن بطيء جداً؟ 6 أسباب خفية والحل النهائي لكل واحد → `power-bank-charging-slowly-6-hidden-causes-fixes`
-183. ⬜ شاحن من الوكيل ضد شاحن من أمازون مصر — هل فعلاً نفس الجودة؟ → `official-agent-charger-vs-amazon-egypt-quality`
+183. ✅ شاحن من الوكيل ضد شاحن من أمازون مصر — هل فعلاً نفس الجودة؟ → `official-agent-charger-vs-amazon-egypt-quality`
 184. ⬜ هل الشاحن الغالي بيشحن أسرع فعلاً؟ اختبار عملي بالأرقام والقياسات → `expensive-charger-vs-cheap-speed-test-comparison`
 185. ⬜ باور بانك بكابل مدمج ضد باور بانك عادي — أيهم أعملي وأطول عمراً؟ → `built-in-cable-power-bank-vs-regular-practical`
 186. ⬜ شاحن GaN ضد الشاحن التقليدي — فرق الحجم والحرارة والأداء بالتفصيل → `gan-charger-vs-traditional-silicon-charger-comparison`
