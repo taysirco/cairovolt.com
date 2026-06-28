@@ -256,7 +256,7 @@
 209. ✅ ضمان الملحقات في مصر — حقوقك القانونية اللي المحلات مش بتقولك عليها → `accessories-warranty-egypt-consumer-legal-rights`
 210. ✅ إزاي تشتري ملحقات أصلية من أمازون مصر وجوميا بدون ما تتنصب عليك → `buy-original-accessories-amazon-jumia-egypt-tips`
 211. ✅ إعدادات الـ EQ المثالية للموسيقى العربية — ضبط السماعة على المزاج المصري → `eq-settings-arabic-music-egyptian-earbuds-tuning`
-212. ⬜ سماعة بلوتوث للمحاضرات والتعلم أونلاين — الاختيار الذكي لطلاب الجامعة → `bluetooth-earbuds-online-lectures-university-students`
+212. ✅ سماعة بلوتوث للمحاضرات والتعلم أونلاين — الاختيار الذكي لطلاب الجامعة → `bluetooth-earbuds-online-lectures-university-students`
 213. ⬜ سبيكر بلوتوث للرحلات البرية والكامبينج — بطارية تدوم يوم كامل بدون قلق → `bluetooth-speaker-camping-road-trip-all-day-battery`
 214. ⬜ سماعة نيكباند ضد سماعة TWS — أيهم أنسب لمكالمات الشغل اليومية؟ → `neckband-vs-tws-earbuds-work-calls-comparison`
 215. ⬜ عرض شاشة الموبايل على التلفزيون بكابل HDMI — الدليل الكامل بدون WiFi → `phone-to-tv-hdmi-cable-screen-mirroring-guide`
