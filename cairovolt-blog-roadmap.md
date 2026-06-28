@@ -244,7 +244,7 @@
 197. ✅ → slug: pd-qc-pps-fast-charging-abbreviations-explained
 198. ✅ → slug: bassup-ldac-aptx-audio-terms-explained-before-buying
 199. ✅ → slug: power-bank-cgm-diabetes-continuous-glucose-monitor
-200. ⬜ ملحقات المعلم المصري — شاحن وسماعة وباور بانك يكملوا يوم المدرسة → `teacher-accessories-charger-earbuds-power-bank`
+200. ✅ ملحقات المعلم المصري — شاحن وسماعة وباور بانك يكملوا يوم المدرسة → `teacher-accessories-charger-earbuds-power-bank`
 201. ⬜ باور بانك لماكينة الدفع الإلكتروني POS — الحل لأصحاب المحلات والكاشير → `power-bank-pos-machine-shop-cashier-solution`
 202. ⬜ شحن وملحقات لرحلات القطار والأتوبيس الطويلة — دليل المسافر المصري → `train-bus-long-trip-charging-accessories-egypt`
 203. ⬜ كم مرة يشحن باور بانك 10000 مللي أمبير موبايل iPhone؟ الحساب الدقيق → `10000mah-power-bank-iphone-charges-count-math`
