@@ -250,7 +250,7 @@
 203. ✅ كم مرة يشحن باور بانك 10000 مللي أمبير موبايل iPhone؟ الحساب الدقيق → `10000mah-power-bank-iphone-charges-count-math`
 204. ✅ هل الشاحن القديم بيشحن الموبايل الجديد بنفس السرعة؟ الإجابة المفاجئة → `old-charger-new-phone-charging-speed-answer`
 205. ✅ هل ممكن أستخدم شاحن سامسونج لشحن آيفون والعكس؟ الجواب النهائي → `samsung-charger-for-iphone-cross-brand-compatibility`
-206. ⬜ الفرق بين mAh و Wh في الباور بانك — وليه الـ mAh لوحدها مش كافية → `mah-vs-wh-power-bank-real-capacity-explained`
+206. ✅ الفرق بين mAh و Wh في الباور بانك — وليه الـ mAh لوحدها مش كافية → `mah-vs-wh-power-bank-real-capacity-explained`
 207. ⬜ خريطة أسواق الملحقات في مصر — من عتبة الحلمية لمول سيتي ستارز → `accessories-markets-map-egypt-helmeya-city-stars`
 208. ⬜ الشراء أونلاين ضد المحل — فين أضمن لشراء ملحقات أصلية في مصر؟ → `online-vs-store-original-accessories-egypt-guide`
 209. ⬜ ضمان الملحقات في مصر — حقوقك القانونية اللي المحلات مش بتقولك عليها → `accessories-warranty-egypt-consumer-legal-rights`
