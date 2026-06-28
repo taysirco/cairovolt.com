@@ -243,7 +243,7 @@
 196. ✅ → slug: usb-2-vs-usb-3-vs-usb-3-2-cable-differences
 197. ✅ → slug: pd-qc-pps-fast-charging-abbreviations-explained
 198. ✅ → slug: bassup-ldac-aptx-audio-terms-explained-before-buying
-199. ⬜ باور بانك لجهاز قياس السكر المتواصل CGM — الحل العملي لمرضى السكر → `power-bank-cgm-diabetes-continuous-glucose-monitor`
+199. ✅ → slug: power-bank-cgm-diabetes-continuous-glucose-monitor
 200. ⬜ ملحقات المعلم المصري — شاحن وسماعة وباور بانك يكملوا يوم المدرسة → `teacher-accessories-charger-earbuds-power-bank`
 201. ⬜ باور بانك لماكينة الدفع الإلكتروني POS — الحل لأصحاب المحلات والكاشير → `power-bank-pos-machine-shop-cashier-solution`
 202. ⬜ شحن وملحقات لرحلات القطار والأتوبيس الطويلة — دليل المسافر المصري → `train-bus-long-trip-charging-accessories-egypt`
