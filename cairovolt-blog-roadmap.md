@@ -298,8 +298,8 @@
 242. ✅ سامسونج Note: معايير الشراء والإكسسوارات اللي تناسب الفلاجشيب (~15K) → `samsung-note-buying-guide-accessories`
 243. ✅ ايفون 8/7 مستعمل؟ ايه تفحص والإكسسوارات اللي تأمّنه (~13K) → `iphone-8-7-used-buying-check-accessories`
 244. ✅ سامسونج فئة M: دليل الشراء والإكسسوارات الأوفر (~12K) → `samsung-galaxy-m-buying-guide-accessories`
-245. ⬜ ايفون X/XS مستعمل: معايير الفحص + إكسسوارات تحدّث التجربة (~11K) → `iphone-x-xs-used-buying-accessories`
-246. ⬜ ريلمي: معايير الشراء والإكسسوارات العامة المتوافقة (~7K) → `realme-accessories-buying-guide`
+245. ✅ ايفون X/XS مستعمل: معايير الفحص + إكسسوارات تحدّث التجربة (~11K) → `iphone-x-xs-used-buying-accessories`
+246. ✅ ريلمي: معايير الشراء والإكسسوارات العامة المتوافقة (~7K) → `realme-accessories-buying-guide`
 
 ---
 
@@ -307,9 +307,9 @@
 
 > 3 عناقيد حجمها الإنجليزي أعلى ولا مقابل لها منشور. العنوان الثنائي في `keyword-research/title-bank-bilingual.md`. 🔴 النسخة الإنجليزية أولاً وأعمق، والعربية بنفس العمق (تكافؤ).
 
-247. ⬜ How to Transfer Data from Android to iPhone (نقل البيانات بكابل/OTG — 21K، إنجليزي 14K) → `how-to-transfer-data-android-iphone-cable-otg`
-248. ⬜ Phone Not Charging? Fixes (الموبايل مش بيشحن: الكابل/المنفذ/الشاحن — 10.8K، إنجليزي 9.9K) → `phone-not-charging-fixes-cable-charger`
-249. ⬜ How to Connect Apple Watch to iPhone (ربط وشحن الساعة — 1.15K إنجليزي بالكامل) → `connect-apple-watch-to-iphone-pairing-charging`
+247. ✅ How to Transfer Data from Android to iPhone (نقل البيانات بكابل/OTG — 21K، إنجليزي 14K) → `how-to-transfer-data-android-iphone-cable-otg`
+248. ✅ Phone Not Charging? Fixes (الموبايل مش بيشحن: الكابل/المنفذ/الشاحن — 10.8K، إنجليزي 9.9K) → `phone-not-charging-fixes-cable-charger`
+249. ✅ How to Connect Apple Watch to iPhone (ربط وشحن الساعة — 1.15K إنجليزي بالكامل) → `connect-apple-watch-to-iphone-pairing-charging`
 
 ---
 
