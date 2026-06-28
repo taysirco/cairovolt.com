@@ -74,6 +74,9 @@ export function sanitizeHtml(html: string): string {
  * after `en` is a path/query/fragment/quote boundary. Without that the
  * regex would happily double-prefix `/en` into `/en/en`.
  */
+import { getProductBySlug } from './static-products';
+import { getIndexEntry } from '../data/blog-index';
+
 export function localizeInternalLinks(html: string, locale: string): string {
     if (locale === 'ar') return html; // default locale = no prefix
 
@@ -84,5 +87,68 @@ export function localizeInternalLinks(html: string, locale: string): string {
         /href=(["'])\/(?!en[/'"#?]|\/)([^"']*)\1/gi,
         (_match, quote: string, path: string) =>
             `href=${quote}/${locale}/${path}${quote}`,
+    );
+}
+
+/**
+ * Automatically translates English-based anchor texts to Arabic.
+ * Matches internal links to products, categories, and blog articles.
+ */
+export function translateAnchorTexts(html: string, locale: string): string {
+    if (locale !== 'ar') return html;
+
+    return html.replace(
+        /<a\s+([^>]*?)href=(["'])([^"'\s>]+)\2([^>]*)>(.*?)<\/a>/gi,
+        (match, prefix, quote, href, suffix, text) => {
+            const cleanText = text.replace(/<[^>]*>/g, '').trim();
+            
+            // Only translate if the anchor text contains English words/letters
+            const hasEnglish = /[a-zA-Z]{2,}/.test(cleanText);
+            if (!hasEnglish) return match;
+
+            // 1. Product page link: /<brand>/<category>/<product-slug> or /en/<brand>/<category>/<product-slug>
+            const productMatch = href.match(/(?:\/en)?\/([^\/]+)\/([^\/]+)\/([^\/]+)$/);
+            if (productMatch) {
+                const productSlug = productMatch[3];
+                const product = getProductBySlug(productSlug);
+                if (product && product.translations?.ar?.name) {
+                    return `<a ${prefix}href=${quote}${href}${quote}${suffix}>${product.translations.ar.name}</a>`;
+                }
+            }
+
+            // 2. Blog page link: /blog/<slug> or /en/blog/<slug>
+            const blogMatch = href.match(/(?:\/en)?\/blog\/([^\/\?\#]+)/);
+            if (blogMatch) {
+                const blogSlug = blogMatch[1];
+                const entry = getIndexEntry(blogSlug);
+                if (entry && entry.translations?.ar?.title) {
+                    return `<a ${prefix}href=${quote}${href}${quote}${suffix}>${entry.translations.ar.title}</a>`;
+                }
+            }
+
+            // 3. Brand/category list link: /<brand>/<category>
+            const categoryMatch = href.match(/(?:\/en)?\/([^\/]+)\/([^\/]+)$/);
+            if (categoryMatch) {
+                const brand = categoryMatch[1];
+                const categorySlug = categoryMatch[2];
+                if (['anker', 'joyroom', 'soundcore'].includes(brand.toLowerCase())) {
+                    const brandAr = brand.toLowerCase() === 'anker' ? 'أنكر' : brand.toLowerCase() === 'joyroom' ? 'جويروم' : 'ساوند كور';
+                    let catAr = '';
+                    if (categorySlug === 'power-banks') catAr = 'باور بانك';
+                    else if (categorySlug === 'wall-chargers' || categorySlug === 'chargers') catAr = 'شواحن حائط';
+                    else if (categorySlug === 'cables') catAr = 'كابلات';
+                    else if (categorySlug === 'car-chargers') catAr = 'شواحن سيارة';
+                    else if (categorySlug === 'car-holders' || categorySlug === 'car-accessories') catAr = 'إكسسوارات سيارة';
+                    else if (categorySlug === 'earbuds' || categorySlug === 'audio') catAr = 'سماعات';
+                    else if (categorySlug === 'speakers') catAr = 'سبيكرات';
+
+                    if (catAr) {
+                        return `<a ${prefix}href=${quote}${href}${quote}${suffix}>${catAr} ${brandAr}</a>`;
+                    }
+                }
+            }
+
+            return match;
+        }
     );
 }

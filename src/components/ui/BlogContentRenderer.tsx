@@ -1,4 +1,4 @@
-import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
+import { sanitizeHtml, localizeInternalLinks, translateAnchorTexts } from '@/lib/htmlSanitize';
 
 interface BlogContentRendererProps {
     html: string;
@@ -9,8 +9,9 @@ interface BlogContentRendererProps {
 /**
  * BlogContentRenderer — Server-rendered HTML renderer for blog articles.
  *
- * Sanitizes the raw HTML stored in src/data/blog/*.ts (defense-in-depth)
- * and rewrites internal links for the active locale (i18n Quarantine Law).
+ * Sanitizes the raw HTML stored in src/data/blog/*.ts (defense-in-depth),
+ * rewrites internal links for the active locale (i18n Quarantine Law),
+ * and automatically translates English anchor texts to Arabic for Arabic articles.
  *
  * Rendered fully server-side: search engines see the final processed
  * HTML on the first crawl wave, with no client-side fallback or skeleton
@@ -24,7 +25,10 @@ export default function BlogContentRenderer({
     className = '',
     locale = 'ar',
 }: BlogContentRendererProps) {
-    const processed = localizeInternalLinks(sanitizeHtml(html), locale);
+    const processed = translateAnchorTexts(
+        localizeInternalLinks(sanitizeHtml(html), locale),
+        locale
+    );
     return (
         <div
             className={className}

@@ -232,16 +232,66 @@ html {
    Blog typography overrides for custom callout boxes
    ================================================ */
 
-/* 1. If the div has a light background (#f... or #e...) AND NO inline color, force text to be dark slate to maintain contrast against the light background */
-.dark .prose div[style*="background:#f"]:not([style*="color:"]) p,
-.dark .prose div[style*="background:#f"]:not([style*="color:"]) strong,
-.dark .prose div[style*="background:#f"]:not([style*="color:"]) li,
-.dark .prose div[style*="background:#f"]:not([style*="color:"]) a,
-.dark .prose div[style*="background:#e"]:not([style*="color:"]) p,
-.dark .prose div[style*="background:#e"]:not([style*="color:"]) strong,
-.dark .prose div[style*="background:#e"]:not([style*="color:"]) li,
-.dark .prose div[style*="background:#e"]:not([style*="color:"]) a {
-  color: #1e293b;
+/* 1. If any block (div, section, p, etc.) has a light background (starts with #f, #e, #d, #c or linear-gradient) in dark mode, force text color to dark slate to maintain contrast */
+.dark .prose div[style*="background: #f"] p:not([style*="color"]),
+.dark .prose div[style*="background:#f"] p:not([style*="color"]),
+.dark .prose div[style*="background-color: #f"] p:not([style*="color"]),
+.dark .prose div[style*="background-color:#f"] p:not([style*="color"]),
+.dark .prose div[style*="background: #e"] p:not([style*="color"]),
+.dark .prose div[style*="background:#e"] p:not([style*="color"]),
+.dark .prose div[style*="background-color: #e"] p:not([style*="color"]),
+.dark .prose div[style*="background-color:#e"] p:not([style*="color"]),
+.dark .prose div[style*="background: linear-gradient"] p:not([style*="color"]),
+.dark .prose div[style*="background:linear-gradient"] p:not([style*="color"]),
+.dark .prose section[style*="background: linear-gradient"] p:not([style*="color"]),
+.dark .prose section[style*="background:linear-gradient"] p:not([style*="color"]) {
+  color: #0f172a !important;
+}
+
+.dark .prose div[style*="background: #f"] strong:not([style*="color"]),
+.dark .prose div[style*="background:#f"] strong:not([style*="color"]),
+.dark .prose div[style*="background-color: #f"] strong:not([style*="color"]),
+.dark .prose div[style*="background-color:#f"] strong:not([style*="color"]),
+.dark .prose div[style*="background: #e"] strong:not([style*="color"]),
+.dark .prose div[style*="background:#e"] strong:not([style*="color"]),
+.dark .prose div[style*="background-color: #e"] strong:not([style*="color"]),
+.dark .prose div[style*="background-color:#e"] strong:not([style*="color"]),
+.dark .prose div[style*="background: linear-gradient"] strong:not([style*="color"]),
+.dark .prose div[style*="background:linear-gradient"] strong:not([style*="color"]),
+.dark .prose section[style*="background: linear-gradient"] strong:not([style*="color"]),
+.dark .prose section[style*="background:linear-gradient"] strong:not([style*="color"]) {
+  color: #0f172a !important;
+}
+
+.dark .prose div[style*="background: #f"] li:not([style*="color"]),
+.dark .prose div[style*="background:#f"] li:not([style*="color"]),
+.dark .prose div[style*="background-color: #f"] li:not([style*="color"]),
+.dark .prose div[style*="background-color:#f"] li:not([style*="color"]),
+.dark .prose div[style*="background: #e"] li:not([style*="color"]),
+.dark .prose div[style*="background:#e"] li:not([style*="color"]),
+.dark .prose div[style*="background-color: #e"] li:not([style*="color"]),
+.dark .prose div[style*="background-color:#e"] li:not([style*="color"]),
+.dark .prose div[style*="background: linear-gradient"] li:not([style*="color"]),
+.dark .prose div[style*="background:linear-gradient"] li:not([style*="color"]),
+.dark .prose section[style*="background: linear-gradient"] li:not([style*="color"]),
+.dark .prose section[style*="background:linear-gradient"] li:not([style*="color"]) {
+  color: #0f172a !important;
+}
+
+/* Apply directly to the box text if it contains raw text without nested tag */
+.dark .prose div[style*="background: #f"]:not([style*="color"]),
+.dark .prose div[style*="background:#f"]:not([style*="color"]),
+.dark .prose div[style*="background-color: #f"]:not([style*="color"]),
+.dark .prose div[style*="background-color:#f"]:not([style*="color"]),
+.dark .prose div[style*="background: #e"]:not([style*="color"]),
+.dark .prose div[style*="background:#e"]:not([style*="color"]),
+.dark .prose div[style*="background-color: #e"]:not([style*="color"]),
+.dark .prose div[style*="background-color:#e"]:not([style*="color"]),
+.dark .prose div[style*="background: linear-gradient"]:not([style*="color"]),
+.dark .prose div[style*="background:linear-gradient"]:not([style*="color"]),
+.dark .prose section[style*="background: linear-gradient"]:not([style*="color"]),
+.dark .prose section[style*="background:linear-gradient"]:not([style*="color"]) {
+  color: #0f172a !important;
 }
 
 /* 2. If the div HAS an inline color, force children to inherit it (overriding Tailwind's dark prose utilities) */
@@ -269,22 +319,35 @@ html {
    need forced dark text so it doesn't vanish.
    ================================================ */
 
-/* 4a. Table ROWS with light inline backgrounds → force dark text on all children */
-.dark .prose tr[style*="background:#f"] td,
-.dark .prose tr[style*="background:#f"] th,
-.dark .prose tr[style*="background:#f"] td strong,
-.dark .prose tr[style*="background:#f"] th strong,
-.dark .prose tr[style*="background:#e"] td,
-.dark .prose tr[style*="background:#e"] th,
-.dark .prose tr[style*="background:#e"] td strong,
-.dark .prose tr[style*="background:#e"] th strong {
-  color: #1e293b !important;
+/* 4a. Table ROWS with light inline backgrounds → force dark text on all children unless they have inline color */
+.dark .prose tr[style*="background:#f"] td:not([style*="color"]),
+.dark .prose tr[style*="background: #f"] td:not([style*="color"]),
+.dark .prose tr[style*="background-color:#f"] td:not([style*="color"]),
+.dark .prose tr[style*="background-color: #f"] td:not([style*="color"]),
+.dark .prose tr[style*="background:#e"] td:not([style*="color"]),
+.dark .prose tr[style*="background: #e"] td:not([style*="color"]),
+.dark .prose tr[style*="background-color:#e"] td:not([style*="color"]),
+.dark .prose tr[style*="background-color: #e"] td:not([style*="color"]) {
+  color: #0f172a !important;
+}
+
+.dark .prose tr[style*="background:#f"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background: #f"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background-color:#f"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background-color: #f"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background:#e"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background: #e"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background-color:#e"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background-color: #e"] td:not([style*="color"]) strong {
+  color: #0f172a !important;
 }
 
 /* 4b. Table HEADER rows with light backgrounds → force dark text */
 .dark .prose thead tr[style*="background:#f"] th,
-.dark .prose thead tr[style*="background:#e"] th {
-  color: #1e293b !important;
+.dark .prose thead tr[style*="background: #f"] th,
+.dark .prose thead tr[style*="background:#e"] th,
+.dark .prose thead tr[style*="background: #e"] th {
+  color: #0f172a !important;
 }
 
 /* 4c. Individual CELLS with inline color → preserve their inline color (e.g., red speed, green speed) */
@@ -297,29 +360,49 @@ html {
 
 /* 4d. Cells in rows with light backgrounds BUT having their own inline color → the inline color wins (specificity) */
 .dark .prose tr[style*="background:#f"] td[style*="color:"],
+.dark .prose tr[style*="background: #f"] td[style*="color:"],
 .dark .prose tr[style*="background:#e"] td[style*="color:"],
+.dark .prose tr[style*="background: #e"] td[style*="color:"],
 .dark .prose tr[style*="background:#f"] td[style*="color:"] strong,
-.dark .prose tr[style*="background:#e"] td[style*="color:"] strong {
+.dark .prose tr[style*="background: #f"] td[style*="color:"] strong,
+.dark .prose tr[style*="background:#e"] td[style*="color:"] strong,
+.dark .prose tr[style*="background: #e"] td[style*="color:"] strong {
   color: inherit !important;
 }
 
 /* 4e. Rows with amber/yellow backgrounds (#fef...) — extra specificity for EPR-style rows */
-.dark .prose tr[style*="background:#fef"] td,
-.dark .prose tr[style*="background:#fef"] td strong {
+.dark .prose tr[style*="background:#fef"] td:not([style*="color"]),
+.dark .prose tr[style*="background: #fef"] td:not([style*="color"]),
+.dark .prose tr[style*="background:#fef"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background: #fef"] td:not([style*="color"]) strong {
   color: #78350f !important;
 }
 .dark .prose tr[style*="background:#fef"] td[style*="color:"],
-.dark .prose tr[style*="background:#fef"] td[style*="color:"] strong {
+.dark .prose tr[style*="background: #fef"] td[style*="color:"],
+.dark .prose tr[style*="background:#fef"] td[style*="color:"] strong,
+.dark .prose tr[style*="background: #fef"] td[style*="color:"] strong {
   color: inherit !important;
 }
 
-/* 4f. Rows with blue-tinted backgrounds (#eff...) — e.g., Thunderbolt rows */
-.dark .prose tr[style*="background:#eff"] td,
-.dark .prose tr[style*="background:#eff"] td strong {
+/* 4f. Rows with blue-tinted backgrounds (#eff... or #e3...) — e.g., S25 Ultra table row backgrounds */
+.dark .prose tr[style*="background:#eff"] td:not([style*="color"]),
+.dark .prose tr[style*="background: #eff"] td:not([style*="color"]),
+.dark .prose tr[style*="background:#eff"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background: #eff"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background:#e3"] td:not([style*="color"]),
+.dark .prose tr[style*="background: #e3"] td:not([style*="color"]),
+.dark .prose tr[style*="background:#e3"] td:not([style*="color"]) strong,
+.dark .prose tr[style*="background: #e3"] td:not([style*="color"]) strong {
   color: #1e3a5f !important;
 }
 .dark .prose tr[style*="background:#eff"] td[style*="color:"],
-.dark .prose tr[style*="background:#eff"] td[style*="color:"] strong {
+.dark .prose tr[style*="background: #eff"] td[style*="color:"],
+.dark .prose tr[style*="background:#eff"] td[style*="color:"] strong,
+.dark .prose tr[style*="background: #eff"] td[style*="color:"] strong,
+.dark .prose tr[style*="background:#e3"] td[style*="color:"],
+.dark .prose tr[style*="background: #e3"] td[style*="color:"],
+.dark .prose tr[style*="background:#e3"] td[style*="color:"] strong,
+.dark .prose tr[style*="background: #e3"] td[style*="color:"] strong {
   color: inherit !important;
 }
 
