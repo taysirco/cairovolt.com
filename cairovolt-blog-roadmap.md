@@ -285,7 +285,7 @@
 229. ✅ دليل شراء سامسونج فئة A: معايير الاختيار + أهم الإكسسوارات بسعر اقتصادي (~135K) → `samsung-galaxy-a-buying-guide-accessories`
 230. ✅ بطارية ايفون 13 برو ماكس بتخلص بسرعة؟ الحل في إكسسوار (~90K) → `iphone-13-pro-max-battery-drain-power-bank`
 231. ✅ قبل ما تشتري ايفون 15 برو ماكس: معايير + الإكسسوارات اللي محتاجها مع USB-C (~82K) → `iphone-15-pro-max-accessories-buying-guide`
-232. ⬜ ليه ايفون 16 برو ماكس بيشحن ببطء؟ والإكسسوارات الصح (~64K) → `iphone-16-pro-max-slow-charging-accessories`
+232. ✅ ليه ايفون 16 برو ماكس بيشحن ببطء؟ والإكسسوارات الصح (~64K) → `iphone-16-pro-max-slow-charging-accessories`
 233. ⬜ دليل شراء موبايل سامسونج: ازاي تختار حسب احتياجك + الإكسسوارات (~61K) → `buy-samsung-phone-egypt-guide-accessories`
 234. ⬜ ايفون 14 برو ماكس: أفضل بديل AirPods وشاحن بنص السعر (~56K) → `iphone-14-pro-max-airpods-alternative-charger`
 235. ⬜ اشتريت ايفون 17 برو ماكس؟ الإكسسوارات اللي لازم معاه من أول يوم (~55K) → `iphone-17-pro-max-essential-accessories-day-one`
