@@ -282,7 +282,7 @@
 > 🔑 **قبل كتابة أي مقال جسر:** `npm run kw:blog -- --slug={slug}` يسحب كل كلمات عنقود الموديل بسطرين منفصلين AR/EN (مثال: سامسونج A = 111 كلمة). **بنك العناوين الثنائي (EN+AR لكل مقال): `keyword-research/title-bank-bilingual.md`** · خريطة التغطية: `keyword-research/coverage-map.csv`.
 > 🌐 **العنوان الإنجليزي = `en.metaTitle`** يستهدف الكلمة الإنجليزية أصيلاً، **والعربي = `ar.metaTitle`** يستهدف العربية — كلاهما في نفس المقال (تكافؤ + عزل لغة).
 
-229. ⬜ دليل شراء سامسونج فئة A: معايير الاختيار + أهم الإكسسوارات بسعر اقتصادي (~135K) → `samsung-galaxy-a-buying-guide-accessories`
+229. ✅ دليل شراء سامسونج فئة A: معايير الاختيار + أهم الإكسسوارات بسعر اقتصادي (~135K) → `samsung-galaxy-a-buying-guide-accessories`
 230. ⬜ بطارية ايفون 13 برو ماكس بتخلص بسرعة؟ الحل في إكسسوار (~90K) → `iphone-13-pro-max-battery-drain-power-bank`
 231. ⬜ قبل ما تشتري ايفون 15 برو ماكس: معايير + الإكسسوارات اللي محتاجها مع USB-C (~82K) → `iphone-15-pro-max-accessories-buying-guide`
 232. ⬜ ليه ايفون 16 برو ماكس بيشحن ببطء؟ والإكسسوارات الصح (~64K) → `iphone-16-pro-max-slow-charging-accessories`
