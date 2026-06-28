@@ -11,7 +11,8 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
         'anker-powercore-10000',
         'anker-zolo-a1681-20000',
         'joyroom-power-bank-10000',
-        'anker-a2313-car-charger',
+        'joyroom-power-bank-20000',
+        'anker-car-charger-dual-usb'
     ],
     relatedArticles: [
         'why-power-bank-dies-after-6-months-mistakes',
@@ -255,7 +256,7 @@ export const electric_scooter_charger_battery_safety_charging_rules: BlogArticle
         en: {
             title: 'Electric Scooter Battery Swelling? Safe Charging Rules to Protect Your Battery from Damage',
             metaTitle: 'Electric Scooter Battery Swelling? Safe Charging Guide | CairoVolt',
-            metaDescription: 'Why does your electric scooter battery swell in Egypt\'s heat? Learn the 6 safe charging rules, warning signs of a swollen battery, and what to do if it swells — fire risk explained.',
+            metaDescription: 'Learn why electric scooter batteries swell in Egypt\'s summer heat. Read our 6 safe charging rules and warning signs to prevent fires and extend battery life.',
             keywords: 'electric scooter battery swelling, scooter battery safety Egypt, safe scooter charging rules, lithium battery swollen scooter, scooter charger Egypt, scooter battery fire risk, electric scooter Egypt summer, scooter charging tips',
             excerpt: 'Electric scooter batteries are heat-sensitive — and Egyptian summers double the stress. Learn how to charge safely, what danger signs to watch for, and what to do if the battery swells before it becomes a fire hazard.',
             quickAnswer: 'Scooter batteries swell when charged while hot or overcharged past 4.2V per cell. In Egypt, charge your scooter before 10am or after sunset, never leave it charging overnight unattended, and unplug at 100%. If the battery swells, stop use immediately — this is a real fire risk.',

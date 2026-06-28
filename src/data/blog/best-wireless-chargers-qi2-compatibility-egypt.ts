@@ -28,8 +28,8 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
     translations: {
         ar: {
             title: 'أفضل شاحن لاسلكي Qi2 في مصر — دليل اختيار الشاحن والأجهزة المتوافقة',
-            metaTitle: 'Qi2 اللاسلكي في مصر 2026 — ما هو وكيف تختار والأجهزة المتوافقة | كايرو فولت',
-            metaDescription: 'دليل شامل عن Qi2 في مصر: إيه الفرق بين Qi2 وMagSafe والـ Qi القديم، إيه الأجهزة المتوافقة (iPhone 12+، Samsung S24+)، وليه تحتاج شاحن حائط USB-C 20-30W معاه.',
+            metaTitle: 'دليل شواحن Qi2 اللاسلكية في مصر — الأجهزة المتوافقة وكيفية الاختيار | كايرو فولت',
+            metaDescription: 'دليل شامل عن تقنية شحن Qi2 اللاسلكية في مصر. الفرق بين Qi2 والـ MagSafe والـ Qi القديم، والأجهزة المتوافقة وكيفية اختيار شاحن حائط USB-C مناسب لها بالتفصيل.',
             keywords: 'qi2 مصر, شاحن لاسلكي qi2 مصر, الفرق qi2 magsafe, qi2 iphone مصر, شحن لاسلكي 15w مصر, qi2 samsung مصر, qi2 متوافق مع مين, شاحن لاسلكي سريع مصر 2026, qi2 vs qi مصر, شاحن ايفون لاسلكي مصر',
             excerpt: 'Qi2 هو مستقبل الشحن اللاسلكي — بس كتير من المصريين مش عارفين إيه اللي بيتغير ومين المستفيد الحقيقي. دليل كامل بالأرقام والأجهزة المتوافقة.',
             quickAnswer: 'Qi2 هو معيار الشحن اللاسلكي الجديد: 15W ضمانة (بدل 5-7.5W في Qi القديم) + مغناطيس للمحاذاة الصحيحة. iPhone 12 وأحدث يستفيد أكتر. Samsung S24+ وPixel 8+ بيدعموه. بس الشاحن اللاسلكي Qi2 نفسه محتاج شاحن حائط USB-C بقوة 20-30W منفصل عشان يشتغل بكفاءة.',
@@ -262,6 +262,14 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
     <li><strong>الإجمالي للانطلاق:</strong> 650-1150 جنيه</li>
 </ul>
 
+<h2>آلية عمل Qi2 على مستوى العتاد والترددات الكهرومغناطيسية</h2>
+<p>من الناحية الهندسية والفيزيائية، يختلف معيار Qi2 كلياً عن بروتوكولات الشحن اللاسلكي السابقة. يعمل معيار Qi2 على تردد تشغيل يبلغ 360 كيلوهرتز (360 kHz)، مقارنة بالنطاق الترددي العشوائي لشواحن Qi القديمة التي تتراوح بين 110 إلى 205 كيلوهرتز. يتيح هذا التردد المرتفع إرسال طاقة بكثافة أعلى عبر ملفات نحاسية أصغر حجماً وبأقل قدر من الانبعاثات الكهرومغناطيسية المشتتة.</p>
+<p>كما تم اعتماد بروتوكول رسمي موحد يسمى MPP (Magnetic Power Profile) أو ملف الطاقة المغناطيسي. يتولى هذا البروتوكول عملية مصافحة رقمية مشفرة (Cryptographic Handshake) بين رقاقة الشاحن ورقاقة الهاتف للتأكد من هوية الشاحن وجودته قبل السماح بضخ طاقة الـ 15 واط الكاملة. إذا لم يتعرف الهاتف على بروتوكول MPP، فسيقوم تلقائياً بخفض سرعة الشحن لـ 5 واط لحماية مكوناته الداخلية.</p>
+
+<h2>أهمية الجرابات المغناطيسية لهواتف الأندرويد</h2>
+<p>على الرغم من أن هواتف أندرويد الرائدة (مثل Samsung Galaxy S24 Ultra أو Google Pixel 8 Pro) لا تحتوي بداخلها على حلقات مغناطيسية مدمجة بالهيكل مثل الآيفون، إلا أنه يمكنها الاستفادة التامة من شواحن Qi2 اللاسلكية. الحل يكمن في استخدام جراب حماية مغناطيسي متوافق مع MagSafe/Qi2.</p>
+<p>يحتوي هذا الجراب على حلقة مغناطيسية مصنوعة من مغناطيسات النيوديميوم القوية الموجهة، والتي تقوم بمحاذاة ملف الهاتف الداخلي مع ملف شاحن Qi2 بدقة متناهية. تضمن هذه المحاذاة الفيزيائية عدم تشتت الطاقة وتقلل من السخونة الناتجة عن التيارات الدوامية، مما يمنح هواتف أندرويد شحناً لاسلكياً مستقراً تماماً كهواتف الآيفون.</p>
+
 <p>مقارنةً بكابل USB-C جيد (100-200 جنيه) — اللاسلكي أغلى بكتير. السؤال المنطقي: هل الراحة تستحق؟ للناس اللي بتحس بضيق من تشبيك وفك الكابل كل يوم — أيوه. للناس اللي بتشحن مرة في الليل وخلاص — الكابل أبسط وأرخص وأسرع.</p>
 
 <h2>لسه مش متوفر Qi2 pads في مصر بشكل كبير — إيه الحل؟</h2>
@@ -290,8 +298,8 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
         },
         en: {
             title: 'Best Qi2 Wireless Charger in Egypt — Guide to Choosing Compatible Charger and Devices',
-            metaTitle: 'Qi2 Wireless Charging in Egypt 2026 — What It Is, Compatible Devices & What You Need | CairoVolt',
-            metaDescription: 'Complete guide to Qi2 wireless charging in Egypt: how it differs from MagSafe and old Qi, which devices are compatible (iPhone 12+, Samsung S24+, Pixel 8+), and why you need a USB-C wall adapter with it.',
+            metaTitle: 'Qi2 Wireless Charging in Egypt — What It Is, Compatible Devices & What You Need | CairoVolt',
+            metaDescription: 'Complete guide to Qi2 wireless charging in Egypt: how it differs from MagSafe and old Qi, which devices are compatible, and how to choose a USB-C wall adapter.',
             keywords: 'qi2 egypt, qi2 wireless charger egypt, qi2 vs magsafe, qi2 iphone egypt, wireless charging 15w egypt, qi2 samsung egypt, qi2 compatible devices, fast wireless charger egypt 2026, qi2 vs qi, iphone wireless charger egypt',
             excerpt: 'Qi2 is the future of wireless charging — but many Egyptian buyers are unsure what actually changed, who benefits, and what they need to buy. A complete guide with specs, compatible devices, and real-world advice.',
             quickAnswer: 'Qi2 is the new wireless charging standard: guaranteed 15W (vs 5-7.5W from old Qi) plus magnets for proper alignment. iPhone 12 and newer benefit most. Samsung S24+ and Pixel 8+ support it on the Android side. The Qi2 wireless pad itself needs a separate USB-C wall adapter at 20-30W to deliver full speed. Budget Android devices mostly do not support Qi2 — they are still on old Qi. Wired charging is still faster for emergency top-ups.',

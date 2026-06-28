@@ -10,7 +10,9 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
         'anker-soundcore-r50i',
         'anker-soundcore-r50i-nc',
         'soundcore-p20i-earbuds',
-        'soundcore-v20i-earbuds'
+        'soundcore-v20i-earbuds',
+        'soundcore-p25i-earbuds',
+        'soundcore-liberty-buds'
     ],
     relatedArticles: [
         'soundcore-r50i-wireless-earbuds-complete-review',
@@ -26,486 +28,285 @@ export const soundcore_r100_specs_problems_solutions: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'Soundcore R100 — مشكلة ضعف الصوت المفاجئ وحلول الإيربودز الأكثر شيوعاً',
-            metaTitle: 'Soundcore R100 مشاكل وحلول — ضعف الصوت والاتصال والشحن | كايرو فولت',
-            metaDescription: 'أشيع مشاكل Soundcore R100 بالخطوات التفصيلية: ضعف الصوت المفاجئ، جانب واحد بيشتغل، انقطاع الاتصال، الكيس مش بيشحن. اعرف امتى تصلح وامتى تستبدل — كل ده هنا.',
+            title: 'Soundcore R100 — مشكلة ضعف الصوت المفاجئ والحلول النهائية للسماعة الاقتصادية',
+            metaTitle: 'حل مشاكل سماعة Soundcore R100 وضعف الصوت والشحن | كايرو فولت',
+            metaDescription: 'حلول مشاكل سماعة Soundcore R100 الشائعة بالخطوات الفنية: ضعف الصوت المفاجئ، جانب واحد لا يعمل، مشاكل البلوتوث والشحن، وتوضيح حقيقة عدم دعم التطبيق.',
             keywords: 'soundcore r100 مشاكل, soundcore r100 ضعف صوت, soundcore r100 factory reset, soundcore r100 جانب واحد شغال, soundcore r100 الكيس مش بيشحن, soundcore r100 انقطاع بلوتوث, حل مشاكل soundcore r100, soundcore r100 مواصفات مصر, soundcore r100 reset بالعربي',
-            excerpt: 'Soundcore R100 سماعة اقتصادية بمواصفات كويسة — لكن زي أي إيربودز ممكن تقابل مشاكل. هنا بالخطوات خطوة بخطوة: ضعف الصوت المفاجئ، جانب واحد بيشتغل، انقطاع البلوتوث، وكيس الشحن. وأهم سؤال: امتى تصلح وامتى تستبدل؟',
-            quickAnswer: 'أشيع مشكلة في Soundcore R100 هي ضعف الصوت المفاجئ — السبب الأول هو إعداد EQ اتغير أو Volume Limit على الموبايل. الحل: ريست الـ EQ في تطبيق Soundcore وتحقق من إعدادات Volume في موبايلك. لو جانب واحد بس شغال، عمل Factory Reset بيحل المشكلة في 80% من الحالات.',
-            content: `<p>Soundcore R100 واحدة من أكثر الإيربودز الاقتصادية مبيعاً في مصر — بلوتوث 5.3، بطارية 10 ساعات في السماعة و40 في الكيس، وشحن USB-C. سعرها المناسب بيخليها اختيار شائع، لكن ده معناه كمان إن أسئلة حل المشاكل بتيجي بكتافة. الدليل ده بيجيب أشيع 5 مشاكل بخطوات تفصيلية — مش بس "اعمل ريست" من غير شرح.</p>
+            excerpt: 'تعد سماعة Soundcore R100 خياراً اقتصادياً شهيراً في مصر. نوضح في هذا الدليل حلول المشاكل الشائعة مثل ضعف الصوت المفاجئ، عمل ريست، وكيفية تنظيف شبكة الصوت.',
+            quickAnswer: 'لا تدعم سماعة Soundcore R100 تطبيق الهاتف الرسمي. لحل مشكلة ضعف الصوت المفاجئ، اضغط مطولاً على السماعتين معاً لمدة ثانيتين لتغيير وضع الإيكوالايزر الداخلي، أو قم بتنظيف شبكة الصوت المعدنية بفرشاة جافة. إذا كان هناك جانب واحد لا يعمل، ضع السماعات بالعلبة واضغط الزر لمدة 10 ثوانٍ لعمل Factory Reset.',
+            content: `<p>حققت سماعة Soundcore R100 مبيعات واسعة جداً في السوق المصري بفضل سعرها الاقتصادي ومواصفاتها الممتازة من أنكر؛ حيث تقدم بلوتوث 5.3 وبطارية ممتازة بسعر يتراوح بين 800 إلى 1,300 جنيه مصري. ومع هذا الانتشار الكبير، يواجه المستخدمون بعض المشاكل الفنية الشائعة مثل ضعف الصوت المفاجئ في إحدى الجهات، أو توقف جهة واحدة عن العمل، أو عدم استجابة العلبة للشحن. في هذا الدليل الفني من كايرو فولت، سنشرح لك بالخطوات الدقيقة كيفية حل كافة مشاكل سماعة R100، سنوضح الحقيقة حول عدم دعم التطبيق لتفادي الارتباك.</p>
 
-<h2>مواصفات Soundcore R100 — المرجع السريع</h2>
+<div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
+    <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
+        <strong>حقيقة هامة جداً:</strong> سماعة <strong>Soundcore R100 لا تدعم تطبيق الموبايل الرسمي مطلقاً</strong>. جميع الإعدادات وحلول المشاكل تتم يدوياً من خلال أزرار اللمس المدمجة وجسم السماعة، والاعتماد على خيارات النظام في هاتفك الذكي.
+    </p>
+</div>
+
+<h2>مواصفات Soundcore R100 — المرجع الفني السريع</h2>
+<p>قبل الخوض في تفاصيل حل المشاكل، دعنا نلقي نظرة سريعة على المواصفات الرسمية للسماعة:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القيمة</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">المواصفة التقنية</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">القيمة الرسمية</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البلوتوث</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">5.3</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">إصدار البلوتوث</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Bluetooth 5.3</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية السماعة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">10 ساعات</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">محرك الصوت (Driver)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">9.2 مم ديناميكي</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">بطارية الكيس</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">40 ساعة إضافية (50 ساعة إجمالي)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية (السماعة منفردة)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">حتى 10 ساعات متواصلة</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">شحن الكيس</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">USB-C</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">البطارية الإجمالية (مع العلبة)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">تصل إلى 50 ساعة إجمالية</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">مقاومة مياه</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">IPX5</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">تطبيق المحمول</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;font-weight:bold;">❌ غير مدعوم</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">درايفر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9.2 مم</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">الكودك</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">SBC / AAC</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">التطبيق</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Soundcore (iOS و Android)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">مقاومة الماء والغبار</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">IPX5 (مقاومة للتعرق والرش المباشر)</td>
         </tr>
     </tbody>
 </table>
 
-<h2>المشكلة #1 — ضعف الصوت المفاجئ</h2>
-
-<p>دي المشكلة رقم واحد اللي بتوصلنا عنها استفسارات. الصوت بيبقى كويس وفجأة يبدأ يتأثر أو يبقى أقل من المتوقع — أو السماعة تشتغل بصوت منخفض حتى لو الـ volume على الأعلى.</p>
-
-<p><strong>الأسباب الأكثر شيوعاً:</strong></p>
-
-<div class="callout-warning" style="background:#fffbeb;border-right:4px solid #d97706;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#92400e;">
-        <strong>السبب الأول (الأشيع):</strong> إعدادات EQ اتغيرت في تطبيق Soundcore وبعض الترددات اتخفض أو اتفضت بشكل مش متوازن — حتى لو متعمدش تغيير أي حاجة.
-    </p>
-</div>
-
-<p><strong>الحل خطوة بخطوة:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li>افتح تطبيق <strong>Soundcore</strong> على موبايلك وتأكد إن R100 متصلة</li>
-    <li>اضغط على <strong>EQ</strong> من الشاشة الرئيسية للسماعة</li>
-    <li>اضغط على <strong>Custom</strong> أو الإيكوالايزر الحالي</li>
-    <li>اختار <strong>Flat</strong> أو <strong>ريست الإعدادات الافتراضية</strong> (زرار Reset أو Default في أسفل الشاشة)</li>
-    <li>استمع للصوت — في الغالب هيرجع لمستواه الطبيعي فوراً</li>
-</ol>
-
-<p><strong>لو المشكلة اتستمرت — تحقق من Volume Limit على الموبايل:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li><strong>أندرويد (Samsung/Xiaomi):</strong> الإعدادات ← الأصوات ← صوت الميديا ← دور على "حماية السمع" أو "Volume Limit" واضبطه على Off</li>
-    <li><strong>iPhone:</strong> الإعدادات ← الموسيقى ← الحد الأقصى للصوت ← تأكد مش محدود</li>
-</ol>
-
-<div class="callout-info" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#1e40af;">
-        <strong>ملاحظة:</strong> تطبيق Soundcore بيحفظ إعدادات EQ في السماعة مش في الموبايل. لو استخدمت السماعة مع موبايل تاني وحد غيّر الـ EQ من غير ما تعرف، هيتأثر الصوت على كل الأجهزة. ريست الـ EQ لـ Flat هو أول خطوة دايماً.
-    </p>
-</div>
-
-<h2>المشكلة #2 — جانب واحد بس بيشتغل</h2>
-
-<p>فجأة بتحط السماعة في أذنك وحاسس إن صوت بييجي من جهة واحدة — أو الجانب التاني مش بيشتغل خالص. دي تانية أكثر مشكلة شيوعاً في R100.</p>
-
-<p><strong>الحل: Factory Reset</strong></p>
-
-<div class="callout-warning" style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>تحذير:</strong> الـ Factory Reset هيحذف السماعة من كل الأجهزة المتصلة بيها. هتحتاج تعمل pair من أول.
-    </p>
-</div>
-
-<ol style="line-height:2.2;">
-    <li>حط الإيربودين جوه الكيس وسيّب الكيس مفتوح</li>
-    <li>اضغط على زرار الكيس (الزرار الصغير في جنب أو في الخلف حسب الإصدار) وسيّبه <strong>5 ثوان</strong> لحد ما تشوف LED بيوميض بالأبيض 3 مرات</li>
-    <li>أقفل الكيس وافتحه تاني</li>
-    <li>على موبايلك، امسح Soundcore R100 من قايمة Bluetooth</li>
-    <li>اعمل Pair من أول من تطبيق Soundcore أو من إعدادات البلوتوث</li>
-    <li>اختبر الجانبين</li>
-</ol>
-
-<p>الـ Factory Reset بيحل المشكلة دي في حوالي 80% من الحالات. لو اتحلت وبعد كام يوم رجعت — ده بيدل على عطل هاردوير في الدرايفر أو الاتصال الداخلي.</p>
-
-<h2>المشكلة #3 — انقطاع الاتصال أو تقطيع الصوت</h2>
-
-<p>الصوت بيتقطع أو البلوتوث بيتقطع وبيرجع — خصوصاً لما تتحرك.</p>
-
-<p><strong>الأسباب الأشيع:</strong></p>
-<ul style="line-height:2;">
-    <li>Cache البلوتوث في الموبايل بقى تقيل أو فيه بيانات تالفة</li>
-    <li>تداخل واي فاي على نفس التردد (2.4GHz)</li>
-    <li>بعد كبير عن الموبايل أو حاجة بتعيق الإشارة (جسم، جدار)</li>
+<h2>مقارنة تفصيلية: Soundcore R100 ضد Soundcore R50i — أيهما أفضل لك؟</h2>
+<p>يفاضل الكثير من المشترين في السوق المصري بين الموديل R100 والموديل R50i لتقارب أسعارهما. إليك الفروق الجوهرية لمساعدتك في اتخاذ القرار:</p>
+<ul>
+    <li><strong>دعم تطبيق المحمول:</strong> تتفوق سماعة R50i بوضوح هنا؛ حيث تدعم تطبيق Soundcore بالكامل لتعديل الـ EQ والتخصيص وتحديث السوفتوير، بينما تفتقر R100 تماماً لدعم التطبيق وتعتمد على التحكم اليدوي.</li>
+    <li><strong>حجم محرك الصوت (Driver):</strong> تأتي R50i بمحرك 10 مم يعطي صوت باص أكثر قوة وعمقاً، بينما تأتي R100 بمحرك 9.2 مم يقدم صوتاً متوازناً وناعماً.</li>
+    <li><strong>التصميم والثبات:</strong> تتميز R100 بساق (Stem) أطول قليلاً بلمسات لامعة، وتستقر بثبات ممتاز في الأذن بفضل زاوية التصميم المريحة، بينما تأتي R50i بتصميم كبسولة أصغر وساق أقصر يفضلها البعض للشكل الخارجي.</li>
 </ul>
 
-<p><strong>الحل لأندرويد — مسح Cache البلوتوث:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li>الإعدادات ← التطبيقات (Apps)</li>
-    <li>اضغط على النقاط الثلاثة أو "الكل" عشان تشوف التطبيقات المخفية</li>
-    <li>ابحث عن <strong>Bluetooth</strong> أو <strong>com.android.bluetooth</strong></li>
-    <li>اضغط على <strong>التخزين</strong> (Storage)</li>
-    <li>اضغط على <strong>مسح Cache</strong> (Clear Cache) — مش Clear Data</li>
-    <li>أعد تشغيل الموبايل</li>
-    <li>اعمل pair للسماعة من أول</li>
+<h2>المشكلة #1: ضعف الصوت المفاجئ في إحدى السماعتين أو كلتيهما</h2>
+<p>تعد مشكلة ضعف الصوت المفاجئ الشكوى الأكثر تكراراً بين مستخدمي R100 في مصر. ويعزى ذلك إلى ثلاثة أسباب رئيسية:</p>
+<ol>
+    <li><strong>تغير وضع الإيكوالايزر الداخلي بالخطأ:</strong> تحتوي السماعة على ثلاثة أوضاع مسبقة الضبط مدمجة بالكامل في شريحة المعالجة الداخلية (Soundcore Signature, Bass Booster, Podcast). للتبديل بينها بدون تطبيق، يجب الضغط مطولاً على لوحة اللمس في السماعتين اليمنى واليسرى معاً لمدة ثانيتين. قد يقوم المستخدم بتفعيل وضع "Podcast" دون قصد، مما يقلل بشكل حاد من ترددات الباص ويجعل الصوت العام يبدو خافتاً وضعيفاً. الحل هو إعادة الضغط لمدة ثانيتين للرجوع إلى وضع Signature الافتراضي.</li>
+    <li><strong>انسداد شبكة الصوت المعدنية (Wax Blockage):</strong> مع ارتفاع درجات الحرارة والرطوبة في مصر، تتراكم الأتربة وشمع الأذن على الفوهة المعدنية الدقيقة للسماعة. هذا الانسداد، حتى لو كان طفيفاً، يمنع خروج الموجات الصوتية ويخفض الصوت الفعلي بنسبة تصل إلى 80%. الحل الفعال هو إزالة الطرف المطاطي واستخدام فرشاة أسنان جافة وناعمة جداً لتنظيف الشبكة بلطف، مع إمكانية استخدام مسحة قطنية مغموسة بقطرة واحدة من الكحول الطبي بتركيز 70% للتعقيم وإذابة الشمع دون السماح للسائل بالدخول للمكونات الداخلية.</li>
+    <li><strong>مشكلة عدم مزامنة الصوت المطلق (Absolute Volume) على هواتف أندرويد:</strong> في بعض الأحيان، يفصل نظام أندرويد تحكم مستوى الصوت بالهاتف عن مستوى الصوت الداخلي للسماعة. لحل هذا الأمر، قم بتفعيل خيارات المطور (Developer Options) في إعدادات هاتفك، ثم ابحث عن خيار "تعطيل مستوى الصوت المطلق" (Disable Absolute Volume) وقم بتفعيله، ثم أعد تشغيل الهاتف لتتمكن من رفع صوت السماعة لأقصى قدرة مادية لها.</li>
 </ol>
 
-<div class="callout-info" style="background:#f0fdf4;border-right:4px solid #16a34a;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#14532d;">
-        <strong>على iPhone:</strong> مسح Cache البلوتوث مش ممكن بدون ريستارت الجهاز. اضغط Side Button + Volume Down وسيّب لحد الـ Power Off، أعد التشغيل وجرب تاني.
-    </p>
-</div>
-
-<p><strong>حلول إضافية للتقطيع:</strong></p>
-<ul style="line-height:2;">
-    <li>حاول تعطيل الواي فاي مؤقتاً لو السماعة قريبة من الراوتر — ممكن تداخل تردد</li>
-    <li>احتفظ بالموبايل في جيب مواجه للسماعة مش في الجيب الخلفي</li>
-    <li>تأكد إن firmware السماعة محدث من تطبيق Soundcore (الإعدادات ← About ← Check for updates)</li>
+<h2>كيفية تحسين جودة المكالمات وصوت الميكروفون في R100</h2>
+<p>تضم سماعة R100 ميكروفونين مع خوارزمية لعزل الضوضاء المحيطة. لتحقيق أفضل نقاء في المكالمات داخل مصر، ننصح بالتالي:</p>
+<ul>
+    <li><strong>توجيه ساق السماعة:</strong> تأكد من ارتداء السماعة بالزاوية الصحيحة بحيث يتجه الساق لأسفل نحو فمك لضمان التقاط الميكروفون لصوتك بفاعلية.</li>
+    <li><strong>تفعيل ميزات شبكة الهاتف:</strong> تأكد من تشغيل ميزة VoLTE (صوت عالي الدقة عبر شبكة الجيل الرابع) في إعدادات شريحة الاتصال بهاتفك لتقليل التشويش والضغط الرقمي على الصوت.</li>
+    <li><strong>التعامل مع الرياح والضوضاء الخارجية:</strong> تقوم خوارزمية الذكاء الاصطناعي بكتم ضوضاء الشارع بشكل مقبول، ولكنها قد تكتم نبرة صوتك إذا كان هناك تيار هواء مباشر قوي (مثل ركوب وسيلة مواصلات مفتوحة)، لذا يفضل حماية السماعة بيديك أثناء التحدث في الهواء الطلق.</li>
 </ul>
 
-<h2>المشكلة #4 — كيس الشحن مش بيشحن الإيربودز</h2>
+<p><strong>استخدام سماعة واحدة للمكالمات (Mono Mode):</strong> تدعم سماعة R100 استخدام فردة واحدة بشكل مستقل تماماً لإجراء المكالمات. عند قيامك بذلك، تقوم شريحة المعالجة بتحويل الصوت بالكامل إلى قناة مونو مدمجة، كما تركز خوارزمية إلغاء الضوضاء كل طاقتها على الميكروفونات الموجودة في الفردة النشطة فقط. هذا الوضع يعتبر ممتازاً لتوفير طاقة البطارية أو أثناء القيادة لضمان الحفاظ على انتباهك للطريق المحيط بك.</p>
 
-<p>تحط الإيربودز في الكيس وتلاقي LED ما اشتعلش أو ما فيش إشارة على إن في شحن بيحصل.</p>
-
-<p><strong>الخطوات بالترتيب:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li><strong>نضّف الاتصالات:</strong> استخدم قطعة قماش ناشفة وامسح الـ contacts الذهبية في الإيربودز وداخل الكيس بلطف. دهون الجلد والتراب بتمنع الاتصال الكهربائي.</li>
-    <li><strong>تأكد إن الإيربودين واقعين صح:</strong> في الكيس لازم يستقروا في مكانهم بالضغط خفيف — لو واحد منهم مش ماشي صح في الحفرة مش هيشحن.</li>
-    <li><strong>جرب كابل USB-C تاني:</strong> كابل الشحن اللي جاي مع R100 أو معاك ممكن يكون فيه مشكلة. جرب كابل تاني وتأكد إنه متصل صح في الكيس.</li>
-    <li><strong>جرب شاحن تاني:</strong> بعض الشواحن ذات التيار المنخفض (0.5A) ممكن متشحنش كويس — جرب شاحن بـ 1A أو أعلى.</li>
-    <li><strong>راقب LED الكيس:</strong> LED الكيس المضيء بالأحمر = الكيس بيتشحن. لو ما فيش أي ضوء خالص = مشكلة في الكابل أو فتحة USB-C أو بطارية الكيس.</li>
+<h2>المشكلة #2: سماعة واحدة فقط تعمل والأخرى متوقفة بالكامل</h2>
+<p>إذا كنت تواجه مشكلة توقف إحدى الجهتين عن إخراج الصوت أو عدم اقترانها بالجهة الأخرى، يمكنك حل هذه المشكلة البرمجية عبر إجراء عملية إعادة ضبط المصنع (Factory Reset) بالخطوات الدقيقة التالية:</p>
+<ol>
+    <li>قم بإلغاء اقتران السماعة تماماً (Forget/Delete) من قائمة البلوتوث في هاتفك الذكي أو أي جهاز آخر متصل بها.</li>
+    <li>ضع قطعتي السماعة داخل علبة الشحن وتأكد من استقرارهما على موصلات الشحن الذهبية، واترك غطاء العلبة مفتوحاً بالكامل.</li>
+    <li>اضغط مع الاستمرار على الزر الموجود في علبة الشحن لمدة 10 ثوانٍ متواصلة دون رفع إصبعك.</li>
+    <li>راقب مؤشرات LED الخاصة بالسماعات؛ حيث ستومض باللون الأحمر ثلاث مرات لتأكيد نجاح عملية إعادة ضبط المصنع ومسح الذاكرة الداخلية.</li>
+    <li>أغلق غطاء علبة الشحن لمدة 5 ثوانٍ، ثم افتحه مرة أخرى وقم بعمل اقتران جديد من البلوتوث. ستلاحظ عمل الجهتين معاً بشكل متزامن.</li>
 </ol>
 
-<div class="callout-warning" style="background:#fffbeb;border-right:4px solid #d97706;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#92400e;">
-        <strong>تحذير:</strong> لا تستخدم ألكوهول أو مناديل مبللة لتنظيف الـ contacts. الرطوبة ممكن تتراكم وتسبب أكسدة. قماش ناشف فقط أو فرشة ناعمة.
-    </p>
-</div>
-
-<h2>المشكلة #5 — امتى تصلّح وامتى تستبدل؟</h2>
-
-<p>مش كل مشكلة في الإيربودز تستحق إنك تصلحها — وفي بعض الأحيان ما فيش حل برمجي كافي والعطل هاردوير.</p>
-
-<h3>مخطط القرار — اتبع الخطوات بالترتيب</h3>
-
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:20px;margin:24px 0;font-size:14px;line-height:2;">
-    <p style="margin:0 0 8px;font-weight:bold;font-size:15px;">المشكلة موجودة → اعمل Factory Reset → هل اتحلت؟</p>
-    <p style="margin:0 0 4px;padding-right:24px;">↳ <strong>نعم:</strong> تابع الاستخدام. لو رجعت في أسبوعين، المشكلة هاردوير — اقرأ تاني</p>
-    <p style="margin:0 0 8px;padding-right:24px;">↳ <strong>لا:</strong> تابع القراءة</p>
-    <hr style="border:none;border-top:1px solid #e2e8f0;margin:12px 0;" />
-    <p style="margin:0 0 8px;font-weight:bold;">علامات البطارية المتلفة (وقت الاستبدال):</p>
-    <ul style="margin:0 0 8px;padding-right:20px;">
-        <li>LED الإيربود بيبقى أحمر ثابت باستمرار حتى بعد شحن كامل = بطارية تالفة</li>
-        <li>عمر البطارية وصل لأقل من 3-4 ساعات مقارنةً بـ 10 الأصلية</li>
-        <li>السماعة بتسخن بشكل غير طبيعي أثناء الشحن</li>
-    </ul>
-    <p style="margin:0 0 8px;font-weight:bold;">علامات عطل هاردوير (صعب الإصلاح):</p>
-    <ul style="margin:0;padding-right:20px;">
-        <li>جانب واحد بيشتغل بعد Factory Reset وبعد أسبوع رجع نفس المشكلة</li>
-        <li>صوت تشويش أو طنين ثابت من جانب واحد حتى بدون موسيقى</li>
-        <li>الإيربود مش بيستجابش خالص للـ touch controls</li>
-    </ul>
-</div>
-
-<div class="callout-info" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#1e40af;">
-        <strong>الضمان:</strong> لو اشتريت R100 من كايرو فولت (موزع معتمد Anker)، الضمان ساري لمدة سنة. تواصل معنا قبل ما تقرر تشتري بديل — ممكن المشكلة تتغطى بالضمان.
-    </p>
-</div>
-
-<h2>نصائح وقاية — خلّي R100 تعيش أطول</h2>
-
-<ul style="line-height:2.2;">
-    <li><strong>ما تتركش الإيربودز في الكيس وهو فاضي:</strong> الشحن على 0% لفترة طويلة بيتلف بطارية الليثيوم. لو مش هتستخدمها أسبوعين، سيّبها على 50%</li>
-    <li><strong>نظف الـ ear tips بانتظام:</strong> الشمع بيتراكم ويأثر على جودة الصوت وممكن يسدّ الفتحة</li>
-    <li><strong>IPX5 ≠ مقاومة مياه كاملة:</strong> R100 بتتحمل عرق وشتا خفيف — ما تغطسهاش في مياه وما تشحنهاش وهي مبللة</li>
-    <li><strong>ما تشحنش فوق 100% لفترات طويلة:</strong> خلي الكيس ممتلي يكفيك ليوم أو يومين بس، ما تسيبوش وصّال طول الوقت</li>
+<h2>فهم دلالات لمبات البيان LED على علبة وسماعات R100</h2>
+<p>تساعدك لمبات البيان LED الصغيرة على تشخيص حالة السماعة والبطارية دون تعقيد:</p>
+<ul>
+    <li><strong>مؤشر العلبة عند فتح الغطاء:</strong> ضوء أبيض ثابت يعني أن بطارية العلبة كافية (أكثر من 10%). ضوء أحمر ثابت يعني أن البطارية منخفضة جداً وتحتاج للشحن فوراً.</li>
+    <li><strong>مؤشر العلبة أثناء الشحن:</strong> وميض أحمر مستمر يعني أن العلبة تشحن حالياً. ضوء أبيض ثابت يعني تمام الشحن بنسبة 100%.</li>
+    <li><strong>مؤشر قطعتي السماعة:</strong> وميض أبيض بطيء يعني أن السماعة في وضع الاقتران وتبحث عن جهاز. وميض أحمر يعني انخفاض شحن السماعة الفردية.</li>
 </ul>
 
-<h2>R100 مش مناسبة؟ البدائل من نفس الفئة</h2>
-
-<p>لو قررت إن R100 مش بتلبي احتياجاتك أو المشكلة هاردوير ومحتاج بديل:</p>
-
-<ul style="line-height:2.2;">
-    <li><a href="/anker/anker-soundcore-r50i"><strong>Soundcore R50i:</strong></a> نفس الفئة السعرية، بطارية مشابهة، ديزاين مختلف</li>
-    <li><a href="/anker/soundcore-p20i-earbuds"><strong>Soundcore P20i:</strong></a> أصغر حجماً، ناسبة لو أذنك صغيرة وR100 مش بتستقر</li>
-    <li><a href="/anker/anker-soundcore-r50i-nc"><strong>Soundcore R50i NC:</strong></a> نفس الفئة بإضافة ANC — لو الضوضاء مشكلة</li>
+<h2>المشكلة #3: انقطاع البلوتوث وتقطيع الصوت أثناء الحركة</h2>
+<p>يحدث تقطيع الصوت غالباً نتيجة للتداخل الكهرومغناطيسي أو امتلاء ذاكرة التخزين المؤقت للبلوتوث في الهاتف:</p>
+<ul>
+    <li><strong>إعادة تشغيل خدمات البلوتوث:</strong> في هواتف أندرويد، اذهب إلى الإعدادات ← التطبيقات ← إظهار تطبيقات النظام، ثم ابحث عن تطبيق "Bluetooth" واضغط على إيقاف إجباري (Force Stop) ثم اذهب للتخزين واضغط "مسح التخزين المؤقت" (Clear Cache)، ثم أعد تشغيل الهاتف.</li>
+    <li><strong>تجنب مصادر التداخل:</strong> تعمل إشارة البلوتوث على تردد 2.4 جيجاهرتز، وهو نفس التردد الذي تستخدمه معظم أجهزة الواي فاي المنزلية القديمة وأجهزة الميكروويف. حاول الابتعاد عنها عند ملاحظة تقطيع الصوت.</li>
 </ul>
 
-<div class="cta-box" style="background:linear-gradient(135deg,#1e40af,#3b82f6);padding:24px;border-radius:12px;margin:32px 0;text-align:center;">
-    <p style="color:white;font-size:18px;font-weight:bold;margin:0 0 8px;">محتاج مساعدة في مشكلة R100؟</p>
-    <p style="color:#bfdbfe;font-size:15px;margin:0 0 16px;">فريق كايرو فولت موزع معتمد Anker — بنساعدك في تشخيص المشكلة ومعرفة لو تنفع ضمان</p>
-    <a href="/anker/soundcore" style="display:inline-block;background:white;color:#1e40af;padding:12px 28px;border-radius:8px;font-weight:bold;text-decoration:none;font-size:16px;">تواصل معنا</a>
-</div>`,
+<h2>المشكلة #4: علبة الشحن أو السماعات لا تقبل الشحن</h2>
+<p>إذا وضعت السماعة بالعلبة ولم تضئ مؤشرات الشحن، اتبع هذه الإجراءات الوقائية:</p>
+<ul>
+    <li><strong>تنظيف نقاط الاتصال الذهبية:</strong> مع الاستخدام اليومي وتراكم العرق، تتكون طبقة عازلة على الوصلات النحاسية الصغيرة أسفل السماعات وداخل العلبة. استخدم عوداً قطنياً جافاً لتنظيفها بلطف لاستعادة تدفق التيار الكهربائي.</li>
+    <li><strong>حماية الدوائر ضد تذبذب التيار:</strong> تم تجهيز علبة R100 بدائرة حماية أساسية. تجنب استخدام شواحن الهواتف الذكية السريعة جداً (فوق 15 واط)؛ حيث تسبب ارتفاع درجة حرارة الخلايا الداخلية وتسرع تلفها. استخدم دائماً منفذ USB الخاص بالكمبيوتر أو شاحن جداري قديم بقدرة 5 واط لشحن علبة السماعة بأمان.</li>
+</ul>
+
+<h2>الضمان المعتمد وخدمات الصيانة والدعم الفني في مصر</h2>
+<p>يحظى مشترو الموديل R100 في مصر بضمان استثنائي يمتد لـ 18 شهراً من الوكيل الرسمي، والذي يشمل استبدال السماعة بقطعة جديدة بالكامل في حال ظهور أي عيب تصنيعي واضح بالبطارية أو جودة الاتصال خلال فترة الضمان. يرجى دائماً الاحتفاظ بكرتونة المنتج التي تحمل الرقم التسلسلي (Serial Number) الفريد لضمان قبول جهازك في مراكز الدعم الفني الرسمية.</p>
+<p>ملاحظة هامة من فريق الصيانة: لتفادي رفض الضمان، تأكد من عدم تعريض السماعة لمصادر رطوبة مباشرة أو سوائل غير متوافقة، وتجنب فتح أو محاولة إصلاح علبة الشحن خارج المراكز المعتمدة. كما يوصى بالتحقق من ملصق الضمان الفضي الموجود على كرتونة المنتج للتأكد من الموزع المحلي المسؤول عن التغطية.</p>
+
+<h2>تفاصيل الضمان والصيانة في مصر من كايرو فولت</h2>
+<p>عند شرائك سماعة Soundcore R100 من موقعنا، ستحصل على الميزات التالية لحماية استثمارك:</p>
+<ul>
+    <li><strong>ضمان استبدال معتمد لمدة 18 شهراً:</strong> يغطي الضمان أي عيوب صناعة أو تلف مفاجئ بالبطارية والميكروفون خلال فترة الضمان.</li>
+    <li><strong>شحن سريع ومعاينة قبل الدفع:</strong> نقوم بشحن الطلب ليصلك خلال 24 إلى 48 ساعة فقط لجميع المحافظات، مع السماح الكامل بفتح الشحنة وفحصها خارجياً قبل سداد قيمتها للمندوب للتأكد من المنتج الأصلي.</li>
+</ul>
+
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 عروض مميزة على سماعات أنكر بضمان كايرو فولت 18 شهر:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شاهد المنتجات الأصلية: <a href="/soundcore/soundcore-r50i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore R50i البديلة</a> · <a href="/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">سماعة Soundcore P20i الصغيرة</a> · <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">سماعة R50i NC بعزل الضوضاء</a>.</p></div>` ,
             faq: [
                 {
-                    question: 'إيه سبب ضعف الصوت المفاجئ في Soundcore R100 وإزاي أحله؟',
-                    answer: 'الغالب السبب إعدادات EQ اتغيرت في تطبيق Soundcore من غير قصد. افتح التطبيق، اضغط EQ، واختار Flat أو اعمل Reset للإعدادات الافتراضية. لو المشكلة اتستمرت، تحقق من إعداد Volume Limit على موبايلك في الإعدادات ← الأصوات. في 90% من الحالات واحدة من دول بتحل المشكلة فوراً.'
+                    question: 'هل يمكنني توصيل سماعة Soundcore R100 بتطبيق الموبايل لتعديل الصوت؟',
+                    answer: 'لا، سماعة Soundcore R100 لا تدعم تطبيق Soundcore الرسمي على الإطلاق. لتغيير وضع الإيكوالايزر، يجب الضغط مطولاً على زر اللمس في السماعتين اليمنى واليسرى معاً لمدة ثانيتين للتبديل بين أوضاع الصوت المدمجة.'
                 },
                 {
-                    question: 'إزاي أعمل Factory Reset لـ Soundcore R100 لو جانب واحد بس شغال؟',
-                    answer: 'حط الإيربودين في الكيس مع تركه مفتوحاً، اضغط على زرار الكيس 5 ثوان لحد ما تشوف LED يوميض أبيض 3 مرات. أقفل الكيس وافتحه، امسح السماعة من البلوتوث، وعمل pair من أول. الريست ده بيحل مشكلة الجانب الواحد في حوالي 80% من الحالات.'
+                    question: 'ما هي الطريقة الصحيحة لعمل إعادة ضبط مصنع (Factory Reset) لسماعة R100؟',
+                    answer: 'ضع السماعتين داخل علبة الشحن مع ترك الغطاء مفتوحاً، ثم اضغط مع الاستمرار على الزر الموجود بالعلبة لمدة 10 ثوانٍ متواصلة حتى تومض مؤشرات LED باللون الأحمر 3 مرات، ثم أغلق الغطاء وافتحه للاتصال بالهاتف مجدداً.'
                 },
                 {
-                    question: 'كيس الشحن بيشحن من USB-C بس Soundcore R100 مش بتشحن — إيه المشكلة؟',
-                    answer: 'الأسباب الشائعة: contacts ذهبية متسخة (امسحها بقطعة قماش ناشفة)، الإيربود مش واقع صح في الحفرة، أو كابل USB-C فيه عطل. جرب كابل تاني وتأكد إن كل إيربود ضغطته في مكانه صح لحد ما حسيت بـ click خفيف. لو ما فيش LED بيضوي خالص على الكيس أثناء الشحن، الكابل أو الشاحن هو المشكلة.'
+                    question: 'لماذا ينخفض صوت سماعة R100 فجأة وكيف أقوم بتنظيفها؟',
+                    answer: 'السبب الغالب هو تراكم الأتربة وشمع الأذن على الشبكة المعدنية الدقيقة. قم بإزالة الغطاء المطاطي واستخدم فرشاة أسنان جافة وناعمة لتنظيف الفتحات بلطف، وتجنب استخدام السوائل المباشرة أو الكحول الكثيف لمنع تلف المكبر الداخلي.'
                 },
                 {
-                    question: 'امتى اعرف إن Soundcore R100 محتاجة استبدال مش إصلاح؟',
-                    answer: 'استبدل لو: LED الإيربود بيبقى أحمر ثابت بعد شحن كامل (بطارية تالفة)، أو جانب واحد بيشتغل وبعد Factory Reset رجعت المشكلة خلال أسبوعين (عطل هاردوير في الدرايفر)، أو لو عمر البطارية وصل لأقل من 3-4 ساعات. في الحالات دي الإصلاح عادةً أغلى من سعر سماعة جديدة.'
+                    question: 'ما هي مواصفات الشاحن الموصى به لشحن علبة سماعة R100 بأمان في مصر؟',
+                    answer: 'نوصي باستخدام شواحن عادية بقدرة 5 واط (5 فولت / 1 أمبير) أو الشحن مباشرة من خلال منافذ USB بالكمبيوتر، وتجنب تماماً الشواحن السريعة للهواتف الذكية لحماية خلايا البطارية والدوائر الداخلية من التلف الحراري.'
                 }
             ]
         },
         en: {
-            title: 'Soundcore R100 — Sudden Volume Drop Issue and Most Common Earbuds Problems Fixed',
-            metaTitle: 'Soundcore R100 Problems & Solutions — Volume Drop, One Side, Charging | CairoVolt',
-            metaDescription: 'Step-by-step fixes for the most common Soundcore R100 problems: sudden volume drop, one earbud not working, Bluetooth stuttering, charging case issues, and how to tell when to replace vs repair.',
+            title: 'Soundcore R100 — Sudden Volume Drop and Common Earbuds Problems Troubleshooting Guide',
+            metaTitle: 'Soundcore R100 Troubleshooting — Volume Drop & Reset Fixes | CairoVolt',
+            metaDescription: 'Step-by-step fixes for common Soundcore R100 issues: sudden volume drop, one side dead, Bluetooth stuttering, charging failures, and app integration truth.',
             keywords: 'soundcore r100 problems, soundcore r100 volume drop fix, soundcore r100 factory reset, soundcore r100 one side not working, soundcore r100 case not charging, soundcore r100 bluetooth stuttering, soundcore r100 troubleshooting, soundcore r100 specs egypt, soundcore r100 EQ fix',
-            excerpt: 'The Soundcore R100 is a solid budget earbud — but like any TWS pair it can develop common issues. This guide covers five problems with step-by-step solutions: sudden volume drop, one side dead, Bluetooth stuttering, case not charging, and how to decide when repair isn\'t worth it.',
-            quickAnswer: 'The most common Soundcore R100 issue is sudden volume drop — usually caused by an EQ setting change in the Soundcore app or a Volume Limit setting on your phone. Fix: reset EQ to Flat in the Soundcore app and check your phone Volume settings. If only one earbud works, a Factory Reset resolves it in about 80% of cases.',
-            content: `<p>The Soundcore R100 is one of the most popular budget earbuds in Egypt — Bluetooth 5.3, 10-hour earbud battery, 40-hour case, and USB-C charging at an accessible price point. That popularity also means troubleshooting questions come in regularly. This guide covers the five most common issues with real step-by-step fixes, not just "try resetting it."</p>
+            excerpt: 'The Anker Soundcore R100 is an incredibly popular budget model in Egypt. In this comprehensive guide, we show you how to fix low volume, clean earwax, and perform a factory reset.',
+            quickAnswer: 'The Soundcore R100 does not support the companion app. To fix sudden volume drops, press and hold the touch controls on both earbuds for 2 seconds to toggle EQs, or clear earwax from the metal mesh. For connection issues, hold the case button for 10 seconds to factory reset.',
+            content: `<p>The Soundcore R100 is one of the most successful budget earbuds in the Egyptian market, courtesy of Anker\'s excellent build quality and aggressive pricing between 800 and 1,300 EGP. However, like any TWS earbuds, users frequently run into technical issues such as a sudden volume drop in one ear, a single earbud refusing to connect, or charging issues. In this technical troubleshooting guide by CairoVolt, we walk you through the verified steps to resolve these common R100 problems and address key misconceptions regarding its software compatibility.</p>
 
-<h2>Soundcore R100 Specifications — Quick Reference</h2>
+<div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
+    <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
+        <strong>Important Fact:</strong> The <strong>Soundcore R100 does not support the companion mobile application</strong>. All customizations, equalizer modes, and troubleshooting steps must be performed manually via the hardware touch controls and case buttons.
+    </p>
+</div>
+
+<h2>Soundcore R100 Verified Technical Specifications</h2>
+<p>Understanding the hardware layout of your R100 is helpful before performing troubleshooting procedures:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">
     <thead>
         <tr style="background:#f3f4f6;">
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Specification</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Value</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Technical Metric</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Verified Specification</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Bluetooth</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">5.3</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Bluetooth Generation</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Bluetooth 5.3</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">10 hours</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver Diameter</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">9.2mm Dynamic Driver</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Case Battery</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">40 additional hours (50 total)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Earbud Runtime</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 10 hours continuous playback</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Case Charging</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">USB-C</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total Runtime (with Case)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Up to 50 hours total runtime</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Water Resistance</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">IPX5</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Soundcore App Support</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;font-weight:bold;">❌ Not Supported</td>
         </tr>
         <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Driver</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">9.2mm dynamic</td>
-        </tr>
-        <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Audio Codecs</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">SBC / AAC</td>
-        </tr>
-        <tr style="background:#f9fafb;">
-            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">App</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Soundcore (iOS and Android)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">IP Rating</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">IPX5 Sweat and Splash Resistant</td>
         </tr>
     </tbody>
 </table>
 
-<h2>Problem #1 — Sudden Volume Drop</h2>
-
-<p>This is the single most common complaint we receive about the R100. Audio sounds fine, then suddenly seems quieter than expected — or the earbuds play at low volume even when your phone is at maximum.</p>
-
-<p><strong>Most common causes:</strong></p>
-
-<div class="callout-warning" style="background:#fffbeb;border-left:4px solid #d97706;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#92400e;">
-        <strong>Cause #1 (most frequent):</strong> EQ settings in the Soundcore app were modified — even unintentionally — and certain frequency bands were lowered or set to an unbalanced profile.
-    </p>
-</div>
-
-<p><strong>Step-by-step fix:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li>Open the <strong>Soundcore app</strong> on your phone and confirm R100 is connected</li>
-    <li>Tap <strong>EQ</strong> from the device's main screen</li>
-    <li>Tap the active EQ preset (Custom or whichever is selected)</li>
-    <li>Select <strong>Flat</strong> or press the <strong>Reset</strong> / <strong>Default</strong> button at the bottom of the EQ screen</li>
-    <li>Listen — in most cases volume returns to normal immediately</li>
-</ol>
-
-<p><strong>If the issue continues — check Volume Limit on your phone:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li><strong>Android (Samsung/Xiaomi):</strong> Settings → Sounds → Media Volume → look for "Hearing Protection," "Volume Limit," or "Safe Volume" — turn it Off</li>
-    <li><strong>iPhone:</strong> Settings → Music → Volume Limit — make sure it is not restricted</li>
-</ol>
-
-<div class="callout-info" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#1e40af;">
-        <strong>Note:</strong> The Soundcore app stores EQ settings inside the earbuds, not on your phone. If someone used the R100 with another device and changed the EQ, that change persists across all devices. Resetting EQ to Flat is always the first diagnostic step.
-    </p>
-</div>
-
-<h2>Problem #2 — Only One Side Working</h2>
-
-<p>You put the earbuds in and sound only comes from one side — or one earbud produces no sound at all. This is the second most common R100 issue and nearly always software-level.</p>
-
-<p><strong>Fix: Factory Reset</strong></p>
-
-<div class="callout-warning" style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#991b1b;">
-        <strong>Warning:</strong> Factory Reset removes the earbuds from all paired devices. You will need to re-pair from scratch after the reset.
-    </p>
-</div>
-
-<ol style="line-height:2.2;">
-    <li>Place both earbuds inside the case and leave the case lid open</li>
-    <li>Press and hold the case button (small button on the side or back depending on version) for <strong>5 seconds</strong> until the LED flashes white 3 times</li>
-    <li>Close the case lid, then open it again</li>
-    <li>On your phone, remove Soundcore R100 from your Bluetooth device list</li>
-    <li>Re-pair via the Soundcore app or Bluetooth settings</li>
-    <li>Test both sides</li>
-</ol>
-
-<p>Factory Reset resolves the one-side issue in approximately 80% of cases. If it works but the same problem returns within two weeks, the cause is a hardware fault in the driver or internal connection — not software.</p>
-
-<h2>Problem #3 — Bluetooth Drops or Audio Stuttering</h2>
-
-<p>Audio cuts in and out, or the Bluetooth connection drops and reconnects — especially when you move around.</p>
-
-<p><strong>Most common causes:</strong></p>
-<ul style="line-height:2;">
-    <li>Bluetooth cache on the phone is bloated or contains corrupted data</li>
-    <li>Wi-Fi interference on the 2.4GHz band (same as Bluetooth)</li>
-    <li>Physical obstruction or distance from the phone</li>
+<h2>Detailed Comparison: Soundcore R100 vs Soundcore R50i</h2>
+<p>Many buyers in the Egyptian budget market compare the R100 to the R50i since they occupy a similar price bracket. Here are the key differences:</p>
+<ul>
+    <li><strong>App Integration:</strong> The R50i clearly wins here as it fully supports the official Soundcore application for EQ adjustments, control customization, and OTA updates. The R100 does not connect to the app at all.</li>
+    <li><strong>Acoustic Driver Size:</strong> The R50i features a larger 10mm dynamic driver, yielding a slightly punchier, warmer bass response. The R100 features a 9.2mm driver that delivers a more balanced mid-range.</li>
+    <li><strong>Stem and Case Ergonomics:</strong> The R100 features a slightly longer, glossy stem design that provides excellent physical stability. The R50i offers a more compact matte housing with a shorter stem.</li>
 </ul>
 
-<p><strong>Android fix — clear Bluetooth cache:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li>Settings → Apps (Applications)</li>
-    <li>Tap the three-dot menu or toggle to "Show all apps" (to see system apps)</li>
-    <li>Find <strong>Bluetooth</strong> or search for <strong>com.android.bluetooth</strong></li>
-    <li>Tap <strong>Storage</strong></li>
-    <li>Tap <strong>Clear Cache</strong> — do NOT tap Clear Data (that resets pairing history)</li>
-    <li>Restart your phone</li>
-    <li>Re-pair the earbuds</li>
+<h2>Problem #1: Sudden Volume Drop in One or Both Earbuds</h2>
+<p>A sudden decrease in volume is the single most common complaint reported by R100 users. This issue is typically caused by one of three factors:</p>
+<ol>
+    <li><strong>Accidental Onboard EQ Shift:</strong> The R100 features three onboard EQ profiles hardcoded into the internal DSP (Soundcore Signature, Bass Booster, and Podcast). Because there is no app, you switch between these modes by holding the touch panel on both earbuds simultaneously for 2 seconds. Users often trigger this gesture accidentally. If the earbuds shift to "Podcast" mode, the bass is cut, making music sound quiet. Hold both panels for 2 seconds to cycle back to the baseline Soundcore Signature mode.</li>
+    <li><strong>Acoustic Mesh Blockage (Wax and Dust):</strong> Egypt's hot, humid weather accelerates dust accumulation and earwax buildup. The fine metal mesh grilles on the nozzle can get completely clogged, blocking acoustic output. To fix this, remove the silicone ear tips and use a dry, soft-bristled toothbrush to gently sweep away debris. For stubborn wax, apply a single drop of 70% isopropyl alcohol to a cotton swab, wipe the mesh, and let it dry completely before playing music.</li>
+    <li><strong>Android Absolute Volume Discrepancy:</strong> Sometimes, Android operating systems fail to synchronize the phone's software volume slider with the earbud's internal hardware volume. To resolve this, activate Developer Options on your Android device, search for "Disable Absolute Volume", toggle it on, and restart your device to gain full volume control.</li>
 </ol>
 
-<div class="callout-info" style="background:#f0fdf4;border-left:4px solid #16a34a;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#14532d;">
-        <strong>On iPhone:</strong> Bluetooth cache clearing is not directly available without a full restart. Press Side + Volume Down until the Power Off slider appears, restart the phone, then re-pair.
-    </p>
-</div>
-
-<p><strong>Additional stuttering fixes:</strong></p>
-<ul style="line-height:2;">
-    <li>Temporarily disable Wi-Fi if you are close to a router — 2.4GHz interference is real and common</li>
-    <li>Keep your phone in a front pocket facing the earbuds rather than a back pocket</li>
-    <li>Check for firmware updates in Soundcore app → Settings → About → Check for updates</li>
+<h2>Optimizing Call Quality and Microphone Performance</h2>
+<p>The R100 features dual microphones paired with an AI uplink noise reduction algorithm. For the best outgoing clarity in Egypt\'s loud streets:</p>
+<ul>
+    <li><strong>Mic Orientation:</strong> Always wear the earbuds at an angle where the stems point down toward your mouth, maximizing voice pick-up.</li>
+    <li><strong>Network VoLTE Settings:</strong> Enable VoLTE (Voice over LTE) on your carrier network. This ensures high-definition voice data transfer, minimizing digital compression.</li>
+    <li><strong>Handling Wind Interference:</strong> The AI algorithm is good at filtering ambient traffic rumble, but direct wind (e.g., from an open microbus window) can cause the AI to over-compress your voice. Cupping your hand over the earbud during calls helps filter direct wind.</li>
 </ul>
 
-<h2>Problem #4 — Charging Case Not Charging the Earbuds</h2>
-
-<p>You place the earbuds in the case and no LED charging indicator lights up, or the earbuds show no charge increase after sitting in the case.</p>
-
-<p><strong>Step-by-step diagnosis:</strong></p>
-
-<ol style="line-height:2.2;">
-    <li><strong>Clean the contacts:</strong> Use a dry cloth and gently wipe the gold charging contacts on both earbuds and inside the case wells. Skin oils, dust, and earwax build up on contacts and interrupt the electrical connection.</li>
-    <li><strong>Check earbud seating:</strong> Each earbud must click securely into its well. If one sits slightly off-angle, the contacts will not touch. Press each earbud gently down until you feel it seat properly.</li>
-    <li><strong>Try a different USB-C cable:</strong> The included cable or your existing cable may be the fault. Test with a known-good cable.</li>
-    <li><strong>Try a different charger:</strong> Very low-output chargers (0.5A) may not provide enough current. Use a 1A or higher adapter.</li>
-    <li><strong>Observe the case LED:</strong> Case LED solid red = case is charging. No LED at all during charging = cable, adapter, or case battery issue.</li>
+<h2>Problem #2: One Earbud Not Working or Syncing</h2>
+<p>If one earbud remains silent or fails to pair with the other, a factory reset clears the internal Bluetooth memory and forces the buds to resynchronize:</p>
+<ol>
+    <li>Open your smartphone's Bluetooth settings and "Forget" or delete the Soundcore R100 from your paired devices list.</li>
+    <li>Place both earbuds back into the charging case and ensure the charging indicators light up. Keep the case lid open.</li>
+    <li>Locate the physical button on the charging case. Press and hold this button for 10 seconds without releasing.</li>
+    <li>Watch the LED lights on the earbuds. They will flash red 3 times to signal that the factory reset was successful.</li>
+    <li>Close the case lid for 5 seconds, open it, and pair the earbuds to your phone. Both sides should now play audio simultaneously.</li>
 </ol>
 
-<div class="callout-warning" style="background:#fffbeb;border-left:4px solid #d97706;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#92400e;">
-        <strong>Warning:</strong> Do not use alcohol wipes or wet cloths on charging contacts. Moisture can cause oxidation and corrosion over time. Use a dry cloth only, or a soft dry brush.
-    </p>
-</div>
-
-<h2>Problem #5 — When to Replace vs When to Fix</h2>
-
-<p>Not every earbud problem is worth repairing — and sometimes no software fix can address a hardware fault. Here is how to decide.</p>
-
-<h3>Decision Flowchart — Follow in Order</h3>
-
-<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:20px;margin:24px 0;font-size:14px;line-height:2;">
-    <p style="margin:0 0 8px;font-weight:bold;font-size:15px;">Problem present → Run Factory Reset → Is it resolved?</p>
-    <p style="margin:0 0 4px;padding-left:24px;">↳ <strong>Yes:</strong> Continue using. If the same problem returns within 2 weeks → hardware fault, read on</p>
-    <p style="margin:0 0 8px;padding-left:24px;">↳ <strong>No:</strong> Hardware fault likely — read on</p>
-    <hr style="border:none;border-top:1px solid #e2e8f0;margin:12px 0;" />
-    <p style="margin:0 0 8px;font-weight:bold;">Signs of battery degradation (time to replace):</p>
-    <ul style="margin:0 0 8px;padding-left:20px;">
-        <li>Earbud LED stays solid red constantly even after a full charge cycle — battery is degraded</li>
-        <li>Battery life has dropped below 3-4 hours from the original 10-hour spec</li>
-        <li>Earbuds feel unusually warm during charging</li>
-    </ul>
-    <p style="margin:0 0 8px;font-weight:bold;">Signs of hardware fault (beyond repair):</p>
-    <ul style="margin:0;padding-left:20px;">
-        <li>One side dead, Factory Reset fixes it, but fails again within two weeks</li>
-        <li>Constant static or buzzing from one side even without audio playing</li>
-        <li>One earbud completely unresponsive to touch controls after reset</li>
-    </ul>
-</div>
-
-<div class="callout-info" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:16px 0;border-radius:8px;">
-    <p style="margin:0;font-size:15px;line-height:1.7;color:#1e40af;">
-        <strong>Warranty:</strong> If you purchased the R100 from CairoVolt (authorized Anker distributor), your warranty is valid for one year. Contact us before deciding to replace — the issue may be covered.
-    </p>
-</div>
-
-<h2>Prevention Tips — Keep Your R100 Lasting Longer</h2>
-
-<ul style="line-height:2.2;">
-    <li><strong>Do not store earbuds in a fully drained case long-term:</strong> Leaving lithium batteries at 0% for extended periods degrades them faster. If storing for two weeks or more, leave the case at ~50%</li>
-    <li><strong>Clean ear tips regularly:</strong> Earwax buildup reduces sound quality and can partially block the audio port</li>
-    <li><strong>IPX5 is not submersion-proof:</strong> The R100 handles sweat and light rain — do not submerge it or charge it while wet</li>
-    <li><strong>Do not leave the case plugged in indefinitely:</strong> Charge until full, then unplug — constant trickle charging in cheap chargers can stress the case battery over time</li>
+<h2>Understanding the R100 Case and Earbud LED States</h2>
+<p>The built-in LED indicators communicate status updates for charging, battery level, and pairing:</p>
+<ul>
+    <li><strong>Case Indicator (Lid Opened):</strong> A solid white LED indicates the battery is healthy (above 10%). A solid red light signifies low battery, meaning you need to charge the case immediately.</li>
+    <li><strong>Case Charging Status:</strong> A flashing red light indicates the case is actively charging. A solid white light means it has reached 100% capacity.</li>
+    <li><strong>Earbud Indicators:</strong> A slow white pulse indicates pairing mode. A red flash means the earbud battery is low and needs to be returned to the case.</li>
 </ul>
 
-<h2>R100 Not Meeting Your Needs? Similar Alternatives</h2>
-
-<p>If you have decided the R100 is not the right fit or the hardware fault makes replacement the better call:</p>
-
-<ul style="line-height:2.2;">
-    <li><a href="/en/anker/anker-soundcore-r50i"><strong>Soundcore R50i:</strong></a> Similar price bracket, comparable battery, different form factor — worth comparing</li>
-    <li><a href="/en/anker/soundcore-p20i-earbuds"><strong>Soundcore P20i:</strong></a> More compact shell — a better fit if the R100 felt loose in your ear</li>
-    <li><a href="/en/anker/anker-soundcore-r50i-nc"><strong>Soundcore R50i NC:</strong></a> Same tier with added ANC — if noise cancellation matters to you</li>
+<h2>Problem #3: Bluetooth Stuttering and Connection Drops</h2>
+<p>Audio dropouts are typically caused by local interference or Bluetooth cache clutter on your device:</p>
+<ul>
+    <li><strong>Clear Bluetooth Cache (Android):</strong> Navigate to Settings ← Apps ← System Apps. Search for "Bluetooth" or "com.android.bluetooth", tap Storage, and select "Clear Cache". Restart your phone and pair the earbuds.</li>
+    <li><strong>RF Interference:</strong> Bluetooth operates on the crowded 2.4GHz band. Move away from high-power Wi-Fi routers or active microwave ovens if you notice connection drops.</li>
 </ul>
 
-<div class="cta-box" style="background:linear-gradient(135deg,#1e40af,#3b82f6);padding:24px;border-radius:12px;margin:32px 0;text-align:center;">
-    <p style="color:white;font-size:18px;font-weight:bold;margin:0 0 8px;">Need Help Diagnosing Your R100?</p>
-    <p style="color:#bfdbfe;font-size:15px;margin:0 0 16px;">CairoVolt is an authorized Anker distributor in Egypt — we can help diagnose your issue and check warranty eligibility</p>
-    <a href="/en/anker/soundcore" style="display:inline-block;background:white;color:#1e40af;padding:12px 28px;border-radius:8px;font-weight:bold;text-decoration:none;font-size:16px;">Contact Us</a>
-</div>`,
+<h2>Problem #4: Charging Case or Earbuds Refusing to Charge</h2>
+<p>If your earbuds fail to charge when placed inside the case, try the following remedies:</p>
+<ul>
+    <li><strong>Clean the Golden Contacts:</strong> Dust, sweat, and body oils can form a non-conductive layer on the golden charging pins. Clean the charging pads on the earbuds and inside the case using a dry cotton swab.</li>
+    <li><strong>Use Safe Charging Adapters:</strong> High-wattage fast-chargers (33W, 67W, or higher) can trigger the case's over-temperature protection, halting charging. Always charge the case using a standard 5W power adapter or a computer USB port.</li>
+</ul>
+
+<h2>Official Local Warranty and Technical Support in Egypt</h2>
+<p>Buyers of the Model R100 in Egypt receive a comprehensive 18-month warranty from the authorized local distributor. This warranty guarantees a brand-new replacement unit in the event of manufacturing defects, including sudden battery degradation or connection failures. Make sure to keep the original packaging box with the printed unique Serial Number to validate your warranty claim at official service centers.</p>
+<p>Important maintenance note: To prevent warranty rejection, ensure the earbuds are never exposed to direct submersion or excessive water ingress, and do not attempt to disassemble the charging case yourself. Always cross-check the localized silver warranty sticker on the retail packaging to identify the exact local distributor responsible for servicing your product.</p>
+<p>The customer service centers in Cairo and Alexandria are fully equipped with specialized testing rigs to evaluate battery health and driver calibration. If a replacement is approved under warranty, the transaction is processed quickly. This gives local buyers absolute peace of mind compared to grey-market imports that lack warranty protection.</p>
+
+<h2>Authorized Warranty and Delivery in Egypt at CairoVolt</h2>
+<p>When purchasing the Soundcore R100 from CairoVolt, your investment is protected by our local customer service policies:</p>
+<ul>
+    <li><strong>18-Month Local Warranty:</strong> Complete coverage against manufacturing defects, including sudden battery failures or connection issues.</li>
+    <li><strong>Fast Delivery and Package Inspection:</strong> Orders are delivered to all Egyptian governorates in 24 to 48 hours. CairoVolt permits customers to open and inspect the package before paying the courier.</li>
+</ul>
+
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Original Products (18-Month Warranty):</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Authorized Soundcore models at CairoVolt: <a href="/en/soundcore/soundcore-r50i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i Earbuds</a> · <a href="/en/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i Earbuds</a> · <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;font-weight:600;">Soundcore R50i NC Earbuds</a>.</p></div>` ,
             faq: [
                 {
-                    question: 'Why did my Soundcore R100 suddenly get much quieter, and how do I fix it?',
-                    answer: 'The most likely cause is an EQ preset change in the Soundcore app — even an accidental one. Open the Soundcore app, tap EQ, and reset it to Flat or Default. If volume is still low, check your phone for a Volume Limit or Safe Volume setting (Android: Settings → Sounds; iPhone: Settings → Music → Volume Limit) and disable it. These two steps resolve the sudden volume drop in over 90% of cases.'
+                    question: 'Can I connect the Soundcore R100 to the official app to adjust settings?',
+                    answer: 'No, the Soundcore R100 does not support the Soundcore app. To change equalizers, you must press and hold the touch controls on both earbuds simultaneously for 2 seconds to cycle through Signature, Bass Booster, and Podcast modes.'
                 },
                 {
-                    question: 'How do I factory reset Soundcore R100 when only one earbud is working?',
-                    answer: 'Place both earbuds in the open case, then press and hold the case button for 5 seconds until the LED flashes white 3 times. Close and reopen the case, delete "Soundcore R100" from your phone\'s Bluetooth list, and re-pair from scratch. This factory reset resolves the one-side issue in roughly 80% of cases without needing any tools or app access.'
+                    question: 'What is the correct factory reset procedure for the Soundcore R100?',
+                    answer: 'Place both earbuds in the charging case with the lid open. Press and hold the case button for 10 seconds until the earbud LEDs flash red 3 times. Close the lid for 5 seconds, reopen, and pair again.'
                 },
                 {
-                    question: 'My Soundcore R100 charging case has power but the earbuds are not charging — what should I check?',
-                    answer: 'Check three things in order: (1) Wipe the gold charging contacts on the earbuds and inside the case wells with a dry cloth — skin oils block the connection. (2) Press each earbud firmly into its well until it seats properly — slight misalignment breaks contact. (3) Try a different USB-C cable and a charger rated at 1A or higher. If no LED lights on the case during charging, the cable or adapter is the likely fault.'
+                    question: 'How do I resolve a sudden volume drop on my Soundcore R100?',
+                    answer: 'The most common cause is dust or earwax blocking the fine metal nozzle mesh. Clean it gently with a dry, soft-bristled toothbrush. Also, check if your Android device absolute volume synchronization needs disabling.'
                 },
                 {
-                    question: 'How do I know when my Soundcore R100 should be replaced rather than repaired?',
-                    answer: 'Replace when: the earbud LED stays solid red after a full charge cycle (battery is degraded), battery life has fallen below 3-4 hours from the original 10, or one earbud fails again within two weeks of a factory reset (hardware driver fault). Repair through a factory reset is worth trying first for software-level issues, but hardware faults in budget earbuds usually cost more to repair than to replace with a new pair.'
+                    question: 'What type of charger is recommended for charging the R100 case in Egypt?',
+                    answer: 'We recommend using a standard 5W (5V/1A) wall plug or a computer USB port. Avoid high-wattage mobile fast-chargers to protect the internal battery cell and charging circuits from overheating.'
                 }
             ]
         }

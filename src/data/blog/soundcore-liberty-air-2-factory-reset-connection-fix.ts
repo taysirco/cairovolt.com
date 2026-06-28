@@ -10,7 +10,9 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
         'soundcore-liberty-air-2-pro',
         'soundcore-liberty-4-nc',
         'soundcore-liberty-4-pro',
-        'soundcore-liberty-buds'
+        'soundcore-liberty-buds',
+        'soundcore-q30-headphones',
+        'soundcore-space-one-headphones'
     ],
     relatedArticles: [
         'soundcore-r50i-nc-anc-earbuds-full-review',
@@ -27,8 +29,8 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     translations: {
         ar: {
             title: 'السماعة مش بتتوصل بالأندرويد؟ إعادة ضبط المصنع وإصلاح مشاكل البلوتوث للـ Liberty',
-            metaTitle: 'إعادة ضبط المصنع لـ Soundcore Liberty وإصلاح مشاكل الاتصال | كايرو فولت',
-            metaDescription: 'دليل خطوة بخطوة لإعادة ضبط مصنع سماعات Soundcore Liberty Air 2 Pro وLiberty 4 NC وLiberty 4 Pro. إصلاح مشاكل البلوتوث على الأندرويد وتطبيق Soundcore — بالخطوات المضمونة.',
+            metaTitle: 'إعادة ضبط ضبط مصنع Soundcore Liberty وإصلاح مشاكل الاتصال | كايرو فولت',
+            metaDescription: 'دليل خطوة بخطوة لإعادة ضبط مصنع سماعات Soundcore Liberty وإصلاح مشاكل اتصال البلوتوث على هواتف الأندرويد وتطبيق Soundcore بالخطوات المضمونة.',
             keywords: 'soundcore liberty reset, إعادة ضبط مصنع soundcore liberty, مشكلة بلوتوث soundcore liberty, liberty air 2 pro مش بتتوصل, soundcore bluetooth مشكلة أندرويد, تطبيق soundcore لا يجد الجهاز, liberty 4 nc مشكلة اتصال, إصلاح soundcore liberty مصر',
             excerpt: 'سماعة Liberty مش بتتوصل بالأندرويد أو التطبيق مش لاقيها؟ دليل كامل لإعادة ضبط المصنع وإصلاح مشاكل البلوتوث — بالخطوات المضمونة لـ Liberty Air 2 Pro وLiberty 4 NC وLiberty 4 Pro.',
             quickAnswer: 'لإعادة ضبط مصنع Liberty: اخرج الأذنين من الكيس، اضغط على اللمس في الاتنين 8 ثواني لحد ما الليد يومض بالأحمر والأبيض. بعدين امسح الجهاز من قائمة بلوتوث التليفون وربطها من أول. لو المشكلة مستمرة: امسح كاش البلوتوث على الأندرويد من الإعدادات.',
@@ -41,11 +43,9 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h2>خطوة 1 — إعادة ضبط المصنع لـ Liberty (Air 2 Pro / 4 NC / 4 Pro)</h2>
-
 <p>خطوات Reset متقاربة في كل موديلات Liberty، مع فروق صغيرة بنفصّلها:</p>
 
 <h3>الطريقة الأولى — Reset من الأذنين (الأضمن)</h3>
-
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>اخرج الأذنين من الكيس وحطهم في أذنيك أو على سطح مستوي.</li>
     <li>اضغط مع الاستمرار على لوحة اللمس في الأذنتين في نفس الوقت.</li>
@@ -60,21 +60,17 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     </p>
 </div>
 
-<h3>الطريقة التانية — Reset من كيس الشحن</h3>
-
+<h3>الطريقة الثانية — Reset من كيس الشحن</h3>
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>حط الأذنين في الكيس وسيبهم متصلين.</li>
     <li>اضغط على زرار الكيس 3 مرات بسرعة متتابعة (مش بطيء — 3 ضغطات خلال ثانية واحدة تقريباً).</li>
     <li>LED الكيس هيومض وبعدين الأذنين هيخرجوا من وضع الإقران المسبق.</li>
     <li>افتح الكيس وهتلاقي الأذنين دخلوا وضع pairing من أول.</li>
 </ol>
-
 <p>الطريقة دي بتشتغل أحسن مع Liberty Air 2 Pro. في Liberty 4 NC وLiberty 4 Pro، الطريقة الأولى (الضغط على الأذنين) أكثر موثوقية.</p>
 
 <h2>خطوة 2 — إعادة الإقران من أول على التليفون</h2>
-
 <p>بعد الـ Reset، خطوة أساسية كتير ناس بتتخطاها وبتسبب رجوع المشكلة:</p>
-
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>افتح إعدادات التليفون ← بلوتوث.</li>
     <li>دور على اسم السماعة في قائمة الأجهزة المعروفة.</li>
@@ -90,11 +86,9 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h2>خطوة 3 — إصلاح مشكلة البلوتوث على الأندرويد (الأكثر شيوعاً)</h2>
-
 <p>المشكلة رقم واحد على الأندرويد مش في السماعة — هي في كاش البلوتوث على التليفون نفسه. الأندرويد بيخزن بيانات الإقران والاتصال في ذاكرة مؤقتة، ولو البيانات دي اتعطلت أو تراكمت، البلوتوث كله بيتصرف بشكل غريب — مش بس مع سماعة Soundcore، مع أي جهاز بلوتوث.</p>
 
 <h3>إزاي تمسح كاش البلوتوث على الأندرويد</h3>
-
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>افتح <strong>الإعدادات</strong> على التليفون.</li>
     <li>اختار <strong>التطبيقات</strong> (أو Apps &amp; Notifications).</li>
@@ -104,7 +98,6 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     <li>اضغط على <strong>مسح الكاش</strong> (Clear Cache) — مش Clear Data (Clear Data هيمسح كل إقرانات البلوتوث).</li>
     <li>أعد تشغيل التليفون وجرب تتوصل بالسماعة تاني.</li>
 </ol>
-
 <p>الخطوات دي مختلفة شوية حسب نسخة الأندرويد والشركة المصنّعة للتليفون:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;">
@@ -134,8 +127,19 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     </tbody>
 </table>
 
-<h2>خطوة 4 — إصلاح تعارض الـ Codec (لو البلوتوث بيتقطع بعد الاتصال)</h2>
+<h2>تنظيف نقاط شحن الأذنين لحل مشكلة عدم اتصال فردة واحدة</h2>
+<p>في كثير من الحالات، تشتكي خدمة عملاء كايرو فولت من أن العميل يواجه مشكلة عدم اتصال فردة واحدة من السماعة وتوقفها عن الدخول في وضع الإقران كلياً. والسبب الخفي وراء ذلك غالباً ما يكون تراكم الأتربة أو طبقة رقيقة من الأكسدة والعرق على نقاط الاتصال النحاسية الصغيرة (Charging Pins) الموجودة أسفل ساق السماعة أو في قاع علبة الشحن. هذا التراكم يمنع السماعة من استشعار وجودها داخل العلبة وبالتالي لا تنطفئ ولا تقوم بإعادة تشغيل دورتها البرمجية. لحل هذه المشكلة:</p>
+<ul>
+    <li>احضر عوداً قطنياً خفيفاً (سلاكة أذن) واغمسه برفق في كمية ضئيلة جداً من الكحول الطبي الإيزوبروبيلي (Isopropyl Alcohol).</li>
+    <li>قم بمسح النقاط النحاسية أسفل السماعة برفق لإزالة أي شوائب.</li>
+    <li>نظف النقاط المعدنية داخل علبة الشحن بحذر شديد دون الضغط بقوة لتجنب كسرها أو التوائها.</li>
+    <li>اترك السماعة لتجف تماماً لمدة دقيقة قبل إعادتها للعلبة وتكرار محاولة إعادة ضبط المصنع.</li>
+</ul>
 
+<h2>تأثير اختلاف نسخ البلوتوث والتداخل الإشاري في الأماكن المزدحمة بمصر</h2>
+<p>تتميز شوارع وميادين القاهرة الكبرى ومحطات المترو بتواجد كثيف جداً لموجات الراديو المنبعثة من أبراج الاتصالات، وشبكات الواي فاي، ومئات الأجهزة المحمولة المجاورة. إذا كانت سماعة أذنك تدعم نسخة بلوتوث حديثة مثل Bluetooth 5.3 بينما يعمل هاتفك القديم بنسخة Bluetooth 5.0، فقد يؤدي ذلك لتراجع طفيف في ثبات الإشارة عند التواجد في محطة مترو صاخبة. ولتقليل تداخل الموجات، ننصح بإيقاف تشغيل شبكة الواي فاي مؤقتاً في هاتفك عند السير في الشارع، وتحديث نظام تشغيل الهاتف لأحدث نسخة لضمان كفاءة التوافق مع شريحة البلوتوث في سماعات Soundcore.</p>
+
+<h2>خطوة 4 — إصلاح تعارض الـ Codec (لو البلوتوث بيتقطع بعد الاتصال)</h2>
 <p>في بعض الحالات، التليفون والسماعة بيتوصلوا بنجاح لكن الصوت بيتقطع بعد دقايق أو ثواني. السبب الشائع هنا هو تعارض الكودك — التليفون بيحاول يبعت صوت بكودك معين والسماعة مش بتتعامل معاه بشكل مستقر.</p>
 
 <div style="background:#fefce8;border-right:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -145,7 +149,6 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h3>إزاي تغير الكودك لـ SBC على الأندرويد</h3>
-
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>فعّل <strong>خيارات المطور</strong> (Developer Options): افتح الإعدادات ← "عن الهاتف" ← اضغط على رقم الإصدار (Build Number) 7 مرات.</li>
     <li>ارجع للإعدادات الرئيسية ← خيارات المطور.</li>
@@ -153,13 +156,10 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     <li>اختار <strong>SBC</strong>.</li>
     <li>فصل واتصل بالسماعة تاني وشوف لو الانقطاع وقف.</li>
 </ol>
-
 <p>لو الانقطاع وقف بـ SBC، المشكلة مؤكدة في تعارض الكودك. بعد كده ممكن تجرب ترجع لـ AAC وتشوف هل الموضوع اتحل بعد تحديث نظام التشغيل أو firmware السماعة.</p>
 
 <h2>خطوة 5 — إصلاح مشكلة تطبيق Soundcore "Device Not Found"</h2>
-
 <p>لو السماعة متوصلة بالبلوتوث عادي لكن تطبيق Soundcore بيقول "Device Not Found" أو مش شايل السماعة:</p>
-
 <ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>تأكد إن السماعات في وضع <strong>pairing نشط</strong> — مش بس متوصلة، لازم تكون في وضع البحث. في بعض الأوقات التطبيق محتاج يشوف السماعة وهي بتبحث مش وهي متوصلة خليها.</li>
     <li>افتح التطبيق وروح على قائمة الأجهزة. لو السماعة موجودة فيها، اضغط عليها واختار <strong>"نسيان الجهاز"</strong> من داخل التطبيق.</li>
@@ -169,8 +169,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     <li>اتصل من التطبيق مباشرة (مش من إعدادات البلوتوث) — ده بيضمن التكامل الكامل بين التطبيق والسماعة.</li>
 </ol>
 
-<h2>مخطط القرار — هاشتري تعمل إيه أول؟</h2>
-
+<h2>مخطط القرار — هتعمل إيه أول؟</h2>
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
         <tr style="background:#1e40af;color:white;">
@@ -198,7 +197,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
         <tr style="background:#f9fafb;">
             <td style="padding:11px;border:1px solid #d1d5db;">أذنة واحدة بس بتشتغل</td>
             <td style="padding:11px;border:1px solid #d1d5db;">Reset + فصل الاتنين وإقران جديد</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">تواصل مع كايرو فولت — ممكن hardware</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">تنظيف نقاط الاتصال النحاسية بالعلبة</td>
         </tr>
         <tr>
             <td style="padding:11px;border:1px solid #d1d5db;">السماعة بتتوصل بس صوت مش بيجي</td>
@@ -209,13 +208,11 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </table>
 
 <h2>امتى تروح للضمان؟</h2>
-
 <p>الخطوات اللي فاتت بتحل 90% من مشاكل الاتصال. لو جربت كل الخطوات وفشلت، الاحتمالات بقت أقل ووحيدة:</p>
-
 <ul style="line-height:2;font-size:15px;padding-right:20px;">
-    <li>مشكلة في شريحة البلوتوث نفسها (ناذر لكن ممكن).</li>
-    <li>تلف في الموشير أو الكيس جاي من وقوع أو رطوبة عالية.</li>
-    <li>مشكلة firmware فيها bug معروف محتاج تحديث رسمي من Soundcore.</li>
+    <li>مشكلة في شريحة البلوتوث نفسها (نادرة ولكن ممكنة).</li>
+    <li>تلف في المؤشرات أو الكيس ناتج عن سقوط أو رطوبة عالية.</li>
+    <li>مشكلة firmware بها خلل (bug) معروف يحتاج لتحديث رسمي من Soundcore.</li>
 </ul>
 
 <div style="background:#fef2f2;border-right:4px solid #dc2626;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -223,8 +220,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
         <strong>قبل ما تيجي لكايرو فولت:</strong> لو السماعة لسه في فترة الضمان وعندك إيصال الشراء، روح لنا مباشرة ولا تحاول تفكها أو تصلحها في أي محل تاني — ده بيلغي الضمان فوراً. كايرو فولت موزع معتمد Anker في مصر والضمان بيتنفّذ عندنا بشكل رسمي.
     </p>
 </div>
-
-<p>للتواصل مع فريق الدعم الفني في كايرو فولت، زور موقعنا أو تواصل معنا عبر وسائل التواصل. بنردّ على كل الاستفسارات في أسرع وقت.</p>`,
+<p>للتواصل مع فريق الدعم الفني في كايرو فولت، زور موقعنا أو تواصل معنا عبر وسائل التواصل. بنردّ على كل الاستفسارات في أسرع وقت.</p>` ,
             faq: [
                 {
                     question: 'إزاي أعمل إعادة ضبط مصنع لـ Soundcore Liberty Air 2 Pro؟',
@@ -246,8 +242,8 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
         },
         en: {
             title: 'Earbuds Not Connecting to Android? Factory Reset Guide and Bluetooth Fix for Soundcore Liberty',
-            metaTitle: 'Soundcore Liberty Factory Reset and Bluetooth Fix Guide — Liberty Air 2 Pro, 4 NC, 4 Pro | CairoVolt',
-            metaDescription: 'Step-by-step factory reset instructions for Soundcore Liberty Air 2 Pro, Liberty 4 NC, and Liberty 4 Pro. Fix Bluetooth disconnection issues on Android and Soundcore app "Device Not Found" errors.',
+            metaTitle: 'Soundcore Liberty Factory Reset and Bluetooth Fix Guide | CairoVolt',
+            metaDescription: 'Step-by-step factory reset instructions for Soundcore Liberty Air 2 Pro, 4 NC, and 4 Pro. Fix Bluetooth disconnections on Android and app errors.',
             keywords: 'soundcore liberty factory reset, liberty air 2 pro not connecting, soundcore bluetooth fix android, liberty 4 nc pairing problem, soundcore app device not found, bluetooth keeps disconnecting soundcore, liberty earbuds reset steps, soundcore liberty troubleshooting',
             excerpt: 'Soundcore Liberty earbuds not connecting to your Android phone, or the Soundcore app keeps saying "Device Not Found"? This step-by-step guide covers factory reset procedures for Liberty Air 2 Pro, Liberty 4 NC, and Liberty 4 Pro — plus the most common Bluetooth fixes that actually work.',
             quickAnswer: 'To factory reset Liberty earbuds: remove from case, press and hold both touch panels for 8 seconds until LED flashes red and white. Then Forget the device in your phone\'s Bluetooth settings and re-pair fresh. If issues persist, clear the Bluetooth app cache in Android settings (Apps > System Apps > Bluetooth > Storage > Clear Cache).',
@@ -260,12 +256,10 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h2>Step 1 — Factory Reset Your Liberty Earbuds (Air 2 Pro / 4 NC / 4 Pro)</h2>
-
 <p>The reset procedure is similar across Liberty models with minor variations. Both methods below work — Method 1 is generally more reliable.</p>
 
 <h3>Method 1 — Reset via Earbud Touch Panels (Recommended)</h3>
-
-<ol style="line-height:2.2;font-size:15px;padding-left:20px;">
+<ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>Remove both earbuds from the charging case and place them in your ears or on a flat surface.</li>
     <li>Press and hold the touch panel on both earbuds simultaneously — both at the same time, not one after the other.</li>
     <li>Hold for exactly <strong>8 seconds</strong> without releasing.</li>
@@ -280,21 +274,17 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h3>Method 2 — Reset via Charging Case Button</h3>
-
-<ol style="line-height:2.2;font-size:15px;padding-left:20px;">
+<ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>Place both earbuds inside the charging case with the lid open.</li>
     <li>Press the case button 3 times quickly in rapid succession (all 3 presses within about one second).</li>
     <li>The case LED will flash, signaling the reset.</li>
     <li>Open the lid — the earbuds will now be in fresh pairing mode.</li>
 </ol>
-
 <p>Method 2 works well with Liberty Air 2 Pro. For Liberty 4 NC and Liberty 4 Pro, Method 1 (direct touch panel hold) is more consistently reliable.</p>
 
 <h2>Step 2 — Forget and Re-Pair on Your Phone</h2>
-
 <p>After the reset, there's a critical step that many users skip — and it's the most common reason problems return after a reset:</p>
-
-<ol style="line-height:2.2;font-size:15px;padding-left:20px;">
+<ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>Open your phone's <strong>Settings → Bluetooth</strong>.</li>
     <li>Find your Liberty earbuds in the list of previously paired devices.</li>
     <li>Tap the gear icon (⚙️) or the ⓘ info button next to the device name.</li>
@@ -309,12 +299,10 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h2>Step 3 — Fix Android Bluetooth Cache (Most Common Root Cause)</h2>
-
 <p>The single most common cause of persistent Bluetooth disconnections on Android isn't the earbuds — it's corrupted Bluetooth cache data on the phone itself. Android accumulates pairing and connection data in a temporary cache, and when that cache becomes corrupted or bloated, Bluetooth behaves erratically across all devices, not just Soundcore earbuds.</p>
 
 <h3>How to Clear Bluetooth Cache on Android</h3>
-
-<ol style="line-height:2.2;font-size:15px;padding-left:20px;">
+<ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>Open <strong>Settings</strong> on your Android phone.</li>
     <li>Go to <strong>Apps</strong> (or Apps &amp; Notifications, depending on your Android version).</li>
     <li>Tap the three-dot menu or a "See All" option and enable <strong>"Show System Apps"</strong>.</li>
@@ -351,8 +339,19 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
     </tbody>
 </table>
 
-<h2>Step 4 — Fix Codec Mismatch (Audio Keeps Cutting Out After Connection)</h2>
+<h2>Cleaning Charging Contacts to Fix Single Earbud Disconnections</h2>
+<p>Very often, users complain that one earbud completely refuses to connect or fails to trigger pairing mode. In many of these cases, the root cause is the accumulation of sweat, dust, or skin oil on the gold-plated charging pins at the bottom of the earbud stems or inside the charging case. When charging is blocked, the earbud cannot sense it is in the case, so it never restarts its system controller. To fix this:</p>
+<ul>
+    <li>Take a clean cotton swab and dampen it with a tiny drop of Isopropyl Alcohol.</li>
+    <li>Gently clean the gold contacts on the earbud stem.</li>
+    <li>Carefully wipe the spring pins inside the charging case without applying heavy pressure.</li>
+    <li>Let it dry completely for 60 seconds before testing the factory reset again.</li>
+</ul>
 
+<h2>Bluetooth Signal Interference and Version Compatibility in Egypt</h2>
+<p>Egyptian streets and public transport terminals are saturated with radio signals from cell towers, Wi-Fi networks, and active Bluetooth devices. If your phone supports Bluetooth 5.0 and your earbuds use Bluetooth 5.3, this version difference can sometimes lead to micro-stutters in crowded areas. To maximize stability, we recommend temporarily turning off Wi-Fi on your phone when walking outdoors, and keeping your phone's operating system updated to ensure optimal performance with the Soundcore wireless chipset.</p>
+
+<h2>Step 4 — Fix Codec Mismatch (Audio Keeps Cutting Out After Connection)</h2>
 <p>If your earbuds connect successfully but audio cuts out repeatedly after a few seconds or minutes, the issue is likely a codec negotiation conflict. Your phone is attempting to use one codec while the earbuds are struggling to maintain a stable stream at that codec's demands — this is especially common with AAC on some Android builds.</p>
 
 <div style="background:#fefce8;border-left:4px solid #ca8a04;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -362,22 +361,18 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </div>
 
 <h3>How to Force SBC Codec on Android</h3>
-
-<ol style="line-height:2.2;font-size:15px;padding-left:20px;">
+<ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>Enable <strong>Developer Options</strong>: Settings → About Phone → tap Build Number 7 times until you see "You are now a developer."</li>
     <li>Go back to main Settings → <strong>Developer Options</strong> (usually near the bottom of the list).</li>
     <li>Find <strong>Bluetooth Audio Codec</strong>.</li>
     <li>Select <strong>SBC</strong>.</li>
     <li>Disconnect and reconnect your earbuds, then test for audio cutouts.</li>
 </ol>
-
 <p>If SBC solves the problem, the codec was the issue. You can try switching back to AAC later (especially after a phone OS update or earbuds firmware update) to see if the conflict has been resolved in a newer version.</p>
 
 <h2>Step 5 — Fix Soundcore App "Device Not Found" Error</h2>
-
 <p>This error appears when the Soundcore app can't establish a management connection to the earbuds, even if the earbuds show as connected in the phone's Bluetooth settings. The Soundcore app needs a specific type of connection beyond basic audio pairing.</p>
-
-<ol style="line-height:2.2;font-size:15px;padding-left:20px;">
+<ol style="line-height:2.2;font-size:15px;padding-right:20px;">
     <li>Make sure the earbuds are in <strong>active pairing mode</strong> — not just connected. The Soundcore app sometimes needs to discover the earbuds while they're advertising for a new connection, not while they're already in a stable paired state.</li>
     <li>Open the Soundcore app and go to your device list. If the earbuds appear there, tap them and select <strong>"Forget Device"</strong> from within the app (separate from the phone's Bluetooth forget).</li>
     <li>Also forget the device in the phone's Bluetooth settings (Settings → Bluetooth → Forget).</li>
@@ -387,7 +382,6 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </ol>
 
 <h2>Troubleshooting Decision Table</h2>
-
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
         <tr style="background:#1e40af;color:white;">
@@ -415,7 +409,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
         <tr style="background:#f9fafb;">
             <td style="padding:11px;border:1px solid #d1d5db;">Only one earbud producing sound</td>
             <td style="padding:11px;border:1px solid #d1d5db;">Reset + disconnect both and re-pair together</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">Contact CairoVolt — may be hardware</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">Clean case charging pins</td>
         </tr>
         <tr>
             <td style="padding:11px;border:1px solid #d1d5db;">Earbuds connect but no audio output</td>
@@ -426,9 +420,7 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
 </table>
 
 <h2>When to Escalate to Warranty Support</h2>
-
 <p>The steps in this guide resolve the majority of Liberty connectivity issues. If you've worked through every step — factory reset, Forget and re-pair, Bluetooth cache clear, codec change — and the problem persists, the remaining possibilities are hardware-level:</p>
-
 <ul style="line-height:2;font-size:15px;padding-left:20px;">
     <li>Damaged Bluetooth chipset from impact or moisture exposure.</li>
     <li>Charging case or earbud contact point damage preventing proper reset.</li>
@@ -440,8 +432,8 @@ export const soundcore_liberty_air_2_factory_reset_connection_fix: BlogArticle =
         <strong>Before bringing earbuds in for service:</strong> If your earbuds are within the warranty period and you have your purchase receipt, contact CairoVolt first and do not attempt to open or repair the earbuds elsewhere. Third-party repairs void the Anker warranty. CairoVolt is the authorized Anker distributor in Egypt and handles all official warranty claims.
     </p>
 </div>
-
-<p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about warranty terms and authorized service procedures. For direct support, visit the CairoVolt website or reach out through our social channels — we respond to all technical inquiries as quickly as possible.</p>`,
+<p>The <a href="/en/blog/soundcore-models-guide-egypt-2026">Soundcore Egypt 2026 buying guide</a> has more information about warranty terms and authorized service procedures. For direct support, visit the CairoVolt website or reach out through our social channels — we respond to all technical inquiries as quickly as possible.</p>
+<p>Additionally, the earbud charging cases vary significantly in size. The Liberty Buds case is the most pocketable and compact, fitting easily into coin pockets. The Liberty 4 NC features a unique button-release mechanism that pops the lid open smoothly, while the Liberty 4 Pro case features a glossy premium finish and a slide-to-open gesture sensor that gives it a futuristic feel. This variety allows buyers to prioritize pocketability, ease of access, or premium aesthetics.</p>`,
             faq: [
                 {
                     question: 'How do I factory reset the Soundcore Liberty Air 2 Pro?',

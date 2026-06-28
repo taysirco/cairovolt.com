@@ -17,7 +17,6 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
         'iphone-charging-cable-break-protection-tips',
         'authentic-iphone-lightning-cable-vs-fake',
         'anker-agent-egypt-branches-warranty-rules',
-        'anker-original-website-verify-barcode-guide',
     ],
     relatedCategories: ['Anker/wall-chargers'],
     coverImage: '/images/blog/posts/apple-watch-magnetic-charger-guide.webp',
@@ -48,19 +47,11 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
                     answer: 'الشاحن المغناطيسي الأصلي عنده دائرة إلكترونية بتتحكم في الجهد والتيار بدقة شديدة. التقليد مش عنده الدائرة دي — بيدخّل جهد غير منتظم في دائرة الشحن اللي في الساعة ممكن يحرقها. التقليد أيضاً مش بيدعم الشحن السريع حتى لو مكتوب عليه ذلك.',
                 },
                 {
-                    question: 'هل الشاحن الأصلي Apple Watch متوفر في مصر وبكام؟',
-                    answer: 'شاحن Apple Watch المغناطيسي الأصلي 1م بيتراوح بين 800-1,200 جنيه في التوكيلات والمحلات المعتمدة. الشاحن الأصلي 2م بيتراوح بين 1,100-1,500 جنيه. البدائل المعتمدة من أنكر (MFi certified) بسعر أقل وأداء مماثل وضمان أطول.',
-                },
-                {
                     question: 'الطول 1م أو 2م — أيهما يناسبني؟',
-                    answer: 'لو بتشحن الساعة على التسريحة بجانب السرير — 1م كافي. لو بتشحنها على مكتب أو بعيد عن البريزة — 2م أريح بكتير. التجربة الأكثر شيوعاً: ناس تشتري 1م وتتأفف إن السلك قصير. وفّر الزعل وخد 2م من البداية لو مش متأكد.',
-                },
-                {
-                    question: 'هل ممكن أستخدم شاحن Apple Watch القديم (USB-A) مع الموديلات الجديدة؟',
-                    answer: 'أيوه، هيشتغل — بس مش هيدي الشحن السريع. الشحن السريع يحتاج خرج USB-C بـ USB Power Delivery. شاحن USB-A القديم هيشحن الساعة بالسرعة العادية (حوالي ساعتين للشحن الكامل) بدل 45 دقيقة للـ 0-80%.',
+                    answer: 'لو بتشحن الساعة على التسريحة بجانب السرير — 1م كافي. لو بتشحنها على مكتب أو بعيد عن البريزة — 2م أريح بكتير. وفّر الزعل وخد 2م من البداية لو مش متأكد.',
                 },
             ],
-            content: `<p>شاحن ساعة Apple Watch المغناطيسي موضوع فيه تفاصيل كتير ناس بتتجاهلها وبعدين بتتفاجأ: الشحن السريع مش شغّال على موديلها، اشترت طول غلط، أو الأسوأ — اشترت تقليد وأتلفت الساعة. المقال ده بيشرح كل الخيارات بوضوح.</p>
+            content: `<p>شاحن ساعة Apple Watch المغناطيسي موضوع فيه تفاصيل كتير جداً ناس بتتجاهلها وبعدين بتتفاجأ بالنتيجة: الشحن السريع مش شغّال على موديلها، اشترت طول غلط، أو الأسوأ — اشترت تقليد وأتلفت الساعة اللي ثمنها آلاف الجنيهات. المقال ده بيشرح كل الخيارات بوضوح تام وبيساعدك تاخد القرار الصح من أول مرة.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-right: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
 <strong>الإجابة السريعة:</strong> طول 1م للغرفة، 2م للمكتب والسفر. الشحن السريع (0-80% في 45 دقيقة) بيشتغل بس مع Series 7 وأحدث + شاحن يدعم USB PD. شواحن التقليد خطيرة جداً على الساعة.
@@ -94,16 +85,16 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 </tbody>
 </table>
 
-<p>النصيحة العملية: لو مش متأكد — خد 2م. الشاحن القصير أزعج من الشاحن الطويل اللي ممكن تلفّه.</p>
+<p>النصيحة العملية: لو مش متأكد — خد 2م على طول. الشاحن القصير أزعج من الشاحن الطويل اللي ممكن تلفّه. كمان الكابل الطويل بيديك مرونة في مكان الشحن — لو غيرت ترتيب الغرفة أو رحت فندق الكابل الطويل هيوصل لأي بريزة.</p>
 
 <h2>الشحن السريع — ما هو بالظبط ومين يستفيد منه؟</h2>
 
 <p>Apple أضافت الشحن السريع (Fast Charging) في Apple Watch Series 7 لأول مرة. ده معناه:</p>
 
 <ul style="line-height: 1.9; margin-right: 20px;">
-<li>0% لـ 80%: حوالي 45 دقيقة فقط</li>
-<li>شحن كامل 100%: حوالي ساعة ونص</li>
-<li>مقارنة بالموديلات القديمة: ساعتين ونص للشحن الكامل</li>
+<li>0% لـ 80%: حوالي 45 دقيقة فقط — يعني تشحنها وانت بتتغدا الصبح وتلاقيها جاهزة</li>
+<li>شحن كامل 100%: حوالي ساعة ونص بس — وبتكفيك يوم كامل مع تتبع الرياضة والإشعارات</li>
+<li>مقارنة بالموديلات القديمة: ساعتين ونص للشحن الكامل — فرق كبير جداً</li>
 </ul>
 
 <div class="expert-callout" style="background: #fefce8; border: 1px solid #fbbf24; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
@@ -160,7 +151,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <li>الحماية من الحرارة الزيادة</li>
 </ul>
 
-<p>الشاحن التقليد مش فيه الدائرة دي. بيوصّل جهد غير منتظم وتيار غير محكوم لدائرة الشحن في الساعة — وده ممكن يسبب:</p>
+<p>الشاحن التقليد مش فيه الدائرة دي. بيوصّل جهد غير منتظم وتيار غير محكوم لدائرة الشحن في الساعة — وده ممكن يسبب أضرار خطيرة لأن دائرة الشحن دي حساسة جداً وتكلفة إصلاحها بتبقى أغلى من شراء شاحن أصلي بكتير:</p>
 
 <ul style="line-height: 1.9; margin-right: 20px;">
 <li>حرق دائرة الشحن في الساعة (تلف دائم)</li>
@@ -168,6 +159,8 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <li>ارتفاع حرارة الساعة أثناء الشحن</li>
 <li>في حالات نادرة: خطر حريق</li>
 </ul>
+
+<p>وفي مصر تحديداً — الشواحن التقليد منتشرة بشكل كبير في الأسواق الشعبية وعلى المتاجر الإلكترونية. السعر المنخفض جداً (أقل من 300 جنيه) هو أول علامة تحذير. الشاحن الأصلي 1م بيتراوح بين 800-1,200 جنيه — أي حاجة أقل من كده بكتير هي تقليد مهما قالولك.</p>
 
 <h3>كيف تعرف الشاحن الأصلي من التقليد؟</h3>
 
@@ -195,12 +188,16 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <h2>نصائح الاستخدام الصح لإطالة عمر شاحن Apple Watch</h2>
 
 <ul style="line-height: 1.9; margin-right: 20px;">
-<li>حط الشاحن في مكان ثابت ومتحركوش كتير — النقطة المغناطيسية حساسة</li>
-<li>منفضش التراب من على الشاشة بالنفخ — الرطوبة بتأثر على الشحن اللاسلكي</li>
-<li>لو الشحن مش بيبدأ — تأكد إن الساعة محاذية صح على القرص المغناطيسي</li>
+<li>حط الشاحن في مكان ثابت ومتحركوش كتير — النقطة المغناطيسية حساسة وكثرة الحركة بتضعف الاتصال</li>
+<li>منفضش التراب من على الشاشة بالنفخ — الرطوبة اللي في النفس بتأثر على الشحن اللاسلكي وبتسبب تراكم رطوبة على الملفات</li>
+<li>لو الشحن مش بيبدأ — تأكد إن الساعة محاذية صح على القرص المغناطيسي والأفضل تشيل أي كفر أو جراب على الساعة</li>
 <li>متخبيش الكابل في حاجة ضيقة — الكابل ينكسر من طرفين زي كابل الايفون بالظبط</li>
-<li>لو الشحن بطيء فجأة — جرّب نظّف الجزء الخلفي من الساعة والقرص المغناطيسي</li>
+<li>لو الشحن بطيء فجأة — جرّب نظّف الجزء الخلفي من الساعة والقرص المغناطيسي بقطعة قماش ناعمة جافة</li>
 </ul>
+
+<p>كمان نصيحة مهمة: لو عندك شاحن جداري USB-C بيدعم USB Power Delivery (زي <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> أو <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a>) — تقدر تستخدمه لشحن الساعة والايفون مع بعض. الشاحن بيوزّع الطاقة أوتوماتيكياً حسب احتياج كل جهاز — فمش محتاج شاحن منفصل لكل جهاز. وده بيوفّر مكان في البريزة وفي الشنطة لو مسافر. كمان الشواحن الحديثة بتكنولوجيا GaN بتكون أصغر حجماً وأقل حرارة من الشواحن التقليدية.</p>
+
+<p>ولو بتسافر كتير — خد Power Bank زي <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10000</a> معاك عشان تشحن الساعة في الطيارة أو الفندق بدون ما تدوّر على بريزة. الساعة بتستهلك طاقة قليلة جداً (حوالي 5W) فمش هتأثر على شحن الباور بانك خالص.</p>
 
 <h2>خلاصة القرار</h2>
 
@@ -229,12 +226,40 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <td style="padding: 10px;">Anker MFi بضمان 18 شهر — أوفر من Apple على المدى الطويل</td>
 </tr>
 </tbody>
-</table>`,
+</table>
+
+<h2>فيزياء الشحن اللاسلكي — ليه Apple Watch بتتسخّن؟</h2>
+
+<p>الشحن اللاسلكي المغناطيسي بيعتمد على مبدأ الحث الكهرومغناطيسي (electromagnetic induction): ملف في الشاحن بيولّد مجال مغناطيسي متغير بيعدّي على ملف تاني في ظهر الساعة وبيولّد تيار كهربائي بيشحن البطارية. المشكلة إن الكفاءة مش 100% — جزء من الطاقة بيتحول لحرارة. وده طبيعي تماماً ومحسوب في التصميم.</p>
+
+<p>الساعة ممكن ترتفع حرارتها لحد 40-42°C أثناء الشحن السريع وده آمن تماماً. بس لو حسيتها بتسخن أكتر من كده — ممكن يكون في مشكلة في المحاذاة بين الملف والساعة أو إن البيئة المحيطة حارة جداً (صيف مصر). لو الساعة وصلت لحرارة غير آمنة — نظام Apple بيوقف الشحن أوتوماتيكياً وبيظهر رسالة تحذير على الشاشة. ده مش عيب في الشاحن — ده حماية ذكية.</p>
+
+<h2>وضع Nightstand و Sleep Focus</h2>
+
+<p>Apple Watch عندها ميزة اسمها Nightstand Mode — لما تحط الساعة على الشاحن وهي على جنبها، الشاشة بتتحول لساعة منبه. وده مفيد جداً لو بتشحنها بالليل على التسريحة. الساعة بتشحن من 0 لـ 100% في ساعتين تقريباً (عادي) أو ساعة ونص (سريع) — يعني حتى لو نسيت تشحنها غير قبل النوم بساعة، هتبقى جاهزة الصبح.</p>
+
+<p>مع watchOS 9 وأحدث — ميزة Sleep Focus بتقلل استهلاك البطارية بالليل بشكل كبير. لو بتلبس الساعة بالليل لتتبع النوم، ممكن تشحنها وقت الاستحمام بس (30 دقيقة بتوصلها 50-60% مع الشحن السريع). وده كافي ليوم كامل لمعظم المستخدمين. الفكرة إنك مش محتاج تشحن الساعة 100% كل يوم — 50-80% كفاية لمعظم الناس.</p>
+
+<h2>نصائح إطالة عمر بطارية Apple Watch</h2>
+
+<p>بطارية Apple Watch ليثيوم أيون — نفس تقنية بطارية الايفون وبتتأثر بنفس العوامل:</p>
+
+<ul>
+<li><strong>الحرارة:</strong> متشحنش الساعة في مكان حار أو تحت أشعة الشمس المباشرة — ده بيسرّع تدهور البطارية بشكل ملحوظ</li>
+<li><strong>الشحن المتكرر من 0%:</strong> حاول متنزلش البطارية تحت 20% — الشحن من 20% لـ 80% هو الأصح لصحة البطارية</li>
+<li><strong>Optimized Battery Charging:</strong> فعّل الميزة دي من Settings → Battery → Battery Health — الساعة هتتعلم نمط شحنك وهتبطئ الشحن فوق 80% لحد ما تحتاجها</li>
+<li><strong>تحديثات watchOS:</strong> كل تحديث بيحسّن إدارة البطارية — حافظ على التحديث لآخر إصدار</li>
+<li><strong>الشاحن الأصلي أو MFi:</strong> الشاحن الأصلي أو المعتمد بيحافظ على صحة البطارية لأنه بيتحكم في التيار بدقة — التقليد بيدمّر البطارية تدريجياً حتى لو مش واضح في أول شهور</li>
+</ul>
+
+<p>Apple بتقول إن البطارية مصممة تحتفظ بـ 80% من سعتها بعد 1,000 دورة شحن كاملة — يعني تقريباً 3 سنين من الاستخدام اليومي. باستخدام الشاحن الصح والعادات الصحية — ممكن توصّلها لـ 4 سنين بسهولة.</p>
+
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">شواحن مناسبة لـ Apple Watch: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10000</a>.</p></div>`,
         },
         en: {
             title: 'Apple Watch Magnetic Charger Guide — Choosing the Right Length and Real Charging Speed',
             metaTitle: 'Apple Watch Magnetic Charger — Right Length, True Fast Charge Speed Explained',
-            metaDescription: 'Complete guide to Apple Watch magnetic chargers — 1m vs 2m, when fast charging actually works (Series 7+ only), and why fake chargers can permanently damage your watch.',
+            metaDescription: 'Apple Watch magnetic charger guide — 1m vs 2m cable, which models support fast charging (Series 7+ only), and how fake chargers damage your watch.',
             excerpt: 'Apple Watch charger decisions have more nuance than they look: the right cable length, whether fast charging actually works on your model, and why fake chargers are genuinely dangerous.',
             quickAnswer: 'Apple Watch magnetic charger: 1m for bedroom use, 2m for desk/travel. Fast charging (0-80% in 45 min) only works on Series 7 and newer, plus you need a USB-C charger with USB PD. Fake chargers are dangerous — they can burn out the charging circuit in your watch by pushing unregulated voltage.',
             keywords: 'Apple Watch magnetic charger, Apple Watch fast charging, Apple Watch charger length 1m 2m, Apple Watch Series 7 fast charge, Anker Apple Watch charger MFi, fake Apple Watch charger danger, Apple Watch USB-C charging, Apple Watch charger Egypt',
@@ -252,19 +277,11 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
                     answer: 'The genuine Apple Watch magnetic charger contains a control IC that precisely regulates voltage and current. Fake chargers lack this circuit — they push unregulated power into the watch\'s charging circuit, which can permanently burn it out. Fakes also don\'t support fast charging regardless of what the packaging claims.',
                 },
                 {
-                    question: 'How much does an original Apple Watch charger cost in Egypt?',
-                    answer: 'Genuine Apple Watch magnetic charger (1m) runs 800-1,200 EGP at authorized retailers. The 2m version runs 1,100-1,500 EGP. MFi-certified Anker alternatives are available at lower prices with longer warranties through authorized distributors like CairoVolt.',
-                },
-                {
                     question: 'Should I get 1m or 2m length?',
                     answer: 'If you charge on a nightstand right next to the outlet — 1m works. If you charge at a desk, in a hotel room, or anywhere the outlet might be across the table — get 2m. The most common complaint is buying 1m and finding it too short. When in doubt, get 2m.',
                 },
-                {
-                    question: 'Can I use an old USB-A Apple Watch charger with Series 7+?',
-                    answer: 'Yes, it will charge — but you won\'t get fast charging. Fast charging requires USB-C output with Power Delivery. A USB-A charger will charge Series 7+ at normal speed (about 90 minutes for full charge) instead of the 45-minute 0-80% fast charge.',
-                },
             ],
-            content: `<p>Apple Watch magnetic charger — seems simple enough. But there are details that trip people up: fast charging that doesn't work on their model, wrong cable length, or worse — a fake charger that damages the watch. This guide covers everything clearly.</p>
+            content: `<p>Apple Watch magnetic charger — it seems like a simple enough purchase, but there are critical details that trip people up every day: fast charging that doesn't actually work on their model because they have an older Series, wrong cable length that barely reaches the outlet, or worst of all — a counterfeit charger that permanently damages the watch's internal charging circuit worth thousands. This comprehensive guide covers everything you need to know to make the right decision the first time.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-left: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
 <strong>Quick Answer:</strong> 1m for bedroom, 2m for desk/travel. Fast charging (0-80% in 45 min) only works on Series 7 and newer + USB-C charger with USB PD. Fake chargers can permanently damage your watch's charging circuit.
@@ -272,7 +289,9 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 
 <h2>Cable Length: 1m or 2m?</h2>
 
-<p>This sounds trivial but generates the most complaints. The decision comes down to your charging setup:</p>
+<p>This sounds trivial but generates the most complaints from Apple Watch owners. The decision comes down to your charging setup and lifestyle — but there's a clear winner for most situations:</p>
+
+<p>The 1m cable works perfectly when your nightstand is directly next to an outlet. The 2m cable is better for desks, hotel rooms, and any situation where the nearest outlet isn't immediately adjacent to where you place the watch. The most common regret: buying 1m and discovering it barely reaches. The 2m version costs slightly more but eliminates this frustration entirely. Also, a longer cable gives you flexibility if you rearrange furniture or travel to a hotel where the outlet is behind the bed.</p>
 
 <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
 <thead>
@@ -296,7 +315,7 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 </tbody>
 </table>
 
-<p>Rule of thumb: if you're unsure, buy 2m. Too-short cables are a daily annoyance; a slightly-long cable you can coil. The most common regret is buying 1m and immediately wishing they'd bought 2m.</p>
+<p>Practical tip: if you're unsure, go with 2m from the start — the short cable is more frustrating than having some extra length you can simply coil up. The 2m cable also gives you the flexibility to use it across different rooms and setups without worrying about reaching the nearest outlet. The most common regret is buying 1m and immediately wishing they'd bought 2m.</p>
 
 <h2>Fast Charging — What It Actually Means and Who Benefits</h2>
 
@@ -414,7 +433,35 @@ export const apple_watch_magnetic_charger_guide: BlogArticle = {
 <td style="padding: 10px;">Anker MFi with 18-month warranty — better long-term value than Apple's own</td>
 </tr>
 </tbody>
-</table>`,
+</table>
+
+<h2>Inductive Charging Physics — Why Does Apple Watch Get Warm?</h2>
+
+<p>Magnetic wireless charging relies on electromagnetic induction: a coil in the charger generates an alternating magnetic field that passes through a receiving coil on the back of the watch, inducing an electric current that charges the battery. The process isn't 100% efficient — some energy is inevitably lost as heat. This is completely normal and accounted for in the design engineering.</p>
+
+<p>During fast charging, the watch may reach 40-42°C — this is entirely safe. However, if it feels noticeably hotter than that, the issue is likely misalignment between the charging puck and the watch's back, or an ambient environment that's too hot (Egypt's summer heat is a real factor). When the watch detects unsafe temperatures, Apple's thermal management system automatically pauses charging and displays a warning icon. This isn't a charger defect — it's intelligent protection working as designed.</p>
+
+<h2>Nightstand Mode and Sleep Focus Integration</h2>
+
+<p>Apple Watch features Nightstand Mode — when placed on the charger on its side, the screen transforms into a bedside alarm clock display showing time, date, and alarm status. This is extremely useful for overnight charging on your nightstand. The watch charges from 0-100% in about 2 hours (standard) or 1.5 hours (fast) — meaning even if you forget to charge until an hour before sleep, it'll be ready by morning.</p>
+
+<p>With watchOS 9 and later, Sleep Focus mode dramatically reduces battery drain overnight. If you wear your watch at night for sleep tracking, you can charge it during your shower routine only (30 minutes with fast charging reaches 50-60%). That's enough for a full day for most users. The key insight: you don't need to charge to 100% every day — 50-80% is sufficient for typical all-day usage patterns including workouts and notifications.</p>
+
+<h2>Apple Watch Battery Longevity Tips</h2>
+
+<p>Apple Watch uses a lithium-ion battery — the same technology as iPhone batteries, affected by the same factors:</p>
+
+<ul>
+<li><strong>Heat exposure:</strong> Never charge the watch in direct sunlight or hot environments — this significantly accelerates battery degradation over time</li>
+<li><strong>Deep discharge cycles:</strong> Try not to let the battery drop below 20% — charging from 20% to 80% is the healthiest range for lithium-ion chemistry</li>
+<li><strong>Optimized Battery Charging:</strong> Enable this from Settings → Battery → Battery Health — the watch learns your charging habits and slows charging above 80% until you actually need it</li>
+<li><strong>watchOS updates:</strong> Every update improves battery management algorithms — always keep your watch updated to the latest version</li>
+<li><strong>Genuine or MFi charger:</strong> Original or MFi-certified chargers maintain battery health through precise voltage and current regulation — counterfeit chargers gradually damage the battery even when damage isn't immediately visible</li>
+</ul>
+
+<p>Apple states the battery is designed to retain 80% of its original capacity after 1,000 complete charge cycles — approximately 3 years of daily use. With the right charger and healthy charging habits, you can easily extend this to 4 years or more.</p>
+
+<div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">Chargers compatible with Apple Watch: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/power-banks/anker-powercore-10000" style="color:#2563eb;font-weight:600;">Anker PowerCore 10000</a>.</p></div>`,
         },
     },
 };

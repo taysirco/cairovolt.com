@@ -10,7 +10,9 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
         'anker-prime-a1695-25000',
         'anker-zolo-a1681-20000',
         'anker-nano-45w-smart-display-charger',
-        'anker-a2741-charger-30w'
+        'anker-a2741-charger-30w',
+        'joyroom-power-bank-20000',
+        'joyroom-3-in-1-wireless-charging-station'
     ],
     relatedArticles: [
         'anker-521-powerhouse-portable-power-station-review',
@@ -27,12 +29,12 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
     translations: {
         ar: {
             title: 'مقارنة محطات الطاقة Anker — من 256Wh للمنزل لـ 500Wh+ للرحلات الطويلة',
-            metaTitle: 'مقارنة محطات طاقة Anker Powerhouse 2026 — 521 vs 535 vs 555 | كايرو فولت',
-            metaDescription: 'مقارنة شاملة بين محطات طاقة Anker: 521 (256Wh) للانقطاع المنزلي، 535 (512Wh) لرحلات الساحل، 555 (1024Wh) للتخييم والمواقع. جدول السعة والواط والوزن والشحن. السياق المصري.',
-            keywords: 'anker powerhouse مقارنة, محطة طاقة انكر مصر, anker 521 vs 535 vs 555, power station مصر 2026, anker 535 powerhouse, anker 555 powerhouse, محطة طاقة انقطاع كهرباء مصر, باور ستيشن للرحلات مصر, anker powerhouse سعة, محطة طاقة ساحل مصر',
+            metaTitle: 'مقارنة محطات طاقة Anker Powerhouse — 521 vs 535 vs 555 | كايرو فولت',
+            metaDescription: 'مقارنة شاملة بين محطات طاقة Anker: 521 و535 و555 في مصر. جدول مقارنة السعة والواط والوزن والشحن لمساعدتك في اختيار المحطة المثالية لمنزلك بالتفصيل الكامل.',
+            keywords: 'anker powerhouse مقارنة, محطة طاقة انكر مصر, anker 521 vs 535 vs 555, power station مصر, anker 535 powerhouse, anker 555 powerhouse, محطة طاقة انقطاع كهرباء مصر, باور ستيشن للرحلات مصر, anker powerhouse سعة, محطة طاقة ساحل مصر',
             excerpt: 'Anker عندها 3 موديلات محطات طاقة: 521 (256Wh)، 535 (512Wh)، 555 (1024Wh). كل منهم لاستخدام مختلف. مقارنة شاملة بالأرقام لمن يريد الاختيار الصح في مصر.',
             quickAnswer: 'Anker 521 (256Wh) للانقطاع المنزلي القصير (لابتوب 3.9 ساعة). Anker 535 (512Wh) لرحلات الساحل والنيل (لابتوب 7.5 ساعة). Anker 555 (1024Wh) للمواقع والتخييم الطويل (تلفزيون 8 ساعات). كلهم بمقبس AC حقيقي.',
-            content: `<p>مصر عندها حاجات خاصة بتفرض الاختيار الصح من محطات الطاقة: انقطاع كهرباء متكرر في الصيف، رحلات للساحل والصحراء من غير كهرباء، ومواقع بناء أو زراعة بعيدة عن الشبكة. Anker بتوفر 3 موديلات لكل سيناريو. المشكلة؟ الفرق بينهم أكبر مما يبان من الأسماء.</p>
+            content: `<p>مصر عندها احتياجات خاصة بتفرض الاختيار الصح من محطات الطاقة: انقطاع كهرباء متكرر في الصيف، رحلات للساحل والصحراء من غير كهرباء، ومواقع بناء أو زراعة بعيدة عن الشبكة الكهربائية القومية. Anker بتوفر 3 موديلات ممتازة لكل سيناريو. المشكلة؟ الفرق بينهم أكبر بكثير مما يظهر من الأسماء التجارية المتقاربة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -40,7 +42,7 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
     </p>
 </div>
 
-<h2>مقارنة المواصفات الأساسية</h2>
+<h2>مقارنة المواصفات الأساسية بالتفصيل</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
@@ -103,108 +105,114 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
     </tbody>
 </table>
 
-<h2>Anker 521 (256Wh) — للانقطاع المنزلي القصير</h2>
-<p>الـ 521 هو الأخف والأرخص في التشكيلة. مناسب للشقق المصرية في فترات انقطاع الكهرباء 1-3 ساعات. وزنه 3.5 كيلو يعني تقدر تنقله بسهولة من أوضة لأوضة، وحتى تاخده في السيارة للرحلات القصيرة. مخرج AC واحد بـ 200W — كافي لتشغيل لابتوب أو مروحة أو تلفزيون.</p>
-
-<p>حساب الأجهزة الشائعة مع الـ 521:</p>
+<h2>Anker 521 (256Wh) — للانقطاع المنزلي القصير والمهام الأساسية</h2>
+<p>الـ 521 هو الأصغر حجماً والأخف وزناً والأكثر ملاءمة للميزانية الاقتصادية في تشكيلة Powerhouse. هذا الموديل مصمم خصيصاً لمواجهة فترات انقطاع الكهرباء اليومية التي تستمر من ساعة إلى 3 ساعات في الشقق المصرية. وزنه البالغ 3.5 كيلوجرام فقط يتيح لك نقله بيد واحدة بسهولة بين الغرف، أو حتى وضعه في حقيبة السيارة الخلفية للرحلات القصيرة.</p>
+<p>يحتوي الجهاز على مخرج تيار متردد AC واحد بقوة مستمرة تصل لـ 200 واط، وهو ما يكفي تماماً لتشغيل الأجهزة المكتبية الأساسية ومستلزمات العمل من المنزل:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">💻 <strong>لابتوب 65W:</strong> 3.9 ساعة</li>
-    <li style="margin-bottom:10px;">🌀 <strong>مروحة طاولة 25W:</strong> 7.5 ساعة</li>
-    <li style="margin-bottom:10px;">📡 <strong>راوتر 12W:</strong> 14 ساعة</li>
-    <li style="margin-bottom:10px;">📺 <strong>تلفزيون 55" (110W):</strong> 2 ساعة</li>
-    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>تكييف:</strong> مش ممكن</li>
+    <li style="margin-bottom:10px;">💻 <strong>لابتوب مكتب عادي 65W:</strong> يعمل حتى 3.9 ساعة متواصلة.</li>
+    <li style="margin-bottom:10px;">🌀 <strong>مروحة طاولة صغيرة 25W:</strong> يعمل حتى 7.5 ساعة لترطيب الجو.</li>
+    <li style="margin-bottom:10px;">📡 <strong>راوتر واي فاي منزلي 12W:</strong> يعمل لأكثر من 14 ساعة متواصلة.</li>
+    <li style="margin-bottom:10px;">📺 <strong>تلفزيون LED قياس 55 بوصة (110W):</strong> يعمل حتى ساعتين تقريباً.</li>
+    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>سخانات مياه أو مكواة أو تكييف:</strong> مستحيل تشغيلها على هذا الموديل.</li>
 </ul>
+<p><strong>المستخدم المثالي له:</strong> الموظفون الذين يعملون عن بعد من المنزل، الطلاب للمذاكرة أثناء فصل الكهرباء، ومنظمو الرحلات اليومية الخفيفة التي لا تتضمن المبيت خارج المنزل.</p>
 
-<p><strong>المثالي له:</strong> سكان الشقق، الشغل من المنزل، الرحلات اليومية والساحل بدون بيات.</p>
-
-<h2>Anker 535 (512Wh) — لرحلات الساحل والنيل</h2>
-<p>الـ 535 ضعف الـ 521 بالظبط في السعة — 512Wh مقابل 256Wh. لكن الأهم هو المخرج AC اللي وصل لـ 500W مع مخرجين اتنين. ده بيخليه يشتغل مع تلفزيون ولابتوب في نفس الوقت، أو ثلاجة مناسبة صغيرة للتخييم (ذات مقبس كهربائي بدون ضاغط عالي).</p>
-
-<p>حساب أجهزة يوم في الساحل مع الـ 535:</p>
+<h2>Anker 535 (512Wh) — لرحلات الساحل وععلات نهاية الأسبوع</h2>
+<p>يمثل موديل Anker 535 خيار الفئة المتوسطة الذهبي، حيث يوفر سعة بطارية تبلغ 512Wh وهو ما يعادل ضعف سعة الـ 521 تماماً. الفارق الحقيقي لا يقتصر على السعة فقط، بل يمتد لقدرة مخرج التيار المتردد AC الذي يرتفع إلى 500 واط مستمر عبر مخرجين مستقلين. يتيح لك هذا الترقية تشغيل أجهزة أكثر تطلباً للطاقة وتوصيل جهازين يعملان بالتيار المتردد في نفس الوقت.</p>
+<p>تقديرات تشغيل الأجهزة الشائعة في المصايف والرحلات مع Anker 535:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">💻 <strong>لابتوب 65W:</strong> 7.5 ساعة</li>
-    <li style="margin-bottom:10px;">📺 <strong>تلفزيون 55":</strong> 4 ساعات</li>
-    <li style="margin-bottom:10px;">🌀 <strong>مروحة + لابتوب (معاً 90W):</strong> 5 ساعات</li>
-    <li style="margin-bottom:10px;">📱 <strong>شحن 4 موبايلات كاملة يومياً:</strong> يكفي 3-4 أيام</li>
-    <li style="margin-bottom:10px;color:#ca8a04;">⚠️ <strong>تكييف:</strong> مش كافي</li>
+    <li style="margin-bottom:10px;">💻 <strong>لابتوب عمل 65W:</strong> شحن وتشغيل حتى 7.5 ساعة كاملة.</li>
+    <li style="margin-bottom:10px;">📺 <strong>شاشة تلفزيون متوسطة 100W:</strong> تشغيل مستمر لأكثر من 4 ساعات.</li>
+    <li style="margin-bottom:10px;">🌀 <strong>مروحة مكتب + لابتوب مكتب (90W إجمالي):</strong> تشغيل متواصل لمدة 5 ساعات.</li>
+    <li style="margin-bottom:10px;">📱 <strong>شحن الهواتف الذكية للمجموعة:</strong> يكفي لشحن 4 هواتف ذكية يومياً لمدة 3 إلى 4 أيام.</li>
+    <li style="margin-bottom:10px;color:#ca8a04;">⚠️ <strong>التكييفات والغلايات الكهربائية:</strong> لا تزال خارج حدود طاقة هذا الجهاز.</li>
 </ul>
-
-<p>وزنه 7 كيلو — ده بيحتاج اتنين لحمله بارتياح. مناسب في السيارة أو في الشاليه. وقت شحن 6 ساعات من الكهرباء بـ 100W.</p>
+<p>وزن هذا الموديل يبلغ 7.0 كيلوجرام، وهو ما يتطلب حمله باليدين أو بالاستعانة بالسيارة لنقله. إنه الخيار الأمثل لقضاء عطلة نهاية الأسبوع في شاليهات الساحل أو العين السخنة، أو تشغيل إضاءة مخيم كامل طوال الليل مع شحن كاميرات التصوير والطائرات المسيرة (Drones).</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #2563eb;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#1e40af;font-weight:bold;">حساب الاحتياج الحقيقي — الفورمولا البسيطة:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#1e40af;font-weight:bold;">حساب الاحتياج الحقيقي — الفورمولا البسيطة للتخطيط:</p>
     <p style="margin:0;font-size:14px;line-height:1.9;color:#374151;">
-        <strong>(مجموع واط الأجهزة) × (الساعات المطلوبة) ÷ 0.85</strong> = الـ Wh المطلوبة<br/>
+        <strong>(مجموع واط الأجهزة) × (الساعات المطلوبة) ÷ 0.85</strong> = الـ Wh المطلوبة من محطة الطاقة<br/>
         مثال: لابتوب 65W + مروحة 25W = 90W × 6 ساعات ÷ 0.85 = <strong>635Wh</strong><br/>
-        ده يعني الـ 535 (512Wh) مش هيكفيك يوم كامل — محتاج 555 (1024Wh) أو تقلل الأجهزة.
+        هذه الحسبة الرياضية توضح أن الـ 535 بسعة (512Wh) ستكون أقل بقليل من حاجتك ليوم كامل، لذا يفضل الانتقال لـ 555 (1024Wh) أو تقليص عدد ساعات التشغيل.
     </p>
 </div>
 
-<h2>Anker 555 (1024Wh) — للتخييم الطويل والمواقع</h2>
-<p>الـ 555 محطة طاقة حقيقية بمعنى الكلمة. 1,024Wh مع 1,000W خرج AC على 4 مخارج. ده بيشتغل مع معظم الأجهزة الكهربائية العادية (ما عدا التكييف والغسالات الكبيرة):</p>
+<h2>نظام إدارة البطارية الذكي BMS ودوره في حماية خلايا LiFePO4</h2>
+<p>تحتوي جميع محطات الطاقة من سلسلة أنكر Powerhouse على نظام إدارة بطارية ذكي متقدم يعرف بـ BMS (Battery Management System). يعمل هذا النظام كعقل إلكتروني يراقب باستمرار حالة كل خلية بطارية داخلية بشكل منفصل. يقيس النظام الجهد والتيار ودرجة الحرارة بمعدل مئات المرات في الثانية للتأكد من عدم تجاوز الحدود الآمنة للتشغيل الكهربائي.</p>
+<p>يتولى نظام BMS منع حدوث مشاكل الشحن الزائد (Over-charge) والتفريغ العميق المدمر للخلايا (Over-discharge)، بالإضافة إلى حماية الدوائر من الماس الكهربائي والتيار المفاجئ. في بيئة مصر الحارة، يقوم نظام إدارة الحرارة المدمج بالتعاون مع الـ BMS بتنظيم عمل مراوح التبريد الداخلية تلقائياً أو خفض تيار الشحن لمنع ارتفاع حرارة الخلايا، مما يضمن بقاء البطارية بحالة ممتازة لعقد كامل من الزمان.</p>
+
+<h2>تقنية InfiniPower ومتانة التصميم الهيكلي الخارجي للمحطات</h2>
+<p>تطلق أنكر على التكنولوجيا الأساسية في محطاتها اسم InfiniPower. هذه التقنية تدمج بين ثلاثة عناصر أساسية لتقديم أقصى درجات الاعتمادية: أولاً، خلايا بطاريات فوسفات الحديد والليثيوم (LiFePO4) فائقة الجودة. ثانياً، مكونات إلكترونية ومكثفات ذات معايير صناعية مصممة للعمل لأكثر من 50,000 ساعة تشغيل متواصلة. ثالثاً، نظام تحكم ذكي بالحرارة يقيس درجات الحرارة حتى 100 مرة في الثانية.</p>
+<p>بالإضافة للتفوق الإلكتروني الداخلي، تم تصميم الهيكل الخارجي لمحطات أنكر بطبقة مزدوجة من البلاستيك المقاوم للصدمات والحرائق. يحتوي الهيكل على زوايا مدعمة لامتصاص الصدمات عند السقوط أثناء النقل في مواقع البناء أو الورش، مما يحمي خلايا البطارية الحساسة من أي ضرر ميكانيكي قد يؤثر على سلامتها الكيميائية.</p>
+
+<h2>Anker 555 (1024Wh) — الوحش المخصص للمواقع والتخييم الطويل</h2>
+<p>الـ 555 هو محطة طاقة عملاقة حقيقية، حيث يوفر سعة ضخمة تبلغ 1,024Wh مع خرج تيار متردد AC يصل لـ 1,000 واط مستمر (وقدرة لحظية أعلى للبدء) عبر 4 مخارج تيار متردد كاملة. تتيح لك هذه السعة والقدرة الهائلة تشغيل الأجهزة المنزلية الكبيرة وأدوات العمل الكهربائية بكفاءة تامة:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">📺 <strong>تلفزيون 55":</strong> 8+ ساعة</li>
-    <li style="margin-bottom:10px;">💻 <strong>4 لابتوبات في نفس الوقت:</strong> يوم كامل</li>
-    <li style="margin-bottom:10px;">🔧 <strong>أدوات كهربائية موقع (300-500W):</strong> ساعتين تلاتة</li>
-    <li style="margin-bottom:10px;">❄️ <strong>ثلاجة مضغوطة للتخييم (60W):</strong> 14 ساعة</li>
-    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>تكييف منزلي:</strong> مش ممكن حتى هنا</li>
+    <li style="margin-bottom:10px;">📺 <strong>تلفزيون LED منزلي كبير:</strong> يعمل لأكثر من 8 ساعات متواصلة.</li>
+    <li style="margin-bottom:10px;">💻 <strong>شبكة عمل صغيرة (4 لابتوبات معاً):</strong> تشغيل طوال يوم العمل بالكامل.</li>
+    <li style="margin-bottom:10px;">🔧 <strong>أدوات ورش ومواقع (شنيور / صاروخ 400W):</strong> عمل متقطع لـ 2 إلى 3 ساعات.</li>
+    <li style="margin-bottom:10px;">❄️ <strong>ثلاجة تخييم كهربائية صغيرة (60W):</strong> تشغيل مستمر لـ 14 ساعة كاملة.</li>
+    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>تكييف هواء منزلي كامل:</strong> لا ينصح بتشغيله مطلقاً نظراً لاستهلاكه الضخم للوات.</li>
 </ul>
+<p>يبلغ وزن المحطة 13.8 كيلوجرام، مما يجعلها مخصصة للاستقرار في مكان ثابت مثل مخيم دائم أو سيارة دفع رباعي للرحلات البعيدة كواحة سيوة أو محميات الصحراء البيضاء. عند دمجها مع لوح شمسي متوافق بقوة 400 واط، يمكن شحنها بالكامل في غضون 3 ساعات فقط تحت أشعة الشمس الكاملة، مما يوفر لك استقلالية طاقة كاملة بعيداً عن أي حضارة.</p>
 
-<p>وزنه 13.8 كيلو — ده بيحتاج يكون في مكان ثابت: في السيارة أو في مكان التخييم. مع لوح شمسي 400W بيشحن في 3 ساعات في الشمس الكاملة — مثالي للتخييم في الصحراء أو ساحل البحر الأحمر.</p>
+<h2>كيفية اختيار الألواح الشمسية المتوافقة مع محطات أنكر</h2>
+<p>لشحن محطة طاقة أنكر بالاعتماد على الطاقة الشمسية في مصر، يجب التحقق من التوافق الفني لمداخل الشحن. تحتوي المحطات على منظم شحن داخلي متقدم من نوع MPPT (Maximum Power Point Tracking)، وهو المسؤول عن تتبع نقطة الطاقة القصوى للوح الشمسي لرفع كفاءة الشحن حتى في الأجواء الغائمة جزئياً.</p>
+<p>تستخدم أنكر مداخل شحن بجهد يتراوح بين 11-28 فولت أو 11-60 فولت حسب الموديل، مع منافذ توصيل قياسية من نوع XT60 أو DC7909. عند اختيار لوح شمسي من ماركة أخرى غير أنكر، يجب التأكد من أن جهد الدائرة المفتوحة (Voc) للوح لا يتجاوز الحد الأقصى المسموح به لمدخل المحطة، واستخدام كابلات تحويل مناسبة لضمان شحن آمن وسريع دون التسبب في احتراق دائرة الشحن الداخلية للمحطة.</p>
 
-<h2>كيف يؤثر السياق المصري على الاختيار؟</h2>
+<h2>كيف يؤثر السياق المصري على الاختيار الصحيح للمحطة؟</h2>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead>
         <tr style="background:#f3f4f6;">
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">السيناريو</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">السيناريو الواقعي</th>
             <th style="padding:12px;border:1px solid #d1d5db;text-align:center;">الموديل المناسب</th>
-            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">السبب</th>
+            <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">السبب والجدوى</th>
         </tr>
     </thead>
     <tbody>
         <tr style="background:#f0fdf4;">
-            <td style="padding:11px;border:1px solid #d1d5db;">انقطاع كهرباء منزلي (1-3 ساعة)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#059669;">521</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">خفيف، سهل النقل، كافي للمدة</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">انقطاع كهرباء منزلي معتاد (1-3 ساعة)</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#059669;">Anker 521</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">خفيف الوزن وسهل النقل وكافي لشحن الأجهزة واللابتوب والراوتر</td>
         </tr>
         <tr>
-            <td style="padding:11px;border:1px solid #d1d5db;">رحلة ساحل بيات ليلة (الغردقة / السخنة)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#2563eb;">535</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">سعة كافية ليوم كامل + مخرجين AC</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">رحلة عطلة نهاية أسبوع للساحل أو السخنة</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#2563eb;">Anker 535</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">سعة كافية لتغطية يوم كامل مع مخرجين AC لتلفزيون ومروحة معاً</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:11px;border:1px solid #d1d5db;">رحلة ساحل 3-5 أيام (مرسى علم)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">555</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">1024Wh بتكفي المجموعة أيام كاملة</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">رحلات تخييم برية طويلة من 3-5 أيام</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">Anker 555</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">سعة عملاقة 1024Wh تكفي لشحن جميع أجهزة المجموعة طوال الرحلة</td>
         </tr>
         <tr>
-            <td style="padding:11px;border:1px solid #d1d5db;">تخييم في الصحراء (واحة سيوة / البحيرات)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">555 + لوح شمسي</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">شحن شمسي 400W بيديك استقلالية كاملة</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">تخييم في مناطق نائية بالكامل (سيوة)</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">Anker 555 + لوح شمسي</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">مدخل شحن شمسي بقوة 400W يوفر استقلالية طاقة كاملة دون شبكة كهرباء</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:11px;border:1px solid #d1d5db;">موقع بناء أو ورشة بعيدة</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">555</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">1000W AC بيشتغل مع أدوات الموقع</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">تشغيل معدات عمل في موقع بناء أو ورشة</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">Anker 555</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">خرج 1000W AC قوي يضمن تشغيل شنيور أو صاروخ أو منشار أركيت</td>
         </tr>
     </tbody>
 </table>
 
-<h2>هل التكييف ممكن مع أي منهم؟</h2>
-<p>السؤال ده بيتكرر كتير. الإجابة المختصرة: لا، وده مش قصور في Anker — ده قانون فيزياء. تكييف 1.5 حصان (شائع في مصر) بيستهلك 1,200-1,500W. حتى الـ 555 بـ 1,000W لا يصل لده. لو عندك تكييف "اقتصادي" صغير (700W)، الـ 555 ممكن يشغّله لساعة ونص — لكن ده غير عملي اقتصادياً.</p>
+<h2>هل تشغيل المكيفات ممكن عملياً مع أي من هذه المحطات؟</h2>
+<p>هذا التساؤل هو الأكثر طرحاً من قبل المشترين في مصر. الإجابة الفنية القاطعة هي: لا، وهذا ليس عيباً في تصنيع محطات أنكر، بل يعود لقوانين الفيزياء واستهلاك الطاقة المرتفع جداً للضوايق (Compressors). يستهلك تكييف الهواء المنزلي العادي بقدرة 1.5 حصان ما بين 1,200 إلى 1,500 واط مستمر، ويحتاج لأكثر من 3,500 واط لحظياً عند بدء التشغيل.</p>
+<p>حتى لو قمت بشراء محطة Anker 555 التي توفر 1,000 واط مستمر، فلن تتمكن من تلبية تيار بدء التشغيل الضخم للمكيف وستفصل فوراً لحماية نفسها. الحل العملي المعتمد للتغلب على حرارة الصيف أثناء فترات تخفيف الأحمال هو تشغيل مروحة سقف اقتصادية (50-70 واط) أو مروحة طاولة (25 واط)، وهي أحمال بسيطة جداً يمكن لمحطات أنكر تشغيلها لساعات طويلة بكل سلاسة وأمان.</p>
 
-<p>الحل الواقعي لحرارة الصيف المصري في الانقطاع: مروحة سقف (50-70W) أو مروحة طاولة (25-30W) — وهي كافية بالفعل في أغلب الأوقات.</p>
-
-<h2>مقارنة وقت الشحن</h2>
-<p>الثلاثة محتاجين حوالي 6 ساعات من الكهرباء — لكن بمشاحن مختلفة: 521 بشاحن 65W، 535 بشاحن 100W، 555 بشاحن 200W. الفرق الكبير يظهر في الشحن الشمسي:</p>
+<h2>مقارنة دقيقة لأوقات الشحن من الكهرباء واللوحات الشمسية</h2>
+<p>تتطلب المحطات الثلاث ما يقرب من 6 ساعات لإعادة شحنها من 0% إلى 100% باستخدام منافذ الحائط العادية، ولكن بفضل شواحن بقدرات مختلفة ترفق مع كل جهاز (65 واط للـ 521، و 100 واط للـ 535، و 200 واط للـ 555). وتظهر الفروق الفنية الكبيرة بوضوح في قدرة قبول الشحن الشمسي كالتالي:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">☀️ <strong>521 + لوح 200W:</strong> 1.5 ساعة في شمس كاملة</li>
-    <li style="margin-bottom:10px;">☀️ <strong>535 + لوح 150W:</strong> 3.5 ساعة</li>
-    <li style="margin-bottom:10px;">☀️ <strong>555 + لوح 400W:</strong> 3 ساعات</li>
+    <li style="margin-bottom:10px;">☀️ <strong>Anker 521 + لوح شمسي 200W:</strong> يستغرق حوالي ساعة ونصف في ضوء شمس مباشر كامل.</li>
+    <li style="margin-bottom:10px;">☀️ <strong>Anker 535 + لوح شمسي 150W:</strong> يستغرق حوالي 3.5 ساعة في شمس الظهيرة.</li>
+    <li style="margin-bottom:10px;">☀️ <strong>Anker 555 + لوح شمسي 400W:</strong> يستغرق حوالي 3 ساعات في الطقس المشمس الصافي.</li>
 </ul>
 
-<p>للمراجعة التفصيلية للـ 521 بمفرده مع اختبارات حقيقية، اقرأ <a href="/blog/anker-521-powerhouse-portable-power-station-review" style="color:#2563eb;font-weight:600;">مراجعة Anker 521 Powerhouse الكاملة</a>.</p>
+<p>للمجالعة التفصيلية للـ 521 بمفرده مع اختبارات حقيقية، اقرأ <a href="/blog/anker-521-powerhouse-portable-power-station-review" style="color:#2563eb;font-weight:600;">مراجعة Anker 521 Powerhouse الكاملة</a>.</p>
 
 <div class="cta-box" style="background:#eff6ff;border:1px solid #93c5fd;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#1e40af;">محطات طاقة Anker الأصلية على كايرو فولت</p>
@@ -233,12 +241,12 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
         },
         en: {
             title: 'Anker Powerhouse Comparison — From 256Wh Home Use to 500Wh+ for Extended Trips',
-            metaTitle: 'Anker Powerhouse Comparison 2026 — 521 vs 535 vs 555 Egypt | CairoVolt',
-            metaDescription: 'Full comparison of Anker power stations in Egypt: 521 (256Wh) for home outages, 535 (512Wh) for Sahel trips, 555 (1024Wh) for extended camping and worksites. Capacity, AC output, weight, charge time comparison table. Egyptian electricity context.',
-            keywords: 'anker powerhouse comparison egypt, anker power station egypt, anker 521 vs 535 vs 555, power station egypt 2026, anker 535 powerhouse review, anker 555 powerhouse review, power station egypt power outage, power station sahel trip egypt, anker powerhouse capacity comparison, portable power station egypt camping',
+            metaTitle: 'Anker Powerhouse Comparison — 521 vs 535 vs 555 Egypt | CairoVolt',
+            metaDescription: 'Full comparison of Anker portable power stations 521, 535, and 555 in Egypt. Detailed capacity, output, weight, and charging speed comparison table.',
+            keywords: 'anker powerhouse comparison egypt, anker power station egypt, anker 521 vs 535 vs 555, power station egypt, anker 535 powerhouse review, anker 555 powerhouse review, power station egypt power outage, power station sahel trip egypt, anker powerhouse capacity comparison, portable power station egypt camping',
             excerpt: 'Anker has 3 power station models: 521 (256Wh), 535 (512Wh), 555 (1024Wh). Each serves a different use case. Full spec comparison with numbers for anyone choosing the right one in Egypt.',
             quickAnswer: 'Anker 521 (256Wh) for short home power outages (laptop: 3.9 hours). Anker 535 (512Wh) for Sahel and Nile trips (laptop: 7.5 hours). Anker 555 (1,024Wh) for extended camping and worksites (TV: 8 hours). All include a genuine AC outlet.',
-            content: `<p>Egypt has specific needs that dictate the right power station choice: recurring summer power outages, trips to the coast and desert without electricity, and construction sites or farms far from the grid. Anker offers 3 models for each scenario. The problem? The difference between them is far greater than the names suggest.</p>
+            content: `<p>Egypt has specific needs that dictate the right power station choice: recurring summer power outages, trips to the coast and desert without electricity, and construction sites or farms far from the national power grid. Anker offers 3 excellent models for each scenario. The problem? The difference between them is far greater than the close retail names suggest.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
@@ -310,53 +318,61 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
 </table>
 
 <h2>Anker 521 (256Wh) — For Short Home Power Outages</h2>
-<p>The 521 is the lightest and most affordable in the lineup. Well-suited for Egyptian apartments during 1-3 hour power outages. At 3.5kg it is easy to move room to room, and even take in the car for short trips. One AC outlet at 200W — sufficient for a laptop, fan, or television.</p>
-
-<p>Common device calculations with the 521:</p>
+<p>The 521 is the lightest, most compact, and most budget-friendly option in the Powerhouse series. It is specifically tailored for handling daily rolling blackouts that last 1 to 3 hours in Egyptian apartments. Weighing just 3.5kg, it is easy to carry room-to-room with one hand, or throw in the car trunk for short day trips.</p>
+<p>The station provides a single AC outlet rated for 200W continuous output, which is perfectly sufficient for running basic home office workstations:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">💻 <strong>65W Laptop:</strong> 3.9 hours</li>
-    <li style="margin-bottom:10px;">🌀 <strong>25W Desk Fan:</strong> 7.5 hours</li>
-    <li style="margin-bottom:10px;">📡 <strong>12W Router:</strong> 14 hours</li>
-    <li style="margin-bottom:10px;">📺 <strong>55" TV (110W):</strong> 2 hours</li>
-    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>Air Conditioner:</strong> Not possible</li>
+    <li style="margin-bottom:10px;">💻 <strong>65W Laptop:</strong> Runs for up to 3.9 hours.</li>
+    <li style="margin-bottom:10px;">🌀 <strong>25W Desk Fan:</strong> Runs for up to 7.5 hours.</li>
+    <li style="margin-bottom:10px;">📡 <strong>12W WiFi Router:</strong> Runs for over 14 hours.</li>
+    <li style="margin-bottom:10px;">📺 <strong>55" TV (110W):</strong> Runs for approximately 2 hours.</li>
+    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>Kettles, Irons, or ACs:</strong> Cannot be powered on this model.</li>
 </ul>
+<p><strong>Ideal for:</strong> Remote workers working from home, students studying during power outages, and casual day-trippers.</p>
 
-<p><strong>Ideal for:</strong> Apartment residents, work-from-home setups, day trips and beach outings without overnight stays.</p>
-
-<h2>Anker 535 (512Wh) — For Sahel and Nile Trips</h2>
-<p>The 535 is exactly double the 521 in capacity — 512Wh versus 256Wh. But more importantly, the AC output jumps to 500W with two outlets. This allows running a TV and laptop simultaneously, or a small camping refrigerator (with a compressor suited to 500W).</p>
-
-<p>Full-day device calculations at the Sahel with the 535:</p>
+<h2>Anker 535 (512Wh) — For Sahel and Weekend Getaways</h2>
+<p>The Anker 535 is the sweet spot of the mid-range category, offering a 512Wh capacity which is exactly double the 521. More importantly, the AC output capability rises to 500W continuous across two outlets. This lets you power more demanding appliances and plug in two AC devices simultaneously.</p>
+<p>Typical device run-times on the Anker 535:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">💻 <strong>65W Laptop:</strong> 7.5 hours</li>
-    <li style="margin-bottom:10px;">📺 <strong>55" TV:</strong> 4 hours</li>
-    <li style="margin-bottom:10px;">🌀 <strong>Fan + Laptop together (90W):</strong> 5 hours</li>
-    <li style="margin-bottom:10px;">📱 <strong>Charging 4 full phones daily:</strong> lasts 3-4 days</li>
-    <li style="margin-bottom:10px;color:#ca8a04;">⚠️ <strong>Air Conditioner:</strong> Not sufficient</li>
+    <li style="margin-bottom:10px;">💻 <strong>65W Laptop:</strong> Charges and runs for up to 7.5 hours.</li>
+    <li style="margin-bottom:10px;">📺 <strong>100W TV:</strong> Runs continuously for over 4 hours.</li>
+    <li style="margin-bottom:10px;">🌀 <strong>Fan + Laptop together (90W):</strong> Runs for 5 hours.</li>
+    <li style="margin-bottom:10px;">📱 <strong>Phone charging:</strong> Charges 4 phones daily for 3 to 4 days.</li>
+    <li style="margin-bottom:10px;color:#ca8a04;">⚠️ <strong>High-Power Heating Elements:</strong> Still exceed the 500W limit.</li>
 </ul>
-
-<p>Weight is 7kg — needs two people to carry comfortably. Suitable in the car or in the chalet. Charges in 6 hours from the wall at 100W.</p>
+<p>At 7.0kg, this model is best moved using a vehicle. It is perfect for weekend stays at Ain Sokhna or Sahel chalets, powering campsite lighting, and keeping professional cameras and drones recharged.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-left:4px solid #2563eb;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-size:15px;color:#1e40af;font-weight:bold;">Calculate Your Real Need — The Simple Formula:</p>
+    <p style="margin:0 0 8px 0;font-size:15px;color:#1e40af;font-weight:bold;">Calculate Your Real Need — The Planning Formula:</p>
     <p style="margin:0;font-size:14px;line-height:1.9;color:#374151;">
-        <strong>(Total device watts) × (required hours) ÷ 0.85</strong> = Wh needed<br/>
+        <strong>(Total device watts) × (required hours) ÷ 0.85</strong> = Wh needed from the station<br/>
         Example: 65W laptop + 25W fan = 90W × 6 hours ÷ 0.85 = <strong>635Wh</strong><br/>
-        This means the 535 (512Wh) will not last a full day — you need the 555 (1,024Wh) or reduce devices.
+        This calculation reveals that the 535 (512Wh) falls slightly short of a full 6-hour runtime, making the 555 (1024Wh) the safer choice or requiring you to manage power draw.
     </p>
 </div>
 
-<h2>Anker 555 (1,024Wh) — For Extended Camping and Worksites</h2>
-<p>The 555 is a genuine power station in the full sense. 1,024Wh with 1,000W AC output across 4 outlets. This handles most normal household appliances (except air conditioners and large washing machines):</p>
-<ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">📺 <strong>55" TV:</strong> 8+ hours</li>
-    <li style="margin-bottom:10px;">💻 <strong>4 laptops simultaneously:</strong> a full day</li>
-    <li style="margin-bottom:10px;">🔧 <strong>Power tools (300-500W):</strong> 2-3 hours</li>
-    <li style="margin-bottom:10px;">❄️ <strong>Camping compressor refrigerator (60W):</strong> 14 hours</li>
-    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>Household air conditioner:</strong> Still not possible</li>
-</ul>
+<h2>The Advanced Battery Management System (BMS) in Anker Powerhouse Series</h2>
+<p>Every portable power station in Anker's lineup is governed by a state-of-the-art Battery Management System (BMS). The BMS acts as an electronic brain, continuously monitoring each individual cell's voltage, temperature, and electrical load. By sampling these parameters hundreds of times per second, the system prevents potential safety risks before they occur.</p>
+<p>The BMS prevents overcharging, deep discharge cycles, short circuits, and sudden current spikes. In hot summer conditions, it works alongside the structural cooling fans to lower charging speeds or suspend output if internal temperatures approach 55°C, ensuring the battery pack remains healthy for 10 years of reliable service.</p>
 
-<p>Weight is 13.8kg — it needs a fixed location: in the car or at the camping site. With a 400W solar panel it charges in 3 hours in full sunlight — ideal for desert camping or Red Sea coast trips.</p>
+<h2>Anker's InfiniPower Technology and Structural Durability</h2>
+<p>Anker brands its core battery safety architecture as InfiniPower technology. This combines high-grade LiFePO4 cells with industrial-grade electronic components (rated for 50,000 hours of continuous use) and an active thermal monitoring controller. The structural casing features a double-layered, drop-resistant framing system designed to absorb mechanical shocks during transport, safeguarding the chemical cells from external impacts.</p>
+<p>This thermal resilience is particularly crucial for users in hot regions like Upper Egypt, where ambient summer temperatures can easily exceed 45°C. Traditional lithium-ion batteries degrade at a highly accelerated rate under such conditions, whereas LFP cells handle high temperature profiles with far less capacity loss over time.</p>
+
+<h2>Anker 555 (1024Wh) — The Heavy-Duty Choice for Worksites and Long Camping Trips</h2>
+<p>The 555 is a heavy-duty power station, offering a large 1,024Wh capacity paired with a 1,000W AC output (and higher surge capacity) across 4 AC outlets. This allows you to run high-load household appliances and professional tools on remote sites:</p>
+<ul style="list-style:none;padding:0;">
+    <li style="margin-bottom:10px;">📺 <strong>Large LED TV:</strong> Runs for over 8 hours continuously.</li>
+    <li style="margin-bottom:10px;">💻 <strong>Office setup (4 laptops simultaneously):</strong> Powers a full workday.</li>
+    <li style="margin-bottom:10px;">🔧 <strong>Worksite power tools (400W drill):</strong> Intermittent use for 2 to 3 hours.</li>
+    <li style="margin-bottom:10px;">❄️ <strong>Camping compressor fridge (60W):</strong> Runs for a full 14 hours.</li>
+    <li style="margin-bottom:10px;color:#dc2626;">❌ <strong>Household Air Conditioner:</strong> Not recommended due to massive startup draw.</li>
+</ul>
+<p>Weighing 13.8kg, it is designed to sit in a permanent campsite or vehicle trunk. Paired with a 400W solar panel array, it charges fully in about 3 hours under the Egyptian sun, offering complete power autonomy.</p>
+
+<h2>Choosing the Right Solar Panels for Portable Power Stations</h2>
+<p>To charge an Anker Powerhouse using solar energy in Egypt, you must align the technical parameters of the solar panels with the station's input specifications. The integrated Maximum Power Point Tracking (MPPT) controller dynamically adjusts current flow to maximize solar input even in partially cloudy conditions.</p>
+<p>Anker power stations accept solar input voltages ranging from 11-28V or 11-60V depending on the model, utilizing industry-standard XT60 or DC7909 input ports. When using third-party panels, always verify that the open-circuit voltage (Voc) of the solar array does not exceed the station's maximum rated limit, and use certified MC4 to XT60 adapters to prevent electrical damage.</p>
+<p>This makes solar charging a highly practical backup option for desert safaris and remote farming operations in Egypt where grid access is completely nonexistent.</p>
 
 <h2>How the Egyptian Context Shapes the Choice</h2>
 
@@ -371,43 +387,42 @@ export const anker_power_station_powerhouse_models_comparison: BlogArticle = {
     <tbody>
         <tr style="background:#f0fdf4;">
             <td style="padding:11px;border:1px solid #d1d5db;">Home power outage (1-3 hours)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#059669;">521</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">Light, portable, sufficient for the duration</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#059669;">Anker 521</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">Lightweight, portable, and sufficient for basic devices</td>
         </tr>
         <tr>
-            <td style="padding:11px;border:1px solid #d1d5db;">Overnight Sahel trip (Hurghada / Ain Sokhna)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#2563eb;">535</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">Full-day capacity + dual AC outlets</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">Overnight Sahel trip (Ain Sokhna)</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#2563eb;">Anker 535</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">Double capacity, dual AC outlets for TV and fan</td>
         </tr>
         <tr style="background:#f0fdf4;">
             <td style="padding:11px;border:1px solid #d1d5db;">3-5 day Sahel trip (Marsa Alam)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">555</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">1,024Wh covers the group for full days</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">Anker 555</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">1024Wh capacity easily covers group needs for days</td>
         </tr>
         <tr>
-            <td style="padding:11px;border:1px solid #d1d5db;">Desert camping (Siwa / White Desert)</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">555 + solar panel</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">400W solar gives full energy independence</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">Desert camping (Siwa Oasis)</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">Anker 555 + solar panel</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">400W solar input allows full off-grid operation</td>
         </tr>
         <tr style="background:#f0fdf4;">
-            <td style="padding:11px;border:1px solid #d1d5db;">Remote construction site or farm</td>
-            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">555</td>
-            <td style="padding:11px;border:1px solid #d1d5db;">1,000W AC handles power tools</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">Remote worksite or workshop tools</td>
+            <td style="padding:11px;border:1px solid #d1d5db;text-align:center;font-weight:bold;color:#7c3aed;">Anker 555</td>
+            <td style="padding:11px;border:1px solid #d1d5db;">1000W AC outlet handles power drills and jigsaws</td>
         </tr>
     </tbody>
 </table>
 
 <h2>Can Any of Them Run an Air Conditioner?</h2>
 <p>This question comes up constantly. The short answer: no, and this is not a limitation of Anker — it is physics. A common Egyptian 1.5-horsepower air conditioner consumes 1,200-1,500W. Even the 555 at 1,000W does not reach this. If you have a very small air conditioner (700W), the 555 might run it for an hour and a half — but that is economically impractical.</p>
-
 <p>The realistic solution for Egyptian summer heat during outages: a ceiling fan (50-70W) or desk fan (25-30W) — and these are genuinely sufficient in most situations.</p>
 
 <h2>Comparing Charge Times</h2>
 <p>All three take approximately 6 hours from the wall — but with different chargers: 521 with a 65W charger, 535 with a 100W charger, 555 with a 200W charger. The major difference appears with solar charging:</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">☀️ <strong>521 + 200W solar panel:</strong> 1.5 hours in full sunlight</li>
-    <li style="margin-bottom:10px;">☀️ <strong>535 + 150W solar panel:</strong> 3.5 hours</li>
-    <li style="margin-bottom:10px;">☀️ <strong>555 + 400W solar panel:</strong> 3 hours</li>
+    <li style="margin-bottom:10px;">☀️ <strong>521 + 200W solar panel:</strong> 1.5 hours in full sunlight.</li>
+    <li style="margin-bottom:10px;">☀️ <strong>535 + 150W solar panel:</strong> 3.5 hours.</li>
+    <li style="margin-bottom:10px;">☀️ <strong>555 + 400W solar panel:</strong> 3 hours.</li>
 </ul>
 
 <p>For a detailed solo review of the 521 with real-world testing, read our <a href="/en/blog/anker-521-powerhouse-portable-power-station-review" style="color:#2563eb;font-weight:600;">Full Anker 521 Powerhouse Review</a>.</p>

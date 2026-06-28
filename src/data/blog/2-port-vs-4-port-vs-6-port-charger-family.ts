@@ -25,7 +25,7 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
         ar: {
             title: 'شاحن بمنفذين ضد 4 ضد 6 — أيهم أوفر وأنسب لعيلتك المصرية؟',
             metaTitle: 'شاحن 2 منافذ ضد 4 ضد 6 — مقارنة عملية للعيلة المصرية | كايرو فولت',
-            metaDescription: 'عيلتك فيها 4 موبايلات وتابلت ولابتوب؟ مقارنة مهندس بين شواحن 2 و4 و6 منافذ — من حيث الواط، السعر لكل منفذ، والسيناريو الأنسب لكل حجم عيلة.',
+            metaDescription: 'عيلتك فيها 4 موبايلات وتابلت ولابتوب؟ مقارنة مهندس بين شواحن 2 و4 و6 منافذ — من حيث الواط، السعر لكل منفذ، والسيناريو الأنسب لبيتك وعائلتك بالتفصيل.',
             keywords: 'شاحن متعدد المنافذ, شاحن 4 منافذ, شاحن 6 منافذ, شاحن عيلة, شاحن لعدة أجهزة, أفضل شاحن متعدد, مقارنة شواحن, شاحن USB متعدد مصر, شاحن انكر متعدد المنافذ, شاحن لكل العيلة',
             excerpt: 'عيلة من 4 أشخاص — كل واحد عنده موبايل وممكن تابلت أو لابتوب. هل الأوفر شاحن لكل جهاز؟ ولا شاحن واحد متعدد المنافذ؟ المقارنة بالأرقام.',
             quickAnswer: 'شاحن بمنفذين (30-45W) مناسب لشخص واحد بيشحن موبايل ولابتوب. شاحن 4 منافذ (65-100W) مثالي لعيلة صغيرة (3-4 أشخاص) وبيوفّر في السعر والمساحة. شاحن 6 منافذ (100-200W) الأنسب للعيلة الكبيرة أو المكتب. القاعدة: كل ما المنافذ زادت — السعر لكل منفذ بيقل — بس الواط بيتوزع فبيبقى أبطأ لو كل المنافذ شغالة.',
@@ -158,7 +158,7 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
         en: {
             title: '2-Port vs 4-Port vs 6-Port Charger — Which Is Best for Your Family?',
             metaTitle: '2-Port vs 4-Port vs 6-Port Charger — Family Comparison Guide | CairoVolt',
-            metaDescription: 'Family of 4 with phones, tablets, and laptops? Engineer\'s comparison of 2, 4, and 6-port chargers — wattage, price per port, and the best scenario for each family size.',
+            metaDescription: 'Family of 4 with multiple phones? Engineer\'s comparison of 2, 4, and 6-port chargers — wattage, price per port, and the best scenario for each family size.',
             keywords: 'multi-port charger comparison, 4-port charger, 6-port charger, family charger, best multi-port charger, USB charger multiple devices, charging station family, GaN charger multi-port, Anker multi-port charger, charger for whole family',
             excerpt: 'Family of 4 — everyone has a phone and maybe a tablet or laptop. Is it cheaper to buy a charger for each device? Or one multi-port charger? Let\'s compare by the numbers.',
             quickAnswer: 'A 2-port charger (30-45W) suits one person charging a phone and laptop. A 4-port charger (65-100W) is ideal for small families (3-4 people) and saves money and space. A 6-port charger (100-200W) best suits larger families or offices. Rule: more ports = lower price per port, but wattage is shared, so charging is slower when all ports are active.',

@@ -28,9 +28,9 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     },
     translations: {
         ar: {
-            title: 'دليل أسعار ومواصفات سماعات Soundcore في مصر 2026 — من أرخص للأغلى',
-            metaTitle: 'أسعار سماعات Soundcore في مصر 2026 — مقارنة شاملة من P20i للـ Liberty 4 Pro | كايرو فولت',
-            metaDescription: 'دليل كامل بأسعار ومواصفات كل سماعات Soundcore في مصر 2026: P20i بـ 350 جنيه، R50i بـ 450، P25i بـ 500، R50i NC بـ 700، Liberty 4 NC بـ 1800. مقارنة حقيقية تساعدك تختار.',
+            title: 'دليل أسعار ومواصفات سماعات Soundcore في مصر — من أرخص للأغلى',
+            metaTitle: 'أسعار سماعات Soundcore في مصر — مقارنة شاملة من P20i للـ Liberty 4 Pro | كايرو فولت',
+            metaDescription: 'دليل أسعار ومواصفات سماعات أنكر ساوند كور في مصر. مقارنة حقيقية لموديلات P20i و R50i و R50i NC و Liberty 4 NC لتحديد السماعة المناسبة لميزانيتك.',
             keywords: 'سماعات soundcore مصر 2026, سعر soundcore p20i مصر, سعر soundcore r50i مصر, سعر soundcore liberty 4 nc مصر, مقارنة سماعات soundcore, افضل سماعة soundcore مصر, soundcore p25i سعر, soundcore r50i nc مواصفات, سماعة بلوتوث رخيصة مصر, soundcore liberty 4 pro سعر مصر',
             excerpt: 'مش عارف تختار إيه من سماعات Soundcore؟ دليل شامل بالأسعار الحقيقية والمواصفات الكاملة لكل موديل في مصر — مع توضيح مين يناسب مين بالظبط.',
             quickAnswer: 'اختصار: P20i (350 جنيه) للطلاب والميزانية المحدودة، R50i (450 جنيه) الأفضل للمكالمات، P25i (500 جنيه) لجودة صوت أعلى، R50i NC (700 جنيه) لإلغاء ضوضاء المترو، Liberty 4 NC (1800 جنيه) للعمل من البيت والمكتب المفتوح، Liberty 4 Pro (2500 جنيه) لمن يريد قمة الأداء.',
@@ -315,9 +315,9 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
             ]
         },
         en: {
-            title: 'Soundcore Earbuds Prices and Specs Guide Egypt 2026 — From Budget to Premium',
-            metaTitle: 'Soundcore Earbuds Prices & Specs Egypt 2026 — Full Comparison P20i to Liberty 4 Pro | CairoVolt',
-            metaDescription: 'Complete guide to all Soundcore earbuds prices and specs in Egypt 2026: P20i at 350 EGP, R50i at 450, P25i at 500, R50i NC at 700, Liberty 4 NC at 1800. Real comparison to help you choose.',
+            title: 'Soundcore Earbuds Prices and Specs Guide Egypt — From Budget to Premium',
+            metaTitle: 'Soundcore Earbuds Prices & Specs Egypt — Full Comparison P20i to Liberty 4 Pro | CairoVolt',
+            metaDescription: 'Complete price and spec guide for all Soundcore earbuds in Egypt. Compare P20i, R50i, R50i NC, and Liberty 4 NC to find the best model for your needs.',
             keywords: 'soundcore earbuds egypt 2026, soundcore p20i price egypt, soundcore r50i price egypt, soundcore liberty 4 nc egypt, soundcore comparison egypt, best soundcore egypt, soundcore p25i specs, soundcore r50i nc review, budget bluetooth earbuds egypt, soundcore liberty 4 pro price egypt',
             excerpt: 'Not sure which Soundcore model to pick? A complete guide with real prices and full specs for every model available in Egypt — with clear advice on who each one is best for.',
             quickAnswer: 'Quick summary: P20i (350 EGP) for budget buyers and students — R50i (450 EGP) best for calls and daily use — P25i (500 EGP) for higher audio quality with LDAC — R50i NC (700 EGP) for Cairo metro noise cancellation — Liberty 4 NC (1800 EGP) for work-from-home and open-office environments — Liberty 4 Pro (2500 EGP) for flagship-level everything.',
