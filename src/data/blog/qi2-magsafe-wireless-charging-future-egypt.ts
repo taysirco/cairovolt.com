@@ -25,7 +25,7 @@ export const qi2_magsafe_wireless_charging_future_egypt: BlogArticle = {
         ar: {
             title: 'Qi2 و MagSafe — مستقبل الشحن اللاسلكي هيغيّر طريقة شحنك إزاي؟',
             metaTitle: 'Qi2 و MagSafe — مستقبل الشحن اللاسلكي في مصر 2026 | كايرو فولت',
-            metaDescription: 'شرح Qi2 و MagSafe — إيه الفرق بينهم، ليه Qi2 هيخلي الشحن اللاسلكي أسرع وأرخص، وهل هيوصل مصر قريب؟ كل اللي محتاج تعرفه.',
+            metaDescription: 'شرح Qi2 و MagSafe — إيه الفرق بينهم، ليه Qi2 هيخلي الشحن اللاسلكي أسرع وأرخص، وهل هيوصل مصر قريب؟ كل اللي محتاج تعرفه. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'Qi2 شرح, MagSafe شرح, شحن لاسلكي مصر, Qi2 vs MagSafe, مستقبل الشحن اللاسلكي, شاحن لاسلكي ايفون, شاحن لاسلكي سامسونج, Qi2 مصر متى, شحن مغناطيسي, الفرق بين Qi و Qi2',
             excerpt: 'دليل شامل لتقنيات الشحن اللاسلكي الجديدة — Qi2 و MagSafe — إيه الفرق بينهم وإزاي هيغيّروا طريقة شحنك.',
             quickAnswer: 'Qi2 هو الجيل الجديد من الشحن اللاسلكي — مبني على تقنية MagSafe من Apple لكنه معيار مفتوح بيشتغل مع كل الموبايلات (iPhone + Android). بيوصل لسرعة 15W مع محاذاة مغناطيسية تلقائية. MagSafe هو نسخة Apple الخاصة (حتى 25W في iPhone 17 Pro). في مصر حالياً: MagSafe متاح بأسعار عالية، Qi2 بدأ يظهر في 2025 وهيكون أرخص وأشمل بحلول 2027.',
@@ -239,7 +239,7 @@ export const qi2_magsafe_wireless_charging_future_egypt: BlogArticle = {
         en: {
             title: 'Qi2 and MagSafe — How the Future of Wireless Charging Will Transform How You Charge',
             metaTitle: 'Qi2 and MagSafe — Future of Wireless Charging in Egypt 2026 | CairoVolt',
-            metaDescription: 'Qi2 and MagSafe explained — what is the difference, why Qi2 will make wireless charging faster and cheaper, and when will it arrive in Egypt? Everything you need to know.',
+            metaDescription: 'Qi2 and MagSafe explained — what is the difference, why Qi2 will make wireless charging faster and cheaper, and when will it arrive in Egypt? Everything you ...',
             keywords: 'Qi2 explained, MagSafe explained, wireless charging egypt, Qi2 vs MagSafe, future of wireless charging, wireless charger iphone, wireless charger samsung, Qi2 egypt when, magnetic charging, difference between Qi and Qi2',
             excerpt: 'A comprehensive guide to the new wireless charging technologies — Qi2 and MagSafe — what the differences are and how they will change how you charge.',
             quickAnswer: 'Qi2 is the new generation of wireless charging — built on Apple MagSafe technology but as an open standard that works with all phones (iPhone + Android). It reaches 15W with automatic magnetic alignment. MagSafe is Apple proprietary version (up to 25W on iPhone 17 Pro). In Egypt currently: MagSafe is available at premium prices, Qi2 started appearing in 2025 and will be cheaper and more widespread by 2027.',

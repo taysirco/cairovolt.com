@@ -24,7 +24,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
         ar: {
             title: 'ملحقات Realme C series — أفضل شاحن وكابل لأصحاب الميزانية المحدودة',
             metaTitle: 'أفضل شاحن ريلمي C65 و C55 — شاحن سريع وكابل بأقل من 300 جنيه | كايرو فولت',
-            metaDescription: 'دليل شامل لأفضل ملحقات Realme C65 و C55 و C53 في مصر 2026 — شاحن سريع وكابل USB-C بميزانية أقل من 300 جنيه. كل قطعة مختبرة ومتوافقة 100%.',
+            metaDescription: 'دليل شامل لأفضل ملحقات Realme C65 و C55 و C53 في مصر 2026 — شاحن سريع وكابل USB-C بميزانية أقل من 300 جنيه. كل قطعة مختبرة ومتوافقة 100%. تابع التفاصيل بمصر.',
             keywords: 'شاحن ريلمي C65, شاحن realme c55, كابل ريلمي, بديل شاحن realme, أفضل شاحن realme مصر, شاحن سريع ريلمي رخيص, ملحقات ريلمي C series, شاحن 20 واط ريلمي',
             excerpt: 'دليل عملي لأفضل ملحقات Realme C series — شاحن سريع وكابل USB-C بميزانية محدودة تبدأ من 300 جنيه فقط.',
             quickAnswer: 'موبايلات Realme C series (C65, C55, C53) بتدعم شحن سريع من 18W لـ 33W. الشاحن اللي في العلبة (10W) بيشحن ببطء شديد — 3 ساعات+. البديل الأذكى: Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 350 جنيه. كلاهم بيشحن Realme C65 من 0 لـ 50% في 30-35 دقيقة بدل ساعة و20 دقيقة. باقة شاحن + كابل تبدأ من 420 جنيه.',
@@ -246,7 +246,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
         en: {
             title: 'Realme C Series Accessories — Best Budget Charger and Cable Under 300 EGP',
             metaTitle: 'Best Realme C65 & C55 Charger — Fast Charger Under 300 EGP | CairoVolt',
-            metaDescription: 'Complete guide to the best Realme C65, C55, and C53 accessories in Egypt 2026 — fast charger and USB-C cable on a budget under 300 EGP. Every item tested and 100% compatible.',
+            metaDescription: 'Complete guide to the best Realme C65, C55, and C53 accessories in Egypt 2026 — fast charger and USB-C cable on a budget under 300 EGP. Every item tested and...',
             keywords: 'realme c65 charger, realme c55 charger, realme cable, realme charger alternative, best realme charger egypt, budget fast charger realme, realme c series accessories, 20w charger realme',
             excerpt: 'A practical guide to the best Realme C series accessories — fast charger and USB-C cable on a tight budget starting from just 300 EGP.',
             quickAnswer: 'Realme C series phones (C65, C55, C53) support fast charging from 18W to 33W. The bundled charger (10W) is painfully slow — 3+ hours. The smarter alternative: Joyroom 25W at 300 EGP or Anker 20W at 350 EGP. Both charge Realme C65 from 0 to 50% in 30-35 minutes instead of 1 hour 20 minutes. A charger + cable bundle starts at 420 EGP.',

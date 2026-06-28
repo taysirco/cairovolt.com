@@ -28,7 +28,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
         ar: {
             title: 'هل الباور بانك يقدر يشحن لابتوب؟ الدليل العلمي الكامل بالأرقام (2026)',
             metaTitle: 'هل الباور بانك يشحن لابتوب؟ الشروط + أفضل باور بانك للابتوب 2026 | كايرو فولت',
-            metaDescription: 'اعرف هل الباور بانك بتاعك يقدر يشحن اللابتوب ولا لا — بالشروط العلمية الدقيقة. جدول توافق كامل لكل لابتوب + أفضل باور بانك للابتوب في مصر.',
+            metaDescription: 'اعرف هل الباور بانك بتاعك يقدر يشحن اللابتوب ولا لا — بالشروط العلمية الدقيقة. جدول توافق كامل لكل لابتوب + أفضل باور بانك للابتوب في مصر. تابع التفاصيل بمصر.',
             keywords: 'هل الباور بانك يشحن لابتوب, باور بانك للابتوب, شحن لابتوب من باور بانك, باور بانك لابتوب, افضل باور بانك للابتوب 2026, أنكر 737 لابتوب, باور بانك 65 وات, شحن ماك بوك باور بانك, power bank laptop egypt, باور بانك USB-C PD',
             excerpt: 'مش أي باور بانك يشحن لابتوب. في 3 شروط لازم تتحقق — القدرة، البروتوكول، والسعة. اعرفهم بالأرقام.',
             quickAnswer: 'أيوا، الباور بانك يقدر يشحن لابتوب بشرط 3 حاجات: (1) خرج USB-C بقدرة 45W على الأقل ببروتوكول PD 3.0، (2) سعة 20,000mAh فأكثر، (3) اللابتوب نفسه لازم يدعم الشحن عبر USB-C. معظم لابتوبات 2022+ بتدعم ده. أنكر 737 PowerBank (140W/24,000mAh) هو الخيار الأقوى — بيشحن MacBook Air من 0 لـ 100% مرة كاملة.',
@@ -145,7 +145,7 @@ export const can_power_bank_charge_laptop_guide: BlogArticle = {
         en: {
             title: 'Can a Power Bank Charge a Laptop? The Complete Scientific Guide with Real Numbers (2026)',
             metaTitle: 'Can a Power Bank Charge a Laptop? Requirements + Best Options 2026 | CairoVolt',
-            metaDescription: 'Find out if your power bank can charge your laptop — with exact scientific requirements. Full compatibility table for every laptop + best power banks for laptops in Egypt.',
+            metaDescription: 'Find out if your power bank can charge your laptop — with exact scientific requirements. Full compatibility table for every laptop + best power banks for lap...',
             keywords: 'can power bank charge laptop, power bank for laptop, charge laptop with power bank, best power bank laptop 2026, Anker 737 laptop, 65W power bank, charge MacBook power bank, USB-C PD power bank, laptop power bank Egypt, how many watts to charge laptop',
             excerpt: 'Not every power bank can charge a laptop. There are 3 conditions that must be met — wattage, protocol, and capacity. Learn them with real numbers.',
             quickAnswer: 'Yes, a power bank can charge a laptop if it meets 3 conditions: (1) USB-C output with at least 45W via PD 3.0 protocol, (2) capacity of 20,000mAh or more, (3) the laptop itself must support USB-C charging. Most 2022+ laptops support this. The Anker 737 PowerBank (140W/24,000mAh) is the strongest option — it charges a MacBook Air from 0 to 100% in one full cycle.',

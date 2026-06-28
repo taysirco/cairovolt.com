@@ -115,7 +115,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
         en: {
             title: 'Complete Soundcore Models Guide Egypt 2026 — All Models Compared',
             metaTitle: 'Soundcore Models Egypt 2026 | P30i, Q11i, A30i, R50i — Full Guide',
-            metaDescription: 'Complete guide to all Soundcore by Anker earbuds in Egypt 2026. Compare P30i, Q11i, A30i, Q20i, V20i, R50i, Space One with prices and specs. Which one is right for you?',
+            metaDescription: 'Complete guide to all Soundcore by Anker earbuds in Egypt 2026. Compare P30i, Q11i, A30i, Q20i, V20i, R50i, Space One with prices and specs. Which one is rig...',
             keywords: 'soundcore p30i, soundcore q11i, anker soundcore liberty 4 nc, anker soundcore liberty 4 pro, anker soundcore liberty 5, anker soundcore p30i, anker soundcore p40i, anker soundcore q11i, anker soundcore r50i vi, anker p2i, p40i soundcore, anker pencil, soundcore a30i, soundcore q20i, soundcore v20i, soundcore q30, soundcore q45, soundcore c40i, soundcore h30i, soundcore p25i, soundcore p41i, soundcore a20i, soundcore r100, anker p30i, anker a30i, anker p25i, anker q20i, anker v20i, p30i soundcore, soundcore liberty 4 pro, soundcore liberty 5, soundcore space one, soundcore space one pro, soundcore r50i vi, soundcore liberty buds, soundcore aerofit 2, soundcore select 4 go, anker lightening',
             excerpt: 'Complete comparison of all Soundcore by Anker earbuds — available in Egypt and international models.',
             quickAnswer: 'Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,199), Life P2i (EGP 820). Models like P30i and Q11i are international — best local alternative for P30i is R50i NC with stronger ANC.',

@@ -24,7 +24,7 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
             ar: {
                 title: 'هل الشواحن التقليد بتضر بطارية الايفون فعلاً؟ الإجابة العلمية',
                 metaTitle: 'هل الشواحن التقليد تضر بطارية الايفون؟ | الحقيقة العلمية',
-                metaDescription: 'اعرف الحقيقة العلمية: هل الشواحن التقليد بتدمر بطارية الايفون؟ شرح مفصل لتأثير الشحن السيء على Battery Health وإزاي تحمي موبايلك.',
+                metaDescription: 'اعرف الحقيقة العلمية: هل الشواحن التقليد بتدمر بطارية الايفون؟ شرح مفصل لتأثير الشحن السيء على Battery Health وإزاي تحمي موبايلك. تابع التفاصيل والمقارنة بمصر.',
                 keywords: 'هل الشواحن التقليد تضر البطارية, شاحن تقليد ايفون, تأثير الشاحن التقليد على البطارية, battery health ايفون, حماية بطارية الايفون, شاحن اصلي vs تقليد',
                 excerpt: 'الحقيقة العلمية الكاملة عن تأثير الشواحن التقليد على بطارية الايفون وإزاي تحمي موبايلك.',
                 quickAnswer: 'نعم، الشواحن التقليد تضر بطارية الايفون. التيار غير المنتظم يسبب سخونة زيادة تقلل عمر البطارية 30-50%. الحل: استخدم شاحن معتمد MFi مثل <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W</a> (375 جنيه) لحماية جهازك.',
@@ -90,7 +90,7 @@ export const do_fake_chargers_damage_iphone_battery: BlogArticle = {
             en: {
                 title: 'Do Fake Chargers Actually Damage iPhone Battery? The Scientific Answer',
                 metaTitle: 'Do Fake Chargers Damage iPhone Battery? | Scientific Truth',
-                metaDescription: 'Learn the scientific truth: do fake chargers destroy iPhone battery? Detailed explanation of how bad charging affects Battery Health and how to protect your phone.',
+                metaDescription: 'Learn the scientific truth: do fake chargers destroy iPhone battery? Detailed explanation of how bad charging affects Battery Health and how to protect your ...',
                 keywords: 'fake charger iphone battery, do fake chargers damage battery, battery health iphone, counterfeit charger damage, protect iphone battery, original vs fake charger',
                 excerpt: 'The complete scientific truth about how fake chargers affect iPhone battery and how to protect your phone.',
                 quickAnswer: 'Yes, fake chargers damage iPhone batteries. Irregular current causes overheating, reducing battery lifespan by 30-50%. Solution: use an MFi-certified charger like Anker 20W (EGP 375) to protect your device.',

@@ -263,7 +263,7 @@ export const usb_c_240w_thunderbolt_port_difference: BlogArticle = {
         en: {
             title: 'Not All USB-C Ports Are Equal — How to Tell 240W from Thunderbolt from Standard',
             metaTitle: 'USB-C Port Types: 240W vs Thunderbolt vs Standard',
-            metaDescription: 'Not all USB-C ports are the same. Learn the real difference between USB-C 2.0, USB 3.2, Thunderbolt 4, USB4, and EPR 240W — with specs, symbols, and practical tests.',
+            metaDescription: 'Not all USB-C ports are the same. Learn the real difference between USB-C 2.0, USB 3.2, Thunderbolt 4, USB4, and EPR 240W — with specs, symbols, and practica...',
             keywords: 'USB-C port types, USB-C 240W, Thunderbolt 4 vs USB4, USB-C standard, types of USB-C ports, USB-C cable Egypt, thunderbolt vs usb-c difference, EPR 240W cable, usb-c port identification, USB-C charging speed',
             excerpt: 'Not all USB-C ports are equal — learn to identify 240W, Thunderbolt, and standard ports by symbols, specs, and real-world performance.',
             quickAnswer: 'USB-C ports have at least 5 tiers: USB 2.0 (480 Mbps / 15W), USB 3.2 (10 Gbps / 100W), USB4 (40 Gbps / 100W), Thunderbolt 4 (guaranteed 40 Gbps + dual 4K), and EPR 240W (highest charging for heavy laptops). The difference affects charging speed, data transfer, and display output. Check the symbol printed next to your port or look up your device specs.',

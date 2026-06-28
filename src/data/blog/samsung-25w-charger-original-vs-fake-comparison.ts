@@ -358,7 +358,7 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
         en: {
             title: 'How to Spot a Fake Samsung 25W Charger — By Weight, Numbers & Exact Details',
             metaTitle: 'Spot Fake Samsung 25W Charger — 7 Tests by Weight & Numbers',
-            metaDescription: 'Engineer\'s guide to identifying fake Samsung 25W chargers: 12g weight difference, USB-C tongue color, EP-TA800 model check, and voltage ripple test. With exact numbers and photos.',
+            metaDescription: 'Engineer\'s guide to identifying fake Samsung 25W chargers: 12g weight difference, USB-C tongue color, EP-TA800 model check, and voltage ripple test. With ex...',
             keywords: 'samsung 25w charger original vs fake, EP-TA800 authentic, fake samsung charger, samsung 25w charger original, how to spot fake samsung charger, samsung charger original check, samsung 25w charger weight, samsung super fast charger real vs fake, samsung charger egypt, samsung charger authenticity test',
             excerpt: 'An electronics engineer\'s guide to spotting fake Samsung 25W chargers using 7 precise tests — weight, USB-C tongue color, model numbers, and actual power output measurements.',
             quickAnswer: 'The original Samsung 25W charger (EP-TA800) weighs 52-54g, has a blue/green USB-C tongue, reads "Made in Vietnam" or India, and delivers actual 25W via PD 3.0 + PPS. Fakes are 10-15g lighter, have a white USB-C tongue, and blurry printing. Testing weight and the port color catches 90% of counterfeits.',

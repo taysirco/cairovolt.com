@@ -25,7 +25,7 @@ export const authentic_charger_vs_3_fake_chargers_roi_math: BlogArticle = {
         ar: {
             title: 'حساب رياضي بسيط: إمتى شراء الشاحن الأصلي أوفر من 3 شواحن تقليد؟',
             metaTitle: 'الشاحن الأصلي ضد 3 شواحن تقليد — حساب التكلفة الحقيقية | كايرو فولت',
-            metaDescription: 'حساب رياضي بسيط يثبت إن الشاحن الأصلي أوفر من شراء 3 شواحن تقليد. تكلفة خفية، أضرار البطارية، ومخاطر السلامة — بالأرقام.',
+            metaDescription: 'حساب رياضي بسيط يثبت إن الشاحن الأصلي أوفر من شراء 3 شواحن تقليد. تكلفة خفية، أضرار البطارية، ومخاطر السلامة — بالأرقام. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'شاحن أصلي ضد تقليد, تكلفة شاحن تقليد, شاحن مقلد أضرار, شاحن رخيص خطر, شاحن أصلي أوفر, مقارنة شاحن أصلي وتقليد, شاحن انكر أصلي, لماذا الشاحن الأصلي أغلى, شاحن تقليد يبوظ البطارية, حساب تكلفة الشحن',
             excerpt: 'شاحن تقليد بـ 80 جنيه ضد شاحن أصلي بـ 700 جنيه — الأول يبان أوفر. بس لما تحسبها صح — الأصلي بيوفّر عليك فلوس. بالأرقام.',
             quickAnswer: 'شاحن تقليد بـ 80 جنيه بيعيش 3-6 شهور في المتوسط. خلال سنتين هتشتري 3-4 شواحن = 240-320 جنيه + ممكن تبوظ بطارية موبايلك (تغيير بطارية = 1,500-3,000 جنيه). شاحن أصلي بـ 700 جنيه بيعيش 3-5 سنين بضمان. التكلفة الحقيقية للتقليد أعلى بكتير.',
@@ -172,7 +172,7 @@ export const authentic_charger_vs_3_fake_chargers_roi_math: BlogArticle = {
         en: {
             title: 'Simple Math: When Does Buying an Original Charger Save More Than 3 Fake Ones?',
             metaTitle: 'Original vs Fake Charger — The True Cost Calculation | CairoVolt',
-            metaDescription: 'Simple math proves an original charger saves more than buying 3 fake ones. Hidden costs, battery damage, and safety risks — by the numbers.',
+            metaDescription: 'Simple math proves an original charger saves more than buying 3 fake ones. Hidden costs, battery damage, and safety risks — by the numbers. Learn more.',
             keywords: 'original vs fake charger, counterfeit charger cost, fake charger damage, cheap charger risks, original charger value, charger comparison original fake, Anker original charger, why original charger expensive, fake charger battery damage, charging cost calculation',
             excerpt: 'A fake charger at 80 EGP vs an original at 700 EGP — the first seems cheaper. But when you do the math right — the original saves you money. By the numbers.',
             quickAnswer: 'A fake charger at 80 EGP lasts 3-6 months on average. Over two years you\'ll buy 3-4 = 240-320 EGP + potential battery damage (replacement costs 1,500-3,000 EGP). An original charger at 700 EGP lasts 3-5 years with warranty. The true cost of fakes is much higher.',

@@ -25,7 +25,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
         ar: {
             title: 'بدائل GaN لشواحن MacBook الأصلية — نفس الأداء بنصف السعر في مصر',
             metaTitle: 'بدائل GaN لشواحن MacBook الأصلية بنصف السعر | كايرو فولت',
-            metaDescription: 'اكتشف أفضل شواحن GaN البديلة لـ MacBook Air M3/M4 و MacBook Pro في مصر. مقارنة الأداء والحرارة والسعر مع شاحن Apple الأصلي — بأرقام حقيقية.',
+            metaDescription: 'اكتشف أفضل شواحن GaN البديلة لـ MacBook Air M3/M4 و MacBook Pro في مصر. مقارنة الأداء والحرارة والسعر مع شاحن Apple الأصلي — بأرقام حقيقية. تابع التفاصيل بمصر.',
             keywords: 'شاحن ماك بوك بديل, شاحن GaN للاب توب, بديل شاحن ابل, شاحن MacBook Air M4, شاحن ماك بوك في مصر, انكر نانو 45 واط ماك بوك, GaN charger MacBook Egypt, افضل شاحن لابتوب ابل',
             excerpt: 'مقارنة شاملة بين شاحن Apple الأصلي وبدائل GaN من Anker — أيهم أوفر وأصغر حجماً وبيشحن بنفس السرعة في مصر.',
             quickAnswer: 'أيوا، شاحن GaN زي Anker Nano 45W بيشحن MacBook Air M3/M4 بنفس سرعة شاحن Apple الأصلي بالظبط (45W عبر USB-C PD 3.0) — بس بحجم أصغر 40% وسعر أقل 50%. الشرط الوحيد: كابل USB-C يدعم 60W+ زي Anker PowerLine. متاح على كايرو فولت بـ 790ج بضمان 24 شهر.',

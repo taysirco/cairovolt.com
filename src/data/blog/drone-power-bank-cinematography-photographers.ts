@@ -217,7 +217,7 @@ export const drone_power_bank_cinematography_photographers: BlogArticle = {
         en: {
             title: 'Power Banks for Drones — Maximum Allowed Capacities & Best Picks for Cinematographers',
             metaTitle: 'Power Bank for Drone Pilots — Flight-Legal Capacities & Best Options | CairoVolt',
-            metaDescription: 'Practical guide to choosing a power bank for drone photographers: airline capacity limits, charging the controller and phone in the field, and preparing for off-grid shoots.',
+            metaDescription: 'Practical guide to choosing a power bank for drone photographers: airline capacity limits, charging the controller and phone in the field, and preparing for ...',
             keywords: 'power bank drone, power bank photographer, drone controller charging, flight legal power bank, power bank DJI, drone desert charging, cinematography power bank, drone field charging',
             excerpt: 'Drone photographers need to understand flight-legal capacity limits and choose a power bank that charges the controller and phone — not the drone itself.',
             quickAnswer: 'A power bank cannot charge the drone battery (requires a dedicated high-voltage charger). But it\'s essential for charging the remote controller (dies in 2-3 hours) and phone/tablet (drains faster with screen on + live feed). For flights: maximum 100Wh without airline approval (~27,000mAh). Our pick: Anker PowerCore 20,000mAh (74Wh — 1,550 EGP) — safely under the flight limit + charges the controller twice + phone 3 times. For full-day shoots: Anker 26,800mAh (96.5Wh — still under 100Wh).',

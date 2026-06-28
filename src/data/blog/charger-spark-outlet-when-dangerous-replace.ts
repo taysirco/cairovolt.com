@@ -25,7 +25,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
         ar: {
             title: 'شرارة الشاحن في البريزة — إمتى تكون عادية وإمتى لازم تغيّره فوراً؟',
             metaTitle: 'شرارة الشاحن في البريزة — عادية ولا خطيرة؟ دليل أمان كامل | كايرو فولت',
-            metaDescription: 'شاحنك بيعمل شرارة لما بتوصله بالبريزة؟ دليل مهندس يشرح الفرق بين الشرارة الطبيعية والخطيرة، وإمتى لازم تغيّر الشاحن أو البريزة فوراً.',
+            metaDescription: 'شاحنك بيعمل شرارة لما بتوصله بالبريزة؟ دليل مهندس يشرح الفرق بين الشرارة الطبيعية والخطيرة، وإمتى لازم تغيّر الشاحن أو البريزة فوراً. تابع التفاصيل بمصر.',
             keywords: 'شرارة شاحن البريزة, شاحن بيعمل شرارة, هل شرارة الشاحن خطيرة, شرارة كهربائية بريزة, شاحن بيعمل صوت طقطقة, أمان الشاحن الكهربائي, شرارة الشاحن لما بوصله, بريزة بتعمل شرارة, تغيير شاحن بسبب شرارة',
             excerpt: 'شرارة صغيرة لما بتوصل الشاحن بالبريزة — عادية ولا خطيرة؟ المقال ده بيشرح الفرق بينهم بالعلامات الواضحة، وإمتى لازم تتصرف فوراً.',
             quickAnswer: 'شرارة صغيرة زرقاء لحظية (أقل من ثانية) عند توصيل الشاحن = طبيعية 100% — ده التيار بيبدأ يتدفق. خطيرة لو: (1) الشرارة كبيرة أو برتقالية/صفراء. (2) بتتكرر أو مستمرة بعد التوصيل. (3) فيه صوت طقطقة أو أزيز مستمر. (4) ريحة بلاستيك محروق. (5) البريزة أو الشاحن سخن بشكل غير طبيعي. في الحالات دي: افصل فوراً ← متستخدمش البريزة أو الشاحن ← استبدل.',
@@ -151,7 +151,7 @@ export const charger_spark_outlet_when_dangerous_replace: BlogArticle = {
         en: {
             title: 'Charger Sparks When Plugged In — When It\'s Normal and When to Replace It Immediately',
             metaTitle: 'Charger Sparks in Outlet — Normal or Dangerous? Complete Safety Guide | CairoVolt',
-            metaDescription: 'Charger sparks when you plug it in? Engineer\'s guide explaining the difference between normal and dangerous sparks, and when to replace your charger or outlet immediately.',
+            metaDescription: 'Charger sparks when you plug it in? Engineer\'s guide explaining the difference between normal and dangerous sparks, and when to replace your charger or outl...',
             keywords: 'charger sparks when plugged in, is charger spark dangerous, charger spark outlet normal, charger makes sparking sound, electrical spark outlet, when to replace charger spark, charger arc electricity, outlet sparks when plug in charger, charger safety spark fire risk',
             excerpt: 'A small spark when plugging in your charger — normal or dangerous? This article explains the difference with clear signs, and when you need to act immediately.',
             quickAnswer: 'A small blue momentary spark (under 1 second) when plugging in = 100% normal — it\'s current starting to flow. Dangerous if: (1) Spark is large or orange/yellow. (2) Repeats or continues after connection. (3) Continuous buzzing or crackling sound. (4) Burning plastic smell. (5) Charger or outlet abnormally hot. In these cases: disconnect immediately → don\'t use the outlet or charger → replace.',

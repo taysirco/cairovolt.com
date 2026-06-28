@@ -25,7 +25,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
         ar: {
             title: 'ثلاث أجهزة على شاحن سيارة واحد — فن توزيع 60 واط بذكاء',
             metaTitle: 'شحن 3 أجهزة في السيارة بشاحن 60W | توزيع القدرة الذكي 2026',
-            metaDescription: 'إزاي توزّع 60 واط على 3 أجهزة في شاحن سيارة واحد بدون ما جهاز يتظلم؟ سيناريوهات حقيقية، جداول توزيع القدرة، وأفضل شواحن سيارة في مصر 2026.',
+            metaDescription: 'إزاي توزّع 60 واط على 3 أجهزة في شاحن سيارة واحد بدون ما جهاز يتظلم؟ سيناريوهات حقيقية، جداول توزيع القدرة، وأفضل شواحن سيارة في مصر 2026. تابع التفاصيل بمصر.',
             keywords: 'شاحن سيارة 3 أجهزة, توزيع قدرة شاحن سيارة, شحن 3 موبايلات في السيارة, شاحن سيارة 60 واط, شاحن سيارة متعدد المنافذ, power distribution car charger, شاحن جوي روم 60 واط سيارة, شاحن انكر سيارة مصر, شحن موبايل وتابلت في السيارة, أفضل شاحن سيارة متعدد',
             excerpt: 'دليل توزيع 60 واط على 3 أجهزة في شاحن سيارة واحد — سيناريوهات واقعية وجداول توزيع القدرة مع أفضل شواحن متعددة المنافذ في مصر.',
             quickAnswer: 'شاحن سيارة 60W مش بيقسم القدرة بالتساوي — كل جهاز بيتفاوض على احتياجه. موبايل بياخد 15-25W، تابلت بياخد 15-20W، والباقي للجهاز التالت. أفضل استراتيجية: وصّل الجهاز الأكتر احتياجاً الأول على منفذ USB-C PD، والباقي على USB-A. شاحن جوي روم 60W بيوزّع القدرة تلقائياً بين 3 منافذ بدون تدخل منك.',
@@ -306,7 +306,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
         en: {
             title: 'Three Devices on One Car Charger — The Art of Distributing 60W Smartly',
             metaTitle: 'Charging 3 Devices in Your Car with 60W | Smart Power Distribution 2026',
-            metaDescription: 'How to distribute 60W across 3 devices on a single car charger without any device being short-changed. Real scenarios, power distribution tables, and the best car chargers in Egypt 2026.',
+            metaDescription: 'How to distribute 60W across 3 devices on a single car charger without any device being short-changed. Real scenarios, power distribution tables, and the bes...',
             keywords: 'car charger 3 devices, power distribution car charger, charging 3 phones car, 60w car charger, multi port car charger, car charger power splitting, joyroom 60w car charger, anker car charger egypt, charging phone tablet car, best multi device car charger',
             excerpt: 'A guide to distributing 60 watts across 3 devices on a single car charger — real-world scenarios and power distribution tables with the best multi-port car chargers in Egypt.',
             quickAnswer: 'A 60W car charger doesn\'t split power equally — each device negotiates its needs. A phone takes 15-25W, a tablet takes 15-20W, and the remainder goes to the third device. Best strategy: connect the most depleted device first to the USB-C PD port, and the rest to USB-A. The Joyroom 60W charger automatically distributes power across 3 ports without manual intervention.',

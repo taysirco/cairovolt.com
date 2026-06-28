@@ -213,7 +213,7 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
         en: {
             title: 'Best Bluetooth Speaker for Office & Home — Cinematic Sound Under 2,000 EGP',
             metaTitle: 'Best Bluetooth Speaker for Home & Office 2026 | CairoVolt',
-            metaDescription: 'Guide to choosing a Bluetooth speaker for office and home under 2,000 EGP. Technical comparison of real wattage, surround sound, and battery life with recommendations available in Egypt.',
+            metaDescription: 'Guide to choosing a Bluetooth speaker for office and home under 2,000 EGP. Technical comparison of real wattage, surround sound, and battery life with recomm...',
             keywords: 'best bluetooth speaker home, bluetooth speaker office, bluetooth speaker under 2000 egp, soundcore speaker egypt, bluetooth speaker powerful sound, bluetooth speaker 2026 egypt, best portable speaker egypt, soundcore motion plus review, home bluetooth speaker buying guide',
             excerpt: 'Guide to choosing a Bluetooth speaker for office and home under 2,000 EGP — technical comparison of real wattage, surround sound, and battery with recommendations available in Egypt.',
             quickAnswer: 'The best office Bluetooth speaker delivers clean sound at low volume (5-10W is enough). For home living rooms, you need 20-30W with strong Bass. The key is not the wattage number — it is driver quality and passive radiators. Our pick: Soundcore Motion Plus for cinematic sound, or Soundcore Select 4 Go for a compact portable option.',

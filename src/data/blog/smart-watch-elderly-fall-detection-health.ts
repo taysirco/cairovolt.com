@@ -187,7 +187,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
         en: {
             title: 'Smartwatch for Elderly Parents — 6 Health Features That Must Be Present Before You Buy',
             metaTitle: 'Smartwatch for Elderly — Fall Detection & Health Monitoring | CairoVolt',
-            metaDescription: 'Guide to choosing a smartwatch for elderly parents with fall detection, heart rate monitoring, and emergency alerts — comparing real health features available in Egypt at reasonable prices.',
+            metaDescription: 'Guide to choosing a smartwatch for elderly parents with fall detection, heart rate monitoring, and emergency alerts — comparing real health features availabl...',
             keywords: 'smartwatch for elderly, fall detection smartwatch, blood pressure smartwatch, health smartwatch elderly, smartwatch seniors egypt, smart watch fall detection egypt, elderly health monitoring watch, emergency alert smartwatch, heart rate smartwatch elderly',
             excerpt: 'Not every smartwatch is suitable for elderly parents. A guide to real health features — from fall detection to emergency alerts — and what is actually available in Egypt at a reasonable price.',
             quickAnswer: 'A smartwatch for elderly parents must have 6 essential features: (1) 24/7 heart rate sensor, (2) abnormal heart rate alerts, (3) sleep quality tracking, (4) large clear screen, (5) 3+ day battery life, (6) loud notifications with strong vibration. Real fall detection exists in Apple Watch and Galaxy Watch but costs 7,000+ EGP. The practical alternative: Joyroom FT3 at 1,200 EGP provides 5 of 6 essential features.',

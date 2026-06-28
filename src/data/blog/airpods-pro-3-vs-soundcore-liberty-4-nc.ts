@@ -25,7 +25,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
         ar: {
             title: 'AirPods Pro 3 ضد Soundcore Liberty 4 NC — مقارنة صادمة بالأرقام والاختبارات الفعلية',
             metaTitle: 'AirPods Pro 3 ضد Liberty 4 NC مقارنة بالأرقام | كايرو فولت',
-            metaDescription: 'مقارنة هندسية تفصيلية بين AirPods Pro 3 وSoundcore Liberty 4 NC بالأرقام الفعلية. اختبار ANC والصوت والبطارية والمكالمات. اكتشف هل فرق 5 أضعاف السعر يستاهل فعلاً.',
+            metaDescription: 'مقارنة هندسية تفصيلية بين AirPods Pro 3 وSoundcore Liberty 4 NC بالأرقام الفعلية. اختبار ANC والصوت والبطارية والمكالمات. اكتشف هل فرق 5 أضعاف السعر يستاهل ف...',
             keywords: 'ايربودز برو 3 ضد ساوند كور ليبرتي 4, AirPods Pro 3 vs Soundcore Liberty 4 NC, مقارنة سماعات بلوتوث مصر, أفضل سماعة ANC تحت 3000 جنيه, airpods pro 3 سعر مصر, soundcore liberty 4 nc مصر, سماعة عزل ضوضاء اقتصادية, مقارنة ANC ابل ساوند كور',
             excerpt: 'مقارنة هندسية صادمة بالأرقام بين AirPods Pro 3 بـ 15,000 جنيه و Soundcore Liberty 4 NC بـ 2,800 جنيه. هل فرق 5 أضعاف السعر يترجم لـ 5 أضعاف الأداء؟',
             quickAnswer: 'AirPods Pro 3 سماعة ممتازة لمستخدمي iPhone بفضل تكامل النظام وشريحة H3، لكن Soundcore Liberty 4 NC بتقدم 85% من أداء الـ ANC ونقاء الصوت بـ 18-20% فقط من السعر. لو ميزانيتك محدودة أو بتستخدم Android، الـ Liberty 4 NC هي الخيار الأذكى اقتصادياً في السوق المصري. لو عايز أقصى تكامل مع Apple وأحسن Spatial Audio، الـ AirPods Pro 3 تستاهل الفرق.',
@@ -280,7 +280,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
         en: {
             title: 'AirPods Pro 3 vs Soundcore Liberty 4 NC — A Shocking Comparison with Real Numbers and Tests',
             metaTitle: 'AirPods Pro 3 vs Liberty 4 NC Real Comparison | CairoVolt',
-            metaDescription: 'Detailed engineering comparison between AirPods Pro 3 and Soundcore Liberty 4 NC with real test results. ANC, sound quality, battery, and call tests. Is the 5x price difference actually worth it?',
+            metaDescription: 'Detailed engineering comparison between AirPods Pro 3 and Soundcore Liberty 4 NC with real test results. ANC, sound quality, battery, and call tests. Is the ...',
             keywords: 'AirPods Pro 3 vs Soundcore Liberty 4 NC, best ANC earbuds under 3000 EGP, AirPods Pro 3 price Egypt, soundcore liberty 4 nc Egypt, budget ANC earbuds comparison, apple vs soundcore earbuds, best noise cancelling earbuds Egypt, ANC comparison AirPods Soundcore',
             excerpt: 'A shocking engineering comparison with real numbers between AirPods Pro 3 at 15,000 EGP and Soundcore Liberty 4 NC at 2,800 EGP. Does the 5x price difference translate to 5x better performance?',
             quickAnswer: 'AirPods Pro 3 are excellent for iPhone users thanks to ecosystem integration and the H3 chip, but Soundcore Liberty 4 NC delivers 85% of the ANC and sound quality at only 18-20% of the price. If your budget is limited or you use Android, the Liberty 4 NC is the smartest economic choice in the Egyptian market. If you want maximum Apple integration and the best Spatial Audio, the AirPods Pro 3 are worth the premium.',

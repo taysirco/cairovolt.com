@@ -25,7 +25,7 @@ export const apple_accessories_egypt_availability_pricing: BlogArticle = {
         ar: {
             title: 'ليه ملحقات Apple الأصلية مش موجودة في مصر بأسعار معقولة؟ القصة الكاملة',
             metaTitle: 'ليه ملحقات ابل الأصلية غالية في مصر؟ القصة الكاملة | كايرو فولت',
-            metaDescription: 'ليه شاحن ابل 20W بيوصل 1,200ج في مصر مع إنه بـ 19$ في أمريكا؟ القصة الكاملة: جمارك، ضرائب، توزيع، وبدائل MFi أصلية بنص السعر.',
+            metaDescription: 'ليه شاحن ابل 20W بيوصل 1,200ج في مصر مع إنه بـ 19$ في أمريكا؟ القصة الكاملة: جمارك، ضرائب، توزيع، وبدائل MFi أصلية بنص السعر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'ملحقات ابل اصلية مصر, سعر شاحن ايفون اصلي مصر, ليه شاحن ابل غالي, بديل شاحن ابل اصلي, MFi مصر, شاحن ايفون بديل انكر, كابل ايفون اصلي سعر مصر, apple accessories egypt price, ابل مصر اسعار, شاحن 20 واط ايفون مصر',
             excerpt: 'القصة الكاملة وراء غلاء ملحقات Apple الأصلية في مصر — من الجمارك للتوزيع — وأفضل البدائل المعتمدة MFi بنص السعر.',
             quickAnswer: 'شاحن Apple 20W بيكلف 19$ في أمريكا (حوالي 950ج بسعر الصرف) لكن بيتباع في مصر بـ 1,100-1,400ج. السبب: جمارك 30% + ضريبة قيمة مضافة 14% + هامش موزع 20-35% + ندرة التوزيع الرسمي. البديل الذكي: شواحن وكابلات بشهادة MFi من Anker أو Joyroom — نفس الأداء والأمان بـ 40-55% أقل من سعر Apple الأصلي.',
@@ -225,7 +225,7 @@ export const apple_accessories_egypt_availability_pricing: BlogArticle = {
         en: {
             title: 'Why Are Original Apple Accessories Unavailable at Reasonable Prices in Egypt? The Full Story',
             metaTitle: 'Why Apple Accessories Are Expensive in Egypt — Full Story | CairoVolt',
-            metaDescription: 'Why does an Apple 20W charger cost 1,200 EGP in Egypt when it is $19 in the US? The full story: customs, taxes, distribution, and MFi alternatives at half the price.',
+            metaDescription: 'Why does an Apple 20W charger cost 1,200 EGP in Egypt when it is $19 in the US? The full story: customs, taxes, distribution, and MFi alternatives at half th...',
             keywords: 'apple accessories egypt price, iphone charger egypt original, why apple charger expensive egypt, apple mfi alternative egypt, anker mfi charger iphone, iphone cable original price egypt, apple accessories egypt availability, best iphone charger egypt, mfi certified egypt, apple charger alternative anker joyroom',
             excerpt: 'The full story behind why original Apple accessories are overpriced in Egypt — from customs to distribution — and the best MFi-certified alternatives at half the price.',
             quickAnswer: 'An Apple 20W charger costs $19 in the US (about 950 EGP at exchange rate) but sells for 1,100-1,400 EGP in Egypt. The reason: 30% customs duty + 14% VAT + 20-35% distributor margin + scarce official distribution. The smart alternative: MFi-certified chargers and cables from Anker or Joyroom — same performance and safety at 40-55% less than Apple original pricing.',

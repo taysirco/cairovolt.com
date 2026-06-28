@@ -263,7 +263,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         en: {
             title: 'Best 5 GaN Multi-Port Chargers for Office and Home in Egypt 2026',
             metaTitle: 'Best 5 GaN Multi-Port Chargers — Office & Home Egypt 2026 | CairoVolt',
-            metaDescription: 'Guide to choosing a GaN multi-port charger in Egypt 2026. From 30W to 100W — charge phone + laptop + tablet with one charger. Prices from 499 to 1,299 EGP with real tests.',
+            metaDescription: 'Guide to choosing a GaN multi-port charger in Egypt 2026. From 30W to 100W — charge phone + laptop + tablet with one charger. Prices from 499 to 1,299 EGP wi...',
             keywords: 'GaN charger egypt, multi-port charger, anker GaN charger, best office charger 2026, USB-C multi-port charger, 65W GaN charger, 100W GaN charger egypt, one charger all devices, gallium nitride charger, laptop phone charger one, anker gan charger egypt',
             excerpt: 'Charge phone + laptop + tablet with one tiny charger. Best 5 GaN multi-port chargers in Egypt — from 499 to 1,299 EGP with real tests.',
             quickAnswer: 'Best GaN multi-port charger in Egypt: Anker Nano 45W with smart display (799 EGP) — charges iPhone 17 Pro Max + iPad with two USB-C ports. Need laptop charging → Anker 717 GaN 100W (1,299 EGP) with 3 USB-C + USB-A ports. Budget pick → Anker GaN 30W (499 EGP) single USB-C port charging any phone at max speed. GaN technology is 50% smaller and 30% cooler than traditional chargers.',

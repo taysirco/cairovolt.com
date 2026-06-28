@@ -25,7 +25,7 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
         ar: {
             title: 'شحن الموبايل في البرد القارس — قواعد الأمان لشتاء الإسكندرية ومرسى مطروح',
             metaTitle: 'شحن الموبايل في البرد — قواعد أمان لشتاء مصر الساحلي | كايرو فولت',
-            metaDescription: 'موبايلك بيقفل في البرد أو بيشحن ببطء؟ دليل مهندس يشرح تأثير البرد على بطارية الليثيوم وقواعد الشحن الآمن في شتاء إسكندرية ومطروح والساحل.',
+            metaDescription: 'موبايلك بيقفل في البرد أو بيشحن ببطء؟ دليل مهندس يشرح تأثير البرد على بطارية الليثيوم وقواعد الشحن الآمن في شتاء إسكندرية ومطروح والساحل. تابع التفاصيل بمصر.',
             keywords: 'شحن الموبايل في البرد, بطارية الموبايل في الشتاء, الموبايل بيقفل في البرد, شحن الموبايل شتاء اسكندرية, تأثير البرد على البطارية, الليثيوم والبرد, شحن آمن في الشتاء, البطارية بتنزل في البرد, حماية الموبايل من البرد',
             excerpt: 'موبايلك بيقفل عند 30% في البرد؟ البطارية بتنزل أسرع في الشتاء؟ المشكلة مش في موبايلك — في كيمياء الليثيوم. وفي قواعد بسيطة تحميك.',
             quickAnswer: 'بطاريات الليثيوم بتفقد 20-40% من سعتها المؤقتة في درجات حرارة تحت 10°C. الموبايل ممكن يقفل فجأة عند 20-30% لأن البطارية مش قادرة تتحمل الحِمل الكهربائي في البرد. القواعد: (1) سخّن الموبايل لدرجة حرارة الغرفة قبل ما تشحنه. (2) متشحنش في درجة حرارة تحت 5°C أبداً — ده بيتلف البطارية بشكل دائم. (3) خلّي الموبايل في جيب قريب من جسمك. (4) استخدم باور بانك كمصدر شحن طوارئ بدل ما تشحن في البرد مباشرةً.',
@@ -161,7 +161,7 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
         en: {
             title: 'Charging Your Phone in Freezing Cold — Safety Rules for Egyptian Coastal Winters',
             metaTitle: 'Charging Phone in Cold Weather — Winter Safety Rules for Egypt | CairoVolt',
-            metaDescription: 'Phone shutting down in cold or charging slowly? Engineer\'s guide explaining cold\'s effect on lithium batteries and safe charging rules for Egyptian coastal winters.',
+            metaDescription: 'Phone shutting down in cold or charging slowly? Engineer\'s guide explaining cold\'s effect on lithium batteries and safe charging rules for Egyptian coastal...',
             keywords: 'charging phone in cold weather, battery draining fast cold, phone shuts down cold, cold weather battery damage, lithium battery cold temperature, safe charging winter, phone dies in cold, battery percentage drops cold, protect phone battery winter',
             excerpt: 'Phone shutting down at 30% in the cold? Battery draining faster in winter? The problem isn\'t your phone — it\'s lithium chemistry. And there are simple rules to protect it.',
             quickAnswer: 'Lithium batteries lose 20-40% of temporary capacity below 10°C. The phone may shut down suddenly at 20-30% because the battery can\'t handle electrical load in cold. Rules: (1) Warm the phone to room temperature before charging. (2) Never charge below 5°C — this permanently damages the battery. (3) Keep the phone in a pocket close to your body. (4) Use a power bank as emergency charging instead of charging directly in cold.',

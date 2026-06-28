@@ -31,7 +31,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
         ar: {
             title: 'حامل سيارة مغناطيسي بشحن لاسلكي — الحقيقة قبل ما تدفع ثمنه',
             metaTitle: 'حامل موبايل سيارة مغناطيسي بشحن لاسلكي | دليل الشراء 2026',
-            metaDescription: 'هل حامل الموبايل المغناطيسي بشحن لاسلكي في السيارة يستاهل؟ دليل شامل يغطي الأداء الحقيقي، قوة المغناطيس، سرعة الشحن، وتأثير حرارة صيف مصر.',
+            metaDescription: 'هل حامل الموبايل المغناطيسي بشحن لاسلكي في السيارة يستاهل؟ دليل شامل يغطي الأداء الحقيقي، قوة المغناطيس، سرعة الشحن، وتأثير حرارة صيف مصر. تابع التفاصيل بمصر.',
             keywords: 'حامل موبايل سيارة مغناطيسي, شحن لاسلكي سيارة, حامل مغناطيسي شحن لاسلكي مصر, حامل موبايل سيارة بشحن, MagSafe حامل سيارة, حامل سيارة لاسلكي ايفون, حامل موبايل سيارة سامسونج, wireless car mount egypt, magnetic car charger mount',
             excerpt: 'دليل شامل عن حوامل الموبايل المغناطيسية بشحن لاسلكي في السيارة — الأداء الحقيقي، القيود، وتأثير حرارة صيف مصر.',
             quickAnswer: 'حامل السيارة المغناطيسي بشحن لاسلكي حل ممتاز للراحة لكن مش الأسرع في الشحن. أقصى سرعة شحن لاسلكي 15W (MagSafe) أو 7.5W (Qi عادي) — يعني أبطأ 3-5 مرات من شاحن سلكي 45W. الأفضل للي بيستخدم GPS وعايز إيده فاضية. في صيف مصر، الحرارة بتخفض سرعة الشحن لـ 5W أو أقل. لو محتاج شحن سريع فعلي → شاحن سلكي أحسن. لو محتاج راحة وتنظيم → الحامل المغناطيسي اللاسلكي هو الخيار.',
@@ -284,7 +284,7 @@ export const magnetic_car_phone_holder_wireless_charging: BlogArticle = {
         en: {
             title: 'Magnetic Car Phone Holder with Wireless Charging — The Truth Before You Pay',
             metaTitle: 'Magnetic Wireless Car Phone Mount | Buying Guide 2026',
-            metaDescription: 'Is a magnetic wireless charging car phone mount worth it? Full guide covering real performance, magnet strength, charging speed, and Egyptian summer heat impact.',
+            metaDescription: 'Is a magnetic wireless charging car phone mount worth it? Full guide covering real performance, magnet strength, charging speed, and Egyptian summer heat imp...',
             keywords: 'magnetic car phone holder wireless charging, wireless car mount egypt, magnetic car charger mount, MagSafe car mount, wireless charging car holder, qi car mount egypt, car phone mount wireless charger, magnetic phone holder car charging, best wireless car mount 2026',
             excerpt: 'Complete guide to magnetic wireless charging car phone mounts — real performance, limitations, and how Egyptian summer heat affects charging speed.',
             quickAnswer: 'A magnetic wireless charging car mount is excellent for convenience but not the fastest charger. Maximum wireless speed: 15W (MagSafe) or 7.5W (standard Qi) — that\'s 3-5x slower than a 45W wired charger. Best for GPS users who want hands-free convenience. In Egyptian summer, heat throttles charging to 5W or less. If you need fast charging → wired is better. If you need convenience and organization → magnetic wireless mount is the choice.',

@@ -30,7 +30,7 @@ export const magnetic_cable_car_charging_pros_cons: BlogArticle = {
         ar: {
             title: 'كابل مغناطيسي للسيارة — راحة الاستخدام مقابل بطء الشحن، أيهما يفوز؟',
             metaTitle: 'كابل مغناطيسي للسيارة — الراحة مقابل السرعة | كايرو فولت',
-            metaDescription: 'مقارنة علمية بين الكابل المغناطيسي والكابل العادي في السيارة. اختبار سرعة الشحن الفعلية وثبات التوصيل وعمر الكابل — بالأرقام والجداول.',
+            metaDescription: 'مقارنة علمية بين الكابل المغناطيسي والكابل العادي في السيارة. اختبار سرعة الشحن الفعلية وثبات التوصيل وعمر الكابل — بالأرقام والجداول. تابع التفاصيل بمصر.',
             keywords: 'كابل مغناطيسي للسيارة, كابل شحن مغناطيسي, كابل مغناطيسي ضد عادي, شحن سيارة مغناطيسي, magnetic cable car egypt, كابل مغناطيسي USB-C, هل الكابل المغناطيسي بيبطئ الشحن, كابل شحن للعربية, كابل مغناطيسي انكر, magnetic charging cable comparison',
             excerpt: 'مقارنة الكابل المغناطيسي والعادي للسيارة — اختبار سرعة الشحن وثبات التوصيل والمتانة بالأرقام. أيهما يستحق فلوسك؟',
             quickAnswer: 'الكابل المغناطيسي بيوفر راحة استخدام ممتازة في السيارة — توصيل بإيد واحدة في ثانية. لكن بيفقد 15-35% من سرعة الشحن بسبب مقاومة الوصلة المغناطيسية، وأغلب الأنواع لا تدعم أكتر من 15-18W فعلي. لو الراحة أولوية والموبايل فوق 40% → المغناطيسي ممتاز. لو الشحن السريع ضرورة → كابل عادي USB-C بيكسبه بفارق كبير.',
@@ -208,7 +208,7 @@ export const magnetic_cable_car_charging_pros_cons: BlogArticle = {
         en: {
             title: 'Magnetic Cable for Cars — Convenience vs Charging Speed, Which Wins?',
             metaTitle: 'Magnetic Cable for Cars — Convenience vs Speed | CairoVolt',
-            metaDescription: 'Scientific comparison between magnetic and regular cables for car charging. Real-world speed tests, connection stability, and durability data — with tables and numbers.',
+            metaDescription: 'Scientific comparison between magnetic and regular cables for car charging. Real-world speed tests, connection stability, and durability data — with tables a...',
             keywords: 'magnetic cable car charging, magnetic charging cable, magnetic vs regular cable, car magnetic cable egypt, magnetic USB-C cable, does magnetic cable slow charging, magnetic cable pros cons, car charging cable comparison, best car cable egypt, magnetic cable review',
             excerpt: 'Magnetic cable vs regular cable for car charging — real speed tests, connection stability, and durability data. Which one deserves your money?',
             quickAnswer: 'Magnetic cables offer excellent convenience for car use — one-hand snap-on connection in one second. But they lose 15-35% of charging speed due to magnetic connector resistance, and most types max out at 15-18W actual output. If convenience is your priority and your phone is above 40% — magnetic is great. If fast charging is essential — a regular USB-C cable wins by a wide margin.',

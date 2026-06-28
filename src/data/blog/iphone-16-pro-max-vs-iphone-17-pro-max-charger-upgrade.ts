@@ -25,7 +25,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
         ar: {
             title: 'ترقية الشاحن مع الموبايل الجديد — إمتى تستاهل وإمتى مضيعة فلوس؟',
             metaTitle: 'ترقية الشاحن مع الموبايل الجديد — تستاهل ولا لأ؟ | كايرو فولت',
-            metaDescription: 'هل لازم تشتري شاحن جديد لما تغيّر موبايلك؟ مقارنة علمية بين شواحن 20W و30W و45W مع iPhone 17 و Samsung S26 — بالأرقام والاختبار، مش الكلام.',
+            metaDescription: 'هل لازم تشتري شاحن جديد لما تغيّر موبايلك؟ مقارنة علمية بين شواحن 20W و30W و45W مع iPhone 17 و Samsung S26 — بالأرقام والاختبار، مش الكلام. تابع التفاصيل بمصر.',
             keywords: 'ترقية شاحن موبايل, شاحن ايفون 17 برو ماكس, هل اغير الشاحن مع الموبايل, شاحن 20W ولا 30W, charger upgrade new phone, ترقية شاحن سامسونج, شاحن قديم موبايل جديد, هل شاحن 20 واط يكفي ايفون 17',
             excerpt: 'دليل علمي لقرار ترقية الشاحن مع الموبايل الجديد — إمتى الشاحن القديم كافي وإمتى لازم تشتري جديد بالأرقام والاختبار.',
             quickAnswer: 'لو شاحنك القديم USB-C PD بقدرة 20W أو أعلى — في أغلب الحالات مش محتاج تغيّره مع الموبايل الجديد. شاحن 20W بيوصل iPhone 17 Pro Max لـ 50% في 28 دقيقة، وشاحن 30W بيوصله في 22 دقيقة — الفرق 6 دقايق بس. الترقية تستاهل فقط لو: (1) شاحنك USB-A بدون PD، (2) عندك لابتوب محتاج تشحنه من نفس الشاحن، أو (3) الشاحن عدّى 3 سنين وبيسخن بشكل غير طبيعي.',
@@ -281,7 +281,7 @@ export const iphone_16_pro_max_vs_iphone_17_pro_max_charger_upgrade: BlogArticle
         en: {
             title: 'Upgrading Your Charger with a New Phone — When It\'s Worth It and When It\'s Wasted Money',
             metaTitle: 'Charger Upgrade with New Phone — Worth It or Not? | CairoVolt',
-            metaDescription: 'Should you buy a new charger when upgrading your phone? Scientific comparison of 20W vs 30W vs 45W with iPhone 17 and Samsung S26 — with real numbers, not opinions.',
+            metaDescription: 'Should you buy a new charger when upgrading your phone? Scientific comparison of 20W vs 30W vs 45W with iPhone 17 and Samsung S26 — with real numbers, not op...',
             keywords: 'charger upgrade new phone, iphone 17 pro max charger, should i upgrade charger, 20W vs 30W charger, old charger new phone egypt, samsung s26 charger upgrade, charger upgrade worth it, do i need new charger iphone 17',
             excerpt: 'A scientific guide to the charger upgrade decision when buying a new phone — when your old charger is enough and when you genuinely need to upgrade, backed by real numbers.',
             quickAnswer: 'If your old charger is USB-C PD rated at 20W or higher — in most cases you don\'t need to replace it with your new phone. A 20W charger takes iPhone 17 Pro Max to 50% in 28 minutes, while a 30W charger takes 22 minutes — a difference of only 6 minutes. Upgrading is worth it only if: (1) your charger is USB-A without PD, (2) you have a laptop that needs charging from the same charger, or (3) your charger is 3+ years old and overheating abnormally.',

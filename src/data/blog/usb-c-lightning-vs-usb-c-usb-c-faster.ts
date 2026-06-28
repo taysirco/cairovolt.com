@@ -240,7 +240,7 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
         en: {
             title: 'USB-C to Lightning vs USB-C to USB-C — Which Charges iPhone Faster? Full Comparison',
             metaTitle: 'USB-C to Lightning vs USB-C to USB-C for iPhone | CairoVolt',
-            metaDescription: 'Full comparison between USB-C to Lightning and USB-C to USB-C cables for iPhone charging — with real test numbers. Find out which is faster and when you need each in Egypt 2026.',
+            metaDescription: 'Full comparison between USB-C to Lightning and USB-C to USB-C cables for iPhone charging — with real test numbers. Find out which is faster and when you need...',
             keywords: 'USB-C to Lightning, USB-C to USB-C, iPhone cable, iPhone fast charging cable, Lightning cable, USB-C iPhone cable, fastest iPhone cable, iPhone 17 cable, iPhone charging cable Egypt, Lightning vs USB-C cable iPhone',
             excerpt: 'Real-numbers comparison between USB-C to Lightning and USB-C to USB-C cables for iPhone charging — which is actually faster and when you need each type.',
             quickAnswer: 'USB-C to USB-C is faster for iPhone 15 and newer — delivering 30W fast charging versus a maximum of 20W for USB-C to Lightning. But if you have an iPhone 14 or older, Lightning is your only option. Advice: for iPhone 15/16/17 — get a USB-C to USB-C cable like the Anker A8050 (100W, 350 EGP). For iPhone 14 or older — get a USB-C to Lightning like the Anker SureiStrong (30W, 320 EGP).',

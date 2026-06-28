@@ -193,7 +193,7 @@ export const doctor_hospital_power_bank_12_hour_shift: BlogArticle = {
         en: {
             title: 'A Power Bank for a 12-Hour Shift: The Practical Solution for Doctors and Pharmacists',
             metaTitle: 'Best Power Bank for Doctors & Pharmacists (12-Hour Shift) | CairoVolt',
-            metaDescription: 'Discover the best power bank options for doctors and pharmacists working long 12-24 hour shifts. We compare size, weight, built-in cables, and safety at EGP prices.',
+            metaDescription: 'Discover the best power bank options for doctors and pharmacists working long 12-24 hour shifts. We compare size, weight, built-in cables, and safety at EGP ...',
             keywords: 'power bank for doctors, hospital power bank, 12 hour shift power bank, scrub pocket power bank, built-in cable power bank, Anker Zolo for doctors, medical power bank, CairoVolt',
             excerpt: 'Long medical shifts in hospitals require a specific type of power bank: lightweight, fast, built-in cable, and cool-running. Here is our engineering guide and prices in Egypt.',
             quickAnswer: 'For a 12-hour medical shift, the best choice is a lightweight 10,000mAh to 20,000mAh power bank, ideally with a built-in cable to prevent losing it. We highly recommend the Anker Zolo 20,000mAh (A110e) at 1,350 EGP for large capacity and a built-in 30W Type-C cable, or the Anker Zolo 10,000mAh (A110d) at 950 EGP for a lightweight option that fits comfortably in a scrub pocket. For tablets and laptops, the Anker Prime 25,000mAh is best.',

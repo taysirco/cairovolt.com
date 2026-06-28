@@ -155,7 +155,7 @@ export const why_phone_charging_slowly_causes_solutions: BlogArticle = {
             en: {
                 title: 'Why Is Your Phone Charging Slowly? 8 Hidden Causes & Instant Fixes',
                 metaTitle: 'Why Is Your Phone Charging Slowly? 8 Causes & Fixes',
-                metaDescription: 'Phone charging slowly? Discover 8 hidden causes (most aren\'t the charger!) with proven instant fixes from CairoVolt support team. Data from 500+ support tickets.',
+                metaDescription: 'Phone charging slowly? Discover 8 hidden causes (most aren\'t the charger!) with proven instant fixes from CairoVolt support team. Data from 500+ support tic...',
                 keywords: 'phone charging slowly, slow charging fix, why is my phone charging slow, iphone charging slow, samsung charging slow, charging problems',
                 excerpt: 'Phone charging slowly? 8 hidden causes and instant fixes — data from 500+ support tickets.',
                 quickAnswer: 'The #1 cause of slow charging is a bad cable, not the charger. From analyzing 500+ CairoVolt support tickets: 42% were cable issues, 23% phone settings, 18% the charger. Try a different cable first before buying a new charger.',

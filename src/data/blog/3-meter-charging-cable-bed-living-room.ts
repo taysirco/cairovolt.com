@@ -30,7 +30,7 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
         ar: {
             title: 'كابل شحن 3 متر للسرير والصالة — أفضل 6 اختيارات متينة في مصر 2026',
             metaTitle: 'كابل شحن 3 متر للسرير والصالة — أفضل الاختيارات | كايرو فولت',
-            metaDescription: 'دليلك لاختيار كابل شحن طويل 3 متر يوصل للسرير والكنبة بدون شد. مقارنة 6 كابلات متينة بأسعار من 150 لـ 450 جنيه مع ضمان 18 شهر.',
+            metaDescription: 'دليلك لاختيار كابل شحن طويل 3 متر يوصل للسرير والكنبة بدون شد. مقارنة 6 كابلات متينة بأسعار من 150 لـ 450 جنيه مع ضمان 18 شهر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'كابل شحن 3 متر, كابل شحن طويل للسرير, كابل USB-C 3 متر, كابل شحن طويل متين, افضل كابل شحن طويل في مصر, كابل انكر 3 متر, كابل جوي روم طويل, كابل شحن للكنبة, cable 3m egypt, كابل شحن سريع طويل',
             excerpt: 'دليل اختيار كابل شحن 3 متر يوصل للسرير والكنبة بدون شد — مقارنة 6 كابلات متينة في مصر بأسعار وضمان.',
             quickAnswer: 'أفضل كابل 3 متر في مصر 2026: للشحن السريع USB-C اختار أنكر A8050 بطول 3 متر (100W، 12,000 دورة ثني، 350ج). للميزانية المحدودة: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.',
@@ -262,7 +262,7 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
         en: {
             title: '3-Meter Charging Cable for Bed & Living Room — 6 Best Durable Options in Egypt 2026',
             metaTitle: '3-Meter Charging Cable for Bed & Living Room — Best Picks | CairoVolt',
-            metaDescription: 'Guide to choosing a durable 3-meter charging cable for your bed and couch. Comparison of 6 cables from 150-450 EGP with real voltage-drop tests and 18-month warranty.',
+            metaDescription: 'Guide to choosing a durable 3-meter charging cable for your bed and couch. Comparison of 6 cables from 150-450 EGP with real voltage-drop tests and 18-month ...',
             keywords: '3 meter charging cable, long charging cable bed, USB-C cable 3m, durable long charging cable, best long cable Egypt, Anker 3 meter cable, Joyroom long cable, charging cable couch sofa, cable 3m USB-C Egypt, fast charging long cable',
             excerpt: 'Guide to choosing a 3-meter charging cable that reaches your bed and couch without stretching — comparison of 6 durable cables in Egypt with prices and warranty.',
             quickAnswer: 'Best 3-meter cable in Egypt 2026: for fast USB-C charging, get the Anker A8050 at 3m (100W, 12,000 bend cycles, ~350 EGP). Budget pick: Joyroom S-CC060A12 at 3m (60W, braided nylon, ~180 EGP). Key rule: choose cables with Strain Relief at the connector and braided nylon jacket — because a 3m cable experiences 3× more pulling stress than a 1m cable.',

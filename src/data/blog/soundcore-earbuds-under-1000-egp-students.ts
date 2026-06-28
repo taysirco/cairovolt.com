@@ -240,7 +240,7 @@ export const soundcore_earbuds_under_1000_egp_students: BlogArticle = {
         en: {
             title: 'Best Wireless Earbuds for Students Under 1,000 EGP — Sound, Battery & Comfort',
             metaTitle: 'Best Bluetooth Earbuds for Students Under 1,000 EGP 2026 | CairoVolt',
-            metaDescription: 'Guide to choosing wireless earbuds for students in Egypt under 1,000 EGP. Technical comparison of 6 models covering sound, battery, comfort, isolation, and call quality with detailed chart.',
+            metaDescription: 'Guide to choosing wireless earbuds for students in Egypt under 1,000 EGP. Technical comparison of 6 models covering sound, battery, comfort, isolation, and c...',
             keywords: 'earbuds for students, cheap bluetooth earbuds, best earbuds under 1000 egp, earbuds for studying, soundcore budget earbuds, affordable bluetooth earbuds egypt, earbuds for university, soundcore p30i, soundcore r50i, student bluetooth earbuds',
             excerpt: 'Guide to choosing wireless earbuds for students under 1,000 EGP — technical comparison of 6 models covering sound, battery, and comfort with use-case recommendations.',
             quickAnswer: 'The best student earbuds under 1,000 EGP are the Soundcore R50i NC — featuring real ANC, excellent sound, and 30-hour battery (with case) at an affordable price. Tighter budget: Soundcore P30i — incredible 30-hour battery and balanced sound without ANC. Want the smallest size: Soundcore A30i — ultra-compact and lightweight, perfect for lectures.',

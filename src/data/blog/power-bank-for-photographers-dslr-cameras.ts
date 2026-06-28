@@ -252,7 +252,7 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
         en: {
             title: 'Power Bank for Photographers & DSLR Cameras — 5 Pro Picks in Egypt 2026',
             metaTitle: 'Power Bank for DSLR Photographers Egypt 2026 | CairoVolt',
-            metaDescription: 'Desert safari photographer, wedding shooter, YouTuber — each scenario needs a different power bank. 5 professional picks with full compatibility chart per camera.',
+            metaDescription: 'Desert safari photographer, wedding shooter, YouTuber — each scenario needs a different power bank. 5 professional picks with full compatibility chart per ca...',
             keywords: 'power bank for photographers, dslr power bank, charging canon sony nikon camera, anker prime 165w camera, wedding photographer power bank, safari power bank, power bank dslr egypt 2026, GoPro DJI charging',
             excerpt: 'Safari shooter, wedding photographer, content creator — each scenario needs a different power bank. 5 professional picks with full per-camera compatibility chart.',
             quickAnswer: 'A DSLR/mirrorless photographer needs a power bank meeting 3 criteria: (1) USB-C PD 45-100W to charge the camera directly via USB-C, (2) 20,000mAh+ capacity for a full shoot day, (3) Pass-through charging for camera and phone simultaneously. Top picks: Anker Prime 165W (3,950 EGP) for mirrorless, Anker 737 140W (4,999 EGP) for traveling wedding photographer, Anker PowerCore 26,800mAh (2,300 EGP) for budget.',

@@ -223,7 +223,7 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
         en: {
             title: 'On-Ear vs Over-Ear vs In-Ear — Which Headphone Type Suits Your Long Work Hours?',
             metaTitle: 'On-Ear vs Over-Ear vs In-Ear Headphones Compared | CairoVolt',
-            metaDescription: 'Comprehensive comparison of On-Ear, Over-Ear, and In-Ear headphones for comfort, isolation, sound quality, and heat. Guide to choosing the right headphones for long work hours in Egypt.',
+            metaDescription: 'Comprehensive comparison of On-Ear, Over-Ear, and In-Ear headphones for comfort, isolation, sound quality, and heat. Guide to choosing the right headphones f...',
             keywords: 'on-ear vs over-ear difference, comfortable over-ear headphones, in-ear for work, best headphones for office, headphones for long hours, on-ear vs over-ear comparison, comfortable bluetooth headphones egypt, noise isolation headphones, soundcore headphones, headphones vs earbuds',
             excerpt: 'Comprehensive comparison of On-Ear, Over-Ear, and In-Ear headphones — comfort, isolation, and sound quality. Guide to choosing the right type for long work hours.',
             quickAnswer: 'Over-Ear are the most comfortable for long hours because they surround the ear rather than pressing on it — but they are larger and hotter in summer. In-Ear are the smallest and lightest with excellent isolation — but may cause ear fatigue after 3-4 hours. On-Ear split the difference — lighter than Over-Ear but press on the ear cartilage. For 6+ hour desk work: Over-Ear. For commuting: In-Ear.',

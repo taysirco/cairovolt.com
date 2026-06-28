@@ -25,7 +25,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
         ar: {
             title: 'شواحن أجهزة CPAP الطبية — السلامة أولاً قبل السعر للمرضى المصريين',
             metaTitle: 'باور بانك لجهاز CPAP — دليل السلامة والسعة للمرضى في مصر | كايرو فولت',
-            metaDescription: 'دليل مهندس لاختيار باور بانك أو محطة طاقة لجهاز CPAP في مصر. نشرح حسابات السعة، خطورة الموجة المعدلة، وأفضل الخيارات الآمنة بالأسعار.',
+            metaDescription: 'دليل مهندس لاختيار باور بانك أو محطة طاقة لجهاز CPAP في مصر. نشرح حسابات السعة، خطورة الموجة المعدلة، وأفضل الخيارات الآمنة بالأسعار. تابع التفاصيل بمصر.',
             keywords: 'باور بانك CPAP, شاحن جهاز تنفس, باور بانك انقطاع كهرباء CPAP, محطة طاقة CPAP مصر, CPAP battery backup Egypt, باور بانك طبي, شحن CPAP بدون كهرباء, انكر محطة طاقة CPAP, باور بانك pure sine wave, UPS لجهاز CPAP',
             excerpt: 'مريض انقطاع التنفس أثناء النوم محتاج حل طاقة احتياطي لجهاز الـ CPAP. الدليل ده بيشرح حسابات السعة والموجة النقية وأخطار الخيارات الرخيصة.',
             quickAnswer: 'جهاز CPAP بيستهلك 30-60 واط في الساعة (بدون مسخن) و80-100 واط (مع مسخن). لليلة كاملة (8 ساعات بدون مسخن) محتاج محطة طاقة بسعة 400Wh+ بمخرج Pure Sine Wave — مش باور بانك عادي. الموجة المعدلة (Modified Sine Wave) ممكن تحرق موتور الجهاز. ترشيحنا: محطة طاقة 500Wh+ بخرج AC نقي. ❌ الباور بانك العادي (5V USB) مش بيشغّل CPAP. ❌ إنفرتر رخيص بموجة معدلة = خطر على الجهاز والمريض.',
@@ -220,7 +220,7 @@ export const cpap_medical_power_bank_egypt_safety_first: BlogArticle = {
         en: {
             title: 'CPAP Battery Backup in Egypt — Safety First, Price Second for Sleep Apnea Patients',
             metaTitle: 'CPAP Battery Backup Egypt — Safety Guide & Capacity Calculator | CairoVolt',
-            metaDescription: 'Engineer\'s guide to choosing a battery backup for CPAP machines in Egypt. We explain capacity math, pure sine wave requirements, and the safest options with prices.',
+            metaDescription: 'Engineer\'s guide to choosing a battery backup for CPAP machines in Egypt. We explain capacity math, pure sine wave requirements, and the safest options with...',
             keywords: 'CPAP battery backup Egypt, CPAP power bank, portable power station CPAP, pure sine wave CPAP, CPAP power outage Egypt, sleep apnea battery backup, CPAP UPS Egypt, Anker power station CPAP, CPAP modified sine wave danger, BiPAP battery backup',
             excerpt: 'Sleep apnea patients need a reliable battery backup for their CPAP machine. This guide covers capacity calculations, pure sine wave requirements, and the dangers of cheap alternatives.',
             quickAnswer: 'A CPAP machine draws 30-60W per hour (without humidifier) or 80-100W (with humidifier). For a full 8-hour night without the humidifier, you need a 400Wh+ portable power station with a Pure Sine Wave AC output — not a regular USB power bank. Modified Sine Wave inverters can damage the motor. Our recommendation: a 500Wh+ pure sine wave power station. ❌ Regular USB power banks cannot run CPAP machines. ❌ Cheap modified sine wave inverters risk destroying the device and endangering the patient.',

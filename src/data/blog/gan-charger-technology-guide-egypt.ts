@@ -33,7 +33,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
         ar: {
             title: 'تقنية GaN في الشواحن: ليه شاحن 30 وات أصبح أصغر من إصبعك؟ (الدليل العلمي الكامل)',
             metaTitle: 'شواحن GaN — ليه أصغر وأسرع؟ الدليل العلمي الكامل 2026 | كايرو فولت',
-            metaDescription: 'اكتشف سر تقنية GaN اللي غيّرت عالم الشواحن — شاحن 30 وات بحجم علبة كبريت! مقارنة علمية بين GaN والسيليكون التقليدي + اختبارات حرارة حقيقية.',
+            metaDescription: 'اكتشف سر تقنية GaN اللي غيّرت عالم الشواحن — شاحن 30 وات بحجم علبة كبريت! مقارنة علمية بين GaN والسيليكون التقليدي + اختبارات حرارة حقيقية. تابع التفاصيل بمصر.',
             keywords: 'شاحن GaN, تقنية نيتريد الجاليوم, شاحن صغير سريع, أنكر GaN 30W, شاحن GaN مصر, الفرق بين GaN والسيليكون, شاحن 30 وات صغير, أفضل شاحن GaN 2026, gallium nitride charger, شاحن سفر صغير',
             excerpt: 'تقنية GaN حوّلت شاحن 30 وات من حجم علبة سجاير لحجم علبة كبريت. اعرف ازاي — بالفيزياء والأرقام الحقيقية.',
             quickAnswer: 'شواحن GaN (نيتريد الجاليوم) بتستخدم ترانزستورات من مادة أشباه موصلات متقدمة بدل السيليكون التقليدي. النتيجة: كفاءة تحويل 93% بدل 80%، حرارة أقل 40%، وحجم أصغر 50-70%. شاحن أنكر GaN 30W حجمه 3.2 × 3.2 × 3 سم فقط — أصغر من شاحن Apple 5W القديم لكنه أقوى 6 مرات. السعر أعلى 30-50% من السيليكون لكن الاستثمار يستحق لمن يحتاج شاحن سفر أو شحن سريع يومي.',
@@ -175,7 +175,7 @@ export const gan_charger_technology_guide_egypt: BlogArticle = {
         en: {
             title: 'GaN Charger Technology: Why a 30W Charger is Now Smaller Than Your Thumb (Complete Science Guide)',
             metaTitle: 'GaN Chargers — Why Smaller & Faster? Complete 2026 Science Guide | CairoVolt',
-            metaDescription: 'Discover the science behind GaN technology that revolutionized chargers — a 30W charger the size of a matchbox! Scientific comparison between GaN and traditional silicon + real thermal tests.',
+            metaDescription: 'Discover the science behind GaN technology that revolutionized chargers — a 30W charger the size of a matchbox! Scientific comparison between GaN and traditi...',
             keywords: 'GaN charger, gallium nitride technology, small fast charger, Anker GaN 30W, GaN vs silicon charger, best GaN charger 2026, compact travel charger, GaN charger safety',
             excerpt: 'GaN technology transformed a 30W charger from cigarette-pack size to matchbox size. Learn how — with real physics and actual test numbers.',
             quickAnswer: 'GaN (Gallium Nitride) chargers use advanced semiconductor transistors instead of traditional silicon. Result: 93% conversion efficiency vs 80%, 40% less heat, and 50-70% smaller size. The Anker GaN 30W measures just 3.2 × 3.2 × 3cm — smaller than the old Apple 5W charger but 6x more powerful. They cost 30-50% more than silicon but the investment is worth it for travel and daily fast charging.',

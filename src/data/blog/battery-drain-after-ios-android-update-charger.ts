@@ -26,7 +26,7 @@ export const battery_drain_after_ios_android_update_charger: BlogArticle = {
         ar: {
             title: 'البطارية بتنزل بسرعة بعد التحديث الأخير — هل الشاحن هو السبب الخفي؟',
             metaTitle: 'البطارية بتنزل بعد التحديث؟ الشاحن ممكن يكون السبب | كايرو فولت',
-            metaDescription: 'ليه البطارية بتنزل بسرعة بعد تحديث iOS أو Android؟ تحليل هندسي: إمتى المشكلة مؤقتة (48-72 ساعة) وإمتى الشاحن هو السبب الخفي وإيه الحل.',
+            metaDescription: 'ليه البطارية بتنزل بسرعة بعد تحديث iOS أو Android؟ تحليل هندسي: إمتى المشكلة مؤقتة (48-72 ساعة) وإمتى الشاحن هو السبب الخفي وإيه الحل. تابع التفاصيل بمصر.',
             keywords: 'البطارية بتنزل بعد التحديث, بطارية الموبايل بتخلص بسرعة بعد التحديث, تحديث iOS بطارية, تحديث اندرويد بطارية, هل الشاحن يأثر على البطارية, شحن الموبايل بطيء بعد التحديث, حل مشكلة البطارية بعد التحديث, battery drain after update',
             excerpt: 'تحليل هندسي: ليه البطارية بتنزل بعد التحديث، إمتى ده طبيعي (48-72 ساعة)، وإمتى الشاحن هو المتهم الخفي.',
             quickAnswer: 'في 80% من الحالات، نزول البطارية بعد التحديث طبيعي ومؤقت — الموبايل بيعيد فهرسة الملفات والصور وده بياخد 48-72 ساعة. بس في 20% من الحالات، التحديث بيغيّر طريقة التفاوض مع الشاحن (USB-PD/PPS) وده ممكن يخلي الشاحن يشحن بـ 5W بدل 25W بدون ما تلاحظ — وده السبب الخفي.',
@@ -223,7 +223,7 @@ export const battery_drain_after_ios_android_update_charger: BlogArticle = {
         en: {
             title: 'Battery Draining Fast After the Latest Update — Is Your Charger the Hidden Culprit?',
             metaTitle: 'Battery Drain After Update? Your Charger May Be the Cause | CairoVolt',
-            metaDescription: 'Why does your battery drain fast after iOS or Android updates? Engineering analysis: when it\'s temporary (48-72 hours) and when your charger is the hidden cause.',
+            metaDescription: 'Why does your battery drain fast after iOS or Android updates? Engineering analysis: when it\'s temporary (48-72 hours) and when your charger is the hidden c...',
             keywords: 'battery drain after update, phone battery dying fast after update, iOS update battery drain, Android update battery problem, charger affecting battery after update, slow charging after update, fix battery drain after update, charger compatibility iOS Android',
             excerpt: 'Engineering analysis: why battery drains after updates, when it\'s normal (48-72 hours), and when your charger is the hidden suspect.',
             quickAnswer: 'In 80% of cases, battery drain after an update is normal and temporary — the phone re-indexes files and photos, taking 48-72 hours. But in 20% of cases, the update changes how the phone negotiates with the charger (USB-PD/PPS), potentially causing it to charge at 5W instead of 25W without you noticing — that\'s the hidden cause.',

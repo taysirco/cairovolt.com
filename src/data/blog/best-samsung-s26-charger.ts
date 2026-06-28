@@ -24,7 +24,7 @@ export const best_samsung_s26_charger: BlogArticle = {
             ar: {
                 title: 'أفضل شاحن لسامسونج S26 في مصر: شحن سريع 45W',
                 metaTitle: 'أفضل شاحن سامسونج S26 في مصر | شحن سريع 45W | PPS',
-                metaDescription: 'اكتشف أفضل شاحن سامسونج Galaxy S26 و S26 Ultra في مصر. لماذا تقنية PPS ضرورية وكيف تحصل على Super Fast Charging 2.0.',
+                metaDescription: 'اكتشف أفضل شاحن سامسونج Galaxy S26 و S26 Ultra في مصر. لماذا تقنية PPS ضرورية وكيف تحصل على Super Fast Charging 2.0. تابع التفاصيل والمقارنة بمصر.',
                 keywords: 'شاحن سامسونج S26, شاحن سامسونج, شاحن سريع سامسونج, شاحن 45 واط, شاحن انكر سامسونج, super fast charging',
                 excerpt: 'دليل اختيار أفضل شاحن سريع لسامسونج Galaxy S26 مع شرح تقنية PPS.',
                 quickAnswer: 'أفضل شاحن لسامسونج S26 هو أنكر 25W PPS بسعر 550 جنيه (اختبار CairoVolt Labs: 0→50% في 22 دقيقة) — يدعم تقنية Super Fast Charging ويشحن من 0% لـ 50% في 26 دقيقة. لازم الشاحن يدعم PPS وليس فقط USB-PD.',

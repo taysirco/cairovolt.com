@@ -26,7 +26,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
         ar: {
             title: 'سماعة جيم مبتقعش من ودنك — اختبار فعلي مع العرق والحركة العنيفة',
             metaTitle: 'سماعة جيم مبتقعش من ودنك — أفضل ايربودز للجري والتمرين 2026 | كايرو فولت',
-            metaDescription: 'دليل اختيار سماعة بلوتوث تثبت في ودنك أثناء الجيم والجري — مقارنة 6 سماعات بتصنيفات IPX5/IP55 مع اختبارات فعلية للعرق والحركة.',
+            metaDescription: 'دليل اختيار سماعة بلوتوث تثبت في ودنك أثناء الجيم والجري — مقارنة 6 سماعات بتصنيفات IPX5/IP55 مع اختبارات فعلية للعرق والحركة. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'سماعة جيم, ايربودز للتمرين, سماعة بلوتوث للجري, سماعة مقاومة للعرق, IPX5 ايربودز, سماعة مبتوقعش, Soundcore Liberty 5, سماعة رياضة مصر 2026, ايربودز جيم, سماعة بلوتوث رياضية',
             excerpt: 'دليل شامل لاختيار سماعة بلوتوث تثبت في ودنك وتستحمل العرق أثناء الجيم والجري — بالاختبارات الفعلية مش الادعاءات.',
             quickAnswer: 'أفضل سماعة جيم في مصر 2026: Soundcore Liberty 5 (IP55 لحماية من الغبار والعرق + CloudComfort ear tips بتثبت في أي شكل ودن + صوت Hi-Res). لو ميزانيتك محدودة: Soundcore P40i (IPX5 + ANC + 60 ساعة بطارية) بـ 1,249 جنيه.',
@@ -279,7 +279,7 @@ export const earbuds_gym_running_no_drop_sweat_resistant: BlogArticle = {
         en: {
             title: 'Gym Earbuds That Don\'t Fall Out — Real-World Sweat & Movement Testing',
             metaTitle: 'Gym Earbuds That Don\'t Fall Out — Best for Running & Workouts 2026 | CairoVolt',
-            metaDescription: 'Guide to choosing Bluetooth earbuds that stay in your ears during gym workouts and running — 6 earbuds with IPX5/IP55 ratings tested with sweat and intense movement.',
+            metaDescription: 'Guide to choosing Bluetooth earbuds that stay in your ears during gym workouts and running — 6 earbuds with IPX5/IP55 ratings tested with sweat and intense m...',
             keywords: 'gym earbuds, workout earbuds, running earbuds, sweat resistant earbuds, IPX5 earbuds, earbuds that stay in, Soundcore Liberty 5, sport earbuds Egypt 2026, gym bluetooth earbuds, exercise earbuds',
             excerpt: 'A comprehensive guide to choosing Bluetooth earbuds that stay put and survive sweat during gym workouts and running — backed by real testing, not just specs.',
             quickAnswer: 'Best gym earbuds in Egypt 2026: Soundcore Liberty 5 (IP55 for dust and sweat protection + CloudComfort ear tips that adapt to any ear shape + Hi-Res audio). Budget pick: Soundcore P40i (IPX5 + ANC + 60-hour battery) at 1,249 EGP.',

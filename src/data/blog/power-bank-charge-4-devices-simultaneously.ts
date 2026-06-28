@@ -220,7 +220,7 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
         en: {
             title: 'Power Bank for Charging 4 Devices Simultaneously — Phone + Laptop + Earbuds + Watch in Egypt 2026',
             metaTitle: 'Power Bank for 4 Devices at Once — Complete Guide | CairoVolt',
-            metaDescription: 'How to charge a phone, laptop, earbuds, and smartwatch from one power bank. Wattage distribution physics + compatibility chart + top 4 models from 997 to 3,950 EGP.',
+            metaDescription: 'How to charge a phone, laptop, earbuds, and smartwatch from one power bank. Wattage distribution physics + compatibility chart + top 4 models from 997 to 3,9...',
             keywords: 'power bank 4 devices simultaneously, power bank charge laptop phone, multi-port power bank egypt, anker prime 25000 egypt, anker 737 power bank, power bank usb-c pd laptop, best multi-device power bank 2026, power bank wattage distribution, charge 4 devices one power bank, power bank egypt egp price',
             excerpt: 'A practical guide to charging 4 devices at once from a single power bank — the real technical requirements and best models available in Egypt with prices.',
             quickAnswer: 'Yes, you can charge a phone + laptop + earbuds + smartwatch from a single power bank — with 3 conditions: (1) at least 20,000mAh capacity (ideally 25,000mAh), (2) 3 or more output ports with USB-C PD support at 65W+, (3) total output of 100W+ so wattage distributes adequately. Best pick: Anker Prime A1695 — 25,000mAh, 165W total, dual USB-C + USB-A, charges a full laptop + 3 smaller devices simultaneously.',

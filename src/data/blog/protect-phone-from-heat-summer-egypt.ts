@@ -248,7 +248,7 @@ export const protect_phone_from_heat_summer_egypt: BlogArticle = {
         en: {
             title: 'Your Phone Is at Risk: The Complete Guide to Protecting Your Phone from Egyptian Summer Heat',
             metaTitle: 'Protect Phone from Heat in Egyptian Summer | 12 Practical Steps | CairoVolt Guide',
-            metaDescription: 'Practical guide based on real tests to protect your phone from Egyptian summer heat. How to prevent battery and screen damage? 12 golden tips + common mistakes + real measurement results.',
+            metaDescription: 'Practical guide based on real tests to protect your phone from Egyptian summer heat. How to prevent battery and screen damage? 12 golden tips + common mistak...',
             keywords: 'protect phone from heat, phone overheating, phone battery heat damage, phone shuts down heat, phone thermal throttling, summer phone protection, battery health heat, protect iphone from heat, protect samsung from heat, egypt summer phone tips',
             excerpt: 'A practical guide based on real tests at 47°C: how to protect your phone — battery, screen, and processor — from the deadly heat of Egyptian summer.',
             quickAnswer: 'The most dangerous thing for your phone in summer is heat above 35°C. CairoVolt test: a phone left on a car dashboard in July reached 63°C and lost 7% Battery Health in one week. Solutions: never leave it in the car, remove the case while charging, use a GaN charger (40% less heat), and close heavy apps.',

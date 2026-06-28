@@ -29,7 +29,7 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
         ar: {
             title: 'هل Galaxy S26 Ultra يحتاج باور بانك أقوى من iPhone 17 Pro Max؟ الإجابة بالأرقام',
             metaTitle: 'باور بانك S26 Ultra ضد iPhone 17 Pro Max | كايرو فولت',
-            metaDescription: 'بطارية S26 Ultra أكبر 7% من iPhone 17 Pro Max، لكنها تشحن 50% أسرع — يعني محتاجة باور بانك مختلف تماماً. الإجابة بالأرقام واختبار ميداني.',
+            metaDescription: 'بطارية S26 Ultra أكبر 7% من iPhone 17 Pro Max، لكنها تشحن 50% أسرع — يعني محتاجة باور بانك مختلف تماماً. الإجابة بالأرقام واختبار ميداني. تابع التفاصيل بمصر.',
             keywords: 'باور بانك سامسونج S26 الترا, باور بانك ايفون 17 برو ماكس, مقارنة شحن S26 ايفون, افضل باور بانك سامسونج 2026, افضل باور بانك ايفون, أنكر zolo 45w samsung, magsafe iphone 17 power bank, samsung vs iphone power bank egypt',
             excerpt: 'بطارية Galaxy S26 Ultra أكبر 7% فقط من iPhone 17 Pro Max، لكنها تشحن 50% أسرع — يعني الحلول مختلفة تماماً. الإجابة بالأرقام + اختبار ميداني.',
             quickAnswer: 'نعم، Galaxy S26 Ultra محتاج باور بانك مختلف عن iPhone 17 Pro Max لـ 3 أسباب: (1) سعة بطارية 5,000mAh مقابل 4,685mAh (أكبر 7%)، (2) شحن سريع 45W مقابل 30W — يحتاج باور بانك يدعم PD 45W، (3) لا MagSafe في Samsung — لازم كابل دائماً. أفضل خيار لـ S26 Ultra: أنكر ZOLO 45W (2,200ج). أفضل خيار لـ iPhone 17 Pro Max: جوي روم MagSafe 10,000mAh (850ج).',
@@ -263,7 +263,7 @@ export const galaxy_s26_ultra_vs_iphone_17_pro_max_power_bank_needs: BlogArticle
         en: {
             title: 'Does Galaxy S26 Ultra Need a Stronger Power Bank Than iPhone 17 Pro Max? The Numbers',
             metaTitle: 'S26 Ultra vs iPhone 17 Pro Max Power Bank | CairoVolt',
-            metaDescription: 'S26 Ultra battery is 7% larger than iPhone 17 Pro Max, but charges 50% faster — meaning it needs a completely different power bank. Answer in numbers + field test.',
+            metaDescription: 'S26 Ultra battery is 7% larger than iPhone 17 Pro Max, but charges 50% faster — meaning it needs a completely different power bank. Answer in numbers + field...',
             keywords: 'samsung s26 ultra power bank, iphone 17 pro max power bank, samsung vs iphone power bank comparison, best power bank samsung 2026, best power bank iphone, anker zolo 45w samsung, magsafe iphone 17 power bank, samsung iphone power bank egypt',
             excerpt: 'Galaxy S26 Ultra battery is only 7% larger than iPhone 17 Pro Max, but charges 50% faster — meaning the solutions are completely different. Answer in numbers + field test.',
             quickAnswer: 'Yes, Galaxy S26 Ultra needs a different power bank than iPhone 17 Pro Max for 3 reasons: (1) battery 5,000mAh vs 4,685mAh (7% larger), (2) fast charging 45W vs 30W — needs a power bank supporting PD 45W, (3) no MagSafe on Samsung — must use cable. Best for S26 Ultra: Anker ZOLO 45W (2,200 EGP). Best for iPhone 17 Pro Max: Joyroom MagSafe 10,000mAh (850 EGP).',

@@ -30,7 +30,7 @@ export const short_30cm_cable_power_bank_extends_life: BlogArticle = {
         ar: {
             title: 'كابل قصير 30cm للباور بانك — السر الخفي لإطالة عمر بطاريتك الاحتياطية',
             metaTitle: 'كابل 30cm للباور بانك — ليه القصير أفضل؟ دليل 2026',
-            metaDescription: 'كابل الشحن القصير 30cm مش مجرد راحة — هو يحمي باور بانكك ويطوّل عمره. اعرف ليه بالعلم وأفضل الاختيارات في مصر من كايرو فولت.',
+            metaDescription: 'كابل الشحن القصير 30cm مش مجرد راحة — هو يحمي باور بانكك ويطوّل عمره. اعرف ليه بالعلم وأفضل الاختيارات في مصر من كايرو فولت. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'كابل قصير 30cm للباور بانك, كابل شحن قصير, إطالة عمر الباور بانك, كابل USB-C قصير, كابل 30 سم مصر, best short cable power bank egypt, كابل قصير شحن سريع, حماية بطارية الباور بانك',
             excerpt: 'الكابل القصير 30cm مش مجرد "راحة" — هو بيقلل مقاومة الأسلاك وحرارة الشحن ويطوّل عمر باور بانكك. اعرف السر الخفي وراء هذا الاختيار الذكي.',
             quickAnswer: 'الكابل القصير 30cm مع الباور بانك أفضل من الكابل الطويل لـ 3 أسباب علمية: (1) مقاومة أقل = حرارة أقل = بطارية تعيش أطول، (2) تلوّي أقل = تلف ميكانيكي أبطأ، (3) وزن أخف في الشنطة. الموصى به: أنكر 30cm USB-C أو جوي روم 30W PD القصير.',
@@ -207,7 +207,7 @@ export const short_30cm_cable_power_bank_extends_life: BlogArticle = {
         en: {
             title: 'Short 30cm Cable for Power Banks — The Hidden Secret to Extending Battery Life',
             metaTitle: 'Short 30cm USB Cable for Power Bank — Why It\'s Better | 2026',
-            metaDescription: 'A 30cm short cable isn\'t just convenient — it reduces resistance, heat, and extends your power bank\'s lifespan by up to 40%. Here\'s the science and best options in Egypt.',
+            metaDescription: 'A 30cm short cable isn\'t just convenient — it reduces resistance, heat, and extends your power bank\'s lifespan by up to 40%. Here\'s the science and best o...',
             keywords: 'short 30cm cable power bank, short USB-C cable benefits, extend power bank battery life, 30cm charging cable egypt, best short cable egypt, power bank cable heat resistance, short cable vs long cable charging',
             excerpt: 'A 30cm short cable reduces resistance, heat, and mechanical stress on your power bank — potentially extending its lifespan by 30-40%. Here\'s the physics and best picks.',
             quickAnswer: 'A 30cm short cable is better for power banks for 3 scientific reasons: (1) Lower resistance = less heat = longer battery life, (2) Less coiling = slower mechanical wear, (3) Lighter and less clutter in your bag. Top picks: Anker 30cm USB-C or Joyroom 30W PD short cable.',

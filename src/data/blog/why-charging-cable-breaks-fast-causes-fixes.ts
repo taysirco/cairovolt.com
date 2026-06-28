@@ -28,7 +28,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
         ar: {
             title: 'ليه كابل الشحن بيبوظ بسرعة؟ 6 أخطاء يومية بتقصّر عمره (وإزاي تخليه يعيش سنين)',
             metaTitle: 'ليه كابل الشحن بيبوظ بسرعة؟ 6 أخطاء + الحل النهائي | كايرو فولت',
-            metaDescription: 'اعرف 6 أخطاء يومية بتخلي كابل الشحن يبوظ كل شهر — من طريقة اللف الغلط للشد من السلك. دليل علمي + أفضل كابلات متينة بضمان 18 شهر.',
+            metaDescription: 'اعرف 6 أخطاء يومية بتخلي كابل الشحن يبوظ كل شهر — من طريقة اللف الغلط للشد من السلك. دليل علمي + أفضل كابلات متينة بضمان 18 شهر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'ليه كابل الشحن بيبوظ, كابل شحن بيبوظ بسرعة, كابل شحن متين, ازاي احافظ على كابل الشحن, افضل كابل شحن مش بيبوظ, كابل انكر متين, كابل شحن بيقطع, عمر كابل الشحن, كابل شحن اصلي, كابل يوم بيبوظ كل شهر',
             excerpt: '6 أخطاء يومية بتعملها من غير ما تاخد بالك بتخلي كابل الشحن يبوظ كل شهرين. اعرف السبب العلمي والحل النهائي.',
             quickAnswer: 'كابل الشحن بيبوظ بسرعة بسبب 6 أخطاء: الشد من السلك مش الفيشة، لف الكابل بإحكام شديد، ثني الكابل عند نقطة الاتصال، استخدام كابلات تقليد بدون تدريع نحاسي، تعريضه لحرارة فوق 45°C، وتوصيله بزاوية حادة. الحل: اشتري كابل بتقنية تقوية نقطة الانحناء زي أنكر PowerLine مع ضمان 18 شهر.',
@@ -127,7 +127,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
         en: {
             title: 'Why Your Charging Cable Keeps Breaking: 6 Daily Mistakes & How to Make It Last Years',
             metaTitle: 'Why Charging Cables Break Fast — 6 Mistakes + Permanent Fix | CairoVolt',
-            metaDescription: 'Discover 6 daily habits that destroy your charging cable every few months — from wrong wrapping to pulling by the cord. Science-backed guide + best durable cables with 18-month warranty.',
+            metaDescription: 'Discover 6 daily habits that destroy your charging cable every few months — from wrong wrapping to pulling by the cord. Science-backed guide + best durable c...',
             keywords: 'why charging cable breaks, charging cable keeps breaking, durable charging cable, how to protect charging cable, best cable that doesnt break, Anker PowerLine durable, cable strain relief, charging cable lifespan, USB-C cable breaking, cable bending damage',
             excerpt: '6 daily mistakes you make without realizing that kill your charging cable every 2 months. Learn the science behind it and the permanent solution.',
             quickAnswer: 'Charging cables break fast due to 6 mistakes: pulling by the cord instead of the plug, wrapping too tightly, bending at 90° at the connection point, using counterfeit cables without copper shielding, heat exposure above 45°C, and keeping cable connected while phone is in pocket. Solution: buy cables with Strain Relief technology like Anker PowerLine with 18-month warranty.',

@@ -24,7 +24,7 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
         ar: {
             title: 'بطارية الساعة الذكية مش بتكمّل يوم؟ 5 حلول مجربة لإطالة عمرها',
             metaTitle: 'بطارية الساعة الذكية بتخلص بسرعة؟ 5 حلول مجربة | كايرو فولت',
-            metaDescription: 'بطارية ساعتك الذكية مش بتكمّل يوم؟ 5 حلول عملية مجربة لإطالة عمر البطارية — من إعدادات الشاشة لتقليل الإشعارات، مع أرقام حقيقية للتوفير.',
+            metaDescription: 'بطارية ساعتك الذكية مش بتكمّل يوم؟ 5 حلول عملية مجربة لإطالة عمر البطارية — من إعدادات الشاشة لتقليل الإشعارات، مع أرقام حقيقية للتوفير. تابع التفاصيل بمصر.',
             keywords: 'بطارية ساعة ذكية بتخلص بسرعة, حلول بطارية ساعة ذكية, إطالة عمر بطارية ساعة, ساعة ذكية بطارية طويلة, smartwatch battery drain fix, توفير بطارية Apple Watch, بطارية Galaxy Watch بتنزل, ساعة ذكية بطارية أسبوع, إعدادات توفير بطارية ساعة',
             excerpt: 'بطارية ساعتك الذكية مش بتكمّل يوم واحد؟ 5 حلول عملية مجربة بتطوّل عمر البطارية من 40% لـ 200% — بأرقام حقيقية وخطوات واضحة.',
             quickAnswer: 'أكتر 3 أسباب لنفاد بطارية الساعة بسرعة: (1) شاشة Always-On Display مفعّلة — بتستهلك 30-40% من البطارية، (2) إشعارات كل التطبيقات مفعّلة — كل إشعار بيولّع الشاشة 3-5 ثواني، (3) حساسات صحية شغّالة 24/7 بمعدل قياس عالي. الحلول: قفّل AOD + قلّل الإشعارات لـ 3-5 تطبيقات + خفّض معدل قياس النبض لكل 10 دقائق = توفير 40-60% من البطارية.',
@@ -197,7 +197,7 @@ export const smartwatch_battery_quick_drain_5_solutions: BlogArticle = {
         en: {
             title: 'Smartwatch Battery Not Lasting a Day? 5 Tested Solutions to Extend Its Life',
             metaTitle: 'Smartwatch Battery Draining Fast? 5 Proven Fixes | CairoVolt',
-            metaDescription: 'Smartwatch battery not lasting a full day? 5 practical tested solutions to extend battery life — from display settings to notification management, with real savings percentages.',
+            metaDescription: 'Smartwatch battery not lasting a full day? 5 practical tested solutions to extend battery life — from display settings to notification management, with real ...',
             keywords: 'smartwatch battery draining fast, fix smartwatch battery drain, extend smartwatch battery life, smartwatch long battery life, apple watch battery drain fix, galaxy watch battery saving, smartwatch battery week, smartwatch battery settings, smartwatch power saving tips',
             excerpt: 'Smartwatch battery not lasting a full day? 5 practical tested solutions that extend battery life by 40% to 200% — with real numbers and clear step-by-step instructions.',
             quickAnswer: 'Top 3 reasons for fast smartwatch battery drain: (1) Always-On Display enabled — consumes 30-40% of battery, (2) all app notifications enabled — each lights the screen 3-5 seconds, (3) health sensors running 24/7 at high frequency. Solutions: disable AOD + limit notifications to 3-5 apps + reduce heart rate measurement to every 10 minutes = 40-60% battery savings.',

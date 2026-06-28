@@ -25,7 +25,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
         ar: {
             title: 'الباور بانك الشمسي — هل يستحق فلوسه في رحلات السفاري والكامبينج بمصر؟',
             metaTitle: 'الباور بانك الشمسي للكامبينج في مصر — هل يستحق؟ | كايرو فولت',
-            metaDescription: 'تحليل علمي للباور بانك الشمسي في ظروف مصر: كفاءة الألواح الحقيقية، مقارنة بالباور بانك العادي، والبديل الأذكى لرحلات السفاري والكامبينج.',
+            metaDescription: 'تحليل علمي للباور بانك الشمسي في ظروف مصر: كفاءة الألواح الحقيقية، مقارنة بالباور بانك العادي، والبديل الأذكى لرحلات السفاري والكامبينج. تابع التفاصيل بمصر.',
             keywords: 'باور بانك شمسي, باور بانك كامبينج, شحن بالطاقة الشمسية مصر, باور بانك رحلات, solar power bank egypt, انكر باور بانك سفاري, شحن موبايل صحراء, باور بانك سفر مصر',
             excerpt: 'الباور بانك الشمسي فكرته حلوة — بس هل كفاءته الحقيقية تناسب شمس مصر ورحلات السفاري؟ تحليل بالأرقام والفيزياء مع البديل الأذكى.',
             quickAnswer: 'الباور بانك الشمسي فكرته مغرية لكن أداؤه الفعلي ضعيف: اللوح الشمسي المدمج (2-5W) بيحتاج 40-80 ساعة شمس صافية لشحن باور بانك 20,000mAh — يعني 5-10 أيام! البديل الأذكى لرحلات الكامبينج في مصر: باور بانك عادي بسعة 20,000mAh+ (زي انكر PowerCore 20K بـ 1,550ج) واشحنه كامل قبل الرحلة. لو الرحلة أطول من 3 أيام، محطة طاقة متنقلة زي انكر 521 PowerHouse هي الحل الحقيقي.',
@@ -231,7 +231,7 @@ export const anker_solix_solar_power_bank_safari_camping_egypt: BlogArticle = {
         en: {
             title: 'Solar Power Banks — Are They Worth It for Safari & Camping Trips in Egypt?',
             metaTitle: 'Solar Power Bank for Camping in Egypt — Worth It? | CairoVolt',
-            metaDescription: 'Scientific analysis of solar power banks in Egyptian conditions: real panel efficiency, comparison with regular power banks, and smarter alternatives for safari and camping trips.',
+            metaDescription: 'Scientific analysis of solar power banks in Egyptian conditions: real panel efficiency, comparison with regular power banks, and smarter alternatives for saf...',
             keywords: 'solar power bank egypt, camping power bank, solar charging egypt, safari power bank, solar charger desert, anker power bank camping, phone charging desert egypt, portable power camping',
             excerpt: 'Solar power banks sound great in theory — but does their real-world efficiency match Egypt\'s sun and safari conditions? A numbers-and-physics analysis with smarter alternatives.',
             quickAnswer: 'Solar power banks with built-in panels (2-5W) need 40-80 hours of direct sunlight to charge a 20,000mAh battery — that\'s 5-10 days! The smarter alternative for camping in Egypt: a regular 20,000mAh+ power bank (like Anker PowerCore 20K at 1,550 EGP) fully charged before the trip. For trips longer than 3 days, a portable power station like the Anker 521 PowerHouse is the real solution.',

@@ -25,7 +25,7 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
         ar: {
             title: 'الفرق الحقيقي بين شواحن GaN III و GaN II — هل الترقية تستحق فلوسك؟',
             metaTitle: 'GaN III ضد GaN II — هل الترقية تستحق؟ مقارنة بالأرقام | كايرو فولت',
-            metaDescription: 'مقارنة تقنية بين شواحن GaN III و GaN II — الحجم والحرارة والكفاءة والسعر في مصر 2026. هل تستحق تدفع أكتر على الجيل الثالث؟',
+            metaDescription: 'مقارنة تقنية بين شواحن GaN III و GaN II — الحجم والحرارة والكفاءة والسعر في مصر 2026. هل تستحق تدفع أكتر على الجيل الثالث؟ تابع التفاصيل والمقارنة بمصر.',
             keywords: 'GaN III ضد GaN II, شواحن GaN مصر, الفرق بين GaN 3 و GaN 2, هل GaN III يستحق, شاحن GaN انكر, شاحن نيتريد الجاليوم, ترقية شاحن GaN, أفضل شاحن GaN مصر 2026, gan charger comparison egypt, GaN III vs GaN II',
             excerpt: 'مقارنة تقنية بين الجيل الثاني والثالث من شواحن نيتريد الجاليوم — في الحجم والحرارة والكفاءة والسعر. هل الترقية تستحق فعلاً؟',
             quickAnswer: 'GaN III أصغر حجماً 20-35%، أبرد 5-8°م، وأعلى كفاءة 3-5% من GaN II. لكن الفرق في الأداء الفعلي (سرعة شحن موبايلك) = صفر تقريباً. الترقية تستحق فقط لو: (1) محتاج شاحن سفر صغير جداً، (2) بتشحن لابتوب بـ 65W+ ومحتاج حرارة أقل، أو (3) شاحنك الحالي عدّى سنتين. لو شاحن GaN II بتاعك شغّال كويس — خليك عليه.',
@@ -243,7 +243,7 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
         en: {
             title: 'The Real Difference Between GaN III and GaN II Chargers — Is the Upgrade Worth Your Money?',
             metaTitle: 'GaN III vs GaN II — Is the Upgrade Worth It? Numbers Comparison | CairoVolt',
-            metaDescription: 'Technical comparison between GaN III and GaN II chargers — size, temperature, efficiency, and price in Egypt 2026. Is paying more for the third generation worth it?',
+            metaDescription: 'Technical comparison between GaN III and GaN II chargers — size, temperature, efficiency, and price in Egypt 2026. Is paying more for the third generation wo...',
             keywords: 'GaN III vs GaN II, GaN charger comparison, difference between GaN 3 and GaN 2, is GaN III worth it, Anker GaN charger, gallium nitride charger, GaN charger upgrade, best GaN charger egypt 2026, gan charger generation comparison, GaN III benefits',
             excerpt: 'Technical comparison between second and third generation Gallium Nitride chargers — in size, heat, efficiency, and price. Is the upgrade actually worth it?',
             quickAnswer: 'GaN III is 20-35% smaller, 5-8°C cooler, and 3-5% more efficient than GaN II. But the difference in actual charging speed (how fast your phone charges) is essentially zero. The upgrade is worth it only if: (1) you need a very compact travel charger, (2) you charge a laptop at 65W+ and need lower temperatures, or (3) your current charger is over two years old. If your GaN II charger works well — keep using it.',

@@ -24,7 +24,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
         ar: {
             title: 'شواحن Honor X series — التحدي الحقيقي لعمالقة الشحن في السوق المصري',
             metaTitle: 'أفضل شاحن Honor X8b و X7b و X6b — مقارنة شاملة بالأرقام | كايرو فولت',
-            metaDescription: 'دليل شامل لأفضل شاحن Honor X8b و X7b و X6b في مصر 2026 — مقارنة بين الشاحن الأصلي وبدائل Anker و Joyroom. Honor بتدعم PD المفتوح يعني البديل بيشحن بنفس السرعة تقريباً.',
+            metaDescription: 'دليل شامل لأفضل شاحن Honor X8b و X7b و X6b في مصر 2026 — مقارنة بين الشاحن الأصلي وبدائل Anker و Joyroom. Honor بتدعم PD المفتوح يعني البديل بيشحن بنفس السرع...',
             keywords: 'شاحن هونر x8b, شاحن honor x7b, بديل شاحن honor, أفضل شاحن honor مصر, شاحن سريع هونر, honor vs samsung شاحن, شاحن 35 واط هونر, هونر شحن سريع',
             excerpt: 'دليل عملي لأفضل شاحن Honor X series — هل البديل بيشحن بنفس سرعة الأصلي؟ الإجابة بالأرقام والاختبار.',
             quickAnswer: 'Honor X8b بيدعم شحن سريع 35W عبر بروتوكول PD المفتوح — يعني أي شاحن PD 30W+ بيشحنه بسرعة قريبة من الأصلي. Anker 30W بـ 500 جنيه بيوصل لـ 30W (86% من الأقصى) والفرق = 5 دقايق فقط في الشحنة الكاملة. Honor من أذكى البراندات لمستخدمي البدائل — لأنها مش بتقفل البروتوكول زي Oppo.',
@@ -306,7 +306,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
         en: {
             title: 'Honor X Series Chargers — The Real Challenger in the Egyptian Charging Market',
             metaTitle: 'Best Honor X8b & X7b Charger — Complete Comparison Guide | CairoVolt',
-            metaDescription: 'Complete guide to the best Honor X8b, X7b, and X6b charger in Egypt 2026 — comparing the original charger with Anker and Joyroom alternatives. Honor supports open PD so alternatives charge at nearly the same speed.',
+            metaDescription: 'Complete guide to the best Honor X8b, X7b, and X6b charger in Egypt 2026 — comparing the original charger with Anker and Joyroom alternatives. Honor supports...',
             keywords: 'honor x8b charger, honor x7b charger, honor charger alternative, best honor charger egypt, fast charger honor, honor vs samsung charger, 35w charger honor, honor fast charging',
             excerpt: 'A practical guide to the best Honor X series charger — does the alternative charge at the same speed as the original? The answer with real numbers.',
             quickAnswer: 'Honor X8b supports 35W fast charging via the open PD protocol — meaning any 30W+ PD charger charges it at excellent speed. Anker 30W at 500 EGP delivers 30W (86% of maximum) and the difference is only 5 minutes for a full charge. Honor is one of the smartest brands for alternative charger users — because they don\'t lock the protocol like Oppo.',

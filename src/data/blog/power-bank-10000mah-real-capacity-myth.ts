@@ -222,7 +222,7 @@ export const power_bank_10000mah_real_capacity_myth: BlogArticle = {
         en: {
             title: 'The 10,000mAh Myth: Why Your Power Bank Doesn\'t Charge Your Phone Twice (The Complete Physics)',
             metaTitle: 'Why Power Bank Doesn\'t Charge Twice? | Real Power Bank Capacity | CairoVolt',
-            metaDescription: 'How many times does a 10000mAh power bank actually charge your phone? Discover the physics behind real power bank capacity. Lab test on 6 power banks + the golden formula for calculating actual charges.',
+            metaDescription: 'How many times does a 10000mAh power bank actually charge your phone? Discover the physics behind real power bank capacity. Lab test on 6 power banks + the g...',
             keywords: 'power bank 10000mah how many charges, real power bank capacity, why power bank doesn\'t charge twice, power bank efficiency, rated capacity vs actual, mAh vs Wh power bank, power bank capacity myth, how many times 20000mah charge phone',
             excerpt: 'The truth nobody tells you: a 10,000mAh power bank can\'t charge a 5,000mAh phone twice. Learn why — with real physics and lab testing.',
             quickAnswer: 'A 10,000mAh power bank charges a 5,000mAh phone only 1.5 times — not twice. The reason: voltage conversion from 3.7V to 5V loses 25-35% of energy as heat. The golden rule: multiply power bank capacity × 0.65 = actual capacity. So 10,000 × 0.65 = 6,500mAh actual. CairoVolt testing proved: Anker PowerCore 10000 delivered 68% efficiency (highest), while a counterfeit delivered only 52%.',

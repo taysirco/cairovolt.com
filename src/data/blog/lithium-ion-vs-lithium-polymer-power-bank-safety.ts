@@ -25,7 +25,7 @@ export const lithium_ion_vs_lithium_polymer_power_bank_safety: BlogArticle = {
         ar: {
             title: 'Lithium-Ion ضد Lithium-Polymer — أي بطارية باور بانك أكثر أماناً لاستخدامك؟',
             metaTitle: 'ليثيوم أيون ضد ليثيوم بوليمر — أي باور بانك أأمن؟ | كايرو فولت',
-            metaDescription: 'مقارنة هندسية بين بطاريات Li-ion و Li-Po في الباور بانك: الأمان، العمر الافتراضي، الانتفاخ، وأيهم أنسب ليك في حر مصر. بالأرقام والفيزياء.',
+            metaDescription: 'مقارنة هندسية بين بطاريات Li-ion و Li-Po في الباور بانك: الأمان، العمر الافتراضي، الانتفاخ، وأيهم أنسب ليك في حر مصر. بالأرقام والفيزياء. تابع التفاصيل بمصر.',
             keywords: 'ليثيوم أيون ضد ليثيوم بوليمر, بطارية باور بانك أأمن, Li-ion vs LiPo, باور بانك انتفاخ بطارية, lithium polymer power bank, بطارية ليثيوم بوليمر أفضل, باور بانك أمان بطارية, انكر نوع بطارية, باور بانك حرارة مصر',
             excerpt: 'الفرق بين Li-ion و Li-Po في الباور بانك مش مجرد اسم — بيأثر على الأمان والعمر الافتراضي والأداء في حر مصر. دليل مهندس بالأرقام.',
             quickAnswer: 'الاتنين ليثيوم — الفرق في الإلكتروليت (سائل في Li-ion، جل/بوليمر في LiPo). من حيث الأمان: LiPo أقل عرضة للتسريب لأن الإلكتروليت جل مش سائل، لكن Li-ion الحديث بدوائر BMS متقدمة (زي Anker ActiveShield 2.0) وصل لمستوى أمان مكافئ. من حيث العمر: Li-ion بيستحمل 500-800 دورة، LiPo بيستحمل 300-500 دورة. الأهم من النوع: جودة دائرة الحماية BMS — باور بانك Li-ion من Anker بـ BMS 9 طبقات أأمن بمراحل من LiPo صيني بدون حماية.',
@@ -224,7 +224,7 @@ export const lithium_ion_vs_lithium_polymer_power_bank_safety: BlogArticle = {
         en: {
             title: 'Lithium-Ion vs Lithium-Polymer — Which Power Bank Battery Is Safer for You?',
             metaTitle: 'Li-ion vs LiPo Power Bank Battery — Which Is Safer? | CairoVolt',
-            metaDescription: 'Engineering comparison of Li-ion vs Li-Po power bank batteries: safety, lifespan, swelling risk, and which performs better in Egypt\'s extreme heat. With real numbers.',
+            metaDescription: 'Engineering comparison of Li-ion vs Li-Po power bank batteries: safety, lifespan, swelling risk, and which performs better in Egypt\'s extreme heat. With rea...',
             keywords: 'lithium ion vs lithium polymer power bank, Li-ion vs LiPo safety, power bank battery type safer, LiPo swelling risk, lithium polymer power bank better, power bank battery safety Egypt, Anker battery type, power bank heat safety, 18650 vs pouch cell',
             excerpt: 'The difference between Li-ion and LiPo in power banks isn\'t just a name — it affects safety, lifespan, and performance in Egypt\'s heat. An engineer\'s guide with real numbers.',
             quickAnswer: 'Both are lithium — the difference is the electrolyte (liquid in Li-ion, gel/polymer in LiPo). Safety-wise: LiPo is less prone to leaking since the electrolyte is gel, but modern Li-ion with advanced BMS circuits (like Anker ActiveShield 2.0) has reached equivalent safety levels. Lifespan: Li-ion lasts 500-800 cycles, LiPo lasts 300-500 cycles. More important than battery type: BMS quality — a Li-ion power bank from Anker with 9-layer BMS is far safer than an unbranded LiPo with no protection circuit.',

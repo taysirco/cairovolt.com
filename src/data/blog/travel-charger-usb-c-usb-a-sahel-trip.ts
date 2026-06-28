@@ -30,7 +30,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
         ar: {
             title: 'شاحن سفر بمنفذين USB-C و USB-A — أيهما الأفضل لعطلة الساحل 2026؟',
             metaTitle: 'شاحن سفر USB-C ولا USB-A؟ دليل عطلة الساحل 2026 | كايرو فولت',
-            metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 236ج لـ 799ج. دليل عملي من كايرو فولت.',
+            metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 236ج لـ 799ج. دليل عملي من كايرو فولت. تابع التفاصيل بمصر.',
             keywords: 'شاحن سفر مصر, شاحن USB-C USB-A, شاحن الساحل الشمالي, افضل شاحن للسفر 2026, شاحن منفذين, شاحن رحلات مصر, travel charger egypt, شاحن USB-C ولا USB-A, شاحن عطلة الصيف, شاحن انكر سفر, شاحن GaN سفر',
             excerpt: 'رايح الساحل ومحتار تاخد شاحن USB-C ولا USB-A؟ دليل عملي بالأرقام — من سرعات الشحن للتوافق مع كل أجهزتك، مع أفضل الاختيارات من 236ج.',
             quickAnswer: 'لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: أنكر Nano 45W بشاشة ذكية (799ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: جوي روم 25W (342ج) USB-C واحد بيشحن أي موبايل بسرعة.',
@@ -218,7 +218,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
         en: {
             title: 'Travel Charger with USB-C and USB-A — Which Is Best for Your Sahel Trip 2026?',
             metaTitle: 'Travel Charger USB-C vs USB-A? Sahel Trip Guide 2026 | CairoVolt',
-            metaDescription: 'Which travel charger for North Coast Egypt: USB-C, USB-A, or both? Speed comparison + device compatibility + prices from 236 to 799 EGP. Practical guide from CairoVolt.',
+            metaDescription: 'Which travel charger for North Coast Egypt: USB-C, USB-A, or both? Speed comparison + device compatibility + prices from 236 to 799 EGP. Practical guide from...',
             keywords: 'travel charger egypt, USB-C vs USB-A charger, north coast charger, best travel charger 2026, dual port charger, sahel trip charger, charger for vacation egypt, USB-C USB-A difference, GaN travel charger, anker travel charger egypt',
             excerpt: 'Heading to the North Coast and unsure whether to pack a USB-C or USB-A charger? A practical guide with real numbers — from charging speeds to device compatibility, with top picks from 236 EGP.',
             quickAnswer: 'If all your devices are modern (iPhone 15+ / Samsung S24+) → a USB-C only charger is enough. If you have older devices (Bluetooth earbuds / smartwatch / power bank with USB-A) → a dual-port USB-C + USB-A charger is ideal. Best all-round pick: Anker Nano 45W with smart display (799 EGP) — two USB-C ports charging two devices simultaneously. Budget pick: Joyroom 25W (342 EGP) — single USB-C port charging any phone at fast speed.',

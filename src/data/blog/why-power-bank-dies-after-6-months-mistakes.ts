@@ -205,7 +205,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
         en: {
             title: 'Why Your Power Bank Dies After 6 Months: 5 Daily Mistakes Egyptians Make',
             metaTitle: 'Why Power Banks Die After 6 Months — 5 Killer Mistakes | CairoVolt',
-            metaDescription: 'Power bank losing capacity fast? 5 daily mistakes destroying lithium cells — from car heat to constant 0% drains. Science-backed fixes with real data from Egypt 2026.',
+            metaDescription: 'Power bank losing capacity fast? 5 daily mistakes destroying lithium cells — from car heat to constant 0% drains. Science-backed fixes with real data from Eg...',
             keywords: 'why power bank dies fast, power bank loses capacity, power bank battery lifespan, power bank mistakes, lithium battery degradation, power bank heat damage egypt, power bank charge cycles, how long power bank lasts, power bank not charging like before, power bank 0 percent damage',
             excerpt: 'Bought a power bank 6 months ago and it barely gives one charge now? 5 daily mistakes that kill lithium batteries — and how to avoid them.',
             quickAnswer: 'Power banks die early due to 5 mistakes: (1) Draining to 0% constantly — this destroys lithium cells 3x faster. (2) Leaving it in a parked car during summer (60-70°C) — heat reduces capacity by 20% in 3 months. (3) Charging with a counterfeit charger that outputs unstable voltage. (4) Daily pass-through charging. (5) Storing it empty for months. The fix: recharge at 20%, store at 50%, and keep it away from heat.',

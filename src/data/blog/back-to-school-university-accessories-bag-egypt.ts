@@ -25,7 +25,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
         ar: {
             title: 'حقيبة الملحقات المثالية لطالب الجامعة — 6 قطع أساسية بميزانية ذكية',
             metaTitle: 'حقيبة ملحقات طالب الجامعة — 6 أساسيات بأقل سعر | كايرو فولت',
-            metaDescription: 'دليل شامل لأفضل ملحقات طالب الجامعة في مصر 2026: باور بانك وشاحن وكابل وسماعة وساعة ذكية — بميزانية أقل من 4,000 جنيه. اختبرنا كل قطعة.',
+            metaDescription: 'دليل شامل لأفضل ملحقات طالب الجامعة في مصر 2026: باور بانك وشاحن وكابل وسماعة وساعة ذكية — بميزانية أقل من 4,000 جنيه. اختبرنا كل قطعة. تابع التفاصيل بمصر.',
             keywords: 'ملحقات طالب الجامعة, حقيبة ملحقات جامعة, باور بانك للطلاب, سماعة بلوتوث للمحاضرات, شاحن سريع للطلاب, ساعة ذكية للجامعة, accessories university student egypt, أفضل ملحقات موبايل 2026, ملحقات بميزانية طالب',
             excerpt: 'دليل عملي لـ 6 ملحقات أساسية لطالب الجامعة في مصر — باور بانك وشاحن وكابل وسماعة وساعة — بميزانية أقل من 4,000 جنيه.',
             quickAnswer: 'طالب الجامعة في مصر محتاج 6 قطع أساسية: (1) باور بانك 10,000mAh خفيف زي Anker ZOLO A110D بـ 580 جنيه، (2) شاحن سريع 20W زي Anker PowerPort 20W بـ 350 جنيه، (3) كابل USB-C متين بـ 150-200 جنيه، (4) سماعة بلوتوث TWS اقتصادية زي Soundcore P20i بـ 700 جنيه، (5) ساعة ذكية بميزانية زي Joyroom FT3 بـ 750 جنيه، (6) منظم كابلات. الميزانية الكاملة: 2,500-3,800 جنيه.',
@@ -285,7 +285,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
         en: {
             title: 'The Ultimate University Student Accessories Bag — 6 Essentials on a Smart Budget',
             metaTitle: 'University Student Accessories Bag — 6 Must-Haves | CairoVolt',
-            metaDescription: 'Complete guide to the best university student accessories in Egypt 2026: power bank, charger, cable, earbuds, smartwatch — all under 4,000 EGP. Every item tested.',
+            metaDescription: 'Complete guide to the best university student accessories in Egypt 2026: power bank, charger, cable, earbuds, smartwatch — all under 4,000 EGP. Every item te...',
             keywords: 'university student accessories egypt, student power bank, bluetooth earbuds lectures, fast charger students, smartwatch university, best mobile accessories 2026, student budget accessories egypt, back to school accessories',
             excerpt: 'A practical guide to 6 essential accessories for university students in Egypt — power bank, charger, cable, earbuds, and smartwatch — all under 4,000 EGP.',
             quickAnswer: 'A university student in Egypt needs 6 essential items: (1) a lightweight 10,000mAh power bank like Anker ZOLO A110D at 580 EGP, (2) a 20W fast charger like Anker PowerPort 20W at 350 EGP, (3) a durable USB-C cable at 150-200 EGP, (4) budget TWS earbuds like Soundcore P20i at 700 EGP, (5) a budget smartwatch like Joyroom FT3 at 750 EGP, (6) a cable organizer. Total budget: 2,500-3,800 EGP.',

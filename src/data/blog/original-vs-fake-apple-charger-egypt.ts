@@ -24,7 +24,7 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
             ar: {
                 title: 'إزاي تفرق بين شاحن أبل الأصلي والتقليد في مصر؟',
                 metaTitle: 'شاحن ابل اصلي ولا تقليد | 7 طرق للتفريق | دليل مصر',
-                metaDescription: 'اعرف إزاي تفرق بين شاحن ابل الأصلي والتقليد في مصر. 7 علامات واضحة للتمييز + أماكن الشراء الموثوقة + بدائل أصلية بسعر أقل.',
+                metaDescription: 'اعرف إزاي تفرق بين شاحن ابل الأصلي والتقليد في مصر. 7 علامات واضحة للتمييز + أماكن الشراء الموثوقة + بدائل أصلية بسعر أقل. تابع التفاصيل والمقارنة بمصر.',
                 keywords: 'شاحن ابل اصلي, شاحن ابل تقليد, الفرق بين شاحن ابل الاصلي والتقليد, شاحن ايفون اصلي, شاحن ايفون تقليد, شاحن ابل مصر, كيف تعرف شاحن ابل الاصلي',
                 excerpt: 'دليل عملي بالصور لمعرفة الفرق بين شاحن أبل الأصلي والتقليد في مصر مع بدائل موثوقة.',
                 quickAnswer: 'شاحن أبل التقليد يتميز بـ: وزن أخف 30%، حواف خشنة، وكتابة "Designed by Apple" باهتة. البديل الآمن: شاحن <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb">انكر 20W</a> معتمد MFi (375 ج.م، ضمان 18 شهر) أو <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb">جوي روم 20W</a> (بديل اقتصادي معتمد) — كلاهما من كايرو فولت.',
@@ -94,7 +94,7 @@ export const original_vs_fake_apple_charger_egypt: BlogArticle = {
             en: {
                 title: 'How to Tell Original vs Fake Apple Charger in Egypt',
                 metaTitle: 'Original vs Fake Apple Charger | 7 Ways to Tell | Egypt Guide',
-                metaDescription: 'Learn how to identify original vs fake Apple chargers in Egypt. 7 clear signs + trusted buying sources + cheaper original alternatives.',
+                metaDescription: 'Learn how to identify original vs fake Apple chargers in Egypt. 7 clear signs + trusted buying sources + cheaper original alternatives. Learn more.',
                 keywords: 'original apple charger, fake apple charger, how to spot fake charger, iphone charger original vs fake, apple charger egypt, anker vs apple charger',
                 excerpt: 'A practical guide with photos to identify original vs fake Apple chargers in Egypt with trusted alternatives.',
                 quickAnswer: 'Fake Apple chargers are 30% lighter, have rough edges, and faded "Designed by Apple" text. The safe alternative: Anker 20W MFi-certified charger at EGP 375 with 18-month warranty from CairoVolt.',

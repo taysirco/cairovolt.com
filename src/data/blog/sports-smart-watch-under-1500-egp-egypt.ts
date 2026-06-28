@@ -176,7 +176,7 @@ export const sports_smart_watch_under_1500_egp_egypt: BlogArticle = {
         en: {
             title: 'Sports Smartwatches Only — Best Picks Under 1,500 EGP in Egypt',
             metaTitle: 'Best Sports Smartwatch Under 1,500 EGP Egypt 2026 | CairoVolt',
-            metaDescription: 'Complete guide to choosing the best sports smartwatch under 1,500 EGP in Egypt — water resistance, workout tracking, real-time heart rate, and a 5-model comparison with final recommendations.',
+            metaDescription: 'Complete guide to choosing the best sports smartwatch under 1,500 EGP in Egypt — water resistance, workout tracking, real-time heart rate, and a 5-model comp...',
             keywords: 'sports smartwatch egypt, smartwatch under 1500 egp, bluetooth sport watch, gym watch, running watch, sweat resistant smartwatch, best cheap sport watch, workout tracking watch, heart rate smartwatch, joyroom sports watch',
             excerpt: 'Complete guide to choosing the best sports smartwatch under 1,500 EGP — 7 criteria to evaluate, 5-model comparison, and recommendations based on your sport type.',
             quickAnswer: 'Top 3 criteria for a sports watch: 1) IP68+ water resistance 2) Real-time heart rate sensor during workouts 3) 4+ day battery life. Under 1,500 EGP in Egypt — Joyroom FT3 is the strongest all-round pick: 5-7 day battery + IP68 + 100+ sport modes + HR and SpO2 sensors + large 1.85-inch display. No need to spend more unless you need built-in GPS.',

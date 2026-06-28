@@ -31,7 +31,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
         ar: {
             title: 'شحن اللابتوب في العربية — دليل اختيار شاحن 100W لرحلات الطريق الطويلة',
             metaTitle: 'شاحن سيارة 100W للابتوب | دليل رحلات الساحل 2026',
-            metaDescription: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والعين السخنة. حسابات القدرة، مقارنة شواحن، وتحذيرات حرارة صيف مصر.',
+            metaDescription: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والعين السخنة. حسابات القدرة، مقارنة شواحن، وتحذيرات حرارة صيف مصر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'شاحن سيارة 100 واط, شحن لابتوب في السيارة, شاحن سيارة للابتوب, شاحن 100W سيارة مصر, شاحن سيارة ساحل, شاحن USB-C PD سيارة, car charger 100w laptop egypt, شاحن سيارة ماك بوك, شاحن سيارة رحلات طويلة, شاحن GaN سيارة',
             excerpt: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والسخنة مع حسابات القدرة وتحذيرات حرارة الصيف.',
             quickAnswer: 'أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي أنكر A8050، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + كابل 100W + باور بانك أنكر 737 كاحتياطي.',
@@ -333,7 +333,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
         en: {
             title: 'Charging Your Laptop in the Car — Guide to Choosing a 100W Charger for Long Road Trips',
             metaTitle: '100W Car Charger for Laptops | Egypt Road Trip Guide',
-            metaDescription: 'Guide to choosing a 100W car charger for laptop charging on road trips to Sahel and Ain Sokhna. Power calculations, charger comparisons, and Egyptian summer heat warnings.',
+            metaDescription: 'Guide to choosing a 100W car charger for laptop charging on road trips to Sahel and Ain Sokhna. Power calculations, charger comparisons, and Egyptian summer ...',
             keywords: '100w car charger laptop, car charger laptop egypt, USB-C PD car charger, car charger macbook, 100w car charger sahel trip, laptop car charging guide, GaN car charger egypt, car charger road trip egypt, best car charger laptop 2026, car cigarette lighter wattage',
             excerpt: 'Complete guide to choosing a 100W car charger for laptop charging on Egyptian road trips with power calculations and summer heat safety tips.',
             quickAnswer: 'Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like Anker A8050, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + 100W cable + Anker 737 power bank as backup.',

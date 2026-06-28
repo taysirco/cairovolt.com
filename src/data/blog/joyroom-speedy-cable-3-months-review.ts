@@ -30,7 +30,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
         ar: {
             title: 'تجربة واقعية: كابل جوي روم Speedy Series بعد 90 يوم استخدام يومي في حر مصر',
             metaTitle: 'كابل جوي روم Speedy بعد 90 يوم — مراجعة حقيقية | كايرو فولت',
-            metaDescription: 'تجربة واقعية لكابل جوي روم Speedy Series بعد 3 شهور استخدام يومي في حر مصر. اختبار سرعة الشحن والمتانة والحرارة — بالأرقام والصور.',
+            metaDescription: 'تجربة واقعية لكابل جوي روم Speedy Series بعد 3 شهور استخدام يومي في حر مصر. اختبار سرعة الشحن والمتانة والحرارة — بالأرقام والصور. تابع التفاصيل بمصر.',
             keywords: 'كابل جوي روم, مراجعة كابل جوي روم, جوي روم speedy, كابل شحن سريع رخيص, كابل شحن متين, جوي روم speedy cable review, كابل usb-c مصر, كابل جوي روم 60 واط, تجربة كابل شحن, افضل كابل شحن اقتصادي',
             excerpt: 'تجربة واقعية لكابل جوي روم Speedy Series بعد 3 شهور من الاستخدام اليومي في حر القاهرة — بالأرقام والنتائج.',
             quickAnswer: 'كابل جوي روم Speedy Series USB-C 60W فاجأنا بعد 90 يوم استخدام يومي في حر القاهرة (42°C+). سرعة الشحن ثابتة عند 58-60W بدون تراجع. الغلاف النايلون المضفر لسه زي أول يوم — مفيش تقشير أو تشقق. نقطة الانحناء عند الكونكتور تحمّلت أكثر من 3,000 توصيل/فصل. بسعر 123 جنيه — ده أفضل كابل بالسعر ده في مصر.',
@@ -202,7 +202,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
         en: {
             title: 'Real-World Test: Joyroom Speedy Series Cable After 90 Days of Daily Use in Egyptian Heat',
             metaTitle: 'Joyroom Speedy Cable 90-Day Review — Real Test | CairoVolt',
-            metaDescription: 'Real-world review of the Joyroom Speedy Series USB-C cable after 3 months of daily use in Egyptian heat. Charging speed, durability, and heat resistance tested with numbers.',
+            metaDescription: 'Real-world review of the Joyroom Speedy Series USB-C cable after 3 months of daily use in Egyptian heat. Charging speed, durability, and heat resistance test...',
             keywords: 'joyroom cable review, joyroom speedy cable, joyroom usb-c cable 60w, cheap durable charging cable egypt, joyroom vs anker cable, best budget cable egypt, joyroom cable 3 months, usb-c cable review egypt, affordable fast charging cable, joyroom cable durability test',
             excerpt: 'Real-world review of the Joyroom Speedy Series cable after 90 days of daily use in Cairo heat — with measured numbers and honest results.',
             quickAnswer: 'The Joyroom Speedy Series USB-C 60W cable surprised us after 90 days of daily use in Cairo heat (42°C+). Charging speed held steady at 58-60W with zero degradation. The braided nylon jacket showed no peeling or cracking. The connector bend point survived 3,000+ plug/unplug cycles. At 123 EGP — this is the best cable at this price point in Egypt.',

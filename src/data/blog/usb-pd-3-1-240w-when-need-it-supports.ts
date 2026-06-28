@@ -25,7 +25,7 @@ export const usb_pd_3_1_240w_when_need_it_supports: BlogArticle = {
         ar: {
             title: 'USB-PD 3.1 بقدرة 240W — متى هتحتاجه فعلاً ومين بيدعمه دلوقتي؟',
             metaTitle: 'USB-PD 3.1 بـ 240W — متى تحتاجه ومين بيدعمه؟ دليل شامل | كايرو فولت',
-            metaDescription: 'شرح USB-PD 3.1 Extended Power Range — إيه الجديد، ليه 240W، مين بيدعمه في 2026، وهل محتاج تشتريه دلوقتي؟ كل اللي محتاج تعرفه.',
+            metaDescription: 'شرح USB-PD 3.1 Extended Power Range — إيه الجديد، ليه 240W، مين بيدعمه في 2026، وهل محتاج تشتريه دلوقتي؟ كل اللي محتاج تعرفه. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'USB PD 3.1 شرح, 240W شاحن, USB Power Delivery 3.1, EPR شرح, USB PD 3.1 مصر, شاحن لابتوب 240W, USB-C 240W, الفرق بين PD 3.0 و 3.1, Extended Power Range, شاحن USB PD مصر',
             excerpt: 'دليل شامل لمعيار USB-PD 3.1 بقدرة 240W — إيه اللي اتغيّر، مين محتاجه فعلاً، ومين بيدعمه حالياً.',
             quickAnswer: 'USB-PD 3.1 رفع أقصى قدرة الشحن عبر USB-C من 100W لـ 240W عبر Extended Power Range (EPR). محتاجه فعلاً فقط لو: (1) عندك لابتوب gaming أو workstation بـ 140W+ زي MacBook Pro 16" أو Dell XPS 17، أو (2) عايز شاحن واحد يشحن لابتوب ثقيل + موبايل + تابلت. لو أجهزتك كلها تحت 100W — PD 3.0 كافيك تماماً ومش محتاج تدفع أكتر.',

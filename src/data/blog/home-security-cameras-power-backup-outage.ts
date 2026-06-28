@@ -25,7 +25,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
         ar: {
             title: 'شحن كاميرات المراقبة وقت انقطاع الكهرباء — الحل اللي يمنع فقدان التسجيل',
             metaTitle: 'تشغيل كاميرات المراقبة أثناء انقطاع الكهرباء في مصر | كايرو فولت',
-            metaDescription: 'دليل عملي لتشغيل كاميرات المراقبة أثناء انقطاع الكهرباء في مصر. حساب السعة المطلوبة بالأرقام مع مقارنة UPS ضد باور بانك ضد محطة طاقة.',
+            metaDescription: 'دليل عملي لتشغيل كاميرات المراقبة أثناء انقطاع الكهرباء في مصر. حساب السعة المطلوبة بالأرقام مع مقارنة UPS ضد باور بانك ضد محطة طاقة. تابع التفاصيل بمصر.',
             keywords: 'كاميرات مراقبة انقطاع كهرباء, ups كاميرات مراقبة, باور بانك كاميرا مراقبة, تشغيل كاميرات بدون كهرباء, حل انقطاع الكهرباء مصر, شحن DVR انقطاع كهرباء, battery backup security camera egypt',
             excerpt: 'كاميرات المراقبة بتوقف بالضبط وقت ما بتكون محتاجها — أثناء انقطاع الكهرباء. دليل عملي بالحسابات لاختيار نظام الطوارئ المناسب.',
             quickAnswer: 'لتشغيل 4 كاميرات مراقبة + DVR لمدة 4 ساعات أثناء انقطاع الكهرباء: محتاج UPS بقدرة 600VA+ أو محطة طاقة متنقلة بسعة 200Wh+. الحساب: منظومة 4 كاميرات (5W لكل واحدة) + DVR (25W) = 45W إجمالي × 4 ساعات = 180Wh. ترشيحنا: انكر 521 PowerHouse (256Wh) — بيشغّل المنظومة 5+ ساعات ويتشحن في 5 ساعات. للحل الأرخص: باور بانك 20,000mAh + محول DC 12V بيشغّل كاميرا WiFi واحدة 8-10 ساعات.',
@@ -225,7 +225,7 @@ export const home_security_cameras_power_backup_outage: BlogArticle = {
         en: {
             title: 'Security Camera Backup Power During Outages — Prevent Lost Footage',
             metaTitle: 'Keep Security Cameras Running During Power Outages in Egypt | CairoVolt',
-            metaDescription: 'Practical guide to keeping security cameras operational during power outages in Egypt. Exact wattage calculations and comparison of UPS vs power bank vs portable power station.',
+            metaDescription: 'Practical guide to keeping security cameras operational during power outages in Egypt. Exact wattage calculations and comparison of UPS vs power bank vs port...',
             keywords: 'security camera power outage, ups for security cameras, power bank security camera, backup power CCTV egypt, DVR power backup, security camera battery backup, power outage surveillance egypt',
             excerpt: 'Security cameras stop working exactly when you need them most — during power outages. A practical guide with exact calculations for choosing the right backup power system.',
             quickAnswer: 'To run 4 security cameras + DVR for 4 hours during a power outage: you need a UPS rated 600VA+ or a portable power station with 200Wh+ capacity. The math: 4-camera system (5W each) + DVR (25W) = 45W total × 4 hours = 180Wh. Our pick: Anker 521 PowerHouse (256Wh) — runs the system for 5+ hours and recharges in 5 hours. For a budget solution: a 20,000mAh power bank + 12V DC converter runs a single WiFi camera for 8-10 hours.',

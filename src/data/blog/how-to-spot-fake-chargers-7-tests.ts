@@ -176,7 +176,7 @@ export const how_to_spot_fake_chargers_7_tests: BlogArticle = {
         en: {
             title: '7 Professional Tests to Spot Fake Chargers vs Original (2026 Visual Guide)',
             metaTitle: 'How to Identify Fake vs Original Chargers? 7 Expert Tests | CairoVolt',
-            metaDescription: 'Discover 7 professional tests to instantly identify fake chargers and cables. From weight tests to QR authentication — an illustrated guide from CairoVolt experts.',
+            metaDescription: 'Discover 7 professional tests to instantly identify fake chargers and cables. From weight tests to QR authentication — an illustrated guide from CairoVolt ex...',
             keywords: 'fake vs original charger, how to identify original charger, spot fake charger, Anker original test, fake charger dangers, C2PA authentication, charger weight test, counterfeit charger Egypt',
             excerpt: '7 practical tests you can perform in 60 seconds to verify if your charger or cable is original — from weight inspection to digital QR Code verification.',
             quickAnswer: 'The 3 fastest tests to spot a fake charger: (1) Weight — originals are 20-40% heavier due to real copper components. (2) Heat test — run for 10 minutes; if you smell burning plastic, it is fake. (3) Digital verification — scan the C2PA QR code on CairoVolt authentication cards for instant proof of authenticity with unique serial numbers.',

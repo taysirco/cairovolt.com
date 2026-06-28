@@ -274,7 +274,7 @@ export const slimmest_100w_laptop_gan_chargers_egypt: BlogArticle = {
         en: {
             title: '5 Slimmest 100W GaN Laptop Chargers for Your Bag — For Professionals & Students in Egypt',
             metaTitle: '5 Slimmest 100W GaN Laptop Chargers — Egypt Guide 2026 | CairoVolt',
-            metaDescription: 'Slimmest 100W GaN laptop chargers in Egypt 2026 — comparing 5 chargers by weight, size, and price. Replace your bulky laptop brick. Engineer guide for professionals and students.',
+            metaDescription: 'Slimmest 100W GaN laptop chargers in Egypt 2026 — comparing 5 chargers by weight, size, and price. Replace your bulky laptop brick. Engineer guide for profes...',
             keywords: '100W laptop charger, GaN laptop charger, slimmest laptop charger, compact laptop charger egypt, USB-C laptop charger, laptop charger replacement, 100W GaN charger egypt, MacBook charger slim, Dell XPS USB-C charger, travel laptop charger, best laptop charger 2026 egypt, PD 3.1 100W charger',
             excerpt: 'Your original laptop charger weighs half a kilo — replace it with a GaN 100W charger that is 60% smaller and charges your laptop, phone, and tablet from one port.',
             quickAnswer: 'Slimmest 100W GaN laptop charger available in Egypt 2026: Anker Prime 100W — weighs only 170g (60% smaller than a MacBook charger), delivers real 100W via USB-C PD 3.0, and charges MacBook Pro 16" from 0→50% in 35 minutes. Budget alternative: UGREEN Nexode 100W with 4 ports. Only requirement: your laptop must support USB-C PD charging (all 2022+ laptops do). GaN chargers run 30% cooler at 95% efficiency vs silicon originals.',

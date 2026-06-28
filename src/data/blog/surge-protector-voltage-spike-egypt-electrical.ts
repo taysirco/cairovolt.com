@@ -25,7 +25,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
         ar: {
             title: 'واقي الفولتية (Surge Protector) — حماية أجهزتك من تذبذب الكهرباء في مصر',
             metaTitle: 'واقي الفولتية — ليه محتاجه وإزاي تختار الصح في مصر | كايرو فولت',
-            metaDescription: 'تذبذب الكهرباء في مصر ممكن يحرق أجهزتك. دليل شامل عن واقي الفولتية (Surge Protector): ليه محتاجه، إزاي يشتغل، إيه الفرق بينه وبين المشترك العادي، وإزاي تختار الصح.',
+            metaDescription: 'تذبذب الكهرباء في مصر ممكن يحرق أجهزتك. دليل شامل عن واقي الفولتية (Surge Protector): ليه محتاجه، إزاي يشتغل، إيه الفرق بينه وبين المشترك العادي، وإزاي تختار...',
             keywords: 'واقي الفولتية, surge protector مصر, حماية الأجهزة من الكهرباء, تذبذب الكهرباء, مشترك حماية, فيشة حماية, ارتفاع الفولت, انخفاض الفولت, حماية الشاحن من الكهرباء, voltage stabilizer مصر',
             excerpt: 'تذبذب الكهرباء في مصر مش نكتة — ارتفاع مفاجئ ممكن يحرق شاحنك أو اللابتوب أو الراوتر في لحظة. واقي الفولتية هو خط الدفاع الأول.',
             quickAnswer: 'واقي الفولتية (Surge Protector) جهاز بيمتص ارتفاعات الجهد المفاجئة (Voltage Spikes) قبل ما توصل لأجهزتك. في مصر — تذبذب الكهرباء شائع (خصوصاً في الصيف وبعد انقطاعات التيار). أي جهاز إلكتروني حساس (لابتوب، راوتر، شاشة، شاحن) محتاج واقي فولتية. المشترك العادي (التوصيلة) مش بيحمي — بيوزّع الكهرباء بس. اختار واقي فولتية فيه: (1) تصنيف جول عالي (600+ جول). (2) مؤشر LED للحالة. (3) عدد مخارج كافي. (4) ماركة موثوقة.',
@@ -163,7 +163,7 @@ export const surge_protector_voltage_spike_egypt_electrical: BlogArticle = {
         en: {
             title: 'Surge Protectors — Protecting Your Devices from Egypt\'s Voltage Fluctuations',
             metaTitle: 'Surge Protectors — Why You Need One and How to Choose Right in Egypt | CairoVolt',
-            metaDescription: 'Egypt\'s voltage fluctuations can fry your electronics. Complete guide to surge protectors: how they work, why you need one, the difference from power strips, and how to choose.',
+            metaDescription: 'Egypt\'s voltage fluctuations can fry your electronics. Complete guide to surge protectors: how they work, why you need one, the difference from power strips...',
             keywords: 'surge protector Egypt, voltage fluctuation protection, power strip vs surge protector, voltage spike protection, MOV surge protection, joule rating surge protector, protect electronics Egypt, power surge damage, voltage stabilizer Egypt, surge protector buying guide',
             excerpt: 'Egypt\'s voltage fluctuations are no joke — a sudden spike can fry your charger, laptop, or router in an instant. A surge protector is your first line of defense.',
             quickAnswer: 'A surge protector absorbs sudden voltage spikes before they reach your devices. In Egypt — voltage fluctuations are common (especially in summer and after power outages). Any sensitive electronic device (laptop, router, monitor, charger) needs a surge protector. A regular power strip does NOT protect — it only distributes power. Choose a surge protector with: (1) High joule rating (600+). (2) LED status indicator. (3) Sufficient outlets. (4) Trusted brand.',

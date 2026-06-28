@@ -221,7 +221,7 @@ export const best_power_bank_under_1000_egp_egypt: BlogArticle = {
         en: {
             title: 'Best Power Bank Under 1000 EGP in Egypt 2026 — Authentic Options vs Counterfeits',
             metaTitle: 'Best Power Bank Under 1000 EGP in Egypt 2026 | CairoVolt',
-            metaDescription: 'Authentic power bank options under 1000 EGP in Egypt are very limited — only 2 models worth buying. Plus: why 80% of OLX listings are fake, with CairoVolt field test results.',
+            metaDescription: 'Authentic power bank options under 1000 EGP in Egypt are very limited — only 2 models worth buying. Plus: why 80% of OLX listings are fake, with CairoVolt fi...',
             keywords: 'power bank under 1000 egp, cheapest authentic power bank egypt, joyroom magsafe egypt, joyroom 20000mah, fake vs original power bank, best budget power bank egypt 2026, joyroom 850 egp',
             excerpt: 'Authentic options under 1000 EGP in the Egyptian market are very limited — only 2 models worth buying. Plus: why 80% of OLX listings are counterfeit.',
             quickAnswer: 'The best authentic power banks under 1000 EGP in Egypt come down to two trusted options: (1) Joyroom MagSafe 10,000mAh at 850 EGP — perfect for iPhone users with MagSafe support. (2) Joyroom 20,000mAh PD at 997 EGP — double the capacity for multi-device charging. Anything cheaper than 800 EGP on OLX = likely counterfeit without warranty.',
