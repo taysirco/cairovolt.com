@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getAllIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
+import { getLiveIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
@@ -30,7 +30,7 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-    const slugs = getAllIndexSlugs();
+    const slugs = getLiveIndexSlugs();
     return ['en', 'ar'].flatMap((locale) =>
         slugs.map((slug) => ({ locale, slug }))
     );
