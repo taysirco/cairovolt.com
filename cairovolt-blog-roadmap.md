@@ -237,8 +237,8 @@
 190. ✅ هل شاحن USB-C العادي كافي لهواتف Google Pixel؟ ولا محتاج شاحن خاص؟ → `google-pixel-usb-c-charger-requirements-guide`
 191. ✅ انفجار الباور بانك — حقيقة علمية أم مبالغة؟ وإزاي تحمي نفسك وعيلتك → `power-bank-explosion-real-risk-safety-tips`
 192. ✅ شحن الموبايل في الحمام — خطر كهربائي حقيقي ولا مجرد تخويف؟ → `charging-phone-in-bathroom-electrical-danger-real`
-193. ⬜ استخدام الموبايل أثناء الشحن — هل فعلاً ممكن يسبب انفجار البطارية؟ → `using-phone-while-charging-battery-explosion-myth`
-194. ⬜ الشاحن متوصل بالكهرباء من غير موبايل — هل بيستهلك كهرباء ويسخن؟ → `charger-plugged-without-phone-electricity-waste`
+193. ✅ استخدام الموبايل أثناء الشحن — هل فعلاً ممكن يسبب انفجار البطارية؟ → `using-phone-while-charging-battery-explosion-myth`
+194. ✅ الشاحن متوصل بالكهرباء من غير موبايل — هل بيستهلك كهرباء ويسخن؟ → `charger-plugged-without-phone-electricity-waste`
 195. ⬜ ما هو GaN (نيتريد الجاليوم) ببساطة — ولماذا أصبح مستقبل كل الشواحن؟ → `what-is-gan-gallium-nitride-charger-explained-simply`
 196. ⬜ الفرق بين USB 2.0 و USB 3.0 و USB 3.2 في الكابلات — دليل مبسط بالصور → `usb-2-vs-usb-3-vs-usb-3-2-cable-differences`
 197. ⬜ PD و QC و PPS — فك شفرة اختصارات الشحن السريع المكتوبة على كل شاحن → `pd-qc-pps-fast-charging-abbreviations-explained`
