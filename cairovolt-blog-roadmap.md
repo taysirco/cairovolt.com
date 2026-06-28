@@ -246,7 +246,7 @@
 199. ✅ → slug: power-bank-cgm-diabetes-continuous-glucose-monitor
 200. ✅ ملحقات المعلم المصري — شاحن وسماعة وباور بانك يكملوا يوم المدرسة → `teacher-accessories-charger-earbuds-power-bank`
 201. ✅ باور بانك لماكينة الدفع الإلكتروني POS — الحل لأصحاب المحلات والكاشير → `power-bank-pos-machine-shop-cashier-solution`
-202. ⬜ شحن وملحقات لرحلات القطار والأتوبيس الطويلة — دليل المسافر المصري → `train-bus-long-trip-charging-accessories-egypt`
+202. ✅ شحن وملحقات لرحلات القطار والأتوبيس الطويلة — دليل المسافر المصري → `train-bus-long-trip-charging-accessories-egypt`
 203. ⬜ كم مرة يشحن باور بانك 10000 مللي أمبير موبايل iPhone؟ الحساب الدقيق → `10000mah-power-bank-iphone-charges-count-math`
 204. ⬜ هل الشاحن القديم بيشحن الموبايل الجديد بنفس السرعة؟ الإجابة المفاجئة → `old-charger-new-phone-charging-speed-answer`
 205. ⬜ هل ممكن أستخدم شاحن سامسونج لشحن آيفون والعكس؟ الجواب النهائي → `samsung-charger-for-iphone-cross-brand-compatibility`
