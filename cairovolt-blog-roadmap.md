@@ -263,7 +263,7 @@
 216. ✅ أدابتر USB-C إلى Jack 3.5mm — الحل لسماعات السلك القديمة على الموبايلات الجديدة → `usb-c-to-3-5mm-jack-adapter-wired-earphones`
 217. ✅ كابل شحن مضيء LED — شكل حلو بس هل بيأثر على سرعة الشحن والأمان؟ → `led-light-up-charging-cable-speed-safety-review`
 218. ✅ كابل Data ضد كابل Charge Only — الفرق اللي لازم تعرفه لنقل الصور والملفات → `data-cable-vs-charge-only-cable-file-transfer`
-219. ⬜ الباور بانك بديل الـ UPS — هل ينفع يشغّل الراوتر 8 ساعات وقت انقطاع الكهرباء؟ → `power-bank-router-ups-alternative-8-hours`
+219. ✅ الباور بانك بديل الـ UPS — هل ينفع يشغّل الراوتر 8 ساعات وقت انقطاع الكهرباء؟ → `power-bank-router-ups-alternative-8-hours`
 220. ⬜ محطة طاقة متنقلة للشقة — الحل الذكي لانقطاع الكهرباء المتكرر في صيف مصر → `portable-power-station-apartment-summer-outage-egypt`
 221. ⬜ تشغيل اللابتوب على الباور بانك — شروط السعة والقدرة المطلوبة → `running-laptop-on-power-bank-capacity-requirements`
 222. ⬜ باور بانك للثلاجة المتنقلة في الرحلات — السعة المطلوبة والاختيارات المتاحة → `power-bank-portable-fridge-road-trip-capacity`
