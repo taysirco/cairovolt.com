@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getLiveIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
+import { getAllIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
@@ -30,7 +30,15 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-    const slugs = getLiveIndexSlugs();
+    // ALL slugs — NOT just the currently-live ones. Every article that ships in
+    // the repo must be a known static path. Because dynamicParams=false, a slug
+    // missing from this list is a HARD, permanent 404 that ISR can never create.
+    // A scheduled article (future publishDate) is therefore enumerated here, kept
+    // as a 404 by the isIndexEntryLive() gate in the page body, and flipped to
+    // live automatically on the next hourly ISR revalidation once its publishDate
+    // passes. Using getLiveIndexSlugs() here was the bug: it dropped every
+    // not-yet-published article from the build, 404ing it forever until a redeploy.
+    const slugs = getAllIndexSlugs();
     return ['en', 'ar'].flatMap((locale) =>
         slugs.map((slug) => ({ locale, slug }))
     );
