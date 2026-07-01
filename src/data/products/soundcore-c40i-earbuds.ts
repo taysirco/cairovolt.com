@@ -61,7 +61,7 @@ export const soundcore_c40i_earbuds = {
             faqs: [
                     { question: "C40i vs C30i — what's the difference?", answer: "Same driver and sound. C40i: titanium flex clip (more comfortable), physical buttons, BT 5.4, 21h, 3,050 EGP. C30i: hard-shell clip, touch controls, BT 5.3, 30h, 2,350 EGP. C40i for comfort. C30i for battery and value." },
                     { question: "Does C40i have ANC?", answer: "No — C40i is open-ear with no ANC. This is by design for safety (hear traffic while running) and productivity (hear colleagues at work). For ANC: P30i (42dB, 1,200) or Liberty 4 NC (2,499)." },
-                    { question: "Does C40i support LDAC?", answer: "No — C40i uses AAC and SBC codecs only. For LDAC: Liberty 4 NC (2,499 EGP) or Liberty 5 (2,499 EGP)." },
+                    { question: "Does C40i support LDAC?", answer: "No — C40i uses AAC and SBC codecs only. For LDAC: Liberty 4 NC (2,499 EGP) or Liberty 5 (4,651 EGP)." },
                     { question: "Are the physical buttons better than C30i touch controls?", answer: "Yes — physical buttons eliminate accidental taps/pauses. This was a top complaint about C30i. C40i's buttons are precise and provide tactile feedback." },
                     { question: "Is the bass good on C40i?", answer: "Honest: bass is thin like all open-ear earbuds. Mids and vocals are excellent for podcasts and calls. If bass matters: buy in-ear buds (P30i, P40i, Liberty series)." },
             ]
@@ -100,7 +100,7 @@ export const soundcore_c40i_earbuds = {
             faqs: [
                     { question: "C40i ولا C30i — إيه الفرق؟", answer: "نفس الدرايفر والصوت. C40i: كليب تيتانيوم مرن (أكثر راحة)، أزرار فيزيائية، BT 5.4، 21 ساعة، 3,050 جنيه. C30i: كليب صلب، لمس، BT 5.3، 30 ساعة، 2,350 جنيه. C40i للراحة. C30i للبطارية والتوفير." },
                     { question: "C40i فيها ANC؟", answer: "لأ — C40i أذن مفتوحة بدون ANC. ده بالتصميم للأمان (اسمع المرور وانت بتجري) والإنتاجية (اسمع الزملاء في الشغل). لو عايز ANC: P30i (42dB، 1,200) أو Liberty 4 NC (2,499)." },
-                    { question: "C40i فيها LDAC؟", answer: "لأ — C40i بتدعم AAC وSBC بس. لو عايز LDAC: Liberty 4 NC (2,499 جنيه) أو Liberty 5 (2,499 جنيه)." },
+                    { question: "C40i فيها LDAC؟", answer: "لأ — C40i بتدعم AAC وSBC بس. لو عايز LDAC: Liberty 4 NC (2,499 جنيه) أو Liberty 5 (4,651 جنيه)." },
                     { question: "الأزرار الفيزيائية أحسن من لمس C30i؟", answer: "أيوه — أزرار فيزيائية بتلغي الضغط/الإيقاف بالغلط. ده كان من أكبر شكاوي C30i. أزرار C40i دقيقة وبتدي إحساس ملمسي." },
                     { question: "الباس كويس في C40i؟", answer: "بصراحة: الباس ضعيف زي كل سماعات الأذن المفتوحة. الميد والأصوات ممتازة للبودكاست والمكالمات. لو الباس مهم: اشتري سماعات داخلية (P30i، P40i، سلسلة Liberty)." },
             ]

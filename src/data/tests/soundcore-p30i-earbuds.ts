@@ -29,12 +29,12 @@ export const soundcore_p30i_earbuds_lab: ProductLabData = {
         },
     ],
     voiceFaqAr: [
-        { question: 'P30i ولا P40i؟', answer: 'P40i أعلى: 11mm composite، ANC أعمق، 57h بطارية، 6 مايكات، 1,522 جنيه. P30i: 10mm BassUp، 42dB ANC، 45h، ستاند موبايل، 1,200 جنيه. لو الميزانية ضيقة: P30i. لو عايز الأفضل: P40i.' },
+        { question: 'P30i ولا P40i؟', answer: 'P40i أعلى: 11mm composite، ANC أعمق، 57h بطارية، 6 مايكات، 2,052 جنيه. P30i: 10mm BassUp، 42dB ANC، 45h، ستاند موبايل، 1,200 جنيه. لو الميزانية ضيقة: P30i. لو عايز الأفضل: P40i.' },
         { question: 'علبة ستاند الموبايل بتشتغل كويس؟', answer: 'أيوه — بتمسك iPhone 17 Pro Max وSamsung S26 Ultra بثبات على 70°. ممتازة لمشاهدة فيديو في المكتب أو المطبخ.' },
         { question: 'ينفع للجري؟', answer: 'IP54 بتستحمل العرق. مع أطراف السيليكون المناسبة، ثابتة في الجري المعتدل. مش مثالية للجري العنيف أو CrossFit.' },
     ],
     voiceFaqEn: [
-        { question: 'P30i or P40i?', answer: 'P40i is higher: 11mm composite, deeper ANC, 57h battery, 6-mic, 1,522 EGP. P30i: 10mm BassUp, 42dB ANC, 45h, phone stand case, 1,200 EGP. Tight budget: P30i. Want the best: P40i.' },
+        { question: 'P30i or P40i?', answer: 'P40i is higher: 11mm composite, deeper ANC, 57h battery, 6-mic, 2,052 EGP. P30i: 10mm BassUp, 42dB ANC, 45h, phone stand case, 1,200 EGP. Tight budget: P30i. Want the best: P40i.' },
         { question: 'Does the phone stand case work well?', answer: 'Yes — holds iPhone 17 Pro Max and Samsung S26 Ultra securely at 70°. Great for desk/kitchen video watching.' },
         { question: 'Good for running?', answer: 'IP54 handles sweat. With right silicone tips, stable for moderate running. Not ideal for intense running or CrossFit.' },
     ],

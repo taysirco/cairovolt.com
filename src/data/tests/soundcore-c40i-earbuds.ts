@@ -30,12 +30,12 @@ export const soundcore_c40i_earbuds_lab: ProductLabData = {
     ],
     voiceFaqAr: [
         { question: 'C40i ولا C30i؟', answer: 'نفس الدرايفر والصوت. C40i: كليب تيتانيوم مرن أكثر راحة، أزرار فيزيائية، BT 5.4، 21 ساعة، 3,050 جنيه. C30i: كليب صلب أمتن، 30 ساعة، BT 5.3، 2,350 جنيه. الراحة: C40i. البطارية: C30i. التوفير: C30i.' },
-        { question: 'فيها ANC؟', answer: 'لأ — C40i open-ear بدون ANC. ده بالتصميم. لو عايز ANC: P30i (1,200) أو P40i (1,522) أو Liberty 4 NC (2,499).' },
+        { question: 'فيها ANC؟', answer: 'لأ — C40i open-ear بدون ANC. ده بالتصميم. لو عايز ANC: P30i (1,200) أو P40i (2,052) أو Liberty 4 NC (2,499).' },
         { question: 'الأزرار الفيزيائية أحسن من اللمس؟', answer: 'أيوه — مفيش ضغط بالغلط. ده من أكبر شكاوي C30i (أزرار لمس صغيرة). C40i حلّت المشكلة بأزرار فيزيائية واضحة.' },
     ],
     voiceFaqEn: [
         { question: 'C40i or C30i?', answer: 'Same driver and sound. C40i: flexible titanium clip, physical buttons, BT 5.4, 21h, 3,050 EGP. C30i: hard clip, 30h, BT 5.3, 2,350 EGP. Comfort: C40i. Battery: C30i. Value: C30i.' },
-        { question: 'Does it have ANC?', answer: 'No — C40i is open-ear with no ANC. By design. For ANC: P30i (1,200) or P40i (1,522) or Liberty 4 NC (2,499).' },
+        { question: 'Does it have ANC?', answer: 'No — C40i is open-ear with no ANC. By design. For ANC: P30i (1,200) or P40i (2,052) or Liberty 4 NC (2,499).' },
         { question: 'Physical buttons better than touch?', answer: 'Yes — no accidental taps. This was a top complaint for C30i (small touch controls). C40i solved it with clear physical buttons.' },
     ],
     isAccessoryFor: [

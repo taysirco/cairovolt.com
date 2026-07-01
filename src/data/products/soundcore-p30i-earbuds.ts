@@ -59,7 +59,7 @@ export const soundcore_p30i_earbuds = {
             metaTitle: "Soundcore P30i — 42dB ANC + BassUp + Phone Stand Case",
             metaDesc: "Buy Soundcore P30i in Egypt — 1,200 EGP. 42dB ANC, 10mm BassUp, 45h battery, phone stand case, BT 5.4, IP54. 18-month warranty. COD. Same-day Cairo.",
             faqs: [
-                    { question: "P30i vs P40i — which should I buy?", answer: "P40i: 11mm composite, deeper ANC, 57h battery, 6-mic, 1,522 EGP. P30i: 10mm BassUp, 42dB ANC, 45h, phone stand case, 1,200 EGP. P30i saves 322 EGP. Choose P40i if you need premium ANC and calls." },
+                    { question: "P30i vs P40i — which should I buy?", answer: "P40i: 11mm composite, deeper ANC, 57h battery, 6-mic, 2,052 EGP. P30i: 10mm BassUp, 42dB ANC, 45h, phone stand case, 1,200 EGP. P30i saves 322 EGP. Choose P40i if you need premium ANC and calls." },
                     { question: "What is the phone stand case?", answer: "The P30i charging case has a built-in stand mechanism that props your phone at a 70° angle. Perfect for hands-free video watching at your desk, kitchen, or bedside. Holds phones up to iPhone 17 Pro Max size." },
                     { question: "How effective is 42dB ANC on Cairo Metro?", answer: "Very effective. Tested: reduces Metro engine drone by ~38dB. You can listen to music at moderate volume without hearing the engine. Transparency mode lets you hear announcements with a single tap." },
                     { question: "Is BassUp always on?", answer: "No — BassUp is a mode you toggle in the Soundcore app or via touch controls. It boosts bass 100-250Hz by ~4dB. Great for Arabic pop and EDM. Turn it off for podcasts and calls." },
@@ -98,7 +98,7 @@ export const soundcore_p30i_earbuds = {
             metaTitle: "سماعة ساوندكور P30i — 42dB ANC + BassUp + علبة ستاند",
             metaDesc: "اشتري سماعة ساوندكور P30i في مصر — 1,200 جنيه. ANC 42dB، 10mm BassUp، 45 ساعة، علبة ستاند موبايل، BT 5.4، IP54. ضمان 18 شهر. الدفع عند الاستلام.",
             faqs: [
-                    { question: "P30i ولا P40i — أشتري أنهي؟", answer: "P40i: درايفر 11mm composite، ANC أعمق، 57 ساعة، 6 مايكات، 1,522 جنيه. P30i: 10mm BassUp، 42dB ANC، 45 ساعة، علبة ستاند، 1,200 جنيه. P30i بتوفّر 322 جنيه. اختار P40i لو محتاج ANC بريميوم ومكالمات." },
+                    { question: "P30i ولا P40i — أشتري أنهي؟", answer: "P40i: درايفر 11mm composite، ANC أعمق، 57 ساعة، 6 مايكات، 2,052 جنيه. P30i: 10mm BassUp، 42dB ANC، 45 ساعة، علبة ستاند، 1,200 جنيه. P30i بتوفّر 322 جنيه. اختار P40i لو محتاج ANC بريميوم ومكالمات." },
                     { question: "علبة ستاند الموبايل بتشتغل إزاي؟", answer: "علبة شحن P30i فيها آلية ستاند مدمجة بتسند الموبايل على زاوية 70°. ممتازة لمشاهدة فيديو حر اليدين على المكتب أو المطبخ. بتمسك موبايلات لحد حجم iPhone 17 Pro Max." },
                     { question: "42dB ANC بتفرق في مترو القاهرة؟", answer: "فعّال جداً. مختبر: بيقلل دمدمة محرك المترو بـ ~38dB. بتقدر تسمع موسيقى بصوت معتدل بدون ما تسمع المحرك. وضع الشفافية بيخليك تسمع الإعلانات بضغطة." },
                     { question: "BassUp دايماً شغّال؟", answer: "لأ — BassUp وضع بتفعّله من تطبيق ساوندكور أو أزرار اللمس. بيعزز باس 100-250Hz بـ ~4dB. ممتاز للبوب العربي والـ EDM. أقفله للبودكاست والمكالمات." },

@@ -46,7 +46,7 @@ export const soundcore_c30i_earbuds = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">C30i is an OPEN-EAR clip-on — it does NOT go inside the ear canal and has NO ANC. If you want in-ear buds with ANC, buy P30i (1,200 EGP) or P40i (1,522 EGP) instead.</p>
+    <p class="text-gray-700 leading-relaxed mb-3">C30i is an OPEN-EAR clip-on — it does NOT go inside the ear canal and has NO ANC. If you want in-ear buds with ANC, buy P30i (1,200 EGP) or P40i (2,052 EGP) instead.</p>
     <p class="font-bold mb-2">How to verify authenticity:</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>Model:</strong> A3965 engraved on the case</li>
@@ -61,7 +61,7 @@ export const soundcore_c30i_earbuds = {
             metaDesc: "Buy Soundcore C30i in Egypt — 2,350 EGP. Open-ear clip-on, 12×17mm titanium, hear environment + music, 30h battery, BT 5.3, IPX4, 5.7g. 18-month warranty. COD.",
             faqs: [
                     { question: "C30i is open-ear — what does that mean?", answer: "C30i clips onto your outer ear, nothing enters the ear canal. You hear music AND your environment simultaneously. No ANC. Ideal for running (hear traffic), office (hear colleagues), and people who dislike in-ear buds." },
-                    { question: "Why doesn't C30i have ANC?", answer: "Open-ear design means ears aren't sealed. This is intentional — it's a safety feature for outdoor runners and a productivity feature for offices. For ANC: P30i (42dB, 1,200 EGP) or P40i (1,522 EGP)." },
+                    { question: "Why doesn't C30i have ANC?", answer: "Open-ear design means ears aren't sealed. This is intentional — it's a safety feature for outdoor runners and a productivity feature for offices. For ANC: P30i (42dB, 1,200 EGP) or P40i (2,052 EGP)." },
                     { question: "C30i or C40i — what's the difference?", answer: "C40i adds ANC to the open-ear clip-on design, plus longer battery. C30i has no ANC but costs less. If you want open-ear + ANC, choose C40i." },
                     { question: "Is the bass good on C30i?", answer: "Honest: bass is thin. Open-ear can't reinforce low frequencies like sealed in-ear buds. Mids and vocals are excellent for podcasts. If bass matters: buy P30i or P40i (in-ear, sealed)." },
                     { question: "Does sound leak to people nearby?", answer: "Yes — at 60%+ volume, people sitting 1m away can hear your audio. Keep volume at 40-50% in quiet offices. At normal listening volume outdoors, leakage is minimal." },
@@ -85,7 +85,7 @@ export const soundcore_c30i_earbuds = {
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-3 text-red-700 text-lg">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700 leading-relaxed mb-3">C30i كليب أذن مفتوح — مش بتدخل جوه الودان ومفيهاش ANC. لو عايز سماعة داخلية بـ ANC، اشتري P30i (1,200 جنيه) أو P40i (1,522 جنيه).</p>
+    <p class="text-gray-700 leading-relaxed mb-3">C30i كليب أذن مفتوح — مش بتدخل جوه الودان ومفيهاش ANC. لو عايز سماعة داخلية بـ ANC، اشتري P30i (1,200 جنيه) أو P40i (2,052 جنيه).</p>
     <p class="font-bold mb-2">إزاي تتأكد إنها أصلية؟</p>
     <ul class="list-decimal list-inside text-gray-700 space-y-1">
         <li><strong>الموديل:</strong> A3965 محفور على العلبة</li>
@@ -100,7 +100,7 @@ export const soundcore_c30i_earbuds = {
             metaDesc: "اشتري سماعة ساوندكور C30i في مصر — 2,350 جنيه. كليب أذن مفتوح، 12×17mm تيتانيوم، اسمع البيئة + الموسيقى، 30 ساعة، BT 5.3، IPX4، 5.7 جرام. ضمان 18 شهر. الدفع.",
             faqs: [
                     { question: "C30i أذن مفتوحة يعني إيه؟", answer: "C30i بتتعلق على الأذن الخارجية، مفيش حاجة بتدخل قناة الودان. بتسمع الموسيقى والبيئة حواليك مع بعض. مفيش ANC. مثالية للجري (اسمع المرور)، المكتب (اسمع الزملاء)، واللي مش بيحبوا السماعات الداخلية." },
-                    { question: "ليه C30i مفيهاش ANC؟", answer: "تصميم مفتوح يعني الودان مش مسدودة. ده متعمد — ميزة أمان للجري في الشوارع وميزة إنتاجية للمكاتب. لو عايز ANC: P30i (42dB، 1,200 جنيه) أو P40i (1,522 جنيه)." },
+                    { question: "ليه C30i مفيهاش ANC؟", answer: "تصميم مفتوح يعني الودان مش مسدودة. ده متعمد — ميزة أمان للجري في الشوارع وميزة إنتاجية للمكاتب. لو عايز ANC: P30i (42dB، 1,200 جنيه) أو P40i (2,052 جنيه)." },
                     { question: "C30i ولا C40i — إيه الفرق؟", answer: "C40i بتضيف ANC لتصميم الكليب المفتوح، وبطارية أطول. C30i بدون ANC بس أرخص. لو عايز open-ear + ANC، اختار C40i." },
                     { question: "الباس كويس في C30i؟", answer: "بصراحة: الباس ضعيف. الأذن المفتوحة مش بتقدر تعزز الترددات المنخفضة زي السماعات الداخلية المحكمة. الميد والأصوات ممتازة للبودكاست. لو الباس مهم: اشتري P30i أو P40i (داخلية محكمة)." },
                     { question: "الصوت بيتسرب للناس الجنب؟", answer: "أيوه — على 60%+ صوت، الناس الجالسة على بعد متر بتسمع. خلي الصوت على 40-50% في المكاتب الهادية. على صوت سماع عادي في الخارج، التسريب بيكون قليل." },

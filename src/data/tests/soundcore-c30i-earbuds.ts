@@ -30,12 +30,12 @@ export const soundcore_c30i_earbuds_lab: ProductLabData = {
     ],
     voiceFaqAr: [
         { question: 'C30i مفتوحة يعني إيه؟', answer: 'مش بتدخل جوه الودان. بتتعلق على غضروف الأذن الخارجية. بتسمع الموسيقى وبيئتك مع بعض. مفيش ANC. مثالية للجري والمكتب واللي مش بيحبوا السماعات الداخلية.' },
-        { question: 'ليه مفيهاش ANC؟', answer: 'لأن التصميم مفتوح — الودان مش مسدودة. ده بالعكس ميزة للجري في الشوارع (بتسمع العربيات) والمكتب (بتسمع الزملاء). لو عايز ANC: P30i (1,200) أو P40i (1,522).' },
+        { question: 'ليه مفيهاش ANC؟', answer: 'لأن التصميم مفتوح — الودان مش مسدودة. ده بالعكس ميزة للجري في الشوارع (بتسمع العربيات) والمكتب (بتسمع الزملاء). لو عايز ANC: P30i (1,200) أو P40i (2,052).' },
         { question: 'الباس ضعيف؟', answer: 'أيوه — متوقع في أي سماعة open-ear. بدون سيل في الودان، الباس مش بيتعزز. الميد والأصوات ممتازة. لو الباس أولوية: اشتري P30i أو P40i بدل C30i.' },
     ],
     voiceFaqEn: [
         { question: 'What does C30i open-ear mean?', answer: 'Doesn\'t go inside the ear canal. Clips onto outer ear cartilage. Hear music and environment simultaneously. No ANC. Ideal for running, office, and people who dislike in-ear buds.' },
-        { question: 'Why no ANC?', answer: 'Open design — ears aren\'t sealed. This is actually a feature for street running (hear traffic) and office (hear colleagues). For ANC: P30i (1,200) or P40i (1,522).' },
+        { question: 'Why no ANC?', answer: 'Open design — ears aren\'t sealed. This is actually a feature for street running (hear traffic) and office (hear colleagues). For ANC: P30i (1,200) or P40i (2,052).' },
         { question: 'Is the bass weak?', answer: 'Yes — expected from any open-ear bud. Without ear canal seal, bass isn\'t reinforced. Mids and vocals are excellent. If bass is priority: get P30i or P40i instead.' },
     ],
     isAccessoryFor: [
