@@ -6,8 +6,8 @@ export const soundcore_p41i_earbuds_detail: ProductDetail = {
         ar: ['درايفر 11mm composite BassUp — صوت bass-heavy، ممتاز للبوب العربي والـ EDM', 'ANC تكيّفي (3 أوضاع: داخلي/خارجي/مواصلات + 5 مستويات) — مش الأقوى بس فعّال', '12 ساعة سماعة / 192 إجمالي — علبة 3,000mAh بتتحول لباور بانك للموبايل (10W USB-C)', 'BT 5.3 مع multipoint — 6 مايكات AI. العلبة = باور بانك + ستاند + كابل USB-C مدمج', 'كايرو فولت: ضمان 18 شهر. 2,439 جنيه. أحسن رفيق سفر TWS.'],
     },
     localContext: {
-        en: 'P41i is designed for travelers and long-commute workers. The 192h total battery with 3,000mAh powerbank case means you charge your earbuds AND your phone from the same case. The built-in USB-C cable eliminates the "forgot my cable" problem. At 2,439 EGP, it sits between P40i (1,522, better pure audio) and Liberty 4 NC (2,999, better ANC). Choose P41i if battery and travel utility are your #1 priorities.',
-        ar: 'P41i مصممة للمسافرين وأصحاب المواصلات الطويلة. الـ 192 ساعة بطارية إجمالي مع علبة باور بانك 3,000mAh يعني بتشحن السماعات والموبايل من نفس العلبة. كابل USB-C المدمج بيلغي مشكلة "نسيت الكابل". بـ 2,439 جنيه، بين P40i (1,522، صوت أفضل) وLiberty 4 NC (2,999، ANC أقوى). اختار P41i لو البطارية والسفر أولوية #1.',
+        en: 'P41i is designed for travelers and long-commute workers. The 192h total battery with 3,000mAh powerbank case means you charge your earbuds AND your phone from the same case. The built-in USB-C cable eliminates the "forgot my cable" problem. At 2,439 EGP, it sits between P40i (1,522, better pure audio) and Liberty 4 NC (2,499, better ANC). Choose P41i if battery and travel utility are your #1 priorities.',
+        ar: 'P41i مصممة للمسافرين وأصحاب المواصلات الطويلة. الـ 192 ساعة بطارية إجمالي مع علبة باور بانك 3,000mAh يعني بتشحن السماعات والموبايل من نفس العلبة. كابل USB-C المدمج بيلغي مشكلة "نسيت الكابل". بـ 2,439 جنيه، بين P40i (1,522، صوت أفضل) وLiberty 4 NC (2,499، ANC أقوى). اختار P41i لو البطارية والسفر أولوية #1.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless (TWS) In-Ear', ar: 'لاسلكية حقيقية TWS داخل الأذن' },

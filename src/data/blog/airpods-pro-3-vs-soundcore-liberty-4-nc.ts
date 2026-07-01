@@ -25,11 +25,11 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
         ar: {
             title: 'AirPods Pro 3 ضد Soundcore Liberty 4 NC — مقارنة صادمة بالأرقام والاختبارات الفعلية',
             metaTitle: 'AirPods Pro 3 ضد Liberty 4 NC مقارنة بالأرقام | كايرو فولت',
-            metaDescription: 'مقارنة هندسية تفصيلية بين AirPods Pro 3 وSoundcore Liberty 4 NC بالأرقام الفعلية. اختبار ANC والصوت والبطارية والمكالمات. اكتشف هل فرق 5 أضعاف السعر يستاهل ف...',
+            metaDescription: 'مقارنة هندسية تفصيلية بين AirPods Pro 3 وSoundcore Liberty 4 NC بالأرقام الفعلية. اختبار ANC والصوت والبطارية والمكالمات. اكتشف هل فرق 6 أضعاف السعر يستاهل ف...',
             keywords: 'ايربودز برو 3 ضد ساوند كور ليبرتي 4, AirPods Pro 3 vs Soundcore Liberty 4 NC, مقارنة سماعات بلوتوث مصر, أفضل سماعة ANC تحت 3000 جنيه, airpods pro 3 سعر مصر, soundcore liberty 4 nc مصر, سماعة عزل ضوضاء اقتصادية, مقارنة ANC ابل ساوند كور',
-            excerpt: 'مقارنة هندسية صادمة بالأرقام بين AirPods Pro 3 بـ 15,000 جنيه و Soundcore Liberty 4 NC بـ 2,800 جنيه. هل فرق 5 أضعاف السعر يترجم لـ 5 أضعاف الأداء؟',
+            excerpt: 'مقارنة هندسية صادمة بالأرقام بين AirPods Pro 3 بـ 15,000 جنيه و Soundcore Liberty 4 NC بـ 2,499 جنيه. هل فرق 6 أضعاف السعر يترجم لـ 6 أضعاف الأداء؟',
             quickAnswer: 'AirPods Pro 3 سماعة ممتازة لمستخدمي iPhone بفضل تكامل النظام وشريحة H3، لكن Soundcore Liberty 4 NC بتقدم 85% من أداء الـ ANC ونقاء الصوت بـ 18-20% فقط من السعر. لو ميزانيتك محدودة أو بتستخدم Android، الـ Liberty 4 NC هي الخيار الأذكى اقتصادياً في السوق المصري. لو عايز أقصى تكامل مع Apple وأحسن Spatial Audio، الـ AirPods Pro 3 تستاهل الفرق.',
-            content: `<p>صاحبي أحمد — مهندس شبكات في شركة اتصالات كبيرة — اشترى AirPods Pro 3 الأسبوع اللي فات بـ 15,000 جنيه. في نفس اليوم، زميله في المكتب اللي اسمه كريم اشترى Soundcore Liberty 4 NC بـ 2,800 جنيه. تاني يوم في الشغل، الاتنين لبسوا سماعاتهم في الميتنج اللي بيبقى فيه 20 واحد بيتكلموا فوق بعض والمكيّف صوته زي محرك طائرة. أحمد قفل ANC وابتسم. كريم قفل ANC وابتسم. المدير بيتكلم والاتنين فاهمين كل كلمة. أحمد بص لكريم وسأله: "إنت دفعت كام في سماعتك؟" كريم قاله: "2,800 جنيه." أحمد الوجه بتاعه اتغيّر لمدة ثانيتين... وبعدين ضحك وقال: "يعني أنا دفعت ثمن 5 سماعات زي بتاعتك." السؤال اللي كل واحد في المكتب سأله بعد كده — وهو نفس السؤال اللي وصّلك للمقال ده: هل فرق الـ 12,000 جنيه فعلاً بيترجم لفرق ملموس في الأداء؟ ولا إنت بتدفع ثمن الاسم والتفاحة؟</p>
+            content: `<p>صاحبي أحمد — مهندس شبكات في شركة اتصالات كبيرة — اشترى AirPods Pro 3 الأسبوع اللي فات بـ 15,000 جنيه. في نفس اليوم، زميله في المكتب اللي اسمه كريم اشترى Soundcore Liberty 4 NC بـ 2,499 جنيه. تاني يوم في الشغل، الاتنين لبسوا سماعاتهم في الميتنج اللي بيبقى فيه 20 واحد بيتكلموا فوق بعض والمكيّف صوته زي محرك طائرة. أحمد قفل ANC وابتسم. كريم قفل ANC وابتسم. المدير بيتكلم والاتنين فاهمين كل كلمة. أحمد بص لكريم وسأله: "إنت دفعت كام في سماعتك؟" كريم قاله: "2,499 جنيه." أحمد الوجه بتاعه اتغيّر لمدة ثانيتين... وبعدين ضحك وقال: "يعني أنا دفعت ثمن 6 سماعات زي بتاعتك." السؤال اللي كل واحد في المكتب سأله بعد كده — وهو نفس السؤال اللي وصّلك للمقال ده: هل فرق الـ 12,500 جنيه فعلاً بيترجم لفرق ملموس في الأداء؟ ولا إنت بتدفع ثمن الاسم والتفاحة؟</p>
 
 <p>المقال ده مش مقارنة عادية من نوع "ده أحسن من ده". كأستاذ هندسة إلكترونيات واتصالات في جامعة القاهرة، هنعمل تشريح هندسي حقيقي: هنقارن الشرائح الداخلية (Apple H3 ضد معالج Soundcore المخصص)، وهنقيس أداء إلغاء الضوضاء الفعّال ANC بمقياس ديسيبل (dB)، وهنختبر نقاء الصوت عبر frequency response، وهنقارن البطارية والمكالمات وجودة البناء. والنتيجة — بالأرقام — هتفاجئك.</p>
 
@@ -182,7 +182,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">~15,000 ج.م</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>~2,800 ج.م ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>~2,499 ج.م ✅</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">5.4×</td>
         </tr>
         <tr>
@@ -218,7 +218,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
     </tbody>
 </table>
 
-<p>المعادلة واضحة: Soundcore Liberty 4 NC بتقدم <strong>83-86% من أداء</strong> AirPods Pro 3 في أهم المعايير (ANC + مكالمات)، وبتتفوق فعلياً في البطارية والـ Codec والتخصيص — <strong>بـ 19% فقط من السعر</strong>. يعني كأنك بتشتري عربية كورولا بتوصّلك لنفس المكان بسرعة 95% من سرعة BMW، لكن بربع ثمنها وبتستهلك بنزين أقل. هل الـ BMW أحسن؟ أيوا. هل الفرق يستاهل 5 أضعاف السعر؟ ده يعتمد على ميزانيتك وأولوياتك.</p>
+<p>المعادلة واضحة: Soundcore Liberty 4 NC بتقدم <strong>83-86% من أداء</strong> AirPods Pro 3 في أهم المعايير (ANC + مكالمات)، وبتتفوق فعلياً في البطارية والـ Codec والتخصيص — <strong>بـ 19% فقط من السعر</strong>. يعني كأنك بتشتري عربية كورولا بتوصّلك لنفس المكان بسرعة 95% من سرعة BMW، لكن بربع ثمنها وبتستهلك بنزين أقل. هل الـ BMW أحسن؟ أيوا. هل الفرق يستاهل 6 أضعاف السعر؟ ده يعتمد على ميزانيتك وأولوياتك.</p>
 
 <h2>إمتى تختار AirPods Pro 3 وإمتى تختار Liberty 4 NC؟</h2>
 
@@ -282,9 +282,9 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
             metaTitle: 'AirPods Pro 3 vs Liberty 4 NC Real Comparison | CairoVolt',
             metaDescription: 'Detailed engineering comparison between AirPods Pro 3 and Soundcore Liberty 4 NC with real test results. ANC, sound quality, battery, and call tests. Is the ...',
             keywords: 'AirPods Pro 3 vs Soundcore Liberty 4 NC, best ANC earbuds under 3000 EGP, AirPods Pro 3 price Egypt, soundcore liberty 4 nc Egypt, budget ANC earbuds comparison, apple vs soundcore earbuds, best noise cancelling earbuds Egypt, ANC comparison AirPods Soundcore',
-            excerpt: 'A shocking engineering comparison with real numbers between AirPods Pro 3 at 15,000 EGP and Soundcore Liberty 4 NC at 2,800 EGP. Does the 5x price difference translate to 5x better performance?',
+            excerpt: 'A shocking engineering comparison with real numbers between AirPods Pro 3 at 15,000 EGP and Soundcore Liberty 4 NC at 2,499 EGP. Does the 6x price difference translate to 6x better performance?',
             quickAnswer: 'AirPods Pro 3 are excellent for iPhone users thanks to ecosystem integration and the H3 chip, but Soundcore Liberty 4 NC delivers 85% of the ANC and sound quality at only 18-20% of the price. If your budget is limited or you use Android, the Liberty 4 NC is the smartest economic choice in the Egyptian market. If you want maximum Apple integration and the best Spatial Audio, the AirPods Pro 3 are worth the premium.',
-            content: `<p>My friend Ahmed — a network engineer at a major telecom company — bought AirPods Pro 3 last week for 15,000 EGP. That same day, his office colleague Karim bought Soundcore Liberty 4 NC for 2,800 EGP. The next morning at work, both wore their earbuds during a meeting where 20 people talk over each other and the air conditioning sounds like a jet engine. Ahmed activated ANC and smiled. Karim activated ANC and smiled. The manager was talking, and both heard every word clearly. Ahmed looked at Karim and asked: "How much did you pay for yours?" Karim answered: "2,800 EGP." Ahmed's face shifted for exactly two seconds... then he laughed and said: "So I paid for 5 of your earbuds." The question everyone in the office asked after that — the same question that brought you to this article — is: does the 12,000 EGP difference actually translate into a tangible performance gap? Or are you paying for the name and the Apple logo?</p>
+            content: `<p>My friend Ahmed — a network engineer at a major telecom company — bought AirPods Pro 3 last week for 15,000 EGP. That same day, his office colleague Karim bought Soundcore Liberty 4 NC for 2,499 EGP. The next morning at work, both wore their earbuds during a meeting where 20 people talk over each other and the air conditioning sounds like a jet engine. Ahmed activated ANC and smiled. Karim activated ANC and smiled. The manager was talking, and both heard every word clearly. Ahmed looked at Karim and asked: "How much did you pay for yours?" Karim answered: "2,499 EGP." Ahmed's face shifted for exactly two seconds... then he laughed and said: "So I paid for 6 of your earbuds." The question everyone in the office asked after that — the same question that brought you to this article — is: does the 12,500 EGP difference actually translate into a tangible performance gap? Or are you paying for the name and the Apple logo?</p>
 
 <p>This article is not your typical "this one is better" comparison. As a professor of electronics and telecommunications engineering at Cairo University, we are conducting a real engineering dissection: comparing the internal chipsets (Apple H3 vs Soundcore's custom DSP), measuring ANC performance in decibels (dB), testing sound purity through frequency response, and comparing battery life, call quality, and build quality. The results — backed by numbers — will surprise you.</p>
 
@@ -437,7 +437,7 @@ export const airpods_pro_3_vs_soundcore_liberty_4_nc: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">~15,000 EGP</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>~2,800 EGP ✅</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>~2,499 EGP ✅</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">5.4×</td>
         </tr>
         <tr>

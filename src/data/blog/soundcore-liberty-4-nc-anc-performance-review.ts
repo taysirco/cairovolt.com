@@ -33,12 +33,12 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
             metaDescription: 'مراجعة سماعة Soundcore Liberty 4 NC وعزل الضوضاء ANC الفعلي حتى 46 ديسيبل، وأداء خوارزميات الصوت، والبطارية الفائقة، والضمان المعتمد والسعر في مصر.',
             keywords: 'soundcore liberty 4 nc مراجعة, soundcore liberty 4 nc مصر, liberty 4 nc سعر مصر, liberty 4 nc anc, soundcore liberty 4 nc bose مقارنة, liberty 4 nc ldac, liberty 4 nc مكالمات, soundcore liberty 4 nc اختبار, افضل سماعة anc مصر, liberty 4 nc جودة صوت',
             excerpt: 'Liberty 4 NC تدعي إلغاء 98.5% من الضوضاء الخارجية. اختبرنا قوة العزل النشط ANC في شوارع القاهرة ومحطات المترو المزدحمة لمعرفة الحقيقة الكاملة.',
-            quickAnswer: 'تعد سماعة Soundcore Liberty 4 NC الخيار الأفضل لعزل الضوضاء (ANC) في فئتها السعرية بمصر (بين 3,500 و4,500 جنيه). تتميز بعزل متكيف ذكي، وصوت Hi-Res مع ترميز LDAC، وميزة الاتصال متعدد الأجهزة Multipoint، مع بطارية استثنائية تدوم لـ 10 ساعات متواصلة (أو 50 ساعة مع العلبة).',
+            quickAnswer: 'تعد سماعة Soundcore Liberty 4 NC الخيار الأفضل لعزل الضوضاء (ANC) في فئتها السعرية بمصر (حوالي 2,499 جنيه). تتميز بعزل متكيف ذكي، وصوت Hi-Res مع ترميز LDAC، وميزة الاتصال متعدد الأجهزة Multipoint، مع بطارية استثنائية تدوم لـ 10 ساعات متواصلة (أو 50 ساعة مع العلبة).',
             content: `<p>حققت سماعة Soundcore Liberty 4 NC شهرة واسعة في السوق المصري بصفة خاصة والأسواق العالمية بصفة عامة، بفضل وعودها الكبيرة بتقديم تجربة إلغاء ضوضاء نشط (ANC) تضاهي أداء سماعات الفئة الرائدة وبكسر بسيط من سعرها. ومع تزايد التضخم وتغيرات الأسعار المستمرة في مصر، يبحث المستهلك عن سماعة تقدم أفضل قيمة حقيقية مقابل المال دون التضحية بالتقنيات الحديثة. في هذه المراجعة العميقة والصادقة من معمل كايرو فولت، سنضع سماعة Liberty 4 NC تحت الاختبار الفعلي في أكثر الأماكن صخباً بمصر لنكشف لك عن حقيقة قوتها الفنية.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>الحكم النهائي لـ Soundcore Liberty 4 NC:</strong> تقدم السماعة أداء عزل ضوضاء خارق لا يمكن منافسته في فئتها السعرية الممتدة بين <strong>3,500 إلى 4,500 جنيه مصري</strong>. بفضل تقنية ANC 2.0 المتكيفة وترميز LDAC، توفر تجربة استماع معزولة تماماً وعمر بطارية فعلي يتجاوز 9 ساعات ونصف مع تشغيل العزل، مما يجعلها الصفقة الأذكى في السوق الحالي.
+        <strong>الحكم النهائي لـ Soundcore Liberty 4 NC:</strong> تقدم السماعة أداء عزل ضوضاء خارق لا يمكن منافسته في فئتها السعرية حول <strong>2,499 جنيه مصري</strong>. بفضل تقنية ANC 2.0 المتكيفة وترميز LDAC، توفر تجربة استماع معزولة تماماً وعمر بطارية فعلي يتجاوز 9 ساعات ونصف مع تشغيل العزل، مما يجعلها الصفقة الأذكى في السوق الحالي.
     </p>
 </div>
 
@@ -139,7 +139,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">متوسط السعر في مصر</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">3,500 - 4,500 جنيه</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">2,499 جنيه</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">12,000 - 15,000 جنيه</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">10,000 - 12,000 جنيه</td>
         </tr>
@@ -194,7 +194,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
                 },
                 {
                     question: 'ما هو متوسط سعر سماعة Soundcore Liberty 4 NC في مصر حالياً؟',
-                    answer: 'يتراوح سعر السماعة في السوق المصري حالياً بين 3,500 إلى 4,500 جنيه مصري حسب الموزع والضمان المحلي المرفق.'
+                    answer: 'يبلغ سعر السماعة في السوق المصري حالياً حوالي 2,499 جنيه مصري حسب الموزع والضمان المحلي المرفق.'
                 },
                 {
                     question: 'كيف يمكنني تفعيل ترميز LDAC وما هي فوائده؟',
@@ -212,12 +212,12 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
             metaDescription: 'Soundcore Liberty 4 NC review. Read about the smart adaptive ANC 2.0 system, real 50-hour battery, LDAC codec, call clarity, and local warranty in Egypt.',
             keywords: 'soundcore liberty 4 nc review, soundcore liberty 4 nc egypt, liberty 4 nc price egypt, liberty 4 nc vs bose, liberty 4 nc specifications, best anc earbuds egypt, liberty 4 nc battery, soundcore liberty 4 nc calls, soundcore liberty 4 nc ldac, liberty 4 nc soundcore app',
             excerpt: 'The Soundcore Liberty 4 NC claims an impressive 98.5% noise reduction. We put its Active Noise Cancellation system to a real-world test in Cairo to verify its true performance.',
-            quickAnswer: 'The Soundcore Liberty 4 NC is the ultimate ANC king in the EGP 3,500 - 4,500 price bracket in Egypt. It features smart adaptive noise cancellation, Hi-Res audio with LDAC, Multipoint dual-connection, and an outstanding battery lasting up to 10 hours on a single charge (50 hours total with case).',
+            quickAnswer: 'The Soundcore Liberty 4 NC is the ultimate ANC king in the ~EGP 2,499 price bracket in Egypt. It features smart adaptive noise cancellation, Hi-Res audio with LDAC, Multipoint dual-connection, and an outstanding battery lasting up to 10 hours on a single charge (50 hours total with case).',
             content: `<p>The Soundcore Liberty 4 NC has generated immense praise in both local and international markets, primarily driven by Anker's bold claim that it delivers Active Noise Cancellation (ANC) comparable to elite flagship earbuds at a fraction of their retail price. In Egypt's current economic climate, finding high-quality audio equipment that offers legitimate utility without breaking the bank is a priority. In this exhaustive, engineering-focused review by CairoVolt, we put the Liberty 4 NC through real-world testing in Egypt's loudest settings to uncover the technical truth about its performance.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>The Ultimate Verdict:</strong> The Soundcore Liberty 4 NC represents an unmatched noise-cancelling value in the Egyptian market, priced between <strong>3,500 and 4,500 EGP</strong>. Equipped with Adaptive ANC 2.0 and Hi-Res LDAC support, it provides a deeply isolated listening environment and a massive 9.5-hour real battery life with ANC on, making it the smartest purchase in its class.
+        <strong>The Ultimate Verdict:</strong> The Soundcore Liberty 4 NC represents an unmatched noise-cancelling value in the Egyptian market, priced at around <strong>2,499 EGP</strong>. Equipped with Adaptive ANC 2.0 and Hi-Res LDAC support, it provides a deeply isolated listening environment and a massive 9.5-hour real battery life with ANC on, making it the smartest purchase in its class.
     </p>
 </div>
 
@@ -313,7 +313,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
     <tbody>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Average Price in Egypt</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">3,500 - 4,500 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;font-weight:bold;">2,499 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">12,000 - 15,000 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#dc2626;">10,000 - 12,000 EGP</td>
         </tr>
@@ -369,7 +369,7 @@ export const soundcore_liberty_4_nc_anc_performance_review: BlogArticle = {
                 },
                 {
                     question: 'What is the average retail price of the Soundcore Liberty 4 NC in Egypt?',
-                    answer: 'The current retail price for the Liberty 4 NC in Egypt ranges between EGP 3,500 and EGP 4,500, depending on the distributor and local warranty terms.'
+                    answer: 'The current retail price for the Liberty 4 NC in Egypt is around EGP 2,499, depending on the distributor and local warranty terms.'
                 },
                 {
                     question: 'How do I activate the LDAC codec and what are its benefits?',

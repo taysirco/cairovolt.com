@@ -33,7 +33,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
             metaDescription: 'مقارنة شاملة لموديلات Soundcore Liberty بمصر: Liberty Buds و Air 2 Pro و Liberty 4 NC و Liberty 4 Pro. جدول الأسعار والمواصفات ودليل الاختيار.',
             keywords: 'soundcore liberty مقارنة, liberty buds vs liberty 4 nc, soundcore liberty air 2 pro سعر مصر, liberty 4 pro مصر, مقارنة سماعات soundcore مصر, أحسن سماعة soundcore liberty, liberty 4 nc vs liberty 4 pro, soundcore liberty سلسلة كاملة',
             excerpt: 'عندك ميزانية ومش عارف أي موديل Liberty يناسبك؟ مقارنة كاملة للأربع موديلات من Liberty Buds الاقتصادي لـ Liberty 4 Pro الفلاجشيب — بالأسعار المصرية وتوصيات واضحة لكل فئة.',
-            quickAnswer: 'تعد سماعة Liberty 4 NC الخيار الأمثل لمعظم المشترين في مصر بسعر يتراوح بين 2,800 إلى 3,500 جنيه مصري بفضل عزل الضوضاء القوي (-43 ديسيبل) وبطارية 50 ساعة ودعم LDAC. للطلاب وأصحاب الميزانيات المحدودة، تقدم Liberty Buds خياراً اقتصادياً جيداً بحدود 1,000 إلى 1,500 جنيه. أما Liberty 4 Pro فهي الفلاجشيب لعشاق النقاء الصوتي بسعر يتراوح بين 4,500 إلى 6,500 جنيه.',
+            quickAnswer: 'تعد سماعة Liberty 4 NC الخيار الأمثل لمعظم المشترين في مصر بسعر يقارب 2,499 جنيه مصري بفضل عزل الضوضاء القوي (-43 ديسيبل) وبطارية 50 ساعة ودعم LDAC. للطلاب وأصحاب الميزانيات المحدودة، تقدم Liberty Buds خياراً اقتصادياً جيداً بحدود 1,000 إلى 1,500 جنيه. أما Liberty 4 Pro فهي الفلاجشيب لعشاق النقاء الصوتي بسعر يتراوح بين 4,500 إلى 6,500 جنيه.',
             content: `<p>سلسلة سماعات الأذن اللاسلكية Liberty من Soundcore هي الأكثر مبيعاً وشهرة في السوق المصري بفضل تقديمها مواصفات فائقة مقابل السعر. ولكن مع تعدد الإصدارات واختلاف مسمياتها وأسعارها في مصر حالياً، يقع الكثير من المستخدمين في حيرة بالغة حول الموديل الأنسب لميزانيتهم واحتياجاتهم اليومية. في هذا الدليل التفصيلي، نقارن بين أربعة موديلات رئيسية متوفرة في مصر: سماعة Liberty Buds الاقتصادية، والنسخة الكلاسيكية Liberty Air 2 Pro، ومحبوبة الجماهير Liberty 4 NC، وصولاً للفلاجشيب Liberty 4 Pro.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -60,7 +60,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
             <td style="padding:11px 10px;border:1px solid #d1d5db;font-weight:bold;">متوسط السعر بمصر</td>
             <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;color:#059669;font-weight:bold;">1,000 - 1,500 ج.م</td>
             <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;">2,000 - 2,500 ج.م</td>
-            <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;background:#fef9c3;font-weight:bold;">2,800 - 3,500 ج.م</td>
+            <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;background:#fef9c3;font-weight:bold;">2,499 ج.م</td>
             <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;color:#9333ea;font-weight:bold;">4,500 - 6,500 ج.م</td>
         </tr>
         <tr style="background:#f9fafb;">
@@ -120,7 +120,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
 </div>
 
 <h2>3. Liberty 4 NC — بطلة القيمة وعزل الضوضاء الفائق</h2>
-<p>تستحق سماعة Liberty 4 NC بامتياز لقب "بطلة القيمة مقابل السعر" في مصر؛ حيث تتوفر بمتوسط سعر يتراوح بين 2,800 إلى 3,500 جنيه مصري وتوفر حزمة مواصفات لا تقارن. تقدم السماعة أقوى نظام عزل ضوضاء نشط في فئتها بقوة -43 ديسيبل، وهو كفيل بكتم ضجيج المواصلات والشارع المزدحم في مصر بنسبة كبيرة. وتدعم السماعة ترميز LDAC لبث صوت عالي النقاء والدقة Hi-Res، وتتمتع ببطارية عملاقة تمنحك 10 ساعات استخدام للسماعة وبطارية إجمالية تصل إلى 50 ساعة مع العلبة، مع حماية كاملة ضد رذاذ الماء بمعيار IPX4.</p>
+<p>تستحق سماعة Liberty 4 NC بامتياز لقب "بطلة القيمة مقابل السعر" في مصر؛ حيث تتوفر بمتوسط سعر يقارب 2,499 جنيه مصري وتوفر حزمة مواصفات لا تقارن. تقدم السماعة أقوى نظام عزل ضوضاء نشط في فئتها بقوة -43 ديسيبل، وهو كفيل بكتم ضجيج المواصلات والشارع المزدحم في مصر بنسبة كبيرة. وتدعم السماعة ترميز LDAC لبث صوت عالي النقاء والدقة Hi-Res، وتتمتع ببطارية عملاقة تمنحك 10 ساعات استخدام للسماعة وبطارية إجمالية تصل إلى 50 ساعة مع العلبة، مع حماية كاملة ضد رذاذ الماء بمعيار IPX4.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;">
     <thead>
@@ -218,7 +218,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
             metaDescription: 'Complete comparison of Soundcore Liberty models in Egypt: Liberty Buds, Air 2 Pro, Liberty 4 NC, and Liberty 4 Pro. Prices, specs, and buying guide.',
             keywords: 'soundcore liberty comparison egypt, liberty buds vs liberty 4 nc, soundcore liberty air 2 pro price egypt, liberty 4 pro egypt, best soundcore earbuds egypt, liberty 4 nc vs liberty 4 pro, soundcore liberty series guide, soundcore liberty lineup',
             excerpt: 'Not sure which Liberty model to buy? We break down the entire Soundcore Liberty lineup available in Egypt — Liberty Buds, Air 2 Pro, Liberty 4 NC, and Liberty 4 Pro — with real EGP prices, honest assessments, and clear recommendations for every budget.',
-            quickAnswer: 'The Soundcore Liberty 4 NC is the best overall choice for most buyers in Egypt, priced between EGP 2,800 and 3,500, offering excellent -43dB ANC, LDAC support, and 50-hour total battery life. Liberty Buds serves as the budget option under EGP 1,500, while the Liberty 4 Pro represents the premium flagship for audio enthusiasts at EGP 4,500 to 6,500.',
+            quickAnswer: 'The Soundcore Liberty 4 NC is the best overall choice for most buyers in Egypt, priced at around EGP 2,499, offering excellent -43dB ANC, LDAC support, and 50-hour total battery life. Liberty Buds serves as the budget option under EGP 1,500, while the Liberty 4 Pro represents the premium flagship for audio enthusiasts at EGP 4,500 to 6,500.',
             content: `<p>The Soundcore Liberty series stands as the most popular wireless earbud lineup in the Egyptian market, celebrated for delivering premium specifications at competitive price points. However, with multiple generations and varying models retailing between EGP 1,000 and EGP 6,500, deciding on the right pair can be challenging. In this comprehensive comparison from CairoVolt, we analyze four major models: the budget-friendly Liberty Buds, the classic Liberty Air 2 Pro, the highly popular Liberty 4 NC, and the absolute flagship Liberty 4 Pro.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
@@ -245,7 +245,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
             <td style="padding:11px 10px;border:1px solid #d1d5db;font-weight:bold;">Average Price (Egypt)</td>
             <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;color:#059669;font-weight:bold;">1,000 - 1,500 EGP</td>
             <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;">2,000 - 2,500 EGP</td>
-            <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;background:#fef9c3;font-weight:bold;">2,800 - 3,500 EGP</td>
+            <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;background:#fef9c3;font-weight:bold;">2,499 EGP</td>
             <td style="padding:11px 10px;border:1px solid #d1d5db;text-align:center;color:#9333ea;font-weight:bold;">4,500 - 6,500 EGP</td>
         </tr>
         <tr style="background:#f9fafb;">
@@ -286,7 +286,7 @@ export const soundcore_liberty_buds_complete_lineup_comparison: BlogArticle = {
 <p>The Liberty Air 2 Pro features Anker\'s classic stem design, providing tactile controls and comfortable fit. Retailing between 2,000 and 2,500 EGP, it includes decent -35dB active noise cancellation and a transparent listening mode. While it produces punchy, customizable sound, it lacks the newer LDAC protocol, which limits its appeal compared to newer generations.</p>
 
 <h2>3. Liberty 4 NC — The Ultimate Value King</h2>
-<p>Representing the sweet spot for the majority of Egyptian buyers, the Liberty 4 NC retails between 2,800 and 3,500 EGP. It offers exceptional active noise cancellation up to -43dB, which significantly reduces Cairo\'s street noise. Combined with a massive 50-hour total battery life, LDAC hi-res playback, and customized EQ profiles, it is hard to find better value in the mid-range segment.</p>
+<p>Representing the sweet spot for the majority of Egyptian buyers, the Liberty 4 NC retails at around 2,499 EGP. It offers exceptional active noise cancellation up to -43dB, which significantly reduces Cairo\'s street noise. Combined with a massive 50-hour total battery life, LDAC hi-res playback, and customized EQ profiles, it is hard to find better value in the mid-range segment.</p>
 
 <h2>4. Liberty 4 Pro — The Premium Flagship for Audiophiles</h2>
 <p>For users who demand top-tier acoustic detail, the Liberty 4 Pro is the flagship model, priced between 4,500 and 6,500 EGP. Its dual-driver ACAA3 setup combines dynamic and planar drivers to separate frequencies with extreme clarity. It features an adaptive ANC system that adjusts to your surroundings automatically, a smart charging case with a built-in status display, and premium ergonomics.</p>

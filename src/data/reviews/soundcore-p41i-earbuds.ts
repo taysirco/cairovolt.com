@@ -8,7 +8,7 @@ export const soundcore_p41i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'Dina Mahmoud', rating: 5, location: 'الشيخ زايد', datePublished: '2026-04-12',
-            reviewBody: { en: 'Honest: the sound is VERY bass-heavy. BassUp makes Amr Diab sound incredible but podcasts are muddy. I wish there was an LDAC option — at 2,439 EGP, Liberty 4 NC (2,999) has LDAC and better ANC for just 560 more. But no Liberty has a powerbank case. The phone stand is perfect for my desk.', ar: 'بصراحة: الصوت bass-heavy جداً. BassUp بيخلي عمرو دياب صوته خيالي بس البودكاست مش واضح. يا ريت كان فيها LDAC — بـ 2,439 جنيه، Liberty 4 NC (2,999) فيها LDAC وANC أحسن بفرق 560 بس. بس مفيش Liberty فيها علبة باور بانك. ستاند الموبايل مثالي لمكتبي.' },
+            reviewBody: { en: 'Honest: the sound is VERY bass-heavy. BassUp makes Amr Diab sound incredible but podcasts are muddy. I wish there was an LDAC option — at 2,439 EGP, Liberty 4 NC (2,499) has LDAC and better ANC for just 60 more. But no Liberty has a powerbank case. The phone stand is perfect for my desk.', ar: 'بصراحة: الصوت bass-heavy جداً. BassUp بيخلي عمرو دياب صوته خيالي بس البودكاست مش واضح. يا ريت كان فيها LDAC — بـ 2,439 جنيه، Liberty 4 NC (2,499) فيها LDAC وANC أحسن بفرق 60 بس. بس مفيش Liberty فيها علبة باور بانك. ستاند الموبايل مثالي لمكتبي.' },
             pros: { en: ['Powerbank case unique feature', 'BassUp great for music', 'Phone stand for desk'], ar: ['علبة باور بانك ميزة فريدة', 'BassUp ممتاز للموسيقى', 'ستاند الموبايل للمكتب'] },
             cons: { en: ['Very bass-heavy — muddy podcasts', 'No LDAC codec'], ar: ['bass-heavy جداً — بودكاست مش واضح', 'مفيش كودك LDAC'] }
         },
