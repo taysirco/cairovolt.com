@@ -282,9 +282,14 @@ export const config = {
     // IMPORTANT: .well-known paths must reach middleware for the rewrite bypass,
     // even though they contain a dot. We use two patterns:
     // 1. /.well-known/* — always included
-    // 2. Everything else except paths with dots, _next, __firebase
+    // 2. Everything else except paths with dots, _next, __firebase, api/img
+    // 💰 api/img مستثنى: مرور صور /api/img عبر الـ middleware كان يجعل مهايئ
+    //    App Hosting يعيد كتابة Cache-Control إلى private → كل صورة لكل زائر
+    //    تُحاسَب كطلب Cloud Run + وقت 2vCPU (مؤكد حياً: cf-cache-status: DYNAMIC).
+    //    باستثنائها يصل Cache-Control «public, immutable» الذي يرسله الـ route
+    //    فعلاً إلى CDN كلاودفلير/جوجل فتُخدم الصور من الحافة مجاناً.
     matcher: [
         '/.well-known/:path*',
-        '/((?!_next|__firebase|.*\\..*).*)',
+        '/((?!_next|__firebase|api/img|.*\\..*).*)',
     ]
 };
