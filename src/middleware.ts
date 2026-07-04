@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 import { checkRateLimit } from './lib/rate-limit';
+import { BLOG_SCHEDULE } from './data/blog-schedule.generated';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -230,6 +231,27 @@ export default function middleware(request: NextRequest) {
                 'Cache-Control': 'public, max-age=300',
             },
         });
+    }
+
+    // 4. Blog scheduling gate — emit a REAL 404 for an unknown OR not-yet-
+    // published article slug (/blog/<slug> only; the /blog listing and deeper
+    // paths are untouched). Evaluated per-request against a lightweight
+    // slug→publishDate map, so no ISR/CDN cache can freeze the time gate: a
+    // scheduled post 404s until its publishDate and serves automatically once it
+    // passes. 0 in the map = always-live (mirrors isIndexEntryLive's fallback).
+    const blogArticle = pathname.match(/^(?:\/(?:en|ar))?\/blog\/([^/]+)\/?$/);
+    if (blogArticle) {
+        const ts = BLOG_SCHEDULE[blogArticle[1]];
+        if (ts === undefined || ts > Date.now()) {
+            return new NextResponse(NOT_FOUND_HTML, {
+                status: 404,
+                headers: {
+                    'Content-Type': 'text/html; charset=utf-8',
+                    'X-Robots-Tag': 'noindex',
+                    'Cache-Control': 'public, max-age=60',
+                },
+            });
+        }
     }
 
     // ── X-Cache-Status + performance headers for all responses ──
