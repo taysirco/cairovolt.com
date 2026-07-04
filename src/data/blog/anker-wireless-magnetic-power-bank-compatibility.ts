@@ -157,7 +157,7 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">7.5W (MagSafe) / 15W (Qi2)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20W USB-C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>890ج ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>850ج ⭐</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;">انكر باور كور 10K عادي</td>
@@ -169,12 +169,12 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
     </tbody>
 </table>
 
-<p>الـ 890ج لجوي روم المغناطيسي مقابل 1,300ج للأنكر العادي اللي مالوش لاسلكي — ده معناه إن الميزة اللاسلكية بتيجي بسعر أرخص فعلياً. لو آيفون 12+ عندك والباور بانك العادي مش معاك دلوقتي — جوي روم المغناطيسي قرار سهل وسريع لراحتك اليومية.</p>
+<p>الـ 850ج لجوي روم المغناطيسي مقابل 1,300ج للأنكر العادي اللي مالوش لاسلكي — ده معناه إن الميزة اللاسلكية بتيجي بسعر أرخص فعلياً. لو آيفون 12+ عندك والباور بانك العادي مش معاك دلوقتي — جوي روم المغناطيسي قرار سهل وسريع لراحتك اليومية.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ جوي روم المغناطيسي 10,000mAh متاح على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">جوي روم Magnetic 10K — 890ج</a> بضمان 12 شهر. يجي مع خاتم مغناطيسي للأندرويد. أصلي 100% بكود تحقق. توصيل لكل المحافظات + دفع عند الاستلام.
+        <a href="/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">جوي روم Magnetic 10K — 850ج</a> بضمان 12 شهر. يجي مع خاتم مغناطيسي للأندرويد. أصلي 100% بكود تحقق. توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -325,7 +325,7 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">10,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">7.5W (MagSafe) / 15W (Qi2)</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20W USB-C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>890 EGP ⭐</strong></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>850 EGP ⭐</strong></td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Anker PowerCore 10K (standard)</td>
@@ -337,12 +337,12 @@ export const anker_wireless_magnetic_power_bank_compatibility: BlogArticle = {
     </tbody>
 </table>
 
-<p>The Joyroom Magnetic at 890 EGP versus the standard Anker without wireless at 1,300 EGP — the wireless feature actually comes at a lower price point here. If you have an iPhone 12 or later and do not already own a power bank, the Joyroom Magnetic is an easy decision to make for ultimate daily convenience.</p>
+<p>The Joyroom Magnetic at 850 EGP versus the standard Anker without wireless at 1,300 EGP — the wireless feature actually comes at a lower price point here. If you have an iPhone 12 or later and do not already own a power bank, the Joyroom Magnetic is an easy decision to make for ultimate daily convenience.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Joyroom Magnetic 10,000mAh Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">Joyroom Magnetic 10K — 890 EGP</a> with 12-month warranty. Includes magnetic ring for Android. 100% authentic with verification code. Delivery to all governorates + cash on delivery.
+        <a href="/en/joyroom/power-banks/joyroom-magnetic-power-bank-10000" style="color:#166534;font-weight:600;">Joyroom Magnetic 10K — 850 EGP</a> with 12-month warranty. Includes magnetic ring for Android. 100% authentic with verification code. Delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [

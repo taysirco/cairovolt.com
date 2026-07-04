@@ -123,7 +123,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">المادة المصنعة</td><td style="padding:10px 12px;border:1px solid #d1d5db;">ألومنيوم مات فاخر — نفس لغة تصميم Apple</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">ميزة خاصة</td><td style="padding:10px 12px;border:1px solid #d1d5db;">زاوية قابلة للتعديل لوضع StandBy في iOS</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الكابلات المطلوبة</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#059669;"><strong>كابل USB-C واحد بس</strong></td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الشاحن المطلوب</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W+ USB-C (مش في العلبة) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج) مثالي</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الشاحن المطلوب</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W+ USB-C (مش في العلبة) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (430ج) مثالي</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">نسبة الإرجاع</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#059669;"><strong>0.7% — من أقل النسب في المتجر</strong></td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">الضمان المحلي</td><td style="padding:10px 12px;border:1px solid #d1d5db;">18 شهر كايرو فولت — استبدال كامل</td></tr>
     </tbody>
@@ -150,7 +150,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
 
 <h2>4 نصائح لتحقيق أقصى استفادة من الشحن اللاسلكي</h2>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">⚡ <strong>استخدم شاحن 30W+ كمصدر طاقة:</strong> محطة الشحن اللاسلكي محتاجة شاحن حيطة قوي عشان تطلع 15W لـ iPhone + واط للساعة + واط للسماعة. شاحن 20W هيبطئ كل حاجة. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج) أو <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> (799ج) مثاليين.</li>
+    <li style="margin-bottom:16px;">⚡ <strong>استخدم شاحن 30W+ كمصدر طاقة:</strong> محطة الشحن اللاسلكي محتاجة شاحن حيطة قوي عشان تطلع 15W لـ iPhone + واط للساعة + واط للسماعة. شاحن 20W هيبطئ كل حاجة. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (430ج) أو <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a> (799ج) مثاليين.</li>
     <li style="margin-bottom:16px;">🛡️ <strong>شيل الجراب السميك:</strong> جرابات أكتر من 3mm بتقلل كفاءة الشحن اللاسلكي بنسبة 30-50%. الجرابات المتوافقة مع MagSafe (فيها مغناطيس) مفيهاش المشكلة دي. لو جرابك سميك ومش MagSafe — الشحن هيبقى بطيء ودافئ وربما يتوقف بالكامل.</li>
     <li style="margin-bottom:16px;">🌡️ <strong>مكان بارد = شحن أسرع:</strong> في صيف مصر، لو الكومودينو جنب شباك الشمس بتيجي منه — المحطة والموبايل هيسخنوا أكتر = الموبايل هيبطئ الشحن تلقائياً لحماية البطارية. حط المحطة في مكان مُظلل بعيد عن حرارة مباشرة.</li>
     <li style="margin-bottom:16px;">📱 <strong>وضع StandBy = ميزة خفية:</strong> لو iPhone أو أحدث — حط الموبايل أفقي على محطة MagSafe وهيفتح وضع StandBy تلقائياً: ساعة ذكية + منبّه + إشعارات. كده المحطة مش بس شاحن — هي كومودينو ذكي كامل للغرفة.</li>
@@ -163,7 +163,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ محطات شحن لاسلكية أصلية على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#166534;font-weight:600;">محطة جوي روم 3 في 1</a> بـ 1,206ج بدل 1,399ج — <strong>ضمان 18 شهر + استبدال كامل</strong>. توصيل لكل المحافظات + دفع عند الاستلام. ملاحظة: الشاحن الحيطة مش في العلبة — أضف <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> (499ج) للطلب للشحن بالسرعة الكاملة.
+        <a href="/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#166534;font-weight:600;">محطة جوي روم 3 في 1</a> بـ 1,206ج بدل 1,399ج — <strong>ضمان 18 شهر + استبدال كامل</strong>. توصيل لكل المحافظات + دفع عند الاستلام. ملاحظة: الشاحن الحيطة مش في العلبة — أضف <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> (430ج) للطلب للشحن بالسرعة الكاملة.
     </p>
 </div>
 
@@ -186,7 +186,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
                 },
                 {
                     question: 'ليه محتاج شاحن 30W منفصل مع المحطة — مش المحطة فيها شاحن؟',
-                    answer: 'المحطة فيها ملفات الشحن اللاسلكي بس — مش فيها محول طاقة. محتاجة مصدر طاقة خارجي عبر USB-C. شاحن 20W هيشحن الموبايل بـ 7-10W بدل 15W لإن الطاقة بتتوزع على 3 أجهزة. شاحن 30W+ بيضمن إن كل جهاز ياخد اللي محتاجه بالكامل. انكر GaN 30W (499ج) أقل شاحن نوصي بيه مع المحطة.'
+                    answer: 'المحطة فيها ملفات الشحن اللاسلكي بس — مش فيها محول طاقة. محتاجة مصدر طاقة خارجي عبر USB-C. شاحن 20W هيشحن الموبايل بـ 7-10W بدل 15W لإن الطاقة بتتوزع على 3 أجهزة. شاحن 30W+ بيضمن إن كل جهاز ياخد اللي محتاجه بالكامل. انكر GaN 30W (430ج) أقل شاحن نوصي بيه مع المحطة.'
                 },
                 {
                     question: 'هل فيه محطة شحن لاسلكي بتشحن iPhone و Galaxy Watch معاً؟',
@@ -290,7 +290,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Material</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Matte aluminum — matches Apple's design language</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Special Feature</td><td style="padding:10px 12px;border:1px solid #d1d5db;">Adjustable angle for iOS StandBy mode</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Cables Needed</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#059669;"><strong>One USB-C cable only</strong></td></tr>
-        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Power Adapter</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W+ USB-C (not included) — <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP) ideal</td></tr>
+        <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Power Adapter</td><td style="padding:10px 12px;border:1px solid #d1d5db;">30W+ USB-C (not included) — <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (430 EGP) ideal</td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Return Rate</td><td style="padding:10px 12px;border:1px solid #d1d5db;color:#059669;"><strong>0.7% — among our lowest</strong></td></tr>
         <tr><td style="padding:10px 12px;border:1px solid #d1d5db;font-weight:bold;">Warranty</td><td style="padding:10px 12px;border:1px solid #d1d5db;">18-month CairoVolt — full replacement</td></tr>
     </tbody>
@@ -317,7 +317,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
 
 <h2>4 Tips to Maximize Your Wireless Charging Experience</h2>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:16px;">⚡ <strong>Use a 30W+ charger as the power source:</strong> The wireless station needs a powerful wall charger to output 15W to iPhone + watts for watch + watts for earbuds. A 20W charger will slow everything down. <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP) or <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> (799 EGP) are ideal.</li>
+    <li style="margin-bottom:16px;">⚡ <strong>Use a 30W+ charger as the power source:</strong> The wireless station needs a powerful wall charger to output 15W to iPhone + watts for watch + watts for earbuds. A 20W charger will slow everything down. <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (430 EGP) or <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> (799 EGP) are ideal.</li>
     <li style="margin-bottom:16px;">🛡️ <strong>Remove thick cases:</strong> Cases thicker than 3mm reduce wireless charging efficiency by 30-50%. MagSafe-compatible cases (with built-in magnets) do not have this problem. If your case is thick and non-MagSafe — charging will be slow and warm.</li>
     <li style="margin-bottom:16px;">🌡️ <strong>Cool location = faster charging:</strong> During Egypt\'s summer, if your nightstand is next to a sunny window, the station and phone will heat up more = the phone will throttle charging to protect itself. Place the station in a shaded spot away from direct heat.</li>
     <li style="margin-bottom:16px;">📱 <strong>StandBy mode = hidden feature:</strong> With iPhone or newer, place the phone horizontally on the MagSafe station and StandBy mode activates automatically: smart clock + alarm + notifications. The station becomes not just a charger — but a complete smart nightstand.</li>
@@ -330,7 +330,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Authentic Wireless Charging Stations on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#166534;font-weight:600;">Joyroom 3-in-1 Station</a> at 1,206 EGP (down from 1,399 EGP) — <strong>18-month warranty + full replacement</strong>. Delivery to all governorates + cash on delivery. Note: wall adapter not included — add <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> (499 EGP) to your order for full-speed charging.
+        <a href="/en/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#166534;font-weight:600;">Joyroom 3-in-1 Station</a> at 1,206 EGP (down from 1,399 EGP) — <strong>18-month warranty + full replacement</strong>. Delivery to all governorates + cash on delivery. Note: wall adapter not included — add <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> (430 EGP) to your order for full-speed charging.
     </p>
 </div>
 
@@ -353,7 +353,7 @@ export const two_in_1_wireless_charger_phone_watch_bedside: BlogArticle = {
                 },
                 {
                     question: 'Why do I need a separate 30W charger with the station — doesn\'t the station have a charger?',
-                    answer: 'The station contains only the wireless charging coils — not a power converter. It needs an external power source via USB-C. A 20W charger will deliver only 7-10W to the phone instead of 15W because power is split across 3 devices. A 30W+ charger ensures each device gets its full allocation. Anker GaN 30W (499 EGP) is the minimum we recommend with this station.'
+                    answer: 'The station contains only the wireless charging coils — not a power converter. It needs an external power source via USB-C. A 20W charger will deliver only 7-10W to the phone instead of 15W because power is split across 3 devices. A 30W+ charger ensures each device gets its full allocation. Anker GaN 30W (430 EGP) is the minimum we recommend with this station.'
                 },
                 {
                     question: 'Is there a wireless station that charges both iPhone and Galaxy Watch together?',

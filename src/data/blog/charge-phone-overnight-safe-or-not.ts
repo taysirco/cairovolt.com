@@ -171,7 +171,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <h2>3 حلول ذكية لشحن الليل بأمان + عمر بطارية أطول</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:20px;">🛡️ <strong>الحل #1 — شاحن أصلي بحماية ذكية (الأهم):</strong> شاحن زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج) فيه ActiveShield 2.0 — بيراقب الحرارة 3 مليون مرة في اليوم ويظبط الخرج تلقائياً. أو <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> (299ج) بـ 8 طبقات حماية. الاستثمار في شاحن أصلي بـ 300-500ج أوفر بكتير من تغيير بطارية بـ 2,000-4,000ج بعد سنة.</li>
+    <li style="margin-bottom:20px;">🛡️ <strong>الحل #1 — شاحن أصلي بحماية ذكية (الأهم):</strong> شاحن زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (430ج) فيه ActiveShield 2.0 — بيراقب الحرارة 3 مليون مرة في اليوم ويظبط الخرج تلقائياً. أو <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> (280ج) بـ 8 طبقات حماية. الاستثمار في شاحن أصلي بـ 300-500ج أوفر بكتير من تغيير بطارية بـ 2,000-4,000ج بعد سنة.</li>
     <li style="margin-bottom:20px;">📱 <strong>الحل #2 — فعّل Optimized Battery Charging:</strong> الخطوات في الجدول فوق. الميزة دي مجانية ومش بتأثر على تجربتك — بس بتطوّل عمر البطارية 6-8 شهور. لو عندك Samsung S26 — فعّل خيار "حد أقصى 85%" كمان لو مش محتاج 100% كل يوم.</li>
     <li style="margin-bottom:20px;">🌡️ <strong>الحل #3 — مكان مهوّى + بدون مخدة:</strong> حط الموبايل على الكومودينو أو سطح صلب — مش تحت المخدة أو اللحاف. شيل الجراب السميك (أكتر من 3mm) أثناء الشحن بالليل. ولو عايز الحل الأنيق — <a href="/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">محطة جوي روم 3 في 1 اللاسلكية</a> (1,206ج) بتخلّي الموبايل واقف بزاوية مع تهوية طبيعية من كل الجهات.</li>
 </ul>
@@ -206,7 +206,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية بحماية ذكية على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> بـ 499ج — ActiveShield 2.0 + 9 طبقات حماية. <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 25W</a> بـ 299ج — 8 طبقات حماية. <strong>ضمان 18 شهر + استبدال كامل</strong> + توصيل لكل المحافظات + دفع عند الاستلام. نام واشحن وإنت مرتاح.
+        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> بـ 430ج — ActiveShield 2.0 + 9 طبقات حماية. <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 25W</a> بـ 280ج — 8 طبقات حماية. <strong>ضمان 18 شهر + استبدال كامل</strong> + توصيل لكل المحافظات + دفع عند الاستلام. نام واشحن وإنت مرتاح.
     </p>
 </div>
 
@@ -381,7 +381,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <h2>3 Smart Solutions for Safe Overnight Charging + Longer Battery Life</h2>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:20px;">🛡️ <strong>Solution #1 — Genuine charger with smart protection (most important):</strong> A charger like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP) features ActiveShield 2.0 — monitoring temperature 3 million times per day and adjusting output automatically. Or the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> (299 EGP) with 8 protection layers. Investing 300-500 EGP in a genuine charger is far cheaper than a 2,000-4,000 EGP battery replacement after a year.</li>
+    <li style="margin-bottom:20px;">🛡️ <strong>Solution #1 — Genuine charger with smart protection (most important):</strong> A charger like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (430 EGP) features ActiveShield 2.0 — monitoring temperature 3 million times per day and adjusting output automatically. Or the <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> (280 EGP) with 8 protection layers. Investing 300-500 EGP in a genuine charger is far cheaper than a 2,000-4,000 EGP battery replacement after a year.</li>
     <li style="margin-bottom:20px;">📱 <strong>Solution #2 — Enable Optimized Battery Charging:</strong> Steps in the table above. This feature is free and does not affect your experience — but extends battery life by 6-8 months. If you have a Samsung S26 — also enable the "85% maximum" option if you do not need 100% every day.</li>
     <li style="margin-bottom:20px;">🌡️ <strong>Solution #3 — Ventilated spot + no pillow:</strong> Place your phone on the nightstand or a hard surface — not under a pillow or blanket. Remove thick cases (over 3mm) during overnight charging. For the elegant solution — the <a href="/en/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1 Wireless Station</a> (1,206 EGP) keeps your phone upright at an angle with natural ventilation from all sides.</li>
 </ul>
@@ -416,7 +416,7 @@ export const charge_phone_overnight_safe_or_not: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Chargers with Smart Protection on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> at 499 EGP — ActiveShield 2.0 + 9 protection layers. <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 25W</a> at 299 EGP — 8 protection layers. <strong>18-month warranty + full replacement</strong> + delivery to all governorates + cash on delivery. Sleep and charge with peace of mind.
+        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> at 430 EGP — ActiveShield 2.0 + 9 protection layers. <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 25W</a> at 280 EGP — 8 protection layers. <strong>18-month warranty + full replacement</strong> + delivery to all governorates + cash on delivery. Sleep and charge with peace of mind.
     </p>
 </div>
 

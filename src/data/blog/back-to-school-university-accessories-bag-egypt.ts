@@ -95,7 +95,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>لطالب الجامعة، 10,000mAh = شحنة ونص لموبايلك + شحنة كاملة لساعتك الذكية. ده كافي ليوم جامعي كامل (8 ساعات). الـ 20,000mAh أثقل بـ 60-80% وأغلى بـ 50-100% — وإنت أصلاً شنطتك تقيلة بالكتب. توصيتنا: <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر ZOLO A110D 10,000</a> بـ 580 جنيه — وزن 195 جرام فقط، USB-C PD بخرج 22.5W، شاشة ديجيتال تعرض النسبة الحقيقية.</p>
+<p>لطالب الجامعة، 10,000mAh = شحنة ونص لموبايلك + شحنة كاملة لساعتك الذكية. ده كافي ليوم جامعي كامل (8 ساعات). الـ 20,000mAh أثقل بـ 60-80% وأغلى بـ 50-100% — وإنت أصلاً شنطتك تقيلة بالكتب. توصيتنا: <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">انكر ZOLO A110D 10,000</a> بـ 1270 جنيه — وزن 195 جرام فقط، USB-C PD بخرج 22.5W، شاشة ديجيتال تعرض النسبة الحقيقية.</p>
 
 <h3>بديل الميزانية الضيقة جداً</h3>
 
@@ -355,7 +355,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     </tbody>
 </table>
 
-<p>For a university student, 10,000mAh = 1.5 charges for your phone + a full charge for your smartwatch. That's enough for a full university day (8 hours). The 20,000mAh is 60-80% heavier and 50-100% more expensive — and your bag is already heavy with textbooks. Our recommendation: <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110D 10,000</a> at 580 EGP — weighs only 195g, USB-C PD with 22.5W output, digital display showing actual percentage.</p>
+<p>For a university student, 10,000mAh = 1.5 charges for your phone + a full charge for your smartwatch. That's enough for a full university day (8 hours). The 20,000mAh is 60-80% heavier and 50-100% more expensive — and your bag is already heavy with textbooks. Our recommendation: <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker ZOLO A110D 10,000</a> at 1270 EGP — weighs only 195g, USB-C PD with 22.5W output, digital display showing actual percentage.</p>
 
 <h3>Ultra-Budget Alternative</h3>
 
