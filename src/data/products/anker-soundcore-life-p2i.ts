@@ -27,7 +27,7 @@ export const anker_soundcore_life_p2i = {
                 shortDescription: "🎧 28H Total Playtime | 🤖 AI-Enhanced 2-Mic Calls | 🎵 Dual EQ (Bass/Podcast) | ⚡ 10 Min = 1H Charge | 📱 Bluetooth 5.2",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike cheap earbuds that sound hollow and die in months, the <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 999, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike cheap earbuds that sound hollow and die in months, the <strong>Anker Soundcore Life P2i (A3991)</strong> are budget TWS earbuds with 28H total battery (7H buds + 21H case). AI-enhanced dual mics for clear calls in noisy environments, Bluetooth 5.2, Dual EQ modes (Bass/Podcast), 10-min quick charge = 1H playback, IPX5 sweatproof. EGP 820, 18-month warranty. CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
@@ -93,7 +93,7 @@ export const anker_soundcore_life_p2i = {
                 shortDescription: "مكالماتك واضحة في عز الدوشة | 🎧 28 ساعة بطارية | 🤖 ذكاء اصطناعي بيعزل دوشة الشارع عن المايك | ⚡ 10 دقائق شحن تكفيك في المشوار",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس السماعات اللاسلكية الصيني تحت 500 جنيه اللي بلوتوث 4.2 بيعمل تأخير وبطاريتها بتموت بعد شهرين، <strong>سماعات أنكر ساوندكور Life P2i (A3991)</strong> فيها بلوتوث 5.2 أصلي مع ميكروفونات ذكية بذكاء اصطناعي بتعزل صوتك عن دوشة الشارع. 28 ساعة بطارية (7 سماعات + 21 علبة)، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر <strong>999 جنيه</strong> مع ضمان كايرو فولت 18 شهر.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس السماعات اللاسلكية الصيني تحت 500 جنيه اللي بلوتوث 4.2 بيعمل تأخير وبطاريتها بتموت بعد شهرين، <strong>سماعات أنكر ساوندكور Life P2i (A3991)</strong> فيها بلوتوث 5.2 أصلي مع ميكروفونات ذكية بذكاء اصطناعي بتعزل صوتك عن دوشة الشارع. 28 ساعة بطارية (7 سماعات + 21 علبة)، وضعين صوت (Bass/Podcast)، 10 دقايق شحن = ساعة تشغيل، IPX5 ضد العرق. سعر <strong>820 جنيه</strong> مع ضمان كايرو فولت 18 شهر.</p>
 </div>
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>

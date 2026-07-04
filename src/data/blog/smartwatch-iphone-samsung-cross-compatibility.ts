@@ -93,7 +93,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <h2>التكلفة الحقيقية — حسبة مفيش حد بيعملها</h2>
 
-<p>خلّينا نحسبها صح. لو اشتريت Apple Watch SE بـ 7,000 جنيه وبعد سنتين غيّرت لـ Samsung — محتاج تشتري ساعة جديدة. يعني التكلفة الحقيقية = 7,000 + ساعة جديدة. لو اشتريت Joyroom FT3 بـ 1,200 جنيه — لو غيّرت موبايلك 10 مرات الساعة بتفضل شغّالة. التكلفة الحقيقية = 1,200 جنيه وبس. حتى لو Apple Watch أحسن تقنياً في كذا حاجة — الفرق في السعر + حرية التنقل بين الأنظمة بيخلّي الساعة المستقلة أذكى اقتصادياً لمعظم المصريين.</p>
+<p>خلّينا نحسبها صح. لو اشتريت Apple Watch SE بـ 7,000 جنيه وبعد سنتين غيّرت لـ Samsung — محتاج تشتري ساعة جديدة. يعني التكلفة الحقيقية = 7,000 + ساعة جديدة. لو اشتريت Joyroom FT3 بـ 1,092 جنيه — لو غيّرت موبايلك 10 مرات الساعة بتفضل شغّالة. التكلفة الحقيقية = 1,200 جنيه وبس. حتى لو Apple Watch أحسن تقنياً في كذا حاجة — الفرق في السعر + حرية التنقل بين الأنظمة بيخلّي الساعة المستقلة أذكى اقتصادياً لمعظم المصريين.</p>
 
 <h2>Google Pixel Watch و WearOS — بديل تالت؟</h2>
 
@@ -253,7 +253,7 @@ export const smartwatch_iphone_samsung_cross_compatibility: BlogArticle = {
 
 <h2>The True Cost — A Calculation Nobody Makes</h2>
 
-<p>Let us calculate properly. If you buy an Apple Watch SE for 7,000 EGP and switch to Samsung two years later — you need a new watch. The true cost = 7,000 + new watch. If you buy a Joyroom FT3 for 1,200 EGP — even if you switch phones 10 times, the watch keeps working. The true cost = 1,200 EGP total. Even if Apple Watch is technically superior in several areas — the price difference plus the freedom to move between systems makes independent watches economically smarter for most Egyptian consumers.</p>
+<p>Let us calculate properly. If you buy an Apple Watch SE for 7,000 EGP and switch to Samsung two years later — you need a new watch. The true cost = 7,000 + new watch. If you buy a Joyroom FT3 for 1,092 EGP — even if you switch phones 10 times, the watch keeps working. The true cost = 1,200 EGP total. Even if Apple Watch is technically superior in several areas — the price difference plus the freedom to move between systems makes independent watches economically smarter for most Egyptian consumers.</p>
 
 <h2>Google Pixel Watch and WearOS — A Third Alternative?</h2>
 

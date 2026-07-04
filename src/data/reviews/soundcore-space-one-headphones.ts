@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const soundcore_space_one_headphones_reviews: ProductReview[] = [
         {
             author: 'أنور حسن', rating: 5, location: 'أسوان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'Space One بـ ANC تكيفي ودعم LDAC — صوت بجودة استوديو. بطارية 55 ساعة. شحن سريع 5 دقايق = 5 ساعات تشغيل. بـ 2200 جنيه يستاهل' }
+            reviewBody: { en: '', ar: 'Space One بـ ANC تكيفي ودعم LDAC — صوت بجودة استوديو. بطارية 55 ساعة. شحن سريع 5 دقايق = 5 ساعات تشغيل. بـ 4700 جنيه يستاهل' }
         },
         {
             author: 'وليد جلال', rating: 5, location: 'بورسعيد', datePublished: '2026-06-11',

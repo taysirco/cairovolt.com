@@ -259,7 +259,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
                 },
                 {
                     question: 'ما هو أفضل خيار لو ميزانيتي محدودة ومش عارف أختار؟',
-                    answer: 'خد Earbuds. أكثر تنوعاً في الاستخدام، أخف، وبتدي قيمة أحسن في الفئات الاقتصادية. Soundcore P20i (350-500 جنيه) بيجي بـ IPX5 وبطارية 8 ساعات وصوت كويس — يكفي 90% من الاستخدامات اليومية.'
+                    answer: 'خد Earbuds. أكثر تنوعاً في الاستخدام، أخف، وبتدي قيمة أحسن في الفئات الاقتصادية. Soundcore P20i (699 جنيه) بيجي بـ IPX5 وبطارية 8 ساعات وصوت كويس — يكفي 90% من الاستخدامات اليومية.'
                 }
             ]
         },
@@ -453,7 +453,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
                 },
                 {
                     question: 'What is the best choice on a limited budget when I cannot decide?',
-                    answer: 'Choose earbuds. They cover more use cases, are sweat-resistant, and deliver better value at budget price points. The Soundcore P20i at 350-500 EGP comes with IPX5, 8-hour battery, and good sound — covering 90% of daily use scenarios without compromise.'
+                    answer: 'Choose earbuds. They cover more use cases, are sweat-resistant, and deliver better value at budget price points. The Soundcore P20i at 699 EGP comes with IPX5, 8-hour battery, and good sound — covering 90% of daily use scenarios without compromise.'
                 }
             ]
         }

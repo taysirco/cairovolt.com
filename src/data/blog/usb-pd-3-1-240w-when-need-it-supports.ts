@@ -169,7 +169,7 @@ export const usb_pd_3_1_240w_when_need_it_supports: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💰 <strong>شاحن PD 3.0 بقدرة 20-30W:</strong> 350-700ج — كافي لكل الموبايلات. <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W بـ 500ج</a> اختيار ممتاز.</li>
-    <li style="margin-bottom:12px;">💰 <strong>شاحن PD 3.0 بقدرة 45-65W:</strong> 700-1,200ج — كافي لكل الموبايلات + لابتوبات خفيفة. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W بـ 950ج</a>.</li>
+    <li style="margin-bottom:12px;">💰 <strong>شاحن PD 3.0 بقدرة 45-65W:</strong> 700-1,200ج — كافي لكل الموبايلات + لابتوبات خفيفة. <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W بـ 790ج</a>.</li>
     <li style="margin-bottom:12px;">💰 <strong>شاحن PD 3.0 بقدرة 100W:</strong> 1,200-1,800ج — كافي لمعظم اللابتوبات في السوق.</li>
     <li style="margin-bottom:12px;">💰 <strong>شاحن PD 3.1 EPR بقدرة 140-240W:</strong> 2,000-4,000ج — فقط للابتوبات الثقيلة. + محتاج كابل EPR بـ 300-500ج.</li>
 </ul>
@@ -207,7 +207,7 @@ export const usb_pd_3_1_240w_when_need_it_supports: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن PD أصلية بضمان — الاختيار المناسب لكل جهاز</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        من <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">Anker 20W بـ 400ج</a> لغاية <a href="/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">Anker Nano 45W بـ 950ج</a> — كلهم PD 3.0 + GaN + ضمان 18 شهر. <strong>أصلي 100%</strong> بكود تحقق + توصيل لكل المحافظات + دفع عند الاستلام.
+        من <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">Anker 20W بـ 400ج</a> لغاية <a href="/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">Anker Nano 45W بـ 790ج</a> — كلهم PD 3.0 + GaN + ضمان 18 شهر. <strong>أصلي 100%</strong> بكود تحقق + توصيل لكل المحافظات + دفع عند الاستلام.
     </p>
 </div>`,
             faq: [
@@ -225,7 +225,7 @@ export const usb_pd_3_1_240w_when_need_it_supports: BlogArticle = {
                 },
                 {
                     question: 'أفضل شاحن PD في مصر تحت 1,000 جنيه؟',
-                    answer: 'Anker Nano 45W (GaN III) بـ 950ج — PD 3.0 + PPS + منفذ USB-C. بيشحن كل الموبايلات بأقصى سرعة + MacBook Air + iPad Pro. لو الميزانية أقل: Joyroom 30W بـ 500ج — كافي لكل الموبايلات والتابلتات.'
+                    answer: 'Anker Nano 45W (GaN III) بـ 790ج — PD 3.0 + PPS + منفذ USB-C. بيشحن كل الموبايلات بأقصى سرعة + MacBook Air + iPad Pro. لو الميزانية أقل: Joyroom 30W بـ 500ج — كافي لكل الموبايلات والتابلتات.'
                 }
             ],
         },
@@ -376,7 +376,7 @@ export const usb_pd_3_1_240w_when_need_it_supports: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">💰 <strong>PD 3.0 charger at 20-30W:</strong> 350-700 EGP — sufficient for all phones. <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W at 500 EGP</a> is an excellent choice.</li>
-    <li style="margin-bottom:12px;">💰 <strong>PD 3.0 charger at 45-65W:</strong> 700-1,200 EGP — sufficient for all phones + lightweight laptops. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W at 950 EGP</a>.</li>
+    <li style="margin-bottom:12px;">💰 <strong>PD 3.0 charger at 45-65W:</strong> 700-1,200 EGP — sufficient for all phones + lightweight laptops. <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W at 790 EGP</a>.</li>
     <li style="margin-bottom:12px;">💰 <strong>PD 3.0 charger at 100W:</strong> 1,200-1,800 EGP — sufficient for most laptops on the market.</li>
     <li style="margin-bottom:12px;">💰 <strong>PD 3.1 EPR charger at 140-240W:</strong> 2,000-4,000 EGP — only for heavy laptops. Plus you need an EPR cable at 300-500 EGP.</li>
 </ul>
@@ -414,7 +414,7 @@ export const usb_pd_3_1_240w_when_need_it_supports: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine PD Chargers with Warranty — The Right Choice for Every Device</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        From <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">Anker 20W at 400 EGP</a> up to <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">Anker Nano 45W at 950 EGP</a> — all PD 3.0 + GaN + 18-month warranty. <strong>100% genuine</strong> with verification codes + delivery to all governorates + cash on delivery.
+        From <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#166534;font-weight:600;">Anker 20W at 400 EGP</a> up to <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#166534;font-weight:600;">Anker Nano 45W at 790 EGP</a> — all PD 3.0 + GaN + 18-month warranty. <strong>100% genuine</strong> with verification codes + delivery to all governorates + cash on delivery.
     </p>
 </div>`,
             faq: [

@@ -8,11 +8,11 @@ export const soundcore_p20i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'صابر محمد', rating: 5, location: 'الزقازيق', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'اشتريت سماعة ساوندكور P20i عشان أبطل أسمع كلام الناس في الميكروباص. أحسن 550 جنيه صرفتها في حياتي بعد التكييف' }
+            reviewBody: { en: '', ar: 'اشتريت سماعة ساوندكور P20i عشان أبطل أسمع كلام الناس في الميكروباص. أحسن 699 جنيه صرفتها في حياتي بعد التكييف' }
         },
         {
             author: 'ياسر فاروق', rating: 5, location: 'المعادي', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'صاحبي شاف سماعة ساوندكور P20i وسألني \'دي AirPods؟\'. لما قلتله سعرها 550 جنيه مش 5000 — جري يشتري واحده' }
+            reviewBody: { en: '', ar: 'صاحبي شاف سماعة ساوندكور P20i وسألني \'دي AirPods؟\'. لما قلتله سعرها 699 جنيه مش 5000 — جري يشتري واحده' }
         },
         {
             author: 'حاتم السيد', rating: 5, location: 'العاشر من رمضان', datePublished: '2026-06-11',
@@ -28,7 +28,7 @@ export const soundcore_p20i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'جمال ياسين', rating: 4, location: 'العجوزة', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور P20i كويسة. الصوت مقبول والبطارية كويسة. مفيش حاجة استثنائية بس بتعمل الغرض بـ 550 جنيه' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور P20i كويسة. الصوت مقبول والبطارية كويسة. مفيش حاجة استثنائية بس بتعمل الغرض بـ 699 جنيه' }
         },
         {
             author: 'معتز محمد', rating: 5, location: 'أسيوط', datePublished: '2026-06-11',
@@ -44,7 +44,7 @@ export const soundcore_p20i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'فهد عطية', rating: 5, location: 'التجمع الخامس', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'صوت سماعة ساوندكور P20i ممتاز لـ 550 جنيه. درايفر 10mm بيدي Bass قوي من غير ما يطغى على الأصوات. التطبيق بيوفر 22 إعداد صوت' }
+            reviewBody: { en: '', ar: 'صوت سماعة ساوندكور P20i ممتاز لـ 699 جنيه. درايفر 10mm بيدي Bass قوي من غير ما يطغى على الأصوات. التطبيق بيوفر 22 إعداد صوت' }
         },
         {
             author: 'شيماء أحمد', rating: 5, location: 'الفيوم', datePublished: '2026-06-11',

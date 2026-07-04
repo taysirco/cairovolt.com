@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const anker_zolo_a110d_10000_reviews: ProductReview[] = [
         {
             author: 'رشا كمال', rating: 4, location: 'الأقصر', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'واحد سألني \'زولو يعني إيه؟\'. قلتله مش عارف بس اللي أعرفه إنه بيشحن الموبايل مرتين من غير كلام. 500 جنيه وشغل' }
+            reviewBody: { en: '', ar: 'واحد سألني \'زولو يعني إيه؟\'. قلتله مش عارف بس اللي أعرفه إنه بيشحن الموبايل مرتين من غير كلام. 1270 جنيه وشغل' }
         },
         {
             author: 'أكرم حلمي', rating: 4, location: 'أسوان', datePublished: '2026-06-11',
@@ -20,7 +20,7 @@ export const anker_zolo_a110d_10000_reviews: ProductReview[] = [
         },
         {
             author: 'أميرة حسين', rating: 4, location: 'الزمالك', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر زولو 10000 كويس لسعره. مفيش فيه مميزات خاصة بس بيشحن ومفيش مشاكل. 500 جنيه معقول ✅' }
+            reviewBody: { en: '', ar: 'باور بانك انكر زولو 10000 كويس لسعره. مفيش فيه مميزات خاصة بس بيشحن ومفيش مشاكل. 1270 جنيه معقول ✅' }
         },
         {
             author: 'أسامة كامل', rating: 5, location: 'الزقازيق', datePublished: '2026-06-11',
@@ -32,7 +32,7 @@ export const anker_zolo_a110d_10000_reviews: ProductReview[] = [
         },
         {
             author: 'طارق نبيل', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر زولو A110D بسعر 500 جنيه بيقدم سعة 10000 ملي أمبير حقيقية. الفرق عن PowerCore في بعض التفاصيل لكن الأداء الأساسي متقارب جداً' }
+            reviewBody: { en: '', ar: 'باور بانك انكر زولو A110D بسعر 1270 جنيه بيقدم سعة 10000 ملي أمبير حقيقية. الفرق عن PowerCore في بعض التفاصيل لكن الأداء الأساسي متقارب جداً' }
         },
         {
             author: 'ولاء سعيد', rating: 4, location: 'الرحاب', datePublished: '2026-06-11',

@@ -30,16 +30,16 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
         ar: {
             title: 'شاحن سفر بمنفذين USB-C و USB-A — أيهما الأفضل لعطلة الساحل 2026؟',
             metaTitle: 'شاحن سفر USB-C ولا USB-A؟ دليل عطلة الساحل 2026 | كايرو فولت',
-            metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 236ج لـ 799ج. دليل عملي من كايرو فولت. تابع التفاصيل بمصر.',
+            metaDescription: 'أيهما تختار لعطلة الساحل الشمالي: شاحن USB-C ولا USB-A ولا الاتنين؟ مقارنة سرعات + توافق + أسعار من 236ج لـ 1900ج. دليل عملي من كايرو فولت. تابع التفاصيل بمصر.',
             keywords: 'شاحن سفر مصر, شاحن USB-C USB-A, شاحن الساحل الشمالي, افضل شاحن للسفر 2026, شاحن منفذين, شاحن رحلات مصر, travel charger egypt, شاحن USB-C ولا USB-A, شاحن عطلة الصيف, شاحن انكر سفر, شاحن GaN سفر',
             excerpt: 'رايح الساحل ومحتار تاخد شاحن USB-C ولا USB-A؟ دليل عملي بالأرقام — من سرعات الشحن للتوافق مع كل أجهزتك، مع أفضل الاختيارات من 236ج.',
-            quickAnswer: 'لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: أنكر Nano 45W بشاشة ذكية (799ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: جوي روم 25W (342ج) USB-C واحد بيشحن أي موبايل بسرعة.',
+            quickAnswer: 'لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: أنكر Nano 45W بشاشة ذكية (1900ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: جوي روم 25W (342ج) USB-C واحد بيشحن أي موبايل بسرعة.',
             content: `<p>إنت لسه بتحضّر شنطة الساحل الشمالي: مايوه، واقي شمس، شاحن... وهنا بتقف. معاك iPhone 17، سماعة Bluetooth قديمة بمنفذ Micro-USB، ساعة ذكية بكابل USB-A، وباور بانك. شاحن واحد يقدر يشحن كل ده؟ ولا محتاج تشيل 3 شواحن ومحوّلات؟ الإجابة في الفرق بين USB-C و USB-A — وده اللي هنشرحه بالأرقام.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> (342ج) USB-C واحد.
+        لو كل أجهزتك حديثة (iPhone 15+ / Samsung S24+) → شاحن USB-C فقط يكفيك. لو معاك أجهزة قديمة (سماعة بلوتوث / ساعة / باور بانك بمنفذ USB-A) → شاحن بمنفذين USB-C + USB-A هو الأنسب. أفضل اختيار شامل: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (1900ج) — منفذين USB-C بيشحنوا جهازين بسرعة. لو الميزانية محدودة: <a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a> (342ج) USB-C واحد.
     </p>
 </div>
 
@@ -96,7 +96,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <p>لو معاك iPhone 15+ أو Samsung S24+ أو iPad Pro أو MacBook — كل ده USB-C. سماعتك ساوندكور أو AirPods Pro 2 — USB-C. ساعتك Apple Watch — USB-C. في الحالة دي، شاحن USB-C واحد يكفيك 100%.</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (430ج) — أصغر من علبة كبريت، بيشحن أي موبايل بأقصى سرعة.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>لو بتشحن جهازين:</strong> <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (799ج) — منفذين USB-C.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>لو بتشحن جهازين:</strong> <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (1900ج) — منفذين USB-C.</li>
 </ul>
 
 <h3>🎯 السيناريو 2: خليط من أجهزة حديثة وقديمة</h3>
@@ -130,7 +130,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>انكر نانو 45W (بشاشة)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">68 جرام</td>
             <td style="padding:12px;border:1px solid #d1d5db;">4.5 × 4.5 × 2.8 سم</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">799ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1900ج</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>جوي روم 25W</strong></td>
@@ -167,7 +167,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ كل أجهزتك USB-C؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (430ج) — أصغر وأسرع شاحن سفر. لو بتشحن جهازين معاً → <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></strong> (799ج)</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (430ج) — أصغر وأسرع شاحن سفر. لو بتشحن جهازين معاً → <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></strong> (1900ج)</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
@@ -207,7 +207,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
                 },
                 {
                     question: 'لو معايا iPhone 17 و Samsung S26 — شاحن واحد يشحن الاتنين؟',
-                    answer: 'أيوا. أي شاحن USB-C PD بيشحن الاتنين. iPhone 17 بيقبل حتى 27W و Samsung S26 بيقبل حتى 45W. شاحن 25W زي جوي روم (342ج) بيشحن الاتنين بسرعة ممتازة. شاحن 45W زي أنكر Nano (799ج) بيشحن Samsung S26 بأقصى سرعة Super Fast 2.0.'
+                    answer: 'أيوا. أي شاحن USB-C PD بيشحن الاتنين. iPhone 17 بيقبل حتى 27W و Samsung S26 بيقبل حتى 45W. شاحن 25W زي جوي روم (342ج) بيشحن الاتنين بسرعة ممتازة. شاحن 45W زي أنكر Nano (1900ج) بيشحن Samsung S26 بأقصى سرعة Super Fast 2.0.'
                 },
                 {
                     question: 'ليه مش أشتري شاحن بمنفذ USB-A بس — أرخص وبيشحن كل حاجة؟',
@@ -218,16 +218,16 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
         en: {
             title: 'Travel Charger with USB-C and USB-A — Which Is Best for Your Sahel Trip 2026?',
             metaTitle: 'Travel Charger USB-C vs USB-A? Sahel Trip Guide 2026 | CairoVolt',
-            metaDescription: 'Which travel charger for North Coast Egypt: USB-C, USB-A, or both? Speed comparison + device compatibility + prices from 236 to 799 EGP. Practical guide from...',
+            metaDescription: 'Which travel charger for North Coast Egypt: USB-C, USB-A, or both? Speed comparison + device compatibility + prices from 236 to 1900 EGP. Practical guide from...',
             keywords: 'travel charger egypt, USB-C vs USB-A charger, north coast charger, best travel charger 2026, dual port charger, sahel trip charger, charger for vacation egypt, USB-C USB-A difference, GaN travel charger, anker travel charger egypt',
             excerpt: 'Heading to the North Coast and unsure whether to pack a USB-C or USB-A charger? A practical guide with real numbers — from charging speeds to device compatibility, with top picks from 236 EGP.',
-            quickAnswer: 'If all your devices are modern (iPhone 15+ / Samsung S24+) → a USB-C only charger is enough. If you have older devices (Bluetooth earbuds / smartwatch / power bank with USB-A) → a dual-port USB-C + USB-A charger is ideal. Best all-round pick: Anker Nano 45W with smart display (799 EGP) — two USB-C ports charging two devices simultaneously. Budget pick: Joyroom 25W (342 EGP) — single USB-C port charging any phone at fast speed.',
+            quickAnswer: 'If all your devices are modern (iPhone 15+ / Samsung S24+) → a USB-C only charger is enough. If you have older devices (Bluetooth earbuds / smartwatch / power bank with USB-A) → a dual-port USB-C + USB-A charger is ideal. Best all-round pick: Anker Nano 45W with smart display (1900 EGP) — two USB-C ports charging two devices simultaneously. Budget pick: Joyroom 25W (342 EGP) — single USB-C port charging any phone at fast speed.',
             content: `<p>You are packing for your North Coast vacation: swimsuit, sunscreen, charger... and here you pause. You have an iPhone 17, old Bluetooth earbuds with a Micro-USB port, a smartwatch with a USB-A cable, and a power bank. Can one charger handle all of that? Or do you need 3 chargers and adapters? The answer lies in the difference between USB-C and USB-A — and that is exactly what we will break down with real numbers.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        If all your devices are modern (iPhone 15+ / Samsung S24+) → a USB-C only charger is enough. If you have older gadgets (Bluetooth earbuds / smartwatch / power bank with USB-A) → a dual-port USB-C + USB-A charger is ideal. Best all-round: <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with Smart Display</a> (799 EGP) — two USB-C ports for two devices. Budget pick: <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> (342 EGP) — single USB-C.
+        If all your devices are modern (iPhone 15+ / Samsung S24+) → a USB-C only charger is enough. If you have older gadgets (Bluetooth earbuds / smartwatch / power bank with USB-A) → a dual-port USB-C + USB-A charger is ideal. Best all-round: <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with Smart Display</a> (1900 EGP) — two USB-C ports for two devices. Budget pick: <a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a> (342 EGP) — single USB-C.
     </p>
 </div>
 
@@ -284,7 +284,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <p>If you carry an iPhone 15+ or Samsung S24+, iPad Pro, or MacBook — all USB-C. Your earbuds are Soundcore or AirPods Pro 2 — USB-C. Your watch is Apple Watch — USB-C. In this case, a single USB-C charger covers 100% of your needs.</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>Pick:</strong> <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (430 EGP) — ice-cube sized, charges any phone at max speed.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>For two devices:</strong> <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with Smart Display</a> (799 EGP) — two USB-C ports.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>For two devices:</strong> <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with Smart Display</a> (1900 EGP) — two USB-C ports.</li>
 </ul>
 
 <h3>🎯 Scenario 2: Mix of Modern and Older Devices</h3>
@@ -318,7 +318,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker Nano 45W (Display)</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">68g</td>
             <td style="padding:12px;border:1px solid #d1d5db;">4.5 × 4.5 × 2.8 cm</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">799 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">1900 EGP</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Joyroom 25W</strong></td>
@@ -355,7 +355,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ Are all your devices USB-C?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (430 EGP) — smallest and fastest travel charger. Two devices → <strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></strong> (799 EGP)</p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (430 EGP) — smallest and fastest travel charger. Two devices → <strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></strong> (1900 EGP)</p>
         <p style="margin:4px 0 0 20px;">❌ No ←</p>
     </li>
     <li style="margin-bottom:16px;">
@@ -395,7 +395,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
                 },
                 {
                     question: 'If I have an iPhone 17 and a Samsung S26 — can one charger fast-charge both?',
-                    answer: 'Yes. Any USB-C PD charger fast-charges both. iPhone 17 accepts up to 27W and Samsung S26 accepts up to 45W. A 25W charger like Joyroom (342 EGP) charges both at excellent speed. A 45W charger like Anker Nano (799 EGP) charges Samsung S26 at max Super Fast 2.0 speed.'
+                    answer: 'Yes. Any USB-C PD charger fast-charges both. iPhone 17 accepts up to 27W and Samsung S26 accepts up to 45W. A 25W charger like Joyroom (342 EGP) charges both at excellent speed. A 45W charger like Anker Nano (1900 EGP) charges Samsung S26 at max Super Fast 2.0 speed.'
                 },
                 {
                     question: 'Why not just buy a USB-A only charger — it is cheaper and charges everything?',

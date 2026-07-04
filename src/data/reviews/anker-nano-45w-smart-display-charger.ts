@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const anker_nano_45w_smart_display_charger_reviews: ProductReview[] = [
         {
             author: 'محمد عبد العزيز', rating: 5, location: 'دمياط', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'أحلى شاحن عندي! شاحن انكر بشاشة بيدي شكل بريميوم والشحن 45 وات سريع. الناس بتسألني عليه لما بيشوفوه. بـ 900 جنيه فخامة' }
+            reviewBody: { en: '', ar: 'أحلى شاحن عندي! شاحن انكر بشاشة بيدي شكل بريميوم والشحن 45 وات سريع. الناس بتسألني عليه لما بيشوفوه. بـ 1900 جنيه فخامة' }
         },
         {
             author: 'مجدي حسن', rating: 5, location: 'الدقي', datePublished: '2026-06-11',

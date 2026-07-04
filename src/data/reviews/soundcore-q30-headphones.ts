@@ -8,7 +8,7 @@ export const soundcore_q30_headphones_reviews: ProductReview[] = [
         },
         {
             author: 'ليلى إبراهيم', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'هيدفون ساوندكور Q30 بـ ANC هجين ودرايفر 40mm — صوت ممتاز للسعر. بطارية 40 ساعة. مريح لساعات طويلة. بـ 1600 جنيه أفضل قيمة' }
+            reviewBody: { en: '', ar: 'هيدفون ساوندكور Q30 بـ ANC هجين ودرايفر 40mm — صوت ممتاز للسعر. بطارية 40 ساعة. مريح لساعات طويلة. بـ 4649 جنيه أفضل قيمة' }
         },
         {
             author: 'أميرة فوزي', rating: 5, location: 'طنطا', datePublished: '2026-06-11',

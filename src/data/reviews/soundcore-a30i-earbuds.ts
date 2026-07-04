@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const soundcore_a30i_earbuds_reviews: ProductReview[] = [
         {
             author: 'يحيى راضي', rating: 4, location: 'الشروق', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة A30i كويسة. ANC شغال بس مش الأقوى. 680 جنيه سعر معقول لسماعة بإلغاء ضوضاء. مقبولة كل يوم' }
+            reviewBody: { en: '', ar: 'سماعة A30i كويسة. ANC شغال بس مش الأقوى. 1450 جنيه سعر معقول لسماعة بإلغاء ضوضاء. مقبولة كل يوم' }
         },
         {
             author: 'إيهاب صبحي', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
@@ -12,7 +12,7 @@ export const soundcore_a30i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'منى عصام', rating: 5, location: 'المعادي', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة A30i فيها ANC خفيف بيقلل الضوضاء المنخفضة. درايفر 10mm. بطارية 32 ساعة. بـ 680 جنيه قيمة ممتازة لسماعة فيها ANC' }
+            reviewBody: { en: '', ar: 'سماعة A30i فيها ANC خفيف بيقلل الضوضاء المنخفضة. درايفر 10mm. بطارية 32 ساعة. بـ 1450 جنيه قيمة ممتازة لسماعة فيها ANC' }
         },
         {
             author: 'أسامة كامل', rating: 5, location: 'الزمالك', datePublished: '2026-06-11',
@@ -24,6 +24,6 @@ export const soundcore_a30i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'محسن رفعت', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور A30i مفاجأة! ANC بـ 680 جنيه؟ الصوت ممتاز والبطارية 32 ساعة. أفضل قيمة مقابل السعر في السماعات' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور A30i مفاجأة! ANC بـ 1450 جنيه؟ الصوت ممتاز والبطارية 32 ساعة. أفضل قيمة مقابل السعر في السماعات' }
         }
     ];

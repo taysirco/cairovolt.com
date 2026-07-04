@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const anker_nano_45w_reviews: ProductReview[] = [
         {
             author: 'حازم شوقي', rating: 4, location: 'الإسماعيلية', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'شاحن انكر نانو 45 وات كويس بس 750 جنيه غالي شوية. لو مش بتسافر كتير — شاحن 30 وات هيكفيك ويوفرلك 200 جنيه' }
+            reviewBody: { en: '', ar: 'شاحن انكر نانو 45 وات كويس بس 790 جنيه غالي شوية. لو مش بتسافر كتير — شاحن 30 وات هيكفيك ويوفرلك 200 جنيه' }
         },
         {
             author: 'كريم عبد الله', rating: 5, location: 'مدينة نصر', datePublished: '2026-06-11',
@@ -12,7 +12,7 @@ export const anker_nano_45w_reviews: ProductReview[] = [
         },
         {
             author: 'محمود سعيد', rating: 4, location: 'العاشر من رمضان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'شاحن انكر نانو 45 وات افضل حاجة للسفر! شاحن واحد صغير بيغنيك عن كل شواحنك. 750 جنيه بس — وراحة مش بتتقدر — أنصح بيه.' }
+            reviewBody: { en: '', ar: 'شاحن انكر نانو 45 وات افضل حاجة للسفر! شاحن واحد صغير بيغنيك عن كل شواحنك. 790 جنيه بس — وراحة مش بتتقدر — أنصح بيه.' }
         },
         {
             author: 'ولاء سعيد', rating: 5, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-11',
@@ -28,7 +28,7 @@ export const anker_nano_45w_reviews: ProductReview[] = [
         },
         {
             author: 'جيهان أحمد', rating: 5, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'شاحن انكر نانو 45 وات بتقنية GaN — بيشحن MacBook Air في ساعتين و iPhone في 30 دقيقة لـ 50%. شاحن واحد لكل أجهزتك. بـ 750 جنيه يستاهل' }
+            reviewBody: { en: '', ar: 'شاحن انكر نانو 45 وات بتقنية GaN — بيشحن MacBook Air في ساعتين و iPhone في 30 دقيقة لـ 50%. شاحن واحد لكل أجهزتك. بـ 790 جنيه يستاهل' }
         },
         {
             author: 'رؤوف عبد الحليم', rating: 4, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-11',

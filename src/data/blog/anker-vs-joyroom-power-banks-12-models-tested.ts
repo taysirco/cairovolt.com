@@ -120,7 +120,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>92%</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">140W PD</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">44°م</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">3,650ج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">4,999ج</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 25K</a></td>
@@ -291,7 +291,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     <li style="margin-bottom:12px;">✅ <strong>ميزانية تحت 1,000ج — جوي روم 20,000mAh (997ج):</strong> أفضل قيمة مقابل سعر في مصر. 22.5W شحن سريع، شاشة رقمية، ضمان 12 شهر. كفاية لشحن أي موبايل 3+ مرات.</li>
     <li style="margin-bottom:12px;">✅ <strong>ميزانية 1,200-1,800ج — أنكر ZOLO A110E (1,730ج):</strong> سعة فعلية أعلى 12%، حرارة أقل، كابل مدمج، ضمان 18 شهر. الفرق عن جوي روم يستحق لو بتستخدمه يومياً.</li>
     <li style="margin-bottom:12px;">✅ <strong>محتاج شحن لابتوب — أنكر ZOLO A1681 (2,200ج):</strong> 45W PD بيشحن MacBook Air ولابتوبات خفيفة. جوي روم مش عنده باور بانك بيشحن لابتوب في السوق المصري.</li>
-    <li style="margin-bottom:12px;">✅ <strong>استخدام احترافي — أنكر Prime (3,950ج) أو 737 (3,650ج):</strong> 140-165W للابتوبات الثقيلة، شاشة ذكية، 3 منافذ. مفيش منافس جوي روم في الفئة دي.</li>
+    <li style="margin-bottom:12px;">✅ <strong>استخدام احترافي — أنكر Prime (3,950ج) أو 737 (4,999ج):</strong> 140-165W للابتوبات الثقيلة، شاشة ذكية، 3 منافذ. مفيش منافس جوي روم في الفئة دي.</li>
     <li style="margin-bottom:12px;">✅ <strong>باور بانك MagSafe — جوي روم Magnetic (890ج):</strong> بديل اقتصادي لـ أنكر 622 MagGo. شحن لاسلكي 15W + سلكي 20W. سعر ممتاز لمستخدمي iPhone.</li>
 </ul>
 
@@ -415,7 +415,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>92%</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">140W PD</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">44°C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">3,650 EGP</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">4,999 EGP</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Prime A1695 25K</a></td>
@@ -586,7 +586,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
     <li style="margin-bottom:12px;">✅ <strong>Budget under 1,000 EGP — Joyroom 20,000mAh (997 EGP):</strong> Best value for money in Egypt. 22.5W fast charging, digital display, 12-month warranty. Enough to charge any phone 3+ times.</li>
     <li style="margin-bottom:12px;">✅ <strong>Budget 1,200-1,800 EGP — Anker ZOLO A110E (1,730 EGP):</strong> 12% higher actual capacity, lower heat, built-in cable, 18-month warranty. The premium over Joyroom is worth it for daily users.</li>
     <li style="margin-bottom:12px;">✅ <strong>Need laptop charging — Anker ZOLO A1681 (2,200 EGP):</strong> 45W PD charges MacBook Air and lightweight laptops. Joyroom has no laptop-capable power bank in the Egyptian market.</li>
-    <li style="margin-bottom:12px;">✅ <strong>Professional use — Anker Prime (3,950 EGP) or 737 (3,650 EGP):</strong> 140-165W for heavy laptops, smart display, 3 ports. No Joyroom competitor exists in this tier.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Professional use — Anker Prime (3,950 EGP) or 737 (4,999 EGP):</strong> 140-165W for heavy laptops, smart display, 3 ports. No Joyroom competitor exists in this tier.</li>
     <li style="margin-bottom:12px;">✅ <strong>MagSafe power bank — Joyroom Magnetic (890 EGP):</strong> Affordable alternative to Anker 622 MagGo. 15W wireless + 20W wired. Excellent price for iPhone users.</li>
 </ul>
 

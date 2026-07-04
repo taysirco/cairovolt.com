@@ -20,7 +20,7 @@ export const anker_a2147_gan_charger_30w_reviews: ProductReview[] = [
         },
         {
             author: 'أحمد فوزي', rating: 4, location: 'بورسعيد', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'شاحن انكر GaN 30 وات جيد جداً. 550 جنيه مش رخيص بس الأداء يبرر السعر. الحرارة أقل بشكل ملحوظ من شاحن 30 وات سيليكون عادي' }
+            reviewBody: { en: '', ar: 'شاحن انكر GaN 30 وات جيد جداً. 430 جنيه مش رخيص بس الأداء يبرر السعر. الحرارة أقل بشكل ملحوظ من شاحن 30 وات سيليكون عادي' }
         },
         {
             author: 'أحمد سالم', rating: 4, location: 'المنيا', datePublished: '2026-06-11',
@@ -48,7 +48,7 @@ export const anker_a2147_gan_charger_30w_reviews: ProductReview[] = [
         },
         {
             author: 'أيمن صلاح', rating: 4, location: 'الإسماعيلية', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'شاحن انكر GaN 30 وات كويس بيشحن بسرعة. بس هل يستاهل 550 جنيه؟ لو بتسافر كتير والحجم مهم — أيوه.' }
+            reviewBody: { en: '', ar: 'شاحن انكر GaN 30 وات كويس بيشحن بسرعة. بس هل يستاهل 430 جنيه؟ لو بتسافر كتير والحجم مهم — أيوه.' }
         },
         {
             author: 'ريم عادل', rating: 4, location: 'أسوان', datePublished: '2026-06-11',

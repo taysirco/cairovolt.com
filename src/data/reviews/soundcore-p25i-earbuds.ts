@@ -12,7 +12,7 @@ export const soundcore_p25i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'عاطف بدوي', rating: 5, location: 'العبور', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور P25i بالـ Bass Up — الصوت مذهل للسعر! 520 جنيه ومفيش فيها عيب. أنصح بيها لكل محبي الـ bass' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور P25i بالـ Bass Up — الصوت مذهل للسعر! 770 جنيه ومفيش فيها عيب. أنصح بيها لكل محبي الـ bass' }
         },
         {
             author: 'محسن كامل', rating: 4, location: 'الإسكندرية', datePublished: '2026-06-11',
@@ -28,6 +28,6 @@ export const soundcore_p25i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'رضا عبد الله', rating: 4, location: 'أسيوط', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور P25i كويسة. الـ Bass Up حلو بس مش هيغيرلك حياتك. 520 جنيه سعر معقول. سماعة مقبولة لكل يوم' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور P25i كويسة. الـ Bass Up حلو بس مش هيغيرلك حياتك. 770 جنيه سعر معقول. سماعة مقبولة لكل يوم' }
         }
     ];

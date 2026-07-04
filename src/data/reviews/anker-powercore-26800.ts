@@ -20,6 +20,6 @@ export const anker_powercore_26800_reviews: ProductReview[] = [
         },
         {
             author: 'محمد عبد الواحد', rating: 5, location: 'حلوان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: '26800 ملي أمبير — أكبر سعة من أنكر بسعر 1100 جنيه. USB-C + 2 USB-A يعني بيشحن 3 أجهزة في وقت واحد. الوزن 480 جرام مناسب للشنطة' }
+            reviewBody: { en: '', ar: '26800 ملي أمبير — أكبر سعة من أنكر بسعر 2300 جنيه. USB-C + 2 USB-A يعني بيشحن 3 أجهزة في وقت واحد. الوزن 480 جرام مناسب للشنطة' }
         }
     ];

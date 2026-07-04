@@ -8,11 +8,11 @@ export const soundcore_c30i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'منى رفيق', rating: 4, location: 'بورسعيد', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور C30i كويسه لسعرها. مفيش فيها حاجة خارقة بس بتشتغل كويس. 450 جنيه سعر معقول' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور C30i كويسه لسعرها. مفيش فيها حاجة خارقة بس بتشتغل كويس. 2350 جنيه سعر معقول' }
         },
         {
             author: 'منير حنا', rating: 5, location: 'بني سويف', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور C30i أرخص من وجبة في مطعم فاخر بس بتفرحني اكتر. 450 جنيه والصوت ده؟ كده كده كسبانة والتوصيل كان سريع.' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور C30i أرخص من وجبة في مطعم فاخر بس بتفرحني اكتر. 2350 جنيه والصوت ده؟ كده كده كسبانة والتوصيل كان سريع.' }
         },
         {
             author: 'محمد عبد الواحد', rating: 4, location: 'دمياط', datePublished: '2026-06-11',
@@ -40,7 +40,7 @@ export const soundcore_c30i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'حسن علي', rating: 5, location: 'العبور', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'بسعر 450 جنيه سماعة ساوندكور C30i بتقدم قيمة ممتازة. الصوت واضح والبطارية كافية والتصميم مريح. أفضل من أي سماعة صيني بضعف السعر' }
+            reviewBody: { en: '', ar: 'بسعر 2350 جنيه سماعة ساوندكور C30i بتقدم قيمة ممتازة. الصوت واضح والبطارية كافية والتصميم مريح. أفضل من أي سماعة صيني بضعف السعر' }
         },
         {
             author: 'أيمن صلاح', rating: 3, location: 'المهندسين', datePublished: '2026-06-11',
@@ -48,7 +48,7 @@ export const soundcore_c30i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'نهى عبد اللطيف', rating: 5, location: 'المنصورة', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور C30i مبسوط منها جداااً! بـ 450 جنيه حصلت على صوت حلو وبطارية 28 ساعة. أحسن deal' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور C30i مبسوط منها جداااً! بـ 2350 جنيه حصلت على صوت حلو وبطارية 28 ساعة. أحسن deal' }
         },
         {
             author: 'أحمد صلاح', rating: 5, location: 'أسيوط', datePublished: '2026-06-11',

@@ -16,7 +16,7 @@ export const soundcore_r50i_vi_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'رامي ياسين', rating: 4, location: 'العاشر من رمضان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة ساوندكور R50i كويسة للسعر. IPX5 يعني مقاومة عرق كافية. الـ fit مريح مع الأيرتيبس الوسط. 600 جنيه سعر عادل' }
+            reviewBody: { en: '', ar: 'سماعة ساوندكور R50i كويسة للسعر. IPX5 يعني مقاومة عرق كافية. الـ fit مريح مع الأيرتيبس الوسط. 785 جنيه سعر عادل' }
         },
         {
             author: 'حاتم سامي', rating: 5, location: 'مصر الجديدة', datePublished: '2026-06-11',
@@ -24,7 +24,7 @@ export const soundcore_r50i_vi_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'مازن عبد الرؤوف', rating: 5, location: 'الدقي', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'مبسوط جداً من سماعة ساوندكور R50i! الصوت ممتاز والبطارية 30 ساعة والتطبيق بيدي تحكم كامل. بـ 600 جنيه مش لاقي أحسن' }
+            reviewBody: { en: '', ar: 'مبسوط جداً من سماعة ساوندكور R50i! الصوت ممتاز والبطارية 30 ساعة والتطبيق بيدي تحكم كامل. بـ 785 جنيه مش لاقي أحسن' }
         },
         {
             author: 'سلمى خالد', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',
@@ -36,7 +36,7 @@ export const soundcore_r50i_vi_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'مريم عادل', rating: 3, location: 'المهندسين', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة عادية. R50i الصوت أوكيه والبطارية كويس الحمدللهة بس التصميم مفيش فيه حاجة مميزة. بـ 600 جنيه فيه خيارات تانية تستحق المقارنة' }
+            reviewBody: { en: '', ar: 'سماعة عادية. R50i الصوت أوكيه والبطارية كويس الحمدللهة بس التصميم مفيش فيه حاجة مميزة. بـ 785 جنيه فيه خيارات تانية تستحق المقارنة' }
         },
         {
             author: 'أحمد حسام', rating: 5, location: 'حلوان', datePublished: '2026-06-11',

@@ -196,7 +196,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
                 { question: 'هل كابل جوي روم Speedy بيشحن سريع فعلاً؟', answer: 'أيوا. اختبرنا الكابل لمدة 90 يوم وسرعة الشحن ثابتة عند 58-60W فعلي. بيشحن Samsung S24 Ultra من 0% لـ 50% في 24 دقيقة. يدعم PD 3.0 و QC 4.0.' },
                 { question: 'كابل جوي روم بيستحمل حر مصر ولا بيبوظ بسرعة؟', answer: 'الغلاف النايلون المضفر تحمّل حر القاهرة (42°C+) والعربية (55-65°C) لمدة 90 يوم بدون أي تلف. أفضل بمراحل من كابلات PVC الرخيصة اللي بتتشقق بعد أسبوعين.' },
                 { question: 'إيه الفرق بين كابل جوي روم وكابل انكر؟', answer: 'انكر أغلى (590 ج مقابل 123 ج) لكن بيقدم: نايلون مضفر مزدوج، E-Marker chip، شهادة USB-IF، وضمان 18 شهر (مقابل 12 لجوي روم). جوي روم يقدم أفضل قيمة مقابل السعر.' },
-                { question: 'هل كابل جوي روم Speedy يشحن لابتوب؟', answer: 'لا. أقصى قدرة الكابل 60W وده كافي لأي موبايل أو تابلت، لكن اللابتوبات محتاجة 65-100W. لشحن لابتوب اشتري كابل 100W زي أنكر A8050 بـ 350 جنيه.' },
+                { question: 'هل كابل جوي روم Speedy يشحن لابتوب؟', answer: 'لا. أقصى قدرة الكابل 60W وده كافي لأي موبايل أو تابلت، لكن اللابتوبات محتاجة 65-100W. لشحن لابتوب اشتري كابل 100W زي أنكر A8050 بـ 240 جنيه.' },
             ],
         },
         en: {
@@ -368,7 +368,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
                 { question: 'Does the Joyroom Speedy cable actually fast charge?', answer: 'Yes. We tested the cable for 90 days and charging speed held steady at 58-60W actual output. It charges Samsung S24 Ultra from 0% to 50% in 24 minutes. Supports PD 3.0 and QC 4.0.' },
                 { question: 'Can the Joyroom cable survive Egyptian heat?', answer: 'The braided nylon jacket survived Cairo heat (42°C+) and car temperatures (55-65°C) for 90 days with zero damage. Far superior to cheap PVC cables that crack after two weeks in a hot car.' },
                 { question: 'What is the difference between Joyroom and Anker cables?', answer: 'Anker is pricier (590 EGP vs 123 EGP) but offers: double-braided nylon, E-Marker chip, USB-IF certification, and 18-month warranty (vs 12 for Joyroom). Joyroom offers the best value for money.' },
-                { question: 'Can the Joyroom Speedy cable charge a laptop?', answer: 'No. Maximum output is 60W — sufficient for any phone or tablet, but laptops need 65-100W. For laptop charging, get a 100W cable like the Anker A8050 at 350 EGP.' },
+                { question: 'Can the Joyroom Speedy cable charge a laptop?', answer: 'No. Maximum output is 60W — sufficient for any phone or tablet, but laptops need 65-100W. For laptop charging, get a 100W cable like the Anker A8050 at 240 EGP.' },
             ],
         },
     },

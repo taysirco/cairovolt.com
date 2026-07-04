@@ -16,7 +16,7 @@ export const anker_usb_c_lightning_sureistrong_reviews: ProductReview[] = [
         },
         {
             author: 'أنور حسن', rating: 5, location: 'الشروق', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'كابل انكر SureiStrong بألياف كيفلر — نفس المادة المستخدمة في السترات الواقية. MFi certified وبيدعم شحن سريع. بـ 280 جنيه يستاهل كل مليم' }
+            reviewBody: { en: '', ar: 'كابل انكر SureiStrong بألياف كيفلر — نفس المادة المستخدمة في السترات الواقية. MFi certified وبيدعم شحن سريع. بـ 599 جنيه يستاهل كل مليم' }
         },
         {
             author: 'هاني فؤاد', rating: 5, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-11',
@@ -24,6 +24,6 @@ export const anker_usb_c_lightning_sureistrong_reviews: ProductReview[] = [
         },
         {
             author: 'وائل نجيب', rating: 4, location: 'حلوان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'كابل متين من أنكر. SureiStrong 1.2 متر — أقصر شوية من الموديل التاني. الشحن سريع والكونكتورات ثابتة. 280 جنيه سعر عادل' }
+            reviewBody: { en: '', ar: 'كابل متين من أنكر. SureiStrong 1.2 متر — أقصر شوية من الموديل التاني. الشحن سريع والكونكتورات ثابتة. 599 جنيه سعر عادل' }
         }
     ];

@@ -4,11 +4,11 @@ import type { ProductReview } from './_shared';
 export const anker_powerline_usb_c_usb_c_reviews: ProductReview[] = [
         {
             author: 'علي خالد', rating: 4, location: 'الرحاب', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'كابل انكر USB-C عادي كويس. بيشحن كويس. 200 جنيه مقبول. مفيش حاجة خيالية بس يعني أحسن من الرخيص أكيد — أنكر مش بتخيب.' }
+            reviewBody: { en: '', ar: 'كابل انكر USB-C عادي كويس. بيشحن كويس. 590 جنيه مقبول. مفيش حاجة خيالية بس يعني أحسن من الرخيص أكيد — أنكر مش بتخيب.' }
         },
         {
             author: 'ماجد عبد الله', rating: 5, location: 'بنها', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'كابل انكر USB-C لـ USB-C ممتاز! متين وسريع وبـ 200 جنيه. أفضل كابل استخدمته مع سامسونج بتاعي' }
+            reviewBody: { en: '', ar: 'كابل انكر USB-C لـ USB-C ممتاز! متين وسريع وبـ 590 جنيه. أفضل كابل استخدمته مع سامسونج بتاعي' }
         },
         {
             author: 'شريف نادر', rating: 4, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-11',
@@ -32,7 +32,7 @@ export const anker_powerline_usb_c_usb_c_reviews: ProductReview[] = [
         },
         {
             author: 'كريم سمير', rating: 5, location: 'القاهرة الجديدة', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'استخدمت كابل انكر USB-C لـ USB-C 7 شهور — مفيش تآكل. الطرفين مقواين. بيدعم شحن + نقل بيانات. ممتاز بـ 200 جنيه' }
+            reviewBody: { en: '', ar: 'استخدمت كابل انكر USB-C لـ USB-C 7 شهور — مفيش تآكل. الطرفين مقواين. بيدعم شحن + نقل بيانات. ممتاز بـ 590 جنيه' }
         },
         {
             author: 'جمال ياسين', rating: 5, location: 'المعادي', datePublished: '2026-06-11',

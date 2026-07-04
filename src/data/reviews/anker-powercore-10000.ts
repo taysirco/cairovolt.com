@@ -12,7 +12,7 @@ export const anker_powercore_10000_reviews: ProductReview[] = [
         },
         {
             author: 'رؤوف عبد الحليم', rating: 4, location: 'بنها', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر 10000 بيعمل الي عليه — بيشحن عادي مرتين ونص. مفيش حاجة خيالية بس مفيش مشاكل. يستاهل 650 جنيه' }
+            reviewBody: { en: '', ar: 'باور بانك انكر 10000 بيعمل الي عليه — بيشحن عادي مرتين ونص. مفيش حاجة خيالية بس مفيش مشاكل. يستاهل 1300 جنيه' }
         },
         {
             author: 'رضا عبد الحميد', rating: 5, location: 'الأقصر', datePublished: '2026-06-11',
@@ -20,7 +20,7 @@ export const anker_powercore_10000_reviews: ProductReview[] = [
         },
         {
             author: 'نورهان عادل', rating: 4, location: 'العجوزة', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر 10000 خلاني أبطل أقلق على البطاريه. معايا في كل مكان — الشغل، القهوة، السفر. أحسن 650 جنيه صرفتهم' }
+            reviewBody: { en: '', ar: 'باور بانك انكر 10000 خلاني أبطل أقلق على البطاريه. معايا في كل مكان — الشغل، القهوة، السفر. أحسن 1300 جنيه صرفتهم' }
         },
         {
             author: 'هالة سعيد', rating: 5, location: 'الرحاب', datePublished: '2026-06-11',

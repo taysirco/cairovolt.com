@@ -16,7 +16,7 @@ export const anker_powerline_usb_c_lightning_reviews: ProductReview[] = [
         },
         {
             author: 'أشرف جمال', rating: 5, location: 'الفيوم', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'كابل انكر USB-C لايتنينج جميل ومتين. حتى اللون أنيق. بـ 250 جنيه يستاهل كل مليم 👍' }
+            reviewBody: { en: '', ar: 'كابل انكر USB-C لايتنينج جميل ومتين. حتى اللون أنيق. بـ 630 جنيه يستاهل كل مليم 👍' }
         },
         {
             author: 'محمود سعيد', rating: 4, location: 'الزقازيق', datePublished: '2026-06-11',

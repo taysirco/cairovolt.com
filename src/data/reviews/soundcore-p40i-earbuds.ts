@@ -51,9 +51,9 @@ export const soundcore_p40i_earbuds_reviews: ProductReview[] = [
         },
         {
             author: 'Adel Morsy', rating: 4, location: 'المعادي', datePublished: '2026-05-19',
-            reviewBody: { en: 'Comparing P40i vs P30i: P40i wins on battery (60h vs 45h), phone stand, and 6-mic calls. P30i wins on price (250 EGP less) and similar sound quality. If you don\'t need the phone stand and extra 15h, save money on P30i. I chose P40i because weekly charging is non-negotiable for me.', ar: 'مقارنة P40i مع P30i: P40i بتكسب في البطارية (60 مقابل 45)، حامل الموبايل، ومكالمات 6 مايكات. P30i بتكسب في السعر (أقل 250 جنيه) وجودة صوت مماثلة. لو مش محتاج الحامل و15 ساعة زيادة، وفّر في P30i. اخترت P40i لأن الشحن الأسبوعي مش قابل للتفاوض بالنسبة ليا.' },
+            reviewBody: { en: 'Comparing P40i vs P30i: P40i wins on battery (60h vs 45h), phone stand, and 6-mic calls. P30i wins on price (852 EGP less) and similar sound quality. If you don\'t need the phone stand and extra 15h, save money on P30i. I chose P40i because weekly charging is non-negotiable for me.', ar: 'مقارنة P40i مع P30i: P40i بتكسب في البطارية (60 مقابل 45)، حامل الموبايل، ومكالمات 6 مايكات. P30i بتكسب في السعر (أقل 852 جنيه) وجودة صوت مماثلة. لو مش محتاج الحامل و15 ساعة زيادة، وفّر في P30i. اخترت P40i لأن الشحن الأسبوعي مش قابل للتفاوض بالنسبة ليا.' },
             pros: { en: ['60h > P30i 45h battery', '6-mic superior calls', 'Weekly charging non-negotiable'], ar: ['60 ساعة > 45 بطارية P30i', 'مكالمات 6 مايكات أفضل', 'شحن أسبوعي غير قابل للتفاوض'] },
-            cons: { en: ['250 EGP more than P30i for similar sound'], ar: ['أغلى 250 جنيه من P30i لصوت مماثل'] }
+            cons: { en: ['852 EGP more than P30i for similar sound'], ar: ['أغلى 852 جنيه من P30i لصوت مماثل'] }
         },
         {
             author: 'Hanan Shokry', rating: 5, location: 'الشيخ زايد', datePublished: '2026-04-08',

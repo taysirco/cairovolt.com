@@ -27,7 +27,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
             metaDescription: 'دليلك لاختيار ساعة ذكية لكبار السن بمميزات كشف السقوط وقياس نبض القلب وتنبيه الطوارئ — مقارنة المميزات الصحية الحقيقية والمتاحة في مصر بأسعار معقولة.',
             keywords: 'ساعة ذكية لكبار السن, ساعة كشف السقوط, ساعة قياس الضغط, ساعة ذكية صحية, ساعة ذكية لكبار السن مصر, smart watch elderly egypt, fall detection smartwatch, ساعة تنبيه طوارئ, ساعة ذكية قياس نبض القلب',
             excerpt: 'مش كل ساعة ذكية بتنفع لكبار السن. دليل المميزات الصحية الحقيقية — من كشف السقوط لتنبيه الطوارئ — واللي فعلاً متاح في مصر بسعر معقول.',
-            quickAnswer: 'ساعة ذكية لكبار السن لازم يكون فيها 6 حاجات أساسية: (1) حساس نبض القلب 24/7، (2) تنبيه عند النبض غير الطبيعي، (3) تتبع جودة النوم، (4) شاشة كبيرة وواضحة، (5) بطارية تكمّل 3+ أيام، (6) إشعارات المكالمات والرسائل بصوت عالي. ميزة كشف السقوط الحقيقية موجودة في Apple Watch و Galaxy Watch بس بأسعار مرتفعة (7,000+ جنيه). البديل العملي: Joyroom FT3 بـ 1,200 جنيه بتديك 5 من 6 مميزات أساسية.',
+            quickAnswer: 'ساعة ذكية لكبار السن لازم يكون فيها 6 حاجات أساسية: (1) حساس نبض القلب 24/7، (2) تنبيه عند النبض غير الطبيعي، (3) تتبع جودة النوم، (4) شاشة كبيرة وواضحة، (5) بطارية تكمّل 3+ أيام، (6) إشعارات المكالمات والرسائل بصوت عالي. ميزة كشف السقوط الحقيقية موجودة في Apple Watch و Galaxy Watch بس بأسعار مرتفعة (7,000+ جنيه). البديل العملي: Joyroom FT3 بـ 1,092 جنيه بتديك 5 من 6 مميزات أساسية.',
             content: `<p>أبوك أو أمك عدّوا الستين — ماشاء الله عليهم بصحة وعافية. بس إنت عارف إن كل يوم بيعدّي وإنت في الشغل بتفضل قلقان: هل حصلهم حاجة؟ هل وقعوا؟ هل ضغطهم عالي والموبايل بعيد عنهم ومش بيردّوا؟ الموقف ده مش فيلم درامي — ده واقع في كل بيت مصري فيه حد كبير لوحده 8 ساعات يومياً على الأقل.</p>
 
 <p>وبعدين تلاقي نفسك بتدوّر على \"ساعة ذكية لكبار السن\" على جوجل — وتلاقي 500 نتيجة كلها بتبيعلك \"ساعة صحية بتقيس الضغط وبتكشف السقطات\" بسعر 200 جنيه. وإنت كمهندس — أو حتى كإنسان عاقل — عارف إن حساس ضغط الدم الحقيقي (Oscillometric cuff) محتاج ضغط ميكانيكي على الشريان، مش LED أخضر على ضهر ساعة بلاستيك. فخلّينا نفرز الحقيقي من المضروب.</p>
@@ -36,7 +36,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> ساعة لكبار السن لازم فيها: حساس نبض 24/7 + تنبيه نبض غير طبيعي + تتبع نوم + شاشة كبيرة + بطارية 3+ أيام + إشعارات بصوت عالي. كشف السقوط الحقيقي = Apple Watch أو Galaxy Watch (7,000+ جنيه). البديل العملي في مصر: <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ 1,200 جنيه — 5 من 6 مميزات أساسية.
+        <strong>💡 الإجابة السريعة:</strong> ساعة لكبار السن لازم فيها: حساس نبض 24/7 + تنبيه نبض غير طبيعي + تتبع نوم + شاشة كبيرة + بطارية 3+ أيام + إشعارات بصوت عالي. كشف السقوط الحقيقي = Apple Watch أو Galaxy Watch (7,000+ جنيه). البديل العملي في مصر: <a href="/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> بـ 1,092 جنيه — 5 من 6 مميزات أساسية.
     </p>
 </div>
 
@@ -105,14 +105,14 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>في دراسة نُشرت في Journal of Medical Internet Research (2024): المرضى اللي استخدموا تنبيهات ساعة ذكية لمواعيد الأدوية حققوا نسبة التزام 87% مقارنة بـ 65% للي بيعتمدوا على الذاكرة بس. ده فرق 22 نقطة — ممكن يكون الفرق بين ضغط مضبوط وأزمة ارتفاع ضغط مفاجئة.</p>
 
-<h2>مقارنة عملية — ساعة بـ 1,200 جنيه ضد ساعة بـ 10,000 جنيه</h2>
+<h2>مقارنة عملية — ساعة بـ 1,092 جنيه ضد ساعة بـ 10,000 جنيه</h2>
 
 <p>خلّينا نكون واقعيين ونقارن اللي فعلاً في إيدنا:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">الميزة</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom FT3 (1,200ج)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Joyroom FT3 (1,092ج)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Apple Watch SE 2 (7,000ج)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:right;">Apple Watch S9 (12,000ج)</th>
     </tr></thead>
@@ -128,7 +128,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">عمر البطارية</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 أيام</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 ساعة</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">شاشة</td><td style="padding:10px;border:1px solid #d1d5db;">1.96 بوصة AMOLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.78 بوصة OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9 بوصة OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">التوافق</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">أي موبايل</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone فقط</td></tr>
-    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,200 جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ جنيه</strong></td></tr>
+    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>السعر في مصر</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,092 جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ جنيه</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ جنيه</strong></td></tr>
     </tbody>
 </table>
 
@@ -180,7 +180,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
                 },
                 {
                     question: 'أبويا عنده Samsung — إيه أفضل ساعة ليه؟',
-                    answer: 'لو ميزانيتك تسمح: Galaxy Watch 5 أو 6 (7,000+ جنيه) — عندها كشف سقوط + ECG + قياس ضغط (على Samsung فقط). لو ميزانيتك محدودة: Joyroom FT3 (1,200 جنيه) — بتشتغل على أي موبايل وعندها نبض + أكسجين + تنبيهات أدوية + بطارية أسبوع.'
+                    answer: 'لو ميزانيتك تسمح: Galaxy Watch 5 أو 6 (7,000+ جنيه) — عندها كشف سقوط + ECG + قياس ضغط (على Samsung فقط). لو ميزانيتك محدودة: Joyroom FT3 (1,092 جنيه) — بتشتغل على أي موبايل وعندها نبض + أكسجين + تنبيهات أدوية + بطارية أسبوع.'
                 },
             ],
         },
@@ -190,7 +190,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
             metaDescription: 'Guide to choosing a smartwatch for elderly parents with fall detection, heart rate monitoring, and emergency alerts — comparing real health features availabl...',
             keywords: 'smartwatch for elderly, fall detection smartwatch, blood pressure smartwatch, health smartwatch elderly, smartwatch seniors egypt, smart watch fall detection egypt, elderly health monitoring watch, emergency alert smartwatch, heart rate smartwatch elderly',
             excerpt: 'Not every smartwatch is suitable for elderly parents. A guide to real health features — from fall detection to emergency alerts — and what is actually available in Egypt at a reasonable price.',
-            quickAnswer: 'A smartwatch for elderly parents must have 6 essential features: (1) 24/7 heart rate sensor, (2) abnormal heart rate alerts, (3) sleep quality tracking, (4) large clear screen, (5) 3+ day battery life, (6) loud notifications with strong vibration. Real fall detection exists in Apple Watch and Galaxy Watch but costs 7,000+ EGP. The practical alternative: Joyroom FT3 at 1,200 EGP provides 5 of 6 essential features.',
+            quickAnswer: 'A smartwatch for elderly parents must have 6 essential features: (1) 24/7 heart rate sensor, (2) abnormal heart rate alerts, (3) sleep quality tracking, (4) large clear screen, (5) 3+ day battery life, (6) loud notifications with strong vibration. Real fall detection exists in Apple Watch and Galaxy Watch but costs 7,000+ EGP. The practical alternative: Joyroom FT3 at 1,092 EGP provides 5 of 6 essential features.',
             content: `<p>Your father or mother has passed 60 — may they stay in great health. But you know that every day you spend at work, you are constantly worried: Did something happen to them? Did they fall? Is their blood pressure spiking while their phone is in another room and they are not answering? This is not a dramatic movie — it is the reality in every Egyptian household with an elderly parent alone for at least 8 hours daily.</p>
 
 <p>So you find yourself searching "smartwatch for elderly" on Google — and get 500 results all selling you a "health watch that measures blood pressure and detects falls" for 200 EGP. And as an engineer — or even as a rational human being — you know that a real blood pressure sensor (Oscillometric cuff) requires mechanical pressure on the artery, not a green LED on the back of a plastic watch. So let us separate the real from the fake.</p>
@@ -199,7 +199,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> A smartwatch for elderly parents needs: 24/7 heart rate sensor + abnormal heart rate alerts + sleep tracking + large screen + 3+ day battery + loud notifications. Real fall detection = Apple Watch or Galaxy Watch (7,000+ EGP). Practical alternative in Egypt: <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at 1,200 EGP — 5 of 6 essential features.
+        <strong>💡 Quick Answer:</strong> A smartwatch for elderly parents needs: 24/7 heart rate sensor + abnormal heart rate alerts + sleep tracking + large screen + 3+ day battery + loud notifications. Real fall detection = Apple Watch or Galaxy Watch (7,000+ EGP). Practical alternative in Egypt: <a href="/en/smart-watches/joyroom-ft3-smartwatch" style="color:#1e40af;font-weight:600;">Joyroom FT3</a> at 1,092 EGP — 5 of 6 essential features.
     </p>
 </div>
 
@@ -268,14 +268,14 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
 
 <p>A study published in the Journal of Medical Internet Research (2024) found that patients using smartwatch medication reminders achieved an 87% adherence rate compared to 65% for those relying on memory alone. That is a 22-point difference — which could be the difference between controlled blood pressure and a sudden hypertensive crisis.</p>
 
-<h2>Practical Comparison — A 1,200 EGP Watch vs. a 10,000 EGP Watch</h2>
+<h2>Practical Comparison — A 1,092 EGP Watch vs. a 10,000 EGP Watch</h2>
 
 <p>Let us be realistic and compare what is actually available:</p>
 
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;">
     <thead><tr style="background:#f3f4f6;">
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Feature</th>
-        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom FT3 (1,200 EGP)</th>
+        <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Joyroom FT3 (1,092 EGP)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Apple Watch SE 2 (7,000 EGP)</th>
         <th style="padding:12px;border:1px solid #d1d5db;text-align:left;">Apple Watch S9 (12,000 EGP)</th>
     </tr></thead>
@@ -291,7 +291,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Battery Life</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;"><strong>5-7 days</strong></td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">18 hours</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Screen</td><td style="padding:10px;border:1px solid #d1d5db;">1.96" AMOLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.78" OLED</td><td style="padding:10px;border:1px solid #d1d5db;">1.9" OLED</td></tr>
     <tr><td style="padding:10px;border:1px solid #d1d5db;">Compatibility</td><td style="padding:10px;border:1px solid #d1d5db;color:#059669;">Any phone</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td><td style="padding:10px;border:1px solid #d1d5db;color:#f59e0b;">iPhone only</td></tr>
-    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,200 EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ EGP</strong></td></tr>
+    <tr style="background:#f0fdf4;"><td style="padding:10px;border:1px solid #d1d5db;"><strong>Price in Egypt</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>1,092 EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>7,000+ EGP</strong></td><td style="padding:10px;border:1px solid #d1d5db;"><strong>12,000+ EGP</strong></td></tr>
     </tbody>
 </table>
 
@@ -343,7 +343,7 @@ export const smart_watch_elderly_fall_detection_health: BlogArticle = {
                 },
                 {
                     question: 'My father uses Samsung — what is the best smartwatch for him?',
-                    answer: 'If budget allows: Galaxy Watch 5 or 6 (7,000+ EGP) — offers fall detection + ECG + blood pressure (Samsung only). If budget is limited: Joyroom FT3 (1,200 EGP) — works with any phone and includes heart rate + SpO2 + medication reminders + one-week battery.'
+                    answer: 'If budget allows: Galaxy Watch 5 or 6 (7,000+ EGP) — offers fall detection + ECG + blood pressure (Samsung only). If budget is limited: Joyroom FT3 (1,092 EGP) — works with any phone and includes heart rate + SpO2 + medication reminders + one-week battery.'
                 },
             ],
         },

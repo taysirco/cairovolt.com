@@ -8,7 +8,7 @@ export const anker_car_charger_dual_usb_reviews: ProductReview[] = [
         },
         {
             author: 'إيهاب رفعت', rating: 4, location: 'حلوان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'شاحن سيارة انكر عادي بيعمل اللي عليه. مخرجين USB-A كويسين. 350 جنيه سعر معقول. مفيش حاجة تميزه أووي بس أحسن من الصيني' }
+            reviewBody: { en: '', ar: 'شاحن سيارة انكر عادي بيعمل اللي عليه. مخرجين USB-A كويسين. 950 جنيه سعر معقول. مفيش حاجة تميزه أووي بس أحسن من الصيني' }
         },
         {
             author: 'نادر توفيق', rating: 5, location: 'الجيزة', datePublished: '2026-06-11',

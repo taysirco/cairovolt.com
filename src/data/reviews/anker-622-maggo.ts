@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const anker_622_maggo_reviews: ProductReview[] = [
         {
             author: 'ماجد عبد الله', rating: 4, location: 'بورسعيد', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر MagGo جيد بس السعة 5000 ملي أمبير محدودة — شحنة واحدة بس. بـ 1200 جنيه — لو محتاج سعة أكبر ممكن تاخد PowerCore 10000 بـ 650' }
+            reviewBody: { en: '', ar: 'باور بانك انكر MagGo جيد بس السعة 5000 ملي أمبير محدودة — شحنة واحدة بس. بـ 2800 جنيه — لو محتاج سعة أكبر ممكن تاخد PowerCore 10000 بـ 650' }
         },
         {
             author: 'هدى فتحي', rating: 5, location: 'الإسكندرية', datePublished: '2026-06-11',
@@ -20,7 +20,7 @@ export const anker_622_maggo_reviews: ProductReview[] = [
         },
         {
             author: 'دينا سمير', rating: 4, location: 'الشروق', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر MagGo حلو بس السعة 5000 فقط — لو محتاج أكتر من شحنة واحدة مش هيكفيك. 1200 جنيه سعر مبالغ فيه شوية' }
+            reviewBody: { en: '', ar: 'باور بانك انكر MagGo حلو بس السعة 5000 فقط — لو محتاج أكتر من شحنة واحدة مش هيكفيك. 2800 جنيه سعر مبالغ فيه شوية' }
         },
         {
             author: 'ريم عادل', rating: 5, location: 'طنطا', datePublished: '2026-06-11',
@@ -36,7 +36,7 @@ export const anker_622_maggo_reviews: ProductReview[] = [
         },
         {
             author: 'حسام الدين', rating: 4, location: 'العجوزة', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'باور بانك انكر MagGo سعره 1200 جنيه — مراتي قالت \'غالي\'. بس لما شافته ملزوق في الموبايل من غير سلك — قالت \'طب جيب لي واحد\' — كل الشكر لـ CairoVolt.' }
+            reviewBody: { en: '', ar: 'باور بانك انكر MagGo سعره 2800 جنيه — مراتي قالت \'غالي\'. بس لما شافته ملزوق في الموبايل من غير سلك — قالت \'طب جيب لي واحد\' — كل الشكر لـ CairoVolt.' }
         },
         {
             author: 'سلمى خالد', rating: 5, location: 'المهندسين', datePublished: '2026-06-11',
@@ -52,7 +52,7 @@ export const anker_622_maggo_reviews: ProductReview[] = [
         },
         {
             author: 'خالد محمود', rating: 5, location: 'المعادي', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'أنيق وعملي ومحدش يحس بيه — باور بانك انكر MagGo ده اختراع ذكي. بـ 1200 جنيه بس الراحة لا تُقدّر' }
+            reviewBody: { en: '', ar: 'أنيق وعملي ومحدش يحس بيه — باور بانك انكر MagGo ده اختراع ذكي. بـ 2800 جنيه بس الراحة لا تُقدّر' }
         },
         {
             author: 'محمود حسن', rating: 5, location: 'الفيوم', datePublished: '2026-06-11',
