@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { getAllIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
+import { getLiveIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { ArticleSchema, SpeakableSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
@@ -21,24 +21,28 @@ import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 // Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
 // (the daily reveal cron also force-revalidates on the exact day).
 export const revalidate = 3600;
-// Closed slug space (all articles ship in the repo) → real 404 for unknown
-// slugs instead of FAH soft-404.
-export const dynamicParams = false;
+// Open slug space: only LIVE articles are prerendered (see generateStaticParams).
+// dynamicParams=true lets a not-yet-published (or freshly-added) slug render
+// on-demand — the isIndexEntryLive() gate returns a REAL 404 before its
+// publishDate and flips to the full article on-demand once the date passes.
+// This avoids baking the time-based gate result into a static/ISR prerender,
+// which leaked future articles as cached 200s and stranded newly-live ones on
+// a stale not-found. Unknown slugs still 404 (getIndexEntry -> notFound()).
+export const dynamicParams = true;
 
 type Props = {
     params: Promise<{ locale: string; slug: string }>;
 };
 
 export async function generateStaticParams() {
-    // ALL slugs — NOT just the currently-live ones. Every article that ships in
-    // the repo must be a known static path. Because dynamicParams=false, a slug
-    // missing from this list is a HARD, permanent 404 that ISR can never create.
-    // A scheduled article (future publishDate) is therefore enumerated here, kept
-    // as a 404 by the isIndexEntryLive() gate in the page body, and flipped to
-    // live automatically on the next hourly ISR revalidation once its publishDate
-    // passes. Using getLiveIndexSlugs() here was the bug: it dropped every
-    // not-yet-published article from the build, 404ing it forever until a redeploy.
-    const slugs = getAllIndexSlugs();
+    // Prerender ONLY currently-live articles. Future (scheduled) articles are
+    // intentionally NOT prerendered: with dynamicParams=true they render
+    // on-demand, where the isIndexEntryLive() gate 404s them until publishDate
+    // and serves the full article once it passes — so the time-based gate result
+    // is never frozen into a stale prerender. (getAllIndexSlugs + dynamicParams
+    // =false baked the gate into the ISR/CDN cache, leaking future articles as
+    // 200 and stranding newly-live ones on a cached not-found.)
+    const slugs = getLiveIndexSlugs();
     return ['en', 'ar'].flatMap((locale) =>
         slugs.map((slug) => ({ locale, slug }))
     );
