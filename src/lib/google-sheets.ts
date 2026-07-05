@@ -128,6 +128,7 @@ export async function appendOrderToSheet(orderData: any) {
             /* L */ 'جديد',
             /* M */ idx === 0 ? buildNotesField(orderData) : '',
             /* N */ idx === 0 ? getSourceField(orderData) : '',
+            /* O */ idx === 0 ? (orderData.shippingFee ?? '') : '', // رسوم الشحن (0 = شحن مجاني)
         ]);
 
         await sheet.addRows(rows);

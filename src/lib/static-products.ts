@@ -301,8 +301,9 @@ export interface BundleResult {
  * 2. Slot 1 = Essential complement (charger for power bank, cable for charger)
  * 3. Slot 2 = Useful accessory (lower price, nice-to-have)
  * 4. Same brand ONLY (Anker → Anker, Joyroom → Joyroom)
- * 5. Essential product should be 15-60% of main price ideally
- * 6. Accessory should be 5-40% of main price ideally
+ * 5. Essential: 15-60% of main price ideally, HARD CAP 90% (never exceeds main)
+ * 6. Accessory: 5-40% ideally, HARD CAP 60%; all add-ons together <= 100% of main
+ * 6b. Cables must match the main product charging port (Lightning vs USB-C)
  * 7. Products sorted: essential first, accessory second
  */
 export function getSmartBundleProducts(product: StaticProduct): BundleResult {
@@ -311,18 +312,41 @@ export function getSmartBundleProducts(product: StaticProduct): BundleResult {
     const bundleProducts: BundleProduct[] = [];
     const usedCategories = new Set<string>([product.categorySlug]);
 
+    // Charging-port signal of the main product (for cable compatibility).
+    // Derived from slug + English name — no extra data fields needed.
+    const portSignalOf = (p: StaticProduct): 'lightning' | 'usb-c' | null => {
+        const hay = `${p.slug} ${p.translations?.en?.name || ''}`.toLowerCase();
+        if (/lightning/.test(hay)) return 'lightning';
+        if (/usb-c|type-c|usb c|typec/.test(hay)) return 'usb-c';
+        return null;
+    };
+    const mainPort = portSignalOf(product);
+
     // For each slot in the matrix (essential first, then accessory)
     for (const entry of matrix) {
         if (bundleProducts.length >= 2) break;
         if (usedCategories.has(entry.targetCategory)) continue;
 
-        // Find best product from targetCategory, same brand
+        // Running total of already-picked complements — the whole combo of
+        // add-ons must never exceed the main product's own price.
+        const spentOnAddons = bundleProducts.reduce((s, bp) => s + bp.product.price, 0);
+        const remainingBudget = product.price - spentOnAddons;
+
+        // HARD price caps (anti-exaggeration): an essential complement may
+        // never exceed 90% of the main price, an accessory never 60% — and
+        // never more than the remaining add-on budget. If nothing fits, we
+        // show fewer items rather than an overpriced add-on.
+        const capRatio = entry.slot === 'essential' ? 0.9 : 0.6;
+        const maxPrice = Math.min(product.price * capRatio, remainingBudget);
+
+        // Find best product from targetCategory, same brand family, under cap
         const candidates = staticProducts
             .filter(p =>
                 p.status === 'active' &&
                 p.slug !== product.slug &&
                 (BRAND_FAMILIES[brandLower] || [brandLower]).includes(p.brand.toLowerCase()) &&
-                p.categorySlug === entry.targetCategory
+                p.categorySlug === entry.targetCategory &&
+                p.price <= maxPrice
             );
 
         if (candidates.length === 0) continue;
@@ -355,6 +379,16 @@ export function getSmartBundleProducts(product: StaticProduct): BundleResult {
             // Prefer lower-priced options for accessory slot
             if (entry.slot === 'accessory') {
                 score += Math.max(0, 10 - Math.floor(priceRatio * 10));
+            }
+
+            // Port compatibility (cables only): a Lightning cable belongs
+            // with a Lightning device, USB-C with USB-C. Mismatched cables
+            // are penalized so an iPhone cable never rides along with a
+            // USB-C-only speaker just because it scored well on price.
+            if (p.categorySlug === 'cables') {
+                const cablePort = portSignalOf(p);
+                if (mainPort && cablePort === mainPort) score += 15;
+                else if (mainPort && cablePort && cablePort !== mainPort) score -= 12;
             }
 
             return { product: p, score };

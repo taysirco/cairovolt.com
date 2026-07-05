@@ -4,6 +4,7 @@ import { ProductImage } from '@/components/ui/ProductImage';
 import { useState, useMemo } from 'react';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 // We need a shared interface for products passed from server
 interface Product {
@@ -92,8 +93,13 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
         // Daily cost (psychological pricing)
         const dailyCost = isFullBundle && bundleData ? bundleData.dailyCost : Math.round((finalPrice / 365) * 10) / 10;
 
-        return { totalPrice, totalOriginal, bundleDiscount, finalPrice, totalSavings, dailyCost, isFullBundle };
-    }, [selectedProducts, allProducts, bundleData]);
+        // Free-shipping incentive (honest: tied to the real 3,700 EGP threshold)
+        const freeShipping = finalPrice >= FREE_SHIPPING_THRESHOLD;
+        const unlocksFreeShipping = freeShipping && mainProduct.price < FREE_SHIPPING_THRESHOLD;
+        const amountToFreeShipping = freeShipping ? 0 : FREE_SHIPPING_THRESHOLD - finalPrice;
+
+        return { totalPrice, totalOriginal, bundleDiscount, finalPrice, totalSavings, dailyCost, isFullBundle, freeShipping, unlocksFreeShipping, amountToFreeShipping };
+    }, [selectedProducts, allProducts, bundleData, mainProduct.price]);
 
     // Handlers
     const toggleProduct = (id: string) => {
@@ -142,10 +148,27 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                 {isArabic ? '🏆 الكومبو الذهبي — كمّل تجربتك' : '🏆 Golden Combo — Complete Your Setup'}
             </h3>
             {bundleData && bundleData.bundleDiscount > 0 && (
-                <p className="text-center text-sm text-green-600 dark:text-green-400 font-semibold mb-4">
+                <p className="text-center text-sm text-green-600 dark:text-green-400 font-semibold mb-1">
                     {isArabic
                         ? `خصم ${bundleData.bundleDiscount.toLocaleString()} ج.م لما تاخدهم مع بعض`
                         : `Save ${bundleData.bundleDiscount.toLocaleString()} EGP when bought together`}
+                </p>
+            )}
+            {pricing.unlocksFreeShipping ? (
+                <p className="text-center text-sm font-bold text-emerald-700 dark:text-emerald-400 mb-4">
+                    {isArabic
+                        ? '🚚 الكومبو ده بيفتحلك الشحن المجاني (بدل 70–130 ج.م)'
+                        : '🚚 This combo unlocks FREE shipping (worth 70–130 EGP)'}
+                </p>
+            ) : pricing.freeShipping ? (
+                <p className="text-center text-sm font-bold text-emerald-700 dark:text-emerald-400 mb-4">
+                    {isArabic ? '🚚 شحن مجاني لحد باب البيت' : '🚚 Free shipping to your door'}
+                </p>
+            ) : (
+                <p className="text-center text-xs text-gray-500 dark:text-gray-400 mb-4">
+                    {isArabic
+                        ? `🚚 باقي ${pricing.amountToFreeShipping.toLocaleString()} ج.م بس على الشحن المجاني`
+                        : `🚚 Only ${pricing.amountToFreeShipping.toLocaleString()} EGP away from free shipping`}
                 </p>
             )}
 
@@ -308,8 +331,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         <SvgIcon name="cart" className="w-5 h-5" />
                         {pricing.totalSavings > 0
                             ? (isArabic
-                                ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م`
-                                : `Add Combo & Save ${pricing.totalSavings.toLocaleString()} EGP`)
+                                ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م${pricing.freeShipping ? ' + شحن مجاني' : ''}`
+                                : `Add Combo & Save ${pricing.totalSavings.toLocaleString()} EGP${pricing.freeShipping ? ' + Free Shipping' : ''}`)
                             : (isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart')
                         }
                     </button>
@@ -449,6 +472,13 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                     </span>
                                 )}
 
+                                {/* Free Shipping Label */}
+                                {pricing.freeShipping && (
+                                    <p className="text-xs font-bold text-emerald-700 dark:text-emerald-400 mt-2">
+                                        🚚 {isArabic ? 'شحن مجاني' : 'Free shipping'}
+                                    </p>
+                                )}
+
                                 {/* Bundle Discount Label */}
                                 {pricing.isFullBundle && pricing.bundleDiscount > 0 && (
                                     <p className="text-xs text-green-600 dark:text-green-400 mt-1 font-medium">
@@ -474,8 +504,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                             >
                                 {pricing.totalSavings > 0
                                     ? (isArabic
-                                        ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م`
-                                        : `Add & Save ${pricing.totalSavings.toLocaleString()} EGP`)
+                                        ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م${pricing.freeShipping ? ' + شحن مجاني' : ''}`
+                                        : `Add & Save ${pricing.totalSavings.toLocaleString()} EGP${pricing.freeShipping ? ' + Free Shipping' : ''}`)
                                     : (isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart')
                                 }
                             </button>
