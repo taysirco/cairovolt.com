@@ -6,8 +6,8 @@ export const soundcore_liberty_4_nc_detail: ProductDetail = {
         ar: ['درايفر 11mm Hi-Res لصوت غني', '50h بطارية إجمالي بعلبة USB-C', 'بلوتوث 5.3 مع multipoint', 'IPX4 مقاومة للماء', 'كايرو فولت: ضمان 18 شهر، أقل سعر موثّق'],
     },
     localContext: {
-        en: 'In Cairo commute — Metro Line 3, microbuses, and streets — ambient noise exceeds 85dB. The Soundcore Liberty 4 NC delivers premium audio at 2499 EGP, giving years of daily use.',
-        ar: 'في مواصلات القاهرة — المترو والميكروباصات — الضوضاء بتتعدى 85 ديسيبل. ساوندكور Liberty 4 NC بتقدم صوت ممتاز بـ 2499 جنيه وبتدّيك سنين استخدام.',
+        en: 'In Cairo commute — Metro Line 3, microbuses, and streets — ambient noise exceeds 85dB. The Soundcore Liberty 4 NC delivers premium audio at 2570 EGP, giving years of daily use.',
+        ar: 'في مواصلات القاهرة — المترو والميكروباصات — الضوضاء بتتعدى 85 ديسيبل. ساوندكور Liberty 4 NC بتقدم صوت ممتاز بـ 2570 جنيه وبتدّيك سنين استخدام.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless Earbuds (TWS)', ar: 'سماعة لاسلكية (TWS)' },

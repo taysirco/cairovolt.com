@@ -4,15 +4,15 @@ import type { ProductReview } from './_shared';
 export const soundcore_liberty_4_nc_reviews: ProductReview[] = [
         {
             author: 'سارة جابر', rating: 4, location: 'العاشر من رمضان', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة Liberty 4 NC كويسة بس 2499 جنيه غالي. الـ ANC ممتاز لكن لو مش محتاج إلغاء ضوضاء — فيه خيارات أرخص بكتير' }
+            reviewBody: { en: '', ar: 'سماعة Liberty 4 NC كويسة بس 2570 جنيه غالي. الـ ANC ممتاز لكن لو مش محتاج إلغاء ضوضاء — فيه خيارات أرخص بكتير' }
         },
         {
             author: 'لمياء حسن', rating: 4, location: 'القاهرة الجديدة', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'سماعة Liberty 4 NC جيدة جداً بس بـ 2499 جنيه — المنافسة شديدة في الفئة دي. الـ ANC ممتاز والصوت احترافي. IPX4 بس — كنت أتمنى IPX5' }
+            reviewBody: { en: '', ar: 'سماعة Liberty 4 NC جيدة جداً بس بـ 2570 جنيه — المنافسة شديدة في الفئة دي. الـ ANC ممتاز والصوت احترافي. IPX4 بس — كنت أتمنى IPX5' }
         },
         {
             author: 'نور محمد', rating: 5, location: 'الدقي', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'احسن سماعة اشتريتها في حياتى! Liberty 4 NC بالـ ANC — عالم تاني من الصوت. 2499 جنيه لكن يستاهل كل مليم — ربنا يبارك.' }
+            reviewBody: { en: '', ar: 'احسن سماعة اشتريتها في حياتى! Liberty 4 NC بالـ ANC — عالم تاني من الصوت. 2570 جنيه لكن يستاهل كل مليم — ربنا يبارك.' }
         },
         {
             author: 'فاطمة الزهراء', rating: 5, location: 'الأقصر', datePublished: '2026-06-11',

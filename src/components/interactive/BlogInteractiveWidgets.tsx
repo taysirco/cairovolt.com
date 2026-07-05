@@ -126,7 +126,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                 locale={locale}
                 chart={`flowchart TD
     A["What's your priority?"] --> B{"Noise Cancellation?"}
-    B -->|Yes| C["Soundcore Liberty 4 NC\\n~2,499 EGP"]
+    B -->|Yes| C["Soundcore Liberty 4 NC\\n~2,570 EGP"]
     B -->|No| D{"Budget under 500 EGP?"}
     D -->|Yes| E["Joyroom T03S\\n774 EGP"]
     D -->|No| F{"Want AirPods look?"}

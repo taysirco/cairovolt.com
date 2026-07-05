@@ -6,8 +6,8 @@ export const soundcore_p30i_earbuds_detail: ProductDetail = {
         ar: ['درايفر 10mm BassUp — باس قوي، ممتاز للبوب العربي والـ EDM', 'ANC تكيّفي حتى 42dB — بيستهدف صوت المحرك في الميكروباص، الكلام في الكافيهات. وضع شفافية', '10 ساعات سماعة / 45 إجمالي — 10 دقائق = ساعتين شحن سريع. USB-C. IP54 غبار+رذاذ', 'BT 5.4 مع multipoint — تطبيق ساوندكور EQ. العلبة بتتحول لستاند موبايل', 'كايرو فولت: ضمان 18 شهر. 1,200 جنيه. ملك ANC الاقتصادي مع علبة ستاند.'],
     },
     localContext: {
-        en: 'P30i is the sweet spot between P20i (no ANC) and P40i (premium ANC). At 1,200 EGP, it undercuts Liberty 4 NC (2,499) by 52% while still offering 42dB ANC, BassUp, and the unique phone stand case. Best for Cairo commuters who want solid ANC without spending 2.5K+.',
-        ar: 'P30i هي النقطة المثالية بين P20i (بدون ANC) والـ P40i (ANC بريميوم). بـ 1,200 جنيه، أرخص من Liberty 4 NC (2,499) بـ 52% وبرضو فيها 42dB ANC، BassUp، وعلبة ستاند الموبايل الفريدة. أفضل لركاب مواصلات القاهرة اللي عايزين ANC محترم بدون ما يصرفوا 2.5K+.',
+        en: 'P30i is the sweet spot between P20i (no ANC) and P40i (premium ANC). At 1,200 EGP, it undercuts Liberty 4 NC (2,570) by 53% while still offering 42dB ANC, BassUp, and the unique phone stand case. Best for Cairo commuters who want solid ANC without spending 2.5K+.',
+        ar: 'P30i هي النقطة المثالية بين P20i (بدون ANC) والـ P40i (ANC بريميوم). بـ 1,200 جنيه، أرخص من Liberty 4 NC (2,570) بـ 53% وبرضو فيها 42dB ANC، BassUp، وعلبة ستاند الموبايل الفريدة. أفضل لركاب مواصلات القاهرة اللي عايزين ANC محترم بدون ما يصرفوا 2.5K+.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless (TWS) In-Ear', ar: 'لاسلكية حقيقية TWS داخل الأذن' },

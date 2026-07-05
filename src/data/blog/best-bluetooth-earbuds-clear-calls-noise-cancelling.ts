@@ -93,7 +93,7 @@ export const best_bluetooth_earbuds_clear_calls_noise_cancelling: BlogArticle = 
 <p>بناءً على اختبارات معمل كايرو فولت، نوصي بالموديلات التالية المتوفرة في السوق المصري لعام 2026:</p>
 <ul style="line-height:2;">
     <li><strong>الفئة الرائدة (بدون حدود للميزانية):</strong> تظل سماعة **Apple AirPods Pro 2** هي الخيار الأفضل لمستخدمي الآيفون، وسماعة **Samsung Galaxy Buds3 Pro** هي الأفضل لمستخدمي الاندرويد وسامسونج؛ حيث تقدمان عزل ضوضاء ديناميكي مذهل ومكالمات فائقة النقاء بأسعار تتراوح بين <strong>12,000 إلى 15,500 جنيه</strong>.</li>
-    <li><strong>الفئة المتوسطة الممتازة (القيمة الفائقة):</strong> سماعة **Anker Soundcore Liberty 4 NC** تقدم أداء عزل ANC ينافس الفئات الرائدة بعمق 48.5 ديسيبل وبطارية خارقة بسعر يتراوح بين <strong>4,200 إلى 5,500 جنيه</strong>. كما تقدم سماعة **Anker Soundcore R50i NC** أداءً رائعاً بسعر حوالي <strong>2,200 إلى 2,500 جنيه</strong>.</li>
+    <li><strong>الفئة المتوسطة الممتازة (القيمة الفائقة):</strong> سماعة **Anker Soundcore Liberty 4 NC** تقدم أداء عزل ANC ينافس الفئات الرائدة وبطارية خارقة بسعر حوالي <strong>2,570 جنيه</strong>. كما تقدم سماعة **Anker Soundcore R50i NC** أداءً رائعاً بسعر حوالي <strong>2,200 إلى 2,500 جنيه</strong>.</li>
     <li><strong>الفئة الاقتصادية (الميزانية المحدودة):</strong> سماعة **Joyroom JR-T03S Pro** أو سلسلة **Joyroom Fun** تقدم تجربة عزل مقبولة ومكالمات واضحة في الأماكن الهادئة بسعر اقتصادي يتراوح بين <strong>1,100 إلى 1,600 جنيه</strong>.</li>
 </ul>
 
@@ -204,7 +204,7 @@ export const best_bluetooth_earbuds_clear_calls_noise_cancelling: BlogArticle = 
 <p>Based on performance testing in the CairoVolt lab, here are our recommended models for the Egyptian market in 2026:</p>
 <ul style="line-height:2;">
     <li><strong>Premium Category (Best Performance):</strong> The **Apple AirPods Pro 2** is the top choice for iOS users, while the **Samsung Galaxy Buds3 Pro** provides excellent performance for Samsung and Android users. Both offer advanced ANC and mic quality, retailing between <strong>12,000 and 15,500 EGP</strong>.</li>
-    <li><strong>Mid-Range Category (Best Value):</strong> The **Anker Soundcore Liberty 4 NC** delivers performance that rivals premium models, featuring 48.5dB noise reduction and long battery life, retailing between <strong>4,200 and 5,500 EGP</strong>. The **Anker Soundcore R50i NC** is a solid option priced between <strong>2,200 and 2,500 EGP</strong>.</li>
+    <li><strong>Mid-Range Category (Best Value):</strong> The **Anker Soundcore Liberty 4 NC** delivers performance that rivals premium models, with strong noise reduction and long battery life, priced at around <strong>2,570 EGP</strong>. The **Anker Soundcore R50i NC** is a solid option priced between <strong>2,200 and 2,500 EGP</strong>.</li>
     <li><strong>Budget Category (Affordable):</strong> The **Joyroom JR-T03S Pro** or the **Joyroom Fun Series** offers basic active noise cancellation and acceptable call quality for quiet environments, retailing between <strong>1,100 and 1,600 EGP</strong>.</li>
 </ul>
 

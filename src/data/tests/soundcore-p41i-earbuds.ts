@@ -31,12 +31,12 @@ export const soundcore_p41i_earbuds_lab: ProductLabData = {
     voiceFaqAr: [
         { question: 'P41i ولا P40i؟', answer: 'P41i: 192h بطارية، باور بانك 3,000mAh، ستاند، كابل مدمج، 2,439 جنيه. P40i: 57h بطارية، ANC أنظف، 6 مايكات أفضل للمكالمات، 2,052 جنيه. اختار P41i للسفر والبطارية. P40i للصوت والمكالمات.' },
         { question: 'العلبة بتشحن الموبايل فعلاً؟', answer: 'أيوه — 3,000mAh بخرج 10W. شحنت iPhone 17 من 15% لـ 45%. مش بتشحن كامل بس كفاية لطوارئ.' },
-        { question: 'فيها LDAC؟', answer: 'لأ — P41i بتدعم AAC وSBC بس. لو محتاج LDAC: Liberty 4 NC (2,499 جنيه) أو Liberty 5 (4,651 جنيه).' },
+        { question: 'فيها LDAC؟', answer: 'لأ — P41i بتدعم AAC وSBC بس. لو محتاج LDAC: Liberty 4 NC (2,570 جنيه) أو Liberty 5 (4,651 جنيه).' },
     ],
     voiceFaqEn: [
         { question: 'P41i or P40i?', answer: 'P41i: 192h battery, 3,000mAh powerbank, stand, built-in cable, 2,439 EGP. P40i: 57h battery, cleaner ANC, better 6-mic calls, 2,052 EGP. Choose P41i for travel/battery. P40i for sound/calls.' },
         { question: 'Does the case really charge your phone?', answer: 'Yes — 3,000mAh at 10W output. Charged iPhone 17 from 15% to 45%. Not a full charge but enough for emergencies.' },
-        { question: 'Does it have LDAC?', answer: 'No — P41i supports AAC and SBC only. For LDAC: Liberty 4 NC (2,499 EGP) or Liberty 5 (4,651 EGP).' },
+        { question: 'Does it have LDAC?', answer: 'No — P41i supports AAC and SBC only. For LDAC: Liberty 4 NC (2,570 EGP) or Liberty 5 (4,651 EGP).' },
     ],
     isAccessoryFor: [
         { name: 'iPhone 17 Pro Max' },

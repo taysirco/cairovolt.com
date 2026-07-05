@@ -61,7 +61,7 @@ export const soundcore_a30i_earbuds = {
             faqs: [
                     { question: "A30i or P30i — which should I buy?", answer: "A30i: 46dB stronger ANC, 6mm (less bass), 24h, lipstick case, 1,450 EGP. P30i: 42dB ANC, 10mm (more bass), 45h, phone stand case, 1,200 EGP. ANC priority: A30i. Bass + battery priority: P30i." },
                     { question: "Is the A30i bass weak because of the 6mm driver?", answer: "Compared to 10mm drivers: yes, bass lacks depth. Mids and vocals are clear and balanced. Soundcore app EQ can boost bass but introduces slight distortion at max. A30i excels at podcasts and calls, not bass-heavy music." },
-                    { question: "How does A30i's 46dB ANC compare to premium earbuds?", answer: "46dB rated translates to ~38dB real-world. Excellent for Metro/bus engine noise. Limited against speech. Not as deep as Liberty 4 NC (2,499 EGP) but remarkable for this price class." },
+                    { question: "How does A30i's 46dB ANC compare to premium earbuds?", answer: "46dB rated translates to ~38dB real-world. Excellent for Metro/bus engine noise. Limited against speech. Not as deep as Liberty 4 NC (2,570 EGP) but remarkable for this price class." },
                     { question: "Does the lipstick case actually fit in a shirt pocket?", answer: "Yes — 78mm × 32mm, roughly the size of a thick marker. Fits in shirt pocket, jeans coin pocket, and small clutch purse. Smallest ANC earbuds case in our catalog." },
                     { question: "Can I use A30i for calls in a noisy office?", answer: "4-mic AI works well in quiet/moderate environments. Office with AC: clear. Street noise: callers hear some background. Heavy construction noise: switch to a quiet spot." },
             ]
@@ -100,7 +100,7 @@ export const soundcore_a30i_earbuds = {
             faqs: [
                     { question: "A30i ولا P30i — أشتري أنهي؟", answer: "A30i: 46dB ANC أقوى، 6mm (باس أقل)، 24 ساعة، علبة ليبستيك، 1,450 جنيه. P30i: 42dB ANC، 10mm (باس أقوى)، 45 ساعة، علبة ستاند، 1,200 جنيه. أولوية العزل: A30i. أولوية الباس + البطارية: P30i." },
                     { question: "الباس ضعيف في A30i بسبب درايفر 6mm؟", answer: "مقارنة بدرايفرات 10mm: أيوه، الباس ناقص العمق. الميد والأصوات واضحة ومتوازنة. تطبيق ساوندكور بيقدر يعزز الباس بس بيعمل تشويه خفيف. A30i قوتها في البودكاست والمكالمات، مش الموسيقى bass-heavy." },
-                    { question: "46dB ANC بتاعة A30i بتوصل للبريميوم؟", answer: "46dB مُعلن بيترجم لـ ~38dB حقيقي. ممتاز لضوضاء محرك المترو/الأتوبيس. محدود ضد الكلام. مش عميقة زي Liberty 4 NC (2,499 جنيه) بس رائعة للسعر ده." },
+                    { question: "46dB ANC بتاعة A30i بتوصل للبريميوم؟", answer: "46dB مُعلن بيترجم لـ ~38dB حقيقي. ممتاز لضوضاء محرك المترو/الأتوبيس. محدود ضد الكلام. مش عميقة زي Liberty 4 NC (2,570 جنيه) بس رائعة للسعر ده." },
                     { question: "علبة أحمر الشفاه بتدخل جيب القميص فعلاً؟", answer: "أيوه — 78mm × 32mm، حجم ماركر سميك تقريباً. بتدخل جيب القميص، جيب العملات في الجينز، وشنطة كلاتش صغيرة. أصغر علبة ANC في الكتالوج." },
                     { question: "أقدر أستخدم A30i للمكالمات في مكتب صاخب؟", answer: "4 مايكات AI بتشتغل كويس في البيئات الهادية/المعتدلة. مكتب بتكييف: واضحة. ضوضاء شارع: المتصلين بيسمعوا خلفية. ضوضاء بناء: انقل لمكان هادي." },
             ]
