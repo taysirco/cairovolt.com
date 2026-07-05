@@ -332,7 +332,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@id': 'https://cairovolt.com/#shipping-egypt',
                 shippingRate: {
                     '@type': 'MonetaryAmount',
-                    value: product.price >= FREE_SHIPPING_THRESHOLD ? "0.00" : "60.00",
+                    value: product.price >= FREE_SHIPPING_THRESHOLD ? "0.00" : "70.00",
                     currency: 'EGP',
                 },
                 shippingDestination: {

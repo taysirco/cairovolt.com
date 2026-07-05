@@ -49,7 +49,7 @@ function getProducts(): FeedProduct[] {
                 brand: p.brand,
                 gtin: (p as Record<string, unknown>).gtin as string | undefined,
                 condition: 'new',
-                shippingPrice: p.price >= FREE_SHIPPING_THRESHOLD ? 0 : 60,
+                shippingPrice: p.price >= FREE_SHIPPING_THRESHOLD ? 0 : 70,
             };
         });
 }

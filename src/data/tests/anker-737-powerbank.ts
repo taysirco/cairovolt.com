@@ -29,7 +29,7 @@ export const anker_737_powerbank_lab: ProductLabData = {
             },
             {
                 question: 'لو طلبت أوردر النهاردة للتجمع أو زايد يوصلني امتى؟ وفيه مصاريف شحن؟',
-                answer: 'لو طلبت قبل الساعة 2 الظهر، بيطلع من مخازننا في بوسطة ويوصلك القاهرة والجيزة خلال 24 لـ 48 ساعة بالكتير. وتكلفة الشحن من 60 لـ 100 جنيه حسب المحافظة، والشحن بيكون مجاني بالكامل لو طلبك معدي 3,700 جنيه.',
+                answer: 'لو طلبت قبل الساعة 2 الظهر، بيطلع من مخازننا في بوسطة ويوصلك القاهرة والجيزة خلال 24 لـ 48 ساعة بالكتير. وتكلفة الشحن من 70 لـ 130 جنيه حسب المحافظة، والشحن بيكون مجاني بالكامل لو طلبك معدي 3,700 جنيه.',
             },
             {
                 question: 'إيه يضمنلي إن شواحن أنكر وجوي روم من كايرو فولت أصلية مش مضروبة؟',
@@ -43,7 +43,7 @@ export const anker_737_powerbank_lab: ProductLabData = {
             },
             {
                 question: 'How fast is delivery and what are shipping costs?',
-                answer: 'If you order before 2 PM, it ships from our Bosta warehouse. Cairo/Giza delivery in 24-48 hours. Shipping is 60-100 EGP depending on governorate, and free for orders above 3,700 EGP.',
+                answer: 'If you order before 2 PM, it ships from our Bosta warehouse. Cairo/Giza delivery in 24-48 hours. Shipping is 70-130 EGP depending on governorate, and free for orders above 3,700 EGP.',
             },
             {
                 question: 'How can I verify Anker products from CairoVolt are original?',

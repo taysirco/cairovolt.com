@@ -239,7 +239,7 @@ export async function GET(req: NextRequest) {
                 url: `https://cairovolt.com/${(product.brand as string || '').toLowerCase()}/${product.categorySlug}/${product.slug}`,
             },
             shipping: {
-                fee: price >= FREE_SHIPPING_THRESHOLD ? 0 : 60, // Minimum / Default shipping
+                fee: price >= FREE_SHIPPING_THRESHOLD ? 0 : 70, // Minimum / Default shipping
                 currency: 'EGP',
                 freeAbove: FREE_SHIPPING_THRESHOLD,
                 estimatedDays: { min: 1, max: 5 },

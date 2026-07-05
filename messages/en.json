@@ -201,7 +201,7 @@
         "shippingCost": {
             "title": "Shipping Cost",
             "freeShipping": "🎉 Free shipping for orders over 3,700 EGP!",
-            "belowMinimum": "Orders under 3,700 EGP: 60-100 EGP depending on governorate"
+            "belowMinimum": "Orders under 3,700 EGP: 70-130 EGP depending on governorate"
         },
         "cod": {
             "title": "Cash on Delivery",
@@ -257,7 +257,7 @@
                 "q2": "Can I modify my order after placing it?",
                 "a2": "Contact us within 1 hour of placing your order and we can make changes.",
                 "q3": "Is there a minimum order amount?",
-                "a3": "No minimum order. However, orders under 3,700 EGP have a 60-100 EGP shipping fee depending on governorate."
+                "a3": "No minimum order. However, orders under 3,700 EGP have a 70-130 EGP shipping fee depending on governorate."
             },
             "shipping": {
                 "title": "Shipping",

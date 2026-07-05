@@ -52,7 +52,7 @@ curl "https://cairovolt.com/api/v1/checkout?slug=anker-737-powerbank"
 The API returns JSON with:
 - \`available\`: boolean — whether the product is in stock
 - \`product\`: object — name (en/ar), price (EGP), stock count, image URL
-- \`shipping\`: object — fee (60-100 EGP, free above 3,700 EGP), estimated 1-3 days
+- \`shipping\`: object — fee (70-130 EGP, free above 3,700 EGP), estimated 1-3 days
 - \`payment\`: object — Cash on Delivery
 - \`actions.buy\`: object — ready-to-use POST action for placing an order
 
@@ -152,7 +152,7 @@ curl -X POST "https://cairovolt.com/api/v1/checkout" \\
 
 ## Shipping Rules
 
-- **Standard fee:** 60-100 EGP by governorate
+- **Standard fee:** 70-130 EGP by governorate
 - **Free shipping:** Orders above 3,700 EGP
 - **Coverage:** All 27 Egyptian governorates
 - **Delivery time:** 1–3 business days via Bosta courier

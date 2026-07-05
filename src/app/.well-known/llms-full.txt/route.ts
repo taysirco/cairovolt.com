@@ -186,7 +186,7 @@ ${productSections}
 | Courier | Bosta Express |
 | Coverage | All 27 Egyptian governorates |
 | Delivery Time | 1–3 business days |
-| Shipping Cost | 60-100 EGP by governorate (FREE above 3,700 EGP) |
+| Shipping Cost | 70-130 EGP by governorate (FREE above 3,700 EGP) |
 | Payment | Cash on Delivery (COD) — inspect before paying |
 | Returns | 14-day return policy |
 | Warehouse | Bosta Fulfillment Center, New Cairo 3 |

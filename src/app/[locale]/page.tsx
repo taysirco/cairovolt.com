@@ -306,7 +306,7 @@ export default async function Home({ params }: Props) {
               qaList={isRTL ? [
                 { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت بمخازن بوسطة بالتجمع الثالث في 37 درجة. بيشغل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.' },
                 { question: 'إيه يضمنلي إن منتجات كايرو فولت أصلية؟', answer: 'كايرو فولت شركة مسجلة رسمياً (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
-                { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، الشحن من 60 جنيه أو مجاني فوق 3,700 جنيه.' },
+                { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، الشحن من 70 جنيه أو مجاني فوق 3,700 جنيه.' },
                 { question: 'فين فروع وتوكيل انكر في مصر؟', answer: 'كايرو فولت هو الموزع المعتمد لمنتجات انكر في مصر. نوصل لكل المحافظات عبر شركة بوسطة (Active). مقرنا في التجمع الثالث، القاهرة الجديدة. تواصل معنا واتساب لأي استفسار.' },
                 { question: 'إزاي أتأكد إن شاحن انكر الأصلي مش تقليد؟', answer: 'كل منتج انكر أصلي عليه كود QR على العلبة. امسحه على anker.com/verify وهيأكدلك الأصالة فوراً. لو اشتريت من كايرو فولت، كل المنتجات أصلية 100% مع ضمان 18 شهر استبدال فوري.' },
                 { question: 'كم سعر باور بانك انكر 10000 في مصر؟', answer: 'سعر باور بانك انكر 10000 هو 1,300 جنيه في كايرو فولت. يشمل ضمان 18 شهر وتوصيل سريع لكل مصر مع إمكانية الدفع عند الاستلام.' },
@@ -314,7 +314,7 @@ export default async function Home({ params }: Props) {
               ] : [
                 { question: 'Does the Anker 737 power bank run a WE router during power outages?', answer: 'Yes, we tested it at CairoVolt\'s Bosta warehouse in New Cairo 3 at 37°C. It ran a WE VDSL router for 14 hours 22 minutes continuously without restart.' },
                 { question: 'How can I verify CairoVolt products are original?', answer: 'CairoVolt is officially registered (CR: 8446). Every product is sealed with the original barcode verifiable on Anker\'s website. 18-month warranty.' },
-                { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Shipping from 60 EGP, free above 3,700 EGP.' },
+                { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Shipping from 70 EGP, free above 3,700 EGP.' },
                 { question: 'Where are Anker authorized dealers in Egypt?', answer: 'CairoVolt is the authorized Anker distributor in Egypt, delivering to all 27 governorates via Active (Bosta) courier. Based in New Cairo 3rd Settlement.' },
                 { question: 'How to verify an original Anker charger?', answer: 'Every original Anker product has a QR code on the box. Scan it at anker.com/verify for instant authenticity confirmation. CairoVolt products are 100% original with 18-month warranty.' },
               ]}
