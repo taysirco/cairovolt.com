@@ -46,6 +46,27 @@ const KNOWN_TOP_SEGMENTS = new Set([
     'admin', 'api', 'go',
 ]);
 
+// Retired product slugs → canonical successor paths (301). These are DEAD
+// slugs that were once linked from blog articles and are still crawled by
+// Google; without this map they soft-404 (the FAH adapter serves Next's
+// not-found as HTTP 200 + noindex — see KNOWN_TOP_SEGMENTS note above).
+// Deliberately fail-open: slugs NOT listed here fall through untouched, so
+// Firestore-only products (not in the static catalog) are never affected.
+// MAINTENANCE: when a product is retired/renamed, add `old-slug: '/brand/category/new-slug'`.
+const LEGACY_PRODUCT_REDIRECTS: Record<string, string> = {
+    'anker-zolo-a1610-5000': '/anker/power-banks/anker-zolo-a110d-10000',
+    'anker-zolo-a1650-10000': '/anker/power-banks/anker-zolo-a110d-10000',
+    'anker-zolo-a1671-20000': '/anker/power-banks/anker-zolo-a110e-20000',
+    'anker-a2643-45w': '/anker/wall-chargers/anker-nano-45w-smart-display-charger',
+    'anker-312-a81h5-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
+    'anker-nano-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
+    'anker-nano-4-a2337-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
+    'anker-nano-pro-20w': '/anker/wall-chargers/anker-powerport-20w',
+    'anker-usb-c-to-usb-c-100w': '/anker/cables/anker-a8050-usb-c-cable',
+    'joyroom-magnetic-wireless-power-bank-10000': '/joyroom/power-banks/joyroom-magnetic-power-bank-10000',
+    'soundcore-r50i-earbuds': '/soundcore/audio/anker-soundcore-r50i',
+};
+
 const NOT_FOUND_HTML = `<!DOCTYPE html>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -187,6 +208,20 @@ export default function middleware(request: NextRequest) {
         return NextResponse.redirect(url, { status: 301 });
     }
 
+    // 0.5 Permanent locale-prefix canonicalization. next-intl redirects /ar/*
+    // to /* (default locale is unprefixed) with a 307 TEMPORARY redirect, so
+    // Google keeps re-crawling every /ar variant instead of consolidating on
+    // the canonical URL (confirmed in GSC: 319 "Page with redirect" pages and
+    // a steady 2% of crawl requests on 302/307). Emit a real 301 before
+    // next-intl gets the request. Nothing is ever SERVED under /ar — with
+    // localePrefix 'as-needed' Arabic lives unprefixed — so this only replaces
+    // an existing redirect's status, never changes a destination.
+    if (pathname === '/ar' || pathname === '/ar/' || pathname.startsWith('/ar/')) {
+        const url = request.nextUrl.clone();
+        url.pathname = pathname === '/ar' ? '/' : pathname.slice(3);
+        return NextResponse.redirect(url, { status: 301 });
+    }
+
     // 1. Strict Lowercase Enforcement (URL Best Practice)
     if (pathname !== pathname.toLowerCase()) {
         const url = request.nextUrl.clone();
@@ -210,6 +245,24 @@ export default function middleware(request: NextRequest) {
         const url = request.nextUrl.clone();
         url.pathname = `${localePrefix || ''}/soundcore/${category}${rest || ''}`;
         return NextResponse.redirect(url, { status: 301 });
+    }
+
+    // 2.5 Retired product slug 301s — see LEGACY_PRODUCT_REDIRECTS above.
+    // Matches /(en/)?brand/<optional middle segment>/<slug>, so both the
+    // canonical 3-segment shape and old 2-segment relics (/soundcore/<slug>)
+    // are caught, whatever (possibly wrong) category the stale link used.
+    // Only fires when the FINAL segment is a known retired slug — valid
+    // product URLs and category pages can never match a map key.
+    const legacyProduct = pathname.match(
+        /^(\/en)?\/(?:anker|joyroom|soundcore)(?:\/[a-z0-9-]+)?\/([a-z0-9-]+)\/?$/
+    );
+    if (legacyProduct) {
+        const target = LEGACY_PRODUCT_REDIRECTS[legacyProduct[2]];
+        if (target) {
+            const url = request.nextUrl.clone();
+            url.pathname = `${legacyProduct[1] || ''}${target}`;
+            return NextResponse.redirect(url, { status: 301 });
+        }
     }
 
     // 3. Real 404 for unknown top-level segments (soft-404 fix).

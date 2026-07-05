@@ -321,7 +321,7 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 <h3 itemprop="name">هل في بدائل أصلية أرخص من شاحن سامسونج 25W؟</h3>
 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p itemprop="text">أيوه. <a href="/anker/wall-chargers/anker-nano-pro-20w" style="color:#2563eb;font-weight:600;">Anker Nano Pro 20W</a> بـ 350 ج.م — أصلي 100% بضمان 18 شهر، بيدّي 20W فعلية. مش هيوصل لـ "Super Fast" لأنه 20W مش 25W، لكن بيشحن S24 من 0→50% في 32 دقيقة (مقابل 28 للأصلي) — فرق 4 دقائق بس وبتوفر 100 جنيه. الأهم إنه أصلي بمعايير سلامة حقيقية.</p>
+<p itemprop="text">أيوه. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W USB-C</a> بـ 350 ج.م — أصلي 100% بضمان 18 شهر، بيدّي 20W فعلية. مش هيوصل لـ "Super Fast" لأنه 20W مش 25W، لكن بيشحن S24 من 0→50% في 32 دقيقة (مقابل 28 للأصلي) — فرق 4 دقائق بس وبتوفر 100 جنيه. الأهم إنه أصلي بمعايير سلامة حقيقية.</p>
 </div>
 </div>
 
@@ -654,7 +654,7 @@ export const samsung_25w_charger_original_vs_fake_comparison: BlogArticle = {
 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
 <h3 itemprop="name">Are there cheaper original alternatives to Samsung's 25W charger?</h3>
 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p itemprop="text">Yes. The <a href="/en/anker/wall-chargers/anker-nano-pro-20w" style="color:#2563eb;font-weight:600;">Anker Nano Pro 20W</a> costs 350 EGP — 100% genuine with an 18-month warranty delivering actual 20W. It won't achieve "Super Fast" since it's 20W not 25W, but charges an S24 from 0→50% in 32 minutes (vs. 28 for the original) — just a 4-minute difference while saving 100 EGP. More importantly, it meets real safety standards.</p>
+<p itemprop="text">Yes. The <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W USB-C</a> costs 350 EGP — 100% genuine with an 18-month warranty delivering actual 20W. It won't achieve "Super Fast" since it's 20W not 25W, but charges an S24 from 0→50% in 32 minutes (vs. 28 for the original) — just a 4-minute difference while saving 100 EGP. More importantly, it meets real safety standards.</p>
 </div>
 </div>
 

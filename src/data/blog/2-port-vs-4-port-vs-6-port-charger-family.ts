@@ -71,7 +71,7 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
 
 <p><strong>الأجهزة:</strong> 2 موبايل + لابتوب واحد + سماعة بلوتوث أحياناً.</p>
 
-<p><strong>الحل الأمثل:</strong> شاحن بمنفذين (30-45W). شاحن زي <a href="/anker/chargers/anker-nano-4-a2337-30w" style="color:#2563eb;font-weight:600;">انكر Nano 4 بـ 30W</a> بيشحن موبايل بالشحن السريع من منفذ USB-C — وفي نفس الوقت بيشحن الموبايل التاني أو السماعة من منفذ USB-A. صغير بحجم العملة تقريباً — بيتحط في أي مكان. ولو محتاج تشحن لابتوب — <a href="/anker/chargers/anker-a2643-45w" style="color:#2563eb;">شاحن 45W</a> بيشحن لابتوب صغير (MacBook Air مثلاً) وموبايل في نفس الوقت.</p>
+<p><strong>الحل الأمثل:</strong> شاحن بمنفذين (30-45W). شاحن زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3 بـ 30W</a> بيشحن موبايل بالشحن السريع من منفذ USB-C — وفي نفس الوقت بيشحن الموبايل التاني أو السماعة من منفذ USB-A. صغير بحجم العملة تقريباً — بيتحط في أي مكان. ولو محتاج تشحن لابتوب — <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">شاحن 45W</a> بيشحن لابتوب صغير (MacBook Air مثلاً) وموبايل في نفس الوقت.</p>
 
 <p><strong>ليه مش 4 منافذ؟</strong> لأنك هتدفع أكتر على منافذ مش هتستخدمها. والشاحن الأكبر بياخد مساحة أكتر بدون فايدة حقيقية. في الحالة دي — شاحن بمنفذين هو الأذكى والأوفر.</p>
 
@@ -95,7 +95,7 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
 
 <p><strong>الموقف:</strong> بتسافر ومحتاج تشحن موبايل + لابتوب + تابلت من فيشة واحدة في الفندق أو المطار.</p>
 
-<p><strong>الحل:</strong> شاحن بـ 2-3 منافذ GaN (45-65W) هو الأمثل للسفر. صغير بما يكفي يخش في جيب الشنطة — وقوي بما يكفي يشحن لابتوب وموبايل في نفس الوقت. الفنادق في مصر فيها فيشة واحدة أو اتنين بس جنب السرير — شاحن متعدد المنافذ بيحل المشكلة دي من غير ما تحتاج توصيلة أو مشترك إضافي. ولو بتسافر كتير — خلّي <a href="/anker/power-banks/anker-zolo-a1650-10000" style="color:#2563eb;">باور بانك 10000mAh</a> في الشنطة كمان عشان تشحن في الطريق.</p>
+<p><strong>الحل:</strong> شاحن بـ 2-3 منافذ GaN (45-65W) هو الأمثل للسفر. صغير بما يكفي يخش في جيب الشنطة — وقوي بما يكفي يشحن لابتوب وموبايل في نفس الوقت. الفنادق في مصر فيها فيشة واحدة أو اتنين بس جنب السرير — شاحن متعدد المنافذ بيحل المشكلة دي من غير ما تحتاج توصيلة أو مشترك إضافي. ولو بتسافر كتير — خلّي <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">باور بانك 10000mAh</a> في الشنطة كمان عشان تشحن في الطريق.</p>
 
 <h2>مفاهيم خاطئة شائعة</h2>
 
@@ -204,7 +204,7 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
 
 <p><strong>Devices:</strong> 2 phones + 1 laptop + occasional Bluetooth speaker.</p>
 
-<p><strong>Best solution:</strong> 2-port charger (30-45W). A charger like the <a href="/en/anker/chargers/anker-nano-4-a2337-30w" style="color:#2563eb;font-weight:600;">Anker Nano 4 at 30W</a> fast-charges a phone from the USB-C port — while simultaneously charging another phone or speaker from the USB-A port. It's tiny, roughly coin-sized — fits anywhere. If you need laptop charging — a <a href="/en/anker/chargers/anker-a2643-45w" style="color:#2563eb;">45W charger</a> handles a small laptop (like MacBook Air) and a phone simultaneously.</p>
+<p><strong>Best solution:</strong> 2-port charger (30-45W). A charger like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 at 30W</a> fast-charges a phone from the USB-C port — while simultaneously charging another phone or speaker from the USB-A port. It's tiny, roughly coin-sized — fits anywhere. If you need laptop charging — a <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">45W charger</a> handles a small laptop (like MacBook Air) and a phone simultaneously.</p>
 
 <p><strong>Why not 4 ports?</strong> Because you'd be paying more for ports you won't use. And the larger charger takes more space without real benefit. In this case — a 2-port charger is the smartest and most cost-effective choice.</p>
 
@@ -228,7 +228,7 @@ export const two_port_vs_4_port_vs_6_port_charger_family: BlogArticle = {
 
 <p><strong>The situation:</strong> You're traveling and need to charge a phone + laptop + tablet from a single socket at a hotel or airport.</p>
 
-<p><strong>The solution:</strong> A 2-3 port GaN charger (45-65W) is ideal for travel. Small enough to fit in a bag pocket — yet powerful enough to charge a laptop and phone simultaneously. Hotels in Egypt typically have one or two sockets near the bed — a multi-port charger solves this without needing an extra power strip. And if you travel frequently — keep an <a href="/en/anker/power-banks/anker-zolo-a1650-10000" style="color:#2563eb;">Anker 10000mAh power bank</a> in your bag for on-the-go charging.</p>
+<p><strong>The solution:</strong> A 2-3 port GaN charger (45-65W) is ideal for travel. Small enough to fit in a bag pocket — yet powerful enough to charge a laptop and phone simultaneously. Hotels in Egypt typically have one or two sockets near the bed — a multi-port charger solves this without needing an extra power strip. And if you travel frequently — keep an <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">Anker 10000mAh power bank</a> in your bag for on-the-go charging.</p>
 
 <h2>Common Misconceptions</h2>
 

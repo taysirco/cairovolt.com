@@ -79,7 +79,7 @@ export const authentic_charger_vs_3_fake_chargers_roi_math: BlogArticle = {
 
 <p>الشاحن التقليد مفيهوش حماية من ارتفاع الجهد (OVP) ولا حماية من التيار الزيادة (OCP) ولا حماية من السخونة (OTP). يعني لو حصل ارتفاع مفاجئ في الكهرباء — الشاحن مش هيحمي الموبايل. والأسوأ: شواحن تقليد كتير في مصر اتسببت في حرائق صغيرة وانفجارات بطاريات.</p>
 
-<p>شاحن أصلي زي <a href="/anker/chargers/anker-nano-4-a2337-30w" style="color:#2563eb;font-weight:600;">انكر Nano 4</a> فيه <strong>7 طبقات حماية</strong>: حماية من ارتفاع الجهد + ارتفاع التيار + ارتفاع الحرارة + الماس الكهربائي + التيار الراجع + الشحن الزيادة + حماية الدايرة القصيرة. ده مش رفاهية — ده تأمين.</p>
+<p>شاحن أصلي زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر 511 نانو 3</a> فيه <strong>7 طبقات حماية</strong>: حماية من ارتفاع الجهد + ارتفاع التيار + ارتفاع الحرارة + الماس الكهربائي + التيار الراجع + الشحن الزيادة + حماية الدايرة القصيرة. ده مش رفاهية — ده تأمين.</p>
 
 <h2>الجزء التالت — الحساب الكامل</h2>
 
@@ -226,7 +226,7 @@ export const authentic_charger_vs_3_fake_chargers_roi_math: BlogArticle = {
 
 <p>Fake chargers lack over-voltage protection (OVP), over-current protection (OCP), and over-temperature protection (OTP). So if there's a sudden voltage spike — the charger won't protect the phone. Worse: many fake chargers in Egypt have caused small fires and battery explosions.</p>
 
-<p>An original charger like the <a href="/en/anker/chargers/anker-nano-4-a2337-30w" style="color:#2563eb;font-weight:600;">Anker Nano 4</a> has <strong>7 layers of protection</strong>: over-voltage + over-current + over-temperature + short circuit + reverse current + overcharge + circuit protection. This isn't luxury — it's insurance.</p>
+<p>An original charger like the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3</a> has <strong>7 layers of protection</strong>: over-voltage + over-current + over-temperature + short circuit + reverse current + overcharge + circuit protection. This isn't luxury — it's insurance.</p>
 
 <h2>Part 3 — The Complete Calculation</h2>
 

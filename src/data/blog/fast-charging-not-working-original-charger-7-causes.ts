@@ -73,7 +73,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
     </tbody>
 </table>
 
-<p><strong>المشكلة الشائعة:</strong> إنت عندك شاحن 45W أصلي بس بتستخدم كابل USB-A إلى USB-C من درج قديم. الكابل ده أقصى قدرته 10-12W — يعني الشاحن بيدّي 45W بس الكابل مش بيمرّر غير 10W. النتيجة: شحن عادي بطيء. الحل: استخدم كابل <strong>USB-C إلى USB-C</strong> يدعم 60W على الأقل — زي <a href="/anker/cables/anker-usb-c-to-usb-c-100w" style="color:#2563eb;font-weight:600;">كابل انكر USB-C 100W</a>.</p>
+<p><strong>المشكلة الشائعة:</strong> إنت عندك شاحن 45W أصلي بس بتستخدم كابل USB-A إلى USB-C من درج قديم. الكابل ده أقصى قدرته 10-12W — يعني الشاحن بيدّي 45W بس الكابل مش بيمرّر غير 10W. النتيجة: شحن عادي بطيء. الحل: استخدم كابل <strong>USB-C إلى USB-C</strong> يدعم 60W على الأقل — زي <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر USB-C 100W</a>.</p>
 
 <h2>السبب 2: المنفذ مسدود — التراب عدو الشحن السريع</h2>
 
@@ -209,7 +209,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 
 <p><strong>المشكلة الشائعة:</strong> عندك موبايل OPPO Reno بـ SuperVOOC 65W — واشتريت شاحن USB-PD 65W. الشاحن "65 واط" والموبايل "65 واط" — بس البروتوكولات مختلفة! الموبايل مش هيتعرف على الشحن السريع لأن SuperVOOC محتاج شاحن OPPO + كابل OPPO مخصص. النتيجة: شحن 10W عادي بدل 65W. نفس الحكاية مع شاومي HyperCharge وهواوي SuperCharge.</p>
 
-<p><strong>الحل:</strong> USB-PD هو المعيار العالمي اللي بيشتغل مع أكبر عدد من الأجهزة. <a href="/anker/chargers/anker-nano-4-a2337-30w" style="color:#2563eb;font-weight:600;">شاحن انكر Nano 4 بـ 30W USB-PD</a> بيشحن آيفون وسامسونج وبكسل بأقصى سرعة. بس لو عندك OPPO أو شاومي — لازم شاحنهم الأصلي عشان تاخد أقصى سرعة (رغم إن USB-PD هيشحنهم بسرعة معقولة — 15-20W — مش أقصى سرعة بس).</p>
+<p><strong>الحل:</strong> USB-PD هو المعيار العالمي اللي بيشتغل مع أكبر عدد من الأجهزة. <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر 511 نانو 3 بـ 30W USB-PD</a> بيشحن آيفون وسامسونج وبكسل بأقصى سرعة. بس لو عندك OPPO أو شاومي — لازم شاحنهم الأصلي عشان تاخد أقصى سرعة (رغم إن USB-PD هيشحنهم بسرعة معقولة — 15-20W — مش أقصى سرعة بس).</p>
 
 <h2>دليل التشخيص السريع — اعمل الخطوات دي بالترتيب</h2>
 
@@ -303,7 +303,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
     </tbody>
 </table>
 
-<p><strong>The common problem:</strong> You have a genuine 45W charger but you're using a USB-A to USB-C cable from an old drawer. That cable maxes out at 10-12W — so the charger outputs 45W but the cable only passes through 10W. Result: slow standard charging. The fix: use a <strong>USB-C to USB-C</strong> cable rated for 60W minimum — like the <a href="/en/anker/cables/anker-usb-c-to-usb-c-100w" style="color:#2563eb;font-weight:600;">Anker USB-C 100W cable</a>.</p>
+<p><strong>The common problem:</strong> You have a genuine 45W charger but you're using a USB-A to USB-C cable from an old drawer. That cable maxes out at 10-12W — so the charger outputs 45W but the cable only passes through 10W. Result: slow standard charging. The fix: use a <strong>USB-C to USB-C</strong> cable rated for 60W minimum — like the <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C 100W cable</a>.</p>
 
 <h2>Cause 2: Clogged Port — Lint Is the Enemy of Fast Charging</h2>
 
@@ -437,7 +437,7 @@ export const fast_charging_not_working_original_charger_7_causes: BlogArticle = 
 
 <p><strong>The common problem:</strong> You have an OPPO Reno with SuperVOOC 65W — and bought a USB-PD 65W charger. The charger is "65 watts" and the phone is "65 watts" — but the protocols are different! The phone won't recognize fast charging because SuperVOOC requires an OPPO charger + OPPO proprietary cable. Result: standard 10W charging instead of 65W. Same story with Xiaomi HyperCharge and Huawei SuperCharge.</p>
 
-<p><strong>The fix:</strong> USB-PD is the universal standard that works with the widest range of devices. An <a href="/en/anker/chargers/anker-nano-4-a2337-30w" style="color:#2563eb;font-weight:600;">Anker Nano 4 30W USB-PD charger</a> will fast-charge iPhones, Samsungs, and Pixels at maximum speed. But if you have OPPO or Xiaomi — you need their original charger for maximum speed (though USB-PD will still charge them at a reasonable 15-20W — just not maximum).</p>
+<p><strong>The fix:</strong> USB-PD is the universal standard that works with the widest range of devices. An <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker 511 Nano 3 30W USB-PD charger</a> will fast-charge iPhones, Samsungs, and Pixels at maximum speed. But if you have OPPO or Xiaomi — you need their original charger for maximum speed (though USB-PD will still charge them at a reasonable 15-20W — just not maximum).</p>
 
 <h2>Quick Diagnostic Checklist — Follow These Steps in Order</h2>
 

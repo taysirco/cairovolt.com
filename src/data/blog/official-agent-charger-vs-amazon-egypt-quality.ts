@@ -262,7 +262,7 @@ export const official_agent_charger_vs_amazon_egypt_quality: BlogArticle = {
 <h2>8. CairoVolt Lab Guidelines for Smart Purchasing</h2>
 <p>To summarize, the smart financial choice is all about balance:</p>
 <ul style="line-height:2;">
-<li>🛒 Buy original chargers on Amazon Egypt during discount events (like White Friday or bank promotions) but **only** from the brand's official store or directly from Amazon. We recommend the <a href="/en/anker/wall-chargers/anker-nano-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W charger</a> for excellent performance.</li>
+<li>🛒 Buy original chargers on Amazon Egypt during discount events (like White Friday or bank promotions) but **only** from the brand's official store or directly from Amazon. We recommend the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W charger</a> for excellent performance.</li>
 <li>🛒 Pair your adapter with original cables. Do not combine a premium charger with a cheap, unverified cable. Check out our <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;">Anker PowerLine cables</a> for certified safety.</li>
 <li>🛒 If the specific model is out of stock from official sellers on Amazon, do not take the risk with unverified third-party sellers. Go directly to a physical store of the authorized agent and buy it at the official price. It is cheaper than replacing your phone's mainboard.</li>
 </ul>

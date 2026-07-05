@@ -70,13 +70,13 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
 <p>جسمك درجة حرارته 37°C — وده كافي يخلي الموبايل في الجيب الداخلي للجاكيت عند 25-30°C حتى لو الجو بره 5°C. متحطش الموبايل في جيب البنطلون الخارجي أو في الشنطة لو هتقعد بره فترة طويلة. الجيب الداخلي للجاكيت أو للمعطف هو أحسن مكان.</p>
 
 <h3>القاعدة 3: استخدم باور بانك كحل طوارئ ذكي</h3>
-<p>لو بره وموبايلك قرّب يخلص — <a href="/anker/power-banks/anker-zolo-a1610-5000" style="color:#2563eb;font-weight:600;">باور بانك انكر 5000mAh</a> في جيبك بيديك شحنة كاملة. والميزة: الباور بانك والموبايل لما يكونوا في جيبك — الاتنين في درجة حرارة مقبولة (حرارة الجسم). يعني بتشحن والبطارية دافية — وده آمن تماماً. بس متشحنش من باور بانك سايبه في شنطة في الشارع في البرد — نفس القاعدة: الشاحن والموبايل لازم يكونوا في درجة حرارة مقبولة.</p>
+<p>لو بره وموبايلك قرّب يخلص — <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">باور بانك انكر 10000mAh</a> في جيبك بيديك شحنة كاملة. والميزة: الباور بانك والموبايل لما يكونوا في جيبك — الاتنين في درجة حرارة مقبولة (حرارة الجسم). يعني بتشحن والبطارية دافية — وده آمن تماماً. بس متشحنش من باور بانك سايبه في شنطة في الشارع في البرد — نفس القاعدة: الشاحن والموبايل لازم يكونوا في درجة حرارة مقبولة.</p>
 
 <h3>القاعدة 4: متسيبش الموبايل في العربية بالليل</h3>
 <p>في ليالي الشتاء في إسكندرية ومرسى مطروح — درجة الحرارة ممكن تنزل لـ 3-7°C. جوا العربية بالليل ممكن توصل 2-5°C لو العربية مش في جراج. لو سيبت الموبايل في العربية طول الليل — البطارية هتكون باردة جداً الصبح. لو وصّلته بالشاحن في العربية وهو لسه بارد — بتعمل ضرر دائم. الحل: خد الموبايل معاك جوا البيت — وده كفاية. ولو هتشحنه في العربية الصبح — شغّل العربية واستنى 10 دقايق لحد ما التدفئة تسخّن الجو جوا — وبعدين وصّل الشاحن.</p>
 
 <h3>القاعدة 5: الشحن البطيء أحسن من السريع في البرد</h3>
-<p>لو مضطر تشحن والموبايل لسه بارد شوية (مش متجمد — بس بارد) — <a href="/anker/chargers/anker-312-a81h5-30w" style="color:#2563eb;">شاحن 30W</a> أفضل من 65W في الحالة دي. الشحن الأبطأ بيولّد ضغط أقل على الخلايا الباردة. معظم الموبايلات الحديثة بتعمل throttling تلقائي وبتبطّئ الشحن في البرد — بس مش كل الموبايلات بتعمل كده. الشاحن الأضعف بيكون خط حماية إضافي.</p>
+<p>لو مضطر تشحن والموبايل لسه بارد شوية (مش متجمد — بس بارد) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">شاحن 30W</a> أفضل من 65W في الحالة دي. الشحن الأبطأ بيولّد ضغط أقل على الخلايا الباردة. معظم الموبايلات الحديثة بتعمل throttling تلقائي وبتبطّئ الشحن في البرد — بس مش كل الموبايلات بتعمل كده. الشاحن الأضعف بيكون خط حماية إضافي.</p>
 
 <h3>القاعدة 6: راقب صحة البطارية بعد كل شتاء</h3>
 <p>لو بتعيش في إسكندرية أو الساحل الشمالي — اعمل فحص سريع لصحة البطارية بعد انتهاء الشتاء. على آيفون: الإعدادات → البطارية → صحة البطارية. على سامسونج: الإعدادات → العناية بالبطارية → التشخيصات. لو لاحظت إن السعة نزلت أكتر من 5% في شتا واحد — ممكن يكون حصل شحن في البرد بدون ما تاخد بالك. ولو عايز تعرف أكتر عن علامات تلف البطارية بشكل عام — اقرأ مقالنا عن <a href="/blog/phone-battery-needs-replacement-5-signs" style="color:#2563eb;">الـ 5 علامات إن بطارية موبايلك عايزة تتغيّر</a>.</p>
@@ -87,7 +87,7 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
 
 <p><strong>سيناريو 2 — رحلة تخييم في سيناء والحرارة تحت الصفر:</strong> خلّي الموبايل والباور بانك في كيس النوم معاك بالليل (حرارة جسمك كفاية). اشحن جوا الخيمة في الصبح لما الشمس تدفّي الجو.</p>
 
-<p><strong>سيناريو 3 — شغل في الشارع في يناير والموبايل بيخلص:</strong> خلّي باور بانك <a href="/anker/power-banks/anker-zolo-a1650-10000" style="color:#2563eb;">انكر 10000mAh</a> في جيب الجاكيت الداخلي واشحن منه — الاتنين دافيين والشحن آمن.</p>
+<p><strong>سيناريو 3 — شغل في الشارع في يناير والموبايل بيخلص:</strong> خلّي باور بانك <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">انكر 10000mAh</a> في جيب الجاكيت الداخلي واشحن منه — الاتنين دافيين والشحن آمن.</p>
 
 <h2>هل البرد في مصر خطير فعلاً على الموبايل؟</h2>
 
@@ -129,7 +129,7 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
 
 <p>البرد بيبطّئ البطارية وبيقلل سعتها المؤقتة — بس ده بيرجع لما الموبايل يسخن. المشكلة الحقيقية هي الشحن في البرد — لأن ده بيسبب ضرر كيميائي دائم للخلايا الداخلية. القاعدة بسيطة وواضحة: سخّن الأول — اشحن بعدين. وخلّي الموبايل قريب من جسمك في الشتاء — الجيب الداخلي للجاكيت هو أحسن مكان. كده كفاية تحمي بطاريتك لسنين.</p>
 
-<p><strong>ومتنساش:</strong> <a href="/anker/cables" style="color:#2563eb;">كابلات انكر</a> المعتمدة بتضمن توصيل التيار بكفاءة بدون سخونة زيادة — سواء في الشتاء أو الصيف. وشاحن 30W زي <a href="/anker/chargers/anker-312-a81h5-30w" style="color:#2563eb;">انكر 312</a> بيكون الخيار الأنسب في الشتاء لأنه بيشحن بلطف أكتر على الخلايا الباردة. والباور بانك في جيبك بيخليك مش محتاج تشحن في ظروف غير مناسبة أصلاً.</p>
+<p><strong>ومتنساش:</strong> <a href="/anker/cables" style="color:#2563eb;">كابلات انكر</a> المعتمدة بتضمن توصيل التيار بكفاءة بدون سخونة زيادة — سواء في الشتاء أو الصيف. وشاحن 30W زي <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">انكر 511 نانو 3</a> بيكون الخيار الأنسب في الشتاء لأنه بيشحن بلطف أكتر على الخلايا الباردة. والباور بانك في جيبك بيخليك مش محتاج تشحن في ظروف غير مناسبة أصلاً.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ متاح على كايرو فولت</p>
@@ -206,13 +206,13 @@ export const phone_charging_cold_winter_alexandria_safety: BlogArticle = {
 <p>Your body temperature is 37°C — enough to keep the phone at 25-30°C in your jacket's inner pocket even when it's 5°C outside. Don't put the phone in an outer pants pocket or in a bag if you'll be outdoors for extended periods. The inner pocket of your jacket or coat is the best spot.</p>
 
 <h3>Rule 3: Use a Power Bank as a Smart Emergency Solution</h3>
-<p>If you're outside and your phone is running low — an <a href="/en/anker/power-banks/anker-zolo-a1610-5000" style="color:#2563eb;font-weight:600;">Anker Zolo 5000mAh power bank</a> in your pocket gives you a full charge. The advantage: when both the power bank and phone are in your pocket — both are at acceptable temperature (body heat). So you're charging with a warm battery — which is perfectly safe. But don't charge from a power bank left in a bag outdoors in the cold — same rule applies: both charger and phone must be at acceptable temperature.</p>
+<p>If you're outside and your phone is running low — an <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;font-weight:600;">Anker Zolo 10000mAh power bank</a> in your pocket gives you a full charge. The advantage: when both the power bank and phone are in your pocket — both are at acceptable temperature (body heat). So you're charging with a warm battery — which is perfectly safe. But don't charge from a power bank left in a bag outdoors in the cold — same rule applies: both charger and phone must be at acceptable temperature.</p>
 
 <h3>Rule 4: Don't Leave the Phone in the Car Overnight</h3>
 <p>On winter nights in Alexandria and Marsa Matrouh — temperatures can drop to 3-7°C. Inside a car at night can reach 2-5°C if not in a garage. If you leave the phone in the car overnight — the battery will be very cold in the morning. If you plug it into the car charger while still cold — you're causing permanent damage. The solution: take the phone inside with you — that's all it takes. And if you need to charge in the car in the morning — start the car and wait 10 minutes for the heater to warm the interior — then connect the charger.</p>
 
 <h3>Rule 5: Slow Charging Is Better Than Fast Charging in Cold</h3>
-<p>If you must charge and the phone is still slightly cold (not frozen — just cool) — a <a href="/en/anker/chargers/anker-312-a81h5-30w" style="color:#2563eb;">30W charger</a> is better than 65W in this situation. Slower charging puts less stress on cold cells. Most modern phones automatically throttle and slow down charging in cold — but not all phones do this. A lower-wattage charger serves as an additional safety line.</p>
+<p>If you must charge and the phone is still slightly cold (not frozen — just cool) — a <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;">30W charger</a> is better than 65W in this situation. Slower charging puts less stress on cold cells. Most modern phones automatically throttle and slow down charging in cold — but not all phones do this. A lower-wattage charger serves as an additional safety line.</p>
 
 <h3>Rule 6: Monitor Battery Health After Each Winter</h3>
 <p>If you live in Alexandria or the North Coast — do a quick battery health check after winter ends. On iPhone: Settings → Battery → Battery Health. On Samsung: Settings → Battery Care → Diagnostics. If you notice capacity dropped more than 5% in a single winter — cold charging may have occurred without you realizing.</p>

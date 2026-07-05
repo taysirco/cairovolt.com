@@ -58,7 +58,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>🎤 <strong>الترددات المتوسطة (Mids - من 250Hz إلى 4kHz):</strong> دي أهم منطقة للموسيقى العربية. هنا بيقع صوت المطرب (زي أم كلثوم أو عبد الحليم) وصوت آلة العود والكمان والناي. ضبط المنطقة دي بيعطي دفيء ونقاء غير عادي للصوت البشري.</li>
     <li>🎻 <strong>الترددات المرتفعة (Treble - من 4kHz إلى 20kHz):</strong> دي المسؤولة عن صوت الصاجات، طبلة الرق، والسهم الحاد في نغمات الكمان. رفعها بيدي بهجة ووضوح، بس لو زادت عن حدها هتسبب ألم في الأذن وصوت صفير مزعج.</li>
 </ol>
-<p>سماعات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> أو سماعات <a href="/soundcore/audio/soundcore-r50i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> بتديك تحكم كامل في الترددات دي من خلال معادل الصوت الرسومي (Graphic Equalizer) في التطبيق الخاص بها.</p>
+<p>سماعات ممتازة مثل <a href="/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> أو سماعات <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> بتديك تحكم كامل في الترددات دي من خلال معادل الصوت الرسومي (Graphic Equalizer) في التطبيق الخاص بها.</p>
 
 <h2>ثانياً: خلطة الإعدادات السحرية — ثلاثة أنماط تناسب مزاجك المصري</h2>
 <p>إليك الإعدادات الدقيقة لكل نوع من الموسيقى التي تسمعها يومياً في مصر:</p>
@@ -180,7 +180,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>🎤 <strong>Mid-Range Frequencies (Mids - 250Hz to 4kHz):</strong> This is the most critical range for Arabic music. It reproduces the vocalist's voice (such as Umm Kulthum or Abdel Halim) and acoustic instruments like the Oud and Nay flute. Proper tuning adds warmth and presence.</li>
     <li>🎻 <strong>High Frequencies (Treble - 4kHz to 20kHz):</strong> These control percussion cymbals, the sharp snap of the tambourine, and high violin notes. Boosting this band adds clarity and sparkle, but excessive levels cause ear fatigue and sibilance.</li>
 </ol>
-<p>High-quality earbuds like the <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> or the <a href="/en/soundcore/audio/soundcore-r50i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> offer a full Graphic Equalizer within their official app to let you customize these bands.</p>
+<p>High-quality earbuds like the <a href="/en/soundcore/audio/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P20i</a> or the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> offer a full Graphic Equalizer within their official app to let you customize these bands.</p>
 
 <h2>2. The EQ Profiles: 3 Custom Setups for the Egyptian Listener</h2>
 <p>Here are the step-by-step slider adjustments for your daily listening options in Egypt:</p>

@@ -136,7 +136,7 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
     </tbody>
 </table>
 
-<p><strong>وفي كل الأحوال — لحد ما تغيّر البطارية:</strong> <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> هو صاحبك. <a href="/anker/power-banks/anker-zolo-a1610-5000" style="color:#2563eb;">انكر زولو 5000mAh</a> في جيبك بيديك شحنة كاملة إضافية — كفاية تعديك اليوم لحد ما تاخد قرار بخصوص البطارية. ولو بتسافر أو يومك طويل — <a href="/anker/power-banks/anker-zolo-a1671-20000" style="color:#2563eb;">انكر زولو 20000mAh</a> بيديك 4-5 شحنات كاملة.</p>
+<p><strong>وفي كل الأحوال — لحد ما تغيّر البطارية:</strong> <a href="/anker/power-banks" style="color:#2563eb;font-weight:600;">باور بانك انكر</a> هو صاحبك. <a href="/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">انكر زولو 10000mAh</a> في جيبك بيديك شحنة كاملة إضافية — كفاية تعديك اليوم لحد ما تاخد قرار بخصوص البطارية. ولو بتسافر أو يومك طويل — <a href="/anker/power-banks/anker-zolo-a110e-20000" style="color:#2563eb;">انكر زولو 20000mAh</a> بيديك 4-5 شحنات كاملة.</p>
 
 <p><strong>نصيحة قبل ما تروح الصيانة:</strong> خد backup كامل لبياناتك (صور، واتساب، جهات اتصال) قبل ما تسلّم الموبايل. تغيير البطارية مش المفروض يمسح حاجة — بس الأمان أولاً. ولو الموبايل تحت ضمان (أقل من سنة) — روح المركز المعتمد عشان الضمان ميتلغاش. لو بره الضمان — قارن أسعار المراكز المعتمدة ومحلات الصيانة الموثوقة.</p>
 
@@ -291,7 +291,7 @@ export const phone_battery_needs_replacement_5_signs: BlogArticle = {
     </tbody>
 </table>
 
-<p><strong>In the meantime — until you replace the battery:</strong> An <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power bank</a> is your best friend. The <a href="/en/anker/power-banks/anker-zolo-a1610-5000" style="color:#2563eb;">Anker Zolo 5000mAh</a> fits in your pocket and gives you one full extra charge — enough to get through the day until you decide on the battery.</p>
+<p><strong>In the meantime — until you replace the battery:</strong> An <a href="/en/anker/power-banks" style="color:#2563eb;font-weight:600;">Anker power bank</a> is your best friend. The <a href="/en/anker/power-banks/anker-zolo-a110d-10000" style="color:#2563eb;">Anker Zolo 10000mAh</a> fits in your pocket and gives you one full extra charge — enough to get through the day until you decide on the battery.</p>
 
 <h2>3 Habits to Extend Your New Battery's Lifespan</h2>
 
