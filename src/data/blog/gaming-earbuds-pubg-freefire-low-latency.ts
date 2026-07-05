@@ -132,7 +132,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>السعر التقريبي بمصر</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">950 ج.م</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">880 ج.م</td>
             <td style="padding:12px;border:1px solid #d1d5db;">900 ج.م</td>
             <td style="padding:12px;border:1px solid #d1d5db;">850 ج.م</td>
             <td style="padding:12px;border:1px solid #d1d5db;">800 ج.م</td>
@@ -154,7 +154,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 
 <h2>خلاصة القول ونصيحة الشراء من كايرو فولت</h2>
 
-<p>تأخير الصوت في الألعاب اللاسلكية مشكلة حقيقية، بس حلها مبقاش غالي زي زمان. لو ميزانيتك في حدود الـ 950 جنيه وعايز أحسن تجربة شاملة مع بيس قوي ودعم كامل للتطبيق وتأخير شبه معدوم في الألعاب، <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوند كور R50i</a> هي اختيارك الأول والأنسب للشارع المصري. لو بتفضل التصميمات المربعة المسطحة السهلة في الجيب، <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوند كور P25i</a> هي البديل المتطابق تقنياً بنسبة 100%. أما لو كنت جيمر بتتحرك كتير وبتعرق في الجيم وتضايقك ضغطات اللمس الخاطئة، <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة ساوند كور Life P2i</a> هي خيارك العملي بأزرارها الميكانيكية الحقيقية وسعرها الموفر.</p>
+<p>تأخير الصوت في الألعاب اللاسلكية مشكلة حقيقية، بس حلها مبقاش غالي زي زمان. لو ميزانيتك في حدود الـ 880 جنيه وعايز أحسن تجربة شاملة مع بيس قوي ودعم كامل للتطبيق وتأخير شبه معدوم في الألعاب، <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوند كور R50i</a> هي اختيارك الأول والأنسب للشارع المصري. لو بتفضل التصميمات المربعة المسطحة السهلة في الجيب، <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوند كور P25i</a> هي البديل المتطابق تقنياً بنسبة 100%. أما لو كنت جيمر بتتحرك كتير وبتعرق في الجيم وتضايقك ضغطات اللمس الخاطئة، <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة ساوند كور Life P2i</a> هي خيارك العملي بأزرارها الميكانيكية الحقيقية وسعرها الموفر.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان الوكيل في مصر</p>
@@ -301,7 +301,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>Approx. Price in Egypt</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">950 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">880 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">900 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">850 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">800 EGP</td>
@@ -323,7 +323,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 
 <h2>The Final Verdict & Buying Advice</h2>
 
-<p>Audio lag in wireless gaming is a real challenge, but solving it is no longer expensive. If your budget is around 950 EGP and you want the best all-around experience with deep bass, full app customization, and near-instant response times, the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> is your absolute best bet. If you prefer a flatter, square case that fits more comfortably in your pocket, the <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> offers the identical technical performance. Lastly, if you are an active gamer who sweats during sessions and dislikes touch controls, the physical-button <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> is a highly practical, cost-effective choice.</p>
+<p>Audio lag in wireless gaming is a real challenge, but solving it is no longer expensive. If your budget is around 880 EGP and you want the best all-around experience with deep bass, full app customization, and near-instant response times, the <a href="/en/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">Soundcore R50i</a> is your absolute best bet. If you prefer a flatter, square case that fits more comfortably in your pocket, the <a href="/en/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore P25i</a> offers the identical technical performance. Lastly, if you are an active gamer who sweats during sessions and dislikes touch controls, the physical-button <a href="/en/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">Soundcore Life P2i</a> is a highly practical, cost-effective choice.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ 100% Original with Warranty in Egypt</p>

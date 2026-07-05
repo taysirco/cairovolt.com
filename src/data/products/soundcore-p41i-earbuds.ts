@@ -65,7 +65,7 @@ export const soundcore_p41i_earbuds = {
                     { question: "Does the P41i case actually charge my phone?", answer: "Yes — the 3,000mAh case outputs 10W via built-in USB-C. Tested: iPhone 17 from 15% to 45% (~30% gain). Not a full charge but enough for emergencies." },
                     { question: "P41i vs P40i — which should I buy?", answer: "P41i: 192h battery, powerbank case, 11mm BassUp, 2,439 EGP — best for travel. P40i: 57h, cleaner balanced sound, better calls, 2,052 EGP — best for daily listening. P41i saves your phone. P40i saves your ears." },
                     { question: "192h battery — is that real?", answer: "12h per earbud charge × 16 case charges = 192h total. With 2-3h daily use, the case lasts 2-3 weeks before needing a charge. Real-world verified." },
-                    { question: "Does P41i support LDAC?", answer: "No — P41i uses AAC and SBC codecs. For LDAC Hi-Res audio, consider Liberty 4 NC (2,570 EGP) or Liberty 5 (3,199 EGP)." },
+                    { question: "Does P41i support LDAC?", answer: "No — P41i uses AAC and SBC codecs. For LDAC Hi-Res audio, consider Liberty 4 NC (2,570 EGP) or Liberty 5 (3,997 EGP)." },
                     { question: "What's the built-in USB-C cable?", answer: "The case has a retractable/attached USB-C cable that doubles as a carry strap. You can use it to charge the case from any USB-C source, or flip to charge your phone from the case. No separate cable needed." },
             ]
         },
@@ -104,7 +104,7 @@ export const soundcore_p41i_earbuds = {
                     { question: "علبة P41i بتشحن الموبايل فعلاً؟", answer: "أيوه — علبة 3,000mAh بخرج 10W من كابل USB-C المدمج. مختبرة: iPhone 17 من 15% لـ 45% (~30% زيادة). مش شحن كامل بس كفاية للطوارئ." },
                     { question: "P41i ولا P40i — أشتري أنهي؟", answer: "P41i: 192 ساعة، باور بانك، 11mm BassUp، 2,439 جنيه — الأفضل للسفر. P40i: 57 ساعة، صوت أنظف ومتوازن، مكالمات أفضل، 2,052 جنيه — الأفضل للسماع اليومي. P41i بتنقذ موبايلك. P40i بتنقذ ودانك." },
                     { question: "192 ساعة بطارية — ده حقيقي؟", answer: "12 ساعة لكل شحنة سماعة × 16 شحنة علبة = 192 ساعة إجمالي. مع 2-3 ساعات استخدام يومي، العلبة بتكفي 2-3 أسابيع قبل ما تحتاج شحن. متأكد معملياً." },
-                    { question: "فيها LDAC؟", answer: "لأ — P41i بتدعم AAC وSBC بس. لو عايز LDAC Hi-Res: Liberty 4 NC (2,570 جنيه) أو Liberty 5 (3,199 جنيه)." },
+                    { question: "فيها LDAC؟", answer: "لأ — P41i بتدعم AAC وSBC بس. لو عايز LDAC Hi-Res: Liberty 4 NC (2,570 جنيه) أو Liberty 5 (3,997 جنيه)." },
                     { question: "كابل USB-C المدمج ده إيه؟", answer: "العلبة فيها كابل USB-C ملحق/قابل للسحب بيتحول لحزام حمل. بتقدر تستخدمه تشحن العلبة من أي مصدر USB-C، أو تعكس وتشحن موبايلك من العلبة. مش محتاج كابل منفصل." },
             ]
         }

@@ -23,10 +23,10 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
             metaDescription: 'دليل شامل لكل موديلات سماعات ساوندكور من انكر في مصر 2026. مقارنة P30i, Q11i, A30i, Q20i, V20i, R50i, K20i مع الأسعار والمواصفات. أيهم يناسبك؟',
             keywords: 'ساوندكور p30i, ساوندكور q11i, أنكر ساوندكور liberty 4 nc, أنكر ساوندكور liberty 4 pro, أنكر ساوندكور liberty 5, أنكر ساوندكور p30i, أنكر ساوندكور p40i, أنكر ساوندكور q11i, أنكر ساوندكور r50i vi, أنكر p2i, p40i ساوندكور, أنكر pencil, ساوندكور a30i, ساوندكور q20i, ساوندكور v20i, ساوندكور q30, ساوندكور q45, ساوندكور c40i, ساوندكور c30i, ساوندكور p25i, ساوندكور p41i, ساوندكور h30i, ساوندكور a20i, ساوندكور r100, أنكر p30i, أنكر a30i, انكر p30i, أنكر p25i, أنكر q20i, أنكر v20i, p30i ساوندكور, ساوندكور liberty 4 pro, ساوندكور liberty 5, ساوندكور space one, ساوندكور space one pro, ساوندكور r50i vi, ساوندكور select 4 go, ساوندكور liberty buds, ساوندكور aerofit 2, أنكر lightening',
             excerpt: 'مقارنة شاملة لكل موديلات سماعات ساوندكور من انكر — المتوفرة في مصر والعالمية. اعرف الفرق بين P30i وQ11i وA30i وغيرها قبل ما تشتري.',
-            quickAnswer: 'سماعات ساوندكور المتوفرة في مصر من كايرو فولت: K20i (750ج)، R50i (950ج)، R50i NC (1199ج)، Life P2i (820ج). موديلات مثل P30i وQ11i متوفرة دولياً. البديل الأفضل لـ P30i هو R50i NC بإلغاء ضوضاء أقوى.',
+            quickAnswer: 'سماعات ساوندكور المتوفرة في مصر من كايرو فولت: K20i (750ج)، R50i (880ج)، R50i NC (1199ج)، Life P2i (820ج). موديلات مثل P30i وQ11i متوفرة دولياً. البديل الأفضل لـ P30i هو R50i NC بإلغاء ضوضاء أقوى.',
             content: `
 <div class="quick-answer-inline" style="background:#f0f9ff;border-right:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151">
-  <p><strong>باختصار:</strong> سماعات ساوندكور المتوفرة الآن في مصر من كايرو فولت: K20i (750ج)، R50i (950ج)، R50i NC (1,199ج)، Life P2i (820ج). كلها بضمان 18 شهر وتوصيل لكل المحافظات.</p>
+  <p><strong>باختصار:</strong> سماعات ساوندكور المتوفرة الآن في مصر من كايرو فولت: K20i (750ج)، R50i (880ج)، R50i NC (1,199ج)، Life P2i (820ج). كلها بضمان 18 شهر وتوصيل لكل المحافظات.</p>
 </div>
 
 <h2>ما هي ساوندكور؟</h2>
@@ -45,7 +45,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 <thead><tr style="background:#1e40af;color:white"><th style="padding:10px;text-align:right">الموديل</th><th style="padding:10px">السعر</th><th style="padding:10px">أبرز المميزات</th><th style="padding:10px">مناسب لـ</th></tr></thead>
 <tbody>
 <tr style="background:#f8fafc"><td style="padding:8px"><strong>ساوندكور K20i</strong></td><td style="padding:8px">750 ج</td><td style="padding:8px">13mm BassUp، 36 ساعة، نصف داخلية</td><td style="padding:8px">الراحة القصوى</td></tr>
-<tr><td style="padding:8px"><strong>ساوندكور R50i</strong></td><td style="padding:8px">950 ج</td><td style="padding:8px">10mm BassUp، 30 ساعة، IPX5</td><td style="padding:8px">أفضل قيمة</td></tr>
+<tr><td style="padding:8px"><strong>ساوندكور R50i</strong></td><td style="padding:8px">880 ج</td><td style="padding:8px">10mm BassUp، 30 ساعة، IPX5</td><td style="padding:8px">أفضل قيمة</td></tr>
 <tr style="background:#f8fafc"><td style="padding:8px"><strong>ساوندكور R50i NC</strong></td><td style="padding:8px">1,199 ج</td><td style="padding:8px">ANC 42dB، 45 ساعة، 4 مايك AI</td><td style="padding:8px">إلغاء الضوضاء</td></tr>
 <tr><td style="padding:8px"><strong>ساوندكور Life P2i</strong></td><td style="padding:8px">820 ج</td><td style="padding:8px">ألوان متعددة، عزل سلبي</td><td style="padding:8px">الاستخدام اليومي</td></tr>
 </tbody>
@@ -78,7 +78,7 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
 <p><strong>ساوندكور H30i</strong>: سماعة on-ear (على الأذن لا فوقها) خفيفة وعصرية. مثالية لمن لا يريد ثقل الـ Over-Ear ولا ضيق الـ In-Ear. بطارية 70 ساعة. غير متوفرة حالياً في مصر.</p>
 
 <h2>ساوندكور R50i Vi و R100</h2>
-<p><strong>ساوندكور R50i Vi</strong>: نسخة محسّنة من R50i بتصميم مختلف. <strong>ساوندكور R100</strong>: earbud اقتصادية للغاية. كلاهما غير متوفر حالياً في مصر — البديل الجاهز هو R50i الأصلي بـ 950 جنيه.</p>
+<p><strong>ساوندكور R50i Vi</strong>: نسخة محسّنة من R50i بتصميم مختلف. <strong>ساوندكور R100</strong>: earbud اقتصادية للغاية. كلاهما غير متوفر حالياً في مصر — البديل الجاهز هو R50i الأصلي بـ 880 جنيه.</p>
 
 <h2>ساوندكور C30i و C40i — سماعات المكتب</h2>
 <p><strong>ساوندكور C30i</strong> و<strong>ساوندكور C40i</strong>: سماعات in-ear بتقنية مكتبية محسّنة للمكالمات الطويلة والاجتماعات. مايك عالي الجودة، ANC للتركيز. غير متوفرة حالياً في مصر.</p>
@@ -118,10 +118,10 @@ export const soundcore_models_guide_egypt_2026: BlogArticle = {
             metaDescription: 'Complete guide to all Soundcore by Anker earbuds in Egypt 2026. Compare P30i, Q11i, A30i, Q20i, V20i, R50i, Space One with prices and specs. Which one is rig...',
             keywords: 'soundcore p30i, soundcore q11i, anker soundcore liberty 4 nc, anker soundcore liberty 4 pro, anker soundcore liberty 5, anker soundcore p30i, anker soundcore p40i, anker soundcore q11i, anker soundcore r50i vi, anker p2i, p40i soundcore, anker pencil, soundcore a30i, soundcore q20i, soundcore v20i, soundcore q30, soundcore q45, soundcore c40i, soundcore h30i, soundcore p25i, soundcore p41i, soundcore a20i, soundcore r100, anker p30i, anker a30i, anker p25i, anker q20i, anker v20i, p30i soundcore, soundcore liberty 4 pro, soundcore liberty 5, soundcore space one, soundcore space one pro, soundcore r50i vi, soundcore liberty buds, soundcore aerofit 2, soundcore select 4 go, anker lightening',
             excerpt: 'Complete comparison of all Soundcore by Anker earbuds — available in Egypt and international models.',
-            quickAnswer: 'Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,199), Life P2i (EGP 820). Models like P30i and Q11i are international — best local alternative for P30i is R50i NC with stronger ANC.',
+            quickAnswer: 'Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 880), R50i NC (EGP 1,199), Life P2i (EGP 820). Models like P30i and Q11i are international — best local alternative for P30i is R50i NC with stronger ANC.',
             content: `
 <div class="quick-answer-inline" style="background:#f0f9ff;border-left:4px solid #3b82f6;padding:14px 18px;border-radius:8px;margin:12px 0 20px;font-size:14px;color:#374151">
-  <p><strong>In short:</strong> Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 950), R50i NC (EGP 1,199), Life P2i (EGP 820). All with 18-month warranty.</p>
+  <p><strong>In short:</strong> Soundcore earbuds available in Egypt at CairoVolt: K20i (EGP 750), R50i (EGP 880), R50i NC (EGP 1,199), Life P2i (EGP 820). All with 18-month warranty.</p>
 </div>
 
 <h2>What is Soundcore?</h2>

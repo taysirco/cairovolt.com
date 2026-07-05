@@ -205,7 +205,7 @@ export const soundcoreHub = {
             },
             {
                 question: 'إيه أفضل سماعة ساوند كور للمبتدئين؟',
-                answer: 'لميزانية محدودة: **ساوندكور P20i** (699 جنيه) — أرخص TWS من ساوند كور وأفضل قيمة سعر/أداء في الفئة الاقتصادية. لو الميزانية أعلى شوية: **R50i** (950 جنيه) — مبيعات #1 في مصر، 30 ساعة بطارية، صوت BassUp قوي. لمن يريد عزل ضوضاء: **R50i NC** (1,199 جنيه) — أرخص ANC حقيقي في السوق.',
+                answer: 'لميزانية محدودة: **ساوندكور P20i** (699 جنيه) — أرخص TWS من ساوند كور وأفضل قيمة سعر/أداء في الفئة الاقتصادية. لو الميزانية أعلى شوية: **R50i** (880 جنيه) — مبيعات #1 في مصر، 30 ساعة بطارية، صوت BassUp قوي. لمن يريد عزل ضوضاء: **R50i NC** (1,199 جنيه) — أرخص ANC حقيقي في السوق.',
             },
             {
                 question: 'إيه أفضل سبيكر ساوند كور للحفلات؟',
@@ -235,7 +235,7 @@ export const soundcoreHub = {
             },
             {
                 question: 'What\'s the best Soundcore earbud for beginners?',
-                answer: 'Tight budget: **Soundcore P20i** (EGP 699) — Soundcore\'s cheapest TWS, best entry value. Slightly higher budget: **R50i** (EGP 950) — Egypt\'s #1 seller, 30h battery, powerful BassUp. For noise cancellation: **R50i NC** (EGP 1,199) — cheapest real ANC on the market.',
+                answer: 'Tight budget: **Soundcore P20i** (EGP 699) — Soundcore\'s cheapest TWS, best entry value. Slightly higher budget: **R50i** (EGP 880) — Egypt\'s #1 seller, 30h battery, powerful BassUp. For noise cancellation: **R50i NC** (EGP 1,199) — cheapest real ANC on the market.',
             },
             {
                 question: 'What\'s the best Soundcore speaker for parties?',

@@ -33,14 +33,14 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
             metaDescription: 'دليل أسعار ومواصفات سماعات أنكر ساوند كور في مصر. مقارنة حقيقية لموديلات P20i و R50i و R50i NC و Liberty 4 NC لتحديد السماعة المناسبة لميزانيتك.',
             keywords: 'سماعات soundcore مصر 2026, سعر soundcore p20i مصر, سعر soundcore r50i مصر, سعر soundcore liberty 4 nc مصر, مقارنة سماعات soundcore, افضل سماعة soundcore مصر, soundcore p25i سعر, soundcore r50i nc مواصفات, سماعة بلوتوث رخيصة مصر, soundcore liberty 4 pro سعر مصر',
             excerpt: 'مش عارف تختار إيه من سماعات Soundcore؟ دليل شامل بالأسعار الحقيقية والمواصفات الكاملة لكل موديل في مصر — مع توضيح مين يناسب مين بالظبط.',
-            quickAnswer: 'اختصار: P20i (699 جنيه) للطلاب والميزانية المحدودة، R50i (950 جنيه) الأفضل للمكالمات، P25i (770 جنيه) لجودة صوت أعلى، R50i NC (1199 جنيه) لإلغاء ضوضاء المترو، Liberty 4 NC (2570 جنيه) للعمل من البيت والمكتب المفتوح، Liberty 4 Pro (5830 جنيه) لمن يريد قمة الأداء.',
+            quickAnswer: 'اختصار: P20i (699 جنيه) للطلاب والميزانية المحدودة، R50i (880 جنيه) الأفضل للمكالمات، P25i (770 جنيه) لجودة صوت أعلى، R50i NC (1199 جنيه) لإلغاء ضوضاء المترو، Liberty 4 NC (2570 جنيه) للعمل من البيت والمكتب المفتوح، Liberty 4 Pro (5830 جنيه) لمن يريد قمة الأداء.',
             content: `<p>سماعات Soundcore — الفرع الصوتي لشركة Anker — باتت من أكثر السماعات اللاسلكية انتشاراً في مصر في 2026. السبب بسيط: بتوفر مواصفات حقيقية بأسعار معقولة. بس المشكلة إن فيه كذا موديل قريبين من بعض في السعر والشكل، والناس بتتوه في الاختيار.</p>
 
 <p>الدليل ده هيشرح لك كل موديل بالتفصيل — أسعار حقيقية موجودة دلوقتي في السوق المصري، مع جدول مقارنة شامل وتوضيح واضح مين يستفيد من إيه.</p>
 
 <div style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>إجابة سريعة:</strong> P20i (699 جنيه) للطلاب والميزانية المحدودة — R50i (950 جنيه) الأفضل للمكالمات — P25i (770 جنيه) لجودة صوت أعلى مع LDAC — R50i NC (1199 جنيه) لإلغاء ضوضاء المترو وخفض الضوضاء — Liberty 4 NC (2570 جنيه) للعمل من البيت والمكتب المفتوح — Liberty 4 Pro (5830 جنيه) للأداء الفلاجشيب الكامل.
+        <strong>إجابة سريعة:</strong> P20i (699 جنيه) للطلاب والميزانية المحدودة — R50i (880 جنيه) الأفضل للمكالمات — P25i (770 جنيه) لجودة صوت أعلى مع LDAC — R50i NC (1199 جنيه) لإلغاء ضوضاء المترو وخفض الضوضاء — Liberty 4 NC (2570 جنيه) للعمل من البيت والمكتب المفتوح — Liberty 4 Pro (5830 جنيه) للأداء الفلاجشيب الكامل.
     </p>
 </div>
 
@@ -72,7 +72,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;"><a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;text-decoration:none;">R50i</a></td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~950</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">~880</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;color:#dc2626;">لأ</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">9 ساعات</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">30 ساعة</td>
@@ -140,7 +140,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <p><strong>مين يناسبه P20i؟</strong> الطالب الجامعي اللي عنده ميزانية محدودة، اللي بيحتاج سماعة للمذاكرة والمشي وسماع موسيقى. مش محتاج تطبيق ومش محتاج ANC. بسيطة وشغالة.</p>
 
-<h3>Soundcore R50i — ~950 جنيه</h3>
+<h3>Soundcore R50i — ~880 جنيه</h3>
 
 <p><a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a> هو الأكثر مبيعاً في مصر من موديلات Soundcore، وده مش صدفة. الـ 251 جنيه زيادة عن P20i بيجيبوا:</p>
 
@@ -151,7 +151,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>الأفضل في جودة المكالمات في الفئة الرخيصة</strong> — بيتميز بوضوح الصوت في التليفون أكتر من P20i.</li>
 </ul>
 
-<p>الفرق بين R50i و P20i مش بس 251 جنيه — هو فرق في الدرايفر والتطبيق والشحن السريع. لو عندك 950 جنيه، R50i أجدر.</p>
+<p>الفرق بين R50i و P20i مش بس 251 جنيه — هو فرق في الدرايفر والتطبيق والشحن السريع. لو عندك 880 جنيه، R50i أجدر.</p>
 
 <h2>فئة المتوسط — 700 إلى 1200 جنيه: P25i و R50i NC</h2>
 
@@ -289,7 +289,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <ul style="padding-right:20px;line-height:1.9;">
     <li><strong>ميزانية 699 جنيه؟</strong> — <a href="/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;">P20i</a>. بسيطة وشغالة وبطاريتها ممتازة.</li>
-    <li><strong>ميزانية 950 جنيه؟</strong> — <a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. الأفضل قيمة في الفئة دي، وأكثر مبيعاً لأسباب حقيقية.</li>
+    <li><strong>ميزانية 880 جنيه؟</strong> — <a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. الأفضل قيمة في الفئة دي، وأكثر مبيعاً لأسباب حقيقية.</li>
     <li><strong>عندك Samsung أو Pixel + بتحب الموسيقى؟</strong> — <a href="/anker/soundcore/soundcore-p25i-earbuds" style="color:#2563eb;">P25i</a> بـ 770 جنيه للـ LDAC.</li>
     <li><strong>بتركب المترو يومياً ومحتاج ANC؟</strong> — <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> بـ 1199 جنيه. استثمار حقيقي في راحة أذنيك.</li>
     <li><strong>بتشتغل من البيت أو مكتب صاخب؟</strong> — <a href="/anker/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;">Liberty 4 NC</a> بـ 2570 جنيه. الـ 50 dB ANC هيغير حياتك.</li>
@@ -320,14 +320,14 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
             metaDescription: 'Complete price and spec guide for all Soundcore earbuds in Egypt. Compare P20i, R50i, R50i NC, and Liberty 4 NC to find the best model for your needs.',
             keywords: 'soundcore earbuds egypt 2026, soundcore p20i price egypt, soundcore r50i price egypt, soundcore liberty 4 nc egypt, soundcore comparison egypt, best soundcore egypt, soundcore p25i specs, soundcore r50i nc review, budget bluetooth earbuds egypt, soundcore liberty 4 pro price egypt',
             excerpt: 'Not sure which Soundcore model to pick? A complete guide with real prices and full specs for every model available in Egypt — with clear advice on who each one is best for.',
-            quickAnswer: 'Quick summary: P20i (699 EGP) for budget buyers and students — R50i (950 EGP) best for calls and daily use — P25i (770 EGP) for higher audio quality with LDAC — R50i NC (1199 EGP) for Cairo metro noise cancellation — Liberty 4 NC (2570 EGP) for work-from-home and open-office environments — Liberty 4 Pro (5830 EGP) for flagship-level everything.',
+            quickAnswer: 'Quick summary: P20i (699 EGP) for budget buyers and students — R50i (880 EGP) best for calls and daily use — P25i (770 EGP) for higher audio quality with LDAC — R50i NC (1199 EGP) for Cairo metro noise cancellation — Liberty 4 NC (2570 EGP) for work-from-home and open-office environments — Liberty 4 Pro (5830 EGP) for flagship-level everything.',
             content: `<p>Soundcore — Anker's audio sub-brand — has become one of the most widely used wireless earbud lines in Egypt in 2026. The reason is straightforward: they deliver real specifications at honest prices. The challenge is that several models look similar and sit close in price, leaving buyers confused about which one actually suits them.</p>
 
 <p>This guide breaks down every model in detail — real prices currently available in the Egyptian market, a full comparison table, and clear advice on who gets the most out of each tier.</p>
 
 <div style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>Quick answer:</strong> P20i (699 EGP) for budget buyers and students — R50i (950 EGP) best all-around value for calls and daily use — P25i (770 EGP) for Android users who want LDAC quality — R50i NC (1199 EGP) for real ANC on the Cairo metro — Liberty 4 NC (2570 EGP) for working from home or open offices — Liberty 4 Pro (5830 EGP) for the full flagship experience.
+        <strong>Quick answer:</strong> P20i (699 EGP) for budget buyers and students — R50i (880 EGP) best all-around value for calls and daily use — P25i (770 EGP) for Android users who want LDAC quality — R50i NC (1199 EGP) for real ANC on the Cairo metro — Liberty 4 NC (2570 EGP) for working from home or open offices — Liberty 4 Pro (5830 EGP) for the full flagship experience.
     </p>
 </div>
 
@@ -359,7 +359,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:12px 10px;border:1px solid #d1d5db;font-weight:bold;"><a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;text-decoration:none;">R50i</a></td>
-            <td style="padding:12px 10px;border:1px solid #d1d5db;">~950</td>
+            <td style="padding:12px 10px;border:1px solid #d1d5db;">~880</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;color:#dc2626;">No</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">9 hours</td>
             <td style="padding:12px 10px;border:1px solid #d1d5db;">30 hours</td>
@@ -428,7 +428,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <p><strong>Who the P20i is for:</strong> university students on a tight budget, gym-goers who need sweat resistance but not fancy features, people who lose or break earbuds frequently and do not want to spend heavily. Straightforward and functional.</p>
 
-<h3>Soundcore R50i — ~950 EGP</h3>
+<h3>Soundcore R50i — ~880 EGP</h3>
 
 <p>The <a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a> is the best-selling Soundcore model in Egypt — and for good reason. The extra 251 EGP over the P20i buys you meaningful upgrades:</p>
 
@@ -439,7 +439,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>Best call quality in the budget tier</strong> — microphone performance is noticeably clearer than P20i for voice calls.</li>
 </ul>
 
-<p>The gap between R50i and P20i is not just 251 EGP — it is driver size, the app, quick charge, and call quality all at once. If your budget can stretch to 950 EGP, R50i is the clear choice.</p>
+<p>The gap between R50i and P20i is not just 251 EGP — it is driver size, the app, quick charge, and call quality all at once. If your budget can stretch to 880 EGP, R50i is the clear choice.</p>
 
 <h2>Mid-Range Tier — 700 to 1200 EGP: P25i and R50i NC</h2>
 
@@ -553,7 +553,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
 
 <ul style="padding-left:20px;line-height:2;">
     <li><strong>Budget is 699 EGP?</strong> — <a href="/en/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;">P20i</a>. Simple, functional, great battery life for the price.</li>
-    <li><strong>Budget is 950 EGP?</strong> — <a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. Best value in the budget tier. Best-seller for real reasons.</li>
+    <li><strong>Budget is 880 EGP?</strong> — <a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. Best value in the budget tier. Best-seller for real reasons.</li>
     <li><strong>Have a Samsung or Pixel and care about audio quality?</strong> — <a href="/en/anker/soundcore/soundcore-p25i-earbuds" style="color:#2563eb;">P25i</a> at 770 EGP for LDAC.</li>
     <li><strong>Daily Cairo metro commuter?</strong> — <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> at 1199 EGP. A genuine investment in your hearing health.</li>
     <li><strong>Work from home or open office?</strong> — <a href="/en/anker/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;">Liberty 4 NC</a> at 2570 EGP. The 50 dB ANC will change your workday.</li>

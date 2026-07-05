@@ -60,7 +60,7 @@ export const soundcore_p20i_earbuds = {
             faqs: [
                     { question: "Does the Soundcore P20i support multipoint connection?", answer: "Yes — P20i connects to 2 devices simultaneously via Bluetooth 5.3. It auto-switches audio between your phone and laptop." },
                     { question: "Can the Soundcore P20i handle Cairo gym humidity?", answer: "Yes — IPX5 with nano-coated PCB. Tested against sweat, rain, and condensation from AC-to-outdoor transitions." },
-                    { question: "Soundcore P20i vs R50i — which should I buy?", answer: "P20i: 699 EGP, basic BassUp, 30h, great value entry. R50i: 950 EGP, enhanced BassUp, Soundcore app EQ, more refined sound. R50i if budget allows." },
+                    { question: "Soundcore P20i vs R50i — which should I buy?", answer: "P20i: 699 EGP, basic BassUp, 30h, great value entry. R50i: 880 EGP, enhanced BassUp, Soundcore app EQ, more refined sound. R50i if budget allows." },
                     { question: "Does the Soundcore P20i work with the Soundcore app?", answer: "Yes — full EQ customization, touch control configuration, and firmware updates available through the Soundcore app on iOS and Android." },
                     { question: "How long does the P20i case take to fully charge?", answer: "About 2 hours via USB-C. The 10-minute quick charge gives 1 hour of emergency playback." },
             ]
@@ -98,7 +98,7 @@ export const soundcore_p20i_earbuds = {
             faqs: [
                     { question: "الـ P20i بتتوصل بجهازين في نفس الوقت؟", answer: "أيوه — multipoint بتوتوث 5.3 بتتصل بالموبايل واللاب مع بعض وبتبدّل الصوت أوتوماتيك." },
                     { question: "الـ P20i بتستحمل رطوبة الجيم في القاهرة؟", answer: "أيوه — IPX5 مع طبقة نانو على الـ PCB. مُختبرة ضد العرق والمطر وتكثف التكييف." },
-                    { question: "P20i ولا R50i — أشتري أنهي؟", answer: "P20i: 699 جنيه، BassUp أساسي، 30 ساعة، قيمة ممتازة. R50i: 950 جنيه، BassUp محسّن، تطبيق ساوندكور EQ. لو الميزانية تسمح، R50i أفضل." },
+                    { question: "P20i ولا R50i — أشتري أنهي؟", answer: "P20i: 699 جنيه، BassUp أساسي، 30 ساعة، قيمة ممتازة. R50i: 880 جنيه، BassUp محسّن، تطبيق ساوندكور EQ. لو الميزانية تسمح، R50i أفضل." },
                     { question: "الـ P20i بتشتغل مع تطبيق ساوندكور؟", answer: "أيوه — تخصيص EQ كامل، ضبط أزرار اللمس، وتحديثات firmware من تطبيق ساوندكور على iOS و Android." },
                     { question: "علبة الـ P20i بتتشحن في كام ساعة؟", answer: "حوالي ساعتين بـ USB-C. الشحن السريع 10 دقايق بيدّيك ساعة تشغيل طوارئ." },
             ]

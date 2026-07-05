@@ -6,8 +6,8 @@ export const soundcore_liberty_5_detail: ProductDetail = {
         ar: ['درايفر 9.2mm ورق صوفي — صوت أدفى وأطبع من الدرايفرات الصناعية', 'عزل ANC 3.0 تكيفي: 6 مايك بيتكيفوا كل 0.3 ثانية، 2× أقوى في تقليل الأصوات', 'حماية IP55 غبار + مياه — أول ليبرتي بحماية من غبار القاهرة', 'LDAC Hi-Res 990kbps + Dolby Audio + 3D Audio — أحدث دعم كودك 2025', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 1.0%، أصلي أنكر مضمون'],
     },
     localContext: {
-        en: 'Cairo has two earbuds threats: noise (85dB+ Metro and microbus) and dust (khamaseen sandstorms every spring). The Soundcore Liberty 5 is the first Liberty-series with IP55 — dust AND water protection. ANC 3.0 handles the noise. IP55 handles the dust. At 3,199 EGP, it is the newest all-rounder for Egyptian daily drivers who need durability in harsh conditions.',
-        ar: 'القاهرة فيها تهديدين للسماعات: ضوضاء (85dB+ مترو وميكروباص) وغبار (عواصف الخماسين كل ربيع). ساوندكور ليبرتي 5 أول ليبرتي بحماية IP55 — غبار ومياه. ANC 3.0 بيتعامل مع الضوضاء. IP55 بيتعامل مع الغبار. بـ 3,199 جنيه، أحدث سماعة شاملة للمصريين اللي محتاجين متانة في ظروف صعبة.',
+        en: 'Cairo has two earbuds threats: noise (85dB+ Metro and microbus) and dust (khamaseen sandstorms every spring). The Soundcore Liberty 5 is the first Liberty-series with IP55 — dust AND water protection. ANC 3.0 handles the noise. IP55 handles the dust. At 3,997 EGP, it is the newest all-rounder for Egyptian daily drivers who need durability in harsh conditions.',
+        ar: 'القاهرة فيها تهديدين للسماعات: ضوضاء (85dB+ مترو وميكروباص) وغبار (عواصف الخماسين كل ربيع). ساوندكور ليبرتي 5 أول ليبرتي بحماية IP55 — غبار ومياه. ANC 3.0 بيتعامل مع الضوضاء. IP55 بيتعامل مع الغبار. بـ 3,997 جنيه، أحدث سماعة شاملة للمصريين اللي محتاجين متانة في ظروف صعبة.',
     },
     specifications: {
         'Product Type': { en: 'True Wireless Earbuds (TWS) — Stem Design', ar: 'سماعة لاسلكية (TWS) — تصميم ستيم' },
