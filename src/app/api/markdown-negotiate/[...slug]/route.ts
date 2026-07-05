@@ -89,7 +89,7 @@ Browse this collection at [cairovolt.com/${path}](${baseUrl}/${path})
 CairoVolt is Egypt's authorized distributor for **Anker** and **Joyroom** mobile accessories.
 
 - 📍 Cairo, Egypt
-- 🚚 Free shipping above 500 EGP to all 27 governorates
+- 🚚 Free shipping above 3,700 EGP to all 27 governorates
 - 💰 Cash on Delivery
 - 🔬 All products independently lab-tested at 37–42°C
 - ✅ C2PA verified authenticity
@@ -160,7 +160,7 @@ function generateProductMarkdown(product: Record<string, unknown>, slug: string)
 | Category | ${category} |
 | Price | ${price} EGP |
 | In Stock | ${inStock ? '✅ Yes' : '❌ No'} |
-| Shipping | Free above 500 EGP |
+| Shipping | Free above 3,700 EGP |
 | Payment | Cash on Delivery |
 
 ## Description

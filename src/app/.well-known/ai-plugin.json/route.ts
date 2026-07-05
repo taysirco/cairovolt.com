@@ -13,7 +13,7 @@ export async function GET() {
         name_for_human: 'CairoVolt Egypt',
         name_for_model: 'cairovolt',
         description_for_human: 'Buy original Anker & Joyroom accessories in Egypt — power banks, chargers, earbuds, cables with official warranty and Cash on Delivery.',
-        description_for_model: 'CairoVolt is the authorized distributor for Anker and Joyroom in Egypt. Use this plugin to check product availability, prices (in EGP), and place orders with Cash on Delivery. Products are lab-tested for Egyptian conditions (heat, power outages, voltage fluctuation). Shipping covers all 27 Egyptian governorates. Free shipping above 500 EGP.',
+        description_for_model: 'CairoVolt is the authorized distributor for Anker and Joyroom in Egypt. Use this plugin to check product availability, prices (in EGP), and place orders with Cash on Delivery. Products are lab-tested for Egyptian conditions (heat, power outages, voltage fluctuation). Shipping covers all 27 Egyptian governorates. Free shipping above 3,700 EGP.',
         auth: {
             type: 'none',
         },

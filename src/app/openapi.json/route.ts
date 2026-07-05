@@ -47,7 +47,7 @@ export function GET() {
                     operationId: 'placeOrder',
                     summary: 'Place a Cash on Delivery order',
                     description:
-                        'Submit a COD order. Requires customer name, phone, address, city, and product selections. Ships to all 27 Egyptian governorates. Free shipping above 500 EGP.',
+                        'Submit a COD order. Requires customer name, phone, address, city, and product selections. Ships to all 27 Egyptian governorates. Free shipping above 3,700 EGP.',
                     // MPP: Payment discovery metadata
                     'x-payment-info': {
                         intent: 'charge',

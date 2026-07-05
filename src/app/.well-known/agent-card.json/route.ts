@@ -53,7 +53,7 @@ export function GET() {
             {
                 id: 'order-placement',
                 name: 'Order Placement',
-                description: 'Place Cash on Delivery orders. Requires customer name, phone, address, and city. Ships to all 27 Egyptian governorates. Free shipping above 500 EGP.',
+                description: 'Place Cash on Delivery orders. Requires customer name, phone, address, and city. Ships to all 27 Egyptian governorates. Free shipping above 3,700 EGP.',
                 tags: ['commerce', 'orders', 'checkout'],
                 examples: [
                     'Order an Anker 20000mAh power bank to Cairo',

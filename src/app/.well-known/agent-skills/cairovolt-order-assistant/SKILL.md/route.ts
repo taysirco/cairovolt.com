@@ -58,8 +58,8 @@ curl -X POST "https://cairovolt.com/api/v1/checkout" \\
 
 ## Shipping Rules
 
-- **Standard fee:** 40 EGP
-- **Free shipping:** Orders above 500 EGP
+- **Standard fee:** 60-100 EGP by governorate
+- **Free shipping:** Orders above 3,700 EGP
 - **Coverage:** All 27 Egyptian governorates
 - **Delivery time:** 1–3 business days via Bosta courier
 

@@ -359,7 +359,7 @@ export async function POST(req: NextRequest) {
                 shipping: shippingFee,
                 total: totalAmount,
                 currency: 'EGP',
-                ...(price >= 1350 && {
+                ...(price >= FREE_SHIPPING_THRESHOLD && {
                     freeShippingNote: input.locale === 'ar'
                         ? 'شحن مجاني ✅'
                         : 'Free shipping ✅',
@@ -448,9 +448,9 @@ export async function GET(req: NextRequest) {
                 image: primaryImage ? `https://cairovolt.com${primaryImage}` : null,
             },
             shipping: {
-                fee: price >= 1350 ? 0 : 40,
+                fee: getShippingFee('', price),
                 currency: 'EGP',
-                freeAbove: 1350,
+                freeAbove: FREE_SHIPPING_THRESHOLD,
                 estimatedDays: { min: 1, max: 5 },
             },
             quick_buy: {

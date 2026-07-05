@@ -70,7 +70,7 @@ ${anker521 ? `- **Headline result:** Anker 521 PowerHouse ran router + fan for 1
 
 - **Payment:** Cash on Delivery (COD) — customer pays after inspecting
 - **Shipping:** 1–3 days via Bosta courier, all 27 governorates
-- **Shipping cost:** 40 EGP flat (FREE above 500 EGP)
+- **Shipping cost:** 60-100 EGP by governorate (FREE above 3,700 EGP)
 - **Returns:** 14-day return policy
 - **Warranty:** 18 months (Anker), 12 months (Joyroom)
 - **Support:** WhatsApp [+201558245974](https://wa.me/201558245974)

@@ -36,7 +36,7 @@ export function GET() {
                 {
                     type: 'checkout',
                     name: 'Cash on Delivery Orders',
-                    description: 'Place COD orders shipped to all 27 Egyptian governorates. Free shipping above 500 EGP.',
+                    description: 'Place COD orders shipped to all 27 Egyptian governorates. Free shipping above 3,700 EGP.',
                     endpoint: `${baseUrl}/api/v1/checkout`,
                 },
                 {

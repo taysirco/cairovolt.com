@@ -59,7 +59,7 @@ export function CategoryOverviewBlock({
         if (variant === 'product') {
             const arProductTemplates = [
                 `${productName} الأصلي من ${brand} متوفر الآن في مصر بسعر ${formattedPrice}. يتميز بضمان الوكيل الرسمي مع توصيل سريع لجميع المحافظات. ${shortDescription || 'منتج أصلي 100% مع استبدال فوري.'}`,
-                `${productName} من ${brand} — السعر في مصر ${formattedPrice}. ضمان استبدال فوري من الوكيل + شحن مجاني للقاهرة والجيزة. ${shortDescription || 'أصلي ومختوم بباركود الشركة.'}`,
+                `${productName} من ${brand} — السعر في مصر ${formattedPrice}. ضمان استبدال فوري من الوكيل + شحن مجاني للطلبات فوق 3,700 جنيه. ${shortDescription || 'أصلي ومختوم بباركود الشركة.'}`,
                 `احصل على ${productName} الأصلي بسعر ${formattedPrice}. معتمد من ${brand} مع كفالة رسمية وتوصيل لكل المحافظات. ${shortDescription || 'مختبر في معاملنا قبل ما يوصلك.'}`,
                 `${productName} — ${brand} مصر بسعر ${formattedPrice}. مضمون بختم الوكيل ومتاح بالدفع عند الاستلام. ${shortDescription || 'جودة أصلية مع ضمان استبدال كامل.'}`,
             ];

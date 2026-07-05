@@ -1,6 +1,7 @@
 // Server Component — structured data
 // DO NOT add 'use client' here!
 import { brandEntities, getEntitiesForCategory } from '@/data/brand-entities';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 interface ProductSchemaProps {
     product: {
@@ -331,7 +332,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
                 '@id': 'https://cairovolt.com/#shipping-egypt',
                 shippingRate: {
                     '@type': 'MonetaryAmount',
-                    value: product.price >= 1499 ? "0.00" : "60.00",
+                    value: product.price >= FREE_SHIPPING_THRESHOLD ? "0.00" : "60.00",
                     currency: 'EGP',
                 },
                 shippingDestination: {

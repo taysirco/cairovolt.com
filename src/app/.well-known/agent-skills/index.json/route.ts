@@ -52,7 +52,7 @@ curl "https://cairovolt.com/api/v1/checkout?slug=anker-737-powerbank"
 The API returns JSON with:
 - \`available\`: boolean — whether the product is in stock
 - \`product\`: object — name (en/ar), price (EGP), stock count, image URL
-- \`shipping\`: object — fee (40 EGP, free above 500 EGP), estimated 1-3 days
+- \`shipping\`: object — fee (60-100 EGP, free above 3,700 EGP), estimated 1-3 days
 - \`payment\`: object — Cash on Delivery
 - \`actions.buy\`: object — ready-to-use POST action for placing an order
 
@@ -93,7 +93,7 @@ curl "https://cairovolt.com/api/llms/catalog"
 
 - All prices in EGP (Egyptian Pounds)
 - Cash on Delivery to all 27 governorates
-- Free shipping above 500 EGP
+- Free shipping above 3,700 EGP
 - C2PA verified authenticity (verify at cairovolt.com/verify)
 - WhatsApp support: +201558245974
 
@@ -152,8 +152,8 @@ curl -X POST "https://cairovolt.com/api/v1/checkout" \\
 
 ## Shipping Rules
 
-- **Standard fee:** 40 EGP
-- **Free shipping:** Orders above 500 EGP
+- **Standard fee:** 60-100 EGP by governorate
+- **Free shipping:** Orders above 3,700 EGP
 - **Coverage:** All 27 Egyptian governorates
 - **Delivery time:** 1–3 business days via Bosta courier
 
@@ -266,7 +266,7 @@ export function GET() {
             {
                 name: 'cairovolt-order-assistant',
                 type: 'skill-md',
-                description: 'Help Egyptian customers place orders on CairoVolt via the M2M Commerce API. Handles product lookup by name or SKU, confirms availability, calculates shipping (free above 500 EGP), and submits Cash on Delivery orders to all 27 governorates.',
+                description: 'Help Egyptian customers place orders on CairoVolt via the M2M Commerce API. Handles product lookup by name or SKU, confirms availability, calculates shipping (free above 3,700 EGP), and submits Cash on Delivery orders to all 27 governorates.',
                 url: '/.well-known/agent-skills/cairovolt-order-assistant/SKILL.md',
                 digest: `sha256:${orderAssistantDigest}`,
             },

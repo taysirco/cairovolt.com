@@ -1,4 +1,4 @@
-export const FREE_SHIPPING_THRESHOLD = 1499;
+export const FREE_SHIPPING_THRESHOLD = 3700;
 
 export function getShippingFee(citySlug: string, subtotal: number): number {
     if (subtotal >= FREE_SHIPPING_THRESHOLD) {

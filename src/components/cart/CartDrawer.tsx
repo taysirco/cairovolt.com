@@ -5,6 +5,7 @@ import { trackViewCart, trackRemoveFromCart } from '@/lib/analytics';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
@@ -51,7 +52,6 @@ export default function CartDrawer({ locale }: { locale: string }) {
     }, [isOpen, setIsOpen]);
 
     // Free Shipping Logic
-    const FREE_SHIPPING_THRESHOLD = 1499;
     const progress = Math.min((totalAmount / FREE_SHIPPING_THRESHOLD) * 100, 100);
     const amountLeft = FREE_SHIPPING_THRESHOLD - totalAmount;
     const isFreeShipping = totalAmount >= FREE_SHIPPING_THRESHOLD;
