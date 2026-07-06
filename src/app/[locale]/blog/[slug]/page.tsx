@@ -283,18 +283,8 @@ export default async function BlogArticlePage({ params }: Props) {
                                             <SvgIcon name={catLabel.icon} className="w-3.5 h-3.5" /> {isArabic ? catLabel.ar : catLabel.en}
                                         </span>
                                     </div>
-                                    {/* C2PA verified badge */}
-                                    <div className="absolute top-3 md:top-4 end-3 md:end-4">
-                                        <span
-                                            className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-full text-[10px] md:text-[11px] font-bold bg-black/45 backdrop-blur-md text-white border border-white/20 shadow-md tracking-wider"
-                                            title={isArabic ? 'صورة موثّقة بمعايير محتوى المصادقة C2PA' : 'Image authenticated with C2PA content credentials'}
-                                        >
-                                            <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                                <path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1.06 14.06L7.4 12.5l1.42-1.41 2.12 2.12 4.24-4.24 1.42 1.41-5.66 5.68z" />
-                                            </svg>
-                                            {isArabic ? 'موثّقة · C2PA' : 'Verified · C2PA'}
-                                        </span>
-                                    </div>
+                                    {/* C2PA provenance: crawler-only — visible badge removed; kept in
+                                        JSON-LD (ImageObjectSchema copyrightNotice/creditText) + file EXIF/XMP */}
                                     {/* Author micro-credit bottom-start */}
                                     {article.author && (
                                         <div className="absolute bottom-3 md:bottom-4 start-3 md:start-4 flex items-center gap-2">
@@ -320,7 +310,8 @@ export default async function BlogArticlePage({ params }: Props) {
                                         </span>
                                     </div>
                                 </div>
-                                <figcaption className="text-[11px] md:text-xs text-gray-500 dark:text-gray-400 mt-3 text-center px-4">
+                                {/* حقوق/توثيق الصورة — sr-only: في الـ HTML للزواحف وقارئات الشاشة دون عرض بصري */}
+                                <figcaption className="sr-only">
                                     {isArabic
                                         ? '© كايرو فولت — صورة محميّة بمعايير محتوى المصادقة C2PA و EXIF/XMP'
                                         : '© CairoVolt — Image authenticated with C2PA content credentials and EXIF/XMP'}
