@@ -161,7 +161,7 @@ export const anker_soundcore_motion_plus = {
             mainTerm: "سماعة أنكر motion+"
         },
         expertOpinion: {
-            en: "The Motion+ is hands-down the best Bluetooth speaker around EGP 2850 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
+            en: "The Motion+ is hands-down the best Bluetooth speaker around EGP 3,600 in Egypt. Its Hi-Res Audio certification isn't just a label; the sound clarity is genuinely impressive. Tested specifically in Cairo outdoor settings, specifically impressive range and volume.",
             ar: "تُعد Motion+ بلا شك أفضل سماعة بلوتوث في فئتها السعرية في مصر. شهادة الصوت عالي الدقة (Hi-Res) تضمن لك نقاء صوت استثنائي، والباس القوي يملأ المكان. اختبرناها في ظروف مختلفة وأثبتت كفاءة جبارة."
         },
         relatedProducts: [

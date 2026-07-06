@@ -151,8 +151,8 @@ export const joyroom_25w_fast_charger = {
         },
         meta: { keywords: "جوي روم 25w charger, شاحن جوي روم 25 واط, شاحن ايفون 17, iphone 17 charger egypt, شاحن سريع مصر, جوي روم fast charger, جوي روم wall charger egypt, جوي روم usb c charger, جوي روم gan charger, جوي روم samsung charger, جوي روم best charger egypt 2026, جوي روم cod egypt charger, افضل شاحن جوي روم, سعر شاحن جوي روم, شاحن جوي روم مصر, جوي روم charger egypt, شاحن سريع رخيص مصر", mainTerm: "joyroom 25w charger" },
         expertOpinion: {
-        en: "The household peacekeeper — one charger that fast-charges both iPhone and Samsung equally well. Perfect for families with mixed devices. Best value under 300 EGP.",
-        ar: "شاحن السلام المنزلي — شاحن واحد بيشحن ايفون وسامسونج بنفس السرعة. مثالي للعيلة اللي عندها أجهزة مختلفة. أفضل قيمة تحت 300 جنيه."
+        en: "The household peacekeeper — one charger that fast-charges both iPhone and Samsung equally well. Perfect for families with mixed devices. Best value under 350 EGP.",
+        ar: "شاحن السلام المنزلي — شاحن واحد بيشحن ايفون وسامسونج بنفس السرعة. مثالي للعيلة اللي عندها أجهزة مختلفة. أفضل قيمة تحت 350 جنيه."
     },
         relatedProducts: [
         "joyroom-20w-usb-c-charger",

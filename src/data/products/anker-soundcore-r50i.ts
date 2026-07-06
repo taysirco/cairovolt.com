@@ -39,7 +39,7 @@ export const anker_soundcore_r50i = {
 <li>🎙️ <strong>AI ENC:</strong> Dual mic for clear calls in noisy environments.</li>
 <li>⚡ <strong>Fast Charge:</strong> 10min = 1h playback.</li>
 <li>💧 <strong>IPX5:</strong> Sweat-proof and rain-proof.</li>
-<li>💰 <strong>1.76 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
+<li>💰 <strong>1.63 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
 <p class="text-gray-700 leading-relaxed text-lg">"The R50i is Anker's entry point — and what an entry point it is. At 880 EGP, you get 10mm drivers, BassUp technology, 30-hour battery, AI ENC for calls, and the full Soundcore app experience. The in-ear design with silicone tips provides passive noise isolation that's surprisingly effective on the Metro. No, it doesn't have ANC like the <a href='/en/soundcore/audio/anker-soundcore-r50i-nc' class='text-blue-600 hover:underline'>R50i NC</a>, but the silicone seal blocks a lot of ambient noise naturally. The sound quality punches above budget expectations. If you want maximum value, this is where you start. If you want ANC, step up to the R50i NC. If you want maximum comfort, choose the <a href='/en/soundcore/audio/anker-soundcore-k20i' class='text-blue-600 hover:underline'>K20i</a>."<br><span class="font-bold block mt-2">✍️ CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 <div class="product-details">
@@ -115,7 +115,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30h Battery", "👂 In-Ear Passive Isolation", "🎙️ AI ENC Calls", "⚡ Fast Charge", "💧 IPX5", "📱 Soundcore App", "💰 Best Value", "🏆 18-Month Warranty", "🔒 FCC + CE Certified → Global Safety Standards"],
-                metaTitle: "Soundcore R50i — Buy Original in Egypt ⚡ 27% OFF | CairoVolt",
+                metaTitle: "Soundcore R50i — Buy Original in Egypt ⚡ 32% OFF | CairoVolt",
                 metaDesc: "Soundcore R50i earbuds — EGP 880 with 18-month warranty. 10mm BassUp™, 30h battery, IPX5. ✅ Original Anker ✅ COD ✅ Same-day Cairo delivery. Compare R50i vs.",
                 faqs: [
                     { question: "Does the Soundcore R50i have ANC (noise cancellation)?", answer: "No — the Soundcore R50i uses passive noise isolation via silicone tips. For active ANC, choose the Soundcore R50i NC (42dB ANC). The R50i offers excellent value without ANC." },
@@ -168,7 +168,7 @@ export const anker_soundcore_r50i = {
 </div>
 `,
                 features: ["🎵 10mm BassUp™", "🔋 30 ساعة", "👂 عزل سلبي داخلي", "🎙️ AI ENC", "⚡ شحن سريع", "💧 IPX5", "📱 تطبيق ساوندكور", "💰 أفضل قيمة", "🏆 ضمان 18 شهر", "🔒 معتمد FCC + CE → معايير السلامة العالمية"],
-                metaTitle: "سماعة انكر ساوندكور R50i ⚡ خصم 27% | 30 ساعة تشغيل | مصر",
+                metaTitle: "سماعة انكر ساوندكور R50i ⚡ خصم 32% | 30 ساعة تشغيل | مصر",
                 metaDesc: "اشتري سماعة انكر R50i في مصر. 10mm BassUp، 30 ساعة بطارية، AI ENC مكالمات. أفضل قيمة سماعة لاسلكية. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "فيها إلغاء ضوضاء ANC؟", answer: "لأ — R50i بعزل سلبي بأطراف سيليكون. لـ ANC، اختار R50i NC (42dB ANC). R50i بتوفر قيمة ممتازة بدون ANC." },
