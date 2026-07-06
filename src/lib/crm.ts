@@ -44,6 +44,14 @@ function buildLeadPayload(orderData: any) {
     if (orderData.couponCode) notesParts.push(`كوبون ${orderData.couponCode} (خصم ${orderData.couponDiscount} ج)`);
     if (orderData.customerNotes || orderData.notes) notesParts.push(String(orderData.customerNotes || orderData.notes));
 
+    // 🧬 بصمة المنتج الموحدة (SKU): كتالوج الموقع وكتالوج الحسابات في الـCRM
+    // يتشاركان نفس الأكواد (ANK-*/JR-*) — إرسالها يجعل مطابقة الـCRM قطعية
+    // (skuResolvedBy: 'store') بلا أي تخمين بالأسماء. للطلب متعدد القطع نرسل
+    // sku القطعة الأعلى قيمة كبصمة رئيسية + القائمة كاملة في items.
+    const primary = items.length
+        ? [...items].sort((a, b) => ((b.price || 0) * (b.quantity || 1)) - ((a.price || 0) * (a.quantity || 1)))[0]
+        : null;
+
     return {
         // بصمة الربط: نفس القيمة تُكتب في العمود P بصف الشيت — بها يربط
         // smart-engine في الـCRM صف الشيت بمستند هذا الويبهوك فلا يستورده مكرراً.
@@ -54,6 +62,8 @@ function buildLeadPayload(orderData: any) {
         governorate: orderData.cityLabel || orderData.city || '',
         address: orderData.address || '',
         productName,
+        sku: primary?.sku || '',
+        items: items.map((it: any) => ({ sku: it.sku || '', name: shortName(it.name), quantity: it.quantity || 1, price: it.price || 0 })),
         quantity: String(totalQuantity),
         totalPrice: String(orderData.totalAmount ?? ''),
         orderDetails,
