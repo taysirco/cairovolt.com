@@ -2,7 +2,7 @@
 
 export const joyroom_25w_fast_charger = {
         slug: "joyroom-25w-fast-charger",
-        sku: "JR-WC-25W",
+        sku: "JC01",
         brand: "Joyroom",
         categorySlug: "wall-chargers",
         gtin: "6956116750046",

@@ -2,7 +2,7 @@
 
 export const anker_powercore_10000 = {
         slug: "anker-powercore-10000",
-        sku: "ANK-PB-10K",
+        sku: "AP09",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "0848061036633",

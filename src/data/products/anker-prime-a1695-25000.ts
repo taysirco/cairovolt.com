@@ -2,7 +2,7 @@
 
 export const anker_prime_a1695_25000 = {
         slug: "anker-prime-a1695-25000",
-        sku: "ANK-PB-A1695",
+        sku: "AP03",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "194644209476",

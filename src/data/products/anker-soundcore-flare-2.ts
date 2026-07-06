@@ -2,7 +2,7 @@
 
 export const anker_soundcore_flare_2 = {
         slug: "anker-soundcore-flare-2",
-        sku: "ANK-AU-FLARE2",
+        sku: "SS02",
         brand: "Soundcore",
         categorySlug: "speakers",
         gtin: "0848061045123",

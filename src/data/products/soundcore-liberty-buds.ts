@@ -1,7 +1,7 @@
 // Product: soundcore-liberty-buds
 export const soundcore_liberty_buds = {
     slug: "soundcore-liberty-buds",
-    sku: "ANK-AU-LBUDS",
+    sku: "SH17",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

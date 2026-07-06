@@ -2,7 +2,7 @@
 
 export const joyroom_type_c_lightning_36mos = {
         slug: "joyroom-type-c-lightning-36mos",
-        sku: "JR-CB-CL36M",
+        sku: "JK04",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750213",

@@ -2,7 +2,7 @@
 
 export const joyroom_60w_car_charger = {
         slug: "joyroom-60w-car-charger",
-        sku: "JR-CC-CL26",
+        sku: "JK01",
         brand: "Joyroom",
         categorySlug: "car-chargers",
         gtin: "6956116750039",

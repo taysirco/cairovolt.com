@@ -2,7 +2,7 @@
 
 export const anker_521_powerhouse = {
         slug: "anker-521-powerhouse",
-        sku: "ANK-PB-521",
+        sku: "AP01",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "0194644081034",

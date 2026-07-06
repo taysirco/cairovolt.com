@@ -2,7 +2,7 @@
 
 export const anker_powerport_25w = {
         slug: "anker-powerport-25w",
-        sku: "ANK-WC-25W",
+        sku: "AC02",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "0194644063566",

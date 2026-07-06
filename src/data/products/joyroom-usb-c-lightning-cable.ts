@@ -2,7 +2,7 @@
 
 export const joyroom_usb_c_lightning_cable = {
         slug: "joyroom-usb-c-lightning-cable",
-        sku: "JR-CB-CL",
+        sku: "JK08",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750091",

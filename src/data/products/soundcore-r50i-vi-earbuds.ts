@@ -1,7 +1,7 @@
 // Product: soundcore-r50i-vi-earbuds
 export const soundcore_r50i_vi_earbuds = {
     slug: "soundcore-r50i-vi-earbuds",
-    sku: "ANK-AU-R50IVI",
+    sku: "SH24",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

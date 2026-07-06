@@ -2,7 +2,7 @@
 
 export const anker_car_charger_dual_usb = {
         slug: "anker-car-charger-dual-usb",
-        sku: "ANK-CC-DUAL",
+        sku: "AR02",
         brand: "Anker",
         categorySlug: "car-chargers",
         gtin: "0848061073508",

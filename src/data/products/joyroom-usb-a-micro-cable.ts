@@ -2,7 +2,7 @@
 
 export const joyroom_usb_a_micro_cable = {
         slug: "joyroom-usb-a-micro-cable",
-        sku: "JR-CB-AM24",
+        sku: "JH04",
         brand: "Joyroom",
         categorySlug: "cables",
         gtin: "6956116750183",

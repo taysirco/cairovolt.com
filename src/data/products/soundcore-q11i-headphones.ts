@@ -1,7 +1,7 @@
 // Product: soundcore-q11i-headphones
 export const soundcore_q11i_headphones = {
     slug: "soundcore-q11i-headphones",
-    sku: "ANK-AU-Q11I",
+    sku: "SH14",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

@@ -2,7 +2,7 @@
 
 export const anker_nano_45w = {
         slug: "anker-nano-45w",
-        sku: "ANK-WC-45W",
+        sku: "AC01",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "0194644085551",

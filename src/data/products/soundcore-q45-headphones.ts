@@ -1,7 +1,7 @@
 // Product: soundcore-q45-headphones
 export const soundcore_q45_headphones = {
     slug: "soundcore-q45-headphones",
-    sku: "ANK-AU-Q45",
+    sku: "SH03",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

@@ -1,7 +1,7 @@
 // Product: soundcore-life-u2i-neckband
 export const soundcore_life_u2i_neckband = {
     slug: "soundcore-life-u2i-neckband",
-    sku: "ANK-AU-U2I",
+    sku: "SH27",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

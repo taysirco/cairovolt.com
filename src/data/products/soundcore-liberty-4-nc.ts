@@ -1,7 +1,7 @@
 // Product: soundcore-liberty-4-nc
 export const soundcore_liberty_4_nc = {
     slug: "soundcore-liberty-4-nc",
-    sku: "ANK-AU-LIB4NC",
+    sku: "SH09",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

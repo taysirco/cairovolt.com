@@ -1,7 +1,7 @@
 // Product: soundcore-p20i-earbuds
 export const soundcore_p20i_earbuds = {
     slug: "soundcore-p20i-earbuds",
-    sku: "ANK-AU-P20I",
+    sku: "SH28",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

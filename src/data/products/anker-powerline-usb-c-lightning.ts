@@ -2,7 +2,7 @@
 
 export const anker_powerline_usb_c_lightning = {
         slug: "anker-powerline-usb-c-lightning",
-        sku: "ANK-CB-CL",
+        sku: "AK01",
         brand: "Anker",
         categorySlug: "cables",
         gtin: "0848061099430",

@@ -2,7 +2,7 @@
 
 export const joyroom_3_in_1_wireless_charging_station = {
         slug: "joyroom-3-in-1-wireless-charging-station",
-        sku: "JR-WC-QN01",
+        sku: "JW01",
         brand: "Joyroom",
         categorySlug: "wall-chargers",
         gtin: "6956116750084",

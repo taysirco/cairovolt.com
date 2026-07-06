@@ -2,7 +2,7 @@
 
 export const joyroom_jr_t03_wireless_earbuds = {
         slug: "joyroom-jr-t03-wireless-earbuds",
-        sku: "JR-AU-T03",
+        sku: "JH01",
         brand: "Joyroom",
         categorySlug: "audio",
         gtin: "6956116714055",

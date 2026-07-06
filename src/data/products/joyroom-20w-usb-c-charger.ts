@@ -2,7 +2,7 @@
 
 export const joyroom_20w_usb_c_charger = {
         slug: "joyroom-20w-usb-c-charger",
-        sku: "JR-WC-20W",
+        sku: "JC03",
         brand: "Joyroom",
         categorySlug: "wall-chargers",
         gtin: "6956116750077",

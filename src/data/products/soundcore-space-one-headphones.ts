@@ -1,7 +1,7 @@
 // Product: soundcore-space-one-headphones
 export const soundcore_space_one_headphones = {
     slug: "soundcore-space-one-headphones",
-    sku: "ANK-AU-SONE",
+    sku: "SH02",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

@@ -2,7 +2,7 @@
 
 export const anker_zolo_a1681_20000 = {
         slug: "anker-zolo-a1681-20000",
-        sku: "ANK-PB-A1681",
+        sku: "AP06",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "194644291235",

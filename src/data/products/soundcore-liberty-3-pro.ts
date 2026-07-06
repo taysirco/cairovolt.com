@@ -1,7 +1,7 @@
 // Product: soundcore-liberty-3-pro
 export const soundcore_liberty_3_pro = {
     slug: "soundcore-liberty-3-pro",
-    sku: "ANK-AU-LIB3P",
+    sku: "SH05",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

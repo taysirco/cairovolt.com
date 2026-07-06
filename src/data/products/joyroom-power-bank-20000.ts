@@ -2,7 +2,7 @@
 
 export const joyroom_power_bank_20000 = {
         slug: "joyroom-power-bank-20000",
-        sku: "JR-PB-20K",
+        sku: "JP02",
         brand: "Joyroom",
         categorySlug: "power-banks",
         gtin: "6956116750022",

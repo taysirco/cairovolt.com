@@ -1,7 +1,7 @@
 // Product: anker-pencil-stylus
 export const anker_pencil_stylus = {
     slug: "anker-pencil-stylus",
-    sku: "ANK-AC-PENCIL",
+    sku: "AA01",
     brand: "Anker",
     categorySlug: "accessories",
     gtin: "",

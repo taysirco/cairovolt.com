@@ -2,7 +2,7 @@
 
 export const anker_soundcore_life_p2i = {
         slug: "anker-soundcore-life-p2i",
-        sku: "ANK-AU-P2I",
+        sku: "SH23",
         brand: "Soundcore",
         categorySlug: "audio",
         gtin: "0194644101763",

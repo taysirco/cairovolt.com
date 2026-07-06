@@ -1,7 +1,7 @@
 // Product: soundcore-p41i-earbuds
 export const soundcore_p41i_earbuds = {
     slug: "soundcore-p41i-earbuds",
-    sku: "ANK-AU-P41I",
+    sku: "SH11",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

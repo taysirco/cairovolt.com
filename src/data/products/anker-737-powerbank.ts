@@ -2,7 +2,7 @@
 
 export const anker_737_powerbank = {
         slug: "anker-737-powerbank",
-        sku: "ANK-PB-737",
+        sku: "AP02",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "0194644071967",

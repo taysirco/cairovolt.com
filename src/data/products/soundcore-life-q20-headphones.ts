@@ -1,7 +1,7 @@
 // Product: soundcore-life-q20-headphones
 export const soundcore_life_q20_headphones = {
     slug: "soundcore-life-q20-headphones",
-    sku: "ANK-AU-Q20",
+    sku: "SH13",
     brand: "Soundcore",
     categorySlug: "audio",
     gtin: "",

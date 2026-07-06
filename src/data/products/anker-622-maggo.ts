@@ -2,7 +2,7 @@
 
 export const anker_622_maggo = {
         slug: "anker-622-maggo",
-        sku: "ANK-PB-622",
+        sku: "AP04",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "0194644092122",

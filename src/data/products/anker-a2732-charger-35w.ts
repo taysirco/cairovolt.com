@@ -1,6 +1,6 @@
 // Product: anker-a2732-charger-35w (CAR CHARGER — PowerDrive PD+ 2)
 export const anker_a2732_charger_35w = {
-        slug: "anker-a2732-charger-35w", sku: "ANK-CC-A2732", brand: "Anker", categorySlug: "car-chargers",
+        slug: "anker-a2732-charger-35w", sku: "AR03", brand: "Anker", categorySlug: "car-chargers",
         gtin: "194644052249", gtin13: "0194644052249", mpn: "A2732", price: 550, originalPrice: 575, stock: 407, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-a2732-charger-35w/anker-a2732-35w-dual-usb-c-charger-pd-compact-design-cairovolt.webp", alt: "Anker A2732 PowerDrive PD+ 2 car charger 35W plugged into car cigarette lighter - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
