@@ -65,12 +65,13 @@ function getShortName(item: any): string {
         const arName = product.translations?.ar?.name || '';
         const enName = product.translations?.en?.name || '';
         // Prefer Arabic, fallback to English, fallback to slug
-        const name = arName || enName || product.slug;
+        // الجزء الأول فقط قبل "|" — الأسماء التسويقية الكاملة طويلة جداً للشيت
+        const name = (arName || enName || product.slug).split('|')[0].trim();
         // Truncate to 40 chars max for clean sheet display
         return name.length > 40 ? name.slice(0, 37) + '...' : name;
     }
-    // Fallback: truncate raw name
-    const raw = item.name || '';
+    // Fallback: first segment before "|", then truncate
+    const raw = String(item.name || '').split('|')[0].trim();
     return raw.length > 40 ? raw.slice(0, 37) + '...' : raw;
 }
 
@@ -119,7 +120,7 @@ export async function appendOrderToSheet(orderData: any) {
         // مكررة لنفس العميل، وكل بيانات الطلب (الإجمالي/الشحن/الملاحظات) محفوظة.
         const items: any[] = orderData.items || [];
         const itemsSummary = items
-            .map((item: any) => `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`)
+            .map((item: any) => `${String(item.name || '').split('|')[0].trim()} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`)
             .join('\n');
         const totalQuantity = items.reduce((sum: number, item: any) => sum + (item.quantity || 1), 0);
         const shortNames = items.map((item: any) => {

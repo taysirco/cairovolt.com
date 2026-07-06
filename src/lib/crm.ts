@@ -22,14 +22,20 @@
 // إعادة الإرسال بعد timeout ترد isDuplicate=true).
 const CRM_TIMEOUT_MS = 8000;
 
+/** الجزء الأول فقط من اسم المنتج (قبل أول "|") — الأسماء التسويقية الكاملة
+ *  طويلة جداً لواجهة الـCRM والشيت: "شاحن جوي روم 20 واط PD | أرخص شاحن…" → "شاحن جوي روم 20 واط PD" */
+function shortName(name: any): string {
+    return String(name || '').split('|')[0].trim();
+}
+
 function buildLeadPayload(orderData: any) {
     const items: any[] = orderData.items || [];
     const productName = items
-        .map((it: any) => (it.quantity || 1) > 1 ? `${it.name} x${it.quantity}` : it.name)
+        .map((it: any) => (it.quantity || 1) > 1 ? `${shortName(it.name)} x${it.quantity}` : shortName(it.name))
         .join(' + ');
     const totalQuantity = items.reduce((sum: number, it: any) => sum + (it.quantity || 1), 0);
     const orderDetails = items
-        .map((it: any) => `${it.name} (x${it.quantity || 1}) = ${(it.price || 0) * (it.quantity || 1)} ج`)
+        .map((it: any) => `${shortName(it.name)} (x${it.quantity || 1}) = ${(it.price || 0) * (it.quantity || 1)} ج`)
         .join(' | ');
 
     const notesParts: string[] = [];
