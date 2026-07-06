@@ -165,6 +165,7 @@ export default async function BlogArticlePage({ params }: Props) {
                 url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
                 locale={locale}
                 articleType="BlogPosting"
+                image={article.coverImage ? `https://cairovolt.com${article.coverImage}` : undefined}
                 datePublished={article.publishDate}
                 dateModified={article.modifiedDate}
                 about={entitiesToJsonLd(getEntitiesForArticle(slug).about, isArabic ? 'ar' : 'en')}

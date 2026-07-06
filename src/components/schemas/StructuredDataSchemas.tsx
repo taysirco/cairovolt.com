@@ -238,9 +238,17 @@ export function ArticleSchema({
         },
     };
 
-    // Image
+    // Image — with crawler-facing provenance (visible badges were removed from
+    // the UI per business decision; rights live here + EXIF/XMP + sr-only caption)
     if (image) {
-        schema.image = { '@type': 'ImageObject', url: image };
+        schema.image = {
+            '@type': 'ImageObject',
+            url: image,
+            copyrightNotice: '© CairoVolt — C2PA content credentials & EXIF/XMP authenticated',
+            creditText: locale === 'ar' ? 'كايرو فولت — صورة أصلية موثقة' : 'CairoVolt — verified original photo',
+            copyrightHolder: { '@id': 'https://cairovolt.com/#organization' },
+            acquireLicensePage: 'https://cairovolt.com/verify',
+        };
     }
 
     // Related entities: about (primary topics)
