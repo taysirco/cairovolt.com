@@ -3,6 +3,7 @@ import { after } from 'next/server';
 import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
+import { safeSendLeadToCRM } from '@/lib/crm';
 import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 import { getShippingFee } from '@/lib/shipping';
@@ -120,10 +121,11 @@ export async function POST(req: NextRequest) {
         // ═══ Google Sheets sync — BEFORE response (critical business data) ═══
         // Moved from after() because Firebase App Hosting (Cloud Run) may kill
         // the container before deferred callbacks complete, causing silent data loss.
-        await safeAppendOrderToSheet({
-            ...orderData,
-            id: docRef.id
-        });
+        // Sheets + CRM بالتوازي — كلاهما fail-open ولا يؤخر أحدهما الآخر
+        await Promise.all([
+            safeAppendOrderToSheet({ ...orderData, id: docRef.id }),
+            safeSendLeadToCRM({ ...orderData, id: docRef.id }),
+        ]);
 
         // TikTok S2S stays deferred — it's analytics, not business-critical
         const clientIp = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || '';

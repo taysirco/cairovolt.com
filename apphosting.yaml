@@ -33,6 +33,10 @@ env:
     value: 7c3540be1c25d60937460700ff450ebfd1778369deac734a  # Gates /api/reviews/sync + /api/admin/purge-seeded-reviews (rotate by changing this value)
     availability:
       - RUNTIME
+  - variable: CRM_WEBHOOK_URL
+    value: https://crm--my-crm-bfac7.asia-southeast1.hosted.app/api/webhook/new-lead  # Leads CRM (my-crm-bfac7) — كل طلب يُرسل كليد فور تسجيله
+    availability:
+      - RUNTIME
 
 secrets:
   - variable: FIREBASE_CLIENT_EMAIL
@@ -51,3 +55,5 @@ secrets:
     secret: cairovolt_public_key
   - variable: TIKTOK_ACCESS_TOKEN
     secret: tiktok_access_token
+  - variable: CRM_WEBHOOK_SECRET
+    secret: crm_webhook_secret  # Bearer لويبهوك الـCRM — نفس القيمة يجب ضبطها كـ WEBHOOK_SECRET في بيئة الـCRM لتفعيل التحقق

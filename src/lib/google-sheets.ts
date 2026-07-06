@@ -113,7 +113,21 @@ export async function appendOrderToSheet(orderData: any) {
 
         const sheet = doc.sheetsByIndex[0]; // First sheet
 
-        const rows = orderData.items.map((item: any, idx: number) => [
+        // ═══ صف واحد لكل طلب (مهما تعددت المنتجات — كومبو أو سلة) ═══
+        // المنتجات تُجمع داخل خلية H بسطر لكل منتج (\n يظهر متعدد الأسطر في
+        // الشيت)، والكمية في I إجمالية، وأسماء مختصرة مجمعة في K — لا صفوف
+        // مكررة لنفس العميل، وكل بيانات الطلب (الإجمالي/الشحن/الملاحظات) محفوظة.
+        const items: any[] = orderData.items || [];
+        const itemsSummary = items
+            .map((item: any) => `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`)
+            .join('\n');
+        const totalQuantity = items.reduce((sum: number, item: any) => sum + (item.quantity || 1), 0);
+        const shortNames = items.map((item: any) => {
+            const short = getShortName(item);
+            return items.length > 1 && (item.quantity || 1) > 1 ? `${short} x${item.quantity}` : short;
+        }).join(' + ');
+
+        const row = [
             /* A */ (() => { const d = new Date(); return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`; })(),
             /* B */ orderData.customerName,
             /* C */ orderData.phone,
@@ -121,18 +135,18 @@ export async function appendOrderToSheet(orderData: any) {
             /* E */ orderData.cityLabel || orderData.city,
             /* F */ '',
             /* G */ orderData.address,
-            /* H */ `${item.name} (x${item.quantity}) - ${(item.price || 0) * (item.quantity || 1)} EGP`,
-            /* I */ item.quantity,
-            /* J */ idx === 0 ? orderData.totalAmount : '',
-            /* K */ getShortName(item),
+            /* H */ itemsSummary,
+            /* I */ totalQuantity,
+            /* J */ orderData.totalAmount,
+            /* K */ shortNames,
             /* L */ 'جديد',
-            /* M */ idx === 0 ? buildNotesField(orderData) : '',
-            /* N */ idx === 0 ? getSourceField(orderData) : '',
-            /* O */ idx === 0 ? (orderData.shippingFee ?? '') : '', // رسوم الشحن (0 = شحن مجاني)
-        ]);
+            /* M */ buildNotesField(orderData),
+            /* N */ getSourceField(orderData),
+            /* O */ orderData.shippingFee ?? '', // رسوم الشحن (0 = شحن مجاني)
+        ];
 
-        await sheet.addRows(rows);
-        console.log(`[Sheets] ✅ Order synced: ${orderData.orderId || 'N/A'} | Phone: ${orderData.phone} | Rows: ${rows.length}`);
+        await sheet.addRows([row]);
+        console.log(`[Sheets] ✅ Order synced (1 row, ${items.length} items): ${orderData.orderId || 'N/A'} | Phone: ${orderData.phone}`);
     } catch (error: any) {
         console.error('[Sheets] ❌ Error:', error?.message || error, 'Code:', error?.code, 'Status:', error?.status);
         // Reset cached auth on auth errors so it's rebuilt next time

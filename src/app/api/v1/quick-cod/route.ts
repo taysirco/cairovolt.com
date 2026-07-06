@@ -5,6 +5,7 @@ import { getFirestore } from '@/lib/firebase-admin';
 import { FieldValue } from 'firebase-admin/firestore';
 import { staticProducts } from '@/lib/static-products';
 import { safeAppendOrderToSheet } from '@/lib/google-sheets';
+import { safeSendLeadToCRM } from '@/lib/crm';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
@@ -330,10 +331,11 @@ export async function POST(req: NextRequest) {
     // ═══ 8. Google Sheets sync — BEFORE response (critical business data) ═══
     // Moved from after() because Firebase App Hosting (Cloud Run) may kill
     // the container before deferred callbacks complete, causing silent data loss.
-    await safeAppendOrderToSheet({
-        ...orderData,
-        id: docRef.id,
-    });
+    // Sheets + CRM بالتوازي — كلاهما fail-open ولا يؤخر أحدهما الآخر
+    await Promise.all([
+        safeAppendOrderToSheet({ ...orderData, id: docRef.id }),
+        safeSendLeadToCRM({ ...orderData, id: docRef.id }),
+    ]);
 
     // ── 9. Success Response ──
     const productName = input.locale === 'ar'

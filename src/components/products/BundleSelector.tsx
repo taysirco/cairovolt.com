@@ -43,7 +43,7 @@ interface BundleSelectorProps {
 }
 
 export default function BundleSelector({ mainProduct, relatedProducts, bundleData, locale }: BundleSelectorProps) {
-    const { addToCart } = useCart();
+    const { addToCart, items: cartItems } = useCart();
     const isArabic = locale === 'ar';
 
     // Use smart bundle data if available, otherwise fall back to relatedProducts
@@ -111,6 +111,10 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
     const handleAddBundle = () => {
         selectedProducts.forEach(item => {
+            // منع التكرار: أي منتج موجود بالفعل في السلة (وعلى رأسه المنتج
+            // الأساسي الذي أضافه العميل من زر الصفحة) لا يُضاف مرة أخرى —
+            // زيادة الكمية تظل قراراً صريحاً للعميل من زر + داخل السلة.
+            if (cartItems.some(ci => ci.productId === item.product.id)) return;
             const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
             addToCart({
                 productId: item.product.id,
