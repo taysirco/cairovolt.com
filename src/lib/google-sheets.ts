@@ -142,7 +142,15 @@ export async function appendOrderToSheet(orderData: any) {
             /* L */ 'جديد',
             /* M */ buildNotesField(orderData),
             /* N */ getSourceField(orderData),
-            /* O */ orderData.shippingFee ?? '', // رسوم الشحن (0 = شحن مجاني)
+            /* O */ '', // whatsappSent — يملؤه الـCRM (خريطة أعمدة smart-engine)
+            /* P */ orderData.orderId || orderData.id || '', // 🆔 بصمة النظام — نفس fingerprint المرسل لويبهوك الـCRM؛ بها تربط المزامنة الصف بالليد ولا تستورده مكرراً
+            /* Q */ '', // assignee — يملؤه الـCRM
+            /* R */ '',
+            /* S */ '', // bostaTrackingNumber — يملؤه الـCRM
+            /* T */ '', // bostaOrderStatus — يملؤه الـCRM
+            /* U */ '', // lastBostaUpdate — يملؤه الـCRM
+            /* V */ '', // bostaRanking — يملؤه الـCRM
+            /* W */ orderData.shippingFee ?? '', // رسوم الشحن (0 = شحن مجاني) — بعيداً عن أعمدة الـCRM المحجوزة A..V
         ];
 
         await sheet.addRows([row]);

@@ -39,6 +39,9 @@ function buildLeadPayload(orderData: any) {
     if (orderData.customerNotes || orderData.notes) notesParts.push(String(orderData.customerNotes || orderData.notes));
 
     return {
+        // بصمة الربط: نفس القيمة تُكتب في العمود P بصف الشيت — بها يربط
+        // smart-engine في الـCRM صف الشيت بمستند هذا الويبهوك فلا يستورده مكرراً.
+        fingerprint: String(orderData.orderId || orderData.id || ''),
         name: orderData.customerName,
         phone: orderData.phone,
         whatsapp: orderData.whatsapp || orderData.phone,
