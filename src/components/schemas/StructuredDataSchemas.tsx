@@ -244,6 +244,14 @@ export function ArticleSchema({
         schema.image = {
             '@type': 'ImageObject',
             url: image,
+            // creator مطلوب لميزة Image Metadata في Google (كانت ناقصة → تنبيه GSC).
+            // نفس مرجع منظمة كايرو فولت المستخدم في ImageObjectSchema/ProductSchema.
+            creator: {
+                '@type': 'Organization',
+                '@id': 'https://cairovolt.com/#organization',
+                name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
+                url: 'https://cairovolt.com',
+            },
             copyrightNotice: '© CairoVolt — C2PA content credentials & EXIF/XMP authenticated',
             creditText: locale === 'ar' ? 'كايرو فولت — صورة أصلية موثقة' : 'CairoVolt — verified original photo',
             copyrightHolder: { '@id': 'https://cairovolt.com/#organization' },
