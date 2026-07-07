@@ -221,6 +221,10 @@ const nextConfig = {
     },
     async redirects() {
         return [
+            // === Internal staff tools — friendly /admin/* alias (same family as /admin/print-cards) ===
+            { source: '/admin/wholesale', destination: '/wholesale-dashboard.html', permanent: false },
+            { source: '/admin/catalog', destination: '/wholesale-dashboard.html', permanent: false },
+
             // === Generic category: /products/slug → /slug (clean URLs) ===
             { source: '/products/power-banks', destination: '/power-banks', permanent: true },
             { source: '/en/products/power-banks', destination: '/en/power-banks', permanent: true },

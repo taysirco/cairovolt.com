@@ -86,10 +86,11 @@ cairovolt-keywords.xlsx
 invoice_*.html
 invoice_*.pdf
 
-# Wholesale catalogs & dashboards (standalone HTML)
+# Wholesale catalogs & dashboards (standalone HTML) — local business docs, keep out of repo
 anker_wholesale_catalog.html
 wholesale-dashboard.html
-public/wholesale-dashboard.html
+# Exception: the in-app staff catalog tool IS published (served at /wholesale-dashboard.html, noindex)
+!public/wholesale-dashboard.html
 
 # Chrome extension (separate project)
 cairovolt-authenticator/
