@@ -53,7 +53,8 @@ export async function GET() {
                 md += `| **Original Price** | ~~${product.originalPrice} EGP~~ (${discount}% off) |\n`;
             }
 
-            md += `| **Stock** | ${product.stock > 0 ? `✅ In Stock (${product.stock} units)` : '❌ Out of Stock'} |\n`;
+            // حالة توفّر فقط بلا عدد — المخزون الحقيقي يُدار في نظام الليدز/الحسابات
+            md += `| **Stock** | ${product.stock > 0 ? '✅ In Stock' : '❌ Out of Stock'} |\n`;
             md += `| **SKU** | ${product.sku || 'N/A'} |\n`;
 
             if (product.gtin) {

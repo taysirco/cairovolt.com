@@ -179,23 +179,15 @@ export default function VariantSelector({
                                 )}
                             </div>
 
-                            {/* Stock indicator */}
-                            {isOutOfStock ? (
+                            {/* Stock indicator — الرقم مخفي عمداً: المخزون الحقيقي يُدار في
+                                نظام الليدز/الحسابات، والموقع مرجع فقط بلا أي عدد مخزون للعميل.
+                                نُبقي فقط حالة "نفد" (توفّر) بلا رقم. */}
+                            {isOutOfStock && (
                                 <div className="mt-1 sm:mt-1.5 text-[9px] sm:text-[10px] font-medium text-red-500 dark:text-red-400 flex items-center gap-1">
                                     <svg className="w-2.5 h-2.5 sm:w-3 sm:h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
                                     </svg>
                                     <span className="truncate">{isRTL ? 'نفد من المخزون' : 'Out of stock'}</span>
-                                </div>
-                            ) : variant.stock <= 3 && (
-                                <div className="mt-1 sm:mt-1.5 text-[9px] sm:text-[10px] font-medium text-amber-600 dark:text-amber-400 flex items-center gap-1">
-                                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse flex-shrink-0" />
-                                    <span className="truncate">
-                                        {isRTL
-                                            ? `باقي ${variant.stock} قطع فقط`
-                                            : `Only ${variant.stock} left`
-                                        }
-                                    </span>
                                 </div>
                             )}
                         </button>
