@@ -7,6 +7,20 @@ import { safeSendLeadToCRM } from '@/lib/crm';
 import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 import { getShippingFee } from '@/lib/shipping';
+import { staticProducts, getProductBySlug, resolveCatalogPricing } from '@/lib/static-products';
+
+// 🧬 بصمة SKU من الكتالوج — شبكة أمان خادمية: تعوّض أي قطعة سلة بلا sku
+// (سلال قديمة في localStorage قبل حقل sku، أو مسار الإضافة السريعة بالصفحة الرئيسية
+// الذي لا يحمل sku). تصل البصمة لكلا القناتين (ويبهوك + شيت) اللتين تستقبلان orderData.
+function resolveItemSku(item: any): string {
+    if (item?.sku) return String(item.sku);
+    const pid = String(item?.productId || '');
+    const slug = String(item?.slug || pid.replace(/^static_/, ''));
+    const bySlug = slug ? getProductBySlug(slug) : undefined;
+    if (bySlug?.sku) return bySlug.sku;
+    const bySku = staticProducts.find(p => p.sku === slug || p.sku === pid);
+    return bySku?.sku || '';
+}
 
 // ═══════════ Server-side Coupon Validation ═══════════
 const SERVER_VALID_COUPONS: Record<string, number> = {
@@ -78,15 +92,72 @@ export async function POST(req: NextRequest) {
             updatedAt: FieldValue.serverTimestamp(),
         };
 
-        // ═══ Server-side price calculation — NEVER trust client values ═══
-        // Calculate true subtotal from items (source of truth)
-        const serverSubtotal = Array.isArray(data.items)
-            ? data.items.slice(0, 20).reduce((sum: number, item: any) => {
-                const price = typeof item.price === 'number' ? item.price : 0;
-                const qty = typeof item.quantity === 'number' ? item.quantity : 1;
-                return sum + (price * qty);
-            }, 0)
-            : 0;
+        // ═══ فرض سعر الكتالوج — المصدر الوحيد للحقيقة (NEVER trust client) ═══
+        // العميل يرسل السعر من سلة localStorage/صفحة مكاشة قد تكون قديمة (مثال
+        // مؤكَّد: قلم أنكر 1049 القديم بدل 1199)، أو قد يكون طلباً مُلفَّقاً (المنفذ
+        // غير محمي). نستبدل سعر كل قطعة بسعر موثوق ولا نثق بسعر العميل إطلاقاً:
+        //   ok               → سعر الكتالوج الثابت (بالـslug الثابت، لا الـsku المتغيّر).
+        //   variant-unresolved → رفض 400 (متغيّر غير محدَّد — لا يحدث في سلة حقيقية).
+        //   unknown          → منتج Firestore: نأخذ سعره من Firestore؛ وإلا رفض 400.
+        const pricedItems: any[] = [];
+        for (const it of orderData.items) {
+            const res = resolveCatalogPricing(it);
+            const clientPrice = typeof it.price === 'number' ? it.price : null;
+
+            if (res.status === 'ok') {
+                if (clientPrice !== null && clientPrice !== res.price) {
+                    console.warn(`[Orders] 💲 سعر قديم صُحِّح من الكتالوج: "${it.name || ''}" ${clientPrice} → ${res.price} | ${orderId}`);
+                }
+                const priced: any = { ...it, price: res.price, sku: res.sku || resolveItemSku(it) };
+                delete priced.originalPrice; // لا نثق بـoriginalPrice العميل
+                if (res.originalPrice !== undefined) priced.originalPrice = res.originalPrice;
+                pricedItems.push(priced);
+                continue;
+            }
+
+            if (res.status === 'variant-unresolved') {
+                console.warn(`[Orders] 🚫 متغيّر غير محدَّد للمنتج ${res.slug} — رفض | pid=${it.productId || 'N/A'}`);
+                return NextResponse.json({ error: 'يجب اختيار خيار المنتج (السعة/الموديل) قبل الطلب.' }, { status: 400 });
+            }
+
+            // unknown — منتج ليس في الكتالوج الثابت: نبحث عنه في Firestore بسعره الموثوق
+            const slug = res.candidateSlug;
+            let resolvedFromFirestore = false;
+            if (slug) {
+                try {
+                    const doc = await db.collection('products').doc(slug).get();
+                    if (doc.exists) {
+                        const fp: any = doc.data() || {};
+                        const fPrice = Number(fp.price);
+                        if (Number.isFinite(fPrice) && fPrice > 0) {
+                            if (clientPrice !== null && clientPrice !== fPrice) {
+                                console.warn(`[Orders] 💲 سعر Firestore فُرض: "${it.name || ''}" ${clientPrice} → ${fPrice} | ${orderId}`);
+                            }
+                            const priced: any = { ...it, price: fPrice, sku: fp.sku || resolveItemSku(it) };
+                            delete priced.originalPrice;
+                            const fOrig = Number(fp.originalPrice);
+                            if (Number.isFinite(fOrig) && fOrig > 0) priced.originalPrice = fOrig;
+                            pricedItems.push(priced);
+                            resolvedFromFirestore = true;
+                        }
+                    }
+                } catch (e) {
+                    console.error(`[Orders] Firestore price lookup failed for "${slug}":`, e);
+                }
+            }
+            if (!resolvedFromFirestore) {
+                console.warn(`[Orders] 🚫 منتج غير معروف — رفض الطلب: "${it.name || ''}" pid=${it.productId || 'N/A'} slug=${slug || 'N/A'} | ${orderId}`);
+                return NextResponse.json({ error: 'منتج غير معروف في الطلب. حدّث الصفحة وأعد المحاولة.' }, { status: 400 });
+            }
+        }
+        orderData.items = pricedItems;
+
+        // المجموع من الأسعار المصحّحة (لا من قيم العميل)
+        const serverSubtotal = orderData.items.reduce((sum: number, item: any) => {
+            const price = typeof item.price === 'number' ? item.price : 0;
+            const qty = typeof item.quantity === 'number' ? item.quantity : 1;
+            return sum + (price * qty);
+        }, 0);
 
         orderData.subtotalBeforeDiscount = serverSubtotal;
 
@@ -114,6 +185,16 @@ export async function POST(req: NextRequest) {
             const shipping = getShippingFee(data.city, serverSubtotal);
             orderData.shippingFee = shipping;
             orderData.totalAmount = serverSubtotal + shipping;
+        }
+
+        // 🧬 حارس بصمة SKU للقطعة الرئيسية (الأعلى قيمة) — الأسعار والـsku
+        // ضُبطت بالفعل أعلاه من الكتالوج؛ هنا تحذير فقط لو بقيت بلا sku.
+        const primaryItem = orderData.items.length
+            ? [...orderData.items].sort((a: any, b: any) =>
+                ((b.price || 0) * (b.quantity || 1)) - ((a.price || 0) * (a.quantity || 1)))[0]
+            : null;
+        if (primaryItem && !primaryItem.sku) {
+            console.warn(`[Orders] ⚠️ بصمة SKU مفقودة للقطعة الرئيسية — orderId=${orderId} | "${primaryItem.name || ''}" | productId=${primaryItem.productId || 'N/A'}`);
         }
 
         const docRef = await db.collection('orders').add(orderData);

@@ -175,6 +175,81 @@ export function getProductBySlug(slug: string): StaticProduct | undefined {
     return staticProducts.find(p => p.slug === slug);
 }
 
+/**
+ * السعر الموثوق من الكتالوج لعنصر سلة/طلب — المصدر الوحيد للحقيقة السعرية.
+ *
+ * يتجاهل أي سعر أرسله العميل: السلة محفوظة في localStorage بسعرها لحظة
+ * الإضافة، وصفحة المنتج قد تُخدَّم مكاشة على الحافة — فيتسرّب سعر قديم إن وثقنا
+ * بالعميل. نطابق بالترتيب (من الأثبت إلى الأضعف):
+ *   1. productId بصيغة "static_<slug>[_<variantId>]" — الـslug لا يتغيّر أبداً،
+ *      فهو المفتاح الأضمن (بعكس الـsku الذي تغيّر في هجرة الأكواد 4-أحرف).
+ *   2. حقل slug صريح على العنصر إن وُجد.
+ *   3. sku (على مستوى المنتج أو المتغيّر) — للتوافق فقط.
+ *
+ * المنتجات ذات المتغيّرات: نُصحّح السعر فقط عند تحديد المتغيّر بدقة (id أو sku)؛
+ * وإلا نُعيد null كي لا نخمّن شريحة سعر خاطئة. المنتجات غير الموجودة في الكتالوج
+ * الثابت (Firestore فقط) تُعيد null فيُبقي المستدعي سعر العميل.
+ */
+export type CatalogPricing =
+    | { status: 'ok'; price: number; originalPrice?: number; sku: string; slug: string; variantId?: string }
+    // منتج بمتغيّرات لكن العنصر لم يحدّد المتغيّر — طلب مُلفَّق/معطوب (السلال الحقيقية
+    // تحمل دائماً المتغيّر). المستدعي يرفض بدل الوثوق بسعر العميل.
+    | { status: 'variant-unresolved'; slug: string }
+    // غير موجود في الكتالوج الثابت — قد يكون منتج Firestore (يبحث عنه المستدعي هناك)
+    // أو مُلفَّقاً (يُرفض). candidateSlug = أفضل تخمين لمعرّف مستند Firestore.
+    | { status: 'unknown'; candidateSlug: string };
+
+export function resolveCatalogPricing(item: {
+    productId?: string;
+    sku?: string;
+    slug?: string;
+}): CatalogPricing {
+    const rawId = String(item?.productId || '');
+    let idSlug = '';
+    let variantId = '';
+    if (rawId.startsWith('static_')) {
+        const rest = rawId.slice('static_'.length);
+        const us = rest.indexOf('_'); // الـslug يستخدم '-'، والفاصل مع الـvariant هو '_'
+        if (us === -1) idSlug = rest;
+        else { idSlug = rest.slice(0, us); variantId = rest.slice(us + 1); }
+    }
+
+    // إيجاد المنتج: slug من productId → حقل slug → sku (منتج/متغيّر)
+    let product: StaticProduct | undefined =
+        (idSlug && staticProducts.find(p => p.slug === idSlug)) || undefined;
+    if (!product && item?.slug) product = staticProducts.find(p => p.slug === item.slug);
+    if (!product && item?.sku) {
+        product = staticProducts.find(p =>
+            p.sku === item.sku || (p.variants || []).some(v => v.sku === item.sku));
+    }
+
+    if (!product) {
+        // أفضل مرشّح لمعرّف مستند Firestore: productId غير المسبوق بـstatic_ = الـslug
+        // مباشرة (منتجات Firestore id=slug)، وإلا الـslug المستخرج، وإلا حقل slug.
+        const candidateSlug = (!rawId.startsWith('static_') && rawId) || idSlug || String(item?.slug || '');
+        return { status: 'unknown', candidateSlug };
+    }
+
+    // منتج بمتغيّرات — يجب تحديد المتغيّر بدقة، وإلا نرفض (لا تخمين شريحة سعر)
+    if (product.variants && product.variants.length > 0) {
+        const variant =
+            (variantId && product.variants.find(v => v.id === variantId)) ||
+            (item?.sku && product.variants.find(v => v.sku === item.sku)) ||
+            undefined;
+        if (!variant) return { status: 'variant-unresolved', slug: product.slug };
+        return {
+            status: 'ok',
+            price: variant.price,
+            originalPrice: variant.originalPrice,
+            sku: variant.sku,
+            slug: product.slug,
+            variantId: variant.id,
+        };
+    }
+
+    return { status: 'ok', price: product.price, originalPrice: product.originalPrice, sku: product.sku, slug: product.slug };
+}
+
 export function getProductsByCategory(categorySlug: string): StaticProduct[] {
     return staticProducts.filter(p => p.categorySlug === categorySlug);
 }

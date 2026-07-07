@@ -2,9 +2,14 @@
 
 import { createContext, useContext, useEffect, useState, useTransition, useCallback, ReactNode } from 'react';
 import { ttqAddToCart } from '@/lib/tiktokPixel';
+import { resolveCatalogPricing } from '@/lib/static-products';
 
 export interface CartItem {
     productId: string;
+    // 🧬 بصمة المنتج (SKU): تُنسخ من الكتالوج عند الإضافة للسلة كي تصل للـCRM
+    // (ويبهوك + شيت) فتُبصَم مطابقة قطعية بلا تخمين بالاسم. اختيارية للتوافق مع
+    // سلال قديمة محفوظة في localStorage بلا الحقل — الخادم يعوّضها من الكتالوج.
+    sku?: string;
     name: string;
     price: number;
     originalPrice?: number;
@@ -41,7 +46,19 @@ export function CartProvider({ children }: { children: ReactNode }) {
         try {
             const savedCart = localStorage.getItem('cairovolt_cart');
             if (savedCart) {
-                setItems(JSON.parse(savedCart));
+                // تحديث أسعار السلة القديمة من الكتالوج الحالي — كي يرى العميل
+                // السعر الصحيح (يطابق ما يفرضه الخادم عند الطلب). المنتجات غير
+                // الموجودة في الكتالوج الثابت تبقى بسعرها المحفوظ.
+                const parsed = JSON.parse(savedCart);
+                const refreshed = Array.isArray(parsed)
+                    ? parsed.map((it: CartItem) => {
+                        const cat = resolveCatalogPricing(it);
+                        return cat.status === 'ok'
+                            ? { ...it, price: cat.price, ...(cat.originalPrice !== undefined ? { originalPrice: cat.originalPrice } : {}), sku: cat.sku || it.sku }
+                            : it; // متغيّر غير محدَّد أو منتج Firestore — يبقى بسعره المحفوظ (الخادم يفرض الصحيح عند الطلب)
+                    })
+                    : parsed;
+                setItems(refreshed);
             }
         } catch (error) {
             console.error('Failed to load cart from localStorage:', error);
