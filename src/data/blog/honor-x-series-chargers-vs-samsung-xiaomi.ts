@@ -531,7 +531,7 @@ export const honor_x_series_chargers_vs_samsung_xiaomi: BlogArticle = {
 
 <h3>Honor X6b — The Bundled Charger Is Sufficient</h3>
 
-<p>The X6b comes with a 22.5W charger — and that's the phone's maximum speed. You don't need a new charger unless the original breaks. If it does: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 350 EGP is enough — it charges at 20W (90% of max speed), just a few minutes difference.</p>
+<p>The X6b comes with a 22.5W charger — and that's the phone's maximum speed. You don't need a new charger unless the original breaks. If it does: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 490 EGP is enough — it charges at 20W (90% of max speed), just a few minutes difference.</p>
 
 <h2>The Cable — Same Story as Every Brand</h2>
 

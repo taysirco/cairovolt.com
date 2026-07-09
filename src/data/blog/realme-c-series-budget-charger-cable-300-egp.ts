@@ -27,7 +27,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
             metaDescription: 'دليل شامل لأفضل ملحقات Realme C65 و C55 و C53 في مصر 2026 — شاحن سريع وكابل USB-C بميزانية أقل من 300 جنيه. كل قطعة مختبرة ومتوافقة 100%. تابع التفاصيل بمصر.',
             keywords: 'شاحن ريلمي C65, شاحن realme c55, كابل ريلمي, بديل شاحن realme, أفضل شاحن realme مصر, شاحن سريع ريلمي رخيص, ملحقات ريلمي C series, شاحن 20 واط ريلمي',
             excerpt: 'دليل عملي لأفضل ملحقات Realme C series — شاحن سريع وكابل USB-C بميزانية محدودة تبدأ من 300 جنيه فقط.',
-            quickAnswer: 'موبايلات Realme C series (C65, C55, C53) بتدعم شحن سريع من 18W لـ 33W. الشاحن اللي في العلبة (10W) بيشحن ببطء شديد — 3 ساعات+. البديل الأذكى: Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 350 جنيه. كلاهم بيشحن Realme C65 من 0 لـ 50% في 30-35 دقيقة بدل ساعة و20 دقيقة. باقة شاحن + كابل تبدأ من 420 جنيه.',
+            quickAnswer: 'موبايلات Realme C series (C65, C55, C53) بتدعم شحن سريع من 18W لـ 33W. الشاحن اللي في العلبة (10W) بيشحن ببطء شديد — 3 ساعات+. البديل الأذكى: Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 490 جنيه. كلاهم بيشحن Realme C65 من 0 لـ 50% في 30-35 دقيقة بدل ساعة و20 دقيقة. باقة شاحن + كابل تبدأ من 420 جنيه.',
             content: `<p>Realme C series هي ملك الميزانية المحدودة في مصر — موبايلات بسعر 4,000-7,000 جنيه بمواصفات كانت فلاجشيب من 3 سنين. Realme C65 بالذات أصبح من أكتر الموبايلات مبيعاً في مصر 2026. لكن في مشكلة كلاسيكية: الشاحن اللي جاي في العلبة هو شاحن 10W عادي — أبطأ شاحن ممكن تلاقيه في 2026. بطارية 5,000mAh × شاحن 10W = <strong>3 ساعات و15 دقيقة</strong> من 0 لـ 100%. ده وقت مش مقبول.</p>
 
 <p>الخبر الكويس: موبايلات Realme C series بتقبل شحن سريع أعلى بكتير من الشاحن المرفق. C65 بيقبل 33W و C55 بيقبل 33W و C53 بيقبل 18W. يعني شاحن بديل بـ 300-350 جنيه ممكن يخلّي الشحن أسرع <strong>2-3 مرات</strong> من الشاحن المرفق. ده من أكبر الفروقات اللي ممكن تحققها بأقل استثمار.</p>
@@ -36,7 +36,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> موبايلات Realme C series بتدعم شحن سريع من 18W لـ 33W. الشاحن في العلبة (10W) بطئ جداً. البديل الأذكى: Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 350 جنيه. باقة شاحن + كابل تبدأ من 420 جنيه.
+        <strong>💡 الإجابة السريعة:</strong> موبايلات Realme C series بتدعم شحن سريع من 18W لـ 33W. الشاحن في العلبة (10W) بطئ جداً. البديل الأذكى: Joyroom 25W بـ 300 جنيه أو Anker 20W بـ 490 جنيه. باقة شاحن + كابل تبدأ من 420 جنيه.
     </p>
 </div>
 
@@ -136,7 +136,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <h3>💰 الخيار الاقتصادي: Anker PowerPort 20W</h3>
 
-<p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> بـ 350 جنيه — GaN، أصغر حجماً بـ 40% من أي شاحن 20W تاني. بيشحن Realme C65 بسرعة 20W PD — أبطأ بـ 14 دقيقة من 25W للشحنة الكاملة بس بتقنية GaN اللي بتخلي الشاحن أبرد بكتير وعمره أطول. مناسب لو عايز شاحن يعيش معاك 3+ سنين.</p>
+<p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر PowerPort 20W</a> بـ 490 جنيه — GaN، أصغر حجماً بـ 40% من أي شاحن 20W تاني. بيشحن Realme C65 بسرعة 20W PD — أبطأ بـ 14 دقيقة من 25W للشحنة الكاملة بس بتقنية GaN اللي بتخلي الشاحن أبرد بكتير وعمره أطول. مناسب لو عايز شاحن يعيش معاك 3+ سنين.</p>
 
 <h3>🎯 لو ميزانيتك أقل من 200 جنيه</h3>
 
@@ -186,7 +186,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">🎯 باقة المتوازنة</td>
-        <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W (350 ج)</td>
+        <td style="padding:12px;border:1px solid #d1d5db;">Anker 20W (490 ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Anker C-C (180 ج)</td>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">530 ج</td>
         <td style="padding:12px;border:1px solid #d1d5db;">42 دقيقة</td>
@@ -249,7 +249,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
             metaDescription: 'Complete guide to the best Realme C65, C55, and C53 accessories in Egypt 2026 — fast charger and USB-C cable on a budget under 300 EGP. Every item tested and...',
             keywords: 'realme c65 charger, realme c55 charger, realme cable, realme charger alternative, best realme charger egypt, budget fast charger realme, realme c series accessories, 20w charger realme',
             excerpt: 'A practical guide to the best Realme C series accessories — fast charger and USB-C cable on a tight budget starting from just 300 EGP.',
-            quickAnswer: 'Realme C series phones (C65, C55, C53) support fast charging from 18W to 33W. The bundled charger (10W) is painfully slow — 3+ hours. The smarter alternative: Joyroom 25W at 300 EGP or Anker 20W at 350 EGP. Both charge Realme C65 from 0 to 50% in 30-35 minutes instead of 1 hour 20 minutes. A charger + cable bundle starts at 420 EGP.',
+            quickAnswer: 'Realme C series phones (C65, C55, C53) support fast charging from 18W to 33W. The bundled charger (10W) is painfully slow — 3+ hours. The smarter alternative: Joyroom 25W at 300 EGP or Anker 20W at 490 EGP. Both charge Realme C65 from 0 to 50% in 30-35 minutes instead of 1 hour 20 minutes. A charger + cable bundle starts at 420 EGP.',
             content: `<p>The Realme C series is the budget king in Egypt — phones priced at 4,000-7,000 EGP with specs that were flagship-level 3 years ago. The Realme C65 in particular has become one of the best-selling phones in Egypt in 2026. But there's a classic problem: the bundled charger is a standard 10W charger — the slowest charger you can find in 2026. A 5,000mAh battery × 10W charger = <strong>3 hours and 15 minutes</strong> from 0 to 100%. That's unacceptable.</p>
 
 <p>The good news: Realme C series phones accept much faster charging than the bundled charger provides. The C65 accepts 33W, the C55 accepts 33W, and the C53 accepts 18W. An alternative charger at 300-350 EGP can make charging <strong>2-3 times faster</strong> than the bundled charger. This is one of the biggest improvements you can achieve with the smallest investment.</p>
@@ -258,7 +258,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Realme C series phones support fast charging from 18W to 33W. The bundled charger (10W) is painfully slow. The smarter alternative: Joyroom 25W at 300 EGP or Anker 20W at 350 EGP. A charger + cable bundle starts at 420 EGP.
+        <strong>💡 Quick Answer:</strong> Realme C series phones support fast charging from 18W to 33W. The bundled charger (10W) is painfully slow. The smarter alternative: Joyroom 25W at 300 EGP or Anker 20W at 490 EGP. A charger + cable bundle starts at 420 EGP.
     </p>
 </div>
 
@@ -358,7 +358,7 @@ export const realme_c_series_budget_charger_cable_300_egp: BlogArticle = {
 
 <h3>💰 Budget Pick: Anker PowerPort 20W</h3>
 
-<p><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> at 350 EGP — GaN, 40% smaller than any other 20W charger. Charges Realme C65 at 20W PD — 14 minutes slower than 25W for a full charge but with GaN technology that keeps the charger much cooler and extends its lifespan. Ideal if you want a charger that lasts 3+ years.</p>
+<p><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> at 490 EGP — GaN, 40% smaller than any other 20W charger. Charges Realme C65 at 20W PD — 14 minutes slower than 25W for a full charge but with GaN technology that keeps the charger much cooler and extends its lifespan. Ideal if you want a charger that lasts 3+ years.</p>
 
 <h3>🎯 If Your Budget Is Under 200 EGP</h3>
 

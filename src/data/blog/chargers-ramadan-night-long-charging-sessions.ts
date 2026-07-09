@@ -28,14 +28,14 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
             metaDescription: 'دليل شامل لشحن الموبايل بالليل في رمضان بأمان. إزاي تختار شاحن بحماية حرارية متقدمة يتحمل 8+ ساعات شحن بدون ما يضر بطاريتك — بأرقام حقيقية. تابع التفاصيل بمصر.',
             keywords: 'شحن الموبايل بالليل, شحن الموبايل في رمضان, شاحن آمن للشحن الليلي, هل الشحن طول الليل بيضر البطارية, شاحن مع حماية حرارية, افضل شاحن للشحن اثناء النوم, شحن الموبايل وانت نايم, Care Mode شاحن',
             excerpt: 'في رمضان الموبايل بيتشحن بالليل 7-10 ساعات متواصلة. دليل اختيار شاحن آمن بحماية حرارية يحافظ على بطاريتك — مع أفضل الخيارات في مصر.',
-            quickAnswer: 'أيوا، الشحن الليلي في رمضان آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP (زي Anker أو Joyroom). الموبايلات الحديثة (iPhone 15+، Samsung S24+) عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن Anker 20W بـ 375ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: Anker Nano 45W Smart Display بخاصية Care Mode بيوقف الشحن عند 80%.',
+            quickAnswer: 'أيوا، الشحن الليلي في رمضان آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP (زي Anker أو Joyroom). الموبايلات الحديثة (iPhone 15+، Samsung S24+) عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن Anker 20W بـ 490ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: Anker Nano 45W Smart Display بخاصية Care Mode بيوقف الشحن عند 80%.',
             content: `<p>الساعة 2 الصبح بعد السحور. المسلسل خلص على الـ MBC. بصّيت على موبايلك — البطارية 8%. حطيته على الشاحن ونمت. صحيت الضهر على المنبّه لقيت الموبايل على الشاحن بقاله 9 ساعات متواصلة. وهنا بييجي السؤال اللي كل واحد فينا سأله لنفسه في رمضان: <strong>"أنا كده بوظت البطارية؟"</strong></p>
 
 <p>في رمضان بالذات، نمط استخدام الموبايل بيتغيّر تماماً. السهر لبعد الفجر، المسلسلات والسوشيال ميديا طول الليل، ونوم طويل بالنهار — يعني الموبايل بيتشحن ساعات أطول من أي وقت تاني في السنة. وده بيثير قلق مشروع عند ملايين المصريين. في المقال ده — كمهندس إلكترونيات بحب أفّند الخرافات بالفيزياء — هنجاوب على كل الأسئلة: هل الشحن الليلي الطويل بيضر فعلاً؟ وإيه الشاحن اللي يتحمل ده بأمان؟ وإزاي توفّر فلوسك وتحافظ على بطاريتك في نفس الوقت؟</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> الشحن الليلي آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP. الموبايلات الحديثة عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن Anker 20W بـ 375ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: Anker Nano 45W Smart Display بـ Care Mode بيوقف الشحن عند 80%.
+        <strong>💡 الإجابة السريعة:</strong> الشحن الليلي آمن بشرط واحد: شاحن أصلي بحماية OVP/OTP. الموبايلات الحديثة عندها Trickle Charge بتوقف التيار عند 100%. أفضل حل: شاحن Anker 20W بـ 490ج بتقنية ActiveShield 2.0 (بيراقب الحرارة 3 مليون مرة يومياً). للبريميوم: Anker Nano 45W Smart Display بـ Care Mode بيوقف الشحن عند 80%.
     </p>
 </div>
 
@@ -295,14 +295,14 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
             metaDescription: 'Complete guide to safe overnight phone charging during Ramadan. How to choose a charger with advanced thermal protection for 8+ hour charging sessions.',
             keywords: 'overnight phone charging Ramadan, safe charger for night charging, does overnight charging damage battery, charger with thermal protection, best charger overnight charging, Care Mode charger, charging phone while sleeping, ActiveShield charger',
             excerpt: 'During Ramadan, phones charge overnight for 7-10 hours straight. Guide to choosing a safe charger with thermal protection that preserves your battery — with the best options in Egypt.',
-            quickAnswer: 'Yes, overnight charging during Ramadan is safe with one condition: a genuine charger with OVP/OTP protection (like Anker or Joyroom). Modern phones (iPhone 15+, Samsung S24+) have Trickle Charge that stops current at 100%. Best pick: Anker 20W at 375 EGP with ActiveShield 2.0 (monitors temperature 3 million times daily). Premium: Anker Nano 45W Smart Display with Care Mode that stops charging at 80%.',
+            quickAnswer: 'Yes, overnight charging during Ramadan is safe with one condition: a genuine charger with OVP/OTP protection (like Anker or Joyroom). Modern phones (iPhone 15+, Samsung S24+) have Trickle Charge that stops current at 100%. Best pick: Anker 20W at 490 EGP with ActiveShield 2.0 (monitors temperature 3 million times daily). Premium: Anker Nano 45W Smart Display with Care Mode that stops charging at 80%.',
             content: `<p>It's 2 AM after Suhoor. The TV series just ended on MBC. You glance at your phone — 8% battery. You plug it in and fall asleep. You wake up at noon to your alarm and find the phone has been charging for 9 hours straight. And here comes the question every one of us asks during Ramadan: <strong>"Did I just destroy my battery?"</strong></p>
 
 <p>During Ramadan specifically, phone usage patterns change completely. Staying up past Fajr, binge-watching series and scrolling social media all night, then sleeping long hours during the day — meaning the phone charges for longer periods than any other time of year. This raises legitimate concerns for millions of Egyptians. In this article — as an electronics engineer who loves debunking myths with physics — we'll answer all the questions: Does prolonged overnight charging actually cause damage? Which charger handles it safely? And how do you save money while preserving your battery?</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Overnight charging is safe with one condition: a genuine charger with OVP/OTP protection. Modern phones have Trickle Charge that stops current at 100%. Best pick: Anker 20W at 375 EGP with ActiveShield 2.0 (monitors temperature 3 million times daily). Premium: Anker Nano 45W Smart Display with Care Mode that stops charging at 80%.
+        <strong>💡 Quick Answer:</strong> Overnight charging is safe with one condition: a genuine charger with OVP/OTP protection. Modern phones have Trickle Charge that stops current at 100%. Best pick: Anker 20W at 490 EGP with ActiveShield 2.0 (monitors temperature 3 million times daily). Premium: Anker Nano 45W Smart Display with Care Mode that stops charging at 80%.
     </p>
 </div>
 
@@ -471,7 +471,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>iPhone</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;">Joyroom 20W — 236 EGP</a></td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">Anker 20W — 375 EGP ⭐</a></strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;">Anker 20W — 490 EGP ⭐</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;">Anker Smart Display — 1,900 EGP</a></td>
         </tr>
         <tr>
@@ -488,7 +488,7 @@ export const chargers_ramadan_night_long_charging_sessions: BlogArticle = {
     </tbody>
 </table>
 
-<p>My personal recommendation: <strong>for iPhone users — Anker 20W at 375 EGP</strong> is the perfect sweet spot. ActiveShield 2.0 monitors temperature 3 million times daily — so even if you sleep 10 hours with the charger running, it self-adjusts. For Samsung users — <strong>Anker 25W at 550 EGP</strong> to get Super Fast Charging during the day + advanced thermal protection at night.</p>
+<p>My personal recommendation: <strong>for iPhone users — Anker 20W at 490 EGP</strong> is the perfect sweet spot. ActiveShield 2.0 monitors temperature 3 million times daily — so even if you sleep 10 hours with the charger running, it self-adjusts. For Samsung users — <strong>Anker 25W at 550 EGP</strong> to get Super Fast Charging during the day + advanced thermal protection at night.</p>
 
 <p>And if you want <strong>maximum possible protection</strong> and budget isn't a concern: the <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W Smart Display</a> at 1,900 EGP — Care Mode automatically stops charging at 80%. This is the best engineering solution for overnight charging worldwide — not just in Egypt.</p>
 

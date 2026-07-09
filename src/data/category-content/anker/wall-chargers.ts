@@ -7,18 +7,18 @@ export const anker_wall_chargers_content: CategoryContent = {
             metadata: {
                 en: {
                     title: 'Anker Charger Egypt | iPhone 17 & Samsung Fast Charging',
-                    description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 375, 25W for Samsung S26, 45W GaN for laptops. ✓ 18-month warranty ✓ Next-day Cairo delivery',
+                    description: 'Shop original Anker chargers in Egypt. 20W for iPhone from EGP 490, 25W for Samsung S26, 45W GaN for laptops. ✓ 18-month warranty ✓ Next-day Cairo delivery',
                     keywords: 'anker charger egypt, anker wall charger, anker 20w charger, anker nano charger, anker 25w charger, anker 45w charger, anker 65w charger, anker gan charger, best anker charger, anker charger iphone 17, anker charger samsung, anker ganprime, anker 100w, anker nano 45w, anker charger price',
                 },
                 ar: {
-                    title: 'شاحن انكر | من 375 جنيه | شحن سريع ايفون 17 وسامسونج S26 مصر',
-                    description: 'تسوق شاحن انكر الأصلي في مصر. 20W للايفون من 375 ج، 25W لسامسونج S26، 45W GaN للابتوب. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام',
+                    title: 'شاحن انكر | من 430 جنيه | شحن سريع ايفون 17 وسامسونج S26 مصر',
+                    description: 'تسوق شاحن انكر الأصلي في مصر. 20W للايفون من 490 ج، 25W لسامسونج S26، 45W GaN للابتوب. ✓ ضمان 18 شهر ✓ توصيل القاهرة يوم واحد ✓ دفع عند الاستلام',
                     keywords: 'شاحن انكر, شواحن انكر, راس شاحن انكر, شاحن انكر ايفون, شاحن انكر 20 وات, شاحن انكر 25 واط, شاحن 45 واط, شاحن انكر تايب سي, شاحن انكر سريع, افضل شاحن انكر, شاحن انكر الاصلي, سعر شاحن انكر, شاحن انكر نانو, شاحن انكر 45 واط, ادابتر انكر',
                 }
             },
             pageContent: {
                 ar: {
-                    title: 'شاحن انكر - من 375 جنيه',
+                    title: 'شاحن انكر - من 430 جنيه',
                     subtitle: 'شحن سريع ايفون 17 وسامسونج S26 | ضمان 18 شهر',
                     description: `
 موبايلك بيسخن وأنت بتشحنه؟ Battery Health بينزل كل شهر؟ المشكلة مش في الموبايل — المشكلة في الشاحن. شاحن **انكر** الأصلي مصمم ليحافظ على بطاريتك لسنوات. ضمان 18 شهر من CairoVolt.
@@ -36,7 +36,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                             content: `
 | الواطية | السعر | الأفضل لـ | سرعة الشحن (اختبار CairoVolt) |
 |---------|-------|----------|-----------|
-| **20W** | 375 ج | iPhone 15/16 | 0→50% في 30د (اختبار فعلي) |
+| **20W** | 490 ج | iPhone 15/16 | 0→50% في 30د (اختبار فعلي) |
 | **25W PPS** | 550 ج | Samsung S26 Super Fast | 0→50% في 22د (اختبار CairoVolt) |
 | **30W GaN (A2147)** | 430 ج | ⭐ iPhone 17 الأفضل — أصغر 70% | 0→50% في 21د (اختبار CairoVolt) |
 | **30W (A2741)** | 530 ج | شحن سيارة USB-C+A | 0→50% في 25د (اختبار فعلي) |
@@ -76,7 +76,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { question: 'هل بيستحمل تذبذب كهرباء مصر؟', answer: 'نعم، بيدعم جهد من 100V لـ 240V. بعد انقطاع الكهرباء والرجوع المفاجئ (voltage spike)، شاحن انكر بيفصل تلقائياً لحماية الموبايل. اختبار CairoVolt: سيناريو 300V spike — الشواحن الرخيصة احترقت، انكر فصل ورجع يشتغل.' }
                     ],
                     products: [
-                        { name: 'شاحن انكر 20 واط', price: 375, badge: 'الأرخص' },
+                        { name: 'شاحن انكر 20 واط', price: 490, badge: 'الأرخص' },
                         { name: 'شاحن انكر 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
                         { name: 'شاحن انكر 30W سيارة (A2741)', price: 530, badge: 'شاحن سيارة' },
@@ -87,7 +87,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                     ]
                 },
                 en: {
-                    title: 'Anker Charger - From EGP 375',
+                    title: 'Anker Charger - From EGP 430',
                     subtitle: 'iPhone 17 & Samsung S26 Fast Charging | 18-Month Warranty',
                     description: `
 Phone getting hot while charging? Battery Health dropping every month? The problem isn't your phone — it's your charger. Original **Anker** chargers are engineered to protect your battery for years. 18-month CairoVolt warranty.
@@ -105,7 +105,7 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
                             content: `
 | Wattage | Price | Best For | Charging Speed (CairoVolt Test) |
 |---------|-------|----------|----------------|
-| **20W** | EGP 375 | iPhone 15/16 | 0→50% in 30min (lab tested) |
+| **20W** | EGP 490 | iPhone 15/16 | 0→50% in 30min (lab tested) |
 | **25W PPS** | EGP 550 | Samsung S26 Super Fast | 0→50% in 22min (CairoVolt test) |
 | **30W GaN (A2147)** | EGP 430 | ⭐ iPhone 17 Best — 70% smaller | 0→50% in 21min (CairoVolt test) |
 | **30W (A2741)** | EGP 530 | Car charger USB-C+A | 0→50% in 25min (lab tested) |
@@ -135,7 +135,7 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
                         }
                     ],
                     products: [
-                        { name: 'Anker 20W Charger', price: 375, badge: 'Budget' },
+                        { name: 'Anker 20W Charger', price: 490, badge: 'Budget' },
                         { name: 'Anker 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'Anker Nano 3 GaN 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
                         { name: 'Anker 30W Car (A2741)', price: 530, badge: 'Car Charger' },

@@ -128,6 +128,15 @@ export async function appendOrderToSheet(orderData: any) {
             return items.length > 1 && (item.quantity || 1) > 1 ? `${short} x${item.quantity}` : short;
         }).join(' + ');
 
+        // 🧬 بصمة SKU للطلب: sku القطعة الأعلى قيمة (نفس منطق ويبهوك الـCRM). يقرأها
+        // smart-engine من العمود X (النطاق A2:X) فيبصم الطلب skuResolvedBy:'store'
+        // بلا تخمين بالاسم — شبكة أمان لو فشل مسار الويبهوك المتوازي. fallback من
+        // الكتالوج الثابت لو القطعة وصلت بلا sku (سلة قديمة/إضافة سريعة).
+        const primaryItem = items.length
+            ? [...items].sort((a: any, b: any) => ((b.price || 0) * (b.quantity || 1)) - ((a.price || 0) * (a.quantity || 1)))[0]
+            : null;
+        const primarySku = String(primaryItem?.sku || (primaryItem ? findProduct(primaryItem)?.sku : '') || '');
+
         const row = [
             /* A */ (() => { const d = new Date(); return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`; })(),
             /* B */ orderData.customerName,
@@ -152,6 +161,7 @@ export async function appendOrderToSheet(orderData: any) {
             /* U */ '', // lastBostaUpdate — يملؤه الـCRM
             /* V */ '', // bostaRanking — يملؤه الـCRM
             /* W */ orderData.shippingFee ?? '', // رسوم الشحن (0 = شحن مجاني) — بعيداً عن أعمدة الـCRM المحجوزة A..V
+            /* X */ primarySku, // 🧬 بصمة SKU من المتجر — يقرأها smart-engine (A2:X) فيبصم الطلب store
         ];
 
         await sheet.addRows([row]);

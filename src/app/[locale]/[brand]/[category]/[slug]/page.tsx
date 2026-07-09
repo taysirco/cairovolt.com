@@ -266,6 +266,7 @@ export default async function ProductPage({ params }: Props) {
             .map(p => ({
                 id: `static_${p.slug}`,
                 slug: p.slug,
+                sku: p.sku, // 🧬 نمرّر بصمة SKU للسلة (كانت تُسقَط هنا → كومبو بلا sku)
                 brand: p.brand,
                 categorySlug: p.categorySlug,
                 price: p.price,
@@ -287,6 +288,7 @@ export default async function ProductPage({ params }: Props) {
                     product: {
                         id: `static_${bp.product.slug}`,
                         slug: bp.product.slug,
+                        sku: bp.product.sku, // 🧬 بصمة SKU لقطعة الكومبو — تصل للسلة ثم للـCRM
                         brand: bp.product.brand,
                         categorySlug: bp.product.categorySlug,
                         price: bp.product.price,

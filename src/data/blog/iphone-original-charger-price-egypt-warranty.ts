@@ -26,7 +26,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
             metaTitle: 'سعر شاحن ايفون الأصلي في مصر — دليل الأسعار والضمان الرسمي والبدائل',
             metaDescription: 'أسعار شواحن ايفون الأصلية في مصر (5W و20W و35W) مع شروط ضمان Apple الرسمي وأماكن الشراء المعتمدة ومقارنة شاملة ببدائل Anker بنفس الأداء وسعر أقل.',
             excerpt: 'جدول أسعار شواحن iPhone الأصلية في مصر مع دليل الضمان والبدائل المعتمدة الأرخص.',
-            quickAnswer: 'شاحن Apple 5W (القديم) متوسط 400 ج.م — بطيء جداً ومتنصحش بيه. شاحن Apple 20W USB-C من 750-1,000 ج.م — الأنسب لمعظم المستخدمين. شاحن Apple 35W ثنائي المنفذ من 1,400-1,800 ج.م. البديل الأذكى: Anker 20W بـ 400 ج.م بيدّي نفس أداء شاحن Apple 20W بتوفير 50%+ وضمان 18 شهر.',
+            quickAnswer: 'شاحن Apple 5W (القديم) متوسط 400 ج.م — بطيء جداً ومتنصحش بيه. شاحن Apple 20W USB-C من 750-1,000 ج.م — الأنسب لمعظم المستخدمين. شاحن Apple 35W ثنائي المنفذ من 1,400-1,800 ج.م. البديل الأذكى: Anker 20W بـ 490 ج.م بيدّي نفس أداء شاحن Apple 20W بتوفير 50%+ وضمان 18 شهر.',
             keywords: 'سعر شاحن ايفون الاصلي في مصر, شاحن ايفون 20 واط سعر, شاحن ابل الاصلي كام, سعر شاحن ايفون 15 الاصلي, شاحن ايفون اصلي بالضمان مصر, ضمان شاحن ابل مصر, بديل شاحن ايفون اصلي, شاحن ايفون USB-C سعر مصر',
             faq: [
                 {
@@ -100,7 +100,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <p>السعر الرسمي من التوكيل (iStyle/Tradeline) حوالي 900-1,000 جنيه. من B.TECH حوالي 800-900 جنيه. بس هل ده يستاهل؟ الإجابة: الأداء ممتاز — السعر مبالغ فيه. لأن فيه بديل بيدّي نفس الأداء بالظبط:</p>
 
 <ul>
-<li><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — ~400 جنيه مع ضمان 18 شهر. نفس بروتوكول USB PD. نفس السرعة. توفير 500+ جنيه!</li>
+<li><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — ~490 جنيه مع ضمان 18 شهر. نفس بروتوكول USB PD. نفس السرعة. توفير 500+ جنيه!</li>
 <li><a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> — ~500 جنيه مع ضمان 18 شهر. أقوى بـ 5W وبيشحن ايفون بنفس سرعة الـ 20W (الايفون محدود عند 20W) + بيشحن سامسونج كمان بـ 25W</li>
 </ul>
 
@@ -108,7 +108,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>ده شاحن مميز من Apple — فيه منفذين USB-C. بيقدر يشحن جهازين في نفس الوقت: ايفون + AirPods، أو ايفون + Apple Watch. القوة بتتوزع بين الجهازين (حوالي 17W + 18W لما الاتنين متوصّلين).</p>
 
-<p>السعر 1,400-1,800 جنيه — غالي جداً. البديل الأذكى: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه. أصغر حجماً من شاحن Apple 35W، بيدعم 30W، وبتقنية GaN اللي بتقلل الحرارة. صحيح فيه منفذ واحد بس — لكن بيوفّرلك 1,000+ جنيه. لو عايز منفذين — خد شاحنين Anker 20W بـ 800 جنيه (أقل من شاحن Apple 35W الواحد!).</p>
+<p>السعر 1,400-1,800 جنيه — غالي جداً. البديل الأذكى: <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه. أصغر حجماً من شاحن Apple 35W، بيدعم 30W، وبتقنية GaN اللي بتقلل الحرارة. صحيح فيه منفذ واحد بس — لكن بيوفّرلك 1,000+ جنيه. لو عايز منفذين — خد شاحنين Anker 20W بـ 980 جنيه (أقل من شاحن Apple 35W الواحد!).</p>
 
 <h2>ضمان Apple في مصر — الحقيقة الكاملة</h2>
 
@@ -181,7 +181,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <li><strong>انتفاخ البطارية:</strong> في الحالات الشديدة البطارية بتنتفخ وبترفع الشاشة — والتغيير بيكلف 3,000-5,000 جنيه</li>
 </ul>
 
-<p>يعني الشاحن التقليد اللي وفّرلك 600 جنيه ممكن يكلفك 4,000+ جنيه إصلاحات. عشان كده الحل الأذكى: <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 400 جنيه — أصلي بضمان وبنص سعر Apple.</p>
+<p>يعني الشاحن التقليد اللي وفّرلك 600 جنيه ممكن يكلفك 4,000+ جنيه إصلاحات. عشان كده الحل الأذكى: <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 490 جنيه — أصلي بضمان وبنص سعر Apple.</p>
 
 <h2>إيه الفرق بين USB-C وLightning في الشحن؟</h2>
 
@@ -235,7 +235,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
             metaTitle: 'iPhone Charger Price in Egypt — Prices, Warranty Guide and Alternatives',
             metaDescription: 'Apple charger prices in Egypt (5W, 20W, 35W) with official warranty terms, authorized retailers, and cheaper Anker alternatives with identical performance.',
             excerpt: 'Complete price table for Apple chargers in Egypt with warranty guide and cheaper alternatives.',
-            quickAnswer: 'Apple 5W charger (old) averages 400 EGP — extremely slow, not recommended. Apple 20W USB-C costs 750-1,000 EGP — best for most users. Apple 35W Dual costs 1,400-1,800 EGP. The smarter alternative: Anker 20W at 400 EGP delivers identical performance to Apple 20W while saving 50%+ with 18-month warranty.',
+            quickAnswer: 'Apple 5W charger (old) averages 400 EGP — extremely slow, not recommended. Apple 20W USB-C costs 750-1,000 EGP — best for most users. Apple 35W Dual costs 1,400-1,800 EGP. The smarter alternative: Anker 20W at 490 EGP delivers identical performance to Apple 20W while saving 50%+ with 18-month warranty.',
             keywords: 'iphone charger price egypt, apple 20w charger egypt price, original iphone charger cost, apple charger warranty egypt, anker vs apple charger iphone, best iphone charger egypt, iphone 15 charger price, apple usb-c charger egypt',
             faq: [
                 {
@@ -309,7 +309,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <p>The official price from the authorized dealer (iStyle/Tradeline) is around 900-1,000 EGP. From B.TECH around 800-900 EGP. But is it worth it? The performance is excellent — the price is inflated. Because there's an alternative that delivers identical performance:</p>
 
 <ul>
-<li><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — ~400 EGP with 18-month warranty. Same USB PD protocol. Same speed. Saves 500+ EGP!</li>
+<li><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — ~490 EGP with 18-month warranty. Same USB PD protocol. Same speed. Saves 500+ EGP!</li>
 <li><a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker PowerPort 25W</a> — ~500 EGP with 18-month warranty. 5W more powerful and charges iPhone at the same 20W speed (iPhone caps at 20W) + charges Samsung phones at 25W too</li>
 </ul>
 
@@ -317,7 +317,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>This is a unique Apple charger — it has two USB-C ports. It can charge two devices simultaneously: iPhone + AirPods, or iPhone + Apple Watch. Power is distributed between devices (roughly 17W + 18W when both connected).</p>
 
-<p>The price is 1,400-1,800 EGP — very expensive. The smarter alternative: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> at ~600 EGP. Smaller than Apple's 35W, supports 30W, with GaN technology that reduces heat. It has only one port — but saves you 1,000+ EGP. If you want two ports — buy two Anker 20W chargers for 800 EGP total (less than one Apple 35W!).</p>
+<p>The price is 1,400-1,800 EGP — very expensive. The smarter alternative: <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> at ~600 EGP. Smaller than Apple's 35W, supports 30W, with GaN technology that reduces heat. It has only one port — but saves you 1,000+ EGP. If you want two ports — buy two Anker 20W chargers for 980 EGP total (less than one Apple 35W!).</p>
 
 <h2>Apple Warranty in Egypt — The Full Truth</h2>
 
@@ -390,7 +390,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <li><strong>Battery swelling:</strong> In severe cases the battery swells and lifts the screen — replacement costs 3,000-5,000 EGP</li>
 </ul>
 
-<p>So the counterfeit charger that saved you 600 EGP could cost you 4,000+ EGP in repairs. The smarter solution: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 400 EGP — genuine with warranty at half Apple’s price.</p>
+<p>So the counterfeit charger that saved you 600 EGP could cost you 4,000+ EGP in repairs. The smarter solution: <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 490 EGP — genuine with warranty at half Apple’s price.</p>
 
 <h2>USB-C vs Lightning — What’s the Difference for Charging?</h2>
 

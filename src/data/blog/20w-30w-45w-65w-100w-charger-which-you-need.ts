@@ -389,7 +389,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Very tight budgets — students, a spare bag charger, a secondary bedside charger.</li>
     <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> Anyone wanting the fastest possible charging — 30W costs only 124 EGP more.</li>
-    <li style="margin-bottom:12px;">💰 <strong>Prices in Egypt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> (199 EGP) — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> (375 EGP).</li>
+    <li style="margin-bottom:12px;">💰 <strong>Prices in Egypt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#2563eb;font-weight:600;">Joyroom 20W</a> (199 EGP) — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> (490 EGP).</li>
 </ul>
 
 <h3>⚡ 30W Charger — The Sweet Spot for 90% of People</h3>

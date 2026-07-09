@@ -10,6 +10,7 @@ import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 interface Product {
     id: string;
     slug: string;
+    sku?: string; // 🧬 بصمة المنتج — تُمرَّر للسلة كي يبصم الـCRM الكومبو قطعياً
     brand: string;
     categorySlug: string;
     price: number;
@@ -118,6 +119,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
             const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
             addToCart({
                 productId: item.product.id,
+                sku: item.product.sku, // 🧬 بصمة قطعة الكومبو
                 name: t?.name || item.product.slug,
                 price: item.product.price,
                 originalPrice: item.product.originalPrice,

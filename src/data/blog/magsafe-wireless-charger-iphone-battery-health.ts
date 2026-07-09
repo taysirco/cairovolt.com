@@ -26,7 +26,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
             metaTitle: 'شحن MagSafe اللاسلكي والبطارية — الحقيقة العلمية والبدائل السلكية الأسرع',
             metaDescription: 'هل شاحن MagSafe اللاسلكي بيسخّن ايفون فعلاً ويقلل صحة البطارية؟ تحليل علمي مفصّل بالأرقام الحقيقية ومقارنة شاملة مع الشحن السلكي USB-C الأسرع.',
             excerpt: 'تحليل علمي لتأثير شحن MagSafe على بطارية الايفون مع مقارنة بالشحن السلكي.',
-            quickAnswer: 'MagSafe بيشحن بـ 15W لكن الكفاءة الفعلية ~80% — يعني 3W بتتحول لحرارة. الشحن السلكي 20W USB-C أسرع بـ 40% وأقل حرارة وأوفر في الثمن. MagSafe مش بيدمّر البطارية لكن بيخليها تتدهور أسرع شوية من الشحن السلكي. البديل الأذكى: شاحن Anker 20W سلكي بـ 400 ج.م.',
+            quickAnswer: 'MagSafe بيشحن بـ 15W لكن الكفاءة الفعلية ~80% — يعني 3W بتتحول لحرارة. الشحن السلكي 20W USB-C أسرع بـ 40% وأقل حرارة وأوفر في الثمن. MagSafe مش بيدمّر البطارية لكن بيخليها تتدهور أسرع شوية من الشحن السلكي. البديل الأذكى: شاحن Anker 20W سلكي بـ 490 ج.م.',
             keywords: 'شحن MagSafe بيسخن الايفون, MagSafe صحة البطارية, هل الشحن اللاسلكي بيبوظ البطارية, شاحن MagSafe مصر سعر, MagSafe vs USB-C شحن, شحن لاسلكي ايفون حرارة, بديل شاحن MagSafe, شحن سلكي أحسن ولا لاسلكي ايفون',
             faq: [
                 {
@@ -39,11 +39,11 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
                 },
                 {
                     question: 'الشحن السلكي أحسن ولا اللاسلكي للايفون؟',
-                    answer: 'الشحن السلكي أحسن من كل النواحي: أسرع بـ 40% (20W مقابل 15W فعلي)، أقل حرارة (35°C مقابل 40°C)، أرخص (شاحن Anker 20W بـ 400 جنيه مقابل MagSafe بـ 1,500+ جنيه). MagSafe ميزته الوحيدة: الراحة — بتحط الموبايل على الشاحن وخلاص.'
+                    answer: 'الشحن السلكي أحسن من كل النواحي: أسرع بـ 40% (20W مقابل 15W فعلي)، أقل حرارة (35°C مقابل 40°C)، أرخص (شاحن Anker 20W بـ 490 جنيه مقابل MagSafe بـ 1,500+ جنيه). MagSafe ميزته الوحيدة: الراحة — بتحط الموبايل على الشاحن وخلاص.'
                 },
                 {
                     question: 'كام سعر شاحن MagSafe الأصلي في مصر؟',
-                    answer: 'شاحن MagSafe الأصلي من Apple بـ 1,500-2,000 جنيه في مصر (بدون محول الكهرباء — محتاج شاحن 20W+ بشكل منفصل). يعني التكلفة الكاملة: 2,000-2,800 جنيه. البديل السلكي الأذكى: Anker 20W بـ 400 جنيه + كابل بـ 200 جنيه = 600 جنيه — أسرع وأبرد وأوفر.'
+                    answer: 'شاحن MagSafe الأصلي من Apple بـ 1,500-2,000 جنيه في مصر (بدون محول الكهرباء — محتاج شاحن 20W+ بشكل منفصل). يعني التكلفة الكاملة: 2,000-2,800 جنيه. البديل السلكي الأذكى: Anker 20W بـ 490 جنيه + كابل بـ 200 جنيه = 600 جنيه — أسرع وأبرد وأوفر.'
                 }
             ],
             content: `<p>الشحن اللاسلكي بتقنية MagSafe من Apple اتحول لظاهرة بين مستخدمي الايفون في مصر — خصوصاً مع انتشار الأكسسوارات المغناطيسية من جرابات وحوامل عربيات ومحافظ. بس مع انتشاره — بدأت أسئلة مهمة تظهر: هل فعلاً بيسخّن الموبايل؟ هل بيقلل صحة البطارية على المدى الطويل؟ وهل يستاهل الفلوس مقارنة بالشحن السلكي العادي؟ في المقال ده هنجاوب على كل الأسئلة دي بأرقام حقيقية وتحليل علمي مبني على فيزياء نقل الطاقة والبيانات المتاحة من مستخدمين حقيقيين — مش مجرد آراء شخصية.</p>
@@ -115,7 +115,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
 <ul>
 <li>محتاج شحن سريع — 30 دقيقة للنص بدل 45 دقيقة</li>
 <li>عايز تحافظ على صحة البطارية أطول فترة ممكنة</li>
-<li>عايز توفر فلوس — <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 400 جنيه مقابل 2,000+ جنيه لـ MagSafe</li>
+<li>عايز توفر فلوس — <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 490 جنيه مقابل 2,000+ جنيه لـ MagSafe</li>
 <li>بتشحن في صيف مصر الحار — الحرارة الزايدة مع MagSafe بتزيد المشكلة</li>
 </ul>
 
@@ -192,7 +192,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
 <h2>سيناريوهات الاستخدام اليومي</h2>
 
 <ul>
-<li><strong>طالب جامعي:</strong> الشحن السلكي السريع أحسن — بيشحن في 30 دقيقة قبل ما ينزل. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 400 جنيه الاختيار المثالي</li>
+<li><strong>طالب جامعي:</strong> الشحن السلكي السريع أحسن — بيشحن في 30 دقيقة قبل ما ينزل. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 490 جنيه الاختيار المثالي</li>
 <li><strong>موظف مكتب:</strong> MagSafe مقبول — بتحط الموبايل على المكتب وهو بيشحن ببطء. بس لازم تشيله عند 80%</li>
 <li><strong>مستخدم كثيف (ألعاب/سوشيال ميديا):</strong> الشحن السلكي ضروري — البطارية بتنزل أسرع ومحتاج شحن سريع</li>
 <li><strong>استخدام في العربية:</strong> حامل MagSafe للعربية مليء — بيثبّت الموبايل كنافيجيشن وبيشحن في نفس الوقت. بس في الصيف العربية بتسخن — خلي التكييف شغال</li>
@@ -209,7 +209,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
             metaTitle: 'MagSafe Wireless Charging & Battery — Scientific Facts and Faster Wired Alternatives',
             metaDescription: 'Does MagSafe wireless charging overheat iPhone and reduce battery health? Scientific analysis with real data and USB-C wired charging comparison.',
             excerpt: 'Scientific analysis of MagSafe charging impact on iPhone battery with wired charging comparison.',
-            quickAnswer: 'MagSafe charges at 15W but actual efficiency is ~80% — meaning 3W converts to heat. Wired USB-C 20W charging is 40% faster, cooler, and cheaper. MagSafe doesn\'t destroy the battery but makes it degrade slightly faster than wired charging. The smarter alternative: Anker 20W wired charger at 400 EGP.',
+            quickAnswer: 'MagSafe charges at 15W but actual efficiency is ~80% — meaning 3W converts to heat. Wired USB-C 20W charging is 40% faster, cooler, and cheaper. MagSafe doesn\'t destroy the battery but makes it degrade slightly faster than wired charging. The smarter alternative: Anker 20W wired charger at 490 EGP.',
             keywords: 'magsafe overheating iphone, magsafe battery health, does wireless charging damage battery, magsafe charger egypt price, magsafe vs usb-c charging, wireless charging iphone heat, magsafe alternative, wired vs wireless charging iphone',
             faq: [
                 {
@@ -222,11 +222,11 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
                 },
                 {
                     question: 'Is wired or wireless charging better for iPhone?',
-                    answer: 'Wired charging is better in every way: 40% faster (20W vs 15W effective), lower heat (35°C vs 40°C), cheaper (Anker 20W at 400 EGP vs MagSafe at 1,500+ EGP). MagSafe\'s only advantage: convenience — just place the phone on the charger.'
+                    answer: 'Wired charging is better in every way: 40% faster (20W vs 15W effective), lower heat (35°C vs 40°C), cheaper (Anker 20W at 490 EGP vs MagSafe at 1,500+ EGP). MagSafe\'s only advantage: convenience — just place the phone on the charger.'
                 },
                 {
                     question: 'How much does the original MagSafe charger cost in Egypt?',
-                    answer: 'The original Apple MagSafe charger costs 1,500-2,000 EGP in Egypt (without the power adapter — you need a 20W+ charger separately). Total cost: 2,000-2,800 EGP. The smarter wired alternative: Anker 20W at 400 EGP + cable at 200 EGP = 600 EGP — faster, cooler, and cheaper.'
+                    answer: 'The original Apple MagSafe charger costs 1,500-2,000 EGP in Egypt (without the power adapter — you need a 20W+ charger separately). Total cost: 2,000-2,800 EGP. The smarter wired alternative: Anker 20W at 490 EGP + cable at 200 EGP = 600 EGP — faster, cooler, and cheaper.'
                 }
             ],
             content: `<p>MagSafe wireless charging from Apple has become a phenomenon among iPhone users in Egypt. But with its spread — important questions have emerged: does it really overheat the phone? Does it reduce battery health long-term? And is it worth the money compared to regular wired charging? In this article, we answer all these questions with real numbers and scientific analysis based on energy transfer physics and available data — not just personal opinions.</p>
@@ -298,7 +298,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
 <ul>
 <li>You need fast charging — 30 minutes to 50% instead of 45 minutes</li>
 <li>You want to preserve battery health as long as possible</li>
-<li>You want to save money — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 400 EGP vs 2,000+ EGP for MagSafe</li>
+<li>You want to save money — <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 490 EGP vs 2,000+ EGP for MagSafe</li>
 <li>You charge in Egypt's hot summer — the extra heat with MagSafe makes things worse</li>
 </ul>
 
@@ -375,7 +375,7 @@ export const magsafe_wireless_charger_iphone_battery_health: BlogArticle = {
 <h2>Daily Usage Scenarios</h2>
 
 <ul>
-<li><strong>University student:</strong> Fast wired charging is best — charges in 30 minutes before heading out. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 400 EGP is the ideal choice</li>
+<li><strong>University student:</strong> Fast wired charging is best — charges in 30 minutes before heading out. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 490 EGP is the ideal choice</li>
 <li><strong>Office worker:</strong> MagSafe is acceptable — place the phone on the desk and it charges slowly. But remove at 80%</li>
 <li><strong>Heavy user (gaming/social media):</strong> Wired charging is essential — battery drains faster and needs quick charging</li>
 <li><strong>Car use:</strong> MagSafe car mount is convenient — holds the phone as navigation and charges simultaneously. But in summer the car heats up — keep the AC on</li>

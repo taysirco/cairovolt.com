@@ -296,6 +296,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         // Cart update happens in background via useTransition in CartContext
         addToCart({
             productId: selectedVariant ? `${product.id}_${selectedVariant.id}` : product.id,
+            sku: activeSku, // 🧬 بصمة القطعة (sku الـvariant إن وُجد وإلا sku المنتج)
             name: cartItemName,
             price: activePrice,
             originalPrice: activeOriginalPrice,

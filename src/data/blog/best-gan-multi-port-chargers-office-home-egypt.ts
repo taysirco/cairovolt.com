@@ -122,7 +122,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>ليه #4؟</strong> مش GaN — ده شاحن تقليدي بسيليكون عادي. حجمه أكبر شوية من أنكر GaN 30W وحرارته أعلى 4°م. لكن بيطلع 25.9W فعلية — فرق دقيقة واحدة بس عن أنكر في شحن iPhone. بيوفر 200ج لو الميزانية ضيقة.</p>
 
-<h3>#5 — أنكر PowerPort 20W (375ج)</h3>
+<h3>#5 — أنكر PowerPort 20W (490ج)</h3>
 <p><a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">انكر باور بورت 20W</a> — الاختيار الآمن والموثوق.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
@@ -355,7 +355,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>Why #4?</strong> Not GaN — this is a traditional silicon charger. Slightly larger than Anker GaN 30W and 4°C warmer. But delivers 25.9W actual — only 1 minute slower than Anker for charging iPhone. Saves 200 EGP when budget is tight.</p>
 
-<h3>#5 — Anker PowerPort 20W (375 EGP)</h3>
+<h3>#5 — Anker PowerPort 20W (490 EGP)</h3>
 <p><a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker PowerPort 20W</a> — the safe and reliable choice.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">

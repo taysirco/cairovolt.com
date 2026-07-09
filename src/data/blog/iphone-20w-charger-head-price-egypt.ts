@@ -26,7 +26,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
             metaTitle: 'رأس شاحن ايفون 20W — أسعار التوكيلات والبدائل المعتمدة في مصر',
             metaDescription: 'مقارنة أسعار رأس شاحن ايفون 20 واط (Apple A2305) في كل منافذ التوزيع المعتمدة في مصر مع تحليل أفضل البدائل من Anker بنفس الأداء وسعر أقل بكتير.',
             excerpt: 'جدول أسعار رأس شاحن ايفون 20W في مصر من كل التوكيلات مع أفضل البدائل.',
-            quickAnswer: 'رأس شاحن Apple 20W (A2305) في مصر: iStyle/Tradeline ~950 ج.م، B.TECH ~850 ج.م، 2B ~820 ج.م، أونلاين ~780 ج.م. البديل الأذكى: Anker 20W بـ 400 ج.م — نفس البروتوكول (USB PD) ونفس السرعة بالظبط مع ضمان 18 شهر مقابل 12 شهر لـ Apple.',
+            quickAnswer: 'رأس شاحن Apple 20W (A2305) في مصر: iStyle/Tradeline ~950 ج.م، B.TECH ~850 ج.م، 2B ~820 ج.م، أونلاين ~780 ج.م. البديل الأذكى: Anker 20W بـ 490 ج.م — نفس البروتوكول (USB PD) ونفس السرعة بالظبط مع ضمان 18 شهر مقابل 12 شهر لـ Apple.',
             keywords: 'رأس شاحن ايفون 20 واط سعر, شاحن ايفون 20W في مصر, سعر رأس شاحن ابل 20 واط, Apple A2305 سعر مصر, رأس شاحن ايفون اصلي 20 واط, مقارنة اسعار شاحن ايفون, بديل شاحن ايفون 20 واط, شاحن ايفون USB-C مصر',
             faq: [
                 {
@@ -144,7 +144,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 <li><strong>السعر:</strong> أقل من 600 جنيه في محل صغير = تقليد بنسبة 95%</li>
 </ol>
 
-<p>الحل الأضمن: اشتري من مصدر معتمد بفاتورة. أو وفّر على نفسك ده كله واشتري <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 400 جنيه — ومتقلقش من موضوع التقليد نهائياً لأن Anker متاح من الموزع الرسمي.</p>
+<p>الحل الأضمن: اشتري من مصدر معتمد بفاتورة. أو وفّر على نفسك ده كله واشتري <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ 490 جنيه — ومتقلقش من موضوع التقليد نهائياً لأن Anker متاح من الموزع الرسمي.</p>
 
 <h2>تأثير الشاحن على صحة بطارية الايفون — الحقيقة العلمية</h2>
 
@@ -241,7 +241,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
             metaTitle: 'iPhone 20W Charger Head — Authorized Retailer Prices & Alternatives in Egypt',
             metaDescription: 'Compare Apple 20W charger head (A2305) prices across all authorized retailers in Egypt with analysis of Anker alternatives at half the price.',
             excerpt: 'Price table for iPhone 20W charger head in Egypt from all authorized retailers with best alternatives.',
-            quickAnswer: 'Apple 20W charger head (A2305) in Egypt: iStyle/Tradeline ~950 EGP, B.TECH ~850 EGP, 2B ~820 EGP, online ~780 EGP. The smarter alternative: Anker 20W at 400 EGP — same USB PD protocol and identical speed with 18-month warranty vs Apple\'s 12 months.',
+            quickAnswer: 'Apple 20W charger head (A2305) in Egypt: iStyle/Tradeline ~950 EGP, B.TECH ~850 EGP, 2B ~820 EGP, online ~780 EGP. The smarter alternative: Anker 20W at 490 EGP — same USB PD protocol and identical speed with 18-month warranty vs Apple\'s 12 months.',
             keywords: 'iphone 20w charger head price egypt, apple A2305 price egypt, iphone charger 20 watt egypt, apple 20w charger retailers egypt, anker vs apple 20w charger, buy iphone charger head egypt, cheapest apple 20w charger egypt, iphone usb-c charger head price',
             faq: [
                 {
@@ -359,7 +359,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 <li><strong>Price:</strong> Below 600 EGP at a small shop = 95% chance counterfeit</li>
 </ol>
 
-<p>The safest solution: buy from an authorized source with a receipt. Or save yourself the trouble entirely and buy <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 400 EGP — and never worry about counterfeits since Anker is available through the official distributor.</p>
+<p>The safest solution: buy from an authorized source with a receipt. Or save yourself the trouble entirely and buy <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at 490 EGP — and never worry about counterfeits since Anker is available through the official distributor.</p>
 
 <h2>Charger Impact on iPhone Battery Health — Scientific Facts</h2>
 

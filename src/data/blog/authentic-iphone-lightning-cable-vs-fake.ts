@@ -167,7 +167,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 
 <h2>الكابل + الشاحن — الكومبو الأذكى</h2>
 
-<p>لو بتشتري كابل جديد — الأحسن تشتري شاحن معاه عشان تستفيد من السرعة الكاملة للكابل الجديد. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ ~400 جنيه + <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه = 600 جنيه لكومبو كامل بضمان 18 شهر. نفس الكومبو من Apple هيكلفك 1,350+ جنيه — يعني بتوفر 750 جنيه وبتاخد كابل أمتن وأطول وضمان أطول. ولو عايز قوة أكبر — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> بـ ~500 جنيه بيشحن ايفون وسامسونج في نفس الوقت. و <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه لو عايز تشحن لابتوب كمان — شاحن واحد لكل حاجة.</p>
+<p>لو بتشتري كابل جديد — الأحسن تشتري شاحن معاه عشان تستفيد من السرعة الكاملة للكابل الجديد. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ ~490 جنيه + <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه = 600 جنيه لكومبو كامل بضمان 18 شهر. نفس الكومبو من Apple هيكلفك 1,350+ جنيه — يعني بتوفر 750 جنيه وبتاخد كابل أمتن وأطول وضمان أطول. ولو عايز قوة أكبر — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> بـ ~500 جنيه بيشحن ايفون وسامسونج في نفس الوقت. و <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه لو عايز تشحن لابتوب كمان — شاحن واحد لكل حاجة.</p>
 
 <h2>نصائح عملية لإطالة عمر أي كابل</h2>
 
@@ -324,7 +324,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 
 <h2>Cable + Charger — The Smarter Combo</h2>
 
-<p>If you’re buying a new cable — it’s best to buy a charger with it. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at ~400 EGP + <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP = 600 EGP for a complete combo with 18-month warranty. The same combo from Apple would cost 1,350+ EGP — meaning you save 750 EGP and get a more durable, longer cable with a longer warranty. And if you want more power — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> at ~500 EGP charges both iPhone and Samsung simultaneously.</p>
+<p>If you’re buying a new cable — it’s best to buy a charger with it. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at ~490 EGP + <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP = 600 EGP for a complete combo with 18-month warranty. The same combo from Apple would cost 1,350+ EGP — meaning you save 750 EGP and get a more durable, longer cable with a longer warranty. And if you want more power — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> at ~500 EGP charges both iPhone and Samsung simultaneously.</p>
 
 <h2>Practical Tips to Extend Any Cable’s Life</h2>
 

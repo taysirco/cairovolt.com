@@ -183,6 +183,7 @@ export default function CheckoutPage() {
                     if (product) {
                         addToCart({
                             productId: product.productId || product.id || addSku,
+                            sku: product.sku || addSku, // 🧬 بصمة الشراء المباشر (add_sku هو الـSKU نفسه)
                             name: product.name || addSku,
                             price: product.price || 0,
                             image: product.image || '',
