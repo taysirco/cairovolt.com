@@ -189,7 +189,7 @@ export async function POST(req: NextRequest) {
         // caches (aggregateRating + review[] both live under the 'reviews'
         // tag) and re-render the product page so the JSON-LD refreshes now
         // instead of after the 1h unstable_cache TTL + 10min ISR window.
-        revalidateTag('reviews');
+        revalidateTag('reviews', { expire: 0 });
         if (result.productSlug) {
             revalidatePath(`/[locale]/[brand]/[category]/${result.productSlug}`, 'page');
             const product = getProductBySlug(result.productSlug);
