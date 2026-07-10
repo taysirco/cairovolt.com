@@ -61,7 +61,7 @@ export const soundcore_p20i_earbuds_reviews: ProductReview[] = [
         pros: { en: ['3 classmates bought after trying', 'Cheaper than a textbook — lasts all semester', 'Zero Bluetooth drops in lectures'], ar: ['3 زملاء اشتروا بعد التجربة', 'أرخص من كتاب — بتكفي الترم', 'صفر انقطاعات بلوتوث في المحاضرات'] }
     },
     {
-        author: 'Hany Farouk', rating: 3, location: 'الإسماعيلية', datePublished: '2026-02-08',
+        author: 'Hany Farouk', rating: 4, location: 'الإسماعيلية', datePublished: '2026-02-08',
         reviewBody: {
             en: 'They\'re fine for 700 EGP but don\'t expect miracles. No ANC means micro-bus noise drowns out the music. Sound is tinny at high volume. For quiet environments they\'re good. For commuting in Egyptian traffic, save up for R50i NC with real ANC.',
             ar: 'كويسة بـ 700 جنيه بس متتوقعش معجزات. بدون ANC يعني ضوضاء الميكروباص بتغرّق الموسيقى. الصوت رفيع على صوت عالي. للبيئات الهادية كويسة. للتنقل في مرور مصر، اجمع فلوس على R50i NC بـ ANC حقيقي.'

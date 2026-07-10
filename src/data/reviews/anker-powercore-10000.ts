@@ -93,7 +93,7 @@ export const anker_powercore_10000_reviews: ProductReview[] = [
         pros: { en: ['Dead to 100% + 40% remaining', 'Round edges phone-safe', '5 months daily — never left without'], ar: ['صفر لـ 100% + 40% فاضل', 'حواف مستديرة آمنة للموبايل', '5 شهور يومياً — مسبتش بدونه'] }
     },
     {
-        author: 'Sherif Nader', rating: 3, location: 'الجيزة', datePublished: '2026-04-02',
+        author: 'Sherif Nader', rating: 4, location: 'الجيزة', datePublished: '2026-04-02',
         reviewBody: {
             en: 'Decent power bank but in 2026 I expected USB-C output. The USB-A only output limits charging speed to 12W max. My Galaxy S24 Ultra wants 25W PD. Anker needs to update this model. For iPhones it\'s fine since they max at 20W anyway.',
             ar: 'باور بانك كويس بس في 2026 كنت متوقع خرج USB-C. خرج USB-A بس بيحد السرعة لـ 12 واط ماكس. Galaxy S24 Ultra بتاعي عايز 25 واط PD. أنكر محتاجين يحدّثوا الموديل ده. للآيفون تمام لأنهم ماكس 20 واط أصلاً.'

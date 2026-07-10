@@ -5,6 +5,7 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidateTag, revalidatePath } from 'next/cache';
 import {
     getProductReviews,
     submitReview,
@@ -12,6 +13,7 @@ import {
     validateReviewToken
 } from '@/lib/verified-reviews';
 import { productReviewsDb, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
+import { getProductBySlug } from '@/lib/static-products';
 
 // GET /api/reviews?productSlug=xxx&locale=ar
 export async function GET(req: NextRequest) {
@@ -181,6 +183,23 @@ export async function POST(req: NextRequest) {
                 success: false,
                 error: result.error
             }, { status: 400 });
+        }
+
+        // Surface the new review to Google immediately: bust the schema data
+        // caches (aggregateRating + review[] both live under the 'reviews'
+        // tag) and re-render the product page so the JSON-LD refreshes now
+        // instead of after the 1h unstable_cache TTL + 10min ISR window.
+        revalidateTag('reviews');
+        if (result.productSlug) {
+            revalidatePath(`/[locale]/[brand]/[category]/${result.productSlug}`, 'page');
+            const product = getProductBySlug(result.productSlug);
+            if (product) {
+                const isSoundcore = (product.categorySlug === 'audio' || product.categorySlug === 'speakers') && product.brand === 'Anker';
+                const brandPath = isSoundcore ? 'soundcore' : (product.brand || '').toLowerCase();
+                for (const locale of ['', '/en']) {
+                    revalidatePath(`${locale}/${brandPath}/${product.categorySlug}/${result.productSlug}`);
+                }
+            }
         }
 
         return NextResponse.json({

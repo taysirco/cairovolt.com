@@ -156,7 +156,7 @@ export async function validateReviewToken(token: string): Promise<ReviewToken | 
 /**
  * Submit a verified review
  */
-export async function submitReview(submission: ReviewSubmission): Promise<{ success: boolean; error?: string }> {
+export async function submitReview(submission: ReviewSubmission): Promise<{ success: boolean; error?: string; productSlug?: string }> {
     const db = await getFirestore();
 
     // Validate token
@@ -218,7 +218,10 @@ export async function submitReview(submission: ReviewSubmission): Promise<{ succ
         usedAt: FieldValue.serverTimestamp()
     });
 
-    return { success: true };
+    // productSlug lets the API route revalidate the product page + the
+    // 'reviews' cache tag immediately — otherwise the JSON-LD aggregateRating
+    // waits out the unstable_cache TTL (1h) before a new review appears.
+    return { success: true, productSlug: tokenData.productSlug };
 }
 
 // ============================================

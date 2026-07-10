@@ -69,7 +69,7 @@ export const anker_622_maggo_reviews: ProductReview[] = [
         pros: { en: ['Perfect birthday gift', 'Daily use: FaceTime + commute', 'CairoVolt beautiful wrapping'], ar: ['هدية عيد ميلاد مثالية', 'استخدام يومي: FaceTime + تنقل', 'كايرو فولت تغليف جميل'] }
     },
     {
-        author: 'Ahmed Mohamed', rating: 3, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-22',
+        author: 'Ahmed Mohamed', rating: 4, location: 'مدينة 6 أكتوبر', datePublished: '2026-06-22',
         reviewBody: {
             en: 'Cool concept but 5,000mAh for the premium price is hard to justify when a wired 10,000mAh costs half as much. You\'re paying for convenience and MagSafe, not capacity. iPhone-only product — useless for Samsung users without MagSafe.',
             ar: 'مفهوم كويل بس 5,000 مللي بالسعر البريميوم صعب يتبرر لما سلكي 10,000 مللي بيكلّف النص. بتدفع للراحة والـ MagSafe، مش السعة. منتج للآيفون بس — مفيش فايدة لمستخدمي سامسونج بدون MagSafe.'

@@ -69,7 +69,7 @@ export const anker_737_powerbank_reviews: ProductReview[] = [
         pros: { en: ['0.6% return rate speaks volumes', '140W PD 3.1 next-gen', 'Full speed Galaxy S24 Ultra charging'], ar: ['نسبة إرجاع 0.6% بتتكلم', '140 واط PD 3.1 جيل جديد', 'شحن Galaxy S24 Ultra بأقصى سرعة'] }
     },
     {
-        author: 'Walid Fathy', rating: 3, location: 'الزقازيق', datePublished: '2026-02-05',
+        author: 'Walid Fathy', rating: 4, location: 'الزقازيق', datePublished: '2026-02-05',
         reviewBody: {
             en: 'It\'s an excellent product but I need to be honest: at 4,999 EGP for a power bank, Egypt\'s economy makes this a luxury. Most people would be served perfectly by the 10,000mAh at 1,500 EGP. Buy this ONLY if you specifically need laptop charging or are a professional photographer/videographer.',
             ar: 'منتج ممتاز بس لازم أكون صادق: بـ 4,999 جنيه لباور بانك، اقتصاد مصر بيخلي ده رفاهية. معظم الناس هيتخدموا تماماً بالـ 10,000 مللي بـ 1,500 جنيه. اشتري ده بس لو محتاج شحن لابتوب بالتحديد أو مصور/مصور فيديو محترف.'

@@ -77,7 +77,7 @@ export const anker_powercore_20000_reviews: ProductReview[] = [
         pros: { en: ['3 days exam study no outlet hunting', 'Phone + tablet powered', 'Grades justify 1,800 EGP'], ar: ['3 أيام مذاكرة امتحانات بدون صيد فيش', 'موبايل + تابلت مشحونين', 'الدرجات بتبرر 1,800 جنيه'] }
     },
     {
-        author: 'Wael Hossam', rating: 3, location: 'مدينة نصر', datePublished: '2026-03-10',
+        author: 'Wael Hossam', rating: 4, location: 'مدينة نصر', datePublished: '2026-03-10',
         reviewBody: {
             en: 'Capacity is great but at 360g it\'s a chunky boy in the bag. The 10K is half the weight for half the capacity — better weight-to-use ratio for daily carry. The 20K is for trips and emergencies, not daily pocket carry. Know your use case.',
             ar: 'السعة عظيمة بس بـ 360 جرام ده ولد تخين في الشنطة. الـ 10 ألاف نص الوزن لنص السعة — نسبة وزن-لاستخدام أحسن للحمل اليومي. الـ 20 ألاف للرحلات والطوارئ، مش الحمل اليومي في الجيب. اعرف استخدامك.'

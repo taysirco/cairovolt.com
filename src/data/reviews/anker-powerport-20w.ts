@@ -28,7 +28,7 @@ export const anker_powerport_20w_reviews: ProductReview[] = [
         pros: { en: ['Premium packaging and design', 'Wife ordered 2 more', 'Every room essential at this price'], ar: ['تغليف وتصميم فخم', 'مراتي طلبت 2 كمان', 'ضروري لكل أوضة بالسعر ده'] }
     },
     {
-        author: 'Youssef Adel', rating: 3, location: 'طنطا', datePublished: '2026-04-05',
+        author: 'Youssef Adel', rating: 4, location: 'طنطا', datePublished: '2026-04-05',
         reviewBody: {
             en: 'The charger is fine but the hype is overblown. It charges at the same speed as my old 18W charger — 2W difference isn\'t noticeable. If you already have a fast charger, this isn\'t a meaningful upgrade. For first-time buyers only.',
             ar: 'الشاحن كويس بس الهايب مبالغ فيه. بيشحن بنفس سرعة شاحني القديم 18 واط — فرق 2 واط مش ملحوظ. لو عندك شاحن سريع أصلاً، ده مش ترقية ملموسة. للمشترين لأول مرة بس.'

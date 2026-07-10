@@ -45,7 +45,7 @@ export const anker_521_powerhouse_reviews: ProductReview[] = [
         pros: { en: ['LiFePO4 heat-resistant at 45°C', '5-year warranty', 'Aswan delivery 7 days'], ar: ['LiFePO4 بتستحمل حرارة 45 درجة', 'ضمان 5 سنين', 'توصيل أسوان 7 أيام'] }
     },
     {
-        author: 'Walid Fathy', rating: 3, location: 'المنيا', datePublished: '2026-02-20',
+        author: 'Walid Fathy', rating: 4, location: 'المنيا', datePublished: '2026-02-20',
         reviewBody: {
             en: '256Wh at 11,000 EGP is expensive per watt-hour. My neighbor bought a Chinese brand with 300Wh for 7,000. Yes, LiFePO4 lasts longer, but the upfront cost is hard to justify for occasional outages. Build quality is premium though.',
             ar: '256 واط ساعة بـ 11,000 جنيه غالية لكل واط ساعة. جاري اشترى ماركة صيني 300 واط ساعة بـ 7,000. أيوه LiFePO4 بتعيش أكتر، بس التكلفة الأولى صعب تبرّرها لقطع كهربا متقطع. جودة البناء ممتازة بس.'
