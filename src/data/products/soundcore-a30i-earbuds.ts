@@ -24,7 +24,8 @@ export const soundcore_a30i_earbuds = {
             { id: "img_8", url: "/products/anker/soundcore-a30i-earbuds/soundcore-a30i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور A30i A3958 تفاصيل قرب - كايرو فولت", order: 7, isPrimary: false, width: 750, height: 750 },
     ],
 
-    relatedProducts: ["anker-soundcore-r50i-nc", "soundcore-p40i-earbuds", "soundcore-p30i-earbuds", "soundcore-liberty-buds", "anker-soundcore-r50i", "anker-a2741-charger-30w"],
+    relatedProducts: [
+        "soundcore-a25i-earbuds","anker-soundcore-r50i-nc", "soundcore-p40i-earbuds", "soundcore-p30i-earbuds", "soundcore-liberty-buds", "anker-soundcore-r50i", "anker-a2741-charger-30w"],
 
     translations: {
         en: {

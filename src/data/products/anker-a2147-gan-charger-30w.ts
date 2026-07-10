@@ -11,6 +11,10 @@ export const anker_a2147_gan_charger_30w = {
             { id: "img_6", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-70-percent-smaller-size-comparison.webp", alt: "مقارنة حجم شاحن انكر Nano 3 أصغر 70% من شاحن 30 واط العادي - كايرو فولت", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "anker-zolo-30w-a2698-charger",
+        "anker-powerport-iii-20w-a2639",
+        "anker-nano-pro-45w-a2692",
+        "anker-310-usb-c-lightning-cable",
         "anker-powerport-20w",
         "anker-powerport-25w",
         "anker-nano-45w",

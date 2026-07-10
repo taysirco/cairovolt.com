@@ -26,6 +26,8 @@ export const anker_prime_a1695_25000 = {
             { id: "img_10", url: "/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-charging-speed-test-lab-egypt.webp", alt: "Anker Prime A1695 premium matte finish and build quality - CairoVolt", order: 9, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "anker-prime-fusion-a1339-9600mah-65w",
+        "anker-prime-a1336-20000mah-power-bank",
         "anker-zolo-a1681-20000",
         "anker-a2732-charger-35w",
         "anker-a8050-usb-c-cable",

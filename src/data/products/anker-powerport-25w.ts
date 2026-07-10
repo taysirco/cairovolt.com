@@ -186,6 +186,7 @@ export const anker_powerport_25w = {
             ar: "مستخدمو سامسونج، هذا لكم. يدعم PPS (مصدر الطاقة القابل للبرمجة)، مما يعني أنه متوافق تماماً مع الشحن السريع جداً من سامسونج. إنه ترقية بسيطة في السعر عن 20 واط، ولكن لمستخدم Galaxy S24 أو S25، فرق السرعة ملحوظ ويستحق كل قرش."
         },
         relatedProducts: [
+        "anker-powerport-iii-20w-a2639",
         "anker-powerport-20w",
         "anker-a2147-gan-charger-30w",
         "anker-a8050-usb-c-cable",

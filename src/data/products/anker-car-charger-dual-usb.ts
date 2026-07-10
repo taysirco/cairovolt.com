@@ -163,6 +163,7 @@ export const anker_car_charger_dual_usb = {
             ar: "لقد أنقذني هذا الشاحن مرات لا تحصى على الطريق الدائري بالقاهرة. يستقر بشكل مسطح في الكونسول ويشحن هاتفين بسرعات محترمة. ليس لديه شحن PD فائق السرعة مثل الموديلات الأحدث، ولكن للموثوقية والحفاظ على جهازين قيد التشغيل أثناء التنقل مع تشغيل GPS، لا يمكن التغلب عليه."
         },
         relatedProducts: [
+        "anker-a2216-magnetic-wireless-car-charger",
         "anker-powercore-10000",
         "anker-a8050-usb-c-cable",
         "anker-powerport-20w",

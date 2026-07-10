@@ -176,6 +176,7 @@ export const anker_powerline_usb_c_lightning = {
             ar: "عادة ما تكون الكابلات أول شيء يتلف، لكن ليس هذا. جودة التصنيع استثنائية – ملمسه قوي ويمكنه تحمل الاستخدام الشاق. شهادة MFi تعني عدم وجود أخطاء 'الملحق غير مدعوم'. منتج بسيط، لكنه يحل مشكلة يومية بشكل مثالي."
         },
         relatedProducts: [
+        "anker-310-usb-c-lightning-cable",
         "anker-powerport-20w",
         "anker-powercore-10000",
         "anker-a8050-usb-c-cable",

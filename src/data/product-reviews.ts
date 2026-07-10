@@ -85,8 +85,34 @@ import { soundcore_space_one_headphones_reviews } from './reviews/soundcore-spac
 import { soundcore_rave_3_speaker_reviews } from './reviews/soundcore-rave-3-speaker';
 import { soundcore_select_4_go_speaker_reviews } from './reviews/soundcore-select-4-go-speaker';
 import { anker_pencil_stylus_reviews } from './reviews/anker-pencil-stylus';
+import { anker_a1637_wukong_3_in_1_power_bank_reviews } from './reviews/anker-a1637-wukong-3-in-1-power-bank';
+import { anker_310_usb_c_lightning_cable_reviews } from './reviews/anker-310-usb-c-lightning-cable';
+import { anker_nano_45w_1c_pd_reviews } from './reviews/anker-nano-45w-1c-pd';
+import { anker_nano_pro_45w_a2692_reviews } from './reviews/anker-nano-pro-45w-a2692';
+import { anker_a2216_magnetic_wireless_car_charger_reviews } from './reviews/anker-a2216-magnetic-wireless-car-charger';
+import { anker_powerport_iii_20w_a2639_reviews } from './reviews/anker-powerport-iii-20w-a2639';
+import { anker_prime_a2688_100w_charger_reviews } from './reviews/anker-prime-a2688-100w-charger';
+import { anker_prime_a1336_20000mah_power_bank_reviews } from './reviews/anker-prime-a1336-20000mah-power-bank';
+import { anker_prime_a2669_67w_gan_charger_reviews } from './reviews/anker-prime-a2669-67w-gan-charger';
+import { anker_prime_fusion_a1339_9600mah_65w_reviews } from './reviews/anker-prime-fusion-a1339-9600mah-65w';
+import { soundcore_a25i_earbuds_reviews } from './reviews/soundcore-a25i-earbuds';
+import { anker_zolo_30w_a2698_charger_reviews } from './reviews/anker-zolo-30w-a2698-charger';
+import { anker_zolo_usb_c_braided_cable_reviews } from './reviews/anker-zolo-usb-c-braided-cable';
 
 export const productReviewsDb: Record<string, import('./reviews/_shared').ProductReview[]> = {
+    'anker-a1637-wukong-3-in-1-power-bank': anker_a1637_wukong_3_in_1_power_bank_reviews,
+    'anker-310-usb-c-lightning-cable': anker_310_usb_c_lightning_cable_reviews,
+    'anker-nano-45w-1c-pd': anker_nano_45w_1c_pd_reviews,
+    'anker-nano-pro-45w-a2692': anker_nano_pro_45w_a2692_reviews,
+    'anker-a2216-magnetic-wireless-car-charger': anker_a2216_magnetic_wireless_car_charger_reviews,
+    'anker-powerport-iii-20w-a2639': anker_powerport_iii_20w_a2639_reviews,
+    'anker-prime-a2688-100w-charger': anker_prime_a2688_100w_charger_reviews,
+    'anker-prime-a1336-20000mah-power-bank': anker_prime_a1336_20000mah_power_bank_reviews,
+    'anker-prime-a2669-67w-gan-charger': anker_prime_a2669_67w_gan_charger_reviews,
+    'anker-prime-fusion-a1339-9600mah-65w': anker_prime_fusion_a1339_9600mah_65w_reviews,
+    'soundcore-a25i-earbuds': soundcore_a25i_earbuds_reviews,
+    'anker-zolo-30w-a2698-charger': anker_zolo_30w_a2698_charger_reviews,
+    'anker-zolo-usb-c-braided-cable': anker_zolo_usb_c_braided_cable_reviews,
     'anker-soundcore-motion-plus': anker_soundcore_motion_plus_reviews,
     'anker-soundcore-flare-2': anker_soundcore_flare_2_reviews,
     'anker-737-powerbank': anker_737_powerbank_reviews,

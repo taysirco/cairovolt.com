@@ -161,6 +161,7 @@ export const anker_soundcore_flare_2 = {
             ar: "إذا كنت تحب إقامة الحفلات، فإن Flare 2 هي صديقك المفضل. الصوت المحيطي 360 درجة يملأ الغرفة بالتساوي، وعرض الضوء المتفاعل مع الإيقاع يضيف جواً رائعاً. مقاومة للماء بالكامل، لذا حفلات حمام السباحة خالية من القلق. على الرغم من أن الباس ليس بعمق Motion+، إلا أن التجربة الكلية وميزة PartyCast تجعلها فائزة للمناسبات الاجتماعية."
         },
         relatedProducts: [
+        "soundcore-a25i-earbuds",
         "anker-soundcore-motion-plus",
         "anker-soundcore-r50i",
         "anker-soundcore-life-p2i",

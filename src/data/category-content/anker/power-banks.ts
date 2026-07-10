@@ -121,6 +121,9 @@ export const anker_power_banks_content: CategoryContent = {
                         }
                     ],
                     products: [
+                        { name: 'باور بانك انكر ووكونج 3 في 1 (A1637)', price: 2999, badge: '🆕 3 في 1' },
+                        { name: 'باور بانك انكر برايم 20000 (200W)', price: 5900, badge: '🆕 200W' },
+                        { name: 'باور بانك انكر برايم فيوجن 65W', price: 3200, badge: '🆕 Hybrid' },
                         { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'الأكثر طلباً' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
                         { name: 'Anker Prime 27650mAh (250W)', price: 2300, badge: 'لأجهزة M5' },
@@ -172,6 +175,9 @@ export const anker_power_banks_content: CategoryContent = {
                         }
                     ],
                     products: [
+                        { name: 'Anker Wukong 3-in-1 Power Bank (A1637)', price: 2999, badge: '🆕 3-in-1' },
+                        { name: 'Anker Prime 20K 200W Power Bank', price: 5900, badge: '🆕 200W' },
+                        { name: 'Anker Prime Fusion 65W Power Bank', price: 3200, badge: '🆕 Hybrid' },
                         { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1550, badge: 'Best Seller' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'Compact' },
                         { name: 'Anker Prime 27650mAh (250W)', price: 2300, badge: 'For M5 Chips' },

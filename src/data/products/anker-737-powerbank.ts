@@ -24,6 +24,12 @@ export const anker_737_powerbank = {
             { id: "img_8", url: "/products/anker/anker-737-powerbank/anker-737-package-contents-cable-pouch-accessories.webp", alt: "Anker 737 package contents including cable pouch and all accessories - CairoVolt", order: 7, isPrimary: false, width: 1024, height: 1024 }
         ],
         relatedProducts: [
+        "anker-prime-fusion-a1339-9600mah-65w",
+        "anker-prime-a2669-67w-gan-charger",
+        "anker-prime-a1336-20000mah-power-bank",
+        "anker-prime-a2688-100w-charger",
+        "anker-nano-pro-45w-a2692",
+        "anker-a1637-wukong-3-in-1-power-bank",
         "anker-prime-a1695-25000",
         "anker-powercore-26800",
         "anker-nano-45w",

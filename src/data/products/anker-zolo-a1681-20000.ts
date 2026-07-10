@@ -20,6 +20,7 @@ export const anker_zolo_a1681_20000 = {
             { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 charging MacBook Air alongside iPhone - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "anker-prime-a1336-20000mah-power-bank",
         "anker-zolo-a110e-20000",
         "anker-prime-a1695-25000",
         "anker-a8050-usb-c-cable",

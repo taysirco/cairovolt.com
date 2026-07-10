@@ -86,6 +86,8 @@ export const anker_powercore_10000 = {
             ar: "هذا هو الباور بانك الكلاسيكي والموثوق الذي يجب أن يمتلكه الجميع. صغير بشكل لا يصدق لسعة 10,000 مللي أمبير – حجم الجيب حقاً. لا يوجد به مميزات معقدة، فقط شحن قوي وسريع لهاتفك. مثالي للحمل اليومي في جيبك أو حقيبتك دون أن يثقلك."
         },
         relatedProducts: [
+        "anker-powerport-iii-20w-a2639",
+        "anker-310-usb-c-lightning-cable",
         "anker-powerport-20w",
         "anker-powerline-usb-c-usb-c",
         "anker-car-charger-dual-usb",

@@ -24,7 +24,8 @@ export const soundcore_p20i_earbuds = {
             { id: "img_8", url: "/products/anker/soundcore-p20i-earbuds/soundcore-p20i-earbuds-close-up-detail-cairovolt.webp", alt: "سماعة ساوندكور P20i A3949Z11 close up detail - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 },
     ],
 
-    relatedProducts: ["soundcore-p25i-earbuds", "soundcore-p30i-earbuds", "soundcore-v20i-earbuds", "anker-soundcore-r50i", "anker-soundcore-life-p2i", "anker-a2741-charger-30w"],
+    relatedProducts: [
+        "soundcore-a25i-earbuds","soundcore-p25i-earbuds", "soundcore-p30i-earbuds", "soundcore-v20i-earbuds", "anker-soundcore-r50i", "anker-soundcore-life-p2i", "anker-a2741-charger-30w"],
 
     translations: {
         en: {

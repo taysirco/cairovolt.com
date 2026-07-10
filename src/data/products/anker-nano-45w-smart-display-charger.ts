@@ -16,6 +16,7 @@ export const anker_nano_45w_smart_display_charger = {
         { id: "img_11", url: "/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-screen-fast45w-care-mode-ai-cairovolt.webp", alt: "شاشة شاحن انكر A121D الذكية تعرض سرعة الشحن 45 واط ونسبة البطارية ووضع العناية AI Care Mode - كايرو فولت", order: 10, isPrimary: false, width: 1080, height: 1080 }
     ],
     relatedProducts: [
+        "anker-nano-pro-45w-a2692",
         "anker-a2147-gan-charger-30w",
         "anker-a2732-charger-35w",
         "anker-a2741-charger-30w",

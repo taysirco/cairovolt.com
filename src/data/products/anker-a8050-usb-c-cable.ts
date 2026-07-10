@@ -13,6 +13,17 @@ export const anker_a8050_usb_c_cable = {
             { id: "img_8", url: "/products/anker/anker-a8050-usb-c-cable/anker-a8050-usb-c-data-transfer-speed-test-lab-benchmark.webp", alt: "Anker A8050 USB-C cable data transfer and charging specs - CairoVolt", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "anker-zolo-usb-c-braided-cable",
+        "anker-zolo-30w-a2698-charger",
+        "anker-prime-fusion-a1339-9600mah-65w",
+        "anker-prime-a2669-67w-gan-charger",
+        "anker-prime-a1336-20000mah-power-bank",
+        "anker-prime-a2688-100w-charger",
+        "anker-a2216-magnetic-wireless-car-charger",
+        "anker-nano-pro-45w-a2692",
+        "anker-nano-45w-1c-pd",
+        "anker-310-usb-c-lightning-cable",
+        "anker-a1637-wukong-3-in-1-power-bank",
         "anker-usb-c-lightning-sureistrong",
         "anker-a2732-charger-35w",
         "anker-a2741-charger-30w",

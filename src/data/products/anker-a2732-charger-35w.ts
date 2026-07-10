@@ -11,6 +11,9 @@ export const anker_a2732_charger_35w = {
             { id: "img_6", url: "/products/anker/anker-a2732-charger-35w/anker-a2732-35w-package-box-contents-specifications-egypt.webp", alt: "Anker A2732 car charger LED ring illuminated in car socket - CairoVolt", order: 5, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "anker-zolo-usb-c-braided-cable",
+        "anker-a2216-magnetic-wireless-car-charger",
+        "anker-a1637-wukong-3-in-1-power-bank",
         "anker-a2147-gan-charger-30w",
         "anker-nano-45w-smart-display-charger",
         "anker-car-charger-dual-usb",

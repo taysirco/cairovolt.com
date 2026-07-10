@@ -168,6 +168,10 @@ export const anker_nano_45w = {
             ar: "تعدد استخدامات هذا الشاحن لا مثيل له. قوي بما يكفي لشحن MacBook Air أو حتى Pro بسرعات جيدة، ومع ذلك صغير بما يكفي لهاتفك. إذا كنت تريد شاحناً واحداً لكل شيء (لابتوب، تابلت، هاتف)، فإن أنكر Nano هذا هو الخيار الأذكى الذي يمكنك اتخاذه."
         },
         relatedProducts: [
+        "anker-zolo-30w-a2698-charger",
+        "anker-prime-a2669-67w-gan-charger",
+        "anker-nano-pro-45w-a2692",
+        "anker-a1637-wukong-3-in-1-power-bank",
         "anker-521-powerhouse",
         "anker-a2147-gan-charger-30w",
         "anker-nano-45w-smart-display-charger",

@@ -94,8 +94,34 @@ import { soundcore_space_one_headphones_lab } from './tests/soundcore-space-one-
 import { soundcore_rave_3_speaker_lab } from './tests/soundcore-rave-3-speaker';
 import { soundcore_select_4_go_speaker_lab } from './tests/soundcore-select-4-go-speaker';
 import { anker_pencil_stylus_lab } from './tests/anker-pencil-stylus';
+import { anker_a1637_wukong_3_in_1_power_bank_lab } from './tests/anker-a1637-wukong-3-in-1-power-bank';
+import { anker_310_usb_c_lightning_cable_lab } from './tests/anker-310-usb-c-lightning-cable';
+import { anker_nano_45w_1c_pd_lab } from './tests/anker-nano-45w-1c-pd';
+import { anker_nano_pro_45w_a2692_lab } from './tests/anker-nano-pro-45w-a2692';
+import { anker_a2216_magnetic_wireless_car_charger_lab } from './tests/anker-a2216-magnetic-wireless-car-charger';
+import { anker_powerport_iii_20w_a2639_lab } from './tests/anker-powerport-iii-20w-a2639';
+import { anker_prime_a2688_100w_charger_lab } from './tests/anker-prime-a2688-100w-charger';
+import { anker_prime_a1336_20000mah_power_bank_lab } from './tests/anker-prime-a1336-20000mah-power-bank';
+import { anker_prime_a2669_67w_gan_charger_lab } from './tests/anker-prime-a2669-67w-gan-charger';
+import { anker_prime_fusion_a1339_9600mah_65w_lab } from './tests/anker-prime-fusion-a1339-9600mah-65w';
+import { soundcore_a25i_earbuds_lab } from './tests/soundcore-a25i-earbuds';
+import { anker_zolo_30w_a2698_charger_lab } from './tests/anker-zolo-30w-a2698-charger';
+import { anker_zolo_usb_c_braided_cable_lab } from './tests/anker-zolo-usb-c-braided-cable';
 
 export const labData: Record<string, import('./tests/_shared').ProductLabData> = {
+    'anker-a1637-wukong-3-in-1-power-bank': anker_a1637_wukong_3_in_1_power_bank_lab,
+    'anker-310-usb-c-lightning-cable': anker_310_usb_c_lightning_cable_lab,
+    'anker-nano-45w-1c-pd': anker_nano_45w_1c_pd_lab,
+    'anker-nano-pro-45w-a2692': anker_nano_pro_45w_a2692_lab,
+    'anker-a2216-magnetic-wireless-car-charger': anker_a2216_magnetic_wireless_car_charger_lab,
+    'anker-powerport-iii-20w-a2639': anker_powerport_iii_20w_a2639_lab,
+    'anker-prime-a2688-100w-charger': anker_prime_a2688_100w_charger_lab,
+    'anker-prime-a1336-20000mah-power-bank': anker_prime_a1336_20000mah_power_bank_lab,
+    'anker-prime-a2669-67w-gan-charger': anker_prime_a2669_67w_gan_charger_lab,
+    'anker-prime-fusion-a1339-9600mah-65w': anker_prime_fusion_a1339_9600mah_65w_lab,
+    'soundcore-a25i-earbuds': soundcore_a25i_earbuds_lab,
+    'anker-zolo-30w-a2698-charger': anker_zolo_30w_a2698_charger_lab,
+    'anker-zolo-usb-c-braided-cable': anker_zolo_usb_c_braided_cable_lab,
     'anker-powercore-10000': anker_powercore_10000_lab,
     'joyroom-power-bank-10000': joyroom_power_bank_10000_lab,
     'joyroom-power-bank-20000': joyroom_power_bank_20000_lab,

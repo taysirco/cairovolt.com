@@ -188,6 +188,7 @@ export const anker_powerport_20w = {
         ar: "الشاحن الأساسي لأي حد عنده ايفون ولسه بيستخدم الشاحن البطيء القديم — أول ترقية لازم تعملها. لو عندك سامسونج روح للموديل 25 واط."
     },
         relatedProducts: [
+        "anker-310-usb-c-lightning-cable",
         "anker-a2147-gan-charger-30w",
         "anker-622-maggo",
         "anker-powerline-usb-c-lightning",

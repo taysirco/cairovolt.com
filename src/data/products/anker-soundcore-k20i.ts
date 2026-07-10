@@ -14,6 +14,7 @@ export const anker_soundcore_k20i = {
             { id: "img_9", url: "/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-battery-life-playtime-test-lab-egypt.webp", alt: "Soundcore K20i app EQ customization screen - CairoVolt", order: 8, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "soundcore-a25i-earbuds",
         "anker-soundcore-r50i-nc",
         "anker-soundcore-r50i",
         "anker-a8050-usb-c-cable",

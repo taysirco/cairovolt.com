@@ -24,6 +24,7 @@ export const anker_zolo_a110d_10000 = {
             { id: "img_8", url: "/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-side-profile-thickness-portable-power-bank.webp", alt: "انكر زولو A110D باور بانك نحيف - عرض جانبي للسمك والتصميم المحمول - كايرو فولت", order: 7, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
+        "anker-zolo-30w-a2698-charger",
         "anker-zolo-a110e-20000",
         "anker-a8050-usb-c-cable",
         "anker-a2732-charger-35w",

@@ -137,5 +137,6 @@ export const anker_usb_c_lightning_sureistrong = {
             ar: "SureIStrong هو قمة هندسة انكر لكابلات Lightning. التقوية الحيوية عند نقطة الضغط تلغي السبب الأول لتلف الكابلات. لو عايز كابل واحد يتحمل صيف مصر والاستخدام اليومي — ده هو."
         },
         meta: { keywords: "أنكر sureistrong, أنكر lightning cable, كابل انكر لايتنينج, كابل ايفون فاخر, أنكر cable egypt, أنكر charging cable, أنكر fast charge cable, أنكر usb c cable, أنكر iphone cable egypt, أنكر best cable egypt 2026, أنكر cod egypt cable, أنكر durable cable, افضل كابل شحن انكر, سعر كابل انكر, أنكر sureistrong lightning", mainTerm: "anker sureistrong lightning" },
-        relatedProducts: ["anker-powerline-usb-c-lightning", "anker-powerport-20w", "anker-powercore-10000", "anker-a8050-usb-c-cable", "anker-powercore-20000"]
+        relatedProducts: [
+        "anker-310-usb-c-lightning-cable","anker-powerline-usb-c-lightning", "anker-powerport-20w", "anker-powercore-10000", "anker-a8050-usb-c-cable", "anker-powercore-20000"]
     };

@@ -76,6 +76,12 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { question: 'هل بيستحمل تذبذب كهرباء مصر؟', answer: 'نعم، بيدعم جهد من 100V لـ 240V. بعد انقطاع الكهرباء والرجوع المفاجئ (voltage spike)، شاحن انكر بيفصل تلقائياً لحماية الموبايل. اختبار CairoVolt: سيناريو 300V spike — الشواحن الرخيصة احترقت، انكر فصل ورجع يشتغل.' }
                     ],
                     products: [
+                        { name: 'شاحن انكر نانو 45W منفذ واحد', price: 775, badge: '45W PD' },
+                        { name: 'شاحن انكر نانو برو 45W (A2692)', price: 790, badge: '🆕 Nano Pro' },
+                        { name: 'شاحن انكر PowerPort III 20W', price: 520, badge: '20W' },
+                        { name: 'شاحن انكر برايم 100W (3 منافذ)', price: 1999, badge: '🆕 100W GaN' },
+                        { name: 'شاحن انكر برايم 67W (3 منافذ)', price: 1970, badge: '67W GaN' },
+                        { name: 'شاحن انكر زولو 30W (A2698)', price: 599, badge: 'جديد' },
                         { name: 'شاحن انكر 20 واط', price: 490, badge: 'الأرخص' },
                         { name: 'شاحن انكر 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },
@@ -135,6 +141,12 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
                         }
                     ],
                     products: [
+                        { name: 'Anker Nano 45W (Single Port)', price: 775, badge: '45W PD' },
+                        { name: 'Anker Nano Pro 45W (A2692)', price: 790, badge: '🆕 Nano Pro' },
+                        { name: 'Anker PowerPort III 20W', price: 520, badge: '20W' },
+                        { name: 'Anker Prime 100W (3-Port)', price: 1999, badge: '🆕 100W GaN' },
+                        { name: 'Anker Prime 67W (3-Port)', price: 1970, badge: '67W GaN' },
+                        { name: 'Anker Zolo 30W (A2698)', price: 599, badge: 'New' },
                         { name: 'Anker 20W Charger', price: 490, badge: 'Budget' },
                         { name: 'Anker 25W PPS', price: 550, badge: 'Samsung S26' },
                         { name: 'Anker Nano 3 GaN 30W (A2147)', price: 430, badge: '⭐ iPhone 17 GaN' },

@@ -83,8 +83,34 @@ import { soundcore_space_one_headphones } from './products/soundcore-space-one-h
 import { soundcore_rave_3_speaker } from './products/soundcore-rave-3-speaker';
 import { soundcore_select_4_go_speaker } from './products/soundcore-select-4-go-speaker';
 import { anker_pencil_stylus } from './products/anker-pencil-stylus';
+import { anker_a1637_wukong_3_in_1_power_bank } from './products/anker-a1637-wukong-3-in-1-power-bank';
+import { anker_310_usb_c_lightning_cable } from './products/anker-310-usb-c-lightning-cable';
+import { anker_nano_45w_1c_pd } from './products/anker-nano-45w-1c-pd';
+import { anker_nano_pro_45w_a2692 } from './products/anker-nano-pro-45w-a2692';
+import { anker_a2216_magnetic_wireless_car_charger } from './products/anker-a2216-magnetic-wireless-car-charger';
+import { anker_powerport_iii_20w_a2639 } from './products/anker-powerport-iii-20w-a2639';
+import { anker_prime_a2688_100w_charger } from './products/anker-prime-a2688-100w-charger';
+import { anker_prime_a1336_20000mah_power_bank } from './products/anker-prime-a1336-20000mah-power-bank';
+import { anker_prime_a2669_67w_gan_charger } from './products/anker-prime-a2669-67w-gan-charger';
+import { anker_prime_fusion_a1339_9600mah_65w } from './products/anker-prime-fusion-a1339-9600mah-65w';
+import { soundcore_a25i_earbuds } from './products/soundcore-a25i-earbuds';
+import { anker_zolo_30w_a2698_charger } from './products/anker-zolo-30w-a2698-charger';
+import { anker_zolo_usb_c_braided_cable } from './products/anker-zolo-usb-c-braided-cable';
 
 export const products = [
+    anker_a1637_wukong_3_in_1_power_bank,
+    anker_310_usb_c_lightning_cable,
+    anker_nano_45w_1c_pd,
+    anker_nano_pro_45w_a2692,
+    anker_a2216_magnetic_wireless_car_charger,
+    anker_powerport_iii_20w_a2639,
+    anker_prime_a2688_100w_charger,
+    anker_prime_a1336_20000mah_power_bank,
+    anker_prime_a2669_67w_gan_charger,
+    anker_prime_fusion_a1339_9600mah_65w,
+    soundcore_a25i_earbuds,
+    anker_zolo_30w_a2698_charger,
+    anker_zolo_usb_c_braided_cable,
     anker_soundcore_motion_plus,
     anker_soundcore_flare_2,
     anker_737_powerbank,

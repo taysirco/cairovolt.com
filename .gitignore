@@ -142,3 +142,8 @@ public/datasets/
 
 # Office/Excel temporary files
 ~$*
+
+# C2PA signing keys (local only, never commit)
+.c2pa-signing/
+# Original product image sources backup (local only)
+.image-source-backup/
