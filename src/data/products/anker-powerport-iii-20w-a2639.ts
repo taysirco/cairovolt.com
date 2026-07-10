@@ -9,7 +9,7 @@ export const anker_powerport_iii_20w_a2639 = {
         mpn: "A2639P21",
         price: 520,
         originalPrice: 620,
-        stock: 420,
+        stock: 247,
         featured: false,
         status: "active",
         images: [

@@ -9,7 +9,7 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
         mpn: "A1339",
         price: 3200,
         originalPrice: 3799,
-        stock: 420,
+        stock: 209,
         featured: false,
         status: "active",
         images: [

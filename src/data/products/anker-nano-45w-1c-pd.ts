@@ -9,7 +9,7 @@ export const anker_nano_45w_1c_pd = {
         mpn: "A2039",
         price: 775,
         originalPrice: 899,
-        stock: 420,
+        stock: 222,
         featured: false,
         status: "active",
         images: [

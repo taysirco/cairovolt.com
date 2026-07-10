@@ -9,7 +9,7 @@ export const anker_a2216_magnetic_wireless_car_charger = {
         mpn: "A2216",
         price: 1200,
         originalPrice: 1450,
-        stock: 380,
+        stock: 125,
         featured: false,
         status: "active",
         images: [

@@ -9,7 +9,7 @@ export const anker_prime_a2688_100w_charger = {
         mpn: "A2688",
         price: 1999,
         originalPrice: 2399,
-        stock: 350,
+        stock: 276,
         featured: false,
         status: "active",
         images: [

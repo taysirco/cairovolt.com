@@ -9,7 +9,7 @@ export const anker_310_usb_c_lightning_cable = {
         mpn: "A81A1621",
         price: 730,
         originalPrice: 850,
-        stock: 420,
+        stock: 271,
         featured: false,
         status: "active",
         images: [

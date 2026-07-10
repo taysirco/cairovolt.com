@@ -9,7 +9,7 @@ export const anker_zolo_30w_a2698_charger = {
         mpn: "A2698",
         price: 599,
         originalPrice: 699,
-        stock: 400,
+        stock: 179,
         featured: false,
         status: "active",
         images: [

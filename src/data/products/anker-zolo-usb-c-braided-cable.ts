@@ -9,7 +9,7 @@ export const anker_zolo_usb_c_braided_cable = {
         mpn: "A81D6",
         price: 790,
         originalPrice: 950,
-        stock: 380,
+        stock: 151,
         featured: false,
         status: "active",
         images: [
