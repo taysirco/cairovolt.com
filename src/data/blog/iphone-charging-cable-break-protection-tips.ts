@@ -237,7 +237,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <h2>هل ممكن أصلّح كابل بدأ يتلف؟</h2>
 
-<p>لو العازل بدأ يتشقق بس الكابل لسه بيشتغل — ممكن تحطّ شريط حراري (heat shrink tubing) على المنطقة المتضررة كحل مؤقت. الشريط بيتقلّص بالحرارة وبيعمل عزل جديد متين. بس لو الشحن بدأ يقطع ويرجع أو بطيء — الأسلاك الداخلية اتلفت وده خطر على بطارية الموبايل. في الحالة دي استبدله فوراً — كابل Anker بـ 200 جنيه أرخص من تغيير بطارية ايفون بـ 3,000+ جنيه.</p>
+<p>لو العازل بدأ يتشقق بس الكابل لسه بيشتغل — ممكن تحطّ شريط حراري (heat shrink tubing) على المنطقة المتضررة كحل مؤقت. الشريط بيتقلّص بالحرارة وبيعمل عزل جديد متين. بس لو الشحن بدأ يقطع ويرجع أو بطيء — الأسلاك الداخلية اتلفت وده خطر على بطارية الموبايل. في الحالة دي استبدله فوراً — كابل Anker بـ 570 جنيه أرخص بكتير من تغيير بطارية ايفون بـ 3,000+ جنيه.</p>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-right:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 منتجات ذات صلة من كايرو فولت:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">كابلات MFi معتمدة: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
         },
@@ -438,7 +438,7 @@ export const iphone_charging_cable_break_protection_tips: BlogArticle = {
 
 <h2>Can You Repair a Fraying Cable?</h2>
 
-<p>If just the outer insulation is cracking but the cable still works — you can apply heat shrink tubing over the damaged area as a temporary fix. The tubing contracts with heat and creates a new, durable insulation layer. But if charging becomes intermittent or slow — the internal wires are damaged and this is a safety hazard for your phone's battery. Replace immediately — an Anker cable at 200 EGP is far cheaper than an iPhone battery replacement at 3,000+ EGP.</p>
+<p>If just the outer insulation is cracking but the cable still works — you can apply heat shrink tubing over the damaged area as a temporary fix. The tubing contracts with heat and creates a new, durable insulation layer. But if charging becomes intermittent or slow — the internal wires are damaged and this is a safety hazard for your phone's battery. Replace immediately — an Anker cable at 570 EGP is far cheaper than an iPhone battery replacement at 3,000+ EGP.</p>
 
 <div style="background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);padding:18px;border-radius:12px;border-left:4px solid #2563eb;margin:20px 0;"><p style="margin:0;color:#1e40af;font-weight:600;">🛒 Related Products from CairoVolt:</p><p style="margin:8px 0 0 0;color:#1e3a5f;line-height:2;">MFi certified cables: <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C Cable</a> · <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> · <a href="/en/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a>.</p></div>`,
         },

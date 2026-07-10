@@ -208,7 +208,7 @@ export const usb_c_lightning_vs_usb_c_usb_c_faster: BlogArticle = {
 
 <h3>لو iPhone 15 أو أحدث (USB-C to USB-C)</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🏆 <strong>أفضل أداء:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050 USB-C</a> — 100W، 12,000 دورة ثني، غلاف بيئي TPE. بيشحن iPhone 17 بأقصى سرعة + بيشحن لابتوب كمان. ~240ج</li>
+    <li style="margin-bottom:12px;">🏆 <strong>أفضل أداء:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050 USB-C</a> — 100W، 12,000 دورة ثني، غلاف بيئي TPE. بيشحن iPhone 17 بأقصى سرعة + بيشحن لابتوب كمان. ~570ج</li>
     <li style="margin-bottom:12px;">💰 <strong>أفضل قيمة:</strong> <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">جوي روم USB-C 60W</a> — 60W كفاية لأي iPhone، نايلون مضفر، ~180ج</li>
     <li style="margin-bottom:12px;">⚡ <strong>للابتوب كمان:</strong> <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">جوي روم Type-C 100W</a> — لو بتشحن iPhone ولابتوب بنفس الكابل، ~220ج</li>
 </ul>

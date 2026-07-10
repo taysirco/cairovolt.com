@@ -205,7 +205,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 
 <h2>الكابل: لا تنسى النصف التاني من المعادلة</h2>
 
-<p>رأس شاحن Apple 20W بييجي بدون كابل في العلبة — لازم تشتري كابل بشكل منفصل. ولو اشتريت كابل تقليد بـ 30 جنيه — سرعة الشحن هتنزل 30-50% حتى مع أحسن شاحن. الحل: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه — بيدعم 60W ومقاومته الكهربية منخفضة. يعني كل القوة بتوصل للموبايل بدون فقدان وبيعيش معاك سنين مش شهور.</p>
+<p>رأس شاحن Apple 20W بييجي بدون كابل في العلبة — لازم تشتري كابل بشكل منفصل. ولو اشتريت كابل تقليد بـ 30 جنيه — سرعة الشحن هتنزل 30-50% حتى مع أحسن شاحن. الحل: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~570 جنيه — بيدعم 60W ومقاومته الكهربية منخفضة. يعني كل القوة بتوصل للموبايل بدون فقدان وبيعيش معاك سنين مش شهور.</p>
 
 <h2>توافق رأس شاحن 20W مع الأجهزة المختلفة</h2>
 
@@ -420,7 +420,7 @@ export const iphone_20w_charger_head_price_egypt: BlogArticle = {
 
 <h2>The Cable: Don’t Forget the Other Half of the Equation</h2>
 
-<p>The Apple 20W charger head comes without a cable in the box — you must buy a cable separately. And if you buy a 30 EGP counterfeit cable — charging speed drops 30-50% even with the best charger. The solution: an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP — supports 60W with very low electrical resistance. All power reaches the phone without loss and it lasts years, not months.</p>
+<p>The Apple 20W charger head comes without a cable in the box — you must buy a cable separately. And if you buy a 30 EGP counterfeit cable — charging speed drops 30-50% even with the best charger. The solution: an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~570 EGP — supports 60W with very low electrical resistance. All power reaches the phone without loss and it lasts years, not months.</p>
 
 <h2>20W Charger Head Compatibility with Different Devices</h2>
 

@@ -26,7 +26,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
             metaTitle: 'كابل ايفون أصلي MFi ضد التقليد — 7 فروق واضحة وكيفية الفحص',
             metaDescription: 'إزاي تفرق بين كابل ايفون الأصلي MFi والتقليد بـ 7 علامات واضحة مع جدول أسعار الكابلات المعتمدة في مصر 2026 ومقارنة شاملة ببدائل Anker الأرخص.',
             excerpt: '7 علامات واضحة تفرّق بين كابل ايفون الأصلي MFi والتقليد مع أسعار ومقارنات.',
-            quickAnswer: 'كابل Apple Lightning الأصلي بيتميز بـ: شعار MFi على العلبة، موصّل معدني أملس ومتساوي، رقم سيريال على الكابل، مرونة بدون هشاشة، سعر 450-600 ج.م من التوكيل. البديل الأذكى: كابل Anker USB-C بـ ~200 ج.م — MFi معتمد وبيعيش 5x أطول من كابل Apple.',
+            quickAnswer: 'كابل Apple Lightning الأصلي بيتميز بـ: شعار MFi على العلبة، موصّل معدني أملس ومتساوي، رقم سيريال على الكابل، مرونة بدون هشاشة، سعر 450-600 ج.م من التوكيل. البديل الأذكى: كابل Anker USB-C بـ ~570 ج.م — MFi معتمد وبيعيش 5x أطول من كابل Apple.',
             keywords: 'كابل ايفون اصلي, وصلة ايفون اصلية ولا تقليد, MFi كابل ايفون, الفرق بين كابل ايفون الاصلي والتقليد, كابل lightning اصلي مصر, سعر كابل ايفون الاصلي, وصلة شحن ايفون اصلية, كابل ايفون معتمد',
             faq: [
                 {
@@ -35,7 +35,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
                 },
                 {
                     question: 'كام سعر كابل ايفون الأصلي في مصر؟',
-                    answer: 'كابل Apple Lightning to USB-C (1 متر) من 450-600 جنيه من التوكيل. كابل Apple Lightning to USB-A من 350-500 جنيه. البديل الأفضل: كابل Anker USB-C بـ ~200 جنيه — MFi معتمد وأمتن 5 مرات من كابل Apple الأصلي.'
+                    answer: 'كابل Apple Lightning to USB-C (1 متر) من 450-600 جنيه من التوكيل. كابل Apple Lightning to USB-A من 350-500 جنيه. البديل الأفضل: كابل Anker USB-C بـ ~570 جنيه — MFi معتمد وأمتن 5 مرات من كابل Apple الأصلي.'
                 },
                 {
                     question: 'هل كابل Anker بيشتغل مع ايفون بدون مشاكل؟',
@@ -107,7 +107,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C (1.8م)</a></strong></td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>~200</strong></td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>~570</strong></td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>⭐⭐⭐⭐⭐</strong></td>
 </tr>
 <tr>
@@ -120,13 +120,13 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 
 <h2>لماذا كابل Anker هو الخيار الأذكى؟</h2>
 
-<p><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بيتفوق على كابل Apple الأصلي في عدة نقاط: أولاً المتانة — Anker بيستخدم غلاف من النايلون المضفّر (braided nylon) اللي بيتحمل 30,000+ دورة ثني مقابل 10,000 لكابل Apple العادي. ثانياً الطول — 1.8 متر مقابل 1 متر لـ Apple. ثالثاً السعر — ~200 جنيه مقابل 450-600 لـ Apple. رابعاً الضمان — 18 شهر مقابل 12 شهر. وأخيراً بيدعم 60W — يعني كل القوة اللي الشاحن بيقدمها بتوصل للموبايل بدون فقدان.</p>
+<p><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بيتفوق على كابل Apple الأصلي في عدة نقاط: أولاً المتانة — Anker بيستخدم غلاف من النايلون المضفّر (braided nylon) اللي بيتحمل 30,000+ دورة ثني مقابل 10,000 لكابل Apple العادي. ثانياً الطول — 1.8 متر مقابل 1 متر لـ Apple. ثالثاً القيمة — ~570 جنيه لكابل بيتحمل 3 أضعاف دورات الثني مقارنة بكابل Apple (450-600 جنيه). رابعاً الضمان — 18 شهر مقابل 12 شهر. وأخيراً بيدعم 60W — يعني كل القوة اللي الشاحن بيقدمها بتوصل للموبايل بدون فقدان.</p>
 
-<p>والنتيجة العملية: كابل Anker بيعيش معاك سنة ونص على الأقل في الاستخدام اليومي الثقيل — مقابل 6-9 شهور لكابل Apple اللي بيبدأ يتلف من الأطراف. يعني بتوفّر 250-400 جنيه وبتاخد كابل أمتن بالفعل. ده مش رأي شخصي — ده تقييم كل مواقع المراجعات التقنية العالمية. والأهم — كابل Anker متاح بضمان رسمي مصري 18 شهر من <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كايرو فولت</a> — لو حصل أي مشكلة هيتبدللك مجاناً.</p>
+<p>والنتيجة العملية: كابل Anker بيعيش معاك سنة ونص على الأقل في الاستخدام اليومي الثقيل — مقابل 6-9 شهور لكابل Apple اللي بيبدأ يتلف من الأطراف. يعني بنفس فئة سعر كابل Apple تقريباً بتاخد كابل بيعيش 3 أضعاف — والتوفير الحقيقي إنك مش بتشتري كابل جديد كل 6 شهور. ده مش رأي شخصي — ده تقييم كل مواقع المراجعات التقنية العالمية. والأهم — كابل Anker متاح بضمان رسمي مصري 18 شهر من <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كايرو فولت</a> — لو حصل أي مشكلة هيتبدللك مجاناً.</p>
 
 <h2>تجربة عملية: كابل تقليد مقابل كابل أصلي — الاختبار</h2>
 
-<p>عملنا اختبار بسيط: اشترينا كابل تقليد بـ 50 جنيه من محل موبايلات وكابل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C</a> بـ 200 جنيه وشحنا بيهم iPhone 15 من 20% لـ 80%. النتيجة:</p>
+<p>عملنا اختبار بسيط: اشترينا كابل تقليد بـ 50 جنيه من محل موبايلات وكابل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C</a> بـ 570 جنيه وشحنا بيهم iPhone 15 من 20% لـ 80%. النتيجة:</p>
 
 <ul>
 <li><strong>كابل التقليد:</strong> شحن من 20% لـ 80% في 72 دقيقة (بيشحن بـ ~7W فقط رغم إن الشاحن 20W)</li>
@@ -151,7 +151,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 
 <p>من iPhone 15 وأحدث — Apple انتقلت لـ USB-C بدل Lightning. ده تغيير جذري بيعني إنك مش محتاج تقلق من شهادة MFi للكابلات بعد كده — لأن USB-C معيار عالمي مفتوح. أي كابل USB-C أصلي من Anker أو غيره هيشتغل 100% بدون رسائل تحذير. وده من أحسن القرارات اللي Apple اتخذتها — لأن المستخدم بقى حر يختار الكابل اللي يعجبه بدون قيود.</p>
 
-<p>لو عندك ايفون 14 أو أقدم (بيستخدم Lightning) — لازم تتأكد إن الكابل MFi. لو عندك ايفون 15+ (بيستخدم USB-C) — <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه هو أفضل اختيار من كل النواحي: السعر، المتانة، الطول، والضمان.</p>
+<p>لو عندك ايفون 14 أو أقدم (بيستخدم Lightning) — لازم تتأكد إن الكابل MFi. لو عندك ايفون 15+ (بيستخدم USB-C) — <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~570 جنيه هو أفضل اختيار من كل النواحي: السعر، المتانة، الطول، والضمان.</p>
 
 <h2>دليل الشراء — أفضل أماكن شراء كابل ايفون في مصر</h2>
 
@@ -160,14 +160,14 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 <ul>
 <li><strong>iStyle / Tradeline:</strong> كابلات Apple أصلية 100% بضمان — بس أغلى سعر (450-600 جنيه)</li>
 <li><strong>B.TECH / 2B:</strong> كابلات Apple أصلية بسعر أقل 5-10% مع ضمان</li>
-<li><strong>كايرو فولت:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه — أفضل قيمة مقابل السعر مع ضمان 18 شهر</li>
+<li><strong>كايرو فولت:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~570 جنيه — أفضل قيمة مقابل السعر مع ضمان 18 شهر</li>
 <li><strong>Amazon/Noon:</strong> تحقق من البائع — فيه بائعين تقليد كتير على المنصات</li>
 <li><strong>محلات الموبايل الصغيرة:</strong> خطر! 80%+ من الكابلات اللي بتتباع فيها تقليد</li>
 </ul>
 
 <h2>الكابل + الشاحن — الكومبو الأذكى</h2>
 
-<p>لو بتشتري كابل جديد — الأحسن تشتري شاحن معاه عشان تستفيد من السرعة الكاملة للكابل الجديد. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ ~490 جنيه + <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه = 600 جنيه لكومبو كامل بضمان 18 شهر. نفس الكومبو من Apple هيكلفك 1,350+ جنيه — يعني بتوفر 750 جنيه وبتاخد كابل أمتن وأطول وضمان أطول. ولو عايز قوة أكبر — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> بـ ~500 جنيه بيشحن ايفون وسامسونج في نفس الوقت. و <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه لو عايز تشحن لابتوب كمان — شاحن واحد لكل حاجة.</p>
+<p>لو بتشتري كابل جديد — الأحسن تشتري شاحن معاه عشان تستفيد من السرعة الكاملة للكابل الجديد. <a href="/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> بـ ~490 جنيه + <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~570 جنيه = 1,060 جنيه لكومبو كامل بضمان 18 شهر. نفس الكومبو من Apple هيكلفك 1,350+ جنيه — يعني بتوفر ~300 جنيه وبتاخد كابل أمتن وأطول وضمان أطول. ولو عايز قوة أكبر — <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> بـ ~500 جنيه بيشحن ايفون وسامسونج في نفس الوقت. و <a href="/anker/wall-chargers/anker-a2741-charger-30w" style="color:#2563eb;font-weight:600;">Anker 30W GaN</a> بـ ~600 جنيه لو عايز تشحن لابتوب كمان — شاحن واحد لكل حاجة.</p>
 
 <h2>نصائح عملية لإطالة عمر أي كابل</h2>
 
@@ -185,7 +185,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
             metaTitle: 'Original iPhone MFi Cable vs Fake — 7 Clear Differences and How to Check',
             metaDescription: 'How to identify genuine Apple MFi iPhone cables from counterfeits with 7 clear signs, certified cable prices in Egypt, and cheaper Anker alternatives.',
             excerpt: '7 clear signs to distinguish genuine MFi iPhone cables from counterfeits with prices and comparisons.',
-            quickAnswer: 'Genuine Apple Lightning cables feature: MFi logo on packaging, smooth even metal connector, serial number on cable, flexibility without brittleness, price 450-600 EGP from authorized dealers. The smarter alternative: Anker USB-C cable at ~200 EGP — MFi certified and lasts 5x longer than Apple cables.',
+            quickAnswer: 'Genuine Apple Lightning cables feature: MFi logo on packaging, smooth even metal connector, serial number on cable, flexibility without brittleness, price 450-600 EGP from authorized dealers. The smarter alternative: Anker USB-C cable at ~570 EGP — MFi certified and lasts 5x longer than Apple cables.',
             keywords: 'original iphone cable, iphone cable real vs fake, MFi cable iphone, difference between original and fake iphone cable, lightning cable genuine egypt, iphone cable price egypt, authentic iphone charging cable, MFi certified cable',
             faq: [
                 {
@@ -194,7 +194,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
                 },
                 {
                     question: 'How much does an original iPhone cable cost in Egypt?',
-                    answer: 'Apple Lightning to USB-C cable (1m) costs 450-600 EGP from authorized dealers. Apple Lightning to USB-A costs 350-500 EGP. The better alternative: Anker USB-C cable at ~200 EGP — MFi certified and 5 times more durable than Apple\'s original cable.'
+                    answer: 'Apple Lightning to USB-C cable (1m) costs 450-600 EGP from authorized dealers. Apple Lightning to USB-A costs 350-500 EGP. The better alternative: Anker USB-C cable at ~570 EGP — MFi certified and 5 times more durable than Apple\'s original cable.'
                 },
                 {
                     question: 'Do Anker cables work with iPhone without issues?',
@@ -266,7 +266,7 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 </tr>
 <tr style="background: #f8fafc;">
 <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C (1.8m)</a></strong></td>
-<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>~200</strong></td>
+<td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>~570</strong></td>
 <td style="padding: 10px; text-align: center; border-bottom: 1px solid #e2e8f0;"><strong>⭐⭐⭐⭐⭐</strong></td>
 </tr>
 <tr>
@@ -279,13 +279,13 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 
 <h2>Why the Anker Cable Is the Smarter Choice</h2>
 
-<p>The <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> outperforms Apple's original cable in several ways: First, durability — Anker uses a braided nylon sheath that withstands 30,000+ bend cycles vs 10,000 for Apple's standard cable. Second, length — 1.8 meters vs 1 meter for Apple. Third, price — ~200 EGP vs 450-600 for Apple. Fourth, warranty — 18 months vs 12 months. And finally, it supports 60W — meaning all power the charger provides reaches the phone without loss.</p>
+<p>The <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> outperforms Apple's original cable in several ways: First, durability — Anker uses a braided nylon sheath that withstands 30,000+ bend cycles vs 10,000 for Apple's standard cable. Second, length — 1.8 meters vs 1 meter for Apple. Third, value — ~570 EGP for a cable rated for 3x the bend cycles of Apple’s (450-600 EGP). Fourth, warranty — 18 months vs 12 months. And finally, it supports 60W — meaning all power the charger provides reaches the phone without loss.</p>
 
-<p>The practical result: an Anker cable lasts at least a year and a half with heavy daily use — vs 6-9 months for Apple’s cable which starts fraying at the ends. You save 250-400 EGP and get a cable that’s actually more durable. This isn’t a personal opinion — it’s the assessment of every major international tech review site. And most importantly — the Anker cable is available with an official 18-month Egyptian warranty from <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">CairoVolt</a> — if anything goes wrong, it’s replaced for free.</p>
+<p>The practical result: an Anker cable lasts at least a year and a half with heavy daily use — vs 6-9 months for Apple’s cable which starts fraying at the ends. You pay roughly Apple-cable money for a cable that lasts 3x longer — the real saving is not re-buying a cable every 6 months. This isn’t a personal opinion — it’s the assessment of every major international tech review site. And most importantly — the Anker cable is available with an official 18-month Egyptian warranty from <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">CairoVolt</a> — if anything goes wrong, it’s replaced for free.</p>
 
 <h2>Practical Test: Counterfeit vs Genuine Cable — The Results</h2>
 
-<p>We ran a simple test: bought a 50 EGP counterfeit cable from a mobile shop and an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C</a> cable at 200 EGP and charged an iPhone 15 from 20% to 80% with each. Results:</p>
+<p>We ran a simple test: bought a 50 EGP counterfeit cable from a mobile shop and an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C</a> cable at 570 EGP and charged an iPhone 15 from 20% to 80% with each. Results:</p>
 
 <ul>
 <li><strong>Counterfeit cable:</strong> Charged from 20% to 80% in 72 minutes (only delivering ~7W despite the charger being 20W)</li>
@@ -310,21 +310,21 @@ export const authentic_iphone_lightning_cable_vs_fake: BlogArticle = {
 
 <p>From iPhone 15 onwards — Apple switched to USB-C from Lightning. This is a fundamental change that means you don’t need to worry about MFi certification for cables anymore — because USB-C is an open global standard. Any genuine USB-C cable from Anker or others works 100% without warning messages. This is one of the best decisions Apple has made — because users are now free to choose any cable they want without restrictions.</p>
 
-<p>If you have iPhone 14 or older (uses Lightning) — you must ensure the cable is MFi certified. If you have iPhone 15+ (uses USB-C) — an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP is the best choice from every angle: price, durability, length, and warranty.</p>
+<p>If you have iPhone 14 or older (uses Lightning) — you must ensure the cable is MFi certified. If you have iPhone 15+ (uses USB-C) — an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~570 EGP is the best choice from every angle: price, durability, length, and warranty.</p>
 
 <h2>Buying Guide — Best Places to Buy iPhone Cables in Egypt</h2>
 
 <ul>
 <li><strong>iStyle / Tradeline:</strong> 100% genuine Apple cables with warranty — but highest price (450-600 EGP)</li>
 <li><strong>B.TECH / 2B:</strong> Genuine Apple cables at 5-10% lower prices with warranty</li>
-<li><strong>CairoVolt:</strong> <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP — best value for money with 18-month warranty</li>
+<li><strong>CairoVolt:</strong> <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~570 EGP — best value for money with 18-month warranty</li>
 <li><strong>Amazon/Noon:</strong> Verify the seller — there are many counterfeit sellers on these platforms</li>
 <li><strong>Small mobile shops:</strong> Dangerous! 80%+ of cables sold there are counterfeit</li>
 </ul>
 
 <h2>Cable + Charger — The Smarter Combo</h2>
 
-<p>If you’re buying a new cable — it’s best to buy a charger with it. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at ~490 EGP + <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP = 600 EGP for a complete combo with 18-month warranty. The same combo from Apple would cost 1,350+ EGP — meaning you save 750 EGP and get a more durable, longer cable with a longer warranty. And if you want more power — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> at ~500 EGP charges both iPhone and Samsung simultaneously.</p>
+<p>If you’re buying a new cable — it’s best to buy a charger with it. <a href="/en/anker/wall-chargers/anker-powerport-20w" style="color:#2563eb;font-weight:600;">Anker 20W</a> at ~490 EGP + <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~570 EGP = 1,060 EGP for a complete combo with 18-month warranty. The same combo from Apple would cost 1,350+ EGP — meaning you save ~300 EGP and get a more durable, longer cable with a longer warranty. And if you want more power — <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W</a> at ~500 EGP charges both iPhone and Samsung simultaneously.</p>
 
 <h2>Practical Tips to Extend Any Cable’s Life</h2>
 

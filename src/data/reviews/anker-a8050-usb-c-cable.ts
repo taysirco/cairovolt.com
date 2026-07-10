@@ -12,7 +12,7 @@ export const anker_a8050_usb_c_cable_reviews: ProductReview[] = [
         },
         {
             author: 'عبد الرحمن محمد', rating: 5, location: 'المهندسين', datePublished: '2026-06-11',
-            reviewBody: { en: '', ar: 'كابل انكر A8050 بـ 240 جنيه ممتاز! متين ورخيص وبيشحن بسرعه. أحسن entry-level كابل من أنكر' }
+            reviewBody: { en: '', ar: 'كابل انكر A8050 بـ 570 جنيه ممتاز! متين ورخيص وبيشحن بسرعه. أحسن entry-level كابل من أنكر' }
         },
         {
             author: 'جمال ياسين', rating: 4, location: 'الإسماعيلية', datePublished: '2026-06-11',

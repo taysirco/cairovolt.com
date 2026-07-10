@@ -190,7 +190,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <ul>
 <li><strong>شاحن واحد لكل أجهزتك:</strong> نفس الكابل بيشحن ايفون وسامسونج ولابتوب وتابلت وسماعات</li>
 <li><strong>شحن أسرع:</strong> USB-C بيدعم قوة أعلى من Lightning (20-27W مقابل 18W كحد أقصى)</li>
-<li><strong>كابلات أرخص:</strong> كابلات USB-C الأصلية أرخص بكتير من كابلات Lightning — <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه مقابل 500+ لكابل Apple Lightning</li>
+<li><strong>كابلات أرخص:</strong> كابلات USB-C الأصلية أرخص بكتير من كابلات Lightning — <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~570 جنيه مقابل 1,000+ لكابل Apple Lightning الأصلي</li>
 <li><strong>توافق عالمي:</strong> USB-C معيار عالمي مفتوح — مش محتكر من Apple</li>
 </ul>
 
@@ -200,7 +200,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>كتير من الناس بتشتري شاحن أصلي بـ 500-900 جنيه وبتحط كابل تقليد بـ 30 جنيه. النتيجة: سرعة شحن بطيئة جداً رغم إن الشاحن ممتاز. ليه؟ لأن الكابل التقليد مقاومته الكهربية عالية — فبيخفّض القوة الفعلية اللي بتوصل للموبايل بنسبة 30-50%. ومش بس كده — الكابل التقليد بيولّد حرارة زيادة في التوصيلة وممكن يسيح.</p>
 
-<p>الحل: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~200 جنيه — بيدعم 60W ومتين ومقاومته الكهربية منخفضة جداً. يعني كل القوة اللي الشاحن بيقدمها بتوصل للموبايل بدون فقدان. الاستثمار في كابل أصلي بيفرق في سرعة الشحن الفعلية وأمان البطارية وعمر الكابل نفسه — مش توفير مؤقت هيخلص خلال شهرين.</p>
+<p>الحل: <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل Anker USB-C</a> بـ ~570 جنيه — بيدعم 60W ومتين ومقاومته الكهربية منخفضة جداً. يعني كل القوة اللي الشاحن بيقدمها بتوصل للموبايل بدون فقدان. الاستثمار في كابل أصلي بيفرق في سرعة الشحن الفعلية وأمان البطارية وعمر الكابل نفسه — مش توفير مؤقت هيخلص خلال شهرين.</p>
 
 <h2>نصايح اختيار شاحن ايفون في 2026</h2>
 
@@ -399,7 +399,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 <ul>
 <li><strong>One charger for all devices:</strong> The same cable charges iPhone, Samsung, laptop, tablet, and earbuds</li>
 <li><strong>Faster charging:</strong> USB-C supports higher power than Lightning (20-27W vs 18W maximum)</li>
-<li><strong>Cheaper cables:</strong> Genuine USB-C cables are much cheaper than Lightning — an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> costs ~200 EGP vs 500+ for an Apple Lightning cable</li>
+<li><strong>Cheaper cables:</strong> Genuine USB-C cables are much cheaper than Lightning — an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> costs ~570 EGP vs 1,000+ for a genuine Apple Lightning cable</li>
 <li><strong>Universal compatibility:</strong> USB-C is an open global standard — not proprietary to Apple</li>
 </ul>
 
@@ -409,7 +409,7 @@ export const iphone_original_charger_price_egypt_warranty: BlogArticle = {
 
 <p>Many people buy a genuine charger for 500-900 EGP and pair it with a 30 EGP counterfeit cable. The result: extremely slow charging despite having an excellent charger. Why? Because counterfeit cables have high electrical resistance — reducing the actual power reaching the phone by 30-50%. And it’s not just that — counterfeit cables generate excess heat at the connector and can melt.</p>
 
-<p>The solution: an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~200 EGP — supports 60W, is extremely durable, and has very low electrical resistance. Meaning all the power the charger delivers reaches the phone. Investing in a genuine cable makes a real difference in charging speed, battery safety, and the cable’s own lifespan — not temporary savings.</p>
+<p>The solution: an <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C cable</a> at ~570 EGP — supports 60W, is extremely durable, and has very low electrical resistance. Meaning all the power the charger delivers reaches the phone. Investing in a genuine cable makes a real difference in charging speed, battery safety, and the cable’s own lifespan — not temporary savings.</p>
 
 <h2>Best Places to Buy iPhone Chargers in Egypt</h2>
 
