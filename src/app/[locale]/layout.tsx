@@ -43,6 +43,19 @@ export const metadata: Metadata = {
   verification: {
     google: '_OOytL9s0O8UkXhp8t8TsZw-hXGRTj12boqhQtgJLJw',
   },
+  // Rich-result presentation directives (Google merchant listings guidance):
+  // large image previews + unrestricted snippets so price/stock/rating render fully.
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
   title: {
     template: '%s | CairoVolt',
     default: 'CairoVolt - Premium Mobile Accessories in Egypt',
