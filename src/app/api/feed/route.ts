@@ -84,6 +84,13 @@ function getProducts(): FeedProduct[] {
         });
 }
 
+// Escape raw text for XML element content (fields not wrapped in CDATA).
+// The Google taxonomy paths contain "&" ("Headphones & Headsets") which is
+// illegal in XML and aborts Merchant Center parsing at the first occurrence.
+function xmlEscape(s: string): string {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 export async function GET() {
     const products = await getProducts();
 
@@ -99,8 +106,8 @@ export async function GET() {
       <g:availability>${p.availability}</g:availability>
       <g:condition>${p.condition}</g:condition>
       <g:brand>${p.brand}</g:brand>
-      ${p.googleCategory ? `<g:google_product_category>${p.googleCategory}</g:google_product_category>` : ''}
-      <g:product_type>${p.productType}</g:product_type>
+      ${p.googleCategory ? `<g:google_product_category>${xmlEscape(p.googleCategory)}</g:google_product_category>` : ''}
+      <g:product_type>${xmlEscape(p.productType)}</g:product_type>
       <g:custom_label_0>CairoVolt Lab Verified</g:custom_label_0>
       <g:custom_label_1>Cash on Delivery Egypt</g:custom_label_1>
       ${p.gtin ? `<g:gtin>${p.gtin}</g:gtin>` : ''}
