@@ -12,7 +12,8 @@ export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
         'anker-zolo-a1681-20000',
         'joyroom-power-bank-10000',
         'joyroom-power-bank-20000',
-        'joyroom-magnetic-power-bank-10000'
+        'joyroom-magnetic-power-bank-10000',
+        'anker-a1637-wukong-3-in-1-power-bank'
     ],
     relatedArticles: [
         'anker-power-bank-20000mah-models-comparison',
@@ -154,6 +155,7 @@ export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
 <h2>ليه الناس لسه بتشتري الموديل ده؟</h2>
 <p>السبب البسيط: الحجم. انكر باور كور 10000 أبعاده 60×93×22mm — أصغر من معظم الموبايلات. يدخل في جيب البنطلون بسهولة، يتحط في حقيبة صغيرة مع محفظة ومفاتيح. الـ 20,000mAh بيحتاج حقيبة سفر أو حقيبة ظهر.</p>
 <p>الموديل ده بنياخد في الأوقات اللي بنطلع فيها "خفيف" — ساعتين بره، رحلة قصيرة، يوم في المول. مش بنحتاج فيهم 20,000mAh ومش بنحتاج الوزن.</p>
+<p>ولو مشكلتك الحقيقية مش الوزن، لكن إنك بتنسى الكابل نفسه — وصل عندنا حل جديد للنقطة دي بالظبط: <a href="/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر ووكونج 3 في 1</a> بـ 2,999ج — نفس سعة الـ 10,000mAh لكن بكابل USB-C مدمج وفيشة حائط مدمجة في الجسم نفسه. يعني الباور بانك والشاحن والكابل قطعة واحدة، ومفيش كابل تنساه تاني.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ انكر باور كور 10000 متاح على كايرو فولت</p>
@@ -306,6 +308,7 @@ export const anker_powercore_10000mah_compact_power_bank_review: BlogArticle = {
 
 <h2>Why People Still Buy This Model</h2>
 <p>Simple reason: the form factor. The Anker PowerCore 10000 measures 60×93×22mm — smaller than most phones. It slides into a pants pocket easily, fits in a small bag alongside a wallet and keys. The 20,000mAh needs a backpack or travel bag. We reach for the 10,000mAh for "light" outings — a couple of hours out, a quick errand, an afternoon at the mall. Situations where we do not need 20,000mAh and do not want the weight.</p>
+<p>And if your real problem is not the weight but forgetting the cable itself, a new arrival solves exactly that: the <a href="/en/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">Anker × Wukong 3-in-1</a> at 2,999 EGP keeps the same 10,000mAh capacity but adds a built-in USB-C cable and a built-in wall plug — power bank, wall charger, and cable in a single unit, with nothing extra to forget.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Anker PowerCore 10000 Available on CairoVolt</p>

@@ -12,7 +12,8 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
         'soundcore-liberty-4-nc',
         'soundcore-space-one-headphones',
         'soundcore-q20i-headphones',
-        'soundcore-a30i-earbuds'
+        'soundcore-a30i-earbuds',
+        'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
         'online-vs-store-original-accessories-egypt-guide',
@@ -79,6 +80,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>الترددات المتوسطة (500Hz - 1kHz): اخفضها بمقدار (-2dB) لإعطاء مساحة للبيز والتريبل للتنفس.</li>
     <li>الترددات المرتفعة (8kHz - 16kHz): ارفعها بمقدار (+3dB) لتوضيح التريبل وصوت الإيقاعات السريعة.</li>
 </ul>
+<p>ولو لسه بتدور على سماعة يومية تستحمل النمط ده، <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بسعر 1370 جنيه نزلت عندنا قريب، وفيها وضع BassUp بيرفع البيز بضغطة واحدة قبل ما تبدأ تظبط المؤشرات بنفسك، مع 28 ساعة تشغيل إجمالي ومقاومة IPX5 للعرق — سماعة متوازنة بسعر عاقل لمزاج المهرجانات والجيم.</p>
 
 <h2>ثالثاً: كيفية اقتران سماعة البلوتوث وتفعيل الإعدادات على هواتف سامسونج وغيرها</h2>
 <p>لكي تبدأ الاستمتاع بهذه الإعدادات، يجب أولاً معرفة <a href="/blog/accessories-markets-map-egypt-helmeya-city-stars" style="color:#2563eb;">كيفية اقتران سماعة البلوتوث بالجوال سامسونج</a> أو آيفون وتشغيلها بشكل صحيح:</p>
@@ -201,6 +203,7 @@ export const eq_settings_arabic_music_egyptian_earbuds_tuning: BlogArticle = {
     <li>Mids (500Hz - 1kHz): Reduce by (-2dB) to create acoustic space for bass and treble highlights.</li>
     <li>Treble (8kHz - 16kHz): Boost by (+3dB) to clarify electronic synthesizers and fast percussion snaps.</li>
 </ul>
+<p>If you are still shopping for a daily pair that handles this profile, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (1,370 EGP) features a one-tap BassUp mode that applies this low-end boost instantly before you fine-tune the sliders yourself, along with 28 hours of total battery life and IPX5 sweat resistance — a balanced daily earbud at a sane price for Mahraganat sessions and gym workouts.</p>
 
 <h2>3. How to Pair Bluetooth Earbuds and Apply EQ Settings on Samsung Phones</h2>
 <p>To enjoy these custom profiles, you must first complete the pairing process. Here is <a href="/en/blog/accessories-markets-map-egypt-helmeya-city-stars" style="color:#2563eb;font-weight:600;">how to pair bluetooth earbuds samsung phone</a> or iOS devices:</p>

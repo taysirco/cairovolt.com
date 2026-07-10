@@ -1,7 +1,7 @@
 // Product: anker-zolo-30w-a2698-charger
 export const anker_zolo_30w_a2698_charger = {
         slug: "anker-zolo-30w-a2698-charger",
-        sku: "ANK-WC-A2698",
+        sku: "AC10",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "",

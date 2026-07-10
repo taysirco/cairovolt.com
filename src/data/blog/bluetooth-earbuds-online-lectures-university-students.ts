@@ -12,7 +12,8 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
         'soundcore-liberty-4-nc',
         'soundcore-space-one-headphones',
         'soundcore-q20i-headphones',
-        'soundcore-a30i-earbuds'
+        'soundcore-a30i-earbuds',
+        'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
         'eq-settings-arabic-music-egyptian-earbuds-tuning',
@@ -76,6 +77,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>مثل سماعة <a href="/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;">Soundcore A30i</a> وهي الخيار الأفضل للحركة والنزول للجامعة.</li>
     <li>حجمها صغير جداً وسهلة الوضع في الجيب، وبتصميم خفي تقريباً.</li>
     <li>ممتازة لحضور المحاضرات السريعة في الكافيه أو المواصلات، بس لو ودنك حساسة ممكن تتعبك بعد 3 ساعات استخدام متواصل.</li>
+    <li>ولو بتدور على حل وسط وصلنا جديد: <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">سماعة ساوندكور A25i</a> بسعر 1370 ج.م — بتديك 28 ساعة تشغيل إجمالي مع علبة الشحن يعني تعدي أسبوع محاضرات كامل، ومعاها تقنية BassUp ومقاومة مياه IPX5. سماعة يومية متوازنة بسعر عاقل لميزانية الطالب.</li>
 </ul>
 
 <h2>ثالثاً: كيفية تفعيل ميزة الاقتران المتعدد (Multipoint Connection) لتسهيل المذاكرة</h2>
@@ -209,6 +211,7 @@ export const bluetooth_earbuds_online_lectures_university_students: BlogArticle 
     <li>Models like the ultra-compact <a href="/en/soundcore/audio/soundcore-a30i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A30i</a> are optimized for commuting and campus use.</li>
     <li>Their small footprint fits easily into pockets, offering a discreet profile.</li>
     <li>They are perfect for attending quick sessions in transit or libraries, though they may cause minor canal fatigue after 3 hours of continuous insertion.</li>
+    <li>For a middle-ground pick, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (1,370 EGP) delivers 28 hours of total battery with the charging case — enough for a full week of lectures — plus BassUp tuning and IPX5 water resistance, making it a balanced daily earbud at a sane price for student budgets.</li>
 </ul>
 
 <h2>3. Enabling Multipoint Connection for Seamless Device Switching</h2>

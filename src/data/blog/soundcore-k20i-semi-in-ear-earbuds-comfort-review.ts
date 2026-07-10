@@ -11,6 +11,7 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
         'soundcore-life-u2i-neckband',
         'soundcore-p20i-earbuds',
         'soundcore-a30i-earbuds',
+        'soundcore-a25i-earbuds',
         'anker-soundcore-r50i',
         'anker-soundcore-r50i-nc'
     ],
@@ -150,6 +151,8 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
         </tr>
     </tbody>
 </table>
+
+<p>وإذا كنت تبحث عن حل وسط بين الراحة والعزل بتصميم مغلق متوازن، فقد وصلتنا حديثاً <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بسعر 1,370 جنيه؛ تمنحك بطارية إجمالية تصل إلى 28 ساعة مع تقنية BassUp لتعزيز الباص ومقاومة IPX5 للتعرق، لتكون سماعة يومية متوازنة بسعر عاقل يقع بين الفئتين.</p>
 
 <h2>أداء الميكروفونات وجودة المكالمات والاجتماعات</h2>
 <p>تم تزويد سماعة K20i بميكروفونين مدمجين مدعومين بخوارزمية تقليل الضوضاء بالذكاء الاصطناعي (ClearVoice AI). في الغرف المغلقة والبيئات المكتبية الهادئة والمكاتب، يقدم الميكروفون أداءً ممتازاً بصوت نقي للغاية للطرف الآخر. أما في الشارع أو المواصلات الصاخبة، تحاول الخوارزمية كتم الأصوات الخلفية المحيطة، وتنجح في كتم ضوضاء المحركات الخفيفة والمكيفات، لكن الأصوات الحادة والعالية جداً مثل أبواق السيارات القريبة قد تظهر بشكل طفيف في الخلفية دون أن تؤثر على وضوح صوتك الأساسي.</p>
@@ -316,6 +319,8 @@ export const soundcore_k20i_semi_in_ear_earbuds_comfort_review: BlogArticle = {
         </tr>
     </tbody>
 </table>
+
+<p>If you want a middle ground between comfort and isolation in a balanced closed-fit design, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (EGP 1,370) is worth considering: 28 hours of total battery life, BassUp enhancement, and IPX5 sweat resistance make it a sensible daily earbud that sits neatly between these two tiers.</p>
 
 <h2>Microphone Quality and AI Call Filtering</h2>
 <p>The K20i is equipped with dual microphones backed by Anker\'s ClearVoice AI algorithm. In quiet office environments or home offices, your voice is captured with natural tone and excellent clarity. In noisy outdoor locations, the algorithm effectively suppresses continuous low-frequency noise (like air conditioning hums and distant engine rumble), although sudden sharp sounds (such as loud car horns) may still pass through at reduced levels. This performance makes the K20i highly reliable for remote school sessions and professional calls.</p>

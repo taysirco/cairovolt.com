@@ -12,7 +12,8 @@ export const charger_45w_anker_nano_vs_samsung_original: BlogArticle = {
         'anker-a2147-gan-charger-30w',
         'joyroom-25w-fast-charger',
         'anker-powerport-25w',
-        'joyroom-usb-c-cable-60w'
+        'joyroom-usb-c-cable-60w',
+        'anker-nano-45w-1c-pd'
     ],
     relatedArticles: [
         'best-iphone-chargers-mfi-approved-charging-speed',
@@ -54,6 +55,8 @@ export const charger_45w_anker_nano_vs_samsung_original: BlogArticle = {
     <li><strong>شرط كابل الـ 5 أمبير (5A Cable with E-Mark):</strong> الكابل القياسي المرفق في علبة سامسونج أو الكابلات الرخيصة مصمم لتحمل تيار أقصاه 3 أمبير. لتمرير تيار الـ 4.05 أمبير المطلوب لسرعة الـ 45 واط، **يجب استخدام كابل معتمد يحمل شريحة E-Mark الذكية ويدعم تيار 5 أمبير**. بدون هذا الكابل، سيتوقف الشحن عند 25 واط حتى لو كان رأس الشاحن أصلياً وقوته 100 واط.</li>
 </ul>
 
+<p>ولو بتدور على أوفر بوابة لسرعة الـ 45 واط الحقيقية، وصلنا حديثاً في كايرو فولت <a href="/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">شاحن انكر نانو 45W 1C</a> بسعر 775 ج.م — بمنفذ واحد وبيدعم بروتوكول PPS بالكامل، وبيشحن سامسونج S26 Ultra بكامل سرعة Super Fast Charging 2.0 من غير ما تدفع زيادة في منافذ مش محتاجها.</p>
+
 <h2>ثانياً: مقارنة تقنية GaN II (أنكر نانو) ضد السيليكون (سامسونج الأصلي)</h2>
 <p>شاحن <strong>Anker Nano 45W</strong> يعتمد بشكل كامل على الجيل الثاني من أشباه موصلات نتريد الغاليوم (GaN II). هذه المادة تتيح كفاءة طاقة أعلى بكثير من السيليكون التقليدي المستخدم في شاحن سامسونج الأصلي (EP-T4510)، مما يؤدي لنتائج معملية واضحة:</p>
 <ul style="line-height:2;">
@@ -61,6 +64,8 @@ export const charger_45w_anker_nano_vs_samsung_original: BlogArticle = {
     <li><strong>الكفاءة الحرارية (درجة الحرارة):</strong> GaN II يقلل الفقد الكهربائي الذي يتحول لحرارة. تحت الشحن المستمر بأقصى قوة (45W)، سجل معملنا درجة حرارة 39 درجة مئوية لشاحن أنكر، مقابل 44 درجة مئوية لشاحن سامسونج الأصلي. الحرارة الأقل تعني عمراً أطول للمكثفات الداخلية للشاحن.</li>
     <li><strong>التوافق مع الأجهزة الأخرى:</strong> كلا الشاحنين يدعمان شحن أجهزة آيفون وآيباد وحتى أجهزة اللابتوب الخفيفة مثل MacBook Air بكفاءة ممتازة، ولكن أنكر نانو يوفر استقراراً أعلى للفولت بفضل دوائر التحكم الرقمية المتقدمة.</li>
 </ul>
+
+<p>وللي الحجم عنده أهم من أي حاجة تانية، نزل عندنا حديثاً <a href="/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">شاحن انكر نانو برو 45W</a> بسعر 790 ج.م — ده أصغر شاحن 45 واط بتقنية GaN في تشكيلتنا، وبيشحن الموبايل واللابتوب الخفيف بأقصى سرعة وهو تقريباً بحجم شاحن الـ 20 واط القديم.</p>
 
 <h2>ثالثاً: جدول المقارنة الفنية التفصيلية بمصر لعام 2026</h2>
 <p>فيما يلي مقارنة معملية شاملة قمنا بإعدادها في كايرو فولت لمساعدتك على المفاضلة الفنية:</p>
@@ -183,6 +188,8 @@ export const charger_45w_anker_nano_vs_samsung_original: BlogArticle = {
     <li><strong>The 5A Cable Requirement (with E-Mark):</strong> Standard USB-C cables, including those bundled with many accessories, are only rated for 3A. To safely carry the 4.05A current required for 45W charging, **you must use a certified USB-C to USB-C cable equipped with an E-Mark chip rated for 5A**. Without this cable, charging will bottleneck at 25W.</li>
 </ul>
 
+<p>If you are looking for the most affordable gateway to genuine 45W charging, we have recently stocked the single-port <a href="/en/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">Anker Nano 45W (1-Port)</a> at 775 EGP — it carries the full 45W PPS profile and drives the Samsung S26 Ultra at its full Super Fast Charging 2.0 speed, without paying extra for ports you may not need.</p>
+
 <h2>2. GaN II Technology (Anker) vs. Traditional Silicon (Samsung)</h2>
 <p>The <strong>Anker Nano 45W</strong> uses Gallium Nitride II (GaN II) semiconductors. GaN replaces traditional silicon, offering significantly higher power efficiency. This leads to distinct advantages in our lab testing:</p>
 <ul style="line-height:2;">
@@ -190,6 +197,8 @@ export const charger_45w_anker_nano_vs_samsung_original: BlogArticle = {
     <li><strong>Thermal Management:</strong> GaN II reduces energy loss wasted as ambient heat. During a full charge cycle at 45W, the Anker Nano recorded a peak surface temperature of 39°C, whereas the Samsung adapter reached 44°C. Cooler operation extends the lifespan of the internal capacitors.</li>
     <li><strong>Universal Compatibility:</strong> Both chargers can power iPads, iPhones, and lightweight laptops like the MacBook Air. However, the Anker Nano demonstrates slightly better voltage ripple suppression under high load.</li>
 </ul>
+
+<p>For those who prioritize portability above all, the newly stocked <a href="/en/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">Anker Nano Pro 45W</a> (790 EGP) is the smallest 45W GaN charger in our lineup, delivering full-speed charging for phones and light laptops in a footprint close to an old 20W brick.</p>
 
 <h2>3. Technical Specs Comparison Table</h2>
 <p>Here is how the chargers compare in our lab tests:</p>

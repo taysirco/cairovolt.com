@@ -11,7 +11,9 @@ export const samsung_s_ultra_45w_fast_charging_accessories: BlogArticle = {
         'joyroom-type-c-to-type-c-cable',
         'joyroom-power-bank-20000',
         'joyroom-power-bank-10000',
-        'anker-737-powerbank'
+        'anker-737-powerbank',
+        'anker-nano-45w-1c-pd',
+        'anker-nano-pro-45w-a2692'
     ],
     relatedArticles: [
         'does-fast-charging-damage-battery-truth',
@@ -74,6 +76,8 @@ export const samsung_s_ultra_45w_fast_charging_accessories: BlogArticle = {
 <p>للحصول على الشحن السريع جداً 2.0 بأمان وتجنب سخونة الهاتف، يجب استخدام شاحن يدعم بروتوكولات الأمان المتقدمة:</p>
 <ul>
     <li>🔋 <strong>شاحن متوافق بالكامل مع SFC 2.0:</strong> ننصح باستخدام شاحن من فئة أنكر 45 واط PPS أو شواحن جويروم الاحترافية متعددة المنافذ التي تدعم تقنية PPS وتوزيع الطاقة الذكي لحماية الهاتف من التغيرات المفاجئة في الجهد الكهربائي بمصر.</li>
+    <li>⚡ <strong>شاحن انكر نانو 45 واط بمنفذ واحد:</strong> وصلنا حديثاً <a href="/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">شاحن انكر نانو 45W 1C</a> بسعر 775 جنيه؛ بيقدم 45 واط ببروتوكول PPS كامل، يعني بيشغّل Super Fast Charging 2.0 بكامل سرعتها على سامسونج S26 Ultra وباقي فئة S Ultra من غير أي تنازلات.</li>
+    <li>💼 <strong>شاحن انكر نانو برو 45 واط:</strong> ولو بتحب الشنطة الخفيفة، <a href="/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">شاحن انكر نانو برو 45W</a> بسعر 790 جنيه هو أصغر شاحن 45 واط بتقنية GaN؛ حجمه بيختفي في الجيب وبيشحن موبايلك ولابتوبك الخفيف بأقصى سرعة من نفس الرأس.</li>
 </ul>
 
 <h3>2. باور بانك ذكي فائق القوة</h3>
@@ -182,6 +186,8 @@ export const samsung_s_ultra_45w_fast_charging_accessories: BlogArticle = {
 <p>To charge at full speed safely and minimize thermal stress, use a charger with advanced safety protections:</p>
 <ul>
     <li>🔋 <strong>SFC 2.0 Compliant Chargers:</strong> We recommend using Anker\'s 45W PPS wall chargers or multi-port Joyroom chargers that support PPS and dynamically allocate power to protect against voltage fluctuations.</li>
+    <li>⚡ <strong>Anker Nano 45W (1-Port):</strong> Newly stocked at CairoVolt for 775 EGP, the <a href="/en/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">Anker Nano 45W (1-Port)</a> delivers full 45W PPS output, driving the Samsung S26 Ultra — and the rest of the S Ultra family — at complete Super Fast Charging 2.0 speed.</li>
+    <li>💼 <strong>Anker Nano Pro 45W:</strong> For minimalist carry, the <a href="/en/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">Anker Nano Pro 45W</a> (790 EGP) is the smallest 45W GaN charger we stock, powering phones and lightweight laptops at full speed from a plug that vanishes into a pocket.</li>
 </ul>
 
 <h3>High-Performance Power Banks</h3>

@@ -11,7 +11,9 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
         'anker-powerline-usb-c-lightning',
         'joyroom-type-c-to-type-c-cable',
         'joyroom-power-bank-20000',
-        'joyroom-jr-t03-wireless-earbuds'
+        'joyroom-jr-t03-wireless-earbuds',
+        'anker-310-usb-c-lightning-cable',
+        'anker-powerport-iii-20w-a2639'
     ],
     relatedArticles: [
         'does-fast-charging-damage-battery-truth',
@@ -83,11 +85,13 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 <p>تمثل شواحن نتريد الغاليوم (GaN) القفزة التكنولوجية الأهم في عالم الشحن حالياً. الشواحن التقليدية تعتمد على السيليكون الذي يفقد جزءاً كبيراً من الطاقة في صورة حرارة، مما يرفع درجة حرارة الشاحن والموبايل المتصل به. أما شواحن GaN فتستخدم مركبات شبه موصلة جديدة قادرة على تمرير تيار كهربائي أعلى بكثير بكفاءة تبلغ 95%، مما يقلل الفاقد الحراري بشكل شبه كامل ويسمح بإنتاج شواحن بالغة الصغر بقدرات شحن هائلة.</p>
 <ul>
     <li>⚡ <strong>شاحن جويروم 30 واط السريع:</strong> مثل <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">شاحن جويروم 30 واط السريع</a>. يدعم الشاحن تقنية USB-PD بالجهد والتيار المناسبين (9V/3A) لشحن كافة موديلات الايفون بسرعتها القصوى، مع حماية الهاتف من الحرارة والتيار الزائد.</li>
+    <li>⚡ <strong>كيوب انكر 20 واط للايفون:</strong> لو معاك ايفون 11 أو 12 أو أي طراز عادي بيكتفي بقدرة 20 واط، فـ <a href="/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort III 20W</a> بسعر 520 ج.م يعتبر بديلاً رسمياً لشاحن أبل بنص السعر تقريباً، بنفس أمان بروتوكول PD الكامل.</li>
 </ul>
 
 <h3>كابلات الشحن المعتمدة حسب المنفذ</h3>
 <ul>
     <li>🔌 <strong>لهواتف منفذ Lightning:</strong> ننصح بـ <a href="/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">كابل أنكر باورلاين تايب سي إلى لايتنينج</a> الحاصل على رخصة MFi الرسمية لضمان سلامة اللوحة الأم والرقاقات الداخلية.</li>
+    <li>🔌 <strong>خيار MFi إضافي وصلنا حديثاً:</strong> <a href="/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">كابل انكر 310 USB-C لايتننج</a> بسعر 730 ج.م؛ معتمد MFi رسمياً وبيوصل الايفون من 0 لـ 50% في 30 دقيقة بس مع أي شاحن PD.</li>
     <li>🔌 <strong>لهواتف منفذ USB-C:</strong> نوصي بـ <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">كابل جويروم تايب سي إلى تايب سي</a> المتين الذي يتحمل التيارات العالية ويدعم نقل البيانات السريع.</li>
 </ul>
 
@@ -206,11 +210,13 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
 <p>As a result, GaN chargers lose very little power to heat, allowing them to remain compact while delivering high wattages. This makes GaN blocks from brands like Joyroom and Anker cooler, safer, and much smaller than traditional stock silicon chargers.</p>
 <ul>
     <li>⚡ <strong>Joyroom 30W Fast Charger:</strong> The <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W Fast Charger</a> supports the standard USB-PD profile (9V/3A) needed to charge all iPhone models at their peak safe rate, protecting against overcurrent and thermal spikes.</li>
+    <li>⚡ <strong>Anker 20W Cube for iPhone:</strong> If your iPhone 11, 12, or any standard model tops out at 20W, the <a href="/en/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">Anker PowerPort III 20W</a> at 520 EGP is a compact 20W PD cube — an Apple-adapter alternative at roughly half the price, with full PD safety.</li>
 </ul>
 
 <h3>Certified Cables by Port Type</h3>
 <ul>
     <li>🔌 <strong>For Lightning iPhones:</strong> We recommend the MFi-certified <a href="/en/anker/cables/anker-powerline-usb-c-lightning" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C to Lightning Cable</a> to guarantee motherboard safety.</li>
+    <li>🔌 <strong>Newly Stocked MFi Alternative:</strong> The <a href="/en/anker/cables/anker-310-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">Anker 310 USB-C to Lightning</a> cable (730 EGP) is MFi certified and takes an iPhone from 0 to 50% in just 30 minutes on any PD charger.</li>
     <li>🔌 <strong>For USB-C iPhones:</strong> We recommend the high-durability <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#2563eb;font-weight:600;">Joyroom Type-C to Type-C Cable</a> which supports high current delivery.</li>
 </ul>
 

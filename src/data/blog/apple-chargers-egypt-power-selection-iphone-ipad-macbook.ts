@@ -11,7 +11,9 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
         'joyroom-30w-fast-charger',
         'anker-powerport-25w',
         'anker-a2147-gan-charger-30w',
-        'joyroom-usb-c-cable-60w'
+        'joyroom-usb-c-cable-60w',
+        'anker-prime-a2688-100w-charger',
+        'anker-powerport-iii-20w-a2639'
     ],
     relatedArticles: [
         'samsung-charger-prices-egypt-all-models',
@@ -86,8 +88,10 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 <p>إذا كنت تجد أسعار شواحن ابل الأصلية مرتفعة، فإن هناك بدائل عالمية معتمدة وآمنة تماماً تدعم بروتوكولات ابل وتقدم أداءً ممتازاً بضمان أطول وبنصف السعر:</p>
 <ol style="line-height:2;">
     <li><strong>أنكر نانو 30 واط (Anker Nano 30W):</strong> بديل ممتاز لشاحن ابل 30 واط، يتميز بحجم أصغر بكثير وتقنية GaN الموفرة للطاقة وحماية حرارية ذكية، وسعره يتراوح بين <strong>680 إلى 790 جنيه</strong> بضمان 18 شهراً.</li>
+    <li><strong><a href="/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort III 20W</a>:</strong> كيوب 20 واط PD مثالي للآيفون — بديل معتمد لشاحن ابل 20 واط الأصلي بنص السعر تقريباً، وسعره <strong>520 جنيه</strong> فقط مع نفس سرعة الشحن الكاملة.</li>
     <li><strong>شاحن جويروم 25 واط أو 30 واط (Joyroom):</strong> الخيار الاقتصادي الأفضل بمصر، يوفر كفاءة شحن كاملة للآيفون والآيباد، وسعره يتراوح بين <strong>520 إلى 650 جنيه</strong> مع دوائر حماية مدمجة.</li>
     <li><strong>شاحن أنكر غان برايم 65 واط (Anker GaNPrime 65W):</strong> شاحن ثلاثي المنافذ رائع، يستطيع شحن الماك بوك والآيفون والآيباد معاً بتوزيع طاقة ذكي، وسعره يتراوح بين <strong>1800 إلى 2200 جنيه</strong>، وهو بديل اقتصادي هائل لشواحن الماك بوك المرتفعة السعر.</li>
+    <li><strong><a href="/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">شاحن انكر برايم 100W</a>:</strong> قوة 100 واط بتقنية GaN مع 3 منافذ — يشحن لابتوب وموبايلين في نفس الوقت، وسعره <strong>1999 جنيه</strong>، يعني بديل عملي جداً لشاحن ماك بوك 96 واط الأصلي اللي سعره بيتخطى الـ 3200 جنيه.</li>
 </ol>
 
 <h2>ثامناً: الفروق الهندسية الدقيقة لكشف شاحن ابل 20 واط المغشوش</h2>
@@ -195,8 +199,10 @@ export const apple_chargers_egypt_power_selection_iphone_ipad_macbook: BlogArtic
 <p>If you prefer not to buy original Apple chargers, these third-party brands offer certified, safe adapters at lower prices with local warranty support:</p>
 <ol style="line-height:2;">
     <li><strong>Anker Nano 30W:</strong> A very compact alternative to Apple\'s 30W adapter. Built with GaN technology, it runs cooler and includes an 18-month local warranty, priced between <strong>680 and 790 EGP</strong>.</li>
+    <li><strong><a href="/en/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">Anker PowerPort III 20W</a>:</strong> A compact 20W PD cube for iPhones — a certified alternative to Apple\'s 20W adapter at roughly half the price, available for <strong>520 EGP</strong>.</li>
     <li><strong>Joyroom 25W / 30W Chargers:</strong> A reliable budget option in Egypt, offering full speed charging for iPhones and iPads, priced between <strong>520 and 650 EGP</strong>.</li>
     <li><strong>Anker GaNPrime 65W (3 Ports):</strong> A multi-port charger that can charge a MacBook, iPad, and iPhone at the same time, priced between <strong>1,800 and 2,200 EGP</strong>.</li>
+    <li><strong><a href="/en/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">Anker Prime 100W</a>:</strong> A 100W GaN charger with 3 ports, capable of charging a laptop and two phones simultaneously — a practical alternative to Apple\'s 96W MacBook adapter, priced at <strong>1,999 EGP</strong>.</li>
 </ol>
 
 <h2>8. Spotting Counterfeit Apple 20W Chargers</h2>

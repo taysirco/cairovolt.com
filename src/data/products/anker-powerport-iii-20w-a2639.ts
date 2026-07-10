@@ -1,7 +1,7 @@
 // Product: anker-powerport-iii-20w-a2639
 export const anker_powerport_iii_20w_a2639 = {
         slug: "anker-powerport-iii-20w-a2639",
-        sku: "ANK-WC-A2639",
+        sku: "AC11",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "",

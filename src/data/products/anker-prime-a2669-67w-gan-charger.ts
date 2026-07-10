@@ -1,7 +1,7 @@
 // Product: anker-prime-a2669-67w-gan-charger
 export const anker_prime_a2669_67w_gan_charger = {
         slug: "anker-prime-a2669-67w-gan-charger",
-        sku: "ANK-WC-A2669",
+        sku: "AC07",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "",

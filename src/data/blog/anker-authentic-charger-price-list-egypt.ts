@@ -11,6 +11,8 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
         'anker-a2741-charger-30w',
         'anker-nano-45w-smart-display-charger',
         'anker-a2147-gan-charger-30w',
+        'anker-prime-a2688-100w-charger',
+        'anker-prime-a2669-67w-gan-charger',
         'joyroom-25w-fast-charger'
     ],
     relatedArticles: [
@@ -125,6 +127,7 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 
 <h3>شواحن الحائط 20-30W (350-650 جنيه)</h3>
 <p>ده الشاحن الأساسي للموبايل. بيشحن iPhone أو Samsung بالسرعة الكاملة. السعر بيبدأ من 350 جنيه للموديلات البسيطة ويوصل 650 للـ GaN اللي بيسخن أقل. لو شايف نفس الموديل بـ 150-200 جنيه في السوق أو أونلاين — ده مش ممكن يكون أصلي.</p>
+<p>من الموديلات اللي نزلت عندنا حالياً في الفئة دي: <a href="/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">شاحن انكر PowerPort III 20W</a> بـ 520 جنيه — كيوب 20 واط PD للايفون، بديل رسمي لشاحن أبل بنص السعر تقريباً. ولو حابب تدخل عالم GaN من أرخص باب، <a href="/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">شاحن انكر زولو 30W</a> بـ 599 جنيه هو أرخص 30 واط GaN أصلي — بيوصّل ايفون 17 من 0 لـ 50% في حوالي 25 دقيقة.</p>
 
 <div class="expert-callout" style="background:#f9fafb;border:1px solid #e5e7eb;border-right:4px solid #f59e0b;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-size:15px;color:#b45309;font-weight:bold;">⚙️ مثال عملي — فرق الحجم مع GaN:</p>
@@ -135,9 +138,11 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 
 <h3>شواحن GaN 45-65W (750-1,200 جنيه)</h3>
 <p>هنا بيدخل GaN بشكل واضح. الشاحن في حجم صغير بيطلع 45W على USB-C واحد — كفاية تشحن MacBook Air أو iPad Pro بسرعة. بعض الموديلات زي <a href="/anker/chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Nano 45W Smart Display</a> فيها شاشة بتعرض الواط الفعلي اللي بيتشحن — ميزة مفيدة جداً للتحقق.</p>
+<p>وفي نفس الفئة وصلنا موديلين جداد يستحقوا نظرة: <a href="/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">شاحن انكر نانو برو 45W</a> بـ 790 جنيه — أصغر شاحن 45 واط GaN، بيشحن الموبايل ولابتوب خفيف بأقصى سرعة. ولمستخدمي سامسونج تحديداً، <a href="/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">شاحن انكر نانو 45W 1C</a> بـ 775 جنيه بيدعم PPS — يعني S26 Ultra بيشحن بكامل سرعة Super Fast Charging 2.0.</p>
 
 <h3>شواحن GaN 100W+ متعدد المنافذ (1,400-2,200 جنيه)</h3>
 <p>ده للمستخدم اللي محتاج يشحن لاب توب + موبايلين + تابلت من مكان واحد. 4 منافذ (عادةً 2 USB-C + 2 USB-A)، وبعض الموديلات بتقدر توزع الطاقة ذكياً حسب الجهاز المتصل. السعر مبرر تماماً لحجم المكونات الداخلية.</p>
+<p>أحدث ما وصل كايرو فولت في الفئة دي: <a href="/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">شاحن انكر برايم 100W</a> بـ 1,999 جنيه — 100 واط GaN بـ3 منافذ، يعني لابتوب وموبايلين بيشحنوا في نفس الوقت من قطعة واحدة. ولو الـ 100 واط أكتر من احتياجك، <a href="/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">شاحن انكر برايم 67W</a> بـ 1,970 جنيه بيوزّع 67 واط على 3 منافذ — موزع طاقة كامل للمكتب والسفر.</p>
 
 <h2>فهم نطاقات أسعار شواحن السيارة</h2>
 
@@ -392,6 +397,8 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
     <li style="margin-bottom:12px;">⚡ <strong>Fast charging iPhone 14+ or Samsung S22+:</strong> 20W is the minimum for fast charging. Going to 30-45W is only 10-15% faster — not a dramatic difference.</li>
 </ul>
 
+<p>For concrete, currently stocked options: the <a href="/en/anker/wall-chargers/anker-powerport-iii-20w-a2639" style="color:#2563eb;font-weight:600;">Anker PowerPort III 20W</a> at 520 EGP is a compact PD cube for iPhone — an Apple-adapter alternative at roughly half the price — while the <a href="/en/anker/wall-chargers/anker-zolo-30w-a2698-charger" style="color:#2563eb;font-weight:600;">Anker Zolo 30W</a> at 599 EGP is the cheapest genuine 30W GaN available, taking an iPhone 17 from 0 to 50% in about 25 minutes. If you land on the 45W side, the <a href="/en/anker/wall-chargers/anker-nano-pro-45w-a2692" style="color:#2563eb;font-weight:600;">Anker Nano Pro 45W</a> at 790 EGP is the smallest 45W GaN in the lineup — full speed for phones and light laptops — and Samsung owners should note the <a href="/en/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">Anker Nano 45W (1-Port)</a> at 775 EGP, whose PPS support drives the Galaxy S26 Ultra at full Super Fast Charging 2.0 speed.</p>
+
 <h2>Understanding Car Charger Price Points</h2>
 
 <p>Car chargers generally range between 350 EGP and 650 EGP. The price depends on the housing material (aluminum vs. polycarbonate plastic) and the total wattage output. Cheap generic car chargers can ruin your phone's battery health within months because they do not protect against the electrical noise and voltage surges native to vehicle alternators. Anker car chargers utilize PowerIQ and VoltageBoost technologies to deliver stable voltage despite fluctuations in the car's alternator output, making them a very safe investment.</p>
@@ -407,6 +414,8 @@ export const anker_authentic_charger_price_list_egypt: BlogArticle = {
 </ul>
 
 <p>Newer generations require complex engineering and costlier sourcing, explaining why a premium GaNPrime 65W charger costs around 1,200 EGP, whereas older silicon or basic adapters are sold at half the price.</p>
+
+<p>Both of the newest Prime-series models have just arrived at CairoVolt: the <a href="/en/anker/wall-chargers/anker-prime-a2688-100w-charger" style="color:#2563eb;font-weight:600;">Anker Prime 100W</a> at 1,999 EGP pushes 100W of GaN through 3 ports — enough to charge a laptop plus two phones simultaneously — while the <a href="/en/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">Anker Prime 67W</a> at 1,970 EGP spreads 67W across 3 ports, working as a full desk and travel power hub.</p>
 
 <h2>The Hidden Costs of Parallel Imports in the Egyptian Market</h2>
 

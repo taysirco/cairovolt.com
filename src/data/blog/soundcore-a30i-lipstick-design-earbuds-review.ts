@@ -12,7 +12,8 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
         'soundcore-liberty-buds',
         'soundcore-p25i-earbuds',
         'soundcore-liberty-4-nc',
-        'soundcore-v20i-earbuds'
+        'soundcore-v20i-earbuds',
+        'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
         'soundcore-p20i-earbuds-3-months-real-use-review',
@@ -98,6 +99,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
     <li><strong>الملاءمة للجيوب والحقائب:</strong> التصميم الأسطواني ينزلق بسلاسة متناهية داخل حقائب اليد الصغيرة جداً دون أن يشغل مساحة تذكر، ولكنه قد يسبب بروزاً واضحاً ومزعجاً إذا وُضع في جيوب البنطلونات الضيقة للرجال مقارنة بالعلب المسطحة.</li>
     <li><strong>عمر آلية السحب المغناطيسي:</strong> على عكس المفصلات التقليدية التي قد ترتخي مع مرور الوقت وكثرة الاستخدام، تعتمد آلية السحب في A30i على مجرى انزلاقي ومغناطيس قوي. هذا يقلل من الاحتكاك الميكانيكي ويطيل العمر الافتراضي لعلبة الشحن بشكل كبير.</li>
 </ul>
+<p>وإذا لم يكن التصميم الأسطواني أولوية بالنسبة لكِ وتفضلين بطارية أطول بسعر أقل، فقد وصلت حديثاً إلى مخازن كايرو فولت <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بسعر 1370 جنيه؛ تمنحكِ 28 ساعة تشغيل إجمالية مع تقنية BassUp لتعزيز الباس ومقاومة IPX5 للماء والعرق — سماعة يومية متوازنة بسعر عاقل فعلاً.</p>
 
 <h2>أداء عزل الضوضاء النشط (ANC) — هل هو فعال حقاً؟</h2>
 <p>خلافاً للشائعات التي تدعي عدم وجود ميزة العزل، فإن سماعة Soundcore A30i مزودة بنظام عزل ضوضاء نشط ذكي يعتمد على خوارزمية متكيفة وميكروفونات مزدوجة في كل قطعة لالتقاط الأصوات الخارجية ومعاكستها:</p>
@@ -239,6 +241,7 @@ export const soundcore_a30i_lipstick_design_earbuds_review: BlogArticle = {
     <li><strong>Pocket and Purse Portability:</strong> The cylindrical shape slides seamlessly into tiny clutches and makeup bags. However, it creates a more prominent bulge when carried in tight jeans pockets compared to flat case alternatives.</li>
     <li><strong>Slide Mechanism Durability:</strong> Standard hinges can loosen over months of opening. The A30i slide mechanism uses guided rails and magnetic clasps, reducing mechanical wear and enhancing product lifespan.</li>
 </ul>
+<p>If the lipstick styling is not a priority for you and you would rather trade it for longer battery life at a lower price, the newly stocked <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> (1,370 EGP) is worth considering — 28 hours of total battery, BassUp enhancement, and IPX5 water resistance make it a balanced daily earbud at a sane price.</p>
 
 <h2>Active Noise Cancellation (ANC) — How Effective is It?</h2>
 <p>Unlike false reports claiming a lack of ANC, the Soundcore A30i is equipped with an active noise cancellation system that utilizes adaptive algorithms and dual feedback mics on each bud to monitor and counter ambient noise:</p>

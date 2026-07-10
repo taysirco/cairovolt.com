@@ -1,7 +1,7 @@
 // Product: anker-zolo-usb-c-braided-cable
 export const anker_zolo_usb_c_braided_cable = {
         slug: "anker-zolo-usb-c-braided-cable",
-        sku: "ANK-CB-A81D6",
+        sku: "AK05",
         brand: "Anker",
         categorySlug: "cables",
         gtin: "",

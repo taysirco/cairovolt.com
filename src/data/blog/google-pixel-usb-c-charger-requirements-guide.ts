@@ -9,6 +9,7 @@ export const google_pixel_usb_c_charger_requirements_guide: BlogArticle = {
     relatedProducts: [
         'anker-a2147-gan-charger-30w',
         'anker-nano-45w',
+        'anker-nano-45w-1c-pd',
         'joyroom-30w-fast-charger',
         'joyroom-type-c-to-type-c-cable',
         'anker-powerline-usb-c-usb-c'
@@ -66,6 +67,7 @@ export const google_pixel_usb_c_charger_requirements_guide: BlogArticle = {
 <ul style="line-height:2;">
     <li><strong>البطل الذهبي (Anker Nano 30W):</strong> الشاحن الأفضل والأكثر ملاءمة لمعظم أجهزة بيكسل (Pixel 7, 8, 8a, 9) في مصر. بيتميز بحجمه البالغ الصغر بفضل تكنولوجيا GaN المتطورة والمتقدمة، ويدعم بروتوكول PPS بالكامل دون أي مشاكل، مما يمنحك سرعة شحن 27 واط كاملة مع حماية ActiveShield الفائقة والمستمرة ضد السخونة والحرارة المرتفعة.</li>
     <li><strong>البطل الأقوى (Anker Nano 45W):</strong> الخيار الإلزامي والذكي لمالكي هاتف Pixel 9 Pro XL الرائد للاستفادة من سرعة الشحن البالغة 37 واط بالكامل ودون أي تراجع. الشاحن يدعم PPS بقوة 45 واط كاملة، وهو خيار مستقبلي ممتاز يدعم شحن اللابتوب أو التابلت أو النوت بوك الخاص بك أيضاً بأمان كامل وحماية ذكية.</li>
+    <li><strong>الوافد الجديد الموفر (Anker Nano 45W 1C):</strong> وصل حديثاً عندنا في كايرو فولت <a href="/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">شاحن انكر نانو 45W 1C</a> بسعر 775 جنيه — بيديك نفس قوة الـ 45 واط PPS المطلوبة لشحن Pixel 9 Pro XL بأقصى سرعته لكن بمنفذ واحد وسعر أوفر، وكمان لو في بيتكم سامسونج S26 Ultra هيشحنه بكامل سرعة Super Fast Charging 2.0 من غير أي تنازلات.</li>
     <li><strong>الخيار الاقتصادي الذكي (Joyroom 30W):</strong> إذا كنت تبحث عن شاحن PPS ممتاز وبسعر اقتصادي جداً يناسب الميزانية، فإن شاحن Joyroom بقوة 30 واط يقدم توافقاً ممتازاً مع بروتوكولات بيكسل، ويعطيك سرعة الشحن الكاملة والآمنة بأمان معقول وموثوقية عالية لحماية الهاتف.</li>
 </ul>
 
@@ -183,6 +185,7 @@ export const google_pixel_usb_c_charger_requirements_guide: BlogArticle = {
 <ul style="line-height:2;">
     <li><strong>The Best Overall Pick (Anker Nano 30W):</strong> The <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 30W GaN charger</a> is the ultimate third-party companion for Pixel 7, 8, 8a, and 9 models. It utilizes advanced GaN technology to pack a full 30W PPS output into an incredibly tiny form factor, equipped with ActiveShield real-time temperature monitoring for maximum safety.</li>
     <li><strong>The High-Performance Pick (Anker Nano 45W):</strong> The <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W GaN charger</a> is mandatory for Pixel 9 Pro XL owners to unlock the full 37W charging speed. It is also highly versatile, capable of charging laptops, notebooks, and tablets safely at high wattages.</li>
+    <li><strong>The New Single-Port Value Pick (Anker Nano 45W 1-Port):</strong> Newly stocked at CairoVolt, the <a href="/en/anker/wall-chargers/anker-nano-45w-1c-pd" style="color:#2563eb;font-weight:600;">Anker Nano 45W (1-Port)</a> delivers the same full 45W PPS output required to max out the Pixel 9 Pro XL at just 775 EGP — and that same 45W PPS profile also drives the Samsung S26 Ultra at its full Super Fast Charging 2.0 speed, making it a smart pick for multi-flagship households.</li>
     <li><strong>The Smart Budget Pick (Joyroom 30W):</strong> The <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W fast charger</a> is a highly cost-effective, wallet-friendly alternative. It fully supports the required PPS charging protocols, delivering full fast-charging speeds to most Pixel models at a much lower price point without sacrificing safety.</li>
 </ul>
 

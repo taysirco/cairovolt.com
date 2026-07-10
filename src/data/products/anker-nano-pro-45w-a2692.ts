@@ -1,7 +1,7 @@
 // Product: anker-nano-pro-45w-a2692
 export const anker_nano_pro_45w_a2692 = {
         slug: "anker-nano-pro-45w-a2692",
-        sku: "ANK-WC-A2692",
+        sku: "AC08",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "",

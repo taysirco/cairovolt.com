@@ -12,7 +12,8 @@ export const train_bus_long_trip_charging_accessories_egypt: BlogArticle = {
         'anker-powercore-20000',
         'joyroom-power-bank-20000',
         'anker-a2147-gan-charger-30w',
-        'joyroom-3-in-1-data-cable'
+        'joyroom-3-in-1-data-cable',
+        'anker-prime-fusion-a1339-9600mah-65w'
     ],
     relatedArticles: [
         'teacher-accessories-charger-earbuds-power-bank',
@@ -76,6 +77,7 @@ export const train_bus_long_trip_charging_accessories_egypt: BlogArticle = {
 <h2>ثالثاً: شاحن GaN السريع — استغلال فترة "الاستراحة" الذكي</h2>
 <p>أتوبيسات السفر الطويل تقف عادة في استراحات بينية (مثل استراحات طريق الجيش أو طريق الغردقة) لمدة لا تتجاوز 15 إلى 20 دقيقة. هذه الفترة القصيرة هي فرصتك الذهبية لإعادة تغذية هاتفك أو الباوربانك بالكهرباء من منافذ كافيهات الاستراحة.</p>
 <p>الشاحن التقليدي البطيء لن يشحن سوى 5% في هذه المدة، لكن لو معاك شاحن GaN سريع وصغير مثل **Anker Nano 30W** (الطراز A2147)، هتقدر تشحن موبايلك من 0% لـ 50% في الـ 20 دقيقة دي بالظبط بفضل دعمه لبروتوكولات الشحن السريع PD و PPS. حجم الشاحن الصغير بيخليه يدخل في أي جيب ومبيخدش أي مساحة في شنطة يدك.</p>
+<p>ولو عايز تختصر أكتر وتشيل قطعة واحدة بدل اتنين في الشنطة، وصلنا حديثاً <a href="/anker/power-banks/anker-prime-fusion-a1339-9600mah-65w" style="color:#2563eb;font-weight:600;">انكر برايم فيوجن 65W</a> بسعر 3,200 ج.م — شاحن حائط 65 واط وباور بانك 9600mAh في جهاز واحد: توصله في فيشة الاستراحة يشحن موبايلك بأقصى سرعة، وأول ما الأتوبيس يتحرك تفصله وتكمل شحن من بطاريته الداخلية وإنت على الطريق.</p>
 <p>ولمعرفة كيفية اختيار الكابل المناسب الذي يتحمل بهدلة السفر، تصفح دليلنا حول <a href="/blog/pd-qc-pps-fast-charging-abbreviations-explained" style="color:#2563eb;">بروتوكولات الشحن السريع واختصاراتها الفنية</a>.</p>
 
 <h2>رابعاً: خمسة قوانين كهربائية لحماية أجهزتك أثناء السفر</h2>
@@ -191,6 +193,7 @@ export const train_bus_long_trip_charging_accessories_egypt: BlogArticle = {
 <h2>3. Fast GaN Charger: Maximizing Highway Rest Stops</h2>
 <p>Highway buses usually stop at rest areas for only 15 to 20 minutes. This short window is your opportunity to recharge your phone or top up your power bank using the outlets at highway cafes.</p>
 <p>A standard slow charger won't do much in 15 minutes, but a compact GaN charger like the **Anker Nano 30W** (A2147) can charge your phone from 0% to 50% in that exact period. Its small size means you can keep it in your pocket or small travel organizer pouch without notice.</p>
+<p>If you would rather carry one device instead of two, the newly stocked <a href="/en/anker/power-banks/anker-prime-fusion-a1339-9600mah-65w" style="color:#2563eb;font-weight:600;">Anker Prime Fusion 65W</a> (3,200 EGP) combines a 65W wall charger and a 9,600mAh power bank in one device: plug it in at the rest stop to fast-charge your phone at full speed, then unplug it and continue charging from its built-in battery once the bus gets moving.</p>
 <p>To understand how to pick durable cables that survive travel wear and tear, check out our guide on <a href="/en/blog/pd-qc-pps-fast-charging-abbreviations-explained" style="color:#2563eb;font-weight:600;">fast-charging protocols and standards</a>.</p>
 
 <h2>4. Five Electrical Safety Rules for Traveling</h2>

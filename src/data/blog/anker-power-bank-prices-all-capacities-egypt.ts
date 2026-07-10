@@ -11,7 +11,9 @@ export const anker_power_bank_prices_all_capacities_egypt: BlogArticle = {
         'anker-powercore-20000',
         'anker-powercore-26800',
         'anker-zolo-a110d-10000',
-        'anker-zolo-a110e-20000'
+        'anker-zolo-a110e-20000',
+        'anker-prime-a1336-20000mah-power-bank',
+        'anker-a1637-wukong-3-in-1-power-bank'
     ],
     relatedArticles: [
         'anker-power-bank-20000mah-price-egypt-guide',
@@ -105,6 +107,13 @@ export const anker_power_bank_prices_all_capacities_egypt: BlogArticle = {
         </tr>
     </tbody>
 </table>
+
+<p>ولو ميزانيتك تسمح وبتدور على أحدث إصدارات أنكر، فيه ثلاث موديلات وصلت مخازننا حديثاً وبنرشحها بقوة:</p>
+<ul style="line-height:2;">
+    <li><strong>للمحترفين وأصحاب اللابتوبات:</strong> <a href="/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر برايم 20000 (200W)</a> بسعر 5900 جنيه — قوة إخراج 200 واط بشاشة ذكية، يقدر يشحن لابتوبين معاً أو ماك بوك برو بأقصى سرعة.</li>
+    <li><strong>للي عايز يخفف الشنطة:</strong> <a href="/anker/power-banks/anker-prime-fusion-a1339-9600mah-65w" style="color:#2563eb;font-weight:600;">انكر برايم فيوجن 65W</a> بسعر 3200 جنيه — شاحن حائط 65 واط وباور بانك 9600mAh في جهاز واحد، يعني قطعة واحدة بدل اتنين في الشنطة.</li>
+    <li><strong>للي دايماً بينسى الكابل:</strong> <a href="/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر ووكونج 3 في 1</a> بسعر 2999 جنيه — كابل USB-C مدمج + فيشة حائط مدمجة + سعة 10000mAh، فمفيش كابل تنساه تاني.</li>
+</ul>
 
 <h2>رابعاً: تقنيات أنكر الحصرية للشحن الآمن والذكي</h2>
 <p>لا تقتصر جودة أنكر على سعة البطارية فحسب، بل تضم مجموعة من براءات الاختراع الهندسية الحصرية:</p>
@@ -256,6 +265,13 @@ export const anker_power_bank_prices_all_capacities_egypt: BlogArticle = {
         </tr>
     </tbody>
 </table>
+
+<p>If your budget allows and you want the newest Anker releases, three models have just landed in our warehouse and deserve serious consideration:</p>
+<ul style="line-height:2;">
+    <li><strong>For laptop users and professionals:</strong> The <a href="/en/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">Anker Prime 20K 200W</a> at 5,900 EGP delivers a massive 200W output with a smart display — enough to charge two laptops at once.</li>
+    <li><strong>For minimalist packers:</strong> The <a href="/en/anker/power-banks/anker-prime-fusion-a1339-9600mah-65w" style="color:#2563eb;font-weight:600;">Anker Prime Fusion 65W</a> at 3,200 EGP combines a 65W wall charger and a 9,600mAh power bank in one device — one item in your bag instead of two.</li>
+    <li><strong>For those who always forget cables:</strong> The <a href="/en/anker/power-banks/anker-a1637-wukong-3-in-1-power-bank" style="color:#2563eb;font-weight:600;">Anker × Wukong 3-in-1</a> at 2,999 EGP packs a built-in USB-C cable, a built-in wall plug, and 10,000mAh of capacity — nothing extra to forget.</li>
+</ul>
 
 <h2>4. Exclusive Anker Safety & Charging Technologies</h2>
 <p>Anker integrates several patented technologies to optimize power delivery:</p>

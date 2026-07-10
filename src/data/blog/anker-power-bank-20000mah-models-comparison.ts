@@ -9,6 +9,7 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
     relatedProducts: [
         'anker-zolo-a1681-20000',
         'anker-prime-a1695-25000',
+        'anker-prime-a1336-20000mah-power-bank',
         'anker-zolo-a110e-20000',
         'anker-powercore-10000',
         'joyroom-power-bank-10000',
@@ -155,6 +156,7 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
 <p>25,000mAh و140W PD و3 منافذ وشاشة ذكية بتعرضلك الوات الفعلي الداخل والخارج. الوزن 450 جرام فقط بالرغم من الإمكانيات دي — انكر عملوا معجزة هندسية هنا.</p>
 <p>140W معناها: MacBook Pro 14 إنش بيشحن من 0 لـ 50% في 35 دقيقة. لابتوب جيمينج 100W بيشتغل عليه وبيشحن في نفس الوقت. ده مستوى مختلف تماماً عن أي باور بانك تاني في السوق المصري.</p>
 <p>لكن السعر 3,950 جنيه — يعني لو اشتريت A110E (1,730ج) + A1681 (2,200ج) بالفرق ده هتاخد باور بانكين. الحكم: برايم للمصور أو صاحب اللابتوب الثقيل أو المسافر اللي بيحتاج يشحن 3 أجهزة في نفس الوقت.</p>
+<p>ولو حتى الـ 140 واط مش كفاية ليك، نزل عندنا حديثاً <a href="/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر برايم 20000 (200W)</a> بسعر 5,900ج — 200 واط كاملة بشاشة ذكية، يعني تقدر تشحن لابتوبين مع بعض في نفس الوقت أو ماك بوك برو بأقصى سرعة شحن ممكنة.</p>
 
 <h2>الوزن — الحقيقة اللي المواصفات بتتجاهلها</h2>
 <p>تلاتة الموديلات فرق الوزن بينهم هزيل — A110E وA1681 بـ 447 جرام، وبرايم بـ 450 جرام. الفرق 3 جرام مش محسوس. لكن المقارنة الحقيقية هي مع الـ 10,000mAh:</p>
@@ -351,6 +353,7 @@ export const anker_power_bank_20000mah_models_comparison: BlogArticle = {
 <p>25,000mAh, 140W PD, 3 ports, and a smart display showing real-time input and output wattage. The weight is just 450 grams despite those specs — Anker performed an engineering feat here.</p>
 <p>140W means: a MacBook Pro 14-inch charges from 0 to 50% in 35 minutes. A 100W gaming laptop can run and charge simultaneously. This is an entirely different tier from any other power bank in the Egyptian market.</p>
 <p>But at 3,950 EGP, consider this: for that money you could buy both the A110E (1,730 EGP) and the A1681 (2,200 EGP). The verdict: Prime is for photographers, YouTubers, or business travelers who need to charge 3 devices — including a heavy laptop — simultaneously.</p>
+<p>And if even 140W falls short, we have recently stocked the <a href="/en/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">Anker Prime 20K 200W</a> at 5,900 EGP — 200W with a smart display, enough to charge two laptops at once or push a MacBook Pro at its maximum charging speed.</p>
 
 <h2>Weight Tradeoff — What 267 Extra Grams Actually Buys</h2>
 <table style="width:100%;border-collapse:collapse;margin:24px 0;font-size:15px;">

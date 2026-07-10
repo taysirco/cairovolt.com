@@ -10,6 +10,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
         'anker-a8050-usb-c-cable',
         'joyroom-30w-pd-cable',
         'joyroom-type-c-to-type-c-cable',
+        'anker-zolo-usb-c-braided-cable',
         'anker-nano-45w-smart-display-charger',
         'anker-a2741-charger-30w',
         'joyroom-30w-fast-charger'
@@ -185,6 +186,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
     <li>النتيجة: اللابتوب بيشحن ببطء شديد أو البطارية بتنزل حتى مع الشاحن</li>
 </ul>
 <p>الحل: كابل 5A/240W (USB PD 3.1) مع شاحن 140W أو أعلى. <strong>ملاحظة مهمة:</strong> الشاحن والكابل كلاهما لازم يدعموا 240W — الكابل 240W مع شاحن 100W ما يطلعش أكتر من 100W.</p>
+<p>ولو شاحنك أقصاه 140W (زي شاحن MacBook Pro 16 ومعظم شواحن اللابتوب الجديدة)، <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">كابل انكر زولو المضفر 140W</a> بـ 790 ج.م هو الاختيار العملي — 140 واط PD 3.1 بطول 1.5 متر مضفر، يفتح أقصى سرعة لأي شاحن لابتوب من غير ما تدفع فرق سعر كابل الـ 240W.</p>
 
 <h2>جدول شامل: جهازك → الكابل الصح</h2>
 
@@ -427,6 +429,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
     <li>Result: extremely slow charging, or the battery level actually drops even with the charger connected</li>
 </ul>
 <p>The solution: a 5A/240W (USB PD 3.1) cable with a 140W or higher charger. <strong>Important note:</strong> both the charger and cable must support 240W — a 240W cable with a 100W charger still maxes out at 100W.</p>
+<p>If your charger tops out at 140W (like the MacBook Pro 16 brick and most current laptop chargers), the <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo 140W braided cable</a> (790 EGP) is the practical pick — 140W PD 3.1 over a 1.5-meter braided build that unlocks full speed on any laptop charger without paying the 240W cable premium.</p>
 
 <h2>Complete Table: Your Device → The Right Cable</h2>
 

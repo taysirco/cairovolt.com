@@ -11,7 +11,8 @@ export const anker_power_bank_20000mah_price_egypt_guide: BlogArticle = {
         'joyroom-power-bank-10000',
         'anker-powercore-20000',
         'anker-zolo-a110e-20000',
-        'anker-zolo-a1681-20000'
+        'anker-zolo-a1681-20000',
+        'anker-prime-a1336-20000mah-power-bank'
     ],
     relatedArticles: [
         'joyroom-20000mah-power-bank-travel-performance-review',
@@ -96,6 +97,12 @@ export const anker_power_bank_20000mah_price_egypt_guide: BlogArticle = {
             <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">25 واط (متوافق مع SFC)</td>
             <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">2100 - 2350 جنيه</td>
             <td style="padding:12px;border:1px solid #cbd5e1;">يدعم شحن PPS المتوافق مع سامسونج، هيكل معدني متين</td>
+        </tr>
+        <tr style="background:#f8fafc;">
+            <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;"><a href="/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">باور بانك انكر برايم 20000 (200W)</a></td>
+            <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">200 واط (فئة اللابتوبات)</td>
+            <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">5900 جنيه</td>
+            <td style="padding:12px;border:1px solid #cbd5e1;">شاشة ذكية، يشحن لابتوبين معاً أو ماك بوك برو بأقصى سرعة — وصل حديثاً للفئة الاحترافية</td>
         </tr>
     </tbody>
 </table>
@@ -237,6 +244,12 @@ export const anker_power_bank_20000mah_price_egypt_guide: BlogArticle = {
             <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">25W (SFC Support)</td>
             <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">2,100 - 2,350 EGP</td>
             <td style="padding:12px;border:1px solid #cbd5e1;">PPS protocol compatible with Samsung flagship models, metal chassis</td>
+        </tr>
+        <tr style="background:#f8fafc;">
+            <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;"><a href="/en/anker/power-banks/anker-prime-a1336-20000mah-power-bank" style="color:#2563eb;font-weight:600;">Anker Prime 20K 200W</a></td>
+            <td style="padding:12px;border:1px solid #cbd5e1;color:#1e3a8a;font-weight:bold;">200W (Laptop Class)</td>
+            <td style="padding:12px;border:1px solid #cbd5e1;font-weight:bold;">5,900 EGP</td>
+            <td style="padding:12px;border:1px solid #cbd5e1;">Smart display, charges two laptops at once — newly stocked flagship tier</td>
         </tr>
     </tbody>
 </table>

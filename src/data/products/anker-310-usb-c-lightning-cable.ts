@@ -1,7 +1,7 @@
 // Product: anker-310-usb-c-lightning-cable
 export const anker_310_usb_c_lightning_cable = {
         slug: "anker-310-usb-c-lightning-cable",
-        sku: "ANK-CB-A81A1621",
+        sku: "AK06",
         brand: "Anker",
         categorySlug: "cables",
         gtin: "",

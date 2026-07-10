@@ -1,7 +1,7 @@
 // Product: anker-prime-a1336-20000mah-power-bank
 export const anker_prime_a1336_20000mah_power_bank = {
         slug: "anker-prime-a1336-20000mah-power-bank",
-        sku: "ANK-PB-A1336",
+        sku: "AP11",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "",

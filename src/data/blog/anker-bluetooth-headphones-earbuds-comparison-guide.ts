@@ -12,7 +12,8 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
         'soundcore-life-q20-headphones',
         'soundcore-q45-headphones',
         'soundcore-space-one-headphones',
-        'soundcore-p40i-earbuds'
+        'soundcore-p40i-earbuds',
+        'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
         'soundcore-models-guide-egypt-2026',
@@ -127,7 +128,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 <p>جلسات زووم طويلة، موسيقى في الخلفية، مذاكرة أو كتابة. مش محتاج يتنقل كتير. <strong>الاختيار: Over-Ear Headphones</strong> — زي <a href="/anker/soundcore/soundcore-q45-headphones" style="color:#2563eb;font-weight:600;">Soundcore Q45</a> أو <a href="/anker/soundcore/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Space One</a>. صوت أوفر، راحة أكتر، عزل أفضل.</p>
 
 <h3>الرياضي والجيم</h3>
-<p>تعرق، حركة، محتاج سماعة ثابتة مش بتقع. <strong>الاختيار: Earbuds IPX5 بدون كابل</strong>. الـ over-ear مش مناسبة للتعرق إطلاقاً. Earbuds زي <a href="/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> أو <a href="/anker/soundcore/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> مناسبة جداً.</p>
+<p>تعرق، حركة، محتاج سماعة ثابتة مش بتقع. <strong>الاختيار: Earbuds IPX5 بدون كابل</strong>. الـ over-ear مش مناسبة للتعرق إطلاقاً. Earbuds زي <a href="/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> أو <a href="/anker/soundcore/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> مناسبة جداً. ولو بتدور على سماعة واحدة تمشي معاك في الجيم واليوم كله، <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a> بـ 1370 جنيه بتجمع IPX5 مع 28 ساعة تشغيل إجمالي وتقنية BassUp — سماعة يومية متوازنة بسعر عاقل.</p>
 
 <h3>المسافر (طيران/قطار)</h3>
 <p>ساعات طويلة، محتاج عزل قوي وراحة. <strong>الاختيار: Over-Ear مع ANC قوي</strong> — بطارية 30+ ساعة وعزل 30+ dB يخلي الرحلة مريحة. على المدى المتوسط، Space One خيار ممتاز.</p>
@@ -363,7 +364,7 @@ export const anker_bluetooth_headphones_earbuds_comparison_guide: BlogArticle = 
 <p>Long Zoom calls, background music, deep focus writing sessions. Minimal need to move around. <strong>Choice: Over-Ear Headphones</strong> — like the <a href="/en/anker/soundcore/soundcore-q45-headphones" style="color:#2563eb;font-weight:600;">Soundcore Q45</a> or <a href="/en/anker/soundcore/soundcore-space-one-headphones" style="color:#2563eb;font-weight:600;">Space One</a>. Fuller sound, more comfort, better isolation for long sessions.</p>
 
 <h3>Gym and Sports</h3>
-<p>Sweating, constant movement, needs a stable fit. <strong>Choice: IPX5 Earbuds</strong>. Over-ear headphones are completely unsuitable for sweaty workouts. Earbuds like the <a href="/en/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> or <a href="/en/anker/soundcore/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> handle this perfectly.</p>
+<p>Sweating, constant movement, needs a stable fit. <strong>Choice: IPX5 Earbuds</strong>. Over-ear headphones are completely unsuitable for sweaty workouts. Earbuds like the <a href="/en/anker/soundcore/soundcore-p20i-earbuds" style="color:#2563eb;font-weight:600;">P20i</a> or <a href="/en/anker/soundcore/soundcore-p40i-earbuds" style="color:#2563eb;font-weight:600;">P40i</a> handle this perfectly. If you want a single pair that covers both the gym and all-day listening, the <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a> at 1,370 EGP pairs IPX5 with 28 hours of total battery and BassUp — a balanced daily earbud at a sensible price.</p>
 
 <h3>Traveler (flights / trains)</h3>
 <p>Multi-hour journeys requiring strong isolation and comfort. <strong>Choice: Over-Ear with powerful ANC</strong> — 30+ hour battery and 30+ dB ANC makes long trips genuinely enjoyable. The Space One is the standout option at mid-range pricing.</p>

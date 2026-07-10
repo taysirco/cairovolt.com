@@ -11,7 +11,8 @@ export const airpods_earbuds_prices_egypt_apple_vs_soundcore: BlogArticle = {
         'joyroom-30w-fast-charger',
         'anker-powerport-25w',
         'anker-a2147-gan-charger-30w',
-        'joyroom-usb-c-cable-60w'
+        'joyroom-usb-c-cable-60w',
+        'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
         'samsung-charger-prices-egypt-all-models',
@@ -74,6 +75,7 @@ export const airpods_earbuds_prices_egypt_apple_vs_soundcore: BlogArticle = {
 <p>نعرض لكم أفضل موديلات ساوند كور المتاحة في السوق المصري والبديلة للإيربودز:</p>
 <ol style="line-height:2;">
     <li><strong>سماعة Soundcore R50i:</strong> ملكة الفئة الاقتصادية بسعر لا يتجاوز <strong>1,300 جنيه</strong>. توفر صوتاً قوياً بباس ممتاز، وبطارية تصمد لـ 10 ساعات، ومقاومة للمياه بمعيار IPX5، وتصميم مريح جداً في الأذن.</li>
+    <li><strong><a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور A25i</a>:</strong> سماعة يومية متوازنة بسعر عاقل (<strong>1,370 جنيه</strong> لدى كايرو فولت). تمنحك 28 ساعة تشغيل إجمالية مع علبة الشحن، وتقنية BassUp لتضخيم الباس، ومقاومة للمياه والعرق بمعيار IPX5، لتكون الترقية المثالية لمن يريد خطوة أعلى من R50i من غير ما يدفع فارق كبير.</li>
     <li><strong>سماعة Soundcore K20i:</strong> بديل رائع للايربودز بتصميم شبه مفتوح (Semi-In-Ear) لمن لا يفضلون سدادات السيليكون داخل الأذن، وتقدم صوتاً واضحاً وتطبيقاً ممتازاً للتحكم وبسعر اقتصادي جداً.</li>
     <li><strong>سماعة Soundcore Liberty 4 NC:</strong> البديل الرائد لسماعة AirPods Pro 2. توفر عزل ضوضاء نشط فائق الكفاءة، وصوت عالي الدقة Hi-Res مع دعم كوديك LDAC، وبطارية عملاقة تصمد لـ 50 ساعة بسعر لا يتعدى ثلث سعر سماعة ابل.</li>
 </ol>
@@ -173,6 +175,7 @@ export const airpods_earbuds_prices_egypt_apple_vs_soundcore: BlogArticle = {
 <p>Here are the best Soundcore models currently available in the Egyptian market:</p>
 <ol style="line-height:2;">
     <li><strong>Soundcore R50i:</strong> The entry-level option, priced under <strong>1,300 EGP</strong>. It features robust bass, up to 10 hours of battery life, IPX5 water resistance, and app support.</li>
+    <li><strong><a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;font-weight:600;">Soundcore A25i</a>:</strong> A balanced daily earbud at a sane price (<strong>1,370 EGP</strong> at CairoVolt), offering 28 hours of total battery life with the charging case, BassUp bass enhancement, and IPX5 water resistance—a sensible step up from the R50i without a significant price jump.</li>
     <li><strong>Soundcore K20i:</strong> A semi-in-ear model designed for users who find silicone ear tips uncomfortable, offering clean sound and long battery life at a budget price.</li>
     <li><strong>Soundcore Liberty 4 NC:</strong> The primary alternative to AirPods Pro 2, featuring strong ANC, LDAC support, and up to 50 hours of total battery life for a third of the price of Apple\'s flagship.</li>
 </ol>

@@ -1,7 +1,7 @@
 // Product: anker-a1637-wukong-3-in-1-power-bank
 export const anker_a1637_wukong_3_in_1_power_bank = {
         slug: "anker-a1637-wukong-3-in-1-power-bank",
-        sku: "ANK-PB-A1637",
+        sku: "AP13",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "",

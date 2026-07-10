@@ -1,7 +1,7 @@
 // Product: anker-a2216-magnetic-wireless-car-charger
 export const anker_a2216_magnetic_wireless_car_charger = {
         slug: "anker-a2216-magnetic-wireless-car-charger",
-        sku: "ANK-CC-A2216",
+        sku: "AR05",
         brand: "Anker",
         categorySlug: "car-chargers",
         gtin: "",

@@ -11,6 +11,7 @@ export const charging_two_phones_one_charger_speed_impact: BlogArticle = {
         'joyroom-30w-fast-charger',
         'anker-powerport-25w',
         'anker-a2147-gan-charger-30w',
+        'anker-prime-a2669-67w-gan-charger',
         'joyroom-usb-c-cable-60w'
     ],
     relatedArticles: [
@@ -104,6 +105,7 @@ export const charging_two_phones_one_charger_speed_impact: BlogArticle = {
 <p>بناءً على فحوصات معمل كايرو فولت الفنية، ننصح بالموديلات التالية لضمان توزيع طاقة آمن وحماية كاملة للبطاريات:</p>
 <ol style="line-height:2;">
     <li><strong>شاحن أنكر غان برايم 65 واط (Anker GaNPrime 65W):</strong> شاحن رائع ثلاثي المنافذ، يتميز بحجم صغير جداً وتوزيع ذكي للغاية للطاقة ويحمي الأجهزة الحساسة، وسعره يتراوح بين <strong>1,800 إلى 2,200 جنيه مصري</strong>.</li>
+    <li><strong>شاحن انكر برايم 67 واط (Anker Prime A2669):</strong> أحدث إضافة متوفرة فعلياً في كايرو فولت؛ <a href="/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">شاحن انكر برايم 67W</a> يمنحك 67 واط بـ3 منافذ — موزع طاقة كامل للمكتب والسفر يشحن لابتوب وهاتفين معاً بتوزيع ديناميكي ذكي، وسعره <strong>1,970 جنيه مصري</strong>.</li>
     <li><strong>شاحن جويروم 65 واط GaN (Joyroom):</strong> الخيار الاقتصادي الأفضل، يدعم منفذين USB-C ومنفذ USB-A مع توافق كامل لبروتوكولات ايفون وسامسونج، ويتراوح سعره بين <strong>1,100 إلى 1,350 جنيه مصري</strong>.</li>
     <li><strong>شاحن أنكر 120 واط GaNPrime:</strong> وحش الطاقة، ممتاز لشحن لاب توب وهاتفين معاً بسرعات عالية دون حدوث أي تراجع في الأداء، ويتراوح سعره بين <strong>3,500 إلى 4,200 جنيه مصري</strong> بضمان 18 شهراً.</li>
 </ol>
@@ -225,6 +227,7 @@ export const charging_two_phones_one_charger_speed_impact: BlogArticle = {
 <p>Based on electrical testing in the CairoVolt lab, here are our top recommendations for multi-port chargers:</p>
 <ol style="line-height:2;">
     <li><strong>Anker GaNPrime 65W:</strong> A high-quality 3-port charger featuring smart power distribution and excellent thermal controls, retailing between <strong>1,800 and 2,200 EGP</strong>.</li>
+    <li><strong>Anker Prime 67W (A2669):</strong> The newest arrival in stock at CairoVolt; the <a href="/en/anker/wall-chargers/anker-prime-a2669-67w-gan-charger" style="color:#2563eb;font-weight:600;">Anker Prime 67W</a> delivers 67W across 3 ports — a full desk and travel power hub that fast-charges a laptop and two phones simultaneously with smart dynamic allocation, priced at <strong>1,970 EGP</strong>.</li>
     <li><strong>Joyroom 65W GaN Charger:</strong> A budget-friendly GaN adapter featuring 2 USB-C and 1 USB-A ports, compatible with Samsung and Apple devices, retailing between <strong>1,100 and 1,350 EGP</strong>.</li>
     <li><strong>Anker GaNPrime 120W:</strong> A high-power adapter capable of fast-charging a laptop and two phones simultaneously without power drops, priced between <strong>3,500 and 4,200 EGP</strong>.</li>
 </ol>

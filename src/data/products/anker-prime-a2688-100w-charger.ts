@@ -1,7 +1,7 @@
 // Product: anker-prime-a2688-100w-charger
 export const anker_prime_a2688_100w_charger = {
         slug: "anker-prime-a2688-100w-charger",
-        sku: "ANK-WC-A2688",
+        sku: "AC06",
         brand: "Anker",
         categorySlug: "wall-chargers",
         gtin: "",

@@ -1,7 +1,7 @@
 // Product: anker-prime-fusion-a1339-9600mah-65w
 export const anker_prime_fusion_a1339_9600mah_65w = {
         slug: "anker-prime-fusion-a1339-9600mah-65w",
-        sku: "ANK-PB-A1339",
+        sku: "AP12",
         brand: "Anker",
         categorySlug: "power-banks",
         gtin: "",

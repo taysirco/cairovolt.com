@@ -12,7 +12,8 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
         'soundcore-p25i-earbuds',
         'anker-soundcore-r50i-nc',
         'soundcore-life-q20-headphones',
-        'soundcore-liberty-4-nc'
+        'soundcore-liberty-4-nc',
+        'soundcore-a25i-earbuds'
     ],
     relatedArticles: [
         'best-bluetooth-earbuds-egypt-2026',
@@ -292,6 +293,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>ميزانية 880 جنيه؟</strong> — <a href="/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. الأفضل قيمة في الفئة دي، وأكثر مبيعاً لأسباب حقيقية.</li>
     <li><strong>عندك Samsung أو Pixel + بتحب الموسيقى؟</strong> — <a href="/anker/soundcore/soundcore-p25i-earbuds" style="color:#2563eb;">P25i</a> بـ 770 جنيه للـ LDAC.</li>
     <li><strong>بتركب المترو يومياً ومحتاج ANC؟</strong> — <a href="/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> بـ 1199 جنيه. استثمار حقيقي في راحة أذنيك.</li>
+    <li><strong>عايز سماعة يومية متوازنة من غير ما تدفع في ANC؟</strong> — <a href="/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">سماعة ساوندكور A25i</a> بـ 1370 جنيه، ولسه نازلة عندنا جديد: 28 ساعة تشغيل إجمالي مع باس BassUp أقوى و IPX5 — سعر عاقل لسماعة تعيش معاك اليوم كله.</li>
     <li><strong>بتشتغل من البيت أو مكتب صاخب؟</strong> — <a href="/anker/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;">Liberty 4 NC</a> بـ 2570 جنيه. الـ 50 dB ANC هيغير حياتك.</li>
     <li><strong>عايز أحسن حاجة في خط Soundcore كله؟</strong> — Liberty 4 Pro بـ 5830 جنيه. فلاجشيب حقيقي.</li>
 </ul>`,
@@ -556,6 +558,7 @@ export const soundcore_earbuds_prices_specs_egypt_guide: BlogArticle = {
     <li><strong>Budget is 880 EGP?</strong> — <a href="/en/anker/soundcore/anker-soundcore-r50i" style="color:#2563eb;">R50i</a>. Best value in the budget tier. Best-seller for real reasons.</li>
     <li><strong>Have a Samsung or Pixel and care about audio quality?</strong> — <a href="/en/anker/soundcore/soundcore-p25i-earbuds" style="color:#2563eb;">P25i</a> at 770 EGP for LDAC.</li>
     <li><strong>Daily Cairo metro commuter?</strong> — <a href="/en/anker/soundcore/anker-soundcore-r50i-nc" style="color:#2563eb;">R50i NC</a> at 1199 EGP. A genuine investment in your hearing health.</li>
+    <li><strong>Want a balanced daily earbud without paying for ANC?</strong> — <a href="/en/soundcore/audio/soundcore-a25i-earbuds" style="color:#2563eb;">Soundcore A25i</a> at 1370 EGP, newly added to our lineup: 28 hours of total battery, BassUp bass enhancement, and IPX5 — a sane price for an earbud that lasts all day.</li>
     <li><strong>Work from home or open office?</strong> — <a href="/en/anker/soundcore/soundcore-liberty-4-nc" style="color:#2563eb;">Liberty 4 NC</a> at 2570 EGP. The 50 dB ANC will change your workday.</li>
     <li><strong>Want the best Soundcore makes?</strong> — Liberty 4 Pro at 5830 EGP. Full flagship, no compromises.</li>
 </ul>`,

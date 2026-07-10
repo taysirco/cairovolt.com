@@ -11,7 +11,8 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
         'anker-powerport-20w',
         'anker-nano-45w-smart-display-charger',
         'joyroom-30w-fast-charger',
-        'anker-powercore-10000'
+        'anker-powercore-10000',
+        'anker-a2216-magnetic-wireless-car-charger'
     ],
     relatedArticles: [
         'qi2-magsafe-wireless-charging-future-egypt',
@@ -251,6 +252,8 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
         </tr>
     </tbody>
 </table>
+
+<p>ولو سيناريو العربية هو اللي مهمك أكتر: وصلنا <a href="/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;">شاحن سيارة انكر المغناطيسي اللاسلكي</a> بـ 1200 جنيه — تثبيت مغناطيسي وشحن لاسلكي في نفس الوقت، والباد نفسه قابل للفصل يعني بيكمل الشحن معاك حتى خارج العربية.</p>
 
 <h2>Qi2 والشاحن المناسب — الحسبة الكاملة</h2>
 
@@ -519,6 +522,8 @@ export const best_wireless_chargers_qi2_compatibility_egypt: BlogArticle = {
         </tr>
     </tbody>
 </table>
+
+<p>If the in-car scenario is what interests you most, we now stock the <a href="/en/anker/car-chargers/anker-a2216-magnetic-wireless-car-charger" style="color:#2563eb;">Anker Magnetic Wireless Car Charger</a> at 1200 EGP — a magnetic mount and wireless charger in one, with a detachable pad that keeps charging your phone even after you leave the car.</p>
 
 <h2>The Total Cost Equation for Qi2 in Egypt</h2>
 
