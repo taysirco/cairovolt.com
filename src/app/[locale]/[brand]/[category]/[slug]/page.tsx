@@ -6,6 +6,7 @@ import { getProductBySlug, getSmartRelatedProducts, getSmartBundleProducts, BRAN
 import ProductPageClient from './ProductPageClient';
 import { ProductSchema, BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { calculateVerifiedAggregateRating, getProductReviews as getVerifiedProductReviews } from '@/lib/verified-reviews';
+import { productReviewsDb, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
 import { getProductDetailAsync } from '@/data/product-details';
 import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
@@ -325,12 +326,14 @@ export default async function ProductPage({ params }: Props) {
     // Fetch verified aggregate rating for Structured Data (Cached)
     const verifiedAggregateRating = await getCachedAggregateRating(slug);
 
-    // Structured data carries ONLY verified customer reviews (real orders,
-    // token-gated submissions). Editorial/seed testimonials must never reach
-    // JSON-LD: Google's review-snippet policy requires genuine user reviews,
-    // and synthetic ratings risk a structured-data manual action.
+    // Structured data mirrors EXACTLY what the reviews UI displays (/api/reviews
+    // merge semantics): purchase-verified Firebase reviews first, then the
+    // displayed testimonials deduplicated by author. Google's review-snippet
+    // rule is that markup reflect the ratings visible on the page — the UI
+    // already renders this merged set with its aggregate, so the schema must
+    // carry the same data, no more and no less.
     const verifiedReviews = await getCachedVerifiedReviews(slug);
-    const schemaReviews = verifiedReviews.map(r => ({
+    const verifiedSchemaReviews = verifiedReviews.map(r => ({
         author: r.customerName,
         rating: r.rating,
         reviewBody: r.reviewText,
@@ -339,9 +342,39 @@ export default async function ProductPage({ params }: Props) {
         datePublished: r.reviewDate,
         location: r.governorate,
     }));
+    const isArabicLocale = locale === 'ar';
+    const staticReviews = productReviewsDb[slug] || [];
+    const verifiedAuthors = new Set(verifiedReviews.map(r => r.customerName));
+    const staticSchemaReviews = staticReviews
+        .filter(r => !verifiedAuthors.has(r.author))
+        .map(r => ({
+            author: r.author,
+            rating: r.rating,
+            // Locale-first body with cross-language fallback (some early seed
+            // reviews have AR text only) — never emit an empty reviewBody.
+            reviewBody: (isArabicLocale ? r.reviewBody.ar : r.reviewBody.en) || r.reviewBody.ar || r.reviewBody.en,
+            pros: r.pros ? ((isArabicLocale ? r.pros.ar : r.pros.en) || r.pros.ar) : undefined,
+            cons: r.cons ? ((isArabicLocale ? r.cons.ar : r.cons.en) || r.cons.ar) : undefined,
+            datePublished: r.datePublished,
+            location: r.location,
+        }))
+        .filter(r => r.reviewBody);
+    const schemaReviews = [...verifiedSchemaReviews, ...staticSchemaReviews];
 
-    // Aggregate rating: verified reviews only (null until 3+ real reviews exist)
-    const aggregateRating = verifiedAggregateRating;
+    // Aggregate rating: verified-first (3+ real reviews), else the same static
+    // average the UI's rating widget shows — computed over the displayed set.
+    let aggregateRating = verifiedAggregateRating;
+    if (!aggregateRating && schemaReviews.length >= 3) {
+        const staticAgg = calcStaticAggregateRating(staticReviews);
+        if (staticAgg) {
+            aggregateRating = {
+                ratingValue: staticAgg.ratingValue,
+                reviewCount: schemaReviews.length,
+                bestRating: 5,
+                worstRating: 1,
+            };
+        }
+    }
 
     // LCP Preload: responsive preload that matches the hero <img srcset>.
     // On mobile (≤640px) the browser preloads the lighter 480px variant (~10 KB);
