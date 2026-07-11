@@ -16,6 +16,7 @@ import ShareAnalytics from '@/components/content/ShareAnalytics';
 import SocialShareButtons from '@/components/content/SocialShareButtons';
 
 import { ExpertQuote } from '@/components/content/ExpertQuote';
+import { ExternalReferences } from '@/components/content/ExternalReferences';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
 
 // Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
@@ -403,6 +404,11 @@ export default async function BlogArticlePage({ params }: Props) {
 
                     {/* Verified expert quote — only renders when the article carries a real, sourced quote */}
                     {article.expertQuote && <ExpertQuote quote={article.expertQuote} locale={locale} />}
+
+                    {/* Further-reading external references — rel=nofollow, only renders when present */}
+                    {article.externalReferences && article.externalReferences.length > 0 && (
+                        <ExternalReferences refs={article.externalReferences} locale={locale} />
+                    )}
 
                     {/*
                       REMOVED: the "CairoVolt Labs — First-Party Data" box.

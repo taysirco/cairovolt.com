@@ -21,6 +21,13 @@ export const power_bank_portable_fridge_road_trip_capacity: BlogArticle = {
     ],
     relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
     coverImage: '/images/blog/posts/power-bank-portable-fridge-road-trip-capacity.webp',
+    externalReferences: [
+        {
+            url: 'https://github.com/althaqelco/cairovolt-electronics-guide/blob/main/docs/camera-power-guide.md',
+            title: { ar: 'دليل تشغيل الكاميرات بالطاقة المحمولة', en: 'Guide: powering cameras with portable power' },
+            note: { ar: 'تشغيل الكاميرات بالطاقة المحمولة', en: 'Powering cameras on the go' },
+        },
+    ],
     translations: {
         ar: {
             title: 'باور بانك للثلاجة المتنقلة في الرحلات — السعة المطلوبة والاختيارات المتاحة',

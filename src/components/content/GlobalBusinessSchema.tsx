@@ -129,6 +129,20 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     'https://wa.me/201558245974',
                     'https://x.com/cairovolt',
                     'https://www.youtube.com/@cairovolt',
+                    // Additional verified official brand profiles (real channels of
+                    // this business). sameAs is the correct, penalty-free home for
+                    // brand profile ROOTS — never deep article/post URLs.
+                    'https://www.twitch.tv/cairovolt_eg',
+                    'https://soundcloud.com/cairovolt',
+                    'https://github.com/althaqelco',
+                    'https://www.tumblr.com/cairovolteg',
+                    'https://www.dailymotion.com/CairoVolt_eg',
+                    'https://www.deviantart.com/cairovoltart',
+                    'https://www.flickr.com/people/204670108@N05/',
+                    'https://www.openstreetmap.org/user/CairoVoltEG',
+                    'https://archive.org/details/@ahmed_taysir971',
+                    'https://gravatar.com/gamesez',
+                    'https://vk.com/id211367981',
                 ],
                 contactPoint: {
                     '@type': 'ContactPoint',

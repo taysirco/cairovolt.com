@@ -21,6 +21,13 @@ export const bluetooth_speaker_office_home_2000_egp: BlogArticle = {
     ],
     relatedCategories: ['Soundcore/speakers'],
     coverImage: '/images/blog/posts/bluetooth-speaker-office-home-2000-egp.webp',
+    externalReferences: [
+        {
+            url: 'https://www.tumblr.com/cairovolteg/820226121759162368/best-soundcore-bluetooth-speakers-for-working-from',
+            title: { ar: 'أفضل سماعات Soundcore للعمل من المنزل', en: 'Best Soundcore speakers for working from home' },
+            note: { ar: 'أفضل سماعات Soundcore للعمل', en: 'Best Soundcore speakers for work' },
+        },
+    ],
     translations: {
         ar: {
             title: 'أفضل سبيكر بلوتوث للمكتب والمنزل — صوت سينمائي تحت 2000 جنيه',
