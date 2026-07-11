@@ -1,7 +1,7 @@
 // Product: anker-a2147-gan-charger-30w (WALL CHARGER — Anker 511 Nano 3, 30W GaN USB-C)
 export const anker_a2147_gan_charger_30w = {
         slug: "anker-a2147-gan-charger-30w", sku: "AC03", brand: "Anker", categorySlug: "wall-chargers",
-        gtin: "194644126940", gtin13: "0194644126940", mpn: "A2147", price: 499, originalPrice: 549, stock: 1127, featured: true, status: "active",
+        gtin: "194644126940", gtin13: "0194644126940", mpn: "A2147", price: 490, originalPrice: 549, stock: 1127, featured: true, status: "active",
         images: [
             { id: "img_1", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-nano3-30w-gan-charger-usb-c-front-cairovolt.webp", alt: "Anker A2147 Nano 3 GaN 30W USB-C wall charger with foldable plug and IQ3 technology - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-a2147-gan-charger-30W/anker-a2147-30w-charger-with-devices-iphone-ipad-airpods.webp", alt: "شاحن انكر A2147 بقوة 30 واط مع ايفون وايباد وايربودز وابل واتش - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },
@@ -31,7 +31,7 @@ export const anker_a2147_gan_charger_30w = {
                 shortDescription: "⚡ 30W GaN USB-C Charger | 🔬 70% Smaller than Standard 30W | 📱 iPhone 17 Pro 0→50% in 21 Min | 🧠 IQ3 Smart Charging | 🔌 Foldable Plug | 🛡️ ActiveShield 2.0 | 🏆 24-Month Warranty",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The Anker 511 Nano 3 (A2147) is a <strong>30W GaN wall charger</strong> that's 70% smaller than a standard 30W charger — barely larger than a matchbox. Powered by Gallium Nitride (GaN) technology and Anker's IQ3 intelligent charging, it delivers full 30W USB-C PD output from a body that weighs just 38g. Charges iPhone 17 Pro from 0→50% in just 21 minutes. Series 5 quality with 24-month warranty. Available at <strong>EGP 499</strong> with CairoVolt warranty.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike unbranded chargers that overheat and damage your battery, The Anker 511 Nano 3 (A2147) is a <strong>30W GaN wall charger</strong> that's 70% smaller than a standard 30W charger — barely larger than a matchbox. Powered by Gallium Nitride (GaN) technology and Anker's IQ3 intelligent charging, it delivers full 30W USB-C PD output from a body that weighs just 38g. Charges iPhone 17 Pro from 0→50% in just 21 minutes. Series 5 quality with 24-month warranty. Available at <strong>EGP 490</strong> with CairoVolt warranty.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">The Bottom Line:</h3><ul class="list-none space-y-1">
@@ -44,7 +44,7 @@ export const anker_a2147_gan_charger_30w = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"The A2147 Nano 3 is the charger Apple should have included in the box. At 30W from a body smaller than AirPods case, it's genuinely impressive engineering. We tested it through Cairo's summer voltage fluctuations — ActiveShield 2.0 kept temperatures at 42°C max even during sustained 30W output. The foldable plug is a real convenience for anyone who carries a charger in their bag daily. Compared to the Anker PowerPort 20W, you get 50% more power in roughly the same size. GaN is the future of charging, and this is one of the most affordable ways to experience it. At 499 EGP with a 24-month warranty, it's a no-brainer upgrade from any 20W charger."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"The A2147 Nano 3 is the charger Apple should have included in the box. At 30W from a body smaller than AirPods case, it's genuinely impressive engineering. We tested it through Cairo's summer voltage fluctuations — ActiveShield 2.0 kept temperatures at 42°C max even during sustained 30W output. The foldable plug is a real convenience for anyone who carries a charger in their bag daily. Compared to the Anker PowerPort 20W, you get 50% more power in roughly the same size. GaN is the future of charging, and this is one of the most affordable ways to experience it. At 490 EGP with a 24-month warranty, it's a no-brainer upgrade from any 20W charger."<br><span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span> CairoVolt return rate: <strong>only 0.7%</strong> across 500+ units sold.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">GaN Technology: Science Behind the Size</h2>
@@ -70,7 +70,7 @@ export const anker_a2147_gan_charger_30w = {
 </div>
 `,
                 features: ["⚡ 30W GaN USB-C Charger", "🔬 70% Smaller than Standard", "📱 iPhone 0→50% in 21 Min", "🧠 IQ3 Smart Charging", "🔌 Foldable Plug", "🛡️ ActiveShield 2.0", "🏆 24-Month Warranty", "🌍 100-240V Universal", "🔒 UL + FCC + CE Certified → Global Safety Standards"],
-                metaTitle: "Anker 511 Nano 3 GaN 30W ⚡ 9% OFF | Ultra Compact | COD",
+                metaTitle: "Anker 511 Nano 3 GaN 30W ⚡ 11% OFF | Ultra Compact | COD",
                 metaDesc: "Buy Anker 511 Nano 3 (A2147) GaN 30W charger in Egypt. 70% smaller! iPhone 17 Pro 0→50% in 21 min. IQ3 + ActiveShield 2.0. ✓ 24-Month Warranty ✓ Fast Delivery.",
                 faqs: [
                     { question: "What does GaN mean and why is it better?", answer: "GaN stands for Gallium Nitride — a semiconductor material that handles power more efficiently than traditional silicon. This lets Anker build a 30W charger that's 70% smaller and runs cooler. You get the same power in a fraction of the size." },
@@ -85,7 +85,7 @@ export const anker_a2147_gan_charger_30w = {
                 shortDescription: "⚡ شاحن GaN بقوة 30 واط | 🔬 أصغر 70% من شاحن 30 واط العادي | 📱 ايفون 17 برو من 0 لـ 50% في 21 دقيقة | 🧠 شحن ذكي IQ3 | 🔌 قابس قابل للطي | 🛡️ ActiveShield 2.0 | 🏆 ضمان 24 شهر",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، أنكر 511 نانو 3 (A2147) هو <strong>شاحن حائط GaN بقوة 30 واط</strong> أصغر 70% من شاحن 30 واط العادي — أكبر شوية من علبة كبريت. بتقنية نيتريد الجاليوم (GaN) والشحن الذكي IQ3 من أنكر، بيوفر 30 واط كاملة من منفذ USB-C في جسم وزنه 38 جرام بس. بيشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. جودة Series 5 بضمان 24 شهر. بسعر <strong>499 جنيه</strong> مع ضمان كايرو فولت.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس الشواحن مجهولة المصدر اللي بتسخن وبتتلف البطارية، أنكر 511 نانو 3 (A2147) هو <strong>شاحن حائط GaN بقوة 30 واط</strong> أصغر 70% من شاحن 30 واط العادي — أكبر شوية من علبة كبريت. بتقنية نيتريد الجاليوم (GaN) والشحن الذكي IQ3 من أنكر، بيوفر 30 واط كاملة من منفذ USB-C في جسم وزنه 38 جرام بس. بيشحن ايفون 17 برو من 0 لـ 50% في 21 دقيقة. جودة Series 5 بضمان 24 شهر. بسعر <strong>490 جنيه</strong> مع ضمان كايرو فولت.</p>
 </div>
 
 <div class="product-summary"><h3 class="font-bold mb-2">أهم المميزات:</h3><ul class="list-none space-y-1">
@@ -98,7 +98,7 @@ export const anker_a2147_gan_charger_30w = {
 </ul></div>
 
 <div class="expert-review"><h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
-<p class="text-gray-700 leading-relaxed text-lg">"الـ A2147 نانو 3 هو الشاحن اللي كان لازم أبل تحطه في العلبة. بقوة 30 واط في جسم أصغر من علبة ايربودز، هندسة مبهرة فعلاً. جرّبناه في تذبذب فولتية صيف القاهرة — ActiveShield 2.0 حافظ على الحرارة 42°C كحد أقصى حتى في شحن 30 واط مستمر. القابس القابل للطي راحة حقيقية لأي حد بيشيل شاحن في شنطته يومياً. مقارنة بشاحن انكر 20 واط، بتاخد 50% قوة أكتر في نفس الحجم تقريباً. تقنية GaN هي مستقبل الشحن، وده من أرخص الطرق تجربها. بـ 499 جنيه مع ضمان 24 شهر، ترقية واضحة من أي شاحن 20 واط."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
+<p class="text-gray-700 leading-relaxed text-lg">"الـ A2147 نانو 3 هو الشاحن اللي كان لازم أبل تحطه في العلبة. بقوة 30 واط في جسم أصغر من علبة ايربودز، هندسة مبهرة فعلاً. جرّبناه في تذبذب فولتية صيف القاهرة — ActiveShield 2.0 حافظ على الحرارة 42°C كحد أقصى حتى في شحن 30 واط مستمر. القابس القابل للطي راحة حقيقية لأي حد بيشيل شاحن في شنطته يومياً. مقارنة بشاحن انكر 20 واط، بتاخد 50% قوة أكتر في نفس الحجم تقريباً. تقنية GaN هي مستقبل الشحن، وده من أرخص الطرق تجربها. بـ 490 جنيه مع ضمان 24 شهر، ترقية واضحة من أي شاحن 20 واط."<br><span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span> نسبة إرجاع CairoVolt: <strong>0.7% بس</strong> من 500+ وحدة مبيعة.</p></div>
 
 <div class="product-details">
     <section><h2 class="text-2xl font-bold mb-2">تقنية GaN: العلم وراء الحجم الصغير</h2>
@@ -124,7 +124,7 @@ export const anker_a2147_gan_charger_30w = {
 </div>
 `,
                 features: ["⚡ شاحن GaN بقوة 30 واط", "🔬 أصغر 70% من العادي", "📱 ايفون 0→50% في 21 دقيقة", "🧠 شحن ذكي IQ3", "🔌 قابس قابل للطي", "🛡️ ActiveShield 2.0", "🏆 ضمان 24 شهر", "🌍 دخل 100-240V عالمي", "🔒 معتمد UL + FCC + CE → معايير السلامة العالمية"],
-                metaTitle: "شاحن انكر 30 واط GaN الأصلي ⚡ خصم 9% | أصغر شاحن سريع",
+                metaTitle: "شاحن انكر 30 واط GaN الأصلي ⚡ خصم 11% | أصغر شاحن سريع",
                 metaDesc: "اشتري شاحن انكر 511 نانو 3 (A2147) GaN بقوة 30 واط في مصر. أصغر 70%! ايفون 17 برو من 0 لـ 50% في 21 دقيقة. IQ3 + ActiveShield 2.0. ✓ ضمان 24 شهر ✓ توصيل سريع.",
                 faqs: [
                     { question: "يعني إيه GaN وليه أحسن؟", answer: "GaN اختصار Gallium Nitride — نيتريد الجاليوم — مادة شبه موصلة بتتعامل مع الطاقة بكفاءة أعلى من السيليكون التقليدي. ده بيخلي أنكر يبني شاحن 30 واط أصغر 70% وبيسخن أقل. نفس القوة في جزء صغير من الحجم." },

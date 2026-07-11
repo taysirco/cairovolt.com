@@ -95,7 +95,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <h3>🎯 السيناريو 1: كل أجهزتك حديثة (USB-C فقط)</h3>
 <p>لو معاك iPhone 15+ أو Samsung S24+ أو iPad Pro أو MacBook — كل ده USB-C. سماعتك ساوندكور أو AirPods Pro 2 — USB-C. ساعتك Apple Watch — USB-C. في الحالة دي، شاحن USB-C واحد يكفيك 100%.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج) — أصغر من علبة كبريت، بيشحن أي موبايل بأقصى سرعة.</li>
+    <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (490ج) — أصغر من علبة كبريت، بيشحن أي موبايل بأقصى سرعة.</li>
     <li style="margin-bottom:12px;">⚡ <strong>لو بتشحن جهازين:</strong> <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (1900ج) — منفذين USB-C.</li>
 </ul>
 
@@ -103,7 +103,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <p>لو معاك iPhone 17 (USB-C) + سماعة JBL قديمة (Micro-USB عن طريق كابل USB-A) + مروحة USB محمولة (USB-A) — محتاج شاحن بالنوعين. المشكلة: معظم الشواحن بمنفذين في مصر إما بتوزع الواط غلط (بتدّي 5W بس من منفذ USB-A) أو مش بتدعم PD.</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>التوصية:</strong> شاحن أنكر بمنفذ USB-C PD + USB-A — بيدّي أقصى سرعة من USB-C وسرعة مقبولة (12W) من USB-A في نفس الوقت.</li>
-    <li style="margin-bottom:12px;">💡 <strong>بديل ذكي:</strong> اشتري <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر GaN 30W</a> (499ج) + كابل USB-C to USB-A OTG adapter (أقل من 50ج). بكده تشحن أجهزة USB-A من منفذ USB-C.</li>
+    <li style="margin-bottom:12px;">💡 <strong>بديل ذكي:</strong> اشتري <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">شاحن انكر GaN 30W</a> (490ج) + كابل USB-C to USB-A OTG adapter (أقل من 50ج). بكده تشحن أجهزة USB-A من منفذ USB-C.</li>
 </ul>
 
 <h3>🎯 السيناريو 3: الميزانية ضيقة — أرخص حل يشحن كل حاجة</h3>
@@ -167,7 +167,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ كل أجهزتك USB-C؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (499ج) — أصغر وأسرع شاحن سفر. لو بتشحن جهازين معاً → <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></strong> (1900ج)</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (490ج) — أصغر وأسرع شاحن سفر. لو بتشحن جهازين معاً → <strong><a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W</a></strong> (1900ج)</p>
         <p style="margin:4px 0 0 20px;">❌ لا ←</p>
     </li>
     <li style="margin-bottom:16px;">
@@ -177,7 +177,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ ميزانيتك فوق 400ج؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (499ج) — GaN + أصغر حجم + أبرد حرارة</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (490ج) — GaN + أصغر حجم + أبرد حرارة</p>
         <p style="margin:4px 0 0 20px;">❌ لا → <strong><a href="/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 25W</a></strong> (342ج) — أفضل قيمة + ضمان 36 شهر</p>
     </li>
 </ul>
@@ -283,7 +283,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <h3>🎯 Scenario 1: All Your Devices Are Modern (USB-C Only)</h3>
 <p>If you carry an iPhone 15+ or Samsung S24+, iPad Pro, or MacBook — all USB-C. Your earbuds are Soundcore or AirPods Pro 2 — USB-C. Your watch is Apple Watch — USB-C. In this case, a single USB-C charger covers 100% of your needs.</p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">✅ <strong>Pick:</strong> <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP) — ice-cube sized, charges any phone at max speed.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Pick:</strong> <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (490 EGP) — ice-cube sized, charges any phone at max speed.</li>
     <li style="margin-bottom:12px;">⚡ <strong>For two devices:</strong> <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with Smart Display</a> (1900 EGP) — two USB-C ports.</li>
 </ul>
 
@@ -291,7 +291,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <p>If you have an iPhone 17 (USB-C) + old JBL earbuds (Micro-USB via USB-A cable) + USB fan (USB-A) — you need both port types. The problem: most dual-port chargers in Egypt either distribute wattage poorly (giving only 5W from USB-A) or lack PD support.</p>
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>Pick:</strong> An Anker charger with USB-C PD + USB-A port — delivers max speed from USB-C and decent speed (12W) from USB-A simultaneously.</li>
-    <li style="margin-bottom:12px;">💡 <strong>Smart alternative:</strong> Buy the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP) + a USB-C to USB-A OTG adapter (under 50 EGP). This lets you charge USB-A devices from a USB-C port.</li>
+    <li style="margin-bottom:12px;">💡 <strong>Smart alternative:</strong> Buy the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (490 EGP) + a USB-C to USB-A OTG adapter (under 50 EGP). This lets you charge USB-A devices from a USB-C port.</li>
 </ul>
 
 <h3>🎯 Scenario 3: Tight Budget — Cheapest Solution That Charges Everything</h3>
@@ -355,7 +355,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ Are all your devices USB-C?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (499 EGP) — smallest and fastest travel charger. Two devices → <strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></strong> (1900 EGP)</p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (490 EGP) — smallest and fastest travel charger. Two devices → <strong><a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a></strong> (1900 EGP)</p>
         <p style="margin:4px 0 0 20px;">❌ No ←</p>
     </li>
     <li style="margin-bottom:16px;">
@@ -365,7 +365,7 @@ export const travel_charger_usb_c_usb_a_sahel_trip: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ Is your budget above 400 EGP?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (499 EGP) — GaN + smallest size + coolest temperature</p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (490 EGP) — GaN + smallest size + coolest temperature</p>
         <p style="margin:4px 0 0 20px;">❌ No → <strong><a href="/en/joyroom/wall-chargers/joyroom-25w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 25W</a></strong> (342 EGP) — best value + 36-month warranty</p>
     </li>
 </ul>

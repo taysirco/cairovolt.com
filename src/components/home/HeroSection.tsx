@@ -106,7 +106,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             >
               <div className="relative aspect-[1.13/1] min-h-[360px] sm:min-h-[430px]">
                 <Image
-                  src="/images/home/cutouts/soundcore-r50i-nc-cutout.png"
+                  src="/images/home/cutouts/soundcore-r50i-nc-anc-earbuds-cutout-cairovolt.png"
                   alt={isAr ? 'سماعة Soundcore R50i NC الأصلية' : 'Original Soundcore R50i NC earbuds'}
                   fill
                   priority
@@ -162,7 +162,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           >
             <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-white">
               <Image
-                src="/images/home/cutouts/joyroom-3in1-station-cutout.png"
+                src="/images/home/cutouts/joyroom-3-in-1-wireless-charging-station-cutout-cairovolt.png"
                 alt="Joyroom 3-in-1 Wireless Station"
                 fill
                 sizes="56px"

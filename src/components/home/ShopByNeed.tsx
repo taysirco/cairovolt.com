@@ -17,7 +17,7 @@ const categories = [
     copyAr: 'ايربودز، هيدفون وسبيكرات لكل لحظة.',
     copyEn: 'Earbuds, headphones, and speakers for every moment.',
     href: '/soundcore',
-    image: '/images/home/cutouts/soundcore-liberty-5-cutout.png',
+    image: '/images/home/cutouts/soundcore-liberty-5-tws-earbuds-cutout-cairovolt.png',
     className: 'md:col-span-6 md:row-span-2 bg-[#07111f] text-white',
     imageClass: 'object-contain object-bottom p-6 pt-24 sm:p-12 sm:pt-28 drop-shadow-[0_30px_40px_rgba(0,0,0,.55)]',
     accent: 'text-cyan-300 bg-cyan-300/10 border-cyan-300/20',
@@ -32,7 +32,7 @@ const categories = [
     copyAr: 'باور بانك للسفر، الشغل واليوم الطويل.',
     copyEn: 'Power banks for travel, work, and long days.',
     href: '/power-banks',
-    image: '/images/home/cutouts/anker-zolo-a110d-cutout.png',
+    image: '/images/home/cutouts/anker-zolo-a110d-power-bank-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#e8f2ff] text-[#07111f]',
     imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-blue-700 bg-white/70 border-white',
@@ -47,7 +47,7 @@ const categories = [
     copyAr: 'GaN وPD لقدرة تناسب جهازك.',
     copyEn: 'GaN and PD power matched to your device.',
     href: '/chargers',
-    image: '/images/home/cutouts/anker-nano-45w-display-cutout.png',
+    image: '/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#eef0ff] text-[#07111f]',
     imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-indigo-700 bg-white/70 border-white',
@@ -62,7 +62,7 @@ const categories = [
     copyAr: 'USB-C وLightning وقدرات شحن واضحة.',
     copyEn: 'USB-C, Lightning, and clearly labelled power.',
     href: '/cables',
-    image: '/images/home/cutouts/anker-a8050-cable-cutout.png',
+    image: '/images/home/cutouts/anker-a8050-usb-c-cable-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#f5eee9] text-[#07111f]',
     imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-amber-800 bg-white/70 border-white',
@@ -77,7 +77,7 @@ const categories = [
     copyAr: 'حوامل وشواحن تثبت معاك على الطريق.',
     copyEn: 'Mounts and chargers made for the road.',
     href: '/anker/car-chargers',
-    image: '/images/home/cutouts/anker-a2216-car-cutout.png',
+    image: '/images/home/cutouts/anker-a2216-magnetic-car-charger-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#e9f6f2] text-[#07111f]',
     imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-emerald-800 bg-white/70 border-white',
@@ -116,16 +116,18 @@ export default function ShopByNeed({ locale }: ShopByNeedProps) {
               href={localized(locale, category.href)}
               className={`group relative isolate overflow-hidden rounded-[1.75rem] border border-black/[0.05] shadow-[0_12px_40px_rgba(15,23,42,.06)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,.12)] ${category.className}`}
             >
+              {/* Legibility glow stays BEHIND the product cutout — product
+                  images must never sit under a darkening veil. */}
+              {category.dark && (
+                <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_70%_75%,rgba(30,190,255,.18),transparent_35%),linear-gradient(180deg,rgba(7,17,31,.92)_0%,rgba(7,17,31,.62)_52%,rgba(7,17,31,.34)_100%)]" />
+              )}
               <Image
                 src={category.image}
                 alt={isAr ? category.titleAr : category.titleEn}
                 fill
                 sizes={category.key === 'audio' ? '(max-width: 768px) 100vw, 50vw' : '(max-width: 768px) 100vw, 25vw'}
-                className={`${category.imageClass} transition duration-700 group-hover:scale-[1.04]`}
+                className={`${category.imageClass} z-[1] transition duration-700 group-hover:scale-[1.04]`}
               />
-              {category.dark && (
-                <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_70%_75%,rgba(30,190,255,.18),transparent_35%),linear-gradient(180deg,rgba(7,17,31,.92)_0%,rgba(7,17,31,.62)_52%,rgba(7,17,31,.34)_100%)]" />
-              )}
               <div className="relative z-10 flex h-full flex-col items-start p-6 sm:p-7">
                 <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full border backdrop-blur-sm ${category.accent}`}>
                   <SvgIcon name={category.icon} className="h-5 w-5" />

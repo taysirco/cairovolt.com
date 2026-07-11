@@ -30,16 +30,16 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         ar: {
             title: 'أفضل 5 شواحن GaN متعددة المنافذ للمكتب والمنزل في مصر 2026',
             metaTitle: 'أفضل 5 شواحن GaN متعددة المنافذ — مكتب ومنزل مصر 2026 | كايرو فولت',
-            metaDescription: 'دليل اختيار شاحن GaN متعدد المنافذ في مصر 2026. من 30W لـ 100W — اشحن موبايل + لابتوب + تابلت بشاحن واحد. أسعار من 499ج لـ 1,299ج مع اختبارات حقيقية.',
+            metaDescription: 'دليل اختيار شاحن GaN متعدد المنافذ في مصر 2026. من 30W لـ 100W — اشحن موبايل + لابتوب + تابلت بشاحن واحد. أسعار من 490ج لـ 1,299ج مع اختبارات حقيقية.',
             keywords: 'شاحن GaN مصر, شاحن متعدد المنافذ, شاحن GaN انكر, افضل شاحن مكتب 2026, شاحن USB-C متعدد, شاحن 65W GaN, شاحن 100W GaN مصر, شاحن واحد لكل الاجهزة, GaN charger egypt, شاحن جاليوم نيترايد, شاحن لابتوب وموبايل معا, أنكر gan charger egypt',
-            excerpt: 'اشحن موبايل + لابتوب + تابلت بشاحن واحد صغير. أفضل 5 شواحن GaN متعددة المنافذ في مصر — من 499ج لـ 1,299ج مع اختبارات حقيقية.',
-            quickAnswer: 'أفضل شاحن GaN متعدد المنافذ في مصر: أنكر Nano 45W بشاشة ذكية (1900ج) — بيشحن iPhone 17 Pro Max + iPad بمنفذين USB-C. لو محتاج شحن لابتوب ثقيل → أنكر 717 GaN 100W (1,299ج) بـ 3 منافذ USB-C + USB-A. لو الميزانية محدودة → أنكر GaN 30W (499ج) منفذ واحد USB-C بيشحن أي موبايل بأقصى سرعة. تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.',
+            excerpt: 'اشحن موبايل + لابتوب + تابلت بشاحن واحد صغير. أفضل 5 شواحن GaN متعددة المنافذ في مصر — من 490ج لـ 1,299ج مع اختبارات حقيقية.',
+            quickAnswer: 'أفضل شاحن GaN متعدد المنافذ في مصر: أنكر Nano 45W بشاشة ذكية (1900ج) — بيشحن iPhone 17 Pro Max + iPad بمنفذين USB-C. لو محتاج شحن لابتوب ثقيل → أنكر 717 GaN 100W (1,299ج) بـ 3 منافذ USB-C + USB-A. لو الميزانية محدودة → أنكر GaN 30W (490ج) منفذ واحد USB-C بيشحن أي موبايل بأقصى سرعة. تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.',
             content: `<p>مكتبك فيه 3 شواحن: واحد للموبايل، واحد للتابلت، وواحد للابتوب. كل واحد بسلك ومحوّل. الطبلون ورا المكتب شكله كارثي — و3 بريزات مشغولة. الحل؟ شاحن GaN واحد بمنافذ متعددة بيشحن كل أجهزتك. أصغر حجماً من الشاحن العادي وبيطلع واط أكتر. بس مش كل شواحن GaN متساوية — اختبرنا 5 موديلات عشان نقولك تشتري إيه.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أفضل شاحن GaN متعدد المنافذ: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (1900ج) — بيشحن iPhone + iPad بمنفذين USB-C. لو محتاج لابتوب → أنكر 717 GaN 100W (1,299ج). الميزانية محدودة → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج). تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.
+        أفضل شاحن GaN متعدد المنافذ: <a href="/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">انكر نانو 45W بشاشة ذكية</a> (1900ج) — بيشحن iPhone + iPad بمنفذين USB-C. لو محتاج لابتوب → أنكر 717 GaN 100W (1,299ج). الميزانية محدودة → <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (490ج). تقنية GaN أصغر 50% وأبرد 30% من الشواحن التقليدية.
     </p>
 </div>
 
@@ -78,7 +78,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>ليه #1؟</strong> الشاشة الذكية مش بس شكل — بتخليك تعرف لو الكابل بايظ (الواط هيبان صفر أو منخفض)، ولو الموبايل خلص شحن (الواط هينزل لـ 0.5W). 45W كافية لأي موبايل + تابلت. والحجم أصغر من شاحن Apple 20W الأصلي.</p>
 
-<h3>🥈 #2 — أنكر GaN 30W (499ج)</h3>
+<h3>🥈 #2 — أنكر GaN 30W (490ج)</h3>
 <p><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر A2147 GaN 30W</a> — أفضل قيمة لمنفذ واحد.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
@@ -166,7 +166,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1× USB-C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">40°م</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">499ج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">490ج</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">موبايل فقط</td>
         </tr>
         <tr>
@@ -214,7 +214,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ ميزانيتك فوق 400ج؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>انكر GaN 30W</strong> (499ج) — أقصى سرعة + أصغر حجم</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong>انكر GaN 30W</strong> (490ج) — أقصى سرعة + أصغر حجم</p>
         <p style="margin:4px 0 0 20px;">❌ لا → <strong>جوي روم 30W</strong> (280ج) — نفس السرعة تقريباً بنص السعر</p>
     </li>
 </ul>
@@ -252,7 +252,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
                 },
                 {
                     question: 'أنكر GaN 30W ولا أنكر Nano 45W — أنا بشحن الموبايل بس؟',
-                    answer: 'أنكر GaN 30W (499ج). لو بتشحن موبايل واحد بس، الـ 30W بيطلع 26.8W فعلية — iPhone مش بيقبل أكتر من 27W أصلاً. الـ 45W مش هيشحنه أسرع. توفر 300ج. الـ 45W يستاهل بس لو بتشحن جهازين (الموبايل + التابلت مثلاً) في نفس الوقت.'
+                    answer: 'أنكر GaN 30W (490ج). لو بتشحن موبايل واحد بس، الـ 30W بيطلع 26.8W فعلية — iPhone مش بيقبل أكتر من 27W أصلاً. الـ 45W مش هيشحنه أسرع. توفر 300ج. الـ 45W يستاهل بس لو بتشحن جهازين (الموبايل + التابلت مثلاً) في نفس الوقت.'
                 },
                 {
                     question: 'هل ممكن أستخدم شاحن GaN مع بريزة المطبخ أو الحمام؟',
@@ -263,16 +263,16 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
         en: {
             title: 'Best 5 GaN Multi-Port Chargers for Office and Home in Egypt 2026',
             metaTitle: 'Best 5 GaN Multi-Port Chargers — Office & Home Egypt 2026 | CairoVolt',
-            metaDescription: 'Guide to choosing a GaN multi-port charger in Egypt 2026. From 30W to 100W — charge phone + laptop + tablet with one charger. Prices from 499 to 1,299 EGP wi...',
+            metaDescription: 'Guide to choosing a GaN multi-port charger in Egypt 2026. From 30W to 100W — charge phone + laptop + tablet with one charger. Prices from 490 to 1,299 EGP wi...',
             keywords: 'GaN charger egypt, multi-port charger, anker GaN charger, best office charger 2026, USB-C multi-port charger, 65W GaN charger, 100W GaN charger egypt, one charger all devices, gallium nitride charger, laptop phone charger one, anker gan charger egypt',
-            excerpt: 'Charge phone + laptop + tablet with one tiny charger. Best 5 GaN multi-port chargers in Egypt — from 499 to 1,299 EGP with real tests.',
-            quickAnswer: 'Best GaN multi-port charger in Egypt: Anker Nano 45W with smart display (1900 EGP) — charges iPhone 17 Pro Max + iPad with two USB-C ports. Need laptop charging → Anker 717 GaN 100W (1,299 EGP) with 3 USB-C + USB-A ports. Budget pick → Anker GaN 30W (499 EGP) single USB-C port charging any phone at max speed. GaN technology is 50% smaller and 30% cooler than traditional chargers.',
+            excerpt: 'Charge phone + laptop + tablet with one tiny charger. Best 5 GaN multi-port chargers in Egypt — from 490 to 1,299 EGP with real tests.',
+            quickAnswer: 'Best GaN multi-port charger in Egypt: Anker Nano 45W with smart display (1900 EGP) — charges iPhone 17 Pro Max + iPad with two USB-C ports. Need laptop charging → Anker 717 GaN 100W (1,299 EGP) with 3 USB-C + USB-A ports. Budget pick → Anker GaN 30W (490 EGP) single USB-C port charging any phone at max speed. GaN technology is 50% smaller and 30% cooler than traditional chargers.',
             content: `<p>Your desk has 3 chargers: one for the phone, one for the tablet, and one for the laptop. Each with its own cable and adapter. The power strip behind your desk looks like a disaster — and 3 outlets are occupied. The solution? A single GaN charger with multiple ports that charges all your devices. Smaller than a regular charger and outputs more wattage. But not all GaN chargers are equal — we tested 5 models to tell you which to buy.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        Best GaN multi-port charger: <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with smart display</a> (1900 EGP) — charges iPhone + iPad with two USB-C ports. Need laptop → Anker 717 GaN 100W (1,299 EGP). Budget pick → <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP). GaN technology is 50% smaller and 30% cooler than traditional chargers.
+        Best GaN multi-port charger: <a href="/en/anker/wall-chargers/anker-nano-45w-smart-display-charger" style="color:#2563eb;font-weight:600;">Anker Nano 45W with smart display</a> (1900 EGP) — charges iPhone + iPad with two USB-C ports. Need laptop → Anker 717 GaN 100W (1,299 EGP). Budget pick → <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (490 EGP). GaN technology is 50% smaller and 30% cooler than traditional chargers.
     </p>
 </div>
 
@@ -311,7 +311,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
 
 <p><strong>Why #1?</strong> The smart display is not just aesthetics — it tells you if the cable is bad (watts show zero or low), and when the phone finishes charging (watts drop to 0.5W). 45W is enough for any phone + tablet. And it is smaller than Apple's 20W charger.</p>
 
-<h3>🥈 #2 — Anker GaN 30W (499 EGP)</h3>
+<h3>🥈 #2 — Anker GaN 30W (490 EGP)</h3>
 <p><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker A2147 GaN 30W</a> — best value for a single port.</p>
 
 <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:15px;">
@@ -399,7 +399,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">1× USB-C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;">✅</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">40°C</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">499 EGP</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">490 EGP</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Phone only</td>
         </tr>
         <tr>
@@ -447,7 +447,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ Is your budget above 400 EGP?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong>Anker GaN 30W</strong> (499 EGP) — max speed + smallest size</p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → <strong>Anker GaN 30W</strong> (490 EGP) — max speed + smallest size</p>
         <p style="margin:4px 0 0 20px;">❌ No → <strong>Joyroom 30W</strong> (280 EGP) — nearly same speed at half the price</p>
     </li>
 </ul>
@@ -485,7 +485,7 @@ export const best_gan_multi_port_chargers_office_home_egypt: BlogArticle = {
                 },
                 {
                     question: 'Anker GaN 30W or Anker Nano 45W — I only charge my phone?',
-                    answer: 'Anker GaN 30W (499 EGP). If you charge a single phone only, the 30W delivers 26.8W actual — iPhone does not accept more than 27W anyway. The 45W will not charge it faster. Save 300 EGP. The 45W is worth it only if you charge two devices (phone + tablet for example) simultaneously.'
+                    answer: 'Anker GaN 30W (490 EGP). If you charge a single phone only, the 30W delivers 26.8W actual — iPhone does not accept more than 27W anyway. The 45W will not charge it faster. Save 300 EGP. The 45W is worth it only if you charge two devices (phone + tablet for example) simultaneously.'
                 },
                 {
                     question: 'Can I use a GaN charger in a kitchen or bathroom outlet?',

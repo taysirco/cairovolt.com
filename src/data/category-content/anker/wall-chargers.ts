@@ -38,7 +38,7 @@ export const anker_wall_chargers_content: CategoryContent = {
 |---------|-------|----------|-----------|
 | **20W** | 490 ج | iPhone 15/16 | 0→50% في 30د (اختبار فعلي) |
 | **25W PPS** | 550 ج | Samsung S26 Super Fast | 0→50% في 22د (اختبار CairoVolt) |
-| **30W GaN (A2147)** | 499 ج | ⭐ iPhone 17 الأفضل — أصغر 70% | 0→50% في 21د (اختبار CairoVolt) |
+| **30W GaN (A2147)** | 490 ج | ⭐ iPhone 17 الأفضل — أصغر 70% | 0→50% في 21د (اختبار CairoVolt) |
 | **30W (A2741)** | 530 ج | شحن سيارة USB-C+A | 0→50% في 25د (اختبار فعلي) |
 | **45W** | 790 ج | S26 Ultra / iPad | 0→50% في 18د (اختبار CairoVolt) |
 | **65W GaN** | 999 ج | MacBook Air + iPhone | جهازين معاً بدون انخفاض (مختبر) |
@@ -84,7 +84,7 @@ export const anker_wall_chargers_content: CategoryContent = {
                         { name: 'شاحن انكر زولو 30W (A2698)', price: 599, badge: 'جديد' },
                         { name: 'شاحن انكر 20 واط', price: 490, badge: 'الأرخص' },
                         { name: 'شاحن انكر 25W PPS', price: 550, badge: 'Samsung S26' },
-                        { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 499, badge: '⭐ iPhone 17 GaN' },
+                        { name: 'شاحن انكر GaN نانو 3 — 30W (A2147)', price: 490, badge: '⭐ iPhone 17 GaN' },
                         { name: 'شاحن انكر 30W سيارة (A2741)', price: 530, badge: 'شاحن سيارة' },
                         { name: 'شاحن انكر 45W', price: 790, badge: 'S26 Ultra' },
                         { name: 'شاحن انكر نانو 45W شاشة ذكية (A121D)', price: 1900, badge: '🆕 Smart Display + Care Mode' },
@@ -113,7 +113,7 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
 |---------|-------|----------|----------------|
 | **20W** | EGP 490 | iPhone 15/16 | 0→50% in 30min (lab tested) |
 | **25W PPS** | EGP 550 | Samsung S26 Super Fast | 0→50% in 22min (CairoVolt test) |
-| **30W GaN (A2147)** | EGP 499 | ⭐ iPhone 17 Best — 70% smaller | 0→50% in 21min (CairoVolt test) |
+| **30W GaN (A2147)** | EGP 490 | ⭐ iPhone 17 Best — 70% smaller | 0→50% in 21min (CairoVolt test) |
 | **30W (A2741)** | EGP 530 | Car charger USB-C+A | 0→50% in 25min (lab tested) |
 | **45W** | EGP 790 | S26 Ultra / iPad | 0→50% in 18min (CairoVolt test) |
 | **65W GaN** | EGP 999 | MacBook Air + iPhone | 2 devices, no speed drop (lab) |
@@ -149,7 +149,7 @@ Order now — next-day Cairo & Giza delivery, cash on delivery.
                         { name: 'Anker Zolo 30W (A2698)', price: 599, badge: 'New' },
                         { name: 'Anker 20W Charger', price: 490, badge: 'Budget' },
                         { name: 'Anker 25W PPS', price: 550, badge: 'Samsung S26' },
-                        { name: 'Anker Nano 3 GaN 30W (A2147)', price: 499, badge: '⭐ iPhone 17 GaN' },
+                        { name: 'Anker Nano 3 GaN 30W (A2147)', price: 490, badge: '⭐ iPhone 17 GaN' },
                         { name: 'Anker 30W Car (A2741)', price: 530, badge: 'Car Charger' },
                         { name: 'Anker 45W', price: 790, badge: 'S26 Ultra' },
                         { name: 'Anker Nano 45W Smart Display (A121D)', price: 1900, badge: '🆕 Smart Display + Care Mode' },

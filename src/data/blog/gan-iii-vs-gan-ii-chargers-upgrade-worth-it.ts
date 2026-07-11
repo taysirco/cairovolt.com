@@ -236,7 +236,7 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
                 },
                 {
                     question: 'إيه أفضل شاحن GaN في مصر تحت 700 جنيه؟',
-                    answer: 'أفضل اختيار: Anker 30W GaN (A2147) بـ 499ج — GaN III، منفذ USB-C واحد، PD + QC + PowerIQ 3.0. لو الميزانية أقل: Joyroom 30W بـ 280ج — GaN II، أداء ممتاز بسعر أوفر. الاتنين بيشحنوا iPhone 17 Pro Max بأقصى سرعة.'
+                    answer: 'أفضل اختيار: Anker 30W GaN (A2147) بـ 490ج — GaN III، منفذ USB-C واحد، PD + QC + PowerIQ 3.0. لو الميزانية أقل: Joyroom 30W بـ 280ج — GaN II، أداء ممتاز بسعر أوفر. الاتنين بيشحنوا iPhone 17 Pro Max بأقصى سرعة.'
                 }
             ],
         },
@@ -445,7 +445,7 @@ export const gan_iii_vs_gan_ii_chargers_upgrade_worth_it: BlogArticle = {
                 },
                 {
                     question: 'What is the best GaN charger in Egypt under 700 EGP?',
-                    answer: 'Best choice: Anker 30W GaN (A2147) at 499 EGP — GaN III, single USB-C port, PD + QC + PowerIQ 3.0. Budget alternative: Joyroom 30W at 280 EGP — GaN II, excellent performance at a lower price. Both charge the iPhone 17 Pro Max at maximum speed.'
+                    answer: 'Best choice: Anker 30W GaN (A2147) at 490 EGP — GaN III, single USB-C port, PD + QC + PowerIQ 3.0. Budget alternative: Joyroom 30W at 280 EGP — GaN II, excellent performance at a lower price. Both charge the iPhone 17 Pro Max at maximum speed.'
                 }
             ],
         }
