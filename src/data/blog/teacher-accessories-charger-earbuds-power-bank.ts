@@ -21,6 +21,13 @@ export const teacher_accessories_charger_earbuds_power_bank: BlogArticle = {
     ],
     relatedCategories: ['Anker/power-banks', 'Anker/chargers', 'Anker/earbuds'],
     coverImage: '/images/blog/posts/teacher-accessories-charger-earbuds-power-bank.webp',
+    externalReferences: [
+        {
+            url: 'https://rubygems.org/gems/usb_pd_match/versions/0.1.1',
+            title: { ar: 'مرجع مطابقة قدرة USB Power Delivery', en: 'USB Power Delivery wattage matching reference' },
+            note: { ar: 'أداة مطابقة قدرة USB-PD للشواحن', en: 'A USB-PD wattage matching reference' },
+        },
+    ],
     translations: {
         ar: {
             title: 'ملحقات المعلم المصري — شاحن وسماعة وباور بانك يكملوا يوم المدرسة',

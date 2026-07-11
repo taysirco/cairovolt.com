@@ -21,6 +21,13 @@ export const bluetooth_speaker_camping_road_trip_all_day_battery: BlogArticle = 
     ],
     relatedCategories: ['Anker/chargers', 'Joyroom/power-banks'],
     coverImage: '/images/blog/posts/bluetooth-speaker-camping-road-trip-all-day-battery.webp',
+    externalReferences: [
+        {
+            url: 'https://gamesuy.wordpress.com/2026/07/02/bluetooth-speaker-battery-life-what-the-numbers-on-the-box-really-mean/',
+            title: { ar: 'عمر بطارية سماعات البلوتوث: ماذا تعني الأرقام', en: 'Bluetooth speaker battery life: what the numbers mean' },
+            note: { ar: 'عن عمر بطارية سماعات البلوتوث', en: 'On Bluetooth speaker battery life' },
+        },
+    ],
     translations: {
         ar: {
             title: 'سبيكر بلوتوث للرحلات البرية والكامبينج — بطارية تدوم يوم كامل بدون قلق',

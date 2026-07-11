@@ -21,6 +21,13 @@ export const led_light_up_charging_cable_speed_safety_review: BlogArticle = {
     ],
     relatedCategories: ['Anker/cables', 'Joyroom/cables'],
     coverImage: '/images/blog/posts/led-light-up-charging-cable-speed-safety-review.webp',
+    externalReferences: [
+        {
+            url: 'https://gamesuy.wordpress.com/2026/07/02/why-two-identical-looking-usb-c-cables-charge-at-different-speeds/',
+            title: { ar: 'لماذا تشحن كابلات USB-C المتطابقة بسرعات مختلفة', en: 'Why identical USB-C cables charge at different speeds' },
+            note: { ar: 'للمزيد عن سرعات الكابلات وشريحة E-Marker', en: 'More on cable speeds and the E-Marker chip' },
+        },
+    ],
     translations: {
         ar: {
             title: 'كابل شحن مضيء LED — شكل حلو بس هل بيأثر على سرعة الشحن والأمان؟',

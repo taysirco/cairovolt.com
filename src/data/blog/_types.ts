@@ -36,6 +36,19 @@ export interface BlogArticle {
         sourceUrl: string;
         sourceLabel?: { ar: string; en: string };
     };
+    /**
+     * Optional "further reading" — links to genuinely useful third-party
+     * resources on the SAME topic as the article. Rendered by
+     * <ExternalReferences> with rel="nofollow" (these are references for the
+     * reader, NOT endorsements and NOT equity-passing links). Keep it to 1–2
+     * per article and topically relevant; never the dominant links on the page.
+     * Used sparingly so the article never reads as a link farm.
+     */
+    externalReferences?: Array<{
+        url: string;
+        title: { ar: string; en: string };
+        note?: { ar: string; en: string };
+    }>;
     translations: {
         ar: {
             title: string;
