@@ -21,13 +21,6 @@ export const data_cable_vs_charge_only_cable_file_transfer: BlogArticle = {
     ],
     relatedCategories: ['Anker/cables', 'Joyroom/cables'],
     coverImage: '/images/blog/posts/data-cable-vs-charge-only-cable-file-transfer.webp',
-    externalReferences: [
-        {
-            url: 'https://www.yumpu.com/en/document/view/71223470/usb-c-cables-decoded-charging-speed-e-marker-chips-data-rates-cairovolt-guide',
-            title: { ar: 'كابلات USB-C: السرعة وشريحة E-Marker ومعدل البيانات', en: 'USB-C cables decoded: speed, E-Marker, data rates' },
-            note: { ar: 'دليل مصوّر عن كابلات USB-C وسرعاتها', en: 'An illustrated USB-C cable guide' },
-        },
-    ],
     translations: {
         ar: {
             title: 'كابل Data ضد كابل Charge Only — الفرق اللي لازم تعرفه لنقل الصور والملفات',

@@ -25,13 +25,6 @@ export const soundcore_r50i_wireless_earbuds_complete_review: BlogArticle = {
         title: { ar: 'محرر تقني', en: 'Tech Editor' },
         avatar: '/images/team/cairovolt-team.webp'
     },
-    externalReferences: [
-        {
-            url: 'https://www.tumblr.com/cairovolteg/820947539499089920/choosing-wireless-earbuds-that-actually-fit-your',
-            title: { ar: 'كيف تختار سماعات أذن لاسلكية مريحة', en: 'Choosing wireless earbuds that actually fit' },
-            note: { ar: 'اختيار سماعات أذن لاسلكية مناسبة', en: 'Choosing earbuds that fit' },
-        },
-    ],
     translations: {
         ar: {
             title: 'ليه السماعة دي هي الأكثر انتشاراً في مصر؟ مراجعة شاملة Soundcore R50i بالأرقام',

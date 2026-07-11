@@ -20,6 +20,13 @@ export const usb_c_cable_guide_egypt_2026: BlogArticle = {
         title: { ar: 'محرر تقني', en: 'Tech Editor' },
         avatar: '/images/team/cairovolt-team.webp'
     },
+        externalReferences: [
+            {
+                url: 'https://www.yumpu.com/en/document/view/71223470/usb-c-cables-decoded-charging-speed-e-marker-chips-data-rates-cairovolt-guide',
+                title: { ar: 'كابلات USB-C: السرعة وشريحة E-Marker ومعدل البيانات', en: 'USB-C cables decoded: speed, E-Marker, data rates' },
+                note: { ar: 'دليل مصوّر عن كابلات USB-C', en: 'An illustrated USB-C cable guide' },
+            },
+        ],
         translations: {
             ar: {
                 title: 'دليلك الكامل لكابلات USB-C في مصر: مش كل الكابلات زي بعض',

@@ -21,6 +21,13 @@ export const on_ear_vs_over_ear_vs_in_ear_headphones: BlogArticle = {
     ],
     relatedCategories: ['Soundcore/audio'],
     coverImage: '/images/blog/posts/on-ear-vs-over-ear-vs-in-ear-headphones.webp',
+    externalReferences: [
+        {
+            url: 'https://www.tumblr.com/cairovolteg/820947539499089920/choosing-wireless-earbuds-that-actually-fit-your',
+            title: { ar: 'كيف تختار سماعات أذن لاسلكية مريحة', en: 'Choosing wireless earbuds that actually fit' },
+            note: { ar: 'عن اختيار سماعات الأذن المناسبة', en: 'On choosing earbuds that fit' },
+        },
+    ],
     translations: {
         ar: {
             title: 'On-Ear ضد Over-Ear ضد In-Ear — أي نوع سماعة يناسب ساعات عملك الطويلة؟',

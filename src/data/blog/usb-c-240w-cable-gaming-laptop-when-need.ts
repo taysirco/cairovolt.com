@@ -25,6 +25,13 @@ export const usb_c_240w_cable_gaming_laptop_when_need: BlogArticle = {
         title: { ar: 'محرر تقني', en: 'Tech Editor' },
         avatar: '/images/team/cairovolt-team.webp',
     },
+    externalReferences: [
+        {
+            url: 'https://gamesuy.wordpress.com/2026/07/02/why-two-identical-looking-usb-c-cables-charge-at-different-speeds/',
+            title: { ar: 'لماذا تشحن كابلات USB-C المتطابقة بسرعات مختلفة', en: 'Why identical USB-C cables charge at different speeds' },
+            note: { ar: 'للمزيد عن سرعات الكابلات وشريحة E-Marker', en: 'More on cable speeds and the E-Marker chip' },
+        },
+    ],
     translations: {
         ar: {
             title: 'كابل USB-C 240W لشحن لابتوبات الجيمنج — متى تحتاجه فعلاً ومتى هو مضيعة فلوس؟',

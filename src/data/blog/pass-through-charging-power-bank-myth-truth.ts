@@ -21,6 +21,13 @@ export const pass_through_charging_power_bank_myth_truth: BlogArticle = {
     ],
     relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
     coverImage: '/images/blog/posts/pass-through-charging-power-bank-myth-truth.webp',
+    externalReferences: [
+        {
+            url: 'https://gamesuy.wordpress.com/2026/06/21/charging-and-audio-gear-every-mobile-gamer-needs-in-2026/',
+            title: { ar: 'معدات الشحن والصوت للاعبي الموبايل', en: 'Charging & audio gear for mobile gamers' },
+            note: { ar: 'معدات الشحن والصوت للاعبين', en: 'Charging & audio gear for gamers' },
+        },
+    ],
     translations: {
         ar: {
             title: 'شحن Pass-Through — هل فعلاً تقدر تشحن الباور بانك وأجهزتك في نفس الوقت؟',

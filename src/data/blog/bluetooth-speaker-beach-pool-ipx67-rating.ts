@@ -20,6 +20,13 @@ export const bluetooth_speaker_beach_pool_ipx67_rating: BlogArticle = {
     ],
     relatedCategories: ['Soundcore/speakers'],
     coverImage: '/images/blog/posts/bluetooth-speaker-beach-pool-ipx67-rating.webp',
+    externalReferences: [
+        {
+            url: 'https://gamesuy.wordpress.com/2026/07/02/bluetooth-speaker-battery-life-what-the-numbers-on-the-box-really-mean/',
+            title: { ar: 'عمر بطارية سماعات البلوتوث: ماذا تعني الأرقام', en: 'Bluetooth speaker battery life: what the numbers mean' },
+            note: { ar: 'عن عمر بطارية سماعات البلوتوث', en: 'On Bluetooth speaker battery life' },
+        },
+    ],
     translations: {
         ar: {
             title: 'سبيكر بلوتوث للساحل والمسبح — الفرق بين IPX67 الحقيقي والمُدّعى',

@@ -21,6 +21,13 @@ export const car_charger_usb_c_pd_iphone_15_ipad: BlogArticle = {
     ],
     relatedCategories: ['Anker/car-chargers', 'Joyroom/car-chargers'],
     coverImage: '/images/blog/posts/car-charger-usb-c-pd-iphone-15-ipad.webp',
+    externalReferences: [
+        {
+            url: 'https://rubygems.org/gems/usb_pd_match/versions/0.1.1',
+            title: { ar: 'مرجع مطابقة قدرة USB Power Delivery', en: 'USB Power Delivery wattage matching reference' },
+            note: { ar: 'أداة مرجعية لمطابقة قدرة الشحن', en: 'A charger-wattage matching reference' },
+        },
+    ],
     translations: {
         ar: {
             title: 'ليه شاحن السيارة USB-C PD ضرورة لمستخدمي iPhone و iPad — وليس رفاهية',

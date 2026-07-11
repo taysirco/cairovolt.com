@@ -21,6 +21,13 @@ export const content_creator_camera_laptop_phone_one_power_bank: BlogArticle = {
     ],
     relatedCategories: ['Anker/power-banks', 'Joyroom/power-banks'],
     coverImage: '/images/blog/posts/content-creator-camera-laptop-phone-one-power-bank.webp',
+    externalReferences: [
+        {
+            url: 'https://github.com/althaqelco/cairovolt-electronics-guide/blob/main/docs/camera-power-guide.md',
+            title: { ar: 'دليل تشغيل الكاميرات بالطاقة المحمولة', en: 'Guide: powering cameras with portable power' },
+            note: { ar: 'تشغيل الأجهزة بالطاقة المحمولة', en: 'Powering devices on the go' },
+        },
+    ],
     translations: {
         ar: {
             title: 'باور بانك واحد لكاميرا ولابتوب وموبايل — دليل صانع المحتوى الذكي',

@@ -20,13 +20,6 @@ export const power_bank_charging_slowly_6_hidden_causes_fixes: BlogArticle = {
     ],
     relatedCategories: ['Anker/power-banks'],
     coverImage: '/images/blog/posts/power-bank-charging-slowly-6-hidden-causes-fixes.webp',
-    externalReferences: [
-        {
-            url: 'https://gamesuy.wordpress.com/2026/06/21/charging-and-audio-gear-every-mobile-gamer-needs-in-2026/',
-            title: { ar: 'معدات الشحن والصوت للاعبي الموبايل', en: 'Charging & audio gear for mobile gamers' },
-            note: { ar: 'معدات الشحن والصوت للاعبين', en: 'Charging & audio gear for gamers' },
-        },
-    ],
     translations: {
         ar: {
             title: 'الباور بانك بيشحن بطيء جداً؟ 6 أسباب خفية والحل النهائي لكل واحد',

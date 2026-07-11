@@ -26,13 +26,6 @@ export const anker_car_charger_poweriq_dual_port_review: BlogArticle = {
         title: { ar: 'محرر تقني', en: 'Tech Editor' },
         avatar: '/images/team/cairovolt-team.webp'
     },
-    externalReferences: [
-        {
-            url: 'https://gamesuy.wordpress.com/2026/06/21/staying-charged-on-the-go-best-anker-car-chargers-for-2026/',
-            title: { ar: 'أفضل شواحن السيارة من انكر 2026', en: 'Best Anker car chargers for 2026' },
-            note: { ar: 'للمزيد عن شواحن السيارة من انكر', en: 'More on Anker car chargers' },
-        },
-    ],
     translations: {
         ar: {
             title: 'شواحن السيارة بمنفذين USB-C — مراجعة موديلات الشحن السريع وتقنيات PowerIQ',
