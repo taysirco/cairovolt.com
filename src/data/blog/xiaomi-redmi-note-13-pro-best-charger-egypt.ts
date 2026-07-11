@@ -129,7 +129,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;"><a href="/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">انكر شاحن 25W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25W PPS + PD</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30 دقيقة</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">430ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">499ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">⭐⭐⭐⭐</td>
         </tr>
         <tr>
@@ -185,7 +185,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ شواحن أصلية لـ Xiaomi و Poco — متوفرة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> (599ج) · <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 30W</a> (280ج) · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">انكر 25W</a> (430ج) · <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">جوي روم 20W</a> (280ج) — كل المنتجات <strong>أصلية 100% بضمان 18 شهر + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7</strong>.
+        <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">انكر GaN 30W</a> (599ج) · <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">جوي روم 30W</a> (280ج) · <a href="/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">انكر 25W</a> (499ج) · <a href="/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">جوي روم 20W</a> (280ج) — كل المنتجات <strong>أصلية 100% بضمان 18 شهر + توصيل لكل المحافظات 24-72 ساعة + دعم واتساب 24/7</strong>.
     </p>
 </div>
 
@@ -318,7 +318,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;"><a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#2563eb;font-weight:600;">Anker 25W Charger</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25W PPS + PD</td>
             <td style="padding:12px;border:1px solid #d1d5db;">30 minutes</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">430 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">499 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">⭐⭐⭐⭐</td>
         </tr>
         <tr>
@@ -374,7 +374,7 @@ export const xiaomi_redmi_note_13_pro_best_charger_egypt: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ Genuine Chargers for Xiaomi & Poco — Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> (599 EGP) · <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 30W</a> (280 EGP) · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">Anker 25W</a> (430 EGP) · <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">Joyroom 20W</a> (280 EGP) — all products <strong>100% genuine with 18-month warranty + delivery to all governorates 24-72 hours + 24/7 WhatsApp support</strong>.
+        <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#166534;font-weight:600;">Anker GaN 30W</a> (599 EGP) · <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#166534;font-weight:600;">Joyroom 30W</a> (280 EGP) · <a href="/en/anker/wall-chargers/anker-powerport-25w" style="color:#166534;font-weight:600;">Anker 25W</a> (499 EGP) · <a href="/en/joyroom/wall-chargers/joyroom-20w-usb-c-charger" style="color:#166534;font-weight:600;">Joyroom 20W</a> (280 EGP) — all products <strong>100% genuine with 18-month warranty + delivery to all governorates 24-72 hours + 24/7 WhatsApp support</strong>.
     </p>
 </div>
 

@@ -124,7 +124,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>430ج</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>499ج</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">أصغر 50%</td>
             <td style="padding:12px;border:1px solid #d1d5db;">24 شهر</td>
         </tr>
@@ -168,7 +168,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <li style="margin-bottom:12px;">💡 <strong>القاعدة العملية:</strong> 30W = كافي للشحن أثناء الاستخدام الخفيف والمتوسط. 45W = يشحن بأقصى سرعة ممكنة حتى أثناء الحمل الثقيل. أكتر من 45W = MacBook Air مش بيقبلها أصلاً (Apple حاطّة سقف عند 45W).</li>
 </ul>
 
-<p>يعني — <strong>لو ميزانيتك 430ج</strong> وبتشتغل شغل عادي (Office + Chrome + Zoom)، <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a> هيكفّيك تماماً. ولو عايز أقصى سرعة ممكنة مع headroom مريح، <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> بـ 790ج هو الاختيار الأمثل.</p>
+<p>يعني — <strong>لو ميزانيتك 499ج</strong> وبتشتغل شغل عادي (Office + Chrome + Zoom)، <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر Nano 3 GaN 30W</a> هيكفّيك تماماً. ولو عايز أقصى سرعة ممكنة مع headroom مريح، <a href="/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">انكر Nano 45W</a> بـ 790ج هو الاختيار الأمثل.</p>
 
 <h2>MacBook Pro — ليه القصة مختلفة؟</h2>
 
@@ -382,7 +382,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;"><strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a></strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>430 EGP</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>499 EGP</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">50% smaller</td>
             <td style="padding:12px;border:1px solid #d1d5db;">24 months</td>
         </tr>
@@ -426,7 +426,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
     <li style="margin-bottom:12px;">💡 <strong>Practical Rule:</strong> 30W = sufficient for light and medium use while charging. 45W = maximum possible charging speed even under heavy load. Above 45W = MacBook Air won't accept it anyway (Apple caps it at 45W).</li>
 </ul>
 
-<p>So — <strong>if your budget is 430 EGP</strong> and you do regular work (Office + Chrome + Zoom), the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a> will serve you perfectly. If you want maximum speed with comfortable headroom, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> at 790 EGP is the optimal choice.</p>
+<p>So — <strong>if your budget is 499 EGP</strong> and you do regular work (Office + Chrome + Zoom), the <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker Nano 3 GaN 30W</a> will serve you perfectly. If you want maximum speed with comfortable headroom, the <a href="/en/anker/wall-chargers/anker-nano-45w" style="color:#2563eb;font-weight:600;">Anker Nano 45W</a> at 790 EGP is the optimal choice.</p>
 
 <h2>MacBook Pro — Why the Story Is Different</h2>
 

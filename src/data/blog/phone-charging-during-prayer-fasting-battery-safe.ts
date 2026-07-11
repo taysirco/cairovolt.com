@@ -264,7 +264,7 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">430ج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">499ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN + حماية متقدمة</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">شحن سريع + لابتوب خفيف</td>
         </tr>
@@ -570,7 +570,7 @@ export const phone_charging_during_prayer_fasting_battery_safe: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">30W</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">430 EGP</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">499 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;color:#059669;"><strong>GaN + advanced protection</strong></td>
             <td style="padding:12px;border:1px solid #d1d5db;">Fast charge + light laptop</td>
         </tr>

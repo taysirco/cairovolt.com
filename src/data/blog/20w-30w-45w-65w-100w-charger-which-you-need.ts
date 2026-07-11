@@ -33,7 +33,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
             metaDescription: 'الفرق الحقيقي بين شواحن 20W و30W و45W و65W و100W بالأرقام والاختبارات. أيهم يناسب موبايلك ولابتوبك في مصر 2026؟ دليل عملي من كايرو فولت بأسعار من 199ج.',
             keywords: 'الفرق بين شواحن 20W 30W 45W 65W 100W, افضل شاحن واط مصر, شاحن 20 واط كفاية, شاحن 30 واط ولا 45, شاحن 65 واط لابتوب, شاحن 100 واط GaN, كم واط يحتاج الموبايل, سرعة شحن حسب الواط, واط الشاحن المناسب, charger wattage guide egypt, 20W vs 30W vs 45W charger',
             excerpt: 'مش كل واط شاحن بيتحول لسرعة فعلية. دليل عملي بالأرقام والاختبارات — من 20W لـ 100W — عشان تعرف أيهم يناسب أجهزتك فعلاً في مصر 2026.',
-            quickAnswer: 'معظم الناس محتاجة شاحن 30W فقط. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W و Samsung S26 أقصاه 45W. شاحن 30W بيشحن أي موبايل بسرعة ممتازة وبيكلف 280-430ج. شاحن 45W مناسب لو عندك Samsung S26 Ultra أو iPad. شاحن 65W+ محتاجه بس لو بتشحن لابتوب. شاحن 100W للمحترفين اللي بيشحنوا MacBook Pro + موبايل + سماعة بشاحن واحد. القاعدة: اشتري واط كافي لأقوى جهاز عندك — مش أكتر.',
+            quickAnswer: 'معظم الناس محتاجة شاحن 30W فقط. ليه؟ لإن iPhone 17 Pro Max أقصاه 27W و Samsung S26 أقصاه 45W. شاحن 30W بيشحن أي موبايل بسرعة ممتازة وبيكلف 280-499ج. شاحن 45W مناسب لو عندك Samsung S26 Ultra أو iPad. شاحن 65W+ محتاجه بس لو بتشحن لابتوب. شاحن 100W للمحترفين اللي بيشحنوا MacBook Pro + موبايل + سماعة بشاحن واحد. القاعدة: اشتري واط كافي لأقوى جهاز عندك — مش أكتر.',
             content: `<p>في محاضرة Power Electronics سنة تالتة هندسة، الدكتور سألنا: "لو عندك مصدر تيار 100 أمبير وعايز تشغّل لمبة محتاجة نص أمبير — هل اللمبة هتولع ولا هتنفجر؟" نص المدرج قال هتنفجر. والإجابة؟ هتولع عادي — اللمبة بتسحب اللي محتاجاه بس. والباقي بيفضل في المصدر. الموبايل بتاعك بيعمل نفس الحاجة بالظبط. بس الفرق إن ناس كتير بتدفع 800ج+ في شاحن 100W وموبايلها مش بيقبل أكتر من 27W — يعني 73W قاعدين في الشاحن ببلاش زي ما الدكتور بيقعد في مكتبه ساعات الأوفيس ومحدش بييجي يسأل.</p>
 
 <p>في المقال ده، هنفكّك كل فئة واط — من 20W لـ 100W — ونقولك بالأرقام: إيه اللي بيتحول لسرعة فعلية، إيه اللي بيتبدد حرارة، وإيه اللي مجرد رقم على العلبة عشان تحس إنك بتاخد صفقة.</p>
@@ -41,7 +41,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        معظم الناس محتاجة شاحن 30W فقط. iPhone 17 Pro Max أقصاه 27W و Samsung S26 أقصاه 45W. شاحن 30W بيشحن أي موبايل بسرعة ممتازة (0→50% في 24-25 دقيقة). شاحن 65W+ للابتوبات. شاحن 100W للمحترفين — MacBook Pro + موبايل + سماعة بشاحن واحد. أفضل اختيار لمعظم المصريين: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> بـ 430ج.
+        معظم الناس محتاجة شاحن 30W فقط. iPhone 17 Pro Max أقصاه 27W و Samsung S26 أقصاه 45W. شاحن 30W بيشحن أي موبايل بسرعة ممتازة (0→50% في 24-25 دقيقة). شاحن 65W+ للابتوبات. شاحن 100W للمحترفين — MacBook Pro + موبايل + سماعة بشاحن واحد. أفضل اختيار لمعظم المصريين: <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> بـ 499ج.
     </p>
 </div>
 
@@ -135,7 +135,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>الأنسب لـ:</strong> أي حد بيشحن موبايل واحد — iPhone أو Samsung أو Oppo أو أي موبايل حديث.</li>
     <li style="margin-bottom:12px;">❌ <strong>مش مناسب لـ:</strong> اللي محتاج يشحن لابتوب أو Samsung S26 Ultra بأقصى سرعة (45W).</li>
-    <li style="margin-bottom:12px;">💰 <strong>الأسعار في مصر:</strong> <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> (280ج) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (430ج).</li>
+    <li style="margin-bottom:12px;">💰 <strong>الأسعار في مصر:</strong> <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> (280ج) — <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> (499ج).</li>
     <li style="margin-bottom:12px;">🏆 <strong>توصيتنا:</strong> <a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a> — تقنية GaN = أصغر 50% من شاحن 20W العادي + أبرد 30%. أو <a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a> لو الميزانية ضيقة — فرق دقيقة واحدة في السرعة.</li>
 </ul>
 
@@ -191,7 +191,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>24-25 دقيقة</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">35 دقيقة</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">بطيء</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">280-430ج</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">280-499ج</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>45W</strong></td>
@@ -245,7 +245,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ ميزانيتك فوق 400ج؟</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (430ج) — أصغر حجم + أبرد حرارة + أقصى سرعة لأي موبايل</p>
+        <p style="margin:4px 0 0 20px;">✅ أيوا → <strong><a href="/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">انكر GaN 30W</a></strong> (499ج) — أصغر حجم + أبرد حرارة + أقصى سرعة لأي موبايل</p>
         <p style="margin:4px 0 0 20px;">❌ لا → <strong><a href="/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">جوي روم 30W</a></strong> (280ج) — نفس السرعة تقريباً بنص السعر</p>
     </li>
 </ul>
@@ -296,7 +296,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
             metaDescription: 'The real difference between 20W, 30W, 45W, 65W, and 100W chargers with test data. Which wattage suits your phone and laptop in Egypt 2026? Practical guide fr...',
             keywords: 'difference between 20W 30W 45W 65W 100W charger, best charger wattage, is 20W enough charger, 30W vs 45W charger, 65W laptop charger, 100W GaN charger, how many watts phone need, charging speed by wattage, charger wattage guide egypt, which watt charger to buy, USB-C PD wattage explained',
             excerpt: 'Not every charger watt translates to actual speed. A practical guide with real numbers — from 20W to 100W — so you know which wattage your devices actually need in Egypt 2026.',
-            quickAnswer: 'Most people only need a 30W charger. Why? iPhone 17 Pro Max caps at 27W and Samsung S26 caps at 45W. A 30W charger charges any phone at excellent speed (0→50% in 24-25 minutes) and costs 280-430 EGP. A 45W charger helps only if you have Samsung S26 Ultra or iPad. A 65W+ charger is only needed for laptops. A 100W charger is for professionals charging MacBook Pro + phone + earbuds from one charger. The rule: buy enough watts for your most demanding device — no more.',
+            quickAnswer: 'Most people only need a 30W charger. Why? iPhone 17 Pro Max caps at 27W and Samsung S26 caps at 45W. A 30W charger charges any phone at excellent speed (0→50% in 24-25 minutes) and costs 280-499 EGP. A 45W charger helps only if you have Samsung S26 Ultra or iPad. A 65W+ charger is only needed for laptops. A 100W charger is for professionals charging MacBook Pro + phone + earbuds from one charger. The rule: buy enough watts for your most demanding device — no more.',
             content: `<p>In a Power Electronics lecture during third-year engineering, our professor asked: "If you have a 100-amp power source and want to power a lamp that needs half an amp — will the lamp light up or explode?" Half the lecture hall said it would explode. The answer? It lights up normally — the lamp draws only what it needs. The rest stays in the source. Your phone does exactly the same thing. But the difference is that many people pay 800+ EGP for a 100W charger when their phone accepts only 27W — meaning 73W sit idle in the charger, doing nothing, like a professor sitting in office hours with no students showing up.</p>
 
 <p>In this guide, we break down every wattage tier — from 20W to 100W — and tell you with real numbers: what converts to actual speed, what dissipates as heat, and what is just a number on the box to make you feel like you are getting a deal.</p>
@@ -304,7 +304,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        Most people only need a 30W charger. iPhone 17 Pro Max caps at 27W, Samsung S26 caps at 45W. A 30W charger charges any phone at excellent speed (0→50% in 24-25 min). 65W+ is for laptops. 100W is for pros — MacBook Pro + phone + earbuds from one charger. Best pick for most: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> at 430 EGP.
+        Most people only need a 30W charger. iPhone 17 Pro Max caps at 27W, Samsung S26 caps at 45W. A 30W charger charges any phone at excellent speed (0→50% in 24-25 min). 65W+ is for laptops. 100W is for pros — MacBook Pro + phone + earbuds from one charger. Best pick for most: <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> at 499 EGP.
     </p>
 </div>
 
@@ -398,7 +398,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>Best for:</strong> Anyone charging a single phone — iPhone, Samsung, Oppo, or any modern phone.</li>
     <li style="margin-bottom:12px;">❌ <strong>Not for:</strong> Laptop charging or Samsung S26 Ultra at max speed (45W).</li>
-    <li style="margin-bottom:12px;">💰 <strong>Prices in Egypt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> (280 EGP) — <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (430 EGP).</li>
+    <li style="margin-bottom:12px;">💰 <strong>Prices in Egypt:</strong> <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> (280 EGP) — <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> (499 EGP).</li>
     <li style="margin-bottom:12px;">🏆 <strong>Our pick:</strong> <a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a> — GaN technology = 50% smaller than a standard 20W charger + 30% cooler. Or <a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a> on a tight budget — only 1 minute speed difference.</li>
 </ul>
 
@@ -454,7 +454,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>24-25 min</strong></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">35 min</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#dc2626;">Slow</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">280-430 EGP</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">280-499 EGP</td>
         </tr>
         <tr>
             <td style="padding:10px 8px;border:1px solid #d1d5db;"><strong>45W</strong></td>
@@ -508,7 +508,7 @@ export const twenty_w_30w_45w_65w_100w_charger_which_you_need: BlogArticle = {
     </li>
     <li style="margin-bottom:16px;">
         <p style="margin:0;"><strong>❓ Is your budget above 400 EGP?</strong></p>
-        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (430 EGP) — smallest size + coolest temp + max phone speed</p>
+        <p style="margin:4px 0 0 20px;">✅ Yes → <strong><a href="/en/anker/wall-chargers/anker-a2147-gan-charger-30w" style="color:#2563eb;font-weight:600;">Anker GaN 30W</a></strong> (499 EGP) — smallest size + coolest temp + max phone speed</p>
         <p style="margin:4px 0 0 20px;">❌ No → <strong><a href="/en/joyroom/wall-chargers/joyroom-30w-fast-charger" style="color:#2563eb;font-weight:600;">Joyroom 30W</a></strong> (280 EGP) — nearly identical speed at half the price</p>
     </li>
 </ul>
