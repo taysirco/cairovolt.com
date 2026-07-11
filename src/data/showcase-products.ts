@@ -1,4 +1,4 @@
-// Homepage "Best Sellers" showcase products.
+// Homepage curated showcase products.
 //
 // Extracted out of the ProductShowcase client component so that the SERVER
 // homepage (src/app/[locale]/page.tsx) can read these slugs, compute their
@@ -20,7 +20,8 @@ export interface ShowcaseProduct {
   categorySlug: string;
 }
 
-// Diverse Anker products across all categories: power banks, audio, chargers, cables, speakers
+// Curated popular picks across the three families sold by CairoVolt.
+// Prices and brand labels mirror src/data/products/* (the catalog source of truth).
 export const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'anker-zolo-a110e-20000',
@@ -29,7 +30,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
     price: 1730,
     originalPrice: 1950,
     brand: 'Anker',
-    badge: { en: 'Best Seller', ar: 'الأكثر مبيعاً' },
+    badge: { en: 'Featured', ar: 'اختيار مميز' },
     href: '/anker/power-banks/anker-zolo-a110e-20000',
     categorySlug: 'power-banks',
   },
@@ -39,7 +40,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
     image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt-thumb.webp',
     price: 1199,
     originalPrice: 1550,
-    brand: 'Anker',
+    brand: 'Soundcore',
     badge: { en: 'New', ar: 'جديد' },
     href: '/soundcore/audio/anker-soundcore-r50i-nc',
     categorySlug: 'audio',
@@ -53,11 +54,11 @@ export const showcaseProducts: ShowcaseProduct[] = [
     brand: 'Anker',
     badge: { en: 'Hot Deal', ar: 'عرض مميز' },
     href: '/anker/wall-chargers/anker-nano-45w',
-    categorySlug: 'chargers',
+    categorySlug: 'wall-chargers',
   },
   {
     slug: 'anker-prime-a1695-25000',
-    name: { en: 'Anker Prime 165W', ar: 'أنكر برايم 165 واط' },
+    name: { en: 'Anker Prime 25,000mAh 165W', ar: 'أنكر برايم 25,000 — 165 واط' },
     image: '/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt-thumb.webp',
     price: 3950,
     originalPrice: 4200,
@@ -72,43 +73,40 @@ export const showcaseProducts: ShowcaseProduct[] = [
     image: '/products/anker/anker-soundcore-k20i/anker-soundcore-k20i-wireless-earbuds-charging-case-cairovolt-thumb.webp',
     price: 750,
     originalPrice: 830,
-    brand: 'Anker',
+    brand: 'Soundcore',
     href: '/soundcore/audio/anker-soundcore-k20i',
     categorySlug: 'audio',
   },
   {
-    slug: 'anker-zolo-a110d-10000',
-    name: { en: 'Anker ZOLO 10,000mAh', ar: 'أنكر زولو 10,000' },
-    image: '/products/anker/anker-zolo-a110d-10000/anker-zolo-a110d-10000mah-power-bank-builtin-usb-c-cable-led-display-cairovolt-thumb.webp',
-    price: 1270,
-    brand: 'Anker',
-    badge: { en: 'Pocket Size', ar: 'حجم الجيب' },
-    href: '/anker/power-banks/anker-zolo-a110d-10000',
-    categorySlug: 'power-banks',
+    slug: 'joyroom-t03s-pro-earbuds',
+    name: { en: 'Joyroom T03S Pro ANC Earbuds', ar: 'جوي روم T03S Pro ANC' },
+    image: '/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1-thumb.webp',
+    price: 664,
+    originalPrice: 799,
+    brand: 'Joyroom',
+    badge: { en: 'Smart Value', ar: 'قيمة ممتازة' },
+    href: '/joyroom/audio/joyroom-t03s-pro-earbuds',
+    categorySlug: 'audio',
   },
   {
     slug: 'anker-soundcore-flare-2',
-    name: { en: 'Soundcore Flare 2 Speaker', ar: 'سماعة فلير 2' },
+    name: { en: 'Soundcore Flare 2 Speaker', ar: 'سبيكر ساوندكور Flare 2' },
     image: '/products/anker/anker-soundcore-flare-2/anker-soundcore-flare-2-ipx7-waterproof-pool-outdoor-thumb.webp',
     price: 2999,
     originalPrice: 3400,
-    brand: 'Anker',
+    brand: 'Soundcore',
     href: '/soundcore/speakers/anker-soundcore-flare-2',
     categorySlug: 'speakers',
   },
   {
-    slug: 'anker-a8050-usb-c-cable',
-    name: { en: 'Anker USB-C Cable 100W', ar: 'كابل أنكر USB-C' },
-    image: '/products/anker/anker-a8050-usb-c-cable/anker-a8050-braided-nylon-cable-texture-close-up-durability-thumb.webp',
-    price: 240,
-    originalPrice: 270,
-    brand: 'Anker',
-    badge: { en: 'Essential', ar: 'أساسي' },
-    href: '/anker/cables/anker-a8050-usb-c-cable',
-    categorySlug: 'cables',
+    slug: 'joyroom-20w-usb-c-charger',
+    name: { en: 'Joyroom 20W USB-C PD Charger', ar: 'شاحن جوي روم USB-C 20 واط' },
+    image: '/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1-thumb.webp',
+    price: 236,
+    originalPrice: 279,
+    brand: 'Joyroom',
+    badge: { en: 'Everyday Value', ar: 'اختيار اقتصادي' },
+    href: '/joyroom/wall-chargers/joyroom-20w-usb-c-charger',
+    categorySlug: 'wall-chargers',
   },
 ];
-
-/** Minimal aggregate-rating shape passed from the server homepage to the client showcase. */
-export type ShowcaseRating = { ratingValue: string; reviewCount: string };
-export type ShowcaseRatings = Record<string, ShowcaseRating>;

@@ -6,39 +6,54 @@ interface TrustRibbonProps {
 }
 
 const trustItems = [
-  { icon: 'check-circle', en: '100% Authentic Barcode', ar: 'باركود أصلي 100%', color: 'text-green-400' },
-  { icon: 'truck', en: 'All Egypt Delivery · 1-5 Days', ar: 'نوصل كل مصر · 1-5 أيام', color: 'text-blue-400' },
-  { icon: 'money', en: 'Cash on Delivery', ar: 'ادفع كاش عند الاستلام', color: 'text-amber-400' },
-  { icon: 'shield', en: '18-Month Warranty', ar: 'كفالة 18 شهر — استبدال فوري', color: 'text-purple-400' },
+  {
+    icon: 'check-circle',
+    en: 'Original products with verifiable codes',
+    ar: 'منتجات أصلية بكود قابل للتحقق',
+    detailEn: 'Check before you trust',
+    detailAr: 'تأكد بنفسك قبل ما تثق',
+  },
+  {
+    icon: 'truck',
+    en: 'Delivery across Egypt',
+    ar: 'توصيل لكل محافظات مصر',
+    detailEn: 'To your doorstep',
+    detailAr: 'لحد باب البيت',
+  },
+  {
+    icon: 'money',
+    en: 'Cash on delivery',
+    ar: 'ادفع عند الاستلام',
+    detailEn: 'Pay when your order arrives',
+    detailAr: 'ادفع لما طلبك يوصل',
+  },
+  {
+    icon: 'shield',
+    en: 'Clear warranty per product',
+    ar: 'ضمان واضح حسب المنتج',
+    detailEn: 'No one-size-fits-all claims',
+    detailAr: 'من غير وعود عامة مبهمة',
+  },
 ];
 
 export default function TrustRibbon({ locale }: TrustRibbonProps) {
   const isAr = locale === 'ar';
 
   return (
-    <section
-      id="trust-ribbon"
-      className="relative overflow-hidden border-y border-white/5"
-      style={{
-        background: 'linear-gradient(90deg, rgba(59,130,246,0.05) 0%, rgba(16,185,129,0.05) 50%, rgba(139,92,246,0.05) 100%)',
-      }}
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-4 gap-2 overflow-x-auto scrollbar-hide">
-          {trustItems.map((item, idx) => (
-            <div
-              key={idx}
-              className="flex items-center gap-2 flex-shrink-0 px-3 py-1.5"
-            >
-              <div className={`${item.color} animate-trust-pulse`} style={{ animationDelay: `${idx * 0.2}s` }}>
-                <SvgIcon name={item.icon} className="w-5 h-5" />
-              </div>
-              <span className="text-sm font-medium text-slate-300 whitespace-nowrap">
-                {isAr ? item.ar : item.en}
+    <section id="trust-ribbon" className="border-b border-slate-200 bg-white text-[#07111f]">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 divide-x divide-y divide-slate-200 rtl:divide-x-reverse md:grid-cols-4 md:divide-y-0">
+          {trustItems.map((item) => (
+            <div key={item.icon} className="flex min-h-28 items-start gap-3 px-3 py-6 sm:px-5 lg:px-7">
+              <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-700">
+                <SvgIcon name={item.icon} className="h-[18px] w-[18px]" />
               </span>
-              {idx < trustItems.length - 1 && (
-                <div className="hidden lg:block h-4 w-px bg-white/10 mx-4" />
-              )}
+              <span>
+                <strong className="block text-sm leading-5">{isAr ? item.ar : item.en}</strong>
+                <span className="mt-1 block text-[11px] leading-5 text-slate-500 sm:text-xs">
+                  {isAr ? item.detailAr : item.detailEn}
+                </span>
+              </span>
             </div>
           ))}
         </div>

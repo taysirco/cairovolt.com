@@ -25,8 +25,12 @@ export default function Header() {
     // Handle scroll effect
     useEffect(() => {
         const handleScroll = () => setScrolled(window.scrollY > 20);
+        const initialFrame = window.requestAnimationFrame(handleScroll);
         window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => window.removeEventListener('scroll', handleScroll);
+        return () => {
+            window.cancelAnimationFrame(initialFrame);
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
 
     // Function to get localized href
@@ -248,7 +252,7 @@ export default function Header() {
                     <div className="flex items-center gap-1 sm:gap-3">
                         {/* Search */}
                         <Link
-                            href="/search"
+                            href={getLocalizedHref('/search')}
                             className="p-2 sm:p-2.5 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-colors touch-target group"
                             aria-label={isRTL ? 'البحث في المنتجات' : 'Search products'}
                         >

@@ -8,12 +8,9 @@ import ShareAnalytics from '@/components/content/ShareAnalytics';
 import HeroSection from '@/components/home/HeroSection';
 import TrustRibbon from '@/components/home/TrustRibbon';
 import ProductShowcase from '@/components/home/ProductShowcase';
-import { showcaseProducts, type ShowcaseRatings } from '@/data/showcase-products';
-import { productReviewsDb, calculateAggregateRating } from '@/data/product-reviews';
-import SocialProofStrip from '@/components/home/SocialProofStrip';
 import BrandShowcase from '@/components/home/BrandShowcase';
-
-// ISR: On-demand revalidation only (via /api/indexing webhook)
+import ShopByNeed from '@/components/home/ShopByNeed';
+import ProductFinder from '@/components/home/ProductFinder';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -24,7 +21,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const baseMetadata = {
     alternates: {
-      // Arabic is default locale - no /ar/ prefix
       canonical: locale === 'ar' ? 'https://cairovolt.com' : 'https://cairovolt.com/en',
       languages: {
         'ar-EG': 'https://cairovolt.com',
@@ -37,20 +33,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (locale === 'en') {
     return {
       ...baseMetadata,
-      title: { absolute: 'Mobile Accessories Egypt | Anker & Joyroom ⚡ Best Prices + COD' },
-      description: 'Shop original mobile accessories in Egypt. Anker power banks, chargers, cables. Joyroom T03s earbuds. 100% authentic with official warranty. Fast shipping.',
-      keywords: 'mobile accessories, anker egypt, joyroom, power bank, earbuds, anker charger, joyroom t03s',
+      title: { absolute: 'Mobile Accessories Egypt | Anker, Soundcore & Joyroom' },
+      description: 'Shop original Anker, Soundcore, and Joyroom accessories in Egypt. Power banks, earbuds, chargers, and cables with clear warranty terms and cash on delivery.',
+      keywords: 'mobile accessories, anker egypt, soundcore egypt, joyroom, power bank, earbuds, anker charger, joyroom t03s',
       openGraph: {
-        title: 'Mobile Accessories Egypt | Anker & Joyroom',
-        description: 'Original Anker & Joyroom accessories with official warranty.',
+        title: 'Mobile Accessories Egypt | CairoVolt',
+        description: 'Original Anker, Soundcore, and Joyroom accessories with nationwide delivery and cash on delivery.',
         url: 'https://cairovolt.com/en',
         locale: 'en_US',
         type: 'website',
         siteName: 'CairoVolt',
         images: [{
           url: '/og-cover.png',
-          width: 1200,
-          height: 630,
+          width: 640,
+          height: 640,
           alt: 'CairoVolt - Mobile Accessories Egypt',
         }],
       },
@@ -63,23 +59,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  // Arabic (default)
   return {
     ...baseMetadata,
-    title: { absolute: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom - أفضل الأسعار' },
-    description: 'متجر اكسسوارات موبايل في مصر. Anker Egypt، Joyroom أصلي. باور بانك، سماعات، شواحن، كابلات. أفضل أسعار وضمان رسمي. منتجات أصلية 100%.',
-    keywords: 'اكسسوارات موبايل, انكر مصر, أنكر, جوي روم, باور بانك, سماعات, شاحن انكر, شاحن انكر الاصلي, soundcore, سماعة انكر, ايربودز انكر, باور بانك انكر',
+    title: { absolute: 'اكسسوارات موبايل مصر | Anker وSoundcore وJoyroom' },
+    description: 'تسوق منتجات Anker وSoundcore وJoyroom الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات بضمان واضح حسب المنتج والدفع عند الاستلام.',
+    keywords: 'اكسسوارات موبايل, انكر مصر, أنكر, ساوند كور, جوي روم, باور بانك, سماعات, شاحن انكر, soundcore, ايربودز انكر',
     openGraph: {
-      title: 'اكسسوارات موبايل مصر | Anker Egypt & Joyroom',
-      description: 'أفضل اكسسوارات موبايل أصلية في مصر. Anker و Joyroom بضمان رسمي.',
+      title: 'اكسسوارات موبايل مصر | كايرو فولت',
+      description: 'منتجات Anker وSoundcore وJoyroom الأصلية مع توصيل لكل مصر والدفع عند الاستلام.',
       url: 'https://cairovolt.com',
       locale: 'ar_EG',
       type: 'website',
       siteName: 'كايرو فولت',
       images: [{
         url: '/og-cover.png',
-        width: 1200,
-        height: 630,
+        width: 640,
+        height: 640,
         alt: 'كايرو فولت - اكسسوارات موبايل مصر',
       }],
     },
@@ -97,234 +92,217 @@ export default async function Home({ params }: Props) {
   setRequestLocale(locale);
   const isRTL = locale === 'ar';
 
-  // Categories for CollectionPageSchema — preserve SEO structured data.
-  // Soundcore added as a sub-brand hub so Google sees it as a top-level destination.
   const schemaCategories = isRTL
     ? [
       { title: 'باور بانك', href: '/anker/power-banks' },
       { title: 'ساوند كور (Soundcore)', href: '/soundcore' },
-      { title: 'سماعات', href: '/joyroom/audio' },
+      { title: 'سماعات جوي روم', href: '/joyroom/audio' },
       { title: 'شواحن', href: '/anker/wall-chargers' },
       { title: 'كابلات', href: '/anker/cables' },
     ]
     : [
       { title: 'Power Banks', href: '/en/anker/power-banks' },
       { title: 'Soundcore Audio', href: '/en/soundcore' },
-      { title: 'Earbuds', href: '/en/joyroom/audio' },
+      { title: 'Joyroom Earbuds', href: '/en/joyroom/audio' },
       { title: 'Chargers', href: '/en/anker/wall-chargers' },
       { title: 'Cables', href: '/en/anker/cables' },
     ];
 
-  // Precompute the 8 showcase ratings on the SERVER so the full productReviewsDb
-  // (~16KB) never reaches the homepage client bundle. Result is a tiny map
-  // (~8 entries) serialized into the RSC payload.
-  const showcaseRatings: ShowcaseRatings = {};
-  for (const p of showcaseProducts) {
-    const agg = productReviewsDb[p.slug] ? calculateAggregateRating(productReviewsDb[p.slug]) : null;
-    if (agg) showcaseRatings[p.slug] = { ratingValue: agg.ratingValue, reviewCount: agg.reviewCount };
-  }
+  const prefix = isRTL ? '' : '/en';
 
   return (
     <>
-      {/* ==================== Structured Data Markup ====================
-          #organization + #website live in GlobalBusinessSchema (layout).
-          Here we only add homepage-specific entities that LINK to them. */}
       <LocalBusinessSchema locale={locale} />
       <CollectionPageSchema
         locale={locale}
-        collections={schemaCategories.map(cat => ({
-          name: cat.title,
-          url: `https://cairovolt.com${cat.href}`,
-          description: isRTL ? `تسوق ${cat.title} الأصلية` : `Shop original ${cat.title}`,
+        collections={schemaCategories.map((category) => ({
+          name: category.title,
+          url: `https://cairovolt.com${category.href}`,
+          description: isRTL ? `تسوق ${category.title} الأصلية` : `Shop original ${category.title}`,
         }))}
       />
       <SpeakableSchema
-        pageUrl={`https://cairovolt.com${isRTL ? '' : '/en'}`}
+        pageUrl={`https://cairovolt.com${prefix}`}
         speakableSelectors={['h1', '.hero-description', '.quality-badges']}
-        headline={isRTL ? 'اكسسوارات موبايل Anker و Joyroom في مصر' : 'Anker & Joyroom Mobile Accessories in Egypt'}
+        headline={isRTL ? 'اكسسوارات موبايل Anker وSoundcore وJoyroom في مصر' : 'Anker, Soundcore, and Joyroom accessories in Egypt'}
         description={isRTL
-          ? 'متجر إكسسوارات الموبايل الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات Anker و Joyroom بضمان رسمي.'
-          : 'Original mobile accessories store in Egypt. Power banks, earbuds, chargers & cables from Anker & Joyroom with official warranty.'}
+          ? 'منتجات أصلية مرتبة حسب الاستخدام، مع توصيل لكل مصر والدفع عند الاستلام.'
+          : 'Original accessories organized by use, with delivery across Egypt and cash on delivery.'}
         locale={locale}
       />
 
-
-      <div className="flex flex-col" dir={isRTL ? 'rtl' : 'ltr'}>
-
-        {/* ==================== 1. Immersive Hero ==================== */}
+      <div className="flex flex-col bg-white" dir={isRTL ? 'rtl' : 'ltr'}>
         <HeroSection locale={locale} />
-
-        {/* ==================== 2. Trust Ribbon ==================== */}
         <TrustRibbon locale={locale} />
 
-        {/* ==================== 3. Featured Products Showcase ==================== */}
-        <div className="cv-auto"><ProductShowcase locale={locale} ratings={showcaseRatings} /></div>
+        <div>
+          <ShopByNeed locale={locale} />
+        </div>
 
-        {/* ==================== 4. Brand Showcase ==================== */}
-        <div className="cv-auto"><BrandShowcase locale={locale} /></div>
+        <div>
+          <ProductShowcase locale={locale} />
+        </div>
 
-        {/* ==================== 5. Social Proof Strip ==================== */}
-        <div className="cv-auto-sm"><SocialProofStrip locale={locale} /></div>
+        <div>
+          <BrandShowcase locale={locale} />
+        </div>
 
-        {/* ==================== 6. CairoVolt Labs — Exclusive Data ==================== */}
-        <section className="cv-auto py-16 lg:py-20" style={{ background: '#0a0f1c' }}>
-          <div className="container mx-auto px-4 max-w-5xl">
-            <div className="bg-gradient-to-br from-slate-900 to-blue-950 text-white p-8 md:p-10 rounded-3xl shadow-2xl border border-blue-800/30">
-              <div className="flex items-center gap-3 mb-2">
-                <SvgIcon name="microscope" className="w-7 h-7 text-blue-400" />
-                <div>
-                  <h2 className="text-xl lg:text-2xl font-bold text-blue-300 font-outfit">
-                    {isRTL ? 'مختبرات كايرو فولت — بيانات حصرية' : 'CairoVolt Labs — Exclusive First-Party Data'}
-                  </h2>
-                  <p className="text-xs text-gray-400">
-                    {isRTL ? 'م. أحمد مدحت · رئيس قسم الفحص التقني — دمياط الجديدة' : 'Eng. Ahmed Medhat · Head of Technical Testing — New Damietta City'}
-                  </p>
-                </div>
-              </div>
-              <p className="text-sm text-slate-400 mb-6">
-                {isRTL ? 'مش بنبيع لك وبس — بنختبر قبل ما نبيع. كل منتج بيتعمله اختبار حقيقي في ظروف مصرية.' : 'We don\'t just sell — we test first. Every product undergoes real-world testing in Egyptian conditions.'}
-              </p>
-              <div className="grid md:grid-cols-3 gap-4">
-                {[
-                  {
-                    icon: 'bolt',
-                    titleAr: 'باور بانك أنكر 737 — 14 ساعة',
-                    titleEn: 'Anker 737 — 14 Hours',
-                    bodyAr: 'اختبر في مخازن كايرو فولت بالتجمع الثالث (37°C): شغّل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.',
-                    bodyEn: 'Tested at CairoVolt\'s New Cairo 3 warehouse (37°C): ran WE VDSL router for 14 hours 22 minutes continuously without restart.',
-                  },
-                  {
-                    icon: 'plug',
-                    titleAr: 'شاحن أنكر نانو — تذبذب الجهد',
-                    titleEn: 'Anker Nano — Voltage Surge',
-                    bodyAr: 'اختبر في مختبر دمياط الجديدة مع تذبذب 190V–240V: تيار ثابت بدون "تخريف تاتش" على iPhone 15 Pro.',
-                    bodyEn: 'Tested at CairoVolt\'s Damietta QA lab with 190V-240V fluctuation: stable current, zero ghost touch on iPhone 15 Pro.',
-                  },
-                  {
-                    icon: 'car',
-                    titleAr: 'شاحن جوي روم سيارة — طريق الساحل',
-                    titleEn: 'Joyroom Car — Sahel Highway',
-                    bodyAr: 'طريق الساحل في أغسطس (42°C): شحن تليفونين من 15% إلى 70% في 40 دقيقة بدون فصل حراري.',
-                    bodyEn: 'North Coast highway August noon (42°C): charged 2 phones from 15% to 70% in 40 minutes, zero thermal throttling.',
-                  },
-                ].map((item, i) => (
-                  <div key={i} className="bg-white/5 border border-white/10 rounded-2xl p-5 hover:bg-white/[0.08] transition-colors">
-                    <div className="text-blue-400 mb-2"><SvgIcon name={item.icon} className="w-6 h-6" /></div>
-                    <h3 className="font-bold text-sm text-blue-300 mb-2">{isRTL ? item.titleAr : item.titleEn}</h3>
-                    <p className="cairovolt-voice-answer text-xs text-gray-300 leading-relaxed">{isRTL ? item.bodyAr : item.bodyEn}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        <div>
+          <ProductFinder locale={locale} />
+        </div>
 
-        {/* ==================== 7. Blog & Guides ==================== */}
-        <section className="cv-auto py-16 lg:py-20" style={{ background: '#0d1222' }}>
-          <div className="container mx-auto px-4">
-            <div className="bg-gradient-to-br from-emerald-900/20 to-teal-900/20 rounded-3xl border border-emerald-500/10 p-8 md:p-12">
-              <div className="text-center mb-8">
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 mb-4">
-                  <SvgIcon name="book" className="w-4 h-4 text-emerald-400" />
-                  <span className="text-xs font-semibold text-emerald-300 tracking-wide uppercase">
-                    {isRTL ? 'مقالات وأدلة' : 'Guides & Articles'}
-                  </span>
-                </div>
-                <h2 className="text-2xl lg:text-3xl font-bold text-white font-outfit mb-2">
-                  {isRTL ? 'أدلة الشراء والمقالات' : 'Buying Guides & Articles'}
-                </h2>
-                <p className="text-slate-400">
-                  {isRTL ? 'مقالات متخصصة تساعدك في اختيار المنتج المناسب' : 'Expert articles to help you choose the right product'}
-                </p>
-              </div>
-              <div className="grid md:grid-cols-3 gap-4 mb-8">
-                {[
-                  { slug: 'best-power-bank-egypt-2026', ar: 'أفضل باور بانك في مصر', en: 'Best Power Bank Egypt', icon: 'battery' },
-                  { slug: 'anker-vs-joyroom-comparison', ar: 'انكر vs جوي روم: أيهما أفضل؟', en: 'Anker vs Joyroom: Which is Better?', icon: 'scale' },
-                  { slug: 'how-to-identify-original-anker', ar: 'كيف تعرف انكر الأصلي؟', en: 'How to Spot Fake Anker', icon: 'search' },
-                ].map(article => (
-                  <Link
-                    key={article.slug}
-                    href={isRTL ? `/blog/${article.slug}` : `/${locale}/blog/${article.slug}`}
-                    className="flex items-start gap-3 p-4 bg-white/[0.03] rounded-xl border border-white/[0.06] hover:bg-white/[0.06] hover:border-white/10 transition-all group"
-                  >
-                    <span className="text-emerald-400 flex-shrink-0 mt-0.5"><SvgIcon name={article.icon} className="w-5 h-5" /></span>
-                    <span className="font-medium text-sm text-slate-300 group-hover:text-white transition-colors">
-                      {isRTL ? article.ar : article.en}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-              <div className="text-center">
-                <Link
-                  href={isRTL ? '/blog' : `/${locale}/blog`}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-700 text-white font-medium rounded-xl hover:bg-emerald-600 transition-colors"
-                >
-                  {isRTL ? 'عرض كل المقالات' : 'View All Articles'}
-                  <span>{isRTL ? '←' : '→'}</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ==================== 8. Compact About + SEO Text ==================== */}
-        <section className="cv-auto py-16 lg:py-20" style={{ background: '#0a0f1c' }}>
-          <div className="container mx-auto px-4 max-w-4xl">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl lg:text-3xl font-bold text-white font-outfit mb-4">
-                {isRTL ? 'كايرو فولت - متجر إكسسوارات الموبايل الأصلية في مصر' : 'CairoVolt - Original Mobile Accessories Store in Egypt'}
+        <section className="bg-white py-16 text-[#07111f] lg:py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl text-center">
+              <span className="inline-flex items-center gap-2 text-sm font-bold text-emerald-700">
+                <SvgIcon name="shield" className="h-5 w-5" />
+                {isRTL ? 'راحة البال جزء من الطلب' : 'Confidence is part of the order'}
+              </span>
+              <h2 className="mt-3 font-outfit text-3xl font-bold tracking-[-0.03em] sm:text-4xl lg:text-5xl">
+                {isRTL ? 'اشتري وإنت فاهم كل خطوة.' : 'Buy with every step made clear.'}
               </h2>
-              <div className="prose prose-sm dark:prose-invert max-w-3xl mx-auto text-slate-400">
-                {isRTL ? (
-                  <p>
-                    مرحباً بك في <strong className="text-slate-200">كايرو فولت</strong>، الوكيل المعتمد لـ <strong className="text-blue-400">Anker</strong> و <strong className="text-red-400">Joyroom</strong> في مصر.
-                    نقدم <strong className="text-slate-200">باور بانك أنكر</strong> بسعات من 5000 إلى 26800 mAh، <strong className="text-slate-200">شواحن سريعة</strong> GaN و PD و QC3.0،
-                    <strong className="text-slate-200"> كابلات شحن</strong> MFi للايفون، و<strong className="text-slate-200">سماعات Joyroom T03s</strong> الأكثر مبيعاً.
-                    كما نوفر <strong className="text-slate-200">سماعات انكر Soundcore</strong> الأصلية — من <strong className="text-slate-200">ايربودز انكر</strong> R50i الاقتصادية وحتى سماعات ساوند كور بتقنية إلغاء الضوضاء.
-                    جميع المنتجات أصلية 100% مع <strong className="text-slate-200">ضمان 18 شهر</strong>. موقع انكر مصر الرسمي والموزع المعتمد — نوصل لكل محافظات مصر مع إمكانية الدفع عند الاستلام.
-                  </p>
-                ) : (
-                  <p>
-                    Welcome to <strong className="text-slate-200">CairoVolt</strong>, the authorized distributor for <strong className="text-blue-400">Anker</strong> and <strong className="text-red-400">Joyroom</strong> in Egypt.
-                    We offer <strong className="text-slate-200">Anker power banks</strong> from 5,000 to 26,800 mAh, <strong className="text-slate-200">fast chargers</strong> with GaN, PD, and QC3.0,
-                    <strong className="text-slate-200"> MFi-certified cables</strong> for iPhone, and <strong className="text-slate-200">Joyroom T03s earbuds</strong> — Egypt&apos;s best-seller.
-                    All products are 100% authentic with <strong className="text-slate-200">18-month warranty</strong>. Nationwide delivery with cash on delivery option.
-                  </p>
-                )}
-              </div>
+              <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
+                {isRTL
+                  ? 'الثقة مش Badge على الشاشة؛ هي معلومات تقدر تراجعها، وضمان مكتوب، وسياسة واضحة قبل الدفع.'
+                  : 'Trust is not a badge on a screen. It is information you can check, written warranty terms, and clear policies before payment.'}
+              </p>
+            </div>
+
+            <div className="mt-10 grid gap-4 md:grid-cols-3">
+              {[
+                {
+                  icon: 'check-circle',
+                  titleAr: 'تحقق من الأصالة',
+                  titleEn: 'Verify authenticity',
+                  bodyAr: 'اعرف مكان الكود وطريقة المراجعة قبل ما تعتمد على شكل العلبة فقط.',
+                  bodyEn: 'Learn where the code is and how to check it before relying on packaging alone.',
+                  href: '/verify',
+                  ctaAr: 'افتح أداة التحقق',
+                  ctaEn: 'Open verification',
+                },
+                {
+                  icon: 'microscope',
+                  titleAr: 'افهم المواصفة الحقيقية',
+                  titleEn: 'Understand the real spec',
+                  bodyAr: 'نشرح القدرة، التوافق والاستخدام المناسب بلغة عملية من غير مصطلحات مربكة.',
+                  bodyEn: 'We explain power, compatibility, and fit in practical language without confusing jargon.',
+                  href: '/lab',
+                  ctaAr: 'ادخل المختبر',
+                  ctaEn: 'Visit the lab',
+                },
+                {
+                  icon: 'truck',
+                  titleAr: 'اعرف اللي هيحصل بعد الطلب',
+                  titleEn: 'Know what happens next',
+                  bodyAr: 'راجع التوصيل والدفع والاسترجاع قبل ما تضغط تأكيد الطلب.',
+                  bodyEn: 'Review delivery, payment, and returns before you confirm the order.',
+                  href: '/shipping',
+                  ctaAr: 'تفاصيل التوصيل',
+                  ctaEn: 'Delivery details',
+                },
+              ].map((item) => (
+                <article key={item.icon} className="group rounded-[1.75rem] border border-slate-200 bg-[#f7f8fa] p-7 transition hover:-translate-y-1 hover:border-slate-300 hover:bg-white hover:shadow-[0_20px_55px_rgba(15,23,42,.09)]">
+                  <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-blue-700 shadow-sm">
+                    <SvgIcon name={item.icon} className="h-5 w-5" />
+                  </span>
+                  <h3 className="mt-5 font-outfit text-xl font-bold">{isRTL ? item.titleAr : item.titleEn}</h3>
+                  <p className="mt-2 text-sm leading-7 text-slate-600">{isRTL ? item.bodyAr : item.bodyEn}</p>
+                  <Link href={`${prefix}${item.href}`} className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-blue-700">
+                    {isRTL ? item.ctaAr : item.ctaEn}
+                    <span className="transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">{isRTL ? '←' : '→'}</span>
+                  </Link>
+                </article>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* ==================== 9. Voice Search FAQ ==================== */}
-        <section className="cv-auto py-16 lg:py-20 dark" style={{ background: '#0d1222' }}>
-          <div className="container mx-auto px-4 max-w-4xl">
+        <section className="bg-[#f5f6f8] py-16 text-[#07111f] lg:py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+              <div>
+                <span className="inline-flex items-center gap-2 text-sm font-bold text-amber-700">
+                  <SvgIcon name="book" className="h-5 w-5" />
+                  {isRTL ? 'اقرأ قبل ما تدفع' : 'Read before you spend'}
+                </span>
+                <h2 className="mt-3 font-outfit text-3xl font-bold tracking-[-0.03em] sm:text-4xl">
+                  {isRTL ? 'أدلة تختصر عليك المقارنة.' : 'Guides that shorten the comparison.'}
+                </h2>
+              </div>
+              <Link href={`${prefix}/blog`} className="inline-flex items-center gap-2 text-sm font-bold text-blue-700">
+                {isRTL ? 'كل الأدلة والمقالات' : 'All guides and articles'}
+                <span>{isRTL ? '←' : '→'}</span>
+              </Link>
+            </div>
+
+            <div className="mt-8 grid gap-4 md:grid-cols-3">
+              {[
+                { slug: 'best-power-bank-egypt-2026', ar: 'إزاي تختار باور بانك يناسب يومك؟', en: 'How to choose a power bank for your day', icon: 'battery', tone: 'bg-blue-50 text-blue-800' },
+                { slug: 'anker-vs-joyroom-comparison', ar: 'Anker ولا Joyroom: الفرق فين؟', en: 'Anker or Joyroom: where is the difference?', icon: 'scale', tone: 'bg-emerald-50 text-emerald-800' },
+                { slug: 'how-to-identify-original-anker', ar: 'علامات تساعدك تعرف Anker الأصلي', en: 'Clues that help identify original Anker', icon: 'search', tone: 'bg-amber-50 text-amber-800' },
+              ].map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`${prefix}/blog/${article.slug}`}
+                  className="group flex min-h-52 flex-col rounded-[1.75rem] border border-slate-200 bg-white p-6 transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-[0_20px_55px_rgba(15,23,42,.08)]"
+                >
+                  <span className={`inline-flex h-11 w-11 items-center justify-center rounded-full ${article.tone}`}>
+                    <SvgIcon name={article.icon} className="h-5 w-5" />
+                  </span>
+                  <h3 className="mt-5 font-outfit text-xl font-bold leading-8">{isRTL ? article.ar : article.en}</h3>
+                  <span className="mt-auto pt-5 text-sm font-bold text-blue-700">
+                    {isRTL ? 'اقرأ الدليل ←' : 'Read the guide →'}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white py-14 text-[#07111f] lg:py-20">
+          <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
+            <h2 className="font-outfit text-2xl font-bold sm:text-3xl">
+              {isRTL ? 'كايرو فولت — اختيار أوضح لإكسسوارات الموبايل في مصر' : 'CairoVolt — a clearer way to choose mobile accessories in Egypt'}
+            </h2>
+            <div className="mx-auto mt-4 max-w-3xl text-sm leading-8 text-slate-600">
+              {isRTL ? (
+                <p>
+                  كايرو فولت يجمع منتجات <strong className="text-slate-900">Anker</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">Soundcore</strong> للصوتيات، وخيارات <strong className="text-slate-900">Joyroom</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح لمحافظات مصر مع إمكانية الدفع عند الاستلام.
+                </p>
+              ) : (
+                <p>
+                  CairoVolt brings together <strong className="text-slate-900">Anker</strong> charging and power products, <strong className="text-slate-900">Soundcore</strong> audio, and practical <strong className="text-slate-900">Joyroom</strong> everyday options. Compare power banks, chargers, cables, earbuds, and headphones with clear pricing, compatibility, and product-specific warranty terms before ordering. Delivery is available across Egypt with cash on delivery.
+                </p>
+              )}
+            </div>
+          </div>
+        </section>
+
+        <section className="dark bg-[#07111f] py-16 lg:py-24">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <FAQSection
-              productName={isRTL ? 'كايرو فولت — إكسسوارات أنكر وجوي روم' : 'CairoVolt — Anker & Joyroom Accessories'}
+              productName={isRTL ? 'كايرو فولت — Anker وSoundcore وJoyroom' : 'CairoVolt — Anker, Soundcore & Joyroom'}
               locale={locale}
               qaList={isRTL ? [
-                { question: 'هو باور بانك أنكر بيشغل راوتر WE لما النور يقطع؟', answer: 'أيوة، اختبرناه في كايرو فولت بمخازن بوسطة بالتجمع الثالث في 37 درجة. بيشغل راوتر WE VDSL لمدة 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.' },
-                { question: 'إيه يضمنلي إن منتجات كايرو فولت أصلية؟', answer: 'كايرو فولت شركة مسجلة رسمياً (سجل تجاري 8446). كل منتج متبرشم وعليه باركود أصلي للتحقق من موقع أنكر. ضمان 18 شهر.' },
-                { question: 'بتوصلوا لحد بابي ولا لازم أنزل؟', answer: 'بنوصل لحد باب بيتك في كل 27 محافظة. القاهرة والجيزة في 24-48 ساعة، الشحن من 70 جنيه أو مجاني فوق 3,700 جنيه.' },
-                { question: 'فين فروع وتوكيل انكر في مصر؟', answer: 'كايرو فولت هو الموزع المعتمد لمنتجات انكر في مصر. نوصل لكل المحافظات عبر شركة بوسطة (Active). مقرنا في التجمع الثالث، القاهرة الجديدة. تواصل معنا واتساب لأي استفسار.' },
-                { question: 'إزاي أتأكد إن شاحن انكر الأصلي مش تقليد؟', answer: 'كل منتج انكر أصلي عليه كود QR على العلبة. امسحه على anker.com/verify وهيأكدلك الأصالة فوراً. لو اشتريت من كايرو فولت، كل المنتجات أصلية 100% مع ضمان 18 شهر استبدال فوري.' },
-                { question: 'كم سعر باور بانك انكر 10000 في مصر؟', answer: 'سعر باور بانك انكر 10000 هو 1,300 جنيه في كايرو فولت. يشمل ضمان 18 شهر وتوصيل سريع لكل مصر مع إمكانية الدفع عند الاستلام.' },
-                { question: 'كم سعر سماعة انكر Soundcore R50i في مصر؟', answer: 'سعر سماعة Soundcore R50i هو 950 جنيه في كايرو فولت. بطارية 30 ساعة، BassUp، IPX5. ضمان 18 شهر وتوصيل لكل المحافظات.' },
+                { question: 'أبدأ منين لو مش عارف الموديل المناسب؟', answer: 'ابدأ بقسم «اختار حسب استخدامك» أو مساعد الاختيار السريع في الصفحة. اختار هل محتاج صوت أفضل، بطارية أطول، أو شحن أسرع، وحدد ميزانيتك عشان تشوف نقطة بداية مناسبة.' },
+                { question: 'إزاي أتأكد إن المنتج أصلي؟', answer: 'راجع كود أو باركود التحقق الموجود على العبوة واتبع خطوات صفحة التحقق في كايرو فولت. لا تعتمد على شكل العلبة فقط، واحتفظ بالفاتورة وبيانات الضمان.' },
+                { question: 'الضمان كام شهر؟', answer: 'مدة الضمان تختلف حسب العلامة والموديل، لذلك نعرضها في صفحة كل منتج بدل وعد عام واحد. راجع بند الضمان في صفحة المنتج قبل إتمام الطلب.' },
+                { question: 'هل الدفع عند الاستلام متاح؟', answer: 'نعم، الدفع عند الاستلام متاح للطلبات المؤهلة. تفاصيل المبلغ والشحن تظهر بوضوح أثناء إتمام الطلب.' },
+                { question: 'هل التوصيل متاح خارج القاهرة؟', answer: 'نعم، التوصيل متاح لمحافظات مصر. مدة ورسوم الشحن تعتمد على المحافظة وتظهر قبل تأكيد الطلب.' },
+                { question: 'لو المنتج مش مناسب، أعمل إيه؟', answer: 'راجع سياسة الاسترجاع والاستبدال لمعرفة الشروط والمدة وحالة العبوة المطلوبة، وتواصل مع الدعم قبل إرسال المنتج.' },
               ] : [
-                { question: 'Does the Anker 737 power bank run a WE router during power outages?', answer: 'Yes, we tested it at CairoVolt\'s Bosta warehouse in New Cairo 3 at 37°C. It ran a WE VDSL router for 14 hours 22 minutes continuously without restart.' },
-                { question: 'How can I verify CairoVolt products are original?', answer: 'CairoVolt is officially registered (CR: 8446). Every product is sealed with the original barcode verifiable on Anker\'s website. 18-month warranty.' },
-                { question: 'Do you deliver to my door?', answer: 'We deliver to all 27 Egyptian governorates. Cairo/Giza in 24-48 hours. Shipping from 70 EGP, free above 3,700 EGP.' },
-                { question: 'Where are Anker authorized dealers in Egypt?', answer: 'CairoVolt is the authorized Anker distributor in Egypt, delivering to all 27 governorates via Active (Bosta) courier. Based in New Cairo 3rd Settlement.' },
-                { question: 'How to verify an original Anker charger?', answer: 'Every original Anker product has a QR code on the box. Scan it at anker.com/verify for instant authenticity confirmation. CairoVolt products are 100% original with 18-month warranty.' },
+                { question: 'Where do I start if I do not know the right model?', answer: 'Start with Shop by Need or the quick choice assistant on this page. Choose better sound, longer battery, or faster charging, then set a budget for a useful starting point.' },
+                { question: 'How can I check that a product is original?', answer: 'Check the verification code or barcode on the packaging and follow CairoVolt\'s verification steps. Do not rely on box appearance alone, and keep your invoice and warranty information.' },
+                { question: 'How long is the warranty?', answer: 'Warranty length varies by brand and model, so it is shown on each product page instead of using one blanket promise. Review the warranty section before ordering.' },
+                { question: 'Is cash on delivery available?', answer: 'Yes, cash on delivery is available for eligible orders. The order total and delivery details are shown during checkout.' },
+                { question: 'Do you deliver outside Cairo?', answer: 'Yes, delivery is available across Egypt. Timing and fees depend on the governorate and are shown before order confirmation.' },
+                { question: 'What if the product is not right for me?', answer: 'Review the return and replacement policy for the applicable conditions, timeframe, and packaging requirements, then contact support before sending the item.' },
               ]}
             />
           </div>
         </section>
 
-        {/* Share Analytics for home page */}
         <ShareAnalytics />
-
       </div>
     </>
   );

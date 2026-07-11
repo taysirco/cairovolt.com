@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 /**
  * PromoBanner — ORIGINAL10 Display Banner
@@ -12,10 +13,13 @@ import { useState, useEffect } from 'react';
  * The ORIGINAL10 code gives 10% discount — validated in checkout page + server-side in orders API.
  */
 export default function PromoBanner() {
+    const pathname = usePathname();
+    const isEn = pathname === '/en' || pathname.startsWith('/en/');
     const [visible, setVisible] = useState(false);
     const [countdown, setCountdown] = useState('');
 
     useEffect(() => {
+        let showTimer: number | undefined;
         // Check if user came from QR / verify flow
         const params = new URLSearchParams(window.location.search);
         const isFromC2PA = params.get('utm_campaign') === 'c2pa';
@@ -26,7 +30,7 @@ export default function PromoBanner() {
         } catch { /* private browsing */ }
 
         if (isFromC2PA || fromVerify) {
-            setVisible(true);
+            showTimer = window.setTimeout(() => setVisible(true), 0);
 
             // Store visit for future detection
             try {
@@ -34,13 +38,20 @@ export default function PromoBanner() {
             } catch { /* private browsing */ }
 
             // GA4 event — return visit from verify flow
-            if (typeof (window as any).gtag === 'function') {
-                (window as any).gtag('event', 'promo_banner_shown', {
+            const analyticsWindow = window as Window & {
+                gtag?: (command: string, eventName: string, params: Record<string, string>) => void;
+            };
+            if (typeof analyticsWindow.gtag === 'function') {
+                analyticsWindow.gtag('event', 'promo_banner_shown', {
                     source: isFromC2PA ? 'utm_c2pa' : 'localStorage',
                     promo_code: 'ORIGINAL10',
                 });
             }
         }
+
+        return () => {
+            if (showTimer !== undefined) window.clearTimeout(showTimer);
+        };
     }, []);
 
     // Countdown timer effect
@@ -79,6 +90,7 @@ export default function PromoBanner() {
     return (
         <div
             className="w-full py-2.5 px-4 text-center relative overflow-hidden"
+            dir={isEn ? 'ltr' : 'rtl'}
             style={{
                 background: 'linear-gradient(135deg, #92400e 0%, #b45309 30%, #d97706 60%, #f59e0b 100%)',
                 zIndex: 50,
@@ -95,18 +107,18 @@ export default function PromoBanner() {
             />
 
             <p className="text-sm md:text-base font-bold text-black relative z-10 flex items-center justify-center gap-2 flex-wrap">
-                <span>🎁</span>
-                <span>كود الخصم الحصري:</span>
+                <span aria-hidden="true">✦</span>
+                <span>{isEn ? 'Exclusive code:' : 'كود الخصم الحصري:'}</span>
                 <span
                     className="inline-block px-3 py-0.5 bg-black text-yellow-400 rounded-md font-mono text-base tracking-wider"
                     style={{ fontFamily: "'Outfit', monospace" }}
                 >
                     ORIGINAL10
                 </span>
-                <span>— خصم 10% على طلبك الأول</span>
+                <span>{isEn ? '— 10% off your first order' : '— خصم 10% على طلبك الأول'}</span>
                 {countdown && (
                     <span className="text-xs bg-white/60 text-black font-bold px-2 py-0.5 rounded-full">
-                        ⏰ ينتهي خلال {countdown}
+                        {isEn ? `Ends in ${countdown}` : `ينتهي خلال ${countdown}`}
                     </span>
                 )}
             </p>
@@ -114,8 +126,8 @@ export default function PromoBanner() {
             {/* Close button */}
             <button
                 onClick={() => setVisible(false)}
-                className="absolute top-1/2 left-3 -translate-y-1/2 text-black/70 hover:text-black text-lg font-bold"
-                aria-label="إغلاق"
+                className={`absolute top-1/2 -translate-y-1/2 text-black/70 hover:text-black text-lg font-bold ${isEn ? 'right-3' : 'left-3'}`}
+                aria-label={isEn ? 'Close' : 'إغلاق'}
             >
                 ×
             </button>

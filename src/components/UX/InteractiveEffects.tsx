@@ -249,7 +249,9 @@ export default function InteractiveEffects() {
                     #cv-promo-cta {
                         left: auto;
                         right: auto;
-                        inset-inline-start: 24px;
+                        /* Keep the exit-intent card opposite the hero copy/CTA:
+                           left in RTL, right in LTR. */
+                        inset-inline-end: 24px;
                         bottom: 24px;
                         max-width: 360px;
                     }

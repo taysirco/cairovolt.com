@@ -128,28 +128,11 @@ export default async function RootLayout({
         {/* OpenSearch */}
         <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="CairoVolt Search" />
         {/* hreflang tags are generated dynamically by each page's generateMetadata → alternates.languages */}
-        {/* Dark mode detection — MUST stay inline (FOUC prevention) */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-                  function applyTheme() {
-                    if (mq && mq.matches) {
-                      document.documentElement.classList.add('dark');
-                    } else {
-                      var h = new Date().getHours();
-                      document.documentElement.classList[h >= 18 || h < 6 ? 'add' : 'remove']('dark');
-                    }
-                  }
-                  applyTheme();
-                  if (mq) mq.addEventListener('change', applyTheme);
-                } catch (e) {}
-              })();
-            `,
-          }}
-        />
+        {/* Theme: intentionally light-only. The old inline script forced .dark by
+            OS preference OR wall-clock (18:00–06:00), flipping half the UI at
+            night while the redesigned home sections stayed light — an
+            inconsistent, eye-straining mix. Premium retail references (Apple
+            Store, Noon, Amazon) ship a single calm light theme; we do the same. */}
       </head>
       <body
         className={`${geistSans.variable} ${outfit.variable} antialiased min-h-screen flex flex-col`}

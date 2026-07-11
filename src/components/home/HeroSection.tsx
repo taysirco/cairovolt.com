@@ -1,264 +1,181 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import HeroCarousel from './HeroCarousel';
-import type { HeroProduct } from './HeroCarousel';
-
-/**
- * Hero product data — shared between server-rendered initial state
- * and client-side carousel interactivity.
- */
-const heroProducts: HeroProduct[] = [
-  {
-    slug: 'anker-nano-45w-smart-display-charger',
-    name: { en: 'Anker Nano 45W Smart Display', ar: 'انكر نانو 45W شاشة ذكية' },
-    tagline: { en: '45W GaN · Smart TFT Display · 180° Foldable · Care Mode', ar: '45 واط GaN · شاشة TFT ذكية · قابس 180° · وضع العناية' },
-    image: '/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt.webp',
-    price: 1900,
-    originalPrice: 2700,
-    brand: 'Anker',
-    badge: { en: 'New Arrival', ar: 'جديد' },
-    href: '/anker/wall-chargers/anker-nano-45w-smart-display-charger',
-    highlight: { en: 'Red Dot 2026 Winner', ar: 'جائزة Red Dot 2026' },
-  },
-  {
-    slug: 'anker-zolo-a110e-20000',
-    name: { en: 'Anker ZOLO 20,000mAh', ar: 'أنكر زولو 20,000' },
-    tagline: { en: '30W Fast Charge · Built-in Cable · High Capacity', ar: '30 واط شحن سريع · كابل مدمج · سعة ضخمة' },
-    image: '/products/anker/anker-zolo-a110e-20000/anker-zolo-a110e-20000mah-power-bank-builtin-cable-dual-output-cairovolt.webp',
-    price: 1730,
-    originalPrice: 1950,
-    brand: 'Anker',
-    badge: { en: 'Top Rated', ar: 'الأعلى تقييماً' },
-    href: '/anker/power-banks/anker-zolo-a110e-20000',
-    highlight: { en: '4x iPhone charges', ar: '4 شحنات ايفون' },
-  },
-  {
-    slug: 'anker-soundcore-r50i-nc',
-    name: { en: 'Soundcore R50i NC', ar: 'ساوندكور R50i NC' },
-    tagline: { en: '42dB ANC · 45h Battery · 4-Mic AI Calls', ar: '42dB إلغاء ضوضاء · 45 ساعة · 4 مايك AI' },
-    image: '/products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp',
-    price: 1199,
-    originalPrice: 1550,
-    brand: 'Anker',
-    badge: { en: 'New Arrival', ar: 'جديد' },
-    href: '/soundcore/audio/anker-soundcore-r50i-nc',
-    highlight: { en: 'Rivals AirPods Pro 2', ar: 'منافس ايربودز برو 2' },
-  },
-  {
-    slug: 'anker-prime-a1695-25000',
-    name: { en: 'Anker Prime 25,000mAh', ar: 'أنكر برايم 25,000' },
-    tagline: { en: '165W Beast · Charges MacBook Pro 16"', ar: '165 واط وحش · يشحن ماك بوك برو 16"' },
-    image: '/products/anker/anker-prime-a1695-25000/anker-prime-a1695-25000mah-165w-power-bank-premium-cairovolt.webp',
-    price: 3950,
-    originalPrice: 4200,
-    brand: 'Anker',
-    badge: { en: 'Flagship', ar: 'الفلاجشيب' },
-    href: '/anker/power-banks/anker-prime-a1695-25000',
-    highlight: { en: '165W MacBook Pro', ar: '165 واط ماك بوك' },
-  },
-];
 
 interface HeroSectionProps {
   locale: string;
 }
 
+const localePath = (locale: string, path: string) =>
+  locale === 'ar' ? path : `/en${path === '/' ? '' : path}`;
+
 /**
- * HeroSection — Server Component
+ * Conversion-focused, server-rendered hero.
  *
- * Renders the FIRST hero product statically in the server HTML so the LCP image
- * is discoverable immediately by the browser (no waiting for JS hydration).
- *
- * The HeroCarousel client component hydrates on top and takes over for
- * auto-rotation and pill click interactivity.
+ * The previous carousel swapped an SSR placeholder after hydration. Keeping the
+ * first decision static makes the value proposition easier to scan, keeps the
+ * hero useful without JavaScript, and removes a source of LCP/CLS instability.
  */
 export default function HeroSection({ locale }: HeroSectionProps) {
   const isAr = locale === 'ar';
-  const firstProduct = heroProducts[0];
 
   return (
-    <section
-      id="hero-section"
-      className="relative overflow-hidden"
-      style={{
-        background: 'radial-gradient(ellipse at center, rgba(59,130,246,0.15) 0%, transparent 50%), linear-gradient(135deg, #0a0f1c 0%, #111d35 50%, #0d1628 100%)',
-      }}
-    >
+    <section id="hero-section" className="relative isolate overflow-hidden bg-[#050814] text-white">
+      <Image
+        src="/images/home/cairovolt-hero-city-electric-v1.webp"
+        alt=""
+        fill
+        priority
+        fetchPriority="high"
+        sizes="100vw"
+        className="-z-20 object-cover object-center opacity-80"
+        aria-hidden="true"
+      />
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,7,18,0.98)_0%,rgba(4,7,18,0.86)_42%,rgba(4,7,18,0.28)_72%,rgba(4,7,18,0.78)_100%)] rtl:bg-[linear-gradient(270deg,rgba(4,7,18,0.98)_0%,rgba(4,7,18,0.86)_42%,rgba(4,7,18,0.28)_72%,rgba(4,7,18,0.78)_100%)]" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-48 bg-gradient-to-t from-[#050814] to-transparent" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-        {/* ════════════════════════════════════════════════════════════
-           SSR Placeholder — Renders the first product statically.
-           Hidden by HeroCarousel after hydration via data-hero-ssr.
-           ════════════════════════════════════════════════════════════ */}
-        <div data-hero-ssr>
-          <div
-            className={`flex flex-col ${isAr ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-16`}
-          >
-            {/* Text Side */}
-            <div className={`text-center ${isAr ? 'lg:text-right' : 'lg:text-left'} space-y-6 z-10 w-full lg:flex-1`}>
-              {/* Badge */}
-              {firstProduct.badge && (
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 backdrop-blur-sm">
-                  <SvgIcon name="fire" className="w-4 h-4 text-amber-400" />
-                  <span className="text-xs font-semibold text-amber-300 tracking-wide uppercase">
-                    {isAr ? firstProduct.badge.ar : firstProduct.badge.en}
-                  </span>
-                </div>
-              )}
-
-              {/* Heading — SSR placeholder only (instant LCP paint).
-                  Rendered as a styled <p> with heading role, NOT <h1>: the live
-                  <h1> lives in HeroCarousel (the post-hydration, user-visible
-                  heading). Two <h1>s in the DOM is an SEO defect, and this node
-                  is set aria-hidden once the carousel takes over anyway. */}
-              <p
-                role="heading"
-                aria-level={1}
-                className="text-3xl sm:text-4xl lg:text-5xl xl:text-[3.5rem] font-bold text-white leading-tight tracking-tight font-outfit"
-              >
-                {isAr ? (
-                  <>
-                    منتجات <span className="text-blue-400">Anker</span> الأصلية
-                    <br />
-                    <span className="text-slate-300 text-2xl sm:text-3xl lg:text-4xl font-medium">{firstProduct.name.ar}</span>
-                  </>
-                ) : (
-                  <>
-                    Original <span className="text-blue-400">Anker</span> Products
-                    <br />
-                    <span className="text-slate-300 text-2xl sm:text-3xl lg:text-4xl font-medium">{firstProduct.name.en}</span>
-                  </>
-                )}
-              </p>
-
-              {/* Tagline */}
-              <p className="text-lg text-slate-400 font-medium">
-                {isAr ? firstProduct.tagline.ar : firstProduct.tagline.en}
-              </p>
-
-              {/* Social Proof */}
-              <div className={`flex items-center gap-3 justify-center ${isAr ? 'lg:justify-end' : 'lg:justify-start'}`}>
-                <div className="flex">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <SvgIcon key={s} name="star" className={`w-5 h-5 ${s <= 4 ? 'text-amber-400' : 'text-amber-400/80'}`} />
-                  ))}
-                </div>
-                <span className="text-sm text-slate-300 font-medium">
-                  {isAr ? '4.9/5 · أكثر من 2,400 عميل سعيد' : '4.9/5 · 2,400+ happy customers'}
-                </span>
-              </div>
-
-              {/* CTA — Desktop only */}
-              <div className={`hidden lg:flex flex-col sm:flex-row gap-3 ${isAr ? 'justify-end' : 'justify-start'}`}>
-                <Link
-                  href={`${locale === 'ar' ? '' : '/en'}${firstProduct.href}`}
-                  className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300"
-                >
-                  <SvgIcon name="cart" className="w-5 h-5" />
-                  {isAr ? 'اطلب الآن — ادفع عند الاستلام' : 'Order Now — Cash on Delivery'}
-                  <span className="group-hover:translate-x-1 transition-transform duration-300">{isAr ? '←' : '→'}</span>
-                </Link>
-              </div>
-
-              {/* Trust Pills — Desktop only */}
-              <div className={`hidden lg:flex flex-wrap gap-4 pt-2 ${isAr ? 'justify-end' : 'justify-start'}`}>
-                {[
-                  { icon: 'shield', text: isAr ? 'ضمان 18-24 شهر' : '18-24 Month Warranty' },
-                  { icon: 'truck', text: isAr ? 'نوصل كل مصر' : 'All Egypt Delivery' },
-                  { icon: 'check-circle', text: isAr ? '100% Anker أصلي' : '100% Authentic Anker' },
-                ].map((pill) => (
-                  <div key={pill.icon} className="flex items-center gap-1.5 text-slate-400 text-sm">
-                    <SvgIcon name={pill.icon} className="w-4 h-4 text-green-400" />
-                    <span>{pill.text}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Image Side — LCP IMAGE: Server-rendered for immediate discovery */}
-            <div className="relative flex justify-center items-center z-10 w-full lg:flex-1 lg:w-auto px-4 sm:px-0">
-              <div className="relative w-full max-w-[360px] sm:max-w-[380px] lg:max-w-[420px] aspect-square">
-                {/* Glow ring behind product */}
-                <div
-                  className="absolute inset-[-20%] rounded-full opacity-25 blur-[80px] pointer-events-none"
-                  style={{
-                    background: 'radial-gradient(circle, #3b82f6, transparent 70%)',
-                    willChange: 'transform',
-                    contain: 'strict',
-                  }}
-                />
-
-                {/* Product Image — SSR with priority for LCP */}
-                <div className="relative w-full h-full animate-hero-float rounded-2xl overflow-hidden">
-                  <Image
-                    src={firstProduct.image}
-                    alt={isAr ? firstProduct.name.ar : firstProduct.name.en}
-                    fill
-                    className="object-cover"
-                    priority
-                    fetchPriority="high"
-                    sizes="(max-width: 640px) 90vw, (max-width: 1024px) 380px, 420px"
-                  />
-                </div>
-
-                {/* Price tag */}
-                <div className={`absolute -bottom-5 ${isAr ? '-left-6' : '-right-6'} rounded-2xl px-5 py-3 shadow-xl z-20`}
-                  style={{ background: 'rgba(15, 23, 42, 0.95)', border: '1px solid rgba(59, 130, 246, 0.4)' }}
-                >
-                  <div className="text-2xl font-bold text-white font-outfit">
-                    {firstProduct.price.toLocaleString()} <span className="text-sm font-normal text-slate-300">{isAr ? 'ج.م' : 'EGP'}</span>
-                  </div>
-                  {firstProduct.originalPrice && (
-                    <div className="text-sm text-slate-400 line-through">
-                      {firstProduct.originalPrice.toLocaleString()} {isAr ? 'ج.م' : 'EGP'}
-                    </div>
-                  )}
-                </div>
-
-                {/* Highlight tag */}
-                <div className={`absolute -top-5 ${isAr ? '-right-6' : '-left-6'} rounded-xl px-4 py-2 shadow-lg z-20`}
-                  style={{ background: 'rgba(29, 78, 216, 0.92)', border: '1px solid rgba(96, 165, 250, 0.55)' }}
-                >
-                  <span className="text-xs font-bold text-white">
-                    {isAr ? firstProduct.highlight.ar : firstProduct.highlight.en}
-                  </span>
-                </div>
-              </div>
-            </div>
+      <div className="mx-auto grid min-h-[720px] w-full max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.02fr_.98fr] lg:px-8 lg:py-20">
+        <div className={`${isAr ? 'lg:text-right' : 'lg:text-left'} min-w-0 w-full max-w-2xl text-center`}>
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-white/[0.07] px-4 py-2 text-xs font-semibold text-cyan-100 backdrop-blur-md">
+            <SvgIcon name="sparkles" className="h-4 w-4 text-cyan-300" />
+            <span>{isAr ? 'اختيارات أذكى ليومك في مصر' : 'Smarter picks for everyday life in Egypt'}</span>
           </div>
 
-          {/* CTA — Mobile only */}
-          <div className="flex lg:hidden flex-col items-center gap-4 mt-8 z-10 relative">
-            <Link
-              href={`${locale === 'ar' ? '' : '/en'}${firstProduct.href}`}
-              className="group inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold text-lg shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300 w-full max-w-md"
-            >
-              <SvgIcon name="cart" className="w-5 h-5" />
-              {isAr ? 'اطلب الآن — ادفع عند الاستلام' : 'Order Now — Cash on Delivery'}
-              <span className="group-hover:translate-x-1 transition-transform duration-300">{isAr ? '←' : '→'}</span>
-            </Link>
+          <h1 className="break-words font-outfit text-4xl font-bold leading-[1.08] tracking-[-0.035em] text-white sm:text-5xl lg:text-[4.35rem]">
+            {isAr ? (
+              <>
+                طاقة تكمل يومك.
+                <span className="mt-2 block bg-gradient-to-l from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent">
+                  صوت يفصلك عن الزحمة.
+                </span>
+              </>
+            ) : (
+              <>
+                Power that keeps up.
+                <span className="mt-2 block bg-gradient-to-r from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent">
+                  Sound that pulls you in.
+                </span>
+              </>
+            )}
+          </h1>
 
-            {/* Trust Pills — Mobile */}
-            <div className="flex flex-wrap gap-4 justify-center">
-              {[
-                { icon: 'shield', text: isAr ? 'ضمان 18-24 شهر' : '18-24 Month Warranty' },
-                { icon: 'truck', text: isAr ? 'نوصل كل مصر' : 'All Egypt Delivery' },
-                { icon: 'check-circle', text: isAr ? '100% Anker أصلي' : '100% Authentic Anker' },
-              ].map((pill) => (
-                <div key={pill.icon} className="flex items-center gap-1.5 text-slate-400 text-sm">
-                  <SvgIcon name={pill.icon} className="w-4 h-4 text-green-400" />
-                  <span>{pill.text}</span>
-                </div>
-              ))}
-            </div>
+          <p className="hero-description mx-auto mt-6 max-w-xl break-words text-base leading-8 text-slate-300 sm:text-lg lg:mx-0">
+            {isAr
+              ? 'منتجات Anker وSoundcore وJoyroom الأصلية، مرتبة حسب احتياجك الحقيقي — عشان تختار صح من أول مرة وتدفع عند الاستلام.'
+              : 'Original Anker, Soundcore, and Joyroom products arranged around what you actually need — so you choose right the first time and pay on delivery.'}
+          </p>
+
+          <div className={`mt-8 flex flex-col gap-3 sm:flex-row ${isAr ? 'lg:justify-start' : 'lg:justify-start'} justify-center`}>
+            <Link
+              href="#product-showcase"
+              className="group inline-flex min-h-14 items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-bold text-[#07101f] shadow-[0_18px_45px_rgba(0,0,0,.28)] transition hover:-translate-y-0.5 hover:bg-cyan-50"
+            >
+              {isAr ? 'تسوّق الأكثر طلبًا' : 'Shop popular picks'}
+              <span className="transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1">{isAr ? '←' : '→'}</span>
+            </Link>
+            <Link
+              href="#shop-by-need"
+              className="inline-flex min-h-14 items-center justify-center gap-2 rounded-full border border-white/20 bg-white/[0.07] px-7 py-3.5 text-base font-semibold text-white backdrop-blur-md transition hover:border-white/35 hover:bg-white/[0.12]"
+            >
+              <SvgIcon name="compass" className="h-5 w-5 text-cyan-300" />
+              {isAr ? 'اختار حسب استخدامك' : 'Shop by your need'}
+            </Link>
+          </div>
+
+          <div className="quality-badges mt-8 flex flex-wrap justify-center gap-x-5 gap-y-3 text-xs text-slate-300 lg:justify-start sm:text-sm">
+            {[
+              { icon: 'check-circle', ar: 'أصلي ويمكن التحقق منه', en: 'Authenticity you can verify' },
+              { icon: 'shield', ar: 'ضمان حسب المنتج', en: 'Product-specific warranty' },
+              { icon: 'money', ar: 'دفع عند الاستلام', en: 'Cash on delivery' },
+            ].map((item) => (
+              <span key={item.icon} className="flex items-center gap-1.5">
+                <SvgIcon name={item.icon} className="h-4 w-4 text-emerald-300" />
+                {isAr ? item.ar : item.en}
+              </span>
+            ))}
           </div>
         </div>
 
-        {/* ════════════════════════════════════════════════════════════
-           Client Carousel — Hydrates and takes over from SSR placeholder.
-           Adds auto-rotation, pill clicks, and dynamic image swapping.
-           ════════════════════════════════════════════════════════════ */}
-        <HeroCarousel products={heroProducts} locale={locale} />
+        <div className="relative mx-auto min-w-0 w-full max-w-[610px] lg:mx-0">
+          <div className="absolute -inset-8 rounded-full bg-cyan-400/15 blur-3xl" aria-hidden="true" />
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/15 bg-white/[0.09] p-3 shadow-[0_35px_100px_rgba(0,0,0,.42)] backdrop-blur-xl sm:p-4">
+            <Link
+              href={localePath(locale, '/soundcore/audio/anker-soundcore-r50i-nc')}
+              className="group relative block overflow-hidden rounded-[1.55rem]"
+              style={{ backgroundImage: 'radial-gradient(120% 90% at 50% 0%, #ffffff 0%, #eef2f7 55%, #dfe7f0 100%)' }}
+            >
+              <div className="relative aspect-[1.13/1] min-h-[360px] sm:min-h-[430px]">
+                <Image
+                  src="/images/home/cutouts/soundcore-r50i-nc-cutout.png"
+                  alt={isAr ? 'سماعة Soundcore R50i NC الأصلية' : 'Original Soundcore R50i NC earbuds'}
+                  fill
+                  priority
+                  fetchPriority="high"
+                  sizes="(max-width: 1024px) 90vw, 560px"
+                  className="object-contain p-8 pb-16 drop-shadow-[0_35px_45px_rgba(15,23,42,.28)] transition duration-700 group-hover:scale-[1.035] sm:p-12 sm:pb-20"
+                />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#07101f] via-[#07101f]/90 to-transparent px-5 pb-5 pt-24 text-white sm:px-7 sm:pb-7">
+                  <div className="mb-2 flex items-center justify-between gap-4">
+                    <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[.16em] text-cyan-100">
+                      Soundcore
+                    </span>
+                    <span className="text-sm text-slate-300">{isAr ? 'إلغاء ضوضاء 42dB' : '42dB noise cancelling'}</span>
+                  </div>
+                  <div className="flex items-end justify-between gap-4">
+                    <div>
+                      <h2 className="font-outfit text-2xl font-bold sm:text-3xl">R50i NC</h2>
+                      <p className="mt-1 text-sm text-slate-300">{isAr ? '45 ساعة · 4 مايك للمكالمات' : '45 hours · 4-mic clear calls'}</p>
+                    </div>
+                    <div className="whitespace-nowrap text-end">
+                      <span className="font-outfit text-2xl font-bold">1,199</span>
+                      <span className="ms-1 text-xs text-slate-300">{isAr ? 'ج.م' : 'EGP'}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+
+          <Link
+            href={localePath(locale, '/anker/wall-chargers/anker-nano-45w-smart-display-charger')}
+            className={`absolute -top-7 hidden w-[190px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-left-5' : '-right-5'}`}
+          >
+            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-white">
+              <Image
+                src="/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt-pill.webp"
+                alt="Anker Nano 45W"
+                fill
+                unoptimized
+                className="object-cover"
+              />
+            </span>
+            <span className="min-w-0">
+              <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">Anker</span>
+              <span className="block truncate text-xs font-semibold text-white">Nano 45W</span>
+              <span className="block text-[11px] text-slate-400">1,900 {isAr ? 'ج.م' : 'EGP'}</span>
+            </span>
+          </Link>
+
+          <Link
+            href={localePath(locale, '/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station')}
+            className={`absolute -bottom-12 hidden w-[215px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-right-6' : '-left-6'}`}
+          >
+            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-white">
+              <Image
+                src="/images/home/cutouts/joyroom-3in1-station-cutout.png"
+                alt="Joyroom 3-in-1 Wireless Station"
+                fill
+                sizes="56px"
+                className="object-contain p-1.5"
+              />
+            </span>
+            <span className="min-w-0">
+              <span className="block text-[10px] font-semibold uppercase tracking-wider text-emerald-300">Joyroom</span>
+              <span className="block truncate text-xs font-semibold text-white">{isAr ? 'محطة شحن 3 في 1' : '3-in-1 Station'}</span>
+              <span className="block text-[11px] text-slate-400">1,206 {isAr ? 'ج.م' : 'EGP'}</span>
+            </span>
+          </Link>
+        </div>
       </div>
     </section>
   );
