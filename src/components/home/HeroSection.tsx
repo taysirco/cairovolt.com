@@ -97,10 +97,10 @@ export default function HeroSection({ locale }: HeroSectionProps) {
         </div>
 
         <div className="relative mx-auto min-w-0 w-full max-w-[610px] lg:mx-0">
-          <div className="absolute -inset-8 rounded-full bg-cyan-400/15 blur-3xl" aria-hidden="true" />
+          <div className="absolute -inset-8 rounded-full bg-blue-400/15 blur-3xl" aria-hidden="true" />
           <div className="relative overflow-hidden rounded-[2rem] border border-white/15 bg-white/[0.09] p-3 shadow-[0_35px_100px_rgba(0,0,0,.42)] backdrop-blur-xl sm:p-4">
             <Link
-              href={localePath(locale, '/soundcore/audio/anker-soundcore-r50i-nc')}
+              href={localePath(locale, '/anker/wall-chargers/anker-nano-45w-smart-display-charger')}
               className="group relative block overflow-hidden rounded-[1.55rem]"
               style={{ backgroundImage: 'radial-gradient(130% 105% at 50% 0%, #ffffff 0%, #f7f9fc 58%, #eef2f8 100%)' }}
             >
@@ -111,37 +111,40 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                   aria-hidden="true"
                   className="absolute inset-x-0"
                   style={{
-                    bottom: '17%',
-                    height: '9%',
-                    margin: '0 18%',
-                    background: 'radial-gradient(50% 100% at 50% 50%, rgba(15,23,42,.22), transparent 72%)',
+                    bottom: '20%',
+                    height: '8%',
+                    margin: '0 24%',
+                    background: 'radial-gradient(50% 100% at 50% 50%, rgba(15,23,42,.18), transparent 72%)',
                     filter: 'blur(7px)',
                   }}
                 />
                 <Image
-                  src="/images/home/cutouts/soundcore-r50i-nc-anc-earbuds-cutout-cairovolt.png"
-                  alt={isAr ? 'سماعة Soundcore R50i NC الأصلية' : 'Original Soundcore R50i NC earbuds'}
+                  src="/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png"
+                  alt={isAr ? 'شاحن أنكر نانو 45 واط الذكي بشاشة تفاعلية' : 'Anker Nano 45W smart charger with interactive display'}
                   fill
                   priority
                   fetchPriority="high"
                   sizes="(max-width: 1024px) 90vw, 560px"
-                  className="object-contain p-5 pb-16 drop-shadow-[0_24px_30px_rgba(15,23,42,.20)] transition duration-700 group-hover:scale-[1.035] sm:p-8 sm:pb-20"
+                  className="object-contain p-8 pb-24 drop-shadow-[0_24px_30px_rgba(15,23,42,.18)] transition duration-700 group-hover:scale-[1.035] sm:p-12 sm:pb-28"
                 />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#07101f] via-[#07101f]/90 to-transparent px-5 pb-5 pt-24 text-white sm:px-7 sm:pb-7">
+                {/* Calm, light info bar: dark-on-light reads softer than the
+                    old black gradient and keeps the whole stage serene. */}
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/90 to-transparent px-5 pb-5 pt-16 text-[#0b1324] sm:px-7 sm:pb-6">
                   <div className="mb-2 flex items-center justify-between gap-4">
-                    <span className="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[.16em] text-cyan-100">
-                      Soundcore
+                    <span className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-[11px] font-bold uppercase tracking-[.16em] text-blue-700">
+                      Anker
                     </span>
-                    <span className="text-sm text-slate-300">{isAr ? 'إلغاء ضوضاء 42dB' : '42dB noise cancelling'}</span>
+                    <span className="text-sm text-slate-500">{isAr ? 'شاشة ذكية تفاعلية' : 'Smart interactive display'}</span>
                   </div>
                   <div className="flex items-end justify-between gap-4">
                     <div>
-                      <h2 className="font-outfit text-2xl font-bold sm:text-3xl">R50i NC</h2>
-                      <p className="mt-1 text-sm text-slate-300">{isAr ? '45 ساعة · 4 مايك للمكالمات' : '45 hours · 4-mic clear calls'}</p>
+                      <h2 className="font-outfit text-2xl font-bold sm:text-3xl">{isAr ? 'نانو 45 واط الذكي' : 'Nano 45W Smart'}</h2>
+                      <p className="mt-1 text-sm text-slate-500">{isAr ? 'GaN · يعرض قوة الشحن لحظة بلحظة' : 'GaN · live charging readout'}</p>
                     </div>
                     <div className="whitespace-nowrap text-end">
-                      <span className="font-outfit text-2xl font-bold">1,199</span>
-                      <span className="ms-1 text-xs text-slate-300">{isAr ? 'ج.م' : 'EGP'}</span>
+                      <span className="me-2 text-sm text-slate-400 line-through">2,700</span>
+                      <span className="font-outfit text-2xl font-bold">1,900</span>
+                      <span className="ms-1 text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
                     </div>
                   </div>
                 </div>
@@ -150,22 +153,22 @@ export default function HeroSection({ locale }: HeroSectionProps) {
           </div>
 
           <Link
-            href={localePath(locale, '/anker/wall-chargers/anker-nano-45w-smart-display-charger')}
+            href={localePath(locale, '/soundcore/audio/anker-soundcore-r50i-nc')}
             className={`absolute -top-7 hidden w-[190px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-left-5' : '-right-5'}`}
           >
             <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
               <Image
-                src="/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png"
-                alt="Anker Nano 45W"
+                src="/images/home/cutouts/soundcore-r50i-nc-anc-earbuds-cutout-cairovolt.png"
+                alt="Soundcore R50i NC"
                 fill
                 sizes="56px"
                 className="object-contain p-1 drop-shadow-sm"
               />
             </span>
             <span className="min-w-0">
-              <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">Anker</span>
-              <span className="block truncate text-xs font-semibold text-white">Nano 45W</span>
-              <span className="block text-[11px] text-slate-400">1,900 {isAr ? 'ج.م' : 'EGP'}</span>
+              <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">Soundcore</span>
+              <span className="block truncate text-xs font-semibold text-white">R50i NC</span>
+              <span className="block text-[11px] text-slate-400">1,199 {isAr ? 'ج.م' : 'EGP'}</span>
             </span>
           </Link>
 
