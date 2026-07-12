@@ -44,11 +44,68 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
   const isClosestFallback = budget !== 'any' && exactMatches.length === 0;
   const recommendations = (isClosestFallback ? needProducts : exactMatches).slice(0, 3);
 
-  const needs: Array<{ key: Need; icon: string; ar: string; en: string }> = [
-    { key: 'sound', icon: 'headphones', ar: 'عايز صوت أفضل', en: 'Better sound' },
-    { key: 'power', icon: 'battery', ar: 'بطاريتي ما تخلصش', en: 'All-day power' },
-    { key: 'charging', icon: 'bolt', ar: 'عايز أشحن أسرع', en: 'Faster charging' },
+  const needs: Array<{
+    key: Need;
+    icon: string;
+    ar: string;
+    en: string;
+    feelAr: string;
+    feelEn: string;
+    resultAr: string;
+    resultEn: string;
+  }> = [
+    {
+      key: 'sound',
+      icon: 'headphones',
+      ar: 'عايز صوت أفضل',
+      en: 'Better sound',
+      feelAr: 'فاهمينك — دوشة المواصلات والشغل مش المفروض تبقى خلفية يومك.',
+      feelEn: 'We get it — commutes and offices should not be the soundtrack of your day.',
+      resultAr: 'اختيارات بتقفل الدوشة وتفتح مزاجك',
+      resultEn: 'Picks that mute the noise and lift your mood',
+    },
+    {
+      key: 'power',
+      icon: 'battery',
+      ar: 'بطاريتي ما تخلصش',
+      en: 'All-day power',
+      feelAr: 'قلق الـ 1% في نص اليوم؟ خلّيه ذكرى — دي طاقة تمشي معاك لآخر مشوار.',
+      feelEn: 'That 1% anxiety mid-day? Make it history — power that outlasts your day.',
+      resultAr: 'طاقة تكفي يومك كله من غير ما تدوّر على فيشة',
+      resultEn: 'Power for your whole day — no outlet hunting',
+    },
+    {
+      key: 'charging',
+      icon: 'bolt',
+      ar: 'عايز أشحن أسرع',
+      en: 'Faster charging',
+      feelAr: 'ربع ساعة قبل ما تنزل تفرق — شحن أسرع وأأمن يلحق إيقاعك.',
+      feelEn: 'Fifteen minutes before you leave should count — faster, safer charging that keeps up.',
+      resultAr: 'شحن أسرع وأأمن يلحق إيقاع يومك',
+      resultEn: 'Faster, safer charging that keeps your pace',
+    },
   ];
+
+  // Why-this-pick: one concrete, feelable benefit per curated product.
+  const whyPick: Record<string, { ar: string; en: string }> = {
+    'anker-soundcore-r50i-nc': { ar: 'عزل 42dB — سكوت فوري للزحمة', en: '42dB ANC — instant quiet' },
+    'anker-soundcore-k20i': { ar: 'خفيفة ومريحة لليوم كله', en: 'Light and comfy all day' },
+    'joyroom-t03s-pro-earbuds': { ar: 'أذكى بداية بأقل ميزانية', en: 'The smartest budget start' },
+    'anker-soundcore-flare-2': { ar: 'صوت يملأ المكان وإضاءة حفلة', en: 'Room-filling sound, party light' },
+    'anker-zolo-a110e-20000': { ar: 'بكابل مدمج — مش هتنسى الكابل تاني', en: 'Built-in cable — never forgotten' },
+    'anker-prime-a1695-25000': { ar: 'قوة تشحن اللابتوب نفسه', en: 'Charges your laptop too' },
+    'anker-nano-45w': { ar: 'صغير وبشاشة ذكية تطمّنك', en: 'Tiny, with a smart display' },
+    'joyroom-20w-usb-c-charger': { ar: 'الأساسي اليومي بسعر مريح', en: 'The easy everyday pick' },
+  };
+
+  // The community favourite for each need — social proof at the decision moment.
+  const popularPick: Record<Need, string> = {
+    sound: 'anker-soundcore-r50i-nc',
+    power: 'anker-zolo-a110e-20000',
+    charging: 'anker-nano-45w',
+  };
+
+  const activeNeed = needs.find((option) => option.key === need) ?? needs[0];
 
   const budgets: Array<{ key: Budget; ar: string; en: string }> = [
     { key: 'any', ar: 'الأفضل لاحتياجي', en: 'Best match' },
@@ -96,8 +153,17 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
               </div>
             </div>
 
+            {/* Empathy echo: the section answers the choice in the customer's
+                own words before showing products — feel understood first. */}
+            <p key={activeNeed.key} className="mt-5 rounded-2xl border border-cyan-300/15 bg-cyan-300/[0.07] px-4 py-3 text-sm leading-7 text-cyan-50">
+              {isAr ? activeNeed.feelAr : activeNeed.feelEn}
+            </p>
+
             <div className="mt-6">
-              <p className="mb-3 text-xs font-bold uppercase tracking-[.14em] text-slate-400">{isAr ? '2. الميزانية المريحة؟' : '2. Your comfortable budget?'}</p>
+              <p className="mb-1 text-xs font-bold uppercase tracking-[.14em] text-slate-400">{isAr ? '2. الميزانية المريحة؟' : '2. Your comfortable budget?'}</p>
+              <p className="mb-3 text-xs leading-5 text-slate-500">
+                {isAr ? 'مفيش إجابة صح وغلط — بنرشّح على قد ميزانيتك.' : 'No wrong answer — we match what fits you.'}
+              </p>
               <div className="flex flex-wrap gap-2">
                 {budgets.map((option) => {
                   const selected = budget === option.key;
@@ -120,8 +186,8 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
           <div className="rounded-[2rem] border border-white/10 bg-white/[0.055] p-4 sm:p-6">
             <div className="mb-5 flex items-center justify-between gap-4">
               <div>
-                <p className="text-xs font-bold uppercase tracking-[.14em] text-cyan-300">{isAr ? 'نقطة بداية مناسبة' : 'A useful starting point'}</p>
-                <h3 className="mt-1 font-outfit text-2xl font-bold">{isAr ? 'اختياراتك الأقرب' : 'Your closest matches'}</h3>
+                <p className="text-xs font-bold uppercase tracking-[.14em] text-cyan-300">{isAr ? 'مرشّحة مخصوص ليك' : 'Picked for your day'}</p>
+                <h3 className="mt-1 font-outfit text-2xl font-bold">{isAr ? activeNeed.resultAr : activeNeed.resultEn}</h3>
               </div>
               <span className="rounded-full bg-white/10 px-3 py-1.5 text-xs text-slate-300">{recommendations.length} {isAr ? 'نتائج' : 'matches'}</span>
             </div>
@@ -152,9 +218,21 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                     />
                   </div>
                   <div className="p-4">
-                    <span className="text-[10px] font-bold uppercase tracking-[.14em] text-blue-700">{product.brand}</span>
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="text-[10px] font-bold uppercase tracking-[.14em] text-blue-700">{product.brand}</span>
+                      {popularPick[need] === product.slug && (
+                        <span className="rounded-full bg-[#07111f] px-2 py-1 text-[10px] font-bold text-amber-300">
+                          {isAr ? '⭐ الأكثر طلبًا' : '⭐ Most requested'}
+                        </span>
+                      )}
+                    </div>
                     <h4 className="mt-1 line-clamp-2 min-h-10 text-sm font-bold leading-5">{isAr ? product.name.ar : product.name.en}</h4>
-                    <div className="mt-3 flex items-baseline gap-1.5">
+                    {whyPick[product.slug] && (
+                      <p className="mt-1 line-clamp-1 text-[11px] leading-5 text-slate-500">
+                        {isAr ? whyPick[product.slug].ar : whyPick[product.slug].en}
+                      </p>
+                    )}
+                    <div className="mt-2 flex items-baseline gap-1.5">
                       <strong className="font-outfit text-xl">{product.price.toLocaleString()}</strong>
                       <span className="text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
                     </div>
@@ -162,6 +240,23 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                 </Link>
               ))}
             </div>
+
+            {/* Decision-moment reassurance: remove the last worries exactly
+                where the customer commits. */}
+            {recommendations.length > 0 && (
+              <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-white/10 pt-4 text-xs text-slate-300">
+                {[
+                  { icon: 'check-circle', ar: 'أصلي ويمكن التحقق منه', en: 'Verifiably original' },
+                  { icon: 'shield', ar: 'ضمان حسب المنتج', en: 'Product-specific warranty' },
+                  { icon: 'money', ar: 'ادفع لما يوصلك', en: 'Pay when it arrives' },
+                ].map((item) => (
+                  <span key={item.icon} className="flex items-center gap-1.5">
+                    <SvgIcon name={item.icon} className="h-4 w-4 text-emerald-300" />
+                    {isAr ? item.ar : item.en}
+                  </span>
+                ))}
+              </div>
+            )}
 
             {recommendations.length === 0 && (
               <p className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 text-sm text-slate-300">

@@ -102,9 +102,22 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             <Link
               href={localePath(locale, '/soundcore/audio/anker-soundcore-r50i-nc')}
               className="group relative block overflow-hidden rounded-[1.55rem]"
-              style={{ backgroundImage: 'radial-gradient(120% 90% at 50% 0%, #ffffff 0%, #eef2f7 55%, #dfe7f0 100%)' }}
+              style={{ backgroundImage: 'radial-gradient(130% 105% at 50% 0%, #ffffff 0%, #f7f9fc 58%, #eef2f8 100%)' }}
             >
               <div className="relative aspect-[1.13/1] min-h-[360px] sm:min-h-[430px]">
+                {/* Studio floor shadow grounds the product like a lit set —
+                    inline-styled so it never depends on the CSS build. */}
+                <div
+                  aria-hidden="true"
+                  className="absolute inset-x-0"
+                  style={{
+                    bottom: '17%',
+                    height: '9%',
+                    margin: '0 18%',
+                    background: 'radial-gradient(50% 100% at 50% 50%, rgba(15,23,42,.22), transparent 72%)',
+                    filter: 'blur(7px)',
+                  }}
+                />
                 <Image
                   src="/images/home/cutouts/soundcore-r50i-nc-anc-earbuds-cutout-cairovolt.png"
                   alt={isAr ? 'سماعة Soundcore R50i NC الأصلية' : 'Original Soundcore R50i NC earbuds'}
@@ -112,7 +125,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                   priority
                   fetchPriority="high"
                   sizes="(max-width: 1024px) 90vw, 560px"
-                  className="object-contain p-8 pb-16 drop-shadow-[0_35px_45px_rgba(15,23,42,.28)] transition duration-700 group-hover:scale-[1.035] sm:p-12 sm:pb-20"
+                  className="object-contain p-5 pb-16 drop-shadow-[0_24px_30px_rgba(15,23,42,.20)] transition duration-700 group-hover:scale-[1.035] sm:p-8 sm:pb-20"
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#07101f] via-[#07101f]/90 to-transparent px-5 pb-5 pt-24 text-white sm:px-7 sm:pb-7">
                   <div className="mb-2 flex items-center justify-between gap-4">
