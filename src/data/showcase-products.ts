@@ -80,7 +80,7 @@ export const showcaseProducts: ShowcaseProduct[] = [
   {
     slug: 'joyroom-t03s-pro-earbuds',
     name: { en: 'Joyroom T03S Pro ANC Earbuds', ar: 'جوي روم T03S Pro ANC' },
-    image: '/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-1-thumb.webp',
+    image: '/products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9-thumb.webp',
     price: 664,
     originalPrice: 799,
     brand: 'Joyroom',
