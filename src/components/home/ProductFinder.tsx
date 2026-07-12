@@ -4,19 +4,27 @@ import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
-import { showcaseProducts, type ShowcaseProduct } from '@/data/showcase-products';
+import { showcaseProducts, finderExtraProducts, type ShowcaseProduct } from '@/data/showcase-products';
 
 interface ProductFinderProps {
   locale: string;
 }
 
-type Need = 'sound' | 'power' | 'charging';
+type Need = 'sound' | 'power' | 'charging' | 'cables' | 'car';
 type Budget = 'any' | 'under-1000' | 'mid' | 'premium';
+
+// Full finder pool: curated showcase + finder-only extras.
+const finderPool: ShowcaseProduct[] = [...showcaseProducts, ...finderExtraProducts];
+
+// Anker is the house flagship: Anker → Soundcore (Anker family) → Joyroom.
+const brandRank: Record<string, number> = { Anker: 0, Soundcore: 1, Joyroom: 2 };
 
 const matchesNeed = (product: ShowcaseProduct, need: Need) => {
   if (need === 'sound') return product.categorySlug === 'audio' || product.categorySlug === 'speakers';
   if (need === 'power') return product.categorySlug === 'power-banks';
-  return product.categorySlug === 'wall-chargers' || product.categorySlug === 'cables';
+  if (need === 'cables') return product.categorySlug === 'cables';
+  if (need === 'car') return product.categorySlug === 'car-chargers';
+  return product.categorySlug === 'wall-chargers';
 };
 
 const matchesBudget = (product: ShowcaseProduct, budget: Budget) => {
@@ -32,7 +40,10 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
   const [budget, setBudget] = useState<Budget>('any');
 
   const needProducts = useMemo(
-    () => showcaseProducts.filter((product) => matchesNeed(product, need)),
+    () =>
+      finderPool
+        .filter((product) => matchesNeed(product, need))
+        .sort((a, b) => (brandRank[a.brand] ?? 3) - (brandRank[b.brand] ?? 3)),
     [need],
   );
 
@@ -42,7 +53,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
   );
 
   const isClosestFallback = budget !== 'any' && exactMatches.length === 0;
-  const recommendations = (isClosestFallback ? needProducts : exactMatches).slice(0, 3);
+  const recommendations = (isClosestFallback ? needProducts : exactMatches).slice(0, 6);
 
   const needs: Array<{
     key: Need;
@@ -81,8 +92,28 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
       en: 'Faster charging',
       feelAr: 'ربع ساعة قبل ما تنزل تفرق — شحن أسرع وأأمن يلحق إيقاعك.',
       feelEn: 'Fifteen minutes before you leave should count — faster, safer charging that keeps up.',
-      resultAr: 'شحن أسرع وأأمن يلحق إيقاع يومك',
-      resultEn: 'Faster, safer charging that keeps your pace',
+      resultAr: 'شواحن أنكر GaN — أسرع وأبرد وأأمن',
+      resultEn: 'Anker GaN chargers — faster, cooler, safer',
+    },
+    {
+      key: 'cables',
+      icon: 'cable',
+      ar: 'كابل يستحمل',
+      en: 'A cable that lasts',
+      feelAr: 'زهقت من كابل بيتقشر أو بيفصل بعد شهرين؟ إحنا كمان — عشان كده بنرشّح اللي يعيش سنين.',
+      feelEn: 'Tired of cables fraying after two months? So are we — these are built to last for years.',
+      resultAr: 'كابلات أنكر مضفرة — تتشد وتتلوى وتعيش',
+      resultEn: 'Braided Anker cables — bend, pull, and last',
+    },
+    {
+      key: 'car',
+      icon: 'car',
+      ar: 'شحن في العربية',
+      en: 'Charging in the car',
+      feelAr: 'مشاوير طويلة والبطارية بتنزل؟ خلّي العربية محطة شحن — تركيب مرة واحدة وخلاص.',
+      feelEn: 'Long drives draining the battery? Turn the car into a charging station — set it up once.',
+      resultAr: 'عِدّة العربية: تثبيت وشحن من غير لخبطة وايرات',
+      resultEn: 'Your car kit: mount and charge, no cable mess',
     },
   ];
 
@@ -94,8 +125,18 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
     'anker-soundcore-flare-2': { ar: 'صوت يملأ المكان وإضاءة حفلة', en: 'Room-filling sound, party light' },
     'anker-zolo-a110e-20000': { ar: 'بكابل مدمج — مش هتنسى الكابل تاني', en: 'Built-in cable — never forgotten' },
     'anker-prime-a1695-25000': { ar: 'قوة تشحن اللابتوب نفسه', en: 'Charges your laptop too' },
-    'anker-nano-45w': { ar: 'صغير وبشاشة ذكية تطمّنك', en: 'Tiny, with a smart display' },
+    'anker-nano-45w': { ar: 'الأشهر — صغير وسعره مظبوط', en: 'The crowd favourite 45W' },
     'joyroom-20w-usb-c-charger': { ar: 'الأساسي اليومي بسعر مريح', en: 'The easy everyday pick' },
+    'anker-zolo-30w-a2698-charger': { ar: 'أبرد شاحن GaN — بحجم علبة كبريت', en: 'Coolest GaN — matchbox size' },
+    'anker-nano-45w-smart-display-charger': { ar: 'شاشة بتطمّنك على كل واط', en: 'A display that shows every watt' },
+    'anker-prime-a2669-67w-gan-charger': { ar: '3 منافذ — لابتوب وموبايلين مرة واحدة', en: '3 ports — laptop + two phones' },
+    'anker-a8050-usb-c-cable': { ar: 'مضفر يستحمل الشد اليومي', en: 'Braided for daily pulling' },
+    'anker-310-usb-c-lightning-cable': { ar: 'للآيفون — شحن سريع في 30 دقيقة', en: 'iPhone fast-charge in 30 min' },
+    'anker-zolo-usb-c-braided-cable': { ar: '240 واط — جاهز لأي لابتوب', en: '240W — ready for any laptop' },
+    'anker-a2216-magnetic-wireless-car-charger': { ar: 'مغناطيس — تثبيت وشحن بحركة واحدة', en: 'Magnetic — snap in, charge on' },
+    'joyroom-60w-car-charger': { ar: 'كابلين سحّاب مدمجين — مفيش وايرات', en: 'Two built-in retractable cables' },
+    'anker-prime-fusion-a1339-9600mah-65w': { ar: 'شاحن حائط وباور بانك في واحد', en: 'Wall charger + power bank in one' },
+    'soundcore-a25i-earbuds': { ar: 'خفيفة وبطاريتها 28 ساعة', en: '28-hour battery, featherlight' },
   };
 
   // The community favourite for each need — social proof at the decision moment.
@@ -103,6 +144,8 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
     sound: 'anker-soundcore-r50i-nc',
     power: 'anker-zolo-a110e-20000',
     charging: 'anker-nano-45w',
+    cables: 'anker-a8050-usb-c-cable',
+    car: 'anker-a2216-magnetic-wireless-car-charger',
   };
 
   const activeNeed = needs.find((option) => option.key === need) ?? needs[0];
