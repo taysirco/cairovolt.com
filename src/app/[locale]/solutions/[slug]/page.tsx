@@ -30,11 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const title = isArabic ? solution.searchQuery.ar : solution.searchQuery.en;
     const desc = isArabic ? solution.problemStatement.ar : solution.problemStatement.en;
 
+    const brand = isArabic ? 'كايرو فولت' : 'CairoVolt';
+
     return {
-        title: { absolute: `${title} | CairoVolt` },
+        title: { absolute: `${title} | ${brand}` },
         description: desc,
         openGraph: {
-            title: `${title} | CairoVolt`,
+            title: `${title} | ${brand}`,
             description: desc,
             url: isArabic
                 ? `https://cairovolt.com/solutions/${slug}`

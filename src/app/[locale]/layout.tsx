@@ -38,61 +38,86 @@ const outfit = Outfit({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://cairovolt.com'),
-  verification: {
-    google: '_OOytL9s0O8UkXhp8t8TsZw-hXGRTj12boqhQtgJLJw',
-  },
-  // Rich-result presentation directives (Google merchant listings guidance):
-  // large image previews + unrestricted snippets so price/stock/rating render fully.
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+// Locale-aware root metadata: the title TEMPLATE and every default string must
+// switch with the locale — a static object here leaks the English
+// "… | CairoVolt" suffix and English defaults into every Arabic page.
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isAr = locale === 'ar';
+
+  return {
+    metadataBase: new URL('https://cairovolt.com'),
+    verification: {
+      google: '_OOytL9s0O8UkXhp8t8TsZw-hXGRTj12boqhQtgJLJw',
+    },
+    // Rich-result presentation directives (Google merchant listings guidance):
+    // large image previews + unrestricted snippets so price/stock/rating render fully.
+    robots: {
       index: true,
       follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-      'max-video-preview': -1,
-    },
-  },
-  title: {
-    template: '%s | CairoVolt',
-    default: 'CairoVolt - Premium Mobile Accessories in Egypt',
-  },
-  description: 'Shop the best mobile accessories from Anker and Joyroom in Egypt. Power banks, chargers, earbuds, cables at the best prices with official warranty.',
-  icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
-      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
-      { url: '/icon.png', sizes: '192x192', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
-  },
-  // alternates are set per-page via generateMetadata to avoid homepage-pointing hreflang on all pages
-  openGraph: {
-    type: 'website',
-    locale: 'ar_EG',
-    alternateLocale: 'en_US',
-    siteName: 'CairoVolt',
-    images: [
-      {
-        url: '/og-cover.png',
-        width: 1200,
-        height: 630,
-        alt: 'CairoVolt - Premium Mobile Accessories in Egypt',
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
       },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'CairoVolt - Premium Mobile Accessories in Egypt',
-    description: 'Shop original Anker & Joyroom accessories with official warranty. Power banks, chargers, earbuds, cables.',
-    images: ['/og-cover.png'],
-  },
-};
+    },
+    title: isAr
+      ? {
+          template: '%s | كايرو فولت',
+          default: 'كايرو فولت | اكسسوارات موبايل أصلية في مصر — أنكر وجوي روم',
+        }
+      : {
+          template: '%s | CairoVolt',
+          default: 'CairoVolt | Original Mobile Accessories in Egypt — Anker & Joyroom',
+        },
+    description: isAr
+      ? 'كايرو فولت — الوكيل المعتمد لاكسسوارات الموبايل الأصلية في مصر: باور بانك، شواحن، سماعات وكابلات من Anker وSoundcore وJoyroom بضمان حقيقي والدفع عند الاستلام.'
+      : 'Shop the best mobile accessories from Anker and Joyroom in Egypt. Power banks, chargers, earbuds, cables at the best prices with official warranty.',
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+        { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
+        { url: '/icon.png', sizes: '192x192', type: 'image/png' },
+      ],
+      apple: [
+        { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+      ],
+    },
+    // alternates are set per-page via generateMetadata to avoid homepage-pointing hreflang on all pages
+    openGraph: {
+      type: 'website',
+      locale: isAr ? 'ar_EG' : 'en_US',
+      alternateLocale: isAr ? 'en_US' : 'ar_EG',
+      siteName: isAr ? 'كايرو فولت' : 'CairoVolt',
+      images: [
+        {
+          url: '/og-cover.png',
+          width: 1200,
+          height: 630,
+          alt: isAr
+            ? 'كايرو فولت — اكسسوارات موبايل أصلية في مصر'
+            : 'CairoVolt - Premium Mobile Accessories in Egypt',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: isAr
+        ? 'كايرو فولت | اكسسوارات موبايل أصلية في مصر'
+        : 'CairoVolt - Premium Mobile Accessories in Egypt',
+      description: isAr
+        ? 'منتجات Anker وSoundcore وJoyroom الأصلية بضمان حقيقي والدفع عند الاستلام — توصيل لكل محافظات مصر.'
+        : 'Shop original Anker & Joyroom accessories with official warranty. Power banks, chargers, earbuds, cables.',
+      images: ['/og-cover.png'],
+    },
+  };
+}
 
 
 // Statically enumerate the locale segment so all child routes can prerender.

@@ -29,12 +29,12 @@ const categories = [
     icon: 'battery',
     titleAr: 'طاقة تكمّل اليوم',
     titleEn: 'Power that lasts',
-    copyAr: 'باور بانك للسفر، الشغل واليوم الطويل.',
-    copyEn: 'Power banks for travel, work, and long days.',
+    copyAr: 'باور بانك للسفر واليوم الطويل.',
+    copyEn: 'Power banks for travel and long days.',
     href: '/power-banks',
     image: '/images/home/cutouts/anker-zolo-a110d-power-bank-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#e8f2ff] text-[#07111f]',
-    imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
+    imageClass: 'object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-blue-700 bg-white/70 border-white',
     copyClass: 'text-slate-600',
     dark: false,
@@ -49,7 +49,7 @@ const categories = [
     href: '/chargers',
     image: '/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#eef0ff] text-[#07111f]',
-    imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
+    imageClass: 'object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-indigo-700 bg-white/70 border-white',
     copyClass: 'text-slate-600',
     dark: false,
@@ -59,12 +59,12 @@ const categories = [
     icon: 'cable',
     titleAr: 'الكابل الصح لجهازك',
     titleEn: 'The right cable, first time',
-    copyAr: 'USB-C وLightning وقدرات شحن واضحة.',
-    copyEn: 'USB-C, Lightning, and clearly labelled power.',
+    copyAr: 'USB-C وLightning بقدرات واضحة.',
+    copyEn: 'USB-C and Lightning, clearly labelled.',
     href: '/cables',
     image: '/images/home/cutouts/anker-a8050-usb-c-cable-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#f5eee9] text-[#07111f]',
-    imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
+    imageClass: 'object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-amber-800 bg-white/70 border-white',
     copyClass: 'text-slate-600',
     dark: false,
@@ -74,12 +74,12 @@ const categories = [
     icon: 'car',
     titleAr: 'عربيتك أذكى',
     titleEn: 'A smarter drive',
-    copyAr: 'حوامل وشواحن تثبت معاك على الطريق.',
-    copyEn: 'Mounts and chargers made for the road.',
+    copyAr: 'حوامل وشواحن ثابتة على الطريق.',
+    copyEn: 'Mounts and chargers for the road.',
     href: '/anker/car-chargers',
     image: '/images/home/cutouts/anker-a2216-magnetic-car-charger-cutout-cairovolt.png',
     className: 'md:col-span-3 bg-[#e9f6f2] text-[#07111f]',
-    imageClass: 'object-contain object-right-bottom p-5 pt-20 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
+    imageClass: 'object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)]',
     accent: 'text-emerald-800 bg-white/70 border-white',
     copyClass: 'text-slate-600',
     dark: false,
@@ -121,13 +121,28 @@ export default function ShopByNeed({ locale }: ShopByNeedProps) {
               {category.dark && (
                 <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_70%_75%,rgba(30,190,255,.18),transparent_35%),linear-gradient(180deg,rgba(7,17,31,.92)_0%,rgba(7,17,31,.62)_52%,rgba(7,17,31,.34)_100%)]" />
               )}
-              <Image
-                src={category.image}
-                alt={isAr ? category.titleAr : category.titleEn}
-                fill
-                sizes={category.key === 'audio' ? '(max-width: 768px) 100vw, 50vw' : '(max-width: 768px) 100vw, 25vw'}
-                className={`${category.imageClass} z-[1] transition duration-700 group-hover:scale-[1.04]`}
-              />
+              {category.dark ? (
+                <Image
+                  src={category.image}
+                  alt={isAr ? category.titleAr : category.titleEn}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className={`${category.imageClass} z-[1] transition duration-700 group-hover:scale-[1.04]`}
+                />
+              ) : (
+                /* Physically-positioned wrapper (same pattern as BrandShowcase):
+                   product pins to the inline-END corner in BOTH directions —
+                   object-position percentages are physical and do NOT mirror. */
+                <div className="absolute bottom-4 right-0 z-[1] h-1/2 w-3/5 rtl:left-0 rtl:right-auto">
+                  <Image
+                    src={category.image}
+                    alt={isAr ? category.titleAr : category.titleEn}
+                    fill
+                    sizes="(max-width: 768px) 60vw, 15vw"
+                    className={`${category.imageClass} transition duration-700 group-hover:scale-[1.04]`}
+                  />
+                </div>
+              )}
               <div className="relative z-10 flex h-full flex-col items-start p-6 sm:p-7">
                 <span className={`inline-flex h-10 w-10 items-center justify-center rounded-full border backdrop-blur-sm ${category.accent}`}>
                   <SvgIcon name={category.icon} className="h-5 w-5" />

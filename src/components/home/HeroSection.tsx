@@ -140,13 +140,13 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             href={localePath(locale, '/anker/wall-chargers/anker-nano-45w-smart-display-charger')}
             className={`absolute -top-7 hidden w-[190px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-left-5' : '-right-5'}`}
           >
-            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-white">
+            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
               <Image
-                src="/products/anker/anker-nano-45w-smart-display-charger/anker-nano-45w-smart-display-charger-front-180-foldable-white-cairovolt-pill.webp"
+                src="/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png"
                 alt="Anker Nano 45W"
                 fill
-                unoptimized
-                className="object-cover"
+                sizes="56px"
+                className="object-contain p-1 drop-shadow-sm"
               />
             </span>
             <span className="min-w-0">
@@ -160,13 +160,13 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             href={localePath(locale, '/joyroom/wall-chargers/joyroom-3-in-1-wireless-charging-station')}
             className={`absolute -bottom-12 hidden w-[215px] items-center gap-3 rounded-2xl border border-white/15 bg-[#0b1324]/90 p-3 shadow-2xl backdrop-blur-xl transition hover:-translate-y-1 sm:flex ${isAr ? '-right-6' : '-left-6'}`}
           >
-            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-white">
+            <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
               <Image
                 src="/images/home/cutouts/joyroom-3-in-1-wireless-charging-station-cutout-cairovolt.png"
                 alt="Joyroom 3-in-1 Wireless Station"
                 fill
                 sizes="56px"
-                className="object-contain p-1.5"
+                className="object-contain p-1 drop-shadow-sm"
               />
             </span>
             <span className="min-w-0">

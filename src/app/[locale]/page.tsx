@@ -61,11 +61,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     ...baseMetadata,
-    title: { absolute: 'اكسسوارات موبايل مصر | Anker وSoundcore وJoyroom' },
+    title: { absolute: 'اكسسوارات موبايل أصلية في مصر | Anker وSoundcore وJoyroom' },
     description: 'تسوق منتجات Anker وSoundcore وJoyroom الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات بضمان واضح حسب المنتج والدفع عند الاستلام.',
     keywords: 'اكسسوارات موبايل, انكر مصر, أنكر, ساوند كور, جوي روم, باور بانك, سماعات, شاحن انكر, soundcore, ايربودز انكر',
     openGraph: {
-      title: 'اكسسوارات موبايل مصر | كايرو فولت',
+      title: 'اكسسوارات موبايل أصلية في مصر | كايرو فولت',
       description: 'منتجات Anker وSoundcore وJoyroom الأصلية مع توصيل لكل مصر والدفع عند الاستلام.',
       url: 'https://cairovolt.com',
       locale: 'ar_EG',
