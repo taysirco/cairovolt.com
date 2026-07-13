@@ -12,6 +12,7 @@ import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { staticProducts } from '@/lib/static-products';
 import BestSellingProducts from '@/components/products/BestSellingProducts';
+import SoundcoreFamilyStrip from '@/components/products/SoundcoreFamilyStrip';
 
 // ISR: On-demand revalidation only (via /api/indexing webhook)
 export const dynamicParams = false; // Unknown slugs → automatic 404 (prevents soft 404)
@@ -216,7 +217,14 @@ export default async function BrandHubPage({ params }: Props) {
             )}
 
             {/* ═══════════════════════════════════════════════════════════ */}
-            {/* Best-Selling Products — Top 20 with images & prices        */}
+            {/* Soundcore family strip — top section on /anker only:        */}
+            {/* the 7 most-requested Soundcore picks, linking to their      */}
+            {/* CANONICAL /soundcore URLs (replaces the old callout banner) */}
+            {/* ═══════════════════════════════════════════════════════════ */}
+            {brand === 'anker' && <SoundcoreFamilyStrip locale={locale} />}
+
+            {/* ═══════════════════════════════════════════════════════════ */}
+            {/* Best-Selling Products — curated most-requested, ranked     */}
             {/* Drives engagement: customers see top products first        */}
             {/* ═══════════════════════════════════════════════════════════ */}
             <BestSellingProducts
@@ -225,36 +233,6 @@ export default async function BrandHubPage({ params }: Props) {
                 locale={locale}
                 maxProducts={20}
             />
-
-            {/* Soundcore Hub callout — only on /anker, points users to the audio sub-brand hub */}
-            {brand === 'anker' && (
-                <section className="container mx-auto px-4 pt-12 relative z-20">
-                    <Link
-                        href={getLocalizedHref('/soundcore')}
-                        className="flex flex-wrap items-center justify-between gap-3 p-5 md:p-6 rounded-2xl bg-gradient-to-r from-orange-500 via-red-500 to-pink-600 text-white shadow-xl hover:shadow-2xl hover:scale-[1.01] transition-all"
-                    >
-                        <div className="flex items-center gap-4">
-                            <span className="text-3xl"><SvgIcon name="headphones" className="w-8 h-8" /></span>
-                            <div>
-                                <div className="font-black text-lg md:text-xl">
-                                    {isRTL
-                                        ? 'تبحث عن منتجات الصوتيات؟ تصفّح hub ساوند كور'
-                                        : 'Looking for Audio products? Visit the Soundcore hub'}
-                                </div>
-                                <div className="text-xs md:text-sm text-white/85 mt-1">
-                                    {isRTL
-                                        ? 'ساوند كور (Soundcore) هي العلامة الفرعية للصوتيات من Anker — ايربودز + هيدفون + سبيكرات'
-                                        : 'Soundcore is Anker\'s dedicated audio sub-brand — earbuds, headphones & Bluetooth speakers'}
-                                </div>
-                            </div>
-                        </div>
-                        <span className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-orange-700 rounded-full font-bold text-sm shadow-md">
-                            {isRTL ? 'افتح /soundcore' : 'Open /soundcore'}
-                            <span>{isRTL ? '←' : '→'}</span>
-                        </span>
-                    </Link>
-                </section>
-            )}
 
             {/* Categories Grid (App Style) — Browse by category */}
             <section className="container mx-auto px-4 py-20 -mt-10 relative z-20">

@@ -15,24 +15,29 @@ interface BestSellingProductsProps {
 
 /**
  * Curated list of top-selling Anker product slugs (charging only — post-Soundcore migration).
+ * Popularity order: classic 10K/20K power banks drive volume, Nano 45W is the
+ * most-requested charger, Zolo 30W / Smart Display / Prime 67W are the risers,
+ * the three cables are daily movers, MagGo owns car charging, Prime 25K flagship.
  */
 const ankerBestSellers: string[] = [
     // Power Banks — highest volume
     'anker-powercore-10000',
     'anker-zolo-a110d-10000',
-    'anker-powercore-20000',
     'anker-zolo-a110e-20000',
-    'anker-zolo-a1681-20000',
+    'anker-powercore-20000',
     // Wall Chargers — high demand
-    'anker-powerport-20w',
-    'anker-powerport-25w',
     'anker-nano-45w',
+    'anker-powerport-20w',
+    'anker-zolo-30w-a2698-charger',
+    'anker-nano-45w-smart-display-charger',
+    'anker-prime-a2669-67w-gan-charger',
     // Cables — everyday essentials
-    'anker-powerline-usb-c-lightning',
     'anker-a8050-usb-c-cable',
-    // Car Chargers
-    'anker-a2732-charger-35w',
-    'anker-521-powerhouse',
+    'anker-310-usb-c-lightning-cable',
+    'anker-zolo-usb-c-braided-cable',
+    // Car + flagship
+    'anker-a2216-magnetic-wireless-car-charger',
+    'anker-prime-a1695-25000',
 ];
 
 /**
@@ -97,6 +102,25 @@ export default function BestSellingProducts({
         return isRTL ? cleanPath : `/${locale}${cleanPath}`;
     };
 
+    // Ranked ItemList over the canonical product URLs — tells search engines
+    // this hub curates its brand's best sellers in explicit demand order.
+    const canonicalBase = `https://cairovolt.com${isRTL ? '' : '/en'}`;
+    const itemListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: isRTL
+            ? `أفضل ${products.length} منتج من ${brandDisplayName} في مصر`
+            : `Top ${products.length} ${brandDisplayName} Products in Egypt`,
+        numberOfItems: products.length,
+        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListElement: products.map((p, idx) => ({
+            '@type': 'ListItem',
+            position: idx + 1,
+            name: p.translations[isRTL ? 'ar' : 'en'].name,
+            url: `${canonicalBase}/${brandSlug}/${p.categorySlug}/${p.slug}`,
+        })),
+    };
+
     // Category label mapping
     const categoryLabels: Record<string, { ar: string; en: string }> = {
         'power-banks': { ar: 'باور بانك', en: 'Power Bank' },
@@ -110,6 +134,10 @@ export default function BestSellingProducts({
 
     return (
         <section className="py-16 md:py-20 bg-gradient-to-b from-white via-blue-50/30 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+            />
             <div className="container mx-auto px-4">
                 {/* Section Header */}
                 <div className="text-center mb-12">
