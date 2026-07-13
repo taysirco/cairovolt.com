@@ -66,6 +66,10 @@ function buildLeadPayload(orderData: any) {
         items: items.map((it: any) => ({ sku: it.sku || '', name: shortName(it.name), quantity: it.quantity || 1, price: it.price || 0 })),
         quantity: String(totalQuantity),
         totalPrice: String(orderData.totalAmount ?? ''),
+        // 🧾 الأرقام المالية منفصلة (كانت نصاً داخل notes فقط) — ليخزّنها الـCRM حقولاً قابلة للحساب
+        shippingFee: Number(orderData.shippingFee ?? 0),
+        couponDiscount: Number(orderData.couponDiscount ?? 0),
+        subtotal: Number(orderData.subtotalBeforeDiscount ?? 0),
         orderDetails,
         notes: notesParts.join(' | '),
         source: 'CairoVolt.com',
