@@ -133,29 +133,29 @@ export default function BestSellingProducts({
     };
 
     return (
-        <section className="py-16 md:py-20 bg-gradient-to-b from-white via-blue-50/30 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
+        <section id="best-sellers" className="scroll-mt-20 py-10 md:py-20 bg-gradient-to-b from-white via-blue-50/30 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
             />
             <div className="container mx-auto px-4">
                 {/* Section Header */}
-                <div className="text-center mb-12">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 bg-gradient-to-r from-amber-100 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-full border border-amber-200 dark:border-amber-800/50">
+                <div className="text-center mb-8 md:mb-12">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-3 md:mb-4 bg-gradient-to-r from-amber-100 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-full border border-amber-200 dark:border-amber-800/50">
                         <span className="text-amber-600 dark:text-amber-400">
                             <SvgIcon name="fire" className="w-4 h-4" />
                         </span>
-                        <span className="text-sm font-bold text-amber-700 dark:text-amber-300">
+                        <span className="text-xs md:text-sm font-bold text-amber-700 dark:text-amber-300">
                             {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
                         </span>
                     </div>
 
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4 text-gray-900 dark:text-white">
+                    <h2 className="text-2xl md:text-4xl lg:text-5xl font-black mb-3 md:mb-4 text-gray-900 dark:text-white">
                         {isRTL
                             ? `أفضل ${products.length} منتج من ${brandDisplayName}`
                             : `Top ${products.length} ${brandDisplayName} Products`}
                     </h2>
-                    <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                    <p className="text-sm md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                         {isRTL
                             ? 'المنتجات الأعلى تقييماً والأكثر طلباً من عملائنا — أصلية 100% بضمان الوكيل'
                             : 'Top-rated and most requested by our customers — 100% original with official warranty'}

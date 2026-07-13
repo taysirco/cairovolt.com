@@ -59,23 +59,23 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
     };
 
     return (
-        <section className="bg-gradient-to-b from-[#0d0a14] to-gray-950 py-12 md:py-16" aria-labelledby="soundcore-family-heading">
+        <section className="bg-gradient-to-b from-[#0d0a14] to-gray-950 py-8 md:py-16" aria-labelledby="soundcore-family-heading">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
             />
             <div className="container mx-auto px-4">
                 {/* Header row */}
-                <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+                <div className="mb-5 md:mb-8 flex flex-wrap items-end justify-between gap-3 md:gap-4">
                     <div>
-                        <span className="inline-flex items-center gap-2 rounded-full border border-orange-400/25 bg-orange-400/10 px-4 py-2 text-xs font-bold uppercase tracking-[.14em] text-orange-300">
+                        <span className="inline-flex items-center gap-2 rounded-full border border-orange-400/25 bg-orange-400/10 px-3 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-bold uppercase tracking-[.14em] text-orange-300">
                             <SvgIcon name="headphones" className="h-4 w-4" />
                             Soundcore by Anker
                         </span>
-                        <h2 id="soundcore-family-heading" className="mt-4 text-2xl font-black text-white md:text-4xl">
+                        <h2 id="soundcore-family-heading" className="mt-3 md:mt-4 text-xl font-black text-white md:text-4xl">
                             {isRTL ? 'أهم 7 صوتيات من عائلة أنكر' : 'Top 7 Audio Picks from the Anker Family'}
                         </h2>
-                        <p className="mt-2 max-w-2xl text-sm text-gray-400 md:text-base">
+                        <p className="mt-1.5 md:mt-2 max-w-2xl text-xs text-gray-400 md:text-base">
                             {isRTL
                                 ? 'ساوندكور هي علامة الصوتيات من Anker — دي أكثر 7 منتجات طلبًا عند عملائنا، بنفس ضمان وأصالة أنكر.'
                                 : 'Soundcore is Anker\'s audio brand — these are our 7 most-requested picks, with the same Anker warranty and authenticity.'}
@@ -83,7 +83,7 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                     </div>
                     <Link
                         href={getLocalizedHref('/soundcore')}
-                        className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-pink-600 px-5 py-2.5 text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
+                        className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-500 to-pink-600 px-4 py-2 md:px-5 md:py-2.5 text-xs md:text-sm font-bold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
                     >
                         {isRTL ? 'كل منتجات ساوندكور' : 'All Soundcore products'}
                         <span>{isRTL ? '←' : '→'}</span>

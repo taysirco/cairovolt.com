@@ -139,8 +139,11 @@ export default async function BrandHubPage({ params }: Props) {
 
             {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
-            {/* Hero Section 2.0 */}
-            <section className={`relative overflow-hidden py-20 md:py-32`}>
+            {/* Hero Section 2.0 — mobile-compressed: a brand-hub visitor arrives
+                with purchase intent, so the hero must hand over to products in
+                ~1 screen. All SEO/AEO content (H1, description, QuickAnswer)
+                stays — only density changes, plus an express-lane CTA. */}
+            <section className={`relative overflow-hidden py-10 md:py-24`}>
                 {/* Dynamic Background */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${data.hero.bgGradient} opacity-90`}></div>
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20"></div>
@@ -148,29 +151,46 @@ export default async function BrandHubPage({ params }: Props) {
                 {/* Content */}
                 <div className="container relative z-10 mx-auto px-4 text-center">
                     {/* Badge */}
-                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 bg-white/10 backdrop-blur-md border border-white/20 rounded-full shadow-2xl animate-fade-in-up">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-5 md:mb-8 bg-white/10 backdrop-blur-md border border-white/20 rounded-full shadow-2xl animate-fade-in-up">
                         <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-                        <span className="text-white text-sm md:text-base font-bold tracking-wide">
+                        <span className="text-white text-xs md:text-base font-bold tracking-wide">
                             {isRTL ? data.hero.badge.ar : data.hero.badge.en}
                         </span>
                     </div>
 
-                    {/* Title (Brand Declaration) */}
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-6 tracking-tight drop-shadow-sm leading-tight max-w-5xl mx-auto">
+                    {/* Title (Brand Declaration) — strip a trailing "Egypt" from
+                        the display name so "… in Egypt" never doubles it. */}
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-4 md:mb-6 tracking-tight drop-shadow-sm leading-tight max-w-5xl mx-auto">
                         {isRTL
-                            ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title} الأصلية في مصر`
-                            : `CairoVolt Store: Your Trusted Destination for Original ${data.hero.title} in Egypt`}
+                            ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title.replace(/\s*Egypt$/i, '')} الأصلية في مصر`
+                            : `CairoVolt Store: Your Trusted Destination for Original ${data.hero.title.replace(/\s*Egypt$/i, '')} in Egypt`}
                     </h1>
 
                     {/* Description */}
-                    <p className={`text-lg md:text-2xl font-light mb-6 max-w-3xl mx-auto leading-relaxed ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
+                    <p className={`text-base md:text-2xl font-light mb-6 max-w-3xl mx-auto leading-relaxed ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
                         }`}>
                         {isRTL ? data.hero.description.ar : data.hero.description.en}
                     </p>
 
+                    {/* Express lane: high-intent visitors jump straight to the
+                        ranked best sellers instead of scrolling ~3 screens. */}
+                    <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
+                        <a
+                            href="#best-sellers"
+                            className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm md:text-base font-black text-gray-900 shadow-2xl transition hover:-translate-y-0.5 hover:shadow-xl"
+                        >
+                            <SvgIcon name="fire" className={`w-5 h-5 ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`} />
+                            {isRTL ? 'تسوّق الأكثر مبيعًا الآن' : 'Shop the best sellers now'}
+                            <span className="transition-transform group-hover:translate-y-0.5">↓</span>
+                        </a>
+                        <span className="text-xs md:text-sm text-white/80">
+                            {isRTL ? 'أصلي 100% · ادفع عند الاستلام' : '100% original · Cash on delivery'}
+                        </span>
+                    </div>
+
                     {/* Quick Answer Box */}
                     {data.quickAnswer && (
-                        <div className="max-w-2xl mx-auto mb-10">
+                        <div className="max-w-2xl mx-auto mb-6 md:mb-10">
                             <QuickAnswerBox
                                 answer={isRTL ? data.quickAnswer.ar : data.quickAnswer.en}
                                 locale={locale}
@@ -181,7 +201,7 @@ export default async function BrandHubPage({ params }: Props) {
 
                     {/* Hero Product - Pulsing CTA */}
                     {data.hero.heroProduct && (
-                        <div className="mb-12 animate-bounce-slow">
+                        <div className="mb-8 md:mb-12 animate-bounce-slow">
                             <Link
                                 href={getLocalizedHref(data.hero.heroProduct.link.href)}
                                 className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold shadow-2xl hover:scale-105 transition-transform duration-300 group"
@@ -196,9 +216,9 @@ export default async function BrandHubPage({ params }: Props) {
                     )}
 
                     {/* Features Grid */}
-                    <div className="flex flex-wrap justify-center gap-3 md:gap-6">
+                    <div className="flex flex-wrap justify-center gap-2 md:gap-6">
                         {data.hero.features.map((feature, idx) => (
-                            <div key={idx} className="flex items-center gap-2 px-5 py-2.5 bg-black/20 backdrop-blur-sm rounded-xl border border-white/10 text-white/90 text-sm md:text-base font-medium">
+                            <div key={idx} className="flex items-center gap-2 px-3.5 py-2 md:px-5 md:py-2.5 bg-black/20 backdrop-blur-sm rounded-xl border border-white/10 text-white/90 text-xs md:text-base font-medium">
                                 <span className="text-green-400">✓</span>
                                 {isRTL ? feature.ar : feature.en}
                             </div>
