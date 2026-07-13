@@ -97,13 +97,12 @@ export const joyroom_smart_watches_content: CategoryContent = {
                         }
                         ,{
                             question: 'كم سعر ساعة جوي روم في مصر؟',
-                            answer: '1,092 جنيه لكل الموديلات (FT3 Pro / FT5 / FC2). مقارنةً بأبل ووتش SE بـ 12,000+ جنيه: جوي روم وفّرت لك 90% مع AMOLED + مكالمات بلوتوث + ضمان سنة CairoVolt.'
+                            answer: '1,092 جنيه لموديل FT3 Pro المتوفر حاليًا. مقارنةً بأبل ووتش SE بـ 12,000+ جنيه: جوي روم وفّرت لك 90% مع AMOLED + مكالمات بلوتوث + ضمان سنة CairoVolt.'
                         }
                     ],
                     products: [
                         { name: 'جوي روم FT3 Pro AMOLED (مكالمات بلوتوث)', price: 1092, badge: '⭐ الأكثر مبيعاً' },
-                        { name: 'جوي روم FT5 شاشة كبيرة 1.83"', price: 1092, badge: 'أكبر شاشة' },
-                        { name: 'جوي روم FC2 كلاسيك AMOLED', price: 1092, badge: 'تصميم رسمي' }
+                        { name: 'جوي روم FT5 شاشة كبيرة 1.83"', price: 1092, badge: 'أكبر شاشة' }
                     ]
                 },
                 en: {
@@ -159,8 +158,7 @@ CairoVolt verified — order now with next-day Cairo & Giza delivery.
                     ],
                     products: [
                         { name: 'Joyroom FT3 Pro AMOLED (BT Calling)', price: 1092, badge: '⭐ Best Seller' },
-                        { name: 'Joyroom FT5 Big Screen 1.83"', price: 1092, badge: 'Biggest Display' },
-                        { name: 'Joyroom FC2 Classic AMOLED', price: 1092, badge: 'Formal Style' }
+                        { name: 'Joyroom FT5 Big Screen 1.83"', price: 1092, badge: 'Biggest Display' }
                     ]
                 }
             }

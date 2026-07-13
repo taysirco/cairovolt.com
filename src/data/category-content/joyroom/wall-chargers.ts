@@ -83,7 +83,8 @@ export const joyroom_wall_chargers_content: CategoryContent = {
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'اقتصادي' },
                         { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'الأسرع' },
-                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'للابتوب' }
+                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'للابتوب' },
+                        { name: 'محطة جوي روم 3 في 1 لاسلكي', price: 1206, badge: '🆕 ايفون + ساعة + ايربودز' }
                     ]
                 },
                 en: {
@@ -119,7 +120,8 @@ Joyroom chargers support 100V-240V wide voltage input — automatically handles 
                     products: [
                         { name: 'Joyroom 20W PD Charger', price: 236, badge: 'Value' },
                         { name: 'Joyroom 35W GaN Dual', price: 342, badge: 'Fastest' },
-                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'Laptop-Ready' }
+                        { name: 'Joyroom 65W Laptop Charger', price: 280, badge: 'Laptop-Ready' },
+                        { name: 'Joyroom 3-in-1 Wireless Station', price: 1206, badge: '🆕 iPhone + Watch + Buds' }
                     ]
                 }
             }

@@ -100,8 +100,7 @@ export const joyroom_car_holders_content: CategoryContent = {
                     ],
                     products: [
                         { name: 'جوي روم Dashboard 360 (لاصق)', price: 169, badge: '⭐ الأرخص والأكثر مبيعاً' },
-                        { name: 'جوي روم JR-ZS290 MagSafe (مغناطيسي)', price: 934, badge: 'MagSafe ايفون' },
-                        { name: 'Joyroom Solar Auto-Clamp', price: 2550, badge: 'طاقة شمسية' }
+                        { name: 'جوي روم JR-ZS290 MagSafe (مغناطيسي)', price: 934, badge: 'MagSafe ايفون' }
                     ]
                 },
                 en: {
@@ -154,8 +153,7 @@ CairoVolt verified — order now with next-day Cairo & Giza delivery.
                     ],
                     products: [
                         { name: 'Joyroom Dashboard 360 (Adhesive)', price: 169, badge: '⭐ Best Value' },
-                        { name: 'Joyroom JR-ZS290 MagSafe (Magnetic)', price: 934, badge: 'MagSafe iPhone' },
-                        { name: 'Joyroom Solar Auto-Clamp', price: 2550, badge: 'Solar Powered' }
+                        { name: 'Joyroom JR-ZS290 MagSafe (Magnetic)', price: 934, badge: 'MagSafe iPhone' }
                     ]
                 }
             }

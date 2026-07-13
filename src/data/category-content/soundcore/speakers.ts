@@ -6,12 +6,12 @@ export const soundcore_speakers_content: CategoryContent = {
             categoryName: 'Bluetooth Speakers',
             metadata: {
                 en: {
-                    title: 'Soundcore Speakers Egypt | Hi-Res 30W IPX7 | EGP 2999',
+                    title: 'Soundcore Speakers Egypt | Hi-Res 30W IPX7 | From EGP 1,249',
                     description: 'Soundcore Bluetooth speakers in Egypt. Motion+ Hi-Res 30W, Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ CairoVolt tested ✓ 18-month warranty ✓ Cairo delivery',
                     keywords: 'anker speaker, soundcore speaker egypt, anker motion plus, soundcore flare 2, bluetooth speaker egypt, anker speaker price egypt, Hi-Res speaker, IPX7 speaker',
                 },
                 ar: {
-                    title: 'سماعات انكر ساوندكور مصر | Hi-Res 30W IPX7 من 2,999 جنيه',
+                    title: 'سماعات انكر ساوندكور مصر | Hi-Res 30W IPX7 من 1,249 جنيه',
                     description: 'سماعات انكر ساوندكور في مصر. Motion+ Hi-Res 30W، Flare 2 IPX7 + LED. BassUp + PartyCast. ✓ اختبار CairoVolt ✓ ضمان 18 شهر ✓ توصيل القاهرة ✓ دفع عند الاستلام',
                     keywords: 'سماعة انكر, سعر سماعة انكر, مكبر صوت بلوتوث, ساوندكور motion plus, ساوندكور flare 2, سماعة بلوتوث مصر, سماعة ضد الماء',
                 }

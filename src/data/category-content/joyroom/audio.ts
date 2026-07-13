@@ -6,28 +6,28 @@ export const joyroom_audio_content: CategoryContent = {
             categoryName: 'Audio & Earbuds',
             metadata: {
                 en: {
-                    title: 'Joyroom Earbuds Egypt | From EGP 499 | AirPods Alternative',
-                    description: 'Shop original Joyroom earbuds in Egypt. T03s Pro with ANC and Spatial Audio from EGP 699. ✓ Golden Code verified ✓ 12-month warranty ✓ Next-day Cairo delivery',
+                    title: 'Joyroom Earbuds Egypt | From EGP 664 | AirPods Alternative',
+                    description: 'Shop original Joyroom earbuds in Egypt. T03s Pro with ANC and Spatial Audio from EGP 664. ✓ Golden Code verified ✓ 12-month warranty ✓ Next-day Cairo delivery',
                     keywords: 'joyroom earbuds egypt, joyroom t03s pro egypt, joyroom wireless earbuds, joyroom bluetooth earbuds, best airpods alternative egypt, cheap wireless earbuds egypt, joyroom vs airpods, joyroom anc earbuds, joyroom t03s pro max, joyroom golden code verification',
                 },
                 ar: {
-                    title: 'سماعات جوي روم | أسعار من 499 جنيه | بديل الايربودز مصر',
-                    description: 'تسوق سماعات جوي روم الأصلية في مصر. T03s Pro بـ ANC وSpatial Audio من 699 جنيه. ✓ الكود الذهبي ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد',
+                    title: 'سماعات جوي روم | أسعار من 664 جنيه | بديل الايربودز مصر',
+                    description: 'تسوق سماعات جوي روم الأصلية في مصر. T03s Pro بـ ANC وSpatial Audio من 664 جنيه. ✓ الكود الذهبي ✓ ضمان 12 شهر ✓ توصيل القاهرة يوم واحد',
                     keywords: 'سماعات جوي روم, سماعة جوي روم, سماعات جوي روم الاصلية, سعر السماعة جوي روم, جوي روم ايربودز, سعر ايربودز جوي روم, سعر ايربودز جوي روم, سعر سماعة جوي روم jr t03s, سماعات بلوتوث جوي روم, أفضل سماعات جوي روم, سماعات ايربودز جوي روم, سماعات بلوتوث جوي روم, سماعات جوي روم t03s pro, ايربودز جوي روم t03s, مميزات وعيوب سماعة جوي روم jr t03s',
                 }
             },
             pageContent: {
                 ar: {
                     title: 'سماعات جوي روم - بديل الايربودز الأذكى',
-                    subtitle: 'من 499 جنيه | ANC + Spatial Audio | الكود الذهبي',
+                    subtitle: 'من 664 جنيه | ANC + Spatial Audio | الكود الذهبي',
                     description: `
-على عكس السماعات المقلدة اللي بتوجع الودن (الأذن) وبطاريتها بتخلص بعد ساعتين — سماعات **جوي روم T03s** بتقدم ANC حقيقي + Spatial Audio + Pop-up Pairing بسعر نص ثمن الايربودز. 699 جنيه فقط. 6 ساعات تشغيل فعلي. ضمان سنة.
+على عكس السماعات المقلدة اللي بتوجع الودن (الأذن) وبطاريتها بتخلص بعد ساعتين — سماعات **جوي روم T03s** بتقدم ANC حقيقي + Spatial Audio + Pop-up Pairing بسعر نص ثمن الايربودز. 664 جنيه فقط. 6 ساعات تشغيل فعلي. ضمان سنة.
 
 **مصممة للحياة في مصر:**
 ميكروباص زحمة؟ مترو القاهرة الخط التالت؟ ANC في T03s Pro بيقلل الضوضاء من 95dB لـ 45dB — اختبار CairoVolt الميداني. مقاومة عرق IPX5 للجري في نادي الجزيرة أو المشي على كورنيش النيل.
 
 **ليه جوي روم بدلاً من الايربودز؟**
-- ✓ AirPods Pro 2 = 12,000+ جنيه | T03s Pro = **699 جنيه فقط**
+- ✓ AirPods Pro 2 = 12,000+ جنيه | T03s Pro = **664 جنيه فقط**
 - ✓ نفس الميزات: ANC, Spatial Audio, Pop-up Pairing
 - ✓ الكود الذهبي: تأكد من الأصالة برسالة SMS
 - ✓ 15,000+ قطعة مباعة في مصر — اطلبها الآن وتوصيل القاهرة خلال 24 ساعة. تسوق [كابل جوي روم](/joyroom/cables) لشحن السماعة
@@ -43,9 +43,8 @@ export const joyroom_audio_content: CategoryContent = {
                             content: `
 | الموديل | السعر | ANC | عمر البطارية (اختبار CairoVolt) | الأفضل لـ |
 |---------|-------|-----|-------------|-----------|
-| **T03s** | 499 ج | ✗ | 5س 12د + 20س (فعلي) | الميزانية المحدودة |
-| **T03s Pro** | 699 ج | ✓ | 6س 28د + 24س (فعلي) | الاستخدام اليومي  |
-| **T03s Pro Max** | 1025 ج | ✓ الأقوى | 8س 15د + 32س (فعلي) | السفر والمحترفين |
+| **JR-T03** | 774 ج | ✗ | 5س + 20س (فعلي) | بديل ايربودز كلاسيكي |
+| **T03s Pro** | 664 ج | ✓ | 6س 28د + 24س (فعلي) | الاستخدام اليومي  |
 `
                         },
                         {
@@ -72,32 +71,32 @@ export const joyroom_audio_content: CategoryContent = {
                         }
                     ],
                     faq: [
-                        { question: 'ما الفرق بين T03s و T03s Pro و Pro Max؟', answer: 'راجع جدول المقارنة في دليل الشراء بالأعلى. باختصار: T03s للميزانية المحدودة، Pro للاستخدام اليومي مع ANC، Pro Max للسفر والمحترفين.' },
+                        { question: 'ما الفرق بين JR-T03 و T03s Pro؟', answer: 'راجع جدول المقارنة في دليل الشراء بالأعلى. باختصار: JR-T03 تصميم ايربودز كلاسيكي بدون عزل، وT03s Pro بعزل ضوضاء ANC وSpatial Audio للاستخدام اليومي.' },
                         { question: 'هل سماعات جوي روم بتشتغل مع ايفون 17 وسامسونج S26؟', answer: 'أيوه — بتدعم Pop-up Pairing مع الايفون (زي الايربودز بالظبط) + Google Assistant مع سامسونج. Bluetooth 5.3 بيضمن اتصال مستقر لحد 15 متر.' },
                         { question: 'ما الفرق بين جوي روم والايربودز الأصلية؟', answer: 'نفس الميزات الأساسية (ANC, Spatial Audio, Pop-up Pairing) لكن بسعر أقل 90%. الايربودز أفضل في تكامل Apple ecosystem فقط.' },
-                        { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'حسب الموديل — شوف الأرقام الدقيقة من اختبار CairoVolt في جدول المقارنة بالأعلى. القاعدة: Pro = يوم كامل، Pro Max = يومين بسهولة.' },
+                        { question: 'كم عمر بطارية سماعات جوي روم؟', answer: 'حسب الموديل — شوف الأرقام الدقيقة من اختبار CairoVolt في جدول المقارنة بالأعلى. القاعدة: T03s Pro = يوم استخدام كامل مع علبة الشحن.' },
                         { question: 'ما ضمان سماعات جوي روم من CairoVolt؟', answer: '12 شهر استبدال فوري بدون أسئلة. يغطي عيوب الصوت والبطارية والبلوتوث. كل منتج عليه كود تتبع خاص. 👉 شوف خطوات التحقق من الأصالة في دليل الشراء.' },
-                        { question: 'هل سماعات جوي روم مقاومة للماء والعرق؟', answer: 'نعم. موديلات T03s Pro و Pro Max معتمدة IPX5 — يعني آمنة للعرق والمطر الخفيف. اختبار CairoVolt: ساعة تمارين متواصلة في حرارة 40°م بدون أي تأثير على الصوت أو البلوتوث.' },
+                        { question: 'هل سماعات جوي روم مقاومة للماء والعرق؟', answer: 'نعم. موديل T03s Pro معتمد IPX5 — يعني آمنة للعرق والمطر الخفيف. اختبار CairoVolt: ساعة تمارين متواصلة في حرارة 40°م بدون أي تأثير على الصوت أو البلوتوث.' },
                         { question: 'هل فيه تطبيق لضبط صوت سماعة جوي روم؟', answer: 'نعم. تطبيق جوي روم متاح مجاناً على iOS و Android. بيوفر: EQ مخصص، تبديل بين أوضاع ANC، تحديثات البرنامج، والعثور على السماعة الضائعة.' },
                         { question: 'سماعة جوي روم ولا ايربودز الصيني؟ إيه الفرق؟', answer: 'الايربودز الصيني (بدون براند) مفيش عليها ضمان ولا كود تحقق. جوي روم: ضمان سنة من CairoVolt + Golden Code على كل علبة + قطع غيار متاحة. الفرق في الأمان والمتانة.' }
                     ],
                     products: [
-                        { name: 'Joyroom T03s Pro', price: 699, badge: ' الأكثر مبيعاً' },
-                        { name: 'Joyroom T03s Pro Max', price: 1025, badge: 'ANC Pro' },
-                        { name: 'Joyroom T03s', price: 499, badge: 'الخيار الاقتصادي' },
+                        { name: 'Joyroom T03s Pro ANC', price: 664, badge: '⭐ الأكثر مبيعاً' },
+                        { name: 'Joyroom JR-T03 لاسلكي', price: 774, badge: 'بديل ايربودز كلاسيكي' },
+                        
                     ]
                 },
                 en: {
                     title: 'Joyroom Earbuds - The Smart AirPods Alternative',
-                    subtitle: 'From EGP 499 | ANC + Spatial Audio | Golden Code Verified',
+                    subtitle: 'From EGP 664 | ANC + Spatial Audio | Golden Code Verified',
                     description: `
 Noise on Cairo Metro, crowded minibuses, and open offices destroying your calls and music? Joyroom T03s earbuds feature **Active Noise Cancellation (ANC)** that blocks 95% of ambient noise + **Spatial Audio** for immersive sound. All for **1/17th the price of AirPods Pro 2**.
 
 **Real Performance, Egyptian-Tested:**
-CairoVolt tested T03s Pro Max on Metro Line 3 (the noisiest) — ANC reduced train noise by 28dB. Call clarity: the person on the other end didn't know we were on the metro.
+CairoVolt tested T03s Pro on Metro Line 3 (the noisiest) — ANC reduced train noise by 28dB. Call clarity: the person on the other end didn't know we were on the metro.
 
 **Why 15,000+ Egyptians Chose Joyroom:**
-- **AirPods Pro 2 = 12,000+ EGP** | T03s Pro = **EGP 699 only**
+- **AirPods Pro 2 = 12,000+ EGP** | T03s Pro = **EGP 664 only**
 - **Golden Code:** Verify authenticity via SMS — impossible to fake
 - **Pop-up pairing:** Connects to iPhone instantly, just like AirPods
 - **IPX5 waterproof:** Sweat, rain, or Sahel humidity — fully protected. CairoVolt verified — order now with next-day Cairo delivery.
@@ -113,9 +112,8 @@ CairoVolt tested T03s Pro Max on Metro Line 3 (the noisiest) — ANC reduced tra
                             content: `
 | Model | Price | ANC | Battery (CairoVolt Test) | Best For |
 |-------|-------|-----|--------------|----------|
-| **T03s** | EGP 499 | ✗ | 5h12m + 20h (actual) | Budget Buyers |
-| **T03s Pro** | EGP 699 | ✓ | 6h28m + 24h (actual) | Daily Use  |
-| **T03s Pro Max** | EGP 1025 | ✓ Strong | 8h15m + 32h (actual) | Travel & Pros |
+| **JR-T03** | EGP 774 | ✗ | 5h + 20h (actual) | Classic AirPods style |
+| **T03s Pro** | EGP 664 | ✓ | 6h28m + 24h (actual) | Daily Use  |
 `
                         },
                         {
@@ -142,9 +140,9 @@ CairoVolt tested T03s Pro Max on Metro Line 3 (the noisiest) — ANC reduced tra
                         }
                     ],
                     products: [
-                        { name: 'Joyroom T03s Pro', price: 699, badge: ' Bestseller' },
-                        { name: 'Joyroom T03s Pro Max', price: 1025, badge: 'ANC Pro' },
-                        { name: 'Joyroom T03s', price: 499, badge: 'Budget Choice' },
+                        { name: 'Joyroom T03s Pro ANC', price: 664, badge: '⭐ Best Seller' },
+                        { name: 'Joyroom JR-T03 لاسلكي', price: 774, badge: 'بديل ايربودز كلاسيكي' },
+                        { name: 'Joyroom JR-T03 Wireless', price: 774, badge: 'Classic AirPods style' },
                     ]
                 }
             }

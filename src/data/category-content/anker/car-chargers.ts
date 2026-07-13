@@ -6,12 +6,12 @@ export const anker_car_chargers_content: CategoryContent = {
             categoryName: 'Car Chargers',
             metadata: {
                 en: {
-                    title: 'Anker Car Charger Egypt | USB-C PD 52W Dual Port | EGP 950',
+                    title: 'Anker Car Charger Egypt | MagSafe Wireless + USB-C PD | From EGP 530',
                     description: 'Shop Anker car charger in Egypt. USB-C PD 52W + PowerIQ. Alloy body heat-resistant 60°C. ✓ 18-month warranty ✓ CairoVolt tested ✓ Cairo delivery',
                     keywords: 'أنكر car charger, car charger egypt, أنكر car charger price egypt, أنكر USB-C car charger, أنكر PD car charger, fast car charger, شاحن سيارة انكر',
                 },
                 ar: {
-                    title: 'شاحن سيارة انكر مصر | USB-C PD 52W + منفذين من 950 جنيه',
+                    title: 'شاحن سيارة انكر مصر | مغناطيسي MagSafe + USB-C PD من 530 جنيه',
                     description: 'تسوق شاحن سيارة انكر الأصلي في مصر. USB-C PD 52W + PowerIQ. جسم معدني يتحمل 60°م. ✓ ضمان 18 شهر ✓ اختبار CairoVolt ✓ توصيل القاهرة ✓ دفع عند الاستلام',
                     keywords: 'شاحن سيارة انكر, سعر شاحن سيارة انكر, شاحن سياره, شاحن سيارة سريع USB-C PD, شاحن سيارة دوال, أنكر car charger, شاحن سيارة مصر',
                 }
@@ -51,7 +51,7 @@ export const anker_car_chargers_content: CategoryContent = {
                     faq: [
                         {
                             question: 'كم سعر شاحن سيارة انكر في مصر؟',
-                            answer: 'من 950 جنيه لجميع الموديلات (PowerDrive/323/Mini). مقارنةً بشواحن سيارات بلاستيكية بـ 200 جنيه: انكر جسم معدني + PD سريع + ضمان 18 شهر. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
+                            answer: 'تبدأ من 530 جنيه (A2741) وحتى 1,200 جنيه للمغناطيسي اللاسلكي MagGo. مقارنةً بشواحن سيارات بلاستيكية بـ 200 جنيه: انكر جسم معدني + PD سريع + ضمان 18 شهر. توصيل القاهرة يوم واحد، دفع عند الاستلام.'
                         },
                         {
                             question: 'هل شاحن السيارة آمن؟ مش بيسخن؟',
