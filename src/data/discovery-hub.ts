@@ -13,7 +13,7 @@ export interface DiscoveryLink { url: string; indexed?: boolean; }
 export const discoveryLinks: DiscoveryLink[] = [
     { url: "https://telegra.ph/How-to-Choose-a-360-Bluetooth-Speaker-in-2026-06-21" },
     { url: "https://telegra.ph/Car-Chargers-and-Earbuds-A-2026-Pick-List-06-21" },
-    { url: "https://snorkeling.blogspot.com/2026/06/waterproof-audio-and-charging-gear-for.html" },
+    { url: "https://snorkeling.blogspot.com/2026/06/waterproof-audio-and-charging-gear-for.html", indexed: true },
     { url: "https://bestlaser-range-finderreviews.blogspot.com/2026/06/outdoor-tech-keep-your-phone-and.html" },
     { url: "https://1al3abi.blogspot.com/2026/06/gaming-accessories-charging-and-audio.html" },
     { url: "https://sediving.blogspot.com/2026/06/waterproof-sound-and-reliable-cables.html" },
