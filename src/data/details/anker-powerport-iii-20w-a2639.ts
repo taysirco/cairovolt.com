@@ -17,8 +17,8 @@ export const anker_powerport_iii_20w_a2639_detail: ProductDetail = {
   ]
 },
     localContext: {
-  "en": "Cairo summer outlets can spike past 240V while a fan and router share one power strip, and that's exactly when a weak charger overheats. The A2639's Superior Safety circuit samples temperature thousands of times a second and caps output, so a Maadi student can leave an iPhone charging through a 41C afternoon without a hot, buzzing brick.",
-  "ar": "في صيف القاهرة البريزة ممكن تعدّي 240 فولت والمروحة والراوتر على نفس المشترك، وده بالظبط وقت ما الشاحن الضعيف بيسخن. دايرة Superior Safety في الـ A2639 بتقيس الحرارة آلاف المرات في الثانية وبتحد الخرج، فطالب في المعادي يقدر يسيب الايفون بيشحن في عصر 41 درجة من غير راس ساخنة بتزن."
+  "en": "Cairo summer outlets can spike past 240V while a fan and router share one power strip, and that's exactly when a weak charger overheats. The A2149's Superior Safety circuit samples temperature thousands of times a second and caps output, so a Maadi student can leave an iPhone charging through a 41C afternoon without a hot, buzzing brick.",
+  "ar": "في صيف القاهرة البريزة ممكن تعدّي 240 فولت والمروحة والراوتر على نفس المشترك، وده بالظبط وقت ما الشاحن الضعيف بيسخن. دايرة Superior Safety في الـ A2149 بتقيس الحرارة آلاف المرات في الثانية وبتحد الخرج، فطالب في المعادي يقدر يسيب الايفون بيشحن في عصر 41 درجة من غير راس ساخنة بتزن."
 },
     specifications: {
   "Product Type": {

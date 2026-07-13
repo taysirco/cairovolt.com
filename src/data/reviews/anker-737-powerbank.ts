@@ -46,10 +46,10 @@ export const anker_737_powerbank_reviews: ProductReview[] = [
     {
         author: 'Hassan Ali', rating: 4, location: 'الإسكندرية', datePublished: '2026-01-10',
         reviewBody: {
-            en: 'Comparing 737 (4,999 EGP / 140W / 24K mAh) vs A1681 (2,200 EGP / 45W / 20K mAh): the 737 costs 2.3x more for 20% more capacity and 3x more wattage. Worth it ONLY if you charge laptops. For phone-only users, the A1681 is the better value. I went with the 737 for my MacBook.',
-            ar: 'مقارنة 737 (4,999 جنيه / 140 واط / 24 ألف) مقابل A1681 (2,200 جنيه / 45 واط / 20 ألف): الـ 737 بيكلّف 2.3 ضعف لـ 20% سعة أكتر و3 أضعاف الواط. يستاهل بس لو بتشحن لابتوبات. لمستخدمي الموبايل بس، الـ A1681 قيمة أحسن. أنا اخترت 737 لماك بوكي.'
+            en: 'Comparing 737 (4,999 EGP / 140W / 24K mAh) vs A1681 (2,200 EGP / 30W built-in cables / 20K mAh): the 737 costs 2.3x more for 20% more capacity and nearly 5x the wattage. Worth it ONLY if you charge laptops. For phone-only users, the A1681 with its built-in cables is the better value. I went with the 737 for my MacBook.',
+            ar: 'مقارنة 737 (4,999 جنيه / 140 واط / 24 ألف) مقابل A1681 (2,200 جنيه / 30 واط بكابلات مدمجة / 20 ألف): الـ 737 بيكلّف 2.3 ضعف لـ 20% سعة أكتر وحوالي 5 أضعاف الواط. يستاهل بس لو بتشحن لابتوبات. لمستخدمي الموبايل بس، الـ A1681 بكابلاته المدمجة قيمة أحسن. أنا اخترت 737 لماك بوكي.'
         },
-        pros: { en: ['140W = 3x more power than A1681', 'Essential for laptop users'], ar: ['140 واط = 3 أضعاف طاقة A1681', 'ضروري لمستخدمي اللابتوب'] },
+        pros: { en: ['140W = nearly 5x A1681\'s power', 'Essential for laptop users'], ar: ['140 واط = حوالي 5 أضعاف طاقة A1681', 'ضروري لمستخدمي اللابتوب'] },
         cons: { en: ['2.3x more expensive than A1681', 'Phone-only users don\'t need this'], ar: ['أغلى 2.3 ضعف من A1681', 'مستخدمي الموبايل بس مش محتاجين'] }
     },
     {

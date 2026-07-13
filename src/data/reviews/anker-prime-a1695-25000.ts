@@ -39,8 +39,8 @@ export const anker_prime_a1695_25000_reviews: ProductReview[] = [
     {
         author: 'Karim Samir', rating: 5, location: 'الدقي', datePublished: '2026-03-18',
         reviewBody: {
-            en: 'Anker Prime is the Tesla of power banks. The build quality is military-grade aluminum. Smart display is beautiful. 165W output with ActiveShield 3.0 means it never overheats even in Cairo summer. Compared to the 737 (24,000mAh / 140W), this is a clear upgrade. CairoVolt had the best price in Egypt.',
-            ar: 'أنكر Prime هي تسلا الباور بانكات. جودة البناء ألمنيوم عسكري. الشاشة الذكية جميلة. خرج 165 واط مع ActiveShield 3.0 يعني مش بيسخّن حتى في صيف القاهرة. مقارنة بالـ 737 (24,000 مللي / 140 واط)، ده ترقية واضحة. كايرو فولت كان عندها أحسن سعر في مصر.'
+            en: 'Anker Zolo is the Tesla of power banks. The build quality is military-grade aluminum. Smart display is beautiful. 165W output with ActiveShield 3.0 means it never overheats even in Cairo summer. Compared to the 737 (24,000mAh / 140W), this is a clear upgrade. CairoVolt had the best price in Egypt.',
+            ar: 'أنكر زولو هي تسلا الباور بانكات. جودة البناء ألمنيوم عسكري. الشاشة الذكية جميلة. خرج 165 واط مع ActiveShield 3.0 يعني مش بيسخّن حتى في صيف القاهرة. مقارنة بالـ 737 (24,000 مللي / 140 واط)، ده ترقية واضحة. كايرو فولت كان عندها أحسن سعر في مصر.'
         },
         pros: { en: ['Military-grade aluminum build', 'ActiveShield 3.0 no overheat', 'Clear upgrade over 737'], ar: ['بناء ألمنيوم عسكري', 'ActiveShield 3.0 بدون سخونة', 'ترقية واضحة عن 737'] }
     },

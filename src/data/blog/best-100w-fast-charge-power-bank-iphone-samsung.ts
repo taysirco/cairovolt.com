@@ -252,9 +252,9 @@ export const best_100w_fast_charge_power_bank_iphone_samsung: BlogArticle = {
 <p>للاستخدام الكامل لباور بانك 100W+، لازم كابل بمواصفات:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>240W rated:</strong> مثل
-    <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050 كابل USB-C 240W</a>
-    — يتحمل الـ 165W الكامل بدون احماء.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>140W+ rated:</strong> مثل
+    <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060 كابل USB-C 140W</a> (سلك بمعمار 240W)
+    — يتحمل أقصى قدرة للمنفذ الواحد بدون احماء.</li>
     <li style="margin-bottom:12px;">🔌 <strong>USB-IF Certified:</strong> شهادة رسمية من اتحاد USB — تضمن التوصيل المضبوط للبيانات والطاقة معاً.</li>
     <li style="margin-bottom:12px;">📏 <strong>1 متر فقط:</strong> الكابلات الطويلة (1.5م+) بتفقد فولتية بسبب المقاومة. للشحن السريع: 1م أو أقل.</li>
 </ul>
@@ -516,9 +516,9 @@ offers 140W with a simpler, more rugged design — without active cooling (since
 <p>For full 100W+ power bank usage, the cable must meet:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>240W rated:</strong> Like
-    <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 USB-C 240W</a>
-    — handles the full 165W without heating.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>140W+ rated:</strong> Like the
+    <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 USB-C 140W</a> (240W-grade wire)
+    — handles a single port's full output without heating.</li>
     <li style="margin-bottom:12px;">🔌 <strong>USB-IF Certified:</strong> Official certification from the USB consortium — ensures correct data and power delivery together.</li>
     <li style="margin-bottom:12px;">📏 <strong>1 meter only:</strong> Long cables (1.5m+) lose voltage due to resistance. For fast charging: 1m or shorter.</li>
 </ul>

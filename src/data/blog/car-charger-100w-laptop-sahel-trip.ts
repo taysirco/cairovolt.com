@@ -41,7 +41,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
             metaDescription: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والعين السخنة. حسابات القدرة، مقارنة شواحن، وتحذيرات حرارة صيف مصر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'شاحن سيارة 100 واط, شحن لابتوب في السيارة, شاحن سيارة للابتوب, شاحن 100W سيارة مصر, شاحن سيارة ساحل, شاحن USB-C PD سيارة, car charger 100w laptop egypt, شاحن سيارة ماك بوك, شاحن سيارة رحلات طويلة, شاحن GaN سيارة',
             excerpt: 'دليل اختيار شاحن سيارة 100W لشحن اللابتوب في رحلات الساحل والسخنة مع حسابات القدرة وتحذيرات حرارة الصيف.',
-            quickAnswer: 'أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي أنكر A8050، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + كابل 100W + باور بانك أنكر 737 كاحتياطي.',
+            quickAnswer: 'أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي أنكر زولو A8060، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + كابل 100W + باور بانك أنكر 737 كاحتياطي.',
             content: `
 <p>الساعة 6 الصبح، العربية متحملة على أوتوستراد الإسكندرية الصحراوي، إنت ماسك الدركسيون بإيد والتانية بتحاول تفتح Excel sheet على اللابتوب — لأ طبعاً مش وإنت بتسوق، ده وإنت قاعد جنب السواق. البطارية على 12% والاجتماع بعد ساعة على Zoom. بتبص على شاحن السيارة اللي جايبه معاك — 18 واط. يا صديقي، 18 واط دول مش هيشحنوا اللابتوب بتاعك، دول بالعافية يشحنوا ساعة ذكية. الموقف ده أشبه بإنك تحاول تملا حمام سباحة بخرطوم مطبخ — تقنياً ممكن، عملياً هتقعد لبعد العيد.</p>
 
@@ -49,7 +49,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a>، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل USB-C 100W</a> + <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك أنكر 737</a> كاحتياطي.
+        <strong>💡 الإجابة السريعة:</strong> أيوا، تقدر تشحن اللابتوب في السيارة بشاحن USB-C PD بشرط 3 حاجات: (1) الشاحن يدعم 65W على الأقل (100W للابتوبات القوية)، (2) كابل USB-C يدعم 100W زي <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a>، (3) ولاعة السجاير تطلع 120-180W (12V × 10-15A). أفضل خيار لرحلات الساحل: شاحن سيارة 100W GaN + <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل USB-C 100W</a> + <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">باور بانك أنكر 737</a> كاحتياطي.
     </p>
 </div>
 
@@ -217,7 +217,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 <p><strong>كابل 100W محتاج 3 حاجات:</strong></p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>يدعم 5A (100W):</strong> كابلات USB-C العادية بتدعم 3A بس (= 60W كحد أقصى على 20V). للوصول لـ 100W، محتاج كابل مصنّف E-Marker بيدعم 5A. <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر A8050</a> من الكابلات اللي بتدعم 100W فعلي.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>يدعم 5A (100W):</strong> كابلات USB-C العادية بتدعم 3A بس (= 60W كحد أقصى على 20V). للوصول لـ 100W، محتاج كابل مصنّف E-Marker بيدعم 5A. <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">كابل انكر زولو A8060</a> من الكابلات اللي بتدعم 100W فعلي.</li>
     <li style="margin-bottom:12px;">📏 <strong>الطول المناسب:</strong> في العربية، 1-1.5 متر مثالي. كابل أطوال من 2 متر بيزود المقاومة وبيخفض القدرة الفعلية. <a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">كابل انكر PowerLine USB-C</a> متاح بأطوال مناسبة.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>التحمل:</strong> الكابل في العربية بيتعرض لحرارة عالية + ثني متكرر. كابل بدون تقوية عند الأطراف بيبوظ خلال 2-3 شهور في صيف مصر. اقرأ مقالنا عن <a href="/blog/protect-cables-car-summer-heat-cairo" style="color:#2563eb;">حماية الكابلات من حرارة صيف القاهرة</a> للتفاصيل.</li>
 </ul>
@@ -343,7 +343,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
             metaDescription: 'Guide to choosing a 100W car charger for laptop charging on road trips to Sahel and Ain Sokhna. Power calculations, charger comparisons, and Egyptian summer ...',
             keywords: '100w car charger laptop, car charger laptop egypt, USB-C PD car charger, car charger macbook, 100w car charger sahel trip, laptop car charging guide, GaN car charger egypt, car charger road trip egypt, best car charger laptop 2026, car cigarette lighter wattage',
             excerpt: 'Complete guide to choosing a 100W car charger for laptop charging on Egyptian road trips with power calculations and summer heat safety tips.',
-            quickAnswer: 'Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like Anker A8050, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + 100W cable + Anker 737 power bank as backup.',
+            quickAnswer: 'Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like Anker Zolo A8060, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + 100W cable + Anker 737 power bank as backup.',
             content: `
 <p>It's 6 AM on the Alexandria Desert Road. You're riding shotgun, frantically trying to open an Excel sheet on your laptop before the Zoom meeting in an hour. Battery: 12%. You glance at the car charger you brought — 18 watts. My friend, 18 watts won't charge your laptop; it'll barely keep a smartwatch alive. This is like trying to fill a swimming pool with a kitchen hose — technically possible, practically you'll be waiting until next Eid.</p>
 
@@ -351,7 +351,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050</a>, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">100W USB-C cable</a> + <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 power bank</a> as backup.
+        <strong>💡 Quick Answer:</strong> Yes, you can charge your laptop in the car with a USB-C PD charger under 3 conditions: (1) charger supports 65W minimum (100W for powerful laptops), (2) USB-C cable rated for 100W like <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060</a>, (3) cigarette lighter outputs 120-180W (12V × 10-15A). Best setup for Sahel trips: 100W GaN car charger + <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">100W USB-C cable</a> + <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 power bank</a> as backup.
     </p>
 </div>
 
@@ -517,7 +517,7 @@ export const car_charger_100w_laptop_sahel_trip: BlogArticle = {
 <p><strong>A 100W cable needs 3 things:</strong></p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>5A (100W) support:</strong> Standard USB-C cables only support 3A (= 60W max at 20V). To reach 100W, you need an E-Marker rated cable supporting 5A. The <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 cable</a> is one that delivers true 100W.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>5A (100W) support:</strong> Standard USB-C cables only support 3A (= 60W max at 20V). To reach 100W, you need an E-Marker rated cable supporting 5A. The <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 cable</a> is one that delivers true 100W.</li>
     <li style="margin-bottom:12px;">📏 <strong>Proper length:</strong> In a car, 1-1.5 meters is ideal. Cables longer than 2 meters increase resistance and reduce effective power. The <a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">Anker PowerLine USB-C cable</a> is available in suitable lengths.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Durability:</strong> Car cables face extreme heat + repeated bending. A cable without reinforced connectors fails within 2-3 months in Egyptian summer conditions. Read our article on <a href="/en/blog/protect-cables-car-summer-heat-cairo" style="color:#2563eb;">protecting cables from Cairo's summer heat</a> for details.</li>
 </ul>

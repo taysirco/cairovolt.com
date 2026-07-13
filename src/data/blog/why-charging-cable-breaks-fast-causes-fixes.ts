@@ -104,7 +104,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <table>
     <thead><tr><th>الكابل</th><th>دورات الثني</th><th>القدرة</th><th>المميز</th></tr></thead>
     <tbody>
-        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>انكر A8050 USB-C</strong></a></td><td>12,000+</td><td>100W</td><td>Bio-based غلاف صديق للبيئة</td></tr>
+        <tr><td><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>انكر A8050 (USB-A to USB-C)</strong></a></td><td>35,000+</td><td>شحن سريع من شواحن USB-A</td><td>نايلون مضفر بطول 1.8 متر</td></tr>
         <tr><td><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>انكر باور لاين USB-C</strong></a></td><td>12,000+</td><td>60W</td><td>نايلون مضفر مزدوج</td></tr>
         <tr><td><a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>انكر SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>الأمتن لـ iPhone</td></tr>
         <tr><td><a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>جوي روم USB-C 60W</strong></a></td><td>10,000+</td><td>60W</td><td>سعر اقتصادي ممتاز</td></tr>
@@ -181,7 +181,7 @@ export const why_charging_cable_breaks_fast_causes_fixes: BlogArticle = {
 <table>
     <thead><tr><th>Cable</th><th>Bend Cycles</th><th>Power</th><th>Key Feature</th></tr></thead>
     <tbody>
-        <tr><td><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050</strong></a></td><td>12,000+</td><td>100W</td><td>Bio-based eco jacket</td></tr>
+        <tr><td><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb"><strong>Anker A8050 (USB-A to USB-C)</strong></a></td><td>35,000+</td><td>Fast charge from USB-A chargers</td><td>Braided nylon, 1.8m</td></tr>
         <tr><td><a href="/en/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb"><strong>Anker PowerLine</strong></a></td><td>12,000+</td><td>60W</td><td>Double-braided nylon</td></tr>
         <tr><td><a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb"><strong>Anker SureiStrong</strong></a></td><td>15,000+</td><td>30W</td><td>Toughest for iPhone</td></tr>
         <tr><td><a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb"><strong>Joyroom 60W</strong></a></td><td>10,000+</td><td>60W</td><td>Best budget option</td></tr>

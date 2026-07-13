@@ -194,7 +194,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔌 <strong>الحد الأدنى:</strong> كابل USB-C يدعم 60W (3A @ 20V) — ده كافي لـ MacBook Air.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>الاختيار الأمثل:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">كابل انكر A8050 USB-C</a> بدعم 100W — يغطّيك لأي ترقية مستقبلية.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>الاختيار الأمثل:</strong> <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">كابل انكر زولو A8060 USB-C</a> بدعم 140W — يغطّيك لأي ترقية مستقبلية.</li>
     <li style="margin-bottom:12px;">❌ <strong>تحذير:</strong> كابلات USB-C المقلّدة (اللي بـ 15-25ج من OLX أو الميكروباص) ممكن تكون بمقاومة 200-300 mΩ بدل 50-80 mΩ للأصلي — يعني فقد 20-30% من القدرة كحرارة في الكابل نفسه.</li>
 </ul>
 
@@ -276,7 +276,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'هل كابل USB-C العادي كافي لشحن MacBook من شاحن GaN؟',
-                    answer: 'مش أي كابل. لازم يكون كابل USB-C بيدعم 60W+ (3A @ 20V على الأقل). كابلات charge-only الرخيصة بتحدّ السرعة على 15W. الأفضل كابل Anker PowerLine أو A8050 (100W) — بيضمن أقصى سرعة ويتحمل 25,000 دورة ثني.',
+                    answer: 'مش أي كابل. لازم يكون كابل USB-C بيدعم 60W+ (3A @ 20V على الأقل). كابلات charge-only الرخيصة بتحدّ السرعة على 15W. الأفضل كابل Anker PowerLine أو زولو A8060 (140W) — بيضمن أقصى سرعة ويتحمل 10,000+ دورة ثني.',
                 },
             ],
         },
@@ -452,7 +452,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔌 <strong>Minimum Requirement:</strong> A USB-C cable rated for 60W (3A @ 20V) — sufficient for MacBook Air.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>Optimal Choice:</strong> <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 USB-C Cable</a> with 100W support — covers any future upgrade.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Optimal Choice:</strong> <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 USB-C Cable</a> with 140W support — covers any future upgrade.</li>
     <li style="margin-bottom:12px;">❌ <strong>Warning:</strong> Counterfeit USB-C cables (the 15-25 EGP ones from OLX or street vendors) can have 200-300 mΩ resistance versus 50-80 mΩ for genuine cables — meaning 20-30% of power is lost as heat in the cable itself.</li>
 </ul>
 
@@ -534,7 +534,7 @@ export const macbook_air_m3_pro_m4_gan_chargers_alternatives: BlogArticle = {
                 },
                 {
                     question: 'Is any USB-C cable sufficient for charging MacBook from a GaN charger?',
-                    answer: 'Not just any cable. You need a USB-C cable rated for 60W+ (3A @ 20V minimum). Cheap charge-only cables limit speed to 15W. Best option is an Anker PowerLine or A8050 (100W rated) — ensures maximum speed and withstands 25,000 bend cycles.',
+                    answer: 'Not just any cable. You need a USB-C cable rated for 60W+ (3A @ 20V minimum). Cheap charge-only cables limit speed to 15W. Best option is an Anker PowerLine or Zolo A8060 (140W rated) — ensures maximum speed and withstands 10,000+ bend cycles.',
                 },
             ],
         },

@@ -97,7 +97,7 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
                     { question: "Will the foldable plug work in Egypt?", answer: "Electrically yes — the GaN core is rated 100–240V, so Egypt's 220V grid is fine. If your unit ships with US-style prongs, a cheap universal socket adapter lets it plug into Egyptian outlets." },
                     { question: "How many times can it charge an iPhone 17 Pro?", answer: "About 1.5 full charges from its 34.56Wh. In our Cairo lab it took an iPhone 17 Pro from 18% to 71% in 25 minutes over PD 3.0." },
                     { question: "Does it get hot at 65W?", answer: "It gets warm, not dangerous. Our meter saw a 41°C peak on the aluminum body, and ActiveShield 2.0 monitors internal temperature thousands of times a minute." },
-                    { question: "What cable do I need to hit 65W?", answer: "Use a 100W-rated USB-C cable such as the Anker A8050. A thin 5W cable will bottleneck the output and heat up." }
+                    { question: "What cable do I need to hit 65W?", answer: "Use a 100W-rated USB-C to USB-C cable such as the Anker Zolo 140W braided cable (A8060). A thin 5W cable will bottleneck the output and heat up." }
                 ]
             },
             ar: {
@@ -173,7 +173,7 @@ export const anker_prime_fusion_a1339_9600mah_65w = {
                     { question: "القابس القابل للطي هيشتغل في مصر؟", answer: "كهربائياً أيوه — نواة GaN مقننة 100–240 فولت، فشبكة مصر 220 فولت تمام. لو نسختك بقابس أمريكي، وصلة بريزة رخيصة بتخليه يتركب في بريزة مصرية." },
                     { question: "بيشحن ايفون 17 برو كام مرة؟", answer: "حوالي 1.5 شحنة كاملة من الـ 34.56 واط·ساعة. في معملنا بالقاهرة رفع ايفون 17 برو من 18% لـ 71% في 25 دقيقة عبر PD 3.0." },
                     { question: "بيسخن عند 65 واط؟", answer: "بيدفى مش بيسخن بشكل خطير. جهاز القياس سجّل 41°C كحد أقصى على جسم الألومنيوم، وActiveShield 2.0 بيراقب الحرارة الداخلية آلاف المرات في الدقيقة." },
-                    { question: "محتاج كابل إيه عشان أوصل 65 واط؟", answer: "استخدم كابل USB-C متحمّل 100 واط زي أنكر A8050. الكابل الرفيع 5 واط هيعمل عنق زجاجة ويسخن." }
+                    { question: "محتاج كابل إيه عشان أوصل 65 واط؟", answer: "استخدم كابل USB-C إلى USB-C متحمّل 100 واط زي كابل أنكر زولو 140 واط المضفر (A8060). الكابل الرفيع 5 واط هيعمل عنق زجاجة ويسخن." }
                 ]
             }
         },

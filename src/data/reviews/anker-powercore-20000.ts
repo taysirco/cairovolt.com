@@ -21,11 +21,11 @@ export const anker_powercore_20000_reviews: ProductReview[] = [
     {
         author: 'Tarek Nabil', rating: 4, location: 'مصر الجديدة', datePublished: '2026-05-12',
         reviewBody: {
-            en: 'Comparing: 10K mAh (pocket) vs 20K mAh (bag) vs 26.8K (heavy bag): the 20K is the sweet spot for most people. Enough for a full day of heavy use, light enough to throw in a backpack. 18W is decent but not PD fast — A1681 45W is better for laptops.',
-            ar: 'مقارنة: 10 آلاف (جيب) مقابل 20 ألف (شنطة) مقابل 26.8 ألف (شنطة تقيلة): 20 ألف النقطة المثلى لمعظم الناس. كافي ليوم كامل استخدام كتير، خفيف كفاية ترميه في الباكباك. 18 واط كويس بس مش PD سريع — A1681 45 واط أحسن للابتوبات.'
+            en: 'Comparing: 10K mAh (pocket) vs 20K mAh (bag) vs 26K (heavy bag): the 20K is the sweet spot for most people. Enough for a full day of heavy use, light enough to throw in a backpack. 18W is decent but not PD fast — the A1681\'s built-in 30W USB-C is quicker for phones, and for laptops go PowerCore III Elite 26K (60W) or A1695 (165W).',
+            ar: 'مقارنة: 10 آلاف (جيب) مقابل 20 ألف (شنطة) مقابل 26 ألف (شنطة تقيلة): 20 ألف النقطة المثلى لمعظم الناس. كافي ليوم كامل استخدام كتير، خفيف كفاية ترميه في الباكباك. 18 واط كويس بس مش PD سريع — كابل A1681 المدمج بـ 30 واط أسرع للموبايلات، وللابتوبات خد PowerCore III Elite 26K (60 واط) أو A1695 (165 واط).'
         },
         pros: { en: ['Sweet spot for most people', 'Full day heavy use + backpack light'], ar: ['النقطة المثلى لمعظم الناس', 'يوم كامل استخدام كتير + خفيف للباكباك'] },
-        cons: { en: ['18W not PD fast — A1681 better for laptops'], ar: ['18 واط مش PD سريع — A1681 أحسن للابتوبات'] }
+        cons: { en: ['18W not PD fast — A1681 30W quicker for phones'], ar: ['18 واط مش PD سريع — A1681 بـ 30 واط أسرع للموبايلات'] }
     },
     {
         author: 'Ali Khaled', rating: 5, location: 'التجمع الخامس', datePublished: '2026-04-02',

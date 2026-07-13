@@ -62,7 +62,7 @@ const LEGACY_PRODUCT_REDIRECTS: Record<string, string> = {
     'anker-nano-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
     'anker-nano-4-a2337-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
     'anker-nano-pro-20w': '/anker/wall-chargers/anker-powerport-20w',
-    'anker-usb-c-to-usb-c-100w': '/anker/cables/anker-a8050-usb-c-cable',
+    'anker-usb-c-to-usb-c-100w': '/anker/cables/anker-zolo-usb-c-braided-cable',
     'joyroom-magnetic-wireless-power-bank-10000': '/joyroom/power-banks/joyroom-magnetic-power-bank-10000',
     'soundcore-r50i-earbuds': '/soundcore/audio/anker-soundcore-r50i',
 };

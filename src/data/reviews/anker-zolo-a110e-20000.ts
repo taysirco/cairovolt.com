@@ -4,7 +4,7 @@ import type { ProductReview } from './_shared';
 export const anker_zolo_a110e_20000_reviews: ProductReview[] = [
     {
         author: 'Karim Samir', rating: 5, location: 'الزمالك', datePublished: '2026-02-18',
-        reviewBody: { en: 'The A110E is the budget 20,000mAh with 22.5W output and a digital display. For phone-only charging where you don\'t need 45W laptop power, this saves 800 EGP over the A1681. 20K capacity = 4.5 iPhone charges. Best value for phone-centric users.', ar: 'A110E هو الميزانية 20,000 مللي بـ 22.5 واط خرج وشاشة رقمية. لشحن الموبايل بس لما مش محتاج 45 واط لابتوب، ده بيوفّر 800 جنيه عن A1681. 20 ألاف سعة = 4.5 شحنة آيفون. أحسن قيمة لمستخدمي الموبايل.' },
+        reviewBody: { en: 'The A110E is the budget 20,000mAh with 22.5W output and a digital display. If you don\'t need the A1681\'s built-in cables and 30W output, this saves 800 EGP over the A1681. 20K capacity = 4.5 iPhone charges. Best value for phone-centric users.', ar: 'A110E هو الميزانية 20,000 مللي بـ 22.5 واط خرج وشاشة رقمية. لو مش محتاج كابلات A1681 المدمجة والـ 30 واط، ده بيوفّر 800 جنيه عن A1681. 20 ألاف سعة = 4.5 شحنة آيفون. أحسن قيمة لمستخدمي الموبايل.' },
         pros: { en: ['800 EGP less than A1681', '4.5 iPhone charges', 'Best value phone-centric'], ar: ['800 جنيه أقل من A1681', '4.5 شحنة آيفون', 'أحسن قيمة للموبايل'] }
     },
     {
@@ -14,9 +14,9 @@ export const anker_zolo_a110e_20000_reviews: ProductReview[] = [
     },
     {
         author: 'Hassan Ali', rating: 4, location: 'الإسكندرية', datePublished: '2026-06-05',
-        reviewBody: { en: '22.5W output is the main limitation vs A1681\'s 45W. My Samsung S24 wants 25W PPS — only gets 22.5W here. For iPhones that max at 27W, the difference is minimal. For Samsung/Pixel users wanting max speed, the A1681 is worth the premium. Budget pick for iPhone.', ar: '22.5 واط خرج هو القيد الرئيسي مقابل 45 واط A1681. Samsung S24 بتاعي عايز 25 واط PPS — بياخد 22.5 واط بس هنا. للآيفونات اللي ماكس 27 واط، الفرق بسيط. لمستخدمي سامسونج/بيكسل اللي عايزين أقصى سرعة، A1681 يستاهل البريميوم. اختيار ميزانية للآيفون.' },
+        reviewBody: { en: '22.5W output is the main limitation vs the A1681\'s 30W built-in USB-C. My Samsung S24 wants 25W PPS — only gets 22.5W here. For iPhones that max at 27W, the difference is minimal. For Samsung/Pixel users wanting max speed, the A1681 is worth the premium. Budget pick for iPhone.', ar: '22.5 واط خرج هو القيد الرئيسي مقابل كابل USB-C المدمج بـ 30 واط في A1681. Samsung S24 بتاعي عايز 25 واط PPS — بياخد 22.5 واط بس هنا. للآيفونات اللي ماكس 27 واط، الفرق بسيط. لمستخدمي سامسونج/بيكسل اللي عايزين أقصى سرعة، A1681 يستاهل البريميوم. اختيار ميزانية للآيفون.' },
         pros: { en: ['Budget pick for iPhone users', 'Minimal difference for iPhones'], ar: ['اختيار ميزانية لمستخدمي آيفون', 'فرق بسيط للآيفونات'] },
-        cons: { en: ['22.5W < Samsung\'s 25W PPS', 'A1681 45W better for Samsung/Pixel'], ar: ['22.5 واط < سامسونج 25 واط PPS', 'A1681 45 واط أحسن لسامسونج/بيكسل'] }
+        cons: { en: ['22.5W < Samsung\'s 25W PPS', 'A1681 30W better for Samsung/Pixel'], ar: ['22.5 واط < سامسونج 25 واط PPS', 'A1681 بـ 30 واط أحسن لسامسونج/بيكسل'] }
     },
     {
         author: 'Nour Mohamed', rating: 5, location: 'الدقي', datePublished: '2026-03-05',

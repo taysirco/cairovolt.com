@@ -6,7 +6,7 @@ export const anker_pencil_stylus_detail: ProductDetail = {
         ar: ['حساسية ميل للتظليل + رفض لمس كف للكتابة الطبيعية — 80% من مميزات Apple Pencil', 'تثبيت مغناطيسي N52 — أقوى درجة، للتخزين بس (مش شحن لاسلكي)', '8 ساعات بطارية + 25 دقيقة USB-C شحن كامل — بيغطي يوم دراسي/عمل كامل', '15.4 جرام + طرف POM 1.5mm + طرفين بديلين + متوافق مع أطراف Apple Pencil', 'كايرو فولت: ضمان 18 شهر، نسبة إرجاع 0.5%. أرخص 70% من Apple Pencil. بصراحة: مفيهوش حساسية ضغط.'],
     },
     localContext: {
-        en: 'Egyptian students spend 3,500+ EGP on Apple Pencil 1st Gen — money that could go to textbooks or courses. The Anker Pencil at 1,199 EGP delivers tilt sensitivity and palm rejection, which is everything needed for GoodNotes, Notability, and PDF annotation. Cairo University, AUC, GUC, and BUE students are switching to Anker Pencil as the smart budget choice.',
+        en: 'Egyptian students spend 3,500+ EGP on Apple Pencil 1st Gen — money that could go to textbooks or courses. The Anker Pencil Pro at 1,199 EGP delivers tilt sensitivity and palm rejection, which is everything needed for GoodNotes, Notability, and PDF annotation. Cairo University, AUC, GUC, and BUE students are switching to Anker Pencil Pro as the smart budget choice.',
         ar: 'الطلاب المصريين بيصرفوا 3,500+ جنيه على Apple Pencil الأول — فلوس ممكن تروح لكتب أو كورسات. قلم أنكر بـ 1,199 جنيه بيوفر حساسية ميل ورفض لمس كف، وده كل اللي محتاجه لـ GoodNotes وNotability والتعليق على PDF. طلاب القاهرة، AUC، GUC، وBUE بيتحولوا لقلم أنكر كاختيار ميزانية ذكي.',
     },
     specifications: {

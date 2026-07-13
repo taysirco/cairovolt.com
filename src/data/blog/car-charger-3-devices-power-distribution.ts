@@ -196,7 +196,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h3>3. استخدم كوابل أصلية أو معتمدة</h3>
 
-<p>الكابل هو <strong>عنق الزجاجة</strong> في أي نظام شحن. كابل رخيص بيخنق القدرة من 25W لـ 5W — يعني بتخسر <strong>80% من سرعة الشحن</strong>. استخدم كابل USB-C بيدعم <strong>3A على الأقل</strong> (والأفضل 5A). كابل <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a> بيدعم حتى 100W — أكتر من كافي لأي موبايل أو تابلت.</p>
+<p>الكابل هو <strong>عنق الزجاجة</strong> في أي نظام شحن. كابل رخيص بيخنق القدرة من 25W لـ 5W — يعني بتخسر <strong>80% من سرعة الشحن</strong>. استخدم كابل USB-C بيدعم <strong>3A على الأقل</strong> (والأفضل 5A). كابل <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a> بيدعم حتى 140W — أكتر من كافي لأي موبايل أو تابلت.</p>
 
 <h3>4. نظام التناوب الذكي</h3>
 
@@ -477,7 +477,7 @@ export const car_charger_3_devices_power_distribution: BlogArticle = {
 
 <h3>3. Use Certified or Original Cables</h3>
 
-<p>The cable is the <strong>bottleneck</strong> of any charging system. A cheap cable throttles power from 25W to 5W — meaning you lose <strong>80% of your charging speed</strong>. Use a USB-C cable that supports <strong>at least 3A</strong> (5A is even better). The <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 cable</a> supports up to 100W — more than sufficient for any phone or tablet.</p>
+<p>The cable is the <strong>bottleneck</strong> of any charging system. A cheap cable throttles power from 25W to 5W — meaning you lose <strong>80% of your charging speed</strong>. Use a USB-C cable that supports <strong>at least 3A</strong> (5A is even better). The <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 cable</a> supports up to 140W — more than sufficient for any phone or tablet.</p>
 
 <h3>4. The Smart Rotation System</h3>
 

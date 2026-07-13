@@ -150,7 +150,7 @@ export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
             <tr>
                 <td style="padding:10px;border:1px solid #e5e7eb;">أقصى شحن</td>
                 <td style="padding:10px;border:1px solid #e5e7eb;text-align:center;">22.5W</td>
-                <td style="padding:10px;border:1px solid #e5e7eb;text-align:center;">45W</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;text-align:center;">30W</td>
             </tr>
             <tr style="background:#f9fafb;">
                 <td style="padding:10px;border:1px solid #e5e7eb;">الوزن (20000mAh)</td>
@@ -177,10 +177,10 @@ export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
 </ul>
 <p><strong>اختر أنكر لو:</strong></p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">✅ بتشحن لابتوب (محتاج 45W+)</li>
+    <li style="margin-bottom:10px;">✅ بتشحن لابتوب — من موديلات أنكر الأعلى (زولو A1695 بقوة 165W أو PowerCore III Elite 26K بقوة 60W)</li>
     <li style="margin-bottom:10px;">✅ بتهتم بالوزن — أنكر ZOLO 20000mAh أخف بـ 100 جرام</li>
     <li style="margin-bottom:10px;">✅ بتحتاج شاشة رقمية لمعرفة النسبة الدقيقة</li>
-    <li style="margin-bottom:10px;">✅ التكنولوجيا المتقدمة (شحن 45W / البناء الألومنيوم) بتبرر الفارق السعري</li>
+    <li style="margin-bottom:10px;">✅ التكنولوجيا المتقدمة (شحن 30W / البناء الألومنيوم) بتبرر الفارق السعري</li>
 </ul>
 
 <p>للمقارنة الشاملة بين أنكر وجيروم، اقرأ <a href="/blog/anker-vs-joyroom-power-banks-12-models-tested" style="color:#2563eb;font-weight:600;">أنكر مقابل Joyroom — 12 موديل مختبر</a>.</p>
@@ -202,7 +202,7 @@ export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
                 },
                 {
                     question: 'Joyroom 20000mAh يشحن لابتوب؟',
-                    answer: 'لا، JR-W040 بـ 22.5W خرج مش كافي لشحن معظم اللابتوبات اللي بتحتاج 45W+ (MacBook Air / Dell / HP). ممكن يشحن لابتوبات صغيرة بـ 30-45W لكن ببطء. لو محتاج شحن لابتوب — اختار أنكر ZOLO A1681 (45W) أو أنكر Prime (250W) حسب الاحتياج.'
+                    answer: 'لا، JR-W040 بـ 22.5W خرج مش كافي لشحن معظم اللابتوبات اللي بتحتاج 45W+ (MacBook Air / Dell / HP). ممكن يشحن لابتوبات صغيرة بـ 30-45W لكن ببطء. لو محتاج شحن لابتوب — اختار أنكر زولو A1695 (165W) أو أنكر PowerCore III Elite 26K (60W) حسب الاحتياج.'
                 },
                 {
                     question: 'Joyroom ضمانه كام سنة في مصر؟',
@@ -333,7 +333,7 @@ export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
             <tr>
                 <td style="padding:10px;border:1px solid #e5e7eb;">Max Output</td>
                 <td style="padding:10px;border:1px solid #e5e7eb;text-align:center;">22.5W</td>
-                <td style="padding:10px;border:1px solid #e5e7eb;text-align:center;">45W</td>
+                <td style="padding:10px;border:1px solid #e5e7eb;text-align:center;">30W</td>
             </tr>
             <tr style="background:#f9fafb;">
                 <td style="padding:10px;border:1px solid #e5e7eb;">Weight (20,000mAh)</td>
@@ -360,10 +360,10 @@ export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
 </ul>
 <p><strong>Choose Anker if:</strong></p>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:10px;">✅ You charge laptops (need 45W+)</li>
+    <li style="margin-bottom:10px;">✅ You charge laptops — with Anker's higher-end models (Zolo A1695 165W or PowerCore III Elite 26K 60W)</li>
     <li style="margin-bottom:10px;">✅ Weight matters — Anker ZOLO 20,000mAh is 100g lighter</li>
     <li style="margin-bottom:10px;">✅ You need a digital display for the exact percentage</li>
-    <li style="margin-bottom:10px;">✅ Advanced technology (45W output / aluminum build) justifies the price difference</li>
+    <li style="margin-bottom:10px;">✅ Advanced technology (30W output / aluminum build) justifies the price difference</li>
 </ul>
 
 <p>For the full comparison between Anker and Joyroom, read <a href="/en/blog/anker-vs-joyroom-power-banks-12-models-tested" style="color:#2563eb;font-weight:600;">Anker vs Joyroom — 12 Models Tested</a>.</p>
@@ -385,7 +385,7 @@ export const joyroom_power_banks_10k_20k_models_review: BlogArticle = {
                 },
                 {
                     question: 'Can the Joyroom 20,000mAh charge a laptop?',
-                    answer: 'No, the JR-W040 at 22.5W output is insufficient to charge most laptops that require 45W+ (MacBook Air / Dell / HP). It may charge small laptops rated at 30-45W but slowly. If you need laptop charging — choose the Anker ZOLO A1681 (45W) or Anker Prime (250W) depending on your needs.'
+                    answer: 'No, the JR-W040 at 22.5W output is insufficient to charge most laptops that require 45W+ (MacBook Air / Dell / HP). It may charge small laptops rated at 30-45W but slowly. If you need laptop charging — choose the Anker Zolo A1695 (165W) or the Anker PowerCore III Elite 26K (60W) depending on your needs.'
                 },
                 {
                     question: 'What is the Joyroom warranty in Egypt?',

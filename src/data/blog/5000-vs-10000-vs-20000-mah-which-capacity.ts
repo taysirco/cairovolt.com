@@ -211,12 +211,12 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">السفر لـ 2-3 أيام</td>
             <td style="padding:12px;border:1px solid #d1d5db;">موبايل + سماعة + ساعة + ربما لابتوب</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر زولو A1681 45W (2,200ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر PowerCore III Elite 26K بقوة 60W (2,300ج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">مستخدم لابتوب USB-C</td>
             <td style="padding:12px;border:1px solid #d1d5db;">الـ 10,000mAh لا يشحن لابتوب</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر زولو A1681 45W (2,200ج)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">انكر زولو A1695 بقوة 165W (3,950ج)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">الكامبينج / السفاري</td>
@@ -527,12 +527,12 @@ export const five_thousand_vs_ten_thousand_vs_twenty_thousand_mah_which_capacity
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">2-3 day travel</td>
             <td style="padding:12px;border:1px solid #d1d5db;">phone + earbuds + watch + maybe laptop</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ZOLO A1681 45W (2,200 EGP)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker PowerCore III Elite 26K 60W (2,300 EGP)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">USB-C laptop user</td>
             <td style="padding:12px;border:1px solid #d1d5db;">10,000mAh cannot charge a laptop</td>
-            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker ZOLO A1681 45W (2,200 EGP)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;color:#059669;">Anker Zolo A1695 165W (3,950 EGP)</td>
         </tr>
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;">Camping / safari</td>

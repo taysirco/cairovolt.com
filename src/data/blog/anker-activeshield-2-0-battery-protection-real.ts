@@ -165,7 +165,7 @@ export const anker_activeshield_2_0_battery_protection_real: BlogArticle = {
     <li style="margin-bottom:16px;">⚠️ <strong>الحد الأول — التخفيض = بطء:</strong> لما ActiveShield بتشتغل، ده معناه إن الشحن بيبطئ. في صيف القاهرة (45°م)، ممكن تلاقي الباور بانك بيشحن الموبايل بـ 80% من السرعة المكتوبة. ده مش عيب — ده ميزة — بس لازم تتوقعه</li>
     <li style="margin-bottom:16px;">⚠️ <strong>الحد الثاني — للباور بانك بس:</strong> ActiveShield موجودة في باور بانكات Anker، مش في الشواحن الحائطية (Wall Chargers). شواحن GaN من Anker عندها نظام حراري مختلف (ActiveShield مش ضروري فيهم لأن GaN أصلاً أكفأ حرارياً)</li>
     <li style="margin-bottom:16px;">⚠️ <strong>الحد الثالث — التحقق صعب:</strong> مقدرش "أشوف" ActiveShield وهي شغالة. مفيش إشعار على الشاشة ولا LED بيتغير. لازم تثق في الأرقام أو تجيب Thermal Camera</li>
-    <li style="margin-bottom:16px;">⚠️ <strong>الحد الرابع — السعر:</strong> باور بانكات بـ ActiveShield 2.0 بتكلف 15-25% أكتر من المنافسين بنفس السعة. <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> بسعة 20,000mAh بيبدأ من 1,200 جنيه تقريباً — بينما بدائل صينية بنفس السعة ممكن تلاقيها بـ 800 جنيه</li>
+    <li style="margin-bottom:16px;">⚠️ <strong>الحد الرابع — السعر:</strong> باور بانكات بـ ActiveShield 2.0 بتكلف 15-25% أكتر من المنافسين بنفس السعة. <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> بسعة 20,000mAh بـ 2,200 جنيه تقريباً — بينما بدائل صينية بنفس السعة ممكن تلاقيها بـ 800 جنيه</li>
 </ul>
 
 <h2>الخلاصة — إمتى تشتري باور بانك بـ ActiveShield 2.0؟</h2>
@@ -384,7 +384,7 @@ export const anker_activeshield_2_0_battery_protection_real: BlogArticle = {
     <li style="margin-bottom:16px;">⚠️ <strong>Limitation 1 — Throttling = Slower Charging:</strong> When ActiveShield activates, charging slows down. In Cairo's summer (45°C ambient), expect the power bank to charge your phone at about 80% of its rated speed. This isn't a flaw — it's a feature — but you need to expect it</li>
     <li style="margin-bottom:16px;">⚠️ <strong>Limitation 2 — Power Banks Only:</strong> ActiveShield exists in Anker power banks, not wall chargers. Anker's GaN wall chargers use a different thermal system (ActiveShield isn't necessary because GaN is inherently more thermally efficient at 95% conversion efficiency)</li>
     <li style="margin-bottom:16px;">⚠️ <strong>Limitation 3 — Verification Is Difficult:</strong> You can't "see" ActiveShield working. There's no on-screen notification or LED change. You either trust the numbers or bring a thermal camera</li>
-    <li style="margin-bottom:16px;">⚠️ <strong>Limitation 4 — Price Premium:</strong> Power banks with ActiveShield 2.0 cost 15-25% more than competitors with the same capacity. The <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> with 20,000mAh starts at around 1,200 EGP — while Chinese alternatives with the same capacity can be found for 800 EGP</li>
+    <li style="margin-bottom:16px;">⚠️ <strong>Limitation 4 — Price Premium:</strong> Power banks with ActiveShield 2.0 cost 15-25% more than competitors with the same capacity. The <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> with 20,000mAh sells for around 2,200 EGP — while Chinese alternatives with the same capacity can be found for 800 EGP</li>
 </ul>
 
 <h2>The Verdict — When Should You Buy a Power Bank with ActiveShield 2.0?</h2>

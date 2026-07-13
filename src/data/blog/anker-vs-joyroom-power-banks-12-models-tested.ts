@@ -33,13 +33,13 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             metaDescription: 'اختبرنا 7 باور بانكات أنكر ضد 5 جوي روم في مايو 2026. مقارنة السعة الحقيقية والخرج الفعلي والحرارة والسعر — من 550ج لـ 3,950ج. النتائج بالأرقام.',
             keywords: 'انكر ضد جوي روم باور بانك, مقارنة باور بانك انكر وجوي روم, افضل باور بانك مصر 2026, انكر زولو ضد جوي روم 20000, اختبار باور بانك بالارقام, أنكر vs جوي روم power bank egypt, سعة حقيقية باور بانك, باور بانك اصلي مصر, اسعار باور بانك مصر 2026, انكر برايم ضد جوي روم',
             excerpt: 'اختبرنا 12 باور بانك من أنكر و جوي روم بمقياس USB-C — السعة الحقيقية والخرج الفعلي والحرارة والسعر. النتائج المفاجئة بالأرقام.',
-            quickAnswer: 'أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → جوي روم 20,000mAh بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → أنكر ZOLO A1681 (2,200ج) أو أنكر Prime (3,950ج).',
+            quickAnswer: 'أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → جوي روم 20,000mAh بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → أنكر PowerCore III Elite 26K بقوة 60W (2,300ج) أو أنكر زولو A1695 بقوة 165W (3,950ج).',
             content: `<p>كل ما حد بيسأل "أشتري أنكر ولا جوي روم؟" بيلاقي إجابات عامة: "أنكر أغلى بس أحسن" أو "جوي روم كويس وأرخص". مفيش حد جاب أرقام حقيقية. علشان كده قررنا نعمل اختبار شامل — 7 باور بانكات أنكر ضد 5 جوي روم — بمقياس USB-C ومقياس حرارة وساعة توقيت. النتيجة؟ مش بسيطة زي ما الناس فاكرة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> (2,200ج) أو <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> (3,950ج).
+        أنكر بيتفوق في 4 معايير: السعة الحقيقية أعلى (88-92% من المُعلن مقابل 82-86% لـ جوي روم)، الخرج الفعلي أثبت تحت الحمل، الحرارة أقل بـ 8-12°م، والضمان أطول (18 شهر مقابل 12). جوي روم بيفوز في معيار واحد حاسم: السعر — أرخص 40-55%. لو ميزانيتك تحت 1,200ج → <a href="/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">جوي روم 20,000mAh</a> بـ 997ج اختيار ممتاز. لو محتاج أداء احترافي أو شحن لابتوب → <a href="/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">انكر PowerCore III Elite 26K</a> (2,300ج) أو <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695</a> (3,950ج).
     </p>
 </div>
 
@@ -109,7 +109,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>89%</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">45W PD</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">30W PD</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">42°م</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">2,200ج</td>
         </tr>
@@ -123,7 +123,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">4,999ج</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695 25K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695 25K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">85.1Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>91%</strong></td>
@@ -193,7 +193,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <p>قسنا الخرج كل 5 دقائق لمدة ساعة بحمل ثابت. النتيجة كانت مفاجئة:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>انكر زولو A1681 (45W):</strong> بدأ بـ 44.2W وبعد 30 دقيقة نزل لـ 42.8W — ثبات 97%. ده يعني اللابتوب بتاعك بيشحن بنفس السرعة من أول دقيقة لآخر دقيقة.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>انكر زولو A1681 (30W):</strong> بدأ بـ 29.5W وبعد 30 دقيقة نزل لـ 28.6W — ثبات 97%. ده يعني موبايلك أو التابلت بيشحن بنفس السرعة من أول دقيقة لآخر دقيقة.</li>
     <li style="margin-bottom:12px;">⚡ <strong>انكر 737 (140W):</strong> بدأ بـ 138W وبعد 30 دقيقة نزل لـ 131W — ثبات 95%. ممتاز للابتوبات الثقيلة.</li>
     <li style="margin-bottom:12px;">🔋 <strong>جوي روم 20K (22.5W):</strong> بدأ بـ 21.8W وبعد 15 دقيقة نزل لـ 18.2W — ثبات 83%. الانخفاض سببه الحرارة الداخلية — الخلايا بتقلل الخرج لحماية نفسها.</li>
     <li style="margin-bottom:12px;">🔋 <strong>جوي روم 10K (22.5W):</strong> بدأ بـ 21.5W وبعد 10 دقائق نزل لـ 16.8W — ثبات 78%. طبيعي لسعة صغيرة.</li>
@@ -271,10 +271,10 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">2,200ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">33.2ج/Wh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">45W PD</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">30W PD</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">انكر برايم 25K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">انكر زولو 25K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3,950ج</td>
             <td style="padding:12px;border:1px solid #d1d5db;">85.1Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">46.4ج/Wh</td>
@@ -290,8 +290,8 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>ميزانية تحت 1,000ج — جوي روم 20,000mAh (997ج):</strong> أفضل قيمة مقابل سعر في مصر. 22.5W شحن سريع، شاشة رقمية، ضمان 12 شهر. كفاية لشحن أي موبايل 3+ مرات.</li>
     <li style="margin-bottom:12px;">✅ <strong>ميزانية 1,200-1,800ج — أنكر ZOLO A110E (1,730ج):</strong> سعة فعلية أعلى 12%، حرارة أقل، كابل مدمج، ضمان 18 شهر. الفرق عن جوي روم يستحق لو بتستخدمه يومياً.</li>
-    <li style="margin-bottom:12px;">✅ <strong>محتاج شحن لابتوب — أنكر ZOLO A1681 (2,200ج):</strong> 45W PD بيشحن MacBook Air ولابتوبات خفيفة. جوي روم مش عنده باور بانك بيشحن لابتوب في السوق المصري.</li>
-    <li style="margin-bottom:12px;">✅ <strong>استخدام احترافي — أنكر Prime (3,950ج) أو 737 (4,999ج):</strong> 140-165W للابتوبات الثقيلة، شاشة ذكية، 3 منافذ. مفيش منافس جوي روم في الفئة دي.</li>
+    <li style="margin-bottom:12px;">✅ <strong>محتاج شحن لابتوب — أنكر PowerCore III Elite 26K (2,300ج):</strong> 60W PD بيشحن MacBook Air ولابتوبات خفيفة. جوي روم مش عنده باور بانك بيشحن لابتوب في السوق المصري.</li>
+    <li style="margin-bottom:12px;">✅ <strong>استخدام احترافي — أنكر زولو A1695 (3,950ج) أو 737 (4,999ج):</strong> 140-165W للابتوبات الثقيلة، شاشة ذكية، 3 منافذ. مفيش منافس جوي روم في الفئة دي.</li>
     <li style="margin-bottom:12px;">✅ <strong>باور بانك MagSafe — جوي روم Magnetic (850ج):</strong> بديل اقتصادي لـ أنكر 622 MagGo. شحن لاسلكي 15W + سلكي 20W. سعر ممتاز لمستخدمي iPhone.</li>
 </ul>
 
@@ -328,13 +328,13 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             metaDescription: 'We tested 7 Anker vs 5 Joyroom power banks in May 2026. Real capacity, output stability, temperature, and price compared — from 550 to 3,950 EGP in Egypt.',
             keywords: 'anker vs joyroom power bank, anker vs joyroom comparison egypt, best power bank egypt 2026, anker zolo vs joyroom 20000, power bank real capacity test, anker prime vs joyroom, power bank price egypt egp, anker or joyroom which better, power bank wattage test, power bank temperature test',
             excerpt: 'We tested 12 power banks from Anker and Joyroom with a USB-C meter — real capacity, output stability, temperature, and price. The surprising results by the numbers.',
-            quickAnswer: 'Anker wins on 4 criteria: higher real capacity (88-92% of rated vs 82-86% for Joyroom), more stable output under load, 8-12°C cooler temperatures, and longer warranty (18 months vs 12). Joyroom wins on one decisive criterion: price — 40-55% cheaper. Budget under 1,200 EGP → Joyroom 20,000mAh at 997 EGP is excellent. Need professional performance or laptop charging → Anker ZOLO A1681 (2,200 EGP) or Anker Prime (3,950 EGP).',
+            quickAnswer: 'Anker wins on 4 criteria: higher real capacity (88-92% of rated vs 82-86% for Joyroom), more stable output under load, 8-12°C cooler temperatures, and longer warranty (18 months vs 12). Joyroom wins on one decisive criterion: price — 40-55% cheaper. Budget under 1,200 EGP → Joyroom 20,000mAh at 997 EGP is excellent. Need professional performance or laptop charging → Anker PowerCore III Elite 26K 60W (2,300 EGP) or Anker Zolo A1695 165W (3,950 EGP).',
             content: `<p>Every time someone asks "Should I buy Anker or Joyroom?" they get generic answers: "Anker is more expensive but better" or "Joyroom is decent and cheaper." Nobody brings actual numbers. That is why we ran a comprehensive test — 7 Anker power banks versus 5 Joyroom — with a USB-C meter, thermal reader, and stopwatch. The result? Not as simple as people think.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        Anker wins on 4 criteria: higher real capacity (88-92% of rated vs 82-86% for Joyroom), more stable output under load, 8-12°C cooler temperatures, and longer warranty (18 months vs 12). Joyroom wins on one decisive criterion: price — 40-55% cheaper. Budget under 1,200 EGP → <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> at 997 EGP is excellent. Need professional performance or laptop charging → <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> (2,200 EGP) or <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime</a> (3,950 EGP).
+        Anker wins on 4 criteria: higher real capacity (88-92% of rated vs 82-86% for Joyroom), more stable output under load, 8-12°C cooler temperatures, and longer warranty (18 months vs 12). Joyroom wins on one decisive criterion: price — 40-55% cheaper. Budget under 1,200 EGP → <a href="/en/joyroom/power-banks/joyroom-power-bank-20000" style="color:#2563eb;font-weight:600;">Joyroom 20,000mAh</a> at 997 EGP is excellent. Need professional performance or laptop charging → <a href="/en/anker/power-banks/anker-powercore-26800" style="color:#2563eb;font-weight:600;">Anker PowerCore III Elite 26K</a> (2,300 EGP) or <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo A1695</a> (3,950 EGP).
     </p>
 </div>
 
@@ -404,7 +404,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">20,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>89%</strong></td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;">45W PD</td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;">30W PD</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">42°C</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">2,200 EGP</td>
         </tr>
@@ -418,7 +418,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">4,999 EGP</td>
         </tr>
         <tr>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Prime A1695 25K</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Zolo A1695 25K</a></td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">25,000mAh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">85.1Wh</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;color:#059669;"><strong>91%</strong></td>
@@ -488,7 +488,7 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <p>We measured output every 5 minutes for one hour under constant load. The results were revealing:</p>
 
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">⚡ <strong>Anker ZOLO A1681 (45W):</strong> Started at 44.2W, dropped to 42.8W after 30 minutes — 97% stability. Your laptop charges at the same speed from first minute to last.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Anker ZOLO A1681 (30W):</strong> Started at 29.5W, dropped to 28.6W after 30 minutes — 97% stability. Your phone or tablet charges at the same speed from first minute to last.</li>
     <li style="margin-bottom:12px;">⚡ <strong>Anker 737 (140W):</strong> Started at 138W, dropped to 131W after 30 minutes — 95% stability. Excellent for heavy laptops.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Joyroom 20K (22.5W):</strong> Started at 21.8W, dropped to 18.2W after 15 minutes — 83% stability. The drop is caused by internal heat — cells reduce output to protect themselves.</li>
     <li style="margin-bottom:12px;">🔋 <strong>Joyroom 10K (22.5W):</strong> Started at 21.5W, dropped to 16.8W after 10 minutes — 78% stability. Normal for a smaller capacity.</li>
@@ -566,10 +566,10 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
             <td style="padding:12px;border:1px solid #d1d5db;">2,200 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">66.2Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">33.2 EGP/Wh</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">45W PD</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">30W PD</td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;">Anker Prime 25K</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Anker Zolo 25K</td>
             <td style="padding:12px;border:1px solid #d1d5db;">3,950 EGP</td>
             <td style="padding:12px;border:1px solid #d1d5db;">85.1Wh</td>
             <td style="padding:12px;border:1px solid #d1d5db;">46.4 EGP/Wh</td>
@@ -585,8 +585,8 @@ export const anker_vs_joyroom_power_banks_12_models_tested: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">✅ <strong>Budget under 1,000 EGP — Joyroom 20,000mAh (997 EGP):</strong> Best value for money in Egypt. 22.5W fast charging, digital display, 12-month warranty. Enough to charge any phone 3+ times.</li>
     <li style="margin-bottom:12px;">✅ <strong>Budget 1,200-1,800 EGP — Anker ZOLO A110E (1,730 EGP):</strong> 12% higher actual capacity, lower heat, built-in cable, 18-month warranty. The premium over Joyroom is worth it for daily users.</li>
-    <li style="margin-bottom:12px;">✅ <strong>Need laptop charging — Anker ZOLO A1681 (2,200 EGP):</strong> 45W PD charges MacBook Air and lightweight laptops. Joyroom has no laptop-capable power bank in the Egyptian market.</li>
-    <li style="margin-bottom:12px;">✅ <strong>Professional use — Anker Prime (3,950 EGP) or 737 (4,999 EGP):</strong> 140-165W for heavy laptops, smart display, 3 ports. No Joyroom competitor exists in this tier.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Need laptop charging — Anker PowerCore III Elite 26K (2,300 EGP):</strong> 60W PD charges MacBook Air and lightweight laptops. Joyroom has no laptop-capable power bank in the Egyptian market.</li>
+    <li style="margin-bottom:12px;">✅ <strong>Professional use — Anker Zolo A1695 (3,950 EGP) or 737 (4,999 EGP):</strong> 140-165W for heavy laptops, smart display, 3 ports. No Joyroom competitor exists in this tier.</li>
     <li style="margin-bottom:12px;">✅ <strong>MagSafe power bank — Joyroom Magnetic (850 EGP):</strong> Affordable alternative to Anker 622 MagGo. 15W wireless + 20W wired. Excellent price for iPhone users.</li>
 </ul>
 

@@ -24,7 +24,7 @@ export const anker_prime_a1695_25000_lab: ProductLabData = {
         ],
         voiceFaqAr: [
             {
-                question: 'أنكر برايم 25000 يشحن ماك بوك برو بالقوة الكاملة؟',
+                question: 'أنكر زولو 25000 يشحن ماك بوك برو بالقوة الكاملة؟',
                 answer: 'أيوة! اختبرناه في رحلة لاسكندرية. ماك بوك برو 14" M3 Pro شحن من 15% لـ 95% في ساعة و20 دقيقة عبر 140 واط PD 3.1. وكمان ايفون وايباد في نفس الوقت!',
             },
             {
@@ -34,7 +34,7 @@ export const anker_prime_a1695_25000_lab: ProductLabData = {
         ],
         voiceFaqEn: [
             {
-                question: 'Can the Anker Prime 25000 charge a MacBook Pro at full speed?',
+                question: 'Can the Anker Zolo 25000 charge a MacBook Pro at full speed?',
                 answer: 'Yes! We tested it on a Cairo-to-Alexandria trip. MacBook Pro 14" M3 Pro went from 15% to 95% in 1 hour 20 minutes via 140W PD 3.1. iPhone and iPad charged simultaneously on other ports.',
             },
         ],

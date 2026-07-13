@@ -141,8 +141,8 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A + كابل مدمج</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>30W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">كابلان مدمجان (USB-C + Lightning) + 1× USB-A</td>
             <td style="padding:12px;border:1px solid #d1d5db;">⚠️ لابتوبات خفيفة بس</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200ج</strong></td>
         </tr>
@@ -331,8 +331,8 @@ export const power_bank_charge_4_devices_simultaneously: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;"><strong>45W</strong></td>
-            <td style="padding:12px;border:1px solid #d1d5db;">1× USB-C + 1× USB-A + built-in cable</td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><strong>30W</strong></td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Built-in dual cables (USB-C + Lightning) + 1× USB-A</td>
             <td style="padding:12px;border:1px solid #d1d5db;">⚠️ Light laptops only</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200 EGP</strong></td>
         </tr>

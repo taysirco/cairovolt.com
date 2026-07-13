@@ -93,7 +93,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔥 <strong>الأعراض:</strong> الباور بانك بيسخن أكتر من الطبيعي أثناء الشحن، بينتفخ (ولو بسيط)، بيفصل فجأة عند 15-20% بدل ما يكمل لـ 5%.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>الحل:</strong> شيله من العربية كل ما تنزل. لو مضطر تسيبه — حطه في الشنطة الخلفية (أبرد مكان) مش على التابلوه.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>الاستثناء:</strong> باور بانكات <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم</a> و <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a> فيهم شاشة ذكية بتعرض درجة الحرارة الداخلية — بتقدر تراقب قبل ما الموضوع يبقى خطير.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>الاستثناء:</strong> باور بانكات زي <a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695</a> فيها شاشة ذكية بتعرض درجة الحرارة الداخلية — بتقدر تراقب قبل ما الموضوع يبقى خطير.</li>
 </ul>
 
 <p>لمزيد من النصائح عن حماية أجهزتك في الصيف المصري، اقرأ <a href="/blog/protect-phone-from-heat-summer-egypt" style="color:#2563eb;font-weight:600;">حماية الموبايل من حرارة صيف مصر</a>.</p>
@@ -198,7 +198,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
                 },
                 {
                     question: 'هل الشحن السريع بيبوظ بطارية الباور بانك؟',
-                    answer: 'لو الباور بانك بيدعم الشحن السريع رسمياً (زي أنكر ZOLO A1681 بدعم 45W) — لا، مش بيضره. الرقاقة الداخلية بتنظم التيار. لكن لو استخدمت شاحن 65W على باور بانك أقصاه 18W — الشاحن هيطلع 18W بس (الباور بانك بيفاوض تلقائياً). المشكلة الحقيقية في الشواحن المقلّدة اللي مش بتفاوض وبتدفع جهد غير مستقر.'
+                    answer: 'لو الباور بانك بيدعم الشحن السريع رسمياً (زي أنكر ZOLO A1681 بدعم 30W) — لا، مش بيضره. الرقاقة الداخلية بتنظم التيار. لكن لو استخدمت شاحن 65W على باور بانك أقصاه 18W — الشاحن هيطلع 18W بس (الباور بانك بيفاوض تلقائياً). المشكلة الحقيقية في الشواحن المقلّدة اللي مش بتفاوض وبتدفع جهد غير مستقر.'
                 }
             ]
         },
@@ -268,7 +268,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">🔥 <strong>Symptoms:</strong> The power bank heats up more than usual during charging, shows slight swelling, or shuts off suddenly at 15-20% instead of draining to 5%.</li>
     <li style="margin-bottom:12px;">🛡️ <strong>Solution:</strong> Remove it from the car every time you exit. If you must leave it — store it in the trunk (the coolest spot), not on the dashboard.</li>
-    <li style="margin-bottom:12px;">⚡ <strong>Exception:</strong> Power banks like the <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime</a> and <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a> feature smart displays showing internal temperature — so you can monitor before things get dangerous.</li>
+    <li style="margin-bottom:12px;">⚡ <strong>Exception:</strong> Power banks like the <a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo A1695</a> feature smart displays showing internal temperature — so you can monitor before things get dangerous.</li>
 </ul>
 
 <p>For more tips on protecting your devices in the Egyptian summer, read <a href="/en/blog/protect-phone-from-heat-summer-egypt" style="color:#2563eb;font-weight:600;">Protecting Your Phone from Egypt's Summer Heat</a>.</p>
@@ -373,7 +373,7 @@ export const why_power_bank_dies_after_6_months_mistakes: BlogArticle = {
                 },
                 {
                     question: 'Does fast charging damage the power bank battery?',
-                    answer: 'If the power bank officially supports fast charging (like Anker ZOLO A1681 with 45W support) — no, it does not harm it. The internal chip regulates current. If you use a 65W charger on a bank rated for 18W max, the charger will deliver only 18W (the bank auto-negotiates). The real problem is counterfeit chargers that skip negotiation and push unstable voltage.'
+                    answer: 'If the power bank officially supports fast charging (like Anker ZOLO A1681 with 30W support) — no, it does not harm it. The internal chip regulates current. If you use a 65W charger on a bank rated for 18W max, the charger will deliver only 18W (the bank auto-negotiates). The real problem is counterfeit chargers that skip negotiation and push unstable voltage.'
                 }
             ]
         }

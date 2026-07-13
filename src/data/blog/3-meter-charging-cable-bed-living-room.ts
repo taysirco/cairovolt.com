@@ -33,13 +33,13 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
             metaDescription: 'دليلك لاختيار كابل شحن طويل 3 متر يوصل للسرير والكنبة بدون شد. مقارنة 6 كابلات متينة بأسعار من 150 لـ 450 جنيه مع ضمان 18 شهر. تابع التفاصيل والمقارنة بمصر.',
             keywords: 'كابل شحن 3 متر, كابل شحن طويل للسرير, كابل USB-C 3 متر, كابل شحن طويل متين, افضل كابل شحن طويل في مصر, كابل انكر 3 متر, كابل جوي روم طويل, كابل شحن للكنبة, cable 3m egypt, كابل شحن سريع طويل',
             excerpt: 'دليل اختيار كابل شحن 3 متر يوصل للسرير والكنبة بدون شد — مقارنة 6 كابلات متينة في مصر بأسعار وضمان.',
-            quickAnswer: 'أفضل كابل 3 متر في مصر 2026: للشحن السريع USB-C اختار أنكر A8050 بطول 3 متر (100W، 12,000 دورة ثني، 350ج). للميزانية المحدودة: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.',
+            quickAnswer: 'أفضل كابل 3 متر في مصر 2026: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). ولو القدرة أهم عندك من الطول: أنكر زولو A8060 (140W، 10,000+ دورة ثني، 790ج) — بس طوله 1.5 متر. القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.',
             content: `
 <p>إنت كده نايم على السرير، الموبايل على 4%، والشاحن في البريزة اللي ورا الكومودينو — على بُعد متر ونص بالظبط. فبتعمل إيه؟ بتمد إيدك زي لاعب جمباز أوليمبي، وتشد الكابل من الكونكتور لحد ما الموبايل يوصل — والكابل بيصرخ من الألم بس إنت مش سامعه. بعد أسبوعين الكابل بيبوظ وإنت بتقول "كابلات الأيام دي مش زي الأول." لا يا صديقي — الكابلات زي الأول وأحسن، بس إنت محتاج <strong>كابل 3 متر</strong> بدل ما تخترع رياضة جديدة كل ليلة.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 الإجابة السريعة:</strong> أفضل كابل 3 متر في مصر 2026: للشحن السريع USB-C اختار أنكر A8050 بطول 3 متر (100W، 12,000 دورة ثني، 350ج). للميزانية المحدودة: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.
+        <strong>💡 الإجابة السريعة:</strong> أفضل كابل 3 متر في مصر 2026: جوي روم S-CC060A12 بطول 3 متر (60W، نايلون مضفر، 180ج). ولو القدرة أهم عندك من الطول: أنكر زولو A8060 (140W، 10,000+ دورة ثني، 790ج) — بس طوله 1.5 متر. القاعدة: اختار كابل بتقنية Strain Relief عند الكونكتور وغلاف نايلون مضفر — لأن الكابل الطويل بيتعرض لشد أكتر 3 مرات من القصير.
     </p>
 </div>
 
@@ -115,12 +115,12 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:10px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a></td>
+            <td style="padding:10px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a></td>
             <td style="padding:10px;border:1px solid #d1d5db;">USB-C to C</td>
-            <td style="padding:10px;border:1px solid #d1d5db;"><strong>100W</strong></td>
-            <td style="padding:10px;border:1px solid #d1d5db;">Bio-based TPE</td>
-            <td style="padding:10px;border:1px solid #d1d5db;">12,000+</td>
-            <td style="padding:10px;border:1px solid #d1d5db;">~350ج</td>
+            <td style="padding:10px;border:1px solid #d1d5db;"><strong>140W</strong></td>
+            <td style="padding:10px;border:1px solid #d1d5db;">نايلون مضفر (1.5م)</td>
+            <td style="padding:10px;border:1px solid #d1d5db;">10,000+</td>
+            <td style="padding:10px;border:1px solid #d1d5db;">~790ج</td>
         </tr>
         <tr>
             <td style="padding:10px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-powerline-usb-c-usb-c" style="color:#2563eb;font-weight:600;">انكر باور لاين USB-C</a></td>
@@ -167,7 +167,7 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
 
 <h3>توصيتنا حسب الاحتياج</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🏆 <strong>أفضل أداء شامل:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a> — 100W + 12,000 دورة ثني + غلاف بيئي. يشحن Samsung S26 Ultra و iPhone 17 Pro Max و MacBook Air بنفس الكابل</li>
+    <li style="margin-bottom:12px;">🏆 <strong>أفضل أداء شامل:</strong> <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a> — 140W + 10,000+ دورة ثني + غلاف مضفر. يشحن Samsung S26 Ultra و iPhone 17 Pro Max و MacBook Air بنفس الكابل (طوله 1.5 متر)</li>
     <li style="margin-bottom:12px;">💰 <strong>أفضل قيمة مقابل السعر:</strong> <a href="/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">جوي روم USB-C 60W</a> — 60W كافية لـ 90% من الموبايلات بسعر 180ج فقط</li>
     <li style="margin-bottom:12px;">📱 <strong>الأفضل لـ iPhone:</strong> <a href="/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb;font-weight:600;">انكر SureiStrong</a> — 15,000 دورة ثني (الأعلى في القائمة) + MFi certified</li>
     <li style="margin-bottom:12px;">👨‍👩‍👧‍👦 <strong>الأفضل للعيلة:</strong> <a href="/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb;font-weight:600;">جوي روم 3 في 1</a> — كابل واحد لكل أنواع الموبايلات (USB-C + Lightning + Micro USB)</li>
@@ -265,13 +265,13 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
             metaDescription: 'Guide to choosing a durable 3-meter charging cable for your bed and couch. Comparison of 6 cables from 150-450 EGP with real voltage-drop tests and 18-month ...',
             keywords: '3 meter charging cable, long charging cable bed, USB-C cable 3m, durable long charging cable, best long cable Egypt, Anker 3 meter cable, Joyroom long cable, charging cable couch sofa, cable 3m USB-C Egypt, fast charging long cable',
             excerpt: 'Guide to choosing a 3-meter charging cable that reaches your bed and couch without stretching — comparison of 6 durable cables in Egypt with prices and warranty.',
-            quickAnswer: 'Best 3-meter cable in Egypt 2026: for fast USB-C charging, get the Anker A8050 at 3m (100W, 12,000 bend cycles, ~350 EGP). Budget pick: Joyroom S-CC060A12 at 3m (60W, braided nylon, ~180 EGP). Key rule: choose cables with Strain Relief at the connector and braided nylon jacket — because a 3m cable experiences 3× more pulling stress than a 1m cable.',
+            quickAnswer: 'Best 3-meter cable in Egypt 2026: Joyroom S-CC060A12 at 3m (60W, braided nylon, ~180 EGP). If power matters more than length: Anker Zolo A8060 (140W, 10,000+ bend cycles, ~790 EGP) — but it is 1.5m long. Key rule: choose cables with Strain Relief at the connector and braided nylon jacket — because a 3m cable experiences 3× more pulling stress than a 1m cable.',
             content: `
 <p>Picture this: you're in bed, phone at 4%, and the charger is plugged into the outlet behind the nightstand — exactly 1.5 meters away. So what do you do? You stretch like an Olympic gymnast, yank the cable at an impossible angle until the phone barely reaches — and the cable silently screams. Two weeks later it's dead, and you blame "modern cables." Spoiler: the cable was fine. <strong>You needed a 3-meter cable</strong> instead of inventing a new sport every night.</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
-        <strong>💡 Quick Answer:</strong> Best 3-meter cable in Egypt 2026: for fast USB-C charging, get the Anker A8050 at 3m (100W, 12,000 bend cycles, ~350 EGP). Budget pick: Joyroom S-CC060A12 at 3m (60W, braided nylon, ~180 EGP). Key rule: choose cables with Strain Relief at the connector and braided nylon jacket — because a 3m cable experiences 3× more pulling stress than a 1m cable.
+        <strong>💡 Quick Answer:</strong> Best 3-meter cable in Egypt 2026: Joyroom S-CC060A12 at 3m (60W, braided nylon, ~180 EGP). If power matters more than length: Anker Zolo A8060 (140W, 10,000+ bend cycles, ~790 EGP) — but it is 1.5m long. Key rule: choose cables with Strain Relief at the connector and braided nylon jacket — because a 3m cable experiences 3× more pulling stress than a 1m cable.
     </p>
 </div>
 
@@ -347,11 +347,11 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
     </tr></thead>
     <tbody>
         <tr>
-            <td style="padding:10px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050</a></td>
+            <td style="padding:10px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060</a></td>
             <td style="padding:10px;border:1px solid #d1d5db;">USB-C to C</td>
-            <td style="padding:10px;border:1px solid #d1d5db;"><strong>100W</strong></td>
-            <td style="padding:10px;border:1px solid #d1d5db;">Bio-based TPE</td>
-            <td style="padding:10px;border:1px solid #d1d5db;">12,000+</td>
+            <td style="padding:10px;border:1px solid #d1d5db;"><strong>140W</strong></td>
+            <td style="padding:10px;border:1px solid #d1d5db;">Braided nylon (1.5m)</td>
+            <td style="padding:10px;border:1px solid #d1d5db;">10,000+</td>
             <td style="padding:10px;border:1px solid #d1d5db;">~350 EGP</td>
         </tr>
         <tr>
@@ -399,7 +399,7 @@ export const three_meter_charging_cable_bed_living_room: BlogArticle = {
 
 <h3>Our Recommendations by Use Case</h3>
 <ul style="list-style:none;padding:0;">
-    <li style="margin-bottom:12px;">🏆 <strong>Best overall:</strong> <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050</a> — 100W + 12,000 bend cycles + eco-friendly jacket. Charges Samsung S26 Ultra, iPhone 17 Pro Max, and MacBook Air with the same cable</li>
+    <li style="margin-bottom:12px;">🏆 <strong>Best overall:</strong> <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060</a> — 140W + 10,000+ bend cycles + braided jacket. Charges Samsung S26 Ultra, iPhone 17 Pro Max, and MacBook Air with the same cable (1.5m long)</li>
     <li style="margin-bottom:12px;">💰 <strong>Best value:</strong> <a href="/en/joyroom/cables/joyroom-usb-c-cable-60w" style="color:#2563eb;font-weight:600;">Joyroom USB-C 60W</a> — 60W is sufficient for 90% of phones at just 180 EGP</li>
     <li style="margin-bottom:12px;">📱 <strong>Best for iPhone:</strong> <a href="/en/anker/cables/anker-usb-c-lightning-sureistrong" style="color:#2563eb;font-weight:600;">Anker SureiStrong</a> — 15,000 bend cycles (highest on the list) + MFi certified by Apple</li>
     <li style="margin-bottom:12px;">👨‍👩‍👧‍👦 <strong>Best for families:</strong> <a href="/en/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb;font-weight:600;">Joyroom 3-in-1</a> — one cable for all phone types (USB-C + Lightning + Micro USB)</li>

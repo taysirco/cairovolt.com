@@ -33,13 +33,13 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
             metaDescription: 'اختبرنا 6 باور بانكات بشاشة رقمية ضد 4 بلمبات LED في مايو 2026. الشاشة دقيقة بهامش 1% واللمبات فصلت فجأة. مقارنة أسعار وموديلات من 997ج لـ 3,950ج في مصر.',
             keywords: 'باور بانك بشاشة رقمية, شاشة ديجيتال باور بانك, لمبات LED باور بانك, هل الشاشة الرقمية تستحق, انكر زولو 10000 شاشة, باور بانك بشاشة مصر 2026, power bank digital display, افضل باور بانك بشاشة رقمية, مقارنة باور بانك شاشة ولمبات, اسعار باور بانك مصر',
             excerpt: 'هل الشاشة الرقمية في الباور بانك تستحق فعلاً دفع 200 جنيه زيادة مقارنة باللمبات التقليدية؟ اختبار ميداني ومقارنة أسعار بالأرقام في مصر 2026.',
-            quickAnswer: 'أيوا، الشاشة الرقمية تستحق الفارق — مش علشان الشكل، لكن علشان 3 أسباب عملية: (1) دقة 1% بدل تخمين 25% من اللمبات اللي ممكن تفصل فجأة وموبايلك على 0%. (2) تأكيد فوري إن الشحن السريع PD شغال فعلاً ومش شحن بطيء بسبب كابل تالف. (3) إدارة ذكية للطاقة وقت قطع الكهرباء — الشاشات المتقدمة (زي أنكر ZOLO A1681) بتعرض الوات الحي والوقت المتبقي بالدقيقة.',
+            quickAnswer: 'أيوا، الشاشة الرقمية تستحق الفارق — مش علشان الشكل، لكن علشان 3 أسباب عملية: (1) دقة 1% بدل تخمين 25% من اللمبات اللي ممكن تفصل فجأة وموبايلك على 0%. (2) تأكيد فوري إن الشحن السريع PD شغال فعلاً ومش شحن بطيء بسبب كابل تالف. (3) إدارة ذكية للطاقة وقت قطع الكهرباء — الشاشات المتقدمة (زي أنكر 737) بتعرض الوات الحي والوقت المتبقي بالدقيقة.',
             content: `<p>حصل معاك قبل كده إنك تبص على الباور بانك وتلاقي لمبة واحدة منورة — وتفضل تسأل نفسك: "ده يعني 5% ولا 20%؟ هيكفي يشحن الموبايل ولا هيفصل بعد دقيقتين؟" الحقيقة إن ملايين المستخدمين في مصر بيعيشوا اللحظة دي يومياً. ومع انتشار باور بانكات بشاشات رقمية بتعرض النسبة بالظبط، السؤال بقى واضح: هل الفرق في السعر — حوالي 200 لـ 400 جنيه — يستحق فعلاً؟</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-right:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 الإجابة السريعة:</strong>
-        أيوا، الشاشة الرقمية تستحق الفارق — مش علشان الشكل، لكن علشان 3 أسباب عملية: (1) دقة 1% بدل تخمين 25% من اللمبات اللي ممكن تفصل فجأة وموبايلك على 0%. (2) تأكيد فوري إن الشحن السريع PD شغال فعلاً ومش شحن بطيء بسبب كابل تالف. (3) إدارة ذكية للطاقة وقت قطع الكهرباء — الشاشات المتقدمة (زي أنكر ZOLO A1681) بتعرض الوات الحي والوقت المتبقي بالدقيقة.
+        أيوا، الشاشة الرقمية تستحق الفارق — مش علشان الشكل، لكن علشان 3 أسباب عملية: (1) دقة 1% بدل تخمين 25% من اللمبات اللي ممكن تفصل فجأة وموبايلك على 0%. (2) تأكيد فوري إن الشحن السريع PD شغال فعلاً ومش شحن بطيء بسبب كابل تالف. (3) إدارة ذكية للطاقة وقت قطع الكهرباء — الشاشات المتقدمة (زي أنكر 737) بتعرض الوات الحي والوقت المتبقي بالدقيقة.
     </p>
 </div>
 
@@ -101,7 +101,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
 
 <p><strong>الموقف الأول — قطع الكهرباء في صيف القاهرة.</strong> الكهرباء قطعت والموبايل على 8% واللابتوب على وشك يقفل. لو الباور بانك بلمبات LED، هتشوف لمبة واحدة وتقعد تقامر: "أوصل اللابتوب ولا الموبايل؟" لو بشاشة رقمية بتقرأ 34%، بتعرف إنك تقدر تشحن الموبايل شحنة كاملة (يحتاج ~15-18% من الباور بانك) ولسه يفضل 16% للطوارئ.</p>
 
-<p><strong>الموقف الثاني — كابل تالف بدون ما تعرف.</strong> وصلت الموبايل بالباور بانك وافترضت إنه بيشحن سريع. لكن الكابل تالف من جوا وبيطلع 2.5 واط بدل 22.5 واط. الباور بانك بلمبات مش هيقولك حاجة. الشاشة الذكية في <a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681 (45W)</a> بتعرض الوات الخارج لحظياً — لو شفت 2.5W بدل 22W، هتعرف فوراً إن الكابل هو المشكلة.</p>
+<p><strong>الموقف الثاني — كابل تالف بدون ما تعرف.</strong> وصلت الموبايل بالباور بانك وافترضت إنه بيشحن سريع. لكن الكابل تالف من جوا وبيطلع 2.5 واط بدل 22.5 واط. الباور بانك بلمبات مش هيقولك حاجة. الشاشة الذكية في <a href="/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">انكر 737 (140W)</a> بتعرض الوات الخارج لحظياً — لو شفت 2.5W بدل 22W، هتعرف فوراً إن الكابل هو المشكلة.</p>
 
 <p><strong>الموقف الثالث — رحلة طويلة بعدة أجهزة.</strong> مسافر الساحل الشمالي 5 ساعات ومعاك موبايلين وتابلت. الشاشة الرقمية بتخليك توزع الطاقة بذكاء: "الباور بانك عند 67%، هشحن الموبايل الأول لـ 80% وأسيب الباقي للتابلت." بدون أرقام، بتوزع عشوائي وممكن الكل يفضي نص الرحلة.</p>
 
@@ -151,12 +151,12 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">انكر زولو A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">45W PD</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">ذكية (% + وات + حالة)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">30W PD</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">رقمية (%) + كابلان مدمجان</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200ج</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر برايم A1695</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">انكر زولو A1695</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (92.7Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">165W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">ذكية (وات + حرارة + صحة)</td>
@@ -195,7 +195,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
                 },
                 {
                     question: 'إيه الفرق بين الشاشة "الرقمية" والشاشة "الذكية"؟',
-                    answer: 'الشاشة الرقمية العادية بتعرض النسبة المئوية بس (مثل أنكر ZOLO A110D بـ 1,270ج). الشاشة الذكية بتعرض معلومات إضافية: الوات الحي لكل منفذ، درجة حرارة الخلايا، عدد دورات الشحن، والوقت المتبقي — زي أنكر Prime A1695 بـ 3,950ج.'
+                    answer: 'الشاشة الرقمية العادية بتعرض النسبة المئوية بس (مثل أنكر ZOLO A110D بـ 1,270ج). الشاشة الذكية بتعرض معلومات إضافية: الوات الحي لكل منفذ، درجة حرارة الخلايا، عدد دورات الشحن، والوقت المتبقي — زي أنكر زولو A1695 بـ 3,950ج.'
                 },
                 {
                     question: 'هل جوي روم 20,000 بـ 997 جنيه ده أصلي فعلاً؟',
@@ -209,13 +209,13 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
             metaDescription: 'We tested 6 digital-display power banks vs 4 LED-dot models. Screens accurate within 1%, LEDs failed unpredictably. Prices from 997 to 3,950 EGP in Egypt.',
             keywords: 'digital display power bank, power bank screen vs led, led indicator vs digital display power bank, anker zolo display power bank, power bank screen worth it egypt, best display power bank 2026, power bank digital screen comparison, joyroom power bank display, power bank price egypt egp',
             excerpt: 'Is a digital display on a power bank worth 200 EGP more than traditional LED dots? Field test results, price comparison, and buying recommendations for Egypt 2026.',
-            quickAnswer: 'Yes, a digital display is worth the premium — not for aesthetics, but for 3 practical reasons: (1) 1% accuracy instead of vague 25% LED steps that can shut off with no warning. (2) Instant fast-charging confirmation so you know PD is active, not trickle-charging through a damaged cable. (3) Smart power management during blackouts — advanced displays (like Anker ZOLO A1681) show live wattage and remaining runtime down to the minute.',
+            quickAnswer: 'Yes, a digital display is worth the premium — not for aesthetics, but for 3 practical reasons: (1) 1% accuracy instead of vague 25% LED steps that can shut off with no warning. (2) Instant fast-charging confirmation so you know PD is active, not trickle-charging through a damaged cable. (3) Smart power management during blackouts — advanced displays (like the Anker 737) show live wattage and remaining runtime down to the minute.',
             content: `<p>Have you ever glanced at your power bank, seen one LED dot lit up, and wondered: "Does this mean 5% or 20%? Will it charge my phone or die in two minutes?" Millions of users in Egypt deal with this guessing game daily. With digital display power banks now showing the exact remaining percentage, the question is clear: does the price difference — around 200 to 400 EGP — actually justify the upgrade?</p>
 
 <div class="quick-answer-inline" style="background:#eff6ff;border-left:4px solid #2563eb;padding:16px 20px;margin:24px 0;border-radius:8px;">
     <p style="margin:0;font-size:16px;line-height:1.7;color:#1e40af;">
         <strong>💡 Quick Answer:</strong>
-        Yes, a digital display is worth the premium — not for aesthetics, but for 3 practical reasons: (1) 1% accuracy instead of vague 25% LED steps that can shut off with no warning. (2) Instant fast-charging confirmation so you know PD is active, not trickle-charging through a damaged cable. (3) Smart power management during blackouts — advanced displays (like Anker ZOLO A1681) show live wattage and remaining runtime down to the minute.
+        Yes, a digital display is worth the premium — not for aesthetics, but for 3 practical reasons: (1) 1% accuracy instead of vague 25% LED steps that can shut off with no warning. (2) Instant fast-charging confirmation so you know PD is active, not trickle-charging through a damaged cable. (3) Smart power management during blackouts — advanced displays (like the Anker 737) show live wattage and remaining runtime down to the minute.
     </p>
 </div>
 
@@ -277,7 +277,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
 
 <p><strong>Situation 1 — Power outage during Cairo's summer.</strong> The electricity cuts out, your phone is at 8%, and your laptop is about to die. With LED dots, you see one lit dot and gamble: "Do I plug in the laptop or the phone?" With a digital display reading 34%, you know you can fully charge your phone (needs ~15-18% of the bank) and still have 16% left for emergencies.</p>
 
-<p><strong>Situation 2 — A damaged cable you do not know about.</strong> You plug your phone into the power bank assuming fast charging is active. But the cable is internally damaged and outputting 2.5W instead of 22.5W. An LED bank will not tell you anything. The smart display on the <a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681 (45W)</a> shows live output wattage — if you see 2.5W instead of 22W, you instantly know the cable is the problem.</p>
+<p><strong>Situation 2 — A damaged cable you do not know about.</strong> You plug your phone into the power bank assuming fast charging is active. But the cable is internally damaged and outputting 2.5W instead of 22.5W. An LED bank will not tell you anything. The smart display on the <a href="/en/anker/power-banks/anker-737-powerbank" style="color:#2563eb;font-weight:600;">Anker 737 (140W)</a> shows live output wattage — if you see 2.5W instead of 22W, you instantly know the cable is the problem.</p>
 
 <p><strong>Situation 3 — A long trip with multiple devices.</strong> You are driving 5 hours to Egypt's North Coast with two phones and a tablet. A digital display lets you allocate power precisely: "The bank is at 67%. I will charge the first phone to 80% and save the rest for the tablet." Without numbers, you distribute randomly and risk everything dying halfway through the trip.</p>
 
@@ -327,12 +327,12 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
         <tr>
             <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-zolo-a1681-20000" style="color:#2563eb;font-weight:600;">Anker ZOLO A1681</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">20,000mAh (72Wh)</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">45W PD</td>
-            <td style="padding:12px;border:1px solid #d1d5db;">Smart (% + watts + status)</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">30W PD</td>
+            <td style="padding:12px;border:1px solid #d1d5db;">Digital (%) + built-in dual cables</td>
             <td style="padding:12px;border:1px solid #d1d5db;"><strong>2,200 EGP</strong></td>
         </tr>
         <tr>
-            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Prime A1695</a></td>
+            <td style="padding:12px;border:1px solid #d1d5db;"><a href="/en/anker/power-banks/anker-prime-a1695-25000" style="color:#2563eb;font-weight:600;">Anker Zolo A1695</a></td>
             <td style="padding:12px;border:1px solid #d1d5db;">25,000mAh (92.7Wh)</td>
             <td style="padding:12px;border:1px solid #d1d5db;">165W</td>
             <td style="padding:12px;border:1px solid #d1d5db;">Smart (watts + temp + health)</td>
@@ -371,7 +371,7 @@ export const power_bank_with_digital_display_worth_it: BlogArticle = {
                 },
                 {
                     question: 'What is the difference between a "digital" and a "smart" display?',
-                    answer: 'A basic digital display shows only the battery percentage (e.g., Anker ZOLO A110D at 1,270 EGP). A smart display adds live wattage per port, cell temperature, charge cycle count, and estimated remaining time — like the Anker Prime A1695 at 3,950 EGP.'
+                    answer: 'A basic digital display shows only the battery percentage (e.g., Anker ZOLO A110D at 1,270 EGP). A smart display adds live wattage per port, cell temperature, charge cycle count, and estimated remaining time — like the Anker Zolo A1695 at 3,950 EGP.'
                 },
                 {
                     question: 'Is the Joyroom 20,000mAh at 997 EGP genuinely authentic?',

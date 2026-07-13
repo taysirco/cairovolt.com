@@ -195,8 +195,8 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 
 <p>المصوّر اللي بيشتغل من المنزل أو الستوديو لكن بياخد فترات تصوير خارجية: المشكلة مش السعة — المشكلة <strong>الشحن الذاتي السريع</strong>. تخيل تنتهي من تصوير الصباح، تعود البيت، تشحن الباور بانك في ساعة فاضية واحدة، تخرج لتصوير المساء.</p>
 
-<p>الحل: <strong>انكر برايم 165W + كابل
-<a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050 كابل USB-C 240W</a></strong> (الـ A1695 يقبل 100W input):</p>
+<p>الحل: <strong>انكر زولو 165W + كابل
+<a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060 كابل USB-C 140W</a></strong> (الـ A1695 يقبل 100W input):</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⏱️ <strong>من 0 إلى 80% في 35 دقيقة:</strong> ساعة استراحة = باور بانك ممتلئ تقريباً للجولة التالية.</li>
@@ -418,8 +418,8 @@ export const power_bank_for_photographers_dslr_cameras: BlogArticle = {
 
 <p>The shooter working from home/studio but doing outdoor shoots: the problem is not capacity — it is <strong>fast self-recharge</strong>. Imagine finishing morning shoot, coming home, charging the power bank in one free hour, going back for evening shoot.</p>
 
-<p>The solution: <strong>Anker Prime 165W + cable
-<a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050 USB-C 240W</a></strong> (A1695 accepts 100W input):</p>
+<p>The solution: <strong>Anker Zolo 165W + the
+<a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060 USB-C 140W cable</a></strong> (A1695 accepts 100W input):</p>
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">⏱️ <strong>0 to 80% in 35 min:</strong> one break = nearly full power bank for the next round.</li>

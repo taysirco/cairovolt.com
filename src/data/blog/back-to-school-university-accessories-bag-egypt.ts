@@ -133,7 +133,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📱 <strong>لو عندك iPhone:</strong> <a href="/joyroom/cables/joyroom-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">جوي روم كابل USB-C to Lightning</a> بـ 150 جنيه — MFi-compatible، طول 1.2 متر مناسب للشنطة.</li>
-    <li style="margin-bottom:12px;">📱 <strong>لو عندك Android:</strong> <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر كابل USB-C to USB-C A8050</a> بـ 180 جنيه — 60W، ضمان 18 شهر، غلاف نايلون مقاوم للطي.</li>
+    <li style="margin-bottom:12px;">📱 <strong>لو عندك Android:</strong> <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر كابل USB-C to USB-C زولو A8060</a> بـ 790 جنيه — 140W، ضمان 24 شهر، غلاف مضفر مقاوم للطي.</li>
 </ul>
 
 <h3>طول الكابل المثالي لطالب الجامعة</h3>
@@ -208,8 +208,8 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">كابل USB-C</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker A8050 (1.2m)</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">180 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker Zolo A8060 (1.5m)</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">790 ج</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Joyroom USB-C (1m)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">120 ج</td>
     </tr>
@@ -236,14 +236,14 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     </tr>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;" colspan="2">الإجمالي (التوصية الأساسية)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">2,640 ج</td>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">3,250 ج</td>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">الإجمالي (بديل)</td>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">~1,420 ج (بدون ساعة)</td>
     </tr>
     </tbody>
 </table>
 
-<p><strong>الخلاصة:</strong> بـ 2,640 جنيه تقدر تبني حقيبة ملحقات كاملة ومحترمة — أقل من إيجار غرفة في مدينة جامعية. ولو الميزانية ضيقة جداً: أولوية الشراء هي باور بانك أولاً ← شاحن وكابل ← سماعة ← ساعة ذكية.</p>
+<p><strong>الخلاصة:</strong> بـ 3,250 جنيه تقدر تبني حقيبة ملحقات كاملة ومحترمة — أقل من إيجار غرفة في مدينة جامعية. ولو الميزانية ضيقة جداً: أولوية الشراء هي باور بانك أولاً ← شاحن وكابل ← سماعة ← ساعة ذكية.</p>
 
 <h2>5 أخطاء شائعة في شراء ملحقات الجامعة</h2>
 
@@ -393,7 +393,7 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
 
 <ul style="list-style:none;padding:0;">
     <li style="margin-bottom:12px;">📱 <strong>iPhone users:</strong> <a href="/en/joyroom/cables/joyroom-usb-c-lightning-cable" style="color:#2563eb;font-weight:600;">Joyroom USB-C to Lightning Cable</a> at 150 EGP — MFi-compatible, 1.2m length perfect for the bag.</li>
-    <li style="margin-bottom:12px;">📱 <strong>Android users:</strong> <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker USB-C to USB-C Cable A8050</a> at 180 EGP — 60W, 18-month warranty, nylon-braided sheath resistant to bending.</li>
+    <li style="margin-bottom:12px;">📱 <strong>Android users:</strong> <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo USB-C to USB-C Cable A8060</a> at 790 EGP — 140W, 24-month warranty, braided sheath resistant to bending.</li>
 </ul>
 
 <h3>The Ideal Cable Length for University Students</h3>
@@ -468,8 +468,8 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     </tr>
     <tr>
         <td style="padding:12px;border:1px solid #d1d5db;">USB-C Cable</td>
-        <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker A8050 (1.2m)</strong></td>
-        <td style="padding:12px;border:1px solid #d1d5db;">180 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;"><strong>Anker Zolo A8060 (1.5m)</strong></td>
+        <td style="padding:12px;border:1px solid #d1d5db;">790 EGP</td>
         <td style="padding:12px;border:1px solid #d1d5db;">Joyroom USB-C (1m)</td>
         <td style="padding:12px;border:1px solid #d1d5db;">120 EGP</td>
     </tr>
@@ -496,14 +496,14 @@ export const back_to_school_university_accessories_bag_egypt: BlogArticle = {
     </tr>
     <tr style="background:#f0fdf4;">
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;" colspan="2">Total (Primary Picks)</td>
-        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">2,640 EGP</td>
+        <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">3,250 EGP</td>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;">Total (Budget)</td>
         <td style="padding:12px;border:1px solid #d1d5db;font-weight:bold;color:#059669;">~1,420 EGP (no watch)</td>
     </tr>
     </tbody>
 </table>
 
-<p><strong>Bottom line:</strong> For 2,640 EGP you can build a complete, quality accessories bag — less than a month's dorm rent. And if the budget is really tight: purchase priority is power bank first ← charger and cable ← earbuds ← smartwatch.</p>
+<p><strong>Bottom line:</strong> For 3,250 EGP you can build a complete, quality accessories bag — less than a month's dorm rent. And if the budget is really tight: purchase priority is power bank first ← charger and cable ← earbuds ← smartwatch.</p>
 
 <h2>5 Common Mistakes When Buying University Accessories</h2>
 

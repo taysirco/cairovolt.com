@@ -5,7 +5,7 @@ export const anker_pencil_stylus_reviews: ProductReview[] = [
     {
         author: 'Mona Essam', rating: 5, location: 'مدينة نصر', datePublished: '2026-04-08',
         reviewBody: {
-            en: 'Architecture student — the Anker Pencil replaced my Apple Pencil 2 at 1/3 the price. Palm rejection works flawlessly on my iPad Air. Tilt sensitivity for shading in Procreate is accurate. The magnetic attachment to the iPad is the cherry on top.',
+            en: 'Architecture student — the Anker Pencil Pro replaced my Apple Pencil 2 at 1/3 the price. Palm rejection works flawlessly on my iPad Air. Tilt sensitivity for shading in Procreate is accurate. The magnetic attachment to the iPad is the cherry on top.',
             ar: 'طالبة عمارة — قلم أنكر استبدل Apple Pencil 2 بتلت السعر. رفض الكف بيشتغل بدون أي مشكلة على آيباد إير. حساسية الميل للتظليل في Procreate دقيقة. التثبيت المغناطيسي على الآيباد الكرز على الكيكة.'
         },
         pros: { en: ['1/3 Apple Pencil 2 price', 'Palm rejection flawless', 'Tilt sensitivity accurate'], ar: ['تلت سعر Apple Pencil 2', 'رفض الكف بدون مشاكل', 'حساسية الميل دقيقة'] }
@@ -55,7 +55,7 @@ export const anker_pencil_stylus_reviews: ProductReview[] = [
     {
         author: 'Dina Samir', rating: 5, location: 'الزمالك', datePublished: '2026-04-28',
         reviewBody: {
-            en: 'Graphic designer\'s backup stylus. My Apple Pencil battery dies at the worst times — the Anker Pencil stays in my bag as backup. 12h battery and fast USB-C charging means it\'s always ready. Build quality feels premium with the matte finish.',
+            en: 'Graphic designer\'s backup stylus. My Apple Pencil battery dies at the worst times — the Anker Pencil Pro stays in my bag as backup. 12h battery and fast USB-C charging means it\'s always ready. Build quality feels premium with the matte finish.',
             ar: 'قلم احتياطي لمصممة جرافيك. بطارية Apple Pencil بتخلص في أسوأ الأوقات — قلم أنكر بيفضل في شنطتي كاحتياطي. 12 ساعة بطارية وشحن USB-C سريع يعني دايماً جاهز. جودة البناء بتحس بريميوم مع الفينش المات.'
         },
         pros: { en: ['Perfect Apple Pencil backup', 'Always-ready 12h battery', 'Premium matte finish'], ar: ['احتياطي مثالي لـ Apple Pencil', 'دايماً جاهز 12 ساعة بطارية', 'فينش مات بريميوم'] }

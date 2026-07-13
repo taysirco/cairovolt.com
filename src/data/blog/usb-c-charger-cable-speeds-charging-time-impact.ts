@@ -62,7 +62,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">3A / 60W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">60W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">موبايل، تابلت، MacBook Air</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">انكر A8050</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">انكر زولو A8060</a></td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">المتقدم</td>
@@ -242,7 +242,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ كابلات USB-C المعتمدة بالمواصفات الكاملة على كايرو فولت</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/anker/cables/anker-a8050-usb-c-cable" style="color:#166534;font-weight:600;">انكر A8050 (3A/60W)</a> للموبايل واللابتوب الخفيف |
+        <a href="/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#166534;font-weight:600;">انكر زولو A8060 (5A/140W)</a> للموبايل واللابتوب |
         <a href="/joyroom/cables/joyroom-30w-pd-cable" style="color:#166534;font-weight:600;">جوي روم PD كابل</a> للاستخدام اليومي |
         <a href="/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#166534;font-weight:600;">جوي روم C to C</a>. كل كابلاتنا معها مواصفات واضحة.
     </p>
@@ -300,7 +300,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
             <td style="padding:10px 8px;border:1px solid #d1d5db;">3A / 60W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">60W</td>
             <td style="padding:10px 8px;border:1px solid #d1d5db;">Phone, tablet, MacBook Air</td>
-            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#2563eb;font-weight:600;">Anker A8050</a></td>
+            <td style="padding:10px 8px;border:1px solid #d1d5db;"><a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#2563eb;font-weight:600;">Anker Zolo A8060</a></td>
         </tr>
         <tr style="background:#f9fafb;">
             <td style="padding:10px 8px;border:1px solid #d1d5db;font-weight:600;">Advanced</td>
@@ -485,7 +485,7 @@ export const usb_c_charger_cable_speeds_charging_time_impact: BlogArticle = {
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
     <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ USB-C Cables with Full Specifications Available on CairoVolt</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
-        <a href="/en/anker/cables/anker-a8050-usb-c-cable" style="color:#166534;font-weight:600;">Anker A8050 (3A/60W)</a> for phones and light laptops |
+        <a href="/en/anker/cables/anker-zolo-usb-c-braided-cable" style="color:#166534;font-weight:600;">Anker Zolo A8060 (5A/140W)</a> for phones and laptops |
         <a href="/en/joyroom/cables/joyroom-30w-pd-cable" style="color:#166534;font-weight:600;">Joyroom PD Cable</a> for daily use |
         <a href="/en/joyroom/cables/joyroom-type-c-to-type-c-cable" style="color:#166534;font-weight:600;">Joyroom C-to-C</a>. Every cable on CairoVolt includes clear spec labeling.
     </p>

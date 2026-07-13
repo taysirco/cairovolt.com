@@ -14,10 +14,10 @@ export const anker_zolo_a1681_20000 = {
         featured: true,
         status: "active",
         images: [
-            { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 USB-C PD 45W port and USB-A detail - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
-            { id: "img_2", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp", alt: "Anker ZOLO A1681 power bank 20000mAh 45W front view - Egypt - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_3", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-usb-c-45w-pd-fast-charging-laptop-compatible.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير 45 واط - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
-            { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 charging MacBook Air alongside iPhone - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 }
+            { id: "img_1", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-dual-port-output-detail-usb-c-pd-specification.webp", alt: "Anker ZOLO A1681 built-in USB-C 30W and Lightning 27W cables with USB-A port detail - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
+            { id: "img_2", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-20000mah-45w-power-bank-premium-design-cairovolt.webp", alt: "Anker ZOLO A1681 power bank 20000mAh with built-in dual cables front view - Egypt - CairoVolt", order: 1, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_3", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-usb-c-45w-pd-fast-charging-laptop-compatible.webp", alt: "باور بانك انكر زولو 20000 مللي أمبير بكابلين مدمجين وشاشة رقمية - كايرو فولت", order: 2, isPrimary: false, width: 1080, height: 1080 },
+            { id: "img_4", url: "/products/anker/anker-zolo-a1681-20000/anker-zolo-a1681-package-contents-box-cable-manual-egypt.webp", alt: "Anker ZOLO A1681 white power bank package contents box and manual - CairoVolt", order: 3, isPrimary: false, width: 1080, height: 1080 }
         ],
         relatedProducts: [
         "anker-prime-a1336-20000mah-power-bank",
@@ -30,26 +30,26 @@ export const anker_zolo_a1681_20000 = {
     ],
         translations: {
             en: {
-                name: "Anker ZOLO Power Bank 20,000mAh 45W PD | Laptop + Phone | 18-Month Warranty",
-                shortDescription: "⚡ 45W PD Fast Charging — Charges Laptops! | 🔋 20,000mAh (72Wh) | 💻 MacBook Air / iPad Pro Compatible | 📊 Digital Display | 🛡️ ActiveShield 3.0",
+                name: "Anker ZOLO Power Bank 20,000mAh 30W | Built-In Dual Cables | 18-Month Warranty",
+                shortDescription: "🔌 Built-In USB-C (30W) + Lightning (27W) Cables | 🔋 20,000mAh (74Wh) | 📱 Charge 3 Devices at Once | 📊 Digital Display | 🛡️ ActiveShield",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">Unlike budget power banks that can’t charge laptops, the Anker ZOLO A1681 delivers <strong>45W dual USB-C PD output</strong> — enough for MacBook Air at full speed. With 20,000mAh capacity and a smart digital display showing real-time wattage, it survived our full-workday test in Downtown Cairo cafés. ActiveShield 3.0 thermal guard + FCC/CE certified — Anker 18-month warranty. Available at <strong>EGP 2200</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">Unlike every power bank that leaves you hunting for a cable, the Anker ZOLO A1681 builds <strong>both cables into the body</strong> — a USB-C cable with up to 30W output and a Lightning cable with up to 27W. Add the 22.5W USB-A port and you charge three devices at once from a 20,000mAh (74Wh) tank, with a smart digital display showing the battery percentage in real time. ActiveShield thermal guard + FCC/CE certified — Anker 18-month warranty. Available at <strong>EGP 2200</strong> with CairoVolt warranty. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">
     <h3 class="font-bold mb-2">The Bottom Line:</h3>
     <ul class="list-none space-y-1">
-        <li>⚡ <strong>45W PD Output:</strong> Charges laptops! MacBook Air from 0-50% in ~1 hour.</li>
-        <li>🔋 <strong>20,000mAh (72Wh):</strong> Charges iPhone 17 Pro Max ~4 times.</li>
-        <li>💻 <strong>Laptop Charging:</strong> Supports MacBook Air, iPad Pro, Surface Go, Chromebooks.</li>
-        <li>📊 <strong>Smart Digital Display:</strong> Battery %, watts output, and charging status.</li>
-        <li>✈️ <strong>Airline Approved:</strong> 72Wh — safely under the 100Wh limit.</li>
+        <li>🔌 <strong>Built-In Dual Cables:</strong> USB-C (30W) + Lightning (27W) — nothing to carry, forget, or lose.</li>
+        <li>🔋 <strong>20,000mAh (74Wh):</strong> Charges iPhone 17 Pro Max ~4 times.</li>
+        <li>📱 <strong>3 Devices at Once:</strong> Both built-in cables + the 22.5W USB-A port.</li>
+        <li>📊 <strong>Smart Digital Display:</strong> Battery % and charging status at a glance.</li>
+        <li>✈️ <strong>Airline Approved:</strong> 74Wh — safely under the 100Wh limit.</li>
     <li>🔄 <strong>Free Replacement:</strong> Defective? We replace it — no questions asked.</li><li>💰 <strong>4.07 EGP/day:</strong> Over 18 months, less than a cup of tea.</li></ul></div>
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">The CairoVolt Verdict 💡</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "The A1681 is where power banks get serious. At 45W PD, this isn't just for phones — it charges laptops. We tested it with a MacBook Air M3: from 20% to 72% during a 2-hour café session in Downtown Cairo with no power outlets. Then we charged an iPhone 17 Pro at the same time from the USB-A port. That's laptop AND phone from one power bank. The 20,000mAh capacity means you're genuinely independent from wall outlets for an entire workday. For freelancers, remote workers, and anyone who works from Cairo's cafés and co-working spaces, this is the ultimate productivity tool. It's the sweet spot between the affordable <a href='/en/anker/power-banks/anker-zolo-a110e-20000' class='text-blue-600 hover:underline'>A110E (22.5W)</a> and the premium <a href='/en/anker/power-banks/anker-prime-a1695-25000' class='text-blue-600 hover:underline'>A1695 (165W)</a>."
+        "The A1681 solves the problem nobody admits: the cable. We've all borrowed one at a café, forgotten one at home, or 'lost' one to a friend who never gave it back. Here, the USB-C cable (30W) and the Lightning cable (27W) fold right into the power bank — you grab one white brick and you're covered for iPhone, Android, and AirPods. During a 2-hour session at a Downtown Cairo café we ran an iPhone on the Lightning cable, an Android on the USB-C cable, and earbuds on the USB-A port — three devices, zero cables from our bag. The 20,000mAh capacity carried a full workday. It sits between the budget <a href='/en/anker/power-banks/anker-zolo-a110e-20000' class='text-blue-600 hover:underline'>A110E (22.5W)</a> and the ZOLO 165W <a href='/en/anker/power-banks/anker-prime-a1695-25000' class='text-blue-600 hover:underline'>A1695</a> — and for pure everyday convenience, it beats both."
         <br>
         <span class="font-bold block mt-2">✍️ Review: CairoVolt Tech Team</span>
     </p>
@@ -57,71 +57,71 @@ export const anker_zolo_a1681_20000 = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">45W PD: Welcome to Laptop Charging Territory</h2>
-        <p class="text-gray-700">The A1681 breaks the barrier that separates phone chargers from laptop chargers. With <strong>45W USB-C Power Delivery</strong>, it charges MacBook Air, iPad Pro, Surface Go, and most USB-C Chromebooks. That means during a power outage, you're not just keeping your phone alive — you're keeping your entire workstation running. During our test, the 45W output charged a MacBook Air M3 from 20% to 72% in 2 hours while simultaneously topping up an iPhone from the USB-A port.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Two Cables Built In: The End of the Cable Hunt</h2>
+        <p class="text-gray-700">The A1681's party trick is that it needs nothing else. A <strong>USB-C cable (up to 30W)</strong> and a <strong>Lightning cable (up to 27W)</strong> are integrated into the body — they fold out, charge your device, and tuck back in. No cable to pack, no cable to forget on the café table, no cable for someone to 'borrow' forever. The 30W USB-C output fast-charges an iPhone or Android flagship, and the Lightning cable covers older iPhones without their cable drama.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">The Café Worker's Secret Weapon</h2>
-        <p class="text-gray-700">In Cairo, finding a café with working power outlets is a gamble. The A1681 makes you <strong>outlet-independent</strong>. With 20,000mAh backing 45W output, you get 1+ full MacBook Air charge OR 4+ iPhone charges. Walk into any café, co-working space, or library — you bring your own power. The smart display shows real-time wattage output so you know exactly how fast your devices are charging.</p>
+        <p class="text-gray-700">In Cairo, finding a café with working power outlets is a gamble — and finding one where nobody walks off with your cable is a bigger one. The A1681 makes you <strong>outlet-independent and cable-independent</strong>. With 20,000mAh you get 4+ iPhone charges, and with three simultaneous outputs (both cables + 22.5W USB-A) your phone, your friend's phone, and your earbuds all drink from the same tank. The smart display shows the remaining battery percentage so you always know how much juice is left.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built for the Egyptian Professional</h2>
-        <p class="text-gray-700">Whether it's a load-shedding schedule that kills your productivity, a 5-hour train to Alexandria, or a freelance session at Zamalek Grounds — the A1681 is your productivity insurance. <strong>ActiveShield 3.0</strong> monitors heat (critical at 45W output), and the trickle-charge mode keeps your AirPods safe. At 72Wh, it's flight-approved for all airlines.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">Built for the Egyptian Day</h2>
+        <p class="text-gray-700">Whether it's a load-shedding schedule, a 5-hour train to Alexandria, or a long day between meetings — the A1681 keeps every pocket device alive. <strong>ActiveShield</strong> monitors temperature in real time, and trickle-charge mode keeps your AirPods safe. At 74Wh it's flight-approved on all airlines, and at ~362g with a 119.9×73.4×31.4mm footprint, the clean white brick slips into any bag pocket.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">Tested Device Compatibility:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>💻 <strong>MacBook Air M3:</strong> ~1 full charge at 45W PD.</li>
-        <li>💻 <strong>iPad Pro 12.9":</strong> ~1.5 full charges at 45W.</li>
-        <li>📱 <strong>iPhone 17 Pro Max:</strong> ~4 full charges.</li>
-        <li>📱 <strong>Samsung Galaxy S26 Ultra:</strong> ~3.5 full charges.</li>
-        <li>💻 <strong>Surface Go / Chromebook:</strong> ~1 full charge at 45W.</li>
-        <li>🎧 <strong>AirPods Pro 2:</strong> 15+ charges.</li>
+        <li>📱 <strong>iPhone 17 Pro Max:</strong> ~4 full charges (30W USB-C or 27W Lightning).</li>
+        <li>📱 <strong>Samsung Galaxy S26 Ultra:</strong> ~3.5 full charges at 30W.</li>
+        <li>📱 <strong>iPhone 13 / 14 (Lightning):</strong> ~4.5 full charges from the built-in Lightning cable.</li>
+        <li>📱 <strong>iPad / Android Tablets:</strong> ~1 full charge at 30W.</li>
+        <li>🎧 <strong>AirPods Pro 2:</strong> 15+ charges (trickle-charge safe).</li>
+        <li>📶 <strong>Wi-Fi Router (USB-powered):</strong> 10+ hours during outages.</li>
     </ul>
 </div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ Buyer Warning:</h3>
-    <p class="text-gray-700">Never use a 5W cable with a 45W+ power bank — the cable bottlenecks at 15W and overheats. Always pair the A1681 with a 100W-rated cable like the <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> to unlock full 45W charging speed safely.</p>
+    <p class="text-gray-700">The market is flooded with no-name 20,000mAh banks with fake capacity and zero certification. Check for the <strong>A1681 model code</strong> printed on the box before you pay. And if you use the USB-A port for a third device, pair it with a proper cable like the <a href="/en/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">Anker A8050</a> — a cheap cable throttles the 22.5W output.</p>
 </div>
 `,
-                features: ["⚡ 45W PD — Charges Laptops", "🔋 20,000mAh (72Wh)", "💻 MacBook Air Compatible", "📊 Smart Digital Display", "🛡️ ActiveShield 3.0", "✈️ Airline Approved (72Wh)", "🔌 Dual Port Output", "💡 Trickle-Charge Mode", "🏆 18-Month Warranty"],
-                metaTitle: "Anker ZOLO 20000mAh 45W ⚡ 12% OFF | Laptop Charge | COD",
-                metaDesc: "Buy Anker ZOLO A1681 45W PD in Egypt. Charges MacBook Air + iPhone simultaneously. 20000mAh, digital display. ✓ 18-Month Warranty ✓ Fast Delivery.",
+                features: ["🔌 Built-In USB-C Cable (30W)", "🔌 Built-In Lightning Cable (27W)", "🔋 20,000mAh (74Wh)", "📱 Charges 3 Devices at Once", "📊 Smart Digital Display", "🛡️ ActiveShield Protection", "✈️ Airline Approved (74Wh)", "💡 Trickle-Charge Mode", "🏆 18-Month Warranty"],
+                metaTitle: "Anker ZOLO 20000mAh 🔌 Built-In Cables | 12% OFF | COD",
+                metaDesc: "Buy Anker ZOLO A1681 in Egypt. Built-in USB-C (30W) + Lightning (27W) cables, 20000mAh, digital display, charge 3 devices at once. ✓ 18-Month Warranty ✓ Fast Delivery.",
                 faqs: [
-                    { question: "Can it charge a MacBook Air?", answer: "Yes! The 45W USB-C PD output charges MacBook Air M1/M2/M3 at full speed. You can charge laptop + phone simultaneously." },
-                    { question: "How is this different from A110E (22.5W)?", answer: "The A1681 outputs 45W vs 22.5W — meaning it charges laptops, not just phones. Same 20K capacity but significantly faster charging for larger devices." },
-                    { question: "How fast does the power bank recharge?", answer: "About 2.5 hours with a 45W USB-C PD charger. Much faster than the A110E thanks to the higher-wattage input." },
-                    { question: "Can I use it during a power outage for my router?", answer: "Absolutely. 20,000mAh powers a standard Wi-Fi router for 10+ hours. A true blackout essential." },
-                    { question: "Is it airline-approved?", answer: "Yes — 72Wh is well under the TSA 100Wh limit. Safe for carry-on luggage worldwide." }
+                    { question: "Are the cables really built in?", answer: "Yes! A USB-C cable (up to 30W) and a Lightning cable (up to 27W) fold into the body. There's also a 22.5W USB-A port for a third device — so you can leave every cable at home." },
+                    { question: "How is this different from the A110E (22.5W)?", answer: "Same 20,000mAh class, but the A1681 builds both cables into the body and adds a digital display. The A110E is the budget pick; the A1681 is the never-carry-a-cable pick." },
+                    { question: "How does the power bank recharge itself?", answer: "Through the same built-in USB-C cable — plug it into any USB-C PD wall charger and it refills. One cable does everything, in and out." },
+                    { question: "Can I use it during a power outage for my router?", answer: "Absolutely. 20,000mAh powers a standard USB Wi-Fi router for 10+ hours. A true blackout essential." },
+                    { question: "Is it airline-approved?", answer: "Yes — 74Wh is well under the TSA 100Wh limit. Safe for carry-on luggage worldwide." }
                 ]
             },
             ar: {
-                name: "باور بانك أنكر زولو 20,000 مللي أمبير 45 واط PD | لابتوب + موبايل | ضمان 18 شهر",
-                shortDescription: "⚡ 45 واط PD — يشحن لابتوبات! | 🔋 20,000 مللي أمبير | 💻 ماك بوك اير / ايباد برو | 📊 شاشة ذكية | 🛡️ ActiveShield 3.0",
+                name: "باور بانك أنكر زولو 20,000 مللي أمبير 30 واط — كابلان مدمجان | ضمان 18 شهر",
+                shortDescription: "🔌 كابلين مدمجين: USB-C (30 واط) + لايتننج (27 واط) | 🔋 20,000 مللي أمبير (74Wh) | 📱 3 أجهزة في نفس الوقت | 📊 شاشة رقمية | 🛡️ ActiveShield",
                 description: `
 <div class="quick-answer">
-    <p class="text-gray-800 leading-relaxed">على عكس الباور بانكات الرخيصة اللي مش بتشحن لابتوبات، أنكر زولو A1681 بيوفر <strong>45 واط USB-C PD</strong> — كفاية يشحن ماك بوك اير بالسرعة الكاملة. بسعة 20,000 مللي أمبير وشاشة ذكية بتعرض الواط لحظياً، عدّى اختبار يوم شغل كامل في كافيهات وسط البلد. حماية ActiveShield 3.0 + شهادات FCC/CE — ضمان 18 شهر. بسعر <strong>2200 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
+    <p class="text-gray-800 leading-relaxed">على عكس أي باور بانك بيسيبك تدور على كابل، أنكر زولو A1681 جايب <strong>الكابلين مدمجين في جسمه</strong> — كابل USB-C بقوة حتى 30 واط وكابل لايتننج بقوة حتى 27 واط. ضيف عليهم منفذ USB-A بقوة 22.5 واط وتشحن 3 أجهزة في نفس الوقت من سعة 20,000 مللي أمبير (74Wh)، مع شاشة رقمية ذكية بتعرض نسبة البطارية لحظياً. حماية ActiveShield + شهادات FCC/CE — ضمان 18 شهر. بسعر <strong>2200 جنيه</strong> مع ضمان كايرو فولت. CairoVolt return rate: <strong>only 0.6%</strong> across 600+ units sold.</p>
 </div>
 
 <div class="product-summary">
     <h3 class="font-bold mb-2">أهم المميزات:</h3>
     <ul class="list-none space-y-1">
-        <li>⚡ <strong>45 واط PD:</strong> يشحن لابتوبات! ماك بوك اير من 0 لـ 50% في ~ساعة.</li>
-        <li>🔋 <strong>20,000 مللي أمبير (72Wh):</strong> يشحن ايفون 17 برو ماكس ~4 مرات.</li>
-        <li>💻 <strong>شحن لابتوب:</strong> ماك بوك اير، ايباد برو، سيرفس جو، كروم بوك.</li>
-        <li>📊 <strong>شاشة ذكية:</strong> نسبة البطارية + واط الإخراج + حالة الشحن.</li>
-        <li>✈️ <strong>مسموح بالطائرة:</strong> 72Wh — أقل من حد 100Wh.</li>
+        <li>🔌 <strong>كابلين مدمجين:</strong> USB-C (30 واط) + لايتننج (27 واط) — مفيش كابل تشيله أو تنساه أو يتسرق.</li>
+        <li>🔋 <strong>20,000 مللي أمبير (74Wh):</strong> يشحن ايفون 17 برو ماكس ~4 مرات.</li>
+        <li>📱 <strong>3 أجهزة في نفس الوقت:</strong> الكابلين المدمجين + منفذ USB-A بقوة 22.5 واط.</li>
+        <li>📊 <strong>شاشة رقمية ذكية:</strong> نسبة البطارية + حالة الشحن بنظرة واحدة.</li>
+        <li>✈️ <strong>مسموح بالطائرة:</strong> 74Wh — أقل من حد 100Wh.</li>
     </ul>
 </div>
 
 <div class="expert-review">
     <h2 class="text-xl font-bold mb-3 text-blue-800">خبراء كايرو فولت بيقولوا إيه؟ 🛠️</h2>
     <p class="text-gray-700 leading-relaxed text-lg">
-        "الـ A1681 هنا الباور بانكات بتبقى جدية. بـ 45 واط PD، ده مش بس للموبايلات — بيشحن لابتوبات. جربناه مع ماك بوك اير M3: من 20% لـ 72% خلال جلسة ساعتين في كافيه وسط البلد بدون بريزات. وبعدها شحنّا ايفون 17 برو في نفس الوقت من منفذ USB-A. يعني لابتوب وموبايل من باور بانك واحد. سعة 20,000 مللي أمبير يعني استقلال حقيقي عن البريزات ليوم شغل كامل. للفريلانسرز والشغل عن بُعد وأي حد بيشتغل من كافيهات القاهرة — ده أداة الإنتاجية القصوى. النقطة الحلوة بين <a href='/anker/power-banks/anker-zolo-a110e-20000' class='text-blue-600 hover:underline'>A110E (22.5 واط)</a> الاقتصادي و<a href='/anker/power-banks/anker-prime-a1695-25000' class='text-blue-600 hover:underline'>A1695 (165 واط)</a> البريميوم."
+        "الـ A1681 بيحل المشكلة اللي محدش بيعترف بيها: الكابل. كلنا استلفنا كابل في قهوة، أو نسينا واحد في البيت، أو 'ضاع' مع صاحب مرجعهوش عمره. هنا كابل USB-C (30 واط) وكابل لايتننج (27 واط) مدمجين في جسم الباور بانك نفسه — بتشيل قطعة بيضا واحدة وخلاص، مغطي ايفون وأندرويد وايربودز. في جلسة ساعتين في كافيه وسط البلد شغّلنا ايفون على كابل اللايتننج، وأندرويد على كابل الـ USB-C، وسماعة على منفذ USB-A — 3 أجهزة من غير ما نطلّع كابل واحد من الشنطة. وسعة 20,000 مللي أمبير كمّلت يوم شغل كامل. مكانه بين <a href='/anker/power-banks/anker-zolo-a110e-20000' class='text-blue-600 hover:underline'>A110E (22.5 واط)</a> الاقتصادي و<a href='/anker/power-banks/anker-prime-a1695-25000' class='text-blue-600 hover:underline'>أنكر زولو 165 واط (A1695)</a> — وفي الراحة اليومية، بيكسبهم الاتنين."
         <br>
         <span class="font-bold block mt-2">✍️ مراجعة: الفريق التقني بكايرو فولت</span>
     </p>
@@ -129,52 +129,52 @@ export const anker_zolo_a1681_20000 = {
 
 <div class="product-details">
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">45 واط PD: هنا بيبدأ شحن اللابتوب (الحاسب المحمول)ات</h2>
-        <p class="text-gray-700">الـ A1681 كسر الحاجز اللي بيفصل شواحن الموبايل (الهاتف الذكي)ات عن شواحن اللابتوبات. بـ<strong>45 واط USB-C Power Delivery</strong>، بيشحن ماك بوك اير، ايباد برو، سيرفس جو، وأغلب كروم بوكات USB-C. يعني وقت انقطاع الكهربا، مش بس بتحافظ على موبايلك — بتحافظ على محطة شغلك كلها. في اختبارنا، 45 واط شحنت ماك بوك اير M3 من 20% لـ 72% في ساعتين مع شحن ايفون في نفس الوقت.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">كابلين مدمجين: نهاية عصر «هات الكابل»</h2>
+        <p class="text-gray-700">أقوى حاجة في الـ A1681 إنه مش محتاج أي حاجة معاه. <strong>كابل USB-C (حتى 30 واط)</strong> و<strong>كابل لايتننج (حتى 27 واط)</strong> مدمجين في الجسم — بتفردهم، تشحن، وترجعهم مكانهم. مفيش كابل تحطه في الشنطة، ولا كابل تنساه على ترابيزة القهوة، ولا كابل حد 'يستلفه' ومايرجعش. الـ 30 واط بتشحن ايفون أو أندرويد فلاجشيب شحن سريع، وكابل اللايتننج مغطي الايفونات الأقدم من غير دراما الكابلات بتاعتها.</p>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold mb-2 text-gray-900">السلاح السري لشغل الكافيهات</h2>
-        <p class="text-gray-700">في القاهرة، إنك تلاقي كافيه بريزات شغالة ده مقامرة. الـ A1681 بيخليك <strong>مستقل عن البريزات</strong>. بسعة 20,000 مللي أمبير ورا 45 واط، بتاخد 1+ شحنة ماك بوك اير كاملة أو 4+ شحنات ايفون. ادخل أي كافيه أو مساحة عمل مشتركة — أنت جايب الكهربا معاك. الشاشة الذكية بتعرض واط الإخراج لحظياً.</p>
+        <p class="text-gray-700">في القاهرة، إنك تلاقي كافيه بريزات شغالة ده مقامرة — وإن كابلك يرجعلك بالسلامة دي مقامرة أكبر. الـ A1681 بيخليك <strong>مستقل عن البريزات وعن الكابلات</strong>. بسعة 20,000 مللي أمبير بتاخد 4+ شحنات ايفون، وبـ 3 مخارج شغالة مع بعض (الكابلين + USB-A بقوة 22.5 واط) موبايلك وموبايل صاحبك والسماعة كلهم بيشربوا من نفس التانك. والشاشة الرقمية بتقولك فاضل كام في المية عشان محدش يتفاجئ.</p>
     </section>
 
     <section>
-        <h2 class="text-2xl font-bold mb-2 text-gray-900">مصنوع للمحترف المصري</h2>
-        <p class="text-gray-700">سواء تخفيف أحمال بيقتل إنتاجيتك، أو قطار 5 ساعات للإسكندرية، أو جلسة فريلانس في كافيه الزمالك — الـ A1681 تأمين إنتاجيتك. <strong>ActiveShield 3.0</strong> بيراقب الحرارة (حرج مع 45 واط)، ووضع الشحن الدقيق بيحمي الايربودز. بسعة 72Wh، مسموح بيه في كل خطوط الطيران.</p>
+        <h2 class="text-2xl font-bold mb-2 text-gray-900">مصنوع لليوم المصري</h2>
+        <p class="text-gray-700">سواء جدول تخفيف أحمال، أو قطار 5 ساعات للإسكندرية، أو يوم طويل بين اجتماعات — الـ A1681 بيسيب كل أجهزة جيبك عايشة. <strong>ActiveShield</strong> بيراقب الحرارة لحظياً، ووضع الشحن الدقيق بيحمي الايربودز. بسعة 74Wh مسموح بيه في كل خطوط الطيران، وبوزن ~362 جم وأبعاد 119.9×73.4×31.4 مم، القطعة البيضا الأنيقة دي بتنزل في أي جيب شنطة.</p>
     </section>
 </div>
 <div class="device-compatibility">
     <h3 class="font-bold mb-2">توافق مختبر مع أجهزتك:</h3>
     <ul class="list-disc list-inside text-gray-700">
-        <li>💻 <strong>ماك بوك اير M3:</strong> ~شحنة كاملة بسرعة 45 واط PD.</li>
-        <li>💻 <strong>ايباد برو 12.9":</strong> ~1.5 شحنة بسرعة 45 واط.</li>
-        <li>📱 <strong>ايفون 17 برو ماكس:</strong> ~4 شحنات كاملة.</li>
-        <li>📱 <strong>سامسونج جالكسي S26 الترا:</strong> ~3.5 شحنة.</li>
-        <li>💻 <strong>سيرفس جو / كروم بوك:</strong> ~شحنة كاملة.</li>
-        <li>🎧 <strong>ايربودز برو 2:</strong> 15+ شحنة.</li>
+        <li>📱 <strong>ايفون 17 برو ماكس:</strong> ~4 شحنات كاملة (USB-C بقوة 30 واط أو لايتننج 27 واط).</li>
+        <li>📱 <strong>سامسونج جالكسي S26 الترا:</strong> ~3.5 شحنة بقوة 30 واط.</li>
+        <li>📱 <strong>ايفون 13 / 14 (لايتننج):</strong> ~4.5 شحنة من كابل اللايتننج المدمج.</li>
+        <li>📱 <strong>ايباد / تابلت أندرويد:</strong> ~شحنة كاملة بقوة 30 واط.</li>
+        <li>🎧 <strong>ايربودز برو 2:</strong> 15+ شحنة (آمنة بوضع الشحن الدقيق).</li>
+        <li>📶 <strong>راوتر واي فاي (USB):</strong> 10+ ساعات وقت قطع الكهربا.</li>
     </ul>
 </div>
 
 <div class="buyer-warning">
     <h3 class="font-bold mb-2 text-red-700">⚠️ تحذير للمشتري:</h3>
-    <p class="text-gray-700">متستخدمش كابل 5 واط مع باور بانك 45 واط+ — الكابل بيختنق عند 15 واط وبيسخن. استخدم كابل 100 واط زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">أنكر A8050</a> عشان تفتح سرعة 45 واط الكاملة بأمان.</p>
+    <p class="text-gray-700">السوق مليان باور بانكات 20,000 مجهولة الاسم بسعة وهمية ومن غير أي شهادات. اتأكد إن كود الموديل <strong>A1681</strong> مطبوع على العلبة قبل ما تدفع. ولو هتشحن جهاز تالت من منفذ USB-A، استخدم كابل محترم زي <a href="/anker/cables/anker-a8050-usb-c-cable" class="text-blue-600 hover:underline">أنكر A8050</a> — الكابل الرخيص بيخنق الـ 22.5 واط.</p>
 </div>
 `,
-                features: ["⚡ 45 واط PD — يشحن لابتوبات", "🔋 20,000 مللي أمبير (72Wh)", "💻 متوافق مع ماك بوك اير", "📊 شاشة ذكية", "🛡️ ActiveShield 3.0", "✈️ مسموح بالطائرة (72Wh)", "🔌 منفذين", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
-                metaTitle: "باور بانك انكر زولو 20000 الأصلي ⚡ خصم 12% | 45 واط لابتوب",
-                metaDesc: "اشتري انكر زولو A1681 بقوة 45 واط PD في مصر. يشحن ماك بوك اير + ايفون في نفس الوقت. 20000 مللي أمبير. ✓ ضمان 18 شهر ✓ توصيل سريع.",
+                features: ["🔌 كابل USB-C مدمج (30 واط)", "🔌 كابل لايتننج مدمج (27 واط)", "🔋 20,000 مللي أمبير (74Wh)", "📱 يشحن 3 أجهزة في نفس الوقت", "📊 شاشة رقمية ذكية", "🛡️ حماية ActiveShield", "✈️ مسموح بالطائرة (74Wh)", "💡 وضع الشحن الدقيق", "🏆 ضمان 18 شهر"],
+                metaTitle: "باور بانك انكر زولو 20000 الأصلي 🔌 كابلات مدمجة | خصم 12%",
+                metaDesc: "اشتري انكر زولو A1681 في مصر. كابلين مدمجين USB-C (30 واط) + لايتننج (27 واط)، 20000 مللي أمبير، شاشة رقمية، 3 أجهزة في نفس الوقت. ✓ ضمان 18 شهر ✓ توصيل سريع.",
                 faqs: [
-                    { question: "بيشحن ماك بوك اير؟", answer: "أيوه! 45 واط USB-C PD بيشحن ماك بوك اير M1/M2/M3 بالسرعة الكاملة. وتقدر تشحن لابتوب + موبايل في نفس الوقت." },
-                    { question: "إيه الفرق بينه وبين A110E (22.5 واط)؟", answer: "الـ A1681 بيطلع 45 واط مقابل 22.5 واط — يعني بيشحن لابتوبات مش بس موبايلات. نفس سعة 20 ألف بس شحن أسرع بكتير للأجهزة الكبيرة." },
-                    { question: "بيشحن في كام ساعة؟", answer: "حوالي 2.5 ساعة بشاحن 45 واط USB-C PD. أسرع بكتير من الـ A110E بسبب واط الإدخال الأعلى." },
+                    { question: "الكابلات فعلاً مدمجة؟", answer: "أيوه! كابل USB-C (حتى 30 واط) وكابل لايتننج (حتى 27 واط) مدمجين في الجسم بيتفردوا ويترجعوا. وفيه كمان منفذ USB-A بقوة 22.5 واط لجهاز تالت — يعني سيب كل الكابلات في البيت." },
+                    { question: "إيه الفرق بينه وبين A110E (22.5 واط)؟", answer: "نفس فئة الـ 20 ألف مللي أمبير، بس الـ A1681 جايب الكابلين مدمجين في جسمه + شاشة رقمية. الـ A110E اختيار الميزانية؛ الـ A1681 اختيار «مش هشيل كابل تاني في حياتي»." },
+                    { question: "بيشحن نفسه إزاي؟", answer: "من نفس كابل الـ USB-C المدمج — وصّله في أي شاحن USB-C PD وهو بيتملي. كابل واحد بيعمل كل حاجة، دخول وخروج." },
                     { question: "ينفع للراوتر وقت قطع الكهربا؟", answer: "طبعاً. 20,000 مللي أمبير بتشغل راوتر واي فاي عادي 10+ ساعات. ضرورة حقيقية وقت تخفيف الأحمال." },
-                    { question: "مسموح بيه في الطائرة؟", answer: "أيوه — 72 واط/ساعة أقل بكتير من حد TSA (100Wh). آمن لحقيبة اليد عالمياً." }
+                    { question: "مسموح بيه في الطائرة؟", answer: "أيوه — 74 واط/ساعة أقل بكتير من حد TSA (100Wh). آمن لحقيبة اليد عالمياً." }
                 ]
             }
         },
-        meta: { keywords: "أنكر zolo a1681, أنكر 45w power bank, انكر 45 واط, باور بانك لابتوب, أنكر pd power bank, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, أنكر zolo a1681 45w, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker zolo a1681 45w" },
+        meta: { keywords: "أنكر zolo a1681, باور بانك بكابل مدمج, باور بانك كابلات مدمجة, انكر 30 واط, باور بانك لايتننج مدمج, أنكر portable charger, أنكر best power bank egypt 2026, أنكر travel power bank, أنكر cod egypt power bank, شاحن متنقل انكر, افضل باور بانك انكر, سعر باور بانك انكر, أنكر zolo a1681 built-in cables, باور بانك اصلي مصر, أنكر power bank price egypt, افضل باور بانك 2026, باور بانك شحن سريع", mainTerm: "anker zolo a1681 built-in cables" },
         expertOpinion: {
-            en: "The A1681 is for freelancers who work from cafés. 45W PD charges your MacBook Air alongside your phone — no outlet hunting. Too heavy at 380g for joggers, but perfect for bag carriers.'t guarantee outlet access, this is the productivity insurance policy. Best 20K laptop-charging power bank under 2500 EGP.",
-            ar: "A1681 للفريلانسرز اللي بيشتغلوا من الكافيهات. 45 واط PD بيشحن الماك بوك مع الموبايل — من غير ما تدور على بريزة. تقيل شوية (380 جم) للجري، لكن مثالي لأصحاب الشنط."
+            en: "The A1681 is for anyone tired of the cable circus. Both cables live inside the body — USB-C at 30W, Lightning at 27W — so there's nothing to forget at home or leave behind at the café, and the 22.5W USB-A port makes it three devices at once from one 20,000mAh tank. At ~362g it's not for joggers, but for bag carriers it's the most convenient 20K under 2,500 EGP.",
+            ar: "A1681 لأي حد زهق من سيرك الكابلات. الكابلين عايشين جوه الجسم — USB-C بقوة 30 واط ولايتننج بقوة 27 واط — يعني مفيش حاجة تتنسي في البيت أو تتساب على القهوة، ومنفذ USB-A بقوة 22.5 واط بيخليها 3 أجهزة في نفس الوقت من تانك 20,000 مللي أمبير واحد. تقيل شوية (~362 جم) للجري، لكن لأصحاب الشنط ده أريح باور بانك 20 ألف تحت 2500 جنيه."
         }
     };
