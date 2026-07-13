@@ -89,7 +89,8 @@ export const anker_cables_content: CategoryContent = {
                     products: [
                         { name: 'كابل انكر 310 USB-C لايتننج', price: 730, badge: 'جديد' },
                         { name: 'كابل انكر زولو USB-C مضفر', price: 790, badge: 'جديد' },
-                        { name: 'Anker PowerLine Select+ (Braided)', price: 508, badge: 'الأقوى' },
+                        { name: 'كابل انكر A8050 مضفر USB-C', price: 570, badge: '⭐ الأكثر طلباً' },
+                        { name: 'كابل انكر SureStrong لايتننج', price: 599, badge: 'متين للايفون' },
                         { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'شحن سريع' },
                         { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'اقتصادي' },
                     ]
@@ -132,7 +133,8 @@ Absolutely. Our USB-C to Lightning and USB-C to USB-C cables fully support PD pr
                     products: [
                         { name: 'Anker 310 USB-C to Lightning', price: 730, badge: 'New' },
                         { name: 'Anker Zolo USB-C Braided Cable', price: 790, badge: 'New' },
-                        { name: 'Anker PowerLine Select+ (Braided)', price: 508, badge: 'Durable' },
+                        { name: 'Anker A8050 Braided USB-C', price: 570, badge: '⭐ Most Requested' },
+                        { name: 'Anker SureStrong USB-C to Lightning', price: 599, badge: 'iPhone Tough' },
                         { name: 'Anker PowerLine II (USB-C to Lightning)', price: 630, badge: 'Fast Charge' },
                         { name: 'Anker 322 Cable (USB-C to USB-C)', price: 590, badge: 'Value' },
                     ]

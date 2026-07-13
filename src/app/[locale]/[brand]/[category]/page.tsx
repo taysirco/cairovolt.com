@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { categoryContent } from '@/data/category-content';
 import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
+import { ankerBestSellers, soundcoreBestSellers } from '@/components/products/BestSellingProducts';
 
 // ISR: On-demand revalidation only (via /api/indexing webhook)
 // Closed param space (categoryContent keys) → real 404 for unknown categories
@@ -111,7 +112,21 @@ export default async function DynamicCategoryPage({ params }: Props) {
 
     // Get static products server-side for immediate availability
     // This prevents "empty" pages if client-side fetching fails
-    const staticProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
+    const categoryProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
+
+    // Default order = demand order: curated best sellers first (same ranking
+    // the brand hubs use), then the rest in catalog order. This drives both
+    // the visible grid AND the ItemList schema positions.
+    const bestSellerRank = new Map(
+        [...ankerBestSellers, ...soundcoreBestSellers].map((slug, idx) => [slug, idx]),
+    );
+    const staticProducts = [...categoryProducts].sort((a, b) => {
+        const ra = bestSellerRank.get(a.slug) ?? Infinity;
+        const rb = bestSellerRank.get(b.slug) ?? Infinity;
+        if (ra !== rb) return ra - rb;
+        if (a.featured !== b.featured) return a.featured ? -1 : 1;
+        return 0;
+    });
 
     // Map to the interface expected by CategoryTemplate
     const initialProducts = staticProducts.map(p => ({

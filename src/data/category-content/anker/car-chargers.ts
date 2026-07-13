@@ -85,8 +85,8 @@ export const anker_car_chargers_content: CategoryContent = {
                     products: [
                         { name: 'شاحن سيارة انكر مغناطيسي لاسلكي', price: 1200, badge: '🆕 MagSafe' },
                         { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD سريع' },
-                        { name: 'Anker 323 Car Charger (52W)', price: 950, badge: 'الأقوى' },
-                        { name: 'Anker Mini Alloys', price: 950, badge: 'معدني' },
+                        { name: 'شاحن سيارة انكر 35W منفذين (A2732)', price: 550, badge: 'قيمة ممتازة' },
+                        { name: 'شاحن سيارة انكر 30W USB-C (A2741)', price: 530, badge: 'اقتصادي' },
                     ]
                 },
                 en: {
@@ -123,8 +123,8 @@ No. Anker chargers draw negligible power when the car is off, ensuring your car 
                     products: [
                         { name: 'Anker Magnetic Wireless Car Charger', price: 1200, badge: '🆕 MagSafe' },
                         { name: 'Anker PowerDrive Speed+ 2', price: 950, badge: 'PD Fast' },
-                        { name: 'Anker 323 Car Charger (52W)', price: 950, badge: 'Powerful' },
-                        { name: 'Anker Mini Alloys', price: 950, badge: 'Metallic' },
+                        { name: 'Anker 35W Dual-Port Car Charger (A2732)', price: 550, badge: 'Great Value' },
+                        { name: 'Anker 30W USB-C Car Charger (A2741)', price: 530, badge: 'Budget' },
                     ]
                 }
             }

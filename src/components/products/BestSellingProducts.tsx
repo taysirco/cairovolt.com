@@ -19,7 +19,7 @@ interface BestSellingProductsProps {
  * most-requested charger, Zolo 30W / Smart Display / Prime 67W are the risers,
  * the three cables are daily movers, MagGo owns car charging, Prime 25K flagship.
  */
-const ankerBestSellers: string[] = [
+export const ankerBestSellers: string[] = [
     // Power Banks — highest volume
     'anker-powercore-10000',
     'anker-zolo-a110d-10000',
@@ -44,12 +44,13 @@ const ankerBestSellers: string[] = [
  * Curated list of top-selling Soundcore products (Anker's audio sub-brand).
  * Mix of earbuds + speakers — driven by R50i, R50i NC, Liberty family.
  */
-const soundcoreBestSellers: string[] = [
+export const soundcoreBestSellers: string[] = [
     // Earbuds — top sellers
     'anker-soundcore-r50i',
     'anker-soundcore-r50i-nc',
     'anker-soundcore-life-p2i',
     'anker-soundcore-k20i',
+    'soundcore-a25i-earbuds',
     'soundcore-p20i-earbuds',
     'soundcore-liberty-4-nc',
     'soundcore-liberty-5',

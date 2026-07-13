@@ -126,7 +126,9 @@ export const anker_power_banks_content: CategoryContent = {
                         { name: 'باور بانك انكر برايم فيوجن 65W', price: 3200, badge: '🆕 Hybrid' },
                         { name: 'Anker PowerCore 20000mAh (iPhone 17 Ready)', price: 1550, badge: 'الأكثر طلباً' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'حجم صغير' },
-                        { name: 'Anker Prime 27650mAh (250W)', price: 2300, badge: 'لأجهزة M5' },
+                        { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'سعة عملاقة' },
+                        { name: 'باور بانك انكر زولو 20,000 بكابل مدمج (A110E)', price: 1730, badge: '⭐ الأكثر مبيعاً' },
+                        { name: 'باور بانك انكر زولو 10,000 بكابل مدمج (A110D)', price: 1270, badge: 'خفيف للجيب' },
                         { name: 'Anker 737 Power Bank', price: 4999, badge: 'Premium' },
                     ]
                 },
@@ -180,7 +182,9 @@ export const anker_power_banks_content: CategoryContent = {
                         { name: 'Anker Prime Fusion 65W Power Bank', price: 3200, badge: '🆕 Hybrid' },
                         { name: 'Anker PowerCore 20000mAh (iPhone 17)', price: 1550, badge: 'Best Seller' },
                         { name: 'Anker Nano 10000mAh', price: 1300, badge: 'Compact' },
-                        { name: 'Anker Prime 27650mAh (250W)', price: 2300, badge: 'For M5 Chips' },
+                        { name: 'Anker PowerCore 26800mAh', price: 2300, badge: 'Huge Capacity' },
+                        { name: 'Anker Zolo 20,000 Built-in Cable (A110E)', price: 1730, badge: '⭐ Best Seller' },
+                        { name: 'Anker Zolo 10,000 Built-in Cable (A110D)', price: 1270, badge: 'Pocket-size' },
                         { name: 'Anker 737 Power Bank', price: 4999, badge: 'Flagship' },
                     ]
                 }
