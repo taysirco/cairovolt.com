@@ -181,8 +181,11 @@ export default async function SoundcoreHubPage({ params }: Props) {
                 }}
             />
 
-            {/* ─── Hero ─── */}
-            <section className="relative overflow-hidden py-20 md:py-32">
+            {/* ─── Hero — compact masthead. The long description, QuickAnswer
+                (AEO) box and trust chips are RELOCATED below the products:
+                identical server-rendered HTML, so Google reads them unchanged,
+                while a purchase-intent visitor meets products in screen one. ─── */}
+            <section className="relative overflow-hidden py-8 md:py-14">
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-600 via-red-600 to-pink-700 opacity-95"></div>
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-15"></div>
 
@@ -190,116 +193,52 @@ export default async function SoundcoreHubPage({ params }: Props) {
                     {/* Lineage badge — clarifies Anker parentage */}
                     <Link
                         href={getHref('/anker')}
-                        className="inline-flex items-center gap-2 px-4 py-1.5 mb-6 bg-black/30 backdrop-blur-md border border-white/20 rounded-full text-white/90 text-xs md:text-sm font-medium hover:bg-black/40 transition-colors"
+                        className="inline-flex items-center gap-2 px-4 py-1.5 mb-4 bg-black/30 backdrop-blur-md border border-white/20 rounded-full text-white/90 text-xs md:text-sm font-medium hover:bg-black/40 transition-colors"
                     >
                         <SvgIcon name="link" className="w-3.5 h-3.5" />
                         {isRTL ? 'علامة فرعية من Anker — اعرف الشركة الأم' : 'A sub-brand of Anker — learn about the parent company'}
                         <span>{isRTL ? '←' : '→'}</span>
                     </Link>
 
-                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 bg-white/15 backdrop-blur-md border border-white/30 rounded-full shadow-2xl">
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-full shadow-2xl">
                         <span className="w-2 h-2 rounded-full bg-green-300 animate-pulse"></span>
-                        <span className="text-white text-sm md:text-base font-bold tracking-wide">
+                        <span className="text-white text-xs md:text-sm font-bold tracking-wide">
                             {isRTL ? data.hero.badge.ar : data.hero.badge.en}
                         </span>
                     </div>
 
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/70 mb-4 tracking-tight drop-shadow-sm leading-tight max-w-5xl mx-auto">
+                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/70 mb-3 tracking-tight drop-shadow-sm leading-tight max-w-4xl mx-auto">
                         {isRTL
                             ? 'ساوند كور (Soundcore) في مصر — العلامة الصوتية الفرعية من Anker'
                             : 'Soundcore by Anker in Egypt — The Official Audio Sub-Brand'}
                     </h1>
 
-                    <p className="text-2xl md:text-3xl font-light text-white/90 italic mb-6">
+                    <p className="text-lg md:text-2xl font-light text-white/90 italic mb-5">
                         {isRTL ? data.hero.subtitle.ar : data.hero.subtitle.en}
                     </p>
 
-                    <p className="text-base md:text-lg font-light mb-10 max-w-3xl mx-auto leading-relaxed text-orange-50">
-                        {isRTL ? data.hero.description.ar : data.hero.description.en}
-                    </p>
-
-                    <div className="max-w-2xl mx-auto mb-8">
-                        <QuickAnswerBox answer={quickAnswer} locale={locale} variant="subtle" />
-                    </div>
-
-                    <div className="flex flex-wrap justify-center gap-3">
-                        {data.trustBadges.slice(0, 4).map((badge, idx) => (
-                            <div key={idx} className="flex items-center gap-2 px-5 py-2.5 bg-black/25 backdrop-blur-sm rounded-xl border border-white/15 text-white/95 text-sm md:text-base font-medium">
-                                <span className="text-green-300">✓</span>
-                                {isRTL ? badge.title.ar : badge.title.en}
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* ─── TWO CATEGORY CARDS (the heart of the hub) ─── */}
-            <section className="container mx-auto px-4 -mt-12 relative z-20">
-                <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-6xl mx-auto">
-                    {data.categories.map((cat, idx) => (
-                        <Link
-                            key={cat.href}
-                            href={getHref(cat.href)}
-                            className={`group relative p-8 md:p-10 rounded-3xl bg-white dark:bg-gray-900 shadow-2xl hover:shadow-orange-200/40 dark:hover:shadow-orange-900/30 transition-all duration-300 hover:-translate-y-2 border-2 border-transparent ${
-                                idx === 0
-                                    ? 'hover:border-orange-400'
-                                    : 'hover:border-pink-400'
-                            }`}
+                    {/* Express lane: straight to ranked best sellers */}
+                    <div className="flex flex-wrap items-center justify-center gap-3">
+                        <a
+                            href="#best-sellers"
+                            className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm md:text-base font-black text-gray-900 shadow-2xl transition hover:-translate-y-0.5 hover:shadow-xl"
                         >
-                            <span className={`absolute top-6 ${isRTL ? 'right-6' : 'left-6'} px-3 py-1 text-xs font-bold rounded-full shadow-md text-white ${
-                                idx === 0 ? 'bg-gradient-to-r from-orange-500 to-orange-600' : 'bg-gradient-to-r from-pink-500 to-red-500'
-                            }`}>
-                                {isRTL ? cat.badge.ar : cat.badge.en}
-                            </span>
-
-                            <div className={`text-5xl md:text-7xl mb-6 transform group-hover:scale-110 transition-transform ${
-                                idx === 0 ? 'text-orange-500' : 'text-pink-500'
-                            }`}>
-                                <SvgIcon name={cat.icon} className="w-14 h-14 md:w-20 md:h-20" />
-                            </div>
-
-                            <h2 className={`text-2xl md:text-3xl font-black mb-3 dark:text-white ${
-                                idx === 0 ? 'group-hover:text-orange-600' : 'group-hover:text-pink-600'
-                            }`}>
-                                {isRTL ? cat.title.ar : cat.title.en}
-                            </h2>
-                            <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-5">
-                                {isRTL ? cat.description.ar : cat.description.en}
-                            </p>
-
-                            <div className="flex flex-wrap gap-2 mb-5">
-                                {cat.keyModels.slice(0, 5).map(model => (
-                                    <span key={model} className="px-2.5 py-1 text-xs font-semibold bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-md">
-                                        {model}
-                                    </span>
-                                ))}
-                            </div>
-
-                            <div className="flex items-center justify-between pt-5 border-t border-gray-100 dark:border-gray-800">
-                                <div className="text-sm">
-                                    <div className="font-bold text-gray-900 dark:text-white">
-                                        {isRTL ? cat.priceRange.ar : cat.priceRange.en}
-                                    </div>
-                                    <div className="text-xs text-gray-500 mt-0.5">
-                                        {isRTL ? cat.searchVolume.ar : cat.searchVolume.en}
-                                    </div>
-                                </div>
-                                <span className={`w-10 h-10 rounded-full flex items-center justify-center text-white text-lg shadow-md ${
-                                    idx === 0 ? 'bg-orange-500' : 'bg-pink-500'
-                                }`}>
-                                    {isRTL ? '←' : '→'}
-                                </span>
-                            </div>
-                        </Link>
-                    ))}
+                            <SvgIcon name="fire" className="w-5 h-5 text-orange-600" />
+                            {isRTL ? 'تسوّق الأكثر مبيعًا الآن' : 'Shop the best sellers now'}
+                            <span className="transition-transform group-hover:translate-y-0.5">↓</span>
+                        </a>
+                        <span className="text-xs md:text-sm text-white/85">
+                            {isRTL ? 'أصلي 100% · ادفع عند الاستلام' : '100% original · Cash on delivery'}
+                        </span>
+                    </div>
                 </div>
             </section>
 
             {/* ─── BEST SELLERS (mixed audio + speakers) ─── */}
             {products.length > 0 && (
-                <section className="py-16 md:py-20">
+                <section id="best-sellers" className="scroll-mt-20 py-10 md:py-16">
                     <div className="container mx-auto px-4">
-                        <div className="text-center mb-10">
+                        <div className="text-center mb-8">
                             <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 bg-gradient-to-r from-orange-100 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-full border border-orange-200 dark:border-orange-800/50">
                                 <SvgIcon name="fire" className="w-4 h-4 text-orange-600 dark:text-orange-400" />
                                 <span className="text-sm font-bold text-orange-700 dark:text-orange-300">
@@ -369,6 +308,79 @@ export default async function SoundcoreHubPage({ params }: Props) {
                     </div>
                 </section>
             )}
+
+            {/* ─── TWO CATEGORY CARDS (the heart of the hub) ─── */}
+            <section className="container mx-auto px-4 pt-2 pb-4 relative z-20">
+                <div className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-6xl mx-auto">
+                    {data.categories.map((cat, idx) => (
+                        <Link
+                            key={cat.href}
+                            href={getHref(cat.href)}
+                            className={`group relative p-8 md:p-10 rounded-3xl bg-white dark:bg-gray-900 shadow-2xl hover:shadow-orange-200/40 dark:hover:shadow-orange-900/30 transition-all duration-300 hover:-translate-y-2 border-2 border-transparent ${
+                                idx === 0
+                                    ? 'hover:border-orange-400'
+                                    : 'hover:border-pink-400'
+                            }`}
+                        >
+                            <span className={`absolute top-6 ${isRTL ? 'right-6' : 'left-6'} px-3 py-1 text-xs font-bold rounded-full shadow-md text-white ${
+                                idx === 0 ? 'bg-gradient-to-r from-orange-500 to-orange-600' : 'bg-gradient-to-r from-pink-500 to-red-500'
+                            }`}>
+                                {isRTL ? cat.badge.ar : cat.badge.en}
+                            </span>
+
+                            <div className={`text-5xl md:text-7xl mb-6 transform group-hover:scale-110 transition-transform ${
+                                idx === 0 ? 'text-orange-500' : 'text-pink-500'
+                            }`}>
+                                <SvgIcon name={cat.icon} className="w-14 h-14 md:w-20 md:h-20" />
+                            </div>
+
+                            <h2 className={`text-2xl md:text-3xl font-black mb-3 dark:text-white ${
+                                idx === 0 ? 'group-hover:text-orange-600' : 'group-hover:text-pink-600'
+                            }`}>
+                                {isRTL ? cat.title.ar : cat.title.en}
+                            </h2>
+                            <p className="text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-5">
+                                {isRTL ? cat.description.ar : cat.description.en}
+                            </p>
+
+                            <div className="flex flex-wrap gap-2 mb-5">
+                                {cat.keyModels.slice(0, 5).map(model => (
+                                    <span key={model} className="px-2.5 py-1 text-xs font-semibold bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-md">
+                                        {model}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex items-center justify-between pt-5 border-t border-gray-100 dark:border-gray-800">
+                                <div className="text-sm">
+                                    <div className="font-bold text-gray-900 dark:text-white">
+                                        {isRTL ? cat.priceRange.ar : cat.priceRange.en}
+                                    </div>
+                                    <div className="text-xs text-gray-500 mt-0.5">
+                                        {isRTL ? cat.searchVolume.ar : cat.searchVolume.en}
+                                    </div>
+                                </div>
+                                <span className={`w-10 h-10 rounded-full flex items-center justify-center text-white text-lg shadow-md ${
+                                    idx === 0 ? 'bg-orange-500' : 'bg-pink-500'
+                                }`}>
+                                    {isRTL ? '←' : '→'}
+                                </span>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+            </section>
+
+            {/* ─── Authority block — RELOCATED from the hero so products come
+                first. Same server-rendered copy for Google (AEO). ─── */}
+            <section className="container mx-auto px-4 pb-2">
+                <p className="text-base md:text-lg font-light mb-6 max-w-3xl mx-auto leading-relaxed text-gray-700 dark:text-gray-300 text-center">
+                    {isRTL ? data.hero.description.ar : data.hero.description.en}
+                </p>
+                <div className="max-w-2xl mx-auto mb-4">
+                    <QuickAnswerBox answer={quickAnswer} locale={locale} variant="subtle" />
+                </div>
+            </section>
 
             {/* ─── Trust Badges Bar ─── */}
             <section className="bg-gradient-to-r from-orange-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 py-6 border-y border-gray-100 dark:border-gray-700">
