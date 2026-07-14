@@ -1,0 +1,54 @@
+// Reviews for: joyroom-car-phone-mount
+import type { ProductReview } from './_shared';
+
+export const joyroom_car_phone_mount_reviews: ProductReview[] = [
+        {
+            author: 'Essam Fouad', rating: 5, location: 'القاهرة', datePublished: '2025-12-07',
+            reviewBody: { en: 'Magnetic mount is so convenient. One touch - snap on, snap off. No fumbling.', ar: 'الحامل المغناطيسي مريح جداً. لمسة واحدة - يركب، يفك. بدون عناء.' },
+            pros: { en: ['Magnetic convenience', 'One touch', 'No fumbling'], ar: ['راحة مغناطيسية', 'لمسة واحدة', 'بدون عناء'] },
+            cons: { en: ['Vibrates on rough roads'], ar: ['بيهتز على الطرق الوعرة'] }
+        },
+        {
+            author: 'Magdy Hassan', rating: 5, location: 'الجيزة', datePublished: '2025-12-02',
+            reviewBody: { en: 'Strong magnet holds iPhone 17 Pro Max even on bumpy roads. Cairo tested!', ar: 'مغناطيس قوي يمسك ايفون 17 برو ماكس حتى على الطرق الوعرة. مختبر في القاهرة!' },
+            pros: { en: ['Strong magnet', 'Pro Max holds', 'Cairo tested'], ar: ['مغناطيس قوي', 'يمسك برو ماكس', 'مختبر في القاهرة'] }
+        },
+        {
+            author: 'Osama Kamel', rating: 5, location: 'الإسكندرية', datePublished: '2025-10-11',
+            reviewBody: { en: 'Dashboard gel pad is reusable. Moved it 3 times - still sticks perfectly.', ar: 'وسادة جل التابلوه قابلة لإعادة الاستخدام. نقلتها 3 مرات - لا تزال تلتصق تماماً.' },
+            pros: { en: ['Reusable gel pad', 'Move friendly', '3x tested'], ar: ['وسادة جل قابلة للإعادة', 'صديق للنقل', 'مختبر 3 مرات'] }
+        },
+        {
+            author: 'Ehab Refaat', rating: 4, location: 'المنصورة', datePublished: '2025-09-17',
+            reviewBody: { en: 'Great mount but needs metal plate on phone. Case-less users need adhesive plate.', ar: 'حامل ممتاز لكن يحتاج لوح معدني على الموبايل. المستخدمين بدون جراب يحتاجون لوح لاصق.' },
+            pros: { en: ['Strong hold', 'Easy use', 'Reliable'], ar: ['مسك قوي', 'سهل الاستخدام', 'موثوق'] },
+            cons: { en: ['Needs metal plate'], ar: ['يحتاج لوح معدني'] }
+        },
+        {
+            author: 'Hatem Samy', rating: 5, location: 'طنطا', datePublished: '2025-08-08',
+            reviewBody: { en: 'Works with MagSafe cases natively. No metal plate needed for iPhone.', ar: 'يعمل مع جرابات MagSafe مباشرة. لا حاجة للوح معدني للايفون.' },
+            pros: { en: ['MagSafe native', 'No plate needed', 'iPhone ready'], ar: ['MagSafe مباشر', 'لا حاجة للوح', 'جاهز للايفون'] },
+            cons: { en: ['Needs MagSafe case for non-iPhone'], ar: ['محتاج جراب MagSafe للأندرويد'] }
+        },
+        {
+            author: 'Akram Helmy', rating: 5, location: 'المهندسين', datePublished: '2025-07-08',
+            reviewBody: { en: 'Sleek minimalist design. Does not look cheap like other magnetic mounts.', ar: 'تصميم أنيق بسيط. لا يبدو رخيص مثل الحوامل المغناطيسية الأخرى.' },
+            pros: { en: ['Sleek design', 'Premium look', 'Not cheap'], ar: ['تصميم أنيق', 'مظهر فاخر', 'ليس رخيص'] }
+        },
+        {
+            author: 'Emad Samir', rating: 5, location: 'أسيوط', datePublished: '2025-06-27',
+            reviewBody: { en: 'The magnetic ring is strong on iPhone but barely holds my Samsung with a MagSafe case adapter. Keep losing grip when the phone vibrates.', ar: 'الحلقة المغناطيسية قوية على ايفون لكن بالكاد تمسك سامسونجي مع محول MagSafe. بيفقد المسكة لما الموبايل بيهتز.' },
+            pros: { en: ['Strong on iPhone', 'Magnetic mount'], ar: ['قوي على ايفون', 'حامل مغناطيسي'] },
+            cons: { en: ['Weak grip on Samsung'], ar: ['مسكة ضعيفة على سامسونج'] }
+        },
+        {
+            author: 'Waleed Fawzy', rating: 5, location: 'حلوان', datePublished: '2026-03-12',
+            reviewBody: { en: 'Uber driver doing 10+ hours daily in Cairo traffic — this mount has survived potholes on the Ring Road, Salah Salem bumps, and 6th October Bridge vibrations for 3 months. My iPhone 17 Pro Max never fell once. The magnetic snap-on/off saves me 5 seconds per ride.', ar: 'سواق أوبر بشتغل 10+ ساعات يومياً في زحمة القاهرة — الحامل ده استحمل حفر الدائري ومطبات صلاح سالم واهتزازات كوبري 6 أكتوبر لمدة 3 شهور. ايفون 17 برو ماكس ما وقعش مرة. المغناطيس بيوفّر 5 ثواني كل رحلة.' },
+            pros: { en: ['Cairo potholes tested 3 months', 'Pro Max never fell once', 'Magnetic saves time per ride'], ar: ['مختبر في حفر القاهرة 3 شهور', 'برو ماكس ما وقعش مرة', 'المغناطيس بيوفّر وقت كل رحلة'] }
+        },
+        {
+            author: 'Rana Mahmoud', rating: 5, location: 'مصر الجديدة', datePublished: '2026-05-02',
+            reviewBody: { en: 'Doctor with a 45-minute commute — I use Google Maps and take calls hands-free daily. The mount angle is perfect for seeing the screen without taking eyes off the road. MagSafe works natively with my iPhone case. The premium look matches my car interior.', ar: 'دكتورة بكومنيوت 45 دقيقة — بستخدم Google Maps وبرد على مكالمات هاندز فري يومياً. زاوية الحامل مثالية عشان أشوف الشاشة من غير ما أشيل عيني عن الطريق. MagSafe بيشتغل مباشرة مع جراب ايفوني. الشكل البريميوم بيتناسب مع عربيتي.' },
+            pros: { en: ['Perfect angle for safe driving', 'MagSafe native with iPhone case', 'Premium look matches car interior'], ar: ['زاوية مثالية للسواقة الآمنة', 'MagSafe مباشر مع جراب ايفون', 'شكل بريميوم بيتناسب مع العربية'] }
+        }
+    ];

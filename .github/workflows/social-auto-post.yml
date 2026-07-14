@@ -1,0 +1,98 @@
+name: 🚀 Auto-Post New Blog Articles to Social Media
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/data/blog/*.ts'         # يشتغل فقط عند إضافة/تعديل مقال
+      - 'src/data/blog-articles.ts'  # أو تحديث الـ barrel index
+  workflow_dispatch:                  # تشغيل يدوي من لوحة GitHub
+    inputs:
+      force_slug:
+        description: 'Slug محدد للنشر (اتركه فارغاً للتلقائي)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run - بدون نشر فعلي'
+        type: boolean
+        default: false
+
+jobs:
+  detect-and-post:
+    name: Detect New Articles & Post to Social Media
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # نحتاج الـ commit السابق للمقارنة
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📦 Install Dependencies
+        run: npm ci --ignore-scripts
+
+      - name: 🔍 Detect New Blog Articles
+        id: detect
+        run: node scripts/detect-new-articles.mjs
+        env:
+          FORCE_SLUG: ${{ github.event.inputs.force_slug }}
+
+      - name: 📢 Post to Facebook & Instagram
+        if: steps.detect.outputs.has_new_article == 'true'
+        run: node scripts/post-to-social.mjs
+        env:
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          ARTICLE_SLUG: ${{ steps.detect.outputs.article_slug }}
+          ARTICLE_TITLE_AR: ${{ steps.detect.outputs.article_title_ar }}
+          ARTICLE_EXCERPT_AR: ${{ steps.detect.outputs.article_excerpt_ar }}
+          ARTICLE_COVER: ${{ steps.detect.outputs.article_cover }}
+          ARTICLE_CATEGORY: ${{ steps.detect.outputs.article_category }}
+          ARTICLE_READING_TIME: ${{ steps.detect.outputs.article_reading_time }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+
+      - name: ✅ Summary
+        if: always()
+        run: |
+          echo "## 📊 نتيجة النشر" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.detect.outputs.has_new_article }}" == "true" ]; then
+            echo "✅ **تم اكتشاف مقال جديد:** \`${{ steps.detect.outputs.article_slug }}\`" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**العنوان:** ${{ steps.detect.outputs.article_title_ar }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ **لا يوجد مقالات جديدة** في هذا الـ push" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # تنبيه تجديد الـ Token قبل انتهائه
+  check-token-expiry:
+    name: 🔑 Check Token Expiry (Monthly)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Check Token Age
+        run: |
+          node -e "
+          const created = process.env.FB_TOKEN_CREATED_DATE;
+          if (!created) { console.log('⚠️ FB_TOKEN_CREATED_DATE غير محددة'); process.exit(0); }
+          const days = Math.floor((Date.now() - new Date(created).getTime()) / 86400000);
+          console.log('🗓️ Token عمره:', days, 'يوم');
+          if (days > 53) {
+            console.log('⚠️ تحذير: Token سينتهي خلال أقل من 7 أيام! جدد من Graph API Explorer');
+            process.exit(1);
+          } else {
+            console.log('✅ Token سليم - باقي:', 60 - days, 'يوم');
+          }
+          "
+        env:
+          FB_TOKEN_CREATED_DATE: ${{ secrets.FB_TOKEN_CREATED_DATE }}
+        continue-on-error: true

@@ -1,0 +1,27 @@
+name: Reveal scheduled blog article (daily)
+
+# Drip-publishing: each day, notify search engines (IndexNow) about any blog
+# article whose publishDate fell in the last ~26h (just went live). The article
+# itself reveals on-site automatically via hourly ISR + the publishDate gate;
+# this only accelerates same-day indexing. Self-contained — no secret required
+# (IndexNow uses the public key served at /<key>.txt).
+
+on:
+  schedule:
+    # 08:00 UTC = 10:00 Cairo, daily
+    - cron: '0 8 * * *'
+  workflow_dispatch: {}   # allow manual run from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  reveal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Reveal today's scheduled article (IndexNow ping)
+        run: node scripts/reveal-blog.mjs

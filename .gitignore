@@ -1,0 +1,154 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+/src/generated/prisma
+
+# Firebase Functions
+functions/node_modules
+functions/*.json
+!functions/package.json
+functions/.secret.*
+
+# Service account keys (NEVER commit these)
+*-key.json
+*-keys.json
+cairovolt-*.json
+
+# Firebase cache & debug
+.firebase/
+firebase-debug.log
+
+# ================================================
+# Plans, references & non-essential files
+# ================================================
+
+# Strategy docs & content blueprints
+cairovolt_content_blueprint.md
+cairovolt-blog.md
+cairovolt-blog-topics-2026.md
+voice.md
+new_product_guide.md
+keyword_analysis_report.md
+
+# Content plans & roadmaps (local-only — never push)
+cairovolt-blog-roadmap.md
+cairovolt-image-prompts.md
+cairovolt-social-roadmap.md
+cairovolt-social-video-prompts.md
+content-laws.md
+SOUNDCORE-STRATEGY.md
+SOCIAL_AUTOPOST_SETUP.md
+
+# Keyword & anchor-text analysis (Excel)
+CairoVolt-Anchor-Text-Strategy-FINAL.xlsx
+cairovolt-keywords.xlsx
+
+# Invoices & business documents
+invoice_*.html
+invoice_*.pdf
+
+# Wholesale catalogs & dashboards (standalone HTML) — local business docs, keep out of repo
+anker_wholesale_catalog.html
+wholesale-dashboard.html
+# Exception: the in-app staff catalog tool IS published (served at /wholesale-dashboard.html, noindex)
+!public/wholesale-dashboard.html
+
+# Chrome extension (separate project)
+cairovolt-authenticator/
+cairovolt-authenticator.zip
+
+# Seed data & utility/audit scripts (root-level only)
+/data/
+# Ignore /scripts/ CONTENTS (not the dir itself) so the !exceptions below can
+# re-include specific files — `/scripts/` would exclude the dir and break negation.
+/scripts/*
+# Exceptions: pipeline scripts that MUST be tracked — build, CI, and npm
+# commands reference these, so a fresh clone / FAH build / GitHub Action needs
+# them present. Everything else under /scripts/ stays local one-off tooling.
+!/scripts/generate-blog-index.mjs
+!/scripts/reveal-blog.mjs
+!/scripts/detect-new-articles.mjs
+!/scripts/post-to-social.mjs
+!/scripts/audit-blog.js
+!/scripts/index-blog.js
+!/scripts/blog-keywords.mjs
+!/scripts/generate-blog-cover.mjs
+!/scripts/schedule-blog.mjs
+!/scripts/next-publish-date.mjs
+!/scripts/optimize-blog-covers.mjs
+!/scripts/prepare-category-assets.mjs
+
+# Root-level utility scripts (local tools)
+/convert_all.py
+/generate-existing-blog-images.js
+/map_images.js
+/process_real_images.js
+/update_cover_images.js
+
+# Internal strategy & analysis
+analysis_data/
+update-products-pages
+product-page-new
+
+# Analysis datasets & keyword research CSVs
+public/datasets/
+
+# C2PA manifests (generated dynamically in src/lib/media-verification.ts)
+.c2pa-manifests/
+!.c2pa-manifests/
+.c2pa-manifests/*
+!.c2pa-manifests/category-cards/
+!.c2pa-manifests/category-cards/**
+
+# IDE & editor settings
+.vscode/
+
+# Genkit traces & caches
+.genkit/
+
+# Office/Excel temporary files
+~$*
+
+# C2PA signing keys (local only, never commit)
+.c2pa-signing/
+# Original product image sources backup (local only)
+.image-source-backup/

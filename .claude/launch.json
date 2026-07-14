@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "cd '/Users/ahmedsalem/Desktop/all my projects/CairoVolt.com' && npm run dev"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "prod-preview",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "cd '/Users/ahmedsalem/Desktop/all my projects/CairoVolt.com' && npm run start"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
+
+/**
+ * PromoBanner — ORIGINAL10 Display Banner
+ * 
+ * Shows a gold promo banner at the top of the main site
+ * ONLY when the visitor has completed the C2PA verification
+ * (detected via localStorage flag or utm_campaign=c2pa).
+ * 
+ * The ORIGINAL10 code gives 10% discount — validated in checkout page + server-side in orders API.
+ */
+export default function PromoBanner() {
+    const pathname = usePathname();
+    const isEn = pathname === '/en' || pathname.startsWith('/en/');
+    const [visible, setVisible] = useState(false);
+    const [countdown, setCountdown] = useState('');
+
+    useEffect(() => {
+        let showTimer: number | undefined;
+        // Check if user came from QR / verify flow
+        const params = new URLSearchParams(window.location.search);
+        const isFromC2PA = params.get('utm_campaign') === 'c2pa';
+
+        let fromVerify = false;
+        try {
+            fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
+        } catch { /* private browsing */ }
+
+        if (isFromC2PA || fromVerify) {
+            showTimer = window.setTimeout(() => setVisible(true), 0);
+
+            // Store visit for future detection
+            try {
+                localStorage.setItem('cv_verify_completed', 'true');
+            } catch { /* private browsing */ }
+
+            // GA4 event — return visit from verify flow
+            const analyticsWindow = window as Window & {
+                gtag?: (command: string, eventName: string, params: Record<string, string>) => void;
+            };
+            if (typeof analyticsWindow.gtag === 'function') {
+                analyticsWindow.gtag('event', 'promo_banner_shown', {
+                    source: isFromC2PA ? 'utm_c2pa' : 'localStorage',
+                    promo_code: 'ORIGINAL10',
+                });
+            }
+        }
+
+        return () => {
+            if (showTimer !== undefined) window.clearTimeout(showTimer);
+        };
+    }, []);
+
+    // Countdown timer effect
+    useEffect(() => {
+        if (!visible) return;
+
+        // Set initial countdown end to 24h from first view
+        let endTime: number;
+        try {
+            const stored = localStorage.getItem('cv_promo_end');
+            if (stored) {
+                endTime = parseInt(stored);
+            } else {
+                endTime = Date.now() + 24 * 60 * 60 * 1000;
+                localStorage.setItem('cv_promo_end', endTime.toString());
+            }
+        } catch {
+            endTime = Date.now() + 24 * 60 * 60 * 1000;
+        }
+
+        const interval = setInterval(() => {
+            const remaining = Math.max(0, endTime - Date.now());
+            const hours = Math.floor(remaining / (1000 * 60 * 60));
+            const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
+            setCountdown(
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
+            );
+        }, 1000);
+
+        return () => clearInterval(interval);
+    }, [visible]);
+
+    if (!visible) return null;
+
+    return (
+        <div
+            className="w-full py-2.5 px-4 text-center relative overflow-hidden"
+            dir={isEn ? 'ltr' : 'rtl'}
+            style={{
+                background: 'linear-gradient(135deg, #92400e 0%, #b45309 30%, #d97706 60%, #f59e0b 100%)',
+                zIndex: 50,
+            }}
+            id="promo-banner"
+        >
+            {/* Animated shine */}
+            <div
+                className="absolute inset-0 opacity-20"
+                style={{
+                    background: 'linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%)',
+                    animation: 'promoShine 3s ease-in-out infinite',
+                }}
+            />
+
+            <p className="text-sm md:text-base font-bold text-black relative z-10 flex items-center justify-center gap-2 flex-wrap">
+                <span aria-hidden="true">✦</span>
+                <span>{isEn ? 'Exclusive code:' : 'كود الخصم الحصري:'}</span>
+                <span
+                    className="inline-block px-3 py-0.5 bg-black text-yellow-400 rounded-md font-mono text-base tracking-wider"
+                    style={{ fontFamily: "'Outfit', monospace" }}
+                >
+                    ORIGINAL10
+                </span>
+                <span>{isEn ? '— 10% off your first order' : '— خصم 10% على طلبك الأول'}</span>
+                {countdown && (
+                    <span className="text-xs bg-white/60 text-black font-bold px-2 py-0.5 rounded-full">
+                        {isEn ? `Ends in ${countdown}` : `ينتهي خلال ${countdown}`}
+                    </span>
+                )}
+            </p>
+
+            {/* Close button */}
+            <button
+                onClick={() => setVisible(false)}
+                className={`absolute top-1/2 -translate-y-1/2 text-black/70 hover:text-black text-lg font-bold ${isEn ? 'right-3' : 'left-3'}`}
+                aria-label={isEn ? 'Close' : 'إغلاق'}
+            >
+                ×
+            </button>
+
+            <style>{`
+                @keyframes promoShine {
+                    0% { transform: translateX(-100%); }
+                    100% { transform: translateX(100%); }
+                }
+            `}</style>
+        </div>
+    );
+}

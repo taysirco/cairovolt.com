@@ -1,0 +1,218 @@
+// Auto-generated barrel index — DO NOT EDIT MANUALLY
+
+export type { ProductDetail } from './details/_types';
+import type { ProductDetail } from './details/_types';
+
+import { anker_soundcore_motion_plus_detail } from './details/anker-soundcore-motion-plus';
+import { anker_soundcore_flare_2_detail } from './details/anker-soundcore-flare-2';
+import { anker_737_powerbank_detail } from './details/anker-737-powerbank';
+import { anker_622_maggo_detail } from './details/anker-622-maggo';
+import { anker_521_powerhouse_detail } from './details/anker-521-powerhouse';
+import { anker_powercore_10000_detail } from './details/anker-powercore-10000';
+import { anker_powercore_20000_detail } from './details/anker-powercore-20000';
+import { anker_powercore_26800_detail } from './details/anker-powercore-26800';
+import { anker_powerport_20w_detail } from './details/anker-powerport-20w';
+import { anker_powerport_25w_detail } from './details/anker-powerport-25w';
+import { anker_nano_45w_detail } from './details/anker-nano-45w';
+import { anker_nano_45w_smart_display_charger_detail } from './details/anker-nano-45w-smart-display-charger';
+import { anker_powerline_usb_c_lightning_detail } from './details/anker-powerline-usb-c-lightning';
+import { anker_powerline_usb_c_usb_c_detail } from './details/anker-powerline-usb-c-usb-c';
+import { anker_car_charger_dual_usb_detail } from './details/anker-car-charger-dual-usb';
+import { joyroom_power_bank_10000_detail } from './details/joyroom-power-bank-10000';
+import { joyroom_power_bank_20000_detail } from './details/joyroom-power-bank-20000';
+import { joyroom_t03s_pro_earbuds_detail } from './details/joyroom-t03s-pro-earbuds';
+import { joyroom_jr_t03_wireless_earbuds_detail } from './details/joyroom-jr-t03-wireless-earbuds';
+import { joyroom_20w_usb_c_charger_detail } from './details/joyroom-20w-usb-c-charger';
+import { joyroom_usb_c_lightning_cable_detail } from './details/joyroom-usb-c-lightning-cable';
+import { anker_soundcore_life_p2i_detail } from './details/anker-soundcore-life-p2i';
+import { joyroom_ft3_smartwatch_detail } from './details/joyroom-ft3-smartwatch';
+import { joyroom_car_mount_zs290_detail } from './details/joyroom-car-mount-zs290';
+import { joyroom_25w_fast_charger_detail } from './details/joyroom-25w-fast-charger';
+import { joyroom_30w_fast_charger_detail } from './details/joyroom-30w-fast-charger';
+import { joyroom_magnetic_power_bank_10000_detail } from './details/joyroom-magnetic-power-bank-10000';
+import { joyroom_60w_car_charger_detail } from './details/joyroom-60w-car-charger';
+import { joyroom_3_in_1_wireless_charging_station_detail } from './details/joyroom-3-in-1-wireless-charging-station';
+import { anker_usb_c_lightning_sureistrong_detail } from './details/anker-usb-c-lightning-sureistrong';
+import { joyroom_3_in_1_data_cable_detail } from './details/joyroom-3-in-1-data-cable';
+import { joyroom_30w_pd_cable_detail } from './details/joyroom-30w-pd-cable';
+import { joyroom_type_c_lightning_24mos_detail } from './details/joyroom-type-c-lightning-24mos';
+import { joyroom_type_c_lightning_36mos_detail } from './details/joyroom-type-c-lightning-36mos';
+import { joyroom_type_c_lightning_braided_detail } from './details/joyroom-type-c-lightning-braided';
+import { joyroom_type_c_to_type_c_cable_detail } from './details/joyroom-type-c-to-type-c-cable';
+import { joyroom_usb_a_lightning_1_2m_detail } from './details/joyroom-usb-a-lightning-1-2m';
+import { joyroom_usb_a_lightning_cable_detail } from './details/joyroom-usb-a-lightning-cable';
+import { joyroom_usb_a_micro_cable_detail } from './details/joyroom-usb-a-micro-cable';
+import { joyroom_usb_a_type_c_cable_detail } from './details/joyroom-usb-a-type-c-cable';
+import { joyroom_usb_c_cable_60w_detail } from './details/joyroom-usb-c-cable-60w';
+import { joyroom_car_phone_mount_detail } from './details/joyroom-car-phone-mount';
+import { joyroom_usb_a_type_c_1_2m_detail } from './details/joyroom-usb-a-type-c-1-2m';
+import { anker_zolo_a110d_10000_detail } from './details/anker-zolo-a110d-10000';
+import { anker_zolo_a110e_20000_detail } from './details/anker-zolo-a110e-20000';
+import { anker_zolo_a1681_20000_detail } from './details/anker-zolo-a1681-20000';
+import { anker_prime_a1695_25000_detail } from './details/anker-prime-a1695-25000';
+import { anker_a2732_charger_35w_detail } from './details/anker-a2732-charger-35w';
+import { anker_a2741_charger_30w_detail } from './details/anker-a2741-charger-30w';
+import { anker_a8050_usb_c_cable_detail } from './details/anker-a8050-usb-c-cable';
+import { anker_soundcore_k20i_detail } from './details/anker-soundcore-k20i';
+import { anker_soundcore_r50i_nc_detail } from './details/anker-soundcore-r50i-nc';
+import { anker_soundcore_r50i_detail } from './details/anker-soundcore-r50i';
+import { anker_a2147_gan_charger_30w_detail } from './details/anker-a2147-gan-charger-30w';
+import { soundcore_p20i_earbuds_detail } from './details/soundcore-p20i-earbuds';
+import { soundcore_p25i_earbuds_detail } from './details/soundcore-p25i-earbuds';
+import { soundcore_liberty_4_nc_detail } from './details/soundcore-liberty-4-nc';
+import { soundcore_a30i_earbuds_detail } from './details/soundcore-a30i-earbuds';
+import { soundcore_liberty_5_detail } from './details/soundcore-liberty-5';
+import { soundcore_liberty_4_pro_detail } from './details/soundcore-liberty-4-pro';
+import { soundcore_p30i_earbuds_detail } from './details/soundcore-p30i-earbuds';
+import { soundcore_life_q20_headphones_detail } from './details/soundcore-life-q20-headphones';
+import { soundcore_liberty_buds_detail } from './details/soundcore-liberty-buds';
+import { soundcore_liberty_air_2_pro_detail } from './details/soundcore-liberty-air-2-pro';
+import { soundcore_p40i_earbuds_detail } from './details/soundcore-p40i-earbuds';
+import { soundcore_p41i_earbuds_detail } from './details/soundcore-p41i-earbuds';
+import { soundcore_v20i_earbuds_detail } from './details/soundcore-v20i-earbuds';
+import { soundcore_r50i_vi_earbuds_detail } from './details/soundcore-r50i-vi-earbuds';
+import { soundcore_life_u2i_neckband_detail } from './details/soundcore-life-u2i-neckband';
+import { soundcore_c30i_earbuds_detail } from './details/soundcore-c30i-earbuds';
+import { soundcore_c40i_earbuds_detail } from './details/soundcore-c40i-earbuds';
+import { soundcore_liberty_3_pro_detail } from './details/soundcore-liberty-3-pro';
+import { soundcore_q30_headphones_detail } from './details/soundcore-q30-headphones';
+import { soundcore_q45_headphones_detail } from './details/soundcore-q45-headphones';
+import { soundcore_q11i_headphones_detail } from './details/soundcore-q11i-headphones';
+import { soundcore_q20i_headphones_detail } from './details/soundcore-q20i-headphones';
+import { soundcore_space_one_headphones_detail } from './details/soundcore-space-one-headphones';
+import { soundcore_rave_3_speaker_detail } from './details/soundcore-rave-3-speaker';
+import { soundcore_select_4_go_speaker_detail } from './details/soundcore-select-4-go-speaker';
+import { anker_pencil_stylus_detail } from './details/anker-pencil-stylus';
+import { anker_a1637_wukong_3_in_1_power_bank_detail } from './details/anker-a1637-wukong-3-in-1-power-bank';
+import { anker_310_usb_c_lightning_cable_detail } from './details/anker-310-usb-c-lightning-cable';
+import { anker_nano_45w_1c_pd_detail } from './details/anker-nano-45w-1c-pd';
+import { anker_nano_pro_45w_a2692_detail } from './details/anker-nano-pro-45w-a2692';
+import { anker_a2216_magnetic_wireless_car_charger_detail } from './details/anker-a2216-magnetic-wireless-car-charger';
+import { anker_powerport_iii_20w_a2639_detail } from './details/anker-powerport-iii-20w-a2639';
+import { anker_prime_a2688_100w_charger_detail } from './details/anker-prime-a2688-100w-charger';
+import { anker_prime_a1336_20000mah_power_bank_detail } from './details/anker-prime-a1336-20000mah-power-bank';
+import { anker_prime_a2669_67w_gan_charger_detail } from './details/anker-prime-a2669-67w-gan-charger';
+import { anker_prime_fusion_a1339_9600mah_65w_detail } from './details/anker-prime-fusion-a1339-9600mah-65w';
+import { soundcore_a25i_earbuds_detail } from './details/soundcore-a25i-earbuds';
+import { anker_zolo_30w_a2698_charger_detail } from './details/anker-zolo-30w-a2698-charger';
+import { anker_zolo_usb_c_braided_cable_detail } from './details/anker-zolo-usb-c-braided-cable';
+
+export const enhancements: Record<string, import('./details/_types').ProductDetail> = {
+    'anker-a1637-wukong-3-in-1-power-bank': anker_a1637_wukong_3_in_1_power_bank_detail,
+    'anker-310-usb-c-lightning-cable': anker_310_usb_c_lightning_cable_detail,
+    'anker-nano-45w-1c-pd': anker_nano_45w_1c_pd_detail,
+    'anker-nano-pro-45w-a2692': anker_nano_pro_45w_a2692_detail,
+    'anker-a2216-magnetic-wireless-car-charger': anker_a2216_magnetic_wireless_car_charger_detail,
+    'anker-powerport-iii-20w-a2639': anker_powerport_iii_20w_a2639_detail,
+    'anker-prime-a2688-100w-charger': anker_prime_a2688_100w_charger_detail,
+    'anker-prime-a1336-20000mah-power-bank': anker_prime_a1336_20000mah_power_bank_detail,
+    'anker-prime-a2669-67w-gan-charger': anker_prime_a2669_67w_gan_charger_detail,
+    'anker-prime-fusion-a1339-9600mah-65w': anker_prime_fusion_a1339_9600mah_65w_detail,
+    'soundcore-a25i-earbuds': soundcore_a25i_earbuds_detail,
+    'anker-zolo-30w-a2698-charger': anker_zolo_30w_a2698_charger_detail,
+    'anker-zolo-usb-c-braided-cable': anker_zolo_usb_c_braided_cable_detail,
+    'anker-soundcore-motion-plus': anker_soundcore_motion_plus_detail,
+    'anker-soundcore-flare-2': anker_soundcore_flare_2_detail,
+    'anker-737-powerbank': anker_737_powerbank_detail,
+    'anker-622-maggo': anker_622_maggo_detail,
+    'anker-521-powerhouse': anker_521_powerhouse_detail,
+    'anker-powercore-10000': anker_powercore_10000_detail,
+    'anker-powercore-20000': anker_powercore_20000_detail,
+    'anker-powercore-26800': anker_powercore_26800_detail,
+    'anker-powerport-20w': anker_powerport_20w_detail,
+    'anker-powerport-25w': anker_powerport_25w_detail,
+    'anker-nano-45w': anker_nano_45w_detail,
+    'anker-nano-45w-smart-display-charger': anker_nano_45w_smart_display_charger_detail,
+    'anker-powerline-usb-c-lightning': anker_powerline_usb_c_lightning_detail,
+    'anker-powerline-usb-c-usb-c': anker_powerline_usb_c_usb_c_detail,
+    'anker-car-charger-dual-usb': anker_car_charger_dual_usb_detail,
+    'joyroom-power-bank-10000': joyroom_power_bank_10000_detail,
+    'joyroom-power-bank-20000': joyroom_power_bank_20000_detail,
+    'joyroom-t03s-pro-earbuds': joyroom_t03s_pro_earbuds_detail,
+    'joyroom-jr-t03-wireless-earbuds': joyroom_jr_t03_wireless_earbuds_detail,
+    'joyroom-20w-usb-c-charger': joyroom_20w_usb_c_charger_detail,
+    'joyroom-usb-c-lightning-cable': joyroom_usb_c_lightning_cable_detail,
+    'anker-soundcore-life-p2i': anker_soundcore_life_p2i_detail,
+    'joyroom-ft3-smartwatch': joyroom_ft3_smartwatch_detail,
+    'joyroom-car-mount-zs290': joyroom_car_mount_zs290_detail,
+    'joyroom-25w-fast-charger': joyroom_25w_fast_charger_detail,
+    'joyroom-30w-fast-charger': joyroom_30w_fast_charger_detail,
+    'joyroom-magnetic-power-bank-10000': joyroom_magnetic_power_bank_10000_detail,
+    'joyroom-60w-car-charger': joyroom_60w_car_charger_detail,
+    'joyroom-3-in-1-wireless-charging-station': joyroom_3_in_1_wireless_charging_station_detail,
+    'anker-usb-c-lightning-sureistrong': anker_usb_c_lightning_sureistrong_detail,
+    'joyroom-3-in-1-data-cable': joyroom_3_in_1_data_cable_detail,
+    'joyroom-30w-pd-cable': joyroom_30w_pd_cable_detail,
+    'joyroom-type-c-lightning-24mos': joyroom_type_c_lightning_24mos_detail,
+    'joyroom-type-c-lightning-36mos': joyroom_type_c_lightning_36mos_detail,
+    'joyroom-type-c-lightning-braided': joyroom_type_c_lightning_braided_detail,
+    'joyroom-type-c-to-type-c-cable': joyroom_type_c_to_type_c_cable_detail,
+    'joyroom-usb-a-lightning-1.2m': joyroom_usb_a_lightning_1_2m_detail,
+    'joyroom-usb-a-lightning-cable': joyroom_usb_a_lightning_cable_detail,
+    'joyroom-usb-a-micro-cable': joyroom_usb_a_micro_cable_detail,
+    'joyroom-usb-a-type-c-cable': joyroom_usb_a_type_c_cable_detail,
+    'joyroom-usb-c-cable-60w': joyroom_usb_c_cable_60w_detail,
+    'joyroom-car-phone-mount': joyroom_car_phone_mount_detail,
+    'joyroom-usb-a-type-c-1.2m': joyroom_usb_a_type_c_1_2m_detail,
+    'anker-zolo-a110d-10000': anker_zolo_a110d_10000_detail,
+    'anker-zolo-a110e-20000': anker_zolo_a110e_20000_detail,
+    'anker-zolo-a1681-20000': anker_zolo_a1681_20000_detail,
+    'anker-prime-a1695-25000': anker_prime_a1695_25000_detail,
+    'anker-a2732-charger-35w': anker_a2732_charger_35w_detail,
+    'anker-a2741-charger-30w': anker_a2741_charger_30w_detail,
+    'anker-a8050-usb-c-cable': anker_a8050_usb_c_cable_detail,
+    'anker-soundcore-k20i': anker_soundcore_k20i_detail,
+    'anker-soundcore-r50i-nc': anker_soundcore_r50i_nc_detail,
+    'anker-soundcore-r50i': anker_soundcore_r50i_detail,
+    'anker-a2147-gan-charger-30w': anker_a2147_gan_charger_30w_detail,
+    'soundcore-p20i-earbuds': soundcore_p20i_earbuds_detail,
+    'soundcore-p25i-earbuds': soundcore_p25i_earbuds_detail,
+    'soundcore-liberty-4-nc': soundcore_liberty_4_nc_detail,
+    'soundcore-a30i-earbuds': soundcore_a30i_earbuds_detail,
+    'soundcore-liberty-5': soundcore_liberty_5_detail,
+    'soundcore-liberty-4-pro': soundcore_liberty_4_pro_detail,
+    'soundcore-p30i-earbuds': soundcore_p30i_earbuds_detail,
+    'soundcore-life-q20-headphones': soundcore_life_q20_headphones_detail,
+    'soundcore-liberty-buds': soundcore_liberty_buds_detail,
+    'soundcore-liberty-air-2-pro': soundcore_liberty_air_2_pro_detail,
+    'soundcore-p40i-earbuds': soundcore_p40i_earbuds_detail,
+    'soundcore-p41i-earbuds': soundcore_p41i_earbuds_detail,
+    'soundcore-v20i-earbuds': soundcore_v20i_earbuds_detail,
+    'soundcore-r50i-vi-earbuds': soundcore_r50i_vi_earbuds_detail,
+    'soundcore-life-u2i-neckband': soundcore_life_u2i_neckband_detail,
+    'soundcore-c30i-earbuds': soundcore_c30i_earbuds_detail,
+    'soundcore-c40i-earbuds': soundcore_c40i_earbuds_detail,
+    'soundcore-liberty-3-pro': soundcore_liberty_3_pro_detail,
+    'soundcore-q30-headphones': soundcore_q30_headphones_detail,
+    'soundcore-q45-headphones': soundcore_q45_headphones_detail,
+    'soundcore-q11i-headphones': soundcore_q11i_headphones_detail,
+    'soundcore-q20i-headphones': soundcore_q20i_headphones_detail,
+    'soundcore-space-one-headphones': soundcore_space_one_headphones_detail,
+    'soundcore-rave-3-speaker': soundcore_rave_3_speaker_detail,
+    'soundcore-select-4-go-speaker': soundcore_select_4_go_speaker_detail,
+    'anker-pencil-stylus': anker_pencil_stylus_detail,
+};
+
+export function getProductDetail(slug: string): ProductDetail | undefined {
+    return enhancements[slug];
+}
+
+/**
+ * Lazy-load a single product detail module dynamically by slug.
+ * Avoids loading all 81 product details into server memory for a single page request.
+ */
+export async function getProductDetailAsync(slug: string): Promise<ProductDetail | undefined> {
+    try {
+        const mod = await import(`./details/${slug}`) as Record<string, unknown>;
+        // Product details modules export their detail object as `export const slug_detail = { ... }`
+        // or something similar. Find the first object that looks like a ProductDetail.
+        const detail = Object.values(mod).find(
+            (v): v is ProductDetail =>
+                typeof v === 'object' && v !== null && 'features' in v && 'specs' in v
+        );
+        return detail;
+    } catch {
+        // Fallback to synchronous in-memory map (the barrel is already evaluated at build time)
+        return enhancements[slug];
+    }
+}
