@@ -2,17 +2,16 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { brandData } from '@/data/brand-data';
-import { ArticleSchema } from '@/components/schemas/StructuredDataSchemas';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { BrandOverviewBlock } from '@/components/content/CategoryOverviewBlock';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
-import { getEntitiesForBrand, entitiesToJsonLd } from '@/data/brand-entities';
 import { MarkdownRenderer } from '@/components/ui/MarkdownRenderer';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { staticProducts } from '@/lib/static-products';
 import BestSellingProducts from '@/components/products/BestSellingProducts';
 import SoundcoreFamilyStrip from '@/components/products/SoundcoreFamilyStrip';
+import CategoryDiscoveryGrid from '@/components/brand/CategoryDiscoveryGrid';
 
 // ISR: On-demand revalidation only (via /api/indexing webhook)
 export const dynamicParams = false; // Unknown slugs → automatic 404 (prevents soft 404)
@@ -50,11 +49,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         || (isArabic ? `${data.hero.title} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
     // CTR-optimized brand page title
-    const brandProductCount = staticProducts.filter(p => p.brand.toLowerCase() === brand.toLowerCase()).length;
-    const arTitle = `${data.hero.title} الأصلية ⚡ ${brandProductCount} منتج | ضمان رسمي + توصيل لكل مصر`;
-    const enTitle = `Original ${data.hero.title} ⚡ ${brandProductCount} Products | Warranty + COD Egypt`;
+    const brandProductCount = staticProducts.filter(
+        p => p.status === 'active' && p.brand.toLowerCase() === brand.toLowerCase()
+    ).length;
+    const brandName = data.hero.title.replace(/\s*Egypt$/i, '');
+    const arTitle = `منتجات ${brandName} الأصلية في مصر ⚡ ${brandProductCount} منتج | ضمان كايرو فولت`;
+    const enTitle = `${brandName} Products in Egypt ⚡ ${brandProductCount} Products | CairoVolt Warranty`;
 
     const dynamicTitle = isArabic ? arTitle : enTitle;
+    const canonical = isArabic
+        ? `https://cairovolt.com/${brand.toLowerCase()}`
+        : `https://cairovolt.com/en/${brand.toLowerCase()}`;
 
     // Strict lowercase for canonical URLs (URL best practice)
     return {
@@ -62,9 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description: meta.description,
         keywords: meta.keywords,
         alternates: {
-            canonical: locale === 'ar'
-                ? `https://cairovolt.com/${brand.toLowerCase()}`
-                : `https://cairovolt.com/en/${brand.toLowerCase()}`,
+            canonical,
             languages: {
                 'ar-EG': `https://cairovolt.com/${brand.toLowerCase()}`,
                 'en-EG': `https://cairovolt.com/en/${brand.toLowerCase()}`,
@@ -73,7 +76,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         openGraph: {
             ...(meta.openGraph || {}),
-            locale: isArabic ? 'ar_EG' : 'en_US',
+            title: dynamicTitle,
+            description: meta.description,
+            url: canonical,
+            siteName: 'CairoVolt',
+            locale: isArabic ? 'ar_EG' : 'en_EG',
             type: 'website',
             ...(socialImageUrl && {
                 images: [{ url: socialImageUrl, alt: socialImageAlt, width: 800, height: 800 }]
@@ -81,15 +88,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         twitter: {
             card: 'summary_large_image',
-            title: meta.title,
+            title: dynamicTitle,
             description: meta.description,
             images: socialImageUrl ? [socialImageUrl] : undefined,
-        },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': isArabic ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
         },
     };
 }
@@ -102,6 +103,15 @@ export default async function BrandHubPage({ params }: Props) {
     if (!data) {
         notFound();
     }
+
+    const brandProductCount = staticProducts.filter(product =>
+        product.status === 'active' && product.brand.toLowerCase() === brand.toLowerCase()
+    ).length;
+    const brandName = data.hero.title.replace(/\s*Egypt$/i, '');
+    const pageHeading = isRTL
+        ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${brandName} الأصلية في مصر`
+        : `CairoVolt Store: Your Trusted Destination for Original ${brandName} in Egypt`;
+    const pageDescription = isRTL ? data.metadata.ar.description : data.metadata.en.description;
 
     // Helper to get localized href
     const getLocalizedHref = (path: string) => {
@@ -120,30 +130,11 @@ export default async function BrandHubPage({ params }: Props) {
                 locale={locale}
             />
 
-            {/* Article Schema for Content */}
-            {data.article && (
-                <ArticleSchema
-                    headline={isRTL ? data.article.ar.title : data.article.en.title}
-                    description={isRTL ? data.metadata.ar.description : data.metadata.en.description}
-                    url={`https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}`}
-                    locale={locale}
-                    articleType="Article"
-                    sections={(isRTL ? data.article.ar.sections : data.article.en.sections).map((s: { heading: string; content: string }) => ({
-                        heading: s.heading,
-                        content: s.content
-                    }))}
-                    about={entitiesToJsonLd(getEntitiesForBrand(brand).slice(0, 3), isRTL ? 'ar' : 'en')}
-                    mentions={entitiesToJsonLd(getEntitiesForBrand(brand).slice(3), isRTL ? 'ar' : 'en')}
-                />
-            )}
-
             {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
-            {/* Hero — compact brand masthead. A brand-hub visitor arrives with
-                purchase intent, so only the identity essentials live here:
-                badge, H1, one value line, express-lane CTA. The QuickAnswer
-                (AEO) box and trust chips are RELOCATED below the products —
-                same server-rendered HTML, so Google reads them unchanged. */}
+            {/* Hero — the H1 and value proposition remain the first visible
+                content. The semantic answer and subcategory links follow
+                immediately, before the product catalogue. */}
             <section className={`relative overflow-hidden py-8 md:py-14`}>
                 {/* Dynamic Background */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${data.hero.bgGradient} opacity-90`}></div>
@@ -162,9 +153,7 @@ export default async function BrandHubPage({ params }: Props) {
                     {/* Title (Brand Declaration) — strip a trailing "Egypt" from
                         the display name so "… in Egypt" never doubles it. */}
                     <h1 className="text-2xl md:text-4xl lg:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-3 md:mb-4 tracking-tight drop-shadow-sm leading-tight max-w-4xl mx-auto">
-                        {isRTL
-                            ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${data.hero.title.replace(/\s*Egypt$/i, '')} الأصلية في مصر`
-                            : `CairoVolt Store: Your Trusted Destination for Original ${data.hero.title.replace(/\s*Egypt$/i, '')} in Egypt`}
+                        {pageHeading}
                     </h1>
 
                     {/* Description */}
@@ -217,11 +206,41 @@ export default async function BrandHubPage({ params }: Props) {
                 </div>
             )}
 
-            {/* ═══════════════════════════════════════════════════════════ */}
-            {/* Soundcore family strip — top section on /anker only:        */}
-            {/* the 7 most-requested Soundcore picks, linking to their      */}
-            {/* CANONICAL /soundcore URLs (replaces the old callout banner) */}
-            {/* ═══════════════════════════════════════════════════════════ */}
+            {/* Concise, visible answer and trust evidence before imagery and
+                product grids. This gives users, search engines, and answer
+                engines the page meaning without relying on image parsing. */}
+            <section className="bg-white py-7 dark:bg-gray-950 sm:py-9">
+                <div className="container mx-auto px-4">
+                    {data.quickAnswer && (
+                        <div className="mx-auto mb-5 max-w-3xl">
+                            <QuickAnswerBox
+                                answer={isRTL ? data.quickAnswer.ar : data.quickAnswer.en}
+                                locale={locale}
+                                variant="subtle"
+                            />
+                        </div>
+                    )}
+                    <div className="flex flex-wrap justify-center gap-2 md:gap-4">
+                        {data.hero.features.map((feature) => (
+                            <div key={feature.en} className="flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3.5 py-2 text-xs font-medium text-gray-800 shadow-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 md:px-5 md:py-2.5 md:text-sm">
+                                <span className="text-green-600" aria-hidden="true">✓</span>
+                                {isRTL ? feature.ar : feature.en}
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <CategoryDiscoveryGrid
+                collection={brand as 'anker' | 'joyroom'}
+                categories={data.categories}
+                locale={locale}
+                pageName={pageHeading}
+                pageDescription={pageDescription}
+            />
+
+            {/* Soundcore family strip — retained on /anker after the primary
+                category decision layer, with canonical Soundcore links. */}
             {brand === 'anker' && <SoundcoreFamilyStrip locale={locale} />}
 
             {/* ═══════════════════════════════════════════════════════════ */}
@@ -235,74 +254,6 @@ export default async function BrandHubPage({ params }: Props) {
                 maxProducts={20}
             />
 
-            {/* Authority block — RELOCATED from the hero so products come
-                first. Same server-rendered HTML: Google reads the QuickAnswer
-                (AEO) copy and trust points identically wherever they sit. */}
-            <section className="container mx-auto px-4 pb-2 relative z-20">
-                {data.quickAnswer && (
-                    <div className="max-w-3xl mx-auto mb-5">
-                        <QuickAnswerBox
-                            answer={isRTL ? data.quickAnswer.ar : data.quickAnswer.en}
-                            locale={locale}
-                            variant="subtle"
-                        />
-                    </div>
-                )}
-                <div className="flex flex-wrap justify-center gap-2 md:gap-4">
-                    {data.hero.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center gap-2 px-3.5 py-2 md:px-5 md:py-2.5 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 shadow-sm text-gray-800 dark:text-gray-200 text-xs md:text-sm font-medium">
-                            <span className="text-green-600">✓</span>
-                            {isRTL ? feature.ar : feature.en}
-                        </div>
-                    ))}
-                </div>
-            </section>
-
-            {/* Categories Grid (App Style) — Browse by category */}
-            <section className="container mx-auto px-4 py-20 -mt-10 relative z-20">
-                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
-                    {data.categories.map((cat, idx) => (
-                        <Link
-                            key={idx}
-                            href={getLocalizedHref(cat.href)}
-                            className={`group relative p-6 md:p-10 rounded-3xl bg-white dark:bg-gray-900 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 dark:border-gray-800 overflowing-hidden
-                                ${brand === 'joyroom' ? 'hover:border-red-500/30' : 'hover:border-blue-500/30'}`}
-                        >
-                            {/* Floating Badge */}
-                            {cat.badge && (
-                                <span className={`absolute top-4 ${isRTL ? 'right-4' : 'left-4'} px-3 py-1 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black text-xs font-bold rounded-full shadow-lg z-10`}>
-                                    {isRTL ? cat.badge.ar : cat.badge.en}
-                                </span>
-                            )}
-
-                            {/* Icon */}
-                            <div className="text-4xl md:text-6xl mb-4 md:mb-6 transform group-hover:scale-110 transition-transform duration-300">
-                                <SvgIcon name={cat.icon} className="w-10 h-10" />
-                            </div>
-
-                            {/* Text Content */}
-                            <h3 className={`text-lg md:text-2xl font-black mb-2 ${brand === 'joyroom' ? 'group-hover:text-red-600' : 'group-hover:text-blue-600'}`}>
-                                {isRTL ? cat.title.ar : cat.title.en}
-                            </h3>
-                            <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 font-medium mb-4">
-                                {isRTL ? cat.description.ar : cat.description.en}
-                            </p>
-
-                            {/* Action Row */}
-                            <div className="flex items-center justify-between mt-4 md:mt-6 pt-4 border-t border-gray-100 dark:border-gray-800">
-                                <span className="flex items-center gap-1 text-xs font-bold text-gray-400 uppercase tracking-wider">
-                                    <span className="w-2 h-2 rounded-full bg-green-500"></span>
-                                    {isRTL ? cat.volume.ar : cat.volume.en}
-                                </span>
-                                <span className={`w-8 h-8 rounded-full flex items-center justify-center bg-gray-50 dark:bg-gray-800 group-hover:bg-white group-hover:shadow-md transition-all ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`}>
-                                    {isRTL ? '←' : '→'}
-                                </span>
-                            </div>
-                        </Link>
-                    ))}
-                </div>
-            </section>
-
             {/* ═══════════════════════════════════════════════════════════ */}
             {/* Extended Info Section: Brand Overview & Trust Elements */}
             {/* Brand content section */}
@@ -314,7 +265,7 @@ export default async function BrandHubPage({ params }: Props) {
                     brandName={data.hero.title}
                     brandDescription={isRTL ? data.hero.description.ar : data.hero.description.en}
                     categoryCount={data.categories.length}
-                    totalProducts={50}
+                    totalProducts={brandProductCount}
                     locale={locale}
                 />
             </div>
@@ -477,4 +428,3 @@ export default async function BrandHubPage({ params }: Props) {
         </div>
     );
 }
-

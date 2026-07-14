@@ -42,8 +42,8 @@ export interface BrandData {
         description: { en: string; ar: string };
     }>;
     metadata: {
-        en: { title: string; description: string; keywords: string; openGraph?: any };
-        ar: { title: string; description: string; keywords: string; openGraph?: any };
+        en: { title: string; description: string; keywords: string; openGraph?: { title?: string; description?: string; url?: string } };
+        ar: { title: string; description: string; keywords: string; openGraph?: { title?: string; description?: string; url?: string } };
     };
     article?: {
         en: { title: string; sections: Array<{ heading: string; content: string }> };
@@ -68,11 +68,11 @@ export const brandData: Record<string, BrandData> = {
             badge: { en: "World's #1 Charging Authority", ar: 'القوة المطلقة - رقم 1 عالمياً' },
             title: 'Anker Egypt',
             description: {
-                en: 'Experience the future of charging with Anker GaNPrime™ and PowerIQ 4.0. The only brand fully optimized for iPhone 17 & Samsung S26 AI features. Official Warranty.',
-                ar: 'اختبر مستقبل الشحن مع تقنيات أنكر GaNPrime™ و PowerIQ 4.0. العلامة التجارية الوحيدة المجهزة بالكامل لذكاء هواتف. ضمان الوكيل الرسمي.'
+                en: 'Explore Anker GaNPrime™ and PowerIQ charging for phones, tablets, and laptops, backed by an 18-month CairoVolt warranty.',
+                ar: 'اكتشف شحن Anker بتقنيات GaNPrime™ وPowerIQ للموبايل والتابلت واللابتوب، مع ضمان كايرو فولت لمدة 18 شهرًا.'
             },
             features: [
-                { en: 'Official Agent Warranty (18 Months)', ar: 'ضمان الوكيل (18 شهر استبدال)' },
+                { en: '18-Month CairoVolt Warranty', ar: 'ضمان كايرو فولت 18 شهرًا' },
                 { en: 'ActiveShield™ 2.0 Safety', ar: 'حماية نشطة ActiveShield™ 2.0' },
                 { en: 'GaNPrime™ Technology', ar: 'تكنولوجيا GaNPrime™ المتطورة' }
             ]
@@ -122,7 +122,7 @@ export const brandData: Record<string, BrandData> = {
         },
         // NEW: Quality Badges for Trust Indicators
         trustBadges: [
-            { icon: 'check-circle', title: { en: '100% Original Products', ar: 'منتجات أصلية 100%' }, description: { en: 'Verified by Anker Egypt', ar: 'موثقة من انكر مصر' } },
+            { icon: 'check-circle', title: { en: 'Original Products', ar: 'منتجات أصلية' }, description: { en: 'Packaging and code checks', ar: 'فحص العبوة وكود المنتج' } },
             { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'Instant replacement', ar: 'استبدال فوري' } },
             { icon: 'coin', title: { en: 'Best Price Guarantee', ar: 'ضمان أقل سعر' }, description: { en: 'vs Amazon & Noon', ar: 'مقارنة بأمازون ونون' } },
             { icon: 'truck', title: { en: 'Fast Egypt Delivery', ar: 'توصيل سريع لمصر' }, description: { en: '24-48 hours', ar: '24-48 ساعة' } },
@@ -131,13 +131,13 @@ export const brandData: Record<string, BrandData> = {
         ],
         metadata: {
             en: {
-                title: 'Anker Egypt Official | #1 Charging Brand | GaNPrime Chargers + Power Banks',
-                description: 'The Official Anker Egypt destination for charging. Shop Anker GaNPrime chargers, PowerCore power banks, PowerLine cables, and PowerDrive car chargers. 100% Original with 18-month warranty. For Soundcore audio, see our dedicated /soundcore hub.',
+                title: 'Anker Products in Egypt | GaN Chargers, Power Banks & Cables',
+                description: 'Shop Anker GaNPrime chargers, PowerCore power banks, PowerLine cables, and car chargers at CairoVolt with an 18-month CairoVolt warranty. For Soundcore audio, visit /soundcore.',
                 keywords: 'anker egypt, anker, anker power bank, anker charger, anker cable, anker car charger, anker verify, anker gan, anker powercore, anker powerline, anker prime, anker nano, anker wholesale egypt',
             },
             ar: {
-                title: 'أنكر Egypt | انكر مصر — الوكيل الرسمي للشواحن والباور بانك',
-                description: 'موقع انكر مصر الرسمي للشحن. تسوق شواحن أنكر GaNPrime، باور بانك PowerCore، كابلات PowerLine، وشواحن السيارة. ضمان الوكيل 18 شهر استبدال فوري. لمنتجات الصوتيات (ساوند كور) تصفّح /soundcore.',
+                title: 'منتجات أنكر في مصر | شواحن GaN وباور بانك وكابلات',
+                description: 'تسوّق شواحن أنكر GaNPrime، باور بانك PowerCore، كابلات PowerLine وشواحن السيارة من كايرو فولت، مع ضمان كايرو فولت لمدة 18 شهرًا. للصوتيات تصفّح /soundcore.',
                 keywords: 'انكر مصر, أنكر, انكر, توكيل انكر, موقع انكر, وكيل انكر, باور بانك انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
             }
         },
@@ -150,7 +150,7 @@ export const brandData: Record<string, BrandData> = {
                         content: 'منذ دخولها السوق المصري، غيرت أنكر مفهوم "الشحن" من مجرد ملحق إضافي إلى تقنية أساسية تعتمد عليها حياتك اليومية. بفضل تقنيات مثل **PowerIQ 4.0** التي تتعرف على نوع هاتفك (سواء كان iPhone 17 أو Samsung S26) وتعطيه الفولت المناسب بالضبط، أصبحت انكر "صديقة البطارية" الأولى.'
                     },
                     {
-                        heading: 'ضمان الوكيل: استثمار آمن 100%',
+                        heading: 'ضمان كايرو فولت: حماية أوضح للشراء',
                         content: 'شراء منتج أنكر الأصلي يعني حصولك على ضمان استبدال فوري لمدة 18 شهراً. لا مزيد من القلق بشأن المنتجات المقلدة التي تضر بجهازك. نحن نضمن لك راحة البال، وجودة التصنيع، وتقنية **ActiveShield 2.0** التي تراقب حرارة الشاحن 3 مليون مرة يومياً.'
                     }
                 ]
@@ -164,7 +164,7 @@ export const brandData: Record<string, BrandData> = {
                     },
                     {
                         heading: 'Safety First: The ActiveShield™ Promise',
-                        content: 'Your expensive devices need premium protection. Anker’s proprietary **ActiveShield™ 2.0** technology monitors temperature 3,000,000 times per day to prevent overheating. Combined with our 18-month official warranty, investing in Anker is investing in the longevity of your electronics.'
+                        content: 'Your devices need dependable protection. Anker’s **ActiveShield™ 2.0** technology monitors temperature to help prevent overheating. CairoVolt also provides an 18-month store warranty for the products covered on this page.'
                     }
                 ]
             }
@@ -172,7 +172,7 @@ export const brandData: Record<string, BrandData> = {
         faq: {
             ar: [
                 { question: 'كيف أتأكد أن منتج انكر أصلي 100%؟', answer: 'ابحث دائماً عن "العلامة المائية الثلاثية" (Hologram) الخاصة بالوكيل على العلبة. يمكنك أيضاً مسح QR Code الموجود للتحقق عبر موقع انكر الرسمي. نحن في CairoVolt نضمن لك منتجات أصلية 100% مع ضمان استبدال فوري.' },
-                { question: 'ما الفرق بين ضمان أنكر في CairoVolt وأمازون/نون؟', answer: 'في المتاجر العامة (Marketplaces)، الضمان يعتمد على البائع وقد يكون 14 يوماً فقط. أما في CairoVolt، بصفتنا موزع معتمد، نقدم "ضمان الوكيل الرسمي" لمدة 18 شهراً. إذا حدث أي عيب صناعة، نستبدل المنتج بجديد فوراً، وليس صيانة.' },
+                { question: 'ما الفرق بين ضمان أنكر في CairoVolt وأمازون/نون؟', answer: 'في المتاجر العامة يختلف الضمان حسب البائع. توضح كايرو فولت مدة تغطية المتجر وشروطها على صفحة المنتج، وتصل إلى 18 شهرًا للمنتجات المشمولة. تواصل معنا عبر واتساب لطلب الدعم أو التحقق من حالة منتجك.' },
                 { question: 'ما هو الفرق بين تقنية PowerIQ و PD (Power Delivery)؟', answer: 'تقنية **PD** هي معيار عالمي للشحن السريع (للآيفون واللابتوب). أما **PowerIQ** فهي تقنية حصرية لـ أنكر تتعرف بذكاء على نوع جهازك (سواء سامسونج، آيفون، أو سماعة) وتعطيه أقصى سرعة آمنة له. شواحن أنكر الجديدة تدمج الاثنين معاً!' },
                 { question: 'هل شواحن انكر تضر ببطارية الايفون (Battery Health)؟', answer: 'على العكس تماماً! شواحن انكر تأتي بتقنية **ActiveShield 2.0** التي تراقب الحرارة 3 مليون مرة يومياً لتمنع السخونة التي تضر البطارية. كما أنها حاصلة على شهادة MFi من آبل، مما يعني أنها آمنة تماماً مثل الشاحن الأصلي وأحياناً أفضل تبريداً.' },
                 { question: 'لماذا تعتبر منتجات أنكر استثمار جيد؟', answer: 'إذا كنت تبحث عن \"أعلى أداء وتكنولوجيا في العالم\" وتدفع مقابل الاستدامة، فـ **أنكر** هي الأفضل (استثمار طويل الأمد). منتجاتنا مصممة لتعيش سنوات طويلة مع الحفاظ على كفاءتها.' },
@@ -180,7 +180,7 @@ export const brandData: Record<string, BrandData> = {
             ],
             en: [
                 { question: 'How can I be 100% sure the Anker product is original?', answer: 'Always look for the official distributor\'s Hologram sticker on the box. You can also scan the QR Code verification label. At CairoVolt, we guarantee 100% authentic products with a direct replacement warranty.' },
-                { question: 'What is the difference between warranty at CairoVolt vs Amazon/Noon?', answer: 'On marketplaces, warranty depends on the individual seller and is often just 14 days return. At CairoVolt, as an authorized distributor, we offer the official "18-Month Agent Warranty". If there is a defect, we replace it instantly with a new one—no repairs.' },
+                { question: 'What is the difference between warranty at CairoVolt vs Amazon/Noon?', answer: 'Marketplace warranty terms vary by seller. CairoVolt states its store-coverage period and conditions on each product page, reaching 18 months for covered items. Contact us on WhatsApp to request support or confirm your product’s coverage.' },
                 { question: 'What is the difference between PowerIQ and PD (Power Delivery)?', answer: '**PD** is a universal fast-charging standard (common for iPhone/Laptops). **PowerIQ** is Anker\'s proprietary AI technology that intelligently identifies your device (Samsung, iPhone, or Earbuds) and delivers the safest max speed. New Anker chargers combine both!' },
                 { question: 'Do Anker chargers damage iPhone Battery Health?', answer: 'Quite the opposite! Anker chargers feature **ActiveShield 2.0** technology which monitors temperature 3 million times/day to prevent heat that damages batteries. They are also MFi Certified, making them just as safe (often cooler running) than original Apple chargers.' },
                 { question: 'Why is Anker considered a good investment?', answer: 'If you want \"World Class Performance\" and long-term durability, **Anker** is the G.O.A.T investment. Our products are engineered to last for years while maintaining peak efficiency.' },
@@ -219,6 +219,7 @@ export const brandData: Record<string, BrandData> = {
             { title: { en: 'Joyroom Cables', ar: 'كابلات جوي روم' }, description: { en: 'Auto-Disconnect Tech', ar: 'تقنية الفصل التلقائي' }, href: '/joyroom/cables', icon: 'link', volume: { en: 'Durable', ar: 'معمر' } },
             { title: { en: 'Joyroom Smart Watches', ar: 'ساعات جوي روم' }, description: { en: 'FT3 Pro & Fit-Life', ar: 'FT3 Pro و Fit-Life' }, href: '/joyroom/smart-watches', icon: 'watch', volume: { en: 'Trending', ar: 'تريندينج' }, badge: { en: 'Hot', ar: 'رائج' } },
             { title: { en: 'Car Holders', ar: 'حوامل سيارة' }, description: { en: 'Strong Magnets', ar: 'مغناطيس قوي جداً' }, href: '/joyroom/car-holders', icon: 'compass', volume: { en: 'New', ar: 'جديد' } },
+            { title: { en: 'Car Accessories', ar: 'إكسسوارات سيارة' }, description: { en: 'Chargers + Mounts', ar: 'شواحن وحوامل للمشاوير' }, href: '/joyroom/car-accessories', icon: 'car', volume: { en: 'Road Ready', ar: 'جاهزة للطريق' } },
         ],
         whySection: {
             title: { en: 'Why Choose Joyroom?', ar: 'لماذا تختار جوي روم؟' },
@@ -266,12 +267,12 @@ export const brandData: Record<string, BrandData> = {
         metadata: {
             en: {
                 title: 'Joyroom Egypt | The Budget King | T03s & Power Banks',
-                description: 'The Official Joyroom Egypt Collection. Home of the Legendary T03s Earbuds and Safe Power Banks. 100% Original with Golden Code verification.',
+                description: 'Shop CairoVolt’s Joyroom collection in Egypt, including T03s earbuds, power banks, chargers, cables, watches, and car accessories. Check eligible packaging with Joyroom’s Golden Code.',
                 keywords: 'joyroom egypt, joyroom t03s, joyroom t03s pro, joyroom power bank, joyroom charger, joyroom cable, joyroom egypt original, best budget earbuds egypt',
             },
             ar: {
                 title: 'جوي روم Egypt | جوي روم مصر - ملك التوفير (T03s الأصلية)',
-                description: 'متجر جوي روم مصر المعتمد. احصل على سماعات T03s الأسطورية، وباور بانك آمن ببطاريات Grade A+. تأكد من أصالة المنتج بالكود الذهبي.',
+                description: 'تسوّق مجموعة جوي روم من كايرو فولت في مصر: سماعات T03s، باور بانك، شواحن، كابلات، ساعات وإكسسوارات سيارة. افحص العبوات المؤهلة عبر الكود الذهبي من Joyroom.',
                 keywords: 'جوي روم, جوي روم الاصلي, سماعة جوي روم, سعر t03s في مصر, سعر سماعة جوي روم, جوي روم t03s, سعر جوي روم t03s, جويروم, باور بانك جوي روم, شاحن جوي روم',
             }
         },

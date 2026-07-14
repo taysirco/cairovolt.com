@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useMemo, useState, useTransition } from 'react';
 import { ProductImage } from '@/components/ui/ProductImage';
 import dynamic from 'next/dynamic';
-import { CategoryContent, FAQItem, BuyingGuideSection, QualityBadge, SoundcoreData, PowerBankData } from '@/data/category-content';
+import { CategoryContent, BuyingGuideSection, SoundcoreData, PowerBankData } from '@/data/category-content';
 import { BreadcrumbSchema } from './schemas/ProductSchema';
 import { HowToSchema, ItemListSchema } from './schemas/StructuredDataSchemas';
 import RelatedLinks from './content/RelatedLinks';
@@ -55,19 +55,13 @@ const categoryKeyMap: Record<string, string> = {
     'audio': 'audio',
     'smart-watches': 'smartWatches',
     'car-holders': 'carHolders',
+    'car-accessories': 'carAccessories',
     'other': 'other',
 };
-
-function FAQSchema({ faqs: _faqs }: { faqs: FAQItem[] }) {
-    // FAQPage JSON-LD intentionally removed — Google deprecated FAQ rich results May 7, 2026
-    // Visible FAQ accordion UI is preserved below in the template
-    return null;
-}
 
 export default function CategoryTemplate({
     brand,
     brandColor,
-    category,
     categorySlug,
     categoryInfo,
     soundcoreData,
@@ -165,6 +159,7 @@ export default function CategoryTemplate({
             price: p.price,
             originalPrice: p.originalPrice,
             image: imageUrl,
+            categorySlug: p.categorySlug,
             badge: undefined as string | undefined
         };
     });
@@ -191,7 +186,6 @@ export default function CategoryTemplate({
 
     return (
         <div className="min-h-screen" dir={isRTL ? 'rtl' : 'ltr'}>
-            {content.faq && <FAQSchema faqs={content.faq} />}
             <BreadcrumbSchema items={breadcrumbs} locale={locale} />
 
             {/* Buying guide schema */}
@@ -216,7 +210,7 @@ export default function CategoryTemplate({
                     items={displayProducts.map((p, idx) => ({
                         name: p.name,
                         url: p.slug
-                            ? `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}/${p.slug}`
+                            ? `https://cairovolt.com${localePrefix}/${brandSlug}/${p.categorySlug || categorySlug}/${p.slug}`
                             : `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}`,
                         image: p.image || '/placeholder.png',
                         price: p.price,
@@ -341,7 +335,7 @@ export default function CategoryTemplate({
                         <Link
                             key={product.id || idx}
                             href={product.slug
-                                ? `${localePrefix}/${brandSlug}/${categorySlug}/${product.slug}`
+                                ? `${localePrefix}/${brandSlug}/${product.categorySlug || categorySlug}/${product.slug}`
                                 : '#'
                             }
                             className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-300"
@@ -354,7 +348,7 @@ export default function CategoryTemplate({
                                         alt={product.name}
                                         slug={product.slug}
                                         brand={brand}
-                                        category={categorySlug}
+                                        category={product.categorySlug || categorySlug}
                                         fill
                                         priority={idx < 4}
                                         loading={idx < 4 ? 'eager' : 'lazy'}

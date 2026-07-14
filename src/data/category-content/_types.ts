@@ -36,8 +36,8 @@ export interface CategoryContent {
     // NEW: Optional PowerBank data for power-banks category
     powerBankData?: PowerBankData;
     metadata: {
-        en: { title: string; description: string; keywords: string; openGraph?: any };
-        ar: { title: string; description: string; keywords: string; openGraph?: any };
+        en: { title: string; description: string; keywords: string; openGraph?: { title?: string; description?: string; url?: string } };
+        ar: { title: string; description: string; keywords: string; openGraph?: { title?: string; description?: string; url?: string } };
     };
     pageContent: {
         ar: {

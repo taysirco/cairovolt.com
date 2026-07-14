@@ -6,6 +6,23 @@ import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
 import { ankerBestSellers, soundcoreBestSellers } from '@/components/products/BestSellingProducts';
 
+/**
+ * The Joyroom car-accessories route is an umbrella landing page. Products keep
+ * their canonical catalogue category while this page presents both car lines.
+ */
+function getLandingPageProducts(brand: string, category: string) {
+    if (brand === 'joyroom' && category === 'car-accessories') {
+        return staticProducts.filter(product =>
+            product.status === 'active' &&
+            product.brand.toLowerCase() === brand &&
+            (product.categorySlug === 'car-chargers' || product.categorySlug === 'car-holders')
+        );
+    }
+
+    return getProductsByBrandAndCategory(brand, category)
+        .filter(product => product.status === 'active');
+}
+
 // ISR: On-demand revalidation only (via /api/indexing webhook)
 // Closed param space (categoryContent keys) → real 404 for unknown categories
 // instead of FAH soft-404. Product [slug] below stays dynamic (Firebase-only
@@ -40,36 +57,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const isArabic = locale === 'ar';
     const meta = locale === 'ar' ? data.metadata.ar : data.metadata.en;
+    const localizedCategoryName = isArabic ? data.pageContent.ar.title : data.pageContent.en.title;
+    const arCategoryName = data.pageContent.ar.title.replace(/\s+في مصر$/u, '');
+    const enCategoryName = data.pageContent.en.title.replace(/\s+in Egypt$/i, '');
     // Strict lowercase for canonical URLs (URL best practice)
     const path = `${brandKey}/${categoryKey}`;
 
     // Use first product image from this category as social share image
-    const categoryProducts = staticProducts.filter(
-        p => p.brand.toLowerCase() === brandKey && p.categorySlug.toLowerCase() === categoryKey && p.images?.[0]?.url
-    );
+    const categoryProducts = getLandingPageProducts(brandKey, categoryKey)
+        .filter(product => product.images?.[0]?.url);
     const socialImageUrl = categoryProducts[0]?.images[0]?.url
         ? `https://cairovolt.com${categoryProducts[0].images[0].url}`
         : undefined;
     const socialImageAlt = categoryProducts[0]?.images[0]?.alt
-        || (isArabic ? `${data.categoryName} - كايرو فولت مصر` : `${data.categoryName} - CairoVolt Egypt`);
+        || (isArabic ? `${localizedCategoryName} - كايرو فولت مصر` : `${localizedCategoryName} - CairoVolt Egypt`);
 
     // Get product count for this category
-    const catProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
+    const catProducts = getLandingPageProducts(brandKey, categoryKey);
     const productCount = catProducts.length;
 
-    const arTitle = `أفضل ${data.categoryName} من ${data.brand} ⚡ ${productCount} منتج | أسعار وتوصيل لكل مصر`;
-    const enTitle = `Best ${data.brand} ${data.categoryName} ⚡ ${productCount} Products | Prices + COD Egypt`;
+    const arTitle = `أفضل ${arCategoryName} ⚡ ${productCount} منتج | الأسعار والتوصيل في مصر`;
+    const enTitle = `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`;
 
     const dynamicTitle = isArabic ? arTitle : enTitle;
+    const canonical = isArabic
+        ? `https://cairovolt.com/${path}`
+        : `https://cairovolt.com/en/${path}`;
 
     return {
         title: { absolute: dynamicTitle },
         description: meta.description,
         keywords: meta.keywords,
         alternates: {
-            canonical: locale === 'ar'
-                ? `https://cairovolt.com/${path}`
-                : `https://cairovolt.com/en/${path}`,
+            canonical,
             languages: {
                 'ar-EG': `https://cairovolt.com/${path}`,
                 'en-EG': `https://cairovolt.com/en/${path}`,
@@ -78,7 +98,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         openGraph: {
             ...(meta.openGraph || {}),
-            locale: isArabic ? 'ar_EG' : 'en_US',
+            title: dynamicTitle,
+            description: meta.description,
+            url: canonical,
+            siteName: 'CairoVolt',
+            locale: isArabic ? 'ar_EG' : 'en_EG',
             type: 'website',
             ...(socialImageUrl && {
                 images: [{ url: socialImageUrl, alt: socialImageAlt, width: 800, height: 800 }]
@@ -86,15 +110,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         twitter: {
             card: 'summary_large_image',
-            title: meta.title,
+            title: dynamicTitle,
             description: meta.description,
             images: socialImageUrl ? [socialImageUrl] : undefined,
-        },
-        other: {
-            'geo.region': 'EG',
-            'geo.placename': locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt',
-            'geo.position': '30.0444;31.2357',
-            'ICBM': '30.0444, 31.2357',
         },
     };
 }
@@ -112,7 +130,7 @@ export default async function DynamicCategoryPage({ params }: Props) {
 
     // Get static products server-side for immediate availability
     // This prevents "empty" pages if client-side fetching fails
-    const categoryProducts = getProductsByBrandAndCategory(brandKey, categoryKey);
+    const categoryProducts = getLandingPageProducts(brandKey, categoryKey);
 
     // Default order = demand order: curated best sellers first (same ranking
     // the brand hubs use), then the rest in catalog order. This drives both

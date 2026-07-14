@@ -68,10 +68,10 @@ export const soundcoreHub = {
     categories: [
         {
             href: '/soundcore/audio',
-            title: { en: 'ساوندكور Earbuds & Headphones', ar: 'سماعات ساوند كور (ايربودز + هيدفون)' },
+            title: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات ساوند كور (ايربودز + هيدفون)' },
             description: {
-                en: 'TWS earbuds, neckbands & over-ear headphones. ANC, Hi-Res, LDAC, BassUp.',
-                ar: 'سماعات بلوتوث TWS، نيكباند، وهيدفون. عزل ضوضاء ANC، Hi-Res، LDAC، BassUp.',
+                en: 'TWS earbuds, neckbands, and over-ear headphones; select models include ANC, Hi-Res, LDAC, or BassUp.',
+                ar: 'سماعات TWS ونيكباند وهيدفون؛ تتوفر ANC وHi-Res وLDAC أو BassUp في موديلات مختارة.',
             },
             badge: { en: '26 Models', ar: '26 موديل' },
             icon: 'headphones',
@@ -82,10 +82,10 @@ export const soundcoreHub = {
         },
         {
             href: '/soundcore/speakers',
-            title: { en: 'ساوندكور Bluetooth Speakers', ar: 'مكبرات صوت ساوند كور (Speakers)' },
+            title: { en: 'Soundcore Bluetooth Speakers', ar: 'مكبرات صوت ساوند كور (Speakers)' },
             description: {
-                en: '360° Hi-Res sound, IPX7 waterproof, PartyCast, LED light shows.',
-                ar: 'صوت 360 درجة Hi-Res، مقاومة الماء IPX7، تقنية PartyCast، إضاءة LED تفاعلية.',
+                en: 'Portable Bluetooth speakers; select models include 360° audio, IPX7, PartyCast, or LED light shows.',
+                ar: 'سبيكرات بلوتوث محمولة؛ تتوفر 360° وIPX7 وPartyCast أو إضاءة LED في موديلات مختارة.',
             },
             badge: { en: '4 Flagship Models', ar: '4 موديلات رائدة' },
             icon: 'speaker',
@@ -169,7 +169,7 @@ export const soundcoreHub = {
      */
     trustBadges: [
         { icon: 'music', title: { en: 'Hi-Res Audio Certified', ar: 'شهادة Hi-Res Audio' }, description: { en: 'Japan Audio Society', ar: 'جمعية الصوت اليابانية' } },
-        { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'CairoVolt Authorized', ar: 'وكيل CairoVolt المعتمد' } },
+        { icon: 'shield', title: { en: '18-Month Warranty', ar: 'ضمان 18 شهر' }, description: { en: 'CairoVolt store coverage', ar: 'تغطية متجر كايرو فولت' } },
         { icon: 'phone', title: { en: 'ساوندكور App', ar: 'تطبيق ساوندكور' }, description: { en: 'Free EQ & Firmware Updates', ar: 'EQ مجاني وتحديثات' } },
         { icon: 'star', title: { en: '4.8/5 Global Rating', ar: 'تقييم 4.8/5 عالمياً' }, description: { en: '500K+ verified reviews', ar: '500 ألف+ مراجعة موثوقة' } },
         { icon: 'globe', title: { en: 'iOS & Android', ar: 'iOS و Android' }, description: { en: 'Full cross-platform compatibility', ar: 'توافق كامل عبر المنصات' } },
@@ -201,7 +201,7 @@ export const soundcoreHub = {
             },
             {
                 question: 'منتجات ساوند كور كلها بضمان CairoVolt في مصر؟',
-                answer: 'أيوه — كل منتجات ساوند كور المعروضة في كايرو فولت (سواء سماعات أو سبيكرات) بضمان وكيل 18 شهر + سياسة استبدال خلال 14 يوم بدون أسئلة. التوصيل يوم واحد للقاهرة والجيزة، و2-3 أيام لباقي المحافظات، مع خيار الدفع عند الاستلام.',
+                answer: 'أيوه — منتجات ساوند كور المشمولة في كايرو فولت (سواء سماعات أو سبيكرات) تأتي بتغطية متجر لمدة 18 شهرًا، وتظهر شروط الاستبدال على صفحة المنتج. التوصيل يوم واحد للقاهرة والجيزة، و2-3 أيام لباقي المحافظات، مع خيار الدفع عند الاستلام.',
             },
             {
                 question: 'إيه أفضل سماعة ساوند كور للمبتدئين؟',
@@ -231,7 +231,7 @@ export const soundcoreHub = {
             },
             {
                 question: 'Are all Soundcore products warranted by CairoVolt in Egypt?',
-                answer: 'Yes — every Soundcore product (earbuds and speakers) sold by CairoVolt comes with an authorized 18-month warranty + 14-day no-questions-asked exchange. Next-day delivery for Cairo and Giza, 2-3 days for other governorates, with cash-on-delivery available.',
+                answer: 'Yes — covered Soundcore earbuds and speakers sold by CairoVolt come with an 18-month store warranty; exchange terms are stated on the product page. Next-day delivery is available for Cairo and Giza, with 2-3 day delivery to other governorates and cash on delivery.',
             },
             {
                 question: 'What\'s the best Soundcore earbud for beginners?',
@@ -246,7 +246,7 @@ export const soundcoreHub = {
 
     metadata: {
         en: {
-            title: 'Soundcore by Anker Egypt | Earbuds + Speakers Official Store',
+            title: 'Soundcore by Anker Egypt | Earbuds, Headphones & Speakers',
             description: 'Soundcore by Anker in Egypt — official audio sub-brand. Shop Soundcore earbuds (R50i, P20i, Liberty 4 NC) & Bluetooth speakers (Motion+, Flare 2). Hi-Res Audio Certified. 18-month CairoVolt warranty + Cairo delivery.',
             keywords: 'soundcore, anker soundcore, soundcore egypt, soundcore earbuds, soundcore speakers, anker audio brand, hi-res audio egypt, soundcore r50i, soundcore liberty 4 nc, soundcore motion plus, soundcore flare 2',
         },

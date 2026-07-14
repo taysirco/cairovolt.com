@@ -8,23 +8,19 @@ import { trackWhatsappClick } from '@/lib/analytics';
 interface MobileMenuProps {
     isOpen: boolean;
     onClose: () => void;
-    locale: string;
     isRTL: boolean;
     tBrand: (key: string) => string;
     tCat: (key: string) => string;
     getLocalizedHref: (path: string) => string;
-    getSwitchPath: () => string;
 }
 
 export default function MobileMenu({
     isOpen,
     onClose,
-    locale,
     isRTL,
     tBrand,
     tCat,
     getLocalizedHref,
-    getSwitchPath
 }: MobileMenuProps) {
     const ankerCategories = [
         { slug: 'power-banks', icon: 'battery', key: 'powerBanks' },
@@ -44,6 +40,9 @@ export default function MobileMenu({
         { slug: 'audio', icon: 'headphones', key: 'audio' },
         { slug: 'wall-chargers', icon: 'plug', key: 'wallChargers' },
         { slug: 'cables', icon: 'link', key: 'cables' },
+        { slug: 'smart-watches', icon: 'watch', key: 'smartWatches' },
+        { slug: 'car-holders', icon: 'compass', key: 'carHolders' },
+        { slug: 'car-accessories', icon: 'car', key: 'carAccessories' },
     ];
 
     return (

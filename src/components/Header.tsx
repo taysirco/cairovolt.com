@@ -75,6 +75,9 @@ export default function Header() {
         { slug: 'audio', icon: 'headphones', key: 'audio' },
         { slug: 'wall-chargers', icon: 'plug', key: 'wallChargers' },
         { slug: 'cables', icon: 'link', key: 'cables' },
+        { slug: 'smart-watches', icon: 'watch', key: 'smartWatches' },
+        { slug: 'car-holders', icon: 'compass', key: 'carHolders' },
+        { slug: 'car-accessories', icon: 'car', key: 'carAccessories' },
     ];
 
     return (
@@ -323,12 +326,10 @@ export default function Header() {
             <MobileMenu
                 isOpen={mobileMenuOpen}
                 onClose={() => setMobileMenuOpen(false)}
-                locale={locale}
                 isRTL={isRTL}
                 tBrand={tBrand}
                 tCat={tCat}
                 getLocalizedHref={getLocalizedHref}
-                getSwitchPath={getSwitchPath}
             />
 
             {/* Spacer for fixed header */}

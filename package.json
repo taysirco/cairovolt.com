@@ -11,6 +11,7 @@
     "index:blog": "node scripts/index-blog.js",
     "cover:blog": "node scripts/generate-blog-cover.mjs",
     "cover:ai": "node scripts/generate-ai-cover.mjs",
+    "assets:categories": "node scripts/prepare-category-assets.mjs",
     "kw:blog": "node scripts/blog-keywords.mjs",
     "schedule:blog": "node scripts/schedule-blog.mjs",
     "reveal:blog": "node scripts/reveal-blog.mjs",

@@ -191,10 +191,6 @@ export function ArticleSchema({
     about,
     mentions,
 }: ArticleProps) {
-    // Use stable dates — avoid new Date() which changes on every render
-    // and causes structured data validators to flag constantly changing dates
-    const stableDate = '2025-12-01T00:00:00.000Z';
-
     // Combine sections into article body for structured content
     const articleBody = sections
         ?.map(s => `${s.heading}\n${s.content}`)
@@ -207,8 +203,8 @@ export function ArticleSchema({
         description: description,
         articleBody: articleBody,
         inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
-        datePublished: datePublished || stableDate,
-        dateModified: dateModified || stableDate,
+        ...(datePublished && { datePublished }),
+        ...(dateModified && { dateModified }),
         mainEntityOfPage: {
             '@type': 'WebPage',
             '@id': url,
@@ -252,10 +248,9 @@ export function ArticleSchema({
                 name: locale === 'ar' ? 'كايرو فولت' : 'CairoVolt',
                 url: 'https://cairovolt.com',
             },
-            copyrightNotice: '© CairoVolt — C2PA content credentials & EXIF/XMP authenticated',
-            creditText: locale === 'ar' ? 'كايرو فولت — صورة أصلية موثقة' : 'CairoVolt — verified original photo',
+            copyrightNotice: '© CairoVolt. Rights and provenance metadata are supplied where available.',
+            creditText: locale === 'ar' ? 'كايرو فولت — صورة كتالوج' : 'CairoVolt — catalogue image',
             copyrightHolder: { '@id': 'https://cairovolt.com/#organization' },
-            acquireLicensePage: 'https://cairovolt.com/verify',
         };
     }
 
