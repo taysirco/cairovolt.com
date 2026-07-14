@@ -25,7 +25,16 @@ function resolveItemSku(item: any): string {
 // ═══════════ Server-side Coupon Validation ═══════════
 const SERVER_VALID_COUPONS: Record<string, number> = {
     'ORIGINAL10': 0.10, // 10% discount
+    'SALARY10': 0.10,   // 🗓️ حملة يوم المرتب الشهرية (واتساب) — صالح من 29 حتى 5 فقط (انظر isCouponActive)
 };
+
+// كوبونات موسمية بنافذة زمنية: SALARY10 يعمل من يوم 29 حتى يوم 5 من الشهر التالي
+// (بتوقيت القاهرة) — خارجها يُعامل ككود غير صالح فيُعاد الحساب بلا خصم.
+function isCouponActive(code: string): boolean {
+    if (code !== 'SALARY10') return true;
+    const day = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Africa/Cairo', day: 'numeric' }).format(new Date()));
+    return day >= 29 || day <= 5;
+}
 
 // Defense-in-depth: sanitize user-submitted text before storing
 function sanitizeInput(input: unknown, maxLength = 500): string {
@@ -165,7 +174,7 @@ export async function POST(req: NextRequest) {
         if (data.couponCode && typeof data.couponCode === 'string') {
             const code = data.couponCode.trim().toUpperCase();
             const serverRate = SERVER_VALID_COUPONS[code];
-            if (serverRate) {
+            if (serverRate && isCouponActive(code)) {
                 const serverDiscount = Math.round(serverSubtotal * serverRate);
                 const subtotalAfterDiscount = serverSubtotal - serverDiscount;
                 const shipping = getShippingFee(data.city, subtotalAfterDiscount);
