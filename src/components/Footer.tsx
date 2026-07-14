@@ -198,6 +198,11 @@ export default function Footer() {
                                     {isRTL ? 'باور بانك جوي روم' : 'Joyroom Power Banks'}
                                 </Link>
                             </li>
+                            <li>
+                                <Link href={getLocalizedHref('/joyroom/car-accessories')} className="hover:text-red-600 transition-colors">
+                                    {isRTL ? 'إكسسوارات سيارة جوي روم' : 'Joyroom Car Accessories'}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 

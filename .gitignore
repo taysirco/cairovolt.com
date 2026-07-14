@@ -115,6 +115,7 @@ cairovolt-authenticator.zip
 !/scripts/schedule-blog.mjs
 !/scripts/next-publish-date.mjs
 !/scripts/optimize-blog-covers.mjs
+!/scripts/prepare-category-assets.mjs
 
 # Root-level utility scripts (local tools)
 /convert_all.py
@@ -133,6 +134,10 @@ public/datasets/
 
 # C2PA manifests (generated dynamically in src/lib/media-verification.ts)
 .c2pa-manifests/
+!.c2pa-manifests/
+.c2pa-manifests/*
+!.c2pa-manifests/category-cards/
+!.c2pa-manifests/category-cards/**
 
 # IDE & editor settings
 .vscode/
