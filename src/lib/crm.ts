@@ -68,6 +68,7 @@ function buildLeadPayload(orderData: any) {
         totalPrice: String(orderData.totalAmount ?? ''),
         // 🧾 الأرقام المالية منفصلة (كانت نصاً داخل notes فقط) — ليخزّنها الـCRM حقولاً قابلة للحساب
         shippingFee: Number(orderData.shippingFee ?? 0),
+        couponCode: String(orderData.couponCode || ''),
         couponDiscount: Number(orderData.couponDiscount ?? 0),
         subtotal: Number(orderData.subtotalBeforeDiscount ?? 0),
         orderDetails,
