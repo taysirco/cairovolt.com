@@ -84,36 +84,40 @@ export async function safeSendLeadToCRM(orderData: any): Promise<void> {
     const url = process.env.CRM_WEBHOOK_URL;
     if (!url) return; // الربط معطل حتى يُضبط المتغير
 
-    try {
-        const controller = new AbortController();
-        const timer = setTimeout(() => controller.abort(), CRM_TIMEOUT_MS);
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+    const secret = process.env.CRM_WEBHOOK_SECRET;
+    if (secret) headers['Authorization'] = `Bearer ${secret}`;
+    const body = JSON.stringify(buildLeadPayload(orderData));
+    const oid = orderData.orderId || orderData.id || 'N/A';
 
-        const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-        const secret = process.env.CRM_WEBHOOK_SECRET;
-        if (secret) headers['Authorization'] = `Bearer ${secret}`;
+    // 🔁 محاولات متعددة: الـCRM يعمل بـ minInstances:0 فقد يكون بارداً (أو وسط نشر)
+    //    وقت الطلب — المحاولة الأولى توقظه (قد تنقضي مهلتها) والتالية تصيبه دافئاً.
+    //    غياب هذا كان يُسقط طلبات المتجر بصمت (الطلب في الشيت بلا مستند في الـCRM).
+    //    شبكة أمان الـCRM (smart-engine) تلتقط أي فشل متبقٍّ من الشيت، فلا يضيع الطلب.
+    const MAX_ATTEMPTS = 3;
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+        try {
+            const controller = new AbortController();
+            const timer = setTimeout(() => controller.abort(), CRM_TIMEOUT_MS);
+            const res = await fetch(url, { method: 'POST', headers, body, signal: controller.signal });
+            clearTimeout(timer);
 
-        const res = await fetch(url, {
-            method: 'POST',
-            headers,
-            body: JSON.stringify(buildLeadPayload(orderData)),
-            signal: controller.signal,
-        });
-        clearTimeout(timer);
-
-        if (res.ok) {
-            const body = await res.json().catch(() => ({}));
-            console.log(`[CRM] ✅ Lead synced: ${orderData.orderId || orderData.id || 'N/A'} | ${orderData.phone}${body?.isDuplicate ? ' (مكرر لدى الـCRM)' : ''}`);
-        } else {
-            console.error(`[CRM] ❌ Webhook responded ${res.status}: ${(await res.text().catch(() => '')).slice(0, 200)}`);
+            if (res.ok) {
+                const b = await res.json().catch(() => ({}));
+                console.log(`[CRM] ✅ Lead synced (attempt ${attempt}): ${oid} | ${orderData.phone}${b?.isDuplicate ? ' (مكرر لدى الـCRM)' : ''}`);
+                return; // ✅ نجاح مؤكَّد
+            }
+            const txt = (await res.text().catch(() => '')).slice(0, 200);
+            console.error(`[CRM] ❌ Webhook responded ${res.status} (attempt ${attempt}/${MAX_ATTEMPTS}): ${txt}`);
+            // أخطاء العميل (عدا 408 مهلة / 429 ضغط) لن تُصلحها إعادة المحاولة — توقّف
+            if (res.status >= 400 && res.status < 500 && res.status !== 408 && res.status !== 429) break;
+        } catch (error: any) {
+            const kind = error?.name === 'AbortError' ? `timeout ${CRM_TIMEOUT_MS}ms` : (error?.message || String(error));
+            console.warn(`[CRM] ⚠️ attempt ${attempt}/${MAX_ATTEMPTS} failed: ${kind}`);
         }
-    } catch (error: any) {
-        // fail-open: خطأ الـ CRM لا يُفشل الطلب أبداً
-        if (error?.name === 'AbortError') {
-            // المهلة انقضت بعد إرسال الطلب — الـ CRM ينشئ الليد قبل أن يكمل
-            // تصحيحه الداخلي، فالليد مسجّل على الأرجح رغم غياب الرد.
-            console.warn(`[CRM] ⚠️ Response timeout ${CRM_TIMEOUT_MS}ms — request was delivered; lead most likely created (CRM auto-correct delays the response).`);
-        } else {
-            console.error('[CRM] ❌ Lead sync failed:', error?.message || error);
-        }
+        if (attempt < MAX_ATTEMPTS) await new Promise((r) => setTimeout(r, 800 * attempt)); // backoff 0.8s ثم 1.6s
     }
+    // fail-open: كل المحاولات فشلت — لا نُفشل طلب العميل. شبكة أمان الـCRM من الشيت
+    // ستستورده لاحقاً (لم يعد يُفترض «على الأرجح تسجّل» — الافتراض الخاطئ كان يُخفي الضياع).
+    console.error(`[CRM] ❌ Lead sync FAILED after ${MAX_ATTEMPTS} attempts — CRM safety-net (sheet import) will recover: ${oid}`);
 }
