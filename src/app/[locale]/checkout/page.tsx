@@ -88,9 +88,18 @@ function convertArabicToEnglish(str: string): string {
 }
 
 // ═══════════ Coupon System ═══════════
-const VALID_COUPONS: Record<string, { discount: number; label: string; labelEn: string }> = {
-    'ORIGINAL10': { discount: 0.10, label: 'خصم 10% — هدية التوثيق', labelEn: '10% Off — Verification Gift' },
-};
+// 🎟️ التحقق ديناميكي من سيستم الحسابات عبر /api/v1/coupons/validate —
+// كوبونات المؤثرين الجديدة تعمل فور إنشائها بلا أي نشر (القائمة الثابتة أُزيلت).
+async function validateCouponRemote(code: string): Promise<{ valid: boolean; type: 'percent' | 'fixed'; value: number }> {
+    try {
+        const res = await fetch('/api/v1/coupons/validate', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ code }),
+        });
+        if (res.ok) return await res.json();
+    } catch { /* شبكة */ }
+    return { valid: false, type: 'percent', value: 0 };
+}
 
 export default function CheckoutPage() {
     const t = useTranslations('Checkout');
@@ -109,7 +118,9 @@ export default function CheckoutPage() {
     // Coupon state
     const [couponInput, setCouponInput] = useState('');
     const [couponCode, setCouponCode] = useState<string | null>(null);
-    const [couponDiscount, setCouponDiscount] = useState(0);
+    const [couponType, setCouponType] = useState<'percent' | 'fixed'>('percent');
+    const [couponValue, setCouponValue] = useState(0);
+    const [couponChecking, setCouponChecking] = useState(false);
     const [couponLabel, setCouponLabel] = useState('');
     const [couponError, setCouponError] = useState('');
 
@@ -121,52 +132,62 @@ export default function CheckoutPage() {
         try {
             const fromVerify = localStorage.getItem('cv_verify_completed') === 'true';
             if (fromVerify && !couponCode) {
-                // Auto-apply the coupon silently
+                // Auto-apply the verification gift silently (بعد تحقق ديناميكي)
                 const code = 'ORIGINAL10';
-                const coupon = VALID_COUPONS[code];
-                if (coupon) {
+                validateCouponRemote(code).then((v) => {
+                    if (!v.valid) return;
                     setCouponInput(code);
                     setCouponCode(code);
-                    setCouponDiscount(coupon.discount);
-                    setCouponLabel(isArabic ? coupon.label : coupon.labelEn);
-                }
+                    setCouponType(v.type);
+                    setCouponValue(v.value);
+                    setCouponLabel(isArabic ? 'خصم 10% — هدية التوثيق' : '10% Off — Verification Gift');
+                });
             }
         } catch { /* private browsing */ }
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     // Coupon handlers
-    const handleApplyCoupon = () => {
+    const handleApplyCoupon = async () => {
         setCouponError('');
-        const code = couponInput.trim().toUpperCase();
-        if (!code) return;
-        const coupon = VALID_COUPONS[code];
-        if (coupon) {
+        const code = couponInput.trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
+        if (!code || couponChecking) return;
+        setCouponChecking(true);
+        const v = await validateCouponRemote(code);
+        setCouponChecking(false);
+        if (v.valid && v.value > 0) {
             setCouponCode(code);
-            setCouponDiscount(coupon.discount);
-            setCouponLabel(isArabic ? coupon.label : coupon.labelEn);
+            setCouponType(v.type);
+            setCouponValue(v.value);
+            setCouponLabel(
+                v.type === 'fixed'
+                    ? (isArabic ? `خصم ${v.value.toLocaleString()} جنيه` : `EGP ${v.value.toLocaleString()} Off`)
+                    : (isArabic ? `خصم ${v.value}%` : `${v.value}% Off`)
+            );
             setCouponError('');
             // GA4 event
             if (typeof (window as any).gtag === 'function') {
-                (window as any).gtag('event', 'coupon_applied', { coupon_code: code, discount: coupon.discount });
+                (window as any).gtag('event', 'coupon_applied', { coupon_code: code, discount: v.value });
             }
         } else {
             setCouponCode(null);
-            setCouponDiscount(0);
+            setCouponValue(0);
             setCouponLabel('');
-            setCouponError(isArabic ? 'كود الخصم غير صالح' : 'Invalid coupon code');
+            setCouponError(isArabic ? 'كود الخصم غير صالح أو منتهي الصلاحية' : 'Invalid or expired coupon code');
         }
     };
 
     const handleRemoveCoupon = () => {
         setCouponCode(null);
-        setCouponDiscount(0);
+        setCouponValue(0);
         setCouponLabel('');
         setCouponInput('');
         setCouponError('');
     };
 
     // Calculated amounts
-    const discountAmount = couponCode ? Math.round(totalAmount * couponDiscount) : 0;
+    const discountAmount = couponCode
+        ? (couponType === 'fixed' ? Math.min(Math.round(couponValue), totalAmount) : Math.round(totalAmount * (couponValue / 100)))
+        : 0;
     const subtotalAfterDiscount = totalAmount - discountAmount;
     const shipping = getShippingFee(city, subtotalAfterDiscount);
     const productSavings = Math.max(0, (totalOriginalAmount || totalAmount) - totalAmount);
@@ -264,7 +285,7 @@ export default function CheckoutPage() {
             // Coupon data
             couponCode: couponCode || null,
             couponDiscount: discountAmount, // Absolute discount value in EGP
-            couponPercent: couponDiscount, // Discount rate (0.10 = 10%)
+            couponType, couponValue, // نوع وقيمة الكوبون (percent% أو مبلغ ثابت)
         };
 
         try {
@@ -399,7 +420,7 @@ export default function CheckoutPage() {
                         {/* Discount line */}
                         {couponCode && discountAmount > 0 && (
                             <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
-                                <span>🎁 {isArabic ? `خصم ${Math.round(couponDiscount * 100)}%` : `${Math.round(couponDiscount * 100)}% Discount`}</span>
+                                <span>🎁 {couponLabel || (isArabic ? 'خصم الكوبون' : 'Coupon discount')}</span>
                                 <span>- {discountAmount.toLocaleString()} {currency}</span>
                             </div>
                         )}

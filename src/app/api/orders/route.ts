@@ -164,9 +164,18 @@ export async function POST(req: NextRequest) {
         // Server-side coupon verification — ديناميكي من سيستم الحسابات (acc_coupons)
         // عبر /api/public/coupons بسر الويبهوك + كاش 60ث + fallback محلي للطوارئ.
         if (data.couponCode && typeof data.couponCode === 'string') {
-            const code = data.couponCode.trim().toUpperCase();
+            // نفس تنظيف قناة التحقق — الكود المخزَّن هو ذاته الذي جرى التحقق به (إسناد سليم)
+            const code = data.couponCode.trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
             const verdict = await validateCoupon(code);
             const serverDiscount = computeDiscount(verdict, serverSubtotal);
+            // 💬 شفافية كاملة: كوبون غير صالح = رفض صريح للطلب برسالة واضحة —
+            // لا إعادة تسعير صامتة تجعل العميل يدفع غير ما رأى على الشاشة.
+            if (!verdict.valid || serverDiscount <= 0) {
+                return NextResponse.json(
+                    { error: 'كود الخصم غير صالح أو انتهت صلاحيته — احذفه من الطلب أو صحّحه ثم أكّد مرة أخرى.' },
+                    { status: 400 }
+                );
+            }
             if (verdict.valid && serverDiscount > 0) {
                 const subtotalAfterDiscount = serverSubtotal - serverDiscount;
                 const shipping = getShippingFee(data.city, subtotalAfterDiscount);
