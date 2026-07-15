@@ -90,10 +90,10 @@ const toneClasses: Record<DiscoveryTone, {
 };
 
 const visualClasses: Record<DiscoveryVisual, string> = {
-    balanced: 'max-w-[180px]',
-    wide: 'max-w-[200px]',
-    tall: 'max-w-[160px]',
-    white: 'max-w-[180px]',
+    balanced: 'max-w-[132px]',
+    wide: 'max-w-[145px]',
+    tall: 'max-w-[116px]',
+    white: 'max-w-[132px]',
 };
 
 const accentClasses = {
@@ -106,21 +106,6 @@ const arrow = (isArabic: boolean) => (isArabic ? '←' : '→');
 
 const catalogueCutoutSource = 'http://cv.iptc.org/newscodes/digitalsourcetype/composite';
 const aiAssistedSource = 'http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia';
-
-function cardPositionClasses(index: number, total: number) {
-    const classes = ['xl:col-span-2'];
-    const xlRemainder = total % 3;
-
-    if (xlRemainder === 1 && index === total - 1) classes.push('xl:col-start-3');
-    if (xlRemainder === 2 && index === total - 2) classes.push('xl:col-start-2');
-    if (xlRemainder === 2 && index === total - 1) classes.push('xl:col-start-4');
-
-    if (total % 2 === 1 && index === total - 1) {
-        classes.push('md:col-span-2 md:mx-auto md:w-[calc(50%-0.5rem)] xl:mx-0 xl:w-auto');
-    }
-
-    return classes.join(' ');
-}
 
 export default function CategoryDiscoveryGrid({
     collection,
@@ -152,6 +137,15 @@ export default function CategoryDiscoveryGrid({
                 description: pageDescription,
                 inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                 isPartOf: { '@id': 'https://cairovolt.com/#website' },
+                about: {
+                    '@type': 'Brand',
+                    name: content.sourceBrand,
+                },
+                spatialCoverage: {
+                    '@type': 'Country',
+                    name: isArabic ? 'مصر' : 'Egypt',
+                    sameAs: 'https://www.wikidata.org/wiki/Q79',
+                },
                 primaryImageOfPage: visibleCategories[0]
                     ? { '@id': imageObjectId(0) }
                     : undefined,
@@ -164,6 +158,7 @@ export default function CategoryDiscoveryGrid({
                 })),
                 mainEntity: {
                     '@type': 'ItemList',
+                    '@id': `${pageUrl}#category-list`,
                     name: content.title[language],
                     numberOfItems: visibleCategories.length,
                     itemListElement: visibleCategories.map(({ category, presentation }, index) => ({
@@ -209,7 +204,7 @@ export default function CategoryDiscoveryGrid({
         <section
             id="shop-by-category"
             aria-labelledby={`${collection}-category-heading`}
-            className="bg-[#f5f6f8] py-12 text-[#07111f] sm:py-16 lg:py-20"
+            className="scroll-mt-32 bg-[#f5f6f8] py-4 text-[#07111f] sm:py-5"
         >
             <script
                 type="application/ld+json"
@@ -217,26 +212,34 @@ export default function CategoryDiscoveryGrid({
             />
 
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <header className="mb-8 max-w-3xl sm:mb-10">
-                    <span className={`inline-flex items-center gap-2 text-sm font-bold ${accentClasses[content.accent]}`}>
-                        <SvgIcon name="compass" className="h-5 w-5" />
-                        {content.eyebrow[language]}
-                    </span>
-                    <h2
-                        id={`${collection}-category-heading`}
-                        className="mt-3 text-3xl font-black leading-tight tracking-[-0.025em] sm:text-4xl lg:text-5xl"
-                    >
-                        {content.title[language]}
-                    </h2>
-                    <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
-                        {content.intro[language]}
-                    </p>
-                    <p className="mt-3 text-xs font-semibold text-slate-500 md:hidden">
-                        {isArabic ? 'مرّر لرؤية بقية الأقسام ←' : 'Scroll to explore every category →'}
-                    </p>
+                <header className="mb-3 grid gap-2 lg:grid-cols-2 lg:items-end lg:gap-8">
+                    <div>
+                        <h2
+                            id={`${collection}-category-heading`}
+                            className="flex items-start gap-2 text-xl font-black leading-tight tracking-[-0.025em] sm:text-2xl lg:text-3xl"
+                        >
+                            <SvgIcon name="compass" className={`mt-0.5 h-5 w-5 shrink-0 sm:h-6 sm:w-6 ${accentClasses[content.accent]}`} />
+                            <span>{content.title[language]}</span>
+                        </h2>
+                    </div>
+                    <div>
+                        <p className="text-xs leading-5 text-slate-600 sm:text-sm sm:leading-6">
+                            {content.intro[language]}
+                        </p>
+                        {visibleCategories.length > 2 && (
+                            <p className="mt-1 text-xs font-semibold text-slate-500">
+                                {isArabic ? 'مرّر أفقيًا لرؤية بقية الأقسام ←' : 'Scroll horizontally to explore every category →'}
+                            </p>
+                        )}
+                    </div>
                 </header>
 
-                <div className="-mx-4 flex snap-x snap-proximity gap-4 overflow-x-auto px-4 pb-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 md:pb-0 xl:grid-cols-6">
+                <nav
+                    aria-label={isArabic ? `أقسام ${pageName}` : `${pageName} categories`}
+                    className={`-mx-4 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-4 scroll-px-4 [scrollbar-width:thin] [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-slate-300 [&::-webkit-scrollbar-track]:bg-transparent sm:-mx-6 sm:px-6 sm:scroll-px-6 lg:mx-0 lg:px-0 lg:scroll-px-0 ${
+                        visibleCategories.length <= 2 ? 'md:justify-center md:overflow-visible' : ''
+                    }`}
+                >
                     {visibleCategories.map(({ category, presentation }, index) => {
                         const tone = toneClasses[presentation.tone];
                         const href = `${localizedPrefix}${category.href}`;
@@ -247,34 +250,38 @@ export default function CategoryDiscoveryGrid({
                                 key={category.href}
                                 href={href}
                                 aria-label={`${presentation.action[language]} — ${presentation.description[language]}`}
-                                className={`group relative isolate flex h-full min-h-[390px] w-[84vw] max-w-[350px] shrink-0 snap-start flex-col overflow-hidden rounded-[2rem] border shadow-[0_12px_40px_rgba(15,23,42,.07)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,.13)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 md:w-auto md:max-w-none ${cardPositionClasses(index, visibleCategories.length)} ${tone.card} ${tone.ring}`}
+                                className={`group relative isolate flex min-h-[286px] w-[82vw] max-w-[320px] shrink-0 snap-start flex-col overflow-hidden rounded-[1.6rem] border shadow-[0_10px_32px_rgba(15,23,42,.07)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_20px_46px_rgba(15,23,42,.13)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 sm:w-[320px] sm:max-w-[320px] ${tone.card} ${tone.ring}`}
                             >
                                 {/* Text stays first in the DOM so crawlers and screen
                                     readers meet the category meaning before the image. */}
-                                <div className="relative z-10 flex h-full min-h-[390px] flex-col items-start p-6 sm:p-7">
-                                    <span className={`inline-flex h-11 w-11 items-center justify-center rounded-full border backdrop-blur-sm ${tone.icon}`}>
-                                        <SvgIcon name={category.icon} className="h-5 w-5" />
-                                    </span>
+                                <div className="relative z-10 flex h-full min-h-[286px] flex-col items-start p-[18px] sm:p-5">
+                                    <div className="flex w-full items-start justify-between gap-2">
+                                        <span className={`inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border backdrop-blur-sm ${tone.icon}`}>
+                                            <SvgIcon name={category.icon} className="h-4 w-4" />
+                                        </span>
+                                        <span
+                                            dir="auto"
+                                            className="inline-flex max-w-[68%] rounded-full border border-white/70 bg-white/55 px-2.5 py-1 text-center text-[10px] font-bold leading-tight text-slate-700 backdrop-blur-sm"
+                                        >
+                                            {presentation.signal[language]}
+                                        </span>
+                                    </div>
 
-                                    <span className={`mt-4 text-xs font-black ${tone.label}`}>
+                                    <span className={`mt-2 text-[11px] font-black sm:text-xs ${tone.label}`}>
                                         {label}
                                     </span>
-                                    <h3 className="mt-1 max-w-[92%] text-2xl font-black leading-tight tracking-[-0.02em] sm:text-[1.7rem]">
+                                    <h3 className="mt-0.5 max-w-[96%] text-lg font-black leading-tight tracking-[-0.02em] sm:text-xl">
                                         {presentation.headline[language]}
                                     </h3>
-                                    <p className="mt-2 max-w-[92%] text-sm leading-6 text-slate-600">
+                                    <p className="mt-1 max-w-[96%] text-xs leading-[1.15rem] text-slate-600">
                                         {presentation.description[language]}
                                     </p>
 
-                                    <span
-                                        dir="auto"
-                                        className="mt-3 inline-flex max-w-full rounded-full border border-white/70 bg-white/55 px-3 py-1.5 text-center text-[11px] font-bold leading-tight text-slate-700 backdrop-blur-sm"
+                                    <div
+                                        className="mt-auto grid w-full items-end gap-2 pt-2"
+                                        style={{ gridTemplateColumns: 'minmax(0, 1fr) minmax(96px, 40%)' }}
                                     >
-                                        {presentation.signal[language]}
-                                    </span>
-
-                                    <div className="mt-auto grid w-full grid-cols-[minmax(0,1fr)_minmax(128px,44%)] items-end gap-3 pt-5">
-                                        <span className="inline-flex min-h-11 min-w-0 max-w-full items-center gap-2 self-end rounded-full bg-white/70 px-3 py-2 text-sm font-black leading-snug shadow-sm backdrop-blur-sm transition group-hover:bg-white">
+                                        <span className="inline-flex min-h-10 min-w-0 max-w-full items-center gap-1.5 self-end rounded-full bg-white/70 px-2.5 py-2 text-xs font-black leading-snug shadow-sm backdrop-blur-sm transition group-hover:bg-white">
                                             {presentation.action[language]}
                                             <span
                                                 aria-hidden="true"
@@ -290,13 +297,14 @@ export default function CategoryDiscoveryGrid({
                                             <source
                                                 type="image/webp"
                                                 srcSet={`${presentation.imageBase}-480.webp 480w, ${presentation.imageBase}-800.webp 800w`}
-                                                sizes="(max-width: 767px) 160px, (max-width: 1279px) 22vw, 190px"
+                                                sizes="(max-width: 639px) 43vw, 132px"
                                             />
                                             <img
                                                 src={`${presentation.imageBase}-480.webp`}
                                                 width="800"
                                                 height="800"
-                                                loading="lazy"
+                                                loading={index === 0 ? 'eager' : 'lazy'}
+                                                fetchPriority={index === 0 ? 'high' : 'auto'}
                                                 decoding="async"
                                                 alt={presentation.alt[language]}
                                                 className="h-full w-full object-contain object-bottom drop-shadow-[0_18px_28px_rgba(15,23,42,.22)] transition duration-700 group-hover:scale-[1.045]"
@@ -313,7 +321,7 @@ export default function CategoryDiscoveryGrid({
                             </Link>
                         );
                     })}
-                </div>
+                </nav>
             </div>
         </section>
     );
