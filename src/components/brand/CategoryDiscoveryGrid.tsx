@@ -90,10 +90,10 @@ const toneClasses: Record<DiscoveryTone, {
 };
 
 const visualClasses: Record<DiscoveryVisual, string> = {
-    balanced: 'h-[43%] w-[46%] sm:h-[50%] sm:w-[48%]',
-    wide: 'h-[40%] w-[50%] sm:h-[47%] sm:w-[52%]',
-    tall: 'h-[52%] w-[40%] sm:h-[58%] sm:w-[43%]',
-    white: 'h-[42%] w-[44%] sm:h-[46%] sm:w-[46%]',
+    balanced: 'max-w-[180px]',
+    wide: 'max-w-[200px]',
+    tall: 'max-w-[160px]',
+    white: 'max-w-[180px]',
 };
 
 const accentClasses = {
@@ -103,6 +103,24 @@ const accentClasses = {
 } as const;
 
 const arrow = (isArabic: boolean) => (isArabic ? '←' : '→');
+
+const catalogueCutoutSource = 'http://cv.iptc.org/newscodes/digitalsourcetype/composite';
+const aiAssistedSource = 'http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia';
+
+function cardPositionClasses(index: number, total: number) {
+    const classes = ['xl:col-span-2'];
+    const xlRemainder = total % 3;
+
+    if (xlRemainder === 1 && index === total - 1) classes.push('xl:col-start-3');
+    if (xlRemainder === 2 && index === total - 2) classes.push('xl:col-start-2');
+    if (xlRemainder === 2 && index === total - 1) classes.push('xl:col-start-4');
+
+    if (total % 2 === 1 && index === total - 1) {
+        classes.push('md:col-span-2 md:mx-auto md:w-[calc(50%-0.5rem)] xl:mx-0 xl:w-auto');
+    }
+
+    return classes.join(' ');
+}
 
 export default function CategoryDiscoveryGrid({
     collection,
@@ -122,9 +140,6 @@ export default function CategoryDiscoveryGrid({
         return presentation ? [{ category, presentation }] : [];
     });
     const imageObjectId = (index: number) => `${pageUrl}#category-image-${index + 1}`;
-    const desktopGridClasses = visibleCategories.length === 2
-        ? 'xl:mx-auto xl:max-w-5xl xl:grid-cols-2'
-        : 'xl:grid-cols-3';
 
     const schema = {
         '@context': 'https://schema.org',
@@ -174,10 +189,16 @@ export default function CategoryDiscoveryGrid({
                 height: 800,
                 inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                 creditText: isArabic
-                    ? `أصل كتالوج مرتبط بعلامة ${content.sourceBrand}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
-                    : `Catalogue source associated with ${content.sourceBrand}; category derivative prepared for CairoVolt; rights holder not asserted`,
+                    ? presentation.provenance === 'ai-assisted'
+                        ? `قصّ منتج بمساعدة الذكاء الاصطناعي اعتمادًا على أصل كتالوج مرتبط بعلامة ${content.sourceBrand}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
+                        : `أصل كتالوج مرتبط بعلامة ${content.sourceBrand}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
+                    : presentation.provenance === 'ai-assisted'
+                        ? `AI-assisted cutout based on catalogue imagery associated with ${content.sourceBrand}; category derivative prepared for CairoVolt; rights holder not asserted`
+                        : `Catalogue source associated with ${content.sourceBrand}; category derivative prepared for CairoVolt; rights holder not asserted`,
                 contributor: { '@id': 'https://cairovolt.com/#organization' },
-                digitalSourceType: 'http://cv.iptc.org/newscodes/digitalsourcetype/composite',
+                digitalSourceType: presentation.provenance === 'ai-assisted'
+                    ? aiAssistedSource
+                    : catalogueCutoutSource,
                 isPartOf: { '@id': `${pageUrl}#collectionpage` },
                 position: index + 1,
             })),
@@ -215,8 +236,8 @@ export default function CategoryDiscoveryGrid({
                     </p>
                 </header>
 
-                <div className={`-mx-4 flex snap-x snap-proximity gap-4 overflow-x-auto px-4 pb-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 md:pb-0 ${desktopGridClasses}`}>
-                    {visibleCategories.map(({ category, presentation }) => {
+                <div className="-mx-4 flex snap-x snap-proximity gap-4 overflow-x-auto px-4 pb-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 md:pb-0 xl:grid-cols-6">
+                    {visibleCategories.map(({ category, presentation }, index) => {
                         const tone = toneClasses[presentation.tone];
                         const href = `${localizedPrefix}${category.href}`;
                         const label = category.title[language];
@@ -226,12 +247,11 @@ export default function CategoryDiscoveryGrid({
                                 key={category.href}
                                 href={href}
                                 aria-label={`${presentation.action[language]} — ${presentation.description[language]}`}
-                                className={`group relative isolate min-h-[328px] w-[84vw] max-w-[350px] shrink-0 snap-start overflow-hidden rounded-[2rem] border shadow-[0_12px_40px_rgba(15,23,42,.07)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,.13)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 md:w-auto md:max-w-none ${collection === 'joyroom' ? 'md:last:col-span-2 md:last:mx-auto md:last:w-[calc(50%-0.5rem)] xl:last:col-span-1 xl:last:col-start-2 xl:last:mx-0 xl:last:w-auto' : ''} ${tone.card} ${tone.ring}`}
+                                className={`group relative isolate flex h-full min-h-[390px] w-[84vw] max-w-[350px] shrink-0 snap-start flex-col overflow-hidden rounded-[2rem] border shadow-[0_12px_40px_rgba(15,23,42,.07)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(15,23,42,.13)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2 md:w-auto md:max-w-none ${cardPositionClasses(index, visibleCategories.length)} ${tone.card} ${tone.ring}`}
                             >
-                                {/* Text is intentionally first in the DOM. The media is
-                                    absolutely positioned later, so crawlers and screen
+                                {/* Text stays first in the DOM so crawlers and screen
                                     readers meet the category meaning before the image. */}
-                                <div className="relative z-10 flex min-h-[328px] flex-col items-start p-6 sm:p-7">
+                                <div className="relative z-10 flex h-full min-h-[390px] flex-col items-start p-6 sm:p-7">
                                     <span className={`inline-flex h-11 w-11 items-center justify-center rounded-full border backdrop-blur-sm ${tone.icon}`}>
                                         <SvgIcon name={category.icon} className="h-5 w-5" />
                                     </span>
@@ -239,29 +259,50 @@ export default function CategoryDiscoveryGrid({
                                     <span className={`mt-4 text-xs font-black ${tone.label}`}>
                                         {label}
                                     </span>
-                                    <h3 className="mt-1 max-w-[55%] text-2xl font-black leading-tight tracking-[-0.02em] sm:max-w-[56%] sm:text-[1.7rem]">
+                                    <h3 className="mt-1 max-w-[92%] text-2xl font-black leading-tight tracking-[-0.02em] sm:text-[1.7rem]">
                                         {presentation.headline[language]}
                                     </h3>
-                                    <p className="mt-2 max-w-[55%] text-sm leading-6 text-slate-600 sm:max-w-[56%]">
+                                    <p className="mt-2 max-w-[92%] text-sm leading-6 text-slate-600">
                                         {presentation.description[language]}
                                     </p>
 
                                     <span
                                         dir="auto"
-                                        className="mt-3 inline-flex max-w-[56%] rounded-full border border-white/70 bg-white/55 px-3 py-1.5 text-center text-[11px] font-bold leading-tight text-slate-700 backdrop-blur-sm"
+                                        className="mt-3 inline-flex max-w-full rounded-full border border-white/70 bg-white/55 px-3 py-1.5 text-center text-[11px] font-bold leading-tight text-slate-700 backdrop-blur-sm"
                                     >
                                         {presentation.signal[language]}
                                     </span>
 
-                                    <span className="mt-auto inline-flex min-h-11 max-w-[56%] items-center gap-2 rounded-full bg-white/70 px-3 py-2 text-sm font-black shadow-sm backdrop-blur-sm transition group-hover:bg-white">
-                                        {presentation.action[language]}
-                                        <span
-                                            aria-hidden="true"
-                                            className="shrink-0 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1"
-                                        >
-                                            {arrow(isArabic)}
+                                    <div className="mt-auto grid w-full grid-cols-[minmax(0,1fr)_minmax(128px,44%)] items-end gap-3 pt-5">
+                                        <span className="inline-flex min-h-11 min-w-0 max-w-full items-center gap-2 self-end rounded-full bg-white/70 px-3 py-2 text-sm font-black leading-snug shadow-sm backdrop-blur-sm transition group-hover:bg-white">
+                                            {presentation.action[language]}
+                                            <span
+                                                aria-hidden="true"
+                                                className="shrink-0 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1"
+                                            >
+                                                {arrow(isArabic)}
+                                            </span>
                                         </span>
-                                    </span>
+
+                                        <picture
+                                            className={`pointer-events-none aspect-square w-full justify-self-end self-end ${visualClasses[presentation.visual]}`}
+                                        >
+                                            <source
+                                                type="image/webp"
+                                                srcSet={`${presentation.imageBase}-480.webp 480w, ${presentation.imageBase}-800.webp 800w`}
+                                                sizes="(max-width: 767px) 160px, (max-width: 1279px) 22vw, 190px"
+                                            />
+                                            <img
+                                                src={`${presentation.imageBase}-480.webp`}
+                                                width="800"
+                                                height="800"
+                                                loading="lazy"
+                                                decoding="async"
+                                                alt={presentation.alt[language]}
+                                                className="h-full w-full object-contain object-bottom drop-shadow-[0_18px_28px_rgba(15,23,42,.22)] transition duration-700 group-hover:scale-[1.045]"
+                                            />
+                                        </picture>
+                                    </div>
                                 </div>
 
                                 <span
@@ -269,24 +310,6 @@ export default function CategoryDiscoveryGrid({
                                     className={`absolute bottom-3 right-3 z-0 h-40 w-40 rounded-full blur-3xl rtl:left-3 rtl:right-auto ${tone.glow}`}
                                 />
 
-                                <picture
-                                    className={`pointer-events-none absolute bottom-3 right-0 z-[1] block rtl:left-0 rtl:right-auto ${visualClasses[presentation.visual]}`}
-                                >
-                                    <source
-                                        type="image/webp"
-                                        srcSet={`${presentation.imageBase}-480.webp 480w, ${presentation.imageBase}-800.webp 800w`}
-                                        sizes="(max-width: 767px) 58vw, (max-width: 1279px) 34vw, 22vw"
-                                    />
-                                    <img
-                                        src={`${presentation.imageBase}-800.webp`}
-                                        width="800"
-                                        height="800"
-                                        loading="lazy"
-                                        decoding="async"
-                                        alt={presentation.alt[language]}
-                                        className={`h-full w-full object-contain object-bottom drop-shadow-[0_18px_28px_rgba(15,23,42,.22)] transition duration-700 group-hover:scale-[1.045] ${presentation.visual === 'white' ? 'rounded-[1.5rem] mix-blend-multiply' : ''}`}
-                                    />
-                                </picture>
                             </Link>
                         );
                     })}

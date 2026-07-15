@@ -98,12 +98,14 @@ const nextConfig = {
                 headers: [
                     {
                         key: 'Cache-Control',
-                        value: 'public, max-age=31536000, immutable',
+                        value: 'public, max-age=86400, stale-while-revalidate=604800',
                     },
                     {
-                        // Cloudflare edge: cache forever (immutable assets)
+                        // Public asset names are not universally content-hashed.
+                        // Keep edge caching useful without pinning an HTML
+                        // fallback under an image-looking URL for a full year.
                         key: 'CDN-Cache-Control',
-                        value: 'public, max-age=31536000, immutable',
+                        value: 'public, max-age=604800, stale-while-revalidate=86400',
                     },
                 ],
             },

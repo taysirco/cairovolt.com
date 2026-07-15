@@ -25,120 +25,115 @@ const ROOT = path.resolve(__dirname, '..');
 const PUBLIC = path.join(ROOT, 'public');
 const MANIFEST_DIR = path.join(ROOT, '.c2pa-manifests', 'category-cards');
 const SIZES = [480, 800];
-const DIGITAL_SOURCE = 'http://cv.iptc.org/newscodes/digitalsourcetype/composite';
+const COMPOSITE_SOURCE = 'http://cv.iptc.org/newscodes/digitalsourcetype/composite';
+const AI_ASSISTED_SOURCE = 'http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia';
 const signingSettings = process.env.C2PA_SIGNING_SETTINGS;
 
 const assets = [
     {
-        output: 'images/categories/anker/anker-power-banks-category-card-cairovolt-egypt',
+        output: 'images/categories/anker/anker-power-banks-category-card-cairovolt-egypt-v2',
         source: 'images/home/cutouts/anker-zolo-a110d-power-bank-cutout-cairovolt.png',
-        transparent: true,
         title: 'Anker Power Banks Category — CairoVolt Egypt',
         titleAr: 'قسم باور بانك أنكر — كايرو فولت مصر',
         keywords: ['Anker power bank', 'باور بانك انكر', 'power banks Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/anker/anker-wall-chargers-category-card-cairovolt-egypt',
-        source: 'products/anker/anker-nano-45w-1c-pd/anker-nano-45w-1c-pd-main-front-hero-white.webp',
-        transparent: false,
+        output: 'images/categories/anker/anker-wall-chargers-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/anker/anker-nano-45w-wall-charger-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Anker Wall Chargers Category — CairoVolt Egypt',
         titleAr: 'قسم شواحن أنكر السريعة — كايرو فولت مصر',
         keywords: ['Anker charger', 'شاحن انكر', 'GaN charger Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/anker/anker-cables-category-card-cairovolt-egypt',
-        source: 'products/anker/anker-zolo-usb-c-braided-cable/anker-zolo-usb-c-braided-cable-dual-usb-c-connectors-hero.webp',
-        transparent: false,
+        output: 'images/categories/anker/anker-cables-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/anker/anker-zolo-usb-c-cable-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Anker Cables Category — CairoVolt Egypt',
         titleAr: 'قسم كابلات أنكر الأصلية — كايرو فولت مصر',
         keywords: ['Anker USB-C cable', 'كابل انكر', 'braided cable Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/anker/anker-car-chargers-category-card-cairovolt-egypt',
+        output: 'images/categories/anker/anker-car-chargers-category-card-cairovolt-egypt-v2',
         source: 'images/home/cutouts/anker-a2216-magnetic-car-charger-cutout-cairovolt.png',
-        transparent: true,
         title: 'Anker Car Chargers Category — CairoVolt Egypt',
         titleAr: 'قسم شواحن السيارة من أنكر — كايرو فولت مصر',
         keywords: ['Anker car charger', 'شاحن سيارة انكر', 'MagSafe car mount Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/anker/anker-soundcore-category-card-cairovolt-egypt',
-        source: 'products/anker/anker-soundcore-r50i-nc/anker-soundcore-r50i-nc-active-noise-cancelling-earbuds-cairovolt.webp',
-        transparent: false,
+        output: 'images/categories/anker/anker-soundcore-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/anker/soundcore-r50i-nc-earbuds-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Soundcore by Anker Category — CairoVolt Egypt',
         titleAr: 'قسم ساوند كور من أنكر — كايرو فولت مصر',
         keywords: ['Soundcore by Anker', 'ساوند كور', 'earbuds Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-audio-category-card-cairovolt-egypt',
+        output: 'images/categories/joyroom/joyroom-audio-category-card-cairovolt-egypt-v2',
         source: 'products/joyroom/joyroom-t03s-pro-earbuds/joyroom-joyroom-t03s-pro-earbuds-egypt-cairo-9.webp',
-        transparent: true,
         title: 'Joyroom Audio Category — CairoVolt Egypt',
         titleAr: 'قسم سماعات جوي روم — كايرو فولت مصر',
         keywords: ['Joyroom earbuds', 'سماعات جوي روم', 'T03S Pro Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-power-banks-category-card-cairovolt-egypt',
-        source: 'products/joyroom/joyroom-power-bank-10000/joyroom-joyroom-power-bank-10000-egypt-cairo-1.webp',
-        transparent: false,
+        output: 'images/categories/joyroom/joyroom-power-banks-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/joyroom/joyroom-10000mah-magnetic-power-bank-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Joyroom Power Banks Category — CairoVolt Egypt',
         titleAr: 'قسم باور بانك جوي روم — كايرو فولت مصر',
         keywords: ['Joyroom power bank', 'باور بانك جوي روم', 'power bank Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-wall-chargers-category-card-cairovolt-egypt',
-        source: 'products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp',
-        transparent: false,
+        output: 'images/categories/joyroom/joyroom-wall-chargers-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/joyroom/joyroom-20w-usb-c-wall-charger-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Joyroom Wall Chargers Category — CairoVolt Egypt',
         titleAr: 'قسم شواحن جوي روم — كايرو فولت مصر',
         keywords: ['Joyroom charger', 'شاحن جوي روم', '20W USB-C charger Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-cables-category-card-cairovolt-egypt',
-        source: 'products/joyroom/joyroom-type-c-lightning-braided/joyroom-joyroom-type-c-lightning-braided-egypt-cairo-1.webp',
-        transparent: false,
+        output: 'images/categories/joyroom/joyroom-cables-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/joyroom/joyroom-usb-c-lightning-braided-cable-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Joyroom Cables Category — CairoVolt Egypt',
         titleAr: 'قسم كابلات جوي روم — كايرو فولت مصر',
         keywords: ['Joyroom cable', 'كابل جوي روم', 'USB-C Lightning cable Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-smart-watches-category-card-cairovolt-egypt',
-        source: 'products/joyroom/joyroom-ft3-smartwatch/joyroom-joyroom-ft3-smartwatch-egypt-cairo-1.webp',
-        transparent: false,
+        output: 'images/categories/joyroom/joyroom-smart-watches-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/joyroom/joyroom-ft3-smartwatch-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Joyroom Smart Watches Category — CairoVolt Egypt',
         titleAr: 'قسم ساعات جوي روم الذكية — كايرو فولت مصر',
         keywords: ['Joyroom smartwatch', 'ساعة جوي روم', 'FT3 smartwatch Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-car-holders-category-card-cairovolt-egypt',
-        source: 'products/joyroom/joyroom-car-mount-zs290/joyroom-joyroom-car-mount-zs290-egypt-cairo-1.webp',
-        transparent: false,
-        trimWhite: true,
+        output: 'images/categories/joyroom/joyroom-car-holders-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/joyroom/joyroom-zs290-magnetic-car-mount-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Joyroom Car Holders Category — CairoVolt Egypt',
         titleAr: 'قسم حوامل السيارة من جوي روم — كايرو فولت مصر',
         keywords: ['Joyroom car holder', 'حامل سيارة جوي روم', 'MagSafe mount Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/joyroom/joyroom-car-accessories-category-card-cairovolt-egypt',
-        source: 'products/joyroom/joyroom-60w-car-charger/joyroom-joyroom-60w-car-charger-egypt-cairo-8.webp',
-        transparent: false,
-        trimWhite: true,
+        output: 'images/categories/joyroom/joyroom-car-accessories-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/joyroom/joyroom-60w-retractable-car-charger-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Joyroom Car Accessories Category — CairoVolt Egypt',
         titleAr: 'قسم إكسسوارات السيارة من جوي روم — كايرو فولت مصر',
         keywords: ['Joyroom car accessories', 'اكسسوارات سيارة جوي روم', 'car charger Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/soundcore/soundcore-audio-category-card-cairovolt-egypt',
+        output: 'images/categories/soundcore/soundcore-audio-category-card-cairovolt-egypt-v2',
         source: 'images/home/cutouts/soundcore-liberty-5-tws-earbuds-cutout-cairovolt.png',
-        transparent: true,
         title: 'Soundcore Earbuds and Headphones Category — CairoVolt Egypt',
         titleAr: 'قسم سماعات وايربودز ساوند كور — كايرو فولت مصر',
         keywords: ['Soundcore earbuds', 'سماعات ساوند كور', 'ANC earbuds Egypt', 'CairoVolt'],
     },
     {
-        output: 'images/categories/soundcore/soundcore-speakers-category-card-cairovolt-egypt',
-        source: 'products/anker/soundcore-select-4-go-speaker/soundcore-select-4-go-speaker-main-view-cairovolt.webp',
-        transparent: false,
+        output: 'images/categories/soundcore/soundcore-speakers-category-card-cairovolt-egypt-v2',
+        source: 'images/category-sources/soundcore/soundcore-select-4-go-speaker-transparent-cairovolt.png',
+        aiAssisted: true,
         title: 'Soundcore Bluetooth Speakers Category — CairoVolt Egypt',
         titleAr: 'قسم سبيكرات بلوتوث ساوند كور — كايرو فولت مصر',
         keywords: ['Soundcore speaker', 'سبيكر ساوند كور', 'Bluetooth speaker Egypt', 'CairoVolt'],
@@ -160,27 +155,20 @@ async function makeVariant(asset, size) {
 
     const input = sharp(sourcePath, { failOn: 'warning' });
     const metadata = await input.metadata();
-    const hasAlpha = asset.transparent && Boolean(metadata.hasAlpha);
+    if (!metadata.hasAlpha) {
+        throw new Error(`Category source must have real alpha transparency: ${asset.source}`);
+    }
     const inset = Math.round(size * 0.08);
     const available = size - (inset * 2);
 
     let productPipeline = sharp(sourcePath, { failOn: 'warning' });
-    if (hasAlpha) {
-        productPipeline = productPipeline.trim({ background: { r: 0, g: 0, b: 0, alpha: 0 } });
-    } else if (asset.trimWhite) {
-        productPipeline = productPipeline.trim({
-            background: { r: 255, g: 255, b: 255 },
-            threshold: 12,
-        });
-    }
+    productPipeline = productPipeline.trim({ background: { r: 0, g: 0, b: 0, alpha: 0 } });
 
     const product = await productPipeline
         .resize(available, available, {
             fit: 'contain',
             withoutEnlargement: false,
-            background: hasAlpha
-                ? { r: 0, g: 0, b: 0, alpha: 0 }
-                : { r: 255, g: 255, b: 255, alpha: 1 },
+            background: { r: 0, g: 0, b: 0, alpha: 0 },
         })
         .webp({ quality: 88, alphaQuality: 100, effort: 6, smartSubsample: true })
         .toBuffer();
@@ -189,15 +177,18 @@ async function makeVariant(asset, size) {
         create: {
             width: size,
             height: size,
-            channels: hasAlpha ? 4 : 3,
-            background: hasAlpha
-                ? { r: 0, g: 0, b: 0, alpha: 0 }
-                : { r: 255, g: 255, b: 255 },
+            channels: 4,
+            background: { r: 0, g: 0, b: 0, alpha: 0 },
         },
     })
         .composite([{ input: product, gravity: 'center' }])
         .webp({ quality: 88, alphaQuality: 100, effort: 6, smartSubsample: true })
         .toFile(outputPath);
+
+    const outputMetadata = await sharp(outputPath).metadata();
+    if (!outputMetadata.hasAlpha) {
+        throw new Error(`Generated category asset lost alpha transparency: ${outputPath}`);
+    }
 
     applyMetadata(outputPath, asset);
     const manifestPath = writeManifest(outputPath, asset, size);
@@ -215,6 +206,10 @@ function applyMetadata(outputPath, asset) {
     const description = `${asset.titleAr} | ${asset.title}`;
     const sourceBrand = getSourceBrand(asset);
     const rightsNotice = `Rights holder is not asserted by this derivative metadata. Product catalogue imagery is associated with ${sourceBrand}.`;
+    const digitalSource = asset.aiAssisted ? AI_ASSISTED_SOURCE : COMPOSITE_SOURCE;
+    const sourceDescription = asset.aiAssisted
+        ? `AI-assisted isolated cutout derived from a product catalogue reference associated with ${sourceBrand}: ${asset.source}`
+        : `Product catalogue cutout associated with ${sourceBrand}: ${asset.source}`;
 
     execFileSync('exiftool', [
         '-overwrite_original',
@@ -223,12 +218,12 @@ function applyMetadata(outputPath, asset) {
         `-XMP-dc:Description=${description}`,
         '-XMP-dc:Contributor=CairoVolt category asset pipeline',
         `-XMP-dc:Rights=${rightsNotice}`,
-        `-XMP-dc:Source=Product catalogue asset associated with ${sourceBrand}: ${asset.source}`,
+        `-XMP-dc:Source=${sourceDescription}`,
         `-XMP-dc:Subject=${keywords}`,
         `-XMP-photoshop:Credit=Product catalogue imagery associated with ${sourceBrand}; category derivative prepared for CairoVolt`,
         `-XMP-photoshop:Source=Product catalogue asset associated with ${sourceBrand}`,
         '-XMP-xmpRights:UsageTerms=No reuse rights are granted by this metadata. Contact the applicable rights holder and CairoVolt before reuse.',
-        `-XMP-iptcExt:DigitalSourceType=${DIGITAL_SOURCE}`,
+        `-XMP-iptcExt:DigitalSourceType=${digitalSource}`,
         outputPath,
     ], { stdio: ['ignore', 'ignore', 'inherit'] });
 }
@@ -247,6 +242,10 @@ function writeManifest(outputPath, asset, size) {
     const manifestPath = path.join(MANIFEST_DIR, `${basename}.json`);
     const publicUrl = `https://cairovolt.com/${asset.output}-${size}.webp`;
     const sourceBrand = getSourceBrand(asset);
+    const digitalSource = asset.aiAssisted ? AI_ASSISTED_SOURCE : COMPOSITE_SOURCE;
+    const sourceDescription = asset.aiAssisted
+        ? `AI-assisted isolated product cutout, then resized to a ${size}x${size} transparent category-card asset`
+        : `Catalogue cutout resized to a ${size}x${size} transparent category-card asset`;
     const manifest = {
         claim_generator: 'CairoVolt Category Asset Pipeline/1.0',
         format: 'image/webp',
@@ -257,10 +256,10 @@ function writeManifest(outputPath, asset, size) {
                 data: {
                     actions: [
                         {
-                            action: 'c2pa.created',
+                            action: asset.aiAssisted ? 'c2pa.edited' : 'c2pa.created',
                             softwareAgent: 'CairoVolt category asset pipeline (sharp)',
-                            digitalSourceType: DIGITAL_SOURCE,
-                            description: `Derived ${size}x${size} category-card variant from an existing product asset`,
+                            digitalSourceType: digitalSource,
+                            description: sourceDescription,
                         },
                         {
                             action: 'c2pa.published',
@@ -277,7 +276,9 @@ function writeManifest(outputPath, asset, size) {
                     name: asset.title,
                     url: publicUrl,
                     contributor: { '@type': 'Organization', name: 'CairoVolt', url: 'https://cairovolt.com' },
-                    creditText: `Product catalogue imagery associated with ${sourceBrand}; category derivative prepared for CairoVolt`,
+                    creditText: asset.aiAssisted
+                        ? `AI-assisted cutout based on product catalogue imagery associated with ${sourceBrand}; category derivative prepared for CairoVolt`
+                        : `Product catalogue imagery associated with ${sourceBrand}; category derivative prepared for CairoVolt`,
                 },
             },
         ],

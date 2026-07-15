@@ -1,0 +1,39 @@
+{
+  "claim_generator": "CairoVolt Category Asset Pipeline/1.0",
+  "format": "image/webp",
+  "title": "Joyroom Smart Watches Category — CairoVolt Egypt",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.edited",
+            "softwareAgent": "CairoVolt category asset pipeline (sharp)",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+            "description": "AI-assisted isolated product cutout, then resized to a 480x480 transparent category-card asset"
+          },
+          {
+            "action": "c2pa.published",
+            "softwareAgent": "CairoVolt Next.js storefront"
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Joyroom Smart Watches Category — CairoVolt Egypt",
+        "url": "https://cairovolt.com/images/categories/joyroom/joyroom-smart-watches-category-card-cairovolt-egypt-v2-480.webp",
+        "contributor": {
+          "@type": "Organization",
+          "name": "CairoVolt",
+          "url": "https://cairovolt.com"
+        },
+        "creditText": "AI-assisted cutout based on product catalogue imagery associated with JOYROOM; category derivative prepared for CairoVolt"
+      }
+    }
+  ]
+}

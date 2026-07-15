@@ -1,9 +1,9 @@
 /**
- * CairoVolt Service Worker v3 — Instant Everything
+ * CairoVolt Service Worker v4 — Fast, validated media
  * 
  * Strategy:
  * - App Shell (layout, fonts, CSS): Cache First — instant load
- * - Product Images: Cache First — never re-download
+ * - Product Images: Cache First after MIME validation
  * - API Routes: Network Only — always fresh data
  * - HTML Pages: Stale-While-Revalidate — instant load + background refresh
  * - Cloudflare-aware: respects cf-cache-status headers
@@ -11,7 +11,7 @@
  * Result: Repeat visits load in ~0ms (from cache)
  */
 
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const CACHE_NAME = `cairovolt-${CACHE_VERSION}`;
 const STATIC_CACHE = `cairovolt-static-${CACHE_VERSION}`;
 const IMG_CACHE = `cairovolt-images-${CACHE_VERSION}`;
@@ -69,7 +69,7 @@ self.addEventListener('fetch', (event) => {
 
     // Strategy routing
     if (isImageRequest(url)) {
-        event.respondWith(cacheFirst(request, IMG_CACHE, MAX_IMAGES));
+        event.respondWith(cacheFirstImage(request, IMG_CACHE, MAX_IMAGES));
     } else if (isStaticAsset(url)) {
         event.respondWith(cacheFirst(request, STATIC_CACHE));
     } else if (isNavigationRequest(request)) {
@@ -80,13 +80,13 @@ self.addEventListener('fetch', (event) => {
 // ── Strategies ──
 
 async function cacheFirst(request, cacheName, maxItems) {
-    const cached = await caches.match(request);
+    const cache = await caches.open(cacheName);
+    const cached = await cache.match(request);
     if (cached) return cached;
 
     try {
         const response = await fetch(request);
         if (response.ok) {
-            const cache = await caches.open(cacheName);
             cache.put(request, response.clone());
             // Evict oldest if over limit
             if (maxItems) trimCache(cacheName, maxItems);
@@ -94,6 +94,56 @@ async function cacheFirst(request, cacheName, maxItems) {
         return response;
     } catch {
         return new Response('Offline', { status: 503 });
+    }
+}
+
+function isValidImageResponse(response) {
+    return response.ok && response.headers.get('content-type')?.toLowerCase().startsWith('image/');
+}
+
+async function fetchValidatedImage(request) {
+    const response = await fetch(request);
+    if (isValidImageResponse(response)) return response;
+
+    // A stale edge can occasionally return an HTML fallback with status 200
+    // for an image URL. A stable query key bypasses that poisoned object.
+    const retryUrl = new URL(request.url);
+    retryUrl.searchParams.set('cv-image-retry', CACHE_VERSION);
+    const retryRequest = new Request(retryUrl.toString(), {
+        method: 'GET',
+        headers: request.headers,
+        mode: request.mode,
+        credentials: request.credentials,
+        redirect: request.redirect,
+        referrer: request.referrer,
+        referrerPolicy: request.referrerPolicy,
+        cache: 'reload',
+    });
+    const retryResponse = await fetch(retryRequest);
+    return isValidImageResponse(retryResponse) ? retryResponse : response;
+}
+
+async function cacheFirstImage(request, cacheName, maxItems) {
+    const cache = await caches.open(cacheName);
+    const cached = await cache.match(request);
+
+    if (cached) {
+        if (isValidImageResponse(cached)) return cached;
+        await cache.delete(request);
+    }
+
+    try {
+        const response = await fetchValidatedImage(request);
+        if (isValidImageResponse(response)) {
+            await cache.put(request, response.clone());
+            if (maxItems) trimCache(cacheName, maxItems);
+        }
+        return response;
+    } catch {
+        return new Response('Offline', {
+            status: 503,
+            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+        });
     }
 }
 
