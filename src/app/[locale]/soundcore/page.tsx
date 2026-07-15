@@ -80,13 +80,34 @@ export default async function SoundcoreHubPage({ params }: Props) {
     const getHref = (path: string) => `${baseHref}${path}`;
     const products = getSoundcoreBestSellers(12);
     const pageHeading = isRTL
-        ? 'ساوند كور (Soundcore) في مصر — العلامة الصوتية الفرعية من Anker'
-        : 'Soundcore by Anker in Egypt — Anker\'s Audio Sub-Brand';
+        ? 'منتجات ساوند كور الأصلية في مصر من Anker'
+        : 'Original Soundcore by Anker Products in Egypt';
     const pageDescription = data.metadata[isRTL ? 'ar' : 'en'].description;
+    const topSummary = isRTL
+        ? 'اختر ايربودز أو هيدفون أو سبيكرات ساوند كور الأصلية، ثم انتقل مباشرةً إلى المنتجات الأكثر طلبًا بضمان كايرو فولت لمدة 18 شهرًا.'
+        : 'Choose original Soundcore earbuds, headphones, or speakers, then shop the most requested products directly with an 18-month CairoVolt warranty.';
 
     const quickAnswer = isRTL
         ? 'ساوند كور (Soundcore) هي العلامة الفرعية للصوتيات من Anker، أُطلقت سنة 2016. تنقسم منتجاتها لعائلتين فقط: (1) سماعات/ايربودز/هيدفون في /soundcore/audio، و(2) مكبرات صوت بلوتوث في /soundcore/speakers. كل المنتجات بضمان 18 شهر من كايرو فولت.'
         : 'Soundcore is Anker\'s audio sub-brand, launched in 2016. Products split into two lines only: (1) earbuds/headphones at /soundcore/audio, and (2) Bluetooth speakers at /soundcore/speakers. All carry an 18-month CairoVolt warranty.';
+    const canonicalPage = `https://cairovolt.com${baseHref}/soundcore`;
+    const bestSellerSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        '@id': `${canonicalPage}#best-sellers-list`,
+        name: isRTL
+            ? `أفضل ${products.length} منتج من ساوند كور في مصر`
+            : `Top ${products.length} Soundcore Products in Egypt`,
+        isPartOf: { '@id': `${canonicalPage}#collectionpage` },
+        numberOfItems: products.length,
+        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListElement: products.map((product, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: product.translations[isRTL ? 'ar' : 'en'].name,
+            url: `${canonicalPage}/${product.categorySlug}/${product.slug}`,
+        })),
+    };
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-black" dir={isRTL ? 'rtl' : 'ltr'}>
@@ -99,99 +120,106 @@ export default async function SoundcoreHubPage({ params }: Props) {
                 ]}
                 locale={locale}
             />
-            {/* ─── Hero: H1 and concise brand promise first. ─── */}
-            <section className="relative overflow-hidden py-8 md:py-14">
+            {/* Compact commerce header. The full explanatory copy remains
+                visible below the category and product decision layers. */}
+            <header id="brand-hero" className="relative scroll-mt-32 overflow-hidden py-4 md:py-5">
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-600 via-red-600 to-pink-700 opacity-95"></div>
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-15"></div>
 
-                <div className="container relative z-10 mx-auto px-4 text-center">
-                    {/* Lineage badge — clarifies Anker parentage */}
-                    <Link
-                        href={getHref('/anker')}
-                        className="inline-flex items-center gap-2 px-4 py-1.5 mb-4 bg-black/30 backdrop-blur-md border border-white/20 rounded-full text-white/90 text-xs md:text-sm font-medium hover:bg-black/40 transition-colors"
-                    >
-                        <SvgIcon name="link" className="w-3.5 h-3.5" />
-                        {isRTL ? 'علامة فرعية من Anker — اعرف الشركة الأم' : 'A sub-brand of Anker — learn about the parent company'}
-                        <span>{isRTL ? '←' : '→'}</span>
-                    </Link>
+                <div className="container relative z-10 mx-auto px-4 text-center lg:grid lg:grid-cols-5 lg:items-center lg:gap-8 lg:text-start">
+                    <div className="lg:col-span-3">
+                        <div className="mb-2 flex flex-wrap items-center justify-center gap-2 lg:justify-start">
+                            <Link
+                                href={getHref('/anker')}
+                                className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-black/25 px-3 py-1 text-[11px] font-medium text-white/90 backdrop-blur-md transition-colors hover:bg-black/40 md:text-xs"
+                            >
+                                <SvgIcon name="link" className="h-3.5 w-3.5" />
+                                {isRTL ? 'علامة صوتية من Anker' : 'An audio brand by Anker'}
+                                <span aria-hidden="true">{isRTL ? '←' : '→'}</span>
+                            </Link>
 
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-full shadow-2xl">
-                        <span className="w-2 h-2 rounded-full bg-green-300 animate-pulse"></span>
-                        <span className="text-white text-xs md:text-sm font-bold tracking-wide">
-                            {isRTL ? data.hero.badge.ar : data.hero.badge.en}
-                        </span>
+                            <div className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-3 py-1 backdrop-blur-md">
+                                <span className="h-2 w-2 rounded-full bg-green-300 animate-pulse"></span>
+                                <span className="text-[11px] font-bold tracking-wide text-white md:text-xs">
+                                    {isRTL ? data.hero.badge.ar : data.hero.badge.en}
+                                </span>
+                            </div>
+                        </div>
+
+                        <h1 className="mb-2 bg-gradient-to-b from-white to-white/70 bg-clip-text text-2xl font-black leading-tight tracking-tight text-transparent drop-shadow-sm md:text-3xl lg:text-4xl">
+                            {pageHeading}
+                        </h1>
+
+                        <p data-top-summary className="mx-auto mb-4 max-w-4xl text-sm font-light leading-relaxed text-white/90 md:text-base lg:mx-0 lg:mb-0">
+                            {topSummary}
+                        </p>
                     </div>
 
-                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/70 mb-3 tracking-tight drop-shadow-sm leading-tight max-w-4xl mx-auto">
-                        {pageHeading}
-                    </h1>
-
-                    <p className="text-lg md:text-2xl font-light text-white/90 italic mb-5">
-                        {isRTL ? data.hero.subtitle.ar : data.hero.subtitle.en}
-                    </p>
-
-                    {/* Express lane: straight to ranked best sellers */}
-                    <div className="flex flex-wrap items-center justify-center gap-3">
+                    <div className="flex flex-wrap items-center justify-center gap-2.5 lg:col-span-2 lg:justify-end">
+                        <a
+                            href="#shop-by-category"
+                            className="group inline-flex min-h-10 items-center gap-2 rounded-full bg-white px-5 py-2.5 text-xs font-black text-gray-900 shadow-xl transition hover:-translate-y-0.5 hover:shadow-2xl md:text-sm"
+                        >
+                            <SvgIcon name="compass" className="h-4 w-4 text-orange-600" />
+                            {isRTL ? 'اختر طريقة الاستماع' : 'Choose how you listen'}
+                            <span aria-hidden="true">{isRTL ? '←' : '→'}</span>
+                        </a>
                         <a
                             href="#best-sellers"
-                            className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm md:text-base font-black text-gray-900 shadow-2xl transition hover:-translate-y-0.5 hover:shadow-xl"
+                            className="group inline-flex min-h-10 items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-xs font-black text-white backdrop-blur-sm transition hover:bg-white/20 md:text-sm"
                         >
-                            <SvgIcon name="fire" className="w-5 h-5 text-orange-600" />
-                            {isRTL ? 'تسوّق الأكثر مبيعًا الآن' : 'Shop the best sellers now'}
-                            <span className="transition-transform group-hover:translate-y-0.5">↓</span>
+                            <SvgIcon name="fire" className="h-4 w-4" />
+                            {isRTL ? 'الأكثر مبيعًا' : 'Best sellers'}
+                            <span aria-hidden="true" className="transition-transform group-hover:translate-y-0.5">↓</span>
                         </a>
-                        <span className="text-xs md:text-sm text-white/85">
+                        <span className="hidden text-[11px] font-medium text-white/85 sm:inline md:text-xs">
                             {isRTL ? 'أصلي 100% · ادفع عند الاستلام' : '100% original · Cash on delivery'}
                         </span>
                     </div>
                 </div>
-            </section>
+            </header>
 
-            {/* The answer text precedes category media in the document so the
-                page purpose is explicit to users, crawlers, and answer engines. */}
-            <section className="bg-white py-7 dark:bg-gray-950 sm:py-9">
-                <div className="container mx-auto px-4">
-                    <p className="mx-auto mb-5 max-w-3xl text-center text-base font-light leading-relaxed text-gray-700 dark:text-gray-300 md:text-lg">
-                        {isRTL ? data.hero.description.ar : data.hero.description.en}
-                    </p>
-                    <div className="mx-auto max-w-2xl">
-                        <QuickAnswerBox answer={quickAnswer} locale={locale} variant="subtle" />
-                    </div>
-                </div>
-            </section>
+            <div id="commerce-entry">
+                <CategoryDiscoveryGrid
+                    collection="soundcore"
+                    categories={data.categories}
+                    locale={locale}
+                    pageName={pageHeading}
+                    pageDescription={pageDescription}
+                />
 
-            <CategoryDiscoveryGrid
-                collection="soundcore"
-                categories={data.categories}
-                locale={locale}
-                pageName={pageHeading}
-                pageDescription={pageDescription}
-            />
-
-            {/* ─── BEST SELLERS (mixed audio + speakers) ─── */}
-            {products.length > 0 && (
-                <section id="best-sellers" className="scroll-mt-20 py-10 md:py-16">
+                {/* ─── BEST SELLERS (mixed audio + speakers) ─── */}
+                {products.length > 0 && (
+                <section id="best-sellers" className="scroll-mt-32 py-4 sm:py-5 md:py-8">
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(bestSellerSchema) }}
+                    />
                     <div className="container mx-auto px-4">
-                        <div className="text-center mb-8">
-                            <div className="inline-flex items-center gap-2 px-4 py-2 mb-4 bg-gradient-to-r from-orange-100 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-full border border-orange-200 dark:border-orange-800/50">
-                                <SvgIcon name="fire" className="w-4 h-4 text-orange-600 dark:text-orange-400" />
-                                <span className="text-sm font-bold text-orange-700 dark:text-orange-300">
-                                    {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
-                                </span>
+                        <div className="mb-4 grid gap-2 md:mb-5 md:grid-cols-2 md:items-end md:gap-8">
+                            <div>
+                                <div className="mb-1.5 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-gradient-to-r from-orange-100 to-red-100 px-3 py-1 dark:border-orange-800/50 dark:from-orange-900/30 dark:to-red-900/30">
+                                    <SvgIcon name="fire" className="h-4 w-4 text-orange-600 dark:text-orange-400" />
+                                    <span className="text-xs font-bold text-orange-700 dark:text-orange-300">
+                                        {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
+                                    </span>
+                                </div>
+                                <h2 className="text-xl font-black text-gray-900 dark:text-white sm:text-2xl md:text-3xl lg:text-4xl">
+                                    {isRTL ? `أفضل ${products.length} منتج من ساوند كور` : `Top ${products.length} Soundcore Products`}
+                                </h2>
                             </div>
-                            <h2 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-white mb-3">
-                                {isRTL ? `أفضل ${products.length} منتج من ساوند كور` : `Top ${products.length} Soundcore Products`}
-                            </h2>
-                            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                                {isRTL
-                                    ? 'مزيج من ايربودز ساوند كور وسبيكرات ساوند كور — مع ضمان كايرو فولت لمدة 18 شهرًا'
-                                    : 'A mix of Soundcore earbuds and speakers — with an 18-month CairoVolt warranty'}
-                            </p>
-                            <div className="h-1.5 w-24 mx-auto mt-4 rounded-full bg-gradient-to-r from-orange-500 to-pink-500"></div>
+                            <div>
+                                <p className="text-xs leading-5 text-gray-600 dark:text-gray-400 sm:text-sm sm:leading-6 md:text-base">
+                                    {isRTL
+                                        ? 'مزيج من ايربودز وسبيكرات ساوند كور الأصلية — مع ضمان كايرو فولت لمدة 18 شهرًا.'
+                                        : 'A mix of original Soundcore earbuds and speakers — with an 18-month CairoVolt warranty.'}
+                                </p>
+                                <div className="mt-2 h-1 w-20 rounded-full bg-gradient-to-r from-orange-500 to-pink-500"></div>
+                            </div>
                         </div>
 
                         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3 md:gap-5">
-                            {products.map(product => {
+                            {products.map((product) => {
                                 const t = product.translations[isRTL ? 'ar' : 'en'];
                                 const productUrl = getHref(`/soundcore/${product.categorySlug}/${product.slug}`);
                                 const isSpeaker = product.categorySlug === 'speakers';
@@ -241,7 +269,27 @@ export default async function SoundcoreHubPage({ params }: Props) {
                         </div>
                     </div>
                 </section>
-            )}
+                )}
+            </div>
+
+            <section id="brand-guide" aria-labelledby="soundcore-guide-heading" className="scroll-mt-32 bg-white py-8 dark:bg-gray-950 sm:py-10">
+                <div className="container mx-auto px-4">
+                    <div className="mx-auto mb-5 max-w-3xl text-center">
+                        <span className="text-xs font-black uppercase tracking-wide text-orange-700">
+                            {isRTL ? 'دليل شراء موثوق' : 'Trusted buying guide'}
+                        </span>
+                        <h2 id="soundcore-guide-heading" className="mt-2 text-2xl font-black text-gray-950 dark:text-white md:text-3xl">
+                            {isRTL ? 'ملخص ساوند كور للشراء في مصر' : 'Soundcore buying summary for Egypt'}
+                        </h2>
+                        <p className="mt-3 text-sm leading-7 text-gray-700 dark:text-gray-300 md:text-base">
+                            {isRTL ? data.hero.description.ar : data.hero.description.en}
+                        </p>
+                    </div>
+                    <div className="mx-auto max-w-2xl">
+                        <QuickAnswerBox answer={quickAnswer} locale={locale} variant="subtle" />
+                    </div>
+                </div>
+            </section>
 
             {/* ─── Trust Badges Bar ─── */}
             <section className="bg-gradient-to-r from-orange-50 to-pink-50 dark:from-gray-900 dark:to-gray-800 py-6 border-y border-gray-100 dark:border-gray-700">

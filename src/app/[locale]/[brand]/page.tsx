@@ -109,8 +109,8 @@ export default async function BrandHubPage({ params }: Props) {
     ).length;
     const brandName = data.hero.title.replace(/\s*Egypt$/i, '');
     const pageHeading = isRTL
-        ? `متجر كايرو فولت: وجهتك الموثوقة لمنتجات ${brandName} الأصلية في مصر`
-        : `CairoVolt Store: Your Trusted Destination for Original ${brandName} in Egypt`;
+        ? `منتجات ${brandName} الأصلية في مصر`
+        : `Original ${brandName} Products in Egypt`;
     const pageDescription = isRTL ? data.metadata.ar.description : data.metadata.en.description;
 
     // Helper to get localized href
@@ -132,85 +132,112 @@ export default async function BrandHubPage({ params }: Props) {
 
             {/* FAQPage schema removed — Google deprecated FAQ rich results May 7, 2026 */}
 
-            {/* Hero — the H1 and value proposition remain the first visible
-                content. The semantic answer and subcategory links follow
-                immediately, before the product catalogue. */}
-            <section className={`relative overflow-hidden py-8 md:py-14`}>
+            {/* Compact commerce header: one clear H1 and a short, visible answer.
+                The category and product decision layers follow immediately in
+                the same DOM order for customers, crawlers, and screen readers. */}
+            <header id="brand-hero" className="relative scroll-mt-32 overflow-hidden py-4 md:py-5">
                 {/* Dynamic Background */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${data.hero.bgGradient} opacity-90`}></div>
                 <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20"></div>
 
                 {/* Content */}
-                <div className="container relative z-10 mx-auto px-4 text-center">
-                    {/* Badge */}
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-4 md:mb-5 bg-white/10 backdrop-blur-md border border-white/20 rounded-full shadow-2xl animate-fade-in-up">
-                        <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
-                        <span className="text-white text-xs md:text-sm font-bold tracking-wide">
-                            {isRTL ? data.hero.badge.ar : data.hero.badge.en}
-                        </span>
+                <div className="container relative z-10 mx-auto px-4 text-center lg:grid lg:grid-cols-5 lg:items-center lg:gap-8 lg:text-start">
+                    <div className="lg:col-span-3">
+                        <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 backdrop-blur-md">
+                            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+                            <span className="text-[11px] font-bold tracking-wide text-white md:text-xs">
+                                {isRTL ? data.hero.badge.ar : data.hero.badge.en}
+                            </span>
+                        </div>
+
+                        <h1 className="mb-2 bg-gradient-to-b from-white to-white/70 bg-clip-text text-2xl font-black leading-tight tracking-tight text-transparent drop-shadow-sm md:text-3xl lg:text-4xl">
+                            {pageHeading}
+                        </h1>
+
+                        <p data-top-summary className={`mx-auto mb-4 max-w-4xl text-sm font-light leading-relaxed md:text-base lg:mx-0 lg:mb-0 ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
+                            }`}>
+                            {isRTL ? data.hero.description.ar : data.hero.description.en}
+                        </p>
                     </div>
 
-                    {/* Title (Brand Declaration) — strip a trailing "Egypt" from
-                        the display name so "… in Egypt" never doubles it. */}
-                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-3 md:mb-4 tracking-tight drop-shadow-sm leading-tight max-w-4xl mx-auto">
-                        {pageHeading}
-                    </h1>
-
-                    {/* Description */}
-                    <p className={`text-sm md:text-lg font-light mb-5 max-w-3xl mx-auto leading-relaxed ${brand === 'joyroom' ? 'text-red-50' : 'text-blue-50'
-                        }`}>
-                        {isRTL ? data.hero.description.ar : data.hero.description.en}
-                    </p>
-
-                    {/* Express lane: high-intent visitors jump straight to the
-                        ranked best sellers instead of scrolling. */}
-                    <div className="flex flex-wrap items-center justify-center gap-3">
+                    <div className="flex flex-wrap items-center justify-center gap-2.5 lg:col-span-2 lg:justify-end">
+                        <a
+                            href="#shop-by-category"
+                            className="group inline-flex min-h-10 items-center gap-2 rounded-full bg-white px-5 py-2.5 text-xs font-black text-gray-900 shadow-xl transition hover:-translate-y-0.5 hover:shadow-2xl md:text-sm"
+                        >
+                            <SvgIcon name="compass" className={`h-4 w-4 ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`} />
+                            {isRTL ? 'اختر القسم' : 'Choose a category'}
+                            <span aria-hidden="true">{isRTL ? '←' : '→'}</span>
+                        </a>
                         <a
                             href="#best-sellers"
-                            className="group inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm md:text-base font-black text-gray-900 shadow-2xl transition hover:-translate-y-0.5 hover:shadow-xl"
+                            className="group inline-flex min-h-10 items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-xs font-black text-white backdrop-blur-sm transition hover:bg-white/20 md:text-sm"
                         >
-                            <SvgIcon name="fire" className={`w-5 h-5 ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`} />
-                            {isRTL ? 'تسوّق الأكثر مبيعًا الآن' : 'Shop the best sellers now'}
-                            <span className="transition-transform group-hover:translate-y-0.5">↓</span>
+                            <SvgIcon name="fire" className="h-4 w-4" />
+                            {isRTL ? 'الأكثر مبيعًا' : 'Best sellers'}
+                            <span aria-hidden="true" className="transition-transform group-hover:translate-y-0.5">↓</span>
                         </a>
-                        <span className="text-xs md:text-sm text-white/80">
-                            {isRTL ? 'أصلي 100% · ادفع عند الاستلام' : '100% original · Cash on delivery'}
-                        </span>
-                    </div>
 
-                    {/* Hero Product - Pulsing CTA (a direct product link, so it
-                        earns its hero slot — Joyroom only) */}
-                    {data.hero.heroProduct && (
-                        <div className="mt-6 animate-bounce-slow">
+                        {data.hero.heroProduct && (
                             <Link
                                 href={getLocalizedHref(data.hero.heroProduct.link.href)}
-                                className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black rounded-full font-bold shadow-2xl hover:scale-105 transition-transform duration-300 group"
+                                className="group hidden min-h-10 items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-2.5 text-xs font-black text-white backdrop-blur-sm transition hover:bg-white/20 md:text-sm lg:inline-flex"
                             >
-                                <span className={`text-xl ${brand === 'joyroom' ? 'text-red-600' : 'text-blue-600'}`}><SvgIcon name="star" className="w-5 h-5" /></span>
+                                <SvgIcon name="star" className="h-4 w-4" />
                                 <span>{isRTL ? data.hero.heroProduct.link.text.ar : data.hero.heroProduct.link.text.en}</span>
-                                <span className={`${isRTL ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'} transition-transform`}>
+                                <span aria-hidden="true" className={`${isRTL ? 'group-hover:-translate-x-1' : 'group-hover:translate-x-1'} transition-transform`}>
                                     {isRTL ? '←' : '→'}
                                 </span>
                             </Link>
-                        </div>
-                    )}
+                        )}
+
+                        <span className="hidden text-[11px] font-medium text-white/80 sm:inline md:text-xs">
+                            {isRTL ? 'أصلي 100% · ادفع عند الاستلام' : '100% original · Cash on delivery'}
+                        </span>
+                    </div>
                 </div>
-            </section>
+            </header>
 
             {/* Verification Banner (Joyroom Only) */}
             {brand === 'joyroom' && (
-                <div className="bg-yellow-400 text-black py-3 overflow-hidden">
-                    <div className="container mx-auto px-4 flex items-center justify-center gap-2 text-center font-bold text-sm md:text-base animate-pulse">
+                <div className="overflow-hidden bg-yellow-400 py-2 text-black">
+                    <div className="container mx-auto flex items-center justify-center gap-2 px-4 text-center text-xs font-bold md:text-sm">
                         {isRTL ? 'تنبيه: تأكد دائماً من وجود "الكود الذهبي" لضمان المنتج الأصلي.' : 'Alert: Always verify the "Golden Code" to ensure authenticity.'}
                     </div>
                 </div>
             )}
 
-            {/* Concise, visible answer and trust evidence before imagery and
-                product grids. This gives users, search engines, and answer
-                engines the page meaning without relying on image parsing. */}
-            <section className="bg-white py-7 dark:bg-gray-950 sm:py-9">
+            <div id="commerce-entry">
+                <CategoryDiscoveryGrid
+                    collection={brand as 'anker' | 'joyroom'}
+                    categories={data.categories}
+                    locale={locale}
+                    pageName={pageHeading}
+                    pageDescription={pageDescription}
+                />
+
+                <BestSellingProducts
+                    brandSlug={brand}
+                    brandDisplayName={data.hero.title}
+                    locale={locale}
+                    maxProducts={20}
+                />
+            </div>
+
+            {/* Visible, server-rendered answer-engine context remains on the
+                page, but follows the shopping decisions instead of blocking
+                them above the fold. */}
+            <section id="brand-guide" aria-labelledby={`${brand}-guide-heading`} className="scroll-mt-32 bg-white py-8 dark:bg-gray-950 sm:py-10">
                 <div className="container mx-auto px-4">
+                    <div className="mx-auto mb-5 max-w-3xl text-center">
+                        <span className={`text-xs font-black uppercase tracking-wide ${brand === 'joyroom' ? 'text-red-700' : 'text-blue-700'}`}>
+                            {isRTL ? 'دليل شراء موثوق' : 'Trusted buying guide'}
+                        </span>
+                        <h2 id={`${brand}-guide-heading`} className="mt-2 text-2xl font-black text-gray-950 dark:text-white md:text-3xl">
+                            {isRTL ? `ملخص ${brandName} للشراء في مصر` : `${brandName} buying summary for Egypt`}
+                        </h2>
+                    </div>
+
                     {data.quickAnswer && (
                         <div className="mx-auto mb-5 max-w-3xl">
                             <QuickAnswerBox
@@ -220,6 +247,7 @@ export default async function BrandHubPage({ params }: Props) {
                             />
                         </div>
                     )}
+
                     <div className="flex flex-wrap justify-center gap-2 md:gap-4">
                         {data.hero.features.map((feature) => (
                             <div key={feature.en} className="flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3.5 py-2 text-xs font-medium text-gray-800 shadow-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-200 md:px-5 md:py-2.5 md:text-sm">
@@ -231,28 +259,9 @@ export default async function BrandHubPage({ params }: Props) {
                 </div>
             </section>
 
-            <CategoryDiscoveryGrid
-                collection={brand as 'anker' | 'joyroom'}
-                categories={data.categories}
-                locale={locale}
-                pageName={pageHeading}
-                pageDescription={pageDescription}
-            />
-
-            {/* Soundcore family strip — retained on /anker after the primary
-                category decision layer, with canonical Soundcore links. */}
+            {/* The Soundcore relationship remains visible and crawlable, but
+                no longer sits between Anker shoppers and Anker products. */}
             {brand === 'anker' && <SoundcoreFamilyStrip locale={locale} />}
-
-            {/* ═══════════════════════════════════════════════════════════ */}
-            {/* Best-Selling Products — curated most-requested, ranked     */}
-            {/* Drives engagement: customers see top products first        */}
-            {/* ═══════════════════════════════════════════════════════════ */}
-            <BestSellingProducts
-                brandSlug={brand}
-                brandDisplayName={data.hero.title}
-                locale={locale}
-                maxProducts={20}
-            />
 
             {/* ═══════════════════════════════════════════════════════════ */}
             {/* Extended Info Section: Brand Overview & Trust Elements */}

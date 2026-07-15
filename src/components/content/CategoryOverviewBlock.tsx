@@ -1,5 +1,3 @@
-'use client';
-
 import { SvgIcon } from '@/components/ui/SvgIcon';
 
 // ============================================
@@ -280,9 +278,9 @@ export function BrandOverviewBlock({
 
     const getSummary = () => {
         if (isArabic) {
-            return `${brandName} مصر - الموزع الرسمي المعتمد. ${brandDescription} تشكيلة من ${totalProducts}+ منتج في ${categoryCount} أقسام مختلفة. ضمان الوكيل 18 شهر مع استبدال فوري وتوصيل لجميع محافظات مصر.`;
+            return `${brandName} على كايرو فولت. ${brandDescription} تضم الصفحة ${totalProducts} منتجًا في ${categoryCount} أقسام، مع توضيح مدة ضمان كايرو فولت وشروطها على صفحة كل منتج، وتوصيل متاح إلى محافظات مصر.`;
         }
-        return `${brandName} Egypt - Authorized Official Dealer. ${brandDescription} Collection of ${totalProducts}+ products across ${categoryCount} categories. 18-month dealer warranty with instant replacement and nationwide Egypt delivery.`;
+        return `${brandName} at CairoVolt. ${brandDescription} This page covers ${totalProducts} products across ${categoryCount} categories. CairoVolt warranty duration and terms are stated on each product page, with delivery available across Egypt.`;
     };
 
     return (
@@ -297,7 +295,7 @@ export function BrandOverviewBlock({
 
                 <div className="flex-1">
                     <span className="text-xs font-semibold text-blue-400 uppercase tracking-wide mb-2 block">
-                        {isArabic ? <><SvgIcon name="target" className="w-4 h-4 inline-block" /> الوكيل الرسمي</> : <><SvgIcon name="target" className="w-4 h-4 inline-block" /> Official Dealer</>}
+                        {isArabic ? <><SvgIcon name="target" className="w-4 h-4 inline-block" /> ملخص العلامة</> : <><SvgIcon name="target" className="w-4 h-4 inline-block" /> Brand summary</>}
                     </span>
 
                     <p className="text-gray-200 text-sm md:text-base leading-relaxed">

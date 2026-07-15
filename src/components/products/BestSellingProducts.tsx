@@ -109,9 +109,11 @@ export default function BestSellingProducts({
     const itemListSchema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
+        '@id': `${canonicalBase}/${brandSlug}#best-sellers-list`,
         name: isRTL
             ? `أفضل ${products.length} منتج من ${brandDisplayName} في مصر`
             : `Top ${products.length} ${brandDisplayName} Products in Egypt`,
+        isPartOf: { '@id': `${canonicalBase}/${brandSlug}#collectionpage` },
         numberOfItems: products.length,
         itemListOrder: 'https://schema.org/ItemListOrderDescending',
         itemListElement: products.map((p, idx) => ({
@@ -134,38 +136,43 @@ export default function BestSellingProducts({
     };
 
     return (
-        <section id="best-sellers" className="scroll-mt-20 py-10 md:py-20 bg-gradient-to-b from-white via-blue-50/30 to-white dark:from-gray-950 dark:via-gray-900 dark:to-gray-950">
+        <section id="best-sellers" className="scroll-mt-32 bg-gradient-to-b from-white via-blue-50/30 to-white py-4 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 sm:py-5 md:py-8">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
             />
             <div className="container mx-auto px-4">
                 {/* Section Header */}
-                <div className="text-center mb-8 md:mb-12">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-3 md:mb-4 bg-gradient-to-r from-amber-100 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-full border border-amber-200 dark:border-amber-800/50">
-                        <span className="text-amber-600 dark:text-amber-400">
-                            <SvgIcon name="fire" className="w-4 h-4" />
-                        </span>
-                        <span className="text-xs md:text-sm font-bold text-amber-700 dark:text-amber-300">
-                            {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
-                        </span>
+                <div className="mb-4 grid gap-2 md:mb-5 md:grid-cols-2 md:items-end md:gap-8">
+                    <div>
+                        <div className="mb-1.5 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-gradient-to-r from-amber-100 to-yellow-100 px-3 py-1 dark:border-amber-800/50 dark:from-amber-900/30 dark:to-yellow-900/30">
+                            <span className="text-amber-600 dark:text-amber-400">
+                                <SvgIcon name="fire" className="h-4 w-4" />
+                            </span>
+                            <span className="text-xs font-bold text-amber-700 dark:text-amber-300">
+                                {isRTL ? 'الأكثر مبيعاً في مصر' : 'Best Sellers in Egypt'}
+                            </span>
+                        </div>
+
+                        <h2 className="text-xl font-black text-gray-900 dark:text-white sm:text-2xl md:text-3xl lg:text-4xl">
+                            {isRTL
+                                ? `أفضل ${products.length} منتج من ${brandDisplayName}`
+                                : `Top ${products.length} ${brandDisplayName} Products`}
+                        </h2>
                     </div>
 
-                    <h2 className="text-2xl md:text-4xl lg:text-5xl font-black mb-3 md:mb-4 text-gray-900 dark:text-white">
-                        {isRTL
-                            ? `أفضل ${products.length} منتج من ${brandDisplayName}`
-                            : `Top ${products.length} ${brandDisplayName} Products`}
-                    </h2>
-                    <p className="text-sm md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        {isRTL
-                            ? 'المنتجات الأعلى تقييماً والأكثر طلباً من عملائنا — أصلية 100% بضمان الوكيل'
-                            : 'Top-rated and most requested by our customers — 100% original with official warranty'}
-                    </p>
-                    <div className={`h-1.5 w-24 mx-auto mt-4 rounded-full ${
-                        isSoundcore ? 'bg-gradient-to-r from-orange-600 to-pink-500' :
-                        isAnker ? 'bg-gradient-to-r from-blue-600 to-cyan-500' :
-                        'bg-gradient-to-r from-red-600 to-orange-500'
-                    }`}></div>
+                    <div>
+                        <p className="text-xs leading-5 text-gray-600 dark:text-gray-400 sm:text-sm sm:leading-6 md:text-base">
+                            {isRTL
+                                ? 'المنتجات الأعلى تقييماً والأكثر طلباً من عملائنا — أصلية 100% بضمان كايرو فولت الموضح لكل منتج.'
+                                : 'Top-rated and most requested by our customers — 100% original with the CairoVolt warranty stated for each product.'}
+                        </p>
+                        <div className={`mt-2 h-1 w-20 rounded-full ${
+                            isSoundcore ? 'bg-gradient-to-r from-orange-600 to-pink-500' :
+                            isAnker ? 'bg-gradient-to-r from-blue-600 to-cyan-500' :
+                            'bg-gradient-to-r from-red-600 to-orange-500'
+                        }`}></div>
+                    </div>
                 </div>
 
                 {/* Products Grid */}
@@ -216,8 +223,7 @@ export default function BestSellingProducts({
                                             brand={product.brand}
                                             category={product.categorySlug}
                                             fill
-                                            priority={idx < 2}
-                                            loading={idx < 2 ? 'eager' : 'lazy'}
+                                            loading="lazy"
                                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                                             imageClassName="object-contain p-3 group-hover:scale-110 transition-transform duration-500"
                                             locale={locale}
