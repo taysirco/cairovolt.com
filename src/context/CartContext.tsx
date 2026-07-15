@@ -16,11 +16,15 @@ export interface CartItem {
     quantity: number;
     image?: string;
     brand?: string;
+    // 🏆 معرّف الكومبو الذهبي: العناصر التي تشارك نفس bundleId (≥2 منتجات) تحصل
+    //    على خصم الكومبو 5%. يُحسب الخصم خادمياً من أسعار الكتالوج (لا يُوثق بالعميل).
+    bundleId?: string;
 }
 
 interface CartContextType {
     items: CartItem[];
     addToCart: (item: CartItem) => void;
+    addBundleToCart: (bundleItems: CartItem[], bundleId: string) => void;
     removeFromCart: (productId: string) => void;
     updateQuantity: (productId: string, quantity: number) => void;
     clearCart: () => void;
@@ -124,6 +128,30 @@ export function CartProvider({ children }: { children: ReactNode }) {
         setTimeout(() => setIsOpen(true), 600);
     }, [startCartTransition]);
 
+    // 🏆 إضافة الكومبو الذهبي ذرّياً: يضيف عناصر الكومبو الناقصة (كمية 1) ويوسم
+    //    الجميع (بما فيها المنتج الأساسي الموجود سلفاً) بـbundleId دون رفع أي كمية —
+    //    فيصير الخصم 5% ساري المفعول خادمياً على المجموعة. تحديث واحد للحالة (بلا سباق).
+    const addBundleToCart = useCallback((bundleItems: CartItem[], bundleId: string) => {
+        if (!bundleItems.length || !bundleId) return;
+        startCartTransition(() => {
+            setItems(currentItems => {
+                const byId = new Map(currentItems.map(it => [it.productId, it]));
+                for (const bi of bundleItems) {
+                    const existing = byId.get(bi.productId);
+                    if (existing) {
+                        byId.set(bi.productId, { ...existing, bundleId }); // وسم فقط — الكمية تبقى
+                    } else {
+                        byId.set(bi.productId, { ...bi, bundleId, quantity: bi.quantity || 1 });
+                    }
+                }
+                return Array.from(byId.values());
+            });
+        });
+        const addedValue = bundleItems.reduce((s, it) => s + (it.price || 0) * (it.quantity || 1), 0);
+        ttqAddToCart({ content_id: bundleId, content_name: 'golden-combo', value: addedValue, quantity: bundleItems.length });
+        setTimeout(() => setIsOpen(true), 600);
+    }, [startCartTransition]);
+
     const removeFromCart = useCallback((productId: string) => {
         startCartTransition(() => {
             setItems(currentItems => currentItems.filter(item => item.productId !== productId));
@@ -160,6 +188,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
         <CartContext.Provider value={{
             items,
             addToCart,
+            addBundleToCart,
             removeFromCart,
             updateQuantity,
             clearCart,

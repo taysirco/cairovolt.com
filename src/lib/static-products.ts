@@ -349,7 +349,7 @@ const complementaryMatrix: Record<string, Array<{
 };
 
 /** Bundle discount percentage */
-const BUNDLE_DISCOUNT_PERCENT = 5;
+export const BUNDLE_DISCOUNT_PERCENT = 5;
 
 /** Result type for smart bundle recommendations */
 export interface BundleProduct {

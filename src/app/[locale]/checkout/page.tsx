@@ -9,6 +9,7 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
 import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
 import { getShippingFee } from '@/lib/shipping';
+import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/static-products';
 import type { Metadata } from 'next';
 
 // Metadata must be exported from a server layout/page — this is handled by the
@@ -188,7 +189,21 @@ export default function CheckoutPage() {
     const discountAmount = couponCode
         ? (couponType === 'fixed' ? Math.min(Math.round(couponValue), totalAmount) : Math.round(totalAmount * (couponValue / 100)))
         : 0;
-    const subtotalAfterDiscount = totalAmount - discountAmount;
+    // 🏆 خصم الكومبو الذهبي: 5% على كل مجموعة عناصر تشارك bundleId (≥2 منتجات مختلفة).
+    //    يُعرَض هنا للعميل، والخادم يعيد حسابه من أسعار الكتالوج (المرجع الموثوق).
+    const bundleDiscount = (() => {
+        const groups: Record<string, { sum: number; ids: Set<string> }> = {};
+        for (const it of cartItems) {
+            if (!it.bundleId) continue;
+            const g = groups[it.bundleId] || (groups[it.bundleId] = { sum: 0, ids: new Set() });
+            g.sum += (it.price || 0) * (it.quantity || 1);
+            g.ids.add(it.productId);
+        }
+        let d = 0;
+        for (const k in groups) if (groups[k].ids.size >= 2) d += Math.round(groups[k].sum * BUNDLE_DISCOUNT_PERCENT / 100);
+        return Math.min(d, totalAmount - discountAmount); // لا يتجاوز المتبقي بعد الكوبون
+    })();
+    const subtotalAfterDiscount = totalAmount - discountAmount - bundleDiscount;
     const shipping = getShippingFee(city, subtotalAfterDiscount);
     const productSavings = Math.max(0, (totalOriginalAmount || totalAmount) - totalAmount);
 
@@ -286,6 +301,7 @@ export default function CheckoutPage() {
             couponCode: couponCode || null,
             couponDiscount: discountAmount, // Absolute discount value in EGP
             couponType, couponValue, // نوع وقيمة الكوبون (percent% أو مبلغ ثابت)
+            bundleDiscount, // 🏆 خصم الكومبو 5% (عرض؛ الخادم يعيد حسابه من الكتالوج)
         };
 
         try {
@@ -312,6 +328,7 @@ export default function CheckoutPage() {
                 subtotal: totalAmount,
                 couponCode: couponCode || null,
                 couponDiscount: discountAmount,
+                bundleDiscount: bundleDiscount,
                 subtotalAfterDiscount: subtotalAfterDiscount,
                 shipping: shipping,
                 total: finalTotal,
@@ -422,6 +439,14 @@ export default function CheckoutPage() {
                             <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
                                 <span>🎁 {couponLabel || (isArabic ? 'خصم الكوبون' : 'Coupon discount')}</span>
                                 <span>- {discountAmount.toLocaleString()} {currency}</span>
+                            </div>
+                        )}
+
+                        {/* 🏆 Golden Combo discount line */}
+                        {bundleDiscount > 0 && (
+                            <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
+                                <span>🏆 {isArabic ? 'خصم الكومبو الذهبي' : 'Golden Combo discount'}</span>
+                                <span>- {bundleDiscount.toLocaleString()} {currency}</span>
                             </div>
                         )}
 

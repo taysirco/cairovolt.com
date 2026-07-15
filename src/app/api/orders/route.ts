@@ -8,7 +8,7 @@ import { validateApiKey } from '@/lib/api-auth';
 import { sendTtqOrderEvent } from '@/lib/tiktokEventsApi';
 import { getShippingFee } from '@/lib/shipping';
 import { validateCoupon, computeDiscount } from '@/lib/coupons';
-import { staticProducts, getProductBySlug, resolveCatalogPricing } from '@/lib/static-products';
+import { staticProducts, getProductBySlug, resolveCatalogPricing, BUNDLE_DISCOUNT_PERCENT } from '@/lib/static-products';
 
 // 🧬 بصمة SKU من الكتالوج — شبكة أمان خادمية: تعوّض أي قطعة سلة بلا sku
 // (سلال قديمة في localStorage قبل حقل sku، أو مسار الإضافة السريعة بالصفحة الرئيسية
@@ -84,6 +84,7 @@ export async function POST(req: NextRequest) {
             totalAmount: typeof data.totalAmount === 'number' ? data.totalAmount : 0,
             couponCode: null as string | null,
             couponDiscount: 0,
+            bundleDiscount: 0,
             subtotalBeforeDiscount: 0,
             shippingFee: 0,
             status: 'pending',
@@ -161,8 +162,26 @@ export async function POST(req: NextRequest) {
 
         orderData.subtotalBeforeDiscount = serverSubtotal;
 
+        // 🏆 خصم الكومبو الذهبي (خادمي، من أسعار الكتالوج المصحّحة — لا يُوثق بالعميل):
+        //    5% لكل مجموعة عناصر تشارك bundleId وتضمّ ≥2 منتجات مختلفة. مستقل عن الكوبون.
+        let bundleDiscount = 0;
+        {
+            const groups: Record<string, { sum: number; ids: Set<string> }> = {};
+            for (const it of pricedItems) {
+                const bid = typeof it.bundleId === 'string' ? it.bundleId.slice(0, 60) : '';
+                if (!bid) continue;
+                const g = groups[bid] || (groups[bid] = { sum: 0, ids: new Set() });
+                g.sum += (Number(it.price) || 0) * (Number(it.quantity) || 1);
+                g.ids.add(String(it.productId || it.sku || it.name));
+            }
+            for (const k in groups) {
+                if (groups[k].ids.size >= 2) bundleDiscount += Math.round(groups[k].sum * BUNDLE_DISCOUNT_PERCENT / 100);
+            }
+        }
+
         // Server-side coupon verification — ديناميكي من سيستم الحسابات (acc_coupons)
         // عبر /api/public/coupons بسر الويبهوك + كاش 60ث + fallback محلي للطوارئ.
+        let couponDiscount = 0;
         if (data.couponCode && typeof data.couponCode === 'string') {
             // نفس تنظيف قناة التحقق — الكود المخزَّن هو ذاته الذي جرى التحقق به (إسناد سليم)
             const code = data.couponCode.trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
@@ -176,26 +195,21 @@ export async function POST(req: NextRequest) {
                     { status: 400 }
                 );
             }
-            if (verdict.valid && serverDiscount > 0) {
-                const subtotalAfterDiscount = serverSubtotal - serverDiscount;
-                const shipping = getShippingFee(data.city, subtotalAfterDiscount);
-
-                orderData.couponCode = code;
-                orderData.couponDiscount = serverDiscount;
-                orderData.shippingFee = shipping;
-                orderData.totalAmount = subtotalAfterDiscount + shipping;
-            } else {
-                // Invalid coupon code — recalculate total without discount
-                const shipping = getShippingFee(data.city, serverSubtotal);
-                orderData.shippingFee = shipping;
-                orderData.totalAmount = serverSubtotal + shipping;
-            }
-        } else {
-            // No coupon — recalculate total from server subtotal
-            const shipping = getShippingFee(data.city, serverSubtotal);
-            orderData.shippingFee = shipping;
-            orderData.totalAmount = serverSubtotal + shipping;
+            orderData.couponCode = code;
+            couponDiscount = serverDiscount;
         }
+
+        // 🧮 إجمالي الخصومات لا يتجاوز المجموع الفرعي (حارس سلامة — يمنع إجمالاً سالباً).
+        //    الشحن يُحسب على المجموع بعد كل الخصومات (نفس سلوك الكوبون الحالي).
+        if (couponDiscount + bundleDiscount > serverSubtotal) {
+            bundleDiscount = Math.max(0, serverSubtotal - couponDiscount);
+        }
+        const subtotalAfterDiscount = serverSubtotal - couponDiscount - bundleDiscount;
+        const shipping = getShippingFee(data.city, subtotalAfterDiscount);
+        orderData.couponDiscount = couponDiscount;
+        orderData.bundleDiscount = bundleDiscount;
+        orderData.shippingFee = shipping;
+        orderData.totalAmount = subtotalAfterDiscount + shipping;
 
         // 🧬 حارس بصمة SKU للقطعة الرئيسية (الأعلى قيمة) — الأسعار والـsku
         // ضُبطت بالفعل أعلاه من الكتالوج؛ هنا تحذير فقط لو بقيت بلا sku.

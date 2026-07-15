@@ -30,6 +30,7 @@ interface OrderData {
     subtotal: number;
     couponCode?: string | null;
     couponDiscount?: number;
+    bundleDiscount?: number;
     subtotalAfterDiscount?: number;
     shipping: number;
     total: number;
@@ -309,6 +310,15 @@ function ConfirmContent() {
                                     🎁 {isArabic ? `كوبون ${orderData.couponCode}` : `Coupon ${orderData.couponCode}`}
                                 </span>
                                 <span>- {orderData.couponDiscount.toLocaleString()} {currency}</span>
+                            </div>
+                        )}
+                        {/* 🏆 Golden Combo discount line */}
+                        {orderData.bundleDiscount && orderData.bundleDiscount > 0 && (
+                            <div className="flex justify-between text-green-600 font-medium">
+                                <span className="flex items-center gap-1">
+                                    🏆 {isArabic ? 'خصم الكومبو الذهبي' : 'Golden Combo discount'}
+                                </span>
+                                <span>- {orderData.bundleDiscount.toLocaleString()} {currency}</span>
                             </div>
                         )}
                         <div className="flex justify-between text-gray-600">

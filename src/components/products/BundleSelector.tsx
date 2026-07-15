@@ -44,7 +44,7 @@ interface BundleSelectorProps {
 }
 
 export default function BundleSelector({ mainProduct, relatedProducts, bundleData, locale }: BundleSelectorProps) {
-    const { addToCart, items: cartItems } = useCart();
+    const { addToCart, addBundleToCart, items: cartItems } = useCart();
     const isArabic = locale === 'ar';
 
     // Use smart bundle data if available, otherwise fall back to relatedProducts
@@ -111,13 +111,9 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
     };
 
     const handleAddBundle = () => {
-        selectedProducts.forEach(item => {
-            // منع التكرار: أي منتج موجود بالفعل في السلة (وعلى رأسه المنتج
-            // الأساسي الذي أضافه العميل من زر الصفحة) لا يُضاف مرة أخرى —
-            // زيادة الكمية تظل قراراً صريحاً للعميل من زر + داخل السلة.
-            if (cartItems.some(ci => ci.productId === item.product.id)) return;
+        const toCartItem = (item: typeof selectedProducts[number]) => {
             const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
-            addToCart({
+            return {
                 productId: item.product.id,
                 sku: item.product.sku, // 🧬 بصمة قطعة الكومبو
                 name: t?.name || item.product.slug,
@@ -125,9 +121,20 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                 originalPrice: item.product.originalPrice,
                 quantity: 1,
                 image: item.product.images?.[0]?.url,
-                brand: item.product.brand
+                brand: item.product.brand,
+            };
+        };
+        const bundleItems = selectedProducts.map(toCartItem);
+        // 🏆 كومبو كامل (≥2 منتجات مختارة) → وسمه بـbundleId فيسري خصم الـ5% خادمياً،
+        //    مطابقاً للإجمالي المخفّض المعروض. الخصم يُحسب من أسعار الكتالوج على الخادم.
+        if (pricing.isFullBundle && bundleItems.length >= 2) {
+            addBundleToCart(bundleItems, `combo-${mainProduct.id}`);
+        } else {
+            // اختيار جزئي — بلا خصم كومبو (مطابقة للعرض): أضف الناقص فقط بلا وسم.
+            bundleItems.forEach(bi => {
+                if (!cartItems.some(ci => ci.productId === bi.productId)) addToCart(bi);
             });
-        });
+        }
     };
 
     if (smartBundleItems.length === 0) return null;

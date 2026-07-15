@@ -42,6 +42,7 @@ function buildLeadPayload(orderData: any) {
     if (orderData.orderId || orderData.id) notesParts.push(`طلب موقع كايرو فولت #${orderData.orderId || orderData.id}`);
     notesParts.push(`الشحن: ${orderData.shippingFee === 0 ? 'مجاني' : `${orderData.shippingFee ?? '?'} ج`}`);
     if (orderData.couponCode) notesParts.push(`كوبون ${orderData.couponCode} (خصم ${orderData.couponDiscount} ج)`);
+    if (Number(orderData.bundleDiscount) > 0) notesParts.push(`خصم الكومبو الذهبي: ${orderData.bundleDiscount} ج`);
     if (orderData.customerNotes || orderData.notes) notesParts.push(String(orderData.customerNotes || orderData.notes));
 
     // 🧬 بصمة المنتج الموحدة (SKU): كتالوج الموقع وكتالوج الحسابات في الـCRM
@@ -70,6 +71,7 @@ function buildLeadPayload(orderData: any) {
         shippingFee: Number(orderData.shippingFee ?? 0),
         couponCode: String(orderData.couponCode || ''),
         couponDiscount: Number(orderData.couponDiscount ?? 0),
+        bundleDiscount: Number(orderData.bundleDiscount ?? 0), // 🏆 خصم الكومبو الذهبي
         subtotal: Number(orderData.subtotalBeforeDiscount ?? 0),
         orderDetails,
         notes: notesParts.join(' | '),
