@@ -19,14 +19,14 @@ export interface EntityRef {
 const brands: Record<string, EntityRef> = {
     anker: {
         name: 'Anker',
-        nameAr: 'أنكر',
+        nameAr: 'انكر',
         type: 'Brand',
         sameAs: 'https://en.wikipedia.org/wiki/Anker_(brand)',
         additionalSameAs: ['https://www.wikidata.org/wiki/Q28452620', 'https://www.anker.com'],
     },
     soundcore: {
         name: 'Soundcore',
-        nameAr: 'ساوند كور',
+        nameAr: 'ساوندكور',
         type: 'Brand',
         sameAs: 'https://en.wikipedia.org/wiki/Anker_(brand)#Soundcore',
         additionalSameAs: ['https://www.soundcore.com'],

@@ -61,12 +61,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     ...baseMetadata,
-    title: { absolute: 'اكسسوارات موبايل أصلية في مصر | Anker وSoundcore وJoyroom' },
-    description: 'تسوق منتجات Anker وSoundcore وJoyroom الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات بضمان واضح حسب المنتج والدفع عند الاستلام.',
-    keywords: 'اكسسوارات موبايل, انكر مصر, أنكر, ساوند كور, جوي روم, باور بانك, سماعات, شاحن انكر, soundcore, ايربودز انكر',
+    title: { absolute: 'اكسسوارات موبايل أصلية في مصر | انكر وساوندكور وJoyroom' },
+    description: 'تسوق منتجات انكر وساوندكور وJoyroom الأصلية في مصر. باور بانك، سماعات، شواحن وكابلات بضمان واضح حسب المنتج والدفع عند الاستلام.',
+    keywords: 'اكسسوارات موبايل, انكر مصر, انكر, ساوندكور, جوي روم, باور بانك, سماعات, شاحن انكر, ايربودز انكر',
     openGraph: {
       title: 'اكسسوارات موبايل أصلية في مصر | كايرو فولت',
-      description: 'منتجات Anker وSoundcore وJoyroom الأصلية مع توصيل لكل مصر والدفع عند الاستلام.',
+      description: 'منتجات انكر وساوندكور وJoyroom الأصلية مع توصيل لكل مصر والدفع عند الاستلام.',
       url: 'https://cairovolt.com',
       locale: 'ar_EG',
       type: 'website',
@@ -95,7 +95,7 @@ export default async function Home({ params }: Props) {
   const schemaCategories = isRTL
     ? [
       { title: 'باور بانك', href: '/anker/power-banks' },
-      { title: 'ساوند كور (Soundcore)', href: '/soundcore' },
+      { title: 'ساوندكور', href: '/soundcore' },
       { title: 'سماعات جوي روم', href: '/joyroom/audio' },
       { title: 'شواحن', href: '/anker/wall-chargers' },
       { title: 'كابلات', href: '/anker/cables' },
@@ -124,7 +124,7 @@ export default async function Home({ params }: Props) {
       <SpeakableSchema
         pageUrl={`https://cairovolt.com${prefix}`}
         speakableSelectors={['h1', '.hero-description', '.quality-badges']}
-        headline={isRTL ? 'اكسسوارات موبايل Anker وSoundcore وJoyroom في مصر' : 'Anker, Soundcore, and Joyroom accessories in Egypt'}
+        headline={isRTL ? 'اكسسوارات موبايل انكر وساوندكور وJoyroom في مصر' : 'Anker, Soundcore, and Joyroom accessories in Egypt'}
         description={isRTL
           ? 'منتجات أصلية مرتبة حسب الاستخدام، مع توصيل لكل مصر والدفع عند الاستلام.'
           : 'Original accessories organized by use, with delivery across Egypt and cash on delivery.'}
@@ -238,8 +238,8 @@ export default async function Home({ params }: Props) {
             <div className="mt-8 grid gap-4 md:grid-cols-3">
               {[
                 { slug: 'best-power-bank-egypt-2026', ar: 'إزاي تختار باور بانك يناسب يومك؟', en: 'How to choose a power bank for your day', icon: 'battery', tone: 'bg-blue-50 text-blue-800' },
-                { slug: 'anker-vs-joyroom-comparison', ar: 'Anker ولا Joyroom: الفرق فين؟', en: 'Anker or Joyroom: where is the difference?', icon: 'scale', tone: 'bg-emerald-50 text-emerald-800' },
-                { slug: 'how-to-identify-original-anker', ar: 'علامات تساعدك تعرف Anker الأصلي', en: 'Clues that help identify original Anker', icon: 'search', tone: 'bg-amber-50 text-amber-800' },
+                { slug: 'anker-vs-joyroom-comparison', ar: 'انكر ولا Joyroom: الفرق فين؟', en: 'Anker or Joyroom: where is the difference?', icon: 'scale', tone: 'bg-emerald-50 text-emerald-800' },
+                { slug: 'how-to-identify-original-anker', ar: 'علامات تساعدك تعرف انكر الأصلي', en: 'Clues that help identify original Anker', icon: 'search', tone: 'bg-amber-50 text-amber-800' },
               ].map((article) => (
                 <Link
                   key={article.slug}
@@ -267,7 +267,7 @@ export default async function Home({ params }: Props) {
             <div className="mx-auto mt-4 max-w-3xl text-sm leading-8 text-slate-600">
               {isRTL ? (
                 <p>
-                  كايرو فولت يجمع منتجات <strong className="text-slate-900">Anker</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">Soundcore</strong> للصوتيات، وخيارات <strong className="text-slate-900">Joyroom</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح لمحافظات مصر مع إمكانية الدفع عند الاستلام.
+                  كايرو فولت يجمع منتجات <strong className="text-slate-900">انكر</strong> للشحن والطاقة، ومنتجات <strong className="text-slate-900">ساوندكور</strong> للصوتيات، وخيارات <strong className="text-slate-900">Joyroom</strong> العملية للاستخدام اليومي. تقدر تقارن بين الباور بانك، الشواحن، الكابلات، الايربودز والهيدفون، وتشوف السعر والتوافق والضمان الخاص بكل منتج قبل الطلب. التوصيل متاح لمحافظات مصر مع إمكانية الدفع عند الاستلام.
                 </p>
               ) : (
                 <p>
@@ -281,7 +281,7 @@ export default async function Home({ params }: Props) {
         <section className="dark bg-[#07111f] py-16 lg:py-24">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <FAQSection
-              productName={isRTL ? 'كايرو فولت — Anker وSoundcore وJoyroom' : 'CairoVolt — Anker, Soundcore & Joyroom'}
+              productName={isRTL ? 'كايرو فولت — انكر وساوندكور وJoyroom' : 'CairoVolt — Anker, Soundcore & Joyroom'}
               locale={locale}
               qaList={isRTL ? [
                 { question: 'أبدأ منين لو مش عارف الموديل المناسب؟', answer: 'ابدأ بقسم «اختار حسب استخدامك» أو مساعد الاختيار السريع في الصفحة. اختار هل محتاج صوت أفضل، بطارية أطول، أو شحن أسرع، وحدد ميزانيتك عشان تشوف نقطة بداية مناسبة.' },

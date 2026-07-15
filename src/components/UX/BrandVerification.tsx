@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState, useCallback } from 'react';
 import { createPortal } from 'react-dom';
+import { getBrandDisplayName } from '@/lib/arabic-brand-names';
 
 /**
  * BrandVerification — Product authenticity component
@@ -87,8 +88,7 @@ export default function BrandVerification({
 
     if (!isVisible || !mounted) return null;
 
-    const brandDisplay =
-        brand.charAt(0).toUpperCase() + brand.slice(1);
+    const brandDisplay = getBrandDisplayName(brand, locale);
 
     const overlay = (
         <div

@@ -132,7 +132,7 @@ export function translateAnchorTexts(html: string, locale: string): string {
                 const brand = categoryMatch[1];
                 const categorySlug = categoryMatch[2];
                 if (['anker', 'joyroom', 'soundcore'].includes(brand.toLowerCase())) {
-                    const brandAr = brand.toLowerCase() === 'anker' ? 'أنكر' : brand.toLowerCase() === 'joyroom' ? 'جويروم' : 'ساوند كور';
+                    const brandAr = brand.toLowerCase() === 'anker' ? 'انكر' : brand.toLowerCase() === 'joyroom' ? 'جويروم' : 'ساوندكور';
                     let catAr = '';
                     if (categorySlug === 'power-banks') catAr = 'باور بانك';
                     else if (categorySlug === 'wall-chargers' || categorySlug === 'chargers') catAr = 'شواحن حائط';

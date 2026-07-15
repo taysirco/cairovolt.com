@@ -17,6 +17,13 @@ import ProductGuarantees from '@/components/products/ProductGuarantees';
 import type { RegionalStats } from '@/lib/bosta';
 import type { ProductVariant } from '@/lib/static-products';
 import type { LabMetrics } from '@/data/product-tests';
+import {
+    getBrandDisplayName,
+    localizeArabicFields,
+    localizeArabicBrandContent,
+    localizeArabicBrandHtml,
+    localizeArabicBrandNames,
+} from '@/lib/arabic-brand-names';
 
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
@@ -126,6 +133,7 @@ const categoryKeyMap: Record<string, string> = {
 };
 
 export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, labTestData, thermalAdvice, deliveryIntelligence, labMetrics, userGovernorate, productDetail }: ProductPageClientProps) {
+    const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
 
@@ -173,8 +181,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                 ar: {
                     ...product.translations?.ar,
                     name: product.translations?.ar?.name
-                        ? `${product.translations.ar.name} (${variantName})`
-                        : variantName,
+                        ? localizeArabicBrandNames(`${product.translations.ar.name} (${variantName})`)
+                        : localizeArabicBrandNames(variantName),
                 },
             },
         };
@@ -253,13 +261,18 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
     };
 
-    const currentTranslation = product.translations?.[locale as 'ar' | 'en'] || product.translations?.en;
+    const rawCurrentTranslation = product.translations?.[locale as 'ar' | 'en'] || product.translations?.en;
+    const localizedTextTranslation = isRTL && rawCurrentTranslation
+        ? localizeArabicBrandContent({ ...rawCurrentTranslation, description: '' })
+        : rawCurrentTranslation;
+    const currentTranslation = isRTL && rawCurrentTranslation
+        ? {
+            ...localizedTextTranslation,
+            description: localizeArabicBrandHtml(rawCurrentTranslation.description || ''),
+        }
+        : rawCurrentTranslation;
     const productName = currentTranslation?.name || product.slug;
     const productDesc = currentTranslation?.description || '';
-    const productShortDesc = currentTranslation?.shortDescription || '';
-    const productFeatures = currentTranslation?.features || [];
-
-
     // Parse battery capacity from product detail specs for the BackupTimeCalculator.
     // Handles formats like "24,000mAh (86.4Wh)", "10,000mAh", or "256Wh".
     const parsedCapacity = (() => {
@@ -321,10 +334,49 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
         : 0;
 
     const translatedCategory = tCat(categoryKeyMap[category] || 'other');
-    const translatedBrand = brand === 'anker' ? tBrand('anker') : tBrand('joyroom');
-    const brandColor = brand === 'anker' ? 'blue' : 'red';
-
-    const isRTL = locale === 'ar';
+    const normalizedRouteBrand = brand.toLowerCase();
+    const normalizedProductBrand = product.brand.toLowerCase();
+    const isSoundcoreBrand = normalizedRouteBrand === 'soundcore' || normalizedProductBrand === 'soundcore';
+    const isAnkerBrand = !isSoundcoreBrand && (normalizedRouteBrand === 'anker' || normalizedProductBrand === 'anker');
+    const translatedBrandValue = isSoundcoreBrand
+        ? tBrand('soundcore')
+        : isAnkerBrand
+            ? tBrand('anker')
+            : tBrand('joyroom');
+    const translatedBrand = isRTL
+        ? localizeArabicBrandNames(translatedBrandValue)
+        : translatedBrandValue;
+    const fallbackGradientClass = isSoundcoreBrand
+        ? 'from-orange-400 to-pink-600'
+        : isAnkerBrand
+            ? 'from-blue-400 to-blue-600'
+            : 'from-red-400 to-red-600';
+    const selectedThumbnailClass = isSoundcoreBrand
+        ? 'border-orange-500 shadow-lg ring-2 ring-orange-500/20'
+        : isAnkerBrand
+            ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
+            : 'border-red-600 shadow-lg ring-2 ring-red-600/20';
+    const brandBadgeClass = isSoundcoreBrand
+        ? 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300'
+        : isAnkerBrand
+            ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
+            : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300';
+    const summaryClass = isSoundcoreBrand
+        ? 'border-orange-200 bg-orange-50/50 dark:border-orange-800 dark:bg-orange-950/30'
+        : isAnkerBrand
+            ? 'border-blue-200 bg-blue-50/50 dark:border-blue-800 dark:bg-blue-950/30'
+            : 'border-red-200 bg-red-50/50 dark:border-red-800 dark:bg-red-950/30';
+    const summaryDotClass = isSoundcoreBrand ? 'bg-orange-600' : isAnkerBrand ? 'bg-blue-600' : 'bg-red-600';
+    const purchaseButtonClass = isSoundcoreBrand
+        ? 'bg-orange-600 hover:bg-orange-700 text-white shadow-orange-600/30 hover:scale-[1.02]'
+        : isAnkerBrand
+            ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/30 hover:scale-[1.02]'
+            : 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/30 hover:scale-[1.02]';
+    const stickyButtonClass = isSoundcoreBrand
+        ? 'bg-orange-600 hover:bg-orange-700 shadow-orange-600/30'
+        : isAnkerBrand
+            ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'
+            : 'bg-red-600 hover:bg-red-700 shadow-red-600/30';
     const isOutOfStock = activeStock <= 0;
 
     // Breadcrumb Data - Strict Lowercase URLs
@@ -332,10 +384,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     const categoryLower = product.categorySlug.toLowerCase();
 
     // Display names (Capitalized)
-    const brandDisplay = product.brand.charAt(0).toUpperCase() + product.brand.slice(1);
+    const brandDisplay = getBrandDisplayName(product.brand, locale);
     // categorySlug is reliable for linking, category param might be mixed case
-
-    const productDisplayTitle = product.translations?.[locale as 'en' | 'ar']?.name || product.slug;
 
     // Dynamic Headings for AI Summary
     const hash = typeof product.slug === 'string' ? product.slug.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) : 0;
@@ -464,7 +514,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         locale={locale}
                                     />
                                 ) : (
-                                    <div className={`w-full h-full flex items-center justify-center text-8xl font-bold bg-gradient-to-br ${brand === 'anker' ? 'from-blue-400 to-blue-600' : 'from-red-400 to-red-600'} bg-clip-text text-transparent`}>
+                                    <div className={`w-full h-full flex items-center justify-center text-8xl font-bold bg-gradient-to-br ${fallbackGradientClass} bg-clip-text text-transparent`}>
                                         {brand.charAt(0).toUpperCase()}
                                     </div>
                                 )}
@@ -488,9 +538,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         title={`View image ${idx + 1}`}
                                         onClick={() => { setSelectedImage(idx); }}
                                         className={`relative flex-none w-16 sm:w-20 aspect-square rounded-xl border-2 overflow-hidden transition-all snap-start bg-white ${selectedImage === idx
-                                            ? brand === 'anker'
-                                                ? 'border-blue-600 shadow-lg ring-2 ring-blue-600/20'
-                                                : 'border-red-600 shadow-lg ring-2 ring-red-600/20'
+                                            ? selectedThumbnailClass
                                             : 'border-gray-200 hover:border-gray-300'
                                             }`}
                                     >
@@ -532,20 +580,14 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                         {/* Brand & Stock */}
                         <div className="flex flex-wrap items-center gap-2">
-                            <span className={`px-4 py-1.5 text-sm font-bold rounded-full ${brand === 'anker'
-                                ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
-                                : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300'
-                                }`}>
+                            <span className={`px-4 py-1.5 text-sm font-bold rounded-full ${brandBadgeClass}`}>
                                 {translatedBrand}
                             </span>
                             {/* Availability Badge - Dynamic Brand */}
                             {(product.stock || 0) > 0 ? (
-                                <span className={`px-4 py-1.5 text-sm font-medium rounded-full flex items-center gap-2 ${product.brand.toLowerCase() === 'anker'
-                                    ? 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300'
-                                    : 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300'
-                                    }`}>
+                                <span className={`px-4 py-1.5 text-sm font-medium rounded-full flex items-center gap-2 ${brandBadgeClass}`}>
                                     <span className="w-2 h-2 rounded-full bg-current animate-pulse" />
-                                    {product.brand} — {tProduct('inStock')}
+                                    {brandDisplay} — {tProduct('inStock')}
                                 </span>
                             ) : (
                                 <span className="px-4 py-1.5 text-sm font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">
@@ -563,7 +605,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
                         {/* AI TL;DR */}
                         {productDetail?.aiTldr && (
-                            <div className={`p-4 rounded-xl border-2 ${brand === 'anker' ? 'border-blue-200 bg-blue-50/50 dark:border-blue-800 dark:bg-blue-950/30' : 'border-red-200 bg-red-50/50 dark:border-red-800 dark:bg-red-950/30'}`}>
+                            <div className={`p-4 rounded-xl border-2 ${summaryClass}`}>
                                 <h2 className="text-sm font-bold mb-2 flex items-center gap-1.5 text-gray-800 dark:text-gray-200">
                                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                                     {isRTL ? selectedArAiHeading : selectedEnAiHeading}
@@ -571,8 +613,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <ul className="space-y-1">
                                     {(isRTL ? productDetail.aiTldr.ar : productDetail.aiTldr.en).map((point: string, idx: number) => (
                                         <li key={idx} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
-                                            <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${brand === 'anker' ? 'bg-blue-600' : 'bg-red-600'}`} />
-                                            {point}
+                                            <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${summaryDotClass}`} />
+                                            {isRTL ? localizeArabicBrandNames(point) : point}
                                         </li>
                                     ))}
                                 </ul>
@@ -584,7 +626,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800">
                                 <p className="text-sm text-amber-900 dark:text-amber-200 flex items-start gap-2">
                                     <svg className="w-4 h-4 mt-0.5 flex-shrink-0 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                                    {isRTL ? productDetail.localContext.ar : productDetail.localContext.en}
+                                    {isRTL ? localizeArabicBrandNames(productDetail.localContext.ar) : productDetail.localContext.en}
                                 </p>
                             </div>
                         )}
@@ -596,7 +638,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 selectedVariantId={selectedVariant?.id || product.variants[0].id}
                                 onSelect={setSelectedVariant}
                                 locale={locale}
-                                brandColor={brand === 'anker' ? 'blue' : 'red'}
+                                brandColor={isAnkerBrand || isSoundcoreBrand ? 'blue' : 'red'}
                             />
                         )}
 
@@ -648,9 +690,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         data-add-to-cart
                                         className={`w-full sm:w-auto sm:flex-1 sm:min-w-[200px] px-6 py-3 font-bold text-base sm:text-lg rounded-xl transition-all duration-200 transform shadow-lg ${showAddedFeedback
                                             ? 'bg-green-600 scale-95 text-white shadow-green-600/30'
-                                            : brand === 'anker'
-                                                ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-blue-600/30 hover:scale-[1.02]'
-                                                : 'bg-red-600 hover:bg-red-700 text-white shadow-red-600/30 hover:scale-[1.02]'
+                                            : purchaseButtonClass
                                             }`}
                                     >
                                         {showAddedFeedback
@@ -812,7 +852,9 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             brand={translatedBrand}
                             category={category}
                             locale={locale}
-                            customOpinion={product.expertOpinion?.[locale as 'ar' | 'en']}
+                            customOpinion={isRTL
+                                ? localizeArabicBrandNames(product.expertOpinion?.ar || '')
+                                : product.expertOpinion?.en}
                         />
 
                         {/* BackupTimeCalculator — only for power bank products with parseable capacity */}
@@ -869,7 +911,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 price: activePrice,
                                 translations: {
                                     en: { name: product.translations?.en?.name || product.slug },
-                                    ar: { name: product.translations?.ar?.name || product.slug }
+                                    ar: { name: localizeArabicBrandNames(product.translations?.ar?.name || product.slug) }
                                 }
                             }}
                             locale={locale}
@@ -887,7 +929,13 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <div
                                     className={`prose prose-lg dark:prose-invert max-w-none transition-all duration-500 overflow-hidden ${isDescriptionExpanded ? 'max-h-none' : 'max-h-72'}`}
                                 >
-                                    <div dangerouslySetInnerHTML={{ __html: localizeInternalLinks(sanitizeHtml(productDesc), locale) }} />
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: isRTL
+                                                ? localizeArabicBrandHtml(localizeInternalLinks(sanitizeHtml(productDesc), locale))
+                                                : localizeInternalLinks(sanitizeHtml(productDesc), locale),
+                                        }}
+                                    />
                                 </div>
 
                                 {!isDescriptionExpanded && (
@@ -928,7 +976,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
                                 <tr>
                                     <td className="py-4 text-gray-600 dark:text-gray-400">{tProduct('brand')}</td>
-                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{product.brand}</td>
+                                    <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{brandDisplay}</td>
                                 </tr>
                                 {product.sku && (
                                     <tr>
@@ -951,10 +999,12 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     </td>
                                 </tr>
                                 {/* Product-specific specifications */}
-                                {productDetail?.specifications && (Object.entries(productDetail.specifications) as [string, { en: string; ar: string }][]).map(([key, val]) => (
+                                {productDetail?.specifications && (Object.entries(
+                                    isRTL ? localizeArabicFields(productDetail.specifications) : productDetail.specifications,
+                                ) as [string, { en: string; ar: string }][]).map(([key, val]) => (
                                     <tr key={key}>
-                                        <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? key : key}</td>
-                                        <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? val.ar : val.en}</td>
+                                        <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? localizeArabicBrandNames(key) : key}</td>
+                                        <td className="py-4 font-bold text-end text-gray-900 dark:text-white">{isRTL ? localizeArabicBrandNames(val.ar) : val.en}</td>
                                     </tr>
                                 ))}
                             </tbody>
@@ -1004,9 +1054,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                     data-add-to-cart
                                     className={`flex-1 px-4 py-3.5 font-bold text-white rounded-xl shadow-lg transition-all duration-200 text-base ${showAddedFeedback
                                         ? 'bg-green-600 scale-95 shadow-green-600/30'
-                                        : brand === 'anker'
-                                            ? 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/30'
-                                            : 'bg-red-600 hover:bg-red-700 shadow-red-600/30'
+                                        : stickyButtonClass
                                         }`}
                                 >
                                     {showAddedFeedback ? (isRTL ? '✓ تم' : '✓ Added') : tProduct('addToCart')}

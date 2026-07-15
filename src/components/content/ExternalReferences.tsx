@@ -12,6 +12,7 @@
 //     own internal links, so the page never looks like a link farm.
 
 import type { BlogArticle } from '@/data/blog/_types';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 type Props = {
     refs: NonNullable<BlogArticle['externalReferences']>;
@@ -43,11 +44,15 @@ export function ExternalReferences({ refs, locale }: Props) {
                             rel="nofollow noopener noreferrer"
                             className="font-medium text-blue-600 dark:text-blue-400 hover:underline break-words"
                         >
-                            {r.title[lang]}
+                            {isArabic
+                                ? localizeArabicBrandNames(r.title[lang])
+                                : r.title[lang]}
                         </a>
                         {r.note?.[lang] ? (
                             <span className="block text-sm text-gray-500 dark:text-gray-400 mt-0.5">
-                                {r.note[lang]}
+                                {isArabic
+                                    ? localizeArabicBrandNames(r.note[lang])
+                                    : r.note[lang]}
                             </span>
                         ) : null}
                     </li>

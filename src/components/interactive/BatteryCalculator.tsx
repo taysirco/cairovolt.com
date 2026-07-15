@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface BatteryCalculatorProps {
     locale?: string;
@@ -82,7 +83,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                     >
                         {POWER_BANKS.map((p, i) => (
                             <option key={i} value={i}>
-                                {p.name} — {p.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                {isArabic ? localizeArabicBrandNames(p.name) : p.name} — {p.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
                             </option>
                         ))}
                     </select>

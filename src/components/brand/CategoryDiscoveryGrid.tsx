@@ -7,6 +7,7 @@ import {
     type DiscoveryVisual,
     type LocalizedCopy,
 } from '@/data/category-discovery';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 type SourceCategory = {
     href: string;
@@ -185,8 +186,8 @@ export default function CategoryDiscoveryGrid({
                 inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                 creditText: isArabic
                     ? presentation.provenance === 'ai-assisted'
-                        ? `قصّ منتج بمساعدة الذكاء الاصطناعي اعتمادًا على أصل كتالوج مرتبط بعلامة ${content.sourceBrand}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
-                        : `أصل كتالوج مرتبط بعلامة ${content.sourceBrand}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
+                        ? `قصّ منتج بمساعدة الذكاء الاصطناعي اعتمادًا على أصل كتالوج مرتبط بعلامة ${localizeArabicBrandNames(content.sourceBrand)}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
+                        : `أصل كتالوج مرتبط بعلامة ${localizeArabicBrandNames(content.sourceBrand)}؛ أُعِدّ مشتق القسم لكايرو فولت، ومالك الحقوق غير محسوم بهذه البيانات`
                     : presentation.provenance === 'ai-assisted'
                         ? `AI-assisted cutout based on catalogue imagery associated with ${content.sourceBrand}; category derivative prepared for CairoVolt; rights holder not asserted`
                         : `Catalogue source associated with ${content.sourceBrand}; category derivative prepared for CairoVolt; rights holder not asserted`,

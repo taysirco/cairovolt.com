@@ -69,7 +69,7 @@ export const brandData: Record<string, BrandData> = {
             title: 'Anker Egypt',
             description: {
                 en: 'Explore Anker GaNPrime™ and PowerIQ charging for phones, tablets, and laptops, backed by an 18-month CairoVolt warranty.',
-                ar: 'اكتشف شحن Anker بتقنيات GaNPrime™ وPowerIQ للموبايل والتابلت واللابتوب، مع ضمان كايرو فولت لمدة 18 شهرًا.'
+                ar: 'اكتشف شحن انكر بتقنيات GaNPrime™ وPowerIQ للموبايل والتابلت واللابتوب، مع ضمان كايرو فولت لمدة 18 شهرًا.'
             },
             features: [
                 { en: '18-Month CairoVolt Warranty', ar: 'ضمان كايرو فولت 18 شهرًا' },
@@ -83,10 +83,10 @@ export const brandData: Record<string, BrandData> = {
             { title: { en: 'Anker Cables', ar: 'كابلات انكر (Strong)' }, description: { en: 'PowerLine III Flow & USB-C', ar: 'كابلات ضد القطع (Lifetime)' }, href: '/anker/cables', icon: 'link', volume: { en: '320+ searches/mo', ar: '320+ بحث/شهر' } },
             { title: { en: 'Anker Car Chargers', ar: 'شواحن سيارة' }, description: { en: 'PowerDrive Alloy', ar: 'شحن سريع في الطريق' }, href: '/anker/car-chargers', icon: 'car', volume: { en: '260+ searches/mo', ar: '260+ بحث/شهر' } },
             // Soundcore audio sub-brand cross-link — products migrated to /soundcore/*
-            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوند كور (للصوتيات)' }, description: { en: 'Earbuds + Speakers under Anker\'s dedicated audio brand', ar: 'ايربودز + سبيكرات تحت العلامة الصوتية الفرعية من أنكر' }, href: '/soundcore', icon: 'headphones', volume: { en: '20K+ searches/mo', ar: '20K+ بحث/شهر' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
+            { title: { en: '→ Soundcore Audio (Sub-brand)', ar: '← ساوندكور (للصوتيات)' }, description: { en: 'Earbuds + Speakers under Anker\'s dedicated audio brand', ar: 'ايربودز + سبيكرات تحت العلامة الصوتية الفرعية من انكر' }, href: '/soundcore', icon: 'headphones', volume: { en: '20K+ searches/mo', ar: '20K+ بحث/شهر' }, badge: { en: 'Sub-brand', ar: 'علامة فرعية' } },
         ],
         whySection: {
-            title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا أنكر هي الأفضل عالمياً؟' },
+            title: { en: 'Why Anker is the G.O.A.T?', ar: 'لماذا انكر هي الأفضل عالمياً؟' },
             items: [
                 { icon: 'globe', title: { en: '#1 Global Leader', ar: 'الأولى عالمياً بلا منازع' }, description: { en: 'Dominated the charging market since 2011', ar: 'تسيطر على سوق الشحن منذ 2011' } },
                 { icon: 'brain', title: { en: 'AI PowerIQ 4.0', ar: 'ذكاء اصطناعي PowerIQ 4.0' }, description: { en: 'Adapts power to your device\'s needs', ar: 'يتكيف مع احتياج هاتفك لحظياً' } },
@@ -136,22 +136,22 @@ export const brandData: Record<string, BrandData> = {
                 keywords: 'anker egypt, anker, anker power bank, anker charger, anker cable, anker car charger, anker verify, anker gan, anker powercore, anker powerline, anker prime, anker nano, anker wholesale egypt',
             },
             ar: {
-                title: 'منتجات أنكر في مصر | شواحن GaN وباور بانك وكابلات',
-                description: 'تسوّق شواحن أنكر GaNPrime، باور بانك PowerCore، كابلات PowerLine وشواحن السيارة من كايرو فولت، مع ضمان كايرو فولت لمدة 18 شهرًا. للصوتيات تصفّح /soundcore.',
-                keywords: 'انكر مصر, أنكر, انكر, توكيل انكر, موقع انكر, وكيل انكر, باور بانك انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
+                title: 'منتجات انكر في مصر | شواحن GaN وباور بانك وكابلات',
+                description: 'تسوّق شواحن انكر GaNPrime، باور بانك PowerCore، كابلات PowerLine وشواحن السيارة من كايرو فولت، مع ضمان كايرو فولت لمدة 18 شهرًا. للصوتيات تصفّح /soundcore.',
+                keywords: 'انكر مصر, انكر, توكيل انكر, موقع انكر, وكيل انكر, باور بانك انكر, شاحن انكر, شاحن انكر الاصلي, وصلة انكر, كابل انكر, شاحن انكر للسياره, انكر باور هاوس',
             }
         },
         article: {
             ar: {
-                title: 'أنكر مصر: عندما تجتمع القوة مع الذكاء الاصطناعي',
+                title: 'انكر مصر: عندما تجتمع القوة مع الذكاء الاصطناعي',
                 sections: [
                     {
-                        heading: 'لماذا تعتبر أنكر الخيار الأول في مصر؟',
-                        content: 'منذ دخولها السوق المصري، غيرت أنكر مفهوم "الشحن" من مجرد ملحق إضافي إلى تقنية أساسية تعتمد عليها حياتك اليومية. بفضل تقنيات مثل **PowerIQ 4.0** التي تتعرف على نوع هاتفك (سواء كان iPhone 17 أو Samsung S26) وتعطيه الفولت المناسب بالضبط، أصبحت انكر "صديقة البطارية" الأولى.'
+                        heading: 'لماذا تعتبر انكر الخيار الأول في مصر؟',
+                        content: 'منذ دخولها السوق المصري، غيرت انكر مفهوم "الشحن" من مجرد ملحق إضافي إلى تقنية أساسية تعتمد عليها حياتك اليومية. بفضل تقنيات مثل **PowerIQ 4.0** التي تتعرف على نوع هاتفك (سواء كان iPhone 17 أو Samsung S26) وتعطيه الفولت المناسب بالضبط، أصبحت انكر "صديقة البطارية" الأولى.'
                     },
                     {
                         heading: 'ضمان كايرو فولت: حماية أوضح للشراء',
-                        content: 'شراء منتج أنكر الأصلي يعني حصولك على ضمان استبدال فوري لمدة 18 شهراً. لا مزيد من القلق بشأن المنتجات المقلدة التي تضر بجهازك. نحن نضمن لك راحة البال، وجودة التصنيع، وتقنية **ActiveShield 2.0** التي تراقب حرارة الشاحن 3 مليون مرة يومياً.'
+                        content: 'شراء منتج انكر الأصلي يعني حصولك على ضمان استبدال فوري لمدة 18 شهراً. لا مزيد من القلق بشأن المنتجات المقلدة التي تضر بجهازك. نحن نضمن لك راحة البال، وجودة التصنيع، وتقنية **ActiveShield 2.0** التي تراقب حرارة الشاحن 3 مليون مرة يومياً.'
                     }
                 ]
             },
@@ -172,10 +172,10 @@ export const brandData: Record<string, BrandData> = {
         faq: {
             ar: [
                 { question: 'كيف أتأكد أن منتج انكر أصلي 100%؟', answer: 'ابحث دائماً عن "العلامة المائية الثلاثية" (Hologram) الخاصة بالوكيل على العلبة. يمكنك أيضاً مسح QR Code الموجود للتحقق عبر موقع انكر الرسمي. نحن في CairoVolt نضمن لك منتجات أصلية 100% مع ضمان استبدال فوري.' },
-                { question: 'ما الفرق بين ضمان أنكر في CairoVolt وأمازون/نون؟', answer: 'في المتاجر العامة يختلف الضمان حسب البائع. توضح كايرو فولت مدة تغطية المتجر وشروطها على صفحة المنتج، وتصل إلى 18 شهرًا للمنتجات المشمولة. تواصل معنا عبر واتساب لطلب الدعم أو التحقق من حالة منتجك.' },
-                { question: 'ما هو الفرق بين تقنية PowerIQ و PD (Power Delivery)؟', answer: 'تقنية **PD** هي معيار عالمي للشحن السريع (للآيفون واللابتوب). أما **PowerIQ** فهي تقنية حصرية لـ أنكر تتعرف بذكاء على نوع جهازك (سواء سامسونج، آيفون، أو سماعة) وتعطيه أقصى سرعة آمنة له. شواحن أنكر الجديدة تدمج الاثنين معاً!' },
+                { question: 'ما الفرق بين ضمان انكر في CairoVolt وأمازون/نون؟', answer: 'في المتاجر العامة يختلف الضمان حسب البائع. توضح كايرو فولت مدة تغطية المتجر وشروطها على صفحة المنتج، وتصل إلى 18 شهرًا للمنتجات المشمولة. تواصل معنا عبر واتساب لطلب الدعم أو التحقق من حالة منتجك.' },
+                { question: 'ما هو الفرق بين تقنية PowerIQ و PD (Power Delivery)؟', answer: 'تقنية **PD** هي معيار عالمي للشحن السريع (للآيفون واللابتوب). أما **PowerIQ** فهي تقنية حصرية لـ انكر تتعرف بذكاء على نوع جهازك (سواء سامسونج، آيفون، أو سماعة) وتعطيه أقصى سرعة آمنة له. شواحن انكر الجديدة تدمج الاثنين معاً!' },
                 { question: 'هل شواحن انكر تضر ببطارية الايفون (Battery Health)؟', answer: 'على العكس تماماً! شواحن انكر تأتي بتقنية **ActiveShield 2.0** التي تراقب الحرارة 3 مليون مرة يومياً لتمنع السخونة التي تضر البطارية. كما أنها حاصلة على شهادة MFi من آبل، مما يعني أنها آمنة تماماً مثل الشاحن الأصلي وأحياناً أفضل تبريداً.' },
-                { question: 'لماذا تعتبر منتجات أنكر استثمار جيد؟', answer: 'إذا كنت تبحث عن \"أعلى أداء وتكنولوجيا في العالم\" وتدفع مقابل الاستدامة، فـ **أنكر** هي الأفضل (استثمار طويل الأمد). منتجاتنا مصممة لتعيش سنوات طويلة مع الحفاظ على كفاءتها.' },
+                { question: 'لماذا تعتبر منتجات انكر استثمار جيد؟', answer: 'إذا كنت تبحث عن \"أعلى أداء وتكنولوجيا في العالم\" وتدفع مقابل الاستدامة، فـ **انكر** هي الأفضل (استثمار طويل الأمد). منتجاتنا مصممة لتعيش سنوات طويلة مع الحفاظ على كفاءتها.' },
                 { question: 'أين يوجد مركز صيانة انكر المعتمد في مصر؟', answer: 'لا داعي للبحث عن "مركز صيانة"! سياسة الضمان لدينا هي "الاستبدال الفوري". إذا واجهت مشكلة خلال 18 شهراً، تواصل معنا عبر واتساب وسنقوم باستبدال المنتج لك من خلال فروعنا أو الشحن.' }
             ],
             en: [
@@ -189,7 +189,7 @@ export const brandData: Record<string, BrandData> = {
         },
         quickAnswer: {
             en: 'Anker is the world\'s #1 charging brand (power banks, GaN chargers, cables, car chargers) — available in Egypt via CairoVolt with 18-month warranty. Best sellers: PowerCore 20000mAh (EGP 1,550), 20W charger (EGP 375), 100W laptop charger. For Anker\'s audio sub-brand Soundcore (earbuds + Bluetooth speakers), visit /soundcore.',
-            ar: 'أنكر هي العلامة التجارية الأولى عالمياً في الشحن (باور بانك، شواحن GaN، كابلات، شواحن سيارة) — متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، شاحن لابتوب 100W. للعلامة الفرعية للصوتيات من أنكر (ساوند كور — ايربودز وسبيكرات بلوتوث) تصفّح /soundcore.'
+            ar: 'انكر هي العلامة التجارية الأولى عالمياً في الشحن (باور بانك، شواحن GaN، كابلات، شواحن سيارة) — متوفرة في مصر عبر كايرو فولت بضمان 18 شهر استبدال فوري. الأكثر مبيعاً: باور بانك 20000mAh (1,550 ج)، شاحن 20W (375 ج)، شاحن لابتوب 100W. للعلامة الفرعية للصوتيات من انكر (ساوندكور — ايربودز وسبيكرات بلوتوث) تصفّح /soundcore.'
         }
     },
     joyroom: {

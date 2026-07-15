@@ -5,6 +5,7 @@ import { categoryContent } from '@/data/category-content';
 import { getProductsByBrandAndCategory } from '@/lib/static-products';
 import { staticProducts } from '@/lib/static-products';
 import { ankerBestSellers, soundcoreBestSellers } from '@/components/products/BestSellingProducts';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 /**
  * The Joyroom car-accessories route is an umbrella landing page. Products keep
@@ -57,8 +58,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const isArabic = locale === 'ar';
     const meta = locale === 'ar' ? data.metadata.ar : data.metadata.en;
-    const localizedCategoryName = isArabic ? data.pageContent.ar.title : data.pageContent.en.title;
-    const arCategoryName = data.pageContent.ar.title.replace(/\s+في مصر$/u, '');
+    const localizedCategoryName = isArabic
+        ? localizeArabicBrandNames(data.pageContent.ar.title)
+        : data.pageContent.en.title;
+    const arCategoryName = localizeArabicBrandNames(data.pageContent.ar.title).replace(/\s+في مصر$/u, '');
     const enCategoryName = data.pageContent.en.title.replace(/\s+in Egypt$/i, '');
     // Strict lowercase for canonical URLs (URL best practice)
     const path = `${brandKey}/${categoryKey}`;
@@ -69,8 +72,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageUrl = categoryProducts[0]?.images[0]?.url
         ? `https://cairovolt.com${categoryProducts[0].images[0].url}`
         : undefined;
-    const socialImageAlt = categoryProducts[0]?.images[0]?.alt
+    const rawSocialImageAlt = categoryProducts[0]?.images[0]?.alt
         || (isArabic ? `${localizedCategoryName} - كايرو فولت مصر` : `${localizedCategoryName} - CairoVolt Egypt`);
+    const socialImageAlt = isArabic
+        ? localizeArabicBrandNames(rawSocialImageAlt)
+        : rawSocialImageAlt;
 
     // Get product count for this category
     const catProducts = getLandingPageProducts(brandKey, categoryKey);
@@ -80,14 +86,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const enTitle = `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`;
 
     const dynamicTitle = isArabic ? arTitle : enTitle;
+    const metaDescription = isArabic
+        ? localizeArabicBrandNames(meta.description)
+        : meta.description;
     const canonical = isArabic
         ? `https://cairovolt.com/${path}`
         : `https://cairovolt.com/en/${path}`;
 
     return {
         title: { absolute: dynamicTitle },
-        description: meta.description,
-        keywords: meta.keywords,
+        description: metaDescription,
+        keywords: isArabic
+            ? localizeArabicBrandNames(meta.keywords)
+            : meta.keywords,
         alternates: {
             canonical,
             languages: {
@@ -99,7 +110,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         openGraph: {
             ...(meta.openGraph || {}),
             title: dynamicTitle,
-            description: meta.description,
+            description: metaDescription,
             url: canonical,
             siteName: 'CairoVolt',
             locale: isArabic ? 'ar_EG' : 'en_EG',
@@ -111,7 +122,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         twitter: {
             card: 'summary_large_image',
             title: dynamicTitle,
-            description: meta.description,
+            description: metaDescription,
             images: socialImageUrl ? [socialImageUrl] : undefined,
         },
     };

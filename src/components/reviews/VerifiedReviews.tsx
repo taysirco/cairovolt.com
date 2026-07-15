@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface Review {
     id: string;
@@ -29,6 +30,9 @@ interface VerifiedReviewsProps {
 
 export default function VerifiedReviews({ productSlug, locale }: VerifiedReviewsProps) {
     const isArabic = locale === 'ar';
+    const localizeReviewText = (text: string) => isArabic
+        ? localizeArabicBrandNames(text)
+        : text;
     const [reviews, setReviews] = useState<Review[]>([]);
     const [aggregateRating, setAggregateRating] = useState<AggregateRating | null>(null);
     const [loading, setLoading] = useState(true);
@@ -161,10 +165,10 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                         </div>
 
                         {review.title && (
-                            <h4 className="review-title">{review.title}</h4>
+                            <h4 className="review-title">{localizeReviewText(review.title)}</h4>
                         )}
 
-                        <p className="review-text">{review.reviewText}</p>
+                        <p className="review-text">{localizeReviewText(review.reviewText)}</p>
 
                         {/* Pros & Cons */}
                         <div className="review-pros-cons">
@@ -173,7 +177,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                                     <span className="label"><SvgIcon name="check-circle" className="w-4 h-4 inline-block text-green-500" /></span>
                                     <ul>
                                         {review.pros.map((pro, i) => (
-                                            <li key={i}>{pro}</li>
+                                            <li key={i}>{localizeReviewText(pro)}</li>
                                         ))}
                                     </ul>
                                 </div>
@@ -183,7 +187,7 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
                                     <span className="label"><SvgIcon name="x-circle" className="w-4 h-4 inline-block text-red-500" /></span>
                                     <ul>
                                         {review.cons.map((con, i) => (
-                                            <li key={i}>{con}</li>
+                                            <li key={i}>{localizeReviewText(con)}</li>
                                         ))}
                                     </ul>
                                 </div>

@@ -155,7 +155,7 @@ export default function Footer() {
                         <ul className="space-y-2.5 text-sm text-gray-600 dark:text-gray-400">
                             <li>
                                 <Link href={getLocalizedHref('/anker')} className="hover:text-blue-600 transition-colors font-medium">
-                                    {isRTL ? 'جميع منتجات Anker' : 'All Anker Products'}
+                                    {isRTL ? 'جميع منتجات انكر' : 'All Anker Products'}
                                 </Link>
                             </li>
                             <li>
@@ -170,17 +170,17 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link href={getLocalizedHref('/soundcore')} className="hover:text-orange-600 transition-colors font-semibold">
-                                    {isRTL ? '🎧 ساوند كور (Soundcore)' : '🎧 Soundcore by Anker'}
+                                    {isRTL ? '🎧 ساوندكور من انكر' : '🎧 Soundcore by Anker'}
                                 </Link>
                             </li>
                             <li className="ps-4 text-xs">
                                 <Link href={getLocalizedHref('/soundcore/audio')} className="hover:text-orange-600 transition-colors text-gray-600 dark:text-gray-400">
-                                    {isRTL ? '— ايربودز ساوند كور' : '— Soundcore Earbuds'}
+                                    {isRTL ? '— ايربودز ساوندكور' : '— Soundcore Earbuds'}
                                 </Link>
                             </li>
                             <li className="ps-4 text-xs">
                                 <Link href={getLocalizedHref('/soundcore/speakers')} className="hover:text-orange-600 transition-colors text-gray-600 dark:text-gray-400">
-                                    {isRTL ? '— سبيكرات ساوند كور' : '— Soundcore Speakers'}
+                                    {isRTL ? '— سبيكرات ساوندكور' : '— Soundcore Speakers'}
                                 </Link>
                             </li>
                             <li className="pt-2 border-t border-gray-200 dark:border-gray-700">
@@ -278,7 +278,7 @@ export default function Footer() {
                     <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed text-center max-w-4xl mx-auto">
                         <span>
                             {isRTL
-                                ? 'كايرو فولت (CairoVolt) هو موزع معتمد لمنتجات Anker وJoyroom الأصلية في مصر، متخصص في إكسسوارات الهواتف المحمولة والشحن السريع مع توصيل لجميع المحافظات.'
+                                ? 'كايرو فولت (CairoVolt) هو موزع معتمد لمنتجات انكر وجوي روم الأصلية في مصر، متخصص في إكسسوارات الهواتف المحمولة والشحن السريع مع توصيل لجميع المحافظات.'
                                 : 'CairoVolt is an authorized distributor of original Anker and Joyroom products in Egypt, specializing in mobile accessories and fast charging with delivery to all governorates.'}
                         </span>
                     </p>

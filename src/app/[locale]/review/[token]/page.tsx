@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { validateReviewToken } from '@/lib/verified-reviews';
 import ReviewPageClient from './ReviewPageClient';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 type Props = {
     params: Promise<{ locale: string; token: string }>;
@@ -33,7 +34,9 @@ export default async function ReviewPage({ params }: Props) {
             locale={locale}
             token={token}
             tokenData={tokenData ? {
-                productName: tokenData.productName,
+                productName: locale === 'ar'
+                    ? localizeArabicBrandNames(tokenData.productName)
+                    : tokenData.productName,
                 productSlug: tokenData.productSlug,
                 customerName: tokenData.customerName,
                 purchaseDate: tokenData.purchaseDate.toISOString()

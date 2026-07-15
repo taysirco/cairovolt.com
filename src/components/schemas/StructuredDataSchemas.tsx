@@ -340,7 +340,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         name: isArabic ? 'كايرو فولت' : 'CairoVolt',
         alternateName: isArabic ? 'CairoVolt' : 'كايرو فولت',
         description: isArabic
-            ? 'الموزع المعتمد لمنتجات أنكر وجوي روم في مصر. باور بانك، شواحن، سماعات، كابلات بأفضل الأسعار مع ضمان رسمي.'
+            ? 'الموزع المعتمد لمنتجات انكر وجوي روم في مصر. باور بانك، شواحن، سماعات، كابلات بأفضل الأسعار مع ضمان رسمي.'
             : 'Authorized dealer for Anker and Joyroom products in Egypt. Power banks, chargers, earbuds, cables at best prices with official warranty.',
         url: 'https://cairovolt.com',
         logo: 'https://cairovolt.com/logo.png',
@@ -350,7 +350,7 @@ export function LocalBusinessSchema({ locale }: LocalBusinessProps) {
         currenciesAccepted: 'EGP',
         paymentAccepted: ['Cash on Delivery', 'الدفع عند الاستلام'],
         priceRange: '$$',
-        slogan: isArabic ? 'الوكيل المعتمد لأنكر وجوي روم في مصر — مختبرياً' : 'Authorized Anker & Joyroom Dealer in Egypt — Lab Tested',
+        slogan: isArabic ? 'الوكيل المعتمد لانكر وجوي روم في مصر — مختبرياً' : 'Authorized Anker & Joyroom Dealer in Egypt — Lab Tested',
         sameAs: [
             'https://www.facebook.com/cairovolt',
             'https://www.instagram.com/cairovolt',
@@ -498,9 +498,9 @@ export function CollectionPageSchema({ locale, collections }: CollectionPageSche
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
         '@id': `${baseUrl}${isArabic ? '' : '/en'}/#collectionpage`,
-        name: isArabic ? 'إكسسوارات الموبايل - Anker و Joyroom مصر' : 'Mobile Accessories - Anker & Joyroom Egypt',
+        name: isArabic ? 'إكسسوارات الموبايل - انكر و Joyroom مصر' : 'Mobile Accessories - Anker & Joyroom Egypt',
         description: isArabic
-            ? 'تسوق أفضل إكسسوارات الموبايل الأصلية في مصر. باور بانك، شواحن، سماعات، كابلات من Anker و Joyroom.'
+            ? 'تسوق أفضل إكسسوارات الموبايل الأصلية في مصر. باور بانك، شواحن، سماعات، كابلات من انكر و Joyroom.'
             : 'Shop the best original mobile accessories in Egypt. Power banks, chargers, earbuds, cables from Anker & Joyroom.',
         url: `${baseUrl}${isArabic ? '' : '/en'}`,
         inLanguage: isArabic ? 'ar-EG' : 'en-EG',

@@ -61,7 +61,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
 
           <p className="hero-description mx-auto mt-6 max-w-xl break-words text-base leading-8 text-slate-300 sm:text-lg lg:mx-0">
             {isAr
-              ? 'منتجات Anker وSoundcore وJoyroom الأصلية، مرتبة حسب احتياجك الحقيقي — عشان تختار صح من أول مرة وتدفع عند الاستلام.'
+              ? 'منتجات انكر وساوندكور وجوي روم الأصلية، مرتبة حسب احتياجك الحقيقي — عشان تختار صح من أول مرة وتدفع عند الاستلام.'
               : 'Original Anker, Soundcore, and Joyroom products arranged around what you actually need — so you choose right the first time and pay on delivery.'}
           </p>
 
@@ -120,7 +120,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                 />
                 <Image
                   src="/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png"
-                  alt={isAr ? 'شاحن أنكر نانو 45 واط الذكي بشاشة تفاعلية' : 'Anker Nano 45W smart charger with interactive display'}
+                  alt={isAr ? 'شاحن انكر نانو 45 واط الذكي بشاشة تفاعلية' : 'Anker Nano 45W smart charger with interactive display'}
                   fill
                   priority
                   fetchPriority="high"
@@ -132,7 +132,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white via-white/90 to-transparent px-5 pb-5 pt-16 text-[#0b1324] sm:px-7 sm:pb-6">
                   <div className="mb-2 flex items-center justify-between gap-4">
                     <span className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-[11px] font-bold uppercase tracking-[.16em] text-blue-700">
-                      Anker
+                      {isAr ? 'انكر' : 'Anker'}
                     </span>
                     <span className="text-sm text-slate-500">{isAr ? 'شاشة ذكية تفاعلية' : 'Smart interactive display'}</span>
                   </div>
@@ -159,14 +159,14 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-slate-100 to-slate-300">
               <Image
                 src="/images/home/cutouts/soundcore-r50i-nc-anc-earbuds-cutout-cairovolt.png"
-                alt="Soundcore R50i NC"
+                alt={isAr ? 'ساوندكور R50i NC' : 'Soundcore R50i NC'}
                 fill
                 sizes="56px"
                 className="object-contain p-1 drop-shadow-sm"
               />
             </span>
             <span className="min-w-0">
-              <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">Soundcore</span>
+              <span className="block text-[10px] font-semibold uppercase tracking-wider text-cyan-300">{isAr ? 'ساوندكور' : 'Soundcore'}</span>
               <span className="block truncate text-xs font-semibold text-white">R50i NC</span>
               <span className="block text-[11px] text-slate-400">1,199 {isAr ? 'ج.م' : 'EGP'}</span>
             </span>

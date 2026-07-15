@@ -208,9 +208,9 @@ export function ProductComparisonTable({ product, competitors, locale }: Compari
                 const seedStr = product.slug || '';
                 const catHash = seedStr.split('').reduce((acc: number, char: string) => acc + char.charCodeAt(0), 0);
                 const arTrustLines = [
-                    '* نحن الموزع المعتمد لأنكر وجوي روم في مصر - ضمان رسمي 100%',
+                    '* نحن الموزع المعتمد لانكر وجوي روم في مصر - ضمان رسمي 100%',
                     '* كل منتج مختوم بباركود الشركة الأصلي وعليه كفالة استبدال فوري',
-                    '* معتمدون رسمياً من Anker و Joyroom — سجل تجاري 8446',
+                    '* معتمدون رسمياً من انكر وJoyroom — سجل تجاري 8446',
                 ];
                 const enTrustLines = [
                     '* We are the authorized dealer for Anker & Joyroom in Egypt - 100% Official Warranty',

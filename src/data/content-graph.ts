@@ -53,7 +53,7 @@ export const contentGraph: ContentMap = {
     anker: {
         main: {
             topic: 'Anker Egypt - Official Mobile Accessories',
-            topicAr: 'أنكر مصر - إكسسوارات الموبايل الأصلية',
+            topicAr: 'انكر مصر - إكسسوارات الموبايل الأصلية',
             url: '/anker',
             pageType: 'navigational',
         },
@@ -64,23 +64,23 @@ export const contentGraph: ContentMap = {
                 // and the sitemap/related-links helpers see it. URL is top-level
                 // (/soundcore), not /anker/soundcore — matches Anker's real-world IA.
                 topic: 'Soundcore by Anker — Audio Sub-Brand Hub',
-                topicAr: 'ساوند كور — مركز العلامة الصوتية الفرعية',
+                topicAr: 'ساوندكور — مركز العلامة الصوتية الفرعية',
                 url: '/soundcore',
                 pageType: 'navigational',
                 supportingContent: [
                     {
                         topic: 'What is Soundcore vs Anker?',
-                        topicAr: 'الفرق بين ساوند كور وانكر',
+                        topicAr: 'الفرق بين ساوندكور وانكر',
                         type: 'educational',
                         alternateNames: ['soundcore vs anker', 'soundcore explained', 'is soundcore anker'],
-                        alternateNamesAr: ['ساوند كور ام انكر', 'ايه الفرق بين ساوند كور وانكر'],
+                        alternateNamesAr: ['ساوندكور ام انكر', 'ايه الفرق بين ساوندكور وانكر'],
                     },
                     {
                         topic: 'Soundcore Earbuds vs Speakers — Which to Buy',
-                        topicAr: 'ايربودز ساوند كور ام سبيكر — أيهما تشتري',
+                        topicAr: 'ايربودز ساوندكور ام سبيكر — أيهما تشتري',
                         type: 'buying_guide',
                         alternateNames: ['soundcore earbuds or speaker', 'choose soundcore product'],
-                        alternateNamesAr: ['اختار ساوند كور', 'سماعة ولا سبيكر ساوند كور'],
+                        alternateNamesAr: ['اختار ساوندكور', 'سماعة ولا سبيكر ساوندكور'],
                     },
                 ],
                 relatedEntities: ['Soundcore', 'Anker', 'Hi-Res Audio', 'BassUp', 'HearID', 'PartyCast', 'LDAC'],
@@ -110,7 +110,7 @@ export const contentGraph: ContentMap = {
                     },
                     {
                         topic: 'Anker vs Joyroom Power Bank Comparison',
-                        topicAr: 'مقارنة باور بانك أنكر وجوي روم',
+                        topicAr: 'مقارنة باور بانك انكر وجوي روم',
                         type: 'comparison',
                         alternateNames: ['anker vs joyroom', 'best power bank brand egypt'],
                         alternateNamesAr: ['انكر ضد جوي روم', 'افضل ماركة باور بانك'],
@@ -161,16 +161,16 @@ export const contentGraph: ContentMap = {
             },
             {
                 topic: 'Soundcore Earbuds & Headphones',
-                topicAr: 'سماعات ساوند كور (ايربودز + هيدفون)',
+                topicAr: 'سماعات ساوندكور (ايربودز + هيدفون)',
                 url: '/soundcore/audio',
                 pageType: 'commercial',
                 supportingContent: [
                     {
                         topic: 'Soundcore vs AirPods Comparison',
-                        topicAr: 'مقارنة ساوند كور وايربودز',
+                        topicAr: 'مقارنة ساوندكور وايربودز',
                         type: 'comparison',
                         alternateNames: ['soundcore vs airpods', 'anker earbuds vs apple'],
-                        alternateNamesAr: ['ساوند كور ضد ايربودز', 'سماعات انكر ام ابل'],
+                        alternateNamesAr: ['ساوندكور ضد ايربودز', 'سماعات انكر ام ابل'],
                     },
                     {
                         topic: 'Best Earbuds for Gym & Sports',
@@ -194,7 +194,7 @@ export const contentGraph: ContentMap = {
             },
             {
                 topic: 'Soundcore Bluetooth Speakers',
-                topicAr: 'مكبرات صوت ساوند كور',
+                topicAr: 'مكبرات صوت ساوندكور',
                 url: '/soundcore/speakers',
                 pageType: 'commercial',
                 supportingContent: [
@@ -203,7 +203,7 @@ export const contentGraph: ContentMap = {
                         topicAr: 'مقارنة Motion+ ضد JBL Flip',
                         type: 'comparison',
                         alternateNames: ['motion+ vs jbl', 'soundcore vs jbl speaker'],
-                        alternateNamesAr: ['موشن بلس ضد جي بي ال', 'ساوند كور ام جي بي ال'],
+                        alternateNamesAr: ['موشن بلس ضد جي بي ال', 'ساوندكور ام جي بي ال'],
                     },
                     {
                         topic: 'Best Waterproof Speaker for Pool & Beach',

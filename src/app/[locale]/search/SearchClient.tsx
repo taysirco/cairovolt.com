@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface SearchProduct {
     slug: string;
@@ -90,7 +91,7 @@ export default function SearchClient({ locale, index }: SearchClientProps) {
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400 mb-6">
                     {isArabic
-                        ? 'باور بانك، شواحن، سماعات، كابلات — أنكر وجوي روم الأصلية'
+                        ? 'باور بانك، شواحن، سماعات، كابلات — انكر وجوي روم الأصلية'
                         : 'Power banks, chargers, earbuds, cables — original Anker & Joyroom'}
                 </p>
 
@@ -123,7 +124,7 @@ export default function SearchClient({ locale, index }: SearchClientProps) {
                                 // eslint-disable-next-line @next/next/no-img-element
                                 <img
                                     src={p.image.replace(/\.webp$/, '-480.webp')}
-                                    alt={isArabic ? p.nameAr : p.nameEn}
+                                    alt={isArabic ? localizeArabicBrandNames(p.nameAr) : p.nameEn}
                                     width={72}
                                     height={72}
                                     loading="lazy"
@@ -135,9 +136,9 @@ export default function SearchClient({ locale, index }: SearchClientProps) {
                             )}
                             <div className="min-w-0">
                                 <div className="font-semibold text-gray-900 dark:text-white truncate">
-                                    {isArabic ? p.nameAr : p.nameEn}
+                                    {isArabic ? localizeArabicBrandNames(p.nameAr) : p.nameEn}
                                 </div>
-                                <div className="text-sm text-gray-500">{p.brand}</div>
+                                <div className="text-sm text-gray-500">{getBrandDisplayName(p.brand, locale)}</div>
                                 <div className="text-blue-600 dark:text-blue-400 font-bold mt-1">
                                     {p.price.toLocaleString(isArabic ? 'ar-EG' : 'en-US')} {isArabic ? 'جنيه' : 'EGP'}
                                 </div>

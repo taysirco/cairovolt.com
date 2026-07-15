@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { staticProducts, StaticProduct } from '@/lib/static-products';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface BestSellingProductsProps {
     brandSlug: string;
@@ -95,6 +96,7 @@ export default function BestSellingProducts({
     const isAnker = brandSlug === 'anker';
     const isSoundcore = brandSlug === 'soundcore';
     const products = getBestSellingProducts(brandSlug, maxProducts);
+    const displayBrandName = getBrandDisplayName(brandDisplayName, locale);
 
     if (products.length === 0) return null;
 
@@ -111,15 +113,17 @@ export default function BestSellingProducts({
         '@type': 'ItemList',
         '@id': `${canonicalBase}/${brandSlug}#best-sellers-list`,
         name: isRTL
-            ? `أفضل ${products.length} منتج من ${brandDisplayName} في مصر`
-            : `Top ${products.length} ${brandDisplayName} Products in Egypt`,
+            ? `أفضل ${products.length} منتج من ${displayBrandName} في مصر`
+            : `Top ${products.length} ${displayBrandName} Products in Egypt`,
         isPartOf: { '@id': `${canonicalBase}/${brandSlug}#collectionpage` },
         numberOfItems: products.length,
         itemListOrder: 'https://schema.org/ItemListOrderDescending',
         itemListElement: products.map((p, idx) => ({
             '@type': 'ListItem',
             position: idx + 1,
-            name: p.translations[isRTL ? 'ar' : 'en'].name,
+            name: isRTL
+                ? localizeArabicBrandNames(p.translations.ar.name)
+                : p.translations.en.name,
             url: `${canonicalBase}/${brandSlug}/${p.categorySlug}/${p.slug}`,
         })),
     };
@@ -156,8 +160,8 @@ export default function BestSellingProducts({
 
                         <h2 className="text-xl font-black text-gray-900 dark:text-white sm:text-2xl md:text-3xl lg:text-4xl">
                             {isRTL
-                                ? `أفضل ${products.length} منتج من ${brandDisplayName}`
-                                : `Top ${products.length} ${brandDisplayName} Products`}
+                                ? `أفضل ${products.length} منتج من ${displayBrandName}`
+                                : `Top ${products.length} ${displayBrandName} Products`}
                         </h2>
                     </div>
 
@@ -179,6 +183,9 @@ export default function BestSellingProducts({
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-5">
                     {products.map((product, idx) => {
                         const t = product.translations[isRTL ? 'ar' : 'en'];
+                        const productName = isRTL
+                            ? localizeArabicBrandNames(t.name)
+                            : t.name;
                         const productUrl = getLocalizedHref(
                             `/${brandSlug}/${product.categorySlug}/${product.slug}`
                         );
@@ -218,7 +225,7 @@ export default function BestSellingProducts({
                                     {product.images?.[0]?.url ? (
                                         <ProductImage
                                             src={product.images[0].url}
-                                            alt={product.images[0].alt || t.name}
+                                            alt={isRTL ? productName : (product.images[0].alt || productName)}
                                             slug={product.slug}
                                             brand={product.brand}
                                             category={product.categorySlug}
@@ -232,7 +239,7 @@ export default function BestSellingProducts({
                                     ) : (
                                         <div className="absolute inset-0 flex items-center justify-center">
                                             <span className="text-4xl font-black text-gray-200 dark:text-gray-700">
-                                                {brandDisplayName.charAt(0)}
+                                                {displayBrandName.charAt(0)}
                                             </span>
                                         </div>
                                     )}
@@ -250,9 +257,9 @@ export default function BestSellingProducts({
                                     {/* Product Name */}
                                     <h3
                                         className="text-xs md:text-sm font-bold text-gray-900 dark:text-white line-clamp-2 leading-tight mb-2 min-h-[2.25rem] group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
-                                        title={t.name}
+                                        title={productName}
                                     >
-                                        {t.name}
+                                        {productName}
                                     </h3>
 
                                     {/* Price Row */}

@@ -8,6 +8,7 @@ import { useCart } from '@/context/CartContext';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { useTranslations } from 'next-intl';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export default function CartDrawer({ locale }: { locale: string }) {
     const { items, isOpen, setIsOpen, updateQuantity, removeFromCart, totalAmount, totalOriginalAmount, clearCart } = useCart();
@@ -139,7 +140,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                                     {item.image && (
                                         <Image
                                             src={item.image}
-                                            alt={item.name}
+                                            alt={isRTL ? localizeArabicBrandNames(item.name) : item.name}
                                             fill
                                             sizes="80px"
                                             className="object-contain"
@@ -150,8 +151,8 @@ export default function CartDrawer({ locale }: { locale: string }) {
                                 {/* Details */}
                                 <div className="flex-1 flex flex-col justify-between">
                                     <div>
-                                        <h3 className="font-bold text-sm line-clamp-2">{item.name}</h3>
-                                        <div className="text-gray-500 text-xs mt-1">{item.brand}</div>
+                                        <h3 className="font-bold text-sm line-clamp-2">{isRTL ? localizeArabicBrandNames(item.name) : item.name}</h3>
+                                        <div className="text-gray-500 text-xs mt-1">{getBrandDisplayName(item.brand || '', locale)}</div>
                                     </div>
 
                                     <div className="flex items-center justify-between mt-2">

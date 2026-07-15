@@ -5,6 +5,7 @@ import { useState, useMemo } from 'react';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // We need a shared interface for products passed from server
 interface Product {
@@ -46,6 +47,7 @@ interface BundleSelectorProps {
 export default function BundleSelector({ mainProduct, relatedProducts, bundleData, locale }: BundleSelectorProps) {
     const { addToCart, addBundleToCart, items: cartItems } = useCart();
     const isArabic = locale === 'ar';
+    const displayText = (text: string) => isArabic ? localizeArabicBrandNames(text) : text;
 
     // Use smart bundle data if available, otherwise fall back to relatedProducts
     const smartBundleItems: BundleProductData[] = useMemo(() => {
@@ -116,7 +118,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
             return {
                 productId: item.product.id,
                 sku: item.product.sku, // 🧬 بصمة قطعة الكومبو
-                name: t?.name || item.product.slug,
+                name: displayText(t?.name || item.product.slug),
                 price: item.product.price,
                 originalPrice: item.product.originalPrice,
                 quantity: 1,
@@ -196,6 +198,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         const isSelected = selectedIds.includes(item.product.id);
                         const isMain = item.product.id === mainProduct.id;
                         const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
+                        const productName = displayText(t?.name || item.product.slug);
+                        const reasonText = displayText(item.reason[isArabic ? 'ar' : 'en'] || '');
                         const badge = getSlotBadge(item.slot);
 
                         return (
@@ -236,7 +240,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                     {item.product.images?.[0]?.url && (
                                         <ProductImage
                                             src={item.product.images[0].url}
-                                            alt={t?.name || item.product.slug}
+                                            alt={productName}
                                             slug={item.product.slug}
                                             brand={item.product.brand}
                                             category={item.product.categorySlug}
@@ -251,13 +255,13 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                 {/* Product Name */}
                                 <p className={`text-sm font-medium leading-tight mb-1 line-clamp-2 h-10 text-start ${isSelected ? 'text-gray-800 dark:text-gray-200' : 'text-gray-400 line-through'}`}>
-                                    {t?.name}
+                                    {productName}
                                 </p>
 
                                 {/* Reason Text */}
-                                {!isMain && item.reason[isArabic ? 'ar' : 'en'] && (
+                                {!isMain && reasonText && (
                                     <p className="text-[10px] text-orange-700 dark:text-orange-400 font-medium mb-1 line-clamp-1 text-start">
-                                        💡 {item.reason[isArabic ? 'ar' : 'en']}
+                                        💡 {reasonText}
                                     </p>
                                 )}
 
@@ -359,6 +363,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                     {allProducts.map((item, idx) => {
                         const isSelected = selectedIds.includes(item.product.id);
                         const t = item.product.translations?.[isArabic ? 'ar' : 'en'] || item.product.translations?.en;
+                        const productName = displayText(t?.name || item.product.slug);
+                        const reasonText = displayText(item.reason[isArabic ? 'ar' : 'en'] || '');
                         const isMain = item.product.id === mainProduct.id;
                         const badge = getSlotBadge(item.slot);
 
@@ -390,7 +396,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                             {item.product.images?.[0]?.url && (
                                                 <ProductImage
                                                     src={item.product.images[0].url}
-                                                    alt={t?.name || item.product.slug}
+                                                    alt={productName}
                                                     slug={item.product.slug}
                                                     brand={item.product.brand}
                                                     category={item.product.categorySlug}
@@ -406,13 +412,13 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                         {/* Product Info */}
                                         <div className="text-center">
                                             <p className={`text-sm font-medium mb-1 line-clamp-2 h-10 ${!isSelected ? 'text-gray-400 line-through' : 'text-gray-800 dark:text-gray-200'}`}>
-                                                {t?.name}
+                                                {productName}
                                             </p>
 
                                             {/* Reason Text */}
-                                            {!isMain && item.reason[isArabic ? 'ar' : 'en'] && (
+                                            {!isMain && reasonText && (
                                                 <p className="text-[11px] text-orange-700 dark:text-orange-400 font-medium mb-2 line-clamp-1">
-                                                    💡 {item.reason[isArabic ? 'ar' : 'en']}
+                                                    💡 {reasonText}
                                                 </p>
                                             )}
 

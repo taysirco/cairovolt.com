@@ -10,6 +10,7 @@ import { BostaTracker } from '@/lib/bosta';
 import { getGovernorateOutageData } from '@/data/load-shedding-data';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export const revalidate = 3600; // ISR: revalidate every hour
 // Closed param space (27 governorates × 2 locales) → unknown slugs get a real
@@ -67,7 +68,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const titleAr = `حلول انقطاع الكهرباء في ${gov.nameAr} ${year} | باور بانك وUPS`;
     const titleEn = `Power Outage Solutions ${gov.nameEn} ${year} | Power Banks & UPS`;
 
-    const descriptionAr = `مركز طوارئ كايرو فولت في ${gov.nameAr}: باور بانك أنكر يشغل الراوتر 14 ساعة متواصلة. UPS منزلي 18 ساعة. بيانات مختبرية C2PA. توصيل ${gov.deliveryDays} أيام. الدفع عند الاستلام.`;
+    const descriptionAr = `مركز طوارئ كايرو فولت في ${gov.nameAr}: باور بانك انكر يشغل الراوتر 14 ساعة متواصلة. UPS منزلي 18 ساعة. بيانات مختبرية C2PA. توصيل ${gov.deliveryDays} أيام. الدفع عند الاستلام.`;
     const descriptionEn = `CairoVolt emergency center for ${gov.nameEn}: Anker power bank runs router 14 hours straight. Home UPS 18 hours. C2PA lab data. ${gov.deliveryDays}-day delivery. Cash on delivery.`;
 
     return {
@@ -296,7 +297,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                     <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">{lsData.routerRuntimeHours}h {lsData.routerRuntimeMinutes}m</div>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
                                         {isArabic
-                                            ? 'Anker 737 شغّل راوتر WE VDSL بدون ريستارت — Zero Transfer Time'
+                                            ? 'انكر 737 شغّل راوتر WE VDSL بدون ريستارت — Zero Transfer Time'
                                             : 'Anker 737 ran WE VDSL router without restart — Zero Transfer Time'}
                                     </p>
                                     <div className="text-xs text-gray-400 dark:text-gray-500">
@@ -310,7 +311,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                     <div className="text-3xl font-bold text-gray-900 dark:text-white mb-1">{lsData.upsRuntimeHours}h {lsData.upsRuntimeMinutes}m</div>
                                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
                                         {isArabic
-                                            ? 'Anker 521 شغّل راوتر + مروحة 40W معاً — بطارية LiFePO4'
+                                            ? 'انكر 521 شغّل راوتر + مروحة 40W معاً — بطارية LiFePO4'
                                             : 'Anker 521 ran router + 40W fan together — LiFePO4 battery'}
                                     </p>
                                     <div className="text-xs text-gray-400 dark:text-gray-500">
@@ -370,7 +371,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                                         </h3>
                                         <p className="text-gray-600 dark:text-gray-400 text-sm">
                                             {isArabic
-                                                ? `لما الكهرباء بترجع، الجهد بيتذبذب بين ${lsData.voltageRangeSafe}. شواحن GaN من أنكر اتجربت في مختبر كايرو فولت وآمنة — الشواحن المقلدة ممكن تعمل "تخريف تاتش" في الموبايل أو حتى تسبب حريق.`
+                                                ? `لما الكهرباء بترجع، الجهد بيتذبذب بين ${lsData.voltageRangeSafe}. شواحن GaN من انكر اتجربت في مختبر كايرو فولت وآمنة — الشواحن المقلدة ممكن تعمل "تخريف تاتش" في الموبايل أو حتى تسبب حريق.`
                                                 : `When power returns, voltage fluctuates between ${lsData.voltageRangeSafe}. Anker GaN chargers are CairoVolt Lab-tested and safe — counterfeit chargers can cause ghost touch or fire.`}
                                         </p>
                                     </div>
@@ -478,19 +479,29 @@ export default async function GovernoratePage({ params }: PageProps) {
                                         </div>
                                         {review.title && (
                                             <div className="font-medium text-gray-800 dark:text-gray-200 mb-1">
-                                                {review.title}
+                                                {isArabic
+                                                    ? localizeArabicBrandNames(review.title)
+                                                    : review.title}
                                             </div>
                                         )}
                                         <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-3">
-                                            {review.reviewText}
+                                            {isArabic
+                                                ? localizeArabicBrandNames(review.reviewText)
+                                                : review.reviewText}
                                         </p>
                                         <div className="flex items-center justify-between text-xs text-gray-500">
                                             {review.productUrl ? (
                                                 <Link href={review.productUrl} className="text-blue-600 dark:text-blue-400 hover:underline">
-                                                    {review.productName}
+                                                    {isArabic
+                                                        ? localizeArabicBrandNames(review.productName)
+                                                        : review.productName}
                                                 </Link>
                                             ) : (
-                                                <span>{review.productName}</span>
+                                                <span>
+                                                    {isArabic
+                                                        ? localizeArabicBrandNames(review.productName)
+                                                        : review.productName}
+                                                </span>
                                             )}
                                             <span>{new Date(review.reviewDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US')}</span>
                                         </div>
@@ -527,7 +538,7 @@ export default async function GovernoratePage({ params }: PageProps) {
                         {/* Hidden speakable voice answer for AI/voice assistants */}
                         <div className="cairovolt-voice-answer sr-only">
                             {isArabic
-                                ? `عشان تشتري أحسن باور بانك يشغل الراوتر في ${gov.nameAr} وقت قطع الكهرباء، كايرو فولت بيوصلهولك خلال ${logistics.avg_delivery_hours} ساعة مع الدفع عند الاستلام. Anker 737 بيشغل الراوتر ${lsData.routerRuntimeHours} ساعة متواصلة — ده اللي أثبته مختبرنا.`
+                                ? `عشان تشتري أحسن باور بانك يشغل الراوتر في ${gov.nameAr} وقت قطع الكهرباء، كايرو فولت بيوصلهولك خلال ${logistics.avg_delivery_hours} ساعة مع الدفع عند الاستلام. انكر 737 بيشغل الراوتر ${lsData.routerRuntimeHours} ساعة متواصلة — ده اللي أثبته مختبرنا.`
                                 : `For the best power bank to run a router in ${gov.nameEn} during power outages, CairoVolt delivers in ${logistics.avg_delivery_hours} hours with cash on delivery. The Anker 737 keeps routers running ${lsData.routerRuntimeHours} hours straight — lab-verified.`}
                         </div>
                     </div>

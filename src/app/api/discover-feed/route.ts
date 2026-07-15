@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { products } from '@/data/seed-products';
 import { blogIndex, isIndexEntryLive } from '@/data/blog-index';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 /**
  * Google Discover RSS Feed with WebSub/PubSubHubbub support
@@ -23,7 +24,7 @@ export async function GET() {
     const labTestedItems = [
         // Year-round: power outage hero product
         {
-            title: '⚡ مختبر كايرو فولت: باور بانك أنكر 737 في حرارة 37° — 14 ساعة راوتر متواصلة',
+            title: '⚡ مختبر كايرو فولت: باور بانك انكر 737 في حرارة 37° — 14 ساعة راوتر متواصلة',
             link: 'https://cairovolt.com/anker/power-banks/anker-737-powerbank',
             image: 'https://cairovolt.com/products/anker/anker-737-powerbank/anker-anker-737-powerbank-egypt-cairo-1.webp',
             description: 'لأول مرة في مصر: اختبرنا باور بانك 737 في مخازن بوسطة بالتجمع الثالث عند 37 درجة. النتيجة: شغّل راوتر WE VDSL 14 ساعة و 22 دقيقة متواصلة بدون ريستارت.',
@@ -35,10 +36,10 @@ export async function GET() {
             image: 'https://cairovolt.com/products/joyroom/joyroom-20w-usb-c-charger/joyroom-joyroom-20w-usb-c-charger-egypt-cairo-1.webp',
             description: 'في حر الصيف المصري، الشاحن المقلد بيوصل 67°C ويطلع تحذير سخونة الايفون. شاحن جوي روم الأصلي بيوصل 42°C فقط. فرق السعر = أمان حياتك.',
         }] : [{
-            title: '🔥 هل شاحنك آمن أثناء عودة الكهرباء؟ اختبار أنكر نانو 45 واط مع تذبذب 190V-240V',
+            title: '🔥 هل شاحنك آمن أثناء عودة الكهرباء؟ اختبار انكر نانو 45 واط مع تذبذب 190V-240V',
             link: 'https://cairovolt.com/anker/wall-chargers/anker-nano-45w',
             image: 'https://cairovolt.com/products/anker/anker-nano-45w/anker-anker-nano-45w-egypt-cairo-1.webp',
-            description: 'اختبرنا شاحن أنكر نانو 45 واط GaN في مختبر دمياط الجديدة مع تذبذب 190V-240V. تيار GaN ثابت بدون تخريف تاتش على iPhone 15 Pro.',
+            description: 'اختبرنا شاحن انكر نانو 45 واط GaN في مختبر دمياط الجديدة مع تذبذب 190V-240V. تيار GaN ثابت بدون تخريف تاتش على iPhone 15 Pro.',
         }]),
         // Back-to-school: student power bank
         ...(isBackToSchool ? [{
@@ -61,8 +62,8 @@ export async function GET() {
         .filter(p => p.featured && (p.stock ?? 0) > 0)
         .slice(0, 3)
         .map(p => {
-            const arName = p.translations?.ar?.name || p.slug;
-            const arDesc = p.translations?.ar?.shortDescription || '';
+            const arName = localizeArabicBrandNames(p.translations?.ar?.name || p.slug);
+            const arDesc = localizeArabicBrandNames(p.translations?.ar?.shortDescription || '');
             const brand = (p.brand || '').toLowerCase();
             const primaryImage = p.images?.find(i => i.isPrimary)?.url || p.images?.[0]?.url || '';
             const imageUrl = primaryImage.startsWith('http') ? primaryImage : `https://cairovolt.com${primaryImage}`;
@@ -91,20 +92,20 @@ export async function GET() {
             }
         }
         return {
-            title: article.translations.ar.title,
+            title: localizeArabicBrandNames(article.translations.ar.title),
             link: `https://cairovolt.com/blog/${article.slug}`,
             image: image || 'https://cairovolt.com/cairovolt_logo.webp',
-            description: article.translations.ar.excerpt,
+            description: localizeArabicBrandNames(article.translations.ar.excerpt),
         };
     });
 
     // Extra lab-tested product items for the feed
     const extraLabItems = [
         {
-            title: '🎵 كايرو فولت تختبر Soundcore Motion Plus: 12 ساعة على شاطئ العين السخنة + IPX7 في الحوض',
+            title: '🎵 كايرو فولت تختبر ساوندكور Motion Plus: 12 ساعة على شاطئ العين السخنة + IPX7 في الحوض',
             link: 'https://cairovolt.com/soundcore/audio/anker-soundcore-motion-plus',
             image: 'https://cairovolt.com/products/anker/anker-soundcore-motion-plus/anker-anker-soundcore-motion-plus-egypt-cairo-1.webp',
-            description: 'اختبرنا Soundcore Motion Plus في شاطئ العين السخنة: غمر IPX7 لمدة 30 دقيقة، 12 ساعة و8 دقائق تشغيل مستمر، وصفر إيقاف حراري في 41 درجة على سطح القاهرة.',
+            description: 'اختبرنا ساوندكور Motion Plus في شاطئ العين السخنة: غمر IPX7 لمدة 30 دقيقة، 12 ساعة و8 دقائق تشغيل مستمر، وصفر إيقاف حراري في 41 درجة على سطح القاهرة.',
         },
         {
             title: '🧲 باور بانك مغناطيسي Joyroom في مترو القاهرة: MagSafe صمد 12 محطة بدون كابل',

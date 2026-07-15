@@ -11,6 +11,7 @@ import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
 import { getShippingFee } from '@/lib/shipping';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/static-products';
 import type { Metadata } from 'next';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // Metadata must be exported from a server layout/page — this is handled by the
 // checkout layout.tsx or the admin-level noindex. As a fallback, the middleware
@@ -371,7 +372,9 @@ export default function CheckoutPage() {
                         <h2 className="font-bold mb-4">{t('orderSummary')}</h2>
                         {cartItems.map((item, idx) => (
                             <div key={idx} className="flex justify-between py-2 border-b">
-                                <span>{item.name} x{item.quantity}</span>
+                                <span>
+                                    {isArabic ? localizeArabicBrandNames(item.name) : item.name} x{item.quantity}
+                                </span>
                                 <span className="font-bold">{item.price * item.quantity} {currency}</span>
                             </div>
                         ))}
@@ -604,7 +607,7 @@ export default function CheckoutPage() {
                         </div>
                         <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700 text-center">
                             <p className="text-xs text-gray-500">
-                                🏪 <strong>Anker:</strong> {isArabic ? 'ضمان 18 شهر' : '18 month warranty'} |
+                                🏪 <strong>{isArabic ? 'انكر:' : 'Anker:'}</strong> {isArabic ? 'ضمان 18 شهر' : '18 month warranty'} |
                                 🏪 <strong>Joyroom:</strong> {isArabic ? 'ضمان 12 شهر' : '12 month warranty'}
                             </p>
                         </div>
