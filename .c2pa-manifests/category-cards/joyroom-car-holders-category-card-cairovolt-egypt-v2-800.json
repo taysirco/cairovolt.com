@@ -1,0 +1,39 @@
+{
+  "claim_generator": "CairoVolt Category Asset Pipeline/1.0",
+  "format": "image/webp",
+  "title": "Joyroom Car Holders Category — CairoVolt Egypt",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.edited",
+            "softwareAgent": "CairoVolt category asset pipeline (sharp)",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+            "description": "AI-assisted isolated product cutout, then resized to a 800x800 transparent category-card asset"
+          },
+          {
+            "action": "c2pa.published",
+            "softwareAgent": "CairoVolt Next.js storefront"
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Joyroom Car Holders Category — CairoVolt Egypt",
+        "url": "https://cairovolt.com/images/categories/joyroom/joyroom-car-holders-category-card-cairovolt-egypt-v2-800.webp",
+        "contributor": {
+          "@type": "Organization",
+          "name": "CairoVolt",
+          "url": "https://cairovolt.com"
+        },
+        "creditText": "AI-assisted cutout based on product catalogue imagery associated with JOYROOM; category derivative prepared for CairoVolt"
+      }
+    }
+  ]
+}

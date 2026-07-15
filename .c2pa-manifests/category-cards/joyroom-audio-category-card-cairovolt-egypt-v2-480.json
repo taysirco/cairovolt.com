@@ -1,0 +1,39 @@
+{
+  "claim_generator": "CairoVolt Category Asset Pipeline/1.0",
+  "format": "image/webp",
+  "title": "Joyroom Audio Category — CairoVolt Egypt",
+  "assertions": [
+    {
+      "label": "c2pa.actions",
+      "data": {
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "softwareAgent": "CairoVolt category asset pipeline (sharp)",
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/composite",
+            "description": "Catalogue cutout resized to a 480x480 transparent category-card asset"
+          },
+          {
+            "action": "c2pa.published",
+            "softwareAgent": "CairoVolt Next.js storefront"
+          }
+        ]
+      }
+    },
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Joyroom Audio Category — CairoVolt Egypt",
+        "url": "https://cairovolt.com/images/categories/joyroom/joyroom-audio-category-card-cairovolt-egypt-v2-480.webp",
+        "contributor": {
+          "@type": "Organization",
+          "name": "CairoVolt",
+          "url": "https://cairovolt.com"
+        },
+        "creditText": "Product catalogue imagery associated with JOYROOM; category derivative prepared for CairoVolt"
+      }
+    }
+  ]
+}
