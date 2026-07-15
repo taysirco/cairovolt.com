@@ -7,6 +7,12 @@ import { staticProducts } from '@/lib/static-products';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
+import {
+    getBrandDisplayName,
+    localizeArabicBrandContent,
+    localizeArabicBrandHtml,
+    localizeArabicBrandNames,
+} from '@/lib/arabic-brand-names';
 
 /**
  * Generate metadata for a generic category page
@@ -18,7 +24,8 @@ export function generateCategoryMetadata(locale: string, categorySlug: string): 
 
     const cleanSlug = categorySlug.toLowerCase();
     const isArabic = locale === 'ar';
-    const meta = data.metadata[isArabic ? 'ar' : 'en'];
+    const rawMeta = data.metadata[isArabic ? 'ar' : 'en'];
+    const meta = isArabic ? localizeArabicBrandContent(rawMeta) : rawMeta;
 
     const canonicalUrl = isArabic
         ? `https://cairovolt.com/${cleanSlug}`
@@ -85,9 +92,16 @@ export function GenericCategoryContent({
     const cleanSlug = categorySlug.toLowerCase();
 
     const isArabic = locale === 'ar';
-    const content = data.pageContent[isArabic ? 'ar' : 'en'];
-    const faq = data.faq[isArabic ? 'ar' : 'en'];
-    const richContent = data.richContent[isArabic ? 'ar' : 'en'];
+    const rawContent = data.pageContent[isArabic ? 'ar' : 'en'];
+    const rawFaq = data.faq[isArabic ? 'ar' : 'en'];
+    const rawRichContent = data.richContent[isArabic ? 'ar' : 'en'];
+    const rawMetadata = data.metadata[isArabic ? 'ar' : 'en'];
+    const content = isArabic ? localizeArabicBrandContent(rawContent) : rawContent;
+    const faq = isArabic ? localizeArabicBrandContent(rawFaq) : rawFaq;
+    const richContent = isArabic && rawRichContent
+        ? localizeArabicBrandHtml(rawRichContent)
+        : rawRichContent;
+    const metadata = isArabic ? localizeArabicBrandContent(rawMetadata) : rawMetadata;
     const relatedArticles = data.relatedBlogSlugs
         .map(slug => getIndexEntry(slug))
         .filter(Boolean);
@@ -130,7 +144,7 @@ export function GenericCategoryContent({
 
             <main className="min-h-screen bg-gray-50 dark:bg-gray-950" dir={isArabic ? 'rtl' : 'ltr'} itemScope itemType="https://schema.org/CollectionPage">
                 <meta itemProp="name" content={content.title} />
-                <meta itemProp="description" content={data.metadata[isArabic ? 'ar' : 'en'].description} />
+                <meta itemProp="description" content={metadata.description} />
                 <meta itemProp="inLanguage" content={isArabic ? 'ar-EG' : 'en-EG'} />
 
                 {/* Breadcrumb */}
@@ -170,7 +184,7 @@ export function GenericCategoryContent({
                                     : 'bg-red-50 text-red-700 border-red-200 hover:bg-red-100 dark:bg-red-900/30 dark:text-red-300 dark:border-red-800'
                                     }`}
                             >
-                                {isArabic ? `تسوق ${bc.brand}` : `Shop ${bc.brand}`}
+                                {isArabic ? `تسوق ${getBrandDisplayName(bc.brand, locale)}` : `Shop ${bc.brand}`}
                             </Link>
                         ))}
                     </nav>
@@ -179,7 +193,11 @@ export function GenericCategoryContent({
                     {sortedProducts.length > 0 ? (
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
                             {sortedProducts.map((product) => {
-                                const t = product.translations[isArabic ? 'ar' : 'en'];
+                                const rawTranslation = product.translations[isArabic ? 'ar' : 'en'];
+                                const t = isArabic && rawTranslation
+                                    ? localizeArabicBrandContent(rawTranslation)
+                                    : rawTranslation;
+                                const localizedBrandDisplay = getBrandDisplayName(product.brandDisplay, locale);
                                 const primaryImage = product.images?.find(i => i.isPrimary)?.url || product.images?.[0]?.url;
                                 const discount = product.originalPrice > product.price
                                     ? Math.round((1 - product.price / product.originalPrice) * 100)
@@ -205,7 +223,7 @@ export function GenericCategoryContent({
                                                     ? 'bg-teal-100 text-teal-700'
                                                 : 'bg-red-100 text-red-700'
                                                 }`}>
-                                                {product.brandDisplay}
+                                                {localizedBrandDisplay}
                                             </span>
                                             {primaryImage ? (
                                                 <ProductImage
@@ -223,7 +241,7 @@ export function GenericCategoryContent({
                                                 />
                                             ) : (
                                                 <div className="w-full h-full flex items-center justify-center text-4xl font-bold text-gray-300">
-                                                    {product.brandDisplay.charAt(0)}
+                                                    {localizedBrandDisplay.charAt(0)}
                                                 </div>
                                             )}
                                         </div>
@@ -330,7 +348,10 @@ export function GenericCategoryContent({
                             <div className="grid md:grid-cols-3 gap-4">
                                 {relatedArticles.map(article => {
                                     if (!article) return null;
-                                    const trans = article.translations[isArabic ? 'ar' : 'en'];
+                                    const rawTranslation = article.translations[isArabic ? 'ar' : 'en'];
+                                    const trans = isArabic
+                                        ? localizeArabicBrandContent(rawTranslation)
+                                        : rawTranslation;
                                     return (
                                         <Link
                                             key={article.slug}
@@ -375,7 +396,7 @@ export function GenericCategoryContent({
                             '@context': 'https://schema.org',
                             '@type': 'HowTo',
                             name: isArabic ? `كيف تختار أفضل ${content.title}` : `How to Choose the Best ${content.title}`,
-                            description: data.metadata[isArabic ? 'ar' : 'en'].description,
+                            description: metadata.description,
                             step: content.buyingTips.map((tip, i) => ({
                                 '@type': 'HowToStep',
                                 position: i + 1,
@@ -411,7 +432,7 @@ export function GenericCategoryContent({
                             '@type': 'CollectionPage',
                             '@id': `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}#collectionpage`,
                             name: content.title,
-                            description: data.metadata[isArabic ? 'ar' : 'en'].description,
+                            description: metadata.description,
                             url: `https://cairovolt.com${isArabic ? '' : '/en'}/${categorySlug}`,
                             inLanguage: isArabic ? 'ar-EG' : 'en-EG',
                             dateModified: '2025-12-01',
@@ -428,7 +449,7 @@ export function GenericCategoryContent({
                             about: {
                                 '@type': 'Thing',
                                 name: content.title,
-                                description: data.metadata[isArabic ? 'ar' : 'en'].description,
+                                description: metadata.description,
                             },
                             ...(sortedProducts.length > 0 && {
                                 mainEntity: {
@@ -438,7 +459,9 @@ export function GenericCategoryContent({
                                         '@type': 'ListItem',
                                         position: i + 1,
                                         url: `https://cairovolt.com${isArabic ? '' : '/en'}/${p.brandSlug}/${p.catSlug}/${p.slug}`,
-                                        name: p.translations[isArabic ? 'ar' : 'en']?.name || p.slug,
+                                        name: isArabic
+                                            ? localizeArabicBrandNames(p.translations.ar?.name || p.slug)
+                                            : p.translations.en?.name || p.slug,
                                     })),
                                 },
                                 offers: {

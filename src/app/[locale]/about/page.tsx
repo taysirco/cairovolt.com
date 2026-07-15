@@ -129,7 +129,9 @@ export default async function AboutPage({ params }: Props) {
                             </h2>
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded-xl p-6">
-                                    <h3 className="text-2xl font-bold mb-2 text-blue-700 dark:text-blue-400">Anker</h3>
+                                    <h3 className="text-2xl font-bold mb-2 text-blue-700 dark:text-blue-400">
+                                        {isArabic ? 'انكر' : 'Anker'}
+                                    </h3>
                                     <p className="text-gray-600 dark:text-gray-400">{t('brands.anker')}</p>
                                 </div>
                                 <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 rounded-xl p-6">
@@ -176,11 +178,11 @@ export default async function AboutPage({ params }: Props) {
                                     </span>
                                     <div>
                                         <h3 className="font-bold text-green-800 dark:text-green-300">
-                                            {isArabic ? 'وكيل Anker المعتمد في مصر' : 'Authorized Anker Dealer in Egypt'}
+                                            {isArabic ? 'وكيل انكر المعتمد في مصر' : 'Authorized Anker Dealer in Egypt'}
                                         </h3>
                                         <p className="text-sm text-green-700 dark:text-green-400">
                                             {isArabic
-                                                ? 'نحن موزع معتمد رسمياً لمنتجات Anker. كل منتج يأتي بضمان 18 شهر قابل للتحقق عبر موقع anker.com/verify.'
+                                                ? 'نحن موزع معتمد رسمياً لمنتجات انكر. كل منتج يأتي بضمان 18 شهر قابل للتحقق عبر موقع anker.com/verify.'
                                                 : 'We are an officially authorized Anker distributor. Every product comes with an 18-month warranty verifiable at anker.com/verify.'}
                                         </p>
                                     </div>

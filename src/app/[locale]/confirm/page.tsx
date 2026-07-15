@@ -9,6 +9,7 @@ import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/analytics';
 import { ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
 import ShareButtons from '@/components/products/ShareButtons';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface OrderItem {
     productId?: string;
@@ -271,7 +272,7 @@ function ConfirmContent() {
                                         {item.image ? (
                                             <Image
                                                 src={item.image}
-                                                alt={item.name}
+                                                alt={isArabic ? localizeArabicBrandNames(item.name) : item.name}
                                                 fill
                                                 className="object-contain p-1"
                                                 sizes="64px"
@@ -283,7 +284,7 @@ function ConfirmContent() {
                                         )}
                                     </div>
                                     <div>
-                                        <p className="font-medium text-sm sm:text-base line-clamp-2">{item.name}</p>
+                                        <p className="font-medium text-sm sm:text-base line-clamp-2">{isArabic ? localizeArabicBrandNames(item.name) : item.name}</p>
                                         <p className="text-sm text-gray-500 mt-1">{isArabic ? 'الكمية' : 'Qty'}: {item.quantity}</p>
                                     </div>
                                 </div>
@@ -400,7 +401,9 @@ function ConfirmContent() {
                     <div className="flex justify-center">
                         <ShareButtons
                             slug={orderData.items[0]?.productId || orderData.items[0]?.name?.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '') || 'product'}
-                            productName={orderData.items[0]?.name || ''}
+                            productName={isArabic
+                                ? localizeArabicBrandNames(orderData.items[0]?.name || '')
+                                : (orderData.items[0]?.name || '')}
                             price={orderData.total}
                             locale={locale}
                             compact={false}

@@ -29,7 +29,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 name: 'CairoVolt',
                 alternateName: 'كايرو فولت',
                 description: isArabic
-                    ? 'متجر إكسسوارات الموبايل الأصلية في مصر — أنكر وجوي روم بضمان رسمي وبيانات اختبار معملية.'
+                    ? 'متجر إكسسوارات الموبايل الأصلية في مصر — انكر وجوي روم بضمان رسمي وبيانات اختبار معملية.'
                     : 'Original mobile accessories store in Egypt — Anker & Joyroom with official warranty and lab test data.',
                 publisher: { '@id': 'https://cairovolt.com/#organization' },
                 inLanguage: ['ar-EG', 'en-EG'],
@@ -53,7 +53,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 legalName: 'شركة كايرو فولت ذات مسئولية محدودة',
                 url: 'https://cairovolt.com',
                 description: isArabic
-                    ? 'كايرو فولت هو الوكيل المعتمد لمنتجات Anker و Joyroom في مصر. نبيع إكسسوارات الموبايل الأصلية مثل الباور بانك، السماعات، والكابلات بضمان رسمي.'
+                    ? 'كايرو فولت هو الوكيل المعتمد لمنتجات انكر و Joyroom في مصر. نبيع إكسسوارات الموبايل الأصلية مثل الباور بانك، السماعات، والكابلات بضمان رسمي.'
                     : 'CairoVolt is the authorized distributor for Anker & Joyroom in Egypt. We sell original mobile accessories like power banks, earbuds, and cables with official warranty.',
                 logo: {
                     '@type': 'ImageObject',
@@ -94,7 +94,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     },
                 ],
                 award: [
-                    isArabic ? 'موزع معتمد لمنتجات Anker في مصر' : 'Authorized Distributor for Anker in Egypt',
+                    isArabic ? 'موزع معتمد لمنتجات انكر في مصر' : 'Authorized Distributor for Anker in Egypt',
                     isArabic ? 'موزع معتمد لمنتجات Joyroom في مصر' : 'Authorized Distributor for Joyroom in Egypt',
                 ],
                 address: {

@@ -2,6 +2,7 @@
 // DO NOT add 'use client' here!
 import { brandEntities, getEntitiesForCategory } from '@/data/brand-entities';
 import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface ProductSchemaProps {
     product: {
@@ -80,7 +81,12 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const baseUrl = 'https://cairovolt.com';
     const productUrl = `${baseUrl}${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${(product.categorySlug || '').toLowerCase()}/${product.slug}`;
     // Use plain text description for JSON-LD (Google requires 50-5000 chars for Product description)
-    const plainDescription = getPlainTextDescription(t.description);
+    const productDisplayName = isArabic
+        ? localizeArabicBrandNames(t.name)
+        : t.name;
+    const plainDescription = isArabic
+        ? localizeArabicBrandNames(getPlainTextDescription(t.description))
+        : getPlainTextDescription(t.description);
 
     // H4: Google 2027 Requirement — images must be ≥500×500px for Merchant Center
     // This warning helps identify products that need image upgrades before Jan 31, 2027
@@ -119,8 +125,10 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
     const videoSchema = product.videoUrl ? {
         "@type": "VideoObject",
         "@id": `${productUrl}#video`,
-        "name": t.name,
-        "description": getPlainTextDescription(t.description, 300),
+        "name": productDisplayName,
+        "description": isArabic
+            ? localizeArabicBrandNames(getPlainTextDescription(t.description, 300))
+            : getPlainTextDescription(t.description, 300),
         "thumbnailUrl": product.images[0]?.url ? `${baseUrl}${product.images[0].url}` : "",
         "uploadDate": "2025-12-01T00:00:00.000Z", // Stable date — avoids Trust score degradation from dynamic dates
         "contentUrl": product.videoUrl,
@@ -140,7 +148,7 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         '@context': 'https://schema.org',
         '@type': 'Product',
         '@id': `${productUrl}#product`,
-        name: t.name,
+        name: productDisplayName,
         description: plainDescription,
         sku: product.sku,
         // GS1 Web Vocabulary - Global Product Identification
@@ -165,7 +173,9 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         category: (product.categorySlug || '').replace(/-/g, ' '),
         image: product.images.map((img, idx) => ({
             '@type': 'ImageObject',
-            name: img.alt || `${t.name} — ${isArabic ? `صورة ${idx + 1}` : `Image ${idx + 1}`}`,
+            name: isArabic
+                ? localizeArabicBrandNames(img.alt || `${productDisplayName} — صورة ${idx + 1}`)
+                : (img.alt || `${productDisplayName} — Image ${idx + 1}`),
             url: `${baseUrl}${img.url}`,
             contentUrl: `${baseUrl}${img.url}`,
             // Implements Content Provenance validation framework (C2PA protocol)
@@ -256,7 +266,9 @@ export function ProductSchema({ product, locale, aggregateRating, reviews, speci
         ...(isAccessoryOrSparePartFor && isAccessoryOrSparePartFor.length > 0 && {
             isAccessoryOrSparePartFor: isAccessoryOrSparePartFor.map(item => ({
                 '@type': 'Thing',
-                name: item.name,
+                name: isArabic
+                    ? localizeArabicBrandNames(item.name)
+                    : item.name,
             })),
         }),
         // Geographic targeting is handled by areaServed, eligibleRegion, and shippingDestination fields.

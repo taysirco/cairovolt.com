@@ -1,4 +1,5 @@
 import { sanitizeHtml, localizeInternalLinks, translateAnchorTexts } from '@/lib/htmlSanitize';
+import { localizeArabicBrandHtml } from '@/lib/arabic-brand-names';
 
 interface BlogContentRendererProps {
     html: string;
@@ -25,10 +26,13 @@ export default function BlogContentRenderer({
     className = '',
     locale = 'ar',
 }: BlogContentRendererProps) {
-    const processed = translateAnchorTexts(
+    const processedHtml = translateAnchorTexts(
         localizeInternalLinks(sanitizeHtml(html), locale),
         locale
     );
+    const processed = locale === 'ar'
+        ? localizeArabicBrandHtml(processedHtml)
+        : processedHtml;
     return (
         <div
             className={className}

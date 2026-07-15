@@ -1,3 +1,5 @@
+import { localizeArabicBrandNames } from './arabic-brand-names';
+
 /**
  * CairoVolt Smart Serial Generator v2.0
  * 
@@ -236,5 +238,6 @@ export const PRODUCT_NAMES: Record<string, { ar: string; en: string }> = {
  * Get the Arabic product name for display
  */
 export function getProductName(productId: string): { ar: string; en: string } {
-    return PRODUCT_NAMES[productId] || { ar: 'منتج CairoVolt', en: 'CairoVolt Product' };
+    const productName = PRODUCT_NAMES[productId] || { ar: 'منتج CairoVolt', en: 'CairoVolt Product' };
+    return { ...productName, ar: localizeArabicBrandNames(productName.ar) };
 }

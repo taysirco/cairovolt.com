@@ -63,11 +63,11 @@ export default function Header() {
     ];
 
     // Soundcore audio sub-brand — surfaced separately in the dropdown so users
-    // searching for "soundcore" / "ساوند كور" find a clear entry point.
+    // searching for "soundcore" / "ساوندكور" find a clear entry point.
     const soundcoreCategories = [
-        { href: '/soundcore', icon: 'headphones', label: { en: 'Soundcore Hub (All Audio)', ar: 'ساوند كور (كل المنتجات الصوتية)' }, primary: true },
-        { href: '/soundcore/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوند كور' } },
-        { href: '/soundcore/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوند كور' } },
+        { href: '/soundcore', icon: 'headphones', label: { en: 'Soundcore Hub (All Audio)', ar: 'ساوندكور (كل المنتجات الصوتية)' }, primary: true },
+        { href: '/soundcore/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوندكور' } },
+        { href: '/soundcore/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوندكور' } },
     ];
 
     const joyroomCategories = [
@@ -150,7 +150,7 @@ export default function Header() {
                             </Link>
                             <div className={`absolute top-full ${isRTL ? 'right-0' : 'left-0'} w-64 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all transform translate-y-2 group-hover:translate-y-0 p-2 mt-1`}>
                                 <div className="px-3 py-2 text-xs font-bold text-gray-500 uppercase tracking-wider">
-                                    {isRTL ? 'منتجات أنكر' : 'Anker Products'}
+                                    {isRTL ? 'منتجات انكر' : 'Anker Products'}
                                 </div>
                                 {ankerCategories.map((cat) => (
                                     <Link
@@ -165,7 +165,7 @@ export default function Header() {
                                 {/* Soundcore audio sub-brand — distinct visual section */}
                                 <div className="border-t border-gray-100 dark:border-gray-800 mt-2 pt-2">
                                     <div className="px-3 py-1.5 text-[10px] font-bold text-orange-600 dark:text-orange-400 uppercase tracking-wider flex items-center gap-1">
-                                        <span>🎧</span> {isRTL ? 'ساوند كور (Anker)' : 'Soundcore by Anker'}
+                                        <span>🎧</span> {isRTL ? 'ساوندكور من انكر' : 'Soundcore by Anker'}
                                     </div>
                                     {soundcoreCategories.map((cat) => (
                                         <Link

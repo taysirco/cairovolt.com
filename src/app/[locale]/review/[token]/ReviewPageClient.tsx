@@ -2,6 +2,7 @@
 
 import ReviewForm from './ReviewForm';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface TokenData {
     productName: string;
@@ -18,6 +19,9 @@ interface ReviewPageClientProps {
 
 export default function ReviewPageClient({ locale, token, tokenData }: ReviewPageClientProps) {
     const isArabic = locale === 'ar';
+    const productDisplayName = tokenData && isArabic
+        ? localizeArabicBrandNames(tokenData.productName)
+        : tokenData?.productName;
 
     if (!tokenData) {
         return (
@@ -103,7 +107,7 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
                     </h1>
                     <p className="review-header__subtitle">
                         {isArabic
-                            ? `كيف كانت تجربتك مع ${tokenData.productName}؟`
+                            ? `كيف كانت تجربتك مع ${productDisplayName}؟`
                             : `How was your experience with ${tokenData.productName}?`}
                     </p>
                 </div>
@@ -114,7 +118,7 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
                         <span className="review-product__badge-icon">✓</span>
                         {isArabic ? 'مشتري موثق' : 'Verified Buyer'}
                     </div>
-                    <div className="review-product__name">{tokenData.productName}</div>
+                    <div className="review-product__name">{productDisplayName}</div>
                     <div className="review-product__date">
                         {isArabic ? 'تاريخ الشراء: ' : 'Purchase Date: '}
                         {new Date(tokenData.purchaseDate).toLocaleDateString(isArabic ? 'ar-EG' : 'en-US')}
@@ -124,7 +128,7 @@ export default function ReviewPageClient({ locale, token, tokenData }: ReviewPag
                 {/* Review Form */}
                 <ReviewForm
                     token={token}
-                    productName={tokenData.productName}
+                    productName={productDisplayName || tokenData.productName}
                     customerName={tokenData.customerName}
                     locale={locale}
                 />

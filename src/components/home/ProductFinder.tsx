@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { showcaseProducts, finderExtraProducts, type ShowcaseProduct } from '@/data/showcase-products';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface ProductFinderProps {
   locale: string;
@@ -92,7 +93,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
       en: 'Faster charging',
       feelAr: 'ربع ساعة قبل ما تنزل تفرق — شحن أسرع وأأمن يلحق إيقاعك.',
       feelEn: 'Fifteen minutes before you leave should count — faster, safer charging that keeps up.',
-      resultAr: 'شواحن أنكر GaN — أسرع وأبرد وأأمن',
+      resultAr: 'شواحن انكر GaN — أسرع وأبرد وأأمن',
       resultEn: 'Anker GaN chargers — faster, cooler, safer',
     },
     {
@@ -102,7 +103,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
       en: 'A cable that lasts',
       feelAr: 'زهقت من كابل بيتقشر أو بيفصل بعد شهرين؟ إحنا كمان — عشان كده بنرشّح اللي يعيش سنين.',
       feelEn: 'Tired of cables fraying after two months? So are we — these are built to last for years.',
-      resultAr: 'كابلات أنكر مضفرة — تتشد وتتلوى وتعيش',
+      resultAr: 'كابلات انكر مضفرة — تتشد وتتلوى وتعيش',
       resultEn: 'Braided Anker cables — bend, pull, and last',
     },
     {
@@ -253,7 +254,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                   <div className="relative aspect-square bg-[#f4f5f7]">
                     <Image
                       src={product.image.replace('-thumb.webp', '-480.webp')}
-                      alt={isAr ? product.name.ar : product.name.en}
+                      alt={isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en}
                       fill
                       unoptimized
                       sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
@@ -262,14 +263,14 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                   </div>
                   <div className="p-4">
                     <div className="flex items-center justify-between gap-2">
-                      <span className="text-[10px] font-bold uppercase tracking-[.14em] text-blue-700">{product.brand}</span>
+                      <span className="text-[10px] font-bold uppercase tracking-[.14em] text-blue-700">{getBrandDisplayName(product.brand, locale)}</span>
                       {popularPick[need] === product.slug && (
                         <span className="rounded-full bg-[#07111f] px-2 py-1 text-[10px] font-bold text-amber-300">
                           {isAr ? '⭐ الأكثر طلبًا' : '⭐ Most requested'}
                         </span>
                       )}
                     </div>
-                    <h4 className="mt-1 line-clamp-2 min-h-10 text-sm font-bold leading-5">{isAr ? product.name.ar : product.name.en}</h4>
+                    <h4 className="mt-1 line-clamp-2 min-h-10 text-sm font-bold leading-5">{isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en}</h4>
                     {whyPick[product.slug] && (
                       <p className="mt-1 line-clamp-1 text-[11px] leading-5 text-slate-500">
                         {isAr ? whyPick[product.slug].ar : whyPick[product.slug].en}

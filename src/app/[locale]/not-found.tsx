@@ -39,7 +39,7 @@ export default function NotFound() {
                         href={getLocalizedHref('/anker')}
                         className="px-6 py-3 bg-gray-100 text-gray-800 font-medium rounded-full hover:bg-gray-200 transition-colors"
                     >
-                        {isRTL ? 'تسوق Anker' : 'Shop Anker'}
+                        {isRTL ? 'تسوق انكر' : 'Shop Anker'}
                     </Link>
                     <Link
                         href={getLocalizedHref('/joyroom')}

@@ -1,9 +1,9 @@
 'use client';
 
 import { InstantLink as Link } from '@/components/ui/InstantLink';
-import { useTranslations } from 'next-intl';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface Product {
     id: string;
@@ -57,6 +57,10 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                 >
                     {displayProducts.map((product) => {
                         const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en;
+                        const productName = isArabic
+                            ? localizeArabicBrandNames(t?.name || product.slug)
+                            : (t?.name || product.slug);
+                        const brandDisplayName = getBrandDisplayName(product.brand, locale);
                         const productUrl = getLocalizedHref(`/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}`);
                         const discount = product.originalPrice
                             ? Math.round((1 - product.price / product.originalPrice) * 100)
@@ -73,7 +77,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                     {product.images?.[0]?.url ? (
                                         <ProductImage
                                             src={product.images[0].url}
-                                            alt={t?.name || product.slug}
+                                            alt={productName}
                                             slug={product.slug}
                                             brand={product.brand}
                                             category={product.categorySlug}
@@ -102,11 +106,11 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
                                 {/* Product Info */}
                                 <div className="space-y-1">
                                     <div className="text-xs text-gray-600 dark:text-gray-400 font-medium uppercase tracking-wider">
-                                        {product.brand}
+                                        {brandDisplayName}
                                     </div>
 
-                                    <h4 className="font-semibold text-gray-900 text-sm leading-tight h-10 line-clamp-2 group-hover:text-blue-600 transition-colors" title={t?.name}>
-                                        {t?.name}
+                                    <h4 className="font-semibold text-gray-900 text-sm leading-tight h-10 line-clamp-2 group-hover:text-blue-600 transition-colors" title={productName}>
+                                        {productName}
                                     </h4>
 
                                     <div className="pt-2 flex items-baseline gap-2">

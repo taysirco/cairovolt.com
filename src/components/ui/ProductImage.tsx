@@ -2,6 +2,7 @@
 // DO NOT add 'use client' — server-rendered component
 
 import Image from 'next/image';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // ─────────────────────────────────────────────────────────
 // Location intelligence — MUST match ImageObjectSchema.tsx
@@ -141,6 +142,8 @@ export function ProductImage({
     imageClassName = '',
 }: ProductImageProps) {
     const isArabic = locale === 'ar';
+    const displayAlt = isArabic ? localizeArabicBrandNames(alt) : alt;
+    const displayBrand = getBrandDisplayName(brand, locale);
     const year = new Date().getFullYear();
     const verifyUrl = `https://cairovolt.com/api/v1/verify-content?slug=${slug}`;
 
@@ -152,8 +155,8 @@ export function ProductImage({
     // next/image with unoptimized forwards extra HTML attributes to the rendered element.
     const srcSetProps = srcSet ? { srcSet } : {};
     const imageProps = fill
-        ? { src, alt, fill: true as const, sizes, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain', ...srcSetProps }
-        : { src, alt, width, height, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain', ...srcSetProps };
+        ? { src, alt: displayAlt, fill: true as const, sizes, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain', ...srcSetProps }
+        : { src, alt: displayAlt, width, height, loading, priority, unoptimized, fetchPriority: priority ? 'high' as const : undefined, itemProp: 'contentUrl' as const, className: imageClassName || 'object-contain', ...srcSetProps };
 
     // When fill=true, the figure must fill the parent and be position:relative for next/image fill.
     // Uses inline style to guarantee correct layout — immune to Turbopack class caching issues.
@@ -306,8 +309,8 @@ export function ProductImage({
             {/* Bilingual product description — uses category-specific lab */}
             <span className="sr-only" itemProp="description">
                 {isArabic
-                    ? `${alt} — تم تصوير هذا المنتج الأصلي من ${brand} بكاميرا ${lab.camera} في ${lab.nameAr}. صورة موثقة بتقنية C2PA — غير قابلة للتزوير.`
-                    : `${alt} — This authentic ${brand} product was photographed with ${lab.camera} at ${lab.nameEn}. C2PA-verified provenance — tamper-proof.`}
+                    ? `${displayAlt} — تم تصوير هذا المنتج الأصلي من ${displayBrand} بكاميرا ${lab.camera} في ${lab.nameAr}. صورة موثقة بتقنية C2PA — غير قابلة للتزوير.`
+                    : `${displayAlt} — This authentic ${displayBrand} product was photographed with ${lab.camera} at ${lab.nameEn}. C2PA-verified provenance — tamper-proof.`}
             </span>
 
             {/* The actual image with itemProp linking it to the schema */}

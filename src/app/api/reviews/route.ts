@@ -14,6 +14,10 @@ import {
 } from '@/lib/verified-reviews';
 import { productReviewsDb, calculateAggregateRating as calcStaticAggregateRating } from '@/data/product-reviews';
 import { getProductBySlug } from '@/lib/static-products';
+import {
+    localizeArabicBrandContent,
+    localizeArabicBrandNames,
+} from '@/lib/arabic-brand-names';
 
 // GET /api/reviews?productSlug=xxx&locale=ar
 export async function GET(req: NextRequest) {
@@ -35,7 +39,9 @@ export async function GET(req: NextRequest) {
 
         return NextResponse.json({
             valid: true,
-            productName: tokenData.productName,
+            productName: isArabic
+                ? localizeArabicBrandNames(tokenData.productName)
+                : tokenData.productName,
             productSlug: tokenData.productSlug,
             customerName: tokenData.customerName,
             purchaseDate: tokenData.purchaseDate
@@ -79,7 +85,10 @@ export async function GET(req: NextRequest) {
         const uniqueStaticReviews = mappedStaticReviews.filter(
             r => !firebaseAuthorNames.has(r.customerName)
         );
-        const allReviews = [...firebaseReviews, ...uniqueStaticReviews];
+        const rawReviews = [...firebaseReviews, ...uniqueStaticReviews];
+        const allReviews = isArabic
+            ? localizeArabicBrandContent(rawReviews)
+            : rawReviews;
 
         // 5. Calculate aggregate rating from all reviews
         let aggregateRating = verifiedAggregateRating;
@@ -120,7 +129,9 @@ export async function GET(req: NextRequest) {
             }));
             const staticAgg = calcStaticAggregateRating(staticProductReviews);
             return NextResponse.json({
-                reviews: mappedStaticReviews,
+                reviews: isArabic
+                    ? localizeArabicBrandContent(mappedStaticReviews)
+                    : mappedStaticReviews,
                 aggregateRating: staticAgg ? {
                     ratingValue: staticAgg.ratingValue,
                     reviewCount: mappedStaticReviews.length,

@@ -17,6 +17,7 @@ import PrefetchHints from '@/components/content/PrefetchHints';
 import GlobalBusinessSchema from '@/components/content/GlobalBusinessSchema';
 
 import PromoBanner from '@/components/content/PromoBanner';
+import { localizeArabicBrandContent } from '@/lib/arabic-brand-names';
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -70,14 +71,14 @@ export async function generateMetadata({
     title: isAr
       ? {
           template: '%s | كايرو فولت',
-          default: 'كايرو فولت | اكسسوارات موبايل أصلية في مصر — أنكر وجوي روم',
+          default: 'كايرو فولت | اكسسوارات موبايل أصلية في مصر — انكر وجوي روم',
         }
       : {
           template: '%s | CairoVolt',
           default: 'CairoVolt | Original Mobile Accessories in Egypt — Anker & Joyroom',
         },
     description: isAr
-      ? 'كايرو فولت — الوكيل المعتمد لاكسسوارات الموبايل الأصلية في مصر: باور بانك، شواحن، سماعات وكابلات من Anker وSoundcore وJoyroom بضمان حقيقي والدفع عند الاستلام.'
+      ? 'كايرو فولت — وجهتك لاكسسوارات الموبايل الأصلية في مصر: باور بانك، شواحن، سماعات وكابلات من انكر وساوندكور وجوي روم بضمان حقيقي والدفع عند الاستلام.'
       : 'Shop the best mobile accessories from Anker and Joyroom in Egypt. Power banks, chargers, earbuds, cables at the best prices with official warranty.',
     icons: {
       icon: [
@@ -112,7 +113,7 @@ export async function generateMetadata({
         ? 'كايرو فولت | اكسسوارات موبايل أصلية في مصر'
         : 'CairoVolt - Premium Mobile Accessories in Egypt',
       description: isAr
-        ? 'منتجات Anker وSoundcore وJoyroom الأصلية بضمان حقيقي والدفع عند الاستلام — توصيل لكل محافظات مصر.'
+        ? 'منتجات انكر وساوندكور وجوي روم الأصلية بضمان حقيقي والدفع عند الاستلام — توصيل لكل محافظات مصر.'
         : 'Shop original Anker & Joyroom accessories with official warranty. Power banks, chargers, earbuds, cables.',
       images: ['/og-cover.png'],
     },
@@ -138,7 +139,10 @@ export default async function RootLayout({
   // (per-request) rendering — defeating every generateStaticParams/revalidate in
   // the app. With it, pages prerender to static HTML served from the CDN edge.
   setRequestLocale(locale);
-  const messages = await getMessages();
+  const rawMessages = await getMessages();
+  const messages = locale === 'ar'
+    ? localizeArabicBrandContent(rawMessages)
+    : rawMessages;
 
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
@@ -360,4 +364,3 @@ export default async function RootLayout({
     </html>
   );
 }
-

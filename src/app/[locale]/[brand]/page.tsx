@@ -12,6 +12,7 @@ import { staticProducts } from '@/lib/static-products';
 import BestSellingProducts from '@/components/products/BestSellingProducts';
 import SoundcoreFamilyStrip from '@/components/products/SoundcoreFamilyStrip';
 import CategoryDiscoveryGrid from '@/components/brand/CategoryDiscoveryGrid';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // ISR: On-demand revalidation only (via /api/indexing webhook)
 export const dynamicParams = false; // Unknown slugs → automatic 404 (prevents soft 404)
@@ -36,6 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const meta = locale === 'ar' ? data.metadata.ar : data.metadata.en;
     const isArabic = locale === 'ar';
+    const officialBrandName = data.hero.title.replace(/\s*Egypt$/i, '');
+    const brandDisplayName = getBrandDisplayName(officialBrandName, locale);
 
     // Use first product image for this brand as the social share image
     // Falls back to layout logo if no products found
@@ -45,16 +48,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const socialImageUrl = brandFirstProduct?.images[0]?.url
         ? `https://cairovolt.com${brandFirstProduct.images[0].url}`
         : undefined;
-    const socialImageAlt = brandFirstProduct?.images[0]?.alt
-        || (isArabic ? `${data.hero.title} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
+    const firstProductImageAlt = brandFirstProduct?.images[0]?.alt;
+    const socialImageAlt = firstProductImageAlt
+        ? (isArabic ? localizeArabicBrandNames(firstProductImageAlt) : firstProductImageAlt)
+        : (isArabic ? `${brandDisplayName} - كايرو فولت مصر` : `${data.hero.title} - CairoVolt Egypt`);
 
     // CTR-optimized brand page title
     const brandProductCount = staticProducts.filter(
         p => p.status === 'active' && p.brand.toLowerCase() === brand.toLowerCase()
     ).length;
-    const brandName = data.hero.title.replace(/\s*Egypt$/i, '');
-    const arTitle = `منتجات ${brandName} الأصلية في مصر ⚡ ${brandProductCount} منتج | ضمان كايرو فولت`;
-    const enTitle = `${brandName} Products in Egypt ⚡ ${brandProductCount} Products | CairoVolt Warranty`;
+    const arTitle = `منتجات ${brandDisplayName} الأصلية في مصر ⚡ ${brandProductCount} منتج | ضمان كايرو فولت`;
+    const enTitle = `${officialBrandName} Products in Egypt ⚡ ${brandProductCount} Products | CairoVolt Warranty`;
 
     const dynamicTitle = isArabic ? arTitle : enTitle;
     const canonical = isArabic
@@ -64,8 +68,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Strict lowercase for canonical URLs (URL best practice)
     return {
         title: { absolute: dynamicTitle },
-        description: meta.description,
-        keywords: meta.keywords,
+        description: isArabic
+            ? localizeArabicBrandNames(meta.description)
+            : meta.description,
+        keywords: isArabic
+            ? localizeArabicBrandNames(meta.keywords)
+            : meta.keywords,
         alternates: {
             canonical,
             languages: {
@@ -77,7 +85,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         openGraph: {
             ...(meta.openGraph || {}),
             title: dynamicTitle,
-            description: meta.description,
+            description: isArabic
+                ? localizeArabicBrandNames(meta.description)
+                : meta.description,
             url: canonical,
             siteName: 'CairoVolt',
             locale: isArabic ? 'ar_EG' : 'en_EG',
@@ -89,7 +99,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         twitter: {
             card: 'summary_large_image',
             title: dynamicTitle,
-            description: meta.description,
+            description: isArabic
+                ? localizeArabicBrandNames(meta.description)
+                : meta.description,
             images: socialImageUrl ? [socialImageUrl] : undefined,
         },
     };
@@ -107,10 +119,11 @@ export default async function BrandHubPage({ params }: Props) {
     const brandProductCount = staticProducts.filter(product =>
         product.status === 'active' && product.brand.toLowerCase() === brand.toLowerCase()
     ).length;
-    const brandName = data.hero.title.replace(/\s*Egypt$/i, '');
+    const officialBrandName = data.hero.title.replace(/\s*Egypt$/i, '');
+    const brandDisplayName = getBrandDisplayName(officialBrandName, locale);
     const pageHeading = isRTL
-        ? `منتجات ${brandName} الأصلية في مصر`
-        : `Original ${brandName} Products in Egypt`;
+        ? `منتجات ${brandDisplayName} الأصلية في مصر`
+        : `Original ${officialBrandName} Products in Egypt`;
     const pageDescription = isRTL ? data.metadata.ar.description : data.metadata.en.description;
 
     // Helper to get localized href
@@ -125,7 +138,7 @@ export default async function BrandHubPage({ params }: Props) {
             <BreadcrumbSchema
                 items={[
                     { name: isRTL ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isRTL ? '' : '/en'}` },
-                    { name: data.hero.title, url: `https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}` },
+                    { name: isRTL ? brandDisplayName : data.hero.title, url: `https://cairovolt.com${isRTL ? '' : '/en'}/${brand.toLowerCase()}` },
                 ]}
                 locale={locale}
             />
@@ -218,7 +231,7 @@ export default async function BrandHubPage({ params }: Props) {
 
                 <BestSellingProducts
                     brandSlug={brand}
-                    brandDisplayName={data.hero.title}
+                    brandDisplayName={isRTL ? brandDisplayName : data.hero.title}
                     locale={locale}
                     maxProducts={20}
                 />
@@ -234,7 +247,7 @@ export default async function BrandHubPage({ params }: Props) {
                             {isRTL ? 'دليل شراء موثوق' : 'Trusted buying guide'}
                         </span>
                         <h2 id={`${brand}-guide-heading`} className="mt-2 text-2xl font-black text-gray-950 dark:text-white md:text-3xl">
-                            {isRTL ? `ملخص ${brandName} للشراء في مصر` : `${brandName} buying summary for Egypt`}
+                            {isRTL ? `ملخص ${brandDisplayName} للشراء في مصر` : `${officialBrandName} buying summary for Egypt`}
                         </h2>
                     </div>
 
@@ -271,7 +284,7 @@ export default async function BrandHubPage({ params }: Props) {
             {/* Brand Overview Block - Content Context */}
             <div className="container mx-auto px-4 py-4 relative z-20">
                 <BrandOverviewBlock
-                    brandName={data.hero.title}
+                    brandName={isRTL ? brandDisplayName : data.hero.title}
                     brandDescription={isRTL ? data.hero.description.ar : data.hero.description.en}
                     categoryCount={data.categories.length}
                     totalProducts={brandProductCount}

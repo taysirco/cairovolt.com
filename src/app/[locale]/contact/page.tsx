@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const title = isArabic ? 'اتصل بنا | كايرو فولت' : 'Contact Us | Cairo Volt';
     const description = isArabic
-        ? 'تواصل معنا عبر واتساب أو الهاتف. نحن هنا لمساعدتك في اختيار أفضل إكسسوارات الموبايل من Anker و Joyroom في مصر.'
+        ? 'تواصل معنا عبر واتساب أو الهاتف. نحن هنا لمساعدتك في اختيار أفضل إكسسوارات الموبايل من انكر و Joyroom في مصر.'
         : 'Contact us via WhatsApp or phone. We are here to help you choose the best mobile accessories from Anker and Joyroom in Egypt.';
 
     return {
@@ -71,4 +71,3 @@ export default async function ContactPage({ params }: Props) {
         </>
     );
 }
-

@@ -13,6 +13,7 @@ import { CollectionOverviewBlock } from './content/CategoryOverviewBlock';
 import { SvgIcon } from './ui/SvgIcon';
 import { MarkdownRenderer } from './ui/MarkdownRenderer';
 import { trackWhatsappClick } from '@/lib/analytics';
+import { localizeArabicBrandContent, localizeArabicBrandNames, localizeArabicFields } from '@/lib/arabic-brand-names';
 
 const CategoryComparisonTable = dynamic(() => import('./content/ProductGuides').then(mod => mod.CategoryComparisonTable), {
     loading: () => <div className="animate-pulse h-64 bg-gray-100 dark:bg-gray-800 rounded-xl mb-12"></div>
@@ -72,17 +73,28 @@ export default function CategoryTemplate({
     const tCat = useTranslations('Categories');
     const tBrand = useTranslations('Brands');
     const tCommon = useTranslations('Common');
-    const content = locale === 'ar' ? categoryInfo.ar : categoryInfo.en;
     const isRTL = locale === 'ar';
+    const content = isRTL
+        ? localizeArabicBrandContent(categoryInfo.ar)
+        : categoryInfo.en;
+    const displaySoundcoreData = isRTL && soundcoreData
+        ? localizeArabicFields(soundcoreData)
+        : soundcoreData;
+    const displayPowerBankData = isRTL && powerBankData
+        ? localizeArabicFields(powerBankData)
+        : powerBankData;
     const brandSlug = brand.toLowerCase();
 
     // Get translated category name
     const categoryKey = categoryKeyMap[categorySlug] || 'other';
     const translatedCategory = tCat(categoryKey);
-    const translatedBrand =
+    const translatedBrandValue =
         brand === 'Anker' ? tBrand('anker') :
         brand === 'Soundcore' ? tBrand('soundcore') :
         tBrand('joyroom');
+    const translatedBrand = isRTL
+        ? localizeArabicBrandNames(translatedBrandValue)
+        : translatedBrandValue;
 
     // Initialize with server-side products if available
     const [dbProducts, setDbProducts] = useState<Product[]>(initialProducts);
@@ -155,7 +167,9 @@ export default function CategoryTemplate({
         return {
             id: p.id,
             slug: p.slug,
-            name: p.translations?.[locale as 'ar' | 'en']?.name || p.translations?.en?.name || 'Product',
+            name: isRTL
+                ? localizeArabicBrandNames(p.translations?.ar?.name || p.translations?.en?.name || 'Product')
+                : (p.translations?.en?.name || 'Product'),
             price: p.price,
             originalPrice: p.originalPrice,
             image: imageUrl,
@@ -228,7 +242,7 @@ export default function CategoryTemplate({
                             <span className="hidden sm:inline">🎧</span>
                             <span>
                                 {isRTL
-                                    ? 'هذه صفحة من عائلة Soundcore — العلامة الصوتية الفرعية من Anker'
+                                    ? localizeArabicBrandNames('هذه صفحة من عائلة Soundcore — العلامة الصوتية الفرعية من Anker')
                                     : 'Part of the Soundcore family — Anker\'s audio sub-brand'}
                             </span>
                         </div>
@@ -237,7 +251,7 @@ export default function CategoryTemplate({
                                 href={`${localePrefix}/soundcore`}
                                 className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-white text-orange-700 rounded-full font-bold text-xs md:text-sm shadow-md hover:shadow-lg hover:scale-105 transition-all"
                             >
-                                {isRTL ? 'مركز ساوند كور' : 'Soundcore Hub'}
+                                {isRTL ? localizeArabicBrandNames('مركز ساوند كور') : 'Soundcore Hub'}
                                 <span>{isRTL ? '←' : '→'}</span>
                             </Link>
                             <Link
@@ -245,8 +259,8 @@ export default function CategoryTemplate({
                                 className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 bg-black/20 text-white rounded-full font-medium text-xs hover:bg-black/30 transition-colors"
                             >
                                 {categorySlug === 'audio'
-                                    ? (isRTL ? '🔊 سبيكرات ساوند كور' : '🔊 Soundcore Speakers')
-                                    : (isRTL ? '🎧 ايربودز ساوند كور' : '🎧 Soundcore Earbuds')}
+                                    ? (isRTL ? localizeArabicBrandNames('🔊 سبيكرات ساوند كور') : '🔊 Soundcore Speakers')
+                                    : (isRTL ? localizeArabicBrandNames('🎧 ايربودز ساوند كور') : '🎧 Soundcore Earbuds')}
                             </Link>
                         </div>
                     </div>
@@ -403,16 +417,16 @@ export default function CategoryTemplate({
             {/* ═══════════════════════════════════════════════════════ */}
 
             {/* Soundcore Section for "ankersoundcore" targeting - Only renders for audio category */}
-            {soundcoreData && (
+            {displaySoundcoreData && (
                 <section className="py-16 bg-gradient-to-b from-purple-50 to-blue-50 dark:from-gray-900 dark:to-gray-950">
                     <div className="container mx-auto px-4">
                         {/* Section Title & Tagline */}
                         <div className="text-center mb-12">
                             <span className="inline-block px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 rounded-full text-sm font-bold mb-4">
-                                <SvgIcon name="headphones" className="w-5 h-5 inline-block" /> {isRTL ? soundcoreData.tagline.ar : soundcoreData.tagline.en}
+                                <SvgIcon name="headphones" className="w-5 h-5 inline-block" /> {isRTL ? displaySoundcoreData.tagline.ar : displaySoundcoreData.tagline.en}
                             </span>
                             <h2 className="text-3xl md:text-4xl font-black mb-4 dark:text-white">
-                                {isRTL ? soundcoreData.title.ar : soundcoreData.title.en}
+                                {isRTL ? displaySoundcoreData.title.ar : displaySoundcoreData.title.en}
                             </h2>
                             <div className="h-1.5 w-24 mx-auto rounded-full bg-gradient-to-r from-purple-600 to-blue-600"></div>
                         </div>
@@ -421,14 +435,14 @@ export default function CategoryTemplate({
                         <div className="max-w-4xl mx-auto mb-12">
                             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl border border-purple-100 dark:border-gray-700 shadow-lg">
                                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                    {isRTL ? soundcoreData.history.ar : soundcoreData.history.en}
+                                    {isRTL ? displaySoundcoreData.history.ar : displaySoundcoreData.history.en}
                                 </p>
                             </div>
                         </div>
 
                         {/* Achievements Grid */}
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
-                            {soundcoreData.achievements.map((achievement, idx) => (
+                            {displaySoundcoreData.achievements.map((achievement, idx) => (
                                 <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
                                     <SvgIcon name={achievement.icon} className="w-8 h-8 mb-2 mx-auto text-purple-500" />
                                     <span className="text-2xl md:text-3xl font-black text-purple-600 dark:text-purple-400 block mb-1">
@@ -447,7 +461,7 @@ export default function CategoryTemplate({
                                 {isRTL ? 'تقنيات الصوت الحصرية' : 'Exclusive Audio Technologies'}
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {soundcoreData.technologies.map((tech, idx) => (
+                                {displaySoundcoreData.technologies.map((tech, idx) => (
                                     <div key={idx} className="p-5 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-700 hover:border-purple-200 dark:hover:border-purple-800 transition-colors shadow-sm">
                                         <div className="flex items-center gap-3 mb-3">
                                             <SvgIcon name={tech.icon} className="w-6 h-6 text-purple-500" />
@@ -469,7 +483,7 @@ export default function CategoryTemplate({
                                 {isRTL ? 'صوت مثالي لكل لحظة' : 'Perfect Sound for Every Moment'}
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                                {soundcoreData.useCases.map((useCase, idx) => (
+                                {displaySoundcoreData.useCases.map((useCase, idx) => (
                                     <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all">
                                         <SvgIcon name={useCase.icon} className="w-10 h-10 mb-3 mx-auto text-purple-500" />
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
@@ -486,7 +500,7 @@ export default function CategoryTemplate({
                         {/* Soundcore Quality Badges */}
                         <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 border border-gray-100 dark:border-gray-800 mb-12">
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                                {soundcoreData.trustBadges.map((badge, idx) => (
+                                {displaySoundcoreData.trustBadges.map((badge, idx) => (
                                     <div key={idx} className="flex flex-col items-center text-center p-3">
                                         <SvgIcon name={badge.icon} className="w-7 h-7 mb-2 text-purple-500" />
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
@@ -503,10 +517,10 @@ export default function CategoryTemplate({
                         {/* Soundcore FAQs */}
                         <div className="max-w-4xl mx-auto">
                             <h3 className="text-2xl font-bold text-center mb-8 dark:text-white">
-                                {isRTL ? 'أسئلة شائعة عن Soundcore' : 'Soundcore FAQ'}
+                                {isRTL ? localizeArabicBrandNames('أسئلة شائعة عن Soundcore') : 'Soundcore FAQ'}
                             </h3>
                             <div className="space-y-4">
-                                {(isRTL ? soundcoreData.faq.ar : soundcoreData.faq.en).map((item, idx) => (
+                                {(isRTL ? displaySoundcoreData.faq.ar : displaySoundcoreData.faq.en).map((item, idx) => (
                                     <details key={idx} className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden">
                                         <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold text-gray-900 dark:text-white hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                                             {item.question}
@@ -524,16 +538,16 @@ export default function CategoryTemplate({
             )}
 
             {/* PowerBank Section — brand-aware colors and titles */}
-            {powerBankData && (
+            {displayPowerBankData && (
                 <section className={`py-16 bg-gradient-to-b ${brandColor === 'red' ? 'from-red-50 to-rose-50' : brandColor === 'orange' ? 'from-orange-50 to-amber-50' : 'from-blue-50 to-cyan-50'} dark:from-gray-900 dark:to-gray-950`}>
                     <div className="container mx-auto px-4">
                         {/* Section Title & Tagline */}
                         <div className="text-center mb-12">
                             <span className={`inline-block px-4 py-2 ${brandColor === 'red' ? 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400' : brandColor === 'orange' ? 'bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400' : 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400'} rounded-full text-sm font-bold mb-4`}>
-                                <SvgIcon name="battery" className="w-5 h-5 inline-block" /> {isRTL ? powerBankData.tagline.ar : powerBankData.tagline.en}
+                                <SvgIcon name="battery" className="w-5 h-5 inline-block" /> {isRTL ? displayPowerBankData.tagline.ar : displayPowerBankData.tagline.en}
                             </span>
                             <h2 className="text-3xl md:text-4xl font-black mb-4 dark:text-white">
-                                {isRTL ? powerBankData.title.ar : powerBankData.title.en}
+                                {isRTL ? displayPowerBankData.title.ar : displayPowerBankData.title.en}
                             </h2>
                             <div className={`h-1.5 w-24 mx-auto rounded-full bg-gradient-to-r ${brandColor === 'red' ? 'from-red-600 to-rose-600' : brandColor === 'orange' ? 'from-orange-600 to-amber-600' : 'from-blue-600 to-cyan-600'}`}></div>
                         </div>
@@ -542,14 +556,14 @@ export default function CategoryTemplate({
                         <div className="max-w-4xl mx-auto mb-12">
                             <div className={`bg-white dark:bg-gray-900 p-8 rounded-3xl border ${brandColor === 'red' ? 'border-red-100' : brandColor === 'orange' ? 'border-orange-100' : 'border-blue-100'} dark:border-gray-700 shadow-lg`}>
                                 <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-                                    {isRTL ? powerBankData.history.ar : powerBankData.history.en}
+                                    {isRTL ? displayPowerBankData.history.ar : displayPowerBankData.history.en}
                                 </p>
                             </div>
                         </div>
 
                         {/* Achievements Grid */}
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
-                            {powerBankData.achievements.map((achievement, idx) => (
+                            {displayPowerBankData.achievements.map((achievement, idx) => (
                                 <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl hover:shadow-lg transition-shadow border border-gray-100 dark:border-gray-800">
                                     <SvgIcon name={achievement.icon} className={`w-8 h-8 mb-2 mx-auto ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
                                     <span className={`text-2xl md:text-3xl font-black ${brandColor === 'red' ? 'text-red-600 dark:text-red-400' : brandColor === 'orange' ? 'text-orange-600 dark:text-orange-400' : 'text-blue-600 dark:text-blue-400'} block mb-1`}>
@@ -568,7 +582,7 @@ export default function CategoryTemplate({
                                 {isRTL ? 'تقنيات الشحن الحصرية' : 'Exclusive Charging Technologies'}
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {powerBankData.technologies.map((tech, idx) => (
+                                {displayPowerBankData.technologies.map((tech, idx) => (
                                     <div key={idx} className={`p-5 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-700 ${brandColor === 'red' ? 'hover:border-red-200 dark:hover:border-red-800' : brandColor === 'orange' ? 'hover:border-orange-200 dark:hover:border-orange-800' : 'hover:border-blue-200 dark:hover:border-blue-800'} transition-colors shadow-sm`}>
                                         <div className="flex items-center gap-3 mb-3">
                                             <SvgIcon name={tech.icon} className={`w-6 h-6 ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
@@ -590,7 +604,7 @@ export default function CategoryTemplate({
                                 {isRTL ? 'طاقة لكل لحظة' : 'Power for Every Moment'}
                             </h3>
                             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-                                {powerBankData.useCases.map((useCase, idx) => (
+                                {displayPowerBankData.useCases.map((useCase, idx) => (
                                     <div key={idx} className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg transition-all">
                                         <SvgIcon name={useCase.icon} className={`w-10 h-10 mb-3 mx-auto ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
                                         <h4 className="font-bold text-gray-900 dark:text-white mb-2">
@@ -607,7 +621,7 @@ export default function CategoryTemplate({
                         {/* PowerBank Quality Badges */}
                         <div className="bg-white dark:bg-gray-900 rounded-3xl p-8 border border-gray-100 dark:border-gray-800 mb-12">
                             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                                {powerBankData.trustBadges.map((badge, idx) => (
+                                {displayPowerBankData.trustBadges.map((badge, idx) => (
                                     <div key={idx} className="flex flex-col items-center text-center p-3">
                                         <SvgIcon name={badge.icon} className={`w-7 h-7 mb-2 ${brandColor === 'red' ? 'text-red-500' : brandColor === 'orange' ? 'text-orange-500' : 'text-blue-500'}`} />
                                         <span className="font-bold text-sm text-gray-900 dark:text-white">
@@ -627,7 +641,7 @@ export default function CategoryTemplate({
                                 {isRTL ? `أسئلة شائعة عن باور بانك ${translatedBrand}` : `${translatedBrand} Power Bank FAQ`}
                             </h3>
                             <div className="space-y-4">
-                                {(isRTL ? powerBankData.faq.ar : powerBankData.faq.en).map((item, idx) => (
+                                {(isRTL ? displayPowerBankData.faq.ar : displayPowerBankData.faq.en).map((item, idx) => (
                                     <details key={idx} className="group bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden">
                                         <summary className={`flex items-center justify-between p-5 cursor-pointer list-none font-bold text-gray-900 dark:text-white ${brandColor === 'red' ? 'hover:text-red-600 dark:hover:text-red-400' : brandColor === 'orange' ? 'hover:text-orange-600 dark:hover:text-orange-400' : 'hover:text-blue-600 dark:hover:text-blue-400'} transition-colors`}>
                                             {item.question}

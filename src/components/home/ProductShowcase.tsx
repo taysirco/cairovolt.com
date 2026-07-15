@@ -6,6 +6,7 @@ import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { useCart } from '@/context/CartContext';
 import { showcaseProducts, type ShowcaseProduct } from '@/data/showcase-products';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface ProductShowcaseProps {
   locale: string;
@@ -34,7 +35,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
   const handleQuickAdd = useCallback((product: ShowcaseProduct) => {
     addToCart({
       productId: product.slug,
-      name: isAr ? product.name.ar : product.name.en,
+      name: isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en,
       price: product.price,
       originalPrice: product.originalPrice,
       quantity: 1,
@@ -66,7 +67,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
               {isAr
-                ? 'مزيج مختار من Anker وSoundcore وJoyroom — بأسعار مطابقة للكتالوج وإضافة سريعة للسلة.'
+                ? 'مزيج مختار من انكر وساوندكور وجوي روم — بأسعار مطابقة للكتالوج وإضافة سريعة للسلة.'
                 : 'A curated mix of Anker, Soundcore, and Joyroom — with catalog-matched prices and quick add.'}
             </p>
           </div>
@@ -111,7 +112,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                 <Link href={productHref} className="relative block aspect-square overflow-hidden bg-[#f4f5f7]">
                   <Image
                     src={product.image.replace('-thumb.webp', '-480.webp')}
-                    alt={isAr ? product.name.ar : product.name.en}
+                    alt={isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en}
                     fill
                     unoptimized
                     className="object-cover transition duration-700 group-hover:scale-[1.035]"
@@ -128,7 +129,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                 <div className="flex flex-1 flex-col p-3 sm:p-5">
                   <div className="flex items-center justify-between gap-2">
                     <span className={`text-[10px] font-bold uppercase tracking-[.14em] sm:text-[11px] ${brandColor}`}>
-                      {product.brand}
+                      {getBrandDisplayName(product.brand, locale)}
                     </span>
                     {product.originalPrice && product.originalPrice > product.price && (
                       <span className="rounded-full bg-rose-50 px-2 py-1 text-[9px] font-bold text-rose-700 sm:text-[10px]">
@@ -141,7 +142,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                     href={productHref}
                     className="mt-2 line-clamp-2 min-h-10 text-xs font-semibold leading-5 text-[#111827] transition hover:text-blue-700 sm:text-sm"
                   >
-                    {isAr ? product.name.ar : product.name.en}
+                    {isAr ? localizeArabicBrandNames(product.name.ar) : product.name.en}
                   </Link>
 
                   <span className="mt-2 inline-flex items-center gap-1 text-[10px] font-medium text-slate-500 sm:text-[11px]">

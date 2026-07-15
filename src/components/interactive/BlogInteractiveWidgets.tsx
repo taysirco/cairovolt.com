@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // Dynamic imports for interactive components (zero impact on initial bundle)
 const MermaidDiagram = dynamic(() => import('./MermaidDiagram'), { ssr: false });
@@ -13,6 +14,8 @@ const ChargingSpeedCalculator = dynamic(() => import('./ChargingSpeedCalculator'
  */
 export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale: string }) {
     const isArabic = locale === 'ar';
+    const localizeChartBrands = (chart: string) =>
+        isArabic ? localizeArabicBrandNames(chart) : chart;
 
     // Map slugs to their interactive content
     const widgets: Record<string, React.ReactNode> = {
@@ -23,7 +26,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                 <MermaidDiagram
                     title={isArabic ? '🗺️ خريطة اختيار الباور بانك المناسب' : '🗺️ Power Bank Selection Flowchart'}
                     locale={locale}
-                    chart={`flowchart TD
+                    chart={localizeChartBrands(`flowchart TD
     A["What's your budget?"] --> B{"Less than 1,000 EGP?"}
     B -->|Yes| C["Joyroom 20000mAh\\n997 EGP"]
     B -->|No| D{"Need to charge laptop?"}
@@ -36,7 +39,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style C fill:#ef4444,color:#fff,stroke:#dc2626
     style E fill:#3b82f6,color:#fff,stroke:#2563eb
     style G fill:#3b82f6,color:#fff,stroke:#2563eb
-    style H fill:#22c55e,color:#fff,stroke:#16a34a`}
+    style H fill:#22c55e,color:#fff,stroke:#16a34a`)}
                 />
             </>
         ),
@@ -48,7 +51,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
                 <MermaidDiagram
                     title={isArabic ? '🗺️ خريطة اختيار شاحن الايفون' : '🗺️ iPhone Charger Selection Guide'}
                     locale={locale}
-                    chart={`flowchart TD
+                    chart={localizeChartBrands(`flowchart TD
     A["What devices do you charge?"] --> B{"iPhone only?"}
     B -->|Yes| C{"Want fastest speed?"}
     C -->|Yes| D["Anker Nano 45W GaN\\n770 EGP"]
@@ -61,7 +64,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style D fill:#22c55e,color:#fff,stroke:#16a34a
     style E fill:#3b82f6,color:#fff,stroke:#2563eb
     style G fill:#8b5cf6,color:#fff,stroke:#7c3aed
-    style H fill:#22c55e,color:#fff,stroke:#16a34a`}
+    style H fill:#22c55e,color:#fff,stroke:#16a34a`)}
                 />
             </>
         ),
@@ -71,9 +74,9 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
             <>
                 <BatteryCalculator locale={locale} />
                 <MermaidDiagram
-                    title={isArabic ? '🗺️ أيهما تختار: Anker أم Joyroom؟' : '🗺️ Anker vs Joyroom: Which to Choose?'}
+                    title={isArabic ? '🗺️ أيهما تختار: انكر أم Joyroom؟' : '🗺️ Anker vs Joyroom: Which to Choose?'}
                     locale={locale}
-                    chart={`flowchart TD
+                    chart={localizeChartBrands(`flowchart TD
     A["What matters most?"] --> B{"Top quality + latest tech?"}
     B -->|Yes| C["Choose Anker"]
     B -->|No| D{"Budget is priority?"}
@@ -89,7 +92,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style E fill:#ef4444,color:#fff,stroke:#dc2626
     style G fill:#3b82f6,color:#fff,stroke:#2563eb
     style I fill:#3b82f6,color:#fff,stroke:#2563eb
-    style J fill:#ef4444,color:#fff,stroke:#dc2626`}
+    style J fill:#ef4444,color:#fff,stroke:#dc2626`)}
                 />
             </>
         ),
@@ -99,7 +102,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
             <MermaidDiagram
                 title={isArabic ? '🗺️ خطوات التحقق من أصالة منتج انكر' : '🗺️ Anker Authenticity Verification Steps'}
                 locale={locale}
-                chart={`flowchart TD
+                chart={localizeChartBrands(`flowchart TD
     A["Got an Anker product?"] --> B{"Has QR code?"}
     B -->|No| X1["❌ Likely FAKE"]
     B -->|Yes| C{"Scan: shows Authentic?"}
@@ -115,7 +118,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style X1 fill:#ef4444,color:#fff,stroke:#dc2626
     style X2 fill:#ef4444,color:#fff,stroke:#dc2626
     style X3 fill:#f59e0b,color:#fff,stroke:#d97706
-    style X4 fill:#f59e0b,color:#fff,stroke:#d97706`}
+    style X4 fill:#f59e0b,color:#fff,stroke:#d97706`)}
             />
         ),
 
@@ -124,7 +127,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
             <MermaidDiagram
                 title={isArabic ? '🗺️ خريطة اختيار السماعة المناسبة' : '🗺️ Earbuds Selection Guide'}
                 locale={locale}
-                chart={`flowchart TD
+                chart={localizeChartBrands(`flowchart TD
     A["What's your priority?"] --> B{"Noise Cancellation?"}
     B -->|Yes| C["Soundcore Liberty 4 NC\\n~2,570 EGP"]
     B -->|No| D{"Budget under 500 EGP?"}
@@ -137,7 +140,7 @@ export function BlogInteractiveWidgets({ slug, locale }: { slug: string; locale:
     style C fill:#3b82f6,color:#fff,stroke:#2563eb
     style E fill:#ef4444,color:#fff,stroke:#dc2626
     style G fill:#ef4444,color:#fff,stroke:#dc2626
-    style H fill:#3b82f6,color:#fff,stroke:#2563eb`}
+    style H fill:#3b82f6,color:#fff,stroke:#2563eb`)}
             />
         ),
 

@@ -18,6 +18,7 @@ import SocialShareButtons from '@/components/content/SocialShareButtons';
 import { ExpertQuote } from '@/components/content/ExpertQuote';
 import { ExternalReferences } from '@/components/content/ExternalReferences';
 import BlogContentRenderer from '@/components/ui/BlogContentRenderer';
+import { getBrandDisplayName, localizeArabicBrandContent, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 // Hourly ISR — so a scheduled article reveals within ~1h of its publishDate
 // (the daily reveal cron also force-revalidates on the exact day).
@@ -57,7 +58,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!entry) return {};
 
     const isArabic = locale === 'ar';
-    const trans = entry.translations[isArabic ? 'ar' : 'en'];
+    const rawTrans = entry.translations[isArabic ? 'ar' : 'en'];
+    const trans = isArabic ? localizeArabicBrandContent(rawTrans) : rawTrans;
 
     return {
         title: { absolute: trans.metaTitle },
@@ -134,7 +136,18 @@ export default async function BlogArticlePage({ params }: Props) {
     }
 
     const isArabic = locale === 'ar';
-    const trans = article.translations[isArabic ? 'ar' : 'en'];
+    const rawTrans = article.translations[isArabic ? 'ar' : 'en'];
+    const localizedTextTrans = isArabic
+        ? localizeArabicBrandContent({ ...rawTrans, content: '' })
+        : rawTrans;
+    const trans = isArabic
+        ? {
+            ...localizedTextTrans,
+            // Rich HTML is localized text-node-by-text-node in BlogContentRenderer
+            // so href/src/class attributes remain byte-for-byte unchanged.
+            content: rawTrans.content,
+        }
+        : rawTrans;
     const catLabel = categoryLabels[article.category];
 
     // articleVoiceFAQ removed — was duplicating FAQ section content on the same page
@@ -582,7 +595,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                 href={getLocalizedHref('/anker')}
                                 className="px-6 py-3 bg-white text-blue-700 font-bold rounded-full hover:bg-gray-100 transition-colors"
                             >
-                                {isArabic ? 'تسوق Anker' : 'Shop Anker'}
+                                {isArabic ? 'تسوق انكر' : 'Shop Anker'}
                             </Link>
                             <Link
                                 href={getLocalizedHref('/joyroom')}
@@ -617,7 +630,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 {primaryImage ? (
                                                     <Image
                                                         src={primaryImage.url}
-                                                        alt={pTrans.name}
+                                                        alt={isArabic ? localizeArabicBrandNames(pTrans.name) : pTrans.name}
                                                         fill
                                                         sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                                                         className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -631,7 +644,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 {/* Brand badge */}
                                                 <div className="absolute top-2.5 start-2.5">
                                                     <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full backdrop-blur-md shadow-sm ${isAnkerBrand ? 'bg-blue-600/90 text-white' : 'bg-red-600/90 text-white'}`}>
-                                                        {prod.brand}
+                                                        {getBrandDisplayName(prod.brand, locale)}
                                                     </span>
                                                 </div>
                                                 {/* Discount badge */}
@@ -645,7 +658,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                             </div>
                                             {/* Product Info */}
                                             <div className="p-4">
-                                                <h3 className="font-bold text-sm text-gray-900 dark:text-white mb-3 line-clamp-2 leading-snug">{pTrans.name}</h3>
+                                                <h3 className="font-bold text-sm text-gray-900 dark:text-white mb-3 line-clamp-2 leading-snug">{isArabic ? localizeArabicBrandNames(pTrans.name) : pTrans.name}</h3>
                                                 <div className="flex items-center justify-between">
                                                     <div>
                                                         <span className="text-lg font-bold text-green-700 dark:text-green-400">
@@ -678,6 +691,9 @@ export default async function BlogArticlePage({ params }: Props) {
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                                 {relatedArticles.map((related) => {
                                     const rTrans = related.translations[isArabic ? 'ar' : 'en'];
+                                    const relatedTitle = isArabic
+                                        ? localizeArabicBrandNames(rTrans.title)
+                                        : rTrans.title;
                                     const rCat = categoryLabels[related.category];
                                     return (
                                         <Link
@@ -690,7 +706,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 {related.coverImage ? (
                                                     <Image
                                                         src={related.coverImage}
-                                                        alt={rTrans.title}
+                                                        alt={relatedTitle}
                                                         fill
                                                         sizes="(max-width: 768px) 100vw, 33vw"
                                                         className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -713,7 +729,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                             {/* Article Info */}
                                             <div className="p-4">
                                                 <h3 className="font-bold text-sm text-gray-900 dark:text-white line-clamp-2 leading-snug group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                                                    {rTrans.title}
+                                                    {relatedTitle}
                                                 </h3>
                                                 <span className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-blue-600 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                                     {isArabic ? 'اقرأ المزيد' : 'Read more'} →

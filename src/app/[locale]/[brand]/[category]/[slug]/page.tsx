@@ -17,6 +17,13 @@ import BrandVerification from '@/components/UX/BrandVerification';
 import { getLabData, getLabMetrics } from '@/data/product-tests';
 import { BostaTracker } from '@/lib/bosta';
 import { unstable_cache } from 'next/cache';
+import {
+    getBrandDisplayName,
+    localizeArabicFields,
+    localizeArabicBrandContent,
+    localizeArabicBrandHtml,
+    localizeArabicBrandNames,
+} from '@/lib/arabic-brand-names';
 
 import { buildManifest, signManifest } from '@/lib/media-verification';
 
@@ -155,7 +162,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 
     const isArabic = locale === 'ar';
-    const t = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en || {};
+    const rawTranslation = product.translations?.[isArabic ? 'ar' : 'en'] || product.translations?.en || {};
+    const localizedTextTranslation = isArabic
+        ? localizeArabicBrandContent({ ...rawTranslation, description: '' })
+        : rawTranslation;
+    const t = isArabic
+        ? {
+            ...localizedTextTranslation,
+            description: localizeArabicBrandHtml(rawTranslation.description || ''),
+        }
+        : rawTranslation;
 
     // CTR-optimized title with dynamic discount calculation
     const origPrice = product.originalPrice ?? product.price;
@@ -177,7 +193,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: { absolute: dynamicTitle },
         description: t.metaDesc || t.shortDescription || t.description?.substring(0, 160),
-        keywords: product.meta?.keywords || '',
+        keywords: isArabic
+            ? localizeArabicBrandNames(product.meta?.keywords || '')
+            : (product.meta?.keywords || ''),
         openGraph: {
             title: dynamicTitle,
             description: t.metaDesc || t.shortDescription,
@@ -188,10 +206,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                     ? product.images[0].url
                     : `https://cairovolt.com${product.images[0].url}`,
                 // Use the real descriptive alt from the product data, not a generic fallback
-                alt: product.images[0].alt ||
-                    (isArabic
-                        ? `${t.name} - كايرو فولت مصر`
-                        : `${t.name} - CairoVolt Egypt`),
+                alt: isArabic
+                    ? localizeArabicBrandNames(product.images[0].alt || `${t.name} - كايرو فولت مصر`)
+                    : (product.images[0].alt || `${t.name} - CairoVolt Egypt`),
                 width: 1200,
                 height: 630,
             }] : [],
@@ -311,9 +328,19 @@ export default async function ProductPage({ params }: Props) {
         })()
         : undefined;
 
-    const productName = product.translations?.[locale as 'ar' | 'en']?.name || product.translations?.en?.name || '';
-    const productDescription = product.translations?.[locale as 'ar' | 'en']?.description || product.translations?.en?.description || '';
     const isArabic = locale === 'ar';
+    const sourceTranslation = product.translations?.[locale as 'ar' | 'en'] || product.translations?.en || {};
+    const localizedTextTranslation = isArabic
+        ? localizeArabicBrandContent({ ...sourceTranslation, description: '' })
+        : sourceTranslation;
+    const displayTranslation = isArabic
+        ? {
+            ...localizedTextTranslation,
+            description: localizeArabicBrandHtml(sourceTranslation.description || ''),
+        }
+        : sourceTranslation;
+    const productName = displayTranslation.name || '';
+    const productDescription = displayTranslation.description || '';
 
     // Reuse C2PA credential already generated during product data fetch (lines 108/126)
     const c2paHash = product.contentCredentials?.signature
@@ -352,14 +379,32 @@ export default async function ProductPage({ params }: Props) {
             rating: r.rating,
             // Locale-first body with cross-language fallback (some early seed
             // reviews have AR text only) — never emit an empty reviewBody.
-            reviewBody: (isArabicLocale ? r.reviewBody.ar : r.reviewBody.en) || r.reviewBody.ar || r.reviewBody.en,
-            pros: r.pros ? ((isArabicLocale ? r.pros.ar : r.pros.en) || r.pros.ar) : undefined,
-            cons: r.cons ? ((isArabicLocale ? r.cons.ar : r.cons.en) || r.cons.ar) : undefined,
+            reviewBody: isArabicLocale
+                ? localizeArabicBrandNames(r.reviewBody.ar || r.reviewBody.en)
+                : (r.reviewBody.en || r.reviewBody.ar),
+            pros: r.pros
+                ? (isArabicLocale
+                    ? localizeArabicBrandContent(r.pros.ar || r.pros.en)
+                    : (r.pros.en || r.pros.ar))
+                : undefined,
+            cons: r.cons
+                ? (isArabicLocale
+                    ? localizeArabicBrandContent(r.cons.ar || r.cons.en)
+                    : (r.cons.en || r.cons.ar))
+                : undefined,
             datePublished: r.datePublished,
             location: r.location,
         }))
         .filter(r => r.reviewBody);
-    const schemaReviews = [...verifiedSchemaReviews, ...staticSchemaReviews];
+    const rawSchemaReviews = [...verifiedSchemaReviews, ...staticSchemaReviews];
+    const schemaReviews = isArabicLocale
+        ? rawSchemaReviews.map(review => ({
+            ...review,
+            reviewBody: localizeArabicBrandNames(review.reviewBody),
+            pros: review.pros ? localizeArabicBrandContent(review.pros) : undefined,
+            cons: review.cons ? localizeArabicBrandContent(review.cons) : undefined,
+        }))
+        : rawSchemaReviews;
 
     // Aggregate rating: verified-first (3+ real reviews), else the same static
     // average the UI's rating widget shows — computed over the displayed set.
@@ -413,11 +458,14 @@ export default async function ProductPage({ params }: Props) {
                             description: product.translations?.en?.description || ''
                         },
                         ar: {
-                            name: product.translations?.ar?.name || '',
-                            description: product.translations?.ar?.description || ''
+                            name: localizeArabicBrandNames(product.translations?.ar?.name || ''),
+                            description: localizeArabicBrandHtml(product.translations?.ar?.description || '')
                         }
                     },
-                    images: product.images?.map(img => ({ url: img.url, alt: img.alt || '' })) || []
+                    images: product.images?.map(img => ({
+                        url: img.url,
+                        alt: isArabic ? localizeArabicBrandNames(img.alt || '') : (img.alt || ''),
+                    })) || []
                 }}
                 locale={locale}
                 aggregateRating={aggregateRating ? {
@@ -427,7 +475,9 @@ export default async function ProductPage({ params }: Props) {
                     worstRating: String(aggregateRating.worstRating)
                 } : undefined}
                 reviews={schemaReviews}
-                specifications={productDetailData?.specifications}
+                specifications={isArabic
+                    ? localizeArabicFields(productDetailData?.specifications)
+                    : productDetailData?.specifications}
                 isAccessoryOrSparePartFor={labInfo?.isAccessoryFor || (category === 'power-banks' ? [
                     { name: 'WE VDSL Router' },
                     { name: 'Apple MacBook Pro' },
@@ -439,8 +489,8 @@ export default async function ProductPage({ params }: Props) {
                         return {
                             name: labInfo.labTests[0].expertName,
                             profileUrl: labInfo.labTests[0].expertProfileUrl,
-                            title: isArabic ? labInfo.labTests[0].expertTitle.ar : labInfo.labTests[0].expertTitle.en,
-                            body: isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en,
+                            title: isArabic ? localizeArabicBrandNames(labInfo.labTests[0].expertTitle.ar) : labInfo.labTests[0].expertTitle.en,
+                            body: isArabic ? localizeArabicBrandNames(labInfo.labTests[0].result.ar) : labInfo.labTests[0].result.en,
                         };
                     }
                     // Priority 2: product-details labVerified data
@@ -451,7 +501,7 @@ export default async function ProductPage({ params }: Props) {
                                 ? 'https://www.youtube.com/c/YehiaRadwan'
                                 : 'https://www.youtube.com/@Ahmed.Medhat',
                             title: isArabic ? 'رئيس قسم الفحص التقني وحلول الطاقة' : 'Head of Technical Testing & Power Solutions',
-                            body: isArabic ? productDetailData.labVerified.result.ar : productDetailData.labVerified.result.en,
+                            body: isArabic ? localizeArabicBrandNames(productDetailData.labVerified.result.ar) : productDetailData.labVerified.result.en,
                         };
                     }
                     // No generic fallback — only include expert review when real lab data exists
@@ -465,7 +515,7 @@ export default async function ProductPage({ params }: Props) {
                 <ImageObjectSchema
                     images={product.images.map((img, i) => ({
                         url: img.url,
-                        alt: img.alt || '',
+                        alt: isArabic ? localizeArabicBrandNames(img.alt || '') : (img.alt || ''),
                         isPrimary: img.isPrimary || i === 0,
                     }))}
                     productName={productName}
@@ -483,7 +533,7 @@ export default async function ProductPage({ params }: Props) {
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
-                    { name: product.brand, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}` },
+                    { name: getBrandDisplayName(product.brand, locale), url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}` },
                     {
                         name: product.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
                         url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}`
@@ -506,8 +556,12 @@ export default async function ProductPage({ params }: Props) {
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'Dataset',
-                            name: `Lab Test: ${product.translations?.en?.name || slug}`,
-                            description: `Independent performance test of ${product.translations?.en?.name || slug} under Egyptian conditions (37-42°C, 190-240V). Tested by ${labInfo.labTests[0].expertName} at CairoVolt Labs.`,
+                            name: isArabic
+                                ? localizeArabicBrandNames(`Lab Test: ${product.translations?.en?.name || slug}`)
+                                : `Lab Test: ${product.translations?.en?.name || slug}`,
+                            description: isArabic
+                                ? localizeArabicBrandNames(`Independent performance test of ${product.translations?.en?.name || slug} under Egyptian conditions (37-42°C, 190-240V). Tested by ${labInfo.labTests[0].expertName} at CairoVolt Labs.`)
+                                : `Independent performance test of ${product.translations?.en?.name || slug} under Egyptian conditions (37-42°C, 190-240V). Tested by ${labInfo.labTests[0].expertName} at CairoVolt Labs.`,
                             url: `https://cairovolt.com${locale === 'ar' ? '' : '/en'}/${brand}/${category}/${slug}`,
                             license: 'https://creativecommons.org/licenses/by/4.0/',
                             creator: {
@@ -558,9 +612,9 @@ export default async function ProductPage({ params }: Props) {
                     images: product.images?.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
                     translations: {
                         [locale]: {
-                            name: product.translations?.[locale as 'ar' | 'en']?.name,
-                            description: product.translations?.[locale as 'ar' | 'en']?.description,
-                            faqs: product.translations?.[locale as 'ar' | 'en']?.faqs,
+                            name: displayTranslation.name,
+                            description: productDescription,
+                            faqs: displayTranslation.faqs,
                         },
                     } as Product['translations'],
                     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -580,9 +634,9 @@ export default async function ProductPage({ params }: Props) {
                     // Priority 1: product-tests.ts full test data
                     if (labInfo?.labTests?.[0]) {
                         return {
-                            testScenario: isArabic ? labInfo.labTests[0].scenario.ar : labInfo.labTests[0].scenario.en,
-                            testResult: isArabic ? labInfo.labTests[0].result.ar : labInfo.labTests[0].result.en,
-                            testConditions: isArabic ? labInfo.labTests[0].conditions.ar : labInfo.labTests[0].conditions.en,
+                            testScenario: isArabic ? localizeArabicBrandNames(labInfo.labTests[0].scenario.ar) : labInfo.labTests[0].scenario.en,
+                            testResult: isArabic ? localizeArabicBrandNames(labInfo.labTests[0].result.ar) : labInfo.labTests[0].result.en,
+                            testConditions: isArabic ? localizeArabicBrandNames(labInfo.labTests[0].conditions.ar) : labInfo.labTests[0].conditions.en,
                             expertName: labInfo.labTests[0].expertName,
                             expertProfileUrl: labInfo.labTests[0].expertProfileUrl,
                         };
@@ -590,9 +644,9 @@ export default async function ProductPage({ params }: Props) {
                     // Priority 2: product-details labVerified data
                     if (productDetailData?.labVerified) {
                         return {
-                            testScenario: isArabic ? productDetailData.localContext.ar : productDetailData.localContext.en,
-                            testResult: isArabic ? productDetailData.labVerified.result.ar : productDetailData.labVerified.result.en,
-                            testConditions: isArabic ? productDetailData.labVerified.conditions.ar : productDetailData.labVerified.conditions.en,
+                            testScenario: isArabic ? localizeArabicBrandNames(productDetailData.localContext.ar) : productDetailData.localContext.en,
+                            testResult: isArabic ? localizeArabicBrandNames(productDetailData.labVerified.result.ar) : productDetailData.labVerified.result.en,
+                            testConditions: isArabic ? localizeArabicBrandNames(productDetailData.labVerified.conditions.ar) : productDetailData.labVerified.conditions.en,
                             expertName: productDetailData.labVerified.expertName,
                             expertProfileUrl: productDetailData.labVerified.expertName.includes('Yahia')
                                 ? 'https://www.youtube.com/c/YehiaRadwan'

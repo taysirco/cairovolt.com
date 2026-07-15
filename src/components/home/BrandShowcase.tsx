@@ -30,7 +30,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
             <div className="relative z-10 flex max-w-xl flex-col p-7 sm:p-10 lg:min-h-[510px] lg:justify-center lg:p-14">
               <span className="inline-flex w-fit items-center gap-2 rounded-full border border-violet-300/20 bg-violet-300/10 px-4 py-2 text-xs font-bold text-violet-100">
                 <SvgIcon name="headphones" className="h-4 w-4" />
-                Soundcore by Anker
+                {isAr ? 'ساوندكور من انكر' : 'Soundcore by Anker'}
               </span>
               <h3 className="mt-5 font-outfit text-4xl font-black tracking-[-0.04em] sm:text-5xl">
                 {isAr ? 'اسمع كل تفصيلة.' : 'Feel every detail.'}
@@ -49,7 +49,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
                 href={hrefFor(locale, '/soundcore')}
                 className="mt-7 inline-flex min-h-12 w-fit items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-[#090713] transition hover:-translate-y-0.5 hover:bg-violet-50"
               >
-                {isAr ? 'استكشف عالم Soundcore' : 'Explore Soundcore'}
+                {isAr ? 'استكشف عالم ساوندكور' : 'Explore Soundcore'}
                 <span>{isAr ? '←' : '→'}</span>
               </Link>
             </div>
@@ -59,7 +59,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
             <div className="relative mx-5 mb-5 h-72 overflow-hidden rounded-[1.6rem] bg-[#ece9ff] sm:mx-7 sm:mb-7 sm:h-80 lg:absolute lg:inset-y-7 lg:right-7 lg:mx-0 lg:mb-0 lg:h-auto lg:w-[47%] rtl:lg:left-7 rtl:lg:right-auto">
               <Image
                 src="/images/home/cutouts/soundcore-liberty-5-tws-earbuds-cutout-cairovolt.png"
-                alt={isAr ? 'سماعات Soundcore Liberty 5' : 'Soundcore Liberty 5 earbuds'}
+                alt={isAr ? 'سماعات ساوندكور Liberty 5' : 'Soundcore Liberty 5 earbuds'}
                 fill
                 sizes="(max-width: 1024px) 100vw, 47vw"
                 className="object-contain p-7 drop-shadow-[0_25px_35px_rgba(15,23,42,.25)] transition duration-700 group-hover:scale-[1.035] sm:p-10"
@@ -69,7 +69,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
 
           <article className="group relative isolate min-h-[440px] overflow-hidden rounded-[2rem] border border-blue-100 bg-[#e8f3ff] p-7 sm:p-9">
             <div className="relative z-10 max-w-[60%] sm:max-w-[55%]">
-              <span className="text-xs font-black uppercase tracking-[.18em] text-blue-700">Anker</span>
+              <span className="text-xs font-black uppercase tracking-[.18em] text-blue-700">{isAr ? 'انكر' : 'Anker'}</span>
               <h3 className="mt-3 font-outfit text-3xl font-bold tracking-tight sm:text-4xl">
                 {isAr ? 'طاقة تثق فيها.' : 'Power you can trust.'}
               </h3>
@@ -77,7 +77,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
                 {isAr ? 'باور بانك، شواحن وكابلات لقدرة واضحة من غير حيرة.' : 'Power banks, chargers, and cables with power that is easy to understand.'}
               </p>
               <Link href={hrefFor(locale, '/anker')} className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-blue-800">
-                {isAr ? 'تسوق Anker' : 'Shop Anker'}
+                {isAr ? 'تسوق انكر' : 'Shop Anker'}
                 <span>{isAr ? '←' : '→'}</span>
               </Link>
             </div>
@@ -87,7 +87,7 @@ export default function BrandShowcase({ locale }: BrandShowcaseProps) {
             <div className="absolute bottom-4 right-0 h-1/2 w-3/5 sm:h-2/3 rtl:left-0 rtl:right-auto">
               <Image
                 src="/images/home/cutouts/anker-nano-45w-smart-display-charger-cutout-cairovolt.png"
-                alt="Anker Nano 45W"
+                alt={isAr ? 'انكر Nano 45W' : 'Anker Nano 45W'}
                 fill
                 sizes="(max-width: 1024px) 65vw, 32vw"
                 className="object-contain object-bottom p-2 drop-shadow-[0_18px_28px_rgba(15,23,42,.22)] transition duration-700 group-hover:scale-105"

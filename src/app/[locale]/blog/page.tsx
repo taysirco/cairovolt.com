@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getLiveIndex } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import BlogPagination from '@/components/blog/BlogPagination';
+import { localizeArabicBrandContent } from '@/lib/arabic-brand-names';
 
 // Hourly ISR so newly-scheduled articles appear in the listing within ~1h.
 export const revalidate = 3600;
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? 'مدونة كايرو فولت | أدلة شراء ومراجعات اكسسوارات الموبايل'
         : 'CairoVolt Blog | Mobile Accessories Guides & Reviews';
     const description = isArabic
-        ? 'أدلة شراء شاملة ومقارنات ومراجعات لأفضل اكسسوارات الموبايل في مصر. باور بانك، شواحن، سماعات من Anker و Joyroom.'
+        ? 'أدلة شراء شاملة ومقارنات ومراجعات لأفضل اكسسوارات الموبايل في مصر. باور بانك، شواحن، سماعات من انكر وJoyroom.'
         : 'Complete buying guides, comparisons, and reviews for the best mobile accessories in Egypt. Power banks, chargers, earbuds from Anker & Joyroom.';
 
     return {
@@ -71,7 +72,8 @@ export default async function BlogPage({ params }: Props) {
     const sortedArticles = getLiveIndex()
         .sort((a, b) => new Date(b.modifiedDate).getTime() - new Date(a.modifiedDate).getTime())
         .map((a) => {
-            const trans = a.translations[isArabic ? 'ar' : 'en'];
+            const rawTrans = a.translations[isArabic ? 'ar' : 'en'];
+            const trans = isArabic ? localizeArabicBrandContent(rawTrans) : rawTrans;
             return {
                 slug: a.slug,
                 category: a.category,

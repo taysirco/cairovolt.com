@@ -19,6 +19,7 @@
  */
 
 import type { Governorate } from '@/data/governorates';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export interface OutageProduct {
     slug: string;
@@ -233,10 +234,19 @@ export function getGovernorateOutageData(
     deliveryDays: number
 ): GovernorateOutageData {
     const regionData = REGION_OUTAGE_DATA[region];
+    const voiceFaqsAr = generateVoiceFaqsAr(
+        govNameAr,
+        region,
+        regionData,
+        deliveryDays,
+    ).map(({ question, answer }) => ({
+        question: localizeArabicBrandNames(question),
+        answer: localizeArabicBrandNames(answer),
+    }));
 
     return {
         outageFrequencyHours: regionData.outageHours,
-        outageSeverityAr: regionData.severityAr,
+        outageSeverityAr: localizeArabicBrandNames(regionData.severityAr),
         outageSeverityEn: regionData.severityEn,
         routerRuntimeHours: LAB_CONSTANTS.ANKER_737_ROUTER_HOURS,
         routerRuntimeMinutes: LAB_CONSTANTS.ANKER_737_ROUTER_MINUTES,
@@ -244,12 +254,21 @@ export function getGovernorateOutageData(
         upsRuntimeMinutes: LAB_CONSTANTS.ANKER_521_UPS_MINUTES,
         familySurvivalHours: LAB_CONSTANTS.JOYROOM_20K_FAMILY_HOURS,
         voltageRangeSafe: LAB_CONSTANTS.NANO_30W_VOLTAGE_RANGE,
-        emergencyTipAr: regionData.tipAr,
+        emergencyTipAr: localizeArabicBrandNames(regionData.tipAr),
         emergencyTipEn: regionData.tipEn,
-        problemStatementAr: regionData.problemAr,
+        problemStatementAr: localizeArabicBrandNames(regionData.problemAr),
         problemStatementEn: regionData.problemEn,
-        recommendedProducts: regionData.products.map(key => PRODUCTS[key]),
-        voiceFaqsAr: generateVoiceFaqsAr(govNameAr, region, regionData, deliveryDays),
+        recommendedProducts: regionData.products.map((key) => {
+            const product = PRODUCTS[key];
+
+            return {
+                ...product,
+                nameAr: localizeArabicBrandNames(product.nameAr),
+                labHighlightAr: localizeArabicBrandNames(product.labHighlightAr),
+                badgeAr: localizeArabicBrandNames(product.badgeAr),
+            };
+        }),
+        voiceFaqsAr,
         voiceFaqsEn: generateVoiceFaqsEn(govNameEn, region, regionData, deliveryDays),
     };
 }

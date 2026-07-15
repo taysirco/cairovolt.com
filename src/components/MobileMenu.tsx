@@ -30,9 +30,9 @@ export default function MobileMenu({
     ];
 
     const soundcoreCategories = [
-        { href: '/soundcore', icon: 'headphones', label: { en: 'Soundcore Hub (All Audio)', ar: 'ساوند كور (كل المنتجات الصوتية)' }, primary: true },
-        { href: '/soundcore/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوند كور' } },
-        { href: '/soundcore/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوند كور' } },
+        { href: '/soundcore', icon: 'headphones', label: { en: 'Soundcore Hub (All Audio)', ar: 'ساوندكور (كل المنتجات الصوتية)' }, primary: true },
+        { href: '/soundcore/audio', icon: 'headphones', label: { en: 'Soundcore Earbuds & Headphones', ar: 'سماعات وايربودز ساوندكور' } },
+        { href: '/soundcore/speakers', icon: 'speaker', label: { en: 'Soundcore Bluetooth Speakers', ar: 'سبيكرات بلوتوث ساوندكور' } },
     ];
 
     const joyroomCategories = [
@@ -118,7 +118,7 @@ export default function MobileMenu({
                         <div>
                             <h3 className="flex items-center gap-2 text-sm font-bold text-orange-600 mb-3">
                                 <span className="w-2 h-2 rounded-full bg-orange-600"></span>
-                                🎧 {isRTL ? 'ساوند كور (Anker)' : 'Soundcore by Anker'}
+                                🎧 {isRTL ? 'ساوندكور من انكر' : 'Soundcore by Anker'}
                             </h3>
                             <div className="space-y-1">
                                 {soundcoreCategories.map((cat) => (

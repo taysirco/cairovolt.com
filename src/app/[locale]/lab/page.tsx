@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { labData } from '@/data/product-tests';
 import { staticProducts } from '@/lib/static-products';
+import { getBrandDisplayName, localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 export const revalidate = 86400;
 
@@ -75,11 +76,13 @@ export default async function LabPage({ params }: Props) {
             return {
                 slug,
                 url: `${prefix}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${slug}`,
-                name: (isArabic ? product.translations?.ar?.name : product.translations?.en?.name) || slug,
-                brand: product.brand,
+                name: isArabic
+                    ? localizeArabicBrandNames(product.translations?.ar?.name || slug)
+                    : product.translations?.en?.name || slug,
+                brand: getBrandDisplayName(product.brand, locale),
                 image: product.images?.[0]?.url || '',
-                scenario: test ? (isArabic ? test.scenario.ar : test.scenario.en) : '',
-                conditions: test ? (isArabic ? test.conditions.ar : test.conditions.en) : '',
+                scenario: test ? (isArabic ? localizeArabicBrandNames(test.scenario.ar) : test.scenario.en) : '',
+                conditions: test ? (isArabic ? localizeArabicBrandNames(test.conditions.ar) : test.conditions.en) : '',
                 chips: metricChips((lab.labMetrics || {}) as Record<string, number | undefined>, isArabic),
             };
         })
@@ -97,7 +100,7 @@ export default async function LabPage({ params }: Props) {
                     ? 'بيانات اختبارات مختبرات كايرو فولت — إكسسوارات الموبايل في الظروف المصرية'
                     : 'CairoVolt Labs Test Data — Mobile Accessories under Egyptian Conditions',
                 description: isArabic
-                    ? `قياسات اختبار فعلية لـ${testedCount}+ من إكسسوارات الموبايل (أنكر، جوي روم، ساوند كور) تحت ظروف الاستخدام المصرية: تذبذب شبكة الكهرباء 190–240V، حرارة الصيف، انقطاعات الكهرباء. تشمل: السعة الفعلية، زمن تشغيل الراوتر، أقصى حرارة، الكفاءة الحقيقية، دورات الثني، عمر البطارية.`
+                    ? `قياسات اختبار فعلية لـ${testedCount}+ من إكسسوارات الموبايل (انكر، جوي روم، ساوندكور) تحت ظروف الاستخدام المصرية: تذبذب شبكة الكهرباء 190–240V، حرارة الصيف، انقطاعات الكهرباء. تشمل: السعة الفعلية، زمن تشغيل الراوتر، أقصى حرارة، الكفاءة الحقيقية، دورات الثني، عمر البطارية.`
                     : `Actual test measurements for ${testedCount}+ mobile accessories (Anker, Joyroom, Soundcore) under Egyptian conditions: 190–240V grid fluctuation, summer heat, load-shedding. Covers: actual capacity, router runtime, max temperature, real efficiency, bend cycles, battery life.`,
                 url: `${BASE}${prefix}/lab`,
                 creator: { '@id': `${BASE}/#organization` },

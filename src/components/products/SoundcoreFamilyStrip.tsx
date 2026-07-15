@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { ProductImage } from '@/components/ui/ProductImage';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { staticProducts, StaticProduct } from '@/lib/static-products';
+import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
 interface SoundcoreFamilyStripProps {
     locale: string;
@@ -46,14 +47,16 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
         '@context': 'https://schema.org',
         '@type': 'ItemList',
         name: isRTL
-            ? 'أهم 7 منتجات ساوندكور — الصوتيات من عائلة أنكر'
+            ? localizeArabicBrandNames('أهم 7 منتجات Soundcore — الصوتيات من عائلة Anker')
             : 'Top 7 Soundcore Products — Audio from the Anker Family',
         numberOfItems: products.length,
         itemListOrder: 'https://schema.org/ItemListOrderDescending',
         itemListElement: products.map((p, idx) => ({
             '@type': 'ListItem',
             position: idx + 1,
-            name: p.translations[isRTL ? 'ar' : 'en'].name,
+            name: isRTL
+                ? localizeArabicBrandNames(p.translations.ar.name)
+                : p.translations.en.name,
             url: `${canonicalBase}/soundcore/${p.categorySlug}/${p.slug}`,
         })),
     };
@@ -70,14 +73,18 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                     <div>
                         <span className="inline-flex items-center gap-2 rounded-full border border-orange-400/25 bg-orange-400/10 px-3 py-1.5 md:px-4 md:py-2 text-[10px] md:text-xs font-bold uppercase tracking-[.14em] text-orange-300">
                             <SvgIcon name="headphones" className="h-4 w-4" />
-                            Soundcore by Anker
+                            {isRTL
+                                ? localizeArabicBrandNames('Soundcore من Anker')
+                                : 'Soundcore by Anker'}
                         </span>
                         <h2 id="soundcore-family-heading" className="mt-3 md:mt-4 text-xl font-black text-white md:text-4xl">
-                            {isRTL ? 'أهم 7 صوتيات من عائلة أنكر' : 'Top 7 Audio Picks from the Anker Family'}
+                            {isRTL
+                                ? localizeArabicBrandNames('أهم 7 صوتيات من عائلة Anker')
+                                : 'Top 7 Audio Picks from the Anker Family'}
                         </h2>
                         <p className="mt-1.5 md:mt-2 max-w-2xl text-xs text-gray-400 md:text-base">
                             {isRTL
-                                ? 'ساوندكور هي علامة الصوتيات من Anker — دي أكثر 7 منتجات طلبًا عند عملائنا، بنفس ضمان وأصالة أنكر.'
+                                ? localizeArabicBrandNames('Soundcore هي علامة الصوتيات من Anker — دي أكثر 7 منتجات طلبًا عند عملائنا، بنفس ضمان وأصالة Anker.')
                                 : 'Soundcore is Anker\'s audio brand — these are our 7 most-requested picks, with the same Anker warranty and authenticity.'}
                         </p>
                     </div>
@@ -94,6 +101,9 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                 <div className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 md:gap-4 lg:mx-0 lg:grid lg:grid-cols-7 lg:overflow-visible lg:px-0">
                     {products.map((product, idx) => {
                         const t = product.translations[isRTL ? 'ar' : 'en'];
+                        const productName = isRTL
+                            ? localizeArabicBrandNames(t.name)
+                            : t.name;
                         const href = getLocalizedHref(`/soundcore/${product.categorySlug}/${product.slug}`);
                         return (
                             <Link
@@ -109,7 +119,7 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                                     {product.images?.[0]?.url && (
                                         <ProductImage
                                             src={product.images[0].url}
-                                            alt={product.images[0].alt || t.name}
+                                            alt={isRTL ? productName : (product.images[0].alt || productName)}
                                             slug={product.slug}
                                             brand={product.brand}
                                             category={product.categorySlug}
@@ -123,8 +133,8 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                                     )}
                                 </div>
                                 <div className="p-3">
-                                    <h3 className="line-clamp-2 min-h-[2rem] text-[11px] font-bold leading-4 text-white md:text-xs" title={t.name}>
-                                        {t.name}
+                                    <h3 className="line-clamp-2 min-h-[2rem] text-[11px] font-bold leading-4 text-white md:text-xs" title={productName}>
+                                        {productName}
                                     </h3>
                                     <div className="mt-1.5 flex items-baseline gap-1">
                                         <span className="text-sm font-black text-orange-300 md:text-base">

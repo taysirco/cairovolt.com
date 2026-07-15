@@ -6,6 +6,7 @@
 
 import Link from 'next/link';
 import { contentGraph } from '@/data/content-graph';
+import { getBrandDisplayName } from '@/lib/arabic-brand-names';
 
 interface RelatedLinksProps {
     currentUrl: string; // e.g., '/anker/power-banks'
@@ -110,7 +111,7 @@ export default function RelatedLinks({
                         >
                             <span className={`text-sm font-medium ${link.brand === 'anker' ? 'text-blue-600' : 'text-red-600'
                                 }`}>
-                                {link.brand.charAt(0).toUpperCase() + link.brand.slice(1)}
+                                {getBrandDisplayName(link.brand, locale)}
                             </span>
                             <h3 className="font-bold mt-2 text-gray-900 dark:text-white group-hover:underline">
                                 {isArabic ? link.topicAr : link.topic}
