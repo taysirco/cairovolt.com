@@ -40,7 +40,9 @@ env:
     availability:
       - RUNTIME
 
-secrets:
+  # 🔐 الأسرار — يجب أن تكون داخل env: بمفتاح secret: (مواصفة App Hosting).
+  #    كانت في قسم secrets: مستقل يُتجاهَل بصمت → كل النسخ المنشورة كانت بلا أسرار
+  #    إطلاقاً (ويبهوك الـCRM بلا مصادقة → 401 دائم، الكوبونات على الـfallback، TikTok S2S معطل).
   - variable: FIREBASE_CLIENT_EMAIL
     secret: firebase_client_email
   - variable: FIREBASE_PRIVATE_KEY
@@ -58,4 +60,5 @@ secrets:
   - variable: TIKTOK_ACCESS_TOKEN
     secret: tiktok_access_token
   - variable: CRM_WEBHOOK_SECRET
-    secret: crm_webhook_secret  # Bearer لويبهوك الـCRM — نفس القيمة يجب ضبطها كـ WEBHOOK_SECRET في بيئة الـCRM لتفعيل التحقق
+    secret: crm_webhook_secret
+    # Bearer لويبهوك الـCRM — نفس القيمة يجب ضبطها كـ WEBHOOK_SECRET في بيئة الـCRM لتفعيل التحقق
