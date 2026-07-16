@@ -13,7 +13,7 @@
 
 interface TtqInstance {
   page: () => void;
-  track: (event: string, params?: Record<string, unknown>) => void;
+  track: (event: string, params?: Record<string, unknown>, options?: { event_id?: string }) => void;
   identify: (params: Record<string, unknown>) => void;
   load: (pixelId: string) => void;
 }
@@ -33,12 +33,14 @@ function getTtq(): TtqInstance | null {
  * Safely fires a TikTok Pixel event without blocking the main thread.
  * Uses requestIdleCallback where available, falls back to setTimeout.
  */
-function fireTtqEvent(eventName: string, params: Record<string, unknown> = {}): void {
+function fireTtqEvent(eventName: string, params: Record<string, unknown> = {}, eventId?: string): void {
   const fire = () => {
     try {
       const ttq = getTtq();
       if (!ttq) return;
-      ttq.track(eventName, params);
+      // event_id enables TikTok to deduplicate this browser event against the
+      // matching server-side Events API call (same event name + event_id).
+      ttq.track(eventName, params, eventId ? { event_id: eventId } : undefined);
     } catch {
       // Graceful degradation for privacy browsers / ad-blockers
     }
@@ -111,7 +113,7 @@ export function ttqPlaceAnOrder(params: {
   value: number;
   quantity?: number;
   currency?: string;
-}): void {
+}, eventId?: string): void {
   fireTtqEvent('PlaceAnOrder', {
     content_id: params.content_id,
     content_name: params.content_name,
@@ -119,7 +121,7 @@ export function ttqPlaceAnOrder(params: {
     value: params.value,
     quantity: params.quantity || 1,
     currency: params.currency || 'EGP',
-  });
+  }, eventId);
 }
 
 /** Fires the CompletePayment event (COD order confirmation). */
@@ -129,7 +131,7 @@ export function ttqCompletePayment(params: {
   value: number;
   quantity?: number;
   currency?: string;
-}): void {
+}, eventId?: string): void {
   fireTtqEvent('CompletePayment', {
     content_id: params.content_id,
     content_name: params.content_name,
@@ -137,5 +139,5 @@ export function ttqCompletePayment(params: {
     value: params.value,
     quantity: params.quantity || 1,
     currency: params.currency || 'EGP',
-  });
+  }, eventId);
 }

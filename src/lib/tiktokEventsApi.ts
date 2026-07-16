@@ -36,6 +36,7 @@ export async function sendTiktokServerEvent(
     properties: TtqEventProperties,
     userData: TtqUserData = {},
     pageUrl?: string,
+    eventId?: string,
 ): Promise<void> {
     const accessToken = process.env.TIKTOK_ACCESS_TOKEN;
     if (!accessToken) {
@@ -58,7 +59,9 @@ export async function sendTiktokServerEvent(
         const payload = {
             pixel_code: TIKTOK_PIXEL_ID,
             event: eventName,
-            event_id: `${eventName}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+            // Deterministic event_id (e.g. PlaceAnOrder_<orderId>) must MATCH the
+            // browser pixel's event_id so TikTok deduplicates S2S vs client events.
+            event_id: eventId || `${eventName}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
             timestamp: new Date().toISOString(),
             context: {
                 page: {
@@ -135,5 +138,6 @@ export function sendTtqOrderEvent(
         },
         { phone, ip, user_agent: userAgent },
         'https://cairovolt.com/confirm',
+        `PlaceAnOrder_${orderId}`,
     );
 }

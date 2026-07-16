@@ -127,18 +127,20 @@ function ConfirmContent() {
                     const contentIds = orderData.items.map(i => i.name).join(',');
                     const contentNames = orderData.items.map(i => i.name).join(', ');
                     const totalQty = orderData.items.reduce((s, i) => s + i.quantity, 0);
+                    // event_id must match the server-side Events API event
+                    // (PlaceAnOrder_<orderId> in /api/orders) for TikTok dedup
                     ttqPlaceAnOrder({
                         content_id: contentIds,
                         content_name: contentNames,
                         value: orderData.total,
                         quantity: totalQty,
-                    });
+                    }, `PlaceAnOrder_${orderData.orderId}`);
                     ttqCompletePayment({
                         content_id: contentIds,
                         content_name: contentNames,
                         value: orderData.total,
                         quantity: totalQty,
-                    });
+                    }, `CompletePayment_${orderData.orderId}`);
                 }
             } catch {
                 // sessionStorage may be unavailable in private browsing
