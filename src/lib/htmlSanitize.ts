@@ -74,7 +74,9 @@ export function sanitizeHtml(html: string): string {
  * after `en` is a path/query/fragment/quote boundary. Without that the
  * regex would happily double-prefix `/en` into `/en/en`.
  */
-import { getProductBySlug } from './static-products';
+// Slim client-safe catalog: htmlSanitize is imported by client components
+// (ProductPageClient), so it must never pull in the full static catalog.
+import { getProductBySlug } from './client-catalog';
 import { getIndexEntry } from '../data/blog-index';
 
 export function localizeInternalLinks(html: string, locale: string): string {

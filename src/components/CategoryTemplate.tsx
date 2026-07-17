@@ -2,7 +2,7 @@
 
 import { InstantLink as Link } from '@/components/ui/InstantLink';
 import { useLocale, useTranslations } from 'next-intl';
-import { useEffect, useMemo, useState, useTransition } from 'react';
+import { useMemo, useState, useTransition } from 'react';
 import { ProductImage } from '@/components/ui/ProductImage';
 import dynamic from 'next/dynamic';
 import { CategoryContent, BuyingGuideSection, SoundcoreData, PowerBankData } from '@/data/category-content';
@@ -29,6 +29,7 @@ interface Product {
     categorySlug: string;
     price: number;
     originalPrice?: number;
+    stock?: number;
     images?: Array<{ url: string; alt?: string; isPrimary?: boolean }>;
     translations?: {
         en?: { name?: string; description?: string; shortDescription?: string };
@@ -96,37 +97,9 @@ export default function CategoryTemplate({
         ? localizeArabicBrandNames(translatedBrandValue)
         : translatedBrandValue;
 
-    // Initialize with server-side products if available
-    const [dbProducts, setDbProducts] = useState<Product[]>(initialProducts);
-    const [loading, setLoading] = useState(initialProducts.length === 0);
-
     // Optimized sort: startTransition ensures sort never blocks the main thread
     const [sortBy, setSortBy] = useState<'default' | 'price-asc' | 'price-desc'>('default');
     const [isSorting, startSortTransition] = useTransition();
-
-    useEffect(() => {
-        // If we already have products from server, we can still fetch fresh data
-        // but we don't need to show loading state if we have initial data
-        fetch(`/api/products?brand=${brand}&category=${categorySlug}`)
-            .then(res => res.json())
-            .then(data => {
-                // Handle both old array format and new paginated format
-                if (data.items && Array.isArray(data.items)) {
-                    if (data.items.length > 0) {
-                        setDbProducts(data.items);
-                    }
-                } else if (Array.isArray(data)) {
-                    if (data.length > 0) {
-                        setDbProducts(data);
-                    }
-                }
-                setLoading(false);
-            })
-            .catch((err) => {
-                console.error('Failed to fetch products:', err);
-                setLoading(false);
-            });
-    }, [brand, categorySlug]);
 
     const brandColorClass =
         brandColor === 'blue' ? 'from-blue-600 to-blue-400' :
@@ -148,21 +121,16 @@ export default function CategoryTemplate({
         brandColor === 'orange' ? 'bg-orange-600 hover:bg-orange-700' :
         'bg-red-600 hover:bg-red-700';
 
-    // Use database products if available, otherwise use initialProducts.
-    // We avoid falling back to 'content.products' which creates empty slugs.
-    const productsToShow = dbProducts.length > 0 ? dbProducts : initialProducts;
-
-    const displayProducts = productsToShow.map(p => {
-        // Fallback logic for images: PRIORITIZE static images if available
-        // This overrides potentially broken URLs from database with known-good static paths
-        let imageUrl = p.images?.[0]?.url;
-
-        if (initialProducts.length > 0) {
-            const staticProduct = initialProducts.find(sp => sp.slug === p.slug);
-            if (staticProduct?.images?.[0]?.url) {
-                imageUrl = staticProduct.images[0].url;
-            }
-        }
+    // Render straight from the server-provided catalogue slice: the server page
+    // already filters to active products and applies the curated default order
+    // (which also drives the ItemList schema positions). A client refetch of
+    // /api/products would only re-read the same static catalogue — while
+    // resurrecting retired products and discarding the curated order — so we
+    // deliberately do not refetch.
+    const displayProducts = useMemo(() => initialProducts.map(p => {
+        const rawShortDescription = isRTL
+            ? (p.translations?.ar?.shortDescription || '')
+            : (p.translations?.en?.shortDescription || '');
 
         return {
             id: p.id,
@@ -170,12 +138,16 @@ export default function CategoryTemplate({
             name: isRTL
                 ? localizeArabicBrandNames(p.translations?.ar?.name || p.translations?.en?.name || 'Product')
                 : (p.translations?.en?.name || 'Product'),
+            shortDescription: isRTL && rawShortDescription
+                ? localizeArabicBrandNames(rawShortDescription)
+                : rawShortDescription,
             price: p.price,
-            image: imageUrl,
+            image: p.images?.[0]?.url,
             categorySlug: p.categorySlug,
+            inStock: (p.stock ?? 0) > 0,
             badge: undefined as string | undefined
         };
-    });
+    }), [initialProducts, isRTL]);
 
     // Memoized sorted products — re-computes only when sortBy or displayProducts change
     const sortedProducts = useMemo(() => {
@@ -225,9 +197,10 @@ export default function CategoryTemplate({
                         url: p.slug
                             ? `https://cairovolt.com${localePrefix}/${brandSlug}/${p.categorySlug || categorySlug}/${p.slug}`
                             : `https://cairovolt.com${localePrefix}/${brandSlug}/${categorySlug}`,
-                        image: p.image || '/placeholder.png',
+                        image: p.image,
                         price: p.price,
                         position: idx + 1,
+                        inStock: p.inStock,
                     }))}
                     locale={locale}
                 />
@@ -317,7 +290,6 @@ export default function CategoryTemplate({
                 <div className="flex items-center justify-between mb-6 flex-wrap gap-3" data-testid="sort-bar-container">
                     <h2 className="text-xl font-bold">
                         {locale === 'ar' ? 'المنتجات' : 'Products'}
-                        {loading && <span className="text-sm font-normal text-gray-500 ml-2">...</span>}
                     </h2>
 
                     {/* Sort Bar — Performance optimized with startTransition */}
@@ -386,19 +358,42 @@ export default function CategoryTemplate({
                                         {product.badge}
                                     </span>
                                 )}
-                                <h3 className="text-sm font-bold text-gray-900 line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-2">
+                                <h3 className="text-sm font-bold text-gray-900 line-clamp-2 leading-tight group-hover:text-blue-600 transition-colors mb-1">
                                     {product.name}
                                 </h3>
+                                {product.shortDescription && (
+                                    <p className="text-xs text-gray-500 line-clamp-1 mb-2">
+                                        {product.shortDescription}
+                                    </p>
+                                )}
                                 <div className="flex items-center justify-between">
                                     <div>
                                         <span className="text-base font-bold text-gray-900">
-                                            {product.price}
+                                            {product.price.toLocaleString()}
                                         </span>
                                         <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
                                     </div>
                                     <span className={`w-6 h-6 rounded-full flex items-center justify-center ${brandColorClass} text-white shadow-sm text-xs`}>
                                         →
                                     </span>
+                                </div>
+                                <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[10px]">
+                                    {product.inStock ? (
+                                        <>
+                                            <span className="inline-flex items-center gap-1 font-medium text-green-700">
+                                                <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                                                {locale === 'ar' ? 'متوفر' : 'In stock'}
+                                            </span>
+                                            <span className="text-gray-400">·</span>
+                                            <span className="text-gray-500">
+                                                {locale === 'ar' ? 'الدفع عند الاستلام' : 'Cash on delivery'}
+                                            </span>
+                                        </>
+                                    ) : (
+                                        <span className="font-medium text-gray-400">
+                                            {locale === 'ar' ? 'غير متوفر حالياً' : 'Out of stock'}
+                                        </span>
+                                    )}
                                 </div>
                             </div>
                         </Link>

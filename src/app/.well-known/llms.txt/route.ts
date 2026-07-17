@@ -1,16 +1,26 @@
 import { NextResponse } from 'next/server';
 import { staticProducts } from '@/lib/static-products';
+import { MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS } from '@/lib/merchant-product-data';
 
 /**
  * Concise machine-readable overview for assistants and search systems.
  * Product pages and the catalog API remain the source of truth.
+ *
+ * Served at BOTH /.well-known/llms.txt and the llmstxt.org root location
+ * /llms.txt (see src/app/llms.txt/route.ts, which re-exports this GET).
  */
 export const revalidate = 3600;
 
 export function GET() {
     const baseUrl = 'https://cairovolt.com';
-    const totalProducts = staticProducts.length;
-    const availableProducts = staticProducts.filter(product => product.stock > 0).length;
+    // Same active-catalog filter as llms-full.txt, /api/llms/catalog, feed.xml,
+    // and /api/knowledge-graph — all machine surfaces must report one count.
+    const publishedProducts = staticProducts.filter(product =>
+        product.status === 'active'
+        && !MACHINE_CATALOG_EXCLUDED_PRODUCT_SLUGS.has(product.slug)
+    );
+    const totalProducts = publishedProducts.length;
+    const availableProducts = publishedProducts.filter(product => product.stock > 0).length;
 
     const content = `# CairoVolt — كايرو فولت
 
@@ -25,8 +35,9 @@ export function GET() {
 | Languages | Arabic, English |
 | Currency | EGP |
 | Brands in catalog | Anker, Joyroom, Soundcore |
-| Catalog items | ${totalProducts} |
+| Active catalog items | ${totalProducts} |
 | Currently listed as available | ${availableProducts} |
+| Legal entity | شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — Taysir Smart Investment LLC, Commercial Register (Egypt) 8446, Tax Registration 777471566 |
 | Customer support | support@cairovolt.com · WhatsApp +201558245974 |
 
 Current price, availability, warranty, delivery, and return terms are shown on the relevant product page and during checkout.
@@ -41,11 +52,15 @@ Soundcore is Anker's audio brand. Arabic pages use the Arabic brand spellings ا
 
 ## Public Resources
 
-- Product catalog: ${baseUrl}/api/llms/catalog
-- Detailed catalog reference: ${baseUrl}/.well-known/llms-full.txt
+- This file: ${baseUrl}/llms.txt (also served at ${baseUrl}/.well-known/llms.txt)
+- Detailed catalog reference: ${baseUrl}/llms-full.txt (also at ${baseUrl}/.well-known/llms-full.txt)
+- Product catalog (markdown): ${baseUrl}/api/llms/catalog
 - Commerce API description: ${baseUrl}/api/openapi.json
-- Product feed: ${baseUrl}/api/feed
+- Product feed (RSS): ${baseUrl}/feed.xml
+- Sitemap: ${baseUrl}/sitemap.xml
 - Entity graph: ${baseUrl}/api/knowledge-graph
+
+Any page URL on this site also returns a markdown representation when requested with the header \`Accept: text/markdown\` (content negotiation for agents); product, blog, and policy pages return their real content.
 
 ## CairoVolt Warranty Serial Check
 

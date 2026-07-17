@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getLiveIndexSlugs, isIndexEntryLive, getIndexEntry, getLiveIndex, getBlogArticleBySlug } from '@/data/blog-index';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
-import { ArticleSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
+import { ArticleSchema, FAQPageSchema, HowToSchema } from '@/components/schemas/StructuredDataSchemas';
 import { getProductBySlug } from '@/lib/static-products';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { QuickAnswerBox } from '@/components/ui/QuickAnswerBox';
@@ -182,7 +182,18 @@ export default async function BlogArticlePage({ params }: Props) {
                 image={article.coverImage ? `https://cairovolt.com${article.coverImage}` : undefined}
                 datePublished={article.publishDate}
                 dateModified={article.modifiedDate}
+                // Visible quick-answer summary (QuickAnswerBox below) as schema.org abstract.
+                abstract={trans.quickAnswer}
             />
+            {/* FAQPage markup mirrors the visible FAQ accordion at the end of the article —
+                same trans.faq array, so the markup can never diverge from on-page content. */}
+            {trans.faq && trans.faq.length > 0 && (
+                <FAQPageSchema
+                    items={trans.faq}
+                    locale={locale}
+                    url={`https://cairovolt.com${isArabic ? '' : '/en'}/blog/${slug}`}
+                />
+            )}
             {/* HowTo Schema for the charger identification guide */}
             {slug === 'original-vs-fake-apple-charger-egypt' && (
                 <HowToSchema

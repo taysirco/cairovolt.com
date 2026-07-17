@@ -11,9 +11,9 @@ import { ImageObjectSchema } from '@/components/schemas/ImageObjectSchema';
 import { DeliveryStatus, LivePulseSkeleton } from '@/components/products/DeliveryStatus';
 import { logger } from '@/lib/logger';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
-import BrandVerification from '@/components/UX/BrandVerification';
 import { BostaTracker } from '@/lib/bosta';
 import { getMerchantProductBrandSlug } from '@/lib/merchant-product-data';
+import { categoryContent } from '@/data/category-content';
 import { unstable_cache } from 'next/cache';
 import {
     getBrandDisplayName,
@@ -402,6 +402,14 @@ export default async function ProductPage({ params }: Props) {
     const productName = displayTranslation.name || '';
     const productDescription = displayTranslation.description || '';
 
+    // The category route only exists for categoryContent entries (the route has
+    // dynamicParams=false). Products in an unrouted category (e.g. anker/accessories)
+    // must not emit breadcrumb links — visible or in schema — to a URL that 404s;
+    // their breadcrumb falls back to the brand hub instead.
+    const categoryRouteExists = Boolean(
+        categoryContent[product.brand.toLowerCase()]?.[product.categorySlug.toLowerCase()]
+    );
+
     // Fetch verified aggregate rating for Structured Data (Cached)
     const verifiedAggregateRating = await getCachedAggregateRating(slug);
 
@@ -501,15 +509,17 @@ export default async function ProductPage({ params }: Props) {
                 />
             )}
 
-            {/* BreadcrumbSchema for navigation - STRICTLY using Product Data, not URL Params */}
+            {/* BreadcrumbSchema for navigation - STRICTLY using Product Data, not URL Params.
+                The category level is only asserted when its route actually exists —
+                schema must never declare navigation to a 404. */}
             <BreadcrumbSchema
                 items={[
                     { name: isArabic ? 'الرئيسية' : 'Home', url: `https://cairovolt.com${isArabic ? '' : '/en'}` },
                     { name: getBrandDisplayName(product.brand, locale), url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}` },
-                    {
+                    ...(categoryRouteExists ? [{
                         name: product.categorySlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
                         url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}`
-                    },
+                    }] : []),
                     { name: productName, url: `https://cairovolt.com${isArabic ? '' : '/en'}/${product.brand.toLowerCase()}/${product.categorySlug.toLowerCase()}/${product.slug}` },
                 ]}
                 locale={locale}
@@ -522,7 +532,6 @@ export default async function ProductPage({ params }: Props) {
 
             {/* Client-side UX components */}
             <ShareAnalytics />
-            <BrandVerification brand={brand} locale={locale} />
 
             <ProductPageClient
                 product={{
@@ -552,6 +561,7 @@ export default async function ProductPage({ params }: Props) {
                 locale={locale}
                 brand={brand}
                 category={category}
+                categoryRouteExists={categoryRouteExists}
                 deliveryIntelligence={deliveryStats}
                 userGovernorate={DEFAULT_GOV.display}
                 initialReviews={verifiedReviews}

@@ -108,10 +108,11 @@ export function GenericCategoryContent({
         return locale === 'ar' ? cleanPath : `/${locale}${cleanPath}`;
     };
 
-    // Gather products from all brand categories
+    // Gather products from all brand categories (active only — retired slugs
+    // 301-redirect and must never resurface on listings)
     const allProducts = data.brandCategories.flatMap(bc => {
         return staticProducts
-            .filter(p => p.brand.toLowerCase() === bc.brand.toLowerCase() && p.categorySlug === bc.categorySlug)
+            .filter(p => p.status === 'active' && p.brand.toLowerCase() === bc.brand.toLowerCase() && p.categorySlug === bc.categorySlug)
             .map(p => ({
                 ...p,
                 brandDisplay: bc.brand,
@@ -237,9 +238,14 @@ export function GenericCategoryContent({
 
                                         {/* Info */}
                                         <div className="p-3 md:p-4">
-                                            <h3 className="font-medium text-sm text-gray-900 line-clamp-2 mb-2 group-hover:text-blue-600 transition-colors" itemProp="name">
+                                            <h3 className="font-medium text-sm text-gray-900 line-clamp-2 mb-1 group-hover:text-blue-600 transition-colors" itemProp="name">
                                                 {t?.name || product.slug}
                                             </h3>
+                                            {t?.shortDescription && (
+                                                <p className="text-xs text-gray-500 line-clamp-1 mb-2">
+                                                    {t.shortDescription}
+                                                </p>
+                                            )}
                                             <div className="flex items-end gap-2" itemProp="offers" itemScope itemType="https://schema.org/Offer">
                                                 <meta itemProp="priceCurrency" content="EGP" />
                                                 <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'} />
@@ -247,6 +253,24 @@ export function GenericCategoryContent({
                                                     {product.price.toLocaleString()}
                                                 </span>
                                                 <span className="text-xs text-gray-500">{isArabic ? 'ج.م' : 'EGP'}</span>
+                                            </div>
+                                            <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[10px]">
+                                                {product.stock > 0 ? (
+                                                    <>
+                                                        <span className="inline-flex items-center gap-1 font-medium text-green-700">
+                                                            <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+                                                            {isArabic ? 'متوفر' : 'In stock'}
+                                                        </span>
+                                                        <span className="text-gray-400">·</span>
+                                                        <span className="text-gray-500">
+                                                            {isArabic ? 'الدفع عند الاستلام' : 'Cash on delivery'}
+                                                        </span>
+                                                    </>
+                                                ) : (
+                                                    <span className="font-medium text-gray-400">
+                                                        {isArabic ? 'غير متوفر حالياً' : 'Out of stock'}
+                                                    </span>
+                                                )}
                                             </div>
                                         </div>
                                     </Link>

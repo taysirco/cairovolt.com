@@ -38,7 +38,8 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 '@type': 'OnlineStore',
                 '@id': 'https://cairovolt.com/#organization',
                 name: 'CairoVolt',
-                alternateName: 'كايرو فولت',
+                // Keep in sync with /api/knowledge-graph, which mirrors this node.
+                alternateName: ['كايرو فولت', 'Cairo Volt'],
                 legalName: 'شركة تيسير للاستثمار الذكي (ش.ذ.م.م)',
                 taxID: '777471566',
                 identifier: {
@@ -57,7 +58,22 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                     height: 1024,
                     caption: 'CairoVolt',
                 },
-                email: 'support@cairovolt.com',
+                email: 'info@cairovolt.com',
+                // Locality-level HQ address — matches the published legal identity
+                // on /contact ('based in New Damietta') and the Merchant Center
+                // business-info address. No street-level detail is published.
+                address: {
+                    '@type': 'PostalAddress',
+                    addressLocality: isArabic ? 'دمياط الجديدة' : 'New Damietta',
+                    addressRegion: isArabic ? 'دمياط' : 'Damietta',
+                    addressCountry: 'EG',
+                },
+                // Org-level service area (the ContactPoint areaServed below only
+                // scopes the phone line). Matches Offer.eligibleRegion on PDPs.
+                areaServed: {
+                    '@type': 'Country',
+                    name: 'Egypt',
+                },
                 sameAs: [
                     'https://www.facebook.com/cairovolt',
                     'https://www.instagram.com/cairovolt',

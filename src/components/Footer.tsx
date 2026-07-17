@@ -3,6 +3,7 @@
 import { InstantLink as Link } from '@/components/ui/InstantLink';
 import Image from 'next/image';
 import { useLocale, useTranslations } from 'next-intl';
+import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackWhatsappClick } from '@/lib/analytics';
 
 export default function Footer() {
@@ -53,20 +54,20 @@ export default function Footer() {
                             </a>
                         </div>
                         <a
-                            href="mailto:support@cairovolt.com"
+                            href="mailto:info@cairovolt.com"
                             className="mt-2 block text-xs text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
                         >
-                            support@cairovolt.com
+                            info@cairovolt.com
                         </a>
                         <p className="mt-2 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
                             {isRTL
-                                ? 'متجر إلكتروني مصري مستقل يعمل أونلاين بالكامل — بلا فروع، لنقدّم سعرًا أفضل وتوصيلًا لكل المحافظات. نبيع منتجات أصلية من علامات عالمية بصفتنا بائع تجزئة مستقلًا عن الشركات المصنّعة (لسنا وكيلها الرسمي)، وكل طلب بفاتورة وضمان متجر مكتوب.'
-                                : 'An independent Egyptian online store, fully online with nationwide delivery and no branch overhead — so prices stay sharp. We retail genuine products from global brands as a retailer independent of the manufacturers (not their official agent), and every order ships with an invoice and a written store warranty.'}
+                                ? 'متجر إلكتروني مصري مستقل بتوصيل سريع لكل المحافظات. نبيع منتجات أصلية من علامات عالمية بصفتنا بائع تجزئة مستقلًا عن الشركات المصنّعة، وكل طلب بفاتورة وضمان متجر مكتوب.'
+                                : 'An independent Egyptian online store with fast nationwide delivery. We retail genuine products from global brands as a retailer independent of the manufacturers, and every order ships with an invoice and a written store warranty.'}
                         </p>
                         <p className="mt-1 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
                             {isRTL
-                                ? 'كايرو فولت علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — سجل تجاري رقم 8446 (استثمار جمصة)، رقم التسجيل الضريبي 777471566، دمياط الجديدة، مصر.'
-                                : 'CairoVolt is a brand of Taysir Smart Investment LLC — Commercial Register No. 8446 (GAFI, Gamasa Investment Office), Tax Registration No. 777471566, New Damietta, Egypt.'}
+                                ? 'كايرو فولت علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — سجل تجاري رقم 8446، رقم التسجيل الضريبي 777471566.'
+                                : 'CairoVolt is a brand of Taysir Smart Investment LLC — Commercial Register No. 8446, Tax Registration No. 777471566.'}
                         </p>
 
                         {/* Social Media Icons */}
@@ -315,6 +316,18 @@ export default function Footer() {
                             {isRTL
                                 ? 'كايرو فولت (CairoVolt) متجر إلكتروني متخصص في منتجات انكر وجوي روم وإكسسوارات الموبايل والشحن، مع توصيل داخل مصر وشروط ضمان مكتوبة.'
                                 : 'CairoVolt is an online retailer specializing in Anker and Joyroom products, mobile accessories, and charging, with delivery in Egypt and written warranty terms.'}
+                        </span>
+                    </p>
+                </div>
+
+                {/* Payment Method — COD statement (wording mirrors the Terms & TrustRibbon copy) */}
+                <div className="border-t border-gray-200 dark:border-gray-800 pt-4 pb-4">
+                    <p className="flex items-center justify-center gap-2 text-xs text-gray-600 dark:text-gray-400 text-center">
+                        <SvgIcon name="money" className="w-4 h-4 shrink-0 text-green-700 dark:text-green-400" />
+                        <span>
+                            {isRTL
+                                ? 'الدفع عند الاستلام (كاش) متاح للطلبات والعناوين المؤهلة — وكل طلب بفاتورة.'
+                                : 'Cash on Delivery (COD) is available for eligible orders and addresses — every order ships with an invoice.'}
                         </span>
                     </p>
                 </div>

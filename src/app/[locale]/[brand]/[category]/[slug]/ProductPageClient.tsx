@@ -10,6 +10,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { useCart } from '@/context/CartContext';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
+import BrandVerification from '@/components/UX/BrandVerification';
 import type { AggregateRating, Review } from '@/components/reviews/VerifiedReviews';
 import type { RegionalStats } from '@/lib/bosta';
 import type { ProductVariant } from '@/lib/static-products';
@@ -26,26 +27,31 @@ const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedRevie
     loading: () => <div className="h-96 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
 });
 
-const RelatedProducts = dynamic(() => import('@/components/products/RelatedProducts'), {
-    ssr: false
-});
+// Content-bearing sections stay dynamic() for code-splitting but WITHOUT
+// ssr:false — their HTML (variant picker, cross-sell links, comparison table,
+// expert opinion) now arrives server-rendered, so crawlers see the content and
+// slow connections get no pop-in. All of them render purely from props/context
+// with zero window/document access at render time.
+const RelatedProducts = dynamic(() => import('@/components/products/RelatedProducts'));
 
 const BundleSelector = dynamic(() => import('@/components/products/BundleSelector'), {
     loading: () => <div className="h-64 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
-    ssr: false
 });
 
-const ProductComparisonTable = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductComparisonTable), { ssr: false });
-const ExpertOpinion = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ExpertOpinion), { ssr: false });
+const ProductComparisonTable = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductComparisonTable));
+const ExpertOpinion = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ExpertOpinion));
 const ProductFAQ = dynamic(() => import('@/components/content/ProductGuides').then(mod => mod.ProductFAQ));
 
+// Genuinely browser-only widgets keep ssr:false:
+// - BackupTimeCalculator: interactive-only calculator, no content/SEO value in
+//   its initial HTML — deferring it entirely is intentional perf.
+// - ShareButtons: renders navigator.share-dependent UI (supportsNativeShare),
+//   so server HTML could mismatch the client and cause hydration errors.
 const BackupTimeCalculator = dynamic(() => import('@/components/UX/BackupTimeCalculator'), {
     ssr: false
 });
-const VariantSelector = dynamic(() => import('@/components/products/VariantSelector'), {
-    ssr: false
-});
-const RelatedLinks = dynamic(() => import('@/components/content/RelatedLinks'), { ssr: false });
+const VariantSelector = dynamic(() => import('@/components/products/VariantSelector'));
+const RelatedLinks = dynamic(() => import('@/components/content/RelatedLinks'));
 const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'), { ssr: false });
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
@@ -96,6 +102,9 @@ interface ProductPageClientProps {
     locale: string;
     brand: string;
     category: string;
+    /** Whether /{brand}/{categorySlug} is a real routed page — when false the
+     *  breadcrumb stops at the brand hub instead of linking a 404. */
+    categoryRouteExists?: boolean;
     deliveryIntelligence: RegionalStats;
     userGovernorate: string;
     initialReviews: Review[];
@@ -117,7 +126,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, categoryRouteExists = true, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
@@ -377,10 +386,16 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <Link href={getLocalizedHref(`/${brandLower}`)} className="hover:text-blue-600 transition-colors flex-shrink-0">
                                 {brandDisplay}
                             </Link>
-                            <span className="mx-2 text-gray-300 dark:text-gray-600 flex-shrink-0">/</span>
-                            <Link href={getLocalizedHref(`/${brandLower}/${categoryLower}`)} className="hover:text-blue-600 transition-colors flex-shrink-0">
-                                {translatedCategory}
-                            </Link>
+                            {/* Only link the category level when its route exists —
+                                unrouted categories (e.g. anker/accessories) would 404. */}
+                            {categoryRouteExists && (
+                                <>
+                                    <span className="mx-2 text-gray-300 dark:text-gray-600 flex-shrink-0">/</span>
+                                    <Link href={getLocalizedHref(`/${brandLower}/${categoryLower}`)} className="hover:text-blue-600 transition-colors flex-shrink-0">
+                                        {translatedCategory}
+                                    </Link>
+                                </>
+                            )}
                         </div>
                         <p className="text-gray-900 dark:text-white font-medium mt-1 leading-snug" style={{ overflowWrap: 'anywhere', wordBreak: 'break-word' }}>
                             {productName}
@@ -530,8 +545,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             <span className={`px-4 py-1.5 text-sm font-bold rounded-full ${brandBadgeClass}`}>
                                 {translatedBrand}
                             </span>
-                            {/* Availability Badge - Dynamic Brand */}
-                            {(product.stock || 0) > 0 ? (
+                            {/* Availability Badge - Dynamic Brand (variant-aware: follows the selected variant's stock) */}
+                            {!isOutOfStock ? (
                                 <span className={`px-4 py-1.5 text-sm font-medium rounded-full flex items-center gap-2 ${brandBadgeClass}`}>
                                     <span className="w-2 h-2 rounded-full bg-current animate-pulse" />
                                     {brandDisplay} — {tProduct('inStock')}
@@ -547,6 +562,36 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
                             {productName}
                         </h1>
+
+                        {/* Verified rating summary — same purchase-verified data as the reviews section; hidden when there are no reviews */}
+                        {initialAggregateRating && initialAggregateRating.reviewCount > 0 && (
+                            <a
+                                href="#reviews"
+                                className="inline-flex items-center gap-2 w-fit text-sm text-gray-700 dark:text-gray-300 hover:underline"
+                                aria-label={isRTL
+                                    ? `التقييم ${initialAggregateRating.ratingValue} من 5 — ${initialAggregateRating.reviewCount} تقييم من عملاء موثقين، انتقل إلى قسم التقييمات`
+                                    : `Rated ${initialAggregateRating.ratingValue} out of 5 from ${initialAggregateRating.reviewCount} verified customer ${initialAggregateRating.reviewCount === 1 ? 'review' : 'reviews'}, jump to the reviews section`}
+                            >
+                                <span className="flex gap-0.5" aria-hidden="true">
+                                    {[1, 2, 3, 4, 5].map(star => (
+                                        <span
+                                            key={star}
+                                            className={`text-base leading-none ${star <= parseFloat(initialAggregateRating.ratingValue) ? 'text-amber-400' : 'text-gray-300 dark:text-gray-600'}`}
+                                        >
+                                            ★
+                                        </span>
+                                    ))}
+                                </span>
+                                <span className="font-bold text-gray-900 dark:text-white" aria-hidden="true">
+                                    {initialAggregateRating.ratingValue}
+                                </span>
+                                <span className="text-gray-500 dark:text-gray-400" aria-hidden="true">
+                                    {isRTL
+                                        ? `(${initialAggregateRating.reviewCount} تقييم)`
+                                        : `(${initialAggregateRating.reviewCount} ${initialAggregateRating.reviewCount === 1 ? 'review' : 'reviews'})`}
+                                </span>
+                            </a>
+                        )}
 
                         {/* Short Description removed — already displayed inside QuickSummary above */}
 
@@ -619,8 +664,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <span aria-hidden="true">🚚</span>
                                 <a href="#shipping-information" className="hover:underline">
                                     {isRTL
-                                        ? `الشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر وفق سياسة الشحن`
-                                        : `Shipping is free for orders of ${freeShippingFrom} EGP or more under the shipping policy`}
+                                        ? `الشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر — رسوم الشحن تبدأ من 70 جنيهاً وفق سياسة الشحن`
+                                        : `Free shipping on orders of ${freeShippingFrom} EGP or more — shipping fees start from 70 EGP under the shipping policy`}
                                 </a>
                             </p>
                         </div>
@@ -734,6 +779,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             <div className="container mx-auto px-3 sm:px-4 py-8 md:py-12">
                 <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 shadow-lg max-w-full">
                     {/* Features section removed — same data already in Description (narrative) + Specifications (table) */}
+
+                    {/* Warranty-record lookup — placed right before shipping & payment info */}
+                    <div className="px-2 pt-6 md:px-4 md:pt-8">
+                        <BrandVerification brand={product.brand} locale={locale} />
+                    </div>
 
                     {/* Delivery, warranty and returns */}
                     <section className="p-6 md:p-8 border-b border-gray-100 dark:border-gray-800">
@@ -910,8 +960,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 </tr>
                                 <tr>
                                     <td className="py-4 text-gray-600 dark:text-gray-400">{isRTL ? 'المخزون' : 'Stock'}</td>
-                                    <td className={`py-4 font-bold text-end ${(product.stock || 0) > 0 ? 'text-green-600' : 'text-red-600'}`}>
-                                        {(product.stock || 0) > 0 ? (isRTL ? 'متوفر' : 'Available') : (isRTL ? 'غير متوفر' : 'Out of Stock')}
+                                    <td className={`py-4 font-bold text-end ${!isOutOfStock ? 'text-green-600' : 'text-red-600'}`}>
+                                        {!isOutOfStock ? (isRTL ? 'متوفر' : 'Available') : (isRTL ? 'غير متوفر' : 'Out of Stock')}
                                     </td>
                                 </tr>
                                 {/* Product-specific specifications */}
@@ -932,7 +982,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
             {/* "Why Choose" section removed — shortDescription already shown above + keyword pills = potential stuffing */}
 
             {/* Verified Customer Reviews Section */}
-            <div className="container mx-auto px-4 py-8 cv-auto">
+            <div id="reviews" className="container mx-auto px-4 py-8 cv-auto scroll-mt-24">
                 <VerifiedReviews
                     locale={locale}
                     initialReviews={initialReviews}
