@@ -12,7 +12,6 @@ import { validateCoupon, computeDiscount } from '@/lib/coupons';
 import {
     staticProducts,
     getProductBySlug,
-    getSmartBundleProducts,
     resolveCatalogPricing,
 } from '@/lib/static-products';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
@@ -324,17 +323,20 @@ export async function POST(req: NextRequest) {
             }
 
             for (const [bundleId, items] of groups) {
-                const bundleMatch = bundleId.match(/^combo-static_([a-z0-9-]+)$/);
-                const mainProduct = bundleMatch ? getProductBySlug(bundleMatch[1]) : undefined;
-                const expectedProducts = mainProduct
-                    ? [mainProduct, ...getSmartBundleProducts(mainProduct).bundleProducts.map(entry => entry.product)]
-                    : [];
-                const expectedSlugs = new Set(expectedProducts.map(product => product.slug));
-                const actualSlugs = new Set(items.map(item => item.slug).filter(Boolean));
-                const validBundle = expectedSlugs.size >= 2
-                    && items.length === expectedSlugs.size
-                    && items.every(item => item.quantity >= 1 && !!item.slug && expectedSlugs.has(item.slug))
-                    && actualSlugs.size === expectedSlugs.size;
+                // The Golden Combo is "5% off when you take 2+ complementary
+                // items together". Honor it whenever the submitted group is
+                // internally a real combo — a valid combo id and 2+ DISTINCT
+                // in-cart products (all already re-priced from the server
+                // catalog above) — rather than demanding an exact re-match to a
+                // freshly recomputed recommendation. Recommendations drift with
+                // catalog edits and the customer may tweak the cart, and dropping
+                // the discount the checkout page already showed while charging the
+                // higher total is a worse outcome than honoring a genuine combo.
+                const isComboId = /^combo-static_[a-z0-9-]+$/.test(bundleId);
+                const distinctSlugs = new Set(items.map(item => item.slug).filter(Boolean));
+                const validBundle = isComboId
+                    && distinctSlugs.size >= 2
+                    && items.every(item => item.quantity >= 1 && !!item.slug);
 
                 if (!validBundle) {
                     items.forEach(item => { delete item.bundleId; });

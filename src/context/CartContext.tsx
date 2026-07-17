@@ -8,6 +8,9 @@ import {
     resolveCatalogPricing,
 } from '@/lib/client-catalog';
 
+// Mirrors the per-line cap enforced by /api/orders (quantity > 10 → 400).
+const MAX_QUANTITY_PER_ITEM = 10;
+
 export interface CartItem {
     productId: string;
     // Optional for carts saved before SKU persistence was introduced.
@@ -220,11 +223,14 @@ export function CartProvider({ children }: { children: ReactNode }) {
             removeFromCart(productId);
             return;
         }
+        // The order API rejects any line with quantity > 10. Cap here so the
+        // stepper can never build a cart that 400s at checkout.
+        const capped = Math.min(quantity, MAX_QUANTITY_PER_ITEM);
         startCartTransition(() => {
             setItems(currentItems =>
                 currentItems.map(item =>
                     item.productId === productId
-                        ? { ...item, quantity }
+                        ? { ...item, quantity: capped }
                         : item
                 )
             );
