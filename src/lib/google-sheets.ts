@@ -221,35 +221,33 @@ export async function appendOrderToSheet(orderData: SheetOrderData) {
 }
 
 /**
- * Safe wrapper around appendOrderToSheet with:
- *  - 5-second timeout to avoid blocking the response indefinitely
- *  - 1 automatic retry on failure
- *  - Never throws — always resolves (errors are logged)
- * 
- * This replaces the unreliable after() pattern on Firebase App Hosting (Cloud Run),
- * where the container may terminate before deferred callbacks complete.
+ * Safe wrapper around appendOrderToSheet:
+ *  - SINGLE attempt with a 3s timeout — this runs in the customer's critical
+ *    path (awaited before the order response), so it must not stack retries: a
+ *    Sheets degradation would otherwise block the spinner for 10s+ and make the
+ *    customer abandon or double-tap. One tight attempt caps the tail at ~3s.
+ *  - Never throws — always resolves (errors are logged).
+ *
+ * Losing this single attempt is fully recoverable: the order is already
+ * authoritative in Firestore (written before this call) and the out-of-band
+ * reconciliation job (scripts/sync-missing-orders.js) backfills any missed row.
+ * Retries belong there, NOT on the response path. This replaces the unreliable
+ * after() pattern on Firebase App Hosting (Cloud Run), where the container may
+ * terminate before deferred callbacks complete.
  */
 export async function safeAppendOrderToSheet(orderData: SheetOrderData): Promise<boolean> {
-    const TIMEOUT_MS = 5000;
+    const TIMEOUT_MS = 3000;
 
-    for (let attempt = 1; attempt <= 2; attempt++) {
-        try {
-            await Promise.race([
-                appendOrderToSheet(orderData),
-                new Promise((_, reject) =>
-                    setTimeout(() => reject(new Error(`Sheet sync timeout after ${TIMEOUT_MS}ms`)), TIMEOUT_MS)
-                ),
-            ]);
-            return true; // Success
-        } catch {
-            console.error(`[Sheets] Synchronization attempt ${attempt}/2 failed.`);
-            if (attempt < 2) {
-                // Brief pause before retry
-                await new Promise(r => setTimeout(r, 500));
-            }
-        }
+    try {
+        await Promise.race([
+            appendOrderToSheet(orderData),
+            new Promise((_, reject) =>
+                setTimeout(() => reject(new Error(`Sheet sync timeout after ${TIMEOUT_MS}ms`)), TIMEOUT_MS)
+            ),
+        ]);
+        return true;
+    } catch {
+        console.error('[Sheets] Synchronization failed; Firestore order is authoritative, reconciliation will backfill.');
+        return false;
     }
-
-    console.error('[Sheets] Synchronization failed after retry; the Firestore order remains authoritative.');
-    return false; // All attempts failed — order is in Firestore but not Sheets
 }

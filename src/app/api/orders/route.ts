@@ -18,6 +18,7 @@ import {
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { checkRateLimit } from '@/lib/rate-limit';
 import { governorates } from '@/data/governorates';
+import { normalizeEgyptianPhone, isValidEgyptianPhone } from '@/lib/egyptian-phone';
 import { getClientIp } from '@/lib/request-ip';
 
 const MAX_ORDER_BODY_BYTES = 128 * 1024;
@@ -70,10 +71,6 @@ function sanitizeInput(input: unknown, maxLength = 500): string {
         .slice(0, maxLength);
 }
 
-// Validate Egyptian phone number format server-side
-function isValidEgyptianPhone(phone: string): boolean {
-    return /^01[0125][0-9]{8}$/.test(phone);
-}
 
 export async function POST(req: NextRequest) {
     const ip = getClientIp(req.headers);
@@ -118,7 +115,7 @@ export async function POST(req: NextRequest) {
         }
 
         // Sanitize and validate phone
-        const cleanPhone = String(data.phone).replace(/[^0-9]/g, '');
+        const cleanPhone = normalizeEgyptianPhone(data.phone);
         if (!isValidEgyptianPhone(cleanPhone)) {
             return NextResponse.json({ error: 'Invalid Egyptian phone number. Must start with 01 and be 11 digits.' }, { status: 400 });
         }
@@ -146,7 +143,7 @@ export async function POST(req: NextRequest) {
         const customerName = sanitizeInput(data.customerName, 100);
         const address = sanitizeInput(data.address, 300);
         const city = sanitizeInput(data.city, 50);
-        const whatsapp = String(data.whatsapp || data.phone).replace(/[^0-9]/g, '');
+        const whatsapp = normalizeEgyptianPhone(data.whatsapp || data.phone);
         if (customerName.length < 2 || address.length < 5 || !VALID_CITY_SLUGS.has(city)) {
             return NextResponse.json({ error: 'Invalid order details' }, { status: 400 });
         }
@@ -349,21 +346,28 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // Validate coupons server-side before accepting the order total.
+        // Validate coupons server-side before accepting the order total. A
+        // coupon problem must NEVER lose the order: for a COD store the customer
+        // pays on delivery, so if the code doesn't validate (invalid, expired, OR
+        // the coupon service is unreachable), we place the order at full price and
+        // record the attempted code so the call center can honor it manually —
+        // instead of hard-failing checkout. The confirm page shows the real
+        // server total, so nobody is silently overcharged.
         let couponDiscount = 0;
         if (data.couponCode && typeof data.couponCode === 'string') {
             const code = data.couponCode.trim().toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 24);
-            const verdict = await validateCoupon(code);
-            const serverDiscount = computeDiscount(verdict, serverSubtotal);
-            // Reject invalid coupons instead of silently changing the displayed total.
-            if (!verdict.valid || serverDiscount <= 0) {
-                return NextResponse.json(
-                    { error: 'كود الخصم غير صالح أو انتهت صلاحيته — احذفه من الطلب أو صحّحه ثم أكّد مرة أخرى.' },
-                    { status: 400 }
-                );
+            let serverDiscount = 0;
+            try {
+                const verdict = await validateCoupon(code);
+                serverDiscount = computeDiscount(verdict, serverSubtotal);
+            } catch {
+                console.warn('[Orders] Coupon validation errored; placing order without discount.');
             }
+            // Always record the attempted code (the call center sees couponCode
+            // and can honor it manually); apply the discount only when the server
+            // itself confirmed it.
             orderData.couponCode = code;
-            couponDiscount = serverDiscount;
+            couponDiscount = serverDiscount > 0 ? serverDiscount : 0;
         }
 
         // Prevent discounts from making the subtotal negative.

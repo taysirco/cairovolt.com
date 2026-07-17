@@ -12,6 +12,7 @@ import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { BostaTracker } from '@/lib/bosta';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { normalizeEgyptianPhone, isValidEgyptianPhone } from '@/lib/egyptian-phone';
 
 // All Egyptian Governorates (bilingual)
 const GOVERNORATES = {
@@ -142,16 +143,6 @@ function localizeOrderError(status: number | null, raw: unknown, isArabic: boole
     return isArabic
         ? 'تعذر إتمام الطلب. حاول مرة أخرى.'
         : 'Unable to place the order. Please try again.';
-}
-
-// Convert Arabic numerals to English
-function convertArabicToEnglish(str: string): string {
-    const arabicNumerals = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
-    let result = str;
-    arabicNumerals.forEach((arabic, index) => {
-        result = result.replace(new RegExp(arabic, 'g'), index.toString());
-    });
-    return result;
 }
 
 // ═══════════ Coupon System ═══════════
@@ -366,7 +357,7 @@ export default function CheckoutPage() {
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
     // Validate Egyptian phone number format
-    const isPhoneValid = (number: string) => /^01[0125][0-9]{8}$/.test(number);
+    const isPhoneValid = isValidEgyptianPhone;
 
     // Localized per-field validation copy (mirrors the server rules in /api/orders)
     const phoneFormatError = isArabic
@@ -382,10 +373,7 @@ export default function CheckoutPage() {
 
     // Handle phone input - convert Arabic to English
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const converted = convertArabicToEnglish(e.target.value);
-        // Cap at 11 digits AFTER stripping separators, so pasted formatted
-        // numbers ("0100 123 4567") normalize instead of being truncated.
-        setPhone(converted.replace(/[^0-9]/g, '').slice(0, 11));
+        setPhone(normalizeEgyptianPhone(e.target.value));
         clearFieldError('phone');
     };
 
@@ -398,8 +386,7 @@ export default function CheckoutPage() {
 
     // Handle WhatsApp input - convert Arabic to English
     const handleWhatsappChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const converted = convertArabicToEnglish(e.target.value);
-        setWhatsapp(converted.replace(/[^0-9]/g, '').slice(0, 11));
+        setWhatsapp(normalizeEgyptianPhone(e.target.value));
         clearFieldError('whatsapp');
     };
 
@@ -541,15 +528,25 @@ export default function CheckoutPage() {
                 }),
             };
 
-            // Store in sessionStorage for confirm page
-            sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
+            // The order is already committed server-side. From here NOTHING may
+            // throw into the catch below and surface a false "order failed" that
+            // makes the customer retry and place a DUPLICATE. Isolate the
+            // sessionStorage write (fails in private browsing / when storage is
+            // full); the confirm page also accepts the order via the URL param
+            // as a fallback so it still renders.
+            let confirmHref = '/confirm';
+            try {
+                sessionStorage.setItem('lastOrder', JSON.stringify(confirmData));
+            } catch {
+                confirmHref = `/confirm?order=${encodeURIComponent(JSON.stringify(confirmData))}`;
+            }
 
             // Analytics: purchase + TikTok events fire on /confirm page only
             // (after the user sees the confirmation — the true conversion point)
 
             // Redirect FIRST, then clear cart (to avoid useEffect redirect to /)
             // Use next-intl router to handle locale prefix automatically
-            router.push('/confirm');
+            router.push(confirmHref);
 
             // Clear cart after navigation settles using a longer delay
             // loading stays true so useEffect won't redirect to home
