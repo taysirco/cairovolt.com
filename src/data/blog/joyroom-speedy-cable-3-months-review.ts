@@ -117,7 +117,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
     <li style="margin-bottom:12px;">🎯 <strong><a href="/joyroom/cables/joyroom-type-c-lightning-braided" style="color:#2563eb">كابل جوي روم Lightning مضفر</a>:</strong> لأصحاب iPhone اللي عايزين كابل مضفر وسريع. PD 30W + نايلون مضفر. بـ 214 جنيه.</li>
     <li style="margin-bottom:12px;">🔌 <strong><a href="/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb">كابل جوي روم 3 في 1</a>:</strong> Lightning + USB-C + Micro في كابل واحد — حل عملي للعيلة اللي كل واحد فيها عنده موبايل مختلف. بـ 237 جنيه.</li>
 </ul>
-<p>كل كابلات جوي روم على كايرو فولت <strong>بضمان المتجر + بطاقة تحقق C2PA</strong> — يعني مش هتشتري تقليد بالغلط.</p>
+<p>كل كابلات جوي روم على كايرو فولت <strong>بضمان المتجر المكتوب — 12 شهر للموديلات المذكورة فوق</strong>، والشروط الكاملة موضحة على صفحة كل منتج وسياسة الضمان.</p>
 
 <h2>المقارنة العادلة: جوي روم vs انكر — الأرقام بتتكلم 🔬</h2>
 <p>مش عدل نقارن كابل بـ 123 جنيه بكابل بـ 590 جنيه من غير ما نوضح إيه اللي بتدفع فيه الفرق. الجدول ده مبني على المواصفات المعلنة من الشركتين والأسعار وقت كتابة المقال:</p>
@@ -280,7 +280,7 @@ export const joyroom_speedy_cable_3_months_review: BlogArticle = {
     <li style="margin-bottom:12px;">🎯 <strong><a href="/en/joyroom/cables/joyroom-type-c-lightning-braided" style="color:#2563eb">Joyroom Lightning Braided</a>:</strong> For iPhone users who want a braided, fast cable. PD 30W + braided nylon. 214 EGP.</li>
     <li style="margin-bottom:12px;">🔌 <strong><a href="/en/joyroom/cables/joyroom-3-in-1-data-cable" style="color:#2563eb">Joyroom 3-in-1 Cable</a>:</strong> Lightning + USB-C + Micro in one cable — a practical pick for families where everyone has a different phone. 237 EGP.</li>
 </ul>
-<p>All Joyroom cables on CairoVolt come with a <strong>store warranty + C2PA authentication tag</strong> — so you will never accidentally buy a counterfeit.</p>
+<p>All Joyroom cables on CairoVolt come with a <strong>written store warranty — 12 months for the models listed above</strong>, with full terms on each product page and the store warranty policy.</p>
 
 <h2>Fair Comparison: Joyroom vs Anker — The Numbers Speak 🔬</h2>
 <p>It would not be fair to compare a 123 EGP cable with a 590 EGP cable without explaining what the difference buys you. This table is built from both manufacturers' published specifications and prices at the time of writing:</p>

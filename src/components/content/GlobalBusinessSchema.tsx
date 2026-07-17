@@ -40,6 +40,7 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 name: 'CairoVolt',
                 alternateName: 'كايرو فولت',
                 legalName: 'شركة تيسير للاستثمار الذكي (ش.ذ.م.م)',
+                taxID: '777471566',
                 identifier: {
                     '@type': 'PropertyValue',
                     propertyID: isArabic ? 'السجل التجاري (مصر)' : 'Commercial Register (Egypt)',

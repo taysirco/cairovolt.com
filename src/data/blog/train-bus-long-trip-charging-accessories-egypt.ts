@@ -27,7 +27,7 @@ export const train_bus_long_trip_charging_accessories_egypt: BlogArticle = {
             title: 'شحن وملحقات لرحلات القطار والأتوبيس الطويلة — دليل المسافر المصري',
             metaTitle: 'دليل شحن الهواتف في السفر الطويل بالقطار والأتوبيس بمصر',
             metaDescription: 'دليل المسافر المصري لاختيار أفضل باوربانك وسماعة عازلة للضوضاء لرحلات القطار والأتوبيس الطويلة (مثل سوبرجيت وجو باص) بدون انقطاع شحن أو إزعاج.',
-            keywords: 'سعر ايفون 13 برو max في مصر, سعر ايفون 13 برو max في مصر 256, سعر سامسونج s24 ultra في مصر, سعر ايفون 15 برو max في مصر, شحن الهاتف في السفر, باوربانك للقطار, سماعة عازلة للضوضاء السفر',
+            keywords: 'شحن الهاتف في السفر, باوربانك للقطار, سماعة عازلة للضوضاء السفر, شحن الموبايل في القطار, باور بانك للسفر الطويل',
             excerpt: 'مسافر من القاهرة لأسوان في قطار النوم أو راكب سوبرجيت ومقلق من البطارية ودوشة الطريق؟ نقدم دليلاً شاملاً لأهم ملحقات الشحن والصوت للسفر.',
             quickAnswer: 'نعم، يحتاج المسافر المصري لثلاثة ملحقات أساسية لضمان رحلة مريحة وخالية من القلق: (1) **باوربانك بسعة 20,000 مللي أمبير** لمنع انقطاع الشحن بالكامل أثناء الرحلات الطويلة (مثل رحلة قطار الصعيد أو أتوبيسات شرم الشيخ ودهب). (2) **سماعة بلوتوث تدعم عزل الضوضاء النشط (ANC)** لكتم صوت محرك الأتوبيس أو صوت الأفلام والدراما التركية التي يعرضها السائق في منتصف الليل. (3) **شاحن GaN سريع وصغير** لشحن هاتفك بسرعة فائقة في محطات الاستراحة أو الكافيهات البينية.',
             faq: [
@@ -143,7 +143,7 @@ export const train_bus_long_trip_charging_accessories_egypt: BlogArticle = {
             title: 'Charging Guide for Long Train & Bus Trips: Egyptian Traveler Edition',
             metaTitle: 'Train & Bus Travel Charging Guide for Egypt | CairoVolt',
             metaDescription: 'The ultimate guide for Egyptian travelers on choosing the best power banks, cables, and ANC earbuds for long train and bus trips across Egypt.',
-            keywords: 'iphone 15 pro max price egypt, iphone 17 pro max price in egypt, iphone 16 pro max price in egypt, iphone 13 pro max price egypt, charge phone on road, power bank for train, noise cancelling travel earbuds',
+            keywords: 'charge phone on road, power bank for train, noise cancelling travel earbuds, charging accessories for long trips, power bank for travel egypt',
             excerpt: 'Traveling from Cairo to Aswan or riding a long-distance bus in Egypt? Here is how to keep your devices charged and block out travel noise.',
             quickAnswer: 'Yes, Egyptian travelers need three essential tech accessories to survive a long journey: (1) **A 20,000mAh Power Bank** to ensure continuous charging on long trips (like the Cairo-Aswan train or bus trips to Sharm and Dahab). (2) **Active Noise Cancelling (ANC) Earbuds** to block out engine roar or the loud movies played by bus drivers. (3) **A Compact GaN Wall Charger** to charge your devices rapidly during short rest stop layovers.',
             faq: [

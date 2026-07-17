@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { routing } from './i18n/routing';
 import { BLOG_SCHEDULE } from './data/blog-schedule.generated';
+import { KNOWN_TOP_SEGMENTS, LEGACY_PRODUCT_REDIRECTS } from './lib/known-routes';
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -23,43 +24,10 @@ const PUBLIC_CORS_HEADERS = {
     'Access-Control-Max-Age': '86400',
 };
 
-// Every valid first path segment (after the optional locale prefix).
-// Anything else gets a REAL 404 from middleware — the FAH adapter turns
-// Next's own not-found responses into HTTP 200 (soft-404), so unknown
-// URLs must be rejected before they reach the router.
-// MAINTENANCE: extend when adding a brand, generic category, or landing page.
-const KNOWN_TOP_SEGMENTS = new Set([
-    // brands + brand hubs
-    'anker', 'joyroom', 'soundcore',
-    // generic category landing pages
-    'power-banks', 'chargers', 'cables', 'earbuds',
-    // content & info pages
-    'about', 'team', 'contact', 'faq', 'blog', 'lab', 'locations', 'solutions',
-    'verify', 'warranty', 'shipping', 'return-policy', 'privacy', 'terms',
-    // commerce & account flows
-    'checkout', 'confirm', 'review', 'search',
-    // infrastructure routes handled before public-page validation
-    'admin', 'api', 'go',
-]);
-
-// Retired product slugs → their established canonical successor paths (301).
-// The explicit map prevents legacy links from reaching a soft-not-found page.
-// Deliberately fail-open: slugs NOT listed here fall through untouched, so
-// Firestore-only products (not in the static catalog) are never affected.
-// MAINTENANCE: when a product is retired/renamed, add `old-slug: '/brand/category/new-slug'`.
-const LEGACY_PRODUCT_REDIRECTS: Record<string, string> = {
-    'anker-zolo-a1610-5000': '/anker/power-banks/anker-zolo-a110d-10000',
-    'anker-zolo-a1650-10000': '/anker/power-banks/anker-zolo-a110d-10000',
-    'anker-zolo-a1671-20000': '/anker/power-banks/anker-zolo-a110e-20000',
-    'anker-a2643-45w': '/anker/wall-chargers/anker-nano-45w-smart-display-charger',
-    'anker-312-a81h5-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
-    'anker-nano-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
-    'anker-nano-4-a2337-30w': '/anker/wall-chargers/anker-a2147-gan-charger-30w',
-    'anker-nano-pro-20w': '/anker/wall-chargers/anker-powerport-20w',
-    'anker-usb-c-to-usb-c-100w': '/anker/cables/anker-zolo-usb-c-braided-cable',
-    'joyroom-magnetic-wireless-power-bank-10000': '/joyroom/power-banks/joyroom-magnetic-power-bank-10000',
-    'soundcore-r50i-earbuds': '/soundcore/audio/anker-soundcore-r50i',
-};
+// KNOWN_TOP_SEGMENTS (real-404 allowlist) and LEGACY_PRODUCT_REDIRECTS
+// (retired slug 301 map) now live in ./lib/known-routes so the markdown
+// content-negotiation surface (/api/markdown-negotiate) applies the SAME
+// gates and stays status-code-consistent with this HTML middleware.
 
 const NOT_FOUND_HTML = `<!DOCTYPE html>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
@@ -71,16 +39,27 @@ const NOT_FOUND_HTML = `<!DOCTYPE html>
 <p>الصفحة غير موجودة — Page not found</p>
 <a href="/">العودة للرئيسية · Back home</a></main></body></html>`;
 
+// True static-asset extensions — files served from /public or by dedicated
+// route handlers (robots.txt, sitemap.xml, feed.xml, manifest.json, sw.js,
+// images, fonts, dataset CSVs). ONLY these bypass the real-404 gate below.
+// Any other dotted path (/foo.bar, /wp-login.php, /random.html) is junk and
+// must reach the gate — a bare "has an extension" test previously let every
+// dotted URL through to the [locale] catch-all, which rendered a homepage
+// clone with HTTP 200 (soft-404), edge-cached for a year.
+// MAINTENANCE: extend only when shipping a NEW public-file extension.
+const STATIC_ASSET_EXTENSIONS =
+    /\.(?:js|css|map|png|jpe?g|webp|avif|gif|svg|ico|txt|xml|json|csv|webmanifest|woff2?|ttf|pdf)$/i;
+
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     const userAgent = request.headers.get('user-agent') || '';
 
-    // Skip static files, Firebase internals, and image optimizer
+    // Skip Next/Firebase internals, the image optimizer, and true static assets.
     if (
         pathname.startsWith('/_next') ||
         pathname.startsWith('/__firebase') ||
         pathname.startsWith('/api/img') ||
-        /\.[a-zA-Z][a-zA-Z0-9]{1,5}$/.test(pathname)
+        STATIC_ASSET_EXTENSIONS.test(pathname)
     ) {
         return NextResponse.next();
     }
@@ -277,10 +256,15 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-    // Include well-known documents and public routes, excluding static assets
-    // and image optimization so their cache headers remain intact.
+    // Include well-known documents and public routes. /_next, /__firebase and
+    // the image optimizer stay excluded so their cache headers remain intact.
+    // Dotted paths are deliberately NOT excluded here anymore: the middleware
+    // separates true static assets (STATIC_ASSET_EXTENSIONS → immediate
+    // pass-through, headers untouched) from dotted junk URLs, which must reach
+    // the KNOWN_TOP_SEGMENTS real-404 gate instead of soft-404ing as a
+    // homepage clone via the [locale] catch-all.
     matcher: [
         '/.well-known/:path*',
-        '/((?!_next|__firebase|api/img|.*\\..*).*)',
+        '/((?!_next|__firebase|api/img).*)',
     ]
 };

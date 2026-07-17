@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getGovernorateBySlug, governorates } from '@/data/governorates';
 import { BostaTracker } from '@/lib/bosta';
+import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 
@@ -30,12 +31,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     const isArabic = locale === 'ar';
     const logistics = BostaTracker.getRegionalStats(governorate.slug, locale);
-    const title = isArabic
-        ? `باور بانك وحلول طاقة احتياطية في ${governorate.nameAr} | كايرو فولت`
-        : `Power Banks & Backup Power in ${governorate.nameEn} | CairoVolt`;
+    const title = isArabic ? governorate.meta.titleAr : governorate.meta.titleEn;
     const description = isArabic
-        ? `قارن باور بانك وحلول شحن وطاقة احتياطية للهاتف والراوتر واللابتوب أثناء انقطاع الكهرباء، مع توصيل إلى ${governorate.nameAr}. الحسابات تقديرية ويُؤكد موعد التوصيل بعد مراجعة العنوان.`
-        : `Compare power banks, charging, and backup-power options for phones, routers, and laptops during power cuts, with delivery to ${governorate.nameEn}. Calculations are estimates and delivery is confirmed after address review.`;
+        ? `${governorate.meta.descriptionAr} التوصيل إلى ${governorate.nameAr}: ${logistics.delivery_estimate}، ويُؤكد الموعد بعد مراجعة العنوان.`
+        : `${governorate.meta.descriptionEn} ${logistics.delivery_estimate} to ${governorate.nameEn}; the date is confirmed after address review.`;
     const canonical = `https://cairovolt.com${isArabic ? '' : '/en'}/locations/${governorate.slug}`;
 
     return {
@@ -79,6 +78,10 @@ export default async function GovernoratePage({ params }: PageProps) {
     const prefix = isArabic ? '' : '/en';
     const governorateName = isArabic ? governorate.nameAr : governorate.nameEn;
     const logistics = BostaTracker.getRegionalStats(governorate.slug, locale);
+    const shippingFee = getShippingFee(governorate.slug, 0);
+    const freeShippingFrom = FREE_SHIPPING_THRESHOLD.toLocaleString('en-US');
+    const cityList = (isArabic ? governorate.cities.ar : governorate.cities.en)
+        .join(isArabic ? ' و' : ', ');
     const serviceUrl = `https://cairovolt.com${prefix}/locations/${governorate.slug}`;
 
     const solutionLinks = isArabic
@@ -130,6 +133,10 @@ export default async function GovernoratePage({ params }: PageProps) {
                 answer: `${logistics.delivery_estimate}. المدة تقديرية، ويتواصل فريق كايرو فولت لتأكيد الموعد بعد مراجعة الطلب.`,
             },
             {
+                question: `كم رسوم الشحن إلى ${governorate.nameAr}؟`,
+                answer: `رسوم الشحن إلى ${governorate.nameAr} ${shippingFee} جنيهاً للطلبات الأقل من ${freeShippingFrom} جنيه، والشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر وفق سياسة الشحن.`,
+            },
+            {
                 question: `هل الدفع عند الاستلام متاح في ${governorate.nameAr}؟`,
                 answer: logistics.cash_on_delivery
                     ? 'نعم، الدفع عند الاستلام متاح للطلبات المؤهلة، ويُؤكد عند مراجعة الطلب.'
@@ -152,6 +159,10 @@ export default async function GovernoratePage({ params }: PageProps) {
             {
                 question: `How long does delivery to ${governorate.nameEn} take?`,
                 answer: `${logistics.delivery_estimate}. This is an estimate; CairoVolt confirms the date after reviewing the order.`,
+            },
+            {
+                question: `How much is shipping to ${governorate.nameEn}?`,
+                answer: `Shipping to ${governorate.nameEn} costs ${shippingFee} EGP for orders under ${freeShippingFrom} EGP; orders of ${freeShippingFrom} EGP or more ship free under the shipping policy.`,
             },
             {
                 question: `Is cash on delivery available in ${governorate.nameEn}?`,
@@ -235,11 +246,18 @@ export default async function GovernoratePage({ params }: PageProps) {
                                     ? `معلومات الطلب إلى ${governorate.nameAr}`
                                     : `Order information for ${governorate.nameEn}`}
                             </h2>
-                            <div className="mt-5 grid gap-4 sm:grid-cols-3">
+                            <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                                 <InfoCard
                                     value={logistics.delivery_estimate}
                                     label={isArabic ? 'مدة التوصيل التقديرية' : 'Estimated delivery time'}
                                     color="text-blue-600 dark:text-blue-400"
+                                />
+                                <InfoCard
+                                    value={isArabic ? `${shippingFee} جنيه` : `${shippingFee} EGP`}
+                                    label={isArabic
+                                        ? `رسوم الشحن للطلبات الأقل من ${freeShippingFrom} جنيه`
+                                        : `Shipping fee for orders under ${freeShippingFrom} EGP`}
+                                    color="text-purple-600 dark:text-purple-400"
                                 />
                                 <InfoCard
                                     value={logistics.cash_on_delivery
@@ -256,6 +274,11 @@ export default async function GovernoratePage({ params }: PageProps) {
                             </div>
                             <p className="mt-5 text-center text-sm leading-6 text-gray-600 dark:text-gray-400">
                                 {logistics.confirmation_note}
+                            </p>
+                            <p className="mt-2 text-center text-sm leading-6 text-gray-600 dark:text-gray-400">
+                                {isArabic
+                                    ? `الشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر، والتوصيل متاح للعناوين المؤهلة في ${governorate.nameAr} بما يشمل ${cityList} وباقي المناطق.`
+                                    : `Shipping is free from ${freeShippingFrom} EGP, and delivery covers eligible addresses across ${governorate.nameEn}, including ${cityList}.`}
                             </p>
                         </div>
                     </div>

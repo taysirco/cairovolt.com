@@ -157,7 +157,7 @@ export const gaming_earbuds_pubg_freefire_low_latency: BlogArticle = {
 <p>تأخير الصوت في الألعاب اللاسلكية مشكلة حقيقية، بس حلها مبقاش غالي زي زمان. لو ميزانيتك في حدود الـ 880 جنيه وعايز أحسن تجربة شاملة مع بيس قوي ودعم كامل للتطبيق وتأخير شبه معدوم في الألعاب، <a href="/soundcore/audio/anker-soundcore-r50i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور R50i</a> هي اختيارك الأول والأنسب للشارع المصري. لو بتفضل التصميمات المربعة المسطحة السهلة في الجيب، <a href="/soundcore/audio/soundcore-p25i-earbuds" style="color:#2563eb;font-weight:600;">سماعة ساوندكور P25i</a> هي البديل المتطابق تقنياً بنسبة 100%. أما لو كنت جيمر بتتحرك كتير وبتعرق في الجيم وتضايقك ضغطات اللمس الخاطئة، <a href="/soundcore/audio/anker-soundcore-life-p2i" style="color:#2563eb;font-weight:600;">سماعة ساوندكور Life P2i</a> هي خيارك العملي بأزرارها الميكانيكية الحقيقية وسعرها الموفر.</p>
 
 <div class="cta-box" style="background:#f0fdf4;border:1px solid #86efac;padding:20px;margin:32px 0;border-radius:8px;">
-    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان الوكيل في مصر</p>
+    <p style="margin:0 0 8px 0;font-weight:bold;color:#166534;">✅ أصلية بضمان كايرو فولت المكتوب</p>
     <p style="margin:0;color:#15803d;font-size:15px;line-height:1.8;">
         جميع موديلات سماعات ساوندكور الاقتصادية والاحترافية متوفرة مدرج ببيانات موديل واضحة بمدة الضمان الموضحة على صفحة المنتج مراجعة طلب الاستبدال وفق الشروط المكتوبة من <a href="/soundcore" style="color:#2563eb;font-weight:600;">ساوندكور مصر</a> على كايرو فولت. تصفح المنتجات دلوقتي واحصل على توصيل سريع لباب بيتك وفق الموعد التقديري الظاهر قبل تأكيد الطلب مع الدفع عند الاستلام.
     </p>

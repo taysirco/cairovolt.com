@@ -27,7 +27,7 @@ export const iphone_17_pro_max_essential_accessories_day_one: BlogArticle = {
             title: 'اشتريت ايفون 17 برو ماكس؟ الإكسسوارات الأساسية التي تحتاجها من اليوم الأول',
             metaTitle: 'إكسسوارات ايفون 17 برو ماكس الأساسية والملحقات',
             metaDescription: 'دليل شامل لاختيار إكسسوارات ايفون 17 برو ماكس في مصر. تعرف على مواصفات شواحن الـ 30 واط المتوافقة لحماية البطارية ونقل بيانات ProRes السريع.',
-            keywords: 'اكسسوارات ايفون 17 برو ماكس, سعر ايفون 17 برو ماكس, شاحن ايفون 17 برو ماكس, كابل ايفون 17 تايب سي, جراب ايفون 17 برو ماكس, شاحن لاسلكي ايفون 17',
+            keywords: 'اكسسوارات ايفون 17 برو ماكس, شاحن ايفون 17 برو ماكس, كابل ايفون 17 تايب سي, جراب ايفون 17 برو ماكس, شاحن لاسلكي ايفون 17',
             excerpt: 'هل اقتنيت ايفون 17 برو ماكس الجديد؟ بنشرح لك الإكسسوارات الأساسية التي يجب شراؤها من اليوم الأول لحماية جهازك والاستفادة من سرعات الشحن والـ USB-C الكاملة.',
             quickAnswer: 'ابدأ بمواصفات Apple لطراز ايفون 17 برو ماكس: اختر شاحن USB-C PD وكابلاً يطابقان القدرة ونقل البيانات المطلوبين، وجراباً أو واقي شاشة حسب استخدامك. تحقق من اعتماد MagSafe أو Qi2 للموديل عند الحاجة؛ لا يضمن رقم 30W أو عبارة USB 3.2 أو MagSafe أقصى سرعة أو حماية كاملة وحدها.',
             faq: [
@@ -135,7 +135,7 @@ export const iphone_17_pro_max_essential_accessories_day_one: BlogArticle = {
             title: 'Bought iPhone 17 Pro Max? Essential Accessories You Need on Day One',
             metaTitle: 'Essential Accessories for iPhone 17 Pro Max on Day One',
             metaDescription: 'A comprehensive guide to choosing the best accessories for iPhone 17 Pro Max. Learn about 30W PPS fast chargers, MagSafe cases, and high-speed data cables.',
-            keywords: 'iphone 17 pro max accessories, iphone 17 pro max charger speed, best screen protector iphone 17 pro max, original charger for iphone 17 pro max, apple iphone 17 pro max release date egypt',
+            keywords: 'iphone 17 pro max accessories, iphone 17 pro max charger speed, best screen protector iphone 17 pro max, original charger for iphone 17 pro max, usb c cable for iphone 17',
             excerpt: 'Did you get the new iPhone 17 Pro Max? We analyze the essential accessories you must purchase on day one to protect your device and unlock its full potential.',
             quickAnswer: 'Start with Apple’s specifications for the exact iPhone 17 Pro Max: choose a USB-C PD adapter and cable matching required charging and data capabilities, plus a case or screen protector based on use. Verify model-specific MagSafe or Qi2 status where relevant; a 30W, USB 3.2, or MagSafe label alone does not guarantee maximum speed or complete protection.',
             faq: [

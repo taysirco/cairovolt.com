@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import { BreadcrumbSchema } from '@/components/schemas/ProductSchema';
 import { recommendedCreators, getCountryFlag, getCountryName } from '@/data/team-members';
@@ -122,18 +121,15 @@ export default async function TeamPage({ params }: Props) {
                                     <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-70 group-hover:opacity-100 transition-opacity" />
 
                                     <div className="p-6 pt-8">
-                                        {/* Avatar + Name + Country */}
+                                        {/* Initial-letter monogram + Name + Country — no hosted portraits for external creators */}
                                         <div className="flex items-start gap-4 mb-5">
                                             <div className="relative flex-shrink-0">
-                                                <Image
-                                                    src={member.avatar}
-                                                    alt={member.name[lang]}
-                                                    width={80}
-                                                    height={80}
-                                                    className="w-20 h-20 rounded-full object-cover ring-4 ring-white dark:ring-gray-800 shadow-md group-hover:ring-blue-200 dark:group-hover:ring-blue-800 transition-all duration-300"
-                                                    loading="lazy"
-                                                    sizes="80px"
-                                                />
+                                                <span
+                                                    aria-hidden="true"
+                                                    className="w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold text-white bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 ring-4 ring-white dark:ring-gray-800 shadow-md group-hover:ring-blue-200 dark:group-hover:ring-blue-800 transition-all duration-300 select-none"
+                                                >
+                                                    {member.name[lang].trim().charAt(0)}
+                                                </span>
                                                 {/* Country flag badge */}
                                                 <span className="absolute -bottom-1 -end-1 text-lg bg-white dark:bg-gray-800 rounded-full w-8 h-8 flex items-center justify-center shadow-sm ring-2 ring-gray-100 dark:ring-gray-700">
                                                     {getCountryFlag(member.country)}

@@ -25,7 +25,7 @@ export const buy_samsung_phone_egypt_guide_accessories: BlogArticle = {
             title: 'دليل شراء موبايل سامسونج في مصر: كيف تختار الفئة المناسبة وأهم الإكسسوارات؟',
             metaTitle: 'دليل شراء موبايل سامسونج في مصر واختيار الشواحن',
             metaDescription: 'دليل شامل لشراء هواتف سامسونج في مصر وفهم الفروقات بين فئات Galaxy A و S وكيفية اختيار شواحن وإكسسوارات الشحن السريع PPS المتوافقة لمنع تلف البطارية.',
-            keywords: 'اسعار الموبايلات السامسونج في مصر, سعر سامسونج s25 ultra في مصر, سعر سامسونج s24 ultra في مصر, سعر سامسونج a55 في مصر, شاحن سامسونج الاصلي 25 واط, شاحن سامسونج 45 واط الاصلي, كابل شاحن سامسونج تايب سي',
+            keywords: 'دليل شراء موبايل سامسونج في مصر, اختيار فئة سامسونج المناسبة, شاحن سامسونج الاصلي 25 واط, شاحن سامسونج 45 واط الاصلي, كابل شاحن سامسونج تايب سي',
             excerpt: 'محتار تختار موبايل سامسونج فئة A ولا S؟ بنشرح لك مواصفات ومميزات كل فئة في مصر، وتفاصيل اختيار شواحن الـ 25W والـ 45W المتوافقة مع بروتوكولات الشحن السريع.',
             quickAnswer: 'تنقسم هواتف سامسونج في مصر إلى **فئة Galaxy A** (من الاقتصادية للمتوسطة) وتدعم شحناً بقوة **15W أو 25W**، و**فئة Galaxy S/Fold** (الرائدة) وتدعم شحناً بقوة **25W أو 45W**. بما أن سامسونج لا ترفق شواحن في العلبة، يجب عليك شراء **شاحن يدعم تقنية USB-PD PPS** بقوة 25 واط أو 45 واط للحصول على سرعة "الشحن السريع جداً" (SFC).',
             faq: [
@@ -148,7 +148,7 @@ export const buy_samsung_phone_egypt_guide_accessories: BlogArticle = {
             title: 'Samsung Phone Buying Guide in Egypt: How to Choose & Essential Accessories',
             metaTitle: 'Samsung Phone Buying Guide Egypt & Charging Accessories',
             metaDescription: 'Comprehensive guide for buying Samsung Galaxy phones in Egypt. Understand the differences between Galaxy A and S series and choose compatible PPS fast chargers.',
-            keywords: 'samsung s25 ultra price in egypt, samsung s24 ultra price egypt, samsung s26 ultra price in egypt, samsung a35 price in egypt, samsung phone price in egypt, best accessories for samsung phones',
+            keywords: 'samsung phone buying guide egypt, how to choose samsung phone, samsung galaxy series comparison, best accessories for samsung phones, best charger for samsung phones',
             excerpt: 'Confused between Samsung Galaxy A and S series? We break down the technical differences and explain how to choose compatible 25W and 45W PPS fast chargers.',
             quickAnswer: 'Samsung phones in Egypt are divided into the **Galaxy A series** (budget to mid-range) supporting **15W/25W charging** and the **Galaxy S series** (flagships) supporting **25W/45W charging**. Since wall adapters are not included in the box, you must purchase a **USB-PD PPS compatible charger** (25W or 45W) to trigger "Super Fast Charging" (SFC).',
             faq: [

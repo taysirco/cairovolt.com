@@ -27,7 +27,7 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
             title: 'دليل شراء الايفون في مصر: كيف تختار المناسب وإكسسوارات الشحن حسب المنفذ',
             metaTitle: 'دليل شراء الايفون في مصر وإكسسوارات الشحن',
             metaDescription: 'دليل شامل لشراء الايفون في مصر ومقارنة موديلات Lightning و USB-C. تعرف على كيفية اختيار الهاتف المناسب لميزانيتك وإكسسوارات الشحن المناسبة لكل منفذ.',
-            keywords: 'شراء ايفون في مصر, سعر ايفون 13 برو max في مصر, سعر ايفون 15 برو max في مصر, شاحن ايفون اصلي, كابل ايفون الاصلي, اكسسوارات ايفون 16 برو max',
+            keywords: 'شراء ايفون في مصر, دليل شراء الايفون, شاحن ايفون اصلي, كابل ايفون الاصلي, اكسسوارات ايفون 16 برو max',
             excerpt: 'تخطط لشراء ايفون جديد أو مستعمل في مصر؟ بنشرح لك بالتفصيل الفروق الجوهرية بين هواتف منفذ Lightning القديم ومنفذ USB-C الحديث، وكيف تختار الشواحن المعتمدة المناسبة.',
             quickAnswer: 'ابدأ بتحديد منفذ موديل الايفون: تحتاج موديلات Lightning إلى كابل مناسب، ويفضل التحقق من ترخيص MFi للموديل المحدد، بينما تستخدم موديلات USB-C كابلاً وشاحناً متوافقين مع مواصفات ذلك الهاتف. لا توجد قدرة واحدة مثالية لكل الموديلات؛ راجع دليل Apple وقدرة الشاحن والكابل قبل الشراء.',
             faq: [
@@ -151,7 +151,7 @@ export const buy_iphone_egypt_guide_accessories_by_port: BlogArticle = {
             title: 'iPhone Egypt Buying Guide: Choosing the Right Model & Accessories by Port',
             metaTitle: 'iPhone Egypt Buying Guide & Port Accessories',
             metaDescription: 'A comprehensive guide for buying an iPhone in Egypt. Compare Lightning and USB-C models, check charging requirements, and choose certified accessories.',
-            keywords: 'buy iphone egypt guide, iphone 15 pro max price egypt, original apple charger price, lightning vs usb-c iphone, iphone 16 pro max accessories, best charger for iphone',
+            keywords: 'buy iphone egypt guide, original apple charger price, lightning vs usb-c iphone, iphone 16 pro max accessories, best charger for iphone',
             excerpt: 'Planning to buy a new or used iPhone in Egypt? We detail the critical technical differences between older Lightning ports and modern USB-C ports, and how to select certified chargers.',
             quickAnswer: 'Start with the exact iPhone model and port. For Lightning models, use a suitable cable and verify MFi licensing for that accessory where applicable; for USB-C models, match the charger and cable to that phone\'s published requirements. No single wattage is ideal for every model, so check Apple guidance and the specific product ratings.',
             faq: [

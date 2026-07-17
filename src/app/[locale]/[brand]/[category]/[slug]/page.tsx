@@ -13,6 +13,7 @@ import { logger } from '@/lib/logger';
 import ShareAnalytics from '@/components/content/ShareAnalytics';
 import BrandVerification from '@/components/UX/BrandVerification';
 import { BostaTracker } from '@/lib/bosta';
+import { getMerchantProductBrandSlug } from '@/lib/merchant-product-data';
 import { unstable_cache } from 'next/cache';
 import {
     getBrandDisplayName,
@@ -109,6 +110,29 @@ function sanitizeCuratedMetadata(value: string | undefined, isArabic: boolean): 
 // Default governorate for SSG — client-side detection in ProductPageClient
 const DEFAULT_GOV = { slug: 'cairo', display: 'Cairo' };
 
+/**
+ * A product is served only at its one true path. The brand segment must match
+ * the record's public brand route (Soundcore audio/speakers live under
+ * /soundcore even for legacy records whose brand field says Anker — the same
+ * mapping the Merchant feed links use via getMerchantProductBrandSlug), and
+ * the category segment must match the record's categorySlug. Any other
+ * brand/category combination for a known slug must 404 instead of rendering
+ * a 200 duplicate whose self-referential canonical endorses the wrong URL.
+ * generateStaticParams builds every true path from these exact record fields,
+ * so no legitimate URL can ever fail this check.
+ */
+function isCanonicalProductPath(
+    product: Pick<Product, 'brand' | 'categorySlug'>,
+    brand: string,
+    category: string,
+): boolean {
+    if (!product.brand || !product.categorySlug) return false;
+    return (
+        getMerchantProductBrandSlug(product) === brand.toLowerCase() &&
+        product.categorySlug.trim().toLowerCase() === category.toLowerCase()
+    );
+}
+
 async function getProduct(slug: string): Promise<Product | null> {
     // First try static data
     const staticProduct = getProductBySlug(slug);
@@ -176,6 +200,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         return {
             title: locale === 'ar' ? 'المنتج غير موجود' : 'Product Not Found'
         };
+    }
+
+    // Known slug under a wrong brand/category segment → 404, so no metadata
+    // (canonical/hreflang) is ever emitted for a mislinked duplicate URL.
+    if (!isCanonicalProductPath(product, brand, category)) {
+        notFound();
     }
 
     const isArabic = locale === 'ar';
@@ -283,6 +313,12 @@ export default async function ProductPage({ params }: Props) {
     const product = await getCachedProduct(slug);
 
     if (!product) {
+        notFound();
+    }
+
+    // Strict path validation — a known slug under a wrong brand/category
+    // segment must never render a 200 duplicate page (see isCanonicalProductPath).
+    if (!isCanonicalProductPath(product, brand, category)) {
         notFound();
     }
 

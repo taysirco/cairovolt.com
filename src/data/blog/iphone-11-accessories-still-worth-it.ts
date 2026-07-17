@@ -26,7 +26,7 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
             title: 'إكسسوارات ايفون 11: ما الذي يستحق الشراء في 2026 للحفاظ عليه؟',
             metaTitle: 'أفضل إكسسوارات هاتف ايفون 11 وشواحن معتمدة',
             metaDescription: 'دليل شامل لأفضل إكسسوارات هاتف ايفون 11 في مصر. تعرف على معايير الشاحن السريع المتوافق وكابلات MFi المتينة والباور بانك المناسب لتجديد أسطورة أبل بالكامل.',
-            keywords: 'اكسسوارات ايفون 11, شاحن ايفون 11 الاصلي, سعر ايفون 11 في مصر, كابل ايفون 11, باور بانك للايفون 11, بطارية ايفون 11',
+            keywords: 'اكسسوارات ايفون 11, شاحن ايفون 11 الاصلي, كابل ايفون 11, باور بانك للايفون 11, بطارية ايفون 11',
             excerpt: 'لا يزال ايفون 11 أسطورة حية في مصر. بنشرح لك في هذا الدليل أفضل الشواحن والكابلات المعتمدة والباور بانك المناسب لتجاوز تراجع البطارية وتمديد عمر هاتفك بأمان.',
             quickAnswer: 'اختر لايفون 11 شاحناً USB-PD وكابل Lightning مناسباً، وتحقق من ترخيص MFi للكابل المحدد ومتطلبات Apple. إذا تراجعت البطارية فقارن تشخيصها واستبدالها لدى جهة مؤهلة مع استخدام باور بانك متوافق؛ السعة أو القدرة وحدهما لا تضمن زمناً أو حماية ثابتين.',
             faq: [
@@ -148,7 +148,7 @@ export const iphone_11_accessories_still_worth_it: BlogArticle = {
             title: 'iPhone 11 Accessories: What is Still Worth Buying in 2026?',
             metaTitle: 'Best iPhone 11 Accessories & PD Fast Chargers',
             metaDescription: 'A technical buying guide for the best iPhone 11 accessories in Egypt. Find certified PD fast chargers, durable MFi Lightning cables, and compact power banks.',
-            keywords: 'best accessories for iphone 11, iphone 11 price in egypt, iphone 11 charger original, lightning cable iphone 11, iphone 11 battery capacity, power bank for iphone 11, certified apple accessories egypt',
+            keywords: 'best accessories for iphone 11, iphone 11 charger original, lightning cable iphone 11, iphone 11 battery capacity, power bank for iphone 11, certified apple accessories egypt',
             excerpt: 'The iPhone 11 remains a legend in Egypt. We detail the best certified chargers, Lightning cables, and power banks to overcome battery aging and extend your device life.',
             quickAnswer: 'For iPhone 11, choose a suitable USB-PD adapter and Lightning cable, verifying the exact cable\'s MFi licensing and Apple requirements. If battery performance has declined, compare qualified diagnosis and replacement with a compatible power bank; wattage or capacity alone does not guarantee runtime or protection.',
             faq: [

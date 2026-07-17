@@ -25,7 +25,7 @@ export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
             title: 'دليل شراء سامسونج جالاكسي فئة M: كيف تختار الهاتف وأفضل شواحن ميزانية؟',
             metaTitle: 'دليل شراء سامسونج جالاكسي فئة M شواحن وإكسسوارات',
             metaDescription: 'دليل شامل لشراء واختيار هواتف سامسونج جالاكسي فئة M (مثل M14, M34, M54) في مصر. تعرف على الشواحن المتوافقة وسرعات شحن البطاريات العملاقة بقدرة 6000 مللي أمبير.',
-            keywords: 'سامسونج فئة M, سعر سامسونج m34 في مصر, سعر سامسونج m54 في مصر, شاحن سامسونج m14 الأصلي, جرابات سامسونج m52, شواحن سامسونج فئة m',
+            keywords: 'سامسونج فئة M, دليل شراء سامسونج فئة M, شاحن سامسونج m14 الأصلي, جرابات سامسونج m52, شواحن سامسونج فئة m',
             excerpt: 'تبحث عن هاتف ببطارية ضخمة؟ فئة سامسونج M تقدم وحوش الطاقة بمصر ولكن دون شاحن بالعلبة. نوضح لك المعايير الفنية لاختيار شاحن معتمد وموفر.',
             quickAnswer: 'تختلف قدرة الشحن ومحتويات العلبة في هواتف سامسونج فئة M حسب الموديل والسوق. راجع مواصفات جهازك؛ وإذا كان يدعم Super Fast Charging فطابق الشاحن مع USB-PD وPPS والقدرة المطلوبة. زمن الشحن يتغير حسب الهاتف والحرارة والاستخدام والكابل.',
             faq: [
@@ -150,7 +150,7 @@ export const samsung_galaxy_m_buying_guide_accessories: BlogArticle = {
             title: 'Samsung Galaxy M Series Buying Guide: Selecting the Phone & Best Budget Chargers',
             metaTitle: 'Samsung Galaxy M Series Buying Guide Accessories',
             metaDescription: 'A complete guide to choosing and buying Samsung Galaxy M series phones (M14, M34, M54) in Egypt. Learn about PPS chargers and battery capacity requirements.',
-            keywords: 'samsung galaxy m series, samsung m34 price egypt, samsung m54 price egypt, original samsung m14 charger, samsung m52 cases, best chargers for samsung m series',
+            keywords: 'samsung galaxy m series, samsung m series buying guide, original samsung m14 charger, samsung m52 cases, best chargers for samsung m series',
             excerpt: 'Looking for a smartphone with an exceptional battery? Samsung M series offers power monsters in Egypt but without inside-box chargers. We explain how to select budget adapters.',
             quickAnswer: 'Charging power and box contents vary across Samsung Galaxy M models and markets. Check the exact device specification; where Super Fast Charging is supported, match the adapter to USB-PD, PPS, and the required wattage. Charging time varies with the phone, temperature, use, and cable.',
             faq: [

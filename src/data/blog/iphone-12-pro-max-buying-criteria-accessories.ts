@@ -25,7 +25,7 @@ export const iphone_12_pro_max_buying_criteria_accessories: BlogArticle = {
             title: 'ايفون 12 برو ماكس مستعمل: معايير الشراء الذكي وأهم الإكسسوارات لتجديده',
             metaTitle: 'شراء ايفون 12 برو ماكس مستعمل بمصر وإكسسواراته',
             metaDescription: 'دليل شامل لشراء ايفون 12 برو ماكس مستعمل في مصر. تعرف على معايير الفحص الفني للبطارية والشاشة وأهم إكسسوارات الشحن وحماية الشاشة المعتمدة لتجديد الهاتف بالكامل.',
-            keywords: 'شراء ايفون 12 برو ماكس مستعمل في مصر, سعر ايفون 12 برو max في مصر, مواصفات ايفون 12 برو ماكس, شاحن ايفون 12 برو ماكس, بطارية ايفون 12 برو ماكس, اكسسوارات ايفون 12 برو ماكس',
+            keywords: 'شراء ايفون 12 برو ماكس مستعمل في مصر, مواصفات ايفون 12 برو ماكس, شاحن ايفون 12 برو ماكس, بطارية ايفون 12 برو ماكس, اكسسوارات ايفون 12 برو ماكس',
             excerpt: 'هل تفكر في شراء ايفون 12 برو ماكس مستعمل في مصر؟ بنشرح لك بالخطوات كيفية فحص الشاشة والبطارية و Face ID وتجنب الهواتف المجددة، وترشيحاتنا لأفضل إكسسوارات الشحن والتجديد.',
             quickAnswer: 'عند شراء ايفون 12 برو ماكس مستعمل، افحص Battery Health ورسائل القطع وسجل الخدمة وFace ID وTrue Tone والشاشة والمنافذ، واطلب فاتورة وهوية البائع. لا يثبت 3uTools أو اختبار أسود أو ميزة واحدة أصالة كل المكونات. للشحن، طابق شاحن USB-C PD وكابل Lightning مع إرشادات Apple للموديل.',
             faq: [
@@ -141,7 +141,7 @@ export const iphone_12_pro_max_buying_criteria_accessories: BlogArticle = {
             title: 'Used iPhone 12 Pro Max: Smart Buying Criteria & Essential Accessories',
             metaTitle: 'Used iPhone 12 Pro Max Buying Guide & Accessories',
             metaDescription: 'A technical inspection guide for buying a used iPhone 12 Pro Max in Egypt. Learn how to test the screen, battery health, and verify hardware authenticity.',
-            keywords: 'buy used iphone 12 pro max egypt, iphone 12 pro max price egypt, best accessories for iphone 12 pro max, original apple charger 20w, iphone 12 pro max battery capacity, used iphone 12 pro max inspect',
+            keywords: 'buy used iphone 12 pro max egypt, best accessories for iphone 12 pro max, original apple charger 20w, iphone 12 pro max battery capacity, used iphone 12 pro max inspect',
             excerpt: 'Are you buying a used iPhone 12 Pro Max in Egypt? We detail step-by-step how to inspect the battery, display, Face ID, and how to choose original-grade charging accessories.',
             quickAnswer: 'For a used iPhone 12 Pro Max, inspect Battery Health, parts and service messages, Face ID, True Tone, display, ports, seller identity, and invoice. A 3uTools report, black-image test, or one feature cannot prove every component is original. For charging, match a USB-C PD adapter and Lightning cable to Apple guidance for the model.',
             faq: [

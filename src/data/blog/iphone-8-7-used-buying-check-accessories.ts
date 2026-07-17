@@ -26,7 +26,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
             title: 'دليل شراء ايفون 7 أو 8 مستعمل: كيف تفحص الهاتف وما هي الإكسسوارات الآمنة؟',
             metaTitle: 'دليل شراء ايفون 7 أو 8 مستعمل شواحن وإكسسوارات',
             metaDescription: 'دليل شامل لشراء وفحص هواتف ايفون 7 وايفون 8 مستعملة في مصر. تعرف على كيفية اختبار بصمة الإصبع وعيب الصوت وكشف الأيكلود المخطي واختيار الشواحن المعتمدة.',
-            keywords: 'ايفون 8 مستعمل, سعر ايفون 7 بلس مستعمل في مصر, فحص الايفون المستعمل, شاحن ايفون 8 اصلي, بطارية ايفون 7 بلس اصلية, جرابات ايفون 8',
+            keywords: 'ايفون 8 مستعمل, فحص الايفون المستعمل, شاحن ايفون 8 اصلي, بطارية ايفون 7 بلس اصلية, جرابات ايفون 8',
             excerpt: 'تبحث عن ايفون 7 أو 8 مستعمل كحساب إضافي أو هاتف طوارئ بمصر؟ نوضح لك بالخطوات العلمية كيفية فحص عيوب الهوم والآيكلود وتفاصيل الشحن المتوافقة.',
             quickAnswer: 'عند شراء ايفون 7 أو 8 مستعمل بمصر: (1) **قم بعمل إعادة تعيين كاملة للبيانات** لإلغاء أي آيكلود مخطي (Bypassed iCloud). (2) **افحص بصمة الإصبع (Touch ID)** حيث يستحيل تعويضها لو تعطلت. (3) **للشحن السريع**: يدعم ايفون 8 تقنية USB-PD بقوة 18 واط؛ استخدم شاحن جويروم 30 واط مع كابل MFi متوافق.',
             faq: [
@@ -152,7 +152,7 @@ export const iphone_8_7_used_buying_check_accessories: BlogArticle = {
             title: 'Buying a Used iPhone 7 or 8: Inspection Checklist & Safe Accessories',
             metaTitle: 'Buying Used iPhone 7 or 8 Inspection Checklist Accessories',
             metaDescription: 'A comprehensive buying guide for used iPhone 7 and iPhone 8 in Egypt. Learn how to inspect bypassed iCloud, Touch ID errors, Audio IC issues, and accessories.',
-            keywords: 'used iphone 8 egypt, used iphone 7 plus price egypt, used iphone inspection checklist, original iphone 8 charger, iphone 7 plus battery replacement, iphone 8 cases',
+            keywords: 'used iphone 8 egypt, used iphone inspection checklist, original iphone 8 charger, iphone 7 plus battery replacement, iphone 8 cases',
             excerpt: 'Searching for a pre-owned iPhone 7 or 8 in Egypt as a backup phone? We guide you through factory resets, Touch ID validation, and MFi charging requirements.',
             quickAnswer: 'When buying a used iPhone 7 or 8 in Egypt: (1) **Perform a factory reset** to clear any bypassed iCloud accounts. (2) **Verify Touch ID and button clicks**, which are securely paired to the motherboard. (3) **Charging**: Choose a PPS-compatible charger (like the Joyroom 30W block) to enable Samsung\'s Super Fast Charging (SFC).',
             faq: [

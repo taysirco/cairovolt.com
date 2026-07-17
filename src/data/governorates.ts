@@ -1,6 +1,15 @@
 /**
  * Egyptian Governorates Data
  * Complete list of all 27 governorates for regional coverage
+ *
+ * `deliveryDays` is the published lower-bound estimate used by
+ * src/lib/bosta.ts (displayed as deliveryDays–deliveryDays+1 business days,
+ * always framed as an estimate confirmed after address review).
+ * `cities` lists real major cities/districts of each governorate (public
+ * administrative geography) used to differentiate the location pages; it is
+ * NOT a service guarantee — copy that renders it must keep the
+ * "eligible addresses" framing.
+ * Shipping fee tiers per governorate live in src/lib/shipping.ts.
  */
 
 export interface Governorate {
@@ -10,6 +19,10 @@ export interface Governorate {
     region: 'cairo' | 'delta' | 'canal' | 'upper' | 'coastal' | 'desert';
     deliveryDays: number;
     population: number; // in millions
+    cities: {
+        en: string[];
+        ar: string[];
+    };
     meta: {
         titleEn: string;
         titleAr: string;
@@ -27,11 +40,15 @@ export const governorates: Governorate[] = [
         region: 'cairo',
         deliveryDays: 1,
         population: 10.2,
+        cities: {
+            en: ['Nasr City', 'Maadi', 'Heliopolis', 'New Cairo'],
+            ar: ['مدينة نصر', 'المعادي', 'مصر الجديدة', 'القاهرة الجديدة'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Delivery to Cairo | CairoVolt',
-            titleAr: 'توصيل اكسسوارات موبايل إلى القاهرة | كايرو فولت',
-            descriptionEn: 'Shop Anker and Joyroom power banks, chargers, and earbuds with an address-based delivery estimate and written CairoVolt warranty terms.',
-            descriptionAr: 'تسوق باور بانك وشواحن وسماعات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان وشروط ضمان كايرو فولت المكتوبة.',
+            titleEn: 'Power Banks in Cairo – Nasr City, Maadi & New Cairo | CairoVolt',
+            titleAr: 'باور بانك في القاهرة – مدينة نصر والمعادي والقاهرة الجديدة | كايرو فولت',
+            descriptionEn: 'Compare Anker and Joyroom power banks and chargers with address-based delivery estimates for Nasr City, Maadi, Heliopolis, New Cairo, and other Cairo districts.',
+            descriptionAr: 'قارن باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية حسب العنوان لمدينة نصر والمعادي ومصر الجديدة والقاهرة الجديدة وباقي أحياء القاهرة.',
         },
     },
     {
@@ -41,11 +58,15 @@ export const governorates: Governorate[] = [
         region: 'cairo',
         deliveryDays: 1,
         population: 9.1,
+        cities: {
+            en: ['6th of October', 'Sheikh Zayed', 'Dokki', 'Haram'],
+            ar: ['السادس من أكتوبر', 'الشيخ زايد', 'الدقي', 'الهرم'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Giza | Fast Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الجيزة | توصيل سريع | كايرو فولت',
-            descriptionEn: 'Shop Anker and Joyroom accessories with delivery estimates for 6th October, Sheikh Zayed, and other Giza areas.',
-            descriptionAr: 'تسوق اكسسوارات انكر وجوي روم مع مواعيد توصيل تقديرية لأكتوبر والشيخ زايد ومناطق الجيزة.',
+            titleEn: 'Power Banks in Giza – 6th of October, Sheikh Zayed & Dokki | CairoVolt',
+            titleAr: 'باور بانك في الجيزة – أكتوبر والشيخ زايد والدقي | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks, chargers, and earbuds with delivery estimates for 6th of October, Sheikh Zayed, Dokki, Haram, and the rest of Giza.',
+            descriptionAr: 'باور بانك وشواحن وسماعات انكر وجوي روم مع مواعيد توصيل تقديرية لأكتوبر والشيخ زايد والدقي والهرم وباقي مناطق الجيزة.',
         },
     },
     {
@@ -55,11 +76,15 @@ export const governorates: Governorate[] = [
         region: 'cairo',
         deliveryDays: 2,
         population: 5.9,
+        cities: {
+            en: ['Benha', 'Shubra El Kheima', 'Qalyub', 'El Obour'],
+            ar: ['بنها', 'شبرا الخيمة', 'قليوب', 'العبور'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Qalyubia | Fast Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل القليوبية | توصيل سريع | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories in Qalyubia with fast delivery to Benha, Shubra El Kheima & all areas.',
-            descriptionAr: 'تسوق اكسسوارات الموبايل في القليوبية مع توصيل سريع لبنها وشبرا الخيمة وكل المناطق.',
+            titleEn: 'Power Banks in Qalyubia – Benha & Shubra El Kheima | CairoVolt',
+            titleAr: 'باور بانك في القليوبية – بنها وشبرا الخيمة | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging gear with delivery estimates for Benha, Shubra El Kheima, Qalyub, and El Obour in Qalyubia.',
+            descriptionAr: 'تسوق مستلزمات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لبنها وشبرا الخيمة وقليوب والعبور في القليوبية.',
         },
     },
     // Delta Region
@@ -70,11 +95,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 2,
         population: 5.4,
+        cities: {
+            en: ['Smouha', 'Miami', 'Agami', 'Borg El Arab'],
+            ar: ['سموحة', 'ميامي', 'العجمي', 'برج العرب'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Alexandria | Anker & Joyroom | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الإسكندرية | انكر وجوي روم | كايرو فولت',
-            descriptionEn: 'Shop Anker and Joyroom power banks, chargers, and earbuds with an address-based delivery estimate for Alexandria.',
-            descriptionAr: 'تسوق باور بانك وشواحن وسماعات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان في الإسكندرية.',
+            titleEn: 'Power Banks in Alexandria – Smouha, Miami & Agami | CairoVolt',
+            titleAr: 'باور بانك في الإسكندرية – سموحة وميامي والعجمي | كايرو فولت',
+            descriptionEn: 'Compare Anker and Joyroom power banks and chargers with address-based delivery estimates for Smouha, Miami, Agami, Borg El Arab, and greater Alexandria.',
+            descriptionAr: 'قارن باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية حسب العنوان لسموحة وميامي والعجمي وبرج العرب وباقي الإسكندرية.',
         },
     },
     {
@@ -84,11 +113,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 2,
         population: 6.9,
+        cities: {
+            en: ['Mansoura', 'Talkha', 'Mit Ghamr'],
+            ar: ['المنصورة', 'طلخا', 'ميت غمر'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Dakahlia | Mansoura Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الدقهلية | توصيل المنصورة | كايرو فولت',
-            descriptionEn: 'Shop Anker & Joyroom in Dakahlia with delivery to Mansoura, Talkha & Mit Ghamr.',
-            descriptionAr: 'تسوق انكر وجوي روم في الدقهلية مع توصيل للمنصورة وطلخا وميت غمر.',
+            titleEn: 'Power Banks in Dakahlia – Mansoura, Talkha & Mit Ghamr | CairoVolt',
+            titleAr: 'باور بانك في الدقهلية – المنصورة وطلخا وميت غمر | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Mansoura, Talkha, and Mit Ghamr in Dakahlia.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية للمنصورة وطلخا وميت غمر في الدقهلية.',
         },
     },
     {
@@ -98,11 +131,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 2,
         population: 7.5,
+        cities: {
+            en: ['Zagazig', '10th of Ramadan', 'Belbeis'],
+            ar: ['الزقازيق', 'العاشر من رمضان', 'بلبيس'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Sharqia | Zagazig Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الشرقية | توصيل الزقازيق | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories with delivery estimates for Zagazig, 10th of Ramadan, Belbeis, and other Sharqia areas.',
-            descriptionAr: 'تسوق اكسسوارات موبايل مع مواعيد توصيل تقديرية للزقازيق والعاشر من رمضان وبلبيس ومناطق الشرقية.',
+            titleEn: 'Power Banks in Sharqia – Zagazig & 10th of Ramadan | CairoVolt',
+            titleAr: 'باور بانك في الشرقية – الزقازيق والعاشر من رمضان | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging products with delivery estimates for Zagazig, 10th of Ramadan City, and Belbeis in Sharqia.',
+            descriptionAr: 'تسوق منتجات شحن انكر وجوي روم مع مواعيد توصيل تقديرية للزقازيق والعاشر من رمضان وبلبيس في الشرقية.',
         },
     },
     {
@@ -112,11 +149,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 2,
         population: 5.3,
+        cities: {
+            en: ['Tanta', 'El Mahalla El Kubra', 'Kafr El-Zayat'],
+            ar: ['طنطا', 'المحلة الكبرى', 'كفر الزيات'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Gharbia | Tanta Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الغربية | توصيل طنطا | كايرو فولت',
-            descriptionEn: 'Shop Anker & Joyroom in Gharbia with delivery to Tanta, El Mahalla & Kafr El-Zayat.',
-            descriptionAr: 'تسوق انكر وجوي روم في الغربية مع توصيل لطنطا والمحلة وكفر الزيات.',
+            titleEn: 'Power Banks in Gharbia – Tanta & El Mahalla | CairoVolt',
+            titleAr: 'باور بانك في الغربية – طنطا والمحلة الكبرى | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Tanta, El Mahalla El Kubra, and Kafr El-Zayat in Gharbia.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لطنطا والمحلة الكبرى وكفر الزيات في الغربية.',
         },
     },
     {
@@ -126,11 +167,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 2,
         population: 4.5,
+        cities: {
+            en: ['Shibin El Kom', 'Sadat City', 'Menouf'],
+            ar: ['شبين الكوم', 'مدينة السادات', 'منوف'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Monufia | Shibin El Kom | CairoVolt',
-            titleAr: 'اكسسوارات موبايل المنوفية | شبين الكوم | كايرو فولت',
-            descriptionEn: 'Shop Anker accessories with delivery estimates for Shibin El Kom, Sadat City, and other Monufia areas.',
-            descriptionAr: 'تسوق اكسسوارات انكر مع مواعيد توصيل تقديرية لشبين الكوم ومدينة السادات ومناطق المنوفية.',
+            titleEn: 'Power Banks in Monufia – Shibin El Kom & Sadat City | CairoVolt',
+            titleAr: 'باور بانك في المنوفية – شبين الكوم ومدينة السادات | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging gear with delivery estimates for Shibin El Kom, Sadat City, and Menouf in Monufia.',
+            descriptionAr: 'تسوق مستلزمات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لشبين الكوم ومدينة السادات ومنوف في المنوفية.',
         },
     },
     {
@@ -140,11 +185,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 3,
         population: 6.7,
+        cities: {
+            en: ['Damanhour', 'Kafr El-Dawwar', 'Rashid'],
+            ar: ['دمنهور', 'كفر الدوار', 'رشيد'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Beheira | Damanhour Delivery | CairoVolt',
-            titleAr: 'اكسسوارات موبايل البحيرة | توصيل دمنهور | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories in Beheira with delivery to Damanhour, Kafr El-Dawwar & Rashid.',
-            descriptionAr: 'تسوق اكسسوارات الموبايل في البحيرة مع توصيل لدمنهور وكفر الدوار ورشيد.',
+            titleEn: 'Power Banks in Beheira – Damanhour & Kafr El-Dawwar | CairoVolt',
+            titleAr: 'باور بانك في البحيرة – دمنهور وكفر الدوار | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Damanhour, Kafr El-Dawwar, and Rashid in Beheira.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لدمنهور وكفر الدوار ورشيد في البحيرة.',
         },
     },
     {
@@ -154,11 +203,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 3,
         population: 3.5,
+        cities: {
+            en: ['Kafr El Sheikh City', 'Desouk', 'Baltim'],
+            ar: ['مدينة كفر الشيخ', 'دسوق', 'بلطيم'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Kafr El Sheikh | CairoVolt',
-            titleAr: 'اكسسوارات موبايل كفر الشيخ | كايرو فولت',
-            descriptionEn: 'Shop Anker and Joyroom products with an address-based delivery estimate across Kafr El Sheikh.',
-            descriptionAr: 'تسوق منتجات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان في كفر الشيخ.',
+            titleEn: 'Power Banks in Kafr El Sheikh – Desouk & Baltim | CairoVolt',
+            titleAr: 'باور بانك في كفر الشيخ – دسوق وبلطيم | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging products with delivery estimates for Kafr El Sheikh City, Desouk, and Baltim.',
+            descriptionAr: 'تسوق منتجات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة كفر الشيخ ودسوق وبلطيم.',
         },
     },
     {
@@ -168,11 +221,15 @@ export const governorates: Governorate[] = [
         region: 'delta',
         deliveryDays: 2,
         population: 1.5,
+        cities: {
+            en: ['Damietta City', 'New Damietta', 'Ras El Bar'],
+            ar: ['مدينة دمياط', 'دمياط الجديدة', 'رأس البر'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Damietta | New Damietta | CairoVolt',
-            titleAr: 'اكسسوارات موبايل دمياط | دمياط الجديدة | كايرو فولت',
-            descriptionEn: 'Shop Anker accessories in Damietta with delivery to Damietta & New Damietta.',
-            descriptionAr: 'تسوق اكسسوارات انكر في دمياط مع توصيل لدمياط ودمياط الجديدة.',
+            titleEn: 'Power Banks in Damietta – New Damietta & Ras El Bar | CairoVolt',
+            titleAr: 'باور بانك في دمياط – دمياط الجديدة ورأس البر | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Damietta City, New Damietta, and Ras El Bar.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة دمياط ودمياط الجديدة ورأس البر.',
         },
     },
     // Canal Zone
@@ -183,11 +240,15 @@ export const governorates: Governorate[] = [
         region: 'canal',
         deliveryDays: 2,
         population: 0.8,
+        cities: {
+            en: ['Port Said City', 'Port Fouad'],
+            ar: ['مدينة بورسعيد', 'بورفؤاد'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Port Said | CairoVolt',
-            titleAr: 'اكسسوارات موبايل بورسعيد | كايرو فولت',
-            descriptionEn: 'Shop Anker and Joyroom accessories with an address-based delivery estimate for Port Said.',
-            descriptionAr: 'تسوق اكسسوارات انكر وجوي روم مع موعد توصيل تقديري حسب العنوان في بورسعيد.',
+            titleEn: 'Power Banks in Port Said & Port Fouad | CairoVolt',
+            titleAr: 'باور بانك في بورسعيد وبورفؤاد | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging gear with delivery estimates for Port Said City and Port Fouad.',
+            descriptionAr: 'تسوق مستلزمات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة بورسعيد وبورفؤاد.',
         },
     },
     {
@@ -197,11 +258,15 @@ export const governorates: Governorate[] = [
         region: 'canal',
         deliveryDays: 2,
         population: 1.4,
+        cities: {
+            en: ['Ismailia City', 'Fayed', 'El Qantara'],
+            ar: ['مدينة الإسماعيلية', 'فايد', 'القنطرة'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Ismailia | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الإسماعيلية | كايرو فولت',
-            descriptionEn: 'Shop Anker & Joyroom in Ismailia with fast delivery.',
-            descriptionAr: 'تسوق انكر وجوي روم في الإسماعيلية مع توصيل سريع.',
+            titleEn: 'Power Banks in Ismailia – Fayed & El Qantara | CairoVolt',
+            titleAr: 'باور بانك في الإسماعيلية – فايد والقنطرة | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Ismailia City, Fayed, and El Qantara.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة الإسماعيلية وفايد والقنطرة.',
         },
     },
     {
@@ -211,11 +276,15 @@ export const governorates: Governorate[] = [
         region: 'canal',
         deliveryDays: 2,
         population: 0.8,
+        cities: {
+            en: ['Suez City', 'Ain Sokhna'],
+            ar: ['مدينة السويس', 'العين السخنة'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Suez | CairoVolt',
-            titleAr: 'اكسسوارات موبايل السويس | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories for delivery to Suez with written CairoVolt warranty terms shown per product.',
-            descriptionAr: 'تسوق اكسسوارات موبايل للتوصيل إلى السويس مع شروط ضمان كايرو فولت المكتوبة لكل منتج.',
+            titleEn: 'Power Banks in Suez & Ain Sokhna | CairoVolt',
+            titleAr: 'باور بانك في السويس والعين السخنة | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging products with delivery estimates for Suez City and Ain Sokhna.',
+            descriptionAr: 'تسوق منتجات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة السويس والعين السخنة.',
         },
     },
     // Upper Egypt
@@ -226,11 +295,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 3,
         population: 3.8,
+        cities: {
+            en: ['Fayoum City', 'Sinnuris', 'Tamiya'],
+            ar: ['مدينة الفيوم', 'سنورس', 'طامية'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Fayoum | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الفيوم | كايرو فولت',
-            descriptionEn: 'Shop Anker & Joyroom in Fayoum with delivery.',
-            descriptionAr: 'تسوق انكر وجوي روم في الفيوم مع التوصيل.',
+            titleEn: 'Power Banks in Fayoum – Sinnuris & Tamiya | CairoVolt',
+            titleAr: 'باور بانك في الفيوم – سنورس وطامية | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Fayoum City, Sinnuris, and Tamiya.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة الفيوم وسنورس وطامية.',
         },
     },
     {
@@ -240,11 +313,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 3,
         population: 3.4,
+        cities: {
+            en: ['Beni Suef City', 'New Beni Suef', 'El Wasta'],
+            ar: ['مدينة بني سويف', 'بني سويف الجديدة', 'الواسطى'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Beni Suef | CairoVolt',
-            titleAr: 'اكسسوارات موبايل بني سويف | كايرو فولت',
-            descriptionEn: 'Shop Anker accessories for delivery to Beni Suef with CairoVolt warranty terms shown per product.',
-            descriptionAr: 'تسوق اكسسوارات انكر للتوصيل إلى بني سويف مع شروط ضمان كايرو فولت لكل منتج.',
+            titleEn: 'Power Banks in Beni Suef – New Beni Suef & El Wasta | CairoVolt',
+            titleAr: 'باور بانك في بني سويف – بني سويف الجديدة والواسطى | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging gear with delivery estimates for Beni Suef City, New Beni Suef, and El Wasta.',
+            descriptionAr: 'تسوق مستلزمات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة بني سويف وبني سويف الجديدة والواسطى.',
         },
     },
     {
@@ -254,11 +331,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 3,
         population: 5.9,
+        cities: {
+            en: ['Minya City', 'New Minya', 'Mallawi'],
+            ar: ['مدينة المنيا', 'المنيا الجديدة', 'ملوي'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Minya | CairoVolt',
-            titleAr: 'اكسسوارات موبايل المنيا | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories in Minya with delivery.',
-            descriptionAr: 'تسوق اكسسوارات الموبايل في المنيا مع التوصيل.',
+            titleEn: 'Power Banks in Minya – New Minya & Mallawi | CairoVolt',
+            titleAr: 'باور بانك في المنيا – المنيا الجديدة وملوي | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Minya City, New Minya, and Mallawi.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة المنيا والمنيا الجديدة وملوي.',
         },
     },
     {
@@ -268,11 +349,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 3,
         population: 4.8,
+        cities: {
+            en: ['Asyut City', 'New Asyut', 'Dayrout'],
+            ar: ['مدينة أسيوط', 'أسيوط الجديدة', 'ديروط'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Asyut | CairoVolt',
-            titleAr: 'اكسسوارات موبايل أسيوط | كايرو فولت',
-            descriptionEn: 'Shop Anker and Joyroom products for delivery to Asyut with written CairoVolt warranty terms shown per product.',
-            descriptionAr: 'تسوق منتجات انكر وجوي روم للتوصيل إلى أسيوط مع شروط ضمان كايرو فولت المكتوبة لكل منتج.',
+            titleEn: 'Power Banks in Asyut – New Asyut & Dayrout | CairoVolt',
+            titleAr: 'باور بانك في أسيوط – أسيوط الجديدة وديروط | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging products with delivery estimates for Asyut City, New Asyut, and Dayrout.',
+            descriptionAr: 'تسوق منتجات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة أسيوط وأسيوط الجديدة وديروط.',
         },
     },
     {
@@ -282,11 +367,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 4,
         population: 5.4,
+        cities: {
+            en: ['Sohag City', 'Akhmim', 'Girga'],
+            ar: ['مدينة سوهاج', 'أخميم', 'جرجا'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Sohag | CairoVolt',
-            titleAr: 'اكسسوارات موبايل سوهاج | كايرو فولت',
-            descriptionEn: 'Shop Anker accessories in Sohag with delivery.',
-            descriptionAr: 'تسوق اكسسوارات انكر في سوهاج مع التوصيل.',
+            titleEn: 'Power Banks in Sohag – Akhmim & Girga | CairoVolt',
+            titleAr: 'باور بانك في سوهاج – أخميم وجرجا | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Sohag City, Akhmim, and Girga.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة سوهاج وأخميم وجرجا.',
         },
     },
     {
@@ -296,11 +385,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 4,
         population: 3.4,
+        cities: {
+            en: ['Qena City', 'Nag Hammadi', 'Qus'],
+            ar: ['مدينة قنا', 'نجع حمادي', 'قوص'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Qena | CairoVolt',
-            titleAr: 'اكسسوارات موبايل قنا | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories with delivery estimates for Qena.',
-            descriptionAr: 'تسوق اكسسوارات موبايل مع موعد توصيل تقديري إلى قنا.',
+            titleEn: 'Power Banks in Qena – Nag Hammadi & Qus | CairoVolt',
+            titleAr: 'باور بانك في قنا – نجع حمادي وقوص | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging gear with delivery estimates for Qena City, Nag Hammadi, and Qus.',
+            descriptionAr: 'تسوق مستلزمات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة قنا ونجع حمادي وقوص.',
         },
     },
     {
@@ -310,11 +403,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 4,
         population: 1.3,
+        cities: {
+            en: ['Luxor City', 'Armant', 'Esna'],
+            ar: ['مدينة الأقصر', 'أرمنت', 'إسنا'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Luxor | Egypt | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الأقصر | مصر | كايرو فولت',
-            descriptionEn: 'Shop Anker & Joyroom in Luxor with delivery.',
-            descriptionAr: 'تسوق انكر وجوي روم في الأقصر مع التوصيل.',
+            titleEn: 'Power Banks in Luxor – Armant & Esna | CairoVolt',
+            titleAr: 'باور بانك في الأقصر – أرمنت وإسنا | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Luxor City, Armant, and Esna.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة الأقصر وأرمنت وإسنا.',
         },
     },
     {
@@ -324,11 +421,15 @@ export const governorates: Governorate[] = [
         region: 'upper',
         deliveryDays: 5,
         population: 1.6,
+        cities: {
+            en: ['Aswan City', 'Kom Ombo', 'Edfu'],
+            ar: ['مدينة أسوان', 'كوم أمبو', 'إدفو'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Aswan | Egypt | CairoVolt',
-            titleAr: 'اكسسوارات موبايل أسوان | مصر | كايرو فولت',
-            descriptionEn: 'Shop Anker accessories for delivery to Aswan with CairoVolt warranty terms shown per product.',
-            descriptionAr: 'تسوق اكسسوارات انكر للتوصيل إلى أسوان مع شروط ضمان كايرو فولت لكل منتج.',
+            titleEn: 'Power Banks in Aswan – Kom Ombo & Edfu | CairoVolt',
+            titleAr: 'باور بانك في أسوان – كوم أمبو وإدفو | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging products with delivery estimates for Aswan City, Kom Ombo, and Edfu.',
+            descriptionAr: 'تسوق منتجات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمدينة أسوان وكوم أمبو وإدفو.',
         },
     },
     // Coastal & Desert
@@ -339,11 +440,15 @@ export const governorates: Governorate[] = [
         region: 'coastal',
         deliveryDays: 4,
         population: 0.4,
+        cities: {
+            en: ['Hurghada', 'El Gouna', 'Safaga'],
+            ar: ['الغردقة', 'الجونة', 'سفاجا'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Hurghada Red Sea | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الغردقة البحر الأحمر | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories in Hurghada & Red Sea region.',
-            descriptionAr: 'تسوق اكسسوارات الموبايل في الغردقة والبحر الأحمر.',
+            titleEn: 'Power Banks in Hurghada & Red Sea – El Gouna & Safaga | CairoVolt',
+            titleAr: 'باور بانك في الغردقة والبحر الأحمر – الجونة وسفاجا | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Hurghada, El Gouna, and Safaga on the Red Sea.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية للغردقة والجونة وسفاجا بالبحر الأحمر.',
         },
     },
     {
@@ -353,11 +458,15 @@ export const governorates: Governorate[] = [
         region: 'desert',
         deliveryDays: 5,
         population: 0.5,
+        cities: {
+            en: ['El Arish', 'Bir El Abd'],
+            ar: ['العريش', 'بئر العبد'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories North Sinai El Arish | CairoVolt',
-            titleAr: 'اكسسوارات موبايل شمال سيناء العريش | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories with delivery estimates for North Sinai and El Arish.',
-            descriptionAr: 'تسوق اكسسوارات موبايل مع مواعيد توصيل تقديرية لشمال سيناء والعريش.',
+            titleEn: 'Power Banks in North Sinai – El Arish & Bir El Abd | CairoVolt',
+            titleAr: 'باور بانك في شمال سيناء – العريش وبئر العبد | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging gear with delivery estimates for El Arish and Bir El Abd in North Sinai; availability is confirmed per address.',
+            descriptionAr: 'تسوق مستلزمات شحن انكر وجوي روم مع مواعيد توصيل تقديرية للعريش وبئر العبد في شمال سيناء، ويُؤكد التوفر حسب العنوان.',
         },
     },
     {
@@ -367,11 +476,15 @@ export const governorates: Governorate[] = [
         region: 'desert',
         deliveryDays: 4,
         population: 0.2,
+        cities: {
+            en: ['Sharm El Sheikh', 'Dahab', 'Ras Sudr'],
+            ar: ['شرم الشيخ', 'دهب', 'رأس سدر'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Sharm El Sheikh | CairoVolt',
-            titleAr: 'اكسسوارات موبايل شرم الشيخ | كايرو فولت',
-            descriptionEn: 'Shop Anker in Sharm El Sheikh & South Sinai.',
-            descriptionAr: 'تسوق انكر في شرم الشيخ وجنوب سيناء.',
+            titleEn: 'Power Banks in Sharm El Sheikh – Dahab & Ras Sudr | CairoVolt',
+            titleAr: 'باور بانك في شرم الشيخ – دهب ورأس سدر | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Sharm El Sheikh, Dahab, and Ras Sudr in South Sinai.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية لشرم الشيخ ودهب ورأس سدر في جنوب سيناء.',
         },
     },
     {
@@ -381,11 +494,15 @@ export const governorates: Governorate[] = [
         region: 'coastal',
         deliveryDays: 4,
         population: 0.5,
+        cities: {
+            en: ['Marsa Matrouh', 'El Alamein', 'El Dabaa'],
+            ar: ['مرسى مطروح', 'العلمين', 'الضبعة'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories Marsa Matrouh | CairoVolt',
-            titleAr: 'اكسسوارات موبايل مرسى مطروح | كايرو فولت',
-            descriptionEn: 'Shop mobile accessories with delivery estimates for Marsa Matrouh.',
-            descriptionAr: 'تسوق اكسسوارات موبايل مع موعد توصيل تقديري إلى مرسى مطروح.',
+            titleEn: 'Power Banks in Marsa Matrouh – El Alamein & El Dabaa | CairoVolt',
+            titleAr: 'باور بانك في مرسى مطروح – العلمين والضبعة | كايرو فولت',
+            descriptionEn: 'Shop Anker and Joyroom charging products with delivery estimates for Marsa Matrouh, El Alamein, and El Dabaa.',
+            descriptionAr: 'تسوق منتجات شحن انكر وجوي روم مع مواعيد توصيل تقديرية لمرسى مطروح والعلمين والضبعة.',
         },
     },
     {
@@ -395,11 +512,15 @@ export const governorates: Governorate[] = [
         region: 'desert',
         deliveryDays: 5,
         population: 0.3,
+        cities: {
+            en: ['Kharga', 'Dakhla'],
+            ar: ['الخارجة', 'الداخلة'],
+        },
         meta: {
-            titleEn: 'Mobile Accessories New Valley | CairoVolt',
-            titleAr: 'اكسسوارات موبايل الوادي الجديد | كايرو فولت',
-            descriptionEn: 'Shop accessories in New Valley & Kharga.',
-            descriptionAr: 'تسوق اكسسوارات في الوادي الجديد والخارجة.',
+            titleEn: 'Power Banks in New Valley – Kharga & Dakhla | CairoVolt',
+            titleAr: 'باور بانك في الوادي الجديد – الخارجة والداخلة | كايرو فولت',
+            descriptionEn: 'Anker and Joyroom power banks and chargers with delivery estimates for Kharga and Dakhla in New Valley; availability is confirmed per address.',
+            descriptionAr: 'باور بانك وشواحن انكر وجوي روم مع مواعيد توصيل تقديرية للخارجة والداخلة في الوادي الجديد، ويُؤكد التوفر حسب العنوان.',
         },
     },
 ];

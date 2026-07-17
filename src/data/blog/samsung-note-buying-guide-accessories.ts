@@ -25,7 +25,7 @@ export const samsung_note_buying_guide_accessories: BlogArticle = {
             title: 'دليل شراء سامسونج جالاكسي Note مستعمل: كيف تفحص الهاتف وتختار الإكسسوارات؟',
             metaTitle: 'دليل شراء سامسونج جالاكسي Note مستعمل شواحن وإكسسوارات',
             metaDescription: 'دليل شامل لشراء وفحص هواتف سامسونج جالاكسي نوت 10 ونوت 20 مستعملة في مصر. تعرف على كيفية اختبار الشاشة وتأثير الجرابات المغناطيسية على قلم S Pen.',
-            keywords: 'شراء سامسونج نوت مستعمل, سعر سامسونج نوت 20 الترا في مصر, سعر نوت 10 بلس مستعمل, شاحن سامسونج 25 واط الأصلي, قلم سامسونج s pen اصلي, اكسسوارات سامسونج نوت',
+            keywords: 'شراء سامسونج نوت مستعمل, فحص سامسونج نوت مستعمل, شاحن سامسونج 25 واط الأصلي, قلم سامسونج s pen اصلي, اكسسوارات سامسونج نوت',
             excerpt: 'تفكر في شراء هاتف سامسونج جالكسي نوت مستعمل بمصر؟ بنوضح لك بالخطوات التقنية كيفية فحص عيوب الشاشة الشهيرة واخلتيار ملحقات الشحن والقلم الأصلية.',
             quickAnswer: 'عند شراء هاتف سامسونج نوت مستعمل في مصر: (1) **افحص تطبيع الشاشة (Burn-in)** باستخدام الكود `*#0*#` على الخلفيات الملونة. (2) **اختبر قلم S Pen** للتأكد من عمل الحساس الكهرومغناطيسي واتصال البلوتوث. (3) **الشحن السريع**: تحتاج الهواتف لشاحن يدعم بروتوكول PPS بقوة 25 واط أو أكثر (مثل شاحن جويروم 30 واط) لتفعيل تقنية SFC.',
             faq: [
@@ -157,7 +157,7 @@ export const samsung_note_buying_guide_accessories: BlogArticle = {
             title: 'Samsung Galaxy Note Used Buying Guide: Inspection & Essential Accessories',
             metaTitle: 'Samsung Galaxy Note Used Buying Guide Accessories',
             metaDescription: 'A comprehensive guide for buying and inspecting used Samsung Galaxy Note 10 and Note 20 phones in Egypt. Learn screen burn-in tests and S-Pen magnetic issues.',
-            keywords: 'buy samsung note used egypt, samsung note 20 ultra price egypt, samsung note 10 plus accessories, original samsung s pen replacement, samsung 25w charger original, best accessories for samsung note',
+            keywords: 'buy samsung note used egypt, used samsung note inspection, samsung note 10 plus accessories, original samsung s pen replacement, samsung 25w charger original, best accessories for samsung note',
             excerpt: 'Thinking of buying a pre-owned Samsung Galaxy Note in Egypt? We outline the step-by-step diagnostic checks for screen burn-in and how to select certified chargers.',
             quickAnswer: 'When buying a used Samsung Note in Egypt: (1) **Test for screen burn-in** using the code `*#0*#` on primary colors. (2) **Verify S-Pen responsiveness** to confirm Wacom digitizer functionality and Bluetooth Air Actions. (3) **Charging**: Choose a PPS-compatible charger (like the Joyroom 30W block) to enable Samsung\'s Super Fast Charging (SFC).',
             faq: [

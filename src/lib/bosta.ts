@@ -38,9 +38,11 @@ function formatEstimate(minDays: number | null, maxDays: number | null, locale: 
 export class BostaTracker {
     static getRegionalStats(governorateSlug: string, locale: string = 'ar'): RegionalStats {
         const governorate = getGovernorateBySlug(governorateSlug);
-        const isCairoOrGiza = governorate?.slug === 'cairo' || governorate?.slug === 'giza';
-        const minDays = governorate ? (isCairoOrGiza ? 1 : 3) : null;
-        const maxDays = governorate ? (isCairoOrGiza ? 2 : 5) : null;
+        // Per-governorate published estimate: deliveryDays is the lower bound
+        // (1-5 by governorate in src/data/governorates.ts); the displayed range
+        // adds one business day and is always framed as an estimate.
+        const minDays = governorate ? governorate.deliveryDays : null;
+        const maxDays = governorate ? governorate.deliveryDays + 1 : null;
         const isArabic = locale === 'ar';
 
         return {

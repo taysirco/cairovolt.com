@@ -26,7 +26,7 @@ export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
             title: 'إزاي تشتري ملحقات أصلية من أمازون مصر وجوميا بدون ما تتنصب عليك',
             metaTitle: 'دليل شراء ملحقات أصلية من أمازون وجوميا مصر',
             metaDescription: 'نصائح شراء شواحن وسماعات من أمازون مصر وجوميا: تحقق من البائع ورقم الموديل والفاتورة وسياسة الإرجاع ووسائل المصنع قبل الدفع.',
-            keywords: 'سعر ايفون 13 برو max في مصر, سعر ايفون 13 برو max في مصر 256, سعر سامسونج s24 ultra في مصر, سعر ايفون 15 برو max في مصر, أمازون مصر ملحقات, جوميا مصر شواحن, تجنب الغش التجاري أونلاين, شواحن أصلية أمازون',
+            keywords: 'أمازون مصر ملحقات, جوميا مصر شواحن, تجنب الغش التجاري أونلاين, شواحن أصلية أمازون, شراء ملحقات اصلية اونلاين في مصر',
             excerpt: 'دليل فحص البائع ورقم الموديل والفاتورة والضمان والإرجاع عند شراء ملحقات من أمازون مصر أو جوميا.',
             quickAnswer: 'فرّق بين «يباع بواسطة» و«يُشحن بواسطة»؛ تنفيذ المنصة للشحن لا يثبت صفة البائع أو أصالة القطعة. طابق رقم الموديل والعبوة والفاتورة، واقرأ سياسة الإرجاع وجهة الضمان، وتحقق من أي ادعاء اعتماد لدى العلامة نفسها. استخدم المراجعات كقرائن متعددة لا كدليل منفرد.',
             faq: [
@@ -140,7 +140,7 @@ export const buy_original_accessories_amazon_jumia_egypt_tips: BlogArticle = {
             title: 'How to Buy Original Accessories on Amazon Egypt & Jumia Without Scams',
             metaTitle: 'Buy Original Accessories Amazon Jumia Egypt | CairoVolt',
             metaDescription: 'Buy chargers and accessories on Amazon Egypt or Jumia by checking seller identity, exact model, invoice, return terms, and manufacturer verification.',
-            keywords: 'iphone 15 pro max price egypt, iphone 17 pro max price in egypt, iphone 16 pro max price in egypt, iphone 13 pro max price egypt, amazon egypt accessories guide, jumia original chargers, online shopping safety egypt, spot fake chargers online',
+            keywords: 'amazon egypt accessories guide, jumia original chargers, online shopping safety egypt, spot fake chargers online, buy original accessories online egypt',
             excerpt: 'Check seller identity, exact model, invoice, warranty provider, and return terms when buying accessories on Amazon Egypt or Jumia.',
             quickAnswer: 'Distinguish “sold by” from “fulfilled by”; platform fulfillment does not prove seller status or product authenticity. Match the exact model, packaging, and invoice, read return and warranty terms, and verify any authorized-status claim with the brand. Treat reviews as supporting evidence, not proof by themselves.',
             faq: [

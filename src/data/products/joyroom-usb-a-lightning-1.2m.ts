@@ -12,7 +12,7 @@ export const joyroom_usb_a_lightning_1_2m = {
         originalPrice: 150,
         stock: 574,
         featured: false,
-        status: "active",
+        status: "retired",
         images: [
             { id: "img_1", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-1.webp", alt: "Joyroom USB-A Lightning 1.2m Cable Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/joyroom/joyroom-usb-a-lightning-1.2m/joyroom-joyroom-usb-a-lightning-1.2m-egypt-cairo-3.webp", alt: "كابل جوي روم USB-A Lightning 1.2 متر مصر - JR-S-AL12 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },

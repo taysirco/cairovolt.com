@@ -26,7 +26,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
             title: 'ضمان الملحقات في مصر — دليل عملي لفهم الشروط وحفظ مستنداتك',
             metaTitle: 'ضمان الملحقات وإكسسوارات الموبايل في مصر',
             metaDescription: 'دليل عام لفهم ضمان ملحقات الموبايل في مصر: صفحة المنتج والفاتورة والتغطية والاستثناءات وخطوات التواصل مع البائع والجهة الرسمية الحالية.',
-            keywords: 'سعر ايفون 13 برو max في مصر, سعر ايفون 13 برو max في مصر 256, سعر سامسونج s24 ultra في مصر, سعر ايفون 15 برو max في مصر, ضمان ملحقات الموبايل, حماية المستهلك بمصر, حقوق المستهلك شواحن, استبدال الملحقات التالفة',
+            keywords: 'ضمان ملحقات الموبايل, حماية المستهلك بمصر, حقوق المستهلك شواحن, استبدال الملحقات التالفة, شروط ضمان الشواحن في مصر',
             excerpt: 'قبل شراء شاحن أو كابل أو باور بانك، اقرأ من هو مقدم الضمان ومدته وتغطيته واستثناءاته واحتفظ بفاتورة واضحة؛ وتحقق من الإرشادات الرسمية السارية عند النزاع.',
             quickAnswer: 'لا تفترض مدة أو علاجاً قانونياً واحداً لكل أنواع الملحقات من هذا المقال. راجع صفحة المنتج والفاتورة وسياسة الضمان والإرجاع، واحتفظ ببيانات البائع ووصف الموديل وتاريخ الشراء. عند النزاع، استخدم القنوات الحالية المنشورة على الموقع الرسمي لجهاز حماية المستهلك أو استشر مختصاً؛ هذا دليل عام وليس استشارة قانونية.',
             faq: [
@@ -165,7 +165,7 @@ export const accessories_warranty_egypt_consumer_legal_rights: BlogArticle = {
             title: 'Mobile Accessories Warranty in Egypt: A Practical Guide to Terms and Records',
             metaTitle: 'Mobile Accessories Warranty Egypt | CairoVolt',
             metaDescription: 'A general guide to mobile-accessory warranty terms in Egypt: product page, invoice, coverage, exclusions, seller contact, and current official complaint channels.',
-            keywords: 'iphone 15 pro max price egypt, iphone 17 pro max price in egypt, iphone 16 pro max price in egypt, iphone 13 pro max price egypt, accessories warranty egypt, consumer rights egypt, original chargers warranty Raya, consumer protection hotlines',
+            keywords: 'accessories warranty egypt, consumer rights egypt, original chargers warranty Raya, consumer protection hotlines, mobile accessories warranty terms',
             excerpt: 'Before buying a charger, cable, or power bank, identify the warranty provider, term, coverage, exclusions, and proof of purchase, then verify current official guidance if a dispute occurs.',
             quickAnswer: 'Do not assume one legal term or remedy for every accessory from this article. Check the product page, invoice, warranty and return policy, seller identity, model description, and purchase date. For a dispute, use the current channels published by Egypt\'s official consumer authority or consult a qualified professional. This is general information, not legal advice.',
             faq: [

@@ -27,7 +27,7 @@ export const iphone_13_pro_max_battery_drain_power_bank: BlogArticle = {
             title: 'بطارية ايفون 13 برو ماكس بتخلص بسرعة؟ التشخيص وخيارات الخدمة والباوربانك',
             metaTitle: 'حل مشكلة بطارية ايفون 13 برو ماكس بتخلص بسرعة بمصر',
             metaDescription: 'دليل لفحص استنزاف بطارية ايفون 13 برو ماكس، ومراجعة Battery Health وخيارات خدمة البطارية واستخدام باوربانك متوافق كحل طاقة مؤقت.',
-            keywords: 'سعر ايفون 13 برو max في مصر, بطارية ايفون 13 برو ماكس بتخلص بسرعة, باور بانك للايفون 13 برو ماكس, صحة بطارية الايفون 13 برو ماكس, تغيير بطارية ايفون 13 برو ماكس, اكسسوارات ايفون 13 برو ماكس, شاحن ايفون 13 برو ماكس',
+            keywords: 'بطارية ايفون 13 برو ماكس بتخلص بسرعة, باور بانك للايفون 13 برو ماكس, صحة بطارية الايفون 13 برو ماكس, تغيير بطارية ايفون 13 برو ماكس, اكسسوارات ايفون 13 برو ماكس, شاحن ايفون 13 برو ماكس',
             excerpt: 'إذا انخفضت صحة بطارية ايفون 13 برو ماكس، افحص سبب الاستنزاف وخيارات الخدمة الموثوقة، وقارن باوربانك متوافقاً كدعم مؤقت لا كبديل دائم للإصلاح.',
             quickAnswer: 'ابدأ من Battery Health واستهلاك التطبيقات وتحديثات iOS والحرارة، واتبع إرشادات Apple إذا ظهرت رسالة خدمة أو هبوط مفاجئ. استبدال البطارية لدى مقدم مؤهل قد يعالج السعة المتدهورة؛ الباوربانك لا يصلح البطارية، لكنه قد يوفر طاقة مؤقتة إذا طابقت مواصفاته وكابله الهاتف. اقرأ شروط الخدمة ومقاومة الماء والضمان قبل أي إصلاح.',
             faq: [
@@ -136,7 +136,7 @@ export const iphone_13_pro_max_battery_drain_power_bank: BlogArticle = {
             title: 'iPhone 13 Pro Max Battery Draining Fast? Diagnosis, Service, and Power-Bank Options',
             metaTitle: 'Fix iPhone 13 Pro Max Battery Drain in Egypt — Accessories',
             metaDescription: 'Check iPhone 13 Pro Max battery drain, Battery Health, service options, and how a compatible power bank can provide temporary power without fixing the battery.',
-            keywords: 'apple iphone 13 release date, apple iphone 16 pro max, apple iphone 14 pro max release date, apple iphone 13 pro max, iphone 13 pro max battery health, best power bank for iphone 13 pro max',
+            keywords: 'iphone 13 pro max battery draining fast, iphone 13 pro max battery health, iphone 13 pro max battery replacement, best power bank for iphone 13 pro max, iphone 13 pro max charger',
             excerpt: 'If iPhone 13 Pro Max Battery Health has fallen, diagnose the drain, review qualified service, and compare a compatible power bank as temporary support rather than a repair.',
             quickAnswer: 'Start with Battery Health, app use, iOS updates, and heat, and follow Apple guidance after a service message or sudden decline. Qualified battery replacement may address lost capacity; a power bank does not repair the battery, although a compatible model and cable can provide temporary power. Read service, water-resistance, and warranty terms before repair.',
             faq: [

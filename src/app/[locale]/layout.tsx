@@ -5,8 +5,9 @@ import LazyUXComponents from '@/components/LazyUXComponents';
 import Header from "@/components/Header";
 import dynamic from 'next/dynamic';
 const Footer = dynamic(() => import('@/components/Footer'), { ssr: true });
-import { NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
 import { CartProvider } from '@/context/CartContext';
@@ -134,6 +135,12 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  // The [locale] segment is a catch-all: ANY unknown single-segment URL lands
+  // here. Without validation, /foo.bar rendered a homepage clone with
+  // lang="foo.bar" (soft-404). Reject everything except 'ar'/'en' outright.
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   // Enable next-intl STATIC rendering. Without this, next-intl reads the locale
   // from request headers, which opts the entire [locale] subtree into dynamic
   // (per-request) rendering — defeating every generateStaticParams/revalidate in

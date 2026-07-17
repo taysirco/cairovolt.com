@@ -26,7 +26,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
             title: 'دليل شراء ايفون X أو XS مستعمل: كيف تفحص عيوب البوردة والشاشة وتختار الإكسسوارات؟',
             metaTitle: 'دليل شراء ايفون X أو XS مستعمل شواحن وإكسسوارات',
             metaDescription: 'دليل شامل ومفصل لفحص وشراء هاتف ايفون X أو ايفون XS مستعمل في مصر. تعرف على كيفية اختبار شاشات الـ OLED وعيوب اللوحة الأم المزدوجة وبصمة الوجه والبطارية.',
-            keywords: 'ايفون x مستعمل, سعر ايفون xs max مستعمل في مصر, عيوب ايفون x مستعمل, شاحن ايفون x اصلي, بطارية ايفون xs max اصلية, جرابات ايفون x',
+            keywords: 'ايفون x مستعمل, عيوب ايفون x مستعمل, شاحن ايفون x اصلي, بطارية ايفون xs max اصلية, جرابات ايفون x',
             excerpt: 'تبحث عن ايفون X أو XS مستعمل بسعر مناسب بمصر؟ نوضح لك بالخطوات الهندسية كيفية كشف الشاشات المقلدة وعيوب البوردة المزدوجة واختيار ملحقات الشحن الأصلية.',
             quickAnswer: 'عند شراء iPhone X أو XS مستعمل، اختبر Face ID والشاشة والبطارية والكاميرات والمنافذ والشبكة، وراجع سجل القطع والرسائل داخل النظام إن توفرت. صورة سوداء قد تفرق بين تقنيات عرض لكنها لا تثبت أن الشاشة أصلية؛ اطلب فحصاً مستقلاً وفاتورة واضحة، وطابق الشاحن والكابل مع إرشادات Apple للموديل.',
             faq: [
@@ -158,7 +158,7 @@ export const iphone_x_xs_used_buying_accessories: BlogArticle = {
             title: 'Buying a Used iPhone X or XS: Motherboard & Screen Diagnostics & Essential Accessories',
             metaTitle: 'Buying Used iPhone X or XS Motherboard Screen Diagnostics Accessories',
             metaDescription: 'Detailed guide to inspect & buy a used iPhone X or XS in Egypt. Learn to test OLED screens, stacked motherboards, Face ID sensors, and select original chargers.',
-            keywords: 'used iphone x egypt, used iphone xs max price egypt, used iphone x problems checklist, original iphone x charger, iphone xs max battery replacement, iphone x cases',
+            keywords: 'used iphone x egypt, used iphone x problems checklist, original iphone x charger, iphone xs max battery replacement, iphone x cases',
             excerpt: 'Searching for a used iPhone X or XS in Egypt? We outline the engineering diagnostics for double-layer motherboard failures, Face ID components, and safe charging.',
             quickAnswer: 'When buying a used iPhone X or XS, test Face ID, the display, battery, cameras, ports, and network, and review any available parts and service history in iOS. A black image may distinguish display technologies but does not prove a panel is genuine. Request an independent inspection and receipt, and match the charger and cable to Apple\'s model guidance.',
             faq: [

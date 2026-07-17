@@ -1,7 +1,7 @@
 // Product: anker-soundcore-r50i
 export const anker_soundcore_r50i = {
         slug: "anker-soundcore-r50i", sku: "SH22", brand: "Soundcore", categorySlug: "audio",
-        gtin: "194644126100", gtin13: "0194644126100", mpn: "A3949", price: 880, originalPrice: 1300, stock: 856, featured: false, status: "active",
+        gtin: "194644199562", gtin13: "0194644199562", mpn: "A3949", price: 880, originalPrice: 1300, stock: 856, featured: false, status: "active",
         images: [
  { id: "img_1", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-wireless-earbuds-10mm-driver-cairovolt.webp", alt: "Soundcore R50i wireless earbuds 10mm BassUp drivers - product view in Egypt - CairoVolt", order: 0, isPrimary: true, width: 1080, height: 1080 },
             { id: "img_2", url: "/products/anker/anker-soundcore-r50i/anker-soundcore-r50i-earbud-design-detail-ergonomic-fit.webp", alt: "سماعة ساوندكور R50i لاسلكية داخلية - A3949 - كايرو فولت", order: 1, isPrimary: false, width: 1080, height: 1080 },

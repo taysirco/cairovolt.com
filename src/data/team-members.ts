@@ -15,7 +15,6 @@ export interface RecommendedCreator {
     role: { ar: string; en: string };
     bio: { ar: string; en: string };
     expertise: { ar: string[]; en: string[] };
-    avatar: string;
     country: 'EG' | 'JO' | 'SA' | 'AE';
     url?: string;
     socials: {
@@ -48,7 +47,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['مراجعة الهواتف', 'اختبار الشواحن', 'مقارنات الأداء', 'تقنيات الشحن السريع'],
             en: ['Smartphone Reviews', 'Charger Testing', 'Performance Benchmarks', 'Fast Charging Tech'],
         },
-        avatar: '/images/blog/authors/yehia_radwan.webp',
         country: 'EG',
         url: 'https://www.youtube.com/@YehiaRadwan',
         socials: {
@@ -77,7 +75,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['تقنية GaN', 'فيزياء البطاريات', 'تحليل الشحن السريع', 'حماية الأجهزة'],
             en: ['GaN Technology', 'Battery Physics', 'Fast Charging Analysis', 'Device Protection'],
         },
-        avatar: '/images/blog/authors/ahmed_medhat.webp',
         country: 'EG',
         url: 'https://www.youtube.com/@AhmedMedhat1719',
         socials: {
@@ -103,7 +100,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['اختبار الشواحن بأجهزة القياس', 'مقارنات ماركات الإكسسوارات', 'سماعات بلوتوث', 'باور بانك'],
             en: ['Charger Testing with Meters', 'Accessory Brand Comparisons', 'Bluetooth Earbuds', 'Power Banks'],
         },
-        avatar: '/images/blog/authors/mohamed_hakimo.webp',
         country: 'AE',
         url: 'https://www.youtube.com/@MohamedHakimo',
         socials: {
@@ -133,7 +129,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['مراجعات الهواتف', 'إكسسوارات تقنية', 'اختبار الأداء', 'ترشيحات الشراء'],
             en: ['Smartphone Reviews', 'Tech Accessories', 'Performance Testing', 'Buying Recommendations'],
         },
-        avatar: '/images/blog/authors/hazem_adel.webp',
         country: 'EG',
         url: 'https://www.youtube.com/@7azemadel',
         socials: {
@@ -159,7 +154,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['مراجعات مستقلة', 'باور بانك وشواحن', 'نصائح شراء', 'حماية المستهلك'],
             en: ['Independent Reviews', 'Power Banks & Chargers', 'Buying Advice', 'Consumer Protection'],
         },
-        avatar: '/images/blog/authors/ashraf_zamka.webp',
         country: 'EG',
         url: 'https://www.youtube.com/@ashrafzamka',
         socials: {
@@ -186,7 +180,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['مراجعات شاملة', 'تغطية مؤتمرات', 'مقارنات أنظمة التشغيل', 'إكسسوارات تقنية'],
             en: ['Comprehensive Reviews', 'Event Coverage', 'OS Comparisons', 'Tech Accessories'],
         },
-        avatar: '/images/blog/authors/salah_hamed.webp',
         country: 'JO',
         url: 'https://www.youtube.com/@AndroidBasha',
         socials: {
@@ -215,7 +208,6 @@ export const recommendedCreators: RecommendedCreator[] = [
             ar: ['تقييم المنتجات', 'تغطية المعارض العالمية', 'تقنيات الشحن', 'ابتكارات تقنية'],
             en: ['Product Evaluation', 'Global Expo Coverage', 'Charging Technology', 'Tech Innovation'],
         },
-        avatar: '/images/blog/authors/faisal_alsaif.webp',
         country: 'SA',
         url: 'https://www.youtube.com/@falsaif',
         socials: {

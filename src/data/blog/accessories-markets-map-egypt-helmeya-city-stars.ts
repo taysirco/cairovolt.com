@@ -26,7 +26,7 @@ export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
             title: 'خريطة أسواق الملحقات في مصر — من عتبة الحلمية لمول سيتي ستارز',
             metaTitle: 'خريطة أسواق الملحقات شواحن وسماعات في مصر',
             metaDescription: 'دليل مقارنة أسواق إكسسوارات الموبايل في العتبة وعبد العزيز والمولات: هوية البائع والفاتورة والموديل والضمان والإرجاع قبل الشراء.',
-            keywords: 'سعر ايفون 13 برو max في مصر, سعر ايفون 13 برو max في مصر 256, سعر سامسونج s24 ultra في مصر, سعر ايفون 15 برو max في مصر, أسواق الملحقات في مصر, إكسسوارات الموبايل العتبة, محلات سيتي ستارز, شواحن أصلية مصر',
+            keywords: 'أسواق الملحقات في مصر, إكسسوارات الموبايل العتبة, سوق الحلمية اكسسوارات, محلات سيتي ستارز, شواحن أصلية مصر',
             excerpt: 'قارن أسواق العتبة وعبد العزيز والمولات وفق هوية البائع ورقم الموديل والفاتورة وشروط الضمان والإرجاع، لا اسم المنطقة وحده.',
             quickAnswer: 'تختلف المتاجر داخل السوق أو المول نفسه؛ الموقع والسعر لا يثبتان الأصالة أو السلامة. قبل الشراء، طابق رقم الموديل والعبوة والفاتورة، وتحقق من هوية البائع وجهة الضمان وسياسة الإرجاع وأي وسيلة تحقق ينشرها المصنع. قارن السعر الحالي لنفس الموديل ولا تفترض أن منطقة بعينها تضمن النتيجة.',
             faq: [
@@ -142,7 +142,7 @@ export const accessories_markets_map_egypt_helmeya_city_stars: BlogArticle = {
             title: 'Egypt Mobile Accessories Market Map: From El-Ataba to City Stars',
             metaTitle: 'Egypt Mobile Accessories Market Map | CairoVolt',
             metaDescription: 'Compare Egypt accessory markets from El-Ataba to major malls by seller identity, exact model, invoice, warranty provider, and return terms.',
-            keywords: 'iphone 15 pro max price egypt, iphone 17 pro max price in egypt, iphone 16 pro max price in egypt, iphone 13 pro max price egypt, egypt mobile accessories markets, el ataba wholesale accessories, city stars premium chargers',
+            keywords: 'egypt mobile accessories markets, el ataba wholesale accessories, el helmeya accessories market, city stars premium chargers, where to buy original chargers cairo',
             excerpt: 'Compare El-Ataba, Abdel Aziz Street, and mall retailers by seller identity, model number, invoice, warranty, and return terms rather than location alone.',
             quickAnswer: 'Retailers differ within the same market or mall; location and price do not prove authenticity or safety. Match the exact model, packaging, and invoice, identify the seller and warranty provider, read return terms, and use any manufacturer verification method. Compare the live price for the same model without assuming one district guarantees the result.',
             faq: [

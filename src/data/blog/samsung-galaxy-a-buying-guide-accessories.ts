@@ -25,7 +25,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
             title: 'دليل شراء سامسونج فئة A: معايير الاختيار + أهم الإكسسوارات بسعر اقتصادي',
             metaTitle: 'دليل شراء سامسونج فئة A: الشواحن والإكسسوارات الاقتصادية بمصر',
             metaDescription: 'دليلك الشامل لتعلم طريقة اختيار شواحن وإكسسوارات هواتف سامسونج فئة A (مثل Galaxy A55 و A35 و A15) بمصر بأمان. واكتشف سر الـ 25 واط وقاعدة الـ PPS لتجنب خسارة...',
-            keywords: 'افضل هاتف سامسونج فئة a, سعر سامسونج a55 في مصر, سعر سامسونج a15 في مصر, سعر سامسونج a24 في مصر, سعر سامسونج a52 في مصر الآن, اسعار الموبايلات السامسونج في مصر, اكسسوارات سامسونج a55, شاحن سامسونج a15',
+            keywords: 'افضل هاتف سامسونج فئة a, دليل شراء سامسونج فئة A, اكسسوارات سامسونج a55, شاحن سامسونج a15, شواحن اقتصادية لسامسونج',
             excerpt: 'اشتريت سامسونج A55 أو A35 ولقيت العلبة فاضية بدون شاحن؟ بنشرح لك بالفيزياء أداء الشحن الحقيقي (الـ 25 واط) وأفضل الإكسسوارات الاقتصادية.',
             quickAnswer: 'قدرات الشحن تختلف بين موديلات سامسونج Galaxy A وإصداراتها. راجع مواصفات رقم الطراز، ثم طابق شاحن انكر أو جويروم أو غيره مع USB-PD وPPS والقدرة والكابل المطلوبة؛ الشاحن الأعلى قدرة لا يفرض قدرة إضافية على الهاتف.',
             faq: [
@@ -171,7 +171,7 @@ export const samsung_galaxy_a_buying_guide_accessories: BlogArticle = {
             title: 'Samsung Galaxy A Series Buying Guide: Specs and Essential Accessories',
             metaTitle: 'Samsung Galaxy A Series Accessories Guide: Chargers & Cases',
             metaDescription: 'Comprehensive guide for choosing chargers and accessories for Samsung Galaxy A-series (A55, A35, A15). Understand the 25W limit and PPS requirements.',
-            keywords: 'best samsung a series phone, samsung a55 price egypt, samsung a15 charger specification, samsung galaxy a55 accessories, samsung a series buying guide, best charger for samsung a55',
+            keywords: 'best samsung a series phone, samsung a15 charger specification, samsung galaxy a55 accessories, samsung a series buying guide, best charger for samsung a55',
             excerpt: 'Bought a Galaxy A55 or A35 and found an empty box without a charger? Learn the charging physics (the 25W rule) and discover the best budget accessories.',
             quickAnswer: 'Samsung Galaxy A-series phones (such as the Galaxy A55, A35, and A15) **do not support 45W charging**. Their maximum charging rate is strictly capped at **25W** (or **15W** for entry-level models like the A05). To enable Super Fast Charging, you must purchase a **25W USB-PD 3.0 charger that supports the PPS protocol** (like Anker 25W or Joyroom 25W). A 45W charger will not charge the phone any faster and is a waste of money.',
             faq: [

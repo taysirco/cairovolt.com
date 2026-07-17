@@ -215,9 +215,8 @@ const nextConfig: NextConfig = {
     },
     async redirects() {
         return [
-            // Preserve the established internal staff-tool aliases.
-            { source: '/admin/wholesale', destination: '/wholesale-dashboard.html', permanent: false },
-            { source: '/admin/catalog', destination: '/wholesale-dashboard.html', permanent: false },
+            // Staff-tool alias → tracked admin login route (served by src/app/admin/wholesale/page.tsx).
+            { source: '/admin/catalog', destination: '/admin/wholesale', permanent: false },
 
             // === Generic category: /products/slug → /slug (clean URLs) ===
             { source: '/products/power-banks', destination: '/power-banks', permanent: true },
@@ -292,6 +291,8 @@ const nextConfig: NextConfig = {
             // === Non-existent product WITH category in URL → Category page ===
             { source: '/joyroom/cables/joyroom-usb-a-lightning-1.2m', destination: '/joyroom/cables', permanent: true },
             { source: '/en/joyroom/cables/joyroom-usb-a-lightning-1.2m', destination: '/en/joyroom/cables', permanent: true },
+            { source: '/joyroom/cables/joyroom-usb-a-type-c-1.2m', destination: '/joyroom/cables', permanent: true },
+            { source: '/en/joyroom/cables/joyroom-usb-a-type-c-1.2m', destination: '/en/joyroom/cables', permanent: true },
 
             // === Non-existent Joyroom power banks → Power Banks category ===
             { source: '/joyroom/joyroom-magnetic-power-bank-10000', destination: '/joyroom/power-banks', permanent: true },

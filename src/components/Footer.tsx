@@ -65,8 +65,8 @@ export default function Footer() {
                         </p>
                         <p className="mt-1 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
                             {isRTL
-                                ? 'كايرو فولت علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — سجل تجاري رقم 8446 (استثمار جمصة)، دمياط الجديدة، مصر.'
-                                : 'CairoVolt is a brand of Taysir Smart Investment LLC — Commercial Register No. 8446 (GAFI, Gamasa Investment Office), New Damietta, Egypt.'}
+                                ? 'كايرو فولت علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — سجل تجاري رقم 8446 (استثمار جمصة)، رقم التسجيل الضريبي 777471566، دمياط الجديدة، مصر.'
+                                : 'CairoVolt is a brand of Taysir Smart Investment LLC — Commercial Register No. 8446 (GAFI, Gamasa Investment Office), Tax Registration No. 777471566, New Damietta, Egypt.'}
                         </p>
 
                         {/* Social Media Icons */}
@@ -269,6 +269,25 @@ export default function Footer() {
                                 <Link href={getLocalizedHref('/shipping')} className="hover:text-gray-900 dark:hover:text-white transition-colors">
                                     {t('shippingPolicy')}
                                 </Link>
+                            </li>
+                            <li className="text-xs leading-relaxed">
+                                <span className="block mb-1 text-gray-500 dark:text-gray-500">
+                                    {isRTL ? 'التوصيل للمحافظات:' : 'Delivery by governorate:'}
+                                </span>
+                                <span className="flex flex-wrap gap-x-2 gap-y-1">
+                                    <Link href={getLocalizedHref('/locations/cairo')} className="hover:text-blue-600 transition-colors">
+                                        {isRTL ? 'القاهرة' : 'Cairo'}
+                                    </Link>
+                                    <Link href={getLocalizedHref('/locations/giza')} className="hover:text-blue-600 transition-colors">
+                                        {isRTL ? 'الجيزة' : 'Giza'}
+                                    </Link>
+                                    <Link href={getLocalizedHref('/locations/alexandria')} className="hover:text-blue-600 transition-colors">
+                                        {isRTL ? 'الإسكندرية' : 'Alexandria'}
+                                    </Link>
+                                    <Link href={getLocalizedHref('/locations/dakahlia')} className="hover:text-blue-600 transition-colors">
+                                        {isRTL ? 'الدقهلية' : 'Dakahlia'}
+                                    </Link>
+                                </span>
                             </li>
                             <li>
                                 <Link href={getLocalizedHref('/return-policy')} className="hover:text-gray-900 dark:hover:text-white transition-colors">

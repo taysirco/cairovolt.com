@@ -27,7 +27,7 @@ export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
             title: 'كم مرة يشحن باور بانك 10000 مللي أمبير موبايل iPhone؟ طريقة التقدير',
             metaTitle: 'كم مرة يشحن باور بانك 10000 موبايل ايفون؟ طريقة الحساب',
             metaDescription: 'شرح بالواط-ساعة لطريقة تقدير عدد مرات شحن باوربانك 10000 مللي أمبير لموديلات الآيفون، مع توضيح فاقد التحويل ومتغيرات الاستخدام.',
-            keywords: 'سعر ايفون 15 برو max, سعر ايفون ١٦ برو ماكس, سعر ايفون 13 برو max في مصر, سعر ايفون 17 برو ماكس, كم مرة يشحن باور بانك 10000, حساب سعة الباوربانك, كفاءة الباوربانك, شحن الايفون',
+            keywords: 'كم مرة يشحن باور بانك 10000, حساب سعة الباوربانك, كفاءة الباوربانك, شحن الايفون بالباور بانك, باور بانك 10000 مللي أمبير',
             excerpt: 'اشتريت باوربانك 10000 وتفاجأت بعدد الشحنات؟ نشرح فرق mAh وWh وفاقد الطاقة وطريقة تقدير نطاق الشحنات.',
             quickAnswer: 'لا تقارن 10,000mAh المكتوبة على خلايا الباور بانك مباشرةً بسعة بطارية الهاتف. حوّل السعة إلى واط-ساعة، استخدم الطاقة المقننة عند الخرج أو كفاءة موثقة للموديل، ثم اقسم على طاقة بطارية الهاتف. الناتج نطاق تقديري يتغير مع الكابل والحرارة والحمل وحالة البطاريتين.',
             faq: [
@@ -157,7 +157,7 @@ export const power_bank_10000mah_iphone_charges_count_math: BlogArticle = {
             title: 'How Many Times Does a 10,000mAh Power Bank Charge an iPhone? The Math',
             metaTitle: 'How Many Times 10000mAh Charges iPhone | CairoVolt',
             metaDescription: 'A detailed mathematical guide on how many times a 10,000mAh power bank can charge an iPhone, explaining voltage conversion losses and efficiency.',
-            keywords: 'apple iphone 13 release date, apple iphone 16 pro max, apple iphone 14 pro max release date, apple iphone 13 pro max, how many times 10000mah charges iphone, power bank efficiency math, nominal voltage, iphone battery capacity',
+            keywords: 'how many times 10000mah charges iphone, power bank efficiency math, nominal voltage, iphone battery capacity, 10000mah power bank for iphone',
             excerpt: 'Bought a 10,000mAh power bank but it didn\'t charge your iPhone twice? Learn the physics of energy conversion and how to calculate the actual charges.',
             quickAnswer: 'Do not compare the 10,000mAh cell rating directly with the phone battery. Convert it to watt-hours, use the model\'s rated output energy or documented efficiency, then divide by the phone battery energy. Treat the result as a range that changes with cable, heat, load, and both batteries\' condition.',
             faq: [
