@@ -179,13 +179,17 @@ const getCachedVerifiedReviews = unstable_cache(
     async (slug: string) => {
         const reviews = await getVerifiedProductReviews(slug);
         return reviews.map(r => ({
+            id: r.id,
             customerName: r.customerName,
             rating: r.rating,
+            ...(r.title && { title: r.title }),
             reviewText: r.reviewText,
             pros: r.pros,
             cons: r.cons,
             reviewDate: new Date(r.reviewDate).toISOString().split('T')[0],
             governorate: r.governorate,
+            isVerified: r.isVerified,
+            helpfulCount: r.helpfulCount,
         }));
     },
     ['verified-reviews-schema'],
@@ -550,6 +554,11 @@ export default async function ProductPage({ params }: Props) {
                 category={category}
                 deliveryIntelligence={deliveryStats}
                 userGovernorate={DEFAULT_GOV.display}
+                initialReviews={verifiedReviews}
+                initialAggregateRating={verifiedAggregateRating ? {
+                    ratingValue: verifiedAggregateRating.ratingValue,
+                    reviewCount: verifiedAggregateRating.reviewCount,
+                } : null}
                 productDetail={productDetailData ? {
                     aiTldr: productDetailData.aiTldr,
                     localContext: productDetailData.localContext,

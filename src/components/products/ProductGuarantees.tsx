@@ -19,6 +19,7 @@ export default function ProductGuarantees({
 }: ProductGuaranteesProps) {
     const isRTL = locale === 'ar';
     const policyHref = isRTL ? '/shipping' : '/en/shipping';
+    const returnPolicyHref = isRTL ? '/return-policy' : '/en/return-policy';
 
     return (
         <section
@@ -70,9 +71,14 @@ export default function ProductGuarantees({
 
             <div className="mt-4 rounded-xl bg-blue-50 dark:bg-blue-950/30 border border-blue-100 dark:border-blue-900/40 p-4 text-sm text-gray-700 dark:text-gray-300">
                 <p>{deliveryStats.confirmation_note}</p>
-                <Link href={policyHref} className="inline-flex mt-2 font-bold text-blue-700 dark:text-blue-400 hover:underline">
-                    {isRTL ? 'اقرأ سياسة الشحن' : 'Read the shipping policy'}
-                </Link>
+                <div className="flex flex-wrap gap-x-5 gap-y-1">
+                    <Link href={policyHref} className="inline-flex mt-2 font-bold text-blue-700 dark:text-blue-400 hover:underline">
+                        {isRTL ? 'اقرأ سياسة الشحن' : 'Read the shipping policy'}
+                    </Link>
+                    <Link href={returnPolicyHref} className="inline-flex mt-2 font-bold text-blue-700 dark:text-blue-400 hover:underline">
+                        {isRTL ? 'اقرأ سياسة الإرجاع' : 'Read the return policy'}
+                    </Link>
+                </div>
             </div>
         </section>
     );

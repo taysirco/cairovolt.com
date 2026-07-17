@@ -37,6 +37,15 @@ interface NormalizedOrderItem {
     price: number;
 }
 
+// Firestore rejects object properties whose value is undefined. Cart fields
+// such as bundleId, image, or sku are optional, so omit those properties
+// instead of persisting them as `undefined`.
+function omitUndefinedFields<T extends object>(value: T): T {
+    return Object.fromEntries(
+        Object.entries(value).filter(([, fieldValue]) => fieldValue !== undefined),
+    ) as T;
+}
+
 // Resolve a missing SKU from the server-side catalog for downstream systems.
 function resolveItemSku(item: { sku?: unknown; productId?: unknown; slug?: unknown }): string {
     if (item?.sku) return String(item.sku);
@@ -150,7 +159,7 @@ export async function POST(req: NextRequest) {
 
         // Persist only the cart fields needed by the order workflow. Prices are
         // replaced from the server-side catalog below.
-        const normalizedItems: NormalizedOrderItem[] = typedRawItems.map(raw => ({
+        const normalizedItems: NormalizedOrderItem[] = typedRawItems.map(raw => omitUndefinedFields({
             productId: sanitizeInput(raw.productId, 180),
             slug: sanitizeInput(raw.slug, 180) || undefined,
             sku: sanitizeInput(raw.sku, 80) || undefined,
@@ -217,7 +226,7 @@ export async function POST(req: NextRequest) {
                 const authoritativeName = catalogVariant
                     ? `${baseName} — ${catalogVariant.model} (${catalogVariant.capacity})`
                     : baseName;
-                const priced: NormalizedOrderItem = {
+                const priced: NormalizedOrderItem = omitUndefinedFields({
                     productId: `static_${catalogProduct.slug}${catalogVariant ? `_${catalogVariant.id}` : ''}`,
                     slug: catalogProduct.slug,
                     sku: res.sku || resolveItemSku({ productId: `static_${catalogProduct.slug}` }),
@@ -227,7 +236,7 @@ export async function POST(req: NextRequest) {
                     bundleId: it.bundleId,
                     quantity: it.quantity,
                     price: res.price,
-                };
+                });
                 pricedItems.push(priced);
                 continue;
             }
@@ -269,7 +278,7 @@ export async function POST(req: NextRequest) {
                                 translations.ar?.name || translations.en?.name || slug,
                                 180,
                             );
-                            const priced: NormalizedOrderItem = {
+                            const priced: NormalizedOrderItem = omitUndefinedFields({
                                 productId: slug,
                                 slug,
                                 price: fPrice,
@@ -279,7 +288,7 @@ export async function POST(req: NextRequest) {
                                 image: imageUrl || undefined,
                                 bundleId: it.bundleId,
                                 quantity: it.quantity,
-                            };
+                            });
                             pricedItems.push(priced);
                             resolvedFromFirestore = true;
                         }

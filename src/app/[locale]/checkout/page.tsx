@@ -1,14 +1,15 @@
 "use client";
 
-import { useState, useEffect } from 'react';
-import { useRouter } from '@/i18n/routing';
+import { useState, useEffect, useRef } from 'react';
+import { Link, useRouter } from '@/i18n/routing';
 import { useSearchParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
 import { useCart } from '@/context/CartContext';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { trackBeginCheckout } from '@/lib/analytics';
 import { ttqInitiateCheckout } from '@/lib/tiktokPixel';
-import { getShippingFee } from '@/lib/shipping';
+import { getShippingFee, FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
+import { BostaTracker } from '@/lib/bosta';
 import { BUNDLE_DISCOUNT_PERCENT } from '@/lib/bundle-policy';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
@@ -74,6 +75,75 @@ const GOVERNORATES = {
     ],
 };
 
+// Inline (per-field) validation errors shown under the checkout inputs.
+interface CheckoutFieldErrors {
+    customerName?: string;
+    phone?: string;
+    whatsapp?: string;
+    city?: string;
+    address?: string;
+}
+
+// ═══════════ Order error localization ═══════════
+// The order API returns mixed-language strings (English rate-limit/validation
+// copy, Arabic catalog/coupon copy). Map the known ones to the visitor's
+// locale instead of surfacing raw server text.
+function localizeOrderError(status: number | null, raw: unknown, isArabic: boolean): string {
+    const message = typeof raw === 'string' ? raw.trim() : '';
+    if (status === 429) {
+        return isArabic
+            ? 'تم استلام محاولات كثيرة خلال وقت قصير. انتظر دقيقة ثم اضغط «تأكيد الطلب» مرة أخرى.'
+            : 'Too many attempts in a short time. Please wait a minute, then tap "Place Order" again.';
+    }
+    if (status === 500 || status === 503) {
+        return isArabic
+            ? 'الخدمة غير متاحة مؤقتاً. حاول مرة أخرى بعد قليل.'
+            : 'The service is temporarily unavailable. Please try again in a moment.';
+    }
+    if (message.startsWith('Invalid Egyptian phone number')) {
+        return isArabic
+            ? 'رقم الهاتف غير صحيح. يجب أن يبدأ بـ 01 ويتكون من 11 رقم.'
+            : 'Invalid phone number. Must start with 01 and be 11 digits.';
+    }
+    if (message === 'Invalid WhatsApp number') {
+        return isArabic
+            ? 'رقم الواتساب غير صحيح. يجب أن يبدأ بـ 01 ويتكون من 11 رقم.'
+            : 'Invalid WhatsApp number. Must start with 01 and be 11 digits.';
+    }
+    if (['Missing required fields', 'Invalid order details', 'Invalid item details', 'Invalid item quantity.'].includes(message)) {
+        return isArabic
+            ? 'بعض بيانات الطلب غير مكتملة أو غير صحيحة. راجع الحقول ثم حاول مرة أخرى.'
+            : 'Some order details are missing or invalid. Please review the fields and try again.';
+    }
+    if (message.includes('كود الخصم')) {
+        return isArabic
+            ? message
+            : 'The coupon code is invalid or expired — remove or correct it, then confirm the order again.';
+    }
+    if (message.includes('منتج غير معروف')) {
+        return isArabic
+            ? message
+            : 'An item in your order is not recognized. Refresh the page and try again.';
+    }
+    if (message.includes('خيار المنتج')) {
+        return isArabic
+            ? message
+            : 'Please select the product option (capacity/model) before ordering.';
+    }
+    if (message.includes('يطابق أكثر من منتج')) {
+        return isArabic
+            ? message
+            : 'A product code matched more than one product. Refresh the page and try again.';
+    }
+    // Unmapped server copy: show it only when it matches the page language.
+    if (message && /[؀-ۿ]/.test(message) === isArabic) {
+        return message;
+    }
+    return isArabic
+        ? 'تعذر إتمام الطلب. حاول مرة أخرى.'
+        : 'Unable to place the order. Please try again.';
+}
+
 // Convert Arabic numerals to English
 function convertArabicToEnglish(str: string): string {
     const arabicNumerals = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
@@ -109,7 +179,17 @@ export default function CheckoutPage() {
     const [phone, setPhone] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
     const [city, setCity] = useState('');
-    const [directBuyProcessed, setDirectBuyProcessed] = useState(false);
+    const directBuyProcessedRef = useRef(false);
+
+    // Inline validation + submit error state (replaces the old alert() dialogs)
+    const [fieldErrors, setFieldErrors] = useState<CheckoutFieldErrors>({});
+    const [submitError, setSubmitError] = useState<string | null>(null);
+    const nameInputRef = useRef<HTMLInputElement>(null);
+    const phoneInputRef = useRef<HTMLInputElement>(null);
+    const whatsappInputRef = useRef<HTMLInputElement>(null);
+    const citySelectRef = useRef<HTMLSelectElement>(null);
+    const addressInputRef = useRef<HTMLTextAreaElement>(null);
+    const errorBannerRef = useRef<HTMLDivElement>(null);
 
     // Coupon state
     const [couponInput, setCouponInput] = useState('');
@@ -206,11 +286,20 @@ export default function CheckoutPage() {
     })();
     const subtotalAfterDiscount = totalAmount - discountAmount - bundleDiscount;
     const shipping = getShippingFee(city, subtotalAfterDiscount);
+    // Per-governorate published delivery estimate (same source as product and
+    // location pages) — shown once the customer selects a governorate.
+    const deliveryEstimate = city
+        ? BostaTracker.getRegionalStats(city, locale).delivery_estimate
+        : null;
+    // Free-shipping progress — mirrors the cart drawer nudge, using the same
+    // subtotal the shipping fee is computed from.
+    const freeShippingAmountLeft = Math.max(0, FREE_SHIPPING_THRESHOLD - subtotalAfterDiscount);
+    const freeShippingProgress = Math.min((subtotalAfterDiscount / FREE_SHIPPING_THRESHOLD) * 100, 100);
     // Direct-buy URL support for the documented product page action.
     useEffect(() => {
         const addSku = searchParams.get('add_sku');
-        if (addSku && !directBuyProcessed) {
-            setDirectBuyProcessed(true);
+        if (addSku && !directBuyProcessedRef.current) {
+            directBuyProcessedRef.current = true;
             // Fetch product by SKU and add to cart
             fetch(`/api/products?sku=${encodeURIComponent(addSku)}`)
                 .then(res => res.ok ? res.json() : null)
@@ -236,7 +325,7 @@ export default function CheckoutPage() {
                 })
                 .catch(() => { /* silently fail for invalid SKU */ });
         }
-    }, [searchParams, directBuyProcessed, addToCart, isArabic]);
+    }, [searchParams, addToCart, isArabic]);
 
     // Redirect if cart is empty (only after localStorage has been loaded)
     useEffect(() => {
@@ -259,47 +348,130 @@ export default function CheckoutPage() {
                 totalAmount
             );
             // TikTok Pixel: InitiateCheckout
-            ttqInitiateCheckout({ value: totalAmount });
+            const tiktokContents = cartItems.map(item => ({
+                content_id: item.sku || item.productId,
+                content_name: item.name,
+                price: item.price,
+                quantity: item.quantity,
+            }));
+            ttqInitiateCheckout({
+                content_id: tiktokContents[0].content_id,
+                content_ids: tiktokContents.map(item => item.content_id),
+                contents: tiktokContents,
+                content_name: cartItems.map(item => item.name).join(', '),
+                value: totalAmount,
+                quantity: cartItems.reduce((sum, item) => sum + item.quantity, 0),
+            });
         }
     }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+    // Validate Egyptian phone number format
+    const isPhoneValid = (number: string) => /^01[0125][0-9]{8}$/.test(number);
+
+    // Localized per-field validation copy (mirrors the server rules in /api/orders)
+    const phoneFormatError = isArabic
+        ? 'رقم الهاتف غير صحيح. يجب أن يبدأ بـ 01 ويتكون من 11 رقم.'
+        : 'Invalid phone number. Must start with 01 and be 11 digits.';
+    const whatsappFormatError = isArabic
+        ? 'رقم الواتساب غير صحيح. يجب أن يبدأ بـ 01 ويتكون من 11 رقم.'
+        : 'Invalid WhatsApp number. Must start with 01 and be 11 digits.';
+
+    const clearFieldError = (field: keyof CheckoutFieldErrors) => {
+        setFieldErrors(prev => (prev[field] ? { ...prev, [field]: undefined } : prev));
+    };
 
     // Handle phone input - convert Arabic to English
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const converted = convertArabicToEnglish(e.target.value);
         setPhone(converted.replace(/[^0-9]/g, ''));
+        clearFieldError('phone');
     };
 
-    // Validate Egyptian phone number format
-    const isPhoneValid = (number: string) => /^01[0125][0-9]{8}$/.test(number);
+    // Surface a phone format problem as soon as the customer leaves the field
+    const handlePhoneBlur = () => {
+        if (phone && !isPhoneValid(phone)) {
+            setFieldErrors(prev => ({ ...prev, phone: phoneFormatError }));
+        }
+    };
 
     // Handle WhatsApp input - convert Arabic to English
     const handleWhatsappChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const converted = convertArabicToEnglish(e.target.value);
         setWhatsapp(converted.replace(/[^0-9]/g, ''));
+        clearFieldError('whatsapp');
     };
+
+    const handleWhatsappBlur = () => {
+        if (whatsapp && !isPhoneValid(whatsapp)) {
+            setFieldErrors(prev => ({ ...prev, whatsapp: whatsappFormatError }));
+        }
+    };
+
+    // Move keyboard focus (and the viewport) to a field that failed validation
+    const focusInvalidField = (el: HTMLElement | null) => {
+        if (!el) return;
+        el.focus({ preventScroll: true });
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    };
+
+    // Scroll the submit-error banner into view when a server failure surfaces
+    useEffect(() => {
+        if (submitError && errorBannerRef.current) {
+            errorBannerRef.current.focus({ preventScroll: true });
+            errorBannerRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }, [submitError]);
 
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
-
-        if (!isPhoneValid(phone)) {
-            alert(isArabic ? 'رقم الهاتف غير صحيح. يجب أن يبدأ بـ 01 ويتكون من 11 رقم.' : 'Invalid phone number. Must start with 01 and be 11 digits.');
-            return;
-        }
-
-        setLoading(true);
+        setSubmitError(null);
 
         const formData = new FormData(event.currentTarget);
+        const customerNameValue = String(formData.get('customerName') || '').trim();
+        const addressValue = String(formData.get('address') || '').trim();
+
+        // Inline validation — same rules the order API enforces server-side.
+        const errors: CheckoutFieldErrors = {};
+        if (customerNameValue.length < 2) {
+            errors.customerName = isArabic ? 'من فضلك اكتب الاسم بالكامل.' : 'Please enter your full name.';
+        }
+        if (!isPhoneValid(phone)) {
+            errors.phone = phoneFormatError;
+        }
+        if (whatsapp && !isPhoneValid(whatsapp)) {
+            errors.whatsapp = whatsappFormatError;
+        }
+        if (!city) {
+            errors.city = isArabic ? 'اختر المحافظة لمعرفة الشحن.' : 'Select your governorate for shipping.';
+        }
+        if (addressValue.length < 5) {
+            errors.address = isArabic
+                ? 'اكتب العنوان بالتفصيل: الشارع، المبنى، الطابق، علامة مميزة.'
+                : 'Please enter your full address: street, building, floor, landmark.';
+        }
+
+        if (Object.keys(errors).length > 0) {
+            setFieldErrors(errors);
+            if (errors.customerName) focusInvalidField(nameInputRef.current);
+            else if (errors.phone) focusInvalidField(phoneInputRef.current);
+            else if (errors.whatsapp) focusInvalidField(whatsappInputRef.current);
+            else if (errors.city) focusInvalidField(citySelectRef.current);
+            else if (errors.address) focusInvalidField(addressInputRef.current);
+            return;
+        }
+        setFieldErrors({});
+        setLoading(true);
 
         const finalTotal = subtotalAfterDiscount + shipping;
-        const city = formData.get('city') as string;
-        const cityLabel = governorates.find(g => g.value === city)?.label || city;
+        const cityValue = formData.get('city') as string;
+        const cityLabel = governorates.find(g => g.value === cityValue)?.label || cityValue;
 
         const orderData = {
             customerName: formData.get('customerName'),
             phone: phone,
             whatsapp: whatsapp || phone,
             address: formData.get('address'),
-            city: city,
+            city: cityValue,
             cityLabel: cityLabel,
             items: cartItems,
             totalAmount: finalTotal, // Send final total including shipping
@@ -320,11 +492,9 @@ export default function CheckoutPage() {
 
             const result = await res.json();
             if (!res.ok) {
-                throw new Error(
-                    typeof result?.error === 'string'
-                        ? result.error
-                        : (isArabic ? 'تعذر إتمام الطلب. حاول مرة أخرى.' : 'Unable to place the order. Please try again.'),
-                );
+                setSubmitError(localizeOrderError(res.status, result?.error, isArabic));
+                setLoading(false);
+                return;
             }
 
             const serverPricing = result.pricing || {};
@@ -335,14 +505,22 @@ export default function CheckoutPage() {
             const confirmedTotal = Number(serverPricing.totalAmount ?? finalTotal);
             const confirmedItems = Array.isArray(result.items) ? result.items : cartItems;
 
+            if (typeof result.orderId !== 'string' || !result.orderId) {
+                setSubmitError(isArabic
+                    ? 'تم استلام رد غير مكتمل من الخادم. حاول تأكيد الطلب مرة أخرى.'
+                    : 'The server returned an incomplete response. Please place the order again.');
+                setLoading(false);
+                return;
+            }
+
             // Prepare order data for confirmation page
             const confirmData = {
-                orderId: result.orderId || `CV-${Date.now().toString(36).toUpperCase()}`,
+                orderId: result.orderId,
                 customerName: formData.get('customerName') as string,
                 phone: phone,
                 whatsapp: whatsapp || phone,
                 address: formData.get('address') as string,
-                city: city,
+                city: cityValue,
                 cityLabel: cityLabel,
                 items: confirmedItems,
                 subtotal: confirmedSubtotal,
@@ -374,10 +552,11 @@ export default function CheckoutPage() {
             // Clear cart after navigation settles using a longer delay
             // loading stays true so useEffect won't redirect to home
             setTimeout(() => clearCart(), 1500);
-        } catch (error) {
-            alert(error instanceof Error && error.message
-                ? error.message
-                : (isArabic ? 'حدث خطأ أثناء إرسال الطلب. حاول مرة أخرى.' : 'An error occurred while placing your order. Please try again.'));
+        } catch {
+            // Network failure or a non-JSON response — the form state is preserved.
+            setSubmitError(isArabic
+                ? 'حدث خطأ أثناء إرسال الطلب. تأكد من اتصالك بالإنترنت ثم حاول مرة أخرى.'
+                : 'An error occurred while placing your order. Check your connection and try again.');
             setLoading(false);
         }
     }
@@ -470,12 +649,39 @@ export default function CheckoutPage() {
                         <div className="flex justify-between pt-2 text-sm text-gray-600 dark:text-gray-400">
                             <span>{isArabic ? 'الشحن' : 'Shipping'}</span>
                             <span className={shipping === 0 ? 'text-green-600 font-medium' : ''}>
-                                {shipping === 0 
-                                    ? (isArabic ? 'مجاني ✅' : 'Free ✅') 
+                                {shipping === 0
+                                    ? (isArabic ? 'مجاني ✅' : 'Free ✅')
                                     : (!city ? (isArabic ? 'حدد المحافظة' : 'Select Governorate') : `${shipping} ${currency}`)
                                 }
                             </span>
                         </div>
+
+                        {/* Per-governorate delivery estimate (published shipping-policy range) */}
+                        {deliveryEstimate && (
+                            <div className="flex justify-between pt-1 text-xs text-gray-500 dark:text-gray-400">
+                                <span>
+                                    <SvgIcon name="truck" className="w-3.5 h-3.5 inline-block" /> {isArabic ? 'موعد الوصول' : 'Delivery'}
+                                </span>
+                                <span>{deliveryEstimate}</span>
+                            </div>
+                        )}
+
+                        {/* Free Shipping nudge — same logic as the cart drawer */}
+                        {freeShippingAmountLeft > 0 && (
+                            <div className="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                                <p className="mb-2 text-xs text-center font-medium text-gray-700 dark:text-gray-300">
+                                    {isArabic ? 'أضف منتجات بقيمة' : 'Add items worth'}{' '}
+                                    <span className="font-bold text-blue-600 dark:text-blue-400">{freeShippingAmountLeft.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}</span>
+                                    {' '}{isArabic ? 'للحصول على شحن مجاني' : 'for Free Shipping'}
+                                </p>
+                                <div className="w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                                    <div
+                                        className="h-full bg-blue-500 rounded-full transition-all duration-500"
+                                        style={{ width: `${freeShippingProgress}%` }}
+                                    ></div>
+                                </div>
+                            </div>
+                        )}
 
                         {/* Final total */}
                         <div className="flex justify-between pt-4 mt-2 border-t-2 border-gray-300 dark:border-gray-600 text-lg font-bold">
@@ -492,80 +698,178 @@ export default function CheckoutPage() {
                     </div>
 
                     {/* Checkout Form */}
-                    <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-900 p-6 rounded-2xl border space-y-4">
+                    <form onSubmit={handleSubmit} noValidate className="bg-white dark:bg-gray-900 p-6 rounded-2xl border space-y-4">
                         <h2 className="font-bold mb-4">{t('shippingInfo')}</h2>
 
                         <div>
-                            <label className="block text-sm font-medium mb-1">
+                            <label htmlFor="checkout-name" className="block text-sm font-medium mb-1">
                                 {isArabic ? 'الاسم بالكامل' : 'Full Name'}
                             </label>
                             <input
+                                id="checkout-name"
+                                ref={nameInputRef}
                                 name="customerName"
                                 required
                                 autoComplete="name"
-                                className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
+                                onChange={() => clearFieldError('customerName')}
+                                aria-invalid={fieldErrors.customerName ? true : undefined}
+                                aria-describedby={fieldErrors.customerName ? 'checkout-name-error' : undefined}
+                                className={`w-full border rounded-lg p-3 dark:bg-gray-800 ${fieldErrors.customerName ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
                                 placeholder={isArabic ? 'أحمد محمد' : 'Ahmed Mohamed'}
                             />
+                            {fieldErrors.customerName && (
+                                <p id="checkout-name-error" className="text-red-500 text-xs mt-1">{fieldErrors.customerName}</p>
+                            )}
                         </div>
 
                         <div>
-                            <label className="block text-sm font-medium mb-1">{t('phone')}</label>
+                            <label htmlFor="checkout-phone" className="block text-sm font-medium mb-1">{t('phone')}</label>
                             <input
+                                id="checkout-phone"
+                                ref={phoneInputRef}
                                 name="phone"
                                 type="tel"
                                 required
                                 autoComplete="tel"
                                 value={phone}
                                 onChange={handlePhoneChange}
-                                className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
+                                onBlur={handlePhoneBlur}
+                                maxLength={11}
+                                aria-invalid={fieldErrors.phone ? true : undefined}
+                                aria-describedby={fieldErrors.phone ? 'checkout-phone-error' : undefined}
+                                className={`w-full border rounded-lg p-3 dark:bg-gray-800 ${fieldErrors.phone ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
                                 placeholder="01xxxxxxxxx"
                                 dir="ltr"
                             />
+                            {fieldErrors.phone && (
+                                <p id="checkout-phone-error" className="text-red-500 text-xs mt-1">{fieldErrors.phone}</p>
+                            )}
                         </div>
 
                         <div>
-                            <label className="block text-sm font-medium mb-1">
+                            <label htmlFor="checkout-whatsapp" className="block text-sm font-medium mb-1">
                                 {isArabic ? 'رقم الواتساب (اختياري)' : 'WhatsApp Number (Optional)'}
                             </label>
                             <input
+                                id="checkout-whatsapp"
+                                ref={whatsappInputRef}
                                 name="whatsapp"
                                 type="tel"
                                 value={whatsapp}
                                 onChange={handleWhatsappChange}
-                                className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
+                                onBlur={handleWhatsappBlur}
+                                maxLength={11}
+                                aria-invalid={fieldErrors.whatsapp ? true : undefined}
+                                aria-describedby={fieldErrors.whatsapp ? 'checkout-whatsapp-error' : undefined}
+                                className={`w-full border rounded-lg p-3 dark:bg-gray-800 ${fieldErrors.whatsapp ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
                                 placeholder={isArabic ? '01xxxxxxxxx (اتركه فارغ إذا كان نفس رقم الهاتف)' : '01xxxxxxxxx (Leave empty if same as phone)'}
                                 dir="ltr"
                             />
+                            {fieldErrors.whatsapp && (
+                                <p id="checkout-whatsapp-error" className="text-red-500 text-xs mt-1">{fieldErrors.whatsapp}</p>
+                            )}
                         </div>
 
                         <div>
-                            <label className="block text-sm font-medium mb-1">{t('governorate')}</label>
-                            <select 
-                                name="city" 
-                                required 
+                            <label htmlFor="checkout-city" className="block text-sm font-medium mb-1">{t('governorate')}</label>
+                            <select
+                                id="checkout-city"
+                                ref={citySelectRef}
+                                name="city"
+                                required
                                 value={city}
-                                onChange={(e) => setCity(e.target.value)}
-                                className="w-full border rounded-lg p-3 dark:bg-gray-800 dark:border-gray-700"
+                                onChange={(e) => { setCity(e.target.value); clearFieldError('city'); }}
+                                aria-invalid={fieldErrors.city ? true : undefined}
+                                aria-describedby={fieldErrors.city ? 'checkout-city-error' : undefined}
+                                className={`w-full border rounded-lg p-3 dark:bg-gray-800 ${fieldErrors.city ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
                             >
                                 <option value="" disabled>{isArabic ? 'اختر المحافظة لمعرفة الشحن' : 'Select Governorate for shipping'}</option>
                                 {governorates.map((gov) => (
                                     <option key={gov.value} value={gov.value}>{gov.label}</option>
                                 ))}
                             </select>
+                            {fieldErrors.city && (
+                                <p id="checkout-city-error" className="text-red-500 text-xs mt-1">{fieldErrors.city}</p>
+                            )}
                         </div>
 
                         <div>
-                            <label className="block text-sm font-medium mb-1">{t('address')}</label>
+                            <label htmlFor="checkout-address" className="block text-sm font-medium mb-1">{t('address')}</label>
                             <textarea
+                                id="checkout-address"
+                                ref={addressInputRef}
                                 name="address"
                                 required
                                 autoComplete="street-address"
-                                className="w-full border rounded-lg p-3 h-24 dark:bg-gray-800 dark:border-gray-700"
+                                onChange={() => clearFieldError('address')}
+                                aria-invalid={fieldErrors.address ? true : undefined}
+                                aria-describedby={fieldErrors.address ? 'checkout-address-error' : undefined}
+                                className={`w-full border rounded-lg p-3 h-24 dark:bg-gray-800 ${fieldErrors.address ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
                                 placeholder={isArabic ? 'الشارع، المبنى، الطابق، علامة مميزة' : 'Street, Building, Floor, Landmark'}
                             />
+                            {fieldErrors.address && (
+                                <p id="checkout-address-error" className="text-red-500 text-xs mt-1">{fieldErrors.address}</p>
+                            )}
                         </div>
 
 
+
+                        {/* Compact trust line at the decisive moment (badges grid repeats the details below) */}
+                        <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs text-gray-600 dark:text-gray-400 text-center">
+                            <span className="inline-flex items-center gap-1">
+                                <SvgIcon name="money" className="w-3.5 h-3.5" /> {isArabic ? 'الدفع عند الاستلام' : 'Cash on Delivery'}
+                            </span>
+                            <span aria-hidden="true">·</span>
+                            <Link
+                                href="/return-policy"
+                                className="inline-flex items-center gap-1 underline decoration-dotted underline-offset-2 hover:text-green-600 transition-colors"
+                            >
+                                <SvgIcon name="arrows-rotate" className="w-3.5 h-3.5" /> {isArabic ? 'استبدال واسترجاع خلال 14 يوم' : 'Returns & Exchange within 14 days'}
+                            </Link>
+                            <span aria-hidden="true">·</span>
+                            <span className="inline-flex items-center gap-1">
+                                <SvgIcon name="shield" className="w-3.5 h-3.5" /> {isArabic ? 'ضمان المنتج حسب البراند' : 'Product Warranty by Brand'}
+                            </span>
+                        </div>
+
+                        {/* Order-failure banner — dismissible, keeps the form state intact */}
+                        {submitError && (
+                            <div
+                                ref={errorBannerRef}
+                                tabIndex={-1}
+                                role="alert"
+                                className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 outline-none"
+                            >
+                                <div className="flex items-start justify-between gap-3">
+                                    <p className="text-sm font-bold text-red-700 dark:text-red-400">{submitError}</p>
+                                    <button
+                                        type="button"
+                                        onClick={() => setSubmitError(null)}
+                                        aria-label={isArabic ? 'إغلاق التنبيه' : 'Dismiss error'}
+                                        className="text-red-400 hover:text-red-600 text-xs font-medium transition-colors shrink-0"
+                                    >
+                                        ✕
+                                    </button>
+                                </div>
+                                <p className="text-xs text-red-600 dark:text-red-300 mt-2">
+                                    {isArabic
+                                        ? 'بياناتك وسلة مشترياتك محفوظة — راجعها ثم اضغط «تأكيد الطلب» مرة أخرى.'
+                                        : 'Your details and cart are saved — review them, then tap "Place Order" again.'}
+                                </p>
+                                <p className="text-xs text-red-600 dark:text-red-300 mt-1">
+                                    {isArabic ? 'لو المشكلة استمرت، اطلب مباشرة عبر واتساب: ' : 'If the problem persists, order directly via WhatsApp: '}
+                                    <a
+                                        href="https://wa.me/201558245974"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-bold underline"
+                                        dir="ltr"
+                                    >
+                                        01558245974
+                                    </a>
+                                </p>
+                            </div>
+                        )}
 
                         <button
                             disabled={loading}
