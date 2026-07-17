@@ -38,7 +38,7 @@ export function GET() {
 | Active catalog items | ${totalProducts} |
 | Currently listed as available | ${availableProducts} |
 | Legal entity | شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — Taysir Smart Investment LLC, Commercial Register (Egypt) 8446, Tax Registration 777471566 |
-| Customer support | support@cairovolt.com · WhatsApp +201558245974 |
+| Customer support | info@cairovolt.com · WhatsApp +201558245974 |
 
 Current price, availability, warranty, delivery, and return terms are shown on the relevant product page and during checkout.
 

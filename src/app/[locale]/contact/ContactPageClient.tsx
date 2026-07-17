@@ -46,8 +46,8 @@ export default function ContactPageClient() {
                     </p>
                     <p className="mt-2">
                         {isRTL
-                            ? 'البريد الإلكتروني الرسمي والإداري للمتجر: info@cairovolt.com، وبريد خدمة العملاء والدعم: support@cairovolt.com.'
-                            : 'The store’s official and administrative email is info@cairovolt.com; for customer service and support, use support@cairovolt.com.'}
+                            ? 'البريد الإلكتروني الرسمي للمتجر لجميع الاستفسارات والدعم وطلبات الضمان: info@cairovolt.com.'
+                            : 'The store’s official email for all inquiries, support, and warranty requests is info@cairovolt.com.'}
                     </p>
                 </div>
             </section>

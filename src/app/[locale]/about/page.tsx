@@ -308,7 +308,7 @@ export default async function AboutPage({ params }: Props) {
                                         </span>
                                         <div>
                                             <p className="font-bold text-sm">{isArabic ? 'البريد الإلكتروني' : 'Email'}</p>
-                                            <p className="text-sm text-gray-500">support@cairovolt.com</p>
+                                            <p className="text-sm text-gray-500">info@cairovolt.com</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-3">

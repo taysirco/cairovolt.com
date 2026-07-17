@@ -27,7 +27,7 @@ export async function GET() {
             version: '1.0.0',
             contact: {
                 name: 'CairoVolt Support',
-                email: 'support@cairovolt.com',
+                email: 'info@cairovolt.com',
                 url: 'https://cairovolt.com/en/contact',
             },
             'x-logo': {

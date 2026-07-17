@@ -32,7 +32,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             metaTitle: 'ضمان انكر في مصر — المدة والشروط وخطوات تقديم الطلب',
             metaDescription: 'دليل ضمان منتجات انكر المباعة من كايرو فولت: أين تجد مدة التغطية، ما قد تشمله، المستندات المطلوبة، وخطوات تقديم الطلب وفق الشروط المكتوبة.',
             excerpt: 'دليل عملي لقراءة مدة وشروط ضمان منتج انكر وتقديم طلب إلى كايرو فولت مع الفاتورة والمنتج.',
-            quickAnswer: 'كايرو فولت متجر إلكتروني مستقل. تختلف مدة الضمان وتفاصيل التغطية حسب المنتج؛ المرجع هو صفحة المنتج والفاتورة وسياسة الضمان وقت الشراء. قد تشمل عيوب التصنيع وفق الفحص والشروط، ولا تشمل عادةً التلف الخارجي أو سوء الاستخدام. قدّم الطلب عبر support@cairovolt.com.',
+            quickAnswer: 'كايرو فولت متجر إلكتروني مستقل. تختلف مدة الضمان وتفاصيل التغطية حسب المنتج؛ المرجع هو صفحة المنتج والفاتورة وسياسة الضمان وقت الشراء. قد تشمل عيوب التصنيع وفق الفحص والشروط، ولا تشمل عادةً التلف الخارجي أو سوء الاستخدام. قدّم الطلب عبر info@cairovolt.com.',
             keywords: 'ضمان انكر مصر, انكر warranty Egypt, توكيل انكر في مصر, كايرو فولت ضمان, ضمان شاحن انكر, استبدال منتج انكر, ضمان وفق المدة الموضحة على صفحة المنتج انكر, انكر متجر التجزئة مصر',
             faq: [
                 {
@@ -55,7 +55,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             content: `<p><strong>إفصاح الهوية:</strong> كايرو فولت متجر إلكتروني مستقل لملحقات التقنية، ولا يقدّم نفسه بصفته الوكيل أو الموزع الرسمي لانكر. يشرح هذا الدليل ضمان المتجر للمنتجات التي يكون كايرو فولت بائعها؛ وتظل صفحة المنتج والفاتورة والسياسة المنشورة وقت الشراء هي المرجع للمدة والتغطية والاستثناءات.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-right: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>الإجابة السريعة:</strong> راجع صفحة المنتج والفاتورة لمعرفة مدة وشروط الضمان الخاصة بطلبك. احتفظ بإثبات الشراء والمنتج، وقدّم وصف المشكلة والصور المتاحة عبر support@cairovolt.com للمراجعة وفق السياسة المكتوبة.
+<strong>الإجابة السريعة:</strong> راجع صفحة المنتج والفاتورة لمعرفة مدة وشروط الضمان الخاصة بطلبك. احتفظ بإثبات الشراء والمنتج، وقدّم وصف المشكلة والصور المتاحة عبر info@cairovolt.com للمراجعة وفق السياسة المكتوبة.
 </div>
 
 <h2>انكر في مصر — هوية البائع ونطاق ضمان المتجر</h2>
@@ -147,7 +147,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <h2>خطوات تقديم طلب الضمان — خطوة بخطوة</h2>
 
 <ol style="line-height: 1.9; margin-right: 20px;">
-<li><strong>التواصل الأولي:</strong> ابعت إيميل لـ support@cairovolt.com بموضوع: "طلب ضمان — [اسم المنتج]"</li>
+<li><strong>التواصل الأولي:</strong> ابعت إيميل لـ info@cairovolt.com بموضوع: "طلب ضمان — [اسم المنتج]"</li>
 <li><strong>تفاصيل الطلب:</strong> اكتب في الإيميل: اسمك، رقم تليفونك، اسم المنتج، رقم الطلب (لو موجود)، وشرح مختصر للمشكلة</li>
 <li><strong>المرفقات:</strong> حط صورة الفاتورة + صورة المنتج + صورة للعيب لو ظاهر</li>
 <li><strong>الرد:</strong> يراجع فريق الدعم الطلب ويرسل تحديثاً خلال ساعات العمل بحسب حجم الطلبات والمعلومات المتاحة</li>
@@ -242,7 +242,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             metaTitle: 'Anker Warranty Egypt — Term, Conditions, and Claim Steps',
             metaDescription: 'Guide to CairoVolt store warranty for Anker products: where to find the term, possible coverage, required records, and how to submit a claim under the written policy.',
             excerpt: 'A practical guide to checking an Anker product\'s written warranty term and submitting a CairoVolt store-warranty claim with your purchase record.',
-            quickAnswer: 'CairoVolt is an independent online retailer. Warranty term and coverage vary by product; use the product page, invoice, and policy provided at purchase. Manufacturing defects may be covered after review, while external damage or misuse is normally excluded. Submit a claim through support@cairovolt.com.',
+            quickAnswer: 'CairoVolt is an independent online retailer. Warranty term and coverage vary by product; use the product page, invoice, and policy provided at purchase. Manufacturing defects may be covered after review, while external damage or misuse is normally excluded. Submit a claim through info@cairovolt.com.',
             keywords: 'Anker warranty Egypt, Anker retailer with clear identity and written policies Egypt, CairoVolt Anker warranty, Anker warranty for the written term shown on the product page or invoice, Anker warranty claim Egypt, Anker replacement Egypt, Anker warranty conditions, Anker original Egypt',
             faq: [
                 {
@@ -265,7 +265,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
             content: `<p><strong>Identity disclosure:</strong> CairoVolt is an independent online retailer of technology accessories and does not present itself as Anker's official agent or distributor. This guide explains CairoVolt's store warranty when CairoVolt is the seller; the product page, invoice, and policy supplied at purchase remain the source for term, coverage, and exclusions.</p>
 
 <div class="quick-answer-inline" style="background: #f0f7ff; border-left: 4px solid #2563eb; padding: 16px 20px; margin: 20px 0; border-radius: 8px;">
-<strong>Quick Answer:</strong> Check the product page and invoice for the warranty term and conditions that apply to your order. Keep the purchase record and product, then send a problem description and available photos to support@cairovolt.com for review under the written policy.
+<strong>Quick Answer:</strong> Check the product page and invoice for the warranty term and conditions that apply to your order. Keep the purchase record and product, then send a problem description and available photos to info@cairovolt.com for review under the written policy.
 </div>
 
 <h2>Anker in Egypt — Seller Identity and Store-Warranty Scope</h2>
@@ -353,7 +353,7 @@ export const anker_agent_egypt_branches_warranty_rules: BlogArticle = {
 <h2>Step-by-Step Warranty Claim Process</h2>
 
 <ol style="line-height: 1.9; margin-left: 20px;">
-<li><strong>Initial contact:</strong> Email support@cairovolt.com with subject: "Warranty Claim — [Product Name]"</li>
+<li><strong>Initial contact:</strong> Email info@cairovolt.com with subject: "Warranty Claim — [Product Name]"</li>
 <li><strong>Claim details:</strong> Include your name, phone number, product name, order number (if available), and a brief description of the problem</li>
 <li><strong>Attachments:</strong> Photo of the invoice + photo of the product + photo of the defect if visible</li>
 <li><strong>Response:</strong> CairoVolt team responds within 48 business hours (Sunday-Thursday)</li>

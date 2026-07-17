@@ -292,7 +292,7 @@ CairoVolt is an Egyptian online store for **Anker**, **Joyroom**, and **Soundcor
 ### Contact
 
 - WhatsApp: +201558245974
-- Email: support@cairovolt.com
+- Email: info@cairovolt.com
 - Website: ${baseUrl}
 `;
 
@@ -519,8 +519,8 @@ function generateKnownPageMarkdown(
     const pageUrl = `${BASE_URL}${localePrefix}/${page}`;
 
     const contactBlock = isArabic
-        ? `## تواصل معنا\n\n- واتساب: +201558245974\n- البريد الإلكتروني: support@cairovolt.com\n- الصفحة: ${pageUrl}\n`
-        : `## Contact\n\n- WhatsApp: +201558245974\n- Email: support@cairovolt.com\n- Page: ${pageUrl}\n`;
+        ? `## تواصل معنا\n\n- واتساب: +201558245974\n- البريد الإلكتروني: info@cairovolt.com\n- الصفحة: ${pageUrl}\n`
+        : `## Contact\n\n- WhatsApp: +201558245974\n- Email: info@cairovolt.com\n- Page: ${pageUrl}\n`;
 
     if (page === 'shipping') {
         const s = m.Shipping;

@@ -139,7 +139,7 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
 
 <h3>ثانياً: لو الرقم صح والتحقق فاشل</h3>
 <ul style="line-height: 1.9; margin-right: 20px;">
-<li>لو اشتريت من كايرو فولت: تواصل معهم على support@cairovolt.com برقم الطلب وصور الملصق ليراجعوا بيانات البيع والسياسة السارية</li>
+<li>لو اشتريت من كايرو فولت: تواصل معهم على info@cairovolt.com برقم الطلب وصور الملصق ليراجعوا بيانات البيع والسياسة السارية</li>
 <li>لو اشتريت من بائع آخر: اطلب منه تفسيراً ومستندات العرض، وتواصل مع دعم انكر قبل استنتاج التقليد أو اختيار العلاج</li>
 <li>قد لا تدعم الأداة كل موديل أو سوق أو نوع رقم؛ لا نفترض سنة قطع ثابتة مثل 2018 بلا توثيق من انكر</li>
 </ul>
@@ -318,7 +318,7 @@ export const anker_original_website_verify_barcode_guide: BlogArticle = {
 
 <h3>If the Number Is Correct but Verification Still Fails</h3>
 <ul style="line-height: 1.9; margin-left: 20px;">
-<li>If purchased from CairoVolt: email support@cairovolt.com with the order number and label photos so the store can review sale records and the current policy</li>
+<li>If purchased from CairoVolt: email info@cairovolt.com with the order number and label photos so the store can review sale records and the current policy</li>
 <li>If purchased elsewhere: ask that seller for an explanation and offer documents, and contact Anker support before concluding counterfeit or choosing a remedy</li>
 <li>The tool may not support every model, market, or code type; this guide does not assert a pre-2018 cutoff without current Anker documentation</li>
 </ul>

@@ -30,7 +30,7 @@ export async function GET() {
         },
         author: {
             name: 'CairoVolt',
-            email: 'support@cairovolt.com',
+            email: 'info@cairovolt.com',
             link: baseUrl
         }
     });
@@ -58,7 +58,7 @@ export async function GET() {
             author: [
                 {
                     name: 'CairoVolt',
-                    email: 'support@cairovolt.com',
+                    email: 'info@cairovolt.com',
                     link: baseUrl,
                 }
             ],
