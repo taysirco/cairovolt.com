@@ -82,8 +82,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const catProducts = getLandingPageProducts(brandKey, categoryKey);
     const productCount = catProducts.length;
 
-    const arTitle = `${arCategoryName} ⚡ ${productCount} منتج | الأسعار والتوصيل في مصر`;
-    const enTitle = `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`;
+    // Only advertise the product count when the shelf is deep enough to be a
+    // selling point; thin categories (1-2 items) keep a humanized title instead
+    // of boasting "1 Products".
+    const arTitle = productCount >= 3
+        ? `${arCategoryName} ⚡ ${productCount} منتج | الأسعار والتوصيل في مصر`
+        : `${arCategoryName} ⚡ الأسعار والتوصيل في مصر`;
+    const enTitle = productCount >= 3
+        ? `${enCategoryName} in Egypt ⚡ ${productCount} Products | Prices & COD`
+        : `${enCategoryName} in Egypt ⚡ Prices & COD`;
 
     const dynamicTitle = isArabic ? arTitle : enTitle;
     const metaDescription = isArabic
@@ -164,6 +171,7 @@ export default async function DynamicCategoryPage({ params }: Props) {
         brand: p.brand,
         categorySlug: p.categorySlug,
         price: p.price,
+        stock: p.stock,
         images: p.images.map(img => ({ url: img.url, alt: img.alt, isPrimary: img.isPrimary })),
         translations: p.translations
     }));

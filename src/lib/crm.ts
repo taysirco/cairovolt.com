@@ -2,7 +2,13 @@ import { logger } from './logger';
 
 /** Synchronize accepted orders with the configured CRM webhook. */
 
-const CRM_TIMEOUT_MS = 8000;
+// The CRM webhook CREATES the lead within ~1-2s of receiving the request and
+// only then runs address-correction + courier ranking (up to ~14s) before
+// replying — so waiting longer than a couple of seconds buys no reliability,
+// it only delays the customer's order confirmation. Aborting early is treated
+// as "delivered" below (never retried), which the CRM's fingerprint
+// idempotency and the sheet reconciliation both back up.
+const CRM_TIMEOUT_MS = 2500;
 
 interface CrmOrderItem {
     sku?: unknown;
@@ -127,7 +133,7 @@ export async function safeSendLeadToCRM(orderData: CrmOrderData): Promise<void> 
             if (isTimeout) {
                 // ⛔ DON'T retry on timeout. The CRM webhook creates the lead first, then
                 // runs address-correction + Bosta ranking (up to ~14s) before responding,
-                // so an 8s response timeout almost always means "delivered and created",
+                // so a short response timeout almost always means "delivered and created",
                 // not "failed". Retrying re-invokes the webhook and creates a DUPLICATE
                 // lead (two agents call the same customer). Fail-open here — the sheet
                 // reconciliation covers the rare true failure, and the CRM webhook is now

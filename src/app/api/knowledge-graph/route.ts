@@ -20,21 +20,40 @@ export async function GET() {
         "@graph": []
     };
 
+    // Mirrors the on-page OnlineStore node (GlobalBusinessSchema.tsx) that
+    // shares this @id — entity resolvers merging the two surfaces must see
+    // ONE consistent type and legal identity.
     graph["@graph"].push({
-        "@type": "Organization",
+        "@type": "OnlineStore",
         "@id": `${baseUrl}/#organization`,
         "name": "CairoVolt",
         "alternateName": ["كايرو فولت", "Cairo Volt"],
+        "legalName": "شركة تيسير للاستثمار الذكي (ش.ذ.م.م)",
+        "taxID": "777471566",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "Commercial Register (Egypt)",
+            "value": "8446",
+        },
         "url": baseUrl,
         "logo": `${baseUrl}/logo.png`,
+        "email": "info@cairovolt.com",
+        // Locality-level HQ address — same published detail as the on-page
+        // node and /contact ('based in New Damietta'); no street invention.
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New Damietta",
+            "addressRegion": "Damietta",
+            "addressCountry": "EG",
+        },
         "sameAs": [
             "https://www.facebook.com/cairovolt",
-            "https://www.tiktok.com/@cairovolt",
             "https://www.instagram.com/cairovolt",
+            "https://www.tiktok.com/@cairovolt",
             "https://x.com/cairovolt",
             "https://www.youtube.com/@cairovolt",
         ],
-        "description": "Egyptian online store for mobile accessories, power solutions, consumer electronics, and CairoVolt warranty support.",
+        "description": "CairoVolt is an independent online retailer of mobile accessories and Anker and Joyroom products, with published specifications, prices, policies, and delivery within Egypt.",
         "areaServed": {
             "@type": "Country",
             "name": "Egypt",

@@ -111,6 +111,7 @@ cairovolt-authenticator.zip
 # commands reference these, so a fresh clone / FAH build / GitHub Action needs
 # them present. Everything else under /scripts/ stays local one-off tooling.
 !/scripts/generate-blog-index.mjs
+!/scripts/generate-client-catalog.mjs
 !/scripts/reveal-blog.mjs
 !/scripts/detect-new-articles.mjs
 !/scripts/post-to-social.mjs

@@ -6,7 +6,7 @@ import {
     getProductBySlug,
     getSmartBundleProducts,
     resolveCatalogPricing,
-} from '@/lib/static-products';
+} from '@/lib/client-catalog';
 
 export interface CartItem {
     productId: string;

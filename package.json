@@ -6,11 +6,12 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "node scripts/generate-blog-index.mjs && next dev",
+    "dev": "node scripts/generate-blog-index.mjs && node scripts/generate-client-catalog.mjs && next dev",
     "prebuild": "node src/app/image-sitemap.xml/generate-public-image-paths.mjs",
-    "build": "node scripts/generate-blog-index.mjs && next build --webpack",
+    "build": "node scripts/generate-blog-index.mjs && node scripts/generate-client-catalog.mjs && next build --webpack",
     "start": "next start",
     "lint": "eslint",
+    "catalog:client": "node scripts/generate-client-catalog.mjs",
     "audit:blog": "node scripts/audit-blog.js",
     "index:blog": "node scripts/index-blog.js",
     "cover:blog": "node scripts/generate-blog-cover.mjs",

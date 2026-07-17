@@ -115,6 +115,11 @@ interface ArticleProps {
     image?: string;
     locale: string;
     articleType?: 'Article' | 'BlogPosting' | 'NewsArticle' | 'TechArticle';
+    /**
+     * schema.org `abstract` — the article's visible quick-answer summary.
+     * Only pass text that is rendered on the page (e.g. QuickAnswerBox).
+     */
+    abstract?: string;
 }
 
 /**
@@ -130,6 +135,7 @@ export function ArticleSchema({
     image,
     locale,
     articleType = 'Article',
+    abstract,
 }: ArticleProps) {
     // Combine sections into article body for structured content
     const articleBody = sections
@@ -141,6 +147,7 @@ export function ArticleSchema({
         '@type': articleType,
         headline: headline,
         description: description,
+        ...(abstract && { abstract }),
         ...(articleBody && { articleBody }),
         inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
         ...(datePublished && { datePublished }),
@@ -187,15 +194,70 @@ export function ArticleSchema({
 }
 
 // ============================================
+// FAQPAGE SCHEMA - For Editorial FAQ Sections
+// ============================================
+
+interface FAQPageItem {
+    question: string;
+    answer: string;
+}
+
+interface FAQPageSchemaProps {
+    /** Q/A pairs that MUST mirror a visible FAQ section on the same page. */
+    items: FAQPageItem[];
+    locale: string;
+    /** Canonical URL of the page whose visible FAQ this markup mirrors. */
+    url?: string;
+}
+
+/**
+ * FAQPage markup for editorial (blog) pages whose FAQ accordion is visible
+ * on-page. Only pass the exact question/answer strings rendered to users —
+ * never content that is not on the page.
+ */
+export function FAQPageSchema({ items, locale, url }: FAQPageSchemaProps) {
+    if (!items || items.length === 0) return null;
+
+    const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        inLanguage: locale === 'ar' ? 'ar-EG' : 'en-EG',
+        ...(url && {
+            mainEntityOfPage: {
+                '@type': 'WebPage',
+                '@id': url,
+            },
+        }),
+        mainEntity: items.map(item => ({
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer,
+            },
+        })),
+    };
+
+    return (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+    );
+}
+
+// ============================================
 // ITEMLIST SCHEMA - For Category/Collection Pages
 // ============================================
 
 interface ItemListProduct {
     name: string;
     url: string;
-    image: string;
+    image?: string;
     price: number;
     position: number;
+    /** Real stock flag from catalogue data — availability is only asserted when supplied. */
+    inStock?: boolean;
 }
 
 interface ItemListProps {
@@ -204,8 +266,11 @@ interface ItemListProps {
     locale: string;
 }
 
-// ItemList Schema for product listings in category pages
+// ItemList Schema for product listings in category pages.
+// Each ListItem nests a Product entity (image + Offer) so category pages carry
+// per-product markup, mirroring the Offer pattern used by ProductSchema on PDPs.
 export function ItemListSchema({ listName, items }: ItemListProps) {
+    const baseUrl = 'https://cairovolt.com';
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
@@ -215,8 +280,28 @@ export function ItemListSchema({ listName, items }: ItemListProps) {
         itemListElement: items.map((item) => ({
             '@type': 'ListItem',
             position: item.position,
-            name: item.name,
-            url: item.url,
+            item: {
+                '@type': 'Product',
+                name: item.name,
+                url: item.url,
+                // Only emit an image when the catalogue provides one — no placeholder URLs.
+                ...(item.image && {
+                    image: /^https?:\/\//i.test(item.image) ? item.image : `${baseUrl}${item.image}`,
+                }),
+                offers: {
+                    '@type': 'Offer',
+                    url: item.url,
+                    priceCurrency: 'EGP',
+                    price: item.price,
+                    // Availability is asserted only from a real stock flag,
+                    // never defaulted, so the markup stays truthful.
+                    ...(typeof item.inStock === 'boolean' && {
+                        availability: item.inStock
+                            ? 'https://schema.org/InStock'
+                            : 'https://schema.org/OutOfStock',
+                    }),
+                },
+            },
         })),
     };
 

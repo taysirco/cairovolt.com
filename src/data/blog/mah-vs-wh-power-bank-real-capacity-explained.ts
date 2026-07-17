@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const mah_vs_wh_power_bank_real_capacity_explained: BlogArticle = {
     slug: 'mah-vs-wh-power-bank-real-capacity-explained',
     category: 'buying-guide',
-    publishDate: '2026-10-04T13:11:00+02:00',
-    modifiedDate: '2026-10-04T13:11:00+02:00',
+    publishDate: '2026-07-17T12:30:00+02:00',
+    modifiedDate: '2026-07-17T12:30:00+02:00',
     readingTime: 9,
     relatedProducts: [
         'joyroom-power-bank-10000',

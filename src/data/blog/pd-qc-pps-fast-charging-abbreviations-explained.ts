@@ -3,8 +3,8 @@ import type { BlogArticle } from './_types';
 export const pd_qc_pps_fast_charging_abbreviations_explained: BlogArticle = {
     slug: 'pd-qc-pps-fast-charging-abbreviations-explained',
     category: 'buying-guide',
-    publishDate: '2026-09-25T21:17:00+02:00',
-    modifiedDate: '2026-09-25T21:17:00+02:00',
+    publishDate: '2026-07-17T12:00:00+02:00',
+    modifiedDate: '2026-07-17T12:00:00+02:00',
     readingTime: 9,
     relatedProducts: [
         'anker-737-powerbank',

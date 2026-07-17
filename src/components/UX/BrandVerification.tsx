@@ -23,8 +23,8 @@ export default function BrandVerification({
                     </h2>
                     <p className="text-sm text-gray-700 dark:text-gray-300 mt-1">
                         {isRTL
-                            ? 'إذا كان مع طلبك سيريال على كرت ضمان كايرو فولت، يمكنك إدخاله لعرض سجل الضمان. لا يعد السجل شهادة أصالة من الشركة المصنّعة.'
-                            : 'If your order includes a serial on a CairoVolt warranty card, enter it to view the warranty record. The record is not a manufacturer authenticity certificate.'}
+                            ? 'إذا كان مع طلبك سيريال على كرت ضمان كايرو فولت، يمكنك إدخاله لعرض سجل الضمان.'
+                            : 'If your order includes a serial on a CairoVolt warranty card, enter it to view the warranty record.'}
                     </p>
                 </div>
                 <Link
