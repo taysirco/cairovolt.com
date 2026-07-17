@@ -88,15 +88,27 @@ export function CartProvider({ children }: { children: ReactNode }) {
                 // الموجودة في الكتالوج الثابت تبقى بسعرها المحفوظ.
                 const parsed = JSON.parse(savedCart);
                 const refreshed = Array.isArray(parsed)
-                    ? parsed.map((it: CartItem) => {
-                        const cat = resolveCatalogPricing(it);
-                        if (cat.status === 'ok') {
-                            const currentItem = { ...it } as CartItem & { originalPrice?: number };
-                            delete currentItem.originalPrice;
-                            return { ...currentItem, price: cat.price, sku: cat.sku || it.sku };
-                        }
-                        return it;
-                    })
+                    ? parsed
+                        // Drop stale items whose product was REMOVED from the catalog.
+                        // A "static_<slug>" productId means the item came from the
+                        // static catalog; if that slug no longer resolves, the product
+                        // is gone and it would 400 ("unknown product") at checkout with
+                        // no way for the customer to recover. Firestore-only products
+                        // (bare-slug productId, never prefixed "static_") are kept — the
+                        // order API resolves those server-side.
+                        .filter((it: CartItem) => {
+                            if (typeof it?.productId !== 'string' || !it.productId.startsWith('static_')) return true;
+                            return resolveCatalogPricing(it).status !== 'unknown';
+                        })
+                        .map((it: CartItem) => {
+                            const cat = resolveCatalogPricing(it);
+                            if (cat.status === 'ok') {
+                                const currentItem = { ...it } as CartItem & { originalPrice?: number };
+                                delete currentItem.originalPrice;
+                                return { ...currentItem, price: cat.price, sku: cat.sku || it.sku };
+                            }
+                            return it;
+                        })
                     : parsed;
                 setItems(Array.isArray(refreshed) ? normalizeBundleAssignments(refreshed) : []);
             }
