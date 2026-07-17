@@ -369,7 +369,7 @@ export default function CategoryTemplate({
                                 <div className="flex items-center justify-between">
                                     <div>
                                         <span className="text-base font-bold text-gray-900">
-                                            {product.price.toLocaleString()}
+                                            {product.price.toLocaleString('en-US')}
                                         </span>
                                         <span className="text-[10px] text-gray-500 font-normal ml-1">{locale === 'ar' ? 'ج.م' : 'EGP'}</span>
                                     </div>

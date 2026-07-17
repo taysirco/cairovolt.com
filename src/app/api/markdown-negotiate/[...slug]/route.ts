@@ -95,26 +95,22 @@ export async function GET(
     const baseUrl = BASE_URL;
     const isHome = path === 'index' || path === '';
 
-    // Homepage → serve llms.txt (our comprehensive markdown representation)
+    // Homepage → serve llms.txt (our comprehensive markdown representation).
+    // Call the route handler DIRECTLY — an HTTP self-fetch here once pinned a
+    // stale CDN copy of the old llms.txt into the data cache and re-published
+    // removed claims to AI agents. In-process = always the deployed content.
     if (isHome) {
         try {
-            // Use production URL — request.nextUrl.origin is unreliable during ISR/SSR
-            const llmsResponse = await fetch(`${baseUrl}/.well-known/llms.txt`, {
-                headers: { 'Accept': 'text/plain' },
-                next: { revalidate: 3600 },
+            const { GET: llmsGet } = await import('@/app/.well-known/llms.txt/route');
+            const llmsContent = await llmsGet().text();
+            return new NextResponse(llmsContent, {
+                headers: {
+                    'Content-Type': 'text/markdown; charset=utf-8',
+                    'Vary': 'Accept',
+                    'Cache-Control': 'public, max-age=3600, s-maxage=3600',
+                    'X-Content-Source': 'llms.txt',
+                },
             });
-
-            if (llmsResponse.ok) {
-                const llmsContent = await llmsResponse.text();
-                return new NextResponse(llmsContent, {
-                    headers: {
-                        'Content-Type': 'text/markdown; charset=utf-8',
-                        'Vary': 'Accept',
-                        'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-                        'X-Content-Source': 'llms.txt',
-                    },
-                });
-            }
         } catch {
             // Fall through to generic handler
         }

@@ -383,7 +383,9 @@ export default function CheckoutPage() {
     // Handle phone input - convert Arabic to English
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const converted = convertArabicToEnglish(e.target.value);
-        setPhone(converted.replace(/[^0-9]/g, ''));
+        // Cap at 11 digits AFTER stripping separators, so pasted formatted
+        // numbers ("0100 123 4567") normalize instead of being truncated.
+        setPhone(converted.replace(/[^0-9]/g, '').slice(0, 11));
         clearFieldError('phone');
     };
 
@@ -397,7 +399,7 @@ export default function CheckoutPage() {
     // Handle WhatsApp input - convert Arabic to English
     const handleWhatsappChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const converted = convertArabicToEnglish(e.target.value);
-        setWhatsapp(converted.replace(/[^0-9]/g, ''));
+        setWhatsapp(converted.replace(/[^0-9]/g, '').slice(0, 11));
         clearFieldError('whatsapp');
     };
 
@@ -734,7 +736,7 @@ export default function CheckoutPage() {
                                 value={phone}
                                 onChange={handlePhoneChange}
                                 onBlur={handlePhoneBlur}
-                                maxLength={11}
+                                
                                 aria-invalid={fieldErrors.phone ? true : undefined}
                                 aria-describedby={fieldErrors.phone ? 'checkout-phone-error' : undefined}
                                 className={`w-full border rounded-lg p-3 dark:bg-gray-800 ${fieldErrors.phone ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
@@ -758,7 +760,7 @@ export default function CheckoutPage() {
                                 value={whatsapp}
                                 onChange={handleWhatsappChange}
                                 onBlur={handleWhatsappBlur}
-                                maxLength={11}
+                                
                                 aria-invalid={fieldErrors.whatsapp ? true : undefined}
                                 aria-describedby={fieldErrors.whatsapp ? 'checkout-whatsapp-error' : undefined}
                                 className={`w-full border rounded-lg p-3 dark:bg-gray-800 ${fieldErrors.whatsapp ? 'border-red-500 dark:border-red-500' : 'dark:border-gray-700'}`}
