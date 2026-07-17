@@ -10,6 +10,7 @@ import { trackPurchase, trackPrintInvoice, trackWhatsappClick } from '@/lib/anal
 import { ttqPlaceAnOrder, ttqCompletePayment } from '@/lib/tiktokPixel';
 import ShareButtons from '@/components/products/ShareButtons';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
+import { BostaTracker } from '@/lib/bosta';
 
 interface OrderItem {
     productId?: string;
@@ -79,28 +80,34 @@ function ConfirmContent() {
     const currency = isArabic ? 'جنيه' : 'EGP';
 
     useEffect(() => {
-        // Get order data from URL params or sessionStorage
-        const orderParam = searchParams.get('order');
+        // Defer browser-storage hydration by one task so the effect remains an
+        // external-system synchronization rather than a synchronous state cascade.
+        const timer = window.setTimeout(() => {
+            // Get order data from URL params or sessionStorage
+            const orderParam = searchParams.get('order');
 
-        if (orderParam) {
-            try {
-                const decoded = JSON.parse(decodeURIComponent(orderParam));
-                setOrderData(decoded);
-            } catch (e) {
-                console.error('Failed to parse order data from URL');
-            }
-        } else {
-            // Try sessionStorage
-            try {
-                const stored = sessionStorage.getItem('lastOrder');
-                if (stored) {
-                    setOrderData(JSON.parse(stored));
+            if (orderParam) {
+                try {
+                    const decoded = JSON.parse(decodeURIComponent(orderParam));
+                    setOrderData(decoded);
+                } catch {
+                    console.error('Failed to parse order data from URL');
                 }
-            } catch (e) {
-                console.error('Failed to read order data from sessionStorage');
+            } else {
+                // Try sessionStorage
+                try {
+                    const stored = sessionStorage.getItem('lastOrder');
+                    if (stored) {
+                        setOrderData(JSON.parse(stored));
+                    }
+                } catch {
+                    console.error('Failed to read order data from sessionStorage');
+                }
             }
-        }
-        setLoading(false);
+            setLoading(false);
+        }, 0);
+
+        return () => window.clearTimeout(timer);
     }, [searchParams]);
 
     // Analytics: log order on confirmation page
@@ -154,6 +161,15 @@ function ConfirmContent() {
         if (gov) return isArabic ? gov.ar : gov.en;
         return fallbackLabel;
     };
+
+    // Per-governorate published delivery estimate (same source as checkout and
+    // product pages). Falls back to the generic range for unknown slugs.
+    const regionalStats = orderData?.city
+        ? BostaTracker.getRegionalStats(orderData.city, locale)
+        : null;
+    const deliveryEstimate = regionalStats && regionalStats.estimated_delivery_days !== null
+        ? regionalStats.delivery_estimate
+        : null;
 
     if (loading) {
         return (
@@ -253,7 +269,9 @@ function ConfirmContent() {
                         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{orderData.address}</p>
                         <div className="mt-4 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
                             <p className="text-sm text-blue-700 dark:text-blue-300">
-                                <SvgIcon name="truck" className="w-4 h-4 inline-block" /> {isArabic ? 'سيتم التوصيل خلال 2-5 أيام عمل' : 'Delivery within 2-5 business days'}
+                                <SvgIcon name="truck" className="w-4 h-4 inline-block" /> {deliveryEstimate
+                                    ? (isArabic ? `التوصيل خلال ${deliveryEstimate}` : `Delivery: ${deliveryEstimate}`)
+                                    : (isArabic ? 'سيتم التوصيل خلال 2-5 أيام عمل' : 'Delivery within 2-5 business days')}
                             </p>
                         </div>
                     </div>

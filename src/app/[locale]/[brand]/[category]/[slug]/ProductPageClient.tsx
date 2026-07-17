@@ -10,6 +10,7 @@ import { useState, useEffect, useRef, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { useCart } from '@/context/CartContext';
 import ProductGuarantees from '@/components/products/ProductGuarantees';
+import type { AggregateRating, Review } from '@/components/reviews/VerifiedReviews';
 import type { RegionalStats } from '@/lib/bosta';
 import type { ProductVariant } from '@/lib/static-products';
 import {
@@ -23,7 +24,6 @@ import {
 // Lazy Load Heavy Components
 const VerifiedReviews = dynamic(() => import('@/components/reviews/VerifiedReviews'), {
     loading: () => <div className="h-96 bg-gray-50 dark:bg-gray-800 rounded-2xl animate-pulse my-8" />,
-    ssr: false
 });
 
 const RelatedProducts = dynamic(() => import('@/components/products/RelatedProducts'), {
@@ -50,6 +50,7 @@ const ShareButtons = dynamic(() => import('@/components/products/ShareButtons'),
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { sanitizeHtml, localizeInternalLinks } from '@/lib/htmlSanitize';
 import { getCairoVoltWarrantyPolicy } from '@/lib/warranty-policy';
+import { FREE_SHIPPING_THRESHOLD } from '@/lib/shipping';
 
 
 interface Product {
@@ -97,6 +98,8 @@ interface ProductPageClientProps {
     category: string;
     deliveryIntelligence: RegionalStats;
     userGovernorate: string;
+    initialReviews: Review[];
+    initialAggregateRating: AggregateRating | null;
     productDetail: {
         aiTldr?: { en: string[]; ar: string[] };
         localContext?: { en: string; ar: string };
@@ -114,7 +117,7 @@ const categoryKeyMap: Record<string, string> = {
     'smart-watches': 'smartWatches',
 };
 
-export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, deliveryIntelligence, userGovernorate, productDetail }: ProductPageClientProps) {
+export default function ProductPageClient({ product, relatedProducts = [], bundleData, locale, brand, category, deliveryIntelligence, userGovernorate, initialReviews, initialAggregateRating, productDetail }: ProductPageClientProps) {
     const isRTL = locale === 'ar';
     const tCommon = useTranslations('Common');
     const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false);
@@ -148,6 +151,8 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
     }, [product.variants, product.mpn, product.gtin, product.gtin13, product.price]);
     const [selectedVariant, setSelectedVariant] = useState<ProductVariant | undefined>(defaultVariant);
     const warrantyPolicy = getCairoVoltWarrantyPolicy(product.slug, brand);
+    const warrantyHref = isRTL ? warrantyPolicy.policyUrl : `/en${warrantyPolicy.policyUrl}`;
+    const freeShippingFrom = FREE_SHIPPING_THRESHOLD.toLocaleString('en-US');
 
     // Active pricing — variant overrides product-level values
     const activePrice = selectedVariant?.price ?? product.price;
@@ -594,6 +599,32 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                             </span>
                         </div>
 
+                        {/* Trust row — COD, delivery estimate and shipping policy (published policy, estimate-only wording) */}
+                        <div className="space-y-1.5 text-sm text-gray-700 dark:text-gray-300 -mt-2">
+                            {deliveryIntelligence.cash_on_delivery && (
+                                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-50 dark:bg-green-950/30 border border-green-200 dark:border-green-900/50 font-bold text-green-700 dark:text-green-400">
+                                    <span aria-hidden="true">💵</span>
+                                    {isRTL
+                                        ? 'الدفع عند الاستلام متاح للطلبات المؤهلة'
+                                        : 'Cash on delivery is available for eligible orders'}
+                                </span>
+                            )}
+                            <p className="flex items-center gap-1.5">
+                                <span aria-hidden="true">🗓️</span>
+                                {isRTL
+                                    ? `التوصيل إلى ${userGovernorate}: ${deliveryIntelligence.delivery_estimate}`
+                                    : `Delivery to ${userGovernorate}: ${deliveryIntelligence.delivery_estimate}`}
+                            </p>
+                            <p className="flex items-center gap-1.5">
+                                <span aria-hidden="true">🚚</span>
+                                <a href="#shipping-information" className="hover:underline">
+                                    {isRTL
+                                        ? `الشحن مجاني للطلبات من ${freeShippingFrom} جنيه فأكثر وفق سياسة الشحن`
+                                        : `Shipping is free for orders of ${freeShippingFrom} EGP or more under the shipping policy`}
+                                </a>
+                            </p>
+                        </div>
+
                         {/* Purchase CTAs — Hidden when Out of Stock */}
                         {!isOutOfStock ? (
                             <>
@@ -863,11 +894,18 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                         {isRTL ? 'ضمان كايرو فولت' : 'CairoVolt warranty'}
                                     </td>
                                     <td className="py-4 font-bold text-end text-gray-900 dark:text-white">
-                                        {warrantyPolicy.months
-                                            ? (isRTL
-                                                ? `${warrantyPolicy.months} شهرًا — راجع الشروط`
-                                                : `${warrantyPolicy.months} months — see terms`)
-                                            : (isRTL ? 'راجع الشروط المكتوبة للمنتج' : 'See the written product terms')}
+                                        {warrantyPolicy.months ? (
+                                            <>
+                                                {isRTL ? `${warrantyPolicy.months} شهرًا — ` : `${warrantyPolicy.months} months — `}
+                                                <Link href={warrantyHref} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                                    {isRTL ? 'راجع الشروط' : 'see terms'}
+                                                </Link>
+                                            </>
+                                        ) : (
+                                            <Link href={warrantyHref} className="text-blue-600 dark:text-blue-400 hover:underline">
+                                                {isRTL ? 'راجع الشروط المكتوبة للمنتج' : 'See the written product terms'}
+                                            </Link>
+                                        )}
                                     </td>
                                 </tr>
                                 <tr>
@@ -895,7 +933,11 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
 
             {/* Verified Customer Reviews Section */}
             <div className="container mx-auto px-4 py-8 cv-auto">
-                <VerifiedReviews productSlug={product.slug} locale={locale} />
+                <VerifiedReviews
+                    locale={locale}
+                    initialReviews={initialReviews}
+                    initialAggregateRating={initialAggregateRating}
+                />
             </div>
             {/* Related Products Section */}
             <div className="container mx-auto px-4 pb-8 cv-auto">
@@ -917,6 +959,15 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         className={`lg:hidden fixed bottom-0 left-0 right-0 z-40 transition-transform duration-300 ${showStickyBar ? 'translate-y-0' : 'translate-y-full'}`}
                     >
                         <div className="sticky-footer-bar bg-zinc-900 border-t-2 border-zinc-700 shadow-[0_-8px_25px_rgba(0,0,0,0.3)] px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]" style={{ backgroundColor: '#18181b' }}>
+                            {/* COD chip — same published-policy wording as the trust row */}
+                            {deliveryIntelligence.cash_on_delivery && (
+                                <p className="text-[11px] font-medium mb-1.5 text-zinc-300" style={{ color: '#d4d4d8' }}>
+                                    <span aria-hidden="true">💵</span>{' '}
+                                    {isRTL
+                                        ? 'الدفع عند الاستلام متاح للطلبات المؤهلة'
+                                        : 'Cash on delivery is available for eligible orders'}
+                                </p>
+                            )}
                             <div className="flex items-center gap-3">
                                 {/* Price Section — forced white text on dark bg for guaranteed visibility */}
                                 <div className="flex-shrink-0 min-w-[90px]">

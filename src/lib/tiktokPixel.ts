@@ -22,6 +22,13 @@ interface TtqWindow extends Window {
   ttq?: TtqInstance;
 }
 
+interface TtqContentItem {
+  content_id: string;
+  content_name: string;
+  price: number;
+  quantity: number;
+}
+
 function getTtq(): TtqInstance | null {
   if (typeof window === 'undefined') return null;
   const w = window as unknown as TtqWindow;
@@ -96,12 +103,24 @@ export function ttqAddToCart(params: {
 
 /** Fires when a user enters the checkout flow. */
 export function ttqInitiateCheckout(params: {
+  content_id: string;
+  content_ids: string[];
+  contents: TtqContentItem[];
+  content_name?: string;
   value: number;
+  quantity?: number;
   currency?: string;
 }): void {
   fireTtqEvent('InitiateCheckout', {
+    // Keep singular content_id for Pixel Helper/catalog compatibility while
+    // also sending TikTok's current VSA content_ids + contents parameters.
+    content_id: params.content_id,
+    content_ids: params.content_ids,
+    contents: params.contents,
+    content_name: params.content_name,
     content_type: 'product',
     value: params.value,
+    quantity: params.quantity || 1,
     currency: params.currency || 'EGP',
   });
 }

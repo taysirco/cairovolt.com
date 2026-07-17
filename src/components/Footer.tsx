@@ -60,8 +60,8 @@ export default function Footer() {
                         </a>
                         <p className="mt-2 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
                             {isRTL
-                                ? 'بائع تجزئة إلكتروني مستقل داخل مصر؛ لسنا وكيلاً أو موزعاً رسمياً للعلامات المعروضة، ولا يوجد فرع استقبال أو استلام حضوري معلن.'
-                                : 'Independent online retailer in Egypt; not an official agent or authorized distributor of the displayed brands, with no advertised walk-in or pickup branch.'}
+                                ? 'متجر إلكتروني مصري مستقل يعمل أونلاين بالكامل — بلا فروع، لنقدّم سعرًا أفضل وتوصيلًا لكل المحافظات. نبيع منتجات أصلية من علامات عالمية بصفتنا بائع تجزئة مستقلًا عن الشركات المصنّعة (لسنا وكيلها الرسمي)، وكل طلب بفاتورة وضمان متجر مكتوب.'
+                                : 'An independent Egyptian online store, fully online with nationwide delivery and no branch overhead — so prices stay sharp. We retail genuine products from global brands as a retailer independent of the manufacturers (not their official agent), and every order ships with an invoice and a written store warranty.'}
                         </p>
                         <p className="mt-1 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
                             {isRTL

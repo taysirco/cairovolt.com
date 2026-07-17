@@ -1,10 +1,10 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { SvgIcon } from '@/components/ui/SvgIcon';
 import { localizeArabicBrandNames } from '@/lib/arabic-brand-names';
 
-interface Review {
+export interface Review {
     id: string;
     customerName: string;
     rating: number;
@@ -18,41 +18,29 @@ interface Review {
     helpfulCount: number;
 }
 
-interface AggregateRating {
+export interface AggregateRating {
     ratingValue: string;
     reviewCount: number;
 }
 
 interface VerifiedReviewsProps {
-    productSlug: string;
     locale: string;
+    // Server-fetched, purchase-verified data (same source as the JSON-LD),
+    // passed down so review text is present in the server-rendered HTML and
+    // no duplicate /api/reviews fetch is needed. The /api/reviews endpoint
+    // remains for the token-gated review submission flow.
+    initialReviews: Review[];
+    initialAggregateRating: AggregateRating | null;
 }
 
-export default function VerifiedReviews({ productSlug, locale }: VerifiedReviewsProps) {
+export default function VerifiedReviews({ locale, initialReviews, initialAggregateRating }: VerifiedReviewsProps) {
     const isArabic = locale === 'ar';
     const localizeReviewText = (text: string) => isArabic
         ? localizeArabicBrandNames(text)
         : text;
-    const [reviews, setReviews] = useState<Review[]>([]);
-    const [aggregateRating, setAggregateRating] = useState<AggregateRating | null>(null);
-    const [loading, setLoading] = useState(true);
+    const reviews = initialReviews;
+    const aggregateRating = initialAggregateRating;
     const [showAll, setShowAll] = useState(false);
-
-    useEffect(() => {
-        async function fetchReviews() {
-            try {
-                const response = await fetch(`/api/reviews?productSlug=${productSlug}&locale=${locale}`);
-                const data = await response.json();
-                setReviews(data.reviews || []);
-                setAggregateRating(data.aggregateRating);
-            } catch (error) {
-                console.error('Failed to fetch reviews:', error);
-            } finally {
-                setLoading(false);
-            }
-        }
-        fetchReviews();
-    }, [productSlug, locale]);
 
     const displayedReviews = showAll ? reviews : reviews.slice(0, 3);
 
@@ -67,14 +55,6 @@ export default function VerifiedReviews({ productSlug, locale }: VerifiedReviews
             </div>
         );
     };
-
-    if (loading) {
-        return (
-            <div className="verified-reviews verified-reviews--loading">
-                <div className="loading-spinner"></div>
-            </div>
-        );
-    }
 
     // No reviews yet - show placeholder
     if (reviews.length === 0) {
