@@ -41,8 +41,8 @@ export default function ContactPageClient() {
                     </h2>
                     <p>
                         {isRTL
-                            ? 'الاسم المستخدم في الموقع والطلبات: كايرو فولت (CairoVolt). نحن بائع تجزئة إلكتروني مستقل ولسنا وكيلاً أو موزعاً رسمياً للعلامات المعروضة. نخدم عناوين التوصيل المؤهلة داخل مصر، ولا نعلن حالياً عن فرع استقبال أو استلام حضوري. تكلفة الشحن والمدة التقديرية تتحددان حسب العنوان وتظهران قبل تأكيد الطلب.'
-                            : 'The name used on this website and order records is CairoVolt. We are an independent online retailer, not an official agent or authorized distributor of the displayed brands. We serve eligible delivery addresses in Egypt and do not currently advertise a walk-in or pickup branch. Shipping cost and estimated timing depend on the address and are shown before order confirmation.'}
+                            ? 'الاسم المستخدم في الموقع والطلبات: كايرو فولت (CairoVolt)، وهي علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) المسجلة في مصر بسجل تجاري رقم 8446 (استثمار جمصة) ومقرها دمياط الجديدة. نحن بائع تجزئة إلكتروني مستقل ولسنا وكيلاً أو موزعاً رسمياً للعلامات المعروضة. نخدم عناوين التوصيل المؤهلة داخل مصر، ولا نعلن حالياً عن فرع استقبال أو استلام حضوري. تكلفة الشحن والمدة التقديرية تتحددان حسب العنوان وتظهران قبل تأكيد الطلب.'
+                            : 'The name used on this website and order records is CairoVolt, a brand of Taysir Smart Investment LLC, registered in Egypt under Commercial Register No. 8446 (GAFI, Gamasa Investment Office), based in New Damietta. We are an independent online retailer, not an official agent or authorized distributor of the displayed brands. We serve eligible delivery addresses in Egypt and do not currently advertise a walk-in or pickup branch. Shipping cost and estimated timing depend on the address and are shown before order confirmation.'}
                     </p>
                 </div>
             </section>

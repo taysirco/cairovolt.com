@@ -63,6 +63,11 @@ export default function Footer() {
                                 ? 'بائع تجزئة إلكتروني مستقل داخل مصر؛ لسنا وكيلاً أو موزعاً رسمياً للعلامات المعروضة، ولا يوجد فرع استقبال أو استلام حضوري معلن.'
                                 : 'Independent online retailer in Egypt; not an official agent or authorized distributor of the displayed brands, with no advertised walk-in or pickup branch.'}
                         </p>
+                        <p className="mt-1 text-[11px] leading-relaxed text-gray-500 dark:text-gray-400">
+                            {isRTL
+                                ? 'كايرو فولت علامة تجارية تتبع شركة تيسير للاستثمار الذكي (ش.ذ.م.م) — سجل تجاري رقم 8446 (استثمار جمصة)، دمياط الجديدة، مصر.'
+                                : 'CairoVolt is a brand of Taysir Smart Investment LLC — Commercial Register No. 8446 (GAFI, Gamasa Investment Office), New Damietta, Egypt.'}
+                        </p>
 
                         {/* Social Media Icons */}
                         <div className="flex items-center gap-2 mt-4">

@@ -39,6 +39,12 @@ export default function GlobalBusinessSchema({ locale }: { locale: string }) {
                 '@id': 'https://cairovolt.com/#organization',
                 name: 'CairoVolt',
                 alternateName: 'كايرو فولت',
+                legalName: 'شركة تيسير للاستثمار الذكي (ش.ذ.م.م)',
+                identifier: {
+                    '@type': 'PropertyValue',
+                    propertyID: isArabic ? 'السجل التجاري (مصر)' : 'Commercial Register (Egypt)',
+                    value: '8446',
+                },
                 url: 'https://cairovolt.com',
                 description: isArabic
                     ? 'كايرو فولت بائع تجزئة إلكتروني مستقل لإكسسوارات الموبايل ومنتجات انكر وجوي روم، مع مواصفات وأسعار وسياسات مكتوبة وخدمة توصيل داخل مصر.'
