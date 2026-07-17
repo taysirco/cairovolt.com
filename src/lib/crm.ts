@@ -123,10 +123,20 @@ export async function safeSendLeadToCRM(orderData: CrmOrderData): Promise<void> 
             // Retry only transient client-side responses.
             if (res.status >= 400 && res.status < 500 && res.status !== 408 && res.status !== 429) break;
         } catch (error: unknown) {
-            const kind = error && typeof error === 'object' && 'name' in error && error.name === 'AbortError'
-                ? 'timeout'
-                : 'network error';
-            console.warn(`[CRM] Attempt ${attempt}/${MAX_ATTEMPTS} failed: ${kind}`);
+            const isTimeout = !!(error && typeof error === 'object' && 'name' in error && (error as { name?: string }).name === 'AbortError');
+            if (isTimeout) {
+                // ⛔ DON'T retry on timeout. The CRM webhook creates the lead first, then
+                // runs address-correction + Bosta ranking (up to ~14s) before responding,
+                // so an 8s response timeout almost always means "delivered and created",
+                // not "failed". Retrying re-invokes the webhook and creates a DUPLICATE
+                // lead (two agents call the same customer). Fail-open here — the sheet
+                // reconciliation covers the rare true failure, and the CRM webhook is now
+                // idempotent by fingerprint as a second layer.
+                console.warn(`[CRM] Response timeout on attempt ${attempt} — lead already created server-side; not retrying (avoids duplicate).`);
+                return;
+            }
+            // Genuine connection failure (request never arrived) — safe to retry.
+            console.warn(`[CRM] Attempt ${attempt}/${MAX_ATTEMPTS} failed: network error`);
         }
         if (attempt < MAX_ATTEMPTS) await new Promise((r) => setTimeout(r, 800 * attempt));
     }
