@@ -99,7 +99,7 @@ export default function ContactPageClient() {
 
                     {/* Email */}
                     <a
-                        href="mailto:support@cairovolt.com"
+                        href="mailto:info@cairovolt.com"
                         onClick={() => trackEmailClick()}
                         className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 hover:shadow-xl hover:-translate-y-1 transition-all text-center"
                     >
