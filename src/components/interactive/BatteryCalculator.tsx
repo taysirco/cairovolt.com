@@ -65,7 +65,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                     >
                         {PHONES.map((p, i) => (
                             <option key={i} value={i}>
-                                {p.icon} {p.name} ({p.battery.toLocaleString()}mAh)
+                                {p.icon} {p.name} ({p.battery.toLocaleString('en-US')}mAh)
                             </option>
                         ))}
                     </select>
@@ -83,7 +83,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                     >
                         {POWER_BANKS.map((p, i) => (
                             <option key={i} value={i}>
-                                {isArabic ? localizeArabicBrandNames(p.name) : p.name} — {p.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                {isArabic ? localizeArabicBrandNames(p.name) : p.name} — {p.price.toLocaleString('en-US')} {isArabic ? 'ج.م' : 'EGP'}
                             </option>
                         ))}
                     </select>
@@ -137,7 +137,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                             {isArabic ? 'سعة الباور بانك' : 'Power Bank'}
                         </div>
                         <div className="text-lg font-bold text-gray-900 dark:text-white">
-                            {pb.capacity.toLocaleString()}<span className="text-xs text-gray-400">mAh</span>
+                            {pb.capacity.toLocaleString('en-US')}<span className="text-xs text-gray-400">mAh</span>
                         </div>
                     </div>
                     <div className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-3">
@@ -145,7 +145,7 @@ export function BatteryCalculator({ locale = 'ar' }: BatteryCalculatorProps) {
                             {isArabic ? 'بطارية الموبايل' : 'Phone Battery'}
                         </div>
                         <div className="text-lg font-bold text-gray-900 dark:text-white">
-                            {phone.battery.toLocaleString()}<span className="text-xs text-gray-400">mAh</span>
+                            {phone.battery.toLocaleString('en-US')}<span className="text-xs text-gray-400">mAh</span>
                         </div>
                     </div>
                 </div>

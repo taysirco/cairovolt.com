@@ -158,7 +158,7 @@ export default function VariantSelector({
                             <div className="border-t border-gray-100 dark:border-gray-800 pt-1.5 sm:pt-2">
                                 <div className="flex items-baseline gap-1 flex-wrap">
                                     <span className={`text-sm sm:text-lg font-bold ${isOutOfStock ? 'text-gray-400 line-through' : isSelected ? colors.text : 'text-gray-900 dark:text-white'}`}>
-                                        {variant.price.toLocaleString()}
+                                        {variant.price.toLocaleString('en-US')}
                                     </span>
                                     <span className="text-[9px] sm:text-[10px] text-gray-500">
                                         {isRTL ? 'ج.م' : 'EGP'}

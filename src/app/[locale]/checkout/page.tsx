@@ -236,7 +236,7 @@ export default function CheckoutPage() {
             setCouponValue(v.value);
             setCouponLabel(
                 v.type === 'fixed'
-                    ? (isArabic ? `خصم ${v.value.toLocaleString()} جنيه` : `EGP ${v.value.toLocaleString()} Off`)
+                    ? (isArabic ? `خصم ${v.value.toLocaleString('en-US')} جنيه` : `EGP ${v.value.toLocaleString('en-US')} Off`)
                     : (isArabic ? `خصم ${v.value}%` : `${v.value}% Off`)
             );
             setCouponError('');
@@ -584,7 +584,7 @@ export default function CheckoutPage() {
                         {/* Subtotal */}
                         <div className="flex justify-between pt-4 text-sm text-gray-600 dark:text-gray-400">
                             <span>{isArabic ? 'المجموع الفرعي' : 'Subtotal'}</span>
-                            <span>{totalAmount.toLocaleString()} {currency}</span>
+                            <span>{totalAmount.toLocaleString('en-US')} {currency}</span>
                         </div>
 
                         {/* Coupon — compact inline */}
@@ -635,7 +635,7 @@ export default function CheckoutPage() {
                         {couponCode && discountAmount > 0 && (
                             <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
                                 <span>🎁 {couponLabel || (isArabic ? 'خصم الكوبون' : 'Coupon discount')}</span>
-                                <span>- {discountAmount.toLocaleString()} {currency}</span>
+                                <span>- {discountAmount.toLocaleString('en-US')} {currency}</span>
                             </div>
                         )}
 
@@ -643,7 +643,7 @@ export default function CheckoutPage() {
                         {bundleDiscount > 0 && (
                             <div className="flex justify-between pt-2 text-sm text-green-600 font-medium">
                                 <span>🏆 {isArabic ? 'خصم الكومبو الذهبي' : 'Golden Combo discount'}</span>
-                                <span>- {bundleDiscount.toLocaleString()} {currency}</span>
+                                <span>- {bundleDiscount.toLocaleString('en-US')} {currency}</span>
                             </div>
                         )}
 
@@ -673,7 +673,7 @@ export default function CheckoutPage() {
                             <div className="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
                                 <p className="mb-2 text-xs text-center font-medium text-gray-700 dark:text-gray-300">
                                     {isArabic ? 'أضف منتجات بقيمة' : 'Add items worth'}{' '}
-                                    <span className="font-bold text-blue-600 dark:text-blue-400">{freeShippingAmountLeft.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}</span>
+                                    <span className="font-bold text-blue-600 dark:text-blue-400">{freeShippingAmountLeft.toLocaleString('en-US')} {isArabic ? 'ج.م' : 'EGP'}</span>
                                     {' '}{isArabic ? 'للحصول على شحن مجاني' : 'for Free Shipping'}
                                 </p>
                                 <div className="w-full h-1.5 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
@@ -691,7 +691,7 @@ export default function CheckoutPage() {
                             <span className={(!city && shipping !== 0) ? "text-amber-500 text-sm" : "text-green-600"}>
                                 {(!city && shipping !== 0) 
                                     ? (isArabic ? 'حدد المحافظة أولاً' : 'Select Gov First')
-                                    : `${(subtotalAfterDiscount + shipping).toLocaleString()} ${currency}`
+                                    : `${(subtotalAfterDiscount + shipping).toLocaleString('en-US')} ${currency}`
                                 }
                             </span>
                         </div>

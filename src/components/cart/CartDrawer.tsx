@@ -116,7 +116,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                         ) : (
                             <span className="text-gray-700 dark:text-gray-300">
                                 {isRTL ? 'أضف منتجات بقيمة' : 'Add items worth'}{' '}
-                                <span className="font-bold text-blue-600 dark:text-blue-400">{amountLeft.toLocaleString()} {isRTL ? 'ج.م' : 'EGP'}</span>
+                                <span className="font-bold text-blue-600 dark:text-blue-400">{amountLeft.toLocaleString('en-US')} {isRTL ? 'ج.م' : 'EGP'}</span>
                                 {' '}{isRTL ? 'للحصول على شحن مجاني' : 'for Free Shipping'}
                             </span>
                         )}
@@ -167,7 +167,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
 
                                     <div className="flex items-center justify-between mt-2">
                                         <div className="font-bold text-blue-600">
-                                            {item.price.toLocaleString()} <span className="text-xs text-gray-500">{isRTL ? 'ج.م' : 'EGP'}</span>
+                                            {item.price.toLocaleString('en-US')} <span className="text-xs text-gray-500">{isRTL ? 'ج.م' : 'EGP'}</span>
                                         </div>
 
                                         {/* Quantity Controls */}
@@ -209,7 +209,7 @@ export default function CartDrawer({ locale }: { locale: string }) {
                         <div className="flex justify-between items-center mb-4">
                             <span className="text-gray-500">{isRTL ? 'المجموع الفرعي' : 'Subtotal'}</span>
                             <div className="text-end">
-                                <span className="text-xl font-bold">{totalAmount.toLocaleString()} {isRTL ? 'ج.م' : 'EGP'}</span>
+                                <span className="text-xl font-bold">{totalAmount.toLocaleString('en-US')} {isRTL ? 'ج.م' : 'EGP'}</span>
                             </div>
                         </div>
 

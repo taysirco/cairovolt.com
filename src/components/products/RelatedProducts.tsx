@@ -104,7 +104,7 @@ export default function RelatedProducts({ products, locale }: RelatedProductsPro
 
                                     <div className="pt-2 flex items-baseline gap-2">
                                         <span className="font-bold text-blue-600 text-base">
-                                            {product.price.toLocaleString()} <span className="text-xs">{isArabic ? 'ج.م' : 'EGP'}</span>
+                                            {product.price.toLocaleString('en-US')} <span className="text-xs">{isArabic ? 'ج.م' : 'EGP'}</span>
                                         </span>
                                     </div>
                                 </div>

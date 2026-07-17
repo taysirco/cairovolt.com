@@ -58,7 +58,7 @@ export function ChargingSpeedCalculator({ locale = 'ar' }: ChargingSpeedCalculat
                                 <div className="font-bold">{c.watt}W</div>
                                 {c.price && (
                                     <div className="text-[10px] mt-0.5 opacity-75">
-                                        {c.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                        {c.price.toLocaleString('en-US')} {isArabic ? 'ج.م' : 'EGP'}
                                     </div>
                                 )}
                             </button>

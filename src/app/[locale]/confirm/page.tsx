@@ -309,9 +309,9 @@ function ConfirmContent() {
                                     </div>
                                 </div>
                                 <div className={`${isArabic ? 'text-left' : 'text-right'} flex-shrink-0 ms-2`}>
-                                    <p className="font-bold text-sm sm:text-base">{(item.price * item.quantity).toLocaleString()} {currency}</p>
+                                    <p className="font-bold text-sm sm:text-base">{(item.price * item.quantity).toLocaleString('en-US')} {currency}</p>
                                     {item.quantity > 1 && (
-                                        <p className="text-xs text-gray-500">{item.price.toLocaleString()} × {item.quantity}</p>
+                                        <p className="text-xs text-gray-500">{item.price.toLocaleString('en-US')} × {item.quantity}</p>
                                     )}
                                 </div>
                             </div>
@@ -322,24 +322,24 @@ function ConfirmContent() {
                     <div className="mt-4 pt-4 border-t-2 border-gray-200 dark:border-gray-700 space-y-2">
                         <div className="flex justify-between text-gray-600">
                             <span>{isArabic ? 'المجموع الفرعي' : 'Subtotal'}</span>
-                            <span>{orderData.subtotal.toLocaleString()} {currency}</span>
+                            <span>{orderData.subtotal.toLocaleString('en-US')} {currency}</span>
                         </div>
                         {/* Coupon discount line */}
-                        {orderData.couponCode && orderData.couponDiscount && orderData.couponDiscount > 0 && (
+                        {orderData.couponCode && (orderData.couponDiscount ?? 0) > 0 && (
                             <div className="flex justify-between text-green-600 font-medium">
                                 <span className="flex items-center gap-1">
                                     🎁 {isArabic ? `كوبون ${orderData.couponCode}` : `Coupon ${orderData.couponCode}`}
                                 </span>
-                                <span>- {orderData.couponDiscount.toLocaleString()} {currency}</span>
+                                <span>- {(orderData.couponDiscount ?? 0).toLocaleString('en-US')} {currency}</span>
                             </div>
                         )}
                         {/* 🏆 Golden Combo discount line */}
-                        {orderData.bundleDiscount && orderData.bundleDiscount > 0 && (
+                        {(orderData.bundleDiscount ?? 0) > 0 && (
                             <div className="flex justify-between text-green-600 font-medium">
                                 <span className="flex items-center gap-1">
                                     🏆 {isArabic ? 'خصم الكومبو الذهبي' : 'Golden Combo discount'}
                                 </span>
-                                <span>- {orderData.bundleDiscount.toLocaleString()} {currency}</span>
+                                <span>- {(orderData.bundleDiscount ?? 0).toLocaleString('en-US')} {currency}</span>
                             </div>
                         )}
                         <div className="flex justify-between text-gray-600">
@@ -350,7 +350,7 @@ function ConfirmContent() {
                         </div>
                         <div className="flex justify-between text-xl font-bold pt-2 border-t">
                             <span>{isArabic ? 'الإجمالي' : 'Total'}</span>
-                            <span className="text-green-600">{orderData.total.toLocaleString()} {currency}</span>
+                            <span className="text-green-600">{orderData.total.toLocaleString('en-US')} {currency}</span>
                         </div>
                     </div>
                 </div>
@@ -367,8 +367,8 @@ function ConfirmContent() {
                             </h3>
                             <p className="text-sm text-green-600 dark:text-green-500">
                                 {isArabic
-                                    ? `ادفع ${orderData.total.toLocaleString()} جنيه عند استلام الطلب`
-                                    : `Pay ${orderData.total.toLocaleString()} EGP upon receiving your order`}
+                                    ? `ادفع ${orderData.total.toLocaleString('en-US')} جنيه عند استلام الطلب`
+                                    : `Pay ${orderData.total.toLocaleString('en-US')} EGP upon receiving your order`}
                             </p>
                         </div>
                     </div>

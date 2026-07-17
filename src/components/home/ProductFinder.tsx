@@ -276,7 +276,7 @@ export default function ProductFinder({ locale }: ProductFinderProps) {
                       </p>
                     )}
                     <div className="mt-2 flex items-baseline gap-1.5">
-                      <strong className="font-outfit text-xl">{product.price.toLocaleString()}</strong>
+                      <strong className="font-outfit text-xl">{product.price.toLocaleString('en-US')}</strong>
                       <span className="text-xs text-slate-500">{isAr ? 'ج.م' : 'EGP'}</span>
                     </div>
                   </div>

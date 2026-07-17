@@ -129,7 +129,7 @@ export default function SoundcoreFamilyStrip({ locale }: SoundcoreFamilyStripPro
                                     </h3>
                                     <div className="mt-1.5 flex items-baseline gap-1">
                                         <span className="text-sm font-black text-orange-300 md:text-base">
-                                            {product.price.toLocaleString()}
+                                            {product.price.toLocaleString('en-US')}
                                         </span>
                                         <span className="text-[9px] text-gray-400">{isRTL ? 'ج.م' : 'EGP'}</span>
                                     </div>

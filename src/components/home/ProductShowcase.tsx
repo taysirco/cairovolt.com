@@ -145,7 +145,7 @@ export default function ProductShowcase({ locale }: ProductShowcaseProps) {
                   </span>
 
                   <div className="mt-auto flex flex-wrap items-baseline gap-x-1.5 pt-4">
-                    <strong className="font-outfit text-lg text-[#07111f] sm:text-xl">{product.price.toLocaleString()}</strong>
+                    <strong className="font-outfit text-lg text-[#07111f] sm:text-xl">{product.price.toLocaleString('en-US')}</strong>
                     <span className="text-[10px] text-slate-500 sm:text-xs">{isAr ? 'ج.م' : 'EGP'}</span>
                   </div>
 

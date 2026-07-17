@@ -250,7 +250,7 @@ export function GenericCategoryContent({
                                                 <meta itemProp="priceCurrency" content="EGP" />
                                                 <meta itemProp="availability" content={product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'} />
                                                 <span className="text-lg font-bold text-gray-900" itemProp="price" content={String(product.price)}>
-                                                    {product.price.toLocaleString()}
+                                                    {product.price.toLocaleString('en-US')}
                                                 </span>
                                                 <span className="text-xs text-gray-500">{isArabic ? 'ج.م' : 'EGP'}</span>
                                             </div>

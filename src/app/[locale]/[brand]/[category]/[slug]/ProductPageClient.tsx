@@ -637,7 +637,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                         {/* Price */}
                         <div className="flex flex-wrap items-end gap-2 md:gap-3 py-3 md:py-4 border-y border-gray-100 dark:border-gray-800">
                             <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white transition-all duration-300">
-                                {activePrice.toLocaleString()}
+                                {activePrice.toLocaleString('en-US')}
                             </span>
                             <span className="text-base md:text-xl text-gray-600 dark:text-gray-300 mb-0.5 md:mb-1">
                                 {tCommon('egp')}
@@ -1023,7 +1023,7 @@ export default function ProductPageClient({ product, relatedProducts = [], bundl
                                 <div className="flex-shrink-0 min-w-[90px]">
                                     <span className="sticky-label block text-[11px] font-medium mb-0.5 text-zinc-400" style={{ color: '#a1a1aa' }}>{tProduct('price')}</span>
                                     <div className="flex items-baseline gap-1">
-                                        <span className="sticky-price text-xl font-black text-white" style={{ color: '#ffffff' }}>{activePrice.toLocaleString()}</span>
+                                        <span className="sticky-price text-xl font-black text-white" style={{ color: '#ffffff' }}>{activePrice.toLocaleString('en-US')}</span>
                                         <span className="sticky-label text-xs font-medium text-zinc-400" style={{ color: '#a1a1aa' }}>{tCommon('egp')}</span>
                                     </div>
                                 </div>

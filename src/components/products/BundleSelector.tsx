@@ -167,8 +167,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
             {pricing.bundleDiscount > 0 && (
                 <p className="text-center text-sm text-green-600 dark:text-green-400 font-semibold mb-1">
                     {isArabic
-                        ? `خصم ${pricing.bundleDiscount.toLocaleString()} ج.م لما تاخدهم مع بعض`
-                        : `Save ${pricing.bundleDiscount.toLocaleString()} EGP when bought together`}
+                        ? `خصم ${pricing.bundleDiscount.toLocaleString('en-US')} ج.م لما تاخدهم مع بعض`
+                        : `Save ${pricing.bundleDiscount.toLocaleString('en-US')} EGP when bought together`}
                 </p>
             )}
             {pricing.unlocksFreeShipping ? (
@@ -184,8 +184,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
             ) : (
                 <p className="text-center text-xs text-gray-500 dark:text-gray-400 mb-4">
                     {isArabic
-                        ? `🚚 باقي ${pricing.amountToFreeShipping.toLocaleString()} ج.م بس على الشحن المجاني`
-                        : `🚚 Only ${pricing.amountToFreeShipping.toLocaleString()} EGP away from free shipping`}
+                        ? `🚚 باقي ${pricing.amountToFreeShipping.toLocaleString('en-US')} ج.م بس على الشحن المجاني`
+                        : `🚚 Only ${pricing.amountToFreeShipping.toLocaleString('en-US')} EGP away from free shipping`}
                 </p>
             )}
 
@@ -269,7 +269,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                 {/* Price */}
                                 <div className={`text-start ${isSelected ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400'}`}>
-                                    <span className="text-lg font-bold">{item.product.price.toLocaleString()}</span>
+                                    <span className="text-lg font-bold">{item.product.price.toLocaleString('en-US')}</span>
                                     <span className="text-xs ms-1">{isArabic ? 'ج.م' : 'EGP'}</span>
                                 </div>
                             </button>
@@ -299,7 +299,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         </div>
                         {pricing.totalSavings > 0 && (
                             <span className="text-sm font-bold text-green-600 bg-green-100 dark:bg-green-900/50 px-3 py-1.5 rounded-full animate-pulse">
-                                {isArabic ? `وفر ${pricing.totalSavings.toLocaleString()} ج.م` : `Save ${pricing.totalSavings.toLocaleString()} EGP`}
+                                {isArabic ? `وفر ${pricing.totalSavings.toLocaleString('en-US')} ج.م` : `Save ${pricing.totalSavings.toLocaleString('en-US')} EGP`}
                             </span>
                         )}
                     </div>
@@ -309,8 +309,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         <div className="text-center mb-3 py-2 bg-green-50 dark:bg-green-900/30 rounded-xl border border-green-200 dark:border-green-800">
                             <span className="text-sm font-bold text-green-700 dark:text-green-300">
                                 🎁 {isArabic
-                                    ? `خصم الكومبو: ${pricing.bundleDiscount.toLocaleString()} ج.م`
-                                    : `Combo Discount: ${pricing.bundleDiscount.toLocaleString()} EGP`}
+                                    ? `خصم الكومبو: ${pricing.bundleDiscount.toLocaleString('en-US')} ج.م`
+                                    : `Combo Discount: ${pricing.bundleDiscount.toLocaleString('en-US')} EGP`}
                             </span>
                         </div>
                     )}
@@ -322,11 +322,11 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         </div>
                         {pricing.bundleDiscount > 0 && (
                             <span className="text-lg text-gray-400 line-through me-2">
-                                {pricing.totalPrice.toLocaleString()}
+                                {pricing.totalPrice.toLocaleString('en-US')}
                             </span>
                         )}
                         <span className="text-4xl font-black text-gray-900 dark:text-white">
-                            {pricing.finalPrice.toLocaleString()}
+                            {pricing.finalPrice.toLocaleString('en-US')}
                         </span>
                         <span className="text-lg text-gray-500 ms-2">{isArabic ? 'ج.م' : 'EGP'}</span>
                     </div>
@@ -350,8 +350,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                         <SvgIcon name="cart" className="w-5 h-5" />
                         {pricing.totalSavings > 0
                             ? (isArabic
-                                ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م${pricing.freeShipping ? ' + شحن مجاني' : ''}`
-                                : `Add Combo & Save ${pricing.totalSavings.toLocaleString()} EGP${pricing.freeShipping ? ' + Free Shipping' : ''}`)
+                                ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString('en-US')} ج.م${pricing.freeShipping ? ' + شحن مجاني' : ''}`
+                                : `Add Combo & Save ${pricing.totalSavings.toLocaleString('en-US')} EGP${pricing.freeShipping ? ' + Free Shipping' : ''}`)
                             : (isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart')
                         }
                     </button>
@@ -426,7 +426,7 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
 
                                             <div className="flex items-center justify-center gap-2 flex-wrap">
                                                 <span className={`font-bold text-lg ${isSelected ? 'text-blue-600 dark:text-blue-400' : 'text-gray-400'}`}>
-                                                    {item.product.price.toLocaleString()}
+                                                    {item.product.price.toLocaleString('en-US')}
                                                 </span>
                                                 <span className="text-sm text-gray-500">
                                                     {isArabic ? 'ج.م' : 'EGP'}
@@ -472,19 +472,19 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                                 {/* Show the undiscounted bundle total when a bundle discount applies. */}
                                 {pricing.bundleDiscount > 0 && (
                                     <span className="text-lg text-gray-400 line-through block">
-                                        {pricing.totalPrice.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                        {pricing.totalPrice.toLocaleString('en-US')} {isArabic ? 'ج.م' : 'EGP'}
                                     </span>
                                 )}
 
                                 <div className="text-3xl font-bold text-gray-900 dark:text-white">
-                                    {pricing.finalPrice.toLocaleString()}
+                                    {pricing.finalPrice.toLocaleString('en-US')}
                                     <span className="text-base font-medium text-gray-500 ms-1">{isArabic ? 'ج.م' : 'EGP'}</span>
                                 </div>
 
                                 {/* Savings badge */}
                                 {pricing.totalSavings > 0 && (
                                     <span className="inline-block mt-2 text-sm font-semibold text-green-600 bg-green-100 dark:bg-green-900/40 px-3 py-1 rounded-full">
-                                        {isArabic ? `وفرت ${pricing.totalSavings.toLocaleString()} ج.م` : `Save ${pricing.totalSavings.toLocaleString()} EGP`}
+                                        {isArabic ? `وفرت ${pricing.totalSavings.toLocaleString('en-US')} ج.م` : `Save ${pricing.totalSavings.toLocaleString('en-US')} EGP`}
                                     </span>
                                 )}
 
@@ -520,8 +520,8 @@ export default function BundleSelector({ mainProduct, relatedProducts, bundleDat
                             >
                                 {pricing.totalSavings > 0
                                     ? (isArabic
-                                        ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString()} ج.م${pricing.freeShipping ? ' + شحن مجاني' : ''}`
-                                        : `Add & Save ${pricing.totalSavings.toLocaleString()} EGP${pricing.freeShipping ? ' + Free Shipping' : ''}`)
+                                        ? `أضف الكومبو ووفر ${pricing.totalSavings.toLocaleString('en-US')} ج.م${pricing.freeShipping ? ' + شحن مجاني' : ''}`
+                                        : `Add & Save ${pricing.totalSavings.toLocaleString('en-US')} EGP${pricing.freeShipping ? ' + Free Shipping' : ''}`)
                                     : (isArabic ? 'إضافة الكل للسلة' : 'Add All to Cart')
                                 }
                             </button>

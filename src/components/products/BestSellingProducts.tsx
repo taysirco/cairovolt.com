@@ -242,7 +242,7 @@ export default function BestSellingProducts({
                                                 isAnker ? 'text-blue-600 dark:text-blue-400' :
                                                 'text-red-600 dark:text-red-400'
                                             }`}>
-                                                {product.price.toLocaleString()}
+                                                {product.price.toLocaleString('en-US')}
                                             </span>
                                             <span className="text-[10px] text-gray-600 dark:text-gray-400 font-medium mr-1 ml-0.5">
                                                 {isRTL ? 'ج.م' : 'EGP'}

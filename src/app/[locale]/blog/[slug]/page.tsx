@@ -604,7 +604,7 @@ export default async function BlogArticlePage({ params }: Props) {
                                                 <div className="flex items-center justify-between">
                                                     <div>
                                                         <span className="text-lg font-bold text-green-700 dark:text-green-400">
-                                                            {prod.price.toLocaleString()} {isArabic ? 'ج.م' : 'EGP'}
+                                                            {prod.price.toLocaleString('en-US')} {isArabic ? 'ج.م' : 'EGP'}
                                                         </span>
                                                     </div>
                                                     <span className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-colors duration-300 ${isAnkerBrand ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 group-hover:bg-blue-600 group-hover:text-white' : 'bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-300 group-hover:bg-red-600 group-hover:text-white'}`}>
